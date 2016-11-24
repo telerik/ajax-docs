@@ -26,7 +26,7 @@ The extensions handle the following major points in the development with Telerik
 
 * [Toolbox configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration%}) - select what version of Telerik UI to be populated in the Toolbox.
 
-Visual Studio Extensions for Telerik UI for ASP.NET AJAX are distributed with the Telerik UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the Visual Studio Gallery only for Visual Studio 2012 and later. The extensions support Visual Studio 2008, 2010, 2012, 2013, 2015 and 2015 handling.NET 3.5, .NET 4.0 and .NET 4.5 projects.
+Visual Studio Extensions for Telerik UI for ASP.NET AJAX are distributed with the Telerik UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the Visual Studio Gallery only for Visual Studio 2012 and later. The extensions support Visual Studio 2008, 2010, 2012, 2013, 2015 and 2017 handling.NET 3.5, .NET 4.0 and .NET 4.5 projects.
 
 The Visual Studio Extensions can be accessed through the Telerik | Telerik UI for ASP.NET AJAX menu which has different menu items depending on the selected project in Visual Studio. The extensions can be accessed through the context menu of a web project as well.
 
