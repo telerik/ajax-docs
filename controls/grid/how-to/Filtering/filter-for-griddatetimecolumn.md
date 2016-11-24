@@ -13,8 +13,6 @@ position: 7
 
 
 
-##
-
 The default drop-down list of filter functions for **GridDateTimeColumn** contains the following items:
 
 * NoFilter
@@ -166,4 +164,4 @@ No visual changes are observed in the filter item after the property has been en
 
 ## See Also
 
- * [Basic Filtering](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/filtering/defaultcs.aspx">)
+ * [Live Demo: Basic Filtering](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/filtering/defaultcs.aspx)
