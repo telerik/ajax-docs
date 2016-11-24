@@ -140,3 +140,5 @@ The issue is not directly related to the UI for ASP.NET AJAX controls and can be
 
 `Exception was thrown at line 4224, column 4 in http://localhost:60537/WebSite1/Scripts/jquery-1.9.1.js`
 `0x800a139e - JavaScript runtime error: SyntaxError`
+
+This is a runtime error from a caught exception that doesn't affect the production environment. More information on the matter is available in this bug report [https://bugs.jquery.com/ticket/14123](https://bugs.jquery.com/ticket/14123)
