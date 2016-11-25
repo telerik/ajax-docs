@@ -19,7 +19,7 @@ RadEditor toolbar buttons have four states:
 * **Selected** / **Pressed** (![Selected State](images/editor-button-state-selected.png))
 * **Disabled** / **Inactive** (![Disabled State](images/editor-button-state-disabled.png))
 
-You can **control the appearance** of the button **in each state** via **CSS** (see **Examples 2-8** below). This is often needed for [custom buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}).
+You can **control the appearance** of the button **in each state** via **CSS** (see **Examples 2-10** below). This is often needed for [custom buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}).
 
 You can also **set a button's state** via **JavaScript** (see **Example 1**). The Hovered state requires a user action and cannot be set through code.
 
@@ -61,7 +61,7 @@ To do this, use the `setState` method the buttons expose. It takes a member of t
 </telerik:RadEditor>
 ````
 
-To put the custom button in pressed state use `oTool.setState(**1**);`
+To put the custom button in pressed state use `oTool.setState(1);`
 
 ## Set Icons for Toolbar Button States
 
@@ -124,6 +124,14 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 >caption Figures 1-3: Three images that you can use for custom button states:
 
 ![active state icon](images/active-state-icon.gif) ![hovered state icon](images/hovered-state-icon.gif) ![selected state icon](images/selected-state-icon.gif) 
+
+You can set images in the [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}) by:
+
+* setting the `ImageUrl` and `ImageUrlLarge` properties of the [EditorTool](/api/server/Telerik.Web.UI/EditorTool#properties-ImageUrl)
+
+* declaring them in the [toolsfile]({%slug editor/functionality/toolbars/using-toolsfile.xml%}#tool-element---tool)
+
+These images do not have different states on their own, hover and active states are provided by the ribbon bar buttons that contain the images.
 
 ### Lightweight RenderMode
 
@@ -199,9 +207,71 @@ a.reTool.reCustom2:before
 >note Since the image has a static size, if the font-size of the editor is changed, it will not provide the elastic abilities of the font-icons and stretch as well. Thus, if you intend to change the font-size of the control, you need to take into account that when creating the image size and choosing its position.
 
 
+>caption **Example 7**: CSS rules for a RibbonBar button with a font icon.
+
+````CSS
+/* generic rule */
+.reRibbonTool .re<toolName>:before
+{
+	content: "\e681";
+}
+/* example for tool with name "customTool" */
+.reRibbonTool .recustomTool:before
+{
+	content: "\e681";
+}
+````
+
+>caption **Example 8**: CSS rules for a RibbonBar button with a raster image.
+
+````CSS
+/* generic rule */
+/*remove the built-in font icon*/
+.reRibbonTool .re<toolName>:before
+{
+	content: "";
+}
+/*for any button type*/
+.reRibbonTool .re<toolName>
+{
+	background-image: url('images/button.png');
+}
+
+/* example for tool with name "customTool" */
+/*remove the built-in font icon*/
+.reRibbonTool .recustomTool:before
+{
+	content: "";
+}
+/*for any button type*/
+.reRibbonTool .recustomTool
+{
+	background-image: url('images/small.png');
+}
+/*for a small button*/
+.reRibbonTool.rrbSmallButton .recustomTool
+{
+	background-image: url('images/small.png');
+}
+/*for a medium button*/
+.reRibbonTool.rrbMediumButton .recustomTool
+/*the size of the images is the same as in a small button*/
+{
+	background-image: url('images/medium.png');
+}
+/*for a large button*/
+.reRibbonTool.rrbLargeButton .recustomTool
+{
+	background-image: url('images/large.png');
+}
+````
+
+Hover and active states are provided by the ribbon bar button, not by the font icon itself.
+
+
 ### Mobile RenderMode
 
->caption **Example 7**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
+>caption **Example 9**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
 
 ````CSS
 /*Active state*/
@@ -223,7 +293,7 @@ a.reTool.reCustom2:before
 }
 ````
 
->caption **Example 8**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
+>caption **Example 10**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
 
 
 ````CSS

@@ -110,9 +110,11 @@ The `headertools` element has no attributes. You can see how it can be configure
 
 |Attribute|Description|
 | ------ | ------ |
-| **name** |This string will identify the toolbar. This is the rendered name of the tool group when a RibbonBar is used.|
-| **tab** *|This string will set a name to the **Tab** in the **ToolZone** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
 | **context** *|Configures the contextual behavior of a **Tab** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
+| **name** |This string will identify the toolbar. This is the rendered name of the tool group when a RibbonBar is used.|
+| **tab** *|This string will set a name to the **Tab** in the **ToolZone** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) and [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}))_.|
+
+
 
 &lowast; These attributes are related to [Phone Layout]({%slug editor/mobile-support/phone-layout/overview%}) configuration and are applicable only with [Mobile rendering]({%slug editor/mobile-support/render-modes%}).
 
@@ -123,11 +125,17 @@ The `headertools` element has no attributes. You can see how it can be configure
 |Attribute|Description|
 | ------ | ------ |
 | **name** *(required)*|This string will identify the tool.|
+|**imageurl**|Sets the URL to the image of the small or medium button in [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}) in Classic RenderMode.|
+|**imageurllarge**|Sets the URL to the image of the large button in [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}) in Classic RenderMode.|
+| **position** *|**Applicable only when tool is added to the HeaderTools collection**. Defines whether the tool to be added to the left or the right tool-group _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
 |**shortcut** |The key combination for the specific tool: `<tool name="LinkManager"  />` or `<tool name="TemplateManager" shortcut="Ctrl+Shift+Alt+T" />`|
 |**showtext** |Specifies whether to display the button name next to its icon `<tool name="ImageManager" shortcut="Ctrl+G" showtext="true" />`|
 |**showicon** |Specifies whether to display the tools icon or not. Default value is true. `<tool name="ImageManager" shortcut="Ctrl+G" showicon="false" showtext="true" />`|
 |**separator**|Indicates whether a separator should appear at the current position. Possible values are boolean true or false, but if you do not want a separator	you simply should omit this property. When set to true it does not require the Name attribute to be set as well.|
-| **position** *|**Applicable only when tool is added to the HeaderTools collection**. Defines whether the tool to be added to the left or the right tool-group _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
+|**size**|The size of the button. Applicable for the [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}). Can be `small`, `medium` or `large` |
+|**strip**|Sets the toolstip in the  [RibbonBar]({%slug editor/functionality/toolbars/using-ribbonbar%}) tab where the button will reside. This is a collection of buttons in the same container. |
+|**text**|Sets the text shown in the tool button. Applicable for medium and large buttons in [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}).|
+
 
 &lowast; These attributes are related to [Phone Layout]({%slug editor/mobile-support/phone-layout/overview%}) configuration and are applicable only with [Mobile rendering]({%slug editor/mobile-support/render-modes%}).
 
