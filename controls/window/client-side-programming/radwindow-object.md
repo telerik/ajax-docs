@@ -75,7 +75,6 @@ This article contains the following sections:
 | **set_behaviors** |Sets the **Behaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowBehaviors** enum.	To set more than one behavior, use "+". Possible values are: **None** , **Resize** , **Minimize** , **Close** , **Pin** , **Maximize** , **Move** , **Reload** , **Default** .	For example: `oWnd.set_behaviors(Telerik.Web.UI.WindowBehaviors.Move + Telerik.Web.UI.WindowBehaviors.Close)`|
 | **set_centerIfModal** |Sets the **CenterIfModal** property. It is **True** by default, meaning a modal **RadWindow** will ignore the **Left** and **Top** properties. When set to **False** , these properties will be respected.	Can be useful in the **OnClientBeforeShow** event.|
 | **set_contentElement** |Sets the content element when the **RadWindow** is used as a controls container (i.e., its **ContentTemplate** ) and not with **NavigateUrl** . Takes a DOM object as a parameter.|
-| **set_cssClass** |Sets the class name (otherwise specified in the **CssClass** property).|
 | **set_destroyOnClose** |Sets a value indicating whether the **RadWindow** will be disposed and made inaccessible once it is closed.|
 | **set_enableShadow** |Sets a value indicating whether the **RadWindow** should have a shadow.|
 | **set_height** |Sets the **RadWindow** height in pixels.|

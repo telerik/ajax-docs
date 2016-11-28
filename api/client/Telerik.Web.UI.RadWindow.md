@@ -828,17 +828,6 @@ Sets content element when the RadWindow is used as controls container and not wi
 
 `None` 
 
-### set_cssClass
-
-Sets the class name specified in the CSSClass property
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
 
 ### set_destroyOnClose
 
