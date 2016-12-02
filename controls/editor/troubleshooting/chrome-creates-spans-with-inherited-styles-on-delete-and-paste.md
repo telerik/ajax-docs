@@ -15,7 +15,7 @@ Chrome creates additional spans with inline styles (inherits styles) on backspac
  * [https://bugs.chromium.org/p/chromium/issues/detail?id=226941](https://bugs.chromium.org/p/chromium/issues/detail?id=226941)
  * [https://bugs.webkit.org/show_bug.cgi?id=114791](https://bugs.webkit.org/show_bug.cgi?id=114791)
 
-You can workaround that browser behavior by setting an empty value for the `EditorCssFile` which will prevent the page style inheritance.
+You can work around this Chrome browser behavior by setting an empty value for the `EditorCssFile`, which will prevent the page style inheritance.
 
 >caption **Example 1**: Prevent the page style inheritance by setting an empty value for the `EditorCssFile`.
 
