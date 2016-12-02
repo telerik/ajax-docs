@@ -37,7 +37,7 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 1. Create or load your WebForms project.
 
-1. Go to **Tools** > **NuGet Package Manager** > **Manages NuGet Packages for solution**. <Comment: My guess is Manage should not have an s at the end but please check. Match the UI in step-by-step directions.>
+1. Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for solution**.
 
 1. Choose the **Online** / **Browse** list of packages (depending on your VS version).
 
