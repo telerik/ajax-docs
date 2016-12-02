@@ -23,11 +23,11 @@ This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 
 ## Telerik NuGet Feed in Visual Studio
 
-Telerik provides a NuGet feed you can use in Visual Studio by following these steps:
+Telerik provides a NuGet feed that you can use in Visual Studio by following these steps:
 
 1. Open Visual Studio.
 
-1. Go to **Tools** > **NuGet Package Manager** -> **Package Manager Settings**, select **Package Manager Sources** and click the **+** button to add a feed.
+1. Go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**, select **Package Manager Sources** and then click the **+** button to add a feed.
 
 1. Add a feed with the following URL: **https://nuget.telerik.com/nuget** and click **OK**.
 
@@ -37,7 +37,7 @@ Telerik provides a NuGet feed you can use in Visual Studio by following these st
 
 1. Create or load your WebForms project.
 
-1. Go to **Tools** > **NuGet Package Manager** > **Manages NuGet Packages for solution**.
+1. Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for solution**.
 
 1. Choose the **Online** / **Browse** list of packages (depending on your VS version).
 
@@ -49,7 +49,7 @@ Telerik provides a NuGet feed you can use in Visual Studio by following these st
 
 	![Enter your Telerik.com credentials](images/telerik-nuget-credentials.png)
 
-1. Select the Telerik UI for ASP.NET AJAX package, e.g.: **Telerik.UI.for.AspNet.Ajax.Net45**) and click **Install**. The package name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>` and you should make sure to select the desired Telerik version.
+1. Select the Telerik UI for ASP.NET AJAX package, e.g., **Telerik.UI.for.AspNet.Ajax.Net45**) and click **Install**. The package name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>` and you should make sure to select the desired Telerik version.
 
 	>tip Search for "telerik.ui.for" to narrow down the list of results and find the package easily.
 
@@ -61,7 +61,7 @@ Telerik provides a NuGet feed you can use in Visual Studio by following these st
 
 You can download a *.nupkg* file to [build a private feed](http://www.telerik.com/blogs/power-your-projects-with-telerik---now-with-the-convenience-of-nuget) for your company by following the steps below.
 
->important Such a feed must be private (i.e., not available to the general Internet) and the standard developer-seat [licensing model]({%slug introduction/licensing/license-agreement%}) applies (i.e., the developers working with the controls must have active licenses). If you have questions on the licensing scheme, send them to telerik-sales@progress.com
+>important Such a feed must be private (i.e., not available to the general Internet) and the standard developer-seat [licensing model]({%slug introduction/licensing/license-agreement%}) applies (i.e., the developers working with the controls must have active licenses). If you have questions on the licensing scheme, send them to telerik-sales@progress.com.
 
 
 1. Navigate to [Your Account](https://www.telerik.com/account/).
