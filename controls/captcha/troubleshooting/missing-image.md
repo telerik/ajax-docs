@@ -25,7 +25,7 @@ Generally, issues with missing captcha image are caused by the HttpHandler that 
 
 You should ensure that you have properly defined the HttpHandler that serves the captcha image in the `web.config` file (**Example 1**).
 
->caption **Example 1**: Configure the HttpHandler that serves the CAPTCHA <<Comment: According to the official site http://www.captcha.net/ the word CAPTCHA is all caps in body text.>> image in the web.config file.
+>caption **Example 1**: Configure the HttpHandler that serves the CAPTCHA image in the web.config file.
 
 **XML**
 
