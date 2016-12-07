@@ -11,12 +11,6 @@ position: 3
 # Installing the Telerik Controls from ZIP File
 
 
-
->important As of Q1 2011, Telerik UI for ASP.NET AJAX is shipped with .NET 3.5 and above assemblies only.	The following page contains more information about the product support lifecycle of the controls:
->[http://www.telerik.com/aspnet-ajax/tech-sheets/net-support](http://www.telerik.com/aspnet-ajax/tech-sheets/net-support)
->
-
-
 >caution  **Prerequisite** 
 >In order to have the Telerik UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
 
@@ -27,21 +21,30 @@ The **ZIP** is used to install Telerik UI for ASP.NET AJAX manually for upgradin
 
 To install the Telerik UI for ASP.NET AJAX suite on your machine from the **ZIP** file, follow the instructions below:
 
-1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Products & Subscriptions** from the top menu.
+1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
-1. In the dropdown that appears choose from your purchased products or trial downloads the Telerik UI for ASP.NET AJAX, and click on it. If you have purchased a collection you would need to click on it and the trial downloads page will show all trial downloads directly.
-
-1. Click on **Download Installer and other resources** (the Download link next to the suite if you are a trial user). You need to choose the Telerik UI for ASP.NET AJAX suite if you have purchased the collection and click its Browse all product files button.
+1. On the loaded page choose from your purchased products or trial downloads Telerik UI for ASP.NET AJAX, and click on it.
 
 1. Download the **Manual installation** (**ZIP**) file.The **ZIP** file contains the following folders:
+	
+	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
+	
+	* **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
-	* **binXX** - contains the product assembly and the XML file necessary for the IntelliSense support. **binXX** folder - contains the assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
+	* **EditorDialogs** - contains the **Editor** dialog files.
+
+	* **ImageEditorDialogs** - contains the **ImageEditor** dialog files.
 
 	* **Live Demos** - contains the product Quick-Start Framework and examples and the VisualStudio solution file opening them. You can start the samples directly from this folder, using the **StartExamples.exe** file.
 
-	* **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external, you can find it in this folder.
-
 	* **Scripts** - all controls part of the suite have their scripts embedded as web resources. However if you need to modify a script or use it as an external, you can find it in this folder.
+	
+	* **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external one, you can find it in this folder.
+
+	* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik UI for ASP.NET AJAX client-side objects.
+
+
+1. Give full permissions to the **ASP.NET** user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) on the folder where the files were extracted.
 
 >caution
 >If you are using a modified or external script, you need to set the **EnableEmbeddedScripts** property to **false** . If you don't do that the control will fail to load its client scripts with an exception.	For more information you can check the [Disabling embedded resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) topic.
@@ -56,8 +59,6 @@ To install the Telerik UI for ASP.NET AJAX suite on your machine from the **ZIP*
 >note The latest package available for download has all latest updates/HOTFIXES applied. There is no need to update it further.
 >
 
-
-1. Give full permissions to the **ASP.NET** user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) on the folder where the files were extracted.
 
 To run the examples run **StartExamples.exe** file from /Live Demos folder.
 
