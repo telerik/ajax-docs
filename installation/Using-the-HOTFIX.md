@@ -13,21 +13,21 @@ position: 4
 
 The **HOTFIX** archive is a bare-bones upgrade option for our controls - it contains only those files you might need to replace in your project to upgrade to the new version of Telerik controls. If you are already using Telerik products and just want to update, download the latest **HOTFIX** and apply it. The **HOTFIX** archive contains the following files:
 
-	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
-	
-	* **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
+* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
 
-	* **EditorDialogs** - contains the **Editor** dialog files.
+* **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
-	* **ImageEditorDialogs** - contains the **ImageEditor** dialog files.
+* **EditorDialogs** - contains the **Editor** dialog files.
 
-	* **Live Demos** - contains the product Quick-Start Framework and examples and the VisualStudio solution file opening them. You can start the samples directly from this folder, using the **StartExamples.exe** file.
+* **ImageEditorDialogs** - contains the **ImageEditor** dialog files.
 
-	* **Scripts** - all controls part of the suite have their scripts embedded as web resources. However if you need to modify a script or use it as an external, you can find it in this folder.
-	
-	* **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external one, you can find it in this folder.
+* **Live Demos** - contains the product Quick-Start Framework and examples and the VisualStudio solution file opening them. You can start the samples directly from this folder, using the **StartExamples.exe** file.
 
-	* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik UI for ASP.NET AJAX client-side objects.
+* **Scripts** - all controls part of the suite have their scripts embedded as web resources. However if you need to modify a script or use it as an external, you can find it in this folder.
+
+* **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external one, you can find it in this folder.
+
+* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik UI for ASP.NET AJAX client-side objects.
 
 >note If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file).
 >

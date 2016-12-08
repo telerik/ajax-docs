@@ -27,7 +27,7 @@ To install the Telerik UI for ASP.NET AJAX suite on your machine from the **ZIP*
 
 1. Download the **Manual installation** (**ZIP**) file.The **ZIP** file contains the following folders:
 	
-	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
+	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
 	
 	* **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
