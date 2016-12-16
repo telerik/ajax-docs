@@ -18,7 +18,7 @@ The event handler receives two parameters:
 
 1. An **eventArgs** parameter containing the following methods:
 
-* **get_range** return a reference to the [SpreadsheetRange]({%slug gantt/client-side-programming/objects/spreadsheetrange%}) object, associated with the cell.
+* **get_range** return a reference to the [SpreadsheetRange]({%slug spreadsheet/client-side-programming/objects/spreadsheetrange%}) object, associated with the cell.
 
 * **get_widget** reference to the Spreadsheet Kendo widget.
 
