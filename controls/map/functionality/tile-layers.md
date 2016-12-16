@@ -12,7 +12,7 @@ position: 1
 
 In this article you will find detailed information about the **Tile** and **Bing**	layer types of the **RadMap** control.
 
-The images used to render the actual map are requested from third-party services that conform to the [Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service). The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
+The images used to render the actual map are requested from third-party services that conform to the [Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service) and support the [WGS 84 projection standards](https://en.wikipedia.org/wiki/World_Geodetic_System). The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
 
 >note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service. The **Telerik Map** only provides an UI control that allows you to setup and place a map in a web application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and, if needed, establish an account with the map owner to ensure unlimited/fast access.
 
