@@ -30,4 +30,14 @@ In the documentation article below are listed the client-side events of the **Ra
 
 * [OnClientNodeExpanding]({%slug navigation/client-side-programming/events/onclientnodeexpanding%}) occurs when some Node is about be expanded.
 
-* [OnClientNodeExpanded]({%slug navigation/client-side-programming/events/onclientnodeexpanded%}) occurs immediately after some Node is expanded.
+* [OnClientNodeMouseEnter]({%slug navigation/client-side-programming/events/onclientnodemouseenter%}) occurswhen the mouse enters a Node.
+
+* [OnClientNodeMouseLeave]({%slug navigation/client-side-programming/events/onclientnodemouseleave%}) occurs when the mouse leaves a Node.
+
+* [OnClientTemplateDataBound]({%slug navigation/client-side-programming/events/onclienttemplatedatabound%}) after the client template is bound and the binding expression are evaluated.
+
+* [OnClientNodePopulating]({%slug navigation/client-side-programming/events/onclientnodepopulating%}) occurs just before child nodes are loaded from a Client DataSource.
+
+* [OnClientNodePopulated]({%slug navigation/client-side-programming/events/onclientnodepopulated%}) occurs when nodes are loaded.
+
+
