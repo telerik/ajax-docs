@@ -75,18 +75,19 @@ function getRange() {
 | **set_input** |string|none|Sets the value of the cells. This is similar to value, but it parses the argument as if it was entered through the text box. Using the method you can set text, formula, number, boolean or Date. (see **Example 11**)|
 | **get_italic** |none|bool|Gets the italic state of the cells in the range.|
 | **set_italic** |bool|none|Sets the italic state of the cells in the range.|
+| **get_selections** |none|array of objects|Gets the selections in the range. (see **Example 12**)|
 | **get_textAlign** |none|string|Gets the text alignment of the cells in the range. Returns one of the following values: **left**, **center**, **right** and **justify**.|
 | **set_textAlign** |string|none|Sets the text alignment of the cells in the range. Accepts one of the following values: **left**, **center**, **right** and **justify**.|
 | **get_value** |none|string/int/Date|Gets the value of the cells.|
 | **set_value** |string/int/Date|none|Sets the value of the cells.|
 | **get_values** |none|array of arrays|Gets the values of the range cells.|
-| **set_values** |array of arrays|none|Sets the values of the range cells. The argument should be an array of arrays which match the dimensions of the range. (see **Example 12**)|
+| **set_values** |array of arrays|none|Sets the values of the range cells. The argument should be an array of arrays which match the dimensions of the range. (see **Example 13**)|
 | **get_validation** |none|object|Gets the current validation of the top-left cell of the range.|
-| **set_validation** |object|none|Sets the validation of the cells. The object that is passed to the method may contain **type, comparerType, dataType, from, to, allowNulls, messageTemplate** and **titleTemplate** keys. (see **Example 13**)|
+| **set_validation** |object|none|Sets the validation of the cells. The object that is passed to the method may contain **type, comparerType, dataType, from, to, allowNulls, messageTemplate** and **titleTemplate** keys. (see **Example 14**)|
 | **get_verticalAlign** |none|string|Gets current vertical text alignment of the top-left cell of the range. Returns one of the following values: **top**, **center** and **bottom**.|
 | **set_verticalAlign** |string|none|Sets the vertical alignment of the cells in the range. Accepts one of the following values: **top**, **center** and **bottom**.|
 | **get_wrap** |none|bool|Gets the wrap of the range cells.|
-| **set_wrap** |bool|none|Sets the wrap of the range cells. (see **Example 14**)|
+| **set_wrap** |bool|none|Sets the wrap of the range cells. (see **Example 15**)|
 
 
 
@@ -157,7 +158,7 @@ function setRangeBottomBorderSize() {
 }
 ````
 
->caption Example 5: Demonstrates the usage of the set_background method
+>caption Example 7: Demonstrates the usage of the set_background method
 ````JavaScript	
 function changeRangeBackground() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
@@ -209,7 +210,17 @@ function setRangeInput() {
 }
 ````
 
->caption Example 12: Demonstrates the usage of the set_values method
+>caption Example 12: Demonstrates the usage of the get_selections method
+````JavaScript	
+function OnClientChange(sender, args) {
+    var range = args.get_range();
+    var selections = range.get_selections();
+
+    var row = selections[0].bottomRightCell.row;
+}
+````
+
+>caption Example 13: Demonstrates the usage of the set_values method
 ````JavaScript	
 function setRangeValues() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
@@ -220,7 +231,7 @@ function setRangeValues() {
 }
 ````
 
->caption Example 13: Demonstrates the usage of the set_validation method
+>caption Example 14: Demonstrates the usage of the set_validation method
 ````JavaScript	
 function setRangeValidation() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
@@ -239,7 +250,7 @@ function setRangeValidation() {
 }
 ````
 
->caption Example 14: Demonstrates the usage of the set_wrap method
+>caption Example 15: Demonstrates the usage of the set_wrap method
 ````JavaScript	
 function setRangeWrap() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
