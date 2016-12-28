@@ -23,7 +23,7 @@ position: 1
 | **[OnClientDelete]({%slug fileexplorer/client-side-programming/events/onclientdelete%})** |Sets the name of the JavaScript function called when the user tries to delete an item (file or folder).|
 | **[OnClientFileOpen]({%slug fileexplorer/client-side-programming/events/onclientfileOpen%})** |Sets the name of the JavaScript function called when an item is double-clicked in the grid or in the tree.|
 | **[OnClientFilesDropping]({%slug fileexplorer/client-side-programming/events/onclientfilesdropping%})** |Sets the name of the JavaScript function called when the user drops the files for uploading in the file list.|
-| **[OnClientFilter]({%slug fileexplorer/client-side-programming/events/onclientfilter%})** |The name of the JavaScript function called when the user filters the files in the grid. <Comment: This description does not start with "Sets the" like the others. Change to match?> |
+| **[OnClientFilter]({%slug fileexplorer/client-side-programming/events/onclientfilter%})** |Sets the name of the JavaScript function called when the user filters the files in the grid.|
 | **[OnClientFolderChange]({%slug fileexplorer/client-side-programming/events/onclientfolderchange%})** |Sets the name of the JavaScript function called when the selected folder in the tree changes.|
 | **[OnClientFolderLoaded]({%slug fileexplorer/client-side-programming/events/onclientfolderloaded%})** |Sets the name of the JavaScript function called when a folder is loaded in the grid.|
 | **[OnClientItemSelected]({%slug fileexplorer/client-side-programming/events/onclientitemselected%})** |Sets the name of the JavaScript function called when the user selects an item in the grid.|
