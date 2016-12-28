@@ -10,22 +10,22 @@ position: 9
 
 # OnClientFilter
 
-The client-side **Filter** event is raised when  when the user filters the files in the grid of **RadFileExplorer**.
+The client-side **Filter** event is raised when the user filters the files in the grid of **RadFileExplorer**.
 
 To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the **OnClientFilter** property of the control.
 
 The client-side **OnClientFilter** event handler receives two arguments:
 
-1. Sender—the [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
+1. Sender: The [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
 
-1. Event arguments—an event arguments object of type Telerik.Web.UI.RadFileExplorerFilterEventArgs that exposes the following methods:
+1. Event arguments: An event arguments object of type Telerik.Web.UI.RadFileExplorerFilterEventArgs that exposes the following methods:
 
 	>caption Table 1: OnClientFilter Event Arguments Object
 
 	|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 	| ------ | ------ | ------ | ------ |
 	|get_cancel()||Boolean|Returns a value that indicates whether the event is cancelled.|
-	|get_domEvent()||Object|Returns а reference to the DOM event triggered the filtering.|
+	|get_domEvent()||Object|Returns а reference to the DOM event that triggered the filtering.|
 	|get_text()||String|Returns the filtering text.|
 	|set_cancel(value)|Boolean||Sets whether the event will be cancelled (if true is passed).|
 	|set_text(value)|Sets the filtering text.|
