@@ -3,6 +3,7 @@ title: Customize GridDropDownColumn
 page_title: Customize GridDropDownColumn | RadGrid for ASP.NET AJAX Documentation
 description: Customize GridDropDownColumn
 slug: grid/how-to/common/customize-griddropdowncolumn
+previous_url: grid/how-to/customize-griddropdowncolumn
 tags: customize,griddropdowncolumn
 published: True
 position: 2
@@ -67,21 +68,6 @@ The code below will place new item with text **Select Contact Title** (colored i
 
 
 
-````VB
-Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-    If (TypeOf e.Item Is GridEditableItem AndAlso CType(e.Item, GridEditableItem).IsInEditMode) Then
-        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-        Dim editMan As GridEditManager = editedItem.EditManager
-        Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"), GridDropDownListColumnEditor)
-        'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),              
-        'you will need to use ComboBoxControl below instead of DropDownListControl              
-        'and add RadComboBoxItems instead of ListItems to the Items collection of the editor             
-        Dim ddList As DropDownList = editor.DropDownListControl
-        ddList.Items.Insert(0, New ListItem("Select Contact Title", "NotSetItem"))
-        ddList.Items(0).Attributes("style") = "color: red"
-    End If
-End Sub
-````
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
@@ -99,7 +85,21 @@ protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEven
     }
 }
 ````
-
+````VB
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridEditableItem AndAlso CType(e.Item, GridEditableItem).IsInEditMode) Then
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+        Dim editMan As GridEditManager = editedItem.EditManager
+        Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"), GridDropDownListColumnEditor)
+        'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),              
+        'you will need to use ComboBoxControl below instead of DropDownListControl              
+        'and add RadComboBoxItems instead of ListItems to the Items collection of the editor             
+        Dim ddList As DropDownList = editor.DropDownListControl
+        ddList.Items.Insert(0, New ListItem("Select Contact Title", "NotSetItem"))
+        ddList.Items(0).Attributes("style") = "color: red"
+    End If
+End Sub
+````
 
 >note This option will not be persisted/available after the update command. Inserting such item is suitable only for user-friendly message/presentation.
 >
