@@ -130,7 +130,7 @@ End Sub
 ````JavaScript
 function repaintEditors() {
 	try {
-		$telerik.$(".RadEditor", sender.get_contentElement()).each(function (index, elem) {
+		$telerik.$(".RadEditor").each(function (index, elem) {
 			if (elem.control && elem.control.repaint) elem.control.repaint();
 		});
 	}
