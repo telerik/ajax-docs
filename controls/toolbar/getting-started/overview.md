@@ -56,7 +56,7 @@ This tutorial will walk you through creating a **RadToolBar** and shows how to:
 
 1. Select the "Details" button again and click the **Add RadToolBarButton to drop-down** button two more times to add two more buttons to the drop-down list.
 
-* On the first of these (the second button in the drop-down list), set the **IsSeparator** property to **True** and the **Text** property to an empty string.The item builder should now look like the following:(![toolbar itembuildergroup&dropdown](images/toolbar_itembuildergroup&dropdown.png))
+* On the first of these (the second button in the drop-down list), set the **IsSeparator** property to **True** and the **Text** property to an empty string.The item builder should now look like the following:(![toolbar itembuildergroup and dropdown](images/toolbar_itembuildergroup%26dropdown.png))
 
 1. Click the **Add RadToolBarSplitButton** button (![ToolBar Add Split Button](images/toolbar_addsplitbutton.png)) to add a split button to the toolbar.
 
