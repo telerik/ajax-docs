@@ -28,7 +28,9 @@ Here are the key features of the **Inline Editing** mode:
 
 * The default toolbar contains only the most commonly used tools (**Figure 1**).
 
-* While not editing, the borders, [modules]({%slug editor/functionality/modules/overview%}) and the default buttons for switching between the different [edit modes]({%slug editor/functionality/editor-views-and-modes/edit-modes%}) are hidden.
+* While not editing, the borders and the default buttons for switching between the different [edit modes]({%slug editor/functionality/editor-views-and-modes/edit-modes%}) are hidden.
+
+* The [modules]({%slug editor/functionality/modules/overview%}) are not available.
 
 * You can switch to HTML edit mode via the **ToggleEditMode** button (**Figure 1**).
 
