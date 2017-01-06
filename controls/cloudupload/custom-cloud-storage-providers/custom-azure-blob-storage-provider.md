@@ -18,7 +18,7 @@ position: 2
 
 ## Setting Credentials Dynamically from the Code Behind
 
-The easiest way to set credentials from the code behind is to create a custom Azure provider This can done following the steps below:
+The easiest way to set credentials from the code behind is to create a custom Azure provider. This can done following the steps below:
 
 1. Create a new class, which inherits the **AzureProvider** class and override its **Initialize** method. In this method you can set all
 
