@@ -65,6 +65,8 @@ The skins listed below have predefined font-family as follows:
 
 >note The Material skin includes the **Roboto** font-file from the Google cloud. It will be used even if it is not installed on the user computer, but downloading it requires an active Internet connection.
 
+The [Use Material Skin Without Active Internet Connection](http://www.telerik.com/support/kb/aspnet-ajax/details/use-material-skin-without-active-internet-connection) KB article explains a possible approach to avoid these requests.
+
 
 
 ## Font-weight Specifics
@@ -86,3 +88,4 @@ If you'd like to use icons with a font size of 16px, 32px or 48px, you should us
 # See Also
 
  * [Visual and Dimension Improvements in UI for ASP.NET AJAX](http://www.telerik.com/blogs/visual-and-dimension-improvements-in-ui-for-asp.net-ajax)
+ * [Use Material Skin Without Active Internet Connection](http://www.telerik.com/support/kb/aspnet-ajax/details/use-material-skin-without-active-internet-connection)
