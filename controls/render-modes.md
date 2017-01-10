@@ -14,7 +14,17 @@ position: 10
 
 Some of the Telerik controls support different rendering modes. They can change the actual **HTML** that is created	to facilitate use of **CSS3**, semantic tags and modern skinning mechanisms. This is controlled through their	**RenderMode** property.
 
-The possible options are:
+This article contains the following sections:
+
+* [RenderMode Options](#rendermode-options)
+* [RenderMode Fallback Order](#rendermode-fallback-order)
+	* [Classic RenderMode](#classic-rendermode)
+	* [Lightweight RenderMode](#lightweight-rendermode)
+	* [Mobile RenderMode](#mobile-rendermode)
+	* [Auto RenderMode](#auto-rendermode)
+* [Setting Render Mode](#setting-render-mode)
+
+## RenderMode Options
 
 * **Classic** - this is the default value. It preserves the original rendering and styling that has been used before, which	often means there are a lot of tables used to create layout, which results in nested elements and some markup that can be avoided.
 	
@@ -39,6 +49,46 @@ You can find a list with the controls that support alternative render modes in t
 >note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same valueof the RenderMode property set. This includes instances from master pages, content pages and user controls.
 
 
+## RenderMode Fallback Order
+
+In some cases setting one value for the RenderMode may result in another mode being used by the controls. This is affected by the UserAgent string of the browser used to request the page. Here follows a list of the various possibilities and how you can affect or predict them.
+
+### Classic RenderMode
+
+If you explicitly set this mode, it will never change. It is always the last fallback options available.
+
+### Lightweight RenderMode
+
+This mode targets modern browsers (IE8+, Chrome, Firefox, Edge). If the requesting browser is IE7, the controls will fall back to the Classic RenderMode. This often happens if IE runs in Compatibility Mode.
+
+As of R1 2017 you can avoid this by adding the `X-UA Compatible` header with value `IE=edge` to the response:
+
+````web.config
+<system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <add name="X-UA-Compatible" value="IE=Edge"/>
+      </customHeaders>
+</system.webServer>
+````
+
+````Code-behind
+Response.AddHeader("X-UA-Compatible", "IE=Edge"); 
+````
+
+### Mobile RenderMode
+
+If the control does not support this mode, it will attempt to use the Lightweight mode.
+
+When set explicitly, this mode will be used even for non-mobile browsers. It is recommended to use the Auto mode for such scenarios because the Mobile modes are tested and supported only under mobile devices.
+
+### Auto RenderMode
+
+This mode **attempts** to fall back to **Lightweight** in the majority of cases. The exceptions are:
+
+* The requesting browser is IE7 and the version of the controls is older than R1 2017 and the `X-UA Compatible` header with value `IE=edge` is not set. In this case it will fall back to Classic.
+
+* The requesting browser is identified as a mobile browser and the concrete control provides mobile-specific rendering. In this case it will fall back to Mobile.
 
 
 
