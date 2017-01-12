@@ -10,13 +10,13 @@ position: 3
 
 # ASP.NET Validators Support
 
-In this article you can see how to integrate native ASP.NET validation control with **RadRadioButtonList**.
+In this article, you will learn how to integrate the native ASP.NET validation control with **RadRadioButtonList**.
 
-As of **R1 2017** version there is built-in support for **RequiredFieldValidator** control. Older versions can be integrated with the **CustomValidator** control as alternative solution (see **Example 2**).
+As of the **R1 2017** release, there is built-in support for the **RequiredFieldValidator** control. Older versions can be integrated with the **CustomValidator** control as an alternative solution (see **Example 2**).
 
 ## Using RequiredFieldValidator
 
-To use the **RequiredFieldValidator** you just need to set the `ControlToValidate` property to the RadioButtonList's ID. This will trigger validation when user submits and the validation control will validate against the `SelectedItem` property and return the appropriate validation result.
+To use the **RequiredFieldValidator**, you just need to set the `ControlToValidate` property to the RadioButtonList's ID. This will trigger validation when the user submits and the validation control will validate against the `SelectedItem` property and return the appropriate validation result.
 
 >caption Example 1: Configuring RequiredFieldValidator control with RadioButtonList.
 
@@ -36,7 +36,7 @@ To use the **RequiredFieldValidator** you just need to set the `ControlToValidat
 
 ## Using CustomValidator
 
-As an alternative to the **RequiredFieldValidator** you can use **CustomValidator** and have your own logic that validates the RadioButtonList.
+As an alternative to the **RequiredFieldValidator**, you can use **CustomValidator** and have your own logic that validates the RadioButtonList.
 
 >caption Example 2: Configuring CustomValidator control with RadioButtonList.
 
