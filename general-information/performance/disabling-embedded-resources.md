@@ -340,12 +340,17 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/ShortCutManager/ShortCutManagerScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Widgets/Polling.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/MaterialRipple/MaterialRippleScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/AnimationFramework/AnimationFramework.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Popup/PopupScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Helpers/IETouchActionManager.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Widgets/Draggable.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Widgets/Resizable.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/Popup/PopupScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/Editor/RadEditor.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/LayoutBuilder/LayoutBuilderEngine.js" />
 	<asp:ScriptReference Path="~/Scripts/Spell/SpellCheckService.js" />
@@ -354,6 +359,15 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/Common/TouchScrollExtender.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Animation/AnimationScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/Window/RadWindowScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Spell/RadSpell.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Scrolling/ScrollingScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/OData/OData.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/OverlayScript.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/RadMenuScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/ContextMenu/RadContextMenuScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/MenuItem/RadMenuItem.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/Views/LiteView.js" />
 </scripts>
 ````
 
