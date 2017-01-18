@@ -1,4 +1,4 @@
----
+newt---
 title: Upgrading a Trial to a Developer License or to a Newer Version
 page_title: Upgrading a Trial to a Developer License or to a Newer Version | UI for ASP.NET AJAX Documentation
 description: Upgrading a Trial to a Developer License or to a Newer Version
@@ -160,6 +160,15 @@ There are several ways to **fix** the issue:
 * **Remove the Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
 
 * According to client reports, in some cases [cleaning the ASP.NET Temporary Files and the .NET temporary files](https://weblogs.asp.net/psheriff/clean-up-after-visual-studio) resolves the problem as well.
+
+* You can add a `bindingRedirect` element to your `web.config` file and use the version you need:
+
+	**web.config**
+
+		<dependentAssembly>
+		    <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
+		    <bindingRedirect oldVersion="1.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
+		</dependentAssembly>
 
 
 
