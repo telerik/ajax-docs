@@ -58,7 +58,7 @@ You can customize a Column chart in several ways:
 			<telerik:ColumnSeries Name="Product 3">
 				<TooltipsAppearance BackgroundColor="Orange" DataFormatString="{0} sales" />
 				<SeriesItems>
-					<telerik:CategorySeriesItem Y="35000" />
+					<telerik:CategorySeriesItem Y="0" />
 					<telerik:CategorySeriesItem Y="10000" />
 					<telerik:CategorySeriesItem Y="20000" />
 					<telerik:CategorySeriesItem Y="17000" />
