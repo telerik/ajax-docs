@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.PdfConverter
-page_title: Telerik.Web.UI.Diagram.PdfConverter
-description: Telerik.Web.UI.Diagram.PdfConverter
+title: Telerik.Web.UI.Diagram.ShapeFillConverter
+page_title: Telerik.Web.UI.Diagram.ShapeFillConverter
+description: Telerik.Web.UI.Diagram.ShapeFillConverter
 ---
 
-# Telerik.Web.UI.Diagram.PdfConverter
+# Telerik.Web.UI.Diagram.ShapeFillConverter
 
-Serialization JS converter class for Pdf
+Serialization JS converter class for ShapeFill
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.PdfConverter
+* Telerik.Web.UI.Diagram.ShapeFillConverter
 
 ## Methods
 

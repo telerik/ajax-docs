@@ -22,15 +22,23 @@ Defines the label displayed on the connection path.
 
 ###  Editable `Boolean`
 
-Defines the editing behavior of the connections.
+Enable editing for connections by default.
 
 ###  EditableSettings `Boolean`
 
-Defines the editing behavior of the connections.
+Defines the editable configuration by default.
 
 ###  EndCap `ConnectionEndCap`
 
 The end cap (arrow, head or decoration) of the connection.
+
+###  EndCapSettings `ConnectionEndCap`
+
+The connection end cap configuration or type name.
+
+###  FromConnector `String`
+
+Specifies the name of the source shape connector that should be used by default.
 
 ###  HoverSettings `ConnectionHover`
 
@@ -38,7 +46,7 @@ Defines the hover configuration.
 
 ###  Selectable `Boolean`
 
-Defines the selection behavior of the connections.
+Specifies if the connection can be selected.
 
 ###  SelectionSettings `Selection`
 
@@ -48,11 +56,19 @@ Defines the connection selection configuration.
 
 The start cap (arrow, head or decoration) of the connection.
 
+###  StartCapSettings `ConnectionStartCap`
+
+The connection start cap configuration or type name.
+
 ###  StrokeSettings `ConnectionStroke`
 
 Defines the stroke configuration.
 
+###  ToConnector `String`
+
+Specifies the name of the target shape connector that should be used by default.
+
 ###  Type `ConnectionType`
 
-The type of the connections that defines the way it routes.
+The type of the connection that defines the way it routes.
 

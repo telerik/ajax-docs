@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.ConnectionPointConverter
-page_title: Telerik.Web.UI.Diagram.ConnectionPointConverter
-description: Telerik.Web.UI.Diagram.ConnectionPointConverter
+title: Telerik.Web.UI.DiagramPdfConverter
+page_title: Telerik.Web.UI.DiagramPdfConverter
+description: Telerik.Web.UI.DiagramPdfConverter
 ---
 
-# Telerik.Web.UI.Diagram.ConnectionPointConverter
+# Telerik.Web.UI.DiagramPdfConverter
 
-Serialization JS converter class for ConnectionPoint
+Serialization JS converter class for DiagramPdf
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.ConnectionPointConverter
+* Telerik.Web.UI.DiagramPdfConverter
 
 ## Methods
 

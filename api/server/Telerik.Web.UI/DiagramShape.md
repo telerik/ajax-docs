@@ -16,6 +16,10 @@ Defines the shape options.
 
 ## Properties
 
+###  ConnectorDefaultsSettings `ConnectorDefaults`
+
+Defines default options for the shape connectors.
+
 ###  ConnectorsCollection `DiagramShapeConnectorsCollection`
 
 Defines the connectors the shape owns.
@@ -32,7 +36,11 @@ Specifies editable properties for shapes
 
 Specifies editable properties for shapes
 
-###  FillSettings `Fill`
+###  Fill `String`
+
+Defines the fill options of the shape.
+
+###  FillSettings `String`
 
 Defines the fill options of the shape.
 
@@ -66,7 +74,7 @@ Defines the rotation applied to the shape.
 
 ###  Selectable `Boolean`
 
-Toggles the selection on shapes
+Specifies if the shape can be selected.
 
 ###  Source `String`
 

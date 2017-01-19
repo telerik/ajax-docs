@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.ThumbConverter
-page_title: Telerik.Web.UI.Diagram.ThumbConverter
-description: Telerik.Web.UI.Diagram.ThumbConverter
+title: Telerik.Web.UI.DiagramEditableConverter
+page_title: Telerik.Web.UI.DiagramEditableConverter
+description: Telerik.Web.UI.DiagramEditableConverter
 ---
 
-# Telerik.Web.UI.Diagram.ThumbConverter
+# Telerik.Web.UI.DiagramEditableConverter
 
-Serialization JS converter class for Thumb
+Serialization JS converter class for DiagramEditable
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.ThumbConverter
+* Telerik.Web.UI.DiagramEditableConverter
 
 ## Methods
 

@@ -16,7 +16,11 @@ Defines the hover configuration.
 
 ## Properties
 
-###  FillSettings `Fill`
+###  Fill `String`
+
+Defines the hover fill options of the shape.
+
+###  FillSettings `String`
 
 Defines the hover fill options of the shape.
 

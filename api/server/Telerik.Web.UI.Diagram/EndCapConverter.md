@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.EditableConverter
-page_title: Telerik.Web.UI.Diagram.EditableConverter
-description: Telerik.Web.UI.Diagram.EditableConverter
+title: Telerik.Web.UI.Diagram.EndCapConverter
+page_title: Telerik.Web.UI.Diagram.EndCapConverter
+description: Telerik.Web.UI.Diagram.EndCapConverter
 ---
 
-# Telerik.Web.UI.Diagram.EditableConverter
+# Telerik.Web.UI.Diagram.EndCapConverter
 
-Serialization JS converter class for Editable
+Serialization JS converter class for EndCap
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.EditableConverter
+* Telerik.Web.UI.Diagram.EndCapConverter
 
 ## Methods
 

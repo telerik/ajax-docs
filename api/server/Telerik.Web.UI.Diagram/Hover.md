@@ -18,13 +18,17 @@ Specifies the settings of the resizing handles on hovering over them. See the ed
 
 ###  Fill `String`
 
-Specifies the fill settings on hovering over the resizing handles. See the editable.resize configuration for an example.
+Defines the hover fill options of the shape connectors.
 
 ###  FillSettings `String`
 
-Specifies the fill settings on hovering over the resizing handles. See the editable.resize configuration for an example.
+Defines the hover fill options of the shape connectors.
 
-###  StrokeSettings `Stroke`
+###  Stroke `String`
 
-Specifies the stroke on hovering over the resizing handles. See the editable.resize configuration for an example.
+Defines the hover stroke options of the shape connectors.
+
+###  StrokeSettings `String`
+
+Defines the hover stroke options of the shape connectors.
 

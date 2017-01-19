@@ -210,6 +210,14 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
+###  CreateWizardStep
+
+Creates and returns a new wizard step.
+
+#### Returns
+
+`Telerik.Web.UI.RadWizardStep` 
+
 ###  GetEmbeddedSkinNames
 
 Returns the names of all embedded skins. Used by Telerik.Web.Examples.

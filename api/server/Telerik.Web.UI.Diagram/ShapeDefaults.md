@@ -16,9 +16,13 @@ Defines the shape options.
 
 ## Properties
 
+###  ConnectorDefaultsSettings `ConnectorDefaults`
+
+Defines default options for the shape connectors.
+
 ###  ConnectorsCollection `DiagramShapeConnectorsCollection`
 
-Defines the connectors the shape owns.You can easily define your own custom connectors or mix-match with the above defined custom connectors.Example - custom shape with custom connectorsThe following defines a custom shape with connectors adapted to the shape's outline. Note in particular the various helpful methods (right(), left(), top()) to define positions relative to the shape.
+Defines the connectors the shape owns.You can define your own custom connectors or use the predefined types.
 
 ###  ContentSettings `Content`
 
@@ -32,9 +36,13 @@ Specifies editable properties for shapes
 
 Specifies editable properties for shapes
 
-###  FillSettings `Fill`
+###  Fill `String`
 
 Defines the fill options of the shape.
+
+###  FillSettings `String`
+
+Defines the default fill options of the shape.
 
 ###  Height `Double`
 
@@ -62,7 +70,7 @@ Defines the rotation of the shapes.
 
 ###  Selectable `Boolean`
 
-Specifies Selectable properties for shapes
+Specifies if the shape can be selected.
 
 ###  Source `String`
 

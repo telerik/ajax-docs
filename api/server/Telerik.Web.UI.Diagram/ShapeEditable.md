@@ -20,3 +20,7 @@ Specifies editable properties for shapes
 
 Specifies whether the connectors should appear on hover.
 
+###  ToolsCollection `DiagramShapeEditableToolsCollection`
+
+Specifies the the toolbar tools. Supports all options supported for the toolbar.items. Predefined tools are:
+

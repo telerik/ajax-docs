@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Diagram.Stroke
 
 # Telerik.Web.UI.Diagram.Stroke
 
-Defines the handles stroke options.
+The connection end cap stroke options or color.
 
 ## Inheritance Hierarchy
 
@@ -18,13 +18,13 @@ Defines the handles stroke options.
 
 ###  Color `String`
 
-Defines the selection stroke color.
+Defines the stroke color.
 
 ###  DashType `String`
 
-Defines the selection dash type.
+The stroke dash type.
 
 ###  Width `Double`
 
-Defines the selection stroke width.
+Defines the thickness or width of the shape connectors stroke.
 

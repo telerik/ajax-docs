@@ -1,18 +1,18 @@
 ---
-title: Telerik.Web.UI.Diagram.Pdf
-page_title: Telerik.Web.UI.Diagram.Pdf
-description: Telerik.Web.UI.Diagram.Pdf
+title: Telerik.Web.UI.DiagramPdf
+page_title: Telerik.Web.UI.DiagramPdf
+description: Telerik.Web.UI.DiagramPdf
 ---
 
-# Telerik.Web.UI.Diagram.Pdf
+# Telerik.Web.UI.DiagramPdf
 
-Configures the export settings for the saveAsPDF method.
+Defines the settings for the client-side Pdf export.
 
 ## Inheritance Hierarchy
 
 * System.Object
 * Telerik.Web.StateManager : IMarkableStateManager, IStateManager
-* Telerik.Web.UI.Diagram.Pdf : IDefaultCheck
+* Telerik.Web.UI.DiagramPdf : IDefaultCheck
 
 ## Properties
 

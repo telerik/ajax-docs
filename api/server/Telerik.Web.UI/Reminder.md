@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Reminder
 
 # Telerik.Web.UI.Reminder
 
-This Class defines the Raminder object.
+This Class defines the Reminder object.
 
 ## Inheritance Hierarchy
 

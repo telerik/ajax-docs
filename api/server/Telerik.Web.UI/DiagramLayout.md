@@ -24,9 +24,9 @@ Gets or Sets whether the Layout should be applied to the diagram.
 
 Defines where the circle/arc ends. The positive direction is clockwise and the angle is in degrees. This setting is specific to the radial tree layout.
 
-###  GridSettings `Grid`
+###  GridSettings `DiagramGrid`
 
-Each layout algorithm has a different set of parameters customizing the layout but they also all have a common collection of parameters which relate to the way 'pieces' of a diagram are organized. A diagram can have in general disconnected pieces, known as components, which can be organized in a way independent of the way a component on its own is arranged. In the picture above, this is one diagram consisting of four components.When you apply a certain layout an analysis will first split the diagram in components, arrange each component individually and thereafter organize the components in a grid. The common parameters referred above deal with this grid layout, they define the width, margin and padding of the (invisible) grid used to organize the components.
+Define the grid layout of the Diagram. The content is divided into components that are arranged in a grid layout according to the provided settings.
 
 ###  HorizontalSeparation `Double`
 
@@ -59,6 +59,10 @@ Defines where the circle/arc starts. The positive direction is clockwise and the
 ###  Subtype `LayoutSubtype`
 
 The subtype further defines the layout type by specifying in greater detail the behaviour expected by the layout algorithm.
+
+###  TipOverTreeStartLevel `Double`
+
+Specifies the start level when the subtype is tipOver.
 
 ###  Type `LayoutType`
 

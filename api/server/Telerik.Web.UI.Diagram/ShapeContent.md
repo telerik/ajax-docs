@@ -22,7 +22,23 @@ The alignment of the text inside the shape.
 
 ###  Color `String`
 
-The color of the text inside the shape.
+The color of the shape content text.
+
+###  FontFamily `String`
+
+The font family of the shape content text.
+
+###  FontSize `Double`
+
+The font size of the shape content text.
+
+###  FontStyle `String`
+
+The font style of the shape content text.
+
+###  FontWeight `String`
+
+The font weight of the shape content text.
 
 ###  Html `String`
 

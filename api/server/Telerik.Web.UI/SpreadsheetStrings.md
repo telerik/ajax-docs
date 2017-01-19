@@ -557,6 +557,10 @@ Gets or sets the validation less than text.
 
 Gets or sets the validation less than or equal to text.
 
+###  ValidationList `String`
+
+Gets or sets the validation list text.
+
 ###  ValidationMax `String`
 
 Gets or sets the validation max text.
@@ -600,6 +604,14 @@ Gets or sets the validation remove text.
 ###  ValidationSave `String`
 
 Gets or sets the validation save text.
+
+###  ValidationShowCalendarButton `String`
+
+Gets or sets the validation show calendar button text.
+
+###  ValidationShowListButton `String`
+
+Gets or sets the validation show list button text.
 
 ###  ValidationText `String`
 

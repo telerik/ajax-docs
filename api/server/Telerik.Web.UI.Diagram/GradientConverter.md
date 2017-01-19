@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.GridConverter
-page_title: Telerik.Web.UI.Diagram.GridConverter
-description: Telerik.Web.UI.Diagram.GridConverter
+title: Telerik.Web.UI.Diagram.GradientConverter
+page_title: Telerik.Web.UI.Diagram.GradientConverter
+description: Telerik.Web.UI.Diagram.GradientConverter
 ---
 
-# Telerik.Web.UI.Diagram.GridConverter
+# Telerik.Web.UI.Diagram.GradientConverter
 
-Serialization JS converter class for Grid
+Serialization JS converter class for Gradient
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.GridConverter
+* Telerik.Web.UI.Diagram.GradientConverter
 
 ## Methods
 

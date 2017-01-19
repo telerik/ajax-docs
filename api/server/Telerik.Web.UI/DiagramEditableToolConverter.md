@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.ConnectionEditableConverter
-page_title: Telerik.Web.UI.Diagram.ConnectionEditableConverter
-description: Telerik.Web.UI.Diagram.ConnectionEditableConverter
+title: Telerik.Web.UI.DiagramEditableToolConverter
+page_title: Telerik.Web.UI.DiagramEditableToolConverter
+description: Telerik.Web.UI.DiagramEditableToolConverter
 ---
 
-# Telerik.Web.UI.Diagram.ConnectionEditableConverter
+# Telerik.Web.UI.DiagramEditableToolConverter
 
-Serialization JS converter class for ConnectionEditable
+Serialization JS converter class for DiagramEditableTool
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.ConnectionEditableConverter
+* Telerik.Web.UI.DiagramEditableToolConverter
 
 ## Methods
 

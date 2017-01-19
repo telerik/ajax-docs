@@ -20,6 +20,10 @@ Defines the selectable options.
 
 Defines the selectable modifier key.
 
+###  Multiple `Boolean`
+
+Specifies if the multiple selection should be enabled.
+
 ###  StrokeSettings `Stroke`
 
 Defines the selection stroke configuration.

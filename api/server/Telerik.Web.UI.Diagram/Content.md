@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Diagram.Content
 
 # Telerik.Web.UI.Diagram.Content
 
-Defines the shapes content settings.
+Defines the label displayed on the connection path.
 
 ## Inheritance Hierarchy
 
@@ -31,6 +31,14 @@ The font family of the shape content text.
 ###  FontSize `Double`
 
 The font size of the shape content text.
+
+###  FontStyle `String`
+
+The font style of the shape content text.
+
+###  FontWeight `String`
+
+The font weight of the shape content text.
 
 ###  Html `String`
 

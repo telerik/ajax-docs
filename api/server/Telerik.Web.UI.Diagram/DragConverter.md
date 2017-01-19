@@ -1,19 +1,19 @@
 ---
-title: Telerik.Web.UI.Diagram.ConnectionEditableConverter
-page_title: Telerik.Web.UI.Diagram.ConnectionEditableConverter
-description: Telerik.Web.UI.Diagram.ConnectionEditableConverter
+title: Telerik.Web.UI.Diagram.DragConverter
+page_title: Telerik.Web.UI.Diagram.DragConverter
+description: Telerik.Web.UI.Diagram.DragConverter
 ---
 
-# Telerik.Web.UI.Diagram.ConnectionEditableConverter
+# Telerik.Web.UI.Diagram.DragConverter
 
-Serialization JS converter class for ConnectionEditable
+Serialization JS converter class for Drag
 
 ## Inheritance Hierarchy
 
 * System.Object
 * System.Web.Script.Serialization.JavaScriptConverter
 * Telerik.Web.UI.ExplicitJavaScriptConverter
-* Telerik.Web.UI.Diagram.ConnectionEditableConverter
+* Telerik.Web.UI.Diagram.DragConverter
 
 ## Methods
 

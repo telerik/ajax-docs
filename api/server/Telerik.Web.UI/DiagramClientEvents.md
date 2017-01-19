@@ -36,17 +36,29 @@ Fired when the user clicks on a shape or a connection.
 
 Fired when the widget is bound to data from dataDource and connectionsDataSource.The event handler function context (available via the this keyword) will be set to the widget instance.
 
+###  OnDrag `String`
+
+Fired when dragging shapes or connection.
+
+###  OnDragEnd `String`
+
+Fired after finishing dragging shapes or connection.
+
+###  OnDragStart `String`
+
+Fired before starting dragging shapes or connection.
+
 ###  OnEdit `String`
 
 Fired when the user edits a shape or connection.
 
 ###  OnItemBoundsChange `String`
 
-Fired when the location or size of an item are changed.
+Fired when the location or size of a shape are changed.
 
 ###  OnItemRotate `String`
 
-Fired when an item is rotated.
+Fired when a shape is rotated.
 
 ###  OnLoad `String`
 
@@ -66,7 +78,7 @@ Fired when the user pans the diagram.
 
 ###  OnRemove `String`
 
-Fired when the user delete a shape or connection.
+Fired when the user removes a shape or connection.
 
 ###  OnSave `String`
 
@@ -75,6 +87,10 @@ Fired when the user saved a shape or a connection.
 ###  OnSelect `String`
 
 Fired when the user selects one or more items.
+
+###  OnToolBarClick `String`
+
+Fired when the user clicks an item in the toolbar.
 
 ###  OnZoomEnd `String`
 

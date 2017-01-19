@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Diagram.ConnectionEditable
 
 # Telerik.Web.UI.Diagram.ConnectionEditable
 
-Defines the editing behavior of the connections.
+Defines the editable configuration by default.
 
 ## Inheritance Hierarchy
 
@@ -16,11 +16,7 @@ Defines the editing behavior of the connections.
 
 ## Properties
 
-###  ConnectionTemplate `String`
+###  ToolsCollection `DiagramConnectionEditableToolsCollection`
 
-Specifies the connection editor template which shows up when editing the connection via a pop-up editor much like 'editable.template' configuration of the Kendo UI Grid widget.
-
-###  ToolsCollection `EditableToolsCollection`
-
-Specifies the the toolbar tools. Predefined tools are:
+Specifies the the toolbar tools. Supports all options supported for the toolbar.items. Predefined tools are:
 

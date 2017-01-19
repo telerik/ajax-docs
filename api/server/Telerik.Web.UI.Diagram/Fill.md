@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Diagram.Fill
 
 # Telerik.Web.UI.Diagram.Fill
 
-Defines the handles fill options.
+Defines the fill options.
 
 ## Inheritance Hierarchy
 
@@ -18,9 +18,9 @@ Defines the handles fill options.
 
 ###  Color `String`
 
-Defines the hover fill color of the shape.
+Defines the fill color of the shape connectors.
 
 ###  Opacity `Double`
 
-Defines the hover fill opacity of the shape.
+Defines the fill opacity of the shape connectors.
 

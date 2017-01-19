@@ -18,23 +18,39 @@ Defines the connections configuration.
 
 ###  ContentSettings `ConnectionContent`
 
-Defines the label displayed on the connection path.
+Defines the content configuration.
 
 ###  Editable `Boolean`
 
-Defines the editing behavior of the connections.
+Enable connection editing
 
 ###  EditableSettings `Boolean`
 
-Defines the editing behavior of the connections.
+Specifies editable properties for connections
 
 ###  EndCap `ConnectionEndCap`
 
 The end cap (arrow, head or decoration) of the connection.
 
+###  EndCapSettings `ConnectionEndCap`
+
+The connection end cap configuration or type name.
+
+###  FromConnector `String`
+
+Specifies the name of the source shape connector that should be used by default.
+
 ###  FromSettings `ConnectionEndPoint`
 
 Defines the settings for the source shape.
+
+###  FromX `Double`
+
+The absolute point (X-coordinate), if any, that the connection is originating from.
+
+###  FromY `Double`
+
+The absolute point (Y-coordinate), if any, that the connection is originating from.
 
 ###  HoverSettings `ConnectionHover`
 
@@ -50,17 +66,37 @@ Sets the intermediate points (in global coordinates) of the connection.
 
 ###  Selectable `Boolean`
 
-Defines the selection behavior of the connection.
+Specifies if the connection can be selected.
 
 ###  StartCap `ConnectionStartCap`
 
 The start cap (arrow, head or decoration) of the connection.
 
+###  StartCapSettings `ConnectionStartCap`
+
+The connection start cap configuration or type name.
+
 ###  StrokeSettings `ConnectionStroke`
 
 Defines the stroke configuration.
 
+###  ToConnector `String`
+
+Specifies the name of the target shape connector that should be used by default.
+
 ###  ToSettings `ConnectionEndPoint`
 
 Defines the settings for the target shape.
+
+###  ToX `Double`
+
+The absolute point (X-coordinate), if any, that the connection is pointing to.
+
+###  ToY `Double`
+
+The absolute point (Y-coordinate), if any, that the connection is pointing to.
+
+###  Type `ConnectionType`
+
+The type of the connection that defines the way it routes.
 

@@ -65,11 +65,11 @@ The CssClass property will now be used instead of the former Skin
 
 ###  Editable `Boolean`
 
-Defines how the diagram behaves when the user attempts to edit shape content, create new connections, edit connection labels and so on.
+Enable editing of the diagram.
 
 ###  EditableSettings `Boolean`
 
-Defines how the diagram behaves when the user attempts to edit shape content, create new connections, edit connection labels and so on.
+Defines the editable configuration.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -123,9 +123,9 @@ Defines the pannable options.
 
 Defines the pannable options.
 
-###  PdfSettings `Pdf`
+###  PdfSettings `DiagramPdf`
 
-Configures the export settings for the saveAsPDF method.
+Defines the settings for the client-side Pdf export.
 
 ###  RegisterWithScriptManager `Boolean`
 

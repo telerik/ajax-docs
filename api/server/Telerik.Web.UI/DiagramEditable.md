@@ -1,24 +1,36 @@
 ---
-title: Telerik.Web.UI.Diagram.Editable
-page_title: Telerik.Web.UI.Diagram.Editable
-description: Telerik.Web.UI.Diagram.Editable
+title: Telerik.Web.UI.DiagramEditable
+page_title: Telerik.Web.UI.DiagramEditable
+description: Telerik.Web.UI.DiagramEditable
 ---
 
-# Telerik.Web.UI.Diagram.Editable
+# Telerik.Web.UI.DiagramEditable
 
-Defines the editing behavior of the connections.
+Defines the editable configuration.
 
 ## Inheritance Hierarchy
 
 * System.Object
 * Telerik.Web.StateManager : IMarkableStateManager, IStateManager
-* Telerik.Web.UI.Diagram.Editable : IDefaultCheck
+* Telerik.Web.UI.DiagramEditable : IDefaultCheck
 
 ## Properties
 
 ###  ConnectionTemplate `String`
 
 Specifies the connection editor template which shows up when editing the connection via a pop-up editor much like 'editable.template' configuration of the Kendo UI Grid widget.
+
+###  Drag `Boolean`
+
+Specifies if the shapes and connections can be dragged.
+
+###  DragSettings `Boolean`
+
+Specifies if the shapes and connections can be dragged.
+
+###  Remove `Boolean`
+
+Specifies if the shapes and connections can be removed.
 
 ###  Resize `Boolean`
 
@@ -40,7 +52,7 @@ Specifies whether the shapes can be rotated. Note that changing this setting aft
 
 Specifies the shape editor template. See the 'editable.connectionTemplate' for an example.
 
-###  ToolsCollection `EditableToolsCollection`
+###  ToolsCollection `DiagramEditableToolsCollection`
 
-Specifies the the toolbar tools. Predefined tools are:
+Specifies the the toolbar tools. Supports all options supported for the toolbar.items. Predefined tools are:
 
