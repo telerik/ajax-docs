@@ -1,4 +1,4 @@
-newt---
+---
 title: Upgrading a Trial to a Developer License or to a Newer Version
 page_title: Upgrading a Trial to a Developer License or to a Newer Version | UI for ASP.NET AJAX Documentation
 description: Upgrading a Trial to a Developer License or to a Newer Version
