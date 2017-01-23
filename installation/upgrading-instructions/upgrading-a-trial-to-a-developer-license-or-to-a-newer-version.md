@@ -170,6 +170,16 @@ There are several ways to **fix** the issue:
 		    <bindingRedirect oldVersion="1.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
 		</dependentAssembly>
 
+	If a binding redirect does not work (e.g., in a build environment), the following approach has been reported by clients to resolve the problem, as seen on the [Could not load file or assembly… NuGet Assembly Redirects](http://blog.myget.org/post/2014/11/27/Could-not-load-file-or-assembly-NuGet-Assembly-Redirects.aspx) blog post:
+
+	1. From any .config file, remove the `<assemblyBinding>` element and its child elements. In other words—strip your app from assembly binding redirects.
+
+	1. Open the Package Manager Console in Visual Studio. This can be done from the View > Other Windows > Package Manager Console.
+
+	1. Execute the following command: `Get-Project -All | Add-BindingRedirect`
+
+
+
 
 
 ### Could Not Load File or Assembly 'Telerik.Web.UI' After Upgrade
