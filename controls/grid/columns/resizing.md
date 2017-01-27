@@ -28,7 +28,7 @@ If you want the columns in your grid to be resizable, set the **ClientSettings.R
 
 When resizing is enabled (**AllowColumnResize** is **True**), you can disable column resizing for individual columns by setting the column's **Resizable** property to **False**. Setting a column's **Resizable** property has no effect if **AllowColumnResize** is **False**.
 
->note Note that after finishing resizing, the columns located on the right side of the current resized column, will beautomatically resized to eaqual portions. This is expected because the browser resize the rest of the columns by itself. The behavior could be avoided by enabling *ResizeGridOnColumnResize* .
+>note Note that after finishing resizing, the columns located on the right side of the current resized column will be automatically resized to equal portions. This is expected - the browser resizes the rest of the columns by itself. The behavior could be avoided by enabling *ResizeGridOnColumnResize* .
 >
 
 
