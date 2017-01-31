@@ -14,11 +14,25 @@ ToolStrips are useful dropdowns that contain a group of tools with related funct
 
 ![](images/editor-dropdowns025.png)
 
+
+Set a custom raster image for the Classic Render Mode
+
 ````ASP.NET
 <style>
-	.reToolbar.Default .MyToolStrip
+	/* The generic class name is re<toolName> */
+	a.reTool .MyToolStrip,
+	a.reTool .MyToolStrip:hover
 	{
-		background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
+		background-image: url(images/some-image.png);
+		background-repeat: no-repeat;
+		/* optionally, tweak the position */
+		/*background-position: 2px 2px;*/
+	}
+
+	/* remove the built-in icon */
+	a.reTool .MyToolStrip:before
+	{
+		content: "";
 	}
 </style>
 ...
@@ -45,12 +59,18 @@ You can also create a toolstrip via the ToolsFile.xml file, e.g.
 </editortoolstrip>
 ````
 
-In order to apply an image to be used as the ToolStrip icon, you need to set a style with the following structure:
+In order to apply an image to be used as the ToolStrip icon with the **Classic** RenderMode, you need to set a style with the following structure:
 
 ````CSS
 .reToolbar.<skinName> .<commandName>
 {    
 	background-image: url(MyImage.gif);
+}
+
+/* for example*/
+.reToolbar.Default .MyToolStrip
+{
+    background-image: url(some-image.png);
 }
 ````
 
