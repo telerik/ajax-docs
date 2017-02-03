@@ -514,24 +514,25 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/core.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/dataviz/core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/Data/html5/data.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/userevents.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/color.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/popup.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/drawing.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/dataviz/core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/themes.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/svg.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/vml.js" />
-	<asp:ScriptReference Path="~/Scripts/HtmlChart/RadHtmlChart.js" />
-	<!--Only needed for a funnel chart type-->
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/funnel.js" />
-	<!--Only needed for a polar or radar chart type-->
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/polar.js" />
-	<!--Only needed for a sparkline layout -->
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/sparkline.js" />
-	<!--Only needed for a stock layout -->
-	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/stock.js" />
-	<!--Only needed for a localized chart. Where kendo/js/cultures/ is the folder that stores the KendoUI JS culture files and the "fr-FR" string is the name of the desired culture -->
-	<asp:ScriptReference Path="kendo/js/cultures/kendo.culture.fr-FR.min.js" />
+    <!--Only needed for a funnel chart type-->
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/funnel.js" />
+    <!--Only needed for a polar or radar chart type-->
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/polar.js" />
+    <!--Only needed for a sparkline layout -->
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/sparkline.js" />
+    <!--Only needed for a stock layout -->
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/stock.js" />
+    <!--Only needed for a localized chart. Where kendo/js/cultures/ is the folder that stores the KendoUI JS culture files and the "fr-FR" string is the name of the desired culture -->
+    <asp:ScriptReference Path="kendo/js/cultures/kendo.culture.fr-FR.min.js" />
+    <asp:ScriptReference Path="~/Scripts/HtmlChart/RadHtmlChart.js" />
 </Scripts>
 ````
 
