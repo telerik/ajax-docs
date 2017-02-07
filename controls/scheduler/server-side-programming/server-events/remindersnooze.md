@@ -22,7 +22,7 @@ The event arguments contain:
 
 * **Appointment** - The original appointment with non-modified reminders
 
-* **ModifiedAppointment** - The modified appointment with updated reminders
+* **SnoozeMinutes** - The snooze minutes value
 
 The operation can be cancelled by setting the **Cancel** property of the event arguments to true.
 
