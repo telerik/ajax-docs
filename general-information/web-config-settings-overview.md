@@ -39,6 +39,12 @@ For the controls from the Telerik UI for ASP.NET AJAX suite to function, **the n
 
 ````XML
 <configuration>
+	<appSettings>
+		<!-- If you are using RadAsyncUpload or RadCloudUpload, add such keys
+			Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="abcdefghijklmnopqrstuvwxyz" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="123456789qwerty" />
+	</appSettings>
     <system.web>
         <!-- for IIS versions below 7 and Classic Pipeline mode -->
         <httpHandlers>
@@ -161,6 +167,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **KeepOriginalOrderOfScriptDescriptorsDuringAjax**—when set to true, the original order of the  statements of the controls that participate in the partial page rendering will be preserved in case RadAjaxManager or RadAjaxPanel is used. Otherwise, the order will be reversed. You can read more about this in the [Tips and tricks for ajaxifying specific controls]({%slug ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls%}) help article. 
 
+* **Telerik.AsyncUpload.ConfigurationEncryptionKey**—lets you set a custom encryption key RadAsyncUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
+
 * **Telerik.AsyncUpload.TemporaryFolder**—lets you set the temporary folder RadAsyncUpload uses on an application level. You can read more about this feature in the [RadAsyncUpload Overview]({%slug asyncupload/overview%}) help article. 
 
 * **Telerik.EnableEmbeddedBaseStylesheet**—lets you disable the embedded base stylesheets for all Telerik controls in the application by setting it to false. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the base stylesheet is. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article. 
@@ -191,6 +199,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article. 
 
+* **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
+
 * **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
 
 * **Telerik.Web.CaptchaDenyAudioHandler**—lets you to disable requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%}) article.
@@ -218,6 +228,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="BindGridInvisibleColumns" value="true" />
         <add key="CSApiKey" value="abcdefghjiklmnopqrstuvwxyz1234567890" />
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="abcdefghijklmnopqrstuvwxyz" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="123456789qwerty" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
