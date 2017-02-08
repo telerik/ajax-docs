@@ -26,7 +26,7 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | **disable** | none | none | Disables all items in the Menu. Clicking on any item has no effect, child items cannot be opened. See **Example 2**. |
 | **enable** | none | none | Enables all items in the Menu. See **Example 3**. |
 | **get_enabled**  | none | boolean | True if the Menu is enabled. To enable a Menu, use the enable() method. |
-| **close** |none|none|Closes all opened items. In Mobile renderMode it closes the Menu too.|
+| **close** |none|none|Closes all opened items. In Mobile renderMode it closes the Menu too. See **Example 8** below.|
 | **findItemByValue** |(string value)|RadMenuItem|Returns the first **RadMenuItem** object whose **Value** property is equal to the passed parameter.|
 | **findItemByText** |(string text)|RadMenuItem|Returns the first **RadMenuItem** object whose **Text** property is equal to the passed parameter.|
 | **findItemByUrl** |(string URL)|RadMenuItem|Returns the first **RadMenuItem** object whose **NavigateUrl** property is equal to the passed parameter.|
@@ -143,6 +143,28 @@ function DetachBlurHandler()
 }			
 ````
 
+
+>caption Example 7: Close menu when its item is clicked.
+````ASP.NET
+<telerik:RadMenu runat="server" ID="RadMenu1" RenderMode="Lightweight" OnClientItemClicking="closeMenu">
+	<Items>
+		<telerik:RadMenuItem Text="hover for submenu">
+			<Items>
+				<telerik:RadMenuItem Text="click to close menu"></telerik:RadMenuItem>
+			</Items>
+		</telerik:RadMenuItem>
+	</Items>
+</telerik:RadMenu>
+<script>
+	function closeMenu(sender, args) {
+		args.set_cancel(true);//prevent default postback/navigation. Not needed for OnClientClicked event
+		//do work here
+		setTimeout(function () {
+			sender.close();//close the menu
+		}, 0);
+	}
+</script>		
+````
 
 
 ## RadContextMenu-specific API
