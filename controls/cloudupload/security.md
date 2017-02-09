@@ -1,7 +1,7 @@
 ---
 title: Security
 page_title: Security | RadCloudUpload for ASP.NET AJAX Documentation
-description: Security
+description: Apply security in RadCloudUpload and enforce information encryption to prevent attacks.
 slug: cloudupload-security
 tags: security
 published: True
@@ -10,6 +10,28 @@ position: 14
 
 # Security
 
-## ConfigurationHashKey 
+This article explains how to ensure information about the RadCloudUpload configuration is secure and non-readable. Its transmission between the client and the server must be encrypted and impossible to decode, so the data cannot be used by a malicious entity in an attack against the server.
 
-As from **R1 2017**, the Encrypt-then-MAC approach is implemented, in order to improve the integrity of the for the CloudUpload encryption. The encrypted options, which are sent to the storage, are **AllowedFileExtensions** and **MaxFileSize**. The implementation includes adding a new **Telerik.Upload.ConfigurationHashKey** in the web.config and a hashing function that hashes the encrypted text. The encrypted text is later checked in the upload handler for verifying the integrity of the values. If the hashing attempt is incorrect, a **new CryptographicException("The hash is not valid!");** will be thrown.
+Configuration information includes temporary and target folder on the server, and allowed file extensions.
+
+There is an `appSettings` key you should add to your `web.config` to ensure information security with file uploads:
+
+* set a custom `ConfigurationHashKey`.
+
+>important If you do not set a custom key, a default (hardcoded) value is used to encrypt/decrypt the information.
+
+
+
+
+## ConfigurationHashKey
+
+As of **R1 2017**, the **Encrypt-then-MAC** approach is implemented, in order to improve the integrity of the encrypted temporary and target folders.
+
+The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the encrypted text. The value returned from the client is checked in the upload handler for integrity. If the hashing attempt is incorrect, a `new CryptographicException("The hash is not valid!");` exception will be thrown.
+
+````web.config
+<appSettings>
+	<add key="Telerik.Upload.ConfigurationHashKey" value="0987654321zyxwvutsrqponmlkjihgfedcba" />
+</appSettings>
+````
+

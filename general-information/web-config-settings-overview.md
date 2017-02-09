@@ -199,7 +199,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article. 
 
-* **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
+* **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload and RadCloudUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
 
 * **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
 
