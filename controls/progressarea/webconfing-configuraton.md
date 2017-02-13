@@ -90,7 +90,7 @@ now the **`<httpHandlers>`** section is likely to look like this:
 
 ````XML
 <!-- *******  Register the RadUploadModule for IIS 7  ****** -->
-<add name="RadUploadModule" precondition="integratedMode" type="Telerik.Web.UI.RadUploadHttpModule" />
+<add name="RadUploadModule" preCondition="integratedMode" type="Telerik.Web.UI.RadUploadHttpModule" />
 ````
 
 
@@ -99,7 +99,7 @@ now the **`<httpHandlers>`** section is likely to look like this:
 
 ````XML
 <!-- *******  Register the RadUploadProgressHandler for IIS 7  ****** -->
-<add name="Telerik_RadUploadProgressHandler_ashx" verb="*" precondition="integratedMode"
+<add name="Telerik_RadUploadProgressHandler_ashx" verb="*" preCondition="integratedMode"
 	path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" />
 ````
 
