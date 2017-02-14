@@ -54,8 +54,8 @@ If the items are created at design time, the hierarchy is reflected in the ASP.N
 				<telerik:RadPanelItem runat="server" Text="My Notes" />         
 				<telerik:RadPanelItem runat="server" Text="Shared Notes" />         
 				<telerik:RadPanelItem runat="server" IsSeparator="True" Text="&lt;hr&gt;" />         
-				<telerik:RadPanelItem runat="server" Text="Archive">           
-			<Items>                    
+				<telerik:RadPanelItem runat="server" Text="Archive" />           
+			</Items>                    
 		</telerik:RadPanelItem>       
 	</Items>
 </telerik:RadPanelBar>
