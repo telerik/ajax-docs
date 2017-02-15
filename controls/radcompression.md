@@ -14,7 +14,7 @@ position: 8
 
 ## What is RadCompression?
 
-Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI for ASP.NET AJAX and is designed to *automatically* compress your AJAX and Web Service responses. In other words,RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
+Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI for ASP.NET AJAX and is designed to *automatically* compress your AJAX and Web Service responses. In other words, RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
 
 ## 
 
@@ -30,11 +30,11 @@ RadCompression is designed based on other HTTPcompression tools, such as the bui
 
 * application/atom+xml
 
-These types generally reflect the content types returned by AJAX Web Services, ADO.NET Data Services,	and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types	(such as a typical RSS feed). If a browser supports compression (most modern browsers do) and RadCompression	is enabled, all content of this type will be compressed. The one exception is IE6, which does not support this compression well, so RadCompression will automatically ignore requests coming fromIE6 clients.
+These types generally reflect the content types returned by AJAX Web Services, ADO.NET Data Services, and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types (such as a typical RSS feed). If a browser supports compression (most modern browsers do) and RadCompression	is enabled, all content of this type will be compressed. The one exception is IE6, which does not support this compression well, so RadCompression will automatically ignore requests coming fromIE6 clients.
 
 ## How is RadCompression enabled?
 
-Enabling RadCompression could not be easier. It is a simple matter of adding a HttpModule registration to the site'sweb.config. Specifically, you need the following:
+Enabling RadCompression could not be easier. It is a simple matter of adding a HttpModule registration to the site's web.config. Specifically, you need the following:
 
 ````ASPNET
 <httpmodules>
