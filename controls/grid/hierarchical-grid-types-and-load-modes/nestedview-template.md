@@ -25,7 +25,7 @@ The detail table template should be specified between the NestedViewTemplate tag
        <Columns>
            <!-- Column definitions here, optional if using auto-generated columns -->
        </Columns>
-       <NesteViewSettings DataSourceID="SqlDataSource2">
+       <NestedViewSettings DataSourceID="SqlDataSource2">
            <telerik:ParentTableRelation MasterKeyField="CustomerID" DetailKeyField="CustomeriD"/>
        </NestedViewSettings>
        <NestedViewTemplate>
