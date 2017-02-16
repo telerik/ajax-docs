@@ -5,7 +5,7 @@ description: When uploading a file using the RadAsyncUpload in Safari on iOS and
 slug: asyncupload/troubleshooting/windows-authentication-issue-on-mac
 tags: windows, authentication, mac, safari, upload, issue, problem, bug
 published: True
-position: 2
+position: 3
 ---
 
 # Inability to upload files on iOS and OSX devices with enabled Windows Authentication
