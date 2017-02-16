@@ -22,13 +22,13 @@ The binaries from the *Additional Assemblies* folder may have different versions
 
 The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list below. You can find them in the root of the installation (both [automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and in the [zip archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the	[internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
 
-* **Telerik.Web.UI.dll**—the core assembly from the suite where the actual controls are located. It also contains the *Default* skin.
+* **Telerik.Web.UI.dll**—(**required**)—the core assembly from the suite where the actual controls are located. It also contains the *Default* skin.
 
-* **Telerik.Web.UI.Skins.dll**—this assembly has all the skins the suite offers (except the *Default* one).If you use only the Default skin, or you only use custom skins, you do not need this assembly.
+* **Telerik.Web.UI.Skins.dll**—(**optional**)—this assembly has all the skins the suite offers except the *Default* one.If you use only the Default skin, or you only use custom skins, you do not need this assembly.
 
-* **Telerik.Web.Design.dll**—this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and is not needed in the deployed application. The automated installation adds this assembly to the GAC.
+* **Telerik.Web.Design.dll**—(**optional**)—this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and is not needed in the deployed application. The automated installation adds this assembly to the GAC.
 
-* **Telerik.Web.Device.Detection.dll**—the [Telerik Device Detection framework]({%slug controls/raddevicedetectionframework%}) that can help you determine the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controls to determine the [RenderMode]({%slug controls/render-modes%}) when it is set to Auto.
+* **Telerik.Web.Device.Detection.dll**—(**optional**)—the [Telerik Device Detection framework]({%slug controls/raddevicedetectionframework%}) that can help you determine, with a few lines of code, the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controls to determine the [RenderMode]({%slug controls/render-modes%}) when it is set to Auto. If you use only the Classic, Lightweight or Mobile Render Mode (no mentions of the Auto mode), you do not need this assembly.
 
 ## Telerik ZIP Library
 
