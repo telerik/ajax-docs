@@ -46,6 +46,8 @@ You can find concrete information about your case in the distinct sections of th
 >
 > * The [Known Issues and Important Changes](http://www.telerik.com/forums/known-issues-and-important-changes) sticky thread. It lists changes that may affect your code and known regression issues (that are usually fixed in the subsequent release). Review the information for the releases you go through so you can evaluate whether you will be affected by anything.
 >
+> * The [Telerik Upgrade API Analyzer]({%slug upgrade_api_analyzer%}) can analyze your C# code to notify you of changes between your version and the new version you want to upgrade to. It offers information as of the Q1 2012 (2012.1.225) release.
+>
 > * [UI for ASP.NET AJAX Release History](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)—reviewing the release notes for all releases you go through will let you see what has changed, what fixes, features and controls have been implemented so you are better prepared to meet your project's challenges.
 
 There are two ways to perform an upgrade:

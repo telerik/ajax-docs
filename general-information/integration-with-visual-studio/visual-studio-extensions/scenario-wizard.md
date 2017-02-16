@@ -5,14 +5,13 @@ description: Add Scenario
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard
 tags: scenario,wizard
 published: True
-position: 5
+position: 6
 ---
 
 # Add Scenario
 
 
 
-## 
 
 Visual Studio Extensions provide the user with a number of templates that aid the creation of pages with the most common scenarios in the development with Telerik UI for ASP.NET AJAX. The scenarios consist of template files, representing an ASPX page or a set of ASPX pages/user controls/custom classes.
 

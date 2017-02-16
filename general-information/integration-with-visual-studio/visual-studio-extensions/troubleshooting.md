@@ -5,14 +5,12 @@ description: Troubleshooting
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/troubleshooting
 tags: troubleshooting
 published: True
-position: 10
+position: 11
 ---
 
 # Troubleshooting
 
 
-
-## 
 
 **Troubleshooting**
 

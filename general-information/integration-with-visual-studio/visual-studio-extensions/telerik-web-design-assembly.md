@@ -5,14 +5,13 @@ description: Telerik Web Design Assembly
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/telerik-web-design-assembly
 tags: telerik,web,design,assembly
 published: True
-position: 9
+position: 10
 ---
 
 # Telerik Web Design Assembly
 
 
 
-## 
 
 The Visual Studio designer classes of the **Telerik UI for ASP.NET AJAX** are located in the **Telerik.Web.Design** assembly.
 

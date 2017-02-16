@@ -5,7 +5,7 @@ description: Visual Studio Extensions Options
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options
 tags: visual,studio,extensions,options
 published: True
-position: 8
+position: 9
 ---
 
 # Visual Studio Extensions Options
