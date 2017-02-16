@@ -25,7 +25,7 @@ In addition to the pure assembly reference change, the Upgrade Wizard provides s
 
 * Change the version of **Telerik UI for ASP.NET AJAX** the project uses;
 
-On the next step the wizard lists all projects from the solution, which use Telerik UI for ASP.NET AJAX. You can choose which projects will be updated (it is recommended to upgrade all projects to the chosen version) and the version which they will be upgraded to. The Compatibility button will invoke the [Upgrade API Analyzer tool](http://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/upgrade-api-analyzer):
+On the next step the wizard lists all projects from the solution, which use Telerik UI for ASP.NET AJAX. You can choose which projects will be updated (it is recommended to upgrade all projects to the chosen version) and the version which they will be upgraded to. The Compatibility button will invoke the [Upgrade API Analyzer tool]({%slug upgrade_api_analyzer%}):
 
 >caption Figure 2: Choose the projects the Upgrade Wizard will work on
 
