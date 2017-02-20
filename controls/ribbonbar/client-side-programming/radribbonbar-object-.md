@@ -27,7 +27,7 @@ The table below lists the most important functions of the client-side **RadRibbo
 | **findTabByDomElement** |RibbonBarTab|none|Returns the **RadRibbonBar** object associated with the passed **DOM element** .|
 | **findTabByValue** |RibbonBarTab|string|Returns the first **RibbonBarTab** object whose **Value** property is equal to the passed parameter.|
 | **findToggleButtonByValue** |RibbonBarToggleButton|string|Returns the first **RibbonBarToggleButton** object whose **Value** property is equal to the passed parameter.|
-| **get_applicationMenuDropDpwn** |none|none|Returns the **ApplicationMenu** dropdown object.|
+| **get_applicationMenuDropDown** |none|none|Returns the **ApplicationMenu** dropdown object.|
 | **set_defaultDesabledImageUrl** |none|string|Sets the default disabled image.|
 | **get_defaultDesabledImageUrl** |string|none|Returns the url of the default disabled image.|
 | **set_defaultDesabledImageUrlLarge** |none|string|Sets the default disabled large image.|
