@@ -42,6 +42,7 @@ To configure the **RadMap** with the chosen service provider, follow these steps
 1. Use the **Type** attribute to set the layer type to **Tile**;
 
 1. Use the **UrlTemplate** to set the URL template provided by the service.
+	>tip Some providers like [OpenCycleMap](https://www.thunderforest.com/maps/opencyclemap/) may require that you add an API key to the URL, for example: `https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=<insert-your-apikey-here>`
 
 These steps will lead you to a markup similar to the one in **Example 2** and a rendered Map in the page.
 
