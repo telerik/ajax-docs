@@ -63,6 +63,9 @@ In contrast, we have designed the Silverlight upload in a different way.The Silv
 >note In **IE9** RadAsyncUpload implements only **IFrame** and **Silverlight** Upload modules. **Flash** module can be applied only in previous versions of IE Browser because of some incompatibilities with IE9.
 >
 
+>note In **Lightweight** render mode, RadAsyncUpload does not support **Flash** and **Silverlight** Upload modules.
+>
+
 
 # See Also
 
