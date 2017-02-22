@@ -61,12 +61,12 @@ As of Q2 2013 **RadTextBox** extends the supprt provided for the new HTML5 input
 
 * **Color:** **RadTextBox** renders input field that should contain a color.
 
->caution Note that not all browsers support HTML5 input types. Those which do not recognize the new input types currently behave as if the input is with type set to text. Also note thatBrowser support is still incomplete and some types may not be supported by all browser. You can see the browser support in the [official W3C page](http://www.w3schools.com/html/html5_form_input_types.asp).
+>caution Note that not all browsers support HTML5 input types. Those which do not recognize the new input types currently behave as if the input is with type set to text. Also note that browser support is still incomplete and some types may not be supported by all browser. You can see expected browser support in the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Browser_compatibility) or [Can I Use? input types](http://caniuse.com/#search=input%20type).
 >
 
 
 >caution The InputType property is meaningful **only** in case of **SingleLine** (the default one) text mode for **RadTextBox** .
->Also note that input type “number” or “datetime” on **RadNumericTextBox** or **RadDateInput** are note available. This is not supported because the default browser features such as calendar pickers and validation will overlap with the custom features, client-side logic and events of our controls and nothing will work as expected!
+>Also note that input type "number" or "datetime" on **RadNumericTextBox** or **RadDateInput** are note available. This is not supported because the default browser features such as calendar pickers and validation will overlap with the custom features, client-side logic and events of our controls and nothing will work as expected!
 >
 
 
