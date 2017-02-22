@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-Property which retrieves the GridDataItem objects of the current table view that are in edit mode. Can be used to traversethe edit items in order to access the inner controls.
+Property which retrieves the GridDataItem objects of the current table view that are in edit mode. Can be used to traverse the edit items in order to access the inner controls.
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
