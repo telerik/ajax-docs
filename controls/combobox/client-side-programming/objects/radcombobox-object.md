@@ -33,8 +33,8 @@ The following table lists the most important methods of the client-side **RadCom
 | **get_text** |none|string|Gets the text of the input field.|
 | **get_checkedItems** |none|array|Gets an array of the checked **RadComboBoxItem** objects.|
 | **get_lastWord** |none|string|Gets the word after the last separator in the text of **RadComboBox** input field. If a separator is not set, returns the text itself.|
-| **set_allowCustomEntry** |Boolean|none| Allows/Disallows the users to type text in the input area, when called with 'false' as a parameter - the input area contains only the currently selected item's text, or text obtained by all selected items' texts separated by comma or other character.|
-| **get_allowCustomEntry** |none|Boolean| Returns **true** the users are allowed to type random text in the input area, **false** otherwise.|
+| **set_allowCustomText** |Boolean|none| Allows/Disallows the users to type text in the input area, when called with 'false' as a parameter - the input area contains only the currently selected item's text, or text obtained by all selected items' texts separated by comma or other character.|
+| **get_allowCustomText** |none|Boolean| Returns **true** the users are allowed to type random text in the input area, **false** otherwise.|
 | **set_emptyMessage** |(string text)|none|Sets the **EmptyMessage** text of **RadComboBox** input field.|
 | **get_emptyMessage** |none|string|Gets the **EmptyMessage** text of **RadComboBox** input field.|
 | **set_value** |(string value)|none|Sets the value of **RadComboBox** .|
