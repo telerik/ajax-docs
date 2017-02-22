@@ -42,7 +42,7 @@ When the **RenderMode** property is set in the markup you can type in a string, 
 
 A **global setting** in the web.config file that will affect the entire application, unless a concrete value is specified for RadPanelBar instance:
 
-* Change render mode for all RadPanelBars in your application:
+* Change render mode for all controls in your application:
 
 ````ASPNET
 <appSettings>
@@ -52,7 +52,7 @@ A **global setting** in the web.config file that will affect the entire applicat
 
 
 
-* Change render mode for all controls in your application:
+* Change render mode for all RadPanelBars in your application:
 
 ````ASPNET
 <appSettings>
