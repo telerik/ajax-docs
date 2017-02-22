@@ -18,11 +18,11 @@ The **AppointmentUpdate** event occurs just before the scheduler calls its data 
 
 * **sender** is the scheduler control.
 
-* **e** is an object of type **AppointmentUpdateEventArgs**.It has three properties:
+* **e** is an object of type **AppointmentUpdateEventArgs**. It has three properties:
 
-* **Appointment** is the original appointment before any updates. Any modificationsyou make to this object are discarded.
+* **Appointment** is the original appointment before any updates. Any modifications you make to this object are discarded.
 
-* **ModifiedAppointment** is the updated appointment that is about to bewritten to the data source. You can modify the updated appointment to change the way the updatesare written to the data source.
+* **ModifiedAppointment** is the updated appointment that is about to be written to the data source. You can modify the updated appointment to change the way the updates are written to the data source.
 
 * **Cancel** is a boolean value that lets you prevent the update.
 
@@ -53,7 +53,7 @@ End Sub
 
 ## Getting recurrence rule when a recurring appointment is dragged or resized
 
-It is a known issue that occurs in cases when a recurring Appointment is dragged or resized the recurrence rule of the ModifiedAppointment is not updated properly.It can be generated correctly by use the following code:
+It is a known issue that occurs in cases when a recurring Appointment is dragged or resized the recurrence rule of the ModifiedAppointment is not updated properly. It can be generated correctly by using the following code:
 
 
 
