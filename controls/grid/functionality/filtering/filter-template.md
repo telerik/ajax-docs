@@ -134,7 +134,7 @@ From the server side perspective, once an item in the combo is selected, and the
 protected void FilterCombo_SelectedIndexChanged(object o, RadComboBoxSelectedIndexChangedEventArgs e)
 {
     string filterExpression;
-    filterExpression = "([CategoryName] = '" + e.Value + "')";
+    filterExpression = $"(Convert.ToString(it[\"CategoryName\"]) = \"{e.Value}\")";
     RadGrid1.MasterTableView.FilterExpression = filterExpression;
     RadGrid1.MasterTableView.Rebind();
 }
