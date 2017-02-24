@@ -24,10 +24,12 @@ This article will get you started in using the **RadSpreadsheet** control. It co
 
 ## Assembly References
 
-In order to use the **RadSpreadsheet** control in your project you need to add references to the following assembly:
+In order to use the **RadSpreadsheet** control in your project you need to add references to the following assemblies:
 
 * **Telerik.Web.Spreadsheet.dll**
+* **Newtonsoft.Json.dll**
 
+@[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the needed assemblies, support: They support, isplural: assemblies")
 
 The following assemblies are required in order to be able to use the control with the predefined [**SpreadsheetDocumentProvider**]({%slug spreadsheet/data-binding/providers/using-a-data-provider%}) (applicable for most scenarios):
 
