@@ -74,40 +74,48 @@ Below is a sample code implementation (based on the approach explained above) th
 ````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script type="text/javascript">
-        var column = null;
-        function MenuShowing(sender, args) {
-            if (column == null) return;
-            var menu = sender; var items = menu.get_items();
-            if (column.get_dataType() == "System.String") {
-                var i = 0;
-                while (i < items.get_count()) {
-                    if (!(items.getItem(i).get_value() in { 'NoFilter': '', 'Contains': '', 'NotIsEmpty': '', 'IsEmpty': '', 'NotEqualTo': '', 'EqualTo': '' })) {
-                        var item = items.getItem(i);
-                        if (item != null)
-                            item.set_visible(false);
-                    }
-                    else {
-                        var item = items.getItem(i);
-                        if (item != null)
-                            item.set_visible(true);
-                    } i++;
-                }
-            }
-            if (column.get_dataType() == "System.Int64") {
-                var j = 0; while (j < items.get_count()) {
-                    if (!(items.getItem(j).get_value() in { 'NoFilter': '', 'GreaterThan': '', 'LessThan': '', 'NotEqualTo': '', 'EqualTo': '' })) {
-                        var item = items.getItem(j); if (item != null)
-                            item.set_visible(false);
-                    }
-                    else { var item = items.getItem(j); if (item != null) item.set_visible(true); } j++;
-                }
-            }
-            column = null;
-            menu.repaint();
+    var column = null;
+
+    function filterMenuShowing(sender, eventArgs) {
+      // Set value for column to be used in MenuShowing().
+      column = eventArgs.get_column();
+    }
+
+    function MenuShowing(menu, args) {
+
+      if (column == null) return;
+
+      // Iterate through filter menu items.
+      var items = menu.get_items();
+      for (i = 0; i < items.get_count() ; i++) {
+        var item = items.getItem(i);
+        if (item === null)
+          continue;
+
+        // Make adjustments based on data type.
+        switch (column.get_dataType()) {
+
+          case "System.String":
+
+            if (!(item.get_value() in { 'NoFilter': '', 'Contains': '', 'NotIsEmpty': '', 'IsEmpty': '', 'NotEqualTo': '', 'EqualTo': '' }))
+              item.set_visible(false);
+            else
+              item.set_visible(true);
+            break;
+
+          case "System.Int64":
+
+            if (!(item.get_value() in { 'NoFilter': '', 'GreaterThan': '', 'LessThan': '', 'NotEqualTo': '', 'EqualTo': '' }))
+              item.set_visible(false);
+            else
+              item.set_visible(true);
+            break;
         }
-        function filterMenuShowing(sender, eventArgs) {
-            column = eventArgs.get_column();
-        }
+      }
+
+      column = null;
+      menu.repaint();
+    }
     </script>
 </telerik:RadCodeBlock>
 ````
