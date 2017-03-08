@@ -21,6 +21,7 @@ The following table lists significant members of the client-side **RadSpell** ob
 |get_controlToCheck|Gets the ID of the control to spell check.||
 |set_controlToCheck|Sets the ID of the control to spell check.| See **Example 2**.|
 |get_dialogOpener|Returns the instance of the client-side DialogOpener object that handles that dialog opening/parameter passing processes.||
+|set_useClassicDialogs|When `true` is passed, a browser window will be used instead of a RadWindow. This can be useful if your site has the `X-Frame-Options` with value set to `DENY`. Browser popup blockers may prevent it from opening, however.|See **Example 7**.|
 |set_dialogOpener|Sets the instance of the client-side DialogOpener object.||
 |get_dictionaryLanguage|Gets the dictionary language culture code.||
 |set_dictionaryLanguage|Sets the dictionary language culture code.| See **Example 3**.|
@@ -87,6 +88,18 @@ function spellCheck() {
 }	
 ````
 
+>caption **Example 7**: Make RadSpell use browser windows instead of a RadWindow to accommodate the X-Frame-Options header
+
+````ASP.NET
+<script>
+	function OnClientLoad(sender, args) {
+		sender.set_useClassicDialogs(true);
+	}
+</script>
+<telerik:RadSpell runat="server" ID="RadSpell1" OnClientLoad="OnClientLoad" ControlToCheck="Textbox1" />
+<asp:TextBox ID="Textbox1" runat="server" Text="miztake" />
+````
+
 ## Public Methods
 
 
@@ -97,14 +110,14 @@ function spellCheck() {
 |spellCheck|Launch the spellcheck process for the provided TextSource.|See **Example 7**.|
 |startSpellCheck|Launch the spellcheck process| See **Example 8**.|
 
->caption **Example 7**: Utilize spell's spellCheck() method.
+>caption **Example 8**: Utilize spell's spellCheck() method.
 
 ````JavaScript
 var spell = $find('<%= RadSpell1.ClientID %>');
 spell.spellCheck(new MyCustomTextSource());				
 ````
 
->caption **Example 8**: Utilize spell's startSpellCheck() method.
+>caption **Example 9**: Utilize spell's startSpellCheck() method.
 
 ````JavaScript
 var spell = $find('<%= RadSpell1.ClientID %>');
