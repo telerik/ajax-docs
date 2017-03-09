@@ -40,5 +40,7 @@ The **RadProgressBar** client-side object exposes the following public methods a
 | **set_animationSettings** |Object Literal||Sets the animation settings of the progress bar. They are presented with an object literal with the following fields: **duration**—contains the duration of the animation in milliseconds;  **enableChunkAnimation**—specifies whether the animation will be enabled when the **BarType** property of the progress bar is set to **Chunk**. Example: `progressBar.set_animationSettings({ duration: 500, enableChunkAnimation: true });`|
 | **set_enabled** |Boolean||Sets the enabled state of the progress bar.|
 | **set_label** |String||Sets the label text of the progress bar.|
+| **set_maxValue** |Number||Sets the maximum value of the progress bar.|
+| **set_minValue** |Number||Sets the minimum value of the progress bar.|
 | **set_showLabel** |Boolean||Sets the visible state of the label of the progress bar.|
 | **set_value** |Number, Boolean||Sets the current value of the progress bar. Undefined/false sets indeterminate state.|
