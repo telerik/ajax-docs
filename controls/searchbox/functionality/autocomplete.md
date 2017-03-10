@@ -30,7 +30,7 @@ When **AutoComplete** is **enabled** the following properties can be used:
 
 When a **WebService** binding scenario is implemented and you need to use the **"Show All Results"** button and manage its visibility, the following requirements needs to be met:
 
-* **MaxResultCount** should be set to a desirable value.
+* **MaxResultCount** should be set to a desirable value. Use the `get_maxResultCount()` client-side method to [pass its value to the web service]({%slug searchbox/functionality/passing-additional-information-to-the-server%})
 
 * A custom calculation in the **WebService** needs to be implemented, so you could check if the **"Show All Results"** button needs to be visible. For example, if the entries count returned from the data source match the **MaxResultCount** value - the **"Show All "Results"** should not be visible. In this case you could toggle its Visible state by simply setting **EndOfItems** property of the **SearchBoxData** object in the following manner:
 

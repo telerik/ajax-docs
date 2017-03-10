@@ -33,5 +33,6 @@ The following table lists the most important methods of the client-side **RadSea
 | **get_dropDownElement** |none|none|Gets the root DOM element of the RadSearchBox's drop-down.|
 | **get_inputElement** |none|none|Gets the input DOM element of the RadSearchBox.|
 | **get_childListElement** |none|none|Gets the UL DOM element of the RadSearchBox's drop-down|
+| **get_maxResultCount** |none|int|Gets the MaxResultsCount of RadSearchBox so you can [pass it to the web service]({%slug searchbox/functionality/passing-additional-information-to-the-server%}).|
 | **query** |none|none|If AutoComplete is enabled,the search string exists and it is longer than the min filter length set, a search operation is performed. The second parameter defines whether all results should be shown in the drop-down.|
 | **clear** |none|none|Clears the search results and closes the drop-down.|

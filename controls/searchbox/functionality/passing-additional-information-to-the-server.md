@@ -14,6 +14,8 @@ position: 5
 
 When using **RadSearchBox** it can often be useful to pass additional information to the server to improve its performance or to set some specific condition. This can easily be achieved in the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event by using the **userContext object**, which is of type **IDictionary**, and setting its **KeyValue parameters**. After that this object is passed to the server along with the search request and is available in the [OnDataSourceSelect]({%slug searchbox/server-side-programming/events/ondatasourceselect%}) event handler or to the Web Service that searches items to the **RadSearchBox**.
 
+>tip Use the `get_maxResultCount()` client-side method to pass the number of items the response should return.
+
 ## Using Additional userContext information with a WebService
 
 This example below demonstrates how you can pass an integer value to the Web Service method through the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event that will limit your search operation so that only the items that are with smaller ‘UnitPrice’ than the passed one are returned:
