@@ -136,27 +136,45 @@ The selected item reference provides all its properties (e.g., `Value`, `Text`, 
 
 ## Select Item Client Side
 
-You can select a particular item of a **RadRadioButtonList** by passing the corresponding index in the `set_selectedIndex()` method of the control.
+You can select a particular item of a **RadRadioButtonList** by passing the corresponding index in the `set_selectedIndex()` method of the control, or by using the `set_selected()` method of the [button list item]({%slug Telerik.Web.UI.ButtonListItem%}).
 
 >caption Example 6: Select an item on the client side.
 
 ````JavaScript
 var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
 radioButtonList.set_selectedIndex(0);
+
+//or loop through the items, evaluate conditions and use their API
+var items = radioButtonList.get_items();
+for (var i = 0; i < items.length; i++) {
+	if (items[i].get_value() == 1) {
+		items[i].set_selected(true);
+		//or, use its index
+		//radioButtonList.set_selectedIndex(i);
+	}
+}
 ````
 
 
 ## Get Selected Item Client Side
 
-You can obtain the items, selected item and selected item index of **RadRadioButtonList** through the `get_items()`, `get_selectedItem()`, and `get_selectedIndex()` methods.
+You can obtain the items, selected [item]({%slug Telerik.Web.UI.ButtonListItem%}) and selected item index of **RadRadioButtonList** through the `get_items()` and `get_selectedIndex()` methods.
 
 >caption Example 7: Reference items, selected item and selected index of the **RadRadioButtonList** through its client-side API. 
 
 ````JavaScript
 var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
 var items = radioButtonList.get_items();
-var selectedItem = radioButtonList.get_selectedItem();
 var selectedIndex = radioButtonList.get_selectedIndex();
+//will return -1 if no item is selected
+
+//loop through the items and use their API to get the selected one
+var items = radioButtonList.get_items();
+for (var i = 0; i < items.length; i++) {
+	if (items[i].get_selected()) {
+		alert(items[i].get_text());
+	}
+}
 ````
 
 
@@ -165,3 +183,5 @@ var selectedIndex = radioButtonList.get_selectedIndex();
  * [Server-Side API]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
  
  * [Client-Side API]({%slug radiobuttonlist/client-side-programming/overview%})
+
+ * [Button List Item Client-Side API]({%slug Telerik.Web.UI.ButtonListItem%})

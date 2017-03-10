@@ -20,11 +20,9 @@ The following table lists the most important members of the client-side RadRadio
 |**set_visible**|Sets the visibility of the list.|
 |**get_enabled**|Returns if the list is enabled.|
 |**set_enabled**|Specifies if the list is enabled.|
-|**get_selectedIndex**|Gets the index of the selected checkbox.|
-|**set_selectedIndex**|Checks the checkbox with the provided index.|
-|**get_selectedIndices**|Gets an array of the selected checkboxes by indices.|
-|**get_selectedItems**|Gets an array of the selected checkbox items.|
-|**get_items**|Returns a collection with the checkboxes.|
+|**get_selectedIndex**|Gets the index of the selected radio button.|
+|**set_selectedIndex**|Checks the radio button with the provided index.|
+|**get_items**|Returns a collection with the [radio button list items]({%slug Telerik.Web.UI.ButtonListItem%}).|
 |**get_toolTip**|Gets the text displayed when the mouse pointer hovers over the list. |
 |**set_toolTip**|Sets the text displayed when the mouse pointer hovers over the list. |
 |**get_height**|Gets the height of the control.|
@@ -33,6 +31,8 @@ The following table lists the most important members of the client-side RadRadio
 |**set_width**|Sets the width of the control.|
 |**get_validationGroup**|Gets the name of validation group to which the list is assigned.  	 |
 |**set_validationGroup**|Sets the validation group to which the list should be assigned.  	 |
+
+>tip To get or set the selected item, see the [Select Item]({%slug radiobuttonlist/functionality/select-item%}#select-item-client-side) article.
 
 >caption Methods for Modifying Client-side Event Handlers Dynamically
 

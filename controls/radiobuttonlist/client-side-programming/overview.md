@@ -26,6 +26,16 @@ or
 var radioButtonList = $telerik.findRadioButtonList("<%= RadRadioButtonList1.ClientID %>");
 ````
 
+
+## Setting selected item client-side
+
+See **Example 6** in the [Select Item]({%slug radiobuttonlist/functionality/select-item%}#select-item-client-side) article.
+
+## Getting selected item client-side
+
+See **Example 7** in the [Select Item]({%slug radiobuttonlist/functionality/select-item%}#get-selected-item-client-side) article.
+
+
 ## See Also
 
  * [RadioButtonList Object]({%slug radiobuttonlist/client-side-programming/radiobuttonlist-object%})
