@@ -313,7 +313,7 @@ item("OriginalName").Style("font-family") = "Arial Unicode MS"
 
 There are a few rules that should be followed when exporting *HTML* tables to *PDF*:
 
-* The table should define **<colgroup>** and **<col>** elements
+* The table should define `<colgroup>` and `<col>` elements
 
 * The number of **col** elements should be equal to the number of the columns in the table body
 
