@@ -10,14 +10,17 @@ position: 6
 
 # Default Item
 
+The **Default Item** in a **RadComboBox** facilitates custom validation scenarios. The `DefaultItem` will appear as the first item in the drop down even if there are no items.
 
+>tip The `DefaultItem` feature is available for read-only combo boxes (i.e., `AllowCustomText` must be set to `false`, its default value). For load-on-demand scenarios, see the [Default Item with Load On Demand](#default-item-with-load-on-demand) section below.
 
-**The Default Item** of the **RadComboBox** provides the abilty for custom validation scenarios. The item inherits the **RadComboBoxItem** and once set, it will appear as the first item in the drop down(even if there are no items). When the default item is selected, the value of the **RadComboBox** DOM object should return default item’s value, in order to validate easier with the required fields validators.
+When the default item is selected, the value of the **RadComboBox** DOM object will return default item's value, in order to validate easier with the required fields validators (see the [examples below](#examples)). The server/client side Text property of the RadCombobox will return the default item text.
 
-## Adding default item at run-time
+The **Default Item** will not persist in the server/client side **RadComboBoxItem's** collection.  The server/client side SelectedIndexChanged events will not be fired when the default item is selected. In addition, ItemTemplates do not affect the DefaultItem and you could not rely on the ViewState.
 
->note  **The Default Item** is applicable only in cases with readonly **RadComboBoxes** 
->
+The `DefaultItem` inherits **RadComboBoxItem**.
+
+## Adding Default Item
 
 
 ````ASPNET
@@ -41,11 +44,9 @@ RadComboBox1.DefaultItem.Value = "-1"
 ````
 
 
-## Functionality
 
-The **Default Item** will not persist in the server/client side **RadComboBoxItem's** collection. It will be rendered at the top of the items list. When the item is selected the server/client side Text property of the RadCombobox should return its text. The server/client side SelectedIndexChanged events will not be fired when the default item is selected. In addition, ItemTemplates do not affect the DefaultItem and you could not rely on the ViewState.
 
-## Examples
+### Examples
 
 Shows how to use **Default Item** with a **RequiredFieldValidator**
 
@@ -204,6 +205,65 @@ Private Sub LoadCountries()
 	RadComboBox4.Items.Add(New RadComboBoxItem("USA"))
 	RadComboBox4.Items.Add(New RadComboBoxItem("Other"))
 End Sub
+````
+
+## Default Item with Load On Demand
+
+When using load-on-demand, there are no items initially in the combo box. To have an item that is always available and/or visible to the end user, you can take three approaches:
+
+* [Always Add the Desired Item](#always-add-the-desired-item)
+* [Add a Static Item Client-side](#add-a-static-item-client-side)
+* [Add the Item in the Markup](#add-item-in-the-markup)
+
+### Always Add the Desired Item
+
+Always add the desired item at the top of the items list that your load-on-demand logic will return. This can depend on the `Text` value from the combo box that the handler receives. For example, if it is an empty string, add a default item, otherwise, return only relevant data and/or a default item. 
+
+### Add a Static Item Client-side
+
+You can use the `OnClientLoad` event to create an item with the desired values so it will always be at the top of the list and item from load-on-demand requests will be appended after it. You must set the `AppendDataBoundItems` property to `true`.
+
+````ASP.NET
+<telerik:RadComboBox ID="RadComboBox1"
+	runat="server"
+	AllowCustomText="True"
+	EnableLoadOnDemand="true"
+	OnClientLoad="OnClientLoad"
+	AppendDataBoundItems="True">
+</telerik:RadComboBox>
+<script>
+	function OnClientLoad(combo, args) {
+		//the two commented calls store the item in the ClientState of the control so it will get persisted across postbacks
+		//and it is easier to just add it each time the combo initialized than to check if it is there every time
+		//combo.trackChanges();
+		var comboItem = new Telerik.Web.UI.RadComboBoxItem();
+		comboItem.set_text("Default Option");
+		comboItem.set_value("-1");
+		var items = combo.get_items();
+		items.add(comboItem);
+		//combo.commitChanges();
+	}
+	function OnClientItemsRequestingHandler() {
+	}
+	function FeeEarners1Changed() {
+	}
+</script>
+````
+
+### Add Item in the Markup
+
+With the `AppendDataBoundItems` property to `true`, such an item will appear at the top of each batch of items returned from the service. This means it may appear multiple times in the dropdown, depending on the exact load-on-demand scenario, and in some cases this may be desired (for example, when returning a lot of items you may want to prompt the user for a default or preferred option).
+
+````ASP.NET
+<telerik:RadComboBox ID="RadComboBox1"
+    runat="server"
+    EnableLoadOnDemand="true"
+    AllowCustomText="True"
+    AppendDataBoundItems="True">
+    <Items>
+        <telerik:RadComboBoxItem Text="Default Option" />
+    </Items>
+</telerik:RadComboBox>
 ````
 
 
