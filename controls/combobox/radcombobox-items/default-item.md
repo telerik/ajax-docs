@@ -223,13 +223,19 @@ Always add the desired item at the top of the items list that your load-on-deman
 
 You can use the `OnClientLoad` event to create an item with the desired values so it will always be at the top of the list and item from load-on-demand requests will be appended after it. You must set the `AppendDataBoundItems` property to `true`.
 
+>caption Declarative data source
+
 ````ASP.NET
 <telerik:RadComboBox ID="RadComboBox1"
+	RenderMode="Lightweight"
 	runat="server"
 	AllowCustomText="True"
 	EnableLoadOnDemand="true"
 	OnClientLoad="OnClientLoad"
-	AppendDataBoundItems="True">
+	AppendDataBoundItems="True"
+	DataSourceID="SqlDataSource1"
+	DataTextField="CompanyName"
+	DataValueField="CompanyName">
 </telerik:RadComboBox>
 <script>
 	function OnClientLoad(combo, args) {
@@ -240,30 +246,91 @@ You can use the `OnClientLoad` event to create an item with the desired values s
 		comboItem.set_text("Default Option");
 		comboItem.set_value("-1");
 		var items = combo.get_items();
-		items.add(comboItem);
+		items.insert(0, comboItem);
 		//combo.commitChanges();
 	}
-	function OnClientItemsRequestingHandler() {
+</script>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]"></asp:SqlDataSource>
+````
+
+>caption ItemSrequested handler
+
+````ASP.NET
+<telerik:RadComboBox ID="RadComboBox2"
+	RenderMode="Lightweight"
+	runat="server"
+	AllowCustomText="True"
+	EnableLoadOnDemand="true"
+	OnClientLoad="OnClientLoad"
+	AppendDataBoundItems="True"
+	OnItemsRequested="RadComboBox2_ItemsRequested"
+	OnClientDropDownOpening="requestItems">
+</telerik:RadComboBox>
+<script>
+	function OnClientLoad(combo, args) {
+		//the two commented calls store the item in the ClientState of the control so it will get persisted across postbacks
+		//and it is easier to just add it each time the combo initialized than to check if it is there every time
+		//combo.trackChanges();
+		var comboItem = new Telerik.Web.UI.RadComboBoxItem();
+		comboItem.set_text("Default Option");
+		comboItem.set_value("-1");
+		var items = combo.get_items();
+		items.insert(0, comboItem);
+		//combo.commitChanges();
 	}
-	function FeeEarners1Changed() {
+	function requestItems(sender, args) {
+		sender.requestItems("", true);//request items each time
+		//you can add a flag to prevent this from running multiple times
+		//or use the server EndOfItems flag
 	}
 </script>
 ````
 
+````C#
+protected void RadComboBox2_ItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
+{
+	for (int i = 0; i < 5; i++)
+	{
+		RadComboBox2.Items.Add(new RadComboBoxItem(i.ToString(), i.ToString()));
+		e.EndOfItems = true;//set to true when data is finished to prevent further requests
+	}
+}
+````
+````VB
+Protected Sub RadComboBox2_ItemsRequested(sender As Object, e As RadComboBoxItemsRequestedEventArgs)
+	For i As Integer = 0 To 4
+		RadComboBox2.Items.Add(New RadComboBoxItem(i.ToString(), i.ToString()))
+			'set to true when data is finished to prevent further requests
+		e.EndOfItems = True
+	Next
+End Sub
+````
+
+
 ### Add Item in the Markup
 
-With the `AppendDataBoundItems` property to `true`, such an item will appear at the top of each batch of items returned from the service. This means it may appear multiple times in the dropdown, depending on the exact load-on-demand scenario, and in some cases this may be desired (for example, when returning a lot of items you may want to prompt the user for a default or preferred option).
+With the `AppendDataBoundItems` property to `true`, such an item will appear at the top of each batch of items returned from the data source. This means it may appear multiple times in the dropdown, depending on the exact load-on-demand scenario, and in some cases this may be desired (for example, when returning a lot of items you may want to prompt the user for a default or preferred option).
 
 ````ASP.NET
 <telerik:RadComboBox ID="RadComboBox1"
-    runat="server"
-    EnableLoadOnDemand="true"
-    AllowCustomText="True"
-    AppendDataBoundItems="True">
-    <Items>
-        <telerik:RadComboBoxItem Text="Default Option" />
-    </Items>
+	RenderMode="Lightweight"
+	runat="server"
+	AllowCustomText="True"
+	EnableLoadOnDemand="true"
+	ItemsPerRequest="10"
+	EnableAutomaticLoadOnDemand="true"
+	AppendDataBoundItems="True"
+	ShowMoreResultsBox="true"
+	DataSourceID="SqlDataSource1"
+	DataTextField="CompanyName"
+	DataValueField="CompanyName">
+	<Items>
+		<telerik:RadComboBoxItem Text="Default Option" Value="-1" />
+	</Items>
 </telerik:RadComboBox>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]"></asp:SqlDataSource>
 ````
 
 
