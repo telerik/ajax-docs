@@ -219,11 +219,13 @@ When using load-on-demand, there are no items initially in the combo box. To hav
 
 Always add the desired item at the top of the items list that your load-on-demand logic will return. This can depend on the `Text` value from the combo box that the handler receives. For example, if it is an empty string, add a default item, otherwise, return only relevant data and/or a default item. 
 
+
+If you are using custom templates, this will let the default item also use that template. The other two options can only provide standard text-value items.
+
 ### Add a Static Item Client-side
 
 You can use the `OnClientLoad` event to create an item with the desired values so it will always be at the top of the list and item from load-on-demand requests will be appended after it. You must set the `AppendDataBoundItems` property to `true`.
 
-If you are using custom templates, this will let the default item also use that template. The other two options can only provide standard text-value items.
 
 >caption Declarative data source
 
