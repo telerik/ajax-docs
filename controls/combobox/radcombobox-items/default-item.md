@@ -254,8 +254,11 @@ You can use the `OnClientLoad` event to create an item with the desired values s
 		//combo.commitChanges();
 	}
 </script>
-<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]"></asp:SqlDataSource>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1" 
+	ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	ProviderName="System.Data.SqlClient" 
+	SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]">
+</asp:SqlDataSource>
 ````
 
 >caption ItemSrequested handler
@@ -333,8 +336,11 @@ With the `AppendDataBoundItems` property to `true`, such an item will appear at 
 		<telerik:RadComboBoxItem Text="Default Option" Value="-1" />
 	</Items>
 </telerik:RadComboBox>
-<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]"></asp:SqlDataSource>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1"
+	ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	ProviderName="System.Data.SqlClient"
+	SelectCommand="SELECT [CompanyName] from [Customers] ORDER By [CompanyName]">
+</asp:SqlDataSource>
 ````
 
 
