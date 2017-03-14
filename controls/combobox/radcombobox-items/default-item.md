@@ -223,6 +223,8 @@ Always add the desired item at the top of the items list that your load-on-deman
 
 You can use the `OnClientLoad` event to create an item with the desired values so it will always be at the top of the list and item from load-on-demand requests will be appended after it. You must set the `AppendDataBoundItems` property to `true`.
 
+If you are using custom templates, this will let the default item also use that template. The other two options can only provide standard text-value items.
+
 >caption Declarative data source
 
 ````ASP.NET
