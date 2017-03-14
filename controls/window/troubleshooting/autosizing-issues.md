@@ -34,12 +34,21 @@ The page containing the **RadWindow** also needs to be valid HTML, as well as th
 
 There may be some issues with calculating dimensions when the top-level containers have margins or borders, so they may not be taken into account when calculating the size of its content. This also applies for paddings, as nesting elements when the parent has padding has similar effect. Therefore a good approach is to have a main container that has no borders, margins and paddings, yet has its dimensions set (or at least width). This also has to be extended to the html, body and form elements when an external page is loaded - i.e. that also need the paddings and margins removed:
 
-````ASP.NET
+````CSS
 html, body, form
 {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+}
+````
+
+If you get scrollbars (e.g., after minimize/maximize/restore) or the size is off by a few pixels, adding the following rule can remove them. If the size is off by 1px, this will often add one scrollbar (for example, vertical), which will, in turn, take up some space and cause a horizontal scrollbar. Such an issue with the size can come from rounding of the RadWindow size - HTML is shown (rendered) by the browser in integer values for the pixels, but may be calculated in decimal values because of the `em` units used by the CSS. This provides margin for rounding that can cause such issues.
+
+````CSS
+html
+{
+	overflow: hidden;
 }
 ````
 
