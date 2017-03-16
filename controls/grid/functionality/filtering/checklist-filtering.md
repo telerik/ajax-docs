@@ -598,6 +598,8 @@ End Sub
 
 As with checklist filtering there will be a ListBox that displays the available values. You need to provide DataSource for the ListBox. You can use any of the data binding approaches described above. When the ListBox is data bound there will be a TextBox displayed above it that can be used to filter the items displayed in the ListBox.
 
+>tip If you want the filters to cascade (contain only values present in the grid data source), you will need to provide an appropriate data source to the `ListBox` in the `FilterCheckListItemsRequested` event. You can get the current grid filter from the `grid.MasterTableView.FilterExpression.ToString()` line so you can use it in your own data source query. Read more on how filter expressions look like in the [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually%}) article.
+
 
 
 ## See Also
@@ -606,4 +608,5 @@ As with checklist filtering there will be a ListBox that displays the available 
 
  * [Excel-like filtering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
  
+ * [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually%})
 
