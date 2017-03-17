@@ -10,11 +10,16 @@ position: 5
 
 # Disabling the Embedded jQuery
 
+This article explains how to disable and/or replace the built-in jQuery that comes with the Telerik controls with your own.
+
+As of **Q2 2012**, developers wanting to use another version of jQuery, different from the embedded one that ships with Telerik.Web.UI, can do so by:
+
+1. loading the external jQuery in a `<script>` tag
+1. setting the `EnableEmbeddedjQuery` property of `RadScriptManager` to `false`
+1. adding references to `Core.js`, `jQueryExternal.js` and `jQueryPlugins.js`
 
 
-## 
-
-With **Q2 2012** developers wanting to use another version of jQuery different from the embedded one that ships with Telerik.Web.UI can do so by loading the external jQuery in a `<script>` tag, setting the **EnableEmbeddedjQuery** property of RadScriptManager to **false** and adding references to Core.js, jQueryExternal.js and jQueryPlugins.js.
+>caption Disable the built-in jQuery on a concrete page.
 
 ````ASPNET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false">
@@ -26,9 +31,38 @@ With **Q2 2012** developers wanting to use another version of jQuery different f
 </telerik:RadScriptManager>
 ````
 
-To disable jQuery globally for all pages in your web site/project you can set the following **<appSetting/>** in your web.config: <add key=”Telerik.ScriptManager.EnableEmbeddedjQuery” value=”false” /> If you then want to override this setting on a subset of your page you can set **RadScriptManager.EnableEmbeddedjQuery = true**.
+>caption Disable the built-in jQuery globally for all pages in your web site/project. 
 
->note  **Important!** 
->The embedded jQuery version resides in **$telerik.$** and is used heavily by the RadControls for ASP.NET AJAX. Because of that if you disable it you must provide another version of jQuery as otherwise most of the controls will not work. Another important fact you need to consider is that the controls depend on the specific version of jQuery they are tested against. (Normally this is the latest official jQuery version released before the latest RadControls for ASP.NET AJAX official release.) So it is possible that using an older version of jQuery will break the controls as well.
->
+````web.config
+<appSettings>
+	<add key="Telerik.ScriptManager.EnableEmbeddedjQuery" value="false" />
+</appSettings>
+````
+
+
+If you want to override this setting on a subset of your pages you can set  the particular `RadScriptManagerInstance.EnableEmbeddedjQuery = true`.
+
+>important
+>The embedded jQuery version resides in `$telerik.$` and is used heavily by the UI for ASP.NET AJAX controls. If you disable it, you must provide another version of jQuery. Otherwise most of the controls will not work. 
+
+>caption Add your own jQuery to the page
+
+````ASP.NET
+<head>
+	<script src="my-desired-jQuery-version.js"></script>
+</head>
+<body>
+	<form>
+		<telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false">
+		      <Scripts>
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
+		    </Scripts>
+		</telerik:RadScriptManager>
+	</form>
+</body>
+````
+
+>note The UI for ASP.NET AJAX controls depend on the [specific version of jQuery they are tested against]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery %}#jquery-version-history-in-telerik-ui-controls), so it is possible that using a significantly different version of jQuery will break the controls.
 
