@@ -69,6 +69,7 @@ As of R1 2017 you can avoid this by adding the `X-UA Compatible` header with val
       <customHeaders>
         <add name="X-UA-Compatible" value="IE=Edge"/>
       </customHeaders>
+	</httpProtocol>
 </system.webServer>
 ````
 
