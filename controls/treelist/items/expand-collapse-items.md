@@ -40,6 +40,45 @@ In order to enable the feature you need to set the **ExpandCollapseMode** proper
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **ClientExpandedIndexes** | property |Collection containing the **TreeListHierarchyIndexes** of the items that are expanded on the client-side. The collection is serialized back and forth to the client.|
+| **CollapseAllItems()** | method |Collapses all RadTreeList items.|
+| **ExpandAllItems()** | method |Expands all RadTreeList items.|
+| **ExpandItemToLevel(TreeListDataItem item, int level)** | method |Expands the specified TreeListDataItem to the specified level.|
+| **ExpandToLevel(int level)** | method |Expands all RadTreeList items to the specified level.|
+
+>caption The `ExpandItemToLevel` method allows you to expand all child items recursively. For example:
+
+````C#
+protected void Button1_Click(object sender, EventArgs e)
+{
+	foreach (TreeListDataItem item in RadTreeList1.Items)
+	{
+		//find the item you want to expand
+		if (item.GetDataKeyValue("ID").ToString() == "1")
+		{
+			if (item.CanExpand)
+			{
+				RadTreeList1.ExpandItemToLevel(item, int.MaxValue);
+			}
+			//the collection will be modified as items expand, so the loop will throw exceptions if not stopped
+			break;
+		}
+	}
+}
+````
+````VB
+Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+	For Each item As TreeListDataItem In RadTreeList1.Items
+		'find the item you want to expand
+		If item.GetDataKeyValue("ID").ToString() = "1" Then
+			If item.CanExpand Then
+				RadTreeList1.ExpandItemToLevel(item, Integer.MaxValue)
+			End If
+			'the collection will be modified as items expand, so the loop will throw exceptions if not stopped
+			Exit For
+		End If
+	Next
+End Sub
+````
 
 
 >caution Modifying **ClientExpandedIndexes** can cause unexpected behavior. It is recommended not to modify the collection. Nevertheless, if you need to modify it you should execute caution. 
