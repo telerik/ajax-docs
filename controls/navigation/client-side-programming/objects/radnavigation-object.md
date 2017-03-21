@@ -39,6 +39,7 @@ The following table lists the most important of the **RadNavigation object**'s c
 | **collapseMenuButton** | none | none | Collapses the Navigation Menu Button, hiding the expanded nodes. See **Example 7**.|
 | **get_visible** |none|Boolean|True if the navigation is visible, false otherwise.|
 | **set_visible** |Boolean|none|Sets the Navigation's visibility.|
+| **set_minWidth** |integer|none|Sets the screen width under which all nodes are hidden. See [Controlling the Point of Collapsing All Nodes]({% slug navigation/how-to/controlling-the-point-of-collapsing-all-nodes%}).|
 
 
 >caption Example 1: Get a collection of the root level nodes.

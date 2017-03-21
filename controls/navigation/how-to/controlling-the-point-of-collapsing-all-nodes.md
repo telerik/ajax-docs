@@ -37,4 +37,31 @@ By default the **RadNavigation** will collapse all of its Nodes under the sandwi
 </script>
 ````
 
+If you need to change it dynamically, you must call the `repaint()` method for the changes to take effect immediately:
+
+````ASP.NET
+<script>
+	function changeBreakpoint() {
+		var nav = $find("<%=RadNavigation1.ClientID%>");
+		nav.set_minWidth(1000);
+		nav.repaint();
+	}
+</script>
+<telerik:RadNavigation runat="server" ID="RadNavigation1">
+	<Nodes>
+		<telerik:NavigationNode Text="the first node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the second node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the third node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the fourth node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the fifth node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the sixth node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the seventh node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the eighth node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the ninth node"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="the tenth node"></telerik:NavigationNode>
+	</Nodes>
+</telerik:RadNavigation>
+<asp:Button ID="Button1" Text="change breakpoint dynamically" OnClientClick="changeBreakpoint(); return false;" runat="server" />
+````
+
 # See Also
