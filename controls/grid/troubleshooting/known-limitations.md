@@ -67,13 +67,14 @@ Model binding is not supported when the **ViewState** of the page is disabled. I
 
 There are several limitations that you should have in mind. They are caused by the complexity and specifics of the frozen columns feature, which is implemented by means of hiding and showing columns, instead of actually scrolling them.
 
+
 * **Resizing** with frozen column is not supported.
 
 * **Having hidden columns** (with **Display** property set to **false**) or hiding/showing columns and frozen columns are not supported at the same time. Hidden columns reappear after scrolling.
 
 * **Merged headers** with frozen columns are not supported.
 
-* When frozen columns are used, **tabbing between the textboxes** in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific <div> with Javascript. This <div> has a client ID of "...**_Frozen**" where "..." is the RadGrid client ID. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
+* When frozen columns are used, **tabbing between the textboxes** in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific `<div>` with JavaScript. This `<div>` has a client ID of `<%=RadGridInstance.ClientID%>**_Frozen**`. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
 
 * **OnScroll** client-side event does not fire when horizontal scroll is used for scrolling.
 
@@ -192,4 +193,8 @@ Private Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
 	End If
 End Sub		
 ````
+
+## See Also
+
+ * [Known Reasons for Error Messages]({% slug grid/troubleshooting/known-reasons-for-error-messages%})
 
