@@ -50,6 +50,7 @@ function OnBatchEditOpened(sender, args) {
 | changeCellValue(cell, newCellValue) | `<td>` element, value |  | Assigns a value to the respective cell. |
 | get_currentlyEditedCell | `<td>` element |  | Returns the element of the currently edited cell. This method should be used when **EditType** is set to **Cell**. |
 | get_currentlyEditedRow | `<tr>` element |  | Returns the element of the currently edited row. This method should be used when **EditType** is set to **Row**. |
+| hasChanges(tableView) | GridTableView | boolean | Returns whether there are unsaved changes in the tableview. Similar to an IsDirty flag. |
 
 
 
