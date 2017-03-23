@@ -11,12 +11,7 @@ position: 84
 # OnBatchEditOpened
 
 
-
-## 
-
-OnBatchEditOpened
-
-This event is fired after a cell is opened for edit.
+This event is fired after a cell is opened for edit. You can use it to access and modify cell values and inner controls from template columns. 
 
 
 |  **Fired by**  | RadGrid |
@@ -46,4 +41,145 @@ function BatchEditOpened(sender, args) {
 }
 ````
 
+>caption Modify a cell/control according to other cell values.
 
+This example uses the following:
+
+* the [Batch Edit Manager API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%})
+* the [dataItem object]({%slug grid/client-side-programming/griddataitem-object/griddataitem-class-members%})
+
+
+````JavaScript
+function OnBatchEditOpened(sender, args) {
+	//check which is the column currently being opened so you can easily get the combo box
+	if (args.get_columnUniqueName() == "CategoryID") {
+		//get the currently opened cell that holds the combo box
+		var comboCell = args.get_cell();
+		//enumerate the data items in the grid so you can access them later
+		args.get_tableView().get_dataItems();
+		//get the data item so you can get values from the grid
+		var dataItem = $find(args.get_row().getAttribute("id"));
+		//traverse the DOM to get a reference to the combo
+		var combo = $telerik.$(comboCell).find(".RadComboBox").first()[0].control;
+		//get the cell whose value you want to get
+		var parameterCell = dataItem.get_cell("ProductName");
+		//get the current value of the cell that will be a parameter for the combo
+		var parameterText = sender.get_batchEditingManager().getCellValue(parameterCell);
+		//set the combo text as it will be sent to the ItemsRequested handler
+		combo.set_text(parameterText);
+	}
+}
+````
+
+Sampple markup:
+
+````ASP.NET
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowAutomaticDeletes="True"
+				 AllowAutomaticInserts="True" PageSize="10"  AllowAutomaticUpdates="True" AllowPaging="True"
+				 AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+	<ClientSettings AllowKeyboardNavigation="true">
+		<ClientEvents OnBatchEditOpened="OnBatchEditOpened" />
+	</ClientSettings>
+	<MasterTableView CommandItemDisplay="TopAndBottom" DataKeyNames="ProductID"
+					 DataSourceID="SqlDataSource1" HorizontalAlign="NotSet" EditMode="Batch" AutoGenerateColumns="False">
+		<BatchEditingSettings EditType="Row" />
+		<SortExpressions>
+			<telerik:GridSortExpression FieldName="ProductID" SortOrder="Descending" />
+		</SortExpressions>
+		<Columns>
+			<telerik:GridBoundColumn DataField="ProductName" HeaderStyle-Width="210px" HeaderText="ProductName" SortExpression="ProductName"
+									 UniqueName="ProductName">
+				<ColumnValidationSettings EnableRequiredFieldValidation="true">
+					<RequiredFieldValidator ForeColor="Red" Text="*This field is required" Display="Dynamic">
+					</RequiredFieldValidator>
+				</ColumnValidationSettings>
+			</telerik:GridBoundColumn>
+			<telerik:GridTemplateColumn HeaderText="Category" DefaultInsertValue="Beverages" HeaderStyle-Width="150px" UniqueName="CategoryID" DataField="CategoryID">
+				<ItemTemplate>
+				<%# Eval("CategoryName") %>
+				</ItemTemplate>
+				<EditItemTemplate>
+					<telerik:RadComboBox runat="server" ID="rcbCategory" RenderMode="Lightweight" EnableLoadOnDemand="true" OnItemsRequested="rcbCategory_ItemsRequested"></telerik:RadComboBox>
+				</EditItemTemplate>
+			</telerik:GridTemplateColumn>
+		</Columns>
+	</MasterTableView>
+
+</telerik:RadGrid>
+
+<script>
+	function OnBatchEditOpened(sender, args) {
+		//check which is the column currently being opened so you can easily get the combo box
+		if (args.get_columnUniqueName() == "CategoryID") {
+			//get the currently opened cell that holds the combo box
+			var comboCell = args.get_cell();
+			//enumerate the data items in the grid so you can access them later
+			args.get_tableView().get_dataItems();
+			//get the data item so you can get values from the grid
+			var dataItem = $find(args.get_row().getAttribute("id"));
+			//traverse the DOM to get a reference to the combo
+			var combo = $telerik.$(comboCell).find(".RadComboBox").first()[0].control;
+			//get the cell whose value you want to get
+			var parameterCell = dataItem.get_cell("ProductName");
+			//get the current value of the cell that will be a parameter for the combo
+			var parameterText = sender.get_batchEditingManager().getCellValue(parameterCell);
+			//set the combo text as it will be sent to the ItemsRequested handler
+			combo.set_text(parameterText);
+		}
+	}
+</script>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+				   DeleteCommand="DELETE FROM [Products] WHERE [ProductID] = @ProductID" 
+				   InsertCommand="INSERT INTO [Products] ([ProductName], [CategoryID], [UnitPrice], [Discontinued], [QuantityPerUnit], [UnitsInStock]) VALUES (@ProductName, @CategoryID, @UnitPrice, @Discontinued, @QuantityPerUnit, @UnitsInStock)"
+				   SelectCommand="SELECT [ProductID], [ProductName], [Products].[CategoryID], [Categories].[CategoryName] as CategoryName, [UnitPrice], [Discontinued], [QuantityPerUnit], [UnitsInStock] FROM [Products] JOIN Categories ON Products.CategoryID=Categories.CategoryID"
+				   UpdateCommand="UPDATE [Products] SET [ProductName] = @ProductName, [CategoryID] = @CategoryID, [UnitPrice] = @UnitPrice, [Discontinued] = @Discontinued, [QuantityPerUnit] = @QuantityPerUnit, [UnitsInStock] = @UnitsInStock WHERE [ProductID] = @ProductID">
+	<DeleteParameters>
+		<asp:Parameter Name="ProductID" Type="Int32"></asp:Parameter>
+	</DeleteParameters>
+	<InsertParameters>
+		<asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
+		<asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
+		<asp:Parameter Name="UnitPrice" Type="Decimal"></asp:Parameter>
+		<asp:Parameter Name="Discontinued" Type="Boolean"></asp:Parameter>
+		<asp:Parameter Name="QuantityPerUnit" Type="String"></asp:Parameter>
+		<asp:Parameter Name="UnitsInStock" Type="Int16"></asp:Parameter>
+	</InsertParameters>
+	<UpdateParameters>
+		<asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
+		<asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
+		<asp:Parameter Name="UnitPrice" Type="Decimal"></asp:Parameter>
+		<asp:Parameter Name="Discontinued" Type="Boolean"></asp:Parameter>
+		<asp:Parameter Name="QuantityPerUnit" Type="String"></asp:Parameter>
+		<asp:Parameter Name="UnitsInStock" Type="Int16"></asp:Parameter>
+		<asp:Parameter Name="ProductID" Type="Int32"></asp:Parameter>
+	</UpdateParameters>
+</asp:SqlDataSource>
+````
+
+Sample implementation of the load-on-demand for the combo box
+
+````C#
+protected void rcbCategory_ItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
+{
+	string currText = e.Text;
+	RadComboBox combo = sender as RadComboBox;
+	for (i = 1; i <= 10; i++) {
+		combo.Items.Add(new RadComboBoxItem(currText + i, i));
+	}
+}
+````
+````VB
+Protected Sub rcbCategory_ItemsRequested(sender As Object, e As RadComboBoxItemsRequestedEventArgs)
+	Dim currText As String = e.Text
+	Dim combo As RadComboBox = DirectCast(sender, RadComboBox)
+	For index = 1 To 10
+		combo.Items.Add(New RadComboBoxItem(currText & index, index))
+	Next
+End Sub
+````
+
+## See Also
+
+* [Batch Edit Manager API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%})
+* [dataItem object]({%slug grid/client-side-programming/griddataitem-object/griddataitem-class-members%})

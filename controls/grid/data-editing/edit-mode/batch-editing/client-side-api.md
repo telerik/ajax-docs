@@ -11,8 +11,30 @@ position: 3
 # Batch Editing Client-side API
 
 
-The **Batch Editing** client-side API exposes a number of methods which provide more control over the editing process. You can see a list of the methods available with **Batch Editing**.
+The **Batch Editing** client-side API exposes a number of methods which provide more control over the editing process, let you get/set cell values and open/close cells. You can see a list of the methods available with **Batch Editing** in **Table 1**.
 
+To use these methods, you need a reference to the **Batch Editing Manager** object first. You can get it from the grid object:
+
+````JavaScript
+var grid = $find("<%=RadGrid1.ClientID%>");
+var batchEditingManager = grid.get_batchEditingManager();
+````
+
+The grid object is the first argument to all of its client-side handlers so you can use it without hardcoding IDs:
+
+````ASP.NET
+	<ClientSettings>
+		<ClientEvents OnBatchEditOpened="OnBatchEditOpened" />
+	</ClientSettings>
+</telerik:RadGrid>
+<script>
+function OnBatchEditOpened(sender, args) {
+	var batchEditingManager = sender.get_batchEditingManager();
+}
+</script>
+````
+
+>caption Table 1: Batch Editing Client-side API methods
 
 | Name | Parameters | Return Type | Description |
 |---|---|---|---|
@@ -44,13 +66,14 @@ When firing grid commands by using the **fireCommand** method some commands are 
 
 
 
-Additionally, you could subscribe to the **OnBatchEditCellValueChanging** event to access the new value before it is applied and cancel the action if necessary. The **OnBatchEditCellValueChanged** event can be used to access the already changed value.
+Additionally, you could subscribe to the [OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanging%}) event to access the new value before they are applied, and cancel the action if necessary. The [OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanged%}) event can be used to access the already changed value.
 
 
 
 
 # See Also
 
+ * [Batch Edit Mode Overview]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
  * [Server-Side API]({%slug grid/data-editing/edit-mode/batch-editing/server-side-api%})
 
 

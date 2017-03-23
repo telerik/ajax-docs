@@ -12,10 +12,6 @@ position: 80
 
 
 
-## 
-
-OnBatchEditCellValueChanged
-
 This event is fired once a cell has been edited.
 
 

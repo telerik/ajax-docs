@@ -297,6 +297,8 @@ Essentially, **Batch editing** is a bit different from the other Edit modes. It 
 
 Let's take for example the GridDateTime column of a RadGrid with 10 items per page. Unlike the other Edit modes, there are not **10 different RadDatePicker** controls generated to edit each of the records, but there is **only 1 picker** loaded on the server, which contributes for ideal performance and rendering optimization. If you access the generated picker on code-behind and apply some properties, e.g. **FocusedDate**, the setting will be applied to all the picker elements of the column.
 
+>caption How to access the built-in column editor
+
 ````C#
 protected void RadGrid1_PreRender(object sender, EventArgs e)
 {
@@ -315,7 +317,24 @@ Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
 End Sub
 ````
 
-Further details and examples can be found in the relevant [Batch editing article]({%slug grid/data-editing/edit-mode/batch-editing/overview%}).
+>caption How to access custom controls in a template column
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+	RadComboBox combo = ((sender as RadGrid).MasterTableView.GetBatchEditorContainer("CategoryID").FindControl("rcbCategory") as RadComboBox);
+	combo.EnableLoadOnDemand = true;
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs) Handles RadGrid1.PreRender
+	Dim combo As RadComboBox = DirectCast(DirectCast(sender, RadGrid).MasterTableView.GetBatchEditorContainer("CategoryID").FindControl("rcbCategory"), RadComboBox)
+	combo.EnableLoadOnDemand = True
+End Sub
+````
+
+
+Read more in the [Batch editing mode]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) article.
 
 
 ## Accessing Cells and Values in Client-Side Code

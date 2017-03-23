@@ -15,7 +15,7 @@ position: 0
 
 **Batch Editing** functionality of **RadGrid** enables inline client-side editing and performing multiple changes before the user decides to either apply the changes or cancel them. The feature is well integrated with existing **RadGrid** functionalities like automatic data source operations, hierarchy, selection, validation, template columns and event handling. 
 
-The feature could be easily enabled by setting the **GridTableView.EditMode** property to **Batch**. Additional properties for configuring the behavior of the functionality can be found in the **GridTableView.BatchEditingSettings** collection.
+The feature could be easily enabled by setting the **GridTableView.EditMode** property to **Batch**. Additional properties for configuring the behavior of the functionality can be found in the **GridTableView.BatchEditingSettings** collection. You can find more details and examples in the [Configuration]({%slug grid/data-editing/edit-mode/batch-editing/configuration%}) article.
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1">
@@ -30,9 +30,18 @@ The feature could be easily enabled by setting the **GridTableView.EditMode** pr
 </telerik:RadGrid>
 ````
 
+If you want to implement your own CRUD operations instead of using declarative data sources, see the [Batch Editing Server-side API]({%slug grid/data-editing/edit-mode/batch-editing/server-side-api%}) article. It also shows how to access and modify the column editor properties on the server.
 
+Custom logic with the batch edit mode is usually written in JavaScript, however, and to this end you can use:
 
-# See Also
+* The [Batch Edit Manager API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%}) that lets you get/set cell values and open/close cells.
+* The [OnBatchEditOpened]({%slug grid/client-side-programming/events/onbatcheditopened%}) event that lets you modify cell values and controls insides based on other conditions and cell values.
+* The [OnBatchEditOpening]({%slug grid/client-side-programming/events/onbatcheditopening%}) event that lets you prevent cells from being opened based on conditions, must like in the OnBatchEditOpened event.
+* [OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanging%}) and [OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanged%}) to get notified of and/or cancel changes to cell values.
+* [OnBatchEditClosing]({%slug grid/client-side-programming/events/onbatcheditclosing%}) and [OnBatchEditClosed]({%slug grid/client-side-programming/events/onbatcheditclosed%}) to get notified and prevent cells from closing.
+* Other events showcased in the [Working with templates]({%slug grid/data-editing/edit-mode/batch-editing/working-with-templates%}) article that you can use for complex templates, objects and logic.
+
+## See Also
 
  * [Configuration]({%slug grid/data-editing/edit-mode/batch-editing/configuration%})
 

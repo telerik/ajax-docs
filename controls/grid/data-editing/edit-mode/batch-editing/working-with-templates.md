@@ -8,7 +8,7 @@ published: True
 position: 4
 ---
 
-# Working with templates
+# Working With Templates
 
 
 When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGrid** will try to automatically get/set the values in the editor control. For example if you have a nested input element in a table as shown below, the internal logic will find the input element and get/set its value.
@@ -42,15 +42,15 @@ However, in a more complicated scenario (like multiple editor controls) where **
 >
 
 
-* **OnBatchEditGetCellValue** – gets the cell's control value and sets the value by using the **args.set_value** function
+* [OnBatchEditGetCellValue]({%slug grid/client-side-programming/events/onbatcheditgetcellvalue%}) – gets the cell's control value and sets the value by using the **args.set_value** function
 
-* **OnBatchEditSetCellValue** – sets the cell's control corresponding value by using the value returned from the **args.get_value** function
+* [OnBatchEditSetCellValue]({%slug grid/client-side-programming/events/onbatcheditsetcellvalue%}) – sets the cell's control corresponding value by using the value returned from the **args.get_value** function
 
-* **OnBatchEditGetEditorValue** – gets the editor's control value and sets the value by using the **args.set_cancel** function
+* [OnBatchEditGetEditorValue]({%slug grid/client-side-programming/events/onbatcheditgeteditorvalue%}) – gets the editor's control value and sets the value by using the **args.set_cancel** function
 
-* **OnBatchEditSetEditorValue** – sets the editor's control corresponding value by using the value returned from the **args.get_value** function
+* [OnBatchEditSetEditorValue]({%slug grid/client-side-programming/events/onbatcheditseteditorvalue%}) – sets the editor's control corresponding value by using the value returned from the **args.get_value** function
 
-If you want to include a custom object as a value both **equals** (A function determining if two objects are equal) and**toString**(A function returning the string value representation of the object) methods should be implemented.	The example below demonstrates such a scenario. It uses two different text box controls that display the **First name** and **Last Name**of a **Person**. The implementation uses custom JavaScript logic.
+If you want to include a custom object as a value both **equals** (A function determining if two objects are equal) and **toString** (A function returning the string value representation of the object) methods should be implemented.	The example below demonstrates such a scenario. It uses two different text box controls that display the **First name** and **Last Name** of a **Person**. The implementation uses custom JavaScript logic.
 
 The template column declaration
 

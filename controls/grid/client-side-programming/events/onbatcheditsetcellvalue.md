@@ -12,10 +12,6 @@ position: 78
 
 
 
-## 
-
-OnBatchEditSetCellValue
-
 This event should be handled when multiple controls which contain an input element are placed inside the EditItemTemplate of a GridTemplateColumn. It should be used for extracting the value from the editor and assigning it to the cell
 
 

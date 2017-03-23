@@ -12,10 +12,6 @@ position: 79
 
 
 
-## 
-
-OnBatchEditGetCellValue
-
 This event should be handled when multiple controls which contain an input element are placed inside the EditItemTemplate of a GridTemplateColumn. It should be used for extracting the value from the cell and passing it to the arguments. Later this value is used for populating the editor.
 
 

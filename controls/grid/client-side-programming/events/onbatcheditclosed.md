@@ -12,9 +12,6 @@ position: 82
 
 
 
-## 
-
-OnBatchEditClosed
 
 This event is fired after the cell is closed.
 

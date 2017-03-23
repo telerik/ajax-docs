@@ -10,13 +10,7 @@ position: 85
 
 # OnBatchEditOpening
 
-
-
-## 
-
-OnBatchEditOpening
-
-This event is fired when a cell is opening for edit
+This event is fired when a cell is opening for edit. You can prevent the cell from opening by cancelling it.
 
 
 |  **Fired by**  | RadGrid |
