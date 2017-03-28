@@ -12,26 +12,24 @@ position: 4
 # Dynamically Adding RadAjaxManager to Sharepoint Web Parts
 
 
-
-## 
-
 RadAjax controls for ASP.NET AJAX support SharePoint and can be integrated with WebParts.
 
-There is a minor detail to be taken into account when **adding RadAjaxManager dynamically into a WebPart** , though. The control should be added both to **Page.Form.Controls** collection as well as to **Page.Items** collection. Otherwise, the code accessing the manager in order to add the necessary AJAX settings for example, would return null:
+There is a minor detail to be taken into account when **adding RadAjaxManager dynamically into a WebPart** , though. The control should be added both to **Page.Form.Controls** collection as well as to **Page.Items** collection. 
+
+Otherwise, the code accessing the manager in order to add the necessary AJAX settings for example, would return null:
 
 
-
-````C#
-	
+````C#	
 ScriptManager scriptManager = ScriptManager.GetCurrent(Page);
 RadAjaxManager ajaxManager = RadAjaxManager.GetCurrent(Page);
 ajaxManager.AjaxSettings.AddAjaxSetting(Button1, Label1); //may throw null reference exception  
-	
 ````
 ````VB
-ajaxManager = New RadAjaxManager
-ajaxManager.ID = "RadAjaxManager1"
-Me.Page.Form.Controls.Add(ajaxManager)
+Dim scriptManager As ScriptManager = ScriptManager.GetCurrent(Page)
+
+Dim ajaxManager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
+
+ajaxManager.AjaxSettings.AddAjaxSetting(Button1, Label1) 'may throw null reference exception
 ````
 
 
@@ -39,13 +37,11 @@ We recommend using WebPart **OnInit** event to add the RadAjaxManager dynamicall
 
 
 
-````C#
-	
+````C#	
 ajaxManager = new RadAjaxManager();
 ajaxManager.ID = "RadAjaxManager1";
 this.Page.Items.Add(ajaxManager.GetType(), ajaxManager);
-his.Page.Form.Controls.Add(ajaxManager);
-	
+this.Page.Form.Controls.Add(ajaxManager);	
 ````
 ````VB
 ajaxManager = New RadAjaxManager
