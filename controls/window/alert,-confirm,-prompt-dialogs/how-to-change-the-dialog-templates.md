@@ -25,16 +25,80 @@ You can change the look of the alert, confirm, and prompt dialogs in your applic
 
 This topic contains the following sections.
 
+* [Templates for Lightweight RenderMode since Q2 2016](#templates-for-lightweight-rendermode-since-q2-2016)
 * [Templates for Lightweight RenderMode since Q2 2013](#templates-for-lightweight-rendermode-since-q2-2013)
 * [Templates for Classic RenderMode since Q1 2009](#templates-for-classic-rendermode-since-q1-2009)
 * [Templates for versions prior to Q1 2009](#templates-for-versions-prior-to-q1-2009)
 * [Changing the Templates through the Markup](#changing-the-templates-through-the-markup)
 * [Changing the Templates through the Code-Behind](#changing-the-templates-through-the-code-behind)
 
+## Templates for Lightweight RenderMode since Q2 2016
+
+````ASP.NET
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server" RenderMode="Lightweight">
+	<AlertTemplate>
+		<div class="rwDialog rwAlertDialog">
+			<div class="rwDialogContent">
+				<div class="rwDialogMessage">{1}</div>
+			</div>
+			<div class="rwDialogButtons">
+				<button type="button" class="rwOkBtn" onclick="$find('{0}').close(true); return false;">##LOC[OK]##</button>
+			</div>
+		</div>
+	</AlertTemplate>
+	<PromptTemplate>
+		<div class="rwDialog rwPromptDialog">
+			<div class="rwDialogContent">
+				<div class="rwDialogMessage">{1}</div>
+				<div class="rwPromptInputContainer">
+					<script type="text/javascript">
+						function RadWindowprompt_detectenter(id, ev, input) {
+							if (!ev) ev = window.event;
+							if (ev.keyCode == 13) {
+								var but = input.parentNode.parentNode.parentNode.getElementsByTagName("button")[0];
+								if (but) {
+									if (but.click) {
+										but.click();
+									}
+									else if (but.onclick) {
+										but.focus();
+										var click = but.onclick;
+										but.onclick = null;
+										if (click) click.call(but);
+									}
+								}
+								return false;
+							}
+							else return true;
+						}
+					</script>
+					<input title="Enter Value" onkeydown="return RadWindowprompt_detectenter('{0}', event, this);" type="text" class="rwPromptInput radPreventDecorate" value="{2}" />
+				</div>
+			</div>
+			<div class="rwDialogButtons">
+				<button type="button" class="rwOkBtn" onclick="$find('{0}').close(this.parentNode.parentNode.getElementsByTagName('input')[0].value); return false;">##LOC[OK]##</button>
+				<button type="button" class="rwCancelBtn" onclick="$find('{0}').close(null); return false;">##LOC[Cancel]##</button>
+			</div>
+		</div>
+	</PromptTemplate>
+	<ConfirmTemplate>
+		<div class="rwDialog rwConfirmDialog">
+			<div class="rwDialogContent">
+				<div class="rwDialogMessage">{1}</div>
+			</div>
+			<div class="rwDialogButtons">
+				<button type="button" class="rwOkBtn" onclick="$find('{0}').close(true); return false;">##LOC[OK]##</button>
+				<button type="button" class="rwCancelBtn" onclick="$find('{0}').close(false); return false;">##LOC[Cancel]##</button>
+			</div>
+		</div>
+	</ConfirmTemplate>
+</telerik:RadWindowManager>
+````
+
 ## Templates for Lightweight RenderMode since Q2 2013
 
 ````ASP..NET
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server" RenderMode="Lightweight">
 	<AlertTemplate>
 		<div class="rwDialog rwAlertDialog">
 			<div class="rwDialogContent">
@@ -105,7 +169,7 @@ This topic contains the following sections.
 ## Templates for Classic RenderMode since Q1 2009
 
 ````ASP.NET
-<telerik:RadWindowManager ID="RadWindowManager2" runat="server">
+<telerik:RadWindowManager ID="RadWindowManager2" runat="server" RenderMode="Classic">
 	<AlertTemplate>
 		<div class="rwDialogPopup radalert">
 			<div class="rwDialogText">
