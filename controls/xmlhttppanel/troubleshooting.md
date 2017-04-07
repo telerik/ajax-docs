@@ -52,10 +52,9 @@ When the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control 
 
 This behavior is expected and the performance hit or re-evaluation of scripts is not acceptable, you can:
 
-* remove the `IScriptControl` objects from the callback so it can be used to fetch data only. You can then use their client-side API to set the data in them.
-* use partial postbacks through an `<asp:UpdatePanel>` or `<telerik:RadAjaxPanel>` so the page goes through its complete lifecycle and controls are recreated as usual and new script entries are not created. See also [Differences Between RadXmlHttpPanel and RadAjaxPanel]({%slug xmlhttppanel/getting-started/differences-between-radxmlhttppanel-and-radajaxpanel%}).
-
-Setting the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control to `false` can cause the [control client-side objects to not be available](#client-side-objects-not-available).
+* Remove the `IScriptControl` objects from the callback so it can be used to fetch data only. You can then use their client-side API to set the data in them.
+* Use partial postbacks through an `<asp:UpdatePanel>` or `<telerik:RadAjaxPanel>` so the page goes through its complete lifecycle and controls are recreated as usual and new script entries are not created. See also [Differences Between RadXmlHttpPanel and RadAjaxPanel]({%slug xmlhttppanel/getting-started/differences-between-radxmlhttppanel-and-radajaxpanel%}).
+* Set the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control to `false`. It can cause the [control client-side objects to not be available](#client-side-objects-not-available).
 
 ## Type xxxxxxxx Has Already Been Registered
 
