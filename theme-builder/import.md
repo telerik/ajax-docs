@@ -12,9 +12,9 @@ position: 2
 
 
 
-The **Theme Builder** tool enables you to upload your own theme that you have created previously. You need to select the *Import existing theme* option.
+The **Sass Theme Builder** tool enables you to upload your own theme that you have previously created. You just need to select the *Import existing theme* option.
 
->note You must upload both **ScssPrimitives.json** and **UsedControls.json** files in order for the imported theme to be recognized correctly.
+>note You must upload the **primitives.scss** file or both **ScssPrimitives.json** and **UsedControls.json** files if you had used the previos version of the Theme Builder.
 
 ![Themebuilder import existing theme](images/theme-builder-import-existing-theme.png)
 
