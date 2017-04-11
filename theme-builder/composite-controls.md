@@ -4,12 +4,14 @@ page_title: Composite Controls | UI for ASP.NET AJAX Documentation
 description: Composite Controls
 slug: theme-builder/composite-controls
 tags: composite,controls
-published: True
+published: False
 position: 4
 ---
 
 # Composite Controls 
 
+
+//TODO hiiid emee as well :)
 
 When working with complex controls (e.g. RadGrid, RadScheduler, etc.) the nested components will be included automatically. Thus, you can easily configure the complete look and feel of the composite control.
 
