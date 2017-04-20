@@ -129,6 +129,59 @@ The **RestrictionZoneID** can be useful, but due to the way HTML works it has so
 
 Similar restrictions and requirements apply to the **MinimizeZoneID** property. What is also important with it is that using it moves the RadWnidow in the DOM - upon minimizing it goes inside the element, upon restoring - back to being a direct child of the form. **This DOM modification causes iframes to reload**. This can be avoided by creating an MDI-like interface by following [this online demo](http://demos.telerik.com/aspnet-ajax/window/examples/radwindowandmdi/defaultcs.aspx).
 
+Here is an example that shows how you can set and remove restriction zones dynamically:
+
+* Pass a `string` with the client-side `id` of the HTML element to set it, and ensure the RadWindow can fit in it before that
+* Pass `null` to remove the restriction zone.
+
+Note that some limitations may still apply.
+
+````
+<telerik:RadWindowManager runat="server" ID="rwm1" RenderMode="Lightweight"></telerik:RadWindowManager>
+<div style="width: 500px; height: 300px; border: 2px solid red;" id="zone"></div>
+<script>
+	function openDialog() {
+		var wndName = "desiredWindowName";
+		var startWidth = 400;
+		var startHeight = 200;
+		var wnd = radopen(null, wndName, startWidth, startHeight);
+
+		wnd.setSize(800, 600);//emulate a RadWindow bigger than its zone
+
+		//before putting the RadWIndow in a zone, ensure it is contained in it, for example
+		var $zone = $telerik.$("#zone");
+		var wndSize = wnd.getWindowBounds();
+		var zoneBounds = $zone.offset();
+		var wndWidth = Math.min($zone.width() - 2, wndSize.width);
+		var wndHeight = Math.min($zone.height() - 2, wndSize.height);
+		if (wndSize.width > wndWidth || wndSize.height > wndHeight) {
+			//the internal code will not do this because
+			//changing the size is unexpected and should not happen unless the developer issues a command
+			//Without the size change the RadWindow behavior may be unexpected or erratic
+			wnd.setSize(wndWidth, wndHeight);
+		}
+		wnd.moveTo(zoneBounds.left + 1, zoneBounds.top + 1);
+
+		//set the client-side ID of the element
+		wnd.set_restrictionZoneID("zone");
+
+		//this is how to remove a zone - pass null
+		wnd.set_restrictionZoneID(null);
+
+		Sys.Application.remove_load(openDialog);
+	}
+	Sys.Application.add_load(openDialog);
+
+	//add this if you get errors when calling set_restrictionZoneID(null);
+	//Telerik.Web.UI.RadWindow.prototype.set_restrictionZoneID = function(value) {
+	//	this._restrictionZoneID = value;
+	//	if (value && this.isCreated()) {
+	//		this.fitInRestrictionZone();
+	//	}
+	//}
+</script>
+```` 
+
 
 ## OnClientClose is not Fired
 
