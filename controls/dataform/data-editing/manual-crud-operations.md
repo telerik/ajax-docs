@@ -12,11 +12,23 @@ position: 1
 
 
 
-In this help article you will find helpful information on how to manually edit, insert or delete records using the RadDataForm API.
+This help article explains how to manually edit, insert or delete records using the RadDataForm API.
 
-The general logic behind manual CRUD operations is the same as for the other data bound controls in the suite (**RadGrid**, **RadListView** and etc). It allows developers to manuallyhandle the operations thus providing extra flexibility. For extracting the values needed for performing therespective CRUD operation can use the **ExtractValues** method or reference the editors using **FindControl** and obtain their data.
+The general logic behind manual CRUD operations is the same as for the other data bound controls in the suite (**RadGrid**, **RadListView** and so on). It allows developers to manually handle the operations, thus providing extra flexibility.
 
-## Updating records
+For extracting the values needed for performing the respective CRUD operation can use the **ExtractValues** method or reference the editors using **FindControl** and obtain their data.
+
+When using custom template classes, define a method in the class that will return the data.
+
+In this article:
+
+* [Updating Records](#updating-records)
+* [Inserting Records](#inserting-records)
+* [Deleting Records](#deleting-records)
+* [Example With Markup Declaration](#example-with-markup-declaration)
+* [Example With Template Classes](#example-with-template-classes)
+
+## Updating Records
 
 In order to update an existing records you can follow the below listed steps.
 
@@ -55,7 +67,7 @@ End Sub
 ````
 
 
-## Inserting records
+## Inserting Records
 
 The logic here is similar to the above with one difference, here the **DataFormItem** available in the arguments is actually a **RadDataFormInsertItem**. Considering theaforementioned you can insert an item following these steps.
 
@@ -101,7 +113,7 @@ End Sub
 ````
 
 
-## Deleting records
+## Deleting Records
 
 When deleting a record the logic that we follow is described in the following steps.
 
@@ -128,11 +140,11 @@ End Sub
 ````
 
 
-## Example
+## Example With Markup Declaration
 
 The below provided code snippets illustrate a sample implementation of a scenario where a **RadDataForm** with manual operations is used.
 
-
+>caption Markup definition
 
 ````ASPNET
 <telerik:RadDataForm RenderMode="Lightweight" ID="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource" OnItemUpdating="RadDataForm1_ItemUpdating" 
@@ -180,6 +192,9 @@ The below provided code snippets illustrate a sample implementation of a scenari
     </InsertItemTemplate>
 </telerik:RadDataForm>
 ````
+
+>caption Server code - data binding and CRUD operations
+
 ````C#
 private static readonly Random random = new Random();
 static string[] contactNames = new string[] { "Antonio Moreno", "Elizabeth Lincoln", "Hanna Moos", "Jaime Yorres", "Georg Pipps",
@@ -367,4 +382,454 @@ Protected Sub RadDataForm1_NeedDataSource(sender As Object, e As RadDataFormNeed
     RadDataForm1.DataSource = dataSource
 End Sub
 ````
+
+## Example With Template Classes
+
+When using custom template classes, you need to create a method in the class that will return the data from the user input so you can identify the item and perform the necessary data source opeations. The built-in `ExtractValues` method cannot know the details of the class, so you need to implement it.
+
+>caption Sample markup definition
+
+````ASP.NET
+<form id="form1" runat="server">
+	<asp:ScriptManager ID="Scriptmanager1" runat="server" />
+	<asp:PlaceHolder ID="Placeholder1" runat="server" />
+	<asp:Label ID="lblLastAction" Text="" runat="server" />
+</form>
+````
+
+>caption Sample server code that sets and uses the classes
+
+````C#
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadDataForm rdf = new RadDataForm();
+	rdf.ID = "theDataForm";
+	rdf.NeedDataSource += rdf_NeedDataSource;
+	rdf.ItemInserting += rdf_ItemInserting;
+	rdf.ItemUpdating += rdf_ItemUpdating;
+	rdf.ItemDeleting += rdf_ItemDeleting;
+
+	//This example distinguishes the templates by passing a string argument for the sake of brevity
+	rdf.InsertItemTemplate = new MyTemplate("insertMode");
+	rdf.ItemTemplate = new MyTemplate("editMode");
+	rdf.EditItemTemplate = new MyTemplate("updateMode");
+
+	Placeholder1.Controls.Add(rdf);
+}
+
+void rdf_ItemDeleting(object sender, RadDataFormCommandEventArgs e)
+{
+	Hashtable item = new Hashtable();
+	//check current mode so you know which template to access. This depends on which templates the Delete button is available on
+	if (e.DataFormItem.IsInEditMode)
+	{
+		((sender as RadDataForm).EditItemTemplate as MyTemplate).GetTemplateData(out item);//method implemented in the template
+	}
+	else
+	{
+		((sender as RadDataForm).ItemTemplate as MyTemplate).GetTemplateData(out item);//method implemented in the template
+	}
+	//use the data you now have to perform the data source operation
+
+	//show output
+	ShowLastAction(item, "deleted");
+}
+
+void rdf_ItemUpdating(object sender, RadDataFormCommandEventArgs e)
+{
+	Hashtable item = new Hashtable();
+	((sender as RadDataForm).EditItemTemplate as MyTemplate).GetTemplateData(out item);//method implemented in the template
+	//use the data you now have to perform the data source operation
+
+	//show output
+	ShowLastAction(item, "updated");
+}
+
+void rdf_ItemInserting(object sender, RadDataFormCommandEventArgs e)
+{
+	Hashtable item = new Hashtable();
+	((sender as RadDataForm).InsertItemTemplate as MyTemplate).GetTemplateData(out item);//method implemented in the template
+	//use the data you now have to perform the data source operation
+
+	//show output
+	ShowLastAction(item, "created");
+}
+
+protected void ShowLastAction(Hashtable item, string operation)
+{
+	lblLastAction.Text = string.Format("item with data was {0}:<br />company name: {1}<br />contact name: {2}",
+		operation,
+		item["CompanyName"],
+		item["ContactName"]);
+}
+
+void rdf_NeedDataSource(object sender, RadDataFormNeedDataSourceEventArgs e)
+{
+	String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
+	SqlConnection conn = new SqlConnection(ConnString);
+	SqlDataAdapter adapter = new SqlDataAdapter();
+	adapter.SelectCommand = new SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn);
+
+	DataTable myDataTable = new DataTable();
+
+	conn.Open();
+	try
+	{
+		adapter.Fill(myDataTable);
+	}
+	finally
+	{
+		conn.Close();
+	}
+
+	(sender as RadDataForm).DataSource = myDataTable;
+}
+````
+````VB
+Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
+	Dim rdf As New RadDataForm()
+	AddHandler rdf.NeedDataSource, AddressOf rdf_NeedDataSource
+	AddHandler rdf.ItemInserting, AddressOf rdf_ItemInserting
+	AddHandler rdf.ItemUpdating, AddressOf rdf_ItemUpdating
+	AddHandler rdf.ItemDeleting, AddressOf rdf_ItemDeleting
+
+	'This example distinguishes the templates by passing a string argument for the sake of brevity
+	rdf.InsertItemTemplate = New MyTemplate("insertMode")
+	rdf.ItemTemplate = New MyTemplate("editMode")
+	rdf.EditItemTemplate = New MyTemplate("updateMode")
+	Placeholder1.Controls.Add(rdf)
+End Sub
+
+Private Sub rdf_ItemDeleting(sender As Object, e As RadDataFormCommandEventArgs)
+	Dim item As New Hashtable()
+	'check current mode so you know which template to access. This depends on which templates the Delete button is available on
+	If e.DataFormItem.IsInEditMode Then
+		'method implemented in the template
+		TryCast(TryCast(sender, RadDataForm).EditItemTemplate, MyTemplate).GetTemplateData(item)
+	Else
+		'method implemented in the template
+		TryCast(TryCast(sender, RadDataForm).ItemTemplate, MyTemplate).GetTemplateData(item)
+	End If
+	'use the data you now have to perform the data source operation
+
+	'show output
+	ShowLastAction(item, "deleted")
+End Sub
+
+Private Sub rdf_ItemUpdating(sender As Object, e As RadDataFormCommandEventArgs)
+	Dim item As New Hashtable()
+	TryCast(TryCast(sender, RadDataForm).EditItemTemplate, MyTemplate).GetTemplateData(item)
+	'method implemented in the template
+	'use the data you now have to perform the data source operation
+	'show output
+	ShowLastAction(item, "updated")
+End Sub
+
+Private Sub rdf_ItemInserting(sender As Object, e As RadDataFormCommandEventArgs)
+	Dim item As New Hashtable()
+	TryCast(TryCast(sender, RadDataForm).InsertItemTemplate, MyTemplate).GetTemplateData(item)
+	'method implemented in the template
+	'use the data you now have to perform the data source operation
+	'show output
+	ShowLastAction(item, "created")
+End Sub
+
+Protected Sub ShowLastAction(item As Hashtable, operation As String)
+	lblLastAction.Text = String.Format("item with data was {0}:<br />company name: {1}<br />contact name: {2}", operation, item("CompanyName"), item("ContactName"))
+End Sub
+
+Private Sub rdf_NeedDataSource(sender As Object, e As RadDataFormNeedDataSourceEventArgs)
+	Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
+	Dim conn As New SqlConnection(ConnString)
+	Dim adapter As New SqlDataAdapter()
+	adapter.SelectCommand = New SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn)
+
+	Dim myDataTable As New DataTable()
+
+	conn.Open()
+	Try
+		adapter.Fill(myDataTable)
+	Finally
+		conn.Close()
+	End Try
+
+	TryCast(sender, RadDataForm).DataSource = myDataTable
+End Sub
+
+````
+
+>caption Sample template class definition that contains the `GetTemplateData` method
+
+````C#
+public class MyTemplate : ITemplate
+{
+	protected Label lblCompanyName;
+	protected Label lblContactName;
+	protected TextBox tBoxCompanyName;
+	protected TextBox tBoxContactName;
+	protected Button btnEdit;
+	protected Button btnDelete;
+	protected Button btnInitInsert;
+	protected Button btnUpdate;
+	protected Button btnCancel;
+	protected Button btnPerformInsert;
+	protected string mode;
+
+	public MyTemplate(string currMode)
+	{
+		mode = currMode;
+	}
+
+	public void InstantiateIn(System.Web.UI.Control container)
+	{
+		//create some controls to show data
+		tBoxCompanyName = new TextBox();
+		tBoxCompanyName.ID = "tbCompanyName";
+		tBoxCompanyName.DataBinding += tBoxCompanyName_DataBinding;
+		if (mode == "editMode")
+		{
+			tBoxCompanyName.Enabled = false;
+		}
+
+		lblCompanyName = new Label();
+		lblCompanyName.ID = "lblCompany";
+		lblCompanyName.Text = "Company Name: ";
+		lblCompanyName.AssociatedControlID = tBoxCompanyName.ID;
+
+		container.Controls.Add(lblCompanyName);
+		container.Controls.Add(tBoxCompanyName);
+
+		tBoxContactName = new TextBox();
+		tBoxContactName.ID = "tbContactName";
+		tBoxContactName.DataBinding += tBoxContactName_DataBinding;
+		if (mode == "editMode")
+		{
+			tBoxContactName.Enabled = false;
+		}
+		
+		lblContactName = new Label();
+		lblContactName.ID = "lblContact";
+		lblContactName.Text = "Contact Name: ";
+		lblContactName.AssociatedControlID = tBoxContactName.ID;
+
+		container.Controls.Add(lblContactName);
+		container.Controls.Add(tBoxContactName);
+
+		//create command buttons, keep track of the mode.
+		//this controls the template you need to call when obtaining data
+		if (mode != "insertMode")
+		{
+			if (mode != "updateMode")
+			{
+				btnEdit = new Button();
+				btnEdit.ID = "btnEdit";
+				btnEdit.Text = "Edit item";
+				btnEdit.CommandName = "Edit";
+				container.Controls.Add(btnEdit);
+			}
+			
+			btnDelete = new Button();
+			btnDelete.ID = "btnDelete";
+			btnDelete.Text = "Delete item";
+			btnDelete.CommandName = "Delete";
+			container.Controls.Add(btnDelete);
+
+			btnInitInsert = new Button();
+			btnInitInsert.ID = "btnInitInsert";
+			btnInitInsert.Text = "Go to insert mode";
+			btnInitInsert.CommandName = "InitInsert";
+			container.Controls.Add(btnInitInsert);
+
+			if (mode != "editMode")
+			{
+				btnUpdate = new Button();
+				btnUpdate.ID = "btnUpdate";
+				btnUpdate.Text = "Update item";
+				btnUpdate.CommandName = "Update";
+				container.Controls.Add(btnUpdate);
+			}
+		}
+		else
+		{
+			btnPerformInsert = new Button();
+			btnPerformInsert.ID = "btnPerformInsert";
+			btnPerformInsert.Text = "Insert item";
+			btnPerformInsert.CommandName = "PerformInsert";
+			container.Controls.Add(btnPerformInsert);
+		}
+
+		if (mode != "editMode") 
+		{
+			btnCancel = new Button();
+			btnCancel.ID = "btnCancel";
+			btnCancel.Text = "Cancel operation";
+			btnCancel.CommandName = "Cancel";
+			container.Controls.Add(btnCancel);
+		}
+	}
+
+	public void tBoxCompanyName_DataBinding(object sender, EventArgs e)
+	{
+		getFieldFromData("CompanyName", sender as TextBox);
+	}
+
+	public void tBoxContactName_DataBinding(object sender, EventArgs e)
+	{
+		getFieldFromData("ContactName", sender as TextBox);
+	}
+
+	public void getFieldFromData(string fieldName, TextBox tb)
+	{
+		RadDataFormDataItem item = tb.NamingContainer as RadDataFormDataItem;
+
+		//avoid attempting to get data when inserting an item, as there is no data item associated with it
+		if (item is RadDataFormInsertItem)
+		{
+			return;
+		}
+		//access the data item from the data source and put it in the textbox
+		tb.Text = (item.DataItem as DataRowView).Row[fieldName].ToString();
+	}
+
+	public void GetTemplateData(out Hashtable newValues)
+	{
+		//build a hash table with the information from the template
+		//so you can identify the item
+		//consider adding an ID
+		Hashtable tbl = new Hashtable();
+		newValues = tbl;
+		newValues.Add("CompanyName", tBoxCompanyName.Text);
+		newValues.Add("ContactName", tBoxContactName.Text);
+	}
+}
+````
+````VB
+Public Class MyTemplate
+Implements ITemplate
+	Protected lblCompanyName As Label
+	Protected lblContactName As Label
+	Protected tBoxCompanyName As TextBox
+	Protected tBoxContactName As TextBox
+	Protected btnEdit As Button
+	Protected btnDelete As Button
+	Protected btnInitInsert As Button
+	Protected btnUpdate As Button
+	Protected btnCancel As Button
+	Protected btnPerformInsert As Button
+	Protected mode As String
+
+	Public Sub New(currMode As String)
+		mode = currMode
+	End Sub
+
+	Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+		'create some controls to show data
+		tBoxCompanyName = New TextBox()
+		tBoxCompanyName.ID = "tbCompanyName"
+		AddHandler tBoxCompanyName.DataBinding, AddressOf tBoxCompanyName_DataBinding
+		If mode = "editMode" Then
+			tBoxCompanyName.Enabled = False
+		End If
+
+		lblCompanyName = New Label()
+		lblCompanyName.ID = "lblCompany"
+		lblCompanyName.Text = "Company Name: "
+		lblCompanyName.AssociatedControlID = tBoxCompanyName.ID
+
+		container.Controls.Add(lblCompanyName)
+		container.Controls.Add(tBoxCompanyName)
+
+		tBoxContactName = New TextBox()
+		tBoxContactName.ID = "tbContactName"
+		AddHandler tBoxContactName.DataBinding, AddressOf tBoxContactName_DataBinding
+		If mode = "editMode" Then
+			tBoxContactName.Enabled = False
+		End If
+
+		lblContactName = New Label()
+		lblContactName.ID = "lblContact"
+		lblContactName.Text = "Contact Name: "
+		lblContactName.AssociatedControlID = tBoxContactName.ID
+
+		container.Controls.Add(lblContactName)
+		container.Controls.Add(tBoxContactName)
+
+		'create command buttons, keep track of the mode.
+		'this controls the template you need to call when obtaining data
+		If mode <> "insertMode" Then
+			If mode <> "updateMode" Then
+				btnEdit = New Button()
+				btnEdit.ID = "btnEdit"
+				btnEdit.Text = "Edit item"
+				btnEdit.CommandName = "Edit"
+				container.Controls.Add(btnEdit)
+			End If
+
+			btnDelete = New Button()
+			btnDelete.ID = "btnDelete"
+			btnDelete.Text = "Delete item"
+			btnDelete.CommandName = "Delete"
+			container.Controls.Add(btnDelete)
+
+			btnInitInsert = New Button()
+			btnInitInsert.ID = "btnInitInsert"
+			btnInitInsert.Text = "Go to insert mode"
+			btnInitInsert.CommandName = "InitInsert"
+			container.Controls.Add(btnInitInsert)
+
+			If mode <> "editMode" Then
+				btnUpdate = New Button()
+				btnUpdate.ID = "btnUpdate"
+				btnUpdate.Text = "Update item"
+				btnUpdate.CommandName = "Update"
+				container.Controls.Add(btnUpdate)
+			End If
+		Else
+			btnPerformInsert = New Button()
+			btnPerformInsert.ID = "btnPerformInsert"
+			btnPerformInsert.Text = "Insert item"
+			btnPerformInsert.CommandName = "PerformInsert"
+			container.Controls.Add(btnPerformInsert)
+		End If
+
+		If mode <> "editMode" Then
+			btnCancel = New Button()
+			btnCancel.ID = "btnCancel"
+			btnCancel.Text = "Cancel operation"
+			btnCancel.CommandName = "Cancel"
+			container.Controls.Add(btnCancel)
+		End If
+	End Sub
+
+	Public Sub tBoxCompanyName_DataBinding(sender As Object, e As EventArgs)
+		getFieldFromData("CompanyName", TryCast(sender, TextBox))
+	End Sub
+
+	Public Sub tBoxContactName_DataBinding(sender As Object, e As EventArgs)
+		getFieldFromData("ContactName", TryCast(sender, TextBox))
+	End Sub
+
+	Public Sub getFieldFromData(fieldName As String, tb As TextBox)
+		Dim item As RadDataFormDataItem = TryCast(tb.NamingContainer, RadDataFormDataItem)
+
+		'avoid attempting to get data when inserting an item, as there is no data item associated with it
+		If TypeOf item Is RadDataFormInsertItem Then
+			Return
+		End If
+		'access the data item from the data source and put it in the textbox
+		tb.Text = TryCast(item.DataItem, DataRowView).Row(fieldName).ToString()
+	End Sub
+
+	Public Sub GetTemplateData(ByRef newValues As Hashtable)
+		'build a hash table with the information from the template
+		'so you can identify the item
+		'consider adding an ID
+		Dim tbl As New Hashtable()
+		newValues = tbl
+		newValues.Add("CompanyName", tBoxCompanyName.Text)
+		newValues.Add("ContactName", tBoxContactName.Text)
+	End Sub
+End Class
+````
+
 
