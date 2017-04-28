@@ -233,7 +233,11 @@ You can resolve these issues as follows:
 
 ## RadHtmlChart Cannot be Bound to a Data Source that Has Special Characters in Its Field Names
 
-Solution: Special characters in data source field names are escaped by surrounding the name with quotes and brackets (see **Example 3**).
+**Solution**: Rename the fields in the query so they do not contain special symbols like white space (intervals), quotation marks, apostrophes, slashes, brackets and so on.
+
+**Potential Workaround**: Special characters in data source field names can sometimes be escaped by surrounding the name with quotes and brackets (see **Example 4**). This applies to properties of the axes. Properties of series may work without such escaping (see **Example 5**).
+
+>note Certain special characters may still break this and you also need to make sure to escape the field names properly for JavaScript, such as in client templates (see **Example 5**) and that may not always be possible. In such cases you need to rename the fields so they do not contain special symbols and follow the rules for JavaScript variable names.
 
 >caution There are invalid characters in data source field names that cannot be escaped including "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post.
 
@@ -290,6 +294,59 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
+>caption Example 5: Using fields with whitespace in the name in client templates and for series properties
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadHtmlChart chart = new RadHtmlChart();
+	chart.ID = "theChart";
+	Form.Controls.Add(chart);
+	PieSeries series = new PieSeries();
+	series.DataFieldY = "yValues";
+	series.NameField = "my Field";
+	series.TooltipsAppearance.ClientTemplate = "Category: #=dataItem[\\'my Field\\']#";
+	chart.PlotArea.Series.Add(series);
+
+	chart.DataSource = GetData();
+	chart.DataBind();
+}
+
+protected DataTable GetData()
+{
+	DataTable table = new DataTable();
+	table.Columns.Add("yValues", typeof(int));
+	table.Columns.Add("my Field", typeof(string));
+	table.Rows.Add(new object[] { 10, "item 1" });
+	table.Rows.Add(new object[] { 20, "item 2" });
+	return table;
+}
+````
+````VB
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+	Dim chart As New RadHtmlChart()
+	chart.ID = "theChart"
+	Form.Controls.Add(chart)
+	Dim series As New PieSeries()
+	series.DataFieldY = "yValues"
+	series.NameField = "my Field"
+	series.TooltipsAppearance.ClientTemplate = "Category: #=dataItem[\'my Field\']#"
+	chart.PlotArea.Series.Add(series)
+
+	chart.DataSource = GetData()
+	chart.DataBind()
+End Sub
+
+Protected Function GetData() As DataTable
+	Dim table As New DataTable()
+	table.Columns.Add("yValues", GetType(Integer))
+	table.Columns.Add("my Field", GetType(String))
+	table.Rows.Add(New Object() {10, "item 1"})
+	table.Rows.Add(New Object() {20, "item 2"})
+	Return table
+End Function
+````
+
 
 ## Chart with 'display: none' Does Not Show Itself
 
@@ -299,7 +356,7 @@ This happens because the hidden container does not let the control evaluate its 
 
 To resolve this, call its `repaint` client-side method so the chart will redraw itself.
 
->caption Example 5: Showing an initially hidden chart.
+>caption Example 6: Showing an initially hidden chart.
 
 ````ASP.NET
 <script>
