@@ -122,16 +122,16 @@ You can set the following properties for a **ClientTemplate**:
 	
 	**ASP.NET**
 	
-		<labelsappearance>
+		<LabelsAppearance>
 			<ClientTemplate>
 				Category: #=category#
 			</ClientTemplate>
-		</labelsappearance>
-		<tooltipsappearance>
+		</LabelsAppearance>
+		<TooltipsAppearance>
 			<ClientTemplate>
 				Category: #=category#
 			</ClientTemplate>
-		</tooltipsappearance>
+		</TooltipsAppearance>
 
 * **dataItem** - Returns the original data item used to construct the point. You can see more information about using the **dataItem** object in a **ClientTemplate** in the previous section of this article — *Showing DataBase Values Using a ClientTemplate*.
 
@@ -153,18 +153,18 @@ You can set the following properties for a **ClientTemplate**:
 
 	**ASP.NET**
 
-		<labelsappearance>
+		<LabelsAppearance>
 			<ClientTemplate>
 				Series Name: #=series.name# , Series Type: #=series.type# , Series Stack Status: #=series.stack #
 			</ClientTemplate>
-		</labelsappearance>
-		<tooltipsappearance>
+		</LabelsAppearance>
+		<TooltipsAppearance>
 			<ClientTemplate>
 				Series Name: #=series.name# <br/> 
 				Series Type: #=series.type# </br> 
 				Series Stack Status: #=series.stack #
 			</ClientTemplate>
-		</tooltipsappearance>
+		</TooltipsAppearance>
 
 * **value** - Returns the point value (either a number or an object).
 
@@ -172,63 +172,73 @@ You can set the following properties for a **ClientTemplate**:
 
 		**ASP.NET**
 	
-			<labelsappearance>
+			<LabelsAppearance>
 				<ClientTemplate>
 					X Value: #=value.x# , Y Value: #=value.y# , Size Value: #=value.size #
 				</ClientTemplate>
-			</labelsappearance>
-			<tooltipsappearance>
+			</LabelsAppearance>
+			<TooltipsAppearance>
 				<ClientTemplate>
 					X Value: #=value.x# <br/> 
 					Y Value: #=value.y# <br/> 
 					Size Value: #=value.size #
 				</ClientTemplate>
-			</tooltipsappearance>
+			</TooltipsAppearance>
 
 
 	* **CandlestickSeries** - Returns an object that exposes four fields: open, high, low and close.
 
 		**ASP.NET**
 		
-			<tooltipsappearance>
+			<TooltipsAppearance>
 				<ClientTemplate>
 					Open Value: #=value.open# <br/> 
 					High Value: #=value.high# <br/> 
 					Low Value: #=value.low # <br/> 
 					Close Value: #=value.close #
 				</ClientTemplate> 
-			</tooltipsappearance>
+			</TooltipsAppearance>
 
 	* **ScatterSeries and ScatterLineSeries** - Returns an object that exposes the x and y fields for the X-value and the Y-value of the item.
 
 		**ASP.NET**
 		
-			<labelsappearance>
+			<LabelsAppearance>
 				<ClientTemplate>
 					X Value: #=value.x# , Y Value: #=value.y#
 				</ClientTemplate>
-			</labelsappearance>
-			<tooltipsappearance>
+			</LabelsAppearance>
+			<TooltipsAppearance>
 				<ClientTemplate>
 					X Value: #=value.x# <br/> 
 					Y Value: #=value.y#
 				</ClientTemplate>=""
-			</tooltipsappearance>
+			</TooltipsAppearance>
+
+	* **BoxPlot** - Returns an object that exposes the `lower`, `q1`, `median`, `mean`, `median`, `q3` and `upper` fields that contain the values from the corresponding fields of the series object.
+
+		**ASP.NET**
+		
+			<TooltipsAppearance>
+				<ClientTemplate>
+					<table cellpadding=7><tr><td><b>#= category #<br /> Lower: #=value.lower# <br /> Q1: #=value.q1# <br /> Median: #=value.median# <br /> Mean: #=value.mean# <br /> Q3: #=value.q3# <br /> Upper #=value.upper#</b></td></tr></table>
+				</ClientTemplate>=""
+			</TooltipsAppearance>
 
 	* **Other Series Types** - Returns the Y value of the hovered series Item.
 
 		**ASP.NET**
 		
-			<labelsappearance>
+			<LabelsAppearance>
 				<ClientTemplate>
 					Y Value: #=value#
 				</ClientTemplate>
-			</labelsappearance>
-			<tooltipsappearance>
+			</LabelsAppearance>
+			<TooltipsAppearance>
 				<ClientTemplate>
 					Y Value: #=value#
 				</ClientTemplate> 
-			</tooltipsappearance>
+			</TooltipsAppearance>
 
 ## See Also
 
