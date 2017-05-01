@@ -12,11 +12,9 @@ position: 1
 
 
 
-##
-
 The **RadListView** supports [native paging]({%slug listview/fuctionality/paging/integrated-paging%}) and [RadDataPager](http://www.telerik.com/help/aspnet-ajax/datapageroverview.html) as external control to provide paging features. The advantage of a separate control is that it gives you much more control on the pager look and where it can be placed on the page - before or after the RadListView control, as well as within its LayoutTemplate element. The **RadDataPager** control extends the RadListView paging capabilities.
 
-RadDataPager control is a standalone control, it does not have to be directly associated with **IPageableItemContainer or IRadPageableItemContainer** control. In such case it handles the paging of the first pageable control on the page. If you need a RadDataPager control to be used for navigating through a RadListView control data, you must set the **PagedControlID** property of RadDataPager to the ID of the RadListView control and the **AllowPaging** property of the listview to **True**. The size of the pages of data is set by using the **PageSize** property of the RadDataPager control.
+RadDataPager control is a standalone control, it does not have to be directly associated with **IPageableItemContainer or IRadPageableItemContainer** control. In such case it handles the paging of the first pageable control on the page. If you need a RadDataPager control to be used for navigating through a RadListView control data, you must set the **PagedControlID** property of RadDataPager to the ID of the RadListView control and the **AllowPaging** property of the listview to **True**. The size of the pages of data is set by using the **PageSize** property of the RadDataPager control. If you need to set the page size dynamically, use the Page_Load event and not the Page_Init event.
 
 You can use the following [RadDataPager elements](http://www.telerik.com/help/aspnet-ajax/datapager-elements.html) in your pager control: RadDataPagerButtonField, RadDataPagerPageSizeField, RadDataPagerSliderField, RadDataPagerGoToPageField and RadDataPagerTemplatePageField. When RadDataPager has RadDataPagerTemplatePageField you can set custom appearance and features of the pager field. In this field, you can reference the RadDataPager control by using the Container.Owner property. Thus you can access any public property of the RadDataPager control, including the starting row index, the page size, and the total number of rows currently bound to the RadListView control.
 
