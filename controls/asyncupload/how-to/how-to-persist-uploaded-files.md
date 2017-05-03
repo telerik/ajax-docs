@@ -16,6 +16,9 @@ position: 3
 
 Indeed **RadAsyncUpload** persists its client state(it is a hidden field on the client side that contains information about RadAsyncUploadcontrol) until an exact control triggers a postback. When that happens the client state is reset.
 
+>note In order to persist the files after a postback, the **RadAsyncUpload** has to be rendered on the page.
+>
+
 **PostbackTriggers** property is a string array and it can be set from the markup or from the code behind. In case that the property is set from the markup and from the code behind, the value from the code behind is taking in mind.
 
 ````ASPNET
