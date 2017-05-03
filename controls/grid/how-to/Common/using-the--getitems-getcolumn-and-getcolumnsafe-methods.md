@@ -11,40 +11,177 @@ position: 5
 # Using the  GetItems GetColumn and GetColumnSafe Methods
 
 
+In various cases you may want to access or traverse grid functional items/columns outside the dedicated ItemCreated and ItemDataBound event handlers, for example during PreRender or DataBinding event handlers of the grid. This is easily attainable with the **GetItems(itemType), GetColumn(columnName)** and **GetColumnSafe(columnName)** methods (exposed by each **GridTableView** instance).
 
-## 
+The topic demonstrates accessing the following instances:
+* [Items](#items)
+* [Edit Items](#edit-items)
+* [Insert Item](#insert-item)
+* [Columns](#columns)
 
-In various cases you may want to access grid functional items/columns outside of the grid server event handlers. This is easily attainable with the **GetItems(itemType), GetColumn(columnName)** and **GetColumnSafe(columnName)** methods (exposed by each **GridTableView** instance).
+**Batch editing mode** is highly client-side based and differs from EditForms, PopUp and InPlace modes. It requires specific handling, which is explained in the [Accessing Cells And Rows]({%slug grid/rows/accessing-cells-and-rows%}) article.
+
+## Items
 
 The **GetItems(itemType)** method returns an array of items (in the respective GridTableView) which match the specified type. You can use the **GridItemType** enumeration to choose the item type, for example:
 
-
-
-````VB
-	    Dim headerItem As GridItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0)
-	    'cast the item to GridHeaderItem and operate with it further			
-````
 ````C#
 	    GridItem headerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)[0];
 	    //cast the item to GridHeaderItem and operate with it further
 ````
+````VB
+	    Dim headerItem As GridItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0)
+	    'cast the item to GridHeaderItem and operate with it further			
+````
 
+Data items loaded on the current page can be traversed using the following approach:
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+		foreach (GridDataItem item in RadGrid1.Items)
+		{
+				if (item.ItemIndex % 3 == 0)
+				{
+						item["ShipName"].BackColor = System.Drawing.Color.Orange;
+				}
+		}
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+	For Each item As GridDataItem In RadGrid1.Items
+		If item.ItemIndex Mod 3 = 0 Then
+			item("ShipName").BackColor = System.Drawing.Color.Orange
+		End If
+	Next
+End Sub
+````
+
+## Edit Items
+
+Currently edited items can be accessed using one of the following methods:
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+		foreach (GridDataItem item in RadGrid1.EditItems)
+		{
+				// InPlace EditMode
+				TextBox textBox1 = item["ShipName"].Controls[0] as TextBox;
+
+				// EditForms and PopUp EditMode
+				GridEditFormItem editFormItem = item.EditFormItem;
+				if (editFormItem.IsInEditMode)
+				{
+						TextBox textBox2 = editFormItem["ShipName"].Controls[0] as TextBox;
+				}
+		}
+
+		// alternative approach
+		foreach (GridEditFormItem item in RadGrid1.MasterTableView.GetItems(GridItemType.EditFormItem))
+		{
+				if (item.IsInEditMode)
+				{
+						TextBox textBox3 = item["ShipName"].Controls[0] as TextBox;
+				}
+		}
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+	For Each item As GridDataItem In RadGrid1.EditItems
+		' InPlace EditMode
+		Dim textBox1 As TextBox = TryCast(item("ShipName").Controls(0), TextBox)
+
+		' EditForms and PopUp EditMode
+		Dim editFormItem As GridEditFormItem = item.EditFormItem
+		If editFormItem.IsInEditMode Then
+			Dim textBox2 As TextBox = TryCast(editFormItem("ShipName").Controls(0), TextBox)
+		End If
+	Next
+
+	' alternative approach
+	For Each item As GridEditFormItem In RadGrid1.MasterTableView.GetItems(GridItemType.EditFormItem)
+		If item.IsInEditMode Then
+			Dim textBox3 As TextBox = TryCast(item("ShipName").Controls(0), TextBox)
+		End If
+	Next
+End Sub
+````
+
+## Insert Item
+
+The Insert Item can be accessed using the following method:
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+		if (RadGrid1.MasterTableView.IsItemInserted)
+		{
+				// GridEditFormInsertItem for EditForms and PopUp EditMode
+				// GridDataInsertItem for InPlace EditMode
+				GridEditableItem insertItem = RadGrid1.MasterTableView.GetInsertItem();
+		}
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+	If RadGrid1.MasterTableView.IsItemInserted Then
+		' GridEditFormInsertItem for EditForms and PopUp EditMode
+		' GridDataInsertItem for InPlace EditMode
+		Dim insertItem As GridEditableItem = RadGrid1.MasterTableView.GetInsertItem()
+	End If
+End Sub
+````
+
+## Columns
 
 The **GetColumn(columnName)** method returns the column with the unique name specified as argument, namely:
 
-
-
-````VB
-	    Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("OrderID")
-	    'thus you get reference to the column with OrderID unique name			
-````
 ````C#
 	    GridColumn column = RadGrid1.MasterTableView.GetColumn["OrderID"];
 	    //thus you get reference to the column with OrderID unique name
 ````
-
+````VB
+	    Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("OrderID")
+	    'thus you get reference to the column with OrderID unique name			
+````
 
 The **GetColumnSafe(columnName)** performs the same task as **GetColumn(columnName)** method, however **GetColumnSafe** will not raise an exception in case column with that name is not found in the corresponding **GridTableView**.
+
+The entire column collection can be traversed using the following approach:
+
+````C#
+protected void RadGrid1_DataBinding(object sender, EventArgs e)
+{
+		foreach (GridColumn col in RadGrid1.MasterTableView.RenderColumns)
+		{
+				if (col.DataType == typeof(decimal))
+				{
+						(col as IGridDataColumn).AllowFiltering = false;
+				}
+				if (col is GridDateTimeColumn)
+				{
+						GridDateTimeColumn dateCol = (GridDateTimeColumn)col;
+						dateCol.DataFormatString = "{0:d}";
+				}
+		}
+}
+````
+````VB
+Protected Sub RadGrid1_DataBinding(sender As Object, e As EventArgs)
+	For Each col As GridColumn In RadGrid1.MasterTableView.RenderColumns
+		If col.DataType = GetType(Decimal) Then
+			TryCast(col, IGridDataColumn).AllowFiltering = False
+		End If
+		If TypeOf col Is GridDateTimeColumn Then
+			Dim dateCol As GridDateTimeColumn = DirectCast(col, GridDateTimeColumn)
+			dateCol.DataFormatString = "{0:d}"
+		End If
+	Next
+End Sub
+````
 
 The forthcoming sample implementation is made for hierarchical grid with two levels. With separate buttons on the page you can:
 
@@ -104,12 +241,12 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 ````
 ````VB
 	    Public Shared connectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb")
-	Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles 
+	Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles
 	        RadGrid1.NeedDataSource()
 	        RadGrid1.DataSource = GetDataTable("SELECT TOP 5 * From Customers")
 	    End Sub
 	    Public Shared Function GetDataTable(ByVal query As String) As DataTable
-	
+
 	        Dim connection1 As New OleDbConnection(connectionString)
 	        Dim adapter1 As New OleDbDataAdapter
 	        adapter1.SelectCommand = New OleDbCommand(query, connection1)
@@ -188,8 +325,8 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	            e.DetailTableView.DataSource = GetDataTable("SELECT * FROM Orders WHERE CustomerID = \'" + (CustomerID + "\'"));
 	        }
 	    }
-	    protected void btnHideDetailInsert_Click(object sender, System.EventArgs e) 
-	    { 
+	    protected void btnHideDetailInsert_Click(object sender, System.EventArgs e)
+	    {
 	        GridDataItem masterItem;     
 	        foreach (masterItem in RadGrid1.MasterTableView.Items)    
 	        {         
@@ -198,7 +335,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	                GridCommandItem commandItem = masterItem.ChildItem.NestedTableViews[0].GetItems(GridItemType.CommandItem)[0];         
 	                LinkButton lnkButton = (LinkButton)commandItem.FindControl("lbDetailInsert");         
 	                lnkButton.Visible = !lnkButton.Visible;   
-	            } 
+	            }
 	        }
 	    }
 	    protected void btnDisableMasterInsert_Click(object sender, System.EventArgs e)
@@ -207,7 +344,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	        LinkButton lnkButton = (LinkButton)commandItem.FindControl("lbMasterInsert");
 	        lnkButton.Enabled = !lnkButton.Enabled;
 	    }
-	    protected void btnReferenceColumns_Click(object sender, System.EventArgs e) 
+	    protected void btnReferenceColumns_Click(object sender, System.EventArgs e)
 	    {
 	        GridDataItem masterItem;    
 	        foreach (masterItem in RadGrid1.MasterTableView.Items)
@@ -216,10 +353,9 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	            {              
 	                GridBoundColumn detailColumn = (GridBoundColumn)masterItem.ChildItem.NestedTableViews[0].GetColumnSafe("OrderID");   
 	                detailColumn.HeaderStyle.Width = Unit.Pixel(50);  
-	            } 
+	            }
 	        }
 	        GridBoundColumn masterColumn = (GridBoundColumn)RadGrid1.MasterTableView.GetColumn("CustomerID");   
 	        masterColumn.Visible = !masterColumn.Visible;
 	    }
 ````
-
