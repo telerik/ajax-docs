@@ -446,7 +446,11 @@ var masterTable = grid.get_masterTableView();
 var item = masterTable.get_dataItems()[3];//where 3 is the hierarchical index of the item you want
 ````
 
-* Using **get_cell()** method is the most straightforward approach to achieve that.
+Once you have a reference to the grid row data item on the client-side, you can use various methods to get information from it:
+
+### get_cell() 
+
+Using the **get_cell()** method is the most straightforward approach to get to the DOM of the grid so you can extract text, or access controls/elements. You need to pass the `UniqueName` of the column whose cell you want.
 
 ````JavaScript
 function rowClick(sender, args) {
@@ -456,7 +460,9 @@ function rowClick(sender, args) {
 }
 ````
 
-* The next approach enables extracting the raw value directly in its original database form. The required action is to add the Field name in the **ClientDataKeyNames** property of the **MasterTableView** or the corresponding **GridTableView** tag.
+### getDataKeyValue()
+
+You can extract the raw value directly in its original database form. The required action is to add the Field name in the **ClientDataKeyNames** property of the **MasterTableView** or the corresponding **GridTableView** tag.
 
 ````JavaScript
 function gridCreated(sender, args) {
@@ -466,7 +472,9 @@ function gridCreated(sender, args) {
 }
 ````
 
-* The client-side object of **GridTableView** provides **getCellByColumnUniqueName()** method, which is another alternative to get a reference to the cell element.
+### getCellByColumnUniqueName()
+
+The client-side object of **GridTableView** provides **getCellByColumnUniqueName()** method, which is another alternative to get a reference to the cell element by passing its `UniqueName`.
 
 ````JavaScript
 function pageLoad() {
