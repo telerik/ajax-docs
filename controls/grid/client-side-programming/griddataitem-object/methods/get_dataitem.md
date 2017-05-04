@@ -12,9 +12,9 @@ position: 3
 
 
 
-## 
 
-This method provides reference to the DataItem object (data container). Useful to obtain data from a particular row cell passing the UniqueName of the column as an indexer.
+
+This method provides reference to the DataItem object (data container). Useful to obtain data from a particular row cell passing the UniqueName of the column as an indexer. Applicable only when client-side binding is used.
 
 
 |  **get_dataItem()**  |
