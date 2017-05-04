@@ -359,3 +359,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	        masterColumn.Visible = !masterColumn.Visible;
 	    }
 ````
+
+## See Also
+
+* [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows %})
