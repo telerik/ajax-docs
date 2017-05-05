@@ -45,7 +45,7 @@ The table below lists the most important function of the **RadTreeNode** object.
 | **scrollIntoView**  | none | none | Causes the Node to scroll into view, aligning the Node to the bottom of the TreeView area. This function repositions the *TreeView's* scrollbars, not the scrollbars for the page itself. (see **Example 16**)|
 | **get_imageElement**  | none | DOM Element | Gets the DOM Element of the image set to the node. **Note:** Images are set using the RadTreeView **ImageUrl** property. (see **Example 17**)|
 | **get_textElement**  | none | DOM Element | Gets the DOM Element of the text set to the Node. **Note** : Changes to the text element are not persisted across postbacks. (see **Example 18**)|
-| **get_text**  | none | string | Retrieves the text for a Node. (see **Example 19)|
+| **get_text**  | none | string | Retrieves the text for a Node. (see **Example 19**)|
 | **set_text**  | string | none | Sets the text of the Node. |
 | **get_value** |none|string|Gets the value of the Node.|
 | **set_value** |string|none|Sets the value of the Node. (see **Example 20**)|
