@@ -15,15 +15,15 @@ slug: Telerik.Web.UI.RadComboBoxItemCancelEventArgs
 
 ## Methods
 
-###  get_text
+###  get_item
 
-Returns the text from the input of the RadComboBox.
+Returns the item that is about to be selected/checked from the RadComboBox list.
 
 #### Parameters
 
 #### Returns
 
-`String` - the text from the input of the RadComboBox
+`Telerik.Web.UI.RadComboBoxItem` - the the item about to be selected/checked from the RadComboBox list.
 
 
 ### get_domEvent
@@ -36,4 +36,23 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 
 `Sys.UI.DomEvent` 
 
+### get_cancel
+
+Gets a boolean value indicating whether the event is cancelled.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` - whether the event is cancelled.
+
+### set_cancel
+
+Sets a boolean value that indicates whether the event will be cancelled.
+
+#### Parameters
+
+`Boolean` - whether the event will be cancelled.
+
+#### Returns
 
