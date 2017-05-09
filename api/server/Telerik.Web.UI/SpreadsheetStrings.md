@@ -17,6 +17,22 @@ The localization strings to be used in RadSpreadsheet.
 
 ## Properties
 
+###  ConfirmationDialogCancel `String`
+
+Gets or sets the text of the confirmation dialog cancel button.
+
+###  ConfirmationDialogOK `String`
+
+Gets or sets the text of the confirmation dialog ok button.
+
+###  ConfirmationDialogText `String`
+
+Gets or sets the text of the confirmation dialog.
+
+###  ConfirmationDialogTitle `String`
+
+Gets or sets the title of the confirmation dialog.
+
 ###  ContextMenuCopy `String`
 
 Gets or sets the text of the context menu copy command.
@@ -176,6 +192,34 @@ Gets or sets the hyperlink title text.
 ###  HyperlinkUrl `String`
 
 Gets or sets the hyperlink url label text.
+
+###  MessageDialogDuplicateSheetName `String`
+
+Gets or sets the text of the duplicate sheet name dialog.
+
+###  MessageDialogIncompatibleRanges `String`
+
+Gets or sets the text of the incompatible ranges dialog.
+
+###  MessageDialogModifyMerged `String`
+
+Gets or sets the text of the modify merged dialog.
+
+###  MessageDialogNoFillDirection `String`
+
+Gets or sets the text of the no fill direction dialog.
+
+###  MessageDialogOverflow `String`
+
+Gets or sets the text of the overflow dialog.
+
+###  MessageDialogRangeDisabled `String`
+
+Gets or sets the text of the range disabled dialog.
+
+###  MessageDialogUnsupportedSelection `String`
+
+Gets or sets the text of the unsupported selection dialog.
 
 ###  MessageDialogUseKeyboardOK `String`
 
