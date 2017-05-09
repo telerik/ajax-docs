@@ -23,8 +23,7 @@ Returns the item that is about to be selected/checked from the RadComboBox list.
 
 #### Returns
 
-`Telerik.Web.UI.RadComboBoxItem` - the the item about to be selected/checked from the RadComboBox list.
-
+`Telerik.Web.UI.RadComboBoxItem` the the item about to be selected/checked from the RadComboBox list.
 
 ### get_domEvent
 
@@ -34,7 +33,7 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 
 #### Returns
 
-`Sys.UI.DomEvent` 
+`Sys.UI.DomEvent` the underlying DOM event from the browser
 
 ### get_cancel
 
@@ -44,7 +43,7 @@ Gets a boolean value indicating whether the event is cancelled.
 
 #### Returns
 
-`Boolean` - whether the event is cancelled.
+`Boolean` whether the event is cancelled.
 
 ### set_cancel
 
@@ -52,7 +51,9 @@ Sets a boolean value that indicates whether the event will be cancelled.
 
 #### Parameters
 
-`Boolean` - whether the event will be cancelled.
+`Boolean` whether the event will be cancelled.
 
 #### Returns
+
+`None`
 
