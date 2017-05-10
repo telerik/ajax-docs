@@ -108,3 +108,6 @@ Protected Sub btnIncrease_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub 'btnIncrease_Click
 ````
 
+>important The initiator of the AJAX request (the first argument `AddAjaxSetting` receives) must be an `IPostBack` control. This means that the initiator must be a control that performs a postback on its own (like a button, or a grid) and not a simple container (like an `<asp:Panel>` control). Containers do not invoke the request themselves and RadAjaxManager cannot know the request comes from their children because the container ID is not present in the POST parameters.
+>
+>Using a container like a `Panel` for an AJAX initiator can result in various issues like full postbacks being initiated instead of AJAX requests, or unexpected list of updated controls.
