@@ -10,6 +10,8 @@ position: 4
 
 # Selection Object
 
+You can get a reference to the current selection in RadEditor by using its [getSelection]({%slug editor/client-side-programming/methods/selection/getselection%}) method.
+
 The Selection object exposes the following public methods and properties to control its behavior:
 
 >caption Selection Client-Side Methods
