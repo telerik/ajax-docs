@@ -125,6 +125,16 @@ Gets the input DOM element of the RadSearchBox.
 
 `Element` The input DOM element of the RadSearchBox. 
 
+### get_requestDelay
+
+Returns the time in milliseconds before a request is initiated by the control after the user enters a keystroke.
+
+#### Parameters
+
+#### Returns
+
+`integer` The time in milliseconds before a request is initiated by the control after the user enters a keystroke.
+
 ### get_searchContext
 
 Gets the SearchContext's object
@@ -236,6 +246,16 @@ Sets the Filter criteria of RadSearchBox.
 ##### value `Telerik.Web.UI.SearchBoxFilter`
 
  The Filter criteria. 
+
+### set_requestDelay
+
+Sets the time in milliseconds before a request is initiated by the control after the user enters a keystroke. Useful when requests overlap each other due to slower networks or when users with varying typing speeds encounter issues with the returned results for old searches.
+
+#### Parameters
+
+##### value `integer`
+
+The time in milliseconds before a request is initiated by the control after the user enters a keystroke.
 
 #### Returns
 

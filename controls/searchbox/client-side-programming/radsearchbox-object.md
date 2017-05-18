@@ -36,3 +36,5 @@ The following table lists the most important methods of the client-side **RadSea
 | **get_maxResultCount** |none|int|Gets the MaxResultsCount of RadSearchBox so you can [pass it to the web service]({%slug searchbox/functionality/passing-additional-information-to-the-server%}).|
 | **query** |none|none|If AutoComplete is enabled,the search string exists and it is longer than the min filter length set, a search operation is performed. The second parameter defines whether all results should be shown in the drop-down.|
 | **clear** |none|none|Clears the search results and closes the drop-down.|
+| **get_requestDelay** |none|number|Returns the time in milliseconds before a request is initiated by the control after the user enters a keystroke.|
+| **set_requestDelay** |number|none|Sets the time in milliseconds before a request is initiated by the control after the user enters a keystroke. Useful when requests overlap each other due to slower networks or when users with varying typing speeds encounter issues with the returned results for old searches.|
