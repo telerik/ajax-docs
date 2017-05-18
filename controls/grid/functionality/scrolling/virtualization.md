@@ -34,21 +34,17 @@ To enable the virtualization, set the **ClientSettings.Virtualization.EnableVirt
 In the list below you can find the performance benefits from enabling the functionality.
 
 * Fast data retrieval
-
 * Smooth scrolling which leads to better end-user experience
-
 * Support for client-side paging of server data
-
 * Optmized performance for column **show**/**hide**/**resize**
 
 ## Limitations
 
 Basically the virtualization functionality greatly improves the performance of the control. However there are some limitations which are listed below:
 
-* Using **GridTemplateColumns**,**DetailItemTemplate** or **NestedViewTemplate** is not possible in such scenarios as binding can not be properly performed;
+* Using **GridTemplateColumns**,**DetailItemTemplate** or **NestedViewTemplate** is not possible in such scenarios as binding can not be properly performed
+* Grouping
+* Row/Cell Selection
+* Setting the **EditMode** to **Batch** or **InPlace**
+* Setting the **Height** of the grid or **Scrolling.ScrollHeight** in percentage values
 
-* Grouping;
-
-* Row/Cell Selection;
-
-* Setting the **EditMode** to **Batch** or **InPlace**.
