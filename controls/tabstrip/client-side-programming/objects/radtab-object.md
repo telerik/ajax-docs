@@ -42,9 +42,9 @@ The **RadTab** object is returned by the **getTab()** method of the [RadTabColle
 | **get_value** |none|string value|Returns the Value property of the tab.|
 | **get_isSeparator** |none|boolean|Returns **true** the tab is a separator (sever-side property IsSeparator = true)|
 | **get_selected** |none|boolean|Returns whether the tab is selected.|
-| **set_selected** |boolean|none|Selects or de-selects the tab.|
-| **select** |none|none|Selects the tab.|
-| **unselect** |none|none|De-selects the tab.|
+| **set_selected** |boolean|none|Selects or de-selects the tab on the client. When `RenderSelectedPageOnly` is set to `true` for the associated multi page, use `click` to select a tab.|
+| **select** |none|none|Selects the tab on the client. When `RenderSelectedPageOnly` is set to `true` for the associated multi page, use `click`.|
+| **unselect** |none|none|De-selects the tab .|
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the tab launches.|
 | **set_navigateUrl** |string|none|Sets the navigateURL property of the tab. This is the URL of the Web page the tab launches. The **navigateUrl** parameter should be passed as an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx" not `default.aspx`. |
 | **get_imageUrl** |none|string|Gets the URL of the image.|
@@ -57,7 +57,7 @@ The **RadTab** object is returned by the **getTab()** method of the [RadTabColle
 | **get_textElement** |none|HTML Element|Gets the DOM element of the tab text (SPAN).|
 | **get_childListElement** |none|HTML Element|Gets the DOM element of the list of child tabs (UL).|
 | **scrollIntoView** |none|none|Scrolls to the tab.|
-| **click** |none|none|Simulate user click on a tab.|
+| **click** |none|none|Simulate user click on a tab. Use to select a tab when `RenderSelectedPageOnly` is set to `true` for the associated multi page.|
 
 >caution Changes to the tab made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges()** and the **commitChanges()** methods of the tab strip object.
 >
