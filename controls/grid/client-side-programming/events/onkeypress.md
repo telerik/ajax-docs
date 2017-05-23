@@ -11,22 +11,15 @@ position: 44
 # OnKeyPress
 
 
+This event is fired when a keyboard key is pressed.
 
-## 
-
-Telerik.Web.UI.GridDataItemCancelEventArgs OnKeyPress Property
-
->note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
->
-
-
-This event is fired when a key is pressed.
+`Telerik.Web.UI.GridDataItemCancelEventArgs` `OnKeyPress` Property
 
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** |keyCode - the code of the key pressedIsShiftPressed - **true** or **false** , depending on whether the Shift key was held down, when the event firedIsCtrlPressed - **true** or **false** , depending on whether the Ctrl key was held down, when the event firedIsAltPressed - **true** or **false** , depending on whether the Alt key was held down, when the event fireddomEvent - the original browser event object|
-| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** |`get_keyCode()` - the code of the key pressed; `get_isShiftPressed()` - `true` or `false` , depending on whether the Shift key was held down when the event fired; `get_isCtrlPressed()` - `true` or `false` depending on whether the Ctrl key was held down when the event fired; `get_isAltPressed()` - `true` or `false` depending on whether the Alt key was held down when the event fired; `get_domEvent()` - the original browser event object.|
+| **Can be canceled** |Yes, call `eventArgs.set_cancel(true)` to cancel.|
 
 Example:
 
