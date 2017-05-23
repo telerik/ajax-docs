@@ -68,9 +68,25 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 		proxyURL: "http://www.proxy.com",
 		raw: false
 	};
+	
+        function exportImage() {
+            //get reference to the ClientExportManager object
+            var exportManager = $find('<%=RadClientExportManager1.ClientID%>');
+            //specify the image settings fileName, proxy, width, height
+            var imageSettings = {
+                fileName: "test.png",
+                width: "1900px",
+                height: "1000px"
+             }
+            //set the image settings
+            exportManager.set_imageSettings(imageSettings);
+            //export the element/container
+            exportManager.exportImage($(".MyGrid"));
+        }
 </script>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1"></telerik:RadClientExportManager>
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="GridView1" CssClass="MyGrid" DataSourceID="SqlDataSource1"></telerik:RadGrid>
+<telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportImage" Text="Export RadGrid to Image" AutoPostBack="false" UseSubmitBehavior="false"></telerik:RadButton>
 ````
-
-
 
 # See Also
