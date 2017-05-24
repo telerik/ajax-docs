@@ -112,7 +112,7 @@ RadEditor1.Tools(0).Tools.Add(tool)
 ````
 
 
->note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from [here](http://www.telerik.com/support/kb/aspnet-ajax/editor/default-toolsfile-xml-file.aspx).
+>note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from the [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax) KB article.
 
 
 ## Setting the tools by using Themes
