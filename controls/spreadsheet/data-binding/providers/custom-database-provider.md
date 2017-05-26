@@ -17,78 +17,82 @@ The following article demonstrates how to implement a custom provider for the Ra
  In order to implement a custom provider for the **RadSpreadsheet** you would need to create a class that inherits the **SpreadsheetProviderBase** class. The custom class should implement the **SaveWorkbook** and **GetSheets** methods, which provide the end points for reading and writing data to the **Spreadsheet**. The following steps will help you to easily create and implement a custom provider for the RadSpreadsheet.
 
 
-* Create a class that inherits the **SpreadsheetProviderBase** class:
+1. Create a class that inherits the **SpreadsheetProviderBase** class:
 
-````C#
+	**C#**
 
-public class SpreadsheetDataBaseProvider : SpreadsheetProviderBase
-{
+		using Telerik.Web.UI;
+		using Telerik.Web.Spreadsheet;
 
-}
-
-````
-````VB.NET
-
-Public Class SpreadsheetDataBaseProvider
-    Inherits SpreadsheetProviderBase
-
-End Class
-
-````
+		public class SpreadsheetDataBaseProvider : SpreadsheetProviderBase
+		{
+		
+		}
 
 
-* In the custom class you should implement the **SaveWorkbook** and **GetSheets** methods:
+	**VB**
+
+		Imports Telerik.Web.UI
+		Imports Telerik.Web.Spreadsheet
+
+		Public Class SpreadsheetDataBaseProvider
+		    Inherits SpreadsheetProviderBase
+		
+		End Class
 
 
-````C#
 
-public override void SaveWorkbook(Workbook workbook)
-{
-	...
-}
+1. In the custom class you should implement the **SaveWorkbook** and **GetSheets** methods:
 
-public override List<Worksheet> GetSheets()
-{
-	var result = new List<Worksheet>();
-	....
-	return result;
-}
-````
-````VB.NET
 
-Public Overrides Sub SaveWorkbook(workbook As Workbook)
-    ...
-End Function
+	**C#**
 
-Public Overrides Function GetSheets() As List(Of Worksheet)
+		public override void SaveWorkbook(Workbook workbook)
+		{
+			...
+		}
+		
+		public override List<Worksheet> GetSheets()
+		{
+			var result = new List<Worksheet>();
+			....
+			return result;
+		}
 
-	Dim result = New List(Of Worksheet)()
-    ....
-	Return result
 	
-End Function
+	**VB**
 
-````
+		Public Overrides Sub SaveWorkbook(workbook As Workbook)
+		    ...
+		End Function
+		
+		Public Overrides Function GetSheets() As List(Of Worksheet)
+		
+			Dim result = New List(Of Worksheet)()
+		    ....
+			Return result
+			
+		End Function
 
 
-* Provide the RadSpreadsheet control with the newly created custom provider at the Page_Load in the following manner: 
 
-````C#
+1. Provide the RadSpreadsheet control with the newly created custom provider at the Page_Load in the following manner: 
 
-protected void Page_Load(object sender, EventArgs e)
-{
-	SpreadsheetDataBaseProvider provider = new SpreadsheetDataBaseProvider();
-	RadSpreadsheet1.Provider = provider;
-}
+	**C#**
 
-````
-````VB.NET
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			SpreadsheetDataBaseProvider provider = new SpreadsheetDataBaseProvider();
+			RadSpreadsheet1.Provider = provider;
+		}
 
- Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim provider As New SpreadsheetDataBaseProvider()
-        RadSpreadsheet1.Provider = provider
-    End Sub
 
-````
+	**VB**
+
+		 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+		        Dim provider As New SpreadsheetDataBaseProvider()
+		        RadSpreadsheet1.Provider = provider
+		    End Sub
+
 
 >note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with **Custom Database Provider** in this Code Library: [Custom Database Provider for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/spreadsheetdatabaseprovider).
