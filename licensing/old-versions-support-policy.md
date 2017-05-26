@@ -33,7 +33,7 @@ Workarounds for older versions may be provided in the ticketing system if they a
 
 Feature enhancements and new controls become publicly available in the first major release after their implementation from the development team.
 
-New features and controls are not available for versions older then the first version they are released with.
+New features and controls are not available for versions older than the first version they are released with.
 
 ## New Browsers Compatibility
 
