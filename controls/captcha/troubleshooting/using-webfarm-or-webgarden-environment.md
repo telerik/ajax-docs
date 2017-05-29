@@ -20,13 +20,13 @@ Usually, every server (or every worker process) has an independent Cache, which 
 
 To avoid this behavior, you should store the CaptchaImage in the Session, and configure your server environment to use out of process Session State(i.e. the Session object is shared among different processes and servers). Practically you need to:
 
-1. Set the **ImageStorageLocation** property of RadCaptcha to **Session**;
+1. Set the `ImageStorageLocation` property of RadCaptcha to `Session`;
 
-1. Configure the httpHandler in the following way:
+1. Configure the Telerik httpHandler in the following way:
 
 	>caption web.config:
 
-	**XML**
+	**web.config**
 	
 		<configuration>
 			<system.web>
@@ -46,3 +46,17 @@ To avoid this behavior, you should store the CaptchaImage in the Session, and co
 	* Deploy the out-of-process Session State server that is provided with ASP.NET.
 
 	* Manually configure each Web server to store Session State data on a SQL Server.
+
+1. Make sure the same `machineKey` is used on all servers in the farm.
+
+	**web.config**
+
+
+		<system.web>
+		   <machineKey decryptionKey="theSameDecryptionKeyForAllServers" validationKey="TheSameValidationKeyForAllServers" />
+		</system.web>
+
+
+## See Also
+
+* [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)
