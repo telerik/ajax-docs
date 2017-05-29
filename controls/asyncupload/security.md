@@ -29,7 +29,7 @@ To provide secure encryption, we strongly advise that you set a custom encryptio
 
 ````web.config
 <appSettings>
-	<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="abcdefghijklmnopqrstuvwxyz1234567890" />
+	<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
 ````
 
@@ -43,7 +43,7 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 
 ````web.config
 <appSettings>
-	<add key="Telerik.Upload.ConfigurationHashKey" value="0987654321zyxwvutsrqponmlkjihgfedcba" />
+	<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
 ````
 

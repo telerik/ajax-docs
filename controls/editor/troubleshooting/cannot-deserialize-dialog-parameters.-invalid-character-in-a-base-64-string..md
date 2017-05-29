@@ -22,11 +22,11 @@ The way dialog parameters are serialized was changed due to a security issue in 
 
 A specific encryption key could be forced for the editor/spell dialogs with the following application setting in the web.config:
 
-You can use any combination of letters and numbers - the key has no specific format. 46 bytes is 46 characters. For example you can use **2u4kjbfoiuhtk2lh4bgl4i2gbvhjbajhbk3jhtrgkjhrtgkjf324** as a key value
+You can use any combination of letters and numbers - the key has no specific format. 46 bytes is 46 characters.
 
 ````XML
 <appSettings>
-	<add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="2C23234234D4566DC4AD6A-63D6-4db9-A3FB-3adfasd6846D"/> 
+	<add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" /> 
 </appSettings>
 ````
 

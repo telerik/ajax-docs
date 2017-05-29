@@ -230,8 +230,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="BindGridInvisibleColumns" value="true" />
         <add key="CSApiKey" value="abcdefghjiklmnopqrstuvwxyz1234567890" />
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
-		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="abcdefghijklmnopqrstuvwxyz" />
-		<add key="Telerik.Upload.ConfigurationHashKey" value="123456789qwerty" />
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
@@ -249,7 +249,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="MyCustomCaptchaStorageProvider" />
         <add key="Telerik.Web.CaptchaDenyAudioHandler" value="true" />
         <add key="Telerik.Web.SkinsAssembly" value="MyCustomSkinsAssembly" />
-        <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="TheseMustBe46Characters-abcdefghijklmnopqrstu" />
+        <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
         <add key="Telerik.Web.UI.ScriptFolder" value="~/MyScripts/" />
         <add key="Telerik.Web.UI.ScriptFolders" value="~/MyScripts/; ~/MoreScripts/" />
         <add key="Telerik.Web.UI.StyleSheetFolder" value="~/App_Themes/" />
