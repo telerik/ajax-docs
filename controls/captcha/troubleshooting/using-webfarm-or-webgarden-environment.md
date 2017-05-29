@@ -24,8 +24,6 @@ To avoid this behavior, you should store the CaptchaImage in the Session, and co
 
 1. Configure the Telerik httpHandler in the following way:
 
-	>caption web.config:
-
 	**web.config**
 	
 		<configuration>
