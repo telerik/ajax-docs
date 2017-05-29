@@ -23,27 +23,29 @@ This article explains the entries a Telerik-enabled Web Site or Web Application 
 
 ## Mandatory Additions to the web.config
 
-For the controls from the Telerik UI for ASP.NET AJAX suite to function, **the needed HTTP handlers must be registered in the web.config** (**Example 1**). 
+For the controls from the Telerik UI for ASP.NET AJAX suite to function, **the needed HTTP handlers must be registered in the web.config** (**Example 1**).
 
 
- There are several ways to add them: 
+There are several ways to add the HTTP handlers:
 
-
-* Using the [Configuration and Creation Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) from the [Telerik Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) can add them automatically. 
-
+* Use the [Configuration and Creation Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) from the [Telerik Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) can add them automatically.
 * The **Smart Tag** of each control will let you register the handlers it needs if they are not present. Not all handlers are needed by each control, so the available list may vary. 
+* You can simply use the following code snippet (**Example 1**) and paste it into your web.config.
 
-* You can simply use the following code snippet and paste it into your web.config:
 
-**Example 1**: The HTTP handlers needed by the Telerik UI for ASP.NET AJAX suite.
+>caution For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong randomized values of your own.
 
-````XML
+>caption **Example 1**: The mandatory web.config additions needed by the Telerik UI for ASP.NET AJAX suite.
+
+````web.config
 <configuration>
 	<appSettings>
 		<!-- If you are using RadAsyncUpload or RadCloudUpload, add such keys
 			Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
-		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="abcdefghijklmnopqrstuvwxyz" />
-		<add key="Telerik.Upload.ConfigurationHashKey" value="123456789qwerty" />
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<!-- If you are using any Telerik dialogs (e.g., RadEditor, RadSpell, RadFileExplorer), add this key -->
+		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 	</appSettings>
     <system.web>
         <!-- for IIS versions below 7 and Classic Pipeline mode -->
