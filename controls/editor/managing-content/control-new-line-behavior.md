@@ -30,7 +30,11 @@ If you wish to enter line breaks, e.g. you want your text to be displayed on two
 
 is displayed in the browser as:
 
-**Introducing Telerik RadEditor for ASP.NET AJAX.Improved user experience.Enhanced cross-browser support.**
+**Introducing Telerik RadEditor for ASP.NET AJAX.**
+
+**Improved user experience.**
+
+**Enhanced cross-browser support.**
 
 >note Note that the `<br />` tag is an empty tag and has no closing tag.
 
