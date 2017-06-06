@@ -62,5 +62,11 @@ The **EnableHandlerDetection** propery is available since Q3.2013. By default it
 
 IE10 browser uploading of zero byte files in not possible currently when using FileApi upload module and that is why RadAsyncUpload will throw an exception in the OnClientFileUploadFailed event with error message: "IE10 browser does not support upload of 0 bytes size file." You can handle it and inform the user about this browser limitation.
 
+## Drag and Drop functionality of RadAsyncUpload not working in IE browser when using Visual Studio as Administrator.
+
+When running a project using Visual Studio in Administrator mode, the Drag and Drop to upload functionality of **RadAsyncUpload** is not working in Internet Explorer browser. This behavior is not observed when the project is hosted in IIS where everything works as expected.
+
+
+
 
 ## See Also
