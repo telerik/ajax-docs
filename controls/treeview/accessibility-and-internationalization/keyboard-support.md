@@ -24,7 +24,7 @@ A key combination that allows the end-user to focus on the respective **RadTreeV
 **Example 1**: Setting the KeyboardNavigationSettings for **RadTrewView**
 
 ````ASPNET
-<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" >
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" TabIndex="1">
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="W" />
 </telerik:RadTreeView>
 ````
