@@ -10,13 +10,22 @@ position: 1
 
 # Data Grouping
 
+**RadListView** offers **data grouping** as of Q3 2013. You can group the data source of the control according to one or more specified data fields. The operation is performed on the data source of the control.
 
+In order to define the layout for each group in the control, you should set separate **data group templates** in the **`DataGroupTemplate` tag** under each **`ListViewDataGroup`**.
 
-As of Q3 2013 Beta release of the UI controls, you could test the advantage of the new **DataGrouping** feature for the **RadListView** control.Using the **DataGrouping** with the **RadListView**, you could group the data source of the control according to one or more specified data fields.In order to define the layout for each group in the control you should set separate **data group templates** in the **“DataGroupTemplate” tag** under each **“ListViewDataGroup.”** Option to access the **calculated aggregates** according to a predefined function is also available. The **RadListView DataGrouping** functionality provides not only a way to arrange the items in a grouped way (as the basic grouping available) but render grouped items form the **DataSource** or in another words native **DataSource** grouping as the other data-bound controls like RadGrid provides.
+You can access the **calculated aggregates** according to a predefined function.
+
+In this article:
+
+* [Features](#features)
+* [Nested Groups](#nested-groups)
+* [Server-side API](#server-side-api)
+* [Limitations](#limitations)
 
 ## Features
 
-You could take advantage of the following features of the DataGrouping functionality listed below:
+You can take advantage of the following features of the DataGrouping functionality listed below:
 
 * Collection of data groups in the markup
 
@@ -99,7 +108,7 @@ Using the code below you will enable the RadListView DataGrouping feature follow
 
 
 
-Using the aggregate function on a specific aggregate field, you could set aggregates for specific groups. The aggregate value could be accessed using **AggregatesValues** property.
+Using the aggregate function on a specific aggregate field, you can set aggregates for specific groups. The aggregate value can be accessed using **AggregatesValues** property.
 
 ````ASP.NET
 <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
@@ -122,9 +131,11 @@ Using the aggregate function on a specific aggregate field, you could set aggreg
 
 ## Nested groups
 
-You could achieve grouping in several levels by nesting the **ListViewDataGroups**.
+You can achieve grouping in several levels by nesting the **ListViewDataGroups**.
 
-Note that the **DataGroupPlaceHolderID** of each nested group should be set to be the PlaceHolder of its direct parent group. Finally, the **ItemPlaceholderID** of the RadListView control should be set to the container's ID od the most inner group.
+Note that the **DataGroupPlaceHolderID** of each nested group should be set to be the PlaceHolder of its direct parent group. 
+
+Also, the **ItemPlaceholderID** of the RadListView control should be set to the container's ID of the innermost group.
 
 The example bellow presents two levels of grouping
 
@@ -168,7 +179,7 @@ The example bellow presents two levels of grouping
 Several new properties have been exposed for the DataGrouping functionality:
 
 
-|  ** *Property* **  |  ** *Description* **  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
 | **GroupAggregatesScope** |Sets the way the aggregates for specific group is calculated–for the specific page or for all items. The default value is "AllItems"|
 | **InsertItemPostion** (extended enumeration)|Sets the position of the insert item. The new enumeration includes **"BeforeDataGroups"** and **"AfterDataGroups"** |
@@ -177,7 +188,7 @@ Several new properties have been exposed for the DataGrouping functionality:
 **Events:**
 
 
-|  **Events ** **  |  **Description ** **  |
+|  **Events**  |  **Description**  |
 | ------ | ------ |
 | **OnCustomAggregate** |Fired when the **aggregate type** is **“Custom.”** User can specify custom calculated value because of the aggregate.|
 
@@ -197,4 +208,10 @@ Several new properties have been exposed for the DataGrouping functionality:
 
   * Custom paging/sorting/filtering
 
-  * Simple (old) grouping-results in the "ItemPlaceHolder not specified" error
+  * Using simple (UI) grouping results in the "ItemPlaceHolder not specified" error
+
+## See Also
+
+* [Live Demo: Data Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/datagrouping/defaultcs.aspx)
+
+* [Simple (UI) Grouping]({% slug listview/fuctionality/grouping/overview %})

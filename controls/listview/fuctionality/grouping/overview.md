@@ -1,6 +1,6 @@
 ---
-title: Overview
-page_title: Grouping Overview | RadListView for ASP.NET AJAX Documentation
+title: UI Grouping
+page_title: UI Grouping | RadListView for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/fuctionality/grouping/overview
 tags: overview
@@ -8,33 +8,26 @@ published: True
 position: 0
 ---
 
-# Grouping Overview
+# UI Grouping
 
-
-
-## 
 
 **RadListView** supports ListView-like grouping for its items. You can easily achieve displaying of data in groups with RadListView by setting the properties listed:
 
-* **GroupItemCount**
-
-* **GroupPlaceHolderID**
-
-* **ItemPlaceHolderID**
+* **GroupItemCount**—the number of items you want to display in each group.
+* **GroupPlaceHolderID**—the ID of the control which is used to hold all groups of the RadListView control.
+* **ItemPlaceHolderID**—the ID of the control holding each RadListView item.
 
 In addition you need to define the following Templates:
 
-* **LayoutTemplate**
+* **LayoutTemplate**—the general ListView template that holds all groups and their items. You can add layout here (like begining/closing a table, headers, pagers).
+* **GroupTemplate**—the template around each set of items defined by `GroupItemCount`.
+* **GroupSeparatorTemplate**—the content that separates one UI group from the other.
+* **EmptyItemTemplate**—template for an empty item.
 
-* **GroupTemplate**
-
-* **GroupSeparatorTemplate**
-
-* **EmptyItemTemplate**
-
+>tip For grouping according to a field in the data source, see [Data Grouping in RadListView]({% slug listview/fuctionality/grouping/data-grouping %}).
 
 
-The **GroupItemCount** property should be set to the number of items you want to display in each group. The **GroupPlaceHolderID** is the ID of the control which is used to hold all groups of the RadListView control. And the **ItemPlaceHolderID** is the ID of the control holding each RadListView item.
+>caption Example with detailed descriptions
 
 ````ASP.NET
 <telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
@@ -107,6 +100,9 @@ The **EmptyItemTemplate** defines a layout for the non-existing items of a group
 
 
 
-For a live demo illustrating grouped RadListView samples, follow the link below:
+## See Also
 
-[RadListView Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/grouping/defaultcs.aspx)
+* [Live Demo: RadListView UI Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/grouping/defaultcs.aspx)
+
+* [Data Grouping in RadListView]({% slug listview/fuctionality/grouping/data-grouping %})
+
