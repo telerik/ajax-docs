@@ -411,6 +411,40 @@ This approach provides the following benefits:
 
 	>note Review the [RadClientExportManager Browser Support]({%slug clientexportmanager/browser-support%}) and evaluate it against your expected user base. 
 
+>caption Example 6: Use automatic page breaking via the underlying Kendo API
+
+````ASP.NET
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
+	<Content>
+		<p>para 1</p><p>para 2</p><p>para 3</p><p>para 4</p><p>para 5</p><p>para 6</p><p>para 7</p><p>para 8</p><p>para 9</p><p>para 10</p><p>para 11</p><p>para 12</p><p>para 13</p><p>para 14</p><p>para 15</p><p>para 16</p><p>para 17</p><p>para 18</p><p>para 19</p><p>para 20</p><p>para 21</p><p>para 22</p><p>para 23</p><p>para 24</p><p>para 25</p><p>para 26</p>
+	</Content>
+</telerik:RadEditor>
+
+<%--Used to fetch the kendo scripts--%>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+</telerik:RadClientExportManager>
+
+<asp:Button ID="Button1" Text="export editor on client" OnClientClick="exprotPdfOnClient(); return false;" runat="server" />
+<div id="dummyContentWrapper"></div>
+<script>
+	function exprotPdfOnClient() {
+	var editorHtml = $find("<%=RadEditor1.ClientID%>").get_html(true);
+	var dummyContainer = $telerik.$("#dummyContentWrapper");
+	dummyContainer.html(editorHtml);
+
+	//automatic page breaking: http://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Automatic
+	kendo.drawing.drawDOM("#dummyContentWrapper", {
+		paperSize: "A4",
+		margin: "2cm"
+	}).then(function (group) {
+		kendo.drawing.pdf.saveAs(group, "editor.pdf");
+	});
+
+	dummyContainer.html("");
+}
+</script>
+````
+
 
 ## See Also
 
