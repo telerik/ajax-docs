@@ -60,6 +60,8 @@ Properties
 | ------ | ------ | ------ | ------ |
 | **selectAllText** |none|none|Selects all text in the text box.|
 | **selectText** |integer, integer|none|Selects the text in the specified range of positions. The first parameter is the start of the range and the second is the end of the range.|
+| **insertText** |string, integer|integer|Puts the given text to the specified position. Returns the end position of the inserted text.|
+| **removeText** |integer, integer|none|Erases the text in the specified position and length.|
 | **enable** |none|none|Enables the text box.|
 | **disable** |none|none|Disables the text box.|
 | **focus** |none|none|Sets focus to the text box so that the user can edit its value.|
