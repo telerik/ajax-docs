@@ -12,7 +12,7 @@ position: 6
 
 ## 
 
-The **OnClientFilesSelected** client-side event occurs whenfiles(s) are selected. These event can be cancelled, which will erase the selectedfiles collection.
+The **OnClientFilesSelected** client-side event occurs when files(s) are selected. This event can be cancelled, which will erase the selectedfiles collection.
 
 The event handler receives two parameters:
 
@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_count** returns the count of the selectedfiles.
+* **get_count** returns the count of the selected files.
 
-* **set_cancel** lets you cancel the event andprevent items from being uploaded
+* **set_cancel** lets you cancel the event and prevent items from being uploaded
 
 ````ASPNET
 <telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFilesSelected="OnClientFilesSelected" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
