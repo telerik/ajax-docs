@@ -357,6 +357,7 @@ Although we are striving to constantly improve our products, there are some limi
 * Right-to-left fonts;
 * Nested DIV elements with absolute position;
 * Nested DIV elements with specified width or height;
+* `<ins>` and `<del>` elements;
 * Automatic text clipping;
 * Client-side binding;
 * Medium trust;
