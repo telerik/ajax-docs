@@ -192,5 +192,6 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 
 * No automatic column/row resizing.
 * RadPivotGrid export throws an error when using a **GetDataItem()** in template. - This is a known issue when the **Page.GetDataItem()** is used. In order to works as expected the **DataBinder.GetDataItem(this)** needs to be used. 
+* Large amounts of data can cause `Timeout` or `OutOfMemory` exceptions. Exporting is a resource intensive operation and if you get such issues, you can look into reducing the amount of data to be exported.
 
 

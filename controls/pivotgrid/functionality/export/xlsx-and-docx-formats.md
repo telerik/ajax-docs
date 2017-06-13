@@ -211,6 +211,8 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 
 * No automatic column/row resizing.
 
+* Large amounts of data can cause `Timeout` or `OutOfMemory` exceptions. Exporting is a resource intensive operation and if you get such issues, you can look into reducing the amount of data to be exported.
+
 # See Also
 
  * [Biff Export Format]({%slug pivotgrid/functionality/export/excel%})
