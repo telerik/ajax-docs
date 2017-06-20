@@ -14,7 +14,7 @@ position: 0
 
 **Gantt** also supports a number of client-side events that helps you further customize the behavior of the control. Below you can find a list of the available ones that you can use.
 
-## Gentt - Client Events
+## Gantt - Client Events
 
 * [OnClientRequestStart]({%slug gantt/client-side-programming/events/onclientrequeststart%}) - Occurs when a request to the WebService is about to be sent.
 
