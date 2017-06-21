@@ -16,10 +16,11 @@ Configuration information includes temporary and target folder on the server, an
 
 There is an `appSettings` key you should add to your `web.config` to ensure information security with file uploads:
 
-* set a custom `ConfigurationHashKey`.
+* set a custom `Telerik.Upload.ConfigurationHashKey`.
 
 >important If you do not set a custom key, a default (hardcoded) value is used to encrypt/decrypt the information.
-
+>
+>As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can use the IIS MachineKey generator to get them.
 
 
 
@@ -35,3 +36,7 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 </appSettings>
 ````
 
+
+## See Also
+
+* [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})

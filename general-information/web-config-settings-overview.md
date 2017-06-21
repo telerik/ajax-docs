@@ -33,18 +33,19 @@ There are several ways to add the HTTP handlers:
 * You can simply use the following code snippet (**Example 1**) and paste it into your web.config.
 
 
->caution For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong randomized values of your own.
+>important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong randomized values of your own. You can use the IIS MachineKey generator to get them.
+>
+>As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys. 
 
 >caption **Example 1**: The mandatory web.config additions needed by the Telerik UI for ASP.NET AJAX suite.
 
 ````web.config
 <configuration>
 	<appSettings>
-		<!-- If you are using RadAsyncUpload or RadCloudUpload, add such keys
-			Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
+		<!-- Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-		<!-- If you are using any Telerik dialogs (e.g., RadEditor, RadSpell, RadFileExplorer), add this key -->
+		<!-- Read more at:   http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security -->
 		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 	</appSettings>
     <system.web>
