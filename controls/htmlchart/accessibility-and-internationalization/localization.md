@@ -12,7 +12,7 @@ position: 0
 
 Telerik makes it easy to localize **RadHtmlChart**. Some chart elements have custom strings that you localize before you pass them to the control and some text can be localized by using the KendoUI framework. This Help article will show you how to use the KendoUI framework (**Example 1**) to create the localized **PieSeries** shown in **Figure 1**.	**RadHtmlChart** can use KendoUI framework localizations and in order to set a certain culture,you should follow the steps that are listed [here](http://docs.kendoui.com/getting-started/framework/globalization/overview). Here is a summary of the steps:
 
-1. Add a reference in your page to the desired culture file. (You can find the KendoUI Culture files in the "**js/cultures**" folder located in the root of the archive. You can download KendoUI from [this page](http://www.kendoui.com/download.aspx).)
+1. Add a reference in your page to the desired culture file. You can find the KendoUI Culture files in the "**js/cultures**" folder located in the root of the archive. You can download KendoUI from the [Download page of Your Telerik.com Account](https://www.telerik.com/account/product-download?product=KENDOUICOMPLETE).
 
 	>caution When using an external script the KendoUI culture script must be declared before setting the culture of the kendo object.
 
@@ -72,7 +72,7 @@ You can see in **Example 1** and **Figure 1**, an example of a localized **PieSe
 
 ## See Also
 
- * [KendoUI Get Kendo UI](http://www.kendoui.com/download.aspx)
+ * [Get Kendo UI from Your Account](https://www.telerik.com/account/product-download?product=KENDOUICOMPLETE)
 
  * [KendoUI Kendo Globalization Overview](http://docs.kendoui.com/getting-started/framework/globalization/overview)
 
