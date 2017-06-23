@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="page-position" content="{{page.position}}">  
+		<meta name="page-position" content="{{page.position}}">
         <title>{{ page.page_title || page.title }}</title>
         <link href="{{site.baseurl}}/favicon.ico?Version=2014" rel="shortcut icon" />
         {% if page.description %}<meta name="description" content="{{page.description}}">{% endif %}
@@ -37,10 +37,7 @@
         </noscript>
         <script>(function(w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', '{{site.google_tag_manager}}');</script>
         <!-- End Google Tag Manager -->
-        <header id="page-header">
-            <span class="toggle-nav"><span></span></span>
-            {% include header.html %}
-        </header>
+        {% include header.html %}
 
         {{ content }}
     </body>
