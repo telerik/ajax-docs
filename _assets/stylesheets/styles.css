@@ -48,11 +48,74 @@ footer {
 
 
 
+.TK-Hat {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #eff0f1;
+    color: #4d4f52;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 42042;
+}
+.TK-Hat::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.TK-Hat *,
+.TK-Hat:after,
+.TK-Hat:before {
+    box-sizing: border-box;
+}
+.TK-Hat-Brand {
+    float: left;
+    width: 150px;
+    margin: 0;
+}
+.TK-PRGS-Logo {
+    display: block;
+    outline: none!important;
+    text-decoration: none!important;
+    transition: color .1s linear, background .1s linear, opacity .1s linear;
+}
+.TK-PRGS-Logo:focus,
+.TK-PRGS-Logo:hover {
+    opacity: .75;
+}
+.TK-PRGS-Logo svg {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 1100px) and (min-width: 880px) {
+    .TK-Hat-Brand {
+        width: 120px;
+        min-width: 120px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .TK-Hat-Brand {
+        width: 100px;
+        min-width: 100px;
+    }
+}
+
+
+
 
 /* #region Header */
 
 #page-header {
+    padding: 20px 15px;
+    width: 100%;
+    box-sizing: border-box;
     font-size: 12px;
+    position: fixed;
+    top: 41px;
+    z-index: 100;
 }
 
 #page-header:after {
@@ -76,13 +139,15 @@ footer {
 
 #logo-bar {
     float: left;
-    margin-top: 1.617em;
-    margin-bottom: 1.717em;
-    margin-left: 1.833em;
+}
+#logo-bar a {
+    display: inline-block;
 }
 
 .logo {
-    width: 330px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .nav-buttons {
@@ -537,8 +602,8 @@ footer a:hover {
         color: #818692;
         font-size: 11px;
     }
-    
-    footer a, 
+
+    footer a,
     footer a:hover {
         color: #cccccc;
         text-decoration: none;
@@ -549,7 +614,7 @@ footer a:hover {
 #page-search {
     margin: 0;
     position: absolute;
-    top: 23px;
+    top: 20px;
     background-color: transparent;
     padding: 0;
     right: 514px;
@@ -628,8 +693,8 @@ footer a:hover {
     background: transparent;
     display: none;
     position: relative;
-    margin-left: 1.833em;
     cursor: pointer;
+    vertical-align: top;
 }
 
 #page-nav.nav-visibility {
@@ -867,12 +932,12 @@ footer a:hover {
 			padding-top: 50px;
 			background-color: white;
 		}
-		
+
 		#feedback-menu-container {
 			width: 100%;
 			max-width: 930px;
 		}
-		
+
 		#helpful-buttons-container {
 			font-size: 1.5em;
 			font-weight: bold;
@@ -880,7 +945,7 @@ footer a:hover {
 			text-decoration: none;
 			position: relative;
 		}
-		
+
 		#helpful-buttons-container button {
 			float: right;
 			line-height: 0.933em;
@@ -903,17 +968,17 @@ footer a:hover {
 		#yesButton {
 			margin-right: 10px;
 		}
-		
+
 		#helpful-buttons-container button:hover{
 			background-color: #2a2d33;
 			color: #fff;
 		}
-		
+
 		#feedback-submitted-container,
 		#additional-feedback-button {
 			visibility: hidden;
 		}
-		
+
 		.k-widget.k-window.k-window-titleless {
 			padding: 29px;
 			height: 530px !important;
@@ -924,7 +989,7 @@ footer a:hover {
 			position: absolute;
 			background-color: #fff;
 		}
-		
+
 		#feedback-form-window input::-webkit-input-placeholder,
 		#feedback-form-window textarea::-webkit-input-placeholder,
 		#feedback-form-window input:-moz-placeholder,
@@ -940,7 +1005,7 @@ footer a:hover {
 			margin: 0;
 			font-size: 24px;
 		}
-		
+
 		#feedback-form-window .feedback-extw__subtitle {
 			margin-top: 0;
 			margin-bottom: 0;
@@ -949,7 +1014,7 @@ footer a:hover {
 			color: #000;
 			text-decoration: none;
 		}
-		
+
 		#feedback-form-window p:nth-child(2) {
 			margin-top: 10px;
 			margin-bottom: 20px;
@@ -958,7 +1023,7 @@ footer a:hover {
 			color: #000;
 			text-decoration: none;
 		}
-		
+
 		#feedback-form label {
 			display: block;
 			margin: 5px 0 10px;
@@ -994,11 +1059,11 @@ footer a:hover {
 			height: 156px;
 			resize: none;
 		}
-		
+
 		#feedback-form .feedback-extw__input {
 			margin: 12px 0 30px;
 		}
-		
+
 		#feedback-form-window button {
 			line-height: 0.933em;
 			font-size: 15px;
@@ -1016,7 +1081,7 @@ footer a:hover {
 			transition-duration: 0.2s;
 			transition-timing-function: ease;
 		}
-		
+
 		#feedback-form-window button:hover {
 			background-color: #013a5e;
 		}
@@ -1024,13 +1089,13 @@ footer a:hover {
 		#form-submit-button {
 			margin-left: 5px;
 		}
-		
+
 		button#form-close-button {
 			background-color: #fff;
 			color: #555;
 			border: 1px solid #ccc;
 		}
-		
+
 		button#form-close-button:hover {
 			background-color: #ccc;
 		}
