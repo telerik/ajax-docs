@@ -18,11 +18,17 @@ This help article illustrates how to create a custom skin for RadHtmlChart.
 
 ## Modify an Existing Skin
 
-RadHtmlChart renders entirely on the client-side as SVG/Canvas. The control gets the skin-specific colors from a JS file (i.e., RadHtmlChartSkins.js), so that you cannot use pure CSS to style its elements.
+RadHtmlChart renders entirely on the client-side as SVG/Canvas. The control gets the skin-specific colors from a JS file (RadHtmlChartSkins.js), so that you cannot use pure CSS to style its elements.
 
 To modify an existing chart skin you can follow the steps below:
 
-1. Copy the `RadHtmlChartSkins.js` file to your project and open it. The file is located in the `Telerik.Web.UI\HtmlChart` folder of the Telerik UI for ASP.NET AJAX Source Code. You can also find a strip down version of this file in the JavaScript tab of **Example 2**.
+1. Go to your [telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and download the source code of the UI for ASP.NET AJAX controls. The file is called `Telerik_UI_for_ASP.NET_AJAX_<version>_Source.zip`
+
+1. Go to the `Telerik.Web.UI\HtmlChart` folder of the Telerik UI for ASP.NET AJAX Source Code.
+
+1. Copy the `RadHtmlChartSkins.js` file to your project and open it.
+
+	>tip You can also find a stripped down version of this file in the **JavaScript section** of **Example 2**.
 
 1. Find the skin you want to modify and customize the colors of the corresponding [elements](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart). **Example 1** shows how to set a silver background for the chart area and colorize the first two series with green and blue. 
 
@@ -73,6 +79,7 @@ You can see the output of the modified Black skin in **Figure 1**.
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
+
 ````JavaScript
 //RadHtmlChartSkins.js
 ; (function ($) {
