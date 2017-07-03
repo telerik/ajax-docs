@@ -27,7 +27,7 @@ Clears cached proeprties of the manager. This property should be used when a set
 
 ### createToolTip
 
-Creates a tooltip for a particular element
+Creates a tooltip for a particular HTML element
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Creates a tooltip for a particular element
 
 #### Returns
 
-`None` 
+`Telerik.Web.UI.RadToolTip` 
 
 ### get_autoTooltipify
 
