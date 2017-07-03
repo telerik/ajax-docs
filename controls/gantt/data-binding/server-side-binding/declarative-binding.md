@@ -29,7 +29,7 @@ After performing the above steps you should get a configuration similar to the b
 ````ASP.NET
 <telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" DataSourceID="SqlDataSource1" DependenciesDataSourceID="SqlDataSource2">
     <DataBindings>
-        <TasksDataBindings IdField="ID" ParentIdField="ParentID" StartField="Start" EndField="End" TitleField="Title" PercentCompleteField="PercentComplete" />
+        <TasksDataBindings IdField="ID" ParentIdField="ParentID" OrderIdField="OrderID" StartField="Start" EndField="End" TitleField="Title" PercentCompleteField="PercentComplete" ExpandedField="Expanded" SummaryField="Summary" />
         <DependenciesDataBindings TypeField="Type" IdField="ID" PredecessorIdField="PredecessorID" SuccessorIdField="SuccessorID" />
     </DataBindings>
 </telerik:RadGantt>
