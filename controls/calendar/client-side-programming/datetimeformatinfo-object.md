@@ -32,7 +32,7 @@ The following table lists the methods of the **DateTimeFormatInfo** object:
 	function OnDateSelected(sender, e) {
         var calendarDay = e.get_renderDay();
         if (calendarDay.IsSelected) {
-            var selectedDate = calendarDay.get_Date();
+            var selectedDate = calendarDay.get_date();
             var calendar = $find("<%= RadCalendar1.ClientID %>");
             var shortDatePattern = calendar.DateTimeFormatInfo.ShortDatePattern;
             var formattedDate = calendar.DateTimeFormatInfo.FormatDate(selectedDate, shortDatePattern);
