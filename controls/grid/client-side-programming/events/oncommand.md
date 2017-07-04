@@ -12,8 +12,6 @@ position: 26
 
 
 
-## 
-
 Telerik.Web.UI.GridCommandEventArgs OnCommand Property
 
 >note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
@@ -53,4 +51,19 @@ function RaiseCommand(sender, eventArgs)
 }
 ````
 
+>caption How to prevent loss of user input in batch editing mode
+
+````JavaScript
+function OnCommand(sender, args) {
+	var tableView = args.get_tableView();
+	var batchEditingManager = sender.get_batchEditingManager();
+	var isDirty = batchEditingManager.hasChanges(tableView);
+	var commandName = args.get_commandName();
+	//allow the user to cancel changes always
+	//if there are changes allow the user only to save changes 
+	var shouldAllowOperation = commandName == "RebindGrid" || !(isDirty && commandName != "BatchEdit");
+	args.set_cancel(!shouldAllowOperation);
+	
+}
+````
 

@@ -11,8 +11,7 @@ position: 76
 # OnUserAction
 
 
-
-##        
+       
 
 Sys.CancelEventArgs OnUserAction Property
 
@@ -49,7 +48,19 @@ function userAction(sender, args) {
 }
 ````
 
+>caption How to prevent loss of user input in batch editing mode
 
+````JavaScript
+function OnUserAction(sender, args) {
+	var tableView = args.get_tableView();
+	var batchEditingManager = sender.get_batchEditingManager();
+	var isDirty = batchEditingManager.hasChanges(tableView);
+	if (isDirty) {
+		var shouldAllowOperation = confirm("changes will be lost, do you wish to continue");
+		args.set_cancel(!shouldAllowOperation);
+	}
+}
+````
 
 
 

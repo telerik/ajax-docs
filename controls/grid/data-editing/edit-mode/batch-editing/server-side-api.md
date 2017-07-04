@@ -16,6 +16,7 @@ When **RadGrid** performs CRUD operations **ItemCommand, InsertCommand, DeleteCo
 
 >note When automatic operations are enabled you can cancel the command by setting the **e.Canceled** to **true** (Can be useful when performing validation).
 >
+>Once a postback to the server has been initiated, the user input cannot be restored in the browser. This can result in loss of data. To minimize this, use [client-side validation]({%slug grid/data-editing/edit-mode/batch-editing/validation%}) and cancel the [OnUserAction]({%slug grid/client-side-programming/events/onuseraction%}) or [OnCommand]({%slug grid/client-side-programming/events/oncommand%}) event in case [the batch editing manager `hasChanges()` on the client]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%}).
 
 
 
