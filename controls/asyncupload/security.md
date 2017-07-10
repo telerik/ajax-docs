@@ -22,7 +22,7 @@ There are two `appSettings` keys you should add to your `web.config` to ensure i
 
 >important If you do not set any custom keys, default (hardcoded) values are used to encrypt/decrypt the information.
 >
->As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can use the IIS MachineKey generator to get them.
+>As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
 
 As an added security measure, as of **R2 2017 SP2**, you can **disable file uploads for your application** via the [Telerik.Web.DisableAsyncUploadHandler key](#disableasyncuploadhandler) web.config switch.
 
@@ -33,7 +33,7 @@ To provide secure encryption, we strongly advise that you set a custom encryptio
 
 ````web.config
 <appSettings>
-	<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+	<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
 ````
 
@@ -47,7 +47,7 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 
 ````web.config
 <appSettings>
-	<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+	<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
 ````
 

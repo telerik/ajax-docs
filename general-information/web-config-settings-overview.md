@@ -33,7 +33,7 @@ There are several ways to add the HTTP handlers:
 * You can simply use the following code snippet (**Example 1**) and paste it into your web.config.
 
 
->important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong randomized values of your own. You can use the IIS MachineKey generator to get them.
+>important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
 >
 >As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys. 
 
@@ -43,10 +43,10 @@ There are several ways to add the HTTP handlers:
 <configuration>
 	<appSettings>
 		<!-- Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
-		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<!-- Read more at:   http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security -->
-		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 	</appSettings>
     <system.web>
         <!-- for IIS versions below 7 and Classic Pipeline mode -->
@@ -235,8 +235,8 @@ Here follows a list with all the available `appSettings` keys for the Telerik UI
         <add key="BindGridInvisibleColumns" value="true" />
         <add key="CSApiKey" value="abcdefghjiklmnopqrstuvwxyz1234567890" />
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
-		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
@@ -256,7 +256,7 @@ Here follows a list with all the available `appSettings` keys for the Telerik UI
 		<add key="Telerik.Web.DisableAsyncUploadHandler" value="true"/>
 		<add key="Telerik.Web.DisableCloudUploadHandler" value="true"/>
         <add key="Telerik.Web.SkinsAssembly" value="MyCustomSkinsAssembly" />
-        <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+        <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
         <add key="Telerik.Web.UI.ScriptFolder" value="~/MyScripts/" />
         <add key="Telerik.Web.UI.ScriptFolders" value="~/MyScripts/; ~/MoreScripts/" />
         <add key="Telerik.Web.UI.StyleSheetFolder" value="~/App_Themes/" />
