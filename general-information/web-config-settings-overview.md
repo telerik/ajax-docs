@@ -146,7 +146,7 @@ where you will need to change the Version property to the concrete version you a
 
 ## Control Properties You Can Set From the web.config
 
-There are various control properties that you can set from the web.config for an application-wide effect. This includes [scripts CDN]({%slug scriptmanager/cdn-support/overview%}), [skins CDN]({%slug stylesheetmanager/cdn-support/overview%}), [render mode]({%slug controls/render-modes%}), [skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}), etc. 
+There are various control properties that you can set from the web.config for an application-wide effect. This includes [scripts CDN]({%slug scriptmanager/cdn-support/overview%}), [skins CDN]({%slug stylesheetmanager/cdn-support/overview%}), [render mode]({%slug controls/render-modes%}), [skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}), and so on. 
 
  Such keys are added under the `<appSettings>` section in the web.config like shown in **Example 4**. 
 
@@ -162,7 +162,7 @@ There are various control properties that you can set from the web.config for an
 
 You can add any of the keys below in a similar fashion. 
 
-Here follows a list with all the available appSettings keys for the Telerik UI for ASP.NET AJAX controls:
+Here follows a list with all the available `appSettings` keys for the Telerik UI for ASP.NET AJAX controls:
 
 * **BindGridInvisibleColumns**—when set to true, all columns in a RadGrid which have the Visible property to false will bind their data. You can read more about its use case in the [Breaking change: Hidden column cell text is not persisted in ViewState](http://www.telerik.com/forums/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate) forum thread. 
 
@@ -208,6 +208,10 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.Web.CaptchaDenyAudioHandler**—lets you to disable requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%}) article.
 
+* **Telerik.Web.DisableAsyncUploadHandler**—lets you disable requests to the built-in file upload handler of **RadAsyncUpload**. You can read more in the [RadAsyncUpload Security]({%slug asyncupload-security%}) article.
+
+* **Telerik.Web.DisableCloudUploadHandler**—lets you disable requests to the built-in file upload handler of **RadCloudUpload**. You can read more in the [RadCloudUpload Security]({%slug cloudupload-security%}) article.
+
 * **Telerik.Web.SkinsAssembly**—in order to load skins from an external assembly, you need to register its name via this key. You can read more about using external skins assemblies in the [How to Load Skins from External Assemblies]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) article and you may also find useful the [RadSkinManager]({%slug controls/radskinmanager%}) control. 
 
 * **Telerik.Web.UI.DialogParametersEncryptionKey**—lets you set a static key that RadEditor will use when deserializing its dialog parameters. By default, this key is randomly generated each time the application recycles. You can read more about its use in the [Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string]({%slug editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.%}) troubleshooting article. 
@@ -249,6 +253,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="Telerik.Skin" value="Default" />
         <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="MyCustomCaptchaStorageProvider" />
         <add key="Telerik.Web.CaptchaDenyAudioHandler" value="true" />
+		<add key="Telerik.Web.DisableAsyncUploadHandler" value="true"/>
+		<add key="Telerik.Web.DisableCloudUploadHandler" value="true"/>
         <add key="Telerik.Web.SkinsAssembly" value="MyCustomSkinsAssembly" />
         <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
         <add key="Telerik.Web.UI.ScriptFolder" value="~/MyScripts/" />

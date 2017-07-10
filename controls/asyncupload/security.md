@@ -24,6 +24,8 @@ There are two `appSettings` keys you should add to your `web.config` to ensure i
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can use the IIS MachineKey generator to get them.
 
+As an added security measure, as of **R2 2017 SP2**, you can **disable file uploads for your application** via the [Telerik.Web.DisableAsyncUploadHandler key](#disableasyncuploadhandler) web.config switch.
+
 
 ## ConfigurationEncryptionKey
 
@@ -46,6 +48,22 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 ````web.config
 <appSettings>
 	<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+</appSettings>
+````
+
+## DisableAsyncUploadHandler
+
+Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder. This feature is available as of **R2 2017 SP2**.
+
+When you set this key to `true`, no files can be uploaded to the default handler (`Telerik.Web.UI.WebResource.axd`) and async upload requests to it will return a 404 error. You may want to handle the [OnClientFileUploadFailed event]({%slug asyncupload/client-side-programming/onclientfileuploadfailed%}) to prevent the page from throwing JavaScript errors.
+
+Custom handlers are not affected by this feature and you can still use them to upload and save files.
+
+>caption How to disable (make unavailable) the default Async Upload handler so no files can be uloaded.
+
+````web.config
+<appSettings>
+	<add key="Telerik.Web.DisableAsyncUploadHandler" value="true"/>
 </appSettings>
 ````
 

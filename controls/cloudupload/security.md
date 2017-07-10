@@ -22,7 +22,7 @@ There is an `appSettings` key you should add to your `web.config` to ensure info
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can use the IIS MachineKey generator to get them.
 
-
+As an added security measure, as of **R2 2017 SP2**, you can **disable file uploads for your application** via the [Telerik.Web.DisableCloudUploadHandler key](#disableclouduploadhandler) web.config switch.
 
 ## ConfigurationHashKey
 
@@ -33,6 +33,23 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 ````web.config
 <appSettings>
 	<add key="Telerik.Upload.ConfigurationHashKey" value="0987654321zyxwvutsrqponmlkjihgfedcba" />
+</appSettings>
+````
+
+## DisableCloudUploadHandler
+
+
+Setting the `Telerik.Web.DisableCloudUploadHandler` key to `true` disables the built-in RadCloudUpload handler that is used for sending files to the server before they are moved to the cloud via the provider. This feature is available as of **R2 2017 SP2**.
+
+When you set this key to `true`, no files can be uploaded to the default handler (`Telerik.Web.UI.WebResource.axd`) and cloud upload requests to it will return a 404 error.
+
+Custom handlers are not affected by this feature and you can still use them to upload and save files.
+
+>caption How to disable (make unavailable) the default Cloud Upload handler so no files can be uloaded.
+
+````web.config
+<appSettings>
+	<add key="Telerik.Web.DisableCloudUploadHandler" value="true"/>
 </appSettings>
 ````
 
