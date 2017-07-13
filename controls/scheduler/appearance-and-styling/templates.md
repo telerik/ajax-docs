@@ -46,6 +46,9 @@ There are five types of templates that can be used with **RadScheduler**:
 
 ![Appointment template](images/scheduler_appointmenttemplate.png)
 
+>note Using `<table>` elements inside the AppointmentTemplate leads to incorrect rendering of the appointments in TimelineView.  
+>
+
 ## InlineInsertTemplate
 
 ````ASPNET
