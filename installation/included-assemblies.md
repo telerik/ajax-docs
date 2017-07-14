@@ -14,9 +14,13 @@ position: 1
 
 This article explains what assemblies are included in the Telerik UI for ASP.NET AJAX installation: the main Telerik.Web.UI assemblies, the	[Telerik ZIP library](http://www.telerik.com/products/silverlight/zip-library.aspx) and	the Telerik Document processing libraries ([text processing](http://www.telerik.com/products/wpf/words-processing.aspx) and	[spreadsheet processing](http://www.telerik.com/products/wpf/spreadsheet-processing.aspx)). You can find more information about them in the sections below.
 
-The assemblies come sorted in several folders so that you can use the appropriate ones.	Depending on the .NET framework version your project targets, you will find the needed assemblies in the corresponding directory. For example, if you target *.NET 4.0*, you will need the assemblies from the *Bin40* folder. If you target *.NET 4.5* or *.NET 4.6*, you should use the assemblies from the *Bin45* folder.
+The assemblies come sorted in several folders so that you can use the appropriate ones.	Depending on the .NET framework version your project targets, you will find the needed assemblies in the corresponding directory:
 
-The binaries from the *Additional Assemblies* folder may have different versions than the main assemblies. You should use the assemblies from the same release as the main assemblies.
+* If you target *.NET 3.5*, you must use the assemblies from the *Bin35* folder.
+* If you target *.NET 4.0*, you will need the assemblies from the *Bin40* folder.
+* If you target *.NET 4.5*, *.NET 4.6* or *.NET 4.7*, you should use the assemblies from the *Bin45* folder.
+
+The binaries from the *Additional Assemblies* folder may have different versions than the main assemblies. You must use the assemblies from the same release as the main assemblies.
 
 ## Main Assemblies
 
