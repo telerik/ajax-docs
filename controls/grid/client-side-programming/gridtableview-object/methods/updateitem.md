@@ -19,7 +19,7 @@ Method which updates the edited table row passed as an argument or the row corre
 
 |  **updateItem(gridItem) or updateItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| **gridItem** |HTML row object - <tr>|The edited row that will be updated.|
+| **gridItem** |HTML row object - `<tr>`|The edited row that will be updated.|
 | **index** |Integer|The edited row corresponding to the index will be updated.|
 
 Example:
