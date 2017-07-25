@@ -29,7 +29,7 @@ As an added security measure, as of **R2 2017 SP2**, you can **disable file uplo
 
 ## ConfigurationEncryptionKey
 
-To provide secure encryption, we strongly advise that you set a custom encryption key for **Telerik.AsyncUpload.ConfigurationEncryptionKey**:
+To provide secure encryption of the control configuration, we strongly advise that you set a custom encryption key for **Telerik.AsyncUpload.ConfigurationEncryptionKey**:
 
 ````web.config
 <appSettings>
@@ -37,6 +37,7 @@ To provide secure encryption, we strongly advise that you set a custom encryptio
 </appSettings>
 ````
 
+The `Telerik.AsyncUpload.ConfigurationEncryptionKey` is available as of Q3 2012 SP1 (version 2012.3.1205).
 
 
 ## ConfigurationHashKey
