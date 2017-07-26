@@ -8,71 +8,143 @@ published: True
 position: 0
 ---
 
-# How to Extend the RadAsyncUpload handler
+# How to Create a Custom Handler for RadAsyncUpload
 
-## RadAsyncUpload custom handler
+This article explains how to create your own file upload handler to be used through RadAsyncUpload. Such a handler allows you to implement features specific to your use case; direct storage of files to a desired location like a database; advanced security measures specific to the application like tying uploads to user session, scanning files before saving them to the disk, throttling uploads and so on.
 
-RadAsyncUpload's file handler can be inherited and extended to support custom functionality, for example, saving images directly to a database, without using temporary folder.
+This article contains the following sections:
 
->caution The custom handler class should inherit from the **AsyncUploadHandler** one.
->
+* [Create a Custom Handler](#create-a-custom-handler)
+* [Advanced Features of the Handler](#advanced-features-of-the-handler)
+
+>tip You can find an example implementation in the following Live Demo: [Custom HTTP Handler](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/imageuploader/defaultcs.aspx).
+
+## Create a Custom Handler
+
+To create a custom handler, you must inherit the built-in `AsyncUploadHandler` class and then implement the desired functionality (for example, saving images directly to a database, without using temporary folder).
+
+1. Create a generic handler in your Web Application (for example, `myHandler.ashx`)
+
+1. Make sure the class extends the `Telerik.Web.UI.AsyncUploadHandler` class
+
+	**C#**
+
+		public class myHandler : Telerik.Web.UI.AsyncUploadHandler
+		{
+		
+		}
+
+	**VB**
+
+		Public Class myHandler
+			Inherits Telerik.Web.UI.AsyncUploadHandler
+		
+		End Class
+
+1. Override the `Process` method
+
+	**C#**
+
+		protected override IAsyncUploadResult Process(UploadedFile file, 
+			HttpContext context, 
+			IAsyncUploadConfiguration configuration, 
+			string tempFileName)			
+
+	**VB**
+
+		Protected Overrides Function Process(ByVal file As UploadedFile, 
+											 ByVal context As HttpContext, 
+											 ByVal configuration As IAsyncUploadConfiguration, 
+											 ByVal tempFileName As String) As IAsyncUploadResult
+			
+		End Function	
+
+1. Set the path to the custom handler in the RadAsyncUpload through its `HttpHandlerUrl` property:
+
+	**ASPX**
+
+		<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" HttpHandlerUrl="~/myHandler.ashx"></telerik:RadAsyncUpload>
 
 
-### Override the Process method
+In the `Process` method, the arguments provide the following:
 
-One can override the Process method which has the following signature:
+* `UploadedFile` is the file that is currently processed. You can use it to obtain the input stream, file name, extension and so on.
 
-````C#
-protected override IAsyncUploadResult Process(UploadedFile file, 
-	HttpContext context, 
-	IAsyncUploadConfiguration configuration, 
-	string tempFileName)			
-````
-````VB.NET
-Protected Overrides Function Process(ByVal file As UploadedFile, 
-									 ByVal context As HttpContext, 
-									 ByVal configuration As IAsyncUploadConfiguration, 
-									 ByVal tempFileName As String) As IAsyncUploadResult
+* `HttpContext` is the current `HttpContext`. Since the handler implements the `IRequiresSessionState` interface, the `Session` object is available as well.
+
+* `Configuration` is a class that implements the `IAsyncUploadConfiguration` interface and, by default, has the following properties:
+
+	* `TargetFolder`—the folder where RadAsyncUpload would have saved the file if the built-in handler is used, as provided by the developer.
 	
-End Function	
-````
+	* `TempTargetFolder`—the temporary folder where RadAsyncUpload would have stored the file before saving it to the target folder, if the built-in handler is used, as provided by the developer.
+	
+	* `MaxFileSize`—the maximum file size set by the developer for the RadAsyncUpload.
+	
+	* `TimeToLive`—the time until the file is deleted from the temporary folder if the built-in handler were used.
 
-UploadedFile is the file that is currently processed.
+* `TempFileName` is the uploaded file's temporary name. It is used by the built-in handler for the temporary folder only.
 
-* HttpContext is the current HttpContext. Since the handler implements the IRequiresSessionState interface the Session object is available as well.
 
-* Configuration is a class that implements the IAsyncUploadConfiguration interface and by default has the following properties:
 
-1. TargetFolder
 
-1. TempTargetFolder
+## Advanced Features of the Handler
 
-1. MaxFileSize
+The custom handler inherits the built-in handler and you can use it to customize the behavior and information. Once you have the custom handler in place, you can amend it with the following features:
 
-1. TimeToLive
+* [Send Custom Information to and From the Handler](#send-custom-information-to-and-from-the-handler)
+* [Change Cache Dependency](#change-cache-dependency)
+* [Custom File Name Validation](#custom-file-name-validation)
+* [Accommodate Linux and MacOS File Names](#accommodate-linux-and-macos-file-names)
 
-* TempFileName is the uploaded file's temporary name.
 
-As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one wants to return custom information they can create a class that implements IAsyncUploadResult, populate it with the **CreateUploadResult\<T\>** method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
+
+### Send Custom Information To and From the Handler
+
+The `Process` method returns an interface—`IAsyncUploadResult`. You can use it to transmit custom information between the client and the server. For example, a User ID or other piece of application logic.
+
+To return custom information to the client:
+
+1. Create a class that implements `IAsyncUploadResult`. For example, `SampleAsyncUploadResult`.
+
+1. Populate it with the `CreateDefaultUploadConfiguration<T>` method exposed by the RadAsyncUpload instance.
+
+1. Set the desired custom values.
+
+1. Return the created object.
+
+>caption Example of returning custom file information to the client
 
 ````C#
 protected void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs e)
 {   
+	//SampleAsyncUploadResult is the custom class
 	SampleAsyncUploadResult result = e.UploadResult as SampleAsyncUploadResult;
 } 			
 ````
-````VB.NET
+````VB
 Protected Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As FileUploadedEventArgs)
+	'SampleAsyncUploadResult is the custom class
     Dim result As SampleAsyncUploadResult = TryCast(e.UploadResult, SampleAsyncUploadResult)
 End Sub	
 ````
 
-The other way around is also possible, to send information from the page to the handler. The approach is pretty much the same, object that implements the IAsyncUploadConfiguration should be set to the RadAsyncUpload's UploadConfiguration property. The config object can be obtained using the **CreateDefaultUploadConfiguration\<T\>** method that is provided by RadAsyncUpload. The object passed to this generic method should implement the IAsyncUploadConfiguration interface. After that, the object is serialized and sent to the handler with each request. Example:
+With the `IAsyncUploadConfiguration` interface you can also send information to the handler. To do that:
+
+1. create an object that implements `IAsyncUploadConfiguration`.
+
+1. Set it to the `UploadConfiguration` property of the RadAsyncUpload.
+
+You can obtain the configuration object from the `CreateDefaultUploadConfiguration<T>` method provided by RadAsyncUpload. The object you pass to this method must implement the `IAsyncUploadConfiguration` interface.
+
+Such an object is serialized and sent to the handler with each request.
+
+>caption How to send custom information to the handler, part 1
 
 ````C#
 protected void Page_Load(object sender, EventArgs e) 
 {
-    // Populate the default (base) upload configuration into an object of type SampleAsyncUploadConfiguration      
+    // Populate the default (base) upload configuration into an object of type SampleAsyncUploadConfiguration 
+	// The custom configuration class name may vary in your application     
     SampleAsyncUploadConfiguration config = RadAsyncUpload1.CreateDefaultUploadConfiguration<SampleAsyncUploadConfiguration>(); 
     // Populate any additional fields      
     config.UserID = 1;
@@ -82,16 +154,19 @@ protected void Page_Load(object sender, EventArgs e)
 ````
 ````VB.NET
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-    'Populate the default (base) upload configuration into an object of type 
-    SampleAsyncUploadConfiguration Dim config As SampleAsyncUploadConfiguration = RadAsyncUpload1.CreateDefaultUploadConfiguration(Of SampleAsyncUploadConfiguration)()
-    'Populate any additional fields 
+    ' Populate the default (base) upload configuration into an object of type SampleAsyncUploadConfiguration
+	' The custom configuration class name may vary in your application	
+ 	Dim config As SampleAsyncUploadConfiguration = RadAsyncUpload1.CreateDefaultUploadConfiguration(Of SampleAsyncUploadConfiguration)()
+    ' Populate any additional fields 
     config.UserID = 1
-    'The upload configuration will be available in the handler 
+    ' The upload configuration will be available in the handler 
     RadAsyncUpload1.UploadConfiguration = config
 End Sub
 ````
 
 Then, in the handler, the sent information can be obtained in the following way:
+
+>caption How to send custom information to the handler, part 2
 
 ````C#
 protected override IAsyncUploadResult Process(UploadedFile file, HttpContext context, IAsyncUploadConfiguration configuration, string tempFileName) 
@@ -107,23 +182,26 @@ protected override IAsyncUploadResult Process(UploadedFile file, HttpContext con
     // More code here.. 
 }  		
 ````
-````VB.NET	
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-    ' Populate the default (base) upload configuration into an object of type SampleAsyncUploadConfiguration
-    Dim config As SampleAsyncUploadConfiguration = RadAsyncUpload1.CreateDefaultUploadConfiguration(Of SampleAsyncUploadConfiguration)()
+````VB
+Protected Overrides Function Process(file As UploadedFile, context As HttpContext, configuration As IAsyncUploadConfiguration, tempFileName As String) As IAsyncUploadResult
+	Dim userID As Integer = -1
+	' You can obtain any custom information passed from the page via casting the configuration parameter to your custom class    
+	Dim sampleConfiguration = TryCast(configuration, SampleAsyncUploadConfiguration)
 
-    ' Populate any additional fields
-    config.UserID = 1
-
-    ' The upload configuration will be available in the handler
-    RadAsyncUpload1.UploadConfiguration = config
-End Sub	
+	If sampleConfiguration IsNot Nothing Then
+		userID = sampleConfiguration.UserID
+	End If
+	' More code here.. 
+End Function
 ````
 
+### Change Cache Dependency
 
-### Override the AddCacheDependency method
+By default, RadAsyncUpload deletes the temporary files after some time, in case they are not saved to the target folder. You can set this time interval through the `TemporaryFileExpiration` property. The default is `4` hours.
 
-The **AddCacheDependency** method allows you to modify or even remove the default temporarily files removal callback. By default, the RadAsyncUpload deletes after some time those temporary files, that are not saved to the target folder. That time could be set using the **TemporaryFileExpiration** property (by default it is set to 4 hours). In order to leave temporary files instead of deleting them, you could simply store the file path in cache and leave out the **CacheItemRemovedCalback** in the override of the **AddCacheDependency** method: 
+Overriding the `AddCacheDependency` method allows you to modify or even remove the default temporary files removal callback. In order to leave temporary files instead of deleting them, you can store the file path in cache and leave out the `CacheItemRemovedCalback` in the override of the `AddCacheDependency` method.
+
+>caption How to remove the default temporary files expiration
 
 ````C#
 protected override void AddCacheDependency(HttpContext context, string tempFileName, TimeSpan timeToLive, string fullPath)
@@ -136,7 +214,7 @@ protected override void AddCacheDependency(HttpContext context, string tempFileN
     }
 }
 ````
-````VB.NET
+````VB
 Protected Overrides Sub AddCacheDependency(context As HttpContext, tempFileName As String, timeToLive As TimeSpan, fullPath As String)
 	If context.Cache.Get(tempFileName) Is Nothing Then
 		context.Cache.Insert(tempFileName, fullPath)
@@ -147,9 +225,13 @@ End Sub
 ````
 
 
-### Override the CheckOriginalFileNameForInvalidChars method
+### Custom File Name Validation
 
-By default the **CheckOriginalFileNameForInvalidChars** verifies given File Name against the [Microsoft's Naming Convention](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). If you need to extend for some reason this validity check, you could do it by overriding this method:
+By default, the `CheckOriginalFileNameForInvalidChars` verifies the File Name against the [Microsoft's Naming Convention](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). 
+
+Overriding the `CheckOriginalFileNameForInvalidChars` method allows you to extend this validity check.
+
+>caption Implement custom file name validation
 
 ````C#
 protected override bool CheckOriginalFileNameForInvalidChars(string originalFileName)
@@ -164,7 +246,7 @@ protected override bool CheckOriginalFileNameForInvalidChars(string originalFile
 	return (fileNameIsNullOrEmpty || fileNameHasInvalidPathCharacters || fileNameContainsA);
 }
 ````
-````VB.NET
+````VB
 Protected Overrides Function CheckOriginalFileNameForInvalidChars(originalFileName As String) As Boolean
 	' Check if the fileName is a null value or an empty string
 	Dim fileNameIsNullOrEmpty As Boolean = String.IsNullOrEmpty(originalFileName)
@@ -178,9 +260,13 @@ End Function
 ````
 
 
-### Override the ChangeOriginalFileName method
+### Accommodate Linux and MacOS File Names
 
-On some operating systems like [MAC OS and Linux]({%slug asyncupload/how-to/how-to-upload-files-from-mac-or-linux%}) it is possible to have file names, which are invalid for the Windows File System. File names may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading takes place. By overriding **ChangeOriginalFileName** method we could implement this custom renaming logic.
+On some operating systems like [MAC OS and Linux]({%slug asyncupload/how-to/how-to-upload-files-from-mac-or-linux%}), it is possible to have file names which are invalid for the Windows File System. File names may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). This makes file uploading impossible for such files.
+
+To upload a file with an invalid name, you must rename it before the uploading takes place. You can do that by overriding `ChangeOriginalFileName`.
+
+>caption Change the file name to accommodate Linux and MacOS file names
 
 ````C#
 protected override string ChangeOriginalFileName(string fileName)
@@ -204,7 +290,7 @@ protected override string ChangeOriginalFileName(string fileName)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Overrides Function ChangeOriginalFileName(fileName As String) As String
     'Return the current name if there is no invalid character
     If fileName.IndexOfAny(System.IO.Path.GetInvalidFileNameChars()) = -1 Then
@@ -226,7 +312,7 @@ End Function
 
 # See Also
 
- * [Custom Hanlder demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
+ * [Live Demo: Custom Handler](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
  
  * [Server-side Programming]({%slug asyncupload/server-side-programming/overview%})
 
