@@ -77,4 +77,8 @@ You can download a *.nupkg* file to [build a private feed](http://www.telerik.co
 
 If you are using the Telerik NuGet feed on an automated build environment, you can provide your own credentials to the build PC so that it can connect to the feed and download the package.
 
-You must protect your credentials and ensure they are used only by you and not by other developers, according to the license-per-developer policy. You an read more about this in our [EULA](http://www.telerik.com/purchase/license-agreement/aspnet-ajax).
+
+You can read more about adding credentials via the NuGet.config in the following page: [https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials).
+
+You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](http://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC.
+
