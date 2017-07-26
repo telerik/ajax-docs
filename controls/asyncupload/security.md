@@ -58,9 +58,9 @@ Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the b
 
 When you set this key to `true`, no files can be uploaded to the default handler (`Telerik.Web.UI.WebResource.axd`) and async upload requests to it will return a 404 error. You may want to handle the [OnClientFileUploadFailed event]({%slug asyncupload/client-side-programming/onclientfileuploadfailed%}) to prevent the page from throwing JavaScript errors.
 
-Custom handlers are not affected by this feature and you can still use them to upload and save files.
+[Custom handlers]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) are not affected by this feature and you can still use them to upload and save files with the desired level of security.
 
->caption How to disable (make unavailable) the default Async Upload handler so no files can be uloaded.
+>caption How to disable (make unavailable) the default Async Upload handler so no files can be uploaded.
 
 ````web.config
 <appSettings>
@@ -71,3 +71,4 @@ Custom handlers are not affected by this feature and you can still use them to u
 ## See Also
 
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
+* [Create a Custom Handler for RadAsyncUpload]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
