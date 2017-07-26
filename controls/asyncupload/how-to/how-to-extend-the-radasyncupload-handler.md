@@ -102,6 +102,8 @@ The custom handler inherits the built-in handler and you can use it to customize
 
 The `Process` method returns an interface—`IAsyncUploadResult`. You can use it to transmit custom information between the client and the server. For example, a User ID or other piece of application logic.
 
+#### Send Information From the Handler to the Client
+
 To return custom information to the client:
 
 1. Create a class that implements `IAsyncUploadResult`. For example, `SampleAsyncUploadResult`.
@@ -112,7 +114,42 @@ To return custom information to the client:
 
 1. Return the created object.
 
->caption Example of returning custom file information to the client
+>caption How to send information from the custom handler to the client
+
+````C#
+protected override IAsyncUploadResult Process(UploadedFile file, HttpContext context, IAsyncUploadConfiguration configuration, string tempFileName)
+{
+	// Populate the default (base) result into an object of type SampleAsyncUploadResult
+	SampleAsyncUploadResult result = CreateDefaultUploadResult<SampleAsyncUploadResult>(file);
+	
+	//generate the custom information in the custom field
+	result.CustomField = "some value";
+	
+	//return the data to the client
+	return result;
+}
+````
+````VB
+Protected Overrides Function Process(file As UploadedFile, context As HttpContext, configuration As IAsyncUploadConfiguration, tempFileName As String) As IAsyncUploadResult
+	' Populate the default (base) result into an object of type SampleAsyncUploadResult
+	Dim result As SampleAsyncUploadResult = CreateDefaultUploadResult(Of SampleAsyncUploadResult)(file)
+
+	'generate the custom information in the custom field
+	result.CustomField = "some value"
+
+	'return the data to the client
+	Return result
+End Function
+````
+
+Then, you can use this information on the page that was used to upload the file:
+
+1. Subscribe to the `FileUploaded` event of the RadAsyncUpload.
+
+1. Cast the `UploadResult` property of the event arguments object to your custom class.
+
+
+>caption Consuming the custom information from the control event on the page
 
 ````C#
 protected void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs e)
@@ -128,17 +165,17 @@ Protected Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As Fi
 End Sub	
 ````
 
+#### Send Information to the Custom Handler
+
 With the `IAsyncUploadConfiguration` interface you can also send information to the handler. To do that:
 
 1. create an object that implements `IAsyncUploadConfiguration`.
 
-1. Set it to the `UploadConfiguration` property of the RadAsyncUpload.
-
-You can obtain the configuration object from the `CreateDefaultUploadConfiguration<T>` method provided by RadAsyncUpload. The object you pass to this method must implement the `IAsyncUploadConfiguration` interface.
+1. Set it to the `UploadConfiguration` property of the RadAsyncUpload. You can obtain the configuration object from the `CreateDefaultUploadConfiguration<T>` method provided by RadAsyncUpload. 
 
 Such an object is serialized and sent to the handler with each request.
 
->caption How to send custom information to the handler, part 1
+>caption How to send custom information to the handler
 
 ````C#
 protected void Page_Load(object sender, EventArgs e) 
@@ -164,9 +201,11 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-Then, in the handler, the sent information can be obtained in the following way:
+Then, in the handler, the sent information can be obtained in the following way
 
->caption How to send custom information to the handler, part 2
+1. Cast the `IAsyncUploadConfiguration` argument to your custom class
+
+>caption Consuming the custom information from the handler
 
 ````C#
 protected override IAsyncUploadResult Process(UploadedFile file, HttpContext context, IAsyncUploadConfiguration configuration, string tempFileName) 
@@ -195,11 +234,14 @@ Protected Overrides Function Process(file As UploadedFile, context As HttpContex
 End Function
 ````
 
+
 ### Change Cache Dependency
 
 By default, RadAsyncUpload deletes the temporary files after some time, in case they are not saved to the target folder. You can set this time interval through the `TemporaryFileExpiration` property. The default is `4` hours.
 
 Overriding the `AddCacheDependency` method allows you to modify or even remove the default temporary files removal callback. In order to leave temporary files instead of deleting them, you can store the file path in cache and leave out the `CacheItemRemovedCalback` in the override of the `AddCacheDependency` method.
+
+For this to have effect, you must **not** override the `Process` method. This is equivalent to you using the built-in handler code, but only overriding the way the cache dependency is managed. Alternatively, in the `Process` override, call the base method to save the uploaded file to the temporary folder `base.Process(file, context, configuration, tempFileName);`.
 
 >caption How to remove the default temporary files expiration
 
