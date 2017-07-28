@@ -142,7 +142,13 @@ To resolve either, try the following:
 				<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(Me, GetType(RadRating), "Telerik.Web.UI.Skins.Default.Rating.Default.css")%>' rel="stylesheet" type="text/css" />
 			</telerik:RadCodeBlock>
 
+3. Render another instance of the control in a location outside of the visible part the viewport. This will ensure that the required stylesheets will be loaded:
 
+**ASP.NET**
+
+	<div style="position:absolute;top:-10000;left:-10000;">
+		<telerik:RadRating runat="server" ID="RadRating1"></telerik:RadRating>
+	</div>
 
 ## Cannot Find the Skins
 
