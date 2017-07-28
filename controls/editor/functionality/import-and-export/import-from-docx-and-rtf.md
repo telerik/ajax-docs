@@ -44,9 +44,9 @@ You can import Word documents using the **LoadDocxContent()** method for DOCX co
 These methods can be used with different overloads to best fit the application scenario:
 
 * `LoadDocxContent(Stream docxStream)`—loads DOCX content from a Stream.
-* `LoadDocxContent(string docxText)`—loads DOCX content from a String.
+* `LoadDocxContent(string docxText)`—loads DOCX content from an ASCII-encoded String.
 * `LoadRtfContent(Stream rtfStream)`—loads RTF content from a Stream.
-* `LoadRtfContent(string rtfText)`—loads RTF content from a String.
+* `LoadRtfContent(string rtfText)`—loads RTF content from an ASCII-encoded String.
 
 [You can modify the imported content during runtime by handling the OnImportContent event.](#modifying-the-imported-content)
 
@@ -97,6 +97,9 @@ Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	End Using
 End Sub
 ````
+
+>tip If you have a string representing the document, but it is not in ASCII encoding, you can convert it to a stream first. For example, with Base64, `RadEditor1.LoadDocxContent(new MemoryStream(System.Convert.FromBase64String(rawData)));`
+
 
 ## Defining Import Settings
 
