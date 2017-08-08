@@ -22,6 +22,7 @@ Below you can find the following sections:
 	* [Export with Custom Paging](#export-with-custom-paging)
 	* [Export from AJAX-enabled RadGrid](#export-from-ajax-enabled-radgrid)
 	* [Nested Grids / Exporting Multiple RadGrids](#nested-grids--exporting-multiple-radgrids)
+	* [IgnorePaging not working on DetailTables Excel Export](#ignorepaging-not-working-on-detailtables-excel-export)
 	* [Export with Client-side Binding](#export-with-client-side-binding)
 	* [Export in SharePoint Web Part](#export-in-sharepoint-web-part)
 	* [Export in Web Farm](#export-in-web-farm)
@@ -154,6 +155,7 @@ This section lists common questions, issues and scenarios together with answers 
 * [Export with Custom Paging](#export-with-custom-paging)
 * [Export from AJAX-enabled RadGrid](#export-from-ajax-enabled-radgrid)
 * [Nested Grids / Exporting Multiple RadGrids](#nested-grids--exporting-multiple-radgrids)
+* [IgnorePaging not working on DetailTables Excel Export](#ignorepaging-not-working-on-detailtables-excel-export)
 * [Export with Client-side Binding](#export-with-client-side-binding)
 * [Export in SharePoint Web Part](#export-in-sharepoint-web-part)
 * [Export in Web Farm](#export-in-web-farm)
@@ -204,6 +206,50 @@ More details on manually canceling the asynchronous postback can be found in fol
 ### Nested Grids / Exporting Multiple RadGrids
 
 The following code-library project demonstrates how to export nested *RadGrids* to*PDF*/*Excel* (HTML): [Export multiple RadGrids in single PDF/Excel file](http://www.telerik.com/support/code-library/export-multiple-radgrids-in-single-pdf-excel-file)
+
+### IgnorePaging not Working on DetailTables Excel Export
+
+This applies to the XLS format when used together with hierarchy.
+
+If you want to export all data in the detail grids, you need to **disable their paging** in addition to setting `IgnorePaging` to `true` for the main grid. You can do this in the `ItemCommand` event. See example below.
+
+This is necessary because the table views take the necessary information for their first page only.
+
+````C#
+protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
+{
+	if (e.CommandName.Contains("Export"))
+	{
+		//disable paging on the main grid for the export operation
+		RadGrid1.ExportSettings.IgnorePaging = false;
+		//expand detail tables
+		RadGrid1.MasterTableView.HierarchyDefaultExpanded = true;
+		RadGrid1.MasterTableView.DetailTables[0].HierarchyDefaultExpanded = true;
+		foreach (GridTableView tbl in RadGrid1.MasterTableView.DetailTables)
+		{
+			tbl.HierarchyDefaultExpanded = true;
+			//disable paging for the detail grids for the export operation
+			tbl.AllowPaging = false;
+		}
+	}
+}
+````
+````VB
+Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+	If e.CommandName.Contains("Export") Then
+		'disable paging on the main grid for the export operation
+		RadGrid1.ExportSettings.IgnorePaging = False
+		'expand detail tables
+		RadGrid1.MasterTableView.HierarchyDefaultExpanded = True
+		RadGrid1.MasterTableView.DetailTables(0).HierarchyDefaultExpanded = True
+		For Each tbl As GridTableView In RadGrid1.MasterTableView.DetailTables
+			tbl.HierarchyDefaultExpanded = True
+			'disable paging for the detail grids for the export operation
+			tbl.AllowPaging = False
+		Next
+	End If
+End Sub
+````
 
 ### Export with Client-side Binding
 
