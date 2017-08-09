@@ -67,6 +67,8 @@ End Sub
 
 >tip **When working with custom data acccess logic** and not with declarative data sources, you will usually need a unique record ID in order to perform the CRUD operations in your server code. Often, you will not want to put the ID column in the grid because the user will not need it. In such cases, **add the `ID` field to the `DataKeyNames` collection of the `MasterTableView` so it becomes available in the NewValues hash table**. 
 
+>note The `OldValues` for a TemplateColumn are available in the `OldValues` hashtable only if the DataField is added to the `DataKeyNames` collection.
+>
 
 ## RadGrid commands in Batch Editing mode
 
