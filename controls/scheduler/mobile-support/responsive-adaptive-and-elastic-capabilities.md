@@ -16,7 +16,7 @@ position: 0
 
 As of Q1 2014 a new **Mobile** rendering mode is introduced for the **RadScheduler** control. The goal is to stay in line with the latest trends in the web development and make **RadScheduler** UI components responsive and user friendly on mobile devices (tablets, smart phones etc.).
 
->caution Please note that the RadScheduler mobile rendering rely on native input elements (input type = “date|time|number”) and could not work properly on browser that does not support them.
+>caution Please note that the RadScheduler mobile rendering relies on native input elements (input type = “date|time|number”) and could not work properly on browser that does not support them.
 >
 
 
