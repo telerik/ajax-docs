@@ -72,6 +72,8 @@ Simple data binding is used when the desired data source is already retrieved fr
 </style>
 ````
 
+>note Data binding the rotator for the second time to a new data source is **not** possible with the **Carousel** and **Coverflow** modes. These 4 modes do not provide [client-side items management](http://demos.telerik.com/aspnet-ajax/rotator/examples/clientapiitemsmanagement/defaultcs.aspx) and the new items cannot be cleared and re-created correctly. You can either use a different `RotatorType`, or bind the rotator on the server during an AJAX request. 
+
 ## Using RadClientDataSource for Data Binding
 
 The **RadClientDataSource** provides the ability to connect to a web service and fetch data to bind any appropriate Telerik control. After configuring the ClientDataSource with the needed settings, all you need is to set its ID to the **ClientDataSourceID** property	of the **RadRotator** control. **Example 2** demonstrates a sample implementation of such approach and the corresponding result is shown in **Figure 2**.
