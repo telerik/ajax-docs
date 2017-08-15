@@ -14,6 +14,8 @@ A critical requirement for software accessibility is keyboard support as a compl
 
 Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the **RadListBox**. When there are multiple **RadListBox** controls on a given page, each of them may have a different activation combination.
 
+The **KeyboardNavigationSettings** section is available as of **R2 2016** (version 2016.2.504). Older versions rely on the **AccessKey** DOM attribute to receive focus.
+
 ## Keyboard Navigation Settings
 
 The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
