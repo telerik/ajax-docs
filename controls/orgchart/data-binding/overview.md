@@ -53,18 +53,28 @@ The fastest and most simple way to bind the chart to a data source, is to simply
 
 ## DataBinding Properties and Methods
 
-* **DataSource** - Set to an instance of your data source. This is mandatory when binding the RadOrgChart at runtime
+* **DataSource** - Set to an instance of your data source. This is mandatory when binding the RadOrgChart at runtime.
 
-* **DataSourceID** - Set to the ID of your data source. This is mandatory when binding the RadOrgChart declaratively
+* **DataSourceID** - Set to the ID of your data source. This is mandatory when binding the RadOrgChart declaratively.
 
-* **DataFieldID** - This is the field name from the data source used to uniquely identify each row. This field is required when binding to hierarchical data
+* **DataFieldID** - This is the field name from the data source used to uniquely identify each row. This field is required when binding to hierarchical data.
 
 * **DataFieldParentID** - This is the field name from the data source used to identify the row for the parent node. This field is required.
 
-* **DataTextField** - This is the field name from the data source that populates each item's Text property during binding
+* **DataTextField** - This is the field name from the data source that populates each item's Text property during binding.
 
-* **DataImageUrlField** - This is the field name from the data source that populates each item's ImageUrl property during binding
+* **DataImageUrlField** - This is the field name from the data source that populates each item's ImageUrl property during binding. The image must be 48 by 48 pixels or smaller. For bigger images see the sample below.
 
-* **DataImageAltTextField** - This is the field name from the data source that populates each item's ImageAltText property during binding
+* **DataImageAltTextField** - This is the field name from the data source that populates each item's ImageAltText property during binding.
 
-* **DataBind** - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime
+* **DataBind** - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
+
+If the images you put in the org chart are bigger than 48x48px, you must add a CSS rule that sets the size of their corresponding `<img />` element so that it fits its parent element where these dimenions are applied. For example:
+
+````CSS
+.rocImageWrap img
+{
+	width: 48px;
+	height: 48px;
+}
+```` 
