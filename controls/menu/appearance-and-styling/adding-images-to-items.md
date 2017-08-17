@@ -201,3 +201,5 @@ will be rendered like this:
  * [Overview]({%slug menu/templates/overview%})
 
  * [Setting  the CSS Class of Items]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%})
+
+ * [Hide Icon Column in RadMenu](http://www.telerik.com/support/kb/aspnet-ajax/menu/details/hide-icon-column-in-radmenu)
