@@ -65,6 +65,7 @@ To create a custom handler, you must inherit the built-in `AsyncUploadHandler` c
 
 		<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" HttpHandlerUrl="~/myHandler.ashx"></telerik:RadAsyncUpload>
 
+### Process Method Arguments and Usage
 
 In the `Process` method, the arguments provide the following:
 
@@ -84,7 +85,17 @@ In the `Process` method, the arguments provide the following:
 
 * `TempFileName` is the uploaded file's temporary name. It is used by the built-in handler for the temporary folder only.
 
+### Temporary Folder Usage
 
+When a custom handler is used, the temporary folder is used as follows:
+
+* File chunks are stored in it until the entire file is collected and passed to the `Process` method of the handler. The entire file is not saved to the temporary folder after that.
+
+* Entire files (when chunk upload is disabled or when the file fits in a single chunk) go directly to the `Process` method of the handler and are not saved to the temporary folder. In such cases, the files are not stored to the hard disk of the server at all and remain in memory only.
+
+* When a RadAsyncUpload instance initializes, it will write a test file (an empty file with the `RadUploadTestFile` name) to the temporary folder in its `PreRender` event. You can disable that by setting the control's `EnablePermissionsCheck` property to `false`.
+
+Thus, to save files, you would usually use the `Process` method. If you are using the `FileUploaded event` to save files, you may get an error: [UploadedFiles.SaveAs Throws FileNotFound Error with Custom Handler](http://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/uploadedfiles.saveas-throws-filenotfound-error-with-custom-handler).
 
 
 ## Advanced Features of the Handler
