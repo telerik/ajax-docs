@@ -33,11 +33,13 @@ In the **Page_Load** event handler create the Array and ArrayList and bind them 
 
 
 ````C#
-	
 protected void Page_Load(object sender, EventArgs e)
 {
-	BindToArrayList(RadAutoCompleteBox1);
-	BindToArray(RadAutoCompleteBox2);
+	if (Page.IsCallback)
+	{
+		BindToArrayList(RadAutoCompleteBox1);
+		BindToArray(RadAutoCompleteBox2);
+	}
 }
 
 private void BindToArray(RadAutoCompleteBox autoCompleteBox)
@@ -53,14 +55,14 @@ private void BindToArrayList(RadAutoCompleteBox autoCompleteBox)
 	itemsList.Add("Two");
 	itemsList.Add("Three");
 	autoCompleteBox.DataSource = itemsList;
-}
-	
+}	
 ````
-````VB.NET
-	
+````VB	
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	BindToArrayList(RadAutoCompleteBox1)
-	BindToArray(RadAutoCompleteBox2)
+	If Page.IsCallback Then
+		BindToArrayList(RadAutoCompleteBox1)
+		BindToArray(RadAutoCompleteBox2)
+	End If
 End Sub 'Page_Load
 
 Private Sub BindToArray(ByVal autoCompleteBox As RadAutoCompleteBox)
@@ -75,7 +77,6 @@ Private Sub BindToArrayList(ByVal autoCompleteBox As RadAutoCompleteBox)
 	itemsList.Add("Three")
 	autoCompleteBox.DataSource = itemsList
 End Sub 'BindToArrayList
-	
 ````
 
 

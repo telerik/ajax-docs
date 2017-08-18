@@ -30,12 +30,14 @@ In the **Page_Load** event handler, create and fill the **DataTable** object, th
 
 
 ````C#
-	
 protected void Page_Load(object sender, EventArgs e)
 {
-	RadAutoCompleteBox1.DataSource = GetData();
-	RadAutoCompleteBox1.DataTextField = "ProductName";
-	RadAutoCompleteBox1.DataValueField = "ProductID";
+	if (Page.IsCallback)
+	{
+		RadAutoCompleteBox1.DataSource = GetData();
+		RadAutoCompleteBox1.DataTextField = "ProductName";
+		RadAutoCompleteBox1.DataValueField = "ProductID";
+	}
 }
 
 private static DataTable GetData()
@@ -48,15 +50,15 @@ private static DataTable GetData()
 	adapter.Fill(data);
 
 	return data;
-}
-	
+}	
 ````
-````VB.NET
-
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	RadAutoCompleteBox1.DataSource = GetData()
-	RadAutoCompleteBox1.DataTextField = "ProductName"
-	RadAutoCompleteBox1.DataValueField = "ProductID"
+	If Page.IsCallback Then
+		RadAutoCompleteBox1.DataSource = GetData()
+		RadAutoCompleteBox1.DataTextField = "ProductName"
+		RadAutoCompleteBox1.DataValueField = "ProductID"
+	End If
 End Sub
 
 Private Shared Function GetData() As DataTable
@@ -67,7 +69,6 @@ Private Shared Function GetData() As DataTable
 
 	Return data
 End Function
-
 ````
 
 
