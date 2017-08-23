@@ -20,6 +20,8 @@ The **RadRadioButtonList** control support the following types of validation:
 
 ## Validation on the Server
 
+RadRadioButton list can be validated easily during a postback in the server code. You can do this with either a [RequiredFieldValidator](#using-requiredfieldvalidator), or with a [CustomValidator](#using-customvalidator).
+
 ### Using RequiredFieldValidator
 
 To use the **RequiredFieldValidator**, you just need to set the `ControlToValidate` property to the RadioButtonList's ID. This will trigger validation when the user submits and the validation control will validate against the `SelectedItem` property and return the appropriate validation result.
@@ -59,6 +61,7 @@ As an alternative to the **RequiredFieldValidator**, you can use **CustomValidat
     ErrorMessage="Please choose at least one of the options displayed"
     OnServerValidate="CustomButtonListValidator_ServerValidate" />
 ````
+
 ````C#
 protected void CustomButtonListValidator_ServerValidate(object source, ServerValidateEventArgs args)
 {
@@ -89,15 +92,16 @@ The validation on the client without a postback can be achieved only with Custom
                 ErrorMessage="Please choose at least one of the options displayed" EnableClientScript="true"
                 ClientValidationFunction="customValidationFunction" />
 <telerik:RadButton runat="server" AutoPostBack="true" Text="Submit" ValidationGroup="RadioButtonList" />
+<script>
+	function customValidationFunction(sender, args) {
+	    var rarioButtonList = $find(sender.controltovalidate);
+	    if (rarioButtonList && rarioButtonList.get_selectedIndex() < 0) {
+	        args.IsValid = false;
+	    }
+	}
+</script>
 ````
-````JavaScript
-function customValidationFunction(sender, args) {
-    var rarioButtonList = $find(sender.controltovalidate);
-    if (rarioButtonList && rarioButtonList.get_selectedIndex() < 0) {
-        args.IsValid = false;
-    }
-}
-````
+
 ## See Also
 
 * [Overview]({%slug radiobuttonlist/overview%})
