@@ -32,6 +32,7 @@ In this article you will find information about:
 	* [Overriding ItemTemplates for certain items](#overriding-itemtemplates).
 	* [Creating complex collapsible hierarchy by combining ItemTemplates and ContentTemplates](#combine-itemtemplate-and-contenttemplate).
 
+>important Read the  [The differences between the ItemTemplate and the ContentTemplate, and when you should use them](#differences-between-contenttemplate-and-itemtemplate) section to get a better understanding on when to use which template. In the most common case, you should use the `ContentTemplate` of a concrete item to add content to it, unless you want it to have child panel items. Using the `ItemTemplate` or the `Controls` collection can result in [various collapsing issues](https://feedback.telerik.com/Project/108/Feedback/Details/217194-collapsing-of-items-with-itemtemplate).
 
 
 ## ItemTemplate
