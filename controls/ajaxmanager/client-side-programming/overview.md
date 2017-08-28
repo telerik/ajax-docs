@@ -19,19 +19,19 @@ You can use the client-side API to execute your own JavaScript functions at cert
 >
 
 
->note  **RadAjax** for ASP.NET AJAX requires enclosing the server code blocks inside a **RadCodeBlock** control. More information is available here:[RadCodeBlock and RadScriptBlock]({%slug ajaxmanager/radcodeblock-and-radscriptblock%}).
+>note  **RadAjax** for ASP.NET AJAX requires enclosing the server code blocks inside a **RadCodeBlock** control. More information is available here: [RadCodeBlock and RadScriptBlock]({%slug ajaxmanager/radcodeblock-and-radscriptblock%}).
 >
 
 
 ## ajaxRequest(arguments)
 
-There are cases in which you may want to trigger postback/ajax request to the server. In this cases you can use the**ajaxRequest(arguments)** function to initiate a generic AJAX request. When using this function, the event target defaults to the **RadAjaxPanel** or **RadAjaxManager** instance. The **arguments** are the parametersthat the control had used when it raised the request.
+There are cases in which you may want to trigger a postback/ajax request to the server. In these cases you can use the **ajaxRequest(arguments)** function to initiate a generic AJAX request. When using this function, the event target defaults to the **RadAjaxPanel** or **RadAjaxManager** instance. The **arguments** are the parameters that the control had used when it raised the request.
 
 ## AjaxRequest Event
 
 When **ajaxRequest** function is called on the client it can be handled in the **AjaxRequest** event handler on the server, as shown in **Example 1**.
 
-Example 1: Performe ajax request on the client and handle it on the server.
+Example 1: Perform an ajax request on the client and handle it on the server.
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -64,9 +64,9 @@ Example 1: Performe ajax request on the client and handle it on the server.
 ````
 
 
-When an AJAX request is triggered using the **AjaxRequest** event from the client, the **RadAjaxManager**itself should be set as the AJAX initiator updating the corresponding control, as shown in **Example 2**.
+When an AJAX request is triggered using the **AjaxRequest** event from the client, the **RadAjaxManager** itself should be set as the AJAX initiator updating the corresponding control, as shown in **Example 2**.
 
-Example 2:Setting RadAjaxManager as an ajax initiator which updates the TextBox control.
+Example 2: Setting RadAjaxManager as an ajax initiator which updates the TextBox control.
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -86,15 +86,15 @@ Example 2:Setting RadAjaxManager as an ajax initiator which updates the TextBox 
 
 ## ajaxRequestWithTarget(eventTarget, eventArgument)
 
-You can call the **ajaxRequestWithTarget(eventTarget, eventArgument)** function to simulate a postback/AJAX request send by another control (besides **RadAjaxManager** or **RadAjaxPanel**) with the specified UniqueID and specified arguments. The function’s execution can be handled by the corresponding event (i.e., Button_Click) on the server.
+You can call the **ajaxRequestWithTarget(eventTarget, eventArgument)** function to simulate a postback/AJAX request sent by another control (besides **RadAjaxManager** or **RadAjaxPanel**) with the specified UniqueID and specified arguments. The function’s execution can be handled by the corresponding event (i.e., Button_Click) on the server.
 
 
 | Parameters | Description |
 | ------ | ------ |
-| **eventTarget** |The control that should raise a postback event. You should always use the control's UniqueID..|
+| **eventTarget** |The control that should raise a postback event. You should always use the control's UniqueID.|
 | **eventArgument** |This is an optional argument for the event.|
 
->note  **ajaxRequestWithTarget** is designed as a substitute of the standard **doPostBack function. Thus, you need to overridethe **RaisePostBackEvent** of the page in order to get its argument server-side.
+>note  **ajaxRequestWithTarget** is designed as a substitute of the standard **doPostBack** function. Thus, you need to override the **RaisePostBackEvent** of the page in order to get its argument server-side.
 >
 
 
