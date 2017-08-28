@@ -18,21 +18,29 @@ Starting with **Q1 2013 RadScriptManager** has the ability to combine external s
 
 You can specify one or more folders from your project that host the external scripts.
 
->caution The folder paths must be relative to the root of the application, e.g. *' **~/** path_to_folder'* .
+>note The folder paths must be relative to the root of the application. For example, `~/path_to_folder`.
 >
 
 
 ### Configuration
 
-Add the following<appSetting/> entry in your *web.config*:
+Add the following `<appSetting />` entry in your *web.config*:
 
-````ASPNET
+````web.config
 <appsettings>
 	<add key="Telerik.Web.UI.ScriptsFolder" value="~/Scripts/;"/>
 </appsettings>
 ````
 
+This will include subfolders of the `~/scripts` folder as well, so you do not need to define them explicitly.
 
+If you want to add several folders that are not nested within one another, add them in a single `Telerik.Web.UI.ScriptsFolder` entry:
+
+````web.config
+<appsettings>
+	<add key="Telerik.Web.UI.ScriptsFolder" value="~/Scripts/;~/MoreScripts;~/Assets" />
+</appsettings>
+````
 
 ### Usage
 
@@ -49,10 +57,10 @@ Register the external scripts in **RadScriptManager**. The paths to the files ca
 
 
 
->note If a references external script is not in one of the folder designated in the configuraton, it will be not combined and served separetely.
+>note If a references external script is not in one of the folder designated in the configuration, it will be not be combined and will be served separately.
 >
 
 
 ## Remarks
 
-* You can specify more than one script sheet folder.
+* You can specify more than one script folder.
