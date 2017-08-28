@@ -598,9 +598,34 @@ End Sub
 
 As with checklist filtering there will be a ListBox that displays the available values. You need to provide DataSource for the ListBox. You can use any of the data binding approaches described above. When the ListBox is data bound there will be a TextBox displayed above it that can be used to filter the items displayed in the ListBox.
 
->tip If you want the filters to cascade (contain only values present in the grid data source), you will need to provide an appropriate data source to the `ListBox` in the `FilterCheckListItemsRequested` event. You can get the current grid filter from the `grid.MasterTableView.FilterExpression.ToString()` line so you can use it in your own data source query. Read more on how filter expressions look like in the [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually %}) article.
+>tip If you want the filters to cascade (contain only values present in the grid data source), you will need to provide an appropriate data source to the `ListBox` in the `FilterCheckListItemsRequested` event. You can get the current grid filter from the `grid.MasterTableView.FilterExpression.ToString()` line so you can use it in your own data source query. Read more on how filter expressions look like in the [Operate with the FilterExpression Manually]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually %}) article.
 
+You can get the list of checked items via the `ListOfFilterValues` property of the column.
 
+````C#
+protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
+{
+	if (e.CommandName == "HeaderContextMenuFilter")
+	{
+		string colName = ((System.Web.UI.Triplet)e.CommandArgument).First;
+		string[] items = ((RadGrid)sender).MasterTableView.GetColumn(colName).ListOfFilterValues;
+		foreach (string Str in items) {
+			Response.Write(Str + "<br />");
+		}
+	}
+}
+````
+````VB
+Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+	If e.CommandName = "HeaderContextMenuFilter" Then
+		Dim colName As String = DirectCast(e.CommandArgument, System.Web.UI.Triplet).First
+		Dim items As String() = DirectCast(sender, RadGrid).MasterTableView.GetColumn(colName).ListOfFilterValues
+		For Each Str As String In items
+			Response.Write(Str & "<br />")
+		Next
+	End If
+End Sub
+````
 
 ## See Also
 
