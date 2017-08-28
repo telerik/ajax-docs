@@ -28,7 +28,7 @@ Two parameters are passed to the event handler:
 
 * **get_targetSlot()** returns the Time Slot on which the mouse is located at this moment.
 
-* **set_cancel()** lets you permit or block the moving of the appointment.Calling **set_cancel(true)** aborts the moving operation, while **set_cancel(false)** allows the scheduler to proceed with moving the appointment.
+* **set_cancel()** lets you permit or block the moving of the appointment. Calling **set_cancel(true)** aborts the moving operation, while **set_cancel(false)** allows the scheduler to proceed with moving the appointment.
 
 ## Example
 
