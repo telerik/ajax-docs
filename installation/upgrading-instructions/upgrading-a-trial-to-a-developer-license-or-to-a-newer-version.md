@@ -188,11 +188,19 @@ There are several ways to **fix** the issue:
 
 The most common error looks like this:
 
->Could not load file or assembly 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+>**Could not load file or assembly** 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. **The located assembly's manifest definition does not match the assembly reference**. (Exception from **HRESULT: 0x80131040**)
+
+or
+
+>**Could not load file or assembly** 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. **Operation is not supported**. (Exception from **HRESULT: 0x80131515**)
 
 where the Version value is usually the old version you are upgrading from.
 
-This error means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
+Below you can find information on dealing with both errors.
+
+#### The located assembly's manifest definition does not match the assembly reference HRESULT: 0x80131040
+
+The **HRESULT: 0x80131040** error means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
 
 * The reference in the Visual Studio project itself points to the old version (e.g., to the installation folder). To resolve this, update the project references to point to the BIN and ensure the correct assemblies are there.
 
@@ -221,6 +229,19 @@ This error means that the reference to the Telerik.Web.UI assembly is wrong in t
 			</configuration>
 
 * There is an explicit reference to a concrete Telerik controls version in another project (e.g., a data access layer, a second web app in the current solution, some custom class or custom controls assembly). In these cases you will need to find the reference and update it.
+
+#### Operation is not supported HRESULT: 0x80131515
+
+The **HRESULT: 0x80131515** error usually means that the file was downloaded from the Internet and Windows has blocked it. In such cases you need to simply do the following:
+
+1. In **Windows Explorer**, **right-click** the file.
+1. Select **Properties**
+1. Click the **Unblock** button.
+1. **Clear** the **read-only** attribute.
+
+>caption How to Unblock a file if you get the HRESULT: 0x80131515 error
+
+![unblock-file-for-HRESULT-0x80131515](images/unblock-file.png)
 
 ## See Also
 
