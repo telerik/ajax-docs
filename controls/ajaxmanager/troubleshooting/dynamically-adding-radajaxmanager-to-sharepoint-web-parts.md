@@ -5,7 +5,7 @@ description: Dynamically Adding RadAjaxManager to Sharepoint Web Parts
 slug: ajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts
 previous_url: ajax/radajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts
 tags: dynamically,adding,radajaxmanager,to,sharepoint,web,parts
-published: True
+published: false
 position: 4
 ---
 
