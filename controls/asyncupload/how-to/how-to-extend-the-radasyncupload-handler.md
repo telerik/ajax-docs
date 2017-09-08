@@ -153,6 +153,10 @@ Protected Overrides Function Process(file As UploadedFile, context As HttpContex
 End Function
 ````
 
+
+>tip You can also use this approach to send meaningful error information from the custom handler to the browser. See the [How to Capture File Upload Errors with Custom Handler](http://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-capture-file-upload-errors-with-custom-handler "How to Capture File Upload Errors with Custom Handler") KB article.
+
+
 Then, you can use this information on the page that was used to upload the file:
 
 1. Subscribe to the `FileUploaded` event of the RadAsyncUpload.
