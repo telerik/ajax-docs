@@ -30,7 +30,8 @@ If you need to perform additional actions on uploaded files before saving them (
 |ContentLength|Int64|The size of the uploaded file, in bytes.|
 |ContentType|string|The MIME type of the uploaded file.|
 |FileName|string|The fully qualified name of the file on the client. (IE6 and some older browsers only). To get a file name that is the same for all browsers, use the **GetName()** method instead.|
-|InputStream|System.IO.Stream|A stream object that can be used to read the file contents.|
+|InputStream|System.IO.Stream|A stream object that can be used to read the file contents.   
+Note: As of R2 2017 SP2 the temporary files saved to the disk have the .tmp extension. This is due to the security improvement discussed in the [Insecure Direct Object Reference](http://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/insecure-direct-object-reference) article.|
 | **Methods** |||
 |GetName()|string|Returns the name of the uploaded file.|
 |GetNameWithoutExtension()|string|Returns the name of the uploaded file, without the file extension.|
