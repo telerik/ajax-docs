@@ -17,7 +17,7 @@ This topic explains how to switch the SharePoint's Quick Launch menu in SharePoi
 
 In order to substitute the Quick launch UI of the SharePoint master page, follow the steps specified below (note that RadPanelBar will wrapped in the same navigation block and will be bound to the same data source as the standard menu for navigation):
 
-1. Following the directions from [this topic]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%}) to add the necessary SafeControl and http handler/module definitions in the web.config of the SharePoint site. Note that this step can be skipped in case you used the automatic SharePoint 2010 installer of Telerik UI for ASP.NET AJAX because the installer will perform these actions instead of you.
+1. Following the directions from [this topic]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%}) to add the necessary SafeControl and http handler/module definitions in the web.config of the SharePoint site. Note that this step can be skipped in case you used the automatic SharePoint 2010 installer of Telerik® UI for ASP.NET Ajax because the installer will perform these actions instead of you.
 
 1. Launch Office SharePoint designer and open the desired SharePoint site
 

@@ -10,7 +10,7 @@ position: 7
 
 # ExternalDialogsPath Property
 
-By default, all RadEditor dialogs are embedded as resource files in the Telerik.Web.UI.dll file, which makes their customization harder.In order to provide an easy way to modify the editor's dialogs, the Telerik UI for ASP.NET AJAX suite installation now comes with an extra folder named **EditorDialogs** which contains the dialogs' ascx files. You can configure RadEditor to use the external dialog files by copying the **EditorDialogs** folder to the root of the web application and setting the **ExternalDialogsPath** property to point to it, e.g.
+By default, all RadEditor dialogs are embedded as resource files in the Telerik.Web.UI.dll file, which makes their customization harder.In order to provide an easy way to modify the editor's dialogs, the Telerik® UI for ASP.NET Ajax suite installation now comes with an extra folder named **EditorDialogs** which contains the dialogs' ascx files. You can configure RadEditor to use the external dialog files by copying the **EditorDialogs** folder to the root of the web application and setting the **ExternalDialogsPath** property to point to it, e.g.
 
 >tip The mentioned dialog files could be located in different folders depending on the chosen type of installation. If the manual installation is used,they could be found in the **[Extracted_Directory]\EditorDialogs** folder. If your choice is the MSI installation, then the dialogs should be located in the **[Installation_Directory]\EditorDialogs** folder.
 

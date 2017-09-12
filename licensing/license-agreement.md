@@ -14,4 +14,4 @@ position: 0
 
 
 
-The End User License Agreement for Telerik UI for ASP.NET AJAX can be found on the following page: [http://www.telerik.com/purchase/license-agreement/ajax.aspx](http://www.telerik.com/purchase/license-agreement/ajax.aspx).
+The End User License Agreement for Telerik® UI for ASP.NET Ajax can be found on the following page: [http://www.telerik.com/purchase/license-agreement/ajax.aspx](http://www.telerik.com/purchase/license-agreement/ajax.aspx).

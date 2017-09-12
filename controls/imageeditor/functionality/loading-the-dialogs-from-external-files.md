@@ -14,7 +14,7 @@ position: 0
 
 ## Externalizing the Dialogs
 
-By default, all **RadImageEditor** dialogs are embedded as resource fils in the Telerik.Web.UI.dll file, which makes their customization harder. In order to provide an easy way to modify the ImageEditor's dialogs, **since Q1 2012**, the Telerik UI for ASP.NET AJAX installation now comes with an extrafolder named **ImageEditorDialogs** which contains the dialogs' ascx files. You can configure **RadImageEditor** to use the external dialog files by copying the **ImageEditorDialogs** folder to the root of the web site and setting the **ExternalDialogsPath** property (also available since Q1 2012) to point to it, e.g.
+By default, all **RadImageEditor** dialogs are embedded as resource fils in the Telerik.Web.UI.dll file, which makes their customization harder. In order to provide an easy way to modify the ImageEditor's dialogs, **since Q1 2012**, the Telerik® UI for ASP.NET Ajax installation now comes with an extrafolder named **ImageEditorDialogs** which contains the dialogs' ascx files. You can configure **RadImageEditor** to use the external dialog files by copying the **ImageEditorDialogs** folder to the root of the web site and setting the **ExternalDialogsPath** property (also available since Q1 2012) to point to it, e.g.
 
 >note In order to use the external dialogs of the control in a [precompiled site scenario](https://msdn.microsoft.com/en-us/library/399f057w%28v=vs.85%29.aspx) you have to manually copy the folder with the modified dialogs to the precompiled version of the site.
 

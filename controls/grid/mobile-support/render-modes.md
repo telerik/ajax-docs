@@ -48,7 +48,7 @@ Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs)
 End Sub
 ````
 
-**RadGrid** and its child controls, as well as the other controls included in the	Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
+**RadGrid** and its child controls, as well as the other controls included in the	Telerik® UI for ASP.NET Ajax suite that utilize render modes, support only one type of render mode per page.All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
 
 For the automatic RenderMode **Auto** detection to work, your project must reference the **Telerik.Web.Device.Detection.dll** assembly in your project. This mode makes each control choose the appropriate rendering mode according to the used browser and device - **Classic**, **Lightweight** or **Mobile**. The behavior of the affected controls depends also on the available render modes, for example in touch devices the mode will be changed automatically to **Mobile** if supported. If not, the mode will fall back until it meets the best mode that fits the environment.
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.

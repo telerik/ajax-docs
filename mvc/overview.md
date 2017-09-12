@@ -30,7 +30,7 @@ This article explains which Telerik products can be used in an ASP.NET MVC envir
 
 We recommend using the [UI for ASP.NET MVC, the Telerik product built from the ground up to support the principles of MVC development](http://www.telerik.com/aspnet-mvc) in your MVC projects.
 
-The Telerik UI for ASP.NET AJAX suite is not tested under MVC environments and the controls from the AJAX suite are not supported in an MVC setup.They are based on the web form paradigm and heavily rely on the web form server lifecycle that is not available in an MVC environment.You can only add the AJAX controls to a standard web form in an MVC project. The Razor engine is not supported by the Telerik UI for ASP.NET AJAX controls.
+The Telerik® UI for ASP.NET Ajax suite is not tested under MVC environments and the controls from the AJAX suite are not supported in an MVC setup.They are based on the web form paradigm and heavily rely on the web form server lifecycle that is not available in an MVC environment.You can only add the AJAX controls to a standard web form in an MVC project. The Razor engine is not supported by the Telerik® UI for ASP.NET Ajax controls.
 
 
 

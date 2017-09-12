@@ -26,24 +26,24 @@ The navigation provider model separates the navigation hierarchy (the data porti
 
 The role of the site-map data source is to abstract the navigation hierarchy from the underlying system (such as SharePoint) to make it transparent to the navigation control. This allows developers to easily snap ASP.NET 2.0 navigation provider model compatible controls into a SharePoint site by simply configuring them to receive the navigation hierarchy from the provided SharePoint site-map data sources.
 
-This section demonstrates how to incorporate Telerik UI for ASP.NET AJAX in a SharePoint 2007/2010 site. Using **RadMenu**, **RadPanelbar**, **RadSiteMap**, **RadTreeView** or **RadTabStrip** as navigation controls bound to SharePoint sitemaps is easy and codeless process. We also provide:
+This section demonstrates how to incorporate Telerik® UI for ASP.NET Ajax in a SharePoint 2007/2010 site. Using **RadMenu**, **RadPanelbar**, **RadSiteMap**, **RadTreeView** or **RadTabStrip** as navigation controls bound to SharePoint sitemaps is easy and codeless process. We also provide:
 
 * Native SharePoint 2007 webpart for RadEditor
 
 * Native SharePoint 2010 webparts for RadEditor and RadGrid for ASP.NET AJAX with stand-alone installer (which performs the necessary web.config assembly registrations and deployment actions).
 
-Using other controls from the Telerik UI for ASP.NET AJAX suite in SharePoint may require additional code (e.g. data-binding or other way of population with data).
+Using other controls from the Telerik® UI for ASP.NET Ajax suite in SharePoint may require additional code (e.g. data-binding or other way of population with data).
 
 ## Prerequisites
 
-Telerik UI for ASP.NET AJAX leverage the client and server side platform provided by ASP.NET Ajax. Note that you need to install/configure ASP.NET Ajax 1.0 or 3.5 prior to deploying Telerik UI for ASP.NET AJAX to your SharePoint 2007 site. SharePoint 2010 does not require separate install because it is shipped by default with the .NET 35 version of the ASP.NET Ajax framework.
+Telerik® UI for ASP.NET Ajax leverage the client and server side platform provided by ASP.NET Ajax. Note that you need to install/configure ASP.NET Ajax 1.0 or 3.5 prior to deploying Telerik® UI for ASP.NET Ajax to your SharePoint 2007 site. SharePoint 2010 does not require separate install because it is shipped by default with the .NET 35 version of the ASP.NET Ajax framework.
 
 ## See Also
 
  * [Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0%})
 
- * [Deploying Telerik UI for ASP.NET AJAX]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%})
+ * [Deploying Telerik® UI for ASP.NET Ajax]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%})
 
- * [Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites]({%slug sharepoint/2007/incorporating-telerik-ui-for-asp.net-ajax-in-sharepoint-websites%})
+ * [Incorporating Telerik® UI for ASP.NET Ajax in SharePoint WebSites]({%slug sharepoint/2007/incorporating-telerik-ui-for-asp.net-ajax-in-sharepoint-websites%})
 
  * [Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 3.5]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-3.5%})

@@ -14,7 +14,7 @@ position: 0
 
  
 
-Deploying an application that uses the Telerik UI for ASP.NET AJAX controls is done in the same manner any other ASP.NET WebForms application is deployed.
+Deploying an application that uses the Telerik® UI for ASP.NET Ajax controls is done in the same manner any other ASP.NET WebForms application is deployed.
 
 To ensure a successful deployment, you need to check the following items:
 

@@ -17,7 +17,7 @@ position: 11
 
 *Problem:*
 
-**The Telerik UI for ASP.NET AJAX submenu is missing and only the “About” option is available under the Telerik menu.**
+**The Telerik® UI for ASP.NET Ajax submenu is missing and only the “About” option is available under the Telerik menu.**
 
 ![Only about menu is visible](images/introduction-vsx_troubleshooting_only_about.png)
 

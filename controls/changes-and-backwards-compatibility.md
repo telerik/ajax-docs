@@ -12,11 +12,11 @@ position: 18
 
 
 
->note Since Q2 2010 all major changes in Telerik UI for ASP.NET AJAX are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+>note Since Q2 2010 all major changes in Telerik® UI for ASP.NET Ajax are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 >
 
 
-## Telerik UI for ASP.NET AJAX Q1 2010
+## Telerik® UI for ASP.NET Ajax Q1 2010
 
 * **RadAjaxLoadingPanel** control has new images for its build-in Skins. These new images are suitable for any background. The obsolete loading images which are not part of the RadAjaxLoadingPanel Skins are removed from the Telerik.Web.UI assembly.
 
@@ -28,13 +28,13 @@ position: 18
 
 * **RadFormDecorator:** Buttons' height is increased to 22px. in order to fit and look better when placed next to RadInput or RadComboBox items. The previous button height was 21px. If you are using a custom skin, based on previous version, you should change your main skin's CSS as shown in [this sticky forum thread](http://www.telerik.com/community/forums/aspnet-ajax/form-decorator/q1-2010-button-s-height-change.aspx).
 
-## Telerik UI for ASP.NET AJAX Q3 2009 SP1
+## Telerik® UI for ASP.NET Ajax Q3 2009 SP1
 
 * From Q3 2009 SP1, **RadToolTip** uses a base stylesheet file for its skins. If you want to use a custom (pre-Q3 2009 SP1) skin with the latest release, you need to set the **EnableEmbeddedBaseStylesheet** property to **false**.
 
-## Telerik UI for ASP.NET AJAX Q3 2009 (Version Number 2009.3.1103)
+## Telerik® UI for ASP.NET Ajax Q3 2009 (Version Number 2009.3.1103)
 
-All controls from the Telerik UI for ASP.NET AJAX suite are fully backwards compatible with their previous version with the following exceptions:
+All controls from the Telerik® UI for ASP.NET Ajax suite are fully backwards compatible with their previous version with the following exceptions:
 
 * **RadDock for ASP.NET AJAX** - Custom RadDock skins are not compatible with the improved rendering of the control that was introduced with Q3 2009. An article that explains how to rework old custom skins is available on the following page:[http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx](http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx)
 
@@ -86,9 +86,9 @@ All controls from the Telerik UI for ASP.NET AJAX suite are fully backwards comp
 
 * **RadComboBox for ASP.NET AJAX** control in Q3 2009 has a brand new base stylesheet instead of skin file only. This could be a possible breaking change if you use custom skins. You have to set **EnableEmbeddedBaseStylesheet** to "**false**" in order to fix the issues introduced by this change.
 
-## Telerik UI for ASP.NET AJAX Q2 2009
+## Telerik® UI for ASP.NET Ajax Q2 2009
 
-All controls from the Telerik UI for ASP.NET AJAX suite are fully backwards compatible with their previous version with the following exceptions:
+All controls from the Telerik® UI for ASP.NET Ajax suite are fully backwards compatible with their previous version with the following exceptions:
 
 ## RadScheduler
 
@@ -110,7 +110,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 
 
-## Telerik UI for ASP.NET AJAX Q1 2009
+## Telerik® UI for ASP.NET Ajax Q1 2009
 
 
 
@@ -122,7 +122,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
->note To apply the old embedded skins of Telerik UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
+>note To apply the old embedded skins of Telerik® UI for ASP.NET Ajax as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
 >
 
 
@@ -290,9 +290,9 @@ In this version of the control, a number of changes have been made with respect 
 
 ## 
 
-**Telerik UI for ASP.NET AJAX Q3 2008**
+**Telerik® UI for ASP.NET Ajax Q3 2008**
 
-All controls from the Telerik UI for ASP.NET AJAX suite are fully backwards compatible with their previous version with the following exceptions:
+All controls from the Telerik® UI for ASP.NET Ajax suite are fully backwards compatible with their previous version with the following exceptions:
 
 
 
@@ -304,9 +304,9 @@ All CSS classes have been renamed to use Telerik current naming convention. For 
 
 **Telerik RadChart for ASP.NET AJAX Q3 2008**
 
-With the release of Telerik UI for ASP.NET AJAX Q3 2008 we have introduced a change related to the Telerik.Charting assembly. It is now IL merged into Telerik.Web.UI. This way the entire suite is delivered within a single assembly -- Telerik.Web.UI. When upgrading to Telerik UI for ASP.NET AJAX Q3 2008 you will need to make this change to the pages in your project, which use RadChart for ASP.NET AJAX:
+With the release of Telerik® UI for ASP.NET Ajax Q3 2008 we have introduced a change related to the Telerik.Charting assembly. It is now IL merged into Telerik.Web.UI. This way the entire suite is delivered within a single assembly -- Telerik.Web.UI. When upgrading to Telerik® UI for ASP.NET Ajax Q3 2008 you will need to make this change to the pages in your project, which use RadChart for ASP.NET AJAX:
 
-·If you have Telerik.Charting installed in GAC (this used to be the default Telerik UI for ASP.NET AJAX installer action): Replace the following directive
+·If you have Telerik.Charting installed in GAC (this used to be the default Telerik® UI for ASP.NET Ajax installer action): Replace the following directive
 
 |  **Old Telerik.Charting Register directive**  |
 | ------ |

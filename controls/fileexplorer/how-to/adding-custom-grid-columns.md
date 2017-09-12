@@ -10,7 +10,7 @@ position: 1
 
 # Adding Custom Grid Columns
 
-Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns in the embedded RadGrid. There are two main steps that need to be done in order to achieve this.
+Since Telerik® UI for ASP.NET Ajax Q2 2009 it is possible to add custom columns in the embedded RadGrid. There are two main steps that need to be done in order to achieve this.
 
 1. Implement a [custom FileSystemContentProvider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}). The easiest way to do this is to override the FileSystemContentProvider class. We need to override the **ResolveDirectory** and **ResolveRootDirectoryAsTree** methods (**Example 1** and **Example 2**) in order to add two additional properties in the every **DirectoryItem** and **FileItem** respectively.
 

@@ -10,7 +10,7 @@ position: 0
 
 # Built-in Dock State Persistence
 
-Since the Q1 2013 release of Telerik UI for ASP.NET AJAX, the RadDockLayout provides a built-in long-term persistence of RadDocks’ states. This means that the layout of the docks can be saved when a page is closed and opened, without necessarily handling the server-side events [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}) of RadDockLayout.
+Since the Q1 2013 release of Telerik® UI for ASP.NET Ajax, the RadDockLayout provides a built-in long-term persistence of RadDocks’ states. This means that the layout of the docks can be saved when a page is closed and opened, without necessarily handling the server-side events [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}) of RadDockLayout.
 
 The built-in dock state persistence is enabled by setting the property **EnableLayoutPersistence** to **true**. There are several options for the data repository that will be used for storing the state:
 

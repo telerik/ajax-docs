@@ -1,20 +1,20 @@
 ---
-title: Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites
-page_title: Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites | UI for ASP.NET AJAX Documentation
-description: Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites
+title: Incorporating Telerik® UI for ASP.NET Ajax in SharePoint WebSites
+page_title: Incorporating Telerik® UI for ASP.NET Ajax in SharePoint WebSites | UI for ASP.NET AJAX Documentation
+description: Incorporating Telerik® UI for ASP.NET Ajax in SharePoint WebSites
 slug: sharepoint/2007/incorporating-telerik-ui-for-asp.net-ajax-in-sharepoint-websites
 tags: incorporating,telerik,ui,for,asp.net,ajax,in,sharepoint,websites
 published: True
 position: 4
 ---
 
-# Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites
+# Incorporating Telerik® UI for ASP.NET Ajax in SharePoint WebSites
 
 
 
 
 
-Once all steps from the previous articles have been performed, you can easily integrate Telerik UI for ASP.NET Ajax in your SharePoint site.
+Once all steps from the previous articles have been performed, you can easily integrate Telerik® UI for ASP.NET Ajax in your SharePoint site.
 
 The following steps outline how to swap the default SharePoint navigation with **RadMenu**:
 
@@ -35,7 +35,7 @@ The following steps outline how to swap the default SharePoint navigation with *
 
 
 
->note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik UI for ASP.NET Ajax, ensure that the version number is correct here.
+>note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET Ajax, ensure that the version number is correct here.
 
 
 

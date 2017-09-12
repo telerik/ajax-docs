@@ -18,7 +18,7 @@ Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 
 **Solution:**
 
-The way dialog parameters are serialized was changed due to a security issue in a previous release of the Telerik UI for ASP.NET AJAX. The parameters are now using a random key each time the application is restarted. This means that if the user leaves the page in the browser and the application is restarted, the spell dialog will stop working after that, because the encryption key has changed.
+The way dialog parameters are serialized was changed due to a security issue in a previous release of the Telerik® UI for ASP.NET Ajax. The parameters are now using a random key each time the application is restarted. This means that if the user leaves the page in the browser and the application is restarted, the spell dialog will stop working after that, because the encryption key has changed.
 
 A specific encryption key could be forced for the editor/spell dialogs with the following application setting in the web.config:
 

@@ -11,7 +11,7 @@ position: 1
 # Adding the Telerik Controls to Your Project
 
 
-Adding the Telerik UI for ASP.NET AJAX controls to your application or WebForm is straightforward and this article explores the requirements and	the most common ways to do that.
+Adding the Telerik® UI for ASP.NET Ajax controls to your application or WebForm is straightforward and this article explores the requirements and	the most common ways to do that.
 
 This article contains the following sections:
 
@@ -21,7 +21,7 @@ This article contains the following sections:
 
 ## Prerequisites
 
-To add Telerik UI for ASP.NET AJAX to an existing ASP.NET web application you need to follow these steps:
+To add Telerik® UI for ASP.NET Ajax to an existing ASP.NET web application you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx)
 
@@ -55,9 +55,9 @@ If you do not see the controls in the toolbox, examine the [Adding the Telerik C
 
 You can add any Telerik Control manually to the page by following the instructions below.
 
-* Copy the **Telerik.Web.UI.dll** from the **binXX** folder of the Telerik UI for ASP.NET AJAX installation to the **bin** folder of your web application (where **XX** specifies the version of the .NET framework against which the assembly is built) and reference it. You can read more about the assemblies that come with your installation in the [Included Assemblies]({%slug introduction/installation/included-assemblies%}) article.
+* Copy the **Telerik.Web.UI.dll** from the **binXX** folder of the Telerik® UI for ASP.NET Ajax installation to the **bin** folder of your web application (where **XX** specifies the version of the .NET framework against which the assembly is built) and reference it. You can read more about the assemblies that come with your installation in the [Included Assemblies]({%slug introduction/installation/included-assemblies%}) article.
 
-* Open your **aspx/ascx** file and add the Telerik UI for ASP.NET AJAX Register directive at the top so that Visual Studio recognizes our control tags:
+* Open your **aspx/ascx** file and add the Telerik® UI for ASP.NET Ajax Register directive at the top so that Visual Studio recognizes our control tags:
 
 	**ASP.NET**
 

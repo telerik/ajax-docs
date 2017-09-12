@@ -57,7 +57,7 @@ Printing anything from a web page ultimately relies on the browser printing engi
 <asp:Button ID="Button1" Text="print the chart" OnClientClick="printChartClient(); return false;"
 	runat="server" />
 <script type="text/javascript">
-	//$telerik.$ is the jQuery that comes with the Telerik UI for ASP.NET AJAX suite
+	//$telerik.$ is the jQuery that comes with the Telerik® UI for ASP.NET Ajax suite
 	//It can be assigned to a shorter variable name or external jQuery can be used
 
 	function printChartClient() {

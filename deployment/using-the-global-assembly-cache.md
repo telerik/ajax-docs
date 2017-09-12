@@ -28,7 +28,7 @@ While this article can be used as a tutorial on working with the GAC and referen
 
 * [MSDN: How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/en-us/library/aa559881.aspx)
 
-The [Telerik UI for ASP.NET AJAX assemblies]({%slug introduction/installation/included-assemblies%}) are standard .NET assemblies, so all generic rules apply to them as well.
+The [Telerik® UI for ASP.NET Ajax assemblies]({%slug introduction/installation/included-assemblies%}) are standard .NET assemblies, so all generic rules apply to them as well.
 
 What we advise is that you **keep the Telerik.Web.Design.dll assembly in the GAC on your development machine (it is not needed in production)**(our installation wizard will put it there) in order to have access to the design-time mode of the controls, and **reference the other assemblies (Telerik.Web.UI.dll and Telerik.Web.UI.Skins.dll) from the BIN folder**.
 
@@ -140,7 +140,7 @@ Here is an example that removes the Q3 2014 Telerik.Web.UI.dll assembly to the G
 
 You can read more on the subject in the [How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/en-us/library/aa559881.aspx) MSDN article.
 
->tip If an assembly has been added to the GAC by an automated installer, to remove it from the GAC, you must first uninstall the program that added it.	The Telerik UI for ASP.NET AJAX installer adds the Telerik.Web.UI.Design.dll assembly to the GAC.
+>tip If an assembly has been added to the GAC by an automated installer, to remove it from the GAC, you must first uninstall the program that added it.	The Telerik® UI for ASP.NET Ajax installer adds the Telerik.Web.UI.Design.dll assembly to the GAC.
 >
 
 

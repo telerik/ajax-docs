@@ -15,9 +15,9 @@ position: 0
 ## 
 
 
-| Phase | What does Telerik UI for ASP.NET AJAX do |
+| Phase | What does Telerik® UI for ASP.NET Ajax do |
 | ------ | ------ |
-| **Initialize** |Telerik UI for ASP.NET AJAX initializes the settings needed during the lifetime of the incoming Web request. See [Handling Inherited Events](http://msdn.microsoft.com/en-us/library/aa720048).|
+| **Initialize** |Telerik® UI for ASP.NET Ajax initializes the settings needed during the lifetime of the incoming Web request. See [Handling Inherited Events](http://msdn.microsoft.com/en-us/library/aa720048).|
 | **Loadview state** |At the end of this phase, the **ViewState** property of Telerik controls for ASP.NET AJAX is automatically populated as described in [Maintaining State in a Control](http://msdn.microsoft.com/en-us/library/aa720269).|
 | **Process postback data** |Process incoming form data and update properties accordingly. See [Processing Postback Data](http://msdn.microsoft.com/en-us/library/aa719775.aspx).|
 | **Load** |Perform actions common to all requests, such as setting up a database query if you are using simple databinding described in [Simple Data-binding]({%slug listview/data-binding/server-side/simple-vs-advanced%})topic. At this point, server controls presented in the controls tree are created and initialized, the state is restored, and form controls reflect client-side data. See [Handling Inherited Events](http://msdn.microsoft.com/en-us/library/aa720048).|

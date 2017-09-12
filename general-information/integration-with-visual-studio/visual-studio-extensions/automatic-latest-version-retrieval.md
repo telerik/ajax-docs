@@ -10,9 +10,9 @@ position: 7
 
 # Download New Version
 
-With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state. The New Version Downloader tool automatically retrieves the freshest Telerik UI for ASP.NET AJAX distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik UI for ASP.NET AJAX package utilization extremely easy.
+With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state. The New Version Downloader tool automatically retrieves the freshest Telerik® UI for ASP.NET Ajax distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik® UI for ASP.NET Ajax package utilization extremely easy.
 
-Once a day, upon loading a project containing UI for ASP.NET AJAX controls, the Telerik ASP.NET AJAX VSExtensions queue the Telerik website for a new version of Telerik UI for ASP.NET AJAX. A dialog gets displayed when a new version is discovered:
+Once a day, upon loading a project containing UI for ASP.NET AJAX controls, the Telerik ASP.NET AJAX VSExtensions queue the Telerik website for a new version of Telerik® UI for ASP.NET Ajax. A dialog gets displayed when a new version is discovered:
 
 ![Newer Version Available Notification](images/introduction-vsx_latestversionacquirer_newversionnotification.png)
 
@@ -32,7 +32,7 @@ If your subscription has expired, you could either proceed with downloading a tr
 
 ![Latest Version Acquirer: Download successful](images/introduction-vsx_latestversionacquirer_success.png)
 
-Once the download succeeds, the latest version of the Telerik UI for ASP.NET AJAX will be available for use in the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}).
+Once the download succeeds, the latest version of the Telerik® UI for ASP.NET Ajax will be available for use in the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}).
 
 >tip The GET LATEST buttons of the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}), [Convert Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/convert-project%}) and [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) launch the New Version Downloader tool too.
 

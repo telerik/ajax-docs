@@ -10,7 +10,7 @@ position: 0
 
 # Caching Provider
 
-Since the Q2 2013 SP1 release of Telerik UI for ASP.NET AJAX, the RadCaptcha makes it possible to create a custom caching provider that allows specifying a storage for the captcha code different than the cache and the session.
+Since the Q2 2013 SP1 release of Telerik® UI for ASP.NET Ajax, the RadCaptcha makes it possible to create a custom caching provider that allows specifying a storage for the captcha code different than the cache and the session.
 
 The following example demonstrates how to utilize a MS SQL database for this purpose:
 

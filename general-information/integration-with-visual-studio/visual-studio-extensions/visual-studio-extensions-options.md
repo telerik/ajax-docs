@@ -18,7 +18,7 @@ It can be accessed through **Visual Studio | Telerik | VSExtensions Options**
 
 ![Options Menu](images/introduction-vsx_optionsdialog_menu.png)
 
-The Options dialog contains two sets of options that affect the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.
+The Options dialog contains two sets of options that affect the **Telerik® UI for ASP.NET Ajax** Visual Studio Extensions.
 
 ## General Settings
 
@@ -32,9 +32,9 @@ The settings under the General category affect all of the installed **Telerik Vi
 
 ### Project Upgrade Notifications for Detected Local Distributions
 
-**Suggest project upgrades for Telerik product version available on my computer** – When enabled, you will be prompted to upgrade upon opening a project, which is not using the latest version of Telerik UI for ASP.NET AJAX installed on your system
+**Suggest project upgrades for Telerik product version available on my computer** – When enabled, you will be prompted to upgrade upon opening a project, which is not using the latest version of Telerik® UI for ASP.NET Ajax installed on your system
 
-**Suggest upgrades when an equal Dev release is detected on projects using a Trial** – When enabled, you will be prompted to upgrade if a licensed version of Telerik UI for ASP.NET AJAX is available on your system, but the current project uses a trial version
+**Suggest upgrades when an equal Dev release is detected on projects using a Trial** – When enabled, you will be prompted to upgrade if a licensed version of Telerik® UI for ASP.NET Ajax is available on your system, but the current project uses a trial version
 
 ### Select a folder for downloads
 
@@ -42,9 +42,9 @@ Configures the path where the extensions look for and store distributions.
 
 >note Changing the folder path will not move existing folder contents from your previous path. Please, move your previous folder contents manually in case you still want to use them.
 
-## Telerik UI for ASP.NET AJAX Settings
+## Telerik® UI for ASP.NET Ajax Settings
 
-All settings falling under the AJAX category affect only the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.
+All settings falling under the AJAX category affect only the **Telerik® UI for ASP.NET Ajax** Visual Studio Extensions.
 
 ![AJAX Settings](images/introduction-vsx_optionsdialog_specific.png)
 
@@ -54,4 +54,4 @@ All settings falling under the AJAX category affect only the **Telerik UI for AS
 
 ### Notifications
 
-**Show me a message when a newer version is available** – When enabled, you will receive notifications if a new version of **Telerik UI for ASP.NET AJAX** is available on the Telerik website.
+**Show me a message when a newer version is available** – When enabled, you will receive notifications if a new version of **Telerik® UI for ASP.NET Ajax** is available on the Telerik website.

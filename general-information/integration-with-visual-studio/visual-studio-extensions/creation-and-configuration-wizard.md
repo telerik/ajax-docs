@@ -13,13 +13,13 @@ position: 1
 
 
 
-Telerik ASP.NET AJAX Visual Studio Extensions will help you to quickly create an application pre-configured to use Telerik UI for ASP.NET AJAX. The fastest way to have such a project is using the Visual Studio New Project Wizard. Having opened it, the following four Telerik Ajax project templates could be found under the Telerik -> Web node:
+Telerik ASP.NET AJAX Visual Studio Extensions will help you to quickly create an application pre-configured to use Telerik® UI for ASP.NET Ajax. The fastest way to have such a project is using the Visual Studio New Project Wizard. Having opened it, the following four Telerik Ajax project templates could be found under the Telerik -> Web node:
 
 ![introduction-vsx newproject 1](images/introduction-vsx_vs_newproject1.png)
 
 For convenience the same project templates could be found under the Visual C# -> Web and Visual Basic -> Web nodes.
 
-After you click the OK button, you get the Create New Project Wizard, provided by the Telerik UI for ASP.NET AJAX Visual Studio Extensions. The wizard detects all the installed versions of UI for ASP.NET AJAX and lists them in the Version combobox. You can select a version which you want to be applied to your project. The following options could be set into the Create new project wizard: 
+After you click the OK button, you get the Create New Project Wizard, provided by the Telerik® UI for ASP.NET Ajax Visual Studio Extensions. The wizard detects all the installed versions of UI for ASP.NET AJAX and lists them in the Version combobox. You can select a version which you want to be applied to your project. The following options could be set into the Create new project wizard: 
 
 ![introduction-vsx newproject 1](images/introduction-vsx_newproject1.png)
 
@@ -27,7 +27,7 @@ After you click the OK button, you get the Create New Project Wizard, provided b
 
 * **Project Type** - Select the Telerik project type (the option is only available in the **New Project Wizard**). You can choose between two options: APP (Application) or SITE (Web Site).
 
-* **Project Template** - Select the Telerik project template (the option is only available in the **New Project Wizard**). The Blank template only references the assemblies and has the [mandatory additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The *Responsive* template uses the [RadPageLayout]({%slug pagelayout/overview%}) control to provide a basic template for a responsive web page. The *Outlook-inspired* template joins the power of some of the most popular controls in Telerik UI for ASP.NET AJAX to create one of the most recognizable applications in the world – Microsoft Outlook. You can easily spot **RadGrid**, **RadButton**, **RadInput**, **RadScheduler** and **RadCalendar** how blend seamlessly. The Visual Studio template can be used as a layout for a quick start of any other business application and it is available after R2 2016.
+* **Project Template** - Select the Telerik project template (the option is only available in the **New Project Wizard**). The Blank template only references the assemblies and has the [mandatory additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The *Responsive* template uses the [RadPageLayout]({%slug pagelayout/overview%}) control to provide a basic template for a responsive web page. The *Outlook-inspired* template joins the power of some of the most popular controls in Telerik® UI for ASP.NET Ajax to create one of the most recognizable applications in the world – Microsoft Outlook. You can easily spot **RadGrid**, **RadButton**, **RadInput**, **RadScheduler** and **RadCalendar** how blend seamlessly. The Visual Studio template can be used as a layout for a quick start of any other business application and it is available after R2 2016.
 
 >note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
 

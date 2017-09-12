@@ -15,7 +15,7 @@ position: 2
 ## 
 
 >caution  **Prerequisite** 
->In order to have Telerik UI for ASP.NET AJAX running, you will need to have .NET 4.x+ installed on your development/production machine.
+>In order to have Telerik® UI for ASP.NET Ajax running, you will need to have .NET 4.x+ installed on your development/production machine.
 >
 
 The **MSI** files are intended for easy and automatic installation of a product. The **MSI** installs the suite on your computer to a folder named **Telerik** in your Program Files, automatically creating the necessary virtual folders and projects. Additionally, it installs the help file(s) in the VS.NET IDE and in your local copy of [MSDN](http://msdn.microsoft.com/), if you have one installed.
@@ -25,19 +25,19 @@ To install Telerik UI for ASP.NET on your machine from the Windows Installer **M
 
 1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
-1. On the loaded page choose from your purchased products or trial downloads Telerik UI for ASP.NET AJAX, and click on it.
+1. On the loaded page choose from your purchased products or trial downloads Telerik® UI for ASP.NET Ajax, and click on it.
 
 1. Download the **Automatic installation** (**MSI**) file.
 
-1. Once the download completes, run the **MSI** file and follow the instructions.On a 32bit machine the wizard will install the Telerik UI for ASP.NET AJAX component in the following folder unless you specify otherwise: **C:\Program Files\Telerik\** and the path is **C:\Program Files (x86)\Telerik\** for a 64bit machine.
+1. Once the download completes, run the **MSI** file and follow the instructions.On a 32bit machine the wizard will install the Telerik® UI for ASP.NET Ajax component in the following folder unless you specify otherwise: **C:\Program Files\Telerik\** and the path is **C:\Program Files (x86)\Telerik\** for a 64bit machine.
 
 >note The latest package available for download already has all updates/HOTFIXES applied. There is no need to update it further.
 >
 
->note The MSI installation will not overwrite previous Telerik UI for ASP.NET AJAX installations, unless it is of the same version.
+>note The MSI installation will not overwrite previous Telerik® UI for ASP.NET Ajax installations, unless it is of the same version.
 >
 
-From the the **Resources** section of same page you can also download the **MSI** installation for the examples of the Telerik UI for ASP.NET AJAX. Once you install them on your machine, you can launch the Live Demos in either of the following ways:
+From the the **Resources** section of same page you can also download the **MSI** installation for the examples of the Telerik® UI for ASP.NET Ajax. Once you install them on your machine, you can launch the Live Demos in either of the following ways:
 
 * Using the Start Menu programs: open **Telerik -> Live Examples - UI for ASP.NET AJAX**
 
@@ -45,11 +45,11 @@ From the the **Resources** section of same page you can also download the **MSI*
 
 * Load the Live Examples solution to your Visual Studio and start the project (F5). The fastest way to load the solution is using the Start Menu: **Telerik -> UI for ASP.NET AJAX QX YYYY -> Open Sample Web Site in Visual Studio**. Visual Studio will start the Live Demos locally using the integrated ASP.NET Development Server.
 
->note The Telerik UI for ASP.NET AJAX package adds the products automatically to the Visual Studio toolbox. To learn how to add them manually, see the [Adding the Telerik Controls to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}) article.
+>note The Telerik® UI for ASP.NET Ajax package adds the products automatically to the Visual Studio toolbox. To learn how to add them manually, see the [Adding the Telerik Controls to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}) article.
 >
 
 
-Please, check the [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%}) article if you encounter any problems with the Telerik UI for ASP.NET AJAX installation.
+Please, check the [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%}) article if you encounter any problems with the Telerik® UI for ASP.NET Ajax installation.
 
 ## See Also
 

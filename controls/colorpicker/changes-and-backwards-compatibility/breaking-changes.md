@@ -90,4 +90,4 @@ RadColorPicker for ASP.NET AJAX which is part of the Q2 2008 release is fully ba
 
 ## Differences between ASP.NET and ASP.NET AJAX versions:
 
-The RadColorPicker control is new for the Telerik UI for ASP.NET AJAX suite and it does not exist in Telerik UI for ASP.NET AJAX.
+The RadColorPicker control is new for the Telerik® UI for ASP.NET Ajax suite and it does not exist in Telerik® UI for ASP.NET Ajax.

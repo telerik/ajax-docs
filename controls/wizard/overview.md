@@ -19,7 +19,7 @@ position: 0
 
 ![wizard-overview](images/wizard-overview.png)
 
-The **RadWizard** control in the Telerik UI for ASP.NET AJAX suite is available since the **2014 Q3** version.
+The **RadWizard** control in the Telerik® UI for ASP.NET Ajax suite is available since the **2014 Q3** version.
 
 The control offers a rich set of features:
 

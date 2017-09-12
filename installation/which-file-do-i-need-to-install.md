@@ -16,11 +16,11 @@ position: 0
 >
 >**Prerequisite**
 >
->In order to have Telerik UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
+>In order to have Telerik® UI for ASP.NET Ajax running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
 
 Telerik provides the following installation package types:
 
-* [MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) file for automatic installation. The Windows Installer Package (**MSI**) files are intended for easy and automatic installation of a product. The **MSI** installer unpacks the controls on your computer in a folder named Telerik in your Program Files. Additionally, the installer package adds the Telerik UI for ASP.NET AJAX help files to your VS.NET IDE and to your local copy of [MSDN](http://msdn.microsoft.com/) (if you have one installed). If selected in the Feature Selection screen, the installer automatically adds Telerik UI for ASP.NET AJAX Visual Studio Extensions and populates your Visual Studio Toolbox with the Telerik controls.
+* [MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) file for automatic installation. The Windows Installer Package (**MSI**) files are intended for easy and automatic installation of a product. The **MSI** installer unpacks the controls on your computer in a folder named Telerik in your Program Files. Additionally, the installer package adds the Telerik® UI for ASP.NET Ajax help files to your VS.NET IDE and to your local copy of [MSDN](http://msdn.microsoft.com/) (if you have one installed). If selected in the Feature Selection screen, the installer automatically adds Telerik® UI for ASP.NET Ajax Visual Studio Extensions and populates your Visual Studio Toolbox with the Telerik controls.
 
 * [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file for manual (advanced) installation. The **ZIP** is used for manual (advanced) installs and for upgrading/updating purposes. The folder structure is different from the Windows Installer (**MSI**) package. You need to be familiar with ASP.NET, IIS, setting permissions and creating virtual folders. It is a common practice to unpack the manual installation ZIP file directly to **inetpub/wwwroot**. Use the ZIP file for [deploying on shared hosting]({%slug introduction/deployment/deploying-on-shared-hosting%}).
 

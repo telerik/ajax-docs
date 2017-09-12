@@ -10,7 +10,7 @@ position: 5
 
 # Using RadWindow as Controls Container
 
-Since the **Telerik UI for ASP.NET AJAX Q3 2009** release, **RadWindow** can be used as controls container. This feature is useful for scenarios where you need to have the content in the same page where the RadWindow is declared. When used in this manner, RadWindow acts like a standard container element.
+Since the **Telerik® UI for ASP.NET Ajax Q3 2009** release, **RadWindow** can be used as controls container. This feature is useful for scenarios where you need to have the content in the same page where the RadWindow is declared. When used in this manner, RadWindow acts like a standard container element.
 
 The content of the window is declared in its **ContentTemplate** tag.
 

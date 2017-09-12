@@ -10,7 +10,7 @@ position: 4
 
 # Fonts
 
-This article explains the how fonts are used by the Telerik UI for ASP.NET AJAX controls skins. Below you can find information about:
+This article explains the how fonts are used by the Telerik® UI for ASP.NET Ajax controls skins. Below you can find information about:
 
 * [how the `font-size`, `font-family`, `font-weight` and `font-style` rules used by the controls](#general-font-css-rules)
 

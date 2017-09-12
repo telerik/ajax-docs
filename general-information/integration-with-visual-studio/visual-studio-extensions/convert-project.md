@@ -18,7 +18,7 @@ The Project management functionality of the Visual Studio Extensions handles pro
 This functionality is handled by three wizards - the Project Convert Wizard, [Project Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/configure-project%}) and [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
 
 
-Telerik Convert Project wizard could be accessed through the Telerik > Telerik UI for ASP.NET AJAX menu:
+Telerik Convert Project wizard could be accessed through the Telerik > Telerik® UI for ASP.NET Ajax menu:
 
 ![introduction-vsx convertwizard menu](images/introduction-vsx_telerikmenu_convertwizard.png)
 

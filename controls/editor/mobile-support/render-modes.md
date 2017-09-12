@@ -20,7 +20,7 @@ position: 1
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic**, **Lightweight** or **Mobile**. This functionality was added in **Q3 2013**.
 
->important **RadEditor** and its child controls (**RadWindow** and **RadToolBar**, and **RadContextMenu** when `RenderMode` is `Lightweight`), as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. This includes mode being set for a standalone **RadEditor**, **RadToolBar**, **RadWindow** and **RadWindowManager**, **RadMenu** and **RadContextMenu**. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
+>important **RadEditor** and its child controls (**RadWindow** and **RadToolBar**, and **RadContextMenu** when `RenderMode` is `Lightweight`), as well as the other controls included in the Telerik® UI for ASP.NET Ajax suite that utilize render modes, support only one type of render mode per page. This includes mode being set for a standalone **RadEditor**, **RadToolBar**, **RadWindow** and **RadWindowManager**, **RadMenu** and **RadContextMenu**. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
 
 ## Setting Render Mode
 

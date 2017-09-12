@@ -21,11 +21,11 @@ TypeScript infers the object types and in order to work with custom objects (lik
 
 ## 
 
-You can learn more about using TypeScript for the Telerik UI for ASP.NET AJAX suite in the following help articles:
+You can learn more about using TypeScript for the Telerik® UI for ASP.NET Ajax suite in the following help articles:
 
-* [Add TypeScript Definitions for the Telerik UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})
+* [Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})
 
-* [Use TypeScript for the Telerik UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%})
+* [Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%})
 
 * [Add TypeScript Definitions for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
 

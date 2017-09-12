@@ -28,7 +28,7 @@ The free trial licenses of all Telerik products are **fully functional** and wil
 
 The trial licenses will occasionally display the following message on your webform:
 
->Thank you for using the Trial Version of Telerik UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support.
+>Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support.
 
 
 ## See Also

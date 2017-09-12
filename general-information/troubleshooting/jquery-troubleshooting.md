@@ -12,7 +12,7 @@ position: 6
 
 
 
-This article treats the most common issues related to the jQuery library that is embedded in the Telerik UI for ASP.NET AJAX suite.
+This article treats the most common issues related to the jQuery library that is embedded in the Telerik® UI for ASP.NET Ajax suite.
 
 The article contains the following sections:
 

@@ -1,5 +1,5 @@
 #do-not-mix-modes
->important @{control}, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. This includes mode being set for a standalone @{control}. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
+>important @{control}, as well as the other controls included in the Telerik® UI for ASP.NET Ajax suite that utilize render modes, support only one type of render mode per page. This includes mode being set for a standalone @{control}. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
 #end
 
 

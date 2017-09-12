@@ -20,7 +20,7 @@ If you are using the [ZIP distribution]({%slug introduction/installation/install
 
 1. Expand the Toolbox.
 
-1. Expand the **General** section. Alternatively, you can create a new section by selecting the **Add Tab** option from the context menu (right click anywhere in the toolbox). When the new tab is added you can choose its name (e.g. Telerik UI for ASP.NET AJAX QX YYYY .NET 4.0).
+1. Expand the **General** section. Alternatively, you can create a new section by selecting the **Add Tab** option from the context menu (right click anywhere in the toolbox). When the new tab is added you can choose its name (e.g. Telerik® UI for ASP.NET Ajax QX YYYY .NET 4.0).
 
 1. Right-click in the **General** section (or the new one you just created) and open **Choose Items**.
 
@@ -28,7 +28,7 @@ If you are using the [ZIP distribution]({%slug introduction/installation/install
 
 1. Browse to the installation folder, open the **bin40** folder and select the **Telerik.Web.UI.dll**.
 
-	* If the Windows Installer MSI Package was used to install Telerik UI for ASP.NET AJAX, the **bin40**	folder is located in **C:\Program Files\Telerik\RadControls for ASPNET AJAX Q[X] YYYY\Bin40**
+	* If the Windows Installer MSI Package was used to install Telerik® UI for ASP.NET Ajax, the **bin40**	folder is located in **C:\Program Files\Telerik\RadControls for ASPNET AJAX Q[X] YYYY\Bin40**
 
 	* If the ZIP was used to install the Telerik controls, the **bin40**	folder is located in the folder where the installation files have been unzipped.
 

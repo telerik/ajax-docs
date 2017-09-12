@@ -22,7 +22,7 @@ When the editor is placed in an initially hidden container and the page renderin
 
 In this scenario, Telerik’s Editor is added to the page during a partial post back and its parent is notvisible initially, this is changed on the server. In this case, the layout is broken because the CSS styles of the editor are not yet loaded when the HTML is rendered, so the control does not have all its appearance rules available when it has to calculate its layout. This may cause an issue with the editor’s dimensions.
 
->important This issue is fixed since **2014 Q1** version of the **Telerik UI for ASP.NET AJAX** suite.	The solution to this problem is achieved by implementing a logic that verifies that the needed resources are loaded and recalculates the editor’s dimensions.
+>important This issue is fixed since **2014 Q1** version of the **Telerik® UI for ASP.NET Ajax** suite.	The solution to this problem is achieved by implementing a logic that verifies that the needed resources are loaded and recalculates the editor’s dimensions.
 >
 >This behavior may cause a small flickering, due to possible delay of CSS resources. If this causes any inconvenience	(e.g. the delay is about 3-5 sec.) with the user experience, you can try [enabling the CDN support](http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html) or using the workarounds from **Examples 1-3**.
 

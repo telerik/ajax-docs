@@ -10,7 +10,7 @@ position: 0
 
 # FileExplorer Overview
 
-**RadFileExplorer** is a part of the Telerik UI for ASP.NET AJAX suite and it is officially included in the suite in Q1 2009. It allows you to easily add a file explorer functionality to your pages providing your users with the ability to organize files and folders directly from the web page.
+**RadFileExplorer** is a part of the Telerik® UI for ASP.NET Ajax suite and it is officially included in the suite in Q1 2009. It allows you to easily add a file explorer functionality to your pages providing your users with the ability to organize files and folders directly from the web page.
 
 ![Default images](images/FileExplorer-DefaultImage.gif)
 

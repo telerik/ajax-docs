@@ -14,7 +14,7 @@ position: 4
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
-|html|Telerik's Editor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX suite and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
+|html|Telerik's Editor dialogs are using some of the other controls from the Telerik® UI for ASP.NET Ajax suite and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 |body|Same as above|
 |form|Same as above|
 |fieldset|Same as above|
@@ -213,7 +213,7 @@ position: 4
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
-|.RadFileExplorer|RadFile Explorer content - The RadEditor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
+|.RadFileExplorer|RadFile Explorer content - The RadEditor dialogs are using some of the other controls from the Telerik® UI for ASP.NET Ajax and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 
 ## Image Editor Toolbar Item
 
@@ -224,7 +224,7 @@ position: 4
 |.noImage|No Image|
 |.imagePreview img|Image Preview|
 |.selectedFileName|Selected File Name|
-|.radfe_addressBox, .RadSplitter, .FileExplorerPlaceholder|The RadEditor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
+|.radfe_addressBox, .RadSplitter, .FileExplorerPlaceholder|The RadEditor dialogs are using some of the other controls from the Telerik® UI for ASP.NET Ajax and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 
 ## Image Properties Pane in Image Manager Dialog
  

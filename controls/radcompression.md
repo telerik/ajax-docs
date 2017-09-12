@@ -14,7 +14,7 @@ position: 8
 
 ## What is RadCompression?
 
-Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI for ASP.NET AJAX and is designed to *automatically* compress your AJAX and Web Service responses. In other words, RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
+Simply put, RadCompression is a HttpModule that is shipped with the Telerik® UI for ASP.NET Ajax and is designed to *automatically* compress your AJAX and Web Service responses. In other words, RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
 
 ## 
 

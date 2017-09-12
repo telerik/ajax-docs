@@ -12,7 +12,7 @@ position: 2
 
 
 
-This article explains the most common issues related to WebResource utilization and the Telerik UI for ASP.NET AJAX controls and their troubleshooting steps.
+This article explains the most common issues related to WebResource utilization and the Telerik® UI for ASP.NET Ajax controls and their troubleshooting steps.
 
 If you are using an ASP.NET server control with rich client-side behavior it is likely built to utilize web resources. Sometimes your page loads and that rich server side control does not work at all — the tree view does not expand, the grid cannot sort etc. Most of the times this is because the JavaScript files of those controls have failed to load.
 
@@ -20,7 +20,7 @@ If your browser is configured to prompt on JavaScript errors you may see an erro
 
 *"RadTreeView is undefined"*
 
-if you are using Telerik UI for ASP.NET AJAX.
+if you are using Telerik® UI for ASP.NET Ajax.
 
 Receiving this message indicates that there is a Web Resource related issue.
 
@@ -115,7 +115,7 @@ Please check the following:
 
 1. Also check if the "Verify if file exists" checkbox is unchecked (click on the "Edit" button appearing in the previous screenshot to check).
 
-1. If you are using Telerik UI for ASP.NET Ajax check if the "ScriptResource.axd" HTTP handler is correctly registered in your web.config. Look for the following statement: 
+1. If you are using Telerik® UI for ASP.NET Ajax check if the "ScriptResource.axd" HTTP handler is correctly registered in your web.config. Look for the following statement: 
 
 	**ASP.NET 3.5:**
 
@@ -151,7 +151,7 @@ Please check the following:
 	>note If you are using .NET 3.5 the version of the System.Web.Extensions assembly should be "3.5.0.0".	If you are using .NET 4.0 the version should be "4.0.0.0" and if you are using .NET 4.5 the version should be "4.5.0.0". Always make sure you are referring to the right assembly version.
 
 
-1. If you are using Telerik UI for ASP.NET Ajax and RadScriptManager check if the Telerik.Web.UI.WebResource.axd HTTP handler is correctly registered in your web.config:
+1. If you are using Telerik® UI for ASP.NET Ajax and RadScriptManager check if the Telerik.Web.UI.WebResource.axd HTTP handler is correctly registered in your web.config:
 
 	**ASP.NET 3.5:**
 

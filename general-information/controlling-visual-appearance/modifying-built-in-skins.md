@@ -20,7 +20,7 @@ In order to override a style from a built-in skin, you will have to find out the
 
 Each Telerik control documentation includes a help article, which lists the CSS classes of the control and describes their usage. For example the [RadCalendar CSS class list]({%slug calendar/appearance-and-styling/css-skin-selectors%}) states that "rcWeek is a class applied to the <TR> elements, which contain the column headers (<TH> elements)."
 
-The built-in (embedded) Telerik controls skins can be reviewed as ordinary CSS files and images - they are provided in the /Skins/ subfolder located in the Telerik UI for ASP.NET AJAX installation folder (if you have used an executable installer), or in the installation ZIP. The file structure is as follows:
+The built-in (embedded) Telerik controls skins can be reviewed as ordinary CSS files and images - they are provided in the /Skins/ subfolder located in the Telerik® UI for ASP.NET Ajax installation folder (if you have used an executable installer), or in the installation ZIP. The file structure is as follows:
 
 * / Skins / ControlName.css - the base stylesheet of a given Telerik control
 
@@ -54,7 +54,7 @@ Articles about CSS specificity:
 
 Here is a blog post, which extends the information above with an example about overriding a RadGrid skin.
 
-[How To Override Styles in a Telerik UI for ASP.NET AJAX' Embedded Skin](http://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx)
+[How To Override Styles in a Telerik® UI for ASP.NET Ajax' Embedded Skin](http://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx)
 
 Also you can refer the PSD files for the obsolete controls' skins and some specific custom skins using the portal below:
 

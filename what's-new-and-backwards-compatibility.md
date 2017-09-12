@@ -12,6 +12,6 @@ position: 1
 
 
 
-## What is new in Telerik UI for ASP.NET AJAX (Formerly Known as RadControls for ASP.NET AJAX)
+## What is new in Telerik® UI for ASP.NET Ajax (Formerly Known as RadControls for ASP.NET AJAX)
 
 For information about new functionality, improvements and fixes,[visit the official Telerik website](http://www.telerik.com/support/whats-new/aspnet-ajax).

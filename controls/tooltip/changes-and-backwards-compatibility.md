@@ -65,4 +65,4 @@ RadToolTip for ASP.NET AJAX which is part of the Q2 2009 release is fully backwa
 
 
 
-There was not a version of the RadToolTip control in the Telerik UI for ASP.NET AJAX suite - this control is new and it is part only of the Telerik UI for ASP.NET AJAX suite.
+There was not a version of the RadToolTip control in the Telerik® UI for ASP.NET Ajax suite - this control is new and it is part only of the Telerik® UI for ASP.NET Ajax suite.

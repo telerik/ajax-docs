@@ -10,7 +10,7 @@ position: 1
 
 # How Skins Work
 
-This article explains how Skins work for the Telerik UI for ASP.NET AJAX controls suite. Use the links to navigate to the main sections of the subject:
+This article explains how Skins work for the Telerik® UI for ASP.NET Ajax controls suite. Use the links to navigate to the main sections of the subject:
 
 * [Built-in Skins List](#built-in-skins)
 
@@ -31,7 +31,7 @@ This article explains how Skins work for the Telerik UI for ASP.NET AJAX control
 
 ## Built-in Skins
 
-These are the skins provided by Telerik. Since Q3 2011 they are embedded in the Telerik.Web.UI.Skins.dll assembly as web resources (they were previously in the Telerik.Web.UI.dll assembly). To use a built-in skin, the developer only needs to set the **Skin** property of the control. Non-embedded versions of the built-in skins are provided in "*C:\Program Files\Telerik\UI for ASP.NET AJAX suiteversion\Skins*" and in the **/Skins/** folder inside the Telerik UI for ASP.NET AJAX installation ZIP archive. The complete list of embedded skins is available below:
+These are the skins provided by Telerik. Since Q3 2011 they are embedded in the Telerik.Web.UI.Skins.dll assembly as web resources (they were previously in the Telerik.Web.UI.dll assembly). To use a built-in skin, the developer only needs to set the **Skin** property of the control. Non-embedded versions of the built-in skins are provided in "*C:\Program Files\Telerik\UI for ASP.NET AJAX suiteversion\Skins*" and in the **/Skins/** folder inside the Telerik® UI for ASP.NET Ajax installation ZIP archive. The complete list of embedded skins is available below:
 
 1. **Black**
 
@@ -92,7 +92,7 @@ These are skins created by the developer. They are not embedded in the Telerik.W
 
 ## Modified Built-in Skins
 
-It is possible to create a custom skin by taking an embedded one and making various adjustments. The non-embedded versions of the built-in skins are provided in the 'Skins' folder of the Telerik UI for ASP.NET AJAX install location. One can pick any skin for any control and modify some CSS rules. Then the modified custom skin must be added to the website, the **EnableEmbeddedSkins** property of the control must be set to **false** and the modified CSS file must be manually registered in the ASPX page (or user control).
+It is possible to create a custom skin by taking an embedded one and making various adjustments. The non-embedded versions of the built-in skins are provided in the 'Skins' folder of the Telerik® UI for ASP.NET Ajax install location. One can pick any skin for any control and modify some CSS rules. Then the modified custom skin must be added to the website, the **EnableEmbeddedSkins** property of the control must be set to **false** and the modified CSS file must be manually registered in the ASPX page (or user control).
 
 ## Non-skinned Controls
 

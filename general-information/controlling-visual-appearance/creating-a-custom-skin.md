@@ -56,7 +56,7 @@ Here is a list of the required steps to perform:
 
 1. Pick a built-in skin which looks similar to your requirements. For example, the "Telerik" skin of RadColorPicker.
 
-1. Copy the "Common" and "Telerik" folders from "*C:\Program Files\Telerik\UI for ASPNET AJAX QX YYYY\Skins*" into your application folder. (If you have installed Telerik UI for ASP.NET AJAX from a ZIP file, the **/Skins/** folder is in the ZIP archive root.) You can delete any unnecessary CSS files or folders inside the "Telerik" folder. Only the ColorPicker folder and ColorPicker.Telerik.css are needed for this example.
+1. Copy the "Common" and "Telerik" folders from "*C:\Program Files\Telerik\UI for ASPNET AJAX QX YYYY\Skins*" into your application folder. (If you have installed Telerik® UI for ASP.NET Ajax from a ZIP file, the **/Skins/** folder is in the ZIP archive root.) You can delete any unnecessary CSS files or folders inside the "Telerik" folder. Only the ColorPicker folder and ColorPicker.Telerik.css are needed for this example.
 
 1. Pick a name for your skin. We will use "MySkin" for the example.
 

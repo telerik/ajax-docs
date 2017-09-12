@@ -1,19 +1,19 @@
 ---
-title: Deploying Telerik UI for ASP.NET AJAX
-page_title: Deploying Telerik UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Deploying Telerik UI for ASP.NET AJAX
+title: Deploying Telerik® UI for ASP.NET Ajax
+page_title: Deploying Telerik® UI for ASP.NET Ajax | UI for ASP.NET AJAX Documentation
+description: Deploying Telerik® UI for ASP.NET Ajax
 slug: sharepoint/2010/installation-and-deployment/deploying-telerik-ui-for-asp.net-ajax
 tags: deploying,telerik,ui,for,asp.net,ajax
 published: True
 position: 1
 ---
 
-# Deploying Telerik UI for ASP.NET AJAX
+# Deploying Telerik® UI for ASP.NET Ajax
 
 
 
 
-To leverage Telerik UI for ASP.NET AJAX on a SharePoint Server 2010, their assemblies need to be deployed on that server. Once the required files are deployed, our ASP.NET AJAX controls can be added to the site by editing the site’s page or web part, in which the controls will be added.
+To leverage Telerik® UI for ASP.NET Ajax on a SharePoint Server 2010, their assemblies need to be deployed on that server. Once the required files are deployed, our ASP.NET AJAX controls can be added to the site by editing the site’s page or web part, in which the controls will be added.
 
 When the **SharePoint 2010 Web Parts** are installed on the SharePoint server via the automatic installer, the Telerik controls will be deployed on the SharePoint server without the need to manually install files in the GAC and modify the web.config of the application.
 
@@ -52,7 +52,7 @@ It is also possible to deploy the Telerik controls without the automatic install
 
 	You may also need to register other HTTP handlers responsible for RadSpell spell checking, RadEditor dialogs, etc. The full list of the required/optionalHTTP handlers can be found in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
->caution The value of **Version** in all settings above should match the version of Telerik UI for ASP.NET AJAX that is currently installed in the GAC. If there are **`<SafeControl>`** settings and HTTP handler registrations that refer to another version, it is recommended to remove them, because they could cause errors in the SharePoint site.
+>caution The value of **Version** in all settings above should match the version of Telerik® UI for ASP.NET Ajax that is currently installed in the GAC. If there are **`<SafeControl>`** settings and HTTP handler registrations that refer to another version, it is recommended to remove them, because they could cause errors in the SharePoint site.
 >The [bindingRedirect](http://msdn.microsoft.com/en-us/library/eftw1fys.aspx) element can be used to redirect to a particular assembly version when there are more then one available.
 >
 

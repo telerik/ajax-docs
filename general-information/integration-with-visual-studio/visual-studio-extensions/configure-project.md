@@ -18,7 +18,7 @@ The Project management functionality of the Visual Studio Extensions handles pro
 This functionality is handled by three wizards - the Project Configuration Wizard, [Convert Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/convert-project%}) and [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
 
 
-Telerik Project Configuration wizard could be accessed through the Telerik > Telerik UI for ASP.NET AJAX menu:
+Telerik Project Configuration wizard could be accessed through the Telerik > Telerik® UI for ASP.NET Ajax menu:
 
 ![introduction-vsx configurewizard menu](images/introduction-vsx_telerikmenu_configurewizard.png)
 
@@ -49,7 +49,7 @@ On the third page the wizard suggests more site settings and several resource op
 * **General Web Project settings** - [RadUpload]({%slug upload/overview%})-related configuration - the [Maximum Request Length and Execution Timeout]({%slug upload/uploading-files/uploading-large-files%}) settings of the site.
 
 
->note The Project Configuration wizard does not allow the targeted Telerik controls distribution to be changed when configuring a project. In that mode you can change the other project properties though. Changing the Telerik UI for ASP.NET AJAX version of a project is handled by the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
+>note The Project Configuration wizard does not allow the targeted Telerik controls distribution to be changed when configuring a project. In that mode you can change the other project properties though. Changing the Telerik® UI for ASP.NET Ajax version of a project is handled by the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
 >
 
 

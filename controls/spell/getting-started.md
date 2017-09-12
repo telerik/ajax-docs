@@ -20,7 +20,7 @@ The following tutorial demonstrates using RadSpell to spell check a standard ASP
 
 1. In the Solution Explorer, right-click the project and select Add | Add ASP.NET Folder | App_Data.
 
-1. Locate the App_GlobalResources and App_Data folders in your Telerik UI for ASP.NET AJAXTelerik UI installation folder.
+1. Locate the App_GlobalResources and App_Data folders in your Telerik® UI for ASP.NET AjaxTelerik UI installation folder.
 
 1. Copy the App_Data\RadSpell to the project's \App_Data folder.
 

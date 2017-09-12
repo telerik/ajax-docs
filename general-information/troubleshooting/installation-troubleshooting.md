@@ -38,7 +38,7 @@ There are two possible reasons for this error to happen:
 
 **Suggested solution:**
 
-Log in to your Telerik account and download the Telerik UI for ASP.NET AJAX installer again. An md5 hash sum calculator can be used to verify the new download is not corrupt (the [fciv](http://support.microsoft.com/default.aspx/kb/841290/) utility is such a tool). Download the installation file to a non-compressed drive.
+Log in to your Telerik account and download the Telerik® UI for ASP.NET Ajax installer again. An md5 hash sum calculator can be used to verify the new download is not corrupt (the [fciv](http://support.microsoft.com/default.aspx/kb/841290/) utility is such a tool). Download the installation file to a non-compressed drive.
 
 ## "Installation Error" screen during the installation
 
@@ -56,7 +56,7 @@ Run the installation with logging enabled and send the log file via a support ti
 
 * Open a command prompt;
 
-* Navigate to the folder, where the Telerik UI for ASP.NET AJAX installer is located;
+* Navigate to the folder, where the Telerik® UI for ASP.NET Ajax installer is located;
 
 * Run the following command:`msiexec /i [ControlsInstallation.msiFileName] /limev Telerik.Web.UI.Install.log`
 
@@ -74,7 +74,7 @@ Run the installation with logging enabled and send the log file via a support ti
 
 	* run the *[VSInstallDir]\Common7\IDE\devenv.exe /setup* command manually
 
-* The automatic installation of ASP.NET AJAX Extensions 1.0 (performed by the Telerik UI for ASP.NET AJAX installer as a prerequisite for the .NE 2.0 assemblies) did not succeed. The workaround is to download [ASP.NET AJAX 1.0](http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually. Run the Telerik UI for ASP.NET AJAX installer afterwards.
+* The automatic installation of ASP.NET AJAX Extensions 1.0 (performed by the Telerik® UI for ASP.NET Ajax installer as a prerequisite for the .NE 2.0 assemblies) did not succeed. The workaround is to download [ASP.NET AJAX 1.0](http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually. Run the Telerik® UI for ASP.NET Ajax installer afterwards.
 
 
 
@@ -116,7 +116,7 @@ Reinstall the product using the correct installation package
 
 **Reason:**
 
-The Telerik UI for ASP.NET AJAX offline documentation installation fails due to outdated root certificates ([more information on root certificates](http://support.microsoft.com/kb/931125)).
+The Telerik® UI for ASP.NET Ajax offline documentation installation fails due to outdated root certificates ([more information on root certificates](http://support.microsoft.com/kb/931125)).
 
 **Suggested solution 1:**
 
@@ -128,7 +128,7 @@ Perform a custom install and disable the documentation feature.
 
 **Reason:**
 
-The Telerik UI for ASP.NET AJAX offline documentation installation fails due to a corrupted Visual Studio 2010 help system.
+The Telerik® UI for ASP.NET Ajax offline documentation installation fails due to a corrupted Visual Studio 2010 help system.
 
 **Suggested solution 1:**
 
@@ -152,7 +152,7 @@ Perform a custom install and disable the documentation feature.
 
 **Reason:**
 
-Attempting to uninstall Telerik UI for ASP.NET AJAX after the documentation has been manually removed.
+Attempting to uninstall Telerik® UI for ASP.NET Ajax after the documentation has been manually removed.
 
 **Suggested solution 1:**
 

@@ -34,7 +34,7 @@ Custom links are kept in the **Links** collection. You easily predefine the Link
  <links>
    <link name="Telerik" href="http://www.telerik.com">
 	 <link name="Products" href="http://www.telerik.com/products">
-	   <link name="Telerik UI for ASP.NET AJAX suite" href="http://www.telerik.com/radcontrols" />
+	   <link name="Telerik® UI for ASP.NET Ajax suite" href="http://www.telerik.com/radcontrols" />
 	   <link name="Telerik RadNavigation suite" href="http://www.telerik.com/radnavigation" />
 	   <link name="Telerik RadEditor" href="http://www.telerik.com/radeditor">
 		 <link name="QSF" href="http://www.telerik.com/Telerik RadEditor"/>

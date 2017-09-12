@@ -12,7 +12,7 @@ position: 5
 
 
 
-Most smartphone mobile browsers currently on the market are fairly advanced and Telerik UI for ASP.NET AJAX work on them with little or no modifications.
+Most smartphone mobile browsers currently on the market are fairly advanced and Telerik® UI for ASP.NET Ajax work on them with little or no modifications.
 
 ## 
 

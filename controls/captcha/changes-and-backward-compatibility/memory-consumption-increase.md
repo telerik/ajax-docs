@@ -12,7 +12,7 @@ position: 1
 
 ## What has changed
 
-Since the Q2 2013 release of Telerik UI for ASP.NET AJAX we have introduced a CachingProvider that is responsible for storing the generated CapchaImage to the RadCaptcha control. This was done because previously the CapchaImage was incorrectly removed on each request, thus only single instance was preserved, and every subsequent request that is not a postback made the previous codes invalid.
+Since the Q2 2013 release of Telerik® UI for ASP.NET Ajax we have introduced a CachingProvider that is responsible for storing the generated CapchaImage to the RadCaptcha control. This was done because previously the CapchaImage was incorrectly removed on each request, thus only single instance was preserved, and every subsequent request that is not a postback made the previous codes invalid.
 
 With the applied fix, the control is expected to increase its memory consumption because now it is keeping CaptchaImage objects alive for specified time controlled by the property **CaptchaMaxTimeout** (default value is 20 minutes) utilizing application's Cache.
 

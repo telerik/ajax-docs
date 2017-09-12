@@ -12,17 +12,17 @@ position: 0
 
 
 
-This article explains how to upgrade the version of the Telerik UI for ASP.NET AJAX control and how to switch from a Trial to a Developer license.
+This article explains how to upgrade the version of the Telerik® UI for ASP.NET Ajax control and how to switch from a Trial to a Developer license.
 
 You can find concrete information about your case in the distinct sections of this article:
 
-* [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
+* [Upgrade to a Newer Version of Telerik® UI for ASP.NET Ajax](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
 
 	* [Automatically](#automatic-upgrade)
 	
 	* [Manually](#manual-upgrade)
 
-* [Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
+* [Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET Ajax](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
 
 * [Upgrading Troubleshooting](#upgrading-troubleshooting)
 
@@ -38,7 +38,7 @@ You can find concrete information about your case in the distinct sections of th
 
 	* [Could not load file or assembly 'Telerik.Web.UI' After Upgrade](#could-not-load-file-or-assembly-telerikwebui-after-upgrade)
 
-## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
+## Upgrade to a Newer Version of Telerik® UI for ASP.NET Ajax
 
 **To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
 
@@ -82,11 +82,11 @@ As with any ASP.NET Project, it is often helpful to clear the ASP Temporary file
 
 In the same manner (copy and replace), you may also want to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}) you are using, as well as localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc. Make sure to save any modifications you have beforehand to avoid losing your work.
 
-## Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX
+## Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET Ajax
 
 The difference between the trial and licensed version of the Telerik controls is built into the assemblies themselves. You do not need license keys or activations.
 
-Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
+Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik® UI for ASP.NET Ajax section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
 
 >tip You should delete (uninstall) the Trial version from your machine before upgrading to the licensed ones. Doing so eliminates the chance of trial assemblies still making it into the project references or even production. 
 
@@ -121,7 +121,7 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll:
 
->Thank you for using the Trial Version of Telerik UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support. 
+>Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support. 
 
 The Developer versions of the Telerik controls do not throw copyright messages.
 

@@ -16,7 +16,7 @@ Sometimes the appearance of a RadWindow popup seems distorted with what is commo
 
 ## Cause for the problem
 
-Such behavior is not isolated to RadWindow, but can manifest with many other controls from the Telerik UI for ASP.NET AJAX suite.Its origin is usually some **global CSS rule on the page**. It changes the dimensions of the elements the control uses and expects, so the image sprites that create the backgrounds / borders in many controls start to "leak" or show more from the image than should be shown.
+Such behavior is not isolated to RadWindow, but can manifest with many other controls from the Telerik® UI for ASP.NET Ajax suite.Its origin is usually some **global CSS rule on the page**. It changes the dimensions of the elements the control uses and expects, so the image sprites that create the backgrounds / borders in many controls start to "leak" or show more from the image than should be shown.
 
 UI controls rely on a complex HTML markup structure to create the layout expected from them and this is done with a set of CSS rules.This means that changing the default values the controls expect can cause problems with them. The screenshot above was created with the following markup:
 
