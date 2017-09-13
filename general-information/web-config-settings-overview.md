@@ -55,7 +55,7 @@ There are several ways to add the HTTP handlers:
             <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
             <!-- Only needed for RadSpell and RadEditor's spell checking -->
             <add path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false" />
-            <!-- Only needed for controls that have complex dialogs like RadEditor, RadImageEditor -->
+            <!-- Only needed for the dialogs of RadEditor and RadSpell -->
             <add path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false" />
             <!-- Only needed if RadAsyncUpload, RadProgressArea/RadProgressManager or the obsolete RadUpload are used -->
             <add path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" verb="*" validate="false" />
@@ -91,7 +91,7 @@ There are several ways to add the HTTP handlers:
             <add name="Telerik_Web_UI_WebResource_axd" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" preCondition="integratedMode" />
             <!-- Only needed for RadSpell and RadEditor's spell checking -->
             <add name="Telerik_Web_UI_SpellCheckHandler_axd" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" verb="*" preCondition="integratedMode" />
-            <!-- Only needed for controls that have complex dialogs like RadEditor, RadImageEditor -->
+            <!-- Only needed for the dialogs of RadEditor and RadSpell -->
             <add name="Telerik_Web_UI_DialogHandler_aspx" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" preCondition="integratedMode" />
             <!-- Only needed if RadAsyncUpload, RadProgressArea/RadProgressManager or the obsolete RadUpload are used -->
             <add name="Telerik_RadUploadProgressHandler_ashx" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" verb="*" preCondition="integratedMode" />
