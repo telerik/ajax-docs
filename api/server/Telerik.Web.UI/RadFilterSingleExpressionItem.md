@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterSingleExpressionItem
 
 # Telerik.Web.UI.RadFilterSingleExpressionItem
 
-Represents the UI component rendered by Telerik.Web.UI.RadFilter to to represent 
+Represents the UI component rendered by Telerik.Web.UI.RadFilter to to represent
             a filter expression having a single value.
 
 ## Inheritance Hierarchy

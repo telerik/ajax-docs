@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterGroupExpressionItem
 
 # Telerik.Web.UI.RadFilterGroupExpressionItem
 
-Represents the UI component rendered by Telerik.Web.UI.RadFilter to represent 
+Represents the UI component rendered by Telerik.Web.UI.RadFilter to represent
             a group of filter expressions..
 
 ## Inheritance Hierarchy
@@ -42,7 +42,7 @@ Gets the RadFilterGroupExpression that the current item represents.
 
 ###  ExpressionContainer `RadFilterGroupExpression`
 
-Gets a reference to the UI component that holds the filter expression items in the 
+Gets a reference to the UI component that holds the filter expression items in the
             rendered RadFilter..
 
 ###  FunctionalInterfaceContainer `Panel`
