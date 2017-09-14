@@ -54,6 +54,6 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 	A workaround is to fetch the newer Kendo scripts and perform the export directly with them: [MultiPage Export with Kendo Drawing API](http://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Multi-Page).
 
-	If you take this approach, migrate your charts to Kendo charts as well, in order to avoid mixing the Kendo scripts you will put on the page with Kendo scripts RadHtmlChart will bring. RadGauge, RadTreeMap, RadMap, RadClientExportManager and RadSpreadSheet are also wrappers over Kendo widgets, so if you use them on the same page where you will include the newer Kendo version, you need to migrate them to their Kendo counterparts as well.
+	If you take this approach, migrate your charts to Kendo charts as well, in order to avoid mixing the Kendo scripts you will put on the page with Kendo scripts RadHtmlChart will bring. RadGauge, RadGantt, RadTreeMap, RadMap, RadClientExportManager and RadSpreadSheet are also wrappers over Kendo widgets, so if you use them on the same page where you will include the newer Kendo version, you need to migrate them to their Kendo counterparts as well.
 
 # See Also
