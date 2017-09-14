@@ -42,9 +42,11 @@ In the list below you can find the performance benefits from enabling the functi
 
 Basically the virtualization functionality greatly improves the performance of the control. However there are some limitations which are listed below:
 
-* Using **GridTemplateColumns**,**DetailItemTemplate** or **NestedViewTemplate** is not possible in such scenarios as binding can not be properly performed
-* Grouping
-* Row/Cell Selection
-* Setting the **EditMode** to **Batch** or **InPlace**
-* Setting the **Height** of the grid or **Scrolling.ScrollHeight** in percentage values
+* Using **GridTemplateColumns**, **DetailItemTemplate** or **NestedViewTemplate** is not possible in such scenarios as binding can not be properly performed.
+* Grouping.
+* Row/Cell Selection.
+* Setting the **EditMode** to **Batch** or **InPlace**.
+* Setting the **Height** of the grid or **Scrolling.ScrollHeight** in **percentage** values because the grid needs to be able to calculate the exact row heights and scroll offsets that will trigger data loading.
+* The **ClientSettings.Scrolling.SaveScrollPosition** feature does not work with virtualization because it works after postbacks and at this point the grid virtualization may not have loaded the same number of items.
+* Scrolling with the keyboard may be impossible unless **ClientSettings.AllowKeyboardNavigation** is enabled.
 
