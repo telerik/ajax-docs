@@ -398,7 +398,7 @@ You can find additional information about the Telerik controls and AJAX Control 
 
 ## Telerik controls integration with Kendo UI widgets
 
-There are certain Telerik controls like RadHtmlChart, RadGauge, RadDiagram, RadMap, RadGannt, RadTreeMap, RadClientDataSource, RadClientExportManager which are ASP.NET server-side wrappers of Kendo UI widgets. These controls already load jQuery and Kendo UI widget specific JavaScript files, so you must ensure there aren't any script conflicts by using the same jQuery and Kendo UI versions for both suites. More information is available in the [RadHtmlChart Integration With KendoUI Widgets]({%slug htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets%}) help article.
+There are certain Telerik controls like RadHtmlChart, RadGauge, RadDiagram, RadMap, RadGantt, RadTreeMap, RadSpreadsheet, RadClientDataSource, RadClientExportManager which are ASP.NET server-side wrappers of Kendo UI widgets. These controls already load jQuery and Kendo UI widget specific JavaScript files, so you must ensure there aren't any script conflicts by using the same jQuery and Kendo UI versions for both suites. More information is available in the [RadHtmlChart Integration With KendoUI Widgets]({%slug htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets%}) help article.
 
 # Unobtrusive Validation Basics
 
