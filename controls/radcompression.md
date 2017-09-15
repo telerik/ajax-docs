@@ -82,10 +82,7 @@ Another aspect of the RadCompression model allows you to exclude particular requ
 <configSections>
 ....................
 <sectionGroup name="telerik.web.ui">
-      <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae
-      
-      
-      8165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
+      <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
 </sectionGroup>
 ....................
 </configSections>
