@@ -50,3 +50,6 @@ Basically the virtualization functionality greatly improves the performance of t
 * The **ClientSettings.Scrolling.SaveScrollPosition** feature does not work with virtualization because it works after postbacks and at this point the grid virtualization may not have loaded the same number of items.
 * Scrolling with the keyboard may be impossible unless **ClientSettings.AllowKeyboardNavigation** is enabled.
 
+## See Also
+
+* [How to use Virtualization with Custom Paging to Improve Server Performance](http://www.telerik.com/support/kb/aspnet-ajax/grid/details/virtualization-and-custom-paging)
