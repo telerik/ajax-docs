@@ -72,11 +72,11 @@ The Telerik document processing libraries are a set of assemblies that let you i
 
 * **Telerik.Windows.Documents.Spreadsheet.dll**—the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
-* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll**—this assembly is needed for processing XLSX documents.
+* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll**—allows import/export of spreadsheet document model from/to XLSX.
 
 * **Telerik.Windows.Documents.Fixed.dll**—this assembly is needed for processing PDF documents.
 
-* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll**—this assembly is needed for processing PDF documents.
+* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll**—allows exporing of spreadsheets (XLSX, CSV) to PDF.
 
 You can find more information on working with the Telerik document processing libraries in the following articles:
 
