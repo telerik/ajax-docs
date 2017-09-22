@@ -372,6 +372,8 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 >note See the **[GridTemplateColumn](#gridtemplatecolumn)** section below for a comparison between **GridDateTimeColumn** and a template column that contains a **RadDatePicker** , **RadTimePicker** , **RadDateTimePicker** or **RadDateInput** control.
 >
 
+>tip If you want to change properties of a `GridDateTimeColumn` editor related to the calendar or time view, use their `SharedCalendar` or `SharedTimeView` properties.
+
 
 ## GridNumericColumn
 

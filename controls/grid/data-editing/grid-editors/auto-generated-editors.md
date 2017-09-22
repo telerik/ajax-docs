@@ -40,6 +40,7 @@ The following table lists the default column editors for each of the built-in ed
 >caution The purpose of column editors is to define the style of the controls in edit mode. Note that using column editors for modifying the functionality of the edit controls is not recommended.
 >
 
+>tip If you want to change properties of a `GridDateTimeColumn` editor related to the calendar or time view, use their `SharedCalendar` or `SharedTimeView` properties.
 
 ## Accessing the column editors programmatically
 
