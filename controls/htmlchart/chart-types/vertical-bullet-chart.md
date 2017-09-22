@@ -31,6 +31,8 @@ You can customize the Vertical Bullet chart in several ways:
 
 * Each item can have a tooltip which follows the common pattern defined in the **DataFormatString** property of the **TooltipsAppearance** section of the series. The format string uses the **Current** and the **Target** of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
 
+* The **Target** inner tag of the series allows you to control the target line shown on the series item.
+
 * The axes are also fully customizable — they automatically adjust their scale to accommodate the data that comes in and for finer tuning, there are numerous properties that can change each aspect:
 
 	* Directly in the axis tag you can use its properties to control color, major and minor tick types and sizes, minimal and maximal values for the y-axis (plus a step size), whereas the x-axis requires a set of items to match the number of **SeriesItems** the series have. This is also the place where the crossing value with the other axis can be set (the index of an item for an item axis) and whether the axis will be reversed.
