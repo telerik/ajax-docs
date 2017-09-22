@@ -27,6 +27,14 @@ This article explains the **elastic design capabilities RadCheckBox offers**. **
 	button.RadCheckBox {
 		font-size: 26px;
 	}
+
+    /* makes the checkbox icon elastic in addition to the label text */
+    .RadButton.RadCheckBox .rbIcon,
+    .RadButton.RadCheckBox .rbIcon::before {
+        font-size: inherit;
+        width: 1em;
+        height: 1em;
+    }
 </style>
 ````
 
