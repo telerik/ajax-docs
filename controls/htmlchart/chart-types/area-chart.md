@@ -40,9 +40,9 @@ The following list shows the most common areas and elements of the Area chart th
 
 * The axes are also fully customizable — the y-axis automatically adjusts the scale to accommodate the data that comes in, and for finer tuning, there are numerous properties that can change each aspect.
 
-* Directly in the axis tag you can use the tag's properties to control color, major and minor tick types and sizes, minimal and maximal values for the y-axis (plus a step size) whereas the x-axis requires a set of items to match the number of **CategorySeriesItems** the series have. This tag is also the place where the crossing value with the other axis can be set (the index of an item for an item axis) and whether the axis will be reversed.
-
-* The inner tags of the axis tag can control the major and minor grid lines in terms of color and size and the labels can have a **DataFormatString**, position and visibility set through each inner tag's properties.
+	* Directly in the axis tag you can use the tag's properties to control color, major and minor tick types and sizes, minimal and maximal values for the y-axis (plus a step size) whereas the x-axis requires a set of items to match the number of **CategorySeriesItems** the series have. This tag is also the place where the crossing value with the other axis can be set (the index of an item for an item axis) and whether the axis will be reversed.
+	
+	* The inner tags of the axis tag can control the major and minor grid lines in terms of color and size and the labels can have a **DataFormatString**, position and visibility set through each inner tag's properties.
 
 * If some values are missing (i.e., they are null/Nothing) from the series data, you can have the chart work around this by setting the **MissingValues** property of the series to the desired behavior: interpolate, missing or gap.
 
