@@ -199,7 +199,7 @@ You can set the following properties for a **ClientTemplate**:
 				</ClientTemplate> 
 			</TooltipsAppearance>
 
-	* **ScatterSeries and ScatterLineSeries** - Returns an object that exposes the x and y fields for the X-value and the Y-value of the item.
+	* **ScatterSeries** and **ScatterLineSeries** - Returns an object that exposes the x and y fields for the X-value and the Y-value of the item.
 
 		**ASP.NET**
 		
@@ -223,6 +223,18 @@ You can set the following properties for a **ClientTemplate**:
 				<ClientTemplate>
 					<table cellpadding=7><tr><td><b>#= category #<br /> Lower: #=value.lower# <br /> Q1: #=value.q1# <br /> Median: #=value.median# <br /> Mean: #=value.mean# <br /> Q3: #=value.q3# <br /> Upper #=value.upper#</b></td></tr></table>
 				</ClientTemplate>=""
+			</TooltipsAppearance>
+
+	* **BulletSeries** and **VerticalBulletSeries** - Returns an object that exposes the `current` and `target` fields that contain the values from the corresponding fields of the series item object.
+
+		**ASP.NET**
+		
+			<TooltipsAppearance>
+			    <ClientTemplate>
+			            current value is #=value.current#
+			            <br />
+			            desired value is: #=value.target#
+			    </ClientTemplate>
 			</TooltipsAppearance>
 
 	* **Other Series Types** - Returns the Y value of the hovered series Item.
