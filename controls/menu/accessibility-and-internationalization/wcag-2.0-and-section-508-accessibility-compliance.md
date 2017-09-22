@@ -16,6 +16,8 @@ position: 4
 
 RadMenu for ASP.NET AJAX satisfies the requirements of **"Section 508"** for software accessibility, as well as those for **"Level AA"** (in compliance with the **W3C Web Accessibility Guidelines 2.0**).
 
+>tip To improve accessibility support, review the [Keyboard Support]({%slug menu/accessibility-and-internationalization/keyboard-support%}) article to see how to configure keyboard navigation and navigation through the `Tab` key.
+
 ## Section 508
 
 The USA federal mandate requires that information technology be made accessible to people with disabilities. Much of Section 508 compliance concerns making Web sites, intranets, and web-enabled applications accessible. Section 508 compliance has since become a major prerequisite not only in government related software, but also in most enterprise and corporate software solutions.

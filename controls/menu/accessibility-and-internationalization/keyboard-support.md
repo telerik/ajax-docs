@@ -46,22 +46,36 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadMenu**'s first
 
 * Focus the **RadMenu**'s first item by pressing **CommandKey** + **FocusKey**:
 
-![Control Focus](images/menu-focus.png)
+	![Control Focus](images/menu-focus.png)
 
 * Navigate the items using **Left** and **Right Arrow** keys:
 
-![Item Navigation](images/menu-left-right-arrow.png)
+	![Item Navigation](images/menu-left-right-arrow.png)
 
->note If you are using **Q1 2016 SP** or a previous release of the **UI for ASP.NET AJAX** controls, an alternative to arrow keys for moving forward and backward among the menu items are the **TAB** and **SHIFT** + **TAB** key combinations:
->
->* To move forward, use the **TAB** key.
->
->* To move backward, use the **SHIFT** + **TAB** key combination.
->
 
 * Expand the submenus using **Down** and **Up Arrow** keys:
 
-![Expand Submenu](images/menu-up-down-arrow.png)
+	![Expand Submenu](images/menu-up-down-arrow.png)
+
+If you do not provide a `TabIndex` value to match the rest of the page, RadMenu will render `tabindex="0"` so that its element is focusable. This also applies to individual menu items.
+
+If you have not defined tab order in your page, you may want to remove the tabIndex of the menu. You can do this easily with JavaScript. For example:
+
+````JavaScript
+function removeMenuTabIndex() {
+    $telerik.$(".RadMenu[tabindex=0]").removeAttr("tabindex");
+    Sys.Application.remove_load(removeMenuTabIndex);
+}
+Sys.Application.add_load(removeMenuTabIndex);
+````
+
+If you are using **Q1 2016 SP** or a previous release of the **UI for ASP.NET AJAX** controls, an alternative to arrow keys for moving forward and backward among the menu items are the **TAB** and **SHIFT** + **TAB** key combinations:
+
+* To move forward, use the **TAB** key.
+
+* To move backward, use the **SHIFT** + **TAB** key combination.
+
+### Expand Direction and Flow
 
 The following properties are related to keyboard accessibility as they define the flow and expanding direction of menu items:
 
