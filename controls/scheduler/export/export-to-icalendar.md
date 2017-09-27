@@ -95,7 +95,7 @@ position: 1
 		End Sub
 	
 
-1. Add **ImageButton** control with the same image as the one in the appointment template. On its **Click** event,add an event handler to export all of the appointments in the scheduler. This event handler calls the RadScheduler's static**ExportToICalendar** method to convert a collection of appointments to the ICalendar format:
+1. Add **ImageButton** control with the same image as the one in the appointment template. On its **Click** event,add an event handler to export all of the appointments in the scheduler. This event handler calls the RadScheduler's static **ExportToICalendar** method to convert a collection of appointments to the ICalendar format:
 
 
 
