@@ -30,3 +30,9 @@ Combining those two properties values can achieve different orientation:
 >caption Figure 1: RadWizard Orientation options
 
 ![wizard-orientation](images/wizard-orientation.png)
+
+# See Also
+
+ * [Wizard - Orientation demo](http://demos.telerik.com/aspnet-ajax/wizard/functionality/orientation/defaultcs.aspx)
+
+
