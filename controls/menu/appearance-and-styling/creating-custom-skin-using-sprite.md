@@ -27,7 +27,7 @@ position: 10
 1. Copy the *Menu* folder that contains the sprite images of the RadMenu control and paste it to the *Myskin* folder.
 
 1. Copy the *Menu.Default.css* style sheet file and place it in the *MySkin* folder.
-	>note With the default installation of the ASP.NET AJAX control the file path will typically be similar to this example: \Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\ Default.
+	>note With the default installation of the ASP.NET AJAX control the file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
 	
 1. Change the name of the file *Menu.Default.css* file to *Menu.MySkin.css*.
 

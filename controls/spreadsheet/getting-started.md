@@ -36,7 +36,7 @@ The following assemblies are required in order to be able to use the control wit
 @[template - spreadsheet-additional-libraries](/_templates/spreadsheet/additional-libraries.md#additional-libraries-explanation)
 
 
->note You could find the above assemblies in the **AdditionalLibraries** folder of the installation directory on your machine (C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX [XX] [XXXX]).
+>note You could find the above assemblies in the **AdditionalLibraries** folder of the installation directory on your machine (C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\).
 >
 
 

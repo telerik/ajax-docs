@@ -31,7 +31,7 @@ See [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/
 
 1. Copy the default RadColorPicker skin files from the installation directory to the "MySkin" directory; copy both the \ColorPicker directory that contains the images for this skin and the ColorPicker.Default.css file that defines the skin styles.
 
-	>note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of Telerik UI for ASPNET AJAX>\Skins\Default.* 
+	>note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
 	
 
 

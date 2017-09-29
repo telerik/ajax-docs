@@ -39,7 +39,7 @@ Note that the order is important so keep it this way. These javascript files res
 
 3. **Register the skin's CSS files**.
 
-Find the **Skins** folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q3 2009\Skins*
+Find the **Skins** folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins*
 
 * Copy the ComboBox.css file to your application. Register it on your page. (Note, this step applies only for **Q3 2009 and above versions**).
 

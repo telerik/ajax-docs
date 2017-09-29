@@ -24,7 +24,7 @@ The Default skin uses sprite images to style the appearance of the RadComboBox. 
 
 3. Copy the default RadComboBox skin files from the installation directory to the "MySkin_Default" directory; copy both the \ComboBox directory that contains the images for this skin and the ComboBox.Default.css file that defines the skin styles.
 
-	>note The file path will typically be similar to this example: \Program Files\Telerik\"Your Version of RadControls for ASPNET"\Skins\Default.
+	>note The file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
 	>
 
 4. The solution should now look something like the screenshot below:

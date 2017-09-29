@@ -30,7 +30,7 @@ See [Understanding the Skin CSS File]({%slug calendar/appearance-and-styling/htm
 
 2. In the Solution Explorer, create new "Skins" folder in your project and then add a "Green" folder inside.
 
-3. Copy the **Office2007** skin files of **RadCalendar** from the installation directory to the "Green" directory; copy both the **\Calendar** directory that contains the images for this skin and the **Calendar.Office2007.css** file that defines the skin styles. The file path will typically be similar to this - *\Program Files\Telerik\<Your Version of UI for ASP.NET.AJAX>\Skins\* 
+3. Copy the **Office2007** skin files of **RadCalendar** from the installation directory to the "Green" directory; copy both the **\Calendar** directory that contains the images for this skin and the **Calendar.Office2007.css** file that defines the skin styles. The file path will typically be similar to this - *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\* 
 
 4. In Solution Explorer, rename "**Calendar.Office2007.css**" to "**Calendar.Green.css**". Solution Explorer should now look something like the following:
 ![Renaming the CSS selectors](images/RenameCSSFile.png)

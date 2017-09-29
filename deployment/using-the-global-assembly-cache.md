@@ -118,9 +118,9 @@ To install an assembly called SomeAssembly in the GAC, use the command
 
 `gacutil /i "C:\someFolder\SomeAssembly.dll"`
 
-Here is an example that adds the Q3 2014 Telerik.Web.UI.dll assembly to the GAC:
+Here is an example that adds the R3 2017 Telerik.Web.UI.dll assembly to the GAC:
 
-`gacutil /i "C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q3 2014\Bin45\Telerik.Web.UI.dll"`
+`gacutil /i "C:\Program Files\Progress\UI for ASP.NET AJAX R3 2017\Bin45\Telerik.Web.UI.dll"`
 
 There are other ways to add an assembly to the GAC (Windows offers a shell integration for .NET 3.5 so you can just drag-and-drop it; and the Windows Installer) but since the gacutil tool is available for standalone download without Visual Studio, it is the more general way that works on all .NET versions. Note that Microsoft do not recommend using gacutil in production environment.
 
@@ -134,9 +134,9 @@ This will remove all versions of the assembly with this name, so versioning is u
 
 `gacutil / u SomeAssembly, Version=1.1.1.1, Culture="neutral", PublicKeyToken = 36g331oiu98462wl`
 
-Here is an example that removes the Q3 2014 Telerik.Web.UI.dll assembly to the GAC:
+Here is an example that removes the R3 2017 Telerik.Web.UI.dll assembly to the GAC:
 
-`gacutil /u Telerik.Web.UI, Version=2014.3.1209.45, Culture=neutral, PublicKeyToken=121fae165ba3d4`
+`gacutil /u Telerik.Web.UI, Version=2017.3.913.45, Culture=neutral, PublicKeyToken=121fae165ba3d4`
 
 You can read more on the subject in the [How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/en-us/library/aa559881.aspx) MSDN article.
 
@@ -160,8 +160,8 @@ You can also see the references in the **web.config**. They will have fully qual
 ````XML
 <compilation debug="true" targetframework="4.0"> 
 	<assemblies> 
-		<add assembly="Telerik.Web.UI, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4" /> 
-		<add assembly="Telerik.Web.UI.Skins, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4" /> 
+		<add assembly="Telerik.Web.UI, Version=2017.3.913.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4" /> 
+		<add assembly="Telerik.Web.UI.Skins, Version=2017.3.913.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4" /> 
 	</assemblies> 
 </compilation>
 ````

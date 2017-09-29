@@ -31,7 +31,7 @@ This article explains how Skins work for the Telerik® UI for ASP.NET Ajax contr
 
 ## Built-in Skins
 
-These are the skins provided by Telerik. Since Q3 2011 they are embedded in the Telerik.Web.UI.Skins.dll assembly as web resources (they were previously in the Telerik.Web.UI.dll assembly). To use a built-in skin, the developer only needs to set the **Skin** property of the control. Non-embedded versions of the built-in skins are provided in "*C:\Program Files\Telerik\UI for ASP.NET AJAX suiteversion\Skins*" and in the **/Skins/** folder inside the Telerik® UI for ASP.NET Ajax installation ZIP archive. The complete list of embedded skins is available below:
+These are the skins provided by Telerik. Since Q3 2011 they are embedded in the Telerik.Web.UI.Skins.dll assembly as web resources (they were previously in the Telerik.Web.UI.dll assembly). To use a built-in skin, the developer only needs to set the **Skin** property of the control. Non-embedded versions of the built-in skins are provided in "*C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins*" and in the **/Skins/** folder inside the Telerik® UI for ASP.NET Ajax installation ZIP archive. The complete list of embedded skins is available below:
 
 1. **Black**
 

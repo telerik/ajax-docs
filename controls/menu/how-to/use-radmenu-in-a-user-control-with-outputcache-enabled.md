@@ -27,7 +27,7 @@ Also you might receive javascript error: "Telerik is undefined"
 
 The reason for this is that when the aspx page postbacks, it receives the cached output which doesn't contain registration for the css styles and script files of the control. **SOLUTION** The solution is to manually register the skin and the java script files. **Part I - Registering the css styles**
 
-1. Find the **Skins** folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Skins*
+1. Find the **Skins** folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins*
 
 1. Copy the Skins folder (or just the skin which you need and the common css for the control you use) in the root of your application.
 
@@ -44,7 +44,7 @@ The reason for this is that when the aspx page postbacks, it receives the cached
 
 **Part II - Registering the scripts**
 
-1. Find the **Scripts** folder in your local installation of Telerik.Web.UI. With default installation the path to the scripts folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Sripts* The Scripts folder contains the **Common** folder which is used by all controls and **javascript** resources for **individual** controls allocated in folders after the controls name.
+1. Find the **Scripts** folder in your local installation of Telerik.Web.UI. With default installation the path to the scripts folder would be: *Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Scripts* The Scripts folder contains the **Common** folder which is used by all controls and **javascript** resources for **individual** controls allocated in folders after the controls name.
 
 1. Copy the **Common** folder and the **Menu** in the root of your application:
 

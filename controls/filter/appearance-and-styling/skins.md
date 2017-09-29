@@ -16,7 +16,7 @@ RadFilter uses skins to control its overall look-and-feel. A skin is a set of im
 
 ## Built-in skins
 
-These are the skins provided by Telerik. They are embedded in the **Telerik.Web.UI.dll** assembly as web resources. To use a built-in skin the user only needs to set the *Skin* property of the control. Built-in skins are also provided in **"C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins"**.
+These are the skins provided by Telerik. They are embedded in the **Telerik.Web.UI.dll** assembly as web resources. To use a built-in skin the user only needs to set the *Skin* property of the control. Built-in skins are also provided in **"C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins"**.
 
 Below is a set of the Telerik RadFilter skins:
 ![Filter Skins](images/filter-skins.png) 

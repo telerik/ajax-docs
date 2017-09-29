@@ -18,7 +18,7 @@ Although they are more difficult to implement, custom providers are more powerfu
 >
 
 
-This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources. The complete source code of the sample provider can be found in the App_Code directory of the Quick Start Framework.(C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2011\Live Demos\App_Code\Scheduler))
+This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources. The complete source code of the sample provider can be found in the App_Code directory of the Quick Start Framework.(C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Live Demos\App_Code\Scheduler))
 
 ## Database Schema
 

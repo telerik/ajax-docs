@@ -14,7 +14,7 @@ This article explains how to obtain and add the **TypeScript definitions**	avail
 
 ## Locating the TypeScript Definitions
 
-As of **Q3 2014**, **TypeScript definitions** are available for the Telerik® UI for ASP.NET Ajax suite. They are located in the **TypeScriptDefinitions** folder in the installation directory (e.g.,*C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX QX YYYY\TypeScriptDefinitions*).
+As of **Q3 2014**, **TypeScript definitions** are available for the Telerik® UI for ASP.NET Ajax suite. They are located in the **TypeScriptDefinitions** folder in the installation directory (e.g.,*C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\TypeScriptDefinitions*).
 
 The folder contains the **Telerik.Web.UI.d.ts** file which holds the definitions for our objects and the **microsoft.ajax.d.ts** file for the MS AJAX framework objects. You can alternatively obtain the latter from the Internet in case Microsoft release an updated version.
 

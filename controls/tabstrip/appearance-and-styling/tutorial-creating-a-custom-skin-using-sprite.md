@@ -49,7 +49,7 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 * Copy the default **RadTabStrip** skin files from the installation directory to your project; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
 
->note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
+>note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
 >
 
 
@@ -71,7 +71,7 @@ Instead of just two or three images being combined into one, you can combine an 
 
 In order to modify the existing sprite according to some specific requirements such as different rounded corners or background-color applied to the rounded corners of the RadTabStrip you will need to change the sprite image as described below:
 
-1. Locate the already existing sprite of the RadTabStrip -**TabStripStates.png**(using the default installation it should be in C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Skins\Default\TabStrip ).
+1. Locate the already existing sprite of the RadTabStrip -**TabStripStates.png**(using the default installation it should be in C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default\TabStrip ).
 
 1. Modify the sprite image of the **RadTabStrip** as desired – changing the shape of the corners, the background-color, the color of the different states of the tabs etc.![tabstrip states details](images/tabstrip_states_details.png)
 

@@ -25,7 +25,7 @@ As of Q1 2009, **RadAjaxLoadingPanel** supports skinning similar to all other co
 
 **Built-in Skins**
 
-**Figure 1** shows the embedded skins and what they look like for the **RadAjaxLoadingPanel** . They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin you only need to set the **Skin** property of the control. You can find built-in skins in this folder: "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
+**Figure 1** shows the embedded skins and what they look like for the **RadAjaxLoadingPanel** . They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin you only need to set the **Skin** property of the control. You can find built-in skins in this folder: "C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins".
 
 **Figure 1:** This figure shows the **RadAjaxLoadingPanel** using each of the embedded skins.![RadAjax Skins](images/ajax-skins.png) 
 
