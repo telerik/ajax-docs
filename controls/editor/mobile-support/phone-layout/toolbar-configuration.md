@@ -172,19 +172,17 @@ RadEditor1.Tools.Add(myTab)
 ````
 ````XML
 <root>
-  <tools>
-    <tools tab="MyHome">
-      <tool name="Bold" />
-      <tool name="Italic" />
-      <tool name="Underline" />
-    </tools>
-    <tools tab="MyTab">
-      <tool name="JustifyLeft" />
-      <tool name="JustifyCenter" />
-      <tool name="JustifyRight" />
-      <tool name="JustifyFull" />
-      <tool name="JustifyNone" />
-    </tools>
+  <tools tab="MyHome">
+    <tool name="Bold" />
+    <tool name="Italic" />
+    <tool name="Underline" />
+  </tools>
+  <tools tab="MyTab">
+    <tool name="JustifyLeft" />
+    <tool name="JustifyCenter" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+    <tool name="JustifyNone" />
   </tools>
 </root>
 ````
