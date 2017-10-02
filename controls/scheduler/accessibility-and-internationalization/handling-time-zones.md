@@ -234,3 +234,7 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 # See Also
 
  * [Working with Time Values]({%slug scheduler/server-side-programming/working-with-time-values%})
+ 
+ * [Scheduler - Time Zones demo](http://demos.telerik.com/aspnet-ajax/scheduler/examples/timezones/defaultcs.aspx)
+ 
+ 
