@@ -30,11 +30,11 @@ Two parameters are passed to the event handler:
 
 	* **get_buttonType()** returns an integer that indicates which button was clicked. The possible values are
 
-		* The button that appears when the **ShowButton** property is **True**.
+		* `1` or `Telerik.Web.UI.InputButtonType.Button`—The button that appears when the **ShowButton** property is **True**.
 
-		* The upward spin button.
+		* `2`or `Telerik.Web.UI.InputButtonType.MoveUpButton`—The upward spin button.
 
-		* The downward spin button.
+		* `3` or `Telerik.Web.UI.InputButtonType.MoveDownButton`—The downward spin button.
 
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
