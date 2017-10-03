@@ -7,11 +7,11 @@
         <title>{{ page.page_title || page.title }}</title>
         <link href="{{site.baseurl}}/favicon.ico?Version=2014" rel="shortcut icon" />
         {% if page.description %}<meta name="description" content="{{page.description}}">{% endif %}
-        <link href="//cdn.kendostatic.com/{{ site.cdnVersion }}/styles/kendo.common.min.css" rel="stylesheet" />
+        <link href="https://cdn.kendostatic.com/{{ site.cdnVersion }}/styles/kendo.common.min.css" rel="stylesheet" />
         {% stylesheet styles %}
         {% stylesheet theme %}
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="//cdn.kendostatic.com/{{ site.cdnVersion }}/js/kendo.web.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://cdn.kendostatic.com/{{ site.cdnVersion }}/js/kendo.web.min.js"></script>
         {% javascript prettify %}
         {% javascript app %}
         {% javascript prettify %}
