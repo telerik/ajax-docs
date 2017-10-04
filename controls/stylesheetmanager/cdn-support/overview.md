@@ -136,3 +136,9 @@ background-image: url('/RadControlsWebSite2GAC/WebResource.axd?d=hgwy1jK8IjC5j7H
 
 
 Note that the CSS files from the CDN are placed in the **/ajaxz/** folder - this means that the compressed file is downloaded. If your browser does not support content encoding (or it is IE6) then you will notice that the scripts are loaded from the **/ajax/** folder.
+
+
+## Additional Resources
+
+* [CDN Fallback to Local Resources](http://www.telerik.com/support/code-library/cdn-fallback)
+

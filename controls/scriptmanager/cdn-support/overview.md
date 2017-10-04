@@ -210,3 +210,7 @@ Both MS AJAX scripts and Telerik resources will be served from the respective CD
 
 
 All ASP.NET scripts and Telerik resources are served from the respective CDNs.
+
+## Additional Resources
+
+* [CDN Fallback to Local Resources](http://www.telerik.com/support/code-library/cdn-fallback)
