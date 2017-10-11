@@ -48,13 +48,15 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and 
 
 * **Shift** + **Arrow Keys** selects multiple items.
 
-* **Ctrl** + **Space** adds the currently active item to the selection.
+* **Ctrl** + **Space** adds or removes the currently active item to or from the selection.
 
 * **Del** deletes the currently selected item (if **AllowDelete** is set to "true").
 
 ## Transfer
 
 * **Ctrl** + **Right Arrow** transfers the selected item/s to the destination **RadListBox**.
+
+* **Ctrl** + **Left Arrow** transfers the selected item/s to the source **RadListBox** when the selection is in the destination listbox.
 
 ## Reorder
 
@@ -77,6 +79,8 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and 
 * Any key navigates to a matching item.
 
 * Subsequent press on the same key iterates over the matches.
+
+>note Marking matches works only for the built-in items, because it relies on their `Text` and structure. This means that using the `ItemTemplate` will disable the Mark Matches functionality.
 
 
 # See Also
