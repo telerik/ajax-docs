@@ -24,11 +24,13 @@ To enable item transferring you need to:
 
 3. [*Optional*] Set the **TransferMode** property to **Copy** if you want to copy instead of move the selected item/items from one listbox to the other. By default it is **Move**.
 
-4. [*Optional*] Set the **AutoPostBackOnTransfer="True"** to fire a postback on transfer.
+4. [*Optional*] Set the **AutoPostBackOnTransfer="True"** to fire a postback on transfer. Required when using `ItemTemplate`. In such a case you must also call the `DataBind()` method of each item in the [Transferred event]({%slug listbox/server-side-programming/server-events/transferred%}) of the source listbox.
 
 5. [*Optional*] Set the **AllowTransferOnDoubleClick="True"** to transfer the item when you double click it.
 
 Please check [this help topic]({%slug listbox/data-binding/automatic-database-updates%}) on how to **automatically update the database on transfer**.
+
+
 
 # See Also
 
