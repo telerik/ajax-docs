@@ -19,6 +19,7 @@ This article explains the methods of the **Radspreadsheet** client-side object. 
 | **save** |none|none|Saves the current data and layot of the Spreadsheet in the source Excel file.|
 | **saveAsExcel** |none|none| Exports the current data and layot of the Spreadsheet into an Excel file and promps you to download it in your browser.|
 | **get_activeSheet** |none|SpreadsheetSheet|Returns a reference to the active sheet. (see **Example 1**)|
+| **get_kendoWidget** |none|[Kendo Spreadsheet](https://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet)|Returns a reference to the underlying [Kendo Spreadsheet widget](https://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet).|
 | **get_sheets** |none|Array|Returns an array of sheets contained in the Spreadsheet.|
 | **findSheetByName** |string|SpreadsheetSheet|Returns a reference to the sheet matching the specified name.(see **Example 2**)|
 | **findSheetByIndex** |int|SpreadsheetSheet|Returns a reference to the sheet by its index in the workbook. (see **Example 3**)|
