@@ -8,9 +8,9 @@ position: 5
 
 # Telerik Upgrade API Analyzer 
 
-With every release of UI for ASP.NET AJAX, we try to avoid introducing changes that affect the public API. However, sometimes such changes are needed for the product to evolve. We understand that this could cause issues when  you upgrade your app to the latest Telerik release. That is why we have the **Telerik Upgrade API Analyzer**; its purpose is to make your upgrade process easier by comparing both versions and determining the problematic areas.
+With every release of Telerik UI for ASP.NET AJAX, we try to avoid introducing changes that affect the public API. However, sometimes such changes are needed for the product to evolve. We understand that this could cause issues when  you upgrade your app to the latest Telerik release. That is why we have the **Telerik Upgrade API Analyzer**; its purpose is to make your upgrade process easier by comparing both versions and determining the problematic areas.
 
-Aside from the UI for ASP.NET AJAX product, Telerik Upgrade API Analyzer could be used when upgrading your desktop application such as WPF or WinForms as well as your Silverlight application.
+Aside from the Telerik UI for ASP.NET AJAX product, Telerik Upgrade API Analyzer could be used when upgrading your desktop application such as WPF or WinForms as well as your Silverlight application.
 
 **Telerik Upgrade API Analyzer** currently supports Telerik® UI for ASP.NET Ajax releases from Q1 2012 (2012.1.225) until Q1 2017 (2017.1.118). Additional releases can be added upon request. 
 

@@ -19,7 +19,7 @@ Telerik ASP.NET AJAX Visual Studio Extensions will help you to quickly create an
 
 For convenience the same project templates could be found under the Visual C# -> Web and Visual Basic -> Web nodes.
 
-After you click the OK button, you get the Create New Project Wizard, provided by the Telerik® UI for ASP.NET Ajax Visual Studio Extensions. The wizard detects all the installed versions of UI for ASP.NET AJAX and lists them in the Version combobox. You can select a version which you want to be applied to your project. The following options could be set into the Create new project wizard: 
+After you click the OK button, you get the Create New Project Wizard, provided by the Telerik® UI for ASP.NET Ajax Visual Studio Extensions. The wizard detects all the installed versions of Telerik UI for ASP.NET AJAX and lists them in the Version combobox. You can select a version which you want to be applied to your project. The following options could be set into the Create new project wizard:
 
 ![introduction-vsx newproject 1](images/introduction-vsx_newproject1.png)
 

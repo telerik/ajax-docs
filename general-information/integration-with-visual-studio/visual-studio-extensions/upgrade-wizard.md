@@ -12,7 +12,7 @@ position: 4
 
 An important feature in the Telerik Visual Studio Extensions is the **Upgrade Project Wizard**. It can facilitate the process of upgrading the Telerik® UI for ASP.NET Ajax to the latest version in your project.
 
-To start the Upgrade Wizard go to **Telerik** > **UI for ASP.NET AJAX** > **Upgrade Wizard** in the Visual Studio menu.
+To start the Upgrade Wizard go to **Telerik** > **Telerik UI for ASP.NET AJAX** > **Upgrade Wizard** in the Visual Studio menu.
 
 On the first screen of the wizard is described what will be upgraded:
 >caption Figure 1: The first screen of the Upgrade Wizard

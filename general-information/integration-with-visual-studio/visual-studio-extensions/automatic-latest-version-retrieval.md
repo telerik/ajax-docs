@@ -12,7 +12,7 @@ position: 7
 
 With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state. The New Version Downloader tool automatically retrieves the freshest Telerik® UI for ASP.NET Ajax distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik® UI for ASP.NET Ajax package utilization extremely easy.
 
-Once a day, upon loading a project containing UI for ASP.NET AJAX controls, the Telerik ASP.NET AJAX VSExtensions queue the Telerik website for a new version of Telerik® UI for ASP.NET Ajax. A dialog gets displayed when a new version is discovered:
+Once a day, upon loading a project containing Telerik UI for ASP.NET AJAX controls, the Telerik ASP.NET AJAX VSExtensions queue the Telerik website for a new version of Telerik® UI for ASP.NET Ajax. A dialog gets displayed when a new version is discovered:
 
 ![Newer Version Available Notification](images/introduction-vsx_latestversionacquirer_newversionnotification.png)
 
