@@ -61,7 +61,7 @@ If you explicitly set this mode, it will never change. It is always the last fal
 
 This mode targets modern browsers (IE8+, Chrome, Firefox, Edge). If the requesting browser is IE7, the controls will fall back to the Classic RenderMode. This often happens if IE runs in Compatibility Mode.
 
-As of R1 2017 you can avoid this by adding the `X-UA Compatible` header with value `IE=edge` to the response:
+As of R3 2017 you can avoid this by adding the `X-UA Compatible` header with value `IE=edge` to the response:
 
 ````web.config
 <system.webServer>
