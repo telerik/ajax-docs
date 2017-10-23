@@ -16,7 +16,7 @@ position: 0
 
 **RadAsyncUpload** offers *asynchronous upload* capability while maintaining the look of the regular **RadUpload** control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location *until a postback* occurs. The temporary location is cleaned-up automatically.
 
-Internally, **RadAsyncUpload** can choose between four modules for uploading - File API, IFrame, Flash and Silverlight. The module with higher priority is File API. The module with highest priority is File API. If the browser does not support File API that module is automatically changed to Silverlight. If there is no Silverlight installed on the client machine, **RadAsyncUpload** will utilize the Flash module. If there is no Flash as well, **RadAsyncUpload** will use the IFrame module, which is supported out of the box on all browsers.
+Internally, **RadAsyncUpload** can choose between four modules for uploading - File API, IFrame, Flash and Silverlight. The module with the highest priority is File API. If the browser does not support File API that module is automatically changed to Silverlight. If there is no Silverlight installed on the client machine, **RadAsyncUpload** will utilize the Flash module. If there is no Flash as well, **RadAsyncUpload** will use the IFrame module, which is supported out of the box on all browsers.
 
 The control *supports web farm* scenarios. Upload progress is available in this scenario as long as Flash or Silverlight is installed on the client machine.
 
