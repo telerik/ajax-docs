@@ -65,8 +65,8 @@ The way around this issue is to have the styles already loaded on the page. Ther
 ````ASP.NET
 <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
    <StyleSheets>
-		<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Slider.css" />
-		<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Default.Slider.Default.css" />
+		<telerik:StyleSheetReference Assembly="Telerik.Web.UI.Skins" Name="Telerik.Web.UI.Skins.Slider.css" />
+		<telerik:StyleSheetReference Assembly="Telerik.Web.UI.Skins" Name="Telerik.Web.UI.Skins.Default.Slider.Default.css" />
    </StyleSheets>
 </telerik:RadStyleSheetManager>
 ````
