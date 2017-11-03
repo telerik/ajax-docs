@@ -14,7 +14,7 @@ You can add your own custom information to the files **RadAsyncUpload** uploads 
 
 ## Adding custom fields
 
-To add custom fields to the uploaded files, use the [OnClientFileUploaded]({%slug asyncupload/client-side-programming/onclientfileuploaded%}) client-sideevent to add controls to the **RadAsyncUpload** control where the user can enter the values:
+To add custom fields to the uploaded files, use the [OnClientFileUploaded]({%slug asyncupload/client-side-programming/onclientfileuploaded%}) client-side event to add controls to the **RadAsyncUpload** control where the user can enter the values:
 
 1. Use the **get_row()** method of the eventArgs to access each row that is added to the **RadAsyncUpload** control.
 
