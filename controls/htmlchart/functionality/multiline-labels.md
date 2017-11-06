@@ -86,3 +86,5 @@ You can split labels and titles in **RadHtmlChart** into multiple lines by using
  * [RadHtmlChart Server-side API]({%slug htmlchart/server-side-programming/overview%})
 
  * [RadHtmlChart ClientTemplate for Series Labels and Tooltips]({%slug htmlchart/functionality/clienttemplate/overview%})
+
+ * [Escaping Special Symbols Coming from the Server]({%slug htmlchart/troubleshooting/handle-special-symbols%})
