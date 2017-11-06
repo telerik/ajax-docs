@@ -23,6 +23,6 @@ You can find more information on the official web site ([http://jquery.com](http
 
 # Other Resources
 
-* [The Rise Of jQuery by Yehuda Katz](http://www.visitmix.com/Articles/The-Rise-Of-jQuery)
+* [jQuery API Documentation](https://api.jquery.com/)
 
 * [jQuery Blog](http://blog.jquery.com/)
