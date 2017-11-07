@@ -91,7 +91,9 @@ For brevity this document assumes that the source distribution ZIP file is extra
 
 The UI for ASP.NET AJAX suite comes with a number of assemblies that provide document processing capabilities. You can read more about them in the [Inculded Assemblies]({%slug introduction/installation/included-assemblies%}) article. These assemblies must also be protected as they do not depend on the Telerik.Web.UI assembly.
 
-1. Open C:\DPL\Documents\Core\Core\Licensing\AssemblyProtection.cs in a text editor (notepad, Visual Studio, etc.). This path assumes you have downloaded and extracted Telerik Document Processing Libraries Source Code to C:\DPL.
+These instructions assume you have downloaded and extracted Telerik Document Processing Libraries Source Code to `C:\DPL`.
+
+1. Open `C:\DPL\Documents\Licensing\AssemblyProtection.cs` in a text editor (notepad, Visual Studio, etc.). In versions of the suite prior to R2 2016, the path is `C:\DPL\Documents\Core\Core\Licensing\AssemblyProtection.cs`.
 
 1. Uncomment the following line:
 
@@ -112,7 +114,7 @@ The UI for ASP.NET AJAX suite comes with a number of assemblies that provide doc
 		    return ValidatePassPhrase();
 		}
 
-1. Execute steps 3-7 from the previous section.
+1. Execute steps **3-7** from the previous section. Make sure that you use the same application name as for the `Telerik.Web.UI.dll` assembly.
 
 ## See Also
 
