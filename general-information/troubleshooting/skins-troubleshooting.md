@@ -20,6 +20,8 @@ This article treats the most common issues related to the Skins used by the Tele
 
 * [Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false](#cannot-find-the-skins)
 
+* [Different Render in Design Time and in Browser](#different-render-in-design-time-and-in-browser)
+
 * [GetWebResourceUrl fails](#getwebresourceurl-fails)
 
 
@@ -160,6 +162,21 @@ Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Ski
 
 
 If you get this error after an upgrade to a newer version, the most likely reason for the problem is that there is an issue with the Visual Studio Project references. To fix it, perform a manual upgrade: [Manual Upgrade]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#manual-upgrade).
+
+
+## Different Render in Design Time and in Browser
+
+The design mode surface of Visual Studio is something similar to IE 5.5 and its rendering can be considered illustrative. It may not match the exact rendering of the page in a [supported browser](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support).
+
+The way the Telerik UI for ASP.NET AJAX controls actually render in a real browser depends on several factors:
+
+* the chosen [RenderMode]({%slug controls/render-modes%}) of the control.
+	* if it is Lightweight, on the [font used on the page]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}).
+* the [Skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) of the control.
+
+Newly created Telerik-enabled projects default to the Lightweight RenderMode. In such case, symptoms of the difference are likely to include larger dimensions than in design-time (due to the [elastic design capabilities]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) of the controls) and a font like 16px Times New Roman (the common default among browsers).
+
+If you want the look to be closer to the design time rendering, you should consider using the Classic RenderMode.
 
 
 ## GetWebResourceUrl fails
