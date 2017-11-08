@@ -14,9 +14,17 @@ To secure the user actions invoked through RadFileExplorer, you must apply your 
 
 The easiest approach is to use the [ItemCommand]({%slug fileexplorer/server-side-programming/events%}#itemcommand) to write simplistic logic that looks at the file paths that will be modified and cancel the event if suspicious activity is found (for example, attempts to tamper with `.config` or `.aspx` files). Depending on the user login implemented in your application, you may also want to add user authentication and rights checks here.
 
+Below follows an illustrative example of validating user actions through the `ItemCommand` event.
+
 You can implement a thorough security layer by [creating a custom content provider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}) where you can perform all necessary permissions and validation checks according to application pool identity, Windows permissions and so on.
 
-Below follows an illustrative example of validating user actions through the `ItemCommand` event.
+You may also want to:
+
+* set the `Configuration.SearchPatterns` property to whitelist only certain extensions
+* make sure the `EnableCopy` and `AllowFileExtensionRename` properties are set to false
+* restrict the `Configuration.ViewPaths`, `Configuration.DeletePaths`, `Configuration.UploadPaths` properties
+
+These steps will reduce the number of legitimate actions that the end user can turn malicious (like deleting files from your system, seeing files they should not be seeing and so on).
 
 >caption Example 1: Validate user actions to secure file types tampering.
 
