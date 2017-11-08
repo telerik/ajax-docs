@@ -10,11 +10,14 @@ position: 1
 
 # Events
 
-The **RadFileExplorer** control provides two server side event - **ItemCommand** and **ExplorerPopulated**
+The **RadFileExplorer** control provides the following server side events:
+
+* [ItemCommand](#itemcommand)
+* [ExplorerPopulated](#explorerpopulated)
 
 ## ItemCommand
 
-Called on the following commands:
+Called on the following commands executed by the user:
 
 * **UploadFile** - fired before each uploaded file is saved
 * **CreateDirectory** - fired before the file explorer creates a new folder
