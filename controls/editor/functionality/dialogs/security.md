@@ -26,7 +26,7 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](../../../../general-information/images/generate-keys-iis.png).
 
->tip You may also want to add a layer of security on the user actions from the file browser dialogs (such as Image Manager). To do this, follow the [RadFileExplorer Security]({%slug fileexplorer/security%}) article. To attach to the `ItemCommand` event, you must use the `FileBrowser` and `MobileImageManager` dialogs as [external dialogs]({%slug editor/functionality/dialogs/externaldialogspath-property%}) and add the file with the event handler and business logic to them. You can find an example in the [item-command-in-external-dialogs.zip](item-command-in-external-dialogs.zip) archive.
+>tip To add a layer of security on the user actions from the file browser dialogs (such as Image Manager). To do this, follow the [RadFileExplorer Security]({%slug fileexplorer/security%}) article. To attach to the `ItemCommand` event, you must use the `FileBrowser` and `MobileImageManager` dialogs as [external dialogs]({%slug editor/functionality/dialogs/externaldialogspath-property%}) and add the file with the event handler and business logic to them. You can find an example in the [item-command-in-external-dialogs.zip](item-command-in-external-dialogs.zip) archive.
 
 ## DialogParametersEncryptionKey
 
