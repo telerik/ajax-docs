@@ -16,7 +16,7 @@ The easiest approach is to use the [ItemCommand]({%slug fileexplorer/server-side
 
 Below follows an illustrative example of validating user actions through the `ItemCommand` event.
 
-You can implement a thorough security layer by [creating a custom content provider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}) where you can perform all necessary permissions and validation checks according to application pool identity, Windows permissions and so on.
+You can implement a thorough security layer by [creating a custom content provider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}) where you can perform all necessary permissions and validation checks according to application pool identity, Windows permissions and so on. You can find an example in the following live demo: [Filter files and download](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/filteranddownloadfiles/defaultcs.aspx).
 
 You may also want to:
 
@@ -139,4 +139,6 @@ End Function
  * [Server-side Events]({%slug fileexplorer/server-side-programming/events%})
 
  * [Using a Custom Provider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%})
+
+ * [Live Demo: Custom Content Provider That Implements Some Security Checks](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/filteranddownloadfiles/defaultcs.aspx)
 
