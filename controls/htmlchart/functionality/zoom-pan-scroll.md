@@ -167,4 +167,6 @@ In examples **1** and **2** you can see how defining initially the min and max v
 * [Kendo Chart API - Pannable](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-pannable)
 
 * [Kendo Chart API - Zoomable](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-zoomable)
+
+* [How to hook to zoom, pan and select events](https://feedback.telerik.com/Project/108/Feedback/Details/118371-add-client-side-events-for-drag-and-zoom-in-radhtmlchart)
  
