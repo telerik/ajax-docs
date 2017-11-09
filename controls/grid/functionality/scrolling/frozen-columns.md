@@ -53,6 +53,7 @@ When grouping is enabled in grid with frozen columns the first **GridGroupSplitt
 <Scrolling CountGroupSplitterColumnAsFrozen="false" AllowScroll="true" UseStaticHeaders="true" FrozenColumnsCount="2"/>
 ````
 
-## Unsupported scenarios
+## Unsupported Scenarios
 
-* When frozen columns are used, tabbing between the textboxes in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific <div> with Javascript. This \<div\> has a client ID of "**..._Frozen**" where "..." is the RadGrid client ID. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
+* When frozen columns are used, tabbing between the textboxes in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific `<div>` with Javascript. This `<div>` has a client ID of `<RadGridInstance.ClientID>_Frozen`. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
+* Frozen columns are not supported on mobile (touch) devices.
