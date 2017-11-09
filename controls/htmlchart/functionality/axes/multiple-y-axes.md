@@ -16,6 +16,9 @@ To use multiple Y-axes, you add the required **telerik:AxisY** definitions in th
 
 As of Q1 2014, you can use the **AxisCrossingPoints** tag to rearrange the position of the main and the additional Y-axes of the chart. **Figure 1** shows the additional y-axis repositioned on the right of the chart. The markup in Example 1 shows that the **AxisCrossingPoints** tag is defined in the **X-Axis** configuration section. The order of the **AxisCrossingPoint** properties corresponds to the Y-axes declarations and the **Value**	attribute sets the position through the X-axis.
 
+>tip You can set the `Value` of the `AxisCrossingPoint` to a very high value (like `99999`) that is higher than the number of items on the x-axis to ensure it is always on the right-hand side.
+
+
 >caption Figure 1: A Column chart with an additional y-axis, which is repositioned on the right.
 
 ![htmlchart-multiple-y-axes-overview](images/htmlchart-multiple-y-axes-overview.png)
