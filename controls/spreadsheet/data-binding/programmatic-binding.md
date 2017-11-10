@@ -51,11 +51,16 @@ private static Worksheet FillWorksheet(DataTable data)
 {
     var workbook = new Workbook();
     var sheet = workbook.AddSheet();
+    
+    sheet.Columns = new List<Column>();
+    
     var row = new Row() { Index = 0 };
     int columnIndex = 0;
 
     foreach (DataColumn dataColumn in data.Columns)
     {
+        sheet.Columns.Add(new Column());
+
         string cellValue = dataColumn.ColumnName;
 
         var cell = new Cell() { Index = columnIndex++, Value = cellValue, Bold = true };
