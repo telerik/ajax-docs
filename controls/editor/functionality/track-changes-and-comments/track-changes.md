@@ -216,6 +216,30 @@ Enabling the Track Changes feature enables you to use the following client-side 
 
 * **get_htmlAcceptChanges()**-returns HTML content as if Accept All Track Changes is fired.
 * **get_htmlRejectChanges()**-returns HTML content as if Reject All Track Changes is fired.
+* **set_enableTrackChangesOverride()**-pass `true` to prevent the editor from tracking the changes. Useful when you want the user to be able to track changes, but only after clicking the button on the toolbar (see the example below). Pass `false` to have the editor start tracking changes.
+* **get_enableTrackChangesOverride()**-returns whether the tracking changes are paused when the user types. When `true` is returned, changes are not tracked.
+
+>caption How to enable the Track Changes feature, but require the user to click the toolbar button (i.e., have track changes on pause initially).
+
+````ASPX
+<telerik:RadEditor runat="server" ID="RadEditor1" EnableTrackChanges="true" OnClientLoad="OnClientLoad">
+    <Tools>
+        <telerik:EditorToolGroup>
+            <telerik:EditorTool Name="AcceptTrackChange" Text="Accept Track Change" />
+            <telerik:EditorTool Name="RejectTrackChange" Text="Reject Track Change" />
+            <telerik:EditorTool Name="AcceptAllTrackChanges" Text="Accept All Track Changes" />
+            <telerik:EditorTool Name="RejectAllTrackChanges" Text="Reject All Track Changes" />
+            <telerik:EditorTool Name="EnableTrackChangesOverride" Text="Enable Track Changes Override" />
+        </telerik:EditorToolGroup>
+    </Tools>
+</telerik:RadEditor>
+
+<script>
+    function OnClientLoad(editor, args) {
+        editor.set_enableTrackChangesOverride(true);
+    }
+</script>
+````
 
 ## Server-side Methods
 
