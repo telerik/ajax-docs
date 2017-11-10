@@ -17,6 +17,8 @@ The interface of **RadNotification for ASP.NET AJAX** is level AA accessible (in
 
 It also offers [WAI-ARIA]({%slug notification/accessibility-and-internationalization/wai-aria-support%}) support.
 
+If automated tools report issues with `<iframe>` elements without a title, they can be considered false positives. They are likely the overlay frames the controls use so they can be shown above heavyweight objects like PDFs or applets. You can disable those frames by setting the `Overlay` and `NotificationMenu.EnableOverlay` properties to `false`.
+
 # See Also
 
  * [Section 508](http://www.section508.gov/)
