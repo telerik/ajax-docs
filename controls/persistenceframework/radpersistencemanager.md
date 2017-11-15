@@ -18,7 +18,7 @@ The main features of **RadPersistenceManager** are:
 * No need to modify your application logic.
 * No need to write JavaScript to restore controls client state.
 
->caution Note that you cannot have more than one **RadPersistenceManager** in a singe page. In case of **MasterPage** and / or **WebUserControl**, the best option is to use **RadPersistenceManager** on the master/main page and use [RadPersistenceManagerProxy]({%slug persistenceframework/radpersistencemanagerproxy%}) in the **ContentPage** / **WebUserControl**.
+>caution Note that you cannot have more than one **RadPersistenceManager** in a single page. In case of **MasterPage** and / or **WebUserControl**, the best option is to use **RadPersistenceManager** on the master/main page and use [RadPersistenceManagerProxy]({%slug persistenceframework/radpersistencemanagerproxy%}) in the **ContentPage** / **WebUserControl**.
 
 ## Configure state persistence in Configuration Wizard
 
