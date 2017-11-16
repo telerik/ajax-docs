@@ -22,7 +22,7 @@ The main features of **RadPersistenceManager** are:
 
 ## Configure state persistence in Configuration Wizard
 
-**RadPersistenceManager** comes with a visual builder for setting up the controls that should be persisted. You can access the Configuration Wizard from the **SmartTag** for  **RadPersistenceManager**. The Wizard's dialog will contain a list of the supported Telerik controls that present in the same **NamingContaner** as the **RadPersistenceManager** and you can easily select specific control(s) for persistence.
+**RadPersistenceManager** comes with a visual builder for setting up the controls that should be persisted. You can access the Configuration Wizard from the **SmartTag** for  **RadPersistenceManager**. The Wizard's dialog will contain a list of the supported Telerik controls that present in the same **NamingContainer** as the **RadPersistenceManager** and you can easily select specific control(s) for persistence.
 
 ![persistence-framework-configuration-wizard](images/persistence-framework-configuration-wizard.png)
 
