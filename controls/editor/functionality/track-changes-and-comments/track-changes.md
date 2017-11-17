@@ -270,6 +270,8 @@ The following commands are officially supported by **Track Changes** and are des
 
 The addition of new commands is planned for the upcoming releases. If you want to see a command implemented let us know to raise its priority.
 
+The Paste command may not work as expected, because browsers tend to change the HTML the user pastes. The most notable example is IE, where pasted data is not available to JavaScript and the editor cannot work with the pasted content at all. Thus, copying and pasting tracked changes cannot work in IE, as the editor needs to parse the content and update the DOM attributes.
+
 ## See Also
 
  * [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
