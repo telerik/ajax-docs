@@ -61,7 +61,7 @@ Resolution: Below are the respective resolutions for the problems, described abo
 
 Cause:
 
-The `<handlers>` or `<httpHandlers>` sections are placed under the <location> section and RadScriptManager cannot find them.
+The `<handlers>` or `<httpHandlers>` sections are placed under the `<location>` section and RadScriptManager cannot find them.
 
 Resolution:
 
