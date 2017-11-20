@@ -12,9 +12,11 @@ position: 0
 
 
 
-## 
-
 SEO paging of RadDataPager gets better results on search engines. In order to use SEO paging of the RadDataPager control you need to set the **AllowSEOPaging** property to **True**. When it is False (its default value), the RadDataPager does not use SEO paging.
+
+The SEO paging feature allows you to open a URL and directly land on the desired page of data.
+
+When SEO paging is enabled, navigating through the pages or changing the page size will fire a `GET` request with a new querystring parameter for each SEO paged control. The querystring parameter is in the following format: `pageName.aspx?controlID=pageIndex_pageSize`. For example, `GET /test-seo-paging.aspx?RadListView1=1_5` means that the page "test-seo-paging.aspx" will search for a control called "RadListView1", open its first page and the page size will be 5. The URL change means that SEO paging does not support partial page rendering. Even if you wrap the paged control and/or the pager in an UpatePanel, an AJAX POST will not be made when paging, the request will still be a GET.
 
 In addition, you can specify the query page key for the grid that is used as part of the page query by setting the **SEOPagingQueryPageKey** property. This is useful when the data pager resides in several containers and its id becomes too long and not very readable. Using **SEOPagingQueryPageKey** property you get much more search engine optimized links to the other pages.
 
