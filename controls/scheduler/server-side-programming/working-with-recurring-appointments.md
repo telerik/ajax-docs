@@ -14,7 +14,7 @@ position: 0
 
 **RadScheduler** includes support for recurring events on hourly, weekly, daily, monthly and yearly basis. Exceptions to the recurrence rules are also permitted. To support this recurrence behavior, the **Appointment** class includes the **RecurrenceRule**, **RecurrenceParentID** and **RecurrenceState** properties. When an appointment is promoted into a recurring event its **RecurrenceState** changes to **RecurrenceState.Master** and the **RecurrenceRule** is populated with the string representation of the recurrence rule.
 
-The recurrence master is stored in the database and its occurrences are generated on the fly with **RecurrenceState** set to **RecurrenceState.Occurrence**. The maximum number of generated occurrences is controlled by the MaximumRecurrenceCandidates property which has 3000 as the default value.
+The recurrence master is stored in the database and its occurrences are generated on the fly with **RecurrenceState** set to **RecurrenceState.Occurrence**. The maximum number of generated occurrences is controlled by the **MaximumRecurrenceCandidates** property of the **RadScheduler** which has 3000 as the default value.
 
 If the user modifies an individual appointment occurrence, this creates an exception. The **RecurrenceRule** of the master is modified to include the date and time of the exception so that no occurrence is generated for the exception occurrence. Then the exception is stored in the database and its **RecurrenceParentID** property is set to reference the original master. This way the exception is still linked to the original recurrence series.
 
@@ -122,4 +122,4 @@ The **RecurrenceRange** class specifies the time frame for the recurrence. It co
 
 The **Occurrences** property returns an enumerator that can be used to retrieve all the occurrences defined by the rule.
 
-The **RecurrenceRule** class supports the **ToString** and **TryParse**methods that **RadScheduler** uses for storing and retrieving the recurrence rules instances. The format is a subset of the standard iCalendar format. The example above produces the following output: ![](images/recurrenceoutput.png)
+The **RecurrenceRule** class supports the **ToString** and **TryParse** methods that **RadScheduler** uses for storing and retrieving the recurrence rules instances. The format is a subset of the standard iCalendar format. The example above produces the following output: ![](images/recurrenceoutput.png)
