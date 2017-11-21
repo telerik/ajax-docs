@@ -29,7 +29,6 @@ This article explains the client-side properties and methods **[RadLiveTile]({%s
 |get_updateInterval()||Int|Gets the interval (in milliseconds) after which the tile will automatically update the content.|
 |get_value()||string|Gets the Value property that is sent as a parameter to the webservice.|
 |set_clientTemplate(value)|String||Sets the HTML template that will be instantiated in the tile after live data request.|
-|set_updateInterval(value)|Int||Sets the interval (in milliseconds) after which the tile will automatically update the content.|
 |set_value()|string||Sets the Value property that is sent as a parameter to the webservice.|
 
 
