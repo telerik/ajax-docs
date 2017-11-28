@@ -34,13 +34,129 @@ You can let **RadProgressArea** automatically locate and update the values of th
 |Speed|Speed|
 |CancelButton|Cancel Button|
 
-\* As of **Q2 2015** the *PrimaryProgressBarInnerDiv* and *SecondaryProgressBarInnerDiv* IDs are renamed respectively to **PrimaryProgressBarElement** and **SecondaryProgressBarElement** due to the new Lightweight rendering of the control.
+>note As of **Q2 2015** the *PrimaryProgressBarInnerDiv* and *SecondaryProgressBarInnerDiv* IDs are renamed respectively to **PrimaryProgressBarElement** and **SecondaryProgressBarElement** due to the new Lightweight rendering of the control.
+>
 
 You can also update the values of elements in your template using the client-side [OnClientProgressBarUpdating]({%slug progressarea/client-side-programming/onclientprogressbarupdating%}) and [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) events to bind the values of custom controls you add in the template.
 
 ## Example
 
-The following example shows a **RadProgressArea** with a progress template and **OnClientProgressBarUpdating** event handler:
+````ASPNET
+<telerik:RadScriptManager runat="server" ID="rsm" />
+<telerik:RadProgressManager runat="server" ID="rpm" />
+Progress:<br />
+<asp:Button CssClass="button" ID="buttonSubmit" runat="server" Text="Start Processing" OnClick="buttonSubmit_Click"></asp:Button>
+<br />
+<telerik:RadProgressArea runat="server" ID="rpa">
+    <ProgressTemplate>
+        <ul class="ruProgress">
+            <li class="ruProgressHeader"><span id="rpa_Panel_ProgressAreaHeader"></span></li>
+            <li class="ruFilePortion">
+                <div id="<%= rpa.ClientID %>_Panel_PrimaryProgressBarElement" class="ruBar">
+                    <div id="<%= rpa.ClientID %>_Panel_PrimaryProgressElement">
+                        <!-- -->
+                    </div>
+                </div>
+                Uploaded <span id="rpa_Panel_PrimaryPercent"></span>% (<span id="<%= rpa.ClientID %>_Panel_PrimaryValue"></span> ) Total  <span id="<%= rpa.ClientID %>_Panel_PrimaryTotal"></span></li>
+            <li class="ruFileCount">
+                <div id="<%= rpa.ClientID %>_Panel_SecondaryProgressBarElement" class="ruBar">
+                    <div id="<%= rpa.ClientID %>_Panel_SecondaryProgressElement">
+                        <!-- -->
+                    </div>
+                </div>
+                Uploaded files:  <span id="<%= rpa.ClientID %>_Panel_SecondaryPercent"></span>% (<span id="<%= rpa.ClientID %>_Panel_SecondaryValue"></span>) Total files:  <span id="<%= rpa.ClientID %>_Panel_SecondaryTotal"></span></li>
+            <li class="ruCurrentFile">Uploading file:  <span id="<%= rpa.ClientID %>_Panel_CurrentOperation"></span></li>
+            <li class="ruTimeSpeed">Elapsed time:  <span id="<%= rpa.ClientID %>_Panel_TimeElapsed"></span>&nbsp;Estimated time:  <span id="<%= rpa.ClientID %>_Panel_TimeEstimated"></span>&nbsp;Speed:  <span id="<%= rpa.ClientID %>_Panel_Speed"></span></li>
+        </ul>
+    </ProgressTemplate>
+</telerik:RadProgressArea>
+````
+
+````C#
+	
+protected void buttonSubmit_Click(object sender, System.EventArgs e)
+{
+    UpdateProgressContext();
+}
+
+protected void UpdateProgressContext()
+{
+    int mySteps = 3;
+    int myRecords = 20;
+    RadProgressContext progress = RadProgressContext.Current;
+    progress.Speed = "N/A";
+
+    progress.PrimaryTotal = mySteps;
+    progress.PrimaryValue = 0;
+    progress.PrimaryPercent = 0;
+
+    progress.SecondaryTotal = myRecords;
+    progress.SecondaryValue = 0;
+    progress.SecondaryPercent = 0;
+
+    for (int i = 1; i <= mySteps; i++)
+    {
+        progress.PrimaryPercent = Math.Round(i * 100 / (double)mySteps, 0);
+        progress.PrimaryValue = i;
+        progress.SecondaryTotal = myRecords;
+
+        for (int j = 1; (j <= myRecords); j++)
+        {
+            progress.SecondaryValue = j;
+            progress.SecondaryPercent = Math.Round((j * (100 / (double)myRecords)), 0);
+            progress.CurrentOperationText = ("Step " + i.ToString() + " Record " + j.ToString());
+            // Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100);
+        }
+    }
+}
+	
+````
+````VB
+	
+Protected Sub buttonSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+    UpdateProgressContext()
+End Sub
+
+Protected Sub UpdateProgressContext()
+    Dim mySteps As Integer = 3
+    Dim myRecords As Integer = 20
+
+    Dim progress As RadProgressContext = RadProgressContext.Current
+    progress.Speed = "N/A"
+
+    With progress
+        .PrimaryTotal = mySteps
+        .PrimaryValue = 0
+        .PrimaryPercent = 0
+
+        .SecondaryTotal = myRecords
+        .SecondaryValue = 0
+        .SecondaryPercent = 0
+    End With
+
+    For i As Integer = 1 To mySteps
+        With progress
+            .PrimaryValue = i
+            .PrimaryPercent = Math.Round(i * 100 / mySteps, 0)
+            .SecondaryTotal = myRecords
+        End With
+
+        For j As Integer = 1 To myRecords
+            progress.SecondaryValue = j
+            progress.SecondaryPercent = Math.Round(j * 100 / myRecords, 0)
+
+            progress.CurrentOperationText = "Step " & i.ToString() & " Record " & j.ToString
+
+            'Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100)
+        Next j
+    Next i
+End Sub
+	
+````
+
+The following example shows a **RadProgressArea** with a progress template and **OnClientProgressBarUpdating** event handler for versions **before Q2 2015**:
 
 ````ASPNET
 <script type="text/javascript">
