@@ -78,6 +78,8 @@ function getRange() {
 | **get_selections** |none|array of objects|Gets the selections in the range. (see **Example 12**)|
 | **get_textAlign** |none|string|Gets the text alignment of the cells in the range. Returns one of the following values: **left**, **center**, **right** and **justify**.|
 | **set_textAlign** |string|none|Sets the text alignment of the cells in the range. Accepts one of the following values: **left**, **center**, **right** and **justify**.|
+| **get_underline** |none|bool|Gets the underline state of the cells in the range.|
+| **set_underline** |bool|none|Sets the underline state of the cells in the range.|
 | **get_value** |none|string/int/Date|Gets the value of the cells.|
 | **set_value** |string/int/Date|none|Sets the value of the cells.|
 | **get_values** |none|array of arrays|Gets the values of the range cells.|
