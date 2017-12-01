@@ -11,16 +11,40 @@ position: 5
 # Keyboard Support
 
 
-The **RadCalendar** control provides support for **Access Keys** and navigation using the tab and arrow keys:
+The **RadCalendar** control provides keyboard navigation using the tab and arrow keys:
 
-* **Access Keys** - You can specify a key that lets the end user move focus directly to the **RadCalendar** control. Once focus is on the control, the user can use the keyboard to navigate around the control select a value. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "C", focus moves to the **RadCalendar** control when the user presses "**Alt+C**".
 
-    ````ASPNET
-<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" MonthLayout="Layout_7columns_x_6rows" AccessKey="C">       
+You can use the `TAB` key to focus the control. Once focus is on the **RadCalendar** control, you can use the following commands:
+
+* the `TAB` key and `SHIFT+TAB` key combination move through the parts of the control. 
+	
+* The first time the user presses the `TAB` key, focus moves to the first navigation control in the title bar. 
+	
+* Pressing `TAB` repeatedly moves through the navigation controls in the title bar and then through each day shown in the main calendar area. 
+	
+* Pressing `SHIFT+TAB` moves backward through the same elements. 
+	
+* Pressing the `ENTER` key when focus is on a navigation control causes the view to change.
+	
+* Pressing the `ENTER` key when focus is on a day in the main calendar area selects the day.
+
+* Pressing the `arrow` keys when focus is on the calendar moves the focused date in the respective direction.
+
+A built-in access key is `Y` so you can use `Alt+Y` to focus the control by default. If you need more granular access key settings, you can use JavaScript to set them:
+
+>caption How to set a custom access key to a RadCalendar.
+
+````ASPX
+<telerik:RadCalendar ID="RadCalendar1" RenderMode="Lightweight" runat="server"
+    EnableKeyboardNavigation="true" EnableAriaSupport="true" EnableMultiSelect="false">
+    <ClientEvents OnLoad="OnLoad" />
 </telerik:RadCalendar>
+<script>
+    function OnLoad(sender, args) {
+        $telerik.$(sender.get_element()).find(".rcMainTable").first().attr("accessKey", "Q");
+    }
+</script>
 ````
-
-* **Tab key Navigation** - Once focus is on the **RadCalendar** control, the TAB key and SHIFT+TAB key combination move through the parts of the control. The first time the user presses the TAB key, focus moves to the first navigation control in the title bar. Pressing TAB repeatedly moves through the navigation controls in the title bar and then through each day shown in the main calendar area. Pressing SHIFT+TAB moves backward through the same elements. Pressing the ENTER key when focus is on a navigation control causes the view to change. Pressing the ENTER key when focus is on a day in the main calendar area selects the day.
 
 
 # See Also
