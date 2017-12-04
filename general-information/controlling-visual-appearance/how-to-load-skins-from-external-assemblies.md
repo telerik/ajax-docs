@@ -18,7 +18,7 @@ With the new Q1 2011 release, developers will be able to load skins from an exte
 
 1. Drop all skin related files for your control(s) in the project and mark them as embedded resources (right click, select *Properties* and from the *Build Action* dropdown choose *Embedded Resource*).
 
-1. Modify the skin files - rename them, change the CSS properties, etc. The main point here is that you will also need to rename the addresses of the images in these files. Because of the specifics of the approach explained below, it is convenient to use the skin files from the Telerik® UI for ASP.NET Ajax source code.Here lies the first tricky part – the webresource links in our css files are of the type
+1. Modify the skin files - rename them, change the CSS properties, etc. The main point here is that you will also need to rename the addresses of the images in these files. Because of the specifics of the approach explained below, it is convenient to use the skin files from the Telerik® UI for ASP.NET AJAX source code.Here lies the first tricky part – the webresource links in our css files are of the type
 
 	**C#**
 

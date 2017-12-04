@@ -1,19 +1,19 @@
 ---
-title: Incorporating Telerik® UI for ASP.NET Ajax
-page_title: Incorporating Telerik® UI for ASP.NET Ajax | UI for ASP.NET AJAX Documentation
-description: Incorporating Telerik® UI for ASP.NET Ajax
+title: Incorporating Telerik® UI for ASP.NET AJAX
+page_title: Incorporating Telerik® UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+description: Incorporating Telerik® UI for ASP.NET AJAX
 slug: sharepoint/2013/installation-and-deployment/incorporating-telerik-ui-for-asp.net-ajax
 tags: incorporating,telerik,ui,for,asp.net,ajax
 published: True
 position: 3
 ---
 
-# Incorporating Telerik® UI for ASP.NET Ajax
+# Incorporating Telerik® UI for ASP.NET AJAX
 
 
 
 
-Once the Telerik® UI for ASP.NET Ajax are deployed, you can easily integrate them in your SharePoint site.
+Once the Telerik® UI for ASP.NET AJAX are deployed, you can easily integrate them in your SharePoint site.
 
 The following steps outline how to insert an HTML5 Chart in a SharePoint page:
 
@@ -32,7 +32,7 @@ The following steps outline how to insert an HTML5 Chart in a SharePoint page:
 		<%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>    
 
 
-	>note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET Ajax, ensure that the version number is correct here.
+	>note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 1. Add the following code in the edited page (for example in the Content with **ContentPlaceholderID** set to **PlaceHolderMain**):

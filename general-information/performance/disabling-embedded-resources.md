@@ -12,7 +12,7 @@ position: 1
 
 
 
-By default, JavaScript files needed by the Telerik® UI for ASP.NET Ajax controls are served as web resources (embedded in the **Telerik.Web.UI.dll** assembly).
+By default, JavaScript files needed by the Telerik® UI for ASP.NET AJAX controls are served as web resources (embedded in the **Telerik.Web.UI.dll** assembly).
 
 In some cases, you may want to avoid using WebResources, and you have two options to do that:
 
@@ -40,7 +40,7 @@ For custom deployment scenarios you can specify an alternative location for Java
 
 You will also need to add a script reference for each JavaScript file through the ScriptManager or [RadScriptManager]({%slug scriptmanager/overview%}).
 
-A complete list of the JavaScript files used by Telerik® UI for ASP.NET Ajax can be found below. You need to register only the JavaScript files required by the controls you are currently using. Common JavaScript files (e.g. Core.js) should be registered only once.
+A complete list of the JavaScript files used by Telerik® UI for ASP.NET AJAX can be found below. You need to register only the JavaScript files required by the controls you are currently using. Common JavaScript files (e.g. Core.js) should be registered only once.
 
 
 ````ASP.NET
@@ -906,7 +906,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik® UI for ASP.NET Ajax version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*.
+>caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik® UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*.
 >The script file in fact needs to be a combination of 4 installation js files.
 >
 

@@ -12,7 +12,7 @@ position: 1
 
 ##      
 
-The **Sass Theme Builder** for Telerik® UI for ASP.NET Ajax is a convenient customization tool providing the ability and power to create your own custom **Lightweight** skins and themes quickly and efficiently. This could be easily achieved without the necessity of understanding the underlying HTML and CSS structure of the controls.
+The **Sass Theme Builder** for Telerik® UI for ASP.NET AJAX is a convenient customization tool providing the ability and power to create your own custom **Lightweight** skins and themes quickly and efficiently. This could be easily achieved without the necessity of understanding the underlying HTML and CSS structure of the controls.
 
 
 ## Creating a New Theme

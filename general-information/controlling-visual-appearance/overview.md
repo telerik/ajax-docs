@@ -12,9 +12,9 @@ position: 0
 
 
 
-The visual appearance of Telerik® UI for ASP.NET Ajax is defined through "skins". A skin consists of a CSS file and image	files (which are optional). Telerik® UI for ASP.NET Ajax come with a set of built-in skins which are embedded in the	Telerik.Web.UI.Skins assembly and ready to be used. Developers can use the built-in skins as they are, or customize them.
+The visual appearance of Telerik® UI for ASP.NET AJAX is defined through "skins". A skin consists of a CSS file and image	files (which are optional). Telerik® UI for ASP.NET AJAX come with a set of built-in skins which are embedded in the	Telerik.Web.UI.Skins assembly and ready to be used. Developers can use the built-in skins as they are, or customize them.
 
->note The Telerik® UI for ASP.NET Ajax controls have complex HTML structures and use Skins to provide styling. Thus, CSS and sometimes images are used instead of inline rules for creating borders, rounded corners, background colors, font colors or other design elements.
+>note The Telerik® UI for ASP.NET AJAX controls have complex HTML structures and use Skins to provide styling. Thus, CSS and sometimes images are used instead of inline rules for creating borders, rounded corners, background colors, font colors or other design elements.
 >
 >This means that simple properties like `ForeColor`, `BackColor`, `BorderColor`, `BorderStyle`, etc., may not work for the Telerik controls. To change the way a control looks, you should use CSS.
 
@@ -81,4 +81,4 @@ Review the bottom section of [this help topic]({%slug introduction/radcontrols-f
 
 For more information about controls skinning, we recommend watching the following video:
 
-[Skinning - Deep Dive for the Telerik® UI for ASP.NET Ajax](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)
+[Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)

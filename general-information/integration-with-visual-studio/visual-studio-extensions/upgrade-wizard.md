@@ -10,7 +10,7 @@ position: 4
 
 # Upgrade Project
 
-An important feature in the Telerik Visual Studio Extensions is the **Upgrade Project Wizard**. It can facilitate the process of upgrading the Telerik® UI for ASP.NET Ajax to the latest version in your project.
+An important feature in the Telerik Visual Studio Extensions is the **Upgrade Project Wizard**. It can facilitate the process of upgrading the Telerik® UI for ASP.NET AJAX to the latest version in your project.
 
 To start the Upgrade Wizard go to **Telerik** > **Telerik UI for ASP.NET AJAX** > **Upgrade Wizard** in the Visual Studio menu.
 
@@ -21,11 +21,11 @@ On the first screen of the wizard is described what will be upgraded:
 
 In addition to the pure assembly reference change, the Upgrade Wizard provides several important features:
 
-* Check and retrieve the latest available **Telerik® UI for ASP.NET Ajax** release;
+* Check and retrieve the latest available **Telerik® UI for ASP.NET AJAX** release;
 
-* Change the version of **Telerik® UI for ASP.NET Ajax** the project uses;
+* Change the version of **Telerik® UI for ASP.NET AJAX** the project uses;
 
-On the next step the wizard lists all projects from the solution, which use Telerik® UI for ASP.NET Ajax. You can choose which projects will be updated (it is recommended to upgrade all projects to the chosen version) and the version which they will be upgraded to. The Compatibility button will invoke the [Upgrade API Analyzer tool]({%slug upgrade_api_analyzer%}):
+On the next step the wizard lists all projects from the solution, which use Telerik® UI for ASP.NET AJAX. You can choose which projects will be updated (it is recommended to upgrade all projects to the chosen version) and the version which they will be upgraded to. The Compatibility button will invoke the [Upgrade API Analyzer tool]({%slug upgrade_api_analyzer%}):
 
 >caption Figure 2: Choose the projects the Upgrade Wizard will work on
 
@@ -60,7 +60,7 @@ After choosing the preferred options and pressing the Finish button, the Upgrade
 The reason for the described exception is the displacement of the embedded skins from Telerik.Web.UI to Telerik.Web.UI.Skins, introduced with the Q3 2011 release.
 
 >note
-* The Telerik® UI for ASP.NET Ajax distribution selection screen lists all the versions that can be detected automatically. These are versions, installed by using the Windows Installer MSI package (marked with **[Install Folder]** ) and versions, downloaded earlier by the Upgrade Wizard (marked with **[Download]** ). Hotfixes, downloaded manually cannot be detected.
-* The Telerik® UI for ASP.NET Ajax version signature is defined by the year, number of Q, month, day and .NET Framework version of the release. For example version 2012.1.215 means Q1 2012, which is released on February 15, 2012. In addition to this signature, you will find an indication whether the release is a trial ( **Trial** ) or purchased ( **Dev** ) version.
+* The Telerik® UI for ASP.NET AJAX distribution selection screen lists all the versions that can be detected automatically. These are versions, installed by using the Windows Installer MSI package (marked with **[Install Folder]** ) and versions, downloaded earlier by the Upgrade Wizard (marked with **[Download]** ). Hotfixes, downloaded manually cannot be detected.
+* The Telerik® UI for ASP.NET AJAX version signature is defined by the year, number of Q, month, day and .NET Framework version of the release. For example version 2012.1.215 means Q1 2012, which is released on February 15, 2012. In addition to this signature, you will find an indication whether the release is a trial ( **Trial** ) or purchased ( **Dev** ) version.
 * The distribution, downloaded by the Upgrade Wizard contains only the "hotfix" files, e.g. the barebone files, needed for a project to run correctly. It does not contain the documentation or the Live Examples.
 * A Visual Studio restart will be required in order to update your toolbox. If the automatic restart fails, a restart should be initiated manually in order to complete the toolbox upgrade.

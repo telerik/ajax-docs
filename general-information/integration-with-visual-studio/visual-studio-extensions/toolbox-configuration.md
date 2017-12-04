@@ -14,7 +14,7 @@ position: 8
 
 
 
-Starting with **Q3 2010** we introduced the Toolbox Configuration utility. Its purpose is to choose which version of Telerik® UI for ASP.NET Ajax to be populated in the Visual Studio’s Toolbox. The user can select among all versions of Telerik® UI for ASP.NET Ajax that are currently on the machine and have been either installed or downloaded using the VS Extensions.
+Starting with **Q3 2010** we introduced the Toolbox Configuration utility. Its purpose is to choose which version of Telerik® UI for ASP.NET AJAX to be populated in the Visual Studio’s Toolbox. The user can select among all versions of Telerik® UI for ASP.NET AJAX that are currently on the machine and have been either installed or downloaded using the VS Extensions.
 
 The Toolbox Configurator can be launched from the Telerik menu:
 

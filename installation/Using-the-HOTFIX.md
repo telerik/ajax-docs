@@ -27,17 +27,17 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 * **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external one, you can find it in this folder.
 
-* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET Ajax client-side objects.
+* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET AJAX client-side objects.
 
 >note If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file).
 >
 
 
-## To update Telerik® UI for ASP.NET Ajax to a new version
+## To update Telerik® UI for ASP.NET AJAX to a new version
 
 1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
-1. On the loaded page choose from your purchased products Telerik® UI for ASP.NET Ajax, and click on it.
+1. On the loaded page choose from your purchased products Telerik® UI for ASP.NET AJAX, and click on it.
 
 1. Click on the black **Latest internal build** button in order to download the latest hotfix directly, or on the **Internal Builds** option in order to chose from the available for you hotfix versions. 
 
@@ -53,21 +53,21 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 1. Recompile your project.
 
-1. If you have added the controls in GAC, remove them by running a **gacUtil** to remove the old copy and then add the new one. More information on the topic can be located here: [Add/Remove Telerik® UI for ASP.NET Ajax to the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
+1. If you have added the controls in GAC, remove them by running a **gacUtil** to remove the old copy and then add the new one. More information on the topic can be located here: [Add/Remove Telerik® UI for ASP.NET AJAX to the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
 
 1. In case you use external scripts and skins, register them manually following the guidelines from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) and [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}).
 
 1. Run the project.
 
-1. If you still get the older version of Telerik® UI for ASP.NET Ajax
-	* Sometimes the .NET Framework wrongly caches the Telerik® UI for ASP.NET Ajax's DLL and therefore the update may seem to have failed. Try the following to ensure that this is not the case:
+1. If you still get the older version of Telerik® UI for ASP.NET AJAX
+	* Sometimes the .NET Framework wrongly caches the Telerik® UI for ASP.NET AJAX's DLL and therefore the update may seem to have failed. Try the following to ensure that this is not the case:
 		1. Terminate the aspnet_wp.exe process (from the Windows Task Manager)
 		1. Open a Windows Explorer and navigate to C:\Windows(WINNT)\Microsoft.NET\Framework\v[YOUR_VERSION]\Temporary ASP.NET Files
-		1. Delete all folders with names, corresponding to your Telerik projects, i.e. Telerik® UI for ASP.NET Ajax, etc.
+		1. Delete all folders with names, corresponding to your Telerik projects, i.e. Telerik® UI for ASP.NET AJAX, etc.
 	* Delete your Visual Studio web project cache(s) - it should be located in C:\Documents and Settings\[YOUR USER]\VSWebCache.
 	* Delete your browser cache: Tools -> Internet Options -> Delete Files....
 
-1. If you get a copyright message - the copyright message appears only when using the trial version of Telerik® UI for ASP.NET Ajax (the Developer versions of Telerik controls do not throw copyright messages).If you have purchased the controls, then you have downloaded the wrong "DLLs only" file. Make sure you you download the proper, developer file - you will recognize it by the **Dev** suffix in the file name.
+1. If you get a copyright message - the copyright message appears only when using the trial version of Telerik® UI for ASP.NET AJAX (the Developer versions of Telerik controls do not throw copyright messages).If you have purchased the controls, then you have downloaded the wrong "DLLs only" file. Make sure you you download the proper, developer file - you will recognize it by the **Dev** suffix in the file name.
 
 ## See Also
 

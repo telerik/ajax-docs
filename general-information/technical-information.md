@@ -13,24 +13,24 @@ position: 0
 
 ## System Requirements
 
-The following page describes the system requirements needed by *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - System Requirements](http://www.telerik.com/products/aspnet-ajax/getting-started/tech-sheets/system-requirements.aspx)
+The following page describes the system requirements needed by *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - System Requirements](http://www.telerik.com/products/aspnet-ajax/getting-started/tech-sheets/system-requirements.aspx)
 
 ## Browser Support
 
-The following page shows all browsers and versions supported by *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - Browser Support](http://www.telerik.com/products/aspnet-ajax/getting-started/tech-sheets/browser-support.aspx)
+The following page shows all browsers and versions supported by *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - Browser Support](http://www.telerik.com/products/aspnet-ajax/getting-started/tech-sheets/browser-support.aspx)
 
 ## HTML5 Compliance
 
-The following page lists the controls that pass HTML 5 validation in *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - HTML5 Compliance](http://www.telerik.com/aspnet-ajax/tech-sheets/html5-compliance)
+The following page lists the controls that pass HTML 5 validation in *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - HTML5 Compliance](http://www.telerik.com/aspnet-ajax/tech-sheets/html5-compliance)
 
 ## XHTML Compliance
 
-The following page describes the XHTML compliance of *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - XHTML Compliance](http://www.telerik.com/aspnet-ajax/tech-sheets/xhtml-compliance)
+The following page describes the XHTML compliance of *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - XHTML Compliance](http://www.telerik.com/aspnet-ajax/tech-sheets/xhtml-compliance)
 
 ## Accessibility Support
 
-The following page lists the W3C compliance level and Section 508 compliance of *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - Accessibility Support](http://www.telerik.com/aspnet-ajax/tech-sheets/accessibility-support)
+The following page lists the W3C compliance level and Section 508 compliance of *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - Accessibility Support](http://www.telerik.com/aspnet-ajax/tech-sheets/accessibility-support)
 
 ## Localization and Right-to-Left Support
 
-The following page shows the localization and right-to-left support of *Telerik® UI for ASP.NET Ajax*: [Telerik® UI for ASP.NET Ajax - Localization and Right-to-Left Support](http://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)
+The following page shows the localization and right-to-left support of *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - Localization and Right-to-Left Support](http://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)

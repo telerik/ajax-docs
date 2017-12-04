@@ -47,7 +47,7 @@ This problem is caused by a breaking change in .NET 4.0 described [here](http://
 
 When the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control is set to `true` it will:
 
-* Create `<script>` new tags in the `<head>` with the `src` attributes of the `<script>` tags that exist in the response. This will cause the browser to request them. When `IScriptControl` instances like the Telerik® UI for ASP.NET Ajax controls are present, they will bring all their scripts with the response each time, which means that each callback will request them again.
+* Create `<script>` new tags in the `<head>` with the `src` attributes of the `<script>` tags that exist in the response. This will cause the browser to request them. When `IScriptControl` instances like the Telerik® UI for ASP.NET AJAX controls are present, they will bring all their scripts with the response each time, which means that each callback will request them again.
 * Copy `<script>` tags with inline content to the page where they will be evaluated. This may cause code to run multiple times and cause a [Type xxxxxxxx has already been registered](#type-xxxxxxxx-has-already-been-registered) error or some logic to run unexpectedly several times.
 
 This behavior is expected and the performance hit or re-evaluation of scripts is not acceptable, you can:
@@ -58,7 +58,7 @@ This behavior is expected and the performance hit or re-evaluation of scripts is
 
 ## Type xxxxxxxx Has Already Been Registered
 
-This error can be raised if an `IScriptControl` instance like a control from the Telerik® UI for ASP.NET Ajax suite is included in the callback and the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control is set to `true`. It will cause the scripts for the `IScriptControl` instance to be re-evaluated and if they run twice, they may register types, events and namespaces numerous times.
+This error can be raised if an `IScriptControl` instance like a control from the Telerik® UI for ASP.NET AJAX suite is included in the callback and the `EnableClientScriptEvaluation` property of the RadXmlHttpPanel control is set to `true`. It will cause the scripts for the `IScriptControl` instance to be re-evaluated and if they run twice, they may register types, events and namespaces numerous times.
 
 This problem is to be expected in such a scenario and you can avoid it in a few ways:
 
@@ -71,7 +71,7 @@ This problem is to be expected in such a scenario and you can avoid it in a few 
 
 ## Client-side Objects Not Available
 
-When you place an `IScriptControl` object (like the ones from the Telerik® UI for ASP.NET Ajax suite) inside a **RadXmlHttpPanel** and you invoke a callback, the client-side object is not available anymore (e.g., `$find()` returns `null`).
+When you place an `IScriptControl` object (like the ones from the Telerik® UI for ASP.NET AJAX suite) inside a **RadXmlHttpPanel** and you invoke a callback, the client-side object is not available anymore (e.g., `$find()` returns `null`).
 
 This happens because callbacks are not designed to return complex controls, scripts, HTML and to execute the full code. Here is an example process sequence:
 

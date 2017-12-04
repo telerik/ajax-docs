@@ -23,7 +23,7 @@ This article explains the entries a Telerik-enabled Web Site or Web Application 
 
 ## Mandatory Additions to the web.config
 
-For the controls from the Telerik® UI for ASP.NET Ajax suite to function, **the needed HTTP handlers must be registered in the web.config** (**Example 1**).
+For the controls from the Telerik® UI for ASP.NET AJAX suite to function, **the needed HTTP handlers must be registered in the web.config** (**Example 1**).
 
 
 There are several ways to add the HTTP handlers:
@@ -37,7 +37,7 @@ There are several ways to add the HTTP handlers:
 >
 >As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys. 
 
->caption **Example 1**: The mandatory web.config additions needed by the Telerik® UI for ASP.NET Ajax suite.
+>caption **Example 1**: The mandatory web.config additions needed by the Telerik® UI for ASP.NET AJAX suite.
 
 ````web.config
 <configuration>
@@ -162,7 +162,7 @@ There are various control properties that you can set from the web.config for an
 
 You can add any of the keys below in a similar fashion. 
 
-Here follows a list with all the available `appSettings` keys for the Telerik® UI for ASP.NET Ajax controls:
+Here follows a list with all the available `appSettings` keys for the Telerik® UI for ASP.NET AJAX controls:
 
 * **BindGridInvisibleColumns**—when set to true, all columns in a RadGrid which have the Visible property to false will bind their data. You can read more about its use case in the [Breaking change: Hidden column cell text is not persisted in ViewState](http://www.telerik.com/forums/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate) forum thread. 
 

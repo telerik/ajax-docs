@@ -1,14 +1,14 @@
 ---
-title: Test Studio Translators for Telerik® UI for ASP.NET Ajax 
-page_title: Test Studio Translators for Telerik® UI for ASP.NET Ajax  | UI for ASP.NET AJAX Documentation
-description: Test Studio Translators for Telerik® UI for ASP.NET Ajax 
+title: Test Studio Translators for Telerik® UI for ASP.NET AJAX 
+page_title: Test Studio Translators for Telerik® UI for ASP.NET AJAX  | UI for ASP.NET AJAX Documentation
+description: Test Studio Translators for Telerik® UI for ASP.NET AJAX 
 slug: introduction/testing-with-test-studio/test-studio-translators-for-telerik-ui-for-asp.net-ajax-
 tags: test,studio,translators,for,telerik,ui,for,asp.net,ajax,
 published: True
 position: 1
 ---
 
-# Test Studio Translators for Telerik® UI for ASP.NET Ajax 
+# Test Studio Translators for Telerik® UI for ASP.NET AJAX 
 
 
 
@@ -50,7 +50,7 @@ Telerik controls translators have a base group of intrinsic translators that are
 
 ## The Translator Advantage
 
-Test Studio translators allow more control and flexibility in testing Telerik® UI for ASP.NET Ajax, and make testing these controls faster and easier. Because the translator exposes variables and actions specific to the control, you can save time in building verifications and reduce the number of steps to automate complex actions. For example, clicking the ‘Next Page’ button on a RadGrid records a special ‘load next page’ step. If you want to alter this step to load a different page, you can do so from a menu in the Steps Pane.
+Test Studio translators allow more control and flexibility in testing Telerik® UI for ASP.NET AJAX, and make testing these controls faster and easier. Because the translator exposes variables and actions specific to the control, you can save time in building verifications and reduce the number of steps to automate complex actions. For example, clicking the ‘Next Page’ button on a RadGrid records a special ‘load next page’ step. If you want to alter this step to load a different page, you can do so from a menu in the Steps Pane.
 
 ![Steps pane](images/introduction-teststudio-translators-steps-pane.png)
 
@@ -58,4 +58,4 @@ You can also perform verifications against properties that are not reflected dir
 
 ![Verifications](images/introduction-teststudio-translators-verifications.png)
 
-These are just two of the many scenarios where translators make testing controls easier. Using [Telerik® UI for ASP.NET Ajax translators for Test Studio](http://docs.telerik.com/teststudio/getting-started/test-recording/translators), you can gain more control over actions and verifications while spending less time building and maintaining your tests.
+These are just two of the many scenarios where translators make testing controls easier. Using [Telerik® UI for ASP.NET AJAX translators for Test Studio](http://docs.telerik.com/teststudio/getting-started/test-recording/translators), you can gain more control over actions and verifications while spending less time building and maintaining your tests.

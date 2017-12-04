@@ -46,7 +46,7 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 
 In order to decorate all of the controls on the page, the RadFormDecorator decorates the children controls of the complex controls as well (i.e., the RadFormDecorator iterates through the controls' collections). 
 
-There is, however, a binding issue with the GridView when the SqlDataSource is used with a ControlParameter and at the same time, the GridView's collection is accessed from the code behind. This issue can be easily reproduced on a page with no Telerik® UI for ASP.NET Ajax controls and is shown in **Example 2**. The problem also affects the scenario with the RadFormDecorator from **Example 1**.
+There is, however, a binding issue with the GridView when the SqlDataSource is used with a ControlParameter and at the same time, the GridView's collection is accessed from the code behind. This issue can be easily reproduced on a page with no Telerik® UI for ASP.NET AJAX controls and is shown in **Example 2**. The problem also affects the scenario with the RadFormDecorator from **Example 1**.
 
 >caption **Example 2**: asp:GridView cannot be bound to the SqlDataSource with a ControlParameter when the GridView's collection is accessed from the code behind.
 

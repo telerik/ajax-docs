@@ -34,7 +34,7 @@ Highlights:
 
 * Generate Test Studio tests for nUnit, MbUnit, xUnit or MSUnit
 
-* Native support for testing controls from the Telerik® UI for ASP.NET Ajax
+* Native support for testing controls from the Telerik® UI for ASP.NET AJAX
 
 * Standalone app for QAs that’s compatible with the Visual Studio plugin
 

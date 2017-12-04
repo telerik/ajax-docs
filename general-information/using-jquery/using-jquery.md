@@ -12,7 +12,7 @@ position: 1
 
 
 
-This help articles shows how to include and use embedded and external jQuery with Telerik® UI for ASP.NET Ajax suite and lists the jQuery version history used by the controls.
+This help articles shows how to include and use embedded and external jQuery with Telerik® UI for ASP.NET AJAX suite and lists the jQuery version history used by the controls.
 
 1. [Including jQuery](#including-jquery)
 
@@ -186,29 +186,29 @@ Use any of the approaches above.
 
 ## jQuery Version History in Telerik UI Controls
 
-Telerik® UI for ASP.NET Ajax Q3 2014 - present are using jQuery version 1.11.1
+Telerik® UI for ASP.NET AJAX Q3 2014 - present are using jQuery version 1.11.1
 
-Telerik® UI for ASP.NET Ajax Q1 2013 SP1 - Q2 2014 SP1 are using jQuery version 1.9.1
+Telerik® UI for ASP.NET AJAX Q1 2013 SP1 - Q2 2014 SP1 are using jQuery version 1.9.1
 
-Telerik® UI for ASP.NET Ajax Q1 2012 SP1 - Q1 2013 are using jQuery version 1.7.2
+Telerik® UI for ASP.NET AJAX Q1 2012 SP1 - Q1 2013 are using jQuery version 1.7.2
 
-Telerik® UI for ASP.NET Ajax Q3 2011 SP1 / Q1 2012 are using jQuery version 1.7.1
+Telerik® UI for ASP.NET AJAX Q3 2011 SP1 / Q1 2012 are using jQuery version 1.7.1
 
-Telerik® UI for ASP.NET Ajax Q2 2011 SP1 / Q3 2011 are using jQuery version 1.6.4
+Telerik® UI for ASP.NET AJAX Q2 2011 SP1 / Q3 2011 are using jQuery version 1.6.4
 
-Telerik® UI for ASP.NET Ajax Q2 2011 are using jQuery version 1.6.2
+Telerik® UI for ASP.NET AJAX Q2 2011 are using jQuery version 1.6.2
 
-Telerik® UI for ASP.NET Ajax Q1 2011 SP1 / SP2 are using jQuery version 1.5.2
+Telerik® UI for ASP.NET AJAX Q1 2011 SP1 / SP2 are using jQuery version 1.5.2
 
-Telerik® UI for ASP.NET Ajax Q1 2011 are using jQuery version 1.5.1
+Telerik® UI for ASP.NET AJAX Q1 2011 are using jQuery version 1.5.1
 
-Telerik® UI for ASP.NET Ajax Q3 2010 SP1 / SP2 are using jQuery version 1.4.4
+Telerik® UI for ASP.NET AJAX Q3 2010 SP1 / SP2 are using jQuery version 1.4.4
 
-Telerik® UI for ASP.NET Ajax Q3 2010 are using jQuery version 1.4.3
+Telerik® UI for ASP.NET AJAX Q3 2010 are using jQuery version 1.4.3
 
-Telerik® UI for ASP.NET Ajax Q1 / Q2 2010 are using jQuery version 1.4.2
+Telerik® UI for ASP.NET AJAX Q1 / Q2 2010 are using jQuery version 1.4.2
 
-Telerik® UI for ASP.NET Ajax Q1 / Q2 2009 are using jQuery version 1.3.2
+Telerik® UI for ASP.NET AJAX Q1 / Q2 2009 are using jQuery version 1.3.2
 
 
 ## Telerik UI Controls Using jQuery

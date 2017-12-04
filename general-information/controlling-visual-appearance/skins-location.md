@@ -31,4 +31,4 @@ This means that if you are using a skin different than the Default you need to i
 
  * [New Telerik AJAX Skins Assembly in Q2'11](http://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)
 
- * [Separate Skin Assembly in Telerik® UI for ASP.NET Ajax with Q3'11](http://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)
+ * [Separate Skin Assembly in Telerik® UI for ASP.NET AJAX with Q3'11](http://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)

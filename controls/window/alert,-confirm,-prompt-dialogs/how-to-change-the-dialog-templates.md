@@ -12,7 +12,7 @@ position: 4
 
 The look of the predefined dialogs that appear when you call **RadAlert, RadConfirm**, or **RadPrompt** is controlled by templates that correspond to each dialog. To get the current code for these templates, you need to put a RadWindowManager on your page, run it in your browser and examine the HTML dump.
 
->important Because of the changes that were made in controls' skins in Q1 2009 version of the Telerik® UI for ASP.NET Ajax suite, the templates are using different classes. Below you can see the templates for RadWindowManagerpre-Q1 2009 and RadWindowManager Qx 2009. They are declared in RadWindowManager's Templates collection for convenience.
+>important Because of the changes that were made in controls' skins in Q1 2009 version of the Telerik® UI for ASP.NET AJAX suite, the templates are using different classes. Below you can see the templates for RadWindowManagerpre-Q1 2009 and RadWindowManager Qx 2009. They are declared in RadWindowManager's Templates collection for convenience.
 >The [Lightweight RenderMode]({%slug window/mobile-support/render-modes%}) that was added in Q2 2013 comes with a different set of templates as well. You can find them below.
 
 The parameters provided to the template are the following:

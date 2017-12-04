@@ -10,7 +10,7 @@ position: 0
 
 # FormDecorator Overview
 
-**RadFormDecorator** is part of Telerik® UI for ASP.NET Ajax Suite that enables CSS skinning of:
+**RadFormDecorator** is part of Telerik® UI for ASP.NET AJAX Suite that enables CSS skinning of:
 
 * Buttons
 

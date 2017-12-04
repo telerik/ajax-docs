@@ -58,7 +58,7 @@ If the **NewLineMode** property is used with its default value ("Br") some known
 
 ## How to Get the Old Behavior Back
 
->note For the convenience of the developers who are using the functionality to roll-back the behavior, we want to assure you that the following JavaScript files	will be included in all the future releases of the Telerik® UI for ASP.NET Ajax suite. Also it should be noted that they are deprecated and there will be no further implementation in their logic.
+>note For the convenience of the developers who are using the functionality to roll-back the behavior, we want to assure you that the following JavaScript files	will be included in all the future releases of the Telerik® UI for ASP.NET AJAX suite. Also it should be noted that they are deprecated and there will be no further implementation in their logic.
 
 In order to ease the transition between the old and the new behavior of the commands and allow the developers to decide whether to implement or not the introduced breaking change,there is a built-in ability that offers the possibility of bringing back their old behavior.
 

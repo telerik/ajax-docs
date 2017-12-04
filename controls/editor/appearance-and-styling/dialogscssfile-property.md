@@ -14,7 +14,7 @@ In the Q2 2008 release we have introduced a new editor property named **DialogCs
 
 1. Set the **EnableEmbeddedSkins** property to **false**
 
-1. Place the editor's **Skins** folder within your web application - the **Skins** folder can be found in the controls' installation folder of the Telerik® UI for ASP.NET Ajax suite.
+1. Place the editor's **Skins** folder within your web application - the **Skins** folder can be found in the controls' installation folder of the Telerik® UI for ASP.NET AJAX suite.
 
 1. Choose the desired skin and set the editor's **Skin** property to point to it e.g. `Skin = "Default"`
 

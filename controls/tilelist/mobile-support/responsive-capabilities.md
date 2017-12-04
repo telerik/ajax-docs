@@ -179,7 +179,7 @@ html, body, form
 
 
 
-You can find the actual images by downloading the Telerik® UI for ASP.NET Ajax Live Demos from your account. At the root of the site, the *Img* folder contains a lot of images, and some of them are used for the examples in this help article. You can find the chart icon for the	**RadIconTile** example in the *TileList\Img\Icons* folder.You may also find useful the [RadTileList Data Binding demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/databinding/defaultcs.aspx) that you can use as base to easily generate a lot of tiles from a data source.
+You can find the actual images by downloading the Telerik® UI for ASP.NET AJAX Live Demos from your account. At the root of the site, the *Img* folder contains a lot of images, and some of them are used for the examples in this help article. You can find the chart icon for the	**RadIconTile** example in the *TileList\Img\Icons* folder.You may also find useful the [RadTileList Data Binding demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/databinding/defaultcs.aspx) that you can use as base to easily generate a lot of tiles from a data source.
 
 # See Also
 

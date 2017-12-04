@@ -24,7 +24,7 @@ To modify an existing chart skin you can follow the steps below:
 
 1. Go to your [telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and download the source code of the UI for ASP.NET AJAX controls. The file is called `Telerik_UI_for_ASP.NET_AJAX_<version>_Source.zip`
 
-1. Go to the `Telerik.Web.UI\HtmlChart` folder of the Telerik® UI for ASP.NET Ajax Source Code.
+1. Go to the `Telerik.Web.UI\HtmlChart` folder of the Telerik® UI for ASP.NET AJAX Source Code.
 
 1. Copy the `RadHtmlChartSkins.js` file to your project and open it.
 

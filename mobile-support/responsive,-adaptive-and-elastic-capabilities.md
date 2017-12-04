@@ -126,7 +126,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 **Example 1** demonstrates how setting the default font size of the page can affect all Telerik controls in it.
 **Example 2** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 3** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) help article.
 
-@[template](/_templates/common/font-size-notes.md#note-and-example "control: each Telerik® UI for ASP.NET Ajax control")
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: each Telerik® UI for ASP.NET AJAX control")
 
 **Example 2:** CSS selectors to make avail of the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
 

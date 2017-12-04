@@ -13,7 +13,7 @@ The appearance of **@{control}** may be distorted (**Figure 1**) when the contro
 #cause-resolve
 ## Cause of the Problem
 
-Generally, controls from the Telerik® UI for ASP.NET Ajax suite that use the same styles support only a single type of `RenderMode` per page. This also includes instances from user controls and master pages.
+Generally, controls from the Telerik® UI for ASP.NET AJAX suite that use the same styles support only a single type of `RenderMode` per page. This also includes instances from user controls and master pages.
 
 **RadButton**, **@{control}** and controls that utilize them, however, share similar resources. Since **@{control}** supports only a `Lightweight` `RenderMode`, its styles may interfere with the styles of the `Classic` **RadButton**. The improper appearance is shown in **Figure 1** and the code that creates it shown in **Example 1**.
 

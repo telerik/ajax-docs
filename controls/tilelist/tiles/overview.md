@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadTile** is a flexible UI component that brings the new Windows 8 Start Menu interface into the web applications	and sites. In the previous version of Telerik® UI for ASP.NET Ajax they were used as a set of components in the [RadTileList]({%slug tilelist/overview%}). Since **Q3 2013** the Tiles can be used as a separate control outside of [RadTileList]({%slug tilelist/overview%}).
+**RadTile** is a flexible UI component that brings the new Windows 8 Start Menu interface into the web applications	and sites. In the previous version of Telerik® UI for ASP.NET AJAX they were used as a set of components in the [RadTileList]({%slug tilelist/overview%}). Since **Q3 2013** the Tiles can be used as a separate control outside of [RadTileList]({%slug tilelist/overview%}).
 
 ## Tile Types
 

@@ -14,7 +14,7 @@ position: 0
 
 **RadLiveTile** is designed to load content on demand from a Webservice on a predefined interval. It [supports various webservice types]({%slug tilelist/tiles/live-tile/loading-data%}) like WCF services, Page Methods and OData services.
 
-The **RadLiveTile** control was added to the Telerik® UI for ASP.NET Ajax suite in **Q3 2013**.
+The **RadLiveTile** control was added to the Telerik® UI for ASP.NET AJAX suite in **Q3 2013**.
 
 When the **UpdateInterval** times out a **request to the service is made** and when the data is received the **ClientTemplate** is **populated and shown** with an animation. If a PeekTemplate is shown at this point it is hidden regardless of its own timers because the ClientTemplate has higher priority.
 

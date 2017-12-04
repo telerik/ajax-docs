@@ -45,6 +45,6 @@ RadEditor can be configured to use **ASP.NET 2.0 Themes** in the same manner as 
 		</telerik:RadEditor>
 
 
->caution The controls form the Telerik® UI for ASP.NET Ajax suite in general and the editor control in specific, have both a **Skin** and **SkinID** Properties. **SkinID** refers to the general theming mechanism introduced in ASP.NET 2.0 and applies to standard ASP.NET controls, such as asp:Button. The **Skin** property refers to the Telerik® UI for ASP.NET Ajax **-** specific theming mechanism and allows you to set a number of CSS styles to a Telerik control at one time.
+>caution The controls form the Telerik® UI for ASP.NET AJAX suite in general and the editor control in specific, have both a **Skin** and **SkinID** Properties. **SkinID** refers to the general theming mechanism introduced in ASP.NET 2.0 and applies to standard ASP.NET controls, such as asp:Button. The **Skin** property refers to the Telerik® UI for ASP.NET AJAX **-** specific theming mechanism and allows you to set a number of CSS styles to a Telerik control at one time.
 
 More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb%28vs.80%29.aspx).

@@ -10,7 +10,7 @@ position: 24
 
 # FIPS Compatibility
 
-This article explains the FIPS compatibility of the Progress Telerik® UI for ASP.NET Ajax suite.
+This article explains the FIPS compatibility of the Progress Telerik® UI for ASP.NET AJAX suite.
 
 Sections in this article:
 

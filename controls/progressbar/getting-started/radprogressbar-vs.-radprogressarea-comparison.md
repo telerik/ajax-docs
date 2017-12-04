@@ -10,7 +10,7 @@ position: 2
 
 # RadProgressBar vs. RadProgressArea Comparison
 
-This article explains the differences between the **RadProgressBar** and **RadProgressArea** controls from the Telerik® UI for ASP.NET Ajax suite.
+This article explains the differences between the **RadProgressBar** and **RadProgressArea** controls from the Telerik® UI for ASP.NET AJAX suite.
 
 >caption Figure 1: RadProgressBar control
 

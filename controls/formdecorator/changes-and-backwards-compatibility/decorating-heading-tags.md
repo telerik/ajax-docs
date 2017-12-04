@@ -120,7 +120,7 @@ The default font-size metrics of decorated heading tags are changed from px to e
 
 ## Heading Tags with Custom Classes will not be Decorated
 
-When a custom class is applied to a heading tag it will be perceived as a customly styled element and hence **RadFormDecorator** will skip it from decoration. This behavior also resolves styles overriding issues when **RadFormDecorator** is integrated with other controls from the Telerik® UI for ASP.NET Ajax suite. 
+When a custom class is applied to a heading tag it will be perceived as a customly styled element and hence **RadFormDecorator** will skip it from decoration. This behavior also resolves styles overriding issues when **RadFormDecorator** is integrated with other controls from the Telerik® UI for ASP.NET AJAX suite. 
 
 ## See Also
 

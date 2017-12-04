@@ -103,7 +103,7 @@ Additional information is available in this blog post: [Web Resources demystifie
 
 **Suggested Solution**:
 
-This error occurs when you have added a control from Telerik® UI for ASP.NET Ajax but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
+This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."
 
@@ -113,14 +113,14 @@ This error occurs when you have added a control from Telerik® UI for ASP.NET Aj
 
 **Suggested Solution**:
 
-This error occurs when you have added a control from Telerik® UI for ASP.NET Ajax to a page that does not contain a **ScriptManager** control. To resolve this error, please add a **ScriptManager** control to your page:
+This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX to a page that does not contain a **ScriptManager** control. To resolve this error, please add a **ScriptManager** control to your page:
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" /> 
 ````
 
 
-If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik® UI for ASP.NET Ajax suite. For further details about the **ScriptManager** control, you can read this article [http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
+If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik® UI for ASP.NET AJAX suite. For further details about the **ScriptManager** control, you can read this article [http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
 
 ## Error message, "Microsoft JScript runtime error: 'Sys' is undefined"
 
@@ -130,7 +130,7 @@ If you are using master pages, you can add the **ScriptManager** control there. 
 
 **Suggested Solution**:
 
-This error occurs when you have added a control from Telerik® UI for ASP.NET Ajax but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
+This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The Controls collection cannot be modified because the control contains code blocks"
 

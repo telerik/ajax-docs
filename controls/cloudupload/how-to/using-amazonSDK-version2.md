@@ -14,7 +14,7 @@ As specified in the [Changes and Backwards Compatibility]({%slug cloudupload/cha
 
 However, if you need to keep on using the previously referenced to Amazon SDK v2 in version Q1 2017 or later, you can follow the following steps:
 
-1. Download the source code of the Telerik® UI for ASP.NET Ajax from your account.
+1. Download the source code of the Telerik® UI for ASP.NET AJAX from your account.
 
 	![ComboBox Skins Thumbnails](images/myaccount.png) 
 

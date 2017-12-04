@@ -18,7 +18,7 @@ This article shows how to create an AJAX-enabled SharePoint WebPart that uses Te
 
 * The article assumes that you already have ASP.NET AJAX installed and configured on the target MOSS installation. If haven’t, you can follow [this excellent blog post by Mike Ammerlaan](http://sharepoint.microsoft.com/blogs/mike/Lists/Posts/Post.aspx?ID=3).
 
-* The next step is to deploy Telerik® UI for ASP.NET Ajax to the SharePoint server. You can find instructions at [Deploying Telerik® UI for ASP.NET Ajax]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%})
+* The next step is to deploy Telerik® UI for ASP.NET AJAX to the SharePoint server. You can find instructions at [Deploying Telerik® UI for ASP.NET AJAX]({%slug sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax%})
 
 * To simplify creating, deploying and debugging the web part, we’ll use the ‘Visual Studio extensions for Windows SharePoint Services’. These extensions can be found at the following URLs:
 

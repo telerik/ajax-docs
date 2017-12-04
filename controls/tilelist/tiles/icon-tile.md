@@ -26,7 +26,7 @@ A **RadIconTile** has an image centered in its content area that is called an ic
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadIconTile ImageUrl="icon_ajax.png" Shape="Wide">
-				<Title Text="Telerik® UI for ASP.NET Ajax"></Title>
+				<Title Text="Telerik® UI for ASP.NET AJAX"></Title>
 				<PeekTemplate>
 					<div style="padding: 20px; width: 290px; height: 110px; background-color: #007D33; color: White; font-size: 18px;">
 						Cut your development time while building awesome apps with the performance you desire.
@@ -44,7 +44,7 @@ Standalone **Tile** example:
 
 ````ASP.NET
 <telerik:RadIconTile ID="Tile1" runat="server" ImageUrl="icon_ajax.png" Shape="Wide">
-	<Title Text="Telerik® UI for ASP.NET Ajax"></Title>
+	<Title Text="Telerik® UI for ASP.NET AJAX"></Title>
 	<PeekTemplate>
 		<div style="padding: 20px; width: 290px; height: 110px; background-color: #007D33; color: White; font-size: 18px;">
 			Cut your development time while building awesome apps with the performance you desire.

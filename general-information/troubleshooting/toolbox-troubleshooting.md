@@ -12,25 +12,25 @@ position: 4
 
 
 
-This article explains the most common issues and their solutions related to the Visual Studio Toolbox and the Telerik® UI for ASP.NET Ajax controls:
+This article explains the most common issues and their solutions related to the Visual Studio Toolbox and the Telerik® UI for ASP.NET AJAX controls:
 
-* [The Telerik® UI for ASP.NET Ajax controls do not appear in the toolbox](#the-telerik-ui-for-aspnet-ajax-controls-do-not-appear-in-the-toolbox)
+* [The Telerik® UI for ASP.NET AJAX controls do not appear in the toolbox](#the-telerik-ui-for-aspnet-ajax-controls-do-not-appear-in-the-toolbox)
 
 * [The Toolbox Contains Old Item Registrations](#the-toolbox-contains-old-item-registrations)
 
 * [Missing or Disabled Toolbox Items](#missing-or-disabled-toolbox-items)
 
-## The Telerik® UI for ASP.NET Ajax Controls do not Appear in the Toolbox
+## The Telerik® UI for ASP.NET AJAX Controls do not Appear in the Toolbox
 
 *Problem:*
 
-**Telerik® UI for ASP.NET Ajax controls do not appear in the toolbox**
+**Telerik® UI for ASP.NET AJAX controls do not appear in the toolbox**
 
 *Reasons and Suggested solutions:*
 
-**Reason 1**: The Visual Studio Extensions feature if the Telerik® UI for ASP.NET Ajax installer was not installed.
+**Reason 1**: The Visual Studio Extensions feature if the Telerik® UI for ASP.NET AJAX installer was not installed.
 
-**Solution 1**: Uninstall Telerik® UI for ASP.NET Ajax and run the installer again. Click the **"Custom"** button in the Setup Type screen and ensure the **"Visual Studio Extensions for Visual Studio xxxx"** feature is selected for install.
+**Solution 1**: Uninstall Telerik® UI for ASP.NET AJAX and run the installer again. Click the **"Custom"** button in the Setup Type screen and ensure the **"Visual Studio Extensions for Visual Studio xxxx"** feature is selected for install.
 
 
 **Reason 2**: Custom/third-party/Telerik exe-installer used to register Telerik controls to the toolbox, that prevent the ToolboxControlInstaller package of the IDE run correctly.
@@ -45,7 +45,7 @@ Regardless of the cause, you can always try:
 
 Problem:
 
-**Uninstalled the old Telerik® UI for ASP.NET Ajax version, installed the new one, but the ToolBox contains the old item registrations**
+**Uninstalled the old Telerik® UI for ASP.NET AJAX version, installed the new one, but the ToolBox contains the old item registrations**
 
 *Reason:*
 

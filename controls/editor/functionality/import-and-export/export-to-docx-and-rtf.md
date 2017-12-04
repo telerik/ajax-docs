@@ -31,7 +31,7 @@ Quick navigation:
 
 ## Enabling the Export Feature for DOCX and RTF
 
-The built-in implementation of this feature depends on the **Telerik document processing libraries**.Since the **Q2 2014** release, it comes with the installation of the **Telerik® UI for ASP.NET Ajax** suite.You can see how to obtain the needed assemblies in the [Included Assemblies]({% slug introduction/installation/included-assemblies %}) article.
+The built-in implementation of this feature depends on the **Telerik document processing libraries**.Since the **Q2 2014** release, it comes with the installation of the **Telerik® UI for ASP.NET AJAX** suite.You can see how to obtain the needed assemblies in the [Included Assemblies]({% slug introduction/installation/included-assemblies %}) article.
 
 To use the built-in **document processing libraries** integration with the **RadEditor** Export to Word feature,you need to add references to the following assemblies in your project:
 

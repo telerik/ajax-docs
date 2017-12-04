@@ -10,7 +10,7 @@ position: 0
 
 # TouchScrollExtender
 
-The **TouchScrollExtender** is a small self-sustained client-only control that depends only on core.js and the built-in jQuery in Telerik® UI for ASP.NET Ajax. It should work in all browsers regardless if they are desktop or mobile (except the browsers that lack the needed desktop or touch events - Mobile Operas and IEs). In this release Mobile Firefox 4 is not supported as it is still in beta and supports only the Mozilla type of touch events.
+The **TouchScrollExtender** is a small self-sustained client-only control that depends only on core.js and the built-in jQuery in Telerik® UI for ASP.NET AJAX. It should work in all browsers regardless if they are desktop or mobile (except the browsers that lack the needed desktop or touch events - Mobile Operas and IEs). In this release Mobile Firefox 4 is not supported as it is still in beta and supports only the Mozilla type of touch events.
 
 In **Q3 2010** the TouchScrollExtender should be automatically enabled in mobile browsers for the following controls: **RadComboBox**, **RadListBox**, **RadGrid**, **RadToolTip**, **RadWindow**, **RadDock**, **RadSplitter** and **RadXmlHttpPanel**.
 

@@ -14,11 +14,11 @@ position: 3
 
 The **Visual StyleBuilder** tool offers the option to modify an already existing skin by uploading an archive with the proper structure.	This can be one of the built-in skins or a custom skin.
 
->note The format of the archive must match the structure the StyleBuilder expects. This is the structure a skin has in the installation folder of the Telerik® UI for ASP.NET Ajax.
+>note The format of the archive must match the structure the StyleBuilder expects. This is the structure a skin has in the installation folder of the Telerik® UI for ASP.NET AJAX.
 
 
 
-For instance, if you need to alter the Black skin of the RadGrid Control you will need to go to	*[Telerik® UI for ASP.NET Ajax installation folder] [your version of the controls here]\Skins\Black*,	get the folder containing the images needed for the control (named Grid in this example) and the stylesheet applied for the black skin -	*Grid.Black.css* file –	and archive them into a single file (for example this could be Black.zip).
+For instance, if you need to alter the Black skin of the RadGrid Control you will need to go to	*[Telerik® UI for ASP.NET AJAX installation folder] [your version of the controls here]\Skins\Black*,	get the folder containing the images needed for the control (named Grid in this example) and the stylesheet applied for the black skin -	*Grid.Black.css* file –	and archive them into a single file (for example this could be Black.zip).
 
 >tip Some of the Telerik controls are composite controls and use other controls from the suite internally. These additional controls must also be included in the archive with the main one. You can see a list with the required minimum by trying to create a new skin in the StyleBuilder and selecting only the desired control.
 
@@ -36,7 +36,7 @@ Here follows an example how several controls that are used together should look 
 
 1. **Get the skin that you need to alter** 
 
-	To get the needed files for one of the built-in skins you can go to *[Telerik® UI for ASP.NET Ajax installation folder] [your version of the controls]\Skins*where you can find all of the skins of the controls with the default installation of the Telerik controls)so you can choose the skin whose styles you need to alter.You can also use a custom skin that has already been implemented.
+	To get the needed files for one of the built-in skins you can go to *[Telerik® UI for ASP.NET AJAX installation folder] [your version of the controls]\Skins*where you can find all of the skins of the controls with the default installation of the Telerik controls)so you can choose the skin whose styles you need to alter.You can also use a custom skin that has already been implemented.
 
 1. Choose the **Import and Edit Skin** option form the first page inVisual Style Builder and choose to the folder containing the skin (*Black.zip* for this example) file.
 

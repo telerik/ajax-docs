@@ -12,21 +12,21 @@ position: 0
 
 
 
-Visual Studio Extensions for Telerik® UI for ASP.NET Ajax aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET Ajax.
+Visual Studio Extensions for Telerik® UI for ASP.NET AJAX aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
 
-The extensions handle the following major points in the development with Telerik® UI for ASP.NET Ajax:
+The extensions handle the following major points in the development with Telerik® UI for ASP.NET AJAX:
 
 * [Project creation, conversion and configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) - aid with the project configuration which handles reference management, web.config modifications and management of additional resources (scripts, skins …).
 
-* [Project upgrade]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) - upgrading Telerik® UI for ASP.NET Ajax to a new version.
+* [Project upgrade]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) - upgrading Telerik® UI for ASP.NET AJAX to a new version.
 
-* [Common scenario page creation]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard%}) - aid creating pages with the most common scenarios in the usage of Telerik® UI for ASP.NET Ajax.
+* [Common scenario page creation]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard%}) - aid creating pages with the most common scenarios in the usage of Telerik® UI for ASP.NET AJAX.
 
 * [Toolbox configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration%}) - select what version of Telerik UI to be populated in the Toolbox.
 
-Visual Studio Extensions for Telerik® UI for ASP.NET Ajax are distributed with the Telerik® UI for ASP.NET Ajax installer. They can be downloaded and installed as separate product from the Visual Studio Gallery only for Visual Studio 2012 and later. The extensions support Visual Studio 2008, 2010, 2012, 2013, 2015 and 2017 handling.NET 3.5, .NET 4.0 and .NET 4.5 projects.
+Visual Studio Extensions for Telerik® UI for ASP.NET AJAX are distributed with the Telerik® UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the Visual Studio Gallery only for Visual Studio 2012 and later. The extensions support Visual Studio 2008, 2010, 2012, 2013, 2015 and 2017 handling.NET 3.5, .NET 4.0 and .NET 4.5 projects.
 
-The Visual Studio Extensions can be accessed through the Telerik | Telerik® UI for ASP.NET Ajax menu which has different menu items depending on the selected project in Visual Studio. The extensions can be accessed through the context menu of a web project as well.
+The Visual Studio Extensions can be accessed through the Telerik | Telerik® UI for ASP.NET AJAX menu which has different menu items depending on the selected project in Visual Studio. The extensions can be accessed through the context menu of a web project as well.
 
 >caption No selected project in Visual Studio
 ![Telerik menu - create new project](images/introduction-vsx_overview_menucreate.png)

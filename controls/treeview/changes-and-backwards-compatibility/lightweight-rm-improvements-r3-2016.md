@@ -12,7 +12,7 @@ position: 0
 
 ## Introduced changes
 
-The **R3 2016** release of the **Telerik® UI for ASP.NET Ajax** suite introduces several improvements of the **Lightweight** rendering of the **RadTreeView**. As the **RadDropDownTree** uses an embedded **RadTreeView** for its drop-down, those changes apply for that control too.
+The **R3 2016** release of the **Telerik® UI for ASP.NET AJAX** suite introduces several improvements of the **Lightweight** rendering of the **RadTreeView**. As the **RadDropDownTree** uses an embedded **RadTreeView** for its drop-down, those changes apply for that control too.
 
 The improvements introduced might cause some issues with the proper appearance of the control when custom styles are applied. The changes introduced for the structure of the nodes of the tree are listed below:
 

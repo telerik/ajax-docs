@@ -12,7 +12,7 @@ position: 3
 
 
 
-This article describes common issues related to the design-time rendering of the Telerik® UI for ASP.NET Ajax controls. Here is a list with the main sections:
+This article describes common issues related to the design-time rendering of the Telerik® UI for ASP.NET AJAX controls. Here is a list with the main sections:
 
 * [Unknown server tag/Could not load file or assembly errors](#unknown-server-tagcould-not-load-file-or-assembly-errors)
 
@@ -24,7 +24,7 @@ This article describes common issues related to the design-time rendering of the
 
 * [Design-time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
 
->note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET Ajax suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
+>note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
 
 
 
@@ -68,9 +68,9 @@ This article describes common issues related to the design-time rendering of the
 
 		>note When browsing to the Telerik.Web.UI assembly in the context of a WebSite Project, Visual Studio will always add a GAC reference if it finds the same version of the Telerik.Web.UI assembly.
 	
-	1. Use the Convert To Telerik project menu item available under the Telerik -> Telerik® UI for ASP.NET Ajax menu in Visual Studio*.
+	1. Use the Convert To Telerik project menu item available under the Telerik -> Telerik® UI for ASP.NET AJAX menu in Visual Studio*.
 
-		*Available when the Visual Studio Extensions feature has been selected during Telerik® UI for ASP.NET Ajax install.
+		*Available when the Visual Studio Extensions feature has been selected during Telerik® UI for ASP.NET AJAX install.
 
 ## An unhandled exception has occurred. [A][control type] cannot be cast to [B][control type]
 
@@ -145,11 +145,11 @@ On rare occasions, the `designer.cs`/`designer.vb` files may not be updated when
 
 ## Design-time Issues with Visual Studio 2008
 
-Starting from **Q1 2009** (Version 2009.1.311) there is a brand new assembly installed in your GAC - **Telerik.Web.Design.dll**. We decided to separate the design-time code from the web control implementation code. The reasons are many - better separation of concerns, less assembly references for the main assembly (Telerik.Web.UI.dll). We now have the freedom to extend the design time capabilities of Telerik® UI for ASP.NET Ajax without bloating the main control assembly.
+Starting from **Q1 2009** (Version 2009.1.311) there is a brand new assembly installed in your GAC - **Telerik.Web.Design.dll**. We decided to separate the design-time code from the web control implementation code. The reasons are many - better separation of concerns, less assembly references for the main assembly (Telerik.Web.UI.dll). We now have the freedom to extend the design time capabilities of Telerik® UI for ASP.NET AJAX without bloating the main control assembly.
 
 Why didn't we make it that way from the beginning? The only reason is that Visual Studio 2008 had a problem with loading GAC-ed design-time assemblies of control libraries deployed in the BIN folder of a web site. Strangely enough the problem didn't appear in Visual Studio 2005. The good news is that this bug has been fixed in Visual Studio 2008 SP1! The problem does not exist in Visual Studio 2010 RC and Visual Studio 2012 as well.
 
-If you for some reason cannot upgrade to **Visual Studio 2008 SP1** you might face the following exception after upgrading to Telerik® UI for ASP.NET Ajax Q1 2009 or later:
+If you for some reason cannot upgrade to **Visual Studio 2008 SP1** you might face the following exception after upgrading to Telerik® UI for ASP.NET AJAX Q1 2009 or later:
 
 * **Error Creating Control** - Telerik control
 
@@ -159,7 +159,7 @@ If you for some reason cannot upgrade to **Visual Studio 2008 SP1** you might fa
 
 ![](images/introduction-design_time_error_type2.png)
 
->important The instructions below are not applicable if you used the **Telerik® UI for ASP.NET Ajax** installer to setup **Telerik controls** on your machine and you have **Visual Studio 2005** and/or **Visual Studio 2008 SP1** and/or **Visual Studio 2010** and/or **Visual Studio 2012** . The design time should work properly out of the box with that setup.
+>important The instructions below are not applicable if you used the **Telerik® UI for ASP.NET AJAX** installer to setup **Telerik controls** on your machine and you have **Visual Studio 2005** and/or **Visual Studio 2008 SP1** and/or **Visual Studio 2010** and/or **Visual Studio 2012** . The design time should work properly out of the box with that setup.
 
 
 >note The **Telerik.Web.Design** assembly contains the Visual Studio designers of the controls. You don't need to add a reference to it into your project.
@@ -170,7 +170,7 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 
 * Bin-deploy the design-time assembly
 
-	This solution would work only in case you have **not installed** Telerik® UI for ASP.NET Ajax using the provided setup program. Assemblies installed by a setup program cannot be removed from GAC until the program is uninstalled.This approach is suitable when using only the dll-s from a zip (be that a hotfix or latest internal build).
+	This solution would work only in case you have **not installed** Telerik® UI for ASP.NET AJAX using the provided setup program. Assemblies installed by a setup program cannot be removed from GAC until the program is uninstalled.This approach is suitable when using only the dll-s from a zip (be that a hotfix or latest internal build).
 
 	1. Remove Telerik.Web.Design.dll from the GAC (this would fail if you have installed RadCotnrols for ASP.NET Ajax via the installer)
 	
@@ -178,7 +178,7 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 	
 	1. Restart Visual Studio
 
-	>note The [Visual Studio Extensions for Telerik® UI for ASP.NET Ajax help handle this approach]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/telerik-web-design-assembly%}).
+	>note The [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX help handle this approach]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/telerik-web-design-assembly%}).
 
 
 
@@ -198,7 +198,7 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 
 * Copy Telerik.Web.UI.dll to *c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies* and restart Visual Studio.
 
-	>note Using the third approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE. This instance of the error usually happens when upgrading Telerik® UI for ASP.NET Ajax.
+	>note Using the third approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE. This instance of the error usually happens when upgrading Telerik® UI for ASP.NET AJAX.
 
 
 

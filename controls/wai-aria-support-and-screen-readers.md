@@ -15,7 +15,7 @@ position: 12
 
 WAI-ARIA represents a series of HTML attributes that screen readers can use. Attributes like `"role", "area-expanded", "area-haspopup"` and others provide information to the readers and help people with disabilities interact with dynamic content on the page.
 
-Some controls from the Telerik® UI for ASP.NET Ajax suite have support for WAI-ARIA and can, therefore, render such attributes that screen readers can interpret. This help article lists the controls and shows the common way of enabling these attributes.
+Some controls from the Telerik® UI for ASP.NET AJAX suite have support for WAI-ARIA and can, therefore, render such attributes that screen readers can interpret. This help article lists the controls and shows the common way of enabling these attributes.
 
 >note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
 >

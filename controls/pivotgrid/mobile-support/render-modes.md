@@ -22,7 +22,7 @@ The possible options are:
 
 * **Auto** — this option will automatically decide how to render the control on a smartphone, tablet or PC and will switch	between **Classic** and **Mobile** render modes (depending on the used device).
 
->important RadPivotGrid and its child controls, as well as the other controls included in the Telerik® UI for ASP.NET Ajax suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
+>important RadPivotGrid and its child controls, as well as the other controls included in the Telerik® UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
 

@@ -14,11 +14,11 @@ position: 3
 
 ## General information
 
-Deploying a project that uses the Telerik® UI for ASP.NET Ajax to Windows Azure is not very different than deploying a standard application. More information can be found in the following resources:
+Deploying a project that uses the Telerik® UI for ASP.NET AJAX to Windows Azure is not very different than deploying a standard application. More information can be found in the following resources:
 
-* [Telerik® UI for ASP.NET Ajax on Azure from Todd Anglin's blog](http://blogs.telerik.com/toddanglin/posts/09-04-13/radcontrols-for-asp-net-ajax-on-azure-part-1.aspx)
+* [Telerik® UI for ASP.NET AJAX on Azure from Todd Anglin's blog](http://blogs.telerik.com/toddanglin/posts/09-04-13/radcontrols-for-asp-net-ajax-on-azure-part-1.aspx)
 
-* [Deploying Telerik® UI for ASP.NET Ajax to Azure from Todd Anglin's blog](http://blogs.telerik.com/toddanglin/posts/09-04-17/deploying-radcontrols-to-azure.aspx)
+* [Deploying Telerik® UI for ASP.NET AJAX to Azure from Todd Anglin's blog](http://blogs.telerik.com/toddanglin/posts/09-04-17/deploying-radcontrols-to-azure.aspx)
 
 
 ## Common Issues

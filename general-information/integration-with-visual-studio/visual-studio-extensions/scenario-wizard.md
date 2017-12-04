@@ -13,11 +13,11 @@ position: 6
 
 
 
-Visual Studio Extensions provide the user with a number of templates that aid the creation of pages with the most common scenarios in the development with Telerik® UI for ASP.NET Ajax. The scenarios consist of template files, representing an ASPX page or a set of ASPX pages/user controls/custom classes.
+Visual Studio Extensions provide the user with a number of templates that aid the creation of pages with the most common scenarios in the development with Telerik® UI for ASP.NET AJAX. The scenarios consist of template files, representing an ASPX page or a set of ASPX pages/user controls/custom classes.
 
-You can start the Telerik® UI for ASP.NET Ajax Scenario wizard by using one of the following:
+You can start the Telerik® UI for ASP.NET AJAX Scenario wizard by using one of the following:
 
-* Click an Add Scenario menu item from the Telerik® UI for ASP.NET Ajax menu
+* Click an Add Scenario menu item from the Telerik® UI for ASP.NET AJAX menu
 
 	![Scenario Wizard Menu](images/introduction-vsx_scenariowizard_menu.png) 
 

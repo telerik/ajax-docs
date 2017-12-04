@@ -10,7 +10,7 @@ position: 4
 
 # Mobile Browsers Specifics
 
-Most smartphone mobile browsers currently on the market are fairly advanced and Telerik® UI for ASP.NET Ajax work on them with little or no modifications.
+Most smartphone mobile browsers currently on the market are fairly advanced and Telerik® UI for ASP.NET AJAX work on them with little or no modifications.
 
 
 However there are certain specifics in these browsers that one needs to know in order to have Telerik controls working to their full extent:

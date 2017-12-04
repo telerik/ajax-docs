@@ -30,7 +30,7 @@ To spell check multiple text sources:
 
 * Call the RadSpell client object set_textSource() method, passing the new custom text source object instance.
 
->note HtmlElementTextSource is defined in the Telerik.Web.UI.Spell assembly, and registered for availability to JavaScript within RadSpell.js. RadSpell.js is normally a resource and not visible to you, but you can find the JavaScript source in the Telerik® UI for ASP.NET Ajax installation directory under "\scripts".
+>note HtmlElementTextSource is defined in the Telerik.Web.UI.Spell assembly, and registered for availability to JavaScript within RadSpell.js. RadSpell.js is normally a resource and not visible to you, but you can find the JavaScript source in the Telerik® UI for ASP.NET AJAX installation directory under "\scripts".
 
 This general approach can be used not just for TextBoxes, but for spell checking any combination of controls on a web page.
 

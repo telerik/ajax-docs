@@ -10,7 +10,7 @@ position: 0
 
 # Getting Started Overview
 
-**RadWindow** is a part of the Telerik® UI for ASP.NET Ajax suite. It is a container that can display content from the same page	(when used as [controls container]({%slug window/getting-started/using-radwindow-as-controls-container%})) or it can	[display a content page]({%slug window/getting-started/opening-windows%}), different from the parent one.	In the second case, the control uses an IFRAME and behaves like one.
+**RadWindow** is a part of the Telerik® UI for ASP.NET AJAX suite. It is a container that can display content from the same page	(when used as [controls container]({%slug window/getting-started/using-radwindow-as-controls-container%})) or it can	[display a content page]({%slug window/getting-started/opening-windows%}), different from the parent one.	In the second case, the control uses an IFRAME and behaves like one.
 
 This getting started article will walk you through creating a web page that shows how to:
 

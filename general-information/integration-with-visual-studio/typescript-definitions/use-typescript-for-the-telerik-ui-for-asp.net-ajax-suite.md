@@ -1,20 +1,20 @@
 ---
-title: Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite
-page_title: Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite | UI for ASP.NET AJAX Documentation
-description: Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite
+title: Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite
+page_title: Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite | UI for ASP.NET AJAX Documentation
+description: Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite
 tags: use,typescript,for,the,telerik,ui,for,asp.net,ajax,suite
 published: True
 position: 2
 ---
 
-# Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite
+# Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite
 
 
 
-This article explains how to use the **TypeScript definitions**	available for the **Telerik® UI for ASP.NET Ajax** suite.
+This article explains how to use the **TypeScript definitions**	available for the **Telerik® UI for ASP.NET AJAX** suite.
 
-To continue with this help article, make sure that the	Telerik® UI for ASP.NET Ajax **TypeScript** definitions are properly added	to your Web Application. You can find helpful instructions about that	in the [Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) article.
+To continue with this help article, make sure that the	Telerik® UI for ASP.NET AJAX **TypeScript** definitions are properly added	to your Web Application. You can find helpful instructions about that	in the [Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) article.
 
 You can quickly navigate through the sections in this list:
 
@@ -78,7 +78,7 @@ var btn : Telerik.Web.UI.RadButton;
 
 ## Attaching Event Handlers via Properties
 
-All controls from the Telerik® UI for ASP.NET Ajax suite provide a rich set of client-side events that can be attached via properties (e.g., the RadButton’s OnClientClicking).
+All controls from the Telerik® UI for ASP.NET AJAX suite provide a rich set of client-side events that can be attached via properties (e.g., the RadButton’s OnClientClicking).
 
 The name of the JavaScript function should be set as a value to the event property.The same applies in **TypeScript** as well. Additionally, to have intellisense,you should define the object types of the exposed arguments in the function’s signature	(see **Example 4** and **Figure 3**).
 
@@ -133,4 +133,4 @@ function OnClientCloseHandler(wnd: Telerik.Web.UI.RadWindow, args: Telerik.Web.U
 
  * [What is TypeScript]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/what-is-typescript%})
 
- * [Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})
+ * [Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})

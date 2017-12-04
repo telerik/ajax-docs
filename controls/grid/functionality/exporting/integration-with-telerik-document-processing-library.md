@@ -12,7 +12,7 @@ position: 3
 
 
 
-**Telerik document processing Libraries** allow you export **RadGrid** to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik® UI for ASP.NET Ajax**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
+**Telerik document processing Libraries** allow you export **RadGrid** to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik® UI for ASP.NET AJAX**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
 
 ## Exporting RadGrid to Excel
 

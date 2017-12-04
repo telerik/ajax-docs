@@ -1,22 +1,22 @@
 ---
-title: Deploying Telerik® UI for ASP.NET Ajax
-page_title: Deploying Telerik® UI for ASP.NET Ajax | UI for ASP.NET AJAX Documentation
-description: Deploying Telerik® UI for ASP.NET Ajax
+title: Deploying Telerik® UI for ASP.NET AJAX
+page_title: Deploying Telerik® UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+description: Deploying Telerik® UI for ASP.NET AJAX
 slug: sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax
 tags: deploying,telerik,ui,for,asp.net,ajax
 published: True
 position: 3
 ---
 
-# Deploying Telerik® UI for ASP.NET Ajax
+# Deploying Telerik® UI for ASP.NET AJAX
 
 
 
 
 
-To leverage Telerik® UI for ASP.NET Ajax, some required files must be deployed to each SharePoint Web Front End (WFE) server. Once the required files are deployed, our ASP.NET AJAX can be added to the site by editing the site’s master page(s).
+To leverage Telerik® UI for ASP.NET AJAX, some required files must be deployed to each SharePoint Web Front End (WFE) server. Once the required files are deployed, our ASP.NET AJAX can be added to the site by editing the site’s master page(s).
 
-This section outlines the required steps that need to be taken to deploy Telerik® UI for ASP.NET Ajax prior to implementing it within an existing SharePoint web site.
+This section outlines the required steps that need to be taken to deploy Telerik® UI for ASP.NET AJAX prior to implementing it within an existing SharePoint web site.
 
 1. First you need to install Telerik.Web.UI.dll and Telerik.Web.Design.dll in the GAC (Global Assembly Cache) of your SharePoint server. There are two ways to do this:
 
@@ -48,7 +48,7 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 
 
 
->note Note that the version of the assembly is specified in each **`<SafeControl>`** tag. If deploying a different version of Telerik® UI for ASP.NET Ajax, ensure that the version number is correct here.
+>note Note that the version of the assembly is specified in each **`<SafeControl>`** tag. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 
@@ -91,7 +91,7 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 
 
 
-4. [*Optional*] In order to use **RadEditor for SharePoint**and the .NET 3.5 version of Telerik® UI for ASP.NET Ajax you need to paste the following **`<dependentAssembly>`** elements in the **`<assemblyBinding>`** tag in the web.config file:
+4. [*Optional*] In order to use **RadEditor for SharePoint**and the .NET 3.5 version of Telerik® UI for ASP.NET AJAX you need to paste the following **`<dependentAssembly>`** elements in the **`<assemblyBinding>`** tag in the web.config file:
 
 ````XML
 <dependentAssembly>

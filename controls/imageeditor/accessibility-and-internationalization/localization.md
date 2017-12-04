@@ -16,7 +16,7 @@ position: 3
 
 **RadImageEditor** is fully localized using Global resources. The control comes with three built-in language packs, English, German and French, between you can easily switch be setting the **Language** property or setting **UICulture** property to the @Page directive. The **Language** property is with higher priority than the global **UICulture** setting.
 
-Similar to **RadGrid**, **RadEditor** and **RadScheduler**, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik® UI for ASP.NET Ajax suite’s installation wizard copies the built-in resource files in the **App_GlobalResources** folder in your local installation.
+Similar to **RadGrid**, **RadEditor** and **RadScheduler**, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik® UI for ASP.NET AJAX suite’s installation wizard copies the built-in resource files in the **App_GlobalResources** folder in your local installation.
 
 ![Resource Files Location](images/radimageeditor-resx-files-location.png)
 

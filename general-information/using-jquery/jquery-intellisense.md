@@ -16,7 +16,7 @@ This article shows how to enable the IntelliSense of the embedded in Telerik.Web
 
 Separate sections below explain the cases for the different Visual Studio versions and Telerik.Web.UI versions.
 
-## jQuery IntelliSense in VS 2012 and VS 2013 using Telerik® UI for ASP.NET Ajax Q3 2012 or later
+## jQuery IntelliSense in VS 2012 and VS 2013 using Telerik® UI for ASP.NET AJAX Q3 2012 or later
 
 >note IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes,the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManagerto get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** .
 
@@ -56,9 +56,9 @@ You can also enable it for all pages by creating a custom page and adding it to 
 
 	![introduction-jquery-intellisense-vs 2012-common-page-3](images/introduction-jquery-intellisense-vs2012-common-page-3.png)
 
-## jQuery IntelliSense in VS 2010 using Telerik® UI for ASP.NET Ajax Q2 2011 SP1 or later
+## jQuery IntelliSense in VS 2010 using Telerik® UI for ASP.NET AJAX Q2 2011 SP1 or later
 
-Since the Q2 2011 SP1 release of Telerik® UI for ASP.NET Ajax, IntelliSense is automatically enabled when RadScriptManager is on a page. There is no need to add the previously required ScriptReferences to RadScriptManager to enable IntelliSense:
+Since the Q2 2011 SP1 release of Telerik® UI for ASP.NET AJAX, IntelliSense is automatically enabled when RadScriptManager is on a page. There is no need to add the previously required ScriptReferences to RadScriptManager to enable IntelliSense:
 
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1">
@@ -76,9 +76,9 @@ You no longer need these for jQuery intellisense
 </Scripts>
 ````
 
-## jQuery IntelliSense in VS 2008 using Telerik® UI for ASP.NET Ajax Q1 2011 or later
+## jQuery IntelliSense in VS 2008 using Telerik® UI for ASP.NET AJAX Q1 2011 or later
 
-Since the Q1 2011 release of Telerik® UI for ASP.NET Ajax, jQuery IntelliSense does not work with the scripts embedded in the Telerik.Web.UI.dll. The relevant jQuery scripts can be referenced as external files similarly to the following:
+Since the Q1 2011 release of Telerik® UI for ASP.NET AJAX, jQuery IntelliSense does not work with the scripts embedded in the Telerik.Web.UI.dll. The relevant jQuery scripts can be referenced as external files similarly to the following:
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -88,7 +88,7 @@ Since the Q1 2011 release of Telerik® UI for ASP.NET Ajax, jQuery IntelliSense 
 </asp:ScriptManager>
 ````
 
-## Enable jQuery Intellisense using Telerik® UI for ASP.NET Ajax Q1 2009 SP1 or higher
+## Enable jQuery Intellisense using Telerik® UI for ASP.NET AJAX Q1 2009 SP1 or higher
 
 1. Install Visual Studio 2008 SP1
 
@@ -112,7 +112,7 @@ Here is a screenshot:
 
 ![](images/introduction-jqueryintellisense_each.png)
 
-## Enable jQuery Intellisense using Telerik® UI for ASP.NET Ajax version Q3 2008
+## Enable jQuery Intellisense using Telerik® UI for ASP.NET AJAX version Q3 2008
 
 1. Install Visual Studio 2008 SP1
 

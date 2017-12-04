@@ -12,7 +12,7 @@ position: 2
 
 ## RadEditor for ASP.NET AJAX CSS: Classes and Their Use
 
-Each of the controls included in the Telerik® UI for ASP.NET Ajax suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called **base stylesheet** contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
+Each of the controls included in the Telerik® UI for ASP.NET AJAX suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called **base stylesheet** contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
 
 The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e - Editor.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
@@ -32,7 +32,7 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 1. Go to **~/[ControlsInstallationFolder]/Skins/Default** and copy **Editor.Default.css** and the **Skins/Default/Editor** folder in your **Skins** folder.
 
-	>important If the used **Telerik® UI for ASP.NET Ajax** suite includes Lite and Mobile [Render Modes]({%slug controls/render-modes%}) then it is recommended to include the corresponding skin folders	(e.g. **DefaultLite** and **DefaultMobile** ) and rename them accordingly to **MyCustomSkinLite** and **MyCustomSkinMobile** 
+	>important If the used **Telerik® UI for ASP.NET AJAX** suite includes Lite and Mobile [Render Modes]({%slug controls/render-modes%}) then it is recommended to include the corresponding skin folders	(e.g. **DefaultLite** and **DefaultMobile** ) and rename them accordingly to **MyCustomSkinLite** and **MyCustomSkinMobile** 
 
 1. Rename Editor.**Default**.css to Editor.**MyCustomSkin**.css and the folder **Default** to **MyCustomSkin**.
 
@@ -59,7 +59,7 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 	Make sure the path to the files is correct, otherwise the skin will not apply.
 
-1. Telerik's Editor is a complex control and makes use of other controls from the Telerik® UI for ASP.NET Ajax suite (e.g. RadWindow, RadFormDecorator, RadTabStrip, RadGrid, RadToolBar, RadFileExplorer), please, review the following two articles, and the relevant help topics about skinning these controls:
+1. Telerik's Editor is a complex control and makes use of other controls from the Telerik® UI for ASP.NET AJAX suite (e.g. RadWindow, RadFormDecorator, RadTabStrip, RadGrid, RadToolBar, RadFileExplorer), please, review the following two articles, and the relevant help topics about skinning these controls:
 
 	* If the built-in dialogs of the **RadEditor** are going to be used in your application, you need to create a custom dialog CSS file that imports the files needed for the additionally used controls in ASCX files. You can find more information about this in the [DialogsCssFile Property]({%slug editor/appearance-and-styling/dialogscssfile-property%}) article.
 

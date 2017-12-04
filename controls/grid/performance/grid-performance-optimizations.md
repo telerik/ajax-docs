@@ -61,6 +61,6 @@ When you present large number of records at once you will see delays in the grid
 
 ## See Also
 
- * [UI for ASP.NET Ajax Performance Optimization]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/optimizing-performance %})
+ * [UI for ASP.NET AJAX Performance Optimization]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/optimizing-performance %})
 
  * [Top performance with Telerik controls for ASP.NET AJAX.](http://www.telerik.com/aspnet-ajax/tech-sheets/top-performance)

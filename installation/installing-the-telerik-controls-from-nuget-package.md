@@ -12,13 +12,13 @@ position: 4
 
 
 
-This article explains how to use the NuGet feed and packages provided by Telerik to get the Telerik® UI for ASP.NET Ajax controls in your project.
+This article explains how to use the NuGet feed and packages provided by Telerik to get the Telerik® UI for ASP.NET AJAX controls in your project.
 
 This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 
 
 >caution  **Prerequisite** 
->In order to have the Telerik® UI for ASP.NET Ajax running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
+>In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
 
 
 ## Telerik NuGet Feed in Visual Studio
@@ -49,13 +49,13 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 	![Enter your Telerik.com credentials](images/telerik-nuget-credentials.png)
 
-1. Select the Telerik® UI for ASP.NET Ajax package, e.g., **Telerik.UI.for.AspNet.Ajax.Net45**) and click **Install**. The package name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>` and you should make sure to select the desired Telerik version.
+1. Select the Telerik® UI for ASP.NET AJAX package, e.g., **Telerik.UI.for.AspNet.Ajax.Net45**) and click **Install**. The package name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>` and you should make sure to select the desired Telerik version.
 
 	>tip Search for "telerik.ui.for" to narrow down the list of results and find the package easily.
 
-	>caption Figure 3: Adding the Telerik® UI for ASP.NET Ajax package to the solution
+	>caption Figure 3: Adding the Telerik® UI for ASP.NET AJAX package to the solution
 
-	![Adding the Telerik® UI for ASP.NET Ajax package to the solution](images/add-telerik-package.png)
+	![Adding the Telerik® UI for ASP.NET AJAX package to the solution](images/add-telerik-package.png)
 
 ## Downloading a NuGet Package
 

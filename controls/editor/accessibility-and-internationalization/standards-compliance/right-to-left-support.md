@@ -18,7 +18,7 @@ The **RadEditor** supports right-to-left (RTL) language locales. In order to con
 
 1. RTL for the content area of the **RadEditor**:Use the **ContentAreaCssFile** property of **RadEditor** to include the **EditorContentArea_RTL.css** file: `<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" SkinID="DefaultSetOfTools" Height="350px" DialogsCssFile="./RTL/RadEditor_Dialogs_RTL.css" ContentAreaCssFile="./RTL/EditorContentArea_RTL.css"></telerik:RadEditor>`. The most important part of the **EditorContentArea_RTL.css** file is the **direction: rtl;** for the `<body>` element.
 
->note The CSS files are long and for readability they are not placed in this article. You can find them in the **Live Demos\Editor\Examples\RightToLeft\RTL** folder under your controls for ASP.NET AJAX installation folder, which usually is	C:\Program Files [(x86) if on a 64bit machine]\Telerik\Telerik® UI for ASP.NET Ajax QX YYYY\
+>note The CSS files are long and for readability they are not placed in this article. You can find them in the **Live Demos\Editor\Examples\RightToLeft\RTL** folder under your controls for ASP.NET AJAX installation folder, which usually is	C:\Program Files [(x86) if on a 64bit machine]\Telerik\Telerik® UI for ASP.NET AJAX QX YYYY\
 
 >note You can see this live in the [Editor / Right-to-left Support Online Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/defaultcs.aspx). You can also examine the code when you run the sample site in Visual Studio from the Live Demos folder.
 

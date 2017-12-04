@@ -12,7 +12,7 @@ position: 1
 
 ## Resize and Drag extender
 
-The ResizeExtender is a small client-side only control that enables resize and drag functionality on an HTML element in all browsers regardless if they are desktop or mobile (except the browsers that lack the needed desktop or touch events - Mobile Operas and IEs). It depends on Core.js and the built-in jQuery in Telerik® UI for ASP.NET Ajax.
+The ResizeExtender is a small client-side only control that enables resize and drag functionality on an HTML element in all browsers regardless if they are desktop or mobile (except the browsers that lack the needed desktop or touch events - Mobile Operas and IEs). It depends on Core.js and the built-in jQuery in Telerik® UI for ASP.NET AJAX.
 
 Since Q1 2008 the ResizeExtender automatically enables resizing and dragging in all browsers for the following controls: **RadColorPicker**, **RadDock**, **RadEditor**, **RadSlider**, **RadSplitBar** and **RadWindow** and as of Q1 2011, the control supports mobile browsers as well.
 

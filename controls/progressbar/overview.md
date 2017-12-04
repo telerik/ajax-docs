@@ -16,7 +16,7 @@ position: 0
 
 ![progress-bar-overview](images/progress-bar-overview.png)
 
-The **RadProgressBar** control in the Telerik® UI for ASP.NET Ajax suite is available since the **2014 Q3** version.
+The **RadProgressBar** control in the Telerik® UI for ASP.NET AJAX suite is available since the **2014 Q3** version.
 
 The control offers a rich set of features:
 

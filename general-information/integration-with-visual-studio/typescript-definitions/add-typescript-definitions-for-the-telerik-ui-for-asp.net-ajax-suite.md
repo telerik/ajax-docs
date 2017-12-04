@@ -1,20 +1,20 @@
 ---
-title: Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite
-page_title: Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite | UI for ASP.NET AJAX Documentation
-description: Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite
+title: Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite
+page_title: Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite | UI for ASP.NET AJAX Documentation
+description: Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite
 tags: add,typescript,definitions,for,the,telerik,ui,for,asp.net,ajax,suite
 published: True
 position: 1
 ---
 
-# Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite
+# Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite
 
-This article explains how to obtain and add the **TypeScript definitions**	available for the **Telerik® UI for ASP.NET Ajax** suite.
+This article explains how to obtain and add the **TypeScript definitions**	available for the **Telerik® UI for ASP.NET AJAX** suite.
 
 ## Locating the TypeScript Definitions
 
-As of **Q3 2014**, **TypeScript definitions** are available for the Telerik® UI for ASP.NET Ajax suite. They are located in the **TypeScriptDefinitions** folder in the installation directory (e.g.,*C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\TypeScriptDefinitions*).
+As of **Q3 2014**, **TypeScript definitions** are available for the Telerik® UI for ASP.NET AJAX suite. They are located in the **TypeScriptDefinitions** folder in the installation directory (e.g.,*C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\TypeScriptDefinitions*).
 
 The folder contains the **Telerik.Web.UI.d.ts** file which holds the definitions for our objects and the **microsoft.ajax.d.ts** file for the MS AJAX framework objects. You can alternatively obtain the latter from the Internet in case Microsoft release an updated version.
 
@@ -72,4 +72,4 @@ When you create a Web Application with the help of the [Telerik Creation and Con
 
  * [What is TypeScript]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/what-is-typescript%})
 
- * [Use TypeScript for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%})
+ * [Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%})

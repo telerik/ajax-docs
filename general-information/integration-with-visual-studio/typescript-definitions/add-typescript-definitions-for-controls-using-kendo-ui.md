@@ -24,7 +24,7 @@ You can read more about the **Kendo TypeScript** definitions in the [Kendo UI Ty
 
 By following these steps you will have full intellisense for the exposed **Kendo** widgets:
 
-1. Make sure that the instructions from the [Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) article are followed and that the **Microsoft.Ajax.d.ts** and **Telerik.Web.UI.d.ts** are added properly;
+1. Make sure that the instructions from the [Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) article are followed and that the **Microsoft.Ajax.d.ts** and **Telerik.Web.UI.d.ts** are added properly;
 
 1. Put the **kendo.all.d.ts** file in the same folder—e.g., **Definitions**.
 >caption 
@@ -37,6 +37,6 @@ You can learn how to get a reference to the	integrated Kendo widgets and use the
 
  * [What is TypeScript]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/what-is-typescript%})
 
- * [Add TypeScript Definitions for the Telerik® UI for ASP.NET Ajax Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})
+ * [Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%})
 
  * [Use TypeScript for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-controls-using-kendo-ui%})

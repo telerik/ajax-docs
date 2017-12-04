@@ -14,7 +14,7 @@ The following article describes the overall benefit and usage of the **Resources
 
 ## Overview
 
-As from **Q1 2015** release of the **Telerik® UI for ASP.NET Ajax**, the RadGantt control provides full support for **Resources**. Using it, you will able to assign resources to your tasks, which could carry additional information for them. These resources might be people, materials, budget amount or anything else fitting your application. This could be very helpful in scenarios, where you need to associate people with the tasks in a particular project.
+As from **Q1 2015** release of the **Telerik® UI for ASP.NET AJAX**, the RadGantt control provides full support for **Resources**. Using it, you will able to assign resources to your tasks, which could carry additional information for them. These resources might be people, materials, budget amount or anything else fitting your application. This could be very helpful in scenarios, where you need to associate people with the tasks in a particular project.
 
 The **Resources** are enabled by setting the **EnableResources** property of the **RadGantt** to **true**. Each resource is defined by three fields : **ID, Text and Color**, where the **Color** is optional. The connection between **Tasks** and resources is done via **Assignments**. Each assignment is defined by an **ID**, **TaskID** and **ResourceID**. The assignment can also have a **Units** value associated with it, describing how much of each resource is taken up by the current task. Another optional column for the Resources is **Format**. This column define the format of the assignment **Units** and its default value is **percentage("p0")**.
 
