@@ -46,6 +46,20 @@ A built-in access key is `Y` so you can use `Alt+Y` to focus the control by defa
 </script>
 ````
 
+>caption How to change the markup and script to use a key set in the control markup.
+
+````ASPX
+<telerik:RadCalendar ID="RadCalendar1" RenderMode="Lightweight" runat="server"
+    EnableKeyboardNavigation="true" EnableAriaSupport="true" EnableMultiSelect="false">
+    <ClientEvents OnLoad="function(s,a){OnLoad(s,a,'K')}" />
+</telerik:RadCalendar>
+<script>
+    function OnLoad(sender, args, theKey) {
+        $telerik.$(sender.get_element()).find(".rcMainTable").first().attr("accessKey", theKey);
+    }
+</script>
+````
+
 
 # See Also
 
