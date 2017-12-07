@@ -16,6 +16,13 @@ This article explains how to use the NuGet feed and packages provided by Telerik
 
 This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 
+This article contains the following sections:
+
+* [How to use the Telerik NuGet feed in Visual Studio](#telerik-nuget-feed-in-visual-studio)
+* [How to download a .nupkg file to create local feeds](#downloading-a-nuget-package)
+* [Telerik NuGet feed and automated builds](#automated-builds)
+* [Troubleshooting](#troubleshooting)
+
 
 >caution  **Prerequisite** 
 >In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
@@ -81,4 +88,13 @@ If you are using the Telerik NuGet feed on an automated build environment, you c
 You can read more about adding credentials via the NuGet.config in the following page: [https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials).
 
 You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](http://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC.
+
+
+## Troubleshooting
+
+In R1 2018, the `nuget.exe` version we use was updated from `2.8` to `4.3`. This is the executable file used to generate and read the `.nupkg` files.
+
+Due to this update, you may get the error below when using Visual Studio 2012 that uses the NuGet Package Manager version 2.0. The **solution is to upgrade the NuGet Package Manager to version 2.8**.
+
+> The schema version of `'<namespace>'` is incompatible with version 2.0.30625.9003 of NuGet. Please upgrade NuGet to the latest version.
 
