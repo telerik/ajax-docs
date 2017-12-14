@@ -92,3 +92,7 @@ The special characters are correctly exported and visible in the PDF file:
 
 ![Special Characters Exported](images/clientexportmanager-special-characters-exported.png)
 
+# See Also
+
+ * [ClientExportManager - Export Special Characters](https://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-special-characters/defaultcs.aspx) online demo
+
