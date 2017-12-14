@@ -92,3 +92,7 @@ For a live example, see [Show path](http://demos.telerik.com/aspnet-ajax/Menu/Ex
  * [Layout of Root Items ]({%slug menu/appearance-and-styling/layout-of-root-items-%})
 
  * [Overview]({%slug menu/radmenu-items/overview%})
+
+ * [Select (highlight) the current page in the Menu](https://www.telerik.com/support/kb/aspnet-ajax/menu/details/select-(highlight)-the-current-page-in-the-menu) KB article
+
+
