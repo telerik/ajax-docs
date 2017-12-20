@@ -338,7 +338,8 @@ $(document).ready(function () {
   
       // #region adjusters
       adjustNavigationPosition: function Feedback_adjustNavigationPosition() {
-        //var bottom = 0;
+        //called in various places to update location and position of feedback buttons container and article content container, not necessary in AJAX in the moment because we do not use the feedback container that pops up on scroll
+	//var bottom = 0;
        
         //if (!window.matchMedia('(max-width: 1200px)').matches) {
         //  bottom = Math.max(feedbackPinned ? $("#feedback-section").outerHeight() : 0, scrollFold - feedbackOffsetTop);
