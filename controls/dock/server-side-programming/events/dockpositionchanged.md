@@ -23,7 +23,6 @@ The **DockPositionChanged** event occurs when postbacks are enabled and the user
 * A change of index within a **RadDockZone** control.
 
 >note The **DockPositionChanged** event does *not* occur when the **RadDock** control is moved from one floating position to another, or when the **RadDock** control is moved programmatically.
->
 
 
 The **DockPositionChanged** event handler receives two arguments:
@@ -37,9 +36,10 @@ The **DockPositionChanged** event handler receives two arguments:
 
 In the **DockPositionChanged** event handler, the **DockZoneID** and **Index** properties of the **RadDock** control reflect the old position from which the **RadDock** control is being moved. This is true even if the event handler is called after a delay because the value of the **AutoPostBack** property is **False**.
 
-Use a **DockPositionChanged** event handler to respond when the user moves the **RadDock** control:
+The **DockPositionChanged** event is fired early in the page lifecycle (you can find more details in the [Lifecycle]({%slug dock/structure/dock/lifecycle%}) article). This means that not all controls are completely updated. For example, the number of docks in the respective dock zones will be the old one from `Page_Init` and will not reflect the change in position yet. You can access the updated Controls collection in later events (such as `Page_Load` or postback events).
 
 
+>caption Use a **DockPositionChanged** event handler to respond when the user moves the **RadDock** control:
 
 ````C#
 protected void RadDock1_DockPositionChanged(object sender, DockPositionChangedEventArgs e)
@@ -85,6 +85,8 @@ End Sub
 
 
 # See Also
+
+ * [RadDock Lifecycle]({%slug dock/structure/dock/lifecycle%})
 
  * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})
 
