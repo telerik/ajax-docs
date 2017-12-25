@@ -39,8 +39,8 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://d2i2wahzwrm1n5.cloudfront.net ;
 			 style-src 'self' 'unsafe-inline' https://d35islomi5rx1v.cloudfront.net ;
-			 font-src 'self' https://d35islomi5rx1v.cloudfront.net ;
-			 img-src 'self' https://d35islomi5rx1v.cloudfront.net "
+			 font-src 'self' https://d35islomi5rx1v.cloudfront.net 'data:';
+			 img-src 'self' https://d35islomi5rx1v.cloudfront.net 'data:'"
      />
 ````
 
@@ -50,8 +50,8 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' http://aspnet-scripts.telerikstatic.com ;
 			 style-src 'self' 'unsafe-inline' http://aspnet-skins.telerikstatic.com ;
-			 font-src 'self' http://aspnet-skins.telerikstatic.com ;
-			 img-src 'self' http://aspnet-skins.telerikstatic.com "
+			 font-src 'self' http://aspnet-skins.telerikstatic.com 'data:';
+			 img-src 'self' http://aspnet-skins.telerikstatic.com 'data:'"
      />
 ````
 
