@@ -12,7 +12,38 @@ position: 5
 
 
 
-RadScheduler has a **DataSource** property that lets you bind it to any object that implements the IListSource or IEnumerable interface. Thus, you can bind the scheduler directly to a DataTable or DataView (IListSource), or to various List objects (IEnumerable). When using the **DataSource** property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the **RadScheduler** server-side events.
+RadScheduler has a **DataSource** property that lets you bind it to any object that implements the IListSource or IEnumerable interface. Thus, you can bind the scheduler directly to a DataTable or DataView (IListSource), or to various List objects (IEnumerable).
+
+When using the **DataSource** property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the **RadScheduler** server-side events.
+
+If you are using custom fields/attributes, you must write them directly to the data source in these events, so you can later access them in the **AppointmentDataBound** event and either use them for your logic, or add them to the Attributes collection of the appointment.
+
+In the **AppointmentDataBound** event, you must check whether the **DataItem** of the appointment has been initialized before accessing it, for example:
+
+````C#
+protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
+{
+	if (!object.Equals(e.Appointment.DataItem, null))
+	{
+		//if using a custom class
+		string custAttr = (e.Appointment.DataItem as MyCustomAppointmentInfo).CustomAttr;
+		//if using a generic object like DataTable
+ 		string data = (e.Appointment.DataItem as System.Data.DataRowView)["CustomAttr"].ToString();
+	}
+}
+````
+````VB
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
+    If Not Object.Equals(e.Appointment.DataItem, Nothing) Then
+		'if using a custom class
+        Dim custAttr As String = (TryCast(e.Appointment.DataItem, MyCustomAppointmentInfo)).CustomAttr
+		'if using a generic object like DataTable
+        Dim data As String = (TryCast(e.Appointment.DataItem, System.Data.DataRowView))("CustomAttr").ToString()
+    End If
+End Sub
+````
+
+
 
 ## Example
 
