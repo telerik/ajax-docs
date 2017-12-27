@@ -65,6 +65,10 @@ Protected Sub RadGrid1_BatchEditCommand(sender As Object, e As GridBatchEditingE
 End Sub
 ````
 
+>note The keys for the hash tables are the `DataField` names of the columns. If a column value is changed, its key will be present in the hash table.
+>
+>For template columns, make sure to set their `DataField` property, otherwise the new values will be available under the `UniqueName` of the column.
+
 >tip **When working with custom data acccess logic** and not with declarative data sources, you will usually need a unique record ID in order to perform the CRUD operations in your server code. Often, you will not want to put the ID column in the grid because the user will not need it. In such cases, **add the `ID` field to the `DataKeyNames` collection of the `MasterTableView` so it becomes available in the NewValues hash table**. 
 
 >note The `OldValues` for a TemplateColumn are available in the `OldValues` hashtable only if the DataField is added to the `DataKeyNames` collection.
