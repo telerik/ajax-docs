@@ -11,7 +11,7 @@ position: 6
 # CheckList Filtering
 
 
-This article describe the filter types in RadGrid that enable filtering based on multiple selected values from a list. 
+This article describe the filter types in RadGrid that enable filtering based on multiple selected values from a list.
 
 * [CheckList Filtering](#filtertype-checklist)
 
@@ -20,7 +20,11 @@ This article describe the filter types in RadGrid that enable filtering based on
 
 ## FilterType CheckList
 
-Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should set the **FilterType** property of RadGrid to either **CheckList** or **Combined**.
+Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should:
+
+* Set the **FilterType** property of RadGrid to either **CheckList** or **Combined**.
+
+* Find all grid columns you want filtered with the checklist and set their **FilterCheckListEnableLoadOnDemand** property to **true**.
 
 >note Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface. In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
 >
@@ -86,18 +90,18 @@ To specify what values will be displayed in the ListBox control you need to defi
 		    e.ListBox.DataValueField = DataField;
 		    e.ListBox.DataBind();
 		}
-		
+
 		public DataTable GetDataTable(string field)
 		{
 		    string query = string.Format("SELECT DISTINCT {0} FROM Customers", field);
-		
+
 		    String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
 		    SqlConnection conn = new SqlConnection(ConnString);
 		    SqlDataAdapter adapter = new SqlDataAdapter();
 		    adapter.SelectCommand = new SqlCommand(query, conn);
-		
+
 		    DataTable myDataTable = new DataTable();
-		
+
 		    conn.Open();
 		    try
 		    {
@@ -107,7 +111,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		    {
 		        conn.Close();
 		    }
-		
+
 		    return myDataTable;
 		}
 
@@ -121,24 +125,24 @@ To specify what values will be displayed in the ListBox control you need to defi
 		    e.ListBox.DataValueField = DataField
 		    e.ListBox.DataBind()
 		End Sub
-		
+
 		Public Function GetDataTable(field As String) As DataTable
 		    Dim query As String = String.Format("SELECT DISTINCT {0} FROM Customers", field)
-		
+
 		    Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
 		    Dim conn As New SqlConnection(ConnString)
 		    Dim adapter As New SqlDataAdapter()
 		    adapter.SelectCommand = New SqlCommand(query, conn)
-		
+
 		    Dim myDataTable As New DataTable()
-		
+
 		    conn.Open()
 		    Try
 		        adapter.Fill(myDataTable)
 		    Finally
 		        conn.Close()
 		    End Try
-		
+
 		    Return myDataTable
 		End Function
 
@@ -206,7 +210,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.ContactName
 		                            }).Distinct();
-		
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
 		    [OperationContract]
@@ -219,7 +223,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.CompanyName
 		                            }).Distinct();
-		
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
 		    [OperationContract]
@@ -232,8 +236,8 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.ContactTitle
 		                            }).Distinct();
-		
-		
+
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
 		    [OperationContract]
@@ -246,7 +250,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.City
 		                            }).Distinct();
-		
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
 		    [OperationContract]
@@ -259,7 +263,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.Country
 		                            }).Distinct();
-		
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
 		    [OperationContract]
@@ -272,15 +276,15 @@ To specify what values will be displayed in the ListBox control you need to defi
 		                            {
 		                                Text = customer.Phone
 		                            }).Distinct();
-		
+
 		        return allCustomers.ToArray<RadListBoxItemData>();
 		    }
-		
+
 		    [OperationContract]
 		    public ResultData GetDataAndCount(int startRowIndex, int maximumRows, string sortExpression, string filterExpression)
 		    {
 		        GridBindingData data = RadGrid.GetBindingData("LinqToSqlReadOnly.NorthwindReadOnlyDataContext", "Customers", startRowIndex, maximumRows, sortExpression, filterExpression);
-		
+
 		        ResultData result = new ResultData();
 		        result.Data = data.Data.OfType<LinqToSqlReadOnly.Customer>().Select(c => new Customer()
 		                  {
@@ -295,13 +299,13 @@ To specify what values will be displayed in the ListBox control you need to defi
 		        result.Count = data.Count;
 		        return result;
 		    }
-		
+
 		    public class ResultData
 		    {
 		        public int Count { get; set; }
 		        public List<Customer> Data { get; set; }
 		    }
-		
+
 		    [DataContract]
 		    public class Customer
 		    {
@@ -334,7 +338,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.ContactNameNew RadListBoxItemData() With { _
 				Key .Text = customer.ContactName _
 			}).Distinct()
-		
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
 		    <OperationContract()> _
@@ -343,7 +347,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.CompanyNameNew RadListBoxItemData() With { _
 				Key .Text = customer.CompanyName _
 			}).Distinct()
-		
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
 		    <OperationContract()> _
@@ -352,8 +356,8 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.ContactTitleNew RadListBoxItemData() With { _
 				Key .Text = customer.ContactTitle _
 			}).Distinct()
-		
-		
+
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
 		    <OperationContract()> _
@@ -362,7 +366,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.CityNew RadListBoxItemData() With { _
 				Key .Text = customer.City _
 			}).Distinct()
-		
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
 		    <OperationContract()> _
@@ -371,7 +375,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.CountryNew RadListBoxItemData() With { _
 				Key .Text = customer.Country _
 			}).Distinct()
-		
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
 		    <OperationContract()> _
@@ -380,14 +384,14 @@ To specify what values will be displayed in the ListBox control you need to defi
 			Dim allCustomers = (From customer In northwind.CustomersOrder By customer.PhoneNew RadListBoxItemData() With { _
 				Key .Text = customer.Phone _
 			}).Distinct()
-		
+
 		        Return allCustomers.ToArray(Of RadListBoxItemData)()
 		    End Function
-		
+
 		    <OperationContract()> _
 		    Public Function GetDataAndCount(startRowIndex As Integer, maximumRows As Integer, sortExpression As String, filterExpression As String) As ResultData
 		        Dim data As GridBindingData = RadGrid.GetBindingData("LinqToSqlReadOnly.NorthwindReadOnlyDataContext", "Customers", startRowIndex, maximumRows, sortExpression, filterExpression)
-		
+
 		        Dim result As New ResultData()
 			result.Data = data.Data.OfType(Of LinqToSqlReadOnly.Customer)().[Select](Function(c) New Customer() With { _
 				Key .CustomerID = c.CustomerID, _
@@ -401,7 +405,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		        result.Count = data.Count
 		        Return result
 		    End Function
-		
+
 		    Public Class ResultData
 		        Public Property Count() As Integer
 		            Get
@@ -422,7 +426,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		        End Property
 		        Private m_Data As List(Of Customer)
 		    End Class
-		
+
 		    <DataContract()> _
 		    Public Class Customer
 		        <DataMember()> _
@@ -500,7 +504,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-## FilterType HeaderContext 
+## FilterType HeaderContext
 
 
 This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext**. Then you need to turn on the header context menu (**EnableHeaderContextMenu="true"**) and the context filter menu (**EnableHeaderContextFilterMenu="true"**).
@@ -524,7 +528,7 @@ The code snippets below showcase a sample scenario where the HeaderContext Filte
 	OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested">
 
 	<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EnableHeaderContextMenu="true" EnableHeaderContextFilterMenu="true">
-		
+
 		<Columns>
 			<telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID">
 			</telerik:GridBoundColumn>
@@ -632,6 +636,5 @@ End Sub
  * [CheckList FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
 
  * [Excel-like filtering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
- 
- * [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually %})
 
+ * [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually %})
