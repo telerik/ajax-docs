@@ -14,7 +14,7 @@ position: 0
 
 | Property | Description |
 | ------ | ------ |
-| **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
+| **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server. Default value is `true`. |
 | **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadCheckBox is clicked.|
 | **Checked** |Gets or sets a nullable bool value indicating whether the RadCheckBox is checked. If a null value is set, the value will default to false.|
 | **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadCheckBox is clicked.|
@@ -52,4 +52,3 @@ The event order is:
 1. OnClick
 
 1. OnCommand
-

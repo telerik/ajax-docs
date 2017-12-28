@@ -25,15 +25,16 @@ The control can be easily styled by changing the `Skin` property. This will elim
 <telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="I agree to the Terms of Service"></telerik:RadCheckBox>
 ````
 
+>note The default value of the `AutoPostBack` property is `true`, which means RadCheckBox will POST the page to the server when checked/unchecked.
+
 >note **RadCheckBox** does not support a Classic [render mode]({%slug checkbox/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 
  * [RadCheckBox Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
- 
+
  * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
- 
+
  * [RadCheckBox Checked State]({%slug checkbox/functionality/checked-state%})
- 
+
  * [RadCheckBox Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
- 
