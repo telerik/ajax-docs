@@ -23,9 +23,9 @@ This article contains the following sections:
 
 To add Telerik® UI for ASP.NET AJAX to an existing ASP.NET web application you need to follow these steps:
 
-1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx)
+1. Make sure you have installed ASP.NET AJAX, which comes as part of [.NET 3.5+ installations](https://www.microsoft.com/net/download/dotnet-framework-runtime). 
 
-1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://www.asp.net/AJAX/Documentation/Live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/ConfiguringASPNETAJAX.aspx) (check the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**)
+1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application](https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application).
 
 1. Add the needed HTTP handlers in the web.config as described in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
