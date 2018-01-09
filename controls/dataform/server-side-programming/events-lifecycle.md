@@ -12,87 +12,78 @@ position: 2
 
 
 
-The API and event sequence of **RadDataForm** are quite similar to **RadListView**.The sequence of the events is the following.
-
-## Event Sequence
-
-**RadDataForm** with **EnableViewState** set to **true** (default value).
+The API and event sequence of **RadDataForm** are quite similar to **RadListView** .The sequence of the events is as follows.
 
 
-| First page load: |
-| ------ |
-|Page.Load|
-|NeedDataSource|
-|Foreach Item in RadDataForm:|
-|- ItemCreated|
-|- ItemDataBound|
-|Page.PreRender|
+## RadDataForm with EnableViewState set to true (default value)
 
 
-| Normal postback from a control outside of RadListView: |
-| ------ |
-|For each Item in RadDataForm:|
-|- ItemCreated|
-|Page.Load|
-|Postback Events|
-|Page.PreRender|
+### First page load
 
+1. Page.Load
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.PreRender
 
-| On edit/update/insert/delete/cancel action or paging/sorting operation: |
-| ------ |
-|For each Item in RadDataForm:|
-|- ItemCreated|
-|Page.Load|
-|ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,|
-|ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelled/PageIndexChanged/PageSizeChanged/Sorting|
-|NeedDataSource|
-|Foreach Item in RadDataForm:|
-|- ItemCreated|
-|- ItemDataBound|
-|Page.PreRender|
-|----|
-|Invoking the Rebind() method from postback event handler of outside control or **RadDataForm** will raiseautomatically the **NeedDataSource** event.|
+### Normal postback from a control outside of RadListView
 
-**RadDataForm** with **EnableViewState** set to **false**.
+1. ItemCreated for each item in RadDataForm
+1. Page.Load
+1. Postback Events
+1. Page.PreRender
 
+### On edit/update/insert/delete/cancel action or paging/sorting operation
 
-| First page load: |
-| ------ |
-|Page.Load|
-|NeedDataSource|
-|Foreach Item in RadDataForm:|
-|- ItemCreated|
-|- ItemDataBound|
-|Page.PreRender|
+1. ItemCreated for each item in RadDataForm
+1. Page.Load
+1. ItemCommand
+1. ItemEditing / ItemUpdating / ItemInserting / ItemDeleting / ItemCanceling
+1. ItemEdited / ItemUpdated / ItemInserted / ItemDeleted / PageIndexChanged
+1. NeedDataSource
+1. ItemCreated for each item in RadDataForm
+1. ItemDataBound for each item in RadDataForm
+1. Page.PreRender
 
+### Calling Rebind()
 
-| Normal postback from a control outside of RadListView: |
-| ------ |
-| **NeedDataSource** |
-|For each Item in RadDataForm:|
-|- ItemCreated|
-|- **ItemDataBound**|
-|Page.Load|
-|Postback Events|
-|Page.PreRender|
+Invoking the `Rebind()` method from a postback event handler of an outside control or **RadDataForm** will raise the **NeedDataSource** event. Then the data form items will be recreated and `ItemCreated` and `ItemDataBound` events will be raised according to the cases above.
 
-| On edit/update/insert/delete/cancel action or paging/sorting operation: |
-| ------ |
-| **NeedDataSource** |
-|For each Item in RadDataForm:|
-|- ItemCreated|
-|- **ItemDataBound**| 
-|Page.Load|
-|ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,|
-|ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelled/PageIndexChanged/PageSizeChanged/Sorting|
-|Foreach Item in RadDataForm:|
-|- ItemCreated|
-|- ItemDataBound|
-|Page.PreRender|
-|----|
-|Invoking the Rebind() method from postback event handler of outside control or **RadDataForm** will -not- raise the **NeedDataSource** event.|
+## RadDataForm with EnableViewState set to false
+
+### First page load
+
+1. Page.Load
+1. NeedDataSource
+1. ItemCreated for each item in RadDataForm
+1. ItemDataBound for each item in RadDataForm
+1. Page.PreRender
+
+### Normal postback from a control outside of RadDataForm
+
+1. NeedDataSource
+1. ItemCreated for each item in RadDataForm
+1. ItemDataBound for each item in RadDataForm
+1. Page.Load
+1. Postback Events
+1. Page.PreRender
+
+### On edit/update/insert/delete/cancel/paging operation
+
+1. NeedDataSource
+1. ItemCreated for each item in RadDataForm
+1. ItemDataBound for each item in RadDataForm
+1. Page.Load
+1. ItemCommand
+1. ItemEditing / ItemUpdating / ItemInserting / ItemDeleting / ItemCanceling
+1. ItemEdited / ItemUpdated / ItemInserted / ItemDeleted / ItemCancelled / PageIndexChanged
+1. ItemCreated for each item in RadDataForm
+1. ItemDataBound for each item in RadDataForm
+1. Page.PreRender
+
+### Calling Rebind()
+
+Invoking the `Rebind()` method from postback event handler of an outside control or **RadDataForm** will **not** raise the **NeedDataSource** event. Then the data form items will be recreated so the `ItemCreated` and `ItemDataBound` events will be raised according to the cases above.
 
 # See Also
 
