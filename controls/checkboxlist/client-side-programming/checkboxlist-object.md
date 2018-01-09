@@ -20,11 +20,11 @@ The following table lists the most important members of the client-side RadCheck
 |**set_visible**|Sets the visibility of the list.|
 |**get_enabled**|Returns if the list is enabled.|
 |**set_enabled**|Specifies if the list is enabled.|
-|**get_selectedIndex**|Gets the index of the selected checkbox.|
+|**get_selectedIndex**|Gets the index of the first selected checkbox.|
 |**set_selectedIndex**|Checks the checkbox with the provided index.|
-|**get_selectedIndices**|Gets an array of the selected checkboxes by indices.|
-|**get_selectedItems**|Gets an array of the selected checkbox items.|
-|**get_items**|Returns a collection with the checkboxes.|
+|**get_selectedIndices**|Gets an array of the indexes of the selected checkboxes.|
+|**get_selectedItems**|Gets an array of the selected [checkbox items]({%slug Telerik.Web.UI.ButtonListItem%}).|
+|**get_items**|Returns a collection with the [checkbox objects]({%slug Telerik.Web.UI.ButtonListItem%}). You can use it to get or set their state.|
 |**get_toolTip**|Gets the text displayed when the mouse pointer hovers over the list. |
 |**set_toolTip**|Sets the text displayed when the mouse pointer hovers over the list. |
 |**get_height**|Gets the height of the control.|

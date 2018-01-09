@@ -103,9 +103,11 @@ End Sub
 
 ## Get Selected Item Server Side
 
-To get the selected item and selected index you can use the `SelectedItem` and `SelectedIndex` properties of the **RadCheckBoxList** control.
+To get all selected items, you can loop over the `Items` collection and check for the item's `Selected` property.
 
->caption Example 4: Get `SelectedIndex` and `SelectedItem` of the **RadCheckBoxList** from the code behind. 
+To get the first selected item and first selected index you can use the `SelectedItem` and `SelectedIndex` properties of the **RadCheckBoxList** control.
+
+>caption Example 4: Get the selected items of the **RadCheckBoxList** from the code behind. 
 
 ````ASP.NET
 <telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" OnSelectedIndexChanged="RadCheckBoxList1_SelectedIndexChanged">
@@ -120,41 +122,83 @@ To get the selected item and selected index you can use the `SelectedItem` and `
 ````C#
 protected void RadCheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
 {
+	//get all selected items via a loop
+    foreach (ButtonListItem item in RadCheckBoxList1.Items)
+    {
+        if(item.Selected)
+        {
+            Response.Write(string.Format("item with text {0} and value {1} is selected<br />", item.Text, item.Value));
+        }
+    }
+
+	//get the first selected item through exposed properties
 	int selectedIndex = RadCheckBoxList1.SelectedIndex;
 	ButtonListItem selectedButtonListItem = RadCheckBoxList1.SelectedItem;
 }
 ````
 ````VB
 Protected Sub RadCheckBoxList1_SelectedIndexChanged(sender As Object, e As EventArgs)
+	'get all selected items via a loop
+    For Each item As ButtonListItem In RadCheckBoxList1.Items
+        If item.Selected Then
+            Response.Write(String.Format("item with text {0} and value {1} is selected<br />", item.Text, item.Value))
+        End If
+    Next
+
+	'get the first selected item through exposed properties
 	Dim selectedIndex As Integer = RadCheckBoxList1.SelectedIndex
 	Dim selectedButtonListItem As ButtonListItem = RadCheckBoxList1.SelectedItem
 End Sub
 ````
 
-The selected item reference provides all its properties (e.g., `Value`, `Text`, `Selected` and `Enabled`).
+The `SelectedItem` reference provides all its properties (e.g., `Value`, `Text`, `Selected` and `Enabled`).
 
 
 ## Select Item Client Side
 
 You can select a particular item of a **RadCheckBoxList** by passing the corresponding index in the `set_selectedIndex()` method of the control.
 
+Another approach is to loop through the items via the `get_items()` method and use the `set_selected()` method each [Telerik.Web.UI.ButtonListItem]({%slug Telerik.Web.UI.ButtonListItem%}) item provides.
+
 >caption Example 6: Select an item on the client side.
 
 ````JavaScript
 var checkboxlist = $find("<%=RadCheckBoxList1.ClientID%>");
+//select item by index
 checkboxlist.set_selectedIndex(0);
+
+//select item by another condition via its own methods
+var items = checkboxlist.get_items();
+for (var i = 0; i < items.length; i++) {
+    if (items[i].get_text() == "Item 3") {
+        items[i].set_selected(true);
+    }
+    else {
+        items[i].set_selected(false);
+    }
+}
 ````
 
 
 ## Get Selected Item Client Side
 
-You can obtain the items, selected item and selected item index of **RadCheckBoxList** through the `get_items()`, `get_selectedItem()`, and `get_selectedIndex()` methods.
+You can obtain the selected items, first selected item and first selected item index of **RadCheckBoxList** through the `get_selectedItems()`, `get_selectedItem()`, and `get_selectedIndex()` methods.
+
+The `get_selectedItems()` method returns an array of [Telerik.Web.UI.ButtonListItem]({%slug Telerik.Web.UI.ButtonListItem%}) items.
+
+The `get_selectedIndices()` method provides an array of numbers that correspond to the indexes of the selected items.
 
 >caption Example 7: Reference items, selected item and selected index of the **RadCheckBoxList** through its client-side API. 
 
 ````JavaScript
 var checkboxlist = $find("<%=RadCheckBoxList1.ClientID%>");
 var items = checkboxlist.get_items();
+//loop over all the items and use their selected state
+var selItems = cbl.get_selectedItems();
+for (var i = 0; i < selItems.length; i++) {
+    console.log(String.format("text: {0} with value: {1}", selItems[i].get_text(), selItems[i].get_value()));
+}
+//get the first selected item
 var selectedItem = checkboxlist.get_selectedItem();
 var selectedIndex = checkboxlist.get_selectedIndex();
 ````

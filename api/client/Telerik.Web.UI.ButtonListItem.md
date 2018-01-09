@@ -7,6 +7,8 @@ slug: Telerik.Web.UI.ButtonListItem
 
 # Telerik.Web.UI.ButtonListItem  
 
+This class represents the individual item of a RadCheckBoxList or RadRadioButtonList. You can use the methods to get the current state of the items, or to set it. Note, however, that changes are not sent to the server or persisted after a postback. The only exception is the set_selected() method that can select or deselect an item.
+
 ## Methods
 
 ### get_text
