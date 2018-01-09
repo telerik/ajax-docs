@@ -22,9 +22,9 @@ The **RadCheckBoxList** fully supports right-to-left (RTL) language locales (**F
 <div style="direction: rtl">
     <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
         <Items>
-            <telerik:CheckBoxListItem Text="יהודי" Selected="true" />
-            <telerik:CheckBoxListItem Text="גֶרמָנִיָת" />
-            <telerik:CheckBoxListItem Text="צָרְפָתִית" />
+            <telerik:ButtonListItem Text="יהודי" Selected="true" />
+            <telerik:ButtonListItem Text="גֶרמָנִיָת" />
+            <telerik:ButtonListItem Text="צָרְפָתִית" />
         </Items>
     </telerik:RadCheckBoxList>
 </div>

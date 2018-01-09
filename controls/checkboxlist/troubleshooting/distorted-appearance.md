@@ -17,8 +17,8 @@ position: 1
 <br />
 <telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" Text="RadCheckBoxList">
     <Items>
-        <telerik:CheckBoxListItem Text="Item 1" Value="0" Selected="true" />
-        <telerik:CheckBoxListItem Text="Item 2" Value="1" />
+        <telerik:ButtonListItem Text="Item 1" Value="0" Selected="true" />
+        <telerik:ButtonListItem Text="Item 2" Value="1" />
     </Items>
 </telerik:RadCheckBoxList>
 ```` 

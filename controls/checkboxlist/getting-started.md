@@ -19,14 +19,14 @@ The following help article demonstrates how to set up a page with a **RadCheckBo
 		<telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server">
 		</telerik:RadCheckBoxList>
 
-1. Add two `CheckBoxListItem` objects to the `Items` collection and set the appropriate values for `Text` and `Selected` properties of each item:
+1. Add two `ButtonListItem` objects to the `Items` collection and set the appropriate values for `Text` and `Selected` properties of each item:
 
 	**ASP.NET**
 
 		<telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server">
 			<Items>
-				<telerik:CheckBoxListItem Text="Accept" Value="0" Selected="true" />
-				<telerik:CheckBoxListItem Text="Decline" Value="1" />
+				<telerik:ButtonListItem Text="Accept" Value="0" Selected="true" />
+				<telerik:ButtonListItem Text="Decline" Value="1" />
 			</Items>
 		</telerik:RadCheckBoxList>
 
@@ -36,8 +36,8 @@ The following help article demonstrates how to set up a page with a **RadCheckBo
 
 		<telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" OnSelectedIndexChanged="RadCheckBoxList1_SelectedIndexChanged">
 			<Items>
-				<telerik:CheckBoxListItem Text="Accept" Value="0" Selected="true" />
-				<telerik:CheckBoxListItem Text="Decline" Value="1" />
+				<telerik:ButtonListItem Text="Accept" Value="0" Selected="true" />
+				<telerik:ButtonListItem Text="Decline" Value="1" />
 			</Items>
 		</telerik:RadCheckBoxList>
 

@@ -17,7 +17,7 @@ The event handler receives two parameters:
 1. The instance of the loaded RadCheckBoxList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListEventArgs]({%slug Telerik.Web.UI.ButtonListEventArgs%}), containing the following properties and methods:
-	* get_item() - returns an instance of type [Telerik.Web.UI.CheckBoxListItem]({%slug Telerik.Web.UI.CheckBoxListItem%}) 
+	* get_item() - returns an instance of type [Telerik.Web.UI.ButtonListItem]({%slug Telerik.Web.UI.ButtonListItem%}) 
 
 >caption Example 1: Handling RadCheckBoxList OnItemLoad event.
 
@@ -31,9 +31,9 @@ The event handler receives two parameters:
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
 	<ClientEvents OnItemLoad="OnItemLoad" />
 	<Items>
-		<telerik:CheckBoxListItem Text="English" Selected="true" />
-		<telerik:CheckBoxListItem Text="German" />
-		<telerik:CheckBoxListItem Text="French" />
+		<telerik:ButtonListItem Text="English" Selected="true" />
+		<telerik:ButtonListItem Text="German" />
+		<telerik:ButtonListItem Text="French" />
 	</Items>
 </telerik:RadCheckBoxList>
 ````

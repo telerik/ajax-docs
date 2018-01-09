@@ -42,7 +42,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		CheckBoxListItem rbli = new CheckBoxListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadCheckBoxList1.Items.Add(rbli);
 		RadCheckBoxList2.Items.Add(rbli);
@@ -53,7 +53,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New CheckBoxListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}
@@ -86,7 +86,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		CheckBoxListItem rbli = new CheckBoxListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadCheckBoxList1.Items.Add(rbli);
 	}
@@ -95,7 +95,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New CheckBoxListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}
@@ -130,7 +130,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		CheckBoxListItem rbli = new CheckBoxListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadCheckBoxList1.Items.Add(rbli);
 		RadCheckBoxList2.Items.Add(rbli);
@@ -140,7 +140,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New CheckBoxListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}

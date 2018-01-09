@@ -25,9 +25,9 @@ There are two ways to configure the rendering mode of the controls:
 
 		<telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" RenderMode="Lightweight">
 			<Items>
-				<telerik:CheckBoxListItem Text="English" Selected="true" />
-				<telerik:CheckBoxListItem Text="German" />
-				<telerik:CheckBoxListItem Text="French" />
+				<telerik:ButtonListItem Text="English" Selected="true" />
+				<telerik:ButtonListItem Text="German" />
+				<telerik:ButtonListItem Text="French" />
 			</Items>
 		</telerik:RadCheckBoxList>
 

@@ -33,9 +33,9 @@ This article explains the **elastic design capabilities RadCheckBoxList offers**
 ````ASP.NET
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
 	<Items>
-        <telerik:CheckBoxListItem Text="English" Selected="true" />
-        <telerik:CheckBoxListItem Text="German" />
-        <telerik:CheckBoxListItem Text="French" />
+        <telerik:ButtonListItem Text="English" Selected="true" />
+        <telerik:ButtonListItem Text="German" />
+        <telerik:ButtonListItem Text="French" />
     </Items>
 </telerik:RadCheckBoxList>
 ````

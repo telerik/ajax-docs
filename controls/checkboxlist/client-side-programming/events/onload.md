@@ -32,9 +32,9 @@ This event comes handy in scenarios when the user wants to operate with the cont
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
 	<ClientEvents OnLoad="OnLoad" />
 	<Items>
-		<telerik:CheckBoxListItem Text="English" Selected="true" />
-		<telerik:CheckBoxListItem Text="German" />
-		<telerik:CheckBoxListItem Text="French" />
+		<telerik:ButtonListItem Text="English" Selected="true" />
+		<telerik:ButtonListItem Text="German" />
+		<telerik:ButtonListItem Text="French" />
 	</Items>
 </telerik:RadCheckBoxList>
 ````

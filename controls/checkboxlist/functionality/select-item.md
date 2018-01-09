@@ -24,18 +24,18 @@ This help article showcases how to operate with the items of a **RadCheckBoxList
 
 To select a particular item of a **RadCheckBoxList**, you should set the `Selected` property of the target item to `true`.
 
->caption Example 1: Select a CheckBoxListItem from the markup. 
+>caption Example 1: Select a ButtonListItem from the markup. 
 
 ````ASP.NET
 <telerik:RadCheckBoxList ID="RadCheckBoxList" runat="server">
 	<Items>
-		<telerik:CheckBoxListItem Text="Item 1" Value="0" Selected="true" />
-		<telerik:CheckBoxListItem Text="Item 2" Value="1" />
+		<telerik:ButtonListItem Text="Item 1" Value="0" Selected="true" />
+		<telerik:ButtonListItem Text="Item 2" Value="1" />
 	</Items>
 </telerik:RadCheckBoxList>
 ```` 
 
->caption Example 2: Select a CheckBoxListItem from the code behind. 
+>caption Example 2: Select a ButtonListItem from the code behind. 
 
 ````C#
 protected void Page_Init(object sender, EventArgs e)
@@ -61,9 +61,9 @@ For a data-bound scenario you can use the `SelectedIndex` of the control (**Exam
 				<ItemTemplate>
 					<telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" SelectedIndex='<%#Eval("SelectState") %>'>
 						<Items>
-							<telerik:CheckBoxListItem Text="Item 1" Value="0" />
-							<telerik:CheckBoxListItem Text="Item 2" Value="1" />
-							<telerik:CheckBoxListItem Text="Item 3" Value="2" />
+							<telerik:ButtonListItem Text="Item 1" Value="0" />
+							<telerik:ButtonListItem Text="Item 2" Value="1" />
+							<telerik:ButtonListItem Text="Item 3" Value="2" />
 						</Items>
 					</telerik:RadCheckBoxList>
 				</ItemTemplate>
@@ -110,9 +110,9 @@ To get the selected item and selected index you can use the `SelectedItem` and `
 ````ASP.NET
 <telerik:RadCheckBoxList ID="RadCheckBoxList1" runat="server" OnSelectedIndexChanged="RadCheckBoxList1_SelectedIndexChanged">
 	<Items>
-		<telerik:CheckBoxListItem Text="Item 1" Value="0" />
-		<telerik:CheckBoxListItem Text="Item 2" Value="1" Selected="true" />
-		<telerik:CheckBoxListItem Text="Item 3" Value="2" />
+		<telerik:ButtonListItem Text="Item 1" Value="0" />
+		<telerik:ButtonListItem Text="Item 2" Value="1" Selected="true" />
+		<telerik:ButtonListItem Text="Item 3" Value="2" />
 	</Items>
 </telerik:RadCheckBoxList>
 ````
@@ -121,13 +121,13 @@ To get the selected item and selected index you can use the `SelectedItem` and `
 protected void RadCheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
 {
 	int selectedIndex = RadCheckBoxList1.SelectedIndex;
-	CheckBoxListItem selectedCheckBoxListItem = RadCheckBoxList1.SelectedItem;
+	ButtonListItem selectedButtonListItem = RadCheckBoxList1.SelectedItem;
 }
 ````
 ````VB
 Protected Sub RadCheckBoxList1_SelectedIndexChanged(sender As Object, e As EventArgs)
 	Dim selectedIndex As Integer = RadCheckBoxList1.SelectedIndex
-	Dim selectedCheckBoxListItem As CheckBoxListItem = RadCheckBoxList1.SelectedItem
+	Dim selectedButtonListItem As ButtonListItem = RadCheckBoxList1.SelectedItem
 End Sub
 ````
 

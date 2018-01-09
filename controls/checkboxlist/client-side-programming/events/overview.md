@@ -47,9 +47,9 @@ To handle the desired event, the user must set the respective property to the na
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
     <ClientEvents OnItemClicked="OnItemClicked" />
     <Items>
-        <telerik:CheckBoxListItem Text="English" Selected="true" />
-        <telerik:CheckBoxListItem Text="German" />
-        <telerik:CheckBoxListItem Text="French" />
+        <telerik:ButtonListItem Text="English" Selected="true" />
+        <telerik:ButtonListItem Text="German" />
+        <telerik:ButtonListItem Text="French" />
     </Items>
 </telerik:RadCheckBoxList>
 ````
@@ -68,9 +68,9 @@ RadCheckBoxList1.ClientEvents.OnItemClicked = "OnItemClicked"  'passing the name
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
     <ClientEvents OnItemClicked="function(sender,args){var selectedItem = args.get_item(); alert(selectedItem.get_text());}" />
     <Items>
-        <telerik:CheckBoxListItem Text="English" Selected="true" />
-        <telerik:CheckBoxListItem Text="German" />
-        <telerik:CheckBoxListItem Text="French" />
+        <telerik:ButtonListItem Text="English" Selected="true" />
+        <telerik:ButtonListItem Text="German" />
+        <telerik:ButtonListItem Text="French" />
     </Items>
 </telerik:RadCheckBoxList>
 ````

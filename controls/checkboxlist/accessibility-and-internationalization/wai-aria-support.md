@@ -21,9 +21,9 @@ In order to enable the WAI-ARIA support, set the **RadCheckBoxList** control's `
 ````ASP.NET
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1" EnableAriaSupport="true">
     <Items>
-        <telerik:CheckBoxListItem Text="English" Selected="true" />
-        <telerik:CheckBoxListItem Text="German" />
-        <telerik:CheckBoxListItem Text="French" />
+        <telerik:ButtonListItem Text="English" Selected="true" />
+        <telerik:ButtonListItem Text="German" />
+        <telerik:ButtonListItem Text="French" />
     </Items>
 </telerik:RadCheckBoxList>
 ````

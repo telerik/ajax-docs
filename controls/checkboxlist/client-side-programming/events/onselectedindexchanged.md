@@ -32,9 +32,9 @@ The event handler receives two parameters:
 <telerik:RadCheckBoxList runat="server" ID="RadCheckBoxList1">
 	<ClientEvents OnSelectedIndexChanged="OnSelectedIndexChanged" />
 	<Items>
-		<telerik:CheckBoxListItem Text="English" Selected="true" />
-		<telerik:CheckBoxListItem Text="German" />
-		<telerik:CheckBoxListItem Text="French" />
+		<telerik:ButtonListItem Text="English" Selected="true" />
+		<telerik:ButtonListItem Text="German" />
+		<telerik:ButtonListItem Text="French" />
 	</Items>
 </telerik:RadCheckBoxList>
 ````

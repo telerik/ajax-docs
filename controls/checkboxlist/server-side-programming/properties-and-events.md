@@ -28,7 +28,7 @@ position: 0
 | **Enabled** |Gets or sets a value indicating whether the Web server control is enabled. |
 | **Height** |Gets or sets the height of the Web server control. |
 | **KeyboardNavigationSettings** |Define keyboard shortcut to focus the first list item.|
-| **Items** |Gets the collection of CheckBoxListItem items in the list control. An item has Text, Value, Selected and Enabled properties.|
+| **Items** |Gets the collection of ButtonListItem items in the list control. An item has Text, Value, Selected and Enabled properties.|
 | **OnSelectedIndexChanged** |Raises the SelectedIndexChanged event. This allows you to provide a custom handler for the event. |
 | **OnItemDataBound** |Raises the ItemDataBound event when each item is data bound. This allows you to provide a custom handler for the event.|
 | **OnItemCreated** |Raises the ItemCreated event when an item is created. This allows you to provide a custom handler for the event. |
