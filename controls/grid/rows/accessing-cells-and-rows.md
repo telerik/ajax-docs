@@ -171,6 +171,8 @@ Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs)
 End Sub
 ````
 
+>tip If you are using detail tables, you may want to check the `item.OwnerTableView.Name` you are accessing to prevent null reference errors.
+
 ## Accessing Controls in Template Column
 
 While accessing cells with Template columns remains the same, you could use a little different approach to get the controls in the cell. For example, to access a TextBox declared in the ItemTemplate of the column:
