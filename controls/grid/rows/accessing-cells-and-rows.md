@@ -171,7 +171,7 @@ Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs)
 End Sub
 ````
 
->tip If you are using detail tables, you may want to check the `item.OwnerTableView.Name` you are accessing to prevent null reference errors.
+>tip If you are using detail tables, you may want to check the `item.OwnerTableView.Name` you are accessing to prevent null reference errors. You can find [here](access-parent-data.zip) an example that explains in detail how this is done and how to get data from parent tables as well.
 
 ## Accessing Controls in Template Column
 
