@@ -12,13 +12,13 @@ position: 14
 
 
 
-The **TimeSlotCreatedevent** occurs when a time slot is created. **TimeSlotCreated** has two parameters:
+The **TimeSlotCreated** event occurs when a time slot is created. **TimeSlotCreated** has two parameters:
 
 * **sender** is the scheduler control.
 
 * **e** is an object of type **TimeSlotCreatedEventArgs**. It has the **TimeSlot** property.
 
-
+The `TimeSlotCreated` event is not fired after the [advanced edit form]({%slug scheduler/customizing-the-advanced-form/overview%}) is opened (it fires before that, and rendering the advanced form renders the scheduler anew). Thus, customizations for the time slots made in the handler are not rendered while the advanced edit form is visible.
 
 ## Example
 
@@ -48,4 +48,8 @@ Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As T
 End Sub
 	
 ````
+
+## See Also
+
+ * [Advanced Edit Form vs. Inline Editing](https://demos.telerik.com/aspnet-ajax/scheduler/examples/appointment-editing/defaultcs.aspx)
 
