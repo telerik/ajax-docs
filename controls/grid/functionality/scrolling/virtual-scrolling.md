@@ -5,7 +5,7 @@ description: Virtual Scrolling
 slug: grid/functionality/scrolling/virtual-scrolling
 tags: virtual,scrolling
 published: True
-position: 4
+position: 6
 ---
 
 # Virtual Scrolling
@@ -13,6 +13,8 @@ position: 4
 
 
 When working with large data sets, it is convenient to use the **RadGrid** paging mechanism. However, for really huge data sets, crawling through pages using only the grid pager may become a hard and boring task for users. For really huge data sets, **RadGrid** allows virtual scrolling.
+
+>tip If you need endless scrolling in your grid, we recommend that you use the newer [Virtualization]({%slug grid/functionality/scrolling/virtualization%}) feature.
 
 ## Virtual scroll bar
 
@@ -159,5 +161,3 @@ Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web
 End Sub
 ````
 
-
-For a live example demonstrating the techniques described above, see [Virtual scrolling and paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/VirtualScrollPaging/DefaultCS.aspx).

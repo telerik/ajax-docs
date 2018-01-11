@@ -5,7 +5,7 @@ description: Virtualization
 slug: grid/functionality/scrolling/virtualization
 tags: virtualization
 published: True
-position: 6
+position: 4
 ---
 
 # Virtualization
