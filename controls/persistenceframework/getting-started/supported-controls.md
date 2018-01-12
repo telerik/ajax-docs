@@ -26,7 +26,7 @@ Following is a list of controls and the properties that can be persisted with Pe
 | **RadDropDownList** | **SelectedIndex** |
 | **RadDropDownTree** | **ExpandedIndices**, **CheckedIndices**, Selected indices of the embedded tree |
 | **RadFilter** | **FilterExpression** (internal property) |
-| **RadGrid** | **CurrentPageIndex**, **PageSize**, **EditIndexes**, **SelectedCellIndexes**, **SelectedIndexes**, **AllowMultiColumnSorting** |
+| **RadGrid** | Grid settings: **CurrentPageIndex**, **PageSize**, **EditIndexes**, **SelectedCellIndexes**, **SelectedIndexes**, **AllowMultiColumnSorting**, **Group-by expressions**, **Sort Expressions**, **Filter Expressions**;<br /> Column settings: **Width**, **OrderIndex**, **Display**, **Visible**, **CurrentFilterFunction**, **CurrentFilterValue**; <br /> Make sure to call the `.Rebind()` method of the grid after you call `.LoadState()`, so that the newly loaded settings take effect.  |
 | **MasterTableView** | **ColumnSettings**, **CurrentPageIndex**, **FilterExpression**, **GroupByExpression**, **IsItemInserted**, **PageSize**, **SortExpression** |
 | **RadListBox** | **CheckedIndices** (internal property), **SelectedIndices** (internal property)|
 | **RadListView** | **CurrentPageIndex**, **EditIndexes**, **FilterExpressions**, **IsItemInserted**, **PageSize**, **SelectedIndexes**, **SortExpressions** |
