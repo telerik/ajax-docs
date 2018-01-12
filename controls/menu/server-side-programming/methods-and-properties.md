@@ -29,13 +29,13 @@ position: 4
 | **ClientItemTemplate** |string|Gets or sets the client template for displying the items of the **RadMenu** .|
 | **CollapseAnimation** |AnimationSettings|Gets the settings for animation played when item closes.|
 | **CollapseDelay** |string|Gets or sets the animation timeout after which the item starts to close.|
-| **EnableAutoScroll** |bool|Gets or sets a value indicating if an automatic scroll is applied if the groups are larger then the screen height.|
+| **EnableAutoScroll** |bool|Gets or sets a value indicating if an automatic scroll is applied if the groups are larger then the screen height. To use this with `RadContextMenu`, define `DefaultGroupSettings.Height`. |
 | **EnableOverlay** |bool|Gets or sets a value indicating if an overlay should be rendered (only in Internet Explorer).|
 | **EnableRootItemScroll** |bool|Gets or sets a value indicating if scroll is enabled for the root items.|
 | **EnableRoundedCorners** |bool|Specifying if child items should have rounded corners.|
 | **EnableScreenBoundaryDetection** |bool|Specifies where screen boundary detection is enabled or not.|
 | **EnableSelection** |bool|Gets or sets a value indicating if the currently selected item will be tracked and highlighted.|
-| **EnableAutoScroll** |bool|Specifying if child items should have shadows.|
+| **EnableShadows** |bool|Specifying if child items should have shadows.|
 | **EnableTextHTMLEncoding** |bool|Specifies whether the text encoding when rendering menu item is enabled or not.|
 | **ExpandAnimation** |AnimationSettings|Gets or sets a the animation settings when item closes.|
 | **ExpandDelay** |int|Gets or sets a delay in milliseconds between the mouse entering a **RadMenuItem** and its child items starting to expand|
