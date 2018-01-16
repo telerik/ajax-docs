@@ -56,6 +56,12 @@ End Sub
 
 # See Also
 
+ * [Scheduler - Templates](https://demos.telerik.com/aspnet-ajax/scheduler/examples/templates/defaultcs.aspx) online demo
+
+ * [Scheduler - iCalendar Export](https://demos.telerik.com/aspnet-ajax/scheduler/examples/export/defaultcs.aspx) online demo
+
+ * [Scheduler - Drag-and-Drop From RadGrid to RadScheduler](https://demos.telerik.com/aspnet-ajax/scheduler/examples/draganddropintegration/defaultcs.aspx) online demo
+
  * [AppointmentCreated]({%slug scheduler/server-side-programming/server-events/appointmentcreated%})
 
  * [Templates]({%slug scheduler/appearance-and-styling/templates%})
