@@ -957,7 +957,7 @@ Gets or sets the name of the Skin that Telerik RadGrid will use.
 
 #### Remarks
 There are three possible scenarios for using this property:Leave this property unset or set it to "Default" - the default skin,
-                    common for the Telerik® UI for ASP.NET AJAX suite will be usedSet the name of the embedded grid skin - the skin will be appliedSet the name of the custom grid skin along with the EnableEmbeddedSkins="false" 
+                    common for the Telerik® UI for ASP.NET Ajax suite will be usedSet the name of the embedded grid skin - the skin will be appliedSet the name of the custom grid skin along with the EnableEmbeddedSkins="false" 
             (see 'Creating a custom skin' Fundamentals article)Set this property to "" - no skin will be applied.
                     Only the default grid images (for Expand/Collapse, Sort, Edit, etc) will be
                     used. Use this option if you have own appearance customizations for prevous
