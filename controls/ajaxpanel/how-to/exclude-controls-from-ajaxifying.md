@@ -14,15 +14,15 @@ position: 4
 
 By default the **RadAjaxPanel** AJAX-enables all controls placed inside. If you want to exclude a control from being AJAX-enabled, you can use one of the following approaches:
 
-* **Use RadScriptManager's RegisterPostBackControl Methodhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self**
+* **[Use RadScriptManager's RegisterPostBackControl Method](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self)**
 
-* **Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self**
+* **[Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self)**
 
-* **Cancel the AJAX Request on InitializeRequest Eventhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self**
+* **[Cancel the AJAX Request on InitializeRequest Event](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self)**
 
-* **Add the Postback Function Manuallyhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self**
+* **[Add the Postback Function Manually](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self)**
 
-* **Exclude Dynamically Loaded Controlshttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self**
+* **[Exclude Dynamically Loaded Controls](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self)**
 
 This help article shows how to use each approach.
 
