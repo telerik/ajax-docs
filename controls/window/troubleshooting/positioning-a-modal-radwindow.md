@@ -43,4 +43,13 @@ The following example shows how the Left and Top properties can be retrieved and
 </script>
 ````
 
+You can find more information on the sender and the moveTo method in the [Client-side API]({%slug window/client-side-programming/radwindow-object%}) of the RadWindow.
 
+## See Also
+
+ * [Client-side programming Overview]({%slug window/client-side-programming/overview%})
+ 
+ * [RadWindow client-side object API]({%slug window/client-side-programming/radwindow-object%})
+
+ * [Client-side events Overview]({%slug window/client-side-programming/events/overview%})
+ 
