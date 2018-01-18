@@ -14,6 +14,8 @@ position: 3
 
 This article describes common issues related to the design-time rendering of the Telerik® UI for ASP.NET AJAX controls. Here is a list with the main sections:
 
+* [Error Creating Control Failed To Create Designer after upgrade to R1 2018](#error-creating-control-failed-to-create-designer-after-upgrade-to-r1-2018)
+
 * [Unknown server tag/Could not load file or assembly errors](#unknown-server-tagcould-not-load-file-or-assembly-errors)
 
 * [An unhandled exception has occurred. (A)(control type) cannot be cast to (B)(control type)](#an-unhandled-exception-has-occurred-acontrol-type-cannot-be-cast-to-bcontrol-type)
@@ -25,7 +27,29 @@ This article describes common issues related to the design-time rendering of the
 * [Design-time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
 
 >note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
+>
+>As of R1 2018, this assembly is no longer added to the GAC by the installer.
 
+
+## Error Creating Control Failed To Create Designer after upgrade to R1 2018
+
+If you have been using a version prior to R1 2018 and upgrade to R1 2018 or later, you may get errors similar to the following if you use the automated upgrade wizard:
+
+![Error Creating Control Failed To Create Designer](images/failed-to-create-designer-r1-2018.jpg)
+
+The `Telerik.Web.Design.dll` file is the assembly that contains the design-time code and if it is not referenced properly in the project, you will get this error.
+
+The R1 2018 is the first release in which the automated `.msi` installer does not put the  file in the GAC. Adding it to the GAC was necessary because of Visual Studio 2008 that could not otherwise read design-time code and has caused various issues with later versions because it prevented proper upgrades and broke references.
+
+**CAUSE**
+
+Thus, with older versions it is likely that your project didn't have the reference added explicitly to the BIN but it worked by finding the assembly in the GAC.
+
+**SOLUTION**
+
+You need to copy the `Telerik.Web.Design.dll` file with the correct version (e.g., from the installation folder) to the project `~/bin` folder and add a reference to it in Visual Studio.
+
+If you reference the Telerik assemblies from another folder, make sure the `Telerik.Web.Design.dll` file is present there and is referenced in the Visual Studio project.
 
 
 ## Unknown server tag/Could not load file or assembly errors

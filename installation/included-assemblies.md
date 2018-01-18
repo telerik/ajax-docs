@@ -30,7 +30,7 @@ The Telerik® UI for ASP.NET AJAX product consists of the assemblies in the list
 
 * **Telerik.Web.UI.Skins.dll**—(**optional**)—this assembly has all the skins the suite offers except the *Default* one.If you use only the Default skin, or you only use custom skins, you do not need this assembly.
 
-* **Telerik.Web.Design.dll**—(**optional**)—this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and is not needed in the deployed application. The automated installation adds this assembly to the GAC.
+* **Telerik.Web.Design.dll**—(**optional**)—this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and is not needed in the deployed application. The automated installation adds this assembly to the GAC for versions prior to R1 2018.
 
 * **Telerik.Web.Device.Detection.dll**—(**optional**)—the [Telerik Device Detection framework]({%slug controls/raddevicedetectionframework%}) that can help you determine, with a few lines of code, the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controls to determine the [RenderMode]({%slug controls/render-modes%}) when it is set to Auto. If you use only the Classic, Lightweight or Mobile Render Mode (no mentions of the Auto mode), you do not need this assembly.
 
