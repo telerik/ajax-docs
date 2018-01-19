@@ -31,45 +31,45 @@ Full-size **RadToolBar**:
 <telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton ImageUrl="~/Images/back.png"
-            Text="Back" ToolTip="Back" OverFlow="Never">
+            Text="Back" ToolTip="Back">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="~/Images/forward.png"
-            Text="Forward" ToolTip="Forward" OverFlow="Never">
+            Text="Forward" ToolTip="Forward">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/send.gif"
-            Text="Send" ToolTip="Send" OverFlow="Never">
+            Text="Send" ToolTip="Send">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarSplitButton ImageUrl="Images/attach.gif"
-            EnableDefaultButton="false" >
+            EnableDefaultButton="false">
             <Buttons>
                 <telerik:RadToolBarButton ImageUrl="Images/attach.gif"
-                    Text="File" ToolTip="Attach File" OverFlow="Never">
+                    Text="File" ToolTip="Attach File">
                 </telerik:RadToolBarButton>
-                <telerik:RadToolBarButton Text="Item" ToolTip="Attach Item"  OverFlow="Never">
+                <telerik:RadToolBarButton Text="Item" ToolTip="Attach Item">
                 </telerik:RadToolBarButton>
             </Buttons>
         </telerik:RadToolBarSplitButton>
-        <telerik:RadToolBarButton IsSeparator="true"  OverFlow="Never">
+        <telerik:RadToolBarButton IsSeparator="true">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/bold.gif"
-            CheckOnClick="true" Group="Bold" AllowSelfUnCheck="true" ToolTip="Bold" OverFlow="Never">
+            CheckOnClick="true" Group="Bold" AllowSelfUnCheck="true" ToolTip="Bold">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/italic.gif"
-            CheckOnClick="true" Group="Italic" AllowSelfUnCheck="true" ToolTip="Italic" OverFlow="Never">
+            CheckOnClick="true" Group="Italic" AllowSelfUnCheck="true" ToolTip="Italic">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/underline.gif"
-            CheckOnClick="true" Group="Underline" AllowSelfUnCheck="true" ToolTip="Underline" OverFlow="Never">
+            CheckOnClick="true" Group="Underline" AllowSelfUnCheck="true" ToolTip="Underline">
         </telerik:RadToolBarButton>
-        <telerik:RadToolBarButton IsSeparator="true" OverFlow="Never">
+        <telerik:RadToolBarButton IsSeparator="true">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/left.gif"
-            ToolTip="Align Left" CheckOnClick="true" Group="Align" Checked="true" >
+            ToolTip="Align Left" CheckOnClick="true" Group="Align" Checked="true">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/center.gif"
-            ToolTip="Align Center" CheckOnClick="true" Group="Align" OverFlow="Never">
+            ToolTip="Align Center" CheckOnClick="true" Group="Align">
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton ImageUrl="Images/right.gif"
-            ToolTip="Align Right" CheckOnClick="true" Group="Align" OverFlow="Never">
+            ToolTip="Align Right" CheckOnClick="true" Group="Align">
         </telerik:RadToolBarButton>
     </Items>
 </telerik:RadToolBar>
@@ -77,7 +77,7 @@ Full-size **RadToolBar**:
 
 ## Preventing items from being collapsed
 
-You can prevent items from being collapsed and moved to the dropdown on screen resize, by setting their **OverFlow** property to Never:
+You can prevent **items** from being collapsed and moved to the dropdown on screen resize, by setting their **OverFlow** property to **Never**:
 
 ````ASPNET
 ...
