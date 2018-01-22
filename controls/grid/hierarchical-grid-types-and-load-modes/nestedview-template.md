@@ -12,8 +12,6 @@ position: 8
 
 
 
-##
-
 This feature of RadGrid gives you the freedom to design the overall structure and appearance of detail tables in hierarchical grid. Thus based on your custom preferences you have the ability model the look and feel of the child table container in order to display the detail info in non table-dependant format. The functionality is especially useful when you would like to present the related content providing separate view for each detail item or tabs for navigation between the entries.
 ![grid hierarchy nestedviewtemplate](images/grid_hierarchy_nestedviewtemplate.jpg)
 
@@ -34,7 +32,9 @@ The detail table template should be specified between the NestedViewTemplate tag
     </MasterTableView>
 </telerik:RadGrid>
 ````
+
 or
+
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
@@ -223,6 +223,8 @@ An alternative approach to binding the nested view template without defining nes
   ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
 </asp:SqlDataSource>
 ````
+
+
 ````C#
 public partial class DefaultCS : System.Web.UI.Page
 {
@@ -279,3 +281,4 @@ Partial Public Class DefaultVB
     End Sub
 End Class
 ````
+
