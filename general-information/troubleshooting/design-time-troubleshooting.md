@@ -51,6 +51,8 @@ You need to copy the `Telerik.Web.Design.dll` file with the correct version (e.g
 
 If you reference the Telerik assemblies from another folder, make sure the `Telerik.Web.Design.dll` file is present there and is referenced in the Visual Studio project.
 
+>tip You can [download the hotfix archive]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) from our site that contains all necessary assemblies so you can easily copy the Telerik.Web.Design.dll assembly to your target location.
+
 
 ## Unknown server tag/Could not load file or assembly errors
 
