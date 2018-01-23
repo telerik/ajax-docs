@@ -123,3 +123,10 @@ The **RecurrenceRange** class specifies the time frame for the recurrence. It co
 The **Occurrences** property returns an enumerator that can be used to retrieve all the occurrences defined by the rule.
 
 The **RecurrenceRule** class supports the **ToString** and **TryParse** methods that **RadScheduler** uses for storing and retrieving the recurrence rules instances. The format is a subset of the standard iCalendar format. The example above produces the following output: ![](images/recurrenceoutput.png)
+
+
+# See Also
+
+ * [Working with RadScheduler recurring appointments on SQL server blog post](https://www.telerik.com/blogs/working-with-radscheduler-recurring-appointments-on-sql-server)
+
+
