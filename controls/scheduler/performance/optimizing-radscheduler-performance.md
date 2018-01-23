@@ -27,5 +27,9 @@ Here are some tips you can follow to optimize the **RadScheduler** control:
 * Number of recurring appointments: Recurring appointments are stored as a single appointment with a recurrence rule. RadScheduler parses this rule and generates Appointment instances to render and show the end user. When the recurrence rule is endless or recurs on very short intervals, this may lead to many appointments being created in memory. RadScheduler allows you to add a limit—setting its `MaximumRecurrenceCandidates` property defines how many days can have an occurrence. The default is 3000. This feature does not apply to client-side binding.
 
 
+# See Also
+
+ * [Scheduler - Performance online demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/optimizedqueries/defaultcs.aspx)
+
 
  
