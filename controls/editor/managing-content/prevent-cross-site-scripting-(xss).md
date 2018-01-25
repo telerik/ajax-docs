@@ -14,7 +14,7 @@ This article examines the built-in protection of the **RadEditor** control again
 
 ## RadEditor and XSS
 
-XSS is a class of attacks where malicious scripts can be injected in the web application and submitted to the server. If no validation or protective measures are undertaken,the injected script is executed on the page, loaded by an unsuspecting user. Subsequently,any sensitive information could be successfully hijacked to a location, known by the attacker.
+XSS is a class of attacks where malicious scripts can be injected in the web application and submitted to the server. If no validation or protective measures are undertaken, the injected script is executed on the page, loaded by an unsuspecting user. Subsequently, any sensitive information could be successfully hijacked to a location, known by the attacker.
 
 These type of attacks are popular, therefore, this matter is a commonly discussed topic in various public articles. You can learn more about how to protect your applications against XSS attacks by following these materials:
 
@@ -22,7 +22,7 @@ These type of attacks are popular, therefore, this matter is a commonly discusse
 * OWASP: [Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29)
 * MDN: [Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
 
-**RadEditor** provides built-in options for XSS protection of the processed content. Nevertheless,it should not be underestimated that it is still the developer’s responsibility to take care ofthe application security and validate the submitted content to prevent possible attacks as per to the guidelines of the materials provided.
+**RadEditor** provides built-in options for XSS protection of the processed content. Nevertheless, it should not be underestimated that it is still the developer’s responsibility to take care of the application security and validate the submitted content to prevent possible attacks as per to the guidelines of the materials provided.
 
 The built-in **RadEditor** features to prevent harmful content are:
 
@@ -31,11 +31,13 @@ The built-in **RadEditor** features to prevent harmful content are:
 * [Removing attribute DOM events](#attribute-dom-events)—**RadEditor** removes the DOM attributes that expose an option to add inline JavaScript code (e.g., onclick, onmouseover);
 * [Custom content filters](#custom-content-filters)—**RadEditor** lets you implement your own logic to strip or encode specific tags or expressions.
 
+>caution The **StripDomEventAttributes** filter and the **EncodeScripts** filter are **not** enabled by default. See below for details.
+
 ## RemoveScripts and EncodeScripts
 
 The **RemoveScripts** and **EncodeScripts** filters are [content filters]({%slug editor/managing-content/content-filters%}) that handle `<script>` tags inserted in the editor’s content.
 
-RemoveScripts filter strips all `<script>` elements and all JavaScript logic enclosed between its tags.This filter is designed to work on both client and server side to protect from possible execution of an already injected malicious code. For example, this content:
+RemoveScripts filter strips all `<script>` elements and all JavaScript logic enclosed between its tags. This filter is designed to work on both client and server side to protect from possible execution of an already injected malicious code. For example, this content:
 
 ````HTML
 <p>paragraph</p>
@@ -73,13 +75,13 @@ And in HTML will be decoded, so that user can continue working on it.
 
 This filter is intended only to encode and decode scripts, so JavaScript code will not be executed while edited in the **RadEditor**. Also, the submitted content will be decoded on the server (i.e., the server-side **RadEditor.Content** property will return content with fully functional script logic).
 
-Note that if the **RemoveScripts** filter is enabled, the **EncodeScripts** one will be of no value.Therefore, if you need to let users edit JavaScript in the **RadEditor** you should disable the **RemoveScripts** filter.For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
+>note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
 
 ## CSS Expressions
 
-[CSS expressions](http://msdn.microsoft.com/en-us/library/ie/ms537634%28v=vs.85%29.aspx) were first introduced in Internet Explorer 5.5 and later deprecated with the release of Internet Explorer 8.They were designed to provide more flexible CSS stylization by incorporating JavaScript logic directly in CSS properties. This feature,again, leads to the possibility of XSS attacks by injecting malicious script in the expressions.
+[CSS expressions](http://msdn.microsoft.com/en-us/library/ie/ms537634%28v=vs.85%29.aspx) were first introduced in Internet Explorer 5.5 and later deprecated with the release of Internet Explorer 8.They were designed to provide more flexible CSS stylization by incorporating JavaScript logic directly in CSS properties. This feature, again, leads to the possibility of XSS attacks by injecting malicious script in the expressions.
 
-Since its **Q3 2014** version, **RadEditor** provides built-in protection against this kind of attack.With the **StripCssExpressions** filter, CSS expressions are automatically stripped from the content. For example, the following HTML:
+Since its **Q3 2014** version, **RadEditor** provides built-in protection against this kind of attack. With the **StripCssExpressions** filter, CSS expressions are automatically stripped from the content. For example, the following HTML:
 
 ````HTML
 <style type="text/css">
@@ -126,6 +128,8 @@ Will be changed to this one:
 ````
 
 **StripDomEventAttributes**, just like the **StripCssExpressions** and **RemoveScripts** filters, runs both on the client and on the server side to protect from possible execution of an already injected malicious code. Disabling it will prevent all such attributes from being removed.
+
+>caution The **StripDomEventAttributes** filter is **not** enabled by default. This is so, because it removes content and, in doing so, may break templates or other logic required by the application.
 
 ## Custom Content Filters
 
