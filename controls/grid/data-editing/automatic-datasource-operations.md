@@ -53,9 +53,9 @@ You also need to set the **DataKeyNames** property of the table views in the gri
   </MasterTableView>
 </telerik:RadGrid>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-   SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]" 
-   DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID" 
-   InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)" 
+   SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]"
+   DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID"
+   InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)"
    UpdateCommand="UPDATE [Orders] SET [CustomerID] = @CustomerID, [EmployeeID] = @EmployeeID, [OrderDate] = @OrderDate, [ShipName] = @ShipName WHERE [OrderID] = @OrderID">
    <DeleteParameters>
        <asp:Parameter Name="OrderID" Type="Int32" />
@@ -146,6 +146,8 @@ You may also examine the resources below:
 
 By default **RadGrid** extracts the values from the column editors for all columns of the currently edited **GridItem** when updating or inserting a new record unless they are set as read-only. When deleting an item, **RadGrid** extracts the values from the cells of the **GridItem** that is to be deleted. The extraction of all values is necessary when the data source control has **ConflictDetection="CompareAllValues"** (the default DataSource control behavior).
 
+>tip The **SqlDataSource** will update all the fields defined in the **UpdateCommand**. If any of these fields are assigned to a read-only column in **RadGrid**, upon updating, old values will be replaced with null values.
+
 Extracting values from an **Item** is supported only when the grid has an edit mode of **InPlace** or **EditForms** (auto-generated edit forms) or uses a template.
 
 **RadGrid** can extract values from columns that are set as read-only, if the column's **ForceExtractValue** property is set to:
@@ -182,7 +184,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 
 	**ASP.NET**
-	
+
 		<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
 		  <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
 		  <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
@@ -197,9 +199,9 @@ Automatic operations through the **DataSource** control are not supported when y
 				dictionary["ProductName"] = TextBox1.Text;
 			}
 		}
-		
+
 	**VB**
-	
+
 		Partial Public Class WebUserControl
 			Inherits System.Web.UI.UserControl
 			Implements IBindableControl
