@@ -8,7 +8,7 @@ published: True
 position: 7
 ---
 
-# WebConfing Configuraton
+# WebConfig Configuraton
 
 
 
