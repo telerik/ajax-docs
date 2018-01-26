@@ -37,11 +37,18 @@ If you want to implement your own CRUD operations instead of using declarative d
 Custom logic with the batch edit mode is usually written in JavaScript, however, and to this end you can use:
 
 * The [Batch Edit Manager API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%}) that lets you get/set cell values and open/close cells.
+
 * The [OnBatchEditOpened]({%slug grid/client-side-programming/events/onbatcheditopened%}) event that lets you modify cell values and controls insides based on other conditions and cell values.
+
 * The [OnBatchEditOpening]({%slug grid/client-side-programming/events/onbatcheditopening%}) event that lets you prevent cells from being opened based on conditions, must like in the OnBatchEditOpened event.
+
 * [OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanging%}) and [OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanged%}) to get notified of and/or cancel changes to cell values.
+
 * [OnBatchEditClosing]({%slug grid/client-side-programming/events/onbatcheditclosing%}) and [OnBatchEditClosed]({%slug grid/client-side-programming/events/onbatcheditclosed%}) to get notified and prevent cells from closing.
+
 * Other events showcased in the [Working with templates]({%slug grid/data-editing/edit-mode/batch-editing/working-with-templates%}) article that you can use for complex templates, objects and logic.
+
+	>important  Keep in mind that such custom logic must be entirely client-side and that the built-in batch editing cannot guarantee it will not cause errors. A few example of scenarios that are not supported are load-on-demand, complex control hierarchy (e.g., having several controls in the template), or any server operations.
 
 ## See Also
 
