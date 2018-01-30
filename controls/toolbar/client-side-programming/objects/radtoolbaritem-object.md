@@ -47,8 +47,8 @@ The following table lists the most important of the common **RadToolBarItem** cl
 | **get_innerWrapElement** |none|HTML element|Gets the DOM element for the innermost SPAN that wraps the item.|
 | **get_middleWrapElement** |none|HTML element|Gets the DOM element for the middle SPAN that wraps the item.|
 | **get_outerWrapElement** |none|HTML element|Gets the DOM element for the outermost SPAN that wraps the item.|
-| **show** |none|none|Shows the toolbar item.|
-| **hide** |none|none|Hides the toolbar item.|
+| **show** |none|none|Shows the toolbar item. If you are using the [responsive features]({%slug toolbar/mobile-support/responsive-design%}), make sure to call the toolbar's `.repaint()` method afterwards.|
+| **hide** |none|none|Hides the toolbar item. If you are using the [responsive features]({%slug toolbar/mobile-support/responsive-design%}), make sure to call the toolbar's `.repaint()` method afterwards.|
 | **get_clicked** |none|boolean|True if the item is clicked.|
 | **get_focused** |none|boolean|True if the item is focused.|
 | **get_hovered** |none|boolean|True if the item is hovered.|

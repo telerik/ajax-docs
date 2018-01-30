@@ -10,12 +10,10 @@ position: 1
 
 # Responsive Design
 
-## 
 
 Since **Q1 2016** the **RadToolBar** control is fully responsive. It adapts to screen resizing by collapsing its elements under a dropdown button, if there is not enough space to display them all. When the button is clicked a dropdown containing the collapsed items is displayed.  
 
->important The **RadToolBar**'s responsive design is available only in Lightweight **RenderMode**.
->
+>note The **RadToolBar**'s responsive design is available only in Lightweight **RenderMode**.
 
 The following example demonstrates the **RadToolBar**'s responsive design capabilities.
 
@@ -74,6 +72,10 @@ Full-size **RadToolBar**:
     </Items>
 </telerik:RadToolBar>
 ````
+
+>note If you call the `.hide()` or `.show()` methods of individual items, make sure to call the `.repaint()` method of the toolbar afterwards so that the toolbar can re-calculate which buttons are to be collapsed.
+
+>note All items with the same value for the `Group` property collapse or expand together.
 
 ## Preventing items from being collapsed
 
