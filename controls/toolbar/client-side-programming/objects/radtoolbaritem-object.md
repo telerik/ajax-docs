@@ -55,6 +55,8 @@ The following table lists the most important of the common **RadToolBarItem** cl
 | **get_level** |none|integer|Gets the level of the item. Buttons and child items of a drop down button have 0 level. Child items of a split button are with level 1.|
 | **get_navigateUrl** |none|string|Returns the NavigateUrl of the item|
 | **set_navigateUrl** |string|none|Sets the NavigateUrl of the item|
+| **get_overFlow** |none|integer|Returns the Overflow of the item where Telerik.Web.UI.ToolBarOverflow.Auto = 0; Telerik.Web.UI.ToolBarOverflow.Always = 1; Telerik.Web.UI.ToolBarOverflow.Never = 2;.|
+| **set_overFlow** |integer|none|Sets the Overflow of the item where Telerik.Web.UI.ToolBarOverflow.Auto = 0; Telerik.Web.UI.ToolBarOverflow.Always = 1; Telerik.Web.UI.ToolBarOverflow.Never = 2;|
 
 ## RadToolBarButton methods
 
