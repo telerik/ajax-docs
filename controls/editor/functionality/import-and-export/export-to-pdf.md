@@ -362,7 +362,9 @@ Although we are striving to constantly improve our products, there are some limi
 * Client-side binding;
 * Medium trust;
 * Img tags that point to non-existing image files break the PDF file generation;
-* Exporting full HTML page (currently, only the content inside the body tag can be exported).
+* Exporting full HTML page (currently, only the content inside the body tag can be exported).;
+* Nested tables;
+* CSS selectors (Inline Styles only)
 
 
 ## Client-side Export
