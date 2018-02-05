@@ -11,12 +11,9 @@ position: 4
 # OnItemDragging
 
 
-
-##    
-
 This client-side event is fired when a RadListView item is dragged.
 
->caption  
+
 
 |  **Fired by**  | RadListView |
 | ------ | ------ |
@@ -40,5 +37,8 @@ function ItemDragging(sender, eventArgs) {
 
 
 
->caution To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel() or set_cancel().
->
+>note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel() or set_cancel().
+
+## See Also
+
+* [Drag and Drop Configuration]({%slug listview/items/drag-and-drop%})

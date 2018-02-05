@@ -11,10 +11,7 @@ position: 1
 # get_clientDataKeyValue
 
 
-
-## 
-
-The property returns an **Array** of objects representing the values of the ClientDataKeyNames for the RadListView items.
+The property returns an **Array** of objects representing the values of the `ClientDataKeyNames` for the RadListView items.
 
 ````ASP.NET
 <telerik:RadListView ID="RadListView1" runat="server" ClientDataKeyNames="ID">
@@ -30,4 +27,4 @@ The property returns an **Array** of objects representing the values of the Clie
 </telerik:RadCodeBlock>
 ````
 
-
+>note This method is supported only with server-side data binding. If you are working with client-side binding, see the following KB article: [Item drag and drop with client data binding](https://www.telerik.com/support/kb/aspnet-ajax/listview/details/item-drag-and-drop-with-client-data-binding).
