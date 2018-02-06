@@ -30,12 +30,12 @@ The event handler receives two arguments:
 
 The following example uses the **OnDateSelecting** event to confirm a change of selection and cancel the change if the user does not confirm:
 
-````ASPNET
+````ASP.NET
 <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnDateSelecting="confirmChange" />
 </telerik:RadCalendar>
-````
-````JavaScript
+
+<script>
 function confirmChange(sender, eventArgs) {
 	var date = eventArgs.get_renderDay().get_date();
 	var dfi = sender.DateTimeFormatInfo;
@@ -43,6 +43,30 @@ function confirmChange(sender, eventArgs) {
 	
 	eventArgs.set_cancel(!confirm("Are you sure you want to " +	(eventArgs.get_isSelecting() ? "select " : "unselect ") + formattedDate + "?"));
 }
+</script>
+````
+
+You can also use this event to perform client-side validation:
+
+````
+<telerik:RadCalendar runat="server" ID="RadCalendar1" RenderMode="Lightweight">
+    <ClientEvents OnDateSelecting="OnDateSelecting" />
+</telerik:RadCalendar>
+<script>
+    function OnDateSelecting(sender, args) {
+        if (args.get_isSelecting()) {
+            var rDay = args.get_renderDay();
+            var selDates = rDay.get_date();
+            var currDate = new Date();
+            if (selDates[0] < currDate.getFullYear() ||
+                selDates[1] < (currDate.getMonth() + 1) ||
+                selDates[2] < currDate.getDate()) {
+                alert("selected date is in the past and this is not allowed");
+                args.set_cancel(true);
+            }
+        }
+    }
+</script>
 ````
 
 
