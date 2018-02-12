@@ -12,111 +12,103 @@ position: 1
 
 
 
-##  
-
 The API and event sequence of **RadListView** are quite similar to **MS ListView**. The sequence of the events is the following:
 
-- RadListView with **EnableViewState** set to **true** (default value)
+## RadListView with **EnableViewState** set to **true** (default value)
 
 
-| First page load: |
-| ------ |
-|Page.Load|
-|NeedDataSource|
-|Foreach Item in RadListView:|
-|ItemCreated|
-|ItemDataBound|
-|Page.PreRender|
+### First page load:
 
 
-| Normal postback from a control outside of RadListView: |
-| ------ |
-|For each Item in RadListView:|
-|ItemCreated|
-|Page.Load|
-|Postback Events|
-|Page.PreRender|
+1. Page.Load
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.PreRender
 
 
-| On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body): |
-| ------ |
-|For each Item in RadListView:|
-|ItemCreated|
-|Page.Load|
-|ItemCommand|
-|SelectedIndexChanged|
-|NeedDataSource|
-|Other postback events|
-|Page.PreRender|
+###  Normal postback from a control outside of RadListView
+
+1. ItemCreated for each item
+1. Page.Load
+1. Postback Events
+1. Page.PreRender
 
 
-| On edit/update/insert/delete/cancel action or paging/sorting operation |
-| ------ |
-|For each Item:|
-|ItemCreated|
-|Page.Load|
-|ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
-|NeedDataSource|
-|For each Item:|
-|ItemCreated|
-|ItemDataBound|
-|Page.PreRender|
-|----|
-|Invoking the Rebind() method from postback event handler of outside control or RadListView will raise automatically the NeedDataSource event|
+### On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body)
 
-- RadListView with **EnableViewState** set to **false**
+1. ItemCreated for each item
+1. Page.Load
+1. ItemCommand
+1. SelectedIndexChanged
+1. NeedDataSource
+1. Other postback events
+1. Page.PreRender
 
 
-| First page load: |
-| ------ |
-|Page.Load|
-|NeedDataSource|
-|Foreach Item in RadListView:|
-|ItemCreated|
-|ItemDataBound|
-|Page.PreRender|
+### On edit/update/insert/delete/cancel action or paging/sorting operation
 
 
-| Normal postback from a control outside of ListView: |
-| ------ |
-|For each Item in RadListView:|
-|ItemCreated|
-| **ItemDataBound** |
-|Page.Load|
-| **NeedDataSource** |
-|Postback Events|
-|Page.PreRender|
+1. ItemCreated for each item
+1. Page.Load
+1. ItemCommand
+1. ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.PreRender
+
+### Calling Rebind()
+
+Invoking the `Rebind()` method from postback event handler of an outside control or RadListView will raise automatically the `NeedDataSource` event. Then the items will be recreated so the `ItemCreated` and `ItemDataBound` events will be raised according to the cases above.
+
+## RadListView with **EnableViewState** set to **false**
+
+### First page load
+
+1. Page.Load
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.PreRender
 
 
-| On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body): |
-| ------ |
-|For each Item in RadListView:|
-| **ItemCreated** |
-| **ItemDataBound** |
-|Page.Load|
-|NeedDataSource|
-|ItemCommand|
-|SelectedIndexChanged|
-|Other postback events|
-|Page.PreRender|
+### Normal postback from a control outside of ListView
+
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.Load
+1. NeedDataSource
+1. Postback Events
+1. Page.PreRender
 
 
-| On edit/update/insert/delete/cancel action or paging/sorting operation |
-| ------ |
-|For each Item in RadListView:|
-|ItemCreated|
-|Page.Load|
-|NeedDataSource|
-|For each Item:|
-|ItemCreated|
-| **ItemDataBound** |
-|ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
-| **NeedDataSource** |
-|For each Item in RadListView:|
-|ItemCreated|
-|ItemDataBound|
-|Page.PreRender|
-|----|
-|Invoking the Rebind() method from postback event handler of outside control or RadListView will -not- raise the NeedDataSource event.|
+### On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body)
+
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.Load
+1. NeedDataSource
+1. ItemCommand
+1. SelectedIndexChanged
+1. Other postback events
+1. Page.PreRender
+
+
+### On edit/update/insert/delete/cancel action or paging/sorting operation
+
+1. ItemCreated for each item
+1. Page.Load
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. ItemCommand
+1. ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand
+1. NeedDataSource
+1. ItemCreated for each item
+1. ItemDataBound for each item
+1. Page.PreRender
+
+### Calling Rebind()
+
+Invoking the `Rebind()` method from postback event handler of an outside control or RadListView will **not** raise the `NeedDataSource` event. Then the items will be recreated so the `ItemCreated` and `ItemDataBound` events will be raised according to the cases above.
