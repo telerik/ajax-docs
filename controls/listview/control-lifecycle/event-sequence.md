@@ -17,7 +17,7 @@ The API and event sequence of **RadListView** are quite similar to **MS ListView
 ## RadListView with **EnableViewState** set to **true** (default value)
 
 
-### First page load:
+### First page load
 
 
 1. Page.Load
@@ -33,6 +33,8 @@ The API and event sequence of **RadListView** are quite similar to **MS ListView
 1. Page.Load
 1. Postback Events
 1. Page.PreRender
+
+If a data source was not provided in the initial load, the `NeedDataSource` event will be fired as if this were the initial page load.
 
 
 ### On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body)
