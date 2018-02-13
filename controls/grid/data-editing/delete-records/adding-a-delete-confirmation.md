@@ -18,30 +18,38 @@ There are scenarios in which you would like to display a confirmation dialog to 
 
 In the standard mode, when Telerik RadGrid performs postbacks, you will invoke the confirm javascript method.
 
+You may find useful the [RadConfirm dialog integration demo](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) as an example.
+
 ## Built-in delete confirmation for GridButtonColumn
 
-A common enhancement for GridButtonColumn is to display a confirm dialog when the user presses an arbitrary button from it. Since version 3.0 of Telerik RadGrid, we introduced the **ConfirmText** property for GridButtonColumns which is especially designed for cases like this. By default, this property value is empty, hence no confirmation dialog will be displayed when an action is propagated by clicking on an item in that column.If the developer, however, specifies a confirm text sequence, the user will be prompted on whether the task should be undertaken.
+A common enhancement for `GridButtonColumn` is to display a confirm dialog when the user presses an arbitrary button from it. The **ConfirmText** property for `GridButtonColumns` is especially designed for cases like this. By default, this property value is empty, and no confirmation dialog will be displayed when an action is triggered by clicking on an item in that column. If the developer, however, specifies a confirm text string, the user will be prompted on whether the task should be undertaken.
 
 ## Built-in delete confirmation for GridButtonColumn with RadWindow
 
-RadGrid also supports showing confirmation dialog with [RadWindow](http://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set **ConfirmDialogType** property to **RadWindow** and place a **RadWindowManager**in the page. RadGrid will display a RadWindow confirmation dialog. You can additionally configure the [RadWindowManager](http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control. If there is no RadWindowManager control, RadGrid will ignore this property and will display the default confirm dialog. When **ConfirmDialogType** is set to **"RadWindow"** RadGrid allows additional customization -- the dialog title can be configured through **ConfirmTitle** property.The most common usage of this confirmation dialog is upon deleting grid item (note that the Delete column is type of GridButtonColumn).
+RadGrid also supports showing confirmation dialog with [RadWindow](http://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set the **ConfirmDialogType** property to **RadWindow** and place a **RadWindowManager** on the page. RadGrid will display a [RadConfirm dialog](https://demos.telerik.com/aspnet-ajax/window/examples/browserdialogboxes/defaultcs.aspx). 
+
+If there is no RadWindowManager control, RadGrid will ignore this property and will display the default browser confirm dialog.
+
+You can additionally configure the [RadWindowManager](http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control.
+
+When **ConfirmDialogType** is set to **"RadWindow"** RadGrid allows additional customization—the dialog title can be configured through **ConfirmTitle** property. The most common usage of this confirmation dialog is upon deleting grid item (note that the Delete column is type of GridButtonColumn).
 
 ## Display confirmation dialog with text including column cell value
 
-In this case you need to implement a different approach (without setting the **ConfirmText** property for the delete column), performing the steps below should ensure the desired functionality:
+In this case you need to implement a different approach without setting the **ConfirmText** property for the delete column. You need to have a JavaScript handler for the button that will display the desired confirmation, and you can easily add it as an attribute of the button. For example:
 
-* wire the **ItemDataBound** event of the grid;
+1. wire the **ItemDataBound** event of the grid;
 
-* extract the text value from the column of your choice;
+1. extract the text value from the column of your choice;
 
-* locate the **LinkButton** control inside the delete **GridButtonColumn**;
+1. inside the delete **GridButtonColumn**, locate the **LinkButton** control (for the Classic [RenderMode]({%slug controls/render-modes%}) or the **ElasticButton** (for the Lightweight RenderMode).
 
-* add **onclick** attribute to its **Attributes** collection and relate it to confirm dialog passing the value from the chosen cell
+1. add **onclick** attribute to its **Attributes** collection and relate it to confirm dialog passing the value from the chosen cell and ensuring the event is cancelled if the user does not confirm
 
 
 
 ````ASP.NET
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView AutoGenerateColumns="False">
     <Columns>
       <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
@@ -52,19 +60,26 @@ In this case you need to implement a different approach (without setting the **C
   </MasterTableView>
 </telerik:RadGrid></pre>
 ````
+
 ````C#
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem)
-	        {
-	            GridDataItem dataItem = e.Item as GridDataItem;
-	            string contactName = dataItem["ContactName"].Text;
-	
-	            LinkButton button = dataItem["DeleteColumn"].Controls[0] as LinkButton;
-	            button.Attributes["onclick"] = "return confirm('Are you sure you want to delete " +
-	            contactName + "?')";
-	        }
-	    }
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem)
+    {
+        GridDataItem dataItem = e.Item as GridDataItem;
+        string contactName = dataItem["ContactName"].Text;
+
+		//for the Classic RenderMode
+        //LinkButton button = dataItem["DeleteColumn"].Controls[0] as LinkButton;
+        //button.Attributes["onclick"] = "return confirm('Are you sure you want to delete " +
+        //    contactName + "?')";
+
+		//for the Lightweight RenderMode
+		ElasticButton button = dataItem["DeleteColumn"].Controls[0] as ElasticButton
+        button.Attributes["onclick"] = "if (!confirm('Are you sure you want to delete " +
+        	contactName + "?')) {return false;}";
+    }
+}
 ````
 ````VB
 Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
@@ -73,8 +88,13 @@ Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.We
 
         Dim contactName As String = dataItem("ContactName").Text
 
-        Dim button As LinkButton = CType(dataItem("DeleteColumn").Controls(0), LinkButton)
-        button.Attributes("onclick") = "return confirm('Are you sure you want to delete " & contactName & "?')"
+		'For the Classic RenderMode
+        'Dim button As LinkButton = CType(dataItem("DeleteColumn").Controls(0), LinkButton)
+        'button.Attributes("onclick") = "return confirm('Are you sure you want to delete " & contactName & "?')"
+
+		'for the Lightweight RenderMode
+		Dim button As ElasticButton = CType(dataItem("DeleteColumn").Controls(0), ElasticButton)
+        button.Attributes("onclick") =  "if (!confirm('Are you sure you want to delete " & contactName & "?')) {return false;}"
     End If
 End Sub 'RadGrid1_ItemDataBound
 ````
@@ -119,3 +139,5 @@ Here is an example usage:
 
 The following screenshot displays the result from the above code:
 ![Confirmation dialog](images/grd_ConfirmationDialog.png)
+
+>tip You may find useful the [RadConfirm dialog integration demo](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) as an example for getting the user confirmation for button clicks.
