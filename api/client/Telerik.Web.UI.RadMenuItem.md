@@ -143,7 +143,7 @@ Returns the Menu Item's css class if clicked.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_clickedImageURL
 
@@ -153,7 +153,7 @@ Returns the URL of the Menu Item's Image on click.
 
 #### Returns
 
-`String` The Menu Item Image
+`String`
 
 ### get_clientTemplate
 
@@ -163,7 +163,7 @@ Returns the value of the Menu Item's ClientTemplate property.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_disabledCssClass
 
@@ -173,7 +173,7 @@ Returns the Menu Item's css class if disabled.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_disabledImageURL
 
@@ -183,7 +183,7 @@ Returns the URL of the Menu Item's Image if disabled.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_expandedCssClass
 
@@ -193,7 +193,7 @@ Returns the Menu Item's css class if expanded.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_expandedImageURL
 
@@ -203,7 +203,7 @@ Returns the URL of the Menu Item's Image for expanding.
 
 #### Returns
 
-`String` The expand Menu Item
+`String`
 
 ### get_expandedMode
 
@@ -213,7 +213,7 @@ Returns the value of the Menu Item's Expand Mode - 0 for Client-Side, 1 for WebS
 
 #### Returns
 
-`Number` The Menu Item
+`Number`
 
 ### get_focused
 
@@ -223,7 +223,7 @@ Indicates whether the menu item is focused.
 
 #### Returns
 
-`Boolean` Boolean
+`Boolean`
 
 ### get_focusedCssClass
 
@@ -243,7 +243,7 @@ Gets the focused child item. Null if no child item is focused.
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItem` RadMenuItem
+`Telerik.Web.UI.RadMenuItem`
 
 ### get_hoveredImageUrl
 
@@ -253,7 +253,7 @@ Gets the URL of the image displayed when the mouse is over the item.
 
 #### Returns
 
-`String` The URL of the image displayed when the mouse is over the item.
+`String`
 
 ### get_imageElement
 
@@ -263,7 +263,7 @@ Gets the image DOM element of the item. If the server side ImageUrl property is 
 
 #### Returns
 
-`None` 
+`Element` 
 
 ### get_imageUrl
 
@@ -273,9 +273,11 @@ Gets the URL of the item's image.
 
 #### Returns
 
-`String` The URL of the item
+`String`
 
 ### get_isOpen
+
+Returns whether the item is opened
 
 #### Parameters
 
@@ -291,7 +293,7 @@ Returns true if the item is a separator (sever-side property IsSeparator = true)
 
 #### Returns
 
-`Boolean` Value indicating if the RadMenuItem is a separator
+`Boolean`
 
 ### get_items
 
@@ -301,7 +303,7 @@ Returns the collection of child items.
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItemCollection` RadMenuItemCollection
+`Telerik.Web.UI.RadMenuItemCollection`
 
 ### get_level
 
@@ -311,7 +313,7 @@ Gets the level of the item. Root level items are first level.
 
 #### Returns
 
-`Number` The item
+`Number`
 
 ### get_linkElement
 
@@ -331,7 +333,7 @@ Returns an instance of the menu that contains the item.
 
 #### Returns
 
-`None` 
+`Telerik.Web.UI.RadMenu` 
 
 ### get_navigateUrl
 
@@ -341,7 +343,7 @@ Gets the URL of the Web page the menu item launches.
 
 #### Returns
 
-`None` 
+`String` 
 
 ### get_nextItem
 
@@ -351,7 +353,7 @@ Returns the next sibling of the item. If the item is last, returns null.
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItem` RadMenuItem
+`Telerik.Web.UI.RadMenuItem`
 
 ### get_openedItem
 
@@ -361,7 +363,7 @@ Gets the opened child item. Null if no child item is opened.
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItem` RadMenuItem
+`Telerik.Web.UI.RadMenuItem`
 
 ### get_previousItem
 
@@ -371,7 +373,7 @@ Returns the previous sibling of the item. If the item is first, returns null.
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItem` RadMenuItem
+`Telerik.Web.UI.RadMenuItem`
 
 ### get_selected
 
@@ -381,7 +383,7 @@ Returns whether the item is selected
 
 #### Returns
 
-`Boolean` Boolean
+`Boolean`
 
 ### get_selectedCssClass
 
@@ -391,7 +393,7 @@ Returns the Menu Item's css class if selected.
 
 #### Returns
 
-`String` The Menu Item
+`String`
 
 ### get_selectedImageUrl
 
@@ -421,7 +423,7 @@ Gets the DOM element of the item text (SPAN).
 
 #### Returns
 
-`None` 
+`Element` 
 
 ### hide
 
@@ -471,7 +473,7 @@ Sets the Menu Item's css class if clicked.
 
 ##### value `String`
 
-The Menu Item
+The new CSS class for the item
 
 #### Returns
 
@@ -485,7 +487,7 @@ Sets the URL of the Menu Item's Image on click.
 
 ##### value `String`
 
-The Menu Item Image
+The new Menu Item Image
 
 #### Returns
 
@@ -499,7 +501,7 @@ Sets the value of the Menu Item's ClientTemplate property.
 
 ##### value `String`
 
-value
+The new client template string
 
 #### Returns
 
@@ -513,7 +515,7 @@ Sets the Menu Item's css class if disabled.
 
 ##### value `String`
 
-The Menu Item
+The new CSS class for disabled mode
 
 #### Returns
 
@@ -527,7 +529,7 @@ Sets the URL of the Menu Item's Image if disabled.
 
 ##### value `String`
 
-The Menu Item
+The new Menu Item disabled image URL
 
 #### Returns
 
@@ -555,7 +557,7 @@ Sets the Menu Item's css class if expanded.
 
 ##### value `String`
 
-The Menu Item
+The new CSS class for the expanded state
 
 #### Returns
 
@@ -569,7 +571,7 @@ Sets the URL of the Menu Item's Image for expanding.
 
 ##### value `String`
 
-The expand Menu Item
+The new expand image URL for the Menu Item
 
 #### Returns
 
@@ -583,7 +585,7 @@ Sets the value of the Menu Item's Expand Mode - 0 for Client-Side, 1 for WebServ
 
 ##### value `Number`
 
-The Menu Item
+The new Menu Item expand mode
 
 #### Returns
 
@@ -597,7 +599,7 @@ Sets focus to the item.
 
 ##### value `Boolean`
 
-value
+Whether the item will be focused
 
 #### Returns
 
@@ -611,7 +613,7 @@ Sets the Menu Item's css class if focused.
 
 ##### value `String`
 
-The Menu Item
+The new CSS class for the focused state of the item
 
 #### Returns
 
@@ -625,7 +627,7 @@ Sets the URL of the image displayed when the mouse is over the item.
 
 ##### value `String`
 
-The URL of the image displayed when the mouse is over the item.
+The new URL of the image displayed when the mouse is over the item.
 
 #### Returns
 
@@ -639,7 +641,7 @@ Sets the URL of the item's image.
 
 ##### value `String`
 
-The URL of the item
+The new URL of the image displayed in the item
 
 #### Returns
 
@@ -647,7 +649,13 @@ The URL of the item
 
 ### set_isSeparator
 
+Sets whether the item is a separator or a regular item
+
 #### Parameters
+
+##### value `Boolean`
+
+Pass true to get a separator item
 
 #### Returns
 
@@ -658,6 +666,10 @@ The URL of the item
 Sets the navigateURL property of the item. This is the URL of the Web page the menu item launches. The navigateUrl property must be an absolute URL on the client side: (e.g. "http://mydomain.com/default.aspx" not "default.aspx").
 
 #### Parameters
+
+##### value `String`
+
+The new URL the item will navigate to
 
 #### Returns
 
@@ -671,7 +683,7 @@ Sets the selected property of the item.
 
 ##### value `Boolean`
 
-value
+Whether the item will be selected
 
 #### Returns
 
@@ -685,7 +697,7 @@ Sets the Menu Item's css class if selected.
 
 ##### value `String`
 
-The Menu Item
+The new CSS class for the selected state of the Menu Item
 
 #### Returns
 
@@ -699,7 +711,7 @@ Sets the URL of the image displayed when the item is selected
 
 ##### value `String`
 
-The URL of the image displayed when the item is selected.
+The new URL of the image displayed when the item is selected.
 
 #### Returns
 
@@ -710,6 +722,10 @@ The URL of the image displayed when the item is selected.
 Sets the text of the item.
 
 #### Parameters
+
+##### value `String`
+
+The new text of the item
 
 #### Returns
 
