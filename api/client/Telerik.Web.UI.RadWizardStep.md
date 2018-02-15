@@ -21,6 +21,8 @@ Sets active the RadWizardRenderedStep.
 
 #### Returns
 
+`None`
+
 ### deactivate
 
 Sets inactive the RadWizardRenderedStep.
@@ -28,6 +30,8 @@ Sets inactive the RadWizardRenderedStep.
 #### Parameters
 
 #### Returns
+
+`None`
 
 ### disable
 
@@ -37,6 +41,8 @@ Disables the RadWizardStep.
 
 #### Returns
 
+`None`
+
 ### enable
 
 Enables the RadWizardStep.
@@ -44,6 +50,8 @@ Enables the RadWizardStep.
 #### Parameters
 
 #### Returns
+
+`None`
 
 ### get_active
 
@@ -123,7 +131,7 @@ Gets the HTMLElement of the step
 
 #### Returns
 
-`HTMLElement` The HTMLElement of the step.
+`Element` The HTML Element of the step.
 
 ### get_enabled
 
@@ -157,13 +165,13 @@ Gets the id of the step.
 
 ### get_imageElement
 
-Gets the HTMLElement of the corresponding image element.
+Gets the HTML Element of the corresponding image element.
 
 #### Parameters
 
 #### Returns
 
-`HTMLElement` The HTMLElement of the corresponding image element.
+`Element` The HTML Element of the corresponding image element.
 
 ### get_imageUrl
 
@@ -193,7 +201,7 @@ Gets the HTMLElement of the corresponding navigationBar button element.
 
 #### Returns
 
-`HTMLElement` The HTMLElement of the corresponding navigationBar button element.
+`Element` The HTML Element of the corresponding navigationBar button element.
 
 ### get_navigationBarLinkElement
 
@@ -203,7 +211,7 @@ Gets the HTMLElement of the corresponding navigationBar link element.
 
 #### Returns
 
-`HTMLElement` The HTMLElement of the corresponding navigationBar link element.
+`Element` The HTML Element of the corresponding navigationBar link element.
 
 ### get_stepType
 
@@ -223,7 +231,7 @@ Gets the HTMLElement of the corresponding NavigationBar text element.
 
 #### Returns
 
-`HTMLElement` The HTMLElement of the corresponding NavigationBar text element.
+`Element` The HTML Element of the corresponding NavigationBar text element.
 
 ### get_title
 
@@ -273,6 +281,8 @@ Hides the RadWizardStep content.
 
 #### Returns
 
+`None`
+
 ### set_active
 
 Sets a boolean value indicating whether the RadWizardRenderedStep is active.
@@ -284,6 +294,8 @@ Sets a boolean value indicating whether the RadWizardRenderedStep is active.
 true if the step is active; false if the step is not active.
 
 #### Returns
+
+`None`
 
 ### set_activeImageUrl
 
@@ -297,6 +309,8 @@ Active ImageUrl.
 
 #### Returns
 
+`None`
+
 ### set_allowReturn
 
 Sets a boolean value indicating whether the RadWizardRenderedStep is allowed to be returned to.
@@ -308,6 +322,8 @@ Sets a boolean value indicating whether the RadWizardRenderedStep is allowed to 
 true if the step is allowed to be returned to; false if the step is not allowed to be returned to.
 
 #### Returns
+
+`None`
 
 ### set_causesValidation
 
@@ -321,6 +337,8 @@ true if the step should cause validation; false if the step should not cause val
 
 #### Returns
 
+`None`
+
 ### set_cssClass
 
 Sets a string value of the cssClass.
@@ -332,6 +350,8 @@ Sets a string value of the cssClass.
 CssClass of the step.
 
 #### Returns
+
+`None`
 
 ### set_disabledImageUrl
 
@@ -345,6 +365,8 @@ Disabled ImageURL.
 
 #### Returns
 
+`None`
+
 ### set_displayCancelButton
 
 Sets a boolean value indicating whether the cancel button of the RadWizardRenderedStep should be displayed.
@@ -356,6 +378,8 @@ Sets a boolean value indicating whether the cancel button of the RadWizardRender
 true if the cancel button of the step should be displayed; false if the cancel button of the step should not be displayed.
 
 #### Returns
+
+`None`
 
 ### set_enabled
 
@@ -369,6 +393,8 @@ true if the step is enabled; false if the step is disabled.
 
 #### Returns
 
+`None`
+
 ### set_hoveredImageUrl
 
 Sets a string value of the hoveredImageUrl.
@@ -380,6 +406,8 @@ Sets a string value of the hoveredImageUrl.
 Hovered ImageUrl of the step.
 
 #### Returns
+
+`None`
 
 ### set_id
 
@@ -393,6 +421,8 @@ Id of the step.
 
 #### Returns
 
+`None`
+
 ### set_imageUrl
 
 Sets a string value of the ImageUrl.
@@ -404,6 +434,8 @@ Sets a string value of the ImageUrl.
 ImageUrl of the step.
 
 #### Returns
+
+`None`
 
 ### set_stepType
 
@@ -417,6 +449,8 @@ WizardStepType of the step. The RadWizardStep type can be: 0 - Auto; 1 - Complet
 
 #### Returns
 
+`None`
+
 ### set_title
 
 Sets a string value of the title.
@@ -428,6 +462,8 @@ Sets a string value of the title.
 Title of the step.
 
 #### Returns
+
+`None`
 
 ### set_toolTip
 
@@ -441,6 +477,8 @@ Tooltip of the step.
 
 #### Returns
 
+`None`
+
 ### set_validationGroup
 
 Sets a string value of the validations group of the step.
@@ -452,6 +490,8 @@ Sets a string value of the validations group of the step.
 Validation group of the step.
 
 #### Returns
+
+`None`
 
 ### set_wizard
 
@@ -465,6 +505,8 @@ The parent RadWizard control of the step.
 
 #### Returns
 
+`None`
+
 ### show
 
 Shows the WizardStep content.
@@ -473,3 +515,4 @@ Shows the WizardStep content.
 
 #### Returns
 
+`None`
