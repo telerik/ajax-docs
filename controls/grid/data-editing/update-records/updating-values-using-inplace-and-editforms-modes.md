@@ -269,5 +269,36 @@ Private Sub RadGrid1_UpdateCommand(ByVal source As System.Object, ByVal e As Tel
 End Sub
 ````
 
+## Extracting data from a Template Column
 
+For GridTemplateColumn instances, the `ExtractValues()` method will provide data in case there is a `<%#Bind("someColumn") %>` expression in the `EditItemTemplate` or `InsertItemTemplate`. The key in the hashtable will be the field from the binding expression.
+
+For example, the columns below will populate the hash table with data for the "someField" and "moreData" respectively, even though both have the same `DataField` setting.
+
+````ASP.NET
+<telerik:GridTemplateColumn HeaderText="template column" DataField="someColumn" UniqueName="myTemplateColumn">
+    <ItemTemplate>
+        <%#Eval("someColumn") %>
+    </ItemTemplate>
+    <EditItemTemplate>
+        <asp:TextBox runat="server" ID="textbox1" Text='<%#Bind("someColumn") %>' />
+    </EditItemTemplate>
+    <InsertItemTemplate>
+        <asp:TextBox runat="server" ID="textbox1" Text='<%#Bind("someColumn") %>' />
+    </InsertItemTemplate>
+</telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn HeaderText="second template column" DataField="someColumn" UniqueName="myTemplateColumn2">
+    <ItemTemplate>
+        <%#Eval("moreData") %>
+    </ItemTemplate>
+    <EditItemTemplate>
+        <asp:TextBox runat="server" ID="textbox2" Text='<%#Bind("moreData") %>' />
+    </EditItemTemplate>
+    <InsertItemTemplate>
+        <asp:TextBox runat="server" ID="textbox2" Text='<%#Bind("moreData") %>' />
+    </InsertItemTemplate>
+</telerik:GridTemplateColumn>
+````
+
+For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-template-column).
 

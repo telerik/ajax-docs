@@ -10,10 +10,6 @@ position: 2
 
 # Extracting values
 
-
-
-## 
-
 Telerik RadGrid has the following column types capable of editing data that will be persisted automatically:
 
 * **GridBoundColumn**
@@ -45,3 +41,5 @@ Extracting values through the **ExtractValuesFromItem/ExtractValues** methods is
 * "Always" - for all modes
 
 The default value for this property is **"None"**, i.e. the data extraction will not be performed for read-only columns.
+
+For GridTemplateColumn instances, the `ExtractValues()` method will provide data in case there is a `<%#Bind("someColumn") %>` expression in the `EditItemTemplate` or `InsertItemTemplate`. For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-template-column).
