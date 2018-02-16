@@ -165,13 +165,9 @@ Returns the checkability of the Node
 
 #### Parameters
 
-##### value `Boolean`
-
-value
-
 #### Returns
 
-`None` 
+`Boolean` true if the node can be checked 
 
 ### get_checkBoxElement
 

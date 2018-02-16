@@ -167,13 +167,17 @@ RadAsyncUpload
 
 #### Returns
 
-`None` 
+`Array` a string array of the file names of the uploaded files 
 
 ### isExtensionValid
 
 Gets a value indicating whether the file extension is valid.
 
 #### Parameters
+
+##### extension `String`
+
+The extension to check
 
 #### Returns
 

@@ -451,18 +451,17 @@ Displays the menu as a pop-up at the coordinates specified by the parameters.
 
 #### Parameters
 
-#### X coordinate  `Number`
+##### X `Number`
 
 The horizontal value in a pair of coordinates.
 
-#### Y coordinate  `Number`
+##### Y `Number`
 
 The vertical value in a pair of coordinates.
 
 #### Returns
 
-`None` 
-
+`None`
 
 ### trackChanges
 
