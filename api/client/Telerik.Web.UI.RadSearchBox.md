@@ -133,7 +133,7 @@ Returns the time in milliseconds before a request is initiated by the control af
 
 #### Returns
 
-`integer` The time in milliseconds before a request is initiated by the control after the user enters a keystroke.
+`Number` The time in milliseconds before a request is initiated by the control after the user enters a keystroke.
 
 ### get_searchContext
 
@@ -253,7 +253,7 @@ Sets the time in milliseconds before a request is initiated by the control after
 
 #### Parameters
 
-##### value `integer`
+##### value `Number`
 
 The time in milliseconds before a request is initiated by the control after the user enters a keystroke.
 
