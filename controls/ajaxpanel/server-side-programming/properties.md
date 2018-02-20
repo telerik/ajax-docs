@@ -14,15 +14,15 @@ position: 0
 
 This help article defines the most used **RadAjaxControl** properties and show examples of using a few of them.
 
-## 
+##
 
-* **EnableAJAX** - When you set the **EnableAJAX** property to **true** (the default),all requests (controls either within the **RadAjaxPanel** Template or managed by the **RadAjaxManager**)are handled via AJAX. If this property is **false**, requests are handled in the legacy postback manner.
+* **EnableAJAX** - When you set the **EnableAJAX** property to **true** (the default), all requests (controls either within the **RadAjaxPanel** Template or managed by the **RadAjaxManager**) are handled via AJAX. If this property is **false**, requests are handled in the legacy postback manner.
 
 * **EnableHistory** - When you set the **EnableHistory** property to **true** (the default is **false**), browser history is enabled, even when using AJAX. The forward and back buttons of the browser work as expected (IE browser only). For more information, see this article:	[Back and Forward Browser Buttons]({%slug ajaxpanel/troubleshooting/back-and-forward-browser-buttons%})
 
-* **EnablePageHeadUpdate** - When you set the **EnablePageHeadUpdate** property to**true** (the default), the Page <Head> element can be modified during AJAX updates. You'll find this functionality especially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
+* **EnablePageHeadUpdate** - When you set the **EnablePageHeadUpdate** property to **true** (the default), the Page `<Head>` element can be modified during AJAX updates. You'll find this functionality especially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
 
-* **IsAjaxRequest** - Set this property **true** when the current request is through AJAX and **false** when the request is a standard postback. In **Example 1** , "Button1" has been configured to be AJAX-enabled and the alert will display **true**. Clicking "Button2" will display **false**.
+* **IsAjaxRequest** - Set this property **true** when the current request is through AJAX and **false** when the request is a standard postback. In **Example 1**, "Button1" has been configured to be AJAX-enabled and the alert will display **true**. Clicking "Button2" will display **false**.
 
 
 
@@ -33,7 +33,7 @@ This help article defines the most used **RadAjaxControl** properties and show e
 	<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
 	<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 </telerik:RadAjaxPanel>
-<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />    
+<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
 ````
 ````C#
 protected void Button1_Click(object sender, EventArgs e)
@@ -44,17 +44,17 @@ protected void Button2_Click(object sender, EventArgs e)
 {
 	RadAjaxPanel1.Alert(RadAjaxPanel1.IsAjaxRequest.ToString());
 }
-				
+
 ````
 ````VB
-	
+
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        RadAjaxPanel1.Alert(RadAjaxPanel1.IsAjaxRequest.ToString())
 End Sub
 Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        RadAjaxPanel1.Alert(RadAjaxPanel1.IsAjaxRequest.ToString())
 End Sub
-	
+
 ````
 
 
@@ -69,19 +69,19 @@ End Sub
 
 
 ````C#
-	
+
 protected void Button2_Click(object sender, EventArgs e)
 {
 	RadAjaxPanel1.ResponseScripts.Add("alert('this fires after the response');");
-}  
-				
+}
+
 ````
 ````VB
-	     
+
 Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
 	RadAjaxPanel1.ResponseScripts.Add("alert('this fires after the response');")
 End Sub
-				
+
 ````
 
 
