@@ -162,7 +162,7 @@ There are various control properties that you can set from the web.config for an
 
 You can add any of the keys below in a similar fashion. 
 
-Here follows a list with all the available `appSettings` keys for the Telerik® UI for ASP.NET AJAX controls:
+The following is a list of all available `appSettings` keys for the Telerik® UI for ASP.NET AJAX controls:
 
 * **BindGridInvisibleColumns**—when set to true, all columns in a RadGrid which have the Visible property to false will bind their data. You can read more about its use case in the [Breaking change: Hidden column cell text is not persisted in ViewState](http://www.telerik.com/forums/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate) forum thread. 
 
