@@ -20,6 +20,7 @@ This help article lists the most common issues one can face when using the **Rad
 1. [ PlotArea is Shrunk by the Legend / PlotArea Dimensions Depend on the Legend Size.](#plotarea-is-shrunk-by-the-legend--plotarea-dimensions-depend-on-the-legend-size)
 1. [ RadHtmlChart cannot be bound to a data source that has special characters in its field names. ](#radhtmlchart-cannot-be-bound-to-a-data-source-that-has-special-characters-in-its-field-names)
 1. [Chart with display: none does not show itself](#chart-with-display-none-does-not-show-itself)
+1. [Overlapping Labels on Stacked Columns](#overlapping-labels-on-stacked-columns)
 
 ## Tooltips are Hidden Behind RadWindow or RadNotification
 
@@ -382,6 +383,24 @@ To resolve this, call its `repaint` client-side method so the chart will redraw 
 		</Series>
 	</PlotArea>
 </telerik:RadHtmlChart>
+````
+
+
+## Overlapping Labels on Stacked Columns
+
+If your **RadHtmlChart** uses a Stacked Series with Series Labels you may observe that the lables are overlapping with small data values.
+
+This occures because the labels render a certain distance from the border of the series item. Adding some padding to the LabelsAppearance can help with increasing the distance between labels.
+
+````ASP.NET
+<telerik:ColumnSeries Name="A" Stacked="true" StackType="Normal">
+    <seriesitems>
+        <telerik:CategorySeriesItem Y="1" />
+    </seriesitems>
+<labelsappearance visible="true">
+    <TextStyle Padding="20" />
+</labelsappearance>
+</telerik:ColumnSeries>
 ````
 
 
