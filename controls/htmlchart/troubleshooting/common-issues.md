@@ -388,20 +388,22 @@ To resolve this, call its `repaint` client-side method so the chart will redraw 
 
 ## Overlapping Labels on Stacked Columns
 
-If your **RadHtmlChart** uses a Stacked Series with Series Labels you may observe that the lables are overlapping with small data values.
+If your **RadHtmlChart** uses a Stacked Series with Series Labels, you may observe that the labels are overlapping with small data values.
 
-This occures because the labels render a certain distance from the border of the series item. Adding some padding to the LabelsAppearance can help with increasing the distance between labels.
+This occurs because the labels render a certain distance from the border of the series item. Adding some `padding` to the `LabelsAppearance` can help with increasing the distance between labels.
 
 ````ASP.NET
 <telerik:ColumnSeries Name="A" Stacked="true" StackType="Normal">
-    <seriesitems>
+    <SeriesItems>
         <telerik:CategorySeriesItem Y="1" />
-    </seriesitems>
-<labelsappearance visible="true">
+    </SeriesItems>
+<LabelsAppearance Visible="true">
     <TextStyle Padding="20" />
-</labelsappearance>
+</LabelsAppearance>
 </telerik:ColumnSeries>
 ````
+
+Alternatively, you may choose to hide the labels for most series via their `Visible` property and show a [totals label](https://www.telerik.com/support/kb/aspnet-ajax/chart-(html5)/details/displaying-grand-total-in-stacked-series-labels-and-pie-series-legend) or ues a [shared label]({%slug htmlchart/functionality/clienttemplate/shared-template-for-tooltips%}).
 
 
 ## See Also
