@@ -53,6 +53,8 @@ If you reference the Telerik assemblies from another folder, make sure the `Tele
 
 >tip You can [download the hotfix archive]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) from our site that contains all necessary assemblies so you can easily copy the Telerik.Web.Design.dll assembly to your target location.
 
+>note The issue is already fixed in version 2018.1.215.2 of [Telerik ASP.NET AJAX VSExtensions](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions) -> Telerik.Web.Design.dll is not added to the Bin folder of a newly created Telerik AJAX site/app. 
+Download, install it and restart your Visual Studio to upgrade to the latest version of the Telerik ASP.NET AJAX VSExtensions. 
 
 ## Unknown server tag/Could not load file or assembly errors
 
