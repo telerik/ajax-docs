@@ -89,6 +89,8 @@ There are a few common causes for such problems:
 
 * The control's wrapping element has `style="display: none"` and/or it was hidden initially, then shown with JavaScript. Generally, initialization of controls/widgets with such an attribute should be avoided because dimensions and sizing cannot be calculated for elements that are not rendered by the browser. When having appearance/alignment issues when showing controls in such cases, you should call the **`repaint()`** method each Telerik® UI for ASP.NET AJAX control exposes. For controls that wrap Kendo UI widgets, get a reference to the widget and call its [resize() method](http://docs.telerik.com/kendo-ui/api/javascript/ui/widget#methods-resize).
 
+* The browser's zoom is different from 100%. The problem is that the zoom not only increases the font size, but also zooms the entire page. That may produce visual glitches when the layout is based on background images and/or sprites. You can find more information in the [Browser Zoom - Why Does It Break Your Page And How To Avoid It](https://www.telerik.com/blogs/browser-zoom---why-does-it-break-your-page-and-how-to-avoid-it) blog post. 
+Another approach to avoid the visual glitches caused by the background images and sprites is to use the Lightweight RenderMode of the controls. It is based on HTML5 and CSS3 and use font icons istead of images.
 
 ## Appearance Issues when Control is Added During AJAX Request
 
