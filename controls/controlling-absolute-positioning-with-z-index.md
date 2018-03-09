@@ -12,8 +12,6 @@ position: 16
 
 
 
-## 
-
 A number of Telerik controls render with absolute positioning and have their default z-indexes as shown below:
 
 
@@ -45,6 +43,8 @@ A number of Telerik controls render with absolute positioning and have their def
 * **RadLightBox** - 3006
 
 * **RadListBox dragged item** - 6500
+
+* **RadListView dragged item** - 99999
 
 * **RadMenu** - 8000
 
