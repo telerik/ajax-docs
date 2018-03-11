@@ -122,8 +122,40 @@ The **Telerik** object provides the following set of static properties for brows
 
 * `Telerik.Web.BrowserFeatures.touchEvents` - returns `true` if the browser supports **touch events**. **This usually indicates a mobile device**.
 
+## Examples
+
+Here is one example that shows how you can use these flags. The script is after the script manager so that the Telerik namespace is available.
+
+````ASPX
+<telerik:RadScriptManager runat="server" ID="RadScriptManager1">
+    <Scripts>
+        <%--This script refernece is only needed if you do not use any Telerik.Web.UI controls on the page--%>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+    </Scripts>
+</telerik:RadScriptManager>
+<script>
+    if (Telerik.Web.BrowserFeatures.touchEvents) {
+        alert("mobile device");
+    }
+    if (Telerik.Web.Browser.chrome) {
+        alert("this is Chrome");
+    }
+    if (Telerik.Web.BrowserFeatures.touchEvents &&
+        Telerik.Web.Browser.chrome &&
+        Telerik.Web.Platform.android) {
+        alert("this is mobile Chrome on Android")
+    }
+</script>
+````
+
 
 
 ## See Also
 
 * [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
+
+* [Telerik.Web.BrowserFeatures]({%slug Telerik.Web.BrowserFeatures%})
+
+* [Telerik.Web.Platform]({%slug Telerik.Web.Platform%})
+
+* [Telerik.Web.Browser]({%slug Telerik.Web.Browser%}.html)
