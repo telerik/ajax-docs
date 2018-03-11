@@ -73,7 +73,7 @@ The **Telerik** object provides the following set of static properties for brows
 
 * `Telerik.Web.Browser.safari` - returns `true` if  the browser is **Safari**.
 
-* `Telerik.Web.Browser.scrollBarWidth` - returns the withs of the browser scrollbars in pixels.
+* `Telerik.Web.Browser.scrollBarWidth` - returns the widths of the browser scrollbars in pixels.
 
 * `Telerik.Web.Browser.standardsMode` - returns `true` if the browser is running in **standards mode**.
 
