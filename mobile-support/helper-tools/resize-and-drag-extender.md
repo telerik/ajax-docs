@@ -5,7 +5,7 @@ description: Resize and Drag Extender
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools/resize-and-drag-extender
 tags: resize,and,drag,extender
 published: True
-position: 1
+position: 2
 ---
 
 # Resize and Drag Extender

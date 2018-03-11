@@ -5,7 +5,7 @@ description: TouchScrollExtender
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools/touchscrollextender
 tags: touchscrollextender
 published: True
-position: 0
+position: 1
 ---
 
 # TouchScrollExtender
