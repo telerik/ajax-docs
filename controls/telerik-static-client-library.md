@@ -12,8 +12,6 @@ position: 22
 
 
 
-## 
-
 To facilitate Client-side development with the controls in the Telerik UI suite, Telerik provides a library of static client-side javascript functions. This javascript object is named **$telerik**. The functions inside make a handy set of tools for tasks related to DOM element traversal and position location, browser detection, object search and others. The **$telerik** object is loaded into the window object whenever you add a UI control from the Telerik.Web.UI namespace to the page. Alternatively, if you do not use any Telerik control, but have referenced the assembly Telerik.Web.UI and still want to use **$telerik**, you can manually reference the javascript resource file embedded in the Telerik.Web.UI assembly:
 
 ````ASPNET
@@ -26,7 +24,7 @@ To facilitate Client-side development with the controls in the Telerik UI suite,
 
 The **$telerik** object provides the following set of static properties for browser detection:
 
->caption  
+>note The following table of browser detection flags is superseded by the newer [Telerik.Web.Browser flags]({%slug mobile-support/helper-tools/browser-detection-api%}). You can still use the static methods further down the page.
 
 | Name | Description |
 | ------ | ------ |
@@ -175,5 +173,7 @@ The **$telerik** object provides the following set of static functions by topic:
 ## See Also
 
 * [Telerik.Web.CommonScripts - client-side API]({%slug Telerik.Web.CommonScripts%})
+
+* [Telerik Browser Detection API]({%slug mobile-support/helper-tools/browser-detection-api%})
 
 
