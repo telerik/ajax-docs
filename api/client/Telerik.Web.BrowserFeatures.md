@@ -19,7 +19,7 @@ An object that provides flags for [browser detection]({%slug mobile-support/help
 
 ### canvas `Boolean`
 
-Returns true if the browser supports the <canvas> object.
+Returns true if the browser supports the `<canvas>` object.
 
 ### input `Array`
 
