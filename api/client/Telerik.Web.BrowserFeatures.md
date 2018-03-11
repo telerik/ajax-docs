@@ -17,35 +17,35 @@ An object that provides flags for [browser detection]({%slug mobile-support/help
 
 ## Properties
 
-### canvas `Boolean`
+### static canvas `Boolean`
 
 Returns true if the browser supports the `<canvas>` object.
 
-### input `Array`
+### static input `Array`
 
 Returns an array of boolean flags that indicate whether the browser supports the following input features: autocomplete, autofocus, list, max, min, multiple, pattern, placeholder, required, step.
 
-### inputTypes `Boolean`
+### static inputTypes `Boolean`
 
 Returns an array of boolean flags that indicate whether the browser supports the following input types: color, date, datetime, datetime-local, email, month, number, range, search, tel, time, url, week.
 
-### msPointerEvents `Boolean`
+### static msPointerEvents `Boolean`
 
 Returns true if the browser supports the MS pointer events.
 
-### pointerEvents `Boolean`
+### static pointerEvents `Boolean`
 
 Returns true if the browser supports the standard pointer events.
 
-### propertychange `Boolean`
+### static propertychange `Boolean`
 
 Returns true if the browser supports the propertychange notifier.
 
-### touchAndMouseEvents `Boolean`
+### static touchAndMouseEvents `Boolean`
 
 Returns true if the browser supports both touch and mouse events (i.e., it is a mixed device).
 
-### touchEvents `Boolean`
+### static touchEvents `Boolean`
 
 Returns true if the browser supports touch events. This usually indicates a mobile device.
 

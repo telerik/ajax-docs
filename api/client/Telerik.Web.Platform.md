@@ -17,35 +17,35 @@ An object that provides flags for [browser detection]({%slug mobile-support/help
 
 ## Properties
 
-### android `Boolean`
+### static android `Boolean`
 
 Returns true if the browser is on an Android device.
 
-### ios `Boolean`
+### static ios `Boolean`
 
 Returns true if the browser is on an iOS device.
 
-### ipad `Boolean`
+### static ipad `Boolean`
 
 Returns true if the browser is on an iPad.
 
-### iphone `Boolean`
+### static iphone `Boolean`
 
 Returns true if the browser is on an iPhone.
 
-### linux `Boolean`
+### static linux `Boolean`
 
 Returns true if the browser is on a Linux device.
 
-### mac `Boolean`
+### static mac `Boolean`
 
 Returns true if the browser is on a Mac.
 
-### windows `Boolean`
+### static windows `Boolean`
 
 Returns true if the browser is on a Windows device.
 
-### windowsphone `Boolean`
+### static windowsphone `Boolean`
 
 Returns true if the browser is on a Windows Phone device.
 

@@ -17,71 +17,71 @@ An object that provides flags for [browser detection]({%slug mobile-support/help
 
 ## Properties
 
-### chrome `Boolean`
+### static chrome `Boolean`
 
 Returns true if the browser is Chrome.
 
-### documentMode `Number`
+### static documentMode `Number`
 
 Returns the document mode of the browser (IE only).
 
-### edge `Boolean`
+### static edge `Boolean`
 
 Returns true if the browser is Edge.
 
-### edgemobile `Boolean`
+### static edgemobile `Boolean`
 
 Returns true if the browser is Edge Mobile.
 
-### ff `Boolean`
+### static ff `Boolean`
 
 Returns true if the browser is Firefox.
 
-### fullVersion `String`
+### static fullVersion `String`
 
 Returns the full version number of the browser.
 
-### ie `Boolean`
+### static ie `Boolean`
 
 Returns true if the browser is Internet Explorer.
 
-### iemobile `Boolean`
+### static iemobile `Boolean`
 
 Returns true if the browser is IE Mobile.
 
-### opera `Boolean`
+### static opera `Boolean`
 
 Returns true if the browser is Opera.
 
-### operaMini `Boolean`
+### static operaMini `Boolean`
 
 Returns true if the browser is Opera Mini.
 
-### operaPresto `Boolean`
+### static operaPresto `Boolean`
 
 Returns true if the browser is Opera Presto (version < 12).
 
-### quirksMode `Boolean`
+### static quirksMode `Boolean`
 
 Returns true if IE is in Quirks Mode.
 
-### safari `Boolean`
+### static safari `Boolean`
 
 Returns true if the browser is Safari.
 
-### scrollBarWidth `Number`
+### static scrollBarWidth `Number`
 
 Returns the widths of the browser scrollbars in pixels.
 
-### standardsMode `Boolean`
+### static standardsMode `Boolean`
 
 Returns true if the browser is running in standards mode.
 
-### version `Number`
+### static version `Number`
 
 Returns the short version number of the browser.
 
-### webkit `Boolean`
+### static webkit `Boolean`
 
 Returns true if the browser is WebKit-based.
 
