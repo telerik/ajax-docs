@@ -91,7 +91,7 @@ Since Q1 2014 release of the controls the both cases presented above could be ha
 
 ## Ajaxifying Invisible Controls
 
-Note that you could not add control which is initially invisible on the page, to the **RadAjaxManager** settings. The initiator or the updated control should be always placed in a visible container so that the manager can locate it when necessary.
+A control which is initially invisible on the page cannot be added to the **RadAjaxManager** settings. The initiator or the updated control should be always placed in a visible container so that the manager can locate it when necessary.
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager2" runat="server">
