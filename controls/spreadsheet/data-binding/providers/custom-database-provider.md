@@ -90,7 +90,7 @@ The following article demonstrates how to implement a custom provider for the Ra
 	**VB**
 
 		 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-		        Dim provider As New SpreadsheetDataBaseProvider()
+		        Dim provider As SpreadsheetDataBaseProvider = New SpreadsheetDataBaseProvider()
 		        RadSpreadsheet1.Provider = provider
 		    End Sub
 
