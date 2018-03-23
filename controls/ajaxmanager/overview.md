@@ -44,7 +44,7 @@ The visual designer of **RadAjaxManager** , accessible in Visual Studio, lets yo
 
 4. Call the **RadAjaxManager** API from a control on the page and update control(s) on the page. – Using the **RadAjaxManager** API, **2** is made to update **1** and **4** .
 
-In order to use **RadAjaxManager** , you need to drag it from the **Visual Studio** toolbox to your page.
+In order to use **RadAjaxManager**, you need to drag it from the **Visual Studio** toolbox to your page.
 
 >caution Note that you cannot have two **RadAjaxManagers** in a single page. If you are using **MasterPage** or **WebUserControl** , the best option is to use a single **RadAjaxManager** on the master/main page.
 >
@@ -53,6 +53,11 @@ In order to use **RadAjaxManager** , you need to drag it from the **Visual Studi
 
 ## See Also
 
- * [Overview]({%slug ajaxmanager/radajaxmanagerproxy/overview%})
+ * [RadAjaxManagerProxy Overview]({%slug ajaxmanager/radajaxmanagerproxy/overview%})
 
- * [Overview]({%slug ajaxmanager/client-side-programming/overview%})
+ * [RadAjaxManager Client-side programming Overview]({%slug ajaxmanager/client-side-programming/overview%})
+ 
+ * [Controls Wrapped in AjaxPanel and Added to AjaxManager Settings]({%slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%})
+ 
+ * [RadAjaxManager Overview demo](https://demos.telerik.com/aspnet-ajax/ajaxmanager/overview/defaultcs.aspx)
+
