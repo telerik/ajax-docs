@@ -967,7 +967,8 @@ button#form-close-button:hover {
 #page-search .gsc-input {
     background-image: none !important;
     padding-right: 2px;
-	text-indent: 0 !important;
+    text-indent: 0 !important;
+    height: 32px !important;
 }
 
 #page-search .gsc-input::placeholder{
