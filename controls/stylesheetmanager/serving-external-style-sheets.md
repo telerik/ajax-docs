@@ -61,6 +61,12 @@ You can also add external style sheets to the **RadStyleSheetManager** from the 
         StyleSheetReference relativeToTheCurrentFolder= new StyleSheetReference();
         relativeToTheCurrentFolder.Path = "../../StyleSheets/StyleSheet.css";
         RadStyleSheetManager1.StyleSheets.Add(relativeToTheCurrentFolder);
+
+        //you can use the static GetCurrent() to add stylesheets from a content page or user control for a 
+        //RadStyleSheetManager defined in the master page or other file that renders as the same page
+        StyleSheetReference addedFromContentPage = new StyleSheetReference();
+        addedFromContentPage.Path = "~/addStylesContentPage/StyleSheet.css";
+        RadStyleSheetManager.GetCurrent(Page).StyleSheets.Add(addedFromContentPage);
 	}
 		
 ````
@@ -74,6 +80,12 @@ You can also add external style sheets to the **RadStyleSheetManager** from the 
         Dim relativeToTheCurrentFolder As New StyleSheetReference()
         relativeToTheCurrentFolder.Path = "../../StyleSheets/StyleSheet.css"
         RadStyleSheetManager1.StyleSheets.Add(relativeToTheCurrentFolder)
+
+        'You can use the static GetCurrent() to add stylesheets from a content page or user control for a 
+        'RadStyleSheetManager defined in the master page or other file that renders as the same page
+        Dim addedFromContentPage As New StyleSheetReference()
+        addedFromContentPage.Path = "~/addStylesContentPage/StyleSheet.css"
+        RadStyleSheetManager.GetCurrent(Page).StyleSheets.Add(addedFromContentPage)
 	End Sub
 		
 ````
