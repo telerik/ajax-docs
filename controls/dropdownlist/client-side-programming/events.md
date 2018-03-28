@@ -5,7 +5,7 @@ description: Events
 slug: dropdownlist/client-side-programming/events
 tags: events
 published: True
-position: 1
+position: 2
 ---
 
 # Events
