@@ -26,7 +26,7 @@ The **NumberFormat** property controls how **RadNumericTextBox** formats its val
 |  **Sub-property**  |  **Type**  |  **Description**  |
 | ------ | ------ | ------ |
 |AllowRounding|Boolean|Specifies whether the value is rounded ( **when set to true** ) or truncated ( **when set to false** ) when the number of decimal places exceeds the value of DecimalDigits.|
-|KeepNotRoundedValue|Boolean|Specifies whether the control will keep its not rounded value ( **when set to true** ) and show it when it is focused. Otherwise ( **when set to false** ) the old behavior is preserved, where theactual value of the control is the rounded value. By default this property is set to **false** .|
+|KeepNotRoundedValue|Boolean|Specifies whether the control will keep its not rounded value ( **when set to true** ) and show it when it is focused. Otherwise ( **when set to false** ) the old behavior is preserved, where the actual value of the control is the rounded value. By default this property is set to **false** .|
 |KeepTrailingZerosOnFocus|Boolean|Specifies whether the control will keep its zero numbers( **when set to true** ) and show them when it is focused, according to the DecimalDigits setting. Otherwise ( **when set to false** ) the old behavior is preserved - the control will not display decimal zeros when focused. By default this property is set to **false** .|
 |DecimalDigits|Integer|Specifies the number of digits that are displayed after the decimal separator.|
 |DecimalSeparator|Character|Specifies the character that separates the fractional portion of a number.|
