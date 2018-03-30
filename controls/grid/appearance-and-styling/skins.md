@@ -39,13 +39,13 @@ Except setting the **Skin** property to one of the built-in skins you can use it
 
 ## Creating Custom Skins for RadGrid
 
-A developer can create custom skins to use in **RadGrid**. They are not embedded so the control cannot register them automatically.If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of the control to **false**. If you do not do so, the following exception will be thrown saying that there is no embedded skin matching the**Skin** property:
+A developer can create custom skins to use in **RadGrid**. They are not embedded so the control cannot register them automatically. If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of the control to **false**. If you do not do so, the following exception will be thrown saying that there is no embedded skin matching the **Skin** property:
 
-* Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false. *
+> Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false. *
 
-**RadGrid with**
+By default, **RadGrid** expects the icons for its various action buttons to be part of the custom skin's stylesheet. This is the most common and recommended approach. Usually, all icons are part of a single sprite image, although this is not a requirement and you can point the resspective CSS rules to individual images.
 
-By default, **RadGrid** expects the icons for its various action buttons to be part of the CSS skin's styles. Usually, all icons are part of a single sprite image, although this is not a requirement. However, you can also use separate icons, which are not part of the skin's styles. In order to set the filtering/sorting/paging/expand/collapse images and the data editing images (edit/update/delete/add record/refresh), you can create your own images and set the path to them through the **ImagesPath** property of **RadGrid**. Note that the names of these images should match those for the predefined skins(**Table 2**) in order to be referenced properly from the folder pointed through the **ImagesPath** property. Below is a list of those images:
+Alternatively, you can use separate icons, which are not part of the skin's styles. In order to set the filtering/sorting/paging/expand/collapse images and the data editing images (edit/update/delete/add record/refresh), you can create your own images and set the path to them through the **ImagesPath** property of **RadGrid**. In order to be referenced properly, the names of these images should match those for the predefined skins (see the list below).
 
 **Filtering images**
 
