@@ -167,3 +167,5 @@ Both **xlsx** and **docx** support exporting of images. The images are included 
 * No hierarchy support
 
 * No automatic column/row resizing
+
+* [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.

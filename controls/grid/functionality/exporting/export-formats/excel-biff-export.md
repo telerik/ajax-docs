@@ -177,3 +177,5 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 * No automatic column/row resizing
 
 * Columns that do not have `HeaderStyle.Width` set do not populate the `Columns` collection of the `Table` in the `ExportInfrastructure`. Read more here: [https://feedback.telerik.com/Project/108/Feedback/Details/226862](https://feedback.telerik.com/Project/108/Feedback/Details/226862). This can cause `e.ExportInfrastructure.Tables[0].Columns.Count` to return `0` or an unexpected number smaller than the number of columns, so that you cannot loop through the columns and apply custom styling to them.
+
+* [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
