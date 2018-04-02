@@ -18,7 +18,7 @@ Although they are more difficult to implement, custom providers are more powerfu
 >
 
 
-This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources. The complete source code of the sample provider can be found in the App_Code directory of the Quick Start Framework.(C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Live Demos\App_Code\Scheduler))
+This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources. The complete source code of the sample provider can be found in the [Implementing a Custom Scheduler Provider That Supports Multi-Valued Resources](https://www.telerik.com/support/code-library/implementing-a-custom-scheduler-provider-that-supports-multi-valued-resources) Code Library project. 
 
 ## Database Schema
 
@@ -758,6 +758,8 @@ End Class
 	
 
 # See Also
+
+ * [Implementing a Custom Scheduler Provider That Supports Multi-Valued Resources](https://www.telerik.com/support/code-library/implementing-a-custom-scheduler-provider-that-supports-multi-valued-resources) Code Library project
 
  * [Using a Data Provider]({%slug scheduler/data-binding/providers/using-a-data-provider%})
 
