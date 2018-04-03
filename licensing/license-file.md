@@ -35,4 +35,4 @@ If you are working under source control, once the file is created, it will be de
 
  * [Telerik MSBuild Task could not find “LC.exe” using the SdkToolsPath blog post](http://www.msigman.com/telerik-msbuild-task-find-lc-exe-sdktoolspath/)
  
-  * [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors) KB article
+ * [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors) KB article
