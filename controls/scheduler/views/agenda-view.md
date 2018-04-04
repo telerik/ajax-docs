@@ -51,3 +51,8 @@ The **Agenda View** is a table structured like a simple list, which lists appoin
 * Grouped by Date, Resource (**Vertical**)![scheduler-views-agendaview-verticalgroupingbydateandresource](images/scheduler-views-agendaview-verticalgroupingbydateandresource.png)
 
      
+
+## See Also
+
+* [Custom date format in Scheduler with Agenda View](https://www.telerik.com/support/code-library/custom-date-format-in-scheduler-with-agenda-view) Code Library project
+
