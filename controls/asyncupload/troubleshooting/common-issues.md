@@ -66,7 +66,11 @@ IE10 browser uploading of zero byte files in not possible currently when using F
 
 When running a project using Visual Studio in Administrator mode, the Drag and Drop to upload functionality of **RadAsyncUpload** is not working in Internet Explorer browser. This behavior is not observed when the project is hosted in IIS where everything works as expected.
 
+## A Red Dot Is Shown and the File Is not Uploaded
 
+![Failing Upload](../images/asyncupload-overview_troubleshooting.png)
 
+The file upload will fail if the **TemporaryUpload** folder is not given with enough permissions, even if the permissions of the **TargetFolder** are set properly.The default temporary upload folder is placed inside the App_data folder, so you have to give full read and write permissions to it as well:
+`~/App_Data/RadUploadTemp `
 
 ## See Also
