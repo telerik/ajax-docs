@@ -74,4 +74,3 @@ The client-side **OnClientNodeMouseEnter** event handler receives two arguments:
 
 * [Expand and collapse delay on hover in RadNavigation](https://www.telerik.com/support/code-library/expand-and-collapse-delay-on-hover-in-radnavigation) Code Library project
 
- 
