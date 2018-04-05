@@ -59,7 +59,7 @@ public class SortComboItemsByValue : IComparer
 		
 Public Class SortComboItemsByValue
 	Implements IComparer
-	Public Function Compare(ByVal x As Object, ByVal y As Object) As Integer
+	Public Function Compare(ByVal x As Object, ByVal y As Object) As Integer Implements IComparer.Compare
 		Dim p1 As New RadComboBoxItem()
 		Dim p2 As New RadComboBoxItem()
 		If TypeOf x Is RadComboBoxItem Then
