@@ -58,3 +58,23 @@ Furthermore, here are the internally recognized command arguments you can check:
 | **Prev** |Indicates that the end user chose to navigate to the previous page in the listview|
 | **Last** |Indicates that the end user chose to navigate to the last page in the listview|
 | **\<NumericValue\>** |\<NumericValue\> should be replaced with number that points to the page to which the control should navigate to|
+
+You can use the **ItemCommand** server-side event handler to capture the build-in commands fired by RadListView:
+
+````C#
+protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
+{
+    string commandName = e.CommandName;
+    string commandArgument = e.CommandArgument.ToString();
+    RadListViewDataItem item = e.ListViewItem as RadListViewDataItem;
+}     
+````
+````VB
+Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs)
+    Dim commandName As String = e.CommandName
+    Dim commandArgument As String = e.CommandArgument.ToString()
+    Dim item As RadListViewDataItem = TryCast(e.ListViewItem, RadListViewDataItem)
+End Sub
+````
+
+In some scenarios where the user takes external action, like button click, the name of these commands can be used as the first argument for the [fireCommand method]({%slug listview/client-side-programming/radlistview/methods/firecommand%}).
