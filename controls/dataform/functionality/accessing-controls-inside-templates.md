@@ -9,12 +9,10 @@ position: 1
 ---
 
 # Accessing Controls Inside Templates
-
-
+It may be necessary to access control inside the templates of a **RadDataForm** to get and set values or properties. This article shows how to access the inner controls for several different templates types.
 
 ## Item Template
 
-If your **RadDataForm** has embedded controls in the ItemTemplate, you may want to access the properties of those embedded controls. 
 To get a reference to the embedded control, locate the **RadDataForm** that has the item template, and use its **FindControl** method.
 
 For example, consider the following **RadDataForm**:
@@ -31,13 +29,10 @@ For example, consider the following **RadDataForm**:
 </telerik:RadDataForm>
 ````
 
-
 In the **ItemCreated** event handler, the following code locates and updates the label:
 
 **Server-side access**
-
 ````C#
-	
 protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
 {
     if (e.Item is RadDataFormDataItem)
@@ -50,7 +45,6 @@ protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs 
 	
 ````
 ````VB.NET
-	
 Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDataFormItemEventArgs)
     If TypeOf e.Item Is RadDataFormDataItem Then
         Dim item As RadDataFormDataItem = TryCast(e.Item, RadDataFormDataItem)
@@ -58,15 +52,13 @@ Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDat
         label.Text = "Success"
     End If
 End Sub
-	
 ````
 
 ## EditItem and InsertItem Templates
 
-Similar methods may be used to access embedded controls within the EditItem and InsertItem Templates of the **RadDataForm**
+To get a reference to the embedded control, locate the **RadDataForm** that has the EditItem or InsertItem template, and use its **FindControl** method.
 
 ````C#
-	
 protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
 {
     if (e.Item is RadDataFormEditableItem)
@@ -76,10 +68,8 @@ protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs 
         label.Text = "Success";
     }
 }
-	
 ````
 ````VB.NET
-	
 Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDataFormItemEventArgs)
     If TypeOf e.Item Is RadDataFormEditableItem Then
         Dim item As RadDataFormEditableItem = TryCast(e.Item, RadDataFormEditableItem)
@@ -87,11 +77,9 @@ Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDat
         textBox.Text = "Success"
     End If
 End Sub
-	
 ````
-
-
 
 # See Also
 
- * [DataForm Object](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
+ * [DataForm Object API](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
+ * [Code Library](https://www.telerik.com/support/code-library/accessing-controls-in-dataform)
