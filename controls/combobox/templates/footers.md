@@ -12,7 +12,7 @@ position: 3
 
 
 
-**FooterTemplate** element of RadComboBox, allows the footer of the items in the drop-down list, to be customized.The footer is especially useful if the item template displays attributes in multiple columns, although it can be used with any RadComboBox item style.It could be used even when RadComboBox does not have an **ItemTemplate** defined.Just like the ItemTemplate, the FooterTemplate can include any HTML element.
+**FooterTemplate** element of RadComboBox, allows the footer of the items in the drop-down list, to be customized. The footer is especially useful if the item template displays attributes in multiple columns, although it can be used with any RadComboBox item style. It could be used even when RadComboBox does not have an **ItemTemplate** defined.Just like the ItemTemplate, the FooterTemplate can include any HTML element.
 
 The following example shows how to create a multi-column RadComboBox with a footer that labels the columns of each item.
 
