@@ -12,18 +12,13 @@ position: 5
 
 If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields]({%slug upload/how-to/adding-information-to-uploaded-files%})), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
 
->caution If you set the **TargetFolder** or **TargetPhysicalFolder** property and then use the server-side API to manipulate the uploaded files, you may end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
->
+In the article below you can find the API that RadAsyncUpload provides for managing files, and examples of a few common scenarios.
 
-**RadAsyncUpload** provides collection to access uploaded files:
+**RadAsyncUpload** provides the **UploadedFiles**  collection that contains all valid uploaded files.
 
-* **UploadedFiles** contains all valid uploaded files.
+**UploadedFiles** property is of type **Telerik.Web.UI.UploadedFileCollection**. Each file in the collection is an instance of the **UploadedFile** class. **Table 1** lists the members of the **UploadedFile** class.
 
-**UploadedFiles** property is of type **Telerik.Web.UI.UploadedFileCollection**. Each file in the collection is an instance of the **UploadedFile** class. The following table lists the members of the **UploadedFile** class:
-
-
->caption  
-
+>caption Table 1: Server-side API of the uploaded files:
 | Property or Method | Type (Return Type) | Description |
 | ------ | ------ | ------ |
 | **Properties** |||
@@ -39,11 +34,21 @@ If you need to perform additional actions on uploaded files before saving them (
 |GetFieldValue(string)|string|Retrieves a [custom field]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file.|
 |GetIsFieldChecked(string)|boolean|Retrieves whether a [custom check box]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file was checked.|
 
+>caution If you set the **TargetFolder** property and then use the server-side API to manipulate the uploaded files, you may experiene issues:
+>
+> * end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
+> * an error when attempting a custom `.SaveAs()` call on an uploaded file that points to the temporary folder of the RadAsyncUpload, similar to `Could not find file '<physical path to your app>\App_Data\RadUploadTemp\some-uploaded-file.png.tmp'`.. This is caused by the fact that that the control moved the file to the target folder. The **solution** is to **remove** the `TargetFolder` property and save the files only with your own code.
+
+You can find several examples below:
+* [Saving uploaded files on a postback event like button click](#saving-uploaded-files)
+* [Saving uploaded files in control's OnFileUploaded event](#saving-uploaded-files-in-controls-onfileuploaded-event)
+* [Using the InputStream property](#using-the-inputstream-property)
+
 ## Saving uploaded files
 
-The following example illustrates how to save uploaded files to a location of your choice:
+The following example illustrates how to save uploaded files to a location of your choice, in the postback event of another control like a button:
 
-````ASPNET
+````ASP.NET
 <telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" />
 <asp:Button runat="server" ID="Button1" Text="Submit" OnClick="Button1_Click" />
 ````
@@ -71,6 +76,8 @@ End Sub
 
 The following example illustrates how to save uploaded files to a location of your choice in OnFileUpload event:
 
+>note The **OnFileUpload** event will be fired for every file in the **UploadedFiles** collection after postback.
+
 ````ASPNET
 <telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" OnFileUploaded="RadAsyncUpload1_FileUploaded1"/>
 <asp:Button runat="server" ID="Button2" Text="Submit" />
@@ -91,9 +98,6 @@ Protected Sub RadAsyncUpload1_FileUploaded(sender As Object, e As FileUploadedEv
     e.File.SaveAs(Path + e.File.GetName())
 End Sub
 ````
-
->note The **OnFileUpload** event will be fired for every file in the **UploadedFiles** collection after postback.
->
 
 ## Using the InputStream property
 
