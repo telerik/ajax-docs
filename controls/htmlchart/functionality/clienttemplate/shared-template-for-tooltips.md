@@ -91,6 +91,20 @@ The chart in **Figure 1** was created with the markup in **Example 1**.
 </telerik:radhtmlchart>
 ````
 
+>tip To get a **total of all the series**, just define a function that takes the `points` as an argument and have it generate the needed string instead of defining everything in the tamplate.
+>For example, put `#=getTotal(points)#` in the `<SharedTemplate>` and here is a sample implementation of the function:
+>
+>````
+>	function getTotal(points) {
+>		var total = 0;
+>		for (var i = 0; i < points.length; i++) {
+>			total += points[i].value;
+>		}
+>		return total;
+>	}
+>````
+>
+
 ## See Also
 
  * [Overview]({%slug htmlchart/functionality/clienttemplate/overview%})
