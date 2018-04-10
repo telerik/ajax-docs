@@ -1,23 +1,22 @@
 ---
-title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | RadDataForm for ASP.NET AJAX Documentation
+title: How to Access Controls Inside Templates
+page_title: How to Access Controls Inside Templates | RadDataForm for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
-slug: dataform/server-side-programming/accessing-controls-inside-templates
-tags: accessing,controls,inside,templates
+slug: dataform/server-side-programming/access-controls-inside-templates
+tags: access,controls,inside,templates
 published: True
 position: 3
 ---
 
-# Accessing Controls Inside Templates
+# How to Access Controls Inside Templates
+
 It may be necessary to access control inside the templates of a **RadDataForm** to get and set values or properties. This article shows how to access the inner controls for several different templates types.
 
-## Item Template
+You can find a detailed, fully runnable example that shows all scenarios in the [Accessing Controls in DataForm](https://www.telerik.com/support/code-library/accessing-controls-in-dataform) Code Library. It shows how to access controls on the server in the ItemTemplate, editable items, insert items, layout elements, and also how to do this on the client-side as well.
 
-To get a reference to the embedded control, locate the **RadDataForm** that has the item template, and use its **FindControl** method.
+The examples below will use the following **RadDataForm**:
 
-For example, consider the following **RadDataForm**:
-
-````ASPNET
+````ASP.NET
 <telerik:RadDataForm ID="RadDataForm2" runat="server" OnItemCreated="RadDataForm1_ItemCreated">
     <ItemTemplate>
         <telerik:RadLabel ID="RadLabel1" runat="server" Text="Starting Text" />
@@ -29,9 +28,12 @@ For example, consider the following **RadDataForm**:
 </telerik:RadDataForm>
 ````
 
+## Item Template
+
+To get a reference to the embedded control, locate the **RadDataForm** that has the item template, and use its **FindControl** method.
+
 In the **ItemCreated** event handler, the following code locates and updates the label:
 
-**Server-side access**
 ````C#
 protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
 {
@@ -82,4 +84,4 @@ End Sub
 # See Also
 
  * [DataForm Object API](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
- * [Code Library](https://www.telerik.com/support/code-library/accessing-controls-in-dataform)
+ * [Accessing Controls in DataForm Code Library](https://www.telerik.com/support/code-library/accessing-controls-in-dataform)
