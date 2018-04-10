@@ -17,66 +17,64 @@ You can find a detailed, fully runnable example that shows all scenarios in the 
 The examples below will use the following **RadDataForm**:
 
 ````ASP.NET
-<telerik:RadDataForm ID="RadDataForm2" runat="server" OnItemCreated="RadDataForm1_ItemCreated">
+<telerik:RadDataForm ID="RadDataForm1" runat="server" OnItemCreated="RadDataForm1_ItemCreated">
     <ItemTemplate>
         <telerik:RadLabel ID="RadLabel1" runat="server" Text="Starting Text" />
         <telerik:RadButton ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+        <telerik:RadButton ID="InsertButton" runat="server" CommandName="InitInsert" Text="Insert" />
     </ItemTemplate>
     <EditItemTemplate>
-        <telerik:RadTextBox ID="RadTextBox1" runat="server" Text="Starting Text"/>
+        <telerik:RadTextBox ID="RadTextBox1" runat="server" Text="Starting Text" />
+        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
     </EditItemTemplate>
+    <InsertItemTemplate>
+        <telerik:RadTextBox ID="RadTextBox2" runat="server" Text="Starting Text" />
+        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
+    </InsertItemTemplate>
 </telerik:RadDataForm>
 ````
 
-## Item Template
+To get a reference to the embedded controls, locate the **RadDataForm** that has the item template, and use its **FindControl** method.
 
-To get a reference to the embedded control, locate the **RadDataForm** that has the item template, and use its **FindControl** method.
-
-In the **ItemCreated** event handler, the following code locates and updates the label:
+In the **ItemCreated** event handler, the following code locates and updates the label or textbox:
 
 ````C#
 protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
 {
-    if (e.Item is RadDataFormDataItem)
+    if (e.Item.ItemType == RadDataFormItemType.DataItem)
     {
         RadDataFormDataItem item = e.Item as RadDataFormDataItem;
         RadLabel label = item.FindControl("RadLabel1") as RadLabel;
-        label.Text = "Success";
+        label.Text = "Data Item";
     }
-}
-	
-````
-````VB.NET
-Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDataFormItemEventArgs)
-    If TypeOf e.Item Is RadDataFormDataItem Then
-        Dim item As RadDataFormDataItem = TryCast(e.Item, RadDataFormDataItem)
-        Dim label As RadLabel = TryCast(item.FindControl("RadLabel1"), RadLabel)
-        label.Text = "Success"
-    End If
-End Sub
-````
-
-## EditItem and InsertItem Templates
-
-To get a reference to the embedded control, locate the **RadDataForm** that has the EditItem or InsertItem template, and use its **FindControl** method.
-
-````C#
-protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
-{
-    if (e.Item is RadDataFormEditableItem)
+    else if (e.Item.ItemType == RadDataFormItemType.EditItem)
     {
         RadDataFormEditableItem item = e.Item as RadDataFormEditableItem;
-        RadLabel label = item.FindControl("RadLabel1") as RadLabel;
-        label.Text = "Success";
+        RadTextBox textBox = item.FindControl("RadTextBox1") as RadTextBox;
+        textBox.Text = "Edit Mode";
+    }
+    else if (e.Item.ItemType == RadDataFormItemType.InsertItem)
+    {
+        RadDataFormEditableItem item = e.Item as RadDataFormEditableItem;
+        RadTextBox textBox = item.FindControl("RadTextBox2") as RadTextBox;
+        textBox.Text = "Insert Mode";
     }
 }
 ````
 ````VB.NET
 Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDataFormItemEventArgs)
-    If TypeOf e.Item Is RadDataFormEditableItem Then
+    If e.Item.ItemType = RadDataFormItemType.DataItem Then
+        Dim item As RadDataFormDataItem = TryCast(e.Item, RadDataFormDataItem)
+        Dim label As RadLabel = TryCast(item.FindControl("RadLabel1"), RadLabel)
+        label.Text = "Data Item"
+    ElseIf e.Item.ItemType = RadDataFormItemType.EditItem Then
         Dim item As RadDataFormEditableItem = TryCast(e.Item, RadDataFormEditableItem)
         Dim textBox As RadTextBox = TryCast(item.FindControl("RadTextBox1"), RadTextBox)
-        textBox.Text = "Success"
+        textBox.Text = "Edit Mode"
+    ElseIf e.Item.ItemType = RadDataFormItemType.InsertItem Then
+        Dim item As RadDataFormEditableItem = TryCast(e.Item, RadDataFormEditableItem)
+        Dim textBox As RadTextBox = TryCast(item.FindControl("RadTextBox2"), RadTextBox)
+        textBox.Text = "Insert Mode"
     End If
 End Sub
 ````
