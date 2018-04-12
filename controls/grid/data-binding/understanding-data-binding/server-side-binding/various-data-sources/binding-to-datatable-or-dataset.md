@@ -11,24 +11,14 @@ position: 0
 # Binding to DataTable or DataSet
 
 
-
-## 
-
 When not using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a **RadGrid** control is probably using a **DataTable** or **DataSet** control. You can populate **DataTable** instance (part of **DataSet** object or not) with data from a source of your choice (database, custom object collection, xml file, etc.) and then pass it to the **DataSource** property of the control. Here is a sample that uses the **NeedDataSource** event, extracting the data from an SQL database:
 
 
 
-````C#
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+````ASPX
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" CellSpacing="0"
     GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" AllowPaging="true"
     PageSize="10">
-    <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
-    </MasterTableView>
-</telerik:RadGrid>
-````
-````VB
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
-    GridLines="None" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
     </MasterTableView>
 </telerik:RadGrid>
