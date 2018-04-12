@@ -79,6 +79,24 @@ Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDat
 End Sub
 ````
 
+>note the `ItemDataBound` event does not fire for the InsertItem becaues this is a new item that is not tied to any data yet. For the other two items (regular items and edit items), you can access the `DataItem` associated with them in the `ItemDataBound` event. See the example below.
+
+Here is how to access the `DataItem` associated with the ItemTemplate or EditItemTemplate whlie they are rendering.
+
+````C#
+protected void RadDataForm1_ItemDataBound(object sender, RadDataFormItemEventArgs e)
+{
+    string info = (((Telerik.Web.UI.RadDataFormDataItem)e.Item).DataItem as DataRowView)["ProductName"].ToString();
+    //this example is for SqlDataSource, if you are binding to a custom object, use that object instead of DataRowView
+}
+````
+````VB
+Protected Sub RadDataForm1_ItemDataBound(ByVal sender As Object, ByVal e As RadDataFormItemEventArgs) Handles RadDataForm1.ItemDataBound
+    Dim info As String = (TryCast((CType(e.Item, Telerik.Web.UI.RadDataFormDataItem)).DataItem, DataRowView))("ProductName")
+    'this example is for SqlDataSource, if you are binding to a custom object, use that object instead of DataRowView
+End Sub
+````
+
 # See Also
 
  * [DataForm Object API](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
