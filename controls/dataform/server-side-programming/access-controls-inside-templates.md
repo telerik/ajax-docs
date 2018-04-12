@@ -17,19 +17,19 @@ You can find a detailed, fully runnable example that shows all scenarios in the 
 The examples below will use the following **RadDataForm**:
 
 ````ASP.NET
-<telerik:RadDataForm ID="RadDataForm1" runat="server" OnItemCreated="RadDataForm1_ItemCreated">
+<telerik:RadDataForm ID="RadDataForm1" runat="server" OnItemCreated="RadDataForm1_ItemCreated" RenderMode="Lightweight">
     <ItemTemplate>
-        <telerik:RadLabel ID="RadLabel1" runat="server" Text="Starting Text" />
-        <telerik:RadButton ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
-        <telerik:RadButton ID="InsertButton" runat="server" CommandName="InitInsert" Text="Insert" />
+        <telerik:RadLabel ID="RadLabel1" runat="server" Text="Starting Text" RenderMode="Lightweight" />
+        <telerik:RadButton ID="EditButton" runat="server" CommandName="Edit" Text="Edit" RenderMode="Lightweight" />
+        <telerik:RadButton ID="InsertButton" runat="server" CommandName="InitInsert" Text="Insert" RenderMode="Lightweight" />
     </ItemTemplate>
     <EditItemTemplate>
-        <telerik:RadTextBox ID="RadTextBox1" runat="server" Text="Starting Text" />
-        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
+        <telerik:RadTextBox ID="RadTextBox1" runat="server" Text="Starting Text" RenderMode="Lightweight" />
+        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" RenderMode="Lightweight" />
     </EditItemTemplate>
     <InsertItemTemplate>
-        <telerik:RadTextBox ID="RadTextBox2" runat="server" Text="Starting Text" />
-        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
+        <telerik:RadTextBox ID="RadTextBox2" runat="server" Text="Starting Text" RenderMode="Lightweight" />
+        <telerik:RadButton ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" RenderMode="Lightweight" />
     </InsertItemTemplate>
 </telerik:RadDataForm>
 ````
