@@ -20,8 +20,7 @@ When not using [declarative data sources]({%slug grid/data-binding/understanding
 
 ````C#
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
-    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" AllowPaging="true"
-    PageSize="10">
+    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
     </MasterTableView>
 </telerik:RadGrid>
