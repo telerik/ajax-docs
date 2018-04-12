@@ -18,6 +18,11 @@ There are several ways to use the **RadRadioButtonList** via the keyboard only:
 
 >note Note: By default, tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
 
+>tip Some browsers focus radio buttons in the same group when the arrow keys are pressed. Since such a feature is not implemented in RadRadioButtonList, you can get that behavior by using a `RadFormDecorator` to prettify the buttons:
+>
+>   `<telerik:RadFormDecorator runat="server" ID="rfd1" RenderMode="Lightweight" DecoratedControls="RadioButtons" />`
+>
+
 ## See Also
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug radiobuttonlist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
