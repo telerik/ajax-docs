@@ -12,7 +12,7 @@ position: 12
 
 ## 
 
-The **OnClientCheckAllChecking** client-side event occurs when the user clicks on the CheckAll item. The checked state of this item can be inspected form the returned DOM event object - **args.get_domEvent().target.checked**. The event can be canceled.
+The **OnClientCheckAllChecking** client-side event occurs when the user clicks on the CheckAll item. The checked state of this item can be inspected from the returned DOM event object - **args.get_domEvent().target.checked**. The event can be canceled.
 
 The event handler receives two parameters:
 
