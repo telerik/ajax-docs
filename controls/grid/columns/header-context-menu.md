@@ -10,6 +10,16 @@ position: 6
 
 # Header Context Menu
 
+This article explains how to enable and use the context menu for the header items of a RadGrid. It consists of the following sections:
+
+* [Overview and how to enable the context menu](#overview=and=how=to=enable=the=context=menu)
+* [Using header context menu for filtering](#using-header-context-menu-for-filtering)
+* [Using HeaderContextMenu for showing column aggregates](#using-headercontextmenu-for-showing-column-aggregates)
+* [Add items to HeaderContextMenu in order to set DataFormatString for the columns](#add-items-to-headercontextmenu-in-order-to-set-dataformatstring-for-the-columns)
+* [Localize HeaderContextMenu items](#localize-headercontextmenu-items)
+* [Set Custom CssClass to the HeaderContextMenu](#set-custom-cssclass-to-the-headercontextmenu)
+
+## Overview and how to enable the context menu
 
 The context menu can be enabled by setting the **EnableHeaderContextMenu** property of the corresponding **GridTableView** or column to **true** (the default value is false). The menu can be enabled/disabled for an entire **GridTableView** or for specific column only.
 
@@ -542,5 +552,54 @@ Private Sub HeaderContextMenu_ItemCreated(ByVal sender As Object, ByVal e As Tel
 End Sub
 ````
 
+## Set Custom CssClass to the HeaderContextMenu
 
+If you want to override the CSS rules of a header context menu, you have several options.
+
+### Override the built in rules
+
+You can cascade through the built-in class of the menu - `.GridContextMenu` and write additional selectors as needed. Here are a few examples:
+
+````CSS
+div.GridContextMenu .rmItem { /*change menu item color*/
+color: red;
+}
+.GridContextMenu { /*change z-index which is an inline attribute*/
+    z-index: 123456 !important;
+}
+````
+
+### Add the custom class with JavaScript
+
+You can use the `OnClientLoad` event of the menu to do that. Here is an example that adds a custom class from the server code. You can, of course, attach the event handlre in the markup and define the function together with the rest of your page scripts.
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    RadGrid1.HeaderContextMenu.OnClientLoad = string.Format("function(s,e){{$telerik.$(s.get_contextMenuElement()).addClass('{0}')}}", "myCustomClass");
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+    RadGrid1.HeaderContextMenu.OnClientLoad = String.Format("function(s,e){{$telerik.$(s.get_contextMenuElement()).addClass('{0}')}}", "myCustomClass")
+End Sub
+````
+
+### Add the custom class in the rendered markup
+
+The grid changes the CssClass of the context menu contorl while rendering in order to add the `.GridContextMenu` class, and so the CssClass property gets overriden. To use it, you must hook to the `OnPreRenderComplete` event of the page:
+
+````C#
+protected override void OnPreRenderComplete(EventArgs e)
+{
+    base.OnPreRenderComplete(e);
+    RadGrid1.HeaderContextMenu.CssClass += " myHeaderContextMenuClass";
+}
+````
+````VB
+Protected Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
+    MyBase.OnPreRenderComplete(e)
+    RadGrid1.HeaderContextMenu.CssClass += " myHeaderContextMenuClass"
+End Sub
+````
 
