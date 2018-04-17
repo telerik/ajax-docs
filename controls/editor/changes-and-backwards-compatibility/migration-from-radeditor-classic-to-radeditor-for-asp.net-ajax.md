@@ -17,7 +17,7 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. To add RadEditor for ASP.NET AJAX to an existing ASP.NET web application you need to follow these steps:
 
-	1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
+	1. Make sure you have installed ASP.NET AJAX, which is built-in part of the .NET 4.x+ installations.
 
 	1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx](http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx) (check the topic called Adding ASP.NET AJAX Configuration Elements to an Existing Web Site)
 
