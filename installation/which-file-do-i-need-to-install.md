@@ -16,7 +16,7 @@ position: 0
 >
 >**Prerequisite**
 >
->In order to have Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
+>In order to have Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET AJAX installed on your development/production machine. ASP.NET AJAX is available in the .NET 4.x+ installations.
 
 Telerik provides the following installation package types:
 
