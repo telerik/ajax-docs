@@ -10,10 +10,6 @@ position: 4
 
 # Group Footers
 
-
-
-##  
-
 In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/how-to/grouping/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
 ![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
 
@@ -119,4 +115,6 @@ LINQ expressions must be enabled in order for the **IgnorePagingForGroupAggregat
 >
 
 
-  
+## See Also
+
+* [KB article: Example how to create custom aggregate functions that include type checks and loop through the corresponding groups only](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-create-custom-aggregate-functions)
