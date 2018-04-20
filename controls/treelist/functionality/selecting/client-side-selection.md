@@ -11,9 +11,6 @@ position: 0
 # Client-side Selection
 
 
-
-## 
-
 Telerik **RadTreeList** has built-in mechanism for items selection. You canselect items either on the client or on the server as per your requirements.
 
 To enable the RadTreeList client-side selection you need to set the **ClientSettings.Selecting.AllowItemSelection** to true. This will allow you toselect an item on mouse click. As a result the **OnItemClick**,**OnItemSelecting** and **OnItemSelected** client-side eventsof the RadTreeList will be fired so you can perform further actions and handle the item selection in a custom manner.
@@ -63,3 +60,5 @@ The below sample illustrates a simple usage of the above properties:
 
 
 For a live demo illustrating the client-side items selection functionality, follow [this link](http://demos.telerik.com/aspnet-ajax/treelist/examples/selecting/clientsideselection/defaultcs.aspx).
+
+>note When [recursive selection]({%slug treelist/functionality/selecting/recursive-selection%}) is enabled (`AllowRecursiveSelection="true"`), client selection is disabled and selection is done on the server with a .Rebind(). This can result in loss of user input because of the rebind operation, so you may want to implement the recursive selection on the client as shown in the following code library sample [Recursive selection on the client when paging is disabled](https://www.telerik.com/support/code-library/recursive-selection-on-the-client-when-paging-is-disabled).
