@@ -14,9 +14,9 @@ position: 5
 
 Developers who want to create a custom skin for one or more Telerik control, have the following options:
 
-* Use the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) application
+* Use the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) application (for Lightweight RenderMode skins)
 
-* Use the [Visual Style Builder](http://stylebuilder.telerik.com/) tool
+* Use the [Visual Style Builder](http://stylebuilder.telerik.com/) tool (discontinued since 2016). 
 
 * Take an embedded skin and make changes to it until you have the desired look
 
@@ -41,6 +41,9 @@ This is an easy to use application that enables you to customize the default loo
 
 
 ## Visual Style Builder
+
+>note The **Classic** render mode is in [maintenance mode since Q3 2015](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) and the Visual Style Builder tool, which produces skins for the Classic rendering only, is in maintenance since May 2016. We recommend using the **Lightweight** render mode and the provided [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool.
+>
 
 If you would like to modify a skin that will be used in **Classic RenderMode** you can use the StyleBuilder tool.
 
@@ -75,6 +78,9 @@ Here is a list of the required steps to perform:
 1. Run the project. If all steps are performed correctly the RadColorPicker should use your newly defined skin.
 
 ## Create a Custom Skin dll from an Existing Custom Skin with Skin's Assembly Builder
+
+>note Note that the tool works only for Classic render mode skins and is currently not compatible with the skin files produced by the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool. If you want to create an assembly for the Lightweight render mode, download the source code from the [Download section of your account](https://www.telerik.com/account/product-download?product=RCAJAX), modify the Telerik.Web.UI.Skins project and build it to produce a skin assembly.
+>
 
 Telerik provides an independent tool for assembling custom skin dll file based on an existing custom skin.
 
