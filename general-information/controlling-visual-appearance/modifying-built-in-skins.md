@@ -16,6 +16,8 @@ In some scenarios you may want to use a built-in (embedded) skin, but make some 
 
 In order to override a style from a built-in skin, you will have to find out the CSS rule, which must be overridden, and then construct a new CSS rule with a higher specificity. To accomplish this, it will be useful to have a general idea about the control's HTML output and CSS classes. Basic CSS knowledge is required as well.
 
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
+
 ## Getting Familiar with Telerik controls' CSS classes and styles
 
 Each Telerik control documentation includes a help article, which lists the CSS classes of the control and describes their usage. For example the [RadCalendar CSS class list]({%slug calendar/appearance-and-styling/css-skin-selectors%}) states that "rcWeek is a class applied to the <TR> elements, which contain the column headers (<TH> elements)."

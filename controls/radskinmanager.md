@@ -10,17 +10,19 @@ position: 4
 
 # RadSkinManager
 
+This article provides the following information:
 
+* [What is RadSkinManager](#what-is-radskinmanager)
 
-* **[What is RadSkinManager?](#what-is-radskinmanager)**
+* [How to use RadSkinManager](#how-to-use-radskinmanager)
 
-* **[How to use RadSkinManager?](#how-to-use-radskinmanager)**
+* [Server-side specifics](#server-side-specifics)
 
-* **[Server-side specifics](#server-side-specifics)**
+* [Using RadSkinManager for applying custom skins](#using-radskinmanager-for-applying-custom-skins)
 
-* **[Using RadSkinManager for applying custom skins](#using-radskinmanager-for-applying-custom-skins)**
-1. **[Loading skins by specifying a path](#loading-skins-by-specifying-a-path)**
-1. **[Loading skins from external assembly](#loading-skins-from-external-assembly)**
+   * [Register custom skins by specifying a path](#loading-skins-by-specifying-a-path)
+
+   * [Register custom skins from an external assembly](#loading-skins-from-an-external-assembly)
 
 ## What is RadSkinManager?
 
@@ -183,6 +185,8 @@ To limit the skins displayed in the combo box skin chooser mode of RadSkinManage
     </TargetControls>
 </telerik:RadSkinManager>
 ````
+
+
 ````C#
 protected void RadSkinManager1_PreRender(object sender, EventArgs e)
 {
@@ -197,15 +201,8 @@ protected void RadSkinManager1_PreRender(object sender, EventArgs e)
         }
     }
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik, @toddanglin
-//Facebook: facebook.com/telerik
-//=======================================================
 ````
-````VB.NET	
+````VB
 Protected Sub RadSkinManager1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
     RadSkinManager1.Skin = "Black"
     Dim skinChooser As RadComboBox = TryCast(RadSkinManager1.FindControl("SkinChooser"), RadComboBox)
@@ -230,73 +227,81 @@ Furthermore, there are two properties available which specify where to persist t
 * **PersistenceMode** defaults to **ViewState**, however you can specify **Session** or **Cookie** in order to store the skin settings in the session or in browser cookie if you prefer.
 
 >note In case a Theme is applied on the page, the general Skin property settings for RadSkinManager will be disregarded.
->
 
 
 >note The global skin settings for Telerik controls or a particular one (defined in the web.config) will be overridden by the RadSkinManager definitions.
->
 
 
 ## Using RadSkinManager for applying custom skins
 
-From Q2 2011 on RadSkinManager works with custom skins as well. After following the steps described below, it will apply custom skins to your controls the same way as it applies built-in ones.
+As of Q2 2011, RadSkinManager works with custom skins as well. After following the steps described below, it will apply custom skins to the Telerik controls in the same way as it applies built-in ones.
 
-There are two ways to use custom skins with the control - to put them in a folder and provide a path or build an assembly and reference it:
+There are two ways to use custom skins with the skin manager control - to [put the custom skin(s) in a folder]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%} and provide a path to it, or [build an assembly]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) and reference it:
 
 ### Loading skins by specifying a path
 
-Putting your custom skins in a folder and providing a path to it will make them available to the skin manager and it will treat them as non-embedded skins. This means that it will be able to apply them but they will not be shown as options in the SkinChooser.
+Putting your custom skins in a folder under the application and providing a path to it will make them available to the skin manager and it will treat them as non-embedded skins. This means that it will be able to apply them but they will not be shown as options in the SkinChooser.
 
 The steps that you need to take in order to load skins by specifying a path are:
 
-1. Create a folder for the skins and inside it add a separate folder for each skin. The inner folders should have the same name as the skin itself. The .css files should be put inside this folder and should comply with the following naming convention:**[ControlName].[SkinName].css** where **[ControlName]** is the name of the control without the "Rad" prefix (Calendar, Editor, Grid, etc.) and **[SkinName]** is the name of the skin.
-![structuring the skins folder](images/skinmanager-using_custom_skins_1.PNG)
+1. Create a folder for the skins under your web application, and inside it add a separate folder for each skin.
+    * The inner folders must have the same name as the skin itself. 
+    * The .css files should be put inside the folder with the skin name and should comply with the following naming convention: **[ControlName].[SkinName].css** where **[ControlName]** is the name of the control **without** the "**Rad**" prefix (Calendar, Editor, Grid, etc.) and **[SkinName]** is the name of the custom skin.
+    * There must be a folder for the control type even if it is empty and does not contain any resources (like sprites) for its skin. This will often be the case when the Lightweight RenderMode is used.
+
+    >caption Sample folder structure for a custom skin named Yellow for a RadCalendar.
+
+    ![structuring the skins folder](images/skinmanager-using_custom_skins_1.PNG)
 
 1. Add a **SkinReference** in the RadSkinManager and set the **Path** property to point to the name of the folder containing the skin folders.
 
-````ASPNET
-<telerik:RadSkinManager runat="server" ID="RadSkinManager1" ShowChooser="true">
-    <Skins>
-        <telerik:SkinReference Path="MySkins" />
-    </Skins>
-</telerik:RadSkinManager>
-````
+    **ASP.NET**
+
+        <telerik:RadSkinManager runat="server" ID="RadSkinManager1">
+            <Skins>
+                <telerik:SkinReference Path="~/MySkins" />
+            </Skins>
+        </telerik:RadSkinManager>
 
 
+1. Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **false**. Set their **Skin** property to the name of the desired custom skin.
 
-* Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **false**.
+    >note If the skin folder does not exist or a folder with the control name does not exist, the custom stylesheet will not be registered and no errors will be thrown.
 
-* If you have a **RadStyleSheetManager** on the page, you have to add the following key in your web.config in order for the two managers to work seamlessly with the custom skins:
+1. If you have a **RadStyleSheetManager** on the page, you have to add the following key in your web.config in order for the [custom stylesheets to be registered]({%slug stylesheetmanager/serving-external-style-sheets%}):
 
-````XML
-<appSettings>
-  <add key="Telerik.Web.UI.StyleSheetFolders" value="~/MySkins" />
-</appSettings>
-````
+    **web.config**
 
-In this scenario the urls in your skin file should declare a path starting from the skin folder name:
+        <appSettings>
+            <add key="Telerik.Web.UI.StyleSheetFolders" value="~/MySkins" />
+        </appSettings>
 
-````XML
-.RadCalendar_Yellow .rcTitlebar
-{
-	background:#1b1b1b 0 -1000px repeat-x url('MySkins/Yellow/Calendar/sprite.gif');
-}
-````
+    >note RadStyleSheetManager will combine and serve all stylesheets from that folder, including those for controls that are not used on the current page, and those for other custom skins.
 
 
+1. Alter the custom skin stylesheets depending on the method of registration - whether RadStyleSheetManager will be used or not. This changes the URL at which the stylesheet is served, and resources in stylesheets are relative to the requesting path.
 
-* If there is no **RadStyleSheetManager** on the page, the urls in your skin file should declare a path starting from the control folder name:
+    * When serving the custom skin stylesheets through RadStyleSheetManager, the urls in your skin file should declare a path starting from the skin folder name, because the handler that serves them is at the root of the app:
+    
+       **CSS**
 
-````XML
-.RadCalendar_Yellow .rcTitlebar
-{
-	background:#1b1b1b 0 -1000px repeat-x url('Calendar/sprite.gif');
-}
-````
+            .RadCalendar_Yellow .rcTitlebar
+            {
+                background: #1b1b1b 0 -1000px repeat-x url('MySkins/Yellow/Calendar/sprite.gif');
+            }
 
+    * If there is **no RadStyleSheetManager** on the page, the urls in your skin file should declare a path starting from the control folder name becaues the `<link>` elements point to the actual stylesheets:
 
+        **CSS**
 
-### Loading skins from external assembly
+            .RadCalendar_Yellow .rcTitlebar
+            {
+                background: #1b1b1b 0 -1000px repeat-x url('Calendar/sprite.gif');
+            }
+
+>note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
+
+### Loading skins from an external assembly
 
 If you create an assembly holding your skins and reference it correctly, the RadSkinManager will treat the custom skins the same way as the embedded Telerik control skins.
 
@@ -316,7 +321,7 @@ The steps which you should follow are:
 
 You could alternatively add this reference in the web.config:
 
-````ASPNET
+````web.config
 <appSettings>
   <add key="Telerik.Web.SkinsAssembly" value="MyEmbeddedSkin"/>
 </appSettings>
