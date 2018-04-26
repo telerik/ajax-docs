@@ -16,7 +16,7 @@ The **Visual StyleBuilder** tool offers the option to modify an already existing
 
 >note The format of the archive must match the structure the StyleBuilder expects. This is the structure a skin has in the installation folder of the Telerik® UI for ASP.NET AJAX.
 
-
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 
 For instance, if you need to alter the Black skin of the RadGrid Control you will need to go to	*[Telerik® UI for ASP.NET AJAX installation folder] [your version of the controls here]\Skins\Black*,	get the folder containing the images needed for the control (named Grid in this example) and the stylesheet applied for the black skin -	*Grid.Black.css* file –	and archive them into a single file (for example this could be Black.zip).
 

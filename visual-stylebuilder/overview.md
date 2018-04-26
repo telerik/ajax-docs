@@ -10,9 +10,6 @@ position: 0
 
 # Visual StyleBuilder Overview
 
-
-
-
 The **Visual Style Builder** is a tool that can be used to create the base of custom skins for the **Classic** rendering of Telerik controls. It provides an interactive UI that helps in customizing the appearance of the skin. It can be found at [http://stylebuilder.telerik.com/](http://stylebuilder.telerik.com/).
 
 For everyone who wants to create an customize skins for the modern **Lightweight** rendering of the components, we recommend using the [Telerik Theme Builder]({%slug theme-builder/overview%}). 
@@ -28,5 +25,7 @@ The main features of the Visual Style Builder are:
 * Editing an already existing skin that can be uploaded as an archive
 
 * Does not require installation, runs directly in your browser
+
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 
 ![introduction-stylebuilder-overview](images/introduction-stylebuilder-overview.png)

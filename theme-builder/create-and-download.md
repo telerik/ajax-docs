@@ -10,9 +10,9 @@ position: 1
 
 # Create and Download a Theme
 
-##      
-
 The **Sass Theme Builder** for Telerik® UI for ASP.NET AJAX is a convenient customization tool providing the ability and power to create your own custom **Lightweight** skins and themes quickly and efficiently. This could be easily achieved without the necessity of understanding the underlying HTML and CSS structure of the controls.
+
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 
 
 ## Creating a New Theme
@@ -52,9 +52,7 @@ Applying the desired colors is pretty straightforward. The **Theme Builder** pro
 
 Once you have completed the modifications and the new Theme is ready to be used in a project, you can download it as a compact archive using the Download button (#4 from the previous section).
 
-Add the new Theme folder in your application and follow the steps provided in the last section of the following article in order to set it as the Skin for your controls:
-
-[Using a Custom Skin](http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/appearance-and-styling/modifying-existing-skins#creating-a-custom-skin-basic-steps)
+Add the new Theme folder in your application and [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 
 <!--You can also find a runnable web site sample in the code-library below, which was specifically created using **Theme Builder** with the selected controls in the progress of this article - Grid, Calendar and Rating.
 

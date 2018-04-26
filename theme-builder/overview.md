@@ -10,11 +10,11 @@ position: 0
 
 # Sass Theme Builder Overview
 
-##  
-
 **Progress Sass Theme Builder** for ASP.NET AJAX is a Angular 2 Web application that provides you with the ability to create new or customize existing themes for Telerik UI controls with **Lightweight** rendering. It can be found at [http://themebuilder.telerik.com/aspnet-ajax](http://themebuilder.telerik.com/aspnet-ajax).
 
-Just with a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with automatic updates to its composite controls.  Once the skin is created and the new Theme looks as you expected in the Preview pane you can download it with one click and integrate it in your project.  
+Just with a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with automatic updates to its composite controls.  Once the skin is created and the new Theme looks as you expected in the Preview pane you can download it with one click and integrate it in your project.
+
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 
 ![Theme Builder Overview](images/theme-builder-overview.png)
 

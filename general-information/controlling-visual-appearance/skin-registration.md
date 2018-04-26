@@ -24,9 +24,14 @@ If the **Skin** property is set to some built-in skin and **EnableEmbeddedSkins*
 
 ## Manual skin registration
 
-If the user needs a custom or a modified skin, the CSS file should be registered by hand. The skin CSS file can be registered [declaratively](#declarative-registration) or [from the code-behind](#programatic-registration).
+If the user needs a custom or a modified skin, the CSS file should be registered by hand. The skin CSS file can be registered
+
+* [declaratively](#declarative-registration)
+* or [from the code-behind](#programmatic-registration)
 
 >tip You can also let [RadSkinManager register the custom skin for you]({%slug controls/radskinmanager%}#loading-skins-by-specifying-a-path).
+
+>note To use a custom skin, set the `EnableEmbeddedSkins` property of the corresponding control to `false` and its `Skin` property to the name of the custom skin. See the [Global skin settings for the entire website/application](#global-skin-settings-for-the-entire-websiteapplication) section for ways to do that globally.
 
 ### Declarative registration
 
