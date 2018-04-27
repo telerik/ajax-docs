@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The **RadDropDownTree** control is a combination of a lightweight dropdown and a tree control.The approach with entries like in the RadAutoCompleteBox is used. Basically, an new entry is created as a resultof node's selection from the tree.
+The **RadDropDownTree** control is a combination of a lightweight dropdown and a tree control. In the RadDropDownTree we use the approach with entries. Basically, a new entry is created as a result of node's selection from the tree.
 
 ![Overview](images/dopdowntree_overview.png)
 
@@ -28,9 +28,9 @@ Some of the main features of the RadDropDownTree control include:
 
 * **Checkboxes** that enable the user to choose between the different states - *None*, *SingleCheck*, *TriState* and *CheckChildNodes*.
 
-* **EmptyMessage** that will allow the developer to provide a hint (setting a message in the entry area) to the final user of the application.
+* **EmptyMessage** that allows the developer to provide a hint (setting a message in the entry area) to the end-user of the application.
 
-* There are also **DropDownSettings** that enable fine tuning of the control (*OpenDropDownOnLoad* that expands the dropdown after it is loaded on the page is one of them).
+* **DropDownSettings** for fine tuning of the control (like *OpenDropDownOnLoad*, which expands the dropdown after it is loaded on the page).
 
 # See Also
 
