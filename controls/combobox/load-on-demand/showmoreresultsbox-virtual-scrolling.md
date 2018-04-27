@@ -21,6 +21,9 @@ The **ShowMoreResultsBox** and the **EnableVirtualScrolling** properties let you
 >note You can use these approaches separately from one another.
 >
 
+>note To use the VirtualScrolling mechanism, the **Height** or **MaxHeight** property of the **RadComboBox** should be set.
+>
+
 
 For example, you could add 10 items per a request:
 
@@ -34,7 +37,7 @@ To enable load-on-demand with a show more results box and/or virtual scrolling:
 
 1. Set the **ShowMoreResultsBox** property to **True**.
 
-2. Set the **EnableVirtualScrolling** property to **True** if you need to also enable the virtual scrolling mechanism.
+2. Set the **EnableVirtualScrolling** property to **True** and the **Height** or **MaxHeight** properties if you need to also enable the virtual scrolling mechanism.
 
 3. Set the **EnableLoadOnDemand** property to **True**.
 
