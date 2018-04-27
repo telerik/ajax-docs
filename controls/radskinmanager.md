@@ -301,7 +301,7 @@ The steps that you need to take in order to load skins by specifying a path are:
 
 >note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
 
->note The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
+>note The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadCheckBox, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
 
 ### Loading skins from an external assembly
 
