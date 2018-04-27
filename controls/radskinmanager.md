@@ -279,7 +279,7 @@ The steps that you need to take in order to load skins by specifying a path are:
     >note RadStyleSheetManager will combine and serve all stylesheets from that folder, including those for controls that are not used on the current page, and those for other custom skins.
 
 
-1. Alter the custom skin stylesheets depending on the method of registration - whether RadStyleSheetManager will be used or not. This changes the URL at which the stylesheet is served, and resources in stylesheets are relative to the requesting path.
+1. Make sure the custom skin stylesheets refer to images depending on the method of registration - whether RadStyleSheetManager will be used or not. This changes the URL at which the stylesheet is served, and resources in stylesheets are relative to the requesting path.
 
     * When serving the custom skin stylesheets through RadStyleSheetManager, the urls in your skin file should declare a path starting from the skin folder name, because the handler that serves them is at the root of the app:
     
@@ -300,6 +300,8 @@ The steps that you need to take in order to load skins by specifying a path are:
             }
 
 >note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
+
+>note The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
 
 ### Loading skins from an external assembly
 
