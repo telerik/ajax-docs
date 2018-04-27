@@ -24,6 +24,8 @@ The steps to implement a custom storage provider are:
 
 	**C#**
 	
+        using Telerik.Web.UI.PersistenceFramework;
+
 		public class CustomStorageProvider : IStateStorageProvider
 		{
 			public void SaveStateToStorage(string key, string serializedState)
@@ -39,13 +41,15 @@ The steps to implement a custom storage provider are:
 	
 	**VB**
 	
+        Imports Telerik.Web.UI.PersistenceFramework
+
 		Public Class CustomStorageProvider
 			Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
-			Public Sub SaveStateToStorage(key As String, serializedState As String)
+			Public Sub SaveStateToStorage(key As String, serializedState As String) Implements IStateStorageProvider.SaveStateToStorage
 				' Save the serialized state somewhere
 			End Sub
 
-			Public Function LoadStateFromStorage(key As String) As String
+			Public Function LoadStateFromStorage(key As String) As String Implements IStateStorageProvider.LoadStateFromStorage
 				Return "The saved state"
 			End Function
 		End Class
@@ -61,7 +65,7 @@ The steps to implement a custom storage provider are:
 		
 	**VB**
 		
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
+		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
 			RadPersisterManager1.StorageProvider = New CustomStorageProvider()
 		End Sub
 
@@ -115,6 +119,7 @@ The example below demonstrates how to store the state of the **RadGrid** directl
     ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City] FROM [Customers]"
     runat="server"></asp:SqlDataSource>
 ````
+
 ````C#
 protected void Page_Init(object sender, EventArgs e)
 {
@@ -136,7 +141,7 @@ protected void LoadSetting_Click(object sender, EventArgs e)
 }
 ````
 ````VB
-Protected Sub Page_Init(sender As Object, e As EventArgs)
+Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
     RadPersistenceManager1.StorageProvider = New DBStorageProvider()
 End Sub
 
@@ -156,6 +161,8 @@ End Sub
 
 
 ````C#
+using Telerik.Web.UI.PersistenceFramework;
+
 public class DBStorageProvider : IStateStorageProvider
 {
 	//Declare a global SqlConnection SqlConnection
@@ -203,6 +210,8 @@ public class DBStorageProvider : IStateStorageProvider
 }
 ````
 ````VB
+Imports Telerik.Web.UI.PersistenceFramework
+
 Public Class DBStorageProvider
     Implements IStateStorageProvider
     'Declare a global SqlConnection SqlConnection
@@ -212,7 +221,7 @@ Public Class DBStorageProvider
     'Declare a global SqlCommand SqlCommand
     Public SqlCommand As New SqlCommand()
 
-    Public Sub SaveStateToStorage(key As String, serializedState As String)
+    Public Sub SaveStateToStorage(key As String, serializedState As String) Implements IStateStorageProvider.SaveStateToStorage
         Dim userID As Integer = Integer.Parse(key)
         Dim userSettings As String = serializedState
 
@@ -226,7 +235,7 @@ Public Class DBStorageProvider
         'Close the SqlConnectio
         SqlConnection.Close()
     End Sub
-    Public Function LoadStateFromStorage(key As String) As String
+    Public Function LoadStateFromStorage(key As String) As String Implements IStateStorageProvider.LoadStateFromStorage
 
         Dim selectQuery As String = (Convert.ToString("SELECT UserID, UserSaveSettings FROM UserSetting WHERE UserID = '") & key) + "'"
         Dim adapter As New SqlDataAdapter()
