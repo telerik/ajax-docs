@@ -186,7 +186,9 @@ Use any of the approaches above.
 
 ## jQuery Version History in Telerik UI Controls
 
-Telerik® UI for ASP.NET AJAX Q3 2014 - present are using jQuery version 1.11.1
+Telerik® UI for ASP.NET AJAX Q2 2018 - present are using jQuery version 3.3.1
+
+Telerik® UI for ASP.NET AJAX Q3 2014 - Q1 2018 are using jQuery version 1.11.1
 
 Telerik® UI for ASP.NET AJAX Q1 2013 SP1 - Q2 2014 SP1 are using jQuery version 1.9.1
 
