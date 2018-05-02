@@ -80,7 +80,7 @@ There are a few scenarios that are not supported when CheckBox support is enable
 
 *  The **MarkFirstMatch** and **Filter** features are not supported. The reason is that the CheckBox selection is different from the standard RadComboBox selection—there is no single selected item.
 
-*  **Load On Demand** is not supported. The reason is that RadComboBox items loaded on demand are not accessible on the server which is needed for the CheckBox feature.
+*  **Load On Demand** is not supported. The reason is that RadComboBox items loaded on demand are not accessible on the server which is needed for the CheckBox feature. A possible approach to overcome this limitation is replacing the RadComboBox with a [Kendo UI MultiSelect](https://www.telerik.com/kendo-ui/multiselect) widget with enabled Virtualization as demonstrated in the [MultiSelect/Virtualization](https://demos.telerik.com/kendo-ui/multiselect/virtualization) online demo.
 
 
 # See Also
