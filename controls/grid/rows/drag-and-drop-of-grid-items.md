@@ -10,31 +10,41 @@ position: 4
 
 # Drag and Drop of Grid Items
 
+This article explains the drad-and-drop of grid items. It consists of the following sections.
 
+* [Overview](#overview)
+* [Handling Drag-and-drop](#handling-drag-and-drop)
+    * [Client-side phase](#client-side-phase)
+    * [Server-side phase](#server-side-phase)
+* [Scrolling](#scrolling)
+* [Row Selection](#row-selection)
+* [Examples](#examples)
 
-## 
+## Overview
 
 RadGrid exposes flexible event-driven mechanism to drag and drop grid records to reorder them within the same grid, move them to different grid instance or drop them over other html element on the page. In order to enable drag and drop of grid items, you need to set the two boolean grid properties to true, namely:
 
 ````ASP.NET
-<ClientSettings AllowRowsDragDrop="true">
-      <Selecting AllowRowSelect="True" />
-</ClientSettings>
+<telerik:RadGrid runat="server" RenderMode="Lightweight">
+    <ClientSettings AllowRowsDragDrop="true">
+        <Selecting AllowRowSelect="True" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
-This will make the grid data rows draggable and the end user will be able to relocate them if needed. Additionally, you can define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in your GridTableView's Columns collection. This will make your grid items draggable only when grabbed by the drag handle in the GridDragDropColumn. For a live demo, please refer to the [RadGrid Items Drag-and-Drop QSF example](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
+This will make the grid data rows draggable and the end user will be able to relocate them if needed. Additionally, you can define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in your GridTableView's Columns collection. This will make your grid items draggable only when grabbed by the drag handle in the GridDragDropColumn. For a live demo, please refer to the [RadGrid Items Drag-and-Drop live example](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
 
 Furthermore, depending on the position you drag an item (above or below other record) it will be placed respectively above or below the corresponding grid item. This is meaningful only when you reorder rows within the same RadGrid or from one RadGrid to another.
 
 The event-driven model which allows you to process and complete the drag and drop operation can be separated into two phases: client-side and server-side phase.
 
->note On mobile devices the row drag-drop and scrolling features in the grid are performed by the same touch gesture: dragging of the content area of the grid. This imposes a limitation when both features are enabled on touch devices because it cannot be exclusively determined which one of the two should be performed. One way to distinguish between scrolling and row drag-drop on mobile devices is touse a GridDragDropColumn - this way the dragging of the rows will be performed only when you drag a row by the icon in theGridDragDropColumn and on the rest of the content area scrolling will be performed.
->
+## Handling Drag-and-drop
 
+There are two phases when the user drags and drops rows. The first is the client-side action in the browser, and if that is not cancelled by the developer, a postback is made so the server can be notified of the data change (e.g., so you can update your data sources). The information below explains what you can do in each phase.
 
-**Client-side phase**
+### Client-side phase
 
 There are three client grid events exposed to handle drag/drop action: **OnRowDragStarted** (cancelable), **OnRowDropping** (cancelable) and **OnRowDropped**.
 
@@ -44,7 +54,7 @@ There are three client grid events exposed to handle drag/drop action: **OnRowDr
 
 * The **OnRowDropped** event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the OnRowDropping client event.
 
-**Server-side phase**
+### Server-side phase
 
 On the server there is a single event (named **OnRowDrop**). Subscribing to this event allows you to reorder the items in the source grid or remove them and append these rows to a destination grid instance. The sequence of actions you will have to undertake in order to change the source structure may vary because this depends strictly on the underlying data source and its data model. The common logic in all cases, however, is that you can use three arguments passed in the handler to accomplish the task:
 
@@ -60,13 +70,28 @@ On the server there is a single event (named **OnRowDrop**). Subscribing to this
 
 Combining the client and server part completes the circle and separates logically each part of the drag and drop process until it is finalized. For richer end user experience you can ajaxify the grid via RadAjaxManager and use RadAjaxLoadingPanel indicators. Otherwise the drag and drop operation will be performed with plain postback.
 
->note Note that with single row selection enabled (AllowMultiRowSelection = "false") the items will be automatically selected when a drag action is triggered. With multi-row selection enabled (AllowMultiRowSelection = "true") a prerequisite is first to select row(s) and then drag to reorder them/drop them over other grid/html element.
->
+## Scrolling
+
+When dragging an item within the grid to reposition it, the grid can scroll automatically with the drag operation. The only requirement is that you [enable scrolling]({%slug grid/functionality/scrolling/overview%}). When configuring scrolling, you may also find useful the [Height vs. ScrollHeight]({%slug grid/functionality/scrolling/height-vs.-scrollheight%}) article.
+You can stop the automatic scrolling by setting `ClientSettings.AllowAutoScrollOnDragDrop="false"`. 
+
+The user can drag an item to an arbitrary element on the page or another grid. The originatig grid cannot know about that other HTML structure or its scrolling setup, so scrolling for the drag-and-drop operation is available only within the source grid.
+
+On mobile devices the row drag-drop and scrolling features in the grid are performed by the same touch gesture: dragging of the content area of the grid. This imposes a limitation when both features are enabled on touch devices because it cannot be exclusively determined which one of the two should be performed. One way to distinguish between scrolling and row drag-drop on mobile devices is touse a GridDragDropColumn - this way the dragging of the rows will be performed only when you drag a row by the icon in theGridDragDropColumn and on the rest of the content area scrolling will be performed.
+
+
+## Row Selection
+
+With single row selection enabled (`AllowMultiRowSelection="false"`) the items will be automatically selected when a drag action is triggered.
+
+With multi-row selection enabled (`AllowMultiRowSelection="true"`) a prerequisite is first to select row(s) and then drag to reorder them/drop them over other grid/html element.
 
 
 ![grid itemsdragdrop itemselecting](images/grid_itemsdragdrop_itemselecting.jpg)
 
-Below is a code extraction from the [ relevant online demo ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DragAndDrop/DefaultCS.aspx) in the RadGrid QSF:
+## Examples
+
+Below is a code extraction from the [item drag-and-drop online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/rows/drag-and-drop/defaultcs.aspx):
 
 
 
@@ -164,6 +189,7 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
  </div>
 </div>
 ````
+
 ````C#
 protected IList<Order> PendingOrders
 {
