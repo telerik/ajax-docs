@@ -4,6 +4,7 @@ page_title: Using the  GetItems GetColumn and GetColumnSafe Methods | RadGrid fo
 description: Using the  GetItems GetColumn and GetColumnSafe Methods
 slug: grid/how-to/using-the--getitems-getcolumn-and-getcolumnsafe-methods
 tags: using,the,,getitems,getcolumn,and,getcolumnsafe,methods
+previous_url: controls/grid/how-to/using-the--getitems-getcolumn-and-getcolumnsafe-methods
 published: True
 position: 5
 ---
