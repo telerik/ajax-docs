@@ -41,6 +41,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Chart (HTML5)]({%slug htmlchart/overview%})
 
+* [Chat]({%slug chat/overview%})
+
 * [CheckBox]({%slug checkbox/overview%})
 
 * [CheckBoxList]({%slug checkboxlist/overview%})
