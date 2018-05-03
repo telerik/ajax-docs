@@ -33,7 +33,7 @@ There are several ways to add the HTTP handlers:
 * You can simply use the following code snippet (**Example 1**) and paste it into your web.config.
 
 
->important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+>important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png). You can even [Encrypt the appSettings section](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
 >
 >As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys. 
 
@@ -112,7 +112,9 @@ There are several ways to add the HTTP handlers:
 **Example 2**: An HTTP handler registration that uses a fully qualified assembly name.
 
 ````XML
-<add name="Telerik_Web_UI_WebResource_axd" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, Version=2014.3.1209.45, PublicKeyToken=121fae78165ba3d4" verb="*" preCondition="integratedMode" />
+<add name="Telerik_Web_UI_WebResource_axd" path="Telerik.Web.UI.WebResource.axd"
+   type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, Version=2014.3.1209.45, PublicKeyToken=121fae78165ba3d4"
+   verb="*" preCondition="integratedMode" />
 ````
 
 where you will need to change the Version property to the concrete version you are using and the same assembly is to be used with all handlers. 
@@ -159,6 +161,8 @@ There are various control properties that you can set from the web.config for an
     </appSettings>
 </configuration>
 ````
+
+>tip You can [encrypt the appSettings section in the web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
 
 You can add any of the keys below in a similar fashion. 
 
@@ -269,7 +273,9 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
 
 ## Optional Configurations in the web.config
 
-This section lists optional control-specific settings that you can configure in the web.config:
+This section lists optional control-specific settings that you can configure in the web.config.
+
+>tip You can [encrypt a section in the web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
 
 ### RadScheduler
 

@@ -28,6 +28,8 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 
 >tip To add a layer of security on the user actions from the file browser dialogs (such as Image Manager), follow the [RadFileExplorer Security]({%slug fileexplorer/security%}) article. To attach to the `ItemCommand` event, you must use the `FileBrowser` and `MobileImageManager` dialogs as [external dialogs]({%slug editor/functionality/dialogs/externaldialogspath-property%}) and add the file with the event handler and business logic to them. You can find an example in the [item-command-in-external-dialogs.zip](item-command-in-external-dialogs.zip) archive.
 
+>tip You can [encrypt the appSettings section in the web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
+
 ## DialogParametersEncryptionKey
 
 To provide secure encryption, we strongly advise that you set a custom encryption key for **Telerik.Web.UI.DialogParametersEncryptionKey**:

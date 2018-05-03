@@ -26,6 +26,8 @@ There are two `appSettings` keys you should add to your `web.config` to ensure i
 
 As an added security measure, as of **R2 2017 SP2**, you can **disable file uploads for your application** via the [Telerik.Web.DisableAsyncUploadHandler key](#disableasyncuploadhandler) web.config switch.
 
+>tip You can [encrypt the appSettings section in the web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
+
 
 ## ConfigurationEncryptionKey
 
