@@ -164,6 +164,8 @@ There are various control properties that you can set from the web.config for an
 
 >tip You can [encrypt the appSettings section in the web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
 
+>tip You can [use a separate config file for the appSettings](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-read-telerik-appsettings-from-an-external-file) to declutter the web.config.
+
 You can add any of the keys below in a similar fashion. 
 
 The following is a list of all available `appSettings` keys for the Telerik® UI for ASP.NET AJAX controls:
