@@ -13,6 +13,12 @@ slug: Telerik.Web.UI.RadWindow
 * *[Telerik.Web.UI.RadWindow]({%slug Telerik.Web.UI.RadWindow%})*
 
 
+## Properties
+
+### argument `object`
+
+An arbitrary object that is often used to store a reference to some data when passing it between the main page and the content page. It is not used by RadWindow.
+
 ## Methods
 
 
@@ -1011,11 +1017,21 @@ Sets a value indicating whether the RadWindow should be modal or not
 
 ##### value `Boolean`
 
- 
+#### Returns
+
+`None`
+
+### set_navigateUrl
+
+Sets the URL RadWindow will navigate to. Does not create the markup of the dialog or load the content page. To load the content page and show the dialog use setUrl and show respectively.
+
+#### Parameters
+
+##### value `String`
 
 #### Returns
 
-`None` 
+`None`
 
 ### set_offsetElementID
 

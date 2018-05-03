@@ -617,7 +617,17 @@ Method which triggers paging action with page command passed as an argument. All
 
 #### Returns
 
-`None` 
+`None`
+
+### rebind
+
+Forces a rebind of the grid and will refresh its state using internally the fireCommand() client-side method. Will invoke a postback for server-side bound grids.
+
+#### Parameters
+
+#### Returns
+
+`None`
 
 ### reorderColumns
 

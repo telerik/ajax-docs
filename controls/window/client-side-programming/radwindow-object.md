@@ -26,7 +26,6 @@ This article contains the following sections:
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **argument** |An object that is transferred between the calling page and the **RadWindow** dialog.|
 | **BrowserWindow** |Returns a reference to the parent page's document. This is useful for calling functions on the parent page.|
 | **get_animation** |Gets the animation value for the **RadWindow** . Returns a variable of type Telerik.Web.UI.WindowAnimation.|
 | **get_animationDuration** |Gets animation duration value for the **RadWindow** . The default value is 500ms.|
