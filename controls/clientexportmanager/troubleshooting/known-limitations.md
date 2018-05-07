@@ -18,6 +18,8 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * no support for RTL text
 
+* no support for vertical text (e.g., `writing-mode: vertical-lr`). You can read more [Add support for vertically aligned text in PDF export ](https://github.com/telerik/kendo-ui-core/issues/2827) GitHub issue for the underlying Kendo Drawing API
+
 * no rendering of shadow DOM
 
 * no CSS box-shadow, text-shadow, radial gradients (linear gradients are supported).
