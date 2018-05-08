@@ -230,7 +230,7 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 					<div>
 						<telerik:RadButton RenderMode="Lightweight" runat="server" ID="rbConfirm_OK" Text="OK" OnClick="rbConfirm_OK_Click">
 						</telerik:RadButton>
-						<telerik:RadButton RenderMode="Lightweight" runat="server" ID="rbConfirm_Cancel" Text="Cancel" OnClientClicked="closeCustomConfirm">
+						<telerik:RadButton RenderMode="Lightweight" runat="server" ID="rbConfirm_Cancel" Text="Cancel" OnClientClicked="closeCustomConfirm" AutoPostback="false">
 						</telerik:RadButton>
 					</div>
 				</div>
@@ -276,7 +276,7 @@ Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Cl
 	'no further logic is here. The necessary data can be stored in hidden fields or in the session for later use.
 End Sub
 
-Protected Sub rbConfirm_OK_Click(sender As Object, e As EventArgs) Handles Button4.Click
+Protected Sub rbConfirm_OK_Click(sender As Object, e As EventArgs) Handles rbConfirm_OK.Click
 	'Handle the OK click
 End Sub
 ````
