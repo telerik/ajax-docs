@@ -24,18 +24,23 @@ When **RadGrid** performs CRUD operations **ItemCommand, InsertCommand, DeleteCo
 ````C#
 protected void RadGrid1_ItemCommand(object sender, Telerik.Web.UI.GridCommandEventArgs e)
 {
-    GridBatchEditingEventArgument argument = e.CommandArgument as GridBatchEditingEventArgument;
-    Hashtable oldValues = argument.OldValues;
-    Hashtable newValues = argument.NewValues;
-    string newFirstName = newValues["FirstName"].ToString();
+    if (e.CommandName == RadGrid.BatchEditCommandName)
+    {
+        GridBatchEditingEventArgument argument = e.CommandArgument as GridBatchEditingEventArgument;
+        Hashtable oldValues = argument.OldValues;
+        Hashtable newValues = argument.NewValues;
+        string newFirstName = newValues["FirstName"].ToString();
+    }
 }
 ````
 ````VB
 Protected Sub RadGrid1_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs)
-    Dim argument As GridBatchEditingEventArgument = TryCast(e.CommandArgument, GridBatchEditingEventArgument)
-    Dim oldValues As Hashtable = argument.OldValues
-    Dim newValues As Hashtable = argument.NewValues
-    Dim newFirstName As String = newValues("FirstName").ToString()
+    If e.CommandName = RadGrid.BatchEditCommandName Then
+        Dim argument As GridBatchEditingEventArgument = TryCast(e.CommandArgument, GridBatchEditingEventArgument)
+        Dim oldValues As Hashtable = argument.OldValues
+        Dim newValues As Hashtable = argument.NewValues
+        Dim newFirstName As String = newValues("FirstName").ToString()
+    End If
 End Sub
 ````
 
@@ -49,8 +54,18 @@ protected void RadGrid1_BatchEditCommand(object sender, GridBatchEditingEventArg
 {
     foreach (GridBatchEditingCommand command in e.Commands)
     {
+        Response.Write(String.Format("<strong>command name: {0}</strong><br/>", command.Type.ToString()));
         Hashtable newValues = command.NewValues;
         Hashtable oldValues = command.OldValues;
+        foreach (string key in command.NewValues.Keys)
+        {
+            if(newValues[key] != oldValues[key]) //You may want to implement stronger difference checks here, or a check for the command name (e.g., when inserting there is little point in looking up old values
+            {
+                string output = String.Format("column: {0} with new value {1}<br />", key, command.NewValues[key]);
+                Response.Write(output);
+            }
+        }
+        //a simple way of getting the value of a column whose name you know
         string newFirstName = newValues["FirstName"].ToString();
     }
 }
@@ -58,21 +73,27 @@ protected void RadGrid1_BatchEditCommand(object sender, GridBatchEditingEventArg
 ````VB
 Protected Sub RadGrid1_BatchEditCommand(sender As Object, e As GridBatchEditingEventArgs)
     For Each command As GridBatchEditingCommand In e.Commands
+        Response.Write(String.Format("<strong>command name: {0}</strong><br/>", command.Type.ToString()))
         Dim newValues As Hashtable = command.NewValues
         Dim oldValues As Hashtable = command.OldValues
+        For Each key As String In command.NewValues.Keys
+            If newValues(key) <> oldValues(key) Then 'You may want to implement stronger difference checks here, or a check for the command name (e.g., when inserting there is little point in looking up old values
+                Dim output As String = String.Format("column: {0} with new value {1}<br />", key, command.NewValues(key))
+                Response.Write(output)
+            End If
+        Next
+        'a simple way of getting the value of a column whose name you know
         Dim newFirstName As String = newValues("FirstName").ToString()
     Next
 End Sub
 ````
 
->note The keys for the hash tables are the `DataField` names of the columns. If a column value is changed, its key will be present in the hash table.
+>note The keys for the hash tables are the `DataField` names of the columns.
 >
->For template columns, make sure to set their `DataField` property, otherwise the new values will be available under the `UniqueName` of the column.
+>For template columns, make sure to set their `DataField` property, otherwise the new values will be available under the `UniqueName` of the column. The old values for a TemplateColumn are available in the `OldValues` hashtable only if the `DataField` is added to the `DataKeyNames` collection.
 
 >tip **When working with custom data acccess logic** and not with declarative data sources, you will usually need a unique record ID in order to perform the CRUD operations in your server code. Often, you will not want to put the ID column in the grid because the user will not need it. In such cases, **add the `ID` field to the `DataKeyNames` collection of the `MasterTableView` so it becomes available in the NewValues hash table**. 
 
->note The `OldValues` for a TemplateColumn are available in the `OldValues` hashtable only if the DataField is added to the `DataKeyNames` collection.
->
 
 ## RadGrid commands in Batch Editing mode
 
