@@ -20,6 +20,7 @@ This help article lists the most common issues one can face when using the **Rad
 1. [ PlotArea is Shrunk by the Legend / PlotArea Dimensions Depend on the Legend Size.](#plotarea-is-shrunk-by-the-legend--plotarea-dimensions-depend-on-the-legend-size)
 1. [ RadHtmlChart cannot be bound to a data source that has special characters in its field names. ](#radhtmlchart-cannot-be-bound-to-a-data-source-that-has-special-characters-in-its-field-names)
 1. [Chart with display: none does not show itself](#chart-with-display-none-does-not-show-itself)
+1. [Client Events are not Firing and Tooltip is not Functioning](#client-events-are-not-firing-and-tooltip-is-not-functioning )
 1. [Overlapping Labels on Stacked Columns](#overlapping-labels-on-stacked-columns)
 
 ## Tooltips are Hidden Behind RadWindow or RadNotification
@@ -384,6 +385,13 @@ To resolve this, call its `repaint` client-side method so the chart will redraw 
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
+
+## Client Events are not Firing and Tooltip is not Functioning
+
+There are two common causes for the client-side features of the chart to not work as expected:
+
+* There is a JavaScript error on the page that breaks the scripts.
+* The chart was moved in the DOM (something like `$telerik.$("#someElement").html($telerik.$("#chartContainer").html();`) - this is not supported by the chart and you should try to render it in the place you need it. If you need it shown conditionally, keep it in a `<div style="display:none">` and call its `repaint()` method after showing it, or set its server-side `Visible` property to `false` and invoke a partial postback that will update it so you can toggle it to `true`.
 
 
 ## Overlapping Labels on Stacked Columns
