@@ -14,13 +14,13 @@ position: 0
 
 This article provides a brief overview of the main features of the **RadChat** control.
 
-* **Default Cards** - Built-in support for heroCards which can be displayed in the chat flow. [link to article]
+* **[Default Cards]({%slug chat/functionality/cards%})** - Built-in support for heroCards which can be displayed in the chat flow.
 
-* **Default Actions** - Out-of-the-box support for suggested actions. [link to article]
+* **[Default Actions]({%slug chat/functionality/actions%})** - Out-of-the-box support for suggested actions.
 
-* **Custom Templates** - Possibility to define custom templates to fit any custom payload, returned by the service. [link to article]
+* **[Custom Templates]({%slug chat/functionality/templates%})** - Possibility to define custom templates to fit any custom payload, returned by the service.
 
-* **Custom Components** - Integration of custom components, which allows the use of JavaScript to render any content.
+* **[Custom Components]({%slug chat/functionality/components%})** - Integration of custom components, which allows the use of JavaScript to render any content.
 
 # See Also
 
