@@ -10,7 +10,29 @@ position: 1
 
 # Default Cards
 
+Out of the box, the **RadChat** supports **heroCards** which can be displayed in the chat flow by manually calling the `renderAttachments` method of the control.
 
+````ASPX
+<telerik:RadChat runat="server" ID="RadChat1">
+</telerik:RadChat>
+ ````
+
+````JavaScript
+function renderAttachments() {
+    var chat = $find("<%= RadChat1.ClientID %>");
+    chat.renderAttachments({
+        attachments: [{
+            contentType: "heroCard",
+            content: {
+                title: "Attachment Title",
+                subtitle: "Attachment Subtitle",
+                text: "Sample text"
+            }
+        }],
+        attachmentLayout: "carousel"
+    }, chat.get_user());
+}
+````
 
 
 
