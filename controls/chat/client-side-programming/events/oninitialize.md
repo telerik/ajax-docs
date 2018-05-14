@@ -10,7 +10,7 @@ position: 1
 
 # OnInitialize
 
-The **OnInitialize** client-side event occurs when the **RadChat** starts initializing on the client-side.
+The **OnInitialize** client-side event occurs when the **RadChat** starts initializing on the client-side, before the underlying Kendo UI Chat widget is initialized.
 
 The event handler receives one parameter:
 
@@ -31,6 +31,7 @@ The event handler receives one parameter:
 
  * [Kendo UI Chat Events](http://docs.telerik.com/kendo-ui/api/javascript/ui/chat#events)
 
- * [RadChat Client-side events Overview]({%slug chat/client-side-programming/events%})
+ * [RadChat Client-Side events Overview]({%slug chat/client-side-programming/events%})
 
+ * [RadChat Client-Side API Overview]({%slug chat/client-side-programming/overview%})
 

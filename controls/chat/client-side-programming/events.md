@@ -14,7 +14,7 @@ position: 1
 
 * [OnActionClick]({%slug chat/client-side-programming/events/onactionclick%}) occurs when an action button is clicked inside an attachment template, or when a suggestedAction is clicked.
 
-* [OnInitialize]({%slug chat/client-side-programming/events/oninitialize%}) occurs when the **RadChat** starts initializing on the client-side.
+* [OnInitialize]({%slug chat/client-side-programming/events/oninitialize%}) occurs when the **RadChat** starts initializing on the client-side, before the underlying Kendo UI Chat widget is initialized.
 
 * [OnLoad]({%slug chat/client-side-programming/events/onload%}) occurs after the **RadChat** has been fully initialized on the client-side.
 

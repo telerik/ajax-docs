@@ -42,3 +42,5 @@ The event handler receives two parameters:
 
  * [RadChat Client-side events Overview]({%slug chat/client-side-programming/events%})
 
+ * [RadChat Client-Side API Overview]({%slug chat/client-side-programming/overview%})
+

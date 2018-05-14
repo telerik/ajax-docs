@@ -10,7 +10,7 @@ position: 0
 
 # Default Actions
 
-Out of the box, the **RadChat** supports **suggested actions**. To display the **suggestedActions** propmt, manually call the `renderSuggestedActions` method of the control.
+The **RadChat** control has a support for default **suggested actions**. To display the **suggestedActions** propmt, you need to call  the `renderSuggestedActions` method of the control.
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
@@ -38,8 +38,10 @@ function renderSuggestedActions() {
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug diagram/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
+
+ * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  

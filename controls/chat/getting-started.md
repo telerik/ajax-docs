@@ -18,7 +18,7 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 1. Add a **ScriptManager** control on a Web Form.
 
-1. Add a **RadDiagram** control on this AJAX-enabled Web Form: 
+1. Add a **RadChat** control on this Web Form: 
 	
 	>caption **Example 1**: Declaration of a **RadChat** control.
 
@@ -30,7 +30,7 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 
 
-1. Set some of the message and user settings like **Placeholder**, **Name** and **IconUrl**.
+1. Set some of the messages and user settings like **Placeholder**, **Name** and **IconUrl**.
 
 	>caption **Example 2**: The chat now has a custom placeholder message, username and avatar
 
@@ -93,9 +93,16 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
     }
     ````
 
+
+
 # See Also
 
  * [RadChat Structure]({%slug chat/structure%})
 
+ * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
+ 
  * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
+
+ * [Connecting to a Chatbot Service]({%slug chat/how-to/configure-chat-agent%}) 
+
  
