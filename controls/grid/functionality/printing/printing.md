@@ -23,10 +23,10 @@ $find(“RadGrid1”).print();
 ````
 
 
-Note that in order for the output to be precise, and for Unicode support, you must declare TrueType fonts explicitly.
 
->Note that for IE the browser’s popups should be always enabled to have the print functionality properly works.
->
+>note The browser’s popups should be enabled to have the print functionality work properly.
+
+>note In order for the output to be precise, and for Unicode support, you must declare TrueType fonts explicitly.
 
 ## See Also
 
