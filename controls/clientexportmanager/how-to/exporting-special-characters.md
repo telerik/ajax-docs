@@ -20,7 +20,7 @@ This article demonstrates how you can use custom fonts to export non-ASCII chara
 
 ## Description of the problem
 
-If you do not specify a font explicitly any non-ASCII characters the exported DOM element contains will not be exported to the PDF file. This includes some accent characters, for example.
+If you do not specify a font explicitly, any non-ASCII characters the exported DOM element contains will not be exported to the PDF file. This includes some accent characters, for example:
 
 **Example:** Consider the following `<div>` element, which contains Swedish and Japanese characters (Kanji):
 
@@ -56,11 +56,11 @@ In order to export special characters such as some accent and diacritical marks,
 
 ## Example
 
-Here is a process of how to define a font that contains the desired symbols for expor. It assumes you have the "Arial Unicode MS" font. You can replace it with other suitable fonts such as "DejaVu Sans".
+Here is a process of how to define a font that contains the desired symbols for export. It assumes you have the "Arial Unicode MS" font. You can replace it with other suitable fonts such as "DejaVu Sans".
 
-1. Include the `Arial Unicode MS` font in our project's `Fonts` folder. It is an extended version of the Arial font and supports Unicode characters.
+1. Include the `Arial Unicode MS` font in your project's `Fonts` folder. It is an extended version of the Arial font and supports Unicode characters.
 
-1. Add the font it to the **PdfSettings.Fonts** collection. 
+1. Add the font to the **PdfSettings.Fonts** collection. 
 
     **C#**
 
@@ -72,7 +72,7 @@ Here is a process of how to define a font that contains the desired symbols for 
     **VB**
 
     Protected Sub Page_Load(sender As Object, e As EventArgs)
-        RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "ArialUnicodeMS.ttf")
+        RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "Fonts/ArialUnicodeMS.ttf")
     End Sub
 
 1. Apply the font to the `<div>` "foo":
@@ -102,7 +102,7 @@ Here is a process of how to define a font that contains the desired symbols for 
         </script>
 
 
-1. **Result**: tThe special characters are correctly exported and visible in the PDF file:
+1. **Result**: The special characters are correctly exported and visible in the PDF file:
 
     ![Special Characters Exported](images/clientexportmanager-special-characters-exported.png)
 
@@ -113,7 +113,7 @@ Defining a `@font-face` element in the CSS of the page is equivalent to populati
 ````CSS
 @font-face {
    font-family: 'Arial Unicode MS';
-   src: url('Arial Unicode MS.ttf');
+   src: url('Fonts/Arial Unicode MS.ttf');
 }
 ````
 
@@ -130,4 +130,6 @@ You can define the special font for the global PDF export through specific CSS c
 # See Also
 
  * [ClientExportManager - Export Special Characters](https://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-special-characters/defaultcs.aspx) online demo
+ 
+ * [ClientExportManager - Change the Exported Content before Export]({%slug clientexportmanager/how-to/change-the-exported-content-before-export%}) how-to article
 
