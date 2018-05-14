@@ -10,7 +10,7 @@ position: 1
 
 # Default Cards
 
-Out of the box, the **RadChat** supports **heroCards** which can be displayed in the chat flow by manually calling the `renderAttachments` method of the control.
+Out of the box, the **RadChat** supports the default **heroCards** which can be displayed in the chat flow when calling the `renderAttachments` method of the control.
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
@@ -43,5 +43,7 @@ function renderAttachments() {
  * [RadChat Server-Side Programming]({%slug diagram/server-side-programming%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
+
+ * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  

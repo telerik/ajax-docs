@@ -14,6 +14,8 @@ position: 0
 
 This article provides a brief overview of the main features of the **RadChat** control.
 
+* **[Flexible client-side API]({%slug chat/client-side-programming/overview%})** - The flexible API allows an easy integration with Chatbot services.
+
 * **[Default Cards]({%slug chat/functionality/cards%})** - Built-in support for heroCards which can be displayed in the chat flow.
 
 * **[Default Actions]({%slug chat/functionality/actions%})** - Out-of-the-box support for suggested actions.
@@ -22,7 +24,11 @@ This article provides a brief overview of the main features of the **RadChat** c
 
 * **[Custom Components]({%slug chat/functionality/components%})** - Integration of custom components, which allows the use of JavaScript to render any content.
 
+
 # See Also
 
  * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+
+ * [Connecting to a Chatbot Service]({%slug chat/how-to/configure-chat-agent%})
+
 

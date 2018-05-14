@@ -11,7 +11,7 @@ position: 3
 # Custom Components
 
 
-The **RadChat** supports the implementation of custom components which allow you to use JavaScript to render any content.
+The **RadChat** control supports the implementation of custom components which allow you to use JavaScript to render any content.
 
 The following example demonstrates how to place a [Kendo UI Calendar](https://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview) in a custom RadChat component.
 
@@ -88,5 +88,7 @@ function addCustomComponent() {
  * [RadChat Server-Side Programming]({%slug diagram/server-side-programming%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
+
+ * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  
