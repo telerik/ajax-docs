@@ -109,7 +109,7 @@ function addCustomComponent() {
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug diagram/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 

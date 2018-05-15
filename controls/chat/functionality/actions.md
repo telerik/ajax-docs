@@ -12,7 +12,7 @@ position: 0
 
 The **RadChat** control has a support for default **suggested actions** which are rendered inside a Suggested Actions Pane. A Suggested Action is a button that the user can tap/click to provide input. That is why they can be also called Quick Actions.
 
- Unlike buttons that appear within [rich cards]({%slug chat/cards%}) (which remain visible and accessible to the user even after being tapped), buttons that appear within the suggested actions pane will disappear after the user makes a selection. This prevents the user from tapping stale buttons within a conversation and simplifies bot development (since you will not need to account for that scenario). 
+ Unlike buttons that appear within [rich cards]({%slug chat/functionality/cards%}) (which remain visible and accessible to the user even after being tapped), buttons that appear within the suggested actions pane will disappear after the user makes a selection. This prevents the user from tapping stale buttons within a conversation and simplifies bot development (since you will not need to account for that scenario). 
 
 To display the **suggestedActions** propmt, you need to call  the `renderSuggestedActions` method of the control.
 
@@ -51,7 +51,7 @@ function renderSuggestedActions(sender) {
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 
