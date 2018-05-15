@@ -10,7 +10,11 @@ position: 1
 
 # Default Cards
 
-Out of the box, the **RadChat** supports the default **heroCards** which can be displayed in the chat flow when calling the `renderAttachments` method of the control.
+Rich cards are complex attachment messages that can contain additional message styling, templates, and images. The **RadChat** control supports the default **heroCards** template which can be displayed in the chat flow when calling the `renderAttachments` method of the control and pass `heroCard` as a value for the `contentType` property of an attachment.
+
+>caption **Figure 1**: A Chat that uses the default HeroCard template.
+
+![chat with heroCard template](images/herocard-template.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
@@ -34,13 +38,19 @@ function renderAttachments() {
 }
 ````
 
+The layout of a collection of attachments can be: 
+* **Carousel** - displays multiple cards *horizontally*;
+    ![Carousel](images/Carousel.png)
+* **List** - displays multiple cards *vertically*; 
+    ![deck](images/deck.png)
 
+To further customize the appearance of a card, you can also use [Custom Templates]({%slug chat/functionality/templates%}) and [Custom Components]({%slug chat/functionality/components%}) articles.
 
 # See Also
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug diagram/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 

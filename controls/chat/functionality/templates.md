@@ -13,7 +13,11 @@ position: 2
 
 The **RadChat** control supports the definition of custom templates to fit any custom payload that is returned by the service.
 
-The following example demonstrates how to implement a simple [Kendo UI template](https://docs.telerik.com/kendo-ui/framework/templates/overview) and to register it for the **RadChat**.
+The following example demonstrates how to implement a simple [Kendo UI Template](https://docs.telerik.com/kendo-ui/framework/templates/overview) and to register it for the **RadChat**.
+
+>caption **Figure 1**: A chat uses custom Kendo UI Templates.
+
+![chat with custom template](images/custom-templates.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
