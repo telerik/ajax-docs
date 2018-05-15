@@ -18,7 +18,7 @@ position: 2
 >In order to have Telerik® UI for ASP.NET AJAX running, you will need to have .NET 4.x+ installed on your development/production machine.
 >
 
-The **MSI** files are intended for easy and automatic installation of a product. The **MSI** installs the suite on your computer to a folder named **Telerik** in your Program Files, automatically creating the necessary virtual folders and projects. Additionally, it installs the help file(s) in the VS.NET IDE and in your local copy of [MSDN](http://msdn.microsoft.com/), if you have one installed.
+The **MSI** files are intended for easy and automatic installation of a product. The **MSI** installs the suite on your computer to a folder named **Progress** in your Program Files (x86) directory, automatically creating the necessary virtual folders and projects. 
 
 
 To install Telerik UI for ASP.NET on your machine from the Windows Installer **MSI** file, follow the instructions below:
