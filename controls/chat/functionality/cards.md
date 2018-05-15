@@ -14,7 +14,7 @@ Rich cards are complex attachment messages that can contain additional message s
 
 >caption **Figure 1**: A Chat that uses the default HeroCard template.
 
-![chat with heroCard template](images/chat-heroCard.png)
+![chat with heroCard template](../images/chat-heroCard.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
@@ -51,9 +51,9 @@ function renderAttachments() {
 
 The layout of a collection of attachments can be: 
 * **Carousel** - displays multiple cards *horizontally*;
-    ![carousel](images/chat-card-carousel.png)
+    ![carousel](../images/chat-card-carousel.png)
 * **List** - displays multiple cards *vertically*; 
-    ![deck](images/chat-card-list.png)
+    ![deck](../images/chat-card-list.png)
 
 To further customize the appearance of a card, you can also use [Custom Templates]({%slug chat/functionality/templates%}) and [Custom Components]({%slug chat/functionality/components%}) articles.
 

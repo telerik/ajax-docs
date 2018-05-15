@@ -1,18 +1,18 @@
 ---
-title: Overview
+title: Structure
 page_title: Structure Overview | RadChat for ASP.NET AJAX Documentation
 description: Structure Overview
 slug: chat/structure
-tags: overview
+tags: structure
 published: True
 position: 2
 ---
 
 # Structure Overview
 
->caption **Figure 1**: A chat structure.
-
 ![chat-structure](images/chat-structure.png)
+
+>caption **Figure 1**: A chat structure.
 
 The two main elements the **RadChat** control is built with are **Message List** and **Message Box**.
 
@@ -31,7 +31,7 @@ The two main elements the **RadChat** control is built with are **Message List**
     * **List** - displays multiple cards *vertically*. Might be referred as **Card List**; 
 
 
-## The Message Box contains
+## The Message Box contains:
 
 * **Message Input** - input where the user writes their message. When there is no message written, a placeholder message is visible.
 * **Send Button** - button that when clicked sends the message in the message input. When the focus is on the message input, pressing the `Enter` key is the same as clicking the send button.

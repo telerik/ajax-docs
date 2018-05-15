@@ -17,7 +17,7 @@ The following example demonstrates how to place a [Kendo UI Calendar](https://do
 
 >caption **Figure 1**: A Chat renders a Kendo UI Calendar to facilitate date choosing.
 
-![chat with custom components](images/chat-custom-component-calendar.png)
+![chat with custom components](../images/chat-custom-component-calendar.png)
 
 ````HTML
  <%-- load Kendo UI styles --%>
@@ -109,7 +109,7 @@ function addCustomComponent() {
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 
