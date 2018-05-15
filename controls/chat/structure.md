@@ -1,4 +1,4 @@
---
+---
 title: Overview
 page_title: Structure Overview | RadChat for ASP.NET AJAX Documentation
 description: Structure Overview

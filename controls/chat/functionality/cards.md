@@ -61,7 +61,7 @@ To further customize the appearance of a card, you can also use [Custom Template
 
  * [RadChat Structure]({%slug chat/structure%})
 
- * [RadChat Server-Side Programming]({%slug chat/server-side-programming%})
+ * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 
