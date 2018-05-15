@@ -22,7 +22,7 @@ description: Telerik.Web.UI.RadCalendar
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make Telerik RadCalendar postback to the server 
+Setting this property to true will make Telerik RadCalendar postback to the server
             on date selection or when navigating to a different month.
 
 ###  Calendar `Calendar`
@@ -595,12 +595,12 @@ For internal use.
 
 Gets or sets a value indicating where RadCalendar will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MonthLayout `MonthLayout`

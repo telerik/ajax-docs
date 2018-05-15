@@ -6,7 +6,7 @@ description: Telerik.Web.UI.MonthYearPopupButton
 
 # Telerik.Web.UI.MonthYearPopupButton
 
-The control that toggles the TimeView popup.  
+The control that toggles the TimeView popup.
             You can customize the appearance by setting the object's properties.
 
 ## Inheritance Hierarchy

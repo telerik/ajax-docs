@@ -21,7 +21,7 @@ PivotGridFieldRenderingControl allows you to control how the field is rendered.
 ###  ContextMenuButton `Button`
 
 Gets or sets the context menu button which will show a context menu
-            when  ConfigurationPanelSettings 
+            when  ConfigurationPanelSettings
             EnableFieldsContextMenu is set to true and the field is placed in the
             ConfigurationPanel.
 

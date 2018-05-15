@@ -59,14 +59,6 @@ Contains information about the uploaded file
 
 `Telerik.Web.UI.T` An object of type T populated with all properties specified in IAsyncUploadResult
 
-###  DecryptFolder
-
-Decrypts a string encrypted with LOS serializer.
-
-#### Returns
-
-`System.String` The decrypted string
-
 ###  IsFileSizeValid
 
 Indicates whether the currently processed file has valid size. The size is checked against the maximum size specified in the 

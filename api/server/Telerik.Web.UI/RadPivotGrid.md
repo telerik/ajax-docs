@@ -878,12 +878,12 @@ Exports the pivot grid data in Microsoft Word format using the properties set in
 
 ###  FilterBottom
 
-When a Top/Bottom value filter is applied to a given field with the Items mode, it will select the top/bottom groups for 
-            that field sorted by the chosen aggregate field and the count of which is given by the filter value. For example, 
-            a Top operator with and Items filter value of 10 on the Sum of Cost aggregate field will return the 10 groups 
-            (of the field filtered on) which Sum of Cost is greatest. The Percent mode will return the top/bottom groups which 
-            cumulative aggregate values (just to remind: the aggregate field being set as part of the filter condition) add to 
-            the specified percent of the grand total for that field. The Sum mode, in a similar fashion, gets the top/bottom 
+When a Top/Bottom value filter is applied to a given field with the Items mode, it will select the top/bottom groups for
+            that field sorted by the chosen aggregate field and the count of which is given by the filter value. For example,
+            a Top operator with and Items filter value of 10 on the Sum of Cost aggregate field will return the 10 groups
+            (of the field filtered on) which Sum of Cost is greatest. The Percent mode will return the top/bottom groups which
+            cumulative aggregate values (just to remind: the aggregate field being set as part of the filter condition) add to
+            the specified percent of the grand total for that field. The Sum mode, in a similar fashion, gets the top/bottom
             groups which cumulative aggregate values add to the sum specified by the filter value.
 
 #### Parameters
@@ -907,7 +907,7 @@ The value that will be used for the filtering of the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns
@@ -916,10 +916,10 @@ A value indicating whether a  will
 
 ###  FilterByLabel
 
-Filters by the text value of the field. Label filters control which groups for a given field 
-            will remain in the pivot data view after grouping has been performed. If, for example, you 
+Filters by the text value of the field. Label filters control which groups for a given field
+            will remain in the pivot data view after grouping has been performed. If, for example, you
             have your data grouped by a Country field and you need only those Country groups of items
-            that relate to Bulgaria you should apply an Equals label filter to the Country field with 
+            that relate to Bulgaria you should apply an Equals label filter to the Country field with
             the respective string filter value of “Bulgaria”.
 
 #### Parameters
@@ -938,7 +938,7 @@ The value that will be used for the filtering of the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns
@@ -947,7 +947,7 @@ A value indicating whether a  will
 
 ###  FilterByLabel
 
-Filters by the text value of the field. Label filters control which groups for a given field 
+Filters by the text value of the field. Label filters control which groups for a given field
             will remain in the pivot data view after grouping has been performed.
 
 #### Parameters
@@ -970,7 +970,7 @@ The value that will be used as the between value when filtering the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### ignoreCase `System.Boolean`
@@ -983,11 +983,11 @@ A value indicating whether filtering will ignore the case of the value's letters
 
 ###  FilterByValue
 
-Filters by the values of the field. Value filters, for their part, allow filtering operations 
-            to be performed on the aggregate results. Again, the filtering is applied after the grouping 
+Filters by the values of the field. Value filters, for their part, allow filtering operations
+            to be performed on the aggregate results. Again, the filtering is applied after the grouping
             of the data. Here is another example: Suppose you have grouped your data by Country, aggregated
             it by Sum of Cost and need only those Country groups of items which cumulative cost falls within
-            a certain range. Then you should apply a Between value filter on the Country field with the 
+            a certain range. Then you should apply a Between value filter on the Country field with the
             corresponding filter values.
 
 #### Parameters
@@ -1011,7 +1011,7 @@ The value that will be used for the filtering of the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns
@@ -1020,8 +1020,8 @@ A value indicating whether a  will
 
 ###  FilterByValue
 
-Filters by the values of the field. Value filters, for their part, allow filtering operations 
-            to be performed on the aggregate results. Again, the filtering is applied after the grouping 
+Filters by the values of the field. Value filters, for their part, allow filtering operations
+            to be performed on the aggregate results. Again, the filtering is applied after the grouping
             of the data.
 
 #### Parameters
@@ -1049,7 +1049,7 @@ The value that will be used as the between value when filtering the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### ignoreCase `System.Boolean`
@@ -1062,12 +1062,12 @@ A value indicating whether filtering will ignore the case of the value's letters
 
 ###  FilterTop
 
-When a Top/Bottom value filter is applied to a given field with the Items mode, it will select the top/bottom groups for 
-            that field sorted by the chosen aggregate field and the count of which is given by the filter value. For example, 
-            a Top operator with and Items filter value of 10 on the Sum of Cost aggregate field will return the 10 groups 
-            (of the field filtered on) which Sum of Cost is greatest. The Percent mode will return the top/bottom groups which 
-            cumulative aggregate values (just to remind: the aggregate field being set as part of the filter condition) add to 
-            the specified percent of the grand total for that field. The Sum mode, in a similar fashion, gets the top/bottom 
+When a Top/Bottom value filter is applied to a given field with the Items mode, it will select the top/bottom groups for
+            that field sorted by the chosen aggregate field and the count of which is given by the filter value. For example,
+            a Top operator with and Items filter value of 10 on the Sum of Cost aggregate field will return the 10 groups
+            (of the field filtered on) which Sum of Cost is greatest. The Percent mode will return the top/bottom groups which
+            cumulative aggregate values (just to remind: the aggregate field being set as part of the filter condition) add to
+            the specified percent of the grand total for that field. The Sum mode, in a similar fashion, gets the top/bottom
             groups which cumulative aggregate values add to the sum specified by the filter value.
 
 #### Parameters
@@ -1091,7 +1091,7 @@ The value that will be used for the filtering of the data.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns
@@ -1158,7 +1158,7 @@ Loads the client state data
 ###  LoadControlState
 
 Restores control-state information from a previous page request that
-            was saved by the 
+            was saved by the
              method.
 
 #### Parameters
@@ -1305,7 +1305,7 @@ The values will be excluded in the results.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns
@@ -1328,7 +1328,7 @@ The values that will be included in the results.
 
 #### suppressRebind `System.Boolean`
 
-A value indicating whether a  will 
+A value indicating whether a  will
             be called after the Filter operation.
 
 #### Returns

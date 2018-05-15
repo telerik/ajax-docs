@@ -6,7 +6,7 @@ description: Telerik.Web.UI.CalendarPopupButton
 
 # Telerik.Web.UI.CalendarPopupButton
 
-The control that toggles the calendar popup.  
+The control that toggles the calendar popup.
             You can customize the appearance by setting the object's properties.
 
 ## Inheritance Hierarchy
