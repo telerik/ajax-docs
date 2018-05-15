@@ -16,10 +16,6 @@ You can configure the settings of **RadChat** and create its elements on the cod
 
 **Example 1** shows a possible application of the Server-Side API of the chat. The code in the example configures some settings of the chat, of its User and Messages settings, then assigns the event handlers of the client-side events.
 
->caption **Figure 1**: A chat that is configured from the code-behind.
-
-![diagram-programmatic-creation](images/diagram-programmatic-creation.png)
-
 >caption **Example 1**: Configuring a diagram on the server-side.
 
 ````C#

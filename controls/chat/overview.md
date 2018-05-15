@@ -24,6 +24,7 @@ This article provides a brief overview of the main features of the **RadChat** c
 
 * **[Custom Components]({%slug chat/functionality/components%})** - Integration of custom components, which allows the use of JavaScript to render any content.
 
+To get familiar with the UI elements of the RadChat you can check the [RadChat Structure]({%slug chat/structure%}) article.
 
 # See Also
 

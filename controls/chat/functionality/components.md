@@ -15,6 +15,10 @@ The **RadChat** control supports the implementation of custom components which a
 
 The following example demonstrates how to place a [Kendo UI Calendar](https://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview) in a custom RadChat component.
 
+>caption **Figure 1**: A Chat renders a Kendo UI Calendar to facilitate date choosing.
+
+![chat with custom components](images/custom-components.png)
+
 ````HTML
  <%-- load Kendo UI styles and scripts --%>
 <link rel="stylesheet" href="~/styles/kendo.common.min.css" />
