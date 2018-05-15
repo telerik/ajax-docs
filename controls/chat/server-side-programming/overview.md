@@ -65,26 +65,19 @@ End Sub
 ````
 
 ````JavaScript
-function onTypingStart(sender, args) {
-                  
+function onTypingStart(sender, args) {                  
 }
-function onTypingEnd(sender, args) {
-                  
+function onTypingEnd(sender, args) {                  
 }
-function onSendMessage(sender, args) {
-                   
+function onSendMessage(sender, args) {                   
 }
-function onPost(sender, args) {
-                  
+function onPost(sender, args) {                  
 }
-function onLoad(sender) {
-                  
+function onLoad(sender) {                  
 }
-function оnActionClick(sender, args) {
-                    
+function оnActionClick(sender, args) {                    
 }
-function onInitialize(sender) {
-                   
+function onInitialize(sender) {                   
 }
 ````
 

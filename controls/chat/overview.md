@@ -12,6 +12,10 @@ position: 0
 
 **RadChat** for ASP.NET AJAX is a control powered by the Kendo UI Chat widget. The control allows for integration with any Bot framework, due to its simplicity, flexible API and customizable templates. RadChat is available as of **R2 2018**.
 
+>caption **Figure 1**: A simple RadChat message flow.
+
+![chat overview](images/chat-overview.png)
+
 This article provides a brief overview of the main features of the **RadChat** control.
 
 * **[Flexible client-side API]({%slug chat/client-side-programming/overview%})** - The flexible API allows an easy integration with Chatbot services.
@@ -31,5 +35,7 @@ To get familiar with the UI elements of the RadChat you can check the [RadChat S
  * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  * [Connecting to a Chatbot Service]({%slug chat/how-to/configure-chat-agent%})
+ 
+ * [RadChat Structure]({%slug chat/structure%})  
 
 

@@ -17,17 +17,37 @@ The following example demonstrates how to place a [Kendo UI Calendar](https://do
 
 >caption **Figure 1**: A Chat renders a Kendo UI Calendar to facilitate date choosing.
 
-![chat with custom components](images/custom-components.png)
+![chat with custom components](images/chat-custom-component-calendar.png)
 
 ````HTML
- <%-- load Kendo UI styles and scripts --%>
+ <%-- load Kendo UI styles --%>
 <link rel="stylesheet" href="~/styles/kendo.common.min.css" />
 <link rel="stylesheet" href="~/styles/kendo.default.min.css" />
+<style>
+    .t-card {
+        max-width: none;
+    }
+</style>
+````
+
+````ASPX
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+    </Scripts>
+</telerik:RadScriptManager>
+````
+
+````HTML
+ <%-- load Kendo UI scripts after the ScriptManager and before RadChat --%>
 <script src="~/scripts/kendo.all.min.js"></script>
 ````
 
 ````ASPX
-<telerik:RadChat runat="server" ID="RadChat1">
+<telerik:RadChat runat="server" ID="RadChat1" Width="400px" Height="550px">
+    <ClientEvents OnLoad="OnLoad" />
 </telerik:RadChat>
  ````
 
@@ -68,7 +88,7 @@ kendo.chat.registerComponent("CalendarComponent", CalendarComponent);
 
 ````JavaScript
 function addCustomComponent() {
-    var chat = $find("<%= RadChat2.ClientID %>");
+    var chat = $find("<%= RadChat1.ClientID %>");
 
     chat.postMessage("Hello!");
     chat.postMessage("Please, select a date from the Calendar.");

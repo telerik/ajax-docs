@@ -18,24 +18,29 @@ To display the **suggestedActions** propmt, you need to call  the `renderSuggest
 
 >caption **Figure 1**: A Chat with suggested actions.
 
-![chat with suggested actions](images/suggested-actions.png)
+![chat with suggested actions](images/chat-suggested-actions.png)
 
 ````ASPX
-<telerik:RadChat runat="server" ID="RadChat1">
+<telerik:RadChat runat="server" ID="RadChat1" Width="350px" Height="300px">
+    <ClientEvents OnLoad="renderSuggestedActions" />
 </telerik:RadChat>
  ````
 
 ````JavaScript
-function renderSuggestedActions() {
-    var chat = $find("<%= RadChat1.ClientID %>");
-                  
+function renderSuggestedActions(sender) {
+    var chat = sender;
+    var chatBot = { id: 1, name: "SchedulerBot", iconUrl: "avatar.png" };
+
+    chat.renderMessage({ text: "Hello!" }, chatBot);
+    chat.renderMessage({ text: "Please, select an option:" }, chatBot);
+    
     chat.renderSuggestedActions([{
         title: "Option 1",
         value: "Value 1"
     }, {
         title: "Option 2",
         value: "Value 2"
-    }]);
+    }], chatBot);
 }
 ````
 
