@@ -22,10 +22,10 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 	
 	>caption **Example 1**: Declaration of a **RadChat** control.
 
-	````ASP.NET
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadChat ID="RadChat1" runat="server">
-		</telerik:RadChat>
+	````ASPX
+    <asp:ScriptManager runat="server" ID="ScriptManager1"  />
+    <telerik:RadChat ID="RadChat1" runat="server">
+    </telerik:RadChat>
     ````
 
 
@@ -33,32 +33,32 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 	>caption **Example 2**: The chat now has a custom placeholder message, username and avatar
 
-	````ASP.NET
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadChat runat="server" ID="RadChat1">
-            <MessagesSettings Placeholder="Type your message here..." />
-            <UserSettings Name="John" IconUrl="avatar.png" />
-        </telerik:RadChat>
+	````ASPX
+    <asp:ScriptManager runat="server" ID="ScriptManager1"  />
+    <telerik:RadChat runat="server" ID="RadChat1">
+        <MessagesSettings Placeholder="Type your message here..." />
+        <UserSettings Name="John" IconUrl="avatar.png" />
+    </telerik:RadChat>
     ````
 
 1. Press F5 to run the application. You will see the chat that is displayed in **Figure 1**. From this point you can start interacting with the chat.
 
 	>caption **Example 3**: Assigning the client-side event handlers:
 	
-    ````ASP.NET
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadChat runat="server" ID="RadChat1" Width="300px" Height="300px">
-            <ClientEvents
-                OnActionClick="OnActionClick"
-                OnInitialize="OnInitialize"
-                OnLoad="OnLoad"
-                OnPost="OnPost"
-                OnSendMessage="OnSendMessage"
-                OnTypingEnd="OnTypingEnd"
-                OnTypingStart="OnTypingStart" />
-            <MessagesSettings Placeholder="Type your message here..." />
-            <UserSettings Name="John" IconUrl="avatar.png" />
-        </telerik:RadChat>
+    ````ASPX
+    <asp:ScriptManager runat="server" ID="ScriptManager1"  />
+    <telerik:RadChat runat="server" ID="RadChat1" Width="300px" Height="300px">
+        <ClientEvents
+            OnActionClick="OnActionClick"
+            OnInitialize="OnInitialize"
+            OnLoad="OnLoad"
+            OnPost="OnPost"
+            OnSendMessage="OnSendMessage"
+            OnTypingEnd="OnTypingEnd"
+            OnTypingStart="OnTypingStart" />
+        <MessagesSettings Placeholder="Type your message here..." />
+        <UserSettings Name="John" IconUrl="avatar.png" />
+    </telerik:RadChat>
     ````
 
     ````JavaScript

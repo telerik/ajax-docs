@@ -18,7 +18,7 @@ To display the **suggestedActions** propmt, you need to call  the `renderSuggest
 
 >caption **Figure 1**: A Chat with suggested actions.
 
-![chat with suggested actions](images/chat-suggested-actions.png)
+![chat with suggested actions](../images/chat-suggested-actions.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1" Width="350px" Height="300px">

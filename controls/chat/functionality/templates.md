@@ -17,7 +17,7 @@ The following example demonstrates how to implement a simple [Kendo UI Template]
 
 >caption **Figure 1**: A chat uses custom Kendo UI Templates.
 
-![chat with custom template](images/chat-custom-template.png)
+![chat with custom template](../images/chat-custom-template.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
