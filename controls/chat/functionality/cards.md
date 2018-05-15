@@ -14,14 +14,21 @@ Rich cards are complex attachment messages that can contain additional message s
 
 >caption **Figure 1**: A Chat that uses the default HeroCard template.
 
-![chat with heroCard template](images/herocard-template.png)
+![chat with heroCard template](images/chat-heroCard.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
+    <ClientEvents OnLoad="OnLoad"/>
+    <MessagesSettings Placeholder="Type your message here..." />
+    <UserSettings Name="John" IconUrl="avatar.png" />
 </telerik:RadChat>
  ````
 
 ````JavaScript
+function OnLoad(sender, args) {
+    renderAttachments();
+}
+
 function renderAttachments() {
     var chat = $find("<%= RadChat1.ClientID %>");
     chat.renderAttachments({
@@ -30,7 +37,11 @@ function renderAttachments() {
             content: {
                 title: "Attachment Title",
                 subtitle: "Attachment Subtitle",
-                text: "Sample text"
+                text: "Some sample text to be shown inside the attachment to illustrate the image above.",
+                images: [{
+                    url: "mountain.png",
+                    alt: "mountain"
+                }]
             }
         }],
         attachmentLayout: "carousel"
@@ -40,9 +51,9 @@ function renderAttachments() {
 
 The layout of a collection of attachments can be: 
 * **Carousel** - displays multiple cards *horizontally*;
-    ![Carousel](images/Carousel.png)
+    ![carousel](images/chat-card-carousel.png)
 * **List** - displays multiple cards *vertically*; 
-    ![deck](images/deck.png)
+    ![deck](images/chat-card-list.png)
 
 To further customize the appearance of a card, you can also use [Custom Templates]({%slug chat/functionality/templates%}) and [Custom Components]({%slug chat/functionality/components%}) articles.
 

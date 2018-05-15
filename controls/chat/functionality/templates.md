@@ -17,10 +17,11 @@ The following example demonstrates how to implement a simple [Kendo UI Template]
 
 >caption **Figure 1**: A chat uses custom Kendo UI Templates.
 
-![chat with custom template](images/custom-templates.png)
+![chat with custom template](images/chat-custom-template.png)
 
 ````ASPX
 <telerik:RadChat runat="server" ID="RadChat1">
+  <ClientEvents OnLoad="renderSuggestedActions" />
 </telerik:RadChat>
  ````
 
@@ -54,12 +55,12 @@ The following example demonstrates how to implement a simple [Kendo UI Template]
 ````
 
 ````JavaScript
-function renderCustomTemplate() {
+function renderCustomTemplate(sender) {
     // register template
     var QUOTE_CARD_TEMPLATE = kendo.template($('#quote-template').html());
     kendo.chat.registerTemplate("quote", QUOTE_CARD_TEMPLATE);
 
-    var chat = $find("<%= RadChat1.ClientID %>");
+    var chat = sender;
     chat.renderAttachments({
         attachments: [{
             contentType: "quote",

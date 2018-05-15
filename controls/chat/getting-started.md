@@ -14,7 +14,7 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 >caption **Figure 1**: A RadChat configuration with a few shapes and connections
 
-![chat-simple-setup](images/chat-simple-setup.png)
+![chat-getting-started](images/chat-getting-started.png)
 
 1. Add a **ScriptManager** control on a Web Form.
 
@@ -22,35 +22,32 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 	
 	>caption **Example 1**: Declaration of a **RadChat** control.
 
-	**ASP.NET**
-
+	````ASP.NET
 		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
 		<telerik:RadChat ID="RadChat1" runat="server">
 		</telerik:RadChat>
-
+    ````
 
 
 1. Set some of the messages and user settings like **Placeholder**, **Name** and **IconUrl**.
 
 	>caption **Example 2**: The chat now has a custom placeholder message, username and avatar
 
-	**ASP.NET**
-
+	````ASP.NET
 		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
 		<telerik:RadChat runat="server" ID="RadChat1">
             <MessagesSettings Placeholder="Type your message here..." />
             <UserSettings Name="John" IconUrl="avatar.png" />
         </telerik:RadChat>
-
+    ````
 
 1. Press F5 to run the application. You will see the chat that is displayed in **Figure 1**. From this point you can start interacting with the chat.
 
 	>caption **Example 3**: Assigning the client-side event handlers:
-
-	**ASP.NET**
-
+	
+    ````ASP.NET
 		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadChat runat="server" ID="RadChat1">
+		<telerik:RadChat runat="server" ID="RadChat1" Width="300px" Height="300px">
             <ClientEvents
                 OnActionClick="OnActionClick"
                 OnInitialize="OnInitialize"
@@ -62,34 +59,29 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
             <MessagesSettings Placeholder="Type your message here..." />
             <UserSettings Name="John" IconUrl="avatar.png" />
         </telerik:RadChat>
+    ````
 
     ````JavaScript
-    function OnActionClick(sender, args) {
-    
+    function OnActionClick(sender, args) {    
     }
     
-    function OnInitialize(sender, args) {
-    
+    function OnInitialize(sender, args) {    
     }
     
-    function OnLoad(sender, args) {
-    
+    function OnLoad(sender) {
+        sender.postMessage("Hello!");
     }
     
-    function OnPost(sender, args) {
-    
+    function OnPost(sender) {    
     }
     
-    function OnSendMessage(sender, args) {
-    
+    function OnSendMessage(sender, args) {    
     }
     
-    function OnTypingEnd(sender, args) {
-    
+    function OnTypingEnd(sender, args) {    
     }
     
-    function OnTypingStart(sender, args) {
-    
+    function OnTypingStart(sender, args) {    
     }
     ````
 
