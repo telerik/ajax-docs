@@ -10,7 +10,7 @@ position: 1
 
 # OnInitialize
 
-The **OnInitialize** client-side event occurs when the **RadChat** starts initializing on the client-side, before the underlying Kendo UI Chat widget is initialized.
+The **OnInitialize** client-side event occurs when the **RadChat** starts initializing on the client-side, before the underlying Kendo UI Chat widget is initialized. It can be used for last minute property changes before the underlying Kendo UI widget is initialized. Once the Kendo UI widget is initialized, the **[OnLoad]({%slug chat/client-side-programming/events/onload%})** event is fired.
 
 The event handler receives one parameter:
 

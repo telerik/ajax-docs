@@ -11,26 +11,26 @@ position: 3
 # Custom Components
 
 
-The **RadChat** control supports the implementation of custom components which allow you to use JavaScript to render any content.
+The **RadChat** control supports the implementation of custom components which allows you to use JavaScript to render any content in the chat flow. For example, you can use the [Kendo UI Calendar](https://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview) widget to facilitate the user to choose a date.
 
-The following example demonstrates how to place a [Kendo UI Calendar](https://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview) in a custom RadChat component.
+To use the custom components you should first register them via the `kendo.chat.registerComponent(componentName, component);` method and then set the component name as a value to the `contentType` property of the attachment. Below you can find a sample implementaction of a CalendarComponent and how to use it.
 
 >caption **Figure 1**: A Chat renders a Kendo UI Calendar to facilitate date choosing.
 
-![chat with custom components](../images/chat-custom-component-calendar.png)
+![chat with custom components](../images/chat-calendar-component.gif)
 
 ````HTML
- <%-- load Kendo UI styles --%>
+ <%-- load Kendo UI styles needed for the Kendo UI Calendar --%>
 <link rel="stylesheet" href="~/styles/kendo.common.min.css" />
 <link rel="stylesheet" href="~/styles/kendo.default.min.css" />
 <style>
-    .t-card {
+    html .t-card {
         max-width: none;
     }
 </style>
 ````
 
-````ASPX
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
     <Scripts>
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
@@ -41,17 +41,36 @@ The following example demonstrates how to place a [Kendo UI Calendar](https://do
 ````
 
 ````HTML
- <%-- load Kendo UI scripts after the ScriptManager and before RadChat --%>
+ <%-- load Kendo UI scripts needed for the Kendo UI Calendar after the ScriptManager and before RadChat --%>
 <script src="~/scripts/kendo.all.min.js"></script>
 ````
 
-````ASPX
+````ASP.NET
 <telerik:RadChat runat="server" ID="RadChat1" Width="400px" Height="550px">
     <ClientEvents OnLoad="OnLoad" />
 </telerik:RadChat>
  ````
 
 ````JavaScript
+function OnLoad(sender) {
+    var chat = sender;
+
+    chat.postMessage("Hello!");
+    chat.postMessage("Please, select a date from the Calendar.");
+
+    chat.renderAttachments({
+        attachments: [{
+            contentType: "CalendarComponent",
+            content: {
+                value: new Date()
+            }
+        }]
+    }, chat.get_user());
+}
+````
+
+````JavaScript
+// register the CalendarComponent containing the Kendo UI Calendar widget
 var CalendarComponent = kendo.chat.Component.extend({
     init: function (options, view) {
         kendo.chat.Component.fn.init.call(this, options, view);
@@ -84,24 +103,6 @@ var CalendarComponent = kendo.chat.Component.extend({
 });
 
 kendo.chat.registerComponent("CalendarComponent", CalendarComponent);
-````
-
-````JavaScript
-function addCustomComponent() {
-    var chat = $find("<%= RadChat1.ClientID %>");
-
-    chat.postMessage("Hello!");
-    chat.postMessage("Please, select a date from the Calendar.");
-
-    chat.renderAttachments({
-        attachments: [{
-            contentType: "CalendarComponent",
-            content: {
-                value: new Date()
-            }
-        }]
-    }, chat.get_user());
-}
 ````
 
 

@@ -12,11 +12,9 @@ position: 0
 
 You can configure the settings of **RadChat** and create its elements on the code-behind via the Server-Side API of this customizable ASP.NET Chat control.
 
-## Configuring a Chat From the Code-Behind
-
 **Example 1** shows a possible application of the Server-Side API of the chat. The code in the example configures some settings of the chat, of its User and Messages settings, then assigns the event handlers of the client-side events.
 
->caption **Example 1**: Configuring a diagram on the server-side.
+>caption **Example 1**: Configuring a **RadChat** on the server-side.
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)

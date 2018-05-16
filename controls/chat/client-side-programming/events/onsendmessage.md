@@ -8,15 +8,16 @@ published: True
 position: 4
 ---
 
+# OnSendMessage
 
-The **OnSendMessage** client-side event fires when a message is posted through the chat message box. Equal to the [sendMessage](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/events/sendmessage) event of the underlying Kendo UI Chat widget.
+The **OnSendMessage** client-side event fires when the user posts a message through the chat message box. Equal to the [sendMessage](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/events/sendmessage) event of the underlying Kendo UI Chat widget. The messages from the message box can be sent either with pressing `Enter` key or clicking the send button.
 
 The event handler receives two parameters:
 
 1. The Chat instance firing the event.
 2. An object with the following methods:
-    1. get_sender() - the Kendo UI Chat widget instance which fired the event; 
-    2. get_text() - the text value that was entered in the message box;
+    1. `get_sender()` - the Kendo UI Chat widget instance which fired the event; 
+    2. `get_text()` - the text value that was entered in the message box;
 
 ````ASPNET
 <script type="text/javascript">

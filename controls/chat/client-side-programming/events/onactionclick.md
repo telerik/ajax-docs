@@ -17,8 +17,8 @@ The event handler receives two parameters:
 
 1. The Chat instance firing the event.
 2. An object with the following methods:
-    1. get_text() - the text value of the clicked action button;
-    2. get_sender() - the Kendo UI Chat widget instance which fired the event; 
+    1. `get_text()` - the text value of the clicked action button;
+    2. `get_sender()` - the Kendo UI Chat widget instance which fired the event; 
 
 ````ASPNET
 <script type="text/javascript">

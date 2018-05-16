@@ -10,7 +10,7 @@ position: 0
 
 # RadChat Overview
 
-**RadChat** for ASP.NET AJAX is a control powered by the Kendo UI Chat widget. The control allows for integration with any Bot framework, due to its simplicity, flexible API and customizable templates. RadChat is available as of **R2 2018**.
+**RadChat** for ASP.NET AJAX is a control is a server-side wrapper of the Kendo UI Chat widget. The control allows for integration with any Bot framework, due to its simplicity, flexible API and customizable templates. **RadChat** is available as of **R2 2018**.
 
 >caption **Figure 1**: A simple RadChat message flow.
 
@@ -20,21 +20,23 @@ This article provides a brief overview of the main features of the **RadChat** c
 
 * **[Flexible client-side API]({%slug chat/client-side-programming/overview%})** - The flexible API allows an easy integration with Chatbot services.
 
-* **[Default Cards]({%slug chat/functionality/cards%})** - Built-in support for heroCards which can be displayed in the chat flow.
+* **[Default Cards]({%slug chat/functionality/cards%})** - Built-in support for "HeroCard" template messages which can be displayed in the chat flow.
 
-* **[Default Actions]({%slug chat/functionality/actions%})** - Out-of-the-box support for suggested actions.
+* **[Default Actions]({%slug chat/functionality/actions%})** - Out-of-the-box support for Suggested Actions/Quick Replies.
 
-* **[Custom Templates]({%slug chat/functionality/templates%})** - Possibility to define custom templates to fit any custom payload, returned by the service.
+* **[Custom Templates]({%slug chat/functionality/templates%})** - Possibility to define custom templates for messages and suggested actions to fit any custom payload, returned by the service.
 
-* **[Custom Components]({%slug chat/functionality/components%})** - Integration of custom components, which allows the use of JavaScript to render any content.
+* **[Custom Components]({%slug chat/functionality/components%})** - Integration of custom components, which allows the use of JavaScript to render any content or JavaScript widgets.
 
-To get familiar with the UI elements of the RadChat you can check the [RadChat Structure]({%slug chat/structure%}) article.
+* **[Easy integration with Bot frameworks]({%slug chat/how-to/configure-chat-agent%})** - Connecting to Chatbot Services via a Chat Agent helper class.
+
+To get familiar with the UI elements of the RadChat you can also check the [RadChat Structure]({%slug chat/structure%}) article.
 
 # See Also
 
  * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
- * [Connecting to a Chatbot Service]({%slug chat/how-to/configure-chat-agent%})
+ * [Connecting to a Chatbot Service via a Chat Agent]({%slug chat/how-to/configure-chat-agent%})
  
  * [RadChat Structure]({%slug chat/structure%})  
 

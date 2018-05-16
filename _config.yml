@@ -548,6 +548,9 @@ navigation:
     "*chart/client-side":
         title: "Client-Side"
         position: 13
+    "*chat/client-side-programming/objects":
+        title: "Objects"
+        position: 26
     "*clientdatasource/client-side-programming/client-side-api":
         title: "Client-side API"
         position: 3

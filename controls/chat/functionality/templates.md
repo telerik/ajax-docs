@@ -11,11 +11,11 @@ position: 2
 # Custom Templates
 
 
-The **RadChat** control supports the definition of custom templates to fit any custom payload that is returned by the service.
+The **RadChat** control supports the definition of custom templates for the [rich cards]({%slug chat/functionality/cards%}) to fit any custom payload that is returned by the service.
 
 The following example demonstrates how to implement a simple [Kendo UI Template](https://docs.telerik.com/kendo-ui/framework/templates/overview) and to register it for the **RadChat**.
 
->caption **Figure 1**: A chat uses custom Kendo UI Templates.
+>caption **Figure 1**: A Chat with a rich card that uses Kendo UI Templates.
 
 ![chat with custom template](../images/chat-custom-template.png)
 

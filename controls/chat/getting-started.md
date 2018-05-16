@@ -12,7 +12,7 @@ position: 1
 
 The following tutorial demonstrates how you can add a simple **RadChat** control. The end result will be similar to **Figure 1**:
 
->caption **Figure 1**: A RadChat configuration with a few shapes and connections
+>caption **Figure 1**: A RadChat configuration with declared client-side event handlers
 
 ![chat-getting-started](images/chat-getting-started.png)
 
@@ -22,7 +22,7 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 	
 	>caption **Example 1**: Declaration of a **RadChat** control.
 
-````ASPX
+    ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1"  />
 <telerik:RadChat ID="RadChat1" runat="server">
 </telerik:RadChat>
@@ -33,11 +33,11 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 	>caption **Example 2**: The chat now has a custom placeholder message, username and avatar
 
-````ASPX
+    ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1"  />
 <telerik:RadChat runat="server" ID="RadChat1">
-    <MessagesSettings Placeholder="Type your message here..." />
-    <UserSettings Name="John" IconUrl="avatar.png" />
+        <MessagesSettings Placeholder="Type your message here..." />
+        <UserSettings Name="John" IconUrl="avatar.png" />
 </telerik:RadChat>
 ````
 
@@ -45,47 +45,47 @@ The following tutorial demonstrates how you can add a simple **RadChat** control
 
 	>caption **Example 3**: Assigning the client-side event handlers:
 	
-````ASPX
+    ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1"  />
 <telerik:RadChat runat="server" ID="RadChat1" Width="300px" Height="300px">
-    <ClientEvents
-        OnActionClick="OnActionClick"
-        OnInitialize="OnInitialize"
-        OnLoad="OnLoad"
-        OnPost="OnPost"
-        OnSendMessage="OnSendMessage"
-        OnTypingEnd="OnTypingEnd"
-        OnTypingStart="OnTypingStart" />
-    <MessagesSettings Placeholder="Type your message here..." />
-    <UserSettings Name="John" IconUrl="avatar.png" />
+        <ClientEvents
+            OnActionClick="OnActionClick"
+            OnInitialize="OnInitialize"
+            OnLoad="OnLoad"
+            OnPost="OnPost"
+            OnSendMessage="OnSendMessage"
+            OnTypingEnd="OnTypingEnd"
+            OnTypingStart="OnTypingStart" />
+        <MessagesSettings Placeholder="Type your message here..." />
+        <UserSettings Name="John" IconUrl="avatar.png" />
 </telerik:RadChat>
 ````
 
-````JavaScript
+    ````JavaScript
 function OnActionClick(sender, args) {    
-}
+    }
 
-function OnInitialize(sender, args) {    
-}
+    function OnInitialize(sender, args) {    
+    }
 
-function OnLoad(sender) {
-    sender.postMessage("Hello!");
-}
+    function OnLoad(sender) {
+        sender.postMessage("Hello!");
+    }
 
-function OnPost(sender) {    
-}
+    function OnPost(sender) {    
+    }
 
-function OnSendMessage(sender, args) {    
-}
+    function OnSendMessage(sender, args) {    
+    }
 
-function OnTypingEnd(sender, args) {    
-}
+    function OnTypingEnd(sender, args) {    
+    }
 
-function OnTypingStart(sender, args) {    
-}
+    function OnTypingStart(sender, args) {    
+    }
 ````
 
-
+Once you have a working Chat control, you can use the [client-side API]({%slug chat/client-side-programming/overview%}) of the chat to [connect it to a Chatbot service]({%slug chat/how-to/configure-chat-agent%}).
 
 # See Also
 
@@ -95,6 +95,6 @@ function OnTypingStart(sender, args) {
  
  * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
 
- * [Connecting to a Chatbot Service]({%slug chat/how-to/configure-chat-agent%}) 
+ * [Connecting to a Chatbot Service via Chat Agent]({%slug chat/how-to/configure-chat-agent%}) 
 
  

@@ -17,13 +17,16 @@ The event handler receives two parameters:
 
 1. The Chat instance firing the event.
 2. An object with the following methods:
-    1. get_from() - this contains the `id`, `name` and `iconUrl` set to the chat instance;
-    2. get_sender() - the Kendo UI Chat widget instance which fired the event; 
-    3. get_text() - the text value that was posted;
-    4. get_timestamp() - the current time of posting the message;
-    5. get_type() - the type of the message. Can be either `message` or `typing`.
+    - `get_from()` - this contains the `id`, `name` and `iconUrl` set to the chat instance;
+    - `get_sender()` - the Kendo UI Chat widget instance which fired the event; 
+    - `get_text()` - the text value that was posted;
+    - `get_timestamp()` - the current time of posting the message;
+    - `get_type()` - the type of the message. Can be either `message` or `typing`.
 
 ````ASPNET
+<telerik:RadChat runat="server" ID="RadChat1">
+    <ClientEvents OnPost="onPost" />
+</telerik:RadChat>
 <script type="text/javascript">
     function onPost(sender, args) {
         var chat = sender;
@@ -31,9 +34,6 @@ The event handler receives two parameters:
         var username = get_from().name;
     }
 </script>
-<telerik:RadChat runat="server" ID="RadChat1">
-    <ClientEvents OnPost="onPost" />
-</telerik:RadChat>
 ````
 
 # See Also
