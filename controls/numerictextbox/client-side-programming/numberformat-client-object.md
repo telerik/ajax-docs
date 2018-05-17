@@ -35,3 +35,6 @@ The NumberFormat client object determines how a **RadNumericTextBox** control fo
 # See Also
 
  * [Formatting Numeric Values]({%slug numerictextbox/features/formatting-numeric-values%})
+ 
+ * [Change NumericTextBox number format dynamically](https://www.telerik.com/support/kb/aspnet-ajax/numerictextbox/details/change-numerictextbox-number-format-dynamically)
+
