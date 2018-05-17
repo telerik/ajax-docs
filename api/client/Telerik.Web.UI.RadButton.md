@@ -507,6 +507,10 @@ Sets a bool value indicating whether the button control is primary.
 
 A bool value indicating whether the button control is primary.
 
+#### Returns
+
+`None`
+
 ### set_readOnly
 
 Sets a value, indicating whether the button control is in read-only mode.

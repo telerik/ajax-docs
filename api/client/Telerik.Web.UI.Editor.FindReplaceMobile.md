@@ -226,7 +226,7 @@ Fired when Find button is clicked
 
 #### Event Data
 
-##### sender `Telerik.Web.UI.Eidtor.FindReplaceMobile`
+##### sender `Telerik.Web.UI.Editor.FindReplaceMobile`
 
 Sender is the find/replace overlay
 
@@ -240,7 +240,7 @@ Fired when Replace All is clicked
 
 #### Event Data
 
-##### sender `Telerik.Web.UI.Eidtor.FindReplaceMobile`
+##### sender `Telerik.Web.UI.Editor.FindReplaceMobile`
 
 Sender is the find/replace overlay
 
@@ -254,7 +254,7 @@ Fired when Replace is clicked
 
 #### Event Data
 
-##### sender `Telerik.Web.UI.Eidtor.FindReplaceMobile`
+##### sender `Telerik.Web.UI.Editor.FindReplaceMobile`
 
 Sender is the find/replace overlay
 
@@ -268,7 +268,7 @@ Fired when Settings is clicked
 
 #### Event Data
 
-##### sender `Telerik.Web.UI.Eidtor.FindReplaceMobile`
+##### sender `Telerik.Web.UI.Editor.FindReplaceMobile`
 
 Sender is the find/replace overlay
 

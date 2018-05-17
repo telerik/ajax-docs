@@ -442,9 +442,8 @@ Saves the client settings of RadTreeList for sending to the server if the state 
 
 ### keyPress
 
-This event is fired (only when Keyboard Navigation is enabled) when any key is pressed inside the RadTreeList and 
+This event is fired (only when Keyboard Navigation is enabled) when any key is pressed inside the RadTreeList and the treelist control is about to process this key.
 
-      the treelist control is about to process this key.
 #### Event Data
 
 ##### sender `Telerik.Web.UI.RadTreeList`

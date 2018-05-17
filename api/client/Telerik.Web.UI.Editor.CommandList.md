@@ -1487,7 +1487,8 @@ The command arguments.
 
 #### Returns
 
-`None` 
+`None`
+
 ### static InsertTableLight 
 
 #### Parameters

@@ -71,7 +71,8 @@ A bool value indicating whether the button control is primary.
 
 #### Returns
 
-`None` 
+`None`
+
 ### set_target
 
 Sets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
