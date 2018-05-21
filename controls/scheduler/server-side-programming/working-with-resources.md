@@ -23,6 +23,9 @@ Each **Appointment** object also has a **Resources** property, which is acollect
 >note The resources are rendered as ComboBox controls when the Scheduler's RenderMode is set to Classic and as DropDownList controls when the RenderMode is set to Lightweight.
 >
 
+>note Avoid setting the name of the Resources to an already existing name or field. For example, setting "Reminder" as a name for the resource leads to non-working resources.
+>
+
 ## Example
 
 This example shows how to use the **Available** property to control the availability of a resource. This property is cleared on each data binding, so the list of available resources must be maintained separately from the scheduler.
