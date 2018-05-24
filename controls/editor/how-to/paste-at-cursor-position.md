@@ -19,6 +19,8 @@ To achieve this, you need to:
 1. **Store the current cursor position** or selection in a global variable. To do that, use the [OnClientSelectionChange event]({%slug editor/client-side-programming/events/onclientselectionchange%}) and the 
 [getDomRange() method]({%slug editor/client-side-programming/radeditor-object%}) RadEditor provides.
 
+	You can also store the selection in any other event that suits your needs. For example, you can [attach a handler]({%slug editor/client-side-programming/methods/attacheventhandler%}) for `keyup` and store the range there as well.
+
 1. **Obtain the needed HTML** according to your business logic and UX requirements. You can find some tips on requesting complex content from the server in the [Different ways to make a request to the server in ASP.NET](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server) blog post.
 
 1. **Restore the cursor position** by using the [select() DomRange method](/api/client/Telerik.Web.UI.Editor.DomRange).
