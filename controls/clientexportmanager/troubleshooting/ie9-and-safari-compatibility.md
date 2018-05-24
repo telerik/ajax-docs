@@ -16,7 +16,7 @@ This article explains the specifics in RadClientExportManager's configuration fo
 
 ## IE9 and Safari Compatibility
 
-The **RadClientExportManager** relies on the File API in order to work.IE9 and Safari browser does not support File API so in order to export the browser needs to make a request to the server and receive back the data. For this functionality is used the **RadClientExportManager ProxyURL**. The example below shows how to configure RadClientExportManager, to be able to use it with IE9 and Safari.
+The **RadClientExportManager** relies on the File API in order to work. IE9, Safari, and iOS do not support File API so in order to export the browser needs to make a request to the server and receive back the data. For this functionality is used the **RadClientExportManager ProxyURL**. The example below shows how to configure RadClientExportManager, to be able to use it with IE9 and Safari or any browser running under iOS.
 
 **Example1:** The example shows how to configure the **RadClientExportManager** in order to use ProxyURL, process and returns the data stream to the client.
 
