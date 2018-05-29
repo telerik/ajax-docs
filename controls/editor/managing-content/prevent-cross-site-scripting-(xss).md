@@ -261,3 +261,5 @@ End Class
  * [Demo: Custom Content Filters](http://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx)
 
 * [Prevention of XSS attacks through DOM attributes](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/prevention-of-xss-attacks-through-dom-attributes)
+
+* [How to Sanitize Markdown Import](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/how-to-sanitize-markdown-content)
