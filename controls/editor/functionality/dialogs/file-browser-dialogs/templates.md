@@ -24,6 +24,8 @@ Using the Template Manager dialog the users of a RadEditor can:
 
 * **delete files**
 
+>important RadEditor does not modify ot sanitize files or user actions. You may want to sanitize the user uploaded templates as shown in the [sanitize-html-templates.zip archive](sanitize-html-templates.zip). You can also check and prevent user actions as shown in the [Security]({%slug editor-security%}) article.
+
 Properties to set: 
 
 The behavior of the Template Manager dialog is controlled by the following properties:
@@ -90,3 +92,5 @@ Note that the viewTemplates, uploadTemplates and deleteTemplates variables are s
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
  * [Enforce Roles]({%slug editor/functionality/dialogs/examples/enforce-roles%})
+
+ * [Prevent Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%})

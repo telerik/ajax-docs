@@ -77,6 +77,8 @@ This filter is intended only to encode and decode scripts, so JavaScript code wi
 
 >note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
 
+>tip You may want to sanitize the content users upload through the [Template Manager dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%}).
+
 ## CSS Expressions
 
 [CSS expressions](http://msdn.microsoft.com/en-us/library/ie/ms537634%28v=vs.85%29.aspx) were first introduced in Internet Explorer 5.5 and later deprecated with the release of Internet Explorer 8.They were designed to provide more flexible CSS stylization by incorporating JavaScript logic directly in CSS properties. This feature, again, leads to the possibility of XSS attacks by injecting malicious script in the expressions.
@@ -263,3 +265,5 @@ End Class
 * [Prevention of XSS attacks through DOM attributes](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/prevention-of-xss-attacks-through-dom-attributes)
 
 * [How to Sanitize Markdown Import](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/how-to-sanitize-markdown-content)
+
+* [How to Sanitize Content Uploaded in the Template Manager Dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%})
