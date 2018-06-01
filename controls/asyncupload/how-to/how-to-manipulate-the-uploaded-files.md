@@ -41,11 +41,10 @@ In the article below you can find the API that RadAsyncUpload provides for manag
 >   * You can get a similar error if antivirus software or other code deletes the temporary file(s) before the `FileUploaded` event is fired. Thus, you may want to have a `try-catch` block around the `.SaveAs` call. RadAsyncUpload handles this internally only when saving to the `TargetFolder`.
 
 You can find several examples below:
-- [How to Manipulate the Uploaded Files](#how-to-manipulate-the-uploaded-files)
-    - [Saving uploaded files](#saving-uploaded-files)
-    - [Saving uploaded files in control's OnFileUploaded event](#saving-uploaded-files-in-controls-onfileuploaded-event)
-    - [Using the InputStream property](#using-the-inputstream-property)
-- [See Also](#see-also)
+
+* [Saving uploaded files](#saving-uploaded-files)
+* [Saving uploaded files in control's OnFileUploaded event](#saving-uploaded-files-in-controls-onfileuploaded-event)
+* [Using the InputStream property](#using-the-inputstream-property)
 
 ## Saving uploaded files
 
