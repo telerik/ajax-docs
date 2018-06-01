@@ -73,7 +73,7 @@ for(i=0; i<multiPage.get_pageViews().get_count();i++)
 
 ````JavaScript	
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
-var pageView = multiPage.findPageViewByID("Pageview2");
+var pageView = multiPage.findPageViewByID("<%= RadPageview2.ClientID %>");
 if(pageView)
    pageView.set_selected(true); 	
 ````
