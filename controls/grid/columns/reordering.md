@@ -34,7 +34,9 @@ There are two possible modes for column reordering: client and server-side. If y
 
 >important When enabling column reordering, the table view's **EnableColumnViewState** property must be set to **True** (the default value).
 
+### Limitations
 
+Column reordering is available at the same level of sinigle column headers. This means that [multi-column headers]({%slug grid/columns/multicolumn-headers%}) cannot be reordered and columns can only be reordered within their own column group.
 
 ## Reordering columns programmatically
 
