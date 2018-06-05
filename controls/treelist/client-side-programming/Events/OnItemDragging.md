@@ -31,8 +31,8 @@ This event is fired when a TreeListDataItem is being dragged.
 
 
 ````JavaScript
-function ItemDragStarted(sender, eventArgs) {
-    alert("Started dragging item with id: " + eventArgs.get_item().get_id());
+function ItemDragging(sender, eventArgs) {
+    console.log("The node is being dragged over the item: " + eventArgs.get_targetItem());
 }
 ````
 
