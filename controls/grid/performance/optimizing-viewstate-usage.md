@@ -147,7 +147,7 @@ Some operations in Telerik RadGrid like data extraction through the **ExtractVal
 
 * Filter expressions(but not the filter value in the input control)
 
-* Current page index and the page size
+* Current page index and the page size. Keep in mind that in a custom paging scenario page index and page size are available only in the PreRender event.
 
 **RadGrid** does NOT manage the state for the following features when its **EnableViewState** property is set to **false**:
 
