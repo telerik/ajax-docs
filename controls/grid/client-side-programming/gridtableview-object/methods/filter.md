@@ -10,10 +10,6 @@ position: 21
 
 # filter
 
-
-
-## 
-
 Method which triggers filter command for the column with *UniqueName* (set on the server) passed as a first argument. The second argument should be value to compare (or two values separated by [space] for between filter pattern) or an empty string for EqualTo, NoFilter, IsNull, etc. The last third argument has to be a value from the **Telerik.Web.UI.GridFilterFunction** enumeration which internally recognizes the filter criteria that should be applied. All server-side filtering capabilities of RadGrid are applicable here as well. See the topic describing the [fireCommand method]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand%}) for further details.
 
 
@@ -68,3 +64,5 @@ function ApplyBetweenFilter() {
 |15|IsNull|
 |16|NotIsNull|
 |17|Custom|
+
+>note When using client-side binding to RadClientDataSource, you need to add filter expressions directly to the data source through the `dataSourceReference.get_sortExpressions().add()` method. You can find similar example in the [ClientDataSource - Paging and Sorting](https://demos.telerik.com/aspnet-ajax/clientdatasource/functionality/paging-and-sorting/defaultcs.aspx) live demo.
