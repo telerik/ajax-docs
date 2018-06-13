@@ -10,10 +10,7 @@ position: 4
 
 # How to Change the Dialog Templates
 
-The look of the predefined dialogs that appear when you call **RadAlert, RadConfirm**, or **RadPrompt** is controlled by templates that correspond to each dialog. To get the current code for these templates, you need to put a RadWindowManager on your page, run it in your browser and examine the HTML dump.
-
->important Because of the changes that were made in controls' skins in Q1 2009 version of the Telerik® UI for ASP.NET AJAX suite, the templates are using different classes. Below you can see the templates for RadWindowManagerpre-Q1 2009 and RadWindowManager Qx 2009. They are declared in RadWindowManager's Templates collection for convenience.
->The [Lightweight RenderMode]({%slug window/mobile-support/render-modes%}) that was added in Q2 2013 comes with a different set of templates as well. You can find them below.
+The look of the predefined dialogs that appear when you call **RadAlert, RadConfirm**, or **RadPrompt** is controlled by templates that correspond to each dialog. To get the current code for these templates, you need to put a RadWindowManager on your page, run it in your browser and examine the HTML dump. Below you can find examples of the default templates throughout different control versions and Render Modes.
 
 The parameters provided to the template are the following:
 
@@ -22,6 +19,8 @@ The parameters provided to the template are the following:
 * {2} - Default text (for the prompt template)
 
 You can change the look of the alert, confirm, and prompt dialogs in your application by changing these templates.There are two ways to change the template that the **RadWindowManager** in your application uses:	in the markup or by creating them in the code-behind. Information for both of them is available in the article below.
+
+>important You can only use plain HTML in the templates, server controls are not supported and may even result in errors.
 
 This topic contains the following sections.
 
