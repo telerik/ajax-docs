@@ -42,7 +42,7 @@ position: 0
 | **Width** |Determines the horizontal size of the LightBox|
 | **Height** |Determines the vertical size of the LightBox|
 | **ZIndex** |Determines the Z-Index of the LightBox|
-| **PreserveCurrentItemTemplates** |Determines whether the template should be disposed after closing the LightBox or after navigating to another item.|
+| **PreserveCurrentItemTemplates** |Determines whether the template should be disposed after closing the LightBox or after navigating to another item. See the [Templates]({%slug lightbox/functionality/templates%}) article for more details.|
 | **ClientSettings-AllowKeyboardNavigation** |Allows to use a keyboard to navigate within RadLightBox|
 | **ClientSettings-AutoResize** |Allows you to automatically resize the image in RadLightBox control based on the dimension of the viewport.|
 | **ClientSettings-ContentResizeMode** |This property has to options: *Fill* and *Fit* . When the first one is setthat means the displayed image will fill the whole viewport, while the second one will proportionally resize the image in order to fit the container.|
