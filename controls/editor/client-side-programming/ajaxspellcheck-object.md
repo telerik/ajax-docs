@@ -10,6 +10,51 @@ position: 5
 
 # AjaxSpellCheck Object
 
+This article shows how to get a reference to the spellcheck object of RadEditor and lists its API.
+
+The spellchecker object in RadEditor is based on RadSpell, but is an asyncronously created instance that integrates with the RadEditor UI and as such provides more limited functionality. It is only created when the spell check is invoked and otherwise it will be `undefined`. To manipulate its API you need to use a timeout before getting the reference, because otherwis the object will not be created yet.
+
+>caption How to get a reference to the AjaxSpellCheck object of RadEditor
+
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1">
+    <Content>
+        miztake in showing how to invoke a spell check before saving
+    </Content>
+</telerik:RadEditor>
+<asp:Button Text="save" OnClientClick="spellCheckAndSave(this); return false;" 
+    ID="btnSave" OnClick="btnSave_Click" runat="server" />
+<script>
+    function spellCheckAndSave(btn) {
+        btn.setAttribute("disabled", "disabled");
+        //get a reference to the editor object
+        var editor = $find("<%=RadEditor1.ClientID%>");
+        //execute the spellcheck command
+        editor.fire("AjaxSpellCheck");
+        //use a timeout before getting the reference and using the control API
+        setTimeout(function () {
+            var spell = editor.get_ajaxSpellCheck();
+            spell.add_spellCheckEnd(checkFinished);
+        }, 10);
+    }
+
+    function checkFinished(sender, args) {
+        __doPostBack("<%=btnSave.UniqueID%>", "");
+    }
+</script>
+````
+````C#
+protected void btnSave_Click(object sender, EventArgs e)
+{
+    Response.Write(string.Format("page posted on {0}, editor content is:<br />{1}", DateTime.Now, RadEditor1.Content));
+}
+````
+````VB
+Protected Sub btnSave_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnSave.Click
+    Response.Write(String.Format("page posted on {0}, editor content is:<br />{1}", DateTime.Now, RadEditor1.Content))
+End Sub
+````
+
 The AjaxSpellCheck object exposes the following public methods and properties to control its behavior:
 
 >caption AjaxSpellCheck Client-Side Methods
