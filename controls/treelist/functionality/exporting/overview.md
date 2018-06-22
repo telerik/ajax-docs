@@ -20,7 +20,7 @@ Export to Excel functionality is added since Q1 2012. The corresponding method i
 
 In addition to the export format's specific properties, the **ExportSettings** group exposes several common properties:
 
-**ExportOnlyData** - this is an enumeration with four possible values described below:
+**ExportMode** - this is an enumeration with four possible values described below:
 
 * *DefaultContent* - the whole data and content of the RadTreeList are sent for export,without removing or replacing anything;
 
