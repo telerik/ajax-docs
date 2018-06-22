@@ -12,7 +12,7 @@ position: 5
 
 This article shows how to get a reference to the spellcheck object of RadEditor and lists its API.
 
-The spellchecker object in RadEditor is based on RadSpell, but is an asyncronously created instance that integrates with the RadEditor UI and as such provides more limited functionality. It is only created when the spell check is invoked and otherwise it will be `undefined`. To manipulate its API you need to use a timeout before getting the reference, because otherwis the object will not be created yet.
+The spellchecker object in RadEditor is based on RadSpell, but is an asyncronously created instance that integrates with the RadEditor UI and as such provides more limited functionality. It is only created when the spell check is invoked and otherwise it will be `undefined`. To manipulate its API you need to use a timeout before getting the reference, because otherwise the object will not be created yet.
 
 >caption How to get a reference to the AjaxSpellCheck object of RadEditor
 
