@@ -10,7 +10,7 @@ position: 0
 
 # Connecting to Chat Bot Services via Chat Agent
 
-To connect the [RadChat]({%slug chat/overview%}) control to any service and render the responses from the service, utilize the [post event](chat/client-side-programming/events/onpost) of the control and its [public client-side API](chat/client-side-programming/overview).
+To connect the [RadChat]({%slug chat/overview%}) control to any service and render the responses from the service, utilize the [post event]({%slug chat/client-side-programming/events/onpost%}) of the control and its [public client-side API]({%slug chat/client-side-programming/overview%}).
 
 To encapsulate the communication with the specific service, use an **agent** helper class. The **agent** class handles the communication with the external Chat Bot service. The establishment of the connection to the service and the binding of the appropriate events are done within the **init** method of the agent. In this way, the agent is able to receive the responses.
 

@@ -12,7 +12,7 @@ position: 1
 
 **RadRadioButtonList** API exposes client-side methods to attach and detach functions to its event. They can be used as an alternative to the server-side properties for handling events. 
 
-To handle the desired event, you can use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e., **add_itemClicked** for the itemClicked event), where the parameter *handlerFunction* should be of type **function**. To remove the handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
+To handle the desired event, you can use the respective **`add_<eventName>(handlerFunction)`** to attach the desired handler (i.e., **add_itemClicked** for the itemClicked event), where the parameter *handlerFunction* should be of type **function**. To remove the handler that has been added previously, the respective **`remove_<eventName>(handlerFunction)`** should be used.
 
 The next three examples show how to add and remove handlers on the client:
 

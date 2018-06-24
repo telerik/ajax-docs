@@ -28,5 +28,5 @@ You must also ensure that the encrypted URL will not be trimmed which will break
 
 # See Also
 
- * [Telerik Control Properties You Can Set in the web.config](./general-information/web-config-settings-overview#control-properties-you-can-set-from-the-webconfig) 
+ * [Telerik Control Properties You Can Set in the web.config]({%slug general-information/web-config-settings-overview%}#control-properties-you-can-set-from-the-webconfig) 
 #end

@@ -49,7 +49,7 @@ All you need to do is:
 
 >important
 > 
->You can also run the Telerik Upgrade API Analyzer from the [Upgrade Project Wizard]({%slug projectwizardupgrade_visualstudio_aspnetmvc%}), by clicking the *Compatibility* button (see **Figure 2**). In this case, the tool opens with *Technology*, *Your Version* and *Version to Upgrade* parameters pointed out in the wizard. When Upgrade API Analyzer is started directly through the *Compatibility* button without installing the tool first, the installation starts automatically. In case .NET Framework 4.5.2 is not present on your machine, the application prompts you to install it manually at the end of the installation.
+>You can also run the Telerik Upgrade API Analyzer from the [Upgrade Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}), by clicking the *Compatibility* button (see **Figure 2**). In this case, the tool opens with *Technology*, *Your Version* and *Version to Upgrade* parameters pointed out in the wizard. When Upgrade API Analyzer is started directly through the *Compatibility* button without installing the tool first, the installation starts automatically. In case .NET Framework 4.5.2 is not present on your machine, the application prompts you to install it manually at the end of the installation.
 
 #### __Figure 2: Compatibility button in Upgrade Project Wizard__
 

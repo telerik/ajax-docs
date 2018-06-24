@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the loaded RadRadioButtonList control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.ButtonListSelectedIndexChangedEventArgs%}), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs%}), containing the following properties and methods:
 	* get_oldSelectedIndex() - returns the index of the previously selected item. 
 	* get_newSelectedIndex() - returns the index of the currently selected item.
 

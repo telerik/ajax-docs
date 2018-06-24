@@ -10,11 +10,6 @@ slug: Telerik.Web.BrowserFeatures
 
 An object that provides flags for [browser detection]({%slug mobile-support/helper-tools/browser-detection-api%}).
 
-## Inheritance Hierarchy
-
-* *[Telerik.Web.BrowserFeatures]({%slug Telerik.Web.BrowserFeatures%})*
-
-
 ## Properties
 
 ### static canvas `Boolean`

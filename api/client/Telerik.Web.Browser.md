@@ -10,11 +10,6 @@ slug: Telerik.Web.Browser
 
 An object that provides flags for [browser detection]({%slug mobile-support/helper-tools/browser-detection-api%}).
 
-## Inheritance Hierarchy
-
-* *[Telerik.Web.Browser]({%slug Telerik.Web.Browser%})*
-
-
 ## Properties
 
 ### static chrome `Boolean`

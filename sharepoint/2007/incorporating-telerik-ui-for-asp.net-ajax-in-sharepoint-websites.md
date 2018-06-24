@@ -72,6 +72,6 @@ Alternatively, you can use [RadScriptManager]({%slug scriptmanager/overview%}) (
 
 
 
->note If you intend to integrate RadAjaxManager inside your SharePoint webpart, review the information from [this help article]({%slug ajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts%}).
+>note If you intend to integrate RadAjaxManager inside your SharePoint webpart, review the information from [this help article]({%slug sharepoint/troubleshooting/sharepoint-ajax-updates%}).
 >
 

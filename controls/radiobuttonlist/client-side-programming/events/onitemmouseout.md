@@ -17,7 +17,7 @@ The event handler receives two parameters:
 1. The instance of the clicked RadRadioButtonList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListEventArgs]({%slug Telerik.Web.UI.ButtonListEventArgs%}), containing the following properties and methods:
-	* get_item() - returns an instance of type [Telerik.Web.UI.RadioButtonListItem]({%slug Telerik.Web.UI.RadioButtonListItem%}) 
+	* get_item() - returns an instance of type [Telerik.Web.UI.ButtonListItem]({%slug Telerik.Web.UI.ButtonListItem%}) 
 
 
 ## See Also
