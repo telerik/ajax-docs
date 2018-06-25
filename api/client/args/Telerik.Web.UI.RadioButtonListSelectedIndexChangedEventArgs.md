@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
-page_title:
-description:
+page_title: Client-side API Reference
+description: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 slug: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 ---
 
@@ -9,7 +9,7 @@ slug: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 
 ## Methods
 
-###  get_oldSelectedIndex
+### get_oldSelectedIndex
 
 Returns the previous index of the selected item in the list.
 
@@ -19,7 +19,7 @@ Returns the previous index of the selected item in the list.
 
 `Number` 
 
-###  get_newSelectedIndex
+### get_newSelectedIndex
 
 Returns the current index of the selected item in the list.
 
@@ -27,4 +27,4 @@ Returns the current index of the selected item in the list.
 
 #### Returns
 
-`Number` 
+`Number`
