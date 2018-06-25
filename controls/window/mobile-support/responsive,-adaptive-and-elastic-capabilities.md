@@ -19,6 +19,7 @@ This article contains the following sections:
 * [Fluid or Adaptive Design with RadWindow](#fluid-or-adaptive-design-with-radwindow)
 
 
+
 ## Elastic Design with RadWindow
 
 >caption Figure 1: Comparison between appearance of a RadWindow with regular font size and with increased font size
@@ -82,10 +83,12 @@ So, to have a fluid/adaptive RadWindow, you need to take the following steps:
 
 >tip The [extended example](extensive-fluid-example.zip) archive provides extensive comments so you can customize the RadWindow behavior, and shows a few additional tricks:
 >
-> * using a CSS class to enlarge the titlebar only
+> * using a CSS class to enlarge the titlebar button only
 > * attaching the OnClientShow handler to all RadWindow instances without code changes to their definitions
 > * handling the [predefined dialogs]({%slug window/alert,-confirm,-prompt-dialogs/overview%}) differently
 > * implementing a screen size check through the [Telerik DeviceDetectionFramework]({%slug controls/raddevicedetectionframework%}).
+
+>tip You can use a mobile-friendly Skin that has large touch areas such as `MetroTouch`, `Material`, `Bootstrap`. You can also use the [fluid design capabilities of the control](#elastic-design-with-radwindow) to increase its font-size and thus, the touch areas size.
 
 >tip If you want the RadWindow to take up a different percentage of the screen, see the [Setting size in percent for the RadWindow](https://www.telerik.com/support/kb/aspnet-ajax/window/details/setting-size-in-percent-for-the-radwindow) article.
 
