@@ -31,7 +31,7 @@ To add a Map control into the page you can simply drag it from the Visual Studio
 
 ## Add a Tile Layer
 
-The layer of type **Tile** is basically rendered using images requested from a corresponding web service. This article uses the	[OpenCycleMap](http://www.opencyclemap.org/) service to populate the map images.
+The layer of type **Tile** is basically rendered using images requested from a corresponding web service. This article uses the	[OpenCycleMap](https://www.opencyclemap.org/) service to populate the map images.
 
 To configure the **RadMap** with the chosen service provider, follow these steps:
 
@@ -81,7 +81,7 @@ In **Example 3** you can examine a sample code achieved by following these steps
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
-			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+			UrlTemplate="https://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>

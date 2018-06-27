@@ -46,7 +46,7 @@ Adding shapes in the **Bubble** layer can be done only by binding it to a client
 
 The **Bubble** layer can be easily integrated with the **RadClientDataSource** control and bound to a **.json** file that contains the JSON literal—the data source. To do this, set the **ClientDataSourceID** property of the **MapLayer** item to the RadClientDataSource control’s **ID**.
 
-In **Example 1**, the *urban-areas.json* file is the one that contains the data and defines the shapes on the **Bubble** layer. You can download the file from the [Bubble Layer](http://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx) demo and examine the structure of the JSON literal. **Figure 1** is a result of the markup from **Example 1**.
+In **Example 1**, the *urban-areas.json* file is the one that contains the data and defines the shapes on the **Bubble** layer. You can download the file from the [Bubble Layer](https://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx) demo and examine the structure of the JSON literal. **Figure 1** is a result of the markup from **Example 1**.
 
 >caption **Example 1**: Data binding a Bubble layer to a RadClientDataSource.
 
@@ -63,8 +63,8 @@ In **Example 1**, the *urban-areas.json* file is the one that contains the data 
 	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
-			UrlTemplate="http://otile3.mqcdn.com/tiles/1.0.0/sat/#= zoom #/#= x #/#= y #.png"
-			Attribution="Tiles &copy; <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a>">
+			UrlTemplate="https://otile3.mqcdn.com/tiles/1.0.0/sat/#= zoom #/#= x #/#= y #.png"
+			Attribution="Tiles &copy; <a href='https://www.mapquest.com/' target='_blank'>MapQuest</a>">
 		</telerik:MapLayer>
 		<telerik:MapLayer Type="Bubble" ClientDataSourceID="RadClientDataSource1" LocationField="Location" ValueField="Pop2010"
 			Attribution="Population data from Nordpil and UN Population Division.">
@@ -127,7 +127,7 @@ The data source items should contain two important fields: location and value (*
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
 			UrlTemplate="http://#= subdomain #.tile2.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png"
-			Attribution="� <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+			Attribution="� <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
 		</telerik:MapLayer>
 		<telerik:MapLayer Type="Bubble" LocationField="Location" ValueField="Value">
 			<StyleSettings>
@@ -143,15 +143,15 @@ The data source items should contain two important fields: location and value (*
 
 By default, the bubbles on the **Bubble** layer are colorized according to the set [Skin]({%slug map/appearance-and-styling/skins%}).Optionally, you can change their appearance according to your design requirements.
 
-To do so, you can use the **FillSettings** and **StrokeSettings** tags exposed in the **StyleSettings** of the used **MapLayer**. More details about the available attributes and how to configure them are available in the [Kendo Map online documentation](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.shape.style).
+To do so, you can use the **FillSettings** and **StrokeSettings** tags exposed in the **StyleSettings** of the used **MapLayer**. More details about the available attributes and how to configure them are available in the [Kendo Map online documentation](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.shape.style).
 
 Simple markup demonstration of a custom shape stylization with the described settings is provided in **Example 3** and you can see the result in **Figure 2**.
 
 ## Using Client-side Events and Bubble Shapes
 
-You can dynamically alter the look and behavior of the **Bubble** layer or implement some user-interaction capabilities by using the [client-side events of the RadMap control]({%slug map/client-side-programming%}) and changing the [style attributes of the shape](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.bubble.style) according to your logic (**Example 4**).
+You can dynamically alter the look and behavior of the **Bubble** layer or implement some user-interaction capabilities by using the [client-side events of the RadMap control]({%slug map/client-side-programming%}) and changing the [style attributes of the shape](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.bubble.style) according to your logic (**Example 4**).
 
->tip To manipulate the bubbles you should use the **Shape** related events, i.e.,[OnShapeCreated](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated), [OnShapeClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick), [OnShapeMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter) and [OnShapeMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
+>tip To manipulate the bubbles you should use the **Shape** related events, i.e.,[OnShapeCreated](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated), [OnShapeClick](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick), [OnShapeMouseEnter](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter) and [OnShapeMouseLeave](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
 
 In **Example 3**, you can see how the **OnShapeCreated** event is used to alter the fill-color of the bubbles based on the value of the shape objects. **Figure 3** shows the rendered map as a result of the custom implementation.
 
@@ -197,8 +197,8 @@ In **Example 3**, you can see how the **OnShapeCreated** event is used to alter 
 	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
-			UrlTemplate="http://otile3.mqcdn.com/tiles/1.0.0/sat/#= zoom #/#= x #/#= y #.png"
-			Attribution="Tiles &copy; <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a>">
+			UrlTemplate="https://otile3.mqcdn.com/tiles/1.0.0/sat/#= zoom #/#= x #/#= y #.png"
+			Attribution="Tiles &copy; <a href='https://www.mapquest.com/' target='_blank'>MapQuest</a>">
 		</telerik:MapLayer>
 		<telerik:MapLayer Type="Bubble" ClientDataSourceID="RadClientDataSource1" LocationField="Location" ValueField="Pop2010"
 			Attribution="Population data from Nordpil and UN Population Division.">
@@ -217,6 +217,6 @@ In **Example 3**, you can see how the **OnShapeCreated** event is used to alter 
 
  * [Client-side]({%slug map/data-binding/client-side%})
 
- * [Kendo Map API Reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map)
+ * [Kendo Map API Reference](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map)
 
- * [Live Demo: Bubble Layer](http://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx)
+ * [Live Demo: Bubble Layer](https://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx)

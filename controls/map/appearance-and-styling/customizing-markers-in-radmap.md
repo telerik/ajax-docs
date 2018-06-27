@@ -244,6 +244,6 @@ After changing the height of the span element rendered by the **Marker**, in ord
 
  * [Markers]({%slug map/functionality/markers%})
 
- * [Demo: Client-side Data Binding](http://demos.telerik.com/aspnet-ajax/map/examples/data-binding/client-side-data-binding/defaultcs.aspx)
+ * [Demo: Client-side Data Binding](https://demos.telerik.com/aspnet-ajax/map/examples/data-binding/client-side-data-binding/defaultcs.aspx)
 
- * [Visualize the FIFA World Cup Finalists and Winners in a RadMap Control](http://blogs.telerik.com/aspnet-ajax/posts/14-08-28/visualize-the-fifa-world-cup-finalists-and-winners-in-a-radmap-control)
+ * [Visualize the FIFA World Cup Finalists and Winners in a RadMap Control](https://blogs.telerik.com/aspnet-ajax/posts/14-08-28/visualize-the-fifa-world-cup-finalists-and-winners-in-a-radmap-control)

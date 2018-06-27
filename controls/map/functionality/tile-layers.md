@@ -43,7 +43,9 @@ Here is an example that combines these parameters to request maps from opencycle
 
 And here is an example with openstreetmap.org:
 
-`http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png`
+`https://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png`
+
+>note If your site is running under HTTPS, ensure that the same protocol is used for the map tile service and that it is supported by the provider.
 
 You can find more details about Web Map Services the following public pages:
 
@@ -104,7 +106,7 @@ In **Example 3** you can see how these attributes can be used in the Map control
 			Subdomains="a,b,c"
 			UrlTemplate="http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png" 
 			Opacity="0.2" 
-			Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+			Attribution="&copy; <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>
@@ -112,7 +114,7 @@ In **Example 3** you can see how these attributes can be used in the Map control
 
 ## Using Bing Service with RadMap
 
-The Telerik Map provides a simplified setup for	[Bing Map Tile](http://msdn.microsoft.com/en-us/library/ff428643.aspx) service.	This option will let you render a Bing-like map only by adding a **MapLayer** with	**Type Bing** and the **Key** attribute set with the provided	[key in your Microsoft account](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
+The Telerik Map provides a simplified setup for	[Bing Map Tile](https://msdn.microsoft.com/en-us/library/ff428643.aspx) service.	This option will let you render a Bing-like map only by adding a **MapLayer** with	**Type Bing** and the **Key** attribute set with the provided	[key in your Microsoft account](https://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
 
 In **Example 4** you can examine a sample setup of a **RadMap** with a Bing layer configured.
 
@@ -136,6 +138,6 @@ In **Example 4** you can examine a sample setup of a **RadMap** with a Bing laye
 
  * [Tile Map Service Basics](https://en.wikipedia.org/wiki/Tile_Map_Service)
 
- * [Bing Map Tile Service](http://msdn.microsoft.com/en-us/library/ff428643.aspx)
+ * [Bing Map Tile Service](https://msdn.microsoft.com/en-us/library/ff428643.aspx)
 
  * [Open Source Geospatial Foundation](https://en.wikipedia.org/wiki/Open_Source_Geospatial_Foundation)

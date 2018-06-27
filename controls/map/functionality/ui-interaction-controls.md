@@ -29,8 +29,8 @@ In **Figure 1** you can examine the distinct controls in a simple **RadMap** set
 	<CenterSettings Latitude="1" Longitude="1" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
-			UrlTemplate="http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
-			Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+			UrlTemplate="https://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
+			Attribution="&copy; <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>
@@ -49,8 +49,8 @@ In the **RadMap** you can easily enable or disable the UI controls using the **C
 	<ControlsSettings Attribution="false" Navigator="false" Zoom="false"></ControlsSettings>
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
-			UrlTemplate="http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
-			Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+			UrlTemplate="https://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
+			Attribution="&copy; <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>
@@ -76,8 +76,8 @@ In **Example 3** you can see how the **AttributionSettings**, **NavigatorSetting
 	</ControlsSettings>
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
-			UrlTemplate="http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
-			Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+			UrlTemplate="https://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
+			Attribution="&copy; <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>

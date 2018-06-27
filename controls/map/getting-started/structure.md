@@ -20,11 +20,11 @@ Elements:
 
 * **Layer** – the layer is basically the main element of the map. There are four different types:
 
-	* [Layer]({%slug map/functionality/tile-layers%}) - rendering the map usingMap Tile Service (e.g.	[OpenStreetMap](http://www.openstreetmap.org));
+	* [Layer]({%slug map/functionality/tile-layers%}) - rendering the map usingMap Tile Service (e.g.	[OpenStreetMap](https://www.openstreetmap.org));
 
 	* [Bing]({%slug map/functionality/tile-layers%}) - rendering the map using the	[Bing](https://www.bingmapsportal.com/) service (same as the Tile type, but with simplified setup for Bing’s service);
 
-	* [Shape]({%slug map/functionality/shapes%}) - layer on which additional shapes can be drawn based on collection of	[GeoJSON](http://geojson.org/) objects;
+	* [Shape]({%slug map/functionality/shapes%}) - layer on which additional shapes can be drawn based on collection of	[GeoJSON](https://geojson.org/) objects;
 
 	* [Marker]({%slug map/functionality/markers%}) - defined by location data and indicates a point of interest based on some criteria.
 
@@ -40,8 +40,8 @@ Elements:
 
  * [Overview]({%slug map/overview%})
 
- * [OpenStreetMap service](http://www.openstreetmap.org)
+ * [OpenStreetMap service](https://www.openstreetmap.org)
 
  * [Bing service](https://www.bingmapsportal.com/)
 
- * [GeoJSON](http://geojson.org/)
+ * [GeoJSON](https://geojson.org/)

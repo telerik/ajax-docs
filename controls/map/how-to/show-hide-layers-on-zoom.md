@@ -38,7 +38,7 @@ In the figures below you can see the result of the code from **Example 1**.
     <LayersCollection>
         <telerik:MapLayer Type="Tile" Subdomains="a,b,c"
             UrlTemplate="http://#= subdomain #.tile2.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png"
-            Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+            Attribution="&copy; <a href='https://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
         </telerik:MapLayer>
         <telerik:MapLayer Type="Marker" MaxZoom="1">
         </telerik:MapLayer>

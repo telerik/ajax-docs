@@ -10,7 +10,7 @@ position: 0
 
 # Map Overview
 
-**RadMap** for ASP.NET AJAX is a control powered by the	[Kendo UI DataViz Map](http://demos.telerik.com/kendo-ui/map/index) widget.	This control simplifies the setup of Map Tile Services with	[OpenStreetMap](http://www.openstreetmap.org/#map=8/42.745/25.494) and	[Bing](https://www.bingmapsportal.com/).	You can use different Shape layers and GeoJSON data to create helpful map modules in ASP.NET web applications.	The rich built-in functionality of the Map allows you to add and control predefined layouts, markers, tooltips, zoom levels,	UI elements and many more.
+**RadMap** for ASP.NET AJAX is a control powered by the	[Kendo UI DataViz Map](https://demos.telerik.com/kendo-ui/map/index) widget.	This control simplifies the setup of Map Tile Services with	[OpenStreetMap](https://www.openstreetmap.org/#map=8/42.745/25.494) and	[Bing](https://www.bingmapsportal.com/).	You can use different Shape layers and GeoJSON data to create helpful map modules in ASP.NET web applications.	The rich built-in functionality of the Map allows you to add and control predefined layouts, markers, tooltips, zoom levels,	UI elements and many more.
 
 The **RadMap** control in the Telerik® UI for ASP.NET AJAX suite is available since **2014 Q2** version.
 
@@ -26,7 +26,7 @@ The control offers a rich set of features:
 
 * Support for [Bubble layer]({%slug map/functionality/bubble-layer%}).
 
-* Custom shape definition through [GeoJSON](http://geojson.org/) objects.
+* Custom shape definition through [GeoJSON](https://geojson.org/) objects.
 
 * Client-side data binding.
 
@@ -44,7 +44,7 @@ Here is an example of what you can achieve with the control:
 
 # See Also
 
- * [RadMap Online Examples](http://demos.telerik.com/aspnet-ajax/map)
+ * [RadMap Online Examples](https://demos.telerik.com/aspnet-ajax/map)
 
  * [Overview]({%slug map/getting-started/overview%})
 

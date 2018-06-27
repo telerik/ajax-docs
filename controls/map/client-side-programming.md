@@ -12,7 +12,7 @@ position: 51
 
 This article explains how to reference and use the **RadMap** client-side object (**Examples 1-3**) and	its events (**Example 4**).
 
-**RadMap** for ASP.NET AJAX is based on the [Kendo Map Widget](http://demos.telerik.com/kendo-ui/map/index). Thus, it exposes the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/map) and mainly provides a wrapper and API for working with the map	on the server (programmatic creation, data binding, declaring in the markup).
+**RadMap** for ASP.NET AJAX is based on the [Kendo Map Widget](https://demos.telerik.com/kendo-ui/map/index). Thus, it exposes the [client-side API and methods offered by the widget](https://docs.telerik.com/kendo-ui/api/dataviz/map) and mainly provides a wrapper and API for working with the map	on the server (programmatic creation, data binding, declaring in the markup).
 
 ## Get Client-side Object Reference
 
@@ -39,7 +39,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 ## Client-side Methods
 
-**RadMap** for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Map client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/map#methods). You can also find an example of the basics in the [RadMap Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
+**RadMap** for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Map client-side methods](https://docs.telerik.com/kendo-ui/api/dataviz/map#methods). You can also find an example of the basics in the [RadMap Client-side API online demo](https://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
 
 >caption **Example 3**: Center the map on a pair of coordinates:
 
@@ -65,7 +65,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 ## Client-side Events
 
-**RadMap** exposes the [Kendo Map client-side events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events) in its markup (and, respectively, code-behind), via the `<ClientEvents>` inner tag (class). The event name is constructed by concatenating **On** with the **Kendo Map event name** in PascalCase.
+**RadMap** exposes the [Kendo Map client-side events](https://docs.telerik.com/kendo-ui/api/dataviz/map#events) in its markup (and, respectively, code-behind), via the `<ClientEvents>` inner tag (class). The event name is constructed by concatenating **On** with the **Kendo Map event name** in PascalCase.
 
 The server property only takes the handler function name as a string. The handler receives the Kendo Map event arguments. You can find examples of attaching and using the events in **Example 4**.
 
@@ -116,7 +116,7 @@ Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
 End Sub
 ````
 
-You can find an example of several of the map's events being handled in the	[Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
+You can find an example of several of the map's events being handled in the	[Client-side API online demo](https://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
 
 ## Get Options Object Passed to the kendoMap() Constructor
 
@@ -161,12 +161,12 @@ You can use the **OnInitialize** event **RadMap** exposes to get the JSON litera
 
 # See Also
 
- * [Kendo Map Widget First Look](http://demos.telerik.com/kendo-ui/map/index)
+ * [Kendo Map Widget First Look](https://demos.telerik.com/kendo-ui/map/index)
 
- * [Kendo Map Client-side API Reference](http://docs.telerik.com/kendo-ui/api/dataviz/map)
+ * [Kendo Map Client-side API Reference](https://docs.telerik.com/kendo-ui/api/dataviz/map)
 
- * [Kendo Map Client-side Events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events)
+ * [Kendo Map Client-side Events](https://docs.telerik.com/kendo-ui/api/dataviz/map#events)
 
- * [Kendo Map Client-side Methods](http://docs.telerik.com/kendo-ui/api/dataviz/map#methods)
+ * [Kendo Map Client-side Methods](https://docs.telerik.com/kendo-ui/api/dataviz/map#methods)
 
- * [RadMap Client-side API Online Demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx)
+ * [RadMap Client-side API Online Demo](https://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx)

@@ -97,7 +97,7 @@ The Markers in **RadMap** are two types - **Pin** and **PinTarget** (see **Figur
 
 The **TooltipSettings** tag allows you to fine tune the tooltips content, appearance and options. You can add HTML, use templates or load an entire page in the tooltip. You can then configure animations,show and hide delays, etc. You can find a full list of the available settings in the [API reference]({%slug map/server-side-programming%}).
 
-In **Example 4** you can see how the marker tooltip is configured to show a [Kendo-type HTML template](http://docs.telerik.com/kendo-ui/api/dataviz/map#configuration-layerDefaults-marker-tooltip-template) and how the open and close behaviors can be changed.
+In **Example 4** you can see how the marker tooltip is configured to show a [Kendo-type HTML template](https://docs.telerik.com/kendo-ui/api/dataviz/map#configuration-layerDefaults-marker-tooltip-template) and how the open and close behaviors can be changed.
 
 >caption **Example 4**: Creating a complex tooltip.
 
@@ -125,4 +125,4 @@ In **Example 4** you can see how the marker tooltip is configured to show a [Ken
 
  * [Client-side]({%slug map/data-binding/client-side%})
 
- * [Kendo Map documentation](http://docs.telerik.com/kendo-ui/api/dataviz/map)
+ * [Kendo Map documentation](https://docs.telerik.com/kendo-ui/api/dataviz/map)

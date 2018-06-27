@@ -42,7 +42,7 @@ For binding **GeoJSON** data to a **Shape** layer, the **ClientDataSourceID** pr
 </telerik:RadMap>
 ````
 
-*An online demo for binding to local JSON file with RadClientDataSource, where the countries.json files from the above example could be downloaded, is available at the following link: [RadMap – Shapes Layer](http://demos.telerik.com/aspnet-ajax/Map/Examples/Functionality/shapes-layer/defaultcs.aspx).*
+*An online demo for binding to local JSON file with RadClientDataSource, where the countries.json files from the above example could be downloaded, is available at the following link: [RadMap – Shapes Layer](https://demos.telerik.com/aspnet-ajax/Map/Examples/Functionality/shapes-layer/defaultcs.aspx).*
 
 ## Customizing Shapes
 
@@ -79,7 +79,7 @@ Following is an example for handling the client-side **OnShapeCreated** event an
 
 ## GeoJSON specifics in the context of RadMap
 
-**RadMap** supports all **Geometry** and **Feature Objects**, as well as the **Geometry** and **Feature Collections** from the GeoJSON Specification (which could be found at	[http://geojson.org](http://geojson.org/geojson-spec.html#introduction)).
+**RadMap** supports all **Geometry** and **Feature Objects**, as well as the **Geometry** and **Feature Collections** from the GeoJSON Specification (which could be found at	[https://geojson.org](https://geojson.org/geojson-spec.html#introduction)).
 
 One thing to have in mind, when working with **Point** objects, is that by default, each **Point** object in the Shape	layer is automatically converted to a Marker. For preventing this behavior, the client-side **OnMarkerCreated**	event should be canceled, which will generate a **Circle** object instead of a marker.
 
@@ -124,4 +124,4 @@ The Circle objects then could be customized within the client-side **OnShapeCrea
 
  * [Client-side]({%slug map/data-binding/client-side%})
 
- * [Kendo Map documentation](http://docs.telerik.com/kendo-ui/api/dataviz/map)
+ * [Kendo Map documentation](https://docs.telerik.com/kendo-ui/api/dataviz/map)
