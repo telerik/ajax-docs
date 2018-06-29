@@ -39,12 +39,12 @@ The **ItemsRequested** event handler receives two arguments:
 Use the **ItemsRequested** event handler to dynamically create the requested items and add them to the **Items** collection of the combobox:
 
 ````ASPNET
-<telerik:radcombobox 
-	id="RadComboBox1" 
-	runat="server" 
-	enableloadondemand="True"
-	onitemsrequested="RadComboBox1_ItemsRequested">
-</telerik:radcombobox>
+<telerik:RadComboBox
+    ID="RadComboBox1"
+    runat="server"
+    EnableLoadOnDemand="True"
+    OnItemsRequested="RadComboBox1_ItemsRequested">
+</telerik:RadComboBox>
 ````
 
 
@@ -53,23 +53,23 @@ Use the **ItemsRequested** event handler to dynamically create the requested ite
 
 ````C#
 	
-protected void RadComboBox1_ItemsRequested(object o, Telerik.Web.UI.RadComboBoxItemsRequestedEventArgs e)
-{  
-	RadComboBox1.Items.Add(new RadComboBoxItem("Item1", "1"));  
-	RadComboBox1.Items.Add(new RadComboBoxItem("Item2", "2"));  
-	RadComboBox1.Items.Add(new RadComboBoxItem("Item3", "3"));
+protected void RadComboBox1_ItemsRequested(object sender, Telerik.Web.UI.RadComboBoxItemsRequestedEventArgs e)
+{
+    RadComboBox combo = sender as RadComboBox;
+    combo.Items.Add(new RadComboBoxItem("Item1", "1"));
+    combo.Items.Add(new RadComboBoxItem("Item2", "2"));
+    combo.Items.Add(new RadComboBoxItem("Item3", "3"));
 }
 	
 ````
 ````VB.NET
 		
-Protected Sub RadComboBox1_ItemsRequested(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxItemsRequestedEventArgs)
-
-	RadComboBox1.Items.Add(New RadComboBoxItem("Item1", "1"))
-	RadComboBox1.Items.Add(New RadComboBoxItem("Item2", "2"))
-	RadComboBox1.Items.Add(New RadComboBoxItem("Item3", "3"))
-
-End Sub 'RadComboBox1_ItemsRequested
+Protected Sub RadComboBox1_ItemsRequested(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadComboBoxItemsRequestedEventArgs)
+    Dim combo As RadComboBox = TryCast(sender, RadComboBox)
+    combo.Items.Add(New RadComboBoxItem("Item1", "1"))
+    combo.Items.Add(New RadComboBoxItem("Item2", "2"))
+    combo.Items.Add(New RadComboBoxItem("Item3", "3"))
+End Sub
 	
 ````
 
