@@ -46,7 +46,7 @@ This article contains the following sections:
 
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
 
->note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same valueof the RenderMode property set. This includes instances from master pages, content pages and user controls.
+>note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls.
 
 
 ## RenderMode Fallback Order
