@@ -26,7 +26,7 @@ RadAsyncUpload, RadUpload, RadAutoCompleteBox, RadBarcode, RadBinaryImage, RadBu
 | **RadDock** |Controls inside its ContentTemplate are decorated|
 | **RadFilter** |Checkbox from BoolField and Input from TextField are decorated. Input from NumericField and DateField cannot be decorated|
 | **RadGrid** | Controls inside ItemTemplate of the GridTemplateColumn are decorated; Buttons inside GridButtonColumn: PushButton is decorated; Inputs in the filter are decorated.|
-| **RadInput** |Can be decorated. Refer to "Styling RadInput" section below|
+| **RadInput** |Can be decorated. Refer to [Styling RadInput](#styling-radinput) section below|
 | **RadListView** |Controls inside ItemTemplate are decorated|
 | **RadMenu** |Controls inside ItemTemplate are decorated|
 | **RadNotification** |Controls inside ContentTemplate are decorated|
@@ -46,7 +46,77 @@ RadAsyncUpload, RadUpload, RadAutoCompleteBox, RadBarcode, RadBinaryImage, RadBu
 
 ## Styling RadInput
 
-|  **Control**  |  **Effect**  |
-| ------ | ------ |
-| **RadNumericTextBox, RadMaskedTextBox, RadTextBox, RadDateInput** |Controls are fully decorated when their Skin property is set to empty string (i.e.: **Skin=""** ): 1) Label (if set through the Label property) is decorated - color and font are changed. 2) Input is decorated (rounded corners are added). When the control has its built in skin enabled (i.e. the Skin property is set to a valid string, not an empty one) only the label is decorated and no rounded corners are added.|
-| **RadInputManager** (TextBoxSetting, NumericTextBoxSetting, DateInputSetting, RegExpTextBoxSetting)|The proper decoration of the controls requires the Skin property of RadInputManager to be set to empty string(e.g. **Skin=""** ):Inputs are decorated|
+The various Telerik input controls fetch their own styling through the skinning mechanism all controls from the UI for ASP.NET AJAX suite use. Thus, by default, RadFormDecorator does not style them.
+
+There is a way, however, to use the Form Decorator stying for the [RadInput](#radinput) and [RadInputManager](#radinputmanager) controls. Below you can find the effects and examples of how to apply them.
+
+### RadInput
+
+This section applies to the **RadNumericTextBox**, **RadMaskedTextBox**, **RadTextBox** and **RadDateInput** controls. They can be fully decorated, or partially decorated, depending on the effect you seek and how you configure them.
+
+#### Partial Decoration
+
+If you have a `Skin` set for the Telerik inputs, RadFormDecorator will not modify the inputs appearance. Rounded corners and coloring will not be added to the inputs and only the labels may inherit the [generic styling]({%slug formdecorator/integration-with-standard-controls%}) for a `<label>` that the form decorator provides.
+
+#### Full Decoration
+
+These controls can be fully decorated when their `Skin` property is set to empty string (i.e.: `Skin=""` ). This includes: 
+* the label (if set through the `Label` property) - color and font are changed
+* the actual input- rounded corners and coloring are added
+
+It is important to note that when the skin of a control is disabled, left on its own, its appearance will not be correct. For example, date pickers will lose the icon that opens the popup, or their dimensions may change.
+
+To decorate RadInput controls fully, you need to:
+
+1. ensure the `RenderMode` of the inpuit and the RadFormDecorator is the same
+
+1. set the Skin property of the input to an empty string (`Skin=""`)
+
+1. set the `CssClass` property of the input to the RadFormDecorator classes depending on the `RenderMode`:
+    * for the `Lightweight` RenderMode use `CssClass="rfdTextInput"`
+        
+        **ASP.NET**
+
+            <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
+                RenderMode="Lightweight" Skin="Black" />
+            <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
+                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
+            </telerik:RadTextBox>
+            <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
+                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
+            </telerik:RadNumericTextBox>
+            <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
+                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput"></telerik:RadMaskedTextBox>
+            <telerik:RadDatePicker runat="server" ID="RadDatePicker1"
+                Skin="" RenderMode="Lightweight">
+                <DateInput CssClass="rfdTextInput" Label="Label for date input"></DateInput>
+            </telerik:RadDatePicker>
+
+    * for the `Classic` RenderMode use `CssClass="rfdRoundedCorners rfdDecorated"`
+
+        **ASP.NET**
+
+            <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
+                RenderMode="Classic" Skin="Black" />
+            <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
+                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
+            </telerik:RadTextBox>
+            <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
+                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
+            </telerik:RadNumericTextBox>
+            <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
+                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated"></telerik:RadMaskedTextBox>
+            <telerik:RadDatePicker runat="server" ID="RadDatePicker1" Skin="" RenderMode="Classic">
+                <DateInput CssClass="rfdRoundedCorners rfdDecorated" Label="Label for date input"></DateInput>
+            </telerik:RadDatePicker>
+
+    >note For the Date/Time pickers, you must set the class to the `DateInput` and not on the main control.
+
+>tip The form decorator has different default widhts for the inputs in the different render modes. For example, if you are using the Lightweight RenderMode, decorated input widths default to `192px` and so if the RadInput width is smaller than that you may have appearance issues.
+
+### RadInputManager
+
+To decorate the inputs that are targetted by RadInputManager's settings (TextBoxSetting, NumericTextBoxSetting, DateInputSetting, RegExpTextBoxSetting), you must set `Skin` property of the input manager to an empty string (`Skin=""`).
+
+Then, the form decorator can add rounded corners and coloring to the inputs as if they were [standard input elements]({%slug formdecorator/integration-with-standard-controls%}).
+
