@@ -223,7 +223,6 @@ When using a template to implement a custom edit form, you can bind the items us
 
 ````C#
 <EditFormSettings editformtype="Template">
-  <EditColumn uniquename="EditCommandColumn1"/>
   <FormTemplate>You can use traditional data binding<br/>Which require you to handle the updates yourself<br/>
     <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "DataItem.Country" ) %>'/>
     <br/>When using automatic updates, you can use the Bind method<br/> 
