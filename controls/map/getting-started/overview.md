@@ -81,7 +81,7 @@ In **Example 3** you can examine a sample code achieved by following these steps
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
-			UrlTemplate="https://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
 		</telerik:MapLayer>
 	</LayersCollection>
 </telerik:RadMap>
