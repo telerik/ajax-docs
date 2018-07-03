@@ -17,7 +17,7 @@ position: 0
 
 **Telerik Spreadsheet (Figure 1)** provides the user the ability to:
 
-* Work with MS Excel files (.xlsx)
+* Work with MS Excel files (.xlsx, .csv), and with .txt, .json files
 
 * Create, delete and reorder Worksheets
 
