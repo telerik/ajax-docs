@@ -5,7 +5,7 @@ description: What's New and Backwards Compatibility
 slug: introduction/what's-new-and-backwards-compatibility
 tags: what's,new,and,backwards,compatibility
 published: True
-position: 1
+position: 1500
 ---
 
 # What's New and Backwards Compatibility
