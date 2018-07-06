@@ -54,7 +54,7 @@ The final step is to actually use a control on a page and run it in the browser:
 
 1. **Register the Telerik namespace** with the project:
 
-    * To register the namespace on all pages and user controls, add the following to your `web.config`:
+    * To **register** the namespace **on all pages** and user controls, add the following to your `web.config`:
 
         **web.config**
 
@@ -66,7 +66,7 @@ The final step is to actually use a control on a page and run it in the browser:
                 </pages> 
 
 
-    * If you want the controls available on the current page only, add the following Register directive just below the `<%@ Page %>` directive:
+    * If you want the controls available **on the current page only**, add the following Register directive just below the `<%@ Page %>` directive:
 
         **ASPX**
 
@@ -112,13 +112,13 @@ If you do not immediately see a feature you need, take a look at the control pro
 
 Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called `Server-side Programming` and `Client-side Programming`. This is the first place to look at when you need to implement additional logic around the control's functionality as it provides API reference and event handling information.
 
+When you need to get work done in the browser, you will need a reference to the client-side object of the control. This is a bit peculiar in MS AJAX, and the [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}) help article explains how to do that.
+
 ### Change Control Appearance
 
 The UI for ASP.NET AJAX controls use [Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) to change their appearance. We provide over 20 built-in skins that can fit in the majority of web application designs.
 
-The easiest way to [set a skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}#using-a-skin) is to use the **Design-time Skin dropdown in the Smart Tag** of the control.
-
->tip You can show the Smart Tag in Source Mode by pressing `Ctrl+.`.
+The easiest way to [set a skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}#using-a-skin) is to use the **Design-time Skin dropdown in the Smart Tag** of the control. You can show the Smart Tag in Source Mode by pressing `Ctrl+.`.
 
 In case you need to tweak the control appearance, there are two distinct approaches:
 
@@ -130,6 +130,56 @@ In either case, you may find helpful the [Improve Your Debugging Skills with Chr
 
 If you experience issues with the control appearance, start by examining the [Different appearance or behavior in Internet Explorer on local and production servers](https://www.telerik.com/support/kb/aspnet-ajax/details/different-appearance-in-internet-explorer-on-local-and-production-servers) KB article.
 
-## See Also
+### More Learning Resources
 
-TBD
+Below you can find more detailed information on everything discussed above. This includes alternative solutions, next steps and more advanced functionality.
+
+Installation
+* [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
+* [Included Assemblies]({%slug introduction/installation/included-assemblies%})
+* [Adding the Telerik Controls to Your Project]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/adding-the-telerik-controls-to-your-project%})
+* [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
+* [Telerik Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%})
+
+Appearance
+* [Controlling Visual Appearance Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%})
+* [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
+* [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})
+* [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%})
+* [Creating a Custom Skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
+* [RadSkinManager]({%slug controls/radskinmanager%})
+
+Troubleshooting
+* [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%})
+* [General Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%})
+* [Web Resources Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%})
+* [Design-time Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting%})
+* [ToolBox Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/toolbox-troubleshooting%})
+* [Skins Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting%})
+* [jQuery Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting%})
+* [Content Security Policy]({%slug general-information/content-security-policy%})
+* [Bad Appearance](https://www.telerik.com/support/kb/aspnet-ajax/details/different-appearance-in-internet-explorer-on-local-and-production-servers)
+
+General functionality
+* [CDN for Telerik Scripts]({%slug scriptmanager/cdn-support/overview%})
+* [CDN for Telerik Skins]({%slug stylesheetmanager/cdn-support/overview%})
+* [Render Modes]({%slug controls/render-modes%})
+* [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%})
+* [How to bind the Grid properly on the Server-Side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)
+
+Responsive design
+* [Mobile Support and Responsiveness]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-support-and-responsiveness%})
+* [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
+* [Browser Detection Client-side API]({%slug mobile-support/helper-tools/browser-detection-api%})
+* [Browser Detection Server-side API]({%slug controls/raddevicedetectionframework%})
+
+Deployment
+* [Deploying a Telerik-enabled WebApplication]({%slug introduction/deployment/deploying-a-telerik-enabled-webapplication%})
+* [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
+* [Protecting the Telerik ASP.NET AJAX Assemblies]({%slug introduction/deployment/protecting-the-telerik-asp.net-ajax-assembly%})
+
+Tech sheets
+* [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+* [Accessibility Support](https://www.telerik.com/aspnet-ajax/tech-sheets/accessibility-support)
+* [Localization and RTL Support](https://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)
+
