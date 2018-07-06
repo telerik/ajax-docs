@@ -98,7 +98,7 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 
 To get a quick overview of what each control offers, the fastest approach is to go to our [Live Demos](http://demos.telerik.com/aspnet-ajax).
 
-You can **download the demo site** from your telerik.com account as a VS project and play around with the demos in the comfort of your IDE. The ` Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Dev.msi` and `Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.zip` files contain the demo site. If your license is a trial one, you will see `Trial.msi` and `Trial.zip` respectively.
+You can **download the demo site** from your telerik.com account as a VS project and play around with the demos in the comfort of your IDE. The ` Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Dev.msi` and `Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.zip` files contain the demo site. If your license is a trial one, you will see `...Trial.msi` and `...Trial.zip` respectively.
 
 You can **explore** the available properties, events and inner tags of any control through the VS **intellisense** to get a quick glimpse of their concepts and availability. In addition to that, the **documentation** provides a section for each control that contains help articles **on distinct features and API reference**.
 
