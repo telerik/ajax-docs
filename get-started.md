@@ -82,7 +82,7 @@ The final step is to actually use a control on a page and run it in the browser:
             </telerik:RadScriptManager>
             <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight"></telerik:RadEditor>
 
-    * You can also **drag** a control **from** the **Toolbox**. If you do not see the controls in the toolbox, examine the Adding the [Telerik Controls to the Visual Studio Toolbox](%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%) article.
+    * You can also **drag** a control **from** the **Toolbox**. If you do not see the controls in the toolbox, examine the Adding the [Telerik Controls to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}) article.
 
 1. **Run the page** in the browser by pressing `F5`.
 
@@ -108,13 +108,27 @@ Last, but not least, some most common tasks and configuration options are availa
 
 We try to create built-in features for the most common use cases, and the rich API the controls provide lets you customize their behavior further.
 
-Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called `Server-side Programming` and `Client-side Programming`.
+If you do not immediately see a feature you need, take a look at the control properties and it is likely that something will stand out as relevant. Searching online for your question is likely to provide you with demos, documentation or forum threads that treat similar questions and can jump-start your development.
+
+Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called `Server-side Programming` and `Client-side Programming`. This is the first place to look at when you need to implement additional logic around the control's functionality as it provides API reference and event handling information.
 
 ### Change Control Appearance
 
-The UI for ASP.NET AJAX controls use Skins to change their appearance. We provide over 20 built-in skins that can fit in the majority of web application designs.
+The UI for ASP.NET AJAX controls use [Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) to change their appearance. We provide over 20 built-in skins that can fit in the majority of web application designs.
 
-In case you need to tweak them, you can either create a few CSS overrides that will implement the small change you seek, or create an entire custom skin that matches your requirements.
+The easiest way to [set a skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}#using-a-skin) is to use the **Design-time Skin dropdown in the Smart Tag** of the control.
+
+>tip You can show the Smart Tag in Source Mode by pressing `Ctrl+.`.
+
+In case you need to tweak the control appearance, there are two distinct approaches:
+
+* You can [create a few CSS overrides]({%slug https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/modifying-built-in-skins%}) that will implement the small change you seek.
+
+* Or, you can [create a custom skin]({%slug theme-builder/create-and-download%}) that matches your requirements.
+
+In either case, you may find helpful the [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools) blog post.
+
+If you experience issues with the control appearance, start by examining the [Different appearance or behavior in Internet Explorer on local and production servers](https://www.telerik.com/support/kb/aspnet-ajax/details/different-appearance-in-internet-explorer-on-local-and-production-servers) KB article.
 
 ## See Also
 
