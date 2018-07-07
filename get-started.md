@@ -108,11 +108,14 @@ Last, but not least, some most common tasks and configuration options are availa
 
 We try to create built-in features for the most common use cases, and the rich API the controls provide lets you customize their behavior further.
 
-If you do not immediately see a feature you need, take a look at the control properties and it is likely that something will stand out as relevant. Searching online for your question is likely to provide you with demos, documentation or forum threads that treat similar questions and can jump-start your development.
+If you do not immediately see a feature you need, **take a look at the control properties and events** and it is likely that something will stand out as relevant. **Searching online** for your question is likely to provide you with **demos**, **documentation** or **forum** threads that treat similar questions and can **jump-start your development**.
 
-Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called `Server-side Programming` and `Client-side Programming`. This is the first place to look at when you need to implement additional logic around the control's functionality as it provides API reference and event handling information.
+Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called **`Server-side Programming`** and **`Client-side Programming`** in the table of contents on the left hand side.
+This is the first place to look at when you need to **implement additional logic** around the control's functionality as it provides **API reference and event handling information**.
 
-When you need to get work done in the browser, you will need a reference to the client-side object of the control. This is a bit peculiar in MS AJAX, and the [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}) help article explains how to do that.
+**Complex controls** often use other Telerik controls internally, and so **customizing** their behavior usually **boils down to accessing the child controls and using their properties and events** as if they were not nested. Thus, looking for child control references is a shortcut to customizing complex controls.  They can be exposed as properties, and often times using `.FindControl()` will let you access them.
+
+When you need to get work done **in the browser**, you will need a **reference to the client-side object** of the control. This is a bit peculiar in MS AJAX, and the [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}) help article explains how to do that.
 
 ### Change Control Appearance
 
@@ -133,6 +136,8 @@ If you experience issues with the control appearance, start by examining the [Di
 ### More Learning Resources
 
 Below you can find more detailed information on everything discussed above. This includes alternative solutions, next steps and more advanced functionality.
+You don't need all of this immediately, but you can use this list as a starting point for future reference.
+
 
 Installation
 * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
