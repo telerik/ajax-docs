@@ -34,8 +34,6 @@ The files are passed to a Handler with a single request or on chunks. Telerik Ba
 
 ## Cloud Storage Providers
 
-* [ Telerik Backend Services ]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})
-
 * [ AmazonS3 ]({%slug cloudupload/cloud-storage-providers/amazon-s3%})
 
 * [ Azure ]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})
