@@ -19,7 +19,7 @@ To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please v
 
 ## Getting Started
 
-If you are a new user, we recommend that you **follow the [Get Started]({%slug introduction/get-started%})** article.
+If you are a new user, we recommend that you **follow the [First Steps]({%slug getting-started/first-steps%})** article.
 
 ## List of Controls
 
