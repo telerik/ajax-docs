@@ -14,7 +14,7 @@ position: 0
 
 ## General Information
 
-**RadCloudUpload** provides the ability to upload files directly to Cloud Storage Providers - AmazonS3 and Azure.The upload workflow is as follows : the file, which is about to be uploaded is initially processed to a handler and the handler uploads the file to the specified storage provider **(files are not stored on the server's hard drive)**.
+**RadCloudUpload** provides the ability to upload files directly to Cloud Storage Providers - AmazonS3 and Azure. The upload workflow is as follows: the file, which is about to be uploaded is initially processed to a handler and the handler uploads the file to the specified storage provider **(files are not stored on the server's hard drive)**.
 
 The main built-in features of **RadCloudUpload** include:
 
@@ -26,7 +26,7 @@ The main built-in features of **RadCloudUpload** include:
 
 * Custom Events
 
-The files are passed to a Handler with a single request or on chunks. Telerik Backend Services does not support a multipart upload and the files are sent with a single request to the used Handler. The predefined chunk sizes for the Amazon and Azure storage providers are respectively- 5MB and 2MB. If the browser supports FileAPI, the control will create a module based on its functionality, otherwise it will use the iFrame module (e.g. IE9, IE8, IE7, IE6 will use iFrame module).
+The files are passed to a Handler with a single request or on chunks. The predefined chunk sizes for the Amazon and Azure storage providers are respectively- 5MB and 2MB. If the browser supports FileAPI, the control will create a module based on its functionality, otherwise it will use the iFrame module (e.g. IE9, IE8, IE7, IE6 will use iFrame module).
 
 ## Erasure Process
 
