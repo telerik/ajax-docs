@@ -1,14 +1,14 @@
 ---
-title: Get Started
-page_title: Get Started with UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Get Started with UI for ASP.NET AJAX
-slug: introduction/get-started
-tags: get,started
+title: Customize Control Behavior
+page_title: Customize Control Behavior | UI for ASP.NET AJAX Documentation
+description: Customize Control Behavior
+slug: getting-started/customize-control-behavior
+tags: Customize Control Behavior
 published: True
 position: 1
 ---
 
-# Get Started with UI for ASP.NET AJAX
+# Customize Control Behavior
 
 This article explains how to get the Telerik UI for ASP.NET AJAX controls in your project and start using them quickly. The process consists of the following steps:
 
