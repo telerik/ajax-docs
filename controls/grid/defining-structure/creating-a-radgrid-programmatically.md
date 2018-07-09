@@ -179,11 +179,11 @@ End Sub
 
 ## Creating the Grid Entirely in the Code Behind
 
-When generating a **RadGrid** instance entirely in code, you should use the **Page_Init** or **Page_Load**event handlers.
+When generating a **RadGrid** instance entirely in code, you should use the **Page_Init** or **Page_Load** event handlers.
 
 ### Creating a RadGrid on Page_Load
 
-When creating a **RadGrid** on a **Page_Load** event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set.
+When creating a **RadGrid** on a **Page_Load** event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set. Properties are set only at initial load, while event handlers are attached on every postback.
 
 
 
@@ -195,8 +195,13 @@ protected void Page_Load(object sender, System.EventArgs e)
 {
     RadGrid RadGrid1 = new RadGrid();
     RadGrid1.ID = "RadGrid1";
+    
+    // Attach event handlers on every postback
+    RadGrid1.ItemDataBound += RadGrid1_ItemDataBound;
+    
+    // Add RadGrid to the Controls collection of the placeholder
     PlaceHolder1.Controls.Add(RadGrid1);
-    //Add RadGrid to the Controls collection of the placeholder
+    
     if (!IsPostBack)
     {
         RadGrid1.DataSourceID = "SqlDataSource1";
@@ -215,12 +220,24 @@ protected void Page_Load(object sender, System.EventArgs e)
         boundColumn.HeaderText = "Contact Name";
     }
 }
+
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    RadGrid grid = sender as RadGrid;
+    // Some logic here
+}
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
     Dim RadGrid1 As New RadGrid()
     RadGrid1.ID = "RadGrid1"
-    PlaceHolder1.Controls.Add(RadGrid1) 'Add RadGrid to the Controls collection of the placeholder
+    
+    'Attach event handlers on every postback
+    AddHandler RadGrid1.ItemDataBound, AddressOf RadGrid1_ItemDataBound
+    
+    'Add RadGrid to the Controls collection of the placeholder
+    PlaceHolder1.Controls.Add(RadGrid1)
+    
     If Not IsPostBack Then
         RadGrid1.DataSourceID = "SqlDataSource1"
         RadGrid1.MasterTableView.DataKeyNames = New String() {"CustomerID"}
@@ -237,6 +254,11 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
         boundColumn.DataField = "ContactName"
         boundColumn.HeaderText = "Contact Name"
     End If
+End Sub
+
+Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs)
+    Dim grid As RadGrid = TryCast(sender, RadGrid)
+    'Some logic here
 End Sub
 ````
 
