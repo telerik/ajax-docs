@@ -5,7 +5,7 @@ description: Explore Control Features in UI for ASP.NET AJAX
 slug: getting-started/explore-control-features
 tags: Explore Control Features
 published: True
-position: 1
+position: 2
 ---
 
 # Explore Control Features in UI for ASP.NET AJAX

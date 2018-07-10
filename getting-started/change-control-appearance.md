@@ -5,7 +5,7 @@ description: Change Control Appearance
 slug: getting-started/change-control-appearance
 tags: Change Control Appearance
 published: True
-position: 1
+position: 4
 ---
 
 # Change Control Appearance

@@ -5,7 +5,7 @@ description: Customize Control Behavior
 slug: getting-started/customize-control-behavior
 tags: Customize Control Behavior
 published: True
-position: 2
+position: 3
 ---
 
 # Customize Control Behavior
