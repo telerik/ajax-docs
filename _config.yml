@@ -60,11 +60,11 @@ navigation:
     "controls":
         title: "Controls"
         position: 12
-    "visual-stylebuilder":
-        title: "Visual StyleBuilder"
-        position: 16
     "theme-builder":
         title: "Theme Builder"
+        position: 16
+    "visual-stylebuilder":
+        title: "Visual StyleBuilder"
         position: 17
     "mvc":
         title: "Integration with ASPNET MVC"
