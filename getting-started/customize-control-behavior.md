@@ -10,13 +10,13 @@ position: 3
 
 # Customize Control Behavior
 
-Once you have the controls [working in your project]({%slug getting-started/first-steps%}), and you [are acquainted with their feaures]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides a short overview of how to customize the behavior of the UI for ASP.NET AJAX controls.
+Once you have the controls [working in your project]({%slug getting-started/first-steps%}), and you [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides a short overview of how to customize the behavior of the UI for ASP.NET AJAX controls.
 
 ## Look for Properties and Events, and Ready Solutions
 
 We try to create built-in features for the most common use cases, and the rich API the controls provide lets you customize their behavior further. The first step to customizing the control behavior is to look for similar built-in features and their corresponding events and API.
 
-If you do not immediately see a feature you need, **take a look at the control properties and events** and it is likely that something will stand out as relevant. **Searching online** for your question is likely to provide you with **[demos](https://demos.telerik.com/aspnet-ajax/)**, **[documentation](%slug introduction%)** or **[forum](https://www.telerik.com/forums/aspnet-ajax)** threads that treat similar questions and can **jump-start your development**. You can also find a lot of examples in the **[Code Library section](https://www.telerik.com/support/code-library/aspnet-ajax)** and in the **[Knowledge Base articles](https://www.telerik.com/support/kb/aspnet-ajax)**.
+If you do not immediately see a feature you need, **take a look at the control properties and events** and it is likely that something will stand out as relevant. **Searching online** for your question is likely to provide you with **[demos](https://demos.telerik.com/aspnet-ajax/)**, **[documentation]({%slug introduction/introduction%})** or **[forum](https://www.telerik.com/forums/aspnet-ajax)** threads that treat similar questions and can **jump-start your development**. You can also find a lot of examples in the **[Code Library section](https://www.telerik.com/support/code-library/aspnet-ajax)** and in the **[Knowledge Base articles](https://www.telerik.com/support/kb/aspnet-ajax)**.
 
 ## Using the Documentation
 
@@ -65,9 +65,10 @@ The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since 
 Below you can find guidance on getting started with other common tasks:
 
 * [Change control appearance]({%slug getting-started/change-control-appearance%})
-* [Getting Further information]({%slug getting-started/next-steps%})
+* [Further information]({%slug getting-started/next-steps%})
 
 ## See Also
 
 * [First Steps]({%slug getting-started/first-steps%})
-* [Customize control behavior]({%slug getting-started/customize-control-behavior%})
+* [Explore control features]({%slug getting-started/next-steps%})
+* [Customize control behavior]({%slug getting-started/explore-control-features%})
