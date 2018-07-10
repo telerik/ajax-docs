@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the loaded RadCheckBoxList control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.ButtonListSelectedIndexChangedEventArgs%}), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.CheckBoxListSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.CheckBoxListSelectedIndexChangedEventArgs%}), containing the following properties and methods:
 	* get_newSelectedIndex() - returns the index of the currently selected item.
 
 >caption Example 1: Handling RadCheckBoxList OnSelectedIndexChanged event.
