@@ -22,7 +22,7 @@ The easiest way to [set a skin]({%slug introduction/radcontrols-for-asp.net-ajax
 
 In case you need to tweak the control appearance to something that is not provided out-of-the-box by a built-in skin, there are two distinct approaches:
 
-* You can [create a few CSS overrides]({%slug https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/modifying-built-in-skins%}) that will implement the small change you seek.
+* You can [create a few CSS overrides]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%}) that will implement the small change you seek.
 
 * Or, you can [create a custom skin]({%slug theme-builder/create-and-download%}) that matches your requirements.
 
@@ -42,3 +42,6 @@ Appearance
 
 Next Steps
 * [More Learning Resources]({%slug getting-started/next-steps%})
+* [Customize control behavior]({%slug getting-started/customize-control-behavior%})
+* [Change control appearance]({%slug getting-started/change-control-appearance%})
+* [Start from the First Steps]({%slug getting-started/first-steps%})

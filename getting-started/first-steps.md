@@ -118,12 +118,11 @@ The final step is to actually use a control on a page and run it in the browser:
 Now that you have the Telerik UI for ASP.NET AJAX controls running in your project, you may want to explore their features, customize their behavior or change their appearance. Below you can find guidance on getting started with such tasks:
 
 * [Explore control features]({%slug getting-started/explore-control-features%})
-* [Customize control behavior]({%slug %})
-* [Change control appearance]({%slug %})
-* [Further information]({%slug %})
+* [Customize control behavior]({%slug getting-started/customize-control-behavior%})
+* [Change control appearance]({%slug getting-started/change-control-appearance%})
+* [Further information]({%slug getting-started/next-steps%})
 
 ## See Also
 
 * [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements)
-
 * [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)

@@ -62,7 +62,7 @@ Responsive design
 * [Mobile Support and Responsiveness]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-support-and-responsiveness%})
 * [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
 * [Browser Detection Client-side API]({%slug mobile-support/helper-tools/browser-detection-api%})
-* [Browser Detection Server-side API]({%slug controls/raddevicedetectionframework%})
+* [Screen Size Detection Server-side API]({%slug controls/raddevicedetectionframework%})
 
 Deployment
 * [Deploying a Telerik-enabled WebApplication]({%slug introduction/deployment/deploying-a-telerik-enabled-webapplication%})
