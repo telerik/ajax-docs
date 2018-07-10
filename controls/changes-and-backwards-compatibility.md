@@ -3,6 +3,7 @@ title: Changes and Backwards Compatibility
 page_title: Changes and Backwards Compatibility | UI for ASP.NET AJAX Documentation
 description: Changes and Backwards Compatibility
 slug: controls/changes-and-backwards-compatibility
+previous_url: what's-new-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
 published: True
 position: 18
@@ -10,11 +11,13 @@ position: 18
 
 # Changes and Backwards Compatibility
 
+For information about new functionality, improvements and fixes, [visit the What's New page](https://www.telerik.com/support/whats-new/aspnet-ajax).
 
+Since Q2 2010 all major changes in Telerik® UI for ASP.NET AJAX are listed in the [Release Notes page](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history).
 
->note Since Q2 2010 all major changes in Telerik® UI for ASP.NET AJAX are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
->
+When looking to upgrade, follow the [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) article.
 
+Below you can find the release notes for versions prior to Q2 2010.
 
 ## Telerik® UI for ASP.NET AJAX Q1 2010
 
