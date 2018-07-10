@@ -13,6 +13,9 @@ cdnVersion: "2015.1.408"
 navigation:
 
 ## List common directory names and order here, like this:
+    "getting-started":
+        title: "Getting Started"
+        position: 1
     "licensing":
         title: "Licensing"
         position: 2
