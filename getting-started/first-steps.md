@@ -5,7 +5,7 @@ description: First Steps with UI for ASP.NET AJAX
 slug: getting-started/first-steps
 tags: get,started,first,steps
 published: True
-position: 0
+position: 1
 ---
 
 # First Steps with UI for ASP.NET AJAX

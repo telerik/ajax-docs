@@ -5,7 +5,7 @@ description: Next Steps with UI for ASP.NET AJAX
 slug: getting-started/next-steps
 tags: Next Steps
 published: True
-position: 1
+position: 5
 ---
 
 # Next Steps with UI for ASP.NET AJAX
