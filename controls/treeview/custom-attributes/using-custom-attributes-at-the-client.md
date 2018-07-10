@@ -16,7 +16,7 @@ position: 3
 
 Access custom attributes on the client side by using first the **get_attributes()** method. Then extract the specific attribute with the **getAttribute()** method, passing the attribute name.
 
->caution The custom attribute's name should not be an **HTML reserved word**. Please see [this article]({%slug treeview/troubleshooting/custom-attributes%}) for more information.
+>caution The custom attribute's name should not be an **HTML reserved word**. Please see the [Troubleshooting Custom Attributes]({%slug treeview/troubleshooting/custom-attributes%}) article for more information.
 >
 
 
@@ -40,6 +40,7 @@ The example below demonstrates accessing the node attributes within the **OnClie
     </Nodes>
 </telerik:RadTreeView>
 ````
+
 ````JavaScript
 function onNodeClicked(sender, args)  
 {    
@@ -56,4 +57,4 @@ function onNodeClicked(sender, args)
 
  * [RadTreeNode]({%slug treeview/client-side-programming/objects/radtreenode%})
 
- * [Custom Attributes]({%slug treeview/troubleshooting/custom-attributes%})
+ * [Custom Attributes Troubleshooting]({%slug treeview/troubleshooting/custom-attributes%})
