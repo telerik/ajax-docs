@@ -74,3 +74,5 @@ Tech sheets
 * [Accessibility Support](https://www.telerik.com/aspnet-ajax/tech-sheets/accessibility-support)
 * [Localization and RTL Support](https://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)
 
+A pinned forum thread that gets updated with every new article and example we create. You can subscribe to it so you get notifications for new posts:
+* [Latest Online Resources](https://www.telerik.com/forums/latest-online-resources-for-radcontrols-for-asp-net-ajax)
