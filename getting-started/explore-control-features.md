@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Explore Control Features in UI for ASP.NET AJAX
+# Explore Control Features
 
 Once you have the controls [working in your project]({%slug getting-started/first-steps%}), it's time to see what they can do. This article provides a short overview of how to get started with finding control functionality so you can use it.
 
