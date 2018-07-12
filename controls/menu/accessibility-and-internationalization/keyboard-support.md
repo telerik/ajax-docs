@@ -14,21 +14,22 @@ position: 0
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. **RadMenu** seamlessly switches between mouse and keyboard navigation.
 
-Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the **RadMenu**'s first item and enables keyboard navigation. When there are multiple **RadMenu** controls on a given page, each of them may have a different activation combination.
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadMenu** and enables keyboard navigation. When there are multiple **RadMenu** controls on a given page, each of them may have a different activation combination.
 
 ## Keyboard Navigation Settings
 
-The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control:
 
 * **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
 * **FocusKey**: An upper-case letter or number.
 
-Pressing **CommandKey** + **FocusKey** sets the focus on the **RadMenu**'s first item and enables keyboard navigation. 
+Pressing **CommandKey** + **FocusKey** sets the focus on the **RadMenu**'s first item and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
 
+**Example:** Setting the **KeyboardNavigationSettings** for **RadMenu**
 
 ````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" RenderMode="Lightweight">

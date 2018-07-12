@@ -11,20 +11,20 @@ position: 0
 # Keyboard Support
 
 
-
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of navigation key, command key, keyboard navigation, and action keys. **RadPanelBar** seamlessly switches between mouse and keyboard navigation.
 
 ## KeyboardNavigationSettings
 
-Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadPanelBar** and enables keyboard navigation. When there are multiple PanelBars on a given page, each of them may have a different activation combination.
 
-The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadPanelBar** and enables keyboard navigation. When there are multiple **RadPanelBar** controls on a given page, each of them may have a different activation combination.
+
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control:
 
 * **FocusKey**: An upper-case letter or number.
 
 * **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
-Pressing the keys set to these two properties at the same time places the focus on the PanelBar. The user can then use the **arrow keys** to navigate among the items in the control or the **action keys** to trigger specific action. 
+Pressing the keys set to these two properties at the same time places the focus on the PanelBar. The user can then use the **arrow keys** to navigate among the items in the control or the **action keys** to trigger specific action.
 
 **Example 1**: Setting the **KeyboardNavigationSettings** for **RadPanelBar**
 
@@ -36,7 +36,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ![panelbar-accessibilityandinternalization-keyboardsupport-focus](images/navigation-and-command.png)
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 
@@ -88,7 +88,5 @@ Keyboard navigation is supported by using the **arrow keys** and special keyboar
 # See Also
 
  * [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%})
- 
+
  * [PanelBar - Keyboard Support demo](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/keyboardsupport/defaultcs.aspx)
- 
- 

@@ -16,12 +16,11 @@ This article demonstrates the usage and the advantages that the **RadTrewView** 
 
 **RadTreeView** provides two aspects of keyboard support:
 
-## Focus the control 
+## Focus the control
 
-A key combination that allows the end-user to focus on the respective **RadTreeView** and subsequently use the arrow keys for navigation. 
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadTreeView** and enables keyboard navigation.
 
-
-**Example 1**: Setting the KeyboardNavigationSettings for **RadTrewView**
+**Example**: Setting the **KeyboardNavigationSettings** for **RadTreeView**
 
 ````ASPNET
 <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" TabIndex="1">
@@ -29,17 +28,17 @@ A key combination that allows the end-user to focus on the respective **RadTreeV
 </telerik:RadTreeView>
 ````
 
-The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control:
 
 * **FocusKey**: An upper-case letter or number.
 
 * **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
-Pressing the keys set to these two properties at the same time places the focus on the TreeView. The user can then use the arrow keys for navigation. 
+Pressing the keys set to these two properties at the same time places the focus on the TreeView. The user can then use the arrow keys for navigation.
 
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport01g.gif)
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 ## Arrow Key Navigation and Key Commands
@@ -85,4 +84,3 @@ Allows end-users to navigate around the TreeView structure using the arrow keys,
 
 >note The **RadTreeView** keyboard support is implemented according to the [W3C Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
 >
-

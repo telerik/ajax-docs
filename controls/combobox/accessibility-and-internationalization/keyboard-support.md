@@ -14,10 +14,12 @@ A critical requirement for software accessibility is keyboard support as a compl
 
 Keyboard support is comprised of command key, focus key, and keyboard navigation. RadComoboBox will seamlessly switch between mouse and keyboard navigation.
 
-In order to configure keyboard support with RadComboBox its KeyboardNaviagationSettings should be set:
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadComboBox** and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
+
+**Example:** Setting the **KeyboardNavigationSettings** for **RadComboBox**
 
 ````ASPNET
 <telerik:RadComboBox ID="RadComboBox1" runat="server" >
@@ -38,7 +40,7 @@ In order to configure keyboard support with RadComboBox its KeyboardNaviagationS
 * Navigate the items using **Up** and **Down Arrow** keys:
 
 ![Item Navigation](images/combobox-navigation.png)
-   
+
 * Press **Alt** + **Up Arrow** or "Esc" to close the dropdown.
 
 ![Close](images/combobox-close-dropdown.png)   

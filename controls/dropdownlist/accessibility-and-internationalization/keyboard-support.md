@@ -14,10 +14,12 @@ A critical requirement for software accessibility is keyboard support as a compl
 
 Keyboard support is comprised of command key, focus key, and keyboard navigation. RadDropDownList will seamlessly switch between mouse and keyboard navigation.
 
-In order to configure keyboard support with RadDropDownList its KeyboardNaviagationSettings should be set:
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadDropDownList** and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
+
+**Example:** Setting the **KeyboardNavigationSettings** for **RadDropDownList**
 
 ````ASPNET
 <telerik:RadDropDownList ID="RadDropDownList1" runat="server" >
@@ -46,5 +48,3 @@ In order to configure keyboard support with RadDropDownList its KeyboardNaviagat
 # See Also
 
  * [Keyboard Support Demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/accessibility/keyboardsupport/defaultcs.aspx)
-
-

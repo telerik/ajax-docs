@@ -11,21 +11,21 @@ position: 0
 # Keyboard Support
 
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. RadTabStrip seamlessly switches between mouse and keyboard navigation.
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. **RadTabStrip** seamlessly switches between mouse and keyboard navigation.
 
-Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to a particular tab and enables keyboard navigation. When there are multiple tabstrips on a given page, each of them may have a different activation combination.
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadTabStrip** and enables keyboard navigation. When there are multiple **RadTabStrip** controls on a given page, each of them may have a different activation combination.
 
 ## Keyboard Navigation Settings
 
-The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control:
 
 * **FocusKey**: An upper-case letter or number.
 
 * **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
-Pressing the keys set to these two properties at the same time places the focus on the TabStrip. The user can then use the arrow keys for navigation. 
+Pressing the keys set to these two properties at the same time places the focus on the **RadTabStrip**. The user can then use the arrow keys for navigation.
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 ![Keyboard Support](images/KeyboardSupport.png)
@@ -60,7 +60,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ## Keyboard Navigation
 
-Once the TabStrip is focused by pressing [CommandKey] + [FocusKey] keyboard navigation is supported by using the arrow keys:
+Once the **RadTabStrip** is focused by pressing [CommandKey] + [FocusKey] keyboard navigation is supported by using the arrow keys:
 
 * Navigate among RadTabs using Left and Right arrows:
 ![Left right arrows](images/left-right-arrows.png).
@@ -76,4 +76,3 @@ Once the TabStrip is focused by pressing [CommandKey] + [FocusKey] keyboard navi
 
 * Navigate among the children tabs using Left and Right arrows:
 ![Left right arrows](images/left-right-arrows.png).
-

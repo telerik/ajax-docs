@@ -12,22 +12,22 @@ position: 1
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. **RadListBox** seamlessly switches between mouse and keyboard navigation, allowing items selection, deletion, moving and reordering.
 
-Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the **RadListBox**. When there are multiple **RadListBox** controls on a given page, each of them may have a different activation combination.
-
-The **KeyboardNavigationSettings** section is available as of **R2 2016** (version 2016.2.504). Older versions rely on the **AccessKey** DOM attribute to receive focus.
+Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadListBox** and enables keyboard navigation. When there are multiple **RadListBox** controls on a given page, each of them may have a different activation combination.
 
 ## Keyboard Navigation Settings
 
-The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control:
 
 * **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
 * **FocusKey**: An upper-case letter or number.
 
-Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and enables keyboard navigation. 
+Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
+
+**Example:** Setting the **KeyboardNavigationSettings** for **RadListBox**
 
 ````ASPNET
 <telerik:RadListBox ID="RadListBox1" runat="server" >
