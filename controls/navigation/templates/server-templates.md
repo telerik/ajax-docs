@@ -14,6 +14,8 @@ position: 1
 
 You can use the **NodeTemplate** for both setting template to a single navigation node and to all nodes in a navigation(applied as global template). For example you can set a global template to all navigation nodes and if you need to further customize only a single orseveral nodes you can do so by applying the **NodeTemplate** again only to the needed nodes. This can be done in the [TemplateNeeded]({%slug navigation/server-side-programming/events/templateneeded%}) event.
 
+>note A template overrides the `NavigateUrl` property. If a node has a template, it will not render an anchor (`<a>`). If you want it to act as an anchor, you should add the desired hyperlink in the template.
+
 ## Example
 
 The following example (Figure 1.) shows a navigation that uses a global template for all parent and child nodes:

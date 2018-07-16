@@ -18,7 +18,7 @@ position: 0
 
 * Other third-party controls (including other Telerik controls)
 
-## 
+>note A template overrides the `NavigateUrl` property. If a node has a template, it will not render an anchor (`<a>`). If you want it to act as an anchor, you should add the desired hyperlink in the template.
 
 At design time, add node template to your RadNavigation control:
 
