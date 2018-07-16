@@ -8,6 +8,8 @@ published: True
 position: 10
 ---
 
+# AssignmentUpdate
+
 The **RadGantt AssignmentUpdate** is fired when an assignment's collection is about to be updated through the provider.
 
 **AssignmentUpdate** event handler receives two parameters:
