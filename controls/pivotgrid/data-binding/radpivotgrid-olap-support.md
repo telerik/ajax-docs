@@ -11,7 +11,8 @@ position: 2
 # RadPivotGrid OLAP Support
 
 
-
+>note To display data from OLAP data sources you should download [Microsoft.Analysis Services library](http://www.microsoft.com/en-us/download/details.aspx?id=30440) and put it into the Bin folder or GAC.
+>
 
 
 ## Binding Through XMLA
@@ -98,10 +99,6 @@ The following setting will provide the information necessary for the ADOMD.NET p
 </OlapSettings> 
 ````
 
-
-
->note Note that to display data from OLAP data sources you should download[Microsoft.AnalysisServices library](http://www.microsoft.com/en-us/download/details.aspx?id=30440)and put it into the Bin folder or in your GAC.
->
 
 
 Since **Q1 2014 SP1** version, **RadPivotGrid** provides a new **PrepareDescriptionForField** and **GetDescriptionsDataCompleted** events when bound to an OLAP source.
