@@ -12,9 +12,9 @@ position: 5
 
 Batch editing functionality supports validation by either using the **ColumnValidationSettings** or declaring a **GridTemplateColumn** and placing a validator in the **EditItemTemplate** or **InsertItemTemplate**. 
 
->note Saving the changes or opening other cells or rows for edit will be prevented when there is a validator that is not valid.
+>note Saving the changes or opening other cells or rows for edit will be prevented when there is a validator that is not valid. Validation happens on the client only, when a cell is about to be closed.
 
->caption Examples of a built-in required field validator and a custom validator
+>caption Examples of a built-in required field validator and a custom validator for input length
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowAutomaticDeletes="True"
@@ -56,6 +56,77 @@ Batch editing functionality supports validation by either using the **ColumnVali
 		}
 	}
 </script>
+````
+
+>caption MaxLength validation
+
+The `MaxLength` property of a grid column is applicable only with server editing and with batch editing you should use one of the following options:
+* a custom validator in a `GridTemplateColumn` as shown in the example above
+* for a `GridBoundColumn`, [access the column editor on the server]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-batch-edit-mode) and set its `TextBoxMaxLength` property. This will set the `maxLength` attribute of the `<input>` element because in batch edit mode a simple `<input>` will be rendered regardless of the `DataType`.
+* for a `GridNumericColumn` you can use the `MaxValue` and `MinValue` properties, as it works with numbers and does not have the concept of a string length, and will render a `RadNumericTextBox` control.
+
+````ASP.NET
+<telerik:GridBoundColumn DataField="myField" UniqueName="myColumn">
+</telerik:GridBoundColumn>
+
+<telerik:GridNumericColumn MaxValue="999" MinValue="0" DataField="myNumericField" HeaderText="numeric max length"
+UniqueName="myNumericColumn"></telerik:GridNumericColumn>
+````
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    GridTableView masterTable = ((RadGrid)sender).MasterTableView;
+    GridTextBoxColumnEditor editor = masterTable.GetBatchColumnEditor("myColumn") as GridTextBoxColumnEditor;
+    editor.TextBoxMaxLength = 3;
+}
+
+//the sample below can let you loop through all columns in the grid and set similar settings to all of them at the same time
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    RadGrid grid = sender as RadGrid;
+    foreach (GridColumn col in grid.MasterTableView.RenderColumns)
+    {
+        if (col is GridNumericColumn)
+        {
+            GridNumericColumnEditor editor = grid.MasterTableView.GetBatchColumnEditor(col.UniqueName) as GridNumericColumnEditor;
+            editor.NumericTextBox.MaxValue = 100;
+            continue; //because the numeric column is also a bound column
+        }
+        if (col is GridBoundColumn)
+        {
+            GridTextBoxColumnEditor editor = grid.MasterTableView.GetBatchColumnEditor(col.UniqueName) as GridTextBoxColumnEditor;
+            editor.TextBoxMaxLength = 3;
+        }
+
+    }
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.PreRender
+	Dim masterTable As GridTableView = (CType(sender, RadGrid)).MasterTableView
+	Dim editor As GridTextBoxColumnEditor = TryCast(masterTable.GetBatchColumnEditor("myColumn"), GridTextBoxColumnEditor)
+	editor.TextBoxMaxLength = 3
+End Sub
+
+'the sample below can let you loop through all columns in the grid and set similar settings to all of them at the same time'
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.PreRender
+    Dim grid As RadGrid = TryCast(sender, RadGrid) 
+
+    For Each col As GridColumn In grid.MasterTableView.RenderColumns
+
+        If TypeOf col Is GridNumericColumn Then
+            Dim editor As GridNumericColumnEditor = TryCast(grid.MasterTableView.GetBatchColumnEditor(col.UniqueName), GridNumericColumnEditor)
+            editor.NumericTextBox.MaxValue = 100
+            Continue For 'because the numeric column is also a bound column
+        End If
+
+        If TypeOf col Is GridBoundColumn Then
+            Dim editor As GridTextBoxColumnEditor = TryCast(grid.MasterTableView.GetBatchColumnEditor(col.UniqueName), GridTextBoxColumnEditor)
+            editor.TextBoxMaxLength = 3
+        End If
+    Next
+End Sub
 ````
 
 >caption How to use controls from other cells in validation
