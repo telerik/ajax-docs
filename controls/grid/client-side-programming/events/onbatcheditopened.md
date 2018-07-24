@@ -65,13 +65,15 @@ function OnBatchEditOpened(sender, args) {
 		var parameterCell = dataItem.get_cell("ProductName");
 		//get the current value of the cell that will be a parameter for the combo
 		var parameterText = sender.get_batchEditingManager().getCellValue(parameterCell);
+		//if you want the combo to make a new request each time the cell is opened, uncommend this line
+		//combo.clearItems();
 		//set the combo text as it will be sent to the ItemsRequested handler
 		combo.set_text(parameterText);
 	}
 }
 ````
 
-Sampple markup:
+Sample markup:
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowAutomaticDeletes="True"
@@ -104,7 +106,6 @@ Sampple markup:
 			</telerik:GridTemplateColumn>
 		</Columns>
 	</MasterTableView>
-
 </telerik:RadGrid>
 
 <script>
@@ -123,6 +124,8 @@ Sampple markup:
 			var parameterCell = dataItem.get_cell("ProductName");
 			//get the current value of the cell that will be a parameter for the combo
 			var parameterText = sender.get_batchEditingManager().getCellValue(parameterCell);
+			//if you want the combo to make a new request each time the cell is opened, uncommend this line
+			//combo.clearItems();
 			//set the combo text as it will be sent to the ItemsRequested handler
 			combo.set_text(parameterText);
 		}
@@ -130,31 +133,26 @@ Sampple markup:
 </script>
 
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-				   DeleteCommand="DELETE FROM [Products] WHERE [ProductID] = @ProductID" 
-				   InsertCommand="INSERT INTO [Products] ([ProductName], [CategoryID], [UnitPrice], [Discontinued], [QuantityPerUnit], [UnitsInStock]) VALUES (@ProductName, @CategoryID, @UnitPrice, @Discontinued, @QuantityPerUnit, @UnitsInStock)"
-				   SelectCommand="SELECT [ProductID], [ProductName], [Products].[CategoryID], [Categories].[CategoryName] as CategoryName, [UnitPrice], [Discontinued], [QuantityPerUnit], [UnitsInStock] FROM [Products] JOIN Categories ON Products.CategoryID=Categories.CategoryID"
-				   UpdateCommand="UPDATE [Products] SET [ProductName] = @ProductName, [CategoryID] = @CategoryID, [UnitPrice] = @UnitPrice, [Discontinued] = @Discontinued, [QuantityPerUnit] = @QuantityPerUnit, [UnitsInStock] = @UnitsInStock WHERE [ProductID] = @ProductID">
-	<DeleteParameters>
-		<asp:Parameter Name="ProductID" Type="Int32"></asp:Parameter>
-	</DeleteParameters>
-	<InsertParameters>
-		<asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
-		<asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
-		<asp:Parameter Name="UnitPrice" Type="Decimal"></asp:Parameter>
-		<asp:Parameter Name="Discontinued" Type="Boolean"></asp:Parameter>
-		<asp:Parameter Name="QuantityPerUnit" Type="String"></asp:Parameter>
-		<asp:Parameter Name="UnitsInStock" Type="Int16"></asp:Parameter>
-	</InsertParameters>
-	<UpdateParameters>
-		<asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
-		<asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
-		<asp:Parameter Name="UnitPrice" Type="Decimal"></asp:Parameter>
-		<asp:Parameter Name="Discontinued" Type="Boolean"></asp:Parameter>
-		<asp:Parameter Name="QuantityPerUnit" Type="String"></asp:Parameter>
-		<asp:Parameter Name="UnitsInStock" Type="Int16"></asp:Parameter>
-		<asp:Parameter Name="ProductID" Type="Int32"></asp:Parameter>
-	</UpdateParameters>
+    DeleteCommand="DELETE FROM [Products] WHERE [ProductID] = @ProductID"
+    InsertCommand="INSERT INTO [Products] ([ProductName], [CategoryID]) VALUES (@ProductName, @CategoryID)"
+    SelectCommand="SELECT [ProductID], [ProductName], [CategoryName], [Products].[CategoryID] FROM [Products] JOIN Categories ON Products.CategoryID=Categories.CategoryID"
+    UpdateCommand="UPDATE [Products] SET [ProductName] = @ProductName, [CategoryID] = @CategoryID WHERE [ProductID] = @ProductID">
+    <DeleteParameters>
+        <asp:Parameter Name="ProductID" Type="Int32"></asp:Parameter>
+    </DeleteParameters>
+    <InsertParameters>
+        <asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
+        <asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
+    </InsertParameters>
+    <UpdateParameters>
+        <asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
+        <asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
+    </UpdateParameters>
 </asp:SqlDataSource>
+
+With this sample the CategoryID is a simple integer created in a loop to showcase how the control works,
+and the text you see for it in the combo will not match the actual values
+so if you actually update the database you will see a different category name, not what you selected.
 ````
 
 Sample implementation of the load-on-demand for the combo box
