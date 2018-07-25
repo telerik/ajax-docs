@@ -13,6 +13,8 @@ position: 5
 Batch editing functionality supports validation by either using the **ColumnValidationSettings** or declaring a **GridTemplateColumn** and placing a validator in the **EditItemTemplate** or **InsertItemTemplate**. 
 
 >note Saving the changes or opening other cells or rows for edit will be prevented when there is a validator that is not valid. Validation happens on the client only, when a cell is about to be closed.
+>
+>When validators are present in the grid, the `Tab` keyboard navigation (`ClientSettings.AllowKeyboardNavigation="true"`) will only go through the fields with validators when inserting rows. When editing rows and there is a validator that is not satisfied, you will not be allowed to leave the cell.
 
 >caption Examples of a built-in required field validator and a custom validator for input length
 
