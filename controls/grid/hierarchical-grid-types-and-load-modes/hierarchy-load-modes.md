@@ -16,6 +16,29 @@ If you work in hierarchy mode, you can define when the **DataBind** for **GridTa
 
 **GridTableView.HierarchyLoadMode**
 
+````ASP.NET
+<MasterTableView HierarchyLoadMode="Client"></MasterTableView>
+
+<!-- or for DetailTables -->
+<telerik:GridTableView HierarchyLoadMode="ServerBind"></telerik:GridTableView>
+````
+
+````C#
+RadGrid1.MasterTableView.HierarchyLoadMode = GridChildLoadMode.Client;
+
+// for the first DetailTable of the first griditem
+GridTableView tableView = RadGrid1.MasterTableView.Items[0].ChildItem.NestedTableViews[0] as GridTableView;
+tableView.HierarchyLoadMode = GridChildLoadMode.Client;
+````
+
+````VB	
+RadGrid1.MasterTableView.HierarchyLoadMode = GridChildLoadMode.Client
+
+' for the first DetailTable of the first griditem
+Dim tableView As GridTableView = TryCast(RadGrid1.MasterTableView.Items(0).ChildItem.NestedTableViews(0), GridTableView)
+tableView.HierarchyLoadMode = GridChildLoadMode.Client
+````
+
 The possible values are:
 
 * **HierarchyLoadMode.ServerBind** - all child **GridTableViews** will be bound immediately when **DataBind** occurs for a parent **GridTableView** or **RadGrid**.
