@@ -26,6 +26,14 @@ The article contains the following sections:
 
 * [0x800a139e - JavaScript runtime error: SyntaxError](#0x800a139e---javascript-runtime-error-syntaxerror)—this section treats a jQuery runtime error in Visual Stutio output window when the project is started in debug mode in Internet Explorer.
 
+>tip Most of the issues treated in this article stem from the Unobtrusive Validation mode. You can **avoid jQuery and validation problems** with a single line in the web.config that will **disable the Unobtrusive Valudation**.
+>
+>    **web.config**
+>
+>        <appSettings>
+>            <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+>
+
 ## Unobtrusive Validation Basics
 
 **Unobtrusive validation** is a type of validation that makes use of the data - HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and it requires a jQuery library that is registered with the ScriptManager as **jquery**. You can easily add this registration by installing the [AspNet.ScriptManager.jQuery NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
