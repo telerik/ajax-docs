@@ -50,6 +50,7 @@ function stripData(source) {
 </telerik:RadSpreadsheet>
 ````
 
+>note For this code to work, at least version R1 2017 SP1 (2017.1.228) is required.
 
 ## See Also
 
