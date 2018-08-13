@@ -50,4 +50,4 @@ position: 1
 | **selectAllItems()** |Method which selects all items in the RadTreeList.|
 | **deselectAllItems()** |Method which deselects all items in the RadTreeList.|
 | **page(command)** |Method which fires a page command with the specified command argument (Next, Prev, First, Last).|
-| **fireCommand(commandName, commandArgument)** |Method which triggers specific command for the RadTreeList when executed. The method is called for the RadTreeList client instance. The method arguments are the command which will be processed and its corresponding arguments.|
+| **fireCommand(commandName, commandArgument)** |Method which triggers specific command for the RadTreeList when executed. The method is called for the RadTreeList client instance. The method arguments are the command which will be processed and its corresponding arguments. To rebind a treelist, call `.fireCommand("RebindTreeList", "");` even though the usual command name for other controls is just "Rebind".|
