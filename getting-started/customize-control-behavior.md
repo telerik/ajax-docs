@@ -37,7 +37,7 @@ When you need to get work done **in the browser**, you will need a **reference t
 
 The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since they are server-side controls to being with, these events are exposed via serializable server properties and not as event attributes.
 
-**To handle a client-side event of a Telerik controls, you must provide only the string name of the handler function.**
+**To handle a client-side event of a Telerik controls, you must provide only the string name of the handler function, without parentheses.** If you add the parentheses, the event handler function will try to execute as soon as the page loads, and this will usually result in errors.
 
 >caption Example 1: Handling the client-side click of a Telerik button vs standard button
 
