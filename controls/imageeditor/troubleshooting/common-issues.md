@@ -18,7 +18,7 @@ This article lists the most common issues related to RadImageEditor:
 
 * [Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode](#event-handlers-might-not-be-not-raised-in-a-default-document-in-iis-7-or-iis-75-integrated-mode)
 
-* [The Image Is Not Loaded or/and a Security JavaScript Error is Thrown](#the-given-image-is-not-loaded-orand-a-security-javascript-error-is-thrown)
+* [The Image Is Not Loaded or/and a Security JavaScript Error is Thrown](#the-image-is-not-loaded-orand-a-security-javascript-error-is-thrown)
 
 
 
@@ -79,7 +79,8 @@ This problem is caused by a breaking change in .NET 4.0 described [here](http://
 By design **RadImageEditor can work only with virtual paths** pointing to images placed inside its application root directory. Using images from external URLs (*http://host/image.jpg*) or physical location (*C:/images/image.jpg*) is not supported out-of-the-box. Such configuration may lead to **not rendered or not editable image** (so the image operations will not work properly on it).
 
 Loading images through an external URL usually leads to the following **JavaScript error**:
-````SecurityError: The operation is insecure.````
+
+`SecurityError: The operation is insecure.`
 
 *Solution*
 
