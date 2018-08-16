@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The best approach to optimize the performance speed of Telerik RadComboBox when using huge amount of items is using the **load-on-demand** feature.The **load-on-demand** mechanism loads the items only when the user types or clicks in the field or the drop-arrow image. You can also load the items only upon clicking on the drop arrow. To do this you should set the **ShowDropDownOnTextboxClick** property to false. For even faster load of the page, you can leave the combobox empty when it is first rendered on the page. Items will be added as soon as the user clicks in the input field, the drop-arrow image or types some text into the input field. In other words, you can add the items only in the **ItemsRequested** event handler or via **WebService**.
+The best approach to optimize the performance speed of Telerik RadComboBox when using huge amount of items is using the **load-on-demand** feature. The **load-on-demand** mechanism loads the items only when the user types or clicks in the field or the drop-arrow image. You can also load the items only upon clicking on the drop arrow. To do this you should set the **ShowDropDownOnTextboxClick** property to false. For even faster load of the page, you can leave the combobox empty when it is first rendered on the page. Items will be added as soon as the user clicks in the input field, the drop-arrow image or types some text into the input field. In other words, you can add the items only in the **ItemsRequested** event handler or via **WebService**.
 
 When using the load-on-demand mechanism with **ItemsRequested** event you should:
 
@@ -56,12 +56,12 @@ End Sub
 
 **ShowMoreResultsBox** and **EnableVirtualScrolling**
 
-When you load the combobox items from heavy database, you can cache the data source so that additional calls are avoided. This will make the combobox event faster.
+When you load the combobox items from heavy database, you can cache the data source so that additional calls are avoided. This will make the combobox even faster.
 
 A sample project can be seen here: [Load On Demand](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx)
 
 # See Also
 
- * [Overview]({%slug combobox/load-on-demand/overview%})
+ * [Load-on-Demand Overview]({%slug combobox/load-on-demand/overview%})
 
  * [Loading Items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
