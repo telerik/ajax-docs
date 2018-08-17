@@ -30,25 +30,5 @@ Note that in case you need to remove the model from the session you just should 
 Session[RadPivotGrid1.UniqueID] = null;
 ````
 
-Caching is not supported when using <code>sessionState</code> modes requiring the object to be Serializable, e.g.:
-````ASP.NET
-<sessionState mode="SQLServer">
-</sessionState>
-````
-
-The stored state object of type *Telerik.Web.UI.PivotGrid.Core.ViewModels.PivotViewModel* is not defined as [Serializable] in its implementation.
-
-````C#
-...
-internal class PivotViewModel : IPivotViewModel
-{
-    private IDataProvider dataProvider;
-    private IGroupDescription valuesDescription;
-
-    public PivotViewModel()
-    {
-        this.GrandTotalText = PivotLocalizationManager.GrandTotal;
-        this.ValuesGroupText = PivotLocalizationManager.Values;
-...
-````
-Therefore, when using SQLServer mode the *SessionState* will not be saved.
+>note Caching is not supported when using `sessionState` modes requiring the object to be Serializable.
+When using SQLServer mode the *SessionState* will not be saved.
