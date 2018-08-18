@@ -65,10 +65,22 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 | ------ | ------ |
 | **DataFormatString** |The format string that will form the labels' text. The **{0}** placeholder is used to denote the value of the tick.|
 | **Mirror** |A boolean property that indicates whether axes labels, ticks and title will be mirrored. Default value is false.|
+| **Position** |The position of the axis labels with relation to the current axis and the crossing axis. See **List 3** below for possible values and details.|
 | **RotationAngle** |The angle that is used for rotating the label. The zero mark is vertical and the positive direction is clockwise.|
 | **Skip** |The number of axes labels to be skipped.|
 | **Step** |The rendering step for axes labels - render every n-th label.|
 | **Visible** |Specifies whether the labels are rendered. **True** or **False** .|
+
+>caption List 3: **[Axis].LabelsAppearance.Position** property values (`Telerik.Web.UI.HtmlChart.AxisLabelPosition` enum).
+
+* **OnAxis** - the default value, the labels are rendered next to the axis.
+
+* **Start** - the labels are rendered at the beginning of the crossing axis. For example, the x-axis labels will be rendered at the bottom (or the left) of the chart, depending on the chart type. Reverses when the crossing axis is `Reversed`.
+
+* **End** - the labels are rendered at the end of the crossing axis. For example, the x-axis labels will be rendered at the top (or the right) of the chart, depending on the chart type. Reverses when the crossing axis is `Reversed`.
+
+You can see its effect in the [Negative Values](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/negativevalues/defaultcs.aspx) live demo.
+
 
 ## Attribute Properties in [Axis] > LabelsAppearance > TextStyle
 
