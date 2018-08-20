@@ -236,7 +236,7 @@ Furthermore, there are two properties available which specify where to persist t
 
 As of Q2 2011, RadSkinManager works with custom skins as well. After following the steps described below, it will apply custom skins to the Telerik controls in the same way as it applies built-in ones.
 
-There are two ways to use custom skins with the skin manager control - to [put the custom skin(s) in a folder]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%} and provide a path to it, or [build an assembly]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) and reference it:
+There are two ways to use custom skins with the skin manager control - to [put the custom skin(s) in a folder]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%}) and provide a path to it, or [build an assembly]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) and reference it:
 
 ### Loading skins by specifying a path
 
