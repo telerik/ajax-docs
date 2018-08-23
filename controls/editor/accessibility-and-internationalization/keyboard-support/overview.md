@@ -77,7 +77,8 @@ RadEditor1.Tools.Add(main);
 EditorTool cut = new EditorTool();
 cut.Name = "Cut";
 cut.ShortCut = "CTRL+X";
-main.Tools.Add(cut); ````
+main.Tools.Add(cut);
+````
 ````VB
 Imports Telerik.Web.UI
 ...
@@ -98,4 +99,6 @@ or using the **ShortCut** attribute of the `<tool>` item in the ToolsFile.xml fi
 <tool name="Paste" shortcut="CTRL+V" />
 ````
 
-The shortcut mechanism will override the default shortcut of the browser, like **Ctrl+N, Ctrl+F, Ctrl+P**, so you can use those combinations for custom purposes.
+>tip The shortcut mechanism will override the default shortcut of the browser, like **Ctrl+N, Ctrl+F, Ctrl+P**, so you can use those combinations for custom purposes.
+
+>tip @[template](/_templates/editor/keyboard-support.md#cmd-on-mac)

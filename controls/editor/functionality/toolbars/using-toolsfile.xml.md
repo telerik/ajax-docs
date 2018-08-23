@@ -128,7 +128,7 @@ The `headertools` element has no attributes. You can see how it can be configure
 |**imageurl**|Sets the URL to the image of the small or medium button in [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}) in Classic RenderMode.|
 |**imageurllarge**|Sets the URL to the image of the large button in [RibbonBar ToolbarMode]({%slug editor/functionality/toolbars/using-ribbonbar%}) in Classic RenderMode.|
 | **position** *|**Applicable only when tool is added to the HeaderTools collection**. Defines whether the tool to be added to the left or the right tool-group _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
-|**shortcut** |The key combination for the specific tool: `<tool name="LinkManager"  />` or `<tool name="TemplateManager" shortcut="Ctrl+Shift+Alt+T" />`|
+|**shortcut** |The key combination for the specific tool: `<tool name="LinkManager" shortcut="Ctrl+L" />` or `<tool name="TemplateManager" shortcut="Ctrl+Shift+Alt+T" />`. @[template](/_templates/editor/keyboard-support.md#cmd-on-mac)|
 |**showtext** |Specifies whether to display the button name next to its icon `<tool name="ImageManager" shortcut="Ctrl+G" showtext="true" />`|
 |**showicon** |Specifies whether to display the tools icon or not. Default value is true. `<tool name="ImageManager" shortcut="Ctrl+G" showicon="false" showtext="true" />`|
 |**separator**|Indicates whether a separator should appear at the current position. Possible values are boolean true or false, but if you do not want a separator	you simply should omit this property. When set to true it does not require the Name attribute to be set as well.|
@@ -156,6 +156,8 @@ The `headertools` element has no attributes. You can see how it can be configure
 	<tool name="Bold" shortcut="Ctrl+B" />
 </tools>
 ````
+
+>tip @[template](/_templates/editor/keyboard-support.md#cmd-on-mac)
 
 <a name="example-3"/>
 >caption Example 3: Adding header tools.
