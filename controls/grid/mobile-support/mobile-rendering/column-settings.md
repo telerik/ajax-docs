@@ -19,7 +19,7 @@ The following article outlines the settings that are available for the columns i
 The column settings are accessed by tapping the settings icon.
 
 **Image 1:** Opening column settings view
-adaptive grid Column Settings-1](images/adaptive_grid_ColumnSettings-1.png)
+![adaptive grid Column Settings-1](images/adaptive_grid_ColumnSettings-1.png)
 
 When you tap on the settings icon in a column header, you will see the settings for the corresponding column. You can sort, group, add filter, show/hide or rearrange columns.
 
