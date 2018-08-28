@@ -59,7 +59,7 @@ Telerik **UI for ASP.NET AJAX** officially **supports** the **FIPS** standard as
 
 This includes Word and all Excel export formats, but not PDF.
 
-The **PDF export** is **FIPS**-copmliant as of **Q2 2013**.
+The **PDF export** is **FIPS**-compliant as of **Q2 2013**.
 
 **Under .NET 3.5**, **FIPS-compliance cannot be guaranteed as of R1 2017**. Since this version, the Telerik.Web.UI assembly uses the HMACSHA256 algorithm to provide secure encryption. This algorithm is not recognized by .NET 3.5 as FIPS-compliant. 
 
