@@ -10,9 +10,8 @@ position: 8
 
 # OnClientNavigationCommand
 
-## 
 
-The **OnClientNavigationCommand** occurs when the Task moving is started.
+The **OnClientNavigationCommand** occurs when  the user changes the selected view of the Gant.
 
 The event handler receives two parameters:
 
@@ -20,11 +19,9 @@ The event handler receives two parameters:
 
 1. An **eventArgs** parameter containing the following methods:
 
-* **get_task** return the current moved task.
-
-* **set_cancel** lets you cancel the event and prevent the task moving.
-
-* **get_view** returns the name of the selected view.
+    * **set_cancel** lets you cancel the event and prevent the view switching.
+    
+    * **get_view** returns the name of the selected view.
 
 ````ASP.NET
 <telerik:RadGantt RenderMode="Lightweight" runat="server" id="RadGantt1" OnClientNavigationCommand="OnClientNavigationCommand">
