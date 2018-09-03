@@ -11,7 +11,7 @@ position: 8
 # OnClientNavigationCommand
 
 
-The **OnClientNavigationCommand** occurs when  the user changes the selected view of the Gant.
+The **OnClientNavigationCommand** occurs when  the user changes the selected view of the Gantt.
 
 The event handler receives two parameters:
 
