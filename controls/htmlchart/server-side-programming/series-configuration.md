@@ -125,6 +125,8 @@ More information on the series properties is available below.
 | **DataFormatString** |The format string that will form the label text. Supported for numerical DataFields only. You can use a [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) to get formatting and ordering as desired. <br /> For **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item; for **ScatterSeries** and **ScatterLineSeries** use the **{0}** and **{1}** placeholders that denote the **X** and **Y** values of the item; for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** use the **{0}** and **{1}** placeholders that denote accordingly the **Angle** and **Radius** values of the item; for **BubbleSeries** use the **{0}** , **{1}** , **{2}** and **{3}** placeholders that denote accordingly the **X** , **Y** , **Size** and **Tooltip** values of the item. *The Series labels in __BoxPlotSeries__ and __CandlestickSeries__ are not supported.*|
 | **Position** |Defines the position of the labels relative to their items. More details about the values used to define it are listed in **List 2**. |
 | **RotationAngle** |The angle at which the labels are rotated.|
+| **Skip** |Not applicable for series labels, only for axis labes.|
+| **Step** |Not applicable for series labels, only for axis labes.|
 | **Visible** |Defines whether the labels will be shown. Values are **True** or **False** .|
 
 >caption List 2: Available values for the Position property.
