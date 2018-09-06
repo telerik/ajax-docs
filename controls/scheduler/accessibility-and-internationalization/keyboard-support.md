@@ -18,19 +18,27 @@ As of **Q2 2011** RadScheduler introduces keyboard support. In order to activate
 
 The keyboard navigation has the following functionalities:
 
-* Use the up and down arrows to move up and down the selected time slot (Day view)
+* Use the Up and Down arrows to move up and down the selected time slot (Day view)
 
-* Use the up/down/right/left arrows to navigate through timeslots(Month/Week views)
+* Use the Up/Down/Right/Left arrows to navigate through timeslots(Month/Week views)
 
-* Use tab to switch the focus among appointments
+* Use Tab to switch the focus among appointments
 
-* Press enter to add an appointment when the focus is on a time slot
+* Use Shift + Tab to switch the focus among appointments backwards
 
-* Press enter on existing appointment to trigger edit
+* Press Enter to add an appointment when the focus is on a time slot
 
-* Press delete on appointment to remove it from the schedule
+* Press Enter on existing appointment to trigger edit
+
+* Press Delete on appointment to remove it from the schedule
 
 * Press Esc to cancel insert/update of an Appointment
+
+*	Alt + S saves the appointment
+
+* Alt + C cancels the edit / insertion
+
+* Alt + O opens advanced form
 
 * Use Shift + arrows to select multiple timeslots (like in Outlook)
 
@@ -52,7 +60,7 @@ The available key combinations are listed below:
 
 * ALT+PAGE UP (month view) - Go to the previous month.
 
-* CTRL + G - Open the date picker.
+* CTRL+G - Open the date picker.
 
 * ALT+HOME(week and day view) - Go to the start of the week.
 
