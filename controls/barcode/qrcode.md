@@ -29,7 +29,25 @@ You can specify the following properties:
 
 * **Version** - This is an integer value, in the range from 1 to 40,	representing the version which one desires to use. Usually, higher-version QR codes	are used do accommodate larger amounts of data.
 
-* **DotSize** - Use this to specify size of the barcode dots in pixels.	Use this to achieve sharp rendered QR Code. You can use this in combination with	**Width=""** and **Higth=""** and the QR will be sized according to the number of its dots. If you set DotSizeto zero, the QR symbol will be resized to fill up the Width and Height.
+* **AutoIncreaseVersion** - Set to true to increase the Version automatically in order to encode longer text, if you are not sure what version to set. 
+By default is set to true.
+
+* **DotSize** - Use this to specify size of the barcode dots in pixels.
+
+## How to Control the Size of the QR Code
+
+The size of the QR code is determined by the `QRCodeSettings.DotSize` and `QRCodeSettings.Version` properties. 
+
+The size determined through the `QRCodeSettings` will take precedence over the values set to the `Width` and `Height` properties of the main control tag.
+
+Each integer increase increases the total size of the rendered image with a factor determined by the `Version` value. For example, with `Version="5"`, the factor is `45px`. Note that the function is not linear. If you want to determine exact sizes, the easiest way to see the exact size is to inspect the rendered PNG with the browser dev toolbar.
+
+For example, at `Version="5"`, `DotSize="1"` will result in a `45px` square, and a `DotSize="5"` will result in a `225px` square.
+
+
+If you set `DotSize="0"` the image will be rendered as if `DotSize="1"` (that is, a `45px` square at `Version="5"`), and the `<img>` element will get `height: 100%; width: 100%` CSS rules, so that it can stretch according to the `Width` and `Height` properties.
+
+When the image stretches because of `DotSize="0"`, it may get blurry. To always get a clear image, you can render it as a vector image, instead of the default raster image, by setting `OutputType="SVG_VML"`.
 
 # See Also
 
