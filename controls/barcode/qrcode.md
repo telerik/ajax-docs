@@ -27,10 +27,9 @@ You can specify the following properties:
 
 * **ECI** - (Extended Channel Interpretations Encoding) property allows	for additional data to be applied to the FNC1 data. Please, keep in mind, that this	is only applicable with FNC1Mode.FNC1SecondPosition. Additionally, the acceptable	data for this property is in the range {a-z}],{[A-Z} and {00-99}. Do not change	the encoding if you plan to decode your barcodes on smartphones. Some readers are	working with the default encoding only.
 
-* **Version** - This is an integer value, in the range from 1 to 40,	representing the version which one desires to use. Usually, higher-version QR codes	are used do accommodate larger amounts of data.
+* **Version** - This is an integer value, in the range from 1 to 40,	representing the version which one desires to use. Usually, higher-version QR codes	are used do accommodate larger amounts of data. The default value is 7.
 
-* **AutoIncreaseVersion** - Set to true to increase the Version automatically in order to encode longer text, if you are not sure what version to set. 
-By default is set to true.
+* **AutoIncreaseVersion** - Set to true to increase the Version automatically in order to encode longer text, if you are not sure what version to set. By default is set to true.
 
 * **DotSize** - Use this to specify size of the barcode dots in pixels.
 
@@ -38,14 +37,13 @@ By default is set to true.
 
 The size of the QR code is determined by the `QRCodeSettings.DotSize` and `QRCodeSettings.Version` properties. 
 
-The size determined through the `QRCodeSettings` will take precedence over the values set to the `Width` and `Height` properties of the main control tag.
+The size coming from the `QRCodeSettings` will take precedence over the values set to the `Width` and `Height` properties of the main control tag.
 
-Each integer increase increases the total size of the rendered image with a factor determined by the `Version` value. For example, with `Version="5"`, the factor is `45px`. Note that the function is not linear. If you want to determine exact sizes, the easiest way to see the exact size is to inspect the rendered PNG with the browser dev toolbar.
+Each integer increases the total size of the rendered image with a factor determined by the `Version` value. For example, with `Version="5"`, the factor is `45px`. Note that the function is not linear. If you want to determine exact sizes, the easiest way to see the exact size is to inspect the rendered PNG with the browser dev toolbar after running a given set of options.
 
 For example, at `Version="5"`, `DotSize="1"` will result in a `45px` square, and a `DotSize="5"` will result in a `225px` square.
 
-
-If you set `DotSize="0"` the image will be rendered as if `DotSize="1"` (that is, a `45px` square at `Version="5"`), and the `<img>` element will get `height: 100%; width: 100%` CSS rules, so that it can stretch according to the `Width` and `Height` properties.
+If you set `DotSize="0"` the image will be rendered as if `DotSize="1"` (that is, a `45px` square at `Version="5"`), and the `<img>` element will get `height: 100%; width: 100%` CSS rules, so that it can stretch according to the `Width` and `Height` properties of the main tag.
 
 When the image stretches because of `DotSize="0"`, it may get blurry. To always get a clear image, you can render it as a vector image, instead of the default raster image, by setting `OutputType="SVG_VML"`.
 
