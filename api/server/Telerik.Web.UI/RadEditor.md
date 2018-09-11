@@ -885,13 +885,13 @@ A Stream object holding the DOCX content to be transformed and loaded.
 
 ###  LoadDocxContent
 
-This method is used to convert Markdown content to DOCX and loadit in RadEditor.
+This method is used to convert DOCX content to HTML and load it in RadEditor.
 
 #### Parameters
 
 #### docxText `System.String`
 
-A String object holding the DOCX content to be transformed and loaded.
+A String object in ASCII encoding holding the DOCX content to be transformed and loaded.
 
 #### Returns
 
@@ -963,13 +963,13 @@ A Stream object holding the RTF content to be transformed and loaded.
 
 ###  LoadRtfContent
 
-This method is used to convert Markdown content to RTF and loadit in RadEditor.
+This method is used to convert RTF content to HTML and load it in RadEditor.
 
 #### Parameters
 
 #### rtfText `System.String`
 
-A String object holding the RTF content to be transformed and loaded.
+A String object encoded in ASCII holding the RTF content to be transformed and loaded.
 
 #### Returns
 

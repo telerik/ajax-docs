@@ -172,8 +172,12 @@ Gets or sets the ODataDataSource used for data binding.
 
 ###  PreserveCurrentItemTemplates `RadLightBoxItem`
 
-If set to true, this will prevent disposing of the current item's templates which will help avoid 
-            the postback when only one template item is available in the items collection. Disabled by default.
+If set to true, this will prevent disposing of the current item's templates which will avoid 
+            the postback when only one template item is available in the items collection and the lightbox is closed and then re-opened.
+            Disabled by default.
+
+#### Remarks
+See the RadLightBox Templates article for more detail: https://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/functionality/templates
 
 ###  RegisterWithScriptManager `Boolean`
 
