@@ -81,6 +81,32 @@ You can split labels and titles in **RadHtmlChart** into multiple lines by using
 </telerik:RadHtmlChart>
 ````
 
+
+>note If you are setting these properties from the code-behind, you may need to escape the backslash as shown in **Example 2** below. You can read more about this in the [Handle Special Symbols]({%slug htmlchart/troubleshooting/handle-special-symbols%}) article. This does not apply to the `[axis].LabelsAppearance.DateFormats` whose format strings are escaped by the .NET `JavaScriptSerializer`. The main axis label format string, client templates, data and other strings (such as titles) require escaping.
+>
+>As of R3 2018, escaping the back slash with more backslashes than necessary will result in the `\n` string being rendered instead of a new line. This is a feature that allows the `\n` string to be present in texts. **Example 2** below explains how this works.
+
+>caption Example 2: How to escape new line characters from the code-behind. The result is shown in Figure 2.
+
+````C#
+//escape the new line character from the code-behind in C#
+RadHtmlChart1.ChartTitle.Text = "one \\n two";
+
+//as of R3 2018 this will not render a new line but a "\n" literal in the text
+RadHtmlChart1.PlotArea.XAxis.TitleAppearance.Text = "first \\\\n second";
+````
+````VB
+'in VB, the backslash is not a special symbol so it will not need additional escaping
+RadHtmlChart1.ChartTitle.Text = "one \n two" 
+
+'as of R3 2018 this will not render a new line but a "\n" literal in the text
+RadHtmlChart1.PlotArea.XAxis.TitleAppearance.Text = "first \\n second" 
+````
+
+>caption Figure 2: The expected result of the escaping shown in Example 2, after R2 2018.
+
+![htmlchart-multiline-labels](images/escaping-new-line-symbols.png)
+
 ## See Also
 
  * [RadHtmlChart Server-side API]({%slug htmlchart/server-side-programming/overview%})

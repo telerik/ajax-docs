@@ -235,13 +235,22 @@ You can resolve these issues as follows:
 
 ## RadHtmlChart Cannot be Bound to a Data Source that Has Special Characters in Its Field Names
 
-**Solution**: Rename the fields in the query so they do not contain special symbols like white space (intervals), quotation marks, apostrophes, slashes, brackets and so on.
+**Solution**: Rename the **field names** in the query so they **do not contain special symbols**. Problematic field names include but are not limited to:
+* white space (intervals)
+* quotation marks
+* apostrophes
+* slashes
+* brackets
+* start with a number
+* and others
 
 **Potential Workaround**: Special characters in data source field names can sometimes be escaped by surrounding the name with quotes and brackets (see **Example 4**). This applies to properties of the axes. Properties of series may work without such escaping (see **Example 5**).
 
->note Certain special characters may still break this and you also need to make sure to escape the field names properly for JavaScript, such as in client templates (see **Example 5**) and that may not always be possible. In such cases you need to rename the fields so they do not contain special symbols and follow the rules for JavaScript variable names.
+>note Certain special characters may still break this and you also need to make sure to escape the field names properly for JavaScript, such as in client templates (see **Example 5**) and that may not always be possible.
+>
+>In such cases you need to rename the fields so they do not contain special symbols and so they follow the rules for JavaScript variable names. For example, field names cannot begin with a number, cannot contain whitespace or special characters.
 
->caution There are invalid characters in data source field names that cannot be escaped including "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post.
+>caution There are invalid characters in data source field names that cannot be escaped including "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post. Limitations coming from JavaScript variable names conventions (like starting with numbers) also cannot be escaped.
 
 
 >caption Example 4: Escaping special characters in field names by surrounding the name with quotes and brackets.
@@ -255,6 +264,7 @@ You can resolve these issues as follows:
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
+
 ````C#
 const string DATA_TABLE_NAME = "@1my xvalues";
 
