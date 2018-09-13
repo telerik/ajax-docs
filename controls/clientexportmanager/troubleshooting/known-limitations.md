@@ -50,12 +50,5 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * exporting pseudo:elements borders (for example RadOrgChart connection lines) 
 
-* exporting RadHtmlChart controls with page breaks
+* for versions prior to R3 2018, exporting RadHtmlChart controls with page breaks
 
-	This is caused by a bug in the underlying Kendo Drawing API that is fixed in the R1 2017 SP1 release of Kendo, but this version is not yet available in the UI For ASP.NET AJAX suite.
-
-	A workaround is to fetch the newer Kendo scripts and perform the export directly with them: [MultiPage Export with Kendo Drawing API](http://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Multi-Page).
-
-	If you take this approach, migrate your charts to Kendo charts as well, in order to avoid mixing the Kendo scripts you will put on the page with Kendo scripts RadHtmlChart will bring. RadDiagram, RadGauge, RadGantt, RadTreeMap, RadMap, RadSpreadsheet, RadClientExportManager and RadClientDataSource are also wrappers over Kendo widgets, so if you use them on the same page where you will include the newer Kendo version, you need to migrate them to their Kendo counterparts as well.
-
-# See Also
