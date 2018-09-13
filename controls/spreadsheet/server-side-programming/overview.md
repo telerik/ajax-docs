@@ -31,6 +31,7 @@ position: 0
 | **RowsCount** |int|Gets or sets the number of rows in the **RadSpreadsheet**.|
 | **Sheets** |List&lt;Telerik.Web.Spreadsheet.Worksheet&gt;|Gets a collection of the **Sheets** currently loaded in the **RadSpreadsheet**.|
 
+>note You can use the `Sheets` and their rows/cells only if you use [Programmatic Binding]({%slug spreadsheet/data-binding/programmatic-binding%}). When using a [provider]({%slug spreadsheet/data-binding/providers/using-a-data-provider%}), such operations must be performed in the [custom provider]({%slug spreadsheet/data-binding/providers/custom-database-provider%}) code.
 
 ## Telerik.Web.Spreadsheet.Worksheet Properties and Methods
 
@@ -141,4 +142,7 @@ position: 0
 | **Columns** |List&lt;Telerik.Web.Spreadsheet.SortColumn&gt;|Specifies the sort options for individual columns.|
 | **Ref** |string|The sorted range, e.g. "A1:D5".|
 
+## See Also
 
+* [Access the Spreadsheet workbook on the server](https://www.telerik.com/support/kb/aspnet-ajax/spreadsheet/details/access-the-spreadsheet-workbook-on-the-server)
+* [Improve performance of slowly loading Spreadsheet](https://www.telerik.com/support/kb/aspnet-ajax/spreadsheet/details/improve-performance-of-slowly-loading-spreadsheet)

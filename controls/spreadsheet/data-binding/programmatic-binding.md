@@ -10,13 +10,12 @@ position: 1
 
 # Programmatic Binding
 
-## 
 
 **RadSpreadsheet** can be bound programmaticaly. This example shows binding to a **DataTable** object.
 
 The declaration of the **RadSpreadsheet** object:
 
-````ASPNET
+````ASP.NET
 <telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1"></telerik:RadSpreadsheet>
 ````
 
@@ -24,6 +23,9 @@ In the **Page_Load** event handler, create and fill the **DataTable** object, us
 
 
 ````C#
+using System.Data;
+using Telerik.Web.Spreadsheet;
+
 protected void Page_Load(object sender, EventArgs e)
 {
     DataTable data = GetData();
@@ -91,7 +93,10 @@ private static Worksheet FillWorksheet(DataTable data)
     return sheet;
 }
 ````
-````VB.NET
+````VB
+Imports System.Data
+Imports Telerik.Web.Spreadsheet
+
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
     Dim data As DataTable = GetData()
     Dim sheet1 = FillWorksheet(data)
