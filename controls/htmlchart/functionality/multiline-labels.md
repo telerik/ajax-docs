@@ -103,7 +103,7 @@ RadHtmlChart1.ChartTitle.Text = "one \n two"
 RadHtmlChart1.PlotArea.XAxis.TitleAppearance.Text = "first \\n second" 
 ````
 
->caption Figure 2: The expected result of the escaping shown in Example 2, after R2 2018.
+>caption Figure 2: The expected result of the escaping shown in Example 2, after R3 2018.
 
 ![htmlchart-multiline-labels](images/escaping-new-line-symbols.png)
 
