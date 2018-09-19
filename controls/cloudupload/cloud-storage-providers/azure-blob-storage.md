@@ -10,28 +10,38 @@ position: 1
 
 # Azure Blob Storage
 
+To use the built-in Azure Blob provider that comes with RadCloudUpload, you must:
 
+1. [Add the necessary references](#adding-references)
+1. [Configure the provider](#configuration)
 
 ## Adding References
 
 **RadCloudUpload** can upload files to Azure Blob Storage. It is built on the top of [Windows Azure Blob Storage Service in .NET](http://www.windowsazure.com/en-us/documentation/articles/storage-dotnet-how-to-use-blobs-20/). To work properly, the control needs a reference to some of the client libraries included in the [Windows Azure Storage](http://www.nuget.org/packages/WindowsAzure.Storage/) which is a part of [Windows Azure SDK for .NET](http://www.windowsazure.com/en-us/develop/net/).
 
-**Windows Azure Storage** package is distributed via NuGet repository and can be easily installed through the Package Management Console. Use the following command to install the appropriate version you need:
+The **Windows Azure Storage** package is distributed through a **NuGet** feed and can be easily installed through the Package Management Console. **Table 1** shows the command to install the version you need according to the Telerik.Web.UI version you use.
 
-**Install-Package WindowsAzure.Storage -Version 1.7.0.0** - for Telerik.Web.UI .NET3.5, .NET4.0, .NET4.5 version 2013.3.1324 or earlier.
+>caption Table 1: Package Manager command to restore the appropriate NuGet package, depending on the Telerik version and the .NET your project is targetting
 
-**Install-Package WindowsAzure.Storage -Version 1.7.0.0** - for Telerik.Web.UI .NET3.5 version 2014.1.XXXXor later.
+| Telerik.Web.UI version | Targetting .NET 4.0 and later             | Targetting .NET 3.5                     |
+|------------------------|------------------------------------------|------------------------------------------|
+| >= 2014.1.225          | Install-Package WindowsAzure.Storage -Version 3.0.2 | Install-Package WindowsAzure.Storage -Version 1.7.0.0 |
+| < 2013.3.1324          | Install-Package WindowsAzure.Storage -Version 1.7.0.0 | Install-Package WindowsAzure.Storage -Version 1.7.0.0 |
 
-**Install-Package WindowsAzure.Storage -Version 3.0.2** - for Telerik.Web.UI .NET4.0, .NET4.5 version 2014.1.XXXX or later.
+>caption Figure 1: Example of using the NuGet Package Manager Console to add the Azure package
 
 ![cloudupload-azure-nuget](images/cloudupload-azure-nuget.png)
 
->note The package management tool will add a few assemblies. **CloudUpload** requires:
-> *Microsoft.WindowsAzure.StorageClient, Microsoft.WindowsAzure* assemblies for **Telerik.Web.UI .NET3.5, .NET4.0, .NET4.5 version 2013.3.1324** or earlier and **Telerik.Web.UI .NET3.5 version 2014.1.XXXX** or later.
-> *Microsoft.WindowsAzure.Storage, Microsoft.WindowsAzure.Storage.Auth, Microsoft.WindowsAzure.Storage.Blob* assemblies for **Telerik.Web.UI .NET4.0, .NET4.5 version 2014.1.XXXX** or later.
->The other assemblies can be removed.
->When Web Application is used the Copy Local property in the Reference Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
->
+For version **`3.0.2`**, only the **`Microsoft.WindowsAzure.Storage.dll`** assembly with version **`3.0.2.0`** is used by RadCloudUpload. 
+
+For version **`1.7.0.0`**, only the **`Microsoft.WindowsAzure.StorageClient.dll`** assembly with version **`6.0.6002.18488`** is used by RadCloudUpload.
+
+The `Microsoft.WindowsAzure.Configuration.dll` assembly is not used, but the other dependencies may be used by the Azure code.
+
+>note When a Web Application type of project is used the **Copy Local** property in the **Reference** Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
+
+
+If you use newer versions of the `WindowsAzure.Storage` package, there is a risk of a breaking change in the library to break RadCloudUpload. File uploads may stop working or you may get errors such as `NullReferenceException` from `Telerik.Web.UI.CloudUploadHandler.GetEncryptedText`.
 
 
 ## Configuration
