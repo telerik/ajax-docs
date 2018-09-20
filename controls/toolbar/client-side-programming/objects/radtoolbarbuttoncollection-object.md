@@ -6,6 +6,7 @@ slug: toolbar/client-side-programming/radtoolbarbuttoncollection-object
 tags: radtoolbarbuttoncollection,object
 published: True
 position: 3
+previous_url: controls/toolbar/client-side-programming/radtoolbarbuttoncollection-object
 ---
 
 # RadToolBarButtonCollection Object

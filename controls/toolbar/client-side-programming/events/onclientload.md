@@ -6,6 +6,7 @@ slug: toolbar/client-side-programming/onclientload
 tags: onclientload
 published: True
 position: 1
+previous_url: controls/toolbar/client-side-programming/onclientload
 ---
 
 # OnClientLoad

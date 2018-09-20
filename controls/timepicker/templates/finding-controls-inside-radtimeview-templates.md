@@ -6,6 +6,7 @@ slug: timepicker/templates/finding-controls-inside-radtimeview-templates
 tags: finding,controls,inside,radtimeview,templates
 published: True
 position: 3
+previous_url: controls/calendar/templates/finding-controls-inside-radtimeview-templates
 ---
 
 # Finding Controls inside RadTimeView Templates

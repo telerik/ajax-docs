@@ -6,6 +6,7 @@ slug: calendar/functionality/templates/day-templates
 tags: radcalendar,day,templates
 published: True
 position: 0
+previous_url: controls/calendar/templates/radcalendar-day-templates
 ---
 
 # Day Templates

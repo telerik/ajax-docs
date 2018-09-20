@@ -6,6 +6,7 @@ slug: grid/how-to/common/radtoolbar-as-command-item
 tags: radtoolbar,as,command,item
 published: True
 position: 13
+previous_url: controls/grid/how-to/radtoolbar-as-command-item
 ---
 
 # RadToolBar as Command Item

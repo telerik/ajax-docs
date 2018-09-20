@@ -6,6 +6,7 @@ slug: timepicker/templates/radtimeview-templates
 tags: radtimeview,templates
 published: True
 position: 2
+previous_url: controls/calendar/templates/radtimeview-templates
 ---
 
 # RadTimeView Templates

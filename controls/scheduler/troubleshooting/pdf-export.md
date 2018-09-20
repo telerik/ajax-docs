@@ -6,6 +6,7 @@ slug: scheduler/troubleshootings/pdf-export
 tags: pdf,export
 published: True
 position: 1
+previous_url: controls/scheduler/troubleshootings/pdf-export
 ---
 
 # PDF Export Troubleshooting

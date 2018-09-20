@@ -6,6 +6,7 @@ slug: tabstrip/client-side-programming/onclienttabselecting
 tags: onclienttabselecting
 published: True
 position: 11
+previous_url: controls/tabstrip/client-side-programming/onclienttabselecting
 ---
 
 # OnClientTabSelecting
