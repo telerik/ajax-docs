@@ -3,7 +3,7 @@ title: Insert in Grid with Tooltip
 page_title: Insert in Grid with Tooltip | RadGrid for ASP.NET AJAX Documentation
 description: Insert in Grid with Tooltip
 slug: grid/how-to/data-editing/insert-in-grid-with-tooltip
-previous_url: controls/grid/data-editing/how-to/insert-in-grid-with-tooltip
+previous_url: controls/grid/how-to/insert-in-grid-with-tooltip
 tags: insert,in,grid,with,tooltip
 published: True
 position: 11
