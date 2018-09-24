@@ -20,7 +20,7 @@ position: 0
 
 * Other third-party controls (including other Telerik controls)
 
-At design time, add item templates to your **RadMenu** control usingthe [Template Design Surface]({%slug menu/design-time/template-design-surface%}). **RadMenu** supports several types of item templates:
+At design time, add item templates to your **RadMenu** control using the [Template Design Surface]({%slug menu/design-time/template-design-surface%}). **RadMenu** supports several types of item templates:
 
 1. The global **RadMenuItem** template affects the appearance of all items in the menu.
 
@@ -50,9 +50,11 @@ For live examples of using templates, see [Templates](http://demos.telerik.com/a
 >
 
 
->caution If you add items via a **WebService** , templates will not be applied to these items.
+>caution If you add items via a **WebService**, templates will not be applied to these items.
 >
 
+>caution In Mobile render mode, RadMenu does not support Templates and images cannot be added to menu items by using their ImageUrl property.
+>
 
 # See Also
 

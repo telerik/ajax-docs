@@ -112,7 +112,9 @@ By default, changes made in client-side code do not persist over a post-back to 
 ````JavaScript
 function AddNewItem() {     
     var menu = $find("<%= RadMenu1.ClientID %>");
-    var menuItem = new Telerik.Web.UI.RadMenuItem();
+    // items in Mobile render mode are of type MobileMenuItem while in other render modes it is RadMenuItem
+    var menuItemClass = Telerik.Web.UI.RadMenuItem || Telerik.Web.UI.MobileMenuItem;
+    var menuItem = new menuItemClass();
     menuItem.set_text("New Item");
     menu.trackChanges();
     menu.get_items().add(menuItem);

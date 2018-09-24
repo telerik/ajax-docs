@@ -14,6 +14,9 @@ position: 4
 
 **RadMenu for ASP.NET AJAX** provides a client-side API for adding, deleting and disabling items.By using the **trackChanges** and **commitChanges** methods of the client-side **RadMenu** object, these changes can persist after a postback.
 
+>note The Menu items in Mobile render mode are of type `Telerik.Web.UI.MobileMenuItem`.
+>
+
 ## Adding Items
 
 To add an item, use the **add** or **insert** method of the itemcollection:
@@ -21,12 +24,13 @@ To add an item, use the **add** or **insert** method of the itemcollection:
 ````JavaScript
 function AddNewItems()
 {    
+    var menuItemClass = Telerik.Web.UI.RadMenuItem || Telerik.Web.UI.MobileMenuItem;
     var menu = $find("<%= RadMenu1.ClientID %>"); 
-    var rootItem = new Telerik.Web.UI.RadMenuItem();  
+    var rootItem = new menuItemClass();  
     rootItem.set_text("New Root Item");  
-    var childItem = new Telerik.Web.UI.RadMenuItem();  
+    var childItem = new menuItemClass();  
     childItem.set_text("New Child Item");  
-    var firstChild = new Telerik.Web.UI.RadMenuItem();  
+    var firstChild = new menuItemClass();  
     firstChild.set_text("New First Child");   
     menu.trackChanges();  
     menu.get_items().add(rootItem);  

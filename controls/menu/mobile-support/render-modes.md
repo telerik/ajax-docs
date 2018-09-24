@@ -27,11 +27,13 @@ The possible options are:
 >important RadMenu, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
->caution RadMenu does not support separators when the control is in Lightweight RenderMode.
->
+### Render mode specific limitations
 
->caution RadMenu does not support Templates and images cannot be added to menu items by using their ImageUrl property when the control is in Mobile RenderMode.
->
+* In Lightweight render mode, RadMenu does not support separators
+
+* In Mobile render mode, RadMenu does not support Templates and images cannot be added to menu items by using their ImageUrl property
+
+* In Mobile render mode, client-side RadMenu items are of type `Telerik.Web.UI.MobileMenuItem` while in the other render modes the items are of type `Telerik.Web.UI.RadMenuItem`.
 
 ## Setting the Render Modes
 

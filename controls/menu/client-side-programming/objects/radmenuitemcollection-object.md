@@ -17,6 +17,8 @@ The **RadMenuItemCollection** object is returned by the **get_items** method of 
 >note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the menu object and the **commitChanges** method of the menu object.
 >
 
+>note In Mobile render mode, client-side RadMenu items are of type `Telerik.Web.UI.MobileMenuItem` while in the other render modes the items are of type `Telerik.Web.UI.RadMenuItem`.
+>
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -35,7 +37,8 @@ The **RadMenuItemCollection** object is returned by the **get_items** method of 
 ````JavaScript
 var menu = $find("<%= RadMenu1.ClientID %>");
 menu.trackChanges();
-var childItem = new Telerik.Web.UI.RadMenuItem();
+var menuItemClass = Telerik.Web.UI.RadMenuItem || Telerik.Web.UI.MobileMenuItem;
+var childItem = new menuItemClass();
 childItem.set_text("New");
 menu.get_items().add(childItem);
 menu.commitChanges();		
@@ -46,7 +49,8 @@ menu.commitChanges();
 ````JavaScript
 var menu = $find("<%= RadMenu1.ClientID %>");
 menu.trackChanges();
-var childItem = new Telerik.Web.UI.RadMenuItem();
+var menuItemClass = Telerik.Web.UI.RadMenuItem || Telerik.Web.UI.MobileMenuItem;
+var childItem = new menuItemClass();
 childItem.set_text("New");
 menu.get_items().insert(0, childItem);
 menu.commitChanges();		
