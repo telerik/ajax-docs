@@ -97,3 +97,19 @@ div.RadComboBoxDropDown_Outlook .rcbImage
 
 
 Note that here the Outlook is the name of the Skin of the combobox. You need to change it with the name of the skin that you use.
+
+## Image Alt Attribute
+
+The `alt` attribute of the `<img />` tag that is rendered is taken from the `ToolTip` property of the combo item. By default it is an empty string, and so the attribute will render empty.
+
+To set the `alt` attribute of the image, set the `ToolTip` property of the item:
+
+````ASP.NET
+<telerik:RadComboBox ID="RadComboBox1" runat="server" RenderMode="Lightweight">
+	<Items>
+		<telerik:RadComboBoxItem ImageUrl="Img/first.gif" Text="no tooltip, empty alt"></telerik:RadComboBoxItem>
+		<telerik:RadComboBoxItem ImageUrl="Img/second.gif" Text="item has tooltip, image has alt" ToolTip="lorem ipsum"></telerik:RadComboBoxItem>
+	</Items>
+</telerik:RadComboBox>
+````
+
