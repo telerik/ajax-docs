@@ -55,21 +55,24 @@ The following table lists the methods of the client-side **RadDropDownList** obj
 >caption  Example 1: Find an item by index, text, value.
 ````JavaScript
 var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-var itemByIndex = dropdownlist.getItem(0);
-var itemByText = dropdownlist.findItemByText("Item 1");
-var itemByValue = dropdownlist.findItemByValue("1");
+var itemsList = dropwdownlist.get_items();
+var itemByIndex = itemsList.getItem(0);
+var itemByText = itemsList.findItemByText("Item 1");
+var itemByValue = itemsList.findItemByValue("1");
 ````
 
 >caption  Example 2: Select an item.
 ````JavaScript
 var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-var itemByIndex = dropdownlist.getItem(0);
+var itemsList = dropwdownlist.get_items();
+var itemByIndex = itemslist.getItem(0);
 itemByIndex.select();
 ````
 
 >caption  Example 3: Clear selection.
 ````JavaScript
 var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+var itemsList = Itemslist.get_items();
 var selectedItem = dropdownlist.get_selectedItem();
 if(selectedItem){
     selectedItem.unselect();
