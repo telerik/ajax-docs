@@ -66,7 +66,7 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and 
 
 ## Mark Matches
 
-**STARTS WITH**
+**STARTS WITH** (`EnableMarkMatches="true"`)
 
 * Start typing to highlight the matching items.
 
@@ -74,13 +74,16 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and 
 
 * **Backspace** removes a single character.
 
-**FIRST LETTER**
+**FIRST LETTER** (`EnableMarkMatches="false"`)
 
 * Any key navigates to a matching item.
 
 * Subsequent press on the same key iterates over the matches.
 
 >note Marking matches works only for the built-in items, because it relies on their `Text` and structure. This means that using the `ItemTemplate` will disable the Mark Matches functionality.
+>
+> For the feature to work, the `TabIndex` property of the control must be set, otherwise it cannot receive focus and the keyboard events.
+
 
 
 # See Also
