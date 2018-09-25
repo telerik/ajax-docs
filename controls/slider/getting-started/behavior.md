@@ -12,13 +12,13 @@ position: 2
 
 ## ItemType set to None or Tick
 
-To control slider behavior, set the **MinimumValue, MaximumValue** and **Value** properties. **MinimumValue** and **MaximumValue** limit the lower and upper bounds that **Value** may be set at.
+To control slider behavior, set the **MinimumValue**, **MaximumValue** and **Value** properties. **MinimumValue** and **MaximumValue** limit the lower and upper bounds that **Value** may be set at any value between them.
 
->caution MaximumValue must be greater than MinimumValue to avoid generating an error.
+>note MaximumValue must be greater than MinimumValue to avoid generating an error.
 
-In the example below, **Value** can not be less than one or more than twelve.
+In Example 1 below, **Value** can not be less than zero or more than thirty.
 
-The **LargeChange** property controls the increment of the **Value**. For example, if **Value** is 50, **LargeChange** is 10 and the user clicks to the right of the drag handle, the new **Value** will be 60.
+The **LargeChange** property controls the increment of the **Value**. For example, if **Value** is 50, **LargeChange** is 10 and the user clicks to the right of the drag handle, the new **Value** will be 60. If **LargeChange** is set to **0** the value will move to the point at which the user clicked. In this case the large ticks that denote the large change intervals are not rendered.
 
 The **SelectedRegionStartValue** property determines from which value will start the selected region of the slider. By default it is set to the minimum value of the slider.
 
@@ -28,8 +28,8 @@ The **SelectedRegionStartValue** property determines from which value will start
 <telerik:RadSlider
    ID="RadSlider1"
    runat="server"
-   MaximumValue="12"
-   MinimumValue="-12"
+   MaximumValue="40"
+   MinimumValue="0"
    Value="2"
    LargeChange ="10"
    SelectedRegionStartValue="0"
