@@ -112,4 +112,4 @@ End Sub
 
 ## See Also
 
- * [Ajaxifying particular controls in Telerik RadGrid template column with RadAjaxManager](http://www.Telerik.com/support/kb/article/b454K-ted-b454T-ceh.aspx)
+ * [Ajaxifying particular controls in Telerik RadGrid template column with RadAjaxManager](https://demos.telerik.com/aspnet-ajax/ajaxmanager/application-scenarios/partial-ajaxification/defaultcs.aspx)
