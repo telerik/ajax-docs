@@ -65,11 +65,11 @@ In order to prevent the update operation if the user enters data in an edit fiel
 
 1. Check whether the current item is in edit mode;
 
-1. Obtain reference to the respective GridColumnEditor instance and the editing control inside it;
+2. Obtain reference to the respective **GridColumnEditor** instance and the editing control inside it;
 
-1. Create the validator and set its **ControlToValidate** property to point to the editing control;
+3. Create the validator and set its **ControlToValidate** property to point to the editing control;
 
-1. Add the validator to the Controls collection of the editing control Parent.
+4. Add the validator to the Controls collection of the editing control Parent.
 
 Below are the code snippets of an example in which we add **RequiredFieldValidator** to the **TextBox** editor of **GridBoundColumn**.
 
@@ -170,6 +170,111 @@ End Sub
 ````
 
 
+## Adding a custom validator explicitly
+
+In order to prevent the update operation if the user enters data in an edit field which is not in the correct format, you can wire the **ItemCreated** event of the grid to add a validator of your choice. These steps will guide you through this process:
+
+1. Check whether the current item is in edit mode;
+
+2. Obtain reference to the respective **GridColumnEditor** instance and the editing control inside it;
+
+3. Create the validator and set its **ControlToValidate** property to point to the editing control;
+
+4. Enable the **ValidateEmptyText** property of the validator if you prefer to check for empty inputs as well;
+
+5. Set the **ClientValidationFunction**;
+
+6. Subscribe to the **ServerValidate** event;
+
+7. Optionally, you can set the **ValidationGroup** to separate the validation logic of the insert, edit or multiple edit forms;
+
+8. Add the validator to the Controls collection of the editing control Parent;
+
+Below are the code snippets of an example in which we add **CustomValidator** to the **TextBox** editor of **GridBoundColumn**. If the new value does not contain the letter *a*, the validation will fail on client-side. And if the new value does not contain the letter *b*, the validation will fail this time on server-side.
+
+
+
+````ASP.NET
+<telerik:GridBoundColumn DataField="ShipName"
+    FilterControlAltText="Filter ShipName column" HeaderText="ShipName"
+    SortExpression="ShipName" UniqueName="ShipName">
+</telerik:GridBoundColumn>
+````
+````JavaScript
+function shipNameValidation(valEl, args) {
+    // validate on client-side
+    args.IsValid = args.Value.includes("a");
+}
+````
+````C#
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item.IsInEditMode)
+    {
+        GridEditableItem item = e.Item as GridEditableItem;
+        GridTextBoxColumnEditor editor = (GridTextBoxColumnEditor)item.EditManager.GetColumnEditor("ShipName");
+        TableCell cell = (TableCell)editor.TextBoxControl.Parent;
+
+        CustomValidator validator = new CustomValidator()
+        {
+            ID = "CustomValidatorShipName",
+            ControlToValidate = editor.TextBoxControl.ID,
+            ValidateEmptyText = true,
+            ErrorMessage = "* Cannot be empty and should contain a and b",
+            ForeColor = Color.OrangeRed,
+            ClientValidationFunction = "shipNameValidation",
+            ValidationGroup = editor.TextBoxControl.UniqueID
+        };
+        validator.ServerValidate += CustomValidatorShipName_ServerValidate;
+
+        // prevent insert and edit forms to validate each other
+        // this button can also be of type Button, ImageButton or LinkButton depending on the following property:
+        // RadGrid1.MasterTableView.EditFormSettings.EditColumn.ButtonType = GridButtonColumnType.FontIconButton; (default)
+        string buttonName = item is IGridInsertItem ? "PerformInsertButton" : "UpdateButton";
+        (item.FindControl(buttonName) as ElasticButton).ValidationGroup = editor.TextBoxControl.UniqueID;
+
+        cell.Controls.Add(validator);
+    }
+}
+private void CustomValidatorShipName_ServerValidate(object source, ServerValidateEventArgs args)
+{
+    // validate on server-side
+    args.IsValid = args.Value.Contains("b");
+}
+````
+````VB
+Protected Sub RadGrid1_ItemCreated(sender As Object, e As GridItemEventArgs)
+    If e.Item.IsInEditMode Then
+        Dim item As GridEditableItem = TryCast(e.Item, GridEditableItem)
+        Dim editor As GridTextBoxColumnEditor = CType(item.EditManager.GetColumnEditor("ShipName"), GridTextBoxColumnEditor)
+        Dim cell As TableCell = CType(editor.TextBoxControl.Parent, TableCell)
+        Dim validator As CustomValidator = New CustomValidator() With {
+            .ID = "CustomValidatorShipName",
+            .ControlToValidate = editor.TextBoxControl.ID,
+            .ValidateEmptyText = True,
+            .ErrorMessage = "* Cannot be empty and should contain a and b",
+            .ForeColor = Color.OrangeRed,
+            .ClientValidationFunction = "shipNameValidation",
+            .ValidationGroup = editor.TextBoxControl.UniqueID
+        }
+        AddHandler validator.ServerValidate, AddressOf CustomValidatorShipName_ServerValidate
+
+        ' prevent insert And edit forms to validate each other
+        ' this button can also be of type Button, ImageButton Or LinkButton depending on the following property:
+        ' RadGrid1.MasterTableView.EditFormSettings.EditColumn.ButtonType = GridButtonColumnType.FontIconButton; (default)
+        Dim buttonName As String = If(TypeOf item Is IGridInsertItem, "PerformInsertButton", "UpdateButton")
+        TryCast(item.FindControl(buttonName), ElasticButton).ValidationGroup = editor.TextBoxControl.UniqueID
+        cell.Controls.Add(validator)
+    End If
+End Sub
+Protected Sub CustomValidatorShipName_ServerValidate(source As Object, args As ServerValidateEventArgs)
+    ' validate on server-side
+    args.IsValid = args.Value.Contains("b")
+End Sub
+````
+
+You can find a runnable web site sample in the [Add Custom Validator Explicitly for RadGrid Editing ](https://www.telerik.com/support/code-library/add-custom-validator-explicitly-for-radgrid-editing) Code-Library.
+
 ## Adding a validator to EditItemTemplate of GridTemplateColumn
 
 The approach is the same as with the standard MS DataGrid control. You can place the respective validator in the **EditItemTemplate** of your **GridTemplateColumn** and relate its **ControlToValidate** property with the ID of the control you would like to validate. In the forthcoming sample the **RequiredFieldValidator** control will validate the **TextBox** control inside the **EditItemTemplate**:
@@ -208,7 +313,7 @@ The approach is the same as with the standard MS DataGrid control. You can place
   ControlToValidate="TextBox1" OnServerValidate="CustomValidator1_ServerValidate">
 </asp:CustomValidator>
 ````
-````C#	
+````C#
 protected void CustomValidator1_ServerValidate(object source, System.Web.UI.WebControls.ServerValidateEventArgs args)
 {
     if (args.Value.StartsWith("X"))
