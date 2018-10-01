@@ -15,7 +15,11 @@ position: 10
 
 The Visual Studio designer classes of the **Telerik® UI for ASP.NET AJAX** are located in the **Telerik.Web.Design** assembly.
 
-During the installation of **Telerik® UI for ASP.NET AJAX**, the **Telerik.Web.Design** assembly gets added to the [GAC](http://msdn.microsoft.com/en-us/library/yf1d93sz(VS.80).aspx). Starting a page with any Telerik control on it in design mode, the Visual Studio IDE searches the designer class of the Telerik control and the **Telerik.Web.Design** assembly respectively. Normally, when the assembly is located in the GAC, the Visual Studio IDE loads it properly and displays the control designers.
+>note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite. Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
+>
+>As of R1 2018, this assembly is no longer added to the GAC by the installer.
+
+During the installation of **Telerik® UI for ASP.NET AJAX** before R1 2018, the **Telerik.Web.Design** assembly gets added to the [GAC](http://msdn.microsoft.com/en-us/library/yf1d93sz(VS.80).aspx). Starting a page with any Telerik control on it in design mode, the Visual Studio IDE searches the designer class of the Telerik control and the **Telerik.Web.Design** assembly respectively. Normally, when the assembly is located in the GAC, the Visual Studio IDE loads it properly and displays the control designers.
 
 There are several cases that errors occur in design time.
 ![Visual Studio Design Time Error](images/introduction-vsx_vsdesigntimeerror.gif)
