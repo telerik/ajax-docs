@@ -12,7 +12,7 @@ position: 1
 
 The **Sass Theme Builder** for Telerik® UI for ASP.NET AJAX is a convenient customization tool providing the ability and power to create your own custom **Lightweight** skins and themes quickly and efficiently. This could be easily achieved without the necessity of understanding the underlying HTML and CSS structure of the controls.
 
->tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
+>tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used (for every control you would like to style, its stylesheet should be registered individually).
 
 
 ## Creating a New Theme
