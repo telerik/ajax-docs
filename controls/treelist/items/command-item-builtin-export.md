@@ -12,7 +12,7 @@ position: 2
 
 
 
-Since R2 2016 the **RadTreeList** control provides **CommandItem** for its **Lightweight RenderMode**. The CommandItem is a placeholder for export commands.
+Since R2 2016 the **RadTreeList** control provides **CommandItem** for its **Lightweight** and **Mobile** Render Modes. The CommandItem is a placeholder for export commands.
 
 ![](images/treelist-command-item1.png)
 
