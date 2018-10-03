@@ -14,7 +14,6 @@ position: 1
 
 **RadTreeList** provides the possibility to display column aggregates.The calculated total values are displayed in the footer item at the end of each level.
 
-## 
 
 Below you can find a list of the available aggregate functions:
 
@@ -34,13 +33,13 @@ Below you can find a list of the available aggregate functions:
 
 * Sum
 
-You can set the **Aggregate** property of a bound column to the function that youwant to be used in calculating the aggregated value. Then just set **ShowFooter="true"** in the RadTreeList declaration tostart showing aggregates. A footer will appear at the bottom of each level in the treelist showing the totals from theitems in this level. The footer at the root level shows the aggregated values for all items inside the control's [resolved datasource]({%slug treelist/structure%}).
+You can set the **Aggregate** property of a **bound column** to the function that youwant to be used in calculating the aggregated value. Then just set **ShowFooter="true"** in the **RadTreeList** declaration tostart showing aggregates. A footer will appear at the bottom of each level in the treelist showing the totals from theitems in this level.
 
 You can also specify the **FooterAggregateFormatString** property of the treelist column in orderto format the text describing the total displayed in the footer.
 
 Here follows example treelist declaration using the above mentioned properties:
 
-````ASPNET
+````ASPX
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 AutoGenerateColumns="false" ParentDataKeyNames="ParentLocationID" AllowPaging="true"
 PageSize="10" DataKeyNames="LocationID" AllowSorting="true" ShowFooter="true">
@@ -78,6 +77,12 @@ PageSize="10" DataKeyNames="LocationID" AllowSorting="true" ShowFooter="true">
 
 The result from these settings would look like this:
 ![RadTreeList column aggregates](images/treelist_column_aggregates.png)
+
+## Limitations
+
+The footer at the root level shows the aggregated values for all items inside the control's [resolved datasource]({%slug treelist/structure%}).
+
+This also means that aggregates are not available with [load on demand]({%slug treelist/data-binding/load-on-demand%}) because the data source of the control is not fully resolved.
 
 # See Also
 

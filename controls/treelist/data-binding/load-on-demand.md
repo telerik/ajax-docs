@@ -56,10 +56,14 @@ End Sub
 ````
 
 
-## 
+In addition, the RadTreeList control always shows the ExpandCollapse button in front of each item. When the item is expanded and there are no nested items, nothing will be displayed below the expanded item, even though there was a button to exapnd it.
 
-In addition the RadTreeList control always shows ExpandCollapse button in front of each item. When the item is expanded and there is no nested items, by default nothing will be displayed below the expanded item, but the ExpandCollapse button will stay.
 
->note Note that the **HideExpandCollapseButtonIfNoChildren** property is not applicable when LoadOnDemand is enabled.
->
+## Limitations
+
+The data source of the control and items is not fully resolved when load-on-demand is used, and this poses a couple of limitations:
+
+* The **HideExpandCollapseButtonIfNoChildren** property is not applicable when LoadOnDemand is enabled.
+* [Aggregates]({%slug treelist/column/aggregates%}) cannot be used with load-on-demand.
+
 

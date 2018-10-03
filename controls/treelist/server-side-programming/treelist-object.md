@@ -48,7 +48,7 @@ Below are listed the properties, methods, collections and events you should be a
 | **EnableEmbeddedSkins** |Gets or sets value, indicating whether to render the embedded skin css file of the control or not.|
 | **EnableViewState** |Gets or sets value indicating whether the RadTreeList ViewState is enabled or not. The default value is true.|
 | **GridLines** |Gets or sets value indicating whether borders will be displayed when the RadTreeList is rendered. Can be set to "Both" (the default value), "None", "Horizintal" and "Vertical".|
-| **HideExpandCollapseButtonIfNoChildren** |Specifies whether the expand collapse button should be hidden when there are no children for a certain item (not used with load-on-demand functionality of the control).|
+| **HideExpandCollapseButtonIfNoChildren** |Specifies whether the expand collapse button should be hidden when there are no children for a certain item (not compatible with the load-on-demand functionality of the control).|
 | **IsItemInserted** |Indicates whether a root item is currently being inserted.|
 | **LocalizationPath** |Gets or sets a value indicating where the control will look for its .resx localization files.By default these files should be in the App_GlobalResources folder.|
 | **NoRecordsTemplate** |Sets a template which will be used to generate a NoRecordsItem when the RadTreeList control is bound to an empty datasource.|
