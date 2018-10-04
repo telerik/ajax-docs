@@ -27,19 +27,20 @@ Since Q2 2012 there are some modifications for RadInput validation.The main idea
 
 The following declaration shows the use of a required field validator from the form above:
 
-````ASPNET
+````ASPX
 <telerik:RadTextBox
-	id="RadTextBox1"
+	ID="RadTextBox1"
 	runat="server"
-	Skin="WebBlue">
+	RenderMode="Lightweight">
 </telerik:RadTextBox>
 <asp:RequiredFieldValidator
 	ID="TextBoxRequiredFieldValidator"
-	Runat="server"
+	runat="server"
 	Display="Dynamic"
 	ControlToValidate="RadTextBox1"
-	ErrorMessage="The textbox can not be empty!" >
+	ErrorMessage="The textbox can not be empty!">
 </asp:RequiredFieldValidator>
+<asp:Button Text="Postback" ID="btn1" runat="server" />
 ````
 
 
@@ -59,37 +60,8 @@ By default, all validators on the Web page must be successful before the postbac
 
 The validator controls have a **ValidationGroup** property. The **RadInput** controls also have a **ValidationGroup** property. When the input control causes a postback and triggers the validators on the page, itonly causes validation by those validators whose **ValidationGroup** property matches the **ValidationGroup** property of the input control. (The reason the default behavior is for all validators to executeon postback is because the default value of the **ValidationGroup** property on both the input control and the validatorsis an empty string.)
 
-## Display ErrorMessage inside RadInput
 
-The following example demonstrates how you could display your ErrorMessage inside the input itself following an unsuccessful validation.
+## See Also
 
-````JavaScript
-<script type="text/javascript">
-if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undefined") {
-	ValidatorUpdateDisplayOriginal = ValidatorUpdateDisplay;
-	ValidatorUpdateDisplay = function (val) {
-		var control = $find(val.controltovalidate);
-		if ((!val.isvalid) && control && control.set_invalid) {
-			control.set_invalid(true)
-		}
-		ValidatorUpdateDisplayOriginal(val);
-	};
-}
-</script>
-````
-
-
-
-````ASPNET
-<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" EmptyMessage="Enter username">
-</telerik:RadTextBox>
-<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox2" runat="server" EmptyMessage="Enter password">
-</telerik:RadTextBox>
-<asp:Button ID="Button1" runat="server" Text="PostBack" />
-<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Text="username is required" ControlToValidate="RadTextBox1"
-	Style="display: none;"></asp:RequiredFieldValidator>
-<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" Text="password is required" ControlToValidate="RadTextBox2"
-	Style="display: none;"></asp:RequiredFieldValidator>
-````
-
+* [Display ErrorMessage inside RadInput](https://www.telerik.com/support/kb/aspnet-ajax/textbox/details/how-to-display-errormessage-inside-radtextbox)
 
