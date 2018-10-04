@@ -20,7 +20,9 @@ Telerik.Web.UI.GridColumnEventArgs OnCellSelected Property
 >
 
 
-This event is fired after a cell is selected.
+This event is fired after a cell is selected in the MasterTable. 
+
+>note To raise **CellSelected** event for cells of **DetailTables** in **Hierarchical RadGrid**, select the cells manually using client-side logic. To do that, you can follow the approach from the [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article)
 
 
 |  **Fired by**  | RadGrid |
