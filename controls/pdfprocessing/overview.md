@@ -15,7 +15,7 @@ position: 0
             
 __RadPdfProcessing__ is a processing library that allows to create, import and export PDF documents.
 
-![RadPdfProcessing Overview image](images/RadPdfProcessing_Overview_01.PNG)
+![RadPdfProcessing Overview image](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/images/RadPdfProcessing_Overview_WPF_01.PNG)
 
 The API of RadPdfProcessing contains two different editors, enabling you to choose between editing in a flow-like manner, or using the much more powerful and flexible fixed document structure and drawing on the page.
             
