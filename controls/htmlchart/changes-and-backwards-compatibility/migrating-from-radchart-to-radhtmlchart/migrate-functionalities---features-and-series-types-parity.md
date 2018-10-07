@@ -37,7 +37,7 @@ You can find the list of missing appearance and styling features in **RadHtmlCha
 | Feature Name | Details |
 | ------ | ------ |
 | **Detailed customization of the elements positions** |Positions can be chosen (e.g. bottom, left, right, top), but exact numbers like **left=20px** cannot be used. The exception is the legend - you can offset the X and Y coordinates of the legend in **RadHtmlChart** through the **chartObject**, as illustrated in [this](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item.|
-| **Control over bars width and overlap** |The feature is available in the **RadHtmlChart** under the name of **gap and spacing**. The only limitation of the feature is that bars/columns cannot be overlapped. See an example in [Gap and Spacing]({%slug htmlchart/appearance-and-styling/gap-and-spacing%}) help article.|
+| **Control over bars width and overlap** |The feature is available in the **RadHtmlChart** under the **Gap** and **Spacing** properties that the appropriate series types expose. For versions prior to R1 2019, the bars/columns cannot be overlapped. See more details and examples in the [Gap and Spacing]({%slug htmlchart/appearance-and-styling/gap-and-spacing%}) help article.|
 | **Modify the legend items** |You can modify only their appearance; the legend contents are generated	from the series collection.|
 | **Custom background images** |The chart can be wrapped in a container element that has a background image. **ChartArea** and/or **PlotArea** elements must also be set with transparent color.|
 
