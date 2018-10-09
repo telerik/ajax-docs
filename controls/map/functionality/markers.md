@@ -126,3 +126,7 @@ In **Example 4** you can see how the marker tooltip is configured to show a [Ken
  * [Client-side]({%slug map/data-binding/client-side%})
 
  * [Kendo Map documentation](https://docs.telerik.com/kendo-ui/api/dataviz/map)
+ 
+ * [Custom Markers with Server-side Data Binding](https://www.telerik.com/support/code-library/custom-markers-with-server-side-data-binding) code-library project
+ 
+ * [Customizing Markers and Tooltips in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%})
