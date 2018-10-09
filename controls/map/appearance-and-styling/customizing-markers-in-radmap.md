@@ -30,7 +30,17 @@ You can quickly navigate through the sections in this list:
 
 **RadMap**’s **Marker**, as part of the HTML page, is rendered as a plain `	<span>`tag. By design, the **Shape** property defines the look of the **Marker**. Behind the scenes, this is achieved just by modifying the default class name of the `	<span>` tag.
 
-For example, a **Shape** property with value **myCustomShape** or **my-custom-shape** will render this **Marker** element - `<span class="k-marker k-marker-my-custom-shape"></span>`. As you can see, values with camelCase style are converted to words separated with dashes.
+For example, a **Shape** property with value **myCustomShape** or **my-custom-shape** will render this **Marker** element - `<span class="k-marker k-icon k-i-marker-my-custom-shape"></span>`. As you can see, values with camelCase style are converted to words separated with dashes. The function used to convert the words is as follows: 
+
+````JavaScript
+function toHyphens(str) {
+    return str.replace(/([a-z][A-Z])/g, function (g) {
+        return g.charAt(0) + '-' + g.charAt(1).toLowerCase();
+    });
+}
+````
+
+> Note: In versions prior R3 2018 the generated element is `<span class="k-marker k-marker-my-custom-shape"></span>`.
 
 Later, this class can be used to specify the look of the **Marker** using a CSS rule.
 
@@ -61,7 +71,7 @@ In order to change the marker color, you will need to decorate the **:before** p
 
 ````ASP.NET
 <style type="text/css">
-	.RadMap .k-marker.k-marker-my-custom-shape:before {
+	.RadMap .k-marker.k-i-marker-my-custom-shape:before {
 		color: green;
 	}
 </style>
@@ -89,7 +99,7 @@ Optionally, you can also change the marker size (**Figure 2**) by changing the f
 >caption **Example 3**: Using the font-size CSS property to change the size of the Marker’s pseudo element.
 
 ````CSS
-.RadMap .k-marker.k-marker-my-custom-shape:before {
+.RadMap .k-marker.k-i-marker-my-custom-shape:before {
 	color: green;
 	font-size:25px;
 }
@@ -105,7 +115,7 @@ In order to replace the **Marker**’s glyph icon with an actual image, you shou
 
 ````ASP.NET
 <style type="text/css">
-	.RadMap .k-marker.k-marker-my-custom-shape:before {
+	.RadMap .k-marker.k-i-marker-my-custom-shape:before {
 		content:none;
 		font-size:0;
 		margin:0;
@@ -114,7 +124,7 @@ In order to replace the **Marker**’s glyph icon with an actual image, you shou
 		width:0;
 	}
 
-	.RadMap .k-marker.k-marker-my-custom-shape {
+	.RadMap .k-marker.k-i-marker-my-custom-shape {
 		background-image:url('[Path-to-Image]');
 		background-repeat:no-repeat;
 		background-position: 0 0;   
@@ -175,14 +185,14 @@ To make sure the tooltip looks as expected when its marker size is changed,you s
 
 ````ASP.NET
 <style type="text/css">
-	.RadMap .k-marker.k-marker-my-custom-shape:before {
+	.RadMap .k-marker.k-i-marker-my-custom-shape:before {
 		color: green;
 		font-size: 25px;
 		margin-left: -19px;
 		margin-top: -9px;
 	}
 
-	.RadMap .k-marker.k-marker-my-custom-shape {
+	.RadMap .k-marker.k-i-marker-my-custom-shape {
 		height: 25px;
 	}
 </style>
@@ -213,14 +223,14 @@ After changing the height of the span element rendered by the **Marker**, in ord
 
 ````ASP.NET
 <style type="text/css">
-	.RadMap .k-marker.k-marker-my-custom-shape:before {
+	.RadMap .k-marker.k-i-marker-my-custom-shape:before {
 		color: green;
 		font-size: 25px;
 		margin-left: -19px;
 		margin-top: -9px;
 	}
 
-	.RadMap .k-marker.k-marker-my-custom-shape {
+	.RadMap .k-marker.k-i-marker-my-custom-shape {
 		height: 25px;
 		margin-left: -14px;
 		margin-top: -28px;
@@ -247,3 +257,8 @@ After changing the height of the span element rendered by the **Marker**, in ord
  * [Demo: Client-side Data Binding](https://demos.telerik.com/aspnet-ajax/map/examples/data-binding/client-side-data-binding/defaultcs.aspx)
 
  * [Visualize the FIFA World Cup Finalists and Winners in a RadMap Control](https://blogs.telerik.com/aspnet-ajax/posts/14-08-28/visualize-the-fifa-world-cup-finalists-and-winners-in-a-radmap-control)
+
+ * [Custom Markers with Server-side Data Binding](https://www.telerik.com/support/code-library/custom-markers-with-server-side-data-binding) code-library project
+ 
+ * [Customizing Markers and Tooltips in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%})
+
