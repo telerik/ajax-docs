@@ -36,9 +36,10 @@ This article lists common issues and questions related to the **RadWindow** for 
 
 ## General Troubleshooting
 
-The RadWindow control is part of the [Telerik® UI for ASP.NET AJAX ](http://www.telerik.com/products/aspnet-ajax.aspx) suite and is intended to replace the standard browser’s popup (`window.open()`). Since the control is based on an `<iframe>`, it behaves just like one – basically, whatever can be done with an `<iframe>`, can be achieved with RadWindow as well. This fact is useful when you investigate a reason for some problem related to the RadWindow control. Just replace the RadWindow with a standard `<iframe>` or browser’s popup and see how your application will behave in this case. If the problem still exists, then it is not related to the RadWindow control but is most probably a default browser’s behavior or a problem in the used logic itself.
+The RadWindow control is part of the [Telerik® UI for ASP.NET AJAX](http://www.telerik.com/products/aspnet-ajax.aspx) suite and is intended to replace the standard browser’s popup (`window.open()`). Since the control is based on an `<iframe>`, it behaves just like one – basically, whatever can be done with an `<iframe>`, can be achieved with RadWindow as well. This fact is useful when you investigate a reason for some problem related to the RadWindow control. Just replace the RadWindow with a standard `<iframe>` or browser’s popup and see how your application will behave in this case. If the problem still exists, then it is not related to the RadWindow control but is most probably a default browser’s behavior or a problem in the used logic itself.
 
 ## Uncaught TypeError: p.onEvent is not a function
+### JavaScript runtime error: Object doesn't support property or method 'onEvent'
 
 Sometimes, when a RadWindow is shown, you may get the `Uncaught TypeError: p.onEvent is not a function` or `JavaScript runtime error: Object doesn't support property or method 'onEvent'` error in the browser console. This is an issue related to the *Unobtrusive Validation* in .NET 4.5. It brings its own  global *jQuery* to the page which sometimes replaces the jQuery the Telerik controls bring.
 
