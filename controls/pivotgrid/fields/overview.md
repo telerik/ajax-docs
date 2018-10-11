@@ -32,6 +32,6 @@ Here are the available fields in RadPivotGrid:
 
 * **Drag and Drop Fileds**- different fields can be moved between control areas using drag-and-drop.
 
->note All these zones can be hidden and only the data cells with their corresponding column header cells and row header cells could be shown.
+>tip All these zones can be hidden and only the data cells with their corresponding column header cells and row header cells could be shown.
 >
 

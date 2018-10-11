@@ -12,7 +12,7 @@ position: 4
 
 
 
->note When you apply one of the external grid skins shipped with the installation, you will need to alter the corresponding classes inside the Skins/[Skins_Name]/[Control].[SkinName].css file (see[ this documentation topic]({%slug grid/appearance-and-styling/modifying-existing-skins%})for more details). This article information is applicable when you prefer not to use the skinning mechanism of Telerik RadGrid (choosing Skin="").
+>tip When you apply one of the external grid skins shipped with the installation, you will need to alter the corresponding classes inside the Skins/[Skins_Name]/[Control].[SkinName].css file (see[ this documentation topic]({%slug grid/appearance-and-styling/modifying-existing-skins%})for more details). This article information is applicable when you prefer not to use the skinning mechanism of Telerik RadGrid (choosing Skin="").
 >
 
 

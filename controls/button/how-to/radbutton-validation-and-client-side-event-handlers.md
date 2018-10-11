@@ -14,7 +14,7 @@ When the ASP.NET Validation is used along with a **RadButton** that has client-s
 
 To avoid this effect, the client-side method [Page_ClientValidate](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) should be utilized. It forces the validation on the client and returns a boolean value, indicating whether it is successful. Using this value you can stop the execution of the client-side function in case the page is not validated. The following example shows how to achieve this.
 
->note As of Q2 2012 the client-side event **OnClientClicking** is raised after the validation of the page and calling the method **Page_ClientValidate** is no longer needed.
+>tip As of Q2 2012 the client-side event **OnClientClicking** is raised after the validation of the page and calling the method **Page_ClientValidate** is no longer needed.
 
 On the ASPX page markup below are added a **TextBox**, which is validated with **RequiredFieldValidator**. The page is submitted through a**RadButton**, that has postback confirmation executed on its **OnClientClicking** event:
 

@@ -42,7 +42,7 @@ Do not set the **AutoPostBack** property to **True** . A popup control cannot wo
 
 
 
->note 
+>tip 
 When you assign the ID of the **RadTimeView** control as value for the **SharedTimeViewID** property, it is automatically hidden from view in the rendered Web Page. You do not need to do anything additional to hide it such as placing it in a hidden panel.
 >
 

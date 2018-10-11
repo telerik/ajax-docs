@@ -28,10 +28,10 @@ Rendering of the DropDown, when the Filter and the Load On Demand features are u
 | ------ | ------ |
 |![Drop Down Auto Width Filter](images/combobox_dropdownautowidth_filter.png)|![Drop Down Auto Width LOD](images/combobox_dropdownautowidth_lod.png)|
 
->note If the text of a certain RadComboBoxItem is altered dynamically(e.g. with the help of the **set_text()** method), the **DropDownAutoWidth** property would also achieve the automatic generation of the DropDown's width.
+>tip If the text of a certain RadComboBoxItem is altered dynamically(e.g. with the help of the **set_text()** method), the **DropDownAutoWidth** property would also achieve the automatic generation of the DropDown's width.
 >
 
->note The **DropDownAutoWidth** functionality is only for the dropdown of the RadComboBox. To resize the CombobBox itself, you can change the width dynamically as explained in (Resize ComboBox input to show all of the selected item text)[https://www.telerik.com/support/kb/aspnet-ajax/combobox/details/resize-combobox-input-to-show-all-of-the-selected-item-text].
+>tip The **DropDownAutoWidth** functionality is only for the dropdown of the RadComboBox. To resize the CombobBox itself, you can change the width dynamically as explained in (Resize ComboBox input to show all of the selected item text)[https://www.telerik.com/support/kb/aspnet-ajax/combobox/details/resize-combobox-input-to-show-all-of-the-selected-item-text].
 >
 
 ## How is the auto-width of the DropDown implemented?

@@ -26,6 +26,6 @@ position: 0
 
 * Once a wizard step button is focused use the arrow keys or TAB to navigate through the items and press Enter to trigger the button's event.![wizard-keyboard-support-enter](images/wizard-keyboard-support-enter.png)
 
->note In order to enable the keyboard support in browsers, different from Internet Explorer, you shoud set the **TabIndex** property of the **RadWizard** .
+>tip In order to enable the keyboard support in browsers, different from Internet Explorer, you shoud set the **TabIndex** property of the **RadWizard** .
 >
 

@@ -14,7 +14,7 @@ By default, when the page first loads, all of the sliding panes in a sliding zon
 
 * Set the **DockedPaneId** property of the **RadSlidingZone** control to the **ID** property of one of its sliding panes to cause the sliding zone to load with that pane expanded and docked.
 
-	>note The **EnableDock** property of the sliding pane must be **True** , or the **DockedPaneId** property of the parent zone has no effect.
+	>tip The **EnableDock** property of the sliding pane must be **True** , or the **DockedPaneId** property of the parent zone has no effect.
 
 
 * Set the **ExpandedPaneId** property of the **RadSlidingZone** control to the ID property of one of its sliding panes to cause the sliding zone to load with that pane expanded but not docked.

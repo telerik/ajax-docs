@@ -12,7 +12,7 @@ position: 2
 
 This article explains the **elastic design capabilities RadEditor offers**.	The example below shows the simple approach you can use to scale the control by only changing its default font size.
 
->note The elastic design capabilities in the RadEditor control are available only when [RenderMode]({%slug editor/mobile-support/render-modes%}) is set to *Lightweight* .
+>tip The elastic design capabilities in the RadEditor control are available only when [RenderMode]({%slug editor/mobile-support/render-modes%}) is set to *Lightweight* .
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: editor/mobile-support/fluid-design")
 

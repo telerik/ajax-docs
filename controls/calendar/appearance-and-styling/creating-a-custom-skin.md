@@ -244,7 +244,7 @@ table.RadCalendarMonthView_Green
 15. Finally, you should edit the **sprite.gif** image located in the **\Green\Calendar\** folder, so that the navigation arrows become white (currently they are blue). Alternatively, you can use your own non-sprite images for **RadCalendar**. In this case you will either have to set **ImagesPath** to specify a common location for all images, or declare the location and filename of each image separately.When you run the application, **RadCalendar** should look as follows:
 ![Calendar Green skin](images/calendar_greenskin.png)
 
->note 
+>tip 
 You may want to make changes to the base stylesheet of the **RadCalendar** control, which holds the rules that are common for all skins. In order to do so, you need to copy the **Calendar.css** file from the Skins folder in your installation directory to the **Skins** folder in your project. Then, you should register it in the *head* tag and modify it to meet your requirements. Note that, to see the changes, you need to set the **EnableEmbeddedBaseStylesheet** property of **RadCalendar** to **false** .
 >
 

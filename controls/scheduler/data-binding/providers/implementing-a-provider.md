@@ -16,7 +16,7 @@ position: 1
 
 To implement a **RadScheduler** provider, you create a class that inherits from **SchedulerProviderBase**.It must implement the **GetAppointments**, **Insert**, **Update**, **Delete**, **GetResourceTypes** and **GetResourcesByType** methods.
 
->note The provider is instantiated once per application domain and is shared across threads. **RadScheduler** ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods.
+>tip The provider is instantiated once per application domain and is shared across threads. **RadScheduler** ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods.
 >
 
 

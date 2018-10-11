@@ -99,7 +99,7 @@ If you are interested in RibbonBar toolbar configuration continue reading the [U
 
 ### Tools Collection — &lt;tools&gt;&nbsp;and&nbsp;&lt;headertools&gt;
 
->note **HeaderTools** collection is introduced with the release of the [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). It is applicable only if **RadEditor** is rendered in [Mobile rendering]({%slug editor/mobile-support/render-modes%}). 
+>tip **HeaderTools** collection is introduced with the release of the [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). It is applicable only if **RadEditor** is rendered in [Mobile rendering]({%slug editor/mobile-support/render-modes%}). 
 
 The `headertools` element has no attributes. You can see how it can be configured and populated in the [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}).
 

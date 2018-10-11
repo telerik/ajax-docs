@@ -68,7 +68,7 @@ The progress bar in **Value** mode (**Figure 2**) is similar to the Percent bar 
 
 The progress bar in **Chunk** mode (**Figure 3**) is divided in equal pieces (chunks) which display the completed discrete process steps. For example, if a form has 5required inputs or a wizard is completed in 5 steps, the progress bar should be defined in 5 chunks. If two steps are completed, the first two chunks should be filled(see **Figure 3** which is created by **Example 3**).
 
->note If you want to set the current step trough the **Value** of the progress bar easily, you should set equal values to the control's **MaxValue** and **ChunksCount** properties. The default value of the **MaxValue** property is 100.
+>tip If you want to set the current step trough the **Value** of the progress bar easily, you should set equal values to the control's **MaxValue** and **ChunksCount** properties. The default value of the **MaxValue** property is 100.
 
 >caption Figure 3: ProgressBar with a predefined set of 5 steps, two of which are completed.
 

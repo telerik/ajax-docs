@@ -16,7 +16,7 @@ Returns a reference to the currently selected HTML element in the RadEditor for 
 function getParentElement()
 ````
 
->note The return value is an HTML element. The method returns the first parent element of the selection. For example, if the cursor is in the middle of a bolded text, the call to the **getParentElement** will return a reference to the `<strong>` tag.
+>tip The return value is an HTML element. The method returns the first parent element of the selection. For example, if the cursor is in the middle of a bolded text, the call to the **getParentElement** will return a reference to the `<strong>` tag.
 
 You can use also **editor.getSelectedElement();** to get a reference to the currently selected HTML element.
 

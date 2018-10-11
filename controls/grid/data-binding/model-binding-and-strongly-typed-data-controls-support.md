@@ -46,7 +46,7 @@ When we perform two-way data-binding the Bind() method is used:
 
 On the other side the .NET 4.5 provides ability to enable strongly-typed data templates. To enable them the **ItemType** property needs to be set on the data bound control. After setting it two new types will be generated in the scope of the control’s template: Item and BindItem.
 
->note Make sure that you set the **ItemType** property of **RadGrid** and the **GridTableView** containing the columns.
+>tip Make sure that you set the **ItemType** property of **RadGrid** and the **GridTableView** containing the columns.
 >
 
 
@@ -70,7 +70,7 @@ DataField="CategoryID" SortExpression="CategoryID">
 The developers could use these variables in data-binding expressions and to get full intellisense support.
 ![grid-model-binding-and-strongly-typed-data-controls](images/grid-model-binding-and-strongly-typed-data-controls.png)
 
->note Due to the fact that the RadGrid control has GridTableView as a child control to have intellisense into grid’s columns you need to set the ItemType property of the MasterTableView.
+>tip Due to the fact that the RadGrid control has GridTableView as a child control to have intellisense into grid’s columns you need to set the ItemType property of the MasterTableView.
 >
 
 
@@ -127,12 +127,12 @@ When we run the page, the data bound controls will call the above method and aut
 
 For example if SelectMethod returns data from Linq DataContext and if the paging of the bound control is turned on, the executed database query will return only items for the current page. If the bound control is sorted by a column the sorting also will be executed on the database and the sorted result will be returned. That is because the Linq will optimize the query to perform the sort and page operation as part of the database query.
 
->note The returned query needs to be sorted by using OrderBy when LinqToEntities is used, otherwise the exception: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip' will be thrown.
+>tip The returned query needs to be sorted by using OrderBy when LinqToEntities is used, otherwise the exception: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip' will be thrown.
 >MultiColumnsorting is NOT supported when the ModelBinding is used.
 >
 
 
->note Hierarchical RadGrid is NOT supported. In order to use RadGrid hierarchy you need to use the Declarative Relations or Advanced Data Binding and programmatic hierarchy binding.
+>tip Hierarchical RadGrid is NOT supported. In order to use RadGrid hierarchy you need to use the Declarative Relations or Advanced Data Binding and programmatic hierarchy binding.
 >RadGrid calls its SelectMethod twice (once for the grid and once for the MasterTableView) although SelectMethod for the MasterTableView is not declared.The select method must be called twice because the RadGrid calls its base.DataBind() and then the MasterTableVeiw calls its base.DataBind() method. So the framework calls SelectMethod twice, however only one database query is executed to get all data for building items in the MasterTableVeiw.
 >
 
@@ -171,7 +171,7 @@ End Function
 
 The code snippet above will get the name parameter from the QueryString and integer value of the selected item of the RadComboBox with ID equals to “RadComboBoxCategories”.
 
->note When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
+>tip When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
 >Need to add System.Web.ModelBinding namespace on the page
 >
 
@@ -391,7 +391,7 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ![grid-model-binding-and-strongly-typed-data-controls 1](images/grid-model-binding-and-strongly-typed-data-controls1.png)
 
->note You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
+>tip You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
 >
 
 

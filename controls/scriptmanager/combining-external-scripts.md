@@ -18,7 +18,7 @@ Starting with **Q1 2013 RadScriptManager** has the ability to combine external s
 
 You can specify one or more folders from your project that host the external scripts.
 
->note The folder paths must be relative to the root of the application. For example, `~/path_to_folder`.
+>tip The folder paths must be relative to the root of the application. For example, `~/path_to_folder`.
 >
 
 
@@ -57,7 +57,7 @@ Register the external scripts in **RadScriptManager**. The paths to the files ca
 
 
 
->note If a references external script is not in one of the folder designated in the configuration, it will be not be combined and will be served separately.
+>tip If a references external script is not in one of the folder designated in the configuration, it will be not be combined and will be served separately.
 >
 
 

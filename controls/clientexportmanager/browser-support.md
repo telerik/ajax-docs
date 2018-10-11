@@ -26,4 +26,4 @@ position: 3
 
 * Google Chrome Current and previous
 
->note In IE9, Safari, and any iOS system the **RadClientExportManager** requires its **ProxyURL** to be set, as explained in the [IE9 and Safari Compatibility]({%slug clientexportmanager/troubleshooting/ie9-and-safari-compatibility%}) article.
+>tip In IE9, Safari, and any iOS system the **RadClientExportManager** requires its **ProxyURL** to be set, as explained in the [IE9 and Safari Compatibility]({%slug clientexportmanager/troubleshooting/ie9-and-safari-compatibility%}) article.

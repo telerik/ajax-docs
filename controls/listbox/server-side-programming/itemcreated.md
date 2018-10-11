@@ -14,7 +14,7 @@ position: 17
 
 The **ItemCreated** event occurs for each new item that is added to the **Items** collection of the RadListBox.
 
->note If the item is added from a data source (the **DataSource** or **DataSourceID** property specifies the source of the items), it is a good idea to use the [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event instead. **ItemCreated** occurs before the **ItemDataBound** event (before any item properties have been set to reflect the data in the data source).
+>tip If the item is added from a data source (the **DataSource** or **DataSourceID** property specifies the source of the items), it is a good idea to use the [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event instead. **ItemCreated** occurs before the **ItemDataBound** event (before any item properties have been set to reflect the data in the data source).
 >
 
 

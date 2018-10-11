@@ -42,11 +42,11 @@ Find below a **RadAjaxManagerProxy** within a content page example:
 
 
 
->note  **RadAjaxManagerProxy** control can be used for design-time configuration only. It does not have a client-side object or methods!
+>tip  **RadAjaxManagerProxy** control can be used for design-time configuration only. It does not have a client-side object or methods!
 >
 
 
->note Should you need the server or client-side **RadAjaxManager** functionality (like **ResponseScripts** collection, **ajaxRequest** function) you can get the " **master** " manager instance via **Server-Side**  **GetCurrent** method from the **ContentPage** code-behind:
+>tip Should you need the server or client-side **RadAjaxManager** functionality (like **ResponseScripts** collection, **ajaxRequest** function) you can get the " **master** " manager instance via **Server-Side**  **GetCurrent** method from the **ContentPage** code-behind:
 >RadAjaxManager.GetCurrent(Page)
 >
 

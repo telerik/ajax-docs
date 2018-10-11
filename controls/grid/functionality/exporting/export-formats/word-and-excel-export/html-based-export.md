@@ -24,7 +24,7 @@ Due to the fact that this format is based on standard **HTML/CSS** it is quite s
 
 In order to aid the developers, we exposed the **ExportCellFormatting** event. It fires for each cell in each *data item* in **RadGrid**.
 
->note Please note that the **ExcelExportCellFormatting** event (Excel-specific) is marked as obsolete as from UI for ASP.NET AJAX Q1 2011.
+>tip Please note that the **ExcelExportCellFormatting** event (Excel-specific) is marked as obsolete as from UI for ASP.NET AJAX Q1 2011.
 >
 
 
@@ -150,7 +150,7 @@ They are not as convenient as the **ExportCellFormatting** event because the dev
 
 Please keep in mind that if you don't use **IgnorePaging="true" RadGrid** will be exported directly and the **ItemCreated**/**ItemDataBound** events won't be fired.
 
->note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>tip Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
 >
 
 ````C#
@@ -248,7 +248,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>tip From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 

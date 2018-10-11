@@ -15,11 +15,11 @@ position: 0
 
 You can use the client-side API to execute your own JavaScript functions at certain stages of the AJAX request. Additionally, you can use a generic JavaScript function to make explicit AJAX requests to the server from the client. This help article discusses many of functions.
 
->note You can construct the JavaScript function calls manually or alternatively use the server-side method **GetAjaxEventReference** and have Telerik **RadAjax** generate the necessary code for you.
+>tip You can construct the JavaScript function calls manually or alternatively use the server-side method **GetAjaxEventReference** and have Telerik **RadAjax** generate the necessary code for you.
 >
 
 
->note  **RadAjax** for ASP.NET AJAX requires enclosing the server code blocks inside a **RadCodeBlock** control. More information is available here: [RadCodeBlock and RadScriptBlock]({%slug ajaxmanager/radcodeblock-and-radscriptblock%}).
+>tip  **RadAjax** for ASP.NET AJAX requires enclosing the server code blocks inside a **RadCodeBlock** control. More information is available here: [RadCodeBlock and RadScriptBlock]({%slug ajaxmanager/radcodeblock-and-radscriptblock%}).
 >
 
 
@@ -94,7 +94,7 @@ You can call the **ajaxRequestWithTarget(eventTarget, eventArgument)** function 
 | **eventTarget** |The control that should raise a postback event. You should always use the control's UniqueID.|
 | **eventArgument** |This is an optional argument for the event.|
 
->note  **ajaxRequestWithTarget** is designed as a substitute of the standard **doPostBack** function. Thus, you need to override the **RaisePostBackEvent** of the page in order to get its argument server-side.
+>tip  **ajaxRequestWithTarget** is designed as a substitute of the standard **doPostBack** function. Thus, you need to override the **RaisePostBackEvent** of the page in order to get its argument server-side.
 >
 
 

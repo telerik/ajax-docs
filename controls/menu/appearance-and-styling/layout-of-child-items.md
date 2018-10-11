@@ -32,7 +32,7 @@ You can change this default layout of child items using the **GroupSettings** pr
 
 * **Right** causes child items to appear to the right the parent item:![RadMenu Right Expansion](images/menu_rightexpansion.png)
 
->note By default, if the specified **ExpandDirection** would cause items to cross a screen boundary, the list of child items appears in the opposite direction from the one specified. You can override this behavior by setting the **EnableScreenBoundaryDetection** property to **False** .
+>tip By default, if the specified **ExpandDirection** would cause items to cross a screen boundary, the list of child items appears in the opposite direction from the one specified. You can override this behavior by setting the **EnableScreenBoundaryDetection** property to **False** .
 >
 
 

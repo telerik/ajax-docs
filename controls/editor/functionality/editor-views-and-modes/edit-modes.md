@@ -64,7 +64,7 @@ RadEditor1.EditModes = EditModes.Html;
 RadEditor1.EditModes = EditModes.Html
 ````
 
->note When enabling only one mode (e.g., `EditModes="Design"`) the bottom docking zone ([Docking Zones]({%slug editor/functionality/toolbars/docking-zones%})) will not render. 
+>tip When enabling only one mode (e.g., `EditModes="Design"`) the bottom docking zone ([Docking Zones]({%slug editor/functionality/toolbars/docking-zones%})) will not render. 
 
 ## See Also
 

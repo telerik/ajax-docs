@@ -19,7 +19,7 @@ Alternatively, you can also use the ContentAreaCssFile property for that. You ca
 
 
 
->note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
+>tip This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 For example, to set the editor to use white text on a black background as well as to change the default bullet / ordered lists shapes add an **EditorCssFile** item to the **CssFiles** collection that points to an external CSS file (e.g., **EditorContentArea.css**):
 

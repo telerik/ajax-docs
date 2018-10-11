@@ -22,7 +22,7 @@ You can also add a **GridClientSelectColumn** to the grid to let users select an
 
 ![](images/SingleSelectCheckbox.PNG)
 
->note By default the row selection is disabled ( **AllowRowSelect** is **False** ).
+>tip By default the row selection is disabled ( **AllowRowSelect** is **False** ).
 >
 
 

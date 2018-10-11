@@ -30,11 +30,11 @@ To spell check multiple text sources:
 
 * Call the RadSpell client object set_textSource() method, passing the new custom text source object instance.
 
->note HtmlElementTextSource is defined in the Telerik.Web.UI.Spell assembly, and registered for availability to JavaScript within RadSpell.js. RadSpell.js is normally a resource and not visible to you, but you can find the JavaScript source in the Telerik® UI for ASP.NET AJAX installation directory under "\scripts".
+>tip HtmlElementTextSource is defined in the Telerik.Web.UI.Spell assembly, and registered for availability to JavaScript within RadSpell.js. RadSpell.js is normally a resource and not visible to you, but you can find the JavaScript source in the Telerik® UI for ASP.NET AJAX installation directory under "\scripts".
 
 This general approach can be used not just for TextBoxes, but for spell checking any combination of controls on a web page.
 
->note At runtime the joined string might look like:
+>tip At runtime the joined string might look like:
 >"bad spelling 1`<controlSeparator><br/></controlSeparator>bad spelling 2<controlSeparator><br/></controlSeparator>`bad spelling 3"
 >But is displayed as in **Figure 1** .
 >The "`<controlSeparator>`" tags are arbitrary and can be any unique string that is used to join in the get_text() method and parse back apart in the set_text() method. The "`<br>` tags are necessary to show each misspelling on a separate line in the "Not in Dictionary' section of the dialog.

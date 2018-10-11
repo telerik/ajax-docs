@@ -67,7 +67,7 @@ In order to create a new localization file you can follow the steps listed below
 Please **do not** modify/remove the **ReservedResource** key.
 >
 
->note 
+>tip 
 We encourage you to submit your localized resource files to the[Localization code library section](http://www.telerik.com/community/code-library/aspnet-ajax/localization.aspx)
 >
 

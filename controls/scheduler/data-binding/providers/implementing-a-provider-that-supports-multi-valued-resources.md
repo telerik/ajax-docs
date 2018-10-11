@@ -450,7 +450,7 @@ End Class
 			Return appointments
 		End Function
 	
-	>note Note that this method reads UTC dates from the database. To make this clear to **RadScheduler** it calls **DateTime.SpecifyKind()** . You should store dates in UTC format to ensure proper handling of [time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
+	>tip Note that this method reads UTC dates from the database. To make this clear to **RadScheduler** it calls **DateTime.SpecifyKind()** . You should store dates in UTC format to ensure proper handling of [time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
 	>
 	This method gets a reference to the scheduler as a parameter (owner). You can use the RadScheduler properties to optimize your query. For example, the **VisibleRangeStart** and **VisibleRangeEnd** properties can be used to limit the number of records that the query retrieves. Recurring appointments are evaluated in-memory, however, so they should be always retrieved regardless of **VisibleRangeStart** and **VisibleRangeEnd**.
 

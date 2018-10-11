@@ -27,11 +27,11 @@ RadFilter ARIA attributes are **lower case**. They are shown in the table below.
 | ------ | ------ |
 | **RadFilter** |Aria-atomic:trueRole: presentationAria-label – control client-side idRole: group - on hierarchilcal filter expressions that have child filter expressionsRole: listitem – on filter expressions without childrenAria-level: number specifying the hierarchy level of the filter expressionRole: presentation – on inner div elementsRole:button for the buttons in the filter expressionRole:checkbox – for checkbox in Boolean filter expressionsRole:textbox: for input type textAria-disabled:false for input type text|
 
->note RadContextMenu is not aria compliant yet.
+>tip RadContextMenu is not aria compliant yet.
 >
 
 
->note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
 
 

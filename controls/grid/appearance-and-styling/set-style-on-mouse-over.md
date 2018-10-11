@@ -24,7 +24,7 @@ cursor:pointer;
 
 To enable the hover style for the grid rows, merely set the **ClientSettings -> EnableRowHoverStyle** property of RadGrid to true.
 
->note This depends on RadGrid client-side object. For performance reasons, the RadGrid client object is available only when certain client features/events are enabled. If no client features/events are available in the grid but you still need this functionality, you can attach an empty javascript function to a client event (for example OnRowClick).
+>tip This depends on RadGrid client-side object. For performance reasons, the RadGrid client object is available only when certain client features/events are enabled. If no client features/events are available in the grid but you still need this functionality, you can attach an empty javascript function to a client event (for example OnRowClick).
 >
 
 

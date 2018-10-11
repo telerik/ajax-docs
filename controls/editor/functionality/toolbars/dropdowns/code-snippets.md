@@ -92,7 +92,7 @@ To set an image icon in an "Insert Code Snippet" item, put an IMG tag either in 
 
 You should also encode the `<` and `>` tags symbols of the IMG tag with `&lt;` and `&gt;`.
 
->note Bear in mind that RadEditor will persist its state (including the Code Snippets set) between postbacks. In order to create a new set of Code Snippets (e.g. for different users), you will need to clear it first. This can be done using Remove() or Clear() methods from the Snippets collection.
+>tip Bear in mind that RadEditor will persist its state (including the Code Snippets set) between postbacks. In order to create a new set of Code Snippets (e.g. for different users), you will need to clear it first. This can be done using Remove() or Clear() methods from the Snippets collection.
 
 ## See Also
 

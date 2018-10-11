@@ -80,7 +80,7 @@ Content can be added to **RadNotification** in multiple ways and is displayed in
 		    </telerik:RadNotification>
 
 
-		>note If you are planning to add controls dynamically you need to declare an empty **ContentTemplate** , since if it is not present **RadNotification** automatically detects it and enters into simple content mode and you will not be able to add controls in it. If you want to create the control entirely in the code-behind, you should add implement an `ITemplate` class and use that for its `ContentTemplate` instead of populating the `ContentContainer.Controls` collection directly.
+		>tip If you are planning to add controls dynamically you need to declare an empty **ContentTemplate** , since if it is not present **RadNotification** automatically detects it and enters into simple content mode and you will not be able to add controls in it. If you want to create the control entirely in the code-behind, you should add implement an `ITemplate` class and use that for its `ContentTemplate` instead of populating the `ContentContainer.Controls` collection directly.
 
 		
 		__C#__

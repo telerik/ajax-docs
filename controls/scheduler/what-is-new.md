@@ -276,7 +276,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 >
 
 
->note  **Limitations of the Futures version:** 
+>tip  **Limitations of the Futures version:** 
 >
 * Creating recurring appointments is not supported.
 * Recurrence exceptions are not associated with the recurrence series.

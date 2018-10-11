@@ -35,7 +35,7 @@ The **RadSocialShare** control offers the ability to send a link, provided in th
 
 	Alternatively, e-mail settings can be set in the code-behind on every page load (e.g., taken from the web.config's appSettings through the `ConfigurationManager.AppSettings["yourKey"]`). 
 
-	>note The e-mail settings are private information and are not managed by the ViewState to avoid any security implications.
+	>tip The e-mail settings are private information and are not managed by the ViewState to avoid any security implications.
 
 	**C#**
 	
@@ -57,7 +57,7 @@ The **RadSocialShare** control offers the ability to send a link, provided in th
 			RadSocialShare1.EmailSettings.UserName = "username"
 		End Sub
 
->note No server error will be thrown if these properties are not set, yet the e-mail will not be received as there is no server to send it. It is up to the developer to setup the mail server in each individual case according to the custom security policy, requirements and scenario of the site.
+>tip No server error will be thrown if these properties are not set, yet the e-mail will not be received as there is no server to send it. It is up to the developer to setup the mail server in each individual case according to the custom security policy, requirements and scenario of the site.
 
 
 ## Using the E-mail Agent from the User's Machine

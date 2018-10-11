@@ -16,7 +16,7 @@ position: 0
 
 ## RibbonBarGallery
 
->note The RibbonBarGallery is available after the **Q2 2013** release of the RadControls controls.
+>tip The RibbonBarGallery is available after the **Q2 2013** release of the RadControls controls.
 >
 
 
@@ -74,7 +74,7 @@ The **RibbonBarGallery** will raise the following server-side event:
 
 * **OnGalleryCommand** - raised on the server when the user clicks a GalleryItem.
 
->note The **RibbonBarGallery** will also fire the ribbon’s **OnCommand** event with the respective **CommandName** and **CommandArgument** arguments.
+>tip The **RibbonBarGallery** will also fire the ribbon’s **OnCommand** event with the respective **CommandName** and **CommandArgument** arguments.
 >
 
 

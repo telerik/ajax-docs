@@ -22,7 +22,7 @@ position: 0
 
 * The "Alt + AccessKey" focuses the AutoCompleteBox ![autocompletebox-keyboardsupport-focus](images/autocompletebox-keyboardsupport-focus.png)
 
->note To focus the **RadAutoCompleteBox** in Firefox use the "Shift + Alt + AccessKey" key combination.
+>tip To focus the **RadAutoCompleteBox** in Firefox use the "Shift + Alt + AccessKey" key combination.
 >
 
 * The Up and Down arrow keys allows the user to navigate the entries in the dropdown, once it is opened by typing text in the input area ![autocompletebox-keyboardsupport-navigation-dropdown](images/autocompletebox-keyboardsupport-navigation-dropdown.png)

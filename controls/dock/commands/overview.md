@@ -66,7 +66,7 @@ The built-in commands perform their function without any programming on your par
 	                                Or Telerik.Web.UI.Dock.DefaultCommands.PinUnpin
 
 
->note The appearance of the built-in icons shown above is for the "Default" skin. Each skin provides its own icons for the built-in commands.
+>tip The appearance of the built-in icons shown above is for the "Default" skin. Each skin provides its own icons for the built-in commands.
 >
 
 
@@ -94,7 +94,7 @@ Each command in the **Commands** collection has the following attributes:
 
 * **OnClientCommand**: this is the name of a Javascript function that responds to the client-side event when the user clicks on the command. This function can implement the response to the command and/or cancel the default processing of the command.
 
-	>note If you cancel the default processing of a command, the server-side **Command** event does not fire.
+	>tip If you cancel the default processing of a command, the server-side **Command** event does not fire.
 
 
 

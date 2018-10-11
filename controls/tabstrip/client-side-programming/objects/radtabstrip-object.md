@@ -45,7 +45,7 @@ The table below lists the most important methods of the client-side **RadTabStri
 
 Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug tabstrip/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 
->note Note that attached or removed events from the **RadTabStrip** object will not be persisted after postback even if implemented between **trackChanges()** and **commitChanges()** calls. Enabling an initially disabled **RadTabStrip** will also not persist.
+>tip Note that attached or removed events from the **RadTabStrip** object will not be persisted after postback even if implemented between **trackChanges()** and **commitChanges()** calls. Enabling an initially disabled **RadTabStrip** will also not persist.
 >
 
 >caption Example 1. Adding tab using trackChanges() and commitChanges()

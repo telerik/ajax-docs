@@ -12,7 +12,7 @@ position: 4
 
 
 
->note Since Q1 2012 **RadInput** has a new rendering mode for its controls - Single Input Rendering, which is enabled by default. Therefore, this topic is no longer valid, except in the cases when **Old Rendering** mode is activated by setting the **EnableSingleInputRendering** property to **False** .
+>tip Since Q1 2012 **RadInput** has a new rendering mode for its controls - Single Input Rendering, which is enabled by default. Therefore, this topic is no longer valid, except in the cases when **Old Rendering** mode is activated by setting the **EnableSingleInputRendering** property to **False** .
 
 
 Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **.RadInput_Default** style defines the default font and vertical alignment properties for the entire input control:
@@ -81,6 +81,6 @@ By default in non-single input rendering mode the width of the label is not set,
 
 The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are **riEnabled**, **riDisabled**, **riEmpty**, **riFocused**, **riHover**, **riError**, and **riNegative**.
 
->note The various [style properties]({%slug raddateinput/appearance-and-styling/styles%}) will override any of the properties set by these classes.
+>tip The various [style properties]({%slug raddateinput/appearance-and-styling/styles%}) will override any of the properties set by these classes.
 >
 

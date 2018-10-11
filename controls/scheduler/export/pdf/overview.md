@@ -14,7 +14,7 @@ position: 0
 
 This help article lists all **RadScheduler** common properties used in the RadScheduler PDF Export.
 
->note In order to work appropriately, the **PDF Export** functionality requires the **RadScheduler** to be in *Classic* [render mode]({%slug scheduler/mobile-support/render-modes%}). This is because, internally, a .NET WebBrowser is used to take a snapshot image of the **RadScheduler**, which is then wrapped in a PDF document. That browser does not support Lightweight rendering, so the **RadScheduler** must be in *Classic* render mode. 
+>tip In order to work appropriately, the **PDF Export** functionality requires the **RadScheduler** to be in *Classic* [render mode]({%slug scheduler/mobile-support/render-modes%}). This is because, internally, a .NET WebBrowser is used to take a snapshot image of the **RadScheduler**, which is then wrapped in a PDF document. That browser does not support Lightweight rendering, so the **RadScheduler** must be in *Classic* render mode. 
 >
 
 ## Common Properties

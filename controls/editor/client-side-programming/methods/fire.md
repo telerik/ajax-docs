@@ -39,7 +39,7 @@ The example below demonstrates how to add a custom MyBold button to the editor's
 
 
 
->note The custom command should be placed BELOW the editor declaration.
+>tip The custom command should be placed BELOW the editor declaration.
 
 
 ## See Also

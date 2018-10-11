@@ -18,19 +18,19 @@ position: 0
 
 By default, RadGrid's *CSV* engine encloses all the data within double quotes to allow the usage of commas, new lines and so on.
 
->note  **GridExporting** event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
+>tip  **GridExporting** event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
 >
 
 
 ## 
 
->note Depending on your local settings, the default column separator might be a **comma** or a **semicolon** . **Excel** won't be able to properly separate the columns when the column separator is not valid for the current culture.
+>tip Depending on your local settings, the default column separator might be a **comma** or a **semicolon** . **Excel** won't be able to properly separate the columns when the column separator is not valid for the current culture.
 >
 
 
 ## 
 
->note Note, that if you set **ExportOnlyData="true"**, the contents (text) of all template columns will be removed but the columns will be still visible in the exported file.
+>tip Note, that if you set **ExportOnlyData="true"**, the contents (text) of all template columns will be removed but the columns will be still visible in the exported file.
 >
 
 
@@ -58,7 +58,7 @@ By default, RadGrid's *CSV* engine encloses all the data within double quotes to
 
 ## 
 
->note  **Microsoft Excel** parses the cell values automatically depending on the local settings.For example the string **19/05** might change to **19.May** automatically. The only workaround would be to insert a sign of equality ( **=** ) before the relevant string. For example: **"012"** should be modified as **="012"** .
+>tip  **Microsoft Excel** parses the cell values automatically depending on the local settings.For example the string **19/05** might change to **19.May** automatically. The only workaround would be to insert a sign of equality ( **=** ) before the relevant string. For example: **"012"** should be modified as **="012"** .
 >
 
 
@@ -66,7 +66,7 @@ By default, RadGrid's *CSV* engine encloses all the data within double quotes to
 
 **UI for ASP.NET AJAX Q2 2009 SP1** and later fully supports *Unicode* symbols in both *left-to-right* and *right-to-left* modes. **RadGrid** automatically saves the file in **UTF-8** encoding.
 
->note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning. This is [BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark) header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
+>tip If you open the **CSV** file in some editors, you will notice some strange characters at the beginning. This is [BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark) header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
 >
 
 
@@ -140,7 +140,7 @@ End Sub
 
 This approach won't work if your **RadGrid** rebinds before export. In such cases (for instance, when using **IgnorePaging="true"**) the developer should put the code on **ItemCreated/ItemDataBound**:
 
->note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>tip Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
 >
 
 ````C#
@@ -176,7 +176,7 @@ End Sub
 ````
 
 
->note Note that you don't need to set **isExport="false"** explicitly because the changes we perform will affect only the response streamed to the client. In other words, the user won't see any change to the actual page.
+>tip Note that you don't need to set **isExport="false"** explicitly because the changes we perform will affect only the response streamed to the client. In other words, the user won't see any change to the actual page.
 >
 
 
@@ -224,7 +224,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>tip From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 

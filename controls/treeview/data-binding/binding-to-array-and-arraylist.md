@@ -73,7 +73,7 @@ If you have a collection (any collection implementing **ICollection** or **IEnum
 >
 
 
->note To see hierarchical data binding to **IEnumerable** in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx) live demo.
+>tip To see hierarchical data binding to **IEnumerable** in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx) live demo.
 >
 
 

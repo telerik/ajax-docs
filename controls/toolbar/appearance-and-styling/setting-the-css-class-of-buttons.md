@@ -30,7 +30,7 @@ The CSS class properties are
 
 To set the CSS class properties of an item at design time, use the [RadToolBar Item Builder]({%slug toolbar/design-time/radtoolbar-item-editor%}).
 
->note The CSS class of a button is applied to the anchor (&lt;a&gt;) tag that represents the button in the rendered HTML output. For more information about the rendered output of **RadToolBar** , see [Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}).
+>tip The CSS class of a button is applied to the anchor (&lt;a&gt;) tag that represents the button in the rendered HTML output. For more information about the rendered output of **RadToolBar** , see [Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 
@@ -117,7 +117,7 @@ The following example shows how to use the CssClass property to change the appea
 </body>
 ````
 
->note Note the use of the **!important** modifier in the CSS class definitions. This allows the CSS class to affect the appearance of items in spite of a competing definition in the Skin CSS file.
+>tip Note the use of the **!important** modifier in the CSS class definitions. This allows the CSS class to affect the appearance of items in spite of a competing definition in the Skin CSS file.
 >
 
 

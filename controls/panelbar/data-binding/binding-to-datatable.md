@@ -141,7 +141,7 @@ End Sub 'RadPanelBar1_ItemDataBound
 
 You can use a **DataSet** when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a **DataSet**:
 
->note When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the panel bar should be bound.
+>tip When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the panel bar should be bound.
 >
 
 
@@ -186,7 +186,7 @@ End Sub 'Page_Load
 ````
 
 
->note The **ParentID** of the root items must be **null** (**nothing**). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:
+>tip The **ParentID** of the root items must be **null** (**nothing**). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblData
 >
 

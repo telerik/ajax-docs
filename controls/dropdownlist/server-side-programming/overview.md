@@ -22,6 +22,6 @@ position: 0
 
 * [ItemDataBound]({%slug dropdownlist/server-side-programming/events/itemdatabound%}) occurs for each item when it is being bound to a data value.
 
->note The **SelectedIndexChanged** and **ItemSelected** events do not fire unless you set the **AutoPostBack** property to **True** .
+>tip The **SelectedIndexChanged** and **ItemSelected** events do not fire unless you set the **AutoPostBack** property to **True** .
 >
 

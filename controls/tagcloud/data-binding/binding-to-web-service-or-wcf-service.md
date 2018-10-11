@@ -14,7 +14,7 @@ position: 3
 
 You can load child items in a tag cloud dynamically through a Web service. The following steps describe how to configure **RadTagCloud** so that it can use a Web service to supply child items. Since Q2 2012 a WCF Web Service can be used as well.
 
->note Both types of Web Services must return an array of type TagCloudDataItem which has the following signature:
+>tip Both types of Web Services must return an array of type TagCloudDataItem which has the following signature:
 >
 
 ````C#
@@ -278,7 +278,7 @@ Public Class WebServiceName
 End Class
 ````
 
->note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
+>tip The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 >
 
 For a live example of using a Web service to populate items, see the [Web Service demo](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx).
@@ -308,7 +308,7 @@ For a live example of using a Web service to populate items, see the [Web Servic
 2. When the WebServiceSettings property is set, an empty context request will be initiated automatically. You can trigger request to the service by calling the *requestItems()* client-side method. This method has a single parameter, which is sent as an argument to the Web service method.
 >important It is important to know that all current items will be removed, before the new ones are populated.
 
-	>note Passing a value to a WCF service requires creating an object that will hold the data. This object will be serialized automatically. This object is received by the WCF WebService as a parameter of type IDictionary and you can access the value of the object you provided according to its name.
+	>tip Passing a value to a WCF service requires creating an object that will hold the data. This object will be serialized automatically. This object is received by the WCF WebService as a parameter of type IDictionary and you can access the value of the object you provided according to its name.
 
 	**JavaScript**
 
@@ -406,6 +406,6 @@ Public Class TagCloudWcfService
 End Class
 ````
 
->note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
+>tip The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 
 For a live example of using a WCF Web service to populate items, see the [WCF Web Service demo](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx).

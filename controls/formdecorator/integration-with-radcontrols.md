@@ -110,7 +110,7 @@ To decorate RadInput controls fully, you need to:
                 <DateInput CssClass="rfdRoundedCorners rfdDecorated" Label="Label for date input"></DateInput>
             </telerik:RadDatePicker>
 
-    >note For the Date/Time pickers, you must set the class to the `DateInput` and not on the main control.
+    >tip For the Date/Time pickers, you must set the class to the `DateInput` and not on the main control.
 
 >tip The form decorator has different default widhts for the inputs in the different render modes. For example, if you are using the Lightweight RenderMode, decorated input widths default to `192px` and so if the RadInput width is smaller than that you may have appearance issues.
 

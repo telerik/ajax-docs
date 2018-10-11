@@ -61,7 +61,7 @@ Type text, select content or move the cursor in the editor and click the button 
 </script>
 ````
 
->note The cursor and the selection are features of the browser. This means that they are only available on the client-side. There is no facility to add content on the server-side. This is why the article explains a pure JavaScript approach to paste content through the RadEditor API.
+>tip The cursor and the selection are features of the browser. This means that they are only available on the client-side. There is no facility to add content on the server-side. This is why the article explains a pure JavaScript approach to paste content through the RadEditor API.
 
 ## See Also
 

@@ -49,7 +49,7 @@ The following table lists the styles that you can assign to the embedded **RadIn
 |HoveredStyle|riHover|The style when the mouse hovers over the input control.|
 |InvalidStyle|riError|The style when the value of the input control is invalid.|
 
->note 
+>tip 
 The CSS class definitions for the embedded **RadInput** control are found in the Input CSS skin file rather than the Calendar CSS file.
 >
 

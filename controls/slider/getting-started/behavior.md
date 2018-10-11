@@ -14,7 +14,7 @@ position: 2
 
 To control slider behavior, set the **MinimumValue**, **MaximumValue** and **Value** properties. **MinimumValue** and **MaximumValue** limit the lower and upper bounds that **Value** may be set at any value between them.
 
->note MaximumValue must be greater than MinimumValue to avoid generating an error.
+>tip MaximumValue must be greater than MinimumValue to avoid generating an error.
 
 In Example 1 below, **Value** can not be less than zero or more than thirty.
 
@@ -57,7 +57,7 @@ RadSlider1.SelectedRegionStartValue = 0
 
 By setting the **ItemType** property to **Item** type, you can define custom slider items and add them to the **Items** collection.
 
->note The **Value**, **SelectionStart** and **SelectionEnd** properties of RadSlider with **ItemType** set to **Item** represent the index in the **Items** collection of the currently selected item(s). **Example 3** and **Example 4** show how to get the selected item(s) programmatically.
+>tip The **Value**, **SelectionStart** and **SelectionEnd** properties of RadSlider with **ItemType** set to **Item** represent the index in the **Items** collection of the currently selected item(s). **Example 3** and **Example 4** show how to get the selected item(s) programmatically.
 
 Each slider item exposes the following properties:
 

@@ -47,7 +47,7 @@ End Sub
 ````
 
 
->note  **ViewPaths**, **UploadPaths** and **DeletePaths** for RadImageEditor's ImageManager should be set to the same path.
+>tip  **ViewPaths**, **UploadPaths** and **DeletePaths** for RadImageEditor's ImageManager should be set to the same path.
 
 
 

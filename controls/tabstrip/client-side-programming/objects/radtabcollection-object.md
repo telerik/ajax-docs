@@ -30,7 +30,7 @@ The **RadTabCollection** object is returned by the **get_tabs()** method of the 
 >caution Changes to the tab collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges()** and the **commitChanges()** methods of the tab strip object.
 >
 
->note Note that clearing the collection using the **clear()** method will not persist after postback even if implemented between **trackChanges()** and **commitChanges()** calls.
+>tip Note that clearing the collection using the **clear()** method will not persist after postback even if implemented between **trackChanges()** and **commitChanges()** calls.
 >
 
 >caption Example 1. Add tab to the RadTabCollection

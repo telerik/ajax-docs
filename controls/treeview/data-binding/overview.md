@@ -46,7 +46,7 @@ The following properties and methods are used when binding the **RadTreeView** t
 
 * **DataBind** method: Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
->note If you need to map additional fields from the Data Source to properties of the **RadTreeView** Node, you can use the [NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%}).
+>tip If you need to map additional fields from the Data Source to properties of the **RadTreeView** Node, you can use the [NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%}).
 >
 
 

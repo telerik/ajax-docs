@@ -49,7 +49,7 @@ DataSourceID="SqlDataSource1">
 
 
 
->note You can set the initial filter declaratively, as shown above, even when using the **NeedDataSource** event to populate the grid.
+>tip You can set the initial filter declaratively, as shown above, even when using the **NeedDataSource** event to populate the grid.
 >
 
 
@@ -85,11 +85,11 @@ End Sub
 ````
 
 
->note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
+>tip With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >
 
 
->note If you are binding the grid using the **NeedDataSource** event, you can set the initial filter in the **NeedDataSource** event handler and omit the call to the **Rebind** method. The code for setting the filter must still be placed inside an if statement that checks that **Page.IsPostBack** is **False** . Note that this is applicable for non auto generated columns.
+>tip If you are binding the grid using the **NeedDataSource** event, you can set the initial filter in the **NeedDataSource** event handler and omit the call to the **Rebind** method. The code for setting the filter must still be placed inside an if statement that checks that **Page.IsPostBack** is **False** . Note that this is applicable for non auto generated columns.
 >
 
 

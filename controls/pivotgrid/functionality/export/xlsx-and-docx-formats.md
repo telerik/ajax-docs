@@ -32,13 +32,13 @@ The same way you can export RadPivotGrid to Word but you need to call its server
 
 * **OpenInNewWindow** - by default, the exported file will be handled by the program associated with the appropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel you should enable this property.
 
->note Even if you set OpenInNewWindow="false", that doesn't guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the OS/browser settings. The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than Internet Explorer, you should use the built-in settings.
+>tip Even if you set OpenInNewWindow="false", that doesn't guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the OS/browser settings. The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than Internet Explorer, you should use the built-in settings.
 >
 
 
 * **FileName** - this is helpful when you want to give a predefined name for your file.Please note that the file name can't be longer than 256 symbols. Unicode names are not supported out-of-the-box for **Internet Explorer6** and **7**. Of course you can manually encode the file name and it will be shown properly in the "**Save**" dialog **(OpenInNewWindow="true").HttpUtility.UrlEncode ("unicode string", System.Text.Encoding.UTF8)**;
 
->note Internet Explorer ignores the FileName property when **OpenInNewWindow** is set to **false** .
+>tip Internet Explorer ignores the FileName property when **OpenInNewWindow** is set to **false** .
 >
 
 
@@ -96,7 +96,7 @@ End Sub
 ![pivotgrid-excel-export 1](images/pivotgrid-excel-export_1.png)
 ![pivotgrid-excel-export 2](images/pivotgrid-excel-export_2.png)
 
->note The **Format** property of the **ExportedCell** object is the excel based cell format. For example:
+>tip The **Format** property of the **ExportedCell** object is the excel based cell format. For example:
 >
 
 

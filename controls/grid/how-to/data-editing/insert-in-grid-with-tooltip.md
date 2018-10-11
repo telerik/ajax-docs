@@ -21,7 +21,7 @@ The control, containing the fields for the new records is added to the content o
 
 As you cannot display RadAjax loading panel when you are using the RadToolTipManager in this case and generate dynamically the tooltip content, you can display a separate **RadAjaxLoadingPanel** when you are making Ajax requests.
 
->note In order to see the new records, you have to expand the corresponding item in the MasterTableView.
+>tip In order to see the new records, you have to expand the corresponding item in the MasterTableView.
 >
 
 

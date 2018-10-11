@@ -90,7 +90,7 @@ Rendering: (*Metro skin*)
 
 **Lighweight** rendering yields completely different markup making maximum use of CSS 3 and semantic html. This means that we no longer use table elements for building the layout of **RadCalendar**. Thus, two table elements are dropped from the rendered mark-up in favor of improved performance and decreased amount of data requested from the client browser. This enhancement favors especially the mobile experience.
 
->note 
+>tip 
 Not all controls support **Lightweight** render mode.
 >
 

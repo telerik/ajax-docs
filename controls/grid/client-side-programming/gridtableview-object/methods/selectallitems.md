@@ -16,7 +16,7 @@ position: 37
 
 Selects all items in the GridTableView for which the method is invoked.
 
->note The AllowMultiRowSelection property of RadGrid should be set to true to select multiple items!
+>tip The AllowMultiRowSelection property of RadGrid should be set to true to select multiple items!
 >
 
 

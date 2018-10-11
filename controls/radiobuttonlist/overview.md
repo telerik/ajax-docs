@@ -31,7 +31,7 @@ You can easily style the control by changing the `Skin` property. This will elim
 </telerik:RadRadioButtonList>
 ````
 
->note **RadRadioButtonList** does not support Classic [render mode]({%slug radiobuttonlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>tip **RadRadioButtonList** does not support Classic [render mode]({%slug radiobuttonlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 

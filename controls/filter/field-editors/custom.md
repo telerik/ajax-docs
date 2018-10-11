@@ -28,7 +28,7 @@ When defining a custom field editor, you should inherit the *RadFilterDataFieldE
 
 You can find the code for the definition of a custom field editor with a RadComboBox in it	below:
 
->note The names of the custom filter classes should differ from the names of the built-in filters ones.
+>tip The names of the custom filter classes should differ from the names of the built-in filters ones.
 >
 
 

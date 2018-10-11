@@ -38,7 +38,7 @@ For version **`1.7.0.0`**, only the **`Microsoft.WindowsAzure.StorageClient.dll`
 
 The `Microsoft.WindowsAzure.Configuration.dll` assembly is not used, but the other dependencies may be used by the Azure code.
 
->note When a Web Application type of project is used the **Copy Local** property in the **Reference** Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
+>tip When a Web Application type of project is used the **Copy Local** property in the **Reference** Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
 
 
 If you use newer versions of the `WindowsAzure.Storage` package, there is a risk of a breaking change in the library to break RadCloudUpload. File uploads may stop working or you may get errors such as `NullReferenceException` from `Telerik.Web.UI.CloudUploadHandler.GetEncryptedText`.
@@ -61,7 +61,7 @@ If you use newer versions of the `WindowsAzure.Storage` package, there is a risk
 		</telerik.web.ui>
 
 
->note Uploading in Azure is done on chunks. Every chunk has size of 2MB. These chunks that were cancelled during the uploading are removed automatically by Azure. When older browsers are used (IE9 or below), files are uploaded at once, because chunking is not supported. In order to upload files larger than 4MB, it is needed to increase the maximum allowed file size. For more details please refer to this [article]({%slug cloudupload/how-to/uploading-large-files%}).
+>tip Uploading in Azure is done on chunks. Every chunk has size of 2MB. These chunks that were cancelled during the uploading are removed automatically by Azure. When older browsers are used (IE9 or below), files are uploaded at once, because chunking is not supported. In order to upload files larger than 4MB, it is needed to increase the maximum allowed file size. For more details please refer to this [article]({%slug cloudupload/how-to/uploading-large-files%}).
 >
 
 

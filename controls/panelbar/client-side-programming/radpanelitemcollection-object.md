@@ -16,7 +16,7 @@ position: 3
 
 The **RadPanelItemCollection** object is returned by the **get_items** method of the **RadPanelBar** or **RadPanelItem** object. The following table lists the most important methods.
 
->note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the panel bar object and the **commitChanges** method of the panel bar object.
+>tip Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the panel bar object and the **commitChanges** method of the panel bar object.
 >
 
 

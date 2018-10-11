@@ -12,7 +12,7 @@ position: 0
 
 Specifying [date format strings](http://msdn.microsoft.com/en-us/library/az4se3k1.aspx)(e.g.**{0:D}, {0:F}**) are not supported out-of-the-box and will not take effect if used In the **DataFormatString** property of the **RadHtmlChart** control. Only the [numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx) (e.g. **{0:e}, {0:p}**) are supported for the text elements (such as axis labels, series labels and tooltips).
 
->note As of **Q3 2012** , the [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
+>tip As of **Q3 2012** , the [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
 
 Nevertheless, there is a possible approach that will allow you to format the labels in a non-numerical x-axis. For example,let’s take the items in an x-axis whose labels should display a month given an object of type **DateTime**. Follow these steps to format the labels accordingly:
 
@@ -23,7 +23,7 @@ Nevertheless, there is a possible approach that will allow you to format the lab
 
 **Example 1** demonstrates the approach described above.
 
->warning This approach cannot be used for creating such specially formatted text in SeriesItems' labels and tooltips. Each Series-Item does not	have its own tooltip and text properties that can be set declaratively, they are taken from its value automatically. An option is using their [ClientTemplates]({%slug htmlchart/functionality/clienttemplate/overview%}) to load a column from the datasource.
+>caution This approach cannot be used for creating such specially formatted text in SeriesItems' labels and tooltips. Each Series-Item does not	have its own tooltip and text properties that can be set declaratively, they are taken from its value automatically. An option is using their [ClientTemplates]({%slug htmlchart/functionality/clienttemplate/overview%}) to load a column from the datasource.
 >
 >You cannot use the **DataFormatString** property of the x-axis labels either because the x-axis items are created programmatically	and are not data bound.
 

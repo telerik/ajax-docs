@@ -32,7 +32,7 @@ All four **RadInput** controls support the **SelectionOnFocus** property. In add
 | ------ | ------ | ------ |
 |RadMaskedTextBox|Mask, PromptChar|DisplayMask, DisplayPromptChar|
 
->note You do not need to set both sets of properties. If you only set the properties for formatting a value with focus, the RadInput control uses them even if the control does not have focus.
+>tip You do not need to set both sets of properties. If you only set the properties for formatting a value with focus, the RadInput control uses them even if the control does not have focus.
 >
 
 

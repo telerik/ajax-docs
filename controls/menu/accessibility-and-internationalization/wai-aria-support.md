@@ -52,10 +52,10 @@ End Sub
 ````
 
 
->note The implementation of the **WAI-ARIA** support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate **WAI-ARIA** roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
+>tip The implementation of the **WAI-ARIA** support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate **WAI-ARIA** roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >
 
->note In IE by default JAWS focuses the parent items and returns "Your browser does not support inline frames or is currently configured not to display them." This is caused by rendered iframes in the **rmSlide** element of the **RadMenu** parent item. In order to overcome this behavior you can set **EnableOverlay="false"** (which will prevent the iframe from being rendering). The same is valid for the **RadContextMenu**. 
+>tip In IE by default JAWS focuses the parent items and returns "Your browser does not support inline frames or is currently configured not to display them." This is caused by rendered iframes in the **rmSlide** element of the **RadMenu** parent item. In order to overcome this behavior you can set **EnableOverlay="false"** (which will prevent the iframe from being rendering). The same is valid for the **RadContextMenu**. 
 >
 
 # See Also

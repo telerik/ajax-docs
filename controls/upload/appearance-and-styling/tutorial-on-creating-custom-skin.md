@@ -74,7 +74,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * Copy the default **RadUpload** skin files from the installation directory to the "Green" directory; copy both the \Upload directory that contains the images for this skin and the Upload.Default.css file that defines the skin styles.
 
->note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
+>tip The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
 >
 
 

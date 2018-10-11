@@ -18,7 +18,7 @@ By default, windows are not visible on the page, and appear centered on the scre
 
 * Use the **OpenerElementId** property to specify the ID of an HTML element that, when clicked, automatically opens the window. **OpenerElementId** lets you open the window in response to client input without writing any JavaScript.
 
->note The **OpenerElementId** and **OffsetElementId** properties are of type string, and expect the client-side ID of an HTML element. If you want to specify an ASP.NET control such as Label, Link, or Button, use its ClientID property. This can be done by setting the properties in codebehind as shown below.
+>tip The **OpenerElementId** and **OffsetElementId** properties are of type string, and expect the client-side ID of an HTML element. If you want to specify an ASP.NET control such as Label, Link, or Button, use its ClientID property. This can be done by setting the properties in codebehind as shown below.
 
 ````ASP.NET
 <asp:Button ID="ServerButton" runat="server" Text="Open RadWindow from a Server Button" />

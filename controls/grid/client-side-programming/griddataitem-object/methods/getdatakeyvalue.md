@@ -16,7 +16,7 @@ position: 4
 
 Returns the dataKeyValue, associated with the GridDataItem.
 
->note  This column name has to be part of the ClientDataKeyNames array of the MasterTableView/GridTableView.
+>tip  This column name has to be part of the ClientDataKeyNames array of the MasterTableView/GridTableView.
 >
 
 You can see a practical example of the method in this dedicated section of the  [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows%}#getdatakeyvalue) article.

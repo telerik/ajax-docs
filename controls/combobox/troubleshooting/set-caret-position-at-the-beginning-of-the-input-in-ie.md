@@ -16,7 +16,7 @@ position: 12
 
 By default when an item is selected, the input of the RadComboBox is focused and the caret is positoned at the end of the selected item's text. This could be a problem when the text of the item exceeds the width of the input, since you are seeing only the end of the text. There is a very easy workaround for this behavior shown below:
 
->note Please note that this behavior only occurs in IE, so there is no need of the workaround in the other browsers.
+>tip Please note that this behavior only occurs in IE, so there is no need of the workaround in the other browsers.
 >
 
 

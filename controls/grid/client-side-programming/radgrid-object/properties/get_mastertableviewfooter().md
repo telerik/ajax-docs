@@ -32,7 +32,7 @@ function getMasterTableViewFooter() {
 
 
 
->note Please, keep in mind that this property would only return a non-null value, when a footer is present in the grid (ShowFooter="true"), as well as when scrolling with static headers is enabled:
+>tip Please, keep in mind that this property would only return a non-null value, when a footer is present in the grid (ShowFooter="true"), as well as when scrolling with static headers is enabled:
 >
 
 

@@ -16,7 +16,7 @@ There are several ways to use the **RadToggleButton** via the keyboard only:
 
 * Set its **AccessKey** property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey" in IE and Chrome, "Shift + Alt + AccessKey" for Firefox, "Shift + Esc + AccessKey" for Opera).
 
->note Note: By default, tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
+>tip Note: By default, tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
 
 ## See Also
 

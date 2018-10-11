@@ -43,7 +43,7 @@ The HTTP method by default is **POST**. To change that you can set the **UseHttp
 
 To use the integrated support, the Web service should have the signature as shown in the code example below.
 
->note Notice in the code below:
+>tip Notice in the code below:
 >
 >* The **ScriptService** attribute marks the **ProductCategories** class and makes the web method callable from client-side script and therefore available to AJAX.
 >

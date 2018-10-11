@@ -16,7 +16,7 @@ position: 4
 
 Sometimes, when you use Item or Content templates, you want the controls in the template to display information associated with the panel item properties. For example, consider a simple panel bar with a text box in the item templates of child items:
 
->note Please note that the approach that follows is valid for Content Templates as well.
+>tip Please note that the approach that follows is valid for Content Templates as well.
 >
 
 
@@ -63,7 +63,7 @@ This is good as far as it goes, but perhaps you want to initialize the values of
 
 In the DataBinder.Eval statement, **Container** is the **RadPanelItem** and **"Value"** identifies the **Value** property of that item.
 
->note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the panel bar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>tip In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the panel bar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 

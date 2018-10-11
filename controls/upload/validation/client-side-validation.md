@@ -20,7 +20,7 @@ You can use **RadUpload** with an ASP.NET custom validator. **CustomValidator** 
 
 * Validating **client-side** has the advantage that the **CustomValidator** prevents the page from submitting when there are selected files that the client-side validation function considers invalid.The validation function can use the **validateExtensions()** client-side method to validate file extensions on the client.
 
->note Selected files must be transferred to the server before they can be validated for **size** or **mime-type** .
+>tip Selected files must be transferred to the server before they can be validated for **size** or **mime-type** .
 >
 
 

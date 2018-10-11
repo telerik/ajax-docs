@@ -44,7 +44,7 @@ You can customize the Box Plot Chart:
 
 	* **DataLowerField**, **DataQ1Field**, **DataMedianField**, **DataQ3Field**, **DataUpperField**, **DataMeanField** and **DataOutliersField** properties of the **BoxPlotSeries** for a data bound chart.
 
-		>note The **DataOutliersField** property must reference a data source field that contains an array of decimal numbers.
+		>tip The **DataOutliersField** property must reference a data source field that contains an array of decimal numbers.
 
 * You can customize the **Outliers**' appearance:
 

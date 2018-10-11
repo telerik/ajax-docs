@@ -16,7 +16,7 @@ The **Import Bootstrap Theme** functionality is currently in development and wit
 
 ![Themebuilder import existing theme](images/theme-builder-import-bootstrap-theme.png)
 
->note You should map the variables from the **“vars”** object according to the convention below in order to import the bootstrap theme successfully:
+>tip You should map the variables from the **“vars”** object according to the convention below in order to import the bootstrap theme successfully:
 
 ````
 {

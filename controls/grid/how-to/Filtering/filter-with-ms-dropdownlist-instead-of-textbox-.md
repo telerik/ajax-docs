@@ -223,7 +223,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 3. The **MyCustomFilteringColumn** implementation requires a **ListDataSource**. You can set that in the **Page_Load** event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
 
-	>note This example sets the **ListDataSource** property in the **Page_Load** event handler. If you are binding your grid using the **NeedDataSource** event, it is more appropriate to set the **ListDataSource** in that event handler. (NeedDataSource does not occur when using declarative data binding.)
+	>tip This example sets the **ListDataSource** property in the **Page_Load** event handler. If you are binding your grid using the **NeedDataSource** event, it is more appropriate to set the **ListDataSource** in that event handler. (NeedDataSource does not occur when using declarative data binding.)
 	>
 
 	**C#**

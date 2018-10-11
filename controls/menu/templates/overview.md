@@ -31,14 +31,14 @@ At design time, add item templates to your **RadMenu** control using the [Templa
 
 1. A **ContentTemplate** that allows you to customize only single items from the menu.
 
->note As of **Q1 2014** release of the Telerik controls you can also use the specially created **ContentTemplate** that allows you to modify the content (where normally the child items would reside)of a single menu item as desired.
+>tip As of **Q1 2014** release of the Telerik controls you can also use the specially created **ContentTemplate** that allows you to modify the content (where normally the child items would reside)of a single menu item as desired.
 >
 
 >caption Figure 2. Using ContentTemplate
 
 ![content Template](images/contentTemplate.png)
 
->note In addition to the item templates, **RadMenu** also supports a **Loading Status** template, which acts as a placeholder for a child group that is [loaded from a Web service]({%slug menu/data-binding/web-service-binding%}) while a request for items is being serviced.
+>tip In addition to the item templates, **RadMenu** also supports a **Loading Status** template, which acts as a placeholder for a child group that is [loaded from a Web service]({%slug menu/data-binding/web-service-binding%}) while a request for items is being serviced.
 >
 
 

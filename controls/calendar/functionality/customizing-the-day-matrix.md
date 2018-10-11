@@ -45,7 +45,7 @@ When **Orientation** is **RenderInColumns**, the days are laid out vertically, i
 The dimensions of the day matrix are not limited to the 6 possible values of the **MonthLayout** property. You can set the number of rows and columns separately using the **SingleViewRows** and **SingleViewColumns** properties. For example, the following screen shot shows an entire year in a single matrix on a **RadCalendar** with **SingleViewRows** = 7 and **SingleViewColumns** = 53:
 ![One year day matrix](images/calendar_daymatrix_oneyear.png)
 
->note 
+>tip 
 When using the **SingleViewRows** and **SingleViewColumns** properties, the day matrix typically does not focus on a single month. To control the first week that appears in the resulting calendar, set the **FocusedDate** property to a day in the first month you want to appear at the beginning of the calendar.
 >
 

@@ -30,7 +30,7 @@ A useful design-time feature of the **Name** attribute is that it offers a list 
 
 ![](images/editor-nameattributeautocomplete.png)
 
->note Please, note that the selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
+>tip Please, note that the selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
 
 ## Setting the tools via the ToolsFile property
 
@@ -112,7 +112,7 @@ RadEditor1.Tools(0).Tools.Add(tool)
 ````
 
 
->note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from the [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax) KB article.
+>tip Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from the [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax) KB article.
 
 
 ## Setting the tools by using Themes

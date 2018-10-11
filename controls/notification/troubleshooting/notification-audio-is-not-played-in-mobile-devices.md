@@ -37,10 +37,10 @@ You cannot play audio files in most mobile browsers from events like load or Dom
 
 **RadNotification** exposes a public client-side method (**userInitSound()**) that lets you initializethe audio when there is a user interaction. You can add an event listener to the most appropriate element/control on your web page,usually the document itself, so that when the user makes an interaction with it, you can kick-start the audio (**Example 2**). You can also ensure that the sound is playable through the **verifySound()** method.
 
->note **RadNotification** doesn't attach an event handler to the document that kick-starts that audio when a user action is performedout of the box because such behavior contradicts with the one accepted in mobile devices.
+>tip **RadNotification** doesn't attach an event handler to the document that kick-starts that audio when a user action is performedout of the box because such behavior contradicts with the one accepted in mobile devices.
 
 
->warning Handling the corresponding event and calling the **userInitSound()** client-side method of the **RadNotification** would make sure that the sounds are available until the user navigates away from the currently loaded page or the notification control is disposed with AJAX.
+>caution Handling the corresponding event and calling the **userInitSound()** client-side method of the **RadNotification** would make sure that the sounds are available until the user navigates away from the currently loaded page or the notification control is disposed with AJAX.
 
 
 

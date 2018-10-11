@@ -28,7 +28,7 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 
 1. Copy the default RadSlider skin files from the installation directory to the "MySkin" directory; copy both the \Slider directory that contains the images for this skin and the Slider.Default.css file that defines the skin styles.
 
-	>note The file path will typically be similar to this example: _\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default_.
+	>tip The file path will typically be similar to this example: _\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default_.
 	
 1. The solution should now look something like the screenshot below:
 	

@@ -21,7 +21,7 @@ Just like with the [icons]({%slug notification/functionality/embedded-icons%}), 
 * warning
 * ok
 
->warning Audio in mobile devices can only be played after a user action. This is a limitation of mobile browsers that also affects the **RadNotification** control. You can find more information and a possible solution in the [Notification Audio Is Not Played In Mobile Devices](../troubleshooting/notification-audio-is-not-played-in-mobile-devices) help article.
+>caution Audio in mobile devices can only be played after a user action. This is a limitation of mobile browsers that also affects the **RadNotification** control. You can find more information and a possible solution in the [Notification Audio Is Not Played In Mobile Devices](../troubleshooting/notification-audio-is-not-played-in-mobile-devices) help article.
 
 
 # See Also

@@ -19,7 +19,7 @@ position: 0
 ````
 
 
->note Some key combination are reserved by the browsers for default actions and they cannot be used. Ex. Ctrl + D adds current page to favorites/bookmarks.
+>tip Some key combination are reserved by the browsers for default actions and they cannot be used. Ex. Ctrl + D adds current page to favorites/bookmarks.
 >
 
 

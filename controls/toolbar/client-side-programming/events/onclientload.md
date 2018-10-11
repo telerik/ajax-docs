@@ -48,6 +48,6 @@ The following example illustrates the use of the **OnClientLoad** event handler 
 </telerik:RadToolBar>
 ````
 
->note The technique illustrated here can be used when the toolbar is nested within another control, but the RadToolBar must be rendered only once. If RadToolBar is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered toolbar.
+>tip The technique illustrated here can be used when the toolbar is nested within another control, but the RadToolBar must be rendered only once. If RadToolBar is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered toolbar.
 >
 

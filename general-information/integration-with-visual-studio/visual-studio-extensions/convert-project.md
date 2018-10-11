@@ -30,7 +30,7 @@ The Convert Project Wizard’s first page lets you define settings related to Te
 
 * **Telerik Assemblies** - Select Telerik DPL assemblies which will be added to or removed from your project.
 
->note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
+>tip If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
 
 The second page of the Convert Project Wizard gives you the ability to select which theme will be added to your project. Check the content of each theme or see the preview of it when select it into the Convert Project wizard and select the one you want to be included in the project:
 

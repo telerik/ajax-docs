@@ -94,7 +94,7 @@ End Sub
 ````
 
 
->note If you need to add[AJAX settings programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}), it is recommended that you get the master **RadAjaxManager** instance and call its methods/properties as well. The same **GetCurrent** method could be used to access the **RadAjaxManager** placed in the Master/Main page from a Content page/WebUserControl.
+>tip If you need to add[AJAX settings programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}), it is recommended that you get the master **RadAjaxManager** instance and call its methods/properties as well. The same **GetCurrent** method could be used to access the **RadAjaxManager** placed in the Master/Main page from a Content page/WebUserControl.
 >
 
 

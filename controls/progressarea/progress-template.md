@@ -34,7 +34,7 @@ You can let **RadProgressArea** automatically locate and update the values of th
 |Speed|Speed|
 |CancelButton|Cancel Button|
 
->note As of **Q2 2015** the *PrimaryProgressBarInnerDiv* and *SecondaryProgressBarInnerDiv* IDs are renamed respectively to **PrimaryProgressBarElement** and **SecondaryProgressBarElement** due to the new Lightweight rendering of the control.
+>tip As of **Q2 2015** the *PrimaryProgressBarInnerDiv* and *SecondaryProgressBarInnerDiv* IDs are renamed respectively to **PrimaryProgressBarElement** and **SecondaryProgressBarElement** due to the new Lightweight rendering of the control.
 >
 
 You can also update the values of elements in your template using the client-side [OnClientProgressBarUpdating]({%slug progressarea/client-side-programming/onclientprogressbarupdating%}) and [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) events to bind the values of custom controls you add in the template.

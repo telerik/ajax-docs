@@ -28,7 +28,7 @@ This tutorial will walk you through creating a Web page that uses **RadUpload** 
 
 Before you can use any of the **RadUpload** progress-monitoring controls, you must add **RadProgressManager**.
 
->note You can omit the below seven steps if you simply use the **SmartTag** of **RadProgressManager** 
+>tip You can omit the below seven steps if you simply use the **SmartTag** of **RadProgressManager** 
 >
 
 
@@ -52,7 +52,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 	
 	This registers the **RadUploadHttpModule** type, which enables **RadProgressManager** to manage the upload progress.
 	
-	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadHttpModule** type. See the [Configuration]({%slug progressarea/webconfing-configuraton%}) article for details.
+	>tip If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadHttpModule** type. See the [Configuration]({%slug progressarea/webconfing-configuraton%}) article for details.
 	>
 	
 1. Under the **`<system.web>`** element, locate the **`<httpHandlers>`** element. Add it if it does not exist.
@@ -66,7 +66,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 
 	This registers the **RadUploadProgressHandler**, which is required by the **RadProgressManager** control.
 
-	>note If you are hosting your application in IIS 7 with integrated mode, you should additionally register RadUpload in the modules and handlers sections like this:
+	>tip If you are hosting your application in IIS 7 with integrated mode, you should additionally register RadUpload in the modules and handlers sections like this:
 	>
 
 
@@ -85,7 +85,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 
 
 
-	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadProgressHandler** type. See [RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) for details.
+	>tip If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadProgressHandler** type. See [RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) for details.
 	>
 
 1. At this point, your Web.config should look as follows:
@@ -142,7 +142,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 
 	* Set the **MaxFileSize** to 1000000. This specifies that the **RadUpload** should not upload a file of more than 1,000,000 bytes.
 
-	>note By default, your application can upload at most 4 megabytes of data over all the files uploaded in a single postback.
+	>tip By default, your application can upload at most 4 megabytes of data over all the files uploaded in a single postback.
 	>
 
 1. In the Solution Explorer, add a new folder called "Files" where the uploaded files will be placed:

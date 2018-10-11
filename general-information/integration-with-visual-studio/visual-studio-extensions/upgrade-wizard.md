@@ -31,11 +31,11 @@ On the next step the wizard lists all projects from the solution, which use Tele
 
 ![introduction-vsx upgradewizard chooseprojects](images/introduction-vsx_upgradewizard_chooseprojects.png)
 
->note The listed projects target all of the supported .NET Framework versions. When you complete the wizard all selected projects will be updated.
+>tip The listed projects target all of the supported .NET Framework versions. When you complete the wizard all selected projects will be updated.
 
 The following page of the upgrade wizard suggests you three options for the project resources:
 
->note In case *non-embedded*  **Skins** and/or **Scripts** folders are detected in the root of a project selected for upgrade they will be automatically updated in accordance with the selected controls version.
+>tip In case *non-embedded*  **Skins** and/or **Scripts** folders are detected in the root of a project selected for upgrade they will be automatically updated in accordance with the selected controls version.
 
 >caption Figure 3: Choose which files to upgrade
 
@@ -59,7 +59,7 @@ After choosing the preferred options and pressing the Finish button, the Upgrade
 
 The reason for the described exception is the displacement of the embedded skins from Telerik.Web.UI to Telerik.Web.UI.Skins, introduced with the Q3 2011 release.
 
->note
+>tip
 * The Telerik® UI for ASP.NET AJAX distribution selection screen lists all the versions that can be detected automatically. These are versions, installed by using the Windows Installer MSI package (marked with **[Install Folder]** ) and versions, downloaded earlier by the Upgrade Wizard (marked with **[Download]** ). Hotfixes, downloaded manually cannot be detected.
 * The Telerik® UI for ASP.NET AJAX version signature is defined by the year, number of Q, month, day and .NET Framework version of the release. For example version 2012.1.215 means Q1 2012, which is released on February 15, 2012. In addition to this signature, you will find an indication whether the release is a trial ( **Trial** ) or purchased ( **Dev** ) version.
 * The distribution, downloaded by the Upgrade Wizard contains only the "hotfix" files, e.g. the barebone files, needed for a project to run correctly. It does not contain the documentation or the Live Examples.

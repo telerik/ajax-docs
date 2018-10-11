@@ -15,7 +15,7 @@ position: 0
 Often, when constructing a Web page that contains a treelist, there aredesign limitations regarding the size of the treelist. In such cases, youmay need to enable client-side treelist scrolling so that the treelist can fit it in the allowed space. You can enable scrolling by setting the **ClientSettings.Scrolling.AllowScroll** property to **True** (By default its value is False.)
 ![Scrolling enabled](images/treelist_scrolling1.png)
 
->note When scrolling is enabled, the treelist columns should declare HeaderStyle.Width.
+>tip When scrolling is enabled, the treelist columns should declare HeaderStyle.Width.
 >
 
 

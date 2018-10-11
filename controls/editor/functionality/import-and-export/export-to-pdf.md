@@ -77,7 +77,7 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
->note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
+>tip The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
 *  **A4 Portrait** : `<Pdf PageWidth="210mm" PageHeight="297mm" />`
 *  **A4 Landscape** : `<Pdf PageWidth="297mm" PageHeight="210mm" />`
@@ -411,7 +411,7 @@ This approach provides the following benefits:
 
 * The ClientExportManager logic is used which includes the PAKO library and has fewer limitations than the built-in server-side export library.
 
-	>note Review the [RadClientExportManager Browser Support]({%slug clientexportmanager/browser-support%}) and evaluate it against your expected user base. 
+	>tip Review the [RadClientExportManager Browser Support]({%slug clientexportmanager/browser-support%}) and evaluate it against your expected user base. 
 
 >caption Example 6: Use automatic page breaking via the underlying Kendo API
 

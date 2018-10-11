@@ -54,7 +54,7 @@ You add series via the **Series** tag inside the **PlotArea** tag. The inner tag
 
 * **Series Item Tooltip** - This tooltip is shown only when the mouse hovers over a series item,which is why it is not present in **Figure 1**. It consists of a rectangle with the series' color (or the color predefined by the developer) and the item's value (plus format string) inside.
 
->note The **PieSeries** (see **Figure 2** and the markup in **Example 2**) is a specific type of chart and it consists of segments (that can be exploded or not) and the series items are what appears in the legend instead of the series names. A **PieSeries** does not have axes and thus none of the elements related to them are shown.	The chart title, plot area, legend, series item labels and series item tooltips are the same as with other series types.
+>tip The **PieSeries** (see **Figure 2** and the markup in **Example 2**) is a specific type of chart and it consists of segments (that can be exploded or not) and the series items are what appears in the legend instead of the series names. A **PieSeries** does not have axes and thus none of the elements related to them are shown.	The chart title, plot area, legend, series item labels and series item tooltips are the same as with other series types.
 
 >caption Figure 2: Series elements of a PieSeries type of RadHtmlChart.
 

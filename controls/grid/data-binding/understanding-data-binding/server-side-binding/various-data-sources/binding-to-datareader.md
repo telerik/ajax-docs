@@ -96,6 +96,6 @@ End Sub
 ````
 
 
->note The most appropriate place to close the DataReader and the connection is in the **DataBound** event handler of the grid, as shown above.
+>tip The most appropriate place to close the DataReader and the connection is in the **DataBound** event handler of the grid, as shown above.
 >
 

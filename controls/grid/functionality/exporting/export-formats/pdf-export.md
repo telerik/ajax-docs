@@ -48,7 +48,7 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 * [Exceptions](#exceptions)
 
->note Note that *RadGrid* will render as an *XHTML* table and will convert that table to a *PDF* document. That requires that the rendered grid output is valid *XHTML*. If it is not, you will receive an exception that the export cannot be completed.
+>tip Note that *RadGrid* will render as an *XHTML* table and will convert that table to a *PDF* document. That requires that the rendered grid output is valid *XHTML*. If it is not, you will receive an exception that the export cannot be completed.
 >The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **& l t ;** , **& g t ;** , **& a m p ;** respectively. Another frequent problem are unclosed tags.
 >
 
@@ -74,7 +74,7 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 
 
->note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
+>tip The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
 *  **A4 Portrait** : \<Pdf PageWidth="210mm" PageHeight="297mm" /\>
 *  **A4 Landscape** : \<Pdf PageWidth="297mm" PageHeight="210mm" /\>
@@ -95,7 +95,7 @@ Although you can't modify the contents on **OnGridExporting**, you can use this 
 
 *RadGrid* does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
 
->note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>tip Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
 >
 
 ````C#
@@ -147,7 +147,7 @@ End Sub
 ````
 
 
->note To center the text in the **GridHeaderItem**, you should set the appropriate style to each cell (*TH* element) instead of the whole row.
+>tip To center the text in the **GridHeaderItem**, you should set the appropriate style to each cell (*TH* element) instead of the whole row.
 >
 
 
@@ -172,7 +172,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>tip From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
@@ -346,7 +346,7 @@ You can use the following approach if you need to set a background image to your
 
 <MasterTableView style="background-image: url(yourimage)" />
 
->note In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
+>tip In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
 >
 
 
@@ -381,7 +381,7 @@ End Sub
 ````
 
 
->note If you want the changes to be applied to the exported file only, you can use a boolean flag to distinguish whether the event is fired as a result of a button click (or manual invoking of the export method).
+>tip If you want the changes to be applied to the exported file only, you can use a boolean flag to distinguish whether the event is fired as a result of a button click (or manual invoking of the export method).
 >
 
 
@@ -416,7 +416,7 @@ The page-breaking tag is **<?hard-pagebreak?>**
 
 From Q2 2013 PDF export supports header and footer. PageHeader element holds the header cells while the PageFooter elements contains the footer cells and they are applicable to ExportSettings-Pdf tab. The supported child properties for the both elements are LeftCell, MiddleCell, RightCell which contain the cell text and text alignment properties. Apart from the plain text,the cell text property can contain HTML code, and a special tag **<?page-number?>** which can be used to display the current page's number.
 
->note Image contents of the header/footer cells might be shrunk if they go out of the header/footer area. Adjusting the pagemargins can give the header/footer more space for the larger images.
+>tip Image contents of the header/footer cells might be shrunk if they go out of the header/footer area. Adjusting the pagemargins can give the header/footer more space for the larger images.
 >
 
 

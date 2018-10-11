@@ -14,7 +14,7 @@ You can bind **RadNavigation** to an object-based data source such as **ObjectDa
 
 ## Binding to ObjectDataSource
 
->note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/navigation/data-binding/server-side-binding/declarative-data-sources/defaultcs.aspx?product=navigation) live demo.
+>tip To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/navigation/data-binding/server-side-binding/declarative-data-sources/defaultcs.aspx?product=navigation) live demo.
 >
 
 
@@ -22,7 +22,7 @@ When using **ObjectDataSource**, you can bind **RadNavigation** declaratively at
 
 If the collection contains objects (as opposed to string values), you can use the **DataTextField**, and the **DataNavigateUrlField** properties to map a property from the object directly to the **Text** and **NavigateUrl** properties of **NavigationNode**. If the **DataFieldID** and **DataFieldParentID** properties are set, RadNavigation will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
 
->note - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
+>tip - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
 > **ID**  **ParentID** 
 >1 (null)
@@ -193,7 +193,7 @@ End Class
 
 ## Binding to an object that implements IEnumerable
 
->note To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx)live demo.
+>tip To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx)live demo.
 >
 
 

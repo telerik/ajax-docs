@@ -20,10 +20,10 @@ position: 1
 
 Each **Appointment** object also has a **Resources** property, which is acollection of **Resource** objects that is assigned to the appointment. When working with the **Resources** property of an appointment, use the **GetResourceByType** method to obtain a reference to the single value of that resource type that is assigned to the appointment. If the resource supports multiple values for a single resource type, you can use the **GetResourcesByType** method instead.
 
->note The resources are rendered as ComboBox controls when the Scheduler's RenderMode is set to Classic and as DropDownList controls when the RenderMode is set to Lightweight.
+>tip The resources are rendered as ComboBox controls when the Scheduler's RenderMode is set to Classic and as DropDownList controls when the RenderMode is set to Lightweight.
 >
 
->note Avoid setting the name of the Resources to an already existing name or field. For example, setting "Reminder" as a name for the resource leads to non-working resources.
+>tip Avoid setting the name of the Resources to an already existing name or field. For example, setting "Reminder" as a name for the resource leads to non-working resources.
 >
 
 ## Example

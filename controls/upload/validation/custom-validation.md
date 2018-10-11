@@ -85,7 +85,7 @@ Imports Telerik.Web.UI.Upload...
 ````
 
 
->note For an example of custom validation that checks the content of the uploaded file, see [ValidatingFile]({%slug upload/server-side-programming/validatingfile%}).
+>tip For an example of custom validation that checks the content of the uploaded file, see [ValidatingFile]({%slug upload/server-side-programming/validatingfile%}).
 >
 
 

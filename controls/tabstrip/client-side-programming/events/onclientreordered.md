@@ -16,7 +16,7 @@ position: 8
 
 The **OnClientReordered** event is fired after the reorder operation is completed and the dragged tab is being inserted into its new position.
 
->note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
+>tip This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 

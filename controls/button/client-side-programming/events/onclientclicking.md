@@ -56,6 +56,6 @@ End Sub
 ````
 
 
->note Since Q2 2012 the event **OnClientClicking** is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article [RadButton Validation And Client-side Event Handlers]({%slug button/how-to/radbutton-validation-and-client-side-event-handlers%}).
+>tip Since Q2 2012 the event **OnClientClicking** is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article [RadButton Validation And Client-side Event Handlers]({%slug button/how-to/radbutton-validation-and-client-side-event-handlers%}).
 
 

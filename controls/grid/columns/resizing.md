@@ -22,13 +22,13 @@ Another property that affects the **table-layout** attribute of the rendered gri
 
 If you want the columns in your grid to be resizable, set the **ClientSettings.Resizing.AllowColumnResize** property to **True**. When **AllowColumnResize** is **True**, users can resize columns by dragging the handle between column headers. The default value for this property is **false**.
 
->note If you want the rows to be resizable as well, set the **ClientSettings.Resizing.AllowRowResize** property to **True** . This allows users to drag the handle between two rows to resize them. The default value for this property is **False** .
+>tip If you want the rows to be resizable as well, set the **ClientSettings.Resizing.AllowRowResize** property to **True** . This allows users to drag the handle between two rows to resize them. The default value for this property is **False** .
 >
 
 
 When resizing is enabled (**AllowColumnResize** is **True**), you can disable column resizing for individual columns by setting the column's **Resizable** property to **False**. Setting a column's **Resizable** property has no effect if **AllowColumnResize** is **False**.
 
->note Note that after finishing resizing, the columns located on the right side of the current resized column will be automatically resized to equal portions. This is expected - the browser resizes the rest of the columns by itself. The behavior could be avoided by enabling *ResizeGridOnColumnResize* .
+>tip Note that after finishing resizing, the columns located on the right side of the current resized column will be automatically resized to equal portions. This is expected - the browser resizes the rest of the columns by itself. The behavior could be avoided by enabling *ResizeGridOnColumnResize* .
 >
 
 
@@ -58,7 +58,7 @@ When this property is set to **False** (the default), the grid preserves its siz
 
 If you set **ResizeGridOnColumnResize** to **True**, the grid changes its size dynamically when the user resizes a column. All other columns retain their original sizes.
 
->note When using resizing with scrolling and static headers only the **GridTableView** is resized - RadGrid's width remains fixed.
+>tip When using resizing with scrolling and static headers only the **GridTableView** is resized - RadGrid's width remains fixed.
 >
 
 
@@ -74,7 +74,7 @@ When **ClipCellContentOnResize** is **False**, users can't resize a column so th
 
 ![ClipCellContentOnResize = true](images/grd_ClipCellOnResize_false.png)
 
->note When scrolling is enabled and **UseStaticHeaders** property is set to **true** , **ClipCellContentOnResize** is always **true** .
+>tip When scrolling is enabled and **UseStaticHeaders** property is set to **true** , **ClipCellContentOnResize** is always **true** .
 >
 
 

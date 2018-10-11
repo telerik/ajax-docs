@@ -14,7 +14,7 @@ position: 0
 
 Editable columns inside a **RadTreeList** control supply a default editor that enables users to edit the values in the column.
 
->note Editable columns are columns that implement the **ITreeListEditableColumn** interface.
+>tip Editable columns are columns that implement the **ITreeListEditableColumn** interface.
 >
 
 

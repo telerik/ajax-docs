@@ -14,7 +14,7 @@ position: 0
 
 When setting **DisablePlugins** property to **true RadAsyncUpload** does not use either Silverlight or Flash modules to upload files. With **DisablePlugins** property set to **true** the **RadAsyncUpload** uses **File API** (if the browser supports it) or the IFrame module. You can set the **DisablePlugins** property through mark up or in the code-behind.
 
->note The **DisablePlugins** property is available As of Q3 2011.
+>tip The **DisablePlugins** property is available As of Q3 2011.
 >
 
 Here is how you can set the property in the markup of your page:

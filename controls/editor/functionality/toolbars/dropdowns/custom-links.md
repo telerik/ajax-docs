@@ -113,7 +113,7 @@ You can also populate the Custom Links treeview using the ToolsFile.xml file, as
 ````
 
 
->note Please bear in mind that RadEditor will persist its state (including the Custom Links set) between post backs. In order to create a new set of Custom Links (e.g. for different users), you will need to clear it first. This can be done using **Remove()** or **Clear()** methods of the Links collection.
+>tip Please bear in mind that RadEditor will persist its state (including the Custom Links set) between post backs. In order to create a new set of Custom Links (e.g. for different users), you will need to clear it first. This can be done using **Remove()** or **Clear()** methods of the Links collection.
 
 ## See Also
 

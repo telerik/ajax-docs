@@ -20,7 +20,7 @@ The items of **RadPanelBar** have a few important properties, which are listed b
 
 * **ToolTip** is the text of a tooltip that appears when the user hovers the mouse over the item.
 
->note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
+>tip Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
 

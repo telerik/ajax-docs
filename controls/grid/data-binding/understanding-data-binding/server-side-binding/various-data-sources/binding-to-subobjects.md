@@ -16,7 +16,7 @@ position: 3
 
 You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumerable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to subobjects by the intuitive and simple **dot(.)** syntax (specified through the **DataField** property of declaratively bound columns). This dot syntax is shown in the following example.
 
->note You may need to set the **RetrieveNullAsDBNull** property to **true** on the **MasterTableView** in order avoid binding problems.
+>tip You may need to set the **RetrieveNullAsDBNull** property to **true** on the **MasterTableView** in order avoid binding problems.
 >
 
 

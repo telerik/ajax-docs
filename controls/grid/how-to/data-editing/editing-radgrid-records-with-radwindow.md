@@ -17,7 +17,7 @@ The [Window Editing](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Inte
 
 The demo uses a **GridTemplateColumn** that contains a **HyperLink** control to launch the window for editing, and a [CommandItemTemplate]({%slug grid/data-editing/commanditem/command-item-template%}) to add a link that launches the window for inserts.
 
->note In Master page/UserControl scenario RadGrid should be ajaxified from the true RadAjaxManager but the RadAjaxManagerProxy.
+>tip In Master page/UserControl scenario RadGrid should be ajaxified from the true RadAjaxManager but the RadAjaxManagerProxy.
 >
 
 

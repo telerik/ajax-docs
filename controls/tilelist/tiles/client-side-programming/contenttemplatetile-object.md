@@ -15,7 +15,7 @@ position: 2
 
 This article explains the client-side properties and methods **[RadContentTemplateTile]({%slug tilelist/tiles/contenttemplate-tile%})** exposes.
 
->note  **RadContentTemplateTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ContentTemplateTile specific methods.
+>tip  **RadContentTemplateTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ContentTemplateTile specific methods.
 >
 
 

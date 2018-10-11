@@ -22,7 +22,7 @@ Both **RadWindowManager** and **RadWindow** inherit from **RadWindowBase**. The 
 
 * **Behaviors**: Specifies whether the window can be maximized, minimized, resized, closed, and or pinned by the user.
 
->note While **RadWindow** objects do not require a **RadWindowManager** object, you must use **RadWindowManager** if you are making use of **radalert** , **radconfirm** , and **radprompt** dialogs. You will need the **RadWindowManager** as well if you want to use the **radopen()** function to open windows.
+>tip While **RadWindow** objects do not require a **RadWindowManager** object, you must use **RadWindowManager** if you are making use of **radalert** , **radconfirm** , and **radprompt** dialogs. You will need the **RadWindowManager** as well if you want to use the **radopen()** function to open windows.
 
 ## See Also
 

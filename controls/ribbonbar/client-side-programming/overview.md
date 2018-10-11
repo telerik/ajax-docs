@@ -150,7 +150,7 @@ function OnClientLoad(sender, args) {
 
 
 
->note You can not operate with the RibbonBarToggleList by itself. In other words if you intend to disable the RibbonBarToggleList you will not be able to do so since it does not render as an object. Instead you will need to disable each RibbonBarToggleButton individually. The same apply for the RibbonBarMenu as well.
+>tip You can not operate with the RibbonBarToggleList by itself. In other words if you intend to disable the RibbonBarToggleList you will not be able to do so since it does not render as an object. Instead you will need to disable each RibbonBarToggleButton individually. The same apply for the RibbonBarMenu as well.
 >
 
 
@@ -169,7 +169,7 @@ function OnClientLoad(sender, args) {
 
 
 
->note In addition to the above mentioned methods you can also find a particular tab, group or item by using indexes in the following way:
+>tip In addition to the above mentioned methods you can also find a particular tab, group or item by using indexes in the following way:
 >
 
 

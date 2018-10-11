@@ -71,7 +71,7 @@ End Namespace
 ````
 
 
->note When inheriting grid columns in hierarchy, you need to override their Clone() method and copy the base properties as follows:
+>tip When inheriting grid columns in hierarchy, you need to override their Clone() method and copy the base properties as follows:
 >
 
 
@@ -99,6 +99,6 @@ End Function
 
 
 
->note Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid columns from RadGrid.
+>tip Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid columns from RadGrid.
 >
 

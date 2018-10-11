@@ -59,7 +59,7 @@ var kendoRadialGauge = $telerik.$("#<%=RadRadialGauge1.ClientID %>").data("kendo
 var kendoLinearGauge = $telerik.$("#<%=RadLinearGauge1.ClientID %>").data("kendoLinearGauge");//the jQuery selector must get the Gauge wrapping div element
 ````
 
->note  **RadGauge** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Gauge) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the gauge widgets is **Sys.Application.Load**.
+>tip  **RadGauge** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Gauge) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the gauge widgets is **Sys.Application.Load**.
 
 ## See Also
 

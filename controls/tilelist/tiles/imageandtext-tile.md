@@ -22,7 +22,7 @@ To the right, towards the badge, there are 35 pixels left available and the badg
 
 ![tilelist-image And Text Tile-swimming-example](images/tilelist-imageAndTextTile-swimming-example.png)
 
->note The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
+>tip The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

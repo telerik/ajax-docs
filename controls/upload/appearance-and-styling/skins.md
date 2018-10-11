@@ -27,7 +27,7 @@ position: 3
 
 
 
->note Since Q1 2013 three new skins have been added for RadUpload (BlackMetroTouch, Glow and Silk).
+>tip Since Q1 2013 three new skins have been added for RadUpload (BlackMetroTouch, Glow and Silk).
 >
 
 

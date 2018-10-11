@@ -14,7 +14,7 @@ To achieve this, please follow the steps below:
 
 1. On the SharePoint server, open**C:\Program Files\Common Files\Microsoft Shared\web server extensions\wpresources\RadEditorSharePoint\5.x.x.x**1f131a624888eeed\Resources**
 
-	>note The 5.x.x.x number in the path is the version of the MOSS RadEditor that you have.
+	>tip The 5.x.x.x number in the path is the version of the MOSS RadEditor that you have.
 
 1. Copy the **EditorDialogs** folder from [this link](http://www.telerik.com/documents/EditorDialogs.zip) to the **Resources** folder
 
@@ -32,7 +32,7 @@ To achieve this, please follow the steps below:
 	    </configuration>
 
 		
-	>note Again, the number in the ExternalDialogsPath property represents the version of the RadEditor that you are using. It should be the same as one in the name of the folder above.
+	>tip Again, the number in the ExternalDialogsPath property represents the version of the RadEditor that you are using. It should be the same as one in the name of the folder above.
 
 
 1. Open the ToolsFile.xml file from the Resources folder and change it to the following (the same changes apply to **ListToolsFile.xml**if you are using RadEditor in Lists scenario):

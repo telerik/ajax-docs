@@ -24,7 +24,7 @@ The filtering functionality is enabled through the **Filter** property. The foll
 
 ![ComboBox Filter Starts With](images/combobox_filter_startswith.png)
 
->note 
+>tip 
 * Filtering is NOT case sensitive;
 *  **CheckBox** functionality is NOT supported in combination with filtering. The reason is that the CheckBox selection is different from the standard RadComboBox's selection - there is no single selected item.
 >
@@ -81,7 +81,7 @@ To control the appearance of the filtered items (their **`<EM>`** elements), the
 
 
 
->note Sunset is the name of the Skin that the RadComboBox is currently using. You need to change it with the name of the skin that you use.
+>tip Sunset is the name of the Skin that the RadComboBox is currently using. You need to change it with the name of the skin that you use.
 >
 
 

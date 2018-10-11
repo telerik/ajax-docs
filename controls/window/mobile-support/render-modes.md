@@ -22,7 +22,7 @@ position: 1
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadWindow and RadWindowManager")
 
->note A RadWindow that is inside the Windows collection of a RadWindowManager will inherit the manager's render mode, unless explicitly specified in the RadWindow instance.
+>tip A RadWindow that is inside the Windows collection of a RadWindowManager will inherit the manager's render mode, unless explicitly specified in the RadWindow instance.
 
 ## Setting Render Mode
 

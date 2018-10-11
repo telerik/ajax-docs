@@ -26,5 +26,5 @@ The context menu button will appear in case the reordering or show/hide feature 
 
 Telerik ASP.NET TreeList Adaptive behavior supports easy editing for users on both desktop and mobile. When the demo is opened on a mobile device the **PopUp** edit form will take the entire RadTreeList container and position **Save** and**Cancel** buttons at the top for a better user experience. You can turn on this feature by setting the RadTreeList **RenderMode** property to **Auto** and setting the **EditMode** property to **PopUp**. It's as simple as that.
 
->note Only **NextPrevNumericAndAdvanced** pager mode is supported for mobile devices. 
+>tip Only **NextPrevNumericAndAdvanced** pager mode is supported for mobile devices. 
 >

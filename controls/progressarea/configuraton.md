@@ -79,11 +79,11 @@ RadProgressArea1.ProgressIndicators =
 ````
 
 
->note The **ProgressIndicators** type is defined in the Telerik.Web.UI.Upload namespace.
+>tip The **ProgressIndicators** type is defined in the Telerik.Web.UI.Upload namespace.
 >
 
 
->note You can modify the positions and the HTML elements of the progress indicators by creating a [Progress Template]({%slug progressarea/progress-template%}).
+>tip You can modify the positions and the HTML elements of the progress indicators by creating a [Progress Template]({%slug progressarea/progress-template%}).
 >
 
 

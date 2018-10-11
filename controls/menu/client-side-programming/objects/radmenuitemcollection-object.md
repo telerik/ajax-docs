@@ -14,10 +14,10 @@ position: 2
 
 The **RadMenuItemCollection** object is returned by the **get_items** method of the [RadMenu object]({%slug menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects%}) or the [RadMenuItem object]({%slug menu/client-side-programming/objects/radmenuitem-object%}). The following table lists the most important methods.
 
->note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the menu object and the **commitChanges** method of the menu object.
+>tip Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the menu object and the **commitChanges** method of the menu object.
 >
 
->note In Mobile render mode, client-side RadMenu items are of type `Telerik.Web.UI.MobileMenuItem` while in the other render modes the items are of type `Telerik.Web.UI.RadMenuItem`.
+>tip In Mobile render mode, client-side RadMenu items are of type `Telerik.Web.UI.MobileMenuItem` while in the other render modes the items are of type `Telerik.Web.UI.RadMenuItem`.
 >
 
 | Name | Parameters | Return Type | Description |

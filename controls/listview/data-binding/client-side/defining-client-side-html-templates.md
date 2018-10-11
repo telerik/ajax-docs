@@ -30,7 +30,7 @@ Here follows a list of all the client-side templates available for specifying in
 | **EmptyDataTemplate** |HTML template rendered when RadListView contains no data.|
 | **SelectedItemTemplate** |HTML template rendered when an item is selected.|
 
->note Note that Visual Studio does not provide IntelliSense support inside string properties in the markup. Therefore, you get only code completion when typing HTML in a client-side RadListView template, but no IntelliSense.
+>tip Note that Visual Studio does not provide IntelliSense support inside string properties in the markup. Therefore, you get only code completion when typing HTML in a client-side RadListView template, but no IntelliSense.
 >
 
 

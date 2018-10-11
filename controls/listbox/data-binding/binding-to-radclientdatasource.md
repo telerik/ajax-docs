@@ -20,7 +20,7 @@ Since **Q2 2014** RadListBox can be bound to a **RadClientDataSource** control. 
 
 The following application scenario shows an example of such scenario.
 
->note When the LoadOnDemand functionality is enabled RadListBox requests items from the RadClientDataSource on portions.In case that this functionality is disabled the items are request at once.
+>tip When the LoadOnDemand functionality is enabled RadListBox requests items from the RadClientDataSource on portions.In case that this functionality is disabled the items are request at once.
 >
 
 ````ASPNET

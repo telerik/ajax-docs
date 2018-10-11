@@ -26,7 +26,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ![Recurrence Editor Localization](images/scheduler_recurrenceeditorlocalization.png)
 
->note technique is useful when customizing some of the messages of a particular instance. The messages are not shared between control instances. A complete translation using this approach is not appropriate.
+>tip technique is useful when customizing some of the messages of a particular instance. The messages are not shared between control instances. A complete translation using this approach is not appropriate.
 >
 
 
@@ -41,7 +41,7 @@ To create a global resource file to localize the control:
 1. Copy the default resource **RadSchedulerRecurrenceEditor.resx** file into it. This file canbe found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resourcefiles used by control follow a strict naming convention:**RadSchedulerRecurrenceEditor.<Culture Identifier>.resx**
->note The **Culture Identifier** consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.<br />
+>tip The **Culture Identifier** consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.<br />
 For example RadSchedulerRecurrenceEditor.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![Recurrence Editor Resource](images/scheduler_recurrenceeditorresource.png)<br />
 
 1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would setthe **Localization** property.

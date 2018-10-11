@@ -16,7 +16,7 @@ position: 2
 
 The following example shows how to create a multi-column RadComboBox with a header that labels the columns of each item.
 
->note Both, the **HeaderTemplate** and **ItemTemplate** , lay out items using a table that fixes column width, so that the header and items line up properly.
+>tip Both, the **HeaderTemplate** and **ItemTemplate** , lay out items using a table that fixes column width, so that the header and items line up properly.
 >
 
 
