@@ -44,7 +44,7 @@ position: 0
 
 1. **[OnClientTileCreating]({%slug tilelist/client-side-programming/client-side-events/onclienttilecreating%})**—fires before the tile is initialized by the TileList.
 
->note If [selection]({%slug tilelist/functionality/selecting%}) is disabled the [OnClientTileSelecting]({%slug tilelist/client-side-programming/client-side-events/onclienttileselecting%}) and [OnClientTileSelected]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%}) events will not be fired at all.
+>tip If [selection]({%slug tilelist/functionality/selecting%}) is disabled the [OnClientTileSelecting]({%slug tilelist/client-side-programming/client-side-events/onclienttileselecting%}) and [OnClientTileSelected]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%}) events will not be fired at all.
 >
 >If [drag-and-drop]({%slug tilelist/functionality/drag-and-drop%}) is not enabled the related events will not fire	([OnClientTileDragging]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragging%}), [OnClientTileDragStart]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragstart%}), [OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%}), [OnClientTileDropping]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropping%})).
 

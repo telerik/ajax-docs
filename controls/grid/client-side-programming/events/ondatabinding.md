@@ -16,17 +16,17 @@ position: 27
 
 Telerik.Web.UI.OnDataBinding Property
 
->note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
+>tip To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
 >
 
 
 This event will be raised when the grid is about to be bound to data client-side. Can be used to change dynamically any of the grid declarative client-side binding properties if needed.
 
->note Meaningful with client-side data-binding only!
+>tip Meaningful with client-side data-binding only!
 >
 
 
->note This event will be raised twice by default - the first call will retrieve the data and the second call will fetch the total items count.
+>tip This event will be raised twice by default - the first call will retrieve the data and the second call will fetch the total items count.
 >
 
 

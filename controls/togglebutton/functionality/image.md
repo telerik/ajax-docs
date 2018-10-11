@@ -40,7 +40,7 @@ You can control the image dimensions through the **Width** and **Height** proper
 
 >tip The Background-size of the image is controlled through the **Image.Sizing** property.
 
->note If you add toggle states with and witout images, the RadToggleButton control will no longer be considered a button but a custom image. Thus, the borders and default backgrounds of the non-image toggle state will be lost and the appearance of the control will change.
+>tip If you add toggle states with and witout images, the RadToggleButton control will no longer be considered a button but a custom image. Thus, the borders and default backgrounds of the non-image toggle state will be lost and the appearance of the control will change.
 
 ## Hovered, Active (Pressed) and Disabled States
 

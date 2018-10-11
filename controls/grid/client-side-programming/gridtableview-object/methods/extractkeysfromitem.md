@@ -16,11 +16,11 @@ position: 19
 
 Method which extracts the key values (added to the **ClientDataKeyNames** collection of the master/detail table) from the edited table row passed as an argument or the row corresponding to the index passed as an argument. The values will be fetched purely client-side and the data will be returned in an object array which can be traversed to get each individual data entry.
 
->note Supported with InPlace and EditForms auto-generated edit form!
+>tip Supported with InPlace and EditForms auto-generated edit form!
 >
 
 
->note If invalid index is passed as argument to the method, the returned object array will be empty.
+>tip If invalid index is passed as argument to the method, the returned object array will be empty.
 >
 
 

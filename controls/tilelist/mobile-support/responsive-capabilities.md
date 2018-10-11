@@ -72,7 +72,7 @@ To enable the responsive layout, you need to:
 
 
 
->note By default, **RadTileList** will calculate the **TileRows** value for a best fit in the available height. Thus, *you do not need to set the `TileRows` property*. If you set it explicitly, its value will be taken into account and no automatic calculations will be performed. This may leave	you with too many rows or empty space below the tiles if the value is not properly calculated according to the **Height** property.
+>tip By default, **RadTileList** will calculate the **TileRows** value for a best fit in the available height. Thus, *you do not need to set the `TileRows` property*. If you set it explicitly, its value will be taken into account and no automatic calculations will be performed. This may leave	you with too many rows or empty space below the tiles if the value is not properly calculated according to the **Height** property.
 
 Removing the default padding or margins the browser adds can also improve the appearance, so we also advise that you include the CSS from **Example 3** on your page.
 

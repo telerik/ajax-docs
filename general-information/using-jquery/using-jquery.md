@@ -57,7 +57,7 @@ Here is how your RadScriptManager (or ScriptManager) should look like in the end
 
 You can disable the embedded jQuery library and include an external one. This lets you use your own version for the **$telerik.$** variable, which exposes the embedded jQuery library.
 
->note Embedding a custom jQuery is optional and you can do it if you want to utilize only one version throughout your site instead of having the version that comes with the Telerik controls and an additional one. You should be safe if you reference more versions, because the jQuery in our controls is accessed via a separate alias (**$telerik.$**), the purpose of which is to avoid conflicts.
+>tip Embedding a custom jQuery is optional and you can do it if you want to utilize only one version throughout your site instead of having the version that comes with the Telerik controls and an additional one. You should be safe if you reference more versions, because the jQuery in our controls is accessed via a separate alias (**$telerik.$**), the purpose of which is to avoid conflicts.
 >
 
 You can disable the jQuery scripts our controls bring by default via the following steps:

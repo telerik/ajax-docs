@@ -35,7 +35,7 @@ RadEditor provides 4 different ways to configure the toolbars:
 </telerik:RadEditor>
 ````
 
->note The selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
+>tip The selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
 
 ## Setting the tools via the ToolsFile property - the same way as in the previous versions of the control:
 
@@ -137,7 +137,7 @@ Once the skin is set, you need to declare it in the RadEditor's declaration by u
 </telerik:RadEditor>
 ````
 
->note Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
+>tip Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
 
 ## Declaring the custom CommandList that will be executed when the button is clicked:
 

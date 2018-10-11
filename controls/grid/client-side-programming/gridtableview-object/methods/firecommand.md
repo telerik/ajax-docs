@@ -35,7 +35,7 @@ function FirePageCommand() {
 
 This method can be used to invoke custom commands along with a single string argument which can be accessed later on using the **OnItemCommand** server event.
 
->note  When firing custom commands (with a custom command name) they are fired through the first data item in the GridTableView. This means that no command will be fired if the grid is bound to an empty data source.
+>tip  When firing custom commands (with a custom command name) they are fired through the first data item in the GridTableView. This means that no command will be fired if the grid is bound to an empty data source.
 >
 
 

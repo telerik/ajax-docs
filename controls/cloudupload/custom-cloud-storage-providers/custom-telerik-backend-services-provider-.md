@@ -12,9 +12,9 @@ position: 3
 
 
 
->note Starting from Q1 2014 **CloudUpload** supports creating of [Custom Storage Providers]({%slug cloudupload/custom-cloud-storage-providers/overview%}). They allow developers to set dynamically in the code-behind credentials for every Storage Provider multiple usage of Storage Providers of the same type.
+>tip Starting from Q1 2014 **CloudUpload** supports creating of [Custom Storage Providers]({%slug cloudupload/custom-cloud-storage-providers/overview%}). They allow developers to set dynamically in the code-behind credentials for every Storage Provider multiple usage of Storage Providers of the same type.
 
->note Progress decided to discontinue Telerik Platform including its Backend Services and integration with RadCloudUpload. You can find more information on Telerik Platform discontinuation at [Telerik Platform is Retired](https://www.telerik.com/platform-next-level).
+>tip Progress decided to discontinue Telerik Platform including its Backend Services and integration with RadCloudUpload. You can find more information on Telerik Platform discontinuation at [Telerik Platform is Retired](https://www.telerik.com/platform-next-level).
 
 ## Setting Credentials Dynamically from the Code Behind
 

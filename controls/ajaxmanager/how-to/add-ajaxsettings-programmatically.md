@@ -19,11 +19,11 @@ This help article discusses the **AjaxSettings** which represent a mapping betwe
 
 When adding **AjaxSettings** dynamically you should always do this in the **Page** event handler, which is executed each time during the page lifecycle (**Page_Load**, **Page_PreRender**) so that the control could be ajaxified when the page is initially loaded. **Example 1** shows how to AJAX-enable a Button control in a page **Page_Load** event.
 
->note Note that you need to assure that the controls that take part in the AJAX pair are available on the page!
+>tip Note that you need to assure that the controls that take part in the AJAX pair are available on the page!
 >
 
 
->note You cannot add **AjaxSettings** dynamically in the **Page_Init** event. It is too early in the page lifecycle since the **RadAjaxManager** is not created yet.
+>tip You cannot add **AjaxSettings** dynamically in the **Page_Init** event. It is too early in the page lifecycle since the **RadAjaxManager** is not created yet.
 >
 
 

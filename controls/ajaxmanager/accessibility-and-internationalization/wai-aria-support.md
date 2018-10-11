@@ -25,7 +25,7 @@ If your web applications need to be more accessible to people with disabilities,
 | ------ | ------ |
 | **RadAjaxManager** |Aria-live: assertive|
 
->note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run an HTML document containing WAI-ARIA attributes through the W3C Validator, it shows errors in the results for any WAI-ARIA attributes. The DOCTYPE declarations do not include any information about the WAI-ARIA attributes and you cannot have a valid document, which includes elements, attributes, and attribute values, not detailed in its DTD-s.
+>tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run an HTML document containing WAI-ARIA attributes through the W3C Validator, it shows errors in the results for any WAI-ARIA attributes. The DOCTYPE declarations do not include any information about the WAI-ARIA attributes and you cannot have a valid document, which includes elements, attributes, and attribute values, not detailed in its DTD-s.
 >
 
 

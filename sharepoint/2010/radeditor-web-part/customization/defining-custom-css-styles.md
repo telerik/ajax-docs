@@ -24,7 +24,7 @@ Telerik RadEditor uses the same CSS as the default rich-text editor. Those style
 
 `/Program Files/Common Files/Microsoft Shared/Web Server Extensions/14/TEMPLATE/LAYOUTS/1033/STYLES`
 
->note The folder location can be different if you are not using US English version of Share Point. The 1033 number signifies the current culture and might be different for different language versions of Share Point.
+>tip The folder location can be different if you are not using US English version of Share Point. The 1033 number signifies the current culture and might be different for different language versions of Share Point.
 >
 
 
@@ -93,9 +93,9 @@ More information you can find in the following online help article: [External CS
 
 Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
 
->note Note the version number in the CSS file URL - this should be set to the RadEditor for Share Point version you have (e.g. 6.12.0.0).
+>tip Note the version number in the CSS file URL - this should be set to the RadEditor for Share Point version you have (e.g. 6.12.0.0).
 
->note Similarly to the default rich-text editor the Telerik RadEditor for Share Point cannot load CSS files from the "Style Library" folder.
+>tip Similarly to the default rich-text editor the Telerik RadEditor for Share Point cannot load CSS files from the "Style Library" folder.
 
 ## See Also
 

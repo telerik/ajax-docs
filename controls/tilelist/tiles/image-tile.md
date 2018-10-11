@@ -18,7 +18,7 @@ A **RadImageTile** uses an image as the primary content of the tile. It begins f
 
 ![tilelist-image Tile-documentation-example](images/tilelist-imageTile-documentation-example.png)
 
->note The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
+>tip The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

@@ -62,6 +62,6 @@ The following example shows how to access the template image and show or hide it
 </asp:SqlDataSource>
 ````
 
->note The empty **OnRowCreated** event handler is needed to initialize the **get_gridDataItem()** parameter value from within the **OnRowSelected** handler (designed in such a way due to performance reasons).
+>tip The empty **OnRowCreated** event handler is needed to initialize the **get_gridDataItem()** parameter value from within the **OnRowSelected** handler (designed in such a way due to performance reasons).
 >
 

@@ -52,7 +52,7 @@ The following properties are available on the server:
 
 * **ToolTipManager** property of type RadToolTipManager. This allows you to apply and modify settings that will affect all the tooltips in the control and their internal generation. Use the tooltip manager reference with caution. Check the next section for information about the modifications which you should not make to it.
 
->note RadPivotGrid also has a string property called ToolTip. This is a default property inherited from WebControl and is not related in any way to the current ToolTips feature. As in every other web control this property simply renders a title attribute on the main HTML element of the control.
+>tip RadPivotGrid also has a string property called ToolTip. This is a default property inherited from WebControl and is not related in any way to the current ToolTips feature. As in every other web control this property simply renders a title attribute on the main HTML element of the control.
 >
 
 

@@ -40,13 +40,13 @@ The following table lists the styles that you can assign to a stand-alone **RadC
 |TitleStyle||The style of the Calendar title.|
 |FastNavigationStyle|RadCalendarMonthView_[skin name]|The style applied to the Month/Year fast navigation popup.|
 
->note 
+>tip 
 In addition to the style properties listed above, if the calendar has any [special days]({%slug calendar/design-time/radcalendarday-collection-editor%}) defined, you can set their **ItemStyle** property to customize the appearance of the special day.
 >
 
 
 
->note 
+>tip 
 Since the Q1 2013 SP1 version of **RadCalendar** the hovered style (**.rcHover**) is appended to the selected style. Thus both styles will be applied when hovering over an element.
 >
 

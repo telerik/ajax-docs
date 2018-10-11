@@ -42,6 +42,6 @@ Add the following attributes to the **<body>** tag of the page:
 
 
 
->note Please take into account that you should use the correct client-side ID of the **TreeView** control. In this case it is RadTreeView1. The best way to get the client-side ID of the **TreeView** is to get it from the HTML output of the page where the **TreeView** resides.
+>tip Please take into account that you should use the correct client-side ID of the **TreeView** control. In this case it is RadTreeView1. The best way to get the client-side ID of the **TreeView** is to get it from the HTML output of the page where the **TreeView** resides.
 >
 

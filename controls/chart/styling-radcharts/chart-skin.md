@@ -14,7 +14,7 @@ position: 3
 
 The skins in RadChart are a set of predefined appearance properties. You can use the embedded skins by setting the RadChart. Skin property to a name of a skin. You can also set the property to **Custom** and use your own appearance settings.![RadChart's Skins](images/radchart-chart_skin.png)
 
->note Since Q1 2013 three new skins have been added for RadChart(BlackMetroTouch, Glow and Silk).
+>tip Since Q1 2013 three new skins have been added for RadChart(BlackMetroTouch, Glow and Silk).
 
 ## Saving own skins
 

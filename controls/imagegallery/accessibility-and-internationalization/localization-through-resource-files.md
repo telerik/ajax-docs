@@ -49,7 +49,7 @@ You can easily create a new resource file by copying an old one and modifying it
 >caution Do not modify or remove the **ReservedResource** key.
 >
 
->note If you are localizing the mobile version of the control (RenderMode="Mobile") you should use **MobileItemsCounterFormat** string for the pager instead of **ItemsCounterFormat**.
+>tip If you are localizing the mobile version of the control (RenderMode="Mobile") you should use **MobileItemsCounterFormat** string for the pager instead of **ItemsCounterFormat**.
 >
 
 

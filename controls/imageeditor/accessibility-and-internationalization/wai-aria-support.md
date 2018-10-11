@@ -26,7 +26,7 @@ In order to enable the WAI-ARIA support, set the **RadImageButton** control's `E
 
 >tip Screen readers may not recognize image buttons when their `aria-label` attribute is set (especially under IE), so you may want to avoid setting the `Label` property in `AriaSettings`.
 
->note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
+>tip The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 
 
 

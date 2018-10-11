@@ -23,7 +23,7 @@ The **RadCalendar** controls support a number of client-side events that let you
 
 
 
->note The embedded **RadDateInput** object that is used by **RadDateTimePicker** also has a number of client events. See the **RadInput** documentation for details.
+>tip The embedded **RadDateInput** object that is used by **RadDateTimePicker** also has a number of client events. See the **RadInput** documentation for details.
 >
 
 

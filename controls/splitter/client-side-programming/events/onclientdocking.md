@@ -12,7 +12,7 @@ position: 13
 
 The **OnClientDocking** client-side event handler is called when a sliding pane is about to be docked. The event can occur because the user clicks on the dock button, on page load, or as the result of a a call to a client-side method.
 
->note The **OnClientDocking** event is supported by **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeDock event.
+>tip The **OnClientDocking** event is supported by **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeDock event.
 
 The following two parameters are passed to the event handler:
 

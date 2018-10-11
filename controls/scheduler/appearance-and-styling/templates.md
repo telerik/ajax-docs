@@ -46,7 +46,7 @@ There are five types of templates that can be used with **RadScheduler**:
 
 ![Appointment template](images/scheduler_appointmenttemplate.png)
 
->note Using `<table>` elements inside the AppointmentTemplate leads to incorrect rendering of the appointments in TimelineView.  
+>tip Using `<table>` elements inside the AppointmentTemplate leads to incorrect rendering of the appointments in TimelineView.  
 >
 
 ## InlineInsertTemplate
@@ -423,7 +423,7 @@ End Sub
 ````
 
 
->note We do not need to make any changes to the **AppointmentCommand** event handler for handling the recurring event check box.The existing event handler that we added for the **AdvancedInsertTemplate** already handles the "Insert" command.
+>tip We do not need to make any changes to the **AppointmentCommand** event handler for handling the recurring event check box.The existing event handler that we added for the **AdvancedInsertTemplate** already handles the "Insert" command.
 >
 
 

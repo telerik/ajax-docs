@@ -29,7 +29,7 @@ On **RadCalendar** you may need to localize the strings that appear in the [mont
 ````
 
 
->note 
+>tip 
 You can use the **FastNavigationSettings** property on the embedded popup calendar in a **RadDatePicker** or **RadDateTimePicker** control, as well as on a stand-alone **RadCalendar** control.
 >
 

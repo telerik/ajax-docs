@@ -22,7 +22,7 @@ position: 1
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadNotification")
 
->note RadNotification uses **RadContextMenu** internally and it inherits the notification's `RenderMode`, so it brings its stylesheets to the page and that can affect other **RadContextMenu** and **RadMenu** instances. You can remove the built-in context menu by setting the `Visible` property of the `NotificationMenu` composite tag to `false`.
+>tip RadNotification uses **RadContextMenu** internally and it inherits the notification's `RenderMode`, so it brings its stylesheets to the page and that can affect other **RadContextMenu** and **RadMenu** instances. You can remove the built-in context menu by setting the `Visible` property of the `NotificationMenu` composite tag to `false`.
 
 ## Setting Render Mode
 

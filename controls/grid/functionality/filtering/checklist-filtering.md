@@ -26,7 +26,7 @@ Apart from the default filtering that RadGrid supports, since Q3 2013 there is a
 
 * Find all grid columns you want filtered with the checklist and set their **FilterCheckListEnableLoadOnDemand** property to **true**.
 
->note Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface. In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
+>tip Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface. In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
 >
 
 
@@ -36,7 +36,7 @@ In this mode when you click the filter menu icon a ListBox control with predefin
 
 When you set the **FilterType** property to **Combined** mode the best from both worlds is available:
 
->note Please note that filtering functionality is not supported when using simple databinding (calling DataBind() method of RadGrid).
+>tip Please note that filtering functionality is not supported when using simple databinding (calling DataBind() method of RadGrid).
 >
 
 
@@ -509,7 +509,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext**. Then you need to turn on the header context menu (**EnableHeaderContextMenu="true"**) and the context filter menu (**EnableHeaderContextFilterMenu="true"**).
 
->note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**). Additionally you should populate the HeaderContext filter menu by using a **Web Service** instead of using **LoadOnDemand** feature.
+>tip If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**). Additionally you should populate the HeaderContext filter menu by using a **Web Service** instead of using **LoadOnDemand** feature.
 >
 
 

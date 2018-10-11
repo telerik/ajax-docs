@@ -18,7 +18,7 @@ As of **Q3 2009**, **RadMenu** supports multi-column rendering of child items. T
 
 * The **RepeatColumns** property specifies the number of columns.
 
->note  **Note:** Scrolling is disabled if multi-column rendering is in effect.
+>tip  **Note:** Scrolling is disabled if multi-column rendering is in effect.
 >
 
 

@@ -14,13 +14,13 @@ position: 2
 
 ## Content Templates
 
->note As of **Q1 2014** release of the Telerik controls you can use the specially created **ContentTemplate** that allows you to modify the content (where normally the child items would reside)of a single menu item as desired.
+>tip As of **Q1 2014** release of the Telerik controls you can use the specially created **ContentTemplate** that allows you to modify the content (where normally the child items would reside)of a single menu item as desired.
 >
 
 
 You can use the **ContentTemplate** of a menu item with either root items or child items.However, when the **ContentTemplate** is used no child items can be set to the item containingthe template and the content in the template is used instead. Thus, you can modify the contentof the menu item as desired – you can style it, place different HTML elements, Telerik controlsas well as third-party controls. If you use **ItemTemplate** and **ContentTemplate** at the same time, the first will be applied directly to the item while the second will be applied instead of child item.Finally, if there is a global template and a **ContentTemplate** on some item,the content template will take precedence.
 
->note Note that once you set the **ContentTemplate** to an item, this item cannot have child items.In contrast to that however, an item can have both an individual **ItemTemplate** and a **ContentTemplate** – the ItemTemplate is applied directly to the item while the **ContentTemplate** is used as a contained that holds.
+>tip Note that once you set the **ContentTemplate** to an item, this item cannot have child items.In contrast to that however, an item can have both an individual **ItemTemplate** and a **ContentTemplate** – the ItemTemplate is applied directly to the item while the **ContentTemplate** is used as a contained that holds.
 >
 
 

@@ -17,7 +17,7 @@ WAI-ARIA represents a series of HTML attributes that screen readers can use. Att
 
 Some controls from the Telerik® UI for ASP.NET AJAX suite have support for WAI-ARIA and can, therefore, render such attributes that screen readers can interpret. This help article lists the controls and shows the common way of enabling these attributes.
 
->note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
+>tip In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
 >
 
 The following controls offer WAI-ARIA support:
@@ -79,7 +79,7 @@ Note that the WAI-ARIA attributes are not part of the HTML specifications and a 
 
 A screen reader commonly used with is **JAWS** ([JAWS official site](http://www.freedomscientific.com/products/fs/jaws-product-page.asp	)) and the Telerik controls are tested with it.
 
->note WAI-ARIA support for the *Window* and *Tooltip* controls can be expected to work with *JAWS* when the controls' *Lightweight [RenderMode]({%slug controls/render-modes%})* is used. With it, they render with semantic HTML elements.
+>tip WAI-ARIA support for the *Window* and *Tooltip* controls can be expected to work with *JAWS* when the controls' *Lightweight [RenderMode]({%slug controls/render-modes%})* is used. With it, they render with semantic HTML elements.
 >Both the *Window* and *Tooltip* controls render their popup elements with JavaScript. Thus, it is up to the screen reader software to	detect this change in the DOM and read them out.
 >
 

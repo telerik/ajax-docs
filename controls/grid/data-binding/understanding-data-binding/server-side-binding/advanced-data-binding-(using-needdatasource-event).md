@@ -40,7 +40,7 @@ This event fires in the following cases:
 
 * Custom cases, for example using the **RebindReason** property as noted below.
 
->note The event arguments for the **NeedDataSource** event include the **RebindReason** property, which indicates the reason the event is occurring.
+>tip The event arguments for the **NeedDataSource** event include the **RebindReason** property, which indicates the reason the event is occurring.
 >
 
 

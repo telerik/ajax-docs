@@ -38,6 +38,6 @@ This topic lists which internal grid commands make an implicit call to the **Reb
 |Select|RadGrid.SelectCommandName|
 |Deselect|RadGrid.DeselectCommandName|
 
->note When RadGrid's ViewState is turned off, the NeedDataSource event does not fire after any of the above listed commands. This is so because it fires after Page_Load and the control already has a DataSource assigned when the command takes place. If you want to make the event fire in such scenarios, you need to first set RadGrid's DataSource to null/Nothing and then call Rebind().
+>tip When RadGrid's ViewState is turned off, the NeedDataSource event does not fire after any of the above listed commands. This is so because it fires after Page_Load and the control already has a DataSource assigned when the command takes place. If you want to make the event fire in such scenarios, you need to first set RadGrid's DataSource to null/Nothing and then call Rebind().
 >
 

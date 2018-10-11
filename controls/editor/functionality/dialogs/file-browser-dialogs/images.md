@@ -24,7 +24,7 @@ Using the Image Manager dialog the users of RadEditor can:
 
 The behavior of the Image Manager dialog is controlled by the following properties:
 
->note Starting from Q1 2012, the Image Manager has a new default thumbnail mode, which shows the files as icons in the central area of the dialog. The old grid mode can be restored by setting the ViewMode property to "Grid".
+>tip Starting from Q1 2012, the Image Manager has a new default thumbnail mode, which shows the files as icons in the central area of the dialog. The old grid mode can be restored by setting the ViewMode property to "Grid".
 
 |  **Property**  |  **Description**  |
 | ------ | ------ |
@@ -92,9 +92,9 @@ Note that the viewImages, uploadImages and deleteImages variables are string arr
 
 * a virtual directory of your web application that has a physical path pointing outside of your web application.
 
->note You should also grant full ASP.NET account permissions over the Images Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Images Folder.
+>tip You should also grant full ASP.NET account permissions over the Images Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Images Folder.
 
->note The Images inserted via the ImageManager have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
+>tip The Images inserted via the ImageManager have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 >
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
 * inline: `<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />`

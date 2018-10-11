@@ -50,7 +50,7 @@ data.EndOfItems = True
 ````
 
 
->note In cases when **MaxResultCount** property is used in RadSearchBox and the **DataSourceSelect** event is handled manually in order for **Show All Results** button to appear correctly, we recommend that the amount of items that will be selected should be at least with one item greater than **MaxResultCount** .
+>tip In cases when **MaxResultCount** property is used in RadSearchBox and the **DataSourceSelect** event is handled manually in order for **Show All Results** button to appear correctly, we recommend that the amount of items that will be selected should be at least with one item greater than **MaxResultCount** .
 >
 
 

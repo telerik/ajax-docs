@@ -22,7 +22,7 @@ position: 0
 
 * [Array, ArrayList]({%slug listbox/data-binding/binding-to-array-or-arraylist%})
 
->note Data sources can support both hierarchical and non-hierarchical structures. However, **RadListBox** only works with a flat structure. Items cannot contain children.
+>tip Data sources can support both hierarchical and non-hierarchical structures. However, **RadListBox** only works with a flat structure. Items cannot contain children.
 >
 
 

@@ -18,7 +18,7 @@ The ASP.NET page framework provides a technique called event bubbling that allow
 
 When an event bubbles from a child control, RadListView will fire **ItemCommand** event. A child control (such as a **Button** server control) raises a bubble event if you set any value in **CommandName** property.
 
->note Merely the **MS**  **LinkButton, MS Button** and **MS ImageButton** controls have **CommandName** property and can trigger the event bubbling mechanism of the listview.
+>tip Merely the **MS**  **LinkButton, MS Button** and **MS ImageButton** controls have **CommandName** property and can trigger the event bubbling mechanism of the listview.
 >
 
 

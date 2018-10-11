@@ -58,7 +58,7 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * **RadDateInput** - the date in universal format ( "yyyy-MM-dd-HH-mm-ss" )
 
->note The four different **RadInput** controls use different properties to represent their values. See [Getting and Setting Values]({%slug radtextbox/features/getting-and-setting-values%}) for details.
+>tip The four different **RadInput** controls use different properties to represent their values. See [Getting and Setting Values]({%slug radtextbox/features/getting-and-setting-values%}) for details.
 >
 
 

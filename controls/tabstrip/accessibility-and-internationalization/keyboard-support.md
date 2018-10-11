@@ -25,7 +25,7 @@ The **KeyboardNavigationSettings** exposes two properties to configure the keybo
 
 Pressing the keys set to these two properties at the same time places the focus on the **RadTabStrip**. The user can then use the arrow keys for navigation.
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
+>tip Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 ![Keyboard Support](images/KeyboardSupport.png)

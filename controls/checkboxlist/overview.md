@@ -31,7 +31,7 @@ You can easily style the control by changing the `Skin` property. This will elim
 </telerik:RadCheckBoxList>
 ````
 
->note **RadCheckBoxList** does not support Classic [render mode]({%slug checkboxlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>tip **RadCheckBoxList** does not support Classic [render mode]({%slug checkboxlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 

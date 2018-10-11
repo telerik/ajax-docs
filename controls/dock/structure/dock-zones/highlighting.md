@@ -40,7 +40,7 @@ To use the **HighlightedCssClass** property,
 
 
 
-	>note Note the use of the **!important** modifier on the CSS rule. This is to force the rule to override any more specific CSS rules for in the CSS file for the RadDockZone's skin.Without the **!important** modifier, the CSS rule would not necessarily take effect.
+	>tip Note the use of the **!important** modifier on the CSS rule. This is to force the rule to override any more specific CSS rules for in the CSS file for the RadDockZone's skin.Without the **!important** modifier, the CSS rule would not necessarily take effect.
 	
 
 

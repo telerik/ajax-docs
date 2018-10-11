@@ -41,7 +41,7 @@ This means that you need to use different events and API to work with checked it
 
 3. **EnableCheckAllItemsCheckBox**—when set to `true`, a `Check All` CheckBox appears in the drop-down above all the items. It enables check / uncheck-all functionality for the RadComboBox items.
 
-	>note The "Check All" CheckBox is not a RadComboBox item. It is a feature implemented entirely on the client and does a post-back to the server on checked / unchecked events only when the AutoPostBack property of the RadComboBox object is set to `true`.
+	>tip The "Check All" CheckBox is not a RadComboBox item. It is a feature implemented entirely on the client and does a post-back to the server on checked / unchecked events only when the AutoPostBack property of the RadComboBox object is set to `true`.
 
 
 4. **CheckedItemsTexts**—receives two predefined values:

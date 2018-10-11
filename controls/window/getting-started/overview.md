@@ -31,7 +31,7 @@ For more information on how to work with and control **RadWindow**, please check
 
 1. Set the **VisibleOnPageLoad** property to **True**.
 
-	>warning This property is used to make the example simpler. The [Opening from the server]({%slug window/troubleshooting/opening-from-the-server%}) help article explains how to open a RadWindow with server code in more detail, as well as the implications of the **VisibleOnPageLoad** property and when it should **not** be used.
+	>caution This property is used to make the example simpler. The [Opening from the server]({%slug window/troubleshooting/opening-from-the-server%}) help article explains how to open a RadWindow with server code in more detail, as well as the implications of the **VisibleOnPageLoad** property and when it should **not** be used.
 
 1. In the Navigation section, set the **NavigateUrl** property to **http://www.telerik.com**
 
@@ -102,7 +102,7 @@ Before continuing with the multiple window example, you need to create a dialog 
 
 1. Select the **RadWindowManager**, and use the **Windows** property to bring up the RadWindow Collection editor again.
 	* Select the first **RadWindow** in the collection and set its **OpenerElementId** property to **"btnTelerik"**.
-		>note The **OpenerElementId** property requires the **ClientID** of the HTML element	that will open the **RadWindow** when clicked.
+		>tip The **OpenerElementId** property requires the **ClientID** of the HTML element	that will open the **RadWindow** when clicked.
 	* Select the second **RadWindow** in the collection (rwDialog), and set its **OpenerElementID** property to **"btnDialog"**. Set its **NavigateUrl** property to **"MyDialog.aspx"**.
 		>tip There are other ways to open a dialog and they are explained in the [Opening Windows]({%slug window/getting-started/opening-windows%}) help article.
 	* Click **Ok** to exit the dialog.

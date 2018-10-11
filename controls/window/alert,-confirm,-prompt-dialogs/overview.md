@@ -12,7 +12,7 @@ position: 0
 
 You can replace the standard alert, confirm, and prompt dialog boxes that are provided by the browser when you call the **window.alert**, **window.prompt** and **window.confirm** commands. These replacement dialog boxes are called with the **[radalert]({%slug window/alert,-confirm,-prompt-dialogs/radalert-dialog%})**, **[radprompt]({%slug window/alert,-confirm,-prompt-dialogs/radprompt-dialog%})** and **[radconfirm]({%slug window/alert,-confirm,-prompt-dialogs/radconfirm-dialog%})** methods, correspondingly. 
 
->note A **RadWindowManager** must be present on the form in order for you to use the **radalert**, **radconfirm**, and **radprompt** dialogs. 
+>tip A **RadWindowManager** must be present on the form in order for you to use the **radalert**, **radconfirm**, and **radprompt** dialogs. 
 
 The replacement popups are implemented using **RadWindow**, and are a good deal more flexible than their browser counterparts:
 

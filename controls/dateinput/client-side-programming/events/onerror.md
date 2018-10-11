@@ -16,7 +16,7 @@ position: 7
 The **OnError** client-side event handler is called when the input control detects that the user has tried to enter an invalid value. The input control may detect the error when the user presses a key to enter an invalid character, or after the input control loses focus and parses the value the user entered.
 
 
->note When **RadDateInput** cannot parse the value that the user entered, it raises two **OnError** events -- the first with the reason set to 1 (Parsing error) and the second with the reason set to 2 (Out of range).
+>tip When **RadDateInput** cannot parse the value that the user entered, it raises two **OnError** events -- the first with the reason set to 1 (Parsing error) and the second with the reason set to 2 (Out of range).
 >
 
 The following example uses the **OnError** event to raise an alert when an error is detected:

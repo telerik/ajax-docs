@@ -30,7 +30,7 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 
 1. Add a few shapes in the **ShapesCollection** of the diagram. It is recommended to set different values for their **X** and **Y** properties so that they are not positioned on the same location.
 
-	>note Setting the **Id** property of each shape is important, because you will need it when creating connections.
+	>tip Setting the **Id** property of each shape is important, because you will need it when creating connections.
 
 1. Set some of the [properties of the shapes](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_diagramshape.html) like **Background**, **Type**, **Width** and **Height** to make them distinctive.
 

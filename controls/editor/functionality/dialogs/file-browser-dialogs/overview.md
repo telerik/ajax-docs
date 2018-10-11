@@ -45,7 +45,7 @@ The example below shows **ViewPaths** in the parent "/Images" directory, **Uploa
 
 When in a folder not having upload rights, the Upload tab is disabled. The Create New Folder operation is disabled as well. When in a folder not having delete rights, the Delete button is disabled. Security rights setting is explained in the [Example: Enforcing Roles]({%slug editor/functionality/dialogs/examples/enforce-roles%}) topic.
 
->note The relative path syntax is not currently supported, because RadEditor uses the so-called FileBrowserContentProvider abstraction which allows for the editor dialogs to be hooked into various CMS systems and/or databases.
+>tip The relative path syntax is not currently supported, because RadEditor uses the so-called FileBrowserContentProvider abstraction which allows for the editor dialogs to be hooked into various CMS systems and/or databases.
 
 The default implementation of the FileBrowserContentProvider has no notion of Page - hence, it is not able to determine in which context the relative path should be resolved in. E.g. here is some code from the provider:
 

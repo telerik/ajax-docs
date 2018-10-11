@@ -16,7 +16,7 @@ Telerik RadEditor for SharePoint 2013 can be easily used as a cross-browser rich
 
 
 
->note Once the RadEditor for SharePoint 2013 features are activated, they will affect only the current site.You need to activate the RadEditor features for each site individually or change the scope of the features.
+>tip Once the RadEditor for SharePoint 2013 features are activated, they will affect only the current site.You need to activate the RadEditor features for each site individually or change the scope of the features.
 
 ## Enabling RadEditor for WCM Scenarios
 

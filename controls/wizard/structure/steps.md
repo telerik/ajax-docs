@@ -40,7 +40,7 @@ Each RadWizardStep has the following properties:
 
 * **SpriteCssClass** - replaces the step image element with a sized span for easier use of sprites. This property value is applied to the rendered span element as a class attribute. In this CSS class rule you can define the the path to the background image.
 
->note In order to use any of the following properties **ActiveImageUrl, DisabledImageUrl, HoveredImageUrl** it requires setting the **ImageUrl** as well.
+>tip In order to use any of the following properties **ActiveImageUrl, DisabledImageUrl, HoveredImageUrl** it requires setting the **ImageUrl** as well.
 >
 
 

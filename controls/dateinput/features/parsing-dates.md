@@ -85,7 +85,7 @@ Here are a few sample entries for the **en-US** culture:
 
 * "12010" - **OK**. Prior Q2 2013 this value would be parsed as "1/CurrentMonth/2010" where "CurrentMonth" will be replaced with the current month.And as result the input will show the current month and 2010 year. The date would be parsed this way if the format string is like	"MMM/yyyy"or any other which does not include the day portion. Since Q2 2013 "12010" would be parsed as "1/1/2010" if again the "MMM/yyyy" format string is used or a similar one.	However, If both numbers are less than 12, the format will be considered during the parsing. For example if the current culture has format like "MM/YY", "5 9"" will be parsed	as "5 2009". And if the current culture has format "YY/MM" the same input will be parsed as "2009 5". If one of the numbers is greater than 12, it will be considered as year, and the other one as month.	If the both are greater than 12, the input will go in error state and show the error CssClass. If the DateInput have DateFormat that contains days, the old parsing will be used.
 
->note Note that if the current culture was **fr-CA** (with short date format "yyyy-MM-dd" where the year slot is first) the input entry "20070507" would be evaluated properly as May 7th, 2007.
+>tip Note that if the current culture was **fr-CA** (with short date format "yyyy-MM-dd" where the year slot is first) the input entry "20070507" would be evaluated properly as May 7th, 2007.
 >
 
 

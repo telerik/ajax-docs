@@ -43,7 +43,7 @@ http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.ht
 * **Data caching
 http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section7_self**
 
->note RadListView relies on jQuery to manipulate the DOM. As a result, jQuery is now a constant dependency for RadListView and gets loaded automatically into the page.
+>tip RadListView relies on jQuery to manipulate the DOM. As a result, jQuery is now a constant dependency for RadListView and gets loaded automatically into the page.
 >
 
 
@@ -75,7 +75,7 @@ You can see examples for binding the RadListView control to different datasource
 
 RadListView uses the public **rebindItem()** method for rebinding a single item. This method accepts the numeric index of the item in the data source array. If an item exists under this index in the data source, rebindItem() clears the HTML rendered for this specific item and then reruns the respective client template to recreate the HTML. The client-side templateCreated and templateDataBound events are properly fired for items rebinding using this method. rebindItem() can be used in any scenario that requires a specific item to be created only, instead of rebinding the entire RadListView.
 
->note  *rebindItem() is a client-side only API* and works only in client-side databinding scenarios. No equivalent server-side action exists in RadListView.
+>tip  *rebindItem() is a client-side only API* and works only in client-side databinding scenarios. No equivalent server-side action exists in RadListView.
 >
 
 
@@ -118,7 +118,7 @@ After the scripts have been registered, RadListView can be initialized using the
 
 
 
->note All client-side APIs are compatible with the client-side only initialization of RadListView. However, as there is no associated server control, RadListView cannot postback using the fireCommand method, or any other public API that fires a command. This method is still used for firing client-side commands.
+>tip All client-side APIs are compatible with the client-side only initialization of RadListView. However, as there is no associated server control, RadListView cannot postback using the fireCommand method, or any other public API that fires a command. This method is still used for firing client-side commands.
 >
 
 
@@ -250,5 +250,5 @@ Every unique combination of the above parameters identify a cached result set Ra
 
 To invalidate the cache, the client-side **RadListView.clearCache(forCurrentState)** method is provided. It accepts an optional boolean parameter indicating whether only the cache for the current state is to be invalidated. If **true**, RadListView will clear the cached data only for the current combination of page size, index, sort and filter expression. The value of the **forCurrentState** parameter is **false** by default, indicating all the cached data will be cleared when this method is called.
 
->note Data caching does not work for programmatic binding using **set_dataSource()** . Only automatic databinding to web services through the **RadListView.ClientSettings.DataBinding.DataService.Location** property is supported.
+>tip Data caching does not work for programmatic binding using **set_dataSource()** . Only automatic databinding to web services through the **RadListView.ClientSettings.DataBinding.DataService.Location** property is supported.
 >

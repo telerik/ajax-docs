@@ -21,6 +21,6 @@ The **ClientSettings->Scrolling->SaveScrollPosition** property keep the scroll p
 When scrolling is enabled, scroll bars appear on the grid when the number of records it displays would cause it to exceed the value of **ScrollHeight**:
 ![pivotgrid-scrolling](images/pivotgrid-scrolling.png)
 
->note To optimize the RadPivotGrid loading time when scrolling is enabled, you may consider defining **ColumnHeaderCellStyle.Width** and **RowHeaderCellStyle.Height** properties. Thus the pivotgridwill not execute additional scripts for aligning.
+>tip To optimize the RadPivotGrid loading time when scrolling is enabled, you may consider defining **ColumnHeaderCellStyle.Width** and **RowHeaderCellStyle.Height** properties. Thus the pivotgridwill not execute additional scripts for aligning.
 >
 

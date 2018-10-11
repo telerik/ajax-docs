@@ -23,7 +23,7 @@ There are two ways you can determine what filter function the grid is currently 
 
 * When binding a grid using the **NeedDataSource** event, check the **RadGrid.MasterTableView.FilterExpression** property in the **NeedDataSource** event handler. This string represents the current filter function in the same way as the **DataView.Filter** property (that is, it is the text of a WHERE clause for filtering items).
 
->note If you want to customize filtering using your own custom statements, clear the **FilterExpression** string (to prevent the default filtering) and bind the grid to a filtered data set.
+>tip If you want to customize filtering using your own custom statements, clear the **FilterExpression** string (to prevent the default filtering) and bind the grid to a filtered data set.
 >
 
 
@@ -79,10 +79,10 @@ End Sub
 ````
 
 
->note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
+>tip With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >
 
->note From **Q2 2015** version of **UI for ASP.NET** we introduce a new method on the *GridTableView* object called **GetEntitySqlFilterExpression**. The method allows you to get the filter expression in the Entity SQL syntax. However you still need to enable the **EnableLinqExpressions** property in order to use this method. Otherwise you will receive an exception. The code snippet below demonstrates how to use the method.
+>tip From **Q2 2015** version of **UI for ASP.NET** we introduce a new method on the *GridTableView* object called **GetEntitySqlFilterExpression**. The method allows you to get the filter expression in the Entity SQL syntax. However you still need to enable the **EnableLinqExpressions** property in order to use this method. Otherwise you will receive an exception. The code snippet below demonstrates how to use the method.
 >
 
 ````C#
@@ -98,7 +98,7 @@ In most cases the programmer does not need to worry about these details, since t
 
 The following table shows the representation of the grid FilterExpression for each filter function when the filter value type is **string** or **numeric**. To make it practical, it assumes that we are filtering a string column named **CustomerID** by a value of '**ALFKI**' and a column of a numeric type, called **OrderID** by a value of **'10248'** accordingly.
 
->note In some of the expressions additional parameters are used. For example in this filter function: **@"<DataType>(it[""<DataField>""])= {numeric value}";** the particular DataType is **Int32**:
+>tip In some of the expressions additional parameters are used. For example in this filter function: **@"<DataType>(it[""<DataField>""])= {numeric value}";** the particular DataType is **Int32**:
 >
 
 >caption  

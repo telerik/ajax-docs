@@ -52,4 +52,4 @@ The files which properties need to be modified are **ConfigFile.xml / ListConfig
 </configuration>
 ````
 
->note Note that in SharePoint 2010 the Upload and Delete options depend on the current user's permissions for the desired library.
+>tip Note that in SharePoint 2010 the Upload and Delete options depend on the current user's permissions for the desired library.

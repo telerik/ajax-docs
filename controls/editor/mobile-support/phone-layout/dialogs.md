@@ -44,7 +44,7 @@ To open the mobile dialogs you should initially open the [ToolZone]({%slug edito
 
 Mobile dialogs are also used when editing attributes of selected HTML elements (e.g., **Table Properties** and **Table Border** dialogs) and when performing find & replace operations.
 
->note You can find more details on the end user experience of the mobile dialogs in the [Phone Layout End User Experience]({%slug editor/mobile-support/phone-layout/end-user-experience%}) article.
+>tip You can find more details on the end user experience of the mobile dialogs in the [Phone Layout End User Experience]({%slug editor/mobile-support/phone-layout/end-user-experience%}) article.
 
 ## Configure Built-in Dialogs
 

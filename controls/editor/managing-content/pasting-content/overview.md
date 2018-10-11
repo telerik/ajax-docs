@@ -80,7 +80,7 @@ EditorStripFormattingOptions.ConvertWordLists Or EditorStripFormattingOptions.MS
 
 **RadEditor** provides a set of built-in tools that enable the user to interact with the browser’s clipboard. You can find the list below.
 
->note The **Cut** , **Copy** and **Paste** tools use the native browser’s	client-side commands to trigger	the corresponding clipboard operation. Some browsers restrict such clipboard manipulations due	to security matters, and thus the tools to not apply any changes. In such cases, the **RadEditor** prompts the end-user to use the keyboard shortcut combination to cut, copy or paste content ( **Figure 3** ).
+>tip The **Cut** , **Copy** and **Paste** tools use the native browser’s	client-side commands to trigger	the corresponding clipboard operation. Some browsers restrict such clipboard manipulations due	to security matters, and thus the tools to not apply any changes. In such cases, the **RadEditor** prompts the end-user to use the keyboard shortcut combination to cut, copy or paste content ( **Figure 3** ).
 >More details about this security restriction is available in the [	Midas editor module security preferences MDN](https://developer.mozilla.org/en-US/docs/Midas/Security_preferences) article.
 
 >caption Figure 3: Result when user tries to paste when clipboard manipulations are stopped by the browser.

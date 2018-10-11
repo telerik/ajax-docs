@@ -19,7 +19,7 @@ The **RadDatePicker** controls expose the following server-side events:
 * [SelectedDateChanged]({%slug datepicker/server-side-programming/events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control.
 
 
->note In order for the server-side events to be fired the **RadDatePicker** should trigger postback. You need to set the **AutoPostBack** property to **true**.
+>tip In order for the server-side events to be fired the **RadDatePicker** should trigger postback. You need to set the **AutoPostBack** property to **true**.
 >
 
 

@@ -26,7 +26,7 @@ The selection functionality of the Adaptive RadGrid control has the following ch
 * Toggle Cell Selection –Tap a cell to select it (screenshot)
 ![adaptive grid Selecting 2](images/adaptive_grid_Selecting2.png)
 
->note Note that the cell selection is supported only for single selection mode. The multi cell selection is not supported in the Grid control with render mode set to “ **Mobile** ”
+>tip Note that the cell selection is supported only for single selection mode. The multi cell selection is not supported in the Grid control with render mode set to “ **Mobile** ”
 >
 
 

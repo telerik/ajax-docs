@@ -26,7 +26,7 @@ The Export Infrastructure is designed to be a middle tier structure that sits be
 
 The core structure is very simple and easy to use. Due to the fact that its building blocks are familiar elements like Table, Column, Row, Cell, etc everyone can take advantage of its features without reading bulky documentations and most importantly, the developer doesn't need to know how the endpoint (the export library) actually works and therefore he also doesn't need to think of its peculiarities and limitations.
 
->note Cell, Column, and Row indices start from 1.
+>tip Cell, Column, and Row indices start from 1.
 >
 
 
@@ -242,7 +242,7 @@ exportStructure.Tables.Add(table)
 ````
 
 
->note Automatic resizing is supported only when the image is inserted within a single cell (range is not supported).
+>tip Automatic resizing is supported only when the image is inserted within a single cell (range is not supported).
 >
 
 

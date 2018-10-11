@@ -35,7 +35,7 @@ position: 2
 
 ## 
 
->note Note that when **IsSticky** is set to **true** , z-index is not automatically assigned to the **RadAjaxLoadingPanel** .
+>tip Note that when **IsSticky** is set to **true** , z-index is not automatically assigned to the **RadAjaxLoadingPanel** .
 >
 
 

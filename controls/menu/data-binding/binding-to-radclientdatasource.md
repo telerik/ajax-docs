@@ -20,7 +20,7 @@ Since **Q2 2014** RadMenu can be bound to a **RadClientDataSource** control. An 
 
 The code snippet below shows sample configuration of RadMenu bound to RadClientDataSource. The peculiarity of such scenario comes from the fact that the RadMenu represents hierarchical data. Considering that fact we expect such type of data to be returned by the web service to the RadClientDataSource.
 
->note Initially the RadMenu control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
+>tip Initially the RadMenu control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
 ````ASP.NET

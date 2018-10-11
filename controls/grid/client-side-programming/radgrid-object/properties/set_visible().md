@@ -36,6 +36,6 @@ function HideGrid() {
 
 
 
->note  In case RadGrid is bound on the server and you change its visibility using this property, after postback either from outer control or when performing operations like paging, sorting, etc. in the grid its initial visibility will be restored. The grid will keep its current visibility only when using[client-side binding]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}).
+>tip  In case RadGrid is bound on the server and you change its visibility using this property, after postback either from outer control or when performing operations like paging, sorting, etc. in the grid its initial visibility will be restored. The grid will keep its current visibility only when using[client-side binding]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}).
 >
 

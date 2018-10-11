@@ -70,7 +70,7 @@ End Sub
 
 The primary means for localization in ASP.NET is to use resource files. Resource files are simple XML files that can be easily edited and transferred to other applications. You can use resource files to change the default (English) localization for RadFilter that is stored in the Telerik.Web.UI assembly.
 
->note RadFilter's default **Culture** is taken from the page's **CurrentUICulture** .
+>tip RadFilter's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
@@ -82,7 +82,7 @@ To create a global resource file to localize the filter:
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadFilter follow a strict naming convention:**RadFilter.Main.<Culture Identifier>.resx**
 
->note  **The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
+>tip  **The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
 >
 For example RadFilter.Main.bg-BG.resx. Both files should be present in the App_GlobalResources folder:
 ![Global Resources](images/filter_GlobalResources.png)

@@ -16,7 +16,7 @@ position: 2
 
 **RadTreeView** handles dragging to other **RadTreeViews**. Set the **EnableDragAndDrop** property of the **RadTreeView** that should allow dragging.
 
->note In the **OnNodeDrop** event, the **RadTreeNodeDragDropEventArgs SourceDragNode** will still be the node from the **RadTreeView** from where the node is being dragged. The **DestDragNode** will be the node in the destination TreeView. You can confirm this behavior by examining each node's **TreeView.ID** property.
+>tip In the **OnNodeDrop** event, the **RadTreeNodeDragDropEventArgs SourceDragNode** will still be the node from the **RadTreeView** from where the node is being dragged. The **DestDragNode** will be the node in the destination TreeView. You can confirm this behavior by examining each node's **TreeView.ID** property.
 >
 
 

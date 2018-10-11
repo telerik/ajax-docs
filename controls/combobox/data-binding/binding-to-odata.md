@@ -58,7 +58,7 @@ The applied settings to RadODataSource and RadComboBox, for a successful data bi
 
 	* [XML](http://en.wikipedia.org/wiki/XML)
 
->note RadComboBox requires its EnableLoadOnDemand property to be set to True in order to be bound to an OData service.
+>tip RadComboBox requires its EnableLoadOnDemand property to be set to True in order to be bound to an OData service.
 >
 
 

@@ -18,7 +18,7 @@ The RadTreeList control supports built-in localization through Global resources.
 
 The primary means for localization in ASP.NET is to use resource files. Resource files are simple XML files that can be easily edited and transferred to otherapplications. You can use resource files to change the default (English) localization for RadTreeList that is stored in the Telerik.Web.UI assembly.
 
->note RadTreeList's default **Culture** is taken from the page's **CurrentUICulture** .
+>tip RadTreeList's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
@@ -30,7 +30,7 @@ To create a global resource file to localize the treelist:
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadTreeList follow a strict naming convention: **RadTreeList.Main.<Culture Identifier>.resx**
 
-	>note  **The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
+	>tip  **The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
 	>
 
 	For example RadTreeList.Main.bg-BG.resx. Both files should be present in the App_GlobalResources folder:

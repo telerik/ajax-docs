@@ -60,7 +60,7 @@ function createLabel(forArrt) {
 
 Server-side, you can use the method **UplodedFile.GetFieldValue(name)** method.
 
->note Use the same value that was passed to the **RadUpload.getID(name)** method when retrieving a field value.
+>tip Use the same value that was passed to the **RadUpload.getID(name)** method when retrieving a field value.
 >
 
 The following example shows how to retrieve the values the user entered for the custom fields added in the previous example:

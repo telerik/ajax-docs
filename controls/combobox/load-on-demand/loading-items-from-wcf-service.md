@@ -60,7 +60,7 @@ Clicking the Add button will create the .svc file as well as the code behind fil
 
 
 
->note These settings are important. If you don't set them correctly - you might receive the following JavaScript error:
+>tip These settings are important. If you don't set them correctly - you might receive the following JavaScript error:
 > **Method "MethodName" Failed.** 
 >
 

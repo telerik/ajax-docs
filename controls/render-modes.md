@@ -28,7 +28,7 @@ This article contains the following sections:
 
 * **Classic** - this is the default value. It preserves the original rendering and styling that has been used before, which	often means there are a lot of tables used to create layout, which results in nested elements and some markup that can be avoided.
 	
-	>note The Classic Render Mode is in maintenance mode since Q3 2015 and only critical bug fixes are provided for it. All the new functionality, controls and features are developed for the modern Lightweight and Mobile Render Modes.
+	>tip The Classic Render Mode is in maintenance mode since Q3 2015 and only critical bug fixes are provided for it. All the new functionality, controls and features are developed for the modern Lightweight and Mobile Render Modes.
 
 * **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	(including the depth of the nested elements) and makes it easier to customize.	This also reduces the number of image sprites the control uses and the overall size and complexity of each skin, including custom ones.
 
@@ -42,11 +42,11 @@ This article contains the following sections:
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic**, **Lightweight** or **Mobile**.The behavior of the affected controls depends also on the available render modes, for example in touch devices the mode will be changed automatically to **Mobile**, if it is supported. If it is not, the mode will fall back until it meets the best mode that fits the environment. This functionality was added in Q3 2013.
 
-	>note For the automatic RenderMode detection to work, your project must reference the [Telerik.Web.Device.Detection.dll assembly]({%slug introduction/installation/included-assemblies%}).
+	>tip For the automatic RenderMode detection to work, your project must reference the [Telerik.Web.Device.Detection.dll assembly]({%slug introduction/installation/included-assemblies%}).
 
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
 
->note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls.
+>tip Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls.
 
 
 ## RenderMode Fallback Order

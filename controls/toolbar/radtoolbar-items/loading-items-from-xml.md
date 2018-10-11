@@ -42,7 +42,7 @@ You can easily load the buttons of a toolbar from an XML source, as long as the 
 
 Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a **RadToolBar** object.
 
->note You can also populate **RadToolBar** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. For details, see [Binding to ASP DataSource components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}).
+>tip You can also populate **RadToolBar** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. For details, see [Binding to ASP DataSource components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}).
 >
 
 

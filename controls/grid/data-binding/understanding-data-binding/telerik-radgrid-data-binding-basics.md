@@ -22,7 +22,7 @@ There are three ways to bind the grid to a database:
 
 * [DataGrid-like binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%}) - You can set the **DataSource** property manually in the control declaration. This property specifies the database, which is then used as a source for the grid.
 
->note When binding a grid by setting the **DataSource** property, you can set the **DataSource** property to an instance of any of the following types:
+>tip When binding a grid by setting the **DataSource** property, you can set the **DataSource** property to an instance of any of the following types:
 >
 *  **DataSet** , **DataTable** , or **DataView** 
 * Array of **DataRow** 

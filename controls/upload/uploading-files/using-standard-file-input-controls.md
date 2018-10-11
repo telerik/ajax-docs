@@ -42,7 +42,7 @@ Dim file As UploadedFile = UploadedFile.FromHttpPostedFile(Request.Files(FileUpl
 
 
 
->note  **RadUpload** automatically sets the proper **enctype** property of the form to:
+>tip  **RadUpload** automatically sets the proper **enctype** property of the form to:
 > **enctype="multipart/form-data"** which is needed when you upload a file. The `<input type="file">` does not set this property so you need to add it manually.
 >
 

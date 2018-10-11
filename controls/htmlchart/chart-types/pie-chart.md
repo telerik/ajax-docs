@@ -58,7 +58,7 @@ The Pie chart from **Figure 1** was created with the code in **Example 1**.
 </telerik:RadHtmlChart>
 ````
 
->note The Pie chart does not have axes as they are not applicable in its context.
+>tip The Pie chart does not have axes as they are not applicable in its context.
 
 >caution Currently the **RadHtmlChart** supports only one Pie series per chart. Adding more than one will result in overlapping charts and an extended legend.
 

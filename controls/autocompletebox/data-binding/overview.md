@@ -42,7 +42,7 @@ The following properties and methods are used when binding RadAutoCompleteBox to
 
 * **DataBind** method - is called after the aforementioned properties are set when binding at runtime.
 
->note DataBind method can be omitted when binding to a data source at runtime.
+>tip DataBind method can be omitted when binding to a data source at runtime.
 >
 
 
@@ -58,6 +58,6 @@ Example:
 
 
 
->note The Container.DataItem can be used to access AutoCompleteBoxItemData when it is in bound mode. AutoCompleteBoxItemData, however, must be bound before accessing its data from the DataItem.
+>tip The Container.DataItem can be used to access AutoCompleteBoxItemData when it is in bound mode. AutoCompleteBoxItemData, however, must be bound before accessing its data from the DataItem.
 >
 

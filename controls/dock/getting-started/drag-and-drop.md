@@ -86,7 +86,7 @@ For a live example of the **ForbiddenZones** property, see [Forbidden Zones](htt
 
 ![](images/dockmode.png)
 
->note In case you want to display the RadDock in a particular location on your page, you need to dock it in a RadDockZone.This is the only mode that will render the dock at the location in the DOM tree that you have specified.For example, if you create a div HTML element in the page’s form and place inside a RadDock without RadDockZone,this dock is floating and will be rendered outside the div. However, if you wrap the dock in a dock zone,it will remain in the div element.
+>tip In case you want to display the RadDock in a particular location on your page, you need to dock it in a RadDockZone.This is the only mode that will render the dock at the location in the DOM tree that you have specified.For example, if you create a div HTML element in the page’s form and place inside a RadDock without RadDockZone,this dock is floating and will be rendered outside the div. However, if you wrap the dock in a dock zone,it will remain in the div element.
 >
 
 

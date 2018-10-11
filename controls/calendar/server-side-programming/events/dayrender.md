@@ -58,7 +58,7 @@ End Sub
 ````
 
 
->note 
+>tip 
 When customizing the appearance of the cells of the calendar using the **DayRender** event, it is often helpful to also create a handler for the client-side [OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%}) event that makes the same customizations when the user changes the view.
 >
 

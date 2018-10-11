@@ -20,7 +20,7 @@ to the following:
 
 ![Final](images/panelbar_cssfinal.png)
 
->note See [Understanding the Skin CSS File](http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-css-file.html) for more information on specific CSS file properties.
+>tip See [Understanding the Skin CSS File](http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-css-file.html) for more information on specific CSS file properties.
 >
 
 ## Prepare the Project
@@ -62,7 +62,7 @@ to the following:
 
 * Copy the default **RadPanelBar** skin files from the installation directory to the "Green" directory; copy both the \PanelBar directory that contains the images for this skin and the PanelBar.Default.css file that defines the skin styles.
 
->note The file path will typically be similar to this example: `\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.`
+>tip The file path will typically be similar to this example: `\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.`
 >
     
 * In the Solution Explorer, rename "PanelBar.Default.css" to "PanelBar.Green.css". The Solution Explorer should now look something like the following:

@@ -57,7 +57,7 @@ grid.add_rowContextMenu(eventHandler);
 
 
 
->note Please note that the grid and its structure should be created when the event handlers are attached. That is why you cannot attach handlers for the **OnXXXCreating** and **OnXXXCreated** events dynamically.
+>tip Please note that the grid and its structure should be created when the event handlers are attached. That is why you cannot attach handlers for the **OnXXXCreating** and **OnXXXCreated** events dynamically.
 >
 
 

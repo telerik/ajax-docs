@@ -10,7 +10,7 @@ position: 11
 
 # Creating Custom Skin
 
->note Valid for 2008 Q3 version and below, for any other please refer to [Creating A Custom Skin Using Sprite]({%slug menu/appearance-and-styling/creating-custom-skin-using-sprite%})
+>tip Valid for 2008 Q3 version and below, for any other please refer to [Creating A Custom Skin Using Sprite]({%slug menu/appearance-and-styling/creating-custom-skin-using-sprite%})
 
 
 The following tutorial demonstrates creating a custom RadMenu skin, using the default skin as a base. This new skin will take the appearance of the menu from its default look:
@@ -154,7 +154,7 @@ If the item is the last child of its parent, the **LI** tag has the **"rmLast"**
 
 Note that in this example, the item is disabled, so the **A** tag has the **"rmDisabled"** class applied as well as the **"rmLink"** class.
 
->note If an item is the only child of its parent it has both the **"rmFirst"** and **"rmLast"** CSS classes.
+>tip If an item is the only child of its parent it has both the **"rmFirst"** and **"rmLast"** CSS classes.
 
 If the item is a separator (its **IsSeparator** property is **True**), the **LI** tag gets the **"rmSeparator"** class applied. Because separators do not respond to user clicks, it has no **A** element:
 
@@ -186,7 +186,7 @@ If the item has children they are rendered in an **UL** tag within the **LI** ta
 </div>
 ````
 
->note The DIV tag whose class attribute is set to "rmSlide" is used by the animation effects. It is not related with the final appearance and can be ignored.
+>tip The DIV tag whose class attribute is set to "rmSlide" is used by the animation effects. It is not related with the final appearance and can be ignored.
 
 The child item group has three CSS classes applied: **"rmVertical"**, **"rmGroup"** and **"rmLevel1"**. The **"rmVertical"** class is applied because the default item flow for child items is vertical. If it were horizontal (GroupSettings-Flow="Horizontal") that class would have been **"rmHorizontal"**. The **"grGroup"** class is always applied for child item groups. The **"rmLevel1"** class is applied for all level 1 item groups. Root items are considered as level 0, their children are level 1, their children's children are level 2 and so on.
 

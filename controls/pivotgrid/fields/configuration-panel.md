@@ -14,7 +14,7 @@ position: 3
 
 The idea behind the **RadPivotGrid ConfigurationPanel** is taken from the **Excel PivotTable Field List** which enables fields sorting, reordering and hiding operations performed outside of the table which represents the data.Enabling such functionality gives the user ability to separate the logic for manipulating fields and displaying data.
 
->note Note that setting **ShowDataHeaderZone="false"** , **ShowColumnHeaderZone="false"** , **ShowRowHeaderZone="false"** , **ShowFilterHeaderZone="false"** will hide the fields positioned in the RadPivotGrid data table and leave only the fields in the configuration panel.
+>tip Note that setting **ShowDataHeaderZone="false"** , **ShowColumnHeaderZone="false"** , **ShowRowHeaderZone="false"** , **ShowFilterHeaderZone="false"** will hide the fields positioned in the RadPivotGrid data table and leave only the fields in the configuration panel.
 >
 
 

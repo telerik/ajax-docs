@@ -16,7 +16,7 @@ position: 0
 
 **ExcelML** is **XML-based** file format. It complies to the [Microsoft XMLSS](http://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
 
->note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
+>tip  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
 >
 
 
@@ -41,11 +41,11 @@ The cause of this warning message is explained in details in the following blog 
 >
 
 
->note Due to limitation in the **ExcelML** engine, when exporting **RadGrid** with grouping, all groups will be expanded regardless of their actual state.
+>tip Due to limitation in the **ExcelML** engine, when exporting **RadGrid** with grouping, all groups will be expanded regardless of their actual state.
 >
 
 
->note From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn**. It is important to know that when its *DataTextField* property is set, other columns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
+>tip From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn**. It is important to know that when its *DataTextField* property is set, other columns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
 >
 
 
@@ -325,7 +325,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>tip From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 

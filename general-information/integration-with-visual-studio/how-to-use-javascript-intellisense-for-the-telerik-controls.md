@@ -10,7 +10,7 @@ position: 1
 
 # How to Use JavaScript Intellisense for the Telerik Controls
 
->note This article explains how to enable JavaScript intellisense for a given Telerik control's client-side properties and methods.
+>tip This article explains how to enable JavaScript intellisense for a given Telerik control's client-side properties and methods.
 >This intellisense is different than the default JavaScript intellisense Visual Studio offers and does not affect it.
 >The jQuery and Telerik Static client library intellisense are also a separate feature and are described in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}).
 
@@ -68,14 +68,14 @@ To use JavaScript Intellisense for the Telerik UI for ASP.NET AJAX controls in V
 1. Reference the definition files in the file you are working in. Assuming the `.d.ts` files are in the `tsDefs` folder, here is a sample reference
 
     **JavaScript**
-    
+
         /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
         /// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
 
 1. Use the **JSDoc** syntax to define the object types for the variables you will use.
 
     This includes event handler functions and control references obtained in other code.
-    
+
 ### Examples
 
 Here follows a list of several common scenarios that can help you get started with using JSDoc declarations of variables and arguments.
@@ -179,9 +179,10 @@ A similar approach allows Visual Studio to show the intellisense for this variab
 >tip This cast is not needed for production environment, it is useful for development and would not yield any benefit when the site is live - it will work just as well without it, it is actually an extra operation.
 >
 
->note If you are using Visual Studio 2008, you will need to install its Service Pack 1 to get support for `-vsdoc.js`files that contain the JavaScript intellisence. You can find mode information on the matter in the [VS2008 SP1 Hotfix to Support "-vsdoc.js" IntelliSense Doc Files](http://blogs.msdn.com/b/webdev/archive/2008/11/07/hotfix-to-enable-vsdoc-js-intellisense-doc-files-is-now-available.aspx) blog post.
+>tip If you are using Visual Studio 2008, you will need to install its Service Pack 1 to get support for `-vsdoc.js`files that contain the JavaScript intellisence. You can find mode information on the matter in the [VS2008 SP1 Hotfix to Support "-vsdoc.js" IntelliSense Doc Files](http://blogs.msdn.com/b/webdev/archive/2008/11/07/hotfix-to-enable-vsdoc-js-intellisense-doc-files-is-now-available.aspx) blog post.
 >
 
+>tip Visual Studio 2017 changed the way JavaScript Intellisense works and the approach described in this article no longer works with it. You can find a feature request for its support in the following page: [VS2017 JavaScript Intellisense support for UI for ASP.NET AJAX](https://feedback.telerik.com/Project/108/Feedback/Details/226029-vs2017-javascript-intellisense-support-for-ui-for-asp-net-ajax) so you can track its status. In the meantime, you can consider using [the TypeScript definitions for UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}).
 
 >caption A list with the available methods
 
@@ -243,4 +244,3 @@ A similar approach allows Visual Studio to show the intellisense for this variab
 |$telerik.toWindow(object)|Casts the passed object to a RadWindow|
 |$telerik.toWindowManager(object)|Casts the passed object to a RadWindowManager|
 |$telerik.toXmlHttpPanel(object)|Casts the passed object to a RadXmlHttpPanel|
-

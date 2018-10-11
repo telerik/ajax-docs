@@ -26,7 +26,7 @@ There is a way to achieve this functionality with a **RadPushButton** as well by
 </telerik:RadPushButton>
 ````
 
->note You should cancel the click event and the post-back after the redirect, via the **set_cancel** client-side method.
+>tip You should cancel the click event and the post-back after the redirect, via the **set_cancel** client-side method.
 
 ## See Also
 

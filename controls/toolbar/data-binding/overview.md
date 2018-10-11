@@ -19,7 +19,7 @@ position: 0
 
 * [Array, ArrayList]({%slug toolbar/data-binding/binding-to-array-or-arraylist-%})
 
->note Data sources can support both hierarchical and non-hierarchical structures. However, **RadToolBar** only works with a flat structure.
+>tip Data sources can support both hierarchical and non-hierarchical structures. However, **RadToolBar** only works with a flat structure.
 >
 
 
@@ -39,11 +39,11 @@ The following properties and methods are used when binding the toolbar to a data
 
 * **DataBind** method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
->note Note, that unlike RadMenu or RadPanelbar, RadToolBar does not have **DataFieldId** and **DataFieldParentId** properties to establish items' hierarchy such as in a DropDown button.
+>tip Note, that unlike RadMenu or RadPanelbar, RadToolBar does not have **DataFieldId** and **DataFieldParentId** properties to establish items' hierarchy such as in a DropDown button.
 >
 
 
->note If you need to map additional fields from the Data Source to properties of the toolbar button, you can use the **ButtonDataBound** event. See [Binding To ASP DataSource Components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}) for an example.
+>tip If you need to map additional fields from the Data Source to properties of the toolbar button, you can use the **ButtonDataBound** event. See [Binding To ASP DataSource Components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}) for an example.
 >
 
 

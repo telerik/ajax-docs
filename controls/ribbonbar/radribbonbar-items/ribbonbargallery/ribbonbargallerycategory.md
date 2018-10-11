@@ -14,7 +14,7 @@ position: 1
 
 ## RibbonBarGalleryCategory
 
->note The RibbonBarGalleryCategory is available after the **Q2 2013** release of the RadControls controls.
+>tip The RibbonBarGalleryCategory is available after the **Q2 2013** release of the RadControls controls.
 >
 
 

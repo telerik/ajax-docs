@@ -32,7 +32,7 @@ End Sub
 ````
 
 
->note Localization strings defined through the **Localization** property can take precedence over those defined in [global resource files]({%slug editor/accessibility-and-internationalization/localization/global-resource-files%}) (assuming the Page_Load event occurs after the resource file has already been consumed). This allows you to localize specific strings programmatically while the default localization is handled by the resource files.
+>tip Localization strings defined through the **Localization** property can take precedence over those defined in [global resource files]({%slug editor/accessibility-and-internationalization/localization/global-resource-files%}) (assuming the Page_Load event occurs after the resource file has already been consumed). This allows you to localize specific strings programmatically while the default localization is handled by the resource files.
 
 ## See Also
 

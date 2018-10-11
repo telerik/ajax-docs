@@ -22,7 +22,7 @@ position: 3
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadColorPicker")
 
->note Certain configurations of **RadColorPicker** use **RadSlider** controls internally, so all their instances must have the same render mode. Sliders that are children of a ColorPicker will inherit the RenderMode of the ColorPicker.
+>tip Certain configurations of **RadColorPicker** use **RadSlider** controls internally, so all their instances must have the same render mode. Sliders that are children of a ColorPicker will inherit the RenderMode of the ColorPicker.
 
 
 ## Setting Render Mode

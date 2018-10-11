@@ -22,7 +22,7 @@ position: 3
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadFileExplorer")
 
->note **RadFileExplorer** uses **RadButton**, **RadSplitter**, **RadSlider**, **RadTreeView**, **RadWindowManager** and **RadGrid** or **RadListView** controls internally, so all their instances must have the same render mode. Controls that are children of a RadFileExplorer will inherit the RenderMode of the File Explorer.
+>tip **RadFileExplorer** uses **RadButton**, **RadSplitter**, **RadSlider**, **RadTreeView**, **RadWindowManager** and **RadGrid** or **RadListView** controls internally, so all their instances must have the same render mode. Controls that are children of a RadFileExplorer will inherit the RenderMode of the File Explorer.
 
 
 ## Setting Render Mode

@@ -14,7 +14,7 @@ position: 4
 
 This article explains the client-side properties and methods **[RadImageAndTextTile]({%slug tilelist/tiles/imageandtext-tile%})** exposes.
 
->note  **RadImageAndTextTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ImageAndTextTile specific methods.
+>tip  **RadImageAndTextTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ImageAndTextTile specific methods.
 
 
 

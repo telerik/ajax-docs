@@ -12,7 +12,7 @@ position: 6
 
 
 
->note Note that the property is valid after 2013 Q3 and above.
+>tip Note that the property is valid after 2013 Q3 and above.
 >
 
 

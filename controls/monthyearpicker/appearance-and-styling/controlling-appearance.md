@@ -42,7 +42,7 @@ Following are some sample configurations:
 
 
 
->note 
+>tip 
 If **RadMonthYearPicker** postbacks automatically (**AutoPostBack** property is set to **true**), the **HideAnimation-Duration** value is 0 and cannot be altered.
 >
 

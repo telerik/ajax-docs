@@ -14,7 +14,7 @@ position: 2
 
 **ItemCreated** occurs every time a new item is added to **Items** collection of the **RadMenu** instance or to the **Items** collection of an item in the menu. **ItemCreated** occurs for all menu items, not just those that result from data binding (when the **DataSource** or **DataSourceID** property is set).If the menu is bound to a data source, this event occurs *before* any data binding: that is, before any properties have been set to reflect the data from the data source.
 
->note When working with data-bound menus, it can be more useful to use the **[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})** , which occurs after the item properties have been set to reflect the data source and which provides access to the **DataItem** property of an item.
+>tip When working with data-bound menus, it can be more useful to use the **[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})** , which occurs after the item properties have been set to reflect the data source and which provides access to the **DataItem** property of an item.
 >
 
 

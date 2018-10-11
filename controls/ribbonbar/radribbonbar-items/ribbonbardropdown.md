@@ -32,7 +32,7 @@ With the **RadRibbonBarDropDown** you can also use the **SelectedIndex** propert
 
 **RibbonBarListItem**
 
->note  **RibbonBarListItem** - used by RibbonBarDropDown and RibbonBarComboBox. In order to access a single item in the collection of items *get_items().getItem(0);* or the *get_items.get_count();* can be used.
+>tip  **RibbonBarListItem** - used by RibbonBarDropDown and RibbonBarComboBox. In order to access a single item in the collection of items *get_items().getItem(0);* or the *get_items.get_count();* can be used.
 >
 
 

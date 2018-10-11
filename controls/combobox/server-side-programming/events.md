@@ -30,7 +30,7 @@ position: 0
 
 * [CheckAllCheck]({%slug combobox/server-side-programming/checkallcheck%}) occurs when the check all items check box is changed.
 
->note The **SelectedIndexChanged** , **TextChanged** and **OnCheckAllCheck** events do not fire unless you set the **AutoPostBack** property to **True** .
+>tip The **SelectedIndexChanged** , **TextChanged** and **OnCheckAllCheck** events do not fire unless you set the **AutoPostBack** property to **True** .
 >
 
 

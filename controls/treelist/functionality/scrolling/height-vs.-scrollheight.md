@@ -42,6 +42,6 @@ Depending on whether Height or ScrollHeight is set, RadTreeList behaves differen
 
 
 
->note Using **ScrollHeight** instead of **Height** will improve the RadTreeList client-side performance and prevent vertical flickering, which is inevitable in the case when the controlneeds to calculate and adjust its vertical layout on the client.
+>tip Using **ScrollHeight** instead of **Height** will improve the RadTreeList client-side performance and prevent vertical flickering, which is inevitable in the case when the controlneeds to calculate and adjust its vertical layout on the client.
 >
 

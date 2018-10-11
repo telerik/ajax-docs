@@ -16,7 +16,7 @@ In this article you can check how to data bind the connections in a **RadDiagram
 
 * Server-side collections that implement the **IEnumerable** interface.
 
->note Before data binding the connections you need to have shapes in the diagram so that the controls knows the start and end of each connection. This is why the diagram in **Example 1** has data binding of shapes as well.
+>tip Before data binding the connections you need to have shapes in the diagram so that the controls knows the start and end of each connection. This is why the diagram in **Example 1** has data binding of shapes as well.
 
 Similar to setting a data source for an ASP.NET control, you should either use the **ConnectionDataSourceID** property when data binding declaratively or **ConnectionDataSource** when the data source of the control is set on the server-side (such it the case in **Example 1**).
 

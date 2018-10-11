@@ -115,7 +115,7 @@ function OnClientAppointmentClick(sender, args)
 ````
 
 
->note The other setters can update the appointment in case of WebService binding where there **is NO postback** and the onClientAppointmentDataBound is fired.
+>tip The other setters can update the appointment in case of WebService binding where there **is NO postback** and the onClientAppointmentDataBound is fired.
 >
 
 

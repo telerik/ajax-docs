@@ -34,8 +34,8 @@ The table below explains the parameters which you can pass to that method to fir
 |Select| **TreeListDataItem** |FireCommandEvent("Select", TreeListSelectEventArgs)|Required but not used **Example:** FireCommandEvent("Select", String.Empty)|
 |Deselect| **TreeListDataItem** |FireCommandEvent("Deselect", TreeListDeselectEventArgs)|Required but not used **Example:** FireCommandEvent("Deselect", String.Empty)|
 
->note Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be selected.
+>tip Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be selected.
 >
 
->note Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be deselected.
+>tip Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be deselected.
 >

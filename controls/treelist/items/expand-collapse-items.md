@@ -86,7 +86,7 @@ End Sub
 
 
 
->note Have in mind that the **ClientExpandedIndexes** should be used when expand/collapse is performed on the client. If expand/collapse is done server-side you should use the **ExpandedIndexes** property.
+>tip Have in mind that the **ClientExpandedIndexes** should be used when expand/collapse is performed on the client. If expand/collapse is done server-side you should use the **ExpandedIndexes** property.
 >
 
 ## Client-side API

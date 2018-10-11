@@ -47,7 +47,7 @@ It is important to note that the data cell of the new item can be directly acces
 The new template supports databinding using the **DataItem** of the corresponding **GridDataItem**.All items of type **GridDetailTemplateItem** could be accessed by using the **GetItems()** method of the **GridTableView**.
 ![grid detail item template](images/grid_detail_item_template.jpg)
 
->note **DetailItemTemplate** is not supported when **MasterTableView ItemTemplate** is used.
+>tip **DetailItemTemplate** is not supported when **MasterTableView ItemTemplate** is used.
 >
 
 

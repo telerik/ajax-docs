@@ -193,6 +193,6 @@ Where the possible values for the **Telerik.Web.UI.GridFilterFunction** enumerat
 
 
 
->note The RadGrid get_filterExpressions() property is meaningful only in case the RadGrid control is bound client-side.
+>tip The RadGrid get_filterExpressions() property is meaningful only in case the RadGrid control is bound client-side.
 >
 

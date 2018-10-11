@@ -41,7 +41,7 @@ The following table lists significant CSS selectors and descriptions for RadComb
 |.rcbSeparator|Controls the appearance of the **RadComboBox** separators.|
 |.rcbLabel|Controls the appearance of the associated Label.|
 
->note There are several styles that end in "_rtl" that are used to style specific portions of the control when right-to-left support is turned on. These "_rtl" styles are variants of their left-to-right default counterparts.
+>tip There are several styles that end in "_rtl" that are used to style specific portions of the control when right-to-left support is turned on. These "_rtl" styles are variants of their left-to-right default counterparts.
 >
 
 

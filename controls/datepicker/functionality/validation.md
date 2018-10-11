@@ -72,7 +72,7 @@ The following example shows a sample period selection page.The user has to enter
 
 
 
->note 
+>tip 
 You need to set the **Type** property of the **CompareValidator** to "Date" in order to work with a **RadDatePicker**. When working with **RadTimePicker** or **RadDateTimePicker** control, the property must be set to "String".
 >
 

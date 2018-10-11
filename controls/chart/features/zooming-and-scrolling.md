@@ -22,7 +22,7 @@ The user can perform the zooming either manually or programmatically:
 
 * You can programmatically change the scrolled position on the server-side via the **RadChart.ClientSettings.XScrollOffset** and **RadChart.ClientSettings.YScrollOffset** properties. Note that the offset properties accept numeric values between 0 and 1 where the(XScrollOffset=0, YScrollOffset=0) pair represents the top-left corner and the (XScrollOffset=1, YScrollOffset=1) pair represents the bottom-right corner of the plotArea.
 
->note You can find the description of the zooming / scrolling client-side API [here]({%slug chart/client-side/client-side-api%}).
+>tip You can find the description of the zooming / scrolling client-side API [here]({%slug chart/client-side/client-side-api%}).
 
 >caution The zoom and scroll features of RadChart require session state usage.
 
@@ -64,6 +64,6 @@ All properties related to the scrolling and zooming feature are grouped within t
 
 * You can customize the zoom rectangle appearance via the **ZoomRectangleColor / ZoomRectangleOpacity** properties.
 
->note Zooming and Scrolling are available for the RadChart for ASP.NET AJAX product only.
+>tip Zooming and Scrolling are available for the RadChart for ASP.NET AJAX product only.
 
 

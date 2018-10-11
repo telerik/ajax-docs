@@ -16,7 +16,7 @@ With **RadSplitter** you can define any table layout.
 
 * **Complex splitter** - you can define complex layouts using several nested splitters that provide both horizontally and vertically split regions.
 
->note RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
+>tip RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
 
 ## Simple Structures with a Single Splitter
 

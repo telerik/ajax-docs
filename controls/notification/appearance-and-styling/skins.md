@@ -29,7 +29,7 @@ To apply a skin, set the **Skin** property of the **RadNotification**. You can s
 
 
 
->note The **Shadow** and **Rounded Corners** are achieved via CSS3 properties and will not have effect under browsers that do not support them (such as IE8 and prior, FireFox 3, etc).
+>tip The **Shadow** and **Rounded Corners** are achieved via CSS3 properties and will not have effect under browsers that do not support them (such as IE8 and prior, FireFox 3, etc).
 
 
 

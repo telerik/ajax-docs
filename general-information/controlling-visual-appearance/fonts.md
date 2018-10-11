@@ -42,7 +42,7 @@ body {
     font-family: "Segoe UI", Arial, Sans-serif;
 }
 ````
->note
+>tip
 The Bootstrap, Material, Metro and (Black)MetroTouch skins have `font-family` defined.
 
 With the mentioned Release we have also improved the metrics of AJAX form controls. The ASP.NET AJAX skin palette is divided into three main categories: Default skins, Bootstrap skin and the Material skin. In each of the above there are established interrelated connections between width, height, font size (14px), line height (20px), paddings and borders. A dimension-orientated scheme based on line height and font size ratio is created—1.428571429 (20/14)—that keeps the main proportions of controls consistent with each other, used individually, combined in a complex data form or integrated in composite container controls. By changing just the font size, the layout of the controls can easily be adjusted to fulfill various needs. This provides convenient scalability.
@@ -63,7 +63,7 @@ The skins listed below have predefined font-family as follows:
 
 * Metro—font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 
->note The Material skin includes the **Roboto** font-file from the Google cloud. It will be used even if it is not installed on the user computer, but downloading it requires an active Internet connection.
+>tip The Material skin includes the **Roboto** font-file from the Google cloud. It will be used even if it is not installed on the user computer, but downloading it requires an active Internet connection.
 
 The [Use Material Skin Without Active Internet Connection](http://www.telerik.com/support/kb/aspnet-ajax/details/use-material-skin-without-active-internet-connection) KB article explains a possible approach to avoid these requests.
 

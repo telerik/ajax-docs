@@ -16,7 +16,7 @@ Binding a **RadMonthYearPicker** control to a data source is easy provided you u
 
 When embedding **RadMonthYearPicker** controls inside a data-bound control, use a data-binding expression to bind the value of the input control to the data source of the parent control. Data-binding expressions are contained within *<%# and %>* delimiters and use the **Eval** and **Bind** functions. The **Eval** function is used to define one-way (read-only) binding. The **Bind** function is used for two-way (updatable) binding.
 
->note 
+>tip 
 In addition to calling **Eval** and **Bind** methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the *<%# and %>* delimiters to execute that code and return a value during page processing.
 >
 

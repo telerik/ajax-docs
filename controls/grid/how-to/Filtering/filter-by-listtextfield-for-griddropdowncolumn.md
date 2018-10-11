@@ -80,6 +80,6 @@ End Sub
 
 * Use **GridTemplateColumn** instead of **GridDropDownColumn**. You can add a **DropDownList** in its **EditItemTemplate** to simulate the **GridDropDownColumn**.
 
->note As RadGrid can only be filtered by fields in its DataSource, these work arounds are only valid when the ListTextField of the GridDropDownColumn is a field from the control's assigned data source.
+>tip As RadGrid can only be filtered by fields in its DataSource, these work arounds are only valid when the ListTextField of the GridDropDownColumn is a field from the control's assigned data source.
 >
 

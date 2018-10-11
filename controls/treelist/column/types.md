@@ -42,7 +42,7 @@ They offer the functionality needed to display and operate on different types of
 
 ## 
 
->note Note that, **RadTreeList** does not have a separate expand column. The expand/collapse buttons of the control are always rendered in the first column displayed.
+>tip Note that, **RadTreeList** does not have a separate expand column. The expand/collapse buttons of the control are always rendered in the first column displayed.
 >
 
 

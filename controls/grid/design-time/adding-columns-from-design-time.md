@@ -20,7 +20,7 @@ The Columns section allows you to set the way columns are generated and visualiz
 
 At the top of the Telerik RadGrid Property Builder dialog, there is a check box called "Create columns automatically at runtime". This will set the **AutoGenerateColumns** property to **true**.
 
->note Ticking this check box will override the options for bound columns below. If you need to bound columns, uncheck this box.
+>tip Ticking this check box will override the options for bound columns below. If you need to bound columns, uncheck this box.
 >
 
 

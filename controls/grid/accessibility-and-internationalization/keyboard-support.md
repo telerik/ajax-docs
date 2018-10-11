@@ -37,7 +37,7 @@ You can enable keyboard navigation in the **RadGrid** control by setting the **C
 
 ![Arrowkey Navigation ](images/grd_KeyboardNavigation1.png)
 
->note If controls inside the grid use the same keys and combinations as the grid, and do not prevent (consume) the `keydown` event, you may get unexpected behavior. For example, rows may be changed in the batch edit mode while the user is attempting to navigate through a combo box list.
+>tip If controls inside the grid use the same keys and combinations as the grid, and do not prevent (consume) the `keydown` event, you may get unexpected behavior. For example, rows may be changed in the batch edit mode while the user is attempting to navigate through a combo box list.
 >
 >To prevent this, you can set the `ClientSettings.AllowKeyboardNavigation` property of the grid to `false`. Alternatively, use widgets and code that prevents the keyboard event propagation. For example, replace RadComboBox with RadDropDownList, which prevents the up and down arrows from propagating.
 >

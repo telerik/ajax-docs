@@ -38,7 +38,7 @@ All resx file contain two columns: **Name** and **Value** as it is shown below:
 
 ![](images/editor-localization.png)
 
->note It is mandatory to set the ReservedResource string in the Name column of the RadEditor.Tools._&lt;Language&gt;_.resx file. Without this string the resource files will not be recognized.
+>tip It is mandatory to set the ReservedResource string in the Name column of the RadEditor.Tools._&lt;Language&gt;_.resx file. Without this string the resource files will not be recognized.
 
 After renaming the files, localize the strings in the **Value** column of your new **resx** files. Then set the **Language** property of RadEditor to the name of the `<localization>` string in the **RadEditor.Tools._&lt;Language&gt;_.resx** file:
 
@@ -55,5 +55,5 @@ RadEditor1.Language = "it-IT"
 
 
 
->note **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work.** 
+>tip **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work.** 
 

@@ -22,7 +22,7 @@ This approach is not the best for of a number of reasons:- you must extract the 
 
 With the newly added **RadStyleSheetManager** control, RadControls for ASP.NET Ajax suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a **RadStyleSheetManager** to your page and the stylesheet requests will be combined into a single request.
 
->note The **performance** gain of **RadStyleSheetManager** should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the resources. This comes at the cost of some processor load, because the resources get combined and compressed on the server.
+>tip The **performance** gain of **RadStyleSheetManager** should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the resources. This comes at the cost of some processor load, because the resources get combined and compressed on the server.
 >When testing locally, the largest part of the result you get is the time **RadStyleSheetManager** takes to combine the resources and serve them to the browser.
 >
 
@@ -156,7 +156,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 			````
 
 
-			>note Note that ComboBox_Images is the folder which contains the skin images.
+			>tip Note that ComboBox_Images is the folder which contains the skin images.
 			>
 
 

@@ -48,7 +48,7 @@ When larger **font-size** is used, the minimal value should also be adjusted. Wh
 * For all other skins: RowHeight = 44;
 
 
->note The above examples with **font-size** of 14px, 10px and 24px do not cover all possible scenarios. When using a different **font-size** you should adjust accordingly the **RowHeight** property value.
+>tip The above examples with **font-size** of 14px, 10px and 24px do not cover all possible scenarios. When using a different **font-size** you should adjust accordingly the **RowHeight** property value.
 
 
 

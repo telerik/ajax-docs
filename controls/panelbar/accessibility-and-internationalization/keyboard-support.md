@@ -36,7 +36,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ![panelbar-accessibilityandinternalization-keyboardsupport-focus](images/navigation-and-command.png)
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
+>tip Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 
@@ -64,7 +64,7 @@ Keyboard navigation is supported by using the **arrow keys** and special keyboar
 
 	![panelbar-accessibilityandinternalization-keyboardsupport-end](images/end.png)
 
->note The arrow keyboard navigation includes all visible panel items, regardless of their level
+>tip The arrow keyboard navigation includes all visible panel items, regardless of their level
 >
 
 
@@ -81,7 +81,7 @@ Keyboard navigation is supported by using the **arrow keys** and special keyboar
 	![panelbar-accessibilityandinternalization-keyboardsupport-enter](images/enter.png)
 
 
->note Collapsing items does not always work. It depends on the [ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
+>tip Collapsing items does not always work. It depends on the [ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
 >
 
 

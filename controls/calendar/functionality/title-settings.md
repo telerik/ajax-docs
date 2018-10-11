@@ -30,7 +30,7 @@ You can control the formatting of the dates in the title using the **TitleFormat
 
 You can control the placement of the title text in the title bar by setting the **TitleAlign** property. **TitleAlign** can be set to any of the values applicable to an HTML *align* attribute, or it can be set to **NotSet**, which leaves the align attribute of the rendered HTML for the title element.
 
->note 
+>tip 
 When the calendar is in multi view mode, the **TitleAlign** property controls the alignment of the titles for each individual view as well as the alignment of the title in the title bar.
 >
 

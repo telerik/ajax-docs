@@ -50,7 +50,7 @@ The path option of a shape is a description of a custom geometrical figure. The 
 
 Defines the x and y-coordinate of the shape when added to the diagram. 
 
->note If any of the [built-in layouts]({%slug diagram/structure/layout/overview%}) of **RadDiagram** is enabled, all explicitly configured **X** and **Y** coordinates will be ignored in the layout positioning algorithm favour.
+>tip If any of the [built-in layouts]({%slug diagram/structure/layout/overview%}) of **RadDiagram** is enabled, all explicitly configured **X** and **Y** coordinates will be ignored in the layout positioning algorithm favour.
 
 ### Visual
 

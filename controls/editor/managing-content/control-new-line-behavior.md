@@ -36,7 +36,7 @@ is displayed in the browser as:
 
 **Enhanced cross-browser support.**
 
->note Note that the `<br />` tag is an empty tag and has no closing tag.
+>tip Note that the `<br />` tag is an empty tag and has no closing tag.
 
 If you want to start a new paragraph, you should use the `<p>` (paragraph) tag. In HTML, this means automatically adding an extra blank line before and after a paragraph. e.g.:
 

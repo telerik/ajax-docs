@@ -58,7 +58,7 @@ The below sample demonstrates the client-side methods usage:
 
 On the server Start/End dates are available through **RadCalendar.RangeSelectionStartDate** and **RadCalendar.RangeSelectionEndDate** properties.
 
->note 
+>tip 
 Note that when range selection is done any other date selection will unselect all dates from the range selection
 >
 

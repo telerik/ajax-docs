@@ -54,7 +54,7 @@ When you run the application, the button templates display as an empty text box 
 
 In the DataBinder. Eval statement, **Container** is the **RadToolBarButton** and **"Value"** or **"Text"** identifies the **Value** or **Text** property of that item.
 
->note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the toolbar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>tip In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the toolbar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 

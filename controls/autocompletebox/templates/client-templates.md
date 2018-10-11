@@ -25,7 +25,7 @@ RadAutoCompleteBox provides support for client templates. The template itself co
 >important Client templates **can not** contain server controls.
 >
 
->note When a WCF service is used, the Attributes collection is serialized as an array of Name-Value pairs, and inside the ClientTemplate the attributes are accessed by index: **#=Attributes[0].Value#**
+>tip When a WCF service is used, the Attributes collection is serialized as an array of Name-Value pairs, and inside the ClientTemplate the attributes are accessed by index: **#=Attributes[0].Value#**
 >
 
 ## Server side representation

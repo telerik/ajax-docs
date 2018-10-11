@@ -50,7 +50,7 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | **remove_<EventName>** | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name &lt;EventName&gt;. Returns "true" if the eventHandler is found and detached, "false" otherwise. For more information, see [Client-Side Events]({%slug menu/client-side-programming/events/overview%}). See **Example 7**. |
 
 
->note Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug menu/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
+>tip Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug menu/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 >
 
 >caption Example 1: Add a new Menu item and persist it after a postback.

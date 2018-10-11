@@ -35,7 +35,7 @@ By enabling the WAI-ARIA support, **RadWindow** and **RadWindowManager** will au
 
 Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label), [aria-labelledby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-labelledby), and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes by using the **Label**, **LabelledBy** and **DescribedBy** properties in the **AriaSettings** tag.
 
->note **RadWindowManager** will populate the same aria-related settings to all managed dialogs. If a certain **RadWindow** needs different settings, you should further configure them by using its inner **AriaSettings** tag, and thus, to override the ones derived from **RadWindowManager** (**Example 3**). 
+>tip **RadWindowManager** will populate the same aria-related settings to all managed dialogs. If a certain **RadWindow** needs different settings, you should further configure them by using its inner **AriaSettings** tag, and thus, to override the ones derived from **RadWindowManager** (**Example 3**). 
 
 >caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadWindow**.
 
@@ -102,13 +102,13 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 ````
 
 
->note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
+>tip The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 
 
 >tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens.	This is done out of the box for the [RadAlert]({%slug window/alert,-confirm,-prompt-dialogs/radalert-dialog%}), [RadConfirm]({%slug window/alert,-confirm,-prompt-dialogs/radconfirm-dialog%}) and [RadPrompt]({%slug window/alert,-confirm,-prompt-dialogs/radprompt-dialog%}) dialogs.	For custom **RadWindows**, this should be done by the developer.
 
 
->note  **RadWindows** in the Windows collection of a **RadWindowManager**, or ones dynamically created by a manager, will inherit the value of its **EnableAriaSupport** property.
+>tip  **RadWindows** in the Windows collection of a **RadWindowManager**, or ones dynamically created by a manager, will inherit the value of its **EnableAriaSupport** property.
 
 
 ## See Also

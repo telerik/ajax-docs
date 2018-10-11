@@ -37,7 +37,7 @@ position: 10
 ````
 
 
->note Note that images in drop-down lists still appear on the left.
+>tip Note that images in drop-down lists still appear on the left.
 >
 
 

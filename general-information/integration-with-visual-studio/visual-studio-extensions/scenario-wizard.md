@@ -21,7 +21,7 @@ You can start the Telerik® UI for ASP.NET AJAX Scenario wizard by using one of 
 
 	![Scenario Wizard Menu](images/introduction-vsx_scenariowizard_menu.png) 
 
-	>note The Add Scenario menus won't start the wizard when the **Telerik.Web.UI** assembly referenced by the project does not support the scenarios accompanying the latest installation. You should upgrade the **Telerik.Web.UI** assembly reference to a recent version in order to create scenario pages.
+	>tip The Add Scenario menus won't start the wizard when the **Telerik.Web.UI** assembly referenced by the project does not support the scenarios accompanying the latest installation. You should upgrade the **Telerik.Web.UI** assembly reference to a recent version in order to create scenario pages.
 
 * Select the Telerik Scenario item template from the Add New Item dialog
 

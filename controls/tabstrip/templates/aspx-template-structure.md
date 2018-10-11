@@ -21,7 +21,7 @@ You can define two types of Telerik RadTabStrip templates:
 ![Templates](images/tabstrip_templates_aspx1.gif)
 
 
->note  **DataBinder.Eval** expressions work only when the tabstrip is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no datasource is set to the tabstrip.
+>tip  **DataBinder.Eval** expressions work only when the tabstrip is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no datasource is set to the tabstrip.
 >
 
 

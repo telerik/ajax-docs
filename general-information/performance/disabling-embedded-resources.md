@@ -63,7 +63,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 >caution Note that the order of the JS files registered for most of Telerik controls is important since there are some dependencies between the JavaScript files of a single control. Therefore it is recommended to follow the exact order of the script references from the table below.
 
->note To get the Ripple Effect for the Material Skin when you have disabled the embedded scripts, you will need to add `<asp:ScriptReference Path="~/Scripts/Common/MaterialRippleScripts.js" />` after `<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />`. You also need to include the `Skins/Common/MaterialRipple.css` if you disable the embedded skins.
+>tip To get the Ripple Effect for the Material Skin when you have disabled the embedded scripts, you will need to add `<asp:ScriptReference Path="~/Scripts/Common/MaterialRippleScripts.js" />` after `<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />`. You also need to include the `Skins/Common/MaterialRipple.css` if you disable the embedded skins.
 
 
 * **RadAjaxLoadingPanel**
@@ -229,7 +229,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 >caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
 
->note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
+>tip **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
 >
 
@@ -503,7 +503,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
+>tip If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
 
 
 * **RadHtmlChart**
@@ -630,7 +630,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 >caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
 
->note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
+>tip **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
 >
 
@@ -737,7 +737,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
+>tip If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
 
 * **RadRating**
 
@@ -831,7 +831,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note Please note that in order to use the WebAPI which is introduced in the .NET 4.5 you have to include the **WebApiLoader.js**.
+>tip Please note that in order to use the WebAPI which is introduced in the .NET 4.5 you have to include the **WebApiLoader.js**.
 >
 
 * **RadSearchBox**
@@ -1036,7 +1036,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 
 
->note Note that RadToolTipManager.js is needed only when RadToolTipManager is used.
+>tip Note that RadToolTipManager.js is needed only when RadToolTipManager is used.
 >
 
 
@@ -1095,7 +1095,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->note Note that RadWindowManager.js is only needed when RadWindowManager is used.
+>tip Note that RadWindowManager.js is only needed when RadWindowManager is used.
 >
 
 * **RadXmlHttpPanel**
@@ -1155,7 +1155,7 @@ More information can be found at:
 Just change the **Menu** with the name of the control you want - TreeView, Grid, Upload, etc.
 
 
->note The scripts/skins enable/disable is prioritized as follows:
+>tip The scripts/skins enable/disable is prioritized as follows:
 >
 * The settings applied at page level have top priority.
 * The settings applied for a particular control in the web.config file are next in priority.

@@ -16,7 +16,7 @@ You can configure the split bars of a **RadSplitter** control to allow the adjac
 
 The **CollapseMode** property of the **RadSplitBar** control specifies whether it includes 0, 1, or 2 collapse buttons. Each collapse button contains a small arrow pointing to the pane it controls. When the user clicks the collapse button, the adjacent pane in the direction of the arrow is collapsed (resized to nothing). After a split bar collapses an adjacent pane, the collapse button is replaced by an expand button, which contains an arrow that points in the opposite direction (where the expanded pane will appear). Clicking on the expand button restores the collapsed pane.
 
->note A split bar can show only one expand button at a time. As a result, when an adjacent pane is collapsed, it does not show another collapse button, even if it showed two collapse buttons before collapsing the adjacent pane.
+>tip A split bar can show only one expand button at a time. As a result, when an adjacent pane is collapsed, it does not show another collapse button, even if it showed two collapse buttons before collapsing the adjacent pane.
 
 The CollapseMode property can be set to any of the following values:
 
@@ -28,7 +28,7 @@ The CollapseMode property can be set to any of the following values:
 
 * **Both** - The split bar displays two collapse buttons, one for the previous and one for the next pane.
 
->note If a pane is **locked** , it is not collapsed, even if the user clicks the collapse button of an adjacent split bar.
+>tip If a pane is **locked** , it is not collapsed, even if the user clicks the collapse button of an adjacent split bar.
 
 ## Specifying the initial state of panes
 

@@ -14,7 +14,7 @@ This article explains how **RadEditor** handles content pasted from MS Word, and
 
 **RadEditor** provides a number of tools that help users paste formatted text from MS Word, which, as a result is cleaned from unnecessary tags, comments and MS-Word-specific style formatting attributes.
 
->note As of IE11, Microsoft have included a built-in mechanism that handles the HTML formatting when pasting MS Word content. Due to that, **RadEditor** has minor control over the MS Word content pasted under Internet Explorer 11.You can find more details about the browser dependency when pasting in the **RadEditor** in the [Pasting in RadEditor]({%slug editor/managing-content/pasting-content/overview%}) article.
+>tip As of IE11, Microsoft have included a built-in mechanism that handles the HTML formatting when pasting MS Word content. Due to that, **RadEditor** has minor control over the MS Word content pasted under Internet Explorer 11.You can find more details about the browser dependency when pasting in the **RadEditor** in the [Pasting in RadEditor]({%slug editor/managing-content/pasting-content/overview%}) article.
 
 >caption Figure 1: MS Word content is pasted as proper HTML markup in the RadEditor.
 
@@ -50,7 +50,7 @@ MS Word specific options:
 * **MSWordNoMargins** - strips Word-specific tags and margins, preserving fonts and text sizes.
 * **MSWordRemoveAll** - strips Word-specific tag on paste, removing both fonts and text sizes.
 
->note Enabling the **NoneSupressCleanMessage** option, will prevent the client-side [OnClientPasteHtml]({%slug editor/client-side-programming/events/onclientpastehtml%}) event from firing when using the native browser paste options (the browser’s context menu, or the Ctrl+V shortcut).
+>tip Enabling the **NoneSupressCleanMessage** option, will prevent the client-side [OnClientPasteHtml]({%slug editor/client-side-programming/events/onclientpastehtml%}) event from firing when using the native browser paste options (the browser’s context menu, or the Ctrl+V shortcut).
 
 >caption Example 1: How to set multiple values to the **StripFormattingOptions** property.
 
