@@ -28,7 +28,7 @@ To enable integrated validation, you need only set the following **RadUpload** v
 
 Set the **MaxFileSize** property to enable file size validation. The value of this property specifies the maximum number of **bytes** allowed for each uploaded file.
 
->note The default number of bytes you can transfer for all uploaded files is 4MB. If you want to allow uploads greater than 4 MB, you must [ configure the application for large uploads ]({%slug upload/uploading-files/uploading-large-files%}).
+>tip The default number of bytes you can transfer for all uploaded files is 4MB. If you want to allow uploads greater than 4 MB, you must [ configure the application for large uploads ]({%slug upload/uploading-files/uploading-large-files%}).
 >
 
 
@@ -36,7 +36,7 @@ Set the **MaxFileSize** property to enable file size validation. The value of th
 
 The **AllowedFileExtensions** property lists the valid file extensions for uploaded files. When the **AllowedFileExtensions** property is set, **RadUpload** automatically validates the extensions of selected files, moving any files with disallowed extensions to the **InvalidFiles** collection.
 
->note You must include the leading dot (".") in the file extension.
+>tip You must include the leading dot (".") in the file extension.
 >
 
 

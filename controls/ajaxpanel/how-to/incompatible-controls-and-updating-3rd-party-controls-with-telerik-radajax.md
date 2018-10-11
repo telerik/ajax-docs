@@ -16,7 +16,7 @@ Basically you should first check if the control is MS AJAX compatible (MS AJAX i
 
 1. The control, which is to be updated via AJAX request should be aware of this fact. This means that it has to be pre-modified to work with **XmlHttpRequests**. This should be done by its vendor, so please contact the control's vendor for help on the issue.
 
->note All Telerik RadControls for ASP.NET have been modified and are ready to be used with **Telerik's AJAX controls** .
+>tip All Telerik RadControls for ASP.NET have been modified and are ready to be used with **Telerik's AJAX controls** .
 >
 
 
@@ -38,12 +38,12 @@ The following ASP.NET controls are not compatible with partial-page updates, and
 
 * The [Substitution](http://msdn2.microsoft.com/en-us/9ze89as6) control.
 
->note Controls that are incompatible with partial-page rendering can still be used on a page without being added to the AjaxSettings.
+>tip Controls that are incompatible with partial-page rendering can still be used on a page without being added to the AjaxSettings.
 >
 
 
 
 
->note To make the validators compatible with the RadAjax controls *when used in medium trust* , set the[EnableClientScript](http://msdn2.microsoft.com/en-us/7t054e90)property of the validators to false. This disables the client script that would ordinarily be used to perform validation in the browser. As a result, during an asynchronous postback, the validators perform validation on the server. However, because only the content of the UpdatePanel is refreshed, the validators can provide the kind of immediate feedback that is ordinarily provided by client script.
+>tip To make the validators compatible with the RadAjax controls *when used in medium trust* , set the[EnableClientScript](http://msdn2.microsoft.com/en-us/7t054e90)property of the validators to false. This disables the client script that would ordinarily be used to perform validation in the browser. As a result, during an asynchronous postback, the validators perform validation on the server. However, because only the content of the UpdatePanel is refreshed, the validators can provide the kind of immediate feedback that is ordinarily provided by client script.
 >
 

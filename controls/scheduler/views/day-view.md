@@ -46,6 +46,6 @@ The **Day View** is a standard table list, which shows all appointments for a sp
 
 * Grouped by Resource (**Vertical**)![scheduler-views-dayview-verticalgroupingbyresource](images/scheduler-views-dayview-verticalgroupingbyresource.png)
 
->note Please note that the **DateGrouping** in **DayView** (both **Horizontal** and **Vertical** ) actually has no difference from the **Horizontal** Resource Grouping. If you are looking for DateGrouping in **DayView** please refer to the layout Horizontal Resource Grouping.
+>tip Please note that the **DateGrouping** in **DayView** (both **Horizontal** and **Vertical** ) actually has no difference from the **Horizontal** Resource Grouping. If you are looking for DateGrouping in **DayView** please refer to the layout Horizontal Resource Grouping.
 >
 

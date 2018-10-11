@@ -11,7 +11,7 @@ position: 2
 # RadPivotGrid OLAP Support
 
 
->note To display data from OLAP data sources you should download [Microsoft.Analysis Services library](http://www.microsoft.com/en-us/download/details.aspx?id=30440) and put it into the Bin folder or GAC.
+>tip To display data from OLAP data sources you should download [Microsoft.Analysis Services library](http://www.microsoft.com/en-us/download/details.aspx?id=30440) and put it into the Bin folder or GAC.
 >
 
 

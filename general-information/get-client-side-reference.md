@@ -192,7 +192,7 @@ Sub Page_Load(ByVal Sender As System.Object, ByVal e As System.EventArgs)
 End Sub
 ````
 
->note Using native DOM events (like [window.load](https://developer.mozilla.org/en-US/docs/Web/Events/load) or [jQuery's $(document).ready](https://api.jquery.com/ready/) may not give you the expected results. Such events are usualy prior to the Sys.Application.load event and cannot guarantee that the control instances are initialized.
+>tip Using native DOM events (like [window.load](https://developer.mozilla.org/en-US/docs/Web/Events/load) or [jQuery's $(document).ready](https://api.jquery.com/ready/) may not give you the expected results. Such events are usualy prior to the Sys.Application.load event and cannot guarantee that the control instances are initialized.
 
 
 ## See Also

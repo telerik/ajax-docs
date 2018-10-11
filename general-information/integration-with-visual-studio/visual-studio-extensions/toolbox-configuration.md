@@ -26,7 +26,7 @@ After running the Toolbox Configurator the user can make his selection using the
 
 When the Finish button is clicked Visual Studio will be restarted so that the changes can take effect.
 
->note The Toolbox Configurator will overwrite the toolbox registration performed during installation.
+>tip The Toolbox Configurator will overwrite the toolbox registration performed during installation.
 >
 
 The Toolbox Configurator is supported in Visual Studio 2008, 2010, 2012, 2013 and 2015.

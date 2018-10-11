@@ -105,7 +105,7 @@ Here is a detailed list of steps:
 		</telerik:RadDock> 
 
 
-	>note **Known issue -** There is a problem with the ContentTemplate tag when a control is added inside the RadDock at design time. The ContentTemplate tag disappears and should be added manually.
+	>tip **Known issue -** There is a problem with the ContentTemplate tag when a control is added inside the RadDock at design time. The ContentTemplate tag disappears and should be added manually.
 
 1. Run the application. Note that the appearance of the two dock zones differs, reflecting the different skins you assigned. The **RadDock** controls inherit the skin of their parent **RadDockZone**, except for the third **RadDock** control, where you explicitly set the **Skin** property. The second **RadDockZone** control has scrollbars because the **Height** property is not sufficient to display all of its docked windows:
 

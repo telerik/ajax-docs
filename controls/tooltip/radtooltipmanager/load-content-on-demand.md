@@ -66,7 +66,7 @@ End Sub
 
 When a tooltip controlled by the **RadToolTipManager** needs to be shown a call to the WebService is made. This should return a string (which may contain HTML, which will be rendered) and its value is passed to the tooltip. The path to the WebService and the name of the service method are specified in the **WebServiceSettings** inner tag's **Path** and **Method** properties. You can find examples below.
 
->note WebServices return simple strings and even though they can contain HTML, they are not rendered by the ASP engine.	This means that script controls like the Telerik® UI for ASP.NET AJAX	controls *cannot* be used in the content (e.g., user control) that is returned from the service call.
+>tip WebServices return simple strings and even though they can contain HTML, they are not rendered by the ASP engine.	This means that script controls like the Telerik® UI for ASP.NET AJAX	controls *cannot* be used in the content (e.g., user control) that is returned from the service call.
 >
 
 

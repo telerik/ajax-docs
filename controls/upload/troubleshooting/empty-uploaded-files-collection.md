@@ -26,6 +26,6 @@ If you modify the master page **ID** during the **OnInit** event, the RadUpload'
 
 Use the **RadUploadContext.Current.UploadedFiles** to access all the uploaded files.
 
->note To use the **RadUploadContext.Current** property you need to [register the RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}) in the web.config.
+>tip To use the **RadUploadContext.Current** property you need to [register the RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}) in the web.config.
 >
 

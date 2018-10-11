@@ -20,7 +20,7 @@ position: 8
 
 Different browsers serve different MIME types for the same files. For example, .JPG files are uploaded with **image/pjpeg** mime-type when using IE and **image/jpeg**,when using Firefox.
 
->note  **RadUpload** does not determine the mime-type using only the file extension. For example if you try to upload a text file that has the extension ".JPG", it is still uploaded with text/plain mime-type.
+>tip  **RadUpload** does not determine the mime-type using only the file extension. For example if you try to upload a text file that has the extension ".JPG", it is still uploaded with text/plain mime-type.
 >
 
 

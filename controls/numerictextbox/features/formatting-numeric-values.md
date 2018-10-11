@@ -14,7 +14,7 @@ position: 1
 
 The **NumberFormat** property controls how **RadNumericTextBox** formats its value. The format that you specify in this way is applied when the numeric text box does not have focus. During editing, **RadNumericTextBox** always uses the actual number.
 
->note The value of **NumberFormat** takes precedence over both the **Type** property and the **Culture** property.
+>tip The value of **NumberFormat** takes precedence over both the **Type** property and the **Culture** property.
 >
 
 
@@ -40,7 +40,7 @@ The **NumberFormat** property controls how **RadNumericTextBox** formats its val
 
 Formatting patterns are strings that control the placement of elements when formatting a numeric value. A Formatting pattern consists of the special symbol **n**, which represents the number, plus any literal characters that are part of the formatted value. Typically, the literal values are characters such as the negative sign ("-"), a currency symbol ("$"), parentheses, and so on.
 
->note The characters other than n in a formatting pattern are literal symbols. If you use the dollar sign ("$") as a currency symbol, for example, currency values are formatted using that symbol regardless of the value of the **Culture** property.
+>tip The characters other than n in a formatting pattern are literal symbols. If you use the dollar sign ("$") as a currency symbol, for example, currency values are formatted using that symbol regardless of the value of the **Culture** property.
 >
 
 

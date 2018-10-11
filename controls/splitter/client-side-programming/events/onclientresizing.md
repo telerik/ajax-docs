@@ -12,7 +12,7 @@ position: 4
 
 The **OnClientResizing** client-side event handler is called when a control is about to be resized. The resize can occur because of a user action (such as dragging a split bar or resizing the window that contains a splitter), or as the result of a a call to a client-side method.
 
->note The **OnClientResizing** event is supported by **RadSplitter** , **RadPane** , and **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeResize event.
+>tip The **OnClientResizing** event is supported by **RadSplitter** , **RadPane** , and **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeResize event.
 
 On **RadPane** and **RadSlidingPane**, the following two parameters are passed to the event handler:
 
@@ -25,7 +25,7 @@ On **RadPane** and **RadSlidingPane**, the following two parameters are passed t
 		1. The side on the top or left of the pane (depending on the splitter orientation).
 		1. The side on the bottom or right of the pane (depending on the splitter orientation).
 
-	>note Because sliding panes have only a single resizable border, for **RadSlidingPane** , **get_resizeDirection()** returns null.
+	>tip Because sliding panes have only a single resizable border, for **RadSlidingPane** , **get_resizeDirection()** returns null.
 
 On **RadSplitter** the following two parameters are passed to the event handler:
 

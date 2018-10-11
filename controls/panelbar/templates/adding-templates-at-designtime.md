@@ -59,7 +59,7 @@ In this example, a RadCalendar control and a Label are added in the **ContentTem
 	````
 
 
-	>note The code in the event handler directly accesses from inside the Content Template both the Calendar and the Label by their IDs. This is a feature of Content Templates.
+	>tip The code in the event handler directly accesses from inside the Content Template both the Calendar and the Label by their IDs. This is a feature of Content Templates.
 	>
 
 

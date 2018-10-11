@@ -48,7 +48,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs)
 End Sub
 ````
 
->note When you set the width of **RadRotator** in percentage the number of items in its view port cannot be controlled, because the width will change dynamically, however the items' width is fixed. As a result the first and last item in the view port may be partially visible.
+>tip When you set the width of **RadRotator** in percentage the number of items in its view port cannot be controlled, because the width will change dynamically, however the items' width is fixed. As a result the first and last item in the view port may be partially visible.
 
 ## Fluid Design with Carousel and CoverFlow Rotators
 
@@ -75,7 +75,7 @@ If you have set the RotatorType property to **Carousel**, **CarouselButtons**, *
 </telerik:RadRotator>
 ````
 
->note The **repaint()** functions redraws the entire rotator control. If you call it repeatedly you will most probably encounter performance issues. This is why it is suggested to invoke this function with an interval to achieve as smooth resizing as possible.
+>tip The **repaint()** functions redraws the entire rotator control. If you call it repeatedly you will most probably encounter performance issues. This is why it is suggested to invoke this function with an interval to achieve as smooth resizing as possible.
 
 # See Also
 

@@ -18,7 +18,7 @@ Starting from Q3 2011 **RadAsyncUpload** provides a new drag and drop functional
 
 From Q3 2012 SP1 this message can be easily localized by using **Localization-DropZone** property of RadAsyncUpload.
 
->note The new functionality relies on the HTML5 FileApi and Drag-And-Drop modules and therefore is available only in browsers which support the aforementioned modules.
+>tip The new functionality relies on the HTML5 FileApi and Drag-And-Drop modules and therefore is available only in browsers which support the aforementioned modules.
 >As for now such browsers are:
 >
 * Mozilla Firefox v. 4+
@@ -33,7 +33,7 @@ You will need to prevent the default behavior of the browser when the file is no
 
 As of Q3 2012 **RadAsyncUpload** supports the DropZones property. By setting the **DropZones** (which are CSS selectors) the user can upload files by dropping them on different areas of the page.
 
->note Keep in mind that the drop zones should be listed with comma separator as demonstrated in the [demo here](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx) and the following code **\<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" DropZones=".DropZone1,\#DropZone2"/\>** 
+>tip Keep in mind that the drop zones should be listed with comma separator as demonstrated in the [demo here](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx) and the following code **\<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" DropZones=".DropZone1,\#DropZone2"/\>** 
 >
 
 # See Also

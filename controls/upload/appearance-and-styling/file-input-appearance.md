@@ -26,7 +26,7 @@ The following image illustrates how **RadUpload** works around the limitations o
 
 * Using javascript, these events are set to the visible **TextBox** and **Button** in order to synchronize their content and appearance.
 
->note The html elements in the image above are offset a bit for clarity.
+>tip The html elements in the image above are offset a bit for clarity.
 >
 
 

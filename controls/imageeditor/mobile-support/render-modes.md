@@ -22,7 +22,7 @@ position: 1
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadImageEditor")
 
->note RadImageEditor uses internally RadToolBar, RadDock, RadButton, RadComboBox, RadColorPicker, RadSlider, RadDropDownList, RadFormDecorator and they inherit its RenderMode.
+>tip RadImageEditor uses internally RadToolBar, RadDock, RadButton, RadComboBox, RadColorPicker, RadSlider, RadDropDownList, RadFormDecorator and they inherit its RenderMode.
 
 ## Setting Render Mode
 

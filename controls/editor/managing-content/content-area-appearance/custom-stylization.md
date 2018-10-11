@@ -12,7 +12,7 @@ position: 2
 
 Customizing the RadEditor’s content could be achieved with two properties **ContentAreaCssFile** and **CSSFiles**.The values of this properties are the relative path to a CSS file, where are placed the styling rules for the default design of the content area.
 
->warning Both properties work only in **ContentAreaMode="Iframe"** mode. In **“DIV”** mode the content area stylization should be done with ordinary link to the CSS file in the **head** element using the **.reContentArea** as parent for all desired child elements in the CSS selectors.
+>caution Both properties work only in **ContentAreaMode="Iframe"** mode. In **“DIV”** mode the content area stylization should be done with ordinary link to the CSS file in the **head** element using the **.reContentArea** as parent for all desired child elements in the CSS selectors.
 
 ## Differences between the two approaches
 
@@ -174,7 +174,7 @@ Result:
 
 ![Populated Tool Bar From Selectors](images/PopulatedToolBarFromSelectors.png)
 
->note Note that using a link to a CSS file in the head element, with global CSS selectors will affect the content of the RadEditor control as well.sing the **CssFiles** property will override the CSS rules from these files. Also using an empty property will clear them.
+>tip Note that using a link to a CSS file in the head element, with global CSS selectors will affect the content of the RadEditor control as well.sing the **CssFiles** property will override the CSS rules from these files. Also using an empty property will clear them.
 
 The names populated in the dropdown menu could be modified from the property **CSSClasses** with the attributes **Name** and **Value**.**Name** holds the value to the text which appears in the dropdown menu and **Value** – the class name for the selected element.
 
@@ -209,7 +209,7 @@ Result:
 
 ![Populated Tool Bar From Css Classes](images/PopulatedToolBarFromCssClasses.png)
 
->note Class name (Value) set within the **CSSClasses** property, which does not exist as selector in one of the CSS files will not be populated in the menu. The opposite - if there is a class name not set within the **CSSClasses** , but exists in a CSS file will be restricted also.
+>tip Class name (Value) set within the **CSSClasses** property, which does not exist as selector in one of the CSS files will not be populated in the menu. The opposite - if there is a class name not set within the **CSSClasses** , but exists in a CSS file will be restricted also.
 
 ## User functionality for previewing the content without custom stylization
 

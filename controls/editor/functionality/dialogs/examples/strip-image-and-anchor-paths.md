@@ -35,7 +35,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
->note **StripAbsoluteAnchorPaths** and **StripAbsoluteImagesPaths** properties are no longer available in favor of the new **MakeUrlsAbsolute** filter.
+>tip **StripAbsoluteAnchorPaths** and **StripAbsoluteImagesPaths** properties are no longer available in favor of the new **MakeUrlsAbsolute** filter.
 
 ## Example
 

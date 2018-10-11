@@ -18,7 +18,7 @@ The composite property that controls this functionality is **ClientTemplate** wh
 
 **Figure 1** shows an example of using the **ClientTemplate** composite property.
 
->note You can use number formats inside **Client Templates** . You can find more information in [this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
+>tip You can use number formats inside **Client Templates** . You can find more information in [this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
 
 ## Showing Database Values Using a ClientTemplate
 

@@ -47,7 +47,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug editor/appear
 
 Gets the User Control files of the RadEditor built-in dialogs from the used Telerik® UI for ASP.NET AJAX suite and adds them into the project RadEditorDialogs folder.Additionally [the ExternalDialogsPath property]({%slug editor/functionality/dialogs/externaldialogspath-property%}) is set with the path to this folder.
 
->warning Note that this option will override the already existing files in the RadEditorDialogs folder. If additional dialog customizations are done, it is recommended to backup the files before this action.
+>caution Note that this option will override the already existing files in the RadEditorDialogs folder. If additional dialog customizations are done, it is recommended to backup the files before this action.
 
 ## Learning Center
 

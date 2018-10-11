@@ -32,7 +32,7 @@ You can define the **RadTreeView** structure inline, directly in the ASPX/ASCX f
 
 
 
->note You can also use the[RadTreeView Item Builder]({%slug treeview/design-time/radtreeview-item-builder%}) to interactively construct the **RadTreeNode** hierarchy.
+>tip You can also use the[RadTreeView Item Builder]({%slug treeview/design-time/radtreeview-item-builder%}) to interactively construct the **RadTreeNode** hierarchy.
 >
 
 

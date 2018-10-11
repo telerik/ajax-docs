@@ -51,4 +51,4 @@ The files which properties need to be modified are **ConfigFile.xml / ListConfig
 ````
 
 
->note Note that under MOSS the Upload and Delete options depend on the current user's permissions for the desired library.
+>tip Note that under MOSS the Upload and Delete options depend on the current user's permissions for the desired library.

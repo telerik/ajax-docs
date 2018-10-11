@@ -20,7 +20,7 @@ Each dialog, module or a context-menu has its own localization resource file loc
 
 The best way to create a new language is to duplicate an existing set of resource files and modify them. For example to create a new Italian resource file for Tools, you can copy the default RadEditor.Tools.resx to RadEditor.Tools.it-IT.resx.
 
->note The culture name has to follow the RFC 1766 standard in the format [Language Code]-[County/Region Code]. In our example, it-IT stands for Italian - Italy.
+>tip The culture name has to follow the RFC 1766 standard in the format [Language Code]-[County/Region Code]. In our example, it-IT stands for Italian - Italy.
 
 Then open the resource file in Visual Studio and change the **Value** column entries to their Italian counterparts.
 

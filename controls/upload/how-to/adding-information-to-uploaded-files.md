@@ -119,7 +119,7 @@ Server-side, you can use the method **UplodedFile.GetFieldValue(name)** method.
 
 * To retrieve the value of a boolean field, use the **UploadedFile.GetIsFieldChecked(name)** method.
 
->note Use the same value that was passed to the **RadUpload.getID(name)** method when retrieving a field value.
+>tip Use the same value that was passed to the **RadUpload.getID(name)** method when retrieving a field value.
 >
 
 

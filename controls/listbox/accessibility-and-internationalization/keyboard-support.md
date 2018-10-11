@@ -24,7 +24,7 @@ The **KeyboardNavigationSettings** exposes two properties to configure the keybo
 
 Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
+>tip Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
 
 **Example:** Setting the **KeyboardNavigationSettings** for **RadListBox**
@@ -80,7 +80,7 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadListBox** and 
 
 * Subsequent press on the same key iterates over the matches.
 
->note Marking matches works only for the built-in items, because it relies on their `Text` and structure. This means that using the `ItemTemplate` will disable the Mark Matches functionality.
+>tip Marking matches works only for the built-in items, because it relies on their `Text` and structure. This means that using the `ItemTemplate` will disable the Mark Matches functionality.
 >
 > For the feature to work, the `TabIndex` property of the control must be set, otherwise it cannot receive focus and the keyboard events.
 

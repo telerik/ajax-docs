@@ -28,7 +28,7 @@ Client side changes are available on the server side after postback. You can use
 
 	* **Clear** - when an item with child items calls the **clear**() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
 
->note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadPanelBar in order to be able to access the changes on the server via the **ClientChanges** property.
+>tip Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadPanelBar in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 

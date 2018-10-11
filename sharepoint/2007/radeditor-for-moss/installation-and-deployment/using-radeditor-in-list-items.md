@@ -16,7 +16,7 @@ position: 3
 
 Most of the Office SharePoint Server features are represented as lists. For example, **Wiki content**, **Blogs**, **announcements**, etc. You can easily replace the editor in these cases with the RadEditor.
 
->note  Once the RadEditor for MOSS features are activated they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article -[Change the RadEditor features scope]({%slug sharepoint/2007/radeditor-for-moss/configuration/change-the-radeditor-features-scope%})
+>tip  Once the RadEditor for MOSS features are activated they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article -[Change the RadEditor features scope]({%slug sharepoint/2007/radeditor-for-moss/configuration/change-the-radeditor-features-scope%})
 
 
 

@@ -27,6 +27,6 @@ Telerik SPRadGrid takes into account most of the various special fields that mig
 
 In addition Telerik SP RadGrid allows for the various properties of the view fields and adjusts its columns settings to reflect them. Such properties are those indicating whether the field is filterable/sortable and if it has any aggregate functions defined for it.
 
->note 
+>tip 
 >Document libraries are currently not well supported.
 

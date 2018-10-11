@@ -22,7 +22,7 @@ All ARIA attributes are **lower case**. They are shown in the table below.
 | ------ | ------ |
 | **RadMonthYearPicker** | **For MonthYearTableView element**: Role:grid, Aria-atomic:true, Aria-labelledby: element id; **For rows**: role:row; **For cells**: role:gridcell; **For column headers**: role:column header; **For main element**: Role:presentation |
 
->note 
+>tip 
 An issue with the use of WAI-ARIA in HTML documents is that they do not pass validation. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document that includes elements, attributes, and attribute values, not detailed in its DTDs.
 >
 

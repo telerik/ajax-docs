@@ -33,7 +33,7 @@ Code that creates Figure 1:
 </telerik:RadImageButton>
 -->
 
->note **RadImageButton** does not support a Classic [render mode]({%slug imagebutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>tip **RadImageButton** does not support a Classic [render mode]({%slug imagebutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 

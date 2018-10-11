@@ -246,7 +246,7 @@ You can resolve these issues as follows:
 
 **Potential Workaround**: Special characters in data source field names can sometimes be escaped by surrounding the name with quotes and brackets (see **Example 4**). This applies to properties of the axes. Properties of series may work without such escaping (see **Example 5**).
 
->note Certain special characters may still break this and you also need to make sure to escape the field names properly for JavaScript, such as in client templates (see **Example 5**) and that may not always be possible.
+>tip Certain special characters may still break this and you also need to make sure to escape the field names properly for JavaScript, such as in client templates (see **Example 5**) and that may not always be possible.
 >
 >In such cases you need to rename the fields so they do not contain special symbols and so they follow the rules for JavaScript variable names. For example, field names cannot begin with a number, cannot contain whitespace or special characters.
 

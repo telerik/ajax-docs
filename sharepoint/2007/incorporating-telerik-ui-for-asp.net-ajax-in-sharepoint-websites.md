@@ -35,7 +35,7 @@ The following steps outline how to swap the default SharePoint navigation with *
 
 
 
->note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
+>tip Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 
@@ -72,6 +72,6 @@ Alternatively, you can use [RadScriptManager]({%slug scriptmanager/overview%}) (
 
 
 
->note If you intend to integrate RadAjaxManager inside your SharePoint webpart, review the information from [this help article]({%slug sharepoint/troubleshooting/sharepoint-ajax-updates%}).
+>tip If you intend to integrate RadAjaxManager inside your SharePoint webpart, review the information from [this help article]({%slug sharepoint/troubleshooting/sharepoint-ajax-updates%}).
 >
 

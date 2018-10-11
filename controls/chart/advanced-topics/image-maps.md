@@ -38,7 +38,7 @@ Below is the ActiveRegion for a [chart series item]({%slug chart/understanding-r
 
 ![ActiveRegion](images/radchart-advancedimagemap001.png)
 
->note The **ActiveRegion** resolves to a standard HTML "map" tag that defines the area within the chart image that will respond to the mouse.
+>tip The **ActiveRegion** resolves to a standard HTML "map" tag that defines the area within the chart image that will respond to the mouse.
 
 ````XML
 <map id='imRadChart1' name='imRadChart1'><areashape="poly" href="[http://www.telerik.com](http://www.telerik.com)" coords="176,168,247,167,248,199,227,226,198,236" alt="Sales" title="Sales" /></map>

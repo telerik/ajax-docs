@@ -14,7 +14,7 @@ position: 3
 
 Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the tab strip declaratively in design time. As with [binding to a DataSet, DataTable, or DataView]({%slug tabstrip/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the tabs.
 
->note The [Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadTabStrip** to an **AccessDataSource** .
+>tip The [Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadTabStrip** to an **AccessDataSource** .
 >
 
 

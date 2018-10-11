@@ -118,9 +118,9 @@ Now the HTML output of the scripts tag will be like this:
 <script src="http://my.favorite.cdn/ajaxz/2015.2.826/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
 ````
 
->note The solution is fully applicable also for creating a local CDN. Just copy the `Scripts` and `Skins` folders inside a folder in the root of your application and configure the BaseUrl and BaseSecureUrl to point to the resources folder.
+>tip The solution is fully applicable also for creating a local CDN. Just copy the `Scripts` and `Skins` folders inside a folder in the root of your application and configure the BaseUrl and BaseSecureUrl to point to the resources folder.
 
->note If you are using non-IIS CDN hosting service configuration might be different.
+>tip If you are using non-IIS CDN hosting service configuration might be different.
 
 # See Also
 

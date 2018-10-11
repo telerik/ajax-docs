@@ -52,7 +52,7 @@ There are also three other options that invoke the [e-mail functionality]({%slug
 
 * **CompactButton** - it is used to trigger the popup with the [Compact Buttons collection]({%slug socialshare/configuring-buttons/collections%}).Unlike the **`<telerik:RadCompactButton />`** this opens the popup with the settings declared for the browser popup (see below).
 
->note If any of the other options is chosen for the **SocialNetType** this invokes the [Standard Button]({%slug socialshare/configuring-buttons/standard%}) instead which is rendered by external scripts and the other properties do not apply.
+>tip If any of the other options is chosen for the **SocialNetType** this invokes the [Standard Button]({%slug socialshare/configuring-buttons/standard%}) instead which is rendered by external scripts and the other properties do not apply.
 
 
 

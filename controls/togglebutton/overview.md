@@ -35,7 +35,7 @@ The control can be easily styled by changing the **[Skin]({%slug togglebutton/ap
 </telerik:RadToggleButton>
 ````
 
->note **RadToggleButton** does not support a Classic [render mode]({%slug togglebutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>tip **RadToggleButton** does not support a Classic [render mode]({%slug togglebutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 

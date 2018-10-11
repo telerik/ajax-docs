@@ -25,7 +25,7 @@ You can load child items in a menu dynamically through a Web service. The follow
 
 * Set the **UseHttpGet** sub-property to *True* to change the default HTTP method (**POST)**. This property is added in Q1 2009 release
 
->note The **WebServiceSettings** property is global to the **RadMenu** object. You can't use separate methods on the Web service for different parent menu items.
+>tip The **WebServiceSettings** property is global to the **RadMenu** object. You can't use separate methods on the Web service for different parent menu items.
 >
 
 
@@ -37,7 +37,7 @@ You can load child items in a menu dynamically through a Web service. The follow
 
 The following example shows a **RadMenu** that fetches all child items from a Web Service. The LoadingStatusTemplate appears while the Web service is handling the request for items.
 
->note You can obtain the parent item's **Text** and **Value** from the **RadMenuItemData** parameter passed to the the WebService's method.
+>tip You can obtain the parent item's **Text** and **Value** from the **RadMenuItemData** parameter passed to the the WebService's method.
 >public RadMenuItemData[] GetMenuCategories( **RadMenuItemData**  **item** , object context){ **item.Text** //returns the **Text** of the parent item, whose child items are being populated **item.Value** //returns the **Value** of the parent item, whose child items are being populated}
 >
 

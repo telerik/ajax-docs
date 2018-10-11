@@ -24,6 +24,6 @@ You can reorder the tasks in the **RadGantt** by dragging the task rows within t
 
 * Drop over certain task and make it a child task.
 
->note If the task which is about to be reordered has child task, the hierarchy is persisted and child task is dragged along with its parent.
+>tip If the task which is about to be reordered has child task, the hierarchy is persisted and child task is dragged along with its parent.
 >
 

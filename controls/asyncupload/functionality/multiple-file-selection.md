@@ -26,11 +26,11 @@ If the first file passes validation, [OnClientFileUploading]({%slug asyncupload/
 
 This succession is repeating for each one or the selected files and after the last one is uploaded the [OnClientFilesUploaded]({%slug asyncupload/client-side-programming/onclientfilesuploaded%}) event is fired.
 
->note Currently setting **MultipleFileSelection=Automatic** and **MaxFileInputsCount** at the same time is not supported scenario with **RadAsyncUpload** .
+>tip Currently setting **MultipleFileSelection=Automatic** and **MaxFileInputsCount** at the same time is not supported scenario with **RadAsyncUpload** .
 >
 
 
->note In cases with **Mobile Devices** and **Tablets** if you want to have the ability to upload files from the camera by taking picture after the **Select** button is clicked the **MultipleFileSelection="Disabled"** should be set. Otherwise only the already existing files will be possible for upload.
+>tip In cases with **Mobile Devices** and **Tablets** if you want to have the ability to upload files from the camera by taking picture after the **Select** button is clicked the **MultipleFileSelection="Disabled"** should be set. Otherwise only the already existing files will be possible for upload.
 >
 
 

@@ -43,7 +43,7 @@ RadEditor1.Colors.Add("red")
 RadEditor1.Colors.Add("#9900CC")
 ````
 
->note Bear in mind that RadEditor will persist its state (including the Colors set) between postbacks. In order to create a new set of Colors (e.g. for different users), you will need to clear it first. This can be done using the **Remove()** or **Clear()** methods for the Colors collection.
+>tip Bear in mind that RadEditor will persist its state (including the Colors set) between postbacks. In order to create a new set of Colors (e.g. for different users), you will need to clear it first. This can be done using the **Remove()** or **Clear()** methods for the Colors collection.
 
 ## Using the ToolsFile
 

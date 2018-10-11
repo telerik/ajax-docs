@@ -15,7 +15,7 @@ position: 2
 
 The **RadContentTemplateTile** is a tile that allows the developer to set any content in the primary content of the tile as well as in the [Peek template]({%slug tilelist/tiles/peek-template%}).This is done by using the **ContentTemplate** inner tag in the markup and controls can be added programmatically in the code-behind to the tile's **ContentContainer**.
 
->note The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
+>tip The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

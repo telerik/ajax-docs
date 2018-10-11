@@ -14,7 +14,7 @@ position: 2
 
 **RadTimePicker** provides the **SelectedDateChanged** server event, which occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup time view control. This event does not fire unless the **AutoPostBack** property is **True**.
 
->note 
+>tip 
 The event handler is not called unless the time actually changes. If the user makes a change that results in the same value (for example, typing a different string that parses to the same value), a postback occurs but the **SelectedDateChanged** event handler is not called.
 >
 

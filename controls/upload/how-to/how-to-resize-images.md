@@ -22,7 +22,7 @@ A common requirement is to resize uploaded images. To accomplish this, you can u
 
 The following example demonstrates how to save uploaded images and create thumbnails.
 
->note For more information, see:[http://msdn2.microsoft.com/en-us/library/system.drawing.image.getthumbnailimage.aspx](http://msdn2.microsoft.com/en-us/library/system.drawing.image.getthumbnailimage.aspx)
+>tip For more information, see:[http://msdn2.microsoft.com/en-us/library/system.drawing.image.getthumbnailimage.aspx](http://msdn2.microsoft.com/en-us/library/system.drawing.image.getthumbnailimage.aspx)
 >
 
 

@@ -18,7 +18,7 @@ position: 10
 
 ![RTL](images/panelbar_rtl.png)
 
->note Image position is still controlled by the **ImagePosition** property.
+>tip Image position is still controlled by the **ImagePosition** property.
 >
 
 

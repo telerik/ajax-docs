@@ -24,7 +24,7 @@ Two parameters are passed to the event handler:
 
 * **get_domEvent()**- returns a reference to the raw DOM event.
 
->note This event is not raised if the user clicks on the all-day row.
+>tip This event is not raised if the user clicks on the all-day row.
 >
 
 

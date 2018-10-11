@@ -166,7 +166,7 @@ RadClientDataSource1.FilterExpression.Filters.Add(New ClientDataSourceFilterEntr
 ````
 
 
->note The filter value on the server is always **string** (if the value property is not string it cannot be set through markup and thewhole filter expressions setting in the markup becomes useless). Consider the following filter expression:
+>tip The filter value on the server is always **string** (if the value property is not string it cannot be set through markup and thewhole filter expressions setting in the markup becomes useless). Consider the following filter expression:
 >
 
 

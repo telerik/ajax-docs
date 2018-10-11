@@ -31,7 +31,7 @@ In scenarios where persistence manager proxies are used there may be cases when 
 
 To prevent this behavior you can set the **UniqueKey** property of the **RadPersistenceManagerProxy**, that will help you to distinguish both grids.
 
->note The value of **UniqueKey** must be unique and should be set to all proxies.
+>tip The value of **UniqueKey** must be unique and should be set to all proxies.
 
 
 

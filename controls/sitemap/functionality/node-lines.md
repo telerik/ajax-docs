@@ -16,7 +16,7 @@ position: 2
 
 **RadSiteMap** supports node lines. You can toggle them on and off by using the **ShowNodeLines** boolean property.
 
->note The node lines are rendered in **List** layout mode only. They are **not** rendered in **Flow** layout mode.
+>tip The node lines are rendered in **List** layout mode only. They are **not** rendered in **Flow** layout mode.
 >
 
 

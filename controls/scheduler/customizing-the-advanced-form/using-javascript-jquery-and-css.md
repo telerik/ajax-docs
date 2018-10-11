@@ -304,7 +304,7 @@ function StartTimeSelected_AdvancedEdit(sender, args) {
 
 
 
->note When handling the OnClientFormCreated event, in order to check if the RadScheduler is bound to a web service the following code could be used:
+>tip When handling the OnClientFormCreated event, in order to check if the RadScheduler is bound to a web service the following code could be used:
 >
 
 

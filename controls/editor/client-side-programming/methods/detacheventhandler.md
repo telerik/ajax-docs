@@ -88,7 +88,7 @@ The example below demonstrates an external event being attached to a handler dur
 
 
 
->note In earlier versions, **removeExternalHandler()** was referred to through the **Telerik.Web.DomElement** object.Since then has undergone significant optimization of core scripts (script size was reduced by over 100K, and the controls now load even faster). One of the optimizations was to group all core functionality into a single JavaScript class/object referred to as **$telerik** .
+>tip In earlier versions, **removeExternalHandler()** was referred to through the **Telerik.Web.DomElement** object.Since then has undergone significant optimization of core scripts (script size was reduced by over 100K, and the controls now load even faster). One of the optimizations was to group all core functionality into a single JavaScript class/object referred to as **$telerik** .
 >
 >So, the correct way to refer to a "system" method is:
 >`$telerik.removeExternalHandler()`

@@ -14,7 +14,7 @@ position: 14
 
 Nowadays supporting mobile devices in the Web Development is a must. However finding the right screen size can be laborious. Here in help comes Telerik **Device Detection Framework**. Added in **Q1 2014** this .NET library allow developers to determine the Screen Resolution of huge number of mobile devices in an elegant way. Telerik ships **Device Detection Framework** as a separate assembly - **Telerik.Web.Device.Detection.dll**.
 
->note When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode**.
+>tip When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode**.
 >
 
 

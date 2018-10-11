@@ -42,7 +42,7 @@ You can use the **Visible** property of the grid or a container in which the con
 
 * When the grid visibility is initially set to **False**, you must switch the visibility of the **MasterTableView** to display the grid after it has been hidden.
 
->note The **MasterTableView** object represents the actual HTML table of the rendered grid image in the client browser. The **RadGrid** instance is rendered as a **div** tag that encloses the HTML table. Of course, you can hide the **RadGrid** div as well if you wish.
+>tip The **MasterTableView** object represents the actual HTML table of the rendered grid image in the client browser. The **RadGrid** instance is rendered as a **div** tag that encloses the HTML table. Of course, you can hide the **RadGrid** div as well if you wish.
 >
 
 

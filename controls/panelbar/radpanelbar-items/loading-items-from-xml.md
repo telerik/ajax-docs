@@ -46,7 +46,7 @@ You can easily load the items of a panel bar from an XML source, as long as the 
 
 
 
->note To discover the way to represent a specific **RadPanelBar** feature in XML, create a **RadPanelBar** with the feature and use the **RadPanelBar.GetXml** method to get the corresponding XML string.
+>tip To discover the way to represent a specific **RadPanelBar** feature in XML, create a **RadPanelBar** with the feature and use the **RadPanelBar.GetXml** method to get the corresponding XML string.
 >
 
 
@@ -102,7 +102,7 @@ RadPanelBar1.LoadXml(xmlString)
 ````
 
 
->note You can also populate **RadPanelBar** from an XML file or string using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See [Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%}) for details.
+>tip You can also populate **RadPanelBar** from an XML file or string using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See [Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%}) for details.
 >
 
 

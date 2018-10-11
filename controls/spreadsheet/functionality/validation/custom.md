@@ -38,4 +38,4 @@ The **RadSpreadsheet** control allows you to create your own custom **Validation
 
 ````
 
->note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom **Validation** dialog in this Code Library: [Validation Template for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/validation-template).
+>tip You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom **Validation** dialog in this Code Library: [Validation Template for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/validation-template).

@@ -102,7 +102,7 @@ There are several ways to add the HTTP handlers:
 </configuration>
 ````
 
->note In case your project references the Telerik assemblies from the **GAC**, you will need to register these handlers by using the fully qualified assembly name by adding the assembly information to the type attribute (**Example 2**). 
+>tip In case your project references the Telerik assemblies from the **GAC**, you will need to register these handlers by using the fully qualified assembly name by adding the assembly information to the type attribute (**Example 2**). 
 >
 >If you deploy the project on a **WebFarm**/**WebGarden**, you need to change the Telerik.Web.UI.WebResource.axd type (**Example 3**). You can read more about deploying a solution that uses Telerik controls on a WebFarm or WebGarden in the [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) blog post.
 >

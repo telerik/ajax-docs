@@ -34,7 +34,7 @@ The **RadInput** controls support a number of client-side events that let you re
 |[OnMouseOver]({%slug raddateinput/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
 |[OnMouseOut]({%slug raddateinput/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
 
->note On **RadDateInput** , there is another client event property, **OnClientDateChanged** , which maps directly onto the **OnValueChanged** property.
+>tip On **RadDateInput** , there is another client event property, **OnClientDateChanged** , which maps directly onto the **OnValueChanged** property.
 >
 
 

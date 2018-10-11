@@ -38,7 +38,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport01g.gif)
 
->note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
+>tip Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 ## Arrow Key Navigation and Key Commands
@@ -82,5 +82,5 @@ Allows end-users to navigate around the TreeView structure using the arrow keys,
 **Example 2**: Demonstration of some of the key Navigations of the **RadTrewView**.
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport02.gif)
 
->note The **RadTreeView** keyboard support is implemented according to the [W3C Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
+>tip The **RadTreeView** keyboard support is implemented according to the [W3C Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
 >

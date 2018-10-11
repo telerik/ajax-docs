@@ -42,7 +42,7 @@ As **Figure 4** shows, you can set the desired column from the data source using
 
 If you want to build a simple or static chart, you can choose to not set a data source and simply add items to the series in the Series Item collection editor below. Once again, the Configuration Wizard only shows properties that are relevant to the type of chart you selected.
 
->note The Configuration Wizard doesn't override already defined series. That being said, in order to switch to a	different chart type, you must initially remove the inconsistent series and then add the new one.	This is done to prevent data loss. Having a Configuration Wizard does not mean that everything will be set	(or modified) by it, because this would make it very restrictive and unusable.
+>tip The Configuration Wizard doesn't override already defined series. That being said, in order to switch to a	different chart type, you must initially remove the inconsistent series and then add the new one.	This is done to prevent data loss. Having a Configuration Wizard does not mean that everything will be set	(or modified) by it, because this would make it very restrictive and unusable.
 
 ## X-Axis
 
@@ -69,7 +69,7 @@ The Legend, Title tab (**Figure 7**) allows you to set the global properties of 
 
 If you want to take advantage of the [Data Navigation]({%slug htmlchart/functionality/data-navigation%}) functionality, you can create and customize a Navigator pane from the Navigator tab (**Figure 8**).
 
->note This functionality is available only for a Stock layout.
+>tip This functionality is available only for a Stock layout.
 
 On the left is a set of properties for modifying the hint, x-axis appearance and the date ranges of the selector use calenders for easing the input of DateTime values. On the right, you'll see the availableSeries collection editor that lets a developer add an appropriate series and adjust their corresponding settings.
 

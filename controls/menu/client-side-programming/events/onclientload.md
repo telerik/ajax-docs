@@ -42,7 +42,7 @@ The following example illustrates the use of the **OnClientLoad** event handler 
 <input id="Button1" type="button" onclick="UtilizeMenuClientObject()" value="button" />
 ````
 
->note The technique illustrated here can be used when the menu is nested within another control, but the RadMenu must be rendered only once. For example, you can use this approach if RadMenu is nested in a toolbar template button. However, if RadMenu is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered menu.
+>tip The technique illustrated here can be used when the menu is nested within another control, but the RadMenu must be rendered only once. For example, you can use this approach if RadMenu is nested in a toolbar template button. However, if RadMenu is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered menu.
 >
 
 

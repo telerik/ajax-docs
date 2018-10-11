@@ -36,11 +36,11 @@ In order to specify how the group aggregates will be evaluated, specify in every
 
 
 
->note RadGrid will calculate aggregates over the entire data source and will respect the filter expression applied (if present).
+>tip RadGrid will calculate aggregates over the entire data source and will respect the filter expression applied (if present).
 >
 
 
->note The default style applied for the group footers will be this set for the common footer of the corresponding table.
+>tip The default style applied for the group footers will be this set for the common footer of the corresponding table.
 >
 
 
@@ -110,7 +110,7 @@ In some cases it may prove more convenient to include all group records in the s
 Enabling it will instruct the grid to include the information from all pages when calculating the group aggregates.
 ![grid grouping groupfooters 2](images/grid_grouping_groupfooters_2.png)
 
->note
+>tip
 LINQ expressions must be enabled in order for the **IgnorePagingForGroupAggregates** to have effect. The **EnableLinqExpressions** property is enabled by default and there is no need to set it to True explicitly.
 >
 

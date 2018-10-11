@@ -16,7 +16,7 @@ A Bar chart displays data as horizontal bars whose lengths vary according to the
 
 ![htmlchart-barchart-simple-example](images/htmlchart-barchart-simple-example.png)
 
->note The y-axis is placed horizontally in this chart type, as this is where the item values must be positioned, whereas the x-axis that holds the items themselves is	vertical because this is where the base of the bars is.
+>tip The y-axis is placed horizontally in this chart type, as this is where the item values must be positioned, whereas the x-axis that holds the items themselves is	vertical because this is where the base of the bars is.
 
 You can customize the Bar chart in several ways:
 

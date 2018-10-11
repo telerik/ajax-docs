@@ -94,7 +94,7 @@ In addition, if you are using **GridTextColumnEditor**, **GridBoolColumnEditor**
 
 * For **GridDropDownColumnEditor**, this includes both the **SelectedText** and **SelectedValue** properties (of type **String**).
 
->note Custom editors for each column should inherit the corresponding classes. For example to extend a RadGridBoundColumn's editor you need to inherit GridTextColumnEditor.
+>tip Custom editors for each column should inherit the corresponding classes. For example to extend a RadGridBoundColumn's editor you need to inherit GridTextColumnEditor.
 >
 
 

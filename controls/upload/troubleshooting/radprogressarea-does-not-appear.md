@@ -40,7 +40,7 @@ There are several possible reasons for the problem:
 
 1. The uploading files have relatively small size (e.g. < 5MB) and are uploaded on localhost.
 
->note Before trying to diagnose this problem, make sure you are using the latest available version of the control.
+>tip Before trying to diagnose this problem, make sure you are using the latest available version of the control.
 >
 
 

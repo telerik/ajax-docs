@@ -21,7 +21,7 @@ When **UseStaticHeaders** is **False**, the header and pager scroll along with t
 
 ![UseStaticHeaders is false](images/grid_scroll-with-static-headers-false.png)
 
->note When scrolling is enabled and **UseStaticHeaders** is **True** , the grid columns should declare **HeaderStyle.Width** .
+>tip When scrolling is enabled and **UseStaticHeaders** is **True** , the grid columns should declare **HeaderStyle.Width** .
 >
 
 
@@ -52,6 +52,6 @@ RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = True
 ````
 
 
->note If you use static headers when the grid's **Width** and **Height** properties are set to "100%", the Web page shows only the grid scrollbars; the browser scrollbars are hidden. In this way, **RadGrid** can mimic a desktop application such as Microsoft Excel.
+>tip If you use static headers when the grid's **Width** and **Height** properties are set to "100%", the Web page shows only the grid scrollbars; the browser scrollbars are hidden. In this way, **RadGrid** can mimic a desktop application such as Microsoft Excel.
 >
 

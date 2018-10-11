@@ -16,7 +16,7 @@ The CSS class dropdown of RadEditor displays all classes defined in the page or 
 
 _/Program Files/Common Files/Microsoft Shared/web server extensions/14/Template/Layouts/1033/Styles_
 
->note The folder location can be different if you are not using US English version of SharePoint 2010. The 1033 number signifies the current culture and might be different for different language versions of SP2010.
+>tip The folder location can be different if you are not using US English version of SharePoint 2010. The 1033 number signifies the current culture and might be different for different language versions of SP2010.
 
 **For example:**
 

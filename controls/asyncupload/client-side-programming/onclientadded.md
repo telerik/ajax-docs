@@ -14,7 +14,7 @@ position: 3
 
 The **OnClientAdded** client-side event occurs when a new row has just been added to the **RadAsyncUpload** control.
 
->note This event occurs for the initial rows that are added when the **RadAsyncUpload** control is first loaded, as well as any rows automatically added after a file has been uploaded or after invocation of the client-side **addFileInput()** method.
+>tip This event occurs for the initial rows that are added when the **RadAsyncUpload** control is first loaded, as well as any rows automatically added after a file has been uploaded or after invocation of the client-side **addFileInput()** method.
 >
 
 

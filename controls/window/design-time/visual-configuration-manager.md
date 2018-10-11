@@ -52,7 +52,7 @@ Some important properties to notice in **RadWindow** are:
 
 * **DestroyOnClose**: This lets you override the default caching of **RadWindow** instances, so that a new window is created every time the window is shown.
 
-	>note Note that if you destroy a **RadWindow** , you will not be able to open the same RadWindow again - a new **RadWindow** with default values will be opened instead.
+	>tip Note that if you destroy a **RadWindow** , you will not be able to open the same RadWindow again - a new **RadWindow** with default values will be opened instead.
 
 * **ReloadOnShow**: This forces the browser to reload the content of the window every time it is shown.
 

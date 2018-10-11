@@ -18,7 +18,7 @@ In this example you will see how to find **RadComboBox** control nested in **Rib
 
 In order to find the control that is located in a **RibbonBarTemplateItem** of a RadRibbonBar, first you need to find the tab that it is located in. This is done by using the **FindTabByValue** property (note that to make this work, the tab needs to have a previously assigned value, ex: **`<telerik:RibbonBarTab Text="Tab2"Value="Tab2">`** )Then you will need to find the Group by its index (this is zero in the particular case - *Groups[0]*) that is placed in the tab with **Value="Tab2"** and get the Group's first item (again this is done by index - *Items[0]*). Finally, by using the **FindControl** property you can access the RadComboBox control.
 
->note Alternatively, a tab can also be found by its index as well. Furthermore, depending on one’s requirements, a Group can be referred to by using the **FindByValue** property of the tab ( with the code below such example would be **tab2.FindByValue(“Group1”);** ).
+>tip Alternatively, a tab can also be found by its index as well. Furthermore, depending on one’s requirements, a Group can be referred to by using the **FindByValue** property of the tab ( with the code below such example would be **tab2.FindByValue(“Group1”);** ).
 >
 
 

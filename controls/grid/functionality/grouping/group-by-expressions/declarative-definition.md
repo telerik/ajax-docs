@@ -48,7 +48,7 @@ Both the **SelectFields** and the **GroupByFields** collections are collections 
 
 You can set the value of a table view's **GroupByExpressions** property declaratively to provide the grid with an initial grouping state. This property is independent of whether users can drag column headers to the group panel to change the grouping, or even whether the group panel appears in the grid.
 
->note In a hierarchical grid, you can set the **GroupByExpressions** property for each table in the hierarchy.
+>tip In a hierarchical grid, you can set the **GroupByExpressions** property for each table in the hierarchy.
 >
 
 
@@ -132,7 +132,7 @@ For this example, the resulting **GridGroupByExpression** object would be as fol
 
 
 
->note You can only set the **GroupByExpression** property of declaratively defined columns.
+>tip You can only set the **GroupByExpression** property of declaratively defined columns.
 >
 
 

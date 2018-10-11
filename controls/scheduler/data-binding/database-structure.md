@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
->note A sample SQL 2005 database for RadScheduler can be found in your local installation of theTelerik.Web.UI suite - Live Demos\App_Data\ **Telerik.mdf** 
+>tip A sample SQL 2005 database for RadScheduler can be found in your local installation of theTelerik.Web.UI suite - Live Demos\App_Data\ **Telerik.mdf** 
 >
 
 
@@ -24,7 +24,7 @@ The sample database for RadScheduler contains various tables which can be used t
 
 
 
->note Note that the required fields for RadScheduler are **ID** , **Subject** , **Start** and **End.** These fields cannot contain null values.
+>tip Note that the required fields for RadScheduler are **ID** , **Subject** , **Start** and **End.** These fields cannot contain null values.
 >
 
 

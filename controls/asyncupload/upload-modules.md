@@ -36,7 +36,7 @@ Limitation of the File Api module:
 
 * No file filtering, i.e. it is not possible to filter the selected files dialog with the allowed extensions, because the latter functionality is not yet implemented by any browser. This is the only disadvantage of the File API compared to Silverlight.
 
->note The File Api module is supported by the following browsers: FireFox 3.6 or greater, Google Chrome, Safari 5
+>tip The File Api module is supported by the following browsers: FireFox 3.6 or greater, Google Chrome, Safari 5
 >
 
 
@@ -60,10 +60,10 @@ In contrast, we have designed the Silverlight upload in a different way.The Silv
 | **File Api** |FireFox (3.6+), Chrome, Safari (5+), Opera, Safari for MAC|
 | **IFrame** |IE|
 
->note In **IE9** RadAsyncUpload implements only **IFrame** and **Silverlight** Upload modules. **Flash** module can be applied only in previous versions of IE Browser because of some incompatibilities with IE9.
+>tip In **IE9** RadAsyncUpload implements only **IFrame** and **Silverlight** Upload modules. **Flash** module can be applied only in previous versions of IE Browser because of some incompatibilities with IE9.
 >
 
->note In **Lightweight** render mode, RadAsyncUpload does not support **Flash** and **Silverlight** Upload modules.
+>tip In **Lightweight** render mode, RadAsyncUpload does not support **Flash** and **Silverlight** Upload modules.
 >
 
 

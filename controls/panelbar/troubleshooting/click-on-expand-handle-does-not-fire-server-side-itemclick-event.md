@@ -76,5 +76,5 @@ function OnClientLoad(sender) {
 </telerik:RadPanelBar>
 ````
 
->note Since a postback is needed for this approach to work, the PanelBar is subscribed to the OnItemClick server-side event.
+>tip Since a postback is needed for this approach to work, the PanelBar is subscribed to the OnItemClick server-side event.
 >

@@ -18,7 +18,7 @@ To draw a Bezier chart series you add (1 + 3 x N) items to a series. So you can 
 
 To create a simple vertical Bezier Chart set the SeriesOrientation property to **Vertical**. Set the RadChart DefaultType property or ChartSeries.Type to **Bezier**. Create a series and add four chart items with X and Y values.
 
->note The second chart series labeled "Data Points" is included to emphasize the location of the end and control points in the Bezier series.
+>tip The second chart series labeled "Data Points" is included to emphasize the location of the end and control points in the Bezier series.
 
 ![Horizontal Bezier Chart](images/radchartelements19.png)
 

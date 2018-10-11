@@ -21,7 +21,7 @@ In order to upload files larger than 2GB, you need to change the following attri
 **maxRequestLength** 
 The **maxRequestLength** attribute specifies the limit for the input stream buffering threshold, in KB (kilobytes). You can use this limit to prevent denial of service attacks that are caused, for example, by users posting large files to the server. The default value is 4096 (4 MB).To enable large file uploads you need to change the value of this attribute to the largest allowed combined file size for your application. If someone selects and uploads files with a total size larger than **maxRequestLength**, this will result in a "Page not found" error. **RadAsyncUpload** does not provide a way to handle this error.
 
->note The **MaxFileSize** property of the **RadAsyncUpload** control specifies the maximum size for each of the uploaded files in bytes.
+>tip The **MaxFileSize** property of the **RadAsyncUpload** control specifies the maximum size for each of the uploaded files in bytes.
 >
 
 

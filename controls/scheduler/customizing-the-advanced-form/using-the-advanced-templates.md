@@ -208,7 +208,7 @@ The advanced form looks like this:
 
 6. Register **AdvancedForm**.**js** with the script manager for the page and handle RadScheduler's **OnClientFormCreated** event.
 
-	>note This is actually already done in the sample demo. This step is to serve just as a reminder.
+	>tip This is actually already done in the sample demo. This step is to serve just as a reminder.
 	
 	**ASP.NET**
 	     

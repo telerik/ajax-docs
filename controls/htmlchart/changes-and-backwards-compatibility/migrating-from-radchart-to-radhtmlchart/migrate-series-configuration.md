@@ -46,7 +46,7 @@ Series in **RadHtmlChart** are configured in the **PlotArea.Series** tag through
 </telerik:RadHtmlChart>
 ````
 
->note The orientation of series in **RadHtmlChart** cannot be changed (there is no **SeriesOrientation** property).	You can, however, find some series analogue as follows:
+>tip The orientation of series in **RadHtmlChart** cannot be changed (there is no **SeriesOrientation** property).	You can, however, find some series analogue as follows:
 >
 *  **Bar series** with the **SeriesOrientation="Horizontal"** property in **RadChart** are declared	as **BarSeries** in **RadHtmlChart** .
 *  **Bar series** with the **SeriesOrientation="Vertical"** property in **RadChart** are declared	as **ColumnSeries** in **RadHtmlChart** .

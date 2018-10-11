@@ -24,7 +24,7 @@ The RadDropDownList property **VirtualScrolling** works in exactly the same mann
 
 The following application scenario shows a sample configuration of RadDropDownList bound to RadClientDataSource.
 
->note When the virtual scrolling functionality is enabled RadDropDownList requests the items from the RadClientDataSource on portions.In case that this functionality is disabled the items are requested at once.
+>tip When the virtual scrolling functionality is enabled RadDropDownList requests the items from the RadClientDataSource on portions.In case that this functionality is disabled the items are requested at once.
 >
 
 

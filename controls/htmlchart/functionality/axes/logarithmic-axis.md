@@ -16,7 +16,7 @@ A logarithmic axis is a special numeric axis that transforms the actual values b
 
 In order to configure a logarithmic axis in **RadHtmlChart** you must set the **Type** property of the **Axis** to "**Log**". You can control the base of the logarithm via the **Step** property (default value is 10).
 
->warning Logarithmic scale can be used only for numerical data, so it cannot be used for a category or date axis. This means that the x-axis of anArea, Line, Bar and Column series cannot be put in logarithmic mode.
+>caution Logarithmic scale can be used only for numerical data, so it cannot be used for a category or date axis. This means that the x-axis of anArea, Line, Bar and Column series cannot be put in logarithmic mode.
 
 **Example 1** shows how to configure a logarithmic y-axis in **RadHtmlChart** and **Figure 1** displays the output.
 

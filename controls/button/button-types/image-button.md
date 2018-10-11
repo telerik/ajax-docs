@@ -59,7 +59,7 @@ This approach is preferred when you want to use an image sprite for the button (
 </telerik:RadButton>
 ````
 
->note It is always good to set the **Text** property, no matter if the control is used solely as image button (no text and icons shown), because this way the accessibility of the control is improved.
+>tip It is always good to set the **Text** property, no matter if the control is used solely as image button (no text and icons shown), because this way the accessibility of the control is improved.
 
 ## See Also
 

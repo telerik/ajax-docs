@@ -56,7 +56,7 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 >
 
 
->note The latest package available for download has all latest updates/HOTFIXES applied. There is no need to update it further.
+>tip The latest package available for download has all latest updates/HOTFIXES applied. There is no need to update it further.
 >
 
 

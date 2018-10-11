@@ -18,7 +18,7 @@ This article gives a brief overview how to configure the **RadCloudUpload** to u
 
 To accomplish this scenario the **RadCloudUpload** needs to be configured to use Custom Handler, where the default folder will be changed:
 
->note The following example is valid for a single and multiple files selections.
+>tip The following example is valid for a single and multiple files selections.
 >
 
 

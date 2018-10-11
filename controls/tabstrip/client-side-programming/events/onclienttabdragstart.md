@@ -16,7 +16,7 @@ position: 9
 
 The **OnClientTabDragStart** event is fired when a drag-to-reorder operation is about to start.
 
->note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
+>tip This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 

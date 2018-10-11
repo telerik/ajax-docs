@@ -43,7 +43,7 @@ Due to the fact that the editor relies heavily on the underlying browser rich-ed
 We are always working on improving the produced by RadEditor Xhtml content and in the latest version the ConvertToXhtml and ConvertFontToSpan client-side filters are activated by default.
 
 
->note While the Telerik RadEditor can compensate and automatically convert many of these non-valid tags, the responsibility for producing valid XHTML compliant content is partially on the side of the user. Therefore, we strongly suggest the use of the new integrated **XHTML Validator** for the timely discovery and correction of non-compliant content. 
+>tip While the Telerik RadEditor can compensate and automatically convert many of these non-valid tags, the responsibility for producing valid XHTML compliant content is partially on the side of the user. Therefore, we strongly suggest the use of the new integrated **XHTML Validator** for the timely discovery and correction of non-compliant content. 
 
 
 ## Using the Integrated XHTML Validator

@@ -134,6 +134,6 @@ End Function
 ````
 
 
->note Please note that with this approach you might need to take care of deleting the child itemsof the deleted item as well.
+>tip Please note that with this approach you might need to take care of deleting the child itemsof the deleted item as well.
 >
 

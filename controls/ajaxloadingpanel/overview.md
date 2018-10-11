@@ -48,7 +48,7 @@ The **InitialDelayTime** property specifies the delay in milliseconds, after whi
 
 Using **InitialDelayTime** , however does not solve the scenario, of when the AJAX request returns shortly after the initial delay time has passed. If a page has to show the loading panel and then almost immediately has to hide it again, the result is annoying flicker. For these cases the **RadAjaxLoadingPanel** also has a **MinDisplayTime** property. It specifies the minimum time, in milliseconds, that the loading panel will display on the screen. The loading indicator will not be hidden before this period has passed, even if the request returns. This will ensure a smoother interface for your page.
 
->note The **InitialDelayTime** and **MinDisplayTime** properties can be used only when the loading panel is managed by **RadAjaxManager** / **RadAjaxManagerProxy** or **RadAjaxPanel** control. They are not valid when the loading panel is shown or hidden manually. In such cases you can achieve the same functionality with the **setTimeout()** and **setInterval()** JavaScript methods.
+>tip The **InitialDelayTime** and **MinDisplayTime** properties can be used only when the loading panel is managed by **RadAjaxManager** / **RadAjaxManagerProxy** or **RadAjaxPanel** control. They are not valid when the loading panel is shown or hidden manually. In such cases you can achieve the same functionality with the **setTimeout()** and **setInterval()** JavaScript methods.
 >
 
 

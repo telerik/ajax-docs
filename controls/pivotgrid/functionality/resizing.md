@@ -12,7 +12,7 @@ position: 5
 
 If you want the pivotgrid to be resizable, set the **ClientSettings.Resizing.AllowColumnResize** property to **True**. When **AllowColumnResize** is **True**, users can resize columns by dragging the handle between column headers. The default value for this property is **false**.
 
->note When Resizing is enabled, the **ColumnHeaderTableLayout** property is set to **Fixed**.
+>tip When Resizing is enabled, the **ColumnHeaderTableLayout** property is set to **Fixed**.
 >
 
 ## Real-Time Resizing

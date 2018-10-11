@@ -35,7 +35,7 @@ With **Q3 2011 SP RadScriptManager** supports script grouping. Script groups and
 
 The request order of the groups is the same as the order in which they are defined. Scripts added in the Script collection of **RadScriptManager**, i.e. are not grouped, are requested before all groups and after the MX AJAX scripts. (The latter is the normal ordering without grouping.)
 
->note Script grouping works only when **RadScriptManager** combines the scripts it serves (i.e. its **EnableScriptCombine** property is set to **True** (the default value)).
+>tip Script grouping works only when **RadScriptManager** combines the scripts it serves (i.e. its **EnableScriptCombine** property is set to **True** (the default value)).
 >
 
 

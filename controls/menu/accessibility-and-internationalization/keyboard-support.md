@@ -26,7 +26,7 @@ The **KeyboardNavigationSettings** exposes two properties to configure the keybo
 
 Pressing **CommandKey** + **FocusKey** sets the focus on the **RadMenu**'s first item and enables keyboard navigation.
 
->note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
+>tip Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
 
 **Example:** Setting the **KeyboardNavigationSettings** for **RadMenu**

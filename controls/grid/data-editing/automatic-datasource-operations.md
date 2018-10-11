@@ -120,7 +120,7 @@ You may also examine the resources below:
 
 [Insert/Update/Delete with stored procedures and SqlDataSource control](http://www.telerik.com/community/code-library/submission/b311D-tgcgc.aspx)
 
->note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
+>tip Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
 >
 
 
@@ -213,7 +213,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 2. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
-	>note Note that in this case **RadGrid** automatically extracts the edited values and calls the update method of the **DataSource** control.
+	>tip Note that in this case **RadGrid** automatically extracts the edited values and calls the update method of the **DataSource** control.
 	>
 
 3. Implement the data-editing manually. In the code of the **WebUserControl**, write code to extract the values from all controls (such as text boxes and other input controls). You can use **DataAdapters** to save the changes to your database. You can also execute the **DataSourceView.Update** method as described in the ASP.NET documentation:

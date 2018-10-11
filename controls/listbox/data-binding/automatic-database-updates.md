@@ -12,7 +12,7 @@ position: 4
 
 **RadListBox** supports automatic database updates. This means that the control can call the respective **UpdateCommand** or **DeleteCommand** of the [DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}).
 
->note To allow automatic updates you need to set the **AllowAutomaticUpdates="True"** and **AutoPostBackOn[Operation]="True"** property of the listbox. The listbox must be bound to a [declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its **UpdateCommand** and/or **DeleteCommand** configured.
+>tip To allow automatic updates you need to set the **AllowAutomaticUpdates="True"** and **AutoPostBackOn[Operation]="True"** property of the listbox. The listbox must be bound to a [declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its **UpdateCommand** and/or **DeleteCommand** configured.
 >
 
 
@@ -137,11 +137,11 @@ Here is an example:
 </telerik:RadListBox> 
 ````
 
->note The names of the selected columns from the first **DataSource** have to be the same as the names of the **InsertParameters** of the second **DataSource** 
+>tip The names of the selected columns from the first **DataSource** have to be the same as the names of the **InsertParameters** of the second **DataSource** 
 >
 
 
->note If you want to use the field, bound to the **DataKeyField** of the first RadListBox in the **InsertCommands** of the second ListBox, select it twice in the **SelectCommand** and give them different names. Then use the first one for the **DataKeyField** of the first RadListBox, and the second one for the **InsertCommand** of the second RadListBox.
+>tip If you want to use the field, bound to the **DataKeyField** of the first RadListBox in the **InsertCommands** of the second ListBox, select it twice in the **SelectCommand** and give them different names. Then use the first one for the **DataKeyField** of the first RadListBox, and the second one for the **InsertCommand** of the second RadListBox.
 >Here is an example:
 >
 

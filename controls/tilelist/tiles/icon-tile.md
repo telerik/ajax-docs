@@ -15,7 +15,7 @@ position: 3
 
 A **RadIconTile** has an image centered in its content area that is called an icon. Its URL is set through the **ImageUrl** of the tile:
 
->note The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
+>tip The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

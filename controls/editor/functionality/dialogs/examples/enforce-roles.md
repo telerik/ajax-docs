@@ -79,7 +79,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
->note The ViewPaths, UploadPaths and DeletePaths properties should point to a folder that is: 
+>tip The ViewPaths, UploadPaths and DeletePaths properties should point to a folder that is: 
 * a subdirectory of your web application
 * a directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. **ViewPaths** = " **/Files** ";
 * a virtual directory of your web application that has a physical path pointing outside of your web application.

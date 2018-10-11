@@ -55,6 +55,6 @@ myNode.Target = "contentFrame"
 
 
 
->note For URL links outside your site you must provide full URL, i.e. NavigateUrl="[http://www.yahoo.com](http://www.yahoo.com/)"
+>tip For URL links outside your site you must provide full URL, i.e. NavigateUrl="[http://www.yahoo.com](http://www.yahoo.com/)"
 >
 

@@ -22,7 +22,7 @@ When [validating selected files in client-side code]({%slug upload/validation/cl
 
 While it is not possible to check the file size before upload begins, you can use the client-side **OnClientProgressUpdating** event to access information about the file size when it first becomes available.
 
->note You may need to set [maxRequestLength]({%slug upload/uploading-files/uploading-large-files%}) to a large value so that the user does not get "Page not found" errors, which cannot be handled, when selecting very large files
+>tip You may need to set [maxRequestLength]({%slug upload/uploading-files/uploading-large-files%}) to a large value so that the user does not get "Page not found" errors, which cannot be handled, when selecting very large files
 >
 
 

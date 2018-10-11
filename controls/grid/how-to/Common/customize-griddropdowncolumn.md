@@ -56,7 +56,7 @@ As you can see, a requirement for the proper functioning of GridDropDownColumn i
 
 Online demo which demonstrates the behavior of GridDropDownColumn is available [ here ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultVB.aspx).
 
->note The built-in GridDropDownColumn is designed to be used mainly with DataTables in order to easily map and generate their dropdown items values in conjunction with the DataField/ListValueField/DataSourceID/ListDataMember values of the column. For custom objects collections consider replacing the GridDropDownColumn with template column holding MS DropDownList in its edit template (generating/binding the items for the MS DropDownList inside the ItemDataBound handler of RadGrid).
+>tip The built-in GridDropDownColumn is designed to be used mainly with DataTables in order to easily map and generate their dropdown items values in conjunction with the DataField/ListValueField/DataSourceID/ListDataMember values of the column. For custom objects collections consider replacing the GridDropDownColumn with template column holding MS DropDownList in its edit template (generating/binding the items for the MS DropDownList inside the ItemDataBound handler of RadGrid).
 >
 
 
@@ -101,7 +101,7 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
 End Sub
 ````
 
->note This option will not be persisted/available after the update command. Inserting such item is suitable only for user-friendly message/presentation.
+>tip This option will not be persisted/available after the update command. Inserting such item is suitable only for user-friendly message/presentation.
 >
 
 
@@ -182,7 +182,7 @@ As of version **2010.Q2** of Telerik controls, GridDropDownColumn supports autom
 
 * **ItemsPerRequest** - Gets or sets the number of Items the RadComboBox editor will load per Item request (by default -1, meaning all items will be requested).
 
->note Load-on-demand is supported by the[ RadComboBox ](http://demos.telerik.com/aspnet-ajax/combobox/examples/overview/defaultcs.aspx)editor only. This requires DropDownControlType="RadComboBox" (default value). Additionally,load-on-demand works only with declarative data source controls set through the DataSourceID property of the column. Using DataSets and binding the column through its DataMember property is not compatible with automatic load-on-demand.
+>tip Load-on-demand is supported by the[ RadComboBox ](http://demos.telerik.com/aspnet-ajax/combobox/examples/overview/defaultcs.aspx)editor only. This requires DropDownControlType="RadComboBox" (default value). Additionally,load-on-demand works only with declarative data source controls set through the DataSourceID property of the column. Using DataSets and binding the column through its DataMember property is not compatible with automatic load-on-demand.
 >
 
 

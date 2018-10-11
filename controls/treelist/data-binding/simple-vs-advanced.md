@@ -28,7 +28,7 @@ The key to the advanced data binding of Telerik RadTreeList is handling correctl
 
 The advantages of using this event are that the developer does not need to write any code handling thelogic about when and how the data-binding should be processed. It is still the developer's responsibility toconstruct properly a data source object and assign it to the RadTreeList's DataSource property. In the code ofthe **NeedDataSource** handler you should prepare the data source (list of objects) forthe RadTreeList and assign it to the treelist's **DataSource** property. Also you shouldset the **DataKeyNames** and **ParentDataKeyNames** properties forthe treelist control.
 
->note  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simpledata-binding mode with advanced data-binding.** 
+>tip  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simpledata-binding mode with advanced data-binding.** 
 >
 
 

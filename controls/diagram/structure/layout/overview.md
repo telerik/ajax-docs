@@ -40,7 +40,7 @@ The criteria on which an algorithm is based vary but the common denominator is:
 
 The **LayoutSettings** property is the gateway to a variety of layout algorithms. You can choose which layout will be applied on the current diagram by configuring its **Type** and **Subtype** properties. The LayoutSettings properties can contain parameters specific to the layout as well as parameters customizing the global grid layout. Parameters which apply to other layout algorithms can be included but will be ignored if they are not applicable to the chosen layout type.
 
->note To use the layout in the **RadDiagram** control you should enable it in the **LayoutSettings** composite property.	Then use the **Type** and **Subtype** properties to define the desired layout. Once the layout is enabled, all **X** and **Y** coordinates explicitly set to the shapes will be ignored.
+>tip To use the layout in the **RadDiagram** control you should enable it in the **LayoutSettings** composite property.	Then use the **Type** and **Subtype** properties to define the desired layout. Once the layout is enabled, all **X** and **Y** coordinates explicitly set to the shapes will be ignored.
 
 ### Type
 

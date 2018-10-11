@@ -16,7 +16,7 @@ The **OnClientDockPositionChanged** client-side event occurs when the user has j
 
 The event handler receives a single parameter: the instance of the **RadDock** control that has just been moved. It's properties have already been updated to reflect its new position.
 
->note Unlike the server-side **OnDockPositionChanged** event, **OnClientDockPositionChanged** occurs even if the **RadDock** control is dropped in the same position that it started.
+>tip Unlike the server-side **OnDockPositionChanged** event, **OnClientDockPositionChanged** occurs even if the **RadDock** control is dropped in the same position that it started.
 >
 
 

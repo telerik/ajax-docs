@@ -125,7 +125,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
->note To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
+>tip To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
 >
 
 

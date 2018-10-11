@@ -34,7 +34,7 @@ To display the treelist in-place edit form, you need to set the **EditMode** pro
 
 ![RadTreeList InPlace EditMode](images/treelist_inplace-edit-mode.png)
 
->note Note that in-place edit mode is supported only for auto-generated edit forms.
+>tip Note that in-place edit mode is supported only for auto-generated edit forms.
 >
 
 
@@ -170,7 +170,7 @@ End Sub
 ````
 
 
->note If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the **EditFormSettings.PopUpSettings.ShowCaptionInEditForm** property of the treelist control to **false** .
+>tip If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the **EditFormSettings.PopUpSettings.ShowCaptionInEditForm** property of the treelist control to **false** .
 >
 
 

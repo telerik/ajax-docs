@@ -72,7 +72,7 @@ End Sub
 ````
 
 
->note NOTE: RadGrid's virtual scrolling / paging feature does not support rows of variable height. All rows in all pages should have the same height for the scroll position to be properly calculated.
+>tip NOTE: RadGrid's virtual scrolling / paging feature does not support rows of variable height. All rows in all pages should have the same height for the scroll position to be properly calculated.
 >
 
 

@@ -43,7 +43,7 @@ The most important properties of the **RadBinaryImage** control are presented in
 The RadBinaryImage Smart Tag provides convenient access to the most common used properties for the control.	You can display the Smart Tag by right clicking on the RadBinaryImage in the design window, and choosing the "Show Smart Tag"	option from its context menu.
 ![radbinaryimagetaskspng](images/radbinaryimagetaskspng.png)
 
->note When you want to display transparent .gif images using a RadBinaryImage, you should set its **ResizeMode** property to **None** . This is so because image transformations with such files are not supported.
+>tip When you want to display transparent .gif images using a RadBinaryImage, you should set its **ResizeMode** property to **None** . This is so because image transformations with such files are not supported.
 >
 
 
@@ -118,7 +118,7 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
 ````
 
 
->note You need to register the http handler of the **RadBinaryImage** control either using its **Smart**  **Tag** or manually in the **web.config** file to ensure that it will be served as expected when the page is rendered. Namely:
+>tip You need to register the http handler of the **RadBinaryImage** control either using its **Smart**  **Tag** or manually in the **web.config** file to ensure that it will be served as expected when the page is rendered. Namely:
 >
 
 
@@ -164,7 +164,7 @@ RadBinaryImage ARIA attributes are **lower case**. They are shown in the table b
 | ------ | ------ |
 | **RadBinaryImage** |Role: imgAria-labelAria-atomic|
 
->note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
 
 

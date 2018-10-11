@@ -31,7 +31,7 @@ End Sub
 ````
 
 
->note Every collapse of a node **causes a postback** if the **ExpandMode** is set to **ServerSide**.
+>tip Every collapse of a node **causes a postback** if the **ExpandMode** is set to **ServerSide**.
 >
 
 

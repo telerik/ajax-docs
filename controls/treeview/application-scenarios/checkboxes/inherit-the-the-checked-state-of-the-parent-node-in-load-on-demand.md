@@ -51,7 +51,7 @@ End Sub
 
 You need to first get the **Checked** state of the expanded Node in the **OnClientNodePopulating** event handler and store it for later usage.
 
->note This is required because after the Nodes are populated, by default, the **CheckState** (and Checked state) of their parent will be automatically updated (and its initial value will be lost) according to their Checked states.
+>tip This is required because after the Nodes are populated, by default, the **CheckState** (and Checked state) of their parent will be automatically updated (and its initial value will be lost) according to their Checked states.
 >
 
 

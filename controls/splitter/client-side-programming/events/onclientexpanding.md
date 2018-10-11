@@ -12,7 +12,7 @@ position: 10
 
 The **OnClientExpanding** client-side event handler is called when a pane is about to be expanded. The expansion can occur because of a user action such as clicking an expand button or sliding zone tab, on page load, or as the result of a a call to a client-side method.
 
->note The **OnClientExpanding** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeExpand event.
+>tip The **OnClientExpanding** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the deprecated OnClientBeforeExpand event.
 
 The following two parameters are passed to the event handler:
 

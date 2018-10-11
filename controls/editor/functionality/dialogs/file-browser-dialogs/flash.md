@@ -81,7 +81,7 @@ Note that the viewFlash, uploadFlash and deleteFlash variables are string arrays
 
 * a virtual directory of your web application that has a physical path pointing outside of your web application.
 
->note You should also grant full ASPNET account permissions over the Flash Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Flash Folder.
+>tip You should also grant full ASPNET account permissions over the Flash Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Flash Folder.
 
 
 ## See Also

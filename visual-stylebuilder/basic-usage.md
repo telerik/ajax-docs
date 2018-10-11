@@ -24,7 +24,7 @@ Once the option for creating a new custom skin is selected a new page appears th
 
 1. Choose the name the custom skin will have. It will be used in the CSS selectors and should be given to the control's Skin property to use it.
 
-	>note The skin name cannot be modified at a later stage once the skin has been created.
+	>tip The skin name cannot be modified at a later stage once the skin has been created.
 
 
 
@@ -32,14 +32,14 @@ Once the option for creating a new custom skin is selected a new page appears th
 
 1. A list with the controls in the suite. The checkboxes can be used to select the controls for which you wish to create a custom skin.
 
-	>note Once the list is chosen it cannot be modified at a later stage to include or exclude controls.
+	>tip Once the list is chosen it cannot be modified at a later stage to include or exclude controls.
 
 
 
 	>tip The "Select all controls" option can be used to choose all controls.
 
 
-	>note If a chosen control uses other Telerik controls internally they will be present in the list in the next steps even if they have not been checkedexplicitly at this point.
+	>tip If a chosen control uses other Telerik controls internally they will be present in the list in the next steps even if they have not been checkedexplicitly at this point.
 
 
 
@@ -59,13 +59,13 @@ The first thing that can be done easily is to change the overall color the skin 
 
 1. Tabs that can be used to toggle between the basic mode and [Fine-Tuning mode]({%slug introduction/visual-stylebuilder/fine-tuning%}).
 
-	>note Save the changes with the Save button before toggling the mode or they will be lost.
+	>tip Save the changes with the Save button before toggling the mode or they will be lost.
 
 
 
 1. Download the skin with the last saved modifications.
 
-	>note Use the Save button at the bottom of the page to store the changes before downloading the ready archive.
+	>tip Use the Save button at the bottom of the page to store the changes before downloading the ready archive.
 
 
 
@@ -73,7 +73,7 @@ The first thing that can be done easily is to change the overall color the skin 
 
 1. List with the controls selected in the previous step.
 
-	>note Save the changes with the Save button before clicking on another control or they will be lost.
+	>tip Save the changes with the Save button before clicking on another control or they will be lost.
 
 
 
@@ -91,7 +91,7 @@ The first thing that can be done easily is to change the overall color the skin 
 
 1. Saves the changes made in the browser on the server.
 
-	>note All changes must be saved before navigating to another tab (2, 3, 5, 7) or saving the skin (3),	otherwise they will be lost (or will not be present in the downloaded file).
+	>tip All changes must be saved before navigating to another tab (2, 3, 5, 7) or saving the skin (3),	otherwise they will be lost (or will not be present in the downloaded file).
 
 ![introduction-stylebuilder-base-color-shift](images/introduction-stylebuilder-base-color-shift.png)
 

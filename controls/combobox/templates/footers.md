@@ -16,7 +16,7 @@ position: 3
 
 The following example shows how to create a multi-column RadComboBox with a footer that labels the columns of each item.
 
->note Both, the **FooterTemplate** and **ItemTemplate** , lay out items using a table that fixes column width,so that the footer and items line up properly.
+>tip Both, the **FooterTemplate** and **ItemTemplate** , lay out items using a table that fixes column width,so that the footer and items line up properly.
 >
 
 

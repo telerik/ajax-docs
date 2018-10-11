@@ -35,7 +35,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 		var kendoMap = $telerik.$("#<%=RadMap1.ClientID %>").data("kendoMap");//the jQuery selector must get the RadMap wrapping div element
 
->note  **RadMap** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Map)	during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the map widget is **Sys.Application.Load** .
+>tip  **RadMap** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Map)	during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the map widget is **Sys.Application.Load** .
 
 ## Client-side Methods
 

@@ -26,7 +26,7 @@ The easiest way to get the controls to your development machine is to use the [T
 
 ![Download automated installer Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.msi](images/download-msi.png "Download automated installer Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.msi")
 
->note If you are not a customer, you can [download a free, fully functional trial](https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax) and the same options will apply to you as well.
+>tip If you are not a customer, you can [download a free, fully functional trial](https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax) and the same options will apply to you as well.
 
 >tip The following article can help you choose the installation type that is most suitable for your needs and preferences: [Which File Do I Need to Install]({%slug installation/which-file-do-i-need-to-install%}).
 

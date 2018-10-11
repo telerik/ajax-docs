@@ -49,7 +49,7 @@ The possible values are:
 
 * **HierarchyLoadMode.Conditional** is mix of **HierarchyLoadMode.ServerOnDemand and HierarchyLoadMode.ClientBind**, with the difference that when an item i expanded once and postback fires for the initial expand, next time the same item will be expanded on the client .This behavior is also persisted across postback to the server – so if you have previously expanded an item from then on it will only be expanded / collapsed on the client regardless of how many postbacks you perform. The behavior is the same if you have previously loaded hierarchy with expanded items (e.g. setting Expanded=”true” in the PreRender event) – these expanded items will also be collapsed / expanded on the client.
 
->note There are cases in which the described conditional behavior is not preserved, all items are returned to their default state and a postback will be required to expand / collapse them. Such cases include rebinding and/or recreating the structure of the grid with changing the order / position of the items on the server. Some examples might be: **manual rebinding, grouping, sorting, filtering, item drag-drop, etc** .
+>tip There are cases in which the described conditional behavior is not preserved, all items are returned to their default state and a postback will be required to expand / collapse them. Such cases include rebinding and/or recreating the structure of the grid with changing the order / position of the items on the server. Some examples might be: **manual rebinding, grouping, sorting, filtering, item drag-drop, etc** .
 >
 
 

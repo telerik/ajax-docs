@@ -43,7 +43,7 @@ The following example shows a context menu that is attached to all **<img>** ele
 </telerik:RadContextMenu>
 ````
 
->note For the targets to work in the Opera Browser, **RadContextMenu** needs right-clicks allowed. This is done by using *"Tools -> Preferences -> Advanced -> JavaScript options -> Allow script to receive right clicks"* . In addition, because of browser limitations, on right-click both **RadContextMenu** and the standard browser context menu are displayed. A workaround to the latter problem is using the ESC key to hide the default browser context menu.
+>tip For the targets to work in the Opera Browser, **RadContextMenu** needs right-clicks allowed. This is done by using *"Tools -> Preferences -> Advanced -> JavaScript options -> Allow script to receive right clicks"* . In addition, because of browser limitations, on right-click both **RadContextMenu** and the standard browser context menu are displayed. A workaround to the latter problem is using the ESC key to hide the default browser context menu.
 >
 
 

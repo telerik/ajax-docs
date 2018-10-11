@@ -87,7 +87,7 @@ The following table lists the changes to the **RadToolBarButton** class:
 |Hidden|-|
 |ParentToolbar|ToolBar|
 
->note The RadToolbarButton class for ASP.NET now has the **PostBack** property which can be set in code-behind to specify which buttons will postback and which will not.
+>tip The RadToolbarButton class for ASP.NET now has the **PostBack** property which can be set in code-behind to specify which buttons will postback and which will not.
 >
 
 

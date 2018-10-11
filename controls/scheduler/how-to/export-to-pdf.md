@@ -47,7 +47,7 @@ To export the scheduler content to PDF format simply use the**ExportToPdf()**ser
 ````
 
 
->note Current limitation: RadScheduler exports without appointments if the default browser for the web server is IE6 or RadScheduler is populated with a Web Service.
+>tip Current limitation: RadScheduler exports without appointments if the default browser for the web server is IE6 or RadScheduler is populated with a Web Service.
 >
 
 

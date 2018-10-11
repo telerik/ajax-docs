@@ -17,7 +17,7 @@ The **RadTabStrip Item Builder** lets you populate your tab strip with a hierarc
 
 * Right-click on the **RadTabStrip** component and select **Build RadTabStrip** from its context menu.
 
->note The **Build RadTabStrip** option is not available in the Smart Tag or context menu if the **RadTabStrip** control is bound to a data source.
+>tip The **Build RadTabStrip** option is not available in the Smart Tag or context menu if the **RadTabStrip** control is bound to a data source.
 >
 
 ## RadTabStrip Item Builder

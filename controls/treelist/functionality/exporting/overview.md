@@ -34,7 +34,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 **OpenInNewWindow** - by default, the exported file will be handled by the program associated with theappropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, youcan enable this property.
 
->note Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
+>tip Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
@@ -42,7 +42,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 *HttpUtility.UrlEncode("unicode string", System.Text.Encoding.UTF8);*
 
->note  *Internet Explorer* ignores the *FileName* property when *OpenInNewWindow* is set to *false* .
+>tip  *Internet Explorer* ignores the *FileName* property when *OpenInNewWindow* is set to *false* .
 >
 
 
@@ -82,7 +82,7 @@ If you receive "Invalid ViewState" or similar exception in web farm scenario, yo
 You might receive the following error message when using the export feature over *SSL* and *Internet Explorer*:
 
 
->note *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later.
+>tip *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later.
 >
 
 In order to prevent this error add the following lines just before the exporting:

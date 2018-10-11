@@ -16,7 +16,7 @@ In bar charts with multiple series BarOverLapPercent governs to what degree the 
 
 BarWidthPercent controls how much space each bar takes up so that a BarWidthPercent of 100 will have all the bars in the chart taking exactly all the available width.
 
->note The maximum bar width is calculated as follows: *bar width* = *axislength* / *bars*  *count* .
+>tip The maximum bar width is calculated as follows: *bar width* = *axislength* / *bars*  *count* .
 
 See the examples below to see how these two properties work together.
 

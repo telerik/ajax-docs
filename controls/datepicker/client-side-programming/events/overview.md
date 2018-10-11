@@ -22,7 +22,7 @@ The **RadDatePicker** control supports a number of client-side events that let y
 |[OnPopupClosing]({%slug datepicker/client-side-programming/events/onpopupclosing%})| **RadDatePicker** |Occurs immediately before the a popup is closed.|
 
 
->note The embedded **RadDateInput** object that is used by **RadDatePicker** also has number of client-side events. See the **RadInput** documentation for details.
+>tip The embedded **RadDateInput** object that is used by **RadDatePicker** also has number of client-side events. See the **RadInput** documentation for details.
 >
 
 

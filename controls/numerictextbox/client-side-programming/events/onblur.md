@@ -13,7 +13,7 @@ position: 1
 
 The **OnBlur** client-side event handler is called when the input control loses focus.
 
->note The **OnBlur** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
+>tip The **OnBlur** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
 >
 
 

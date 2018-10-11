@@ -105,7 +105,7 @@ When we run the page, the data bound controls will call the above method and aut
 
 For example if SelectMethod returns data from Linq DataContext and if the paging of the bound control is turned on, the executed database query will return only items for the current page. If the bound control is sorted by a column the sorting also will be executed on the database and the sorted result will be returned. That is because the Linq will optimize the query to performthe sort and page operation as part of the database query.
 
->note When paging and sorting are applied the entire data source is returned from the database, because the RadTreeList control is a hierarchical control and the data source’s items are not shownin the order that they are ordered into the data source.
+>tip When paging and sorting are applied the entire data source is returned from the database, because the RadTreeList control is a hierarchical control and the data source’s items are not shownin the order that they are ordered into the data source.
 >When the Selectmethod are parameterized the startRowIndex and maximumRows have to be Nullablez,because the RadTreeList always get entire data source and does not pass startRowIndex and maximumRows:
 >
 
@@ -134,7 +134,7 @@ In order to filter the data source of the data bound control and pass the filter
 
 The code snippet above will get the name parameter from the QueryString and integer value of the selected item of the RadComboBoxwith ID equlas to “RadComboBoxCategories”.
 
->note When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
+>tip When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
 >Need to add System.Web.ModelBinding namespace on the page
 >
 
@@ -249,7 +249,7 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ![treelist-model-binding-and-strongly-typed-data-controls 1](images/treelist-model-binding-and-strongly-typed-data-controls1.png)
 
->note You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
+>tip You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
 >
 
 

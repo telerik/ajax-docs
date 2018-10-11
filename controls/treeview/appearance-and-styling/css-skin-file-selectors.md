@@ -32,7 +32,7 @@ The following table lists significant CSS selectors and descriptions for **RadTr
 |rtDropAbove_Telerik, rtDropBelow_Telerik|Applied to line appearing when dropping between Nodes.|
 |rtDragClue|Applied to the container of the Dragging Clue (the element holding dragged nodes).|
 
->note There are several styles that end in "_rtl" that are used to style specific portions of the control when right-to-left support is turned on. These "_rtl" styles are variants of their left-to-right default counterparts and are appended only to the main CSS selectors: for example, ".RadTreeView_Telerik .rtLines .rtFirst".
+>tip There are several styles that end in "_rtl" that are used to style specific portions of the control when right-to-left support is turned on. These "_rtl" styles are variants of their left-to-right default counterparts and are appended only to the main CSS selectors: for example, ".RadTreeView_Telerik .rtLines .rtFirst".
 >
 
 

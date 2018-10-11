@@ -41,7 +41,7 @@ To make the control even easier to use **Telerik** provides a large set of built
 * rbFB
 * rbTwitter
 
->note The **CssClass** is composed in the following way: [**r**]ad[**b**]utton[**IconName**]. For example **rbAdd**.
+>tip The **CssClass** is composed in the following way: [**r**]ad[**b**]utton[**IconName**]. For example **rbAdd**.
 
 ### Configure RadButton's Embedded Icons in Classic Render Mode
 

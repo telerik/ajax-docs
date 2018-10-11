@@ -16,7 +16,7 @@ Telerik RadEditor for SharePoint 2010 can be easily used as a cross-browser rich
 
 ## Enabling RadEditor for WCM Scenarios
 
->note  **NOTE:** Once the RadEditor for SharePoint 2010 features are activated, they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article - [Change the RadEditor features scope]({%slug sharepoint/2010/radeditor-web-part/configuration/change-the-radeditor-features-scope%})
+>tip  **NOTE:** Once the RadEditor for SharePoint 2010 features are activated, they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article - [Change the RadEditor features scope]({%slug sharepoint/2010/radeditor-web-part/configuration/change-the-radeditor-features-scope%})
 
 
 

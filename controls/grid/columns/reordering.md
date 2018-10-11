@@ -30,7 +30,7 @@ There are two possible modes for column reordering: client and server-side. If y
 
 * When columns are reordered on the server, the grid uses the "swap" method multiple times to re-order columns.
 
->note The **GridExpandColumn** and **GridRowIndicatorColumn** are always in front of the data columns, so column indexes on the server start at index **2**.
+>tip The **GridExpandColumn** and **GridRowIndicatorColumn** are always in front of the data columns, so column indexes on the server start at index **2**.
 
 >important When enabling column reordering, the table view's **EnableColumnViewState** property must be set to **True** (the default value).
 
@@ -173,7 +173,7 @@ End Sub
     runat="server"></asp:SqlDataSource>
 ````
 
->note When **ColumnsReorderMethod** is "**Reorder**", the event will fire for each two columns that are swapped while reordering, so it will fire multiple times and discerning the exact user action is difficult.
+>tip When **ColumnsReorderMethod** is "**Reorder**", the event will fire for each two columns that are swapped while reordering, so it will fire multiple times and discerning the exact user action is difficult.
 
 ## See Also
 

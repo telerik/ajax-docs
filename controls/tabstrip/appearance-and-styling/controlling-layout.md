@@ -60,7 +60,7 @@ In a tab strip with a vertical orientation, the separator appears on its own row
 
 ![Vertical separator tabs](images/tabstrip_separatortabsv.png)
 
->note In a vertical grid, if you set the text of a separator to an empty string, the tab strip looks the same as if the previous tab had **IsBreak** set to **True** .
+>tip In a vertical grid, if you set the text of a separator to an empty string, the tab strip looks the same as if the previous tab had **IsBreak** set to **True** .
 >
 
 

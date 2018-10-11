@@ -23,7 +23,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ![Async Upload Localization](images/asyncupload_rau_localization.png)
 
->note This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
+>tip This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
 >
 
 >caption  
@@ -47,7 +47,7 @@ To create a global resource file to localize the upload follow these steps:
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by **RadAsyncUpload** follow a strict naming convention: **RadAsyncUpload.\<Culture Identifier\>.resx**
 
->note The **Culture Identifier** consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
+>tip The **Culture Identifier** consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >
 For example* RadAsyncUpload.fr-CA.resx*. Both files should be present in the App_GlobalResources folder:
 

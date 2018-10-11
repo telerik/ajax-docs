@@ -28,7 +28,7 @@ To achieve the expected behavior, you need set the following attributes on the e
 
 The following example shows how to configure **RadSplitter** to fill the entire page and to achieve consistent behavior by setting the height of all of its parent elements.
 
->note The example is **cross browser compatible.** 
+>tip The example is **cross browser compatible.** 
 
 ````ASP.NET
 <%@ Page language="c#" AutoEventWireup="false" %>
