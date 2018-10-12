@@ -85,7 +85,7 @@ The **GridExpandColumn** is an automatically generated and automatically placed 
 
 The expand column holds the expand and collapse buttons that show or hide detail tables. It is always placed in front of all other grid content columns and cannot be moved.
 
->tip You can manually add additional instances of this type of column.
+>note You can manually add additional instances of this type of column.
 >
 
 

@@ -26,7 +26,7 @@ The following tutorial demonstrates using RadEditor in a web page and adding con
 
 1. From the Smart Tag menu, select the __Enable spell check for RadEditor__ link.
 
->tip To properly enable the spell checking examine the __Using Localization and Enabling the Spell Checking__ section.
+>note To properly enable the spell checking examine the __Using Localization and Enabling the Spell Checking__ section.
 
 >caption Figure 2: Shows all available RadEditor Smart Tag.
 

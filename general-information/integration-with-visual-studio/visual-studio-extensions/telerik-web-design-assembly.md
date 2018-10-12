@@ -15,7 +15,7 @@ position: 10
 
 The Visual Studio designer classes of the **Telerik® UI for ASP.NET AJAX** are located in the **Telerik.Web.Design** assembly.
 
->tip The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite. Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
+>note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite. Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
 >
 >As of R1 2018, this assembly is no longer added to the GAC by the installer.
 
@@ -30,7 +30,7 @@ Here is a list of the circumstances when this is likely to happen:
 
 * Using **Visual Studio 2008** without **Service Pack 1** applied - The pre-SP1 Visual Studio 2008 IDE has a bug with the proper assembly loading. The **Telerik.Web.Design** assembly exists in the GAC and the IDE loads it, but it cannot resolve the dependence between the **Telerik.Web.Design** and **Telerik.Web.UI** assemblies properly. To fix the design time error in this case, you could either [apply the Visual Studio SP1 upgrade](http://www.microsoft.com/downloads/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&displaylang=en), or copy the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder. This way the Visual Studio IDE would be able to properly resolve the reference between the two assemblies and load the designers.
 
->tip Using the second approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE.
+>note Using the second approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE.
 >This instance of the error usually happens when upgrading Telerik® UI for ASP.NET AJAX.
 >
 
@@ -42,7 +42,7 @@ In case **Telerik.Web.UI.Design.dll** is not found in the selected distribution 
 
 ![Project Wizard - Design Assembly Not Found](images/introduction-vsx_projectwizard_nodesignassemblyfound.png)
 
->tip Adding the design assembly to the GAC requires **elevated privileges** . In case you have **User Account Control** enabled on your machine you will have to grant permissions to the **GAC Utility** 
+>note Adding the design assembly to the GAC requires **elevated privileges** . In case you have **User Account Control** enabled on your machine you will have to grant permissions to the **GAC Utility** 
 >
 
 ![GacUtil - UAC permissions Dialog in Windows 7](images/introduction-vsx_gacutilunderuac.png)

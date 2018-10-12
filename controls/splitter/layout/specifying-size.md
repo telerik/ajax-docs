@@ -24,7 +24,7 @@ When configuring the size of splitters and the panes that they contain, you can 
 	* When you use free size on a splitter control, the splitter size is calculated automatically from the browser (or container) when the control is rendered.
 	* When you use free size on a pane control, the splitter calculates the pane size based on what space is remaining after allocating space to absolutely-sized or percent-sized panes. If all panes are free-sized, then they all start initially the same size.
 
->tip When using **Percent Size** on a splitter's **Height** property, the **HeightOffset** property specifies a number of pixels that are subtracted from the splitter height.
+>note When using **Percent Size** on a splitter's **Height** property, the **HeightOffset** property specifies a number of pixels that are subtracted from the splitter height.
 
 
 You can also set the width of the split bars by setting the **SplitBarsSize** property. This property can only be set as an absolute values.

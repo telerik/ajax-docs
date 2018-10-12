@@ -20,7 +20,7 @@ The **RadSpreadsheet**'s cell-formatting options dialog can be customized. The e
 </telerik:RadSpreadsheet>
 ```` 
 
->tip A sample code library project demostrating this approach can be downloaded [here](http://www.telerik.com/support/code-library/custom-format-template). 
+>note A sample code library project demostrating this approach can be downloaded [here](http://www.telerik.com/support/code-library/custom-format-template). 
 >
 
 The following screenshot shows the result of modifying the user control and including two additional formatting options ("100.00 euro" and "€100") in the Currency tab.

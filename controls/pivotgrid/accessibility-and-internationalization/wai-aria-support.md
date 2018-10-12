@@ -27,7 +27,7 @@ RadPivotGrid ARIA attributes are **lower case**. They are shown in the table bel
 | ------ | ------ |
 | **RadPivotGrid** |Aria-readonlyAria-atomicAria-labelRole:gridRole:presentation – on different pivot zonesRole:button – on pager and filter buttonsaria-grabbedaria-dropeffectrole:scrollbar – on the div scrollbarsrole:rowrole:gridcellrole:rowheaderrole:columnheaderaria-expandedaria-sortEnabled ARIA for inner controls – where it is supported|
 
->tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
 
 

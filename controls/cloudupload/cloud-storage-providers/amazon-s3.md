@@ -45,7 +45,7 @@ Depending on the Telerik.Web.UI.dll version you use, you need to use a different
 
 ![cloudupload-amazon-nuget](images/cloudupload-amazon-nuget.png)
 
->tip The package management tool will add the necessary **AWSSDK.dll** assembly/assemblies to the solution.
+>note The package management tool will add the necessary **AWSSDK.dll** assembly/assemblies to the solution.
 >When a Web Application type of project is used, the **Copy Local** property in the `Reference` `Properties` dialog box, available from the `References` pane of the Project Designer, must be set to **True** .
 >
 

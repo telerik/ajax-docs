@@ -26,7 +26,7 @@ Below is a set of the Telerik RadTreeList skins:
 
 
 
->tip With Q2 2011 release of UI for ASP.NET AJAX RadTreeList has four new skins (Transparent + Office2010 variations). To use them you should add the Telerik.Web.UI.Skins assembly to your Bin folder. For more information refer to [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx).
+>note With Q2 2011 release of UI for ASP.NET AJAX RadTreeList has four new skins (Transparent + Office2010 variations). To use them you should add the Telerik.Web.UI.Skins assembly to your Bin folder. For more information refer to [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx).
 >Since Q3 2011 all the built-in skins (except the Default one) have been relocated to the Telerik.Web.UI.Skins.dll assembly.Also new Metro skin has been added for RadTreeList.
 >Since Q1 2013 three new skins have been added for RadTreeList(BlackMetroTouch, Glow and Silk).
 >

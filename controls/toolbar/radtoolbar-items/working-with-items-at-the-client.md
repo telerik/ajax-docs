@@ -14,7 +14,7 @@ position: 3
 
 **RadToolBar** provides a client-side API for adding, deleting and updating items.
 
->tip Don't forget to wrap the changes in the **toolBar.trackChanges()** ; and **toolBar.commitChanges();** if you want to preserve these changes at the server-side.
+>note Don't forget to wrap the changes in the **toolBar.trackChanges()** ; and **toolBar.commitChanges();** if you want to preserve these changes at the server-side.
 >
 
 

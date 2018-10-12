@@ -42,6 +42,6 @@ The following table describes the resolutions and the corresponding viewport bre
 |min-width: 1025px / max-width: 1280px|large resolutions (or lg)|laptop|
 |min-width: 1281px|extra large resolutions (or xl)|desktop|
 
->tip The described devices types for the corresponding resolutions and screen size are approximate.
+>note The described devices types for the corresponding resolutions and screen size are approximate.
 >
 

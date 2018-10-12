@@ -60,7 +60,7 @@ To change the basic dimensions of RadComboBox:
 
 To cause the drop-down list to expand on the page somewhere other than the default (immediately below the input area), set the **OffsetX** and **OffsetY** properties. **OffsetX** and **OffsetY** indicate the horizontal and vertical offset of the drop-down list, in pixels, relative to the input area.
 
->tip The drop-down list automatically expands to the opposite direction when the screen boundaries would otherwise be crossed.
+>note The drop-down list automatically expands to the opposite direction when the screen boundaries would otherwise be crossed.
 >
 
 

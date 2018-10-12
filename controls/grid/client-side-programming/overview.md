@@ -57,11 +57,11 @@ Telerik **RadGrid** provides the following objects on the client-side:
 | **[.get_virtualItemCount()]({%slug grid/client-side-programming/gridtableview-object/properties/get_virtualitemcount()%})** |Gets the virtual item count value for the respective **GridTableView** object. Applies to client-side bound grid only.|
 | **[.set_virtualItemCount()]({%slug grid/client-side-programming/gridtableview-object/properties/set_virtualitemcount()%})** |Sets the virtual item count value for the respective **GridTableView** object. Applies to client-side bound grid only.|
 
->tip For performance reasons, the <GridTableViewInstance>.get_dataItems() collection will be available only when you enable specific client features/events for the rows in the grid (such as **AllowRowResize** , **AllowRowSelect** , **OnRowClick** , etc.).
+>note For performance reasons, the <GridTableViewInstance>.get_dataItems() collection will be available only when you enable specific client features/events for the rows in the grid (such as **AllowRowResize** , **AllowRowSelect** , **OnRowClick** , etc.).
 >
 
 
->tip If you want to reference the client object of a grid row inside a client event handler of **RadGrid** , make sure that you attach the **RowCreated** event of the control specifying an empty event handler,
+>note If you want to reference the client object of a grid row inside a client event handler of **RadGrid** , make sure that you attach the **RowCreated** event of the control specifying an empty event handler,
 >otherwise *eventArgs.get_gridDataItem()* will return null. This is due to performance reasons (avoiding the client serialization of grid items by default).
 >An alternative method to reference a grid row client-side is through the [get_dataItems()]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%}) collection.
 >

@@ -94,13 +94,13 @@ On client-side, Load on demand is triggered in the following occasions:
 
 1. Scroll via moving the scrollbar - this fires LOD on mouse up, i.e. the items are going to be requested only after the user has finished scrolling.
 
->tip RadListBox will load only the items that fit in the visible area.
+>note RadListBox will load only the items that fit in the visible area.
 >
 
 
 Accessing item using the API :
 
->tip You need to use the **GetItemAsync** method instead of **GetItem** 
+>note You need to use the **GetItemAsync** method instead of **GetItem** 
 >
 
 
@@ -121,7 +121,7 @@ If the sought item is loaded, RadListBox will immediately pass it to the callbac
 >
 
 
->tip Load On Demand limitations:
+>note Load On Demand limitations:
 >
 1.Any server-side operations (Transfer,Reorder, SelectedIndexChanged) are not supported on the server.
 1.Client-side Reordering is not supported in LOD scenarios.

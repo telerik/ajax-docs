@@ -14,7 +14,7 @@ position: 3
 
 **OnClientPasswordStrengthCalculating** is fired when using the password strength check feature and changing the text, before the indicator is updated.
 
->tip The **OnClientPasswordStrengthCalculating** event is supported by **RadTextBox** with TextMode set to Password and for TextBoxSettings created with RadInputManager.
+>note The **OnClientPasswordStrengthCalculating** event is supported by **RadTextBox** with TextMode set to Password and for TextBoxSettings created with RadInputManager.
 >
 
 

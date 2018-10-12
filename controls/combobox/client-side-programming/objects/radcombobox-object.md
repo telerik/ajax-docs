@@ -16,7 +16,7 @@ position: 0
 
 This article explains about the methods of the **RadComboBox** client-side object. The **RadComboBox** client API allows for complete control over the client object, giving the developer the opportunity to set the behavior of the control depending on the scenario.
 
->tip Telerik has removed the **tlrkComboBoxes** array from the **RadComboBox** object. You should use **Telerik.Web.UI.RadComboBox.ComboBoxes** instead - which you can use to obtain an array containing all the client-side **RadComboBox** instances.
+>note Telerik has removed the **tlrkComboBoxes** array from the **RadComboBox** object. You should use **Telerik.Web.UI.RadComboBox.ComboBoxes** instead - which you can use to obtain an array containing all the client-side **RadComboBox** instances.
 >
 
 

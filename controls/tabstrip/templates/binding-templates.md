@@ -53,7 +53,7 @@ This is hardly useful! To override the properties of the check box in the templa
 
 In the DataBinder.Eval statement, **Container** is the **RadTab** and **"Text"** or **"Selected"** identifies the **Text** or **Selected** property of that item.
 
->tip In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the tabs are statically bound. If the tab strip was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the tabs are statically bound. If the tab strip was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 

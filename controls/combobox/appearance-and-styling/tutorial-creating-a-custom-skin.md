@@ -24,7 +24,7 @@ The Default skin uses sprite images to style the appearance of the RadComboBox. 
 
 3. Copy the default RadComboBox skin files from the installation directory to the "MySkin_Default" directory; copy both the \ComboBox directory that contains the images for this skin and the ComboBox.Default.css file that defines the skin styles.
 
-	>tip The file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
+	>note The file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
 	>
 
 4. The solution should now look something like the screenshot below:
@@ -37,7 +37,7 @@ The Default skin uses sprite images to style the appearance of the RadComboBox. 
 	
 6. Modify the images from the ComboBox directory or create your own, name them 'mySprite.png' and 'mySpriteIE6.png' and add them to your project to the \MySkin_Default\ComboBox directory. Changes to the dimensions of the graphic will likely necessitate changes to the dimensions of other items in the CSS file.
 
-	>tip To keep the tutorial simple, the changes made to the sprite images are minor.
+	>note To keep the tutorial simple, the changes made to the sprite images are minor.
 	>   
 	
 	![ComboBox CustomSkin006](images/combobox_customskin006.png)

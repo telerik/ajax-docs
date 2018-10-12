@@ -121,7 +121,7 @@ End Sub
 ````
 
 
->tip Note that when using the **ContentContainer** property, you should always execute the code, even on a postback. This is because controls you add this way are not persisted in the ViewState.
+>note Note that when using the **ContentContainer** property, you should always execute the code, even on a postback. This is because controls you add this way are not persisted in the ViewState.
 >
 
 

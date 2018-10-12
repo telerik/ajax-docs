@@ -88,7 +88,7 @@ However, once the container control is added to the UpdatedControls collection, 
 
 
 
->tip Note that you need to add an AJAX setting where the container control updates itself.
+>note Note that you need to add an AJAX setting where the container control updates itself.
 >
 
 

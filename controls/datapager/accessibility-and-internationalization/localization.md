@@ -23,7 +23,7 @@ To localize the RadDataPager control you can use global resource files or direct
 ````
 
 
->tip RadDataPager's default **Culture** is taken from the page's **CurrentUICulture** .
+>note RadDataPager's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
@@ -39,7 +39,7 @@ To create a global resource file to localize the pager:
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadDataPager follow a strict naming convention: **RadDataPager.Main.<Culture Identifier>.resx**
 
->tip The Culture Identifier consists of a language code followed by a dash and the country code. Example: *"en-US"*, *"fr-CA"*, *"bg-BG"* and so on.
+>note The Culture Identifier consists of a language code followed by a dash and the country code. Example: *"en-US"*, *"fr-CA"*, *"bg-BG"* and so on.
 >
 For example **RadDataPager.Main.bg-BG.resx**. Both files should be present in the **App_GlobalResources** folder:
 ![RadDataPager GlobalResources](images/datapager_GlobalResources.png)

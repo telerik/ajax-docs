@@ -54,7 +54,7 @@ Protected Overrides Function Process(file As UploadedFile, context As HttpContex
 End Function	
 ````
 
->tip This functionality can be achieved only in IFrame and FileApi Upload Modules so if you want to use it in IE7,8,9 you should set the DisablePlugins property to true.
+>note This functionality can be achieved only in IFrame and FileApi Upload Modules so if you want to use it in IE7,8,9 you should set the DisablePlugins property to true.
 >
 
 # See Also

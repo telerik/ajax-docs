@@ -41,7 +41,7 @@ Protected Sub RadGantt1_AssignmentUpdate(sender As Object, e As Telerik.Web.UI.G
 End Sub
 ````
 
->tip Subscribing to only one of the following events: AssignmentInsert, AssignmentUpdate, AssignmentDelete, will cause a postback to be triggered for the other two events, instead of a callback.
+>note Subscribing to only one of the following events: AssignmentInsert, AssignmentUpdate, AssignmentDelete, will cause a postback to be triggered for the other two events, instead of a callback.
 >
 
 # See Also

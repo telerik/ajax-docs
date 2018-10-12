@@ -22,7 +22,7 @@ Modeled after a [grid ]({%slug pagelayout/creating-responsive-design/grid-based-
 
 * [Columns]({%slug pagelayout/structure/columns-%}) - The column is the structural unit of design. If you are not familiar with grid systems, you can view them as a sort of table cell (but not quite).
 
->tip The span attribute sets the size (or width) of a columns, measured grid units. The grid unit itself is an abstract unit and represents fraction of the total container width. In the case of this control, one grid unit equals 1/12 of the total width. **Therefore the sum of the values for all spans in a single row can be up to 12 units** .
+>note The span attribute sets the size (or width) of a columns, measured grid units. The grid unit itself is an abstract unit and represents fraction of the total container width. In the case of this control, one grid unit equals 1/12 of the total width. **Therefore the sum of the values for all spans in a single row can be up to 12 units** .
 >
 In addition to the standard properties, a column has few specific properties that are covered in the [Columns ]({%slug pagelayout/structure/columns-%}) help article.
 

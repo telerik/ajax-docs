@@ -16,7 +16,7 @@ By default, the children of a menu item are displayed when the user hovers the m
 
 You can use the **ClickToOpen** property to specify that menu items do not expand when the mouse hovers over them until the user clicks the menu with the mouse. When **ClickToOpen** is **True**, the menu does not expand until the user clicks on a root item, at which point the root item expands. Once clicked, the menu expands and collapses as normal, until the user clicks again (either on a menu item or outside the menu). The **ExpandDelay** property controls the time, in milliseconds, after the user first clicks the menu until the menu item expands. The **CollapseDelay** property controls the time, in milliseconds, after the user clicks a second time until the menu items all collapse.
 
->tip You can further customize the behavior of the menu when it expands and collapses using [animations]({%slug menu/functionality/animations%}).
+>note You can further customize the behavior of the menu when it expands and collapses using [animations]({%slug menu/functionality/animations%}).
 >
 
 
@@ -26,7 +26,7 @@ As of **Q3 2009**, **RadMenu** supports multi-column rendering of child items. T
 
 * The **RepeatColumns** property specifies the number of columns.
 
->tip  **Note:** Scrolling is disabled if multi-column rendering is in effect.
+>note  **Note:** Scrolling is disabled if multi-column rendering is in effect.
 >
 
 

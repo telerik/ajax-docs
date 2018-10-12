@@ -16,7 +16,7 @@ position: 1
 
 As of Q3 2013 SP1 we introduced the property StyleSheets of the RadScheduler **ExportSettings**. Its main purpose is to set custom styles by excluding the skin styles (by default the skin styles are applied to the exported RadScheduler).
 
->tip Please note that this property allows you to use a relative path and absolute path to the style sheet file. You are absolutely free to combine relative and absolute paths for different files when you want to include more style sheet files.
+>note Please note that this property allows you to use a relative path and absolute path to the style sheet file. You are absolutely free to combine relative and absolute paths for different files when you want to include more style sheet files.
 >
 
 

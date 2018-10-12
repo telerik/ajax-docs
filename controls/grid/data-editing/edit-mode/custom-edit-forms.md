@@ -204,7 +204,7 @@ End Sub
 ````
 
 
->tip An important detail is to assign *empty data source* for the drop-down list to prevent binding it again at a later stage (when the rest of the edited item content is bound). The same conventions stand for nested user controls inside WebUserControl custom edit form or other controls such as listboxes, radiobutton lists, checkbox lists, and so on.
+>note An important detail is to assign *empty data source* for the drop-down list to prevent binding it again at a later stage (when the rest of the edited item content is bound). The same conventions stand for nested user controls inside WebUserControl custom edit form or other controls such as listboxes, radiobutton lists, checkbox lists, and so on.
 >
 
 
@@ -236,7 +236,7 @@ When using a template to implement a custom edit form, you can bind the items us
 
 For a live example that shows a custom edit form implemented using a template, see [Form template edit form](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx).
 
->tip When using [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%}), use the **Bind()** syntax to bind template controls. This allows the grid to extract updated values and pass them to the data source with no additional code on your part.
+>note When using [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%}), use the **Bind()** syntax to bind template controls. This allows the grid to extract updated values and pass them to the data source with no additional code on your part.
 >
 
 

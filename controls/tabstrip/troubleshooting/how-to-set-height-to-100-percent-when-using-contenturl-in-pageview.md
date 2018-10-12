@@ -16,7 +16,7 @@ position: 0
 
 Cannot set width to 100% when using RadPageView of a RadMultiPage control when having *ContentUrl* property set to another aspx page (ex: *ContentUrl="Default2.aspx"*). The contents are chopped vertically, and are only visible by scrolling up/down. Setting a height of "100%" on either the RadTab or RadPageView has no effect. The only way we have been able to override that is by setting the RadPageView height in pixels.
 
->tip Please note that width to 100% can be set only when the ContentUrl redirects to another aspx page and not to a url. When *ContentUrl* is set to a website in another domain (like google.com) the mentioned approach may not be used due to [cross site scripting](http://en.wikipedia.org/wiki/Cross-site_scripting).
+>note Please note that width to 100% can be set only when the ContentUrl redirects to another aspx page and not to a url. When *ContentUrl* is set to a website in another domain (like google.com) the mentioned approach may not be used due to [cross site scripting](http://en.wikipedia.org/wiki/Cross-site_scripting).
 >
 
 
@@ -24,7 +24,7 @@ Cannot set width to 100% when using RadPageView of a RadMultiPage control when h
 
 Add the following javascript to the below definition of the RadTabStrip control:
 
->tip Note that the following JavaScript needs to be put in the page whose content needs to be loaded (in the particular case this would be the **Default2.aspx** page). If you have Telerik controls on the page but **$telerik** is still undefined make sure that the script provided is placed after the script manager declaration.
+>note Note that the following JavaScript needs to be put in the page whose content needs to be loaded (in the particular case this would be the **Default2.aspx** page). If you have Telerik controls on the page but **$telerik** is still undefined make sure that the script provided is placed after the script manager declaration.
 >
 
 

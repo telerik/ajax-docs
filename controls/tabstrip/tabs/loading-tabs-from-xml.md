@@ -79,7 +79,7 @@ sb.Append(" </TabStrip>")
 RadTabStrip1.LoadXml(sb.ToString())				
 ````
 
->tip You can also populate **RadTabStrip** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic.
+>note You can also populate **RadTabStrip** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic.
 >
 
 # See Also

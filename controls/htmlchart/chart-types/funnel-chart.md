@@ -24,7 +24,7 @@ The Funnel series has several properties that control the way a chart's segments
 
 * **DynamicSlopeEnabled** - A Boolean property that indicates whether the form of each segment will be based on the ratio between the value from the current and the next segment. Default value is **false**.
 
->tip If the **DynamicSlopeEnabled** property is set to **true** , **NeckRatio** property is neglected.
+>note If the **DynamicSlopeEnabled** property is set to **true** , **NeckRatio** property is neglected.
 
 The code in **Example 1** will show you how to build a **FunnelSeries** that has its **NeckRatio** and **SegmentSpacing** properties set (**Figure 1**), while **DynamicHeightEnabled** is enabled.
 

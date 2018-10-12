@@ -14,7 +14,7 @@ position: 2
 
 **RadProgressArea** automatically displays a progress dialog when files are uploaded. In addition, you can use it as a progress dialog for any other long process by supplying [custom progress information]({%slug progressarea/custom-progress%}) using the server-side API.
 
->tip The progress dialog appears only if there are files being uploaded or the application supplies custom progress information.
+>note The progress dialog appears only if there are files being uploaded or the application supplies custom progress information.
 >
 
 

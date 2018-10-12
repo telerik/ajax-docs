@@ -26,7 +26,7 @@ To bind to a table-based DataSource component:
 
 1. Establish the sitemap hierarchy by setting the **DataFieldID** property to the key field for records, and the **DataFieldParentID** property to the field that gives the key field value of the parent node.
 
->tip The **ParentID** of the root items must be **null** (N **othing** ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
+>note The **ParentID** of the root items must be **null** (N **othing** ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblDat
 >
 

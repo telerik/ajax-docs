@@ -16,7 +16,7 @@ The way the dates are shown on the axis labels, series labels and series tooltip
 
 * **Axis Labels** - Only the desired date specifier must be set in the **DateFormatString** property,as placeholders are not applicable (e.g., **DataFormatString="y"**).
 
->tip Date formats can be used inside the **Client Templates** . You can find more information	in the [Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article, in the section, *Formatting Labels and Tooltips by Using their Client Templates*.
+>note Date formats can be used inside the **Client Templates** . You can find more information	in the [Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article, in the section, *Formatting Labels and Tooltips by Using their Client Templates*.
 
 **Table 1** lists standard date format specifiers with descriptions. **Figure 1** shows formatting the d, m|M and D pattern while **Example 1** shows the markup to create the figure.
 
@@ -225,7 +225,7 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
->tip The above dates are formatted in the default "en-US" culture. More information on how to localize text elements is available in the [Localization]({%slug htmlchart/accessibility-and-internationalization/localization%}) article.
+>note The above dates are formatted in the default "en-US" culture. More information on how to localize text elements is available in the [Localization]({%slug htmlchart/accessibility-and-internationalization/localization%}) article.
 
 
 ## See Also

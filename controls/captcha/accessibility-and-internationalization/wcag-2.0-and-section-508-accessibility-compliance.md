@@ -12,7 +12,7 @@ position: 0
 
 The interface of **RadColorPicker for ASP.NET AJAX** is level AAA accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the [WAVE](http://wave.webaim.org/) automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level AAA.
 
->tip If the **CaptchaImage-EnableCaptchaAudio** property is set to **"true"** the Captcha compliance level is A.
+>note If the **CaptchaImage-EnableCaptchaAudio** property is set to **"true"** the Captcha compliance level is A.
 
 It also offers [Localization]({%slug captcha/accessibility-and-internationalization/localization%}).
 

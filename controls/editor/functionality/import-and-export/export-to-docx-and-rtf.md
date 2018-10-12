@@ -47,9 +47,9 @@ The default name of the exported file will be *RadEditorExport.docx* or *RadEdit
 
 You can [modify the exported content](#modifying-the-exported-content) when the [OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%}) event is raised.
 
->tip The default export functionality requires a full postback because it has to send a file to the client and this is not possible during an AJAX request.
+>note The default export functionality requires a full postback because it has to send a file to the client and this is not possible during an AJAX request.
 
->tip For correct export of HTML table elements, the [PdfExportFilter content filter]({%slug editor/managing-content/content-filters%}) must be enabled
+>note For correct export of HTML table elements, the [PdfExportFilter content filter]({%slug editor/managing-content/content-filters%}) must be enabled
 
 >caption Example 1: Exporting the **RadEditor** content to Word documents by using two simple ASP Button controls for **.docx** and **.rtf**
 

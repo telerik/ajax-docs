@@ -19,19 +19,19 @@ position: 0
 * **Text** is the string that the user sees displayed in each node of the tree.
 
 * **ToolTip** is a string that appears in the tooltip window when the user hovers the mouse over a node in the tree.
->tip Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
+>note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
 * **Value** is the value associated with the node. It determines the value of the **RadTreeNode** **Value** property.
 
 * **Selected** lets you specify which node is initially selected when the **RadTreeView** first appears.
->tip If the **MultipleSelect** property of **RadTreeView** is set to **False** (the default), only one node can be selected at a time. If you set Selected to True for a node, the Selected property of all other nodes is automatically set to False.
+>note If the **MultipleSelect** property of **RadTreeView** is set to **False** (the default), only one node can be selected at a time. If you set Selected to True for a node, the Selected property of all other nodes is automatically set to False.
 >
 
 * **Enabled** determines whether the user can select the node.
 
 * **CssClass, DisabledCssClass, HoveredCssClass, SelectedCss** are the names of CSS styles to be applied to the TreeView node depending on its state. The style can be declared in the CSS file of the applied [Skin]({%slug ribbonbar/appearance-and-styling/skins%}).
->tip You can also customize the appearance of items using [templates]({%slug treeview/templates/overview%}).
+>note You can also customize the appearance of items using [templates]({%slug treeview/templates/overview%}).
 >
 
 * **Checkable** determines if a node displays a checkbox. This property is used in conjunction with the **RadTreeView** **CheckBoxes** property which enables checkboxes for the entire tree. **Checked** determines if the checkbox is currently checked. See the [Checkboxes Overview]({%slug treeview/checkboxes/overview%}) topic for more information.

@@ -78,7 +78,7 @@ End Sub
 
 The following example illustrates how to save uploaded files to a location of your choice in OnFileUpload event:
 
->tip The **OnFileUpload** event will be fired for every file in the **UploadedFiles** collection after postback.
+>note The **OnFileUpload** event will be fired for every file in the **UploadedFiles** collection after postback.
 
 ````ASPNET
 <telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" OnFileUploaded="RadAsyncUpload1_FileUploaded1"/>

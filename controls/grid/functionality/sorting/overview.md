@@ -24,7 +24,7 @@ There are three [sorting modes]({%slug grid/functionality/sorting/controlling-so
 
 You can configure the grid to allow sorting by more than one **DataField** (called [multi-column sorting]({%slug grid/functionality/sorting/multi-column-sorting%})).
 
->tip The sorting of the grid is based on the .NET sorting algorithms and the default type value comparators. Since the string comparator depends on the current culture, you could modify the sorting and orderign data by changing it.
+>note The sorting of the grid is based on the .NET sorting algorithms and the default type value comparators. Since the string comparator depends on the current culture, you could modify the sorting and orderign data by changing it.
 >Additional information could be found at the following MSDN help articles:
 >[Comparing and Sorting Data for a Specific Culture]( http://msdn.microsoft.com/en-us/library/a7zyyk0c.aspx)
 >[CultureInfo.DefaultThreadCurrentUICulture Property ]( http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.defaultthreadcurrentuiculture%28v=VS.110%29.aspx)
@@ -73,7 +73,7 @@ To provide additional feedback about sorted columns, you can specify a different
 
 * by setting the **SortingSettings.SortedBackColor** property on the **RadGrid** control, or the **SortedBackColor** property on a particular grid column (**GridColumn** object).
 
->tip Setting **SortedBackColor** on a particular column overrides the setting of the **SortingSettings.SortedBackColor** property of the entire grid.
+>note Setting **SortedBackColor** on a particular column overrides the setting of the **SortingSettings.SortedBackColor** property of the entire grid.
 >
 
 

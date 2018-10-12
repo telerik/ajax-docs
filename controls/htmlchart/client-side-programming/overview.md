@@ -57,7 +57,7 @@ There are two ways to get a reference to the Kendo Chart widget in order to use 
 	
 		var kendoChart = $telerik.$("#<%=RadHtmlChart1.ClientID %>").data("kendoChart");//the jQuery selector must get the RadHtmlChart wrapping div element
 
->tip  **RadHtmlChart** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Chart) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the chart widget is **Sys.Application.Load** .
+>note  **RadHtmlChart** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Chart) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the chart widget is **Sys.Application.Load** .
 
 ## Modify the RadHtmlChart's Data Source on the Client
 

@@ -26,5 +26,5 @@ Also when you set **EnableHeaderContextMenu** and **EnableHeaderContextFilterMen
 
 Telerik ASP.NET Grid Adaptive behavior supports easy editing for users on both desktop and mobile. When the demo is opened on a mobile device the **PopUp** edit form will take the entire RadGrid container and position **Save** and**Cancel** buttons at the top for a better user experience. You can turn on this feature by setting the RadGrid **RenderMode** property to **Auto** and setting **GridTableView.EditMode** property to **PopUp**. It's as simple as that.
 
->tip Only **NextPrevNumericAndAdvanced** pager mode is suported for mobile devices. 
+>note Only **NextPrevNumericAndAdvanced** pager mode is suported for mobile devices. 
 >

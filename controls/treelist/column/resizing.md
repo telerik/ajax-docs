@@ -40,7 +40,7 @@ There are three modes of column resizing:
 
 * **ResizeTreeList** - The whole control changes width together with the resized column. Other columnsstay the same width.
 
->tip When in **NoScroll** resize mode in order to squeeze the columns to right properly (without breaking the TreeList layout)if they have a predefined width it is automatically cleared! Or in other words the widths for all columns on the right of the currently resized one will be cleared when resizing in NoScroll mode to avoid breaking the layout of the control.
+>note When in **NoScroll** resize mode in order to squeeze the columns to right properly (without breaking the TreeList layout)if they have a predefined width it is automatically cleared! Or in other words the widths for all columns on the right of the currently resized one will be cleared when resizing in NoScroll mode to avoid breaking the layout of the control.
 >
 
 
@@ -50,7 +50,7 @@ There are three modes of column resizing:
 
 * **MaxWidth** - property which gets/sets the maximum width only for the currently resized column. If another column with maxWidth is auto-extended in a result of resizing then its maxWidth is not re spected!
 
->tip  **Resizing First Column** – all width properties for the first column (Width, MinWidth, MaxWidth) are calculated by starting after the innermost expand-collapse cell until the beginning of the second column. The resizing is also based on this so you cannot resize further than this left boundary: (on the image bellow – resizing first column with width 200px: (the whole column is actually 246px wide because we have 2 levels expanded))
+>note  **Resizing First Column** – all width properties for the first column (Width, MinWidth, MaxWidth) are calculated by starting after the innermost expand-collapse cell until the beginning of the second column. The resizing is also based on this so you cannot resize further than this left boundary: (on the image bellow – resizing first column with width 200px: (the whole column is actually 246px wide because we have 2 levels expanded))
 >
 
 ![treelist resizing-columns](images/treelist_resizing-columns.png)

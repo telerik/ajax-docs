@@ -28,7 +28,7 @@ Telerik provides the following installation package types:
 
 * [NuGet package]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}) Telerik provides a NuGet feed that you can use to download only the necessary assemblies to get the project running. Additionally, you can also download the *.nupkg* files from Your Account in order to create a private company feed.
 
->tip The latest **MSI** and **ZIP** packages available for download already have all updates/HOTFIXES applied. There is no need to update them further.
+>note The latest **MSI** and **ZIP** packages available for download already have all updates/HOTFIXES applied. There is no need to update them further.
 
 If you already have Telerik controls installed by the MSI package, you can safely install an updated version&mdash;the installer will keep your existing installation. The new files will be placed in a separate folder and the new installation does not damage the common installer files. You can find more information and examples in the [Major and Minor Releases Installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%}) help article.
 

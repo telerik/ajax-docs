@@ -32,7 +32,7 @@ The following steps demonstrate how to create a new language pack for **RadImage
 
 1. Create another copies of the above files and name them according to the new language’s culture. **RadImageEditor.Main.[your_language].resx** and **RadImageEditorDialogs.[your_language].resx**.
 
-	>tip Please note that you need to keep the original files in the folder as well
+	>note Please note that you need to keep the original files in the folder as well
 
 1. Open the newly copied language specific resource file and modify the keys’ values
 

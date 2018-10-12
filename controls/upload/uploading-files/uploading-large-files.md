@@ -32,7 +32,7 @@ Specifies the limit for the input stream buffering threshold, in **KB**. This li
 
 To enable large file uploads you need to change the value of this attribute to the largest allowed combined file size for your application. If someone selects and uploads files with total size larger than **maxRequestLength**, this will result in a "Page not found" error (which is the default error of the Framework). **RadUpload** does not provide a way for handling this error.
 
->tip The **MaxFileSize** property of the **RadUpload** control specifies the maximum size for each of the uploaded files in **bytes** .
+>note The **MaxFileSize** property of the **RadUpload** control specifies the maximum size for each of the uploaded files in **bytes** .
 >
 
 

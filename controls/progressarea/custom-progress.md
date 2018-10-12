@@ -44,7 +44,7 @@ The following table lists the fields of the progress context that you can set:
 |TimeElapsed|The time that has elapsed from the beginning of the operation.|
 |Speed|The speed of the process. By default, RadProgressArea displays the upload speed.|
 
->tip If you set some of these properties before upload begins, they are not used for file upload monitoring.
+>note If you set some of these properties before upload begins, they are not used for file upload monitoring.
 >
 
 

@@ -19,7 +19,7 @@ In order to use RadProgressArea, you need to add **RadProgressManager** to your 
 
 
 
->tip In the code below the version of the Telerik assembly is hard-coded to **2009.2.616.20** . Please change it to match your version.
+>note In the code below the version of the Telerik assembly is hard-coded to **2009.2.616.20** . Please change it to match your version.
 
 
 

@@ -10,7 +10,7 @@ position: 2
 
 # Telerik Backend Services
 
->tip Progress decided to discontinue Telerik Platform including its Backend Services and integration with RadCloudUpload. You can find more information on Telerik Platform discontinuation at [Telerik Platform is Retired](https://www.telerik.com/platform-next-level).
+>note Progress decided to discontinue Telerik Platform including its Backend Services and integration with RadCloudUpload. You can find more information on Telerik Platform discontinuation at [Telerik Platform is Retired](https://www.telerik.com/platform-next-level).
 
 [ Telerik Backend Services (formerly Everlive) ](http://www.telerik.com/backend-services) connects your applications to backend cloud storages of Telerik's Cloud Services Platform. Integration with **RadCloudUpload** is easy and requires only an **API Key**.
 
@@ -18,7 +18,7 @@ position: 2
 
 In order to be able to use the Telerik Backend Services Cloud Storage Provider, you would need the download the **dll files** from [here](https://bs-static.cdn.telerik.com/sdk/latest/windows/EverliveSDK.Windows.Net35.zip).
 
->tip Telerik Backend Services requires reference to **Telerik.Everlive.Sdk.Net35.dll**.
+>note Telerik Backend Services requires reference to **Telerik.Everlive.Sdk.Net35.dll**.
 >When Web Application is used the Copy Local property in the Reference Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
 >
 
@@ -42,7 +42,7 @@ In order to be able to use the Telerik Backend Services Cloud Storage Provider, 
 		</telerik.web.ui>
 
 
->tip Telerik Backend Services doesn't support uploading in chunks - files are uploaded at once. In case you want to upload files, larger than 4MB refer to this [article]({%slug cloudupload/how-to/uploading-large-files%}).
+>note Telerik Backend Services doesn't support uploading in chunks - files are uploaded at once. In case you want to upload files, larger than 4MB refer to this [article]({%slug cloudupload/how-to/uploading-large-files%}).
 >
 
 

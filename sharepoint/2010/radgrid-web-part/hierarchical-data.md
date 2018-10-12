@@ -32,7 +32,7 @@ If the currently selected grid table view is a detail one you will be given the 
 
 Choose an item from the master-field combo, related to one from the child field drop-down and hit the Add Relation button. If you need to specify multiple-field	relations, just repeat the steps above.
 
->tip
+>note
 >hierarchical data is not supported with Excel binding.
 
 

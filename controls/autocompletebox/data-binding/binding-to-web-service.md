@@ -16,7 +16,7 @@ position: 4
 
 RadAutoCompleteBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
->tip The text currently present in the input area can be obtained from the context object used by the WebService's method.
+>note The text currently present in the input area can be obtained from the context object used by the WebService's method.
 >
 
 

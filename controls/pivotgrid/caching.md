@@ -30,5 +30,5 @@ Note that in case you need to remove the model from the session you just should 
 Session[RadPivotGrid1.UniqueID] = null;
 ````
 
->tip Caching is not supported when using `sessionState` modes requiring the object to be Serializable.
+>note Caching is not supported when using `sessionState` modes requiring the object to be Serializable.
 When using SQLServer mode the *SessionState* will not be saved.

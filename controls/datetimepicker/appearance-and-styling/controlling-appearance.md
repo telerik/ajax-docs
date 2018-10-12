@@ -47,7 +47,7 @@ Following are some sample configurations:
 ````
 
 
->tip 
+>note 
 If **AutoPostBack** property of **RadDateTimePicker** is set to **true** the **HideAnimation-Duration** value is 0 and cannot be altered.
 >
 

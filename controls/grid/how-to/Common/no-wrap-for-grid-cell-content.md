@@ -105,6 +105,6 @@ End Sub
 ````
 
 
->tip This functionality is not supported with static headers (UseStaticHeaders = true) and column resizing. With static headers the cell content will be clipped if you resize a column to make its width dimension smaller than the longest cell data.
+>note This functionality is not supported with static headers (UseStaticHeaders = true) and column resizing. With static headers the cell content will be clipped if you resize a column to make its width dimension smaller than the longest cell data.
 >
 

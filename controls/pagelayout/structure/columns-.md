@@ -18,7 +18,7 @@ This article provides information about columns that you can use in the **RadPag
 
 A column or also declared as a LayoutColumn element in the markup code of the **RadPageLayout** control is the structural unit of design. If you are not familiar with grid systems, you can view them as a sort of table cell (but not quite). The LayoutColumn has span attribute that sets the size (or width) of a column (measured in grid units).
 
->tip The grid unit itself is an abstract unit and represents fraction of the total container width. In the case of this control, one grid unit equals 1/12 of the total width.
+>note The grid unit itself is an abstract unit and represents fraction of the total container width. In the case of this control, one grid unit equals 1/12 of the total width.
 >
 
 
@@ -35,7 +35,7 @@ In addition to the standard attributes, a column has few specific attributes tha
 | **StaticID** |Gets or sets the actual rendered ID attribute. If the property is not set, it will return an empty string.| ID / string | none |
 
 
->tip **Pull** and **Push** properties are implemented using **position: absolute** CSS rule and position **coordinates**. In consequence, the change in the position of a column using those two properties will not affect the other content (columns). At the same time, **Offset** property applies the customizations on the **margin** CSS property of the column. Therefore, using **Offset** will affect (move) other content (columns).
+>note **Pull** and **Push** properties are implemented using **position: absolute** CSS rule and position **coordinates**. In consequence, the change in the position of a column using those two properties will not affect the other content (columns). At the same time, **Offset** property applies the customizations on the **margin** CSS property of the column. Therefore, using **Offset** will affect (move) other content (columns).
 >
 
 
@@ -69,7 +69,7 @@ In addition to the standard attributes, a column has few specific attributes tha
 
 ## Composite Columns in RadPageLayout
 
->tip Composite columns have the same attributes as "simple" columns.
+>note Composite columns have the same attributes as "simple" columns.
 >
 
 

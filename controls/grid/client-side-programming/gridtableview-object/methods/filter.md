@@ -65,4 +65,4 @@ function ApplyBetweenFilter() {
 |16|NotIsNull|
 |17|Custom|
 
->tip When using client-side binding to RadClientDataSource, you need to add filter expressions directly to the data source through the `dataSourceReference.get_filterExpressions().add()` method. You can find similar example in the [ClientDataSource - Filtering](https://demos.telerik.com/aspnet-ajax/clientdatasource/functionality/filtering/defaultcs.aspx) live demo.
+>note When using client-side binding to RadClientDataSource, you need to add filter expressions directly to the data source through the `dataSourceReference.get_filterExpressions().add()` method. You can find similar example in the [ClientDataSource - Filtering](https://demos.telerik.com/aspnet-ajax/clientdatasource/functionality/filtering/defaultcs.aspx) live demo.

@@ -38,7 +38,7 @@ Clicking on an expanded item (or pressing [ESC] when the item has focus) causes 
 
 When **ExpandMode** is "SingleExpandedItem", only one item can be expanded at a time.
 
->tip There is an exception to this rule. If a panel item has its **PreventCollapse** property set to **True** , then the user can expand another item at the same level, and the panel bar will allow both items to be expanded at the same time.
+>note There is an exception to this rule. If a panel item has its **PreventCollapse** property set to **True** , then the user can expand another item at the same level, and the panel bar will allow both items to be expanded at the same time.
 >
 
 
@@ -68,7 +68,7 @@ If the panel items do not fit within the height of the panel bar, the panel bar 
 
 ![Full Expanded Item ScrollBars](images/panelbar_fullexpandeditemscrollbars.png)
 
->tip We strongly recommend the use of **FullExpandedItem** together with Height property.
+>note We strongly recommend the use of **FullExpandedItem** together with Height property.
 >
 
 

@@ -22,7 +22,7 @@ position: 1
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadToolTip and RadToolTipManager")
 
->tip A RadToolTip created by a RadToolTipManager will inherit the manager's render mode.
+>note A RadToolTip created by a RadToolTipManager will inherit the manager's render mode.
 
 There are two ways to configure the rendering mode of the controls:
 

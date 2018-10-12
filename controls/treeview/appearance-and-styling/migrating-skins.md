@@ -115,7 +115,7 @@ The table below shows the mapping between the different class names in **RadTree
 |.TreeContextItem|.rmContextMenu .rmLink *(See note below)* |
 |.TreeContextItemOver|.rmContextMenu .rmLink:hover *(See note below)* |
 
->tip **RadTreeView** for ASP.NET AJAX uses **RadMenu** as its Context Menu; therefore, the styling from the **RadMenu** skin is applied and the prefix should be **RadMenu_**{*SkinName*}.
+>note **RadTreeView** for ASP.NET AJAX uses **RadMenu** as its Context Menu; therefore, the styling from the **RadMenu** skin is applied and the prefix should be **RadMenu_**{*SkinName*}.
 >To make the skin selectors skin-specific, they should be prefixed with **RadTreeView_**{*SkinName*}.
 >
 

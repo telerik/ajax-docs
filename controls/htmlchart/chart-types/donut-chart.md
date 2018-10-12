@@ -69,7 +69,7 @@ The Donut chart in **Figure 1** is created with the code in **Example 1**.
 </telerik:RadHtmlChart>
 ````
 
->tip The Donut chart does not have axes as they are not applicable in its context.
+>note The Donut chart does not have axes as they are not applicable in its context.
 
 ## See Also
 

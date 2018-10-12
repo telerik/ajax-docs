@@ -193,7 +193,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 				Next i
 			End Sub
 
-		>tip When the **RadDock** controls are recreated on **Page_Init** , it is important that you always set the same value in their property **ID** . This way you will ensure that the layout of the **RadDock** controls will be persisted after a postback.
+		>note When the **RadDock** controls are recreated on **Page_Init** , it is important that you always set the same value in their property **ID** . This way you will ensure that the layout of the **RadDock** controls will be persisted after a postback.
 
 	1. Add a **LoadDockLayout** event handler. This event handler tells the **RadDockLayout** control the parent dock zones and indices of the **RadDock** controls that were added in the **Page_Init** event handler. **RadDockLayout** uses this information to restore the layout:
 

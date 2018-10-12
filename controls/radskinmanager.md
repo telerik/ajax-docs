@@ -226,10 +226,10 @@ Furthermore, there are two properties available which specify where to persist t
 
 * **PersistenceMode** defaults to **ViewState**, however you can specify **Session** or **Cookie** in order to store the skin settings in the session or in browser cookie if you prefer.
 
->tip In case a Theme is applied on the page, the general Skin property settings for RadSkinManager will be disregarded.
+>note In case a Theme is applied on the page, the general Skin property settings for RadSkinManager will be disregarded.
 
 
->tip The global skin settings for Telerik controls or a particular one (defined in the web.config) will be overridden by the RadSkinManager definitions.
+>note The global skin settings for Telerik controls or a particular one (defined in the web.config) will be overridden by the RadSkinManager definitions.
 
 
 ## Using RadSkinManager for applying custom skins
@@ -266,7 +266,7 @@ The steps that you need to take in order to load skins by specifying a path are:
 
 1. Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **false**. Set their **Skin** property to the name of the desired custom skin.
 
-    >tip If the skin folder does not exist or a folder with the control name does not exist, the custom stylesheet will not be registered and no errors will be thrown.
+    >note If the skin folder does not exist or a folder with the control name does not exist, the custom stylesheet will not be registered and no errors will be thrown.
 
 1. If you have a **RadStyleSheetManager** on the page, you have to add the following key in your web.config in order for the [custom stylesheets to be registered]({%slug stylesheetmanager/serving-external-style-sheets%}):
 
@@ -276,7 +276,7 @@ The steps that you need to take in order to load skins by specifying a path are:
             <add key="Telerik.Web.UI.StyleSheetFolders" value="~/MySkins" />
         </appSettings>
 
-    >tip RadStyleSheetManager will combine and serve all stylesheets from that folder, including those for controls that are not used on the current page, and those for other custom skins.
+    >note RadStyleSheetManager will combine and serve all stylesheets from that folder, including those for controls that are not used on the current page, and those for other custom skins.
 
 
 1. Make sure the custom skin stylesheets refer to images depending on the method of registration - whether RadStyleSheetManager will be used or not. This changes the URL at which the stylesheet is served, and resources in stylesheets are relative to the requesting path.
@@ -299,9 +299,9 @@ The steps that you need to take in order to load skins by specifying a path are:
                 background: #1b1b1b 0 -1000px repeat-x url('Calendar/sprite.gif');
             }
 
->tip RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
+>note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
 
->tip The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadCheckBox, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
+>note The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadCheckBox, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
 
 ### Loading skins from an external assembly
 

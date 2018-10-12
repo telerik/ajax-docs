@@ -24,7 +24,7 @@ The following example illustrates this process. It gets the cell in two cases:
 * From the OnClick handler of a button placed outside the grid.
 
 
->tip This example works for a grid that allows multi-row selection.
+>note This example works for a grid that allows multi-row selection.
 >
 
 ````ASP.NET

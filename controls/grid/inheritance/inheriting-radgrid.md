@@ -118,6 +118,6 @@ Basically, you need to override the **CreateTableView()** method of the RadGrid 
 
 As the inheritance of a control is an ASP.NET feature, these rules are applicable to inherit and use ASP.NET server control.
 
->tip Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid control from RadGrid.
+>note Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid control from RadGrid.
 >
 

@@ -14,7 +14,7 @@ In this article you will find detailed information about the **Tile** and **Bing
 
 The images used to render the actual map are requested from third-party services that conform to the [Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service) and support the [WGS 84 projection standards](https://en.wikipedia.org/wiki/World_Geodetic_System). The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
 
->tip Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service. The **Telerik Map** only provides an UI control that allows you to setup and place a map in a web application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and, if needed, establish an account with the map owner to ensure unlimited/fast access.
+>note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service. The **Telerik Map** only provides an UI control that allows you to setup and place a map in a web application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and, if needed, establish an account with the map owner to ensure unlimited/fast access.
 
 ## Configuration of the MapLayer
 
@@ -45,7 +45,7 @@ And here is an example with openstreetmap.org:
 
 `https://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png`
 
->tip If your site is running under HTTPS, ensure that the same protocol is used for the map tile service and that it is supported by the provider.
+>note If your site is running under HTTPS, ensure that the same protocol is used for the map tile service and that it is supported by the provider.
 
 You can find more details about Web Map Services the following public pages:
 

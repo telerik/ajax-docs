@@ -41,7 +41,7 @@ You can add or remove client-side event handlers from the **RadWindow** control 
 | **remove_resizeStart** |Removes a function declared with the **add_resizeStart** function.|
 | **remove_show** |Removes a function declared with the **add_show** function.|
 
->tip Calling an `add_<event>` method multiple times will *add* the function multiple times for execution. This means that if you do not dispose the RadWindow instance event handlers can be added multiple times which is not always desired. Often add_close() is called when a RadWindow is shown. To avoid such behavior you should either call `remove_close()` in the OnClientClose event hander that was just attached, or use a global flag to check if the handler is already added, or use the DestroyOnClose functionality to dispose the instance when it is closed.
+>note Calling an `add_<event>` method multiple times will *add* the function multiple times for execution. This means that if you do not dispose the RadWindow instance event handlers can be added multiple times which is not always desired. Often add_close() is called when a RadWindow is shown. To avoid such behavior you should either call `remove_close()` in the OnClientClose event hander that was just attached, or use a global flag to check if the handler is already added, or use the DestroyOnClose functionality to dispose the instance when it is closed.
 
 You can set client events for **RadWindow** on the client via JavaScript by using the corresponding methods. The example below is based on the [Client Side Events demo](http://demos.telerik.com/aspnet-ajax/Window/Examples/ClientSideEvents/DefaultCS.aspx) and shows how to set client event-handlers.
 

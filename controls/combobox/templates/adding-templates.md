@@ -103,7 +103,7 @@ Note that the event handler finds the RadCalendar control within the RadComboBox
 
 You can also add templates to **RadComboBox** at runtime, using the **ItemTemplate** and **HeaderTemplate** properties. These properties are of type **ITemplate**, so you must assign objects that implement that interface.
 
->tip The RadComboBox items should be dynamically added so that templates can be defined at run time.
+>note The RadComboBox items should be dynamically added so that templates can be defined at run time.
 >Also, **items should be bound** so that DataBinder.Eval expressions may be used. In other words, you should call the **DataBind** method of the RadComboBox object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 

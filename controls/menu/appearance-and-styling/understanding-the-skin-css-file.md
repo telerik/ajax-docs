@@ -160,7 +160,7 @@ If the item is the last child of its parent, the **LI** tag has the "**rmLast**"
 
 Note that in this example, the item is disabled, so the **A** tag has the "**rmDisabled**" class applied as well as the "**rmLink**" class.
 
->tip If an item is the only child of its parent it has both the " **rmFirst** " and " **rmLast** " CSS classes.
+>note If an item is the only child of its parent it has both the " **rmFirst** " and " **rmLast** " CSS classes.
 >
 
 
@@ -195,7 +195,7 @@ If the item has children they are rendered in an **UL** tag within the **LI** ta
 </div>
 ````
 
->tip The DIV tag whose class attribute is set to "rmSlide" is used by the animation effects. It is not related with the final appearance and can be ignored.
+>note The DIV tag whose class attribute is set to "rmSlide" is used by the animation effects. It is not related with the final appearance and can be ignored.
 >
 
 

@@ -32,7 +32,7 @@ Configuring the RadTreeView control:
 1. Using the Smart tag, click on Chose OData Source and select the source that you configured in the previous steps. You shall be viewing something like the following screen:
 ![RadTreeView SmartTag](images/odatadatasource-treeview-smarttag.png)
 
->tip Please note that in OData binding scenarios instead of DataFieldID there will be DataModel drop down.
+>note Please note that in OData binding scenarios instead of DataFieldID there will be DataModel drop down.
 >
 
 

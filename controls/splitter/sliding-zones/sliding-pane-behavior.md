@@ -34,7 +34,7 @@ By default, the title bar of a sliding pane contains a Dock/Undock button. When 
 
 When a sliding pane is in the docked state, its Dock button changes to an "Undock" button and the collapse button disappears from the title bar. To close the sliding pane, the user must first undock the sliding pane by clicking the undock button.
 
->tip Only one sliding pane from a sliding zone can be docked at a time. If the user expands a second sliding pane over a docked sliding pane and clicks its dock button, the first sliding pane is undocked and closed when the second sliding pane is docked.
+>note Only one sliding pane from a sliding zone can be docked at a time. If the user expands a second sliding pane over a docked sliding pane and clicks its dock button, the first sliding pane is undocked and closed when the second sliding pane is docked.
 
 You can remove the Dock/Undock button from the title bar of a sliding pane by setting its **EnableDock** property to **False**. When the **EnableDock** property of a **RadSlidingPane** control is **False**, the title bar shows only a collapse button, and the pane cannot be docked (not even using the [client-side API]({%slug splitter/client-side-programming/radslidingpane-object%}) or by specifying the [initial state]({%slug splitter/sliding-zones/specifying-the-initial-state%}) of the sliding zone).
 

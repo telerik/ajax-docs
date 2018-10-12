@@ -12,7 +12,7 @@ position: 0
 
 
 
->tip Note that the *RadTreeList* will render as an *XHTML* table and will convert that table to a *PDF* document. This requires that the rendered treelist output is valid *XHTML* . If it is not,you will receive an exception that the export cannot be completed.
+>note Note that the *RadTreeList* will render as an *XHTML* table and will convert that table to a *PDF* document. This requires that the rendered treelist output is valid *XHTML* . If it is not,you will receive an exception that the export cannot be completed.
 >The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **& l t ;** , **& g t ;** , **& a m p ;** respectively. Another frequent problem are unclosed tags.
 >
 

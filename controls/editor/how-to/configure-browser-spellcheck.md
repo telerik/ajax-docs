@@ -40,7 +40,7 @@ Modern browsers support spellchecking as an out-of-the-box feature. This feature
 </script>
 ````
 
->tip Spellcheck language depends also on the installed language dictionaries in the browser.
+>note Spellcheck language depends also on the installed language dictionaries in the browser.
 
 ## See Also
 

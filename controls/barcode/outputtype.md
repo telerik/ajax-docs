@@ -16,7 +16,7 @@ position: 3
 
 **OutputType** specifies the output type of the **RadBarcode**, currently there are two versions, SVG_VML and EmbeddedPNG. In the first case, the Barcode is rendered as SVG (or VML for IE8 and older).
 
->tip  **RadBarcode** could be exported when is placed within **RadGrid** or **RadTreeList** . Note that Embedded PNG should be set as value of the **OutputType** property.
+>note  **RadBarcode** could be exported when is placed within **RadGrid** or **RadTreeList** . Note that Embedded PNG should be set as value of the **OutputType** property.
 >
 
 

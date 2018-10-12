@@ -55,7 +55,7 @@ The properties can be set either declaratively or programmatically:
 
 
 
->tip  **ModelErrorMessage** control validation is available only in .NET 4.5 when ModelBinding is used.
+>note  **ModelErrorMessage** control validation is available only in .NET 4.5 when ModelBinding is used.
 >
 
 
@@ -119,7 +119,7 @@ End Sub
 ````
 
 
->tip With version older than Q1 2013 you should use the code snippet below to add RequiredFieldValidator to the TextBox editor of GridBoundColumn
+>note With version older than Q1 2013 you should use the code snippet below to add RequiredFieldValidator to the TextBox editor of GridBoundColumn
 >
 
 

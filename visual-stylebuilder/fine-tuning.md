@@ -18,7 +18,7 @@ Once the [basic customization]({%slug introduction/visual-stylebuilder/basic-usa
 
 Here follows a screenshot where each element of the interface, its functions and usage are explained below:
 
->tip The Save button (6) should be used before navigating between the different tabs (1, 3, 8) to avoid losing data.
+>note The Save button (6) should be used before navigating between the different tabs (1, 3, 8) to avoid losing data.
 
 ![introduction-stylebuilder-fine-tuning-functionality](images/introduction-stylebuilder-fine-tuning-functionality.png)
 
@@ -33,7 +33,7 @@ Here follows a screenshot where each element of the interface, its functions and
 
 1. The download button takes the saved skin and sends it as a zip archive.
 
-	>tip Only saved changes will be present in the files that will be downloaded. Click the Save button (6) first.
+	>note Only saved changes will be present in the files that will be downloaded. Click the Save button (6) first.
 
 
 1. Click Close to discard all modifications and start over from the top.
@@ -52,10 +52,10 @@ Here follows a screenshot where each element of the interface, its functions and
 1. Detailed configuration panel. Depending on the selected element (9) the applicable styling options will be listed here - background color/images,fonts, margins and paddings, etc.
 
 
->tip The CSS rules created with the fine-tune functionality are added to the end of the skin-specific stylesheet that will be created for the given control.	The stylesheets in the archive the tool outputs are minified. The changes added by the StyleBuilder are not minified.	This allows for applying additional modifications manually at a later stage.
+>note The CSS rules created with the fine-tune functionality are added to the end of the skin-specific stylesheet that will be created for the given control.	The stylesheets in the archive the tool outputs are minified. The changes added by the StyleBuilder are not minified.	This allows for applying additional modifications manually at a later stage.
 
 
->tip A rule that has already been created by using the UI and clicking the Save button (6) cannot be removed through the StyleBuilder.	It can be removed manually after downloading the skin. For example, if a background color is chosen, then a background image, both rules will	be present in the CSS file, one after the other.
+>note A rule that has already been created by using the UI and clicking the Save button (6) cannot be removed through the StyleBuilder.	It can be removed manually after downloading the skin. For example, if a background color is chosen, then a background image, both rules will	be present in the CSS file, one after the other.
 
 
 ## See Also

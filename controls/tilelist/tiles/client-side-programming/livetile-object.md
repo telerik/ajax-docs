@@ -16,7 +16,7 @@ position: 6
 
 This article explains the client-side properties and methods **[RadLiveTile]({%slug tilelist/tiles/live-tile/overview%})** exposes.
 
->tip  **RadLiveTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the LiveTile specific methods.
+>note  **RadLiveTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the LiveTile specific methods.
 
 
 

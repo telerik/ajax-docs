@@ -24,7 +24,7 @@ There are three ways to bind the listview control to a database:
 
 * *ASP.NET ListView-like binding* - You can set the **DataSource** property manually in the control declaration. This property specifies the database, which is then used as a source for the grid.
 
->tip When binding RadListView by setting the **DataSource** property, you can set the **DataSource** property to an instance of any of the following types:
+>note When binding RadListView by setting the **DataSource** property, you can set the **DataSource** property to an instance of any of the following types:
 >
 *  **DataSet** , **DataTable** , or **DataView** 
 * Array of **DataRow** 

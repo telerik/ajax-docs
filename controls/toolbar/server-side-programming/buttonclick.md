@@ -22,7 +22,7 @@ The **ButtonClick** event handler receives two arguments:
 
 Use the **ButtonClick** event handler to respond when the user clicks a button in the toolbar.
 
->tip  **e.Item** is of type **RadToolBarItem** . Therefore, you should first cast the **e.Item** object to **RadToolBarButton** type if you need to use the clickedbutton.
+>note  **e.Item** is of type **RadToolBarItem** . Therefore, you should first cast the **e.Item** object to **RadToolBarButton** type if you need to use the clickedbutton.
 >
 
 

@@ -14,7 +14,7 @@ You can bind **RadMenu** to an object-based data source such as **ObjectDataSour
 
 ## Binding to ObjectDataSource
 
->tip To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) live demo.
 >
 
 
@@ -22,7 +22,7 @@ When using **ObjectDataSource**, you can bind **RadMenu** declaratively at desig
 
 If the **SelectMethod** returns a collection of strings, those strings are automatically mapped to the **Text** property of the respective menu items. If the collection contains objects (as opposed to string values), you can use the **DataTextField**, **DataNavigateUrlField**, and the **DataValueField** properties to map a property from the object directly to the **Text**, **NavigateUrl** and **Value** properties of **RadMenuItem**. If the **DataFieldID** and **DataFieldParentID** properties are set, RadMenu will create a hierarchy of Items, determining the Root ones using the following algorithm:
 
->tip - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
+>note - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
 > **ID**  **ParentID** 
 >1 (null)
@@ -190,7 +190,7 @@ End Class
 
 ## Binding to an object that implements IEnumerable
 
->tip To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx) live demo.
 >
 
 

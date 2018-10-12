@@ -101,7 +101,7 @@ For more information about column aggregates, see [Column Aggregates](http://dem
 
 Some of the operations related to grid columns are performed client-side (without postback to the server). This can significantly optimize the grid performance. Client-side operations include [Resizing columns]({%slug grid/columns/resizing%}) and [Reordering columns]({%slug grid/columns/reordering%}) operations.
 
->tip If you are enabling reordering and resizing functionality in the grid, the **ShowHeader** property must be **True** .
+>note If you are enabling reordering and resizing functionality in the grid, the **ShowHeader** property must be **True** .
 >
 
 
@@ -115,7 +115,7 @@ The **Display**, **Visible**, and **ReadOnly** properties of a column let you co
 
 * **ReadOnly** concerns whether the column editor is visible in edit mode. This property is only available for column types that allow editing. The ReadOnly property has no effect on whether the column appears in browser mode.
 
->tip None of these properties can prevent you from accessing the column cells' contents server-side using the **UniqueName** of the column.
+>note None of these properties can prevent you from accessing the column cells' contents server-side using the **UniqueName** of the column.
 >
 
 
@@ -179,7 +179,7 @@ boundColumn.HeaderText = "CustomerID"
 
 For more information about creating columns dynamically, see [Programmatic creation]({%slug grid/defining-structure/creating-a-radgrid-programmatically%}).[Creating a RadGrid Programmatically]({%slug grid/defining-structure/creating-a-radgrid-programmatically%})
 
->tip The **Columns** properties of the **RadGrid** control and of the grids **MasterTableView** are equivalent. Accessing or modifying either of these collections has the same effect as accessing or modifying the other.
+>note The **Columns** properties of the **RadGrid** control and of the grids **MasterTableView** are equivalent. Accessing or modifying either of these collections has the same effect as accessing or modifying the other.
 >
 
 
@@ -220,7 +220,7 @@ End Sub
 ````
 
 
->tip Note that by default the header text of the auto generated columns is the name of the data field split by capital letters. To control this behavior you can use the **EnableSplitHeaderText** property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
+>note Note that by default the header text of the auto generated columns is the name of the data field split by capital letters. To control this behavior you can use the **EnableSplitHeaderText** property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
 >
 
 

@@ -20,7 +20,7 @@ The **TextChanged** event only occurs if the value of the input control actually
 
 
 
->tip The postback request can be controlled for **RadDateInput** by using the [OnValueChanged]({%slug raddateinput/client-side-programming/events/onvaluechanged%}) client event of the control.
+>note The postback request can be controlled for **RadDateInput** by using the [OnValueChanged]({%slug raddateinput/client-side-programming/events/onvaluechanged%}) client event of the control.
 >
 
 

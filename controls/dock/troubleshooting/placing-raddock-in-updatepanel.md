@@ -14,7 +14,7 @@ position: 0
 
 This article treats the most common issues related to placing **RadDock** in an **UpdatePanel**, [RadAjaxPanel]({%slug ajaxpanel/overview%}) or adding it as updated control in [RadAjaxManager]({%slug ajaxmanager/overview%}).
 
->tip The focus of the article is the combination of RadDock and UpdatePanel, because this is the base scenario. Nevertheless, the included information and code samples are valid for RadAjaxPanel and RadAjaxManager as well.
+>note The focus of the article is the combination of RadDock and UpdatePanel, because this is the base scenario. Nevertheless, the included information and code samples are valid for RadAjaxPanel and RadAjaxManager as well.
 >
 
 

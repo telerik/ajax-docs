@@ -33,7 +33,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 </telerik:RadToolBar>
 ````
 
->tip Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
 

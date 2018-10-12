@@ -36,7 +36,7 @@ You can also compare the conceptual differences of **ContentAreaCssFile** and **
 
 By default, the editor's content area is always decorated by an external CSS file. This file is not part of the [CssFiles collection]({%slug editor/managing-content/content-area-appearance/set-defaults%}) and its purpose is different. 
 
->tip This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
+>note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 This file is configured via the **ContentAreaCssFile** property and it decorates some of the elements in the content area in order to improve the user experience. The property exposed enables you to override the rules and define ones of your own (see **Example 2**).
 

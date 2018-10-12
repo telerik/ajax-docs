@@ -23,7 +23,7 @@ The following tutorial demonstrates creating a custom **RadTreeView** Skin, usin
 1. In the **Solution Explorer**, create a new "MySkin" directory in your project.
 
 1. Copy the default **RadTreeView** Skin files from the installation directory to the "MySkin" directory; copy both the **\TreeView** directory that contains the images for this Skin and the **TreeView.Default.css** file that defines the Skin styles.
->tip The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
+>note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
 >
 
 

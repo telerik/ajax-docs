@@ -24,7 +24,7 @@ To facilitate Client-side development with the controls in the Telerik UI suite,
 
 The **$telerik** object provides the following set of static properties for browser detection:
 
->tip The following table of browser detection flags is superseded by the newer [Telerik.Web.Browser flags]({%slug mobile-support/helper-tools/browser-detection-api%}). You can still use the static methods further down the page.
+>note The following table of browser detection flags is superseded by the newer [Telerik.Web.Browser flags]({%slug mobile-support/helper-tools/browser-detection-api%}). You can still use the static methods further down the page.
 
 | Name | Description |
 | ------ | ------ |
@@ -132,11 +132,11 @@ The **$telerik** object provides the following set of static functions by topic:
 | **isDescendant** | **ancestor** (DOM element) **descendant** (DOM element)|Boolean|Returns whether **descendant** is a recursive child node of **ancestor** |
 | **isDescendantOrSelf** | **ancestor** (DOM element) **descendant** (DOM element)|Boolean|Returns whether **descendant** is the same as **ancestor** or a recursive child node of **ancestor** |
 
->tip 
+>note 
 > The "content-box" is the size of the content area *inside* of the borders and padding of an element. It does not include the margins around the element. 
 
 
->tip 
+>note 
 > The "border-box" is the size of the content area *outside* of the borders and padding of an element. It does not include the margins around the element. 
 
 

@@ -18,7 +18,7 @@ The **RadToolBarItemCollection** object is returned by the **get_items** method 
 >caution RadToolBar's items can contain **Buttons**, **DropDowns** and **SplitButtons**. Each **DropDown** and **SplitButton** has its **Buttons** collection so that buttons can be added to these collections.
 >
 
->tip Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the toolbar object and the **commitChanges** method of the toolbar object.
+>note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the toolbar object and the **commitChanges** method of the toolbar object.
 >
 
 | Name | Parameters | Return Type | Description |

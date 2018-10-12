@@ -14,7 +14,7 @@ position: 6
 
 **RadDatePicker** provides the **SelectedDateChanged** server event, which is triggered when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar control. This event does not fire unless the **AutoPostBack** property is**True**.
 
->tip 
+>note 
 The event handler is not called unless the date and/or time actually changes. If the user makes a change that results in the same value (for example, typing a different string that parses to the same value), a postback occurs but the **SelectedDateChanged** event handler is not triggered.
 >
 

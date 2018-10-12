@@ -35,7 +35,7 @@ You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties 
 
 Additionally, you can disable the filtering option for some of the grid columns by setting their **AllowFiltering** property to **False**.
 
->tip Depending on the data source, the filtering may be case-sensitive or case-insensitive. You can control this behavior using the **GroupingSettings-CaseSensitive** property. In some *.NET 3.5* scenarios you should also turn off the **Linq** expressions - **EnableLinqExpressions="false"** 
+>note Depending on the data source, the filtering may be case-sensitive or case-insensitive. You can control this behavior using the **GroupingSettings-CaseSensitive** property. In some *.NET 3.5* scenarios you should also turn off the **Linq** expressions - **EnableLinqExpressions="false"** 
 >
 
 
@@ -47,7 +47,7 @@ You can specify the group of possible filter functions that are displayed for a 
 
 * **VaryByDataType** (the default value) - The list of filter functions depends on the **DataType** property of the column. For example, filter functions "StartsWith", "EndsWith... " are not be available for columns with **DataType** integer.
 
->tip The **DataType** property of a column is set during data binding. You can, however, set this property explictly, which can alter the allowed filtering expressions. For example, if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
+>note The **DataType** property of a column is set during data binding. You can, however, set this property explictly, which can alter the allowed filtering expressions. For example, if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
 >
 
 
@@ -57,7 +57,7 @@ You can specify the group of possible filter functions that are displayed for a 
 
 Users can set a filter expression based on the rules specified in the corresponding column properties: **GridColumn.FilterFormatString**.
 
->tip The filtering menu is presented by single object server-side. This implementation was chosen to speed up grid performance by creating one menu instance server side and cloning the instance for different columns.
+>note The filtering menu is presented by single object server-side. This implementation was chosen to speed up grid performance by creating one menu instance server side and cloning the instance for different columns.
 >
 
 
@@ -91,7 +91,7 @@ The **GridKnownFunction** enumeration lists the possible filter functions that c
 
 In addition to the available filter expressions, you can create your own filter using the **GridFilterFunction** class.
 
->tip With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
+>note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >
 
 
@@ -117,7 +117,7 @@ There are also some useful shortcuts (achievable with several lines of javascrip
 
 * If the user enters **[some_value][ ][some_other_value]** and hits [**Enter**] key, the grid will automatically use the **Between**filter function
 
->tip To define a default filter function to be applied when you press the [Enter] key from the keyboard (when no shortcuts are used), use the **CurrentFilterFunction** property of the respective grid column.
+>note To define a default filter function to be applied when you press the [Enter] key from the keyboard (when no shortcuts are used), use the **CurrentFilterFunction** property of the respective grid column.
 >
 
 
@@ -150,7 +150,7 @@ Another option is to set **FilterDelay** property for grid column that can be fi
 
 
 
->tip When the FilterDelay property is set, the filtering will be triggered after the last key stroke with the filter delay time span being respected or immediately if [ENTER] has been hit. In addition, if AutoPostBackOnFilter has been set to true along with a FilterDelay time span, the filtering should be triggered immediately on [TAB] key press. If only AutoPostBackOnFilter has been set to true, the filtering should be triggered immediately on [TAB] and [ENTER] key press.
+>note When the FilterDelay property is set, the filtering will be triggered after the last key stroke with the filter delay time span being respected or immediately if [ENTER] has been hit. In addition, if AutoPostBackOnFilter has been set to true along with a FilterDelay time span, the filtering should be triggered immediately on [TAB] key press. If only AutoPostBackOnFilter has been set to true, the filtering should be triggered immediately on [TAB] and [ENTER] key press.
 >
 
 

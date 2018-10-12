@@ -22,7 +22,7 @@ As of Q2 2008, **RadComboBox** introduces a new property - **EnableTextSelection
 
 * **False** - when the user types in the input area, RadComboBox automatically completes the string to the first matching item in the list - it **does not highlight** the text and places the cursor after the matched text.
 
->tip  **EnableTextSelection** property works only when MarkFirstMatch is set to True.
+>note  **EnableTextSelection** property works only when MarkFirstMatch is set to True.
 >
 
 

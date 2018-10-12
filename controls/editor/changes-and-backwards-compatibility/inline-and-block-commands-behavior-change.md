@@ -32,7 +32,7 @@ As a result of the modification, these commands now exhibit behavior different f
 
 * Creation of a list over multiple block elements;
 
->tip The editing behavior of the inline and block elements is directly related to the set value of the [NewLineMode property]({%slug editor/managing-content/control-new-line-behavior%}), which by default is set to "Br".For example the selection of multiple lines, separated by `<br>` is considered as one whole block element, although if they are separated by `<p>` - all selected lines are considered as different block elements.
+>note The editing behavior of the inline and block elements is directly related to the set value of the [NewLineMode property]({%slug editor/managing-content/control-new-line-behavior%}), which by default is set to "Br".For example the selection of multiple lines, separated by `<br>` is considered as one whole block element, although if they are separated by `<p>` - all selected lines are considered as different block elements.
 
 ## User Experience with RadEditor
 
@@ -46,7 +46,7 @@ If the **NewLineMode** property is used with its default value ("Br") some known
 |Insert Line Break|keyboard shortcut **Shift+Enter** (_Note: If the NewLineMode="Br" property is used - **Enter** key_) |keyboard shortcut **Shift+Enter** |
 |Insert Paragraph|keyboard shortcut **Ctrl+Enter** (_Note: If the NewLineMode="P" property is used - **Enter** key_)| **Enter** key|
 
->tip As shown in this table if the **NewLineMode** property is set to "P", the user would be able to use the **RadEditor** with the same experience as in MS Word.
+>note As shown in this table if the **NewLineMode** property is set to "P", the user would be able to use the **RadEditor** with the same experience as in MS Word.
 
 ## List of the Updated Commands
 
@@ -58,7 +58,7 @@ If the **NewLineMode** property is used with its default value ("Br") some known
 
 ## How to Get the Old Behavior Back
 
->tip For the convenience of the developers who are using the functionality to roll-back the behavior, we want to assure you that the following JavaScript files	will be included in all the future releases of the Telerik® UI for ASP.NET AJAX suite. Also it should be noted that they are deprecated and there will be no further implementation in their logic.
+>note For the convenience of the developers who are using the functionality to roll-back the behavior, we want to assure you that the following JavaScript files	will be included in all the future releases of the Telerik® UI for ASP.NET AJAX suite. Also it should be noted that they are deprecated and there will be no further implementation in their logic.
 
 In order to ease the transition between the old and the new behavior of the commands and allow the developers to decide whether to implement or not the introduced breaking change,there is a built-in ability that offers the possibility of bringing back their old behavior.
 
@@ -76,7 +76,7 @@ And for the inline commands - the **LegacyInlineCommands.js** script file which 
 <script type="text/javascript" src="<%= Page.ClientScript.GetWebResourceUrl(typeof(RadEditor), "Telerik.Web.UI.Editor.RadEditor.Commands.LegacyInlineCommands.js") %>"></script>
 ````
 
->tip Please, note that the JavaScript files has to be included **after** the page's Script Manager in order to override the default commands.
+>note Please, note that the JavaScript files has to be included **after** the page's Script Manager in order to override the default commands.
 
 
 

@@ -14,7 +14,7 @@ position: 2
 
 The **Sass Theme Builder** tool enables you to upload your own theme that you have previously created. You just need to select the *Import existing theme* option.
 
->tip You must upload the **primitives.scss** file or both **ScssPrimitives.json** and **UsedControls.json** files if you had used the previos version of the Theme Builder.
+>note You must upload the **primitives.scss** file or both **ScssPrimitives.json** and **UsedControls.json** files if you had used the previos version of the Theme Builder.
 
 >tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
 

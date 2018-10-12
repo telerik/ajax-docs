@@ -28,9 +28,9 @@ In a new AJAX Enabled Web Application:
 
 1. Add the DataGrid, RadEditor and label controls to your page. You can paste the ASP markup shown below.
 
->tip The key portion of markup to notice in the example below is the tag **EditItemTemplate** that contains the **RadEditor** .You can bind text from the database to the editor by assigning the **Content** property with an **Eval** statement:
+>note The key portion of markup to notice in the example below is the tag **EditItemTemplate** that contains the **RadEditor** .You can bind text from the database to the editor by assigning the **Content** property with an **Eval** statement:
 >Content='<%# Eval("Body") %>'
->tip that this is done as an attribute of the `<telerik:RadEditor>` tag and not within the `<Content>` child element. Also note that the **Eval** statement is surrounded in single quotes.
+>Note that this is done as an attribute of the `<telerik:RadEditor>` tag and not within the `<Content>` child element. Also note that the **Eval** statement is surrounded in single quotes.
 >
 
 

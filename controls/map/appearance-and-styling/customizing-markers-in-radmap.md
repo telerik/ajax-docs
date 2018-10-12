@@ -90,7 +90,7 @@ In order to change the marker color, you will need to decorate the **:before** p
 
 Optionally, you can also change the marker size (**Figure 2**) by changing the font-size value of the **:before** pseudo element (**Example 3**).
 
->tip Changing the marker’s size will always cause the marker to be	rendered at an incorrect position according the longitude and latitude	values. The [Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltips-and-markers-positions) section explains how to handle this situation.
+>note Changing the marker’s size will always cause the marker to be	rendered at an incorrect position according the longitude and latitude	values. The [Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltips-and-markers-positions) section explains how to handle this situation.
 
 >caption **Figure 2**: Reduced Marker’s size using the CSS from **Example 3**.
 
@@ -109,7 +109,7 @@ Optionally, you can also change the marker size (**Figure 2**) by changing the f
 
 In order to replace the **Marker**’s glyph icon with an actual image, you should first reset the **:before** pseudo element’s decoration, and use the CSS selector to apply the styles needed to show the image.
 
->tip In order to apply the image, the **Marker** ’s span element should be resized. This will break the position of the marker. To fix that, see the [Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltips-and-markers-positions) section.
+>note In order to apply the image, the **Marker** ’s span element should be resized. This will break the position of the marker. To fix that, see the [Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltips-and-markers-positions) section.
 
 >caption **Example 4**: Replacing the glyph icon with an image.
 

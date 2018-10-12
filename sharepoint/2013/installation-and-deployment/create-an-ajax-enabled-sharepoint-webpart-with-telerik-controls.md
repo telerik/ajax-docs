@@ -29,7 +29,7 @@ The following steps describe the creation of the WebPart:
 
 		<%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>    
 
-	>tip Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
+	>note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 1. This is all the preparation you need to start using Telerik® UI for ASP.NET AJAX in your Visual WebPart. Simply add the following code in the ASCX file of the web part and in its code-behind. It will insert a RadRotator control that is data-bound to the **Images** library of the site collection:

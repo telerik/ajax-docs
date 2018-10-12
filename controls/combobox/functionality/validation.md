@@ -12,13 +12,13 @@ position: 2
 
 
 
->tip The built-in ASP.NET validation can be used to validate the **RadComboBox** control.
+>note The built-in ASP.NET validation can be used to validate the **RadComboBox** control.
 >
 
 
 To validate the content of RadComboBox, you just need to specify its **ID** in the **ControlToValidate** property of the validator. Validation is performed against the current **Text** property of the RadComboBox (the **Text** property of the currently selected item or the custom text entered in the RadComboBox' input field).
 
->tip RadComboBox is validated by the **Text** property set to the items as these items not always have Values.
+>note RadComboBox is validated by the **Text** property set to the items as these items not always have Values.
 >
 
 

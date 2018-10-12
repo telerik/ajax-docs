@@ -38,7 +38,7 @@ No matter which pager you choose, the meaning of the different parameters is as 
 
 * {5} is the total number of items (records) in the data source.
 
->tip The ' **{4}** ' parameter is mandatory when setting the property. **'Page {0} of {1}, items {2} to {3} of {5}** ' represents the text message displayed on the right side of the pager item. Setting this part of the property is optional.
+>note The ' **{4}** ' parameter is mandatory when setting the property. **'Page {0} of {1}, items {2} to {3} of {5}** ' represents the text message displayed on the right side of the pager item. Setting this part of the property is optional.
 >
 
 
@@ -144,6 +144,6 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Slider/Text Pager Mode](images/RadGrid_PagerMode_Slider_PagerText.jpg)
 
->tip In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString** property.
+>note In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString** property.
 >
 

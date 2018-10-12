@@ -24,7 +24,7 @@ Classes that are also present in the **[ContentAreaCssFile]({%slug editor/managi
 
 ## Using the CssClasses Collection Declaratively
 
->tip As of **Q3 2015**, **Apply CSS Class** can apply classes to block elements. To instruct the tool to do so, you should add a CSS rule with a selector of this type—`[tag].[classname]`. For example, `p.red-background`. 
+>note As of **Q3 2015**, **Apply CSS Class** can apply classes to block elements. To instruct the tool to do so, you should add a CSS rule with a selector of this type—`[tag].[classname]`. For example, `p.red-background`. 
 
 In the **RadEditor** declaration, add **EditorCssClass** elements to **CssClasses**. In the example below, all three CSS classes are listed along with a "Clear Class" entry. If the **CssClasses** tag is empty, all available classes will be listed.
 
@@ -124,7 +124,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
 </root>			
 ````
 
->tip Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g., for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of the **CssClasses** collection.
+>note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g., for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of the **CssClasses** collection.
 
 ## See Also
 

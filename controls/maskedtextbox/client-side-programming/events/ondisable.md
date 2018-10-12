@@ -15,7 +15,7 @@ position: 4
 
 The **OnDisable** client-side event handler is called when the input control is disabled.
 
->tip The **OnDisable** event is supported by all **RadInput** controls.
+>note The **OnDisable** event is supported by all **RadInput** controls.
 >
 
 

@@ -24,7 +24,7 @@ As of Q2 2012 RadComboBox provides support for client templates. The template it
 >important Client templates **couldn't** contain server-side controls.
 >
 
->tip When a WCF service is used, the Attributes collection is serialized as an array of Name-Value pairs, and inside the ClientTemplate the attributes are accessed by index: **#=Attributes[0].Value#**
+>note When a WCF service is used, the Attributes collection is serialized as an array of Name-Value pairs, and inside the ClientTemplate the attributes are accessed by index: **#=Attributes[0].Value#**
 >
 
 

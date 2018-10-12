@@ -36,7 +36,7 @@ The **ODataDataSourceID** property of the **RadLiveTile** can be used to set the
 
 The **Value** property of the Tile is used to **transfer information to the web service** that provides the actual data. It can be used to identify the tile that makes the request in order to provide specific data. For more information and examples see the [Pass Data to the Web Service help article]({%slug tilelist/tiles/live-tile/pass-data-to-the-web-service%}). Each load-on-demand type is shown with a simple example that also shows how to consume the Value property.
 
->tip The examples below show specific functionality for the given tile type, for more information on the general options for navigation and selecting please examine the additional resources at the end of the article.
+>note The examples below show specific functionality for the given tile type, for more information on the general options for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

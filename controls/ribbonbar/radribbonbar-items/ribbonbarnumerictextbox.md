@@ -24,7 +24,7 @@ The **RibbonBarNumericTextBox** has a few important properties, which are listed
 
 * **Suffix** - gets or sets a string that is appended to the value of the NumericTextBox in the input element.
 
->tip The **Prefix** and **Suffix** values can be used simultaneously.
+>note The **Prefix** and **Suffix** values can be used simultaneously.
 >
 
 

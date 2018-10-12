@@ -40,11 +40,11 @@ Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, **R
 
 
 
->tip RadAjaxManagerProxy can be used for design-time configuration only. It does not have a client-side object, methods or events!
+>note RadAjaxManagerProxy can be used for design-time configuration only. It does not have a client-side object, methods or events!
 >
 
 
->tip If one still needs the manager instance at the code of a WebUserControl for example so that an AJAX request need to be triggered explicitly, she can get the manager by **RadAjaxManager.GetCurrent()** method call. The method will return null if there is no manager on the page, similar to[ASP:ScriptManager implementation](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
+>note If one still needs the manager instance at the code of a WebUserControl for example so that an AJAX request need to be triggered explicitly, she can get the manager by **RadAjaxManager.GetCurrent()** method call. The method will return null if there is no manager on the page, similar to[ASP:ScriptManager implementation](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
 >
 
 

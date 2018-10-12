@@ -52,7 +52,7 @@ The **general appearance** of the tiles is primarily controlled through the spec
 
 * Setting the **Width** and **Height** of each tile will override their default size.
 
-	>tip Custom dimensions are supported only for **[standalone tiles](http://demos.telerik.com/aspnet-ajax/tilelist/examples/standalonetiles/defaultcs.aspx)** and they can break the layout when used for tiles inside a **RadTileList**. Tiles used in a **TileList** only support the built-in dimensions (the **Wide** and **Square** options in the **Shape** property).
+	>note Custom dimensions are supported only for **[standalone tiles](http://demos.telerik.com/aspnet-ajax/tilelist/examples/standalonetiles/defaultcs.aspx)** and they can break the layout when used for tiles inside a **RadTileList**. Tiles used in a **TileList** only support the built-in dimensions (the **Wide** and **Square** options in the **Shape** property).
 
 
 

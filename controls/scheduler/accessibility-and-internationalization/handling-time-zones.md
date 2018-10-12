@@ -22,13 +22,13 @@ To overcome these problems **RadScheduler** defines the **TimeZoneID** property.
 
 ![scheduler timezones](images/scheduler_timezones.png)
 
->tip In order to allow selecting individual timezone for each Appointment in the Advanced Form the "EnableCustomTimeZones" property can be set. If it is set to "True"all the appointments inherit the **TimeZone of RadScheduler** 
+>note In order to allow selecting individual timezone for each Appointment in the Advanced Form the "EnableCustomTimeZones" property can be set. If it is set to "True"all the appointments inherit the **TimeZone of RadScheduler** 
 >
 
 
 ![scheduler timezone advanced Form](images/scheduler_timezone_advancedForm.png)
 
->tip If **TimeZoneID** property is not set the **TimeZoneOffset** property is applied. In this case during data binding **RadScheduler** assumes all dates to be UTC.If you use a custom provider or create the Appointment objects programmatically you should take care to convert the date-times to UTC by calling DateTime.ToUniversalTime() or by other appropriate means.
+>note If **TimeZoneID** property is not set the **TimeZoneOffset** property is applied. In this case during data binding **RadScheduler** assumes all dates to be UTC.If you use a custom provider or create the Appointment objects programmatically you should take care to convert the date-times to UTC by calling DateTime.ToUniversalTime() or by other appropriate means.
 >
 
 
@@ -38,7 +38,7 @@ Dateline Standard Time; UTC-11; Samoa Standard Time; Hawaiian Standard Time; Ala
 
 ## Example
 
->tip This excample is showing how the **TimeZoneOffset** can be used in custom scenario without TimeZoneID and DataTimeZone properties.
+>note This excample is showing how the **TimeZoneOffset** can be used in custom scenario without TimeZoneID and DataTimeZone properties.
 >
 
 

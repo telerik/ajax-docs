@@ -14,7 +14,7 @@ position: 11
 
 The **OnMouseOut** client-side event handler is called when the mouse moves off the input area of the control.
 
->tip The **OnMouseOut** event is supported by all **RadInput** controls.
+>note The **OnMouseOut** event is supported by all **RadInput** controls.
 >
 
 

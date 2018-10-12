@@ -72,7 +72,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
->tip The **Text** property of RadEditor returns editor content as pure text. It does convert `<BR/>` tags into `\n` lines correctly - so, if the editor content is loaded in a textarea, it will display those new lines correctly.
+>note The **Text** property of RadEditor returns editor content as pure text. It does convert `<BR/>` tags into `\n` lines correctly - so, if the editor content is loaded in a textarea, it will display those new lines correctly.
 >
 >However, if the content is loaded back into the editor, of course, there is a problem, because the "\n" symbols mean nothing in HTML and they will be simply ignored by the browser. So, to display content in several lines, use code similar to the following example:
 >

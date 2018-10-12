@@ -28,7 +28,7 @@ To use the Upload tab of the image dialog you would need to set two properties: 
 
 In addition, the Upload tab will remain disabled if the path is wrong or the **UploadImagesPaths** folder does not exist.
 
->tip `mypics` variable is an array of strings and that the Images folder must be:
+>note `mypics` variable is an array of strings and that the Images folder must be:
 >
 * a subdirectory of your web application or
 * a virtual directory of your web application that has a physical path pointing outside of your web application.

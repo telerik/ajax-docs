@@ -42,7 +42,7 @@ For each **RadComboBoxItem**,
 
 * **ToolTip** is a string that appears in the tooltip window when the user hovers the mouse over the item in the drop-down list.
 
->tip Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
+>note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
 
@@ -50,7 +50,7 @@ For each **RadComboBoxItem**,
 
 * **Selected** lets you control which item is initially selected when the **RadComboBox** first appears.
 
->tip Only one item can be selected at a time. If you set **Selected** to **True** for an item, the **Selected** property of all other items is automatically set to **False** .
+>note Only one item can be selected at a time. If you set **Selected** to **True** for an item, the **Selected** property of all other items is automatically set to **False** .
 >
 
 

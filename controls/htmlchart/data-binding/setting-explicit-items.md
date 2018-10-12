@@ -16,17 +16,17 @@ The data that will be displayed in the **RadHtmlChart** can be declared in sever
 
 * **Declarative Creation** - Setting items in the markup (statically) using the **SeriesItems** collection of the desired chart series. See the "In 2010 (Markup)" ColumnSeries in **Example 1**.
 
-	>tip  **SeriesItems** from the markup take precedence over data loaded from the **DataSource** . See "In 2011	(Markup and DataSource)" ColumnSeries in the code in **Example 1** for details.
+	>note  **SeriesItems** from the markup take precedence over data loaded from the **DataSource** . See "In 2011	(Markup and DataSource)" ColumnSeries in the code in **Example 1** for details.
 
 
 * **DataBinding** - The **DataFieldY** property of each series indicates the column from the data source that is used to load data for the **SeriesItems**. The "Upper Threshold (DataSource)" **LineSeries**	in **Example 1** is an example of this.
 
-	>tip The chart must be data bound to a data source that contains the given column.
+	>note The chart must be data bound to a data source that contains the given column.
 
 
 * **Programmatic Creation** – You can create **SeriesItems** on the server like any other objects and then add them to the **SeriesItems** collection of the desired series. The **LineSeries** named "Lower Threshold(Programmatic)" in **Example 1** uses this approach.
 
-	>tip Such items are added after items declared in the markup and override any data binding.
+	>note Such items are added after items declared in the markup and override any data binding.
 
 * **Declarative and Programmatic Creation** – You can create **SeriesItems** programmatically and then add them to an existing	**SeriesItems** collection that is set in the markup. **SeriesItems** set in the markup can also be accessed and modified from the code-behind. See the code-behind of "In 2010 (Markup)" **ColumnSeries** in **Example 1** for details.
 

@@ -25,7 +25,7 @@ RadGrid supports grouping of items based on the value of a particular column. To
 
 
 
->tip If you use case sensitive grouping and the grid is populated through **NeedDataSource** event or with **SqlDataSource** you should make the data table **CaseSensitive** .
+>note If you use case sensitive grouping and the grid is populated through **NeedDataSource** event or with **SqlDataSource** you should make the data table **CaseSensitive** .
 >
 
 

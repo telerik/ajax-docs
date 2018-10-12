@@ -14,7 +14,7 @@ position: 8
 
 The **OnFocus** client-side event handler is called when the input control gets focus.
 
->tip The **OnFocus** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
+>note The **OnFocus** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
 >
 
 

@@ -14,7 +14,7 @@ Here you can examine some major differences regarding custom content area styliz
 
 The two approaches give you solutions to decorate and customize the content area of **RadEditor**. However, both of them differ in concepts and behave differently. The following sections will provide a clear view of the logic behind their differences and will help you to decide which approach to use.
 
->tip This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
+>note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 ## Using ContentAreaCssFile property
 

@@ -33,6 +33,6 @@ function GetFirstItemContactNameCell() {
 
 
 
->tip  The **ShowHeader** attribute for the RadGrid/MasterTableView should be set to **true** in order to use this method.
+>note  The **ShowHeader** attribute for the RadGrid/MasterTableView should be set to **true** in order to use this method.
 >
 

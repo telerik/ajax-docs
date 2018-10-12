@@ -68,7 +68,7 @@ The following steps show how to declaratively bind **RadSpreadsheet** to the **T
 
 You have now bound your **RadSpreadsheet** using the **ProviderName** property.
 
->tip The PublicKeyToken in step 1. varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version. Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
+>note The PublicKeyToken in step 1. varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version. Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
 >
 
 ## Binding to a provider at runtime

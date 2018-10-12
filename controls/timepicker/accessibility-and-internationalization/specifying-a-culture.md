@@ -28,7 +28,7 @@ The culture names follow the **RFC 1766** standard in the format "<languagecode2
 All **RadTimePicker** control lets you associate a **CultureInfo** object with the control to govern the formatting and parsing of date and time values. To do this you need to set the **Culture** property of **RadTimePicker**.
 
 
->tip
+>note
 On **RadTimePicker** you can assign a separate **CultureInfo** object to the embedded popup time view control by setting the **Culture** property for it.
 >
 

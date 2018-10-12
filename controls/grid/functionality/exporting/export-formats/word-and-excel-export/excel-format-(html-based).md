@@ -122,7 +122,7 @@ You can see some of the most common custom number formats and their description 
 
 Another interesting feature, supported by the Excel export are the formulas. You can assign the desired formula to a specific cell by applying the **formula** attribute.
 
->tip The formula attribute is valid in the context of the **Office HTML** only. You shouldn't apply this attribute unconditionally in order to prevent validation problems.
+>note The formula attribute is valid in the context of the **Office HTML** only. You shouldn't apply this attribute unconditionally in order to prevent validation problems.
 >
 
 

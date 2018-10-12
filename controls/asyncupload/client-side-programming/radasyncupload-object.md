@@ -55,7 +55,7 @@ function DeleteInvalidFiles() {
 }		
 ````
 
->tip Be careful to use the right index because in different scenarios file inputs may be ordered differently in **RadAsyncUpload** .
+>note Be careful to use the right index because in different scenarios file inputs may be ordered differently in **RadAsyncUpload** .
 >
 
 >caption Example 3: Get the uploaded files names.

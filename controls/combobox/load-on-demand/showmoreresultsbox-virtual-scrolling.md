@@ -18,10 +18,10 @@ Both the **ShowMoreResultsBox** and **Virtual Scrolling** mechanisms fire the **
 
 The **ShowMoreResultsBox** and the **EnableVirtualScrolling** properties let you load portions of the combobox items in each **ItemsRequested** event handler to achieve a faster loading speed.
 
->tip You can use these approaches separately from one another.
+>note You can use these approaches separately from one another.
 >
 
->tip To use the VirtualScrolling mechanism, the **Height** or **MaxHeight** property of the **RadComboBox** should be set.
+>note To use the VirtualScrolling mechanism, the **Height** or **MaxHeight** property of the **RadComboBox** should be set.
 >
 
 
@@ -148,7 +148,7 @@ The context object is used to obtain:
 
 * The number of items per request: **context.NumberOfItems**
 
->tip Note that the WebService's method is of type **RadComboBoxData** unlike the method used in the WebService when the **ShowMoreResultsBox** is disabled. Then, the WebService's method can be either of type **RadComboBoxItemData** or **RadComboBoxData**.
+>note Note that the WebService's method is of type **RadComboBoxData** unlike the method used in the WebService when the **ShowMoreResultsBox** is disabled. Then, the WebService's method can be either of type **RadComboBoxItemData** or **RadComboBoxData**.
 >
 
 

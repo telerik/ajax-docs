@@ -22,7 +22,7 @@ Clicking on the Wholesale slice of the pie navigates to the InternetSalesDetail.
 
 ![Using the drill down](images/radchart-advancedimagemap003.png)
 
->tip In a more complex scenarios you will need to communicate between pages using query strings, Session variables or by filtering database data. Use a Click event handler for the chart or a Click event handler of a specific ActiveRegion to setup the data selection for the detail web page before navigating to it.
+>note In a more complex scenarios you will need to communicate between pages using query strings, Session variables or by filtering database data. Use a Click event handler for the chart or a Click event handler of a specific ActiveRegion to setup the data selection for the detail web page before navigating to it.
 
 # See Also
 

@@ -14,7 +14,7 @@ position: 6
 
 The server-side **Reordered** event occurs when the tabs of the RadTabStrip are reordered.
 
->tip This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
+>note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 The **Reordered** event handler receives two arguments:

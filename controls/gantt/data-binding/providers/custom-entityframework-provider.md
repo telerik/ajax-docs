@@ -114,7 +114,7 @@ End Function
 ````
 
 
->tip  **The Dependency** object should not implement an Update method, as it does not possess such functionality. In addition, the methods should return object of type **Task** and **Dependency**.
+>note  **The Dependency** object should not implement an Update method, as it does not possess such functionality. In addition, the methods should return object of type **Task** and **Dependency**.
 >
 
 * Provide the **RadGantt** control with the newly created custom provider at the Page_Load in the following manner: 

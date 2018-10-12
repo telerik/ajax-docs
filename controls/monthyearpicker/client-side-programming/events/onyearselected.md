@@ -13,7 +13,7 @@ position: 5
 
 The **OnYearSelected** client-side event handler is called immediately after a user select an year cell in the **MonthYearView**.
 
->tip The **OnYearSelected** event is supported by: **RadMonthYearPicker** .
+>note The **OnYearSelected** event is supported by: **RadMonthYearPicker** .
 >
 
 

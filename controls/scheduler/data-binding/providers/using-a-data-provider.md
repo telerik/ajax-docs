@@ -37,7 +37,7 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 	
 
 
->tip The PublicKeyToken varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
+>note The PublicKeyToken varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
 >
 
 

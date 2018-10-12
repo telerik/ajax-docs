@@ -20,7 +20,7 @@ At runtime, **RadScheduler** contains a number of controls for navigating betwee
 
 ![navigating using the view type tabs](images/scheduler_navigationpanel_updated.png)
 
->tip The **UserSelectable** property of the **Multi-Day** view is **false** by default. To display the tab for this view in the navigation pane, you need to set MultiDayView-UserSelectable="true".
+>note The **UserSelectable** property of the **Multi-Day** view is **false** by default. To display the tab for this view in the navigation pane, you need to set MultiDayView-UserSelectable="true".
 >
 
 

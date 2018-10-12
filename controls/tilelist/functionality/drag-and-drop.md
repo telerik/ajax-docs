@@ -17,7 +17,7 @@ position: 3
 
 The drag-and-drop functionality is enabled by setting the TileList's **EnableDragAndDrop** property to **true**. Its default value is *false*.
 
->tip If the end user reorders the tiles this new order will be persisted across postbacks.
+>note If the end user reorders the tiles this new order will be persisted across postbacks.
 
 
 

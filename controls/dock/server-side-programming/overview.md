@@ -22,7 +22,7 @@ The **RadDockLayout** and **RadDock** controls both raise server-side events.
 
 * [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}), which occurs when the application should restore the layout of **RadDock** controls that was saved in a previously-called **SaveDockLayout** event handler.
 
->tip For more information about how these events fit into the lifecycle of the **RadDock** controls, see[RadDock Lifecycle]({%slug dock/structure/dock/lifecycle%}).
+>note For more information about how these events fit into the lifecycle of the **RadDock** controls, see[RadDock Lifecycle]({%slug dock/structure/dock/lifecycle%}).
 >
 
 

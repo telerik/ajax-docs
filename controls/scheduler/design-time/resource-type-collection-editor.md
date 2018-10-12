@@ -16,7 +16,7 @@ The Resource Type Collection Editor lets you define custom resources for additio
 
 To display the Resource Type Collection Editor, open the property pane for **RadScheduler** and click the ellipsis button on the **ResourceTypes** property.
 
->tip The resources you define in the Resource Type Collection Editor are not used if **RadScheduler** gets its data from a[data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
+>note The resources you define in the Resource Type Collection Editor are not used if **RadScheduler** gets its data from a[data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
 >
 
 

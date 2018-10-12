@@ -16,7 +16,7 @@ position: 3
 
 Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the panel declaratively at design time. As with [binding to a DataSet, DataTable, or DataView]({%slug panelbar/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the panel items.
 
->tip The [Binding to a Data Source]({%slug panelbar/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadPanelBar** to an **AccessDataSource** .
+>note The [Binding to a Data Source]({%slug panelbar/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadPanelBar** to an **AccessDataSource** .
 >
 
 

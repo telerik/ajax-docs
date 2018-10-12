@@ -22,7 +22,7 @@ Since **Q2 2014** RadDropDownTree can be bound to a **RadClientDataSource** cont
 
 The code snippet below shows sample configuration of RadDropDownTree bound to RadClientDataSource. The peculiarity of such scenario comes from the fact that the RadDropDownTree represents hierarchical data. Considering that fact we expect such type of data to be returned by the service to the RadClientDataSource.
 
->tip Initially the RadDropDownTree control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
+>note Initially the RadDropDownTree control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
 

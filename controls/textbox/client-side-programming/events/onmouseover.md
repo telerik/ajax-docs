@@ -15,7 +15,7 @@ position: 12
 
 The **OnMouseOver** client-side event handler is called when the mouse moves over the input area of the control.
 
->tip The **OnMouseOver** event is supported by all **RadInput** controls.
+>note The **OnMouseOver** event is supported by all **RadInput** controls.
 >
 
 

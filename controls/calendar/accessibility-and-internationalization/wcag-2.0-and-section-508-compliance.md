@@ -15,7 +15,7 @@ position: 7
 
 **RadCalendar** is fully compliant with XHTML 1.1.
 
->tip 
+>note 
 If the **FrameTemplate** content of **RadCalendar** is not XHTML compliant, then the output of the calendar will also not be XHTML 1.1 content compliant.
 >
 

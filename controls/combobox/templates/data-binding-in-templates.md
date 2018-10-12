@@ -58,7 +58,7 @@ This is hardly useful! To override the **Text** property of the button in the te
 
 In the DataBinder.Eval statement, **Container** is the RadComboBoxItem and **"Text"** identifies the **Text** property of that item. (If you wanted to bind to the **Value** property, you could use the string "Value" instead.)
 
->tip In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the RadComboBox is bound to a data source, the **Container.DataItem** statement should be used instead. That is <%#DataBinder.Eval(Container.DataItem, "Text") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the RadComboBox is bound to a data source, the **Container.DataItem** statement should be used instead. That is <%#DataBinder.Eval(Container.DataItem, "Text") %>
 >
 
 

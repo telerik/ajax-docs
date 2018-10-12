@@ -33,7 +33,7 @@ Alongside the changed layout of the Header, intended to be optimized for small s
 
 ![scheduler-mobilerendering-addappointmentbtn](images/scheduler-mobilerendering-addappointmentbtn.png)
 
->tip You can find more information about the scheduling/editing an appointment in the[Advanced form section]({%slug scheduler/mobile-support/advanced-form%}).
+>note You can find more information about the scheduling/editing an appointment in the[Advanced form section]({%slug scheduler/mobile-support/advanced-form%}).
 >
 
 

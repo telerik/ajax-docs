@@ -26,7 +26,7 @@ There are two basic steps to populate the RadChart with data:
 
 The running application shows ChartSeries members in the Legend and ChartSeriesItem as bars in the plot area.
 
->tip This chart example also displays customization in the legend and axis labels. See [Legends]({%slug chart/understanding-radchart-elements/legends%}) and [Axis Labels]({%slug chart/understanding-radchart-elements/axis-labels%}) for more information.
+>note This chart example also displays customization in the legend and axis labels. See [Legends]({%slug chart/understanding-radchart-elements/legends%}) and [Axis Labels]({%slug chart/understanding-radchart-elements/axis-labels%}) for more information.
 
 ![Completed Chart populated at Design Time](images/radchart-building019.png)
 

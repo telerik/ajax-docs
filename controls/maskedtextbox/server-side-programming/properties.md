@@ -71,5 +71,5 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * The **MaxLength** property determines the maximum length of the text the user can enter into the text box. 
 
->tip The **MaxLength** property must not be used when a Mask is defined. The mask itself clearly defines the exact length of the input.
+>note The **MaxLength** property must not be used when a Mask is defined. The mask itself clearly defines the exact length of the input.
 

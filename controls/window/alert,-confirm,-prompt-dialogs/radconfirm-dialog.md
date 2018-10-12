@@ -61,11 +61,11 @@ RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, nul
 RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, Nothing, "My Confirm", "myConfirmImage.png")	  
 ```` 
 
->tip Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+>note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
 
 >important The **callback function** is a client-side JavaScript function which is executed when the dialog is closed.
 
->tip The **Caller object** parameter should have a null (Nothing) value, as it exists only for backwards compatibility.
+>note The **Caller object** parameter should have a null (Nothing) value, as it exists only for backwards compatibility.
 
 >tip If you change the default image the new one you provide should be 32px by 32px for best results. The string you pass to change the image URL can be:
 >

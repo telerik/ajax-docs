@@ -16,7 +16,7 @@ The **RadHtmlChart** renders an **SVG** or **VML** element that cannot be saved 
 
 Printing anything from a web page ultimately relies on the browser printing engine and the **RadHtmlChart** is not an exception. **Example 1** shows how to use a little JavaScript and CSS to hide everything else on the page can so only the chart will show up.
 
->caution At the time of writing (7th of August, 2012) Safari has a bug with printing gradient images that affects the **RadHtmlChart** as it utilizes them heavily. This means that under Safari the **RadHtmlChart** will not print properly until they fix this problem. The issue can be tracked in [this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
+>warning At the time of writing (7th of August, 2012) Safari has a bug with printing gradient images that affects the **RadHtmlChart** as it utilizes them heavily. This means that under Safari the **RadHtmlChart** will not print properly until they fix this problem. The issue can be tracked in [this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
 
 >caption **Example 1**: Force the browser to print only the Chart's content but not the whole page.
 

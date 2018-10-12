@@ -20,7 +20,7 @@ The **ItemChecked** event occurs when the user checks a new item in the drop-dow
 >
 
 
->tip The CheckBox support of RadComboBox is added in version 2011 Q2. Before then, this functionality is achieved using templates.
+>note The CheckBox support of RadComboBox is added in version 2011 Q2. Before then, this functionality is achieved using templates.
 >
 
 

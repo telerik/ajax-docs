@@ -40,7 +40,7 @@ The settings under the General category affect all of the installed **Telerik Vi
 
 Configures the path where the extensions look for and store distributions.
 
->tip Changing the folder path will not move existing folder contents from your previous path. Please, move your previous folder contents manually in case you still want to use them.
+>note Changing the folder path will not move existing folder contents from your previous path. Please, move your previous folder contents manually in case you still want to use them.
 
 ## Telerik® UI for ASP.NET AJAX Settings
 

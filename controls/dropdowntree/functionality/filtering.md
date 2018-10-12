@@ -16,7 +16,7 @@ position: 5
 
 As of **Q2 2013** we introduced the filtering functionality in the RadDropDownTree. It is enabled through the **EnableFiltering** property of the RadDropDownTree control. By using the following **FilterSettings** the user can further customize the functionality:
 
->tip Note that the filtering functionality can not be used in a combination with WebService and it is not case sensitive.
+>note Note that the filtering functionality can not be used in a combination with WebService and it is not case sensitive.
 >
 
 

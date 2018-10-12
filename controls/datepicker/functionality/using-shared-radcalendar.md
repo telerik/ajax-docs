@@ -47,7 +47,7 @@ Do not set the **AutoPostBack** property to **True** . A popup control cannot wo
 
 
 
->tip 
+>note 
 When you assign the ID of a **RadCalendar** control as the value of a **SharedCalendarID** property, it is automatically hidden from view in the rendered Web Page. You do not need to do anything additional to hide it.
 >
 

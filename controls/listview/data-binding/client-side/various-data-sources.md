@@ -566,7 +566,7 @@ When automatically binding to web services, RadListView uses a set of default va
 | **StartRowIndexParameterName** |"startRowIndex"|"$skip"|
 | **MaximumRowsParameterName** |"maximumRows"|"$top"|
 
->tip The **DataPropertyName** and **CountPropertyName** settings specify names of fields in the JSON response that RadListView will look for when retrieving data and row count. The rest of the settings specify parameter names that RadListView adds when making HTTP requests to a service. In a **POST** request, parameters are sent as a JSON-encoded object with the specified fields, while using **GET** requests, RadListView sends a query string with the specified parameters appended to the service URL.
+>note The **DataPropertyName** and **CountPropertyName** settings specify names of fields in the JSON response that RadListView will look for when retrieving data and row count. The rest of the settings specify parameter names that RadListView adds when making HTTP requests to a service. In a **POST** request, parameters are sent as a JSON-encoded object with the specified fields, while using **GET** requests, RadListView sends a query string with the specified parameters appended to the service URL.
 >
 
 

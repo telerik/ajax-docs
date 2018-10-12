@@ -22,7 +22,7 @@ position: 5
 
 The following example demonstrates this approach, using the **OnClientSubmitting** event handler.
 
->tip The example below works only with **LinkButton** or other controls that use the **__doPostBack** function to initiate postback, such as **DropDownList** or **CheckBox** with **AutoPostBack=true** . It will not work with a regular **ASP:Button** . If you need to use **ASP:Button** , you must set its **UseSubmitBehavior** property to **false** .
+>note The example below works only with **LinkButton** or other controls that use the **__doPostBack** function to initiate postback, such as **DropDownList** or **CheckBox** with **AutoPostBack=true** . It will not work with a regular **ASP:Button** . If you need to use **ASP:Button** , you must set its **UseSubmitBehavior** property to **false** .
 >
 
 

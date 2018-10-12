@@ -26,7 +26,7 @@ As from Q1 2013, RadComboBox introduces the new **RenderMode** property, which a
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used browser - **Classic** or **Lightweight**. This functionality was added in Q3 2013.
 
->tip The "RenderingMode" property of the RadComboBox is now obsoleted.
+>note The "RenderingMode" property of the RadComboBox is now obsoleted.
 >
 
 

@@ -16,7 +16,7 @@ As of Q3 2013 the new **Agenda View** is introduced for the **RadScheduler** con
 
 The **Agenda View** is a table structured like a simple list, which lists appointments for a specific period of time that is defined by the property **NumberOfDays**.
 
->tip Please note that each Appointment represents a separate row. Unlike the other available views in the **RadScheduler** , it doesn’t have empty rows/cell representing timeslots since days with no appointments are not shown. Therefore user is not able to insert, move or resize appointments . However, editing is allowed and a delete operation could be achievedby using the delete handler shown on hover.
+>note Please note that each Appointment represents a separate row. Unlike the other available views in the **RadScheduler** , it doesn’t have empty rows/cell representing timeslots since days with no appointments are not shown. Therefore user is not able to insert, move or resize appointments . However, editing is allowed and a delete operation could be achievedby using the delete handler shown on hover.
 >
 
 
