@@ -1,0 +1,43 @@
+---
+layout: index
+---
+<div id="page-inner-content">
+    <div id="page-nav">
+        <div id="page-tree"></div>
+        <script>
+            $("#page-tree").kendoTreeView({
+                dataSource: {
+                    transport: {
+                        read: {
+                            url: "{{site.baseurl}}/{{page.category}}.json",
+                            dataType: "json"
+                        }
+                    },
+                    schema: {
+                        model: {
+                            id: "path",
+                            children: "items",
+                            hasChildren: "items"
+                        }
+                    }
+                },
+                select: preventParentSelection,
+                template: navigationTemplate("{{site.baseurl}}/"),
+                dataBound: expandNavigation("{{page.url | remove_first: '/' }}")
+            });
+        </script>
+    </div>
+
+    <a id="page-edit-link" class="btn btn-action" href="https://github.com/telerik/ajax-docs/edit/master{{ page.url | replace: '.html','' }}.md">Edit this page</a>
+
+    {% if page.kind == "api" %}<div id="markdown-toc"></div>{% endif %}
+
+    <div id="page-article">
+        <article>
+            {{ content }}
+        </article>
+{% if site.ff-sheet-id %}{% include feedback-form.html %}{% endif %}
+    </div>
+</div>
+
+{% include footer.html %}
