@@ -1738,8 +1738,9 @@ defaults:
     scope:
         path: ""
     values:
-        layout: "documentation"
+        layout: "page"
         category: "default"
+        product: "aspnet-ajax"
 -
     scope:
         path: "api"
@@ -1758,45 +1759,6 @@ ff-sheet-id: 151ze-U5jubCYVfw9f8ZMJJv9hr1a_bSJCV8-Fmi2nQU
 google_analytics: UA-1119090:eblhnfskwrk'
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:hu79u-xean0'
-
-
-edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
-product: "Telerik UI for ASP.NET AJAX"
-platform: aspnet-ajax
-download: https://www.telerik.com/products/aspnet-ajax/download.aspx 
-nav:
-  "Demos": https://demos.telerik.com/aspnet-ajax
-  "Release History": https://www.telerik.com/support/whats-new/wpf/release-history
-  "About": https://www.telerik.com/products/aspnet-ajax
-  "Pricing": https://www.telerik.com/purchase/individual/aspnet-ajax
-
-footer:
--
-  title: "Getting Started"
-  links:
-    "Install Now": https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax
-    "Demos": http://demos.telerik.com/aspnet-ajax/
-    "Responsive Demos": http://demos.telerik.com/responsive-web-design-aspnet/samples.aspx
-    "Sample Applications": https://www.telerik.com/aspnet-ajax/sample-applications
--
-  title: "Support Resources"
-  links: 
-    "Code Library": https://www.telerik.com/support/code-library/aspnet-ajax
-    "Knowledge Base": https://www.telerik.com/support/kb/aspnet-ajax
-    "Training": https://www.telerik.com/aspnet-ajax/trainings
--
-  title: "Community"
-  links:
-    "Forums": https://www.telerik.com/forums/aspnet-ajax
-    "Blogs": https://www.telerik.com/blogs/.net
-    "Feedback Portal": http://feedback.telerik.com/Project/108
-    "Document Processing Feedback Portal": http://feedback.telerik.com/Project/184
-  
-footer_social: 
-    facebook: https://www.facebook.com/Telerik/
-    youtube: https://www.youtube.com/user/TelerikInc
-    linkedin: https://www.linkedin.com/showcase/telerik/ 
-    twitter: https://twitter.com/Telerik/ 
 
 # Assets pipeline configuration
 assets:
