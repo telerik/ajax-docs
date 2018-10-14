@@ -127,7 +127,9 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Alpha** |Gets or Sets the Alpha value of the color filling the PlotBand. Uses values of type **byte** .|
 | **Color** |Gets or Sets the color filling the PlotBand. It can take a common color name or a hex value (e.g., "red", "#ff0000") when set in the markup and a value of type **System.Drawing.Color** when set in the code behind.|
 | **From** |Gets or Sets the PlotBand's starting point. Takes a decimal with the value of the starting point.|
+| **FromDate** |Gets or Sets the PlotBand's starting date for use with a date axis. Takes a DateTime object and serializes its individual values without converting. Available as of R1 2019.|
 | **To** |Gets or Sets the PlotBand's ending point. Takes a decimal with the value of the ending point.|
+| **ToDate** |Gets or Sets the PlotBand's ending date for use with a date axis. Takes a DateTime object and serializes its individual values without converting. Available as of R1 2019.|
 
 ## Attribute Properties in [Axis] > TitleAppearance
 
