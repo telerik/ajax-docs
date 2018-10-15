@@ -145,3 +145,5 @@ call the various client-side functions
  * [RadWindowManager Object]({%slug window/client-side-programming/radwindowmanager-object%})
 
  * [RadWindowManager Object]({%slug window/client-side-programming/radwindowmanager-object%})
+ 
+ Propose file change
