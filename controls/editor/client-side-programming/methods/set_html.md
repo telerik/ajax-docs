@@ -45,4 +45,22 @@ The example below demonstrates how to clean the content in the content area from
 </script> 
 ````
 
+>caption Avoid calling set_html() in Preview Mode, because the content is no longer editable in this mode and tampering with it can cause errors. Here's how to make sure you avoid that:
+
+````ASP.NET
+<script>
+	function setNewContent() {
+		var editor = $find("<%=RadEditor1.ClientID%>");
+		if (editor.get_mode() < 4) { //1 and 2 are Design and HTML modes respectively
+			editor.set_html("new content " + new Date());
+		}
+	}
+</script>
+<asp:Button Text="set content" OnClientClick="setNewContent(); return false;" runat="server" />
+<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight">
+	<Content>
+	lorem ipsum
+	</Content>
+</telerik:RadEditor>
+````
 
