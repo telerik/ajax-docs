@@ -141,3 +141,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 End Sub
 ````
 
+## Remarks
+
+The information provided by the Telerik device detection framework is based on statistical data collected by Telerik. There is no official information by the mobile device vendors that connects specific User Agent strings with screen sizes. Also, the User Agent string of a device may change over time without notice. One must also consider that the physical pixels may not always match logical pixels. With all this in mind, there may be some inacuracies in the RadDeviceDetectionFramework information for some rare cases.
+
