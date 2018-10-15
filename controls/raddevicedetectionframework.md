@@ -145,3 +145,5 @@ End Sub
 
 The information provided by the Telerik device detection framework is based on statistical data collected by Telerik. There is no official information by the mobile device vendors that connects specific User Agent strings with screen sizes. Also, the User Agent string of a device may change over time without notice. One must also consider that the physical pixels may not always match logical pixels. With all this in mind, there may be some inacuracies in the RadDeviceDetectionFramework information for some rare cases.
 
+For example, all iPhone models report the same User Agent string, so there is no way to tell which device is requesting the page and what size its screen is. This is why RadDeviceDetectionFramework returns the size of an iPhone 8 as a median solution.
+
