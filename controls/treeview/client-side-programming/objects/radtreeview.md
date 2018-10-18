@@ -33,7 +33,7 @@ The table below lists the most important functions of the client-side **RadTreeV
 | **findNodeByAbsoluteUrl** |(string URL)|RadTreeNode|Returns the first RadTreeNode object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should ends with '/' like:var item = sender.findNodeByAbsoluteUrl('http://www.test.com/');|
 | **get_selectedNodes** |none|Array|Gets an Array of all selected Nodes (useful when MultipleSelect property is on). (see **Example 5**)|
 |  **unselectAllNodes**  | none | none | Un-selects all Nodes at all levels of the tree. (see **Example 6**) |
-|  **get_nodes**  | none | Telerik.Web.UI.RadTreeNodeCollection | Returns the root level RadTreeNodeCollection. This example iterates the root level Nodes. (see *Example 7**)|
+|  **get_nodes**  | none | Telerik.Web.UI.RadTreeNodeCollection | Returns the root level RadTreeNodeCollection. This example iterates the root level Nodes. (see **Example 7**)|
 |  **get_allNodes**  | none | Array of RadTreeNode objects | Returns an array of all the Nodes within the TreeView. (see **Example 8**)|
 |  **get_selectedNode**  | none | none | Gets the instance of the currently selected Node. Null if none. (see **Example 9**)|
 |  **get_id**  | none | string | Gets the server ID of the control. (see **Example 10**)|
@@ -73,11 +73,14 @@ function AddNode() {
     var tree = $find("<%= RadTreeView1.ClientID %>");
     tree.trackChanges();
     var node = new Telerik.Web.UI.RadTreeNode();
-    node.set_text("New Node");
     tree.get_nodes().add(node);
+    node.set_text("New Node");
     tree.commitChanges();
 }		
 ````
+
+>note When adding a node client-side, the node should be created, added to the nodes collection and then has its properties customized.
+
 
 >caption Example 2: Demonstrates the usage of the findNodeByText method
 ````JavaScript
