@@ -69,6 +69,6 @@ Register the external scripts in **RadScriptManager**. The paths to the files ca
 
 * The **EnableScriptCombine** property defaults to **True**, therefore, external script files registered with RadScriptManager are combined in one WebResource file.
 
-* A built-in cache buster is not implemented in RadScriptManager and if implemented manually, script files will not be combined with the rest of the resources. 
+* A built-in cache buster is not implemented in RadScriptManager and if created manually, script files will not be combined with the rest of the resources. 
 
     * _**Cache buster** is a method that can be applied to resource files to force the browser request the file again from the server instead of loading it from cache. One common scenario is by using querystring in the file's path. E.g._ `/path/to/script.js?v=2`"
