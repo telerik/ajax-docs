@@ -41,6 +41,8 @@ Telerik RadEditor for SharePoint 2010 can be easily used as a cross-browser rich
 
 4. **IMPORTANT!** If you still see the default editor or a simple textbox after you activate the RadEditor feature(s), you might need to open a command prompt window and type **`iisreset`** to reset the Internet Information Server. This will prevent problems caused by caching.
 
+* Video demo: [Enable RadEditor for editing page content](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Enable-RadEditor-for-editing-page-content)
+
 ## Using SharePoint Designer
 
 * Open a page in the **Microsoft Office SharePoint Designer 2010**. Select the page you wish to modify and choose **Edit Page Layout**.
