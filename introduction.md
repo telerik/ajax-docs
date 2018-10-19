@@ -25,6 +25,8 @@ If you are a new user, we recommend that you **follow the [First Steps]({%slug g
 
 Here are quick links to the control-specific sections of our documentation:
 
+{% include intro-page-table.html %}
+<!-- 
 * [AjaxLoadingPanel]({%slug ajaxloadingpanel/overview%})
 
 * [AjaxManager]({%slug ajaxmanager/overview%})
@@ -213,7 +215,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [XmlHttpPanel]({%slug xmlhttppanel/overview%})
 
-* [Zip Library]({%slug radziplibrary-overview%})
+* [Zip Library]({%slug radziplibrary-overview%}) -->
 
 
 Telerik® UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5, 4.6 and 4.7. The same assemblies work for both 32-bit and 64-bit machines.
