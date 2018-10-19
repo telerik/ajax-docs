@@ -24,7 +24,7 @@ RadGrid exposes the ValidationSettings class to give you control over the valida
 
 * **EnableValidation** - A boolean value indicating whether the grid values should be validated upon submit.
 
-* **ValidationGroup** - A property used to set a ValidationGroup for the grid control, so that it is validated only along a certain group of controls having the same group name.
+* **ValidationGroup** - A property used to set a ValidationGroup for the grid control, so that it is validated only along a certain group of controls having the same group name. By default, the grid does not have a validation group set, so if you set one for your validators, make sure to set it for the grid as well.
 
 ## Adding a validator to an edit field in Telerik RadGrid
 
