@@ -47,3 +47,8 @@ RadEditor for SharePoint is a modified version of the Telerik RadEditor control 
 
 * Ability to have editors with different skins on the same page
 
+## See Also
+* [Insert Built-in RadEditor WebPart to a page](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Insert-Built-in-RadEditor-WebPart-to-a-page) (Video)
+* [Create Custom RadEditor WebPart](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Create-Custom-RadEditor-WebPart) (Video)
+* [Enable RadEditor for editing page content](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Enable-RadEditor-for-editing-page-content) (Video)
+* [Enable RadEditor for editing lists](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Enable-RadEditor-for-editing-lists) (Video)
