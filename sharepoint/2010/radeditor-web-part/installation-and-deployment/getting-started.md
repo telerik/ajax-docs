@@ -42,6 +42,7 @@ Follow the steps below to add a new RadEditor Web Part to a given page.
 
 ## See Also
 
+ * [Enable RadEditor for editing lists](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/enabling-radeditor-in-sharepoint#Enable-RadEditor-for-editing-lists) (Video)
  * [Migrating Default Rich-text Editor Web Parts]({%slug sharepoint/2010/radeditor-web-part/migration-and-upgrade/migrating-default-rich-text-editor-web-parts%})
 
  * [List Items Scenario]({%slug sharepoint/2010/radeditor-web-part/installation-and-deployment/list-items-scenario%})
