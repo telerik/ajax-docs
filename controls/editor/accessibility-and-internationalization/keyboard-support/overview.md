@@ -99,6 +99,6 @@ or using the **ShortCut** attribute of the `<tool>` item in the ToolsFile.xml fi
 <tool name="Paste" shortcut="CTRL+V" />
 ````
 
->tip The shortcut mechanism will override the default shortcut of the browser, like **Ctrl+N, Ctrl+F, Ctrl+P**, so you can use those combinations for custom purposes.
+>tip The shortcut mechanism can override some of the default shortcuts of the browser, like **Ctrl+A, Ctrl+C, Ctrl+J**, so you can use those combinations for custom purposes. Other combinations like **Ctrl+N, Ctrl+T, Ctrl+W** are reserved to Chrome and Firefox and not available to scripts.
 
 >tip @[template](/_templates/editor/keyboard-support.md#cmd-on-mac)
