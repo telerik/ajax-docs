@@ -60,13 +60,6 @@ The following steps will guide you adding the **TypeScript** definitions in the 
 
 1. Write your code as if it were in a standard JavaScript file. This means that you cannot use server code blocks and that browsers will tend to cache this file, so you need to do a full reload (usually Ctrl+F5) to get the new version.
 
-## Adding the TypeScript Definitions from the Configuration Wizard
-
-When you create a Web Application with the help of the [Telerik Creation and Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}), you can add the **TypeScript** definitions needed with a single click of a checkbox.
-
->caption Figure 4: Using Configuration Wizard to add TypeScript definitions to the project.
-
-![typescript-add-definitions-vsx](images/typescript-add-definitions-vsx.png)
 
 ### See Also
 
