@@ -18,11 +18,11 @@ In order to validate the input in RadGrid when editing and inserting records, yo
 
 RadGrid exposes the ValidationSettings class to give you control over the validation on submit inside the control. The available properties are:
 
-* **CommandsToValidate** - An array of string used to list the names of the commands which will trigger validation in RadGrid.
+* **EnableValidation** - A boolean value indicating whether the grid values should be validated upon submit. Defaults to `true`.
+
+* **CommandsToValidate** - An array of string used to list the names of the commands which will trigger validation in RadGrid. By default, they are `"PerformInsert, Update"`.
 
 * **EnableModelValidation** - A boolean value indicating whether model validation should be enabled.
-
-* **EnableValidation** - A boolean value indicating whether the grid values should be validated upon submit.
 
 * **ValidationGroup** - A property used to set a ValidationGroup for the grid control, so that it is validated only along a certain group of controls having the same group name. By default, the grid does not have a validation group set, so if you set one for your validators, make sure to set it for the grid as well.
 
