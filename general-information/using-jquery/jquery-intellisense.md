@@ -28,6 +28,30 @@ Separate sections below explain the cases for the different Visual Studio versio
 
 ## Visual Studio 2017
 
+Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
+
+![revert to old JS service](../images/revert-to-old-language-service.png)
+
+With this, you can use the old JavaScript documenttion like in [Visual Studio 2012 and Visual Studio 2013 with Q3 2012 or later](#jquery-intellisense-in-vs-2012-and-vs-2013-using-telerik-ui-for-aspnet-ajax-q3-2012-or-later).
+
+````ASP.NET
+<!-- This can enable the old JS intellisense for the current page -->
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+	<Scripts>
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+	</Scripts>
+</asp:ScriptManager>
+<script>
+	function doWork() {
+		var bounds = $telerik.getBounds(document.getElementById("someElement"));
+	}
+</script>
+````
+
+![use static methods intellisense with old language service](images/telerik-static-intellisense-vs2017-old-service.png)
+
+The only difference is that creating custom Intellisense pages is no longer possible, and you need to use an `<asp:ScriptManager>` with the Telerik `Core.js` reference in all pages you want Intellisense in. An `<asp:ScriptManagerProxy>` does not work for user controls, and neither can be added in `.js` files, so your other option is to read onward and see how to use the TypeScript-based intellisense data.
+
 Visual Studio 2017 started using TypeScript for JavaScript intellisense. You can read more about this in the [How to Use JavaScript Intellisense for the Telerik Controls]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/how-to-use-javascript-intellisense-for-the-telerik-controls%}) article. The article also explains how to use Intellisense for the Telerik controls objects and event handlers.
 
 To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.NET AJAX controls, you must:
@@ -81,7 +105,7 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
         }
         
         
-    >note that changing the type of the object will remove the Telerik Static Client Library intellisense from it. So, you may want to consider assigning jQuery to a global variable:
+    >note Changing the type of the object will remove the Telerik Static Client Library intellisense from it. So, you may want to consider assigning jQuery to a global variable:
         
         
     ![use variable for jQuery](images/store-jquery-in-variable-for-intellisense.png)

@@ -25,6 +25,32 @@ This article contains two sets of instructions:
 
 ## Visual Studio 2017
 
+Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
+
+![revert to old JS service](../images/revert-to-old-language-service.png)
+
+With this, you can use the old JavaScript documenttion provided in the `vsdoc` files.
+
+````ASP.NET
+<!-- This can enable the old JS intellisense for the current page -->
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+	<Scripts>
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+	</Scripts>
+</asp:ScriptManager>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
+<script type="text/javascript">
+	function doWork() {
+		var oWnd = $find("RadWindow1");
+		oWnd = $telerik.toWindow(oWnd);
+	}
+</script>
+````
+
+![use control intellisense with old language service](images/vs2017Intellisense/telerik-control-intellisense-with-old-service.png)
+
+Creating custom Intellisense pages is no longer possible in VS 2017, and you need to use an `<asp:ScriptManager>` with the Telerik `Core.js` reference in all pages you want JavaScript Intellisense in. An `<asp:ScriptManagerProxy>` does not work for user controls, and neither can be added in `.js` files, so your other option is to read onward and see how to use the TypeScript-based intellisense data.
+
 As of Visual Studio 2017, Microsoft use a [new language service for JavaScript Intellisense](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense?view=vs-2017) that is based on TypeScript. This means that `-vsdoc.js` files are no longer read and supported for JavaScript intellisense and you need to treat it like a strongly typed language in order to get Intellisense for non-standard object types, including custom controls like the Telerik controls.
 
 You can read more about this service, how it works and what features it supportes in the following articles:
@@ -50,6 +76,8 @@ To use JavaScript Intellisense for the Telerik UI for ASP.NET AJAX controls in V
 
     This includes event handler functions and control references obtained in other code.
     
+### Examples
+
 Here follows a list of several common scenarios that can help you get started with this.
 
 >caption Declare a variable type.
@@ -216,3 +244,4 @@ A similar approach allows Visual Studio to show the intellisense for this variab
 |$telerik.toWindow(object)|Casts the passed object to a RadWindow|
 |$telerik.toWindowManager(object)|Casts the passed object to a RadWindowManager|
 |$telerik.toXmlHttpPanel(object)|Casts the passed object to a RadXmlHttpPanel|
+
