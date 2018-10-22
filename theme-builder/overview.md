@@ -10,25 +10,51 @@ position: 0
 
 # Sass Theme Builder Overview
 
-**Progress Sass Theme Builder** for ASP.NET AJAX is a Angular 2 Web application that provides you with the ability to create new or customize existing themes for Telerik UI controls with **Lightweight** rendering. It can be found at [http://themebuilder.telerik.com/aspnet-ajax](http://themebuilder.telerik.com/aspnet-ajax).
+**Progress Sass Theme Builder** for ASP.NET AJAX is a Web application that provides you with the ability to create new or customize existing [themes (skins)](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) for Telerik UI controls with **[Lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes)** rendering. You can find it at [http://themebuilder.telerik.com/aspnet-ajax](http://themebuilder.telerik.com/aspnet-ajax)
 
-Just with a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with automatic updates to its composite controls.  Once the skin is created and the new Theme looks as you expected in the Preview pane you can download it with one click and integrate it in your project. 
+With just a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with automatic updates to its composite controls.
 
->tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used (for every control you would like to style, its stylesheet should be registered individually).
+
+## What is a Theme?
+A theme dictates the overall look and feel of every product, be it a web site or GUI software. Traditionally, creating a new custom theme consumes significant time, designer involvement and tedious drilling into the element structure of a control.
+
+The **Sass Theme Builder** web-based tool can help you drastically reduce this effort and achieve the desired look and feel seamlessly, while enables you to concentrate on the design and styling of your new theme.
+
+## Create a new Theme or Import existing
+
+>caption You can Create new theme or Import existing one to be styled.
 
 ![Theme Builder Overview](images/theme-builder-overview.png)
 
 
-The currently available built-in skins based on which you can create your own theme are **Default, Bootstrap, Material, Silk** and **Glow**. Below you can find a list of all controls with **RenderMode=”Lightweight”** that can be styled through this powerful tool:
+## Base Themes
 
-![Theme Builder Overview](images/theme-builder-controls-list.png)
+>caption The currently available built-in skins based on which you can create your own theme are Default, Bootstrap, Material, Silk and Glow.
 
-## Import
+![Base Themes](images/theme-builder-overview-base-themes.png)
 
-The tool also offers import and edit functionality of an existing theme. For this purpose, you just need to upload your **variables.scss** file. If you had used the old version of the Theme Builder for customization, you can upload the **ScssPrimitives.json** and **UsedControls.json** files from previously created theme. 
 
-# See Also
+## List of Controls
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
- * [Create and Download]({%slug theme-builder/create-and-download%}) 
- * [Import]({%slug theme-builder/import%})  
+>caption Below you can find a list of all controls that can be styled through this powerful tool:
+
+![List of Controls](images/theme-builder-overview-list-of-controls.png)
+
+
+## Live Theme Preview
+
+>caption Theme Preview panel shows the changes on the fly
+
+![Theme Preview](images/theme-builder-overview-theme-preview.png)
+
+
+## Next Steps
+To create a custom skin with the theme builder, you need to:
+1. [Open the Telerik Sass ThemeBuilder](http://themebuilder.telerik.com/aspnet-ajax)
+2. [Create new or edit an existing skin]({%slug theme-builder/create%})
+3. [Download the new skin and apply it in your project]({%slug theme-builder/download-and-apply%})
+
+If you have already created a custom skin, you can Import it for further editing: [Import an existing set of SASS variables to the tool]({%slug theme-builder/import%})
+
+## See Also
+ * [Telerik Sass ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/aspnet-ajax)
