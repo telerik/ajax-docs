@@ -1909,7 +1909,7 @@ intro_columns:
       "Menu": "menu/overview"
       "Navigation": "navigation/overview"
       "PanelBar": "panelbar/overview/overview"
-      "PushButton": "pushbutton/overvie"
+      "PushButton": "pushbutton/overview"
       "RadioButtonList": "radiobuttonlist/overview"
       "RibbonBar": "ribbonbar/overview"
       "SearchBox": "searchbox/overview"
