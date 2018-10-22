@@ -189,7 +189,7 @@ protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventAr
 Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
     If e.CommandName = RadListView.SelectCommandName Then
         Dim table As New Hashtable()
-        (TryCast(e.ListViewItem, RadListViewDataItem)).ExtractValues(table)  
+        TryCast(e.ListViewItem, RadListViewDataItem).ExtractValues(table)  
         Dim myValue As String = table("myValue").ToString()
     End If
 End Sub
