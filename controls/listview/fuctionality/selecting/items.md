@@ -91,7 +91,6 @@ There are various way to access/extract values from the items in **RadListView**
 1. Extracting **DataKey** values on **ItemDataBound** / **ItemCommand** events
 
 
-
 ````C#
 protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
 {
@@ -141,7 +140,7 @@ End Sub
 
 2. Extracting values using the **ExtractValues** method on **ItemDataBound** / **ItemCommand**
 
-
+**ExtractValues** method will only work when _Editing_ and/or _Selecting_ an item. Instead, extract the values through the DataItem following the example provided in the 4th point of this article.
 
 ````C#
 protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
@@ -198,7 +197,7 @@ End Sub
 
 3. Extracting values using the **ExtractValuesFromItem** method on **ItemDataBound** / **ItemCommand**
 
-Similar to the previous example but uses **ExtractValuesFromItem**. A major advantage of this method is that it can also extract the **DataKeys** values.
+Similar to the previous example but uses **ExtractValuesFromItem**. A major advantage of this method is that it can also extract the **DataKeys** values. This also applies for items that are being _Edited_ and/or _Selected_.
 
 
 
