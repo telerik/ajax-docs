@@ -1,5 +1,6 @@
-.DS_Store
+
 .dockerignore
+.DS_Store
 .editorconfig
 .ruby-version
 .vs
@@ -20,9 +21,13 @@ bs-config.js
 build-docs.sh
 copy_content.sh
 copy_local.sh
+Dockerfile
+Gemfile
+Gemfile.lock
 install-npm.sh
 robots.txt
 search.html
+SlugLog.log
 start-docs.sh
 temp_exclude_result.tmp
 watch.sh
