@@ -60,8 +60,6 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
 
 1. To use Intellisense for the `$telerik` static methods, you only need the Telerik TypeScript definitions:
 
-    ![Telerik static client library intellisense](images/telerik-static-library-intellisense.png)
-
     **JavaScript**
     
         /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
@@ -71,6 +69,7 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
         	$telerik.getBounds(someDomElement);
         }
         
+    ![Telerik static client library intellisense](images/telerik-static-library-intellisense.png)
         
     >note To use jQuery intellisense, read onward. Using jQuery intellisense does not require the Telerik controls or the jQuery they bring.
 
@@ -85,8 +84,6 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
         /// <reference path="tsDefs/jquery.d.ts" />
         
 1. Define the type of the `$telerik` variable:
-
-    ![jQuery intelisense in VS2017](images/jquery-intellisense-vs2017.png)
     
     **JavaScript**
     
@@ -104,11 +101,9 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
         	$telerik.$(".someSelector").removeClass("someClass")
         }
         
-        
+    ![jQuery intelisense in VS2017](images/jquery-intellisense-vs2017.png)
+
     >note Changing the type of the object will remove the Telerik Static Client Library intellisense from it. So, you may want to consider assigning jQuery to a global variable:
-        
-        
-    ![use variable for jQuery](images/store-jquery-in-variable-for-intellisense.png)
     
     **JavaScript**
     
@@ -121,6 +116,8 @@ To use JavaScript intellisense for the jQuery brought by the Telerik UI for ASP.
         	var $ = $telerik.$;
         	$("input").addClass("someClass")
         }
+        
+    ![use variable for jQuery](images/store-jquery-in-variable-for-intellisense.png)
 
 
 ## jQuery IntelliSense in VS 2012 and VS 2013 using Telerik® UI for ASP.NET AJAX Q3 2012 or later
