@@ -14,10 +14,7 @@
 /favicon.ico
 /fonts/
 /styles/
-Dockerfile
-Gemfile
-Gemfile.lock
-SlugLog.log
+.asset-cache/
 _site
 bs-config.js
 build-docs.sh
