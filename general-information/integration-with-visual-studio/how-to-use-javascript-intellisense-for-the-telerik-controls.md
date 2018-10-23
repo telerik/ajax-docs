@@ -78,12 +78,9 @@ To use JavaScript Intellisense for the Telerik UI for ASP.NET AJAX controls in V
     
 ### Examples
 
-Here follows a list of several common scenarios that can help you get started with this.
+Here follows a list of several common scenarios that can help you get started with using JSDoc declarations of variables and arguments.
 
 >caption Declare a variable type.
-
-![Declare variable type](images/vs2017Intellisense/initialize-variable-with-type.png)
-
 
 ````JavaScript
 /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
@@ -98,8 +95,14 @@ function doWork() {
 	//or any other approach that the actual code will use
 	var button = getButtonFromPage();
 
+
+	//define a simple object type
+	/** @type { Telerik.Web.UI.RadPushButton } */
+	var btn;
 }
 ````
+
+![Declare variable type](images/vs2017Intellisense/initialize-variable-with-type.png)
 
 The following should theoretically work as well according to the [JSDoc support in JavaScript article](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript), yet in our tests such casts were unreliable.
 
@@ -107,20 +110,14 @@ The following should theoretically work as well according to the [JSDoc support 
 /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
 /// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
 
-//while these two approaches are documented as declaring object types, they do not seem to work
+//while this approach is documented as declaring object types, it does not seem to work
 function shouldWorkButMayNot() {
 	//cast an object
 	var myButton =  /** @type {Telerik.Web.UI.RadPushButton} */ $find("<%=RadPushButton1.ClientID%>");
-
-	//define a simple object type
-	/** @type {{ Telerik.Web.UI.RadPushButton }} */
-	var btn;
 }
 ````
 
-Defining several fields in a container object seems to work, however:
-
-![Declare container variable](images/vs2017Intellisense/define-types-in-container-objects.png)
+Defining several fields in a container object also works, and that is sometimes a pattern used to store references from a page for use in an external JS file:
 
 ````JavaScript
 /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
@@ -136,6 +133,8 @@ function doWork() {
 	referencesList.button.set_text("new text");
 }
 ````
+
+![Declare container variable](images/vs2017Intellisense/define-types-in-container-objects.png)
 
 >caption Set type to event handler arguments.
 
