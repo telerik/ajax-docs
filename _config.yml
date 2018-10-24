@@ -1745,6 +1745,7 @@ defaults:
         path: "api"
     values:
         kind: "api"
+        res_type: "api"
 
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
