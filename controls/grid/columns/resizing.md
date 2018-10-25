@@ -10,9 +10,15 @@ position: 3
 
 # Resizing
 
+This article explains how cells and columns can be resized in RadGrid. The first section below explains the underlying HTML and CSS principles that guide the column sizes so you can control them from your code, and the later sections provide details on specific grid features that allow the end user to change the column size as well, and let you control the exact behavior of that resizing.
 
+## Cell and Column size rendered by the browser
 
-In general, **RadGrid** behaves like a normal **HTML Table**. If you have **table-layout: auto**, then column width is calculated according to the content of the cells. Otherwise column width are specified in **COLGROUP.COL.WIDTH** by the browser.
+In general, **RadGrid** behaves like a normal **HTML Table**. If you have **table-layout: auto** (the default value), then column width is calculated according to the content of the cells, so they may stretch or shrink.
+
+Otherwise, column width are specified in **COLGROUP.COL.WIDTH** by the browser, which corresponods to **column.HeaderStyle.Width** in the RadGrid column properties.
+
+You can easily set the **table-layout** rule to **fixed** through the **grid.MasterTableView.TableLayout** property.
 
 When scrolling is enabled (the **ClientSettings.Scrolling.AllowScroll** property is **True**) and the grid columns have static headers, **table-layout** is always **fixed** in Mozilla Firefox. Because of this, all columns are displayed with equal widths by default and the sum of all widths is equal to the width of RadGrid. If you want to change this behavior, you should provide a valid width attribute for the columns (using the **HeaderStyle-Width** property).
 
@@ -131,7 +137,8 @@ RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false;
 //...			
 ````
 ````VB
-Dim RadGrid1 As RadGrid = New RadGridRadGrid1.ClientSettings.Resizing.AllowColumnResize = True
+Dim RadGrid1 As RadGrid = New RadGrid()
+RadGrid1.ClientSettings.Resizing.AllowColumnResize = True
 RadGrid1.ClientSettings.Resizing.AllowRowResize = false
 RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false
 RadGrid1.ClientSettings.Resizing.ClipCellContentOnResize = true
