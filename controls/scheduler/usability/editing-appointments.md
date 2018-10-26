@@ -16,7 +16,7 @@ To edit an appointment once it has been created:
 
 1. Double-click an appointment.
 
-1. If the appointment is recurring, the "Editing a recurring appointment" pop-up appears, where you can specifywhether you want to edit only the selected occurrence of the appointment, or edit the entire series:![Edit Series](images/scheduler_editseries.png)Choose which you want to edit, and press OK. You can also press Cancel to cancel the edit entirely.
+1. If the appointment is recurring, the "Editing a recurring appointment" pop-up appears, where you can specify whether you want to edit only the selected occurrence of the appointment, or edit the entire series:![Edit Series](images/scheduler_editseries.png)Choose which you want to edit, and press OK. You can also press Cancel to cancel the edit entirely.
 
 1. An editor appears where you can edit the appointment:
 
@@ -29,7 +29,7 @@ When the appointment is saved with reminder - the reminder icon ( ![RadScheduler
 
 ## Exceptions to recurring appointments
 
-When you edit a single instance of a recurring appointment, you create an exception. On exceptions, the recurring appointment icon ( ![Recurrence Symbol](images/scheduler_recurrencesymbol.png) ) is replaced by an exception symbol: ![Exception Icon](images/scheduler_exceptionicon.png) . This indicates that the appointment is still part of a recurring sequence, but that it differs in some details from the master recurring appointment.Exceptions can reflect any change to the appointment including its subject, time, duration, or any custom resources or attributes. The first appointment in the recurring series is called “Master”. You can remove all exceptions of the master appointment bydouble-clicking on the master and in the opened advanced form select the “ **reset exceptions**” link: ![Recurrence Exceptions](images/scheduler_recurrenceexceptions.png)
+When you edit a single instance of a recurring appointment, you create an exception. On exceptions, the recurring appointment icon ( ![Recurrence Symbol](images/scheduler_recurrencesymbol.png) ) is replaced by an exception symbol: ![Exception Icon](images/scheduler_exceptionicon.png) . This indicates that the appointment is still part of a recurring sequence, but that it differs in some details from the master recurring appointment.  Exceptions can reflect any change to the appointment including its subject, time, duration, or any custom resources or attributes. The first appointment in the recurring series is called “Master”. You can remove all exceptions of the master appointment by  double-clicking on the master and in the opened advanced form select the “ **reset exceptions**” link: ![Recurrence Exceptions](images/scheduler_recurrenceexceptions.png)
 
 # See Also
 
