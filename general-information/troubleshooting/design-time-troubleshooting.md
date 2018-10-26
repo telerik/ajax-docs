@@ -57,7 +57,7 @@ If you reference the Telerik assemblies from another folder, make sure the `Tele
 
 Download, install it and restart your Visual Studio to upgrade to the latest version of the Telerik ASP.NET AJAX VSExtensions. 
 
-Note that the Telerik.Web.Design.dll cannot be added to the Bin folder when draging and dropping a Telerik ASP.NET control from the Toolbox of Visual Studio. In this case, only the Telerik.Web.UI.dll is copied to the Bin folder and you will need to manually copy the Telerik.Web.Design.dll to the Bin folder and reference it.
+Note that the Telerik.Web.Design.dll cannot be added to the Bin folder when dragging and dropping a Telerik ASP.NET control from the Toolbox of Visual Studio. In this case, only the Telerik.Web.UI.dll is copied to the Bin folder and you will need to manually copy the Telerik.Web.Design.dll to the Bin folder and reference it.
 
 ## Unknown server tag/Could not load file or assembly errors
 
