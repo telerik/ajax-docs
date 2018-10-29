@@ -23,7 +23,7 @@ RadGrid does not have public API for adding sort expressions on the client. Howe
     function AddSortExpression(grid, fieldName, sortOrder) {
         var sortExpression = new Telerik.Web.UI.GridSortExpression();
         sortExpression.set_fieldName(fieldName);
-        sortExpression.set_sortOrder(sortOrder);
+        sortExpression.set_sortOrder(sortOrder);//integer: 1 - ascending, 2 - descending
         grid.get_masterTableView()._sortExpressions.add(sortExpression);
         grid.get_masterTableView()._showSortIconForField(fieldName, sortOrder);
     }
