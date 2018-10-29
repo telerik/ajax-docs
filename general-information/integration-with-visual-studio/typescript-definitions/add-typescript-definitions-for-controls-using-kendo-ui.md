@@ -2,7 +2,7 @@
 title: Add TypeScript Definitions for Controls Using Kendo UI
 page_title: Add TypeScript Definitions for Controls Using Kendo UI | UI for ASP.NET AJAX Documentation
 description: Add TypeScript Definitions for Controls Using Kendo UI
-slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui
+slug: general-information/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui
 tags: add,typescript,definitions,for,controls,using,kendo,ui
 published: True
 position: 3
