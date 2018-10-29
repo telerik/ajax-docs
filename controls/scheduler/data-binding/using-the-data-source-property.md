@@ -63,7 +63,7 @@ The following example demonstrates binding to a generic list of objects, which r
 		Imports Telerik.Web.UI
 		Imports System.Collections.Generic
 
-1. In the definition of the class for your Web page, add two class definitions, one to hold information aboutappointments, and another to hold information about the custom resource (rooms):<br />
+1. In the definition of the class for your Web page, add two class definitions, one to hold information about appointments, and another to hold information about the custom resource (rooms):<br />
 	**C#**
 	
 		class AppointmentInfo
@@ -274,7 +274,7 @@ The following example demonstrates binding to a generic list of objects, which r
 		End Class
 
 		
-1. Add two private properties to the class for your Web page whose values are the current listof appointments and the list of rooms. The appointments list needs to persist, so we save thatone in the session state:
+1. Add two private properties to the class for your Web page whose values are the current list of appointments and the list of rooms. The appointments list needs to persist, so we save that one in the session state:
 
 	**C#**
 	
@@ -361,7 +361,7 @@ The following example demonstrates binding to a generic list of objects, which r
 		End Function
 
 
-1. In the Page_Load event handler, add code to initialize the RadScheduler so that it can read theappointment information, define the custom resource type for rooms, and set the DataSource propertyto bind the scheduler to the data.
+1. In the Page_Load event handler, add code to initialize the RadScheduler so that it can read the appointment information, define the custom resource type for rooms, and set the DataSource property to bind the scheduler to the data.
 
 	**C#**
 	     
