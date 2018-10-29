@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-**RadScheduler** requires some sort of data binding so that it can store and retrieve the informationit displays about appointments. At a minimum, the data for the scheduler must include for each appointment a **Subject**, a **Start time**, and an **End time**.Optionally, it can include fields for **Description, Reminder** and for handling appointmentrecurrence: the **Recurrence rule**, the **Recurrence state**, and the **RecurrenceParentID**. It can also include fields for any custom resources and attributes youwant to include. If you are including custom resources, there must also be additional data binding to supply the schedulerwith the possible values for each custom resource type.
+**RadScheduler** requires some sort of data binding so that it can store and retrieve the information it displays about appointments. At a minimum, the data for the scheduler must include for each appointment a **Subject**, a **Start time**, and an **End time**.  Optionally, it can include fields for **Description, Reminder** and for handling appointment recurrence: the **Recurrence rule**, the **Recurrence state**, and the **RecurrenceParentID**. It can also include fields for any custom resources and attributes you want to include. If you are including custom resources, there must also be additional data binding to supply the scheduler with the possible values for each custom resource type.
 
 You can bind the scheduler to either a standard ASP.NET data source control, or to a custom provider. There are three ways of binding **RadScheduler** to its data:
 
