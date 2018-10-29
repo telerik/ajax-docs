@@ -18,13 +18,13 @@ position: 1
 >
 
 
-The sample database for RadScheduler contains various tables which can be used to bind the controlto store appointments' info, resources or custom attributes. Here is the structure of the **Appointments** table:
+The sample database for RadScheduler contains various tables which can be used to bind the control to store appointments' info, resources or custom attributes. Here is the structure of the **Appointments** table:
 
 ![appointments table](images/scheduler_appointmentstable.png)
 
 
 
->tip Note that the required fields for RadScheduler are **ID** , **Subject** , **Start** and **End.** These fields cannot contain null values.
+>tip Note that the required fields for RadScheduler are **ID**, **Subject**, **Start** and **End.** These fields cannot contain null values.
 >
 
 
