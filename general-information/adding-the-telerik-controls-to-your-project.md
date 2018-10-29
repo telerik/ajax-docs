@@ -2,7 +2,7 @@
 title: Adding the Telerik Controls to Your Project
 page_title: Adding the Telerik Controls to Your Project | UI for ASP.NET AJAX Documentation
 description: Adding the Telerik Controls to Your Project
-slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/adding-the-telerik-controls-to-your-project
+slug: general-information/adding-the-telerik-controls-to-your-project
 tags: adding,the,telerik,controls,to,your,project
 published: True
 position: 1
