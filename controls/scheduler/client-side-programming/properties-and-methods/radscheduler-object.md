@@ -65,10 +65,10 @@ The tables below lists the most important, public properties and methods of the 
 |get_element()|None|Object|Gets the DOM element of RadScheduler.|
 |get_firstDayOfWeek()|None|Telerik.Web.UI.DayOfWeek Enum|Gets first day of week defined for RadScheduler. DayOfWeek: { Sunday: 0, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6 } |
 |get_height()|None|String|Gets the height of RadScheduler.|
-|get_hoursPanelTimeFormat()|None|Stirng|Gets the time format of the hours panel.|
+|get_hoursPanelTimeFormat()|None|String|Gets the time format of the hours panel.|
 |get_id()|None|String|Gets the id set for RadScheduler.|
 |get_lastDayOfWeek()|None|Telerik.Web.UI.DayOfWeek Enum|Gets last day of week defined for RadScheduler. DayOfWeek: { Sunday: 0, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6 } |
-|get_localization()|None|Object|Gets an object conaining all localization rules defined for RadScheduler.|
+|get_localization()|None|Object|Gets an object containing all localization rules defined for RadScheduler.|
 |get_monthViewSettings()|None|Array|Gets an object containing MonthView settings, if defined.|
 |scheduler.get_multiDayViewSettings()|None|Object|Gets an object containing day start-time and day-end time.|
 |get_timelineViewSettings()|None|Array|Gets an object containing TimelineView settings, if defined.|
@@ -81,7 +81,7 @@ The tables below lists the most important, public properties and methods of the 
 |get_shouldPostbackOnTimeSlotContextMenuItemClick()|None|Boolean|Returns true if RadScheduler postbacks on TimeSlotContextMenu item click, false otherwise.|
 |set_shouldPostbackOnTimeSlotContextMenuItemClick()|Boolean|None|Sets a boolean whether a postback should occur when an item from the TimeSlot context menu is clicked.|
 |get_shouldUseClientInlineInsertForm()|None|Boolean|Returns true if the inline form is opened when inserting an appointment, false otherwise.|
-|set_shouldUseClientInlineInsertForm()|Boolean|None|Sets a boolean wether a client inline form should be displayed on appointment insert.|
+|set_shouldUseClientInlineInsertForm()|Boolean|None|Sets a boolean whether a client inline form should be displayed on appointment insert.|
 |get_shouldUseClientInlineEditForm()|None|Boolean|Returns true if the inline form is opened when editing an appointment, false otherwise.|
 |set_shouldUseClientInlineEditForm()|Boolean|None|Sets a boolean whether an inline form should be displayed on appointment edit.|
 |get_showAllDayRow()|None|Boolean|Returns true if AllDayRow is visible, false otherwise.|
@@ -368,7 +368,7 @@ function OnClientAppointmentsPopulating(sender, eventArgs)
 
 
 
->tip A RadComboBox control contains all the resources defined for RadScheduler.
+>note A RadComboBox control contains all the resources defined for RadScheduler.
 >On its SelectedIndexChanged, only appointments with the selected resource are displayed inRadScheduler.
 >
 
