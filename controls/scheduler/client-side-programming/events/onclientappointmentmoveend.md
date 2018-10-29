@@ -12,7 +12,7 @@ position: 12
 
 
 
-The **OnClientAppointmenMoveEnd** client-side event is called when the user stops moving an appointment.
+The **OnClientAppointmentMoveEnd** client-side event is called when the user stops moving an appointment.
 
 Two parameters are passed to the event handler:
 
