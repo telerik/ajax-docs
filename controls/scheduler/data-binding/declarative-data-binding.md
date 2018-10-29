@@ -30,18 +30,18 @@ The example below shows how to bind RadScheduler to a SqlDataSource component at
 
 1. Click **Next** to continue. Save the connection string, and choose **Next** again.![connection string](images/scheduler_connectionstring.png)
 
-1. Configure the **SELECT** statement. Check the columns for the appointment information andclick the "**Advanced..."** button.Select the first option to auto-generate statements forINSERT, UPDATE, DELETE and SELECT![configure select](images/scheduler_configureselect.png)
+1. Configure the **SELECT** statement. Check the columns for the appointment information and click the "**Advanced..."** button.  Select the first option to auto-generate statements for INSERT, UPDATE, DELETE and SELECT![configure select](images/scheduler_configureselect.png)
 
 1. Click **Next**, test the Query, and finish the data source configuration byclicking the **Finish** button:![test query](images/scheduler_testquery.png)
 
 ## Setting up the Scheduler
 
-1. Drag a **RadScheduler** control onto your page. The Smart Tag should automatically come up. If it does not, right click on the **RadScheduler** control and choose **Show Smart Tag**.On the Smart Tag, choose **Configure Data Source...**<br/>
+1. Drag a **RadScheduler** control onto your page. The Smart Tag should automatically come up. If it does not, right click on the **RadScheduler** control and choose **Show Smart Tag**.  On the Smart Tag, choose **Configure Data Source...**<br/>
 ![Smart Tag](images/scheduler_smarttag.png)
 
-1. Select your SQLDataSource as the data source, and specify the fields for the key, start time, end time,subject, recurrence storage, and recurrence parent key as shown below. Then click OK.![SQL Config Wizard](images/scheduler_sqlconfigwizard.png)
+1. Select your SQLDataSource as the data source, and specify the fields for the key, start time, end time, subject, recurrence storage, and recurrence parent key as shown below. Then click OK.![SQL Config Wizard](images/scheduler_sqlconfigwizard.png)
 
-1. Add another **SQLDataSource** to your page and configure it to select **ID** and **UserName** from the Users table. The names of these fields should be different form the fields of the RadScheduler.You only need a SELECT statement for this data source.
+1. Add another **SQLDataSource** to your page and configure it to select **ID** and **UserName** from the Users table. The names of these fields should be different form the fields of the RadScheduler.  You only need a SELECT statement for this data source.
 
 1. Select the **RadScheduler** in the designer, and click the ellipsis button on the **ResourceTypes** property in the property pane.![Resource Types](images/scheduler-resourcetypes.png)
 
