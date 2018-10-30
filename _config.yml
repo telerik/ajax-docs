@@ -1768,7 +1768,7 @@ platform: aspnet-ajax
 download: https://www.telerik.com/products/aspnet-ajax/download.aspx 
 nav:
   "Demos": https://demos.telerik.com/aspnet-ajax
-  "Release History": https://www.telerik.com/support/whats-new/wpf/release-history
+  "Release History": https://www.telerik.com/support/whats-new/aspnet-ajax/release-history
   "About": https://www.telerik.com/products/aspnet-ajax
   "Pricing": https://www.telerik.com/purchase/individual/aspnet-ajax
 
