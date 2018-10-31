@@ -2,7 +2,7 @@
 title: Accessing Controls
 page_title: Accessing Controls | RadGrid for ASP.NET AJAX Documentation
 description: Accessing Controls
-slug: grid/mobile-support/mobile-rendering/accessing-controls
+slug: treelist/mobile-support/mobile-rendering/accessing-controls
 tags: accessing,controls
 published: True
 position: 7
