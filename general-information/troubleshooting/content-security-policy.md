@@ -24,7 +24,7 @@ If CSP mode is enabled for a web application utilizing UI for ASP.NET AJAX, at l
 To allow font icons, raster icons and inline style attributes that are also heavily used by the UI for ASP.NET AJAX suite, you must also add the `unsafe-inline` keyword for the `style-src` section.
 
 >caption Example 1: Minimal configuration to run UI for ASP.NET AJAX with CSP.
-````
+````HTML
 <meta 
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' ;"
@@ -34,7 +34,7 @@ To allow font icons, raster icons and inline style attributes that are also heav
 To work with CDN, you must also add the `self` keyword to the `font-src` and `img-src` sections. Make sure to also add their domains to the `script-src`, `style-src`, `font-src` and `img-src` sections.
 
 >caption Example 2: Using UI for ASP.NET AJAX with CDN over HTTPS (SSL).
-````
+````HTML
 <meta 
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://d2i2wahzwrm1n5.cloudfront.net ;
@@ -45,7 +45,7 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
 ````
 
 >caption Example 3: Using UI for ASP.NET AJAX with CDN over plain HTTP.
-````
+````HTML
 <meta 
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' http://aspnet-scripts.telerikstatic.com ;
@@ -74,7 +74,7 @@ Also, make sure to test the application in `Release` mode explicitly because the
 Having an operational MS AJAX environment is essential before adding the Telerik controls to it.
 
 >caption Example 4: Test basic MS AJAX functionality with CSP
-````
+````ASPX
 <ol>
     <li>Make sure there are no errors and blocked resources.</li>
     <li>Click the button.</li>
