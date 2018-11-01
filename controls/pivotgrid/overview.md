@@ -33,3 +33,13 @@ The key features of the RadPivotGrid control are:
 * **Easily customizable skinning mechanism (setting single Skin property of the pivotgrid)**
 
 * **The expanded state of the items is persisted while navigating through pages.**
+
+## Get Started
+
+Visit the [Getting Started]({%slug pivotgrid/getting-started%}) article to learn more about PivotGrid. Also, you can check out the [RadPivotGrid online demos](https://demos.telerik.com/aspnet-ajax/pivotgrid/examples/firstlook/defaultcs.aspx) to see it in action.
+
+## See Also
+
+* [Get Started]({%slug pivotgrid/getting-started%})
+* [Data Binding]({%slug pivotgrid/data-binding/declarative-data-source%})
+* [Functionality]({%slug pivotgrid/functionality/paging/overview%})
