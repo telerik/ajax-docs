@@ -1,4 +1,5 @@
 
+.asset-cache/
 .dockerignore
 .DS_Store
 .editorconfig
@@ -15,7 +16,6 @@
 /favicon.ico
 /fonts/
 /styles/
-.asset-cache/
 _site
 bs-config.js
 build-docs.sh
