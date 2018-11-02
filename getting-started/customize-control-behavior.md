@@ -72,3 +72,4 @@ Below you can find guidance on getting started with other common tasks:
 * [First Steps]({%slug getting-started/first-steps%})
 * [Explore control features]({%slug getting-started/next-steps%})
 * [Customize control behavior]({%slug getting-started/explore-control-features%})
+* [Progress Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
