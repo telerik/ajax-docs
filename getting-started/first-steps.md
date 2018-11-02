@@ -126,3 +126,4 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 
 * [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements)
 * [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+* [Progress Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
