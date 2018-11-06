@@ -15,7 +15,7 @@ position: 3
 >In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
 
 
-The **ZIP** is used to install Telerik® UI for ASP.NET AJAX manually for upgrading or updating purposes.The folder structure is different from the **MSI** installation. You need to be familiar with with ASP.NET, IIS, setting permissions and creating virtual folders. Commonly, the **ZIP** is installed directly in **inetpub/wwwroot**.
+The **ZIP** is used to manually install, upgrade or update Telerik® UI for ASP.NET AJAX in your Web Application or Web Sites. The folder structure is different from the **MSI** installation. You need to be familiar with with ASP.NET, IIS, setting permissions and creating virtual folders. Commonly, the **ZIP** is installed directly in **inetpub/wwwroot**.
 
 ## Install without IIS Running
 
