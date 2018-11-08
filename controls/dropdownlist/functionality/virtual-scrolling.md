@@ -35,6 +35,8 @@ To enable Virtual Scrolling for browsing large record sets:
 	SelectCommand="SELECT [CustomerID], [ContactName] FROM [Customers]"></asp:SqlDataSource>
 ````
 
+>important Virtual scrolling relies on element dimensions. This means that the RadDropDownList element must be rendered by the browser, so it must not be hidden (for example, it must *not* be in a container with `display:none`). Otherwise, the virtual scrolling will fail to initialize properly and it will throw errors either during initialization, or during use. A prime example of a scenario that will cause such problems is placing a RadDropDownList in a RadGrid with batch editing mode.
+
 # See Also
 
  * [Virtual Scrolling demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/functionality/virtualscrolling/defaultcs.aspx)
