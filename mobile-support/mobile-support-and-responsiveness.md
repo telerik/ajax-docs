@@ -30,6 +30,8 @@ To force your content to appear at a maximum width of the device within the brow
 
 This code snippet also defines the initial scale of your content as 100% and prevents the need for your viewers to zoom.
 
+Last, but not least, it lets browsers honor `max-width` CSS `@media` queries which are often used to create responsive design.
+
 ### RenderMode settings
 
 The AJAX controls have had a RenderMode configuration setting for some time,and with the introduction of the responsive design features, another RenderMode was introduced:Mobile.

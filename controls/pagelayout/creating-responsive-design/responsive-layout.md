@@ -20,14 +20,8 @@ The concept behind **responsive layout** is to adapt your application to the cap
 
 With the **RadPageLayout** control, you could easily do so, by using the responsive attributes: **HiddenXl, HiddenLg, HiddenMd, HiddenSm, and HiddenXs**. These manage the visibility of respective content place holders when viewed under various devices. In other cases you may need to resize a certain container. Again, that's easy to do with **RadPageLayout** and responsive attributes: **SpanXs, SpanSm, SpanMd, SpanLg or SpanXl**. Those attributes, as the name suggests, control the Span of the columns under the various breakpoints. In other words once you have created your initial design, adding responsive capabilities is just a matter of configuration and setting a couple of properties.
 
->tip In order to use the **RadPageLayout** responsive capabilities on a mobile device you have to add the following metatag to the head section of the page:
+>note In order to use the **RadPageLayout** responsive capabilities on a mobile device, you have to add the following meta tag to the `head` section of the page: `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`.
 
-
-````ASPNET
-<head id="Head1" runat="server">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-````
 
 ## Example
 

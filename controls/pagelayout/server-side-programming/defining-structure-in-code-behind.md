@@ -101,7 +101,8 @@ End Sub
 
 ````ASPNET
 <head runat="server">
-    <title></title>    
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style type="text/css">
         .borderCssClass div {
             border: 1px solid red;

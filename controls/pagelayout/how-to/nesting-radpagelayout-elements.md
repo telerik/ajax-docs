@@ -23,6 +23,7 @@ As a variation of the standard layout columns, the composite columns have a `con
 **Example 1**: Nesting different layout elements.
 
 ````ASPNET
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style type="text/css">
 	.col, .row, .header, .footer {
 		background-color: #78a6ab;

@@ -28,6 +28,7 @@ In the example bellow you will see how to make the footer to be always positione
 **Example Code**
 
 ````ASPNET
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style type="text/css">
     .header1 {
         background-color: black;
