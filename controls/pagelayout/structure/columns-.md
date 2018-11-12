@@ -40,9 +40,12 @@ In addition to the standard attributes, a column has few specific attributes tha
 
 
 ````CSS
-.borderCssClass div {
-	border: 1px solid red;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    .borderCssClass div {
+    	border: 1px solid red;
+    }
+</style>
 ````
 
 ````ASPNET

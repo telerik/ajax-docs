@@ -31,7 +31,7 @@ In responsive web design, **viewport breakpoints** are browser dimensions (usual
 
 The notion of **viewport breakpoints** is not just within the media queries, but is used throughout the control. All responsive properties have a suffix that's actually the media query it applies for: **SpanXS** means the span for extra small resolutions; **HiddenLG** means hidden on large resolutions and so on.
 
-The following table describes the resolutions and the corresponding viewport breakpoints.
+The following table describes the resolutions and the corresponding viewport breakpoints (note that they are generalized and approximage).
 
 
 | Resolution | Screen size | Device type |
@@ -42,6 +42,6 @@ The following table describes the resolutions and the corresponding viewport bre
 |min-width: 1025px / max-width: 1280px|large resolutions (or lg)|laptop|
 |min-width: 1281px|extra large resolutions (or xl)|desktop|
 
->tip The described devices types for the corresponding resolutions and screen size are approximate.
->
+
+>note You must add the following meta tag to your page so the browser can apply `@media (max-width)` CSS queries, on which the RadPageLayout breakpoints rely: `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`.
 
