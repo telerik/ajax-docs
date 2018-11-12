@@ -16,3 +16,7 @@ If a **GridTableView** object's **AllowMultiColumnSorting** property is set to *
 In the example below, the grid sorted is by Country ascending and then by City descending:
 
 ![Multi-Column Sorting](images/grd_MultiColumnSort.png)
+
+### See Also
+
+ * [Custom Sorting Demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/sorting/custom-sorting/defaultcs.aspx)
