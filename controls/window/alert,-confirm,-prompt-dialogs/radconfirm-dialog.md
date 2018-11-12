@@ -30,6 +30,8 @@ At a minimum, the **RadConfirm** function takes two arguments, and HTML string w
 The minimum required to show the **RadConfirm** is a message and the callback function:
 
 ````ASP.NET
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+</telerik:RadWindowManager>
 <script type="text/javascript">
 	function confirmCallBackFn(arg)
 	{
