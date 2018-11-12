@@ -40,6 +40,8 @@ You can customize the Line chart:
 
 * The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
+* You can have the line reach from end to end of the plot area and remove the default empty space by setting the `Justified` property of the `XAxis` to true (available as of R1 2019).
+
 The chart from **Figure 1** was created with the code in **Example 1**:
 
 >tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the values if you do not declare explicit values, steps and tick properties (although the	Items for axes that need them are necessary).
