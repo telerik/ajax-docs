@@ -25,10 +25,18 @@ This event is fired before the filtering menu is rendered.
 Example:
 
 ````ASP.NET
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
+<telerik:RadGrid AllowFilteringByColumn="true" RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnFilterMenuShowing ="FilterMenuShowing" />
     </ClientSettings>
+    <MasterTableView AutoGenerateColumns="False" DataKeyNames="OrderID">
+        <Columns>
+            <telerik:GridBoundColumn DataField="OrderID" DataType="System.Int32"
+                FilterControlAltText="Filter OrderID column" HeaderText="OrderID"
+                ReadOnly="True" SortExpression="OrderID" UniqueName="OrderID">
+            </telerik:GridBoundColumn>
+        </Columns>
+    </MasterTableView>
 </telerik:RadGrid>
 ````
 
@@ -36,7 +44,8 @@ Example:
 
 ````JavaScript
 function FilterMenuShowing(sender, eventArgs) {
-    if (eventArgs.get_column().get_uniqueName() == "ClientID") {
+    if (eventArgs.get_column().get_uniqueName() == "OrderID") {
+        //change the CSS class of the menu wrapper element
         eventArgs.get_menu().get_element().className = "MyClass";
     }
     else {
