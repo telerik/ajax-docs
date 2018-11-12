@@ -30,3 +30,9 @@ The FiltersManager object exposes the following public methods and properties to
 |removeAt|`Number`||Removes a content filter from the filters collection by indexThe method takes the following arguments: **index** - The index location of the filter in the FiltersCollection|
 |removeFilterByName|`String`||Remove content filter from the filters collectionThe method takes the following arguments: **name** - The name of the filter to be removed.|
 |set_enableXhtmlFilter|`Boolean`||Sets the state of XHTML filterThe method takes the following arguments: **value** - Boolean value to enable|
+
+## See Also
+
+ * [Custom Content Filters Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) 
+ * [Built-in Content Filters Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/builtincontentfilters/defaultcs.aspx)
+
