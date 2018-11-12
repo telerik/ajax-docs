@@ -33,4 +33,7 @@ To ensure that the HttpHandler of the **RadEditor** dialog is always accessible,
 </configuration>
 ````
 
+### See Also
+
+ * [Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/error-web-config-registration-missing!-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file-)
 
