@@ -68,6 +68,6 @@ In case of editing in forms, you need to set the following properties for **Edit
 
 
 
->tip When edit in forms is applied, **MasterTableView** . **EditFormSettings** can not be used for localizing the **EditText** property. Since the edit control is outside of the edit form you should set the **GridEditCommandColumn.EditText** property as demonstrated above.
+>note When edit in forms is applied, **MasterTableView** . **EditFormSettings** can not be used for localizing the **EditText** property. Since the edit control is outside of the edit form you should set the **GridEditCommandColumn.EditText** property as demonstrated above.
 >
 

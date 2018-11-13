@@ -15,7 +15,7 @@ Typically RadGrid stores in the **ViewState** only items/controls collections. H
 
 You can control this behavior by setting the **EnableViewState** property of RadGrid to false if you do not wish the data for the controls in the grid to to be persisted in the **ViewState**. This means that the control will need to be rebound on every request: either by firing the NeedDataSource event or by going through an ASP.NET 2.x/3.x data source control.
 
->tip When you set the **EnableViewState** property of **RadGrid** to **False** , the only supported way for binding is to use Advanced DataBinding (using [NeedDataSource event ](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) or [Declarative DataSources](http://www.telerik.com/help/aspnet-ajax/grid-binding-to-declarative-datasource-controls.html)).
+>note When you set the **EnableViewState** property of **RadGrid** to **False** , the only supported way for binding is to use Advanced DataBinding (using [NeedDataSource event ](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) or [Declarative DataSources](http://www.telerik.com/help/aspnet-ajax/grid-binding-to-declarative-datasource-controls.html)).
 >
 
 

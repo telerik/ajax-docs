@@ -26,7 +26,7 @@ The possible options for the **RenderMode** property are:
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadTileList")
 
->tip **RadTileList** uses **RadTile** controls internally, so all their instances must have the same render mode. Tiles that are children of a TileList will inherit the RenderMode of the TileList.
+>note **RadTileList** uses **RadTile** controls internally, so all their instances must have the same render mode. Tiles that are children of a TileList will inherit the RenderMode of the TileList.
 
 
 ## Setting Render Mode

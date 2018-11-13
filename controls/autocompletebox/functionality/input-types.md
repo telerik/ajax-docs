@@ -20,7 +20,7 @@ RadAutoCompleteBox provides two different visual representations of its entries.
 
 * **Text** - visualizes the entries as a series of strings separated by delimiter.
 
->tip By default the text of the entries is represented as tokens.
+>note By default the text of the entries is represented as tokens.
 >
 
 

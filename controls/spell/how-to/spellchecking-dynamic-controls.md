@@ -22,7 +22,7 @@ To spellcheck dynamic controls:
 
 * Add both controls to a placeholder control inside your ASPX / ASCX template.
 
->tip You need to set the **ControlToCheck** property **after** you add both controls to the Controls collection of their parent!
+>note You need to set the **ControlToCheck** property **after** you add both controls to the Controls collection of their parent!
 
 ````ASP.NET
 <form id="form2" runat="server">

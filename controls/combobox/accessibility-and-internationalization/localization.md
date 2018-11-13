@@ -50,7 +50,7 @@ RadComboBox1.Localization.ShowMoreFormatString = "Items <b>1</b>-<b>{0}</b> out 
 ````
 
 
->tip This technique is useful when customizing some of the messages of a **particular instance** . The messages are not shared between RadComboBox instances. A complete translation using this approach is inappropriate.
+>note This technique is useful when customizing some of the messages of a **particular instance** . The messages are not shared between RadComboBox instances. A complete translation using this approach is inappropriate.
 >
 
 
@@ -72,7 +72,7 @@ Follow these steps to create a global resource file to localize the RadComboBox:
 
 3. Make a copy of the file and rename the copy so that its name contains the **Culture Identifier**. The resource files used by RadComboBox follow a strict naming convention: RadComboBox.<Culture Identifier>.resx
 
-	>tip The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
+	>note The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 	>
 
 

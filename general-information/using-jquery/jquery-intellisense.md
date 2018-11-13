@@ -18,7 +18,7 @@ Separate sections below explain the cases for the different Visual Studio versio
 
 ## jQuery IntelliSense in VS 2012 and VS 2013 using Telerik® UI for ASP.NET AJAX Q3 2012 or later
 
->tip IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes,the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManagerto get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** .
+>note IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes,the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManagerto get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** .
 
 The following simple markup provides IntelliSense for the current page:
 
@@ -106,7 +106,7 @@ Since the Q1 2011 release of Telerik® UI for ASP.NET AJAX, jQuery IntelliSense 
 		   </Scripts>
 		</asp:ScriptManager> 
 
->tip IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes, the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManager to get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** 
+>note IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes, the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManager to get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** 
 
 Here is a screenshot:
 

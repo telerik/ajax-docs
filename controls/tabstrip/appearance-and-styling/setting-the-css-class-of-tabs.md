@@ -34,7 +34,7 @@ The CSS class properties are
 
 To set the CSS class properties of an item at design time, use the [RadTabStrip Item Builder]({%slug tabstrip/design-time/radtabstrip-item-builder%}).
 
->tip The CSS class of a tab is applied to the anchor (&lt;a&gt;) tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list (<ul>). For more information about the rendered output of **RadTabStrip**, see  [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of a tab is applied to the anchor (&lt;a&gt;) tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list (<ul>). For more information about the rendered output of **RadTabStrip**, see  [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 

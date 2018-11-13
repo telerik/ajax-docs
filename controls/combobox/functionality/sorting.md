@@ -50,7 +50,7 @@ RadComboBox1.Sort = RadComboBoxSort.Descending
 
 	* RadComboBox1.Items.Sort()
 
->tip  **SortItems** and **Items.Sort** methods have overload methods that accept one parameter of type **IComparer** . These overload methods are used if you want to [implement your custom sorting]({%slug combobox/how-to/implement-custom-sorting%}).
+>note  **SortItems** and **Items.Sort** methods have overload methods that accept one parameter of type **IComparer** . These overload methods are used if you want to [implement your custom sorting]({%slug combobox/how-to/implement-custom-sorting%}).
 >
 
 

@@ -22,7 +22,7 @@ There are two cases when you want to change the default color of links in **Grid
 
 * When RadGrid has set Skin property(built-in skin or a custom one) different than empty string(e.g. "").
 
->tip Note that, in case you omit to set the Skin property, the Default skin is used.
+>note Note that, in case you omit to set the Skin property, the Default skin is used.
 >
 
 
@@ -70,7 +70,7 @@ There are two cases when you want to change the default color of links in **Grid
 
 
 
->tip In this example we have used Default skin of RadGrid. In case you want to use different Skin, you should substitute **Default** from **RadGrid_Default** with the respective Skin name(e.g. RadGrid_[SkinName]).
+>note In this example we have used Default skin of RadGrid. In case you want to use different Skin, you should substitute **Default** from **RadGrid_Default** with the respective Skin name(e.g. RadGrid_[SkinName]).
 >
 
 

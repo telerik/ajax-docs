@@ -14,7 +14,7 @@ Sometimes you want to show an alert (or a confirm box, or a prompt) to the user 
 
 >tip The general approach also applies to opening any RadWindow from any frame so that it can work with the entire viewport.
 
->tip To use the predefined dialogs (radalert, radconfirm, radprompt) you need to have a RadWindowManager on the page that is going to call them.
+>note To use the predefined dialogs (radalert, radconfirm, radprompt) you need to have a RadWindowManager on the page that is going to call them.
 
 If your content page may or may not be loaded in a RadWindow you will also need a RadWindowManager on it as well so that the dialog can be shown if the page is not loaded in a RadWindow.
 

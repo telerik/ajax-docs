@@ -40,7 +40,7 @@ Basically, you need to programmatically find the link tag and set its `disabled`
 </script>
 ````
 
->tip This works only if `ContentAreaMode` is set to `Iframe`. If [Div mode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is used, you should make sure to apply similar logic to the CSS files that you have added to the page in order to decorate the content area of **RadEditor**. 
+>note This works only if `ContentAreaMode` is set to `Iframe`. If [Div mode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is used, you should make sure to apply similar logic to the CSS files that you have added to the page in order to decorate the content area of **RadEditor**. 
 
 ## See Also
 

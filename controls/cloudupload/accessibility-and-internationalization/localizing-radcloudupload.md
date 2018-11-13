@@ -24,7 +24,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ![clouduplaod-localization 0](images/clouduplaod-localization0.png)
 
->tip This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
+>note This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
 >
 
 
@@ -60,7 +60,7 @@ To create a global resource file to localize the upload follow these steps:
 
 **RadCloudUpload.`<Culture Identifier>`.resx**
 
->tip The **Culture Identifier** consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
+>note The **Culture Identifier** consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >
 
 

@@ -148,7 +148,7 @@ Please check the following:
 			<add name="ScriptResource" preCondition="integratedMode" verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />   
 
 
-	>tip If you are using .NET 3.5 the version of the System.Web.Extensions assembly should be "3.5.0.0".	If you are using .NET 4.0 the version should be "4.0.0.0" and if you are using .NET 4.5 the version should be "4.5.0.0". Always make sure you are referring to the right assembly version.
+	>note If you are using .NET 3.5 the version of the System.Web.Extensions assembly should be "3.5.0.0".	If you are using .NET 4.0 the version should be "4.0.0.0" and if you are using .NET 4.5 the version should be "4.5.0.0". Always make sure you are referring to the right assembly version.
 
 
 1. If you are using Telerik® UI for ASP.NET AJAX and RadScriptManager check if the Telerik.Web.UI.WebResource.axd HTTP handler is correctly registered in your web.config:
@@ -184,7 +184,7 @@ Please check the following:
 			<add name="Telerik.Web.UI.WebResource" path="Telerik.Web.UI.WebResource.axd" verb="*"    type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4"/> 
 
 
-	>tip The version in the HTTP handler registration statement will vary depending on the release date and .NET runtime (3.5 or 4.0 or 4.5). Always make sure you are referring to the right assembly version. *
+	>note The version in the HTTP handler registration statement will vary depending on the release date and .NET runtime (3.5 or 4.0 or 4.5). Always make sure you are referring to the right assembly version. *
 
 ### Dealing with the 500 Error Code (Server Error)
 

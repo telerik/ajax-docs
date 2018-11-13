@@ -43,7 +43,7 @@ This is shown in the following example:
 
 
 
->tip Note the **label.MyLabelStyle.riLabel** selector in the CSS class definition. It makes the rule have higher priority and take precedence over the definitions included with the skin.
+>note Note the **label.MyLabelStyle.riLabel** selector in the CSS class definition. It makes the rule have higher priority and take precedence over the definitions included with the skin.
 >
 
 

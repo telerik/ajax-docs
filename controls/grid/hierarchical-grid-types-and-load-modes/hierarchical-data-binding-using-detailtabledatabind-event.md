@@ -34,13 +34,13 @@ The main steps when binding a hierarchical grid using the **DetailTableDataBind*
 
 1. In the **DetailTableDataBind** event handler, assign or configure the data sources for the detail tables in the grid. You can determine which datasource should be related to the parent **GridTableView** by checking the **Name** property, **DataSourceID** property (when using data source controls) or **DataMember** property (when not using data source controls). If the DetailTableDataBind event is not handled, each detail table will be bound to the same datasource as the master table without any filtering applied on the records.
 
->tip When binding RadGrid in DetailTableDataBind, you must not use declarative relations (ParentTableRelations) in markup.
+>note When binding RadGrid in DetailTableDataBind, you must not use declarative relations (ParentTableRelations) in markup.
 >
 
 
 For a live example that demonstrates binding a hierarchical grid using the **DetailTableDataBind** event, see [Hierarchy with DetailTableDataBind event](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DetailTableDataBind/DefaultCS.aspx).
 
->tip You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
+>note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
 >
 
 

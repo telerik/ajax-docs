@@ -14,7 +14,7 @@ position: 0
 
 When creating the RadDropDownTree control we embedded the RadTreeView control in the dropdown. By using the properties and methods described below you can easily access the RadTreeView control on the client and server side.
 
->tip Note that once you have access to the tree there might be unexpected behavior of the control. Since we use the RadTreeView control as embedded tree it is also important to clarify that not all scenarios that can be implemented with the RadTreeView control are supported for the RadDropDownTree. Accessing the embedded tree is available with the **Q2 2013 SP1** (version 2013.2.717 of the RadControls.)
+>note Note that once you have access to the tree there might be unexpected behavior of the control. Since we use the RadTreeView control as embedded tree it is also important to clarify that not all scenarios that can be implemented with the RadTreeView control are supported for the RadDropDownTree. Accessing the embedded tree is available with the **Q2 2013 SP1** (version 2013.2.717 of the RadControls.)
 >
 
 

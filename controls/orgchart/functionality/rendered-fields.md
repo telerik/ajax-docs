@@ -16,7 +16,7 @@ position: 2
 
 The Telerik's **RadOrgChart** control supports custom fields for **Nodes** and **Items**. Using custom fields that we call **RenderedFields** one can add an extra text information about every Node or Item in **RadOrgChart** control. Rendered fields can be added either to the Node or to the Items of the RadOrgChart or to both.
 
->tip When you need to set custom fields on a Node it is important that you also set the *Group-Enable Binding* .
+>note When you need to set custom fields on a Node it is important that you also set the *Group-Enable Binding* .
 >
 
 

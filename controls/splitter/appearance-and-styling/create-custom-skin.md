@@ -57,7 +57,7 @@ See [Understanding the Skin CSS File]({% slug splitter/appearance-and-styling/un
 
 5. Copy the default **RadSplitter** skin files from the installation directory to the "Green" directory; copy both the \Splitter directory that contains the images for this skin and the Splitter.Default.css file that defines the skin styles. 
 
-	>tip The file path will typically be similar to this example: _\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default._
+	>note The file path will typically be similar to this example: _\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default._
 
 6. In the Solution Explorer, rename "Splitter.Default.css" to "Splitter.Green.css". The Solution Explorer should now look something like the following:
 

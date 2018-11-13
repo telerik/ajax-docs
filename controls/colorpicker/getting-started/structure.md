@@ -25,7 +25,7 @@ The main visual elements of **RadColorPicker** are:
 
 * **Preview**: The color square the mouse is currently hovered over displays in the preview area. The color may display as a color name or a hexadecimal string. The string describing the color is displayed in both light and dark colors for better visibility.
 
->tip **RadColorPicker** displays as an icon only if **ShowIcon** is set to **True**.
+>note **RadColorPicker** displays as an icon only if **ShowIcon** is set to **True**.
 
 
 

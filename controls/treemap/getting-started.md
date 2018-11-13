@@ -16,7 +16,7 @@ The following article demonstrates how you can add a **RadTreeMap** control with
 
 ![treemap-gettingstarted](images/treemap-gettingstarted.png)
 
->tip The control visualizes its data in **Squarified AlgorithmType** as this is the default algorithm type.
+>note The control visualizes its data in **Squarified AlgorithmType** as this is the default algorithm type.
 >
 
 
@@ -66,6 +66,6 @@ To add a **RadTreeMap** control into the page, you can simply drag it from the V
 </telerik:radtreemap>
 ````
 
->tip All **RadTreeMapItems** should have one **Parent** item.
+>note All **RadTreeMapItems** should have one **Parent** item.
 >
 

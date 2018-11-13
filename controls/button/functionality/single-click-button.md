@@ -16,7 +16,7 @@ position: 0
 
 The single click button (**Figure 1**) is used to avoid multiple postbacks/callbacks to the server. This feature is useful in database and/or e-mail send scenarios when the developer should prevent submitting of identical content multiple times to the server.
 
->tip The single click functionality is available only for buttons that make postbacks. For example the functionality is not available for the LinkButton because it acts as an anchor element. 
+>note The single click functionality is available only for buttons that make postbacks. For example the functionality is not available for the LinkButton because it acts as an anchor element. 
 >
 >When the single click functionality is enabled, the button is rendered as `<button type="button">` instead of a `<button type="submit">` and that takes precedence over the `UseSubmitBehavior` property.
 

@@ -175,5 +175,5 @@ The **EditItemTemplate** and **InsertItemTemplate** of RadListView determine wha
 
 Refer to the code implementation in it for more details.
 
->tip Keep in mind that you need to specify ItemPlaceholderID property value for RadListView which matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. The RadListView instance on the example has asp PlaceHolder defined inside its LayoutTemplates for this purpose.
+>note Keep in mind that you need to specify ItemPlaceholderID property value for RadListView which matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. The RadListView instance on the example has asp PlaceHolder defined inside its LayoutTemplates for this purpose.
 >

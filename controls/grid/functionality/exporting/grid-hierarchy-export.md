@@ -18,14 +18,14 @@ By default when you set IgnorePaging to true and then export a parent table in h
 
 Until Q3 2013, you had to retain the expanded state manually when the control rebinds. Since Q3 2013 version, we introduced a new property named **RetainExpandStateOnRebind**. When you set enable it, the expanded items’ state will persist automatically.
 
->tip The following [code-library](http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx) example demonstrates how to persist the expanded state manually.
+>note The following [code-library](http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx) example demonstrates how to persist the expanded state manually.
 >
 
 
->tip ExcelML format requires that the **HierarchyLoadMode** property be set to either *Client* or *ServerBind* . When you are using this export format, all items in the hierarchy will expand by default regardless of the state of the **RetainExpandStateOnRebind** property.
+>note ExcelML format requires that the **HierarchyLoadMode** property be set to either *Client* or *ServerBind* . When you are using this export format, all items in the hierarchy will expand by default regardless of the state of the **RetainExpandStateOnRebind** property.
 >
 
->tip Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
 >
 
 The mentioned below code snippet demonstrates a possible approach to persist the expanded state manually.

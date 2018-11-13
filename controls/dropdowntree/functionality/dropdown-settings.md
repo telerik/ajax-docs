@@ -16,7 +16,7 @@ position: 2
 
 ## DropDown Settings
 
->tip These settings are available after the **Q1 2013 SP1** release of the Telerik controls.
+>note These settings are available after the **Q1 2013 SP1** release of the Telerik controls.
 >
 
 

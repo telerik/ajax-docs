@@ -21,7 +21,7 @@ The screenshot below shows **RadTabStrip** together with **RadMultiPage**.
 
 To integrate **RadTabStrip** with **RadMultiPage**, set the **MultiPageID** property of the tab strip to the **ID** of the multi-page instance. For more details, see [Integrating RadMultiPage with RadTabStrip]({%slug tabstrip/radmultipage/integrating-with--radtabstrip%}).
 
->tip See a live example of this functionality at [www.telerik.com](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/functionality/multipage/defaultcs.aspx).
+>note See a live example of this functionality at [www.telerik.com](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/functionality/multipage/defaultcs.aspx).
 >
 
 

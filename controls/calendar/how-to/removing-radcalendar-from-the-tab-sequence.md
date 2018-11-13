@@ -40,7 +40,7 @@ You can remove the calendar child controls from the tab sequence by writing a Ja
 
 
 
->tip 
+>note 
 If you are using **RadDatePicker** , **RadDateTimePicker** or **RadTimePicker**, a similar issue arises with the popup buttons, which are rendered as <*a*> tag. However, for these controls, the popup buttons are accessible through the **DatePopupButton** and **TimePopupButton** properties, so you can simply set the **TabIndex** property for the button in the designer.
 >
 

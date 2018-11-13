@@ -12,11 +12,11 @@ position: 7
 
 In this help article you will learn how to import external CSS files into the content area of **RadEditor** using the **CssFiles** collection.
 
->tip This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
+>note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 By default, **RadEditor** uses the CSS styles available in the current page. Using the **CssFiles** collection, it can be configured to load external CSS files instead.
 
->tip If a CSS file is added via the **CssFiles** collection, any CSS rules or files that derive from the main page will no longer affect the stylization of the content area.
+>note If a CSS file is added via the **CssFiles** collection, any CSS rules or files that derive from the main page will no longer affect the stylization of the content area.
 
 Using external CSS files is useful in scenarios where the editable content area is required to have design, formatting or stylization that is different from the main page.
 
@@ -46,7 +46,7 @@ RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles1.css")
 RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles2.css")
 ````
 
->tip If you want to set external CSS files in dynamically loaded editors, make sure to load the Toolsfile before you add any external css files, e.g.
+>note If you want to set external CSS files in dynamically loaded editors, make sure to load the Toolsfile before you add any external css files, e.g.
 >
 >	`RadEditor1.ToolsFile = "~/RadEditorTools-Simple.xml";`
 >	`RadEditor1.CssFiles.Add(new EditorCssFile("~/Css/RadEditor.css"));`

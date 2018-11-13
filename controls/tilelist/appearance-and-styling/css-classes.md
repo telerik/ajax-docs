@@ -38,7 +38,7 @@ position: 1
 |.RadTileList_Default|Main wrapper element|
 |.RadTileList_Default .rtlistGroupSeparatorVisible|Styles Group Separator element|
 
->tip To further customize the Tiles in the TileList as standalone objects, you should follow the [RadBaseTile's CSS Classes article]({%slug tilelist/tiles/appearance-and-styling/css-classes%}).
+>note To further customize the Tiles in the TileList as standalone objects, you should follow the [RadBaseTile's CSS Classes article]({%slug tilelist/tiles/appearance-and-styling/css-classes%}).
 >
 
 

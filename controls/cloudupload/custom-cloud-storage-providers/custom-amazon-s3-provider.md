@@ -12,7 +12,7 @@ position: 1
 
 
 
->tip Starting from Q1 2014 **CloudUpload** supports creating of [Custom Storage Providers]({%slug cloudupload/custom-cloud-storage-providers/overview%}). They allow developers to set dynamically in the code-behind credentials for every Storage Provider multiple usage of Storage Providers of the same type.
+>note Starting from Q1 2014 **CloudUpload** supports creating of [Custom Storage Providers]({%slug cloudupload/custom-cloud-storage-providers/overview%}). They allow developers to set dynamically in the code-behind credentials for every Storage Provider multiple usage of Storage Providers of the same type.
 >
 
 

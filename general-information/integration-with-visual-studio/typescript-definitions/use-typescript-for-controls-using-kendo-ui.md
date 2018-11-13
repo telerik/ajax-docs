@@ -16,7 +16,7 @@ This article explains how to use the **Kendo TypeScript definitions**	with contr
 
 By design, every control from the UI for ASP.NE T AJAX suite that integrates a **Kendo** widget, exposes the client-side **get_kendoWidget** method, which returns a reference to the widget object.
 
->tip Exception to that rule is [RadClientDataSource]({%slug clientdatasource/overview%}) in versions prior to **Q2 2015**. In older version it exposes the **get_dataSourceObject** method to return the reference to the **Kendo** DataSource object.
+>note Exception to that rule is [RadClientDataSource]({%slug clientdatasource/overview%}) in versions prior to **Q2 2015**. In older version it exposes the **get_dataSourceObject** method to return the reference to the **Kendo** DataSource object.
 >
 
 ## How to use Intellisense

@@ -20,7 +20,7 @@ The items of **RadComboBox** have a few important properties, which are listed b
 
 * **ToolTip** - text that appears when the user hovers the mouse over an item in the drop-down list.
 
->tip Setting the tooltip can enable an accessibility feature. Special accessibility readers like JAWS, can pronounce the tooltip of the highlighted item.
+>note Setting the tooltip can enable an accessibility feature. Special accessibility readers like JAWS, can pronounce the tooltip of the highlighted item.
 >
 
 

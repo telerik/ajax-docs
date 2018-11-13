@@ -104,7 +104,7 @@ Each client-side object exposes properties for getting the value of the control:
 |get_editValue(), set_editValue()|string|Gets or sets the value of the input control as it is formatted when the control has focus.|
 |get_displayValue(), set_displayValue()|string|Gets or sets the value of the input control as it is formatted when the control does not have focus.|
 
->tip In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** has additional methods for getting the value. See [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%}) for details.
+>note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** has additional methods for getting the value. See [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%}) for details.
 >
 
 

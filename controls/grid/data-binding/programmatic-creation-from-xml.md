@@ -40,7 +40,7 @@ The following steps describe how to import the structure of a grid:
 
 	1. Add the grid instance to the **PlaceHolder** control in the ASPX file for the Web page.
 
-	>tip The grid should be loaded and added to the Web page in the **Page_Init** event handler.
+	>note The grid should be loaded and added to the Web page in the **Page_Init** event handler.
 >
 
 

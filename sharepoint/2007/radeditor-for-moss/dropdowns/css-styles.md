@@ -16,7 +16,7 @@ The CSS class dropdown of RadEditor displays all classes defined in the page or 
 
 */Program Files/Common Files/Microsoft Shared/web server extensions/12/Template/Layouts/1033/Styles*
 
->tip The folder location can be different if you are not using US English version of MOSS. The 1033 number signifies the current culture and might be different for different language versions of MOSS.
+>note The folder location can be different if you are not using US English version of MOSS. The 1033 number signifies the current culture and might be different for different language versions of MOSS.
 
 **For example:**
 

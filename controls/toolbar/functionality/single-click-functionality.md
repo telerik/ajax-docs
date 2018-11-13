@@ -23,6 +23,6 @@ In general the **SingleClick** property of the **RadToolBar** control is used to
 
 * **None**: Setting the value to **None**, you enable the user to click multiple times to the buttons of the control.
 
->tip Note that this property is valid as of **Q2 2013 SP1** release of the ASP.NET AJAX controls.
+>note Note that this property is valid as of **Q2 2013 SP1** release of the ASP.NET AJAX controls.
 >
 

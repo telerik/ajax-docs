@@ -17,7 +17,7 @@ position: 1
 
 One common scenario is to place a RadGrid and a RadToolTipManager together in an UpdatePanel and to use the RadToolTipManager to tooltipify grid elements. When a column of the grid is sorted, or some other AJAX event happens, the manager is able to correctly re-tooltipify the grid elements.
 
->tip In addition to working properly inside MS AJAX UpdatePanel, RadToolTipManager subscribes to the page AJAX update event. The manager is able to detect that a part of the page was AJAX-updated and re-tooltipifies its elements if necessary.
+>note In addition to working properly inside MS AJAX UpdatePanel, RadToolTipManager subscribes to the page AJAX update event. The manager is able to detect that a part of the page was AJAX-updated and re-tooltipifies its elements if necessary.
 >
 
 

@@ -14,7 +14,7 @@ position: 3
 
 Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the menu declaratively at design time. As with [binding to a DataSet, DataTable, or DataView]({%slug menu/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the menu items.
 
->tip The [Binding to a Data Source]({%slug menu/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadMenu** to an **AccessDataSource**.
+>note The [Binding to a Data Source]({%slug menu/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadMenu** to an **AccessDataSource**.
 >
 
 

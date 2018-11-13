@@ -15,7 +15,7 @@ position: 9
 
 The **OnKeyPress** client-side event handler is called when the user presses a key and is supported by all **RadInput** controls.
 
->tip The event imitates the standard DOM **onkeypress** event which does not fire for all keys (e.g. ALT, CTRL, SHIFT, ESC) in all browsers, as opposed to the **onkeydown** event, which works for all keys.
+>note The event imitates the standard DOM **onkeypress** event which does not fire for all keys (e.g. ALT, CTRL, SHIFT, ESC) in all browsers, as opposed to the **onkeydown** event, which works for all keys.
 >
 
 

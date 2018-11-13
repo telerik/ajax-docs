@@ -26,7 +26,7 @@ Apart from row selection RadGrid supports the selection of individual cells and 
 
 N.B.: The selection state of RadGrid's cells is persisted on postback but not on rebinding of the grid.
 
->tip To select cells in **DetailTables** of **Hierarchical RadGrid** you can follow the approach from [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article
+>note To select cells in **DetailTables** of **Hierarchical RadGrid** you can follow the approach from [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article
 
 ## See Also
 

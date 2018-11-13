@@ -14,7 +14,7 @@ position: 2
 
 ## RibbonBarGalleryItem
 
->tip The RibbonBarGalleryItem is available after the **Q2 2013** release of the RadControls controls.
+>note The RibbonBarGalleryItem is available after the **Q2 2013** release of the RadControls controls.
 >
 
 

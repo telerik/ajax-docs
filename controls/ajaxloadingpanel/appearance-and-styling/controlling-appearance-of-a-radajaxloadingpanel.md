@@ -97,7 +97,7 @@ With **Transparency="30"** and **BackgroundTransparency="40"** the HTML will be:
 
 
 
->tip The **raTransp** class changes the opacity, so if you like the opacity of the internal **raColor** class to be actually 1, then set **EnableSkinTransparency="false".** 
+>note The **raTransp** class changes the opacity, so if you like the opacity of the internal **raColor** class to be actually 1, then set **EnableSkinTransparency="false".** 
 >
 
 

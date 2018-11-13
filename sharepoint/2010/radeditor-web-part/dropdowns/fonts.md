@@ -33,7 +33,7 @@ _/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/
 </root>
 ````
 
->tip The fonts must be available on the client machine.
+>note The fonts must be available on the client machine.
 
 
 ## Encoding for Internationalization
@@ -42,6 +42,6 @@ RadEditor is powerful enough to be used in any language you like: English, Bulga
 
 You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding: **`<?xml version="1.0" encoding="utf-8" ?>`**, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
 
->tip If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
+>note If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
 
 

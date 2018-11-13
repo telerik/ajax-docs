@@ -22,7 +22,7 @@ This article explains the **elastic capabilities RadRotator offers**. The contro
 
 @[template](/_templates/common/font-size-notes.md#note-and-example "control: RadRotator")
 
->tip The size of **RadRotator** remains the same when the control buttons are resized. As a result the rotator changes the width of its view port (the area in which the items are visible), which means that most probably the first or/and last item will be cut off.
+>note The size of **RadRotator** remains the same when the control buttons are resized. As a result the rotator changes the width of its view port (the area in which the items are visible), which means that most probably the first or/and last item will be cut off.
 
 **Example 1** shows how to increase the font size of a **RadRotator** control and the effect can be seen in comparison in **Figure 1**.
 

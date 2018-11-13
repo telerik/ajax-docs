@@ -14,7 +14,7 @@ position: 3
 
 Using the client-side API, you can programmatically add, remove, disable, or select **RadTreeView** nodes.
 
->tip Note that you should call the **trackChanges** function before you add/delete/update nodes and **commitChanges** function after you finished the client-side changes. This will ensure that all changes made will persist at the server side.
+>note Note that you should call the **trackChanges** function before you add/delete/update nodes and **commitChanges** function after you finished the client-side changes. This will ensure that all changes made will persist at the server side.
 >
 
 

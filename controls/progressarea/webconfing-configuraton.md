@@ -14,7 +14,7 @@ position: 7
 
 In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to your page and must register **RadUploadProgressHandler** and **RadUploadHttpModule** in your application **web.config** file.
 
->tip As of Q3 SP1 2008 (2008.3.1125), you can use the **SmartTag** of the **RadProgressManager** to add all settings.
+>note As of Q3 SP1 2008 (2008.3.1125), you can use the **SmartTag** of the **RadProgressManager** to add all settings.
 >
 
 
@@ -78,7 +78,7 @@ now the **`<httpHandlers>`** section is likely to look like this:
 
 
 
->tip It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
 >
 
 
@@ -105,7 +105,7 @@ now the **`<httpHandlers>`** section is likely to look like this:
 
 
 
->tip It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
 >
 
 
@@ -134,7 +134,7 @@ Now the **`<system.webServer>`** section could look like this:
 
 
 
->tip  **Note** : The above web.config snippets are valid for **.NET 2.0** .The version of the **System.Web.Extensions** in **.NET 3.5** is **3.5.0.0** 
+>note  **Note** : The above web.config snippets are valid for **.NET 2.0** .The version of the **System.Web.Extensions** in **.NET 3.5** is **3.5.0.0** 
 >
 
 

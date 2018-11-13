@@ -22,7 +22,7 @@ position: 0
 
 * [OData]({%slug dropdownlist/databinding/client-side-binding/binding-to-odata%})
 
->tip Data sources can support both hierarchical and non-hierarchical structures. **RadDropDownList** , however, only works with a flat structure - items cannot contain children.
+>note Data sources can support both hierarchical and non-hierarchical structures. **RadDropDownList** , however, only works with a flat structure - items cannot contain children.
 >
 
 
@@ -40,7 +40,7 @@ The following properties and methods are used when binding RadDropDownList to a 
 
 * **DataBind** method - must be called after the aforementioned properties are set, when binding at runtime. This method is mandatory for binding at runtime.
 
->tip If you need to map additional fields from the Data Source to properties of RadDropDownList item, the **ItemDataBound** event should be used. See [Binding To ASP DataSource Components]({%slug dropdownlist/databinding/server-side-binding-/binding-to-asp-datasource-components%}), for an example.
+>note If you need to map additional fields from the Data Source to properties of RadDropDownList item, the **ItemDataBound** event should be used. See [Binding To ASP DataSource Components]({%slug dropdownlist/databinding/server-side-binding-/binding-to-asp-datasource-components%}), for an example.
 >
 
 

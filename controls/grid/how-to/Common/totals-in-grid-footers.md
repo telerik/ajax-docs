@@ -39,7 +39,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
 
 
 
->tip RadGrid will calculate aggregates over the entire data source and will respect the filter expression applied (if present)
+>note RadGrid will calculate aggregates over the entire data source and will respect the filter expression applied (if present)
 >
 
 

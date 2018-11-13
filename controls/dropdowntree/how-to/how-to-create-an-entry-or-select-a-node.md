@@ -16,7 +16,7 @@ position: 1
 
 By creating an entry with the **CreateEntry()** method a node can be set as selected (or checked when the CheckBoxes functionality is enabled). This article describes how to select a node from the dropdown of the RadDropDownTree control.
 
->tip As of **Q2 2013** release of the RadControls controls this scenario is supported also when the **CheckBoxes** property is set to **TriState**.
+>note As of **Q2 2013** release of the RadControls controls this scenario is supported also when the **CheckBoxes** property is set to **TriState**.
 >
 
 

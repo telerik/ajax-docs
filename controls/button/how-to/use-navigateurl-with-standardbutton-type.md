@@ -26,7 +26,7 @@ There is a way to achieve this functionality with a **RadButton** configured as 
 </telerik:RadButton>
 ````
 
->tip Please note that you should cancel the click event and the post-back after the redirect, via the **set_cancel** client-side method.
+>note Please note that you should cancel the click event and the post-back after the redirect, via the **set_cancel** client-side method.
 
 ## See Also
 

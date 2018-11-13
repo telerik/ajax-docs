@@ -1,5 +1,5 @@
 #note-and-example
->tip As of 2016 Q1 SP1 **@{control}** takes the [font-size]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
+>note As of 2016 Q1 SP1 **@{control}** takes the [font-size]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
 
 >caption **Example 1**: Setting default font for the page with the default value for the Telerik controls.
 
@@ -12,7 +12,7 @@ body {
 #end
 
 #note-and-example-no-ver
->tip **@{control}** takes the [font-size]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
+>note **@{control}** takes the [font-size]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
 
 >caption **Example 1**: Setting default font for the page with the default value for the Telerik controls.
 

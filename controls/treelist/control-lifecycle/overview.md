@@ -32,5 +32,5 @@ Here follows a description of the RadTreeList control lifecycle which elaborates
 | **Unload** |Perform any final clean up before the control is torn down.|
 
 
->tip Any controls created after this phase will not be persisted in the **ViewState** and this will cause them work incorrectly.
+>note Any controls created after this phase will not be persisted in the **ViewState** and this will cause them work incorrectly.
 >

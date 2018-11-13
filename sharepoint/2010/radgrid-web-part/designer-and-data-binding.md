@@ -56,7 +56,7 @@ Selecting the SharePoint Lists tab will display the SP Lists Explorer. The topmo
 
 No log-in credentials will be required when binding to SP Lists as the current user's account is taken into consideration. Furthermore, no columns are selected for the SP list chosen, but instead the deepest level in the **SP Lists Explorer**tree will be populated with the views of the corresponding list. All the columns in the selected view will, upon saving the web part’s settings, become columns of SPRadGrid.
 
->tip
+>note
 >The SPRadGrid Web Part allows you to display and edit data coming from **external** SharePonit Lists as well. Those are treated by SharePoint as regular SharePoint lists and as such are part of a given SharePoint site/subsite. Therefore, TelerikSPRadGrid will list them in the ToolPart list combo or the SPRadGrid Designer SPLists explorer tree along with the regular SharePonit lists and you can pick one from there to bind SPRadGrid to the external data store. Any change to the data in the SPRadGrid control will be automatically reflected into the external data provider.
 
 
@@ -73,7 +73,7 @@ The Excel explorer lists the folders within the document libraries only for the 
 
 **Important: Only when the OK button has been hit, the excel file with the accompanying information will be assigned as the data-source for the MasterTableView.** The first row in the chosen range will be treated as containing the column names for the excel table to be displayed. If this row is empty, default column names will be assigned.
 
->tip
+>note
 > it might take some time for the sheet names to load as the SharePoint Excel Service is used for that behind the scene.
 >
 

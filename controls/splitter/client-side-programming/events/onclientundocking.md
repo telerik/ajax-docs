@@ -12,7 +12,7 @@ position: 16
 
 The **OnClientUndocking** client-side event handler is called when a sliding pane is about to be undocked. The event can occur because the user clicks on the undock button, or as the result of a a call to a client-side method.
 
->tip The **OnClientUndocking** event is supported by **RadSlidingPane** . It takes the place of the depricated OnClientBeforeUndock event.
+>note The **OnClientUndocking** event is supported by **RadSlidingPane** . It takes the place of the depricated OnClientBeforeUndock event.
 
 The following two parameters are passed to the event handler:
 

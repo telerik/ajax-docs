@@ -16,7 +16,7 @@ position: 4
 
 You can also add Templates to **RadTreeView** at runtime, using the **NodeTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
->tip The **TreeNodes** should be dynamically added so that Templates can be defined at run time.
+>note The **TreeNodes** should be dynamically added so that Templates can be defined at run time.
 >Also, the **Nodes should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the **RadTreeView** object or bind the Nodes that are about to use **DataBinder.Eval**. You can bind a specific node by calling the **DataBind** method of this specific Node.
 >
 
@@ -136,7 +136,7 @@ End Sub
 
 If for some reason you cannot define the **Template** in the **OnInit** event of the page, or take advantage of the **TemplateNeeded** event, you could use another approach:
 
->tip The Template has to be instantiated for each Node upon a postback. Since the **TextBoxTemplate** class initializes the Label on **InstantiateIn** we called the **InstantiateIn** method of the TextBoxTemplate object for each Node.
+>note The Template has to be instantiated for each Node upon a postback. Since the **TextBoxTemplate** class initializes the Label on **InstantiateIn** we called the **InstantiateIn** method of the TextBoxTemplate object for each Node.
 >
 
 

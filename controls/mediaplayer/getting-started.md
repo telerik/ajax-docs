@@ -42,7 +42,7 @@ Configuring **RadMediaPlayer** is a quite straightforward and not time-consuming
 
 You can find additional and updated information about the supported HTML5 formats [here](http://www.w3schools.com/html/html5_video.asp).
 
->tip
+>note
 FLV support - For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash `<object>`, instead of the default `<video>` element. This improvement enables the RadMediaPlayer to support FLV video format on all browsers by rendering as an `<object>` automatically when the provided video is of FLV format.
 >
 

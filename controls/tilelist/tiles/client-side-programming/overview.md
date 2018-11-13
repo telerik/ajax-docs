@@ -36,7 +36,7 @@ The **RadLiveTile** offers additional events that are related to its load-on-dem
 
 * **[OnClientTemplateDataBound]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound%})**—fires after the ClientTemplate is data bound (i.e., the information from the request is resolved in the template).
 
->tip If [selection]({%slug tilelist/functionality/selecting%}) is disabled the [OnClientSelecting]({%slug tilelist/tiles/client-side-programming/events/onclientselecting%}) and [OnClientSelected]({%slug tilelist/tiles/client-side-programming/events/onclientselected%}) events will not be fired at all.
+>note If [selection]({%slug tilelist/functionality/selecting%}) is disabled the [OnClientSelecting]({%slug tilelist/tiles/client-side-programming/events/onclientselecting%}) and [OnClientSelected]({%slug tilelist/tiles/client-side-programming/events/onclientselected%}) events will not be fired at all.
 
 
 
@@ -58,7 +58,7 @@ Tile creates a client-side object with the ClientID of the control.You can obtai
 
 
 
->tip All Tile types inherit the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to its own specific methods.
+>note All Tile types inherit the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to its own specific methods.
 
 
 

@@ -42,7 +42,7 @@ You can create a **PostBackTrigger** in the **UpdatePanel** for the button that 
 
 Attach an event handler to the **OnRequestStart** client-side event of the **RadAjaxPanel / RadAjaxManager**, which disables the AJAX functionality when a specific button is clicked.
 
->tip The **get_eventTarget()** method of the args parameter contains the **UniqueID** of the clicked button.
+>note The **get_eventTarget()** method of the args parameter contains the **UniqueID** of the clicked button.
 >
 
 
@@ -70,7 +70,7 @@ Attach an event handler to the **OnRequestStart** client-side event of the **Rad
 
 **RadGrid for ASP.NET AJAX** no longer supports the **EnableAjax** feature. However, if your application mixes **RadUpload for ASP.NET AJAX** controls with **RadGrid "classic"**, you can use the same technique as in the previous workaround for buttons inside **RadGrid**. Since the button that initiates a postback is in a template, you cannot use its UniqueID directly. Instead, you must check for its ID.You must ensure that you have no other buttons with the same ID on the page.
 
->tip  **UpdateButton** and **PerformInsertButton** are the IDs of the integrated in **RadGrid** Update and Insert buttons. If you have custom edit form with buttons that have different IDs, use their IDs instead.
+>note  **UpdateButton** and **PerformInsertButton** are the IDs of the integrated in **RadGrid** Update and Insert buttons. If you have custom edit form with buttons that have different IDs, use their IDs instead.
 >
 
 
@@ -189,7 +189,7 @@ End Sub
 
 **RadAjax** automatically replaces all instances of "`__doPostBack`" inside AJAX-enabled controls such as those that are placed inside **RadAjaxPanel**. If you create a JavaScript function which calls `__doPostBack` inside its body and call that function instead of `__doPostBack`, you can perform postbacks from AJAX-enabled controls.
 
->tip If you place the realPostBack function defined in the example inside a user control, make sure that it is not placed inside **RadAjaxPanel** (or inside **RadGrid classic** ), because it will automatically replace the call to `__doPostBack` in the realPostBack function body. In this case, you must declare the realPostBack function in the ASPX page.
+>note If you place the realPostBack function defined in the example inside a user control, make sure that it is not placed inside **RadAjaxPanel** (or inside **RadGrid classic** ), because it will automatically replace the call to `__doPostBack` in the realPostBack function body. In this case, you must declare the realPostBack function in the ASPX page.
 >
 
 

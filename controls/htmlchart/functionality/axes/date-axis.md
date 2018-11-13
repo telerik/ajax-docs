@@ -12,7 +12,7 @@ position: 0
 
 This Help article describes the **Data Axis** support in **RadHtmlChart** and provides	a figure and example. As of Q2 2013, **Date Axis** support is available in **RadHtmlChart**,	so that the chart can now be data bound to **DateTime** objects (see **Figure 1**)	or their string representations.	[XAxis labels]({%slug htmlchart/server-side-programming/axes-configuration%}),	[series labels and tooltips]({%slug htmlchart/server-side-programming/series-configuration%}) can be formatted to the desired date format.
 
->tip **Date Axis** support is available only for a *databound* **RadHtmlChart** which automatically detects the **DateTime** object data in the column/field and adjusts the distribution of the items on the XAxis.
+>note **Date Axis** support is available only for a *databound* **RadHtmlChart** which automatically detects the **DateTime** object data in the column/field and adjusts the distribution of the items on the XAxis.
 
 
 ## Numeric Series (Bubble, Scatter, ScatterLine)

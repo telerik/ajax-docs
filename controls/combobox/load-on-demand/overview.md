@@ -22,7 +22,7 @@ To use the Load-On-Demand mechanism, you need to:
 
 * Subscribe to the **ItemsRequested** event and add new items to the RadComboBox.
 
->tip Items added in the **ItemsRequested** event handler are cleared when the next **ItemsRequested** event fires. If you, however, use the **ShowMoreResultsBox** mechanism or **Virtual Scrolling** the items will not be cleared upon clicking the **ShowMoreResultsBox** arrow or **scrolling down.** 
+>note Items added in the **ItemsRequested** event handler are cleared when the next **ItemsRequested** event fires. If you, however, use the **ShowMoreResultsBox** mechanism or **Virtual Scrolling** the items will not be cleared upon clicking the **ShowMoreResultsBox** arrow or **scrolling down.** 
 >
 
 
@@ -30,7 +30,7 @@ To use the Load-On-Demand mechanism, you need to:
 
 When the user types in the input area or clicks on the drop-down toggle image when there are no items in the RadComboBox, the **[OnClientItemsRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})** event fires on the client, followed by an **[ItemsRequested]({%slug combobox/server-side-programming/itemsrequested%})** event on the server. Once the new items have been added to RadComboBox, an **[OnClientItemsRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})** event fires on the client.
 
->tip The **EnableLoadOnDemand** property allows the user to enter text in the input area, regardless of the value of the **AllowCustomText** property. This is because the load-on-demand mechanism requires the user to be able to enter text.
+>note The **EnableLoadOnDemand** property allows the user to enter text in the input area, regardless of the value of the **AllowCustomText** property. This is because the load-on-demand mechanism requires the user to be able to enter text.
 >
 
 

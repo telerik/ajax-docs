@@ -22,7 +22,7 @@ position: 1
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadSocialShare")
 
->tip RadSocialShare uses internally RadComboBox and RadWindow for its CompactPopup and RadCaptcha for its SendEmail form. These controls inherit the RenderMode of the SocialShare.
+>note RadSocialShare uses internally RadComboBox and RadWindow for its CompactPopup and RadCaptcha for its SendEmail form. These controls inherit the RenderMode of the SocialShare.
 
 ## Setting Render Mode
 

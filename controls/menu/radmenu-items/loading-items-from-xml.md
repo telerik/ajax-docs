@@ -100,7 +100,7 @@ RadMenu1.LoadXml(xmlString)
 ````
 
 
->tip You can also populate RadMenu from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug menu/data-binding/binding-to-hierarchical-datasource%})for details.
+>note You can also populate RadMenu from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug menu/data-binding/binding-to-hierarchical-datasource%})for details.
 >
 
 

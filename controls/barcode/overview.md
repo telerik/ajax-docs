@@ -37,6 +37,6 @@ After a barcode is added on the page, it is necessary to adjust the basic proper
 
 * **ShortLinesLengthPercentage** - Specifies the ration between long and short lines in the rendered barcode and adjust the Height and Width of the bars in percentage of the barcode's wrapper. Expects value varies from 0.00 to 100.00 (90 by default).
 
->tip If the value in the **Text** property is invalid for the selected type, the Barcode will not be visible.
+>note If the value in the **Text** property is invalid for the selected type, the Barcode will not be visible.
 >
 

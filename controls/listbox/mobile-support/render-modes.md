@@ -24,7 +24,7 @@ The RadListBox **RenderMode** property accepts three values:
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used browser - **Classic** or **Lightweight**. 
 
->tip The "RenderingMode" property of the RadListBox is now obsoleted.
+>note The "RenderingMode" property of the RadListBox is now obsoleted.
 >
 
 

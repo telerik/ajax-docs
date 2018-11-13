@@ -112,7 +112,7 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 
 1. Set the **OnClientAppointmentEditing** property of your **RadScheduler** to "**AppointmentEditing**" and the **OnClientAppointmentInserting** property to "**AppointmentInserting**". These two javascript functions are defined in the javascript you added to your page.They call **window.radopen()** to open a **RadWindow** with content defined by **AdvancedForm.aspx**. **AdvancedForm.aspx** is a Web Form that takes information about the appointment from the URL. It uses four query parameters: **Mode**, which is "Insert" or "Edit" depending on whether the form is inserting a new appointment or editing an existing one; **AppointmentId**, which is the keyfor the appointment to edit; **Start**, which is the start time for an inserted appointment;and **IsAllDay**, which indicates whetheran inserted appointment should begin as an all-day event. **AdvancedForm.aspx** has its own reference to the data source that the scheduler uses, and usesthat data source to obtain information about the appointment to be edited, as well as to save any changes made by the user. For more information on **AdvancedForm.aspx**, see the Quick Start demo.
 
-	>tip The **AppointmentEditing** and **AppointmentInserting** functions call eventArgs.set_cancel(true) to prevent the scheduler from editing or inserting the appointment: this is handled by the edit form instead.
+	>note The **AppointmentEditing** and **AppointmentInserting** functions call eventArgs.set_cancel(true) to prevent the scheduler from editing or inserting the appointment: this is handled by the edit form instead.
 	>
 
 

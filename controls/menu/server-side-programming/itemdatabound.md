@@ -20,7 +20,7 @@ The **ItemDataBound** event handler receives two arguments:
 
 1. A **RadMenuEventArgs** object. This object has an **Item** property that you can use to access the item that was just added. You can access the data item to which the item has just been bound using its **DataItem** property. The value of **DataItem** should be cast to the type of items in the data source so that you can work with its fields appropriately.
 
->tip The **ItemDataBound** event handler is the only time when the **DataItem** property of a menu item is set.
+>note The **ItemDataBound** event handler is the only time when the **DataItem** property of a menu item is set.
 >
 
 

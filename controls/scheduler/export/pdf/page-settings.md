@@ -18,7 +18,7 @@ This help article shows all properties and settings related to the Page dimensio
 
 As of Q3 2013 SP1 we introduced the **AllowPaging** property, which allows you to split the **RadScheduler** into pages for more detailed view.
 
->tip Please note that by default the RadScheduler control is exported to a single page. In this case the RadScheduler is scaled to fit the page size( width and height are taken if the RadScheduler Overflow property is set to "Expand"). When AllowPaging property is enabled the width of the RadScheduler is stretched to align to the document width and print the content on pages.
+>note Please note that by default the RadScheduler control is exported to a single page. In this case the RadScheduler is scaled to fit the page size( width and height are taken if the RadScheduler Overflow property is set to "Expand"). When AllowPaging property is enabled the width of the RadScheduler is stretched to align to the document width and print the content on pages.
 >
 
 
@@ -76,7 +76,7 @@ Figure 2:
 
 Page size dimensions give user ability to control the page margins, width or height when exporting the RadScheduler control. and the **Portrait**.
 
->tip Please note that the all dimensions used for the page layout ( PageRightMargin, PageLeftMargin and etc.) should be set in same type (mm or inch).
+>note Please note that the all dimensions used for the page layout ( PageRightMargin, PageLeftMargin and etc.) should be set in same type (mm or inch).
 >
 
 

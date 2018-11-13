@@ -22,7 +22,7 @@ Use the **ResizeMode** property of **RadSplitter** to define which panes are res
 
 * **Proportional** - the pane immediately before the split bar is resized and all panes that follow the split bar divide up the resulting space according to their current proportions. For example, if the split bar is moved to the left, the left adjacent pane decreases its width and all the panes to the right of the split bar increase their widths to maintain the same relative ratios in their widths.
 
->tip  **ResizeMode** also affects how other panes are resized when the user [expands or collapses]({%slug splitter/panes/collapsing%}) a pane. When the user expands or collapses a pane that appears *before* a split bar, the other panes are resized as if the user had dragged the split bar to resize the pane. If the user expands or collapses a pane that appears *after* a split bar, the effect of the **EndPane** and **Proportional** resize modes reverses, so that the first pane or previous panes are resized.
+>note  **ResizeMode** also affects how other panes are resized when the user [expands or collapses]({%slug splitter/panes/collapsing%}) a pane. When the user expands or collapses a pane that appears *before* a split bar, the other panes are resized as if the user had dragged the split bar to resize the pane. If the user expands or collapses a pane that appears *after* a split bar, the effect of the **EndPane** and **Proportional** resize modes reverses, so that the first pane or previous panes are resized.
 
 ## ResizeStep
 
@@ -48,7 +48,7 @@ If the content of a pane exceeds its size, the **RadPane** control displays scro
 
 * **Both** - **RadPane** displays horizontal and vertical scroll bars when the content exceeds its width and height, respectively.
 
->tip When a **RadPane** control is displaying scrollbars, the user can scroll its content using the arrow keys.
+>note When a **RadPane** control is displaying scrollbars, the user can scroll its content using the arrow keys.
 
 ## Locked Panes
 
@@ -60,7 +60,7 @@ Use the **Locked** property of a **RadPane** control to lock the pane. When a pa
 
 * Collapse or expansion of other panes in the splitter.
 
->tip The size of a locked pane can be changed only from the client-side API by using the **set_width()** or **set_height()** methods of the [RadPane client-side object]({%slug splitter/client-side-programming/radpane-object%}).
+>note The size of a locked pane can be changed only from the client-side API by using the **set_width()** or **set_height()** methods of the [RadPane client-side object]({%slug splitter/client-side-programming/radpane-object%}).
 
 ## LiveResize
 

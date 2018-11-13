@@ -68,7 +68,7 @@ Content
 
 * **Missing reference to Newtonsoft assembly** -  *Telerik.Web.UI.RadCloudUpload with ID='RadCloudUpload1' was unable to find a reference to Newtonsoft.Json.dll. Please, make sure that you have added a reference to the this assembly in your project*.
 
->tip **RadCloudUpload** has a **EnableAssembliesDetection** property. By default it is enabled. This property indicates if **RadCloudUpload** should check whether the Amazon, Azure, Telerik Backend Services (and Newtonsoft) assemblies are referenced to the project.
+>note **RadCloudUpload** has a **EnableAssembliesDetection** property. By default it is enabled. This property indicates if **RadCloudUpload** should check whether the Amazon, Azure, Telerik Backend Services (and Newtonsoft) assemblies are referenced to the project.
 
 ## Missing Handler Registration
 
@@ -78,7 +78,7 @@ One of the most common cause for failures is a missing or incorrect **Telerik.We
 
 In case of failure this error message will be displayed: *'~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadCloudUpload requires a HttpHandler registration in web.config. Please, use the control Smart Tag to add the handler automatically, or see the help for more information: Controls > RadCloudUpload*
 
->tip **RadCloudUpload** has a **EnableHanlderDetection** property. By default it is enabled. This property cause s **RadCloudUpload** to check if the Telerik.Web.UI.WebResource handler exists in the application configuration file.
+>note **RadCloudUpload** has a **EnableHanlderDetection** property. By default it is enabled. This property cause s **RadCloudUpload** to check if the Telerik.Web.UI.WebResource handler exists in the application configuration file.
 
 ## Configuring RadCloudUpload for Windows or Forms Authentication
 
@@ -94,7 +94,7 @@ The RadCloudUpload handler must be excluded from Windows Authentication (NTLM) a
 </location>
 ````
 
->tip Anonymous Authentication must be enabled in IIS. If AA is disabled, you must disable the RadCloudUpload Flash module altogether by inserting this script right before the control definition on the page:
+>note Anonymous Authentication must be enabled in IIS. If AA is disabled, you must disable the RadCloudUpload Flash module altogether by inserting this script right before the control definition on the page:
 
 **RadCloudUpload** will add Configuration Section automatically, when Cloud Storage Provider is set through the Visual Studio Designer. In some cases Cloud Storage Provider may be added manually to the web.config. If this happen Visual Studio will indicates a compile time error "**Unrecognized configuration section telerik.web.ui.**". This error will not appear if the **RadCloudUpload** configuration section exists in **web.config** file.
 

@@ -32,7 +32,7 @@ function getMasterTableViewHeader() {
 
 
 
->tip Please, keep in mind that this property would only return a non-null value when scrolling with static headers is enabled:
+>note Please, keep in mind that this property would only return a non-null value when scrolling with static headers is enabled:
 >
 
 

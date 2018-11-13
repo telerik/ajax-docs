@@ -52,7 +52,7 @@ RadComboBox1.Focus()
 ````
 
 
->tip The focus of RadComboBox might not be visible in some browsers if AllowCustomText property is not set to true. You could test the focus using the [OnClientFocus]({%slug combobox/client-side-programming/events/onclientfocus%}) event.
+>note The focus of RadComboBox might not be visible in some browsers if AllowCustomText property is not set to true. You could test the focus using the [OnClientFocus]({%slug combobox/client-side-programming/events/onclientfocus%}) event.
 >
 
 

@@ -20,7 +20,7 @@ This article explains the **elastic capabilities RadTagCloud offers**. The contr
 
 **RadTagCloud** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the tag cloud will simply increase their size as well to accommodate the text inside. This fluid layout is achieved by using **em** units for setting dimensions and paddings in the control, instead of **px** because **em** units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
->tip If you configure the **MinFontSize** and **MaxFontSize** properties of **RadTagCloud** in pixels or without specifying a unit, the text in the tag cloud will not be scaled, because the font size of the items will be calculated in pixels. It is recommended to **set these properties in em units** to ensure that the whole control will be resized according to the chosen font size.
+>note If you configure the **MinFontSize** and **MaxFontSize** properties of **RadTagCloud** in pixels or without specifying a unit, the text in the tag cloud will not be scaled, because the font size of the items will be calculated in pixels. It is recommended to **set these properties in em units** to ensure that the whole control will be resized according to the chosen font size.
 >
 
 

@@ -36,7 +36,7 @@ RadToolTipManager1.EnableAriaSupport = True
 
 
 
->tip The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
+>note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 
 
 
@@ -44,7 +44,7 @@ RadToolTipManager1.EnableAriaSupport = True
 
 
 
->tip  **RadToolTips** created by a **RadToolTipManager** will inherit the value of its **EnableAriaSupport** property.
+>note  **RadToolTips** created by a **RadToolTipManager** will inherit the value of its **EnableAriaSupport** property.
 
 
 

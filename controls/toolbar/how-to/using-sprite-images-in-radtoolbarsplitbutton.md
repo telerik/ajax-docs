@@ -16,7 +16,7 @@ Change text and image of the selected button in the RadToolBarSplitButton using 
 
 To change the text and the image of the selected RadToolBarButton in the **RadToolBarSplitButton** you will need to use some css styles in a combination with javascript. For this purpose you can use the **SpriteCssClass** property of the RadToolBarButton.To be able to use sprite images for the RadToolBarSplitButton on the first place, you will need to set the **EnableImageSprite** property to **true**. Unfortunately changing the image of the selected RadToolBarButton does not come out of the box when using sprites. Therefore, youwill need to apply some javascript code that will be switching the css classes applied to the selected button when changingthe different RadToolBarButtons.``
 
->tip Note that the **SpriteCssClass** property is available after the **2012.3.1205** version.
+>note Note that the **SpriteCssClass** property is available after the **2012.3.1205** version.
 >
 
 

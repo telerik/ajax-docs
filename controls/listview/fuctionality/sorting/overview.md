@@ -56,5 +56,5 @@ Label1.Text = RadListView1.SortExpressions.GetSortString()
 ````
 
 
->tip When binding **RadListView** to **ObjectDataSource** control you should set the **OverrideDataSourceControlSorting** property to **true**
+>note When binding **RadListView** to **ObjectDataSource** control you should set the **OverrideDataSourceControlSorting** property to **true**
 >

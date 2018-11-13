@@ -22,7 +22,7 @@ The **DockPositionChanged** event occurs when postbacks are enabled and the user
 
 * A change of index within a **RadDockZone** control.
 
->tip The **DockPositionChanged** event does *not* occur when the **RadDock** control is moved from one floating position to another, or when the **RadDock** control is moved programmatically.
+>note The **DockPositionChanged** event does *not* occur when the **RadDock** control is moved from one floating position to another, or when the **RadDock** control is moved programmatically.
 
 
 The **DockPositionChanged** event handler receives two arguments:

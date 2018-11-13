@@ -27,7 +27,7 @@ RadGrid ARIA attributes are **lower case**. They are shown in the table below.
 | ------ | ------ |
 | **RadGrid** |aria-haspopuparia-hiddenaria-readonlyaria-multiselectablearia-checkedaria-grabbedaria-dropeffectaria-levelrole:grouprole:listitemrole:textboxrole:buttonrole:checkboxEnabled Aria for inner controls (where supported) in column editors, filter headers, pager etc.|
 
->tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
 
 

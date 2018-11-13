@@ -12,7 +12,7 @@ position: 0
 
 The **RadWindow** is a client-side object – its UI is created when it is first shown and this is the point when the CSS and scripts are loaded as well. This means that it should be used on the client via JavaScript, yet it turns out that it is a very common scenario that the developer wishes to initiate the **RadWindow**’s showing from the code-behind.
 
->caution The **VisibleOnPageLoad** property should **_not_** be used for this purpose. It is a behavior property which will result in the RadWindow opening every time the page is post back.
+>warning The **VisibleOnPageLoad** property should **_not_** be used for this purpose. It is a behavior property which will result in the RadWindow opening every time the page is post back.
 
 
 Quite often the **VisibleOnPageLoad** property gets set to **true** while the intention is that the RadWindow should only show once. Doing so will result in the RadWindow reopening if a post back is initiated from another element from the page, which is rarely the desired behavior. Also, this approach will not work in case this happens in an AJAX request and the RadWindow is not included in the partial page update.

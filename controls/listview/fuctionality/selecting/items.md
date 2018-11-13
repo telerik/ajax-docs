@@ -26,7 +26,7 @@ There are several ways to select/deselect an item in **RadListView**:
 
 * to add/remove item's index to the **SelectedIndexes** collection
 
->tip Note, that you need to provide Select/Deselect buttons in both **Item** and **AlternatingItem** templates.
+>note Note, that you need to provide Select/Deselect buttons in both **Item** and **AlternatingItem** templates.
 >
 
 
@@ -45,7 +45,7 @@ There are several ways to select/deselect an item in **RadListView**:
 
 
 
->tip The selected items can be cleared using the **ClearSelectedItems** method.
+>note The selected items can be cleared using the **ClearSelectedItems** method.
 >
 
 

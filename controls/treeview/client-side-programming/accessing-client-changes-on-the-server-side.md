@@ -30,7 +30,7 @@ Client side changes are available on the server side after postback. You can use
 
 
 
->tip Note that you need to call the **trackChanges**() and **commitChanges**() client methods of **RadTreeView** in order to be able to access the changes on the server via the **ClientChanges** property.
+>note Note that you need to call the **trackChanges**() and **commitChanges**() client methods of **RadTreeView** in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 

@@ -60,6 +60,6 @@ meta:resourcekey="RadChart1Resource1">
 ...    
 ````
 
->tip Localization can also be performed using the Microsoft Localization API to retrieve resources programmatically at runtime.
+>note Localization can also be performed using the Microsoft Localization API to retrieve resources programmatically at runtime.
 
 

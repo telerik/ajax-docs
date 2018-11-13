@@ -40,7 +40,7 @@ The **RibbonBarComboBox** has a few important properties, which are listed below
 
 **RibbonBarListItem**
 
->tip  **RibbonBarListItem** - used by RibbonBarDropDown and RibbonBarComboBox. In order to access a single item in the collection of items *get_items().getItem(0);* or the *get_items.get_count();* can be used.
+>note  **RibbonBarListItem** - used by RibbonBarDropDown and RibbonBarComboBox. In order to access a single item in the collection of items *get_items().getItem(0);* or the *get_items.get_count();* can be used.
 >
 
 

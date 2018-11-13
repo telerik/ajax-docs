@@ -44,7 +44,7 @@ The keyboard navigation has the following functionalities:
 
 The available key combinations are listed below:
 
->tip Keyboard shortcuts are the same as the Microsoft Outlook ones
+>note Keyboard shortcuts are the same as the Microsoft Outlook ones
 >
 
 

@@ -43,7 +43,7 @@ Below you can find the following sections:
 |Word|n/a|HTML|ExportToWord|RadGrid.ExportToWordCommandName|ExportToWord()|ExportToWord()|
 |CSV|n/a|text|ExportToCsv|RadGrid.ExportToCsvCommandName|ExportToCSV()|ExportToCsv()|
 
->tip We strongly recommend that you use [Advanced Data Binding](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid**.
+>note We strongly recommend that you use [Advanced Data Binding](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid**.
 
 >important RadGrid exporting works only when the **ViewState** is persisted in a hidden field (the default setting). In case you are using an analternative way to persist the **ViewState**, such as storing it in a database or a session, you will receive an exception.
 
@@ -57,7 +57,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 * **OpenInNewWindow**—By default, the exported file will be handled by the program associated with the appropriate file type.If you prefer to give the user the option to choose whether to save, open (inline) or cancel you should enable this property.
 
-	>tip Even if you set **OpenInNewWindow="false"**, that doesn't guarantee that the file will be opened inside the browser window. The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
+	>note Even if you set **OpenInNewWindow="false"**, that doesn't guarantee that the file will be opened inside the browser window. The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
@@ -67,7 +67,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 	**HttpUtility.UrlEncode("unicode string", System.Text.Encoding.UTF8);**
 
-	>tip  **Internet Explorer** ignores the **FileName** property when **OpenInNewWindow** is set to false.
+	>note  **Internet Explorer** ignores the **FileName** property when **OpenInNewWindow** is set to false.
 
 
 
@@ -84,7 +84,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 		</ExportSettings>
 
 
-	>tip You can receive this error if the file name is longer than 256 symbols:
+	>note You can receive this error if the file name is longer than 256 symbols:
 	> **`<filename>.<extension>` could not be found. Check the spelling of the file name, and verify that thefile location is correct.** 
 
 

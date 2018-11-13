@@ -31,7 +31,7 @@ position: 0
 | **RowsCount** |int|Gets or sets the number of rows in the **RadSpreadsheet**.|
 | **Sheets** |List&lt;Telerik.Web.Spreadsheet.Worksheet&gt;|Gets a collection of the **Sheets** currently loaded in the **RadSpreadsheet**.|
 
->tip You can use the `Sheets` and their rows/cells only if you use [Programmatic Binding]({%slug spreadsheet/data-binding/programmatic-binding%}). When using a [provider]({%slug spreadsheet/data-binding/providers/using-a-data-provider%}), such operations must be performed in the [custom provider]({%slug spreadsheet/data-binding/providers/custom-database-provider%}) code.
+>note You can use the `Sheets` and their rows/cells only if you use [Programmatic Binding]({%slug spreadsheet/data-binding/programmatic-binding%}). When using a [provider]({%slug spreadsheet/data-binding/providers/using-a-data-provider%}), such operations must be performed in the [custom provider]({%slug spreadsheet/data-binding/providers/custom-database-provider%}) code.
 
 ## Telerik.Web.Spreadsheet.Worksheet Properties and Methods
 

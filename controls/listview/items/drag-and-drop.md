@@ -21,7 +21,7 @@ To enable Items Drag & Drop in RadListView:
 
 1. Add a CSS marker on a data item container element (**.rlvI** for `ItemTemplate`, **.rlvA** for `AlternatingItemTemplate`)
 
->tip When Items Drag & Drop is enabled, RadListView renders client scripts that facilitate the dragging of items on the page. To be able to grab and move items, you need to place a **RadListViewItemDragHandle** control inside your `ItemTemplate` / `AlternatingItemTemplate`. This control renders a visual drag handle that you can use to move the items.
+>note When Items Drag & Drop is enabled, RadListView renders client scripts that facilitate the dragging of items on the page. To be able to grab and move items, you need to place a **RadListViewItemDragHandle** control inside your `ItemTemplate` / `AlternatingItemTemplate`. This control renders a visual drag handle that you can use to move the items.
 
 
 ````ASP.NET
@@ -58,9 +58,9 @@ To enable Items Drag & Drop in RadListView:
 
 
 
->tip When you start moving your grabbed item, RadListView needs to create a dragged item HTML element that will be moved along with your mouse cursor. This dragged item is a replica of the HTML element representing your data item. Therefore, you need to specify the container element of your data items through the **.rlvI** and **.rlvA** CSS classes. These are the same CSS classes applied to RadListView's data items when using [built-in RadListView Skins](http://www.telerik.com/help/aspnet-ajax/listview-skins.html).
+>note When you start moving your grabbed item, RadListView needs to create a dragged item HTML element that will be moved along with your mouse cursor. This dragged item is a replica of the HTML element representing your data item. Therefore, you need to specify the container element of your data items through the **.rlvI** and **.rlvA** CSS classes. These are the same CSS classes applied to RadListView's data items when using [built-in RadListView Skins](http://www.telerik.com/help/aspnet-ajax/listview-skins.html).
 
->tip Item drag-and-drop is supported only with server-side data binding. For workarounds that may enable you to work with client-side data binding, see the following KB article: [Item drag and drop with client data binding](https://www.telerik.com/support/kb/aspnet-ajax/listview/details/item-drag-and-drop-with-client-data-binding).
+>note Item drag-and-drop is supported only with server-side data binding. For workarounds that may enable you to work with client-side data binding, see the following KB article: [Item drag and drop with client data binding](https://www.telerik.com/support/kb/aspnet-ajax/listview/details/item-drag-and-drop-with-client-data-binding).
 
 ## Events
 

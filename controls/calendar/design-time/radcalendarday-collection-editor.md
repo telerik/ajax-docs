@@ -35,7 +35,7 @@ Select a special day and set its properties using the properties grid of the edi
 | **TemplateID** |Identifies a dynamic day template that is used to display the special day. Dynamic day templates are defined using the [DayTemplate Collection Editor]({%slug calendar/design-time/daytemplate-collection-editor%}).|
 | **ToolTip** |A string that appears as a tooltip when the user hovers the mouse over the special day.|
 
->tip 
+>note 
 If you set the **Repeatable** property for a special day to anything other than "None", you must either enable postbacks ( **AutoPostBack** = **True** ) or set the **EnableRepeatableDaysOnClient** property to **True** .
 >
 

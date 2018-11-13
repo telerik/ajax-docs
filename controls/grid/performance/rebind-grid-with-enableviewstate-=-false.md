@@ -29,7 +29,7 @@ Basically, you assign data source for your grid in the **NeedDataSource** handle
 
 6. NeedDataSource (refresh the data after an item was deleted)
 
->tip Note that in order to make 4 to happen, the recreation of the grid in 3 should be exactly the same as when the grid is data-bound on the previous postback. To ensure that 6 will be fired, you should have set the DataSource of Telerik RadGrid to null/Nothing in 4 or 5
+>note Note that in order to make 4 to happen, the recreation of the grid in 3 should be exactly the same as when the grid is data-bound on the previous postback. To ensure that 6 will be fired, you should have set the DataSource of Telerik RadGrid to null/Nothing in 4 or 5
 >
 
 

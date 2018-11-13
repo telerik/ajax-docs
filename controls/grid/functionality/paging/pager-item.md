@@ -29,11 +29,11 @@ In addition to the usual item style properties such as **ForeColor**, **BackColo
 
 **PagerStyle.Mode** lets you specify what controls appear in the pager item to help users navigate through the pages. The **Mode** sub-property can be set to "NextPrev", "NumericPages", "NextPrevAndNumeric", "Advanced", "NextPrevNumericAndAdvanced", or "Slider".
 
->tip The **Mode** property, (or any other properties controlling paging behavior) can be set using either the [RadGrid Property Builder]({%slug grid/design-time/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
+>note The **Mode** property, (or any other properties controlling paging behavior) can be set using either the [RadGrid Property Builder]({%slug grid/design-time/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
 >
 
 
->tip The default (NextPrevAndNumeric) and the advanced grid pagers require the viewstate of the control to be enabled.
+>note The default (NextPrevAndNumeric) and the advanced grid pagers require the viewstate of the control to be enabled.
 >
 
 

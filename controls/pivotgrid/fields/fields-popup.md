@@ -27,6 +27,6 @@ The FieldsPopupSettings class exposes four properties:
 * RowFieldsMinCount
 ![pivotgrid-fields-popup](images/pivotgrid-fields-popup.png)
 
->tip Note that any value different from the default zero will force the popup to appear if the count of thefields in the zone is bigger or equal to the specified one.
+>note Note that any value different from the default zero will force the popup to appear if the count of thefields in the zone is bigger or equal to the specified one.
 >
 

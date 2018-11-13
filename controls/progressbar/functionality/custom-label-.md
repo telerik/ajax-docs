@@ -12,7 +12,7 @@ position: 1
 
 The RadProgressBar's **Label** is the message (word, number, percent) that displays the level of process completion. This article explains the default status	label of the control, how to customize its text or how to hide it.
 
->tip The Label functionality is supported only for **Value** and **Percent** RadProgressBar[types]({%slug progressbar/functionality/types%}).
+>note The Label functionality is supported only for **Value** and **Percent** RadProgressBar[types]({%slug progressbar/functionality/types%}).
 
 ## Use the Default Progress Label
 

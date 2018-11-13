@@ -24,7 +24,7 @@ The **RadMonthYearPicker** controls support number of client-side events that le
 |[OnViewChanged]({%slug monthyearpicker/client-side-programming/events/onviewchanged%})|Occurs when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.|
 
 
->tip The embedded **RadDateInput** object that is used by **monthyearpicker** also has a number of client events. See the **RadInput** documentation for details.
+>note The embedded **RadDateInput** object that is used by **monthyearpicker** also has a number of client events. See the **RadInput** documentation for details.
 >
 
 

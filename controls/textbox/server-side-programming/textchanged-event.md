@@ -18,7 +18,7 @@ The **TextChanged** event only occurs if the value of the input control actually
 
 
 
->tip The postback request can be controlled for **RadTextBox** by using the [OnValueChanged]({%slug radtextbox/client-side-programming/events/onvaluechanged%}) client event of the control.
+>note The postback request can be controlled for **RadTextBox** by using the [OnValueChanged]({%slug radtextbox/client-side-programming/events/onvaluechanged%}) client event of the control.
 >
 
 

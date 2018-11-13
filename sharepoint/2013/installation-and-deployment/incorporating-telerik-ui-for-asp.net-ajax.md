@@ -32,7 +32,7 @@ The following steps outline how to insert an HTML5 Chart in a SharePoint page:
 		<%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>    
 
 
-	>tip Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
+	>note Note that the version of the assembly is specified in the Assembly attribute. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 1. Add the following code in the edited page (for example in the Content with **ContentPlaceholderID** set to **PlaceHolderMain**):

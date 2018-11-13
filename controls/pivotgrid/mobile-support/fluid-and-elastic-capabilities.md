@@ -35,7 +35,7 @@ By default **RadPivotGrid** expands to take all the available space in its conta
 </style>
 ````
 
->tip RadPivotGrid does not take care of the metrics of the controls that are place in it. This means that if you simply change its font-size that won’t affect the child controls in the template. They should be handled manually.
+>note RadPivotGrid does not take care of the metrics of the controls that are place in it. This means that if you simply change its font-size that won’t affect the child controls in the template. They should be handled manually.
 
 
 # See also

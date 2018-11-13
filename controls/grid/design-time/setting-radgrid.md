@@ -24,7 +24,7 @@ The screenshot below shows the initial state of the Telerik RadGrid editor's Gen
 
 ## Data options
 
->tip This page provides options that if set, will be available for all grid tables. If you set [Show header] option, all tables in your grid will have headers.
+>note This page provides options that if set, will be available for all grid tables. If you set [Show header] option, all tables in your grid will have headers.
 >
 
 

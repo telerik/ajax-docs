@@ -16,7 +16,7 @@ position: 2
 
 **ItemCreated** occurs every time a new item is added to the **Items** collection of the **RadPanelBar** instance or to the **Items** collection of an item in the panel bar. **ItemCreated** occurs for all panel items, not just those that result from data binding (when the **DataSource** or **DataSourceID** property is set).If the panel bar is bound to a data source, this event occurs *before* any data binding: that is, before any properties have been set to reflect the data from the data source.
 
->tip When working with data-bound panel bars, it can be more useful to use the **[ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%})** , which occurs after the item properties have been set to reflect the data source and which provides access to the **DataItem** property of an item.
+>note When working with data-bound panel bars, it can be more useful to use the **[ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%})** , which occurs after the item properties have been set to reflect the data source and which provides access to the **DataItem** property of an item.
 >
 
 

@@ -14,7 +14,7 @@ position: 5
 
 ## DropDownPosition property
 
->tip Note that the property is valid after 2012 Q3 SP1 and above.
+>note Note that the property is valid after 2012 Q3 SP1 and above.
 >
 
 

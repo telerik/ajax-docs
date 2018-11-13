@@ -26,7 +26,7 @@ To simulate the **GridClientSelectColumn** in a template column:
 
 1. In the **OnCheckChanged** event of the header check box, set the **Selected** property of every row in the grid and the **Checked** property of the corresponding check boxes in the item templates.
 
->tip The **Parent** property of the check box refers to the template. Therefore, to access the parent row, you must use the parent of the parent.
+>note The **Parent** property of the check box refers to the template. Therefore, to access the parent row, you must use the parent of the parent.
 >
 
 

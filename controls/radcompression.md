@@ -93,7 +93,7 @@ End Class
 
 
 Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done 
->tip 
+>note 
 >the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
 
 ````web.config
@@ -120,7 +120,7 @@ Another aspect of the RadCompression model allows you to exclude particular requ
 
 
 
->tip When using **IIS dynamic compression** enabling RadCompression is not required as this will result in double compression of the response.
+>note When using **IIS dynamic compression** enabling RadCompression is not required as this will result in double compression of the response.
 >
 
 
@@ -184,7 +184,7 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
         </system.web> 
 
 
->tip When IIS **dynamic compression** is enabled the **ViewState** will be automatically compressed even if the **RadCompression** module is not enabled.
+>note When IIS **dynamic compression** is enabled the **ViewState** will be automatically compressed even if the **RadCompression** module is not enabled.
 >
 
 
@@ -207,7 +207,7 @@ You can enable the postback compression by setting the *enablePostbackCompressio
 
 
 
->tip Note that setting the same attribute at page level will override the web.config settings because it will be treated with higher priority.
+>note Note that setting the same attribute at page level will override the web.config settings because it will be treated with higher priority.
 >
 
 

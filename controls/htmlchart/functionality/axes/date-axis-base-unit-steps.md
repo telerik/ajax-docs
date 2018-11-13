@@ -119,7 +119,7 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
->tip EnableBaseUnitStepAuto="true" will be ignored if the BaseUnit property is set to "Fit".
+>note EnableBaseUnitStepAuto="true" will be ignored if the BaseUnit property is set to "Fit".
 
 ## Configure a Step for a Dynamic BaseUnit
 
@@ -171,7 +171,7 @@ A further decrease of the **MaxDateGroups** property to 8 will trigger the chart
 
 ![AutoBaseUnitSteps-months-groups8](images/AutoBaseUnitSteps-months-groups8.png)
 
->tip If there isn't an exact BaseUnitStep value defined that satisfies MaxDateGroups, the chart will round it to the closest value.
+>note If there isn't an exact BaseUnitStep value defined that satisfies MaxDateGroups, the chart will round it to the closest value.
 
 ## See Also
 

@@ -26,7 +26,7 @@ Client side changes are available on the server side after postback. You can use
 
 * **Clear** - when the **clear** method is called: combo.get_items().clear();
 
->tip Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadComboBox in order to be able to access the changes on the server via the **ClientChanges** property.
+>note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadComboBox in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 

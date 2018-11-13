@@ -32,7 +32,7 @@ The most general template of RadListView is its LayoutTemplate. It specifies the
 
 
 
->tip Note that you have to specify **ItemPlaceholderID** property value for RadListView that matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. In the above code snippet this is **asp PlaceHolder** with id **EmployeesContainer** .
+>note Note that you have to specify **ItemPlaceholderID** property value for RadListView that matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. In the above code snippet this is **asp PlaceHolder** with id **EmployeesContainer** .
 >
 
 

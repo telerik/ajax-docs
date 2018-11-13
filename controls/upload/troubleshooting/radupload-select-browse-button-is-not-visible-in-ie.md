@@ -32,6 +32,6 @@ Unfortunately we could not reproduce the issue locally but we could manage to co
 	
 	![css](images/upload_css.png)
 
->tip Please note that if you encounter this issue it is possible that none of the above solutions work for your case since we are still investigating the actual cause and the needed solution.
+>note Please note that if you encounter this issue it is possible that none of the above solutions work for your case since we are still investigating the actual cause and the needed solution.
 >
 ![Correct rendering](images/upload_correctrendering.png)

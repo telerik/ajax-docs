@@ -92,7 +92,7 @@ function removeOnClicked2() {
 }
 ````
 
->tip Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondance between client-side and server-side names:
+>note Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondance between client-side and server-side names:
 >
 
 | Server-Side Name | Client-SideName | Methods to add and Remove |

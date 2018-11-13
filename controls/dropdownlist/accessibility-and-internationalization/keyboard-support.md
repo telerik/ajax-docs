@@ -16,7 +16,7 @@ Keyboard support is comprised of command key, focus key, and keyboard navigation
 
 Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - ver.2016.2.504*), allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadDropDownList** and enables keyboard navigation.
 
->tip Certain keyboard combinations are reserved and used as shortcuts in the browsers.
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers.
 >
 
 **Example:** Setting the **KeyboardNavigationSettings** for **RadDropDownList**

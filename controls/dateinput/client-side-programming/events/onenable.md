@@ -16,7 +16,7 @@ position: 5
 
 The **OnEnable** client-side event handler is called when the input control is enabled.
 
->tip The **OnEnable** event is supported by all **RadInput** controls.
+>note The **OnEnable** event is supported by all **RadInput** controls.
 >
 
 

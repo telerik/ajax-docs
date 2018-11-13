@@ -29,7 +29,7 @@ Only one token can be edited at a time. If while a token is in edit mode another
 
 The user confirms Token text editing explicitly by pressing the **"Enter"** key and the Token text editing is canceled if the focus moves out of the Token input, or the user presses **"Esc"** key.
 
->tip The **AllowCustomEntry** property should be set to **true** in order to be able to edit tokens in **RadAutoCompleteBox** control.
+>note The **AllowCustomEntry** property should be set to **true** in order to be able to edit tokens in **RadAutoCompleteBox** control.
 >
 
 

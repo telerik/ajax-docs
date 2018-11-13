@@ -18,7 +18,7 @@ The **RadTextTile** is designed to only show some text as its primary content. T
 
 ![tile List-text Tile-grid-example](images/tileList-textTile-grid-example.png)
 
->tip The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
+>note The examples below show specific functionality for the given tile type, for more information on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 
 
 

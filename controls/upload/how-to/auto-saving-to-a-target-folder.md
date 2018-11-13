@@ -24,7 +24,7 @@ To enable **RadUpload** to automatically save files to a folder, all you must do
 
 * The **TargetPhysicalFolder** property specifies the name of an existing physical path where files should be saved. Using physical paths is useful for applications that need to upload files to the same location, regardless of how they are deployed.
 
->tip If you set both the **TargetFolder** and **TargetPhysicalFolder** properties, **RadUpload** uses the **TargetPhysicalFolder** property.
+>note If you set both the **TargetFolder** and **TargetPhysicalFolder** properties, **RadUpload** uses the **TargetPhysicalFolder** property.
 >
 
 

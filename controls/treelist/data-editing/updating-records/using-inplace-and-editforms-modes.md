@@ -105,7 +105,7 @@ End Sub
 
 This can be achieved by getting hold of the current editable item and then accessing each column editor by column UniqueName. Then you just get the value from the control that the editor holds by using the control's own API.
 
->tip If you need to access the datakeyvalue of the currently edited item, you should keep in mind that the **TreeListEditableItem** should becast to **TreeListDataItem** if you are using **InPlace** edit mode, and to **TreeListEditFormItem** if you are using **EditForms** . Then you can use the GetDataKeyValue("DataKeyNames") method.
+>note If you need to access the datakeyvalue of the currently edited item, you should keep in mind that the **TreeListEditableItem** should becast to **TreeListDataItem** if you are using **InPlace** edit mode, and to **TreeListEditFormItem** if you are using **EditForms** . Then you can use the GetDataKeyValue("DataKeyNames") method.
 >
 
 

@@ -15,7 +15,7 @@ position: 0
 
 ## 
 
->tip We highly recommend that you try to avoid working with the **RadAjaxManager** and **RadAjaxPanel** controls on the same time.
+>note We highly recommend that you try to avoid working with the **RadAjaxManager** and **RadAjaxPanel** controls on the same time.
 >
 
 

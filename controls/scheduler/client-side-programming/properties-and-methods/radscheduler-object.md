@@ -368,7 +368,7 @@ function OnClientAppointmentsPopulating(sender, eventArgs)
 
 
 
->tip A RadComboBox control contains all the resources defined for RadScheduler.
+>note A RadComboBox control contains all the resources defined for RadScheduler.
 >On its SelectedIndexChanged, only appointments with the selected resource are displayed inRadScheduler.
 >
 

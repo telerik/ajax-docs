@@ -12,7 +12,7 @@ position: 2
 
 You can split labels and titles in **RadHtmlChart** into multiple lines by using the **"\n"** line feed character. This help article shows how to wrap labels and titles in a chart (**Figure 1**) with a small sample (**Example 1**). The multiline labels feature is available since **Q3 2014**. If you are using an older version of the suite, [this]( http://feedback.telerik.com/Project/108/Feedback/Details/38633) page provides a workaround.
 
->tip You can add line breaks in tooltips via the `<br />` tag because tooltips in **RadHtmlChart** are rendered with simple HTML.
+>note You can add line breaks in tooltips via the `<br />` tag because tooltips in **RadHtmlChart** are rendered with simple HTML.
 
 >caption Figure 1: Wrapping text in chart labels and titles by using a line feed character ("\n").
 
@@ -82,7 +82,7 @@ You can split labels and titles in **RadHtmlChart** into multiple lines by using
 ````
 
 
->tip If you are setting these properties from the code-behind, you may need to escape the backslash as shown in **Example 2** below. You can read more about this in the [Handle Special Symbols]({%slug htmlchart/troubleshooting/handle-special-symbols%}) article. This does not apply to the `[axis].LabelsAppearance.DateFormats` whose format strings are escaped by the .NET `JavaScriptSerializer`. The main axis label format string, client templates, data and other strings (such as titles) require escaping.
+>note If you are setting these properties from the code-behind, you may need to escape the backslash as shown in **Example 2** below. You can read more about this in the [Handle Special Symbols]({%slug htmlchart/troubleshooting/handle-special-symbols%}) article. This does not apply to the `[axis].LabelsAppearance.DateFormats` whose format strings are escaped by the .NET `JavaScriptSerializer`. The main axis label format string, client templates, data and other strings (such as titles) require escaping.
 >
 >As of R3 2018, escaping the back slash with more backslashes than necessary will result in the `\n` string being rendered instead of a new line. This is a feature that allows the `\n` string to be present in texts. **Example 2** below explains how this works.
 

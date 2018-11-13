@@ -122,7 +122,7 @@ The following steps describe how to implement Day Templates:
 
     2. You can also add special days dynamically at runtime:
 
-    >tip Note that the best approach for adding days to the **SpecialDays** collection is on **Page_Load** event. Also if the special days should persist not only in the current view but in other month views the **AutoPostBack** property of the **RadCalendar** should be set to **true** .
+    >note Note that the best approach for adding days to the **SpecialDays** collection is on **Page_Load** event. Also if the special days should persist not only in the current view but in other month views the **AutoPostBack** property of the **RadCalendar** should be set to **true** .
     >
 
 ````C#
@@ -154,7 +154,7 @@ End Sub
 
 
 
->tip 
+>note 
 You can add special days to a calendar without using templates. You can use their **ItemStyle** property to make them visually distinct.
 >
 

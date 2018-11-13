@@ -98,7 +98,7 @@ position: 0
 | **stopTicker** |Stops the ticker|
 | **tickNextLine** |forces the ticker to tick to the next line|
 
->tip The main idea of the methods **pause** , **resume** , **start** , **stop** is to be used in combination. Their functionality can be compared to that of a player - when stopped, the animation will be reset on a new start and when paused, the animation will continue from the same moment if rotation is resumed.
+>note The main idea of the methods **pause** , **resume** , **start** , **stop** is to be used in combination. Their functionality can be compared to that of a player - when stopped, the animation will be reset on a new start and when paused, the animation will continue from the same moment if rotation is resumed.
 >These methods are designed to be used with a RadRotator control that includes automatic advance. This means the following modes: **AutomaticAdvance** , **Carousel** , **CoverFlow** , **SlideShow** .
 >
 

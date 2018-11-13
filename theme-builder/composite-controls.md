@@ -15,7 +15,7 @@ position: 4
 
 When working with complex controls (e.g. RadGrid, RadScheduler, etc.) the nested components will be included automatically. Thus, you can easily configure the complete look and feel of the composite control.
 
->tip Note that if one of the nested controls is used separately on the page you should set its **Skin** explicitly. To use a custom skin you should also ensure that the **EnableEmbeddedSkins** property is set to **false**.
+>note Note that if one of the nested controls is used separately on the page you should set its **Skin** explicitly. To use a custom skin you should also ensure that the **EnableEmbeddedSkins** property is set to **false**.
 >
 
 

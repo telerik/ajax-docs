@@ -33,7 +33,7 @@ The most important part of it are the FieldEditors. Each field editor declares a
 In the code snippet above, we have declared three such RadFilterTextFieldEditors. Each one of them will be available as an option in the filter control. For example, one can choose a field, a filter option (e.g. "EqualTo") and a value, when building the filter expression, as demonstrated in the screenshot below:
 ![Filter expression](images/filter_expression.png)
 
->tip Please note that when the *FilterContainerID* or the *DataSourceControlID* property is set, the RadFilter generates the field editors automatically.
+>note Please note that when the *FilterContainerID* or the *DataSourceControlID* property is set, the RadFilter generates the field editors automatically.
 >
 
 

@@ -29,7 +29,7 @@ Two parameters are passed to the event handler:
 
 	* **get_newValue()** returns the string value that was just assigned to the input control.
 
->tip Range checking occurs after the **OnValueChanged** event. If the user enters a value that is invalid only because it is out of range, the **OnValueChanged** event still occurs, and **get_newValue()** returns the value that is out of range. On **RadNumericTextBox** , this value may be subsequently changed.
+>note Range checking occurs after the **OnValueChanged** event. If the user enters a value that is invalid only because it is out of range, the **OnValueChanged** event still occurs, and **get_newValue()** returns the value that is out of range. On **RadNumericTextBox** , this value may be subsequently changed.
 >
 
 The following example uses the **OnValueChanged** event to prevent a postback if the user entered an empty string:

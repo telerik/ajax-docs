@@ -25,7 +25,7 @@ The **RadTimePicker** control exposes the following server-side events:
 
 
 
->tip In order for the server-side events to be invoked the **RadTimePicker** control needs to perform postback. In order to do this you should set the **AutoPostBack** property of the control to **true**.
+>note In order for the server-side events to be invoked the **RadTimePicker** control needs to perform postback. In order to do this you should set the **AutoPostBack** property of the control to **true**.
 >
 
 

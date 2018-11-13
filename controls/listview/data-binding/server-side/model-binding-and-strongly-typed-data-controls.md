@@ -106,7 +106,7 @@ When we run the page, the data bound controls will call the above method and aut
 
 For example if SelectMethod returns data from Linq DataContext and if the paging of the bound control is turned on, the executed database query will return only items for the current page. If the bound control is sorted by a column the sorting also will be executed on the database and the sorted result will be returned. That is because the Linq will optimize the query to perform the sort and page operation as part of the database query.
 
->tip The returned query needs to be sorted by using OrderBy when LinqToEntities is used, otherwise the exception:The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'will be thrown.
+>note The returned query needs to be sorted by using OrderBy when LinqToEntities is used, otherwise the exception:The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'will be thrown.
 >>MultiColumnsorting is NOT supported when the ModelBinding is used.
 >
 
@@ -135,7 +135,7 @@ public IQueryable<Product> GetProducts([Control("RadComboBoxCategories")] int? c
 
 The code snippet above will get the name parameter from the QueryString and integer value of the selected item of the RadComboBox with ID equlas to “RadComboBoxCategories”.
 
->tip When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
+>note When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
 >Need to add System.Web.ModelBinding namespace on the page
 >
 
@@ -249,7 +249,7 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ![listview-model-binding-and-strongly-typed-data-controls 1](images/listview-model-binding-and-strongly-typed-data-controls1.png)
 
->tip You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
+>note You need to call TryUpdateModel(object) before checking the ModelState.IsValid when inserting items. Otherwise the validation will not track any errors. The other approach is to pass the entire object as a parameter to the function:
 >
 
 

@@ -10,7 +10,7 @@ position: 9
 
 # Saving Grid Settings on a Per User Basis
 
->tip This approach is obsoleted. In case you need to persist the grid's setting we strongly recommend to use [RadPersistenceManager]({%slug persistenceframework/overview%}) control.
+>note This approach is obsoleted. In case you need to persist the grid's setting we strongly recommend to use [RadPersistenceManager]({%slug persistenceframework/overview%}) control.
 >
 
 Following is a small application that demonstrates a way to persist runtime settings of *Telerik RadGrid* in a variety of formats. You can persist the extracted settings on any medium - session, application variables, database, etc. For your convenience, the functionality is isolated in a single class called **GridSettingsPersister**. It is designed to save from and load into *Telerik RadGrid* the following runtime settings:

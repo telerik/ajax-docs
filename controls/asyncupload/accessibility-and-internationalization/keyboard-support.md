@@ -36,10 +36,10 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ![asyncupload-accessibilityandinternalization-keyboardsupport-focus](images/asyncupload-accessibilityandinternalization-keyboardsupport-focus.png)
 
->tip Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
->tip To enable keyboard support for Internet Explorer 9 or earlier, you will have to set the **DisablePlugins** property to **true** .
+>note To enable keyboard support for Internet Explorer 9 or earlier, you will have to set the **DisablePlugins** property to **true** .
 >
 
 

@@ -24,6 +24,6 @@ The Inline Insert/Edit Form can be resized by the end-user for improved usabilit
 
 
 
->tip  **Note** that the values are always in pixels.
+>note  **Note** that the values are always in pixels.
 >
 

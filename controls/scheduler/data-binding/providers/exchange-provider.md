@@ -22,7 +22,7 @@ The Exchange provider is distributed as web site project in our [RadScheduler SD
 
 **Usage**
 
->tip Please be aware that Reminders functionality is not supported when Exchange provider is used.
+>note Please be aware that Reminders functionality is not supported when Exchange provider is used.
 >
 
 

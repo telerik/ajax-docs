@@ -15,7 +15,7 @@ position: 8
 
 ##
 
->tip If you prefer not to handle the filtering manually as stated below, consider using built-in GridDateTimeColumn as shown in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Filtering/DefaultCS.aspx).
+>note If you prefer not to handle the filtering manually as stated below, consider using built-in GridDateTimeColumn as shown in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Filtering/DefaultCS.aspx).
 >
 
 
@@ -270,6 +270,6 @@ protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDat
 ````
 
 
->tip With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
+>note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >
 

@@ -96,7 +96,7 @@ End Function
 ````
 
 
->tip You can access the **Text** and **Value** of the node, which is being expanded, from the **RadTreeNodeData** parameter passed to the web method.
+>note You can access the **Text** and **Value** of the node, which is being expanded, from the **RadTreeNodeData** parameter passed to the web method.
 >
 
 1. In Solution Explorer, right click the default page and select **Set as Start Page** from the context menu.

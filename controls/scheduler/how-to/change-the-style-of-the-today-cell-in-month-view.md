@@ -16,7 +16,7 @@ position: 5
 
 In Month View the Today Cell has the **rsTodayCell** class applied to it. So changing the style of this cell is possible with the following CSS style:
 
->tip  -Note:- The selector is Skin-dependent. One should replace [skinName] with the name of the currently used Skin.
+>note  -Note:- The selector is Skin-dependent. One should replace [skinName] with the name of the currently used Skin.
 >
 
 

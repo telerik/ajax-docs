@@ -28,13 +28,13 @@ To use the custom paging mechanism:
 >
 
 
->tip When custom paging is enabled, the grid's default paging mechanism is disabled.
+>note When custom paging is enabled, the grid's default paging mechanism is disabled.
 >
 
 
 When you enable custom paging, **RadGrid** maintains the pager buttons, updating the pager item in response to user actions, and other presentation specifics. You need only provide the logic of fetching the desired set of records in the **NeedDataSource** event handler.
 
->tip Another option for custom paging is possible when using [declarative binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) to an **ObjectDataSource** that supports its own paging mechanism. 
+>note Another option for custom paging is possible when using [declarative binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) to an **ObjectDataSource** that supports its own paging mechanism. 
 >
 
 

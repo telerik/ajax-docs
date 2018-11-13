@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 
 
->tip You can assign an **OnClientCommand** event handler to the **OnClientCommand** property of the **RadDock** control, or to an individual **Command** object in the **Commands** property collection. If you assign two **OnClientCommand** event handlers, one to the **RadDock** control and one to the **Command** object, the event handler assigned to the **Command** object executes first.
+>note You can assign an **OnClientCommand** event handler to the **OnClientCommand** property of the **RadDock** control, or to an individual **Command** object in the **Commands** property collection. If you assign two **OnClientCommand** event handlers, one to the **RadDock** control and one to the **Command** object, the event handler assigned to the **Command** object executes first.
 
 
 

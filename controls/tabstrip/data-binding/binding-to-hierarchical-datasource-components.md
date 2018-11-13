@@ -143,7 +143,7 @@ Consider the following example:
 1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties: 
 ![Binding fields](images/tabstrip_bindingfields.png)
 
->tip This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
+>note This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
 >
 
 

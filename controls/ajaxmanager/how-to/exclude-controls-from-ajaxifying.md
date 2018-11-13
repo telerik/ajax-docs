@@ -82,7 +82,7 @@ End Sub
 ````
 
 
->tip This approach is not applicable when the page is AJAX-enabled with **RadAjaxManager** .
+>note This approach is not applicable when the page is AJAX-enabled with **RadAjaxManager** .
 >
 
 
@@ -92,7 +92,7 @@ Use the **OnRequestStart** [ client-side event ]({%slug ajaxmanager/client-side-
 
 [Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
 
->tip Note that all controls added in the **UpdatedControls** collection in the **RadAjaxManager** AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
+>note Note that all controls added in the **UpdatedControls** collection in the **RadAjaxManager** AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
 >
 
 

@@ -118,7 +118,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 
 ## Telerik.Web.UI.RadListViewFilterExpressionBuilder members
 
->tip The methods below have two arguments:
+>note The methods below have two arguments:
 > **fieldName** : the field name of the expression.
 > **filterValue** : the filter value of the expression.
 >
@@ -139,7 +139,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 | **lessThan(fieldName, filterValue)** |Builds a filter expression for a "LessThan" filter.|
 | **lessThanOrEqualTo(fieldName, filterValue)** |>Builds a filter expression for a "LessThanOrEqualTo" filter.|
 
->tip The methods below have a single argument:
+>note The methods below have a single argument:
 > **fieldName** : the field name of the expression.
 >
 
@@ -173,7 +173,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 
 ##  
 
->tip It is highly recommended to enable VS Intellisense for Javascript when building filter expressions, so that all fluent expression builder methods are available with Intellisense.
+>note It is highly recommended to enable VS Intellisense for Javascript when building filter expressions, so that all fluent expression builder methods are available with Intellisense.
 >
 
 
@@ -245,7 +245,7 @@ The above filter expression can be converted to various formats and sent to a we
 
 
 
->tip When automatically binding to web services, the **FilterParameterType** and **SortParameterType** settings determine the format in which the filter and sort expressions will be sent to the web service.
+>note When automatically binding to web services, the **FilterParameterType** and **SortParameterType** settings determine the format in which the filter and sort expressions will be sent to the web service.
 >
 
 
