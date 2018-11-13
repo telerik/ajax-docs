@@ -38,7 +38,7 @@ When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGri
 
 In a more complicated scenario (like multiple editor/input controls) **RadGrid** cannot determine the correct input control. In such cases, you must use the batch editing client-side events to set the values of the cell and editor with our own code according to your logic. A list of all four events required for implementing this is shown below.
 
->tip When handling particular event the **args.set_cancel(true)** should be called to cancel the default code execution.
+>note When handling particular event the **args.set_cancel(true)** should be called to cancel the default code execution.
 
 
 

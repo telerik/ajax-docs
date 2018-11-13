@@ -93,7 +93,7 @@ function OnClientNodeEditedHandler(sender, eventArgs) {
 
 
 
->tip This event is available in all versions after **Q3 SP2 2008** release.
+>note This event is available in all versions after **Q3 SP2 2008** release.
 >
 
 

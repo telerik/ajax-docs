@@ -15,7 +15,7 @@ As of 2008 Q3 release, RadComboBox introduces a new property - **AccessibilityMo
 All properties of RadComboBox that have their counterparts in the standard DropDown list (**select** element) will be propagated. The [SelectedIndexChanged]({%slug combobox/server-side-programming/selectedindexchanged%}) event will fire accordingly on postback (submit).
 
 
->tip The **Height** property is not propagated to the **select** element because Firefox 3 treats it in a different way compared to IE 7.
+>note The **Height** property is not propagated to the **select** element because Firefox 3 treats it in a different way compared to IE 7.
 >
 
 Consider the following RadComboBox definition:

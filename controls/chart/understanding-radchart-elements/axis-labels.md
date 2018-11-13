@@ -56,7 +56,7 @@ By turning off the Position.Auto property and setting Position.AlignedPosition t
 
 The **YAxis.AxisLabel.Appearance.RotationAngle** = 325.
 
->tip This isn't a recommended or usual approach but serves to illustrate the flexibility of the object model.
+>note This isn't a recommended or usual approach but serves to illustrate the flexibility of the object model.
 
 Also in the example below, the **PlotArea.XAxis.AutoScale** is turned off so the **PlotArea.XAxis.Items** collection could be populated manually.Each ChartAxisItem has its TextBlock.Text property populated with the strings "Non-Smokers", "Social Smokers" and "Heavy Smokers".
 

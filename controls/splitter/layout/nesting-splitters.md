@@ -14,7 +14,7 @@ By nesting splitters inside the panes of other splitters and alternating the [Or
 
 By default, the nested splitters are resized when the panes that contain them are resized. If you do not want the nested splitters to resize together with their parent panes, set the **ResizeWithParentPane** property to **False**.
 
->tip RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
+>note RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
 
 The following layout nests a splitter with a horizontal split bars inside a splitter with vertical split bars:
 

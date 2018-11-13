@@ -41,5 +41,5 @@ The following example shows decoration only on the simple Label element (Zone is
 
 ![radformdecorator-without-zone](images/radformdecorator-without-zone.png)
 
->tip In both examples only the HTML Label is decorated, as the ASP Label is not rendered as a Label but a span element.
+>note In both examples only the HTML Label is decorated, as the ASP Label is not rendered as a Label but a span element.
 

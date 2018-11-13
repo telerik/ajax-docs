@@ -36,7 +36,7 @@ The CSS class properties are
 
 To set the CSS class properties of an item at design time, use the [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}).
 
->tip The CSS class of an item is applied to the anchor (&lt;a&gt;) tag that represents the item in the rendered HTML output. For more information about the rendered output of **RadMenu** , see [Understanding the Skin CSS File]({%slug menu/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of an item is applied to the anchor (&lt;a&gt;) tag that represents the item in the rendered HTML output. For more information about the rendered output of **RadMenu** , see [Understanding the Skin CSS File]({%slug menu/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 
@@ -184,7 +184,7 @@ There is no property to specify a CSS class for hovered items. To customize the 
 </head>
 ````
 
->tip Note the use of the **!important** modifier on the new CSS rule. This is to force the new rule to override any more specific CSS rules for hovered items in the CSS file for the skin.Without the **!important** modifier, the new CSS rule would not take effect.
+>note Note the use of the **!important** modifier on the new CSS rule. This is to force the new rule to override any more specific CSS rules for hovered items in the CSS file for the skin.Without the **!important** modifier, the new CSS rule would not take effect.
 >
 
 

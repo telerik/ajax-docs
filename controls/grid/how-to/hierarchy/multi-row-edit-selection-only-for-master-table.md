@@ -32,7 +32,7 @@ To disable multi-row selection on detail tables:
 
 The following code illustrates this technique on a two-level hierarchy.
 
->tip This technique can be extended for higher level hierarchies as well.
+>note This technique can be extended for higher level hierarchies as well.
 >
 
 

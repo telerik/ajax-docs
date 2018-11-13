@@ -30,7 +30,7 @@ position: 1
 
 1. Add Handlers to the "httpHandlers" section of the web.config. The handlers can also be added through the Smart Tag of the control in the design environment. The handlers are used for the spell check dialog and for spell checking.
 
->tip Be aware that most of the Web.Config has changed between standard ASP.NET applications and AJAX-enabled applications. If you are porting ASP.NET standard applications be sure to look at the material provided in the links for step 1.
+>note Be aware that most of the Web.Config has changed between standard ASP.NET applications and AJAX-enabled applications. If you are porting ASP.NET standard applications be sure to look at the material provided in the links for step 1.
 
 ````XML
 <httpHandlers>

@@ -31,7 +31,7 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 
 **`gacutil -i c:\Telerik\Telerik.Web.Design.dll`**
 
->tip If you use version prior to **Q1 2009** you need to install merely **Telerik.Web.UI.dll** in the GAC (Telerik.Web.Design.dll is IL merged in this version).
+>note If you use version prior to **Q1 2009** you need to install merely **Telerik.Web.UI.dll** in the GAC (Telerik.Web.Design.dll is IL merged in this version).
 
 
 
@@ -48,7 +48,7 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 
 
 
->tip Note that the version of the assembly is specified in each **`<SafeControl>`** tag. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
+>note Note that the version of the assembly is specified in each **`<SafeControl>`** tag. If deploying a different version of Telerik® UI for ASP.NET AJAX, ensure that the version number is correct here.
 
 
 

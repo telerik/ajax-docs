@@ -75,7 +75,7 @@ And in HTML will be decoded, so that user can continue working on it.
 
 This filter is intended only to encode and decode scripts, so JavaScript code will not be executed while edited in the **RadEditor**. Also, the submitted content will be decoded on the server (i.e., the server-side **RadEditor.Content** property will return content with fully functional script logic).
 
->tip If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
+>note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
 
 >tip You may want to sanitize the content users upload through the [Template Manager dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%}).
 

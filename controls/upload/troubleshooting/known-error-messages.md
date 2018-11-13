@@ -40,7 +40,7 @@ You may notice the following error messages if you encounter file size limits du
 
 * "Exception of type System.OutOfMemoryException was thrown".
 
->tip You may also find that uploads occur very slowly. If you watch the Aspnet_wp.exe process in Windows Task Manager, you will notice that the memory delta changes by 64 KB every 1 to 2 seconds. Depending on the size of the file, this delay may cause the ASP.NET worker process to recycle because of a **responseDeadlock** error.
+>note You may also find that uploads occur very slowly. If you watch the Aspnet_wp.exe process in Windows Task Manager, you will notice that the memory delta changes by 64 KB every 1 to 2 seconds. Depending on the size of the file, this delay may cause the ASP.NET worker process to recycle because of a **responseDeadlock** error.
 >
 
 

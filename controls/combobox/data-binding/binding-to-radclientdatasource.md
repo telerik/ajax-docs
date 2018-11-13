@@ -24,7 +24,7 @@ The RadComboBox properties **ShowMoreResultBox**, **ItemsPerRequest** and **Virt
 
 The following application scenario shows an example of **RadComboBox** bound to **RadClientDataSource** with load on demand.
 
->tip When the filtering functionality is enabled the default value is "StartsWith". Setting Filter="Contains" will change this behavior.
+>note When the filtering functionality is enabled the default value is "StartsWith". Setting Filter="Contains" will change this behavior.
 >
 
 
@@ -121,7 +121,7 @@ End Class
 
 The code snippet below shows a sample configuration of **RadComboBox** bound to **RadClientDataSource** with virtual scrolling.
 
->tip In this case it is necessary initially to request the items using the RadComboBox client-side API method **requestItems("")** and passing empty string as parameter. For reference please take a look at the code snippets below:
+>note In this case it is necessary initially to request the items using the RadComboBox client-side API method **requestItems("")** and passing empty string as parameter. For reference please take a look at the code snippets below:
 >
 
 

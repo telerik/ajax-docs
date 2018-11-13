@@ -204,7 +204,7 @@ a.reTool.reCustom2:before
 }
 ````
 
->tip Since the image has a static size, if the font-size of the editor is changed, it will not provide the elastic abilities of the font-icons and stretch as well. Thus, if you intend to change the font-size of the control, you need to take into account that when creating the image size and choosing its position.
+>note Since the image has a static size, if the font-size of the editor is changed, it will not provide the elastic abilities of the font-icons and stretch as well. Thus, if you intend to change the font-size of the control, you need to take into account that when creating the image size and choosing its position.
 
 
 >caption **Example 7**: CSS rules for a RibbonBar button with a font icon.

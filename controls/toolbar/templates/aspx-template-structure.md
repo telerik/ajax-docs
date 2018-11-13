@@ -14,7 +14,7 @@ position: 1
 
 Only RadToolBarButtons and RadToolBarSplitButtons support templates.
 
->tip If you set a template to a RaToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
+>note If you set a template to a RaToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
 >
 
 
@@ -53,7 +53,7 @@ Only RadToolBarButtons and RadToolBarSplitButtons support templates.
 ````
 
 
->tip  **DataBinder.Eval** expressions work only when the toolbar is in a bound mode. In other words, you should explicitly call the DataBind() method even if no datasource is set to the toolbar.
+>note  **DataBinder.Eval** expressions work only when the toolbar is in a bound mode. In other words, you should explicitly call the DataBind() method even if no datasource is set to the toolbar.
 >
 
 

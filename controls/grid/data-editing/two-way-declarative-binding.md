@@ -31,6 +31,6 @@ This is especially useful for data editing operations like update or insert when
 
 [ Form template edit form ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
->tip With the Bind() syntax mentioned above you will be able to extract the updated by the user value from the FormTemplate without any additional code and pass it directly for the automatic update operation through the DataSource control (see [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})).
+>note With the Bind() syntax mentioned above you will be able to extract the updated by the user value from the FormTemplate without any additional code and pass it directly for the automatic update operation through the DataSource control (see [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})).
 >
 

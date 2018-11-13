@@ -34,4 +34,4 @@ This can be achieved by referencing the **LegacyCommands.js** script file which 
 <script type="text/javascript" src='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadEditor), "Telerik.Web.UI.Editor.RadEditor.Commands.LegacyCommands.js") %>'></script>
 ````
 
->tip Please, note that the **LegacyCommand.js** script file has to be included **after** the page's Script Manager in order to override thedefault commands.
+>note Please, note that the **LegacyCommand.js** script file has to be included **after** the page's Script Manager in order to override thedefault commands.

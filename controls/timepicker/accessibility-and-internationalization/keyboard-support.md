@@ -16,7 +16,7 @@ The **RadTimePicker** controls provides support for navigation using the tab or 
 
 * **Tab key Navigation** - Once focus is on the **RadTimePicker** control, the TAB key and SHIFT+TAB key combination move through the parts of the control. The first time the user presses the TAB key, focus moves to the time input area, where the user can type a time value. Pressing the TAB key second time moves focus to the time popup button. Pressing the ENTER key when focus is on the time popup button causes the time view popup to show. Once the time view popup is showing, the TAB key navigates through the time values it displays and pressing the ENTER key selects a time value. 
 
->tip
+>note
 To control the tab order of the **RadTimePicker** set the **TabIndex** of the **DateInput**, **TimePopupButton**, and **TimeView** as demonstrated below.
 >
 
@@ -35,7 +35,7 @@ To control the tab order of the **RadTimePicker** set the **TabIndex** of the **
 
     * The up and down arrow keys increase or decrease the value of the date part or time part that contains the cursor when the **DateInput.IncrementSettings.InterceptArrowKeys** property is **true**. The **DateInput.IncrementSettings.Step** property specifies the number of months, days, years, hours, minutes or seconds by which the value changes.
 
->tip
+>note
 Arrow Key Navigation is not supported inside the **TimeView** popup. Only Tab-navigation is supported here.
 >
 

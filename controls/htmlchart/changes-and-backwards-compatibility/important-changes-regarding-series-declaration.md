@@ -27,7 +27,7 @@ Along with these changes, the respective series item object for each series type
 
 **XValue**, **YValue**, **SizeValue** and **ToolTipValue** properties of the **SeriesItem** (now **CategorySeriesItem**, **PieSeriesItem**, **ScatterSeriesItem** or **BubbleSeriesItem**) have been renamed respectively to **X**, **Y**, **Size** and **ToolTip**.
 
->tip In order to access the properties of the series in the code behind, the series should be converted explicitly to the respective series type.
+>note In order to access the properties of the series in the code behind, the series should be converted explicitly to the respective series type.
 >
 Casting the first series to theAreaSeries class:
 >

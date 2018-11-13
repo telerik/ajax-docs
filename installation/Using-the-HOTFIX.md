@@ -29,7 +29,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 * **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET AJAX client-side objects.
 
->tip If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file).
+>note If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file).
 >
 
 

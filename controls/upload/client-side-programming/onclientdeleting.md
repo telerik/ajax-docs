@@ -20,7 +20,7 @@ position: 4
 
 The **OnClientDeleting** client-side event occurs when a row is about to be deleted in response to the **Remove** button or a call to the **deleteFileInputAt()** method.
 
->tip This event does not occur when selected rows are deleted in response to the **Delete** button or a call to the **deleteSelectedFileInputs()** method.
+>note This event does not occur when selected rows are deleted in response to the **Delete** button or a call to the **deleteSelectedFileInputs()** method.
 >
 
 

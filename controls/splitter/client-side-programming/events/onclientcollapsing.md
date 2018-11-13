@@ -12,7 +12,7 @@ position: 7
 
 The **OnClientCollapsing** Client-Side event handler is called when a pane is about to be collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a call to a client-side method.
 
->tip The **OnClientCollapsing** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the depricated OnClientBeforeCollapse event.
+>note The **OnClientCollapsing** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the depricated OnClientBeforeCollapse event.
 
 The following two parameters are passed to the event handler:
 

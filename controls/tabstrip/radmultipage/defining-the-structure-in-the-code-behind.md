@@ -14,7 +14,7 @@ position: 2
 
 **RadMultiPage** can be easily created dynamically(in the codebehind).
 
->tip The **PageViewCreated** event is fired for each page view added to the **RadPageViewCollection** of the **RadMultiPage** . The **PageViewCreated** event fires on every postback. This is the best place to add controls to the Controls collections of the page views.
+>note The **PageViewCreated** event is fired for each page view added to the **RadPageViewCollection** of the **RadMultiPage** . The **PageViewCreated** event fires on every postback. This is the best place to add controls to the Controls collections of the page views.
 >
 
 >caution The **ID** s of controls that are added to the **Controls** collection of page views should be set on each postback to the same value. Otherwise, different IDs will be set to these controls on each postback and this can lead to ViewState problems.

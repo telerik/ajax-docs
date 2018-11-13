@@ -16,7 +16,7 @@ position: 6
 
 The **OnClientEntryAdding** client-side event is fired when an entry is about to be added to the entry area.
 
->tip When the **CheckBoxes** property of the control is set to either the *TriState* or the *CheckChildNodes* , the event will fire only for the node that is being checked.
+>note When the **CheckBoxes** property of the control is set to either the *TriState* or the *CheckChildNodes* , the event will fire only for the node that is being checked.
 >
 
 

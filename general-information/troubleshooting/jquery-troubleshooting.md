@@ -58,7 +58,7 @@ The solution in this case is to ensure that only one version of jQuery is used i
 
 1. In the Package Manager Console run the following command to install and register the version of jQuery that is specific for your current version of the Telerik controls (you can check it in the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) help article): *PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x* (x.x.x is the version of jQuery that comes with the Telerik controls).
 
-	>tip You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
+	>note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
 
 
 
@@ -104,7 +104,7 @@ You can use the following steps to configure the unobtrusive validation when you
 
 1. In the Package Manager Console run the following command to install and register the version of jQuery that is specific for your current version of the Telerik controls (you can check it in the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) help article): *`PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x`* (x.x.x is the version of jQuery that comes with the Telerik controls).
 
-	>tip You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
+	>note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
 
 
 1. Run the following command in the Package Manager Console to install the Microsoft Ajax optimization bundlefor Web Forms with ScriptManager:*PM> Install-Package Microsoft.AspNet.ScriptManager.WebForms -Version x.x.x* (you can check the current version of this NuGet package [in its download page](https://www.nuget.org/packages/Microsoft.AspNet.ScriptManager.WebForms)).This will install the script files WebForms.js and WebUIValidation.js on the web site.

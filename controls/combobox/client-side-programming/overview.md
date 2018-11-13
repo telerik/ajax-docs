@@ -147,7 +147,7 @@ function AddNewItem() {
 
 
 
->tip This approach does not affect Items loaded on demand - [by design they are lost after postback]({%slug combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand%}).
+>note This approach does not affect Items loaded on demand - [by design they are lost after postback]({%slug combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand%}).
 >
 
 

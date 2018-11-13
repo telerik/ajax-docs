@@ -18,7 +18,7 @@ The control can be easily styled by changing the **Skin** property, and alternat
 
 ![RadLinkButton](images/buttons.png)
 
->tip **RadLinkButton** does not support a Classic [render mode]({%slug linkbutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>note **RadLinkButton** does not support a Classic [render mode]({%slug linkbutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 <!--
 Code that creates Figure 1:

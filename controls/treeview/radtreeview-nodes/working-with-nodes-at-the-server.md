@@ -41,7 +41,7 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 
 ![RadTreeView Adding Nodes](images/treeview_addingnodes.png)
 
->tip 
+>note 
 * All **RadTreeNodes** have a property called **ParentNode** containing an instance to the parent **RadTreeNode** (if any) or **null** if the parent is the **RadTreeView** itself(i.e. this node is a root).
 * All **RadTreeNodes** have an attribute called **TreeView** containing an instance to the parent **RadTreeView** .>
 

@@ -79,7 +79,7 @@ Protected Sub RadDataForm1_ItemCreated(ByVal sender As Object, ByVal e As RadDat
 End Sub
 ````
 
->tip the `ItemDataBound` event does not fire for the InsertItem becaues this is a new item that is not tied to any data yet. For the other two items (regular items and edit items), you can access the `DataItem` associated with them in the `ItemDataBound` event. See the example below.
+>note the `ItemDataBound` event does not fire for the InsertItem becaues this is a new item that is not tied to any data yet. For the other two items (regular items and edit items), you can access the `DataItem` associated with them in the `ItemDataBound` event. See the example below.
 
 Here is how to access the `DataItem` associated with the ItemTemplate or EditItemTemplate whlie they are rendering.
 

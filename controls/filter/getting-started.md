@@ -39,7 +39,7 @@ Each filter expression allows the selection and manipulation of the following el
 
 In addition to the filtering groups, the filter control renders an "Apply" button, which is used to trigger the actual construction of the filtering menu, once the user has made the necessary selections.
 
->tip Most of the RadFilter control functionalities require that the ViewState is enabled - both for the control, and any container controls, in order for the operations to be handled properly and the filter expressions persisted.
+>note Most of the RadFilter control functionalities require that the ViewState is enabled - both for the control, and any container controls, in order for the operations to be handled properly and the filter expressions persisted.
 >
 
 

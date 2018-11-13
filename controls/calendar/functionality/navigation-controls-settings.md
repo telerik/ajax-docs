@@ -28,7 +28,7 @@ Each navigation button has three properties you can use to control its appearanc
 |![Next button](images/Next.png)|NavigationNextImage|NavigationNextText|NavigationNextToolTip|Move to the next view.|
 |![FastNext button](images/FastNext.png)|FastNavigationNextImage|FastNavigationNextText|FastNavigationNextToolTip|Move forward the number of views that the **FastNavigationStep** property specifies.|
 
->tip 
+>note 
 If you do not want to remove all the navigation buttons using the **EnableNavigation** property, you can remove any of the individual navigation buttons from the title bar with a CSS rule. For example if **RadCalendar** has a custom CSS class called **MyClass**, the CSS rule for hiding the fast navigation buttons will be:
 >.MyClass.rcTitlebara.rcFastPrev ,.MyClass.rcTitlebara.rcFastNext
 >{
@@ -60,12 +60,12 @@ The **FastNavigationSettings** property lets you further configure the month/yea
 
 * **DateIsOutOfRangeMessage** specifies the text of the message that appears when the user tries to move to a date that is out of range.
 
->tip 
+>note 
 If you set any of the **FastNavigationSettings** sub-properties to an empty string, the month/year popup reverts to its default text value. If you set the **DateIsOutOfRangeMessage** to an empty string, the alert that appears when the user selects a date which is out of range will be disabled.
 >
 
 
->tip 
+>note 
 If the navigation control is part of **RadMonthYearPicker** and you need to set the **Today** , **Ok** and **Cancel** button captions programmatically, you should use a server-side event handler which executes no later than Page_Load, as the values cannot be applied correctly after that stage of the page lifecycle.
 >
 

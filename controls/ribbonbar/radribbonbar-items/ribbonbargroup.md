@@ -22,7 +22,7 @@ The **RibbonBarGroup** has a few important properties, which are listed below:
 
 * **ToolTip** is the text of the tooltip that appears when the user hovers the mouse over the button.
 
->tip Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
+>note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
 

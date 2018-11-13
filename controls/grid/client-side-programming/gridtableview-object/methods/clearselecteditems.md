@@ -33,7 +33,7 @@ function clearSelectedItems(sender, args) {
 
 
 
->tip  This method is only applicable when Row Selection of RadGrid is enabled.
+>note  This method is only applicable when Row Selection of RadGrid is enabled.
 >
 
 

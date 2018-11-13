@@ -27,7 +27,7 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 	The declaration above will disable the DomInpector and Statistics modules and will render the real time HTMLmodule, while the NodeInspector will be hidden but available via ModuleManager tool.
 
-	>tip To disable all modules inline, at least one module should be declared in the `<Modules>` section and its **Enabled** property should be set to **false** .
+	>note To disable all modules inline, at least one module should be declared in the `<Modules>` section and its **Enabled** property should be set to **false** .
 
 
 1. **Via the code-behind** The first thing that has to be done to manipulate the **Modules** collection on the server is to load the default built-in modules, otherwise it will be empty and if you try to remove something it will throw an exception. This is done with the editor's **EnsureToolsFileLoaded()** method:
@@ -73,6 +73,6 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 	The **Enabled** property set to **false** will disable the respective module. The **Visible** property will hide the module. To make it visible again use the Module Manager splitbutton.
 
-	>tip If the modules node is not declared the default settings will be applied.
+	>note If the modules node is not declared the default settings will be applied.
 
 

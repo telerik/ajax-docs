@@ -13,7 +13,7 @@ position: 1
 
 The **OnPopupClosing** client-side event handler is called just before a popup calendar is closed.
 
->tip The **OnPopupClosing** event is supported by: **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
+>note The **OnPopupClosing** event is supported by: **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
 >
 
 

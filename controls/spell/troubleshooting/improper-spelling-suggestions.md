@@ -18,7 +18,7 @@ By default, **RadSpell** works with a phonetic spellcheck provider that uses pho
 | **MS Word Spell Checking** (external)|Microsoft Word support is not enabled by default for RadSpell. In order to enable it, one should follow	the steps provided in [Enabling MS Word Spell Checking](http://www.telerik.com/community/forums/aspnet-ajax/spell/enabling-ms-word-spell-checking.aspx) sticky thread.|
 | **OpenOffice Spell Checking** (external)|Since Q3 2010, Telerik provides support for NHunspell and OpenOffice dictionaries for RadSpell.	In order to enable this feature, one should follow the steps provided in [Using OpenOffice spell provider in RadSpell](http://www.telerik.com/community/code-library/aspnet-ajax/spell/using-openoffice-spell-provider-in-radspell.aspx) code library.|
 
->tip The **Edit Distance provider** is the only built in provider, while **MS Word and OpenOffice providers** are external projects that need to be plugged in.
+>note The **Edit Distance provider** is the only built in provider, while **MS Word and OpenOffice providers** are external projects that need to be plugged in.
 
 # See Also
 

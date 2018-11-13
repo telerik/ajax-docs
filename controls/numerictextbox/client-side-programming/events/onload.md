@@ -14,7 +14,7 @@ position: 10
 
 The **OnLoad** client-side event handler is called when the input control is loaded on the client.
 
->tip The **OnLoad** event is supported by all **RadInput** controls.
+>note The **OnLoad** event is supported by all **RadInput** controls.
 >
 
 

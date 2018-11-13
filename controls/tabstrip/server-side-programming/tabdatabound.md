@@ -20,7 +20,7 @@ The **TabDataBound** event handler receives two arguments:
 
 1. A **RadTabStripEventArgs** object. This object has an **Tab** property that you can use to access the tab that was just added. You can access the data item to which the tab has just been bound using its **DataItem** property. The value of **DataItem** should be cast to the type of items in the data source so that you can work with its fields appropriately.
 
->tip The **TabDataBound** event handler is the only time when the **DataItem** property of a tab is set.
+>note The **TabDataBound** event handler is the only time when the **DataItem** property of a tab is set.
 >
 
 

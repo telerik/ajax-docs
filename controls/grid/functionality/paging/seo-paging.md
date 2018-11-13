@@ -87,7 +87,7 @@ Once routing is enabled in your application, you can configure RadGrid to use th
 
 
 
->tip When routing is enabled, two parameters appear in the URL - page index as a first parameter and page size as a second parameter. If only one parameter is used, this parameter is parsed as a page index and page size gets default value - 10 items per page.
+>note When routing is enabled, two parameters appear in the URL - page index as a first parameter and page size as a second parameter. If only one parameter is used, this parameter is parsed as a page index and page size gets default value - 10 items per page.
 >
 
 

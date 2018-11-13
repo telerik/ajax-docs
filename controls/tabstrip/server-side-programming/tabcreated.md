@@ -14,7 +14,7 @@ position: 2
 
 **TabCreated** occurs every time a new tab is added to **Tabs** collection of the **RadTabStrip** instance or to the **Tabs** collection of a tab in the tab strip. **TabCreated** occurs for all tabs, not just those that result from data binding (when the **DataSource** or **DataSourceID** property is set).If the tab strip is bound to a data source, this event occurs *before* any data binding: that is, before any properties have been set to reflect the data from the data source.
 
->tip When working with data-bound tab strips, it can be more useful to use the **[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})** , which occurs after the tab properties have been set to reflect the data source and which provides access to the **DataItem** property of a tab.
+>note When working with data-bound tab strips, it can be more useful to use the **[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})** , which occurs after the tab properties have been set to reflect the data source and which provides access to the **DataItem** property of a tab.
 >
 
 

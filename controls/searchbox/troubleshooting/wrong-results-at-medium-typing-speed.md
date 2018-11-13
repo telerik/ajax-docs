@@ -20,7 +20,7 @@ An example of such wrong results is as follows:
 1. type `0` and get the results for `1500`
 1. you may not get results for `150` at all because it was cancelled by the other request
 
->tip You may not always be able to reproduce this, as the behavior will vary by your typing speed and the network speed.
+>note You may not always be able to reproduce this, as the behavior will vary by your typing speed and the network speed.
 
 If you type fairly quickly or rather slowly, the results are returned as expected because either only one request is initiated, or each request returns before the next request is initiated.
 

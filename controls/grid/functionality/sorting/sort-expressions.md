@@ -77,6 +77,6 @@ RadGrid1.MasterTableView.Rebind()
 
 Sorting is handled internally by a DataView. Be sure that you specify the properties of the **GridSortExpression** class properly, or the grid will throw an exception when it is data bound.
 
->tip Items in the **SortExpressions** collection are preserved in the view state for the **GridTableView** at each hierarchy level.
+>note Items in the **SortExpressions** collection are preserved in the view state for the **GridTableView** at each hierarchy level.
 >
 

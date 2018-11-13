@@ -16,7 +16,7 @@ These buttons are created by external scripts from the respective social network
 
 ## Facebook's buttons
 
->tip The buttons Facebook generate are not standard HTML and will often throw JavaScript errors on the page. Adding the following namespaces to the	`<html>` tag alleviates the issue somewhat:
+>note The buttons Facebook generate are not standard HTML and will often throw JavaScript errors on the page. Adding the following namespaces to the	`<html>` tag alleviates the issue somewhat:
 >
 
 
@@ -34,7 +34,7 @@ To activate them you need to place a **`<telerik:RadFacebookButton />`** in the 
 
 	* FacebookShare (deprecated) - creates a Share button
 	
-		>caution FacebookShare button has been officially deprecated by Facebook in favor of the FacebookLike button.	More information on this topic is available in the "What happened to the old Share button?" section, located in [Button options for Facebook buttons](http://developers.facebook.com/docs/reference/plugins/like/) Facebook article.
+		>warning FacebookShare button has been officially deprecated by Facebook in favor of the FacebookLike button.	More information on this topic is available in the "What happened to the old Share button?" section, located in [Button options for Facebook buttons](http://developers.facebook.com/docs/reference/plugins/like/) Facebook article.
 	
 	
 	* FacebookLike - creates a Like button
@@ -43,7 +43,7 @@ To activate them you need to place a **`<telerik:RadFacebookButton />`** in the 
 	
 	* FacebookRecommend - creates a Recommend button
 
-	>tip If both a **FacebookLike** and **FacebookSend** buttons are present in the collection Facebook automatically combines	them in a new, bigger button even if they are not adjacent. This is a feature from Facebook and there is no way to prevent it.
+	>note If both a **FacebookLike** and **FacebookSend** buttons are present in the collection Facebook automatically combines	them in a new, bigger button even if they are not adjacent. This is a feature from Facebook and there is no way to prevent it.
 >
 
 
@@ -177,12 +177,12 @@ Pinterest buttons are available since **Q1 2013 SP1**.To activate them you need 
 
 	* PinIt button - the URL of the image sent to the Pinterest network. Does not accept a web page URL.
 
-		>tip The URL given to Pinterest must point to an **image** and not to a page like	all other networks.
+		>note The URL given to Pinterest must point to an **image** and not to a page like	all other networks.
 
 
 	* Follow button - the URL of the Pinterest account which is to be followed (e.g., `http://pinterest.com/USERNAME`).
 
-		>tip The proper visualization of the follow button requires the omission of the 'www' from the URL of	the Pinterest account.
+		>note The proper visualization of the follow button requires the omission of the 'www' from the URL of	the Pinterest account.
 
 
 

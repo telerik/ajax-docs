@@ -14,7 +14,7 @@ position: 2
 
 The server-side **FileUploaded** occurs after a file is uploaded and a postback is triggered.
 
->tip When the [PostbackTriggers]({%slug asyncupload/how-to/how-to-persist-uploaded-files%}) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
+>note When the [PostbackTriggers]({%slug asyncupload/how-to/how-to-persist-uploaded-files%}) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
 >
 
 The **FileUploaded** event handler receives two arguments:

@@ -67,7 +67,7 @@ This article provides a list and detailed description of the properties and meth
 | **UploadedFilesRendering** |AsyncUpload.UploadedFilesRendering|Gets or sets a value indicating whether RadAsyncUpload will render the uploaded files above/below the current file input.|
 | **UseApplicationPoolImpersonation** |bool|Gets or sets whether the application pool impersonation should be used.|
 
->tip The **LastModifiedDate** property was added to the AsyncUploadedFile class as of Q3 2012. The value is available only when we are uploading files with IE10, FireFox, Google Chrome and Safari browsers. In IE9 it is not available because it does not support **File API** while in Opera, **LastModifiedDate** is not available due to security reasons.
+>note The **LastModifiedDate** property was added to the AsyncUploadedFile class as of Q3 2012. The value is available only when we are uploading files with IE10, FireFox, Google Chrome and Safari browsers. In IE9 it is not available because it does not support **File API** while in Opera, **LastModifiedDate** is not available due to security reasons.
 >
 
 ## Methods

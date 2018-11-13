@@ -14,7 +14,7 @@ position: 0
 
 Editable columns inside a **RadGrid** control supply a default editor that enables users to edit the values in the column. The editor is specified by the **ColumnEditor** property of the column, which is of type **IGridColumnEditor**.
 
->tip Editable columns are columns that implement the **IGridEditableColumn** interface.
+>note Editable columns are columns that implement the **IGridEditableColumn** interface.
 >
 
 

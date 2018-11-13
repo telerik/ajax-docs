@@ -16,7 +16,7 @@ You can also add templates to **RadMenu** at runtime, using the **ItemTemplate**
 
 
 
->tip The RadMenu items should be dynamically added so that templates can be defined at run time.
+>note The RadMenu items should be dynamically added so that templates can be defined at run time.
 >Also, the **items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadMenu object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 
@@ -99,7 +99,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 
 
 
->tip The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
+>note The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
 >
 
 

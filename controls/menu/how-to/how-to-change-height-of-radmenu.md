@@ -34,7 +34,7 @@ The following tutorial demonstrates how you can alter the **height** of the **Ra
 
 1. Copy the *Menu.Default.css* style sheet file and place it in the *MySkin* folder.
 
->tip With the default installation of the ASP.NET AJAX control the file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
+>note With the default installation of the ASP.NET AJAX control the file path will typically be similar to this example: \Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.
 >
 
 

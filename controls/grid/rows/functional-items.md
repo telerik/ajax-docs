@@ -34,7 +34,7 @@ The GridStatusBarItem appears below all other items in the grid and displays the
 
 ![GridStatusBarItem](images/grd_GridStatusBarItem.png)
 
->tip You should have a data source assigned in order to use **RadGrid** with a status bar.
+>note You should have a data source assigned in order to use **RadGrid** with a status bar.
 >
 
 

@@ -13,7 +13,7 @@ position: 1
 
 This event is fired when each of the TreeListDataItem client components is created.
 
->tip The RadTreeList client TreeListDataItem objects will not be created until they are requested, for example by calling TreeListInstance.get_dataItems(). Until then, the OnItemCreated client event of the control will not fire.
+>note The RadTreeList client TreeListDataItem objects will not be created until they are requested, for example by calling TreeListInstance.get_dataItems(). Until then, the OnItemCreated client event of the control will not fire.
 >
 
 | | |

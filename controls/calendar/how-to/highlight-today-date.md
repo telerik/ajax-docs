@@ -26,7 +26,7 @@ There are situations when you may want the today's date in the **RadCalendar** h
 
 
 
->tip 
+>note 
 If you are using **RadDatePicker**  or **RadDateTimePicker** you can use the same approach to highlight the today date in the calendar popup. You need to set the **SpecialDays** for the underlying **Calendar** control.
 >
 

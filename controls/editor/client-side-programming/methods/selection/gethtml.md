@@ -19,7 +19,7 @@ function getHtml()
 
 
 
->tip The return value contains the HTML formatting in contrast to the [getText]({%slug editor/client-side-programming/methods/selection/gettext%}) method.
+>note The return value contains the HTML formatting in contrast to the [getText]({%slug editor/client-side-programming/methods/selection/gettext%}) method.
 
 The example below populates a Label and a TextBox with the currently selected html:
 

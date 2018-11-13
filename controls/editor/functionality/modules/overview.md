@@ -20,7 +20,7 @@ This module displays general test statistics: the number of words and number of 
 
 ![](images/editor-statisticsmodule.png)
 
->tip Please note that you have to click with the mouse inside the content area for the statistics module to update, i.e. it will not update on every keystroke for the purposes of performance optimization.
+>note Please note that you have to click with the mouse inside the content area for the statistics module to update, i.e. it will not update on every keystroke for the purposes of performance optimization.
 >
 >By design, the RadEditorStatistics module does not count the following characters: ! . ? ; , : & _ - – { } [ ] ( ) ~ # ' "
 

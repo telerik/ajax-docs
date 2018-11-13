@@ -113,7 +113,7 @@ End Sub
 
 ![](images/grd_AccessingPagerButtons.png)
 
->tip When setting the **PageOfLabel,** in order to to display the page count number, you would need to append it to the label text as demonstrated below:
+>note When setting the **PageOfLabel,** in order to to display the page count number, you would need to append it to the label text as demonstrated below:
 >
 
 

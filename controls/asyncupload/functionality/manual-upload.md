@@ -22,7 +22,7 @@ The **pauseUpload()** method pauses the upload. Note that it pauses right after 
 
 The **resumeUpload()** method resumes the upload that was paused.
 
->tip When manual upload is used under **IE 9/8/7**, the upload module is automatically set to **IFrame**.
+>note When manual upload is used under **IE 9/8/7**, the upload module is automatically set to **IFrame**.
 >
 
 

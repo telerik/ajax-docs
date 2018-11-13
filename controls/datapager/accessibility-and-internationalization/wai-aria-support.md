@@ -27,11 +27,11 @@ RadDataPager ARIA attributes are **lower case**. They are shown in the table bel
 | ------ | ------ |
 | **RadDataPager** |Role: presentationAria-atomic:trueAria-label – control client-side idRole:button for the following buttons (when present):PrevButton, NextButton, FirstButton, LastButton, PageSizeButton, GoToPageButton|
 
->tip When aria support is enabled also turns on the aria support for any related RadInput and RadComboBox controlsin the pager.
+>note When aria support is enabled also turns on the aria support for any related RadInput and RadComboBox controlsin the pager.
 >
 
 
->tip An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
 
 

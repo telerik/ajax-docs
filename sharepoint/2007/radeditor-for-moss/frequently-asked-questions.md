@@ -71,7 +71,7 @@ In the above example the file **\Program Files\Common Files\Microsoft Shared\web
 
 In this case the UID for the site is *{a63cff5e-cdf5-48d0-898d-f9a24d299f06}*.
 
->tip: Remember to remove the **RadEditorSaveGuids** application setting when you no longer need it (i.e. after you find the UID you want).
+>note: Remember to remove the **RadEditorSaveGuids** application setting when you no longer need it (i.e. after you find the UID you want).
 
 **Size of editing area in WCM scenario**
 

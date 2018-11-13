@@ -30,12 +30,12 @@ The possible targets for the navigation are similar to those a standard *anchor*
 
 * any name - navigates the frame from the current window with the given name to the designated URL.
 
->tip Navigation is done with JavaScript which means that all standard limitations apply:
+>note Navigation is done with JavaScript which means that all standard limitations apply:
 * In order to navigate the topmost or parent frame both pages must come from the same domain to satisfy the same-origin policy.
 * Popup blocker programs on the user's machine can prevent opening a new browser window.
 
 
->tip If the **AutoPostBack** property of the **RadTileList** control is set to **true** a postback will occur instead of navigation. By default (AutoPostBack=false) each tile will act like a large hyperlink.
+>note If the **AutoPostBack** property of the **RadTileList** control is set to **true** a postback will occur instead of navigation. By default (AutoPostBack=false) each tile will act like a large hyperlink.
 >To allow certain tiles to navigate to a page while keeping AutoPostBack=true for the TileList, examine the [Allow Tile Navigation with AutoPostBack=true in RadTileList](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/allow-tile-navigation-with-autopostback=true-in-radtilelist) KB article.
 
 

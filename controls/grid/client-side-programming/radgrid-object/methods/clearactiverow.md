@@ -32,7 +32,7 @@ function clearActiveRowInGrid(sender, args) {
 
 
 
->tip Please note that this method will work only when Keyboard Navigation and Row Selection of RadGrid are enabled.
+>note Please note that this method will work only when Keyboard Navigation and Row Selection of RadGrid are enabled.
 >
 
 

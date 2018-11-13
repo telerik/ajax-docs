@@ -50,6 +50,6 @@ Here are some sample scenarios:
 
 	Result: Q3 2011 SP1 and Q1 2012 SP1 are installed on the machine.
 
->tip Part of the Telerik® UI for ASP.NET AJAX are the Visual Studio Extensions. Since the Visual Studio Extensions integrate into the Visual Studio IDE they don’t support parallel versions. When newer version is installed regardless of its type (major/minor) the Visual Studio Extensions get updated to the newer version.
+>note Part of the Telerik® UI for ASP.NET AJAX are the Visual Studio Extensions. Since the Visual Studio Extensions integrate into the Visual Studio IDE they don’t support parallel versions. When newer version is installed regardless of its type (major/minor) the Visual Studio Extensions get updated to the newer version.
 
 

@@ -40,7 +40,7 @@ The following tutorial demonstrates using **RadCaptcha** to validate page submis
 		</configuration>
 
 
-	>tip By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server. When Session is used, the HttpHandler definition (in the .config file) of the **RadCaptcha** should be modified manually by setting the type of the HttpHandler has to be set to **type="Telerik.Web.UI.WebResourceSession"** .
+	>note By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server. When Session is used, the HttpHandler definition (in the .config file) of the **RadCaptcha** should be modified manually by setting the type of the HttpHandler has to be set to **type="Telerik.Web.UI.WebResourceSession"** .
 	
 	>caption web.config
 	

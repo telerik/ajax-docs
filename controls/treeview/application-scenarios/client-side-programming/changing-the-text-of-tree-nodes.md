@@ -26,7 +26,7 @@ tree.get_nodes().getNode(0).get_textElement().innerHTML = "new text";
 
 
 
->tip The changes however will not be persisted after post-back.
+>note The changes however will not be persisted after post-back.
 >
 
 

@@ -59,7 +59,7 @@ End Sub
 ````
 
 
->tip When you apply Skin for the grid the custom style attributes set for the some of the grid rows will be overridden by the skin definitions. If you want to customize the appearance for some of the grid rows when Skin is assigned to the control, you will need to define your own CssClass for the corresponding row and apply the style preferences in its body.>
+>note When you apply Skin for the grid the custom style attributes set for the some of the grid rows will be overridden by the skin definitions. If you want to customize the appearance for some of the grid rows when Skin is assigned to the control, you will need to define your own CssClass for the corresponding row and apply the style preferences in its body.>
 >
 
 

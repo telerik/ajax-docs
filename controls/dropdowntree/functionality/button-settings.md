@@ -16,7 +16,7 @@ You can take advantage of the additional functionality that we implemented with 
 
 ## Button Settings
 
->tip These settings are available after the **Q2 2013** release of the Telerik controls.
+>note These settings are available after the **Q2 2013** release of the Telerik controls.
 >
 
 

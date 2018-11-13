@@ -16,7 +16,7 @@ RadEditor is powerful enough to be used in any language you like: English, Bulga
 
 You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding: `<?xml version="1.0" encoding="utf-8" ?>`, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
 
->tip If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
+>note If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
 
 ## FontNames Collection
 
@@ -24,7 +24,7 @@ The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which 
 
 ![](images/editor-dropdowns001.png)
 
->tip The fonts must be available on the client machine.
+>note The fonts must be available on the client machine.
 
 ## Using the FontNames Collection Declaratively
 
@@ -55,7 +55,7 @@ RadEditor1.FontNames.Add("Arial Narrow")
 RadEditor1.FontNames.Add("Arial Black")
 ````
 
->tip Bear in mind that RadEditor will persist its state (including the Fonts set) between postbacks. In order to create a new set of Fonts (e.g. for different users), you will need to clear it first. This can be done using the FontNames collection Clear() method to remove all elements or Remove() to remove specific fonts from the collection.
+>note Bear in mind that RadEditor will persist its state (including the Fonts set) between postbacks. In order to create a new set of Fonts (e.g. for different users), you will need to clear it first. This can be done using the FontNames collection Clear() method to remove all elements or Remove() to remove specific fonts from the collection.
 
 
 ## Adding FontNames to ToolsFile.xml

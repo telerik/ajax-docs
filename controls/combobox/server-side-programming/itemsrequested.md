@@ -16,7 +16,7 @@ position: 1
 
 The **ItemsRequested** event occurs when the **EnabledLoadOnDemand** property is **True** and the user types text into the input field or clicks on the drop-down toggle image when the list is empty.
 
->tip Items added in the **ItemsRequested** event handler are cleared when the next **ItemsRequested** event fires. If you, however, use the **ShowMoreResultsBox** mechanism or **Virtual Scrolling** the items will not be cleared upon clicking the **ShowMoreResultsBox** arrow or **scrolling down.** 
+>note Items added in the **ItemsRequested** event handler are cleared when the next **ItemsRequested** event fires. If you, however, use the **ShowMoreResultsBox** mechanism or **Virtual Scrolling** the items will not be cleared upon clicking the **ShowMoreResultsBox** arrow or **scrolling down.** 
 >
 
 

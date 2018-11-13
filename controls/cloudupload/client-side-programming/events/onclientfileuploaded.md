@@ -42,7 +42,7 @@ function onClientFileUploaded(sender, eventArgs) {
 
 
 
->tip From the **FileInfo** object you could get important information about the uploaded file. The properties are listed bellow:
+>note From the **FileInfo** object you could get important information about the uploaded file. The properties are listed bellow:
 *  **contentLength** - Returns the size of the uploaded file.
 *  **contentType** - Returns the content type of the uploaded file.
 *  **keyName** - Could be used to access the uploaded file on the Storage Provider.

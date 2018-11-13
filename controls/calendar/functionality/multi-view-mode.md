@@ -14,7 +14,7 @@ position: 4
 
 **RadCalendar** can be easily configured to show more than one month in the calendar area. To enable this functionality, simply set the **MultiViewRows** and **MultiViewColumns** properties to specify the number of month views to appear in each row and column.
 
->tip 
+>note 
 When using Multi-view mode, it is a good idea to use the **CalendarTableStyle** property to provide some separation between the individual calendar views. For more information on style properties, see [Styles]({%slug calendar/appearance-and-styling/styles%}).
 >
 

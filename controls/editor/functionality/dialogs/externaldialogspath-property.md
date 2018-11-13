@@ -14,7 +14,7 @@ By default, all RadEditor dialogs are embedded as resource files in the Telerik.
 
 >tip The mentioned dialog files could be located in different folders depending on the chosen type of installation. If the manual installation is used,they could be found in the **[Extracted_Directory]\EditorDialogs** folder. If your choice is the MSI installation, then the dialogs should be located in the **[Installation_Directory]\EditorDialogs** folder.
 
->tip In order to use the external dialogs of the control in a [precompiled site scenario](https://msdn.microsoft.com/en-us/library/399f057w%28v=vs.85%29.aspx) you have to manually copy the folder with the modified dialogs to the precompiled version of the site.
+>note In order to use the external dialogs of the control in a [precompiled site scenario](https://msdn.microsoft.com/en-us/library/399f057w%28v=vs.85%29.aspx) you have to manually copy the folder with the modified dialogs to the precompiled version of the site.
 
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ExternalDialogsPath="~/EditorDialogs" runat="server">

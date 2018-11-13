@@ -185,7 +185,7 @@ To better understand how **RadGrid** deals with hierarchy, refer to the article:
 
 This is unlike the **RadTreeView** control which supports different number of sub-items on each level - the equivalent in thiscase is **RadTreeList** control that allows you to have variable number of nested sub-tables in each level. Refer to[this online demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx) for further reference.
 
->tip Note that **RadGrid** will not behave correctly if you add detail tables programmatically in **DetailTableDataBind** event handler.
+>note Note that **RadGrid** will not behave correctly if you add detail tables programmatically in **DetailTableDataBind** event handler.
 >
 
 

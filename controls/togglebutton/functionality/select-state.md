@@ -106,7 +106,7 @@ Public Sub Page_Init(sender As Object, e As System.EventArgs)
 End Sub
 ````
 
->caution The `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
+>warning The `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
 
 ## Get Selected Toggle State Server-Side
 

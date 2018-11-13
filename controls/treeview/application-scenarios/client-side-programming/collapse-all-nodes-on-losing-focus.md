@@ -55,6 +55,6 @@ In some cases it might be more convenient for the end user if **TreeView** Nodes
 
 
 
->tip The **RadTreeView** control should has its **TabIndex** property set so that the **onblur** event of its **div** element fires.
+>note The **RadTreeView** control should has its **TabIndex** property set so that the **onblur** event of its **div** element fires.
 >
 

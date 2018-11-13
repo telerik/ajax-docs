@@ -32,7 +32,7 @@ In this scenario, Telerik’s Editor is added to the page during a partial post 
 
 The workaround for this problem is to register the RadEditor’s CSS files manually on the page. For this case follow **Example 1**.
 
->tip You should add the needed stylesheets for all child controls depending on the `ToolbarMode`. See **Example 2**.
+>note You should add the needed stylesheets for all child controls depending on the `ToolbarMode`. See **Example 2**.
 
 >caption Example 1: Showing and hiding a RadEditor control dynamically via AJAX.
 

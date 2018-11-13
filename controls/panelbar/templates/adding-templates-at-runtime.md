@@ -16,7 +16,7 @@ position: 2
 
 Templates could be added to **RadPanelBar** at runtime, using the **ItemTemplate**, **ContentTemplate** and **HeaderTemplate** properties. All of them are of type **ITemplate**, so you must assign an object that implements that interface as a value.
 
->tip The RadPanelBar items should be dynamically added so that templates can be defined at run time.
+>note The RadPanelBar items should be dynamically added so that templates can be defined at run time.
 >Also, the **items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadPanelBar object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 
@@ -110,7 +110,7 @@ End Sub
 
 If you for some reason cannot define the template in the **OnInit** event of the page, you could use another approach:
 
->tip The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
+>note The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
 >
 
 

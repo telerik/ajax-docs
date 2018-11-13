@@ -28,7 +28,7 @@ position: 2
 ...
 ````
 
->tip **RadTreeView** does not render tables (<*table*> HTML tags) so there is no need for extra headings, caption or summary attributes that are typically needed to make HTML tables "Section 508" compliant.
+>note **RadTreeView** does not render tables (<*table*> HTML tags) so there is no need for extra headings, caption or summary attributes that are typically needed to make HTML tables "Section 508" compliant.
 >
 
 

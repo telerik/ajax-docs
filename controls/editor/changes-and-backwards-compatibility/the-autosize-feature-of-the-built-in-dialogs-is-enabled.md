@@ -43,7 +43,7 @@ You should use the correct class name according to the dialog’s name. For conv
 html.red<DialogName> body
 ````
 
->tip If you are using **MetroTouch** or **BlackMetroTouch** skin, you should use the following rule:
+>note If you are using **MetroTouch** or **BlackMetroTouch** skin, you should use the following rule:
 
 
 ````HTML

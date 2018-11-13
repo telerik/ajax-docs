@@ -120,6 +120,6 @@ The following example shows how to add a new expression to the second group of t
 Here is the same RadFilter after the both buttons have been clicked:
 ![After](images/filter_after.png)
 
->tip Please note that all methods from the client-side API fire commands to the server and trigger a postback. If you have two or more subsequent calls to any of the client methods, only the last one will be executed.
+>note Please note that all methods from the client-side API fire commands to the server and trigger a postback. If you have two or more subsequent calls to any of the client methods, only the last one will be executed.
 >
 

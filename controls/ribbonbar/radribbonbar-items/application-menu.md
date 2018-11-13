@@ -16,7 +16,7 @@ position: 1
 
 Since an Application Menu is a mandatory element in any Ribbon application, the Telerik **RadRibbonBar** control also has its specially designed RadRibbonbarApplicationMenu. It enables you to create an application menu similar to the one found in Microsoft Office 2007 and 2010. The **RadRibbonBarApplicationMenu** is a new addition to the Telerik's **RadRibbonBar** control, that allows to enrich your experiences with the current control. Using this menu you have the possibility to add a list of 'application commands' to the tab row of the control. These commands are contained in a drop down, which opens when clicking on the first 'tab' of the **RibbonBar**. The commands have Text, Value and ImageUrl properties.
 
->tip It is important to note that as of **Q2 2013** we changed the look and feel of the **ApplicationMenu** . The purpose of the new **ApplicationMenu** is to follow the Microsoft's specification as close as possible, without breaking existing code. Below you can find two image files - the first one represents the current new look of the RadRibbonBarApplicationMenu while the second one exemplifies the old look.
+>note It is important to note that as of **Q2 2013** we changed the look and feel of the **ApplicationMenu** . The purpose of the new **ApplicationMenu** is to follow the Microsoft's specification as close as possible, without breaking existing code. Below you can find two image files - the first one represents the current new look of the RadRibbonBarApplicationMenu while the second one exemplifies the old look.
 >
 
 

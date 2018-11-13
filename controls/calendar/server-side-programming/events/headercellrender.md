@@ -18,7 +18,7 @@ row and column headers and the view selector have been generated and just
 before one of these header cells is rendered to the client. It is the last
 place where changes to the already constructed header cells can be made.
 
->tip 
+>note 
 The **HeaderCellRender** event does not fire if the calendar does not display its row and column headers or view selectors. That is, if the **ShowRowHeaders**, **ShowColumnHeaders** and **EnableViewSelector** properties are all **False**, the event does not fire.
 >
 

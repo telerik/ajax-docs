@@ -50,5 +50,5 @@ _/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/
 </configuration>
 ````
 
->tip Note that in SharePoint 2010 the Upload and Delete options depend on the current user's permissions for the desired library.
+>note Note that in SharePoint 2010 the Upload and Delete options depend on the current user's permissions for the desired library.
 

@@ -16,7 +16,7 @@ position: 1
 
 The **RadInput** controls support ASP.NET validators (both client and server side). For example a **RequiredFieldValidator** can be used to make sure the user does not skip mandatory fields. A **RangeValidator** can be applied to ensure the entered value falls within some specified interval.
 
->tip You can also use the **MinValue** properties on **RadNumericTextBox** to restrict the input to a specified interval.
+>note You can also use the **MinValue** properties on **RadNumericTextBox** to restrict the input to a specified interval.
 >
 
 

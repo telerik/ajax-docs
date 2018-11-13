@@ -16,7 +16,7 @@ position: 8
 
 This is one-dimensional array representing a collection of client-side objects of type GridTableView (one level below the parent GridDataItem). The array will contain only one element if you use standard hierarchy with single table at a level.
 
->tip If you have HierarchyLoadMode="ServerBind" or "ServerOnDemand" for the corresponding table, to reference the nested tables for a particular GridDataItem this very item should be expanded!
+>note If you have HierarchyLoadMode="ServerBind" or "ServerOnDemand" for the corresponding table, to reference the nested tables for a particular GridDataItem this very item should be expanded!
 >
 
 

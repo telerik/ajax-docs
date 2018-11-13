@@ -32,7 +32,7 @@ Panning is a translation that is applied to the whole diagram. You can pan a dia
 
 You can change the zoom level of the whole diagram via the mouse wheel.
 
->tip The zoom step when using the mouse-wheel to zoom in or out is controlled by the **ZoomRate** property of **RadDiagram** . Setting zoom rate to 0 will disable zooming:`RadDiagram1.ZoomRate = 0;`
+>note The zoom step when using the mouse-wheel to zoom in or out is controlled by the **ZoomRate** property of **RadDiagram** . Setting zoom rate to 0 will disable zooming:`RadDiagram1.ZoomRate = 0;`
 
 ## Undo and Redo
 

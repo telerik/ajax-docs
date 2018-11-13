@@ -22,6 +22,6 @@ One parameter is passed to the handler:
 
 This event cannot be cancelled.
 
->tip This event is **not** raised in case of server-side binding.
+>note This event is **not** raised in case of server-side binding.
 >
 

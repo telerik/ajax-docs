@@ -14,7 +14,7 @@ position: 2
 
 To find a Node by **Text**, **Value** or **Attribute**, use the methods **FindNodeByText()**, **FindNodeByValue()** and **FindNodeByAttribute()**. Both **RadTreeView** and **RadTreeView.Nodes** have all three methods. In addition, **RadTreeView** has a **FindNodeByUrl()** method. For a step by step tutorial on using these find methods see [Tutorial: Finding Nodes]({%slug treeview/server-side-programming/tutorial-on-finding-nodes%}).
 
->tip To use the code examples below, include a reference to Telerik.Web.UI in the "using" (C#) or the "Imports" (VB) section of code.
+>note To use the code examples below, include a reference to Telerik.Web.UI in the "using" (C#) or the "Imports" (VB) section of code.
 >
 
 

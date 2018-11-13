@@ -235,6 +235,6 @@ When using an **XmlDataSource**, the XML file should have the format shown below
 
 
 
->tip You can also [load the XML file directly]({%slug combobox/radcombobox-items/loading-items-from-xml%}), rather than using a DataSource component as an intermediary.
+>note You can also [load the XML file directly]({%slug combobox/radcombobox-items/loading-items-from-xml%}), rather than using a DataSource component as an intermediary.
 >
 

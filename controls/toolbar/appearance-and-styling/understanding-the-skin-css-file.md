@@ -33,7 +33,7 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 
 The control is rendered as a DIV element with the classes "**RadToolBar RadToolBar_Horizontal RadToolBar_Green RadToolBar_Green_Horizontal**". The **RadToolBar** and **RadToolBar_Horizontal** classes are always applied. They define the basic presentation of the toolbar which is common for all skins. The **RadToolBar_Green** and **RadToolBar_Green_Horizontal** classes are applied because the **Skin** property of the toolbar is set to "Green".
 
->tip If you set the **Style** or **CssClass** property of the toolbar, those settings are applied to this outer DIV element as well.
+>note If you set the **Style** or **CssClass** property of the toolbar, those settings are applied to this outer DIV element as well.
 >
 
 

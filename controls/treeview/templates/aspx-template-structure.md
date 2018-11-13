@@ -25,7 +25,7 @@ You can define two types of Telerik RadTreeView templates:
 
 ![RadTreeView Templates Structure](images/treeview_templatesstructure01.png)
 
->tip  **DataBinder.Eval** expressions work only when the **TreeView** is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no data source is set to the **TreeView**.
+>note  **DataBinder.Eval** expressions work only when the **TreeView** is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no data source is set to the **TreeView**.
 >
 
 

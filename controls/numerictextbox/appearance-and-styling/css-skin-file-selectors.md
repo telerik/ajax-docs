@@ -14,7 +14,7 @@ position: 6
 
 The following table lists significant CSS selectors and descriptions that apply to the **RadNumericTextBox** control in RadInput style sheets.
 
->tip These class names are for the "Default" skin. For other skins, replace the string "Default" with the name of the skin.
+>note These class names are for the "Default" skin. For other skins, replace the string "Default" with the name of the skin.
 >
 
 

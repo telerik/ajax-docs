@@ -18,7 +18,7 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
->tip This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/defining-structure/changing-the-grid-structure-dynamically-on-postback %}) article.
+>note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/defining-structure/changing-the-grid-structure-dynamically-on-postback %}) article.
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
@@ -33,7 +33,7 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 	* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
 
 
->tip Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
+>note Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
 
 
 
@@ -53,7 +53,7 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 
 To define the structure of a **RadGrid** control that is declared in the ASPX page, use the **Page_Load** event handler. Columns and detail tables should be added to the corresponding collection **first**, before the values for their properties are set. This is important because no **ViewState** is managed for the object before it has been added to the corresponding collection.
 
->tip Be sure to check that **IsPostBack** is **False** . Otherwise, you will end up adding the same objects to the **RadGrid** multiple times.
+>note Be sure to check that **IsPostBack** is **False** . Otherwise, you will end up adding the same objects to the **RadGrid** multiple times.
 >
 
 
@@ -169,7 +169,7 @@ End Sub
 ````
 
 
->tip  **RadGrid** does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
+>note  **RadGrid** does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
 >
 
 

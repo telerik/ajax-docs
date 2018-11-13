@@ -18,7 +18,7 @@ You can set the **ImageUrl** to point to an image which will be displayed on the
 
 You can set the **DisabledImageUrl** to point to an image which will be displayed on the left of the item's text in the dropdown when the item is disabled. Thus, you can have different images for the enabled and disabled state of an item.
 
->tip Images are shown only in the dropdown and not in the input area of the combobox
+>note Images are shown only in the dropdown and not in the input area of the combobox
 >
 
 

@@ -42,6 +42,6 @@ function RadGrid1_RowDataBound(sender, args){
 
 
 
->tip  get_cell() method works only with client-side binding.
+>note  get_cell() method works only with client-side binding.
 >
 

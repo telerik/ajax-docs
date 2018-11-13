@@ -67,7 +67,7 @@ oWnd.isShortcutAdded("Command"); //returns true if a shortcut is added for this 
 oWnd.removeAllShortcutsCommand("Command"); //clears all shortcuts for the given command
 ````
 
->tip Shortcut modifications done via JavaScript will *not* be persisted if the control is disposed - either in an AJAX request, a full postback or via the DestroyOnClose functionality. These modifications are available *only* for a **RadWindow** instances and *not* for the **RadWindowManager** .
+>note Shortcut modifications done via JavaScript will *not* be persisted if the control is disposed - either in an AJAX request, a full postback or via the DestroyOnClose functionality. These modifications are available *only* for a **RadWindow** instances and *not* for the **RadWindowManager** .
 
 >tip You should avoid globally used combinations such as Alt+F4, Ctrl+F5, etc. that have meaning in the context of the user browser/machine.
 

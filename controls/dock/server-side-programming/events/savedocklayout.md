@@ -29,7 +29,7 @@ The **SaveDockLayout** event handler receives two arguments:
 	* **Indices** is a **Dictionary** that stores the **Index** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
 	* **Positions** is a **Dictionary** that stores the **DockZoneID** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
 
->tip If the application has not explicitly set the **UniqueName** property of the **RadDock** controls, the **Indices** and **Positions** properties of the **DockLayoutEventArgs** object are indexed by the server-side **ID** of the **RadDock** controls.
+>note If the application has not explicitly set the **UniqueName** property of the **RadDock** controls, the **Indices** and **Positions** properties of the **DockLayoutEventArgs** object are indexed by the server-side **ID** of the **RadDock** controls.
 >
 
 

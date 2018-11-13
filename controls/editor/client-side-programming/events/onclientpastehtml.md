@@ -112,7 +112,7 @@ ID="RadEditor1">
 </telerik:RadEditor> 
 ````
 
->tip Safari and Chrome do not offer **onpaste** event and for that reason the **OnClientPasteHtml** event of RadEditor is not fired in these browsers when the paste command (Ctrl+V) is executed.
+>note Safari and Chrome do not offer **onpaste** event and for that reason the **OnClientPasteHtml** event of RadEditor is not fired in these browsers when the paste command (Ctrl+V) is executed.
 
 
 ## See Also

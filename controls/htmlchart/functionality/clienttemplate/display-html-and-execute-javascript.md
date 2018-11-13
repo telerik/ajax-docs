@@ -195,7 +195,7 @@ End Function
 
 >important Since tooltips are rendered as pure HTML and labels as part of the SVG/VML rendering, HTML can only be rendered inside tooltips.
 
->tip You can use number formats inside **Client Templates** . You can find more information in [this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
+>note You can use number formats inside **Client Templates** . You can find more information in [this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
 
 
 ## See Also

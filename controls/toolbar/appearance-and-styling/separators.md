@@ -17,7 +17,7 @@ You can use the **RadToolBarButton** objects that appear in drop-down lists as s
 
 To set a given button as a separator, set its **IsSeparator** property to **True**. When **IsSeparator** is **True**, the separator is rendered as a horizontal line. Its **Text** and **ImageUrl** properties are ignored.
 
->tip If you set the **IsSeparator** property to **True** on a button that is in the toolbar rather than a drop-down list, it has no effect on the appearance of the toolbar. The toolbar appears as if the button did not exist in its **Items** collection.
+>note If you set the **IsSeparator** property to **True** on a button that is in the toolbar rather than a drop-down list, it has no effect on the appearance of the toolbar. The toolbar appears as if the button did not exist in its **Items** collection.
 >
 
 The example below shows a drop-down list with a separator:

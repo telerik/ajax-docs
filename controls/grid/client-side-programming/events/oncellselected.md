@@ -16,13 +16,13 @@ position: 5
 
 Telerik.Web.UI.GridColumnEventArgs OnCellSelected Property
 
->tip To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
+>note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
 >
 
 
 This event is fired after a cell is selected in the MasterTable. 
 
->tip To raise **CellSelected** event for cells of **DetailTables** in **Hierarchical RadGrid**, select the cells manually using client-side logic. To do that, you can follow the approach from the [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article)
+>note To raise **CellSelected** event for cells of **DetailTables** in **Hierarchical RadGrid**, select the cells manually using client-side logic. To do that, you can follow the approach from the [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article)
 
 
 |  **Fired by**  | RadGrid |

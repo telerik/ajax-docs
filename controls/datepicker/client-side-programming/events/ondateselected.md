@@ -13,7 +13,7 @@ position: 1
 
 The **OnDateSelected** client-side event handler is called immediately after the value of the control's selection has changed.
 
->tip The **OnDateSelected** event is supported by: **RadCalendar** , **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
+>note The **OnDateSelected** event is supported by: **RadCalendar** , **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
 >
 
 The event handler receives two arguments:

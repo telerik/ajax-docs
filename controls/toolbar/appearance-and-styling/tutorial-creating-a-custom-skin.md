@@ -18,7 +18,7 @@ to the following:
 
 ![ToolBar Custom Skin](images/toolbar_customskinfinall.png)
 
->tip See [Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}) for more information on specific CSS file properties.
+>note See [Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}) for more information on specific CSS file properties.
 >
 
 
@@ -62,7 +62,7 @@ to the following:
 
 1. Copy the default **RadToolBar** skin files from the installation directory to the "Green" directory; copy both the \ToolBar directory that contains the images for this skin and the ToolBar.Default.css file that defines the skin styles.
 
->tip The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
+>note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.* 
 >
 
 

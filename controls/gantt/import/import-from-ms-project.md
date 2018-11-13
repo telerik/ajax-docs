@@ -25,7 +25,7 @@ Following code shows how to import [MS Project XML data](http://msdn.microsoft.c
 
 1. Configure **RadGantt** control to use an empty provider.
 
->tip For the purpose of this demo a [XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) is used. But the import functionality works with all supported data binding options of the **RadGantt** control.
+>note For the purpose of this demo a [XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) is used. But the import functionality works with all supported data binding options of the **RadGantt** control.
 >
 
 

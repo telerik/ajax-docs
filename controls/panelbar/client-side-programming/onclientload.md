@@ -44,7 +44,7 @@ The following example illustrates the use of the **OnClientLoad** event handler 
 
 
 
->tip The technique illustrated here can be used when the panel bar is nested within another control, but the **RadPanelBar** must be rendered only once. For example, you can use this approach if **RadPanelBar** is nested in a tool bar template button. However, if **RadPanelBar** is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered panel bar.
+>note The technique illustrated here can be used when the panel bar is nested within another control, but the **RadPanelBar** must be rendered only once. For example, you can use this approach if **RadPanelBar** is nested in a tool bar template button. However, if **RadPanelBar** is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered panel bar.
 >
 
 

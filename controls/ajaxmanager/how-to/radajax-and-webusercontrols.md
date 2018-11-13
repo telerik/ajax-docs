@@ -38,7 +38,7 @@ The solution is using the [RadAjaxManagerProxy control]({%slug ajaxmanager/radaj
 
 
 
->tip RadAjaxManagerProxy can be used for design-time configuration only. It does not have a client-side object, methods or events. Read the sections below to see how to handle them through the RadAjaxManager instance.
+>note RadAjaxManagerProxy can be used for design-time configuration only. It does not have a client-side object, methods or events. Read the sections below to see how to handle them through the RadAjaxManager instance.
 
 ## Get Reference to the RadAjaxManager Instance
 

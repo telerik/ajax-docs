@@ -35,7 +35,7 @@ Both properties expect [date format pattern]({%slug calendar/accessibility-and-i
 
 
 
->tip 
+>note 
 **RadDateTimePicker** uses **RadDateInput** to render the selected date. Note that incomplete dates are always evaluated taking the current date as a basis. For example, "January 2" means January 2 this year. If the current month is April, an entry of "10" is interpreted as April 10, this year. Therefore if the **DateFormat** property is set to "MM/yyyy" the date input ignores the selected day and tries to parse a string containing month and year values only. However, the parsing logic tries to find a day value first and parses the month value as the day one. Then it parses correctly the rest of the string as the relevant year. Since the control can not find other string value to be parsed as a month, it applies the current month value instead.
 >
 

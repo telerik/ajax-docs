@@ -17,11 +17,11 @@ All **RadInput** controls provide the **TextChanged** server event,which is rais
 
 The **TextChanged** event only occurs if the value of the input control actually changes. If the user changes the string in the input control but does not actually change the value (for example, entering a date into **RadDateInput** using a different format or entering an out-of-range number that is automatically corrected to the old value by **RadNumericTextBox**), the **TextChanged** event does not occur.
 
->tip Note that when using **RadNumericTextBox** , if a value is passed from the server with more digits after the decimal point than you have specified through the **NumberFormat.DecimalDigits** property, on postback the **TextChanged** event will fire, as the rounding done on the client by the RadNumericTextBox in fact changes the initial value. This would happen even when there was no user action on the textbox.
+>note Note that when using **RadNumericTextBox** , if a value is passed from the server with more digits after the decimal point than you have specified through the **NumberFormat.DecimalDigits** property, on postback the **TextChanged** event will fire, as the rounding done on the client by the RadNumericTextBox in fact changes the initial value. This would happen even when there was no user action on the textbox.
 >
 
 
->tip The postback request can be controlled for **RadNumericTextBox** by using the OnValueChanged client event of the control.
+>note The postback request can be controlled for **RadNumericTextBox** by using the OnValueChanged client event of the control.
 >
 
 

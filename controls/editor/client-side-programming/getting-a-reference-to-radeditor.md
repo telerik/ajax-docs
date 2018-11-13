@@ -25,7 +25,7 @@ Telerik RadEditor provides a client-side object of type **Telerik.Web.UI.RadEdit
 </script> 
 ````
 
->tip You should note that in MS ASP.NET AJAX, client control objects are created in a manner similar to this:
+>note You should note that in MS ASP.NET AJAX, client control objects are created in a manner similar to this:
 
 ````ASP.NET
 	   .......

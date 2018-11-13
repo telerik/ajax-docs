@@ -29,7 +29,7 @@ See [Understanding the Skin CSS File]({%slug radmaskedtextbox/appearance-and-sty
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
 1. Copy the default **RadMaskedTextBox** skin files from the installation directory to the "Green" directory; copy both the \Input directory that contains the images for this skin and the Input.Default.css file that defines the skin styles.
->tip The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.*
+>note The file path will typically be similar to this example: *\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins\Default.*
 >
 
 1. In the Solution Explorer, rename "Input.Default.css" to "Input.Green.css".

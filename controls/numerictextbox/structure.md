@@ -22,7 +22,7 @@ At a minimum, the **RadInput** control has an input area, where the user can typ
 
 * If the **ShowSpinButtons** property is **True**, a pair of spin buttons appear to the side of the input area.
 
->tip The **ShowSpinButtons** property is only available for **RadNumericTextBox** .
+>note The **ShowSpinButtons** property is only available for **RadNumericTextBox** .
 >
 
 

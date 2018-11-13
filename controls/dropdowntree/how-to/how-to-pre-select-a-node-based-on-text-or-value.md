@@ -16,7 +16,7 @@ position: 2
 
 There are two options to pre-select a value in the **RadDropDownTree** when it is bound to a datasource - you can pre-select a node by its text or its value property. For the text the **SelectedText** can be used while for the value, one needs to use the **SelectedValue** one.For instance in a simple scenario this can be achieved by using the following data-bind expression:
 
->tip These properties are available after the **Q2 2013** release of the Telerik controls.
+>note These properties are available after the **Q2 2013** release of the Telerik controls.
 >
 
 

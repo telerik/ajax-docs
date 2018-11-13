@@ -118,7 +118,7 @@ End Sub
 
 You can use a **DataSet** when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a **DataSet**:
 
->tip When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the menu should be bound.
+>note When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the menu should be bound.
 >
 
 

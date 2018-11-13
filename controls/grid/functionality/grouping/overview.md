@@ -70,7 +70,7 @@ RadGrid1.ClientSettings.AllowDragToGroup = true
 When a table view is grouped, **RadGrid** automatically adds a special column (**GridGroupSplitterColumn**) that holds the buttons which let users expand and collapse groups of items:
 ![GridGroupSplitterColumn](images/grd_GroupSplitterColumn.png)
 
->tip You can expand all groups on grid load by setting the **GroupsDefaultExpanded** property of the **MasterTableView** to **True** (this is the default value).
+>note You can expand all groups on grid load by setting the **GroupsDefaultExpanded** property of the **MasterTableView** to **True** (this is the default value).
 >
 
 

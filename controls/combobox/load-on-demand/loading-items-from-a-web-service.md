@@ -16,7 +16,7 @@ position: 2
 
 Instead of supplying an **ItemsRequested** event handler to add items on demand to RadComboBox, you can use a Web service to service the items request. The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
->tip RadComboBox input's **Text** can be obtained from the context object used by the WebService's method. The context object should be cast to **IDictionary** type, first.
+>note RadComboBox input's **Text** can be obtained from the context object used by the WebService's method. The context object should be cast to **IDictionary** type, first.
 >
 
 

@@ -16,7 +16,7 @@ position: 7
 
 The **OnClientReordering** event is fired just before the drag-to-reorder operation is completed and the dragged tab is still in its initial position.
 
->tip This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
+>note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 

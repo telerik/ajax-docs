@@ -42,7 +42,7 @@ The advantages of using this event are that the developer does not need to write
 
 In the code of the **NeedDataSource** handler you should prepare the data source (list of objects) for Telerik RadListView and assign it to the grid's **DataSource** property.
 
->tip  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simple data-binding mode with advanced data-binding**
+>note  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simple data-binding mode with advanced data-binding**
 >
 
 

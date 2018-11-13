@@ -14,7 +14,7 @@ position: 1
 
 The **OnClientLoad** client-side event handler is called when a **RadSplitter** or **RadSlidingZone** control is loaded on the client.
 
->tip The **OnClientLoad** event is supported by **RadSplitter** and **RadSlidingZone** .
+>note The **OnClientLoad** event is supported by **RadSplitter** and **RadSlidingZone** .
 
 One parameters is passed to the event handler:
 

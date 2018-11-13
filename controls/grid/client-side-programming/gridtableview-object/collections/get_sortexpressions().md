@@ -47,6 +47,6 @@ function RaiseCommand(sender, args) {
 
 
 
->tip The RadGrid get_sortExpressions() property is meaningful only in case the RadGrid control is bound client-side.
+>note The RadGrid get_sortExpressions() property is meaningful only in case the RadGrid control is bound client-side.
 >
 

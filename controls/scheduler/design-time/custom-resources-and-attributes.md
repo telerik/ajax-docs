@@ -32,7 +32,7 @@ Custom resources let you associate additional information with your appointments
 >
 
 
->tip The resources you define in the Resource Type Collection Editor are not used if the **RadScheduler** gets its data from a [data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
+>note The resources you define in the Resource Type Collection Editor are not used if the **RadScheduler** gets its data from a [data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
 >
 
 
@@ -54,7 +54,7 @@ Custom attributes are simple text values that your data source stores with the a
 >
 
 
->tip Unlike Custom Resources, Custom Attributes must still be defined declaratively, even when using a data provider instead of a DataSource.
+>note Unlike Custom Resources, Custom Attributes must still be defined declaratively, even when using a data provider instead of a DataSource.
 >
 
 

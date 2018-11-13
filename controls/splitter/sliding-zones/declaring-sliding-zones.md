@@ -18,7 +18,7 @@ By clicking on the pane tab, users can display the content of a sliding pane. Th
 
 To declare a sliding zone, put a **RadSlidingZone** control into a regular **RadPane**. Then add as may **RadSlidingPane** controls as you want to the **RadSlidingZone**. Each time you add a **RadSlidingPane** control to the **RadSlidingZone**, the **RadSlidingZone** displays a tab for the pane, which can then be used to display the **RadSlidingPane** itself.
 
->tip  **RadSlidingZone** controls must be placed inside a **RadPane** control. **RadSlidingPane** controls must be placed inside a **RadSlidingZone** control.
+>note  **RadSlidingZone** controls must be placed inside a **RadPane** control. **RadSlidingPane** controls must be placed inside a **RadSlidingZone** control.
 
 ## Example
 

@@ -83,7 +83,7 @@ Fortunately, there is a workaround for this:
 		}
 
 
->tip The provided solution works properly under Firefox and Internet Explorer.
+>note The provided solution works properly under Firefox and Internet Explorer.
 
 **ADDITIONAL INFORMATION**
 

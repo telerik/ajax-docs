@@ -18,7 +18,7 @@ The Data Source Configuration Wizard helps you bind a **RadScheduler** control t
 
 * Bring up the **RadScheduler** [Smart Tag]({%slug scheduler/design-time/smart-tag%}) and click on **Choose Data Source ...**
 
->tip Clicking on the **DataSourceID** property of the scheduler does not start the scheduler'sData Source Configuration Wizard, only the standard Microsoft Data Source Configuration Wizard. If you choose to bind yourscheduler this way, you will need to enter the field bindings separately.
+>note Clicking on the **DataSourceID** property of the scheduler does not start the scheduler'sData Source Configuration Wizard, only the standard Microsoft Data Source Configuration Wizard. If you choose to bind yourscheduler this way, you will need to enter the field bindings separately.
 >
 
 

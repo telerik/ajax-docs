@@ -41,7 +41,7 @@ The main visual elements of the control are:
 
 **RadDockLayout** is the control that is responsible for automatic position management of the **RadDock** controls on the page. It has no visual representation on the client. At design time, you must place all **RadDockZone** and **RadDock** controls into the **RadDockLayout** control so that it can manage their layout. Otherwise, the layout of **RadDockZone** and **RadDock** controls will not persist after a postback.
 
->tip By handling the [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}) events you can easily implement applications which persist the **RadDock** controls' positions in a database or other storage medium.
+>note By handling the [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}) events you can easily implement applications which persist the **RadDock** controls' positions in a database or other storage medium.
 >
 
 

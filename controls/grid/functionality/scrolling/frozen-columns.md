@@ -13,13 +13,13 @@ position: 3
 
 When scrolling is enabled and you are using [static headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%}), you can make **RadGrid** columns static as well. This can be useful when you want to ensure that the data in one or more columns is visible at all times but still allow a horizontal scroll bar for navigation.
 
->tip Static columns are not enabled unless the grid is using static headers.
+>note Static columns are not enabled unless the grid is using static headers.
 >
 
 
 To enable static columns, set the **ClientSettings.Scrolling.FrozenColumnsCount** property to a value greater than 0. The value of FrozenColumnsCount specifies the number of columns (starting with the leftmost column) that do not scroll when the of the user scrolls the grid horizontally, using the horizontal scroll bar. This feature is functional even when in hierarchical grids and grids that support grouping.
 
->tip  **RadGrid** has only a single horizontal scroll bar. When using frozen columns in a hierarchical grid, only the columns of the master table are frozen.
+>note  **RadGrid** has only a single horizontal scroll bar. When using frozen columns in a hierarchical grid, only the columns of the master table are frozen.
 >
 
 
@@ -28,7 +28,7 @@ The following two screen shots show a grid with **FrozenColumnsCount** set to 2.
 
 For a live example demonstrating the frozen columns feature, see [Frozen columns](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/FrozenColumns/DefaultCS.aspx).
 
->tip When using a **Mobile** render mode you can navigate through the forzen columns only by using **Next** and **Prev** buttons.
+>note When using a **Mobile** render mode you can navigate through the forzen columns only by using **Next** and **Prev** buttons.
 >
 
 ## Next and Prev Buttons

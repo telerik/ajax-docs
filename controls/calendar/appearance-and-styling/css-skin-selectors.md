@@ -14,7 +14,7 @@ position: 5
 
 The following table lists significant CSS selectors and descriptions that apply to the **RadCalendar** controls in **RadCalendar** style sheets.
 
->tip 
+>note 
 The "[skin]" that appears in class names is a placeholder for the name of the skin.
 >
 

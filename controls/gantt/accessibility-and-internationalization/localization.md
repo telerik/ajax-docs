@@ -18,7 +18,7 @@ The resource files should be placed within the **App_GlobalResources** folder in
 
 To change the current language/resource you should set the **Culture** property accordingly.
 
->tip RadGantt's default **Culture** is taken from the page's **CurrentUICulture** .
+>note RadGantt's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
@@ -50,7 +50,7 @@ The process of creating a new global resource follows the same pattern as in **R
 >
 
 
->tip We encourage that you submit your localized resource files. Your efforts will be rewarded accordingly.
+>note We encourage that you submit your localized resource files. Your efforts will be rewarded accordingly.
 >
 
 

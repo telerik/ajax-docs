@@ -16,7 +16,7 @@ position: 1
 
 The following help article demonstrates how you can add templates to RadRibbonBar control at runtime, using the **RibbonBarTemplateItem**.
 
->tip The **RibbonBarTemplateItem** should be initialized in the OnInit event of the page. This is needed as the template should be instantiated before the elements of the RadRibbonBar are initialized. The tabs and groups should be dynamically added so that templates can be defined at run time.
+>note The **RibbonBarTemplateItem** should be initialized in the OnInit event of the page. This is needed as the template should be instantiated before the elements of the RadRibbonBar are initialized. The tabs and groups should be dynamically added so that templates can be defined at run time.
 >
 
 

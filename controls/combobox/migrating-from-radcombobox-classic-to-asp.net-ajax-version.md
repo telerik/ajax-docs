@@ -18,7 +18,7 @@ position: 6
 
 ## RadComboBox class
 
->tip The **tlrkComboBoxes** array has been removed. The **Telerik.Web.UI.RadComboBox.ComboBoxes** should be used instead. For more details please refer to the [Client-Side Basics]({%slug combobox/client-side-programming/overview%}) article.
+>note The **tlrkComboBoxes** array has been removed. The **Telerik.Web.UI.RadComboBox.ComboBoxes** should be used instead. For more details please refer to the [Client-Side Basics]({%slug combobox/client-side-programming/overview%}) article.
 >
 
 

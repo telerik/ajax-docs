@@ -24,7 +24,7 @@ The figure above shows a running example that starts with a default RadChart wit
 
 * Displays database column data in the X axis labels by assigning the column name to the **DataLabelsColumn**. The example assigns "CategoryName" to the DataLabelsColumn property.
 
->tip Also note how the example sets the PlotArea.Appearance.Dimensions.Margins.Bottom to 30% and the PlotArea.XAxis.Appearance.LabelAppearance.RotationAngle to 300 in order to provide room for the axis labels.
+>note Also note how the example sets the PlotArea.Appearance.Dimensions.Margins.Bottom to 30% and the PlotArea.XAxis.Appearance.LabelAppearance.RotationAngle to 300 in order to provide room for the axis labels.
 
 ````C#     
 using System;

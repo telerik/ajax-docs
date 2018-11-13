@@ -36,7 +36,7 @@ Most of these properties have a default value that identifies a class that is de
 
 To set the CSS class properties of an item at design time, use the [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%}).
 
->tip The CSS class of a tab is applied to the anchor `<a>` tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list `<ul>`. For more information about the rendered output of **RadPanelBar**, see [Understanding the Skin CSS File]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of a tab is applied to the anchor `<a>` tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list `<ul>`. For more information about the rendered output of **RadPanelBar**, see [Understanding the Skin CSS File]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 

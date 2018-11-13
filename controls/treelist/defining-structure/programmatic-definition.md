@@ -328,7 +328,7 @@ When creating a TreeList dynamically that contains a template column, you must c
 
 To create an **ItemTemplate** dynamically, you must define a custom class that implements the **ITemplate** interface.	For an **EditItemTemplate** and **InsertItemTemplate** the class that you will build needs to implement **IBindableTemplate**. Then you can assign an instance of the class to the respective property of the **TreeListTemplateColumn** object.
 
->tip Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the ViewState.
+>note Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the ViewState.
 >
 
 

@@ -18,7 +18,7 @@ position: 0
 
 You can use the **RadUpload** and **RadProgressManager** components, separately or together, to enhance your application's ability to upload files. When using **RadProgressManager**, you can also use **RadProgressArea** to display a progress dialog for lengthy uploads.
 
->tip  **Memory optimization** now relies on the default .NET Framework 2.0+ engine. This means that the server memory is not overloaded when uploading large files.
+>note  **Memory optimization** now relies on the default .NET Framework 2.0+ engine. This means that the server memory is not overloaded when uploading large files.
 >
 
 

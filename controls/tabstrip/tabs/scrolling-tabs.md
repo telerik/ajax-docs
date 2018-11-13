@@ -30,7 +30,7 @@ When scrolling is enabled, a pair of scroll buttons appears in the set of tabs:
 
 ![Tabs with scroll buttons](images/tabstrip_tabswithscrollbuttons.png)
 
->tip Scrolling is only an option if the [orientation]({%slug tabstrip/appearance-and-styling/controlling-layout%}) of the tab strip is horizontal.
+>note Scrolling is only an option if the [orientation]({%slug tabstrip/appearance-and-styling/controlling-layout%}) of the tab strip is horizontal.
 >
 
 
@@ -62,6 +62,6 @@ When **PerTabScrolling** is **False**, the line of tabs scrolls in a smooth cont
 
 ![Continuous scrolling](images/tabstrip_continuousscrolling.png)
 
->tip When **PerTabScrolling** is **True**, the **ScrollPosition** property specifies the initial scroll position (the index of the first tab to appear in the list).
+>note When **PerTabScrolling** is **True**, the **ScrollPosition** property specifies the initial scroll position (the index of the first tab to appear in the list).
 >
 

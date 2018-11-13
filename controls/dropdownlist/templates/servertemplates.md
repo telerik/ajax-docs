@@ -16,7 +16,7 @@ position: 2
 
 You can also add Templates to **RadDropDownList** at runtime, using the **ItemTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
->tip The DropDownListItems should be dynamically added so that Templates can be defined at run time.
+>note The DropDownListItems should be dynamically added so that Templates can be defined at run time.
 >Also, the **Items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadDropDownList object or bind the Items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific Item.
 >
 
@@ -129,7 +129,7 @@ End Sub
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
 
->tip The Template has to be instantiated for each Item upon a postback. Since the **TextBoxTemplate** class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Item.
+>note The Template has to be instantiated for each Item upon a postback. Since the **TextBoxTemplate** class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Item.
 >
 
 

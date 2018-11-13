@@ -58,12 +58,12 @@ RadWindowManager1.RadPrompt("What is the answer to Life, the Universe and Everyt
 RadWindowManager1.RadPrompt("What is the answer to Life, the Universe and Everything?", "promptCallBackFn", 350, 100, Nothing, "Deep Thought", "42")
 ````
 
->tip Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+>note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
 
 
 >important The **callback function** is a client-side JavaScript function which is executed when the dialog is closed.
 
->tip The **Caller object** parameter should have a null (Nothing) value, as it exists only for backwards compatibility.
+>note The **Caller object** parameter should have a null (Nothing) value, as it exists only for backwards compatibility.
 
 The appearance of the prompt dialog is controlled by two things: the **Skin** property of the **RadWindowManager**, and the values you pass in as arguments to **RadPrompt**. The arguments can include the HTML string you pass in as a message, the width, the height, the title and the default value. The **Skin** property controls not only the appearance of the popup's title bar, but also the layout of the dialog: its icon, button style, and so on. This dialog layout and appearance is controlled by the prompt dialog template associated with the Skin. For details on how to customize the template, see [Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}).
 

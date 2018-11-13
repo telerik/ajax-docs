@@ -26,7 +26,7 @@ Client side changes are available on the server side after postback. You can use
 * **Clear** - when a tab with child tabs calls the **clear**() method: parentTab.get_tabs().clear(). If the parent tab has no child tabs, the ClientChanges collection is not altered.
 
 
->tip Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadTabStrip in order to be able to access the changes on the server via the **ClientChanges** property.
+>note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadTabStrip in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 ## Example:

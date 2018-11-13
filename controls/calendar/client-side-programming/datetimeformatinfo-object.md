@@ -14,7 +14,7 @@ position: 8
 
 The **DateTimeFormatInfo** object is used by the **RadCalendar** control for formatting date and time values so that they reflect the current culture. It is accessible through the **DateTimeFormatInfo** property of the [RadCalendar Client-side Object]({%slug calendar/client-side-programming/radcalendar-object%}).
 
->tip 
+>note 
 The **DateTimeFormatInfo** class is defined in the **System.Globalization** namespace.
 >
 

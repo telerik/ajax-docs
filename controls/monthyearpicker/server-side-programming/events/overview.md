@@ -20,7 +20,7 @@ The **RadMonthYearPicker** control exposes the following two server-side events:
 
 * [ViewCellCreated]({%slug monthyearpicker/server-side-programming/server-side-events/viewcellcreated%}) occurs when a cell in **MonthYearTableView** is created.
 
->tip 
+>note 
 When setting the **AutoPostBack** or **AutoPostBackControl** properties to enable server-side events that respond when the user makes a change, you can still have the smooth performance of client mode by making the postback asynchronous. To do this, use a **RadAjaxManager** control.
 >
 

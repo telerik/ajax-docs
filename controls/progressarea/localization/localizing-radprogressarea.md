@@ -37,7 +37,7 @@ RadProgressArea1.Localization.TransferSpeed = "Speed of transfer";
 
 
 
->tip This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between ProgressArea instances. A complete translation using this approach is not appropriate.
+>note This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between ProgressArea instances. A complete translation using this approach is not appropriate.
 >
 
 
@@ -68,7 +68,7 @@ To create a global resource file to localize the progress area follow these step
 2. Copy the default resource **Examples\progressarea-localization\.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed the RadControls. 
 3. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by **Examples\progressarea-localization\** follow a strict naming convention:
 	**Examples\progressarea-localization\.<Culture Identifier>.resx**
-	>tip The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
+	>note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
 	>
 	For example Examples\progressarea-localization\.fr-CA.resx. Both files should be present in the App_GlobalResources folder:
 	![upload localization appfolder area](images/progressarea_localization_appfolder.png)

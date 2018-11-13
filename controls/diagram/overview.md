@@ -30,7 +30,7 @@ position: 0
 
 * Easy-to-customize elements and shape templates.
 
->tip  **RadDiagram** supports all modern browsers like Firefox, Chrome, IE9+, Opera.
+>note  **RadDiagram** supports all modern browsers like Firefox, Chrome, IE9+, Opera.
 
 # See Also
 

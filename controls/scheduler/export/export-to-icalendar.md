@@ -117,7 +117,7 @@ position: 1
 	    End Sub
 	
 
->tip The `ExportToICalendar` method sets the *Location* of the .ics event to the value of the *Location* attribute of the exported appointment.
+>note The `ExportToICalendar` method sets the *Location* of the .ics event to the value of the *Location* attribute of the exported appointment.
 
 # See Also
 

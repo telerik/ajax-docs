@@ -60,7 +60,7 @@ Following is the complete list of properties that could be set when a new instan
 
 The only mandatory property from the above list is the **ImageUrl**.If the **ThumbnailUrl** property is not specified, the **ImageUrl** will be	used for showing a scaled image in the thumbnail area.
 
->tip When items are created and added to the items collection of the **RadImageGallery** on the client, they will be lost after each postback.
+>note When items are created and added to the items collection of the **RadImageGallery** on the client, they will be lost after each postback.
 >
 
 
