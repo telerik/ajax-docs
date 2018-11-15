@@ -9,7 +9,7 @@ position: 2
 ---
 
 # Download and apply
-Once you have [created a custom skin](link to previous article), you need to download then apply it in your project. This article will walk you through the process.
+Once you have [created a custom skin]({%slug theme-builder/create%}), you need to download then apply it in your project. This article will walk you through the process.
 
 ## Download
 
