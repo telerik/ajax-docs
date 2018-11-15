@@ -127,3 +127,5 @@ You can create **Figure 1** using the markup in **Example 1**.
  * [Bar Chart]({%slug htmlchart/chart-types/bar-chart%})
 
  * [Column Chart]({%slug htmlchart/chart-types/column-chart%})
+ 
+ * [Stacked Series demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/stacked-series/defaultcs.aspx)
