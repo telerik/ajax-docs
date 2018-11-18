@@ -10,6 +10,15 @@ position: 2
 
 # Changes and Backward Compatibility
 
+## RadCloudUpload for ASP.NET AJAX Q1 2019
+
+Files whose names contain non-ASCII symbols (like Greek, Hebrew, Cyrillic letters and umlauts) are not supported in Azure and Amazon storages by default. As a result, they could not be uploaded through RadCloudUpload. 
+
+As of **R1 2019**, RadCloudUpload will **encode** such **non-ASCII file names** to **base64** on the ASP.NET server before sending them to the cloud provider in case a non-ASCII character is present, and will use that encoded string in the blob metadata instead of the file name.
+
+If there are no non-ASCII symbols, nothing will change.
+
+This encoding logic applies to the other metadata fields as well.
 
 ## RadCloudUpload for ASP.NET AJAX Q1 2017
 
