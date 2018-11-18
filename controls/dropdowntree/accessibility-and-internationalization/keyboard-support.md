@@ -32,7 +32,7 @@ The following list explains the specific behaviors and keyboard shortcuts you ca
     
         ![dropdowntree-forwardnavigation](images/dropdowntree-gotodropdown.png)
         
-        >note Once focus is on the treeview, to reach the filter textbox again, press the **AccessKey** and then **Down Arrow** once more. Alternatively, close the dropdown through **Esc** and open it again through **Alt** + **Down Arrow**, and press **Down Arrow**.
+        >tip Once focus is on the treeview, to reach the filter textbox again, press the **AccessKey** and then **Down Arrow** once more. Alternatively, close the dropdown through **Esc** and open it again through **Alt** + **Down Arrow**, and press **Down Arrow**.
     
     1. After the focus is set to the tree, use the **Up Arrow** and **Down Arrow** to navigate up and down the tree and the **Right Arrow** and **Left Arrow** to expand and collapse the nodes. Using **Alt** + **+**/**-** also expands/collapses an item.
     
@@ -44,7 +44,9 @@ The following list explains the specific behaviors and keyboard shortcuts you ca
     
     1. To close the dropdown,  press the **Esc** key. This will focus the main element so you can move out of the dropdown and through the rest of the form via **Tab** or **Shift** + **Tab**. You can also return to the main element by using its **Access Key**.
 
-* **Action Key** -When the focus is set to a node, pressing the **Space** key checks the node.![dropdowntree-ckecknodes](images/dropdowntree-ckecknodes.png)
+* **Action Key** -When the focus is set to a node, pressing the **Space** key checks the node without closing the dropdown. Pressing **Enter** selects the node and closes the dropdown.
+
+    ![dropdowntree-ckecknodes](images/dropdowntree-ckecknodes.png)
 
 
 >caption  Key combinations supported by different browsers 
