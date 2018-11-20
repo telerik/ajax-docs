@@ -20,6 +20,6 @@ The SharePoint 2013 Apps are divided into several types, depending on where they
 
 * **Autohosted (supported)** - The application is hosted in Windows Azure. In general Telerik® UI for ASP.NET AJAX support Azure.
 
-* **SharePoint-hosted(not supported)** - This kind of app lives entirely in the client’s SharePoint environment and it is limited to using only HTML andJavaScript. Telerik® UI for ASP.NET AJAX depend on server rendering, so this scenario is not supported.
+* **SharePoint-hosted (not supported)** - This kind of app lives entirely in the client’s SharePoint environment and it is limited to using only HTML and JavaScript. Telerik® UI for ASP.NET AJAX depend on server rendering, so this scenario is not supported. You may use Kendo UI widgets. For more information visit [Introduction to Using Kendo UI in SharePoint Online – A “How To” Series](https://developer.telerik.com/featured/introduction-using-kendo-ui-sharepoint-online-series/).
 
 More information on SharePoint app model can be found in [this MSDN article](http://msdn.microsoft.com/library/office/apps/fp179930%28v=office.15%29).
