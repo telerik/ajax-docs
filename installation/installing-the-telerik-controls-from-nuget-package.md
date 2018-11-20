@@ -19,6 +19,7 @@ This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 This article contains the following sections:
 
 * [How to use the Telerik NuGet feed in Visual Studio](#telerik-nuget-feed-in-visual-studio)
+* [Available Telerik Nuget packages and the ddls in them](#available-telerik-nuget-packages-and-ddls-in-them)
 * [How to download a .nupkg file to create local feeds](#downloading-a-nuget-package)
 * [Telerik NuGet feed and automated builds](#automated-builds)
 * [Troubleshooting](#troubleshooting)
@@ -63,6 +64,32 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 	>caption Figure 3: Adding the Telerik® UI for ASP.NET AJAX package to the solution
 
 	![Adding the Telerik® UI for ASP.NET AJAX package to the solution](images/add-telerik-package.png)
+
+## Available Telerik NuGet packages and ddls in them
+
+* Telerik.UI.for.AspNet.Ajax.Netxx.xxxx.x.xxx.nupkg - Telerik.Web.Design.dll, Telerik.Web.Device.Detection.dll, Telerik.Web.UI.dll, Telerik.Web.UI.Skins.dll
+
+* Telerik.Windows.Zip.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.dll
+
+* Telerik.Windows.Zip.Extensions.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.Extensions.dll
+
+* Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+
+* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+
+* Telerik.Windows.Documents.Spreadsheet.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.dll
+
+* Telerik.Windows.Documents.Flow.FormatProviders.Pdf.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+
+* Telerik.Windows.Documents.Flow.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.dll
+
+* Telerik.Windows.Documents.Fixed.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Fixed.dll
+
+* Telerik.Windows.Documents.Core.for.Net40.xxxxx.x.xxx4.nupkg - Telerik.Windows.Documents.Core.dll
+
+* Telerik.Documents.SpreadsheetStreaming.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
+
+The Newtonsoft.Json.dll and Telerik.Web.Spreadsheet.dll are not available as nuget packages for download from the private Telerik Nuget server or [Telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and you can obtain them from the AdditionalLibraries/Bin40 installation folder.
 
 ## Downloading a NuGet Package
 
