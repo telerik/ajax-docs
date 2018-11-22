@@ -89,7 +89,9 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 * Telerik.Documents.SpreadsheetStreaming.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
 
-The Newtonsoft.Json.dll and Telerik.Web.Spreadsheet.dll are not available as nuget packages for download from the private Telerik Nuget server or [Telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and you can obtain them from the AdditionalLibraries/Bin40 installation folder.
+* Newtonsoft.Json - Newtonsoft.Json.dll - available for download from the nuget.org server.
+
+* Telerik.Web.Spreadsheet.nupkg - not yet available as a nuget package. You can also obtain the Telerik.Web.Spreadsheet.dll from the AdditionalLibraries/Bin40 installation folder. 
 
 ## Downloading a NuGet Package
 
