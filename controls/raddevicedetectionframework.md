@@ -105,6 +105,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 End Sub
 ````
 
+Note that the resolution of a **desktop** machine cannot be determined based on its user agent string, simply because the two are not tightly coupled. For example, a Chrome on Windows 10 will generally have the same UA string on all Win10 machines, but it can run on a 10 inch laptop at 1366x768, on a full-HD laptop, or on a 27 desktop with a 4K screen.
 
 ## Getting the Screen Size by Custom Defined Ranges
 
