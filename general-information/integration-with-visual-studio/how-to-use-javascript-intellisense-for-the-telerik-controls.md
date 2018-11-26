@@ -18,7 +18,154 @@ The **Telerik® UI for ASP.NET AJAX** offer intellisense information for the **c
 
 The case with **JavaScript** is a bit more complex, because it is a weakly typed programming language, i.e. a variable does not need a type to function and thus Visual Studio cannot know what information to load for it.
 
-You can overcome this difficulty by casting the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library]({%slug controls/telerik-static-client-library%}), for example:
+This article contains two sets of instructions:
+
+* [TypeScript-based IntelliSense - default](#visual-studio-2017)
+* [VSDoc-based IntelliSense - used previously](#visual-studio-2017)
+* [IntelliSense for Visual Studio 2015 and earlier](#visual-studio-2015-and-earlier)
+
+## TypeScript-based IntelliSense
+
+As of Visual Studio 2017, Microsoft use a [new language service for JavaScript Intellisense](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense?view=vs-2017) that is based on TypeScript. This means that `-vsdoc.js` files are no longer read and supported for JavaScript intellisense and you need to treat it like a strongly typed language in order to get Intellisense for non-standard object types, including custom controls like the Telerik controls.
+
+You can read more about this service, how it works and what features it supportes in the following articles:
+
+* [Microsoft/TypeScript GitHub repo wiki: JavaScript Language Service in Visual Studio](https://github.com/Microsoft/TypeScript/wiki/JavaScript-Language-Service-in-Visual-Studio)
+
+* [Microsoft/TypeScript GitHub repo wiki: JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript)
+
+With this in mind, you may want to consider writing directly in TypeScript and using the [TypeScript Definitions for Telerik UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%}).
+
+To use JavaScript Intellisense for the Telerik UI for ASP.NET AJAX controls in VS 2017, you must
+
+1. Add the [TypeScript Definitions for Telerik UI for ASP.NET AJAX]({%slug ntroduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) to your project.
+
+1. Reference the definition files in the file you are working in. Assuming the `.d.ts` files are in the `tsDefs` folder, here is a sample reference
+
+    **JavaScript**
+
+        /// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
+        /// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
+
+1. Use the **JSDoc** syntax to define the object types for the variables you will use.
+
+    This includes event handler functions and control references obtained in other code.
+
+### Examples
+
+Here follows a list of several common scenarios that can help you get started with using JSDoc declarations of variables and arguments.
+
+>caption Declare a variable type.
+
+````JavaScript
+/// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
+/// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
+
+function doWork() {
+	//initialize a variable with its type to provide intellisense
+	//remove this first line later as it will throw an exception
+	var button = new Telerik.Web.UI.RadPushButton;
+
+	var button = $find("<%=RadPushButton1.ClientID%>");
+	//or any other approach that the actual code will use
+	var button = getButtonFromPage();
+
+
+	//define a simple object type
+	/** @type { Telerik.Web.UI.RadPushButton } */
+	var btn;
+}
+````
+
+![Declare variable type](images/vs2017Intellisense/initialize-variable-with-type.png)
+
+The following should theoretically work as well according to the [JSDoc support in JavaScript article](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript), yet in our tests such casts were unreliable.
+
+````JavaScript
+/// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
+/// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
+
+//while this approach is documented as declaring object types, it does not seem to work
+function shouldWorkButMayNot() {
+	//cast an object
+	var myButton =  /** @type {Telerik.Web.UI.RadPushButton} */ $find("<%=RadPushButton1.ClientID%>");
+}
+````
+
+Defining several fields in a container object also works, and that is sometimes a pattern used to store references from a page for use in an external JS file:
+
+````JavaScript
+/// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
+/// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
+function doWork() {
+	/**
+	 * @type {{
+				button: Telerik.Web.UI.RadPushButton,
+				grid: Telerik.Web.UI.RadGrid
+			}}
+	 */
+	var referencesList;
+	referencesList.button.set_text("new text");
+}
+````
+
+![Declare container variable](images/vs2017Intellisense/define-types-in-container-objects.png)
+
+>caption Set type to event handler arguments.
+
+You can specify the type of the first argument (the control that fired the event), and use its client-side methods for working with its events in order to see the exact type of the event arguments object, so you can fill it up in the parameters list as well.
+
+![see event arguments type](images/vs2017Intellisense/get-types-from-intellisense-parametrize-functions.png)
+
+so you can use both arguments fully.
+
+![Declare parameter types](images/vs2017Intellisense/parametrized-function-arguments.png)
+
+````JavaScript
+/// <reference path="tsDefs/Telerik.Web.UI.d.ts" />
+/// <reference path="tsDefs/Microsoft.Ajax.d.ts" />
+
+/**
+ * @param {Telerik.Web.UI.RadPushButton} sender the clicked button
+ * @param {Telerik.Web.UI.ButtonCancelEventArgs} args event arguments
+ */
+function OnClientClicking(sender, args) {
+	sender.set_text("new text");
+}
+````
+
+## VSDoc-based IntelliSense
+
+Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
+
+![revert to old JS service](../images/revert-to-old-language-service.png)
+
+With this, you can use the old JavaScript documenttion provided in the `vsdoc` files.
+
+````ASP.NET
+<!-- This can enable the old JS intellisense for the current page -->
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+	<Scripts>
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+	</Scripts>
+</asp:ScriptManager>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
+<script type="text/javascript">
+	function doWork() {
+		var oWnd = $find("RadWindow1");
+		oWnd = $telerik.toWindow(oWnd);
+	}
+</script>
+````
+
+![use control intellisense with old language service](images/vs2017Intellisense/telerik-control-intellisense-with-old-service.png)
+
+Creating custom Intellisense pages is no longer possible in VS 2017, and you need to use an `<asp:ScriptManager>` with the Telerik `Core.js` reference in all pages you want JavaScript Intellisense in. An `<asp:ScriptManagerProxy>` does not work for user controls, and neither can be added in `.js` files, so your other option is to read onward and see how to use the TypeScript-based intellisense data.
+
+
+## IntelliSense for Visual Studio 2015 and earlier
+
+You can get intellisense for the JavaScript objects of the Telerik controls by **casting** the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library]({%slug controls/telerik-static-client-library%}), for example:
 
 ````JavaScript
 <telerik:RadScriptManager runat="server" ID="rsm1"></telerik:RadScriptManager>
