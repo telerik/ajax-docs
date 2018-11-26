@@ -20,36 +20,11 @@ The case with **JavaScript** is a bit more complex, because it is a weakly typed
 
 This article contains two sets of instructions:
 
-* [For Visual Studio 2017](#visual-studio-2017)
-* [For Visual Studio 2015 and earlier](#visual-studio-2015-and-earlier)
+* [TypeScript-based IntelliSense - default](#visual-studio-2017)
+* [VSDoc-based IntelliSense - used previously](#visual-studio-2017)
+* [IntelliSense for Visual Studio 2015 and earlier](#visual-studio-2015-and-earlier)
 
-## Visual Studio 2017
-
-Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
-
-![revert to old JS service](../images/revert-to-old-language-service.png)
-
-With this, you can use the old JavaScript documenttion provided in the `vsdoc` files.
-
-````ASP.NET
-<!-- This can enable the old JS intellisense for the current page -->
-<asp:ScriptManager ID="ScriptManager1" runat="server">
-	<Scripts>
-		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-	</Scripts>
-</asp:ScriptManager>
-<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
-<script type="text/javascript">
-	function doWork() {
-		var oWnd = $find("RadWindow1");
-		oWnd = $telerik.toWindow(oWnd);
-	}
-</script>
-````
-
-![use control intellisense with old language service](images/vs2017Intellisense/telerik-control-intellisense-with-old-service.png)
-
-Creating custom Intellisense pages is no longer possible in VS 2017, and you need to use an `<asp:ScriptManager>` with the Telerik `Core.js` reference in all pages you want JavaScript Intellisense in. An `<asp:ScriptManagerProxy>` does not work for user controls, and neither can be added in `.js` files, so your other option is to read onward and see how to use the TypeScript-based intellisense data.
+## TypeScript-based IntelliSense
 
 As of Visual Studio 2017, Microsoft use a [new language service for JavaScript Intellisense](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense?view=vs-2017) that is based on TypeScript. This means that `-vsdoc.js` files are no longer read and supported for JavaScript intellisense and you need to treat it like a strongly typed language in order to get Intellisense for non-standard object types, including custom controls like the Telerik controls.
 
@@ -159,8 +134,36 @@ function OnClientClicking(sender, args) {
 }
 ````
 
+## VSDoc-based IntelliSense
 
-## Visual Studio 2015 and earlier
+Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
+
+![revert to old JS service](../images/revert-to-old-language-service.png)
+
+With this, you can use the old JavaScript documenttion provided in the `vsdoc` files.
+
+````ASP.NET
+<!-- This can enable the old JS intellisense for the current page -->
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+	<Scripts>
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+	</Scripts>
+</asp:ScriptManager>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
+<script type="text/javascript">
+	function doWork() {
+		var oWnd = $find("RadWindow1");
+		oWnd = $telerik.toWindow(oWnd);
+	}
+</script>
+````
+
+![use control intellisense with old language service](images/vs2017Intellisense/telerik-control-intellisense-with-old-service.png)
+
+Creating custom Intellisense pages is no longer possible in VS 2017, and you need to use an `<asp:ScriptManager>` with the Telerik `Core.js` reference in all pages you want JavaScript Intellisense in. An `<asp:ScriptManagerProxy>` does not work for user controls, and neither can be added in `.js` files, so your other option is to read onward and see how to use the TypeScript-based intellisense data.
+
+
+## IntelliSense for Visual Studio 2015 and earlier
 
 You can get intellisense for the JavaScript objects of the Telerik controls by **casting** the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library]({%slug controls/telerik-static-client-library%}), for example:
 
