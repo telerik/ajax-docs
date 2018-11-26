@@ -18,10 +18,10 @@ The **Telerik® UI for ASP.NET AJAX** offer intellisense information for the **c
 
 The case with **JavaScript** is a bit more complex, because it is a weakly typed programming language, i.e. a variable does not need a type to function and thus Visual Studio cannot know what information to load for it.
 
-This article contains three sets of instructions:
+This article contains the following sets of instructions for you to follow depending on your situation:
 
-* [TypeScript-based IntelliSense - default](#typescript-based-intellisense)
-* [VSDoc-based IntelliSense - used previously](#vsdoc-based-intellisense)
+* [TypeScript-based IntelliSense for Visual Studio 2017](#typescript-based-intellisense)
+* [VSDoc-based IntelliSense - use Visual Studio 2017 like older versions](#vsdoc-based-intellisense)
 * [IntelliSense for Visual Studio 2015 and earlier](#intellisense-for-visual-studio-2015-and-earlier)
 
 ## TypeScript-based IntelliSense
