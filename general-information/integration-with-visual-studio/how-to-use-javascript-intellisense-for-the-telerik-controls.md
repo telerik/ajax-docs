@@ -20,9 +20,9 @@ The case with **JavaScript** is a bit more complex, because it is a weakly typed
 
 This article contains two sets of instructions:
 
-* [TypeScript-based IntelliSense - default](#visual-studio-2017)
-* [VSDoc-based IntelliSense - used previously](#visual-studio-2017)
-* [IntelliSense for Visual Studio 2015 and earlier](#visual-studio-2015-and-earlier)
+* [TypeScript-based IntelliSense - default](#typescript-based-intellisense)
+* [VSDoc-based IntelliSense - used previously](#vsdoc-based-intellisense)
+* [IntelliSense for Visual Studio 2015 and earlier](#intellisense-for-visual-studio-2015-and-earlier)
 
 ## TypeScript-based IntelliSense
 
