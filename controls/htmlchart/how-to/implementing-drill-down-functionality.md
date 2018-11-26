@@ -18,15 +18,15 @@ The online demo	[Drill-Down Chart](http://demos.telerik.com/aspnet-ajax/htmlchar
 
 >caption Example 1: The following steps describe the approach for implementing the drill-down functionality with code snippets from the online	drill-down demo previously referred to.
 
-1. Handle the [OnClientSeriesClicked]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%}) client-side event (**Example 1.1**) in order	to send to the server information about the clicked series item via an AJAX request. The request is not initiated if the currently displayed data is from the most detailed level of presentation (in our case this is the data presented by months): 
+1. Handle the [OnSeriesClick]({%slug htmlchart/client-side-programming/events/overview%}) client-side event (**Example 1.1**) in order to send to the server information about the clicked series item via an AJAX request. The request is not initiated if the currently displayed data is from the most detailed level of presentation (in our case this is the data presented by months): 
 
 	>caption Example 1.1: Send information about the clicked series to the Server.
 
 	**ASP.NET**
 	
 		<script type="text/javascript">
-			function OnClientSeriesClicked(sender, args) {
-				if (args.get_seriesName() != "Months") $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest(args.get_category());
+			function OnSeriesClick(args) {
+				if (args.series.name != "Months") $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest(args.category);
 			}
 		</script>
 
@@ -98,6 +98,8 @@ The AJAX requests in **Example 1** are implemented via the **RadAjaxManager** co
 
  * [Demo: Drill-down Chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx)
 
- * [OnClientSeriesClicked(deprecated)]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%})
+ * [Client-side Events Overview]({%slug htmlchart/client-side-programming/events/overview%})
+ 
+ * [OnSeriesClick](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart/events/seriesclick)
 
  * [Column Chart]({%slug htmlchart/chart-types/column-chart%})
