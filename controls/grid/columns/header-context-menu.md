@@ -236,7 +236,7 @@ protected void RadGrid1_CustomAggregate(object sender, GridCustomAggregateEventA
 Protected Sub RadGrid1_CustomAggregate(ByVal sender As Object, ByVal e As Web.UI.GridCustomAggregateEventArgs) Handles RadGrid1.CustomAggregate
     Dim table As DataTable
     If Not RadGrid1.MasterTableView.FilterExpression Is [String].Empty Then
-        table = GetDataTable(SqlDataSource1.SelectCommand.ToString() + " WHERE " + RadGrid1.MasterTableView.FilterExpression)
+        table = GetDataTable(SqlDataSource1.SelectCommand.ToString() & " WHERE " & RadGrid1.MasterTableView.FilterExpression)
     Else
         table = GetDataTable(SqlDataSource1.SelectCommand.ToString())
     End If
@@ -249,7 +249,7 @@ Protected Sub RadGrid1_CustomAggregate(ByVal sender As Object, ByVal e As Web.UI
             notDiscontinued += 1
         End If
     Next
-    e.Result = discontinued.ToString() + " items discontinued, " + notDiscontinued.ToString() + " not"
+    e.Result = discontinued.ToString() & " items discontinued, " & notDiscontinued.ToString() & " not"
 End Sub
 ````
 
@@ -513,7 +513,7 @@ protected void HeaderContextMenu_ItemCreated(object sender, Telerik.Web.UI.RadMe
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-    RadGrid1.HeaderContextMenu.ItemCreated += New Telerik.Web.UI.RadMenuEventHandler(HeaderContextMenu_ItemCreated)
+    AddHandler RadGrid1.HeaderContextMenu.ItemCreated, AddressOf Me.HeaderContextMenu_ItemCreated
 End Sub
 Private Sub HeaderContextMenu_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
     Select Case e.Item.Value
