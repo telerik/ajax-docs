@@ -277,13 +277,13 @@ Gets the URL of the item's image.
 
 ### get_isOpen
 
-Returns whether the item is opened
+Returns a boolean indicating whether the item is opened or not
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Boolean` 
 
 ### get_isSeparator
 
