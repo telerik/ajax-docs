@@ -186,7 +186,7 @@ Use any of the approaches above.
 
 ## jQuery Version History in Telerik UI Controls
 
-Telerik® UI for ASP.NET AJAX R1 2019 - present are using jQuery version 1.12.4, modified to backport their [fix for a potential CORS XSS vulnerability](https://github.com/jquery/jquery/issues/2432#issuecomment-403761229).
+Telerik® UI for ASP.NET AJAX R1 2019 - present are using jQuery version 1.12.4, modified to backport their [fix for a potential CORS XSS vulnerability](https://github.com/jquery/jquery/issues/2432#issuecomment-403761229). Static code scans may still show this vulnerability, but it will be a false positive.
 
 Telerik® UI for ASP.NET AJAX R2 2018 SP1 - R3 2018 are using jQuery version 1.12.4 (downgraded from 3.3.1 in R2 2018 due to incompatibilities with the MS AJAX framework and its __doPostBack() method - [see more](https://www.telerik.com/forums/known-issues-and-important-changes#KKI7NGE4P0K-jwQGL525dA)).
 
