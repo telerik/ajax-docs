@@ -43,47 +43,94 @@ In addition, you can use declarative binding expressions in template controls, s
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
-    DataSourceID="SqlDataSource1" Skin="Windows7">
-    <MasterTableView>
-        <PagerTemplate>
-            <table border="0" cellpadding="5" width="100%">
-                <tr>
-                    <td style="border-style: none;" height="18px">
-                        <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Page" CausesValidation="false"
-                            CommandArgument="First">First</asp:LinkButton>
-                    </td>
-                    <td style="border-style: none;" height="18px">
-                        <asp:LinkButton ID="LinkButton2" runat="server" CommandName="Page" CausesValidation="false"
-                            CommandArgument="Prev">Prev</asp:LinkButton>
-                    </td>
-                    <td style="border-style: none;" height="18px">
-                        <asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# Container.OwnerTableView.CurrentPageIndex + 1 %>' />
-                        <asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber"
-                            EnableClientScript="true" MinimumValue="1" Type="Integer" MaximumValue='<%# Container.OwnerTableView.PageCount %>'
-                            ErrorMessage='"Value must be in the range of 1 - " + "<%# Container.OwnerTableView.PageCount %>"'
-                            Display="Dynamic">     </asp:RangeValidator>
-                    </td>
-                    <td style="border-style: none;" height="18px">
-                        <asp:LinkButton ID="LinkButton3" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
-                    </td>
-                    <td style="border-style: none;" height="18px">
-                        <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Page" CausesValidation="false"
-                            CommandArgument="Next">Next</asp:LinkButton>
-                    </td>
-                    <td style="border-style: none;" height="18px">
-                        <asp:LinkButton ID="LinkButton5" runat="server" CommandName="Page" CausesValidation="false"
-                            CommandArgument="Last">Last</asp:LinkButton>
-                    </td>
-                    <td style="border-style: none; width: 100%" align="right" height="18px">
-                        <asp:LinkButton ID="LinkButton6" runat="server" CommandName="RebindGrid" CausesValidation="false">Refresh data</asp:LinkButton>
-                    </td>
-                </tr>
-            </table>
-        </PagerTemplate>
-    </MasterTableView>
+	DataSourceID="SqlDataSource1" OnItemCommand="RadGrid1_ItemCommand">
+	<MasterTableView>
+		<PagerTemplate>
+			<table border="0" cellpadding="5" width="100%">
+				<tr>
+					<td style="border-style: none;" height="18px">
+						<asp:LinkButton ID="LinkButton1" runat="server" CommandName="Page" CausesValidation="false"
+							CommandArgument="First">First</asp:LinkButton>
+					</td>
+					<td style="border-style: none;" height="18px">
+						<asp:LinkButton ID="LinkButton2" runat="server" CommandName="Page" CausesValidation="false"
+							CommandArgument="Prev">Prev</asp:LinkButton>
+					</td>
+					<td style="border-style: none;" height="18px">
+						<asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# Container.OwnerTableView.CurrentPageIndex + 1 %>' />
+						<asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber"
+							EnableClientScript="true" MinimumValue="1" Type="Integer" MaximumValue='<%# Container.OwnerTableView.PageCount %>'
+							ErrorMessage='"Value must be in the range of 1 - " + "<%# Container.OwnerTableView.PageCount %>"'
+							Display="Dynamic">     </asp:RangeValidator>
+					</td>
+					<td style="border-style: none;" height="18px">
+						<asp:LinkButton ID="LinkButton3" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
+					</td>
+					<td style="border-style: none;" height="18px">
+						<asp:LinkButton ID="LinkButton4" runat="server" CommandName="Page" CausesValidation="false"
+							CommandArgument="Next">Next</asp:LinkButton>
+					</td>
+					<td style="border-style: none;" height="18px">
+						<asp:LinkButton ID="LinkButton5" runat="server" CommandName="Page" CausesValidation="false"
+							CommandArgument="Last">Last</asp:LinkButton>
+					</td>
+					<td>
+						<asp:Label Text="Page Size:" AssociatedControlID="pageSizeDropDown" runat="server" />
+						<asp:DropDownList runat="server" ID="pageSizeDropDown" OnSelectedIndexChanged="pageSizeDropDown_SelectedIndexChanged" AutoPostBack="true" SelectedValue='<%# Container.OwnerTableView.PageSize %>' CausesValidation="false">
+							<asp:ListItem Text="1" Value="1" />
+							<asp:ListItem Text="2" Value="2" />
+							<asp:ListItem Text="3" Value="3" />
+							<asp:ListItem Text="4" Value="4" />
+							<asp:ListItem Text="5" Value="5" />
+							<asp:ListItem Text="10" Value="10" />
+						</asp:DropDownList>
+					</td>
+					<td style="border-style: none; width: 100%" align="right" height="18px">
+						<asp:LinkButton ID="LinkButton6" runat="server" CommandName="RebindGrid" CausesValidation="false">Refresh data</asp:LinkButton>
+					</td>
+				</tr>
+			</table>
+		</PagerTemplate>
+	</MasterTableView>
 </telerik:RadGrid>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-    SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
+	SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
+````
+
+````C#
+protected void pageSizeDropDown_SelectedIndexChanged(object sender, EventArgs e)
+{
+	RadGrid1.PageSize = int.Parse((sender as DropDownList).SelectedValue);
+	RadGrid1.Rebind();
+}
+
+protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
+{
+	if (e.CommandName == "CustomChangePage")
+	{
+		TextBox tb = e.Item.FindControl("tbPageNumber") as TextBox;
+		int desiredPageNumber = int.Parse(tb.Text);
+		RadGrid grid = sender as RadGrid;
+		grid.CurrentPageIndex = desiredPageNumber - 1; //pages in the grid are zero-based, but humans count from 1
+		grid.Rebind();
+	}
+}
+````
+````VB
+Protected Sub pageSizeDropDown_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
+    RadGrid1.PageSize = Integer.Parse((TryCast(sender, DropDownList)).SelectedValue)
+    RadGrid1.Rebind()
+End Sub
+
+Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridCommandEventArgs)
+    If e.CommandName = "CustomChangePage" Then
+        Dim tb As TextBox = TryCast(e.Item.FindControl("tbPageNumber"), TextBox)
+        Dim desiredPageNumber As Integer = Integer.Parse(tb.Text)
+        Dim grid As RadGrid = TryCast(sender, RadGrid)
+        grid.CurrentPageIndex = desiredPageNumber - 1 'pages in the grid are zero-based, but humans count from 1
+        grid.Rebind()
+    End If
+End Sub
 ````
 
 
