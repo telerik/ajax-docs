@@ -45,7 +45,7 @@ Below you can find the following sections:
 
 >note We strongly recommend that you use [Advanced Data Binding](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid**.
 
->important RadGrid exporting works only when the **ViewState** is persisted in a hidden field (the default setting). In case you are using an analternative way to persist the **ViewState**, such as storing it in a database or a session, you will receive an exception.
+>important RadGrid exporting works only when the **ViewState** is persisted in a hidden field (the default setting). In case you are using an alternative way to persist the **ViewState**, such as storing it in a database or a session, you will receive an exception.
 
 ## Properties and Events
 
