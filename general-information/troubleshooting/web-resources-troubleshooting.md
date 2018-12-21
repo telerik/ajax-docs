@@ -109,9 +109,9 @@ There are two ways to resolve this:
 
 Please check the following:
 
-1. Check in the IIS management console that the .axd extension (the default HTTP handler extension) is allowed:
+1. Check in the IIS management console that the .axd extension (the default HTTP handler extension) is allowed under the Handler Mappings feature of IIS:
 
-	![](images/introduction-windowslivewriter_webresourcesdemystifiedpart3_cac2_image_thumb.png)
+	![](images/axd-presence-and-file-mapping.png)
 
 1. Also check if the "Verify if file exists" checkbox is unchecked (click on the "Edit" button appearing in the previous screenshot to check).
 
@@ -157,21 +157,21 @@ Please check the following:
 
 	**web.config**
 
-		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" validate="false" /> 
+		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" validate="false" /> 
 
 
 	**ASP.NET 4.0:**
 
 	**web.config**
 
-		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" validate="false" /> 
+		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" validate="false" /> 
 
 
 	**ASP.NET 4.5:**
 
 	**web.config**
 
-		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" validate="false" /> 
+		<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" validate="false" /> 
 
 
 	**IIS7 Integrated Mode**
@@ -181,7 +181,7 @@ Please check the following:
 	**web.config**
 
 		<handlers>  
-			<add name="Telerik.Web.UI.WebResource" path="Telerik.Web.UI.WebResource.axd" verb="*"    type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4"/> 
+			<add name="Telerik.Web.UI.WebResource" path="Telerik.Web.UI.WebResource.axd" verb="*"    type="Telerik.Web.UI.WebResource"/> 
 
 
 	>note The version in the HTTP handler registration statement will vary depending on the release date and .NET runtime (3.5 or 4.0 or 4.5). Always make sure you are referring to the right assembly version. *
