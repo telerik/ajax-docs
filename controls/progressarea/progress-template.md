@@ -20,11 +20,11 @@ You can let **RadProgressArea** automatically locate and update the values of th
 
 | ID | Description |
 | ------ | ------ |
-|PrimaryProgressBarInnerDiv\*|Total Progress Bar|
+|PrimaryProgressBarInnerDiv or PrimaryProgressBarElement \*|Total Progress Bar|
 |PrimaryPercent|Total Progress Percent|
 |PrimaryValue|Total Progress|
 |PrimaryTotal|Request Size|
-|SecondaryProgressBarInnerDiv\*|Files Count Bar|
+|SecondaryProgressBarInnerDiv or SecondaryProgressBarElement \*|Files Count Bar|
 |SecondaryPercent|Files Count Percent|
 |SecondaryValue|Files Count|
 |SecondaryTotal|Selected Files Count|
@@ -39,7 +39,259 @@ You can let **RadProgressArea** automatically locate and update the values of th
 
 You can also update the values of elements in your template using the client-side [OnClientProgressBarUpdating]({%slug progressarea/client-side-programming/onclientprogressbarupdating%}) and [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) events to bind the values of custom controls you add in the template.
 
-## Example
+>caption Example 1: Simple template that uses client-side events to show the data
+
+````ASPNET
+<telerik:RadProgressManager runat="server" ID="rpm" />
+Progress:<br />
+<asp:Button CssClass="button" ID="buttonSubmit" runat="server" Text="Start Processing" OnClick="buttonSubmit_Click"></asp:Button>
+<br />
+<telerik:RadProgressArea runat="server" ID="rpa" RenderMode="Lightweight" OnClientProgressUpdating="OnClientProgressUpdating">
+	<ProgressTemplate>
+		<table class="ProgrsesAreaTemplateTable">
+			<tr>
+				<td><span class="theText"></span>
+				</td>
+				<td>
+					<telerik:RadProgressBar runat="server" ID="firstProgressBar" BarType="Percent" Width="100%"></telerik:RadProgressBar>
+				</td>
+				<td>
+					<telerik:RadProgressBar runat="server" ID="secondProgressBar" BarType="Percent" Width="100%"></telerik:RadProgressBar>
+				</td>
+			</tr>
+		</table>
+	</ProgressTemplate>
+</telerik:RadProgressArea>
+<script>
+	function OnClientProgressUpdating(sender, args) {
+		var data = args.get_progressData();
+		$telerik.$(sender.get_element()).find(".theText").text(data.CurrentOperationText);
+		$telerik.findControl(sender.get_element(), "firstProgressBar").set_value(data.PrimaryPercent);
+		$telerik.findControl(sender.get_element(), "secondProgressBar").set_value(data.SecondaryPercent);
+	}
+</script>
+<style>
+	.ProgrsesAreaTemplateTable {
+		width: 100%;
+		table-layout: fixed;
+	}
+</style>
+````
+````C#
+	
+protected void buttonSubmit_Click(object sender, System.EventArgs e)
+{
+    UpdateProgressContext();
+}
+
+protected void UpdateProgressContext()
+{
+    int mySteps = 3;
+    int myRecords = 20;
+    RadProgressContext progress = RadProgressContext.Current;
+    progress.Speed = "N/A";
+
+    progress.PrimaryTotal = mySteps;
+    progress.PrimaryValue = 0;
+    progress.PrimaryPercent = 0;
+
+    progress.SecondaryTotal = myRecords;
+    progress.SecondaryValue = 0;
+    progress.SecondaryPercent = 0;
+
+    for (int i = 1; i <= mySteps; i++)
+    {
+        progress.PrimaryPercent = Math.Round(i * 100 / (double)mySteps, 0);
+        progress.PrimaryValue = i;
+        progress.SecondaryTotal = myRecords;
+
+        for (int j = 1; (j <= myRecords); j++)
+        {
+            progress.SecondaryValue = j;
+            progress.SecondaryPercent = Math.Round((j * (100 / (double)myRecords)), 0);
+            progress.CurrentOperationText = ("Step " + i.ToString() + " Record " + j.ToString());
+            // Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100);
+        }
+    }
+}
+	
+````
+````VB
+	
+Protected Sub buttonSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+    UpdateProgressContext()
+End Sub
+
+Protected Sub UpdateProgressContext()
+    Dim mySteps As Integer = 3
+    Dim myRecords As Integer = 20
+
+    Dim progress As RadProgressContext = RadProgressContext.Current
+    progress.Speed = "N/A"
+
+    With progress
+        .PrimaryTotal = mySteps
+        .PrimaryValue = 0
+        .PrimaryPercent = 0
+
+        .SecondaryTotal = myRecords
+        .SecondaryValue = 0
+        .SecondaryPercent = 0
+    End With
+
+    For i As Integer = 1 To mySteps
+        With progress
+            .PrimaryValue = i
+            .PrimaryPercent = Math.Round(i * 100 / mySteps, 0)
+            .SecondaryTotal = myRecords
+        End With
+
+        For j As Integer = 1 To myRecords
+            progress.SecondaryValue = j
+            progress.SecondaryPercent = Math.Round(j * 100 / myRecords, 0)
+
+            progress.CurrentOperationText = "Step " & i.ToString() & " Record " & j.ToString
+
+            'Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100)
+        Next j
+    Next i
+End Sub
+	
+````
+
+>caption Example 2: Sample template for the Lightweight RenderMode that mimics the built-in template
+
+````ASPNET
+<telerik:RadProgressManager runat="server" ID="rpm" />
+Progress:<br />
+<asp:Button CssClass="button" ID="buttonSubmit" runat="server" Text="Start Processing" OnClick="buttonSubmit_Click"></asp:Button>
+<br />
+<telerik:RadProgressArea runat="server" ID="rpa" RenderMode="Lightweight">
+	<ProgressTemplate>
+		<div class="ruBody">
+			<div class="ruFileProgress">
+				<span id="<%= rpa.ClientID %>_PrimaryProgressBarElement" class="ruProgressBar">
+					<span id="<%= rpa.ClientID %>_PrimaryProgressElement" class="ruProgress"></span>
+				</span>
+				Uploaded
+				<span id="<%= rpa.ClientID %>_PrimaryPercent"></span>
+				% (
+				<span id="<%= rpa.ClientID %>_PrimaryValue"></span>
+				) Total 
+				<span id="<%= rpa.ClientID %>_PrimaryTotal"></span>
+			</div>
+			<div class="ruOverallProgress">
+				<span id="<%= rpa.ClientID %>_SecondaryProgressBarElement" class="ruProgressBar">
+					<span id="<%= rpa.ClientID %>_SecondaryProgressElement" class="ruProgress"></span>
+				</span>
+				Uploaded files:
+				<span id="<%= rpa.ClientID %>_SecondaryPercent"></span>
+				% (
+				<span id="<%= rpa.ClientID %>_SecondaryValue"></span>
+				) Total files:
+				<span id="<%= rpa.ClientID %>_SecondaryTotal"></span>
+			</div>
+			<p class="ruCurrentFile">Uploading file:
+				<span id="<%= rpa.ClientID %>_CurrentOperation"></span>
+			</p>
+			<p class="ruTimeSpeed">Elapsed time:
+				<span id="<%= rpa.ClientID %>_TimeElapsed"></span>
+				&nbsp;Estimated time:
+				<span id="<%= rpa.ClientID %>_TimeEstimated"></span>
+				&nbsp;Speed:
+				<span id="<%= rpa.ClientID %>_Speed"></span>
+			</p>
+		</div>
+	</ProgressTemplate>
+</telerik:RadProgressArea>
+````
+````C#
+	
+protected void buttonSubmit_Click(object sender, System.EventArgs e)
+{
+    UpdateProgressContext();
+}
+
+protected void UpdateProgressContext()
+{
+    int mySteps = 3;
+    int myRecords = 20;
+    RadProgressContext progress = RadProgressContext.Current;
+    progress.Speed = "N/A";
+
+    progress.PrimaryTotal = mySteps;
+    progress.PrimaryValue = 0;
+    progress.PrimaryPercent = 0;
+
+    progress.SecondaryTotal = myRecords;
+    progress.SecondaryValue = 0;
+    progress.SecondaryPercent = 0;
+
+    for (int i = 1; i <= mySteps; i++)
+    {
+        progress.PrimaryPercent = Math.Round(i * 100 / (double)mySteps, 0);
+        progress.PrimaryValue = i;
+        progress.SecondaryTotal = myRecords;
+
+        for (int j = 1; (j <= myRecords); j++)
+        {
+            progress.SecondaryValue = j;
+            progress.SecondaryPercent = Math.Round((j * (100 / (double)myRecords)), 0);
+            progress.CurrentOperationText = ("Step " + i.ToString() + " Record " + j.ToString());
+            // Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100);
+        }
+    }
+}
+	
+````
+````VB
+	
+Protected Sub buttonSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+    UpdateProgressContext()
+End Sub
+
+Protected Sub UpdateProgressContext()
+    Dim mySteps As Integer = 3
+    Dim myRecords As Integer = 20
+
+    Dim progress As RadProgressContext = RadProgressContext.Current
+    progress.Speed = "N/A"
+
+    With progress
+        .PrimaryTotal = mySteps
+        .PrimaryValue = 0
+        .PrimaryPercent = 0
+
+        .SecondaryTotal = myRecords
+        .SecondaryValue = 0
+        .SecondaryPercent = 0
+    End With
+
+    For i As Integer = 1 To mySteps
+        With progress
+            .PrimaryValue = i
+            .PrimaryPercent = Math.Round(i * 100 / mySteps, 0)
+            .SecondaryTotal = myRecords
+        End With
+
+        For j As Integer = 1 To myRecords
+            progress.SecondaryValue = j
+            progress.SecondaryPercent = Math.Round(j * 100 / myRecords, 0)
+
+            progress.CurrentOperationText = "Step " & i.ToString() & " Record " & j.ToString
+
+            'Stall the current thread for 0.1 seconds
+            System.Threading.Thread.Sleep(100)
+        Next j
+    Next i
+End Sub
+	
+````
+
+>caption Example 3: Sample template for the Classic RenderMode that mimics the built-in template
 
 ````ASPNET
 <telerik:RadScriptManager runat="server" ID="rsm" />
@@ -47,7 +299,7 @@ You can also update the values of elements in your template using the client-sid
 Progress:<br />
 <asp:Button CssClass="button" ID="buttonSubmit" runat="server" Text="Start Processing" OnClick="buttonSubmit_Click"></asp:Button>
 <br />
-<telerik:RadProgressArea runat="server" ID="rpa">
+<telerik:RadProgressArea runat="server" ID="rpa" RenderMode="Classic">
     <ProgressTemplate>
         <ul class="ruProgress">
             <li class="ruProgressHeader"><span id="rpa_Panel_ProgressAreaHeader"></span></li>
@@ -71,7 +323,6 @@ Progress:<br />
     </ProgressTemplate>
 </telerik:RadProgressArea>
 ````
-
 ````C#
 	
 protected void buttonSubmit_Click(object sender, System.EventArgs e)
