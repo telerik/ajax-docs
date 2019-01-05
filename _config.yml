@@ -7,8 +7,6 @@ exclude_navigation: [sharepoint/2007/*]
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
 
-## The Kendo UI version used
-cdnVersion: "2015.1.408"
 
 navigation:
 
