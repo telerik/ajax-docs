@@ -18,6 +18,7 @@ function pageLoad() {
     $telerik.$('.ruFileInput').attr('accept', 'image/*');
 }
 ````
+
 You can find a more detailed example in the [How to filter file selection in the upload dialog](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-filter-file-selection-in-the-upload-dialog) article.
 
 >note The `FileFilters` properties will not work in current browsers. The built-in **File filtering** functionality of RadAsyncUpload works only with browsers that run [**Flash** or **Silverlight** **Upload modules**] ({%slug asyncupload/upload-modules%}). **File filtering** is **not** available for:
