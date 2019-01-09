@@ -48,31 +48,36 @@ Example:
 ````
 ````C#
 protected void Page_Load(object sender, EventArgs e)
-	    {
-	        AjaxSetting ajaxSetting = new AjaxSetting();
-	        ajaxSetting.AjaxControlID = "Button1";
-	
-	        AjaxUpdatedControl updatedControl = new AjaxUpdatedControl();
-	        updatedControl.ControlID = "Panel1";
-	        updatedControl.LoadingPanelID = "RadAjaxLoadingPanel1";
-	        updatedControl.UpdatePanelHeight = Unit.Pixel(200);
-	        updatedControl.UpdatePanelRenderMode = UpdatePanelRenderMode.Inline;
-	
-	        RadAjaxManager1.AjaxSettings.Add(ajaxSetting);
-	    }
+{
+	AjaxSetting ajaxSetting = new AjaxSetting();
+	ajaxSetting.AjaxControlID = "Button1";
+
+	AjaxUpdatedControl updatedControl = new AjaxUpdatedControl();
+	updatedControl.ControlID = "Panel1";
+	updatedControl.LoadingPanelID = "RadAjaxLoadingPanel1";
+	updatedControl.UpdatePanelHeight = Unit.Pixel(200);
+	updatedControl.UpdatePanelRenderMode = UpdatePanelRenderMode.Inline;
+
+	ajaxSetting.UpdatedControls.Add(updatedControl);
+
+	RadAjaxManager1.AjaxSettings.Add(ajaxSetting);
+}
 ````
 ````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        Dim ajaxSetting As New AjaxSetting()
-	        ajaxSetting.AjaxControlID = "Button1"
-	        Dim updatedControl As New AjaxUpdatedControl()
-	        updatedControl.ControlID = "Panel1"
-	        updatedControl.LoadingPanelID = "RadAjaxLoadingPanel1"
-	        updatedControl.UpdatePanelHeight = Unit.Pixel(200)
-	        updatedControl.UpdatePanelRenderMode = UpdatePanelRenderMode.Inline
-	        RadAjaxManager1.AjaxSettings.Add(ajaxSetting)
-End Sub
-	
+    Dim ajaxSetting As New AjaxSetting()
+    ajaxSetting.AjaxControlID = "Button1"
+
+    Dim updatedControl As New AjaxUpdatedControl()
+    updatedControl.ControlID = "Panel1"
+    updatedControl.LoadingPanelID = "RadAjaxLoadingPanel1"
+    updatedControl.UpdatePanelHeight = Unit.Pixel(200)
+    updatedControl.UpdatePanelRenderMode = UpdatePanelRenderMode.Inline
+
+    ajaxSetting.UpdatedControls.Add(updatedControl)
+
+    RadAjaxManager1.AjaxSettings.Add(ajaxSetting)
+End Sub	
 ````
 
 
