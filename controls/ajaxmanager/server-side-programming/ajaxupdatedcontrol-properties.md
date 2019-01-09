@@ -26,7 +26,6 @@ When configuring ajax settings, be it declaratively, or dynamically, you might n
 Example:
 
 
-
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 </telerik:RadScriptManager>
@@ -46,6 +45,8 @@ Example:
 <asp:Panel ID="Panel1" runat="server">
 </asp:Panel>
 ````
+
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
