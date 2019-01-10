@@ -12,7 +12,7 @@ position: 0
 
 RadMultiColumnComboBox is a server-side WebForms wrapper over the MultiColumnComboBox for Kendo UI for jQuery. It operates on the client and provides functionality similar to a regular dropdown, but with highly simplified approach for creating columns in the dropdown.
 
-![navigation-overview](images/multicolumncombobox-overview.png)
+![multicolumncombobox-overview](images/multicolumncombobox-overview.png)
 
 ## Key Features
 
