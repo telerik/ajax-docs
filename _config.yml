@@ -292,6 +292,9 @@ navigation:
     "controls/monthyearpicker":
         title: "MonthYearPicker"
         position: 1
+    "controls/multicolumncombobox":
+        title: "MultiColumn ComboBox"
+        position: 1
     "controls/navigation":
         title: "Navigation"
         position: 1
