@@ -1872,6 +1872,7 @@ intro_columns:
       "InputManager": "radinputmanager/overview"
       "Label": "label/overview"
       "MaskedTextBox": "radmaskedtextbox/overview"
+      "MultiColumnComboBox": "multicolumncombobox/overview"
       "NumericTextBox": "numerictextbox/overview"
       "Slider": "slider/overview"
       "TextBox": "radtextbox/overview"
