@@ -20,12 +20,12 @@ position: 1
 * [Group Template](#group-template)
 * [Fixed Group Template](#fixed-group-template)
 
->Figure 1: Structure of the dropdown and where you can use templates. Produced by the code in Example 1 below.
+>caption Figure 1: Structure of the dropdown and where you can use templates. Produced by the code in Example 1 below.
 
 ![multicolumncombobox template example](images/multicolumncombobox-template-example.png)
 
 
->Example 1: Sample use of templates in RadMultiColumnComboBox. The result is shown in Figure 1 above.
+>caption Example 1: Sample use of templates in RadMultiColumnComboBox. The result is shown in Figure 1 above.
     
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1" Skin="Default"
