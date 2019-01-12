@@ -19,29 +19,29 @@ All events follow the MS AJAX client events convention and receive two arguments
 
 RadMultiColumnComboBox is a wrapper over the Kendo UI MultiColumnComboBox widget and so it exposes the [client events](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox#events) and data it does. You can find a list below.
 
->note The event data is wrapped according to the MS AJAX conventions and the fields you can see in the underlying Kendo Widget are avaliable through a method like `get_<fieldName>()` in the `event arguments` argument of the handler (that is, the second argument the event handler receives).
+>note The event data is wrapped according to the MS AJAX conventions and the fields you can see in the underlying Kendo Widget are avaliable through a method like `get_<fieldName>()` in the `event arguments` argument of the handler (that is, the second argument the event handler receives). To cancel an event, you must call its `args.set_cancel(true);` method.
 
 The exceptions are the OnInitialize and OnLoad events that are specific to the MS AJAX framework.
 
 >caption Listing 1: The client-side events exposed by RadMultiColumnComboBox
 
-* [OnCascade](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/cascade)—Fired when the value of the widget is changed via API or user interaction.
+* [OnCascade](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/cascade)—Fired when the value of the widget is changed via API or user interaction. Cancellable.
 
 * [OnChange](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/change)—Fired when the value of the widget is changed by the user.
 
-* [OnClose](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/close)—Fired when the popup of the widget is closed.
+* [OnClose](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/close)—Fired when the popup of the widget is closed. Cancellable.
 
 * [OnDataBound](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/databound)—Fired when the widget is bound to data from its data source.
 
 * **OnInitialize**—Fired just before the RadMultiColumnComboBox client-side object is initialized.
 
-* [OnFiltering](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/filtering)—Fired when the widget is about to filter the data source.
+* [OnFiltering](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/filtering)—Fired when the widget is about to filter the data source. Cancellable.
 
 * **OnLoad**—Fired when RadMultiColumnComboBox is initialized.
 
-* [OnOpen](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/open)—Fired when the popup of the widget is opened by the user.
+* [OnOpen](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/open)—Fired when the popup of the widget is opened by the user. Cancellable.
 
-* [OnSelect](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/select)—Fired when an item from the popup is selected by the user either with mouse/tap or with keyboard navigation.
+* [OnSelect](https://docs.telerik.com/kendo-ui/api/javascript/ui/combobox/events/select)—Fired when an item from the popup is selected by the user either with mouse/tap or with keyboard navigation. Cancellable.
 
 ## Examples
 
@@ -80,6 +80,21 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	ProviderName="System.Data.SqlClient"
 	SelectCommand="SELECT Top 20 [CustomerID], [ContactName], [ContactTitle], [CompanyName] FROM [Customers]"></asp:SqlDataSource>
+````
+
+>caption Example 3: Cancel an event
+
+````JavaScript
+<script>
+	function OnOpen(sender, args) {
+		var shouldCancel = true;//use actual business logic
+		args.set_cancel(shouldCancel);//cancel the event
+		//in this example, the dropdown will never open
+	}
+</script>
+<telerik:RadMultiColumnComboBox Skin="Default" runat="server" ID="RadMultiColumnComboBox1">
+    <ClientEvents OnOpen="OnOpen" />
+</telerik:RadMultiColumnComboBox>
 ````
 
 

@@ -269,7 +269,7 @@ Fired when the value of the widget is changed via API or user interaction.
 
 The instance of the RadMultiColumnComboBox that raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Sys.CancelEventArgs`
 
 Event arguments.
 
@@ -297,7 +297,7 @@ Fired when the popup of the widget is closed.
 
 The instance of the RadMultiColumnComboBox that raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Sys.CancelEventArgs`
 
 Event arguments.
 
@@ -339,7 +339,7 @@ Fired when the widget is about to filter the data source.
 
 The instance of the RadMultiColumnComboBox that raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Sys.CancelEventArgs`
 
 Event arguments.
 
@@ -367,7 +367,7 @@ Fired when the popup of the widget is opened by the user.
 
 The instance of the RadMultiColumnComboBox that raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Sys.CancelEventArgs`
 
 Event arguments.
 
@@ -381,7 +381,7 @@ Fired when an item from the popup is selected by the user either with mouse/tap 
 
 The instance of the RadMultiColumnComboBox that raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Sys.CancelEventArgs`
 
 Event arguments.
 
