@@ -13,13 +13,16 @@ position: 2
 **RadMultiColumnComboBox** lets the user type a search query in the input and it will filter the data source so only relevant items are shown. By default, the filter operation is performed on the client, over the current data. You can also use [server filtering](#server-filtering).
 
 To enable filtering:
+
 1. set the `Filter` property to the desired filter operation:
+
     * `contains`
     * `startsWith`
     * `endsWith`
     * `eq`
     
     Setting it to `none` will disable filtering.
+    
 2. set the `FilterFields` property to a comma-separated list of the data source fields whose values you want to be used for comparing against the user input
 
 The `MinLength` property defines the minimum input length before the filter operation is performed.
@@ -58,13 +61,16 @@ When you set the `EnableServerFiltering` property to `true`, filtering will requ
 
 This can be useful when there is a lot of data that would slow down the browser by creating a lot of elements, or would be costly to the server. Combined with `MinLength`, you can improve the performance for both the client, and the server.
 
-The server filtering requires binding to a web service, and it will result in GET requests where querystring parameters will denote the filtered field and operator. For example, if the `ProductName` field is set as the `DataValueField`, `Filter` is `contains` and the user inut us `che`, the parameter added to the URL will look something like `&$filter=substringof('che',tolower(ProductName))"`.
+The server filtering requires binding to a web service, and it will result in GET requests where querystring parameters will denote the filtered field and operator. For example, if the `ProductName` field is set as the `DataValueField`, `Filter` is `contains` and the user input is `che`, the parameter added to the URL will look something like `&$filter=substringof('che',tolower(ProductName))"`.
+
+With server filtering, RadMultiColumnComboBox will not request the data when initializing, only when the user types in a search string of sufficient length (see `MinLength`). This is done by setting the `autoBind` property of the underlying Kendo widget to `false`.
 
 >caption Example 2: Enabling server filtering
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1" Filter="Contains"
-    DropDownWidth="600px" Height="400" EnableServerFiltering="true"
+    EnableServerFiltering="true"
+    DropDownWidth="600px" Height="400"
     DataTextField="ProductName" MinLength="3" Skin="Default" Width="100%"
     EnforceMinLength="false" DataValueField="ProductID"
     Placeholder="select from the dropdown or type">
@@ -79,7 +85,7 @@ The server filtering requires binding to a web service, and it will result in GE
 </telerik:RadMultiColumnComboBox>
 ````
 
->caption Example 3: Server filtering through a RadClientDataSource requires setting its EnableServerFiltering property to true
+>caption Example 3: Server filtering through a RadClientDataSource requires setting its **EnableServerFiltering** property to **true**
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1" Filter="Contains"
