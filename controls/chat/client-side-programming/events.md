@@ -26,6 +26,7 @@ position: 1
 
 * [OnTypingStart]({%slug chat/client-side-programming/events/ontypingstart%}) occurs when the user starts typing in the chat message box. The event is fired only once, and not upon each keystroke.
 
+* [OnToolClick]({%slug chat/client-side-programming/events/ontoolclick%}) occurs when an tool button from the chat toolbar is clicked.
 
 # See Also
 
