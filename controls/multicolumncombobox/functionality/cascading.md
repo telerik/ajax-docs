@@ -58,23 +58,26 @@ You can also instruct the child combo box to take a different field from its par
 </telerik:RadMultiColumnComboBox>
 ````
 
-<!--
 
 >caption Example 2: Using CascadeFromField and CascadeFromParentField
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="parentCombo" Skin="Default"
-	DataTextField="name" DataValueField="id">
+	DataTextField="name" DataValueField="id" Width="300px">
 	<ColumnsCollection>
 		<telerik:MultiColumnComboBoxColumn Field="name" Title="Name" />
 		<telerik:MultiColumnComboBoxColumn Field="id" Title="ID" />
+		<telerik:MultiColumnComboBoxColumn Field="cascadeId" Title="Cascade ID" />
 	</ColumnsCollection>
 	<ClientEvents OnLoad="OnLoadParent" />
 </telerik:RadMultiColumnComboBox>
 
 <telerik:RadMultiColumnComboBox runat="server" ID="childCombo" Skin="Default"
-	DataTextField="name" DataValueField="id"
-	CascadeFrom="parentCombo" CascadeFromField="parentId" CascadeFromParentField="cascadeId">
+	DataTextField="name" DataValueField="id" Width="300px"
+	
+	CascadeFrom="parentCombo" CascadeFromField="parentId" CascadeFromParentField="cascadeId"
+	
+	>
 	<ColumnsCollection>
 		<telerik:MultiColumnComboBoxColumn Field="name" Title="Name" />
 		<telerik:MultiColumnComboBoxColumn Field="id" Title="ID" />
@@ -107,7 +110,7 @@ You can also instruct the child combo box to take a different field from its par
 </script>
 ````
 
--->
+
 
 ## See Also
 
