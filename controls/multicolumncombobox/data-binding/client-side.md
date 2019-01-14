@@ -44,7 +44,7 @@ The widget only shows data and so only the **Select** settings and `ServiceType`
 
 To bind to a RadClientDataSource instance, set the `ClientDataSourceID` property to the ID of the client data source control.
 
-RadClientDataSource is a wrapper over the Kendo UI DataSource as well. It is a separate control tag that provides some more features (like settings for server filtering or server paging). If you want to use [virtualization]({%slug multicolumncombobox/functionality/virtualization%}), you must use a RadClientDataSource. For all other cases, the built-in `WebServiceSettings` will serve the same purpose.
+RadClientDataSource is a wrapper over the Kendo UI DataSource as well. It is a separate control tag that provides some more features pertainig to CRUD operations that are not relevant to the multi-column combo box.
 
 >caption Example 2: Binding to a RadClientDataSource
 
