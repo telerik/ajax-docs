@@ -24,7 +24,7 @@ RadXmlHttpPanel may seem similar to RadAjaxPanel, yet there are some key differe
 
 **RadAjaxPanel** can cover all scenarios, while **RadXmlHttpPanel** should be used mostly for presenting data.To put it in simpler terms, controls loaded in the **RadXmlHttpPanel** should not execute server-side events. For optimum performance, in many cases it is in fact possible to combine the best of two worlds by wrapping a **RadAjaxPanel** around **RadXmlHttpPanel** and take advantage of what each control does best.
 
-You should avoid **RadXmlHttpPanel** if:
+You should **avoid** `RadXmlHttpPanel` if:
 
 * you will need to use the client-side API of the Telerik controls inside
 * you will need the rich user interactions the Telerik controls inside provide
