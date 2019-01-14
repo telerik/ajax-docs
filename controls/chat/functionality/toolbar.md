@@ -59,7 +59,7 @@ The Chat configuration object allows you to configure the following behavior asp
 
 - `AnimationSettings` - The [animation](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/configuration/toolbar.animation) behavior of its toolbar.
 - `Scrollable` - defines whether the toolbar will be [scrollable](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/configuration/toolbar.scrollable). A scrollbar is useful when the buttons cannot entirely fit within the width of RadChat.
-- `Toggleable` - Whether the toolbar will be [displayed or hidden](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/configuration/toolbar.toggleable) upon a button click.
+- `Toggleable` - defines whether the toolbar will be [displayed or hidden](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat/configuration/toolbar.toggleable) upon a button click.
 
 
 >caption **Example 2**: A Chat with a expandable toolbar.
