@@ -1,14 +1,14 @@
 ---
 title: Client-Side
-page_title: Client-Side | RadMultiColumnComboBox for ASP.NET AJAX Documentation
+page_title: Client-Side Data Binding | RadMultiColumnComboBox for ASP.NET AJAX Documentation
 description: Client data binding overview of RadMultiColumnComboBox
 slug: multicolumncombobox/data-binding/client-side
 tags: data,binding,overview,client,side,web,service
 published: True
-position: 0
+position: 1
 ---
 
-# Client-Side
+# Client-Side Data Binding
 
 **RadMultiColumnComboBox** can be bound to a **web service** through its inner `WebServiceSettings` tag or through a [RadClientDataSource]({%slug clientdatasource/overview%}). Since the control is a wrapper over the Kendo UI for jQuery widget, it always operates on the client and binds to data with JavaScript.
 
