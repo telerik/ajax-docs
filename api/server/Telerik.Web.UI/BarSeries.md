@@ -57,9 +57,6 @@ The data field with the values of the series along the Y axis
 
 Gets or Sets the distance between the category clusters.
 
-#### Remarks
-The value of the property cannot be negative.
-
 ###  GroupName `String`
 
 Defines a group name for the series and applies stacking automatically
@@ -86,9 +83,6 @@ Creates a collection of category series items.
 ###  Spacing `Nullable`1`
 
 Gets or Sets the space between the chart series as proportion of the series width.
-
-#### Remarks
-The value of the property cannot be negative.
 
 ###  Stacked `Nullable`1`
 

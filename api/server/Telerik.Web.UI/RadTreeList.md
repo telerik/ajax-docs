@@ -346,7 +346,7 @@ Gets or sets the height of the Web server control.
 
 ###  HideExpandCollapseButtonIfNoChildren `Boolean`
 
-Enables TreeListItem's child items to be loaded on demand.
+Gets or sets a value indicating whether the expand/collapse image of the treelist item should be visible when it does not have child items.
 
 ###  InsertIndexes `TreeListEditIndexesCollection`
 

@@ -73,9 +73,6 @@ The data field with the values of the To value
 
 Gets or Sets the distance between the category clusters.
 
-#### Remarks
-The value of the property cannot be negative.
-
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.
@@ -98,9 +95,6 @@ Creates a collection of range series items.
 ###  Spacing `Nullable`1`
 
 Gets or Sets the space between the chart series as proportion of the series width.
-
-#### Remarks
-The value of the property cannot be negative.
 
 ###  TooltipsAppearance `SeriesAppearance`
 
