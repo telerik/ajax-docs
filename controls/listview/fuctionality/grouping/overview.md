@@ -24,7 +24,7 @@ In addition you need to define the following Templates:
 * **GroupSeparatorTemplate**—the content that separates one UI group from the other.
 * **EmptyItemTemplate**—template for an empty item.
 
->tip For grouping according to a field in the data source, see [Data Grouping in RadListView]({% slug listview/fuctionality/grouping/data-grouping %}).
+>tip For grouping according to a field in the data source, see [Data Grouping in RadListView]({%slug listview/fuctionality/grouping/data-grouping%}).
 
 
 >caption Example with detailed descriptions
@@ -104,5 +104,5 @@ The **EmptyItemTemplate** defines a layout for the non-existing items of a group
 
 * [Live Demo: RadListView UI Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/grouping/defaultcs.aspx)
 
-* [Data Grouping in RadListView]({% slug listview/fuctionality/grouping/data-grouping %})
+* [Data Grouping in RadListView]({%slug listview/fuctionality/grouping/data-grouping%})
 
