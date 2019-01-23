@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_fileInputField** returns the file input field for the file that was just selected. (only when IFrame modules is used)
+* **get_fileInputField** returns the file input field for the file that was just selected. (only when IFrame or FileAPI module is used)
 
 * **get_row** returns the row containing the file input field for the file that was just selected (\<li\> element)
 
