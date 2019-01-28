@@ -43,8 +43,8 @@ The following table lists the most important methods of the client-side **RadCom
 | **set_closeDropDownOnBlur** |Boolean|none|If you call the **showDropDown** / **toggleDropDown** method on a button click, you will have to use **combo.set_closeDropDownOnBlur(false)** right before you call the **showDropDown** / **toggleDropDown** method, otherwise the drop-down area will flicker instead of open. Then, you should use **combo.set_closeDropDownOnBlur(true)** in the **OnClientBlur** event handler. You can see a demo at: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)|
 | **hideDropDown** |none|none|Closes the drop-down list.|
 | **toggleDropDown** |none|none|Toggles the drop-down list.|
-| **enable** |none|none|Enables the **RadComboBox** .|
-| **disable** |none|none|Disables the **RadComboBox** .|
+| **enable** |none|none|Enables the **RadComboBox**. See **Example 7**.|
+| **disable** |none|none|Disables the **RadComboBox** . See **Example 7**.|
 | **findItemByValue** |(string value)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Value** property equals the passed parameter.|
 | **findItemByText** |(string text)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** property equals the passed parameter.|
 | **findFirstMatch** |string| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** contains the string passed as parameter.|
@@ -58,7 +58,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **get_moreResultsBoxElement** |none|DOM object|Gets a reference to the **MoreResultsBox** image element.|
 | **get_moreResultsBoxMessageElement** |none|DOM object|Gets a reference to the **MoreResultsBox Message** element.|
 | **get_dropDownVisible** |none|Boolean| **True** if the drop-down is opened.|
-| **set_enabled** |Boolean|none| Enables/disables the **RadComboBox**.|
+| **set_enabled** |Boolean|none| Sets the Enabled property of the **RadComboBox**. To enable/disable the **RadComboBox** on the client-side, use the .enable() and .disable() methods of the RadComboBox client-side object. See **Example 7**. |
 | **get_enabled** |none|Boolean| **True** if **RadComboBox** is enabled.|
 | **get_selectedItem** |none| **RadComboBoxItem** |Gets the currently selected item.|
 | **get_selectedIndex** |none|integer|Gets the index of the currently selected item.|
@@ -163,6 +163,21 @@ function ChangeImageElement() {
     var combo = $find("<%= RadComboBox1.ClientID %>");
     var image = combo.get_imageDomElement();
     image.src = "MyImage.gif"; 
+}
+	
+````
+
+
+>caption Example 7: Enable/disable **RadComboBox** on the client-side. 
+````JavaScript
+	
+function ChangeEnabledState(shouldEnable) {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    if (shouldEnable) {
+        combo.enable();
+    } else {
+        combo.disable();
+    }
 }
 	
 ````
