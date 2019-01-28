@@ -20,7 +20,7 @@ Binding the control to a XML file is achievable by following the below listed st
 
 1. Subscribe to the **PageLoad** event and in the event handler create a new instance of the **XmlGanttProvider** provider passing the XML file path to its constructor.
 
-1. Set the **RadGannt.Provider** property to the newly created provider instance.
+1. Set the **RadGantt.Provider** property to the newly created provider instance.
 
 The below provided example illustrates a possible realization of the above mentioned.
 
