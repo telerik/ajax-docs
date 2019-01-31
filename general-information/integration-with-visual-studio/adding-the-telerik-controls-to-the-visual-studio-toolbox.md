@@ -28,11 +28,11 @@ If you are using the [ZIP distribution]({%slug introduction/installation/install
 
 1. Browse to the installation folder, open the **bin40** folder and select the **Telerik.Web.UI.dll**.
 
-	* If the Windows Installer MSI Package was used to install Telerik® UI for ASP.NET AJAX, the **bin40**	folder is located in **C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Bin40**
+	* If the Windows Installer MSI Package was used to install Telerik® UI for ASP.NET AJAX, the **bin40**	folder is located in **C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Bin40**
 
 	* If the ZIP was used to install the Telerik controls, the **bin40** folder is located in the folder where the installation files have been unzipped.
 
-	>note If you want to add Telerik controls for .NET 3.5 or .NET 4.5 web project you should select the Telerik.Web.UI.dll from the **C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Bin35** or **~\Bin45** folder.
+	>note If you want to add Telerik controls for .NET 3.5 or .NET 4.5 web project you should select the Telerik.Web.UI.dll from the **C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Bin35** or **~\Bin45** folder.
 
 >note Telerik controls are not automatically installed into any configuration of Visual Studio Express because the end-user license agreement (EULA) of VS Express does not allow third-party extensions to be registered.
 
