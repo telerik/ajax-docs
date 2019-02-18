@@ -49,7 +49,41 @@ End Sub
 	
 ````
 
+
+When customizing a Timeslot based on the start time hours, the start time should be converted to the Timezone of the Scheduler, if it is set. 
+
+## Example
+
+````C#
+	
+protected void RadScheduler1_TimeSlotCreated(object sender, Telerik.Web.UI.TimeSlotCreatedEventArgs e)
+{
+        RadScheduler scheduler = sender as RadScheduler;
+        DateTime startdate = e.TimeSlot.Start.Add(scheduler.TimeZoneOffset);
+        if (startdate.Hour == 8)
+        {
+            e.TimeSlot.CssClass += "Disabled";
+        }
+}  
+	
+````
+````VB.NET
+	
+Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
+	Dim scheduler As RadScheduler = DirectCast(sender, RadScheduler)
+	Dim startdate = e.TimeSlot.Start.Add(scheduler.TimeZoneOffset)
+
+	If startdate.Hour = 8 Then
+	    e.TimeSlot.CssClass += "Disabled"
+	End If
+End Sub
+	
+````
+
+
 ## See Also
 
  * [Advanced Edit Form vs. Inline Editing](https://demos.telerik.com/aspnet-ajax/scheduler/examples/appointment-editing/defaultcs.aspx)
+
+ * [Scheduler - Customizing the Time Slots](https://demos.telerik.com/aspnet-ajax/scheduler/examples/customizetimeslots/defaultcs.aspx)
 
