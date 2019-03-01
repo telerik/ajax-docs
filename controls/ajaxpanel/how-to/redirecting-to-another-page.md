@@ -11,22 +11,35 @@ position: 1
 # Redirecting to Another Page
 
 
-
-Telerik RadAjax supports two kinds of redirection:
+There are two basic kinds of redirection to a new page from the server:
 
 * **Response.Redirect()** - The standard ASP.NET means of redirection.
 
 * Generating JavaScript that sets **window.location.href** .
 
->caution Currently there is a security issue that prevents Response.Redirect with AJAX from working in Windows Server 2008. IIS 7 simply does not allow catching the Application events. You should be able to use the RadAjaxManager.Redirect method instead.
->
+In case `Response.Redirect()` does not work for you (for example, if called during partial rendering), you can use the script generation approach through a `RadAjaxControl.Redirect()` server method exposed by `RadAjaxManager` and `RadAjaxPanel`.
+
+This Telerik method registers JavaScript code that uses the **window.location.href** property to navigate to a new URL, while providing you with the convenience of using a simple server method.
+
+>caption **Example 1**: Using **RadAjaxManager** Redirect()
 
 
-## Redirecting on the Client (JavaScript window.location.href)
 
-**RadAjaxManager** and **RadAjaxPanel** also support the **Redirect()** method, which in essence adds short JavaScript code to be evaluated after the AJAX request. The JavaScript code uses the **window.location.href** property to navigate to a new URL.
+````C#
+	
+RadAjaxManager1.Redirect("http://www.google.com/");
+//or
+RadAjaxManager.GetCurrent(Page).Redirect("http://www.google.com/");
+	
+````
+````VB
+RadAjaxManager1.Redirect("http://www.google.com/")
+'or
+RadAjaxManager.GetCurrent(Page).Redirect("http://www.google.com/")
+````
 
-**Example 1**: Using **RadAjaxManager** and **RadAjaxPanel** Redirect()
+
+>caption **Example 1**: Using **RadAjaxPanel** Redirect()
 
 
 ````C#

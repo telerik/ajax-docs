@@ -15,9 +15,20 @@ position: 1
 
 This help article describes the methods of RadAjaxControl and show examples how to use them.
 
-## 
+The `RadAjaxManager` class exposes a static method that you can use to get a reference to the `RadAjaxManager` instance on the current page from the code-behind:
 
-**RadAjaxManager** and **RadAjaxPanel** both descend from **RadAjaxControl**,which introduces the following methods:
+
+````C#
+RadAjaxManager ram = RadAjaxManager.GetCurrent(Page);
+````
+````VB
+Dim ram as RadAjaxManager = RadAjaxManager.GetCurrent(Page)
+````
+
+## Instance Methods
+
+
+**RadAjaxManager** and **RadAjaxPanel** both descend from **RadAjaxControl**, which introduces the following methods:
 
 * **Alert** - This method executes a JavaScript **alert()** on the client.**Alert()** takes a single string parameter for text to be displayed in the alert.
 
