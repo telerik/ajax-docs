@@ -40,7 +40,7 @@ End Class
 ````
 
 
-* In the custom class you should implement the Get, Update, Delete and Insert methods using the EntityFramework DBContenxt for both Task and Dependencies objects. 
+* In the custom class you should implement the Get, Update, Delete and Insert methods using the EntityFramework DBContext for both Task and Dependencies objects. 
 
 
 ````C#
