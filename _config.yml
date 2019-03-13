@@ -1752,8 +1752,6 @@ defaults:
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
-#Remove the general suffix that is appended to the <title></title> - " | Telerik UI for ASP.NET AJAX" because we have it in the yml metadata in the individual files
-use_product_in_title: false
 
 #Feedback Form Google Sheet ID
 ff-sheet-id: 151ze-U5jubCYVfw9f8ZMJJv9hr1a_bSJCV8-Fmi2nQU
