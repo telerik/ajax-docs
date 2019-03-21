@@ -10,7 +10,7 @@ position: 0
 
 # Custom EntityFramework Provider
 
-The following article demonstrates how to implement a custom provider for the RadGantt, using EntityFramework.
+The following article demonstrates how to implement a custom provider for the RadGantt, using EntityFramework. For a simpler sample using generic collections see the [RadGantt with Simple CustomProvider using collections in Session](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/radgantt-with-simple-customprovider-using-collections-in-session) KB article.
 
 ## Implementing Custom Provider, using EntityFramework.
 
@@ -138,3 +138,11 @@ End Sub
 
 
 [Here](http://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you can find a code library with a runnable sample project, created based on the above instructions.
+
+
+# See Also
+
+ * [Use CustomFields in Gantt with a simple CustomProvider](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/use-customfields-in-gantt-with-a-simple-customprovider)
+ 
+ * [RadGantt with Simple CustomProvider using collections in Session](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/radgantt-with-simple-customprovider-using-collections-in-session)
+ 
