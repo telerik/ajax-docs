@@ -55,7 +55,7 @@ The properties can be set either declaratively or programmatically:
 
 
 
->note  **ModelErrorMessage** control validation is available only in .NET 4.5 when ModelBinding is used.
+>note  **ModelErrorMessage** control validation is available only in the Assemblies targetting the `.NET 4.5` (e.g. Telerik version xxxx.x.xxx.45) when ModelBinding is used. See [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 >
 
 
