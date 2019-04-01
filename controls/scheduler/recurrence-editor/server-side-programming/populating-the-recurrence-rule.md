@@ -118,6 +118,8 @@ range.Start = DateTime.Now;
 range.EventDuration = TimeSpan.FromMinutes(30);
 range.MaxOccurrences = 3;
 RecurrenceDay recurrenceDay = RecurrenceDay.Wednesday;
+//To set multiple recurrence days, a bitwise mask should be used
+//RecurrenceDay recurrenceDay = RecurrenceDay.Monday | RecurrenceDay.Wednesday | RecurrenceDay.Friday;
 recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range);
 //DayOfWeek startDayOfWeek = DayOfWeek.Tuesday;
 //recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
@@ -132,6 +134,8 @@ range.Start = DateTime.Now
 range.EventDuration = TimeSpan.FromMinutes(30)
 range.MaxOccurrences = 3
 Dim recurrenceDay As RecurrenceDay = RecurrenceDay.Wednesday
+'To set multiple recurrence days, a bitwise mask should be used
+'Dim recurrenceDay As RecurrenceDay = RecurrenceDay.Monday Or RecurrenceDay.Wednesday Or RecurrenceDay.Friday
 recurrenceEditor.RecurrenceRule = New WeeklyRecurrenceRule(interval, recurrenceDay, range)
 'DayOfWeek startDayOfWeek = DayOfWeek.Tuesday;
 'recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
@@ -201,52 +205,6 @@ Dim month As RecurrenceMonth = RecurrenceMonth.June
 recurrenceEditor.RecurrenceRule = New YearlyRecurrenceRule(month, dayOrdinal, range)
 'RecurrenceDay dayOfWeek = RecurrenceDay.Monday;
 'recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(dayOrdinal, month, dayOfWeek, range);
-	
-````
-
-
-The recurrence rule can be created and directly added as a property of an Appointment as shown in the code:
-
-
-
-````C#
-protected void RadButton1_Click(object sender, EventArgs e)
-{
-	Appointment newAppointment = new Appointment();
-	newAppointment.Subject = RadTextBox1.Text;
-	newAppointment.Start = DateTime.Now;
-	newAppointment.End = DateTime.Now.Add(TimeSpan.FromHours(1));
-	int interval = 1;
-	RecurrenceRange range = new RecurrenceRange();
-	range.Start = newAppointment.Start;
-	range.EventDuration = newAppointment.End-newAppointment.Start;
-	range.MaxOccurrences = 3;
-	RecurrenceRule newDayly = new DailyRecurrenceRule(interval, range);
-	newAppointment.RecurrenceRule = newDayly.ToString();
-
-	RadScheduler1.InsertAppointment(newAppointment);
-	RadScheduler1.Rebind();
-}
-````
-````VB.NET
-	
-	
-Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
-	Dim newAppointment As New Appointment()
-	newAppointment.Subject = RadTextBox1.Text
-	newAppointment.Start = DateTime.Now
-	newAppointment.[End] = DateTime.Now.Add(TimeSpan.FromHours(1))
-	Dim interval As Integer = 1
-	Dim range As New RecurrenceRange()
-	range.Start = newAppointment.Start
-	range.EventDuration = newAppointment.[End] - newAppointment.Start
-	range.MaxOccurrences = 3
-	Dim newDayly As RecurrenceRule = New DailyRecurrenceRule(interval, range)
-	newAppointment.RecurrenceRule = newDayly.ToString()
-
-	RadScheduler1.InsertAppointment(newAppointment)
-	RadScheduler1.Rebind()
-End Sub
 	
 ````
 
