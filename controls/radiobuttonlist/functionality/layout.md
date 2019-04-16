@@ -26,7 +26,7 @@ You can see the output of **Example 1** that shows different layouts of the cont
 
 >caption Example 1: Configure the Layout of RadRadioButtonList. 
 
-````ASP.NET
+````ASP.NET 
 Layout="Flow"
 <telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" Layout="Flow">
 </telerik:RadRadioButtonList>
@@ -42,7 +42,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		RadioButtonListItem rbli = new RadioButtonListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadRadioButtonList1.Items.Add(rbli);
 		RadRadioButtonList2.Items.Add(rbli);
@@ -53,7 +53,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New RadioButtonListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}
@@ -86,7 +86,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		RadioButtonListItem rbli = new RadioButtonListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadRadioButtonList1.Items.Add(rbli);
 	}
@@ -95,7 +95,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New RadioButtonListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}
@@ -130,7 +130,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		RadioButtonListItem rbli = new RadioButtonListItem() { Text = "Item " + i, Value = i.ToString() };
+		ButtonListItem rbli = new ButtonListItem() { Text = "Item " + i, Value = i.ToString() };
 		if (i == 0) { rbli.Selected = true; }
 		RadRadioButtonList1.Items.Add(rbli);
 		RadRadioButtonList2.Items.Add(rbli);
@@ -140,7 +140,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	For i As Integer = 0 To 9
-		Dim rbli As New RadioButtonListItem() With { _
+		Dim rbli As New ButtonListItem() With { _
 			Key .Text = "Item " & i, _
 			Key .Value = i.ToString() _
 		}
