@@ -18,6 +18,7 @@ As of Q1 2014, you can use the **AxisCrossingPoints** tag to rearrange the posit
 
 >tip You can set the `Value` of the `AxisCrossingPoint` to a very high value (like `99999`) that is higher than the number of items on the x-axis to ensure it is always on the right-hand side.
 
+>warning `AxisName`  property is not supported for **Radar** and **Polar** series types.
 
 >caption Figure 1: A Column chart with an additional y-axis, which is repositioned on the right.
 
