@@ -36,3 +36,9 @@ If you are using the [ZIP distribution]({%slug introduction/installation/install
 
 >note Telerik controls are not automatically installed into any configuration of Visual Studio Express because the end-user license agreement (EULA) of VS Express does not allow third-party extensions to be registered.
 
+#### Add the controls to your project
+
+The following article describes the steps for including the Telerik Assemblies into Visual Studio projects: [Add the Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-the-controls-to-your-project)
+
+## See Also
+ * [Add the Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-the-controls-to-your-project)
