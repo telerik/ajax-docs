@@ -17,20 +17,43 @@ position: 11
 
 *Problem:*
 
-**The Telerik® UI for ASP.NET AJAX submenu is missing and only the “About” option is available under the Telerik menu.**
-
-![Only about menu is visible](images/introduction-vsx_troubleshooting_only_about.png)
+**Missing Telerik menu in Visual Studio**
 
 *Reason:*
 
-Telerik.[Product].VSPackage which is part of the VSExtensions failed to load properly, or was not installed correctly.
+Telerik Visual Studio Extensions are disabled or not installed correctly.
 
-*Suggested solution:*
+*Suggested solution 1(Extension is Disabled):*
+
+* Open Visual Studio;
+
+* Go to menu Tools - > Extensions and Updates...(for Visual Studio 2019 Extensions - > Manage Extensions)
+
+* Open the Installed tab on the left​
+
+* Search for Telerik UI for WinForms VSExtensions and make sure they are Enabled
+
+![vsextensions-disabled](images/vsextensions-disabled.png)
+
+*Suggested solution 2(Extension is not installed):*
+
+* Open Visual Studio;
+
+* Go to menu Tools - > Extensions and Updates...(for Visual Studio 2019 Extensions - > Manage Extensions)
+
+* Open the Online tab on the left​
+
+* Search for Telerik UI for WinForms VSExtensions
+
+* Download and install the extensions
+
+*Suggested solution 3(for Visual Studio 2013 and older):*
 
 * Close all instances of Visual Studio;
 
 * Start a Visual Studio Command Prompt (*Start menu -> Microsoft Visual Studio 20xx -> Visual Studio Tools -> Visual Studio 20xx Command Prompt*);
-![Visual Studio 2012 Command Prompt](images/introduction-vsx_troubleshooting_vsprompt.png)
+
+![Visual Studio 2012 Command Prompt](images/introduction-vsx_disabled.png)
 
 * type *devenv.exe /resetskippkgs* and hit Enter;
 
@@ -61,3 +84,9 @@ If Visual Studio 2012 is used
 * Go to the Online Gallery and search for Telerik [Product] VSExtensions. Download the extensions and install them
 
 * Restart VS2012 and check the Telerik menu, or try to create new Telerik project (the wizards should work properly)
+
+>important If the article does not help solving your problem, please follow these steps to generate Visual Studio [ActivityLog](https://docs.microsoft.com/en-us/visualstudio/ide/reference/log-devenv-exe?view=vs-2019) file before contacting our support:
+>* Open [Developer Command prompt](https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio 20xx under **Administrative rights**.
+>* Execute the command - devenv /log %userprofile%\desktop\ActivityLog.xml . This will start Visual Studio and create logs on your Desktop.
+>* Reproduce the problem
+>* Attach the **Activitylog** files when you contact our support.
