@@ -33,7 +33,7 @@ Telerik Visual Studio Extensions are disabled or not installed correctly.
 
 * Search for Telerik ASP.NET AJAX VSExtensions and make sure they are Enabled
 
-![vsextensions-disabled](images/vsextensions-disabled.png)
+![vsextensions-disabled](images/introduction-vsx_disabled.png)
 
 *Suggested solution 2(Extension is not installed):*
 
@@ -53,7 +53,7 @@ Telerik Visual Studio Extensions are disabled or not installed correctly.
 
 * Start a Visual Studio Command Prompt (*Start menu -> Microsoft Visual Studio 20xx -> Visual Studio Tools -> Visual Studio 20xx Command Prompt*);
 
-![Visual Studio 2012 Command Prompt](images/introduction-vsx_disabled.png)
+!![Visual Studio 2012 Command Prompt](images/introduction-vsx_troubleshooting_vsprompt.png)
 
 * type *devenv.exe /resetskippkgs* and hit Enter;
 
