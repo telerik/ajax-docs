@@ -1450,6 +1450,15 @@ The dictionary containing key values..
 
 `Telerik.Web.UI.GridDataItem[]` 
 
+###  GenerateXlsxOutput
+
+Generates the text representing the Export Output for Microsoft Excel XSLX format using the properties set in the
+            ExportSettings.
+
+#### Returns
+
+`System.String` 
+
 ###  GetBatchColumnEditor
 
 Returns the column editor for the specified column for EditMode="Batch".

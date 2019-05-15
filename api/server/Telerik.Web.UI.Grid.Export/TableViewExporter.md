@@ -53,6 +53,14 @@ TableCell object
 
 `System.String` String value
 
+###  GenerateXlsxOutput
+
+Generates the text representing the Export Output for Microsoft Excel XSLX format
+
+#### Returns
+
+`System.String` 
+
 ###  GetTemplateColumnHeaderText
 
 CSV-specific method. Extracts the text from the given header item cell

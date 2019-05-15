@@ -27,6 +27,19 @@ Gets or sets a value indicating whether the paging in  is enabled
 
 Configures the opening and closing animations of the suggestion popup. Setting the animation option to false will disable the opening and closing animations. As a result the suggestion popup will open and close instantly.
 
+###  AutoPostBack `Boolean`
+
+Gets or sets a value indicating whether a postback to the server automatically
+            occurs when the user changes the RadComboBox selection.
+
+#### Remarks
+Set this property to true if the server needs to capture the selection
+                as soon as it is made. For example, other controls on the Web page can be
+                automatically filled depending on the user's selection from a list control.This property can be used to allow automatic population of other controls on
+                the Web page based on a user's selection from a list.The value of this property is stored in view state.
+                    The server-side event that is fired is
+                    SelectedIndexChanged.
+
 ###  CascadeFrom `String`
 
 Use it to set the Id of the parent MultiColumnComboBox widget.Help topic showing how cascading functionality works
@@ -38,6 +51,20 @@ Defines the field to be used to filter the data source. If not defined the paren
 ###  CascadeFromParentField `String`
 
 Defines the parent field to be used to retain value from. This value will be used further to filter the dataSource. If not defined the value from the parent's dataValueField will be used.
+
+###  CausesValidation `Boolean`
+
+Gets or sets a value indicating whether validation is performed when an item within
+            the control is selected.
+
+#### Remarks
+By default, page validation is performed when an item is selected. Page
+                validation determines whether the input controls associated with a validation
+                control on the page all pass the validation rules specified by the validation
+                control. You can specify or determine whether validation is performed on both the
+                client and the server when an item is clicked by using the CausesValidation
+                property. To prevent validation from being performed, set the
+                CausesValidation property to false.
 
 ###  ClearButton `Boolean`
 
@@ -64,6 +91,13 @@ Defines the columns rendered in the table of the MultiColumnComboBox.
 
 The CssClass property will now be used instead of the former Skin 
             and will be modified in AddAttributesToRender()
+
+###  DataKeyNames `String[]`
+
+Gets or sets an array of data-field names that will be used to populate the MultiColumnComboBox's DataItem property which is used to populated the control's template. The field declared in the Columns are added by default.
+
+#### Remarks
+Note: The dataItem's properties declared in the template should be with lower case.
 
 ###  DataTextField `String`
 
@@ -202,6 +236,11 @@ The hint displayed by the widget when it is empty. Not set by default.
 
 The options that will be used for the popup initialization. For more details about the available options refer to Popup documentation.
 
+###  PostBackUrl `String`
+
+Gets or sets the URL of the page to post to from the current page when a tab
+                from the tabstrip is clicked.
+
 ###  RegisterWithScriptManager `Boolean`
 
 Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
@@ -228,6 +267,10 @@ Returns resolved RenderMode should the original value was Auto
 Gets the real skin name for the control user interface. If Skin is not set, returns
             "Default", otherwise returns Skin.
 
+###  Schema `ClientDataSourceSchema`
+
+Contains settings about the schema and model of the data used in .
+
 ###  Skin `String`
 
 Gets or sets the skin name for the control user interface.
@@ -247,6 +290,15 @@ When set to true the widget will automatically set selected value to the typed c
 ###  Text `String`
 
 The text of the widget used when the autoBind is set to false.
+
+###  ValidationGroup `String`
+
+Gets or sets the name of the validation group to which this validation
+                control belongs.
+
+#### Remarks
+This property works only when CausesValidation
+                is set to true.
 
 ###  Value `String`
 
@@ -345,6 +397,22 @@ Executed when post data is loaded from the request
 #### Returns
 
 `System.Boolean` 
+
+###  OnSelectedIndexChanged
+
+Raises the SelectedIndexChanged event. This allows you to handle the event directly.
+
+#### Returns
+
+`System.Void` 
+
+###  RaisePostDataChangedEvent
+
+Signals the RadComboBox control to notify the ASP.NET application that the state of the control has changed.
+
+#### Returns
+
+`System.Void` 
 
 ###  RaisePostDataChangedEvent
 

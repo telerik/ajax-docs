@@ -49,6 +49,10 @@ Gets or sets an optional parameter passed to the Command event along with the as
 
 Gets or sets the command name associated with the Button control that is passed to the Command event.
 
+###  ConfirmSettings `RadButtonConfirmSettings`
+
+Gets the object that controls the built-in confirmation dialog properties.
+
 ###  ContentTemplate `ITemplate`
 
 Gets or sets the template for the Button control.

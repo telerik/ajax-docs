@@ -17,7 +17,7 @@ RadCheckBox leverages the functionality of the standard checkbox.
 * Telerik.Web.UI.ButtonBase.RadButtonBase : INamingContainer
 * Telerik.Web.UI.ButtonBase.PostBackButtonBase : IButtonControl, IPostBackEventHandler
 * Telerik.Web.UI.ButtonBase.CheckableButton : ICheckableButton
-* Telerik.Web.UI.RadCheckBox
+* Telerik.Web.UI.RadCheckBox : IJavaScriptConverterProvider
 
 ## Properties
 
@@ -53,6 +53,10 @@ Gets or sets an optional parameter passed to the Command event along with the as
 ###  CommandName `String`
 
 Gets or sets the command name associated with the Button control that is passed to the Command event.
+
+###  ConfirmSettings `RadButtonConfirmSettings`
+
+Gets the object that controls the built-in confirmation dialog properties.
 
 ###  CssClass `String`
 

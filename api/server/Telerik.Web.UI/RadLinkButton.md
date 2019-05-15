@@ -32,6 +32,10 @@ Gets the object that controls the Wai-Aria settings applied on the control's ele
 This property is overridden in order to support controls which implement INamingContainer.
             The default value is changed to "AutoID".
 
+###  ConfirmSettings `RadButtonConfirmSettings`
+
+Gets the object that controls the built-in confirmation dialog properties.
+
 ###  ContentTemplate `ITemplate`
 
 Gets or sets the template for the Button control.
