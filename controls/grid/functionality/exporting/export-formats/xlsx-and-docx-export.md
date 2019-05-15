@@ -162,6 +162,14 @@ Additionally you can change the default alignment on **OnInfrastructureExporting
 
 Both **xlsx** and **docx** support exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an **absolute** or **relative** path are supported, but binary images are not.
 
+## Generate Export Output
+
+RadGrid provides a convenient way to extract the XLSX output as a string without actually exporting - this is done via the `GenerateXlsxOutput()` method.
+
+This can be used to get the content out of multiple grids simultaneously, then modify or save it. You can check the [Export Multiple Grids](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export-multiple-grids/defaultcs.aspx?product=grid) live demo which demonstrates a practical implementation.
+
+**If you are not actually exporting** at the end of the logic and the Response is not cleared, the state of the grids may change. This is especially true when the `IgnorePaging` and `HideStructureColumns` exporting properties are enabled. To return the original state, you can set `AllowPaging` to true then call `Rebind()` to the grid instance. Alternatively, you can try using the `Response.Redirect(Request.RawUrl);` approach.
+
 ## Limitations
 
 * No hierarchy support
