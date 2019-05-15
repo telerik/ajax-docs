@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The server-side **OnEntryAdded** event occurs when an entry is added to the entry area, causing a postback.
+The server-side **OnEntryAdded** event occurs when an entry is added to the entry area, causing a postback. The postback is triggered when the dropdown is closed. To close the dropdown when a node is selected, you can set DropDownSettings-CloseDropDownOnSelection="true".
 
 The event handler receives two parameters:
 

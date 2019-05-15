@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The server-side **OnEntryRemoved** event occurs when an entry is removed from the entry area, causing a postback.
+The server-side **OnEntryRemoved** event occurs when an entry is removed from the entry area, causing a postback. The postback is triggered when the dropdown is closed. To close the dropdown when a node is selected, you can set DropDownSettings-CloseDropDownOnSelection="true".
 
 The event handler receives two parameters:
 
