@@ -14,9 +14,11 @@ position: 1
 
 There are three ways to bind to data on the client:
 
-* [Built-in Settings](#webservicesettings)
-* [Using RadClientDataSource](#radclientdatasource)
-* [Create a JavaScript Object at Runtime](#javascript-object-at-runtime)
+- [Client-Side Data Binding](#client-side-data-binding)
+	- [WebServiceSettings](#webservicesettings)
+	- [RadClientDataSource](#radclientdatasource)
+	- [JavaScript Object at Runtime](#javascript-object-at-runtime)
+	- [See Also](#see-also)
 
 ## WebServiceSettings
 
@@ -38,6 +40,113 @@ The widget only shows data and so only the **Select** settings and `ServiceType`
         <telerik:MultiColumnComboBoxColumn Field="CategoryID" Title="ID" />
     </ColumnsCollection>
 </telerik:RadMultiColumnComboBox>
+````
+
+As of R2 2019, the Schema can also be configured via the <Schema> tag. That would allow easy parsing of the response from various web services, such as .asmx web service.
+
+````ASP.NET
+<telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1"
+    DropDownWidth="600px" Width="350px" Height="200" DataTextField="Title"
+    EnforceMinLength="false">
+    <ColumnsCollection>
+        <telerik:MultiColumnComboBoxColumn Field="Title" Title="ID" />
+        <telerik:MultiColumnComboBoxColumn Field="Author" Title="Name" />
+    </ColumnsCollection>
+    <WebServiceSettings>
+        <Select Url="BooksService.asmx/GetBooks" RequestType="Post" DataType="JSON" ContentType="application/json; charset=utf-8" />
+    </WebServiceSettings>
+    <Schema DataName="d">
+    </Schema>
+</telerik:RadMultiColumnComboBox>
+````
+
+````C#
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+[System.Web.Script.Services.ScriptService]
+public class BooksService : System.Web.Services.WebService
+{
+    [WebMethod]
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+    public List<Book> GetBooks()
+    {
+        var books = new List<Book>();
+        books.Add(new Book
+        {
+            Title = "Professional ASP.NET 4.5 in C# and VB",
+            Author = "Jason N. Gaylord",
+            Cover = "http://ecx.images-amazon.com/images/I/51MQP2rwsZL.jpg",
+            Url = "http://www.amazon.com/Professional-ASP-NET-4-5-C-VB/dp/1118311825"
+        });
+        books.Add(new Book
+        {
+            Title = "Pro ASP.NET 4.5 in C#",
+            Author = "Adam Freeman",
+            Cover = "http://ecx.images-amazon.com/images/I/51h6duC3kmL.jpg",
+            Url = "http://www.amazon.com/Pro-ASP-NET-4-5-Adam-Freeman/dp/143024254X"
+        });
+        books.Add(new Book
+        {
+            Title = "Beginning ASP.NET 4.5 in C#",
+            Author = "Matthew MacDonald",
+            Cover = "http://ecx.images-amazon.com/images/I/51xvkzeTRbL.jpg",
+            Url = "http://www.amazon.com/Beginning-ASP-NET-4-5-1-Wrox-Programmer/dp/111884677X"
+        });
+        books.Add(new Book
+        {
+            Title = "Beginning ASP.NET 4.5.1: in C# and VB ",
+            Author = "Imar Spaanjaars",
+            Cover = "http://ecx.images-amazon.com/images/I/51xvkzeTRbL.jpg",
+            Url = "http://www.amazon.com/Beginning-ASP-NET-4-5-1-Wrox-Programmer/dp/111884677X"
+        });
+        books.Add(new Book
+        {
+            Title = "Pro C# 5.0 and the .NET 4.5 Framework",
+            Author = "Andrew Troelsen",
+            Cover = "http://ecx.images-amazon.com/images/I/7165No4MIpL._SL1500_.jpg",
+            Url = "http://www.amazon.com/Beginning-ASP-NET-Databases-Sandeep-Chanda/dp/1430243805"
+        });
+        books.Add(new Book
+        {
+            Title = "Ultra-Fast ASP.NET 4.5",
+            Author = "Rick Kiessig",
+            Cover = "http://ecx.images-amazon.com/images/I/51Pu1Z8pgsL.jpg",
+            Url = "http://www.amazon.com/Ultra-Fast-ASP-NET-Experts-Voice-ASP-Net/dp/1430243384"
+        });
+        books.Add(new Book
+        {
+            Title = "ASP.NET 4.5 Unleashed",
+            Author = "Stephen Walther",
+            Cover = "http://ecx.images-amazon.com/images/I/41V4tb3L%2BFL.jpg",
+            Url = "http://www.amazon.com/ASP-NET-4-5-Unleashed-Stephen-Walther/dp/067233688X"
+        });
+        books.Add(new Book
+        {
+            Title = "Pro ASP.NET MVC 4",
+            Author = "Adam Freeman",
+            Cover = "http://ecx.images-amazon.com/images/I/51mKVgdmZpL.jpg",
+            Url = "http://www.amazon.com/Pro-ASP-NET-MVC-Adam-Freeman/dp/1430242361"
+        });
+        books.Add(new Book
+        {
+            Title = "Professional C# 5.0 and .NET 4.5.1",
+            Author = "Christian Nagel",
+            Cover = "http://ecx.images-amazon.com/images/I/516-BPVWURL.jpg",
+            Url = "http://www.amazon.com/Professional-C-5-0-NET-4-5-1/dp/1118833031"
+        });
+
+        return books;
+    }
+}
+
+public class Book
+{
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public string Cover { get; set; }
+    public string Url { get; set; }
+}
 ````
 
 ## RadClientDataSource

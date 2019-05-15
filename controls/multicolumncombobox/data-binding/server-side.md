@@ -10,9 +10,65 @@ position: 0
 
 # Server-Side Data Binding
 
-**RadMultiColumnComboBox** can be bound to standard server data sources like `List<T>`, `SqlDataSource` or a `DataTable`. The data from the server data source is serialized as a JSON literal to the client-side when the page loads, because RadMultiColumnComboBox is a wrapper over the Kendo UI for jQuery widget and so it always operates on the client. This includes fields that are not rendered, and they will be part of the client-side dataItem associated with each row.
+**RadMultiColumnComboBox** can be bound to standard server data sources like `List<T>`, `SqlDataSource` or a `DataTable`. The data from the server data source creates MultiColumnComboBox items which are serialized as a JSON literal to the client-side. It is parsed on the client-side as the RadMultiColumnComboBox is a wrapper over the Kendo UI for jQuery widget which are entirely client-side. 
 
->caption Example 1: Bind to an SqlDataSource
+As of R2 2019, the fields that you would like to have rendered and available on the client-side should be passed to the DataKeyNames property, comma-separated. Also, you can add additional data to the items via the Attributes collection which will be serialized and available on the client-side.
+
+>note The DataTextField, DataValueField and the Fields declared in the MultiColumnComboBoxColumns are added by default to the DataKeyNames, so it is not necessary to add them explicitly.
+>
+
+>caption Example 1: Declare items in the Markup
+
+````ASP.NET
+<telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1"
+    Width="220px" Height="400" 
+    DataTextField="text" DataValueField="value">
+    <ColumnsCollection>
+        <telerik:MultiColumnComboBoxColumn Field="text" Title="Text">
+        </telerik:MultiColumnComboBoxColumn>
+        <telerik:MultiColumnComboBoxColumn Field="value" Title="Value">
+        </telerik:MultiColumnComboBoxColumn>
+    </ColumnsCollection>
+    <Items>
+        <telerik:MultiColumnComboBoxItem Text="Item 1" Value="1" />
+        <telerik:MultiColumnComboBoxItem Text="Item 2" Value="2" />
+        <telerik:MultiColumnComboBoxItem Text="Item 3" Value="3" />
+        <telerik:MultiColumnComboBoxItem Text="Item 4" Value="4" />
+    </Items>
+</telerik:RadMultiColumnComboBox>
+````
+
+>caption Example 2: Add items programmatically
+
+````ASP.NET
+<telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1"
+    Width="220px" Height="400" 
+    DataTextField="text" DataValueField="value">
+    <ColumnsCollection>
+        <telerik:MultiColumnComboBoxColumn Field="text" Title="Text">
+        </telerik:MultiColumnComboBoxColumn>
+        <telerik:MultiColumnComboBoxColumn Field="value" Title="Value">
+        </telerik:MultiColumnComboBoxColumn>
+    </ColumnsCollection>
+</telerik:RadMultiColumnComboBox>
+````
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    for (int i = 0; i < 5; i++)
+    {
+        var newItem = new MultiColumnComboBoxItem();
+        newItem.Text = "Item #" + i;
+        newItem.Value = i.ToString();
+
+        RadMultiColumnComboBox1.Items.Add(newItem);
+    }
+}
+````
+
+
+>caption Example 3: Bind to an SqlDataSource
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox0" Skin="Default"
@@ -35,7 +91,7 @@ position: 0
     SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
 
->caption Example 2: Bind to a List of anonymous objects
+>caption Example 4: Bind to a List of anonymous objects
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox1" Skin="Default"
@@ -83,7 +139,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
 End Sub
 ````
 
->caption Example 3: Bind to a List of named objects
+>caption Example 5: Bind to a List of named objects
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox ID="RadMultiColumnComboBox2" Skin="Default" DropDownWidth="400" Width="220px" runat="server"
@@ -140,7 +196,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
 End Sub
 ````
 
->caption Example 4: Bind to a DataTable
+>caption Example 6: Bind to a DataTable
 
 ````ASP.NET
 <telerik:RadMultiColumnComboBox runat="server" ID="RadMultiColumnComboBox3" Skin="Default" DropDownWidth="800" Width="220px"

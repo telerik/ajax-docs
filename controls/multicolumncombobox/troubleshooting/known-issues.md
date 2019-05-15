@@ -14,6 +14,9 @@ This article lists known issues in the RadMultiColumnComboBox control.
 
 ## Failed to Created Designer
 
+>note  **R2 2019** release introduces the Design-time for the RadMultiColumnComboBox control. The issue is present only in earlier versions.
+>
+ 
 RadMultiColumnComboBox does not support design-time at the moment.
 
 When you open the Design-time surface of Visual Studio, RadMultiColumnComboBox instances will not render and will throw the `Failed to create designer` error.
@@ -24,6 +27,9 @@ When you open the Design-time surface of Visual Studio, RadMultiColumnComboBox i
 
 
 ## Cannot Find Embedded Skin
+
+>note **R2 2019** release introduces multiple skins for the RadMultiColumnComboBox control. The issue is present only in earlier versions.
+>
 
 RadMultiColumnComboBox supports only the **Default** skin. 
 

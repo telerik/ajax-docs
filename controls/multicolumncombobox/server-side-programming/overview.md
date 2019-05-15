@@ -12,9 +12,21 @@ position: 0
 
 You can configure the settings of **RadMultiColumnComboBox** and create its elements in the code-behind via the Server-Side API of the control.
 
+## RadMultiColumnComboBox Server-side Events
+
+In the R2 2019 release, server-side events for the **RadMultiColumnComboBox** control are introduced. Here is a list of the available events: 
+
+* OnDataBinding
+* OnDataBound
+* OnInit
+* [OnItemDataBound]({%slug multicolumncombobox/server-side-programming/events/itemdatabound%})
+* OnLoad
+* OnPreRender
+* [OnSelectedIndexChanged]({%slug multicolumncombobox/server-side-programming/events/selectedindexchanged%})
+
 ## RadMultiColumnComboBox Public Properties and Methods
 
-For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadMultiColumnComboBox class](https://testdocs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadMultiColumnComboBox). You can also find it in the intellisense in Visual Studio.
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadMultiColumnComboBox class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadMultiColumnComboBox). You can also find it in the intellisense in Visual Studio.
 
 ## Get Selected Text and Value
 

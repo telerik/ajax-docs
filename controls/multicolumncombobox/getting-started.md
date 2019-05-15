@@ -38,7 +38,7 @@ The following tutorial demonstrates how you can add **RadMultiColumnComboBox** b
     
         * `Field` - the field from the data source that will be rendered.
         * `Title` - the header text.
-        * `Width`d - the width of the column. They should add up to the value of DropDownWidth.
+        * `Width` - the width of the column. They should add up to the value of DropDownWidth.
         
     The end result should be similar to the following:
 

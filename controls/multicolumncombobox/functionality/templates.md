@@ -12,13 +12,15 @@ position: 1
 
 **RadMultiColumnComboBox** uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the way pop-up items are rendered in the dropdown:
 
-* [Column Template](#column-template)
-* [Column Header Template](#column-header-template)
-* [Header Template](#header-template)
-* [Footer Template](#footer-template)
-* [No Data Template](#no-data-template)
-* [Group Template](#group-template)
-* [Fixed Group Template](#fixed-group-template)
+- [Templates](#templates)
+	- [Column Template](#column-template)
+	- [Column Header Template](#column-header-template)
+	- [Header Template](#header-template)
+	- [Footer Template](#footer-template)
+	- [No Data Template](#no-data-template)
+	- [Group Template](#group-template)
+	- [Fixed Group Template](#fixed-group-template)
+	- [See Also](#see-also)
 
 >caption Figure 1: Structure of the dropdown and where you can use templates. Produced by the code in Example 1 below.
 
@@ -100,7 +102,41 @@ position: 1
 
 ## Column Template
 
-This is the template that is rendered in each individual column. It receives the `data` parameter that points to the dataItem for the corresponding item, so you can use all its data source fields.
+This is the template that is rendered in each individual column. It receives the `data` parameter that points to the dataItem for the corresponding item, so you can use all its data source fields. The data from the attributes can be accessed via `attributes.AttributeKeyName` parameter.
+
+````ASP.NET
+<telerik:RadMultiColumnComboBox DataTextField="Name" DataValueField="Id" runat="server" ID="RadMultiColumnComboBox1">
+	<ColumnsCollection>
+		<telerik:MultiColumnComboBoxColumn Field="Id" Width="30px" Title="Id" />
+		<telerik:MultiColumnComboBoxColumn Field="Title" Width="250px">
+			<Template>
+				Position of <strong>#:data.Title#</strong>: #: attributes.customAttrText #
+			</Template>
+		</telerik:MultiColumnComboBoxColumn>
+	</ColumnsCollection>
+</telerik:RadMultiColumnComboBox>
+````
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+	var items = Enumerable.Range(0, 10).Select(x => new MyClass() { Id = x, Name = "Name " + x, Title = "Title " + x });
+	RadMultiColumnComboBox1.DataSource = items;
+	RadMultiColumnComboBox1.DataBind();
+	foreach (var item in RadMultiColumnComboBox1.Items)
+	{
+		item.Attributes.Add("customAttrText", "#" + item.Value);
+	}
+}
+public class MyClass
+{
+	public int Id { get; set; }
+	public string Name { get; set; }
+	public string Title { get; set; }
+}
+````
+
+
 
 ## Column Header Template
 
