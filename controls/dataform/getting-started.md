@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadDataForm for ASP.NET AJAX 
+page_title: Getting Started | RadDataForm for ASP.NET AJAX
 description: Getting Started
 slug: dataform/getting-started
 tags: getting,started
@@ -21,6 +21,8 @@ This tutorial will walk you through the creation of a sample application that co
 * Bind **DataForm** to a declarative **DataSource** control
 
 For the purpose of exemplifying this, you will need to create an empty Web.UI Application project and open it in Visual Studio.
+
+> RadDataForm is a control suitable for visualizing one record at a time. If you want to display and access multiple items on a single page, you can check the [RadListView](https://demos.telerik.com/aspnet-ajax/listview/examples/overview/defaultcs.aspx) component.
 
 ## Adding RadDataForm to the Project
 
@@ -68,7 +70,7 @@ Public Function GetDataTable() As DataTable
     table.Columns.Add("StartingDate", GetType(DateTime))
     table.Rows.Add("Sarah", "Blake", "Product Manager", 3500, True, "01/02/2014 00:00:00")
     Return table
-End Function	
+End Function
 ````
 
 
@@ -80,7 +82,7 @@ Once data table is defined, you may use it to bind it to the **RadDataForm** thr
 <telerik:RadDataForm runat="server" id="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource">
 </telerik:RadDataForm>
 ````
-````C#	
+````C#
 public DataTable GetDataTable()
 {
     DataTable table = new DataTable();

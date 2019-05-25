@@ -21,7 +21,7 @@ Full-size **RadToolBar**:
 
 ![RadToolBar Default](images/toolbar_responsive_default.png)
 
-**RadToolBar** with some of its elements collapsed: 
+**RadToolBar** with some of its elements collapsed:
 
 ![RadToolBar Default](images/toolbar_responsive_collapsed.png)
 
@@ -77,6 +77,23 @@ Full-size **RadToolBar**:
 
 >note All items with the same value for the `Group` property collapse or expand together.
 
+If you have responsiveness issues running your app on iOS or `iframe` container, you can try setting CSS rules to remedy this. Here is a sample:
+
+````CSS
+<style>
+    [id*='iframe-'] {
+        position: relative;
+        height: 0;
+        max-height: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        min-width: 100%;
+        width: 0;
+    }
+</style>
+````
+
+
 ## Preventing items from being collapsed
 
 You can prevent **items** from being collapsed and moved to the dropdown on screen resize, by setting their **OverFlow** property to **Never**:
@@ -88,4 +105,3 @@ You can prevent **items** from being collapsed and moved to the dropdown on scre
 </telerik:RadToolBarButton>
 ...
 ````
-

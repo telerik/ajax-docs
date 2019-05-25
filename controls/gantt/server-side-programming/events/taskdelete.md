@@ -25,7 +25,7 @@ The **RadGantt TaskDelete** is fired when a task's collection is about to be del
 ````
 
 ````C#
-protected void RadGantt1_TaskDelete(object sender, Telerik.Web.UI.Gantt.GanttEventArgs e)
+protected void RadGantt1_TaskDelete(object sender, Telerik.Web.UI.Gantt.TaskEventArgs e)
 {
     foreach (var item in e.Tasks)
     {
@@ -34,7 +34,7 @@ protected void RadGantt1_TaskDelete(object sender, Telerik.Web.UI.Gantt.GanttEve
 }
 ````
 ````VB.NET
-Protected Sub RadGantt1_TaskDelete(sender As Object, e As Gantt.GanttEventArgs)
+Protected Sub RadGantt1_TaskDelete(sender As Object, e As Gantt.TaskEventArgs)
     For Each item As var In e.Tasks
         '...
     Next

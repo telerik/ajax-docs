@@ -141,7 +141,7 @@ End Sub
 The **GetColumn(columnName)** method returns the column with the unique name specified as argument, namely:
 
 ````C#
-	    GridColumn column = RadGrid1.MasterTableView.GetColumn("OrderID");
+	    GridColumn column = RadGrid1.MasterTableView.GetColumn["OrderID"];
 	    //thus you get reference to the column with OrderID unique name
 ````
 ````VB

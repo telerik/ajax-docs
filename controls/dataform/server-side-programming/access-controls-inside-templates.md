@@ -97,6 +97,8 @@ Protected Sub RadDataForm1_ItemDataBound(ByVal sender As Object, ByVal e As RadD
 End Sub
 ````
 
+> RadDataForm is a control suitable for visualizing one record at a time. If you want to display and access multiple items on a single page, you can check the [RadListView](https://demos.telerik.com/aspnet-ajax/listview/examples/overview/defaultcs.aspx) component.
+
 # See Also
 
  * [DataForm Object API](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
