@@ -32,7 +32,7 @@ RadOrgChart is a databound control that currently supports various types of data
 
 * Any object that implements the IEnumerable interface.
 
->note It is important to note that the control does not represent a random tree of objects but rather strictly and only an organization of people.
+>note It is important to note that the control does not represent a random tree of objects but rather strictly and only an organization of people. That means that only a single root node is allowed and all child nodes should have exactly one parent node.
 >
 
 
