@@ -179,7 +179,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB.NET
 Protected Sub RadOrgChart2_NodeDataBound(sender As Object, e As Telerik.Web.UI.OrgChartNodeDataBoundEventArguments)
     If e.Node.ID = "2" Then
-        For Each groupItem As var In e.Node.GroupItems
+        For Each groupItem In e.Node.GroupItems
             groupItem.CssClass = "newItemSizeGroup"
         Next
     End If
