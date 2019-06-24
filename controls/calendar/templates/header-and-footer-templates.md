@@ -24,18 +24,17 @@ The following code shows a **RadCalendar** definition with header and footer tem
 ````ASPNET
 <telerik:RadCalendar RenderMode="Lightweight" id="RadCalendar1" runat="server">
     <HeaderTemplate>
-        <asp:Image id="HeaderImage" runat="server" Width="100%" ImageUrl="Images/spring_header.gif"></asp:Image>
+        <img id="HeaderImage" src="Images/spring_header.gif" alt="Header Image" style="width: 100%;" />
     </HeaderTemplate>
     <FooterTemplate>
-        <asp:Image id="FooterImage" runat="server" Width="100%" ImageUrl="Images/spring_footer.gif"></asp:Image>
+        <img id="FooterImage" src="Images/spring_footer.gif" alt="Footer Image" style="width: 100%;" />
     </FooterTemplate>
 </telerik:RadCalendar>
 ````
 
+> These templates are suitable for client-side content like HTML elements - input, button, etc. Using a template container for server controls and server logic is not supported.
 
 
 # See Also
 
  * [Template Design Surface]({%slug calendar/design-time/template-design-surface%})
-
-

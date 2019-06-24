@@ -12,13 +12,11 @@ position: 8
 
 
 
-##
-
-[This demo](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndInput/DefaultCS.aspx?product=grid) represents how to calculate footer totals client-side having RadNumericTextBoxes in the RadGrid rows and footer. The sums are calculated dynamically with javascript wiring the OnFocus and OnBlur events of RadInput. Additionally, for easy extraction of the input values, the code takes advantage of the Client-side API of the RadNumericTextBox and its get_value()/set_value(val) methods.
+You can calculate footer totals client-side having RadNumericTextBoxes in the RadGrid rows and footer. The sums are calculated dynamically with javascript wiring the OnFocus and OnBlur events of RadInput. Additionally, for easy extraction of the input values, the code takes advantage of the Client-side API of the RadNumericTextBox and its get_value()/set_value(val) methods.
 
 Keep in mind that the changes made by the user will be lost on subsequent postbacks. If you would like to keep the new entries during the page lifecycle, you will need to pass them server-side with custom code logic and refresh the grid source accordingly.
 
-![RadGrid totals with RadNumericTextBox](images/grdTotalsWithRadNumericTextBox.PNG)
+![RadGrid totals with RadNumericTextBox](../images/grdTotalsWithRadNumericTextBox.PNG)
 
 
 
@@ -141,4 +139,5 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     End If
 End Sub
 ````
+
 
