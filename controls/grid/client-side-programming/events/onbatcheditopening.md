@@ -41,4 +41,4 @@ function BatchEditOpening(sender, args) {
 }
 ````
 
-
+>note In some custom specific scenarios with Templates and Batch editing, in addition to using `set_cancel(true)` in this event, you might have to use it inside other events as well - like OnBatchEditGetCellValue, OnBatchEditSetEditorValue, etc.
