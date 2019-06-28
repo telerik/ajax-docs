@@ -50,6 +50,29 @@ Basically the virtualization functionality greatly improves the performance of t
 * The **ClientSettings.Scrolling.SaveScrollPosition** feature does not work with virtualization because it works after postbacks and at this point the grid virtualization may not have loaded the same number of items.
 * Scrolling with the keyboard may be impossible unless **ClientSettings.AllowKeyboardNavigation** is enabled.
 
+## Internal Logic and Use Cases
+
+
+The Virtualization functionality is dedicated only for View mode of the grid. It [drastically improves performance](http://www.telerik.com/blogs/how-to-load-1m-records-in-telerik-s-asp.net-grid-without-compromising-performance) when checking a large volume of records.
+
+However, its also has its [limitations]({%slug grid/functionality/scrolling/virtualization#limitations%}) due to its complex internal logic. 
+
+Here is a summary what is happening when using Virtualization:
+
+1. The grid loads initially - regardless of the total grid records in the database, only the initial subset is loaded, configurable from Virtualization settings. NeedDataSource fires.
+2. If the user scrolls to another page, the grid loads only the records for this page and saves them in the client-side cache. NeedDataSource fires.
+3. Every time the user comes again to an already loaded page, the grid does not makes a query to the server, but gets this data from the cache. NeedDataSource does not fire.
+4. If the user scrolls to a new not-visited page, the new data will be requested from the server and saved in the cache. It's the same as step 2 and this process repeats depending on the user's actions. NeedDataSource fires.
+5. If the user updates the entire page via a postback or makes an AJAX request which updates the grid also, the cache will be cleared and the collection process will start anew - the cache is not being sent to the server, which would eliminate the point of Virtualization optimization. NeedDataSource fires.
+
+To wrap it up, Virtualization is suitable only for Preview mode for the items and some grid functionalities are [not supported]({%slug grid/functionality/scrolling/virtualization#limitations%}). This also includes templates and editing. 
+
+If any of these features is a must for your project, you can remove Virtualization, enable standard built-in paging and use some other means to [improve the performance of the templates or editing](https://www.telerik.com/forums/radgrid-virtualization-and-editing#UQoDBM-nWUOMcbukZuGmzA).
+
+
 ## See Also
 
+* [Custom Paging](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/paging/custom-paging/defaultcs.aspx)
 * [How to use Virtualization with Custom Paging to Improve Server Performance](http://www.telerik.com/support/kb/aspnet-ajax/grid/details/virtualization-and-custom-paging)
+* [Kendo Grid Virtualization](https://demos.telerik.com/kendo-ui/grid/virtualization-remote-data)
+* [Kendo Grid - How To Get The Best Performance](https://www.telerik.com/blogs/how-to-get-the-best-grid-performance)
