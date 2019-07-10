@@ -75,6 +75,29 @@ The following article demonstrates how to implement a custom provider for the Ra
 		End Function
 
 
+JavaScript keeps the dates as interegers and in the save method, the dates would would be received as integers, not DateTime objects. To convert the integer to a date on the server, the following approach can be used: 
+
+	**C#**
+
+		public override void SaveWorkbook(Workbook workbook)
+		{
+			...
+		    	var date = new DateTime(1900, 1, 1);
+            		// dateValue is the Cell's string value parsed as an integer
+            		var dateFromDateValue = date.AddDays(dateValue - 2);
+			...
+		}
+			
+	**VB**
+
+		Public Overrides Sub SaveWorkbook(workbook As Workbook)
+			...
+		        Dim date = New DateTime(1900, 1, 1)
+			' dateValue is the Cell's string value parsed as an integer
+			Dim dateFromDateValue = date.AddDays(dateValue - 2)
+			...
+		End Function
+		
 
 1. Provide the RadSpreadsheet control with the newly created custom provider at the Page_Load in the following manner: 
 
@@ -96,3 +119,9 @@ The following article demonstrates how to implement a custom provider for the Ra
 
 
 >note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with **Custom Database Provider** in this Code Library: [Custom Database Provider for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/spreadsheetdatabaseprovider).
+
+# See Also
+
+ * [How to iterate all cells and rows in Spreadsheet properly on the server-side](https://www.telerik.com/support/kb/aspnet-ajax/spreadsheet/details/how-to-iterate-all-cells-and-rows-in-spreadsheet-properly)
+
+
