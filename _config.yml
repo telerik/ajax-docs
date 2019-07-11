@@ -217,6 +217,9 @@ navigation:
     "controls/dock":
         title: "Dock"
         position: 1
+    "controls/drawer":
+        title: "Drawer"
+        position: 1
     "controls/dropdownlist":
         title: "DropDownList"
         position: 1
