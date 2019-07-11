@@ -163,7 +163,9 @@ The code snippets from the example are below:
 </asp:SqlDataSource>
 ````
 
+>tip With R3 2019 version RadGrid provides the **SortHeaderContextMenuColumns** property. When enabled, it instructs the menu to present its Columns list in a sorted fashion. 
 
+The text of Columns menu items is generated using the HeaderText property of the corresponding grid column. This property on the other hand is generated (by default) from the UniqueName of the column. If the HeaderText property is set explicitly in the column's definition to be empty, then the menu generates the item text using the UniqueName property. And if the `SortHeaderContextMenuColumns` grid property is enabled, the Columns menu items are ordered accordingly.
 
 ## Using header context menu for filtering
 
@@ -602,4 +604,5 @@ Protected Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
     RadGrid1.HeaderContextMenu.CssClass += " myHeaderContextMenuClass"
 End Sub
 ````
+
 
