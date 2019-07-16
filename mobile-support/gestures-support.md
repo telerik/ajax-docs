@@ -29,3 +29,6 @@ Some controls from the UI for ASP.NET AJAX suite can react to touch gestures in 
 * **TileList** — drag a tile to move it; short vertical drag to select a tile.
 
 * **Window** — drag the title bar to move the window.
+
+* [**Drawer**]({%slug drawer/functionality/gestures%}) — swipe to reveal the full content of the RadDrawer control.
+
