@@ -75,7 +75,7 @@ private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventA
         //    contactName + "?')";
 
 		//for the Lightweight RenderMode
-		ElasticButton button = dataItem["DeleteColumn"].Controls[0] as ElasticButton
+		ElasticButton button = dataItem["DeleteColumn"].Controls[0] as ElasticButton;
         button.Attributes["onclick"] = "if (!confirm('Are you sure you want to delete " +
         	contactName + "?')) {return false;}";
     }
