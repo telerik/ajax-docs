@@ -17,7 +17,6 @@ position: 4
 	- [Content Template](#content-template)
 	- [Items Template](#items-template)
 	- [Mini Template](#mini-template)
-	- [See Also](#see-also)
 
 
 >caption Example 1: Sample use of templates in RadDrawer. The result is having different items in open and collapsed state.
