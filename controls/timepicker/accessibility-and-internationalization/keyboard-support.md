@@ -23,7 +23,7 @@ To control the tab order of the **RadTimePicker** set the **TabIndex** of the **
 
 ````ASPNET
 <telerik:RadTimePicker runat="server" ID="RadTimePicker1">
-   <DateInput TabIndex="1/">
+   <DateInput TabIndex="1" />
    <TimePopupButton TabIndex="2" />
    <TimeView TabIndex="3"/>
 </telerik:RadTimePicker>

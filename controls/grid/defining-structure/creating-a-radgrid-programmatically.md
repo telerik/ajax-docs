@@ -183,7 +183,9 @@ When generating a **RadGrid** instance entirely in code, you should use the **Pa
 
 ### Creating a RadGrid on Page_Load
 
-When creating a **RadGrid** on a **Page_Load** event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set. Properties are set only at initial load, while event handlers are attached on every postback.
+> When creating a **RadGrid** on a **Page_Load** event, the columns or detail tables should be added to the corresponding collection __**first**__ and then values for the properties of this instance should be set.
+
+Properties are set only at initial load, while event handlers are attached on every postback.
 
 
 
@@ -265,7 +267,9 @@ End Sub
 
 ### Creating a RadGrid on Page_Init
 
-When generating a grid in the **Page_Init** event handler, grid columns should be added to the **Columns** collection of the MasterTableView **after** their attributes are set. No **ViewState** is required for grid structure to be persisted as it is recreated on each page initialization:
+> When generating a grid in the **Page_Init** event handler, grid columns should be added to the **Columns** collection of the MasterTableView __**after**__ their attributes are set.
+
+No **ViewState** is required for grid structure to be persisted as it is recreated on each page initialization:
 
 
 
