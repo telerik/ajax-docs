@@ -53,7 +53,7 @@ Follow these steps to create a global resource file to localize the RadWizard:
 
 2. Copy the default resource **RadWizard.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed RadControls for ASP.NET AJAX.
 
-3. Make a copy of the file and rename the copy so that its name contains the **Culture Identifier**. The resource files used by RadComboBox follow a strict naming convention: RadWizard.<Culture Identifier>.resx
+3. Make a copy of the file and rename the copy so that its name contains the **Culture Identifier**. The resource files used by RadWizard follow a strict naming convention: RadWizard.<Culture Identifier>.resx
 >note The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >
 
@@ -64,6 +64,6 @@ Follow these steps to create a global resource file to localize the RadWizard:
 >caution Make sure that the **ReservedResource** entry is preserved. It is used for identification purposes and is never displayed.
 >
 
-	You can now switch the resource file RadComboBox uses with the new one:
+	You can now switch the resource file RadWizard uses with the new one:
 	
 	![wizard-localization-property-culture](images/wizard-localization-property-culture.png)
