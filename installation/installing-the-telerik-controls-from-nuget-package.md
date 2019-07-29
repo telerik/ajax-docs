@@ -69,25 +69,25 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 * Telerik.UI.for.AspNet.Ajax.Netxx.xxxx.x.xxx.nupkg - Telerik.Web.Design.dll, Telerik.Web.Device.Detection.dll, Telerik.Web.UI.dll, Telerik.Web.UI.Skins.dll
 
-* Telerik.Windows.Zip.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.dll
+* Telerik.Windows.Zip.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.dll
 
-* Telerik.Windows.Zip.Extensions.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.Extensions.dll
+* Telerik.Windows.Zip.Extensions.xxxx.x.xxx.nupkg - Telerik.Windows.Zip.Extensions.dll
 
-* Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+* Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
 
-* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
 
-* Telerik.Windows.Documents.Spreadsheet.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.dll
+* Telerik.Windows.Documents.Spreadsheet.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.dll
 
-* Telerik.Windows.Documents.Flow.FormatProviders.Pdf.for.Net40.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+* Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
 
-* Telerik.Windows.Documents.Flow.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.dll
+* Telerik.Windows.Documents.Flow.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.dll
 
-* Telerik.Windows.Documents.Fixed.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Fixed.dll
+* Telerik.Windows.Documents.Fixed.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Fixed.dll
 
-* Telerik.Windows.Documents.Core.for.Net40.xxxxx.x.xxx4.nupkg - Telerik.Windows.Documents.Core.dll
+* Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg - Telerik.Windows.Documents.Core.dll
 
-* Telerik.Documents.SpreadsheetStreaming.for.Net40.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
+* Telerik.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
 
 * Newtonsoft.Json - Newtonsoft.Json.dll - available for download from the nuget.org server.
 
