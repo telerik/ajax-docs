@@ -87,3 +87,5 @@ A screen reader commonly used with is **JAWS** ([JAWS official site](http://www.
 # See Also
 
  * [W3C: WAI-ARIA Practices](http://www.w3.org/WAI/PF/aria-practices/)
+ 
+ * [Force JAWS to pronounce artbitrary text with JavaScript](https://www.telerik.com/support/kb/aspnet-ajax/details/force-jaws-to-pronounce-artbitrary-text-with-javascript) KB article
