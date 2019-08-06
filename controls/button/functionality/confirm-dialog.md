@@ -64,6 +64,7 @@ DEMO using **RadConfirm**
     <ConfirmSettings ConfirmText="Are you sure you want to continue?" />
 </telerik:RadCheckBox>
 ````
+
 **RadPushButton**
 
 ````ASP.NET
