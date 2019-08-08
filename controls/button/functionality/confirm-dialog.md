@@ -10,20 +10,21 @@ position: 0
 
 # Button Confirm Dialog
 
-Built-in functionality used to show confirmation pop-up/dialog asking for confirmation from the user for the next actions, whether a client-script is to be executed or a Post back to be done. As of R2 2019, all button types except the **RadRadioButtonList** and **RadCheckboxList** come with built-in *Confirmation Dialog* and you can enable it simply by defining a text for the **ConfirmText** property.
+Built-in functionality used to show confirmation pop-up/dialog asking for confirmation from the user for the next actions, whether a client-script is to be executed or a Post back to be done.
 
-### Settings/Properties
+As of R2 2019, all button types except the **RadRadioButtonList** and **RadCheckboxList** come with built-in *Confirmation Dialog* and you can enable it simply by defining a text for the **ConfirmText** property. See the [Button - Confirm Dialog](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/buttonconfirmdialog/defaultcs.aspx) online demo.
+
+### Properties
 
 * **ConfirmText**: Enables the Confirm Dialog functionality and sets the confirmation message
-* **UseRadConfirm**: Switches between RadConfirm and window.confirm() dialog mode. Default value: true
+* **UseRadConfirm**: Switches between RadConfirm and window.confirm() dialog mode.
+  * Default value: **true**
+  * `UseRadConfirm="True"` requires a **RadWindowManager** on the page
+* **Title**: Sets the title of the dialog window (*applicable for RadConfirm only*)
+* **Height**: Sets the dialog height (*applicable for RadConfirm only*)
+* **Width**: Sets the dialog width (*applicable for RadConfirm only*)
 
-### Settings to customize the RadConfirm dialog window
-
-* **Title**: Sets the title of the dialog window
-* **Height**: Sets the dialog height
-* **Width**: Sets the dialog width
-
-## Examples
+## Using window.confirm()
 
 Enable the Confirm Dialog by defining a value for the **ConfirmText** property
 
@@ -33,13 +34,11 @@ Enable the Confirm Dialog by defining a value for the **ConfirmText** property
 </telerik:RadButton>
 ````
 
-DEMO using **window.confirm()**
+Example using **window.confirm()**
 
 ![Button Confirm Dialog using Window.confirm()](images/button-confirm-dialog-window-confirm.gif)
 
-Use RadConfirm for the Confirm Dialog
-
->note Since the default value of the `UseRadConfirm` property is `True`, and so if **RadWindowManager** is present on the page, RadConfirm will be used as the Confirm Dialog.
+## Using RadConfirm
 
 In addition to the RadButton, add a RadWindowManager on the page as well.
 
@@ -51,7 +50,7 @@ In addition to the RadButton, add a RadWindowManager on the page as well.
 <telerik:RadWindowManager ID="RadWindowManager1" runat="server"></telerik:RadWindowManager>
 ````
 
-DEMO using **RadConfirm**
+Example using **RadConfirm**
 
 ![Button Confirm Dialog using RadConfirm](images/button-confirm-dialog-radconfirm.gif)
 
@@ -104,5 +103,6 @@ DEMO using **RadConfirm**
 
 ## See Also
 
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/buttonconfirmdialog/defaultcs.aspx?product=button)
  * [Button - Confirm Postback](https://demos.telerik.com/aspnet-ajax/button/examples/confirm/defaultcs.aspx)
  * [Window - Confirm Dialog Integration](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx)
