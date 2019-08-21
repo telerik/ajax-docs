@@ -164,7 +164,7 @@ Both **xlsx** and **docx** support exporting of images. The images are included 
 
 ## Generate Export Output
 
-RadGrid provides a convenient way to extract the XLSX output as a string without actually exporting - this is done via the `GenerateXlsxOutput()` method. It is available for .NET version 4.0+.
+RadGrid provides a convenient way to extract the XLSX output as a string without actually exporting - this is done via the `GenerateXlsxOutput()` method. It is available for .NET version 4.0+ and in Telerik UI for ASP.NET AJAX versions R2 2019 and later.
 
 This can be used to get the content out of multiple grids simultaneously, then modify or save it. You can check the [Export Multiple Grids](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export-multiple-grids/defaultcs.aspx?product=grid) live demo which demonstrates a practical implementation.
 
