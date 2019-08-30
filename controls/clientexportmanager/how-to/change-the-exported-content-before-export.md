@@ -44,7 +44,7 @@ The styles we want to apply to the exported `<div>`:
 
 
 ````CSS
-.k-pdf-export.exported-div {
+.k-pdf-export .exported-div {
     width: 200px;
     height: 100px;
     text-align: center;
