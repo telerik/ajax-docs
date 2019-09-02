@@ -37,7 +37,7 @@ On the server the template will be presented as a string property of the control
     </Nodes>
     <ClientNodeTemplate>
         <div class="customClass">
-            <img src="#= ImagePath #" alt="Photo" />
+            <img src="#= ImagePath #" alt="#= Attributes["ImageAltText"] #" />
         </div>
     </ClientNodeTemplate>
 </telerik:RadTreeView>
@@ -54,7 +54,7 @@ protected void Page_Load(object sender, EventArgs e)
     {
         StringBuilder clientTemplate = new StringBuilder();
         clientTemplate.Append("<div class='customClass'>");
-        clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />");
+        clientTemplate.Append("<img src='#= ImagePath #' alt='#= Attributes["ImageAltText"] #' />");
         clientTemplate.Append("</div>");
         RadTreeView1.ClientItemTemplate = clientTemplate.ToString();
     }
@@ -65,7 +65,7 @@ Protected Sub Default_Vb_Load(sender As Object, e As System.EventArgs) Handles M
     If Not Page.IsPostBack Then
         Dim clientTemplate As New StringBuilder()
         clientTemplate.Append("<div class='customClass'>")
-        clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
+        clientTemplate.Append("<img src='#= ImagePath #' alt='#= Attributes["ImageAltText"] #' />")
         clientTemplate.Append("</div>")
         RadTreeView1.ClientItemTemplate = clientTemplate.ToString()
     End If
