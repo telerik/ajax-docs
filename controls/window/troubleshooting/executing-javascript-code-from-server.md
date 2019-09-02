@@ -14,6 +14,8 @@ position: 4
 
 This is a pretty common scenario when working with WebForms. There are many ways to achieve the desired result, but they have one thing in common – you should make sure that the controls are fully loaded in the page before trying to get a reference to them and use them in your JavaScript code.
 
+>note You can check the [Executing JavaScript Code from Server-side in Web Forms and ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/executing-javascript-code-from-server-side-in-web-forms-and-asp.net-ajax) KB article for more abstract code snippets.
+
 ## The standard way in ASP.NET
 
 For example you could use a label:
