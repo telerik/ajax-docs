@@ -14,7 +14,7 @@ You can configure the settings of **RadProgressBar** and create its elements in 
 
 ## RadProgressBar Public Properties and Methods
 
-For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadProgressBar class](https://testdocs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadProgressBar). You can also find it in the intellisense in Visual Studio.
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadProgressBar class](/api/server/Telerik.Web.UI/RadProgressBar). You can also find it in the intellisense in Visual Studio.
 
 ## Creating and Configuring a ProgressBar From the Code-behind
 
