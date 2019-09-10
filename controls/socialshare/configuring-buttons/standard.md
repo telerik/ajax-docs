@@ -97,6 +97,8 @@ To show this button add the **`<telerik:RadTwitterButton />`** to the **MainButt
 
 ## Google Plus One Button
 
+>warning Google Plus social network has been officially shutdown by Google. More information on this topic is available at [FAQ about the Google Plus shutdown](https://support.google.com/plus/answer/9217723#whatshappening). The RadGoogleButton does not render and is not functional anymore.
+
 To add this button you need the **`<telerik:RadGoogleButton /`>** in the **MainButtons collection**.This allows you to add the following options to the button:
 
 * **ButtonSize** - The [button size](https://developers.google.com/+/plugins/+1button/#button-sizes) to render. This also controls the way annotations (counters) are displayed (i.e., the AnnotationType property is set to Bubble).The default value is Standard:
