@@ -40,7 +40,7 @@ Please find below a little demonstration on how to make a text field within a st
 								ValidationGroup="firstValidationGroup">
 			<asp:TextBox ID="TextBox1" runat="server" ValidationGroup="firstValidationGroup"></asp:TextBox>
 			<asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ValidationGroup="firstValidationGroup" 
-										ControlToValidate="TextBox2" EnableClientScript="true" ErrorMessage="step 1 not filled up">
+										ControlToValidate="TextBox1" EnableClientScript="true" ErrorMessage="step 1 not filled up">
 			</asp:RequiredFieldValidator>
 		</telerik:RadWizardStep>
 		<telerik:RadWizardStep Title="Second Step" ID="RadWizardStep2" runat="server" StepType="Step"
