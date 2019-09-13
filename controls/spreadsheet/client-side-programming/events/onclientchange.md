@@ -5,7 +5,7 @@ description: RadSpreadsheet Client-side Event
 slug: spreadsheet/client-side-programming/events/onclientchange
 tags: spreadsheetevent
 published: True
-position: 0
+position: 1
 ---
 
 # OnClientChange
