@@ -1211,6 +1211,11 @@ Modifying the SortExpressions collection will result in change
                      will be changed.
                 This property's value is preserved in the ViewState.
 
+###  SortHeaderContextMenuColumns `Boolean`
+
+Gets or sets a value indicating whether the Columns in the  
+                 will be sorted by default.
+
 ###  Summary `String`
 
 Gets or sets the 'summary' attribute for the respective table.

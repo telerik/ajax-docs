@@ -61,6 +61,14 @@ Gets or sets the text of the context menu hide row command.
 
 Gets or sets the text of the context menu paste command.
 
+###  ContextMenuUnhideRow `String`
+
+Gets or sets the text of the context menu unhide row command.
+
+###  ContextMenuUnideColumn `String`
+
+Gets or sets the text of the context menu unhide column command.
+
 ###  CustomFormatCancel `String`
 
 Gets or sets the custom format cancel text.

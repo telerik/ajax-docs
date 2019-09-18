@@ -975,6 +975,11 @@ If this property is not set, the control will render using the skin named "Defau
 
 Gets or sets the skin to apply to the control.
 
+###  SortHeaderContextMenuColumns `GridHeaderContextMenu`
+
+Gets or sets a value indicating whether the Columns in the  
+                 will be sorted by default.
+
 ###  SortingSettings `GridSortingSettings`
 
 Gets a reference to the  object that
