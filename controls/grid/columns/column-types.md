@@ -380,6 +380,18 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 >tip If you want to change properties of a `GridDateTimeColumn` editor related to the calendar or time view, use their `SharedCalendar` or `SharedTimeView` properties.
 
+````C#
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        GridEditableItem item = e.Item as GridEditableItem;
+        var picker = (RadTimePicker)item["Times"].Controls[0];
+        picker.SharedCalendar.EnableKeyboardNavigation = true;
+        picker.SharedTimeView.EnableKeyboardNavigation = true;
+    }
+}
+````
 
 ## GridNumericColumn
 
