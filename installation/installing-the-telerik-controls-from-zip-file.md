@@ -12,7 +12,7 @@ position: 3
 
 
 >caution  **Prerequisite** 
->In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
+>In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET AJAX installed on your development/production machine. ASP.NET AJAX is available in the .NET 4.x+ installations.
 
 
 The **ZIP** is used to manually install, upgrade or update Telerik® UI for ASP.NET AJAX in your Web Application or Web Sites. The folder structure is different from the **MSI** installation. You need to be familiar with with ASP.NET, IIS, setting permissions and creating virtual folders. Commonly, the **ZIP** is installed directly in **inetpub/wwwroot**.
@@ -23,9 +23,9 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 
 1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
-1. On the loaded page choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
+1. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
 
-1. Download the **Manual installation** (**ZIP**) file.The **ZIP** file contains the following folders:
+1. Download the **Manual installation** (**Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip**) file.The **ZIP** file contains the following folders:
 	
 	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
 	
@@ -43,6 +43,7 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 
 	* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET AJAX client-side objects.
 
+The **Telerik_UI_for_ASP.NET_AJAX_2019_3_917_Dev_hotfix.zip** (**Hotfix**) installation which is a light version of the full **Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip** installation, does not hold the live demos and is faster for download. It is handy when [manually upgrading](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#manual-upgrade) the project to a newer version or from trial to registered dev version.
 
 1. Give full permissions to the **ASP.NET** user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) on the folder where the files were extracted.
 
@@ -59,8 +60,9 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 >note The latest package available for download has all latest updates/HOTFIXES applied. There is no need to update it further.
 >
 
-
-To run the examples run **StartExamples.exe** file from /Live Demos folder.
+1. Once you have the controls installed locally, you can:
+	* run the examples run **StartExamples.exe** file from /Live Demos folder.
+	* or add them to manually to an aspx/ascx page as explained at [First Steps article](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-a-control-to-a-page). Do not forget to copy the Telerik assemblies to the ~/bin folder of the ASP.NET Web Forms app and add references to them through the Visual Studio interface.
 
 To register the MS Help 2 files to VisualStudio and MSDN, please review the following link: [http://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx](http://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx)
 
