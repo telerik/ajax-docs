@@ -42,7 +42,8 @@ Here are the steps to simulate:
 
 The following solution will clear out any CSS files or styles derived from the parent page and may server as a possible workaround:
 
-````<telerik:RadEditor runat="server" ID="RadEditor1" ContentAreaMode="iframe">
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1" ContentAreaMode="iframe">
     <CssFiles>
         <telerik:EditorCssFile Value="~/Empty.css" />
     </CssFiles>
@@ -51,10 +52,11 @@ The following solution will clear out any CSS files or styles derived from the p
 
 ### For ContentAreaMode="div" or for the inline editor: Define a CSS class for the RadEditor div content area which applies a default font and color to the paragraphs:
 
-````            .reContentArea p {
-                font: 13px Arial !important;
-                color: black;
-            }
+````CSS            
+.reContentArea p {
+	font: 13px Arial !important;
+	color: black;
+}
 ````
 
 
