@@ -3,7 +3,7 @@ url: "https://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb, RakeFile, helper_tools/*]
-exclude_navigation: [sharepoint/2007/*]
+exclude_navigation: ["sharepoint/2007/*" ,"knowledge-base/*"]
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
 
@@ -143,6 +143,9 @@ navigation:
     "api/server":
         title: "Server-side"
         position: 2
+    "knowledge-base":
+        title: "Knowledge Base"
+        position: 40
 
 ## List control directory names and order here, like this:
     "controls/ajaxpanel":
@@ -1744,6 +1747,11 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
+-
+    scope:
+        path: "knowledge-base"
+    values:
+        res_type: "kb"
 -
     scope:
         path: "api"
