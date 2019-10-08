@@ -1,6 +1,6 @@
 ---
 title: Style inserted in text when deleting paragraph tag
-description: Problem: Style inserted in text when deleting paragraph tag in Chrome
+description: Style inserted in text when deleting paragraph tag in Chrome Editor
 type: troubleshooting
 page_title: Style inserted in text when deleting paragraph tag in Chrome
 slug: style-inserted-in-text-when-deleting-paragraph-tag
