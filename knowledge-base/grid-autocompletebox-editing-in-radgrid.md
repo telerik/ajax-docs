@@ -3,7 +3,7 @@ title: Edit and insert with autocomplete
 description: Editing in RadGrid using RadAutoCompleteBox in GridTemplateColumn and built-in GridAutoCompleteColumn
 type: how-to
 page_title: Edit and insert with autocomplete - RadGrid | Telerik Web UI
-slug: autocompletebox-editing-in-radgrid
+slug: grid-autocompletebox-editing-in-radgrid
 position: 
 tags: autocompletebox, radautocompletebox, radgrid, grid, gridtemplatecolumn, editing, gridautocompletecolumn
 ticketid: 1433098
@@ -27,7 +27,7 @@ Editing in RadGrid using RadAutoCompleteBox in GridTemplateColumn and built-in G
 
 Assuming there is a field in the DataSource that will hold values separated by the Delimiter defined in the settings of RadAutoCompleteBox or GridAutoCompleteColumn. In this  examples, the "AutoCompleteField" will be used and values are separated by spaces:
 
-![Field in DataSource/DataBase](images/datasource-field-for-autocomplete.png)
+![](images/datasource-field-for-autocomplete.png)
 
 ### GridAutoCompleteColumn
 
