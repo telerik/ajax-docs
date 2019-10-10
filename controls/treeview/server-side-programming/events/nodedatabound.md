@@ -21,13 +21,13 @@ Binding to a database:
 
 
 ````C#
-protected void RadTreeView1_NodeDataBound(object sender, RadTreeNodeEventArgs e) 
+protected void RadTreeView1_NodeDataBound(object sender, DropDownTreeNodeDataBoundEventArguments e) 
 {     
     e.Node.ToolTip = (e.Node.DataItem as DataRowView)["Description"].ToString(); 
 }
 ````
 ````VB.NET
-Protected Sub RadTreeView1_NodeDataBound(ByVal sender As Object, ByVal e As RadTreeNodeEventArgs)
+Protected Sub RadTreeView1_NodeDataBound(ByVal sender As Object, ByVal e As DropDownTreeNodeDataBoundEventArguments)
     e.Node.ToolTip = (TryCast(e.Node.DataItem, DataRowView))("Description").ToString()
 End Sub
 ````
@@ -38,7 +38,7 @@ Binding to XML datasource:
 
 
 ````C#
-protected void RadTreeView_OnNodeDataBound(object sender, RadTreeNodeEventArgs e)
+protected void RadTreeView_OnNodeDataBound(object sender, DropDownTreeNodeDataBoundEventArguments e)
 { 
     XmlElement element = (XmlElement)e.Node.DataItem;        
     e.Node.ToolTip = element.GetAttribute("ToolTip"); 
@@ -47,7 +47,7 @@ protected void RadTreeView_OnNodeDataBound(object sender, RadTreeNodeEventArgs e
 }
 ````
 ````VB.NET
-Protected Sub RadTreeView_OnNodeDataBound(ByVal sender As Object, ByVal e As RadTreeNodeEventArgs)
+Protected Sub RadTreeView_OnNodeDataBound(ByVal sender As Object, ByVal e As DropDownTreeNodeDataBoundEventArguments)
     Dim element As XmlElement = DirectCast(e.Node.DataItem, XmlElement)
     e.Node.ToolTip = element.GetAttribute("ToolTip")
     e.Node.Attributes("NodeType") = element.GetAttribute("NodeType")
