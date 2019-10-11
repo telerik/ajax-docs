@@ -208,6 +208,8 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
 
 * **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article. 
 
+* **Telerik.Upload.AllowedCustomMetaDataTypes**—lets you whitelist custom file uploads metadata. Read more in [RadAsyncUpload Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).
+
 * **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload and RadCloudUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
 
 * **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
@@ -243,6 +245,7 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.OtherAsyncUploadConfiguration" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
