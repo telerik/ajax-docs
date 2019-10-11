@@ -15,7 +15,9 @@ position: 2
 Initially the default value of **PersistConfiguration** property is **false**. However, by setting it to **true**, the **UploadConfiguration** property can be persisted through postbacks via ControlState(only in case the **UploadConfiguration** property is not null).
 
 >note The ControlState property allows you to persist property information that is specific to a control and cannot be turned off like the ViewState property for instance. Use the control state only for small amount of critical data that is essential for the control across postbacks. The control state should not be used as an alternative to view state.
->
+
+
+>note If you use this, see [Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).
 
 
 The following code snippets demonstrate how it can be used:

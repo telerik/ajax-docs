@@ -113,6 +113,8 @@ The custom handler inherits the built-in handler and you can use it to customize
 
 The `Process` method returns an interface—`IAsyncUploadResult`. You can use it to transmit custom information between the client and the server. For example, a User ID or other piece of application logic.
 
+>note If you use this, see [Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).
+
 #### Send Information From the Handler to the Client
 
 To return custom information to the client:

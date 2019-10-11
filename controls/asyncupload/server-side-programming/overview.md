@@ -62,7 +62,7 @@ This article provides a list and detailed description of the properties and meth
 | **TargetFolder** |string|Gets or sets the virtual path of the folder, where **RadAsyncUpload** will automatically save the valid files after the upload completes.|
 | **TemporaryFileExpiration** |TimeSpan|Sets how long temporary files should be kept before automatically deleting them. The default value is 4 hours.|
 | **TemporaryFolder** |string|Gets or sets the path to a folder where RadAsyncUpload should save files temporarily until a postback occurs. Defaults to App_Data\RadUploadTemp subfolder of the Application Path.|
-| **UploadConfiguration** |IAsyncUploadConfiguration|Sets upload configuration. The generic object can be obtained using the CreateUploadConfiguration\<T\> method, where T is custom class that implements IAsyncUploadConfiguration.|
+| **UploadConfiguration** |IAsyncUploadConfiguration|Sets upload configuration. The generic object can be obtained using the `CreateUploadConfiguration<T>` method, where T is custom class that implements `IAsyncUploadConfiguration`. If you use this, see [Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).|
 | **UploadedFiles** |UploadedFileCollection|Provides access to the valid files uploaded by the RadAsyncUpload instance.|
 | **UploadedFilesRendering** |AsyncUpload.UploadedFilesRendering|Gets or sets a value indicating whether RadAsyncUpload will render the uploaded files above/below the current file input.|
 | **UseApplicationPoolImpersonation** |bool|Gets or sets whether the application pool impersonation should be used.|

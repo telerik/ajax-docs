@@ -21,6 +21,7 @@ This article contains the following sections:
 * [Configuration Keys Details](#configuration-keys-details)
 	* [ConfigurationEncryptionKey](#configurationencryptionkey)
 	* [ConfigurationHashKey](#configurationhashkey)
+	* [AllowedCustomMetaDataTypes](#allowedcustommetadatatypes)
 	* [DisableAsyncUploadHandler](#disableasyncuploadhandler)
 
 
@@ -48,7 +49,7 @@ There are two `appSettings` keys you should add to your `web.config` to ensure i
 
 ### Custom Metadata
 
-If you are using a custom metadata class (upload configuration), you should additionally whitelist it through the **Telerik.Upload.AllowedCustomMetaDataTypes** key in the `appSettings` section of the `web.config`. This feature is available as of R3 2019 SP1.
+If you are using a custom metadata class (upload configuration), you should additionally whitelist it through the `Telerik.Upload.AllowedCustomMetaDataTypes` key in the `appSettings` section of the `web.config`. This feature is available as of R3 2019 SP1.
 
 There are several situations when you may be using a custom metadata class, you can read more on the most common cases in the following resources. This can help you determine whether you have such code in your application for any purpose.
 
@@ -60,11 +61,9 @@ To whitelist your types, provide their full name, including the namespace, in a 
 
 ````web.config
 <appSettings>
-    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.SampleOtherAsyncUploadConfiguration" />
+    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.OtherAsyncUploadConfiguration" />
 </appSettings>
 ````
-
->note This feature is opt-in to avoid breaking changes. This means that if you do not add this setting, whitelisting is not used. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading.
 
 
 
@@ -73,11 +72,18 @@ To whitelist your types, provide their full name, including the namespace, in a 
 The information below provides more details on the available keys and their usage.
 
 
->important If you do not set any custom keys, default (hardcoded) values are used to encrypt/decrypt the information for versions prior to R2 2019 SP1.
+>important If you do not set custom encryption and hashing keys, default (hardcoded) values are used to encrypt/decrypt the information for versions prior to R2 2017 SP1. If you are using such an old version, we recommend [upgrading]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) to the latest.
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings). 
 >
 >Other cryptographic operations in the UI for ASP.NET AJAX suite may also use these two keys. Telerik avoids adding more keys in order to improve backwards compatibility of your applications and to reduce the number of properties you have to set.
+
+Available keys:
+
+* [ConfigurationEncryptionKey](#configurationencryptionkey)
+* [ConfigurationHashKey](#configurationhashkey)
+* [AllowedCustomMetaDataTypes](#allowedcustommetadatatypes)
+* [DisableAsyncUploadHandler](#disableasyncuploadhandler)
 
 ### ConfigurationEncryptionKey
 
@@ -106,7 +112,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 
 ### AllowedCustomMetaDataTypes
 
-As of **R3 2019 SP1**, whitelisting is implemented for the classes that can carry upload configuration to and from the server. The feature is not enabled by default in order to avoid a breaking change.
+As of **R3 2019 SP1**, whitelisting is implemented for the classes that can carry upload configuration to and from the server.
 
 This is an additional security measure and it does not replace setting the [main custom encryption keys](#recommended-settings).
 
@@ -116,17 +122,21 @@ Failure to deserialize a custom metadata type will also throw a `CryptographicEx
 
 ````web.config
 <appSettings>
-    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.SampleOtherAsyncUploadConfiguration" />
+    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.OtherAsyncUploadConfiguration" />
 </appSettings>
 ````
 
+>note This feature is opt-in to avoid breaking changes. This means that if you do not add this setting, whitelisting is not used. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading.
+
 ### DisableAsyncUploadHandler
 
-Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder. This feature is available as of **R2 2017 SP2**.
+You can disable file uploads through RadAsyncUpload's built-in configuration altogether. This feature is available as of **R2 2017 SP2**.
+
+Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder. 
 
 When you set this key to `true`, no files can be uploaded to the default handler (`Telerik.Web.UI.WebResource.axd`) and async upload requests to it will return a 404 error. You may want to handle the [OnClientFileUploadFailed event]({%slug asyncupload/client-side-programming/onclientfileuploadfailed%}) to prevent the page from throwing JavaScript errors.
 
-[Custom handlers]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) are not affected by this feature and you can still use them to upload and save files with the desired level of security.
+[Custom handlers]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) are **not** affected by this feature and you can still use them to upload and save files with the desired level of security.
 
 >caption How to disable (make unavailable) the default Async Upload handler so no files can be uploaded through it.
 
@@ -135,6 +145,9 @@ When you set this key to `true`, no files can be uploaded to the default handler
 	<add key="Telerik.Web.DisableAsyncUploadHandler" value="true"/>
 </appSettings>
 ````
+
+>note Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to R2 2019 SP1.
+
 
 ## See Also
 
