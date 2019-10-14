@@ -48,7 +48,7 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * for versions prior to R3 2018, exporting RadHtmlChart controls with page breaks
 
-* exporting with page breaks cannot work with all elements and scenarios. For more details see the [Page Break Limitations](https://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Page) section of the underying Kendo Drawing API documentation. The gist is that the following cannot be split into pages:
+* exporting with page breaks cannot work with all elements and scenarios. For more details see the [Page Break Limitations](https://docs.telerik.com/kendo-ui/framework/drawing/limitations-browser-support) section of the underying Kendo Drawing API documentation. The gist is that the following cannot be split into pages:
 
     * elements without text content
     * elements with `position: absolute` or `position: fixed`
