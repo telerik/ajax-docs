@@ -103,5 +103,5 @@ protected void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs
 ## See Also
 
 * [Temporary files in AsyncUpload](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/overview#temporary-files)
-* [How to Manipulate the Uploaded Files]()https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-manipulate-the-uploaded-files
+* [How to Manipulate the Uploaded Files](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-manipulate-the-uploaded-files)
 * [How to delete temporary file](https://www.telerik.com/forums/how-to-delete-temporary-file) forum thread
