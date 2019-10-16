@@ -130,6 +130,9 @@ On the client side, the properties for the **RadMaskedTextBox** value use the na
 
 * **get_valueWithPromptAndLiterals**: the value as it appears in the control, including any prompt characters and literal characters from the mask.
 
+>caution The **RadMaskedTextBox** component is not compliant with the **MaxLength** property in essence and its content is entirely dependent on the defined **Mask**. The **MaxLength** property is present there purely because the control inherits it from its base control class.
+>
+
 ## Culture-specific masks
 
 You can set different masks for different cultures in the codebehind. For example, a zip code in the USA is "#####-####' while in canada it has only 6 characters.

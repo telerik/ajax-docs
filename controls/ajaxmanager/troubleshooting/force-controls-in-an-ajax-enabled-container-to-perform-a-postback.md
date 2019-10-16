@@ -92,7 +92,10 @@ However, once the container control is added to the UpdatedControls collection, 
 >
 
 
-**2. Set the ChildrenAsTriggers property of the update panel added dynamically around the container control to false**
+**2. [*Оbsolete*] Set the ChildrenAsTriggers property of the update panel added dynamically around the container control to false**
+
+>caution This approach is no longer supported and you should use the **OnRequestStart** option from the first approach.
+>
 
 For that purpose you need to handle the **OnAjaxSettingCreated** server-side event of the **RadAjaxManager** control:
 
