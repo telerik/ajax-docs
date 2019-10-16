@@ -6,6 +6,7 @@ slug: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-
 tags: telerik,radgrid,data,binding,basics
 published: True
 position: 0
+previous_url: https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/bindable-property-types
 ---
 
 # Telerik RadGrid Data Binding Basics
@@ -55,4 +56,3 @@ In a hierarchical grid, detail tables must be bound separately from their parent
 * **Nullable** types
 
 **RadGrid** uses the static method **RadGrid.IsBindableType()** to determine if the property of an object can be bound.
-
