@@ -6,7 +6,7 @@ slug: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-
 tags: telerik,radgrid,data,binding,basics
 published: True
 position: 0
-previous_url: https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/bindable-property-types
+previous_url: grid/data-binding/bindable-property-types
 ---
 
 # Telerik RadGrid Data Binding Basics
