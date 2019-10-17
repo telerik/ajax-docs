@@ -18,7 +18,7 @@ This help article describes which properties to use to bind a **RadHtmlChart** t
 
 * **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
-The data, used in the following example, is pulled from the database **Telerik**, which can be found in the App_Data folder in the main demos directory.
+The data, used in the following example, is pulled from the database **Telerik**, which can be found in the App_Data folder in the main demos directory (you can download the installation for the Demos App from [here](https://www.telerik.com/account/product-download?product=RCAJAX)).
 
 >caption Example 1: Bind a **SqlDataSource** to a **RadHtmlChart**.
 
