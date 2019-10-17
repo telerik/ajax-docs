@@ -101,12 +101,90 @@ You can customize the Bar chart in several ways:
 	</Legend>
 </telerik:RadHtmlChart>
 ````
+## Data Binding
+
+You can bind a Bar Chart to a using the following properties:
+
+* **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use	the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
+
+* **DataFieldY** property for the *BarSeries* to point it to the desired data values field.
+
+* **ColorField** property for the *BarSeries* to point it to the desired colors field (you can set different color per each series item).
+
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
+
+>caption Example 1: A sample Bar Chart bound to a DataTable.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="BarChart1" Transitions="true">
+    <PlotArea>
+        <Series>
+            <telerik:BarSeries Name="Product A" DataFieldY="valuesProductA" ColorField="colorsA">
+            </telerik:BarSeries>
+            <telerik:BarSeries Name="Product B" DataFieldY="valuesProductB" ColorField="colorsB">
+            </telerik:BarSeries>
+        </Series>
+        <XAxis AxisCrossingValue="0" Color="Black" DataLabelsField="years">
+            <TitleAppearance Position="Center" RotationAngle="0" Text="Years" />
+        </XAxis>
+    </PlotArea>
+    <ChartTitle Text="Sales">
+    </ChartTitle>
+</telerik:RadHtmlChart>
+````
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        BarChart1.DataSource = GetData();
+    }
+}
+
+private DataTable GetData()
+{
+    DataTable dt = new DataTable();
+    dt.Columns.Add("valuesProductA", typeof(Int32));
+    dt.Columns.Add("valuesProductB", typeof(Int32));
+    dt.Columns.Add("years", typeof(String));
+    dt.Columns.Add("colorsA", typeof(String));
+    dt.Columns.Add("colorsB", typeof(String));
+
+    dt.Rows.Add(315000, 360000, "2003", "red", "#0000ff");
+    dt.Rows.Add(495000, 540000, "2004", "red", "#0000ff");
+    dt.Rows.Add(690000, 735000, "2005", "red", "#0000ff");
+
+    return dt;
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Not IsPostBack Then
+        BarChart1.DataSource = GetData()
+    End If
+End Sub
+
+Private Function GetData() As DataTable
+    Dim dt As DataTable = New DataTable()
+    dt.Columns.Add("valuesProductA", GetType(Int32))
+    dt.Columns.Add("valuesProductB", GetType(Int32))
+    dt.Columns.Add("years", GetType(String))
+    dt.Columns.Add("colorsA", GetType(String))
+    dt.Columns.Add("colorsB", GetType(String))
+    dt.Rows.Add(315000, 360000, "2003", "red", "#0000ff")
+    dt.Rows.Add(495000, 540000, "2004", "red", "#0000ff")
+    dt.Rows.Add(690000, 735000, "2005", "red", "#0000ff")
+    Return dt
+End Function
+````
 
 ## See Also
 
  * [Choose a Data Source for Your RadHtmlChart:]({%slug htmlchart/design-time/overview%})
 
  * [- Configuration Wizard]({%slug htmlchart/design-time/overview%})
+ 
+ * [- Data Binding Overview]({%slug htmlchart/data-binding/overview%})
 
  * [- SqlDataSource]({%slug htmlchart/data-binding/sqldatasource%})
 
