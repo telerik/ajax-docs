@@ -1773,7 +1773,7 @@ google_tag_manager: GTM-6X92
 gcs_engine: '001595215763381649090:hu79u-xean0'
 gcs_api_key: 'AIzaSyDjPEJ7amQPG71P3RIB6et8uieUkqGx1js'
 
-has_kb_portal: false
+has_kb_portal: true
 edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
 product: "Telerik UI for ASP.NET AJAX"
 platform: aspnet-ajax
