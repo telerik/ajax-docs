@@ -2,7 +2,7 @@
 title: Edit and insert with autocomplete
 description: Editing in RadGrid using RadAutoCompleteBox in GridTemplateColumn and built-in GridAutoCompleteColumn
 type: how-to
-page_title: Edit and insert with autocomplete - RadGrid | Telerik Web UI
+page_title: Edit and insert with autocomplete - RadGrid | Telerik UI for ASP.NET AJAX
 slug: grid-autocompletebox-editing-in-radgrid
 position: 
 tags: autocompletebox, radautocompletebox, radgrid, grid, gridtemplatecolumn, editing, gridautocompletecolumn
@@ -120,7 +120,7 @@ That concludes the data binding of controls.
 
 **CRUD**
 
-To Enable (Automatic DataSource Operations)[https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/automatic-datasource-operations], the Grid must be bound using (Declarative DataSource)[https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource]
+To Enable [Automatic DataSource Operations](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/automatic-datasource-operations), the Grid must be bound using [Declarative DataSource](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource)
 
 ````XML
 <telerik:RadGrid ID="RadGrid1" runat="server" 
@@ -145,8 +145,7 @@ Configure the SqlDataSource send CRUD requests to SQL database
 
 ### FULL Code Snippets
 
-<details><summary>Default.aspx</summary>
-<p>
+**Default.aspx**
 
 ````ASPX
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
@@ -241,11 +240,7 @@ Configure the SqlDataSource send CRUD requests to SQL database
 </html>
 ````
 
-</p>
-</details>
-
-<details><summary>Default.aspx.cs</summary>
-<p>
+**Default.aspx.cs**
 
 ````C#
 using System;
@@ -357,12 +352,7 @@ public partial class Default : System.Web.UI.Page
 }
 ````
 
-</p>
-</details>
-
-
-<details><summary>web.config</summary>
-<p>
+**web.config**
 
 ````XML
 <connectionStrings>
@@ -372,9 +362,6 @@ public partial class Default : System.Web.UI.Page
   <!--<add name="TelerikConnectionString" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|Telerik.mdf;Integrated Security=True;User Instance=True" providerName="System.Data.SqlClient"/>-->
 </connectionStrings>
 ````
-
-<p>
-</details>
 
 ## See Also
 

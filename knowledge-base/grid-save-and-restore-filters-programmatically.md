@@ -8,7 +8,6 @@ position:
 tags: grid, radgrid, filter, excel-like filter, headercontext, filtermenu, checklist filtering, basic, classic
 ticketid: 1425180
 res_type: kb
-category: knowledge-base
 ---
 
 ## Environment
