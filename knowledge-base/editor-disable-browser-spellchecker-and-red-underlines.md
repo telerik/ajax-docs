@@ -29,7 +29,7 @@ res_type: kb
 The misspelled words in the editor's content area get automatically highlighted with curly red underlines.
 
 ## Solution
-The curly red underline is a result of the browser spellchecker that can be disabled by using the (spellcheck attribute)[https://www.w3schools.com/tags/att_global_spellcheck.asp]. 
+The curly red underline is a result of the browser spellchecker that can be disabled by using the [spellcheck attribute](https://www.w3schools.com/tags/att_global_spellcheck.asp). 
 
 We need to set the **spellcheck** attribute with a false value to the content area of RadEditor:
 

@@ -47,5 +47,6 @@ All you have to do is to apply the following style to the page:
     </Items>
 </telerik:RadListBox>
 ````
+
 ## Solution for RenderMode="Classic": 
 The default behavior of the control in this mode is to wrap the long text. If you however prefer the opposite, check out [this article](https://docs.telerik.com/devtools/aspnet-ajax/controls/listbox/how-to/scroll-items-horizontally).
