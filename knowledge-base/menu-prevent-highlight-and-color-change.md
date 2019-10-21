@@ -28,8 +28,8 @@ RadMenu provides built-in Selection for its items - they get highlighted when th
 
 ## Solution
 
-If you prevent to disable this behavior, all you need to do is to control it using this dedicated property:
+If you prefer to disable this behavior, all you need to do is to control it using this dedicated property:
 
-```markdown
+```ASP.NET
 <telerik:RadMenu ... EnableSelection="false">
 ```
