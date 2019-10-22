@@ -43,7 +43,7 @@ Using a single **RadAjaxManager** on the page you can create complex web applica
 ## Quick Example
 
 Here is an example you can simply copy-paste to your project to see the prowess of AJAX:  
-```markdown
+```ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="RadButton1">
@@ -64,7 +64,7 @@ Here is an example you can simply copy-paste to your project to see the prowess 
 <br />
 <telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
 ```
-```csharp
+```C#
 protected void RadButton1_Click(object sender, EventArgs e)
 {
     RadLabel1.Text = "Success";
@@ -74,7 +74,7 @@ protected void RadButton2_Click(object sender, EventArgs e)
     RadLabel2.Text = "Success";
 }
 ```
-```vbnet
+```VB
 Protected Sub RadButton1_Click(ByVasender As Object, ByVal e As EventArgs)
     RadLabel1.Text = "Success"
 End Sub

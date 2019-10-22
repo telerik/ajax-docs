@@ -28,12 +28,12 @@ There are 3 ways to bind the grid to a data source:
 >
 
 Here is a basic runnable example which you can directly copy-paste to your project:
-```markdown
+```ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server"
     OnNeedDataSource="RadGrid1_NeedDataSource">
 </telerik:RadGrid>
 ```
-```csharp
+```C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
     (sender as RadGrid).DataSource = Enumerable.Range(1, 6).Select(x => new
@@ -43,7 +43,7 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
     });
 }
 ```
-```vbnet
+```VB.NET
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
     (TryCast(sender, RadGrid)).DataSource = Enumerable.Range(1, 6).[Select](Function(x) New With {Key
         .ID = x, Key
@@ -75,12 +75,12 @@ When binding the grid by setting the **DataSource** property in the **NeedDataSo
 * Any object collection that implements the **IListSource** , **IList** , **IEnumerable** , or **ICustomTypeDescriptor** interface.
 
 Here is another basic runnable example with dummy DataTable which you can once again directly copy-paste to your project:
-```markdown
+```ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" 
     OnNeedDataSource="RadGrid1_NeedDataSource">
 </telerik:RadGrid>
 ```
-```csharp
+```C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
     (sender as RadGrid).DataSource = GetGridSource();
@@ -133,7 +133,7 @@ private DataTable GetGridSource()
     return dataTable;
 }
 ```
-```vbnet
+```VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceEventArgs)
     (TryCast(sender, RadGrid)).DataSource = GetGridSource()
 End Sub
