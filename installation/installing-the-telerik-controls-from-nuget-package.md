@@ -87,7 +87,7 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 * Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg - Telerik.Windows.Documents.Core.dll
 
-* Telerik.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
+* Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
 
 * Newtonsoft.Json - Newtonsoft.Json.dll - available for download from the nuget.org server.
 
