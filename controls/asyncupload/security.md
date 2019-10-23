@@ -28,9 +28,9 @@ This article contains the following sections:
 
 There are three `appSettings` keys you should add to your `web.config` to ensure information security with file uploads:
 
-1. set a custom `Telerik.AsyncUpload.ConfigurationEncryptionKey`.
+1. Set a custom `Telerik.AsyncUpload.ConfigurationEncryptionKey`.
 
-2. set a custom `Telerik.Upload.ConfigurationHashKey`.
+2. Set a custom `Telerik.Upload.ConfigurationHashKey`.
 
 3. set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
 
@@ -77,6 +77,8 @@ To provide secure encryption of the control configuration, we strongly advise th
 
 The `Telerik.AsyncUpload.ConfigurationEncryptionKey` is available as of Q3 2012 SP1 (version 2012.3.1205).
 
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
+
 
 ### ConfigurationHashKey
 
@@ -90,13 +92,15 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 </appSettings>
 ````
 
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
+
 ### AllowedCustomMetaDataTypes
 
 As of R3 2019 SP1, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
 
->note This feature is opt-in to avoid breaking changes. This means that if you do not add this setting, whitelisting is not used. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading. We recommend always setting this key to enable the whitelisting feature.
+>important This feature is opt-in to avoid breaking changes. This means that if you do not add this setting, whitelisting is not used. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading. We recommend always setting this key to enable the whitelisting feature.
 
->caption How to enable whitelisting only for the built-in Telerik type
+>caption How to enable whitelisting only for the built-in Telerik type. Adding this improves security and you should use it even if you do not use custom metadata types.
 
 ````web.config
 <appSettings>
@@ -146,7 +150,7 @@ When you set this key to `true`, no files can be uploaded to the default handler
 </appSettings>
 ````
 
->note Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to R2 2019 SP1.
+>important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to R2 2019 SP1.
 
 
 ## See Also
