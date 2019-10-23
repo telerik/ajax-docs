@@ -32,7 +32,7 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 
 2. Set a custom `Telerik.Upload.ConfigurationHashKey`.
 
-3. set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
+3. Set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
 
 >tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
 
@@ -54,7 +54,7 @@ The information below provides more details on the available keys and their usag
 
 >important If you do not set custom encryption and hashing keys, default (hardcoded) values are used to encrypt/decrypt the information for versions prior to R2 2017 SP1. If you are using such an old version, we recommend [upgrading]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) to the latest.
 >
->As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings). 
+>As of **R2 2017 SP1**, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings). 
 >
 >Other cryptographic operations in the UI for ASP.NET AJAX suite may also use these two keys. Telerik avoids adding more keys in order to improve backwards compatibility of your applications and to reduce the number of properties you have to set.
 
@@ -96,7 +96,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 
 ### AllowedCustomMetaDataTypes
 
-As of R3 2019 SP1, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
+As of **R3 2019 SP1**, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
 
 >important This feature is opt-in to avoid breaking changes. This means that if you do not add this setting, whitelisting is not used. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading. We recommend always setting this key to enable the whitelisting feature.
 
@@ -150,7 +150,7 @@ When you set this key to `true`, no files can be uploaded to the default handler
 </appSettings>
 ````
 
->important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to R2 2019 SP1.
+>important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R2 2019 SP1**.
 
 
 ## See Also
