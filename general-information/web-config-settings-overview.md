@@ -45,6 +45,7 @@ There are several ways to add the HTTP handlers:
 		<!-- Read more at: http://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
 		<!-- Read more at:   http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security -->
 		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 	</appSettings>
@@ -245,7 +246,7 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-		<add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="SomeNameSpace.SampleAsyncUploadConfiguration;SomeOtherNameSpace.OtherAsyncUploadConfiguration" />
+    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
