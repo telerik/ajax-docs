@@ -25,6 +25,10 @@ res_type: kb
 
 Use Radio button to select rows in RadGrid and only select one at a time.
 
+For example:
+
+![](images/grid-select-rows-radiobutton-client-side.gif)
+
 ## Solution
 
 ````JavaScript
@@ -114,9 +118,5 @@ Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceE
     })
 End Sub
 ````
-
-Resulst:
-
-![](images/grid-select-rows-radiobutton-client-side.gif)
 
 ## See Also
