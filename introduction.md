@@ -218,7 +218,7 @@ Here are quick links to the control-specific sections of our documentation:
 * [Zip Library]({%slug radziplibrary-overview%}) -->
 
 
-Telerik® UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5, 4.6 and 4.7. The same assemblies work for both 32-bit and 64-bit machines.
+Telerik® UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5, 4.6, 4.7 and 4.8. The same assemblies work for both 32-bit and 64-bit machines.
 
 
 If you need further assistance you can post your question in the [UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx) or use the [online ticketing system](http://www.telerik.com/account/support-tickets/available-support-list.aspx).
