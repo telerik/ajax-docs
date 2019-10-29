@@ -99,6 +99,6 @@ End Sub
 
 ## See Also
 
- * [Bindable Property Types]({%slug grid/data-binding/bindable-property-types%})
+ * [Bindable Property Types]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})
 
  * [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})

@@ -14,7 +14,7 @@ This article lists the clients-side events of the **RadSpreadsheet** and how to 
 
 All events follow the MS AJAX client events convention and receive two arguments:
 
-1. `sender` - the [RadSpreadsheet]({%slug spreadsheet/client-side-programming/overview%}) instance that raised the event
+1. `sender` - the [RadSpreadsheet]({%slug spreadsheet/client-side-programming/objects/radspreadsheet%}) instance that raised the event
 1. `event arguments` - event-specific data provided to the developer
 
 **RadSpreadsheet** is a wrapper over the Kendo UI Spreadsheet widget and so it exposes the [client events](https://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet#events) and data it does. You can find a list below.

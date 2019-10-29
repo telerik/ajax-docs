@@ -27,7 +27,7 @@ You can learn more about using TypeScript for the Telerik® UI for ASP.NET AJAX 
 
 * [Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite%})
 
-* [Add TypeScript Definitions for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
+* [Add TypeScript Definitions for Controls Using Kendo UI]({%slug general-information/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
 
 * [Use TypeScript for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-controls-using-kendo-ui%})
 

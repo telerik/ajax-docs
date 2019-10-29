@@ -24,7 +24,7 @@ In case you need to tweak the control appearance to something that is not provid
 
 * You can [create a few CSS overrides]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%}) that will implement the small change you seek.
 
-* Or, you can [create a custom skin]({%slug theme-builder/create-and-download%}) that matches your requirements.
+* Or, you can [create a custom skin]({%slug theme-builder/create%}) that matches your requirements.
 
 In either case, you may find helpful the [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools) blog post.
 

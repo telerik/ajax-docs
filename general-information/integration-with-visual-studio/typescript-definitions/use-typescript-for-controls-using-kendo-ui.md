@@ -36,6 +36,6 @@ Once the type casting is done, you can utilize any available client-side method 
 
 ### See Also
 
- * [Add TypeScript Definitions for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
+ * [Add TypeScript Definitions for Controls Using Kendo UI]({%slug general-information/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
 
  * [Kendo API reference](http://docs.telerik.com/kendo-ui/introduction)

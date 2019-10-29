@@ -12,7 +12,7 @@ position: 0
 
 **RadMultiColumnComboBox** is a dropdown that provides easy columns setup for its dropdown. You can define columns in the `ColumnsCollection`.
 
-You can set which **Field** from the dataItem should be populated, set a **Title**, [template]({%slug multicolumncombobox/functionality/templates%#column-template%}), [headerTemplate]({%slug multicolumncombobox/functionality/templates%#header-template%}) and **Width**.
+You can set which **Field** from the dataItem should be populated, set a **Title**, [template]({%slug multicolumncombobox/functionality/templates%}#column-template), [headerTemplate]({%slug multicolumncombobox/functionality/templates%}#header-template) and **Width**.
 
 Here is how the width of the columns and the dropdown behaves:
 

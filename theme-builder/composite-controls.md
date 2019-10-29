@@ -39,6 +39,6 @@ The theme customization process is the same as the one described in the **Create
 
  * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
  * [Overview]({%slug theme-builder/overview%})
- * [Create and Download]({%slug theme-builder/create-and-download%})
+ * [Create and Download]({%slug theme-builder/create%})
 
 

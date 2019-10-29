@@ -20,9 +20,10 @@ The case with **JavaScript** is a bit more complex, because it is a weakly typed
 
 This article contains the following sets of instructions for you to follow depending on your situation:
 
-* [TypeScript-based IntelliSense for Visual Studio 2017](#typescript-based-intellisense)
-* [VSDoc-based IntelliSense - use Visual Studio 2017 like older versions](#vsdoc-based-intellisense)
-* [IntelliSense for Visual Studio 2015 and earlier](#intellisense-for-visual-studio-2015-and-earlier)
+- [TypeScript-based IntelliSense](#typescript-based-intellisense)
+	- [Examples](#examples)
+- [VSDoc-based IntelliSense](#vsdoc-based-intellisense)
+- [IntelliSense for Visual Studio 2015 and earlier](#intellisense-for-visual-studio-2015-and-earlier)
 
 ## TypeScript-based IntelliSense
 
@@ -38,7 +39,7 @@ With this in mind, you may want to consider writing directly in TypeScript and u
 
 To use JavaScript Intellisense for the Telerik UI for ASP.NET AJAX controls in VS 2017, you must
 
-1. Add the [TypeScript Definitions for Telerik UI for ASP.NET AJAX]({%slug ntroduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) to your project.
+1. Add the [TypeScript Definitions for Telerik UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}) to your project.
 
 1. Reference the definition files in the file you are working in. Assuming the `.d.ts` files are in the `tsDefs` folder, here is a sample reference
 

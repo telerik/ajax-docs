@@ -55,7 +55,7 @@ Basically the virtualization functionality greatly improves the performance of t
 
 The Virtualization functionality is dedicated only for View mode of the grid. It [drastically improves performance](http://www.telerik.com/blogs/how-to-load-1m-records-in-telerik-s-asp.net-grid-without-compromising-performance) when checking a large volume of records.
 
-However, its also has its [limitations]({%slug grid/functionality/scrolling/virtualization#limitations%}) due to its complex internal logic. 
+However, its also has its [limitations]({%slug grid/functionality/scrolling/virtualization%}#limitations) due to its complex internal logic. 
 
 Here is a summary what is happening when using Virtualization:
 
@@ -65,7 +65,7 @@ Here is a summary what is happening when using Virtualization:
 4. If the user scrolls to a new not-visited page, the new data will be requested from the server and saved in the cache. It's the same as step 2 and this process repeats depending on the user's actions. NeedDataSource fires.
 5. If the user updates the entire page via a postback or makes an AJAX request which updates the grid also, the cache will be cleared and the collection process will start anew - the cache is not being sent to the server, which would eliminate the point of Virtualization optimization. NeedDataSource fires.
 
-To wrap it up, Virtualization is suitable only for Preview mode for the items and some grid functionalities are [not supported]({%slug grid/functionality/scrolling/virtualization#limitations%}). This also includes templates and editing. 
+To wrap it up, Virtualization is suitable only for Preview mode for the items and some grid functionalities are [not supported]({%slug grid/functionality/scrolling/virtualization%}#limitations). This also includes templates and editing. 
 
 If any of these features is a must for your project, you can remove Virtualization, enable standard built-in paging and use some other means to [improve the performance of the templates or editing](https://www.telerik.com/forums/radgrid-virtualization-and-editing#UQoDBM-nWUOMcbukZuGmzA).
 
@@ -73,6 +73,6 @@ If any of these features is a must for your project, you can remove Virtualizati
 ## See Also
 
 * [Custom Paging](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/paging/custom-paging/defaultcs.aspx)
-* [How to use Virtualization with Custom Paging to Improve Server Performance](http://www.telerik.com/support/kb/aspnet-ajax/grid/details/virtualization-and-custom-paging)
+* [How to use Virtualization with Custom Paging to Improve Server Performance](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/virtualization-and-custom-paging)
 * [Kendo Grid Virtualization](https://demos.telerik.com/kendo-ui/grid/virtualization-remote-data)
 * [Kendo Grid - How To Get The Best Performance](https://www.telerik.com/blogs/how-to-get-the-best-grid-performance)

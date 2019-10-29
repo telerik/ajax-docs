@@ -30,7 +30,7 @@ Video Tutorials
 Installation
 * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
-* [Adding the Telerik Controls to Your Project]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/adding-the-telerik-controls-to-your-project%})
+* [Adding the Telerik Controls to Your Project]({%slug general-information/adding-the-telerik-controls-to-your-project%})
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 * [Telerik Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%})
 

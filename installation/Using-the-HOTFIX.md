@@ -71,7 +71,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 ## See Also
 
- * [Adding the Telerik Controls to Your Project]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/adding-the-telerik-controls-to-your-project%})
+ * [Adding the Telerik Controls to Your Project]({%slug general-information/adding-the-telerik-controls-to-your-project%})
 
  * [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
 
