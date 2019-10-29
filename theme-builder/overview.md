@@ -49,7 +49,9 @@ The **Sass Theme Builder** web-based tool can help you drastically reduce this e
 
 
 ## Next Steps
+
 To create a custom skin with the theme builder, you need to:
+
 1. [Open the Telerik Sass ThemeBuilder](http://themebuilder.telerik.com/aspnet-ajax)
 2. [Create new or edit an existing skin]({%slug theme-builder/create%})
 3. [Download the new skin and apply it in your project]({%slug theme-builder/download-and-apply%})
@@ -57,4 +59,5 @@ To create a custom skin with the theme builder, you need to:
 If you have already created a custom skin, you can Import it for further editing: [Import an existing set of SASS variables to the tool]({%slug theme-builder/import%})
 
 ## See Also
+
  * [Telerik Sass ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/aspnet-ajax)
