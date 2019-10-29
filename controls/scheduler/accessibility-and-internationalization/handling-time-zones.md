@@ -35,31 +35,31 @@ To overcome these problems **RadScheduler** defines the **TimeZoneID** property.
 ## TimeZoneInfo Ids
 | Timezone IDs | Timezone IDs | Timezone IDs | Timezone IDs |
 | ------ | ------ | ------ | ------ |
-|DatelineStandardTime|ArgentinaStandardTime|IsraelStandardTime|ChinaStandardTime|
-|UTC-11|SAEasternStandardTime|E.EuropeStandardTime|NorthAsiaEastStandardTime|
-|SamoaStandardTime|GreenlandStandardTime       |ArabicStandardTime       |SingaporeStandardTime|
-|HawaiianStandardTime|MontevideoStandardTime      |ArabStandardTime         |W.AustraliaStandardTime|
-|AlaskanStandardTime|UTC-02                      |RussianStandardTime      |TaipeiStandardTime|
-|PacificStandardTime(Mexico)|Mid-AtlanticStandardTime    |E.AfricaStandardTime     |UlaanbaatarStandardTime|
-|PacificStandardTime|AzoresStandardTime          |IranStandardTime         |TokyoStandardTime|
-|USMountainStandardTime|CapeVerdeStandardTime       |ArabianStandardTime      |KoreaStandardTime|
-|MountainStandardTime(Mexico)|MoroccoStandardTime         |AzerbaijanStandardTime   |YakutskStandardTime|
-|MountainStandardTime|UTC|MauritiusStandardTime|Cen.AustraliaStandardTime|
-|CentralAmericaStandardTime|GMTStandardTime|GeorgianStandardTime     |AUSCentralStandardTime|
-|CentralStandardTime|GreenwichStandardTime|CaucasusStandardTime     |E.AustraliaStandardTime|
-|CentralStandardTime(Mexico)|W.EuropeStandardTime|AfghanistanStandardTime  |AUSEasternStandardTime|
-|CanadaCentralStandardTime|CentralEuropeStandardTime|EkaterinburgStandardTime |WestPacificStandardTime|
-|SAPacificStandardTime|RomanceStandardTime|PakistanStandardTime     |TasmaniaStandardTime|
-|EasternStandardTime          |CentralEuropeanStandardTime |WestAsiaStandardTime     |VladivostokStandardTime|
-|USEasternStandardTime        |W.CentralAfricaStandardTime |IndiaStandardTime        |MagadanStandardTime|
-|VenezuelaStandardTime        |NamibiaStandardTime         |SriLankaStandardTime     |CentralPacificStandardTime|
-|ParaguayStandardTime         |JordanStandardTime          |NepalStandardTime        |NewZealandStandardTime|
-|AtlanticStandardTime         |GTBStandardTime             |CentralAsiaStandardTime  |UTC+12|
-|CentralBrazilianStandardTime |MiddleEastStandardTime      |BangladeshStandardTime   |FijiStandardTime|
-|SAWesternStandardTime        |EgyptStandardTime           |N.CentralAsiaStandardTime|KamchatkaStandardTime|
-|PacificSAStandardTime        |SyriaStandardTime           |MyanmarStandardTime      |TongaStandardTime|
-|NewfoundlandStandardTime     |SouthAfricaStandardTime     |SEAsiaStandardTime|
-|E.SouthAmericaStandardTime   |FLEStandardTime             |NorthAsiaStandardTime|
+|Dateline Standard Time          | Argentina Standard Time          | Israel Standard Time          | China Standard Time |
+| UTC-11                         | SA Eastern Standard Time         | E. Europe Standard Time       | North Asia East Standard Time |
+| Samoa Standard Time            |Greenland Standard Time           | Arabic Standard Time          | Singapore Standard Time |
+| Hawaiian Standard Time         | Montevideo Standard Time         | Arab Standard Time            | W. Australia Standard Time |
+| Alaskan Standard Time          | UTC-02                           | Russian Standard Time         | Taipei Standard Time |
+| Pacific Standard Time (Mexico) | Mid-Atlantic Standard Time       | E. Africa Standard Time       |Ulaanbaatar Standard Time |
+| Pacific Standard Time          | Azores Standard Time             | Iran Standard Time            | Tokyo Standard Time |
+|US Mountain Standard Time       | Cape Verde Standard Time         | Arabian Standard Time         | Korea Standard Time |
+| Mountain Standard Time (Mexico)| Morocco Standard Time            | Azerbaijan Standard Time      | Yakutsk Standard Time |
+| Mountain Standard Time         | UTC                              |Mauritius Standard Time        | Cen. Australia Standard Time |
+| Central America Standard Time  | GMT Standard Time                | Georgian Standard Time        | AUS Central Standard Time |
+| Central Standard Time          |Greenwich Standard Time           | Caucasus Standard Time        | E. Australia Standard Time |
+| Central Standard Time (Mexico) | W. Europe Standard Time          | Afghanistan Standard Time     |AUS Eastern Standard Time |
+| Canada Central Standard Time   | Central Europe Standard Time     | Ekaterinburg Standard Time    | West Pacific Standard Time |
+| SA Pacific Standard Time       | Romance Standard Time            | Pakistan Standard Time        | Tasmania Standard Time |
+| Eastern Standard Time          | Central European Standard Time   | West Asia Standard Time       | Vladivostok Standard Time |
+| US Eastern Standard Time       | W. Central Africa Standard Time  |India Standard Time            | Magadan Standard Time |
+| Venezuela Standard Time        | Namibia Standard Time            | Sri Lanka Standard Time       | Central Pacific Standard Time |
+| Paraguay Standard Time         |Jordan Standard Time              | Nepal Standard Time           |New Zealand Standard Time |
+| Atlantic Standard Time         | GTB Standard Time                | Central Asia Standard Time    | UTC+12 |
+|Central Brazilian Standard Time | Middle East Standard Time        | Bangladesh Standard Time      | Fiji Standard Time |
+| SA Western Standard Time       | Egypt Standard Time              | N. Central Asia Standard Time | Kamchatka Standard Time |
+| Pacific SA Standard Time       | Syria Standard Time              | Myanmar Standard Time         | Tonga Standard Time |
+| Newfoundland Standard Time     | South Africa Standard Time       |SE Asia Standard Time | |
+| E. South America Standard Time | FLE Standard Time                | North Asia Standard Time | |
                                                            
 
 ## Example
