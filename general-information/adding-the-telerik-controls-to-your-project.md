@@ -25,11 +25,11 @@ To add Telerik® UI for ASP.NET AJAX to an existing ASP.NET web application you 
 
 1. Make sure you have installed ASP.NET AJAX, which comes as part of [.NET 3.5+ installations](https://www.microsoft.com/net/download/dotnet-framework-runtime). 
 
-1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application](https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application).
+1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [[How Do I:] Add ASP.NET AJAX Features to an Existing Web Application?](https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application).
 
 1. Add the needed HTTP handlers in the web.config as described in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
-	>tip You can use the [Telerik Creation and Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) to get the needed assemblies, their references and the web.config settings added to the solution.
+	>tip You can use the [Telerik Creation and Configuration Wizard](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard) to get the needed assemblies, their references and the web.config settings added to the solution. Alternatively you can log into [Your Telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and obtain the Telerik.Web.UI.dll and other assemblies from the Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip installation.
 
 1. Add a **ScriptManager** control on top of the page in which you are going to add any control.
 
@@ -37,9 +37,9 @@ To add Telerik® UI for ASP.NET AJAX to an existing ASP.NET web application you 
 	
 		<asp:ScriptManager ID="ScriptManager1" runat="server" />				
 
-	>tip If your page is a content page/user control you can add the ScriptManager control in your master/main page. For further details about the ScriptManager control you can check [http://www.asp.net/AJAX/Documentation/Live/overview/ScriptManagerOverview.aspx](http://www.asp.net/AJAX/Documentation/Live/overview/ScriptManagerOverview.aspx).
+	>tip If your page is a content page/user control you can add the ScriptManager control in your master/main page. For further details about the ScriptManager control you can check [https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8).
 
-	>tip Alternatively, you can use a [RadScriptManager]({%slug scriptmanager/overview%}) which extends the standard ScriptManager	control and adds more features to it.
+	Alternatively, you can use a [RadScriptManager](https://docs.telerik.com/devtools/aspnet-ajax/controls/scriptmanager/overview) which extends the standard ScriptManager	control and adds more features to it.
 
 ## Adding Telerik Controls to a WebForm
 
@@ -59,25 +59,31 @@ You can add any Telerik Control manually to the page by following the instructio
 
 * Open your **aspx/ascx** file and add the Telerik® UI for ASP.NET AJAX Register directive at the top so that Visual Studio recognizes our control tags:
 
-	**ASP.NET**
+	````ASP.NET
 
 		<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %> 
+	````
 
 	>tip If many pages in your application will use Telerik controls, you can add the following lines in your **web.config** file so you don't need to add the register directive in every page/user control.
 
-	**XML**
+	````XML
 
 		<pages>
 		 <controls>
 		   <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" />
 		 </controls>
 		</pages>   
+	````
 
-* Write the product tags in the body of the WebForm. For example:
+* Write the product tags in the body of the Web Form. For example:
 
-	**ASP.NET**
-
-		<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server" />
+	````ASP.NET
+		<form id="form1" runat="server">
+			<telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" Text="Some Text" runat="server" /> 
+			<telerik:RadPushButton ID="RadButton1" runat="server" Text="Submit"></telerik:RadPushButton>
+		</form>
+	````
 
 >note AJAX-based controls like ours must be placed on the page after ScriptManager's declaration and inside the `<form>` tag.
 
@@ -94,6 +100,8 @@ To configure a control, you can:
 You can read more about the individual controls' properties and features in their respective sections in the documentation, demos and by using the intellisense in Visual Studio.
 
 ### See Also
+
+ * [First Steps with UI for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps)
 
  * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
