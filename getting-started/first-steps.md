@@ -28,7 +28,7 @@ The easiest way to get the controls to your development machine is to use the [T
 
 >note If you are not a customer, you can [download a free, fully functional trial](https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax) and the same options will apply to you as well.
 
->tip The following article can help you choose the installation type that is most suitable for your needs and preferences: [Which File Do I Need to Install]({%slug installation/which-file-do-i-need-to-install%}).
+>tip The following article can help you choose the installation type that is most suitable for your needs and preferences: [Which File Do I Need to Install](https://docs.telerik.com/devtools/aspnet-ajax/installation/which-file-do-i-need-to-install).
 
 ## Add the Controls to Your Project
 
@@ -57,7 +57,7 @@ The easiest way to get the Telerik UI for ASP.NET AJAX controls in your project 
         ![Run Create Project Wizard](../general-information/integration-with-visual-studio/visual-studio-extensions/images/introduction-vsx_overview_menucreate.png "Run Create Project Wizard")
 
 
->tip If you prefer full manual control over your project, you can **copy** the **Telerik assemblies** to the `~/bin` and **add references** to them through the Visual Studio interface. In this case you should also [update the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The controls come packaged in [several assemblies]({%slug introduction/installation/included-assemblies%}) and to get started, you only need `Telerik.Web.UI.dll`, `Telerik.Web.UI.Skins.dll` and `Telerik.Web.Design.dll`.
+>tip If you prefer full manual control over your project, you can **copy** the **Telerik assemblies** to the `~/bin` and **add references** to them through the Visual Studio interface. In this case you should also [update the web.config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig). The controls come packaged in [several assemblies](https://docs.telerik.com/devtools/aspnet-ajax/installation/included-assemblies) and to get started, you only need `Telerik.Web.UI.dll`, `Telerik.Web.UI.Skins.dll` and `Telerik.Web.Design.dll`.
 
 ## Add a Control to a Page
 
