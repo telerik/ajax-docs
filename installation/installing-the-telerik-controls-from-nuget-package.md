@@ -26,7 +26,7 @@ This article contains the following sections:
 
 
 >caution  **Prerequisite** 
->In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx) installed on your development/production machine.
+>In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations.
 
 
 ## Telerik NuGet Feed in Visual Studio
@@ -121,9 +121,29 @@ You must protect your credentials and ensure they are used only by you and not b
 
 ## Troubleshooting
 
+### Error: The schema version of '<namespace>' is incompatible with version 2.0.30625.9003 of NuGet. Please upgrade NuGet to the latest version.
+	
 In R1 2018, the `nuget.exe` version we use was updated from `2.8` to `4.3`. This is the executable file used to generate and read the `.nupkg` files.
 
 Due to this update, you may get the error below when using Visual Studio 2012 that uses the NuGet Package Manager version 2.0. The **solution is to upgrade the NuGet Package Manager to version 2.8**.
 
 > The schema version of `'<namespace>'` is incompatible with version 2.0.30625.9003 of NuGet. Please upgrade NuGet to the latest version.
 
+
+### Incorrect credentials and how to reenter them
+
+The setup can get stuck in a circular reference problem if you enter incorrect credentials the first time.
+In order to reset or edit the nuget feed credentials:
+1. Close Visual Studio
+2. Open Control Panel -> All Control Panel Items -> Credential Manager or simply press Win button and type Manage Windows Credentials and open the manager.
+3. Look for VSCredentials_nuget.telerik.com -> remove or edit the password.
+4. Open Visual Studio and try to access the nuget.telerik.com feed again.
+
+### Error Unable to load the service index for source https://nuget.telerik.com/nuget
+
+Make sure that the Telerik NuGet Feed is live at [http://status.telerik.com/](http://status.telerik.com/).
+
+
+## Additional Resources
+
+[Azure DevOps and Telerik NuGet Packages](https://www.telerik.com/blogs/azure-devops-and-telerik-nuget-packages)
