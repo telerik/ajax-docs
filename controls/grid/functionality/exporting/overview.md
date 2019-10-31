@@ -299,10 +299,18 @@ protected void RadGrid1_PreRender(object sender, EventArgs e)
 
 protected void GenerateText(GridDataItem gridItem)
 {
-	//you can use gridItem["columnUniqueName"].FindControl() to access child controls if needed
-	gridItem("myTemplateColumn").Text = gridItem.DataItem("SomeColumn").ToString();
-	//generate a string for Excel here, according to the concrete business logic
-	//and according to the Excel rules (e.g., special new line characters, simple strings without HTML, etc.)
+    // you can use gridItem["columnUniqueName"].FindControl() to access child controls if needed, however, 
+    // controls will only be available if ExportOnlyData property is set to false. (`ExportOnlyData="False"`)
+
+    // Get the data from the DataItem instead
+    // DataItem object is DataRow is binding data using DataTables
+    gridItem["myTemplateColumn"].Text = ((gridItem.DataItem as DataRowView).Row as DataRow)["DataSourceField"].ToString();
+
+    // When binding to custom Object, DataItem object will be the Object type that is bound to Grid
+    gridItem["myTemplateColumn"].Text = gridItem.DataItem.ObjectProperty;
+
+    //generate a string for Excel here, according to the concrete business logic
+    //and according to the Excel rules (e.g., special new line characters, simple strings without HTML, etc.)
 }
 ````
 ````VB
@@ -316,11 +324,19 @@ Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs) Handles RadGr
 	End If
 End Sub
 
-Protected Sub GenerateText(ByRef gridItem As GridDataItem)
-	'you can use gridItem["columnUniqueName"].FindControl() to access child controls if needed
-	gridItem("myTemplateColumn").Text = gridItem.DataItem("SomeColumn").ToString()
-	'generate a string for Excel here, according to the concrete business logic
-	'and according to the Excel rules (e.g., special new line characters, simple strings without HTML, etc.)
+Protected Sub GenerateText(ByVal gridItem As GridDataItem)
+    'you can use gridItem("columnUniqueName").FindControl() to access child controls if needed, however, 
+    'controls will only be available if ExportOnlyData property is set to false. (`ExportOnlyData="False"`)
+    
+    'Get the data from the DataItem instead
+    'DataItem object is DataRow is binding data using DataTables    
+    gridItem("myTemplateColumn").Text = TryCast(TryCast(gridItem.DataItem, DataRowView).Row, DataRow)("DataSourceField").ToString()
+    
+    'When binding to custom Object, DataItem object will be the Object type that is bound to Grid
+    gridItem("myTemplateColumn").Text = gridItem.DataItem.ObjectProperty
+    
+    'generate a string for Excel here, according to the concrete business logic
+    'and according to the Excel rules (e.g., special new line characters, simple strings without HTML, etc.)    
 End Sub
 ````
 
