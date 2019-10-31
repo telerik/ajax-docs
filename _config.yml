@@ -1918,6 +1918,7 @@ intro_columns:
       "Button": "button/telerik's-asp.net-button-overview"
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
+      "Drawer": "drawer/overview"
       "ImageButton": "imagebutton/overview"
       "LinkButton": "linkbutton/overview"
       "Menu": "menu/overview"
