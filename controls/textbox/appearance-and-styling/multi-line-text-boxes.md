@@ -33,10 +33,13 @@ The **Columns** property determines the width of each line in characters, and th
 
 If the value in the text box extends beyond the number of rows specified by the **Rows** property, the text box gets a vertical scroll bar:
 
+
 ![Wrapping MultiLine text box](images/WrappingMultiLineTextBox.png)
 
 
 * If the **Wrap** property is **False**, the value in the text box does not wrap. Additional lines are used only if the text value includes a new-line character. A horizontal scroll bar appears if the value of any line exceeds the limit set by the **Columns** property:
+
+
 ![Non wrapping text box](images/NonWrappingTextBox.png)
 
 
@@ -44,3 +47,4 @@ If the value in the text box extends beyond the number of rows specified by the 
 # See Also
 
  * [RadTextBox Overview]({%slug radtextbox/overview%})
+ 
