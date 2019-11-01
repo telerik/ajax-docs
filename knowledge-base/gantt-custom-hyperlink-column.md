@@ -3,7 +3,7 @@ title: Create Hyperlink column in RadGantt
 description: 
 type: how-to
 page_title: Add hyperlink column in RadGantt | Telerik UI for ASP.NET AJAX
-slug: gantt-custom-hyperlink-column.md
+slug: gantt-custom-hyperlink-column
 position: 
 tags: 
 res_type: kb
@@ -26,7 +26,7 @@ res_type: kb
 
 ## Description
 
-At the time of writing, RadGantt does not support column templates. Nevertheless, the cells of the treelist view can be accessed via the data-uid property of the row as explained in [Customize style and content of treelist column in RadGantt](/devtools/aspnet-ajax/knowledge-base/gantt-access-and-customize-treelist-cells) KB article.
+At the time of writing, RadGantt does not support column templates. Nevertheless, the cells of the treelist view can be accessed via the data-uid property of the row as explained in [Customize style and content of treelist column in RadGantt]({%slug gantt-access-and-customize-treelist-cells%}) KB article.
 
 The same setup is used as the referenced article, the only change is in the `OnClientDataBound` event handler.
 
@@ -80,6 +80,6 @@ The same setup is used as the referenced article, the only change is in the `OnC
 
 ## See Also
 
-* [Customize style and content of treelist column in RadGantt](/devtools/aspnet-ajax/knowledge-base/gantt-access-and-customize-treelist-cells)
+* [Customize style and content of treelist column in RadGantt]({%slug gantt-access-and-customize-treelist-cells%})
 
  

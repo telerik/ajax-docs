@@ -3,7 +3,7 @@ title: How do I change the text color of a row in the TreeList section of a Gant
 description: 
 type: how-to
 page_title: Customize style and content of treelist column in RadGantt | Telerik UI for ASP.NET AJAX
-slug: gantt-access-and-customize-treelist-cells.md
+slug: gantt-access-and-customize-treelist-cells
 position: 
 tags: 
 ticketid: 1428187
@@ -119,6 +119,6 @@ protected void Page_Load(object sender, EventArgs e)
 
 * [RadGantt client-side object]({%slug gantt/client-side-programming/objects/gantttask-object%})
 
-* [Create Hyperlink column in RadGantt](/devtools/aspnet-ajax/knowledge-base/gantt-custom-hyperlink-column)
+* [Create Hyperlink column in RadGantt]({%slug gantt-custom-hyperlink-column%})
 
 
