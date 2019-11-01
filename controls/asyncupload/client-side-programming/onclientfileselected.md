@@ -41,5 +41,6 @@ function OnClientFileSelected(sender, args) {
 
 ## See Also
 
-[Access selected file in the arguments of OnClientFileSelected event of AsyncUpload](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/access-selected-file-in-the-arguments-of-onclientfileselected-event-of-asyncupload) KB article
+* [Access selected file in the arguments of OnClientFileSelected event of AsyncUpload](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/access-selected-file-in-the-arguments-of-onclientfileselected-event-of-asyncupload) KB article
+* [Preview PDF files before uploading with RadAsyncUpload]({%slug asyncupload-preview-pdf-file-before-uploading%}) KB article
 
