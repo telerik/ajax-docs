@@ -100,7 +100,7 @@ Consider the following example:
 
 ````XML
 <?xml version="1.0" encoding="utf-8" ?>
-<items text="">
+<Items Text="">
   <Item Text="European cities" Url="" >
 	<Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
 	<Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
@@ -127,7 +127,7 @@ Consider the following example:
 	<Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
 	<Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
   </Item>
-</items>
+</Items>
 ````
 
 
@@ -167,6 +167,36 @@ Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
 End Sub
 ````
 
+Here is also the Markup in which above steps resulted in: 
+
+````ASPNET
+<telerik:RadMenu runat="server" ID="RadMenu1" RenderMode="Lightweight"
+    OnItemDataBound="RadMenu1_ItemDataBound" 
+    DataSourceID="menuXmlDS" 
+    DataTextField="Text" DataValueField="Text" DataNavigateUrlField="Url">
+</telerik:RadMenu>
+
+<asp:XmlDataSource runat="server" ID="menuXmlDS" XPath="/Items/Item"
+        DataFile="~/App_Data/MenuData.xml" />
+````
+````C#
+protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e)
+{    
+	if (e.Item.Level > 0) //set tooltip only for child items
+	{                  
+		XmlElement element = (XmlElement)e.Item.DataItem;       
+		e.Item.ToolTip = "Read more about " + element.Attributes["Text"].Value;    
+	}
+}      			
+````
+````VB.NET
+Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
+	If e.Item.Level > 0 Then 'set tooltip only for child items      
+		Dim element As XmlElement = DirectCast(e.Item.DataItem, XmlElement)
+		e.Item.ToolTip = "Read more about " + element.Attributes("Text").Value
+	End If
+End Sub
+````
 
 # See Also
 
