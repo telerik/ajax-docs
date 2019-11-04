@@ -46,7 +46,7 @@ This article contains the following sections:
 
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
 
->note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls.
+>note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls. The "mixed render modes" loads styles for both two render modes and that leads to appearance issues. To check and avoid that, review the [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues) KB article.
 
 
 ## RenderMode Fallback Order
@@ -136,3 +136,6 @@ There are two ways to set the **RenderMode** of each **Telerik control**:
  * [Telerik® UI for ASP.NET AJAX Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://www.telerik.com/blogs/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
 
  * [The Attack of the Light-Rendered or how Lightweight beats Heavyweight with CSS3 and HTML5](http://blogs.telerik.com/aspnet-ajax/posts/13-06-13/attack-of-the-light-rendered-css3-and-html5-win)
+ 
+ *  [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues)
+ 
