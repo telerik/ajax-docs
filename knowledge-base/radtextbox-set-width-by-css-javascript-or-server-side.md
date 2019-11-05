@@ -3,7 +3,7 @@ title: Set RadTextbox width by CSS, JavaScript or Server side
 description: Learn how to change the RadTextbox's width by CSS, JavaScript or Server side.
 type: how-to
 page_title: How to set the RadInput width by a CSS class, with JavaScript or via a server property
-slug: set-radtextbox-width-by-css-javascript-or-server-side
+slug: radtextbox-set-width-by-css-javascript-or-server-side
 position: 
 tags: 
 ticketid: 348259
