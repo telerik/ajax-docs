@@ -1,7 +1,7 @@
 ---
 title: Telerik® UI for ASP.NET AJAX Documentation Repo
 publish: false
----
+--- 
 
 # Telerik® UI for ASP.NET AJAX Documentation
 
