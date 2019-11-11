@@ -29,7 +29,7 @@ Use the **ItemClick** event handler to respond when the user clicks an item in t
 <telerik:RadMenu ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">
 </telerik:RadMenu>
 
-<telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnItemClick="RadContextMenu2_ItemClick">
+<telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnItemClick="RadContextMenu1_ItemClick">
 </telerik:RadContextMenu>
 ````
 
