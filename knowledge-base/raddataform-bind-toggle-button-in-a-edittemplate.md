@@ -15,7 +15,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product</td>
-			<td>RadCheckBox for ASP.NET AJAX</td>
+			<td>RadDataForm for ASP.NET AJAX</td>
 		</tr>
 	</tbody>
 </table>
