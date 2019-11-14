@@ -14,6 +14,8 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
+            <td>Version</td>
+            <td>2019.3.1023</td>        
 			<td>Product</td>
 			<td>RadGrid for ASP.NET AJAX</td>
 		</tr>
