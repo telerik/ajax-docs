@@ -14,18 +14,19 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
+            <td>Version</td>
+            <td>2019.3.1023</td>
 			<td>Product</td>
 			<td>RadTreeList for ASP.NET AJAX</td>
 		</tr>
 	</tbody>
 </table>
 
-
 ## Description
 When exporting to Excel in a RadTreeList that contains an EditColumn, the Add and Edit text will also appear.
 
 ## Solution
-To change this set the Visible property to false in the OnItemDataBound event handler. Use the IsExporting flag to verify the Export Command is being executed. See the below code snippet for reference.
+To change this set the Visible property to false in the [ItemDataBound](https://docs.telerik.com/devtools/aspnet-ajax/controls/treelist/server-side-programming/treelist-object#server-side-events) event handler. Use the **IsExporting** flag to verify the Export Command is being executed. See the below code snippet for reference.
 
 ``` csharp
 protected void rtlOrgChart_ItemDataBound(object sender, TreeListItemDataBoundEventArgs e)
@@ -54,3 +55,6 @@ Protected Sub rtlOrgChart_ItemDataBound(sender As Object, e As TreeListItemDataB
     End If
 End Sub
 ```
+
+## See Also
+*   [TreeList Object Server Side API](https://docs.telerik.com/devtools/aspnet-ajax/controls/treelist/server-side-programming/treelist-object)
