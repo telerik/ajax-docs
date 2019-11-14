@@ -3,7 +3,7 @@ title: How To: Bind Toggle Button in a RadDataForm EditTemplate
 description: Learn about binding a toggle button in a RadDataForm Edit Template
 type: how-to
 page_title: Binding a Toggle Button in EditTemplate for RadDataForm
-slug: raddataform-bind-toggle-button-in-a-edittemplate
+slug: dataform-bind-toggle-button-in-a-edittemplate
 position: 
 tags: RadDataForm, EditTemplate, RadButton, ButtonToggle
 ticketid: 1441058
@@ -14,6 +14,8 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
+            <td>Version</td>
+            <td>2019.3.1023</td>        
 			<td>Product</td>
 			<td>RadDataForm for ASP.NET AJAX</td>
 		</tr>
