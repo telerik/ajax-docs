@@ -33,7 +33,7 @@ Set the AjaxUrl property in the RadSpell declaration:
 <telerik:RadSpell ID="RadSpell1" runat="server" AjaxUrl="~/Telerik.Web.UI.SpellCheckHandler.ashx" HandlerUrl="~/Telerik.Web.UI.DialogHandler.axd" ControlsToCheck="TextBox1" />
 ````
 
-and in the web.config file register the handlers as follows:
+and in the web.config file register the handlers as follows with axd for the dialog handler and ashx for the spellcheck handler:
 
 ````ASP.NET
 <httpHandlers>
@@ -41,9 +41,10 @@ and in the web.config file register the handlers as follows:
 <add path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false"/>
 
 </httpHandlers>
-
+````
 ...
 
+````ASP.NET
 <system.webServer>
 <modules runAllManagedModulesForAllRequests="true"/>
 <validation validateIntegratedModeConfiguration="false"/>
@@ -63,3 +64,4 @@ and in the web.config file register the handlers as follows:
 ````
 
 For more information and solutions check out this [popular blog post](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/error-web-config-registration-missing!-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file-).
+
