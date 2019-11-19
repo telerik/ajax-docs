@@ -2,7 +2,7 @@
 title: RadSpell error - Web.config registration missing
 description: When users click on the RadSpell control, they get a Web.config registration missing? and a 404 - File or directory not found error
 type: troubleshooting
-page_title: RadSpell Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
+page_title: RadSpell Error Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
 slug: spell-error-web-config-registration-missing
 position: 
 tags: 
@@ -22,9 +22,11 @@ res_type: kb
 
 
 ## Description
+
 When users click on the RadSpell, it errors out with "Web.config registration missing? The Telerik dialogs require a HttpHandler registration in the web.config file." and a "404 - File or directory not found error" in the dialog title errors.
 
 ## Solution
+
 * For the standalone RadSpell control: 
 
 Set the AjaxUrl property in the RadSpell declaration:
@@ -37,17 +39,17 @@ and in the web.config file register the handlers as follows with axd for the dia
 
 ````ASP.NET
 <httpHandlers>
-<add path="Telerik.Web.UI.DialogHandler.axd" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false"/>
-<add path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false"/>
-
+	<add path="Telerik.Web.UI.DialogHandler.axd" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false"/>
+	<add path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false"/>
 </httpHandlers>
+
 <system.webServer>
-<modules runAllManagedModulesForAllRequests="true"/>
-<validation validateIntegratedModeConfiguration="false"/>
-<handlers>
-<add name="Telerik_Web_UI_DialogHandler_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.axd" type="Telerik.Web.UI.DialogHandler"/>
-<add name="Telerik_Web_UI_SpellCheckHandler_ashx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler"/>
-</handlers>
+	<modules runAllManagedModulesForAllRequests="true"/>
+	<validation validateIntegratedModeConfiguration="false"/>
+	<handlers>
+		<add name="Telerik_Web_UI_DialogHandler_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.axd" type="Telerik.Web.UI.DialogHandler"/>
+		<add name="Telerik_Web_UI_SpellCheckHandler_ashx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler"/>
+	</handlers>
 </system.webServer>
 ````
 
