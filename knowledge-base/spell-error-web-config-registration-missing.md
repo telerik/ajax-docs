@@ -1,5 +1,5 @@
 ---
-title: RadSpell error - Web.config registration missing!
+title: RadSpell error - Web.config registration missing
 description: When users click on the RadSpell control, they get a Web.config registration missing? and a 404 - File or directory not found error
 type: troubleshooting
 page_title: RadSpell Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
@@ -41,10 +41,6 @@ and in the web.config file register the handlers as follows with axd for the dia
 <add path="Telerik.Web.UI.SpellCheckHandler.ashx" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false"/>
 
 </httpHandlers>
-````
-...
-
-````ASP.NET
 <system.webServer>
 <modules runAllManagedModulesForAllRequests="true"/>
 <validation validateIntegratedModeConfiguration="false"/>
