@@ -14,8 +14,10 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
-            <td>Version</td>
-            <td>2019.3.1023</td>        
+            		<td>Version</td>
+            		<td>2019.3.1023</td> 
+		</tr>
+		<tr>
 			<td>Product</td>
 			<td>RadGrid for ASP.NET AJAX</td>
 		</tr>
@@ -24,12 +26,14 @@ res_type: kb
 
 
 ## Description
+
 Elaborating on the [Aligning Items in Group](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/how-to/Grouping/aligning-items-in-groupheader) which is specific to the example in the documentation. It would require different logic in most cases. See the below solution for how to do the same thing with multiple headers.
 
 ## Solution
+
 In the below code snippet the location of the cell is specifically placed by the column index. It isn't dynamic but this will provide the desired result. Notice that each cell is specifically laid out and empty cells are added as placeholders for non-grouped columns.
 
-``` csharp
+````C#
 
 protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 {
@@ -39,7 +43,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
         e.Item.PreRender += new EventHandler(Item_PreRender);       //  delegates the PreRender event handler
     }
 }
-void Item_PreRender(object sender, EventArgs e)
+public void Item_PreRender(object sender, EventArgs e)
 {
     string text = ((GridGroupHeaderItem)sender).DataCell.Text;  //  gets header text value
     string[] texts = text.Split(';');   //  splits the text value on character = ;
@@ -76,7 +80,8 @@ void Item_PreRender(object sender, EventArgs e)
         }
     }
 }
-```
+````
 
 ## See Also
+
 *   [Aligning Items in Group](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/how-to/Grouping/aligning-items-in-groupheader)
