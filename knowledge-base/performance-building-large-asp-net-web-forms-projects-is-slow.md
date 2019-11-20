@@ -1,5 +1,5 @@
 ---
-title: Building large ASP.NET Web Forms projects is slow
+title: Building large ASP.NET Web Forms site is slow
 description: Learn how to increase the build speed of a large ASP.NET Web Forms website, like the Telerik AJAX live demos app, via the Property Pages Build configuration of Visual Studio.
 type: troubleshooting
 page_title: Telerik Live demos build process takes a very long time 
@@ -28,8 +28,7 @@ After an hour I had to use the Task Manager to force Visual Studio to stop becau
 Is there anything I need to do to improve the build process? Right now I'm only interested in the AsyncUpload examples.
 
 ## Solution
-There is an option in Visual Studio to configure the IDE to build only the current page you have selected as a start page. 
-Once turned on, this setting will resolve the performance issue since the studio will not build the whole solution, but only the start page.
+There is one pretty useful performance feature of Visual Studio, which allows to build only the page your are working on and to debug/build it, but not the whole site. Once turned on, this setting will resolve the performance issue since the studio will not build the whole solution, but only the selected start page and you can concentrate only on it.
 
 Here are the steps:
 * Right click on the Web Site
