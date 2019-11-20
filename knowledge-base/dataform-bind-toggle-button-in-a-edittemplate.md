@@ -1,5 +1,5 @@
 ---
-title: How To: Bind Toggle Button in a RadDataForm EditTemplate
+title: How To Bind Toggle Button in a RadDataForm EditTemplate
 description: Learn about binding a toggle button in a RadDataForm Edit Template
 type: how-to
 page_title: Binding a Toggle Button in EditTemplate for RadDataForm
