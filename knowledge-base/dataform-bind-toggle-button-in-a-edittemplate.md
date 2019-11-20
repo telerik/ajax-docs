@@ -14,8 +14,10 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
-            <td>Version</td>
-            <td>2019.3.1023</td>        
+		    <td>Version</td>
+		    <td>2019.3.1023</td>    
+		</tr>
+		<tr>    
 			<td>Product</td>
 			<td>RadDataForm for ASP.NET AJAX</td>
 		</tr>
@@ -24,13 +26,15 @@ res_type: kb
 
 
 ## Description
+
 If using a [Toggle Type Telerik RadButton](https://docs.telerik.com/devtools/aspnet-ajax/controls/button/button-types/toggle-button), the Toggle can have any combination of states. This can be confusing to bind to in when [Editing in a RadDataForm](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/data-editing/manual-crud-operations). In order to bind the Toggle State, Set the DataKeyNames and use the SetSelectedToggleByText or SetSelectedToggleByValue. See the below Solution for an Example in when binding a Toggle Button in a RadDataForm.
 
 ## Solution
 In the below sample, the IsSomething value is either a 0 or 1, i.e. true or false. In the [RadDataForm ItemTemplate](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/data-binding/declarative-data-source) binding can use the [DataBinder.Eval Method](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.databinder.eval). This doesn't work when Editing. In this case, set the [DataKeyNames](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object) and use the [OnItemCreated](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/events) Event of the RadDataForm to set the Toggle State using the SetSelectedToggleByText or SetSelectedToggleByValue.
 
 ### RadDataForm Markup
-``` html
+
+````ASP.NET
 <telerik:RadDataForm runat="server" ID="RadDataForm1" DataSourceID="SqlDataSource1" DataKeyNames="PersonId, IsSomething" CssClass="rdfInlineBlock" RenderMode="Lightweight" OnItemCreated="RadDataForm1_ItemCreated">
     <LayoutTemplate>
         <div class="RadDataForm RadDataForm_<%# Container.Skin %> rdfInlineBlock">
@@ -113,9 +117,11 @@ In the below sample, the IsSomething value is either a 0 or 1, i.e. true or fals
         </div>
     </EmptyDataTemplate>
 </telerik:RadDataForm>
-```
+````
+
 ### The OnItemCreatedEvent
-``` csharp
+
+````C#
 protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs e)
 {
     if (e.Item.ItemType == RadDataFormItemType.EditItem)
@@ -149,7 +155,8 @@ protected void RadDataForm1_ItemCreated(object sender, RadDataFormItemEventArgs 
         rb.SetSelectedToggleStateByText(IsPreferred);
     }
 }
-```
+````
+
 ## See Also
 
 *   [Toggle Type Telerik RadButton](https://docs.telerik.com/devtools/aspnet-ajax/controls/button/button-types/toggle-button)
