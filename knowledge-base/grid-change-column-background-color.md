@@ -36,3 +36,4 @@ And if you want to accomplish that for every grid cell, you can set this propert
             <ItemStyle BackColor="LightCyan" />
             <AlternatingItemStyle BackColor="LightCyan" />
 ````
+
