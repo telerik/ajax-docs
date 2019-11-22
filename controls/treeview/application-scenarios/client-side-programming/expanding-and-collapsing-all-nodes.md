@@ -37,7 +37,7 @@ for (var i = 0; i < nodes.length; i++) {
 The example below adds a **RadTreeView** and two links to a form. The links trigger functions get the **RadTreeView** client instance, retrieve all the nodes for the **RadTreeView** and iterate the nodes. Nodes with children are expanded or collapsed.
 
 
-![RadTreeView How To](images/treeview_howto02)
+![RadTreeView How To](images/treeview_howto02.png)
 
 ````JavaScript
 function treeExpandAllNodes() {
