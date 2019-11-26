@@ -54,6 +54,8 @@ The advantage of using the **NeedDataSource** event is the flexibility of genera
 
 * Custom cases, for example when using the **RebindReason** property as noted above.
 
+In some scenarios it may be necessary to refresh the grid explicitly upon some external action. In such cases use just the **Rebind** () method, which will refresh the grid content.
+
 >caution  **Important:** You should never call the **Rebind** () method in a **NeedDataSource** event handler.You should never call **DataBind** () as well when using programmatic data binding through **NeedDataSource**.
 >
 
