@@ -32,7 +32,7 @@ The advantage of using the **NeedDataSource** event is the flexibility of genera
 >caution If at the time of the event, the **DataSource** property is not set to a valid data source, the grid will behave  unexpectedly.
 >
 
-* Immediately after **On_Load** if the grid has not yet been data-bound and there is no **ViewState** data. This means that if the **MasterTableView** **EnableViewState** has been set to **False**, the grid will bind each time the page loads, not only the first time.
+* Immediately after **On_Load** if the grid has not yet been data-bound and there is no **ViewState** data. This means that if the **MasterTableView** **EnableViewState** property has been set to **False**, the grid will bind each time the page loads, not only the first time.
 
 * When a paging operation occurs.
 
