@@ -26,17 +26,18 @@ res_type: kb
 You can generate tooltips for specific template elements both for RadTreeList and RadGrid using the same approach:
 
 ````ASP.NET
-            <ClientSettings>
-                <ClientEvents OnTreeListCreated="treeListCreated" />
-            </ClientSettings>
+<ClientSettings>
+    <ClientEvents OnTreeListCreated="treeListCreated" />
+</ClientSettings>
 ````
  
 ````JavaScript
-            function treeListCreated(sender, args) {
-                var treelist = sender;
-                var items = treelist.get_dataItems();
-                for (var i = 0; i < items.length; i++) {
-                    $(items[i].get_element()).find("a").attr("title", "Success");
-                }
-            }
+function treeListCreated(sender, args) {
+    var treelist = sender;
+    var items = treelist.get_dataItems();
+    for (var i = 0; i < items.length; i++) {
+        $(items[i].get_element()).find("a").attr("title", "Success");
+    }
+}
 ````
+
