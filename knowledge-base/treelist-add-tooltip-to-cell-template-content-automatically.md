@@ -1,6 +1,6 @@
 ---
 title: Add tooltip for RadTreeList or RadGrid cell template content automatically
-description: 
+description: Learn how apply a tooltip to a specific template of grid and treelist components.
 type: how-to
 page_title: 
 slug: treelist-add-tooltip-to-cell-template-content-automatically
@@ -24,11 +24,13 @@ res_type: kb
 ## Solution
 
 You can generate tooltips for specific template elements both for RadTreeList and RadGrid using the same approach:
+
 ````ASP.NET
             <ClientSettings>
                 <ClientEvents OnTreeListCreated="treeListCreated" />
             </ClientSettings>
 ````
+ 
 ````JavaScript
             function treeListCreated(sender, args) {
                 var treelist = sender;
