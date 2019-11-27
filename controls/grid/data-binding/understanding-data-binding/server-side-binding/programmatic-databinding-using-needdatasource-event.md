@@ -6,6 +6,7 @@ slug: grid/data-binding/understanding-data-binding/server-side-binding/programma
 tags: programmatic,data-binding,needdatasource,events
 published: True
 position: 1
+previous_url: https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)
 ---
 
 # Programmatic Data Binding Using the NeedDataSource Event
@@ -54,7 +55,7 @@ The advantage of using the **NeedDataSource** event is the flexibility of genera
 
 * Custom cases, for example when using the **RebindReason** property as noted above.
 
-In some scenarios it may be necessary to refresh the grid explicitly upon some external action. In such cases use just the **Rebind** () method, which will refresh the grid content.
+In some scenarios it may be necessary to refresh the grid explicitly upon some external action. In such cases just use the **Rebind** () method, which will refresh the grid content.
 
 >caution  **Important:** You should never call the **Rebind** () method in a **NeedDataSource** event handler.You should never call **DataBind** () as well when using programmatic data binding through **NeedDataSource**.
 >
@@ -143,3 +144,10 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik
     RadGrid1.DataSource = GenerateSupplierData()
 End Sub
 ````
+
+## See Also
+
+ * [Bindable Property Types]({{site.url}}/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics)
+
+ * [Telerik RadGrid Data Binding Basics]({{site.url}}/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics)
+ * [Properly Bind a RadGrid on the Server-side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)
