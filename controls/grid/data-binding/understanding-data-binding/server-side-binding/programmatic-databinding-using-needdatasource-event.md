@@ -30,7 +30,7 @@ The advantage of using the **NeedDataSource** event is the flexibility of genera
 >note The event arguments for the **NeedDataSource** event include the **RebindReason** property, which indicates the reason the event is occurring.
 >
 
->caution If at the time of the event, the **DataSource** property is not set to a valid data source, the grid will behave  unexpectedly.
+>caution **Important:** If at the time of the event, the **DataSource** property is not set to a valid data source, the grid will behave  unexpectedly.
 >
 
 * Immediately after **On_Load** if the grid has not yet been data-bound and there is no **ViewState** data. This means that if the **MasterTableView** **EnableViewState** property has been set to **False**, the grid will bind each time the page loads, not only the first time.
@@ -62,7 +62,7 @@ In some scenarios it may be necessary to refresh the grid explicitly upon some e
 
 ### Examples
 
-*   Using a SQL Connection
+#### Using a SQL Connection
 
 ````C#
 protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -104,7 +104,7 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik
 End Sub
 ````
 
-* Using an IEnumerable and Object Class
+#### Using an IEnumerable and Object Class
 
 ````C#
 public IEnumerable<Supplier> GenerateSupplierData()
@@ -147,7 +147,6 @@ End Sub
 
 ## See Also
 
- * [Bindable Property Types]({{site.url}}/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics)
-
- * [Telerik RadGrid Data Binding Basics]({{site.url}}/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics)
+ * [Bindable Property Types]({{site.url}}/devtools/aspnet-ajax/controls/grid/data-binding/telerik-radgrid-data-binding-basics#bindable-property-types)
+ * [Telerik RadGrid Data Binding Basics]({{site.url}}/devtools/aspnet-ajax/controls/grid/data-binding/telerik-radgrid-data-binding-basics)
  * [Properly Bind a RadGrid on the Server-side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)
