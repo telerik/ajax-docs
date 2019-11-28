@@ -62,6 +62,10 @@ Here is an example:
 		{
 			alert('You just clicked in the editor');
 		});
+		
+		$telerik.addExternalHandler(element, "blur", function (e) {
+            alert('You just blurred the editor');
+        });
 	}
 </script>
 <telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
