@@ -2,11 +2,11 @@
 title: Telerik RadGrid Data Binding Basics
 page_title: Telerik RadGrid Data Binding Basics | RadGrid for ASP.NET AJAX Documentation
 description: Telerik RadGrid Data Binding Basics
-slug: grid/data-binding/telerik-radgrid-data-binding-basics
+slug: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
 tags: telerik,radgrid,data,binding,basics
 published: True
 position: 0
-previous_url: controls/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
+previous_url: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
 ---
 
 # Telerik RadGrid Data Binding Basics
