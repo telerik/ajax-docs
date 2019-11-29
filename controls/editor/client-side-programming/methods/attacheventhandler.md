@@ -51,25 +51,31 @@ To attach to events such as **click** and **blur** for a given DHTML element use
 | **event** | **string** |Specifies the onclick, onfocus and onblur event.|
 | **eventHandler** | **function** |Specifies the function to call when the event fires.|
 
-Here is an example:
+Here is an example, which works for both ContentAreaMode="div" and ContentAreaMode="iframe" modes:
 
 ````ASP.NET
-<script type="text/javascript">
-	function OnClientLoad(editor, args)
-	{
-		var element = document.all ? editor.get_document().body : editor.get_document();
-		$telerik.addExternalHandler(element, "click", function (e)
-		{
-			alert('You just clicked in the editor');
-		});
-		
-		$telerik.addExternalHandler(element, "blur", function (e) {
-            alert('You just blurred the editor');
+<telerik:RadEditor runat="server" ContentAreaMode="div" ID="someEditor" OnClientLoad="initiEditor"></telerik:RadEditor>
+<script>
+    function initiEditor(ed) {
+        var element = ed.get_contentArea();
+
+        $telerik.addExternalHandler(element, "click", function (e) {
+            ClickFunction(ed);
         });
-	}
+
+        $telerik.addExternalHandler(element, "blur", function (e) {
+            BlurFunction(ed);
+        });
+    }
+
+    function ClickFunction(ed) {
+        console.log('You just clicked in the editor');
+    }
+
+    function BlurFunction() {
+        console.log('You just blurred the editor');
+    }
 </script>
-<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
-</telerik:RadEditor>
 ````
 
 
