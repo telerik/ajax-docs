@@ -16,330 +16,216 @@ Telerik **RadGrid** is designed to eliminate the typical trade off associated wi
 
 ![](images/grid-overview-basic.png)
 
-Code Snippet
 
-````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Bootstrap" OnNeedDataSource="RadGrid_NeedDataSource">
-</telerik:RadGrid>
-````
-````C#
-protected void RadGrid_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
-{
-    (sender as RadGrid).DataSource = Enumerable.Range(1, 5).Select(x => new
-    {
-        OrderID = x,
-        OrderDate = DateTime.Now.Date.AddHours(x),
-        Freight = x + x * 0.1,
-        ShipName = "Name " + x,
-        ShipCountry = "Country " + x
-    });
-}
-````
-````VB
-Protected Sub RadGrid_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
-    TryCast(sender, RadGrid).DataSource = Enumerable.Range(1, 5).Select(Function(x) New With {
-        Key .OrderID = x,
-            .OrderDate = DateTime.Now.Date.AddHours(x),
-            .Freight = x * 0.1,
-            .ShipName = "Name " & x,
-            .ShipCountry = "Country " & x
-    })
-End Sub
-````
 
 ## Advanced Grid
 
 ![](images/grid-overview-advanced.png)
 
-Code Snippet
-
-````ASP.NET
-<telerik:RadGrid ID="RadGrid2" runat="server" AllowPaging="True" Skin="Bootstrap" PageSize="6" Visible="true"
-    AllowFilteringByColumn="true" AllowSorting="true" GroupingEnabled="true" ShowFooter="true"
-    OnDetailTableDataBind="RadGrid_DetailTableDataBind"
-    OnNeedDataSource="RadGrid_NeedDataSource">
-    <MasterTableView CommandItemDisplay="Top" Name="TableLevel1" Caption="Table Level1">
-        <GroupByExpressions>
-            <telerik:GridGroupByExpression>
-                <SelectFields>
-                    <telerik:GridGroupByField FieldName="Group" />
-                </SelectFields>
-                <GroupByFields>
-                    <telerik:GridGroupByField FieldName="Group" />
-                </GroupByFields>
-            </telerik:GridGroupByExpression>
-        </GroupByExpressions>
-        <CommandItemSettings ShowExportToCsvButton="true" ShowExportToExcelButton="true" ShowExportToPdfButton="true" ShowExportToWordButton="true" ShowPrintButton="true" ShowSaveChangesButton="true" ShowCancelChangesButton="true" />
-        <DetailTables>
-            <telerik:GridTableView Name="TableLevel2" Caption="Table Level2">
-                <DetailTables>
-                    <telerik:GridTableView Name="TableLevel3" Caption="Table Level3">
-                    </telerik:GridTableView>
-                </DetailTables>
-            </telerik:GridTableView>
-        </DetailTables>
-    </MasterTableView>
-</telerik:RadGrid>
-````
-````C#
-protected void RadGrid_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
-{
-    if (!e.IsFromDetailTable)
-    {
-        (sender as RadGrid).DataSource = Enumerable.Range(1, 5).Select(x => new
-        {
-            OrderID = x,
-            OrderDate = DateTime.Now.Date.AddHours(x),
-            Freight = x + x * 0.1,
-            ShipName = "Name " + x,
-            ShipCountry = "Country " + x,
-            Group = x % 2 == 0 ? "G1" : "G2"
-        });
-    }
-}
-protected void RadGrid_DetailTableDataBind(object sender, GridDetailTableDataBindEventArgs e)
-{
-    if (e.DetailTableView.Name == "TableLevel2")
-    {
-        e.DetailTableView.DataSource = Enumerable.Range(1, 2).Select(x => new
-        {
-            ID = x,
-            Description = "T Level 2 Data " + x
-        });
-    }
-    else if (e.DetailTableView.Name == "TableLevel3")
-    {
-        e.DetailTableView.DataSource = Enumerable.Range(1, 2).Select(x => new
-        {
-            ID = x,
-            Description = "T Level 3 Data " + x
-        });
-    }
-}
-````
-````VB
-Protected Sub RadGrid_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
-    If Not e.IsFromDetailTable Then
-        TryCast(sender, RadGrid).DataSource = Enumerable.Range(1, 5).Select(Function(x) New With {
-            Key .OrderID = x,
-                .OrderDate = DateTime.Now.Date.AddHours(x),
-                .Freight = x + x * 0.1,
-                .ShipName = "Name " & x,
-                .ShipCountry = "Country " & x,
-                .Group = If(x Mod 2 = 0, "G1", "G2")
-        })
-    End If
-End Sub
-
-Protected Sub RadGrid_DetailTableDataBind(ByVal sender As Object, ByVal e As GridDetailTableDataBindEventArgs)
-    If e.DetailTableView.Name = "TableLevel2" Then
-        e.DetailTableView.DataSource = Enumerable.Range(1, 2).Select(Function(x) New With {
-            Key .ID = x,
-                .Description = "T Level 2 Data " & x
-        })
-    ElseIf e.DetailTableView.Name = "TableLevel3" Then
-        e.DetailTableView.DataSource = Enumerable.Range(1, 2).Select(Function(x) New With {
-            Key .ID = x,
-                .Description = "T Level 3 Data " & x
-        })
-    End If
-End Sub
-````
 
 ## Colorful Grid with built-in Skins
 
 ![](images/grid-overview-skins.gif)
 
-Code Snippets to generate a Grid for each Skin and compare them
+# RadGrid Structure Overview
 
-````ASP.NET
-<asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
-````
+Every item in RadGrid such as the Header, Filter, Row, etc... inherits the GridItem class and can be accesses using the GetItems() method of the GridTableView object.
+
+
+# Grid Item Types
+
+Below you will find an example describing each item type in the Grid and how to access it.
+
+## GridDataItem
+
+The rows of the grid are called **Items**.
+
+![Item](images/overview/grd_Item.png)
+
+Each item is a **GridDataItem** object. They can be accessed using the **Items** property collection of the **RadGrid** or **GridTableView** object.
+
 ````C#
-protected void Page_Init(object sender, EventArgs e)
+protected void Page_PreRender(object sender, EventArgs e)
 {
-    string[] skins = new string[] {
-        "Material", // light
-        "Black", // dark
-        "Office2007", // blue
-        "Silk", // green
-        "WebBlue", // blue
-        "Simple", // orange
-        "Web20", // blue
-        "Bootstrap", // light
-        "BlackMetroTouch", // dark
-        "Outlook", // blue
-        "Telerik", // green
-        "Sunset", // orange
-        "MetroTouch", // light
-        "Glow", // dark
-        "Windows7", // light
-        "Default", // dark
-        "Vista", // blue
-    };
-
-    foreach (string skin in skins)
+    foreach (GridDataItem dataItem in RadGrid1.Items)
     {
-        Panel pnl = new Panel();
-        pnl.CssClass = "gridwrapper";
-        pnl.ID = Guid.NewGuid().ToString();
-        pnl.Style.Add("max-width", "1200px");
-        pnl.Style.Add("margin", "0 auto 20px auto");
 
-        RadGrid grid = new RadGrid();
-        grid.ID = string.Format("Grid{0}", skin);
-        grid.Skin = skin;
-        grid.NeedDataSource += Grid_NeedDataSource;
-        grid.PreRender += Grid_PreRender;
-
-        grid.MasterTableView.SortExpressions.Add(new GridSortExpression() { FieldName = "Freight", SortOrder = GridSortOrder.Descending });
-
-        grid.AllowPaging = true;
-        grid.PageSize = 3;
-        grid.AllowSorting = true;
-        grid.AllowFilteringByColumn = true;
-        pnl.Controls.Add(grid);
-        PlaceHolder1.Controls.Add(pnl);
-    }
-}
-
-private void Grid_PreRender(object sender, EventArgs e)
-{
-    (sender as RadGrid).MasterTableView.GetItems(GridItemType.AlternatingItem).First().Selected = true;
-}
-
-private void Grid_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
-{
-    (sender as RadGrid).DataSource = Enumerable.Range(1, 20).Select(x => new
-    {
-        OrderID = x,
-        OrderDate = DateTime.Now.Date.AddDays(x),
-        Freight = x * .1,
-        ShipName = "Name " + x,
-        ShipCountry = "Country " + x
-    });
-}
-````
-````VB
-Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
-
-    Dim skins As String() = New String() {
-        "Material",
-        "Black",
-        "Office2007",
-        "Silk",
-        "WebBlue",
-        "Simple",
-        "Web20",
-        "Bootstrap",
-        "BlackMetroTouch",
-        "Outlook",
-        "Telerik",
-        "Sunset",
-        "MetroTouch",
-        "Glow",
-        "Windows7",
-        "Default",
-        "Vista"
     }
 
-    For Each skin As String In skins
-        Dim pnl As Panel = New Panel()
-        pnl.CssClass = "gridwrapper"
-        pnl.ID = Guid.NewGuid().ToString()
-        pnl.Style.Add("max-width", "1200px")
-        pnl.Style.Add("margin", "0 auto 20px auto")
-        Dim grid As RadGrid = New RadGrid()
-        grid.ID = String.Format("Grid{0}", skin)
-        grid.Skin = skin
+    foreach (GridDataItem dataItem in RadGrid1.MasterTableView.Items)
+    {
 
-        AddHandler grid.NeedDataSource, AddressOf Grid_NeedDataSource
-        AddHandler grid.PreRender, AddressOf Grid_PreRender
-
-        grid.MasterTableView.SortExpressions.Add(New GridSortExpression() With {
-            .FieldName = "Freight",
-            .SortOrder = GridSortOrder.Descending
-        })
-
-        grid.AllowPaging = True
-        grid.PageSize = 3
-        grid.AllowSorting = True
-        grid.AllowFilteringByColumn = True
-        pnl.Controls.Add(grid)
-        PlaceHolder1.Controls.Add(pnl)
-    Next
-End Sub
-
-Private Sub Grid_PreRender(ByVal sender As Object, ByVal e As EventArgs)
-    TryCast(sender, RadGrid).MasterTableView.GetItems(GridItemType.AlternatingItem).First().Selected = True
-End Sub
-
-Private Sub Grid_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
-    TryCast(sender, RadGrid).DataSource = Enumerable.Range(1, 20).Select(Function(x) New With {
-        Key .OrderID = x,
-            .OrderDate = DateTime.Now.Date.AddDays(x),
-            .Freight = x * 0.1,
-            .ShipName = "Name " & x,
-            .ShipCountry = "Country " & x
-    })
-End Sub
+    }
+}
 ````
 
-## Setting up the environment
+If the grid uses a separate appearance for odd- and even-numbered rows, the even-numbered rows are called **AlternatingItems**. This is defined in the **GridDataItem.ItemType** property.  The value of **Items** is "Item" and for **AlternatingItems** it is "AlternatingItem". They both can be accessed separately by using the GetItems() method of the GridTableView object.
 
-If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off by installing it following the [First Steps]({%slug getting-started/first-steps%}) article.
+````C#
+protected void Page_PreRender(object sender, EventArgs e)
+{
+    foreach (GridDataItem item in RadGrid1.MasterTableView.GetItems(GridItemType.Item))
+    {
 
-## Creating a RadGrid
+    }
 
-There are three ways to create a RadGrid:
+    foreach (GridDataItem alternatingItem in RadGrid1.MasterTableView.GetItems(GridItemType.AlternatingItem))
+    {
 
-* [Using the Designer]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%})
-* [Declaratively]({%slug grid/defining-structure/declarative-definition%})
-* [Programmatically]({%slug grid/defining-structure/creating-a-radgrid-programmatically%})
+    }
+}
+````
 
-## Binding data
 
-Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%}) article.
 
-Depending on the Business Requirements, you can bind data to it on:
+If there are no records to display in the grid, it displays a **GridDataItem** of type "NoRecordsItem":
 
-* [Client-Side]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%})
-* [Server-Side]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%})
-* [Declaratively]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%})
+![](images/overview/grd_NoRecordsItem.png)
 
-## Features/Functionalities
+This can be accessed as:
 
-RadGrid has many top-of-the line features/functionalities that you can benefit of. Check out the complete list of all [Features]({%slug grid/getting-started/key-features%})
+````C#
+protected void Page_PreRender(object sender, EventArgs e)
+{
+    GridNoRecordsItem noRecordsItem = RadGrid1.MasterTableView.GetItems(GridItemType.NoRecordsItem)[0] as GridNoRecordsItem;
+}
+````
 
-Commonly used Functionalities are:
+## GridHeaderItem
 
-* [Filtering]({%slug grid/functionality/filtering/overview%})
-* [Paging]({%slug grid/functionality/paging/overview%})
-* [Sorting]({%slug grid/functionality/sorting/overview%})
-* [Grouping]({%slug grid/functionality/grouping/overview%})
-* [Scrolling]({%slug grid/functionality/scrolling/overview%})
+The header appears above the rows, and are of type **GridHeaderItem** object:
 
-## Changing the appearance
+![HeaderItem](images/overview/grd_headerItem.png)
 
-* [Choosing from the built-in Skins]({%slug grid/appearance-and-styling/skins%})
-* [Modifying the built-in Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
-* [Creating Custom Skins using the Telerik Sass Theme Builder]({%slug theme-builder/overview%})
+Accessing the Header Item
 
-## Optimizing Performance
+````C#
+protected void Page_PreRender(object sender, EventArgs e)
+{
+    GridHeaderItem headerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)[0] as GridHeaderItem;
+}
+````
 
-* [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
-* [Ajaxifying RadGrid]({%slug grid/performance/ajaxifying-radgrid%})
-* [Saving the grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session%})
-* [Rebind Grid with EnableViewState = false]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false%})
 
-## Troubleshooting
+You can hide or show the header element using the grid's **ShowHeader** property. For more information about headers, see [Using columns]({%slug grid/columns/using-columns%}).
 
-* [Common Issues]({%slug grid/troubleshooting/most-common-mistakes%})
-* [Known reasons for Error Messages]({%slug grid/troubleshooting/known-reasons-for-error-messages%})
-* [Known Limitations]({%slug grid/troubleshooting/known-limitations%})
+## GridFooterItem
 
-# See Also
+The footer appears below the rows, and is represented by the **GridFooterItem** object:
 
-* [Install Telerik Web UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
-* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%})
-* [Key Features]({%slug grid/getting-started/key-features%})
+![](images/overview/grd_Footer.png)
+
+You can hide or show the footer using the grid's **ShowFooter** property. For more information about footers, see [Using columns]({%slug grid/columns/using-columns%}).
+
+## GridFilteringItem
+
+The grid filtering item appears when you have [Filtering ]({%slug grid/functionality/filtering/overview%}) enabled either by **RadGrid.AllowFilteringByColumn** or **GridTableView.AllowFilteringByColumn** properties:
+
+![GridFilteringItem](images/overview/grd_FilteringItem.png)
+
+## GridEditFormItem
+
+The edit form item nests the edit form that shows controls for item editing:
+
+![Edit Form Item](images/overview/grd_customEditors_markedup.png)
+
+For information about edit forms, see [Edit forms]({%slug grid/data-editing/edit-mode/edit-forms%}).
+
+## GridPagerItem
+
+If paging is enabled, **RadGrid** renders a pager item (**GridPagerItem**) on the top and/or bottom of of the grid table view:
+
+![Pager](images/overview/grd_Pager.png)
+
+For information about **GridPagerItem**, see [Pager item]({%slug grid/functionality/paging/pager-item%}).
+
+## GridCommandItem
+
+You can add a command item (**GridCommandItem**) to the grid for displaying function buttons.
+
+![](images/overview/grd_CommandItemTemplate_markedup2.png)
+
+The **GridCommandItem** object can appear at the top, bottom or top and bottom of the grid. You can specify the content of the command item using a template. **GridCommandItem** is commonly used for automatic database operations, but it can be used for executing any **RadGrid** commands. For more information, see [Command Item]({%slug grid/data-editing/commanditem/overview%}).
+
+## GridRowIndicatorColumn
+
+When row resizing is enabled, **RadGrid** automatically generates a column of type **GridRowIndicatorColumn**.
+
+![Row Resize and GridRowIndicatorColumn](images/overview/grd_RowIndicatorColumn.png)
+
+For information about resizable rows, see [Resizing rows]({%slug grid/rows/resizing-rows%}).
+
+## GridBoundColumn
+
+If the grid auto-generates its columns (the **AutoGenerateColumns** property is **True**), the grid generates **GridBoundColumn** objects for each column that displays data:
+
+![BoundColumn](images/overview/grd_BoundColumn.png)
+
+You can also explicitly add columns to the grid of other types. For details, see [Column types]({%slug grid/columns/column-types%}).
+
+## GridExpandColumn
+
+The **GridExpandColumn** is an automatically generated and automatically placed column that appears when the grid has a hierarchical structure:
+
+![ExpandColumn](images/overview/grd_ExpandColumn.png)
+
+The expand column holds the expand and collapse buttons that show or hide detail tables. It is always placed in front of all other grid content columns and cannot be moved.
+
+>note You can manually add additional instances of this type of column.
+>
+
+
+## MasterTableView
+
+The **MasterTableView** is the **GridTableView** object for the topmost table in the hierarchical structure:
+
+![MasterTableView](images/overview/grd_MasterTableView.png)
+
+The **MasterTableView** contains all inner tables (**DetailTables**), which are available on demand (see [Hierarchy Load]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%})). When there is no hierarchical structure, the **MasterTableView** coincides with **RadGrid** itself.
+
+For more information about the relationship between the **MasterTableView** and the grid, see [RadGrid and MasterTableView difference]({%slug grid/defining-structure/radgrid-and-mastertableview-difference%}).
+
+## DetailTableView
+
+The **DetailTableView** is the **GridTableView** object for an inner table of a hierarchical structure:
+
+![DetailTableView](images/overview/grd_DetailTableView.png)
+
+Detail table views can be nested inside a **MasterTableView**, or inside another Detail table view (when the hierarchy includes multiple levels).
+
+## NestedViewItem
+
+Nested view items are **Items** of a parent table that contain a nested **DetailTableView**.
+
+![NestedViewItem](images/overview/grd_NestedView.png)
+
+Each nested view item contains only a single **GridTableView**. If a master table has more than one detail table, each detail table has its own nested view item.
+
+## ScrollBars
+
+Scroll bars appear when the [ scrolling is enabled]({%slug grid/functionality/scrolling/overview%}) and the grid cannot display all of its rows or the width of a **GridTableView** exceeds the width of the item in which it is nested (or, in the case of the MasterTableView, the width of the grid).
+
+![Scrollbars](images/overview/grd_Scrollbars.png)
+
+By default, scrolling is not enabled.
+
+## Grouping elements
+
+When you set the grid's **GroupingEnabled** property to **True**, a number of grouping elements are automatically generated and added to the grid:
+
+![GroupSplitterColumn](images/overview/grdGroupingElements.png)
+
+The **GridGroupSplitterColumn** appears on the far left of each **GridTableView**, and enables users to expand and collapse groups of records. The group splitter column is always placed first and cannot be moved. For more information about the **GridGroupSplitterColumn**, see [Column types]({%slug grid/columns/column-types%}).
+
+Each group of records in a **GridTableView** is preceded by a **GroupHeaderItem**, which indicates the grouping field.
+
+The **GridGroupPanel** is added to the top of the grid. This panel acts as a repository for panel items, which represent the columns on all table views in the grid that are used for grouping. You can optionally hide the **GridGroupPanel** using the grid's **ShowGroupPanel** property. You can access the panel using the grid's GroupPanel property.
+
+For more information on grouping, see [Basic grouping]({%slug grid/functionality/grouping/overview%}).
+
+## Panel Items
+
+Each Panel item represents a column in one of the table views that the grid displays. Users can click on the panel items to change the sort direction of the corresponding group, drag items off the Grid group panel to remove grouping on that field, and drag header cells to the group panel to add new panel items (and corresponding groups).
+
+![PanelItems](images/overview/grd_panelitems.png)
+
