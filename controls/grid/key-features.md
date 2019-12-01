@@ -2,10 +2,11 @@
 title: Key Features
 page_title: Key Features | RadGrid for ASP.NET AJAX Documentation
 description: Key Features
-slug: grid/getting-started/key-features
+slug: grid/key-features
+previous_url: control/grid/getting-started/key-features
 tags: key,features
 published: True
-position: 0
+position: 3
 ---
 
 # Key Features

@@ -5,7 +5,7 @@ description: Changes and Backward Compatibility
 slug: grid/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: False
-position: 2
+position: 30
 ---
 
 # Changes and Backward Compatibility
