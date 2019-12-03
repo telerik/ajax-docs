@@ -50,8 +50,8 @@ Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle
 
  * [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows%})
 
- * [Simple Data-binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%})
+ * [Simple Databinding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%})
 
- * [Advanced Data-binding (Using NeedDataSource Event)]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%})
+ * [Programmatic Databinding Using NeedDataSource Event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
 
  * [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
