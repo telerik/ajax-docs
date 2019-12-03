@@ -34,7 +34,25 @@ On occasion it is necessary to remove one ore more hide/show Column options avai
 
 Using the following Client Settings on a RadGrid, call the **OnHeaderShowingMenu** event. Since the Header Context Menu is just a RadMenu Context Menu use the Client-side API to hide the element. In the below example, the column _Id_ will not be visible.
 
-````HTML
+````JavaScript
+<script type="text/javascript">
+    function OnHeaderMenuShowing(sender, args) {
+        var menu = args.get_menu(); //  Gets the RadContextMenu object
+        var radMenuItem = menu.findItemByText("Columns");   //  Gets the Columns RadMenuItem Object
+        var radMenuItemCollection = radMenuItem.get_items();    //  Gets the Collection of Items in the Columns Object
+
+        //  Iterate the Collection
+        for (var i = 0; i < radMenuItemCollection.get_count(); i++) {
+            // Do Some Logic to Hide the Item
+            if (radMenuItemCollection.getItem(i).get_text() === "Id") {
+                radMenuItemCollection.getItem(i).set_visible(false);
+            }
+        }
+    }
+</script>
+````
+
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server"
     EnableHeaderContextMenu="true"
     AutoGenerateColumns="False"
@@ -70,23 +88,7 @@ Using the following Client Settings on a RadGrid, call the **OnHeaderShowingMenu
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````HTML
-<script type="text/javascript">
-    function OnHeaderMenuShowing(sender, args) {
-        var menu = args.get_menu(); //  Gets the RadContextMenu object
-        var radMenuItem = menu.findItemByText("Columns");   //  Gets the Columns RadMenuItem Object
-        var radMenuItemCollection = radMenuItem.get_items();    //  Gets the Collection of Items in the Columns Object
 
-        //  Iterate the Collection
-        for (var i = 0; i < radMenuItemCollection.get_count(); i++) {
-            // Do Some Logic to Hide the Item
-            if (radMenuItemCollection.getItem(i).get_text() === "Id") {
-                radMenuItemCollection.getItem(i).set_visible(false);
-            }
-        }
-    }
-</script>
-````
 
 ## See Also
 
@@ -94,3 +96,4 @@ Using the following Client Settings on a RadGrid, call the **OnHeaderShowingMenu
 * [GridOneHeaderMenuShowing](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/client-side-programming/events/onheadermenushowing)
 * [RadContextMenu](https://docs.telerik.com/devtools/aspnet-ajax/controls/menu/context-menus/radcontextmenu-object)
 * [RadMenu Client-side API](https://docs.telerik.com/devtools/aspnet-ajax/controls/menu/client-side-programming/overview)
+
