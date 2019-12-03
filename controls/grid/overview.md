@@ -304,7 +304,7 @@ Binding data to RadGrid can also be done in multiple different ways listed in th
 Depending on the Business Requirements, you can bind data to it on:
 
 * [Client-Side]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%})
-* [Server-Side]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%})
+* [Server-Side]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
 * [Declaratively]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%})
 
 ## Features/Functionalities
