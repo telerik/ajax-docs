@@ -81,11 +81,12 @@ You can add any Telerik Control manually to the page by following the instructio
 		<form id="form1" runat="server">
 			<telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" Text="Some Text" runat="server" /> 
-			<telerik:RadPushButton ID="RadButton1" runat="server" Text="Submit"></telerik:RadPushButton>
+			<telerik:RadPushButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Submit"></telerik:RadPushButton>
 		</form>
 	````
 
 >note AJAX-based controls like ours must be placed on the page after ScriptManager's declaration and inside the `<form>` tag.
+Please also make sure that the [RenderMode property]({%slug controls/render-modes%}) of the Telerik controls is set to Lightweight.
 
 ### Configuring Controls
 
