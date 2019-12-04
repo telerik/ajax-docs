@@ -104,6 +104,7 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik
 End Sub
 ````
 
+
 #### Using an IEnumerable and Object Class
 
 ````C#
@@ -144,6 +145,7 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik
     RadGrid1.DataSource = GenerateSupplierData()
 End Sub
 ````
+
 
 ## See Also
 
