@@ -6,7 +6,7 @@ slug: grid/design-time/getting-started-with-radgrid-for-asp.net-ajax
 tags: getting,started,with,radgrid,for,asp.net,ajax
 published: True
 position: 6
-previous_url: grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax
+previous_url: controls/grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax
 ---
 
 # Getting Started with RadGrid for ASP.NET AJAX

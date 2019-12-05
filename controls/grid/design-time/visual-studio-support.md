@@ -6,7 +6,7 @@ slug: grid/design-time/visual-studio-support
 tags: visual,studio,support
 published: True
 position: 4
-previous_url: grid/getting-started/visual-studio-support
+previous_url: controls/grid/getting-started/visual-studio-support
 ---
 
 # Visual Studio Support

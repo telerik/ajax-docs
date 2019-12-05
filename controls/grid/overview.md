@@ -44,18 +44,28 @@ Telerik **RadGrid** is designed to eliminate the typical trade off associated wi
 
 ### Hierarchy
 
+![](images/grid-overview-hierarchy.png)
+
 ### Create/Read/Update/Delete (CRUD) operations
 
 #### Server-Side Editing
 
 **Edit Form**
 
+![](images/grid-overview-editforms.png)
+
 **PopUp**
 
+![](images/grid-overview-popup.png)
+
 **InPlace (Inline)**
+
+![](images/grid-overview-inplace.png)
 
 #### Client-Side Editing
 
 **Batch Edit**
+
+![](images/grid-overview-batchedit.png)
 
 

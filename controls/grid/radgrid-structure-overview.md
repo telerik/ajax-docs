@@ -3,7 +3,7 @@ title: RadGrid Structure
 page_title: RadGrid Structure Overview | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid Structure Overview
 slug: grid/radgrid-structure-overview
-previous_url: control/grid/getting-started/radgrid-structure-overview
+previous_url: controls/grid/getting-started/radgrid-structure-overview
 tags: radgrid,structure,overview
 published: True
 position: 2

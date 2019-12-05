@@ -6,7 +6,7 @@ slug: grid/design-time/visual-studio-2012-datasource-configuration
 tags: visual,studio,2012,datasource,configuration
 published: True
 position: 9
-previous_url: grid/getting-started/visual-studio-2012-datasource-configuration
+previous_url: controls/grid/getting-started/visual-studio-2012-datasource-configuration
 ---
 
 # Visual Studio 2012 Datasource Configuration

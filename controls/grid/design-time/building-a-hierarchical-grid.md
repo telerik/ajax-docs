@@ -6,6 +6,7 @@ slug: grid/getting-started/building-a-hierarchical-grid
 tags: building,a,hierarchical,grid
 published: True
 position: 8
+previous_url: controls/grid/getting-started/building-a-hierarchical-grid
 ---
 
 # Building a Hierarchical Grid

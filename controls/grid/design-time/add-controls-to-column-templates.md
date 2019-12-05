@@ -6,6 +6,7 @@ slug: grid/getting-started/add-controls-to-column-templates
 tags: add,controls,to,column,templates
 published: True
 position: 7
+previous_url: controls/grid/getting-started/add-controls-to-column-templates
 ---
 
 # Add Controls to Column Templates
