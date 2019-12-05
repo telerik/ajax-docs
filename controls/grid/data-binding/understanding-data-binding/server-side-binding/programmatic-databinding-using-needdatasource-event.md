@@ -6,7 +6,7 @@ slug: grid/data-binding/understanding-data-binding/server-side-binding/programma
 tags: programmatic,data-binding,needdatasource,events
 published: True
 position: 1
-previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-\[/(]using-needdatasource-event[/)]
+previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-\(using-needdatasource-event\)
 ---
 
 # Programmatic Data Binding Using the NeedDataSource Event
