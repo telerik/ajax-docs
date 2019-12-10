@@ -10,7 +10,7 @@ position: 6
 
 # How to upload files from MAC or Linux
 
-On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System. may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of **AsyncUpload** and due to security restrictions such renaming will require a special way of implementation.
+On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System, may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of **AsyncUpload** and due to security restrictions such renaming will require a special way of implementation.
 
 ## Uploading files from MAC OS or Linux
 
@@ -97,6 +97,21 @@ Public Class CustomHandler
 
 End Class
 ````
+
+The solution above results in a red highlighting and no upload of the file, but it does not let the framework know that the filename changed is actually invalid. This extra check can be done like this:
+
+````C#
+    protected override bool ChangeOriginalFileName(string filename)
+    {
+        return isValid(filename) ... ;
+    }
+````
+````VB.NET
+Protected Overrides Function ChangeOriginalFileName(ByVal filename As String) As Boolean
+    Return isValid(filename) ...
+End Function
+````
+
 
 # See Also
 
