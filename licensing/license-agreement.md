@@ -12,7 +12,7 @@ position: 0
 
 ## End User License Agreement (EULA)
 
-The End User License Agreement for Telerik® UI for ASP.NET AJAX can be found on the following page: [http://www.telerik.com/purchase/license-agreement/ajax.aspx](http://www.telerik.com/purchase/license-agreement/ajax.aspx).
+The End User License Agreement for Telerik® UI for ASP.NET AJAX can be found on the following page: [https://www.telerik.com/purchase/license-agreement/aspnet-ajax](https://www.telerik.com/purchase/license-agreement/aspnet-ajax).
 
 You can also find it in your Telerik controls installation folder under `\LicenseAgreements\EULA.rtf`.
 For example, the default location for the R2 2018 release is `C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2018\LicenseAgreements\EULA.rtf`.
