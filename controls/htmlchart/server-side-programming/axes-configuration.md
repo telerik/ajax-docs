@@ -15,7 +15,12 @@ This help article will tell you which properties to set for the axes of the diff
 As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYAxes** tag inside **PlotArea**. These additional axes have the same configuration options as the main **YAxis**. Each series offers the **AxisName** property which corresponds to the **Name** property of the additional axis used by the series.
 
 ## Attribute Properties in the [Axis] Tag
-
+You can find samples implementing the below described properties in the following resources:
+  * **Logarithmic Axis** - [article]({%slug htmlchart/functionality/axes/logarithmic-axis%}) and [demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/logarithmic-axis/defaultcs.aspx)
+  * **Multiple Y-Axes** - [article]({%slug htmlchart/functionality/axes/multiple-y-axes%}) and [demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multipleyaxes/defaultcs.aspx)
+  * [Negative Values demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/negativevalues/defaultcs.aspx)
+  * [Chart Element Customization demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/appearance/configuringappearance/defaultcs.aspx)
+  
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -61,6 +66,9 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 
 ## Attribute Properties in [Axis] > LabelsAppearance
 
+You can find samples implementing the below described properties in the following resources:  
+* [Labels and Titles Font Settings article]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})
+* [Negative Values demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/negativevalues/defaultcs.aspx)
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -80,13 +88,11 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 
 * **End** - the labels are rendered at the end of the crossing axis. For example, the x-axis labels will be rendered at the top (or the right) of the chart, depending on the chart type. Reverses when the crossing axis is `Reversed`.
 
-You can see its effect in the [Negative Values](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/negativevalues/defaultcs.aspx) live demo.
-
 
 ## Attribute Properties in [Axis] > LabelsAppearance > TextStyle
-
-See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) for more information on text styles.
-
+You can find samples implementing the below described properties in the following resources:  
+* [Labels and Titles Font Settings article]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})
+* [Using Client Templates in Axes Labels article](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/functionality/clienttemplate/using-client-templates-legend-axes#client-template)
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -99,7 +105,9 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Padding** |Specifies the padding of the labels' text. Takes the padding value in pixels.|
 
 ## Attribute Properties in [Axis] > LabelsAppearance > DateFormats
-
+You can find samples implementing the below described properties in the following resources:
+* **Date Axis** - [article]({%slug htmlchart/functionality/axes/date-axis%}) and [demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/dateaxis/defaultcs.aspx)
+* [Date Axis Base Unit Steps article]({%slug htmlchart/functionality/axes/date-axis-base-unit-steps%})
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -121,7 +129,9 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Width** |The width of the grid line in pixels.|
 
 ## Attribute Properties in [Axis] > PlotBands > PlotBand
-
+You can find samples implementing the below described properties in the following resources:
+  * **Plot Bands** - [article]({%slug htmlchart/functionality/plot-bands%}) and [demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/plot-bands/defaultcs.aspx)
+  
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -133,7 +143,8 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **ToDate** |Gets or Sets the PlotBand's ending date for use with a date axis. Takes a DateTime object and serializes its individual values without converting. Available as of R1 2019.|
 
 ## Attribute Properties in [Axis] > TitleAppearance
-
+You can find samples implementing the below described properties in the following resources:
+  * [Labels and Titles Font Settings article]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
