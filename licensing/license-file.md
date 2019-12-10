@@ -27,7 +27,7 @@ Having this license file is not expected to bring any performance/compilation is
 
 If you are working under source control, once the file is created, it will be detected as a change by your source control system.	We would suggest that you check-in this file initially. Then, when it is checked-out again during your work,	it is up to you to decide whether to check it in, or discard the changes.
 
->tip If you are getting random copyright errors in the browser that you are using the trial version of Telerik UI for ASP.NET AJAX, please refer to this article [I Still Get the Copyright Message]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#i-still-get-the-copyright-message). You just need to upgrade the Trial version of Telerik.Web.UI.dll with the registered developer one as explained in this article: [Upgrading a Trial to a Developer License]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
+>tip If you are getting random copyright errors in the browser that you are using the trial version of Telerik UI for ASP.NET AJAX, please refer to this article [I Still Get the Copyright Message](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#i-still-get-the-copyright-message). You just need to upgrade the Trial version of Telerik.Web.UI.dll with the registered developer one as explained in this article: [Upgrading a Trial to a Developer License](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
 
 ## See Also
 
@@ -39,7 +39,7 @@ If you are working under source control, once the file is created, it will be de
  
  * [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors) KB article
  
- * [Upgrading a Trial to a Developer License]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
+ * [Upgrading a Trial to a Developer License](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
  
- * [I Still Get the Copyright Message]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#i-still-get-the-copyright-message)
+ * [I Still Get the Copyright Message](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#i-still-get-the-copyright-message)
 
