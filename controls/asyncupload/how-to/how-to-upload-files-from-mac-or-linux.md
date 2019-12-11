@@ -101,18 +101,21 @@ End Class
 The solution above results in a red highlighting and no upload of the file, but it does not let the framework know that the filename changed is actually invalid. This extra check can be done like this:
 
 ````C#
-    protected override bool ChangeOriginalFileName(string filename)
+    protected override bool CheckOriginalFileNameForInvalidChars(string filename)
     {
         return isValid(filename) ... ;
     }
 ````
 ````VB.NET
-Protected Overrides Function ChangeOriginalFileName(ByVal filename As String) As Boolean
+Protected Overrides Function CheckOriginalFileNameForInvalidChars(ByVal filename As String) As Boolean
     Return isValid(filename) ...
 End Function
 ````
+
+You can find more information at [Custom File Name Validation](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler#custom-file-name-validation).
 
 
 # See Also
 
  * [Custom Handler demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
+ * [How to Create a Custom Handler for RadAsyncUpload](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler)
