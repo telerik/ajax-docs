@@ -108,7 +108,8 @@ There are several ways to add the HTTP handlers:
 >If you deploy the project on a **WebFarm**/**WebGarden**, you need to change the Telerik.Web.UI.WebResource.axd type (**Example 3**). You can read more about deploying a solution that uses Telerik controls on a WebFarm or WebGarden in the [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) blog post.
 >
 >If you are using some form of routing, ensure that the handlers above are excluded (ignored) from routing to avoid breaking the requests the controls need to operate properly.
-
+>
+>You can encrypt the querystring parameters that the Telerik WebResource request has in order to make them unreadable for a third party inspecting the network traffic as well as hide the Telerik.Web.UI version in the markup by setting EnableHandlerEncryption key in the web.config appSettings section -> <add key="Telerik.ScriptManager.EnableHandlerEncryption" value="true"/>.
 
 **Example 2**: An HTTP handler registration that uses a fully qualified assembly name.
 
@@ -189,7 +190,7 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
 
 * **Telerik.ScriptManager.EnableEmbeddedjQuery**—lets you disable the embedded jQuery that comes with the Telerik controls by setting it to false. You can read more about this feature in the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article. 
 
-* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article. 
+* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption as well as hides the version <!-- 20xx.x.xxx.xx --> of Telerik.Web.UI in the rendered output. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article. 
 
 * **Telerik.ScriptManager.TelerikCdn**—lets you enable the scripts CDN support in RadScriptManager globally for the application by setting it to true. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
 
