@@ -19,6 +19,9 @@ The following page describes the system requirements needed by *Telerik® UI for
 
 The following page shows all browsers and versions supported by *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - Browser Support](http://www.telerik.com/products/aspnet-ajax/getting-started/tech-sheets/browser-support.aspx)
 
+## .NET Support
+You can find the releases that introduce builds created against the various .NET versions at [Telerik® UI for ASP.NET AJAX - .NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support).
+
 ## HTML5 Compliance
 
 The following page lists the controls that pass HTML 5 validation in *Telerik® UI for ASP.NET AJAX*: [Telerik® UI for ASP.NET AJAX - HTML5 Compliance](http://www.telerik.com/aspnet-ajax/tech-sheets/html5-compliance)
