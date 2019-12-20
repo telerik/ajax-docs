@@ -10,7 +10,7 @@ position: 1
 
 # Creating RadGrid Using the Designer
 
-For more information about the designer, visit the [Controls > Grid > Designer > Overview]({%slug grid/design-time/overview%}) section.
+For more information about the designer, visit the [Controls > Grid > Designer > Overview]({%slug grid/designer/overview%}) section.
 
 ## Create and Configure RadGrid using the Designer
 

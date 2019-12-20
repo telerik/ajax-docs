@@ -20,7 +20,7 @@ If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off
 
 There are three ways to create a RadGrid:
 
-* [Using the Designer]({%slug grid/create-radgrid/design-time%})
+* [Using the Designer]({%slug grid/create-radgrid/designer%})
 * [Declaratively]({%slug grid/create-radgrid/declarative-definition%})
 * [Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
 * [Changing the structure on PostBack]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
@@ -38,7 +38,7 @@ Depending on the Business Requirements, you can bind data to it on:
 
 ## Features/Functionalities
 
-RadGrid has many top-of-the line features/functionalities that you can benefit of. Check out the complete list of all [Features]({%slug grid/getting-started/key-features%})
+RadGrid has many top-of-the line features/functionalities that you can benefit of. Check out the complete list of all [Features]({%slug grid/key-features%})
 
 Commonly used Functionalities are:
 
@@ -70,7 +70,7 @@ Commonly used Functionalities are:
 # See Also
 
 * [Install Telerik Web UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
-* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%})
-* [Key Features]({%slug grid/getting-started/key-features%})
+* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/designer/getting-started-with-radgrid-for-asp.net-ajax%})
+* [Key Features]({%slug grid/key-features%})
 
 

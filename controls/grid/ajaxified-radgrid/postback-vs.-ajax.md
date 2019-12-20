@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-**RadGrid** can take advantage of the [AJAX technology]({%slug grid/getting-started/asp.net-ajax-framework%}) to deliver an unsurpassed responsiveness and user experience.
+**RadGrid** can take advantage of the [AJAX technology]({%slug grid/ajaxified-radgrid/asp.net-ajax-framework%}) to deliver an unsurpassed responsiveness and user experience.
 
 The main idea of the AJAX framework is the elimination of full-page postbacks. In contrast, only the relevant parts of the page are updated, without a disturbing refresh. Moreover, the markup that is transferred between the client machine and the server is reduced dramatically, which results in a significant performance improvement.
 

@@ -16,7 +16,7 @@ You can use a template to set the appearance and features of the [Pager item]({%
 
 To create a pager template,
 
-1. Choose **Edit Templates** from the **RadGrid** [ Smart Tag]({%slug grid/design-time/smarttag%}).
+1. Choose **Edit Templates** from the **RadGrid** [ Smart Tag]({%slug grid/designer/smarttag%}).
 
 2. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the **MasterTableView** or detail **GridTableView** of interest.
 

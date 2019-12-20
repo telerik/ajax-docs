@@ -34,7 +34,7 @@ Each **GridTableView** has a set of rows (the **Items** collection) of type **Gr
 * The **Items** property of **RadGrid** is a reference to the **ItemsHierarchy** property of its **MasterTableView** .>
 
 
-The number of dynamic rows depends on the number of rows (records) in the Data Source and the number of groups (if [grouping]({%slug grid/functionality/grouping/overview%}) is enabled). Dynamic rows consist of **data items**, **nested-view items**, **group-header items** and **edit-form items**. (for examples of these different row types, see [Overview of Telerik RadGrid structure]({%slug grid/getting-started/radgrid-structure-overview%}))
+The number of dynamic rows depends on the number of rows (records) in the Data Source and the number of groups (if [grouping]({%slug grid/functionality/grouping/overview%}) is enabled). Dynamic rows consist of **data items**, **nested-view items**, **group-header items** and **edit-form items**. (for examples of these different row types, see [Overview of Telerik RadGrid structure]({%slug grid/structure/radgrid-structure-overview%}))
 
 Data items can come in two types:
 

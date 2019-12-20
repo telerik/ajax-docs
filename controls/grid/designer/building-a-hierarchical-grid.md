@@ -27,7 +27,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. Drag and drop a **RadGrid** control from the toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** and click **OK**:
@@ -36,7 +36,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. On the **Choose Your Data Connection** page, expand the drop-down list by clicking the little triangle on the right side and select the **Northwind.mdf** from the available options. Then click the **Next** button:
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
+	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/designer/visual-studio-2012-datasource-configuration%}) help topic.
 1. On the **Save the Connection String to the Application Configuration File** page, set name for the **Connection String** and then press **Next**:
 ![grid gettingstarted conn String](images/grid_gettingstarted_connString.png)
 
@@ -46,7 +46,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. On the **Test Query** page, click the **Test Query** button to see the data. Then click **Finish** to exit the **Configure Data Source** wizard:
 ![grid hierarchy 7](images/grid_hierarchy7.png)
 
-1. Using **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) add a second **DataSource** component to RadGrid.
+1. Using **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}) add a second **DataSource** component to RadGrid.
 ![Select DataSource](images/grid_hierarchy4_1.png)
 
 1. Choose the same database on the **Choose Your Data Connection** page of the wizard. Then click the **Next** button:
@@ -72,7 +72,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. Still in the Smart Tag, click the link labelled **Open Configuration Wizard**:
 ![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
-1. In the [ RadGrid Editor]({%slug grid/design-time/setting-radgrid%}),
+1. In the [ RadGrid Editor]({%slug grid/designer/setting-radgrid%}),
 
 	1. Select the **MasterTableView** in the **Grid hierarchy** tree view that you find in the upper left corner.
 
