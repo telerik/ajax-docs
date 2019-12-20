@@ -36,9 +36,9 @@ In the article below you can find the API that RadAsyncUpload provides for manag
 
 >caution If you set the **TargetFolder** property and then use the server-side API to manipulate the uploaded files, you may experiene issues:
 >
-> * end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
-> * an error when attempting a custom `.SaveAs()` call on an uploaded file that points to the temporary folder of the RadAsyncUpload, similar to `Could not find file '<physical path to your app>\App_Data\RadUploadTemp\some-uploaded-file.png.tmp'`.. This is caused by the fact that that the control moved the file to the target folder. The **solution** is to **remove** the `TargetFolder` property and save the files only with your own code.
->   * You can get a similar error if antivirus software or other code deletes the temporary file(s) before the `FileUploaded` event is fired. Thus, you may want to have a `try-catch` block around the `.SaveAs` call. RadAsyncUpload handles this internally only when saving to the `TargetFolder`.
+> * End up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
+> * An error when attempting a custom `.SaveAs()` call on an uploaded file that points to the temporary folder of the RadAsyncUpload, similar to `Could not find file '<physical path to your app>\App_Data\RadUploadTemp\some-uploaded-file.png.tmp'`. This is caused by the fact that that the control moved the file to the target folder. The **solution** is to **remove** the `TargetFolder` property and save the files only with your own code.
+> * You can get a similar error if antivirus software or other code deletes the temporary file(s) before the `FileUploaded` event is fired. Thus, you may want to have a `try-catch` block around the `.SaveAs` call. RadAsyncUpload handles this internally only when saving to the `TargetFolder`.
 
 You can find several examples below:
 
@@ -165,6 +165,10 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 End Sub
 ````
 
+The InputStream property is also showcased in the [Access temporary file name and manually delete tempfile from RadAsyncUpload](%slug knowledge-base/asyncupload-access-temporary-file%}) how-to article.
+
 # See Also
 
  * [How to Extend the RadAsyncUpload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
+ * [Access temporary file name and manually delete tempfile from RadAsyncUpload](%slug knowledge-base/asyncupload-access-temporary-file%})
+
