@@ -51,9 +51,9 @@ This may be caused by one of the following reasons:
 
 The message is quite descriptive. Below are several resources in regards with this matter:
 
-[Dynamic loading of user controls]({%slug grid/defining-structure/loading-user-control-with-telerik-radgrid-at-runtime%})
+[Dynamic loading of RadGrid as WebUserControl]({%slug grid/create-radgrid/loading-user-control-with-telerik-radgrid-at-runtime%})
 
-[Dynamic loading of user controls with ajax controls](http://www.telerik.com/help/aspnet-ajax/ajax-load-user-controls.html)
+[Dynamic loading of user controls with ajax controls]({%slug ajaxmanager/how-to/load-user-controls%})
 
 ## Error message "Telerik.Web.UI.GridInsertionObject does not contain a property with the name <some_name>" Or 'DropDownList' has a SelectedValue which is invalid because it does not exist in the list of items
 

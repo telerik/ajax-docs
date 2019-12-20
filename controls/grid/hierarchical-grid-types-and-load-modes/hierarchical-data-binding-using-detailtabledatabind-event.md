@@ -26,7 +26,7 @@ When the **DetailTableDataBind** event occurs depends on the [HierarchyLoadMode]
 
 The main steps when binding a hierarchical grid using the **DetailTableDataBind** event are as follows:
 
-1. Create the grid, either [statically]({%slug grid/defining-structure/declarative-definition%}) or [dynamically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%}). Set the properties of the grid to provide the appearance and functionality you want. You must create and add **GridTableView** objects to the **DetailTables** collection of the **MasterTableView** and any detail tables that have their own nested details.
+1. Create the grid, either [statically]({%slug grid/create-radgrid/declarative-definition%}) or [dynamically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%}). Set the properties of the grid to provide the appearance and functionality you want. You must create and add **GridTableView** objects to the **DetailTables** collection of the **MasterTableView** and any detail tables that have their own nested details.
 
 1. Bind the master table view of the grid either [declaratively]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) or by assigning a [NeedDataSource event handler]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) to the grid. Optionally, you can assign data sources to the detail tables, which can subsequently be configured in the **DetailTableDataBind** event handler.
 

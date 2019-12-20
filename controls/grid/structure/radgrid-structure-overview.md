@@ -164,7 +164,7 @@ The **MasterTableView** is the **GridTableView** object for the topmost table in
 
 The **MasterTableView** contains all inner tables (**DetailTables**), which are available on demand (see [Hierarchy Load]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%})). When there is no hierarchical structure, the **MasterTableView** coincides with **RadGrid** itself.
 
-For more information about the relationship between the **MasterTableView** and the grid, see [RadGrid and MasterTableView difference]({%slug grid/defining-structure/radgrid-and-mastertableview-difference%}).
+For more information about the relationship between the **MasterTableView** and the grid, see [RadGrid and MasterTableView difference]({%slug grid/structure/radgrid-and-mastertableview-difference%}).
 
 ## DetailTableView
 

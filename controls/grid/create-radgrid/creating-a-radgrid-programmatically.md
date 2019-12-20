@@ -19,7 +19,7 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
->note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/defining-structure/changing-the-grid-structure-dynamically-on-postback %}) article.
+>note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback %}) article.
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
