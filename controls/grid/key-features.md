@@ -6,7 +6,7 @@ slug: grid/key-features
 previous_url: controls/grid/getting-started/key-features
 tags: key,features
 published: True
-position: 3
+position: 2
 ---
 
 # Key Features
@@ -46,8 +46,10 @@ position: 3
     [See a live example at www.telerik.com](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx)
 
 1. [Multi-Column Sorting]({%slug grid/functionality/sorting/multi-column-sorting%}) - in addition to the simple one-column sorting Telerik RadGrid allows you to sort data by several columns just like in Microsoft Excel. Furthermore, you can define column sorted color for better user experience.
-![Multi-Column Sorting](images/grd_MultiColumnSort.png)
-[See a live example at www.telerik.com](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Sorting/DefaultCS.aspx)
+
+    ![Multi-Column Sorting](images/grd_MultiColumnSort.png)
+
+    [See a live example at www.telerik.com](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Sorting/DefaultCS.aspx)
 
 1. [Viewstate Optimization]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%}) - you can tune the grid performance by controlling the trade-off between client-side load and speed. When working with hierarchical data, you can choose one of the three available modes for loading the detail tables:- **ServerBind** - optimum server load, viewstate and render size.- **ServerOnDemand** - minimum viewstate and render-size, maximum server load.- **Client** - minimum server load, maximum viewstate and render-size. Rich client browser functionality.
 

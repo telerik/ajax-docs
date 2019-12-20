@@ -2,7 +2,8 @@
 title: Overview
 page_title: Design Time Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
-slug: grid/design-time/overview
+slug: grid/designer/overview
+previous_url: controls/grid/design-time/overview
 tags: overview
 published: True
 position: 0

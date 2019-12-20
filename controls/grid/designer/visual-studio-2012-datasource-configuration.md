@@ -2,7 +2,7 @@
 title: Visual Studio 2012 Datasource Configuration
 page_title: Visual Studio 2012 Datasource Configuration | RadGrid for ASP.NET AJAX Documentation
 description: Visual Studio 2012 Datasource Configuration
-slug: grid/design-time/visual-studio-2012-datasource-configuration
+slug: grid/designer/visual-studio-2012-datasource-configuration
 tags: visual,studio,2012,datasource,configuration
 published: True
 position: 9

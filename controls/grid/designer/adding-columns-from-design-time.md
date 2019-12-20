@@ -2,7 +2,8 @@
 title: Adding Columns from Design Time
 page_title: Adding Columns from Design Time | RadGrid for ASP.NET AJAX Documentation
 description: Adding Columns from Design Time
-slug: grid/design-time/adding-columns-from-design-time
+slug: grid/designer/adding-columns-from-design-time
+previous_url: controls/grid/design-time/adding-columns-from-design-time
 tags: adding,columns,from,design,time
 published: True
 position: 3

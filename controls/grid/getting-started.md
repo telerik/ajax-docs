@@ -20,9 +20,11 @@ If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off
 
 There are three ways to create a RadGrid:
 
-* [Using the Designer]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%})
-* [Declaratively]({%slug grid/defining-structure/declarative-definition%})
-* [Programmatically]({%slug grid/defining-structure/creating-a-radgrid-programmatically%})
+* [Using the Designer]({%slug grid/create-radgrid/design-time%})
+* [Declaratively]({%slug grid/create-radgrid/declarative-definition%})
+* [Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+* [Changing the structure on PostBack]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
+* [Loading a WebUserControl into RadGrid]({%slug grid/create-radgrid/loading-user-control-with-telerik-radgrid-at-runtime%})
 
 ## Binding data
 

@@ -1,12 +1,12 @@
 ---
-title: RadGrid Structure
+title: Overview
 page_title: RadGrid Structure Overview | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid Structure Overview
-slug: grid/radgrid-structure-overview
+slug: grid/structure/radgrid-structure-overview
 previous_url: controls/grid/getting-started/radgrid-structure-overview
 tags: radgrid,structure,overview
 published: True
-position: 2
+position: 0
 ---
 
 # RadGrid Structure Overview
@@ -33,7 +33,6 @@ protected void Page_PreRender(object sender, EventArgs e)
     {
 
     }
-
     foreach (GridDataItem dataItem in RadGrid1.MasterTableView.Items)
     {
 

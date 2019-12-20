@@ -2,7 +2,7 @@
 title: Add Controls to Column Templates
 page_title: Add Controls to Column Templates | RadGrid for ASP.NET AJAX Documentation
 description: Add Controls to Column Templates
-slug: grid/getting-started/add-controls-to-column-templates
+slug: grid/designer/add-controls-to-column-templates
 tags: add,controls,to,column,templates
 published: True
 position: 7
