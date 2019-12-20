@@ -819,9 +819,18 @@ navigation:
     "*gauge/gauge-types":
         title: "Gauge Types"
         position: 3
+    "*grid/structure":
+        title: "Structure"
+        position: 3
+    "*grid/create-radgrid":
+        title: "Create RadGrid"
+        position: 4
+    "*grid/designer":
+        title: "Designer"
+        position: 5
     "*grid/data-binding":
         title: "Data Binding"
-        position: 4
+        position: 6
     "*grid/data-binding/understanding-data-binding":
         title: "Understanding Data Binding"
         position: 1
@@ -839,7 +848,7 @@ navigation:
         position: 3
     "*grid/data-editing":
         title: "Data Editing"
-        position: 5
+        position: 7
     "*grid/data-editing/edit-mode":
         title: "Edit Mode"
         position: 0
@@ -867,9 +876,24 @@ navigation:
     "*grid/data-editing/how-to":
         title: "How-to"
         position: 16
+    "*grid/columns":
+        title: "Columns"
+        position: 8
+    "*grid/rows":
+        title: "Rows"
+        position: 9
+    "*grid/accessing-values-and-controls":
+        title: "Accessing Values and Controls"
+        position: 10
+    "*grid/accessing-values-and-controls/client-side":
+        title: "Client Side"
+        position: 1
+    "*grid/accessing-values-and-controls/server-side":
+        title: "Server Side"
+        position: 2
     "*grid/functionality":
         title: "Functionality"
-        position: 6
+        position: 11
     "*grid/functionality/paging":
         title: "Paging"
         position: 0
@@ -915,48 +939,39 @@ navigation:
     "*grid/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
         position: 1
-    "*grid/columns":
-        title: "Columns"
-        position: 8
-    "*grid/rows":
-        title: "Rows"
-        position: 9
     "*grid/performance":
         title: "Performance"
-        position: 10
-    "*grid/defining-structure":
-        title: "Defining Structure"
-        position: 11
+        position: 12
     "*grid/hierarchical-grid-types-and-load-modes":
         title: "Hierarchical Grid Types and Load Modes"
-        position: 12
+        position: 13
     "*grid/hierarchical-grid-types-and-load-modes/how-to":
         title: "How-to"
         position: 11
     "*grid/asp.net-3.5-features":
         title: "ASP.NET 3.5 Features"
-        position: 13
+        position: 14
     "*grid/visible-and-enabled-conventions":
         title: "Visible and Enabled Conventions"
-        position: 14
+        position: 15
     "*grid/ajaxified-radgrid":
         title: "Ajaxified RadGrid"
-        position: 15
+        position: 16
     "*grid/ajaxified-radgrid/what-you-should-have-in-mind":
         title: "What You Should Have in Mind"
         position: 1
     "*grid/inheritance":
         title: "Inheritance"
-        position: 16
+        position: 17
     "*grid/control-lifecycle":
         title: "Control Lifecycle"
-        position: 17
+        position: 18
     "*grid/server-side-programming":
         title: "Server-Side Programming"
-        position: 20
+        position: 19
     "*grid/client-side-programming":
         title: "Client-Side Programming"
-        position: 21
+        position: 20
     "*grid/client-side-programming/radgrid-object":
         title: "RadGrid Object"
         position: 3
@@ -1004,7 +1019,7 @@ navigation:
         position: 1
     "*grid/how-to":
             title: "How To"
-            position: 22
+            position: 21
     "*grid/how-to/ajaxified-grid":
             title: "Ajaxified Grid"
             position: 2

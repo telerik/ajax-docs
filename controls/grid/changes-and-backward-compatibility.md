@@ -4,8 +4,8 @@ page_title: Changes and Backward Compatibility | RadGrid for ASP.NET AJAX Docume
 description: Changes and Backward Compatibility
 slug: grid/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
-published: True
-position: 1
+published: False
+position: 30
 ---
 
 # Changes and Backward Compatibility
