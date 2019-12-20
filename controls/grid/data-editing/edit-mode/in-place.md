@@ -31,7 +31,7 @@ To display the grid column editors inline when the grid switches into edit mode,
 
 
 
-![A row in edit mode](images/grd_EditMode_markedup.png)
+![A row in edit mode](images/RadGridInPlaceEditing.gif)
 
 >note To limit the number of characters the user can enter in the text box editor of the inline editor, set the **MaxLength** property of the column.
 >
