@@ -12,7 +12,9 @@ position: 0
 
 
 
-**Telerik RadSearchBox for ASP.NET AJAX** is a light control which provides the ability to write text in an input field with an optional autocomplete functionality or searching the plain result of the text written in it.The control has a property **EnableAutoComplete** that enables or disables the [AutoComplete feature]({%slug searchbox/functionality/autocomplete%}). It has a default [ “search” button ]({%slug searchbox/functionality/search-button%}), which triggers an event containing the typed value, as well as a [ collection of additional image buttons. ]({%slug searchbox/functionality/buttons-collection%}) Each of them is displayed inside the control and trigger an event when clicked.
+**Telerik RadSearchBox for ASP.NET AJAX** is a light control which provides the ability to write text in an input field with an optional autocomplete functionality or searching the plain result of the text written in it. The control has a property **EnableAutoComplete** that enables or disables the [AutoComplete feature]({%slug searchbox/functionality/autocomplete%}). It has a default [ “search” button ]({%slug searchbox/functionality/search-button%}), which triggers an event containing the typed value, as well as a [collection of additional image buttons]({%slug searchbox/functionality/buttons-collection%}). Each of them is displayed inside the control and trigger an event when clicked.
+
+The main purpose of the SearchBox is to provide a list of options from a large data set when you type text in the SearchBox input. You can see the following blog post on the matter: [Need to search in large datasets? Don’t worry, Telerik’s ASP.NET SearchBox control has got you covered](https://www.telerik.com/blogs/need-to-search-in-large-datasets-don-t-worry-telerik-s-asp.net-searchbox-control-has-got-you-covered).
 
 RadSearchBox has a rich client-side API and a comprehensive set of events that guarantee full control over various scenarios on the client.
 ![searchbox autocomplete false with search button](images/searchbox_autocomplete_false_with_search_button.png)
@@ -54,3 +56,9 @@ RadSearchBox has a rich client-side API and a comprehensive set of events that g
 	* [WCF Service]({%slug searchbox/data-binding/wcf-service-binding%})
 
 	* [OData]({%slug searchbox/data-binding/binding-to-odata%})
+	
+	
+# See Also
+* [Need to search in large datasets? Don’t worry, Telerik’s ASP.NET SearchBox control has got you covered](https://www.telerik.com/blogs/need-to-search-in-large-datasets-don-t-worry-telerik-s-asp.net-searchbox-control-has-got-you-covered).
+
+
