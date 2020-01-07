@@ -11,23 +11,32 @@ position: 0
 # ClientEvents Class Members
 
 
-
 ##  
 
-There are two ways to attach handler to a client-side event of RadGrid:
+There are several ways to attach handler to a client-side event of RadGrid.
 
-* attach command string to event
+#### Attach command string to event
 
 ````ASP.NET
-<ClientEvents OnGridCreating="alert('Creating RadGrid')">
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGridCreating="alert('Creating RadGrid')" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
+#### Attach function to event
 
-* attach function to event:
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGridCreating="GridCreating" />
+    </ClientSettings>
+</telerik:RadGrid>
+````
 
 ````JavaScript
-<ClientEvents OnGridCreating = "GridCreating">
 <script type="text/javascript">
     function GridCreating(sender, eventArgs){
         alert("Creating grid with ClientID: " + sender.get_id());
@@ -36,29 +45,83 @@ There are two ways to attach handler to a client-side event of RadGrid:
 ````
 
 
+#### Attach handlers dynamically
 
-You can also attach handlers dynamically with the following code:
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+</telerik:RadGrid>
+````
 
 ````JavaScript
-grid.add_eventName(eventHandler);          
+// Load handler for the Web Application
+function f() {
+    // Get reference to the Grid
+    var grid = $find('<%= RadGrid1.ClientID %>');
+    // Attach the event
+    grid.add_eventName(eventHandler);  
 
+    // Sys.Application.remove_load(f);
+}
+// Attached Load event listener to the Web Application
+Sys.Application.add_load(f);  
+
+// RadGrid event's handler
 function eventHandler(sender, args) {
    //...
 }
 ````
 
-
-
 Here *eventName* is formed from the names in the table below by removing *On* and starting with a small letter. For example, attaching an event handler for *OnRowContextMenu* will look in the following way:
 
-````JavaScript
-grid.add_rowContextMenu(eventHandler);          
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGridCreating="GridCreating" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
+````JavaScript
+function GridCreating(sender, args) {
+    var grid = sender;
+    grid.add_rowContextMenu(onRowContextMenuHandler);
+}
+function onRowContextMenuHandler(sender, args) {
+    // execute logic
+}
+````
 
 >note Please note that the grid and its structure should be created when the event handlers are attached. That is why you cannot attach handlers for the **OnXXXCreating** and **OnXXXCreated** events dynamically.
 >
+
+
+#### Detach events dynamically
+
+In case event handlers were attached to RadGrid but they are not needed at some point, they can be detached dynamically. For example, having the "OnRowClick" attached in the markup like this:
+
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowClick="rowClickHandler" OnGridCreated="gridCreatedHandler" />
+    </ClientSettings>
+</telerik:RadGrid>
+````
+
+Detaching the "OnRowClick" event once the Grid finished rendering
+
+````JavaScript
+// function to be executed when clicking on a row
+function rowClickHandler(sender, args) {
+    // logic for row click
+}
+
+// function to be executed when the Grid has finished rendering
+function gridCreatedHandler(sender, args) {
+    var grid = sender;
+    //detatch RowClick event handler, so that the function "rowClickHandler" will not be executed when clickin on a row
+    grid.remove_rowClick(rowClickHandler);
+}
+````
 
 
 Inside each RadGrid client-side event handler the first argument passed (*sender*) will point to the grid client object. The second argument (*eventArgs*) will hold reference properties/objects dependable on the respective client event. They are listed in the separate help topics linked in the next paragraph.
@@ -146,3 +209,4 @@ Inside each RadGrid client-side event handler the first argument passed (*sender
 
 >caution When the **ClientIDMode** property of the RadGrid control is set to **Static** , all row specific client-side events would not fire.
 >
+
