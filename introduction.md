@@ -20,6 +20,9 @@ To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please v
 ## Getting Started
 
 If you are a new user, we recommend that you **follow the [First Steps]({%slug getting-started/first-steps%})** article.
+You can also get quickly onboarded and successful with your Telerik and/or Kendo UI products with the Virtual Classroom free technical training, available to all active customers. To get started with the trainings, refer to:
+* [Telerik Web UI for ASP.NET AJAX Classroom](https://progress.exceedlms.com/student/path/506628-telerik-ui-for-asp-net-ajax-updated-december-2019)
+* [All-Progress Products Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom).
 
 ## Get Assistance or Give Feedback
 
