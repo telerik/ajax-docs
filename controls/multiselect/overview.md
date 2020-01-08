@@ -16,7 +16,7 @@ It operates on the client, displays a list of options and allows multiple select
 
 >caption Figure 1: RadMultiSelect allows the multiple selection of a predefined list of items
 
-![multiselect-overview](images/multiselect-overview.png)
+![multiselect-overview](images/multiselect-overview.jpg)
 
 ## Key Features
 
