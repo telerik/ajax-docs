@@ -34,7 +34,7 @@ If you are using the [ZIP distribution]({%slug introduction/installation/install
 	* If the ZIP was used to install the Telerik controls, the **Bin40** folder is located in the folder where the installation files have been unzipped.
 
 	>note If you want to add Telerik controls for .NET 3.5 or .NET 4.5 web project you should select the Telerik.Web.UI.dll from the **C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Bin35** or **~/Bin45** folder.
-	>note If the controls does not appear in the ToolBox, please make sure that the project is of type ASP.NET Web Forms site/ application.
+	>note If the controls do not appear in the ToolBox, please make sure that the project is of type ASP.NET Web Forms site/ application.
 
 >note Telerik controls are not automatically installed into any configuration of Visual Studio Express because the end-user license agreement (EULA) of VS Express does not allow third-party extensions to be registered.
 
