@@ -27,7 +27,7 @@ The **ItemDataBound** event handler receives two arguments:
 
 1. The **RadMultiSelect** instance that is loading items. This argument is of type object, but can be cast to the **RadMultiSelect** type.
 
-2. A `RadMultiSelectItemEventArgs` object. This object has an **Item** property, which provides access to the item that was just bound. This item, in turn, has a **DataItem** property, which lets you access the item in the data source to which the **RadMultiSelect** is being bound.
+2. An EventArgs object. This object has an **Item** property, which provides access to the item that was just bound. This item, in turn, has a **DataItem** property, which lets you access the item in the data source to which the **RadMultiSelect** is being bound.
 
 Use the **ItemDataBound** event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
