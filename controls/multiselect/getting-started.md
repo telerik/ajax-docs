@@ -33,7 +33,7 @@ The following tutorial demonstrates how you can add **RadMultiSelect** bound to 
 
     **ASPX**
     
-        <telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" DataTextField="text" DataValueField="value" Filter="contains" Width="400px"
+        <telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" DataTextField="text" DataValueField="value" Filter="Contains" Width="400px"
             Placeholder="Select attendees..." >
             <Items>
                 <telerik:MultiSelectItem Text="Steven White" Value="1"></telerik:MultiSelectItem>
