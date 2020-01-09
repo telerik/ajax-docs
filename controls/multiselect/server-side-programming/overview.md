@@ -36,7 +36,7 @@ For a list with the server-side properties and methods of the control, see the [
 >caption Example 1: Get selected items value and text from RadMultiSelect
 
 ````ASP.NET
-<telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" Filter="contains" Width="400px" Placeholder="Select items...">
+<telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" Filter="Contains" Width="400px" Placeholder="Select items...">
 </telerik:RadMultiSelect>
 
 <asp:Button ID="Button1" runat="server" Text="Get Data" OnClick="Button1_Click" />

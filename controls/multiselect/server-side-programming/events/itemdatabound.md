@@ -32,7 +32,7 @@ The **ItemDataBound** event handler receives two arguments:
 Use the **ItemDataBound** event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
 ````ASPNET
-<telerik:RadMultiSelect runat="server" DataTextField="Name" DataValueField="ID" ID="RadMultiSelect1" Filter="contains" OnItemDataBound="RadMultiSelect1_ItemDataBound">
+<telerik:RadMultiSelect runat="server" DataTextField="Name" DataValueField="ID" ID="RadMultiSelect1" Filter="Contains" OnItemDataBound="RadMultiSelect1_ItemDataBound">
 </telerik:RadMultiSelect>
 ````
 
