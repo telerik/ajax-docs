@@ -15,7 +15,7 @@ position: 1
 
 The **ItemSelected** event occurs when the user selects an item from the **RadMultiSelect** dropdown.
 
->caution The **ItemSelected** event does not fire unless the **AutoPostBack** property is set to **True** .
+>caution The **ItemDeselected** event does not fire unless the **AutoPostBack** property is set to **True** or a PostBack on the page occurs.
 >
 
 The **ItemSelected** event handler receives two arguments:

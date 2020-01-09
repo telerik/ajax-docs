@@ -16,7 +16,7 @@ position: 2
 
 The **ItemDeselected** event occurs when the user de-selects an item from the **RadMultiSelect** dropdown. This result can be achieved both by clickicking over an already selected item in the dropdown, or by clicking the delete button of a selected item.
 
->caution The **ItemDeselected** event does not fire unless the **AutoPostBack** property is set to **True** .
+>caution The **ItemDeselected** event does not fire unless the **AutoPostBack** property is set to **True** or a PostBack on the page occurs.
 >
 
 The **ItemDeselected** event handler receives two arguments:
