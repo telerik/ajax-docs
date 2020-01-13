@@ -18,6 +18,7 @@ position: 1
 	- [Header Template](#header-template)
 	- [Footer Template](#footer-template)
 	- [No Data Template](#no-data-template)
+	- [Group Template](#group-template)
 	- [See Also](#see-also)
 
 >caption Figure 1: Structure of the popup and where you can use templates. 
@@ -64,6 +65,62 @@ You can see the source code used for producing the image in [RadMultiSelect Temp
         </telerik:RadMultiSelect>
 ````
 
+When **RadMultiSelect** is [bound on the server-side]({%slug multiselect/data-binding/server-side%}), you can add custom attributes in the [ItemDataBound]({%slug multiselect/server-side-programming/events/itemdatabound%}) event that can be accessed in the templates through the `attributes` parameter:
+````ASP.NET
+<telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" Filter="contains"
+        DataTextField="Name" DataValueField="ID" OnItemDataBound="RadMultiSelect1_ItemDataBound">
+    <ItemTemplate>
+    <span>#:attributes.myAttribute#</span>
+    </ItemTemplate>
+</telerik:RadMultiSelect>
+````
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadMultiSelect1.DataSource = Enumerable.Range(1, 10).Select(x => new MyCustomItem()
+        {
+            ID = x,
+            Name = "Name #" + x
+        });
+
+        RadMultiSelect1.DataBind();
+    }
+}
+
+protected void RadMultiSelect1_ItemDataBound(object sender, Telerik.Web.UI.RadMultiSelectItemEventArgs e)
+{
+    e.Item.Attributes.Add("myAttribute", "Attribute " + e.Item.Value);
+}
+
+public class MyCustomItem
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Not IsPostBack Then
+        RadMultiSelect1.DataSource = Enumerable.Range(1, 10).[Select](Function(x) New MyCustomItem() With {
+    .ID = x,
+    .Name = "Name #" & x
+})
+        RadMultiSelect1.DataBind()
+    End If
+End Sub
+
+Protected Sub RadMultiSelect1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMultiSelectItemEventArgs)
+    e.Item.Attributes.Add("myAttribute", "Attribute " & e.Item.Value)
+End Sub
+
+Public Class MyCustomItem
+    Public Property ID As Integer
+    Public Property Name As String
+End Class
+````
 
 ## Item template
 
@@ -108,6 +165,10 @@ A [https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/configuration
 ## Footer Template
 
 This is the [https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/configuration/footertemplate](https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/configuration/footertemplate) used to render the footer. The footer is re-rendered on every change of the Data Source. The context of the footer template is the underlying Kendo Widget itself that you can access through the `instance` argument.
+
+## Group Template
+
+The template for the header of the group that is not the current topmost group. By default the value of the field by which the data is grouped is displayed and it is sent to the template via the `data` argument.
 
 ## No Data Template
 
