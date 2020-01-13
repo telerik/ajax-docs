@@ -99,7 +99,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 * [Live Demo - Client-side Events](https://demos.telerik.com/aspnet-ajax/multiselect/client-side-events/defaultcs.aspx)
 
-* [RadMultiSelect Client-side Object]({%slug multicolumnselect/client-side-programming/overview%})
+* [RadMultiSelect Client-side Object]({%slug multiselect/client-side-programming/overview%})
 
 
 
