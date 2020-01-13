@@ -12,8 +12,8 @@ position: 4
 
 In this article you will see how to:
 
-    * [bind to the blur event](#subscribe-to-blur-event)
-    * [aaaaa](#trigger-postback-on-blur)
+    * [Bind to the blur event of the input](#subscribe-to-blur-event)
+    * [Trigger a postback on blur](#trigger-postback-on-blur)
 
 ## Subscribe to Blur Event
 
