@@ -14,7 +14,7 @@ position: 3
  * `Single` - renders only one tag that shows the number of the selected values
  * `Multiple` - renders a tag for every selected value. This is the default tag mode.
 
-![multiselect-tag-modes](../images/multiselect-tag-mode.png)
+![multiselect-tag-modes](../images/multiselect-tag-mode.gif)
 
 Every `TagMode` has a specific `TagTemplate` value. You can control the content of the rendered tags by setting a custom a [TagTemplate]]({%slug multiselect/functionality/templates%}#tag-template) value.
 
