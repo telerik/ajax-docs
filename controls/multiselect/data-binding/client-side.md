@@ -16,14 +16,15 @@ position: 1
 There are two ways to bind to data on the client:
 
 - [Client-Side Data Binding](#client-side-data-binding)
-	- [WebServiceSettings](#webservicesettings)
-	- [JavaScript Object at Runtime](#javascript-object-at-runtime)
-	- [See Also](#see-also)
+  - [WebServiceSettings](#webservicesettings)
+  - [JavaScript Object at Runtime](#javascript-object-at-runtime)
+  - [See Also](#see-also)
 
 ## WebServiceSettings
 
 Under the covers, a [Kendo UI DataSource](https://docs.telerik.com/kendo-ui/framework/datasource/overview) will be instantiated and it will perform requests to the denoted service with the settings defined in the `WebServiceSettings` tag.
-RadMultiSelect has an embeded RadClientDataSource control, which can be a configured through the `WebServiceClientDatasource` composite property. The widget only shows data and so only the **Select** settings and `ServiceType` are used. The rest of the settings (for Insert, Update, Delete) will not be used and are inherited from a base class.
+
+RadMultiSelect has an embeded RadClientDataSource control, which can be a configured through the `WebServiceClientDatasource` composite property. The widget is designed to show data and mainly the **Select** settings and `ServiceType` are used. The rest of the settings (for Insert, Update, Delete) are inherited from the RadClientDataSource class and can be used in custom implementations.
 
 >caption Example 1: Setting WebServiceClientDataSource and WebServiceSettings to bind to a web service
 
@@ -144,7 +145,7 @@ public class Book
 
 ## JavaScript Object at Runtime
 
-You can use the `set_dataSource()` [client-side method]({%slug multicolumncombobox/client-side-programming/overview%}) of the RadMultiSelect object to provide it with a new client-side data source. You do not have to provide a server data source or a web service for this to work, you only need to define the proper configuration (columns and fields) to match the data you will pass to the widget.
+You can use the `setDataSource()` of the RadMultiSelect's underlying Kendo UI widget to provide it with a new client-side data source. You do not have to provide a server data source or a web service for this to work, you only need to define the proper configuration to match the data you will pass to the widget.
 
 >caption Example 3: Binding to a JavaScript array
 

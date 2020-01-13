@@ -11,7 +11,7 @@ position: 1
 # Getting Started 
 
 
-The following tutorial demonstrates how you can add **RadMultiSelect** bound to static items collection. The end result will be similar to **Figure 1**:
+The following tutorial demonstrates how you can add a **RadMultiSelect** control populated with static items. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: Basic RadMultiSelect configuration with static items
 
@@ -19,15 +19,15 @@ The following tutorial demonstrates how you can add **RadMultiSelect** bound to 
 
 1. Add a **ScriptManager** control on a Web Form.
 
-1. Add a **RadMultiColumnComboBox** control to the page, and set its properties:
+2. Add a **RadMultiColumnComboBox** control to the page, and set its properties:
 
-    * `DataTextField` and `DataValueField` - set them to `text` and `value` when no datasource is used.
+    * `DataTextField` and `DataValueField` - set them to `text` and `value` when populated with MultiSelectItems.
     * Populate the `Items` collection with `MultiSelectItem` instances and set their properties:
         * `Text` - the text of the item.
         * `Value` - the value of the item.
-    * `FooterTemplate` - you can set custom footer template to the **RadMultiSelect** popup here
-    * `Filter` - set it to "`contains`" to enable generic filtering.
-    * Set other properties like `Placeholder`, `Height` and `Width` to control its appearance as desired.
+    * `FooterTemplate` - you can set custom footer template to the **RadMultiSelect** popup here.
+    * `Filter` - set it to "`Contains`" to enable generic filtering.
+    * Set other properties like `Placeholder`, `DropDownHeight` and `Width` to control its appearance as desired.
         
     The end result should be similar to the following:
 

@@ -12,16 +12,16 @@ position: 3
 
 **RadMultiSelect** provides options for displaying the items as individual (multiple) tags and as a single, summary tag. The available modes are (you can see them in **Figure 1**):
  * `Single` - renders only one tag that shows the number of the selected values
- * `Multiple` - renders a tag for every selected value. This is the default tag mode.
+ * `Multiple` - renders a tag for every selected value. This is the *default* tag mode.
 
 ![multiselect-tag-modes](../images/multiselect-tag-mode.gif)
 
-Every `TagMode` has a specific `TagTemplate` value. You can control the content of the rendered tags by setting a custom a [TagTemplate]]({%slug multiselect/functionality/templates%}#tag-template) value.
+Every `TagMode` has a specific `TagTemplate` value. You can control the content of the rendered tags by customizing [TagTemplate]({%slug multiselect/functionality/templates%}#tag-template) value.
 
 >caption Example 1: RadMultiSelect with single tag mode
 
 ````ASP.NET
-<telerik:RadMultiSelect ID="RadMultiSelect1" runat="server"  Filter="Contains" Width="240px"
+<telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" Filter="Contains" Width="240px"
     DataTextField="text" DataValueField="value" TagMode="Single">
     <Items>
         <telerik:MultiSelectItem Text="Apples" Value="1"></telerik:MultiSelectItem>
