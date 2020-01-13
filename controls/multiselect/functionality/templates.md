@@ -13,13 +13,14 @@ position: 1
 **RadMultiSelect** uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the rendering of items, selected values, and popup headers. The control supports the following templates:
 
 - [Templates](#templates)
-	- [Item template](#item-template)
-	- [Tag Template](#tag-template)
-	- [Header Template](#header-template)
-	- [Footer Template](#footer-template)
-	- [No Data Template](#no-data-template)
-	- [Group Template](#group-template)
-	- [See Also](#see-also)
+  - [Item template](#item-template)
+  - [Tag Template](#tag-template)
+  - [Header Template](#header-template)
+  - [Footer Template](#footer-template)
+  - [Group Template](#group-template)
+  - [Fixed Group Template](#fixed-group-template)
+  - [No Data Template](#no-data-template)
+  - [See Also](#see-also)
 
 >caption Figure 1: Structure of the popup and where you can use templates. 
 
@@ -169,6 +170,10 @@ This is the [https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/con
 ## Group Template
 
 The template for the header of the group that is not the current topmost group. By default the value of the field by which the data is grouped is displayed and it is sent to the template via the `data` argument.
+
+## Fixed Group Template
+
+The template for the current (topmost) group. It renders just below the column headers and uses the current filter field value by default. This value is sent to the template via the `data` argument.
 
 ## No Data Template
 

@@ -10,11 +10,11 @@ position: 0
 
 # Server-Side Data Binding
 
-**RadMultiSelect** can be bound to standard server data sources like `List<T>`, `SqlDataSource` or a `DataTable`. The data from the server data source creates MultiSelect items which are serialized as a JSON literal to the client-side. It is parsed on the client-side as the **RadMultiSelect** is a wrapper over the Kendo UI for jQuery widget which are entirely client-side. 
+**RadMultiSelect** can be bound to standard server data sources like `List<T>`, `SqlDataSource` or a `DataTable`. The data from the server data source creates MultiSelect items which are serialized and sent to the client-side as a JSON object. It is parsed on the client-side and passed to the underlying Kendo UI MultiSelect which is an entirely client-side widget. 
 
-The fields that you would like to have available on the client-side should be passed to the `DataKeyNames` property, comma-separated. Also, you can add additional data to the items via the Attributes collection which will be serialized and available on the client-side.
+The additional fields you would like to access on the client-side should be passed to the `DataKeyNames` property, as a comma-separated string. Also, you can add custom data to the items via the `Attributes` collection which will be serialized and available on the client-side.
 
->note The DataTextField, DataValueField and the Fields declared in **RadMultiSelect** are added by default to the DataKeyNames, so it is not necessary to add them explicitly.
+>note The `DataTextField` and `DataValueField` are available by default on the client-side and there is no need to add them explicitly to the `DataKeyNames` collection.
 >
 
 >caption Example 1: Declare items in the Markup
@@ -63,7 +63,7 @@ End Sub
 ````
 
 
->caption Example 3: Bind to an `SqlDataSource`
+>caption Example 3: Bind to a `SqlDataSource`
 
 ````ASP.NET
 <telerik:RadMultiSelect ID="RadMultiSelect1" runat="server"
@@ -214,5 +214,6 @@ End Function
 ````
 
 ## See Also
-* [Get Server Text and Value]({%slug  multiselect/server-side-programming/overview%}#get-selected-text-and-value)
+
+* [Get Server Text and Value]({%slug multiselect/server-side-programming/overview%}#get-selected-text-and-value)
 

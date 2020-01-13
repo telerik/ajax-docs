@@ -44,6 +44,7 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 | **dispose** |none|none|Disposes the MultiSelect client-side object (calls its underlying Kendo widget's [destroy](https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/methods/destroy) method). Once you call it, you will not be able to use the widget or control.|
 | **focus** |none|none|Focuses the input.|
 | **get_enabled** |none|Boolean|Returns whether the control is enabled.|
+| **get_filter** |none|Telerik.Web.UI.RadMultiSelectFilter|Returns the filter type of the control. The possible values are *Telerik.Web.UI.RadMultiSelectFilter.StartsWith* = 0, *Telerik.Web.UI.RadMultiSelectFilter.Contains* = 1 and *Telerik.Web.UI.RadMultiSelectFilter.EndsWith* = 2.|
 | **get_inputElement** |none|DOM object|Returns a reference to the input element.|
 | **get_items** | none | Array | Returns an array of the DOM `<li>` elements, which correspond to the data items from the Kendo UI DataSource of the widget. |
 | **get_kendoWidget** |none|object|Returns a reference to the underlying Kendo MultiSelect widget.|
@@ -57,6 +58,7 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 | **refresh** |none|none|Refresh the popup by rendering all items again.|
 | **search** |string|none|Searches the data source for the provided value and displays any matches as suggestions.|
 | **set_enabled** |Boolean|none| Enables or disables the widget if you pass `true` or `false` respectively.|
+| **set_enabled** |Telerik.Web.UI.RadMultiSelectFilter|none| Sets the new filter type of the control. The possible values are *Telerik.Web.UI.RadMultiSelectFilter.StartsWith* = 0, *Telerik.Web.UI.RadMultiSelectFilter.Contains* = 1 and *Telerik.Web.UI.RadMultiSelectFilter.EndsWith* = 2.|
 | **set_readOnly** |Boolean|none|Sets whether the input is readonly and typing is disabled.|
 | **set_value** |string|none|Sets the value. See the underlying [value](https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/configuration/value) method for more details on its behavior.|
 | **toggle** |none|none|Opens or closes the dropdown depending on its current state.|
