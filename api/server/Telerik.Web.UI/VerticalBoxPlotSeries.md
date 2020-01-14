@@ -97,6 +97,10 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 
 Get/Set the name of the series
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  OutliersAppearance `OutliersAppearance`
 
 Defines the appearance settings of the outliers.

@@ -73,6 +73,10 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 
 Get/Set the name of the series
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SeriesItems `BulletSeriesItemCollection`
 
 The collection of series items for the Bullet series

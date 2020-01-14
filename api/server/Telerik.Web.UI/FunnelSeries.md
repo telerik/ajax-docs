@@ -88,6 +88,10 @@ Get/Set the name of the series
 
 Get/Set the neck ratio of the funnel's segments
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SegmentSpacing `Nullable`1`
 
 Get/Set the spacing between the funnel's segments

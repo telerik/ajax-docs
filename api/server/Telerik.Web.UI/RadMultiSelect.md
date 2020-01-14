@@ -1,10 +1,10 @@
 ---
-title: Telerik.Web.UI.RadMultiColumnComboBox
-page_title: Telerik.Web.UI.RadMultiColumnComboBox
-description: Telerik.Web.UI.RadMultiColumnComboBox
+title: Telerik.Web.UI.RadMultiSelect
+page_title: Telerik.Web.UI.RadMultiSelect
+description: Telerik.Web.UI.RadMultiSelect
 ---
 
-# Telerik.Web.UI.RadMultiColumnComboBox
+# Telerik.Web.UI.RadMultiSelect
 
 ## Inheritance Hierarchy
 
@@ -14,18 +14,25 @@ description: Telerik.Web.UI.RadMultiColumnComboBox
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
-* Telerik.Web.UI.RadMultiColumnComboBox : ICallbackEventHandler, IPostBackEventHandler
+* Telerik.Web.UI.RadMultiSelect : INamingContainer
 
 ## Properties
 
-###  AllowPaging `Boolean`
+###  Animation `Boolean`
 
-Gets or sets a value indicating whether the paging in  is enabled
-            The default is false.
+Configures the opening and closing animations of the suggestion popup. Setting the animation option to false will disable the opening and closing animations. As a result the suggestion popup will open and close instantly. is not a valid configuration.
 
-###  AnimationSettings `Animation`
+###  AnimationSettings `Boolean`
 
-Configures the opening and closing animations of the suggestion popup. Setting the animation option to false will disable the opening and closing animations. As a result the suggestion popup will open and close instantly.
+Configures the opening and closing animations of the suggestion popup. Setting the animation option to false will disable the opening and closing animations. As a result the suggestion popup will open and close instantly. is not a valid configuration.
+
+###  AutoBind `Boolean`
+
+Controls whether to bind the widget to the data source on initialization
+
+###  AutoClose `Boolean`
+
+Controls whether to close the widget suggestion list on item selection.
 
 ###  AutoPostBack `Boolean`
 
@@ -40,9 +47,13 @@ Set this property to true if the server needs to capture the selection
                     The server-side event that is fired is
                     SelectedIndexChanged.
 
+###  AutoWidth `Boolean`
+
+If set to true, the widget automatically adjusts the width of the popup element and does not wrap up the item label.
+
 ###  CascadeFrom `String`
 
-Use it to set the Id of the parent MultiColumnComboBox widget.Help topic showing how cascading functionality works
+Use it to set the Id of the parent MultiSelect widget.Help topic showing how cascading functionality works
 
 ###  CascadeFromField `String`
 
@@ -74,7 +85,7 @@ Unless this options is set to false, a button will appear when hovering the widg
 
 Gets or sets ID of ClientDataSource control that is used for client side binding
 
-###  ClientEvents `MultiColumnComboBoxClientEvents`
+###  ClientEvents `MultiSelectClientEvents`
 
 Defines the client events handlers.
 
@@ -83,10 +94,6 @@ Defines the client events handlers.
 This property is overridden in order to support controls which implement INamingContainer.
             The default value is changed to "AutoID".
 
-###  ColumnsCollection `MultiColumnComboBoxColumnsCollection`
-
-Defines the columns rendered in the table of the MultiColumnComboBox.
-
 ###  CssClassFormatString `String`
 
 The CssClass property will now be used instead of the former Skin 
@@ -94,7 +101,7 @@ The CssClass property will now be used instead of the former Skin
 
 ###  DataKeyNames `String[]`
 
-Gets or sets an array of data-field names that will be used to populate the MultiColumnComboBox's DataItem property which is used to populated the control's template. The field declared in the Columns are added by default.
+Gets or sets an array of data-field names that will be used to populate the MultiSelect's DataItem property which is used to populated the control's template. The field declared in the Columns are added by default.
 
 #### Remarks
 Note: The dataItem's properties declared in the template should be with lower case.
@@ -109,11 +116,11 @@ The field of the data item that provides the value of the widget.
 
 ###  Delay `Double`
 
-The delay in milliseconds between a keystroke and when the widget displays the popup.
+Specifies the delay in milliseconds after which the MultiSelect will start filtering dataSource.
 
-###  DropDownWidth `String`
+###  DropDownHeight `Unit`
 
-The width of the dropdown. Numeric values are treated as pixels.
+The height of the suggestion popup in pixels. The default value is 200 pixels.
 
 ###  Enable `Boolean`
 
@@ -151,25 +158,13 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Returns true if ripple effect should be added
 
-###  EnableServerFiltering `Boolean`
-
-Gets or sets value indicating whether server-side filtering is enabled
-
-###  EnableServerPaging `Boolean`
-
-Gets or sets value indicating whether server-side paging is enabled
-
 ###  EnforceMinLength `Boolean`
 
 If set to true the widget will not show all items when the text of the search input cleared. By default the widget shows all items when the text of the search input is cleared. Works in conjunction with minLength.
 
-###  Filter `String`
+###  Filter `RadMultiSelectFilter`
 
-The filtering method used to determine the suggestions for the current value. Filtration is turned off by default, and can be performed over string values only (either the widget's data has to be an array of strings, or over the field, configured in the dataTextField option). The supported filter values are startswith, endswith and contains.
-
-###  FilterFields `String`
-
-Enables multicolumn filtering.
+The filtering method used to determine the suggestions for the current value. Filtration is turned of by default, and can be performed over string values only (either the widget's data has to be an array of strings, or over the field, configured in the dataTextField option). The supported filter values are startswith, endswith and contains.
 
 ###  FixedGroupTemplate `String`
 
@@ -179,10 +174,6 @@ The template used to render the fixed header group. By default the widget displa
 
 The template used to render the footer template. The footer template receives the widget itself as a part of the data argument. Use the widget fields directly in the template.
 
-###  GroupByField `String`
-
-Defines the field to be used to group the data source in web service binding scenario.
-
 ###  GroupTemplate `String`
 
 The template used to render the groups. By default the widget displays only the value of the group.
@@ -190,10 +181,6 @@ The template used to render the groups. By default the widget displays only the 
 ###  HeaderTemplate `String`
 
 Specifies a static HTML content, which will be rendered as a header of the popup element.
-
-###  Height `Unit`
-
-The height of the suggestion popup in pixels. The default value is 200 pixels.
 
 ###  HighlightFirst `Boolean`
 
@@ -203,13 +190,17 @@ If set to true the first suggestion will be automatically highlighted.
 
 If set to false case-sensitive search will be performed to find suggestions. The widget performs case-insensitive searching by default.
 
-###  Index `Double`
-
-The index of the initially selected item. The index is 0 based.
-
 ###  IsSkinSet `String`
 
 For internal use.
+
+###  ItemTemplate `String`
+
+The template used to render the items in the popup list.
+
+###  MaxSelectedItems `Double`
+
+Defines the limit of the selected items. If set to null widget will not limit number of the selected items.
 
 ###  MessagesSettings `Messages`
 
@@ -217,7 +208,7 @@ The text messages displayed in the widget. Use this option to customize or local
 
 ###  MinLength `Double`
 
-The minimum number of characters the user must type before a search is performed. Set to higher value than 1 if the search could match a lot of items.
+The minimum number of characters the user must type before a search is performed. Set to a higher value if the search could match a lot of items. A zero value means that a request will be made as soon as the user focuses the widget.
 
 ###  NoDataTemplate `String`
 
@@ -226,11 +217,6 @@ The template used to render the "no data" template, which will be displayed if n
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
-
-###  PageSize `Int32`
-
-Gets or sets the maximum number of items that would appear on a page.
-             Default value is 10.
 
 ###  Placeholder `String`
 
@@ -271,10 +257,6 @@ Returns resolved RenderMode should the original value was Auto
 Gets the real skin name for the control user interface. If Skin is not set, returns
             "Default", otherwise returns Skin.
 
-###  Schema `ClientDataSourceSchema`
-
-Contains settings about the schema and model of the data used in .
-
 ###  Skin `String`
 
 Gets or sets the skin name for the control user interface.
@@ -283,17 +265,18 @@ Gets or sets the skin name for the control user interface.
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  Suggest `Boolean`
+###  TagMode `RadMultiSelectTagMode`
 
-If set to true the widget will automatically use the first suggestion as its value.
+The mode used to render the selected tags. The available modes are: - multiple - renders a tag for every selected value - single - renders only one tag that shows the number of the selected values
 
-###  SyncValueAndText `Boolean`
+###  TagTemplate `String`
 
-When set to true the widget will automatically set selected value to the typed custom text. Set the option to false to clear the selected value but keep the custom text.
+The template used to render the tags.
 
-###  Text `String`
+###  UniqueID `String`
 
-The text of the widget used when the autoBind is set to false.
+Gets the unique, hierarchically qualified identifier for the server
+            control.
 
 ###  ValidationGroup `String`
 
@@ -304,13 +287,13 @@ Gets or sets the name of the validation group to which this validation
 This property works only when CausesValidation
                 is set to true.
 
-###  Value `String`
+###  Value `IEnumerable`1`
 
 The value of the widget.
 
-###  ValuePrimitive `String`
+###  ValuePrimitive `Boolean`
 
-Specifies the value binding behavior for the widget when the initial model value is null. If set to true, the View-Model field will be updated with the selected item value field. If set to false, the View-Model field will be updated with the selected item.
+Specifies the value binding behavior for the widget. If set to true, the View-Model field will be updated with the selected item value field. If set to false, the View-Model field will be updated with the selected item.
 
 ###  Virtual `Boolean`
 
@@ -320,9 +303,9 @@ Enables the virtualization feature of the widget. The configuration can be set o
 
 Enables the virtualization feature of the widget. The configuration can be set on an object, which contains two properties - itemHeight and valueMapper.For detailed information, refer to the article on virtualization.
 
-###  WebServiceSettings `WebServiceDataSourceSettings`
+###  WebServiceClientDataSource `WebServiceClientDataSource`
 
-Gets the web service settings to be used for binding this instance of RadMultiColumnComboBox.
+Gets the RadClientDataSource instance of the MultiSelect control.
 
 ## Methods
 
@@ -402,9 +385,25 @@ Executed when post data is loaded from the request
 
 `System.Boolean` 
 
-###  OnSelectedIndexChanged
+###  OnItemDeselected
 
-Raises the SelectedIndexChanged event. This allows you to handle the event directly.
+Raises the OnItemDeselected event. This allows you to handle the event directly.
+
+#### Returns
+
+`System.Void` 
+
+###  OnItemSelected
+
+Raises the OnItemSelected event. This allows you to handle the event directly.
+
+#### Returns
+
+`System.Void` 
+
+###  OnSelectionChanged
+
+Raises the OnItemSelected event. This allows you to handle the event directly.
 
 #### Returns
 
@@ -412,7 +411,7 @@ Raises the SelectedIndexChanged event. This allows you to handle the event direc
 
 ###  RaisePostDataChangedEvent
 
-Signals the RadComboBox control to notify the ASP.NET application that the state of the control has changed.
+Signals the RadMultiSelect control to notify the ASP.NET application that the state of the control has changed.
 
 #### Returns
 

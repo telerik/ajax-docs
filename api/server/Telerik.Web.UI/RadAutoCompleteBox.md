@@ -331,6 +331,15 @@ Specifies the rendering mode of the control. Setting the mode to Lightweight wil
 Lightweight rendering mode might change the outlook of the component in some older browsers
             that don't support CSS3/HTML5.
 
+###  RequestDelay `Int32`
+
+Specifies the timeout after each keypress before RadAutoCompleteBox
+            fires a request to get its data from web service or server-side.
+
+#### Remarks
+In miliseconds. RequestDelay = 500 is equal to half a
+            second delay.
+
 ###  ResolvedRenderMode `RenderMode`
 
 Returns resolved RenderMode should the original value was Auto

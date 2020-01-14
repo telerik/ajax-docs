@@ -77,6 +77,10 @@ Defines the appearance settings of the series labels
 
 Get/Set the name of the series
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SeriesItems `WaterfallSeriesItemCollection`
 
 Creates a collection of waterfall series items.
