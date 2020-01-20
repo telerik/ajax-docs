@@ -4,12 +4,11 @@ page_title: Accessing Cells and Rows | RadGrid for ASP.NET AJAX Documentation
 description: Accessing Cells and Rows
 slug: grid/rows/accessing-cells-and-rows
 tags: accessing,cells,and,rows
-published: True
+published: False
 position: 3
 ---
 
 # Accessing Cells and Rows
-
 
 
 ## Accessing Rows
