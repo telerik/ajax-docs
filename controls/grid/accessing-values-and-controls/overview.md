@@ -1,8 +1,9 @@
 ---
-title: Accessing Values and Controls Overview
+title: Overview
 page_title: Overview article for accessing values and controls - RadGrid | Telerik UI for ASP.NET AJAX
 description: Accessing Values and Controls Overview
 slug: grid/accessing-values-and-controls/overview
+previous_url: controls/grid/rows/accessing-cells-and-rowss
 tags: 
 published: True
 position: 0
@@ -10,14 +11,22 @@ position: 0
 
 # Accessing Values and Controls Overview
 
-This article will help you find your your way to access Values, Controls, Items and all other Objects in RadGrid.
+This article will help you find your way to access RadGrid object, TableViews, Items, Cells, Cell Values, Controls in RadGrid.
 
-### Accessing Values and Control on Client-Side
+## Client-Side
 
-- [Accessing Rows]({%slug grid/accessing-values-and-controls/client-side/accessing-rows %})
+Section with JavaScript examples for accesing Cells, Values, Controls, and more... in RadGrid.
 
-### Accessing Values and Controls on Server-Side
+- [Accessing RadGrid]({%slug grid/accessing-values-and-controls/client-side/accessing-radgrid %})
+- [Accessing Items/Rows]({%slug grid/accessing-values-and-controls/client-side/accessing-items %})
+- [Accessing Cells]({%slug grid/accessing-values-and-controls/client-side/accessing-cells %})
+
+## Server-Side
+
+Articles in this section provide with examples on accessing objects in RadGrid, such as the rows, header, footer or controls and more...
 
 - [Accessing RadGrid]({%slug grid/accessing-values-and-controls/server-side/accessing-radgrid %})
 - [Accessing Tables]({%slug grid/accessing-values-and-controls/server-side/accessing-tables %})
-- [Accessing Rows]({%slug grid/accessing-values-and-controls/server-side/accessing-rows %})
+- [Accessing Items]({%slug grid/accessing-values-and-controls/server-side/accessing-items %})
+- [Accessing Cells]({%slug grid/accessing-values-and-controls/server-side/accessing-cells %})
+- [Accessing Controls]({%slug grid/accessing-values-and-controls/server-side/accessing-controls %})
