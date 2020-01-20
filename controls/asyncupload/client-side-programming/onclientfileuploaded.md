@@ -24,7 +24,7 @@ The event handler receives two parameters:
 
 * **get_fileName** returns the name of the file selected
 
-* **get_row** returns the upload row for which the event	was fired.
+* **get_row** returns the upload row for which the event was fired.
 
 ````ASPNET
 <telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"></telerik:RadAsyncUpload>
@@ -33,6 +33,8 @@ The event handler receives two parameters:
 ````JavaScript
 function OnClientFileUploaded(sender, args) {
 	var contentType = args.get_fileInfo().ContentType;
+	var filename = args.get_fileName();
+	var currentRowElement = args.get_row();
 	alert(contentType);
 }
 ````
