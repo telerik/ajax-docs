@@ -323,7 +323,7 @@ End Sub
 ````
 
 
-**Note**: You can also see the [ Accessing cells and rows]({%slug grid/rows/accessing-cells-and-rows%}) section for more details about insert dependance from the **Display/Visible/ReadOnly** properties of grid columns.
+**Note**: You can also see the [ Accessing cells and rows]({%slug grid/accessing-values-and-controls/overview%}) section for more details about insert dependance from the **Display/Visible/ReadOnly** properties of grid columns.
 
 ## Setting predefined values for different column editors
 
@@ -472,4 +472,4 @@ For example, the columns below will populate the hash table with data for the "s
 </telerik:GridTemplateColumn>
 ````
 
-For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-template-column).
+For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).

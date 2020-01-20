@@ -100,4 +100,4 @@ End Sub
 
  * [Column Types]({%slug grid/columns/column-types%})
 
- * [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows%})
+ * [Accessing Cells and Rows]({%slug grid/accessing-values-and-controls/overview%})

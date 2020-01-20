@@ -20,7 +20,7 @@ The topic demonstrates accessing the following instances:
 * [Insert Item](#insert-item)
 * [Columns](#columns)
 
-**Batch editing mode** is highly client-side based and differs from EditForms, PopUp and InPlace modes. It requires specific handling, which is explained in the [Accessing Cells And Rows]({%slug grid/rows/accessing-cells-and-rows%}) article.
+**Batch editing mode** is highly client-side based and differs from EditForms, PopUp and InPlace modes. It requires specific handling, which is explained in the [Accessing Cells And Rows]({%slug grid/accessing-values-and-controls/overview%}) article.
 
 ## Items
 
@@ -363,4 +363,4 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 
 ## See Also
 
-* [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows %})
+* [Accessing Cells and Rows]({%slug grid/accessing-values-and-controls/overview %})
