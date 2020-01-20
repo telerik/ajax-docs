@@ -31,15 +31,6 @@ The event handler receives two arguments:
 
 The following example uses the **OnPopupClosing** event to prevent the popup from closing if nothing is selected:
 
-````ASPNET
-<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
-    <Calendar DayNameFormat="FirstLetter"
-           UseColumnHeadersAsSelectors="False"
-           UseRowHeadersAsSelectors="False">
-    </Calendar>
-    <ClientEvents OnPopupClosing="popupClosing" />
-</telerik:RadDatePicker>		
-````
 ````JavaScript
 function popupClosing(sender, eventArgs) {
 	var popup = eventArgs.get_popupControl();
@@ -51,6 +42,15 @@ function popupClosing(sender, eventArgs) {
 }
 ````
 
+````ASPNET
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
+    <Calendar DayNameFormat="FirstLetter"
+           UseColumnHeadersAsSelectors="False"
+           UseRowHeadersAsSelectors="False">
+    </Calendar>
+    <ClientEvents OnPopupClosing="popupClosing" />
+</telerik:RadDatePicker>		
+````
 
 
 # See Also
