@@ -24,7 +24,7 @@ The Pager buttons allow the user to navigate through the pages - change the disp
 
 ![Prev/Next PagerMode](images/grd_Pager_prevnext.png)
 
-All properties controlling paging behavior can be set using either development environment [designers]({%slug grid/designer/overview%}) or programmatically. The values set programmatically are persisted into the view-state providing consistency in grid's page navigation and ease their use.
+All properties controlling paging behavior can be set using either development environment [designers]({%slug grid/design-time/overview%}) or programmatically. The values set programmatically are persisted into the view-state providing consistency in grid's page navigation and ease their use.
 
 If you use any other button(s) to control paging in Telerik RadGrid in a custom manner, you can use command button(s) with CommandName 'Page' and CommandArgument **'Next'**, **'Prev'**, or a number of any page - ex. CommandArgument = "42".
 

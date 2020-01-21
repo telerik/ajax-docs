@@ -2,7 +2,7 @@
 title: Visual Studio Support
 page_title: Visual Studio Support | RadGrid for ASP.NET AJAX Documentation
 description: Visual Studio Support
-slug: grid/designer/visual-studio-support
+slug: grid/design-time/visual-studio-support
 tags: visual,studio,support
 published: True
 position: 4

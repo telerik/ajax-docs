@@ -2,7 +2,7 @@
 title: Getting Started with RadGrid for ASP.NET AJAX
 page_title: Getting Started with RadGrid for ASP.NET AJAX | RadGrid for ASP.NET AJAX Documentation
 description: Getting Started with RadGrid for ASP.NET AJAX
-slug: grid/designer/getting-started-with-radgrid-for-asp.net-ajax
+slug: grid/design-time/getting-started-with-radgrid-for-asp.net-ajax
 tags: getting,started,with,radgrid,for,asp.net,ajax
 published: True
 position: 6
@@ -34,7 +34,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 	![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid** [Smart Tag]({%slug grid/designer/smarttag%}) expand the drop-down list labelled Choose Data Source and select **\<New data source...\>**:
+1. Using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **\<New data source...\>**:
 
 	![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
@@ -46,7 +46,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 	![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/designer/visual-studio-2012-datasource-configuration%}) help topic.
+	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
 1. On the **Configure the Select Statement** page, select the Customers table from the drop-down list, select the CompanyName, ContactName, Address, and PostalCode fields. Then choose **Next**:
 
 	![grid gettingstarted 6](images/grid_gettingstarted6.png)
@@ -57,7 +57,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 ## Configuring the grid for paging, sorting, and scrolling
 
-1. From the **Skin** drop-down of the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}) choose the **Metro** skin:
+1. From the **Skin** drop-down of the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) choose the **Metro** skin:
 
 	![grid gettingstarted 8](images/grid_gettingstarted8.JPG)
 
@@ -69,7 +69,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 	![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
-1. In the **RadGrid** [Editor]({%slug grid/designer/setting-radgrid%}):
+1. In the **RadGrid** [Editor]({%slug grid/design-time/setting-radgrid%}):
 	* Select **RadGrid** from the **Configuration Manager**.
 	* On the right side, click **Styles** tab. Then select **RadGrid style**.
 	* In the **Layout** section of the RadGrid's style editor, locate the **Width** property and set it to **720px**:<br/>			
@@ -100,7 +100,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 			
 			![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
 
-1. Use the **RadGrid** [Smart Tag]({%slug grid/designer/smarttag%}) to enable **filtering** and **grouping**:
+1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) to enable **filtering** and **grouping**:
 
 	![grid gettingstarted 15JPG](images/grid_gettingstarted15JPG.png)
 
@@ -119,7 +119,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 	
 		![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 
-1. In the [Smart Tag]({%slug grid/designer/smarttag%}) select **Edit Templates** option:
+1. In the [Smart Tag]({%slug grid/design-time/smarttag%}) select **Edit Templates** option:
 	
 	![grid gettingstarted 18](images/grid_gettingstarted18.png)
 

@@ -2,7 +2,7 @@
 title: Declarative Data Source
 page_title: Declarative Data Source | RadGrid for ASP.NET AJAX Documentation
 description: Declarative Data Source
-slug: grid/designer/declarative-data-source
+slug: grid/design-time/declarative-data-source
 previous_url: controls/grid/design-time/declarative-data-source
 tags: declarative,data,source
 published: True

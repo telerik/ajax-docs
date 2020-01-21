@@ -2,7 +2,7 @@
 title: Creating Hierarchical Grids from Design-Time
 page_title: Creating Hierarchical Grids from Design-Time | RadGrid for ASP.NET AJAX Documentation
 description: Creating Hierarchical Grids from Design-Time
-slug: grid/designer/creating-hierarchical-grids-from-design-time
+slug: grid/design-time/creating-hierarchical-grids-from-design-time
 previous_url: controls/grid/design-time/creating-hierarchical-grids-from-design-time
 tags: creating,hierarchical,grids,from,design-time
 published: True

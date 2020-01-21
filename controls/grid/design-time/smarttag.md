@@ -2,7 +2,7 @@
 title: SmartTag
 page_title: SmartTag | RadGrid for ASP.NET AJAX Documentation
 description: SmartTag
-slug: grid/designer/smarttag
+slug: grid/design-time/smarttag
 previous_url: controls/grid/design-time/smarttag
 tags: smarttag
 published: True
@@ -39,7 +39,7 @@ The smart tag lets you perform the following:
 >
 
 
-* The **Open Editor** link launches the [RadGrid Editor]({%slug grid/designer/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
+* The **Open Editor** link launches the [RadGrid Editor]({%slug grid/design-time/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
 
 ## General Features
 
@@ -81,6 +81,6 @@ Links navigate you directly to **RadGrid** examples, help, or code library. You 
 
 ## Edit Templates
 
-The **Edit Templates** link lets you launch the template design surface for a particular template that the grid uses. You can select from a drop-down list of all possible templates, including templates for [template columns]({%slug grid/designer/add-controls-to-column-templates%}), the [no records template]({%slug grid/data-binding/using-norecordstemplate%}), [pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%}), [command item template]({%slug grid/data-editing/commanditem/command-item-template%}), [edit form template]({%slug grid/data-editing/edit-mode/custom-edit-forms%}), global item template, or nested view template.
+The **Edit Templates** link lets you launch the template design surface for a particular template that the grid uses. You can select from a drop-down list of all possible templates, including templates for [template columns]({%slug grid/design-time/add-controls-to-column-templates%}), the [no records template]({%slug grid/data-binding/using-norecordstemplate%}), [pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%}), [command item template]({%slug grid/data-editing/commanditem/command-item-template%}), [edit form template]({%slug grid/data-editing/edit-mode/custom-edit-forms%}), global item template, or nested view template.
 
 ![RadGrid Smart Tag](images/grid_smart_tag.png)

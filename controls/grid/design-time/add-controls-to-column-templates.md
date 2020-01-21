@@ -2,7 +2,7 @@
 title: Add Controls to Column Templates
 page_title: Add Controls to Column Templates | RadGrid for ASP.NET AJAX Documentation
 description: Add Controls to Column Templates
-slug: grid/designer/add-controls-to-column-templates
+slug: grid/design-time/add-controls-to-column-templates
 tags: add,controls,to,column,templates
 published: True
 position: 7
@@ -33,7 +33,7 @@ This tutorial shows how to:
 
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **\<New data source...\>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **\<New data source...\>**:
 
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
@@ -45,7 +45,7 @@ This tutorial shows how to:
 
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this] ({%slug grid/designer/visual-studio-2012-datasource-configuration%}) help topic.
+	_Note_: If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this] ({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
 1. On the **Configure Select Statement** page, select the Orders table from thedrop-down list, and select theOrderID, CustomerID, EmployeeID, and OrderDate fields and then click **Next** button:
 
 ![Configure Select Statement](images/grid_add-controls-to-template6.png)
@@ -65,7 +65,7 @@ This tutorial shows how to:
 ## Adding Template columns
 
 1. Using the RadGrid's Editor, add a template column to the grid:
-	* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/designer/smarttag%}).<br/>
+	* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/design-time/smarttag%}).<br/>
 
 		![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
@@ -77,7 +77,7 @@ This tutorial shows how to:
 
 		![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 
-1. Click **Edit Templates** from the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}):
+1. Click **Edit Templates** from the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}):
 
 ![grid gettingstarted 18](images/grid_gettingstarted18.png)
 
@@ -107,7 +107,7 @@ This tutorial shows how to:
 
 ![Rad Grid grd addcontrols 6jpg](images/RadGrid_grd_addcontrols6jpg.png)
 
-1. Use the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}) to end template editing:
+1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) to end template editing:
 
 ![grid addcontrols 7jpg](images/grid_addcontrols7jpg.png)
 
@@ -129,7 +129,7 @@ This tutorial shows how to:
 
 ![grid addcontrols 11](images/grid_addcontrols11.png)
 
-1. From the **RadGrid's** [Smart Tag]({%slug grid/designer/smarttag%}) expand the drop-down list labeled **Skin** and choose **Metro** skin.
+1. From the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labeled **Skin** and choose **Metro** skin.
 
 ![grid addcontrols 12](images/grid_addcontrols12.png)
 
