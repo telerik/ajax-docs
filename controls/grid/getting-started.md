@@ -48,6 +48,10 @@ Commonly used Functionalities are:
 * [Grouping]({%slug grid/functionality/grouping/overview%})
 * [Scrolling]({%slug grid/functionality/scrolling/overview%})
 
+## Accessing Cells, Values, Controls and More
+
+Accessing objects inside the Grid will require a specific approach for both Client and Server side. Instructions and examples can be found in the [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
+
 ## Changing the appearance
 
 * [Choosing from the built-in Skins]({%slug grid/appearance-and-styling/skins%})
