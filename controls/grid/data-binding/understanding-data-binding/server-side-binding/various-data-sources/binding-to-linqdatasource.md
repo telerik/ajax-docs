@@ -14,6 +14,8 @@ RadGrid Markup
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="LinqDataSource1">
 </telerik:RadGrid>
+
+<asp:LinqDataSource ID="LinqDataSource1" runat="server" OnSelecting="LinqDataSource1_Selecting"></asp:LinqDataSource>
 ````
 
 Code behind section (dummy data generated using an Enumerable)
