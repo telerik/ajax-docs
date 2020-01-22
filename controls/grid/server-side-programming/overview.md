@@ -10,7 +10,7 @@ position: 0
 
 # Server-Side Programming Overview
 
-The following articles describes instructions and examples for server-side examples to access Cells, Values, Controls and more... in RadGrid: [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
+For instructions and examples for a server-side approach to access Cells, Values, Controls and more in RadGrid, visit the: [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
 
 ## Classes and Properties
 
