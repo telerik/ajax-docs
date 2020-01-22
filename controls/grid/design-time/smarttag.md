@@ -3,7 +3,6 @@ title: SmartTag
 page_title: SmartTag | RadGrid for ASP.NET AJAX Documentation
 description: SmartTag
 slug: grid/design-time/smarttag
-previous_url: controls/grid/design-time/smarttag
 tags: smarttag
 published: True
 position: 1

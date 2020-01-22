@@ -3,7 +3,6 @@ title: Setting RadGrid
 page_title: Setting RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Setting RadGrid
 slug: grid/design-time/setting-radgrid
-previous_url: controls/grid/design-time/setting-radgrid
 tags: setting,radgrid
 published: True
 position: 2
