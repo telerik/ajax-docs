@@ -13,31 +13,31 @@ Fired when any button is clicked in the RadGrid control. All bubbled events from
 
 ### Event Parameters
 
-* *(object)* **sender**
+* `(object)` **sender**
 
     * The control that fires the event
 
-* *(GridCommandEventArgs)* **e**
+* (GridCommandEventArgs) **e**
 
     * Event arguments that 
 
-        * *(boolean)* **e.Canceled**
+        * `(boolean)` **e.Canceled**
             
             If set to True the event will be canceled
 
-        * *(object)* **e.CommandArgument**
+        * `(object)` **e.CommandArgument**
 
             Arguments that are set to the Button's CommandArgument property.
 
-        * *(string)* **e.CommandName**
+        * `(string)` **e.CommandName**
 
             Name defined in the CommandName property of the Button.
 
-        * *(object)* **e.CommandSource**
+        * `(object)` **e.CommandSource**
 
             The Control that fired the Command for the Grid.
 
-        * *(GridItem)* **e.Item**
+        * `(GridItem)` **e.Item**
 
             Gets the Item containing the command source. Can be any of the Grid items that Inherit the `GridItem` class (e.g. **GridDataItem**,  **GridCommandItem**, **GridHeaderItem**, **GridFilteringItem**, **GridEditFormItem**, etc...)
 
