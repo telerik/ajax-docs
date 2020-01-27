@@ -39,9 +39,9 @@ Fired when any button is clicked in the RadGrid control. All bubbled events from
 
         * `(GridItem)` **e.Item**
 
-            Gets the Item containing the command source. Can be any of the Grid items that Inherit the `GridItem` class (e.g. **GridDataItem**,  **GridCommandItem**, **GridHeaderItem**, **GridFilteringItem**, **GridEditFormItem**, etc...)
+            G Gets the Item that initiated the command. Can be any of the Grid items that Inherit the `GridItem` class (e.g. *GridDataItem*,  *GridCommandItem*, *GridHeaderItem*, *GridFilteringItem*, *GridEditFormItem*, etc...)
 
-### Attaching the event
+## Attaching the event
 
 In the Markup
 
@@ -86,7 +86,7 @@ Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridComman
 End Sub
 ````
 
-### Examples of Capturing commands
+## Capturing commands
 
 Grid known Commands
 
@@ -149,7 +149,7 @@ Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridComman
 End Sub
 ````
 
-Custom Commands
+# Custom Commands
 
 The name defined in the CommandName property of the Button can be captured as follows
 
