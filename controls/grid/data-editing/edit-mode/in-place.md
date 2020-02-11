@@ -11,7 +11,6 @@ position: 0
 # In Place
 
 
-
 To display the grid column editors inline when the grid switches into edit mode, change the table view's **EditMode** property to "InPlace".
 
 ````ASP.NET
