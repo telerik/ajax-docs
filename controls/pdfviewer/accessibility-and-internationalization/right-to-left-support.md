@@ -2,7 +2,7 @@
 title: Right-to-Left Support
 page_title: Right-to-Left Support | RadPDFViewer for ASP.NET AJAX Documentation
 description: Right-to-Left Support
-slug: pdfviewer-accessibility-and-internationalization-right-to-left-support
+slug: pdfviewer/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True
 position: 1
@@ -30,6 +30,6 @@ The **RadPDFViewer** fully supports right-to-left (RTL) language locales (**Figu
 
 ## See Also
 
- * [Keyboard Support]({%slug pdfviewer-accessibility-and-internationalization-keyboard-support%})
+ * [Keyboard Support]({%slug pdfviewer/accessibility-and-internationalization/keyboard-support%})
 
 
