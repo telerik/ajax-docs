@@ -2,7 +2,7 @@
 title: Overview
 page_title: RadPDFViewer Overview | UI for ASP.NET AJAX Documentation
 description: Overview
-slug: pdfviewer-overview
+slug: pdfviewer/overview
 tags: overview
 published: True
 position: 0
@@ -25,11 +25,11 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 * Built-in accessibility, WAI-ARIA, keyboard and RTL support
 
-* [Localization]({%slug pdfviewer-accessibility-and-internationalization-localization%})
+* [Localization]({%slug pdfviewer/accessibility-and-internationalization/localization%})
 
-* Built-in customizable [Toolbar and Tools]({%slug pdfviewer-functionality-toolbar-and-tools%})
+* Built-in customizable [Toolbar and Tools]({%slug pdfviewer/functionality/toolbar-and-tools%})
 
-* Integration with [PDF.js]({%slug pdfviewer-processing-pdf-js%}) Processing library
+* Integration with [PDF.js]({%slug pdfviewer/processing/pdf-js%}) Processing library
 
 * Built-in paging, zooming and seraching mechanism
 
@@ -37,7 +37,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 * Download the viewed PDF file
 
-* Rich [client-side API]({%slug pdfviewer-client-side-programming-overview%}) and [events]({%slug pdfviewer-client-side-programming-events%})
+* Rich [client-side API]({%slug pdfviewer/client-side-programming/overview%}) and [events]({%slug pdfviewer/client-side-programming/events%})
 
 
 # See Also

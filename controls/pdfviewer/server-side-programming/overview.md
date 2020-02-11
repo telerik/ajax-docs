@@ -2,7 +2,7 @@
 title: Overview
 page_title: Overview | v for ASP.NET AJAX Documentation
 description: Overview
-slug: pdfviewer-server-side-programming-overview
+slug: pdfviewer/server-side-programming/overview
 tags: overview
 published: True
 position: 0
@@ -38,8 +38,7 @@ For a list with the server-side properties and methods of the control, see the [
 protected void Button1_Click(object sender, EventArgs e)
 {
     var fileName = RadPdfViewer1.PdfjsProcessingSettings.File;
-    var currentPage = RadPdfViewer1.SelectedPage;
-
+    var currentPage = RadPdfViewer1.ActivePage;
     string result = string.Format("Opened file with name: <strong>{0}</strong> on page: <strong>{1}</strong><br />", fileName, currentPage);
     Label1.Text = result;
 }
@@ -47,7 +46,7 @@ protected void Button1_Click(object sender, EventArgs e)
 ````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Dim fileName = RadPdfViewer1.PdfjsProcessingSettings.File
-    Dim currentPage = RadPdfViewer1.SelectedPage
+    Dim currentPage = RadPdfViewer1.ActivePage
     Dim result As String = String.Format("Opened file with name: <strong>{0}</strong> on page: <strong>{1}</strong><br />", fileName, currentPage)
     Label1.Text = result
 End Sub
