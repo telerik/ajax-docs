@@ -22,7 +22,7 @@ The Header (**GridHeaderItem**) is the cell on the top of each grid column. Head
 
 From Q2 2012 on the grid column headers can be grouped together under a multi-column header. You can find more info here: [Multicolumn Headers]({%slug grid/columns/multicolumn-headers%}).
 
-You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/designer/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release the headers text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
+You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/design-time/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release the headers text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
 
 ````ASP.NET
 <HeaderStyle CssClass="rgRotateHeader" />
@@ -67,7 +67,7 @@ The Footer element of a column is similar to the Header element, but it is place
 
 If you are using [column aggregates](http://demos.telerik.com/aspnet-ajax/grid/examples/groupby/groupfooter/defaultcs.aspx), these are automatically displayed in the footer.
 
-To have a Footer row in your grid, set the **ShowFooter** property to **true**. Then you can customize the Footer appearance using the [RadGrid property builder]({%slug grid/designer/overview%}) or **FooterStyle** section of the **RadGrid** property pane.
+To have a Footer row in your grid, set the **ShowFooter** property to **true**. Then you can customize the Footer appearance using the [RadGrid property builder]({%slug grid/design-time/overview%}) or **FooterStyle** section of the **RadGrid** property pane.
 
 ## Column Operations
 

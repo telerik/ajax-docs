@@ -300,5 +300,5 @@ For example, the columns below will populate the hash table with data for the "s
 </telerik:GridTemplateColumn>
 ````
 
-For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-template-column).
+For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).
 

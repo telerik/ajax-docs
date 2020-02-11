@@ -48,7 +48,7 @@ Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle
 
 ## See Also
 
- * [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows%})
+ * [Accessing Cells and Rows]({%slug grid/accessing-values-and-controls/overview%})
 
  * [Simple Databinding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%})
 

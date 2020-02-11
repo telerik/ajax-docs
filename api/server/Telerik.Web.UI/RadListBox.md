@@ -527,6 +527,10 @@ Automatically sorts items alphabetically (based on the Text
 Gets/sets whether the sorting will be case-sensitive or not.
             By default is set to true.
 
+###  SupportsDisabledAttribute `Boolean`
+
+For internal use.
+
 ###  TransferMode `ListBoxTransferMode`
 
 Gets or sets the transfer mode used for transfer operations.

@@ -93,7 +93,7 @@ position: 2
 
     [See a live example at www.telerik.com](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMail/DefaultCS.aspx)
 
-1. [Design-Time Support]({%slug grid/designer/overview%}) - Telerik RadGrid has full support for the design mode of Visual Studio .NET. This allows you to build, customize, and populate the grid in a convenient WYSIWYG environment.
+1. [Design-Time Support]({%slug grid/design-time/overview%}) - Telerik RadGrid has full support for the design mode of Visual Studio .NET. This allows you to build, customize, and populate the grid in a convenient WYSIWYG environment.
 
 1. **Extensive Client-side API** - Telerik RadGrid introduces a comprehensive client-side API, which enables you to resize, move, reorder, select, scroll columns on-the-fly and much more.
 

@@ -34,6 +34,11 @@ A string specifying the name (without the extension) of the file that will be
             created. The file extension is automatically added based on the method that is
             used.
 
+###  HideNonDataBoundColumns `Boolean`
+
+Determines whether the Action columns 
+            (Select, Edit, Delete, Button) will be exported.
+
 ###  HideStructureColumns `Boolean`
 
 Determines whether the structure columns (the row indicator and the expand/collapse columns) will be exported.

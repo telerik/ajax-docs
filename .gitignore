@@ -20,6 +20,7 @@
 /fonts/
 /styles/
 _site
+_tempconfig.yml
 bs-config.js
 build-docs.sh
 copy_content.sh

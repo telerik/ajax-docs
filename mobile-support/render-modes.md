@@ -30,6 +30,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |DataPager|Yes (render mode)|[Yes (render mode)]({%slug datapager/mobile-support/mobile-rendering/overview%})|
 |Diagram|Yes (by design)|-|
 |Dock|[Yes (render mode)]({%slug dock/mobile-support/render-modes%})|-|
+|Drawer|Yes (by design)|-|
 |DropDownList|Yes (by design)|-|
 |DropDownTree|Yes (by design)|-|
 |Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|[Yes (render mode)]({%slug editor/mobile-support/phone-layout/overview%})|
@@ -50,6 +51,8 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Map|N/A|-|
 |MediaPlayer|Yes (by design)|[Yes (render mode)]({%slug mediaplayer/mobile-support/overview%})|
 |Menu|[Yes (render mode)]({%slug menu/mobile-support/render-modes%})|[Yes (render mode)]({%slug menu/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
+|MultiColumnComboBox|Yes (by design)|-|
+|MultiSelect|Yes (by design)|-|
 |Notification|[Yes (render mode)]({%slug notification/mobile-support/render-modes%})|-|
 |OrgChart|[Yes (render mode)]({%slug orgchart/mobile-support/render-modes%})|-|
 |PanelBar|Yes (render mode)|-|

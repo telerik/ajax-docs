@@ -20,7 +20,7 @@ If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off
 
 There are three ways to create a RadGrid:
 
-* [Using the Designer]({%slug grid/create-radgrid/designer%})
+* [Using the Visual Studio Designer]({%slug grid/create-radgrid/design-time%})
 * [Declaratively]({%slug grid/create-radgrid/declarative-definition%})
 * [Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
 * [Changing the structure on PostBack]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
@@ -48,6 +48,10 @@ Commonly used Functionalities are:
 * [Grouping]({%slug grid/functionality/grouping/overview%})
 * [Scrolling]({%slug grid/functionality/scrolling/overview%})
 
+## Accessing Cells, Values, Controls and More
+
+Accessing objects inside the Grid will require a specific approach for both Client and Server side. Instructions and examples can be found in the [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
+
 ## Changing the appearance
 
 * [Choosing from the built-in Skins]({%slug grid/appearance-and-styling/skins%})
@@ -70,7 +74,7 @@ Commonly used Functionalities are:
 # See Also
 
 * [Install Telerik Web UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
-* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/designer/getting-started-with-radgrid-for-asp.net-ajax%})
+* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%})
 * [Key Features]({%slug grid/key-features%})
 
 

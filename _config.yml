@@ -301,6 +301,9 @@ navigation:
     "controls/multicolumncombobox":
         title: "MultiColumn ComboBox"
         position: 1
+    "controls/multiselect":
+        title: "MultiSelect"
+        position: 1   
     "controls/navigation":
         title: "Navigation"
         position: 1
@@ -1032,7 +1035,6 @@ navigation:
     "*grid/how-to/persisting-settings":
             title: "Persisting Settings"
             position: 8
-
     "*htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart":
         title: "Migrating from RadChart to RadHtmlChart"
         position: 0
@@ -1180,6 +1182,9 @@ navigation:
     "*menu/client-side-programming/objects":
         title: "Objects"
         position: 2
+    "*multiselect/data-binding":
+        title: "Data Binding"
+        position: 3
     "*navigation/templates":
         title: "Templates"
         position: 5
@@ -1901,6 +1906,7 @@ intro_columns:
       "Label": "label/overview"
       "MaskedTextBox": "radmaskedtextbox/overview"
       "MultiColumnComboBox": "multicolumncombobox/overview"
+      "MultiSelect": "multiselect/overview"
       "NumericTextBox": "numerictextbox/overview"
       "Slider": "slider/overview"
       "TextBox": "radtextbox/overview"

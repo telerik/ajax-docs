@@ -530,6 +530,10 @@ Gets or sets the skin name for the control user interface.
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
+###  SupportsDisabledAttribute `Boolean`
+
+For internal use.
+
 ###  TriStateCheckBoxes `Boolean`
 
 Gets or sets a value indicating whether RadTreeView should display tri-state checkboxes.

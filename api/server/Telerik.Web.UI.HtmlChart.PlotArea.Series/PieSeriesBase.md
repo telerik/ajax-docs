@@ -76,6 +76,10 @@ Get/Set the name of the series
 
 The data field holding names of the sectors
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SeriesItems `PieSeriesItemCollection`
 
 Creates a collection with specific series items for the current series type

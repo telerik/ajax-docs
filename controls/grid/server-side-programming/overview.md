@@ -10,7 +10,7 @@ position: 0
 
 # Server-Side Programming Overview
 
-
+For instructions and examples for a server-side approach to access Cells, Values, Controls and more in RadGrid, visit the: [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
 
 ## Classes and Properties
 
@@ -35,49 +35,165 @@ Following is a table of the most important properties you should be aware of whe
 
 ## Events
 
-When working with Telerik RadGrid you will probably often use the following events:
+When working with Telerik RadGrid you will probably often use the following events (sorted by categories).
 
+### Command events
 
-|  **Category**  |  **Event**  |  **Description**  |
-| ------ | ------ | ------ |
-| **Action** | **CancelCommand** |Fired when the **Cancel** button is clicked for an item in the **RadGrid** control.|
-|| **DeleteCommand** |Fired when the **Delete** button is clicked for an item in the **RadGrid** control.|
-|| **EditCommand** |Fired when the **Edit** button is clicked for an item in the **RadGrid** control.|
-|| **UpdateCommand** |Fired when the **Update** button is clicked for an item in the **RadGrid** control.|
-|| **InsertCommand** |Fired when the **Insert** button is clicked for an item in the **RadGrid** control.|
-|| **ItemCommand** |Fired when any button is clicked in the **RadGrid** control. All bubbled events from grid items fire **RadGrid.ItemCommand** . Those like - Edit, Delete, or Update command events can be used to handle custom data-editing in **RadGrid.** Expand/Collapse items in the hierarchy or **GridGroupHeaderItem** -s (if grid displays grouped items), also fired after binding of detail tables, etc.|
-|| **SortCommand** |Fired when a column is sorted. To determine the new/previous sort order on sort command, check the values for the **e.NewSortOrder** and **e.OldSortOrder** arguments.|
-|| **PageIndexChanged** |Fired when one of the page selection elements is clicked.|
-|| **PageSizeChanged** |Fired when the page size is changed through the advanced pager or manually in code|
-|| **SelectedIndexChanged** (inherited from **GridBaseDataList** )|Fired when a different item is selected in a data listing control between posts to the server.|
-|| **NeedDataSource** |Fired when **RadGrid** needs a data source for rebinding.|
-|| **GroupsChanging** |Fired when Telerik RadGrid tries to group its data (e.g. when a column header is dragged to the Group Panel).|
-| **Behavior** | **ItemCreated** |Fired on the server when an item in the **RadGrid** control is created.|
-|| **ItemDataBound** |Fired after an item is databound to the **RadGrid** control.|
-|| **ItemEvent** |Marked for internal usage.|
-|| **ColumnCreated** |This event is fired **after** the creation of auto-generated columns.|
-|| **ColumnCreating** |Fires **before** a custom column is created. You can handle the event to replace or modify the instance of the column that should be created and added into the collection of column in the corresponding **GridTableView** .|
-|| **CreateColumnEditor** |Fired -after- the **NeedDataSource** event of the grid (which is raised right after the **PageLoad** event) and -before- any postback events for controls on the page/user control.|
-|| **ColumnsReorder** |Fired when column reorder occurs (only when **ClientSettings -> ReorderColumnsOnClient** is set to false!)|
-| **Data** | **DataBinding** (inherited from **Control** )|Fired right before the server control binds to a data source. This event will fire only once, when **RadGrid** is initially binding.|
-|| **DataBound** (inherited from **Control** )|Fired when the server control is bound to a data source.|
-|| **DetailTableDataBind** |Fired when a table from **DetailTablesCollection** binds to a data source.|
-| **Automatic data editing operations** | ** **ItemDeleted** ** |Fired when an automatic delete operation is executed.|
-|| ** **ItemUpdated** ** |Fired when an automatic update operation is executed.|
-|| ** **ItemInserted** ** |Fired when an automatic insert operation is executed.|
-| **Row drag/drop** | ** **RowDrop** ** |Fired when drag and drop operation is triggered from the client|
-| **Export** | **OnGridExporting** |Fired when RadGrid is exported to Excel/Word/Csv/Pdf before the resulting document is rendered on the client.|
-|| **OnPdfExporting** |Fired when RadGrid is exported to Pdf before the resulting document is rendered on the client. Appropriate for customizing the grid table appearance in the .pdf document.|
-|| **OnExcelExportCellFormatting** |Fired when RadGrid is exported to Excel before the resulting document is rendered on the client.|
-|| **OnExcelMLExportStylesCreated** |Fired when RadGrid is exported to native Excel before the OnExcelMLExportRowCreated event.|
-|| **OnExcelMLExportRowCreated** |Fired when RadGrid is exported to native Excel before the resulting document is rendered on the client.|
-| **Misc** | **Disposed** (inherited from **Control** )|Fired when a server control is released from the memory, which is the last stage of the server control lifecycle when an ASP.NET page is requested.|
-|| **Init** (inherited from **Control** )|Fired when the server control is initialized, which is the first step in its lifecycle.|
-|| **Load** (inherited from **Control** )|Fired when the server control is loaded into the **RadGrid** object.|
-|| **PreRender** (inherited from **Control** )|Fired when the server control is about to render to its containing **Page** object.|
-|| **Unload** (inherited from **Control** )|Fired when the server control is unloaded from the memory.|
+* [CancelCommand]({%slug grid/server-side-programming/events/cancelcommand %}) 
+                                       
+    Fired when the Cancel button is clicked for an item in the RadGrid control.
 
->note RadGrid ColumnCreating event is fired only for custom columns that inherit one of RadGrid's column types. Additionally, as this event is fired very early in RadGrid's lifecycle, it will not fire if the custom user-created column is placed declaratively in the .aspx page, as the markup is parsed at a later stage.
->Another peculiarity to note, is that the ColumnCreating event will fire only after a postback. It will not fire on initial page load (IsPostBack = false). The explanation for this is that the event is designed to service any needs to restore custom column properties from the viewstate or other source. Where these column properties are initially set when defining the custom column, this is not the case when the page posts back and RadGrid needs to load its properties from the viewstate. This is where the ColumnCreating event comes in, giving the ability to manually restore custom properties for the column.
->
+* [DeleteCommand]({%slug grid/server-side-programming/events/deletecommand %})  
+                                      
+    Fired when the Delete button is clicked for an item in the RadGrid control.
+
+* [EditCommand]({%slug grid/server-side-programming/events/editcommand %})  
+                                          
+    Fired when the Edit button is clicked for an item in the RadGrid control.
+
+* [UpdateCommand]({%slug grid/server-side-programming/events/updatecommand %}) 
+                                       
+    Fired when the Update button is clicked for an item in the RadGrid control.
+
+* [InsertCommand]({%slug grid/server-side-programming/events/insertcommand %}) 
+                                       
+    Fired when the Insert button is clicked for an item in the RadGrid control.
+
+* [ItemCommand]({%slug grid/server-side-programming/events/itemcommand %}) 
+                                           
+    Fired when any button is clicked in the RadGrid control. All bubbled events from grid items fire RadGrid.ItemCommand . Those like - Edit, Delete, or Update command events can be used 
+
+* [BatchEditCommand]({%slug grid/server-side-programming/events/batcheditcommand %}) 
+                                      
+    Fired when saving the changes if the data is bound on the server and the EditMode of the Grid is set to Batch. 
+
+* [SortCommand]({%slug grid/server-side-programming/events/sortcommand %})
+
+### Behavior 
+
+* [ItemCreated]({%slug grid/server-side-programming/events/itemcreated %})  
+                                       
+    Fired on the server when an item in the RadGrid control is created.
+ 
+* [ItemDataBound]({%slug grid/server-side-programming/events/itemdatabound %}) 
+                                 
+    Fired after an item is databound to the RadGrid control.
+ 
+* [PageIndexChanged]({%slug grid/server-side-programming/events/pageindexchanged %})  
+                                   
+    Fired when one of the page selection elements is clicked.
+ 
+* [PageSizeChanged]({%slug grid/server-side-programming/events/pagesizechanged %}) 
+                                     
+    Fired when the page size is changed through the advanced pager or manually in code
+ 
+* [SelectedIndexChanged (inherited from GridBaseDataList )]({%slug grid/server-side-programming/events/selectedindexchanged %})
+ 
+    Fired when a different item is selected in a data listing control between posts to the server.
+ 
+* [ItemEvent]({%slug grid/server-side-programming/events/itemevent %}) 
+                                            
+    Marked for internal usage.
+ 
+* [ColumnCreated]({%slug grid/server-side-programming/events/columncreated %}) 
+                                            
+    This event is fired after the creation of auto-generated columns.
+ 
+* [ColumnCreating]({%slug grid/server-side-programming/events/columncreating %})  
+                                      
+    Fires before a custom column is created. You can handle the event to replace or modify the instance of the column that should be created and added into the collection of column in the 
+ 
+* [GroupsChanging]({%slug grid/server-side-programming/events/groupschanging %}) 
+                                      
+    Fired when Telerik RadGrid tries to group its data (e.g. when a column header is dragged to the Group Panel).
+ 
+* [CreateColumnEditor]({%slug grid/server-side-programming/events/createcolumneditor %}) 
+                              
+    Fired -after- the NeedDataSource event of the grid (which is raised right after the PageLoad event) and -before- any postback events for controls on the page/user control.
+ 
+* [ColumnsReorder]({%slug grid/server-side-programming/events/columnsreorder %})  
+                                     
+    Fired when column reorder occurs (only when ClientSettings -> ReorderColumnsOnClient is set to false!)
+
+### Data binding
+
+* [DataBinding (inherited from Control)]({%slug grid/server-side-programming/events/databinding %}) 
+                  
+    Fired right before the server control binds to a data source. This event will fire only once, when RadGrid is initially binding.
+ 
+* [DataBound (inherited from Control)]({%slug grid/server-side-programming/events/databound %}) 
+                      
+    Fired when the server control is bound to a data source.
+ 
+* [NeedDataSource]({%slug grid/server-side-programming/events/needdatasource %}) 
+                                 
+    Fired when RadGrid needs a data source for rebinding.
+ 
+* [DetailTableDataBind]({%slug grid/server-side-programming/events/detailtabledatabind %})
+                                     
+    Fired when a table from DetailTablesCollection binds to a data source.
+
+### Automatic CRUD operations with Declarative DataSource controls
+
+* [ItemDeleted]({%slug grid/server-side-programming/events/itemdeleted %}) 
+                                            
+    Fired when an automatic delete operation is executed.
+ 
+* [ItemUpdated]({%slug grid/server-side-programming/events/itemupdated %}) 
+                                           
+    Fired when an automatic update operation is executed.
+ 
+* [ItemInserted]({%slug grid/server-side-programming/events/iteminserted %})
+                                                
+    Fired when an automatic insert operation is executed.
+
+### Row Drag&Drop
+
+* [RowDrop]({%slug grid/server-side-programming/events/rowdrop %}) 
+                                            
+    Fired when drag and drop operation is triggered from the client
+
+### Exporting
+
+* [OnGridExporting]({%slug grid/server-side-programming/events/ongridexporting %})  
+                                    
+    Fired when RadGrid is exported to Excel/Word/Csv/Pdf before the resulting document is rendered on the client.
+ 
+* [OnPdfExporting]({%slug grid/server-side-programming/events/onpdfexporting %})  
+                        
+    Fired when RadGrid is exported to Pdf before the resulting document is rendered on the client. Appropriate for customizing the grid table appearance in the .pdf document.
+ 
+* [OnExcelExportCellFormatting]({%slug grid/server-side-programming/events/onexcelexportcellformatting %}) 
+           
+    Fired when RadGrid is exported to Excel before the resulting document is rendered on the client.
+ 
+* [OnExcelMLExportStylesCreated]({%slug grid/server-side-programming/events/onexcelmlexportstylescreated %})  
+            
+    Fired when RadGrid is exported to native Excel before the OnExcelMLExportRowCreated event.
+ 
+* [OnExcelMLExportRowCreated]({%slug grid/server-side-programming/events/onexcelmlexportrowcreated %})
+                                  
+    Fired when RadGrid is exported to native Excel before the resulting document is rendered on the client.
+
+### Miscellanious
+
+* [Disposed (inherited from Control)]({%slug grid/server-side-programming/events/disposed %}) 
+                            
+    Fired when a server control is released from the memory, which is the last stage of the server control lifecycle when an ASP.NET page is requested.
+ 
+* [Init (inherited from Control)]({%slug grid/server-side-programming/events/init %}) 
+                                
+    Fired when the server control is initialized, which is the first step in its lifecycle.
+ 
+* [Load (inherited from Control)]({%slug grid/server-side-programming/events/load %})
+                            
+    Fired when the server control is loaded into the RadGrid object.
+ 
+* [PreRender (inherited from Control)]({%slug grid/server-side-programming/events/prerender %}) 
+                         
+    Fired when the server control is about to render to its containing Page object.
+
+* Unload (inherited from Control)
+                                 
+    Fired when the server control is unloaded from the memory.
 

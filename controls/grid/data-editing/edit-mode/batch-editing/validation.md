@@ -64,7 +64,7 @@ Batch editing functionality supports validation by either using the **ColumnVali
 
 The `MaxLength` property of a grid column is applicable only with server editing and with batch editing you should use one of the following options:
 * a custom validator in a `GridTemplateColumn` as shown in the example above
-* for a `GridBoundColumn`, [access the column editor on the server]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-batch-edit-mode) and set its `TextBoxMaxLength` property. This will set the `maxLength` attribute of the `<input>` element because in batch edit mode a simple `<input>` will be rendered regardless of the `DataType`.
+* for a `GridBoundColumn`, [access the column editor on the server]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-batch-edit-mode) and set its `TextBoxMaxLength` property. This will set the `maxLength` attribute of the `<input>` element because in batch edit mode a simple `<input>` will be rendered regardless of the `DataType`.
 * for a `GridNumericColumn` you can use the `MaxValue` and `MinValue` properties, as it works with numbers and does not have the concept of a string length, and will render a `RadNumericTextBox` control.
 
 ````ASP.NET

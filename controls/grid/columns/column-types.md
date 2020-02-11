@@ -23,7 +23,7 @@ position: 0
 
 ## Data Columns
 
-Data columns display data or contain controls that operate on the data. They can be automatically generated, created at design time using the [RadGrid Property Builder]({%slug grid/designer/overview%}), or added dynamically at runtime to the **Columns** property collection.
+Data columns display data or contain controls that operate on the data. They can be automatically generated, created at design time using the [RadGrid Property Builder]({%slug grid/design-time/overview%}), or added dynamically at runtime to the **Columns** property collection.
 
 >note Note that by default the header text of the auto generated columns is the name of the data field split by capital letters. To control this behavior you can use the **EnableSplitHeaderText** property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
 >
@@ -469,7 +469,7 @@ The following table lists the operators you can use in the expression of a calcu
 
 ## GridTemplateColumn
 
-**GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid** [Smart Tag]({%slug grid/designer/smarttag%}).
+**GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}).
 
 **Image 5**: Set templates for **GridTemplateColumn** using Smart Tag
 ![grid columntypes edittemplates](images/grid_columntypes_edittemplates.jpg)
@@ -497,7 +497,7 @@ The **Edit Templates** command opens the template editor, where you can set the 
 **Image 6**: Template editor for **GridTemplateColumn**
 ![Template Column](images/grd_TemplateColumn.png)
 
-See [Getting Started]({%slug grid/designer/getting-started-with-radgrid-for-asp.net-ajax%}) for a tutorial that includes creating and binding a template column.
+See [Getting Started]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%}) for a tutorial that includes creating and binding a template column.
 
 With the Q2 2012 release, **GridTemplateColumn** exposes a **ClientItemTemplate** that allows the rendering of pure HTML into the column cell and the evaluation of Kendo-like expressions. The template is used with client-side binding and has a binding context, which has the fields of the data item object, as well as some additional properties listed below:
 

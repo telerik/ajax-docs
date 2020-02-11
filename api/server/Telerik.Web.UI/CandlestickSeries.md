@@ -92,6 +92,10 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 
 Get/Set the name of the series
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SeriesItems `CandlestickSeriesItemCollection`
 
 Creates a collection of candlestick series items.

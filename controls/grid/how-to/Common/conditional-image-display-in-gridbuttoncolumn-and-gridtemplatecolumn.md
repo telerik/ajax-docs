@@ -18,7 +18,7 @@ There are cases in which you would like to display/not display image inside **Gr
 
 The example below demonstrates how to fulfill this task for **GridButtonColumn** and **GridCheckBoxColumn** (note that similar operations can be performed for GridTemplateColumn and other column types).You can retrieve reference to the **checkbox** the inside the grid item cell which correspond to the **GridCheckBoxColumn**. This can be done in the **ItemDataBound** handler of the grid. After you get the checkbox control you can verify whether the checkbox is checked (to assign **ImageUrl** for the **ImageButton** in the **GridButtonColumn**) or not checked (to **clear** the controls inside the respective **GridButtonColumn** cell).
 
-Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueNames]({%slug grid/rows/accessing-cells-and-rows%}) for our columns):
+Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueNames]({%slug grid/accessing-values-and-controls/overview%}) for our columns):
 
 
 

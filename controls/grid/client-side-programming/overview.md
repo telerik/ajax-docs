@@ -10,7 +10,7 @@ position: 0
 
 # Client-Side Programming Overview
 
-
+For Client side approach to access Cells, Values, Controls and more in RadGrid check out the: [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
 
 ## Client-side Object Model
 

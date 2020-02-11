@@ -110,7 +110,7 @@ The following articles describe how to configure some of the more common **DataS
 
 [http://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started](http://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started)
 
-For a tutorial that uses automatic CRUD operations feature, see [Add controls to column templates]({%slug grid/designer/add-controls-to-column-templates%}).
+For a tutorial that uses automatic CRUD operations feature, see [Add controls to column templates]({%slug grid/design-time/add-controls-to-column-templates%}).
 
 For a live example that demonstrates automatic data source operations, see [Automatic operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
 

@@ -20,6 +20,9 @@ To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please v
 ## Getting Started
 
 If you are a new user, we recommend that you **follow the [First Steps]({%slug getting-started/first-steps%})** article.
+You can also get quickly onboarded and successful with your Telerik UI for ASP.NET AJAX product with the Virtual Classroom free technical training, available to all active customers. To get started with the training, refer to:
+* [Telerik Web UI for ASP.NET AJAX Classroom](https://progress.exceedlms.com/student/path/506628-telerik-ui-for-asp-net-ajax-updated-december-2019)
+* [All-Progress Products Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom).
 
 ## Get Assistance or Give Feedback
 
@@ -29,7 +32,7 @@ Your constructive feedback is important and it helps us improve our resources an
 2. *[UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx)* - Get the community's support or share information with it.
 3. *[Feedback Portal](https://feedback.telerik.com/aspnet-ajax)* - Bug reports or feature requests.
 4. *"Was this article helpful? (Yes/No)" section at the end of each article* - Documentation recommendations or problems in the given article.
-5. *Pull request in our [GitHub repository](https://github.com/telerik/ajax-docs)* - Suggest an improvement to an article directly. For an easier acces to the GitHub page for the article, click the *Improve this article* button on the right-side navigation.
+5. *Pull request in our [GitHub repository](https://github.com/telerik/ajax-docs)* - Suggest an improvement to an article directly. For an easier access to the GitHub page for the article, click the *Improve this article* button on the right-side navigation.
 
 Sharing quality feedback and ideas will not only benefit the community and improve our products, but you may also win [Telerik points](https://www.telerik.com/community/telerik-points).
 

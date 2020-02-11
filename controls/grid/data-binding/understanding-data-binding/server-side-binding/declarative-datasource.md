@@ -56,11 +56,11 @@ You can easily generate this declaration using the **Configure Data Source** wiz
 
 ![Configure DataSource](images/grd_DataSourceControls_Setup.png)
 
-For a tutorial that walks you through using the wizard to configure **SqlDataSource** controls for a hierarchical grid, see [Tutorial: Building a Hierarchical Grid]({%slug grid/designer/building-a-hierarchical-grid%}).
+For a tutorial that walks you through using the wizard to configure **SqlDataSource** controls for a hierarchical grid, see [Tutorial: Building a Hierarchical Grid]({%slug grid/design-time/building-a-hierarchical-grid%}).
 
 ## Assign the DataSourceID property
 
-Once you have set up the data source controls, you need to pair each **GridTableView** with the appropriate data source control. You must first assign a data source for the top-level table in the grid. To do this, set the **DataSourceID** property of the **RadGrid** control. You can do this using the **RadGrid** [Smart Tag]({%slug grid/designer/smarttag%}), or in the **RadGrid** Properties pane:
+Once you have set up the data source controls, you need to pair each **GridTableView** with the appropriate data source control. You must first assign a data source for the top-level table in the grid. To do this, set the **DataSourceID** property of the **RadGrid** control. You can do this using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}), or in the **RadGrid** Properties pane:
 
 ![SetDataSource](images/grd_DataSourceControls_SetDataS.png)
 
@@ -70,7 +70,7 @@ Once you have set up the data source controls, you need to pair each **GridTable
 
 Each **GridTableView** (including the **MasterTableView** and any table views in the **DetailTables** collection of another table view) also has a property **DataSourceID**. When you set the **DataSourceID** property of the **RadGrid** control, the **DataSourceID** property of the **MasterTableView** is automatically set as well.
 
-In a hierarchical grid, you must set the **DataSourceID** property for each of the detail tables. You can do this using the [RadGrid Configuration Manager]({%slug grid/designer/setting-radgrid%}), or in the **RadGrid** properties pane.
+In a hierarchical grid, you must set the **DataSourceID** property for each of the detail tables. You can do this using the [RadGrid Configuration Manager]({%slug grid/design-time/setting-radgrid%}), or in the **RadGrid** properties pane.
 
 Use the following steps when binding detail tables with the **RadGrid** properties pane:
 

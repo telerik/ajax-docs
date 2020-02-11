@@ -13,7 +13,7 @@ position: 0
 
 ### Using the Designer
 
-Creating a RadGrid can be as simple as Dragging and Dropping controls into a page, see **[Designer Overview]({%slug grid/designer/overview%})**
+Creating a RadGrid can be as simple as Dragging and Dropping controls into a page, see **[Designer Overview]({%slug grid/design-time/overview%})**
 
 ### Declaratively
 

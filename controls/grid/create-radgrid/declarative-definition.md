@@ -19,6 +19,73 @@ When defining **RadGrid** declaratively, the structure of the objects in the ASP
 
 The following example shows the declaration of a three-tier hierarchical grid:
 
+
+#### Scenario - RadGrid Hierarchy with 3 levels
+
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Bootstrap" RenderMode="Lightweight"
+    OnDetailTableDataBind="RadGrid1_DetailTableDataBind"
+    OnNeedDataSource="RadGrid1_NeedDataSource">
+    <MasterTableView Name="Customers" DataKeyNames="CustomerID" Caption="Customers Table">
+        <DetailTables>
+            <telerik:GridTableView Name="Orders" DataKeyNames="OrderID" Caption="Orders Table">
+                <DetailTables>
+                    <telerik:GridTableView Name="OrderDetails" DataKeyNames="ProductID" Caption="Order Details Table">
+                    </telerik:GridTableView>
+                </DetailTables>
+            </telerik:GridTableView>
+        </DetailTables>
+    </MasterTableView>
+</telerik:RadGrid>
+````
+
+````C#
+protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+{
+    if (!e.IsFromDetailTable)
+        (sender as RadGrid).DataSource = Enumerable.Range(1, 3).Select(x => new DbRecord()
+        {
+            ID = x,
+            Description = string.Format("Table {0}, Item {1}", (sender as RadGrid).MasterTableView.Name, x)
+        });
+}
+protected void RadGrid1_DetailTableDataBind(object sender, GridDetailTableDataBindEventArgs e)
+{
+    e.DetailTableView.DataSource = Enumerable.Range(1, 3).Select(x => new DbRecord()
+    {
+        ID = x,
+        Description = string.Format("Table {0}, Item {1}", e.DetailTableView.Name, x)
+    });
+}
+public class DbRecord
+{
+    public int ID { get; set; }
+    public string Description { get; set; }
+}
+````
+````VB
+Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
+    If Not e.IsFromDetailTable Then (TryCast(sender, RadGrid)).DataSource = Enumerable.Range(1, 3).[Select](Function(x) New DbRecord() With {
+        Key .ID = x,
+        Key .Description = String.Format("Table {0}, Item {1}", (TryCast(sender, RadGrid)).MasterTableView.Name, x)
+    })
+End Sub
+
+Protected Sub RadGrid1_DetailTableDataBind(ByVal sender As Object, ByVal e As GridDetailTableDataBindEventArgs)
+    e.DetailTableView.DataSource = Enumerable.Range(1, 3).[Select](Function(x) New DbRecord() With {
+        Key .ID = x,
+        Key .Description = String.Format("Table {0}, Item {1}", e.DetailTableView.Name, x)
+    })
+End Sub
+
+Public Class DbRecord
+    Public Property ID As Integer
+    Public Property Description As String
+End Class
+````
+
+
+
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">

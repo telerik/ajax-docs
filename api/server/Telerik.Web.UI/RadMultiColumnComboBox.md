@@ -211,6 +211,10 @@ The index of the initially selected item. The index is 0 based.
 
 For internal use.
 
+###  MessagesSettings `Messages`
+
+The text messages displayed in the widget. Use this option to customize or localize the messages.
+
 ###  MinLength `Double`
 
 The minimum number of characters the user must type before a search is performed. Set to higher value than 1 if the search could match a lot of items.

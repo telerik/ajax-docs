@@ -18,7 +18,7 @@ Functional items are static rows in the grid that perform some function.
 
 The [Pager]({%slug grid/functionality/paging/pager-item%}) is a row that contains the paging navigation controls. To have the grid divide its data into pages, set the grid's **AllowPaging** property to **True**.
 
-You can define the style of the Pager Row using the [ RadGrid property builder ]({%slug grid/designer/overview%}) or the **PagerStyle** section of the **RadGrid** property pane.
+You can define the style of the Pager Row using the [ RadGrid property builder ]({%slug grid/design-time/overview%}) or the **PagerStyle** section of the **RadGrid** property pane.
 
 ![Pager](images/grd_Pager.png)
 

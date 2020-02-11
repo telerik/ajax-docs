@@ -82,6 +82,10 @@ Get/Set missing values behavior
 
 Get/Set the name of the series
 
+###  Opacity `Decimal`
+
+The series opacity. By default the series are opaque with default value 1.
+
 ###  SeriesItems `CategorySeriesItemCollection`
 
 Creates a collection with specific series items for the current series type
