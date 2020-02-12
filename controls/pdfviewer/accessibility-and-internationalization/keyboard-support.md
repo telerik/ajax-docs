@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadPDFViewer for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadPdfViewer for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: pdfviewer/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -24,7 +24,7 @@ The keyboard navigation of the PDFViewer is always available, you can use the fo
 
 ## See Also
 
- * [Live Demo: RadPDFViewer Keyboard Support](http://demos.telerik.com/aspnet-ajax/pdfviewer/keyboard-navigation)
+ * [Live Demo: RadPdfViewer Keyboard Support](http://demos.telerik.com/aspnet-ajax/pdfviewer/keyboard-navigation)
 
  * [Right-to-Left Support]({%slug pdfviewer/accessibility-and-internationalization/right-to-left-support%})
 
