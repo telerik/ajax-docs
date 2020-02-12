@@ -98,7 +98,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 
 As of **R3 2019 SP1**, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
 
->important As of **R1 2020** this feature is enabled by default to improve the application security, and allows the built-in Telerik type only. In **R3 2019 SP1** the feature is opt-in. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw an error when uploading.
+>important As of **R1 2020** this feature is enabled by default to improve the application security, and allows the built-in Telerik type only. In **R3 2019 SP1** the feature is opt-in. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw a `[The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)` error when uploading.
 
 There are several situations when you may be using a custom metadata class, you can read more on the most common cases in the following resources. This can help you determine whether you have such code in your application for any purpose. If you do, read the information after this list to see how to apply whitelisting for them.
 
@@ -106,7 +106,9 @@ There are several situations when you may be using a custom metadata class, you 
 * [Capturing file upload errors from a custom handler](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-capture-file-upload-errors-with-custom-handler)
 * [Preserving upload configuration across postbacks]({%slug asyncupload/how-to/how-to-preserve-upload-configuration%})
 
-To whitelist your custom types, add the `Telerik.Upload.AllowedCustomMetaDataTypes` key in the `appSettings` section of the `web.config`. As a value for the key, provide the metadata class full name, including the namespace, in a list delimited by a semicolon (`;`). The built-in type that we use out-of-the-box is always whitelisted.
+To whitelist your custom types, add the `Telerik.Upload.AllowedCustomMetaDataTypes` key in the `appSettings` section of the `web.config`. As a value for the key, provide the metadata class full name, including the namespace, in a list delimited by a semicolon (`;`). The built-in type that we use out-of-the-box is always whitelisted. For an easy way to obtain the fully qualified name of the configuration class you need to add, check the example in the following KB article:
+
+* [The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)
 
 >caption Whitelist custom metadata types
 
@@ -119,7 +121,7 @@ To whitelist your custom types, add the `Telerik.Upload.AllowedCustomMetaDataTyp
 
 >note This is an additional security measure and it does not replace setting the [main custom encryption keys](#recommended-settings).
 
-Failure to deserialize a custom metadata type will also throw a `CryptographicException` and the handler request will fail.
+Failure to deserialize a custom metadata type will also throw a `CryptographicException` on the server and the handler request will fail, resulting in a `The cryptographic operation has failed!` error on the client.
 
 [Custom handlers]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) **are** affected by this feature.
 
@@ -149,3 +151,4 @@ When you set this key to `true`, no files can be uploaded to the default handler
 
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 * [Create a Custom Handler for RadAsyncUpload]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
+* [The cryptographic operation has failed! error](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)
