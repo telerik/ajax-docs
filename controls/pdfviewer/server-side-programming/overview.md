@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | v for ASP.NET AJAX Documentation
+page_title: Overview | RadPdfViewer for ASP.NET AJAX Documentation
 description: Overview
 slug: pdfviewer/server-side-programming/overview
 tags: overview
@@ -10,17 +10,17 @@ position: 0
 
 # Server-side Programming Overview
 
-You can configure the settings of **RadPDFViewer** and create its elements in the code-behind via the Server-Side API of the control.
+You can configure the settings of **RadPdfViewer** and create its elements in the code-behind via the Server-Side API of the control.
 
-## RadPDFViewer Public Properties and Methods
+## RadPdfViewer Public Properties and Methods
 
-For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadPDFViewer class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadPDFViewer). You can also find it in the intellisense in Visual Studio.
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadPdfViewer class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadPdfViewer). You can also find it in the intellisense in Visual Studio.
 
 ## Get File Name and Selected Page Number
 
-**RadPDFViewer** exposes infromation regarding the loaded **File** name and currently **SelectedPage**, which can be accessed on the server-side like demonstrated in the following sample.
+**RadPdfViewer** exposes infromation regarding the loaded **File** name and currently **SelectedPage**, which can be accessed on the server-side like demonstrated in the following sample.
 
->caption Example 1: Get the name and the current page of the documentloaded in RadPDFViewer
+>caption Example 1: Get the name and the current page of the documentloaded in RadPdfViewer
 
 ````ASP.NET
 <telerik:RadAjaxPanel runat="server">
