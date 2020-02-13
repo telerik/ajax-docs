@@ -27,15 +27,17 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 * [Localization]({%slug pdfviewer/accessibility-and-internationalization/localization%})
 
-* Built-in customizable [Toolbar and Tools]({%slug pdfviewer/functionality/toolbar-and-tools%})
+* Customizable [Toolbar and Tools]({%slug pdfviewer/functionality/toolbar-and-tools%})
 
 * Integration with [PDF.js]({%slug pdfviewer/processing/pdf-js%}) Processing library
 
 * Built-in paging, zooming and seraching mechanism
 
-* Allows the client to open files from their PC
+* Virtualization
 
-* Download the viewed PDF file
+* Ability to load files from the client's PC
+
+* Built-in file download functionality
 
 * Rich [client-side API]({%slug pdfviewer/client-side-programming/overview%}) and [events]({%slug pdfviewer/client-side-programming/events%})
 
