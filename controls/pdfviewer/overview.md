@@ -17,7 +17,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 >caption Figure 1: RadPdfViewer allows to open, navigate through and download a PDF file
 
-![multiselect-overview](images/pdfviewer-overview.png)
+![multiselect-overview](images/pdfviewer-overview.gif)
 
 ## Key Features
 
