@@ -26,15 +26,15 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Listing 1: The client-side events exposed by RadPdfViewer
 
-* [OnRender](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/render)—Fired when a page is rendered.
-
-* [OnOpen](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/open)—Fired when a PDF is opened in the viewer..
-
-* [OnError](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/error)—Fired when an error is encountered. By default, a dialog is shown with error message (unless the event is prevented).
-
 * **OnInitialize**—Fired just before the RadPdfViewer client-side object is initialized.
 
 * **OnLoad**—Fired when RadPdfViewer is initialized.
+
+* [OnRender](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/render)—Fired when a page is rendered.
+
+* [OnOpen](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/open)—Fired when a PDF is opened in the viewer.
+
+* [OnError](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/error)—Fired when an error is encountered. By default, a dialog is shown with error message (unless the event is prevented).
 
 ## Examples
 
