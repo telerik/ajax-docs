@@ -74,7 +74,7 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 
  * [Live Demo - RadPdfViewer Client-side API](https://demos.telerik.com/aspnet-ajax/PdfViewer/clientsideapi/defaultcs.aspx)
 
- * [RadPdfViewer Client-side Events]({%slug PdfViewer/client-side-programming/events%})
+ * [RadPdfViewer Client-side Events]({%slug pdfviewer/client-side-programming/events%})
 
  
 
