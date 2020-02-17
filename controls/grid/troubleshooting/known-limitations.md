@@ -59,6 +59,9 @@ A grid bound using client side data-binding improves the performance of RadGrid.
 
 * **Exporting** - a grid must be bound on the server for exporting to work. With client-side binding you will get an empty file.
 
+* **Templates** - the *NestedViewTemplate* and *DetailItemTemplate* are server templates and are not supported with client-side binding. 
+
+
 ## Model Binding
 
 Model binding is not supported when the **ViewState** of the page is disabled. In order to use the model binding you need to set **Page.EnableViewState = "true"**
