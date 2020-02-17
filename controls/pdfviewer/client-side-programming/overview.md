@@ -45,19 +45,28 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 | **execute** | Object | none |Executes a command of the PDFViewer (calls its underlying Kendo widget's [execute](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/methods/execute) method). The available commands are: *OpenCommand*, *PageChangeCommand*, *DownloadCommand*, *EnableSelectionCommand*о, *EnablePanCommand*, *ExportCommand*, *PrintCommand*, *OpenSearchCommand*, *ZoomCommand*|
 | **fromFile** | String | none |Displays the file which path is passed as a parameter in the PDFViewer.|
 | **get_activePage** |none|Number|Returns the selected page number in the viewer.|
+| **get_defaultPageSize** |none|Object|Returns the default page size.|
 | **get_document** |none|Object|Returns a reference to the loaded document.|
+| **get_height** |none|Number|Returns the height of the PDFViewer.|
 | **get_kendoWidget** |none|object|Returns a reference to the underlying Kendo PdfViewer widget.|
 | **get_pageContainer** |none|Object|Returns a reference to the current page container.|
 | **get_pages** |none|Array|Returns a list of the pages in the loaded document.|
 | **get_processor** |none|Object|Returns a reference to the current PDF proccessor instance.|
 | **get_toolBar** |none|Object|Returns the a reference to the nested in the PdfViewer [Kendo UI toolbar instance](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/configuration/toolbar).|
 | **get_visible** |none|Boolean|Returns a Boolean value indicating whether the PdfViewer is visible.|
+| **get_width** |none|Number|Returns the width of the PDFViewer.|
+| **get_zoomMax** |none|Number|Returns the maximum zoom that could be applied to the pages.|
+| **get_zoomMin** |none|Number|Returns the minimum zoom that could be applied to the pages.|
 | **hide** |none|none|Hides the PdfViewer element.|
 | **hideToolBar** |none|none|Hides the element of the nested in the PdfViewer toolbar.|
 | **loadPage** |Number|none|Renders page canvas by number.|
 | **repaint** |Boolean|none|Repaints the control. The "force" argument determines whether the resizing routine should be executed even if the respective widget's outer dimensions have not changed.|
 | **set_activePage** |Number|none| Loads and scrolls to the page by number.|
+| **set_height** |Number|none| Specifies the height of the PDFViewer.|
 | **set_visible** |Boolean|none|Shows/Hides the PdfViewer element.|
+| **set_width** |Number|none| Specifies the width of the PDFViewer.|
+| **set_zoomMax** |Number|none| Specifies the maximum zoom that could be applied to the pages.|
+| **set_zoomMin** |Number|none| Specifies the minimum zoom that could be applied to the pages.|
 | **show** |none|none|Shows the PdfViewer element.|
 | **showToolBar** |none|none|Shows the element of the nested in the PdfViewer toolbar.|
 
