@@ -10,6 +10,12 @@ position: 4
 
 # Working With Templates
 
+Before beginning to work with templates, check out the following articles:
+
+* [RadGrid Batch Editing Templates and Specifics](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/radgrid-batch-editing-templates-and-specifics)
+* [Using Templates in RadGrid with Client-Side Binding](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/using-templates-in-radgrid-with-client-side-binding)
+
+>important `NestedViewTemplate` and `DetailItemTemplate` are server templates and are not supported with client-side binding.
 
 When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGrid** will try to automatically get/set the values in the editor control. For example if you have a single nested input element in a table as shown below, the internal logic will find the input element and get/set its value.
 
@@ -168,7 +174,6 @@ function SetEditorValue(sender, args)
 ````
 
 >tip You can find a more complex example in the following code library project: [Show one value but edit another](https://www.telerik.com/support/code-library/show-short-date-edit-full-date-with-batch-editing).
-
 
 
 ## See Also
