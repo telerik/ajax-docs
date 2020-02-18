@@ -3,7 +3,7 @@ title: How to Disable Particular Cell or Particular Row in RadGrid BatchEditing
 description: How to Disable a Specific Cell or Row in RadGrid BatchEditing
 type: how-to
 page_title: Disabling Specific Cell of Specific Row in RadGrid BatchEditing
-slug: grid-disable-particular-cells-or-rows-in-batch-editing
+slug: grid-disable-a-particular-cell-or-row-in-batch-editing
 position: 
 tags: 
 ticketid: 1453581
