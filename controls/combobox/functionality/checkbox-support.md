@@ -80,11 +80,14 @@ There are a few scenarios that are not supported when CheckBox support is enable
 
 *  The **MarkFirstMatch** and **Filter** features are not supported. The reason is that the CheckBox selection is different from the standard RadComboBox selection—there is no single selected item.
 
-*  **Load On Demand** is not supported. The reason is that RadComboBox items loaded on demand are not accessible on the server which is needed for the CheckBox feature. A possible approach to overcome this limitation is replacing the RadComboBox with a [Kendo UI MultiSelect](https://www.telerik.com/kendo-ui/multiselect) widget with enabled Virtualization as demonstrated in the [MultiSelect/Virtualization](https://demos.telerik.com/kendo-ui/multiselect/virtualization) online demo.
+*  **Load On Demand** is not supported. The reason is that RadComboBox items loaded on demand are not accessible on the server which is needed for the CheckBox feature. A possible approach to overcome this limitation is replacing the RadComboBox with a [RadMultiSelect](https://www.telerik.com/products/aspnet-ajax/multiselect.aspx) control with enabled Virtualization as demonstrated in the [MultiSelect/Virtualization](https://demos.telerik.com/aspnet-ajax/multiselect/virtualization/defaultcs.aspx) online demo.
 
 
 # See Also
 
- * [Checkboxes Demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/checkboxes/defaultcs.aspx)
+ * [Checkboxes Demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/checkboxes/defaultcs.aspx)
 
- * [Configurator Demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/configurator/defaultcs.aspx)
+ * [Configurator Demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/configurator/defaultcs.aspx)
+ 
+ * [RadMultiSelect Demo](https://demos.telerik.com/aspnet-ajax/multiselect/overview/defaultcs.aspx)
+ 
