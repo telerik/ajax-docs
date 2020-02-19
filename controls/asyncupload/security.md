@@ -98,7 +98,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 
 As of **R3 2019 SP1**, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
 
->important As of **R1 2020** this feature is enabled by default to improve the application security, and allows the built-in Telerik type only. In **R3 2019 SP1** the feature is opt-in. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw a `[The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)` error when uploading.
+>important As of **R1 2020** this feature is enabled by default to improve the application security, and allows the built-in Telerik type only. In **R3 2019 SP1** the feature is opt-in. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw a *[The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)* error when uploading.
 
 There are several situations when you may be using a custom metadata class, you can read more on the most common cases in the following resources. This can help you determine whether you have such code in your application for any purpose. If you do, read the information after this list to see how to apply whitelisting for them.
 
