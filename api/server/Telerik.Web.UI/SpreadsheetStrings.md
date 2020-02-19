@@ -201,6 +201,10 @@ Gets or sets the hyperlink title text.
 
 Gets or sets the hyperlink url label text.
 
+###  InsertComment `String`
+
+The comment of the cell - a tooltip that appears when the cell is hovered.
+
 ###  MessageDialogDuplicateSheetName `String`
 
 Gets or sets the text of the duplicate sheet name dialog.

@@ -22,7 +22,7 @@ Fired when the Kendo UI Drawer is about to be hidden. The event can be prevented
 
 ###  OnInitialize `String`
 
-Fired when the multicolumncombobox control is initialized.
+Fired when the control is initialized.
 
 ###  OnItemClick `String`
 
@@ -30,7 +30,7 @@ Fires when user clicks on item from the Kendo UI Drawer.
 
 ###  OnLoad `String`
 
-Fired when the multicolumncombobox control is loaded on the page.
+Fired when the control is loaded on the page.
 
 ###  OnShow `String`
 
