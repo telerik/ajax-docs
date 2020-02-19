@@ -1880,12 +1880,24 @@ intro_columns:
       "Form Decorator": "formdecorator/overview"
       "Skin Manager": "controls/radskinmanager"
       "StyleSheet Manager": "stylesheetmanager/overview"
+  -
+    title: "AJAX"
+    items:
+      "AjaxLoadingPanel": "ajaxloadingpanel/overview"
+      "AjaxManager": "ajaxmanager/overview"
+      "AjaxPanel": "ajaxpanel/overview"
+      "XmlHttpPanel": "xmlhttppanel/overview"
 -
   categories:
   -
     title: "Conversational UI"
     items:
       "Chat": "chat/overview"
+  -
+    title: "PDF"
+    items:
+      "Client Export Manager": "clientexportmanager/overview"
+      "PdfViewer": "pdfviewer/overview"
   -
     title: "Layout"
     items:
@@ -1916,13 +1928,6 @@ intro_columns:
       "NumericTextBox": "numerictextbox/overview"
       "Slider": "slider/overview"
       "TextBox": "radtextbox/overview"
-  -
-    title: "AJAX"
-    items:
-      "AjaxLoadingPanel": "ajaxloadingpanel/overview"
-      "AjaxManager": "ajaxmanager/overview"
-      "AjaxPanel": "ajaxpanel/overview"
-      "XmlHttpPanel": "xmlhttppanel/overview"
 -
   categories:
   -
@@ -1966,14 +1971,16 @@ intro_columns:
   categories:
   -
     title: "File Upload & Management"
-    items:
-      "Client Export Manager": "clientexportmanager/overview"
+    items:      
       "File Explorer": "fileexplorer/overview"
+      "Upload (Async)": "asyncupload/overview"
+      "Upload (Cloud)": "cloudupload/overview"
+  -
+    title: "Document Processing"
+    items:      
       "PdfProcessing": "radpdfprocessing-overview"
       "SpreadProcessing": "radspreadprocessing-overview"
       "SpreadStreamProcessing": "spreadstreamprocessing-overview"
-      "Upload (Async)": "asyncupload/overview"
-      "Upload (Cloud)": "cloudupload/overview"
       "WordsProcessing": "radwordsprocessing-overview"
       "Zip Library": "radziplibrary-overview"
   -
