@@ -72,3 +72,7 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 	Style="display: none;"></asp:RequiredFieldValidator>
 ````
 
+>caution The property **RequireCompleteText** is designed to change the validation state of the RadMaskedTextBox based on the value entered compared to the format defined in the **Mask**. With this property enabled, the RadMaskedTextBox will require the user to type the complete Text/Value as defined in the **Mask**, or otherwise, the control's state will change to *invalid* and a built-in warning Style will be applied.
+>
+>When this RadMaskedTextBox is placed inside the Template of another control, the **RequireCompleteText** property will not have influcence on the container Control's Validation functionality unless specifically implemented.
+
