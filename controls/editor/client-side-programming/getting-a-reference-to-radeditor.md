@@ -47,6 +47,8 @@ You can see that the client object representation of MS AJAX controls are create
 
 Using the client-side **RadEditor** object, you can access the exposed properties and methods.
 
+>note If the Enabled property is set to false, the editor is rendered as a standard DIV on the page and does not expose its client-side object and API.
+
 ## See Also
 
  * [Client-Side API](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ClientsideAPI/DefaultCS.aspx)
