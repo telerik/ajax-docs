@@ -165,6 +165,8 @@ Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Ski
 
 If you get this error after an upgrade to a newer version, the most likely reason for the problem is that there is an issue with the Visual Studio Project references. To fix it, perform a manual upgrade: [Manual Upgrade]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#manual-upgrade).
 
+>note If for some reason you cannot resolve the error or you'd like to resolve it right away, you can always set the Skins property to "Default". The default skin is located in the main Telerik.Web.UI.dll assembly and this will solve the problem.
+
 
 ## Different Render in Design Time and in Browser
 
