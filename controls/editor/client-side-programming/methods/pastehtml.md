@@ -30,4 +30,8 @@ The following example will show you how to paste content into the editor's conte
 </script>   
 ````
 
+You can find more details on how to get reference to RadEditor in the following article [Getting a Reference to RadEditor](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/client-side-programming/getting-a-reference-to-radeditor).
+
+
+
 
