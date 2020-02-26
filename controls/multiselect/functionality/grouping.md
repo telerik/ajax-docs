@@ -24,9 +24,10 @@ You can customize the headers through their [templates]({%slug multiselect/funct
 
 Grouping requires binding the control to a web service, and grouping is performed on the client over the returned flat data.
 
+Web service binding creates a [Kendo DataSource](https://docs.telerik.com/kendo-ui/framework/datasource/overview) and applies the grouping settings to it automatically. 
 
 
->caption Example 1: Grouping in RadMultiSelect
+>caption Example 1: Grouping in RadMultiSelect with WebService binding
 
 ````ASP.NET
         <telerik:RadMultiSelect runat="server" Width="300px" ID="RadMultiSelect1"
@@ -45,7 +46,73 @@ Grouping requires binding the control to a web service, and grouping is performe
         </telerik:RadMultiSelect>
 ````
 
-Web service binding creates a [Kendo DataSource](https://docs.telerik.com/kendo-ui/framework/datasource/overview) and applies the grouping settings to it automatically. 
+
+>caption Example 2: Grouping in RadMultiSelect with server-side binding
+
+````ASP.NET
+<telerik:RadMultiSelect ID="RadMultiSelect1" DataTextField="Name" DataValueField="ID" DataKeyNames="GroupName" runat="server">
+    <WebServiceClientDataSource>
+        <GroupExpressions>
+            <telerik:ClientDataSourceGroupExpression FieldName="GroupName"></telerik:ClientDataSourceGroupExpression>
+        </GroupExpressions>
+    </WebServiceClientDataSource>
+</telerik:RadMultiSelect>
+````
+
+````C#
+public class MyClass
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public string GroupName { get; set; }
+}
+protected void Page_Load(object sender, EventArgs e)
+{
+    var multiSelectDS = Enumerable.Range(1, 30).Select(x =>
+    new MyClass
+    {
+        ID = x,
+        Name = "Item #" + x,
+        GroupName = "Group" + x % 5
+    });
+
+    RadMultiSelect1.DataSource = multiSelectDS;
+    RadMultiSelect1.DataBind();
+}
+````
+
+>caption Example 1: Grouping in RadMultiSelect created programmatically
+
+````C#
+public class MyClass
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public string GroupName { get; set; }
+}
+protected void Page_Load(object sender, EventArgs e)
+{
+    var multiSelectDS = Enumerable.Range(1, 30).Select(x =>
+    new MyClass
+    {
+        ID = x,
+        Name = "Item #" + x,
+        GroupName = "Group" + x % 5
+    });
+
+    var RadMultiSelect2 = new RadMultiSelect();
+    RadMultiSelect2.ID = "RadMultiSelect2";
+
+    Form.Controls.Add(RadMultiSelect2);
+
+    // Programmatic creation and configuration of GroupExression and data fields
+    RadMultiSelect1.DataTextField = "Name";
+    RadMultiSelect1.DataValueField = "ID";
+    RadMultiSelect1.DataKeyNames = new string[] { "GroupName" };
+    RadMultiSelect1.WebServiceClientDataSource.GroupExpressions.Add(new ClientDataSourceGroupExpression() { FieldName = "GroupName" });
+}
+````
+
 
 
 ## See Also
