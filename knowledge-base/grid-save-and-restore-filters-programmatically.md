@@ -167,15 +167,12 @@ private void SaveFilters(RadGrid grid)
     {
         ColumnFilter columnFilter = new ColumnFilter();
 
-        foreach (GridColumn col in grid.MasterTableView.RenderColumns.Where(x => x.SupportsFiltering()))
-        {
-            columnFilter.ColumnName = col.UniqueName;
-            columnFilter.CurrentFilterValue = col.CurrentFilterValue;
-            columnFilter.CurrentFilterFunction = col.CurrentFilterFunction;
-            columnFilter.AndCurrentFilterValue = col.AndCurrentFilterValue;
-            columnFilter.AndCurrentFilterFunction = col.AndCurrentFilterFunction;
-            columnFilter.ListOfFilterValues = col.ListOfFilterValues;
-        }
+        columnFilter.ColumnName = column.UniqueName;
+        columnFilter.CurrentFilterValue = column.CurrentFilterValue;
+        columnFilter.CurrentFilterFunction = column.CurrentFilterFunction;
+        columnFilter.AndCurrentFilterValue = column.AndCurrentFilterValue;
+        columnFilter.AndCurrentFilterFunction = column.AndCurrentFilterFunction;
+        columnFilter.ListOfFilterValues = column.ListOfFilterValues;
 
         storedFilters.ListOfColumnFilter.Add(columnFilter);
     }
@@ -285,14 +282,12 @@ Private Sub SaveFilters(ByVal grid As RadGrid)
 	For Each column As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
 		Dim columnFilter As ColumnFilter = New ColumnFilter()
 
-		For Each col As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
-			columnFilter.ColumnName = col.UniqueName
-			columnFilter.CurrentFilterValue = col.CurrentFilterValue
-			columnFilter.CurrentFilterFunction = col.CurrentFilterFunction
-			columnFilter.AndCurrentFilterValue = col.AndCurrentFilterValue
-			columnFilter.AndCurrentFilterFunction = col.AndCurrentFilterFunction
-			columnFilter.ListOfFilterValues = col.ListOfFilterValues
-		Next
+        columnFilter.ColumnName = column.UniqueName
+        columnFilter.CurrentFilterValue = column.CurrentFilterValue
+        columnFilter.CurrentFilterFunction = column.CurrentFilterFunction
+        columnFilter.AndCurrentFilterValue = column.AndCurrentFilterValue
+        columnFilter.AndCurrentFilterFunction = column.AndCurrentFilterFunction
+        columnFilter.ListOfFilterValues = column.ListOfFilterValues
 
 		storedFilters.ListOfColumnFilter.Add(columnFilter)
 	Next
