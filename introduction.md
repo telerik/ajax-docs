@@ -29,7 +29,7 @@ You can also get quickly onboarded and successful with your Telerik UI for ASP.N
 Your constructive feedback is important and it helps us improve our resources and services. Here are the ways to submit your feedback or ask your question:
 
 1. *[Online Ticketing System](https://www.telerik.com/account/support-tickets)* - Questions or feedback about our controls, resources or services.
-2. *[UI for ASP.NET AJAX forums](https://www.telerik.com/community/forums/aspnet-ajax.aspx)* - Get the community's support or share information with it.
+2. *[UI for ASP.NET AJAX forums](https://www.telerik.com/forums/aspnet-ajax)* - Get the community's support or share information with it.
 3. *[Feedback Portal](https://feedback.telerik.com/aspnet-ajax)* - Bug reports or feature requests.
 4. *"Was this article helpful? (Yes/No)" section at the end of each article* - Documentation recommendations or problems in the given article.
 5. *Pull request in our [GitHub repository](https://github.com/telerik/ajax-docs)* - Suggest an improvement to an article directly. For an easier access to the GitHub page for the article, click the *Improve this article* button on the right-side navigation.
