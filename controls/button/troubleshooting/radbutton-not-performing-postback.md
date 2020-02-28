@@ -24,7 +24,7 @@ For example you can take the following situation – a page with ASP TextBox and
 
 In some cases the validation requirements are not met and the **RadButton** doesn’t initiate postback, which may cause confusion if the validation is not easy to spot and the button is not supposed to be part of it.
 
-If you want to exclude the **RadButton** from the validation mechanism of the page, you can set its	[CausesValidation](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.button.causesvalidation.aspx) property to **false** (this is also valid for a regular Button control).
+If you want to exclude the **RadButton** from the validation mechanism of the page, you can set its	[CausesValidation](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.button.causesvalidation.aspx) property to **false** (this is also valid for a regular Button control).
 
 ## See Also
 
@@ -34,4 +34,4 @@ If you want to exclude the **RadButton** from the validation mechanism of the pa
 
  * [Client-side Click Event Handler Is Not Executed]({%slug button/troubleshooting/client-side-click-event-handler-is-not-executed%})
 
- * [Button.CausesValidation Property](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.button.causesvalidation.aspx)
+ * [Button.CausesValidation Property](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.button.causesvalidation.aspx)

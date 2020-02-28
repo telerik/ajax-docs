@@ -40,7 +40,7 @@ RadTreeView1.Nodes.Add(root1)
 
 * [Attributes can be accessed in server-side code]({%slug treeview/custom-attributes/using-custom-attributes-at-the-server%}) by addressing the **RadTreeNode** **Attributes** collection.
 
-* [Attributes can be accessed in client-side code]({%slug treeview/custom-attributes/using-custom-attributes-at-the-client%}) using the **getAttributes()** function. See also the [Custom Attributes online demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/ApplicationScenarios/CustomAttributes/DefaultCS.aspx) for another example.
+* [Attributes can be accessed in client-side code]({%slug treeview/custom-attributes/using-custom-attributes-at-the-client%}) using the **getAttributes()** function. See also the [Custom Attributes online demo](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/ApplicationScenarios/CustomAttributes/DefaultCS.aspx) for another example.
 
 * [Attributes can be used to locate nodes]({%slug treeview/server-side-programming/finding-nodes-at-runtime%}) using the RadTreeView's or RadTreeView.Nodes's **FindNodeByAttribute()** method. Also see the [Tutorial: Finding Nodes]({%slug treeview/server-side-programming/tutorial-on-finding-nodes%}) topic.
 

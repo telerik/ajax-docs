@@ -83,7 +83,7 @@ Page.Header.Controls.Add(link)
 
 ## Skin registration with RadStyleSheetManager
 
-The [RadStyleSheetManager](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html) control is able to register CSS files, which are embedded in an assembly. This can be beneficial in several ways, or in some cases may be even required:
+The [RadStyleSheetManager](https://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html) control is able to register CSS files, which are embedded in an assembly. This can be beneficial in several ways, or in some cases may be even required:
 
 * RadStyleSheetManager can improve the page performance by combining the CSS files into one on the fly and thus, reducing the number of HTTP requests;
 
@@ -106,7 +106,7 @@ Here is how to register a Telerik control's built-in skin:
 
 The general pattern for the Telerik controls built-in stylesheets' names is: **Telerik.Web.UI.Skins._SkinName_._ControlName_._SkinName_.css**.
 
-For more information about registering custom embedded skins, please refer to the following forum thread: [Tool for Embedding Custom Skins into an Assembly](http://www.telerik.com/community/forums/aspnet-ajax/style-builder/tool-for-embedding-custom-skins-into-an-assembly.aspx)
+For more information about registering custom embedded skins, please refer to the following forum thread: [Tool for Embedding Custom Skins into an Assembly](https://www.telerik.com/community/forums/aspnet-ajax/style-builder/tool-for-embedding-custom-skins-into-an-assembly.aspx)
 
 
 

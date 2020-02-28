@@ -141,4 +141,4 @@ In order to define how the data will look, you need to configure the templates o
 
  * [Advanced via NeedDataSource]({%slug dataform/data-binding/advanced-via-needdatasource%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/dataform/overview/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/dataform/overview/defaultcs.aspx)

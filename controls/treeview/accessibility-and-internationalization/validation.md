@@ -81,12 +81,12 @@ The TreeView can trigger validation of other controls on the form when it perfor
 
 By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the TreeView performs a post-back, while still allowing other controls on the Web page to be validated, by using validation groups. The validator controls have **ValidationGroup** property as does **RadTreeView**. Validation will be triggered only for the Validator controls where the **ValidationGroup** property matches the **RadTreeView** **ValidationGroup**. (If no **ValidationGroup** is set for the controls all Validators will be triggered.)
 
-For a live example, see [Validation Groups](http://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/validating/defaultcs.aspx)
+For a live example, see [Validation Groups](https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/validating/defaultcs.aspx)
 
 
 
 # See Also
 
- * [Validating RadTreeView Online Example](http://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/validating/defaultcs.aspx)
+ * [Validating RadTreeView Online Example](https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/validating/defaultcs.aspx)
 
  * [Validate Treeview by Checked Nodes]({%slug treeview/application-scenarios/checkboxes/validate-treeview-by-checked-nodes%})

@@ -19,18 +19,18 @@ Following is a table of the most important properties you should be aware of whe
 
 | Property | Description |
 | ------ | ------ |
-| **AllowBatchOperations** |Gets or sets a value indicating whether batch operations in the **RadClientDataSource** are enabled. Default is **false** . Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-batch) kendo setting.|
+| **AllowBatchOperations** |Gets or sets a value indicating whether batch operations in the **RadClientDataSource** are enabled. Default is **false** . Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-batch) kendo setting.|
 | **AllowPaging** |Gets or sets value indicating whether paging is enabled or not. This is unique to the **RadClientDataSource** so it has not kendo counterpart!|
-| **EnableServerAggregates** |Gets or sets value indicating whether server-side aggregates are enabled. Default is **false** .Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverAggregates) kendo setting.|
-| **EnableServerFiltering** |Gets or sets value indicating whether server-side filtering is enabled. Default is **false** .Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverAggregates) kendo setting.|
-| **EnableServerSorting** |Gets or sets value indicating whether server-side sorting is enabled. Default is **false** .Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverSorting) kendo setting.|
-| **EnableServerGrouping** |Gets or sets value indicating whether server-side grouping is enabled. Default is **false** .Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverGrouping) kendo setting.|
-| **EnableServerPaging** |Gets or sets value indicating whether server-side paging is enabled. Default is **false** .Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverPaging) kendo setting.|
-| **PageSize** |Gets or sets the maximum number of items that would appear on a page. Default is 10.Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-pageSize) kendo setting.|
+| **EnableServerAggregates** |Gets or sets value indicating whether server-side aggregates are enabled. Default is **false** .Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverAggregates) kendo setting.|
+| **EnableServerFiltering** |Gets or sets value indicating whether server-side filtering is enabled. Default is **false** .Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverAggregates) kendo setting.|
+| **EnableServerSorting** |Gets or sets value indicating whether server-side sorting is enabled. Default is **false** .Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverSorting) kendo setting.|
+| **EnableServerGrouping** |Gets or sets value indicating whether server-side grouping is enabled. Default is **false** .Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverGrouping) kendo setting.|
+| **EnableServerPaging** |Gets or sets value indicating whether server-side paging is enabled. Default is **false** .Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-serverPaging) kendo setting.|
+| **PageSize** |Gets or sets the maximum number of items that would appear on a page. Default is 10.Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-pageSize) kendo setting.|
 
 ## DataSource settings
 
-This represents the client-side "[transport](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport)" setting of the **kendoDataSource** and should allow the same type of server configuration to be serialized on theclient in the form of transport settings for the **kendoDataSource**.
+This represents the client-side "[transport](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport)" setting of the **kendoDataSource** and should allow the same type of server configuration to be serialized on theclient in the form of transport settings for the **kendoDataSource**.
 
 **WebServiceDataSourceSettings** – holds all the transport settings for update/delete/insert operations. The following table represents	the properties that **WebServiceDataSourceSettings** exposes.
 
@@ -39,18 +39,18 @@ This represents the client-side "[transport](http://docs.telerik.com/kendo-ui/ap
 | ------ | ------ |
 | **BaseUrl** |Serves to hold the common, repeating part of the Url of the CRUD operations which is then combined with their separate Url property.|
 | **BaseUrl** |Serves to hold the common, repeating part of the Url of the CRUD operations which is then combined with their separate Url property.|
-| **ServiceType** |Gets or sets a value indicating the type of service the **DataSource** is binding to. Enumeration with four values: **Default** , **GeoJSON** , **OData** and **XML** . Serialized on theclient-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-type) kendo setting. Currently only OData v.2 is supported!|
-| **Select** |Corresponds to the [read](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.read) setting in the **kendoDataSource** |
-| **Delete** |Corresponds to the [destroy](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.destroy) setting in the **kendoDataSource** |
-| **Update** |Corresponds to the [update](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.update) setting in the **kendoDataSource** |
-| **Insert** |Corresponds to the [create](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create) setting in the **kendoDataSource** |
+| **ServiceType** |Gets or sets a value indicating the type of service the **DataSource** is binding to. Enumeration with four values: **Default** , **GeoJSON** , **OData** and **XML** . Serialized on theclient-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-type) kendo setting. Currently only OData v.2 is supported!|
+| **Select** |Corresponds to the [read](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.read) setting in the **kendoDataSource** |
+| **Delete** |Corresponds to the [destroy](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.destroy) setting in the **kendoDataSource** |
+| **Update** |Corresponds to the [update](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.update) setting in the **kendoDataSource** |
+| **Insert** |Corresponds to the [create](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create) setting in the **kendoDataSource** |
 
 All of the above CRUD operations share the following common settings
 
 
 | Property | Description |
 | ------ | ------ |
-| **Url** |Holds the **URL** at which the request for the operation will be sent. If the **BaseUrl** propertyis specified – **Url** will hold only the distinct part specific to the operation. Corresponds to kendo [url](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.url) setting in the **kendoDataSource.** 
+| **Url** |Holds the **URL** at which the request for the operation will be sent. If the **BaseUrl** propertyis specified – **Url** will hold only the distinct part specific to the operation. Corresponds to kendo [url](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.url) setting in the **kendoDataSource.** 
 
 ````ASPNET
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
@@ -63,27 +63,27 @@ All of the above CRUD operations share the following common settings
 ````
 
 |
-| **DataType** |Gets or sets the data type that is expected from the data service. Currently enumeration of three options: **XML** , **JSON(default)** , **JSONP** . Corresponds to kendo [dataType](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.dataType) setting in the **kendoDataSource.** |
-| **EnableCaching** |Enables or disables client-side data caching in **RadClientDataSource** . Caching is disabled by default.Corresponds to kendo [cache](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.cache) setting in the **kendoDataSource.** |
-| **ContentType** |Gets or sets the content type that is expected from the data service. String value such as *application/json* .Corresponds to kendo [contentType](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.contentType) setting in the **kendoDataSource.** |
-| **RequestType** |Gets or sets the HTTP method that will be used to send the data to the service. The default is **GET** . Other possibleverbs are **POST** , **PUT** , **DELETE** . Corresponds to kendo [type](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.type) setting in the **kendoDataSource.** |
+| **DataType** |Gets or sets the data type that is expected from the data service. Currently enumeration of three options: **XML** , **JSON(default)** , **JSONP** . Corresponds to kendo [dataType](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.dataType) setting in the **kendoDataSource.** |
+| **EnableCaching** |Enables or disables client-side data caching in **RadClientDataSource** . Caching is disabled by default.Corresponds to kendo [cache](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.cache) setting in the **kendoDataSource.** |
+| **ContentType** |Gets or sets the content type that is expected from the data service. String value such as *application/json* .Corresponds to kendo [contentType](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.contentType) setting in the **kendoDataSource.** |
+| **RequestType** |Gets or sets the HTTP method that will be used to send the data to the service. The default is **GET** . Other possibleverbs are **POST** , **PUT** , **DELETE** . Corresponds to kendo [type](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-transport.create.type) setting in the **kendoDataSource.** |
 
 ## Schema
 
-This represents the client-side "[schema](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema)" setting of the **kendoDataSource**. It serves to provide metadata for the underlying types of objects returned from theservice. User can specify property names, their types and other configuration. The following table represents the properties that exposes.
+This represents the client-side "[schema](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema)" setting of the **kendoDataSource**. It serves to provide metadata for the underlying types of objects returned from theservice. User can specify property names, their types and other configuration. The following table represents the properties that exposes.
 
 
 | Property | Description |
 | ------ | ------ |
-| **ResponseType** |Gets or sets the data type of the server response. Only **XML** and **JSON** (default) are supported.Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.type) kendo setting.|
-| **DataName** |Gets or sets the name of the collection that holds the data items. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.data) kendo setting.|
-| **AggregateResultsName** |Gets or sets the name of the field from the response which contains the aggregate results. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.aggregates) kendo setting.|
-| **GroupsName** |Gets or sets the name of the field from the server response which contains the groups. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.groups) kendo setting.|
-| **ErrorsName** |Gets or sets the name of the field from the server response which contains server-side errors. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.errors) kendo setting.|
-| **TotalName** |Gets or sets the name of the field from the server response which contains the total number of data items. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.total) kendo setting.|
+| **ResponseType** |Gets or sets the data type of the server response. Only **XML** and **JSON** (default) are supported.Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.type) kendo setting.|
+| **DataName** |Gets or sets the name of the collection that holds the data items. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.data) kendo setting.|
+| **AggregateResultsName** |Gets or sets the name of the field from the response which contains the aggregate results. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.aggregates) kendo setting.|
+| **GroupsName** |Gets or sets the name of the field from the server response which contains the groups. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.groups) kendo setting.|
+| **ErrorsName** |Gets or sets the name of the field from the server response which contains server-side errors. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.errors) kendo setting.|
+| **TotalName** |Gets or sets the name of the field from the server response which contains the total number of data items. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.total) kendo setting.|
 | **Model** |Gets or sets the model of the schema which holds the structure of the entity and various other settings.|
 | **Model-ID** |Gets or sets the field serving as ID of the model. Necessary for CRUD operations.|
-| **Model-Fields** |A collection of **ClientDataSourceModelFields** representing the settings for each field.Kendo equivalent [here](http://docs.telerik.com/kendo-ui/api/framework/model) .Each **ClientDataSourceModelField** exposes the following properties.
+| **Model-Fields** |A collection of **ClientDataSourceModelFields** representing the settings for each field.Kendo equivalent [here](https://docs.telerik.com/kendo-ui/api/framework/model) .Each **ClientDataSourceModelField** exposes the following properties.
 
 *  **FieldName** - Gets or sets the name of the field from the model.
 
@@ -112,16 +112,16 @@ FilterExpression - Hierarchical recursive structure that allows defining of nest
 | ------ | ------ |
 | **ClientDataSourceFilterEntry** |The main class that defines one filter entry with the following properties: **ClientDataSourceFilterEntry** and **ClientDataSourceFilterExpression** . The table below describes their properties.
 
-*  **FieldName** - Gets or sets the field name for the operation. Kendo counterpart [here](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.field).
+*  **FieldName** - Gets or sets the field name for the operation. Kendo counterpart [here](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.field).
 
-*  **Operator** - Gets or sets the filtering operator. Lengthy enumeration containing the following values: **EqualTo** , **NotEqualTo** , **GreaterThan** , **GreaterThanOrEqualTo** , **LessThan** , **LessThenOrEqualTo** , **Contains** , **EndsWith** , **StartsWith** . Kendo counterpart [here](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.operator).
+*  **Operator** - Gets or sets the filtering operator. Lengthy enumeration containing the following values: **EqualTo** , **NotEqualTo** , **GreaterThan** , **GreaterThanOrEqualTo** , **LessThan** , **LessThenOrEqualTo** , **Contains** , **EndsWith** , **StartsWith** . Kendo counterpart [here](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.operator).
 
 *  **Value** - Property containing the value on which to filter the data. The value is of type **string** .|
 | **ClientDataSourceFilterExpression** |Special type of object that allows recursive nesting of the filter expressions. Has the following properties:
 
-*  **LogicOperator** - Gets or sets the filter logic, **AND** or **OR** . Default is **AND** . Kendo counterpart [here](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.logic)
+*  **LogicOperator** - Gets or sets the filter logic, **AND** or **OR** . Default is **AND** . Kendo counterpart [here](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.logic)
 
-*  **Filters** - A collection that can hold both **ClientDataSourceFilterEntry** and **ClientDataSourceFilterExpression** types. Allows unlimited nesting of filters. And the kendo counterpart [here](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.filters)|
+*  **Filters** - A collection that can hold both **ClientDataSourceFilterEntry** and **ClientDataSourceFilterExpression** types. Allows unlimited nesting of filters. And the kendo counterpart [here](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-filter.filters)|
 
 ````ASPNET
 <telerik:RadClientDataSource ID="RadClientDataSource2" runat="server">

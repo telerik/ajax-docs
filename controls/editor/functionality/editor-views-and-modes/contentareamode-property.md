@@ -18,7 +18,7 @@ These are the main differences between Div and Iframe content area modes:
  
 * When "Div" mode is used, RadEditor will not automatically register stylesheets (e.g., `TableLayoutCssFile`) because they can break the page. If you want to use them, you should add `<link>` elements to the `<head>` of your page manually. When "Iframe" is used, RadEditor adds such stylesheets to the document of the `<iframe>`.
 
-* You cannot edit a [full HTML page](http://demos.telerik.com/aspnet-ajax/editor/examples/completehtmlsupport/defaultcs.aspx)in "Div" mode because the `<html>` element cannot be nested inside a `<div>` element.
+* You cannot edit a [full HTML page](https://demos.telerik.com/aspnet-ajax/editor/examples/completehtmlsupport/defaultcs.aspx)in "Div" mode because the `<html>` element cannot be nested inside a `<div>` element.
 
 * In "Div" mode the content area is part of the current page, which provides better support for https and document.domain cross server scripting.
 
@@ -34,4 +34,4 @@ Div mode should be used by experienced users only who know and understand the be
 
 ## See Also
 
- * [ContentAreaMode='DIV' Property Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx)
+ * [ContentAreaMode='DIV' Property Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx)

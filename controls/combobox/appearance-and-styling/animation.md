@@ -86,4 +86,4 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadComboBox** are us
 
 
 
-You can see a live example here: [Animation](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/expandanimation/defaultcs.aspx).
+You can see a live example here: [Animation](https://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/expandanimation/defaultcs.aspx).

@@ -67,7 +67,7 @@ Use server-side code block in your javascript function to call the master manage
 
 As to the AJAX settings, they still can be added programmatically - RadAjax controls can be accessed at ContentPage's code-behind using **FindControl** method of **MasterPage** object. However, in case you use a lot of **ContentPages**, you should write the same "finding" code in all the places. A better approach is to set the **Manager** (and the **Loading Panel** if used) as a property and access it directly.
 
-A live example with **RadAjax** and **MasterPage** can be found [here](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/usercontrol/defaultcs.aspx).
+A live example with **RadAjax** and **MasterPage** can be found [here](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/usercontrol/defaultcs.aspx).
 
 ## See Also
 

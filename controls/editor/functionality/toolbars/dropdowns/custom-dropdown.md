@@ -132,4 +132,4 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 
 ## See Also
 
- * [Adding Custom Tools](http://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)
+ * [Adding Custom Tools](https://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)

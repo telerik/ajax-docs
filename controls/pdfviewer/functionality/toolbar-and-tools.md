@@ -123,6 +123,6 @@ You can add custom tools to the item collections of the toolbar.
 
 ## See Also
 
-* [Live Demo - Toolbar Templates](http://demos.telerik.com/aspnet-ajax/pdfviewer/toolbartemplates/defaultcs.aspx)
+* [Live Demo - Toolbar Templates](https://demos.telerik.com/aspnet-ajax/pdfviewer/toolbartemplates/defaultcs.aspx)
 
 

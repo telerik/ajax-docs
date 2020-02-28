@@ -38,4 +38,4 @@ When you enable custom paging, **RadGrid** maintains the pager buttons, updating
 >
 
 
-For a live example that demonstrates custom paging, see  [Custom Paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx).
+For a live example that demonstrates custom paging, see  [Custom Paging](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx).

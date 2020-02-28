@@ -54,8 +54,8 @@ You need to create the resource (.resx) files in the **App_GlobalResources** fol
 
 ## Setting values through JavaScript
 
-You can also set the localization strings through JavaScript as shown in [this KB article](http://www.telerik.com/support/kb/aspnet-ajax/window/radwindow-for-asp-net-ajax-localization.aspx).
+You can also set the localization strings through JavaScript as shown in [this KB article](https://www.telerik.com/support/kb/aspnet-ajax/window/radwindow-for-asp-net-ajax-localization.aspx).
 
 ## See Also
 
- * [RadWindow Localization Demo](http://demos.telerik.com/aspnet-ajax/window/examples/localization/defaultcs.aspx)
+ * [RadWindow Localization Demo](https://demos.telerik.com/aspnet-ajax/window/examples/localization/defaultcs.aspx)

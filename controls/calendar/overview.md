@@ -37,7 +37,7 @@ The Telerik **RadCalendar** is highly configurable control for displaying and se
 
 * Ability to customize the look-and-feel either by using [skins]({%slug calendar/appearance-and-styling/skins%}), or by setting [styles]({%slug calendar/appearance-and-styling/styles%}) to affect various parts of the calendar.
 
-* Support for all major desktop and mobile browsers. Complete information on the supported browsers you can find on the [Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page.
+* Support for all major desktop and mobile browsers. Complete information on the supported browsers you can find on the [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page.
 
 * WAI-ARIA Support.
 

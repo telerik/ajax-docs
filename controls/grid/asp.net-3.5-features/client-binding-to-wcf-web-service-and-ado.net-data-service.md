@@ -14,11 +14,11 @@ position: 0
 
 The ASP.NET 3.5 framework introduces two new ways to supply data to your ASP.NET server controls - binding to Windows Communication Foundation (WCF) Web Service and binding to ADO.NET Data Services. They allow the developer to use asynchronous calls using these types of services in order to retrieve data, return it back to the client and update the state of controls based on the result which is send back from the service. Below are a couple of tutorials which include step by step directions how to configure WCF service and ADO.NET Data Services with VS 2008:
 
-[WCF services getting started tutorial](http://msdn.microsoft.com/en-us/library/ms734712.aspx)
+[WCF services getting started tutorial](https://msdn.microsoft.com/en-us/library/ms734712.aspx)
 
-[Using Microsoft ADO.NET Data Services](http://msdn.microsoft.com/en-us/library/cc907912.aspx)
+[Using Microsoft ADO.NET Data Services](https://msdn.microsoft.com/en-us/library/cc907912.aspx)
 
-RadGrid for ASP.NET AJAX exposes declarative way to binding itself to data returned from WCF web service or ADO.NET Data Service which is presented in the [following online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/clientbinding/defaultcs.aspx) of the product. Additionally, both grids from the example support paging/sorting/filtering without any extra coding.
+RadGrid for ASP.NET AJAX exposes declarative way to binding itself to data returned from WCF web service or ADO.NET Data Service which is presented in the [following online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/clientbinding/defaultcs.aspx) of the product. Additionally, both grids from the example support paging/sorting/filtering without any extra coding.
 
 ## Binding RadGrid for ASP.NET AJAX to WCF Web Service
 

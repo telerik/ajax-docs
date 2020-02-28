@@ -13,7 +13,7 @@ position: 4
 
 
 
-The **RadSocialShare** offers several ways to change the default icons that the [Styled Buttons]({%slug socialshare/configuring-buttons/styled%}) have. You can see it live in [this online demo](http://www.telerik.com/help/aspnet-ajax/socialshare-appearance-custom-icons.html) and here follows a short explanation with some simpler examples:
+The **RadSocialShare** offers several ways to change the default icons that the [Styled Buttons]({%slug socialshare/configuring-buttons/styled%}) have. You can see it live in [this online demo](https://www.telerik.com/help/aspnet-ajax/socialshare-appearance-custom-icons.html) and here follows a short explanation with some simpler examples:
 
 * Via the **CustomIconUrl** property for each button. Note that it requires a 16 x 16px icon by default. You can change these dimensions by using the **CustomIconWidth** and **CustomIconHeight** properties of the button and thus each button may have different size, for example:
 
@@ -91,4 +91,4 @@ The **RadSocialShare** offers several ways to change the default icons that the 
 
  * [Custom icons online demo]()
 
- * [CSS Image Sprites](http://www.w3schools.com/css/css_image_sprites.asp)
+ * [CSS Image Sprites](https://www.w3schools.com/css/css_image_sprites.asp)

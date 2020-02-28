@@ -72,7 +72,7 @@ Simple data binding is used when the desired data source is already retrieved fr
 </style>
 ````
 
->note Data binding the rotator for the second time to a new data source is **not** possible with the **Carousel** and **Coverflow** modes. These 4 modes do not provide [client-side items management](http://demos.telerik.com/aspnet-ajax/rotator/examples/clientapiitemsmanagement/defaultcs.aspx) and the new items cannot be cleared and re-created correctly. You can either use a different `RotatorType`, or bind the rotator on the server during an AJAX request. 
+>note Data binding the rotator for the second time to a new data source is **not** possible with the **Carousel** and **Coverflow** modes. These 4 modes do not provide [client-side items management](https://demos.telerik.com/aspnet-ajax/rotator/examples/clientapiitemsmanagement/defaultcs.aspx) and the new items cannot be cleared and re-created correctly. You can either use a different `RotatorType`, or bind the rotator on the server during an AJAX request. 
 
 ## Using RadClientDataSource for Data Binding
 

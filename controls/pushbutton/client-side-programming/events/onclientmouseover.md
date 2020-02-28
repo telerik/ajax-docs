@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadPushButton control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**RadButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**RadButtonEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadPushButton's **CommandName** property
 
@@ -25,7 +25,7 @@ The event handler receives two parameters:
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
  
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
  
@@ -37,4 +37,4 @@ The event handler receives two parameters:
  
  * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.RadButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.RadButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

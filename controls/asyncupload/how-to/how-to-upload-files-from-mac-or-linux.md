@@ -10,7 +10,7 @@ position: 6
 
 # How to upload files from MAC or Linux
 
-On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System, may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of **AsyncUpload** and due to security restrictions such renaming will require a special way of implementation.
+On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System, may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of **AsyncUpload** and due to security restrictions such renaming will require a special way of implementation.
 
 ## Uploading files from MAC OS or Linux
 
@@ -117,5 +117,5 @@ You can find more information at [Custom File Name Validation](https://docs.tele
 
 # See Also
 
- * [Custom Handler demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
+ * [Custom Handler demo](https://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
  * [How to Create a Custom Handler for RadAsyncUpload](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler)

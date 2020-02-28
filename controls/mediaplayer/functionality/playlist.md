@@ -98,6 +98,6 @@ Expand the **APIs & auth** option in the application tree - there you can enable
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

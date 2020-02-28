@@ -62,4 +62,4 @@ The submitted text is processed on the server-side. Note that the method **Syste
 
 ## See Also
 
- * [Single Click Button Demo](http://demos.telerik.com/aspnet-ajax/button/examples/singleclick/defaultcs.aspx)
+ * [Single Click Button Demo](https://demos.telerik.com/aspnet-ajax/button/examples/singleclick/defaultcs.aspx)

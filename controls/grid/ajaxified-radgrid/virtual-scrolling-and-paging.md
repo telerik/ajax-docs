@@ -169,4 +169,4 @@ The following steps describe how to achieve this effect:
 ````
 
 
-For a live example demonstrating the techniques described above, see [Virtual scrolling and paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/VirtualScrollPaging/DefaultCS.aspx).
+For a live example demonstrating the techniques described above, see [Virtual scrolling and paging](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/VirtualScrollPaging/DefaultCS.aspx).

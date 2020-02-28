@@ -49,4 +49,4 @@ When the image stretches because of `DotSize="0"`, it may get blurry. To always 
 
 # See Also
 
- * [Barcode QRCode online example](http://demos.telerik.com/aspnet-ajax/barcode/examples/qrcode/defaultcs.aspx)
+ * [Barcode QRCode online example](https://demos.telerik.com/aspnet-ajax/barcode/examples/qrcode/defaultcs.aspx)

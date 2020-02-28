@@ -413,6 +413,6 @@ Below you can see the order of calling the various methods of FileBrowserContent
  
  * [RadEditor's Custom FileBrowserContent Provider]({%slug editor/functionality/dialogs/examples/custom-filebrowsercontentprovider%})
 
- * [Use RadFileExplorer with physical paths and different content types (KB article)](http://www.telerik.com/support/kb/aspnet-ajax/fileexplorer/physical-paths-and-different-content-types.aspx)
+ * [Use RadFileExplorer with physical paths and different content types (KB article)](https://www.telerik.com/support/kb/aspnet-ajax/fileexplorer/physical-paths-and-different-content-types.aspx)
 
- * [Amazon S3 FileBrowserContentProvider](http://www.telerik.com/community/code-library/aspnet-ajax/file-explorer/amazon-s3-filebrowsercontentprovider.aspx)
+ * [Amazon S3 FileBrowserContentProvider](https://www.telerik.com/community/code-library/aspnet-ajax/file-explorer/amazon-s3-filebrowsercontentprovider.aspx)

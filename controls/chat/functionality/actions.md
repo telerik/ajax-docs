@@ -68,6 +68,6 @@ function OnActionClick(sender, args) {
 
  * [RadChat Server-Side Programming]({%slug chat/server-side-programming/overview%})
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  

@@ -14,11 +14,11 @@ position: 6
 
 To migrate a Web application from **RadToolBar** "Classic" to **RadToolBar** for ASP.NET AJAX you need to follow these steps:
 
-1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx)
+1. Make sure you have installed ASP.NET AJAX. Info can be found at [https://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx)
 
-1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (Look for the topic called "Adding ASP.NET AJAX Configuration Elements to an Existing Web Site".)
+1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (Look for the topic called "Adding ASP.NET AJAX Configuration Elements to an Existing Web Site".)
 
-1. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls for ASP.NET AJAX. <asp:ScriptManager ID="ScriptManager1" runat="server" /> If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [http://www.asp.net/ajax/documentation/live/overview/ScriptManagerOverview.aspx](http://www.asp.net/ajax/documentation/live/overview/ScriptManagerOverview.aspx)
+1. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls for ASP.NET AJAX. <asp:ScriptManager ID="ScriptManager1" runat="server" /> If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [https://www.asp.net/ajax/documentation/live/overview/ScriptManagerOverview.aspx](https://www.asp.net/ajax/documentation/live/overview/ScriptManagerOverview.aspx)
 
 1. Drag and drop a control from the RadControls for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 

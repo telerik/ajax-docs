@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadCheckBox control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs), containing the following properties and methods:
 
 	* get_checked() - returns the checked state of the control.
 
@@ -44,7 +44,7 @@ This event is useful when the user wants to execute custom client code when the 
 
 ## See Also
 
- * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
  * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
@@ -60,4 +60,4 @@ This event is useful when the user wants to execute custom client code when the 
  
  * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.**ButtonCheckedEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs)
+ * [Telerik.Web.UI.**ButtonCheckedEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs)

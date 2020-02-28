@@ -111,12 +111,12 @@ If the algorithm decides to move a node to the next page, all the DOM nodes foll
 It can happen that this element ends up in a position where all the text fits on current page, but the image is higher and would fall on the boundary. In this case, the image and "some text after" will move to the next page.
 
 
-You can find a live example of the **RadClientExportManager's** multi-page PDF export capabilities in the [PDF Multi Page Export](http://demos.telerik.com/aspnet-ajax/client-export-manager/functionality/pdf-multi-page-export/defaultcs.aspx) live demo. The demo also makes use of the **k-pdf-export** CssClass, which allows content that is not visible on the page to be exported by displaying it the exporting process.
+You can find a live example of the **RadClientExportManager's** multi-page PDF export capabilities in the [PDF Multi Page Export](https://demos.telerik.com/aspnet-ajax/client-export-manager/functionality/pdf-multi-page-export/defaultcs.aspx) live demo. The demo also makes use of the **k-pdf-export** CssClass, which allows content that is not visible on the page to be exported by displaying it the exporting process.
 
 
 # See Also
 
-* [PDF Multi Page Export](http://demos.telerik.com/aspnet-ajax/client-export-manager/functionality/pdf-multi-page-export/defaultcs.aspx)
+* [PDF Multi Page Export](https://demos.telerik.com/aspnet-ajax/client-export-manager/functionality/pdf-multi-page-export/defaultcs.aspx)
 
 * [Change the Exported Content before Export]({%slug clientexportmanager/how-to/change-the-exported-content-before-export%})
 

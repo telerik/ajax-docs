@@ -96,7 +96,7 @@ A double value between 0.00 - 1.00, representing the opacity. Passing 1 means no
 Checks whether the PixelFormat of an image is indexed or not and returns FALSE if it is indexed, and TRUE if it is NOT indexed.
             
             This method is used to determine which method will be used when creating new bitmaps, because the Graphics.FromImage method throws exceptions
-            in some scenarios. http://msdn.microsoft.com/en-us/library/system.drawing.graphics.fromimage.aspx
+            in some scenarios. https://msdn.microsoft.com/en-us/library/system.drawing.graphics.fromimage.aspx
 
 #### Parameters
 

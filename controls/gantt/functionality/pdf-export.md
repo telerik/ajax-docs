@@ -81,5 +81,5 @@ End Sub
 
 # See Also
 
- * [PDF Export Demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/pdf-export/defaultcs.aspx)
+ * [PDF Export Demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/pdf-export/defaultcs.aspx)
 

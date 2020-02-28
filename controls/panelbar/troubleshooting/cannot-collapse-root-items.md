@@ -16,7 +16,7 @@ position: 0
 
 **PROBLEM**
 
-Root items that have **ItemTemplate** defined cannot be collapsed. This is by design and can be observed on our [online demo](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx).
+Root items that have **ItemTemplate** defined cannot be collapsed. This is by design and can be observed on our [online demo](https://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx).
 
 **SOLUTION**
 

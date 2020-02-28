@@ -12,7 +12,7 @@ position: 1
 
 
 
-A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2009 SP1
 
@@ -46,7 +46,7 @@ RadToolTip for ASP.NET AJAX which is part of the Q2 2009 release is fully backwa
 	
 	* **ManualClose**
 
-**An online demo about the HideEvent property is available online:** **http://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx**
+**An online demo about the HideEvent property is available online:** **https://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx**
 
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2008

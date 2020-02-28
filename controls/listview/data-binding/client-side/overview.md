@@ -17,31 +17,31 @@ From Q1 2012 on **RadListView** supports client-side databinding with the help o
 This article will explain the following specifics of the client-side binding in RadListView:
 
 * **Client-side binding modes
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section0_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section0_self**
 
 * **Binding the RadListView
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section1_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section1_self**
 
 * **Rebinding a single item
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section2_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section2_self**
 
 * **Appending data and infinite scroll
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section3_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section3_self**
 
 * **Prepending data
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section8_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section8_self**
 
 * **Client-side initialization with no server control
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section4_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section4_self**
 
 * **Disposing RadListView on the client-side
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section5_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section5_self**
 
 * **Selecting items
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section6_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section6_self**
 
 * **Data caching
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section7_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section7_self**
 
 >note RadListView relies on jQuery to manipulate the DOM. As a result, jQuery is now a constant dependency for RadListView and gets loaded automatically into the page.
 >
@@ -109,7 +109,7 @@ The RadListView client-side component supports initialization entirely on the cl
 
 
 
-After the scripts have been registered, RadListView can be initialized using the [Telerik.Web.UI.RadListView.create() ](http://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources#Section4) function. This is essentially a convenience function that uses $create to initialize a client-side RadListView component. Using this function, a RadListView instance is created on the client:
+After the scripts have been registered, RadListView can be initialized using the [Telerik.Web.UI.RadListView.create() ](https://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources#Section4) function. This is essentially a convenience function that uses $create to initialize a client-side RadListView component. Using this function, a RadListView instance is created on the client:
 
 
           var listView = Telerik.Web.UI.RadListView.create("RadListView1", "container", true);

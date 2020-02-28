@@ -18,7 +18,7 @@ XSS is a class of attacks where malicious scripts can be injected in the web app
 
 These type of attacks are popular, therefore, this matter is a commonly discussed topic in various public articles. You can learn more about how to protect your applications against XSS attacks by following these materials:
 
-* MSDN: [How To: Prevent Cross-Site Scripting in ASP.NET](http://msdn.microsoft.com/en-us/library/ff649310.aspx)
+* MSDN: [How To: Prevent Cross-Site Scripting in ASP.NET](https://msdn.microsoft.com/en-us/library/ff649310.aspx)
 * OWASP: [Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29)
 * MDN: [Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
 
@@ -75,13 +75,13 @@ And in HTML will be decoded, so that user can continue working on it.
 
 This filter is intended only to encode and decode scripts, so JavaScript code will not be executed while edited in the **RadEditor**. Also, the submitted content will be decoded on the server (i.e., the server-side **RadEditor.Content** property will return content with fully functional script logic).
 
->note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
+>note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
 
 >tip You may want to sanitize the content users upload through the [Template Manager dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%}).
 
 ## CSS Expressions
 
-[CSS expressions](http://msdn.microsoft.com/en-us/library/ie/ms537634%28v=vs.85%29.aspx) were first introduced in Internet Explorer 5.5 and later deprecated with the release of Internet Explorer 8.They were designed to provide more flexible CSS stylization by incorporating JavaScript logic directly in CSS properties. This feature, again, leads to the possibility of XSS attacks by injecting malicious script in the expressions.
+[CSS expressions](https://msdn.microsoft.com/en-us/library/ie/ms537634%28v=vs.85%29.aspx) were first introduced in Internet Explorer 5.5 and later deprecated with the release of Internet Explorer 8.They were designed to provide more flexible CSS stylization by incorporating JavaScript logic directly in CSS properties. This feature, again, leads to the possibility of XSS attacks by injecting malicious script in the expressions.
 
 Since its **Q3 2014** version, **RadEditor** provides built-in protection against this kind of attack. With the **StripCssExpressions** filter, CSS expressions are automatically stripped from the content. For example, the following HTML:
 
@@ -115,7 +115,7 @@ The **StripCssExpressions** filter runs not only on the client, but also on the 
 
 ## Attribute DOM Events
 
-The well-known [DOM event attributes](http://en.wikipedia.org/wiki/DOM_events) like onclick, onmouseover, etc. can also create an XSS vulnerability. Since their value is a JavaScript string, injection of scripts is possible which can be categorized as an XSS attack.
+The well-known [DOM event attributes](https://en.wikipedia.org/wiki/DOM_events) like onclick, onmouseover, etc. can also create an XSS vulnerability. Since their value is a JavaScript string, injection of scripts is possible which can be categorized as an XSS attack.
 
 Since the **Q3 2014** version, the **StripDomEventAttributes** filter removes the attribute handler and all the inline code. For example, this content:
 
@@ -137,7 +137,7 @@ Will be changed to this one:
 
 Upon further security testing or according to additional custom needs, there may be the need to remove, strip or modify content based on specific requirements that are not covered out of the box.
 
-Since the creation of the **RadEditor** control, building a [Custom Content Filter](http://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) has been a well-known approach to prevent malicious code from being submitted and eventually executed on a page.
+Since the creation of the **RadEditor** control, building a [Custom Content Filter](https://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) has been a well-known approach to prevent malicious code from being submitted and eventually executed on a page.
 
 **Example 1** demonstrates a simple encoding approach, where the script tags are encoded with the corresponding HTML entities. This prevents the script logic from being executed and the script element is rendered as plain text on the page for the reader to see.
 
@@ -256,11 +256,11 @@ End Class
 
  * [Content Filters]({%slug editor/managing-content/content-filters%})
 
- * [Securing RadEditor Content and Preventing XSS Attacks](http://blogs.telerik.com/blogs/14-09-24/securing-radeditor-content-and-preventing-xss-attacks)
+ * [Securing RadEditor Content and Preventing XSS Attacks](https://blogs.telerik.com/blogs/14-09-24/securing-radeditor-content-and-preventing-xss-attacks)
 
- * [Demo: Built-in Content Filters](http://demos.telerik.com/aspnet-ajax/editor/examples/builtincontentfilters/defaultcs.aspx)
+ * [Demo: Built-in Content Filters](https://demos.telerik.com/aspnet-ajax/editor/examples/builtincontentfilters/defaultcs.aspx)
 
- * [Demo: Custom Content Filters](http://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx)
+ * [Demo: Custom Content Filters](https://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx)
 
 * [Prevention of XSS attacks through DOM attributes](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/prevention-of-xss-attacks-through-dom-attributes)
 

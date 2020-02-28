@@ -10,7 +10,7 @@ position: 3
 
 # OnClientAutoSizeEnd
 
-The **OnClientAutoSizeEnd** event of the **RadWindow** fires when its [automatic size adjustment](http://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx)operation completes. It may have been invoked automatically because it was shown and its `AutoSize` property is set to `True`,or because the developer called the `autoSize()` method from its [client-side API]({%slug window/client-side-programming/radwindow-object%}).
+The **OnClientAutoSizeEnd** event of the **RadWindow** fires when its [automatic size adjustment](https://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx)operation completes. It may have been invoked automatically because it was shown and its `AutoSize` property is set to `True`,or because the developer called the `autoSize()` method from its [client-side API]({%slug window/client-side-programming/radwindow-object%}).
 
 The event handler receives the following arguments:
 

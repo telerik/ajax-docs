@@ -153,7 +153,7 @@ You can create **Figure 2** using the markup in **Example 2**.
 
 ## See Also
 
- * [HtmlChart - 100% Stacked Series Live Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/100-stacked-series/defaultcs.aspx)
+ * [HtmlChart - 100% Stacked Series Live Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/100-stacked-series/defaultcs.aspx)
 
  * [Stacked Series]({%slug htmlchart/functionality/stacked-series%})
 

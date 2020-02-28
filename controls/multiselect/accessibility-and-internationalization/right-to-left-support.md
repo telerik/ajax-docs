@@ -36,6 +36,6 @@ The **RadMultiSelect** fully supports right-to-left (RTL) language locales (**Fi
 
 ## See Also
 
- * [Live Demo: RadMultiSelect RTL Support](http://demos.telerik.com/aspnet-ajax/multiselect/rtl/defaultcs.aspx)
+ * [Live Demo: RadMultiSelect RTL Support](https://demos.telerik.com/aspnet-ajax/multiselect/rtl/defaultcs.aspx)
 
  * [Keyboard Support]({%slug multiselect/accessibility-and-internationalization/keyboard-support%})

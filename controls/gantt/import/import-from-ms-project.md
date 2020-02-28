@@ -14,7 +14,7 @@ position: 0
 
 ## Example
 
-Following code shows how to import [MS Project XML data](http://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx) into **RadGantt** and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
+Following code shows how to import [MS Project XML data](https://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx) into **RadGantt** and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
 
 1. Add simple **RadGantt** definition in the page markup.
 

@@ -70,4 +70,4 @@ End Sub
 
  * [RadHtmlChart Column Series]({%slug htmlchart/chart-types/column-chart%})
 
- * [RadHtmlChart LinqDataSource Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/linqdatasource/defaultcs.aspx)
+ * [RadHtmlChart LinqDataSource Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/linqdatasource/defaultcs.aspx)

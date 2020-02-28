@@ -227,8 +227,8 @@ Private palette3 As String() = New String() {"#8bc34a", "#03a9f4", "#673ab7", "#
  
  * [Column Series]({%slug htmlchart/chart-types/column-chart%})
 
- * [Live Demo: Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)
+ * [Live Demo: Kendo Drawing API](https://demos.telerik.com/kendo-ui/drawing/index)
 
- * [API Reference: Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing)
+ * [API Reference: Kendo Drawing API](https://docs.telerik.com/kendo-ui/api/javascript/drawing)
 
- * [API Reference: Kendo Chart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart)
+ * [API Reference: Kendo Chart](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart)

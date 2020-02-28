@@ -100,8 +100,8 @@ Note that the viewDocuments, uploadDocuments and deleteDocuments variables are s
 
  * [Enforce Roles]({%slug editor/functionality/dialogs/examples/enforce-roles%})
 
- * [File Managers](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
+ * [File Managers](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
 
- * [DB File Browser Content Provider](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/DBFileBrowserContentProvider/DefaultCS.aspx)
+ * [DB File Browser Content Provider](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/DBFileBrowserContentProvider/DefaultCS.aspx)
 
  * [Content Filters]({%slug editor/managing-content/content-filters%})

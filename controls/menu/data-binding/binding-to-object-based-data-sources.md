@@ -14,7 +14,7 @@ You can bind **RadMenu** to an object-based data source such as **ObjectDataSour
 
 ## Binding to ObjectDataSource
 
->note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Declarative Data Sources](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) live demo.
 >
 
 
@@ -190,7 +190,7 @@ End Class
 
 ## Binding to an object that implements IEnumerable
 
->note To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx) live demo.
 >
 
 

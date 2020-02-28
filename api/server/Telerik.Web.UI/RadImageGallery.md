@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadImageGallery
 
 # Telerik.Web.UI.RadImageGallery
 
-RadImageGallery control. See http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/overview RadImageGallery Overviewtopic for more information.
+RadImageGallery control. See https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/overview RadImageGallery Overviewtopic for more information.
 
 ## Inheritance Hierarchy
 

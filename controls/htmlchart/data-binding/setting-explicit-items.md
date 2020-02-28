@@ -209,6 +209,6 @@ End Function
 
 ## See Also
 
- * [RadHtmlChart Static Items demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/staticitems/defaultcs.aspx)
+ * [RadHtmlChart Static Items demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/staticitems/defaultcs.aspx)
 
- * [RadHtmlChart Programmatic Creation demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/serversideapi/programmaticcreation/defaultcs.aspx)
+ * [RadHtmlChart Programmatic Creation demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/serversideapi/programmaticcreation/defaultcs.aspx)

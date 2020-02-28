@@ -132,4 +132,4 @@ End Sub
 
 # See Also
 
- * [Custom Server Commands online demo](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/customservercommands/defaultcs.aspx)
+ * [Custom Server Commands online demo](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/customservercommands/defaultcs.aspx)

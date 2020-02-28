@@ -14,7 +14,7 @@ position: 16
 
 ##
 
-There are situations when the RadToolTipManager's TargetControls collection should be updated. [This example](http://demos.telerik.com/aspnet-ajax/tooltip/examples/targetcontrolsandajax/defaultcs.aspx?product=grid) shows a common scenario when this should be done - it contains a RadGrid which has its paging and sorting turned on. Every time a page is changed or the grid is sorted, it is updated through AJAX and the RadToolTipManager's TargetControls collection should get updated, too. In order to achieve this, both the grid and the RadToolTipManager are ajaxified by using a RadAjaxManager control.
+There are situations when the RadToolTipManager's TargetControls collection should be updated. [This example](https://demos.telerik.com/aspnet-ajax/tooltip/examples/targetcontrolsandajax/defaultcs.aspx?product=grid) shows a common scenario when this should be done - it contains a RadGrid which has its paging and sorting turned on. Every time a page is changed or the grid is sorted, it is updated through AJAX and the RadToolTipManager's TargetControls collection should get updated, too. In order to achieve this, both the grid and the RadToolTipManager are ajaxified by using a RadAjaxManager control.
 
 Move the mouse over a product name to see more details about it:
 

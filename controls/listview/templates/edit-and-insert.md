@@ -170,7 +170,7 @@ The **EditItemTemplate** and **InsertItemTemplate** of RadListView determine wha
 
 
 
-[This example](http://demos.telerik.com/aspnet-ajax/listview/examples/templates/editinserttemplates/defaultcs.aspx) demonstrates the usage of edit and insert templates in RadListView for ASP.NET AJAX.
+[This example](https://demos.telerik.com/aspnet-ajax/listview/examples/templates/editinserttemplates/defaultcs.aspx) demonstrates the usage of edit and insert templates in RadListView for ASP.NET AJAX.
 ![Edit and insert templates](images/listview_editinserttemplates.PNG)
 
 Refer to the code implementation in it for more details.

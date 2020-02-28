@@ -21,7 +21,7 @@ The **ZIP** is used to manually install, upgrade or update Telerik® UI for ASP.
 
 To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZIP** file, follow the instructions below:
 
-1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
+1. Log into your [Telerik account](https://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
 1. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
 
@@ -64,7 +64,7 @@ The **Telerik_UI_for_ASP.NET_AJAX_2019_3_917_Dev_hotfix.zip** (**Hotfix**) insta
 	* run the examples run **StartExamples.exe** file from /Live Demos folder.
 	* or add them to manually to an aspx/ascx page as explained at [First Steps article](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-a-control-to-a-page). Do not forget to copy the Telerik assemblies to the ~/bin folder of the ASP.NET Web Forms app and add references to them through the Visual Studio interface.
 
-To register the MS Help 2 files to VisualStudio and MSDN, please review the following link: [http://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx](http://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx)
+To register the MS Help 2 files to VisualStudio and MSDN, please review the following link: [https://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx](https://www.telerik.com/support/kb/aspnet-ajax/general/add-help-to-visual-studio.aspx)
 
 To add any control to the VS.NET toolbox, review the [Adding Telerik® UI for ASP.NET AJAX to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}) article. To use any Telerik ASP.NET control in your project, review [Adding Telerik® UI for ASP.NET AJAX to an ASP.NET WebForm]({%slug general-information/adding-the-telerik-controls-to-your-project%}).
 

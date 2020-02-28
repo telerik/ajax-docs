@@ -14,7 +14,7 @@ position: 1
 
 A complete list of all changes can be found on Release History page:
 
-[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+[https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadSlider for ASP.NET AJAX Q2 2010 BETA
 
@@ -34,7 +34,7 @@ In the new version we have improved the skins of the slider control:
 
 1. We have changed the drag handle orientation for some skins.
 
-More information on the subject is available in the following blog post: [Improvements in RadSlider's visual appearance](http://blogs.telerik.com/stoyanstratev/posts/10-02-26/improvements_in_radslider_s_visual_appearance.aspx).
+More information on the subject is available in the following blog post: [Improvements in RadSlider's visual appearance](https://blogs.telerik.com/stoyanstratev/posts/10-02-26/improvements_in_radslider_s_visual_appearance.aspx).
 
 
 

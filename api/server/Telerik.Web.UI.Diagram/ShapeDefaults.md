@@ -62,7 +62,7 @@ Defines the minimum width the shape should have, i.e. it cannot be resized to a 
 
 ###  Path `String`
 
-The path option of a Shape is a description of a custom geometry. The format follows the standard SVG format (http://www.w3.org/TR/SVG/paths.html#PathData "SVG Path data.").
+The path option of a Shape is a description of a custom geometry. The format follows the standard SVG format (https://www.w3.org/TR/SVG/paths.html#PathData "SVG Path data.").
 
 ###  RotationSettings `ShapeRotation`
 

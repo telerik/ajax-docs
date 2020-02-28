@@ -32,7 +32,7 @@ Client side changes are available on the server side after postback. You can use
 
 ## Example:
 
-The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
+The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
 
 
 
@@ -78,6 +78,6 @@ Next
 
 # See Also
 
- * [Add/Remove/Disable Items example](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)
+ * [Add/Remove/Disable Items example](https://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)
 
  * [RadComboBox Object]({%slug combobox/client-side-programming/objects/radcombobox-object%})

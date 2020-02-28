@@ -30,4 +30,4 @@ N.B.: The selection state of RadGrid's cells is persisted on postback but not on
 
 ## See Also
 
- * [For a live example that demonstrates RadGrid's cell selection, see RadGrid Cell Selection.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/CellSelection/DefaultCS.aspx)
+ * [For a live example that demonstrates RadGrid's cell selection, see RadGrid Cell Selection.](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/CellSelection/DefaultCS.aspx)

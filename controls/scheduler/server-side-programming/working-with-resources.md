@@ -200,6 +200,6 @@ End Sub
 
  * [AppointmentDelete]({%slug scheduler/server-side-programming/server-events/appointmentdelete%})
  
- * [Custom Advanced Form with required Resources Code Library project](http://www.telerik.com/support/code-library/custom-advanced-form-with-required-resources)
+ * [Custom Advanced Form with required Resources Code Library project](https://www.telerik.com/support/code-library/custom-advanced-form-with-required-resources)
  
  

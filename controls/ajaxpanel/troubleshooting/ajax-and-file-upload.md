@@ -30,4 +30,4 @@ Using **RadAjaxManager** in a page, where files are uploaded, should not be a pr
 
 # See Also
 
- * [File Upload with RadAjax](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/FileUpload/DefaultCS.aspx)
+ * [File Upload with RadAjax](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/FileUpload/DefaultCS.aspx)

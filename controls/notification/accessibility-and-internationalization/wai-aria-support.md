@@ -13,7 +13,7 @@ position: 3
 @[template](/_templates/common/wai-aria-templates.md#intro "control: RadNotification")
 
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadNotification** offers WAI-ARIA support.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadNotification** offers WAI-ARIA support.
 
 In order to enable the WAI-ARIA support, set the **RadNotification**'s **EnableAriaSupport** property to **true** as shown in the example below.
 
@@ -43,6 +43,6 @@ RadNotification1.EnableAriaSupport = True
 
 # See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)
 
- * [Demo: RadNotification WAI-ARIA Support](http://demos.telerik.com/aspnet-ajax/notification/examples/waiariasupport/defaultcs.aspx)
+ * [Demo: RadNotification WAI-ARIA Support](https://demos.telerik.com/aspnet-ajax/notification/examples/waiariasupport/defaultcs.aspx)

@@ -50,7 +50,7 @@ You can control the way buttons are rendered using the **ButtonSettings** proper
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/buttons/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/buttons/defaultcs.aspx)
 
  * [Reorder]({%slug listbox/functionality/reorder%})
 

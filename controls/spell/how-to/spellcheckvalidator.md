@@ -12,7 +12,7 @@ position: 6
 
 **SpellCheckValidator** validates a form based on a **RadSpell** control. It can be used to enforce spell checking before form submission. The **ControlToValidate** must be set to the ID of a RadSpell control. The RadSpell control should be separately set up with a control to check and other options.
 
-SpellCheckValidator descends from [CustomValidator](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.customvalidator(VS.71).aspx) and ultimately [BaseValidator](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.basevalidator(VS.71).aspx) and so shares behavior and properties with the other ASP.NET Standard validation controls.
+SpellCheckValidator descends from [CustomValidator](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.customvalidator(VS.71).aspx) and ultimately [BaseValidator](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.basevalidator(VS.71).aspx) and so shares behavior and properties with the other ASP.NET Standard validation controls.
 
 The following below demonstrates spell checking a standard TextBox when the page is submitted.
 

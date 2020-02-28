@@ -16,7 +16,7 @@ The **RadTreeView** Smart Tag allows easy access to frequently needed tasks. You
 
 ## RadTreeView Tasks
 
-* **Choose Data Source** lets you bind the **TreeView** declaratively by selecting a data source from the drop-down list of available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind the **TreeView** declaratively by selecting a data source from the drop-down list of available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadTreeView** opens the [RadTreeView Item builder]({%slug treeview/design-time/radtreeview-item-builder%}), where you can add static nodes to the **TreeView** and set their properties.
 
@@ -56,9 +56,9 @@ When **RadTreeView** is bound, the Smart Tag looks like the following:
 
 ## RadTreeView Tasks
 
-* **Choose Data Source** lets you change the declarative binding by selecting a data source from a drop-down list of all available data source components. If you select "**<New Data Source...>**" the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
+* **Choose Data Source** lets you change the declarative binding by selecting a data source from a drop-down list of all available data source components. If you select "**<New Data Source...>**" the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
 
-* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 * **Refresh Schema**refreshes the schema for the currently bound data source component.
 

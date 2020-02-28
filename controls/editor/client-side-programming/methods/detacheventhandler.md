@@ -16,7 +16,7 @@ This function detaches an event handler.
 
 |  **function**  **detachEventHandler (event, eventHandler)**  |  |  |
 | ------ | ------ | ------ |
-| **event** | **string** |Specifies a standard [DHTML](http://msdn2.microsoft.com/en-us/library/ms533051.aspx) event.|
+| **event** | **string** |Specifies a standard [DHTML](https://msdn2.microsoft.com/en-us/library/ms533051.aspx) event.|
 | **eventHandler** | **function** |Specifies the function that will no longer be called when the event fires|
 
 ## Example

@@ -22,4 +22,4 @@ Here is the produced image tag:
 <img src="/images/complex_chart.png" alt="Amount Spent Chart" longdesc="chartdesc.html" />	  
 ````
 
-Information on Alt Attribute [http://www.w3.org/TR/WCAG20-TECHS/H37.html](http://www.w3.org/TR/WCAG20-TECHS/H37.html) Information on LongDesc attribute [http://www.w3.org/TR/WCAG20-TECHS/H45.html](http://www.w3.org/TR/WCAG20-TECHS/H45.html)
+Information on Alt Attribute [https://www.w3.org/TR/WCAG20-TECHS/H37.html](https://www.w3.org/TR/WCAG20-TECHS/H37.html) Information on LongDesc attribute [https://www.w3.org/TR/WCAG20-TECHS/H45.html](https://www.w3.org/TR/WCAG20-TECHS/H45.html)

@@ -32,11 +32,11 @@ The following example shows the basic usage of **RadProgressArea** with RadAsync
 
 ## Quick Links
 
-[Customization with Templates](http://demos.telerik.com/aspnet-ajax/progressarea/examples/progresstemplate/defaultcs.aspx)
+[Customization with Templates](https://demos.telerik.com/aspnet-ajax/progressarea/examples/progresstemplate/defaultcs.aspx)
 
-[Integration with AsyncUpload](http://demos.telerik.com/aspnet-ajax/progressarea/examples/asyncuploadintegration/defaultcs.aspx)
+[Integration with AsyncUpload](https://demos.telerik.com/aspnet-ajax/progressarea/examples/asyncuploadintegration/defaultcs.aspx)
 
-[Integration with Input Type File](http://demos.telerik.com/aspnet-ajax/progressarea/examples/inputtypefileintegration/defaultcs.aspx)
+[Integration with Input Type File](https://demos.telerik.com/aspnet-ajax/progressarea/examples/inputtypefileintegration/defaultcs.aspx)
 
 ## Key Features
 

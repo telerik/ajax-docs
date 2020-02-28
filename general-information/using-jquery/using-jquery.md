@@ -235,7 +235,7 @@ As of Q3 2008, the Telerik.Web.UI assembly includes the jQuery JavaScript librar
 |RadDock|Q1 2009|
 |RadEditor|Q3 2009|
 |RadFileExplorer|Q3 2009|
-|RadGrid (when using declarative client-side binding or column animations)|Q3 2008 -[ declarative client-side binding ](http://demos.telerik.com/aspnet-ajax/grid/examples/client/declarativedatabinding/defaultcs.aspx)Q2 2010 -[ column animations ](http://demos.telerik.com/aspnet-ajax/grid/examples/client/columnanimation/defaultcs.aspx)|
+|RadGrid (when using declarative client-side binding or column animations)|Q3 2008 -[ declarative client-side binding ](https://demos.telerik.com/aspnet-ajax/grid/examples/client/declarativedatabinding/defaultcs.aspx)Q2 2010 -[ column animations ](https://demos.telerik.com/aspnet-ajax/grid/examples/client/columnanimation/defaultcs.aspx)|
 |RadInputManager|Q1 2009|
 |RadImageEditor|Q2 2011|
 |RadListView|Q1 2012|

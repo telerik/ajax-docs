@@ -12,11 +12,11 @@ position: 0
 
 
 
-**RadSpreadsheet** follows the Provider Design Pattern to allow for easy integration into existing applications. On the Microsoft Web site, the article [Introduction To the Provider Model](http://msdn2.microsoft.com/en-us/library/aa479030.aspx) provides a detailed introduction to understanding this pattern.
+**RadSpreadsheet** follows the Provider Design Pattern to allow for easy integration into existing applications. On the Microsoft Web site, the article [Introduction To the Provider Model](https://msdn2.microsoft.com/en-us/library/aa479030.aspx) provides a detailed introduction to understanding this pattern.
 
 You can use one of the providers supplied in the Telerik.Web.UI assembly, or you can implement your own.
 
-The Telerik.Web.UI assembly defines the **Telerik.Web.UI.SpreadsheetDocumentProvider** provider, which can be used to bind the **RadSpreadsheet** to the most common excel file formats. The provider uses the [RadSpreadProcessing library](http://docs.telerik.com/devtools/aspnet-ajax/controls/spreadprocessing/overview) internally.
+The Telerik.Web.UI assembly defines the **Telerik.Web.UI.SpreadsheetDocumentProvider** provider, which can be used to bind the **RadSpreadsheet** to the most common excel file formats. The provider uses the [RadSpreadProcessing library](https://docs.telerik.com/devtools/aspnet-ajax/controls/spreadprocessing/overview) internally.
 
 To bind **RadSpreadsheet** to a provider, you can either set its **Provider** property at runtime, or set the **ProviderName** property declaratively.
 
@@ -68,7 +68,7 @@ The following steps show how to declaratively bind **RadSpreadsheet** to the **T
 
 You have now bound your **RadSpreadsheet** using the **ProviderName** property.
 
->note The PublicKeyToken in step 1. varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version. Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
+>note The PublicKeyToken in step 1. varies in different versions on RadControls. You can use [JustDecompile](https://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version. Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
 >
 
 ## Binding to a provider at runtime

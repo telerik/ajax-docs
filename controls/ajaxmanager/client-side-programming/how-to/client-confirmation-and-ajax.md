@@ -59,4 +59,4 @@ Example 1: Displays confirmation message by using OnRequestStart client-side eve
 
  * [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
 
- * [Demo: RadAjaxPanel Client-side Events](http://demos.telerik.com/aspnet-ajax/ajax/examples/panel/clientevents/defaultcs.aspx)
+ * [Demo: RadAjaxPanel Client-side Events](https://demos.telerik.com/aspnet-ajax/ajax/examples/panel/clientevents/defaultcs.aspx)

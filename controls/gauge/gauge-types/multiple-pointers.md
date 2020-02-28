@@ -156,4 +156,4 @@ End Sub
 
  * [Radial]({%slug gauge/gauge-types/radial%})
 
- * [Demo: Multiple Pointers](http://demos.telerik.com/aspnet-ajax/gauge/examples/multiplepointers/defaultcs.aspx)
+ * [Demo: Multiple Pointers](https://demos.telerik.com/aspnet-ajax/gauge/examples/multiplepointers/defaultcs.aspx)

@@ -12,7 +12,7 @@ position: 6
 
 The **OnClientClose** event fires when the **RadWindow** closes. You can use the event to pass data from the dialog page.It is subsequent to the [OnClientBeforeClose]({%slug window/client-side-programming/events/onclientbeforeclose%}) event.The close operation can be initiated from the user by clicking or tapping on the manual close button (X) in the top right-hand side corner of the title bar, or by the developer via calling the `close(optionalArguments)` [client-side method]({%slug window/client-side-programming/radwindow-object%}) of the control(e.g., through a custom Close button in the content (**Example 2**)).
 
-You can use this event to [return data from the dialog page](http://demos.telerik.com/aspnet-ajax/window/examples/dialogreturnvalue/defaultcs.aspx)	and to [create parent-child relationships with other RadWindow instances](http://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them).
+You can use this event to [return data from the dialog page](https://demos.telerik.com/aspnet-ajax/window/examples/dialogreturnvalue/defaultcs.aspx)	and to [create parent-child relationships with other RadWindow instances](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them).
 
 The event handler receives the following arguments:
 
@@ -66,9 +66,9 @@ To see how to get a reference to the **RadWindow** [client-side object]({%slug w
 
 ## See Also
 
- * [Return Data from the Dialog Page](http://demos.telerik.com/aspnet-ajax/window/examples/dialogreturnvalue/defaultcs.aspx)
+ * [Return Data from the Dialog Page](https://demos.telerik.com/aspnet-ajax/window/examples/dialogreturnvalue/defaultcs.aspx)
 
- * [Creating Parent-child Relationships with Other RadWindow Instances](http://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)
+ * [Creating Parent-child Relationships with Other RadWindow Instances](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)
 
  * [Overview]({%slug window/client-side-programming/overview%})
 

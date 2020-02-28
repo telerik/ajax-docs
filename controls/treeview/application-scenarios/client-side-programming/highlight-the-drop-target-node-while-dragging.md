@@ -14,4 +14,4 @@ position: 14
 
 ## 
 
-See [Highlight the Drop Target Node while dragging inside a RadTreeView](http://www.telerik.com/support/code-library/highlight-the-drop-target-node-when-dragging-inside-a-radtreeview) for the sample code.
+See [Highlight the Drop Target Node while dragging inside a RadTreeView](https://www.telerik.com/support/code-library/highlight-the-drop-target-node-when-dragging-inside-a-radtreeview) for the sample code.

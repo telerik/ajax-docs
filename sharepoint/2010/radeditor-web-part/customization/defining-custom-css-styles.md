@@ -91,7 +91,7 @@ More information you can find in the following online help article: [External CS
 |Web Part|Yes|No|No|No|
 |WCM/List|Yes|No|No|No|
 
-Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
+Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](https://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
 
 >note Note the version number in the CSS file URL - this should be set to the RadEditor for Share Point version you have (e.g. 6.12.0.0).
 

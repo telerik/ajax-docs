@@ -7,7 +7,7 @@ description: Telerik.Web.UI.TreeListExcelStyle
 # Telerik.Web.UI.TreeListExcelStyle
 
 RadTreeList Excel style. Used for appearance and styling.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/treelist/functionality/exporting/excel/appearance-and-styling Appearance and Styling topicfor more information.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/treelist/functionality/exporting/excel/appearance-and-styling Appearance and Styling topicfor more information.
 
 ## Inheritance Hierarchy
 

@@ -11,7 +11,7 @@ position: 5
 # WAI-ARIA Support
 
 
-This article demonstrates how you can take advantage of the WAI-ARIA support of the **RadMenu**. The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **EnableAriaSupport** property of **RadMenu** to **true** as shown in the example below.
+This article demonstrates how you can take advantage of the WAI-ARIA support of the **RadMenu**. The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **EnableAriaSupport** property of **RadMenu** to **true** as shown in the example below.
 
 **Example 1:** Setting **EnalbeAriaSupport** property for **RadMenu**. 
 
@@ -60,4 +60,4 @@ End Sub
 
 # See Also
 
- * [WAI-ARIA basic information](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)

@@ -25,7 +25,7 @@ How the tooltip becomes visible on the screen can be controlled with the **Anima
 
 * FlyIn
 
-For a live demonstration showing tooltips with all possible Animation values see the [Animation](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/Animation/DefaultCS.aspx) live demo.
+For a live demonstration showing tooltips with all possible Animation values see the [Animation](https://demos.telerik.com/aspnet-ajax/ToolTip/Examples/Animation/DefaultCS.aspx) live demo.
 
 # See Also
 

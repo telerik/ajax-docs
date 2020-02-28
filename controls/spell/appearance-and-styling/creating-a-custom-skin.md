@@ -22,8 +22,8 @@ Unlike the rest of the controls, **RadSpell**, however uses only one CSS file â€
 
 # See Also
 
- * [Creating Custom RadFormDecorator Skin](http://www.telerik.com/help/aspnet-ajax/radformdecorator-creating-custom-skins.html)
+ * [Creating Custom RadFormDecorator Skin](https://www.telerik.com/help/aspnet-ajax/radformdecorator-creating-custom-skins.html)
 
- * [RadFormDecorator's CSS Classes](http://www.telerik.com/help/aspnet-ajax/formdecorator-css-classes.html)
+ * [RadFormDecorator's CSS Classes](https://www.telerik.com/help/aspnet-ajax/formdecorator-css-classes.html)
 
- * [RadWindow's CSS Classes](http://www.telerik.com/help/aspnet-ajax/appearance-css-classes-usage.html)
+ * [RadWindow's CSS Classes](https://www.telerik.com/help/aspnet-ajax/appearance-css-classes-usage.html)

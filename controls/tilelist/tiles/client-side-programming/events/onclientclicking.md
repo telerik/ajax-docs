@@ -37,7 +37,7 @@ The example below demonstrates how to get a tile's **NavigateUrl** in the **OnCl
 
 ````JavaScript
 <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" 
-    Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="http://www.telerik.com" 
+    Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="https://www.telerik.com" 
     OnClientClicking="OnClientClicking">
 </telerik:RadTextTile>
 
@@ -45,7 +45,7 @@ The example below demonstrates how to get a tile's **NavigateUrl** in the **OnCl
     function OnClientClicking(tile, args) {
         var shouldCancel = false;
         var url = args.get_value();
-        var expectedUrl = "http://www.telerik.com";
+        var expectedUrl = "https://www.telerik.com";
 
         if (url != expectedUrl) {
             shouldCancel = true;
@@ -65,7 +65,7 @@ The following code snippet represents a simple example of how to use the **OnCli
 
 ````JavaScript
 <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" 
-    Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="http://www.telerik.com" 
+    Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="https://www.telerik.com" 
     OnClientClicking="OnClientClicking">
 </telerik:RadTextTile>
 

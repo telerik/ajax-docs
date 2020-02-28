@@ -28,7 +28,7 @@ The **maxRequestLength** attribute specifies the limit for the input stream buff
 
 * **executionTimeout**
 
-The **executionTimeout** attribute specifies the maximum number of seconds a request is allowed to be executed before being automatically shut down by ASP.NET – the default time is **110** seconds. If a request takes longer to execute, an exception will be thrown.To enable large file uploads, which can take large periods of time, you should increase the value of this property.You can find more information about the **httpRuntime** configuration in the following MSDN article: [http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx](http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx).
+The **executionTimeout** attribute specifies the maximum number of seconds a request is allowed to be executed before being automatically shut down by ASP.NET – the default time is **110** seconds. If a request takes longer to execute, an exception will be thrown.To enable large file uploads, which can take large periods of time, you should increase the value of this property.You can find more information about the **httpRuntime** configuration in the following MSDN article: [https://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx](https://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx).
 
 ## How to Modify the Configuration File of the Application
 

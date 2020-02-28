@@ -164,7 +164,7 @@ The template for the current (topmost) group. It renders just below the column h
 
 ## See Also
 
-* [Live Demo - Templates](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/templates/defaultcs.aspx)
+* [Live Demo - Templates](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/templates/defaultcs.aspx)
 
 * [Kendo UI MultiColumnComboBox Widget API Reference](https://docs.telerik.com/kendo-ui/api/javascript/ui/multicolumncombobox)
 

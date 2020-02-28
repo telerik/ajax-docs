@@ -15,7 +15,7 @@ position: 8
 
 ##
 
->note If you prefer not to handle the filtering manually as stated below, consider using built-in GridDateTimeColumn as shown in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Filtering/DefaultCS.aspx).
+>note If you prefer not to handle the filtering manually as stated below, consider using built-in GridDateTimeColumn as shown in [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Filtering/DefaultCS.aspx).
 >
 
 

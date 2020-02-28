@@ -83,6 +83,6 @@ If the RadScheduler is read-only (via the **ReadOnly** property) or the **AllowI
 
 ![custom timeslot context menu](images/scheduler_customtimeslotcontextmenu.png)
 
-For more information, please see the [Context menu](http://demos.telerik.com/aspnet-ajax/scheduler/examples/contextmenu/defaultcs.aspx) online demo.
+For more information, please see the [Context menu](https://demos.telerik.com/aspnet-ajax/scheduler/examples/contextmenu/defaultcs.aspx) online demo.
 
 

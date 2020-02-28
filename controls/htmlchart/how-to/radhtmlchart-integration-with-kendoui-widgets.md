@@ -10,7 +10,7 @@ position: 3
 
 # RadHtmlChart Integration With KendoUI Widgets
 
-This help article illustrates how to use a **RadHtmlChart** control and a [Kendo UI Widget](http://docs.telerik.com/kendo-ui/introduction) on the same WebForms page. **RadHtmlChart** is an ASP.NET server-side wrapper of the Kendo UI charting widget and it already loads the chart specific scripts and jQuery. You can select either pattern below in order to avoid script conflicts in such a setup:
+This help article illustrates how to use a **RadHtmlChart** control and a [Kendo UI Widget](https://docs.telerik.com/kendo-ui/introduction) on the same WebForms page. **RadHtmlChart** is an ASP.NET server-side wrapper of the Kendo UI charting widget and it already loads the chart specific scripts and jQuery. You can select either pattern below in order to avoid script conflicts in such a setup:
 
 * [Use External jQuery with RadScriptManager](#use-external-jquery-with-radscriptmanager)
 
@@ -51,7 +51,7 @@ See **Example 1** for details.
 >caption Example 1: RadHtmlChart and Kendo UI editor integration with external jQuery.
 
 ````ASP.NET
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
 	<title></title>
 	<!--Kendo UI editor specific CSS -->
@@ -181,7 +181,7 @@ This can be done by loading a single jQuery and considering the following script
 
 ## See Also
 
- * [Kendo UI Components](http://docs.telerik.com/kendo-ui/introduction)
+ * [Kendo UI Components](https://docs.telerik.com/kendo-ui/introduction)
  
  * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
  

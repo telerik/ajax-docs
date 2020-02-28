@@ -37,7 +37,7 @@ In the **machine.config** file, find the `<httpruntime>` node called that looks 
 
 
 
-The attribute that takes care of the size of the files to be uploaded is the [maxRequestLength](http://msdn.microsoft.com/en-us/library/e1f13641(VS.71).aspx). By default, it is set to 4096 kilobytes (KB). Simply change this value to increase the size of the files that you can upload to the server.
+The attribute that takes care of the size of the files to be uploaded is the [maxRequestLength](https://msdn.microsoft.com/en-us/library/e1f13641(VS.71).aspx). By default, it is set to 4096 kilobytes (KB). Simply change this value to increase the size of the files that you can upload to the server.
 
 >tip Making this change in the **machine.config** file applies the setting to all the applications that are on the server. If you would like to apply this to only the application you are working with, then apply this node to the **web.config** file of your application, overriding any setting that is in the **machine.config** file. Make sure this node resides between the `<system.web>` nodes in the configuration file.
 

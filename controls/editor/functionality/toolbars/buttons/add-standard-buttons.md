@@ -112,7 +112,7 @@ RadEditor1.Tools(0).Tools.Add(tool)
 ````
 
 
->note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from the [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax) KB article.
+>note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from the [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax) KB article.
 
 
 ## Setting the tools by using Themes
@@ -146,7 +146,7 @@ Once the skin is set, you need to declare the RadEditor and specify the **SkinId
 </telerik:RadEditor>
 ````
 
-Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
+Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](https://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
 
 ## See Also
 

@@ -44,7 +44,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
 >
 
 
-[This online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupFooter/DefaultCS.aspx) represents the functionality in question. Review the code excerpt below for additional details:
+[This online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupFooter/DefaultCS.aspx) represents the functionality in question. Review the code excerpt below for additional details:
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" />

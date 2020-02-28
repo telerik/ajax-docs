@@ -28,7 +28,7 @@ This article explains the **fluid design capabilities RadLinkButton offers**. Th
 </style>
 
 <div style="width:40%; height:30%;">
-	<telerik:RadLinkButton runat="server" ID="StandartButton" NavigateUrl="http://www.telerik.com" Target="_blank"
+	<telerik:RadLinkButton runat="server" ID="StandartButton" NavigateUrl="https://www.telerik.com" Target="_blank"
 		Text="Fluid Design" Skin="Default" Width="100%" Height="25%">
 	</telerik:RadLinkButton>
 </div>

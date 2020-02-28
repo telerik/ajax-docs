@@ -41,7 +41,7 @@ Bellow are the exact steps that demonstrate how to add a custom dropdown when us
 		}
 		.rade_toolbar.Telerik .CustomDropdown
 		{
-		 background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
+		 background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
 		}
 
 

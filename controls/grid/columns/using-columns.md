@@ -57,15 +57,15 @@ When using a bound column populated with values of type **System.Double**, the c
 
 The following MSDN articals provide additional information about formatting, format strings, and DateTime formatting:
 
-* [Formatting Overview](http://msdn2.microsoft.com/en-us/library/26etazsy(vs.71).aspx)
+* [Formatting Overview](https://msdn2.microsoft.com/en-us/library/26etazsy(vs.71).aspx)
 
-* [Date and Time Format Strings](http://msdn2.microsoft.com/en-us/library/97x6twsz(vs.71).aspx)
+* [Date and Time Format Strings](https://msdn2.microsoft.com/en-us/library/97x6twsz(vs.71).aspx)
 
 ## Footer
 
 The Footer element of a column is similar to the Header element, but it is placed at the bottom of the grid. It cannot provide header-specific functions like reordering, resizing and sorting of columns. Rather, you can set the **FooterText** property of the column to display information about the column (such as summary information).
 
-If you are using [column aggregates](http://demos.telerik.com/aspnet-ajax/grid/examples/groupby/groupfooter/defaultcs.aspx), these are automatically displayed in the footer.
+If you are using [column aggregates](https://demos.telerik.com/aspnet-ajax/grid/examples/groupby/groupfooter/defaultcs.aspx), these are automatically displayed in the footer.
 
 To have a Footer row in your grid, set the **ShowFooter** property to **true**. Then you can customize the Footer appearance using the [RadGrid property builder]({%slug grid/design-time/overview%}) or **FooterStyle** section of the **RadGrid** property pane.
 
@@ -95,7 +95,7 @@ For more information about filtering, see [Basic filtering]({%slug grid/function
 
 **RadGrid** can calculate aggregated values based on the values in the grid items. Use the **Aggregate** property of the column to specify the function that should be used to aggregate the column values. The aggregated value is displayed in the footer of the column when you set the **ShowFooter** property to **True**.
 
-For more information about column aggregates, see [Column Aggregates](http://demos.telerik.com/aspnet-ajax/grid/examples/groupby/groupfooter/defaultcs.aspx).
+For more information about column aggregates, see [Column Aggregates](https://demos.telerik.com/aspnet-ajax/grid/examples/groupby/groupfooter/defaultcs.aspx).
 
 ## Client-side Operations
 

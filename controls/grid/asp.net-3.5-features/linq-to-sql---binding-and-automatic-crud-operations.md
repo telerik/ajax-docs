@@ -22,7 +22,7 @@ For more information concerning LINQ to SQL review ScottGu's series of blog post
 
 Using LINQ to SQL (from [part 1](http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx ) to [part 5](http://weblogs.asp.net/scottgu/archive/2007/07/16/linq-to-sql-part-5-binding-ui-using-the-asp-linqdatasource-control.aspx))
 
-[LINQ to SQL: .NET Language-Integrated Query for Relational Data](http://msdn.microsoft.com/en-us/library/bb425822.aspx).
+[LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx).
 
 RadGrid for ASP.NET AJAX exposes declarative way to binding itself to LinqDataSource (similar to other ASP.NET 2.x/3.x data source controls). Additionally, the grid from the example supports automatic data editing operations, hierarchy as well as paging and sorting. The main points are to configure the LinqDataSource properties at each level of the hierarchy accordingly (using *Where* clause and *WhereParameters *for the nested tables LinqDataSource controls).
 

@@ -48,10 +48,10 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
 ````HTML
 <meta 
     http-equiv="Content-Security-Policy" 
-    content="script-src 'self' 'unsafe-inline' 'unsafe-eval' http://aspnet-scripts.telerikstatic.com ;
-			 style-src 'self' 'unsafe-inline' http://aspnet-skins.telerikstatic.com ;
-			 font-src 'self' http://aspnet-skins.telerikstatic.com 'data:';
-			 img-src 'self' http://aspnet-skins.telerikstatic.com 'data:'"
+    content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://aspnet-scripts.telerikstatic.com ;
+			 style-src 'self' 'unsafe-inline' https://aspnet-skins.telerikstatic.com ;
+			 font-src 'self' https://aspnet-skins.telerikstatic.com 'data:';
+			 img-src 'self' https://aspnet-skins.telerikstatic.com 'data:'"
      />
 ````
 

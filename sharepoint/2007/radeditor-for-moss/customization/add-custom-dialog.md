@@ -28,7 +28,7 @@ Bellow are the exact steps that demonstrate how to add your custom dialog when u
 		}
 		.rade_toolbar.Telerik .CustomDialog
 		{
-		 background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
+		 background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
 		}
 	  
 1. Open the \wpresources\RadEditorSharePoint\5.x.x.0**1f131a624888eeed\Resources\MOSSEditorTools.js file and provide a command with the same name in the editor's global commands array, which will call the **showExternalDialog(url, argument, width, height, callbackFunction, callbackArgs, title, modal, behaviors, showStatusbar, showTitlebar)** function:
@@ -65,8 +65,8 @@ Bellow is a sample custom dialog's source:
 ````ASP.NET
 <%@ page language="C#" autoeventwireup="true" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
 	<title>Untitled Page</title>
 </head>

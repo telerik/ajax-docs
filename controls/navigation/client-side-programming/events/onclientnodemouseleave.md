@@ -68,7 +68,7 @@ The client-side **OnClientNodeMouseLeave** event handler receives two arguments:
 
 ## See Also
 
-* [Demo: Navigation - Expand On Hover](http://demos.telerik.com/aspnet-ajax/navigation/functionality/expand-on-hover/defaultcs.aspx)
+* [Demo: Navigation - Expand On Hover](https://demos.telerik.com/aspnet-ajax/navigation/functionality/expand-on-hover/defaultcs.aspx)
 
 * [Expand and collapse delay on hover in RadNavigation](https://www.telerik.com/support/code-library/expand-and-collapse-delay-on-hover-in-radnavigation) Code Library project
 

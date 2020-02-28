@@ -110,7 +110,7 @@ function OnClientButtonClicking() {
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/applicationmenu/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/applicationmenu/defaultcs.aspx)
 
  * [ApplicationMenuItemClick]({%slug ribbonbar/server-side-programming/events/applicationmenuitemclick%})
 

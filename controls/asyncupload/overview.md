@@ -52,4 +52,4 @@ In web farms, each server will need to use the *same MachineKey* that **RadAsync
 
  * [RadAsyncUpload Modules]({%slug asyncupload/upload-modules%})
 
- * [Online Demos](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx)
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx)

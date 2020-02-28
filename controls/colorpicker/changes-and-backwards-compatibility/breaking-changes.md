@@ -14,7 +14,7 @@ position: 2
 
 ## RadColorPicker for ASP.NET AJAX
 
-A complete list of all changes can be found on Release History page:[http://www.telerik.com/support/whats-new/aspnet-ajax/release-history](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
+A complete list of all changes can be found on Release History page:[https://www.telerik.com/support/whats-new/aspnet-ajax/release-history](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
 
 
 
@@ -70,7 +70,7 @@ The new release brings the following changes in the naming convention:
 
 ## Telerik RadColorPicker for ASP.NET AJAX Q2 2009 SP1
 
-* No breaking changes. A list of fixes is available in the [Version Notes.](http://www.telerik.com/versionnotes.aspx?id=2082)
+* No breaking changes. A list of fixes is available in the [Version Notes.](https://www.telerik.com/versionnotes.aspx?id=2082)
 
 ## Telerik RadColorPicker for ASP.NET AJAX Q1 2009
 

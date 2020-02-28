@@ -25,7 +25,7 @@ Bellow are the exact steps that demonstrate how to add your custom dialog when u
 		    }
 		    .rade_toolbar.Telerik .CustomDialog
 		    {
-		     background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
+		     background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
 		    }
 		</style>
 
@@ -69,7 +69,7 @@ Bellow is a sample custom dialog's source:
     }
     .rade_toolbar.Telerik .CustomDialog
     {
-     background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
+     background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif)!important;
     }
 </style>
 ````

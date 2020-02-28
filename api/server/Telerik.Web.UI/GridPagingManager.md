@@ -7,7 +7,7 @@ description: Telerik.Web.UI.GridPagingManager
 # Telerik.Web.UI.GridPagingManager
 
 Can be used in your class implementation to access the information from the PagerItem.Paging object.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization Programmatic Pager Customizationfor an example.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization Programmatic Pager Customizationfor an example.
 
 ## Inheritance Hierarchy
 

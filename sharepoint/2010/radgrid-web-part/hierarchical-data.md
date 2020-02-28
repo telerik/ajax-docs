@@ -36,4 +36,4 @@ Choose an item from the master-field combo, related to one from the child field 
 >hierarchical data is not supported with Excel binding.
 
 
-To see a live example of the above-described functionality, please, visit [http://telerik.sharepoint.com](http://telerik.sharepoint.com) at the WebParts -> Telerik SPRadGrid Hierarchy page.
+To see a live example of the above-described functionality, please, visit [https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/online/Overview](https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/online/Overview) at the WebParts -> Telerik SPRadGrid Hierarchy page.

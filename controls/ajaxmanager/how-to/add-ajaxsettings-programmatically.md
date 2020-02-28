@@ -34,7 +34,7 @@ The example below demonstrates how to AJAX-enable a Button control dynamically t
  </telerik:RadAjaxManager>
  <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
  <asp:Panel ID="Panel1" runat="server" Height="95px">
-	        <asp:Image ID="Image1" runat="server" ImageUrl="http://www.Telerik.com/images/Homepage/TelerikLogo.gif" />
+	        <asp:Image ID="Image1" runat="server" ImageUrl="https://www.telerik.com/images/Homepage/TelerikLogo.gif" />
 </asp:Panel>
 ````
 

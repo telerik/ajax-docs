@@ -110,6 +110,6 @@ The color of the predefined icons can be white or black, depending on the chosen
  
  * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
 
- * [RadToggleButton Overview Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
+ * [RadToggleButton Overview Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
 
  

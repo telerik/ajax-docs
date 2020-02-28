@@ -95,4 +95,4 @@ Every **GridRelationFields** object should has only one field name for **DetailK
 
 
 
-For a live example that used declarative relations to generate a three-level hierarchy, see [Three level hierarchy](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/ThreeLevel/DefaultCS.aspx).
+For a live example that used declarative relations to generate a three-level hierarchy, see [Three level hierarchy](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/ThreeLevel/DefaultCS.aspx).

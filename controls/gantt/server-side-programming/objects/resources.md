@@ -46,6 +46,6 @@ The table below demonstrates the public methods of the **Resource** object.
 
  * [Assignments]({%slug gantt/server-side-programming/objects/assignments%})
  
- * [Resources demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/resources/defaultcs.aspx)
+ * [Resources demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/resources/defaultcs.aspx)
  
  

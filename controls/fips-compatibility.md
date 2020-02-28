@@ -73,11 +73,11 @@ Such an exception is most commonly encountered when using controls like RadAsync
 
 # See Also
 
- * [FIPS - Wikipedia](http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard)
+ * [FIPS - Wikipedia](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standard)
 
- * [FIPS 140 - Wikipedia](http://en.wikipedia.org/wiki/FIPS_140)
+ * [FIPS 140 - Wikipedia](https://en.wikipedia.org/wiki/FIPS_140)
 
- * [machineKey Element (ASP.NET Settings Schema)](http://msdn.microsoft.com/en-us/library/w8h3skw9.aspx)
+ * [machineKey Element (ASP.NET Settings Schema)](https://msdn.microsoft.com/en-us/library/w8h3skw9.aspx)
 
  * [FIPS 140 Evaluation](http://technet.microsoft.com/en-us/library/cc750357.aspx)
 

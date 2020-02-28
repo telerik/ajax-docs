@@ -24,7 +24,7 @@ In this scenario, Telerik’s Editor is added to the page during a partial post 
 
 >important This issue is fixed since **2014 Q1** version of the **Telerik® UI for ASP.NET AJAX** suite.	The solution to this problem is achieved by implementing a logic that verifies that the needed resources are loaded and recalculates the editor’s dimensions.
 >
->This behavior may cause a small flickering, due to possible delay of CSS resources. If this causes any inconvenience	(e.g. the delay is about 3-5 sec.) with the user experience, you can try [enabling the CDN support](http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html) or using the workarounds from **Examples 1-3**.
+>This behavior may cause a small flickering, due to possible delay of CSS resources. If this causes any inconvenience	(e.g. the delay is about 3-5 sec.) with the user experience, you can try [enabling the CDN support](https://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html) or using the workarounds from **Examples 1-3**.
 
 >caption Figure 1: Example of the broken layout.
 
@@ -37,7 +37,7 @@ The workaround for this problem is to register the RadEditor’s CSS files manua
 >caption Example 1: Showing and hiding a RadEditor control dynamically via AJAX.
 
 ````ASP.NET
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 	<head runat="server">
 		<telerik:RadStyleSheetManager ID="SSH1" EnableStyleSheetCombine="true" runat="server">
 			<StyleSheets>
@@ -188,7 +188,7 @@ To resolve this, call the **repaint()** method of the editor, after the containe
 
 ## The RadEditor Control is Moved in the DOM
 
-Sometimes the editor is moved in the DOM to another place to offer editing capabilities there. Due to such actions its content area appears disabled.This is happening because the editor’s functionality highly dependent on its parent elements along with the initially attached events to the editable iframe element. A common related scenario is when a [RadEditor is placed inside a RadWindow’s ContentTemplate to provide a popup editing](http://www.telerik.com/help/aspnet-ajax/window-troubleshooting-radeditor-in-radwindow.html).
+Sometimes the editor is moved in the DOM to another place to offer editing capabilities there. Due to such actions its content area appears disabled.This is happening because the editor’s functionality highly dependent on its parent elements along with the initially attached events to the editable iframe element. A common related scenario is when a [RadEditor is placed inside a RadWindow’s ContentTemplate to provide a popup editing](https://www.telerik.com/help/aspnet-ajax/window-troubleshooting-radeditor-in-radwindow.html).
 
 To resolve this, the editor’s **onParentNodeChanged()** method must be called each timethe editor is moved into another DOM element. Working example of such a scenario is available in **Example 5**.
 
@@ -270,8 +270,8 @@ The solution for this problem is to attach a handler to the resize event of the 
 
  * [Getting a Reference to RadEditor]({%slug editor/client-side-programming/getting-a-reference-to-radeditor%})
 
- * [Telerik static client library](http://www.telerik.com/help/aspnet-ajax/telerik-static-client-library.html)
+ * [Telerik static client library](https://www.telerik.com/help/aspnet-ajax/telerik-static-client-library.html)
 
- * [RadEditor Does Not Work in RadWindows](http://www.telerik.com/help/aspnet-ajax/window-troubleshooting-radeditor-in-radwindow.html)
+ * [RadEditor Does Not Work in RadWindows](https://www.telerik.com/help/aspnet-ajax/window-troubleshooting-radeditor-in-radwindow.html)
 
- * [Telerik’s CDN Support Overview](http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html)
+ * [Telerik’s CDN Support Overview](https://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html)

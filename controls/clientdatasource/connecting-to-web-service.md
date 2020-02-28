@@ -18,13 +18,13 @@ In this topic, we will show how to bind a DataBound control to a **WebService** 
 
 * From the **Toolbox** in **Visual Studio**, drag a **RadClientDataSource** instances to the design surface of your page.
 
-* Set a **WebService** using the **Url** property. In this example we are using "**http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
+* Set a **WebService** using the **Url** property. In this example we are using "**https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
 
 ````C#
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+            <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
         </WebServiceDataSourceSettings>
     </DataSource>
 </telerik:RadClientDataSource>
@@ -38,7 +38,7 @@ In this topic, we will show how to bind a DataBound control to a **WebService** 
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+            <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
         </WebServiceDataSourceSettings>
     </DataSource>
     <Schema>

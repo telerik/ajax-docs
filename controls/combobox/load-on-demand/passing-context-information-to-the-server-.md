@@ -41,7 +41,7 @@ On the client side, you can use the client-side **OnClientItemsRequesting** even
 
 
 
-For a live example of this technique, see [Populate from WebService](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx).
+For a live example of this technique, see [Populate from WebService](https://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx).
 
 ## Using context information with the ItemsRequested event
 

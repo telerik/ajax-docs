@@ -137,7 +137,7 @@ End Sub
 ````
 
 
-[Here](http://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you can find a code library with a runnable sample project, created based on the above instructions.
+[Here](https://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you can find a code library with a runnable sample project, created based on the above instructions.
 
 
 # See Also

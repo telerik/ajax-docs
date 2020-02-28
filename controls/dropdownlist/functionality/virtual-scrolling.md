@@ -39,5 +39,5 @@ To enable Virtual Scrolling for browsing large record sets:
 
 # See Also
 
- * [Virtual Scrolling demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/functionality/virtualscrolling/defaultcs.aspx)
+ * [Virtual Scrolling demo](https://demos.telerik.com/aspnet-ajax/dropdownlist/examples/functionality/virtualscrolling/defaultcs.aspx)
 

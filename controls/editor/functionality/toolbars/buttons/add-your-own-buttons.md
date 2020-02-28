@@ -137,7 +137,7 @@ Once the skin is set, you need to declare it in the RadEditor's declaration by u
 </telerik:RadEditor>
 ````
 
->note Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
+>note Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](https://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
 
 ## Declaring the custom CommandList that will be executed when the button is clicked:
 
@@ -167,8 +167,8 @@ The commands above will be rendered as buttons on the toolbar. To improve their 
 
 ## See Also
 
- * [Adding Custom Tools](http://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)
+ * [Adding Custom Tools](https://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)
  * [Set Button State]({%slug editor/functionality/toolbars/buttons/set-button-state%})
  * [RadEditor Render Modes]({%slug editor/mobile-support/render-modes%})
- * [Server-Side API](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ServersideAPI/DefaultCS.aspx)
- * [Show or hide the DOM Inspector module via an Editor tool](http://www.telerik.com/support/code-library/show-or-hide-the-dom-inspector-module-via-an-editor-tool)
+ * [Server-Side API](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/ServersideAPI/DefaultCS.aspx)
+ * [Show or hide the DOM Inspector module via an Editor tool](https://www.telerik.com/support/code-library/show-or-hide-the-dom-inspector-module-via-an-editor-tool)

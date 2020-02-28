@@ -36,4 +36,4 @@ This parent element can be the **BODY**, the **HTML** element,	or just a simple 
 
  * [Overview]({%slug progressbar/getting-started/overview%})
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/progress-bar/examples/accessibility-and-internationalization/right-to-left/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/progress-bar/examples/accessibility-and-internationalization/right-to-left/defaultcs.aspx)

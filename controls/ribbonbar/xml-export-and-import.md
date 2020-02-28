@@ -135,4 +135,4 @@ RadRibbonBar1.LoadContentFile("~/RibbonBar.xml");
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/populatingfromxml/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/populatingfromxml/defaultcs.aspx)

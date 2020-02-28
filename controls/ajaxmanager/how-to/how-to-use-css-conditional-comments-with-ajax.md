@@ -41,4 +41,4 @@ The **RadAjaxManager** looks for link or style tags and adds them to the page on
 
 ## See Also
 
- * [Wikipedia: Conditional Comments](http://en.wikipedia.org/wiki/Conditional_comment)
+ * [Wikipedia: Conditional Comments](https://en.wikipedia.org/wiki/Conditional_comment)

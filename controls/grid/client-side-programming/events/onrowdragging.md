@@ -20,7 +20,7 @@ Sys.EventArgs OnRowDragging Property
 
 This event can be used if you want to check the current position of the mouse while the user is still dragging. It can be used to cancel the dragging action on Escape button click:
 
-[Cancel row drag and drop when ESC key is pressed](http://www.telerik.com/support/code-library/cancel-row-drag-and-drop-when-esc-key-is-pressed)
+[Cancel row drag and drop when ESC key is pressed](https://www.telerik.com/support/code-library/cancel-row-drag-and-drop-when-esc-key-is-pressed)
 
 
 |  **Fired by**  | RadGrid |

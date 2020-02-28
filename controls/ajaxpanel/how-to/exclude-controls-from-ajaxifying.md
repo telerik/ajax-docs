@@ -14,15 +14,15 @@ position: 4
 
 By default the **RadAjaxPanel** AJAX-enables all controls placed inside. If you want to exclude a control from being AJAX-enabled, you can use one of the following approaches:
 
-* **[Use RadScriptManager's RegisterPostBackControl Method](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self)**
+* **[Use RadScriptManager's RegisterPostBackControl Method](https://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self)**
 
-* **[Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self)**
+* **[Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)](https://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self)**
 
-* **[Cancel the AJAX Request on InitializeRequest Event](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self)**
+* **[Cancel the AJAX Request on InitializeRequest Event](https://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self)**
 
-* **[Add the Postback Function Manually](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self)**
+* **[Add the Postback Function Manually](https://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self)**
 
-* **[Exclude Dynamically Loaded Controls](http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self)**
+* **[Exclude Dynamically Loaded Controls](https://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self)**
 
 This help article shows how to use each approach.
 
@@ -74,7 +74,7 @@ End Sub
 
 Use the **OnRequestStart** [ client-side event ]({%slug ajaxpanel/client-side-programming/events/onrequeststart%}) handler to determine the AJAX initiator and disable AJAX for the current request. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when exporting from an AJAX-enabled Grid:
 
-[Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
+[Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](https://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
 
 >note Note that all controls added in the **UpdatedControls** collection in the **RadAjaxManager** AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
 >

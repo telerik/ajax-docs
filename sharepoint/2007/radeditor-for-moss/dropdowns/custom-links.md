@@ -32,17 +32,17 @@ Custom links are kept in the **Links** collection. You easily predefine the Link
    <tool name="InsertCustomLink" />
  </tools>
  <links>
-   <link name="Telerik" href="http://www.telerik.com">
-	 <link name="Products" href="http://www.telerik.com/products">
-	   <link name="Telerik® UI for ASP.NET AJAX suite" href="http://www.telerik.com/radcontrols" />
-	   <link name="Telerik RadNavigation suite" href="http://www.telerik.com/radnavigation" />
-	   <link name="Telerik RadEditor" href="http://www.telerik.com/radeditor">
-		 <link name="QSF" href="http://www.telerik.com/Telerik RadEditor"/>
+   <link name="Telerik" href="https://www.telerik.com">
+	 <link name="Products" href="https://www.telerik.com/products">
+	   <link name="Telerik® UI for ASP.NET AJAX suite" href="https://www.telerik.com/radcontrols" />
+	   <link name="Telerik RadNavigation suite" href="https://www.telerik.com/radnavigation" />
+	   <link name="Telerik RadEditor" href="https://www.telerik.com/radeditor">
+		 <link name="QSF" href="https://www.telerik.com/Telerik RadEditor"/>
 	   </link>
 	 </link>
-	 <link name="Purchase" href="http://www.telerik.com/purchase" />
-	 <link name="Support" href="http://www.telerik.com/support" />
-	 <link name="Client.Net" href="http://www.telerik.com/clientnet" />
+	 <link name="Purchase" href="https://www.telerik.com/purchase" />
+	 <link name="Support" href="https://www.telerik.com/support" />
+	 <link name="Client.Net" href="https://www.telerik.com/clientnet" />
    </link>
  </links>
 </root>

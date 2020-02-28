@@ -79,7 +79,7 @@ The embedded **RadToggleButton** icons are font icons. Using a font facilitates 
 
  * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
 
- * [RadToggleButton Overview Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
+ * [RadToggleButton Overview Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
  
  
 

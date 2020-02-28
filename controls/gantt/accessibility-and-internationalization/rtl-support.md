@@ -27,4 +27,4 @@ This results in the following **RadGantt** appearance:
 
 ![RadGantt RTL](images/gantt-rtl.png)
 
-For a live example, see [Right to Left Support Demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/accessibility-and-internationalization/right-to-left-support/defaultcs.aspx?isNew=true)
+For a live example, see [Right to Left Support Demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/accessibility-and-internationalization/right-to-left-support/defaultcs.aspx?isNew=true)

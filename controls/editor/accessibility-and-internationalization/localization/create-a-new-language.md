@@ -26,7 +26,7 @@ Then open the resource file in Visual Studio and change the **Value** column ent
 
 ![](images/editor-localization002.png)
 
-Set the [Language](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radeditor_language.html) property to the new culture code that represents the language at design-time:
+Set the [Language](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radeditor_language.html) property to the new culture code that represents the language at design-time:
 
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Language="it-IT" ></telerik:RadEditor>

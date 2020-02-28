@@ -34,12 +34,12 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 		<style type="text/css">
 		/* Styles for Classic rendering */
 		.reToolbar.Default .InsertSpecialLink{
-		    background-image: url(http://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
+		    background-image: url(https://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
 		}
 		
 		/* Styles for Lightweight rendering */
 		.reToolBar .reTool.reInsertSpecialLink {
-		    background-image: url(http://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
+		    background-image: url(https://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
 		    background-repeat: no-repeat;
 		}
 		
@@ -170,4 +170,4 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 
 ## See Also
 
- * [Add Custom Dialogs](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Add Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)

@@ -40,7 +40,7 @@ By default, the editor's content area is always decorated by an external CSS fil
 
 This file is configured via the **ContentAreaCssFile** property and it decorates some of the elements in the content area in order to improve the user experience. The property exposed enables you to override the rules and define ones of your own (see **Example 2**).
 
-In addition to override this default stylization and preserve the user-friendly interface you could follow this [online live demo project](http://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/defaultcs.aspx#qsf-demo-source) for the [whole CSS file](http://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/EditorDefaultStylizaton.css) or use these example CSS rules:
+In addition to override this default stylization and preserve the user-friendly interface you could follow this [online live demo project](https://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/defaultcs.aspx#qsf-demo-source) for the [whole CSS file](https://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/EditorDefaultStylizaton.css) or use these example CSS rules:
 
 >caption Example 1: Default ContentAreaCssFile.css contents.
 

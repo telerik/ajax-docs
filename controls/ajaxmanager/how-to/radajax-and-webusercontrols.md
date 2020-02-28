@@ -54,7 +54,7 @@ Dim ram as RadAjaxManager = RadAjaxManager.GetCurrent(Page)
 
 ## Trigger AJAX Request from the Client
 
-If you need the manager instance at the code of a WebUserControl, for example, so that an AJAX request need to be triggered explicitly, you can get the manager by using the `RadAjaxManager.GetCurrent(Page)` method. The method will return `null` if there is no manager on the page, similar to the [ASP:ScriptManager implementation](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
+If you need the manager instance at the code of a WebUserControl, for example, so that an AJAX request need to be triggered explicitly, you can get the manager by using the `RadAjaxManager.GetCurrent(Page)` method. The method will return `null` if there is no manager on the page, similar to the [ASP:ScriptManager implementation](https://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
 
 >note With this approach, the initiator of the request is the RadAjaxManager, and so it will update only controls according to AjaxSettings where the ajax manager is the initiator.
 
@@ -193,4 +193,4 @@ End Sub
 
  * [Add AjaxSettings Programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%})
 
- * [User Controls](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Manager/UserControl/DefaultCS.aspx)
+ * [User Controls](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Manager/UserControl/DefaultCS.aspx)

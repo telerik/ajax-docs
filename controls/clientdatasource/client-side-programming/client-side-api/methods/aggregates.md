@@ -22,7 +22,7 @@ Method to return the calculated aggregate values of the **RadClientDataSource**.
 <telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
+            <Select Url="https://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
         </WebServiceDataSourceSettings>
     </DataSource>
     <Aggregates>

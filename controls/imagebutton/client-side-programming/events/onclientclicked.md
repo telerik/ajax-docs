@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadImageButton control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadImageButton's **CommandName** property
 
@@ -60,7 +60,7 @@ This event should be used in scenarios where the user needs to execute custom cl
 
 ## See Also
 
- * [ImageButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [ImageButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [ImageButton Object]({%slug imagebutton/client-side-programming/imagebutton-object%})
  
@@ -72,4 +72,4 @@ This event should be used in scenarios where the user needs to execute custom cl
  
  * [OnClientMouseOut]({%slug imagebutton/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

@@ -193,4 +193,4 @@ End Class
 
 # See Also
 
- * [Templates](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/templates/defaultcs.aspx)
+ * [Templates](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/templates/defaultcs.aspx)

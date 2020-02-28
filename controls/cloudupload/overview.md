@@ -42,6 +42,6 @@ The files are passed to a Handler with a single request or on chunks. The predef
 
 See Also
 
-[Full list of features of Telerik’s ASP.NET Cloud Upload](http://www.telerik.com/products/aspnet-ajax/cloud-upload.aspx)
+[Full list of features of Telerik’s ASP.NET Cloud Upload](https://www.telerik.com/products/aspnet-ajax/cloud-upload.aspx)
 
-[Overview demo of Telerik’s ASP.NET Cloud Upload](http://demos.telerik.com/aspnet-ajax/cloud-upload/examples/overview/defaultcs.aspx)
+[Overview demo of Telerik’s ASP.NET Cloud Upload](https://demos.telerik.com/aspnet-ajax/cloud-upload/examples/overview/defaultcs.aspx)

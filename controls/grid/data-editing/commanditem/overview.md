@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The **CommandItem** is a placeholder for commands that can perform some action on the selected/all items. See the [Command reference]( http://www.telerik.com/help/aspnet-ajax/grid-command-reference.html ) topic for details about the available commands.
+The **CommandItem** is a placeholder for commands that can perform some action on the selected/all items. See the [Command reference]( https://www.telerik.com/help/aspnet-ajax/grid-command-reference.html ) topic for details about the available commands.
 
 ![](images/grd_DefaultCommandItem.PNG)
 

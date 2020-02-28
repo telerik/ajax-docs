@@ -56,7 +56,7 @@ Please [validate](http://validator.w3.org/) the page output.
 To troubleshoot the issue, please open the url, specified in the error details. In the above example it is:
 `http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi`
 
-The most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html).
+The most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](https://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html).
 
 ## System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream) 
 

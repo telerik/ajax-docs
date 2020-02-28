@@ -34,7 +34,7 @@ The example demonstrates how to attach an ondblclick (on double click) event han
 <telerik:radeditor runat="server" ID="RadEditor2"
 OnClientLoad="OnClientLoad" >
    <Content>
-	   Sample Content <a href="http://www.telerik.com">Open Telerik.com</a> Sample Content  
+	   Sample Content <a href="https://www.telerik.com">Open Telerik.com</a> Sample Content  
    </Content>
 </telerik:radeditor> 
 ````
@@ -78,7 +78,7 @@ Here is the complete solution:
 <telerik:radeditor runat="server" ID="RadEditor1"
 OnClientLoad="OnClientLoad" >
   <Content>
-	   Sample Content <a href="http://www.telerik.com">Open Telerik.com</a> Sample Content  
+	   Sample Content <a href="https://www.telerik.com">Open Telerik.com</a> Sample Content  
   </Content>
 </telerik:radeditor> 
 ````

@@ -23,4 +23,4 @@ If automated tools report issues with `<iframe>` elements without a title, they 
 
  * [Section 508](http://www.section508.gov/)
 
- * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
+ * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG/)

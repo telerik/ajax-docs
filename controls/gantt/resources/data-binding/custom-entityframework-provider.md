@@ -130,7 +130,7 @@ Public Overrides Function DeleteAssignment(assignment As IAssignment) As IAssign
 End Function
 ````
 
-[Here](http://www.telerik.com/support/code-library/implementing-gantt-resources-with-custom-entity-provider) you can find a code library with a runnable sample project, based the above instructions.
+[Here](https://www.telerik.com/support/code-library/implementing-gantt-resources-with-custom-entity-provider) you can find a code library with a runnable sample project, based the above instructions.
 
 # See Also
 

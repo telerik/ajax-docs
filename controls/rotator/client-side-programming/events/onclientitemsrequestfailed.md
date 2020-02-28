@@ -10,7 +10,7 @@ position: 7
 
 # OnClientItemsRequestFailed
 
-The **ItemsRequestFailed** event is related the [Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx) functionality of the RadRotator. It is fired when the request has failed.
+The **ItemsRequestFailed** event is related the [Load On Demand](https://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx) functionality of the RadRotator. It is fired when the request has failed.
 
 The event handler receives two parameters:
 

@@ -10,7 +10,7 @@ position: 5
 
 # The Autosize Feature of the Built-in Dialogs is Enabled
 
-As of Q3 2013, the size of **RadEditor** dialogs is calculated via the [Autosize feature](http://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx) of the **RadWindow** controls.
+As of Q3 2013, the size of **RadEditor** dialogs is calculated via the [Autosize feature](https://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx) of the **RadWindow** controls.
 
 Since the Q3 2013 release, you can no longer set a custom size for the built-in dialogs using the **DialogDefinitions**	class.For more information, see the "How to set a custom size for a dialog"	section below.
 
@@ -25,7 +25,7 @@ Telerik is changing how **RadEditor** dialogs resize for several reasons:
 
 ## How to Set a Custom Size for a Built-in Dialog
 
-You can set a custom size for a built-in dialog using additional CSS rulesin their UserControl files. You should have already used the **ExternalDialogsPath** property to customize a built-in dialog. If you are not familiar with this approach, please examine the	"[ExternalDialogsPath property](http://www.telerik.com/help/aspnet-ajax/editor-externaldialogspath-property.html)" article and the	"[Editor - Customize Built-in Dialogs](http://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)" demo.
+You can set a custom size for a built-in dialog using additional CSS rulesin their UserControl files. You should have already used the **ExternalDialogsPath** property to customize a built-in dialog. If you are not familiar with this approach, please examine the	"[ExternalDialogsPath property](https://www.telerik.com/help/aspnet-ajax/editor-externaldialogspath-property.html)" article and the	"[Editor - Customize Built-in Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)" demo.
 
 After following the steps provided in the **Customize Built-in Dialogs** demo you should implement the CSS rule. First add a `<style>` tag in the UC file.	This rule should affect the body element of the document. Use a selector with higher CSS specificity than the default one and set the desired width and height attributes. For example, to resize the Document Manager you could use the following rule:
 
@@ -50,7 +50,7 @@ html.red<DialogName> body
 html.red<DialogName>.RadForm_<SkinName> body
 ````
 
-You can also define the CSS rules in a separate file and point the **DialogsCssFile** property of the **RadEditor** control to it.With this approach, you will not be forced to manipulate the UC files and you can easily modify the sizes of the dialogs.You can find more information about this property in the "[DialogsCssFile Property](http://www.telerik.com/help/aspnet-ajax/editor-dialogscssfile.html)" article.
+You can also define the CSS rules in a separate file and point the **DialogsCssFile** property of the **RadEditor** control to it.With this approach, you will not be forced to manipulate the UC files and you can easily modify the sizes of the dialogs.You can find more information about this property in the "[DialogsCssFile Property](https://www.telerik.com/help/aspnet-ajax/editor-dialogscssfile.html)" article.
 
 ## See Also
 
@@ -60,6 +60,6 @@ You can also define the CSS rules in a separate file and point the **DialogsCssF
 
  * [DialogsCssFile Property]({%slug editor/appearance-and-styling/dialogscssfile-property%})
 
- * [Demo: Editor - Customize Built-in Dialogs](http://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)
+ * [Demo: Editor - Customize Built-in Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)
 
- * [Demo: Window - Automatic Size Adjustment](http://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx)
+ * [Demo: Window - Automatic Size Adjustment](https://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx)

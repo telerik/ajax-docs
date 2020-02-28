@@ -34,7 +34,7 @@ The following example shows how to display external URL in a **RadPane** control
 <telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1"
    Orientation="Horizontal" width="90%" height="600px">
  <telerik:RadPane runat="server" id="LinkPane" Height="75">
-   <a href="http://www.telerik.com"
+   <a href="https://www.telerik.com"
 	  target="<%= ContentPane.ClientID %>">Telerik
    </a><br />
    <a href="http://www.msn.com"
@@ -45,7 +45,7 @@ The following example shows how to display external URL in a **RadPane** control
  </telerik:RadPane>
  <telerik:RadSplitBar runat="server" id="RadSplitBar1" />
  <telerik:RadPane runat="server" id="ContentPane"
-	 contenturl="http://www.telerik.com">
+	 contenturl="https://www.telerik.com">
    This text is never shown
  </telerik:RadPane>
 </telerik:RadSplitter>			

@@ -32,7 +32,7 @@ This article explains the **elastic design capabilities RadLinkButton offers**. 
 ````
 
 ````ASP.NET
-<telerik:RadLinkButton runat="server" ID="StandartButton" NavigateUrl="http://www.telerik.com" Target="_blank"
+<telerik:RadLinkButton runat="server" ID="StandartButton" NavigateUrl="https://www.telerik.com" Target="_blank"
 	Text="Elastic Button" Skin="Default" Width="200px">
 </telerik:RadLinkButton>
 ````

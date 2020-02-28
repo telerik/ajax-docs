@@ -10,7 +10,7 @@ position: 2
 
 # Localization
 
-Similarly to the Telerik RadEditor, the spellchecking component Telerik RadSpell can be easily localized. This means that you can translate all labels, tooltips, and error messages, by switching the RadEditor [Language](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radspell_language.html) property to the new localization.
+Similarly to the Telerik RadEditor, the spellchecking component Telerik RadSpell can be easily localized. This means that you can translate all labels, tooltips, and error messages, by switching the RadEditor [Language](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radspell_language.html) property to the new localization.
 
 **Localizing the SpellChecker dialog (<tool name="SpellCheck"/>):**
 

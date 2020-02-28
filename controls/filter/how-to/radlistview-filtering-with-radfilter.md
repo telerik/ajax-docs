@@ -156,4 +156,4 @@ End Sub
 ````
 
 
-Find a live demo illustrating the integration of RadFilter with RadListView [here](http://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx).
+Find a live demo illustrating the integration of RadFilter with RadListView [here](https://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx).

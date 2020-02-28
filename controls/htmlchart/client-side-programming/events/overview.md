@@ -14,25 +14,25 @@ position: 0
 
 * **OnLoad**—raised when the control is initialized.
 
-* [OnDrag](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-drag)—raised as long as the user is dragging the chart using the mouse or swipe gestures.
+* [OnDrag](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-drag)—raised as long as the user is dragging the chart using the mouse or swipe gestures.
 
-* [OnDragEnd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-dragEnd)—raised when when the user stops dragging the chart.
+* [OnDragEnd](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-dragEnd)—raised when when the user stops dragging the chart.
 
-* [OnDragStart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-dragStart)—raised when the user starts dragging the chart.
+* [OnDragStart](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-dragStart)—raised when the user starts dragging the chart.
 
-* [OnLegendItemClick](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemClick)—raised when an legend item is clicked.
+* [OnLegendItemClick](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemClick)—raised when an legend item is clicked.
 
-* [OnLegendItemHover](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemHover)—raised when an legend item is hovered.
+* [OnLegendItemHover](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemHover)—raised when an legend item is hovered.
 
-* [OnSeriesClick](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesClick)—rised when the user clicks the chart series.
+* [OnSeriesClick](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesClick)—rised when the user clicks the chart series.
 
-* [OnSeriesHover](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesHover)—rised when the user hovers the chart series.
+* [OnSeriesHover](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesHover)—rised when the user hovers the chart series.
 
-* [OnZoom](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoom)—raised as long as the user is zooming the chart using the mousewheel.
+* [OnZoom](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoom)—raised as long as the user is zooming the chart using the mousewheel.
 
-* [OnZoomEnd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoomEnd)—raised when the user stops zooming the chart.
+* [OnZoomEnd](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoomEnd)—raised when the user stops zooming the chart.
 
-* [OnZoomStart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoomStart)—raised when the user uses the mousewheel to zoom the chart.
+* [OnZoomStart](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-zoomStart)—raised when the user uses the mousewheel to zoom the chart.
 
 * [OnClientSeriesClicked]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%}) (Deprecated)
 
@@ -72,7 +72,7 @@ To use these events, simply write a JavaScript function that can be called when 
 </telerik:RadHtmlChart>
 ````
 
-All client-side events, except **OnLoad**, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the [Kendo UI HtmlChart API reference](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
+All client-side events, except **OnLoad**, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the [Kendo UI HtmlChart API reference](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
 
 ````ASP.NET
 <script type="text/javascript">

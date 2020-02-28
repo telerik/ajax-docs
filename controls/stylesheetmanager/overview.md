@@ -54,9 +54,9 @@ RadStyleSheetManager also needs the HttpHandler to be registered in the applicat
 
 
 
-The actual URL of the HttpHandler can be changed using the [HttpHandlerUrl](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html) property of the control.
+The actual URL of the HttpHandler can be changed using the [HttpHandlerUrl](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html) property of the control.
 
-If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the [EnableStyleSheetCombine](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html) property to *false*.
+If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the [EnableStyleSheetCombine](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html) property to *false*.
 
 
 
@@ -160,7 +160,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 			>
 
 
-			>caution In **Visual Basic** the name of the folder is [not honored](http://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx) so you need to be careful with the embedded resource name
+			>caution In **Visual Basic** the name of the folder is [not honored](https://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx) so you need to be careful with the embedded resource name
 			>
 
 
@@ -204,8 +204,8 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 
 
-You can download a [sample project](http://www.telerik.com/support/code-library/including-custom-stylesheets-as-webresources-to-radstylesheetmanager) from our code library section.
+You can download a [sample project](https://www.telerik.com/support/code-library/including-custom-stylesheets-as-webresources-to-radstylesheetmanager) from our code library section.
 
 ## Serving external StyleSheets through RadStyleSheetManager
 
-Since **Q2 2011 SP RadStyleSheetManager** provides the ability to combine external style sheets as well. [This](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager-serving-external-style-sheets.html) help topic describes the feature and how it is configured in more detail.
+Since **Q2 2011 SP RadStyleSheetManager** provides the ability to combine external style sheets as well. [This](https://www.telerik.com/help/aspnet-ajax/radstylesheetmanager-serving-external-style-sheets.html) help topic describes the feature and how it is configured in more detail.

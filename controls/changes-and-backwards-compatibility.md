@@ -29,7 +29,7 @@ Below you can find the release notes for versions prior to Q2 2010.
 
 * **RadInputManager** textboxes will by default have no CSS class if the Skin is set to an empty string (no skin). This ensures interoperability with RadFormDecorator, which only decorates textboxes with no CSS class. When using RadInputManager with custom CSS classes and no Skin, it is recommended to set all state CSS classes for the InputSettings, instead of just one or two - EnabledCssClass, HoveredCssClass, FocusedCssClass, InvalidCssClass, EmptyMessageCssClass, ReadOnlyCssClass, DisabledCssClass (or at least all CSS classes for states that will be used).In order to decorate RadInputManager textboxes with RadFormDecorator, set Skin="" and EnableEmbeddedBaseStylesheet="false" to the RadInputManager control.
 
-* **RadFormDecorator:** Buttons' height is increased to 22px. in order to fit and look better when placed next to RadInput or RadComboBox items. The previous button height was 21px. If you are using a custom skin, based on previous version, you should change your main skin's CSS as shown in [this sticky forum thread](http://www.telerik.com/community/forums/aspnet-ajax/form-decorator/q1-2010-button-s-height-change.aspx).
+* **RadFormDecorator:** Buttons' height is increased to 22px. in order to fit and look better when placed next to RadInput or RadComboBox items. The previous button height was 21px. If you are using a custom skin, based on previous version, you should change your main skin's CSS as shown in [this sticky forum thread](https://www.telerik.com/community/forums/aspnet-ajax/form-decorator/q1-2010-button-s-height-change.aspx).
 
 ## Telerik® UI for ASP.NET AJAX Q3 2009 SP1
 
@@ -39,7 +39,7 @@ Below you can find the release notes for versions prior to Q2 2010.
 
 All controls from the Telerik® UI for ASP.NET AJAX suite are fully backwards compatible with their previous version with the following exceptions:
 
-* **RadDock for ASP.NET AJAX** - Custom RadDock skins are not compatible with the improved rendering of the control that was introduced with Q3 2009. An article that explains how to rework old custom skins is available on the following page:[http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx](http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx)
+* **RadDock for ASP.NET AJAX** - Custom RadDock skins are not compatible with the improved rendering of the control that was introduced with Q3 2009. An article that explains how to rework old custom skins is available on the following page:[https://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx](https://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx)
 
 * **RadXmlHttpPanel for ASP.NET AJAX** - public delegate void XmlHttpPanelEventHandler(object sender, RadXmlHttpPanelEventArgs e); is taken out from RadXmlHttpPanel class
 
@@ -97,7 +97,7 @@ All controls from the Telerik® UI for ASP.NET AJAX suite are fully backwards co
 
 **Breaking change**:
 
-Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [http://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx](http://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx)
+Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [https://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx](https://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx)
 
 **Potentially breaking changes**:
 
@@ -107,7 +107,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## RadPanelBar
 
-* Skinning: background-position declarations were moved from base stylesheet to skins. Migration tool is available [here](http://www.telerik.com/community/forums/aspnet-ajax/general-discussions/q2-breaks-my-custom-skins-help.aspx).
+* Skinning: background-position declarations were moved from base stylesheet to skins. Migration tool is available [here](https://www.telerik.com/community/forums/aspnet-ajax/general-discussions/q2-breaks-my-custom-skins-help.aspx).
 
 
 
@@ -121,15 +121,15 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## Common for all controls
 
-* Face lift for all skins and consistency in CSS naming conventions which result in breaking changes for certain scenarios. Please, test before upgrading to the new version. For more details refer to [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/09-02-23/radcontrols-for-asp-net-ajax-receive-a-major-face-lift.aspx)
+* Face lift for all skins and consistency in CSS naming conventions which result in breaking changes for certain scenarios. Please, test before upgrading to the new version. For more details refer to [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/09-02-23/radcontrols-for-asp-net-ajax-receive-a-major-face-lift.aspx)
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
->note To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
+>note To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](https://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
 >
 
 
-* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to this [blogpost](http://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) as well as the bottom paragraph of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%}).
+* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to this [blogpost](https://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) as well as the bottom paragraph of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%}).
 
 ## Telerik RadAjax for ASP.NET AJAX Q1 2009#
 ````ASPNET
@@ -141,7 +141,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## RadCalendar for ASP.NET AJAX Q1 2009
 
-* Embedded skins improvements - all calendar skins received major improvements/enhancements. See [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/calendar/radcalendar-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary.
+* Embedded skins improvements - all calendar skins received major improvements/enhancements. See [this forum thread](https://www.telerik.com/community/forums/aspnet-ajax/calendar/radcalendar-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary.
 
 ## RadComboBox for ASP.NET AJAX Q1 2009
 
@@ -167,7 +167,7 @@ In this version of the control, a number of changes have been made with respect 
 
 * The Label, associated with the slider has a CSS class of "**rgSliderLabel**".
 
-* Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic]({%slug grid/appearance-and-styling/modifying-existing-skins%}) from the documentation for more info about the changes and [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/grid/radgrid-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary. Below is the most important part of it: CSS Classes Description
+* Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic]({%slug grid/appearance-and-styling/modifying-existing-skins%}) from the documentation for more info about the changes and [this forum thread](https://www.telerik.com/community/forums/aspnet-ajax/grid/radgrid-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary. Below is the most important part of it: CSS Classes Description
 
  Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins CSS classes signature conforms to the same concepts): 
 
@@ -255,7 +255,7 @@ In this version of the control, a number of changes have been made with respect 
 
 ## RadInput for ASP.NET AJAX Q1 2009
 
-* Embedded skins improvements - all input skins received major improvements/enhancements. See [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/input/radinput-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary.
+* Embedded skins improvements - all input skins received major improvements/enhancements. See [this forum thread](https://www.telerik.com/community/forums/aspnet-ajax/input/radinput-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary.
 
 ## RadMenu for ASP.NET AJAX Q1 2009
 
@@ -351,7 +351,7 @@ with this one:
 **Telerik RadEditor for ASP.NET AJAX Q3 2008**
 
 
-Removed dependency on SessionState. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](http://www.telerik.com/support/kb/details/using-session-state-in-custom-editor-dialogs)
+Removed dependency on SessionState. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](https://www.telerik.com/support/kb/details/using-session-state-in-custom-editor-dialogs)
 
 
 

@@ -54,7 +54,7 @@ DBadapter.Fill(MyUsersData, "AccessLevel")
 
 As you can see, a requirement for the proper functioning of GridDropDownColumn is that **all column values** referenced by the **DataField** attribute match the column values referenced by the **ListValueField** attribute. If there are values in the **GRID_AccessLevelID** column of the WebUsers table which do not have corresponding equal values in the **DLL_AccessLevelID** column of the **AccessLevel** table, then the grid will display the *default first value* from the *Description* column as it will not "know" what is the correct field.
 
-Online demo which demonstrates the behavior of GridDropDownColumn is available [ here ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultVB.aspx).
+Online demo which demonstrates the behavior of GridDropDownColumn is available [ here ](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultVB.aspx).
 
 >note The built-in GridDropDownColumn is designed to be used mainly with DataTables in order to easily map and generate their dropdown items values in conjunction with the DataField/ListValueField/DataSourceID/ListDataMember values of the column. For custom objects collections consider replacing the GridDropDownColumn with template column holding MS DropDownList in its edit template (generating/binding the items for the MS DropDownList inside the ItemDataBound handler of RadGrid).
 >
@@ -182,7 +182,7 @@ As of version **2010.Q2** of Telerik controls, GridDropDownColumn supports autom
 
 * **ItemsPerRequest** - Gets or sets the number of Items the RadComboBox editor will load per Item request (by default -1, meaning all items will be requested).
 
->note Load-on-demand is supported by the[ RadComboBox ](http://demos.telerik.com/aspnet-ajax/combobox/examples/overview/defaultcs.aspx)editor only. This requires DropDownControlType="RadComboBox" (default value). Additionally,load-on-demand works only with declarative data source controls set through the DataSourceID property of the column. Using DataSets and binding the column through its DataMember property is not compatible with automatic load-on-demand.
+>note Load-on-demand is supported by the[ RadComboBox ](https://demos.telerik.com/aspnet-ajax/combobox/examples/overview/defaultcs.aspx)editor only. This requires DropDownControlType="RadComboBox" (default value). Additionally,load-on-demand works only with declarative data source controls set through the DataSourceID property of the column. Using DataSets and binding the column through its DataMember property is not compatible with automatic load-on-demand.
 >
 
 
@@ -201,4 +201,4 @@ It is important to note the differences in the column editor with and without lo
 |ComboBoxControl.SelectedIndex|Always returns -1|Returns index of selected item from RadComboBox|
 |ComboBoxControl.SelectedItem|Always returns null|Returns selected item from RadComboBox|
 
-For a live demo of the GridDropDownColumn features, please visit the [RadGrid Column Types online QSF example](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx). To learn more about RadComboBox and its load-on-demand support, please refer to the [Automatic Load-On-Demand for RadComboBox](http://www.telerik.com/help/aspnet-ajax/combobox-automatic-load-on-demand.html) help article.
+For a live demo of the GridDropDownColumn features, please visit the [RadGrid Column Types online QSF example](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx). To learn more about RadComboBox and its load-on-demand support, please refer to the [Automatic Load-On-Demand for RadComboBox](https://www.telerik.com/help/aspnet-ajax/combobox-automatic-load-on-demand.html) help article.

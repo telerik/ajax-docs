@@ -14,7 +14,7 @@ position: 0
 
 A complete list of all changes can be found on Release History page:
 
-[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx ](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+[https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx ](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadEditor for ASP.NET AJAX Q1 2010
 
@@ -38,7 +38,7 @@ RadEditor for ASP.NET AJAX which is part of the Q2 2009 release is fully backwar
 
 ## Telerik RadEditor for ASP.NET AJAX Q3 2008
 
-__Removed dependency on SessionState__. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](http://www.telerik.com/support/kb/aspnet-ajax/editor/session-in-dialogs.aspx)
+__Removed dependency on SessionState__. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](https://www.telerik.com/support/kb/aspnet-ajax/editor/session-in-dialogs.aspx)
 
 ## Telerik RadEditor for ASP.NET AJAX Q2 2008
 

@@ -7,7 +7,7 @@ description: Telerik.Web.UI.PivotGridReportFilter
 # Telerik.Web.UI.PivotGridReportFilter
 
 RadPivotGrid report filter
-            See the http://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/functionality/filtering Filtering topicfor more information.
+            See the https://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/functionality/filtering Filtering topicfor more information.
 
 ## Inheritance Hierarchy
 

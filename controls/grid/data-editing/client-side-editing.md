@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-RadGrid for ASP.NET AJAX supports client-side binding to web services or page methods as demonstrated in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/InsertUpdateDelete/DefaultCS.aspx) of the product. In order to assign data source for the grid and refresh its state on the client, utilize the set_dataSource(dataSource) and dataBind() methods from its client-side API. Keep in mind that the data source passed as an argument to the set_dataSource method should have JSON signature which can be serialized by a web service or a page method.
+RadGrid for ASP.NET AJAX supports client-side binding to web services or page methods as demonstrated in [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/InsertUpdateDelete/DefaultCS.aspx) of the product. In order to assign data source for the grid and refresh its state on the client, utilize the set_dataSource(dataSource) and dataBind() methods from its client-side API. Keep in mind that the data source passed as an argument to the set_dataSource method should have JSON signature which can be serialized by a web service or a page method.
 
 The example illustrates how to:
 

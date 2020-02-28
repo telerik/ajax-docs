@@ -95,7 +95,7 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 ## Downloading a NuGet Package
 
-You can download a *.nupkg* file to [build a private feed](http://www.telerik.com/blogs/power-your-projects-with-telerik---now-with-the-convenience-of-nuget) for your company by following the steps below.
+You can download a *.nupkg* file to [build a private feed](https://www.telerik.com/blogs/power-your-projects-with-telerik---now-with-the-convenience-of-nuget) for your company by following the steps below.
 
 >important Such a feed must be private (i.e., not available to the general Internet) and the standard developer-seat [licensing model]({%slug introduction/licensing/license-agreement%}) applies (i.e., the developers working with the controls must have active licenses). If you have questions on the licensing scheme, send them to telerik-sales@progress.com.
 
@@ -116,7 +116,7 @@ If you are using the Telerik NuGet feed on an automated build environment, you c
 
 You can read more about adding credentials via the NuGet.config in the following page: [https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials).
 
-You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](http://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC.
+You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC.
 
 
 ## Troubleshooting

@@ -33,7 +33,7 @@ This event is helpful if you need to get the client-side instance of the RadChat
 
 # See Also
 
- * [Kendo UI Chat Events](http://docs.telerik.com/kendo-ui/api/javascript/ui/chat#events)
+ * [Kendo UI Chat Events](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat#events)
 
  * [RadChat Client-Side events Overview]({%slug chat/client-side-programming/events%})
 

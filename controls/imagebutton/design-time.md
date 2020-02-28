@@ -34,7 +34,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug imagebutton/a
 
 * Links navigate you directly to examples, help, and code library.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 
 ## See Also
 
@@ -42,5 +42,5 @@ The **Skin** drop-down displays a list of available [skins]({%slug imagebutton/a
  
  * [RadImageButton Getting Started]({%slug imagebutton/getting-started%})
  
- * [RadImageButton Online Demos](http://demos.telerik.com/aspnet-ajax/imagebutton/examples/overview/defaultcs.aspx)
+ * [RadImageButton Online Demos](https://demos.telerik.com/aspnet-ajax/imagebutton/examples/overview/defaultcs.aspx)
 

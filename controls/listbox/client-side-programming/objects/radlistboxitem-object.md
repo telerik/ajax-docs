@@ -75,4 +75,4 @@ else {
 
  * [Overview]({%slug listbox/client-side-programming/overview%})
 
- * [Add/Remove/Disable Items on the client Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/clientside/addremovedisable/defaultcs.aspx)
+ * [Add/Remove/Disable Items on the client Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/clientside/addremovedisable/defaultcs.aspx)

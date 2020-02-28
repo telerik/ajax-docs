@@ -76,9 +76,9 @@ The axes are two perpendicular lines that define the scale of the chart and show
 
 ## The Markup Used to Create a Line and Pie Chart
 
-**Figure 1** shows the main structure of the control for a **RadHtmlChart**. **Example 1** shows the markup used to create **Figure 1**. The markup used in **Example 1** is taken from the	[Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx) of the RadHtmlChart.
+**Figure 1** shows the main structure of the control for a **RadHtmlChart**. **Example 1** shows the markup used to create **Figure 1**. The markup used in **Example 1** is taken from the	[Line Chart online demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx) of the RadHtmlChart.
 
->caption Example 1: The markup below sets many of the properties for the **RadHtmlChart** in **Figure 1**, which is derived from the [Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx).
+>caption Example 1: The markup below sets many of the properties for the **RadHtmlChart** in **Figure 1**, which is derived from the [Line Chart online demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx).
 
 ````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="LineChart" Width="800" Height="500" Transitions="true">
@@ -173,7 +173,7 @@ The axes are two perpendicular lines that define the scale of the chart and show
 </telerik:RadHtmlChart>
 ````
 
-**Figure 2** (showing the Pie chart) is the result of the markup shown in **Example 2**. Most of the properties are set just to show their position in the markup.**Example 2** is taken from the [Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
+**Figure 2** (showing the Pie chart) is the result of the markup shown in **Example 2**. Most of the properties are set just to show their position in the markup.**Example 2** is taken from the [Pie Chart online demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
 
 >caption Example 2: This markup shows how to use a **RadHtmlChart** to create the Pie chart shown in **Figure 2**.
 
@@ -213,9 +213,9 @@ The axes are two perpendicular lines that define the scale of the chart and show
 
 ## See Also
 
- * [RadHtmlChart Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx)
+ * [RadHtmlChart Line Chart online demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx)
 
- * [RadHtmlChart Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx)
+ * [RadHtmlChart Pie Chart online demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx)
 
  * [RadHtmlChart Using the RadHtmlChart Visual Designer]({%slug htmlchart/design-time/configuration-wizard%})
 

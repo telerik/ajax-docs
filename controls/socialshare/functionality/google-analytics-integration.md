@@ -25,6 +25,6 @@ Key features:
 
 # See Also
 
- * [See this in action in our Online Demos](http://demos.telerik.com/aspnet-ajax/socialshare/examples/googleanalytics/defaultcs.aspx)
+ * [See this in action in our Online Demos](https://demos.telerik.com/aspnet-ajax/socialshare/examples/googleanalytics/defaultcs.aspx)
 
  * [More information on Google Analytics](https://developers.google.com/analytics/devguides/)

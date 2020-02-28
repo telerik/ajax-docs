@@ -261,4 +261,4 @@ End Sub
 
 Online demo:
 
-[RadListView - Selecting items ](http://demos.telerik.com/aspnet-ajax/listview/examples/selecting/defaultcs.aspx)
+[RadListView - Selecting items ](https://demos.telerik.com/aspnet-ajax/listview/examples/selecting/defaultcs.aspx)

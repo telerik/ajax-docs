@@ -35,7 +35,7 @@ The command names are listed bellow:
 
 * **ChangePageSizeCommandName** represents the ChangePageSize command name fires **RadListView.PageSizeChanged** event. It can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging** property is set to true. Their **CommandName** should be set to **'ChangePageSize'** and **CommandArgument** must be the actual number representing the new page size that will be set.
 
-Keep in mind that you need to specify ItemPlaceholderID property value for RadListView which matches the id of an ASP.NET server control and will be used as a holder of the actual listview data content. The RadListView instance in [this example](http://demos.telerik.com/aspnet-ajax/ListView/examples/Paging/IntegratedPaging/DefaultCS.aspx) has asp PlaceHolder defined inside its LayoutTemplates for this purpose.
+Keep in mind that you need to specify ItemPlaceholderID property value for RadListView which matches the id of an ASP.NET server control and will be used as a holder of the actual listview data content. The RadListView instance in [this example](https://demos.telerik.com/aspnet-ajax/ListView/examples/Paging/IntegratedPaging/DefaultCS.aspx) has asp PlaceHolder defined inside its LayoutTemplates for this purpose.
 
 The following declaration demonstrates how to use the internal event bubbling mechanism of RadListView for ASP.NET AJAX to execute paging operations using buttons residing inside the listview's body.
 

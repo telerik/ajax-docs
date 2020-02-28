@@ -16,8 +16,8 @@ position: 9
 
 Generally speaking, the ajax controls are using xmlhttp requests which update silently parts of the page. The browser **Back** and **Forward** functionality is only available when a full postback has occurred and that is the reason for them not to remember the last page state after ajax request.
 
-You can however enable the browser back and forward buttons by enabling history through the ScriptManager on the page. For more information refer to the below articles:[http://msdn.microsoft.com/en-us/library/cc488548.aspx](http://msdn.microsoft.com/en-us/library/cc488548.aspx)
+You can however enable the browser back and forward buttons by enabling history through the ScriptManager on the page. For more information refer to the below articles:[https://msdn.microsoft.com/en-us/library/cc488548.aspx](https://msdn.microsoft.com/en-us/library/cc488548.aspx)
 
-[http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.addhistorypoint.aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.addhistorypoint.aspx)
+[https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.addhistorypoint.aspx](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.addhistorypoint.aspx)
 
 [http://dotnetslackers.com/articles/aspnet/AFirstLookAtASPNETExtensions35HistoryPoints.aspx](http://dotnetslackers.com/articles/aspnet/AFirstLookAtASPNETExtensions35HistoryPoints.aspx)

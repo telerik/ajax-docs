@@ -139,7 +139,7 @@ Page.Header.Controls.Add(link)
 
 ### Declaratively - Using RadStyleSheetManager
 
-Using the [RadStyleSheetManager](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html) control to register CSS files, can be beneficial in several ways, or in some cases may be even required:
+Using the [RadStyleSheetManager](https://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html) control to register CSS files, can be beneficial in several ways, or in some cases may be even required:
 
 * RadStyleSheetManager can improve the page performance by combining the CSS files into one on the fly and thus, reducing the number of HTTP requests;
 

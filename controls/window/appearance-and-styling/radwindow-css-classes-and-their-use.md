@@ -217,7 +217,7 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 	![RadWindow Command Sprites Images](images/window-commandbuttonsprites.gif)
 	
-	On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
+	On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](https://www.w3schools.com/css/pr_background-position.asp) property.
 
 1. WindowHorizontalSprites.gif* - the images for RadWindow's horizontal parts and the images for the "OK" and "Cancel" buttons of RadAlert, RadPrompt and RadConfirm:
 	
@@ -344,7 +344,7 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 
 1. Repeat Steps 5 - 9 for each of the remaining images
 
-1. After you are over and done with this, save your work and reload the page. You will have a brand new skin based on [Telerik](http://www.telerik.com)'s Default skin of RadWindow.
+1. After you are over and done with this, save your work and reload the page. You will have a brand new skin based on [Telerik](https://www.telerik.com)'s Default skin of RadWindow.
 
 	![RadWindow Before](images/radwindowbefore.gif)
 

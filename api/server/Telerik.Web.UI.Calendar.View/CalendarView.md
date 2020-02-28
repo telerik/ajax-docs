@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.View.CalendarView
 # Telerik.Web.UI.Calendar.View.CalendarView
 
 Summary description for CalendarView.
-            Related to http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefunctionality.
+            Related to https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefunctionality.
 
 ## Inheritance Hierarchy
 

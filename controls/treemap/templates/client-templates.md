@@ -54,4 +54,4 @@ As mentioned above, the **RadTreeMap** supports only **ClientTemplate**. This is
 
 # See Also
 
- * [Client Template Online Demo](http://demos.telerik.com/aspnet-ajax/treemap/functionality/client-template/defaultcs.aspx)
+ * [Client Template Online Demo](https://demos.telerik.com/aspnet-ajax/treemap/functionality/client-template/defaultcs.aspx)

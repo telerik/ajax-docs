@@ -12,7 +12,7 @@ position: 0
 
 
 
->important The last release of RadEditor for MOSS is 5.8.16 (Q2 2012) and therefore it is no longer supported. This is a direct result of the fact that	Microsoft are discontinuing MOSS and that .NET 2.0 is also not supported since 2011. More information on the matter is available [in this blog post](http://blogs.telerik.com/aspnet-ajax/posts/12-08-20/radeditor-for-moss-sharepoint-2007-discontinued-as-of-q2-2012.aspx).
+>important The last release of RadEditor for MOSS is 5.8.16 (Q2 2012) and therefore it is no longer supported. This is a direct result of the fact that	Microsoft are discontinuing MOSS and that .NET 2.0 is also not supported since 2011. More information on the matter is available [in this blog post](https://blogs.telerik.com/aspnet-ajax/posts/12-08-20/radeditor-for-moss-sharepoint-2007-discontinued-as-of-q2-2012.aspx).
 
 
 

@@ -20,7 +20,7 @@ There are several ways to use the **RadCheckBox** via the keyboard only:
 
 ## See Also
 
- * [Live Demo: RadCheckBox Keyboard Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/keyboard-support/defaultcs.aspx)
+ * [Live Demo: RadCheckBox Keyboard Support](https://demos.telerik.com/aspnet-ajax/checkbox/examples/keyboard-support/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug checkbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

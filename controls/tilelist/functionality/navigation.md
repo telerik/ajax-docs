@@ -36,7 +36,7 @@ The possible targets for the navigation are similar to those a standard *anchor*
 
 
 >note If the **AutoPostBack** property of the **RadTileList** control is set to **true** a postback will occur instead of navigation. By default (AutoPostBack=false) each tile will act like a large hyperlink.
->To allow certain tiles to navigate to a page while keeping AutoPostBack=true for the TileList, examine the [Allow Tile Navigation with AutoPostBack=true in RadTileList](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/allow-tile-navigation-with-autopostback=true-in-radtilelist) KB article.
+>To allow certain tiles to navigate to a page while keeping AutoPostBack=true for the TileList, examine the [Allow Tile Navigation with AutoPostBack=true in RadTileList](https://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/allow-tile-navigation-with-autopostback=true-in-radtilelist) KB article.
 
 
 
@@ -47,12 +47,12 @@ The following code snippet examines the possible values of the the Tiles' **Targ
 	SelectionMode="Multiple">
 	<Groups>
 		<telerik:TileGroup>
-			<telerik:RadImageAndTextTile Shape="Wide" NavigateUrl="http://www.telerik.com/developer-productivity-tools.aspx"
+			<telerik:RadImageAndTextTile Shape="Wide" NavigateUrl="https://www.telerik.com/developer-productivity-tools.aspx"
 				Target="_blank" Text="UI controls for ASP.NET AJAX, MVC, WPF, Silverlight, Windows 8 and Windows Phone"
 				ImageUrl="../../DevTools.png">
 			</telerik:RadImageAndTextTile>
 
-			<telerik:RadContentTemplateTile NavigateUrl="http://www.telerik.com/community/forums/aspnet-ajax.aspx"
+			<telerik:RadContentTemplateTile NavigateUrl="https://www.telerik.com/community/forums/aspnet-ajax.aspx"
 				Target="_blank" Shape="Wide">
 				<ContentTemplate>
 					<div style="padding: 10px;">
@@ -65,7 +65,7 @@ The following code snippet examines the possible values of the the Tiles' **Targ
 				</ContentTemplate>
 			</telerik:RadContentTemplateTile>
 
-			<telerik:RadImageTile NavigateUrl="http://www.telerik.com/help/aspnet-ajax/introduction.html"
+			<telerik:RadImageTile NavigateUrl="https://www.telerik.com/help/aspnet-ajax/introduction.html"
 				 ImageUrl="../../img_documentation.png" Shape="Wide">
 				<Title Text="Documentation"></Title>
 			</telerik:RadImageTile>
@@ -84,7 +84,7 @@ The following code snippet examines the possible values of the the Tiles' **Targ
 		</telerik:TileGroup>
 
 		<telerik:TileGroup>
-			<telerik:RadTextTile Name="Telerik" NavigateUrl="http://www.telerik.com" Shape="Wide">
+			<telerik:RadTextTile Name="Telerik" NavigateUrl="https://www.telerik.com" Shape="Wide">
 				<Title Text="Visit Telerik"></Title>
 			</telerik:RadTextTile>
 

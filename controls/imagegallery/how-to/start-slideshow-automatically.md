@@ -29,6 +29,6 @@ In addition you can also enable looping for the items. This way the slideshow wi
 
 # See Also
 
-* [Slideshow for RadImageGallery](http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/functionality/animations#slideshow)
+* [Slideshow for RadImageGallery](https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/functionality/animations#slideshow)
 
 

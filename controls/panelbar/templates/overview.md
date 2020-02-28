@@ -96,7 +96,7 @@ You can define a global `ItemTemplate` and change it for a specific item (see **
 
 The following example shows a panel bar that uses a global template on child items as a data entry form. The root level items use an item template to override the default template on child items:
 
->tip For an example of Content Templates, see the [PanelBar / Templates](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx) demo.
+>tip For an example of Content Templates, see the [PanelBar / Templates](https://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx) demo.
 
 
 
@@ -277,4 +277,4 @@ End Class
 
  * [Adding Templates at Designtime]({%slug panelbar/templates/adding-templates-at-designtime%})
 
- * [Demo: PanelBar / Templates](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx)
+ * [Demo: PanelBar / Templates](https://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx)

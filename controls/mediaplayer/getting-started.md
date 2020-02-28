@@ -40,7 +40,7 @@ Configuring **RadMediaPlayer** is a quite straightforward and not time-consuming
 |Firefox|YES|YES|YES|
 |Opera|YES|YES|YES|
 
-You can find additional and updated information about the supported HTML5 formats [here](http://www.w3schools.com/html/html5_video.asp).
+You can find additional and updated information about the supported HTML5 formats [here](https://www.w3schools.com/html/html5_video.asp).
 
 >note
 FLV support - For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash `<object>`, instead of the default `<video>` element. This improvement enables the RadMediaPlayer to support FLV video format on all browsers by rendering as an `<object>` automatically when the provided video is of FLV format.
@@ -87,7 +87,7 @@ Since the player is tightly dependent on the audio functionality provided by the
 |Firefox|YES|YES|YES|
 |Opera|YES|YES|YES|
 
-You can find additional and updated information about the supported HTML5 formats [here](http://www.w3schools.com/html/html5_audio.asp).
+You can find additional and updated information about the supported HTML5 formats [here](https://www.w3schools.com/html/html5_audio.asp).
 
 Adding their respective MIME settings to the Web Config file of our web site can be done as follows:
 
@@ -116,4 +116,4 @@ You can easily enable users to play YouTube videos on your web site by including
 Additional arguments, e.g. time, are not supported:
 [https://www.youtube.com/watch?t=115&v=rLtTuFbuf1c](https://www.youtube.com/watch?t=115&v=rLtTuFbuf1c)
 
-Playing a YouTube Playlist also requires a YouTube API Key in the Web.Config file. You can find additional details [here](http://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist#youtube-playlist).
+Playing a YouTube Playlist also requires a YouTube API Key in the Web.Config file. You can find additional details [here](https://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist#youtube-playlist).

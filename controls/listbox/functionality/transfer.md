@@ -42,4 +42,4 @@ Please check [this help topic]({%slug listbox/data-binding/automatic-database-up
 
  * [Localization]({%slug listbox/accessibility-and-internationalization/localization%})
 
- * [Transfer Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/transfer/defaultcs.aspx)
+ * [Transfer Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/transfer/defaultcs.aspx)

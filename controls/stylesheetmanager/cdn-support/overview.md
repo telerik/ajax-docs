@@ -80,9 +80,9 @@ Note, that the first line will enable the CDN support for the [javascript files]
 
 The Telerik CDN uses the following host names for loading the control resources:
 
-* **http://aspnet-scripts.telerikstatic.com** - for the scripts;
+* **https://aspnet-scripts.telerikstatic.com** - for the scripts;
 
-* **http://aspnet-skins.telerikstatic.com** - for the skins (css and images);
+* **https://aspnet-skins.telerikstatic.com** - for the skins (css and images);
 
 Your users need to have access to the above URLs.
 
@@ -105,17 +105,17 @@ Let's add some RadControls on the page (RadMenu, RadTabStrip, RadListBox) and Ra
 * The needed CSS files are loaded from the CDN network. If the browser supports compression (the request has **Accept-Encoding** HTTP header set to *gzip,deflate*) then the files are served **compressed**. The compression is done before uploading of the files to the CDN network, so there are no CPU cycles on the server to compress at run-time. If the browser is **IE6** then the files are served **uncompressed** (from another URL) that is because earlier versions of the browser has problems with decompressing the output. Here is how the html output look like:
 
 ````HTML
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Menu.css" type="text/css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Menu.css" type="text/css"
 	rel="stylesheet" class="Telerik_stylesheet" />
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Outlook/Menu.Outlook.css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Outlook/Menu.Outlook.css"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/TabStrip.css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/TabStrip.css"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Default/TabStrip.Default.css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Default/TabStrip.Default.css"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/ListBox.css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/ListBox.css"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Hay/ListBox.Hay.css"
+<link href="https://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Hay/ListBox.Hay.css"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
 ````
 	
@@ -140,5 +140,5 @@ Note that the CSS files from the CDN are placed in the **/ajaxz/** folder - this
 
 ## Additional Resources
 
-* [CDN Fallback to Local Resources](http://www.telerik.com/support/code-library/cdn-fallback)
+* [CDN Fallback to Local Resources](https://www.telerik.com/support/code-library/cdn-fallback)
 

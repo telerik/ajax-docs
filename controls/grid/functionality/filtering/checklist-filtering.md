@@ -633,8 +633,8 @@ End Sub
 
 ## See Also
 
- * [CheckList FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
+ * [CheckList FilterType demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
 
- * [Excel-like filtering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
+ * [Excel-like filtering demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
 
  * [Operate with the FilterExpression Manually]({% slug grid/how-to/filtering/operate-with-the-filterexpression-manually %})

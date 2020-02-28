@@ -14,7 +14,7 @@ position: 0
 
 **Insert operation**Generally, there are three common techniques to insert grid row with **InPlace** and **EditForms** edit mode:
 
-1. Enabling the automatic operations for the control - this is a codeless approach and requires zero lines of code (see [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more info).
+1. Enabling the automatic operations for the control - this is a codeless approach and requires zero lines of code (see [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more info).
 
 1. Use the **ExtractValuesFromItem(dictonaryObject, editedItem)** method. You can create an empty dictionary object and pass it as first parameter of the **ExtractValuesFromItem()** method to extract the values from the inserted item (which is the second parameter to that method). The dictionary object will hold **key -> value** pairs where each **key** will be the **DataField**of the insertion field column and the corresponding **value** will be the data entered by the user.
 

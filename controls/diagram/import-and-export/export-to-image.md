@@ -14,7 +14,7 @@ You can export **RadDiagram** as an image on the client. This is done in two sim
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the [Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
-1. Call the [exportImage](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage) method of the client-side object of the diagram.
+1. Call the [exportImage](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage) method of the client-side object of the diagram.
 
 >caution The export to image functionality is currently supported in Firefox, Chrome, IE10+ and Opera 15.0+ (Blink).
 
@@ -50,10 +50,10 @@ You can export **RadDiagram** as an image on the client. This is done in two sim
 </script>
 ````
 
-You can find a list of the available parameters of the **exportImage** method in the [Kendo UI Diagram API Reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage).
+You can find a list of the available parameters of the **exportImage** method in the [Kendo UI Diagram API Reference](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage).
 
 # See Also
 
  * [RadDiagram Client-Side Basics]({%slug diagram/client-side-programming/overview%})
 
- * [exportImage method of Kendo UI Diagram](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage)
+ * [exportImage method of Kendo UI Diagram](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportImage)

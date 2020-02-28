@@ -34,4 +34,4 @@ The event handler receives two parameters:
 
  * [Client Templates Overview]({%slug combobox/templates/client-templates%})
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax-beta/combobox/examples/functionality/clienttemplates/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax-beta/combobox/examples/functionality/clienttemplates/defaultcs.aspx)

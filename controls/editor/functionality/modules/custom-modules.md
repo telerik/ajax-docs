@@ -63,6 +63,6 @@ If you have a RadEditor with modules already on the page, you can keep all modul
 
 ## See Also
 
- * [Built-in Modules](http://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
+ * [Built-in Modules](https://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
 
- * [Custom Modules](http://demos.telerik.com/aspnet-ajax/editor/examples/custommodules/defaultcs.aspx)
+ * [Custom Modules](https://demos.telerik.com/aspnet-ajax/editor/examples/custommodules/defaultcs.aspx)

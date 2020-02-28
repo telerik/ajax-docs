@@ -18,7 +18,7 @@ The **RadSocialShare** allows the developer to customize the preset content the 
 
 The other options **RadSocialShare** provides are the **UrlToShare** and **TitleToShare** properties. With them you can control the location to which the link points - you can set the **UrlToShare** property to any URL you wish the user to share, not just the current page. If this property alone is set it also becomes the title of the post. You can then optionally set the **UrlToShare** to have a human-readable title of the post instead of the URL.
 
-You can see this in action in [this online demo]( http://demos.telerik.com/aspnet-ajax/socialshare/examples/sharebar/defaultcs.aspx )
+You can see this in action in [this online demo]( https://demos.telerik.com/aspnet-ajax/socialshare/examples/sharebar/defaultcs.aspx )
 
 In short - here is the logic in which these priorities are set:
 

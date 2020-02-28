@@ -22,7 +22,7 @@ RadEditor for ASP.NET AJAX can provide a high degree of XHTML 1.1 compliance, wh
 
 Although it is not possible to guarantee 100% XHTML compliant content, RadEditor for ASP.NET AJAX provides the following tools, which significantly ease the task of producing valid content:
 
-1. [XHTML Validator](http://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx) dialog
+1. [XHTML Validator](https://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx) dialog
 
 1. Out-of-the-box **ConvertToXhtml** and **ConvertFontToSpan** enabled client-side filters (performs client-side XHTML conversion)
 
@@ -62,4 +62,4 @@ XHTML stands for E(**X**)tensible (**H**)yper(**T**)ext (**M**)arkup (**L**)angu
 
 ## See Also
 
- * [Accessibility Compliance](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)
+ * [Accessibility Compliance](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)

@@ -61,10 +61,10 @@ In accordance with these guidelines W3C defines three levels of conformance deve
 
 
 
-For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://www.w3.org/TR/WAI-WEBCONTENT/](http://www.w3.org/TR/WAI-WEBCONTENT/)
+For more details on W3C "Web Content Accessibility Guidelines 1.0" see [https://www.w3.org/TR/WAI-WEBCONTENT/](https://www.w3.org/TR/WAI-WEBCONTENT/)
 
 In our attempt to make our products content compliant, each web-control we develop and its QSF strive to obtain at least one of conformance levels listed above.
 
 # See Also
 
- * [Accessibility Compliance](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)
+ * [Accessibility Compliance](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)

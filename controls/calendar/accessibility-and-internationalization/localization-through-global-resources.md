@@ -68,7 +68,7 @@ Please **do not** modify/remove the **ReservedResource** key.
 >
 
 >note 
-We encourage you to submit your localized resource files to the[Localization code library section](http://www.telerik.com/community/code-library/aspnet-ajax/localization.aspx)
+We encourage you to submit your localized resource files to the[Localization code library section](https://www.telerik.com/community/code-library/aspnet-ajax/localization.aspx)
 >
 
 

@@ -38,4 +38,4 @@ You can add **GridButtonColumn** columns to a grid to handle the selection and d
 
 You can access the selected rows using the **SelectedItems** collection of the **RadGrid** object. In addition, you can handle the **SelectedIndexChanged** server event of the grid to detect when a row's selection changes perform additional operations if needed.
 
-For a live example showing server-side selection, see [Server-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).
+For a live example showing server-side selection, see [Server-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).

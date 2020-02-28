@@ -59,6 +59,6 @@ The table below shows the publicly accessible methods of the **Dependency** obje
  
  * [Resources]({%slug gantt/server-side-programming/objects/resources%})
  
- * [Overview demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/overview/defaultcs.aspx)
+ * [Overview demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/overview/defaultcs.aspx)
  
  

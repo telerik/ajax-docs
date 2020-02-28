@@ -77,4 +77,4 @@ You need to set the **Type** property of the **CompareValidator** to "Date" in o
 >
 
 
-For a live example of using validators with a **RadDatePicker** control, see [Date Picker Validation](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/DatePicker/Validation/DefaultCS.aspx).
+For a live example of using validators with a **RadDatePicker** control, see [Date Picker Validation](https://demos.telerik.com/aspnet-ajax/Calendar/Examples/DatePicker/Validation/DefaultCS.aspx).

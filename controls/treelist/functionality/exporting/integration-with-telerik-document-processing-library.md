@@ -12,7 +12,7 @@ position: 4
 
 
 
-The **Telerik document processing libraries** allow you export RadTreeList to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik® UI for ASP.NET AJAX**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
+The **Telerik document processing libraries** allow you export RadTreeList to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik® UI for ASP.NET AJAX**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](https://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
 
 ## Exporting RadTreeList to Excel
 

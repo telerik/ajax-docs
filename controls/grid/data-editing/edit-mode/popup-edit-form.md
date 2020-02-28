@@ -87,9 +87,9 @@ In order to change the titlebar text appearance, please use the following CSS se
 
 You can find this Popup Edit Forms in the following online examples:
 
-[Popup edit form live demo (C#)](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/PopUpEditForm/DefaultCS.aspx)
+[Popup edit form live demo (C#)](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/PopUpEditForm/DefaultCS.aspx)
 
-[Popup edit form live demo (VB)]( http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/popupeditform/defaultvb.aspx )
+[Popup edit form live demo (VB)]( https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/popupeditform/defaultvb.aspx )
 
 ## Setting focus to an input control in the Popup edit form
 

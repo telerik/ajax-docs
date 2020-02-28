@@ -95,7 +95,7 @@ UL UL
 }
 ````
 
-**list-style-type** [list-style-type Attribute | listStyleType Property](http://msdn.microsoft.com/en-us/library/ms530797.aspx)
+**list-style-type** [list-style-type Attribute | listStyleType Property](https://msdn.microsoft.com/en-us/library/ms530797.aspx)
 
 ## See Also
 

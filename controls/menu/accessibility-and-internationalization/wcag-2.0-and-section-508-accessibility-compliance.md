@@ -38,10 +38,10 @@ In accordance with these guidelines W3C defines three levels of conformance deve
 
 
 
-For more details on W3C "Web Content Accessibility Guidelines 2.0" see [http://www.w3.org/TR/WCAG20/](http://www.w3.org/TR/WCAG20/)
+For more details on W3C "Web Content Accessibility Guidelines 2.0" see [https://www.w3.org/TR/WCAG20/](https://www.w3.org/TR/WCAG20/)
 
 In our attempt to make our products content compliant, each web-control we develop and its QSF strive to obtain at least one of conformance levels listed above.
 
 # See Also
 
- * [RadMenu demo - WCAG 2.0 and Section 508 Accessibility Compliance](http://demos.telerik.com/aspnet-ajax/menu/examples/accessibility/defaultcs.aspx)
+ * [RadMenu demo - WCAG 2.0 and Section 508 Accessibility Compliance](https://demos.telerik.com/aspnet-ajax/menu/examples/accessibility/defaultcs.aspx)

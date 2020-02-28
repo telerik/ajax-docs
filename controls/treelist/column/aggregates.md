@@ -86,4 +86,4 @@ This also means that aggregates are not available with [load on demand]({%slug t
 
 # See Also
 
- * [Aggregates live demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/columns/aggregates/defaultcs.aspx)
+ * [Aggregates live demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/columns/aggregates/defaultcs.aspx)

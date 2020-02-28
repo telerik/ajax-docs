@@ -108,4 +108,4 @@ End Sub
 
  * [RadAjax and MasterPage]({%slug ajaxmanager/how-to/radajax-and-masterpage%})
 
- * [Demo: RadAjaxManager](http://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)
+ * [Demo: RadAjaxManager](https://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)

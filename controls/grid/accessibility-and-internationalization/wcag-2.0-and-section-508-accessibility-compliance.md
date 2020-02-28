@@ -16,7 +16,7 @@ position: 8
 
 RadGrid for ASP.NET AJAX satisfies the requirements of "Section 508" for software accessibility, as well as thosefor level AA (in compliance with the W3C Web Accessibility Guidelines 2.0).
 
-[This online example](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadGrid accessible by leveraging the settings for the different caption, tooltip and summary properties of the rendered HTML elements.
+[This online example](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadGrid accessible by leveraging the settings for the different caption, tooltip and summary properties of the rendered HTML elements.
 
 
 |  **Property**  |  **Description**  |

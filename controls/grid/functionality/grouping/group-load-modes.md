@@ -37,4 +37,4 @@ You can specify whether a table view in the grid handles grouping on the client 
 >
 
 
-For a live example that demonstrates the **GroupLoadMode** property, see [Client group load](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupLoadModeClient/DefaultCS.aspx).
+For a live example that demonstrates the **GroupLoadMode** property, see [Client group load](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupLoadModeClient/DefaultCS.aspx).

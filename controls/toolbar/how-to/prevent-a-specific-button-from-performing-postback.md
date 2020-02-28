@@ -52,4 +52,4 @@ Or, you can **cancel** the **OnClientButtonClicking** event for the specific ite
 
 # See Also
 
- * [Exclude specific items from ajaxifying](http://www.telerik.com/support/kb/article/b454K-hhk-b454T-cdb-b454c-cdb.aspx)
+ * [Exclude specific items from ajaxifying](https://www.telerik.com/support/kb/article/b454K-hhk-b454T-cdb-b454c-cdb.aspx)

@@ -19,7 +19,7 @@ While testing your **RadMediaPlayer** application on Internet Explorer, you can 
 **This video plays perfectly well in other browsers but causes an exception on IE.**
 ![Media Player Playing Video on IE 1](images/mediaplayer-playing-video-on-ie1.png)
 
-This problem is a general browser behavior and not Telerik specific. You will face the same problem with the standard video tag provided in [this article](http://www.w3schools.com/html/html5_video.asp).
+This problem is a general browser behavior and not Telerik specific. You will face the same problem with the standard video tag provided in [this article](https://www.w3schools.com/html/html5_video.asp).
 
 ## Reason
 

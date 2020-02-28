@@ -22,4 +22,4 @@ RadEditor for ASP.NET AJAX for SharePoint supports the following browsers:
 
 * Google Chrome 2.0+
 
-For more information, you may review the [online browser support section - RadEditor](http://www.telerik.com/products/aspnet-ajax/browser-support.aspx).
+For more information, you may review the [online browser support section - RadEditor](https://www.telerik.com/products/aspnet-ajax/browser-support.aspx).

@@ -39,6 +39,6 @@ Finally, the server-side [Dropping]({%slug listbox/server-side-programming/serve
 
 # See Also
 
- * [Drag and Drop Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/draganddrop/defaultcs.aspx)
+ * [Drag and Drop Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/draganddrop/defaultcs.aspx)
 
- * [Drag and Drop with RadTreeView Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/applicationscenarios/treeviewdraganddrop/defaultcs.aspx)
+ * [Drag and Drop with RadTreeView Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/applicationscenarios/treeviewdraganddrop/defaultcs.aspx)

@@ -45,4 +45,4 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-* **Using Themes**: This approach is intended to be used when similar settings must be used for several RadEditor controls in an application. This ensures that configuration of all controls is done from a single location.To use Themes with the editor (see the following [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb%28vs.80%29.aspx) link on themes). See the [Using Themes]({%slug editor/how-to/use-themes%}) topic for more information.
+* **Using Themes**: This approach is intended to be used when similar settings must be used for several RadEditor controls in an application. This ensures that configuration of all controls is done from a single location.To use Themes with the editor (see the following [MSDN](https://msdn2.microsoft.com/en-us/library/wcyt4fxb%28vs.80%29.aspx) link on themes). See the [Using Themes]({%slug editor/how-to/use-themes%}) topic for more information.

@@ -26,7 +26,7 @@ To enable static columns, set the **ClientSettings.Scrolling.FrozenColumnsCount*
 The following two screen shots show a grid with **FrozenColumnsCount** set to 2. Note that the first two columns do not scroll when the horizontal scroll bar is dragged:
 ![Frozen columns](images/grdFrozenColumns.PNG)
 
-For a live example demonstrating the frozen columns feature, see [Frozen columns](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/FrozenColumns/DefaultCS.aspx).
+For a live example demonstrating the frozen columns feature, see [Frozen columns](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/FrozenColumns/DefaultCS.aspx).
 
 >note When using a **Mobile** render mode you can navigate through the forzen columns only by using **Next** and **Prev** buttons.
 >

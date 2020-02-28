@@ -245,8 +245,8 @@ The automatic data source operations only work when binding the grid to a declar
 
 ## Additional resources
 
-* **AccessDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
+* **AccessDataSource:**[https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
 
-* **SqlDataSource:**[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
+* **SqlDataSource:**[https://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](https://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
 
-* **ObjectDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
+* **ObjectDataSource:**[https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)

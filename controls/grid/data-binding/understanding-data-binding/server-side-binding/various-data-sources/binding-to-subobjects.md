@@ -108,4 +108,4 @@ End Class
 ````
 
 
-For a live example that illustrates these features, see [Various data sources](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/Binding/DefaultCS.aspx).
+For a live example that illustrates these features, see [Various data sources](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/Binding/DefaultCS.aspx).

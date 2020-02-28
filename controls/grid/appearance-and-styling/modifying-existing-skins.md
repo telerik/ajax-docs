@@ -101,13 +101,13 @@ Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**"
 | **.rgNoRecords** |A class to customize the visual appearance of the NoRecords template/text|
 | **.GridDraggedRows_[SkinName]** |A class applied to the <div> element, which wraps the dragged rows. The same <div> element also has the "RadGrid" and "RadGrid_SkiName" classes.|
 
->note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](http://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)and follow the steps concerning how to register an external skin from[this](http://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](http://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
+>note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](https://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)and follow the steps concerning how to register an external skin from[this](https://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](https://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
 >
 
 
 Since RadGrid for ASP.NET AJAX uses internally **RadContextMenu** as a filtering menu, the styling of the filtering menu can be attained by accessing the **RadContextMenu** instance and utilizing its appearance mechanism.
 
-To summarize, in order to modify an existing RadGrid skin, either take advantage of the css selectors "weight" as depicted in the [following blog post](http://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx) or:
+To summarize, in order to modify an existing RadGrid skin, either take advantage of the css selectors "weight" as depicted in the [following blog post](https://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx) or:
 
 1.Set the Skin property of the RadGrid to an existing skin name
 
@@ -272,7 +272,7 @@ The easiest way to create your own skin for RadGrid (as discussed previously in 
 >
 
 
-Review the [following online demo](http://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/Styles/CustomSkin/DefaultCS.aspx)
+Review the [following online demo](https://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/Styles/CustomSkin/DefaultCS.aspx)
 
 of the product (the ASPX and CSS definitions mainly) for more details on the aforementioned approach to create a custom skin for RadGrid. You may also consider utilizing the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool to modify existing skins/create new custom skins.
 

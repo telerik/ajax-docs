@@ -46,4 +46,4 @@ The **handlerPath** is relative to the root of the application and if the servic
 
  * [Loading Items from WCF Service]({%slug combobox/load-on-demand/loading-items-from-wcf-service%})
 
- * [Loading Items from WCF Service Demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
+ * [Loading Items from WCF Service Demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)

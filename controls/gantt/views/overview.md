@@ -50,6 +50,6 @@ In this section you could find all common properties that are shared among all v
 
 # See Also
  
- * [View types demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
+ * [View types demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
 
  

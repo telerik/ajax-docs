@@ -12,7 +12,7 @@ position: 0
 
 To set a color for an item so that all its siblings take a different shade of it as its own color, you have three options:
 
-* Use the underlying [Kendo TreeMap widget](http://docs.telerik.com/kendo-ui/controls/charts/treemap/overview) and define the colors in its [colors collection](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/treemap#configuration-colors).
+* Use the underlying [Kendo TreeMap widget](https://docs.telerik.com/kendo-ui/controls/charts/treemap/overview) and define the colors in its [colors collection](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/treemap#configuration-colors).
 * Add a field in your data source that contains the desired color for each item and point the `DataColor` property to it.
 * Create a Kendo Theme with the desired ranges (see Example 1). Make sure that the theme name matches the Skin name of the RadTreeMap. 
 
@@ -174,6 +174,6 @@ End Sub
 
 ## See Also
 
-* [Handling Colors in Kendo TreeMap](http://docs.telerik.com/kendo-ui/controls/charts/treemap/overview#colors)
+* [Handling Colors in Kendo TreeMap](https://docs.telerik.com/kendo-ui/controls/charts/treemap/overview#colors)
 * [Colors Exposed in RadTreeMap]({%slug treemap/functionality/colors%})
 

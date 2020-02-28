@@ -138,7 +138,7 @@ End Sub
 
 ## See Also
 
- * [HtmlChart - Programmatic Chart Creation](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/serversideapi/programmaticcreation/defaultcs.aspx)
+ * [HtmlChart - Programmatic Chart Creation](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/serversideapi/programmaticcreation/defaultcs.aspx)
 
  * [RadHtmlChart Date Axis]({%slug htmlchart/functionality/axes/date-axis%})
 

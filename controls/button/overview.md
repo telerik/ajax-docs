@@ -18,7 +18,7 @@ The **RadButton** control (**Figure 1**) provides the features, that ASP.NET But
 
 ## See Also
 
- * [RadButton Online Demos](http://demos.telerik.com/aspnet-ajax/button/examples/overview/defaultcs.aspx)
+ * [RadButton Online Demos](https://demos.telerik.com/aspnet-ajax/button/examples/overview/defaultcs.aspx)
  
  * [RadButton Getting Started]({%slug button/getting-started%})
  

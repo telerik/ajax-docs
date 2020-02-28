@@ -91,7 +91,7 @@ By default, the children of a menu item are displayed when the user hovers the m
 >
 
 
-You can see a live example of Animation effects at [First Look](http://demos.telerik.com/aspnet-ajax/menu/examples/default/defaultcs.aspx).
+You can see a live example of Animation effects at [First Look](https://demos.telerik.com/aspnet-ajax/menu/examples/default/defaultcs.aspx).
 
 # See Also
 

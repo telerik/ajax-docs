@@ -24,14 +24,14 @@ The proper functionality of the Facebook buttons requires the following setup:
 
 	__HTML__
 
-		<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+		<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
 
 	For versions prior to the **Q3 2014** release, you should use the following XML namespace:
 
 	__HTML__
 
-		<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+		<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
 
 
 

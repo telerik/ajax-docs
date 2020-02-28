@@ -140,6 +140,6 @@ RadFileExplorer1.Grid.Columns.Add(gridTemplateColumn2)
 
 ## See Also
 
- * ["Add Custom Columns" demo](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/customgridcolumns/defaultcs.aspx)
+ * ["Add Custom Columns" demo](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/customgridcolumns/defaultcs.aspx)
 
- * ["Filter files and download" demo](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/filteranddownloadfiles/defaultcs.aspx)
+ * ["Filter files and download" demo](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/filteranddownloadfiles/defaultcs.aspx)

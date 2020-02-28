@@ -122,8 +122,8 @@ Moreover, including a **RadDataPager** provides you with off-the-shelf paging fu
 
  * [Overview]({%slug dataform/overview%})
 
- * [RadDataPager Overview](http://www.telerik.com/help/aspnet-ajax/datapager-overview.html)
+ * [RadDataPager Overview](https://www.telerik.com/help/aspnet-ajax/datapager-overview.html)
 
- * [Overview Sample](http://demos.telerik.com/aspnet-ajax/dataform/overview/defaultcs.aspx)
+ * [Overview Sample](https://demos.telerik.com/aspnet-ajax/dataform/overview/defaultcs.aspx)
 
- * [Server-side Binding Demo](http://demos.telerik.com/aspnet-ajax/DataForm/Data-Binding/Server-side-Binding/DefaultCS.aspx)
+ * [Server-side Binding Demo](https://demos.telerik.com/aspnet-ajax/DataForm/Data-Binding/Server-side-Binding/DefaultCS.aspx)

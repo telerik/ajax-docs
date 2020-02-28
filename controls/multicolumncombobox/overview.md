@@ -14,7 +14,7 @@ RadMultiColumnComboBox is similar to a regular dropdown, and offers a highly sim
 
 RadMultiColumnComboBox is available as of R1 2019 and it is a server-side WebForms wrapper over the MultiColumnComboBox for Kendo UI for jQuery widget.
 
->caption Figure 1: RadMultiColumnComboBox allows you to create such a complex layout with [under 20 lines of markup](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx).
+>caption Figure 1: RadMultiColumnComboBox allows you to create such a complex layout with [under 20 lines of markup](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx).
 
 ![multicolumncombobox-overview](images/multicolumncombobox-overview.png)
 
@@ -41,4 +41,4 @@ RadMultiColumnComboBox is available as of R1 2019 and it is a server-side WebFor
 
 # See Also
 
- * [Overview demo](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx)
+ * [Overview demo](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx)

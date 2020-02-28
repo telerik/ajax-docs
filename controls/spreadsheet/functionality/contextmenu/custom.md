@@ -67,5 +67,5 @@ The MenuItems can have text and/or functionality different than the built-in Con
 
 # See Also
 
-* [Spreadsheet - Context Menu Demo](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/contextmenu/defaultcs.aspx)
+* [Spreadsheet - Context Menu Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/contextmenu/defaultcs.aspx)
 

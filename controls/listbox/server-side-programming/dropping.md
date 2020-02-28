@@ -45,7 +45,7 @@ End Sub
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/draganddrop/defaultvb.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/draganddrop/defaultvb.aspx)
 
  * [Drag and Drop]({%slug listbox/functionality/drag-and-drop%})
 

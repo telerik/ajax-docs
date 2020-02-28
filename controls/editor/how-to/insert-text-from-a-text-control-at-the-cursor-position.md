@@ -44,4 +44,4 @@ The example below demonstrates how to insert text at the cursor position in RadE
 
 **EXAMPLE FILES**
 
-[Paste Text To Cursor Position](http://www.telerik.com/ArticleFileDownload.aspx?I=r8w&G=euY)
+[Paste Text To Cursor Position](https://www.telerik.com/ArticleFileDownload.aspx?I=r8w&G=euY)

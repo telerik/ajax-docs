@@ -26,11 +26,11 @@ A common enhancement for `GridButtonColumn` is to display a confirm dialog when 
 
 ## Built-in delete confirmation for GridButtonColumn with RadWindow
 
-RadGrid also supports showing confirmation dialog with [RadWindow](http://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set the **ConfirmDialogType** property to **RadWindow** and place a **RadWindowManager** on the page. RadGrid will display a [RadConfirm dialog](https://demos.telerik.com/aspnet-ajax/window/examples/browserdialogboxes/defaultcs.aspx). 
+RadGrid also supports showing confirmation dialog with [RadWindow](https://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set the **ConfirmDialogType** property to **RadWindow** and place a **RadWindowManager** on the page. RadGrid will display a [RadConfirm dialog](https://demos.telerik.com/aspnet-ajax/window/examples/browserdialogboxes/defaultcs.aspx). 
 
 If there is no RadWindowManager control, RadGrid will ignore this property and will display the default browser confirm dialog.
 
-You can additionally configure the [RadWindowManager](http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control.
+You can additionally configure the [RadWindowManager](https://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control.
 
 When **ConfirmDialogType** is set to **"RadWindow"** RadGrid allows additional customization—the dialog title can be configured through **ConfirmTitle** property. The most common usage of this confirmation dialog is upon deleting grid item (note that the Delete column is type of GridButtonColumn).
 

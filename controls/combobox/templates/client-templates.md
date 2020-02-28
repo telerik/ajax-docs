@@ -171,4 +171,4 @@ A new client-side [OnClientTemplateDataBound]({%slug combobox/client-side-progra
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax-beta/combobox/examples/functionality/clienttemplates/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax-beta/combobox/examples/functionality/clienttemplates/defaultcs.aspx)

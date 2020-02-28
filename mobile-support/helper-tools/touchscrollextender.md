@@ -80,4 +80,4 @@ Telerik.Web.UI.TouchScrollExtender._getNeedsScrollExtender = function ()
 ````
 
 
-This is all that is to be said about the TouchScrollExtender. Check the [demo page here](http://demos.telerik.com/scrollextender/ScrollExtender.aspx).
+This is all that is to be said about the TouchScrollExtender. Check the [demo page here](https://demos.telerik.com/scrollextender/ScrollExtender.aspx).

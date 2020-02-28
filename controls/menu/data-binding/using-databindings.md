@@ -57,4 +57,4 @@ The properties of each item in the collection specify how the **RadMenuItem** pr
 ````
 
 
-for a live example of using **DataBindings** with **RadMenu**, see [Data Bindings](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DataBindings/DefaultCS.aspx).
+for a live example of using **DataBindings** with **RadMenu**, see [Data Bindings](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DataBindings/DefaultCS.aspx).

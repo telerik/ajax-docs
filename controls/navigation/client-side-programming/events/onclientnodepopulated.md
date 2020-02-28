@@ -32,5 +32,5 @@ The event handler receives parameters:
 
  * [NavigationNode]({%slug navigation/client-side-programming/objects/navigationnode-object%})
 
- * [Demo: Navigation - Client-side Binding](http://demos.telerik.com/aspnet-ajax/navigation/data-binding/client-side-binding/defaultcs.aspx)
+ * [Demo: Navigation - Client-side Binding](https://demos.telerik.com/aspnet-ajax/navigation/data-binding/client-side-binding/defaultcs.aspx)
 

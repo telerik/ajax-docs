@@ -93,6 +93,6 @@ Set the **ImageUrl** property of the list items to the path to the image. Leave 
 
  * [Working at Client-side]({%slug listbox/radlistbox-items/working-at-client-side%})
 
- * [Checkboxes Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/checkboxes/defaultcs.aspx)
+ * [Checkboxes Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/checkboxes/defaultcs.aspx)
 
- * [Text with Icons Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/textwithicons/defaultcs.aspx)
+ * [Text with Icons Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/textwithicons/defaultcs.aspx)

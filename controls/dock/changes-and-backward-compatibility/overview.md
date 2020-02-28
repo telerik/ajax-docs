@@ -14,7 +14,7 @@ position: 0
 
 ## Telerik RadDock for ASP.NET AJAX
 
-A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## 
 
@@ -26,7 +26,7 @@ Telerik RadDock for ASP.NET AJAX Q1 2010 is fully compatible with previous versi
 
 **Telerik RadDock for ASP.NET AJAX Q3 2009**
 
-* Custom RadDock skins are not compatible with the improved rendering of the control that was introduced with Q3 2009. An article that explains how to rework old custom skins is available on the following page: [ http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx ](http://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx)
+* Custom RadDock skins are not compatible with the improved rendering of the control that was introduced with Q3 2009. An article that explains how to rework old custom skins is available on the following page: [ https://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx ](https://www.telerik.com/community/forums/aspnet-ajax/docking/using-old-custom-skins-with-raddock-q3-2009.aspx)
 
 ## 
 

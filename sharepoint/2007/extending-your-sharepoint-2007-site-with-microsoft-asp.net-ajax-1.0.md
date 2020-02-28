@@ -16,7 +16,7 @@ In order to extend your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0, yo
 
 ## Install ASP.NET Ajax 1.0
 
-Download and install ASP.NET Ajax from [here](http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en). You need to install “ASP.NET AJAX Extensions 1.0”, which is the version built for ASP.NET 2.0
+Download and install ASP.NET Ajax from [here](https://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en). You need to install “ASP.NET AJAX Extensions 1.0”, which is the version built for ASP.NET 2.0
 
 ## Modify your web.config file
 

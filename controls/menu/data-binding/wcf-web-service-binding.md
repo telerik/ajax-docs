@@ -146,6 +146,6 @@ and the result:
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/menu/examples/loadondemand/wcf/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/menu/examples/loadondemand/wcf/defaultcs.aspx)
 
  * [Web Service Binding]({%slug menu/data-binding/web-service-binding%})

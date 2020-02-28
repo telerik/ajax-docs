@@ -70,7 +70,7 @@ Example 2: AJAXify the controls placed in cells of asp:Table.
 
 
 
-2. **Control Is Nested in a Template of a Composite Control.** Those templates may "hide" wrapped controls from the **RadAjaxManager** Designer. Telerik Support recommends addingAJAX settings [programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}) in such scenarios, which together with**FindControl** method usage, provides **RadAjaxManager** with the ability to AJAX-enable and update controls at all "levels" of the application. For example, if the control you want to update is located within **RadDockableObject** (see [RadDock](http://www.Telerik.com/RadDock) web control),it could be found at runtime using `RadDockableObject.FindControl("<controlID>")` and then set it as updated control.	You can see this approach in the [AJAX RadDock online demo](http://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx).
+2. **Control Is Nested in a Template of a Composite Control.** Those templates may "hide" wrapped controls from the **RadAjaxManager** Designer. Telerik Support recommends addingAJAX settings [programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}) in such scenarios, which together with**FindControl** method usage, provides **RadAjaxManager** with the ability to AJAX-enable and update controls at all "levels" of the application. For example, if the control you want to update is located within **RadDockableObject** (see [RadDock](https://www.telerik.com/RadDock) web control),it could be found at runtime using `RadDockableObject.FindControl("<controlID>")` and then set it as updated control.	You can see this approach in the [AJAX RadDock online demo](https://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx).
 
 3. **Controls are placed in a WebUserControl.** The previous case is valid here as well. You could use the same approach and add AJAX settings[dynamically]({%slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}).For example if the control is placed in a**WebUserControl**, it could be found at runtime using the `WebUserControl1.FindControl("<controlID>")` and then set it as an update control. See also [how to AJAX-enable user controls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%}).
 
@@ -84,4 +84,4 @@ Example 2: AJAXify the controls placed in cells of asp:Table.
 
  * [Using RadAjaxManager and RadAjaxManager Proxy with WebUserControls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%})
 
- * [Demo: RadDock - Telerik's ASP.NET for AJAX Dock](http://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx)
+ * [Demo: RadDock - Telerik's ASP.NET for AJAX Dock](https://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx)

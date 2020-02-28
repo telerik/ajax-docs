@@ -55,7 +55,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Button|[Yes]({%slug button/mobile-support/elastic-design%})|[Yes]({%slug button/mobile-support/fluid-design%})|No|No|
 |Calendar|[Yes]({%slug calendar/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug calendar/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Captcha|N/A|No|N/A|N/A|
-|Chart (HTML5)|N/A|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A|
+|Chart (HTML5)|N/A|N/A (but [possible](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A (but [possible](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A|
 |Chart|N/A|N/A|N/A|N/A
 |CheckBox|[Yes]({%slug checkbox/mobile-support/elastic-design%})|Yes|No|No||
 |ColorPicker|[Yes]({%slug colorpicker/mobile-support/elastic-design%})|No|No|No|

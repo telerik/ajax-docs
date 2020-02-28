@@ -20,7 +20,7 @@ Consider the following JavaScript approach to get the desired behavior.
 <telerik:RadMenuItem runat="server"  
    Text="Disabled"  
    Enabled="false"  
-   NavigateUrl="http://www.telerik.com">
+   NavigateUrl="https://www.telerik.com">
 </telerik:RadMenuItem> 
 ````
 

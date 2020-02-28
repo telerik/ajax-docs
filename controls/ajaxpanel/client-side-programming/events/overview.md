@@ -48,4 +48,4 @@ Example 1: Displays a message when request starts and ends.
 
  * [Overview]({%slug ajaxpanel/client-side-programming/overview%})
 
- * [Demo: RadAjaxManager Client-side API](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)
+ * [Demo: RadAjaxManager Client-side API](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)

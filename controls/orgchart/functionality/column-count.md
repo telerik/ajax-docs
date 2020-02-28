@@ -136,8 +136,8 @@ And this is how the result look like:
 
 # See Also
 
- * [Templates (demo)](http://demos.telerik.com/aspnet-ajax/orgchart/examples/templates/defaultcs.aspx)
+ * [Templates (demo)](https://demos.telerik.com/aspnet-ajax/orgchart/examples/templates/defaultcs.aspx)
 
- * [Column count (demo)](http://demos.telerik.com/aspnet-ajax/orgchart/examples/columncount/defaultcs.aspx)
+ * [Column count (demo)](https://demos.telerik.com/aspnet-ajax/orgchart/examples/columncount/defaultcs.aspx)
 
  * [Templates (article)]({%slug orgchart/templates/overview%})

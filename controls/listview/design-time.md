@@ -26,6 +26,6 @@ The **Layout editor** allows you to configure the **RadListView** control. Apart
 
 For more information about the layouts, please visit the following links:
 
-[ Predefined layouts ](http://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/predefinedlayouts/defaultcs.aspx)
+[ Predefined layouts ](https://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/predefinedlayouts/defaultcs.aspx)
 
-[ Custom layouts ](http://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/customlayouts/defaultcs.aspx)
+[ Custom layouts ](https://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/customlayouts/defaultcs.aspx)

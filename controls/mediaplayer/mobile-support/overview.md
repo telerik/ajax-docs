@@ -25,7 +25,7 @@ You can enable the mobile layout of the control by setting the **RenderMode** pr
 
 To cover the rendering of both mobile and desktop devices, you can set the **RenderMode** property to **Auto**. This option will automatically decide how to render the control on a smartphone, tablet or PC.
 
-For more accurate device detection, you can reference the [Device Detection Framework](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) , which ensures that the control is rendered with appropriate UI according to the device screen size.
+For more accurate device detection, you can reference the [Device Detection Framework](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) , which ensures that the control is rendered with appropriate UI according to the device screen size.
 
 ## Viewport adjustment
 
@@ -37,12 +37,12 @@ For fine-tuning of the viewport you can add the following meta tag in the head s
 
 
 
-For optimal experience on mobile devices, we suggest that you use Telerik controls together with the [Page Layout Framework](http://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx) , which will add responsive capabilities to your layout. See more mobile-optimized demos of Telerik controls in this responsive [sample app](http://demos.telerik.com/responsive-web-design-aspnet/samples.aspx).
+For optimal experience on mobile devices, we suggest that you use Telerik controls together with the [Page Layout Framework](https://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx) , which will add responsive capabilities to your layout. See more mobile-optimized demos of Telerik controls in this responsive [sample app](https://demos.telerik.com/responsive-web-design-aspnet/samples.aspx).
 
 ## See Also
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

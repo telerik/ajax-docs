@@ -39,7 +39,7 @@ To avoid this behavior, you should store the CaptchaImage in the Session, and co
 			</system.webServer>
 		</configuration>
 
-1. Ensure that you have configured your server environment to use [out of process Session State](http://msdn.microsoft.com/en-us/library/ms972429.aspx). In order to setup such Session State, you can apply any of the following solutions:
+1. Ensure that you have configured your server environment to use [out of process Session State](https://msdn.microsoft.com/en-us/library/ms972429.aspx). In order to setup such Session State, you can apply any of the following solutions:
 
 	* Deploy the out-of-process Session State server that is provided with ASP.NET.
 
@@ -57,4 +57,4 @@ To avoid this behavior, you should store the CaptchaImage in the Session, and co
 
 ## See Also
 
-* [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)
+* [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)

@@ -17,7 +17,7 @@ position: 2
 
 You can reduce the filter menu options to display only a subset of the available filter functions. There are two possible approaches - client-side and server-side.
 
-To limit the filter options displayed for a given column on the client, you need to intercept the [OnFilterMenuShowing]({%slug grid/client-side-programming/events/onfiltermenushowing%}) client event of RadGrid/[OnClientShown](http://www.telerik.com/help/aspnet-ajax/menu_clientsideonclientshown.html) event of the filter menu and hide some of the possible choices from within the body of the respective handler. This solution is suitable when you would like to customize the filter options on a per column basis and still have some of them displayed for particular columns despite they are hidden for others.
+To limit the filter options displayed for a given column on the client, you need to intercept the [OnFilterMenuShowing]({%slug grid/client-side-programming/events/onfiltermenushowing%}) client event of RadGrid/[OnClientShown](https://www.telerik.com/help/aspnet-ajax/menu_clientsideonclientshown.html) event of the filter menu and hide some of the possible choices from within the body of the respective handler. This solution is suitable when you would like to customize the filter options on a per column basis and still have some of them displayed for particular columns despite they are hidden for others.
 
 Below is a sample code implementation (based on the approach explained above) that customizes the filter menu options for columns with *String* and *Int64 *data type. If no DataType is specified for the columns explicitly in their html markup, it will be taken from the data type of the underlying source field:
 

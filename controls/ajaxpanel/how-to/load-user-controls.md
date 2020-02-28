@@ -165,8 +165,8 @@ End Sub
 
 An online demo for loading User Controls is available at the following link:
 
-[http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx)
+[https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx)
 
 ## See Also
 
- * [AJAX - Loading User Controls](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx)
+ * [AJAX - Loading User Controls](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx)

@@ -15,7 +15,7 @@ position: 11
 
 ##
 
-[This online example](http://demos.telerik.com/ASPNET/Prometheus/Controls/Examples/Integration/ToolTipGrid/DefaultCS.aspx?product=grid) demonstrates integration between **RadGrid**, **RadToolTip** and **RadAjax**. The example shows how to insert several new records in the grid with a single button click using Ajax requests.
+[This online example](https://demos.telerik.com/ASPNET/Prometheus/Controls/Examples/Integration/ToolTipGrid/DefaultCS.aspx?product=grid) demonstrates integration between **RadGrid**, **RadToolTip** and **RadAjax**. The example shows how to insert several new records in the grid with a single button click using Ajax requests.
 
 The control, containing the fields for the new records is added to the content of the **RadToolTip** when the OnAjaxUpdate event of the RadToolTipManager fires. Once the user hits the [Add Products] button, the new records are inserted into the datatable, the active tooltip is closed and the the appropriate nested table is rebound.
 

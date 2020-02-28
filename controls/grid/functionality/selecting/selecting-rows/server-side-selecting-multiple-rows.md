@@ -20,4 +20,4 @@ position: 4
 
 The selected rows can be accessed using the grid's **SelectedItems** collection. In addition, you can handle the grid's **SelectedIndexChanged** server event to detect when an item's selection changes and perform additional operations if needed.
 
-For a live example of multi-row selection that is handled server-side, see [Server-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).
+For a live example of multi-row selection that is handled server-side, see [Server-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).

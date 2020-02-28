@@ -161,7 +161,7 @@ radToolTip.set_title("This is the new title");
 | **showLoadingMessage** |Displays the loading message.|
 | **updateLocation** |Calculates the tooltip position according to its targets and repositions the tooltip accordingly.|
 
-For a live demo see [Client Side API](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/ClientSideAPI/DefaultCS.aspx).
+For a live demo see [Client Side API](https://demos.telerik.com/aspnet-ajax/ToolTip/Examples/ClientSideAPI/DefaultCS.aspx).
 
 
 

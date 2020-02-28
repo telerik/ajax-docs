@@ -43,6 +43,6 @@ It is also possible to deploy the Telerik controls without the automatic install
 >caution The value of **Version** in all settings above should match the version of Telerik® UI for ASP.NET AJAX that is currently installed in the GAC.	If there are **`<SafeControl>`** settings and HTTP handler registrations that refer to another version, it is recommended to remove them, because they could cause errors in the SharePoint site.
 >
 
-The [bindingRedirect](http://msdn.microsoft.com/en-us/library/eftw1fys.aspx) element can be used to redirect to a particular assembly version when there are more than one available.
+The [bindingRedirect](https://msdn.microsoft.com/en-us/library/eftw1fys.aspx) element can be used to redirect to a particular assembly version when there are more than one available.
 
 

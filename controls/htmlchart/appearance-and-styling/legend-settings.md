@@ -71,7 +71,7 @@ The color of the markers is automatically detected from the series colors.
 
 >tip To change the type, size and color of the legend markers you can:
 * Use [visual templates]({%slug htmlchart/functionality/visual-template%}).
-* Use the workaround from the following feedback item [ADD more legend markers options in RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/123802).
+* Use the workaround from the following feedback item [ADD more legend markers options in RadHtmlChart](https://feedback.telerik.com/Project/108/Feedback/Details/123802).
 
 ## Position and Alignment
 
@@ -246,7 +246,7 @@ End Sub
 
 You can use client-side templates to display custom text in the legend labels since the **Q2 2016** release. 
 
-The functionality is available through the `ClientTemplate` inner property exposed by the `Legend.Appearance` tag. The fields that can be used inside the template are available in the [legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) article.
+The functionality is available through the `ClientTemplate` inner property exposed by the `Legend.Appearance` tag. The fields that can be used inside the template are available in the [legend.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) article.
 
 >tip You can also execute JavaScript in the `ClientTemplate`. More information is available in the [Execute JavaScript with a ClientTemplate]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%}) article.
 
@@ -291,9 +291,9 @@ The functionality is available through the `ClientTemplate` inner property expos
  
  * [Visual Templates]({%slug htmlchart/functionality/visual-template%})
  
- * [ADD more legend markers options in RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/123802)
+ * [ADD more legend markers options in RadHtmlChart](https://feedback.telerik.com/Project/108/Feedback/Details/123802)
  
- * [legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) 
+ * [legend.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) 
  
  * [Execute JavaScript with a ClientTemplate]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%})
 

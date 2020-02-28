@@ -41,7 +41,7 @@ The example below demonstrates how to get a tile's **NavigateUrl** in the **OnCl
 <telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileClicking="OnClientTileClicking">
 	<Groups>
 		<telerik:TileGroup>
-			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="http://www.telerik.com"></telerik:RadTextTile>
+			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="https://www.telerik.com"></telerik:RadTextTile>
 		</telerik:TileGroup>
 	</Groups>
 </telerik:RadTileList>
@@ -51,7 +51,7 @@ The example below demonstrates how to get a tile's **NavigateUrl** in the **OnCl
 	{
 		var shouldCancel = false;
 		var url = args.get_value();
-		var expectedUrl = "http://www.telerik.com";
+		var expectedUrl = "https://www.telerik.com";
 
 		if (url == expectedUrl) {
 			shouldCancel = false;

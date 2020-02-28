@@ -349,4 +349,4 @@ End Sub 'RadGrid1_ItemCommand
 ````
 
 
-**Custom validation** For more complex/custom validation operations you can extend the default ASP.NET validation and integrate CustomValidator control inside your grid instance. Here is an online resource which gives an example of operating with CustomValidators and configuring them to validate the user input as per your requirements:[http://aspnet.4guysfromrolla.com/articles/073102-1.aspx](http://aspnet.4guysfromrolla.com/articles/073102-1.aspx)
+**Custom validation** For more complex/custom validation operations you can extend the default ASP.NET validation and integrate CustomValidator control inside your grid instance. Here is an online resource which gives an example of operating with CustomValidators and configuring them to validate the user input as per your requirements:[https://aspnet.4guysfromrolla.com/articles/073102-1.aspx](https://aspnet.4guysfromrolla.com/articles/073102-1.aspx)

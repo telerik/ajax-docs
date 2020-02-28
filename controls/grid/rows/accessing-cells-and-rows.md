@@ -220,7 +220,7 @@ Dim editor As IGridColumnEditor = editMan.GetColumnEditor(editableCol)
 ````
 
 
-For a live example that uses **GridEditManager** to access the column editor, see [Using Column Editors](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/EditModes/DefaultCS.aspx).
+For a live example that uses **GridEditManager** to access the column editor, see [Using Column Editors](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/EditModes/DefaultCS.aspx).
 
 ## Accessing Controls in Edit/Insert Mode
 

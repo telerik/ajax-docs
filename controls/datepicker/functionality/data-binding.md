@@ -50,6 +50,6 @@ The following example demonstrates how to bind a **RadDatePicker** control insid
 
 
 
-To see the live example that the example above was taken from, see [Data Binding](http://demos.telerik.com/aspnet-ajax/datepicker/functionality/databinding/defaultcs.aspx).
+To see the live example that the example above was taken from, see [Data Binding](https://demos.telerik.com/aspnet-ajax/datepicker/functionality/databinding/defaultcs.aspx).
 
 

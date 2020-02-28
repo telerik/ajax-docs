@@ -18,7 +18,7 @@ Once a day, upon loading a project containing Telerik UI for ASP.NET AJAX contro
 
 >note If you've disabled the notifications, you can use the [Options Dialog]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) to activate them again.
 
-Clicking the Update Now button starts the New Version Downloader tool,	prompting for your Telerik credentials and the type of license you own in its first page.	If you do not have a [www.telerik.com](http://www.telerik.com)	account, you can create one through the **Create an account for free** link.
+Clicking the Update Now button starts the New Version Downloader tool,	prompting for your Telerik credentials and the type of license you own in its first page.	If you do not have a [www.telerik.com](https://www.telerik.com)	account, you can create one through the **Create an account for free** link.
 
 ![Latest Version Acquirer: Login](images/introduction-vsx_latestversionacquirer_login.png)
 

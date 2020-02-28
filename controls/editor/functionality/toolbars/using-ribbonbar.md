@@ -77,7 +77,7 @@ You can use the same ways to change the tools in the RibbonBar that you use in t
 </root>
 ````
 
-To examine more of the XML configuration options available refer to the [RadEditor with RibbonBar demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/ribbonbarandeditor/defaultcs.aspx?product=editor) or the [RibbonBar - Populating from Xml demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/populatingfromxml/defaultcs.aspx).
+To examine more of the XML configuration options available refer to the [RadEditor with RibbonBar demo](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/ribbonbarandeditor/defaultcs.aspx?product=editor) or the [RibbonBar - Populating from Xml demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/populatingfromxml/defaultcs.aspx).
 
 >caption Example 4: Changing tools in RibbonBar from the code behind
 

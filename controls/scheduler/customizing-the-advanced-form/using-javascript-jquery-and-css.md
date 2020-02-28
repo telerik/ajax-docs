@@ -12,7 +12,7 @@ position: 2
 
 
 
-The advanced form renders specific css classes and unique IDs for the elements inside it. This makes it easy to customize it using JavaScript/jQuery and CSS.This topic shows a few common scenarios. A sample can be donwloaded from [here](http://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-avanced-form-using-javascript-and-css.aspx).
+The advanced form renders specific css classes and unique IDs for the elements inside it. This makes it easy to customize it using JavaScript/jQuery and CSS.This topic shows a few common scenarios. A sample can be donwloaded from [here](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-avanced-form-using-javascript-and-css.aspx).
 
 ## Hide the all day checkbox
 
@@ -324,4 +324,4 @@ function StartTimeSelected_AdvancedEdit(sender, args) {
 
 # See Also
 
- * [Code library sample](http://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-avanced-form-using-javascript-and-css.aspx)
+ * [Code library sample](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-avanced-form-using-javascript-and-css.aspx)

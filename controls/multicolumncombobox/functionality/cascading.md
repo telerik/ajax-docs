@@ -114,7 +114,7 @@ You can also instruct the child combo box to take a different field from its par
 
 ## See Also
 
-* [Live Demo - Cacading](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/cascading/defaultcs.aspx)
+* [Live Demo - Cacading](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/cascading/defaultcs.aspx)
 
 * [Kendo UI MultiColumnComboBox Widget API Reference](https://docs.telerik.com/kendo-ui/api/javascript/ui/multicolumncombobox)
 

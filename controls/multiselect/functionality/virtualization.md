@@ -76,7 +76,7 @@ The following example shows how you can use virtualization with the service from
 
 ## See Also
 
-* [Live Demo - Virtualization](http://demos.telerik.com/aspnet-ajax/multiselect/virtualization/defaultcs.aspx)
+* [Live Demo - Virtualization](https://demos.telerik.com/aspnet-ajax/multiselect/virtualization/defaultcs.aspx)
 
 * [Virtualization in Kendo MultiSelect](https://docs.telerik.com/kendo-ui/controls/editors/multiselect/virtualization)
 

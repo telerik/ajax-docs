@@ -16,9 +16,9 @@ position: 8
 
 In various situations you may want to detect whether the user is currently editing grid item or performs an insert operation. This is useful if you would like to have different appearance for the edit form on item insertion than that on item editing (suitable for **WebUserControl** or **FormTemplate** custom edit form). For example, you may want to hide primary key field from the form or change **update** button text to **insert** on initial insert. These online example demonstrates the second functionality:
 
-[http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
+[https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
-[http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx)
+[https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx)
 
 And the code extractions are:
 
@@ -93,4 +93,4 @@ End Sub 'RadGrid1_ItemDataBound
 ````
 
 
-For more information concerning the major differences between **ItemCreated** and **ItemDataBound** events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( http://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).
+For more information concerning the major differences between **ItemCreated** and **ItemDataBound** events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( https://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).

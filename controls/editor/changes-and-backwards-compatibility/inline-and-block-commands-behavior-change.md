@@ -53,8 +53,8 @@ If the **NewLineMode** property is used with its default value ("Br") some known
 
 |  **Release**  |  **Commands**  |
 | ------ | ------ |
-|[Q2 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| **Indent/Outdent** , **InsertList** , **Align** and **Insert List (Sorted and Bulleted)** .|
-|[Q3 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q3-2013-version-2013-3-1015.aspx).| **Bold** , **Italic** , **Underline**  **Strikethrough** |
+|[Q2 2013](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| **Indent/Outdent** , **InsertList** , **Align** and **Insert List (Sorted and Bulleted)** .|
+|[Q3 2013](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q3-2013-version-2013-3-1015.aspx).| **Bold** , **Italic** , **Underline**  **Strikethrough** |
 
 ## How to Get the Old Behavior Back
 

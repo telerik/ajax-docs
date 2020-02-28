@@ -70,4 +70,4 @@ By default, all validators on the Web page must be successful before the postbac
 
 
 
-For a live example, see [Validation Groups](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/ValidationGroup/DefaultCS.aspx).
+For a live example, see [Validation Groups](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/ValidationGroup/DefaultCS.aspx).

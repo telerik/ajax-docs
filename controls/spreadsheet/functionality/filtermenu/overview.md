@@ -66,7 +66,7 @@ function enableFilterMenu() {
 	![Data in Column cells](images/spreadsheet-columndata.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Filter column data by value](images/spreadsheet-filterbyvalue.png)        
  
  ## See Also
-[RadSpreadsheet FilterSort Demo](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/filterandsort/defaultcs.aspx)
+[RadSpreadsheet FilterSort Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/filterandsort/defaultcs.aspx)
  
 
  

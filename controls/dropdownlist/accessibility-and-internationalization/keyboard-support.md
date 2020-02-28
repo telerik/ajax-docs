@@ -47,4 +47,4 @@ Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - v
 
 # See Also
 
- * [Keyboard Support Demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/accessibility/keyboardsupport/defaultcs.aspx)
+ * [Keyboard Support Demo](https://demos.telerik.com/aspnet-ajax/dropdownlist/examples/accessibility/keyboardsupport/defaultcs.aspx)

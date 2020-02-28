@@ -35,7 +35,7 @@ To make the control easier to use, **Telerik** provides a large set of built-in 
 >caption Example 1: Declaration of embedded icon in RadLinkButton.
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Button with Icon" NavigateUrl="http://www.telerik.com" Target="_blank">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Button with Icon" NavigateUrl="https://www.telerik.com" Target="_blank">
 	<Icon CssClass="rbOk" />
 </telerik:RadLinkButton>
 ````
@@ -103,9 +103,9 @@ The color of the predefined icons can be white or black, depending on the chosen
  
  * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
 
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
+ * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
+ * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
  
 
 

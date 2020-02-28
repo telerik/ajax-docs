@@ -66,9 +66,9 @@ The embedded **RadPushButton** icons are font icons. Using a font facilitates th
 
  * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
 
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
+ * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
+ * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
  
 
 

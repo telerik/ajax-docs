@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ImageGalleryAnimationSettings
 # Telerik.Web.UI.ImageGalleryAnimationSettings
 
 RadImageGallery AnimationSettings class
-            See the http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/functionality/animations Animationstopic for more information.
+            See the https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/functionality/animations Animationstopic for more information.
 
 ## Inheritance Hierarchy
 

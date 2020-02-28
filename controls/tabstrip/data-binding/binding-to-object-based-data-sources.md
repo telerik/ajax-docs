@@ -16,7 +16,7 @@ You can bind **RadTabStrip** to an object-based data source such as **ObjectData
 
 ## Binding to ObjectDataSource
 
->note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/PopulatingWithData/DeclarativeDataSources/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Declarative Data Sources](https://demos.telerik.com/aspnet-ajax/TabStrip/Examples/PopulatingWithData/DeclarativeDataSources/DefaultCS.aspx) live demo.
 >
 
 
@@ -175,7 +175,7 @@ End Class
 
 ## Binding to an object that supports IEnumerable
 
->note To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/PopulatingWithData/HierarchicalDataBinding/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/TabStrip/Examples/PopulatingWithData/HierarchicalDataBinding/DefaultCS.aspx) live demo.
 >
 
 

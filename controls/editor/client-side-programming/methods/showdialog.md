@@ -23,4 +23,4 @@ Shows a dialog with the supplied arguments.
 
  * [Custom Dialogs]({%slug editor/functionality/dialogs/custom-dialogs%})
 
- * [Add Custom Dialogs](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Add Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)

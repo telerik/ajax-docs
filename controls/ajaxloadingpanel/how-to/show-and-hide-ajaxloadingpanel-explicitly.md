@@ -92,4 +92,4 @@ Note that you can also hide the LoadingPanel by using the **hideLoadingPanels()*
 
 ## See Also
 
- * [Explicit Show/Hide demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/explicitshowhide/defaultcs.aspx)
+ * [Explicit Show/Hide demo](https://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/explicitshowhide/defaultcs.aspx)

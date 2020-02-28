@@ -23,7 +23,7 @@ Browsers automatically preserve the content in such scenarios only for form elem
 
 		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight"></telerik:RadEditor>
 
-		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
+		<a href="https://www.telerik.com/">Navigate to www.telerik.com</a>
 
 		<script>
 			window.onbeforeunload = function (ev) {
@@ -39,7 +39,7 @@ Browsers automatically preserve the content in such scenarios only for form elem
 
 		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
 
-		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
+		<a href="https://www.telerik.com/">Navigate to www.telerik.com</a>
 
 		<script>
 			function OnClientLoad(editor, args) {
@@ -55,7 +55,7 @@ Browsers automatically preserve the content in such scenarios only for form elem
 
 		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
 
-		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
+		<a href="https://www.telerik.com/">Navigate to www.telerik.com</a>
 
 		<script>
 			function OnClientLoad(editor, args) {

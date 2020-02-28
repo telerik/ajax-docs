@@ -102,4 +102,4 @@ RadListBox1.OnClientDeleted = "onClientDeletedHandler"
 
  * [RadListBoxItem Object]({%slug listbox/client-side-programming/objects/radlistboxitem-object%})
 
- * [Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/clientside/clientevents/defaultcs.aspx)
+ * [Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/clientside/clientevents/defaultcs.aspx)

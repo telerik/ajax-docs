@@ -193,4 +193,4 @@ End Sub
 ````
 
 
-You can see this example online [here](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndMenu/DefaultCS.aspx?product=grid).
+You can see this example online [here](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndMenu/DefaultCS.aspx?product=grid).

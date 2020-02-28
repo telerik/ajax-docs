@@ -105,7 +105,7 @@ End Sub
 
 You can fine tune the importing functionality by using the **ImportSettings** inner tag of the **RadEditor** control.The available configuration options are located in the **Docx** inner tag (for importing DOCX) and the **Rtf** one(for importing RTF).
 
-These setting are designed and implemented in the document processing libraries and more details about them are available in the [Settings](http://www.telerik.com/help/aspnet-ajax/radwordsprocessing-formats-and-conversion-html-settings.html) article of **HtmlFormatProvider** class. If you need more advanced control over the settings of the **HtmlFormatProvider** instance, you can use the **ImportContent** RadEditor event to implement the desired configurations. You can find an example in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) help article.
+These setting are designed and implemented in the document processing libraries and more details about them are available in the [Settings](https://www.telerik.com/help/aspnet-ajax/radwordsprocessing-formats-and-conversion-html-settings.html) article of **HtmlFormatProvider** class. If you need more advanced control over the settings of the **HtmlFormatProvider** instance, you can use the **ImportContent** RadEditor event to implement the desired configurations. You can find an example in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) help article.
 
 These lists explain the basics of the Import Settings RadEditor exposes:
 
@@ -118,7 +118,7 @@ These lists explain the basics of the Import Settings RadEditor exposes:
 
 **Options related to the images:**
 
-* **ImagesMode**—controls how images are imported. The available options are as external file(s) or as embedded images. The embedded images are represented as [base64 images](http://en.wikipedia.org/wiki/Base64). As for the external images, they are automatically generated image files that are exported into a folder, defined via the **ImagesFolderPath** and **ImagesSourceBasePath**.
+* **ImagesMode**—controls how images are imported. The available options are as external file(s) or as embedded images. The embedded images are represented as [base64 images](https://en.wikipedia.org/wiki/Base64). As for the external images, they are automatically generated image files that are exported into a folder, defined via the **ImagesFolderPath** and **ImagesSourceBasePath**.
 * **ImagesFolderPath**—this property is used only when **ImagesMode** is set to **External**. It specifies the folder path where external images should be exported/uploaded.
 * **ImagesSourceBasePath**—this property is used only when the **ImagesMode** is set to **External**.It specifies the base path for the "src" attribute of the imported image tags.
 
@@ -136,7 +136,7 @@ These lists explain the basics of the Import Settings RadEditor exposes:
 
 Importing content in the Editor raises the **ImportContent** event that can be handled to accommodate the concrete application requirements. Additional information about the event arguments and how you can use them to interact with the import functionality is available in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) article.
 
->caption Example 3: Adding an additional paragraph to the [RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument.html) through the **OnImportContent** event
+>caption Example 3: Adding an additional paragraph to the [RadFlowDocument](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument.html) through the **OnImportContent** event
 
 ````ASPNET
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
@@ -208,6 +208,6 @@ End Class
 
  * [Event: OnImportContent]({%slug editor/server-side-programming/events/onimportcontent%})
 
- * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
+ * [Live demo: Import and Export to DOCX](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
 
- * [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)
+ * [Live demo: Import and Export to RTF](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)

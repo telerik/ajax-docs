@@ -58,7 +58,7 @@ End Sub
 
 When you load the combobox items from heavy database, you can cache the data source so that additional calls are avoided. This will make the combobox even faster.
 
-A sample project can be seen here: [Load On Demand](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx)
+A sample project can be seen here: [Load On Demand](https://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx)
 
 # See Also
 

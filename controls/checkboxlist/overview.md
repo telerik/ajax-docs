@@ -35,7 +35,7 @@ You can easily style the control by changing the `Skin` property. This will elim
 
 ## See Also
 
- * [RadCheckBoxList Online Demos](http://demos.telerik.com/aspnet-ajax/checkboxlist/examples/overview/defaultcs.aspx)
+ * [RadCheckBoxList Online Demos](https://demos.telerik.com/aspnet-ajax/checkboxlist/examples/overview/defaultcs.aspx)
  
  * [RadCheckBoxList Getting Started]({%slug checkboxlist/getting-started%})
  

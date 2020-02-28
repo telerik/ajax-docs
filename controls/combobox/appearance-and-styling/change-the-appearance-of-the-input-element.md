@@ -121,7 +121,7 @@ Here the specificity of the selector is high enough to override the skin's selec
 
 ## See Also
 
-[How To Override Styles in a RadControl for ASP.NET AJAX' Embedded Skin](http://blogs.telerik.com/Server-Error.aspx?aspxerrorpath=/DimoDimov/Posts/08-06-17/How_To_Override_Styles_in_a_RadControl_for_ASP_NET_AJAX_Embedded_Skin.aspx)
+[How To Override Styles in a RadControl for ASP.NET AJAX' Embedded Skin](https://blogs.telerik.com/Server-Error.aspx?aspxerrorpath=/DimoDimov/Posts/08-06-17/How_To_Override_Styles_in_a_RadControl_for_ASP_NET_AJAX_Embedded_Skin.aspx)
 
 [CSS Skin File Selectors]({%slug combobox/appearance-and-styling/css-skin-file-selectors%})
 

@@ -25,4 +25,4 @@ The **RadFileExplorer** fully supports right-to-left (RTL) language locales. In 
 
 ## See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/righttoleftsupport/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/righttoleftsupport/defaultcs.aspx)

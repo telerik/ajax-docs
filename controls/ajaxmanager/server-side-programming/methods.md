@@ -115,12 +115,12 @@ End Sub
 
 ````C#
 	
-RadAjaxManager1.Redirect("http://www.telerik.com");
+RadAjaxManager1.Redirect("https://www.telerik.com");
 	
 ````
 ````VB.NET
 	
-RadAjaxManager1.Redirect("http://www.telerik.com")
+RadAjaxManager1.Redirect("https://www.telerik.com")
 	
 	
 ````

@@ -30,8 +30,8 @@ Other main features of RadLightBox include:
 
 ![lightbox-overview](images/lightbox-overview.jpg)
 
-[See all features of Telerik’s ASP.NET LightBox](http://www.telerik.com/products/aspnet-ajax/lightbox.aspx)
+[See all features of Telerik’s ASP.NET LightBox](https://www.telerik.com/products/aspnet-ajax/lightbox.aspx)
 
-[See the overview demo of Telerik’s ASP.NET LightBox](http://demos.telerik.com/aspnet-ajax/lightbox/examples/overview/defaultcs.aspx)
+[See the overview demo of Telerik’s ASP.NET LightBox](https://demos.telerik.com/aspnet-ajax/lightbox/examples/overview/defaultcs.aspx)
 
 ## 

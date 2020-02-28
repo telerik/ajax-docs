@@ -25,7 +25,7 @@ Three common scenarios where the **RadToolTipManager** is useful:
 
 
 
-For a live demo of RadToolTipManager see the [RadToolTip versus RadToolTipManager](http://demos.telerik.com/aspnet-ajax/tooltip/examples/tooltipversustooltipmanager/defaultcs.aspx) demo.
+For a live demo of RadToolTipManager see the [RadToolTip versus RadToolTipManager](https://demos.telerik.com/aspnet-ajax/tooltip/examples/tooltipversustooltipmanager/defaultcs.aspx) demo.
 
 
 

@@ -210,7 +210,7 @@ End Function
 ````
 
 
-**For a live example refer to the online demo: **[Populate From Web Service.](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
+**For a live example refer to the online demo: **[Populate From Web Service.](https://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
 
 # See Also
 

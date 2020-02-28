@@ -36,7 +36,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug slider/appear
 
 * Links navigate you directly to examples, help, and code library.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 
 ## See Also
 

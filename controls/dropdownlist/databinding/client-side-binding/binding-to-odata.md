@@ -49,8 +49,8 @@ The applied settings to RadODataSource and RadDropDownList, for a successful dat
 
 * The type of the responce data is specified within the RadODataDataSource control, in its Read section by the **DataType** property.The options to choose from are listed below.
 
-	* [JSONP](http://en.wikipedia.org/wiki/JSONP)
+	* [JSONP](https://en.wikipedia.org/wiki/JSONP)
 
-	* [XML](http://en.wikipedia.org/wiki/XML)
+	* [XML](https://en.wikipedia.org/wiki/XML)
 
 More information regarding the Entity Data Model (EDM) can be found[here](http://www.odata.org/developers/protocols/overview).

@@ -162,11 +162,11 @@ In examples **1** and **2** you can see how defining initially the min and max v
 
 ## See Also
 
-* [Demo: Panning and Zooming](http://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/Functionality/Pan-Zoom/DefaultCS.aspx)
+* [Demo: Panning and Zooming](https://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/Functionality/Pan-Zoom/DefaultCS.aspx)
 
-* [Kendo Chart API - Pannable](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-pannable)
+* [Kendo Chart API - Pannable](https://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-pannable)
 
-* [Kendo Chart API - Zoomable](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-zoomable)
+* [Kendo Chart API - Zoomable](https://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-zoomable)
 
 * [How to hook to zoom, pan and select events](https://feedback.telerik.com/Project/108/Feedback/Details/118371-add-client-side-events-for-drag-and-zoom-in-radhtmlchart)
  

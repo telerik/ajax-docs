@@ -25,7 +25,7 @@ In order to add controls to the **RadButton** in the markup, you should place th
 ````ASP.NET
 <telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1">
 	<ContentTemplate>
-		<img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/cog.png" />
+		<img alt="cog" src="https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/cog.png" />
 		<span>Tasks</span>
 		<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 	</ContentTemplate>
@@ -47,7 +47,7 @@ protected void Page_Init(object sender, EventArgs e)
 {
 	Literal radButtonContent = new Literal();
 	radButtonContent.ID = "radButtonContent";
-	radButtonContent.Text = "<img alt='car' src='http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/car.png' /><span>Vehicles</span>";
+	radButtonContent.Text = "<img alt='car' src='https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/car.png' /><span>Vehicles</span>";
 	RadButton1.Controls.Add(radButtonContent);
 }
 ````
@@ -55,7 +55,7 @@ protected void Page_Init(object sender, EventArgs e)
 Protected Sub Page_Init(sender As Object, e As EventArgs)
 	Dim radButtonContent As New Literal()
 	radButtonContent.ID = "radButtonContent"
-	radButtonContent.Text = "<img alt='car' src='http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/car.png' /><span>Vehicles</span>"
+	radButtonContent.Text = "<img alt='car' src='https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/car.png' /><span>Vehicles</span>"
 	RadButton1.Controls.Add(radButtonContent)
 End Sub
 ````
@@ -80,7 +80,7 @@ public class ButtonContentTemplate : ITemplate
 	{
 		System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
 		contentImage.ID = "contentImage";
-		contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/envelope.png";
+		contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/envelope.png";
 		contentImage.AlternateText = "envelope";
 		container.Controls.Add(contentImage);
 
@@ -101,7 +101,7 @@ Public Class ButtonContentTemplate
 	Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
 		Dim contentImage As New System.Web.UI.WebControls.Image()
 		contentImage.ID = "contentImage"
-		contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/envelope.png"
+		contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/envelope.png"
 		contentImage.AlternateText = "envelope"
 		container.Controls.Add(contentImage)
 

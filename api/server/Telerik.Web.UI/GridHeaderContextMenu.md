@@ -7,7 +7,7 @@ description: Telerik.Web.UI.GridHeaderContextMenu
 # Telerik.Web.UI.GridHeaderContextMenu
 
 Header context menu class.
-             See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/columns/header-context-menu Header Context Menufor more information.
+             See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/columns/header-context-menu Header Context Menufor more information.
 
 ## Inheritance Hierarchy
 

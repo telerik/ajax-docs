@@ -91,10 +91,10 @@ You can also populate the **Paragraphs** dropdown using the ToolsFile.xml, as sh
 </root> 
 ````
 
-Note: The ToolsFile file is an XML file and the opening tag `<` bracket symbol should be encoded to [its &lt; entity](http://www.w3schools.com/html/html_entities.asp) in the **name** and **value** attributes' values.
+Note: The ToolsFile file is an XML file and the opening tag `<` bracket symbol should be encoded to [its &lt; entity](https://www.w3schools.com/html/html_entities.asp) in the **name** and **value** attributes' values.
 
 ## See Also
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Paragraph Styles](http://demos.telerik.com/aspnet-ajax/editor/examples/formatblock/defaultcs.aspx)
+ * [Paragraph Styles](https://demos.telerik.com/aspnet-ajax/editor/examples/formatblock/defaultcs.aspx)

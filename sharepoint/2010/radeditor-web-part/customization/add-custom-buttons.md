@@ -34,7 +34,7 @@ Bellow are the exact steps that demonstrate how to add your custom button when u
 		}
 		.rade_toolbar.Telerik .CustomCommand1
 		{
-		 background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif) !important;
+		 background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif) !important;
 		}
 
 1. Clear the browser's cache and test the result.

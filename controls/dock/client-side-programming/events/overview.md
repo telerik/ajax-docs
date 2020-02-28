@@ -114,7 +114,7 @@ Note that on the client-side, the names of events are slightly different than on
 |OnClientResizeStart|resizeStart|add_resizeStart, remove_resizeStart|
 |OnClientResizeEnd|resizeEnd|add_resizeEnd, remove_resizeEnd|
 
-For a live example illustrating the RadDock client-side events, see [Client-side events](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ClientEvents/DefaultCS.aspx).
+For a live example illustrating the RadDock client-side events, see [Client-side events](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ClientEvents/DefaultCS.aspx).
 
 # See Also
 

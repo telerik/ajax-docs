@@ -68,4 +68,4 @@ RadEditor1.EditModes = EditModes.Html
 
 ## See Also
 
- * [RadEditor Overview demo](http://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx)
+ * [RadEditor Overview demo](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx)

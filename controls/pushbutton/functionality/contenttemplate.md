@@ -29,7 +29,7 @@ In order to add controls to the **RadPushButton** in the markup, you should plac
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadPushButton1">
 	<ContentTemplate>
-        <img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
+        <img alt="cog" src="https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
         <telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 		<div>Tasks</div>
 	</ContentTemplate>
@@ -57,7 +57,7 @@ You can add controls to **RadPushButton** from the code-behind in two ways:
 			{
 				ID = "buttonContent",
 				AlternateText = "my car",
-				ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+				ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
 			};
 			Label buttonContentLabel = new Label() { ID = "Label1", Text = "Vehicles" };
 			RadPushButton1.Controls.Add(buttonContentImage);
@@ -69,7 +69,7 @@ You can add controls to **RadPushButton** from the code-behind in two ways:
 			Dim buttonContentImage As New Image() With {
 				.ID = "buttonContent",
 				.AlternateText = "my car",
-				.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+				.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
 			}
 			Dim buttonContentLabel As New Label() With {
 			   .ID = "Label1",
@@ -101,7 +101,7 @@ You can add controls to **RadPushButton** from the code-behind in two ways:
 			{
 				System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
 				contentImage.ID = "contentImage";
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
+				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
 				contentImage.AlternateText = "envelope";
 				container.Controls.Add(contentImage);
 
@@ -123,7 +123,7 @@ You can add controls to **RadPushButton** from the code-behind in two ways:
 			Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
 				Dim contentImage As New System.Web.UI.WebControls.Image()
 				contentImage.ID = "contentImage"
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
+				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
 				contentImage.AlternateText = "envelope"
 				container.Controls.Add(contentImage)
 

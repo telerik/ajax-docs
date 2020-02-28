@@ -26,8 +26,8 @@ The following articles explain the basics of the import and export functionality
 * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})—explains how to setup and use the Import from DOCX and RTF.
 * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})—explains how to use the **OnExportContent** event to export the file to the server and prevent it from being sent to the client (**Example 1**).
 * [Event: OnImportContent]({%slug editor/server-side-programming/events/onimportcontent%})—explains how to use the **OnImportContent** event to modify the **ExportSettings** of the **HtmlFormatProvider** instance (**Example 1**).
-* [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)—online example that shows the import and export to DOCX functionality.
-* [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)—online example that shows the import and export to RTF functionality.
+* [Live demo: Import and Export to DOCX](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)—online example that shows the import and export to DOCX functionality.
+* [Live demo: Import and Export to RTF](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)—online example that shows the import and export to RTF functionality.
 
 ## Extensibility of the Import/Export Interface
 
@@ -35,8 +35,8 @@ If you are looking for a way to extend the built-in export/import functionality 
 
 * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})—explains how to use the **OnExportContent** event to dynamically add header and footer elements (**Example 2**).
 * [Event: OnImportContent]({%slug editor/server-side-programming/events/onimportcontent%})—explains how to use the **OnImportContent** event to add additional content programmatically to the **RadFlowDocument** (**Example 2**).
-* [How to Enhance the RTF Export of RadEditor for ASP.NET AJAX](http://blogs.telerik.com/blogs/13-07-19/how-to-enhance-the-rtf-export-of-radeditor-for-asp.net-ajax)—blog post that explains how to use an external, third-party library to extend the built-in export to RTF functionality. The same approach can be used to modify the DOCX exporting functionality.
-* [Import and Export to DOCX by using the Telerik document processing libraries](http://www.telerik.com/community/code-library/import-and-export-to-docx-by-using-the-telerik-document-processing-library)—a Code Library entry that shows how to build a new export template class and integrate it with the **RadEditor** control. You can use this approach to integrate older versions of the **Telerik® UI for ASP.NET AJAX** with the Telerik document processing libraries.
+* [How to Enhance the RTF Export of RadEditor for ASP.NET AJAX](https://blogs.telerik.com/blogs/13-07-19/how-to-enhance-the-rtf-export-of-radeditor-for-asp.net-ajax)—blog post that explains how to use an external, third-party library to extend the built-in export to RTF functionality. The same approach can be used to modify the DOCX exporting functionality.
+* [Import and Export to DOCX by using the Telerik document processing libraries](https://www.telerik.com/community/code-library/import-and-export-to-docx-by-using-the-telerik-document-processing-library)—a Code Library entry that shows how to build a new export template class and integrate it with the **RadEditor** control. You can use this approach to integrate older versions of the **Telerik® UI for ASP.NET AJAX** with the Telerik document processing libraries.
 
 ## See Also
 

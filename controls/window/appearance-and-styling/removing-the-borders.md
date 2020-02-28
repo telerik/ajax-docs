@@ -10,7 +10,7 @@ position: 2
 
 # Removing the Borders
 
-The **RadWindow's** borders are achieved via CSS, background image sprites and dedicated HTML elements for the purpose.There is no simple property for turning them off. Properties like BorderWidth, BorderStyle, BorderWidth are present in the controls markup and intellisense, yet they are merely inherited from the [System.Web.UI.WebControls.WebControl Class](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol.aspx) and are not implemented in the **RadWindow**, as such simple properties cannot have a clear and easily determinable effect on such a complex HTML structure.
+The **RadWindow's** borders are achieved via CSS, background image sprites and dedicated HTML elements for the purpose.There is no simple property for turning them off. Properties like BorderWidth, BorderStyle, BorderWidth are present in the controls markup and intellisense, yet they are merely inherited from the [System.Web.UI.WebControls.WebControl Class](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol.aspx) and are not implemented in the **RadWindow**, as such simple properties cannot have a clear and easily determinable effect on such a complex HTML structure.
 
 It is possible, however, to override the default CSS styles of the **RadWindow** so that the elements that hold the borders are not displayed.Examples are offered for both Lightweight and Classic RenderModes.
 
@@ -74,7 +74,7 @@ With [Lightweight RenderMode]({%slug window/mobile-support/render-modes%}) the a
 ## Removing the Borders with Classic RenderMode
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" Skin="Sunset" NavigateUrl="http://google.com/">
+<telerik:RadWindow runat="server" ID="RadWindow1" Skin="Sunset" NavigateUrl="https://google.com/">
 </telerik:RadWindow>
 ````
 

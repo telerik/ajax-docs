@@ -164,4 +164,4 @@ No visual changes are observed in the filter item after the property has been en
 
 ## See Also
 
- * [Live Demo: Basic Filtering](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/filtering/defaultcs.aspx)
+ * [Live Demo: Basic Filtering](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/filtering/defaultcs.aspx)

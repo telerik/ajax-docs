@@ -20,7 +20,7 @@ This help article provides different approaches for plotting threshold lines in 
 
 ## Plot Threshold Lines via Visual Templates and Kendo UI Drawing API
 
-You can plot threshold lines in the **RadHtmlChart** via the [Kendo UI Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing). This can be done once the chart is rendered or during the rendering itself via the [Visual Template]({%slug htmlchart/functionality/visual-template%}). The examples below shows how to plot threshold lines per a different granularity - chart, categories and items within categories.
+You can plot threshold lines in the **RadHtmlChart** via the [Kendo UI Drawing API](https://docs.telerik.com/kendo-ui/api/javascript/drawing). This can be done once the chart is rendered or during the rendering itself via the [Visual Template]({%slug htmlchart/functionality/visual-template%}). The examples below shows how to plot threshold lines per a different granularity - chart, categories and items within categories.
 
  * [Plot Threshold Lines After Chart Rendering](#plot-threshold-lines-after-chart-rendering)
  * [Plot Threshold Lines via Visual Templates](#plot-threshold-lines-via-visual-templates)
@@ -294,9 +294,9 @@ You can display threshold lines in the **RadHtmlChart** by drawing [Plot Bands](
 
 ## See Also
 
- * [Live Demo: Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)
+ * [Live Demo: Kendo Drawing API](https://demos.telerik.com/kendo-ui/drawing/index)
 
- * [API Reference: Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing)
+ * [API Reference: Kendo Drawing API](https://docs.telerik.com/kendo-ui/api/javascript/drawing)
 
  * [Visual Template]({%slug htmlchart/functionality/visual-template%})
 

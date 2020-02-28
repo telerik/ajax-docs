@@ -26,6 +26,6 @@ Additionally, each of the localization strings for the Styled buttons can be mod
 
 The [Standard Buttons]({%slug socialshare/configuring-buttons/standard%}) are not rendered by us and we must rely on the localization that the respective network provides. Currently only the **GooglePlusOne** and the **Facebook** buttons support localization. We can only follow the instructions they provide and we cannot control the supported languages.
 
-The **Facebook** buttons follow the [ISO Language convention](http://www.loc.gov/standards/iso639-2/php/code_list.php) and the [ISO 3166-1 Country codes](http://en.wikipedia.org/wiki/ISO_3166-1) and more information about this can be found in the [localization article](http://developers.facebook.com/docs/internationalization/) from their online documentation.
+The **Facebook** buttons follow the [ISO Language convention](http://www.loc.gov/standards/iso639-2/php/code_list.php) and the [ISO 3166-1 Country codes](https://en.wikipedia.org/wiki/ISO_3166-1) and more information about this can be found in the [localization article](http://developers.facebook.com/docs/internationalization/) from their online documentation.
 
 Detailed information about the **GooglePlusOne** button is available in [the online google documentation](https://developers.google.com/+/plugins/+1button/) and the list with the languages they support is at the end of the page.

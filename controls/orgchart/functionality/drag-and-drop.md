@@ -160,6 +160,6 @@ End Sub
 
 # See Also
 
- * [RadOrgChart Drag and Drop Simple Binding Demo](http://demos.telerik.com/aspnet-ajax/orgchart/examples/draganddropsimplebinding/defaultcs.aspx)
+ * [RadOrgChart Drag and Drop Simple Binding Demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/draganddropsimplebinding/defaultcs.aspx)
 
- * [RadOrgChart Drag and Drop Group Enabled Binding Demo](http://demos.telerik.com/aspnet-ajax/orgchart/examples/draganddropgroupenabledbinding/defaultcs.aspx)
+ * [RadOrgChart Drag and Drop Group Enabled Binding Demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/draganddropgroupenabledbinding/defaultcs.aspx)

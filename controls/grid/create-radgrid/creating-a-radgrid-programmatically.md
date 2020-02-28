@@ -38,17 +38,17 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 
 
 
-<!--* **Dynamically defining the structure of a statically-declared grid http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
+<!--* **Dynamically defining the structure of a statically-declared grid https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
 
-* **Creating the grid entirely in the code-behind http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self**
+* **Creating the grid entirely in the code-behind https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self**
 
-* **Creating a RadGrid on Page_Load http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self**
+* **Creating a RadGrid on Page_Load https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self**
 
-* **Creating a RadGrid on Page_Init http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self**
+* **Creating a RadGrid on Page_Init https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self**
 
-* **Creating a hierarchical grid programmatically http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self**
+* **Creating a hierarchical grid programmatically https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self**
 
-* **Creating template columns programmatically http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self**-->
+* **Creating template columns programmatically https://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self**-->
 
 ## Dynamically Defining the Structure of a Statically-declared Grid
 
@@ -742,4 +742,4 @@ The code sample above results in the following grid:
 
 ![Creating Templates programmatically](images/grd_TemplateColumnProgrammatically.png)
 
-For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](http://msdn2.microsoft.com/en-us/library/aa289501.aspx).
+For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](https://msdn2.microsoft.com/en-us/library/aa289501.aspx).

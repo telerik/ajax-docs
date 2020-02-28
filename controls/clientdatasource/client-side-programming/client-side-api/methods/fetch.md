@@ -23,7 +23,7 @@ Method which returns data from the web service after calling the select method f
 <telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
+            <Select Url="https://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
         </WebServiceDataSourceSettings>
     </DataSource>
 </telerik:RadClientDataSource>

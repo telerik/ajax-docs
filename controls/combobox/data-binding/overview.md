@@ -66,7 +66,7 @@ You can also use [templates]({%slug combobox/templates/overview%}) with a data b
 
 Note that you use Container.DataItem to access RadComboBox item when it is in bound mode. The RadComboBox item must already be bound before template binding can work.
 
-For an live example of data-binding **RadComboBox**, see [DataBinding online demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/entitydatasource/defaultcs.aspx).
+For an live example of data-binding **RadComboBox**, see [DataBinding online demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/entitydatasource/defaultcs.aspx).
 
 ## Adding Custom Attributes to Data Bound Items
 

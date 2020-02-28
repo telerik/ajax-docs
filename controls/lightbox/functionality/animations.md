@@ -37,7 +37,7 @@ You can additionally modify the animation effects by using the **Easing** and **
 
 ## Animation Types
 
-The **ShowAnimation**, **NextAnimation**, **PrevAnimation** and **HideAnimation** properties allow you to choose an animation effect. **RadLightBox** offers 14 different animation effects, which will apply a different effect between the image transitions. You can check out the different animation effects in the [live example](http://demos.telerik.com/aspnet-ajax/lightbox/examples/functionality/animations/defaultcs.aspx) and	**Table 1** shows the different animations.
+The **ShowAnimation**, **NextAnimation**, **PrevAnimation** and **HideAnimation** properties allow you to choose an animation effect. **RadLightBox** offers 14 different animation effects, which will apply a different effect between the image transitions. You can check out the different animation effects in the [live example](https://demos.telerik.com/aspnet-ajax/lightbox/examples/functionality/animations/defaultcs.aspx) and	**Table 1** shows the different animations.
 
 **Table 1:** All available animation effects.
 
@@ -50,7 +50,7 @@ The **ShowAnimation**, **NextAnimation**, **PrevAnimation** and **HideAnimation*
 
 ## Easing
 
-Easing functions makes animation look more realistic by controlling the rate of the transition between the images.The simplest easing function, the line, is linear interpolation at constant rate.More advanced easing functions can have accelerating or decelerating at the beginning, the end or both.You could read the following [MSDN Easing Function](http://msdn.microsoft.com/en-us/library/ee308751%28v=vs.110%29.aspx) help article, which provides detailed information about the different easing functions. **Table 2** shows the different easing functions.
+Easing functions makes animation look more realistic by controlling the rate of the transition between the images.The simplest easing function, the line, is linear interpolation at constant rate.More advanced easing functions can have accelerating or decelerating at the beginning, the end or both.You could read the following [MSDN Easing Function](https://msdn.microsoft.com/en-us/library/ee308751%28v=vs.110%29.aspx) help article, which provides detailed information about the different easing functions. **Table 2** shows the different easing functions.
 
 **Table 2:** All available easing functions.
 
@@ -71,6 +71,6 @@ The **Speed** property determines the duration of the animation, measured in mil
 
 # See Also
 
- * [RadLightBox Animation Live Demo](http://demos.telerik.com/aspnet-ajax/lightbox/examples/functionality/animations/defaultcs.aspx)
+ * [RadLightBox Animation Live Demo](https://demos.telerik.com/aspnet-ajax/lightbox/examples/functionality/animations/defaultcs.aspx)
 
  * [RadLightBox Overview]({%slug lightbox/overview%})

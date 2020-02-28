@@ -24,7 +24,7 @@ The RadToolTip **ShowEvent** property controls the type of event that triggers t
 
 * **OnFocus**: RadToolTip appears on focus of the target control
 
-For a live demo of this property see [Show On Event](http://demos.telerik.com/aspnet-ajax/tooltip/examples/showevent/defaultcs.aspx).
+For a live demo of this property see [Show On Event](https://demos.telerik.com/aspnet-ajax/tooltip/examples/showevent/defaultcs.aspx).
 
 # See Also
 

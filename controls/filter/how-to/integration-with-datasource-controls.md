@@ -45,4 +45,4 @@ Here is a simple example which demonstrates how you can filter RadListBox bound 
 
 
 
-Find a live example illustrating the integration of RadFilter with DataSource controls [here](http://demos.telerik.com/aspnet-ajax/filter/examples/datasourceintegration/defaultcs.aspx).
+Find a live example illustrating the integration of RadFilter with DataSource controls [here](https://demos.telerik.com/aspnet-ajax/filter/examples/datasourceintegration/defaultcs.aspx).

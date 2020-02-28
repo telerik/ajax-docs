@@ -251,7 +251,7 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
->tip Sparkline charts are intended to be small inline elements. If you need a [responsive chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx), you can hide some of the elements of the `Default` layout. See **Example 2**.
+>tip Sparkline charts are intended to be small inline elements. If you need a [responsive chart](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx), you can hide some of the elements of the `Default` layout. See **Example 2**.
 
 >caption Example 3: Responsive chart that looks like a sparkline chart
 

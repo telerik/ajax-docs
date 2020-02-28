@@ -28,4 +28,4 @@ The second approach in using monitoring progress is using RadProgressArea. In ge
 
 # See Also
 
- * [RadAsyncUpload Progress Monitoring Demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/monitorprogress/defaultcs.aspx?product=asyncupload)
+ * [RadAsyncUpload Progress Monitoring Demo](https://demos.telerik.com/aspnet-ajax/upload/examples/async/monitorprogress/defaultcs.aspx?product=asyncupload)

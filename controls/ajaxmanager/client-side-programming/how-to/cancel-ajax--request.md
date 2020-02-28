@@ -54,4 +54,4 @@ You can cancel an AJAX request in the **OnRequestStart** client-side event handl
 
  * [Client Confirmation and AJAX]({%slug ajaxmanager/client-side-programming/how-to/client-confirmation-and-ajax%})
 
- * [Cancel AJAX](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/CancelAJAX/DefaultCS.aspx)
+ * [Cancel AJAX](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/CancelAJAX/DefaultCS.aspx)

@@ -25,7 +25,7 @@ This help article describes the important changes of **RadFormDecorator** in **L
 >caption **Example 1**: Heading tags are styled by RadFormDecorator through a  global class, added to the HTML tag prior to the Q3 2015 release.
 
 ````HTML
-<html class="RadForm RadForm_Default rfdHeading rfdRoundedCorners" xmlns="http://www.w3.org/1999/xhtml">
+<html class="RadForm RadForm_Default rfdHeading rfdRoundedCorners" xmlns="https://www.w3.org/1999/xhtml">
 ...
 	<h4>Heading 4</h4>
 	<h5>Heading 5</h5>
@@ -37,7 +37,7 @@ This help article describes the important changes of **RadFormDecorator** in **L
 >caption **Example 2**: Heading tags have been styled by RadFormDecorator through an individual class, added to each heading tag since the Q3 2015 release.
 
 ````HTML
-<html class="RadForm RadForm_Default rfdRoundedCorners" xmlns="http://www.w3.org/1999/xhtml">
+<html class="RadForm RadForm_Default rfdRoundedCorners" xmlns="https://www.w3.org/1999/xhtml">
 ...
 	<h4 class="rfdHeading">Heading 4</h4>
 	<h5 class="rfdHeading">Heading 5</h5>

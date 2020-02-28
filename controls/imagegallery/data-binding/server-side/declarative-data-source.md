@@ -16,7 +16,7 @@ You can bind a **RadImageGallery** to any ASP.NET declarative data source contro
 
 ## 
 
-The steps below demonstrate how to bind a **RadImageGallery** to a **SqlDataSource**. The sample assumes that you have installed the Telerik sample database. If you have not done that, there is an article [here](http://msdn.microsoft.com/en-us/library/8b6y4c7s.aspx) describing how to install a sample database.
+The steps below demonstrate how to bind a **RadImageGallery** to a **SqlDataSource**. The sample assumes that you have installed the Telerik sample database. If you have not done that, there is an article [here](https://msdn.microsoft.com/en-us/library/8b6y4c7s.aspx) describing how to install a sample database.
 
 1. Add a **SqlDataSource** control to a page and set its SelectCommand appropriately.
 

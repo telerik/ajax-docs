@@ -33,7 +33,7 @@ For more information on how to work with and control **RadWindow**, please check
 
 	>warning This property is used to make the example simpler. The [Opening from the server]({%slug window/troubleshooting/opening-from-the-server%}) help article explains how to open a RadWindow with server code in more detail, as well as the implications of the **VisibleOnPageLoad** property and when it should **not** be used.
 
-1. In the Navigation section, set the **NavigateUrl** property to **http://www.telerik.com**
+1. In the Navigation section, set the **NavigateUrl** property to **https://www.telerik.com**
 
 	![](images/radwindowproperties.png)
 
@@ -57,7 +57,7 @@ You'll now modify the previous example to delete the **RadWindow** you just crea
 
 1. In the RadWindow Collection Editor, click the **Add** button to create a new **RadWindow** control.Use the Properties pane to set its properties to match those of the window you created before:
 	* Set the **Title** property to "Telerik Web Site".
-	* Set the **NavigateUrl** property to **http://www.telerik.com**
+	* Set the **NavigateUrl** property to **https://www.telerik.com**
 	* Do **not** set the **VisibleOnPageLoad** property this time.
 		![](images/window-collectioneditor.png)
 

@@ -44,4 +44,4 @@ The **RibbonBarToggleButton** has a few important properties, which are listed b
 
 # See Also
 
- * [RibbonBar Items Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/items/defaultcs.aspx)
+ * [RibbonBar Items Demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/items/defaultcs.aspx)

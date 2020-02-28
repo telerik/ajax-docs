@@ -37,7 +37,7 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. RadEditor for ASP.NET AJAX produces out-of-the box Xhtml content. The **Html** and **Xhtml** properties are obsolete and replaced with a new property named **Content**.
 
-1. The SaveInFile property is removed. If you want to save the editor's content directly in the page with the editor review the solution in this article: [Saving RadEditor for ASP.NET AJAX content directly in the ASPX or ASCX file containing the editor](http://www.telerik.com/support/kb/aspnet-ajax/editor/saving-radeditor-prometheus-content-directly-in-the-aspx-or-ascx-file-containing-the-editor.aspx).
+1. The SaveInFile property is removed. If you want to save the editor's content directly in the page with the editor review the solution in this article: [Saving RadEditor for ASP.NET AJAX content directly in the ASPX or ASCX file containing the editor](https://www.telerik.com/support/kb/aspnet-ajax/editor/saving-radeditor-prometheus-content-directly-in-the-aspx-or-ascx-file-containing-the-editor.aspx).
 
 
 

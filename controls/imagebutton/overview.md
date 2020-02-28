@@ -37,7 +37,7 @@ Code that creates Figure 1:
 
 ## See Also
 
- * [RadImageButton Online Demos](http://demos.telerik.com/aspnet-ajax/imagebutton/examples/overview/defaultcs.aspx)
+ * [RadImageButton Online Demos](https://demos.telerik.com/aspnet-ajax/imagebutton/examples/overview/defaultcs.aspx)
  
  * [RadImageButton Getting Started]({%slug imagebutton/getting-started%})
  

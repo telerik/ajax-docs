@@ -54,4 +54,4 @@ The data context, used in the following example, is created from the Northwind d
 
  * [RadHtmlChart Bar Chart]({%slug htmlchart/chart-types/bar-chart%})
 
- * [RadHtmlChart EntityDataSource Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/entitydatasource/defaultcs.aspx)
+ * [RadHtmlChart EntityDataSource Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/entitydatasource/defaultcs.aspx)

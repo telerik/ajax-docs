@@ -35,5 +35,5 @@ The following specifications will be helpful when operating with RadInput displa
 * The empty message does not need to be a valid value for the input control. For example, you can use a string of text as the **EmptyMessage** property of a **RadNumericTextBox**, **RadDateInput**,or **RadMaskedTextBox** control.
 
 * **RadTextBox** is unable to show a readable **EmptyMessage** or **DisplayText** when its **TextMode** is set to **Password** mode. Instead, the regarding message is displayed with bullets.In this case you could use a **Label** as an alternative for EmptyMessage:
-[How to Use an EmptyMessage with Password RadTextBoxes](http://www.telerik.com/community/code-library/aspnet-ajax/input/how-to-use-an-emptymessage-with-password-radtextboxes.aspx)
-[Set EmptyMessage for TextBox in Password Mode ](http://www.telerik.com/community/code-library/aspnet-ajax/input/set-emptymessage-for-textbox-in-password-mode.aspx)
+[How to Use an EmptyMessage with Password RadTextBoxes](https://www.telerik.com/community/code-library/aspnet-ajax/input/how-to-use-an-emptymessage-with-password-radtextboxes.aspx)
+[Set EmptyMessage for TextBox in Password Mode ](https://www.telerik.com/community/code-library/aspnet-ajax/input/set-emptymessage-for-textbox-in-password-mode.aspx)

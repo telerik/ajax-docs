@@ -24,7 +24,7 @@ The Code snippets dropdown is a convenient tool for inserting predefined chunks 
 			<table>               
 				<tr>                 
 					<td>                 
-						<img src='http://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' />                
+						<img src='https://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' />                
 					</td>               
 				</tr>            
 			</table>        
@@ -41,11 +41,11 @@ Use the **Snippets** collection **Add()** method to include new items in the lis
 
 
 ````C#
-RadEditor1.Snippets.Add("Product Template", "<table> <tr> <td><img src='http://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' /> </td></tr></table>");
+RadEditor1.Snippets.Add("Product Template", "<table> <tr> <td><img src='https://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' /> </td></tr></table>");
 RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manager<br>");      
 ````
 ````VB
-RadEditor1.Snippets.Add("Product Template", "<table> <tr> <td><img src='http://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' /> </td></tr></table>")
+RadEditor1.Snippets.Add("Product Template", "<table> <tr> <td><img src='https://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' /> </td></tr></table>")
 RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manager<br>")
 ````
 
@@ -88,7 +88,7 @@ You can also populate the Custom links dropdown using the ToolsFile.xml file. Fo
 </snippets>
 ````
 
-To set an image icon in an "Insert Code Snippet" item, put an IMG tag either in front of or next to the Title inside the name attribute of the respective snippet tag:`<snippet name="&lt;img src='http://www.telerik.com/RadControls/Editor/Skins/Custom/buttons/AjaxSpellCheck.gif' /&gt;Order Confirmation">`
+To set an image icon in an "Insert Code Snippet" item, put an IMG tag either in front of or next to the Title inside the name attribute of the respective snippet tag:`<snippet name="&lt;img src='https://www.telerik.com/RadControls/Editor/Skins/Custom/buttons/AjaxSpellCheck.gif' /&gt;Order Confirmation">`
 
 You should also encode the `<` and `>` tags symbols of the IMG tag with `&lt;` and `&gt;`.
 

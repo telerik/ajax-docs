@@ -10,7 +10,7 @@ position: 1
 
 # Shape Templates
 
-You can fully control where and how data is displayed in the **RadDiagram** shapes by defining a visual template. This requires the creation of a function, which uses the [Kendo UI Diagram API](http://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual) for defining the visual element to render. You can set the name of this function in two properties of the diagram control:
+You can fully control where and how data is displayed in the **RadDiagram** shapes by defining a visual template. This requires the creation of a function, which uses the [Kendo UI Diagram API](https://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual) for defining the visual element to render. You can set the name of this function in two properties of the diagram control:
 
 * The **ShapeDefaultsSettings-Visual** inner property of **RadDiagram** controls the template of all shapes, so if you set the function name here, the template will be applied to all of them.
 
@@ -159,7 +159,7 @@ You can fully control where and how data is displayed in the **RadDiagram** shap
 
 # See Also
 
- * [Kendo UI Diagram API for creating visual templates](http://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual)
+ * [Kendo UI Diagram API for creating visual templates](https://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual)
 
  * [RadDiagram Server-Side Programming]({%slug diagram/server-side-programming%})
 

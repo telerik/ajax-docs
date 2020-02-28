@@ -22,7 +22,7 @@ There is a way to achieve this functionality with a **RadPushButton** as well by
 	}
 </script>
 
-<telerik:RadPushButton ID="RadPushButton" runat="server" Text="RadPushButton" CommandName="http://www.telerik.com/" OnClientClicking="OnClientClicking">
+<telerik:RadPushButton ID="RadPushButton" runat="server" Text="RadPushButton" CommandName="https://www.telerik.com/" OnClientClicking="OnClientClicking">
 </telerik:RadPushButton>
 ````
 

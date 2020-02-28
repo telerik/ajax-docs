@@ -26,8 +26,8 @@ You can configure the grid to allow sorting by more than one **DataField** (call
 
 >note The sorting of the grid is based on the .NET sorting algorithms and the default type value comparators. Since the string comparator depends on the current culture, you could modify the sorting and orderign data by changing it.
 >Additional information could be found at the following MSDN help articles:
->[Comparing and Sorting Data for a Specific Culture]( http://msdn.microsoft.com/en-us/library/a7zyyk0c.aspx)
->[CultureInfo.DefaultThreadCurrentUICulture Property ]( http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.defaultthreadcurrentuiculture%28v=VS.110%29.aspx)
+>[Comparing and Sorting Data for a Specific Culture]( https://msdn.microsoft.com/en-us/library/a7zyyk0c.aspx)
+>[CultureInfo.DefaultThreadCurrentUICulture Property ]( https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.defaultthreadcurrentuiculture%28v=VS.110%29.aspx)
 >Please note that this will affect other formatting in your page, like decimal separators, month names and etc.
 >
 

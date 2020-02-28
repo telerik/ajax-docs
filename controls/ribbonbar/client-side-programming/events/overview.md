@@ -76,6 +76,6 @@ position: 0
 
 # See Also
 
- * [Client Events](http://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
+ * [Client Events](https://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
 
  * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})

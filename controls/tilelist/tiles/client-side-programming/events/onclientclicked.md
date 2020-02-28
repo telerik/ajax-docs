@@ -63,12 +63,12 @@ The code snippet below shows how to use the **OnClientClicked** event to check i
 
 ````JavaScript
 <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-    OnClientClicking="OnClientClicking" OnClientClicked="OnClientClicked" NavigateUrl="http://demos.telerik.com">
+    OnClientClicking="OnClientClicking" OnClientClicked="OnClientClicked" NavigateUrl="https://demos.telerik.com">
 </telerik:RadTextTile>
 
 <script type="text/javascript">
     function OnClientClicking(tile, args) {
-        args.set_value("http://www.telerik.com");
+        args.set_value("https://www.telerik.com");
         alert("New Navigation URL set to \'http//:www.telerik.com\'.");
     }
 

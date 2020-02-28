@@ -26,7 +26,7 @@ There is a number of built-in skins for the RadWindow control:
 
 ## See Also
 
- * [Controlling Visual Appearance](http://www.telerik.com/help/aspnet-ajax/controllingvisualappearance.html)
+ * [Controlling Visual Appearance](https://www.telerik.com/help/aspnet-ajax/controllingvisualappearance.html)
  * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
 
 

@@ -32,7 +32,7 @@ The treelist offers the following built-in style descriptors for export to Excel
 
 * ExpandCollapseCellStyle
 
-The first three inherit the [TableItemStyle](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.tableitemstyle.aspx) and style the corresponding treelist rows. The *ExpandCollapseCellStyle* styles only the Expand/Collapse cells in the control. You should set either the expand/collapse text, or the expand/collapse images (not both).The path for the expand/collapse images should be relative, otherwise they will not be found and exported on the production server.
+The first three inherit the [TableItemStyle](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.tableitemstyle.aspx) and style the corresponding treelist rows. The *ExpandCollapseCellStyle* styles only the Expand/Collapse cells in the control. You should set either the expand/collapse text, or the expand/collapse images (not both).The path for the expand/collapse images should be relative, otherwise they will not be found and exported on the production server.
 
 ````ASPNET
 <ExportSettings>

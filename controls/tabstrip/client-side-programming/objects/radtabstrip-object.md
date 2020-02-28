@@ -25,7 +25,7 @@ The table below lists the most important methods of the client-side **RadTabStri
 | **findTabByValue** |string|RadTab|Returns the first **RadTab** object whose **Value** property is equal to the passed parameter.|
 | **findTabByText** |string|RadTab|Returns the first **RadTab** object whose **Text** property is equal to the passed parameter.|
 | **findTabByUrl** |string|RadTab|Returns the first **RadTab** object whose **NavigateUrl** property is equal to the passed parameter.|
-| **findTabByAbsoluteUrl** |string|RadTab|Returns the first **RadTab** object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should end with '/' like: 'http://www.telerik.com/';|
+| **findTabByAbsoluteUrl** |string|RadTab|Returns the first **RadTab** object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should end with '/' like: 'https://www.telerik.com/';|
 | **findTabByAttribute** |string attributeName, string value)|RadTab|Returns the first **RadTab** object with a custom attribute of the specified name that has the specified value.|
 | **repaint** |none|none|Redraws the RadTabStrip control|
 | **get_tabs** |none|RadTabCollection|Returns the collection of root level tabs. See **Example 1** and **Example 4**.|

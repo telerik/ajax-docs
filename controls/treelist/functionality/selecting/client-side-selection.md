@@ -59,6 +59,6 @@ The below sample illustrates a simple usage of the above properties:
 >
 
 
-For a live demo illustrating the client-side items selection functionality, follow [this link](http://demos.telerik.com/aspnet-ajax/treelist/examples/selecting/clientsideselection/defaultcs.aspx).
+For a live demo illustrating the client-side items selection functionality, follow [this link](https://demos.telerik.com/aspnet-ajax/treelist/examples/selecting/clientsideselection/defaultcs.aspx).
 
 >note When [recursive selection]({%slug treelist/functionality/selecting/recursive-selection%}) is enabled (`AllowRecursiveSelection="true"`), client selection is disabled and selection is done on the server with a .Rebind(). This can result in loss of user input because of the rebind operation, so you may want to implement the recursive selection on the client as shown in the following code library sample [Recursive selection on the client when paging is disabled](https://www.telerik.com/support/code-library/recursive-selection-on-the-client-when-paging-is-disabled).

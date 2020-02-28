@@ -174,7 +174,7 @@ function ToggleCheck(sender, args) {
 ````
 
 
-To see a live example that demonstrates these techniques, see [Custom Attributes](http://demos.telerik.com/aspnet-ajax/Menu/Examples/CustomAttributes/DefaultCS.aspx).
+To see a live example that demonstrates these techniques, see [Custom Attributes](https://demos.telerik.com/aspnet-ajax/Menu/Examples/CustomAttributes/DefaultCS.aspx).
 
 # See Also
 

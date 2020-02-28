@@ -131,7 +131,7 @@ The **NeedDataSource** event helps you easily control events like paging, sortin
 >
 
 
-Often developers do not realize that **NeedDataSource** is called only when **RadGrid** "knows" about the structural changes, such as when a sort or page command is executed. In all other cases, when you make changes to the structure of the grid that require binding, you should call the **Rebind()** method. This method will first check if the**DataSource** has been assigned, then it will force the RadGrid instance to fire **NeedDataSource**and then **DataBind()**. You can find more information about using **NeedDataSource** and when this event fires in this [online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
+Often developers do not realize that **NeedDataSource** is called only when **RadGrid** "knows" about the structural changes, such as when a sort or page command is executed. In all other cases, when you make changes to the structure of the grid that require binding, you should call the **Rebind()** method. This method will first check if the**DataSource** has been assigned, then it will force the RadGrid instance to fire **NeedDataSource**and then **DataBind()**. You can find more information about using **NeedDataSource** and when this event fires in this [online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
 
 ## 3. Using EnableViewState = false in Non-supported Scenarios
 
@@ -181,9 +181,9 @@ Additional details can be found in these help resources:
 
 To better understand how **RadGrid** deals with hierarchy, refer to the article: [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%}).
 
-**RadGrid**supports hierarchical database structure or building hierarchy through self-referencing source table (having ID->ParentID relations in the same DataTable). This means that with [standard hierarchy](http://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarativerelations/defaultvb.aspx), in each level of hierarchy, all items will have an equal number of details tables (one or[several in the same level]({%slug grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level%})).
+**RadGrid**supports hierarchical database structure or building hierarchy through self-referencing source table (having ID->ParentID relations in the same DataTable). This means that with [standard hierarchy](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarativerelations/defaultvb.aspx), in each level of hierarchy, all items will have an equal number of details tables (one or[several in the same level]({%slug grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level%})).
 
-This is unlike the **RadTreeView** control which supports different number of sub-items on each level - the equivalent in thiscase is **RadTreeList** control that allows you to have variable number of nested sub-tables in each level. Refer to[this online demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx) for further reference.
+This is unlike the **RadTreeView** control which supports different number of sub-items on each level - the equivalent in thiscase is **RadTreeList** control that allows you to have variable number of nested sub-tables in each level. Refer to[this online demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx) for further reference.
 
 >note Note that **RadGrid** will not behave correctly if you add detail tables programmatically in **DetailTableDataBind** event handler.
 >
@@ -193,7 +193,7 @@ This is unlike the **RadTreeView** control which supports different number of su
 
 **ItemDataBound** and **ItemCreated** event handler allows you to manipulate the controls and the	values of each cell in **RadGrid**. The differences between those two events is discussed thoroughly in	[this topic]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). When handling **ItemCreated** and	**ItemDataBound** events, forgetting to check for the appropriate:
 
-* **GridItemType** - At the following [article](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_griditemtype.html)you can find a list with all available item types.
+* **GridItemType** - At the following [article](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_griditemtype.html)you can find a list with all available item types.
 
 * Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) of the help as well.
 
@@ -201,11 +201,11 @@ This is unlike the **RadTreeView** control which supports different number of su
 
  * [Understanding Dynamic Controls](http://weblogs.asp.net/infinitiesloop/archive/2006/08/25/TRULY-Understanding-Dynamic-Controls-_2800_Part-1_2900_.aspx)
 
- * [Simple Vs Advanced Data Binding](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
+ * [Simple Vs Advanced Data Binding](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
 
- * [Standard Hierarchy](http://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarative-relations/defaultcs.aspx)
+ * [Standard Hierarchy](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarative-relations/defaultcs.aspx)
 
- * [RadTreeList](http://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx)
+ * [RadTreeList](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx)
 
  * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
 

@@ -69,7 +69,7 @@ RadPushButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Val
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
  
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
  

@@ -67,7 +67,7 @@ private void Page_Load(object sender, System.EventArgs e)
 	//Get a reference to the first window in the list
 	Telerik.Web.UI.RadWindow firstWindow = WindowManager.Windows[0];
 	//Set its navigate URl to be different
-	firstWindow.NavigateUrl = "http://www.telerik.com/products/sharepoint/overview.aspx";
+	firstWindow.NavigateUrl = "https://www.telerik.com/products/sharepoint/overview.aspx";
 }
 ````
 ````VB
@@ -115,7 +115,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Han
 	'Get a reference to the first window in the list
 	Dim firstWindow As Telerik.Web.UI.RadWindow = WindowManager.Windows(0)
 	'Set its navigate URl to be different
-	firstWindow.NavigateUrl = "http://www.telerik.com/products/sharepoint/overview.aspx"
+	firstWindow.NavigateUrl = "https://www.telerik.com/products/sharepoint/overview.aspx"
 End Sub	
 ````
 

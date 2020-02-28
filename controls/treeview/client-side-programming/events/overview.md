@@ -118,4 +118,4 @@ function removeOnClicked2()
 
 
 
-For a live example of using client-side events, see [Client-Side Events Demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/ClientEvents/DefaultCS.aspx).
+For a live example of using client-side events, see [Client-Side Events Demo](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/ClientEvents/DefaultCS.aspx).

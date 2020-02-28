@@ -48,4 +48,4 @@ And this is how one can bind RadOrgChart to the data:
 
 # See Also
 
- * [Group-Enabled Binding Demo](http://demos.telerik.com/aspnet-ajax/orgchart/examples/groupenabledbinding/defaultcs.aspx)
+ * [Group-Enabled Binding Demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/groupenabledbinding/defaultcs.aspx)

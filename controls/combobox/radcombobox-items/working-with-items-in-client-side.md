@@ -84,7 +84,7 @@ function disableItem() {
 
 
 
-For further details, check the following example: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)
+For further details, check the following example: [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)
 
 # See Also
 

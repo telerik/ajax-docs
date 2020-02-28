@@ -36,4 +36,4 @@ Enables the RadCaptcha httpHandler. Click OK to close the confirmation dialog fo
 
 * Links navigate you directly to examples, help, and code library.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).

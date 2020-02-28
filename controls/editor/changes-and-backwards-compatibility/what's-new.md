@@ -16,7 +16,7 @@ position: 3
 
 A complete list of all changes can be found on Release History page:
 
-[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+[https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 
 
@@ -150,9 +150,9 @@ A complete list of all changes can be found on Release History page:
 
 * Moved the client code for the table previewer to the table dialog ascx file so it can be customized.
 
-* **Removed dependency on SessionState**. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](http://www.telerik.com/support/kb/aspnet-ajax/editor/session-in-dialogs.aspx)
+* **Removed dependency on SessionState**. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](https://www.telerik.com/support/kb/aspnet-ajax/editor/session-in-dialogs.aspx)
 
-* Added **export to PDF support** for RadEditor - see this live example: [Export to PDF](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/PdfExport/DefaultCS.aspx).
+* Added **export to PDF support** for RadEditor - see this live example: [Export to PDF](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/PdfExport/DefaultCS.aspx).
 
 
 
@@ -188,4 +188,4 @@ A complete list of all changes can be found on Release History page:
 
 * Marked one of the **StoreFile** methods in the file browser provider as obsolete. When creating a custom content provider, you no longer need to have a StoreFile overload with HttpPostedFile as the first parameter.
 
-More detailed information on current or previous releases is available [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+More detailed information on current or previous releases is available [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).

@@ -81,7 +81,7 @@ RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'V
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
  
  * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
  

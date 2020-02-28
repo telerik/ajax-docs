@@ -12,7 +12,7 @@ position: 0
 
 ## Telerik RadWindow for ASP.NET AJAX
 
-A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadWindow for ASP.NET AJAX Q2 2010
 
@@ -26,7 +26,7 @@ When the RadWindow's *ContentTemplate* element is used, then the control will no
 </telerik:RadWindow>
 ````
 
-A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadWindow for ASP.NET AJAX Q1 2010
 

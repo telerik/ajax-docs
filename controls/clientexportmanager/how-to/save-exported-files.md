@@ -19,11 +19,11 @@ There are different ways to initiate such a request and to handle its server end
 * [Use Page Method](#use-page-method)
 * [Use Forced Proxy](#use-forced-proxy)
 * [Use WebAPI](#use-webapi)
-	* [Code Library: runnable example](http://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
+	* [Code Library: runnable example](https://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
 
 ## Use Page Method
 
-You can send the base64-encoded string from the client-side to the server directly via a [page method](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server). You can obtain the string in various ways, the easiest being to handle the client-side events of the ClientExportManager instance:
+You can send the base64-encoded string from the client-side to the server directly via a [page method](https://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server). You can obtain the string in various ways, the easiest being to handle the client-side events of the ClientExportManager instance:
 
 ````ASP.NET
 <asp:ScriptManager ID="Scriptmanager2" runat="server" EnablePageMethods="true" />
@@ -85,7 +85,7 @@ End Function
 
 ## Use Forced Proxy
 
-You can use the underlying Kendo object to invoke the request and force the proxy usage, as shown in the [Force Proxy Usage](http://docs.telerik.com/kendo-ui/framework/save-files/introduction#force-proxy-usage) section of the Kendo UI documentation. You can find examples of endpoints that can tackle this request in the [Server Proxy Implementations](http://docs.telerik.com/kendo-ui/framework/save-files/introduction#server-proxy-implementations) section.
+You can use the underlying Kendo object to invoke the request and force the proxy usage, as shown in the [Force Proxy Usage](https://docs.telerik.com/kendo-ui/framework/save-files/introduction#force-proxy-usage) section of the Kendo UI documentation. You can find examples of endpoints that can tackle this request in the [Server Proxy Implementations](https://docs.telerik.com/kendo-ui/framework/save-files/introduction#server-proxy-implementations) section.
 
 ## Use WebAPI
 
@@ -238,10 +238,10 @@ End Class
 
 # See Also
 
- * [Export and save file with Web API](http://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
+ * [Export and save file with Web API](https://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
 
  * [RadClientExportManager Client-Side API]({%slug clientexportmanager/client-side-programming/overview%})
 
- * [Kendo UI: Overview of File Saving](http://docs.telerik.com/kendo-ui/framework/save-files/introduction)
+ * [Kendo UI: Overview of File Saving](https://docs.telerik.com/kendo-ui/framework/save-files/introduction)
 
- * [Different ways to make a request to the server in ASP.NET](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server)
+ * [Different ways to make a request to the server in ASP.NET](https://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server)

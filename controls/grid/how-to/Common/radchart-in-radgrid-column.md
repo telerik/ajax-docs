@@ -14,7 +14,7 @@ position: 9
 
 ##
 
-[This example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/ChartInGrid/DefaultCS.aspx?product=grid) demonstrates how to embed RadChart instances in template column of RadGrid. The data source of the charts is set in the ItemDataBound event handler of the grid depending on the corresponding item's data. This is especially useful when you want to display a diagram showing summarized graphical information for each record in the grid table.
+[This example](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/ChartInGrid/DefaultCS.aspx?product=grid) demonstrates how to embed RadChart instances in template column of RadGrid. The data source of the charts is set in the ItemDataBound event handler of the grid depending on the corresponding item's data. This is especially useful when you want to display a diagram showing summarized graphical information for each record in the grid table.
 
 ![](images/grdRadChartInRadGridColumn_thumb.PNG)
 

@@ -74,7 +74,7 @@ You can also use the templates and all other functionality of the columns regard
 
 ## See Also
 
-* [Live Demo - RadMultiColumnComboBox Overview](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx)
+* [Live Demo - RadMultiColumnComboBox Overview](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx)
 
 * [Templates]({%slug multicolumncombobox/functionality/templates%})
 

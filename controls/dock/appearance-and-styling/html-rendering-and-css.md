@@ -74,21 +74,21 @@ id="RadDockZone2">
                                <fieldset>
                                    <legend style="margin-left: 10px;">25/Mar/2010</legend>
                                    <div style="width: 100%;">
-                                       <a href="http://blogs.telerik.com/blogs/posts/10-03-25/what_rsquo_s_new_in_radchart_for_2010_q1_silverlight_wpf-2472561038.aspx">
+                                       <a href="https://blogs.telerik.com/blogs/posts/10-03-25/what_rsquo_s_new_in_radchart_for_2010_q1_silverlight_wpf-2472561038.aspx">
                                            What&rsquo;s new in RadChart for 2010 Q1 (Silverlight / WPF) </a>
                                    </div>
                                </fieldset>
                                <fieldset>
                                    <legend style="margin-left: 10px;">24/Mar/2010</legend>
                                    <div style="width: 100%;">
-                                       <a href="http://blogs.telerik.com/blogs/posts/10-03-24/mvvm_in_task-it.aspx">MVVM in
+                                       <a href="https://blogs.telerik.com/blogs/posts/10-03-24/mvvm_in_task-it.aspx">MVVM in
                                            Task-It </a>
                                    </div>
                                </fieldset>
                                <fieldset>
                                    <legend style="margin-left: 10px;">24/Mar/2010</legend>
                                    <div style="width: 100%;">
-                                       <a href="http://blogs.telerik.com/blogs/posts/10-03-24/moving_from_silverlight_4_beta_to_rc_-_part_2.aspx">
+                                       <a href="https://blogs.telerik.com/blogs/posts/10-03-24/moving_from_silverlight_4_beta_to_rc_-_part_2.aspx">
                                            Moving from Silverlight 4 Beta to RC - Part 2 </a>
                                    </div>
                                </fieldset>

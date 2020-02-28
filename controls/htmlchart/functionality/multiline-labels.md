@@ -10,7 +10,7 @@ position: 2
 
 # Multiline Labels
 
-You can split labels and titles in **RadHtmlChart** into multiple lines by using the **"\n"** line feed character. This help article shows how to wrap labels and titles in a chart (**Figure 1**) with a small sample (**Example 1**). The multiline labels feature is available since **Q3 2014**. If you are using an older version of the suite, [this]( http://feedback.telerik.com/Project/108/Feedback/Details/38633) page provides a workaround.
+You can split labels and titles in **RadHtmlChart** into multiple lines by using the **"\n"** line feed character. This help article shows how to wrap labels and titles in a chart (**Figure 1**) with a small sample (**Example 1**). The multiline labels feature is available since **Q3 2014**. If you are using an older version of the suite, [this]( https://feedback.telerik.com/Project/108/Feedback/Details/38633) page provides a workaround.
 
 >note You can add line breaks in tooltips via the `<br />` tag because tooltips in **RadHtmlChart** are rendered with simple HTML.
 

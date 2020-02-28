@@ -112,4 +112,4 @@ In the code-behind, the **OnCheckedChanged** event handlers (**ToggleRowSelectio
 ````
 
 
-For a live example showing server-side selection, see [Server-side row selection.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx)
+For a live example showing server-side selection, see [Server-side row selection.](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx)

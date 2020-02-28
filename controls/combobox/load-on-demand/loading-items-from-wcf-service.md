@@ -162,6 +162,6 @@ Result:
 
 # See Also
 
- * [Online Demo - ComboBox / WCF Web Service.](http://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
+ * [Online Demo - ComboBox / WCF Web Service.](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
 
- * [Blog post with working project.](http://blogs.telerik.com/veselinvasilev/posts/09-04-08/how-to-use-wcf-services-with-asp-net-ajax-databound-controls.aspx)
+ * [Blog post with working project.](https://blogs.telerik.com/veselinvasilev/posts/09-04-08/how-to-use-wcf-services-with-asp-net-ajax-databound-controls.aspx)

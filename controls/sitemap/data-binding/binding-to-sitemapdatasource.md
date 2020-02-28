@@ -47,11 +47,11 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 ````XML
 <?xml version="1.0" encoding="utf-8" ?>
 <sitemap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0"> 
-    <siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page"> 
-        <siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description="Telerik RadControls for ASP.NET" > 
-            <siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/> 
+    <siteMapNode url="https://www.telerik.com" title="Telerik" description="Telerik home page"> 
+        <siteMapNode url="https://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description="Telerik RadControls for ASP.NET" > 
+            <siteMapNode url="https://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/> 
         </siteMapNode> 
-        <siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description="Telerik RadNavigation controls" /> 
+        <siteMapNode url="https://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description="Telerik RadNavigation controls" /> 
     </siteMapNode>
 </sitemap>
 ````

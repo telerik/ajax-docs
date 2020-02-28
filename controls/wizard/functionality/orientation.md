@@ -33,6 +33,6 @@ Combining those two properties values can achieve different orientation:
 
 # See Also
 
- * [Wizard - Orientation demo](http://demos.telerik.com/aspnet-ajax/wizard/functionality/orientation/defaultcs.aspx)
+ * [Wizard - Orientation demo](https://demos.telerik.com/aspnet-ajax/wizard/functionality/orientation/defaultcs.aspx)
 
 

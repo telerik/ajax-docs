@@ -309,7 +309,7 @@ If you create an assembly holding your skins and reference it correctly, the Rad
 
 The steps which you should follow are:
 
-* Create an assembly and register it following the guidelines provided in this article: [How to load skins from external assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-skins-external-assembly.html)
+* Create an assembly and register it following the guidelines provided in this article: [How to load skins from external assemblies](https://www.telerik.com/help/aspnet-ajax/introduction-skins-external-assembly.html)
 
 * Add a **SkinReference** in the RadSkinManager and set the **Assembly** property to point to the loaded assembly name.
 

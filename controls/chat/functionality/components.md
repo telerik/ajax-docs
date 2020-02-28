@@ -114,6 +114,6 @@ kendo.chat.registerComponent("CalendarComponent", CalendarComponent);
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  

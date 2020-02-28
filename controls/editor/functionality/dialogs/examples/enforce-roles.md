@@ -89,4 +89,4 @@ End Sub
 
 ## See Also
 
- * [Create and Configure Virtual Directories in IIS](http://msdn2.microsoft.com/en-us/library/zwk103ab.aspx)
+ * [Create and Configure Virtual Directories in IIS](https://msdn2.microsoft.com/en-us/library/zwk103ab.aspx)

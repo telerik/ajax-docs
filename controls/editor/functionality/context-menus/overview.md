@@ -33,7 +33,7 @@ The context menus are available in the ContextMenus Collection. You can define t
 	</ContextMenus>
 	<Content>           
 		Right-click on image to see custom menu           
-		<img style="marign-left: 6px" src=" http://demos.telerik.com/aspnet-ajax/Editor/Img/productLogoLight.gif" />
+		<img style="marign-left: 6px" src=" https://demos.telerik.com/aspnet-ajax/Editor/Img/productLogoLight.gif" />
 		<br/><br/>           <p>Right-click here to see the custom Paragraph menu.<br/></p><br/>           
 		Right-click on the link to see the default link menu disabled: <a href="/">www.telerik.com</a>   
 	</Content>
@@ -112,7 +112,7 @@ If needed, you can disable specific context menus. Note that when you disable a 
 	</ContextMenus>
 	<Content>           
 		Right-click on image to see custom menu           
-		<img style="marign-left: 6px" src=" http://demos.telerik.com/aspnet-ajax/Editor/Img/productLogoLight.gif" />
+		<img style="marign-left: 6px" src=" https://demos.telerik.com/aspnet-ajax/Editor/Img/productLogoLight.gif" />
 		<br/><br/>           <p>Right-click here to see the custom Paragraph menu.<br/></p><br/>           
 		Right-click on the link to see the default link menu disabled: <a href="/">www.telerik.com</a>   
 	</Content>
@@ -161,4 +161,4 @@ RadEditor1.ContextMenus.Add(forBody)
 
 ## See Also
 
- * [Custom Context Menus](http://demos.telerik.com/aspnet-ajax/Editor/Examples/ContextMenus/DefaultCS.aspx)
+ * [Custom Context Menus](https://demos.telerik.com/aspnet-ajax/Editor/Examples/ContextMenus/DefaultCS.aspx)

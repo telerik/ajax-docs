@@ -23,12 +23,12 @@ To enable the layout change for mobile devices, just set the **RenderMode** prop
 
 
 
-By setting the **RenderMode** property to "**Auto**" and referencing the [Device Detection Framework](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx), you will ensure that the control is 
+By setting the **RenderMode** property to "**Auto**" and referencing the [Device Detection Framework](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx), you will ensure that the control is 
 rendered in an appropriate UI according to the device screen size.
 
-For optimal experience on mobile devices, we suggest that you use Telerik controls together with the [Page Layout Framework](http://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx), which will 
+For optimal experience on mobile devices, we suggest that you use Telerik controls together with the [Page Layout Framework](https://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx), which will 
 add responsive capabilities to your layout.
 
 # See Also
 
- * [Responsive Sample App](http://demos.telerik.com/responsive-web-design-aspnet/samples.aspx)
+ * [Responsive Sample App](https://demos.telerik.com/responsive-web-design-aspnet/samples.aspx)

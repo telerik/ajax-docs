@@ -112,4 +112,4 @@ protected void Label1_Load(object sender, EventArgs e)
 
  * [Overview]({%slug imagegallery/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/templates/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/templates/defaultcs.aspx)

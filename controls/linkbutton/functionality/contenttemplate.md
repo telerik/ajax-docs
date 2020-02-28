@@ -28,9 +28,9 @@ In order to add controls to the **RadLinkButton** in the markup, you should plac
 
 **ASP.NET**
 
-	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" NavigateUrl="http://www.telerik.com" Target="_blank">
+	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" NavigateUrl="https://www.telerik.com" Target="_blank">
 		<ContentTemplate>
-			<img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
+			<img alt="cog" src="https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
 			<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 			<div>Tasks</div>
 		</ContentTemplate>
@@ -46,7 +46,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 
 	**ASP.NET**
 
-		<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="160px" Height="85px" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="160px" Height="85px" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
 
 	**C#**
@@ -57,7 +57,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 			{
 				ID = "buttonContent",
 				AlternateText = "my car",
-				ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+				ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
 			};
 			Label buttonContentLabel = new Label() { ID = "Label1", Text = "Vehicles" };
 			RadPushButton1.Controls.Add(buttonContentImage);
@@ -70,7 +70,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 			Dim buttonContentImage As New Image() With {
 				.ID = "buttonContent",
 				.AlternateText = "my car",
-				.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+				.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
 			}
 			Dim buttonContentLabel As New Label() With {
 			   .ID = "Label1",
@@ -86,7 +86,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 
 	**ASP.NET**
 
-		<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="71px" Height="70px" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="71px" Height="70px" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
 
 	**C#**
@@ -102,7 +102,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 			{
 				System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
 				contentImage.ID = "contentImage";
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
+				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
 				contentImage.AlternateText = "envelope";
 				container.Controls.Add(contentImage);
 
@@ -124,7 +124,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 			Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
 				Dim contentImage As New System.Web.UI.WebControls.Image()
 				contentImage.ID = "contentImage"
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
+				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
 				contentImage.AlternateText = "envelope"
 				container.Controls.Add(contentImage)
 

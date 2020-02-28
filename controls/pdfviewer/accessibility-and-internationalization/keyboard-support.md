@@ -24,7 +24,7 @@ The keyboard navigation of the PDFViewer is always available, you can use the fo
 
 ## See Also
 
- * [Live Demo: RadPdfViewer Keyboard Support](http://demos.telerik.com/aspnet-ajax/pdfviewer/keyboard-navigation)
+ * [Live Demo: RadPdfViewer Keyboard Support](https://demos.telerik.com/aspnet-ajax/pdfviewer/keyboard-navigation)
 
  * [Right-to-Left Support]({%slug pdfviewer/accessibility-and-internationalization/right-to-left-support%})
 

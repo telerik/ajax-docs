@@ -138,7 +138,7 @@ Each data-type column exposes the following properties:
 
 * **EmptyDataText** - specifies the text that will be displayed in the column cellwhen it has empty/null value retrieved from the data source.
 
-* **HtmlEncode** - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](http://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
+* **HtmlEncode** - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
 
 ````ASPNET
 <telerik:TreeListBoundColumn DataField="BirthDate" UniqueName="BirthDate" DataType="System.DateTime"
@@ -211,7 +211,7 @@ It is editable and by default provides TreeListDateTimeColumnEditor as its colum
 
 The properties specific to this column are:
 
-* **HtmlEncode** - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](http://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
+* **HtmlEncode** - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
 
 * **MaxDate** - provides a max possible date that could be set as a column value inedit/insert mode.
 
@@ -328,7 +328,7 @@ The additional properties that the column exposes are:
 
 * **DecimalDigits** - applies to the RadNumericTextBox that is displayed in edit mode.Specifies the number of digits that are displayed after the decimal separator.
 
-* HtmlEncode - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](http://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
+* HtmlEncode - specifies whether the text in the corresponding cell will be encodedautomatically or not when displayed in the browser. More on the nature of html encoding you can find at [that address](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx).
 
 * **KeepNotRoundedValue** - applies to the RadNumericTextBox that is displayed inedit mode. Specifies whether the control will keep its not rounded value (true) and show it when it is focused.Otherwise (false) the old behavior is preserved, where theactual value of the control is the rounded value.By default this property is set to false.
 

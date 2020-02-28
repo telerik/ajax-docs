@@ -61,7 +61,7 @@ As of Q2 2013 **RadTextBox** extends the supprt provided for the new HTML5 input
 
 * **Color:** **RadTextBox** renders input field that should contain a color.
 
->caution Note that not all browsers support HTML5 input types. Those which do not recognize the new input types currently behave as if the input is with type set to text. Also note that browser support is still incomplete and some types may not be supported by all browser. You can see expected browser support in the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Browser_compatibility) or [Can I Use? input types](http://caniuse.com/#search=input%20type).
+>caution Note that not all browsers support HTML5 input types. Those which do not recognize the new input types currently behave as if the input is with type set to text. Also note that browser support is still incomplete and some types may not be supported by all browser. You can see expected browser support in the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Browser_compatibility) or [Can I Use? input types](https://caniuse.com/#search=input%20type).
 >
 
 

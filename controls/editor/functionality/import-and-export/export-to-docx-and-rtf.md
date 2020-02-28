@@ -219,7 +219,7 @@ End Class
 * The CSS [page-break-after](https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after) property is not exported.
 * Image borders are not exported.
 * Image dimensions are not exported. Exported images will be in their original size regardless of custom dimensions being set in the HTML.
-* Images with URL source cannot be exported. This is fixed in **Q2 2016**. For earlier versions, a workaround is available at [http://feedback.telerik.com/Project/108/Feedback/Details/168922](http://feedback.telerik.com/Project/108/Feedback/Details/168922). 
+* Images with URL source cannot be exported. This is fixed in **Q2 2016**. For earlier versions, a workaround is available at [https://feedback.telerik.com/Project/108/Feedback/Details/168922](https://feedback.telerik.com/Project/108/Feedback/Details/168922). 
 
 ## See Also
 
@@ -231,8 +231,8 @@ End Class
 
  * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})
  
- * [Telerik Document Processing - RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)
+ * [Telerik Document Processing - RadFlowDocument](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)
 
- * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
+ * [Live demo: Import and Export to DOCX](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
 
- * [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)
+ * [Live demo: Import and Export to RTF](https://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)

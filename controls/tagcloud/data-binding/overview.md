@@ -91,16 +91,16 @@ public class TagCloudDataItem
 	public static List<TagCloudDataItem> GetSiteData()
 	{
 		List<TagCloudDataItem> siteData = new List<TagCloudDataItem>();
-		siteData.Add(new TagCloudDataItem("Russia", "http://en.wikipedia.org/wiki/Russia", 141.9));
-		siteData.Add(new TagCloudDataItem("Nigeria", "http://en.wikipedia.org/wiki/Nigeria", 154.7));
-		siteData.Add(new TagCloudDataItem("Saudi Arabia", "http://en.wikipedia.org/wiki/Saudi_Arabia", 28.6));
-		siteData.Add(new TagCloudDataItem("Canada", "http://en.wikipedia.org/wiki/Canada", 34.1));
-		siteData.Add(new TagCloudDataItem("USA", "http://en.wikipedia.org/wiki/USA", 309.4));
-		siteData.Add(new TagCloudDataItem("Sweden", "http://en.wikipedia.org/wiki/Sweden", 9.3));
-		siteData.Add(new TagCloudDataItem("Germany", "http://en.wikipedia.org/wiki/Germany", 81.7));
-		siteData.Add(new TagCloudDataItem("Turkey", "http://en.wikipedia.org/wiki/Turkey", 72.5));
-		siteData.Add(new TagCloudDataItem("Japan", "http://en.wikipedia.org/wiki/Japan", 127.3));
-		siteData.Add(new TagCloudDataItem("France", "http://en.wikipedia.org/wiki/France", 65.4));
+		siteData.Add(new TagCloudDataItem("Russia", "https://en.wikipedia.org/wiki/Russia", 141.9));
+		siteData.Add(new TagCloudDataItem("Nigeria", "https://en.wikipedia.org/wiki/Nigeria", 154.7));
+		siteData.Add(new TagCloudDataItem("Saudi Arabia", "https://en.wikipedia.org/wiki/Saudi_Arabia", 28.6));
+		siteData.Add(new TagCloudDataItem("Canada", "https://en.wikipedia.org/wiki/Canada", 34.1));
+		siteData.Add(new TagCloudDataItem("USA", "https://en.wikipedia.org/wiki/USA", 309.4));
+		siteData.Add(new TagCloudDataItem("Sweden", "https://en.wikipedia.org/wiki/Sweden", 9.3));
+		siteData.Add(new TagCloudDataItem("Germany", "https://en.wikipedia.org/wiki/Germany", 81.7));
+		siteData.Add(new TagCloudDataItem("Turkey", "https://en.wikipedia.org/wiki/Turkey", 72.5));
+		siteData.Add(new TagCloudDataItem("Japan", "https://en.wikipedia.org/wiki/Japan", 127.3));
+		siteData.Add(new TagCloudDataItem("France", "https://en.wikipedia.org/wiki/France", 65.4));
 		return siteData;
 	}
 }
@@ -145,16 +145,16 @@ Public Class TagCloudDataItem
 	End Sub
 	Public Shared Function GetSiteData() As List(Of TagCloudDataItem)
 		Dim siteData As New List(Of TagCloudDataItem)()
-		siteData.Add(New TagCloudDataItem("Russia", "http://en.wikipedia.org/wiki/Russia", 141.9))
-		siteData.Add(New TagCloudDataItem("Nigeria", "http://en.wikipedia.org/wiki/Nigeria", 154.7))
-		siteData.Add(New TagCloudDataItem("Saudi Arabia", "http://en.wikipedia.org/wiki/Saudi_Arabia", 28.6))
-		siteData.Add(New TagCloudDataItem("Canada", "http://en.wikipedia.org/wiki/Canada", 34.1))
-		siteData.Add(New TagCloudDataItem("USA", "http://en.wikipedia.org/wiki/USA", 309.4))
-		siteData.Add(New TagCloudDataItem("Sweden", "http://en.wikipedia.org/wiki/Sweden", 9.3))
-		siteData.Add(New TagCloudDataItem("Germany", "http://en.wikipedia.org/wiki/Germany", 81.7))
-		siteData.Add(New TagCloudDataItem("Turkey", "http://en.wikipedia.org/wiki/Turkey", 72.5))
-		siteData.Add(New TagCloudDataItem("Japan", "http://en.wikipedia.org/wiki/Japan", 127.3))
-		siteData.Add(New TagCloudDataItem("France", "http://en.wikipedia.org/wiki/France", 65.4))
+		siteData.Add(New TagCloudDataItem("Russia", "https://en.wikipedia.org/wiki/Russia", 141.9))
+		siteData.Add(New TagCloudDataItem("Nigeria", "https://en.wikipedia.org/wiki/Nigeria", 154.7))
+		siteData.Add(New TagCloudDataItem("Saudi Arabia", "https://en.wikipedia.org/wiki/Saudi_Arabia", 28.6))
+		siteData.Add(New TagCloudDataItem("Canada", "https://en.wikipedia.org/wiki/Canada", 34.1))
+		siteData.Add(New TagCloudDataItem("USA", "https://en.wikipedia.org/wiki/USA", 309.4))
+		siteData.Add(New TagCloudDataItem("Sweden", "https://en.wikipedia.org/wiki/Sweden", 9.3))
+		siteData.Add(New TagCloudDataItem("Germany", "https://en.wikipedia.org/wiki/Germany", 81.7))
+		siteData.Add(New TagCloudDataItem("Turkey", "https://en.wikipedia.org/wiki/Turkey", 72.5))
+		siteData.Add(New TagCloudDataItem("Japan", "https://en.wikipedia.org/wiki/Japan", 127.3))
+		siteData.Add(New TagCloudDataItem("France", "https://en.wikipedia.org/wiki/France", 65.4))
 		Return siteData
 	End Function
 End Class

@@ -79,7 +79,7 @@ Web service binding creates a Kendo DataSource and applies the grouping settings
 
 ## See Also
 
-* [Live Demo - Grouping](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/grouping/defaultcs.aspx)
+* [Live Demo - Grouping](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/grouping/defaultcs.aspx)
 
 * [Templates]({%slug multicolumncombobox/functionality/templates%})
 

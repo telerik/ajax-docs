@@ -81,7 +81,7 @@ In order to modify the existing sprite according to some specific requirements s
 
 For more information about Sprites, see:
 
-* [CSS Image Sprites](http://www.w3schools.com/css/css_image_sprites.asp)
+* [CSS Image Sprites](https://www.w3schools.com/css/css_image_sprites.asp)
 
 # See Also
 

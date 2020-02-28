@@ -63,7 +63,7 @@ Problem:
 
 *Suggested solution:*
 
-Unplug your wireless mouse. More information is available [here](http://blogs.telerik.com/telerikreportingteam/posts/08-06-28/what-to-do-when-your-toolbox-is-devoid-of-radcontrols.aspx).
+Unplug your wireless mouse. More information is available [here](https://blogs.telerik.com/telerikreportingteam/posts/08-06-28/what-to-do-when-your-toolbox-is-devoid-of-radcontrols.aspx).
 
 ### See Also
 

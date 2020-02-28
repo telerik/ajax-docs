@@ -14,7 +14,7 @@ position: 0
 
 **RadGrid** is able to export your data to **Word** and **Excel** using **HTML/CSS-based** format. It is not the native binary format used by *Microsoft Office* but it is a popular way to export data and it is also officially supported by **Microsoft**:
 
-[Microsoft® Office HTML and XML Reference](http://msdn.microsoft.com/en-us/library/aa155477%28office.10%29.aspx)
+[Microsoft® Office HTML and XML Reference](https://msdn.microsoft.com/en-us/library/aa155477%28office.10%29.aspx)
 
 ## Styles / Appearance
 

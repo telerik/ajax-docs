@@ -78,8 +78,8 @@ The tag above should be inserted in HTML view mode of RadEditor.
 
 More information on color contrast
 
-[http://www.w3.org/TR/WCAG20-TECHS/G17](http://www.w3.org/TR/WCAG20-TECHS/G17)
+[https://www.w3.org/TR/WCAG20-TECHS/G17](https://www.w3.org/TR/WCAG20-TECHS/G17)
 
-[http://www.w3.org/TR/WCAG20-TECHS/G18.html](http://www.w3.org/TR/WCAG20-TECHS/G18.html)
+[https://www.w3.org/TR/WCAG20-TECHS/G18.html](https://www.w3.org/TR/WCAG20-TECHS/G18.html)
 
-[http://www.w3.org/TR/WCAG20-TECHS/G145.html](http://www.w3.org/TR/WCAG20-TECHS/G145.html)
+[https://www.w3.org/TR/WCAG20-TECHS/G145.html](https://www.w3.org/TR/WCAG20-TECHS/G145.html)

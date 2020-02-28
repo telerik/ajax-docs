@@ -90,7 +90,7 @@ End Sub
 
 Use the **OnRequestStart** [ client-side event ]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) handler to determine the AJAX initiator and disable AJAX for the current request. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when exporting from an AJAX-enabled Grid:
 
-[Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
+[Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](https://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
 
 >note Note that all controls added in the **UpdatedControls** collection in the **RadAjaxManager** AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
 >

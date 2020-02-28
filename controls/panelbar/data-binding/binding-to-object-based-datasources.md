@@ -18,7 +18,7 @@ You can bind **RadPanelBar** to an object-based data source such as **ObjectData
 
 ## Binding to ObjectDataSource
 
->note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Panelbar/Examples/PopulatingWithData/DeclarativeDataSources/DefaultCS.aspx) live demo.
+>note To see this type of data binding in action, please visit the [Declarative Data Sources](https://demos.telerik.com/aspnet-ajax/Panelbar/Examples/PopulatingWithData/DeclarativeDataSources/DefaultCS.aspx) live demo.
 >
 
 
@@ -185,7 +185,7 @@ End Class
 
 ## Binding to an object that supports IEnumerable
 
->tip To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Panelbar/Examples/PopulatingWithData/HierarchicalBinding/DefaultCS.aspx) live demo.
+>tip To see this type of data binding in action, please visit the [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/Panelbar/Examples/PopulatingWithData/HierarchicalBinding/DefaultCS.aspx) live demo.
 >
 
 

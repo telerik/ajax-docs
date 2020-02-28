@@ -100,4 +100,4 @@ End Function
 
  * [RadHtmlChart Column Series]({%slug htmlchart/chart-types/column-chart%})
 
- * [RadHtmlChart DataSet Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtodataset/defaultcs.aspx)
+ * [RadHtmlChart DataSet Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtodataset/defaultcs.aspx)

@@ -15,7 +15,7 @@ position: 15
 
 ##
 
-In some scenarios you may want to get a hold on the auto-generated action buttons (update/insert/cancel) inside the auto-generated grid edit form (EditMode = InPlace or EditForms) and modify them a bit without changing the entire layout of the edit form (which is possible with [WebUserControl](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx) or [FormTemplate](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx) custom edit form). Here are the steps to accomplish this task programmatically with several lines of code:
+In some scenarios you may want to get a hold on the auto-generated action buttons (update/insert/cancel) inside the auto-generated grid edit form (EditMode = InPlace or EditForms) and modify them a bit without changing the entire layout of the edit form (which is possible with [WebUserControl](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx) or [FormTemplate](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx) custom edit form). Here are the steps to accomplish this task programmatically with several lines of code:
 
 1. Subscribe to the ItemCreated event of RadGrid
 

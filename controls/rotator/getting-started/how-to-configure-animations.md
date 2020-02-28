@@ -10,9 +10,9 @@ position: 2
 
 # How To Configure Animations
 
-This article explains how the animation options of the **CoverFlow, CoverFlowButtons, Carousel and CarouselButton** [types](http://demos.telerik.com/aspnet-ajax/rotator/examples/rotatortypes/defaultcs.aspx) of the **RadRotator** can be configured to provide different effects than the default.
+This article explains how the animation options of the **CoverFlow, CoverFlowButtons, Carousel and CarouselButton** [types](https://demos.telerik.com/aspnet-ajax/rotator/examples/rotatortypes/defaultcs.aspx) of the **RadRotator** can be configured to provide different effects than the default.
 
-The animation options are a JavaScript object that can be fed to the rotator's code through the **set_scrollAnimationOptions(string, object)** client-side method of the **Telerik.Web.UI.RadRotatorAnimation** object. How this is done is shown in the [CoverFlow Mode Online Demo](http://demos.telerik.com/aspnet-ajax/rotator/examples/coverflowmode/defaultcs.aspx).
+The animation options are a JavaScript object that can be fed to the rotator's code through the **set_scrollAnimationOptions(string, object)** client-side method of the **Telerik.Web.UI.RadRotatorAnimation** object. How this is done is shown in the [CoverFlow Mode Online Demo](https://demos.telerik.com/aspnet-ajax/rotator/examples/coverflowmode/defaultcs.aspx).
 
 Essentially, the required properties must be set to an object and provided as the second argument to the method after the RadRotator declaration, while the first argument is a string containing the ClientID of the rotator that will be affected:
 
@@ -72,6 +72,6 @@ Here follows a list with the available options and their effect:
 
 # See Also
 
- * [CoverFlow Mode Online Demo](http://demos.telerik.com/aspnet-ajax/rotator/examples/coverflowmode/defaultcs.aspx)
+ * [CoverFlow Mode Online Demo](https://demos.telerik.com/aspnet-ajax/rotator/examples/coverflowmode/defaultcs.aspx)
 
- * [RadRotator Types Online Demo](http://demos.telerik.com/aspnet-ajax/rotator/examples/rotatortypes/defaultcs.aspx)
+ * [RadRotator Types Online Demo](https://demos.telerik.com/aspnet-ajax/rotator/examples/rotatortypes/defaultcs.aspx)

@@ -28,7 +28,7 @@ There are three ways to avoid this behavior:
 
 * Set the **EnableScriptCombine** property of the **RadScriptManager** to **false**
 
-* disable the script evaluation for the RadXmlHttpPanel in the [Sys.Application.Load event](http://msdn.microsoft.com/en-us/library/bb383829.aspx), e.g.`$find("<%=RadNotification1.ClientID %>")._xmlPanel.set_enableClientScriptEvaluation(false);`. Note that this may cause some issues.
+* disable the script evaluation for the RadXmlHttpPanel in the [Sys.Application.Load event](https://msdn.microsoft.com/en-us/library/bb383829.aspx), e.g.`$find("<%=RadNotification1.ClientID %>")._xmlPanel.set_enableClientScriptEvaluation(false);`. Note that this may cause some issues.
 
 ## Notification Audio Is Not Played In Mobile Devices
 

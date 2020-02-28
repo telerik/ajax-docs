@@ -185,7 +185,7 @@ This [template](https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect/
 
 ## See Also
 
-* [Live Demo - Templates](http://demos.telerik.com/aspnet-ajax/multiselect/customizingtemplates/defaultcs.aspx)
+* [Live Demo - Templates](https://demos.telerik.com/aspnet-ajax/multiselect/customizingtemplates/defaultcs.aspx)
 
 * [Kendo UI MultiSelect Widget API Reference](https://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect)
 

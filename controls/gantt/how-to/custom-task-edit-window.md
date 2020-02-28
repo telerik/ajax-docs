@@ -16,5 +16,5 @@ position: 1
 
 The following code library example shows how to implement a Custom Task Edit Window:
 
-[Example](http://www.telerik.com/support/code-library/custom-task-edit-window)
+[Example](https://www.telerik.com/support/code-library/custom-task-edit-window)
 

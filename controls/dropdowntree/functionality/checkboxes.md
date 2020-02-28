@@ -30,4 +30,4 @@ From Q1 2014 **RadDropDownTree** has a built-in property called **CheckNodeOnCli
 
 # See Also
 
- * [RadDropDownTree CheckBoxes](http://demos.telerik.com/aspnet-ajax/dropdowntree/examples/functionality/checkboxes/defaultcs.aspx)
+ * [RadDropDownTree CheckBoxes](https://demos.telerik.com/aspnet-ajax/dropdowntree/examples/functionality/checkboxes/defaultcs.aspx)

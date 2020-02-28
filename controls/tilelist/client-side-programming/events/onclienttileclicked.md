@@ -79,7 +79,7 @@ The code snippet below shows how to use the **OnClientClicked** event to check i
 
 <script type="text/javascript">
 	function OnClientTileClicking(tileList, args) {
-		args.set_value("http://www.telerik.com");
+		args.set_value("https://www.telerik.com");
 		alert("New Navigation URL set to \'http//:www.telerik.com\'.");
 	}
 

@@ -74,7 +74,7 @@ Run the installation with logging enabled and send the log file via a support ti
 
 	* run the *[VSInstallDir]\Common7\IDE\devenv.exe /setup* command manually
 
-* The automatic installation of ASP.NET AJAX Extensions 1.0 (performed by the Telerik® UI for ASP.NET AJAX installer as a prerequisite for the .NE 2.0 assemblies) did not succeed. The workaround is to download [ASP.NET AJAX 1.0](http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually. Run the Telerik® UI for ASP.NET AJAX installer afterwards.
+* The automatic installation of ASP.NET AJAX Extensions 1.0 (performed by the Telerik® UI for ASP.NET AJAX installer as a prerequisite for the .NE 2.0 assemblies) did not succeed. The workaround is to download [ASP.NET AJAX 1.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually. Run the Telerik® UI for ASP.NET AJAX installer afterwards.
 
 
 

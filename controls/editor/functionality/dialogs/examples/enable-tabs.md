@@ -43,4 +43,4 @@ Once these conditions are met, you can open the Images dialog. If you have image
 
 ## See Also
 
- * [Adding Custom Dialogs](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Adding Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)

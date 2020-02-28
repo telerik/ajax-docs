@@ -41,7 +41,7 @@ The applied settings are described below:
 
 1. First we need to specify a path to the live service.
 
-1. Secondly, a response type of [JSONP](http://en.wikipedia.org/wiki/JSONP) should be set if the service is hosted in another domain. This is due to an XSS limitation, which does not allow JavaScript from one domain to directly access resources in another. JSONP works around that limitation and allows for cross domain calls.
+1. Secondly, a response type of [JSONP](https://en.wikipedia.org/wiki/JSONP) should be set if the service is hosted in another domain. This is due to an XSS limitation, which does not allow JavaScript from one domain to directly access resources in another. JSONP works around that limitation and allows for cross domain calls.
 
 1. The entities collection contains instances of [Entity Types](http://www.odata.org/developers/protocols/overview) (for example, Customer, Employee, and so on) which are structured records consisting of named and typed properties and with a key. This way, one is telling the TreeView what kind of data it is being bound against. It is recommended to set **DataValueField** and a **DataTextField** so that the data bound items have correct text/value.
 
@@ -90,4 +90,4 @@ As you can see, having set the InitialContainerName property and the NavigationP
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/LoadOnDemand/OData/DefaultCS.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/LoadOnDemand/OData/DefaultCS.aspx)

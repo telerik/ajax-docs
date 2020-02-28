@@ -133,9 +133,9 @@ There are two ways to set the **RenderMode** of each **Telerik control**:
 
  * [List of the Controls that Support Alternative Render Modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%})
 
- * [Telerik® UI for ASP.NET AJAX Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://www.telerik.com/blogs/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
+ * [Telerik® UI for ASP.NET AJAX Lightweight Rendering – Going deeper into HTML semantics and CSS3](https://www.telerik.com/blogs/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
 
- * [The Attack of the Light-Rendered or how Lightweight beats Heavyweight with CSS3 and HTML5](http://blogs.telerik.com/aspnet-ajax/posts/13-06-13/attack-of-the-light-rendered-css3-and-html5-win)
+ * [The Attack of the Light-Rendered or how Lightweight beats Heavyweight with CSS3 and HTML5](https://blogs.telerik.com/aspnet-ajax/posts/13-06-13/attack-of-the-light-rendered-css3-and-html5-win)
  
  *  [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues)
  

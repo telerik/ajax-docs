@@ -24,7 +24,7 @@ You can test the controls in the **head** are rendered in the comment with the f
 
 ````ASP.NET
 	<!DOCTYPE html>
-	<html xmlns="http://www.w3.org/1999/xhtml">
+	<html xmlns="https://www.w3.org/1999/xhtml">
 	<head id="Head1" runat="server">
 		<title></title>
 		<!--This is a comment, containing a </head> tag.-->

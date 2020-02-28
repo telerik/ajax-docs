@@ -36,7 +36,7 @@ function SetFocus() {
 
 ## Set the focus on the server
 
-Use the [SetFocus](http://msdn.microsoft.com/en-us/library/bb156188.aspx) method of the ScriptManager or RadScriptManager.
+Use the [SetFocus](https://msdn.microsoft.com/en-us/library/bb156188.aspx) method of the ScriptManager or RadScriptManager.
 
 
 

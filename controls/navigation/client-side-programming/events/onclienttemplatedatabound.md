@@ -33,7 +33,7 @@ The client-side **OnClientTemplateDataBound** event handler receives two argumen
 
 ## See Also
 
- * [Demo: Navigation - Client-side Templates](http://demos.telerik.com/aspnet-ajax/navigation/functionality/client-side-templates/defaultcs.aspx)
+ * [Demo: Navigation - Client-side Templates](https://demos.telerik.com/aspnet-ajax/navigation/functionality/client-side-templates/defaultcs.aspx)
 
  
  

@@ -27,8 +27,8 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 >caption Example 1: Configure a **RadLinkButton** with an icon through the **Icon.Url** property.
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Button With Custom Image Icon" NavigateUrl="http://www.telerik.com" Target="_blank">
-	<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Button With Custom Image Icon" NavigateUrl="https://www.telerik.com" Target="_blank">
+	<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
 </telerik:RadLinkButton>
 ````
 
@@ -43,10 +43,10 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 **Example 2:** Setup unique icons for the normal, hovered and active state of a **RadLinkButton**.
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Normal Hover Active State Icons" NavigateUrl="http://www.telerik.com" Target="_blank">
-	<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
-		HoveredUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
-		PressedUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Normal Hover Active State Icons" NavigateUrl="https://www.telerik.com" Target="_blank">
+	<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
+		HoveredUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
+		PressedUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
 </telerik:RadLinkButton>
 ````
 
@@ -72,7 +72,7 @@ You can use custom font icons in **RadLinkButton** as well. To do that, follow t
 
 	**ASP.NET**
 
-		<telerik:RadLinkButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon" NavigateUrl="https://www.telerik.com" Target="_blank">
 			<Icon CssClass="myCustomFontIconClass" />
 		</telerik:RadLinkButton>
 
@@ -94,7 +94,7 @@ You can find below an example with [Font Awesome Icons](https://fortawesome.gith
 ````
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon" CssClass="fa" NavigateUrl="http://www.telerik.com" Target="_blank">
+<telerik:RadLinkButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon" CssClass="fa" NavigateUrl="https://www.telerik.com" Target="_blank">
 	<Icon CssClass="fa-bed" />
 </telerik:RadLinkButton>
 ````
@@ -103,11 +103,11 @@ You can also change the font-size and color of the font icon as described in the
 
 ## See Also
 
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/linkbutton/functionality/custom-icons/defaultcs.aspx)
+ * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/linkbutton/functionality/custom-icons/defaultcs.aspx)
 
  * [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/)
  
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/linkbutton/functionality/embedded-icons/defaultcs.aspx)
+ * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/linkbutton/functionality/embedded-icons/defaultcs.aspx)
  
  * [Icons Overview]({%slug linkbutton/functionality/icons/embedded-icons%})
  

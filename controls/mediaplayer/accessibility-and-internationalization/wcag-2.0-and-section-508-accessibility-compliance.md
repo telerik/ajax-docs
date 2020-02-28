@@ -34,7 +34,7 @@ In accordance with these guidelines W3C defines three levels of conformance deve
 
 * **Conformance Level "Triple-A"**
 
-For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://www.w3.org/TR/WAI-WEBCONTENT/](http://www.w3.org/TR/WAI-WEBCONTENT/)
+For more details on W3C "Web Content Accessibility Guidelines 1.0" see [https://www.w3.org/TR/WAI-WEBCONTENT/](https://www.w3.org/TR/WAI-WEBCONTENT/)
 
 
 **RadMediaPlayer** also supports subtitles.
@@ -43,6 +43,6 @@ For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://w
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

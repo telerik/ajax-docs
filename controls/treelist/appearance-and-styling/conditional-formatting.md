@@ -53,4 +53,4 @@ End Sub
 
 You can examine our online demo below:
 
-[RadTreeList Conditional formatting demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/conditionalformatting/defaultcs.aspx)
+[RadTreeList Conditional formatting demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/conditionalformatting/defaultcs.aspx)

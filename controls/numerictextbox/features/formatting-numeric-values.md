@@ -44,11 +44,11 @@ Formatting patterns are strings that control the placement of elements when form
 >
 
 
-For a live example of different NumberFormat settings, see [Formatting Value](http://demos.telerik.com/aspnet-ajax/Input/Examples/RadNumericTextBox/Formatting/DefaultCS.aspx).
+For a live example of different NumberFormat settings, see [Formatting Value](https://demos.telerik.com/aspnet-ajax/Input/Examples/RadNumericTextBox/Formatting/DefaultCS.aspx).
 
 ## Numeric value precision
 
-Since the **RadNumericTextBox** operates on both client and server side, it is limited by the data types used in C# and JavaScript. Although it could be bound to Decimal type using its DbValue property, its precision will be limited to JavaScript’s [Number](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number) type.Therefore, it is recommended to use only numbers within range of [Double](http://msdn.microsoft.com/en-us/library/678hzkk9%28v=vs.80%29.aspx) type, which means that you will get only 15-16 digit precision.
+Since the **RadNumericTextBox** operates on both client and server side, it is limited by the data types used in C# and JavaScript. Although it could be bound to Decimal type using its DbValue property, its precision will be limited to JavaScript’s [Number](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number) type.Therefore, it is recommended to use only numbers within range of [Double](https://msdn.microsoft.com/en-us/library/678hzkk9%28v=vs.80%29.aspx) type, which means that you will get only 15-16 digit precision.
 
 ## Number Seperators
 

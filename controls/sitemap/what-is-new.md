@@ -16,7 +16,7 @@ position: 1
 
 ## Q2 2010 release
 
-Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## What's New in RadSiteMap for ASP.NET AJAX Q3 SP1 2009 (Version Number 2009.3.1208)
 

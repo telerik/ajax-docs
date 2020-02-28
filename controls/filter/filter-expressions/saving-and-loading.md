@@ -20,7 +20,7 @@ The RadFilter server-side API offers two methods for saving and loading **RadFil
 
 * **LoadSettings** - Loads the provided state in the control. The parameter for this method must be * Base64 encoded * string representing saved control expressions.
 
-You see how they work in the [Save/Load RadFilter expressions](http://demos.telerik.com/aspnet-ajax/filter/examples/saveloadexpressions/defaultcs.aspx) live demo.
+You see how they work in the [Save/Load RadFilter expressions](https://demos.telerik.com/aspnet-ajax/filter/examples/saveloadexpressions/defaultcs.aspx) live demo.
 
 >caution All versions of RadFilter prior to Q3 2010 use the **ObjectStateFormatter** by default. Due to the nature of this formatter, it is not possible to deserialize settings, saved with different version of the assembly. From Q3 2010 on, the **BinaryFormatter** is set as default.
 >
@@ -32,4 +32,4 @@ You could get or change the default formatter using the **SettingsFormatter** pr
 
 * **RadFilter.SettingsFormatter.ObjectStateFormatter**- the default formatter in UI versions prior to Q3 2010. This formatter works flawlessly in medium trust but it won't deserialize settings, saved with another version of the assembly.
 
-It is possible to use your own formatter by overriding the **GetSettingsFormatter** method. For more information about the formatters, please visit the following link: [IFormatter Interface (MSDN)](http://msdn.microsoft.com/en-us/library/system.runtime.serialization.iformatter%28v=VS.90%29.aspx)
+It is possible to use your own formatter by overriding the **GetSettingsFormatter** method. For more information about the formatters, please visit the following link: [IFormatter Interface (MSDN)](https://msdn.microsoft.com/en-us/library/system.runtime.serialization.iformatter%28v=VS.90%29.aspx)

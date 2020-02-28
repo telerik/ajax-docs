@@ -63,7 +63,7 @@ When customizing the appearance of the cells of the calendar using the **DayRend
 >
 
 
-For a live example that uses the **DayRender** event , see [DayRender Event.](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/Programming/CustomDayCellRendering/DefaultCS.aspx)
+For a live example that uses the **DayRender** event , see [DayRender Event.](https://demos.telerik.com/aspnet-ajax/Calendar/Examples/Programming/CustomDayCellRendering/DefaultCS.aspx)
 
 # See Also
 

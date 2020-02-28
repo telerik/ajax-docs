@@ -68,7 +68,7 @@ When RadCompression is enabled and you are using .NET 4.0, event handlers might 
 
 *Solution*
 
-This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To work around it, you can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+This problem is caused by a breaking change in .NET 4.0 described [here](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To work around it, you can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
 
 ## The Image Is Not Loaded or/and a Security JavaScript Error is Thrown
@@ -87,5 +87,5 @@ Loading images through an external URL usually leads to the following **JavaScri
 There are several possible ways to resolve the problem:
 
 * Use a virtual path to the image you want to edit, for example, *“~/images/image.jpg”*.
-* Load the image as a file stream and follow the image-loading approach used [here](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/customsaving/defaultcs.aspx).
-* Implement a custom [Image Content Provider](http://docs.telerik.com/devtools/aspnet-ajax/controls/imageeditor/functionality/using-a-custom-image-provider) that handles the tasks of loading and working with images from different storage locations.
+* Load the image as a file stream and follow the image-loading approach used [here](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/customsaving/defaultcs.aspx).
+* Implement a custom [Image Content Provider](https://docs.telerik.com/devtools/aspnet-ajax/controls/imageeditor/functionality/using-a-custom-image-provider) that handles the tasks of loading and working with images from different storage locations.

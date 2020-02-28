@@ -48,7 +48,7 @@ The event handler receives two parameters:
 
 <telerik:RadClientDataSource ID="TagsDataSource" runat="server">
 	<DataSource>
-		<WebServiceDataSourceSettings BaseUrl="http://demos.telerik.com/kendo-ui/service/">
+		<WebServiceDataSourceSettings BaseUrl="https://demos.telerik.com/kendo-ui/service/">
 			<Select Url="Products" DataType="JSONP" />
 		</WebServiceDataSourceSettings>
 	</DataSource>

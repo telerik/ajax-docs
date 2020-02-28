@@ -71,4 +71,4 @@ Here is how the declaration of a RadScheduler bound to a RadODataDataSource cont
 
 # See Also
 
- * [Online demo](http://demos.telerik.com/aspnet-ajax/scheduler/examples/odata/defaultcs.aspx)
+ * [Online demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/odata/defaultcs.aspx)

@@ -12,7 +12,7 @@ position: 6
 
 >note As of R2 2018 the **CSDialog** dialog is no longer supported. In the previous couple of years, the third party content validating mechanism used by the dialog experienced multiples changes in terms of licensing and API, which made the maintainance of the tool impossible.
 
-Starting from Q3 2010, RadEditor for ASP.NET AJAX offers a new Compliance Check Dialog (CSDialog) to verify the editor content. The compliance check dialog is developed by [HiSoftware](http://www.hisoftware.com/) and integrates with their [Compliance Sheriff](https://www.cryptzone.com/products/compliance-sheriff) product. The [Accessible Editor](http://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx) demo page shows the RadEditor control with the compliance check tool (the green check mark in the editor toolbar).
+Starting from Q3 2010, RadEditor for ASP.NET AJAX offers a new Compliance Check Dialog (CSDialog) to verify the editor content. The compliance check dialog is developed by [HiSoftware](https://www.appgate.com/) and integrates with their [Compliance Sheriff](https://www.cryptzone.com/products/compliance-sheriff) product. The [Accessible Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx) demo page shows the RadEditor control with the compliance check tool (the green check mark in the editor toolbar).
 
 Here are the steps to enable the Compliance Check Dialog in your application:
 

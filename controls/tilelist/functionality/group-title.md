@@ -12,7 +12,7 @@ position: 4
 
 **RadTileList** offers **group titles** (**Figure 1**) as of **Q1 2016**. To set the title of a group, use its `Title` property (**Example 1**). You can also set it on the client side via the `set_groupTitle` method (**Example 2**).
 
-When data binding a TileList control, you can set the group titles declaratively when you [define the groups structure]({%slug tilelist/data-binding/defining-structure%}). Alternatively, you can use the [OnTileDataBound]({%slug tilelist/server-side-programming/server-side-events/ontiledatabound%}) event to access the associated data item and set a group's title according to your business logic. You can see this in action in the [Declarative DataSource](http://demos.telerik.com/aspnet-ajax/tilelist/examples/data-binding/server-side-binding/declarative-data-source/defaultcs.aspx) Live Demo.
+When data binding a TileList control, you can set the group titles declaratively when you [define the groups structure]({%slug tilelist/data-binding/defining-structure%}). Alternatively, you can use the [OnTileDataBound]({%slug tilelist/server-side-programming/server-side-events/ontiledatabound%}) event to access the associated data item and set a group's title according to your business logic. You can see this in action in the [Declarative DataSource](https://demos.telerik.com/aspnet-ajax/tilelist/examples/data-binding/server-side-binding/declarative-data-source/defaultcs.aspx) Live Demo.
 
 >caption Figure 1: Group Titles in RadTileList
 
@@ -100,4 +100,4 @@ When data binding a TileList control, you can set the group titles declaratively
 
  * [Defining Structure]({%slug tilelist/data-binding/defining-structure%})
 
- * [Live Demo: Declarative DataSource](http://demos.telerik.com/aspnet-ajax/tilelist/examples/data-binding/server-side-binding/declarative-data-source/defaultcs.aspx)
+ * [Live Demo: Declarative DataSource](https://demos.telerik.com/aspnet-ajax/tilelist/examples/data-binding/server-side-binding/declarative-data-source/defaultcs.aspx)

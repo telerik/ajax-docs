@@ -12,7 +12,7 @@ position: 1
 
 The code example below demonstrates how to save content directly in the ASPX or ASCX file containing RadEditor for ASP.NET AJAX. This feature can greatly simplify development in many practical scenarios,such as when you have pages with more static content ( e.g. welcome messages, FAQ, company information, contacts etc) that can be equipped with an editor, without the need to be connected to a database.
 
-The content will be saved inside the Content inner tags of RadEditor for ASP.NET AJAX so please remember to add the content tag to the editor declaration in the ASPX file so it can be correctly updated.In order for RadEditor for ASP.NET AJAX to save content directly to the control files, you have to give full permissions to the ASPNET / Network Service user for the folders and files in which the editor resides. You can find info on how to set the permissions at the following link: [Setting ASPNET (Network Service) Permissions](http://www.telerik.com/help/aspnet-ajax/installsettingaspnetpermissions.html).
+The content will be saved inside the Content inner tags of RadEditor for ASP.NET AJAX so please remember to add the content tag to the editor declaration in the ASPX file so it can be correctly updated.In order for RadEditor for ASP.NET AJAX to save content directly to the control files, you have to give full permissions to the ASPNET / Network Service user for the folders and files in which the editor resides. You can find info on how to set the permissions at the following link: [Setting ASPNET (Network Service) Permissions](https://www.telerik.com/help/aspnet-ajax/installsettingaspnetpermissions.html).
 
 ````ASP.NET
 <telerik:radeditor id="RadEditor1" runat="server">
@@ -129,8 +129,8 @@ Imports Telerik.Web.UI
 
 ## See Also
 
- * [Save In File example](http://demos.telerik.com/aspnet-ajax/editor/examples/saveinexternalfile/defaultcs.aspx)
+ * [Save In File example](https://demos.telerik.com/aspnet-ajax/editor/examples/saveinexternalfile/defaultcs.aspx)
 
- * [Save In Database](http://demos.telerik.com/aspnet-ajax/editor/examples/saveindatabase/defaultcs.aspx)
+ * [Save In Database](https://demos.telerik.com/aspnet-ajax/editor/examples/saveindatabase/defaultcs.aspx)
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})

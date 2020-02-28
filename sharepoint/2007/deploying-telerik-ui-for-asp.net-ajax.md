@@ -52,7 +52,7 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 
 
 
-3. [*Optional*] In order to use [RadScriptManager](http://www.telerik.com/help/aspnet-ajax/radscriptmanager.html) (instead of the standard ScriptManager control) or controls like RadBinaryImage, RadChart, RadUpload, etc., you need to register their handlers in the respective section in the web.config:
+3. [*Optional*] In order to use [RadScriptManager](https://www.telerik.com/help/aspnet-ajax/radscriptmanager.html) (instead of the standard ScriptManager control) or controls like RadBinaryImage, RadChart, RadUpload, etc., you need to register their handlers in the respective section in the web.config:
 
 ````XML
 <system.webserver>  

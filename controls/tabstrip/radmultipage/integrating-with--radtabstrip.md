@@ -55,7 +55,7 @@ Here is an example definition of **RadTabStrip** connected to a **RadMultiPage**
       Content of the Pageview2
       ...
   </telerik:RadPageView>
-  <telerik:RadPageView id="PageView3" runat="server" ContentUrl="http://www.telerik.com">
+  <telerik:RadPageView id="PageView3" runat="server" ContentUrl="https://www.telerik.com">
       This text is never shown
   </telerik:RadPageView>
 </telerik:RadMultiPage> 	

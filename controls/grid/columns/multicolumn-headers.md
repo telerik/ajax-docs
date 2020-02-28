@@ -12,7 +12,7 @@ position: 8
 
 
 
-The **MultiColumn Headers** of the RadGrid represent a tree-like structure where one or more columns can be grouped together by a common header. That common header in its turn can be child of another upper MultiColumn header which can also span both columns and other headers. On-line example demonstrating this functionality is available [here](http://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx).
+The **MultiColumn Headers** of the RadGrid represent a tree-like structure where one or more columns can be grouped together by a common header. That common header in its turn can be child of another upper MultiColumn header which can also span both columns and other headers. On-line example demonstrating this functionality is available [here](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx).
 
 ## Structure rules
 

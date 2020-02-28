@@ -22,7 +22,7 @@ When client-side grouping is used, you can use the same approaches, as with serv
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
 	<DataSource>
 		<WebServiceDataSourceSettings ServiceType="OData">
-			<Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers" DataType="JSON" />
+			<Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers" DataType="JSON" />
 		</WebServiceDataSourceSettings>
 	</DataSource>
 </telerik:RadClientDataSource>
@@ -56,4 +56,4 @@ When client-side grouping is used, you can use the same approaches, as with serv
 
 
 
-The above example could be tested online in the following demo: [Grid - Grouping Client-Side with RadClientDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/functionality/grouping/clientdatasource-grouping/defaultcs.aspx)
+The above example could be tested online in the following demo: [Grid - Grouping Client-Side with RadClientDataSource](https://demos.telerik.com/aspnet-ajax/Grid/Examples/functionality/grouping/clientdatasource-grouping/defaultcs.aspx)

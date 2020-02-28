@@ -22,7 +22,7 @@ At a minimum, the **RadConfirm** function takes two arguments, and HTML string w
 
 >important The **RadConfirm** returns the client result as an argument in its **Callback function** only, as opposed to the standard browser confirm() function - the radconfirm() function returns a reference to the RadWindow dialog that is created and not the result.
 >
->To see when and how you can replace the standard `confirm` method with `radconfirm`, examine the [Confirm Dialog Integration](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) live demo.
+>To see when and how you can replace the standard `confirm` method with `radconfirm`, examine the [Confirm Dialog Integration](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) live demo.
 
 
 ## Calling RadConfirm via JavaScript

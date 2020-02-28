@@ -26,4 +26,4 @@ By default the control has assigned the following shortcuts:
 
 * **Ctrl+Y** - Redo the previous returned modification
 
-You can easily customize these or add additional shortcuts using setting the **ShortCut property** to the tool declaration, or using **addShortCut()**, **removeShortCut()** and **setShortCut()** client-side methods. An example of setting RadImageEditor's shortcuts is available in the related live demo: [Keyboard Support](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/keyboardsupport/defaultcs.aspx)
+You can easily customize these or add additional shortcuts using setting the **ShortCut property** to the tool declaration, or using **addShortCut()**, **removeShortCut()** and **setShortCut()** client-side methods. An example of setting RadImageEditor's shortcuts is available in the related live demo: [Keyboard Support](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/keyboardsupport/defaultcs.aspx)

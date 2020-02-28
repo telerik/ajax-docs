@@ -157,7 +157,7 @@ End Sub
 ````
 
 
-[Creating Hierarchy Programmatically demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/hierarchy/defaultcs.aspx)
+[Creating Hierarchy Programmatically demo](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/hierarchy/defaultcs.aspx)
 
 ## 2. Binding Detail Tables Runtime
 

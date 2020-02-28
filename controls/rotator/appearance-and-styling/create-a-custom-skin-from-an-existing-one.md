@@ -103,7 +103,7 @@ Each skin of RadRotator consists of an [image sprite](http://www.alistapart.com/
 
 	![Rotator Scroll Buttons Sprite Images](images/rotator-rotatorbuttons.gif)
 
-	Each button is a 20 x 20 pixels square. On the left row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/cssref/pr_background-position.asp) property.
+	Each button is a 20 x 20 pixels square. On the left row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](https://www.w3schools.com/cssref/pr_background-position.asp) property.
 
 1. CSS Classes that are used in in **The Skin Stylesheet - Rotator.SkinName.css:**
 
@@ -175,7 +175,7 @@ Explained below is a simple method for modifying the image sprite of RadRotator'
 
 1. Repeat Steps 5 - 9 for each of the remaining images
 
-1. After you are over and done with this, save your work and reload the page. You will have a brand new skin based on [Telerik](http://www.telerik.com)'s Default skin of RadRotator.
+1. After you are over and done with this, save your work and reload the page. You will have a brand new skin based on [Telerik](https://www.telerik.com)'s Default skin of RadRotator.
 
 	![RadRotator Before](images/rotator-rotatorbefore.gif)
 

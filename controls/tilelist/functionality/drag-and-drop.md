@@ -35,11 +35,11 @@ To create a new tile group drag the tile to the gap between two existing groups 
 
 
 
->tip If you want to capture certain events in the tiles' content (e.g., input elements in a RadContentTemplateTile), you need to prevent the mousedown event bubbling for these elements because otherwise it will initiate a tile drag and get cancelled. You can find examples in the [Drag and Drop with ContentTemplateTile that has input elements](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/drag-and-drop-with-contenttemplatetile-input-elements) KB article.
+>tip If you want to capture certain events in the tiles' content (e.g., input elements in a RadContentTemplateTile), you need to prevent the mousedown event bubbling for these elements because otherwise it will initiate a tile drag and get cancelled. You can find examples in the [Drag and Drop with ContentTemplateTile that has input elements](https://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/drag-and-drop-with-contenttemplatetile-input-elements) KB article.
 
 ## See Also
 
-* [Live Demo: Persisting TileList Settings](http://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx)
+* [Live Demo: Persisting TileList Settings](https://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx)
 
 * [Save and Load State]({%slug tilelist/how-to/save-and-load-state%})
 

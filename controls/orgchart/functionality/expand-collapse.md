@@ -371,4 +371,4 @@ When the **PersistExpandCollapseState** property is set to **true** the nodes in
 
 # See Also
 
- * [OrgChart - Expand/Collapse Demo](http://demos.telerik.com/aspnet-ajax/orgchart/examples/expandcollapse/defaultcs.aspx)
+ * [OrgChart - Expand/Collapse Demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/expandcollapse/defaultcs.aspx)

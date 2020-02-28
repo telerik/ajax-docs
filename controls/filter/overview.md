@@ -24,4 +24,4 @@ Key features:
 
 * **Filter Any Databound Control** - Filter-enable any databound control with a straightforward connection mechanism.
 
-You can see how the RadFilter works in [its live demos](http://demos.telerik.com/aspnet-ajax/filter/examples/overview/defaultcs.aspx).
+You can see how the RadFilter works in [its live demos](https://demos.telerik.com/aspnet-ajax/filter/examples/overview/defaultcs.aspx).

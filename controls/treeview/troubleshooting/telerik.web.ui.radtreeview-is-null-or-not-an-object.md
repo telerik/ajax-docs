@@ -65,4 +65,4 @@ The following articles discuss possible causes and solutions of the problem:
 
 * [Getting CryptographicException exception "Padding is invalid and cannot be removed" after Migrating to ASP.NET 2.0](http://blogs.msdn.com/paraga/archive/2006/07/03/655081.aspx)
 
-* [How To: Configure MachineKey in ASP.NET 2.0](http://msdn2.microsoft.com/en-us/library/ms998288.aspx)
+* [How To: Configure MachineKey in ASP.NET 2.0](https://msdn2.microsoft.com/en-us/library/ms998288.aspx)

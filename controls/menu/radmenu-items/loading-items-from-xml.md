@@ -104,7 +104,7 @@ RadMenu1.LoadXml(xmlString)
 >
 
 
-For a live example of loading **RadMenu** items from XML, see [XML Definition](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/XmlDefinition/DefaultCS.aspx).
+For a live example of loading **RadMenu** items from XML, see [XML Definition](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/XmlDefinition/DefaultCS.aspx).
 
 
 

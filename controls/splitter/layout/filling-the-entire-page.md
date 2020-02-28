@@ -20,7 +20,7 @@ To achieve the expected behavior, you need set the following attributes on the e
 
 * Any elements that contain the splitter control must also have those properties set: `<form style="height:100%;margin:0px" >`
 
-* Optionally, if you want your page to be standards compliant, you can set the **DOCTYPE** directive to: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">`
+* Optionally, if you want your page to be standards compliant, you can set the **DOCTYPE** directive to: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">`
 
 * Optionally, you can remove the page scroll bars so that the application is as close as possible to a desktop application: `<body scroll="no" >`
 
@@ -33,7 +33,7 @@ The following example shows how to configure **RadSplitter** to fill the entire 
 ````ASP.NET
 <%@ Page language="c#" AutoEventWireup="false" %>
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">
 <html style="height:100%">  
  <head>
    <title>FullWindow</title>

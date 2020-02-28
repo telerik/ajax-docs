@@ -18,7 +18,7 @@ Here are the known limitations of **RadProgressArea**:
 
 * **RadProgressArea** now works under the Safari browser, but the **Cancel** button is always hidden. It is not possible to stop the upload under Safari due to the way the browser deals with the file upload and javascript. The client-side events **OnClientProgressBarUpdating** and **OnClientProgressUpdating** do not fire under Safari.
 
-* Progress monitoring requires **ReflectionPermission** in order to operate correctly. This means that in normal circumstances you will have to run your application with **Full Trust** permission set, unless you create a [custom security policy](http://msdn2.microsoft.com/en-us/library/ms998326.aspx) that allows **ReflectionPermission**. If you are unable to set Full Trust or a custom security policy, the solution is to put the controls assembly in **GAC**.
+* Progress monitoring requires **ReflectionPermission** in order to operate correctly. This means that in normal circumstances you will have to run your application with **Full Trust** permission set, unless you create a [custom security policy](https://msdn2.microsoft.com/en-us/library/ms998326.aspx) that allows **ReflectionPermission**. If you are unable to set Full Trust or a custom security policy, the solution is to put the controls assembly in **GAC**.
 
 * The current mechanism for canceling a file upload sometimes does not notify the server for the performed action and the latter continues to process the upload request. This often happens on Windows 2003 Server with a browser other than **IE**.
 

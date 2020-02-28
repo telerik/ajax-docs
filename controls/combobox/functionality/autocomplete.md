@@ -112,7 +112,7 @@ Now, after selecting a first item, the user can enter the separator character. W
 
 ![ComboBox AutoComplete Separator](images/combobox_autocompleteseparator.png)
 
-For a live example of the autocomplete feature, see [Autocomplete](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/AutoCompleteClientSide/DefaultCS.aspx).
+For a live example of the autocomplete feature, see [Autocomplete](https://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/AutoCompleteClientSide/DefaultCS.aspx).
 
 # See Also
 

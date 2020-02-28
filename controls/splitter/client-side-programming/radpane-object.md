@@ -53,8 +53,8 @@ The following table lists the important **RadPane** client-side methods:
 | **get_splitter** |none|[RadSplitter]({%slug splitter/client-side-programming/radsplitter-object%})|Returns the splitter to which the pane belongs.|
 | **getScrollPos** |none|position|Returns the left and top positions of the scroll pane. The return value has two properties: **left** and **top**. See **Example 1**.|
 | **setScrollPos** |integer, integer|none|Sets the left and top scrolling positions of the pane.|
-| **get_scrolling** |none|[Telerik.Web.UI.SplitterPaneScrolling](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|Returns the value of the Scrolling property of the control.|
-| **set_scrolling** |[Telerik.Web.UI.SplitterPaneScrolling](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|none|Sets new value for the Scrolling property of the control.|
+| **get_scrolling** |none|[Telerik.Web.UI.SplitterPaneScrolling](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|Returns the value of the Scrolling property of the control.|
+| **set_scrolling** |[Telerik.Web.UI.SplitterPaneScrolling](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|none|Sets new value for the Scrolling property of the control.|
 
 >caption Example 1: Using client-side getScrollPos() method.
 

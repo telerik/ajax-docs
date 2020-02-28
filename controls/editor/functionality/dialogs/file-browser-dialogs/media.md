@@ -86,7 +86,7 @@ Note that the viewMedia, uploadMedia and deleteMedia variables are string arrays
 
 ## See Also
 
- * [File Managers](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
+ * [File Managers](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 

@@ -90,4 +90,4 @@ End Class
 
  * [RadHtmlChart Column Chart]({%slug htmlchart/chart-types/column-chart%})
 
- * [RadHtmlChart ObjectDataSource Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/objectdatasource/defaultcs.aspx)
+ * [RadHtmlChart ObjectDataSource Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/objectdatasource/defaultcs.aspx)

@@ -66,7 +66,7 @@ By default, RadGrid's *CSV* engine encloses all the data within double quotes to
 
 **UI for ASP.NET AJAX Q2 2009 SP1** and later fully supports *Unicode* symbols in both *left-to-right* and *right-to-left* modes. **RadGrid** automatically saves the file in **UTF-8** encoding.
 
->note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning. This is [BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark) header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
+>note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning. This is [BOM (Byte Order Mark)](https://en.wikipedia.org/wiki/Byte_order_mark) header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
 >
 
 
@@ -86,7 +86,7 @@ Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the de
 
 * **Utf32** (UTF32 little endian)
 
-Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False** values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
+Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False** values. You can find more information about **BOM** header in the following [article](https://en.wikipedia.org/wiki/Byte_order_mark).
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">

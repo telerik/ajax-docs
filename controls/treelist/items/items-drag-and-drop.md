@@ -68,4 +68,4 @@ A convenient feature of the client-side API is that the control automatically de
 
  * [TreeList Object]({%slug treelist/server-side-programming/treelist-object%})
 
- * [Items drag and drop demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/itemsdragdrop/defaultcs.aspx)
+ * [Items drag and drop demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/itemsdragdrop/defaultcs.aspx)

@@ -25,7 +25,7 @@ To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you ne
   Width="400px">
   <MasterTableView AutoGenerateColumns="false" AllowSorting="true">
     <Columns>
-      <telerik:GridHyperLinkColumn DataTextField="Country" NavigateUrl="http://www.telerik.com"
+      <telerik:GridHyperLinkColumn DataTextField="Country" NavigateUrl="https://www.telerik.com"
         HeaderText="Country" SortExpression="Country" />
       <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="City" SortExpression="City">
         <ItemTemplate>

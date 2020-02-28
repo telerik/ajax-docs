@@ -64,7 +64,7 @@ Here you can control the settings of the column, row and data header zones. They
 * **ContextMenu** - shows a checkbox allowing you to enable or disable the zone context menu.
 ![Zones](images/pivotgrid-configuration-wizard_4.png)
 
-You can see how zones and the zone context menu are used in the [First Look](http://demos.telerik.com/aspnet-ajax/pivotgrid/examples/firstlook/defaultcs.aspx)demo of RadPivotGrid.
+You can see how zones and the zone context menu are used in the [First Look](https://demos.telerik.com/aspnet-ajax/pivotgrid/examples/firstlook/defaultcs.aspx)demo of RadPivotGrid.
 
 ## Client Settings
 

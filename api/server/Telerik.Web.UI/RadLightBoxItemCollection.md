@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadLightBoxItemCollection
 # Telerik.Web.UI.RadLightBoxItemCollection
 
 RadLightBox Item Collection. Used by RadLightBox.Items property.
-            See the http://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/server-side-programming/overview Overview topicfor more information.
+            See the https://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/server-side-programming/overview Overview topicfor more information.
 
 ## Inheritance Hierarchy
 

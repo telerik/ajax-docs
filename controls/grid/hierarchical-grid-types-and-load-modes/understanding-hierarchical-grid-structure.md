@@ -41,7 +41,7 @@ There are two general steps to implement a hierarchical grid:
     + Item(1)
         + DetailTable(0, 0) (copy 1)
     
-    Each copy of the detail tables should be data-bound to populate its items. Telerik RadGrid delegates full control of how this can be done to the developer - you should filter or select just the records that correspond to each detail table. Telerik RadGrid only restricts *when* this will happen - either through [Declarative hierarchy relations](http://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarative-relations/defaultcs.aspx) or [DetailTableDataBind event](http://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/programmatic-hierarchy/defaultcs.aspx). 
+    Each copy of the detail tables should be data-bound to populate its items. Telerik RadGrid delegates full control of how this can be done to the developer - you should filter or select just the records that correspond to each detail table. Telerik RadGrid only restricts *when* this will happen - either through [Declarative hierarchy relations](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarative-relations/defaultcs.aspx) or [DetailTableDataBind event](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/programmatic-hierarchy/defaultcs.aspx). 
     
     If you choose the second approach, Telerik RadGrid fires **DetailTableDataBind** for each **DetailTable** that is about to be data-bound. However, this depends on the **HierarchyLoadMode** property of the corresponding **GridTableView**: 
     * **HierarchyLoadMode** is **ServerBind** - the **DetailTableDataBind** event will be fired immediately after the corresponding parent item is bound. 

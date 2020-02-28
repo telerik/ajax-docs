@@ -6,7 +6,7 @@ description: Telerik.Web.UI.PivotGridFiltersCollection
 
 # Telerik.Web.UI.PivotGridFiltersCollection
 
-RadPivotGrid Filters collection. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/functionality/filtering Filteringtopic for more information.
+RadPivotGrid Filters collection. See the https://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/functionality/filtering Filteringtopic for more information.
 
 ## Inheritance Hierarchy
 

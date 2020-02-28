@@ -24,7 +24,7 @@ The **RadFileExplorer** control exposes a number or properties that can be used 
 |DeletePaths|A string array|This property is used in order to Assigns Delete permission for specific folders and their children (files and folders)|
 |ContentProviderTypeName|System.String|Sets the AssemblyQualifiedName of a custom FileBrowserContentProvider that will be used in order to load the content in RadFileExplorer|
 |MaxUploadFileSize|Int32|Sets the allowed file upload size. [This article]({%slug upload/uploading-files/uploading-large-files%}) shows how to upload large files.|
-|SearchPatterns|A string array|An array of [wildcards for search ](http://msdn.microsoft.com/en-us/library/wz42302f.aspx)||
+|SearchPatterns|A string array|An array of [wildcards for search ](https://msdn.microsoft.com/en-us/library/wz42302f.aspx)||
 |AllowPaging|Boolean|Enables or disables paging in the embedded RadGrid|
 |PageSize|Int32|Sets the PageSize of the embedded RadGrid. This property takes effect only when AllowPaging="true" is set|
 |DisplayUpFolderItem|Boolean|Show or hide the folder in the embedded RadGrid|

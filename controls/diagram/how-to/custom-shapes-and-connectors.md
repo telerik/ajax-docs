@@ -10,7 +10,7 @@ position: 0
 
 # Custom Shapes and Connectors
 
-This article provides information about the way you can create custom shapes in the Telerik ASP.NET AJAX Diagram control and how to configure their connectors. By utilizing the	[SVG Path](http://www.w3.org/TR/SVG/paths.html#PathData) functionality you can create your custom shape path definition.
+This article provides information about the way you can create custom shapes in the Telerik ASP.NET AJAX Diagram control and how to configure their connectors. By utilizing the	[SVG Path](https://www.w3.org/TR/SVG/paths.html#PathData) functionality you can create your custom shape path definition.
 
 When defining a custom shape you can use the built-in connectors every shape offers, or you can define your own connectors to match the shape and functionality you need.
 
@@ -354,4 +354,4 @@ In **Example 3** you can find the **Path** definitions for the most popular geom
 
  * [ASP.NET Diagram Connector Object]({%slug diagram/structure/connector%})
 
- * [SVG Path](http://www.w3.org/TR/SVG/paths.html#PathData)
+ * [SVG Path](https://www.w3.org/TR/SVG/paths.html#PathData)

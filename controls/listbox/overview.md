@@ -32,6 +32,6 @@ position: 0
 
  * [Overview]({%slug listbox/client-side-programming/overview%})
 
- * [RadListBox product details page](http://www.telerik.com/products/aspnet-ajax/listbox.aspx)
+ * [RadListBox product details page](https://www.telerik.com/products/aspnet-ajax/listbox.aspx)
 
- * [RadListBox Demos](http://demos.telerik.com/aspnet-ajax/listbox/examples/overview/defaultcs.aspx)
+ * [RadListBox Demos](https://demos.telerik.com/aspnet-ajax/listbox/examples/overview/defaultcs.aspx)

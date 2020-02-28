@@ -5,7 +5,7 @@ publish: false
 
 # Telerik® UI for ASP.NET AJAX Documentation
 
-Welcome to the GitHub repo for [UI for ASP.NET AJAX](http://www.telerik.com/products/aspnet-ajax.aspx) documentation. This repository contains the source content — written in Markdown — that we use to power Telerik® UI for ASP.NET AJAX Documentation at [http://docs.telerik.com/devtools/aspnet-ajax/introduction](http://docs.telerik.com/devtools/aspnet-ajax/introduction). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [http://docs.telerik.com/devtools/aspnet-ajax/introduction](http://docs.telerik.com/devtools/aspnet-ajax/introduction) where our content is prettified and searchable.
+Welcome to the GitHub repo for [UI for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax.aspx) documentation. This repository contains the source content — written in Markdown — that we use to power Telerik® UI for ASP.NET AJAX Documentation at [https://docs.telerik.com/devtools/aspnet-ajax/introduction](https://docs.telerik.com/devtools/aspnet-ajax/introduction). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [https://docs.telerik.com/devtools/aspnet-ajax/introduction](https://docs.telerik.com/devtools/aspnet-ajax/introduction) where our content is prettified and searchable.
 
 ## Running Locally
 
@@ -19,7 +19,7 @@ You can generate a static web site from the Telerik® UI for ASP.NET AJAX docume
 
 ## License
 
-The Telerik® UI for ASP.NET AJAX Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik® UI for ASP.NET AJAX. For information about available licenses for the Telerik® UI for ASP.NET AJAX click [here](http://www.telerik.com/purchase/license-agreement/aspnet-ajax).
+The Telerik® UI for ASP.NET AJAX Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik® UI for ASP.NET AJAX. For information about available licenses for the Telerik® UI for ASP.NET AJAX click [here](https://www.telerik.com/purchase/license-agreement/aspnet-ajax).
 
 ### MIT License
 

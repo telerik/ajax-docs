@@ -14,7 +14,7 @@ You can import the shapes and connections of **RadDiagram** from a data object i
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the [Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
-1. Call the [load](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-load) method of the client-side object of the diagram and pass a JSON object literal with the diagram data as an argument. The JSON object literal uses a specific format that you can check by [exporting an already declared diagram in JSON format]({%slug diagram/import-and-export/export-to-json%}).
+1. Call the [load](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-load) method of the client-side object of the diagram and pass a JSON object literal with the diagram data as an argument. The JSON object literal uses a specific format that you can check by [exporting an already declared diagram in JSON format]({%slug diagram/import-and-export/export-to-json%}).
 
 >caption **Example 1**: Import a diagram from a JSON object literal.
 
@@ -49,12 +49,12 @@ You can import the shapes and connections of **RadDiagram** from a data object i
 </script>
 ````
 
-You can find a live example of the import from JSON functionality in the [JSON Import and Export demo](http://demos.telerik.com/aspnet-ajax/diagram/examples/saveload/defaultcs.aspx).
+You can find a live example of the import from JSON functionality in the [JSON Import and Export demo](https://demos.telerik.com/aspnet-ajax/diagram/examples/saveload/defaultcs.aspx).
 
 # See Also
 
  * [RadDiagram Client-Side Basics]({%slug diagram/client-side-programming/overview%})
 
- * [load method of Kendo UI Diagram](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-load)
+ * [load method of Kendo UI Diagram](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-load)
 
- * [RadDiagram JSON Import and Export Demo](http://demos.telerik.com/aspnet-ajax/diagram/examples/saveload/defaultcs.aspx)
+ * [RadDiagram JSON Import and Export Demo](https://demos.telerik.com/aspnet-ajax/diagram/examples/saveload/defaultcs.aspx)

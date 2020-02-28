@@ -35,7 +35,7 @@ The **RadDatePicker** control is composed of **RadDateInput** control with an in
 
 * Ability to customize the look-and-feel by using [skins]({%slug datepicker/appearance-and-styling/skins%}).
 
-* Support for all major desktop and mobile browsers. Complete information on the supported browsers you can find on the [Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page.
+* Support for all major desktop and mobile browsers. Complete information on the supported browsers you can find on the [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page.
 
 * WAI-ARIA Support.
 

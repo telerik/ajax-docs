@@ -287,4 +287,4 @@ Alternatively to implementing the ITreeListColumnEditor interface, a developer c
 
  * [Auto-Generated Editors]({%slug treelist/data-editing/column-editors/auto-generated-editors%})
 
- * [Custom Editors](http://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/customeditors/defaultcs.aspx)
+ * [Custom Editors](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/customeditors/defaultcs.aspx)

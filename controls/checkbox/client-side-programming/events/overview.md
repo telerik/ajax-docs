@@ -73,7 +73,7 @@ RadCheckBox1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value
 
 ## See Also
 
- * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
  
  * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  

@@ -10,7 +10,7 @@ position: 0
 
 # RadRating with CustomValidator
 
-Sometimes you may need to check if a user has selected a value from a **RadRating** and to display a warning message in case he hasn’t. You can achieve such validation of **RadRating** with the [ASP CustomValidator Control](http://msdn.microsoft.com/en-us/library/9eee01cx%28v=vs.71%29.aspx). There are two options at your disposal - to implement your validation logic in server-side or client-side code. Both solutions are presented in the example below.
+Sometimes you may need to check if a user has selected a value from a **RadRating** and to display a warning message in case he hasn’t. You can achieve such validation of **RadRating** with the [ASP CustomValidator Control](https://msdn.microsoft.com/en-us/library/9eee01cx%28v=vs.71%29.aspx). There are two options at your disposal - to implement your validation logic in server-side or client-side code. Both solutions are presented in the example below.
 
 ## Sever-side Validation
 

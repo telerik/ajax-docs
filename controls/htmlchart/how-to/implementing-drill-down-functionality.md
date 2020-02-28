@@ -14,7 +14,7 @@ In this article you’ll see the basic of how to use the drill-down functionalit
 
 You can implement drill-down functionality for the **RadHtmlChart** control by incorporating its Client-side API and updating the chart via AJAX.	This will allow you to display more detailed data on the chart control by clicking on a specific series item.
 
-The online demo	[Drill-Down Chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx), shows how to use the drill-down functionality of the chart. (You should view this drill-down chart in a browser, clicking on it to drill into the pieces, as you read this article.)On the first chart, the data is grouped by the greatest time span, which is year. The year is divided into quarters.Click on an item on the chart to "drill down" and see the values corresponding to the quarters of the selected year.Each quarter consists of three months. After clicking to "drill down" into a quarter for the selected year, you can see the values for each month in the selected quarter.
+The online demo	[Drill-Down Chart](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx), shows how to use the drill-down functionality of the chart. (You should view this drill-down chart in a browser, clicking on it to drill into the pieces, as you read this article.)On the first chart, the data is grouped by the greatest time span, which is year. The year is divided into quarters.Click on an item on the chart to "drill down" and see the values corresponding to the quarters of the selected year.Each quarter consists of three months. After clicking to "drill down" into a quarter for the selected year, you can see the values for each month in the selected quarter.
 
 >caption Example 1: The following steps describe the approach for implementing the drill-down functionality with code snippets from the online	drill-down demo previously referred to.
 
@@ -96,7 +96,7 @@ The AJAX requests in **Example 1** are implemented via the **RadAjaxManager** co
 
 ## See Also
 
- * [Demo: Drill-down Chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx)
+ * [Demo: Drill-down Chart](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx)
 
  * [Client-side Events Overview]({%slug htmlchart/client-side-programming/events/overview%})
  

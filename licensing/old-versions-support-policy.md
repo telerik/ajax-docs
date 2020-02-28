@@ -21,9 +21,9 @@ This article explains important information on how bug fixes, enhancements and b
 
 ## Bug Fixes
 
-Bugs found in UI for ASP.NET AJAX controls are fixed according to priority defined by the product management that takes into account the [public Feedback portal](http://feedback.telerik.com/project/108), [support system](http://www.telerik.com/account/support-tickets/available-support-list.aspx), surveys, interviews and other means according to the management discretion.
+Bugs found in UI for ASP.NET AJAX controls are fixed according to priority defined by the product management that takes into account the [public Feedback portal](https://feedback.telerik.com/Project/108), [support system](https://www.telerik.com/account/support-tickets/available-support-list.aspx), surveys, interviews and other means according to the management discretion.
 
-Bug fixes are introduced in the first [official release](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history) of the product after the fix is implemented by the development team. [Internal (nightly) builds](https://www.telerik.com/support/kb/aspnet-ajax/details/latest-internal-builds) may also contain bug fixes before an official release is available, and you can use them to keep developing your application, but we recommend that you do not promote them to production.
+Bug fixes are introduced in the first [official release](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history) of the product after the fix is implemented by the development team. [Internal (nightly) builds](https://www.telerik.com/support/kb/aspnet-ajax/details/latest-internal-builds) may also contain bug fixes before an official release is available, and you can use them to keep developing your application, but we recommend that you do not promote them to production.
 
 To get a bug fix, you should [upgrade your project]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to a release equal to, or newer, than the first release that contains the fix.
 

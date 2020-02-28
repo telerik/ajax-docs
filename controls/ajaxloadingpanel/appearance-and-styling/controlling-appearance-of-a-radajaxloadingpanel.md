@@ -158,6 +158,6 @@ For **RadAjaxPanel** , the **CssClass** property is applied to the inner div, wh
 
  * [Skins]({%slug ajaxloadingpanel/appearance-and-styling/skins%})
 
- * [Demo: AJAX Loading Panel](http://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/loadingimages/defaultcs.aspx)
+ * [Demo: AJAX Loading Panel](https://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/loadingimages/defaultcs.aspx)
 
- * [Demo: Explicit Show/Hide](http://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/explicitshowhide/defaultcs.aspx)
+ * [Demo: Explicit Show/Hide](https://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/explicitshowhide/defaultcs.aspx)

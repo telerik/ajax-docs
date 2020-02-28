@@ -31,7 +31,7 @@ The event handler receives two parameters:
 
 # See Also
 
- * [Kendo UI Chat Events](http://docs.telerik.com/kendo-ui/api/javascript/ui/chat#events)
+ * [Kendo UI Chat Events](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat#events)
 
  * [RadChat Client-Side events Overview]({%slug chat/client-side-programming/events%})
 

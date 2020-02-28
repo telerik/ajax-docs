@@ -35,7 +35,7 @@ This event comes handy in scenarios when the user wants to operate with the cont
 
 ## See Also
 
- * [ImageButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [ImageButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [ImageButton Object]({%slug imagebutton/client-side-programming/imagebutton-object%})
  

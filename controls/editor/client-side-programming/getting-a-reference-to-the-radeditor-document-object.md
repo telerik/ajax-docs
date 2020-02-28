@@ -32,4 +32,4 @@ The following example demonstrates how to get a reference to the editor's docume
 
 
 
-You can find more information about the execCommand method in the following MSDN and Mozilla articles: [execCommand Method](http://msdn2.microsoft.com/en-us/library/ms536419.aspx), [Command Identifiers](http://msdn2.microsoft.com/en-us/library/ms533049.aspx), [Rich-Text Editing in Mozilla](http://developer.mozilla.org/en/docs/Rich-Text_Editing_in_Mozilla)
+You can find more information about the execCommand method in the following MSDN and Mozilla articles: [execCommand Method](https://msdn2.microsoft.com/en-us/library/ms536419.aspx), [Command Identifiers](https://msdn2.microsoft.com/en-us/library/ms533049.aspx), [Rich-Text Editing in Mozilla](http://developer.mozilla.org/en/docs/Rich-Text_Editing_in_Mozilla)

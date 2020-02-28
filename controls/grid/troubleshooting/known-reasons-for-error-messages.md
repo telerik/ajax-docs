@@ -132,7 +132,7 @@ This online resource elaborates on the subject:
 
 [http://www.vinull.com/Post/2007/04/17/aspnet-sorting-a-gridview-with-custom-o.aspx#comments](http://www.vinull.com/Post/2007/04/17/aspnet-sorting-a-gridview-with-custom-o.aspx#comments)
 
-Other possible solution is to bind this collection inside the [NeedDataSource handler](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx) - in this case RadGrid will able to sort the data without any problems.
+Other possible solution is to bind this collection inside the [NeedDataSource handler](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx) - in this case RadGrid will able to sort the data without any problems.
 
 The third option is to set the **OverrideDataSourceControlSorting**property of the MasterTableView/GridTableView to **true** (the default value is false). With this setting you will force the grid to override DataSourceControl's default sorting and use the RadGrid native sorting instead. Hence the solution is applicable in case of ObjectDataSource with IEnumerable data (or other custom data source controls) without implemented sorting as depicted in point 1.
 

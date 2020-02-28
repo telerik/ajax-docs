@@ -212,9 +212,9 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 
 ````XML
 <links>
-	<link name="Telerik" href="http://www.telerik.com">
-		<link name="Products" href="http://www.telerik.com/products" />
-		<link name="Purchase" href="http://www.telerik.com/purchase" />
+	<link name="Telerik" href="https://www.telerik.com">
+		<link name="Products" href="https://www.telerik.com/products" />
+		<link name="Purchase" href="https://www.telerik.com/purchase" />
 	</link>
 </links>
 ````
@@ -383,5 +383,5 @@ By editing the editor's ToolsFile.xml file you easily customize the editor's too
 
 ## See Also
 
- * [Default Configuration](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/Default/DefaultCS.aspx)
+ * [Default Configuration](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/Default/DefaultCS.aspx)
  * [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%})

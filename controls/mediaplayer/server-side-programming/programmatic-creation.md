@@ -72,12 +72,12 @@ End Sub
 ````
 
 
-For creating the Playlist feature dynamicallyand to examine a bit more advanced scenario, you can check the [Programmatic Creation Code-Library](http://www.telerik.com/support/code-library/programmatic-creation-and-configuration-of-the-media-player-control).
+For creating the Playlist feature dynamicallyand to examine a bit more advanced scenario, you can check the [Programmatic Creation Code-Library](https://www.telerik.com/support/code-library/programmatic-creation-and-configuration-of-the-media-player-control).
 
 ## See Also
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Video Gallery Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/applicationscenarios/video-gallery/defaultcs.aspx)
+ * [Video Gallery Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/applicationscenarios/video-gallery/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

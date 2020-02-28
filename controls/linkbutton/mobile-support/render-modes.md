@@ -24,7 +24,7 @@ There are two ways to configure the rendering mode of the controls:
 
 	**ASP.NET**
 
-		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" RenderMode="Lightweight" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" RenderMode="Lightweight" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
 
 	**C#**

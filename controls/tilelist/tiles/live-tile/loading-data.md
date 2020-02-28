@@ -24,7 +24,7 @@ The **ClientTemplate** is utilizing the [Kendo UI Templates](http://docs.kendoui
 
 ## Loading Data From Web Service
 
-The RadLiveTile can be populated from a [Web Service](http://msdn.microsoft.com/en-us/library/t745kdsh%28v=vs.90%29.aspx) by setting the following properties of the inner property **WebServiceSettings**:
+The RadLiveTile can be populated from a [Web Service](https://msdn.microsoft.com/en-us/library/t745kdsh%28v=vs.90%29.aspx) by setting the following properties of the inner property **WebServiceSettings**:
 
 * **Path** - the location of the web service.
 
@@ -136,7 +136,7 @@ End Class
 
 ## Loading Data From WCF Service
 
-The RadLiveTile can be populated from a [WCF Service](http://msdn.microsoft.com/en-us/library/bb412167.aspx) by setting the following properties of the inner property **WebServiceSettings**:
+The RadLiveTile can be populated from a [WCF Service](https://msdn.microsoft.com/en-us/library/bb412167.aspx) by setting the following properties of the inner property **WebServiceSettings**:
 
 * **Path** - the location of the WCF service.
 
@@ -298,7 +298,7 @@ Note the filter that is applied to the RadODataDataSource, so that a specific re
 
 ## Loading Data From Page Method
 
-The RadLiveTile can be populated from a [page method](http://www.asp.net/ajaxlibrary/jquery_webforms_retrieve_data_from_pagemethod.ashx) by setting the following properties of the inner property **WebServiceSettings**:
+The RadLiveTile can be populated from a [page method](https://www.asp.net/ajaxlibrary/jquery_webforms_retrieve_data_from_pagemethod.ashx) by setting the following properties of the inner property **WebServiceSettings**:
 
 * **Path** - the current ASPX page.
 

@@ -56,7 +56,7 @@ Here is a simple example with a **RadClientDataSource**:
      <ClientEvents OnDataRequested="OnDataRequested" />
      <DataSource>
           <WebServiceDataSourceSettings ServiceType="OData">
-               <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+               <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
           </WebServiceDataSourceSettings>
      </DataSource>
 </telerik:RadClientDataSource>
@@ -168,7 +168,7 @@ protected void Page_Load(object sender, EventArgs e)
 	if (!Page.IsPostBack)
 	{
 		List<TileDataMocking> sampleData = new List<TileDataMocking>();
-		sampleData.Add(new TileDataMocking("http://www.telerik.com/", "Learn more about Telerik"));
+		sampleData.Add(new TileDataMocking("https://www.telerik.com/", "Learn more about Telerik"));
 		sampleData.Add(new TileDataMocking("http://www.sitefinity.com/", "Explore Sitefinity"));
 		sampleData.Add(new TileDataMocking("http://www.icenium.com/", "Discover Icenium"));
 		RadTileList2.DataSource = sampleData;
@@ -201,7 +201,7 @@ public class TileDataMocking
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	If Not Page.IsPostBack Then
 		Dim sampleData As New List(Of TileDataMocking)()
-		sampleData.Add(New TileDataMocking("http://www.telerik.com/", "Learn more about Telerik"))
+		sampleData.Add(New TileDataMocking("https://www.telerik.com/", "Learn more about Telerik"))
 		sampleData.Add(New TileDataMocking("http://www.sitefinity.com/", "Explore Sitefinity"))
 		sampleData.Add(New TileDataMocking("http://www.icenium.com/", "Discover Icenium"))
 		RadTileList2.DataSource = sampleData

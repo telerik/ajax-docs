@@ -28,7 +28,7 @@ There are several ways to customize the advanced form:
 
 * [Using the Advanced Templates ]({%slug scheduler/customizing-the-advanced-form/using-the-advanced-templates%})
 
-* External edit by replacing the advanced form - [External Edit with RadDock demo]( http://demos.telerik.com/aspnet-ajax/scheduler/examples/raddock/defaultcs.aspx)
+* External edit by replacing the advanced form - [External Edit with RadDock demo]( https://demos.telerik.com/aspnet-ajax/scheduler/examples/raddock/defaultcs.aspx)
 
 For some light-weight, minor tweaks, such as changing the style of the Subject's label, hiding the all-day checkbox,or adding some custom validation, we recommend using the first two methods - handling FormCreated and using javascriptand CSS. For heavy-weight customization, it is best to use the Advanced Templates or replace the advanced form with acustom one using the approach from the External Edit with RadDock demo.
 

@@ -75,7 +75,7 @@ ul ul{
 >            </Content>
 >        </telerik:RadEditor>
 
-More information about the **list-style-type** property is available in MSDN: [list-style-type Attribute | listStyleType Property](http://msdn.microsoft.com/en-us/library/ms530797.aspx).
+More information about the **list-style-type** property is available in MSDN: [list-style-type Attribute | listStyleType Property](https://msdn.microsoft.com/en-us/library/ms530797.aspx).
 
 You can also style other elements in the editor's content area by using the respective global CSS selectors.
 

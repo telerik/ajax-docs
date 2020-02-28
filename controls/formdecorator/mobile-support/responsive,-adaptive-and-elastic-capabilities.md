@@ -28,7 +28,7 @@ Elements that use images or images sprites, however, cannot be increased in size
 
 **Example 2** shows how to increase the font size of the elements on the page with RadFormDecorator and the effect can be seen in comparison in **Figure 1**. RadFormDecorator should have a specific approach as its root element is set to the HTML element and giving some specific font size could change some parts that are not part of RadFormDecorator. So, we will need to group the RadFormDecorator elements that should be increased:
 
-When using a [Decoration Zone](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in **Example 3**.
+When using a [Decoration Zone](https://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in **Example 3**.
 
 >caption **Example 2**: CSS selectors for using elastic design with RadFormDecorator.
 

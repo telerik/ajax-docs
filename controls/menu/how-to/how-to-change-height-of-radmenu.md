@@ -14,7 +14,7 @@ The following tutorial demonstrates how you can alter the **height** of the **Ra
 
 **Q:** I want to increase the height of the RadMenu. For example I need the root Items and the child Items to be 5px higher than their original state.How can I do that?
 
-**A:** One way would be to use our [Visual Style Builder](http://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx) to create your customized skin. However, the limitations of this approach are that the nicely shaped rounded corners of the RadMenu control will be lost as well as the different effects that are usually applied when using a sprite image. The second approach is when using some of the predefined Telerik skins. Since our skins are based on sprite images, in order to change the height one will need to change the whole sprite image of the control. Below is a full explanation of how this could be achieved and what the various elements of the RadMenu sprite are used for.
+**A:** One way would be to use our [Visual Style Builder](https://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx) to create your customized skin. However, the limitations of this approach are that the nicely shaped rounded corners of the RadMenu control will be lost as well as the different effects that are usually applied when using a sprite image. The second approach is when using some of the predefined Telerik skins. Since our skins are based on sprite images, in order to change the height one will need to change the whole sprite image of the control. Below is a full explanation of how this could be achieved and what the various elements of the RadMenu sprite are used for.
 
 ## Prepare the Project
 
@@ -74,7 +74,7 @@ Now that we are done with the sprite images, a relatively easy part remains – 
 
 # See Also
 
- * [CSS Image Sprites](http://www.w3schools.com/css/css_image_sprites.asp)
+ * [CSS Image Sprites](https://www.w3schools.com/css/css_image_sprites.asp)
 
  * [Appearance Skins]({%slug menu/appearance-and-styling/appearance-skins%})
 

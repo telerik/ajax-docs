@@ -83,7 +83,7 @@ In addition, editable column types (column types that implement the **IGridEdita
 >
 
 
->note As of Q1 2013, a column with the **Visible** property set to **False** is no longer able to access the column cell's content. You can find additional information in this [forum thread.](http://www.telerik.com/community/forums/aspnet-ajax/grid/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate.aspx)
+>note As of Q1 2013, a column with the **Visible** property set to **False** is no longer able to access the column cell's content. You can find additional information in this [forum thread.](https://www.telerik.com/community/forums/aspnet-ajax/grid/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate.aspx)
 >
 
 
@@ -146,9 +146,9 @@ Further configuration of the **RadAutoCompleteBox** used in edit mode is possibl
 
 * **DataValueField** - Gets or sets the **DataValueField** of the **RadAutoCompleteBox**.
 
-You can find more information about the properties of	**RadAutoCompleteBox** in the help topics of the control:[InputType](http://www.telerik.com/help/aspnet-ajax/autocompletebox-input-types.html),	[Filter](http://www.telerik.com/help/aspnet-ajax/autocompletebox-filtering.html),	[AllowCustomEntry](http://www.telerik.com/help/aspnet-ajax/autocompletebox-items-selection.html),	[SelectionMode](http://www.telerik.com/help/aspnet-ajax/autocompletebox-selection-mode.html), and [AllowTokenEditing](http://www.telerik.com/help/aspnet-ajax/autocompletebox-token-editing.html).
+You can find more information about the properties of	**RadAutoCompleteBox** in the help topics of the control:[InputType](https://www.telerik.com/help/aspnet-ajax/autocompletebox-input-types.html),	[Filter](https://www.telerik.com/help/aspnet-ajax/autocompletebox-filtering.html),	[AllowCustomEntry](https://www.telerik.com/help/aspnet-ajax/autocompletebox-items-selection.html),	[SelectionMode](https://www.telerik.com/help/aspnet-ajax/autocompletebox-selection-mode.html), and [AllowTokenEditing](https://www.telerik.com/help/aspnet-ajax/autocompletebox-token-editing.html).
 
-You can find information about binding **RadAutoCompleteBox** in this help article:[RadAutoCompleteBox - Data Binding Overview](http://www.telerik.com/help/aspnet-ajax/autocompletebox-databinding-overview.html).
+You can find information about binding **RadAutoCompleteBox** in this help article:[RadAutoCompleteBox - Data Binding Overview](https://www.telerik.com/help/aspnet-ajax/autocompletebox-databinding-overview.html).
 
 ## GridBoundColumn
 
@@ -156,7 +156,7 @@ You can find information about binding **RadAutoCompleteBox** in this help artic
 
 This column supports editing of its data (it implements the **IGridEditableColumn** interface) and provides, by default, **GridTextBoxColumnEditor** as a column editor to allow editing the text for each cell. It also exposes the **HtmlEncode** property (its default value is **False**) which specifies whether the text in the corresponding cell will be encoded automatically or not when displayed in the browser. You can find more information about the nature of HTML encoding here:
 
-[http://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx](http://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx)
+[https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx)
 
 Moreover, the built-in **GridBoundColumn** has an **EmptyDataText** property, which specifies the text that will be displayed in the column cell when it has an empty/null value retrieved from the data source.
 
@@ -240,7 +240,7 @@ Each cell in a **GridImageColumn** contains an image. To specify the image URL o
 >
 
 
-Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**, **ImageHeight**, etc. The following example shows the declaration of a GridImageColumn from [this online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) of the product:
+Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**, **ImageHeight**, etc. The following example shows the declaration of a GridImageColumn from [this online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) of the product:
 
 ````ASP.NET
 <telerik:GridImageColumn DataType="System.String" DataImageUrlFields="CustomerID"
@@ -270,7 +270,7 @@ Additionally, you can set the **DataAlternateTextField** property to specify by 
 >
 
 
-Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**,**ImageHeight**, **DefaultImageUrl** (to set the default image when a null value is returned from the source), etc. The following example shows the declaration of a **GridBinaryImageColumn** from [this online demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) of the product.
+Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**,**ImageHeight**, **DefaultImageUrl** (to set the default image when a null value is returned from the source), etc. The following example shows the declaration of a **GridBinaryImageColumn** from [this online demo](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) of the product.
 
 ````ASP.NET
 <telerik:GridBinaryImageColumn DataField="Data" HeaderText="Image" UniqueName="Upload"
@@ -324,7 +324,7 @@ If the grid's **AllowMultiRowSelection** property is **True**, a check box is di
 
 ## GridDragDropColumn
 
-When [Items Drag-and-Drop](http://www.telerik.com/help/aspnet-ajax/drag-drop-grid-items.html) is enabled in **RadGrid**, defining a **GridDragDropColumn** in the **Columns** collectionof the respective **GridTableView** will make the data items inside draggable only when grabbed by the drag handle inside the column cells.
+When [Items Drag-and-Drop](https://www.telerik.com/help/aspnet-ajax/drag-drop-grid-items.html) is enabled in **RadGrid**, defining a **GridDragDropColumn** in the **Columns** collectionof the respective **GridTableView** will make the data items inside draggable only when grabbed by the drag handle inside the column cells.
 
 **Image 5**: Dragging a row using **GridDragDropColumn**
 ![](images/grd_dragdropcolumn.png)
@@ -457,7 +457,7 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 
 
-The following table lists the operators you can use in the expression of a calculated column (complete information about the *DataColumn.Expression* property and supported operators/functions can be found [here](http://msdn.microsoft.com/en-us/library/system.data.datacolumn.expression.aspx)).
+The following table lists the operators you can use in the expression of a calculated column (complete information about the *DataColumn.Expression* property and supported operators/functions can be found [here](https://msdn.microsoft.com/en-us/library/system.data.datacolumn.expression.aspx)).
 
 
 |  **Operator**  |  **Meaning**  |
@@ -641,7 +641,7 @@ masterTable.fireCommand("DownloadAttachment", json);
 >
 
 
-For more information on **GridAttachmentColumn**, please refer to the [online demo.](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx)
+For more information on **GridAttachmentColumn**, please refer to the [online demo.](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx)
 
 ## GridRatingColumn
 
@@ -670,7 +670,7 @@ To retrieve or modify the value of the rating control in a given **RadGrid** ite
 >
 
 
-For a live demonstration, please check out the [GridRatingColumn online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridratingcolumn/defaultcs.aspx)
+For a live demonstration, please check out the [GridRatingColumn online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridratingcolumn/defaultcs.aspx)
 
 ## Structure Columns
 

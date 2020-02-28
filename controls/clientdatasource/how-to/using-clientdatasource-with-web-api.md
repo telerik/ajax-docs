@@ -14,7 +14,7 @@ position: 0
 This article will illustrate how you can use the **RadClientDataSource** control with Web API. 
 
 
-You can get a fully runnable sample from [here](http://www.telerik.com/support/code-library/radgrid---client-side-databinding-with-webapi).
+You can get a fully runnable sample from [here](https://www.telerik.com/support/code-library/radgrid---client-side-databinding-with-webapi).
 
 
 ## Retrieving data
@@ -265,5 +265,5 @@ public bool Update(Product item)
 
 ## See also 
 
-* [Getting Started with ASP.NET Web API 2](http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api)
+* [Getting Started with ASP.NET Web API 2](https://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api)
 

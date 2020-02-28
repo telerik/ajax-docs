@@ -21,7 +21,7 @@ These buttons are created by external scripts from the respective social network
 
 
 ````HTML
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 ````
 
 

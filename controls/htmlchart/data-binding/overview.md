@@ -22,7 +22,7 @@ A data bound series in RadHtmlChart expects a field (column) name and will take 
 | Label 2 | 10 | 15 |
 | Label 3 | 20 | 25 |
 
->tip If your data source looks like **Table 2**, review the [Group RadHtmlChart Data Source](http://www.telerik.com/support/code-library/group-radhtmlchart-data-source) code library article. Alternatively, you can traverse your data source and [create series items programmatically]({%slug htmlchart/data-binding/setting-explicit-items%}).
+>tip If your data source looks like **Table 2**, review the [Group RadHtmlChart Data Source](https://www.telerik.com/support/code-library/group-radhtmlchart-data-source) code library article. Alternatively, you can traverse your data source and [create series items programmatically]({%slug htmlchart/data-binding/setting-explicit-items%}).
 
 >caption Table 2: Unsupported data source structure for RadHtmlChart
 
@@ -99,6 +99,6 @@ End Sub
 
 ## See Also
 
- * [Group RadHtmlChart Data Source](http://www.telerik.com/support/code-library/group-radhtmlchart-data-source)
+ * [Group RadHtmlChart Data Source](https://www.telerik.com/support/code-library/group-radhtmlchart-data-source)
 
  * [Setting Series Items Explicitly]({%slug htmlchart/data-binding/setting-explicit-items%})

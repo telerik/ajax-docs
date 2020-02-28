@@ -36,7 +36,7 @@ This means that the request URL was not found. Most common HTTP error codes are 
 1. Not Implemented - 501
 
 
-More information regarding the different types of HTTP error codes can be found [here](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
+More information regarding the different types of HTTP error codes can be found [here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
 
 Content
 

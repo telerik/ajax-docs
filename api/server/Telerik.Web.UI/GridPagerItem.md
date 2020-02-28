@@ -7,7 +7,7 @@ description: Telerik.Web.UI.GridPagerItem
 # Telerik.Web.UI.GridPagerItem
 
 GridPagerItem class. 
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/functional-items Functional Itemsfor more information about the pager item.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/functional-items Functional Itemsfor more information about the pager item.
 
 ## Inheritance Hierarchy
 

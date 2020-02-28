@@ -45,7 +45,7 @@ To customize the tooltips for the built-in commands, use the following propertie
 * The **CloseText** property specifies the tooltip for the **Close** command.
 
 >tip These properties are marked with the **LocalizableAttribute** and can be automatically localized by the .NET Framework if the application contains the proper resource strings. For more information about the integrated in the .NET Framework localization capabilities, see the following MSDN article:
->[http://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx](http://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx)
+>[https://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx](https://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx)
 >
 
 

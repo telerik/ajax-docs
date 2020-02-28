@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.MonthYearPickerClientEvents
 # Telerik.Web.UI.Calendar.MonthYearPickerClientEvents
 
 Summary description for MonthYearPickerClientEvents.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/monthyearpicker/client-side-programming/events/overview.html Client Eventsfor more information.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/monthyearpicker/client-side-programming/events/overview.html Client Eventsfor more information.
 
 ## Inheritance Hierarchy
 

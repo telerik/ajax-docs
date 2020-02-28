@@ -19,7 +19,7 @@ Sometimes you may search the option to have different appearance settings for th
 Below is a sample approach:
 
 ````ASP.NET
-<html ASP.NETns="http://www.w3.org/1999/xhtml">
+<html ASP.NETns="https://www.w3.org/1999/xhtml">
 <head runat="server">
   <title>Styled hierarchical grid</title>
   <style type="text/css">

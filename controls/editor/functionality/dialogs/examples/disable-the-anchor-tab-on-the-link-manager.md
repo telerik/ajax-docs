@@ -24,4 +24,4 @@ In order to disable the Anchor tab on the Link manager of RadEditor, do the foll
 
 ## See Also
 
- * [ExternalDialogsPath property](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ExternalDialogsPath/DefaultCS.aspx)
+ * [ExternalDialogsPath property](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/ExternalDialogsPath/DefaultCS.aspx)

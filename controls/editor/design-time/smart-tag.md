@@ -55,4 +55,4 @@ Gets the User Control files of the RadEditor built-in dialogs from the used Tele
 
 * You can also search the Telerik web site for a given string.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).

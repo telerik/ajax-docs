@@ -81,4 +81,4 @@ Once the range and the sheet name have been specified, just press the Save Web P
 
 On a final note, let us be aware that the SPRadGrid Designer does not preclude the use of the Web Part's Tool Part and it has been left as an additional option if you need to bind the grid control to just a single SharePoint list without opening the designer. (For more information on that see [SPRadGrid ToolPart Configuration]({%slug sharepoint/2010/radgrid-web-part/toolpart-configuration%})).
 
-To see a live example of the above-described functionality, please, visit [http://telerik.sharepoint.com](http://telerik.sharepoint.com) at the WebParts -> Telerik SPRadGrid Hierarchy\Excel Binding pages.
+To see a live example of the above-described functionality, please, visit [https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/online/Overview](https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/online/Overview) at the WebParts -> Telerik SPRadGrid Hierarchy\Excel Binding pages.

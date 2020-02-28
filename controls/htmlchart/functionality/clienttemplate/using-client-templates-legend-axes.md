@@ -30,7 +30,7 @@ The values that can be resolved and used in the client templates are:
 * `value` - the point value. (only for donut and pie charts)
 * `percentage` - the point value represented as a percentage value. Available only for donut, pie and 100% stacked charts.
 
-More details are avilable in **Kendo** documentation—[legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template).
+More details are avilable in **Kendo** documentation—[legend.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template).
 
 >caption Figure 1: Result from the code in **Example 1**.
 
@@ -82,7 +82,7 @@ The value that can be resolved and used in the client templates is:
 
 * `value` - the text of the axis' label.
 
-More details are available in the **Kendo** documentation—[valueAxis.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-valueAxis.labels.template).
+More details are available in the **Kendo** documentation—[valueAxis.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-valueAxis.labels.template).
 
 >caption Figure 2: Result from the code in **Example 2**.
 
@@ -127,12 +127,12 @@ More details are available in the **Kendo** documentation—[valueAxis.labels.te
 
 * [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%})
 
-* [Kedno Chart API: legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template)
+* [Kedno Chart API: legend.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template)
 
-* [Kedno Chart API: valueAxis.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-valueAxis.labels.template)
+* [Kedno Chart API: valueAxis.labels.template](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-valueAxis.labels.template)
 
 * [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})
 
 * [Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%})
 
-* [Demo: Client Templates for Series and Tooltips](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/clienttemplates/defaultcs.aspx)
+* [Demo: Client Templates for Series and Tooltips](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/clienttemplates/defaultcs.aspx)

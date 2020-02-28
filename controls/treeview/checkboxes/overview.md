@@ -28,6 +28,6 @@ For topics covering common checkbox scenarios, see the following:
 
 * [Unchecking Parent Nodes when a Child Node has been unchecked]({%slug treeview/application-scenarios/checkboxes/uncheck-parent-nodes-when-a-child-node-is-unchecked%}).
 
-To see a live example of checkbox support for RadTreeView visit the [CheckBox Support live demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/CheckBoxes/DefaultCS.aspx).
+To see a live example of checkbox support for RadTreeView visit the [CheckBox Support live demo](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/CheckBoxes/DefaultCS.aspx).
 
 

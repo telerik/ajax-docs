@@ -134,7 +134,7 @@ Note that on the client-side, the names of events are slightly different than on
 If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the **disableEvents()** and **enableEvents()** methods. Unlike adding and removing individual event handlers, **enableEvents()** and **disableEvents()** affect all events at once.
 
 
-For a live example illustrating the RadMenu client-side events, see [Client-side events](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ClientEvents/DefaultCS.aspx).
+For a live example illustrating the RadMenu client-side events, see [Client-side events](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ClientEvents/DefaultCS.aspx).
 
 # See Also
 

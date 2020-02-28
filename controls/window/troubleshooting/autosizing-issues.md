@@ -21,7 +21,7 @@ The content placed in the **RadWindow** needs to have explicit dimensions set in
 The autosizing feature is designed to work with the XHTML 1.0 transitional doctype and it is recommended that it is used for the page containing the **RadWindow**:
 
 ````ASP.NET
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ````
 
 Other doctypes, such as the HTML strict have some limitations on the way elements are positioned and sized and autosizing may not work correctly with them.

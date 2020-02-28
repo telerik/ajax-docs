@@ -69,7 +69,7 @@ End Sub
 
 # See Also
 
- * [Range and SelectedDate online demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/selected-date-and-range/defaultcs.aspx)
+ * [Range and SelectedDate online demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/selected-date-and-range/defaultcs.aspx)
 
 
 

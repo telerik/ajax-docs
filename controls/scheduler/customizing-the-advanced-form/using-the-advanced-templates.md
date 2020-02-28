@@ -36,9 +36,9 @@ The above user controls can be found in the folder of your local installation of
 
 * Live Demos\Scheduler\Examples\ **AdvancedFormTemplate**
 
-For an online demo, please see the [Advanced Templates](http://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx) example.
+For an online demo, please see the [Advanced Templates](https://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx) example.
 
-You can also download a [code library sample](http://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) of customizing the advanced form with RadScheduler popultated with various data sources:
+You can also download a [code library sample](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) of customizing the advanced form with RadScheduler popultated with various data sources:
 
 * CustomDbProvider
 
@@ -60,7 +60,7 @@ The advanced form looks like this:
 
 ![custom advanced form with color picker](images/scheduler_advancedformwithcolorpicker.png)
 
-1. Open the [Advanced Templates]( http://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx ) demo locally.
+1. Open the [Advanced Templates]( https://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx ) demo locally.
 
 2. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
@@ -288,7 +288,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 In this tutorial, we will show how to add to the advanced form a RadColorPicker which will allow you to save the selected color in a custom attribute and apply it to the appointment in the OnClientAppointmentDataBound event. Since it will not be a RadTextBox control, we cannot use the built-in logic of AdvancedForm.js that recognizes custom attributes. So, there will be some extra code to be added to AdvancedForm.js
 
-1. Download a sample project from [here](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx).
+1. Download a sample project from [here](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx).
 
 2. In **RadSchedulerAdvancedForm**.**aspx** add AppointmentColor custom attribute for RadScheduler -CustomAttributeNames="**AppointmentColor**"
 
@@ -440,10 +440,10 @@ In addition you can find a full sample project for "Default Advanced Form Templa
 
 # See Also
 
- * [Code library project of the Customizing the Advanced Template with RadScheduler populated with various data sources.](http://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx)
+ * [Code library project of the Customizing the Advanced Template with RadScheduler populated with various data sources.](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx)
 
- * [Sample project of the Customizing the Advanced Template example](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx)
+ * [Sample project of the Customizing the Advanced Template example](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx)
 
- * [Sample project of customizing the advanced form in Client Side binding mode (Web Services)](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx)
+ * [Sample project of customizing the advanced form in Client Side binding mode (Web Services)](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx)
 
  

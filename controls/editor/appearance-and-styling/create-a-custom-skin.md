@@ -63,9 +63,9 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 	* If the built-in dialogs of the **RadEditor** are going to be used in your application, you need to create a custom dialog CSS file that imports the files needed for the additionally used controls in ASCX files. You can find more information about this in the [DialogsCssFile Property]({%slug editor/appearance-and-styling/dialogscssfile-property%}) article.
 
-	* [http://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx](http://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx)
+	* [https://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx](https://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx)
 
-	* [http://www.telerik.com/support/kb/aspnet-ajax/editor/details/registering-an-external-skin-of-radeditor](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/registering-an-external-skin-of-radeditor)
+	* [https://www.telerik.com/support/kb/aspnet-ajax/editor/details/registering-an-external-skin-of-radeditor](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/registering-an-external-skin-of-radeditor)
 
 1. Reload the page, and if the steps 0-9 have been followed correctly, you will see RadEditor running a custom Default skin set as an external resource.
 

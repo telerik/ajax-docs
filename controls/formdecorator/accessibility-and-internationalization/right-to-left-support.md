@@ -40,4 +40,4 @@ The **RadFormDecorator** fully supports right-to-left (RTL) language locales. It
 
 # See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/righttoleftsupport/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/formdecorator/examples/righttoleftsupport/defaultcs.aspx)

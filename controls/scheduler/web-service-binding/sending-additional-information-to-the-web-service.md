@@ -16,7 +16,7 @@ position: 4
 
 In our examples, the Web Service methods take SchedulerInfo as first parameter, but this can be replaced by any classimplementing ISchedulerInfo. This allows you to send additional information from the client to the web service.
 
->caution Your ISchedulerInfo implementation must be deserializable by [JavaScriptSerializer](http://msdn.microsoft.com/en-us/library/ee191864.aspx?PHPSESSID=e92f822fa484825901474a21f8abdca0)(ASP.NET AJAX Web Services) or [DataContractSerializer](http://msdn.microsoft.com/en-us/library/system.runtime.serialization.json.datacontractjsonserializer.aspx)(WCF Services).
+>caution Your ISchedulerInfo implementation must be deserializable by [JavaScriptSerializer](https://msdn.microsoft.com/en-us/library/ee191864.aspx?PHPSESSID=e92f822fa484825901474a21f8abdca0)(ASP.NET AJAX Web Services) or [DataContractSerializer](https://msdn.microsoft.com/en-us/library/system.runtime.serialization.json.datacontractjsonserializer.aspx)(WCF Services).
 >
 
 

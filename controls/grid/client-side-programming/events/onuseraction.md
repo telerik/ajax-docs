@@ -20,7 +20,7 @@ Sys.CancelEventArgs OnUserAction Property
 Generally, **RadGrid** provides [OnCommand]({%slug grid/client-side-programming/events/oncommand%}) event handler, which can be used to cancel every grid command on client-side. Although this would prevent the initiated command to post back to the server, some commands like PageSize, Sorting, etc. also contain client-side logic, e.g. hiding the pager item or changing the status of the sort icon in the header cell of a column. Therefore, we introduced **OnUserAction** event with the primary goal of providing a convenient way to cancel these actions, which have client-side logic applied in addition to the server-side event raising.
 
 The event will be raised for these actions: **Page**, **Sort**, **PageSize**, **Filter**. It is commonly used in editing scenarios, to remind the users that they will lose any changes if they  continue without saving. You can examine the following live sample for a practical implementation:
-[Grid - Binding to Telerik ClientDataSource](http://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx)
+[Grid - Binding to Telerik ClientDataSource](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx)
 
 The event provides arguments to extract details about the user action. Some of the method names depend on the current action due to the specificity of the related argument.
 

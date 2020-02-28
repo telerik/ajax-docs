@@ -12,7 +12,7 @@ position: 5
 
 ## 
 
-Since the Q2 2008 SP1 release **RadTabStrip** supports hierarchical data binding to the [LinqDataSource](http://msdn.microsoft.com/en-us/library/bb547113.aspx) control. This article shows how to do this in Design Time:
+Since the Q2 2008 SP1 release **RadTabStrip** supports hierarchical data binding to the [LinqDataSource](https://msdn.microsoft.com/en-us/library/bb547113.aspx) control. This article shows how to do this in Design Time:
 
 1. Create a new Web Site in Visual Studio 2008 and copy the **Northwind.mdf** database in your **App_Data** folder.
 

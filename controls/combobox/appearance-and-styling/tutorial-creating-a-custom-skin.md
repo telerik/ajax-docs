@@ -262,7 +262,7 @@ div.RadComboBoxDropDown_MySkin_Metro .rcbHovered
 	
 # See Also
 
- * [Code Library sample: Create Custom Skin using the Default or Metro skins as a base.](http://www.telerik.com/support/code-library/create-custom-skin-using-the-default-or-metro-skins-as-a-base)
+ * [Code Library sample: Create Custom Skin using the Default or Metro skins as a base.](https://www.telerik.com/support/code-library/create-custom-skin-using-the-default-or-metro-skins-as-a-base)
 	
 	
 	

@@ -50,7 +50,7 @@ RadEditor for MOSS can be configured to load external CSS files as well. Thanks 
 
 More information you can find in the following online help article: [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}).
 
-Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
+Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](https://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
 
 >note Note the version number in the CSS file URL - this should be set to the RadEditor for MOSS version you have - e.g. 5.1.2.0 if your version is 5.12
 >

@@ -13,7 +13,7 @@ position: 5
 
 With the 2014 Q2 SP1 version you can now use **Custom Task** objects to populate the **Gantt**, providing you with the ability to add user defined Properties to be shown in the control. 
 
-In order to use a custom Task class you have to create a custom Provider, like the one shown in the [Use CustomFields in Gantt with a simple CustomProvider](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/use-customfields-in-gantt-with-a-simple-customprovider) KB article or the [Custom EntityFramework Provider help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}) article. Sample Code Library can be downloaded from [here](http://www.telerik.com/support/code-library/gantt-custom-columns).
+In order to use a custom Task class you have to create a custom Provider, like the one shown in the [Use CustomFields in Gantt with a simple CustomProvider](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/use-customfields-in-gantt-with-a-simple-customprovider) KB article or the [Custom EntityFramework Provider help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}) article. Sample Code Library can be downloaded from [here](https://www.telerik.com/support/code-library/gantt-custom-columns).
 
 ![gantt-custom-tasks-field](images/gantt-custom-tasks-field.png)
 

@@ -17,7 +17,7 @@ position: 5
 
 Telerik **RadAjax** offers the ability to execute custom JavaScript code that comes as a response from the server thus giving you more flexibility to complete more specific or complex tasks on the client. This help article shows a few ways to execute custom JavaScript code after an AJAX update.
 
-The best and most intuitive approach is to use the [ResponseScripts](http://www.telerik.com/help/aspnet-ajax/ajax-control-properties.html) property of the **RadAjaxPanel** or **RadAjaxManager** .
+The best and most intuitive approach is to use the [ResponseScripts](https://www.telerik.com/help/aspnet-ajax/ajax-control-properties.html) property of the **RadAjaxPanel** or **RadAjaxManager** .
 
 **Example 1** shows how to pop an alert when a Button is clicked.
 
@@ -56,7 +56,7 @@ End Sub
 ````
 
 
-You can also use the [pageLoaded](http://msdn.microsoft.com/en-us/library/bb397523.aspx)event of the [PageRequestManager](http://msdn.microsoft.com/en-us/library/bb311028.aspx) class.
+You can also use the [pageLoaded](https://msdn.microsoft.com/en-us/library/bb397523.aspx)event of the [PageRequestManager](https://msdn.microsoft.com/en-us/library/bb311028.aspx) class.
 
 ## See Also
 

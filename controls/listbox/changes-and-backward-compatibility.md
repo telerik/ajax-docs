@@ -14,7 +14,7 @@ position: 3
 
 ## RadListBox for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## RadListBox for ASP.NET AJAX Q1 SP1 2010 (Version Number 2010.1.415)
 

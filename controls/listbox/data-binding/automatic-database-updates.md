@@ -200,4 +200,4 @@ Here is an example:
 
  * [Overview]({%slug listbox/data-binding/overview%})
 
- * [Automatic DataBase Update Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/populatingwithdata/databaseupdate/defaultcs.aspx)
+ * [Automatic DataBase Update Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/populatingwithdata/databaseupdate/defaultcs.aspx)

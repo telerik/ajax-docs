@@ -16,4 +16,4 @@ This property is similar to the **Overflow** property of the DIV element, which 
 
 ## See Also
 
- * [Demo example](http://demos.telerik.com/aspnet-ajax/Editor/Examples/AutoResizeHeight/DefaultCS.aspx)
+ * [Demo example](https://demos.telerik.com/aspnet-ajax/Editor/Examples/AutoResizeHeight/DefaultCS.aspx)

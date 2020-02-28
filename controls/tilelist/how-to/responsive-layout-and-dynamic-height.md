@@ -169,6 +169,6 @@ When **RadTileList** is nested in other controls/elements,you may need to use ev
 
  * [RadTileList Responsive Layout: CSS Rules]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%})
 
- * [RadTileList Responsive Layout: Live Demo](http://demos.telerik.com/responsive-web-design-aspnet/samples/responsive/tilelist.aspx)
+ * [RadTileList Responsive Layout: Live Demo](https://demos.telerik.com/responsive-web-design-aspnet/samples/responsive/tilelist.aspx)
 
  * [RadTileList Client-side API]({%slug tilelist/client-side-programming/tilelist-object%})

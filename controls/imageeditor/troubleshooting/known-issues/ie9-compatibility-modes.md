@@ -21,13 +21,13 @@ There is a known issue in **RadImageEditor** with IE9 Compatibility modes. It ap
 
 **RadImageEditor** uses the MS Filters for some of its operations performed on the client for the older Internet Explorer browsers (IE6, IE7 and IE8). These are the filters used:
 
-* [Matrix Filter](http://msdn.microsoft.com/en-us/library/ms533014%28v=vs.85%29.aspx)
+* [Matrix Filter](https://msdn.microsoft.com/en-us/library/ms533014%28v=vs.85%29.aspx)
 
-* [Alpha Filter](http://msdn.microsoft.com/en-us/library/ms532967%28v=vs.85%29.aspx)
+* [Alpha Filter](https://msdn.microsoft.com/en-us/library/ms532967%28v=vs.85%29.aspx)
 
-* [FlipH Filter](http://msdn.microsoft.com/en-us/library/ms532992%28v=vs.85%29.aspx)
+* [FlipH Filter](https://msdn.microsoft.com/en-us/library/ms532992%28v=vs.85%29.aspx)
 
-* [FlipV Filter](http://msdn.microsoft.com/en-us/library/ms532994%28v=vs.85%29.aspx)
+* [FlipV Filter](https://msdn.microsoft.com/en-us/library/ms532994%28v=vs.85%29.aspx)
 
 If this filters are applied to an image (`<img/>` element) and the page is viewed in IE9 with "Browser Mode" different than IE9 or Document Mode different than IE9, under Windows 7 adjusted for best appearance, **the actual image is not shown - the `<img/>` element is shown and has the exact dimensions of the image but the image is invisible**. This issue can be reproduced with any image type.
 

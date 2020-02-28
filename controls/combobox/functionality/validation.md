@@ -156,4 +156,4 @@ specified ValidationGroup are validated.-->
 
 
 
-For a live example, see [Validation Groups](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/ValidationGroup/DefaultCS.aspx).
+For a live example, see [Validation Groups](https://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/ValidationGroup/DefaultCS.aspx).

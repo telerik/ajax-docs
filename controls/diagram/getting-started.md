@@ -32,7 +32,7 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 
 	>note Setting the **Id** property of each shape is important, because you will need it when creating connections.
 
-1. Set some of the [properties of the shapes](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_diagramshape.html) like **Background**, **Type**, **Width** and **Height** to make them distinctive.
+1. Set some of the [properties of the shapes](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_diagramshape.html) like **Background**, **Type**, **Width** and **Height** to make them distinctive.
 
 	>caption **Example 2**: The diagram now contains several shapes
 
@@ -62,7 +62,7 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 
 1. Add some connections between the shapes in the diagram to the **ConnectionsCollections**. It is important to specify valid shapes from which a connection starts and to which it ends. If the **ShapeId** property in **FromSettings** and **ToSettings** contains an Id of a non-existent shape, the connection will not be created.
 
-1. You can configure some of the [properties of the connections](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_diagramconnection.html) like **StartCap**, **EndCap**, **FromSetting** > **Connector** and **ToSetting** > **Connector** to specify the starting and ending point of a connection, as well as the appearance of the connection's start and end cap.
+1. You can configure some of the [properties of the connections](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_diagramconnection.html) like **StartCap**, **EndCap**, **FromSetting** > **Connector** and **ToSetting** > **Connector** to specify the starting and ending point of a connection, as well as the appearance of the connection's start and end cap.
 
 1. Press F5 to run the application. You will see the diagram that is displayed in **Figure 1**. From this point you can start interacting with the diagram using the actions that are described in the [Rich User Interaction]({%slug diagram/functionality/rich-user-interaction%}) help article.
 

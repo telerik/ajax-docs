@@ -13,7 +13,7 @@ position: 2
 @[template](/_templates/common/wai-aria-templates.md#intro-two-controls "control1: RadToolTip, control2: RadToolTipManager")
 
 
-The [WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadToolTip** and **RadToolTipManager** offer WAI-ARIA support.
+The [WAI-ARIA Suite	](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadToolTip** and **RadToolTipManager** offer WAI-ARIA support.
 
 In order to enable the WAI-ARIA support, set the **RadToolTip** / **RadToolTipManager** contol's **EnableAriaSupport** property to **true** as shown in the example below.
 
@@ -50,6 +50,6 @@ RadToolTipManager1.EnableAriaSupport = True
 
 # See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)
 
- * [Demo: RadTooltip WAI-ARIA Support](http://demos.telerik.com/aspnet-ajax/tooltip/examples/waiariasupport/defaultcs.aspx)
+ * [Demo: RadTooltip WAI-ARIA Support](https://demos.telerik.com/aspnet-ajax/tooltip/examples/waiariasupport/defaultcs.aspx)

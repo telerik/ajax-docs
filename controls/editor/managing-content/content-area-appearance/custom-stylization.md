@@ -91,7 +91,7 @@ body
 
 Note that the **RadEditor** control has some default styling for some of the elements inside the content area,so that the user could easily interact with them in the **Design** mode. Using the **ContentAreaCssFile** property for custom stylization will override the default one. Example for an element with such stylization is the **table**.
 
-In addition to preserve or override this default stylization and preserve the user-friendly interface you could follow this [online live demo project](http://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/defaultcs.aspx#qsf-demo-source) for the whole CSS file or use these example CSS rules:
+In addition to preserve or override this default stylization and preserve the user-friendly interface you could follow this [online live demo project](https://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/defaultcs.aspx#qsf-demo-source) for the whole CSS file or use these example CSS rules:
 
 ````CSS
 body 

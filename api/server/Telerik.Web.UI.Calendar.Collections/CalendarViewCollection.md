@@ -6,8 +6,8 @@ description: Telerik.Web.UI.Calendar.Collections.CalendarViewCollection
 
 # Telerik.Web.UI.Calendar.Collections.CalendarViewCollection
 
-CalendarView collection. See http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefor general information aboout this mode.
-            You can also find code example in the and http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/title-settings#title-customization Title Settingstopic.
+CalendarView collection. See https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefor general information aboout this mode.
+            You can also find code example in the and https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/title-settings#title-customization Title Settingstopic.
 
 ## Inheritance Hierarchy
 

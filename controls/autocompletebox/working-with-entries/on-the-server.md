@@ -55,4 +55,4 @@ End Sub
 
 # See Also
 
- * [Add/remove tokens from the AutoCompleteBoxEntry collectionon the server.](http://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/addremove/defaultcs.aspx)
+ * [Add/remove tokens from the AutoCompleteBoxEntry collectionon the server.](https://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/addremove/defaultcs.aspx)

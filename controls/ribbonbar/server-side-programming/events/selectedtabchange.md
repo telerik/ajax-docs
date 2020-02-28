@@ -55,6 +55,6 @@ End Sub
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/events/serverside/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/events/serverside/defaultcs.aspx)
 
  * [Server-side Events Overview]({%slug ribbonbar/server-side-programming/events/overview%})

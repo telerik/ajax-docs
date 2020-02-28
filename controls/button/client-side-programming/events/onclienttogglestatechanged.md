@@ -36,7 +36,7 @@ This event is useful when the user wants to execute custom client code when the 
 		switch (args.get_currentToggleState().get_text())
 		{
 			case "Telerik":
-				oWnd.setUrl("http://www.telerik.com");
+				oWnd.setUrl("https://www.telerik.com");
 				oWnd.show();
 				break;
 			case "Google":

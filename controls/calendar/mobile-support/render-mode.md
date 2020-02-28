@@ -137,6 +137,6 @@ The **Native** render mode option is inherited directly from **RenderMode** whic
 
 # See Also
 
- * [Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://blogs.telerik.com/aspnet-ajax/posts/13-03-08/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3) 
+ * [Lightweight Rendering – Going deeper into HTML semantics and CSS3](https://blogs.telerik.com/aspnet-ajax/posts/13-03-08/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3) 
  
  -->

@@ -63,7 +63,7 @@ To load settings on initial page load, use the **Init** or **Load** events of th
 
 ## See it in action
 
-To see the GridSettingsPersister in action, please visit the [Persisting Grid Settings online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/savinggridsettingsonperuserbasis/defaultcs.aspx).
+To see the GridSettingsPersister in action, please visit the [Persisting Grid Settings online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/savinggridsettingsonperuserbasis/defaultcs.aspx).
 
 ## Show me the code
 
@@ -964,4 +964,4 @@ End Class
 ````
 
 
-You can extend the logic and store the user preferences via **Profile** object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](http://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).
+You can extend the logic and store the user preferences via **Profile** object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](https://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).

@@ -30,10 +30,10 @@ To display an image icon on the **RadToggleButton**, you need to set the desired
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Button With Custom Image Icon">
 	<ToggleStates>
 		<telerik:ButtonToggleState>
-			<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
+			<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
 		</telerik:ButtonToggleState>
 		<telerik:ButtonToggleState>
-			<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png" Top="5" Left="8" />
+			<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png" Top="5" Left="8" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>
@@ -53,12 +53,12 @@ To display an image icon on the **RadToggleButton**, you need to set the desired
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Normal Hover Active State Icons">
 	<ToggleStates>
 		<telerik:ButtonToggleState>
-			<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
-				HoveredUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
-				PressedUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
+			<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
+				HoveredUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
+				PressedUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
 		</telerik:ButtonToggleState>
 		<telerik:ButtonToggleState>
-			<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png" Top="5" Left="8" />
+			<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png" Top="5" Left="8" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>
@@ -131,7 +131,7 @@ You can also change the font-size and color of the font icon as described in the
 
 ## See Also
 
- * [RadToggleButton Overview Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
+ * [RadToggleButton Overview Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
  
  * [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/)
  

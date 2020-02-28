@@ -12,9 +12,9 @@ position: 3
 
 @[template](/_templates/common/wai-aria-templates.md#intro "control: RadRadioButtonList")
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadRadioButtonList** offers WAI-ARIA support.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadRadioButtonList** offers WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control's `EnableAriaSupport` property to `true` and, optionally, set the inner properties ([DescribedBy](http://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby) and [Label](http://www.w3.org/TR/wai-aria/states_and_properties#aria-label)) of the `AriaSettings` composite tag to the desired values as shown in **Example 1**.
+In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control's `EnableAriaSupport` property to `true` and, optionally, set the inner properties ([DescribedBy](https://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby) and [Label](https://www.w3.org/TR/wai-aria/states_and_properties#aria-label)) of the `AriaSettings` composite tag to the desired values as shown in **Example 1**.
 
 >caption **Example 1**: Enabling WAI-ARIA support for RadRadioButtonList
 
@@ -35,6 +35,6 @@ In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control'
 
 ## See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)
 
 

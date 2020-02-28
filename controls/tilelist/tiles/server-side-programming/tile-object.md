@@ -57,7 +57,7 @@ position: 0
 | **ShowInterval** |integer|Gets or sets when the interval after which the peek template will automatically show (in milliseconds).|
 | **ShowPeekTemplateOnMouseOver** |bool|Gets a value indicating whether the peek template should be shown on mouse in.|
 
->tip Read more on configuring the animations and PeekTemplates in the [Peek Template]({%slug tilelist/tiles/peek-template%}) help article	and test them out in the [Animations online demo](http://demos.telerik.com/aspnet-ajax/TileList/Examples/animation/defaultcs.aspx).
+>tip Read more on configuring the animations and PeekTemplates in the [Peek Template]({%slug tilelist/tiles/peek-template%}) help article	and test them out in the [Animations online demo](https://demos.telerik.com/aspnet-ajax/TileList/Examples/animation/defaultcs.aspx).
 
 
 

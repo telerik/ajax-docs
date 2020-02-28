@@ -228,7 +228,7 @@ When **EnableDataCaching** is set to **true**, caching is enabled and only one r
 
 This can be useful in scenarios where the content that is loaded will not changeover time, e.g. static details about a product. This allows the initial page load to be quick, because all the data for the tooltips will not be retrieved at this point, yet in the same time prevents excessive requests for the same data which can reduce the server load.
 
-You can see it in action in the [ToolTip - Cache Loaded Data](http://demos.telerik.com/aspnet-ajax/tooltip/examples/enabledatacaching/defaultcs.aspx) online demo.
+You can see it in action in the [ToolTip - Cache Loaded Data](https://demos.telerik.com/aspnet-ajax/tooltip/examples/enabledatacaching/defaultcs.aspx) online demo.
 
 >important  When data caching is enabled **only simple HTML** content is supported for the tooltips.	This means that **controls that rely on postbacks and Telerik controls cannot be put** in the content.	There are several reasons for this:
 * The instance of the loaded user control on the server is the last one	that was requested. Therefore postbacks should not occur inside because they may be coming from	a tooltip that is cached, so the data on the server will no longer match what the tooltip will expect.	Should updates be necessary - caching can be disabled through JavaScript so requests start anew: `tooltipTipManagerReference.set_enableDataCaching(false);` can be used.

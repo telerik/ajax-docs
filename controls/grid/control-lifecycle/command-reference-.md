@@ -56,12 +56,12 @@ Here is a list of the available command names in Telerik RadGrid:
 | **UpdateEditedCommandName** |Fires **Fires RadGrid.UpdateCommand** event for the edited rows. Under .Net 2.0 can perform automatic update operation for the edited rows and then sets **Item.Edit** to **false** |
 | **EditAllCommandName** |Command that triggers editing for all grid records ( **AllowMultiRowEdit** should be set to **true** ).|
 | **CancelAllCommandName** |Cancels the previously undertaken actions.|
-| **RowClick** |Command triggered when you click a row and have ClientSettings -> EnablePostBackOnRowClick set to true (see [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx))|
-| **DownloadAttachmentCommandName** |Command triggered when a Download button in a GridAttachmentColumn is clicked for a GridDataItem (see [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))|
+| **RowClick** |Command triggered when you click a row and have ClientSettings -> EnablePostBackOnRowClick set to true (see [this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx))|
+| **DownloadAttachmentCommandName** |Command triggered when a Download button in a GridAttachmentColumn is clicked for a GridDataItem (see [this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))|
 
 This examples can help you with this approach (look at the ASCX code):
 
-[http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx)
+[https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultCS.aspx)
 
 The user control buttons **Update** and **Cancel** have **CommandName** property associated. Both commands are handled by RadGrid.
 

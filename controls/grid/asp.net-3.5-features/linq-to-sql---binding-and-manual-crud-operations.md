@@ -22,9 +22,9 @@ For more information concerning LINQ to SQL review ScottGu's series of blog post
 
 Using LINQ to SQL (from [part 1](http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx) to [part 5](http://weblogs.asp.net/scottgu/archive/2007/07/16/linq-to-sql-part-5-binding-ui-using-the-asp-linqdatasource-control.aspx))
 
-[LINQ to SQL: .NET Language-Integrated Query for Relational Data](http://msdn.microsoft.com/en-us/library/bb425822.aspx)
+[LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx)
 
-RadGrid for ASP.NET AJAX exposes programmatic way to binding itself to IEnumerable data returned from LINQ queries which is presented in the [ following online demo ](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/programaticlinqupdates/defaultcs.aspx) of the product. Additionally, the grid from the example supports manual data editing operations as well as paging and sorting. The main points are to intercept the *NeedDataSource * event to pass a data source to the control and the *UpdateCommand*, *InsertCommand *and *DeleteCommand *events to edit the data in it.
+RadGrid for ASP.NET AJAX exposes programmatic way to binding itself to IEnumerable data returned from LINQ queries which is presented in the [ following online demo ](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/programaticlinqupdates/defaultcs.aspx) of the product. Additionally, the grid from the example supports manual data editing operations as well as paging and sorting. The main points are to intercept the *NeedDataSource * event to pass a data source to the control and the *UpdateCommand*, *InsertCommand *and *DeleteCommand *events to edit the data in it.
 
 Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to configure *RadInputManager *to manage the user input inside the edit/insert form)
 

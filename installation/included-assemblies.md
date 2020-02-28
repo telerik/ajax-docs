@@ -12,7 +12,7 @@ position: 1
 
 
 
-This article explains what assemblies are included in the Telerik® UI for ASP.NET AJAX installation: the main Telerik.Web.UI assemblies, the	[Telerik ZIP library](http://www.telerik.com/products/silverlight/zip-library.aspx) and	the Telerik Document processing libraries ([text processing](http://www.telerik.com/products/wpf/words-processing.aspx) and	[spreadsheet processing](http://www.telerik.com/products/wpf/spreadsheet-processing.aspx)). You can find more information about them in the sections below.
+This article explains what assemblies are included in the Telerik® UI for ASP.NET AJAX installation: the main Telerik.Web.UI assemblies, the	[Telerik ZIP library](https://www.telerik.com/products/silverlight/zip-library.aspx) and	the Telerik Document processing libraries ([text processing](https://www.telerik.com/products/wpf/words-processing.aspx) and	[spreadsheet processing](https://www.telerik.com/products/wpf/spreadsheet-processing.aspx)). You can find more information about them in the sections below.
 
 The assemblies come sorted in several folders so that you can use the appropriate ones.	Depending on the .NET framework version your project targets, you will find the needed assemblies in the corresponding directory:
 
@@ -42,9 +42,9 @@ This is a cross-platform library that lets you load, create and update Zip archi
 
 * **Telerik.Windows.Zip.dll**—the assembly of the Telerik Zip Library.
 
-* **Telerik.Windows.Zip.Extensions.dll**—extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions](http://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/features/zip-extensions)).
+* **Telerik.Windows.Zip.Extensions.dll**—extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/features/zip-extensions)).
 
-You can read more about it in its documentation: [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
+You can read more about it in its documentation: [Getting started with RadZipLibrary](https://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
 
 ## Telerik Spreadsheet Library
 
@@ -82,35 +82,35 @@ You can find more information on working with the Telerik document processing li
 
 * Words (text) processing
 
-	* [DOCX format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/docx/docxformatprovider)
+	* [DOCX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/docx/docxformatprovider)
 
-	* [HTML format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider)
+	* [HTML format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider)
 
-	* [RTF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/rtf/rtfformatprovider)
+	* [RTF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/rtf/rtfformatprovider)
 
-	* [TXT format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/plain-text/txt-txtformatprovider)
+	* [TXT format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/plain-text/txt-txtformatprovider)
 
 * Spreadsheet processing
 
-	* [Getting Started](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started)
+	* [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started)
 
-	* [XLSX format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
+	* [XLSX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
 
-	* [CSV format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
+	* [CSV format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
 
-	* [PDF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/pdf/pdfformatprovider)
+	* [PDF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/pdf/pdfformatprovider)
 
-	* [TXT format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/txt/txtformatprovider)
+	* [TXT format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/txt/txtformatprovider)
 
 * PDF processing
 
-	* [PDF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/pdf/pdfformatprovider)
+	* [PDF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/pdf/pdfformatprovider)
 	
-	* [Text format provider](http://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/plain-text/textformatprovider)
+	* [Text format provider](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/plain-text/textformatprovider)
 
 * Fast spreadsheet generation
 	
-	* [Getting Started](http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/getting-started)
+	* [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/getting-started)
 
 
 ## Newtonsoft.Json.dll
@@ -122,15 +122,15 @@ If your project references a different version of this assembly, review the [New
 
 ## See Also
 
- * [Telerik ZIP library](http://www.telerik.com/products/silverlight/zip-library.aspx)
+ * [Telerik ZIP library](https://www.telerik.com/products/silverlight/zip-library.aspx)
 
- * [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html)
+ * [Getting started with RadZipLibrary](https://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html)
 
- * [Telerik Words Processing Library](http://www.telerik.com/products/wpf/words-processing.aspx)
+ * [Telerik Words Processing Library](https://www.telerik.com/products/wpf/words-processing.aspx)
 
- * [Telerik Spreadsheet Processing Library](http://www.telerik.com/products/wpf/spreadsheet-processing.aspx)
+ * [Telerik Spreadsheet Processing Library](https://www.telerik.com/products/wpf/spreadsheet-processing.aspx)
 
- * [Telerik Device Detection Framework Overview](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
+ * [Telerik Device Detection Framework Overview](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
  
  * [Telerik Device Detection Framework API]({%slug controls/raddevicedetectionframework%})
  

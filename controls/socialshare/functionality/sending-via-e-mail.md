@@ -74,4 +74,4 @@ Clicking the MailTo button results in the default mail agent opening a blank e-m
 
 # See Also
 
- * [The `<smtp>` element in the web.config](http://msdn.microsoft.com/en-us/library/ms164240.aspx)
+ * [The `<smtp>` element in the web.config](https://msdn.microsoft.com/en-us/library/ms164240.aspx)

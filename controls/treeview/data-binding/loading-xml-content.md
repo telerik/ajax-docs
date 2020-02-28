@@ -168,4 +168,4 @@ RadTreeView1.LoadXml(xmlString
 ````
 
 
-For a live example of loading **RadTreeView** Nodes from XML, see [Populating from XML](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/XmlFile/DefaultCS.aspx).
+For a live example of loading **RadTreeView** Nodes from XML, see [Populating from XML](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/XmlFile/DefaultCS.aspx).

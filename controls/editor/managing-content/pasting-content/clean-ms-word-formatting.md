@@ -81,6 +81,6 @@ End Sub
 
  * [Overview]({%slug editor/managing-content/pasting-content/overview%})
 
- * [Demo: Cleaning Word Formatting](http://demos.telerik.com/aspnet-ajax/editor/examples/cleaningwordformatting/defaultcs.aspx)
+ * [Demo: Cleaning Word Formatting](https://demos.telerik.com/aspnet-ajax/editor/examples/cleaningwordformatting/defaultcs.aspx)
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})

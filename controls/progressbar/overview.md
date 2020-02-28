@@ -40,7 +40,7 @@ The control offers a rich set of features:
 
 ## See Also
 
- * [RadProgressBar Online Examples](http://demos.telerik.com/aspnet-ajax/progress-bar)
+ * [RadProgressBar Online Examples](https://demos.telerik.com/aspnet-ajax/progress-bar)
 
  * [Overview]({%slug progressbar/getting-started/overview%})
 

@@ -101,7 +101,7 @@ End Sub
 
 # See Also
 
- * [Templates Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/templates/defaultcs.aspx)
+ * [Templates Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/templates/defaultcs.aspx)
 
  * [Working with Templates at Design Time]({%slug listbox/templates/working-with-templates-at-design-time%})
 

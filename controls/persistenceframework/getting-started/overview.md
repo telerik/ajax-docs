@@ -60,4 +60,4 @@ End Sub
 
 ## See Also
 
- * [Persistence Framework online demos](http://demos.telerik.com/aspnet-ajax/persistence-framework/examples/overview/defaultcs.aspx)
+ * [Persistence Framework online demos](https://demos.telerik.com/aspnet-ajax/persistence-framework/examples/overview/defaultcs.aspx)

@@ -20,11 +20,11 @@ The **RadLinkButton** fully supports right-to-left (RTL) language locales (**Fig
 
 ````ASP.NET
 <div style="direction: rtl">
-	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Text="RadLinkButton" NavigateUrl="http://www.telerik.com" Target="_blank">
+	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Text="RadLinkButton" NavigateUrl="https://www.telerik.com" Target="_blank">
 	</telerik:RadLinkButton>
 	<br />
 	<br />
-	<telerik:RadLinkButton runat="server" ID="RadLinkButton2" Text="RadLinkButton with Icon" NavigateUrl="http://www.telerik.com" Target="_blank">
+	<telerik:RadLinkButton runat="server" ID="RadLinkButton2" Text="RadLinkButton with Icon" NavigateUrl="https://www.telerik.com" Target="_blank">
 		<Icon CssClass="rbUpload" />
 	</telerik:RadLinkButton>
 </div>
@@ -32,7 +32,7 @@ The **RadLinkButton** fully supports right-to-left (RTL) language locales (**Fig
 
 ## See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/linkbutton/examples/righttoleft/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/linkbutton/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug linkbutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

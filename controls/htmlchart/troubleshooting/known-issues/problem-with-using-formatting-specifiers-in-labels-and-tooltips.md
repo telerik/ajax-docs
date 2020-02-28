@@ -10,7 +10,7 @@ position: 0
 
 # Problem with Using Formatting Specifiers in Labels and Tooltips
 
-Specifying [date format strings](http://msdn.microsoft.com/en-us/library/az4se3k1.aspx)(e.g.**{0:D}, {0:F}**) are not supported out-of-the-box and will not take effect if used In the **DataFormatString** property of the **RadHtmlChart** control. Only the [numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx) (e.g. **{0:e}, {0:p}**) are supported for the text elements (such as axis labels, series labels and tooltips).
+Specifying [date format strings](https://msdn.microsoft.com/en-us/library/az4se3k1.aspx)(e.g.**{0:D}, {0:F}**) are not supported out-of-the-box and will not take effect if used In the **DataFormatString** property of the **RadHtmlChart** control. Only the [numeric format strings](https://msdn.microsoft.com/en-us/library/dwhawy9k.aspx) (e.g. **{0:e}, {0:p}**) are supported for the text elements (such as axis labels, series labels and tooltips).
 
 >note As of **Q3 2012** , the [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
 

@@ -92,10 +92,10 @@ You may also find useful the [Open a RadWindow from Within a RadWindow]({%slug w
 
 There are several ways to call the RadAlert, which slightly differ in the produced result:
 
-* If you are using Q1 2011 or a later version you can call the predefined server-side RadAlert method as shown in [this online demo](http://www.telerik.com/help/aspnet-ajax/window-dialogs-alert.html). The limitation of this approach is that the alert will be shown only in the context of the current frame (e.g., RadWindow).
+* If you are using Q1 2011 or a later version you can call the predefined server-side RadAlert method as shown in [this online demo](https://www.telerik.com/help/aspnet-ajax/window-dialogs-alert.html). The limitation of this approach is that the alert will be shown only in the context of the current frame (e.g., RadWindow).
 
 * If you want the alert from the main page you would need to call a [JavaScript function that accesses the main window]({%slug window/how-to/calling-functions-in-windows%}). You can use **Examples 1-3** as base and combine them according to your scenario. There are also numerous ways to call the JavaScript function itself and the one you use depends on the current scenario:
-	* You can output it from the server if the logic that requires the alert is only executed in the code-behind. How to do that is explained in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/09-05-05/executing-javascript-function-from-server-side-code.aspx).
+	* You can output it from the server if the logic that requires the alert is only executed in the code-behind. How to do that is explained in [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/09-05-05/executing-javascript-function-from-server-side-code.aspx).
 	* You can use the [RadAjaxManager's ReponseScripts collection]({%slug ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update%}) to execute the JavaScript function after an AJAX request.
 	* Of course, it can be initiated on the client by another JavaScript function or a button click, etc.
 

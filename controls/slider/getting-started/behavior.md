@@ -131,6 +131,6 @@ var selectedItem2 = slider.get_items()[slider.get_selectionEnd()];
 
 ## See Also
 
- * [Live demo "Setting Value and Range"](http://demos.telerik.com/aspnet-ajax/Slider/Examples/ValueAndRange/DefaultCS.aspx)
+ * [Live demo "Setting Value and Range"](https://demos.telerik.com/aspnet-ajax/Slider/Examples/ValueAndRange/DefaultCS.aspx)
 
- * [Live Demo "Slider Steps"](http://demos.telerik.com/aspnet-ajax/slider/examples/slidersteps/defaultcs.aspx)
+ * [Live Demo "Slider Steps"](https://demos.telerik.com/aspnet-ajax/slider/examples/slidersteps/defaultcs.aspx)

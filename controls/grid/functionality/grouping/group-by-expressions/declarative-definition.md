@@ -79,7 +79,7 @@ The following example shows the declaration of a grid with the **GroupByExpressi
 
 ![](images/grd_GroupByExpressions.png)
 
-For a live example that sets the **GroupByExpressions** property (and uses additional **GridGroupByField** properties), see [Outlook-style grouping](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx).
+For a live example that sets the **GroupByExpressions** property (and uses additional **GridGroupByField** properties), see [Outlook-style grouping](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx).
 
 ## Column group-by expressions
 

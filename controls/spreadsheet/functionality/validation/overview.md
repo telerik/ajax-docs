@@ -40,5 +40,5 @@ The Data Validation dialog is a built-in functionality that the RadSpreadsheet c
  You have the ability to set a custom, more explicable message that will inform the end user when the data that he attempts to submit is invalid. You need to check the **Hint Message** checkbox and specify the custom message in order to enable the functionality. In the case when the **Reject input** option is selected in the **Invalid Data** section, the custom text configured in the textbox will be displayed to the user within a popup. If **Show warning** option is selected, the message defined in the textbox will be displayed as a tooltip, when the warning toggle is hovered.
 
   ## See Also
-[RadSpreadsheet Validation Demo](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/validation/defaultcs.aspx)
+[RadSpreadsheet Validation Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/validation/defaultcs.aspx)
  

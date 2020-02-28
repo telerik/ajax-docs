@@ -27,7 +27,7 @@ You can change the position of font or image icons to match your concrete requir
 >caption Example 1: Offset RadLinkButton Icon from the top and left. You can see the result in Figure 1.
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Fine Tune Icon Position" Height="40px" NavigateUrl="http://www.telerik.com" Target="_blank">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Fine Tune Icon Position" Height="40px" NavigateUrl="https://www.telerik.com" Target="_blank">
 	<Icon CssClass="rbRefresh"
 		Top="12px" Left="7px" />
 </telerik:RadLinkButton>
@@ -53,7 +53,7 @@ The embedded **RadLinkButton** icons are font icons. Using a font facilitates th
 ````
 
 ````ASP.NET
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Icon Custom Size and Color" CssClass="customizeIcon" NavigateUrl="http://www.telerik.com" Target="_blank">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Icon Custom Size and Color" CssClass="customizeIcon" NavigateUrl="https://www.telerik.com" Target="_blank">
 	<Icon CssClass="rbSave" />
 </telerik:RadLinkButton>
 ````
@@ -66,9 +66,9 @@ The embedded **RadLinkButton** icons are font icons. Using a font facilitates th
 
  * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
 
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
+ * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
+ * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
  
 
 

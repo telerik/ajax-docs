@@ -164,7 +164,7 @@ The CssClass property can be set declaratively for resources using the new **Res
 
 
 
-An illustration of this method can be seen in the [Defining Resources](http://demos.telerik.com/aspnet-ajax/scheduler/examples/resources/defaultcs.aspx) demo.This is just a neater way of setting the CssClass property from code-behind and it is equivalent to the following:
+An illustration of this method can be seen in the [Defining Resources](https://demos.telerik.com/aspnet-ajax/scheduler/examples/resources/defaultcs.aspx) demo.This is just a neater way of setting the CssClass property from code-behind and it is equivalent to the following:
 
 
 

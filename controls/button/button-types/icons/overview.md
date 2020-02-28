@@ -29,7 +29,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 ````ASP.NET
 <style type="text/css">
 	.classNextArrow, classPreviousArrow{
-		background-image: url('http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png');
+		background-image: url('https://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png');
 	}
 
 	.classNextArrow {
@@ -42,7 +42,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 </style>
 
 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Button With Two Icons">
-	<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" 
+	<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" 
 		PrimaryIconCssClass="classNextArrow"
 		SecondaryIconCssClass="classPreviousArrow" />
 </telerik:RadButton>
@@ -65,7 +65,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 ````ASP.NET
 <style>
 	.classNextArrow, .classPreviousArrow {
-		background-image: url('http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png');
+		background-image: url('https://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png');
 	}
 	
 	.classNextArrow {
@@ -78,7 +78,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 </style>
 
 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Button With Two Icons">
-	<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" PrimaryIconCssClass="classNextArrow"
+	<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" PrimaryIconCssClass="classNextArrow"
 		SecondaryIconCssClass="classPreviousArrow" />
 </telerik:RadButton>
 ````
@@ -103,9 +103,9 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 	**ASP.NET**
 	
 		<telerik:RadButton RenderMode="Lightweight" ID="RadButton2" runat="server" Text="Spell Check Html">
-			<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" 
+			<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" 
 				PrimaryIconTop="4px" PrimaryIconLeft="5px"
-				SecondaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" 
+				SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" 
 				SecondaryIconTop="4px" SecondaryIconRight="5px" />
 		</telerik:RadButton>
 
@@ -128,8 +128,8 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 	**ASP.NET**
 
 		<telerik:RadButton RenderMode="Lightweight" ID="RadButton3" runat="server" Text="Spell Check Html">
-			<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" PrimaryIconCssClass="classSpellCheck"
-				SecondaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" SecondaryIconCssClass="classHtml" />
+			<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" PrimaryIconCssClass="classSpellCheck"
+				SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" SecondaryIconCssClass="classHtml" />
 		</telerik:RadButton>
 	
 	

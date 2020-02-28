@@ -117,7 +117,7 @@ var DirectLineAgent = kendo.Class.extend({
 
  * [ASP.NET Chat Product Overview]({%slug chat/overview%})
 
- * [RadChat Travel](http://demos.telerik.com/aspnet-ajax/chat/travel/defaultcs.aspx) online demo
+ * [RadChat Travel](https://demos.telerik.com/aspnet-ajax/chat/travel/defaultcs.aspx) online demo
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 

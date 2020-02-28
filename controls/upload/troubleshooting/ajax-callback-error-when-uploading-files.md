@@ -12,7 +12,7 @@ position: 0
 
 
 
->caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](https://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](https://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](https://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -42,7 +42,7 @@ Here are the resolutions for the different cases:
 
 	1. A custom progress is being monitored. Please, check the code of the progress monitoring for errors.
 
-	1. RadUpload progress is being monitored. Please, [tell us about this problem](http://www.telerik.com/support/home.aspx). Please, include the error message to the ticket. In Internet Explorer, this can be done by pressing CTRL+C on the error message and pasting the copied content to the body of the post. For Firefox and other browser users, please make a screenshot of the message and send it to us.
+	1. RadUpload progress is being monitored. Please, [tell us about this problem](https://www.telerik.com/support/home.aspx). Please, include the error message to the ticket. In Internet Explorer, this can be done by pressing CTRL+C on the error message and pasting the copied content to the body of the post. For Firefox and other browser users, please make a screenshot of the message and send it to us.
 
 # See Also
 

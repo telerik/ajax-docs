@@ -44,4 +44,4 @@ The following example (Figure 1.) shows a menu that uses a global template on ch
 
  * [Accessing Controls Inside Templates]({%slug menu/templates/accessing-controls-inside-templates%})
 
- * [Mega DropDown Menu Demo](http://demos.telerik.com/aspnet-ajax/menu/examples/megadropdown/defaultcs.aspx)
+ * [Mega DropDown Menu Demo](https://demos.telerik.com/aspnet-ajax/menu/examples/megadropdown/defaultcs.aspx)

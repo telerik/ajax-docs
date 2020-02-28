@@ -98,9 +98,9 @@ ProviderName="ExchangeSchedulerProvider">
 
 **Reference**
 
-* The Exchange provider uses proxies generated using the wsdl tool. Complete description of the wsdl tool can be found here: [http://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx](http://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx).
+* The Exchange provider uses proxies generated using the wsdl tool. Complete description of the wsdl tool can be found here: [https://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx](https://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx).
 
-* Information about using Exchange Web Services can be found on MSDN: [http://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx](http://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx).
+* Information about using Exchange Web Services can be found on MSDN: [https://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx](https://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx).
 
 **Recommended reading:**
 

@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ImageGalleryPagerStyle
 # Telerik.Web.UI.ImageGalleryPagerStyle
 
 RadImageGallery PagerStyle. Inner properties configure the position and look of the pager.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/server-side-programming/overview Server-side Programmingtopic for more information.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/server-side-programming/overview Server-side Programmingtopic for more information.
 
 ## Inheritance Hierarchy
 

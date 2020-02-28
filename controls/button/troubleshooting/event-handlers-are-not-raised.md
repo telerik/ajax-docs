@@ -12,7 +12,7 @@ position: 2
 
 When RadCompression is enabled and you are using .NET 4.0, event handlers might not be raised in a default document in IIS 7 or IIS 7.5 Integrated Mode, **which could break the normal work of RadButton**.
 
-This problem is caused by a breaking change in .NET 4.0 described in this official [ASP.NET Breaking Changes](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154) section. To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+This problem is caused by a breaking change in .NET 4.0 described in this official [ASP.NET Breaking Changes](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154) section. To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
 ## See Also
 

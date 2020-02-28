@@ -33,9 +33,9 @@ You will need to prevent the default behavior of the browser when the file is no
 
 As of Q3 2012 **RadAsyncUpload** supports the DropZones property. By setting the **DropZones** (which are CSS selectors) the user can upload files by dropping them on different areas of the page.
 
->note Keep in mind that the drop zones should be listed with comma separator as demonstrated in the [demo here](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx) and the following code **\<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" DropZones=".DropZone1,\#DropZone2"/\>** 
+>note Keep in mind that the drop zones should be listed with comma separator as demonstrated in the [demo here](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx) and the following code **\<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" DropZones=".DropZone1,\#DropZone2"/\>** 
 >
 
 # See Also
 
- * [Drag and Drop Demo](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx?product=asyncupload)
+ * [Drag and Drop Demo](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/draganddrop/defaultcs.aspx?product=asyncupload)

@@ -14,7 +14,7 @@ position: 1
 
 A complete list of all changes can be found on Release History page:
 
-[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx ](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+[https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx ](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadSplitter for ASP.NET AJAX Q3 2009
 

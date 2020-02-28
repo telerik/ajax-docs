@@ -56,7 +56,7 @@ Gets or sets the base URL of the CDN that hosts the control skins.
 #### Remarks
 In order to obtain the URL for a specific resource, RadStyleSheetManager will combine the
             	base URL with the suite name (ajax) and the current version.
-            	For example: http://aspnet-skins.telerikstatic.com/ajax/2009.3.1207/Default/Menu.Default.css
+            	For example: https://aspnet-skins.telerikstatic.com/ajax/2009.3.1207/Default/Menu.Default.css
             	
             	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
             	
@@ -70,7 +70,7 @@ Gets or sets the base URL of the CDN that hosts the control scripts.
 #### Remarks
 In order to obtain the URL for a specific resource, RadScriptManager will combine the
             	base URL with the suite name (ajax) and the current version.
-            	For example: http://aspnet-scripts.telerikstatic.com/ajax/2009.3.1207/Common/Core.js
+            	For example: https://aspnet-scripts.telerikstatic.com/ajax/2009.3.1207/Common/Core.js
             	
             	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
             	

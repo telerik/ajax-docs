@@ -7,7 +7,7 @@ description: Telerik.Web.UI.GridMultiRowItem
 # Telerik.Web.UI.GridMultiRowItem
 
 GridMultiRowItem class. Used internally to hold the multi-row items like headers and footers.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information about headers and footers.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information about headers and footers.
 
 ## Inheritance Hierarchy
 

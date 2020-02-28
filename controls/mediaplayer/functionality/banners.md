@@ -82,6 +82,6 @@ For altering and customizing the position and appearance of the Banner, you can 
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/functionality/banners/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/functionality/banners/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

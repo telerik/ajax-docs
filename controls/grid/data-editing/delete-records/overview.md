@@ -16,7 +16,7 @@ position: 0
 
 This is a common task that can be accomplished by placing **GridButtonColumn** with **CommandName**= **"Delete"** in the grid body.Basically, there are two available options:
 
-1. Perform the delete operation automatically by enabling automatic delete through a DataSource control (see [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more details).
+1. Perform the delete operation automatically by enabling automatic delete through a DataSource control (see [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more details).
 
 1. Execute the delete operation manually wiring the ItemCommand/DeleteCommand event of the control.
 

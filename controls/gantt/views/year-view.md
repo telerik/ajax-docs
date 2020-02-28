@@ -41,6 +41,6 @@ The **Year View** shows all loaded tasks for a **RadGantt** distributed in colum
 
  * [Month View]({%slug gantt/views/month-view%})
  
- * [View types demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
+ * [View types demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
 
 

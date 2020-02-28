@@ -28,7 +28,7 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 
 ````ASP.NET
 <telerik:RadPushButton ID="RadPushButton1" runat="server" Text="Button With Custom Image Icon">
-	<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
+	<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
 </telerik:RadPushButton>
 ````
 
@@ -44,9 +44,9 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 
 ````ASP.NET
 <telerik:RadPushButton ID="RadPushButton1" runat="server" Text="Normal Hover Active State Icons">
-	<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
-		HoveredUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
-		PressedUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
+	<Icon Url="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/ePlayer.png"
+		HoveredUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFlash.png"
+		PressedUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eTime.png" />
 </telerik:RadPushButton>
 ````
 
@@ -103,11 +103,11 @@ You can also change the font-size and color of the font icon as described in the
 
 ## See Also
 
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
+ * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
 
  * [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/)
  
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
+ * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
  * [Icons Overview]({%slug pushbutton/functionality/icons/embedded-icons%})
  

@@ -41,4 +41,4 @@ It operates on the client, displays a list of options and allows multiple select
 
 # See Also
 
- * [Overview demo](http://demos.telerik.com/aspnet-ajax/multiselect/overview/defaultcs.aspx)
+ * [Overview demo](https://demos.telerik.com/aspnet-ajax/multiselect/overview/defaultcs.aspx)

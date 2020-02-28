@@ -242,7 +242,7 @@ End Namespace
 ````
 
 
-For a live example, see: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisable/defaultcs.aspx)
+For a live example, see: [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisable/defaultcs.aspx)
 
 # See Also
 

@@ -73,6 +73,6 @@ This module displays a pane with the HTML code of the content. The HTML is updat
 
 # See Also
 
- * [Built-in Modules](http://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
+ * [Built-in Modules](https://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
 
- * [Custom Modules](http://demos.telerik.com/aspnet-ajax/editor/examples/custommodules/defaultcs.aspx)
+ * [Custom Modules](https://demos.telerik.com/aspnet-ajax/editor/examples/custommodules/defaultcs.aspx)

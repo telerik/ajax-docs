@@ -8,7 +8,7 @@ description: Telerik.Web.UI.RadListViewItemDragHandle
 
 Control used to enable a Drag-Drop operation in the 
             Telerik.Web.UI.RadListView by placing it in an template.
-            http://www.telerik.com/help/aspnet-ajax/listview-itemdrop.html http://demos.telerik.com/aspnet-ajax/listview/examples/itemdragdrop/defaultcs.aspx
+            https://www.telerik.com/help/aspnet-ajax/listview-itemdrop.html https://demos.telerik.com/aspnet-ajax/listview/examples/itemdragdrop/defaultcs.aspx
 
 ## Inheritance Hierarchy
 

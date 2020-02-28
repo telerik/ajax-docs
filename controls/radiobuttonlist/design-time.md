@@ -36,7 +36,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug radiobuttonli
 
 * Links navigate you directly to examples, help, and code library.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 
 ## See Also
 
@@ -44,5 +44,5 @@ The **Skin** drop-down displays a list of available [skins]({%slug radiobuttonli
  
  * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
  
- * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/radiobuttonlist/examples/overview/defaultcs.aspx)
+ * [RadRadioButtonList Online Demos](https://demos.telerik.com/aspnet-ajax/radiobuttonlist/examples/overview/defaultcs.aspx)
 

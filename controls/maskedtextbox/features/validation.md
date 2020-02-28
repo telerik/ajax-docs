@@ -23,7 +23,7 @@ To use ASP.NET validators with **RadInput** controls, simply set the ID of the *
 
 
 
-For a live example of the form shown above, see the [Validation demo](http://demos.telerik.com/aspnet-ajax/input/examples/common/validation/defaultcs.aspx).
+For a live example of the form shown above, see the [Validation demo](https://demos.telerik.com/aspnet-ajax/input/examples/common/validation/defaultcs.aspx).
 
 ## Triggering validation
 

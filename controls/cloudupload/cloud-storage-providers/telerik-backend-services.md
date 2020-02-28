@@ -12,7 +12,7 @@ position: 2
 
 >note Progress decided to discontinue Telerik Platform including its Backend Services and integration with RadCloudUpload. You can find more information on Telerik Platform discontinuation at [Telerik Platform is Retired](https://www.telerik.com/platform-next-level).
 
-[ Telerik Backend Services (formerly Everlive) ](http://www.telerik.com/backend-services) connects your applications to backend cloud storages of Telerik's Cloud Services Platform. Integration with **RadCloudUpload** is easy and requires only an **API Key**.
+[ Telerik Backend Services (formerly Everlive) ](https://www.telerik.com/backend-services) connects your applications to backend cloud storages of Telerik's Cloud Services Platform. Integration with **RadCloudUpload** is easy and requires only an **API Key**.
 
 ## Adding References
 

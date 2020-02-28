@@ -26,13 +26,13 @@ You can control the image dimensions through the **Width** and **Height** proper
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1" Width="100px" Height="60px">
 	<ToggleStates>
 		<telerik:ButtonToggleState Selected="true">
-			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/low.png" />
+			<Image Url="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/low.png" />
 		</telerik:ButtonToggleState>
 		<telerik:ButtonToggleState>
-			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/high.png" />
+			<Image Url="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/high.png" />
 		</telerik:ButtonToggleState>
 		<telerik:ButtonToggleState>
-			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/mute.png" />
+			<Image Url="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/mute.png" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>
@@ -56,10 +56,10 @@ You can control the image dimensions through the **Width** and **Height** proper
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1" Width="58px" Height="59px">
 	<ToggleStates>
 		<telerik:ButtonToggleState Selected="true">
-			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/play.png" HoveredUrl="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/playHov.png" PressedUrl="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" DisabledUrl="http://demos.telerik.com/aspnet-ajax/button/examples/imagebutton/images/cb_play_d.png" />
+			<Image Url="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/play.png" HoveredUrl="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/playHov.png" PressedUrl="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" DisabledUrl="https://demos.telerik.com/aspnet-ajax/button/examples/imagebutton/images/cb_play_d.png" />
 		</telerik:ButtonToggleState>
 		<telerik:ButtonToggleState>
-			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" />
+			<Image Url="https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>

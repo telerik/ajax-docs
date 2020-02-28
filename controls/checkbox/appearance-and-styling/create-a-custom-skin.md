@@ -62,7 +62,7 @@ The example below shows how to modify the CSS in order not only to change some c
 ````ASP.NET
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
 	<title></title>
 	<style>

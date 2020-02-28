@@ -14,7 +14,7 @@ Once you have the controls [working in your project]({%slug getting-started/firs
 
 ## Demos
 
-To get an overview of what each control offers, the fastest approach is to go to our [Live Demos](http://demos.telerik.com/aspnet-ajax).
+To get an overview of what each control offers, the fastest approach is to go to our [Live Demos](https://demos.telerik.com/aspnet-ajax).
 
 You can **download the demo site** from your telerik.com account as a VS project and play around with the demos in the comfort of your IDE. The ` Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Dev.msi` and `Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.zip` files contain the demo site. If your license is a trial one, you will see `...Trial.msi` and `...Trial.zip` respectively.
 

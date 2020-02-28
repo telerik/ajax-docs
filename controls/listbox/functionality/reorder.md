@@ -63,4 +63,4 @@ Please check [this help topic]({%slug listbox/data-binding/automatic-database-up
 
  * [Automatic Database Updates]({%slug listbox/data-binding/automatic-database-updates%})
 
- * [Reorder Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/reorder/defaultcs.aspx)
+ * [Reorder Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/reorder/defaultcs.aspx)

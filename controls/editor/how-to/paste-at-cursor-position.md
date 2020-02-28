@@ -21,7 +21,7 @@ To achieve this, you need to:
 
 	You can also store the selection in any other event that suits your needs. For example, you can [attach a handler]({%slug editor/client-side-programming/methods/attacheventhandler%}) for `keyup` and store the range there as well.
 
-1. **Obtain the needed HTML** according to your business logic and UX requirements. You can find some tips on requesting complex content from the server in the [Different ways to make a request to the server in ASP.NET](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server) blog post.
+1. **Obtain the needed HTML** according to your business logic and UX requirements. You can find some tips on requesting complex content from the server in the [Different ways to make a request to the server in ASP.NET](https://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server) blog post.
 
 1. **Restore the cursor position** by using the [select() DomRange method](/api/client/Telerik.Web.UI.Editor.DomRange).
 
@@ -71,4 +71,4 @@ Type text, select content or move the cursor in the editor and click the button 
 
 * [Paste HTML]({%slug editor/client-side-programming/methods/pastehtml%})
 
-* [Different ways to make a request to the server in ASP.NET blog post](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server)
+* [Different ways to make a request to the server in ASP.NET blog post](https://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server)

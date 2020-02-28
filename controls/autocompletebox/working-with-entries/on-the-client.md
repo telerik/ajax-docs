@@ -95,4 +95,4 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 
 # See Also
 
- * [Add/remove tokens from the AutoCompleteBoxEntry collectionon the client.](http://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/addremoveclientside/defaultcs.aspx)
+ * [Add/remove tokens from the AutoCompleteBoxEntry collectionon the client.](https://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/addremoveclientside/defaultcs.aspx)

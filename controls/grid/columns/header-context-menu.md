@@ -39,7 +39,7 @@ The context menu can be enabled by setting the **EnableHeaderContextMenu** prope
 
 
 
-[ This online demo ](http://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/GeneralFeatures/HeaderContextMenu/DefaultCS.aspx) illustrates how to use a header context menu in RadGrid for ASP.NET AJAX. It is quite useful if you would like to process operations like sorting or grouping on a per-column basis or show/hide some of the grid columns based on the end user's preferences.
+[ This online demo ](https://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/GeneralFeatures/HeaderContextMenu/DefaultCS.aspx) illustrates how to use a header context menu in RadGrid for ASP.NET AJAX. It is quite useful if you would like to process operations like sorting or grouping on a per-column basis or show/hide some of the grid columns based on the end user's preferences.
 
 ![grid headercontextmenu](images/grid_headercontextmenu.jpg)
 
@@ -184,7 +184,7 @@ In spite of having been created to allow for filtering the grid on two condition
 
 The new filter menu can be used along-side the classic one. In this case, the GridTableView.IsFilterItemExpanded property should be set to **true** (the default value). When the two filter menus are switched on simultaneously, the data set for the first filter condition of the header context filter menu will be also set as filter data for the classic one and vice versa.If you want to use just the header context filter menu, then just set GridTableView.IsFilterItemExpanded property to **false** leaving, as mentioned above, the RadGrid.GridTableView/GridTableView.AllowFilteringByColumn property to **true**.
 
-For more information on RadGrid header filtering menu, refer to [this blog post](http://blogs.telerik.com/tsvetoslavkovachev/posts/10-02-08/new_filtering_menu_for_radgrid_for_asp_net_ajax.aspx) and see the live example [here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/HeaderContextFilterMenu/defaultcs.aspx).
+For more information on RadGrid header filtering menu, refer to [this blog post](https://blogs.telerik.com/tsvetoslavkovachev/posts/10-02-08/new_filtering_menu_for_radgrid_for_asp_net_ajax.aspx) and see the live example [here](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/HeaderContextFilterMenu/defaultcs.aspx).
 
 ## Using HeaderContextMenu for showing column aggregates
 

@@ -14,7 +14,7 @@ You can export **RadDiagram** as an SVG document on the client. This is done in 
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the [Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
-1. Call the [exportSVG](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG) method of the client-side object of the diagram.
+1. Call the [exportSVG](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG) method of the client-side object of the diagram.
 
 >caution The export to SVG functionality is currently supported in Firefox, Chrome, IE10+ and Opera 15.0+ (Blink).
 
@@ -50,10 +50,10 @@ You can export **RadDiagram** as an SVG document on the client. This is done in 
 </script>
 ````
 
-You can find a list of the available parameters of the **exportSVG** method in the [Kendo UI Diagram API Reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG).
+You can find a list of the available parameters of the **exportSVG** method in the [Kendo UI Diagram API Reference](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG).
 
 # See Also
 
  * [RadDiagram Client-Side Basics]({%slug diagram/client-side-programming/overview%})
 
- * [exportSVG method of Kendo UI Diagram](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG)
+ * [exportSVG method of Kendo UI Diagram](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG)

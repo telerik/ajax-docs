@@ -47,5 +47,5 @@ The table below demonstrates the public methods of the **Assignment** object.
  
  * [Resources]({%slug gantt/server-side-programming/objects/resources%})
  
- * [Resources demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/resources/defaultcs.aspx)
+ * [Resources demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/resources/defaultcs.aspx)
  

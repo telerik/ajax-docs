@@ -64,10 +64,10 @@ End Sub
 ````
 
 
-The **RadAjaxManager** control does not maintain focus on active controls after an asynchronous request. If you need to focus a specific control, you can use the **RadAjaxManager FocusControl** method. Check the [Setting Focus ](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx) online demo that illustrates this aspect of the **RadAjaxManager** server-side API.
+The **RadAjaxManager** control does not maintain focus on active controls after an asynchronous request. If you need to focus a specific control, you can use the **RadAjaxManager FocusControl** method. Check the [Setting Focus ](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx) online demo that illustrates this aspect of the **RadAjaxManager** server-side API.
 
 ## See Also
 
  * [Overview]({%slug ajaxpanel/overview%})
 
- * [Demo: Setting Focus](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx)
+ * [Demo: Setting Focus](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx)

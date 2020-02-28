@@ -92,8 +92,8 @@ DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
 
 Additional information on resource files, as well as explicit and implicit resource localization is available on this page:
 
-[http://msdn2.microsoft.com/en-us/library/ms227427.aspx](http://msdn2.microsoft.com/en-us/library/ms227427.aspx)
+[https://msdn2.microsoft.com/en-us/library/ms227427.aspx](https://msdn2.microsoft.com/en-us/library/ms227427.aspx)
 
-and in [this code library project](http://www.telerik.com/community/code-library/aspnet-ajax/localization/local-resources-for-radgrid-radcalendar-and-radinput.aspx).
+and in [this code library project](https://www.telerik.com/community/code-library/aspnet-ajax/localization/local-resources-for-radgrid-radcalendar-and-radinput.aspx).
 
 

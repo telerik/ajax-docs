@@ -52,12 +52,12 @@ There is an additional sub-category (**Pdf**) for the **ExportSettings** dedicat
 			<PageHeader>
 				<LeftCell Text="<em>Header - left cell</em>" TextAlign="Left" />
 				<MiddleCell Text="<span style='font-size: 20px;'><strong>Header - middle cell</strong></span>" TextAlign="Center" />
-				<RightCell Text="<a href='http://www.telerik.com/'>Header - right cell</a>" TextAlign="Right" />
+				<RightCell Text="<a href='https://www.telerik.com/'>Header - right cell</a>" TextAlign="Right" />
 			</PageHeader>
 			<PageFooter>
 				<LeftCell Text="<em>Footer - left cell</em>" TextAlign="Left" />
 				<MiddleCell Text="<strong>Footer - middle cell</strong>" TextAlign="Center" />
-				<RightCell Text="<a href='http://www.telerik.com/'>Footer - right cell</a>" TextAlign="Right" />
+				<RightCell Text="<a href='https://www.telerik.com/'>Footer - right cell</a>" TextAlign="Right" />
 			</PageFooter>
 		</Pdf>
 	</ExportSettings>
@@ -250,7 +250,7 @@ public abstract class RadEditorExportTemplate
 		//{0} is the dtd, {1} is the title, {2} is the content.
 		get
 		{
-			return @"<?xml version=""1.0"" encoding=""utf-8""?>{0}<html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:fo=""http://www.w3.org/1999/XSL/Format""><head><title>{1}</title></head><body>{2}</body></html>";
+			return @"<?xml version=""1.0"" encoding=""utf-8""?>{0}<html xmlns=""https://www.w3.org/1999/xhtml"" xmlns:fo=""https://www.w3.org/1999/XSL/Format""><head><title>{1}</title></head><body>{2}</body></html>";
 		}
 	}
 }	
@@ -318,7 +318,7 @@ Public MustInherit Class RadEditorExportTemplate
 		'The default xml template string used in the GenerateXmlStirng method.
 		'{0} is the dtd, {1} is the title, {2} is the content.
 		Get
-			Return "<?xml version=""1.0"" encoding=""utf-8""?>{0}<html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:fo=""http://www.w3.org/1999/XSL/Format""><head><title>{1}</title></head><body>{2}</body></html>"
+			Return "<?xml version=""1.0"" encoding=""utf-8""?>{0}<html xmlns=""https://www.w3.org/1999/xhtml"" xmlns:fo=""https://www.w3.org/1999/XSL/Format""><head><title>{1}</title></head><body>{2}</body></html>"
 		End Get
 	End Property
 
@@ -347,7 +347,7 @@ End Sub
 
 Last, but not least, by calling the **ExportToPDF()** the content will be exported using the newly defined	library instead of the default one.
 
-For more information on how to use an external library and a complete example with source code, refer to the [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](http://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
+For more information on how to use an external library and a complete example with source code, refer to the [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](https://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
 
 ## Unsupported Features and Scenarios
 
@@ -440,7 +440,7 @@ This approach provides the following benefits:
 	var dummyContainer = $telerik.$("#dummyContentWrapper");
 	dummyContainer.html(editorHtml);
 
-	//automatic page breaking: http://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Automatic
+	//automatic page breaking: https://docs.telerik.com/kendo-ui/framework/drawing/drawing-dom#configuration-Automatic
 	kendo.drawing.drawDOM("#dummyContentWrapper", {
 		paperSize: "A4",
 		margin: "2cm"
@@ -456,4 +456,4 @@ This approach provides the following benefits:
 
 ## See Also
 
- * [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](http://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor)
+ * [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](https://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor)

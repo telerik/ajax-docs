@@ -18,11 +18,11 @@ It also offers [Keyboard support]({%slug checkbox/accessibility-and-internationa
 
 ## See Also
 
- * [Live Demo: RadCheckBox Accessibility Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/accessibility-support/defaultcs.aspx)
+ * [Live Demo: RadCheckBox Accessibility Support](https://demos.telerik.com/aspnet-ajax/checkbox/examples/accessibility-support/defaultcs.aspx)
 
  * [Section 508](http://www.section508.gov/)
 
- * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
+ * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG/)
 
  * [Right-to-Left Support]({%slug checkbox/accessibility-and-internationalization/right-to-left-support%})
 

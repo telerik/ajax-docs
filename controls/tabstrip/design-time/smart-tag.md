@@ -21,7 +21,7 @@ Using the unbound **RadTabStrip** Smart Tag you can perform the following:
 
 ## RadTabStrip Tasks
 
-* **Choose Data Source** lets you bind the tab strip declaratively by selecting a data source from a drop-down list of all available data source components. If you select **&lt;New Data Source...&gt;** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind the tab strip declaratively by selecting a data source from a drop-down list of all available data source components. If you select **&lt;New Data Source...&gt;** the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadTabStrip...** opens the [RadTabStrip Item Builder]({%slug tabstrip/design-time/radtabstrip-item-builder%}), where you can create and configure statically-defined items for your tab strip.
 
@@ -59,9 +59,9 @@ Using the bound **RadTabStrip** Smart Tag you can perform the following:
 
 ## RadTabStrip Tasks
 
-* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select "**<New Data Source...>**" the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
+* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select "**<New Data Source...>**" the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
 
-* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 * **Edit RadTabStrip Databindings**... opens the [NavigationItemBinding Collection Editor]({%slug tabstrip/design-time/navigationtabbinding-collection-editor%}), where you can specify [databindings]({%slug tabstrip/data-binding/using-databindings%}) to map between the fields in the data source and **RadTab** properties.
 

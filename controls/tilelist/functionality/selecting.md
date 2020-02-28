@@ -33,7 +33,7 @@ The selection mode can be toggled on the **server** through the server-side **Se
 
 If selection mode is changed from multiple to single and there are multiple tiles selected only one will remain selected -	the tile that is last in the list.
 
-See the [Selecting online demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/selecting/defaultcs.aspx) to see the feature in action.
+See the [Selecting online demo](https://demos.telerik.com/aspnet-ajax/tilelist/examples/selecting/defaultcs.aspx) to see the feature in action.
 
 The control also exposes the **AutoPostBack** property which indicates whether an automatic postback will be triggered once a tile is selected. It defaults to false.
 
@@ -53,4 +53,4 @@ A given **tile** selection status can be toggled through its **Selected** proper
 
 # See Also
 
- * [Selecting online demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/selecting/defaultcs.aspx)
+ * [Selecting online demo](https://demos.telerik.com/aspnet-ajax/tilelist/examples/selecting/defaultcs.aspx)

@@ -64,7 +64,7 @@ table th
 }
 ````
 
-Please, note that if the **CssFiles** property is set the editor will not pick up the styles from the parent page. The following online demo shows how to use the **CssFiles** property: [Setting Content Area Defaults and External CSS Files](http://demos.telerik.com/aspnet-ajax/Editor/Examples/SettingContentAreaDefaults/DefaultCS.aspx).
+Please, note that if the **CssFiles** property is set the editor will not pick up the styles from the parent page. The following online demo shows how to use the **CssFiles** property: [Setting Content Area Defaults and External CSS Files](https://demos.telerik.com/aspnet-ajax/Editor/Examples/SettingContentAreaDefaults/DefaultCS.aspx).
 
 ## See Also
 

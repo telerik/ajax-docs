@@ -40,8 +40,8 @@ Highlights:
 
 ## See Also
 
- * [Visual Studio plugin](http://www.telerik.com/teststudio/visual-studio-testing-plugin-benefits)
+ * [Visual Studio plugin](https://www.telerik.com/teststudio/visual-studio-testing-plugin-benefits)
 
- * [Testing AJAX applications with Test Studio](http://www.telerik.com/teststudio/ajax-testing)
+ * [Testing AJAX applications with Test Studio](https://www.telerik.com/teststudio/ajax-testing)
 
- * [Download a free 30-day trial](http://www.telerik.com/download/teststudio)
+ * [Download a free 30-day trial](https://www.telerik.com/download/teststudio)

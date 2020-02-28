@@ -68,6 +68,6 @@ RadSlider1.DragText = "Change"
 
 ## See Also
 
- * [Live Demo "Handle Customizations"](http://demos.telerik.com/aspnet-ajax/Slider/Examples/HandlesCustomization/DefaultCS.aspx)
+ * [Live Demo "Handle Customizations"](https://demos.telerik.com/aspnet-ajax/Slider/Examples/HandlesCustomization/DefaultCS.aspx)
 
- * [Live demo "Range Slider"](http://demos.telerik.com/aspnet-ajax/Slider/Examples/RangeSlider/DefaultCS.aspx)
+ * [Live demo "Range Slider"](https://demos.telerik.com/aspnet-ajax/Slider/Examples/RangeSlider/DefaultCS.aspx)

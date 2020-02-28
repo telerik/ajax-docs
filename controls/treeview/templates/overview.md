@@ -30,4 +30,4 @@ Normally, **RadTreeView** allows great flexibility with regard to the functional
 ![RadTreeView Templates Overview](images/treeview_templatesoverview.jpg)
 
 
-**See** live example at: [RadTreeView Templates](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/Templates/DefaultCS.aspx)
+**See** live example at: [RadTreeView Templates](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/Templates/DefaultCS.aspx)

@@ -68,4 +68,4 @@ You can also set these properties at runtime in the code-behind:
 ````
 
 
-For a live example that demonstrates client-side multi-row selection, see [ Client-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
+For a live example that demonstrates client-side multi-row selection, see [ Client-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).

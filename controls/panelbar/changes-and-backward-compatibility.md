@@ -14,7 +14,7 @@ position: 2
 
 ## RadPanelBar for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## RadPanelBar for ASP.NET AJAX Q3 SP1 2009 (Version Number 2009.3.1208):
 
@@ -30,7 +30,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## RadPanelBar for ASP.NET AJAX Q2 2009 (Version Number 2009.2.701):
 
-* Custom skins could be affected: background-position declarations were moved from base stylesheet to skins. Migration tool is available [here](http://www.telerik.com/community/forums/aspnet-ajax/general-discussions/q2-breaks-my-custom-skins-help.aspx).
+* Custom skins could be affected: background-position declarations were moved from base stylesheet to skins. Migration tool is available [here](https://www.telerik.com/community/forums/aspnet-ajax/general-discussions/q2-breaks-my-custom-skins-help.aspx).
 
 ## RadPanelBar for ASP.NET AJAX Q1 2009 (Version Number 2009.1.311):
 
@@ -38,7 +38,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 * Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [ Disabling Embedded Resources ]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
-* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) for more information.
+* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) for more information.
 
 ## RadPanelBar for ASP.NET AJAX Q3 SP1 2008 (Version Number 2008.3.1125)
 

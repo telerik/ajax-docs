@@ -28,7 +28,7 @@ The icons are an `<img />` element in the Classic [RenderMode]({%slug notificati
 
 >note The built-in icons are rendered only when the `Text` property is used to render content in the notification. If you use its `ContentTemplate`, the built-in icons are not rendered and you may want to emulate them with your own image control or other HTML structure.
 
->note The built-in icons work only when the embedded skins are used. If you externalize the skins or use a custom skin, you cannot set them via the above shorthand values. If you wish to use them in this case please examine the [Using the built-in icons with a custom skin](http://www.telerik.com/support/kb/aspnet-ajax/notification/using-the-built-in-icons-with-a-custom-skin.aspx) Knowledge Base article on the matter.
+>note The built-in icons work only when the embedded skins are used. If you externalize the skins or use a custom skin, you cannot set them via the above shorthand values. If you wish to use them in this case please examine the [Using the built-in icons with a custom skin](https://www.telerik.com/support/kb/aspnet-ajax/notification/using-the-built-in-icons-with-a-custom-skin.aspx) Knowledge Base article on the matter.
 
 ## Using a Custom Image
 
@@ -110,6 +110,6 @@ div.RadNotification .myFontIconCssClass:before
 
 # See Also
 
- * [Notification Configurator](http://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx)
+ * [Notification Configurator](https://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx)
 
  * [Render Modes]({%slug notification/mobile-support/render-modes%}) 

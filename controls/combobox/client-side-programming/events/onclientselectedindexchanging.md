@@ -85,7 +85,7 @@ function LoadCountries(combo, eventarqs) {
 
 
 
-You can see a live example at [Multiple Comboboxes](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/MultipleComboBoxes/DefaultCS.aspx)
+You can see a live example at [Multiple Comboboxes](https://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/MultipleComboBoxes/DefaultCS.aspx)
 
 # See Also
 

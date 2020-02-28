@@ -14,7 +14,7 @@ position: 1
 
 ## Referring Controls in UserControls
 
-The code below shows how to retrieve a value from a control in a user control custom edit form in Telerik RadGrid. The example demonstrates how to refer to controls by obtaining references to them with the *FindControl(controlId)* method. This text can be used to update your DataSource (you can also see [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultVB.aspx) for more info):
+The code below shows how to retrieve a value from a control in a user control custom edit form in Telerik RadGrid. The example demonstrates how to refer to controls by obtaining references to them with the *FindControl(controlId)* method. This text can be used to update your DataSource (you can also see [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultVB.aspx) for more info):
 
 
 
@@ -204,4 +204,4 @@ End Sub
 ````
 
 
-Note that with form template you may prefer the [ codeless approach ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [ automatic operations ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid.
+Note that with form template you may prefer the [ codeless approach ](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [ automatic operations ](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid.

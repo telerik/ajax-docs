@@ -35,7 +35,7 @@ The **RadToggleButton** fully supports right-to-left (RTL) language locales (**F
 
 ## See Also
 
- * [Live Demo: RadToggleButton RTL Support](http://demos.telerik.com/aspnet-ajax/togglebutton/examples/righttoleft/defaultcs.aspx)
+ * [Live Demo: RadToggleButton RTL Support](https://demos.telerik.com/aspnet-ajax/togglebutton/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug togglebutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

@@ -50,4 +50,4 @@ Example 2: Cancel the default behavior when shows and hides the RadAjaxLoadingPa
 
  * [RadAjaxManager Object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%})
 
- * [Demo: RadAjaxManager Client-side API](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)
+ * [Demo: RadAjaxManager Client-side API](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)

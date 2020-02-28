@@ -10,7 +10,7 @@ position: 0
 
 # Optimizing RadMenu Performance
 
-When using RadMenu control you may experience an performance issue if you load many items in it. Nevertheless, the control supports [web service load on demand](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx) and lazy initialization (transparent for the user). Additionally it can seamlessly work with disabled ViewState.
+When using RadMenu control you may experience an performance issue if you load many items in it. Nevertheless, the control supports [web service load on demand](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx) and lazy initialization (transparent for the user). Additionally it can seamlessly work with disabled ViewState.
 
 
  

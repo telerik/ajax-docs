@@ -413,4 +413,4 @@ End Class
 
 # See Also
 
- * [Creating Web Server Control Templates Dynamically](http://msdn.microsoft.com/en-us/library/y0h809ak(v=vs.71).aspx)
+ * [Creating Web Server Control Templates Dynamically](https://msdn.microsoft.com/en-us/library/y0h809ak(v=vs.71).aspx)

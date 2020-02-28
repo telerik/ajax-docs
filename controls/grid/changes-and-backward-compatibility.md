@@ -14,7 +14,7 @@ position: 30
 
 ## Telerik RadGrid for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## Telerik RadGrid for ASP.NET AJAX Q1 2010
 
@@ -50,7 +50,7 @@ In this version of the control, a number of changes have been made with respect 
 
 * Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic]({%slug grid/appearance-and-styling/modifying-existing-skins%}) from the documentation for more info about the changes.
 
-How to apply the old skins as external:The RadGrid skins has been improved and the css classes/images used in them were unified with the rest of Telerik UI controls for ASP.NET AJAX. If you intend to use the old versions of the skins to avoid layout changes/skins updates, you can find the entire set of old skins (prior to the Q1 2009 release) attached to [this forum post](http://www.telerik.com/community/forums/aspnet-ajax/calendar/radcalendar-q3-2008-skins-available-for-download.aspx).
+How to apply the old skins as external:The RadGrid skins has been improved and the css classes/images used in them were unified with the rest of Telerik UI controls for ASP.NET AJAX. If you intend to use the old versions of the skins to avoid layout changes/skins updates, you can find the entire set of old skins (prior to the Q1 2009 release) attached to [this forum post](https://www.telerik.com/community/forums/aspnet-ajax/calendar/radcalendar-q3-2008-skins-available-for-download.aspx).
 
 They have been adapted to be fully compatible with the Q1 2009 release. In order to use them as non embedded skins, you should do the following:
 
@@ -62,17 +62,17 @@ They have been adapted to be fully compatible with the Q1 2009 release. In order
 
 For more information about Telerik controls skinning mechanism and using non-embedded skins, please refer to:
 
-[How skins work](http://www.telerik.com/help/aspnet-ajax/introduction-how-skins-work.html)
+[How skins work](https://www.telerik.com/help/aspnet-ajax/introduction-how-skins-work.html)
 
-[Skin registration](http://www.telerik.com/help/aspnet-ajax/introduction-skin-registration.html)
+[Skin registration](https://www.telerik.com/help/aspnet-ajax/introduction-skin-registration.html)
 
-[Using skins in ASP.NET themes](http://www.telerik.com/help/aspnet-ajax/introduction-themes-how-to.html)
+[Using skins in ASP.NET themes](https://www.telerik.com/help/aspnet-ajax/introduction-themes-how-to.html)
 
-[Disabling embedded resources](http://www.telerik.com/help/aspnet-ajax/introduction-disabling-embedded-resources.html)
+[Disabling embedded resources](https://www.telerik.com/help/aspnet-ajax/introduction-disabling-embedded-resources.html)
 
 An online demo, which shows how to use various controls with non-embedded skins is available at:
 
-[Custom skins demo](http://demos.telerik.com/aspnet-ajax/grid/examples/styles/customskin/defaultcs.aspx)
+[Custom skins demo](https://demos.telerik.com/aspnet-ajax/grid/examples/styles/customskin/defaultcs.aspx)
 
 ## Telerik RadGrid for ASP.NET AJAX Q3 2008
 

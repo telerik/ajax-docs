@@ -44,8 +44,8 @@ For every item of the RadRibbonBar a specific access key should be set using its
 
 In order to move one level up in a specific collection the **Esc** key should be used.
 
-The full Microsoft Ribbon Specification could be found [here](http://msdn.microsoft.com/en-us/library/windows/desktop/cc872782.aspx#accessKeysAndKeytips)
+The full Microsoft Ribbon Specification could be found [here](https://msdn.microsoft.com/en-us/library/windows/desktop/cc872782.aspx#accessKeysAndKeytips)
 
 # See Also
 
- * [Online demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/keyboardsupport/defaultcs.aspx)
+ * [Online demo](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/keyboardsupport/defaultcs.aspx)

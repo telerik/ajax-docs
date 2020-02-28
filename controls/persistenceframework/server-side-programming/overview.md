@@ -64,10 +64,10 @@ This setting is used by the event arguments of the **SaveCustomSettings** / **Lo
 
 ## See Also
 
- * [ControlSetting Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_controlsetting.html)
+ * [ControlSetting Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_controlsetting.html)
 
- * [PersistenceSetting Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_persistencesetting.html)
+ * [PersistenceSetting Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_persistencesetting.html)
 
- * [RadPersistenceManager Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanager.html)
+ * [RadPersistenceManager Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanager.html)
 
- * [RadPersistenceManagerProxy Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanagerproxy.html)
+ * [RadPersistenceManagerProxy Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanagerproxy.html)

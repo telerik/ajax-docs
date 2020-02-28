@@ -117,4 +117,4 @@ ID="RadEditor1">
 
 ## See Also
 
- * [OnClientPasteHtml Live Example](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/OnClientPasteHtml/DefaultCS.aspx)
+ * [OnClientPasteHtml Live Example](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/OnClientPasteHtml/DefaultCS.aspx)

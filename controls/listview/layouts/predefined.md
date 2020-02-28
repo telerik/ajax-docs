@@ -271,4 +271,4 @@ After a layout has been chosen the designer will automatically generate the nece
 
 
 
-For a live demonstration of the above-described feature of RadListView's, please, visit the [Predefined Layouts example online page](http://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/predefinedlayouts/defaultcs.aspx).
+For a live demonstration of the above-described feature of RadListView's, please, visit the [Predefined Layouts example online page](https://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/predefinedlayouts/defaultcs.aspx).

@@ -1817,8 +1817,8 @@ footer:
   title: "Getting Started"
   links:
     "Install Now": https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax
-    "Demos": http://demos.telerik.com/aspnet-ajax/
-    "Responsive Demos": http://demos.telerik.com/responsive-web-design-aspnet/samples.aspx
+    "Demos": https://demos.telerik.com/aspnet-ajax/
+    "Responsive Demos": https://demos.telerik.com/responsive-web-design-aspnet/samples.aspx
     "Sample Applications": https://www.telerik.com/aspnet-ajax/sample-applications
 -
   title: "Support Resources"
@@ -1831,8 +1831,8 @@ footer:
   links:
     "Forums": https://www.telerik.com/forums/aspnet-ajax
     "Blogs": https://www.telerik.com/blogs/.net
-    "Feedback Portal": http://feedback.telerik.com/Project/108
-    "Document Processing Feedback Portal": http://feedback.telerik.com/Project/184
+    "Feedback Portal": https://feedback.telerik.com/Project/108
+    "Document Processing Feedback Portal": https://feedback.telerik.com/Project/184
   
 footer_social: 
     facebook: https://www.facebook.com/Telerik/

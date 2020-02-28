@@ -145,7 +145,7 @@ Solution: The **YAxis.Name** property of the main **YAxis** is set but the serie
 
 ## There is a Redundant Space Between Pie or Donut Chart and its Legend
 
-Solution: You can either offset the legend (see an example in the [ADD legend positioning options for RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item) or set a negative value for the **Margin** property of the chart's **PlotArea** (see **Example 2**).
+Solution: You can either offset the legend (see an example in the [ADD legend positioning options for RadHtmlChart](https://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item) or set a negative value for the **Margin** property of the chart's **PlotArea** (see **Example 2**).
 
 >caption Example 2: Decreasing the distance between the pie and its legend by setting a negative margin for its **PlotArea**.
 
@@ -428,6 +428,6 @@ Alternatively, you may choose to hide the labels for most series via their `Visi
 
  * [RadHtmlChart: Multiline labels]({%slug htmlchart/functionality/multiline-labels%})
 
- * [ADD legend positioning options for RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/67001)
+ * [ADD legend positioning options for RadHtmlChart](https://feedback.telerik.com/Project/108/Feedback/Details/67001)
 
  * [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character)

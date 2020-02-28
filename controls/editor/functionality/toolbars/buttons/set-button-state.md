@@ -56,7 +56,7 @@ To do this, use the `setState` method the buttons expose. It takes a member of t
 		</telerik:EditorToolGroup>
 	</Tools>
 	<Content>
-		<img src="http://docs.telerik.com/devtools/aspnet-ajax/images/introduction-Telerik_UI_for_aspnet-ajax_logo_documentation.png"></img>
+		<img src="https://docs.telerik.com/devtools/aspnet-ajax/images/introduction-Telerik_UI_for_aspnet-ajax_logo_documentation.png"></img>
 	</Content>
 </telerik:RadEditor>
 ````
@@ -104,19 +104,19 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 /*Active state*/
 .reToolbar.Default .Custom1
 {
-	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/active-state-icon.png');
+	background-image: url('https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/active-state-icon.png');
 }
 
 /*Hovered state*/
 .reToolbar.Default .Custom1:hover
 {
-	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/hovered-state-icon.png');
+	background-image: url('https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/hovered-state-icon.png');
 }
 
 /*Selected state*/
 .reToolbar.Default .reTool_selected .Custom1
 {
-	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/selected-state-icon.png');
+	background-image: url('https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/selected-state-icon.png');
 }  
 ````
 

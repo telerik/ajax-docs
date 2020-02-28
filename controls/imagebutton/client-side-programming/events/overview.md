@@ -69,7 +69,7 @@ RadImageButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Va
 
 ## See Also
 
- * [ImageButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [ImageButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/imagebutton/client-side-api/client-side-events/defaultcs.aspx)
  
  * [ImageButton Object]({%slug imagebutton/client-side-programming/imagebutton-object%})
  

@@ -28,7 +28,7 @@ The following tutorial demonstrates how you can add a simple **RadProgressBar** 
 		</telerik:RadProgressBar>
 
 
-1. Set some of the [properties of the ProgressBar](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radprogressbar.html) like **BarType**, **Value**, **MaxValue** and **Orientation**	to configure the progress bar in the desired way.
+1. Set some of the [properties of the ProgressBar](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radprogressbar.html) like **BarType**, **Value**, **MaxValue** and **Orientation**	to configure the progress bar in the desired way.
 
 	>caption Example 2: The progress bar now is horizontally oriented, configured with the desired value in percent.
 

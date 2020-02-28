@@ -34,7 +34,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug checkbox/appe
 
 * Links navigate you directly to examples, help, and code library.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 
 ## See Also
 
@@ -42,5 +42,5 @@ The **Skin** drop-down displays a list of available [skins]({%slug checkbox/appe
  
  * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
  
- * [RadCheckBox Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
+ * [RadCheckBox Online Demos](https://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
 

@@ -44,7 +44,7 @@ At design time, add item templates to your **RadMenu** control using the [Templa
 
 
 
-For live examples of using templates, see [Templates](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/Templates/DefaultCS.aspx) and [Multi-column Menus](http://demos.telerik.com/aspnet-ajax/Menu/Examples/MultiColumnMenu/DefaultCS.aspx).
+For live examples of using templates, see [Templates](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/Templates/DefaultCS.aspx) and [Multi-column Menus](https://demos.telerik.com/aspnet-ajax/Menu/Examples/MultiColumnMenu/DefaultCS.aspx).
 
 >caution If you add templates at runtime, assigning an object that implements the **ITemplate** interface to the **ItemTemplate** property, the template only works with items added at runtime in the codebehind.
 >

@@ -35,7 +35,7 @@ The following code snippet shows how to get information about a selected tile th
 
 ````JavaScript
 <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-     OnClientSelected="OnClientSelected" EnableSelection="true" NavigateUrl="http://www.telerik.com">
+     OnClientSelected="OnClientSelected" EnableSelection="true" NavigateUrl="https://www.telerik.com">
 </telerik:RadTextTile>
 
 <div id="myDiv"></div>
@@ -58,7 +58,7 @@ The example below demonstrates how the **get_selected()** method of the **Tile**
 
 ````JavaScript
  <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-     OnClientSelected="OnClientTileSelected" EnableSelection="true" NavigateUrl="http://www.telerik.com">
+     OnClientSelected="OnClientTileSelected" EnableSelection="true" NavigateUrl="https://www.telerik.com">
 </telerik:RadTextTile>
 
 <script type="text/javascript">

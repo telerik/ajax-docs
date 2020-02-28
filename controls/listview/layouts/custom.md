@@ -146,4 +146,4 @@ function toggleOrderDetails(sender)
 
 
 
-To see a live demo of the above examples, please visit the [RadListView custom layouts demo page](http://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/customlayouts/defaultcs.aspx)
+To see a live demo of the above examples, please visit the [RadListView custom layouts demo page](https://demos.telerik.com/aspnet-ajax/listview/examples/appearancestyling/customlayouts/defaultcs.aspx)

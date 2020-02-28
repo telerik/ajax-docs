@@ -85,4 +85,4 @@ The approach from the first code snippet can be used in a similar way to pass da
 
 ## See Also
 
- * [Creating Parent-child Relationships Between RadWindows](http://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)
+ * [Creating Parent-child Relationships Between RadWindows](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)

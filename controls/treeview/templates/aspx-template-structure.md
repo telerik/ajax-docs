@@ -49,7 +49,7 @@ The following demonstrates how multiple elements are placed into a Template and 
             <Nodes>
                 <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Ludwig van.Beethoven">
                     <NodeTemplate>
-                        <a href="http://en.wikipedia.org/wiki/Ludwig_van_Beethoven">
+                        <a href="https://en.wikipedia.org/wiki/Ludwig_van_Beethoven">
                             <%# DataBinder.Eval(Container, "Text") %>
                         </a>
                         <br />
@@ -58,7 +58,7 @@ The following demonstrates how multiple elements are placed into a Template and 
                 </telerik:RadTreeNode>
                 <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Franz Joseph Haydn">
                     <NodeTemplate>
-                        <a href="http://en.wikipedia.org/wiki/Joseph_Haydn">
+                        <a href="https://en.wikipedia.org/wiki/Joseph_Haydn">
                             <%# DataBinder.Eval(Container, "Text") %>
                         </a>
                         <br />
@@ -67,7 +67,7 @@ The following demonstrates how multiple elements are placed into a Template and 
                 </telerik:RadTreeNode>
                 <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Johannes Brahms">
                     <NodeTemplate>
-                        <a href="http://en.wikipedia.org/wiki/Johannes_Brahms">
+                        <a href="https://en.wikipedia.org/wiki/Johannes_Brahms">
                             <%# DataBinder.Eval(Container, "Text") %>
                         </a>
                         <br />

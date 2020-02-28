@@ -44,4 +44,4 @@ position: 0
 
 * [OnCommand ]({%slug ribbonbar/server-side-programming/events/oncommand%})
 
-For a live example of using server-side events, see [Server Events](http://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ServerSide/DefaultCS.aspx).
+For a live example of using server-side events, see [Server Events](https://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ServerSide/DefaultCS.aspx).

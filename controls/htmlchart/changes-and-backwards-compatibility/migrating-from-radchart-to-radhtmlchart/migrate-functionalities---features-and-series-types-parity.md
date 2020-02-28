@@ -26,9 +26,9 @@ You can find the the series types that are not supported by the **RadHtmlChart**
 
 | Feature Name | Details |
 | ------ | ------ |
-| **Server-side click events** |This limitation is a sequence of the	concept of the **RadHtmlChart** (i.e., the control renders	entirely on the client-side). Nevertheless, this behavior can be achieved by performing an	Ajax request in the client-side click, where the argument of the clicked item can be passed	to the server. See [HtmlChart - Drill-down Chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx) online demo.|
-| **Built-in data grouping** |You can manually group the data source prior to binding it to the chart. Such an example is illustrated in the [Group RadHtmlChart Data Source](http://www.telerik.com/support/code-library/group-radhtmlchart-data-source) CL.|
-| **Server-side Export** |This feature is not supported out of the box because the **RadHtmlChart** renders entirely on the client as SVG via JavaScript (the [chart can be exported on the client-side]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%})) and therefore it is not directly available on the server for exporting. A possible workaround is to either obtain the SVG as a string and send it to the server through an Ajax request, once the chart is rendered, or to use third-party software that can convert and export the SVG image to a more common user format such as PNG or PDF. See an example in the [Exporting RadHtmlChart to PNG and PDF](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx) code library.|
+| **Server-side click events** |This limitation is a sequence of the	concept of the **RadHtmlChart** (i.e., the control renders	entirely on the client-side). Nevertheless, this behavior can be achieved by performing an	Ajax request in the client-side click, where the argument of the clicked item can be passed	to the server. See [HtmlChart - Drill-down Chart](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx) online demo.|
+| **Built-in data grouping** |You can manually group the data source prior to binding it to the chart. Such an example is illustrated in the [Group RadHtmlChart Data Source](https://www.telerik.com/support/code-library/group-radhtmlchart-data-source) CL.|
+| **Server-side Export** |This feature is not supported out of the box because the **RadHtmlChart** renders entirely on the client as SVG via JavaScript (the [chart can be exported on the client-side]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%})) and therefore it is not directly available on the server for exporting. A possible workaround is to either obtain the SVG as a string and send it to the server through an Ajax request, once the chart is rendered, or to use third-party software that can convert and export the SVG image to a more common user format such as PNG or PDF. See an example in the [Exporting RadHtmlChart to PNG and PDF](https://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx) code library.|
 
 You can find the list of missing appearance and styling features in **RadHtmlChart**, when migrating from **RadChart** and possible workarounds in **Table 2**.
 
@@ -36,7 +36,7 @@ You can find the list of missing appearance and styling features in **RadHtmlCha
 
 | Feature Name | Details |
 | ------ | ------ |
-| **Detailed customization of the elements positions** |Positions can be chosen (e.g. bottom, left, right, top), but exact numbers like **left=20px** cannot be used. The exception is the legend - you can offset the X and Y coordinates of the legend in **RadHtmlChart** through the **chartObject**, as illustrated in [this](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item.|
+| **Detailed customization of the elements positions** |Positions can be chosen (e.g. bottom, left, right, top), but exact numbers like **left=20px** cannot be used. The exception is the legend - you can offset the X and Y coordinates of the legend in **RadHtmlChart** through the **chartObject**, as illustrated in [this](https://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item.|
 | **Control over bars width and overlap** |The feature is available in the **RadHtmlChart** under the **Gap** and **Spacing** properties that the appropriate series types expose. For versions prior to R1 2019, the bars/columns cannot be overlapped. See more details and examples in the [Gap and Spacing]({%slug htmlchart/appearance-and-styling/gap-and-spacing%}) help article.|
 | **Modify the legend items** |You can modify only their appearance; the legend contents are generated	from the series collection.|
 | **Custom background images** |The chart can be wrapped in a container element that has a background image. **ChartArea** and/or **PlotArea** elements must also be set with transparent color.|
@@ -56,7 +56,7 @@ You can find the list of missing accessibility and internationalization features
 
 | Feature Name | Details |
 | ------ | ------ |
-| **Render the chart data as table** |For a data-bound chart,you can use an additional control (e.g.,[RadGrid](http://demos.telerik.com/aspnet-ajax/grid/examples/overview/defaultcs.aspx)) that displays data in tabular view	and bind it to the chart's data source.|
+| **Render the chart data as table** |For a data-bound chart,you can use an additional control (e.g.,[RadGrid](https://demos.telerik.com/aspnet-ajax/grid/examples/overview/defaultcs.aspx)) that displays data in tabular view	and bind it to the chart's data source.|
 | **Localization** |Requires additional configuration.	You can follow the instructions in this [Localization]({%slug htmlchart/accessibility-and-internationalization/localization%}) help article.|
 
 You can find the list of missing axes features in **RadHtmlChart** compared to **RadChart** in **List 2**.
@@ -85,5 +85,5 @@ You can find the list of missing axes features in **RadHtmlChart** compared to *
 
  * [Exporting RadHtmlChart to PNG and PDF Client-side]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%})
  
- * [Exporting RadHtmlChart to PNG and PDF Sever-side](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx)
+ * [Exporting RadHtmlChart to PNG and PDF Sever-side](https://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx)
 

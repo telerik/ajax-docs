@@ -72,7 +72,7 @@ The **ForbiddenZones** and **DockMode** properties control where the user can dr
 
 The **ForbiddenZones** property lists the dock zones where the **RadDock** control can't be docked. **ForbiddenZones** is a list of strings, each of which matches the **UniqueName** property of a **RadDockZone** control. When the user drags the **RadDock** control over a **RadDockZone** whose **UniqueName** property matches a string in the **ForbiddenZones** property, the **RadDockZone** does *not* indicate a docking rectangle and the user cannot dock the **RadDock** control in that zone.
 
-For a live example of the **ForbiddenZones** property, see [Forbidden Zones](http://demos.telerik.com/aspnet-ajax/Dock/Examples/ForbiddenZones/DefaultCS.aspx).
+For a live example of the **ForbiddenZones** property, see [Forbidden Zones](https://demos.telerik.com/aspnet-ajax/Dock/Examples/ForbiddenZones/DefaultCS.aspx).
 
 ## Using DockMode
 
@@ -90,7 +90,7 @@ For a live example of the **ForbiddenZones** property, see [Forbidden Zones](htt
 >
 
 
-For a live example of the **DockMode** property, see [DockMode](http://demos.telerik.com/aspnet-ajax/Dock/Examples/DockMode/DefaultCS.aspx).
+For a live example of the **DockMode** property, see [DockMode](https://demos.telerik.com/aspnet-ajax/Dock/Examples/DockMode/DefaultCS.aspx).
 
 # See Also
 

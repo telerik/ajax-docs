@@ -12,7 +12,7 @@ position: 0
 
 The **RadGauge** is a control powered by the Kendo UI Data Visualization Gauge widgets that is designed to show where the value lies according to a certain range. It was added to the suite in **Q3 2012** and its main features are:
 
-* **Pure client-side rendering** - JavaScript is used to create the image through [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) or [VML](http://en.wikipedia.org/wiki/Vector_Markup_Language) for older browsers like IE8 and IE7. This means that the server does not need to do anything but serialize the data, instead of creating an entire jpg or png image.
+* **Pure client-side rendering** - JavaScript is used to create the image through [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) or [VML](https://en.wikipedia.org/wiki/Vector_Markup_Language) for older browsers like IE8 and IE7. This means that the server does not need to do anything but serialize the data, instead of creating an entire jpg or png image.
 
 * **Different gauge types**
 

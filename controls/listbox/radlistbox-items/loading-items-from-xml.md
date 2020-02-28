@@ -92,4 +92,4 @@ RadListBox2.LoadXml(xmlString)
 
  * [Binding to ASP.NET Datasource Components]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%})
 
- * [Xml String Binding Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/populatingwithdata/xmlstringbinding/defaultcs.aspx)
+ * [Xml String Binding Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/populatingwithdata/xmlstringbinding/defaultcs.aspx)

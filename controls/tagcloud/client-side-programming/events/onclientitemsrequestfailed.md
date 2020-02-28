@@ -27,7 +27,7 @@ The event handler receives two arguments:
 |get_cancelErrorAlert||Bool|Returns a boolean value that indicates whether the error message will be displayed. True means the message will not be shown.|
 |et_cancelErrorAlert|bool||Sets a boolean value that indicates whether the error message will be displayed. Setting true means the message will not be shown.|
 
-In the TagCloud's [Web Service online example](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx) you can examine how this event can be used.
+In the TagCloud's [Web Service online example](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx) you can examine how this event can be used.
 
 # See Also
 
@@ -39,6 +39,6 @@ In the TagCloud's [Web Service online example](http://demos.telerik.com/aspnet-a
 
  * [OnClientItemsRequested]({%slug tagcloud/client-side-programming/events/onclientitemsrequested%})
 
- * [Demo - Web Service](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx)
+ * [Demo - Web Service](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx)
 
- * [Demo - WCF Service](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx)
+ * [Demo - WCF Service](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx)

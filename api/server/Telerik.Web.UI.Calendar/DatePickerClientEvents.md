@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.DatePickerClientEvents
 # Telerik.Web.UI.Calendar.DatePickerClientEvents
 
 Summary description for DatePickerClientEvents.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/datepicker/client-side-programming/events/overview.html Client Eventsfor more information.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/datepicker/client-side-programming/events/overview.html Client Eventsfor more information.
 
 ## Inheritance Hierarchy
 

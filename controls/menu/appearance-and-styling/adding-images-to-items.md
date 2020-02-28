@@ -138,7 +138,7 @@ The following example uses the **ImageUrl** and **HoveredImageUrl** properties t
 
 ![RadMenu Images Only](images/menu_imageonly.png)
 
-For a live example, see [Image Only](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Appearance/ImageOnly/DefaultCS.aspx).
+For a live example, see [Image Only](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Appearance/ImageOnly/DefaultCS.aspx).
 
 Since Q3 2010 RadMenu provides support for sprites - two new properties have been added:EnableImageSprites for the whole menu and EnableImageSprite for every menu item. Their purpose is to replace the menu item image element with a sized span for easier use of sprites. CssClass property of the buttons should be set in order to apply the sprite background image:
 
@@ -202,4 +202,4 @@ will be rendered like this:
 
  * [Setting  the CSS Class of Items]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%})
 
- * [Hide Icon Column in RadMenu](http://www.telerik.com/support/kb/aspnet-ajax/menu/details/hide-icon-column-in-radmenu)
+ * [Hide Icon Column in RadMenu](https://www.telerik.com/support/kb/aspnet-ajax/menu/details/hide-icon-column-in-radmenu)

@@ -25,7 +25,7 @@ In general it indicates that another control with the same ID has been created o
 
 There are a couple of ways to workaround the above issue:
 
-* To prevent the postback of the page as implemented in our [Load on Demand demo](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/loadondemand/defaultcs.aspx) and using the **OnClientTabSelecting** client side event:
+* To prevent the postback of the page as implemented in our [Load on Demand demo](https://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/loadondemand/defaultcs.aspx) and using the **OnClientTabSelecting** client side event:
 
 ````JavaScript
 function onTabSelecting(sender, eventArgs) {

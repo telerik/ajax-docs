@@ -256,7 +256,7 @@ Get/Set a title for the tooltip.
 
 #### Remarks
 This title is not affected by the rest of the content and is always displayed, regardless of the content source.
-            For more details see this help article: http://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
+            For more details see this help article: https://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
 
 ###  VisibleOnPageLoad `Boolean`
 

@@ -32,10 +32,10 @@ var kendoSparkline = <kendo.dataviz.ui.Sparkline>sparklineChart.get_kendoWidget(
 
 ![typescript-using-kendo-intellisense](images/typescript-using-kendo-intellisense.png)
 
-Once the type casting is done, you can utilize any available client-side method exposed by the **Kendo** widget. You can find more details about the widgets’ API in the [Kendo API reference](http://docs.telerik.com/kendo-ui/introduction).
+Once the type casting is done, you can utilize any available client-side method exposed by the **Kendo** widget. You can find more details about the widgets’ API in the [Kendo API reference](https://docs.telerik.com/kendo-ui/introduction).
 
 ### See Also
 
  * [Add TypeScript Definitions for Controls Using Kendo UI]({%slug general-information/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
 
- * [Kendo API reference](http://docs.telerik.com/kendo-ui/introduction)
+ * [Kendo API reference](https://docs.telerik.com/kendo-ui/introduction)

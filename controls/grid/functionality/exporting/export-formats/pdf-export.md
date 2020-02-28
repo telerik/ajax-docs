@@ -89,7 +89,7 @@ Although you can't modify the contents on **OnGridExporting**, you can use this 
 
 * to save the file on the server/send it via mail if needed.
 
-* to show the *PDF* file in *RadWindow* - there is a [blog post](http://blogs.telerik.com/vladimirenchev/posts/08-12-08/How_To_Export_grid_to_PDF_file_and_show_the_result_using_the_window.aspx) that contains a [runnable project](http://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
+* to show the *PDF* file in *RadWindow* - there is a [blog post](https://blogs.telerik.com/vladimirenchev/posts/08-12-08/How_To_Export_grid_to_PDF_file_and_show_the_result_using_the_window.aspx) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
 
 ## Appearance
 
@@ -294,7 +294,7 @@ RadGrid1.MasterTableView.BorderStyle = BorderStyle.None
 
 ## Fonts / Unicode support
 
-*RadGrid*'s *PDF* exporting engine supports all languages that use **left-to-right** orientation when the appropriate *Unicode* font is set. Live demo that exports *Japanese* characters is [available online](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx). The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
+*RadGrid*'s *PDF* exporting engine supports all languages that use **left-to-right** orientation when the appropriate *Unicode* font is set. Live demo that exports *Japanese* characters is [available online](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx). The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
 
 The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
@@ -355,7 +355,7 @@ You can use the following approach if you need to set a background image to your
 
 <MasterTableView style="background-image: url(yourimage)" />
 
->note In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
+>note In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
 >
 
 
@@ -500,7 +500,7 @@ A: Depending on your scenario, you can choose one or more suggestions from the f
 
 Q: I want to export multiple *RadGrids* / I want to export nested *RadGrids*
 
-A: Have a look at the following code-library project: [Export multiple RadGrids]( http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-multiple-radgrids-in-single-pdf-excel-file.aspx )
+A: Have a look at the following code-library project: [Export multiple RadGrids]( https://www.telerik.com/community/code-library/aspnet-ajax/grid/export-multiple-radgrids-in-single-pdf-excel-file.aspx )
 
 Q: The *PDF* file appears blank on my *Mac*
 
@@ -570,7 +570,7 @@ The reason for this exception is that the number of col elements is the colgroup
 <a href="#">text</a>
 <%--ERROR--%>
 
-<a href="http://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
+<a href="https://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
 <%--VALID--%>
 ````
 

@@ -18,8 +18,8 @@ There are cases in which you may want to trigger postback/ajax request to the se
 
 To enable this new feature, just set the **ClientSettings-EnablePostBackOnRowClick** property of the grid to **true** (the default value is false). Thus when the user click an arbitrary cell in a grid row, a postback/ajax request will be started automatically depending on whether the control has been ajaxified, for example by using the RadAjaxManager. To intercept the request and execute custom logic from the code-behind, wire the **ItemCommand** event of the grid. From within the ItemCommand event handler, you can check specifically for whether the command was raised by clicking on a row, by checking is "e.CommandName" is equal to "RowClick".
 
-[On this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx) the clicked grid row will be selected server-side and the id of the chosen item will be used to populate the related grids with data.
+[On this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx) the clicked grid row will be selected server-side and the id of the chosen item will be used to populate the related grids with data.
 
 How to start and handle postback/ajax requests from other client grid events you can learn from the knowledge base article linked below:
 
-[Postback/AJAX request from grid client events](http://www.telerik.com/support/kb/article/b454K-kce-b454T-cba.aspx)
+[Postback/AJAX request from grid client events](https://www.telerik.com/support/kb/article/b454K-kce-b454T-cba.aspx)

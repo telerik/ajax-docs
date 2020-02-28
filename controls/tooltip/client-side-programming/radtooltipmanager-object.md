@@ -35,7 +35,7 @@ position: 2
 | **set_enableDataCaching** |Sets a value which determines whether tooltip content should be cached after first load on demand request. When caching is enabled only one request will be performed for each target, regardless of how many times the tooltip will be shown. By default a new request is performed each time the tooltip must be shown.|
 | **tooltipify** |If AutoTooltipify is enabled calling this method will iterate over the page (or the element's children if a DOM element is passed as an argument) so that tooltips will be created. This can be used for content that is dynamically created for to add RadToolTips for elements outside of the TooltipZone. For Example, adding tooltips for content inside a RadWindow's ContentTemplate: `tooltipManager.tooltipify(oWnd.get_contentElement());`|
 
-For a live demo see [RadToolTipManager's Client Side API](http://demos.telerik.com/aspnet-ajax/tooltip/examples/radtooltipmanagerclientapi/defaultcs.aspx).
+For a live demo see [RadToolTipManager's Client Side API](https://demos.telerik.com/aspnet-ajax/tooltip/examples/radtooltipmanagerclientapi/defaultcs.aspx).
 
 
 **Example 1**: Creating a RadTooltip for an HTML element.

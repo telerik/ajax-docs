@@ -150,7 +150,7 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 <a href="#">text</a>
 <%--ERROR--%>
 
-<a href="http://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
+<a href="https://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
 <%--VALID--%>
 ````
 

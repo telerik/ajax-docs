@@ -43,7 +43,7 @@ Telerik RadEditor provides a client-side object of type **Telerik.Web.UI.RadEdit
 </html>
 ````
 
-You can see that the client object representation of MS AJAX controls are created just as the last code on the page in the Sys.Application.init event, which is raised after the window.onload event. For that reason you can get a reference to RadEditor no earlier that in the [Sys.Application.load](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/ApplicationClass/SysApplicationLoadEvent.aspx) event, which is raised after all scripts have been loaded and the objects in the application have been created and initialized.
+You can see that the client object representation of MS AJAX controls are created just as the last code on the page in the Sys.Application.init event, which is raised after the window.onload event. For that reason you can get a reference to RadEditor no earlier that in the [Sys.Application.load](https://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/ApplicationClass/SysApplicationLoadEvent.aspx) event, which is raised after all scripts have been loaded and the objects in the application have been created and initialized.
 
 Using the client-side **RadEditor** object, you can access the exposed properties and methods.
 
@@ -51,4 +51,4 @@ Using the client-side **RadEditor** object, you can access the exposed propertie
 
 ## See Also
 
- * [Client-Side API](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ClientsideAPI/DefaultCS.aspx)
+ * [Client-Side API](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/ClientsideAPI/DefaultCS.aspx)

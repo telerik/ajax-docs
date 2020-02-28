@@ -155,4 +155,4 @@ The following example illustrates how client-side events work.
 
  * [Setting Handlers by Using JavaScript]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%})
 
- * [Client Side Events demo (live Url)](http://demos.telerik.com/aspnet-ajax/Window/Examples/ClientSideEvents/DefaultCS.aspx)
+ * [Client Side Events demo (live Url)](https://demos.telerik.com/aspnet-ajax/Window/Examples/ClientSideEvents/DefaultCS.aspx)

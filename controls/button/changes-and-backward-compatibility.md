@@ -10,7 +10,7 @@ position: 1
 
 # Changes and Backward Compatibility
 
-A complete list of all changes can be found on the Release History page: [http://www.telerik.com/support/whats-new/aspnet-ajax/release-history](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history).
+A complete list of all changes can be found on the Release History page: [https://www.telerik.com/support/whats-new/aspnet-ajax/release-history](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history).
 
 You can also use the [Telerik API Analyser](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/upgrade-api-analyzer) to make your upgrade process easier by comparing the version you upgrade from with the one you upgrade to.
 

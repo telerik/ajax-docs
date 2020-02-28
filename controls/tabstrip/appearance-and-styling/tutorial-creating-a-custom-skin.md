@@ -139,9 +139,9 @@ cursor: default;
 
 For more information about Cascading Style Sheets, see
 
-* [World Wide Web Consortium CSS specifications](http://www.w3.org/Style/CSS/)
+* [World Wide Web Consortium CSS specifications](https://www.w3.org/Style/CSS/)
 
-* [W3 Schools CSS tutorial](http://www.w3schools.com/css/default.asp)
+* [W3 Schools CSS tutorial](https://www.w3schools.com/css/default.asp)
 
 * [Guide to Cascading Style Sheets](http://www.htmlhelp.com/reference/css/)
 

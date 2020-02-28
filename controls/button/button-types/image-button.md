@@ -63,7 +63,7 @@ This approach is preferred when you want to use an image sprite for the button (
 
 ## See Also
 
- * [Button - Image Buttons](http://demos.telerik.com/aspnet-ajax/button/examples/imagebutton/defaultcs.aspx)
+ * [Button - Image Buttons](https://demos.telerik.com/aspnet-ajax/button/examples/imagebutton/defaultcs.aspx)
 
  * [Button Types Overview]({%slug button/button-types/overview%})
 

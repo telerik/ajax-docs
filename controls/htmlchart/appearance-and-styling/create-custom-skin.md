@@ -30,7 +30,7 @@ To modify an existing chart skin you can follow the steps below:
 
 	>tip You can also find a stripped down version of this file in the **JavaScript section** of **Example 2**.
 
-1. Find the skin you want to modify and customize the colors of the corresponding [elements](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart). **Example 1** shows how to set a silver background for the chart area and colorize the first two series with green and blue. 
+1. Find the skin you want to modify and customize the colors of the corresponding [elements](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart). **Example 1** shows how to set a silver background for the chart area and colorize the first two series with green and blue. 
 
 	>caption Example 1: Customize the Black skin of RadHtmlChart via the `RadHtmlChartSkins.js` file.
 
@@ -180,7 +180,7 @@ You can see the output of the modified Black skin in **Figure 1**.
 
 You can create a new skin out of an existing one by following the steps below. You can also find a fully runnable sample about creating a custom skin out of an existing one in **Example 3** and see the output in **Figure 2**.
 
-1. Create a JSON that will store the chart element's colors. You can use the free [Kendo UI Theme Builder] (http://demos.telerik.com/kendo-ui/themebuilder/) for the purpose.
+1. Create a JSON that will store the chart element's colors. You can use the free [Kendo UI Theme Builder] (https://demos.telerik.com/kendo-ui/themebuilder/) for the purpose.
 ````JavaScript
 "chart": {
 	"chartArea": {
@@ -201,7 +201,7 @@ var MyTheme = kendo.deepExtend({}, themes.Black, {
 	}
 ````
 
-1. Add the new theme to the kendo dataviz themes and set the theme name to the chart via the [setOptions()](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#methods-setOptions) method.
+1. Add the new theme to the kendo dataviz themes and set the theme name to the chart via the [setOptions()](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#methods-setOptions) method.
 ````JavaScript
 themes.MyTheme = MyTheme;
 $find("<%=RadHtmlChart1.ClientID%>").get_kendoWidget().setOptions({ theme: "MyTheme" });
@@ -273,7 +273,7 @@ function chartLoad(chart) {
 
  * [RadHtmlChart Structure]({%slug htmlchart/radhtmlchart-structure%})
 
- * [Kendo UI Theme Builder] (http://demos.telerik.com/kendo-ui/themebuilder/)
+ * [Kendo UI Theme Builder] (https://demos.telerik.com/kendo-ui/themebuilder/)
  
- * [Kendo UI Chart: setOptions()](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#methods-setOptions)
+ * [Kendo UI Chart: setOptions()](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#methods-setOptions)
 

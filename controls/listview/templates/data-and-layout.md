@@ -189,7 +189,7 @@ Other useful templates are RadListView's EmptyDataTemplate and ItemSeparatorTemp
 
 
 
-All these templates are employed on [this online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/templates/datalayouttemplates/defaultcs.aspx) of the product.![Layout template](images/listview_datalayouttemplates.PNG)
+All these templates are employed on [this online demo](https://demos.telerik.com/aspnet-ajax/listview/examples/templates/datalayouttemplates/defaultcs.aspx) of the product.![Layout template](images/listview_datalayouttemplates.PNG)
 
 Refer to the code implementation in it for more details.
 

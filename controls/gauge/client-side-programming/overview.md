@@ -12,7 +12,7 @@ position: 0
 
 This help article lists the **RadGauge**'s public client-side methods that let you access and modify the control's height, width, value, etc. and shows how to reference and use the **RadGauge** client-side object (**Examples 1-2**).
 
-**RadGauge** for ASP.NET AJAX is built on top of the **Kendo UI Data Visualization** [Radial Gauge Widget](http://demos.telerik.com/kendo-ui/radial-gauge/index) and [Linear Gauge Widget](http://demos.telerik.com/kendo-ui/linear-gauge/index). Thus, it exposes the client-side API and methods offered by the [Radial Gauge widget](http://docs.telerik.com/kendo-ui/api/dataviz/radialgauge) and [Linear Gauge widget](http://docs.telerik.com/kendo-ui/api/dataviz/lineargauge) and mainly provides a wrapper and API for working with the gauge on the server (programmatic creation, declaring in the markup).
+**RadGauge** for ASP.NET AJAX is built on top of the **Kendo UI Data Visualization** [Radial Gauge Widget](https://demos.telerik.com/kendo-ui/radial-gauge/index) and [Linear Gauge Widget](https://demos.telerik.com/kendo-ui/linear-gauge/index). Thus, it exposes the client-side API and methods offered by the [Radial Gauge widget](https://docs.telerik.com/kendo-ui/api/dataviz/radialgauge) and [Linear Gauge widget](https://docs.telerik.com/kendo-ui/api/dataviz/lineargauge) and mainly provides a wrapper and API for working with the gauge on the server (programmatic creation, declaring in the markup).
 
 ## Public Methods
 
@@ -29,7 +29,7 @@ This help article lists the **RadGauge**'s public client-side methods that let y
 | **set_width** |Sets the width of the control.|
 | **get_kendoWidget** |Gets a reference to the Kendo Gauge widget.|
 
-**RadGauge** for ASP.NET AJAX, through the Kendo widgets, exposes the [Kendo Linear Gauge client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/lineargauge#methods) and [Kendo Radial Gauge client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/radialgauge#methods).
+**RadGauge** for ASP.NET AJAX, through the Kendo widgets, exposes the [Kendo Linear Gauge client-side methods](https://docs.telerik.com/kendo-ui/api/dataviz/lineargauge#methods) and [Kendo Radial Gauge client-side methods](https://docs.telerik.com/kendo-ui/api/dataviz/radialgauge#methods).
 
 ## Get Client-side Object Reference
 
@@ -63,14 +63,14 @@ var kendoLinearGauge = $telerik.$("#<%=RadLinearGauge1.ClientID %>").data("kendo
 
 ## See Also
 
- * [Kendo Linear Gauge Widget First Look](http://demos.telerik.com/kendo-ui/linear-gauge/index)
+ * [Kendo Linear Gauge Widget First Look](https://demos.telerik.com/kendo-ui/linear-gauge/index)
 
- * [Kendo Linear Gauge Client-side API Reference](http://docs.telerik.com/kendo-ui/api/dataviz/lineargauge)
+ * [Kendo Linear Gauge Client-side API Reference](https://docs.telerik.com/kendo-ui/api/dataviz/lineargauge)
 
- * [Kendo Linear Gauge Client-side Methods](http://docs.telerik.com/kendo-ui/api/dataviz/lineargauge#methods)
+ * [Kendo Linear Gauge Client-side Methods](https://docs.telerik.com/kendo-ui/api/dataviz/lineargauge#methods)
 
- * [Kendo Radial Gauge Widget First Look](http://demos.telerik.com/kendo-ui/radial-gauge/index)
+ * [Kendo Radial Gauge Widget First Look](https://demos.telerik.com/kendo-ui/radial-gauge/index)
 
- * [Kendo Radial Gauge Client-side API Reference](http://docs.telerik.com/kendo-ui/api/dataviz/radialgauge)
+ * [Kendo Radial Gauge Client-side API Reference](https://docs.telerik.com/kendo-ui/api/dataviz/radialgauge)
 
- * [Kendo Radial Gauge Client-side Methods](http://docs.telerik.com/kendo-ui/api/dataviz/radialgauge#methods)
+ * [Kendo Radial Gauge Client-side Methods](https://docs.telerik.com/kendo-ui/api/dataviz/radialgauge#methods)

@@ -28,4 +28,4 @@ An example of a RadEditor with some comments added follows:
 
  * [Adding Standard Buttons]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%})
 
- * [Comments In RadEditor Online Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/comments/defaultcs.aspx)
+ * [Comments In RadEditor Online Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/comments/defaultcs.aspx)

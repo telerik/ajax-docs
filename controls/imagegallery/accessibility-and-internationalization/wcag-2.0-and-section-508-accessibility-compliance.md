@@ -34,7 +34,7 @@ In accordance with these guidelines W3C defines three levels of conformance deve
 
 * **Conformance Level "Triple-A"**
 
-For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://www.w3.org/TR/WAI-WEBCONTENT/](http://www.w3.org/TR/WAI-WEBCONTENT/)
+For more details on W3C "Web Content Accessibility Guidelines 1.0" see [https://www.w3.org/TR/WAI-WEBCONTENT/](https://www.w3.org/TR/WAI-WEBCONTENT/)
 
 
 **RadImageGallery** also supports keyboard navigation.

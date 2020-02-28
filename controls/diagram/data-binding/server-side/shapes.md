@@ -20,7 +20,7 @@ Similar to setting a data source for an ASP.NET control, you should either use t
 
 The data source should have columns for each of the diagram fields that you want to specify. For example, if you want to pull the width of the shape from the data source, this will require a separate column that contains the widths of each shape.
 
-The columns of the data source are attached to their corresponding data fields in the shapes via the properties with the structure **Data[field name]Field** in **RadDiagram > BindingSettings > ShapeSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/ShapeSettings).
+The columns of the data source are attached to their corresponding data fields in the shapes via the properties with the structure **Data[field name]Field** in **RadDiagram > BindingSettings > ShapeSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/ShapeSettings).
 
 >caption **Example 1**: Data binding shapes in a diagram to a collection of custom objects.
 
@@ -110,4 +110,4 @@ End Function
 
 # See Also
 
- * [RadDiagram Server-Side API](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/ShapeSettings)
+ * [RadDiagram Server-Side API](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/ShapeSettings)

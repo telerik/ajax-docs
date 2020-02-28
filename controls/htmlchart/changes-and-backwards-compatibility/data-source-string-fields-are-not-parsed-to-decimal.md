@@ -22,7 +22,7 @@ As of **Q2 2015 SP1**, **RadHtmlChart** doesn't try to automatically parse strin
 
 If the chart's category x-axis refers to a string type column from the data source that can be parsed to a decimal format, it will be handled as a string and the labels displayed will not be parsed.
 
-The old ([incorrect](http://feedback.telerik.com/Project/108/Feedback/Details/122627)) and the new behavior of the control are illustrated with the code from **Example 1** and you can see the difference in **Figure 1**.
+The old ([incorrect](https://feedback.telerik.com/Project/108/Feedback/Details/122627)) and the new behavior of the control are illustrated with the code from **Example 1** and you can see the difference in **Figure 1**.
 
 >caption Figure 1: String columns from the data source that can be parsed to a decimal format will be displayed as strings.
 

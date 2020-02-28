@@ -14,7 +14,7 @@ position: 6
 
 ##
 
-[This example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndSplitterResizing/DefaultCS.aspx?product=grid) shows how you can resize RadGrid when resizing its splitter container. The RadSplitter control exposes **OnClientPaneResized** client event which can be handled to initiate an AJAX request and then all you need to do is calculate and set the new value of the **PageSize** property on the server.
+[This example](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndSplitterResizing/DefaultCS.aspx?product=grid) shows how you can resize RadGrid when resizing its splitter container. The RadSplitter control exposes **OnClientPaneResized** client event which can be handled to initiate an AJAX request and then all you need to do is calculate and set the new value of the **PageSize** property on the server.
 
 Additionally, to make the grid stretch inside the corresponding pane on horizontal resize, simply set the Width property of RadGrid to 100%.
 

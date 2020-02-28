@@ -39,4 +39,4 @@ When you change **RadImageGallery** **RenderMode** to **Mobile** or **Auto** the
 
  * [Render Modes]({%slug imagegallery/mobile-support/render-modes%})
  
- * [Image Gallery Mobile Demo](http://demos.telerik.com/aspnet-ajax/image-gallery/mobile-examples/overview/default.aspx?name=Overview)
+ * [Image Gallery Mobile Demo](https://demos.telerik.com/aspnet-ajax/image-gallery/mobile-examples/overview/default.aspx?name=Overview)

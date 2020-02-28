@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ImageGalleryClientSettings
 # Telerik.Web.UI.ImageGalleryClientSettings
 
 RadImageGallery ClientSettings class
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/accessibility-and-internationalization/keyboard-support Keyboard Supporttopic for more information
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/accessibility-and-internationalization/keyboard-support Keyboard Supporttopic for more information
 
 ## Inheritance Hierarchy
 

@@ -63,7 +63,7 @@ You can also set the **SelectedItemStyle** property in the code-behind:
 ````
 
 
-For a live example demonstrating client-side selection, see [Client-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
+For a live example demonstrating client-side selection, see [Client-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
 
 ## See Also
 

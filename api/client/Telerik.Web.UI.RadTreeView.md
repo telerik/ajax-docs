@@ -83,7 +83,7 @@ Writes the changes to the TreeView that were made since a previous call to track
 
 ### findNodeByAbsoluteUrl
 
-Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter. Note that the parameter should ends with "/" like: var item = sender.findNodeByAbsoluteUrl("http://www.test.com/");
+Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter. Note that the parameter should ends with "/" like: var item = sender.findNodeByAbsoluteUrl("https://www.test.com/");
 
 #### Parameters
 

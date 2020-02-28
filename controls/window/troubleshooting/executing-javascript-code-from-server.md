@@ -53,7 +53,7 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
-As an alternative, you could use Literal, [Page.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerstartupscript.aspx), [Page.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerclientscriptblock.aspx) or if you are using ASP.NET 2.x - [ClientScriptManager.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerstartupscript.aspx) / [ClientScriptManager.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerclientscriptblock.aspx) methods.
+As an alternative, you could use Literal, [Page.RegisterStartupScript](https://msdn.microsoft.com/en-us/library/system.web.ui.page.registerstartupscript.aspx), [Page.RegisterClientScriptBlock](https://msdn.microsoft.com/en-us/library/system.web.ui.page.registerclientscriptblock.aspx) or if you are using ASP.NET 2.x - [ClientScriptManager.RegisterStartupScript](https://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerstartupscript.aspx) / [ClientScriptManager.RegisterClientScriptBlock](https://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerclientscriptblock.aspx) methods.
 
 ## When using ASP.NET AJAX
 
@@ -99,7 +99,7 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
->tip If you are working with Ajax requests however, it is better to use the asp:Scriptmanager’s [RegisterStartupScript()](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.registerstartupscript.aspx) method as shown below:
+>tip If you are working with Ajax requests however, it is better to use the asp:Scriptmanager’s [RegisterStartupScript()](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.registerstartupscript.aspx) method as shown below:
 
 ````ASP.NET
 <form id="form4" runat="server">  
@@ -132,11 +132,11 @@ End Sub
 
 More information on this subject can also be found in these KB articles (they are about RadWindow but use general approaches that can be applied to different scenarios):
 
-* [Calling radalert from code-behind (all versions of RadWindow)](http://www.telerik.com/support/kb/aspnet-ajax/window/calling-radalert-from-codebehind.aspx)
+* [Calling radalert from code-behind (all versions of RadWindow)](https://www.telerik.com/support/kb/aspnet-ajax/window/calling-radalert-from-codebehind.aspx)
 
-* [RadWindow that postbacks and manipulates opener page on its reload](http://www.telerik.com/support/kb/aspnet-ajax/window/radwindow-that-postbacks-and-manipulates-opener-page-on-its-reload.aspx)
+* [RadWindow that postbacks and manipulates opener page on its reload](https://www.telerik.com/support/kb/aspnet-ajax/window/radwindow-that-postbacks-and-manipulates-opener-page-on-its-reload.aspx)
 
-And in the following MSDN article: [Using JavaScript Along with ASP.NET 2.0](http://msdn.microsoft.com/en-us/library/aa479390.aspx) (by Bill Evjen)
+And in the following MSDN article: [Using JavaScript Along with ASP.NET 2.0](https://msdn.microsoft.com/en-us/library/aa479390.aspx) (by Bill Evjen)
 
 ## In conclusion
 

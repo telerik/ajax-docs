@@ -10,7 +10,7 @@ position: 0
 
 # Chart (HTML5) Overview
 
-**RadHtmlChart** for ASP.NET AJAX is a control powered by the Kendo UI Data Visualization Chart widget. The control provides a powerful charting mechanism based on [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) when shown in modern browsers like Firefox, Chrome, IE9+, Opera and [VML](http://en.wikipedia.org/wiki/Vector_Markup_Language) fallback for older browsers like IE8 and below. It was added to the Telerik® UI for ASP.NET AJAX suite in Q2 2012. **RadHtmlChart** is the successor to **RadChart**.
+**RadHtmlChart** for ASP.NET AJAX is a control powered by the Kendo UI Data Visualization Chart widget. The control provides a powerful charting mechanism based on [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) when shown in modern browsers like Firefox, Chrome, IE9+, Opera and [VML](https://en.wikipedia.org/wiki/Vector_Markup_Language) fallback for older browsers like IE8 and below. It was added to the Telerik® UI for ASP.NET AJAX suite in Q2 2012. **RadHtmlChart** is the successor to **RadChart**.
 
 This article provides a brief overview of the main features of the **RadHtmlChart** control.
 
@@ -68,7 +68,7 @@ This article provides a brief overview of the main features of the **RadHtmlChar
 
 * Support for various **server datasources**—Out of the box compatibility with the major declarative data sources([SqlDataSource]({%slug htmlchart/data-binding/sqldatasource%}), [LinqDataSource]({%slug htmlchart/data-binding/linqdatasource%}),[EntityDataSource]({%slug htmlchart/data-binding/entitydatasource%}), any **IEnumerable collection**, etc.).
 
-* [Client-side databinding](http://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/clientsidedatabinding/defaultcs.aspx)—Use a JSON string or an array of JSON objects to set a new data source for the chart.
+* [Client-side databinding](https://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/clientsidedatabinding/defaultcs.aspx)—Use a JSON string or an array of JSON objects to set a new data source for the chart.
 
 * [DateTime support]({%slug htmlchart/functionality/axes/date-axis%})—The chart can be bound to a data source that contains DateTime objects or strings. Dates in labels and tooltips can be formatted.
 
@@ -88,7 +88,7 @@ This article provides a brief overview of the main features of the **RadHtmlChar
 
 # See Also
 
- * [RadHtmlChart Online Demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)
+ * [RadHtmlChart Online Demos](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)
 
  * [Using the Visual Designer to configure a datasource and series]({%slug htmlchart/design-time/configuration-wizard%})
 

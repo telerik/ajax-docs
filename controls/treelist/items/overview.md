@@ -50,7 +50,7 @@ You can read more about the TreeListPagerItem API in the [Basic Paging]({%slug t
 
 RadTreeList allows you to specify a **DetailTemplate** that will be rendered as a **TreeListDetailTemplateItem** under each data item, thus allowing you to design an extra row for displaying its data. Note that the detail items are **not** counted as separate data items when the page count is calculated.
 
-For more information about the DetailTemplate of RadTreeList, you can read the respective [ help topic]({%slug treelist/appearance-and-styling/detail-template%}) and view the [ Detail Template online demo. ](http://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx)![TreeListDetailTemplateItem](images/treelist_items_detailitem.png)
+For more information about the DetailTemplate of RadTreeList, you can read the respective [ help topic]({%slug treelist/appearance-and-styling/detail-template%}) and view the [ Detail Template online demo. ](https://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx)![TreeListDetailTemplateItem](images/treelist_items_detailitem.png)
 
 ## TreeListNoRecordsItem
 

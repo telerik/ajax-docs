@@ -28,7 +28,7 @@ We will subscribe to the [OnClientItemClicking]({%slug menu/client-side-programm
 <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" OnClientItemClicking="OnClientItemClickingHandler"
     runat="server" OnItemClick="RadMenu1_ItemClick">
     <Items>
-        <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1" NavigateUrl="http://www.telerik.com">
+        <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1" NavigateUrl="https://www.telerik.com">
         </telerik:RadMenuItem>
         <telerik:RadMenuItem runat="server" Text="Root RadMenuItem2">
         </telerik:RadMenuItem>
@@ -68,4 +68,4 @@ function confirmCallbackFunction(args) {
 
 
 
-A demo project can be found here: [(ID#983) Using RadPrompt and RadConfirm with Telerik navigational controls](http://www.telerik.com/support/kb/article/b454K-hmd-b454T-cag-b454c-cag.aspx)
+A demo project can be found here: [(ID#983) Using RadPrompt and RadConfirm with Telerik navigational controls](https://www.telerik.com/support/kb/article/b454K-hmd-b454T-cag-b454c-cag.aspx)

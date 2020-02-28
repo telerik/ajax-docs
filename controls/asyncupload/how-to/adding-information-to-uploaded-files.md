@@ -88,4 +88,4 @@ End Sub
 
 # See Also
 
- * [Online demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/additionalfields/defaultcs.aspx?product=asyncupload)
+ * [Online demo](https://demos.telerik.com/aspnet-ajax/upload/examples/async/additionalfields/defaultcs.aspx?product=asyncupload)

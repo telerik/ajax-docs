@@ -141,7 +141,7 @@ Restart Visual Studio between the reload one of the two projects
 
 **Reasons**: We are required to refer the **Microsoft.AnalysisServices.AdomdClient** assembly with a specific version - **Version=10.0.0.0**. If this assembly is not referenced by the solution or is not present in the GAC of the machine, Visual Studio cannot find it and it crashes. The version we require comes with Microsoft SQL Server 2008 R2 SP2 Feature Pack, but the Microsoft SQL Server 2012 Feature Pack will install Microsoft.AnalysisServices.AdomdClient assembly with **Version=11.0.0.0** and newer versions are also available.
 
-**Solution**: Ensure that the machine has  **Microsoft.AnalysisServices.AdomdClient Version=10.0.0.0** on it. To do that, **install** the free **Microsoft SQL Server 2008 R2 SP2 Feature Pack** from [http://www.microsoft.com/en-us/download/details.aspx?id=30440](http://www.microsoft.com/en-us/download/details.aspx?id=30440). You only need the following components from the available list (make sure to select the correct processor architecture for your machine):
+**Solution**: Ensure that the machine has  **Microsoft.AnalysisServices.AdomdClient Version=10.0.0.0** on it. To do that, **install** the free **Microsoft SQL Server 2008 R2 SP2 Feature Pack** from [https://www.microsoft.com/en-us/download/details.aspx?id=30440](https://www.microsoft.com/en-us/download/details.aspx?id=30440). You only need the following components from the available list (make sure to select the correct processor architecture for your machine):
 
 * **SQLSERVER2008_ASADOMD10**
 

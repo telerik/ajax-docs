@@ -21,7 +21,7 @@ to the following:
 
 ![RadMenu Skins](images/menu_rootitems.png)
 
-See [Understanding the Skin CSS File](http://www.telerik.com/help/aspnet-ajax/menu-appearance-css-file.html) for more information on specific CSS file properties.
+See [Understanding the Skin CSS File](https://www.telerik.com/help/aspnet-ajax/menu-appearance-css-file.html) for more information on specific CSS file properties.
 
 ````HTML
 <div id="Div1" class="RadMenu RadMenu_Green ">

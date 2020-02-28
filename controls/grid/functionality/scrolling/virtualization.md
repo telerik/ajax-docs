@@ -53,7 +53,7 @@ Basically the virtualization functionality greatly improves the performance of t
 ## Internal Logic and Use Cases
 
 
-The Virtualization functionality is dedicated only for View mode of the grid. It [drastically improves performance](http://www.telerik.com/blogs/how-to-load-1m-records-in-telerik-s-asp.net-grid-without-compromising-performance) when checking a large volume of records.
+The Virtualization functionality is dedicated only for View mode of the grid. It [drastically improves performance](https://www.telerik.com/blogs/how-to-load-1m-records-in-telerik-s-asp.net-grid-without-compromising-performance) when checking a large volume of records.
 
 However, its also has its [limitations]({%slug grid/functionality/scrolling/virtualization%}#limitations) due to its complex internal logic. 
 

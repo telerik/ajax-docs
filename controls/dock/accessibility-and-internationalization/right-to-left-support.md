@@ -35,4 +35,4 @@ html
 
 # See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/dock/examples/righttoleft/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/dock/examples/righttoleft/defaultcs.aspx)

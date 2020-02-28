@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadPivotGrid
 
 # Telerik.Web.UI.RadPivotGrid
 
-RadPivotGrid control. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/overview Overview topicfor more information about this control.
+RadPivotGrid control. See the https://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/overview Overview topicfor more information about this control.
 
 ## Inheritance Hierarchy
 

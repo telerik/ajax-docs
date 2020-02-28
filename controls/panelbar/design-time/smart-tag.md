@@ -24,7 +24,7 @@ Using the unbound **RadPanelBar** Smart Tag you can perform the following:
 
 ## RadPanelBar Tasks
 
-* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard [Windows Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard [Windows Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadPanelBar...** opens the [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%}), where you can create and configure statically-defined items for your menu.
 
@@ -58,9 +58,9 @@ Using the bound **RadPanelBar** Smart Tag you can perform the following:
 
 ## RadPanelBar Tasks
 
-* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
+* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
 
-* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+* **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 * **Refresh Schema** refreshes the schema for the currently bound data source component.
 

@@ -35,7 +35,7 @@ If an **external element** is used, it must have the following **CSS classes** a
 </div>
 ````
 
-You can obtain the skin name dynamically from the RadEditor object through its `get_skin()` JavaScript method, as shown in the [Editor - Docking Zones online demo](http://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx). 
+You can obtain the skin name dynamically from the RadEditor object through its `get_skin()` JavaScript method, as shown in the [Editor - Docking Zones online demo](https://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx). 
 
 Here are a few examples of setting a custom toolbar position:
 
@@ -82,6 +82,6 @@ Here are a few examples of setting a custom toolbar position:
 
 ## See Also
 
-* [Live demo: Editor - Docking Zones](http://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx)
+* [Live demo: Editor - Docking Zones](https://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx)
 
 

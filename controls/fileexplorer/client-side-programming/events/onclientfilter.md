@@ -16,7 +16,7 @@ To handle this event, simply write a JavaScript function that can be called when
 
 The client-side **OnClientFilter** event handler receives two arguments:
 
-1. Sender: The [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
+1. Sender: The [RadFileExplorer object](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
 
 1. Event arguments: An event arguments object of type Telerik.Web.UI.RadFileExplorerFilterEventArgs that exposes the following methods:
 

@@ -29,7 +29,7 @@ There are three ways to specify these shortcuts. The more common two are: in the
 	</Shortcuts>
 	<Windows>
 		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" VisibleOnPageLoad="true"
-			NavigateUrl="http://www.telerik.com">
+			NavigateUrl="https://www.telerik.com">
 			<Shortcuts>
 				<telerik:WindowShortcut CommandName="Maximize" Shortcut="Ctrl+F2" />
 				<telerik:WindowShortcut CommandName="Restore" Shortcut="Ctrl+F3" />
@@ -124,4 +124,4 @@ function GetRadWindow() {
 
 ## See Also
 
- * [See keyboard shortcuts in action online](http://demos.telerik.com/aspnet-ajax/window/examples/keyboardsupport/defaultvb.aspx)
+ * [See keyboard shortcuts in action online](https://demos.telerik.com/aspnet-ajax/window/examples/keyboardsupport/defaultvb.aspx)

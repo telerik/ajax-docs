@@ -35,4 +35,4 @@ This definition results in the following appearance:
 
 ![ComboBox RTL](images/combobox_rtl.png)
 
-See and online demo of the RTL support at [Right-to-Left Support](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/Rtl/DefaultCS.aspx).
+See and online demo of the RTL support at [Right-to-Left Support](https://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/Rtl/DefaultCS.aspx).

@@ -67,6 +67,6 @@ For altering and customizing the position and appearance of the Subtitles, you c
 
  * [Overview]({%slug mediaplayer/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/media-player/examples/functionality/subtitles/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/media-player/examples/functionality/subtitles/defaultcs.aspx)
 
  * [Getting Started]({%slug mediaplayer/getting-started%})

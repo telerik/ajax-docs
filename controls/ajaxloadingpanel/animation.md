@@ -95,4 +95,4 @@ The animation of **RadAjaxLoadingPanel** provides you with the ability to easily
 
  * [Show and Hide AjaxLoadingPanel explicitly]({%slug ajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly%})
 
- * [Demo: AjaxLoadingPanel Templates and Transparency](http://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/transparency/defaultcs.aspx)
+ * [Demo: AjaxLoadingPanel Templates and Transparency](https://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/transparency/defaultcs.aspx)

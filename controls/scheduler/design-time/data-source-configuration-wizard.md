@@ -24,7 +24,7 @@ The Data Source Configuration Wizard helps you bind a **RadScheduler** control t
 
 ## Data Source Configuration Wizard
 
-1. If you have already added a DataSource component to your page, you can select the DataSource from the **Select adatasource** drop-down list. If you do not have a DataSource component on the page, select<New data source...> from the list; the wizard will guide you through the steps of defining a new datasource. For more information on how to define a new data source, see [Data Source Configuration Wizard](http://msdn.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) on the Microsoft Web site. There are also examples in the [Getting Started]({%slug scheduler/getting-started%}) tutorial and in[Using The Data Source Property]({%slug scheduler/data-binding/using-the-data-source-property%}).
+1. If you have already added a DataSource component to your page, you can select the DataSource from the **Select adatasource** drop-down list. If you do not have a DataSource component on the page, select<New data source...> from the list; the wizard will guide you through the steps of defining a new datasource. For more information on how to define a new data source, see [Data Source Configuration Wizard](https://msdn.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) on the Microsoft Web site. There are also examples in the [Getting Started]({%slug scheduler/getting-started%}) tutorial and in[Using The Data Source Property]({%slug scheduler/data-binding/using-the-data-source-property%}).
 
 1. Once you have selected a data source, you must specify the fields that the **RadScheduler**uses to represent aspects of an appointment.
 

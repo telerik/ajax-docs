@@ -34,4 +34,4 @@ Two parameters are passed to the event handler:
 
 # See Also
 
- * [RadScheduler for ASP.NET AJAX Context Menu](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/ContextMenu/DefaultCS.aspx)
+ * [RadScheduler for ASP.NET AJAX Context Menu](https://demos.telerik.com/aspnet-ajax/Scheduler/Examples/ContextMenu/DefaultCS.aspx)

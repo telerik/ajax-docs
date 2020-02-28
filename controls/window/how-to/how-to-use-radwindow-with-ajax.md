@@ -10,7 +10,7 @@ position: 0
 
 # How to Use RadWindow with AJAX
 
-**RadWindow**, being a container control, often has to host a number of controls that need to perform AJAX requests or be updated via AJAX. This sometimes presents a difficulty, because the **RadWindow**'s content is moved in the DOM tree when it is created - i.e. the child controls are not in the same place in the generated HTML where they are in the ASPX markup. This may break the functionality of the update panels, as they use the innerHTML property to update their child controls, which have moved and are not available. The result from attempting to perform such an update may vary - from nothing to a server error that the update panel cannot be unregistered. For more information on the latter see [this KB article](http://www.telerik.com/support/kb/aspnet-ajax/window/cannot-unregister-updatepanel-with-id-updatepanelid-since-it-was-not-registered-with-the-scriptmanager.aspx).
+**RadWindow**, being a container control, often has to host a number of controls that need to perform AJAX requests or be updated via AJAX. This sometimes presents a difficulty, because the **RadWindow**'s content is moved in the DOM tree when it is created - i.e. the child controls are not in the same place in the generated HTML where they are in the ASPX markup. This may break the functionality of the update panels, as they use the innerHTML property to update their child controls, which have moved and are not available. The result from attempting to perform such an update may vary - from nothing to a server error that the update panel cannot be unregistered. For more information on the latter see [this KB article](https://www.telerik.com/support/kb/aspnet-ajax/window/cannot-unregister-updatepanel-with-id-updatepanelid-since-it-was-not-registered-with-the-scriptmanager.aspx).
 
 ## When using the NavigateUrl
 
@@ -20,7 +20,7 @@ The difficulty in this scenario is if you need to communicate with the parent pa
 
 ## When using the ContentTemplate
 
-When the **ContentTemplatе** of the **RadWindow** is used the controls inside are still a part of the main page while the **RadWindow** acts as any other [INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx). The only major difference is that it renders as a direct child of the form element when it is first shown so that it can pop up above the other elements without inheriting any restrictions and limitations. If you wrap the entire **RadWindow** in an update panel with the concept that the controls inside will perform an AJAX request or will be updated by one will no longer work, as they will not be inside the update panel actually.
+When the **ContentTemplatе** of the **RadWindow** is used the controls inside are still a part of the main page while the **RadWindow** acts as any other [INaming container](https://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx). The only major difference is that it renders as a direct child of the form element when it is first shown so that it can pop up above the other elements without inheriting any restrictions and limitations. If you wrap the entire **RadWindow** in an update panel with the concept that the controls inside will perform an AJAX request or will be updated by one will no longer work, as they will not be inside the update panel actually.
 
 What you should do in this scenario is to place the UpdatePanel (or **RadAjaxPanel**) inside the **ContentTemplate**. For example:
 
@@ -64,8 +64,8 @@ Generally placing the **RadWindow** in an update panel (or **RadAjaxPanel**, or 
 
 ## See Also
 
- * [The difference between the ContentTemplate and the NavigateUrl](http://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx)
+ * [The difference between the ContentTemplate and the NavigateUrl](https://demos.telerik.com/aspnet-ajax/window/examples/contenttemplatevsnavigateurl/defaultcs.aspx)
 
  * [Calling functions in windows]({%slug window/how-to/calling-functions-in-windows%})
 
- * [Cannot unregister UpdatePanel with ID 'UpdatePanelID' since it was not registered with the ScriptManager error](http://www.telerik.com/support/kb/aspnet-ajax/window/cannot-unregister-updatepanel-with-id-updatepanelid-since-it-was-not-registered-with-the-scriptmanager.aspx)
+ * [Cannot unregister UpdatePanel with ID 'UpdatePanelID' since it was not registered with the ScriptManager error](https://www.telerik.com/support/kb/aspnet-ajax/window/cannot-unregister-updatepanel-with-id-updatepanelid-since-it-was-not-registered-with-the-scriptmanager.aspx)

@@ -43,7 +43,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
 >
 
 
-For further details please refer to [this online demo](http://demos.telerik.com/aspnet-ajax//Grid/Examples/GeneralFeatures/Aggregates/DefaultCS.aspx) of the product. Find a code extraction below:
+For further details please refer to [this online demo](https://demos.telerik.com/aspnet-ajax//Grid/Examples/GeneralFeatures/Aggregates/DefaultCS.aspx) of the product. Find a code extraction below:
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" />

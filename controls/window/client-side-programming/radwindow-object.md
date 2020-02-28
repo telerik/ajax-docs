@@ -213,7 +213,7 @@ function openWindow()
 	//Get a reference to the window.
 	var oWnd = $find("<%= RadWindow1.ClientID %>");
 	//Set its NavigateUrl.
-	oWnd.setUrl("http://www.telerik.com");
+	oWnd.setUrl("https://www.telerik.com");
 	//Add the name of the function to be executed when RadWindow is closed.
 	oWnd.add_close(OnClientClose);
 	//Show the window.

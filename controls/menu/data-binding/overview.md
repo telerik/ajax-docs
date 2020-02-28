@@ -110,7 +110,7 @@ You can use [templates]({%slug menu/templates/overview%}) with a data-bound menu
 
 Note that you use Container.DataItem to access the menu item when it is in a bound mode. The menu item must already be bound before template binding can work.
 
-For live examples of data-binding **RadMenu**, see [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) and [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx).
+For live examples of data-binding **RadMenu**, see [Declarative Data Sources](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) and [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx).
 
 # See Also
 

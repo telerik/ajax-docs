@@ -68,7 +68,7 @@ Most browsers render documents a lot slower when operating in quirks mode. Try s
 
 ````XML
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ````
 
 

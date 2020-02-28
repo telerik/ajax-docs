@@ -12,4 +12,4 @@ position: 11
 
 
 
-Drag and drop does not work between **IFrames** (or Frames). There is no workaround. As a result, if you use **RadPane** (in **RadSplitter**) and set its **ContentUrl** property it will render an **IFrame** and you will not be able to drag and drop nodes on that pane. You can find a workaround in [this forum post](http://www.telerik.com/community/forums/aspnet-ajax/treeview/how-to-drag-and-drop-tree-node-onto-an-iframe.aspx).
+Drag and drop does not work between **IFrames** (or Frames). There is no workaround. As a result, if you use **RadPane** (in **RadSplitter**) and set its **ContentUrl** property it will render an **IFrame** and you will not be able to drag and drop nodes on that pane. You can find a workaround in [this forum post](https://www.telerik.com/community/forums/aspnet-ajax/treeview/how-to-drag-and-drop-tree-node-onto-an-iframe.aspx).

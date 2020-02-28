@@ -56,4 +56,4 @@ Example 1: Displays a message when request starts and ends.
 
  * [RadAjaxManager Object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%})
 
- * [Demo: RadAjaxManager Client-side API](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)
+ * [Demo: RadAjaxManager Client-side API](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)

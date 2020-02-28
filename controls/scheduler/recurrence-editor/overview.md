@@ -18,4 +18,4 @@ The **RadSchedulerRecurrenceEditor** is a lightweight control that encapsulates 
 
 ![Recurrence Editor](images/scheduler_recurrenceeditor.png)
 
-This control is used internally from RadScheduler and in the [Advanced Template customization example](http://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx).
+This control is used internally from RadScheduler and in the [Advanced Template customization example](https://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx).

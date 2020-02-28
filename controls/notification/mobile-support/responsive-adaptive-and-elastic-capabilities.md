@@ -54,7 +54,7 @@ Elements that use images or images sprites, however, cannot be increased in size
 
 You can set the **Width** and **Height** properties of a **RadNotification in percent**. Since the control is always pinned (i.e., fixed) in the viewport according to its **Position** property, we have enabled size settings in percent so it can take up the entire viewport width, for example, so you can create full width/height notification bars.The resizing logic is tied to the window.resize event, so if the browser size changes, the control will also change size.
 
-You can see this feature in the [Size in percent](http://demos.telerik.com/aspnet-ajax/notification/examples/sizeinpercent/defaultcs.aspx) online demo.
+You can see this feature in the [Size in percent](https://demos.telerik.com/aspnet-ajax/notification/examples/sizeinpercent/defaultcs.aspx) online demo.
 
 **Example 2:** create a full width notification bar at the top of the page:
 

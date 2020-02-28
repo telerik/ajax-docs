@@ -200,6 +200,6 @@ Currently, custom data calculations are not applicable for pivot Fields with def
 
  * [Overview]({%slug pivotgrid/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax-dev/pivotgrid/examples/calculations/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax-dev/pivotgrid/examples/calculations/defaultcs.aspx)
 
  * [Calculations]({%slug pivotgrid/totals/calculations%})

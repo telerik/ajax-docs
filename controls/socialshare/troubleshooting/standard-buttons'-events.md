@@ -23,7 +23,7 @@ Sometimes the **OnFacebookLike**, **OnFacebookUnLike** and **OnFacebookSend** ev
 Another addition that sometimes helps is the following namespaces to the <html> tag:
 
 ````HTML
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 ````
 
 
@@ -31,7 +31,7 @@ Another addition that sometimes helps is the following namespaces to the <html> 
 For Telerik UI versions prior to **Q3 2014** release you must use the following XML namespace:
 
 ````HTML
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
 	xmlns:og="http://opengraphprotocol.org/schema/">
 ````
 

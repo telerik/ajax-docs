@@ -69,4 +69,4 @@ End Sub
 
 ## See Also
 
- * [PersistenceFramework - Custom Settings](http://demos.telerik.com/aspnet-ajax/persistenceframework/examples/customsettings/defaultcs.aspx)
+ * [PersistenceFramework - Custom Settings](https://demos.telerik.com/aspnet-ajax/persistenceframework/examples/customsettings/defaultcs.aspx)

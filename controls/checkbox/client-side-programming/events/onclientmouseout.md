@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadCheckBox control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
 
@@ -25,7 +25,7 @@ The event handler receives two parameters:
 
 ## See Also
 
- * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
  * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
@@ -41,4 +41,4 @@ The event handler receives two parameters:
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
 
- * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

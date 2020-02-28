@@ -122,4 +122,4 @@ End Sub
 ````
 
 
-Similar approach is presented in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMailGrid/DefaultCS.aspx) of the product.
+Similar approach is presented in [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMailGrid/DefaultCS.aspx) of the product.

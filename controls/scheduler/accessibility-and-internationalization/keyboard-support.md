@@ -72,4 +72,4 @@ The available key combinations are listed below:
 
 * ALT + any number (0-9) - Go to day view.
 
-See live example at [Keyboard Support](http://demos.telerik.com/aspnet-ajax/scheduler/examples/keyboardsupport/defaultcs.aspx)
+See live example at [Keyboard Support](https://demos.telerik.com/aspnet-ajax/scheduler/examples/keyboardsupport/defaultcs.aspx)

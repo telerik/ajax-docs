@@ -10,7 +10,7 @@ position: 2
 
 # Dictionary Configurator
 
-The Dictionary Configurator tool is useful for creating new dictionary files and editing existing dictionaries. The Dictionary Configurator tool is attached as a web project in the following code-library project: [Dictionary Configuration](http://www.telerik.com/support/code-library/dictionary-configuration).
+The Dictionary Configurator tool is useful for creating new dictionary files and editing existing dictionaries. The Dictionary Configurator tool is attached as a web project in the following code-library project: [Dictionary Configuration](https://www.telerik.com/support/code-library/dictionary-configuration).
 
 Using the **Dictionary Configurator** tool you can:
 

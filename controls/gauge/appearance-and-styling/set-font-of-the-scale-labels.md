@@ -18,7 +18,7 @@ SizeInPixels Font1,Font2,Font3 (e.g. **Font="10px Times New Roman,Arial,serif"**
 
 * The property holds several font names which act as a "fallback" system. This means that if the browser does not support the first font, it will try the next one.
 
-* The last font can be of [generic-family type](http://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_font_families) (e.g. serif, sans-serif, cursive, etc.), so that the browser can pick a similar font in the generic family, in case the other one is unavailable.
+* The last font can be of [generic-family type](https://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_font_families) (e.g. serif, sans-serif, cursive, etc.), so that the browser can pick a similar font in the generic family, in case the other one is unavailable.
 
 The Font property can be set either in the markup, or in the code behind, for example:
 

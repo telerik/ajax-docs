@@ -65,7 +65,7 @@ position: 0
 
 	* Method - The name of the method name which will be invoked by the RadRotator control in order to load the HTML data
 
-	* UseHttpGet -[A boolean value that indicates whether to invoke the method by using HTTP GET](http://msdn.microsoft.com/en-us/library/system.web.script.services.scriptmethodattribute.usehttpget(VS.90).aspx)
+	* UseHttpGet -[A boolean value that indicates whether to invoke the method by using HTTP GET](https://msdn.microsoft.com/en-us/library/system.web.script.services.scriptmethodattribute.usehttpget(VS.90).aspx)
 
 **RadTicker for ASP.NET AJAX** offers the following properties:
 

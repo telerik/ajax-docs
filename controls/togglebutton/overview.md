@@ -39,7 +39,7 @@ The control can be easily styled by changing the **[Skin]({%slug togglebutton/ap
 
 ## See Also
 
- * [RadToggleButton Online Demos](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
+ * [RadToggleButton Online Demos](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
  
  * [RadToggleButton Getting Started]({%slug togglebutton/getting-started%})
  

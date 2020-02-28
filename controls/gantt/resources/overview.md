@@ -46,4 +46,4 @@ You can edit each Task’s assignments via a popup editor, which can be opened e
 
 # See Also
 
- * [Resources Online Demo](http://demos.telerik.com/aspnet-ajax-beta/gantt/examples/functionality/resources/defaultcs.aspx)
+ * [Resources Online Demo](https://demos.telerik.com/aspnet-ajax-beta/gantt/examples/functionality/resources/defaultcs.aspx)

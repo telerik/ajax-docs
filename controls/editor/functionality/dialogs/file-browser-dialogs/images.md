@@ -110,16 +110,16 @@ The **Image manager** offers a new feature named **Image Editor**, which provide
 
  * [Enforce Roles]({%slug editor/functionality/dialogs/examples/enforce-roles%})
 
- * [File Managers](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
+ * [File Managers](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
 
- * [Adding Custom Dialogs](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Adding Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
 
  * [Upload Large Files (maxRequestLength)]({%slug editor/functionality/dialogs/examples/upload-large-files-(maxrequestlength)%})
 
  * [Upload Images to the Server]({%slug editor/functionality/dialogs/examples/upload-images-to-the-server%})
 
- * [Uploading images and files to a Shared Drive](http://www.telerik.com/support/kb/aspnet-ajax/editor/uploading-images-and-files-to-a-shared-drive.aspx)
+ * [Uploading images and files to a Shared Drive](https://www.telerik.com/support/kb/aspnet-ajax/editor/uploading-images-and-files-to-a-shared-drive.aspx)
 
- * [Using the Image and Document managers outside RadEditor](http://www.telerik.com/support/kb/aspnet-ajax/editor/using-the-image-and-document-managers-outside-radeditor.aspx)
+ * [Using the Image and Document managers outside RadEditor](https://www.telerik.com/support/kb/aspnet-ajax/editor/using-the-image-and-document-managers-outside-radeditor.aspx)
 
  * [Content Filters]({%slug editor/managing-content/content-filters%})

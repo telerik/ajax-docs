@@ -10,7 +10,7 @@ position: 8
 
 # OnClientItemsRequesting
 
-The **ItemsRequesting** event is related to the [Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx) functionality of the RadRotator. It is fired before the items of the control are loaded, i.e. request to the server is still not sent.
+The **ItemsRequesting** event is related to the [Load On Demand](https://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx) functionality of the RadRotator. It is fired before the items of the control are loaded, i.e. request to the server is still not sent.
 
 The event handler receives two parameters:
 

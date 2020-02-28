@@ -61,4 +61,4 @@ The XML file in Example 2 is used in the data source **XmlDataSource1**:
 
 ## See Also
 
- * [RadHtmlChart XMLDataSource Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtoxml/defaultcs.aspx)
+ * [RadHtmlChart XMLDataSource Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtoxml/defaultcs.aspx)

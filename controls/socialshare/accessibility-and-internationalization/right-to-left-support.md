@@ -24,7 +24,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx" Skin="Sunset">
+<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="https://www.telerik.com/products/aspnet-ajax.aspx" Skin="Sunset">
     <MainButtons>
         <telerik:RadSocialButton SocialNetType="ShareOnFacebook" />
         <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />
@@ -41,4 +41,4 @@ html
 
 # See Also
 
- * [Live demo: RadSocialShare RTL Support](http://demos.telerik.com/aspnet-ajax/socialshare/examples/righttoleft/defaultcs.aspx)
+ * [Live demo: RadSocialShare RTL Support](https://demos.telerik.com/aspnet-ajax/socialshare/examples/righttoleft/defaultcs.aspx)

@@ -54,9 +54,9 @@ The applied settings to RadODataSource and RadComboBox, for a successful data bi
 
 * The type of the responce data is specified within the RadODataDataSource control, in its Read section by the**DataType** property.The options to choose from are listed below.
 
-	* [JSONP](http://en.wikipedia.org/wiki/JSONP)
+	* [JSONP](https://en.wikipedia.org/wiki/JSONP)
 
-	* [XML](http://en.wikipedia.org/wiki/XML)
+	* [XML](https://en.wikipedia.org/wiki/XML)
 
 >note RadComboBox requires its EnableLoadOnDemand property to be set to True in order to be bound to an OData service.
 >
@@ -66,4 +66,4 @@ More information regarding the Entity Data Model (EDM) can be found [here](http:
 
 # See Also
 
- * [Online demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/odata/defaultcs.aspx)
+ * [Online demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/odata/defaultcs.aspx)

@@ -132,7 +132,7 @@ In order to configure a **RadButton** with custom toggle states you must do the 
 
 In the code above, the **PrimaryIconCssClass**property is used to specify a three-state (3-state) checkbox, and the Text property to have different text depending on the currently selected state.
 
-To take a closer look at **RadButton**'s "toggle button" functionality please visit our [online demos](http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx).
+To take a closer look at **RadButton**'s "toggle button" functionality please visit our [online demos](https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx).
 
 
 
@@ -140,7 +140,7 @@ To take a closer look at **RadButton**'s "toggle button" functionality please vi
 
 ## See Also
 
- * [Button - Toggle Button Online Demo](http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx)
+ * [Button - Toggle Button Online Demo](https://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx)
 
  * [Button Types Overview]({%slug button/button-types/overview%})
 

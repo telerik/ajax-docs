@@ -102,7 +102,7 @@ The **EmptyItemTemplate** defines a layout for the non-existing items of a group
 
 ## See Also
 
-* [Live Demo: RadListView UI Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/grouping/defaultcs.aspx)
+* [Live Demo: RadListView UI Grouping](https://demos.telerik.com/aspnet-ajax/listview/examples/grouping/defaultcs.aspx)
 
 * [Data Grouping in RadListView]({%slug listview/fuctionality/grouping/data-grouping%})
 

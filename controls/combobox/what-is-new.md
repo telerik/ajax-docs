@@ -14,7 +14,7 @@ position: 3
 
 ## Q2 2010 release
 
-Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## What's New in RadComboBox for ASP.NET AJAX Q1 SP1 2010 (Version Number 2010.1.415)
 
@@ -34,7 +34,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * New property: [Label]({%slug combobox/appearance-and-styling/adding-a-label%})
 
-* [Added javascript intellisense under VS 2008/ VS 2010](http://blogs.telerik.com/aspnet-ajax/posts/10-03-01/radcontrols-for-asp-net-ajax-q1-2010-release-comes-with-native-net-4-builds-and-javascript-intellisense-in-vs-2008-2010.aspx)
+* [Added javascript intellisense under VS 2008/ VS 2010](https://blogs.telerik.com/aspnet-ajax/posts/10-03-01/radcontrols-for-asp-net-ajax-q1-2010-release-comes-with-native-net-4-builds-and-javascript-intellisense-in-vs-2008-2010.aspx)
 
 * RadComboBox now escapes single quotes before doing a Load On Demand request
 
@@ -56,7 +56,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * New Skin - [Sitefinity]({%slug combobox/appearance-and-styling/skins%}).
 
-* [Performance optimizations on the server](http://blogs.telerik.com/aspnet-ajax/posts/09-10-15/radcontrols-for-asp-net-ajax---now-with-more-speed.aspx)
+* [Performance optimizations on the server](https://blogs.telerik.com/aspnet-ajax/posts/09-10-15/radcontrols-for-asp-net-ajax---now-with-more-speed.aspx)
 
 * Support for Visual Studio 2010 Beta 2
 
@@ -116,7 +116,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Added new server side methods **FindItemByText**, **FindItemByValue**, **FindItemIndexByText**, **FindItemIndexByValue** which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](https://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
 * Added protected virtual methods for server-side events – **OnItemDataBound**, **OnTextChanged**, **OnSelectedIndexChanged**.
 
@@ -150,7 +150,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Added [get_visibleItems, setAllItemsVisible, get_changeText, set_changeText, get_enableTextSelection and set_enableTextSelection]({%slug combobox/client-side-programming/objects/radcombobox-object%}) client-side methods of RadComboBox object.
 
-* **Gray** skin has been added. The **Mac** skin has been removed from the Telerik.Web.UI assembly. More information on Q2 Skinning is available [here](http://blogs.telerik.com/ZhivkoDimitrov/Posts/08-06-27/Q2_Asp_Net_skinning.aspx?ReturnURL=%2fZhivkoDimitrov%2fPosts.aspx).
+* **Gray** skin has been added. The **Mac** skin has been removed from the Telerik.Web.UI assembly. More information on Q2 Skinning is available [here](https://blogs.telerik.com/ZhivkoDimitrov/Posts/08-06-27/Q2_Asp_Net_skinning.aspx?ReturnURL=%2fZhivkoDimitrov%2fPosts.aspx).
 
 ## What's New in RadComboBox for ASP.NET AJAX Q1 SP2 (Version Number 2008.1.619)
 

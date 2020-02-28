@@ -26,4 +26,4 @@ position: 2
 
 # See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/colorpicker/examples/righttoleft/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/colorpicker/examples/righttoleft/defaultcs.aspx)

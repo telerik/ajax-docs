@@ -54,7 +54,7 @@ Bind to **XmlDataSource**
 		</div>
 	</ItemTemplate>
 </telerik:RadRotator>
-<asp:XmlDataSource ID="XmlDataSource1" XPath="rss/channel/item" runat="server" DataFile="http://www.telerik.com/support.rss">
+<asp:XmlDataSource ID="XmlDataSource1" XPath="rss/channel/item" runat="server" DataFile="https://www.telerik.com/support.rss">
 </asp:XmlDataSource>
 ````
 

@@ -37,4 +37,4 @@ RadFilter ARIA attributes are **lower case**. They are shown in the table below.
 
 # See Also
 
- * [WAI-ARIA basic information](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)

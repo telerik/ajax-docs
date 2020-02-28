@@ -27,4 +27,4 @@ The event order when the **Toggle Handle** is clicked or touched is the same as 
 
 # See Also
 
- * [Online demo](http://demos.telerik.com/aspnet-ajax-beta/menu/examples/functionality/togglehandle/defaultcs.aspx)
+ * [Online demo](https://demos.telerik.com/aspnet-ajax-beta/menu/examples/functionality/togglehandle/defaultcs.aspx)

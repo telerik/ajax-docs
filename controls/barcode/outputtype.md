@@ -64,7 +64,7 @@ In the SVG_VML, the different **LineWidth** will not result in any difference du
 
 ````ASPNET
 <span style="display: inline-block; height: 150px; width: 300px;" class="RadBarcode"> 
-    <svg height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"> 
+    <svg height="100%" width="100%" version="1.1" xmlns="https://www.w3.org/2000/svg"> 
         <rect style="fill: rgb(0,0,0)" height="90%" width="2.22%" y="0%" x="0%" /> 
         <rect style="fill: rgb(0,0,0)" height="90%" width="1.11%" y="0%" x="3.33%" /> 
         ..... 

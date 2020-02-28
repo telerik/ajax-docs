@@ -290,4 +290,4 @@ The result can be seen in the Range Grouping demo linked in the Related Resource
 
 # See Also
 
- * [Range Grouping Demo](http://demos.telerik.com/aspnet-ajax/pivotgrid/examples/rangegrouping/defaultcs.aspx)
+ * [Range Grouping Demo](https://demos.telerik.com/aspnet-ajax/pivotgrid/examples/rangegrouping/defaultcs.aspx)

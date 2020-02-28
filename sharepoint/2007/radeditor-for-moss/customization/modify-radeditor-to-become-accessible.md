@@ -16,7 +16,7 @@ To achieve this, please follow the steps below:
 
 	>note The 5.x.x.x number in the path is the version of the MOSS RadEditor that you have.
 
-1. Copy the **EditorDialogs** folder from [this link](http://www.telerik.com/documents/EditorDialogs.zip) to the **Resources** folder
+1. Copy the **EditorDialogs** folder from [this link](https://www.telerik.com/documents/EditorDialogs.zip) to the **Resources** folder
 
 1. Open the **ConfigFile.xml**file (if you are using RadEditor in Web Part scenario) and/or **ListConfigFile.xml** (for List scenario) from the Resources folder and add the following properties:
 
@@ -75,6 +75,6 @@ To achieve this, please follow the steps below:
 		</root>
 
 
-1. Download the zipped **rnib.js**file from [this link](http://www.telerik.com/documents/rnib.zip) and append its content at the end of the **MOSSEditorTools.js** file in the **Resources** folder.
+1. Download the zipped **rnib.js**file from [this link](https://www.telerik.com/documents/rnib.zip) and append its content at the end of the **MOSSEditorTools.js** file in the **Resources** folder.
 
 1. Test RadEditor - try the keyboard shortcut Ctrl+H to open the help menu

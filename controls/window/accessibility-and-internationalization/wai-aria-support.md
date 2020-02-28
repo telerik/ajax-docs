@@ -12,7 +12,7 @@ position: 3
 
 @[template](/_templates/common/wai-aria-templates.md#intro-two-controls "control1: RadWindow, control2: RadWindowManager")
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadWindow** and **RadWindowManager** offer WAI-ARIA support.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadWindow** and **RadWindowManager** offer WAI-ARIA support.
 
 In order to enable the WAI-ARIA support, set the **RadWindow** / **RadWindowManager** control's **EnableAriaSupport** property to **true** as shown in the example below.
 
@@ -33,7 +33,7 @@ RadWindowManager1.EnableAriaSupport = true
 
 By enabling the WAI-ARIA support, **RadWindow** and **RadWindowManager** will automatically set the `aria-labelledby` attribute to the id of the dialog's title element. In order to facilitate the WAI-ARIA support, you should configure the dialog with **Title**.    
 
-Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label), [aria-labelledby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-labelledby), and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes by using the **Label**, **LabelledBy** and **DescribedBy** properties in the **AriaSettings** tag.
+Optionally, you can adjust the [aria-label](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-label), [aria-labelledby](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-labelledby), and [aria-describedby](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes by using the **Label**, **LabelledBy** and **DescribedBy** properties in the **AriaSettings** tag.
 
 >note **RadWindowManager** will populate the same aria-related settings to all managed dialogs. If a certain **RadWindow** needs different settings, you should further configure them by using its inner **AriaSettings** tag, and thus, to override the ones derived from **RadWindowManager** (**Example 3**). 
 
@@ -113,6 +113,6 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 
 ## See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)
 
- * [Demo: RadWindow WAI-ARIA Support](http://demos.telerik.com/aspnet-ajax/window/examples/waiariasupport/defaultcs.aspx)
+ * [Demo: RadWindow WAI-ARIA Support](https://demos.telerik.com/aspnet-ajax/window/examples/waiariasupport/defaultcs.aspx)

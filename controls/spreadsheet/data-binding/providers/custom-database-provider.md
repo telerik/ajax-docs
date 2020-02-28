@@ -118,7 +118,7 @@ JavaScript keeps the dates as interegers and in the save method, the dates would
 		    End Sub
 
 
->note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with **Custom Database Provider** in this Code Library: [Custom Database Provider for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/spreadsheetdatabaseprovider).
+>note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with **Custom Database Provider** in this Code Library: [Custom Database Provider for RadSpreadsheet Code Library](https://www.telerik.com/support/code-library/spreadsheetdatabaseprovider).
 
 # See Also
 

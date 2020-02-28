@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadLinkButton control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs).
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs).
 
 >caption Example 1: Handling OnClientMouseOver event in RadLinkButton.
 
@@ -26,14 +26,14 @@ The event handler receives two parameters:
 		window.alert("You have moved mouse over the button");
 	}
 </script>
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Navigate to Page" OnClientMouseOver="mouseOver" NavigateUrl="http://www.telerik.com">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Navigate to Page" OnClientMouseOver="mouseOver" NavigateUrl="https://www.telerik.com">
 </telerik:RadLinkButton>
 ````
 
 # See Also
 
  * [RadLinkButton Object]({%slug linkbutton/client-side-programming/linkbutton-object%})
- * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
  * [OnClientClicking]({%slug linkbutton/client-side-programming/events/onclientclicking%})
  * [OnClientClicked]({%slug linkbutton/client-side-programming/events/onclientclicked%})
  * [OnClientMouseOut]({%slug linkbutton/client-side-programming/events/onclientmouseout%})

@@ -50,7 +50,7 @@ This tutorial will walk you through creating a Web page that contains a __RadSpl
 
 	![](images/splitter-addapane.png)
 
-1. In the properties pane, set the __ContentUrl__ property to "http://www.telerik.com". This tells the pane to load its content from an external source (the Telerik Web site) :
+1. In the properties pane, set the __ContentUrl__ property to "https://www.telerik.com". This tells the pane to load its content from an external source (the Telerik Web site) :
 
 	![](images/splitter-contenturl.png)
 

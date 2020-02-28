@@ -20,7 +20,7 @@ It also offers [Keyboard support]({%slug pushbutton/accessibility-and-internatio
 
  * [Section 508](http://www.section508.gov/)
 
- * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
+ * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG/)
 
  * [Right-to-Left Support]({%slug pushbutton/accessibility-and-internationalization/right-to-left-support%})
 

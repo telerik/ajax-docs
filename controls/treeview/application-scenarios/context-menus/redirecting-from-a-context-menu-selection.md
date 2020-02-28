@@ -32,7 +32,7 @@ The example below gets the Context Menu Item and sets the window url.
 ````JavaScript
 function clientContextMenuClicking(sender, eventArgs) {
 	var menuItem = eventArgs.get_menuItem();
-	window.location.href = "http://en.wikipedia.org/wiki/" + menuItem.get_text();
+	window.location.href = "https://en.wikipedia.org/wiki/" + menuItem.get_text();
 }
 ````
 

@@ -71,4 +71,4 @@ In contrast, we have designed the Silverlight upload in a different way.The Silv
 
  * [RadAsyncUpload Overview]({%slug asyncupload/overview%})
 
- * [RadAsyncUpload Overview Demo](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx?product=asyncupload)
+ * [RadAsyncUpload Overview Demo](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx?product=asyncupload)

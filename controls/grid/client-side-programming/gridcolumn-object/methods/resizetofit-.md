@@ -43,6 +43,6 @@ This method resizes the column to fit the widest cell's content without wrapping
 
  * [Overview]({%slug grid/overview%})
 
- * [Multi-Column Headers Live Demo](http://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx)
+ * [Multi-Column Headers Live Demo](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx)
 
- * [Column Resize/Reorder Live Demo](http://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/column-row-resize-reorder/defaultcs.aspx)
+ * [Column Resize/Reorder Live Demo](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/column-row-resize-reorder/defaultcs.aspx)

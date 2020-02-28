@@ -46,7 +46,7 @@ In the code of the **NeedDataSource** handler you should prepare the data source
 >
 
 
-Alternatively, you can use AccessDataSource/SqlDataSource/ObjectDataSource/XmlDataSource controls to populate Telerik RadListView with data - this is another advanced data-binding mode of the control which allows automatic operations as well. See the the rest of the examples in this section as well as the Insert/Update/Delete section of the [online demos](http://demos.telerik.com/aspnet-ajax/listview) for more info.
+Alternatively, you can use AccessDataSource/SqlDataSource/ObjectDataSource/XmlDataSource controls to populate Telerik RadListView with data - this is another advanced data-binding mode of the control which allows automatic operations as well. See the the rest of the examples in this section as well as the Insert/Update/Delete section of the [online demos](https://demos.telerik.com/aspnet-ajax/listview) for more info.
 
 ## Simple binding
 
@@ -56,7 +56,7 @@ The NeedDataSource event is especially designed to facilitate the work of the de
 
 The correct approach when using simple data-binding is to call the DataBind() method on the first page load when !Page.IsPostBack and after handling some event (sort event for example). Keep in mind that if you choose simple data-binding, you will need to assign data-source and rebind the grid after each operation (paging, sorting, editing, etc.) - this copies exactly MS ListView behavior.
 
-The code snippets below are taken from the [corresponding online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/databinding/simplevsadvancedbinding/defaultcs.aspx) of the product and illustrate direct comparison between the simple and advanced binding regime of RadListView:
+The code snippets below are taken from the [corresponding online demo](https://demos.telerik.com/aspnet-ajax/listview/examples/databinding/simplevsadvancedbinding/defaultcs.aspx) of the product and illustrate direct comparison between the simple and advanced binding regime of RadListView:
 
 
 

@@ -12,7 +12,7 @@ position: 2
 
 ## 
 
-The Header and Footer templates let you specify custom header or footer that will appear at the top or, respectively, at the bottom of the listbox. You use the Header/Footer templates the same way as ItemTemplate or EmptyMessage template. Detailed instructions on how to use templates can be found [here](http://www.telerik.com/help/aspnet-ajax/listbox-templates-design-time.html).
+The Header and Footer templates let you specify custom header or footer that will appear at the top or, respectively, at the bottom of the listbox. You use the Header/Footer templates the same way as ItemTemplate or EmptyMessage template. Detailed instructions on how to use templates can be found [here](https://www.telerik.com/help/aspnet-ajax/listbox-templates-design-time.html).
 
 >note Note that Header and Footer templates of the RadListBox are available after 2010.2.7 version of the ASP.NET AJAX controls.
 >

@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.Collections.DateTimeCollection
 # Telerik.Web.UI.Calendar.Collections.DateTimeCollection
 
 Collection containing dates of type Telerik.Web.UI.RadDate .
-            Used in http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/date-selection Date Selectionfunctionality
+            Used in https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/date-selection Date Selectionfunctionality
 
 ## Inheritance Hierarchy
 

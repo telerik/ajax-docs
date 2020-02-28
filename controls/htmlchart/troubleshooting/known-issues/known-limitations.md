@@ -32,7 +32,7 @@ The text in the chart title, axes titles, series names and series labels is rend
 
 >tip The series tooltips are HTML elements and can, therefore, accept HTML strings, e.g., a `<br />` tag to create a new line.
 >
->Line breaking in labels is made with the **"\n"** line feed characters. See an example in the [HtmlChart - Multiline Labels](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx) demo.
+>Line breaking in labels is made with the **"\n"** line feed characters. See an example in the [HtmlChart - Multiline Labels](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx) demo.
 
 
 >tip You can use the [TextStyle]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) property to style chart title, chart legend, axes titles, axes labels and series labels with the options it provides
@@ -47,6 +47,6 @@ The text in the chart title, axes titles, series names and series labels is rend
 
  * [Using Multiple Custom Colors to Create Charts]({%slug htmlchart/how-to/using-multiple-custom-colors-to-create-charts%})
 
- * [HtmlChart - Multiline Labels](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx)
+ * [HtmlChart - Multiline Labels](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx)
 
- * [SVG Specification from W3C](http://www.w3.org/TR/SVG11/text.html#Introduction)
+ * [SVG Specification from W3C](https://www.w3.org/TR/SVG11/text.html#Introduction)

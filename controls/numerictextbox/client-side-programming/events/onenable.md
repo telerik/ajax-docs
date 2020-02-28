@@ -19,7 +19,7 @@ Two parameters are passed to the event handler:
 
 * **sender** is the input control.
 
-* **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
+* **eventArgs** is an instance of [Sys.EventArgs](https://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
 The following example uses the **OnEnable** event to disable another control when the input control is enabled:
 

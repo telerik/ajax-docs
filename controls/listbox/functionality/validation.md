@@ -37,4 +37,4 @@ If no item is selected, the validator fails and displays the error message:
 
 # See Also
 
- * [Validation Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/validation/defaultcs.aspx)
+ * [Validation Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/validation/defaultcs.aspx)

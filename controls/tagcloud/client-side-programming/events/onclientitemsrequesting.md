@@ -30,7 +30,7 @@ The event handler receives two arguments:
 |get_context||String|Returns the parameter which will be sent to the Web Service|
 |set_context|string||Sets the parameter which will be sent to the Web Service|
 
-In the TagCloud's [Web Service online example](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx) you can examine how this event can be used.
+In the TagCloud's [Web Service online example](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx) you can examine how this event can be used.
 
 # See Also
 
@@ -42,6 +42,6 @@ In the TagCloud's [Web Service online example](http://demos.telerik.com/aspnet-a
 
  * [OnClientItemsRequestFailed]({%slug tagcloud/client-side-programming/events/onclientitemsrequestfailed%})
 
- * [Demo - Web Service](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx)
+ * [Demo - Web Service](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx)
 
- * [Demo - WCF Service](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx)
+ * [Demo - WCF Service](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx)

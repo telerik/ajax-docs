@@ -14,7 +14,7 @@ position: 0
 
 There are three common techniques for updating a grid row when the user edits it using an [inplace editor]({%slug grid/data-editing/edit-mode/in-place%}) or [edit form]({%slug grid/data-editing/edit-mode/edit-forms%}):
 
-1. Enable [automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%}) for the grid: This approach requires no code on your part. For a live example illustrating this approach, see [Automatic Operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
+1. Enable [automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%}) for the grid: This approach requires no code on your part. For a live example illustrating this approach, see [Automatic Operations](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
 
 1. Use the table view's **ExtractValuesFromItem(dictonaryObject, editedItem)** method: For this approach, create an empty dictionary object and pass it as the first parameter of the **ExtractValuesFromItem** method. Pass the edited item as the second parameter. The **ExtractValuesFromItem** method fills the dictionary object with **key/value** pairs where each **key** is the **DataField** of an edited field column and the corresponding **value** is the new data entered by the user.
 

@@ -70,7 +70,7 @@ You can also use [Templates]({%slug treeview/templates/overview%}) with a data-b
 
 Note that you use **Container.DataItem** to access the **RadTreeView** Node when it is in a bound mode. The **RadTreeView** item must already be bound before template binding can work.
 
-For an live example of data-binding **RadTreeView**, see [DataBinding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).
+For an live example of data-binding **RadTreeView**, see [DataBinding](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).
 
 # See Also
 

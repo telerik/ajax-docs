@@ -12,7 +12,7 @@ position: 1
 
 @[template](/_templates/common/wai-aria-templates.md#intro "control: RadTabStrip") It is available as of **2015 Q3**. 
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **RadTabStrip**'s **EnableAriaSupport** property to **true** as shown in the example below.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **RadTabStrip**'s **EnableAriaSupport** property to **true** as shown in the example below.
 
 
 >caption **Example 1:** Setting **EnableAriaSupport** property for **RadTabStrip**. 
@@ -47,7 +47,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs)
 End Sub
 ````
 
->note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
+>note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](https://www.w3.org/TR/wai-aria/roles#application)
 >
 
 >note An issue with the use of WAI-ARIA is that using ARIA attributes results in invalid HTML mark-up. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The reason is that the DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
@@ -57,7 +57,7 @@ End Sub
 >
 
 
-Enabling WAI-ARIA support of a **RadTabStrip** will also allow you to adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label) and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes of the control by using the **Label** and **DescribedBy** properties in the **AriaSettings** tag.
+Enabling WAI-ARIA support of a **RadTabStrip** will also allow you to adjust the [aria-label](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-label) and [aria-describedby](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes of the control by using the **Label** and **DescribedBy** properties in the **AriaSettings** tag.
 
 >caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadTabStrip**.
 
@@ -78,6 +78,6 @@ Enabling WAI-ARIA support of a **RadTabStrip** will also allow you to adjust the
 
 # See Also
 
- * [WAI-ARIA basic information](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)
  
  

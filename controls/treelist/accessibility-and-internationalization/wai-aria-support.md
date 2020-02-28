@@ -33,6 +33,6 @@ RadTreeList ARIA attributes are **lower case**. They are shown in the table belo
 
 # See Also
 
- * [This functionality online](http://demos.telerik.com/aspnet-ajax/treelist/examples/waiariasupport/defaultcs.aspx)
+ * [This functionality online](https://demos.telerik.com/aspnet-ajax/treelist/examples/waiariasupport/defaultcs.aspx)
 
- * [WAI-ARIA basic information](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)

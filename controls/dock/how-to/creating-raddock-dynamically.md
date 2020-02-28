@@ -24,7 +24,7 @@ One common use of **RadDock** is creating dynamic personalized **Portal** sites.
 
 ## Example
 
-The following example demonstrates how to dynamically create RadDock controls on a Web site, similar to the [Dynamically Created Docks](http://demos.telerik.com/aspnet-ajax/Dock/Examples/DynamicDocks/DefaultCS.aspx) example.
+The following example demonstrates how to dynamically create RadDock controls on a Web site, similar to the [Dynamically Created Docks](https://demos.telerik.com/aspnet-ajax/Dock/Examples/DynamicDocks/DefaultCS.aspx) example.
 
 1. Create a new ASP.NET AJAX-enabled Web Site. Add a **Button**, **RadDockLayout**, and a few **RadDockZone** controls inside the **RadDockLayout**:
 

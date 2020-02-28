@@ -7,7 +7,7 @@ description: Telerik.Web.UI.MediaPlayerFilesCollection
 # Telerik.Web.UI.MediaPlayerFilesCollection
 
 MediaPlayerFiles collection. Used in RadMediaPlayer playlist. 
-            For more information, please see the http://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist Playlisttopic.
+            For more information, please see the https://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist Playlisttopic.
 
 ## Inheritance Hierarchy
 

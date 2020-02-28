@@ -27,10 +27,10 @@ The example below demonstrates how to add a sublist in the Custom Links dropdown
 ````ASP.NET
 <telerik:radeditor runat="server" ID="RadEditor1">    
 	<Links>        
-		<telerik:EditorLink Name="Telerik" Href="http://www.telerik.com">            
-		<telerik:EditorLink Name="Telerik Products" Href="http://www.telerik.com/products" Target="_blank" />            
-		<telerik:EditorLink Name="Telerik Support Center" Href="http://www.telerik.com/support/home.aspx" Target="_blank" />            
-		<telerik:EditorLink Name="Telerik Community" Href="http://www.telerik.com/community/home.aspx" Target="_blank" ToolTip="Telerik Community" />        
+		<telerik:EditorLink Name="Telerik" Href="https://www.telerik.com">            
+		<telerik:EditorLink Name="Telerik Products" Href="https://www.telerik.com/products" Target="_blank" />            
+		<telerik:EditorLink Name="Telerik Support Center" Href="https://www.telerik.com/support/home.aspx" Target="_blank" />            
+		<telerik:EditorLink Name="Telerik Community" Href="https://www.telerik.com/community/home.aspx" Target="_blank" ToolTip="Telerik Community" />        
 		</telerik:EditorLink>    
 	</Links>
 </telerik:radeditor>	
@@ -48,15 +48,15 @@ In the following example, we construct a simple 3-level Custom Links treeview:
 RadEditor1.Links.Clear();
 Telerik.Web.UI.EditorLink telerik = new Telerik.Web.UI.EditorLink();
 telerik.Name = "Telerik";
-telerik.Href = "http://www.telerik.com/products";
+telerik.Href = "https://www.telerik.com/products";
 telerik.ToolTip = "Telerik";
 Telerik.Web.UI.EditorLink support = new Telerik.Web.UI.EditorLink();
 support.Name = "Telerik Support";
-support.Href = "http://www.telerik.com/support/home.aspx";
+support.Href = "https://www.telerik.com/support/home.aspx";
 support.ToolTip = "Telerik Support Center";
 Telerik.Web.UI.EditorLink forums = new Telerik.Web.UI.EditorLink();
 forums.Name = "Telerik Forums";
-forums.Href = "http://www.telerik.com/forums";
+forums.Href = "https://www.telerik.com/forums";
 forums.ToolTip = "Telerik Forums";
 
 RadEditor1.Links.Add(telerik); // Adds the telerik link to the Links dropdown
@@ -67,15 +67,15 @@ support.ChildLinks.Add(forums); //Adds the forums link as a child of the support
 RadEditor1.Links.Clear()
 Dim telerik As New Telerik.Web.UI.EditorLink()
 telerik.Name = "Telerik"
-telerik.Href = "http://www.telerik.com/products"
+telerik.Href = "https://www.telerik.com/products"
 telerik.ToolTip = "Telerik"
 Dim support As New Telerik.Web.UI.EditorLink()
 support.Name = "Telerik Support"
-support.Href = "http://www.telerik.com/support/home.aspx"
+support.Href = "https://www.telerik.com/support/home.aspx"
 support.ToolTip = "Telerik Support Center"
 Dim forums As New Telerik.Web.UI.EditorLink()
 forums.Name = "Telerik Forums"
-forums.Href = "http://www.telerik.com/forums"
+forums.Href = "https://www.telerik.com/forums"
 forums.ToolTip = "Telerik Forums"
 
 RadEditor1.Links.Add(telerik)
@@ -96,17 +96,17 @@ You can also populate the Custom Links treeview using the ToolsFile.xml file, as
    <tool name="InsertCustomLink" />
  </tools>
  <links>
-   <link name="Telerik" href="http://www.telerik.com">
-	 <link name="Products" href="http://www.telerik.com/products">
-	   <link name="Telerik® UI for ASP.NET AJAX suite" href="http://www.telerik.com/radcontrols" />
-	   <link name="Telerik RadNavigation suite" href="http://www.telerik.com/radnavigation" />
-	   <link name="Telerik RadEditor" href="http://www.telerik.com/radeditor">
-		 <link name="QSF" href="http://www.telerik.com/Telerik RadEditor"/>
+   <link name="Telerik" href="https://www.telerik.com">
+	 <link name="Products" href="https://www.telerik.com/products">
+	   <link name="Telerik® UI for ASP.NET AJAX suite" href="https://www.telerik.com/radcontrols" />
+	   <link name="Telerik RadNavigation suite" href="https://www.telerik.com/radnavigation" />
+	   <link name="Telerik RadEditor" href="https://www.telerik.com/radeditor">
+		 <link name="QSF" href="https://www.telerik.com/Telerik RadEditor"/>
 	   </link>
 	 </link>
-	 <link name="Purchase" href="http://www.telerik.com/purchase" />
-	 <link name="Support" href="http://www.telerik.com/support" />
-	 <link name="Client.Net" href="http://www.telerik.com/clientnet" />
+	 <link name="Purchase" href="https://www.telerik.com/purchase" />
+	 <link name="Support" href="https://www.telerik.com/support" />
+	 <link name="Client.Net" href="https://www.telerik.com/clientnet" />
    </link>
  </links>
 </root> 	

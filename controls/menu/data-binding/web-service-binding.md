@@ -103,4 +103,4 @@ Public Function GetMenuCategories(ByVal item As RadMenuItemData, ByVal context A
 End Function	
 ````
 
-For a live example of using a Web service to populate child items, see [Populating from a Web Service](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx).
+For a live example of using a Web service to populate child items, see [Populating from a Web Service](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx).

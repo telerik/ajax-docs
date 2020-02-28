@@ -54,4 +54,4 @@ The data, used in the following example, is pulled from the database **Telerik**
 
  * [RadHtmlChart Column Series]({%slug htmlchart/chart-types/column-chart%})
 
- * [RadHtmlChart Database Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/database/defaultcs.aspx)
+ * [RadHtmlChart Database Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/database/defaultcs.aspx)

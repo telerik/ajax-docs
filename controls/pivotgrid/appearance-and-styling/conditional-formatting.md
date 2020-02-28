@@ -22,7 +22,7 @@ The two main events to use for customizing cell appearance are PreRender and Cel
 
 * **PreRender** is fired on each postback, no matter if triggered by an action in RadPivotGrid or an external control. In it, you can either access a group of items / cells and customize them one by one, or you can loop through them and check a given property until you find a specific one that you want to style. Again, you have the choice to either use the style properties of the TableCell object or to assign a CssClass and apply your own styles.
 
-The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/examples/appearance/conditionalformatting/defaultcs.aspx) online demo demonstrates some of the possible ways to access and style cells based on their type or some other condition. Below follow code excerpts from it with a description of what they do exactly.
+The [Conditional Formatting](https://demos.telerik.com/aspnet-ajax/pivotgrid/examples/appearance/conditionalformatting/defaultcs.aspx) online demo demonstrates some of the possible ways to access and style cells based on their type or some other condition. Below follow code excerpts from it with a description of what they do exactly.
 
 ## Examples
 

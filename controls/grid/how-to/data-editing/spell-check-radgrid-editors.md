@@ -15,7 +15,7 @@ position: 14
 
 ##
 
-[This demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandspell/defaultcs.aspx?product=grid) illustrates how to spell check text input fields in RadGrid's edit form using RadSpell. This is useful when you would like to notify the end user when there are spelling mistakes in the text editor fields he/she uses to update/insert grid records.
+[This demo](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandspell/defaultcs.aspx?product=grid) illustrates how to spell check text input fields in RadGrid's edit form using RadSpell. This is useful when you would like to notify the end user when there are spelling mistakes in the text editor fields he/she uses to update/insert grid records.
 
 The key moments are:
 

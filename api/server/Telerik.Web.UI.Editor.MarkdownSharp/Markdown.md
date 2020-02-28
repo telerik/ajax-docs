@@ -355,7 +355,7 @@ returns an array of HTML tokens comprising the input string. Each token is
 ###  Transform
 
 Transforms the provided Markdown-formatted text to HTML;  
-            see http://en.wikipedia.org/wiki/Markdown
+            see https://en.wikipedia.org/wiki/Markdown
 
 #### Remarks
 The order in which other subs are called here is

@@ -35,5 +35,5 @@ position: 1
 ## See Also
 
  * [RadFileExplorer Client-side Basics]({%slug fileexplorer/client-side-programming/overview%})
- * [RadFileExplorer Client-side API](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer)
+ * [RadFileExplorer Client-side API](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer)
 

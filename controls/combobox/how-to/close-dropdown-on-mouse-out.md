@@ -38,4 +38,4 @@ The jQuery library successfully converts the mouseleave event to mouseout so it 
 
 # See Also
 
- * [ASP.NET Ajax Controls and jQuery](http://blogs.telerik.com/atanaskorchev/posts/08-11-06/asp_net_ajax_controls_and_jquery.aspx)
+ * [ASP.NET Ajax Controls and jQuery](https://blogs.telerik.com/atanaskorchev/posts/08-11-06/asp_net_ajax_controls_and_jquery.aspx)

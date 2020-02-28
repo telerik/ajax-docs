@@ -34,7 +34,7 @@ protected void Page_Load(object sender, EventArgs e)
         item2.Text = "Item 2";      
         RadMenuItem item3 = new RadMenuItem();
         item3.Text = "Go to the Telerik site";
-        item3.NavigateUrl = " http://www.telerik.com";
+        item3.NavigateUrl = " https://www.telerik.com";
         RadMenu1.Items.Add(item1);
         RadMenu1.Items.Add(item2);
         RadMenu1.Items.Add(item3);
@@ -53,7 +53,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
         item2.Text = "Item 2"
         Dim item3 As New RadMenuItem()
         item3.Text = "Go to the Telerik site"
-        item3.NavigateUrl = "http://www.telerik.com"
+        item3.NavigateUrl = "https://www.telerik.com"
         RadMenu1.Items.Add(item1)
         RadMenu1.Items.Add(item2)
         RadMenu1.Items.Add(item3)

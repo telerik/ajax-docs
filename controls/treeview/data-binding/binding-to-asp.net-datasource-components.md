@@ -32,7 +32,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 **AccessDataSource** allows you to bind to MS Access data files. The **AccessDataSource** component requires a **DataFile** path and a **SelectCommand**.
 
->tip You can use the [Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247292(VS.80).aspx) Smart Tag option to get help building the **AccessDataSource** properties in the designer.
+>tip You can use the [Configure DataSource](https://msdn2.microsoft.com/en-us/library/ms247292(VS.80).aspx) Smart Tag option to get help building the **AccessDataSource** properties in the designer.
 >
 
 
@@ -60,7 +60,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 **SqlDataSource** allows you to bind to a MS SQL database table or view. You must supply the SqlDataSource with a valid connection string and a SelectCommand.
 
->tip You can use the [Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247297(VS.80).aspx) Smart Tag option to get help building the SqlDataSource properties in the designer.
+>tip You can use the [Configure DataSource](https://msdn2.microsoft.com/en-us/library/ms247297(VS.80).aspx) Smart Tag option to get help building the SqlDataSource properties in the designer.
 >
 
 
@@ -88,7 +88,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 **XmlDataSource** allows you to bind to an XML file or document. **XmlDataSource** supports a **DataFile** property for specifying the path to an XML data file to be used as input. You may also specify the **TransformFile** property to apply an XSLT transformation to the data and the **XPath** property to specify a subset of Nodes to expose from the Data Source. In the example below notice the XML file structure where the root level Node is "Customers" containing multiple "Customer" elements. Use the XPath expression "/Customers/Customer" to surface just those Nodes to **RadTreeView**.
 
->tip You can use the [Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247291(VS.80).aspx) Smart Tag option to get help building the XmlDataSource properties in the designer.
+>tip You can use the [Configure DataSource](https://msdn2.microsoft.com/en-us/library/ms247291(VS.80).aspx) Smart Tag option to get help building the XmlDataSource properties in the designer.
 >
 
 
@@ -133,7 +133,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 **ObjectDataSource** allows you to get data from a variety of underlying data stores. The **ObjectDataSource** requires the **TypeName** of the object that will supply the data and a **SelectMethod** that will return the data. In the example below **SiteDataItem** is a simple class with Text, Url, ID and ParentID properties. In the **RadTreeView**, the **DataTextField**, **DataNavigateUrlField**, **DataFieldID** and **DataFieldParentID** properties are assigned to the corresponding properties of **SiteDataItem**.
 
->tip You can also use the [Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247284(VS.80).aspx) Smart Tag option to get help building the **ObjectDataSource** properties in the designer.
+>tip You can also use the [Configure DataSource](https://msdn2.microsoft.com/en-us/library/ms247284(VS.80).aspx) Smart Tag option to get help building the **ObjectDataSource** properties in the designer.
 >
 
 
@@ -291,6 +291,6 @@ End Class
 
 
 
-For a live example of binding to **DataSource** components, see [Declarative DataSources](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DeclarativeDatasources/DefaultCS.aspx)
+For a live example of binding to **DataSource** components, see [Declarative DataSources](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DeclarativeDatasources/DefaultCS.aspx)
 
 

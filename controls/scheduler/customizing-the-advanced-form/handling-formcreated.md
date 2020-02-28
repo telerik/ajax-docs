@@ -412,6 +412,6 @@ End Sub
 
 # See Also
 
- * [Code library sample](http://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-in-formcreated-event.aspx)
+ * [Code library sample](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-in-formcreated-event.aspx)
 
- * [KB article](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/how-to-access-controls-in-the-advanced-form.aspx)
+ * [KB article](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/how-to-access-controls-in-the-advanced-form.aspx)

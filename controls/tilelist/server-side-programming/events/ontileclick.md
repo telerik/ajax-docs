@@ -22,7 +22,7 @@ The event handler receives two arguments - of type **object** that is a referenc
 <telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="true" OnTileClick="OnTileClick">
 	<Groups>
 		<telerik:TileGroup>
-			<telerik:RadTextTile Name="First" NavigateUrl="http://www.telerik.com/" Title-Text="Telerik" Shape="Wide">
+			<telerik:RadTextTile Name="First" NavigateUrl="https://www.telerik.com/" Title-Text="Telerik" Shape="Wide">
 			</telerik:RadTextTile>
 			<telerik:RadTextTile Name="Second" NavigateUrl="http://www.google.com/" Title-Text="Google" Shape="Wide">
 			</telerik:RadTextTile>

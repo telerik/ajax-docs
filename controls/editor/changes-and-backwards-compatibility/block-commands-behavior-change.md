@@ -21,7 +21,7 @@ As a result of the modification, the block commands now exhibit behavior differe
 
 |  **Release**  |  **Commands**  |
 | ------ | ------ |
-|[Q2 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| **Indent/Outdent** , **InsertList** , **Align** |
+|[Q2 2013](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| **Indent/Outdent** , **InsertList** , **Align** |
 
 ## How to get the old behavior back
 

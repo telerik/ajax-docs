@@ -20,14 +20,14 @@ With the steps below, we will show how to entirely bind a **RadGrid** control to
 
 1. From the **Toolbox** in **Visual Studio**, drag a **RadClientDataSource** and a **RadGrid** instances to the design surface of your page.
 
-1. Set a **WebService** using the **Url** property. In this example we are using "**http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
+1. Set a **WebService** using the **Url** property. In this example we are using "**https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
 
     **ASP.NET**
 
         <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
             <DataSource>
                 <WebServiceDataSourceSettings ServiceType="OData">
-                    <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+                    <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
                 </WebServiceDataSourceSettings>
             </DataSource>
         </telerik:RadClientDataSource>
@@ -40,7 +40,7 @@ With the steps below, we will show how to entirely bind a **RadGrid** control to
         <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
             <DataSource>
                 <WebServiceDataSourceSettings ServiceType="OData">
-                    <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+                    <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
                 </WebServiceDataSourceSettings>
             </DataSource>
             <Schema>
@@ -66,7 +66,7 @@ With the steps below, we will show how to entirely bind a **RadGrid** control to
         <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
             <DataSource>
                 <WebServiceDataSourceSettings ServiceType="OData">
-                    <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+                    <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
                 </WebServiceDataSourceSettings>
             </DataSource>
             <Schema>

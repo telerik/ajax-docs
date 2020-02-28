@@ -117,7 +117,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## See Also
 
-* [Live Demo - Grouping](http://demos.telerik.com/aspnet-ajax/multiselect/grouping/defaultcs.aspx)
+* [Live Demo - Grouping](https://demos.telerik.com/aspnet-ajax/multiselect/grouping/defaultcs.aspx)
 
 * [Templates]({%slug multiselect/functionality/templates%})
 

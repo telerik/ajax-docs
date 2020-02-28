@@ -168,7 +168,7 @@ To ensure its proper operation, you must allow access to unauthenticated users f
 
 
 
-For more information about the location section of **web.config**, see [this MSDN article](http://msdn2.microsoft.com/en-us/library/ms178692.aspx).
+For more information about the location section of **web.config**, see [this MSDN article](https://msdn2.microsoft.com/en-us/library/ms178692.aspx).
 
 ## UrlRewriters
 

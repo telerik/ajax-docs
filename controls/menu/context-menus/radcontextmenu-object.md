@@ -47,7 +47,7 @@ The following example shows a context menu that is attached to all **<img>** ele
 >
 
 
-For a live example of assigning targets to a context menu, see [Context Menu](http://demos.telerik.com/aspnet-ajax/Menu/Examples/ContextMenu/Default/DefaultCS.aspx).
+For a live example of assigning targets to a context menu, see [Context Menu](https://demos.telerik.com/aspnet-ajax/Menu/Examples/ContextMenu/Default/DefaultCS.aspx).
 
 ## Client-side events
 
@@ -89,7 +89,7 @@ The following example uses the **show()** method to display a context menu when 
 </script>
 ````
 
-For a live example of using **RadContextMenu** as a popup menu, see [Popup menu](http://demos.telerik.com/aspnet-ajax/Menu/Examples/ContextMenu/PopupMenu/DefaultCS.aspx).
+For a live example of using **RadContextMenu** as a popup menu, see [Popup menu](https://demos.telerik.com/aspnet-ajax/Menu/Examples/ContextMenu/PopupMenu/DefaultCS.aspx).
 
 # See Also
 

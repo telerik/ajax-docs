@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-Telerik RadAjax controls won't work in browsers that do not support [XmlHttpRequests](http://en.wikipedia.org/wiki/XMLHttpRequest). You may want to disable AJAX when such a browser opens your site. To disable AJAX, you can set the **EnableAJAX** property of Telerik **RadAjaxManager** or **RadAjaxPanel** control to **false** both on client- and server-side.
+Telerik RadAjax controls won't work in browsers that do not support [XmlHttpRequests](https://en.wikipedia.org/wiki/XMLHttpRequest). You may want to disable AJAX when such a browser opens your site. To disable AJAX, you can set the **EnableAJAX** property of Telerik **RadAjaxManager** or **RadAjaxPanel** control to **false** both on client- and server-side.
 
 The .NET 2.0 framework provides the **SupportsXmlHttp** property and it should be used to check if the browser supports **XmlHttpRequest** :
 
@@ -40,6 +40,6 @@ When this check is made in the **Page_Load** event handler, it will make your pa
 
 ## See Also
 
- * [Browser Definition File Schema (browsers Element) in MSDN](http://msdn.microsoft.com/en-us/library/ms228122%28v=vs.100%29.aspx)
+ * [Browser Definition File Schema (browsers Element) in MSDN](https://msdn.microsoft.com/en-us/library/ms228122%28v=vs.100%29.aspx)
 
- * [Browser Detection using ASP.NET](http://www.codeproject.com/aspnet/browsercaps.asp)
+ * [Browser Detection using ASP.NET](https://www.codeproject.com/aspnet/browsercaps.asp)

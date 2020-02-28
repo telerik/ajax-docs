@@ -18,7 +18,7 @@ The **PeekTemplate** of each tile is the HTML that replaces the default content 
 
 Since the template is entirely customizable it has no predefined dimensions, so they can be specified by the developer -the new content can cover the entire tile, go outside of the tile (overflowing content will be clipped) or hide only a part of the tile, starting from the top left corner if its size is smaller than the size of the tile.
 
-You can find examples in the [RadTileList Overview demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/overview/defaultcs.aspx).
+You can find examples in the [RadTileList Overview demo](https://demos.telerik.com/aspnet-ajax/tilelist/examples/overview/defaultcs.aspx).
 
 ## Configuration
 
@@ -185,4 +185,4 @@ Additional motion effects added to the animation are called easing. For example,
 
 # See Also
 
- * [RadTileList Overview demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/overview/defaultcs.aspx)
+ * [RadTileList Overview demo](https://demos.telerik.com/aspnet-ajax/tilelist/examples/overview/defaultcs.aspx)

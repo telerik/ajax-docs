@@ -164,7 +164,7 @@ End Sub
 
 
 
-For a live example that shows how to use custom progress monitoring in combination with a file upload, see [Monitoring Custom Progress](http://demos.telerik.com/aspnet-ajax/Upload/Examples/CustomProgress/DefaultCS.aspx).
+For a live example that shows how to use custom progress monitoring in combination with a file upload, see [Monitoring Custom Progress](https://demos.telerik.com/aspnet-ajax/Upload/Examples/CustomProgress/DefaultCS.aspx).
 
 
 

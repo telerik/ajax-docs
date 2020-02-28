@@ -6,7 +6,7 @@ description: Telerik.Web.UI.PivotGridTotalsSettings
 
 # Telerik.Web.UI.PivotGridTotalsSettings
 
-RadPivotGrid http://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/totals/overview Totalsconfiguration settings
+RadPivotGrid https://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/totals/overview Totalsconfiguration settings
 
 ## Inheritance Hierarchy
 

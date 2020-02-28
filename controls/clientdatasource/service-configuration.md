@@ -12,19 +12,19 @@ position: 3
 
 
 
-The **ClientDataSource** control's [schema](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema) serves to provide metadata for the underlying types of objects returned from the service. You can specify property names, their types and other configuration settings:
+The **ClientDataSource** control's [schema](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema) serves to provide metadata for the underlying types of objects returned from the service. You can specify property names, their types and other configuration settings:
 
 ## Schema
 
 
 |  Property  |  Description  |
 | ------ | ------ |
-| **ResponseType** |Gets or sets the data type of the server response. Only JSON and XML are supported. Only XML and JSON(default) are supported. Serialized on the client-side to[this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.type)kendo setting.|
-| **DataName** |Gets or sets the name of the collection that holds the data items. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.data) Kendo setting.|
-| **AggregateResultsName** |Gets or sets the name of the field from the response which contains the aggregate results. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.aggregates) Kendo setting.|
-| **GroupsName** |Gets or sets the name of the field from the server response which contains the groups. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.groups) Kendo setting.|
-| **ErrorsName** |Gets or sets the name of the field from the server response which contains server-side errors. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.errors) Kendo setting.|
-|TotalName|Gets or sets the name of the field from the server response which contains the total number of data items. Serialized on the client-side to [this](http://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.total) kendo setting|
+| **ResponseType** |Gets or sets the data type of the server response. Only JSON and XML are supported. Only XML and JSON(default) are supported. Serialized on the client-side to[this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.type)kendo setting.|
+| **DataName** |Gets or sets the name of the collection that holds the data items. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.data) Kendo setting.|
+| **AggregateResultsName** |Gets or sets the name of the field from the response which contains the aggregate results. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.aggregates) Kendo setting.|
+| **GroupsName** |Gets or sets the name of the field from the server response which contains the groups. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.groups) Kendo setting.|
+| **ErrorsName** |Gets or sets the name of the field from the server response which contains server-side errors. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.errors) Kendo setting.|
+|TotalName|Gets or sets the name of the field from the server response which contains the total number of data items. Serialized on the client-side to [this](https://docs.telerik.com/kendo-ui/api/framework/datasource#configuration-schema.total) kendo setting|
 
 ## Model
 
@@ -62,7 +62,7 @@ These are the properties that you can use for configuring the **Model**:
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+            <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
         </WebServiceDataSourceSettings>
     </DataSource>
     <Schema GroupsName="ProductName" ResponseType="JSONP">

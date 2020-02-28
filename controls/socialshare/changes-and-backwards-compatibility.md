@@ -14,14 +14,14 @@ position: 1
 
 ## Telerik RadSocialShare for ASP.NET AJAX
 
-A complete list of all changes can be found on Release History page: [http://www.telerik.com/support/whats-new/aspnet-ajax/release-history](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
+A complete list of all changes can be found on Release History page: [https://www.telerik.com/support/whats-new/aspnet-ajax/release-history](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
 
 ## Telerik RadSocialShare for ASP.NET AJAX Q3 2014
 
 The script that generates the Facebook [standard buttons]({%slug socialshare/configuring-buttons/standard%}) has been updated to **version 2.1**. You must add the following XML namespace to the `<html>` tag of your document in order for the buttons to work properly in earlier versions of Internet Explorer.
 
 ````HTML
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 ````
 
 
@@ -29,7 +29,7 @@ The script that generates the Facebook [standard buttons]({%slug socialshare/con
 For versions prior to the **Q3 2014** release, you must use the following XML namespace:
 
 ````HTML
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
 	xmlns:og="http://opengraphprotocol.org/schema/">
 ````
 

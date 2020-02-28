@@ -100,7 +100,7 @@ The following steps will enable you to easily implement the export functionality
 
 ## See Also
 
-* [Demo: Export to PDF](http://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-radhtmlchart/defaultcs.aspx?product=htmlchart)
+* [Demo: Export to PDF](https://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-radhtmlchart/defaultcs.aspx?product=htmlchart)
 
 * [RadClientExportManager - Overview]({%slug clientexportmanager/overview%})
 

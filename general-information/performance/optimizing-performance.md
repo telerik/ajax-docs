@@ -20,7 +20,7 @@ In this article we will go ahead and summarize the most important performance in
 
 * [Optimization Tips: Using HTTP Compression](http://telerikwatch.com/2008/05/optimization-tips-using-http.html)
 
-* [Optimization Tips: Optimizing Custom Skins](http://blogs.telerik.com/ToddAnglin/Posts/08-06-24/Optimization_Tips_Optimizing_Custom_Skins.aspx)
+* [Optimization Tips: Optimizing Custom Skins](https://blogs.telerik.com/ToddAnglin/Posts/08-06-24/Optimization_Tips_Optimizing_Custom_Skins.aspx)
 
 By default each Telerik control serves a set of files (javascript code and stylesheets) needed for proper client-side operation and look.
 
@@ -99,7 +99,7 @@ Performance problems can be caused by using the picker in list controls. You can
 
 Performance problems can be caused by using these controls in templates of list controls. A better idea is to create an outside edit form similar to this example:
 
-[Client-side edit, update, delete and insert with RadControls for ASP.NET AJAX, WebServices and LINQ](http://www.telerik.com/blogs/client-side-edit-update-delete-and-insert-with-radcontrols-for-asp-net-ajax-webservices-and-linq)
+[Client-side edit, update, delete and insert with RadControls for ASP.NET AJAX, WebServices and LINQ](https://www.telerik.com/blogs/client-side-edit-update-delete-and-insert-with-radcontrols-for-asp-net-ajax-webservices-and-linq)
 
 ## RadToolTip
 

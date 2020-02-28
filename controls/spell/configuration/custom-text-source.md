@@ -10,7 +10,7 @@ position: 2
 
 # Custom Text Source
 
-**RadSpell** is not limited to spellchecking HTML elements only. You can also define a custom text source to provide text for spellchecking. Using a custom text source allows you to spell check virtually anything on the web page that you can access programmatically. See the [live demo](http://demos.telerik.com/aspnet-ajax/Spell/Examples/TextSource/DefaultCS.aspx) for an example of spell checking a Flash object.
+**RadSpell** is not limited to spellchecking HTML elements only. You can also define a custom text source to provide text for spellchecking. Using a custom text source allows you to spell check virtually anything on the web page that you can access programmatically. See the [live demo](https://demos.telerik.com/aspnet-ajax/Spell/Examples/TextSource/DefaultCS.aspx) for an example of spell checking a Flash object.
 
 To implement spellchecking for text sources other than HTML, define a JavaScript object with two methods, get_text() and set_text(text), and then use the set_textSource(textSource) method of the RadSpell client-side object.
 
@@ -52,4 +52,4 @@ To implement spellchecking for text sources other than HTML, define a JavaScript
 
 # See Also
 
- * [Live Demo: Custom Text Source](http://demos.telerik.com/aspnet-ajax/Spell/Examples/TextSource/DefaultCS.aspx)
+ * [Live Demo: Custom Text Source](https://demos.telerik.com/aspnet-ajax/Spell/Examples/TextSource/DefaultCS.aspx)

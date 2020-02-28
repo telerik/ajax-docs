@@ -14,7 +14,7 @@ position: 15
 
 ##
 
-[This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandradasyncupload/defaultcs.aspx?product=grid) illustrates the usage of RadAsyncUpload and BinaryImage and how to display and edit images. RadAsyncUpload offers asynchronous upload capability while maintaining the look of the regular RadUpload control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location until a Postback occurs. The temporary location is cleaned-up automatically.
+[This example](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandradasyncupload/defaultcs.aspx?product=grid) illustrates the usage of RadAsyncUpload and BinaryImage and how to display and edit images. RadAsyncUpload offers asynchronous upload capability while maintaining the look of the regular RadUpload control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location until a Postback occurs. The temporary location is cleaned-up automatically.
 
 Some of the key advantages that RadAsyncUpload offers against RadUpload are
 
@@ -429,10 +429,10 @@ End Function
 
 More information about the RadAsyncUpload you can find in the links below:
 
-[Overview](http://www.telerik.com/help/aspnet-ajax/async-upload-overview.html)
+[Overview](https://www.telerik.com/help/aspnet-ajax/async-upload-overview.html)
 
-[Getting Started](http://www.telerik.com/help/aspnet-ajax/async-upload-getting-started.html)
+[Getting Started](https://www.telerik.com/help/aspnet-ajax/async-upload-getting-started.html)
 
-[Migrating from RadUpload for ASP.NET Ajax to RadAsyncUpload](http://www.telerik.com/help/aspnet-ajax/async-upload-migrating.html)
+[Migrating from RadUpload for ASP.NET Ajax to RadAsyncUpload](https://www.telerik.com/help/aspnet-ajax/async-upload-migrating.html)
 
-[RadAsyncUpload vs. RadUpload for ASP.NET Ajax](http://www.telerik.com/help/aspnet-ajax/async-upload-differences.html)
+[RadAsyncUpload vs. RadUpload for ASP.NET Ajax](https://www.telerik.com/help/aspnet-ajax/async-upload-differences.html)

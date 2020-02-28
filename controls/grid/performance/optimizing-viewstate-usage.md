@@ -159,7 +159,7 @@ Some operations in Telerik RadGrid like data extraction through the **ExtractVal
 
 * Expanded state of items in hierarchy. This basically means that you could not use more than one level of hierarchy, unless you save the expanded settings manually.
 
-If you would like to retain the expanded state of items or server-side selection with **ViewState** disabled, you may consider using the approach depicted in [this code library entry](http://www.telerik.com/community/code-library/aspnet-ajax/grid/retain-expanded-selected-state-in-hierarchy-on-rebind.aspx) (applicable for explicit rebinds or **ViewState** switched off). An alternative solution would be to turn on the **ViewState** of the grid and optimize its performance by using **RadCompression** and its page adapters as explained in [this article](http://www.telerik.com/help/aspnet-ajax/radcompression.html).
+If you would like to retain the expanded state of items or server-side selection with **ViewState** disabled, you may consider using the approach depicted in [this code library entry](https://www.telerik.com/community/code-library/aspnet-ajax/grid/retain-expanded-selected-state-in-hierarchy-on-rebind.aspx) (applicable for explicit rebinds or **ViewState** switched off). An alternative solution would be to turn on the **ViewState** of the grid and optimize its performance by using **RadCompression** and its page adapters as explained in [this article](https://www.telerik.com/help/aspnet-ajax/radcompression.html).
 
 ## See Also
 

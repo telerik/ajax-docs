@@ -379,6 +379,6 @@ EntityDataSource:
 
 ## Additional resources
 
-* **LinqDataSource:** [ http://msdn2.microsoft.com/en-us/library/bb547113.aspx ](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+* **LinqDataSource:** [ https://msdn2.microsoft.com/en-us/library/bb547113.aspx ](https://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
-* **EntityDataSource:** [http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
+* **EntityDataSource:** [https://msdn.microsoft.com/en-us/library/cc488502.aspx](https://msdn.microsoft.com/en-us/library/cc488502.aspx)

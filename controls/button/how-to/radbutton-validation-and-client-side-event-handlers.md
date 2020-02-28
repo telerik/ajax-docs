@@ -12,7 +12,7 @@ position: 0
 
 When the ASP.NET Validation is used along with a **RadButton** that has client-side event handler attached, an unexpected behavior may occur. The client-side script will be executed before the validation takes place, which is an expected behavior and can be observed with standard Button control as well. As a result the client's script logic won't be executed properly if it relies on postback of the page and the validation is not successful.
 
-To avoid this effect, the client-side method [Page_ClientValidate](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) should be utilized. It forces the validation on the client and returns a boolean value, indicating whether it is successful. Using this value you can stop the execution of the client-side function in case the page is not validated. The following example shows how to achieve this.
+To avoid this effect, the client-side method [Page_ClientValidate](https://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) should be utilized. It forces the validation on the client and returns a boolean value, indicating whether it is successful. Using this value you can stop the execution of the client-side function in case the page is not validated. The following example shows how to achieve this.
 
 >note As of Q2 2012 the client-side event **OnClientClicking** is raised after the validation of the page and calling the method **Page_ClientValidate** is no longer needed.
 

@@ -29,7 +29,7 @@ This article explains the **elastic capabilities RadTicker offers**. The control
 **Example 2**: The font size of RadTicker is set to 22px.
 
 ````ASP.NET
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head runat="server">
 	<title></title>
 	<style type="text/css">

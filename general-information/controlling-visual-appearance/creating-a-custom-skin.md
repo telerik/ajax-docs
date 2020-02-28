@@ -45,7 +45,7 @@ If you would like to modify a skin that will be used in **Classic RenderMode** y
 
 [launch the online tool](http://stylebuilder.telerik.com/)
 
-[read the tool overview on the Telerik website](http://www.telerik.com/aspnet-ajax/visual-style-builder)
+[read the tool overview on the Telerik website](https://www.telerik.com/aspnet-ajax/visual-style-builder)
 
 >note The **Classic** render mode is in [maintenance mode since Q3 2015](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) and the Visual Style Builder tool, which produces skins for the Classic rendering only, is in maintenance since May 2016. We recommend using the **Lightweight** render mode and the provided [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool.
 

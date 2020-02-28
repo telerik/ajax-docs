@@ -51,7 +51,7 @@ You can avoid setting the **Skin** property per each **RadAjaxLoadingPanel** ins
 
 **Custom Skins**
 
-Apart from using the embedded skins, you can easily create a custom skin for a **RadAjaxLoadingPanel** . A [code library example](http://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-create-and-use-custom-skins-for-radajaxloadingpanel.aspx), demonstrates how to do that and provides some useful tips.
+Apart from using the embedded skins, you can easily create a custom skin for a **RadAjaxLoadingPanel** . A [code library example](https://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-create-and-use-custom-skins-for-radajaxloadingpanel.aspx), demonstrates how to do that and provides some useful tips.
 
 ## See Also
 
@@ -59,4 +59,4 @@ Apart from using the embedded skins, you can easily create a custom skin for a *
 
  * [Controlling Appearance of a RadAjaxLoadingPanel]({%slug ajaxloadingpanel/appearance-and-styling/controlling-appearance-of-a-radajaxloadingpanel%})
 
- * [Demo: AjaxLoadingPanel](http://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/loadingimages/defaultcs.aspx)
+ * [Demo: AjaxLoadingPanel](https://demos.telerik.com/aspnet-ajax/ajax/examples/loadingpanel/loadingimages/defaultcs.aspx)

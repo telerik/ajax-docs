@@ -14,11 +14,11 @@ position: 0
 
 RadTreeList supports the below edit modes:
 
-* **[InPlace](http://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section1_self)**
+* **[InPlace](https://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section1_self)**
 
-* **[EditForms](http://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section2_self)**
+* **[EditForms](https://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section2_self)**
 
-* **[PopUp](http://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section3_self)**
+* **[PopUp](https://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section3_self)**
 
 The default edit mode of RadTreeList is **EditForms**. To specify which edit mode will your control, you can set its **EditMode** property to one of the above values.
 
@@ -178,8 +178,8 @@ End Sub
 
  * [EditForm Types]({%slug treelist/data-editing/edit-mode/editform-types%})
 
- * [NET 2.0 Automatic CRUD operations demo](http://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net2automaticdataediting/defaultcs.aspx)
+ * [NET 2.0 Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net2automaticdataediting/defaultcs.aspx)
 
- * [NET 3.5 Automatic CRUD operations demo](http://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net35automaticdataediting/defaultcs.aspx)
+ * [NET 3.5 Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net35automaticdataediting/defaultcs.aspx)
 
- * [Form Template/User Control edit form](http://demos.telerik.com/aspnet-ajax-beta/treeList/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)
+ * [Form Template/User Control edit form](https://demos.telerik.com/aspnet-ajax-beta/treeList/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)

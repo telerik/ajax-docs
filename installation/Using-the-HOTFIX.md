@@ -35,7 +35,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 ## To update Telerik® UI for ASP.NET AJAX to a new version
 
-1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
+1. Log into your [Telerik account](https://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
 
 1. On the loaded page choose from your purchased products Telerik® UI for ASP.NET AJAX, and click on it.
 

@@ -25,7 +25,7 @@ This example checks if the currently selected object is an image and adds a bord
 ````ASP.NET
 <telerik:radeditor runat="server" ID="RadEditor1">
 	   <Content>
-		   This RadEditor instance contains some <a href="www.telerik.com">links</a> and images <img src="http://www.telerik.com/images/Homepage/TelerikLogo.gif" alt="Telerik Logo"/>
+		   This RadEditor instance contains some <a href="www.telerik.com">links</a> and images <img src="https://www.telerik.com/images/Homepage/TelerikLogo.gif" alt="Telerik Logo"/>
 	   </Content>
  </telerik:radeditor>
    <script type="text/javascript">

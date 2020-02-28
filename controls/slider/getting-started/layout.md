@@ -31,4 +31,4 @@ RadSlider2.Orientation = Telerik.Web.UI.Orientation.Vertical
 
 ## See Also
 
- * [Live Demo: "Orientation"](http://demos.telerik.com/aspnet-ajax/Slider/Examples/Orientation/DefaultCS.aspx)
+ * [Live Demo: "Orientation"](https://demos.telerik.com/aspnet-ajax/Slider/Examples/Orientation/DefaultCS.aspx)

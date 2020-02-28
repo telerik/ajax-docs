@@ -25,7 +25,7 @@ This property allows to specify the HTML for the RadAlert popup
 
 #### Remarks
 Fore more information see this KB article: 
-            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  Animation `WindowAnimation`
 
@@ -65,7 +65,7 @@ Gets or sets a value indicating whether a modal RadWindow, should be centered au
 Gets or sets the client callback function that will be called when a window
             dialog is being closed.
             This property is obsolete. Please use OnclientClose instead. For more information
-            visit http://www.telerik.com/help/aspnet-ajax/window-programming-using-radwindow-as-dialog.html
+            visit https://www.telerik.com/help/aspnet-ajax/window-programming-using-radwindow-as-dialog.html
 
 ###  ClientIDMode `ClientIDMode`
 
@@ -78,7 +78,7 @@ This property allows to specify the HTML for the RadConfirm popup
 
 #### Remarks
 Fore more information see this KB article: 
-            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  CssClassFormatString `String`
 
@@ -152,7 +152,7 @@ Gets or sets a value indicating the initial behavior of the RadWindow - most use
 
 #### Remarks
 For more information see this help article:
-            http://www.telerik.com/help/aspnet-ajax/window-behavior-initial-window-state.html
+            https://www.telerik.com/help/aspnet-ajax/window-behavior-initial-window-state.html
 
 ###  IsSkinSet `String`
 
@@ -306,7 +306,7 @@ This property allows to specify the HTML for the RadPrompt popup
 
 #### Remarks
 Fore more information see this KB article: 
-            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -389,7 +389,7 @@ Gets or sets a value indicating whether the RadWindow will open automatically wh
 
 #### Remarks
 Also applies for AJAX requests. For showing a RadWindow once from the server examine this help article:
-            http://www.telerik.com/help/aspnet-ajax/radwindow-troubleshooting-opening-from-server.html
+            https://www.telerik.com/help/aspnet-ajax/radwindow-troubleshooting-opening-from-server.html
 
 ###  VisibleStatusbar `Boolean`
 
@@ -532,7 +532,7 @@ The URL to the new image that will appear on the left side of the dialog.
 Shows a RadConfirm dialog when the page is loaded on the client.
 
 #### Remarks
-For more information see the following help article: http://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
+For more information see the following help article: https://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
 
 #### Parameters
 
@@ -570,7 +570,7 @@ The title of the dialog.
 Shows a RadConfirm dialog when the page is loaded on the client.
 
 #### Remarks
-For more information see the following help article: http://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
+For more information see the following help article: https://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
 
 #### Parameters
 

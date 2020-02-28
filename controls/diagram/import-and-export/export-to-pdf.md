@@ -16,7 +16,7 @@ You can export **RadDiagram** to PDF on the client. This is done in two simple s
 
 1. Call the **saveAsPDF** method of the client-side object of the diagram.
 
-RadDiagram has a composite property **PdfSettings** that exposes properties for configuring the settings of the exported PDF file. You can find a full list of the properties in the [API reference of the Pdf class](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_pdf.html).
+RadDiagram has a composite property **PdfSettings** that exposes properties for configuring the settings of the exported PDF file. You can find a full list of the properties in the [API reference of the Pdf class](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_pdf.html).
 
 >caution The export to PDF functionality is currently supported in Firefox, Chrome, IE10+ and Opera 15.0+ (Blink).
 
@@ -48,7 +48,7 @@ RadDiagram has a composite property **PdfSettings** that exposes properties for 
 </script>
 ````
 
-The **saveAsPDF** method is a shortcut for [exportPDF](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportPDF), which is less straightforward and you need to set the export settings on the client if you use it. **Example 2** shows how to export a diagram via the **exportPDF** method.
+The **saveAsPDF** method is a shortcut for [exportPDF](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportPDF), which is less straightforward and you need to set the export settings on the client if you use it. **Example 2** shows how to export a diagram via the **exportPDF** method.
 
 >caption **Example 2**: Export a diagram to PDF via the **exportPDF** method.
 
@@ -86,6 +86,6 @@ The **saveAsPDF** method is a shortcut for [exportPDF](http://docs.telerik.com/k
 
  * [RadDiagram Client-Side Basics]({%slug diagram/client-side-programming/overview%})
 
- * [Members of Pdf Class](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_pdf.html)
+ * [Members of Pdf Class](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_pdf.html)
 
- * [exportPDF method of Kendo UI Diagram](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportPDF)
+ * [exportPDF method of Kendo UI Diagram](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportPDF)

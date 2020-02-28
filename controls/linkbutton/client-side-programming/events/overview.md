@@ -34,7 +34,7 @@ To handle the desired event, the user must set the respective property to the na
 				alert("RadLinkButton was clicked.");
 			}
 		</script>
-		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="Click" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="Click" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
 
 	**C#**
@@ -55,7 +55,7 @@ To handle the desired event, the user must set the respective property to the na
 				alert("arg1:" + arg1 + " arg2:" + arg2);
 			}
 		</script>
-		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}" NavigateUrl="http://www.telerik.com" Target="_blank">
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
 
 	**C#**
@@ -68,7 +68,7 @@ To handle the desired event, the user must set the respective property to the na
 
 You can also assign event handlers in client-side code. For more information see the [Setting Event Handlers via JavaScript article]({%slug linkbutton/client-side-programming/events/setting-event-handlers-via-javascript%}).
 
-For a live example illustrating the RadLinkButton client-side events, see the [LinkButton - Client-side Events live demo](http://demos.telerik.com/aspnet-ajax/LinkButton/Client-side-API/Client-side-Events/defaultcs.aspx).
+For a live example illustrating the RadLinkButton client-side events, see the [LinkButton - Client-side Events live demo](https://demos.telerik.com/aspnet-ajax/LinkButton/Client-side-API/Client-side-Events/defaultcs.aspx).
 
 # See Also
 

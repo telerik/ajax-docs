@@ -47,7 +47,7 @@ position: 1
 
 # See Also
 
- * [Binding to Folder and Static Collection demo](http://demos.telerik.com/aspnet-ajax/image-gallery/examples/data-binding/server-side-binding/binding-to-folder-and-static-collection/defaultcs.aspx)
+ * [Binding to Folder and Static Collection demo](https://demos.telerik.com/aspnet-ajax/image-gallery/examples/data-binding/server-side-binding/binding-to-folder-and-static-collection/defaultcs.aspx)
 
  * [Binding to Folder]({%slug imagegallery/data-binding/server-side/binding-to-folder%})
 

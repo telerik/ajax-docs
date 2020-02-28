@@ -78,7 +78,7 @@ To troubleshoot the issue, please open the url, specified in the error details. 
 http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:
 
 Most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC.
-For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html)
+For more details refer to the [General TroubleShooting help topic](https://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html)
 .
 
 Problem:

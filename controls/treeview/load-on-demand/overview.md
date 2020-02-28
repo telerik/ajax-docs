@@ -35,7 +35,7 @@ For other properties that control load-on-demand appearance and behavior, see th
 
 
 
-For additional information on the pros and cons of the load on demand modes please check this blog post: [Load On Demand Modes - why so many?](http://blogs.telerik.com/aspnet-ajax/posts/08-08-08/radtreeview-for-asp-net-ajax-load-on-demand-modes---why-so-many.aspx)
+For additional information on the pros and cons of the load on demand modes please check this blog post: [Load On Demand Modes - why so many?](https://blogs.telerik.com/aspnet-ajax/posts/08-08-08/radtreeview-for-asp-net-ajax-load-on-demand-modes---why-so-many.aspx)
 
 
 

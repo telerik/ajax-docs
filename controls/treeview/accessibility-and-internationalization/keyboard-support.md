@@ -82,5 +82,5 @@ Allows end-users to navigate around the TreeView structure using the arrow keys,
 **Example 2**: Demonstration of some of the key Navigations of the **RadTrewView**.
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport02.gif)
 
->note The **RadTreeView** keyboard support is implemented according to the [W3C Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
+>note The **RadTreeView** keyboard support is implemented according to the [W3C Specification. ](https://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
 >

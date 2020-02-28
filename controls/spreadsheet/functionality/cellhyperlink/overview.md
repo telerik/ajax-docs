@@ -42,4 +42,4 @@ You can define a hyperlink for a given cell in two ways:
 	````	
 	
 ## See Also
-[RadSpreadsheet Full Set of Tools Demo](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/spreadsheettoolbar/defaultcs.aspx)
+[RadSpreadsheet Full Set of Tools Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/spreadsheettoolbar/defaultcs.aspx)

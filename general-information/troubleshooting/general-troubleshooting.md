@@ -93,7 +93,7 @@ To solve the problem you should manually add the **HttpHandler registration** to
 
 
 
-Additional information is available in this blog post: [Web Resources demystified](http://blogs.telerik.com/aspnet-ajax/posts/08-07-18/web-resources-demystified-part-3-troubleshooting.aspx).
+Additional information is available in this blog post: [Web Resources demystified](https://blogs.telerik.com/aspnet-ajax/posts/08-07-18/web-resources-demystified-part-3-troubleshooting.aspx).
 
 ## Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'"
 
@@ -103,7 +103,7 @@ Additional information is available in this blog post: [Web Resources demystifie
 
 **Suggested Solution**:
 
-This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
+This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."
 
@@ -120,7 +120,7 @@ This error occurs when you have added a control from Telerik® UI for ASP.NET AJ
 ````
 
 
-If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik® UI for ASP.NET AJAX suite. For further details about the **ScriptManager** control, you can read this article [http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
+If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik® UI for ASP.NET AJAX suite. For further details about the **ScriptManager** control, you can read this article [https://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](https://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
 
 ## Error message, "Microsoft JScript runtime error: 'Sys' is undefined"
 
@@ -130,7 +130,7 @@ If you are using master pages, you can add the **ScriptManager** control there. 
 
 **Suggested Solution**:
 
-This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
+This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The Controls collection cannot be modified because the control contains code blocks"
 
@@ -273,7 +273,7 @@ When you drag a **Telerik control** from the Toolbox to the design surface, you 
 
 **Suggested Solution**:
 
-Please check the following links for different solution options: [link 1](http://www.telerik.com/community/forums/aspnet-ajax/menu/menu-problem-39-error-creating-control-39-at-design-time.aspx), [link 2](http://www.telerik.com/community/forums/aspnet-ajax/general-discussions/ajax-2009-q2-release-giving-me-gray-hair.aspx) and [link 3](http://blogs.microsoft.co.il/blogs/kolbis/archive/2008/06/29/unable-to-cast-object-from-type-x-to-type-x.aspx).
+Please check the following links for different solution options: [link 1](https://www.telerik.com/community/forums/aspnet-ajax/menu/menu-problem-39-error-creating-control-39-at-design-time.aspx), [link 2](https://www.telerik.com/community/forums/aspnet-ajax/general-discussions/ajax-2009-q2-release-giving-me-gray-hair.aspx) and [link 3](http://blogs.microsoft.co.il/blogs/kolbis/archive/2008/06/29/unable-to-cast-object-from-type-x-to-type-x.aspx).
 
 **Problem**:
 
@@ -321,7 +321,7 @@ You can find more issues and solutions steps in the [Design-time Troubleshooting
 
 **Cause and Solution**:
 
-Please check [this help article](http://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#could-not-load-file-or-assembly-telerikwebui-after-upgrade) for detailed information on what is causing this error and how to handle it.
+Please check [this help article](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#could-not-load-file-or-assembly-telerikwebui-after-upgrade) for detailed information on what is causing this error and how to handle it.
 
 ## Telerik controls do not work if a Compression Module is used in the project/web site
 

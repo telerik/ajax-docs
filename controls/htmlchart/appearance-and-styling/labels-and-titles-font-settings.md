@@ -135,7 +135,7 @@ Use the **FontSize** property under **TextStyle** to set the desired size of the
 
 * The property holds several font names that act as a "fallback" system. This means that if the browser does not support the first font, it will try the next one. If none of the listed fonts are available, the browser will use its own default font.
 
-* The last font can be of [generic-family type](http://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_fonts) (e.g. serif, sans serif, cursive, etc.), so that the browser can pick a similar font in the generic family,in case the other one is unavailable.
+* The last font can be of [generic-family type](https://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_fonts) (e.g. serif, sans serif, cursive, etc.), so that the browser can pick a similar font in the generic family,in case the other one is unavailable.
 
 You can se the **FontFamily** property in the markup or in the code-behind, for example:
 
@@ -155,7 +155,7 @@ RadHtmlChart1.PlotArea.XAxis.TitleAppearance.TextStyle.FontFamily = "Calibri,Ari
 
  * [Series Configuration]({%slug htmlchart/server-side-programming/series-configuration%})
 
- * [Font family (HTML)](http://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_fonts)
+ * [Font family (HTML)](https://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_fonts)
 
  * [Column Chart]({%slug htmlchart/chart-types/column-chart%})
 

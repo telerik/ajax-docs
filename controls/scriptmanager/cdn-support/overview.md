@@ -91,9 +91,9 @@ Note, that the second line will enable the [CDN support for the CSS and image fi
 
 The Telerik CDN uses the following host names for loading the control resources:
 
-* **http://aspnet-scripts.telerikstatic.com** - for the scripts;
+* **https://aspnet-scripts.telerikstatic.com** - for the scripts;
 
-* **http://aspnet-skins.telerikstatic.com** - for the skins (css and images);
+* **https://aspnet-skins.telerikstatic.com** - for the skins (css and images);
 
 Your users need to have access to the above URLs.
 
@@ -120,7 +120,7 @@ Let's add some RadControls on the page (RadMenu, RadTabStrip, RadListBox) and Ra
 Here is how the html output looks like:
 
 ````HTML
- <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a0d787d5c-3903-4814-ad72-296cea810318%3aea597d4b%3ab25378d2" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Core.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQuery.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQueryPlugins.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Scrolling/ScrollingScripts.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Navigation/NavigationScripts.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Menu/RadMenuScripts.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/TabStrip/RadTabStripScripts.js" type="text/javascript"></script><script src="http://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
+ <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a0d787d5c-3903-4814-ad72-296cea810318%3aea597d4b%3ab25378d2" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Core.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQuery.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQueryPlugins.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Scrolling/ScrollingScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Navigation/NavigationScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Menu/RadMenuScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/TabStrip/RadTabStripScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
 ````
 
 
@@ -213,4 +213,4 @@ All ASP.NET scripts and Telerik resources are served from the respective CDNs.
 
 ## Additional Resources
 
-* [CDN Fallback to Local Resources](http://www.telerik.com/support/code-library/cdn-fallback)
+* [CDN Fallback to Local Resources](https://www.telerik.com/support/code-library/cdn-fallback)

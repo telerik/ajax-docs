@@ -118,20 +118,20 @@ End Sub
 
 ## RadDiagram Public Properties and Methods
 
-[Server-Side API of the RadDiagram class.](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDiagram)
+[Server-Side API of the RadDiagram class.](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDiagram)
 
 ## DiagramConnection Public Properties and Methods
 
-[Server-Side API of the DiagramConnection class.](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramConnection)
+[Server-Side API of the DiagramConnection class.](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramConnection)
 
 ## DiagramConnectionPoint Public Properties and Methods
 
-[Server-Side API of the DiagramConnectionPoint class.](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramConnectionPoint)
+[Server-Side API of the DiagramConnectionPoint class.](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramConnectionPoint)
 
 ## DiagramLayout Public Properties and Methods
 
-[Server-Side API of the DiagramLayout class.](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramLayout)
+[Server-Side API of the DiagramLayout class.](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramLayout)
 
 ## DiagramShape Public Properties and Methods
 
-[Server-Side API of the DiagramShape class.](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramShape)
+[Server-Side API of the DiagramShape class.](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/DiagramShape)

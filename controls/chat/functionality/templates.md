@@ -88,5 +88,5 @@ function renderCustomTemplate(sender) {
 
  * [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview)
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
  

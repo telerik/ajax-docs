@@ -133,4 +133,4 @@ To display the dropdown items with their corresponding formatting, add the forma
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Format Sets online demo](http://demos.telerik.com/aspnet-ajax/editor/examples/formatsets/defaultcs.aspx)
+ * [Format Sets online demo](https://demos.telerik.com/aspnet-ajax/editor/examples/formatsets/defaultcs.aspx)

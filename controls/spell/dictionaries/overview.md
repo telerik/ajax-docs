@@ -10,7 +10,7 @@ position: 0
 
 # Dictionaries Overview
 
-**RadSpell** currently supports dozens of languages. However, the control distribution includes only 3 of them: English (American), German and French. You can download the rest of the dictionary packages from [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/spell/147971-radspell-dictionaries.aspx).
+**RadSpell** currently supports dozens of languages. However, the control distribution includes only 3 of them: English (American), German and French. You can download the rest of the dictionary packages from [this forum thread](https://www.telerik.com/community/forums/aspnet-ajax/spell/147971-radspell-dictionaries.aspx).
 
 Download the dictionary package for your desired language. Locate the App_Data folder in your application. Find the RadSpell\TDF subfolder and extract the files to a folder, named after the language. For example if you downloaded the bulgarian package you need to extract the dictionary in **~\App_Data\RadSpell\**.
 
@@ -43,4 +43,4 @@ The resulting spell check lists the words from the Swedish dictionary.
 
  * [Dictionary Configurator]({%slug spell/dictionaries/dictionary-configurator%})
 
- * [RadSpell Dictionaries (Forum)](http://www.telerik.com/community/forums/aspnet-ajax/spell/147971-radspell-dictionaries.aspx)
+ * [RadSpell Dictionaries (Forum)](https://www.telerik.com/community/forums/aspnet-ajax/spell/147971-radspell-dictionaries.aspx)

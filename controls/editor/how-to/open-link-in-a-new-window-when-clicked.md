@@ -35,7 +35,7 @@ The code below demonstrates how to iterate RadEditor document links when the edi
 		Sample Content        
 		<a href="httpwww.telerik.com&quot;>www.telerik.com</a>
 		test
-		<a href="http://www.yahoo.com">www.yahoo.com</a>
+		<a href="https://www.yahoo.com">www.yahoo.com</a>
 		test
 		<a href="http://www.test.com/some.pdf">some.pdf</a>
 	</Content>

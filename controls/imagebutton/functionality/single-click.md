@@ -59,4 +59,4 @@ The submitted text in processed on the server. Note that this example uses the *
 
 ## See Also
 
- * [Single Click Button Demo](http://demos.telerik.com/aspnet-ajax/imagebutton/examples/singleclick/defaultcs.aspx)
+ * [Single Click Button Demo](https://demos.telerik.com/aspnet-ajax/imagebutton/examples/singleclick/defaultcs.aspx)

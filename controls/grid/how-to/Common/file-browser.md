@@ -14,7 +14,7 @@ position: 0
 
 ##
 
-The [following example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/FileBrowser/DefaultCS.aspx) demonstrates how RadSplitter, RadTreeView, RadGrid and RadMenu can be integrated with the RadAjax framework. The example features the following components:
+The [following example](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/FileBrowser/DefaultCS.aspx) demonstrates how RadSplitter, RadTreeView, RadGrid and RadMenu can be integrated with the RadAjax framework. The example features the following components:
 
 * RadSplitter - allows resizing of the content panes
 

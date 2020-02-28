@@ -96,6 +96,6 @@ The **getItem()** method of the **RadLightBoxItemCollection** object returns a *
 
 # See Also
 
- * [RadLightBox Overview](http://demos.telerik.com/aspnet-ajax/lightbox/examples/overview/defaultvb.aspx)
+ * [RadLightBox Overview](https://demos.telerik.com/aspnet-ajax/lightbox/examples/overview/defaultvb.aspx)
 
  * [Client-Side Basics]({%slug lightbox/client-side-programming/overview%})

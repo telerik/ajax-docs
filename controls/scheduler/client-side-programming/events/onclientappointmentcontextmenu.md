@@ -26,4 +26,4 @@ Two parameters are passed to the event handler:
 
 # See Also
 
- * [Context Menu online example](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/ContextMenu/DefaultCS.aspx)
+ * [Context Menu online example](https://demos.telerik.com/aspnet-ajax/Scheduler/Examples/ContextMenu/DefaultCS.aspx)

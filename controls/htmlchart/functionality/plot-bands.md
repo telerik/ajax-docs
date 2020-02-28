@@ -170,7 +170,7 @@ End Function
 
 ## See Also
 
- * [RadHtmlChart PlotBand Server-Side API](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_plotband.html)
+ * [RadHtmlChart PlotBand Server-Side API](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_plotband.html)
 
  * [RadHtmlChart Configuring Axes]({%slug htmlchart/server-side-programming/axes-configuration%})
 

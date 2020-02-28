@@ -28,19 +28,19 @@ This functionality is provided through the following properties:
 
 The shapes and connections data should be in a JSON format with the necessary fields:
 
-* for **Shapes**, you need fields with the exact names from [The fields of the shape model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-shape-model) article. These fields control the type, position and dimensions of the shapes.
+* for **Shapes**, you need fields with the exact names from [The fields of the shape model](https://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-shape-model) article. These fields control the type, position and dimensions of the shapes.
 
-* for **Connections**, you need fields with the exact names from [The fields of the connection model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-connection-model) article. These fields associate connections with the shapes.
+* for **Connections**, you need fields with the exact names from [The fields of the connection model](https://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-connection-model) article. These fields associate connections with the shapes.
 
 You can also map shapes and connections field names of the diagram to the field names from the JSON literals through the **FieldName** and **OriginalFieldName** properties of the ClientDataSource Model of the RadClientDataSource. More information is available in the [Service Configuration]({%slug clientdatasource/service-configuration%}) help article.
 
 If you want to customize the shapes yourself, you can get the necessary data from the **dataItem** object and reconfigure the shapes in either of the following ways:
 
-* Use the [OnChange](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change) event (**Example 3**). This approach is also illustrated in the [Diagram - Client-side Data Binding](http://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx) demo.
+* Use the [OnChange](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change) event (**Example 3**). This approach is also illustrated in the [Diagram - Client-side Data Binding](https://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx) demo.
 
 * In a [visual template]({%slug diagram/functionality/shape-templates%}) (**Example 4**).
 
-You can find the full list of properties that can be customized in the [Shapes API](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes) article.
+You can find the full list of properties that can be customized in the [Shapes API](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes) article.
 
 >caption **Example 1**: Client-side binding of shapes and connections data in RadDiagram through **RadClientDataSource** controls. The sample uses JSON literals from **Example 2**.
 
@@ -272,13 +272,13 @@ var visualTemplate = function (options) {
 
 # See Also
 
- * [Diagram - Client-side Data Binding Demo](http://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx)
+ * [Diagram - Client-side Data Binding Demo](https://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx)
 
  * [Shape Templates]({%slug diagram/functionality/shape-templates%})
 
- * [RadDiagram Shapes API](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes)
+ * [RadDiagram Shapes API](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes)
 
- * [RadDiagram OnChange Event](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change)
+ * [RadDiagram OnChange Event](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change)
 
  * [Shape]({%slug diagram/structure/shape%})
 

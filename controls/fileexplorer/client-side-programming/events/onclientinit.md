@@ -16,7 +16,7 @@ To handle this event, simply write a JavaScript function that can be called when
 
 The client-side **OnClientInit** event handler receives one argument:
 
-1. Sender: The [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
+1. Sender: The [RadFileExplorer object](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
 
 >caption Example 1: Handle the **RadFileExplorer**'s client-side **Init** event.
 

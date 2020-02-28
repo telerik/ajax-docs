@@ -84,4 +84,4 @@ End Function
 ````
 
 
-Find a live demo illustrating the integration of RadFilter with RadGrid [here](http://demos.telerik.com/aspnet-ajax/Filter/Examples/Integration/DefaultCS.aspx).
+Find a live demo illustrating the integration of RadFilter with RadGrid [here](https://demos.telerik.com/aspnet-ajax/Filter/Examples/Integration/DefaultCS.aspx).

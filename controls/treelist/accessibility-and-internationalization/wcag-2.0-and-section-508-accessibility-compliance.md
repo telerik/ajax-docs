@@ -22,7 +22,7 @@ RadTreeList is fully compliant with the XHTML 1.1 requirements.
 
 You can easily create a RadTreeList instance which satisfies the requirements of "Section 508" for softwareaccessibility, as well as those of "Level AA" (in accordance with the W3C Web Accessibility Guidelines 2.0). This is demonstrated in the following online demo:
 
-[TreeList / Accessibility](http://demos.telerik.com/aspnet-ajax/treelist/examples/accessibility/defaultcs.aspx)
+[TreeList / Accessibility](https://demos.telerik.com/aspnet-ajax/treelist/examples/accessibility/defaultcs.aspx)
 
 This example demonstrates how you can make RadTreeList accessible by leveraging the settings for the different caption, tooltip and summaryproperties of the rendered HTML elements.
 
@@ -50,12 +50,12 @@ The RadTreeList control offers WAI-ARIA support. It can be easily enabled by set
 
 In order to inspect the HTML rendered by RadTreeList with WAI-ARIA support enabled, you can take a look at this online demo:
 
-[TreeList / WAI-ARIA Support](http://demos.telerik.com/aspnet-ajax/treelist/examples/waiariasupport/defaultcs.aspx)
+[TreeList / WAI-ARIA Support](https://demos.telerik.com/aspnet-ajax/treelist/examples/waiariasupport/defaultcs.aspx)
 
 # See Also
 
- * [XHTML 1.1](http://www.w3.org/TR/xhtml11/)
+ * [XHTML 1.1](https://www.w3.org/TR/xhtml11/)
 
  * [Section 508](http://www.section508.gov/)
 
- * [WAI-ARIA](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA](https://www.w3.org/WAI/intro/aria)

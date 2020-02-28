@@ -15,13 +15,13 @@ By default, **RadSpell** works with a phonetic spellcheck provider that uses pho
 | SpellCheckProvider | Description |
 | ------ | ------ |
 | **Edit Distance** (embedded)|Uses the edit distance algorithm and can be enabled by setting **SpellCheckProvider** property of RadSpell to **"EditDistanceProvider"** . An additional property **EditDistance** can be used in order to increase the number of the provided suggestions. For example:`<telerik:RadSpell RenderMode="Lightweight" ID="spell1" Runat="server" ControlToCheck="textBox1"SpellCheckProvider="EditDistanceProvider"	EditDistance="2" />`|
-| **MS Word Spell Checking** (external)|Microsoft Word support is not enabled by default for RadSpell. In order to enable it, one should follow	the steps provided in [Enabling MS Word Spell Checking](http://www.telerik.com/community/forums/aspnet-ajax/spell/enabling-ms-word-spell-checking.aspx) sticky thread.|
-| **OpenOffice Spell Checking** (external)|Since Q3 2010, Telerik provides support for NHunspell and OpenOffice dictionaries for RadSpell.	In order to enable this feature, one should follow the steps provided in [Using OpenOffice spell provider in RadSpell](http://www.telerik.com/community/code-library/aspnet-ajax/spell/using-openoffice-spell-provider-in-radspell.aspx) code library.|
+| **MS Word Spell Checking** (external)|Microsoft Word support is not enabled by default for RadSpell. In order to enable it, one should follow	the steps provided in [Enabling MS Word Spell Checking](https://www.telerik.com/community/forums/aspnet-ajax/spell/enabling-ms-word-spell-checking.aspx) sticky thread.|
+| **OpenOffice Spell Checking** (external)|Since Q3 2010, Telerik provides support for NHunspell and OpenOffice dictionaries for RadSpell.	In order to enable this feature, one should follow the steps provided in [Using OpenOffice spell provider in RadSpell](https://www.telerik.com/community/code-library/aspnet-ajax/spell/using-openoffice-spell-provider-in-radspell.aspx) code library.|
 
 >note The **Edit Distance provider** is the only built in provider, while **MS Word and OpenOffice providers** are external projects that need to be plugged in.
 
 # See Also
 
- * [Enabling MS Word Spell Checking](http://www.telerik.com/community/forums/aspnet-ajax/spell/enabling-ms-word-spell-checking.aspx)
+ * [Enabling MS Word Spell Checking](https://www.telerik.com/community/forums/aspnet-ajax/spell/enabling-ms-word-spell-checking.aspx)
 
- * [Using OpenOffice spell provider in RadSpell](http://www.telerik.com/community/code-library/aspnet-ajax/spell/using-openoffice-spell-provider-in-radspell.aspx)
+ * [Using OpenOffice spell provider in RadSpell](https://www.telerik.com/community/code-library/aspnet-ajax/spell/using-openoffice-spell-provider-in-radspell.aspx)

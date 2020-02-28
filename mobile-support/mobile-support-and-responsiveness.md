@@ -50,9 +50,9 @@ You can find more information about this feature in the [Controls Render Modes](
 
 On a page-level, you will want to be able to choose the layout of your page.Where should controls be placed for various device sizes?Should they be placed side-by-side, or stacked?How many should be side-by-side in each browser size?
 
-With the AJAX controls, Telerik now provide a	[Page Layout Framework](http://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx).This framework is similar to other responsive layout frameworks, but has some bonus features for you.The Page Layout Framework allows you to configure your layout on server-side using common device references when sizing containers for your controls. With layout definitions like "SpanForMobile" or "SpanForTablet" you can define your layouts with confidence that you are constructing something that will fit properly on those devices.
+With the AJAX controls, Telerik now provide a	[Page Layout Framework](https://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx).This framework is similar to other responsive layout frameworks, but has some bonus features for you.The Page Layout Framework allows you to configure your layout on server-side using common device references when sizing containers for your controls. With layout definitions like "SpanForMobile" or "SpanForTablet" you can define your layouts with confidence that you are constructing something that will fit properly on those devices.
 
-Those server-side capabilities have more information available for you, if you want to take control over the rendering of your content.	The	[Device Detection Framework](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) will allow you to detect and identify the exact size of the device that is requesting content from your web application.
+Those server-side capabilities have more information available for you, if you want to take control over the rendering of your content.	The	[Device Detection Framework](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) will allow you to detect and identify the exact size of the device that is requesting content from your web application.
 
 ## Responsive Control Behaviors
 
@@ -60,7 +60,7 @@ Thanks to the breadth of uses for the controls, the following behaviors are impl
 
 ### Adaptive Controls
 
-These controls feature multiple HTML renderings with appropriate styles to support various devices.When a page that contains an adaptive control is requested, the control will decide on the server which HTML rendering is optimal for the browser and device requesting content.This has the benefit of delivering the best experience to your visitors for their device resolution.	[View our adaptive control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/adaptive-behavior.aspx).
+These controls feature multiple HTML renderings with appropriate styles to support various devices.When a page that contains an adaptive control is requested, the control will decide on the server which HTML rendering is optimal for the browser and device requesting content.This has the benefit of delivering the best experience to your visitors for their device resolution.	[View our adaptive control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/adaptive-behavior.aspx).
 
 >caption Figure 2: Adaptive controls
 
@@ -69,7 +69,7 @@ These controls feature multiple HTML renderings with appropriate styles to suppo
 
 ### Elastic Controls
 
-Elastic behavior dictates that the controls will grow and shrink appropriately to maintain a size that is relative to the font-size in use on the page.This has a benefit for your end-users in that they can zoom or change font-sizes in their browser and the controls will size appropriately. [View our elastic control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/elastic-behavior.aspx).
+Elastic behavior dictates that the controls will grow and shrink appropriately to maintain a size that is relative to the font-size in use on the page.This has a benefit for your end-users in that they can zoom or change font-sizes in their browser and the controls will size appropriately. [View our elastic control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/elastic-behavior.aspx).
 
 >caption Figure 3: Elastic controls
 
@@ -78,7 +78,7 @@ Elastic behavior dictates that the controls will grow and shrink appropriately t
 
 ### Responsive Controls
 
-These controls feature a single HTML rendering, but are adapted for various device and browser sizes in the browser through styles and scripts.All script and style information is transmitted to the browser, and with CSS media queries the browser presents the optimized layout for the control. [View our responsive control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/responsive-behavior.aspx).
+These controls feature a single HTML rendering, but are adapted for various device and browser sizes in the browser through styles and scripts.All script and style information is transmitted to the browser, and with CSS media queries the browser presents the optimized layout for the control. [View our responsive control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/responsive-behavior.aspx).
 
 >caption Figure 4: Responsive controls
 
@@ -104,7 +104,7 @@ The AJAX controls come with many themes that can be applied to every control.Sev
 
 * Glow
 
-You can review how these themes appear for each control in our [demos website](http://demos.telerik.com/aspnet-ajax/) by selecting the skin on the top navbar next to the "ask a question" button.
+You can review how these themes appear for each control in our [demos website](https://demos.telerik.com/aspnet-ajax/) by selecting the skin on the top navbar next to the "ask a question" button.
 
 ## Gestures Support
 
@@ -128,15 +128,15 @@ More information about the gestures support for the controls can be found in the
 
 ## Samples – See the Mobile Features Running
 
-Telerik has assembled samples implementations of all of these features for you to be able to review on the	[Responsive Web Design sample website](http://demos.telerik.com/responsive-web-design-aspnet/default.aspx). Click through to that sample to try out the various features outlined here, including Adaptive, Elastic, and Responsive behaviors. Don’t forget to try using that sample website with your tablet and smart phone.
+Telerik has assembled samples implementations of all of these features for you to be able to review on the	[Responsive Web Design sample website](https://demos.telerik.com/responsive-web-design-aspnet/default.aspx). Click through to that sample to try out the various features outlined here, including Adaptive, Elastic, and Responsive behaviors. Don’t forget to try using that sample website with your tablet and smart phone.
 
 ## See Also
 
- * [Responsive Web Design Sample Website](http://demos.telerik.com/responsive-web-design-aspnet/default.aspx)
+ * [Responsive Web Design Sample Website](https://demos.telerik.com/responsive-web-design-aspnet/default.aspx)
 
- * [Page Layout Framework](http://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx)
+ * [Page Layout Framework](https://www.telerik.com/products/aspnet-ajax/responsive-page-layout.aspx)
 
- * [Device Detection Framework](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
+ * [Device Detection Framework](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
  
  * [Render Modes Basics]({%slug controls/render-modes%})
 

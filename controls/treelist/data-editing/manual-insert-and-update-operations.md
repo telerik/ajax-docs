@@ -105,4 +105,4 @@ item.ExtractValues(table)
 
 # See Also
 
- * [TreeList / Manual data editing demo](http://demos.telerik.com/aspnet-ajax/treelist/examples/dataediting/manualdataediting/defaultcs.aspx)
+ * [TreeList / Manual data editing demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/dataediting/manualdataediting/defaultcs.aspx)

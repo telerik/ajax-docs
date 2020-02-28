@@ -94,7 +94,7 @@ position: 0
 | **BorderRight** |Telerik.Web.Spreadsheet.BorderStyle|The style information for the right border of the cell.|
 | **BorderTop** |Telerik.Web.Spreadsheet.BorderStyle|The style information for the top border of the cell.|
 | **Color** |string|The font color of the cell.Many standard CSS formats are supported, but the canonical form is "#ccff00".|
-|**Editor**|string|The [custom editor](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/custom-editors/defaultcs.aspx) of the cell.|
+|**Editor**|string|The [custom editor](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/custom-editors/defaultcs.aspx) of the cell.|
 | **Enable** |double?|Disables or enables cell.|
 | **FontFamily** |string|The font family for the cell.|
 | **FontSize** |double?|The font size of the cell in pixels.|
@@ -105,7 +105,7 @@ position: 0
 | **Link** |string|The hyperlink (URL) of the cell.|
 | **TextAlign** |string|The text align setting for the cell content. Available options are: *left*, *center*, *right* or *justify*|
 | **Underline** |bool?|Sets the cell font to underline, if set to true.|
-|**Validation**|Telerik.Web.Spreadsheet.Validation|The [Validation settings](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/validation/defaultcs.aspx) of the cell.|
+|**Validation**|Telerik.Web.Spreadsheet.Validation|The [Validation settings](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/validation/defaultcs.aspx) of the cell.|
 | **Value** |object|The cell value.|
 | **VerticalAlign** |string|The vertical align setting for the cell content. Available options are: * top * center * bottom.|
 | **Wrap** |bool?|Will wrap the cell content if set to true.|

@@ -208,7 +208,7 @@ End Sub
 >
 
 
-For a live example that shows a custom edit form implemented using a UserControl, see [User control edit form](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultVB.aspx).
+For a live example that shows a custom edit form implemented using a UserControl, see [User control edit form](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/UserControlEditForm/DefaultVB.aspx).
 
 ## Template
 
@@ -234,7 +234,7 @@ When using a template to implement a custom edit form, you can bind the items us
 
 
 
-For a live example that shows a custom edit form implemented using a template, see [Form template edit form](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx).
+For a live example that shows a custom edit form implemented using a template, see [Form template edit form](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx).
 
 >tip When using [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%}), use the **Bind()** syntax to bind template controls. This allows the grid to extract updated values and pass them to the data source with no additional code on your part.
 >

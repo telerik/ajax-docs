@@ -108,7 +108,7 @@ As shown in the code, the RadComboBox control is bound to an EntityDataSource. W
 
 
 
-The complete example is available as part of the following [blog post](	http://blogs.telerik.com/vladimirenchev/posts/08-12-03/New-feature-ASP-NET-AJAX-grid-filter-template.aspx). You may also review the online demo demonstrating this feature [here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/FilterTemplate/DefaultCS.aspx).
+The complete example is available as part of the following [blog post](	https://blogs.telerik.com/vladimirenchev/posts/08-12-03/New-feature-ASP-NET-AJAX-grid-filter-template.aspx). You may also review the online demo demonstrating this feature [here](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/FilterTemplate/DefaultCS.aspx).
 
 Another approach, which is possible with the filter template, for example if you are not using an EntityDatasource, is to use server side code to set the filter expression for the grid control manually. Let us assume that we have a GridBoundColumn, bound to a data source field called "CategoryName". We want, instead of using the default filter menu, to utilize a RadComboBox which should enable the end user to select an item from the combo, and have the grid display the relevant items. In this case, the aspx declaration of the column would look something like:
 

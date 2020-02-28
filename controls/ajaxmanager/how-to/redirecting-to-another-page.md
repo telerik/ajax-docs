@@ -56,4 +56,4 @@ RadAjaxPanel1.Redirect("http://www.google.com/")
 
 ## See Also
 
- * [Demo: Redirect with RadAjax](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/Redirect/DefaultCS.aspx)
+ * [Demo: Redirect with RadAjax](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/Redirect/DefaultCS.aspx)

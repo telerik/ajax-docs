@@ -281,7 +281,7 @@ End Class
 >note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 >
 
-For a live example of using a Web service to populate items, see the [Web Service demo](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx).
+For a live example of using a Web service to populate items, see the [Web Service demo](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx).
 
 ## Using a WCF Web Service
 
@@ -408,4 +408,4 @@ End Class
 
 >note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 
-For a live example of using a WCF Web service to populate items, see the [WCF Web Service demo](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx).
+For a live example of using a WCF Web service to populate items, see the [WCF Web Service demo](https://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx).

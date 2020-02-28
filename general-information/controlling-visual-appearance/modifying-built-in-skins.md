@@ -36,7 +36,7 @@ The built-in (embedded) Telerik controls skins can be reviewed as ordinary CSS f
 
 ## Finding out which CSS rule to modify (override)
 
-The easiest way to discover which CSS rule is responsible for a given control style applied in the browser is to use some web developer tool such as [Firebug for Firefox](http://www.getfirebug.com/) or [Web Developer Toolbar for Internet Explorer](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=95e06cbe-4940-4218-b75d-b8856fced535). Such tools help inspect the HTML output and CSS styles instantly and even allow experiments and changes on the fly. Another useful opportunity these tools provide is to learn about the Telerik controls HTML rendering.
+The easiest way to discover which CSS rule is responsible for a given control style applied in the browser is to use some web developer tool such as [Firebug for Firefox](http://www.getfirebug.com/) or [Web Developer Toolbar for Internet Explorer](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=95e06cbe-4940-4218-b75d-b8856fced535). Such tools help inspect the HTML output and CSS styles instantly and even allow experiments and changes on the fly. Another useful opportunity these tools provide is to learn about the Telerik controls HTML rendering.
 
 ## CSS Selectors and CSS Specificity
 
@@ -50,14 +50,14 @@ Articles about CSS specificity:
 
 * ["What Happens When Conflict Occurs"](http://css.maxdesign.com.au/selectutorial/advanced_conflict.htm)
 
-* [CSS Cascading Order Specification](http://www.w3.org/TR/CSS2/cascade.html#cascading-order)
+* [CSS Cascading Order Specification](https://www.w3.org/TR/CSS2/cascade.html#cascading-order)
 
 
 
 Here is a blog post, which extends the information above with an example about overriding a RadGrid skin.
 
-[How To Override Styles in a Telerik® UI for ASP.NET AJAX' Embedded Skin](http://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx)
+[How To Override Styles in a Telerik® UI for ASP.NET AJAX' Embedded Skin](https://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx)
 
 Also you can refer the PSD files for the obsolete controls' skins and some specific custom skins using the portal below:
 
-[Skins Code Library portal](http://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)
+[Skins Code Library portal](https://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)

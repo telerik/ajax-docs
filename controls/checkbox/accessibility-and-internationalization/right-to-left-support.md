@@ -27,7 +27,7 @@ The **RadCheckBox** fully supports right-to-left (RTL) language locales (**Figur
 
 ## See Also
 
- * [Live Demo: RadCheckBox RTL Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/righttoleft/defaultcs.aspx)
+ * [Live Demo: RadCheckBox RTL Support](https://demos.telerik.com/aspnet-ajax/checkbox/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug checkbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

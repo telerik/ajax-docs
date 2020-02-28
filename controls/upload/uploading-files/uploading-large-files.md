@@ -12,7 +12,7 @@ position: 1
 
 
 
->caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](https://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](https://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](https://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -42,7 +42,7 @@ Specifies the maximum number of seconds that a request is allowed to execute bef
 
 To enable large file uploads, which can take large periods of time, increase the value of this property.
 
-You can find more information about the **httpRuntime** configuration in the following MSDN article: [http://msdn2.microsoft.com/en-us/library/e1f13641.aspx](http://msdn2.microsoft.com/en-us/library/e1f13641.aspx).
+You can find more information about the **httpRuntime** configuration in the following MSDN article: [https://msdn2.microsoft.com/en-us/library/e1f13641.aspx](https://msdn2.microsoft.com/en-us/library/e1f13641.aspx).
 
 ## How to modify web.config
 
@@ -124,11 +124,11 @@ Specifies the time, in the format HH:MM:SS, that must elapse after the last rest
 
 Sometimes when the application is hosted on **Windows Server 2003**, the above settings do not seem to have effect. In this case you must modify the IIS metadata file, particularly the **AspMaxRequestEntityAllowed** property. You can find more information about that in the following KB article:
 
-[http://www.telerik.com/support/kb/article/b454K-gth-b454T-cee.aspx](http://www.telerik.com/support/kb/article/b454K-gth-b454T-cee.aspx)
+[https://www.telerik.com/support/kb/article/b454K-gth-b454T-cee.aspx](https://www.telerik.com/support/kb/article/b454K-gth-b454T-cee.aspx)
 
 ## Microsoft URLScan
 
-If you are using [Microsoft URLScan](http://www.microsoft.com/technet/security/tools/urlscan.mspx) you will need to modify its **urlscan.ini** and set **MaxAllowedContentLength** to an appropriate value.
+If you are using [Microsoft URLScan](https://www.microsoft.com/technet/security/tools/urlscan.mspx) you will need to modify its **urlscan.ini** and set **MaxAllowedContentLength** to an appropriate value.
 
 ## Third party network monitoring software
 

@@ -34,4 +34,4 @@ Custom paging can be used both with declarative data source controls (using the 
 >
 
 
-To see RadListView in action with custom paging, please, visit the [custom paging live demo.](http://demos.telerik.com/aspnet-ajax/listview/examples/paging/custompaging/defaultcs.aspx)
+To see RadListView in action with custom paging, please, visit the [custom paging live demo.](https://demos.telerik.com/aspnet-ajax/listview/examples/paging/custompaging/defaultcs.aspx)

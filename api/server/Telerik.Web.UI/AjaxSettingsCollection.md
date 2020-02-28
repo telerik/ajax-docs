@@ -7,7 +7,7 @@ description: Telerik.Web.UI.AjaxSettingsCollection
 # Telerik.Web.UI.AjaxSettingsCollection
 
 AjaxSettings collection. 
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically AjaxSettingsfor more information.
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically AjaxSettingsfor more information.
 
 ## Inheritance Hierarchy
 

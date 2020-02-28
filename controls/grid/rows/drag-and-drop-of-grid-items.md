@@ -34,7 +34,7 @@ RadGrid exposes flexible event-driven mechanism to drag and drop grid records to
 
 
 
-This will make the grid data rows draggable and the end user will be able to relocate them if needed. Additionally, you can define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in your GridTableView's Columns collection. This will make your grid items draggable only when grabbed by the drag handle in the GridDragDropColumn. For a live demo, please refer to the [RadGrid Items Drag-and-Drop live example](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
+This will make the grid data rows draggable and the end user will be able to relocate them if needed. Additionally, you can define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in your GridTableView's Columns collection. This will make your grid items draggable only when grabbed by the drag handle in the GridDragDropColumn. For a live demo, please refer to the [RadGrid Items Drag-and-Drop live example](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
 
 Furthermore, depending on the position you drag an item (above or below other record) it will be placed respectively above or below the corresponding grid item. This is meaningful only when you reorder rows within the same RadGrid or from one RadGrid to another.
 

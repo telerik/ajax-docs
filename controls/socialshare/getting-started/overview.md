@@ -26,7 +26,7 @@ The following tutorial demonstrates how a simple **RadSocialShare** control can 
 
 
 
-1. Set the **UrlToShare** property to **http://www.telerik.com/products/aspnet-ajax.aspx** .
+1. Set the **UrlToShare** property to **https://www.telerik.com/products/aspnet-ajax.aspx** .
 
 1. Set the **TitleToShare** property to **ASP.NET AJAX Controls, .NET Web UI Components | Telerik** .
 
@@ -34,7 +34,7 @@ The following tutorial demonstrates how a simple **RadSocialShare** control can 
 
 	__ASP.NET__
 
-		<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx"
+		<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="https://www.telerik.com/products/aspnet-ajax.aspx"
 		        TitleToShare="ASP.NET AJAX Controls, .NET Web UI Components | Telerik">
 		    <MainButtons>
 		        <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />

@@ -44,7 +44,7 @@ Here is a list of all known **RadAjax** limitations:
 
 
 
-2. **RadAjaxTimer control** Telerik decided not to include a Timer control in **RadAjax for ASP.NET AJAX** , because the Timer control is a postback control and does not include AJAX capabilities by itself. In addition, Microsoft included a Timer control in Microsoft AJAX that offers basic functionality, and you cause the "Classic" Timer as shown in[this online demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/common/ajaxifytimer/defaultcs.aspx) which illustrates sample approach.
+2. **RadAjaxTimer control** Telerik decided not to include a Timer control in **RadAjax for ASP.NET AJAX** , because the Timer control is a postback control and does not include AJAX capabilities by itself. In addition, Microsoft included a Timer control in Microsoft AJAX that offers basic functionality, and you cause the "Classic" Timer as shown in[this online demo](https://demos.telerik.com/aspnet-ajax/ajax/examples/common/ajaxifytimer/defaultcs.aspx) which illustrates sample approach.
 
 3. **Ajaxified control postbacks when there are no updated controls**The following **RadAjaxManager** setting will not ajaxify the button:
 

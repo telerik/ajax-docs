@@ -83,4 +83,4 @@ Alternatively, you can use various data source controls such as SqlDataSource, O
 
  * [Declarative Data Source]({%slug dataform/data-binding/declarative-data-source%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/DataForm/Data-Binding/Server-side-Binding/DefaultCS.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/DataForm/Data-Binding/Server-side-Binding/DefaultCS.aspx)

@@ -38,7 +38,7 @@ This tab allows you to adjust the number of rows and columns as well as adjust t
 
 * **Back Color** - Sets the background color of the table.
 
-* **CSS Class** - Styles the entire table by using a predefined layout. For more information see the [Table Properties CSS Class Layout toolOnline Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
+* **CSS Class** - Styles the entire table by using a predefined layout. For more information see the [Table Properties CSS Class Layout toolOnline Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
 
 * **Back Image** - Sets an image as the table background.
 

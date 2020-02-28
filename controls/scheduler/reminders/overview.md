@@ -44,7 +44,7 @@ X-TELERIK-UID:d1f02b03-82f2-4267-b24e-89baeb9170e3
 
 END:VALARM
 
-For more information on the **RFC 2445**( **iCalendar** ) specification, please see the [Wikipedia article](http://en.wikipedia.org/wiki/ICalendar)
+For more information on the **RFC 2445**( **iCalendar** ) specification, please see the [Wikipedia article](https://en.wikipedia.org/wiki/ICalendar)
 
 # See Also
 

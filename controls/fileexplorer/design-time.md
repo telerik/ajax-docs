@@ -30,4 +30,4 @@ The **Skin** drop-down displays a list of available [skins]({%slug fileexplorer/
 
 * You can also search the Telerik web site for a given string.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).

@@ -95,7 +95,7 @@ End Sub
 
 You can use any external control to force **RadAjaxPanel** to perform an AJAX request by calling this client-side function. When using this function, the event target defaults to the **RadAjaxPanel** instance.
 
->note You can construct the JavaScript function calls manually or alternatively use the server-side method[GetAjaxEventReference](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radajaxcontrol_getajaxeventreference.html)and have Telerik RadAjax generate the necessary code for you.
+>note You can construct the JavaScript function calls manually or alternatively use the server-side method[GetAjaxEventReference](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radajaxcontrol_getajaxeventreference.html)and have Telerik RadAjax generate the necessary code for you.
 >
 
 
@@ -121,6 +121,6 @@ When either of these functions is called on the client it can be handled in the 
 ## See Also
  * [Client-side Programming Overview]({%slug ajaxpanel/client-side-programming/overview%})
 
- * [Demo: RadAjaxManager](http://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)
+ * [Demo: RadAjaxManager](https://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)
 
- * [Demo: RadAjaxPanel](http://demos.telerik.com/aspnet-ajax/ajax/examples/panel/firstlook/defaultcs.aspx)
+ * [Demo: RadAjaxPanel](https://demos.telerik.com/aspnet-ajax/ajax/examples/panel/firstlook/defaultcs.aspx)

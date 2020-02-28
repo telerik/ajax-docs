@@ -14,7 +14,7 @@ position: 0
 
 
 
-The **SelectionChanged** server-side event is fired when a new [tile is selected]({%slug tilelist/functionality/selecting%}) and **AutoPostBack** is set to **true**. It allows the developer to obtain a list of the selected tiles in order to use that information. An example is available in the [Selection online demo](http://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx).
+The **SelectionChanged** server-side event is fired when a new [tile is selected]({%slug tilelist/functionality/selecting%}) and **AutoPostBack** is set to **true**. It allows the developer to obtain a list of the selected tiles in order to use that information. An example is available in the [Selection online demo](https://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx).
 
 The event handler receives two arguments - of type **object** that is a reference to the RadTileList control that fired the event and can be cast to it, and a **System.EventArgs** object.
 
@@ -118,4 +118,4 @@ End Sub
 
 # See Also
 
- * [Selection online demo](http://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx)
+ * [Selection online demo](https://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx)

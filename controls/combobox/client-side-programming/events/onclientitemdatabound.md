@@ -44,7 +44,7 @@ function onItemDataBound(sender, eventArgs)
 
 
 
->tip Another usage of the DataItem object is in **client-side Templates** that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details - [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand]( http://blogs.telerik.com/veselinvasilev/posts/09-01-15/RadComboBox-and-ASP-NET-AJAX-4-0-Preview-ndash-using-client-side-templates-and-webservice-load-on-demand.aspx).
+>tip Another usage of the DataItem object is in **client-side Templates** that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details - [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand]( https://blogs.telerik.com/veselinvasilev/posts/09-01-15/RadComboBox-and-ASP-NET-AJAX-4-0-Preview-ndash-using-client-side-templates-and-webservice-load-on-demand.aspx).
 >
 
 
@@ -52,4 +52,4 @@ function onItemDataBound(sender, eventArgs)
 
  * [Loading Items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
 
- * [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand](http://www.telerik.com/blogs/radcombobox-and-asp-net-ajax-4-0-preview-ndash-using-client-side-templates-and-webservice-load-on-demand)
+ * [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand](https://www.telerik.com/blogs/radcombobox-and-asp-net-ajax-4-0-preview-ndash-using-client-side-templates-and-webservice-load-on-demand)

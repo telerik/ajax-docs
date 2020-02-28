@@ -69,4 +69,4 @@ In the list provided below you can find the control features that can be turned 
 
 # See Also
 
- * [Image Gallery Mobile Demo](http://demos.telerik.com/aspnet-ajax/image-gallery/mobile-examples/overview/default.aspx?name=Overview)
+ * [Image Gallery Mobile Demo](https://demos.telerik.com/aspnet-ajax/image-gallery/mobile-examples/overview/default.aspx?name=Overview)

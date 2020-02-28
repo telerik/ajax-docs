@@ -40,7 +40,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **set_value** |(string value)|none|Sets the value of **RadComboBox** .|
 | **get_value** |none|string|Gets the value of **RadComboBox** .|
 | **showDropDown** |none|none|Opens the drop-down list.|
-| **set_closeDropDownOnBlur** |Boolean|none|If you call the **showDropDown** / **toggleDropDown** method on a button click, you will have to use **combo.set_closeDropDownOnBlur(false)** right before you call the **showDropDown** / **toggleDropDown** method, otherwise the drop-down area will flicker instead of open. Then, you should use **combo.set_closeDropDownOnBlur(true)** in the **OnClientBlur** event handler. You can see a demo at: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)|
+| **set_closeDropDownOnBlur** |Boolean|none|If you call the **showDropDown** / **toggleDropDown** method on a button click, you will have to use **combo.set_closeDropDownOnBlur(false)** right before you call the **showDropDown** / **toggleDropDown** method, otherwise the drop-down area will flicker instead of open. Then, you should use **combo.set_closeDropDownOnBlur(true)** in the **OnClientBlur** event handler. You can see a demo at: [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)|
 | **hideDropDown** |none|none|Closes the drop-down list.|
 | **toggleDropDown** |none|none|Toggles the drop-down list.|
 | **enable** |none|none|Enables the **RadComboBox**. See **Example 7**.|

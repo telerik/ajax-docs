@@ -45,7 +45,7 @@ Here is a list of the available command names in Telerik RadListView:
 
 | Fired by button controls or RadDataPager when attached to RadListView |  |
 | ------ | ------ |
-| **PageCommandName** |Represents the Page command name.Fires the **RadListView.PageIndexChanged** event. Can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging** property is set to true or by RadDataPager. Their **CommandName** should be set to **'Page'** and **CommandArgument** must match one of the values from the second table below. See also:[RadDataPager Overview](http://www.telerik.com/help/aspnet-ajax/datapager-overview.html)|
+| **PageCommandName** |Represents the Page command name.Fires the **RadListView.PageIndexChanged** event. Can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging** property is set to true or by RadDataPager. Their **CommandName** should be set to **'Page'** and **CommandArgument** must match one of the values from the second table below. See also:[RadDataPager Overview](https://www.telerik.com/help/aspnet-ajax/datapager-overview.html)|
 | **ChangePageSizeCommandName** |Represents the ChangePageSize command name. Fires **RadListView.PageSizeChanged** event. Can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging** property is set to true or by RadDataPager. Their **CommandName** should be set to **'ChangePageSize'** and **CommandArgument** must be the actual number representing the new page size that will be set.|
 
 Furthermore, here are the internally recognized command arguments you can check:

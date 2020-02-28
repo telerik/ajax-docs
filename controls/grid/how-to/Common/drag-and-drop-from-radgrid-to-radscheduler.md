@@ -12,7 +12,7 @@ position: 17
 
 
 
-[This online demo](http://demos.telerik.com/aspnet-ajax/scheduler/examples/draganddropintegration/defaultcs.aspx?product=grid) demonstrates how to implement support for drag and drop from RadGrid to RadScheduler.
+[This online demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/draganddropintegration/defaultcs.aspx?product=grid) demonstrates how to implement support for drag and drop from RadGrid to RadScheduler.
 
 When a task is dragged from the grid to the scheduler, the time slot which will receive the appointment is highlighted. After the task is dropped, it appears in the RadScheduler control as an appointment and it is removed from the grid. This is achieved by updating the data sources and rebinding both controls.
 

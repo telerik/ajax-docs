@@ -212,6 +212,6 @@ Several new properties have been exposed for the DataGrouping functionality:
 
 ## See Also
 
-* [Live Demo: Data Grouping](http://demos.telerik.com/aspnet-ajax/listview/examples/datagrouping/defaultcs.aspx)
+* [Live Demo: Data Grouping](https://demos.telerik.com/aspnet-ajax/listview/examples/datagrouping/defaultcs.aspx)
 
 * [Simple (UI) Grouping]({% slug listview/fuctionality/grouping/overview %})

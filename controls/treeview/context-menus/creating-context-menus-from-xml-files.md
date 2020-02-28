@@ -30,4 +30,4 @@ RadTreeView1.ContextMenus(0).LoadContentFile("~/MyContextMenuContentFile.xml")
 ````
 
 
-The structure of the context menu content file is the same as the structure of the [RadMenu content file](http://www.telerik.com/help/aspnet-ajax/menu-items-xml.html).
+The structure of the context menu content file is the same as the structure of the [RadMenu content file](https://www.telerik.com/help/aspnet-ajax/menu-items-xml.html).

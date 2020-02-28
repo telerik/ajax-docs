@@ -95,12 +95,12 @@ You also need to set the **DataKeyNames** and **ParentDataKeyNames** properties 
 
 The following MSDN articles describe how to configure some of the more common DataSource controls:
 
-[AccessDataSource](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
+[AccessDataSource](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
 
-[SqlDataSource](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
+[SqlDataSource](https://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
 
-[ObjectDataSource](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
+[ObjectDataSource](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
 
-[LinqDataSource](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+[LinqDataSource](https://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
-[EntityDataSource](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
+[EntityDataSource](https://msdn.microsoft.com/en-us/library/cc488502.aspx)

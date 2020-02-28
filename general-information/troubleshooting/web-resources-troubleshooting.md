@@ -47,7 +47,7 @@ If you paste that URL in your browser's address bar (after the domain and folder
 
 ### Using Web Development Tools to Request the WebResource Handler
 
-You could use an HTTP traffic sniffer tool - [Fiddler](http://www.telerik.com/fiddler) for Internet Explorer or [FireBug](http://www.getfirebug.com/) for FireFox to find out if the request to a web resource file failed.
+You could use an HTTP traffic sniffer tool - [Fiddler](https://www.telerik.com/fiddler) for Internet Explorer or [FireBug](http://www.getfirebug.com/) for FireFox to find out if the request to a web resource file failed.
 
 ## Dealing with the Error
 
@@ -65,7 +65,7 @@ There are, however, a few ways to alleviate such a problem:
 
 * look into ways to increase the Application Pool recycle time or implement a heartbeat-like functionality to keep it alive at all times
 
-* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](http://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
+* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](https://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
 
 
 ### Unauthorized Access (401) Error
@@ -74,7 +74,7 @@ When your project uses a form of authentication (e.g., Windows Authentication), 
 
 There are two ways to resolve this:
 
-* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](http://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
+* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](https://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
 
 	>tip You can also use [single request for all scripts]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) and a [combined base stylesheet request]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) to greatly reduce the number of network requests.
 
@@ -192,7 +192,7 @@ Check the detailed error message where the two common cases are:
 
 1. "Padding is invalid and cannot be removed"
 
-	The problem is likely to be related with the machine key. [This](http://msdn2.microsoft.com/en-us/library/ms998288.aspx) MSDN article describes how to create a custom machine key.
+	The problem is likely to be related with the machine key. [This](https://msdn2.microsoft.com/en-us/library/ms998288.aspx) MSDN article describes how to create a custom machine key.
 
 1. "Specified argument was out of the range of valid values. Parameter name: utcDate"
 

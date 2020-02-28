@@ -41,5 +41,5 @@ The Smart Tags for [RadAjaxPanel]({%slug ajaxpanel/overview%}) and [RadAjaxManag
 
 * You can also search the Telerik web site for a given string.
 
-* You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
+* You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 

@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ImageGalleryClientEvents
 # Telerik.Web.UI.ImageGalleryClientEvents
 
 RadImageGallery ClientEvents class
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/client-side-programming/events Client-side Programming / Eventstopic for more information
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/client-side-programming/events Client-side Programming / Eventstopic for more information
 
 ## Inheritance Hierarchy
 

@@ -198,4 +198,4 @@ You can use the following collections of RadListBoxItem objects:
 
  * [Working at Client-side]({%slug listbox/radlistbox-items/working-at-client-side%})
 
- * [Add/Remove/Disable Items Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/serverside/addremovedisable/defaultcs.aspx)
+ * [Add/Remove/Disable Items Demo](https://demos.telerik.com/aspnet-ajax/listbox/examples/serverside/addremovedisable/defaultcs.aspx)

@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadPushButton control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
 	* get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -55,7 +55,7 @@ End Sub
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
 
@@ -67,5 +67,5 @@ End Sub
  
  * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.ButtonCancelEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
+ * [Telerik.Web.UI.ButtonCancelEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
 

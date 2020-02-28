@@ -70,8 +70,8 @@ Again further information can be found [here]({%slug listview/fuctionality/filte
 
 The above functionalities can also be achieved without manually building the filter expression. **RadFilter** control which provides UI and back-end for building complex filtering criteria. In most cases it is enough to assign the ID of RadListView to the **FilteredControlID** property of the RadFilter and you are ready to go. This is demonstrated in the following online demo:
 
-[ListView / Filtering with RadFilter](http://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx?product=listview)
+[ListView / Filtering with RadFilter](https://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx?product=listview)
 
 For more custom scenarios (like applying expressions on custom actions, building expressions through the filter APIs, etc.) the **FireApplyCommand()** method along with the **OnApplyExpressions** event are used. RadFilter has a query provider written to produce filter queries specifically for the RadListView control - **RadFilterListViewQueryProvider**. You can use it to extract the built custom expression and assign it to RadListView. You can see a code sample on using the provider in the following help article:
 
-[RadListView Filtering with RadFilter](http://www.telerik.com/help/aspnet-ajax/filter-listview-filtering.html)
+[RadListView Filtering with RadFilter](https://www.telerik.com/help/aspnet-ajax/filter-listview-filtering.html)

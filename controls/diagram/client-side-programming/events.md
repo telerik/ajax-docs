@@ -14,31 +14,31 @@ position: 1
 
 * **OnLoad**—raised when the control is initialized. You can use it to store object references.You can get the underlying Kendo widget from the RadDiagram object via the get_kendoWidget() method.
 
-* [OnAdd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-add)—raised when the user adds a new shape or a new connection.
+* [OnAdd](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-add)—raised when the user adds a new shape or a new connection.
 
-* [OnChange](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change)—raised when an item is added or removed to/from the diagram.
+* [OnChange](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change)—raised when an item is added or removed to/from the diagram.
 
-* [OnClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-click)—raised when the user clicks on a shape or a connection.
+* [OnClick](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-click)—raised when the user clicks on a shape or a connection.
 
-* [OnDataBound](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-dataBound)—raised when the widget is bound to data from a dataDource and a connectionsDataSource.
+* [OnDataBound](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-dataBound)—raised when the widget is bound to data from a dataDource and a connectionsDataSource.
 
-* [OnItemBoundsChange](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-itemBoundsChange)—raised when the location or size of an item are changed.
+* [OnItemBoundsChange](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-itemBoundsChange)—raised when the location or size of an item are changed.
 
-* [OnItemRotate](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-itemRotate)—raised when an item is rotated.
+* [OnItemRotate](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-itemRotate)—raised when an item is rotated.
 
-* [OnMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-mouseEnter)—raised when the mouse enters a shape or a connection. Will not fire for disabled items.
+* [OnMouseEnter](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-mouseEnter)—raised when the mouse enters a shape or a connection. Will not fire for disabled items.
 
-* [OnMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-mouseLeave)—raised when the mouse leaves a shape or a connection. Will not fire for disabled items.
+* [OnMouseLeave](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-mouseLeave)—raised when the mouse leaves a shape or a connection. Will not fire for disabled items.
 
-* [OnPan](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-pan)—raised when the user pans the diagram.
+* [OnPan](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-pan)—raised when the user pans the diagram.
 
-* [OnRemove](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-remove)—raised when the user deletes a shape or a connection.
+* [OnRemove](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-remove)—raised when the user deletes a shape or a connection.
 
-* [OnSelect](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-select)—raised when the user selects one or more items.
+* [OnSelect](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-select)—raised when the user selects one or more items.
 
-* [OnZoomStart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-zoomStart)—raised when the user starts changing the diagram zoom level.
+* [OnZoomStart](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-zoomStart)—raised when the user starts changing the diagram zoom level.
 
-* [OnZoomEnd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-zoomEnd)—raised when the user changes the diagram zoom level.
+* [OnZoomEnd](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-zoomEnd)—raised when the user changes the diagram zoom level.
 
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the	corresponding property in the **ClientEvents** RadDiagram subtag.
 
@@ -56,7 +56,7 @@ To use these events, simply write a JavaScript function that can be called when 
 </script>
 ````
 
-All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full set of arguments coming with each event in the [Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
+All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full set of arguments coming with each event in the [Kendo UI diagram API reference](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
 
 ````ASP.NET
 <telerik:RadDiagram ID="RadDiagram2" runat="server">

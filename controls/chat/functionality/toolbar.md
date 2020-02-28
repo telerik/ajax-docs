@@ -104,5 +104,5 @@ The Chat configuration object allows you to configure the following behavior asp
 
  * [Kendo UI Toolbar](https://docs.telerik.com/kendo-ui/controls/conversational-ui/chat/toolbar)
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
  

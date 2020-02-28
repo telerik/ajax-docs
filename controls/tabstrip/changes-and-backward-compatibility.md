@@ -13,7 +13,7 @@ position: 5
 
 ## RadTabStrip for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## RadTabStrip for ASP.NET AJAX Q3 SP1 2009 (Version Number: 2009.3.1208):
 
@@ -35,7 +35,7 @@ RadTabStrip is fully backward compatible with its previous version
 
 * Three skins have been removed - Gray, Inox and SkyBlue.
 
-* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](http://blogs.telerik.com/atanaskorchev/posts/09-03-06/Meet_Telerik_Web_Design_dll.aspx) for more information.
+* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](https://blogs.telerik.com/atanaskorchev/posts/09-03-06/Meet_Telerik_Web_Design_dll.aspx) for more information.
 
 ## RadTabStrip for ASP.NET AJAX Q3 SP1 2008 (Version Number 2008.3.1125)
 

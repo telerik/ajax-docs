@@ -97,7 +97,7 @@ End Namespace
 ````
 
 
-To see a live example of the drag and drop support of **RadTreeView** visit the [Drag & Drop live demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/DragAndDropNodes/DefaultCS.aspx).
+To see a live example of the drag and drop support of **RadTreeView** visit the [Drag & Drop live demo](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/DragAndDropNodes/DefaultCS.aspx).
 
 # See Also
 

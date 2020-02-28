@@ -30,6 +30,6 @@ An issue with the use of WAI-ARIA in HTML documents is that they do not pass val
 
 # See Also
 
- * [This functionality online](http://demos.telerik.com/aspnet-ajax/calendar/examples/functionality/waiariasupport/defaultcs.aspx)
+ * [This functionality online](https://demos.telerik.com/aspnet-ajax/calendar/examples/functionality/waiariasupport/defaultcs.aspx)
 
- * [WAI-ARIA basic information](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)

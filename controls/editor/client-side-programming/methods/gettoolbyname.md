@@ -37,7 +37,7 @@ The solution below demonstrates how to implement an adaptive custom button that 
 <telerik:RadEditor RenderMode="Lightweight" OnClientSelectionChange="OnClientSelectionChange" runat="server"
 	ID="RadEditor2">
 	<Content>
-	Sample content: <img src="http://www.telerik.com/demos/aspnet/for ASP.NET AJAX-futures/Editor/Img/productLogo.gif"></img>
+	Sample content: <img src="https://www.telerik.com/demos/aspnet/for ASP.NET AJAX-futures/Editor/Img/productLogo.gif"></img>
 	</Content>
 	<Tools>
 		<telerik:EditorToolGroup>
@@ -54,7 +54,7 @@ The `<telerik:EditorTool Name="MyCustomImageDialog" />` inner tag will be render
 ````CSS
 .MyCustomImageDialog
 {
-	background-image: url(http://www.telerik.com/RadControls/Editor/Skins/Custom/buttons/Underline.gif) !important;
+	background-image: url(https://www.telerik.com/RadControls/Editor/Skins/Custom/buttons/Underline.gif) !important;
 }
 ````
 

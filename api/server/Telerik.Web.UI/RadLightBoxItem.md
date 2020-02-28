@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadLightBoxItem
 
 # Telerik.Web.UI.RadLightBoxItem
 
-RadLightBox Item. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/overview Overview topicfor more information.
+RadLightBox Item. See the https://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/overview Overview topicfor more information.
 
 ## Inheritance Hierarchy
 

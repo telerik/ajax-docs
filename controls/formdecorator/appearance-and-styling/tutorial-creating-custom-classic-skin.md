@@ -124,4 +124,4 @@ Explained below is a simple method for modifying the image sprites of **RadFormD
 
 * [Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)
 
-* [Visual Style Builder for ASP.NET](http://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx)
+* [Visual Style Builder for ASP.NET](https://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx)

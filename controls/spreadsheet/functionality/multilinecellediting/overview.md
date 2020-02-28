@@ -18,4 +18,4 @@ As from R3 2016 **RadSpreadsheet** provides the ability for multiline editing fo
 ![MultiLineEditing](images/spreadsheet-multilineediting.png)
 
 ## See Also
-[RadSpreadsheet Full Set of Tools Demo](http://demos.telerik.com/aspnet-ajax/spreadsheet/examples/spreadsheettoolbar/defaultcs.aspx)	
+[RadSpreadsheet Full Set of Tools Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/spreadsheettoolbar/defaultcs.aspx)	

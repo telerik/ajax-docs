@@ -12,7 +12,7 @@ position: 3
 
 @[template](/_templates/common/wai-aria-templates.md#intro-two-controls "control1: RadEditor, control2: AccessibleRadEditor")
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadEditor** and **AccessibleRadEditor** offer WAI-ARIA support.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadEditor** and **AccessibleRadEditor** offer WAI-ARIA support.
 
 In order to enable the WAI-ARIA support, set the **RadEditor** / **AccessibleRadEditor** control's **EnableAriaSupport** property to **true** as shown in the example below.
 
@@ -37,4 +37,4 @@ AccessibleRadEditor1.EnableAriaSupport = True
 
 ## See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)

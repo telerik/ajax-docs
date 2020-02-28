@@ -48,6 +48,6 @@ There are two ways to set the **RenderMode** for **RadListBox**:
 
 # See Also
 
- * [RadControls for ASP.NET AJAX Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://www.telerik.com/blogs/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
+ * [RadControls for ASP.NET AJAX Lightweight Rendering – Going deeper into HTML semantics and CSS3](https://www.telerik.com/blogs/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
 
- * [The Attack of the Light-Rendered or how Lightweight beats Heavyweight with CSS3 and HTML5](http://blogs.telerik.com/aspnet-ajax/posts/13-06-13/attack-of-the-light-rendered-css3-and-html5-win)
+ * [The Attack of the Light-Rendered or how Lightweight beats Heavyweight with CSS3 and HTML5](https://blogs.telerik.com/aspnet-ajax/posts/13-06-13/attack-of-the-light-rendered-css3-and-html5-win)

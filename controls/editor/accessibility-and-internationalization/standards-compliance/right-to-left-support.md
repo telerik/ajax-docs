@@ -20,10 +20,10 @@ The **RadEditor** supports right-to-left (RTL) language locales. In order to con
 
 >note The CSS files are long and for readability they are not placed in this article. You can find them in the **Live Demos\Editor\Examples\RightToLeft\RTL** folder under your controls for ASP.NET AJAX installation folder, which usually is	C:\Program Files [(x86) if on a 64bit machine]\Telerik\Telerik® UI for ASP.NET AJAX QX YYYY\
 
->note You can see this live in the [Editor / Right-to-left Support Online Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/defaultcs.aspx). You can also examine the code when you run the sample site in Visual Studio from the Live Demos folder.
+>note You can see this live in the [Editor / Right-to-left Support Online Demo](https://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/defaultcs.aspx). You can also examine the code when you run the sample site in Visual Studio from the Live Demos folder.
 
 >note The needed CSS files are available for download with these links:
-* [Editor_RTL.css](http://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/Editor_RTL.css)
-* [RadEditor_Dialogs_RTL.css](http://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/RadEditor_Dialogs_RTL.css)
-* [EditorContentArea_RTL.css](http://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/EditorContentArea_RTL.css)
+* [Editor_RTL.css](https://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/Editor_RTL.css)
+* [RadEditor_Dialogs_RTL.css](https://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/RadEditor_Dialogs_RTL.css)
+* [EditorContentArea_RTL.css](https://demos.telerik.com/aspnet-ajax/editor/examples/righttoleft/RTL/EditorContentArea_RTL.css)
 >

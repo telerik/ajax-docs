@@ -15,16 +15,16 @@ position: 4
 In this article you can find the client and server-side APIs exposed by RadListView for performing client-side binding and controlling the control behavior when bound this way.
 
 * **Server properties
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section0_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section0_self**
 
 * **Client properties
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section1_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section1_self**
 
 * **Client methods
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section2_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section2_self**
 
 * **Client events
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section3_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section3_self**
 
 ## Server properties
 

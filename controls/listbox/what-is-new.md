@@ -14,7 +14,7 @@ position: 2
 
 ## Q2 2010 release
 
-Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all new functionalities are listed in the control's Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## What's New in RadListBox for ASP.NET AJAX Q1 SP1 2010 (Version Number 2010.1.415)
 
@@ -54,7 +54,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * New server-side event - [ItemCheck]({%slug listbox/server-side-programming/server-events/itemcheck%}). Fired when an item checked state is changed
 
-* [Performance optimizations on the server](http://blogs.telerik.com/aspnet-ajax/posts/09-10-15/radcontrols-for-asp-net-ajax---now-with-more-speed.aspx)
+* [Performance optimizations on the server](https://blogs.telerik.com/aspnet-ajax/posts/09-10-15/radcontrols-for-asp-net-ajax---now-with-more-speed.aspx)
 
 * Bug-fixes
 

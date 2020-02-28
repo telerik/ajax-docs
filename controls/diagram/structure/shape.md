@@ -44,7 +44,7 @@ Specifies the type of the Shape using any of the built-in shape type. Currently 
 
 ### Path
 
-The path option of a shape is a description of a custom geometrical figure. The format follows the standard SVG format. For more information, see the	[SVG Path data article](http://www.w3.org/TR/SVG/paths.html#PathData) and the [Custom shapes and connectors article]({%slug diagram/how-to/custom-shapes-and-connectors%}).
+The path option of a shape is a description of a custom geometrical figure. The format follows the standard SVG format. For more information, see the	[SVG Path data article](https://www.w3.org/TR/SVG/paths.html#PathData) and the [Custom shapes and connectors article]({%slug diagram/how-to/custom-shapes-and-connectors%}).
 
 ### X and Y
 

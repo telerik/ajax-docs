@@ -34,7 +34,7 @@ To get familiar with the UI elements of the RadChat you can also check the [RadC
 
 # See Also
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  * [Connecting to a Chatbot Service via a Chat Agent]({%slug chat/how-to/configure-chat-agent%})
  

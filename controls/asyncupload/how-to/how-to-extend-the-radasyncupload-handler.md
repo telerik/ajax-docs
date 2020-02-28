@@ -17,7 +17,7 @@ This article contains the following sections:
 * [Create a Custom Handler](#create-a-custom-handler)
 * [Advanced Features of the Handler](#advanced-features-of-the-handler)
 
->tip You can find an example implementation in the following Live Demo: [Custom HTTP Handler](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/imageuploader/defaultcs.aspx).
+>tip You can find an example implementation in the following Live Demo: [Custom HTTP Handler](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/imageuploader/defaultcs.aspx).
 
 ## Create a Custom Handler
 
@@ -95,7 +95,7 @@ When a custom handler is used, the temporary folder is used as follows:
 
 * When a RadAsyncUpload instance initializes, it will write a test file (an empty file with the `RadUploadTestFile` name) to the temporary folder in its `PreRender` event. You can disable that by setting the control's `EnablePermissionsCheck` property to `false`.
 
-Thus, to save files, you would usually use the `Process` method. If you are using the `FileUploaded event` to save files, you may get an error: [UploadedFiles.SaveAs Throws FileNotFound Error with Custom Handler](http://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/uploadedfiles.saveas-throws-filenotfound-error-with-custom-handler).
+Thus, to save files, you would usually use the `Process` method. If you are using the `FileUploaded event` to save files, you may get an error: [UploadedFiles.SaveAs Throws FileNotFound Error with Custom Handler](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/uploadedfiles.saveas-throws-filenotfound-error-with-custom-handler).
 
 
 ## Advanced Features of the Handler
@@ -156,7 +156,7 @@ End Function
 ````
 
 
->tip You can also use this approach to send meaningful error information from the custom handler to the browser. See the [How to Capture File Upload Errors with Custom Handler](http://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-capture-file-upload-errors-with-custom-handler "How to Capture File Upload Errors with Custom Handler") KB article.
+>tip You can also use this approach to send meaningful error information from the custom handler to the browser. See the [How to Capture File Upload Errors with Custom Handler](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-capture-file-upload-errors-with-custom-handler "How to Capture File Upload Errors with Custom Handler") KB article.
 
 
 Then, you can use this information on the page that was used to upload the file:
@@ -286,7 +286,7 @@ End Sub
 
 ### Custom File Name Validation
 
-By default, the `CheckOriginalFileNameForInvalidChars` verifies the File Name against the [Microsoft's Naming Convention](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). 
+By default, the `CheckOriginalFileNameForInvalidChars` verifies the File Name against the [Microsoft's Naming Convention](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). 
 
 Overriding the `CheckOriginalFileNameForInvalidChars` method allows you to extend this validity check.
 
@@ -321,7 +321,7 @@ End Function
 
 ### Accommodate Linux and MacOS File Names
 
-On some operating systems like [MAC OS and Linux]({%slug asyncupload/how-to/how-to-upload-files-from-mac-or-linux%}), it is possible to have file names which are invalid for the Windows File System. File names may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). This makes file uploading impossible for such files.
+On some operating systems like [MAC OS and Linux]({%slug asyncupload/how-to/how-to-upload-files-from-mac-or-linux%}), it is possible to have file names which are invalid for the Windows File System. File names may contain special characters or might not be in accordance with the [Microsoft's Naming Convention.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions). This makes file uploading impossible for such files.
 
 To upload a file with an invalid name, you must rename it before the uploading takes place. You can do that by overriding `ChangeOriginalFileName`.
 
@@ -371,7 +371,7 @@ End Function
 
 # See Also
 
- * [Live Demo: Custom Handler](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
+ * [Live Demo: Custom Handler](https://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
  
  * [Server-side Programming]({%slug asyncupload/server-side-programming/overview%})
 

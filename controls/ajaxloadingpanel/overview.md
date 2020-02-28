@@ -95,6 +95,6 @@ function pageLoad(app, args) {
 
  * [Show and Hide AjaxLoadingPanel explicitly]({%slug ajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly%})
 
- * [Demo: AJAX Loading Panel](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/LoadingImages/DefaultCS.aspx)
+ * [Demo: AJAX Loading Panel](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/LoadingImages/DefaultCS.aspx)
 
- * [Demo: Loading Panel Templates and Transparency](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/Transparency/DefaultCS.aspx)
+ * [Demo: Loading Panel Templates and Transparency](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/Transparency/DefaultCS.aspx)

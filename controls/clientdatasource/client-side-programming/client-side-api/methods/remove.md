@@ -23,7 +23,7 @@ Removes the data item from the data source with the specified model ID.
 <telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="http://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
+            <Select Url="https://demos.telerik.com/aspnet-ajax/Services/SampleODataService.svc/Products" />
         </WebServiceDataSourceSettings>
     </DataSource>
     <Schema>

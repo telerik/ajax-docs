@@ -42,7 +42,7 @@ The code above will result in the following:
 
 ![Declarative Column Editor](images/grd_DeclarativeColumnEditor.png)
 
-For an online example that uses declarative custom editors, see [Using grid server-side API for extraction](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/ExtractValues/DefaultVB.aspx).
+For an online example that uses declarative custom editors, see [Using grid server-side API for extraction](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/ExtractValues/DefaultVB.aspx).
 
 ## Creating declarative custom editors programmatically
 

@@ -43,6 +43,6 @@ The **Day View** shows all loaded tasks for a **RadGantt** distributed in column
 
  * [Year View]({%slug gantt/views/year-view%})
  
- * [View types demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
+ * [View types demo](https://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
 
 

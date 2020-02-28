@@ -207,6 +207,6 @@ function OnClientButtonClicking(sender, args) {
 
 # See Also
 
- * [Client Events](http://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
+ * [Client Events](https://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
 
  * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

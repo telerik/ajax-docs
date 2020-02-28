@@ -14,14 +14,14 @@ position: 0
 
 This help article lists the **RadHtmlChart**'s public client-side methods that let you access and modify the control's height, width, data source, transitions, etc.; shows how to reference and use the **RadHtmlChart** client-side object (**Examples 1-2**); and provides an example about modifying the data source of **RadHtmlChart** on the client (**Example 3**).
 
-**RadHtmlChart** for ASP.NET AJAX is based on the [Kendo UI Data Visualization Chart Widget](http://demos.telerik.com/kendo-ui/area-charts/index). Thus, it exposes the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/chart) and mainly provides a wrapper and API for working with the chart on the server (programmatic creation, data binding, declaring in the markup).
+**RadHtmlChart** for ASP.NET AJAX is based on the [Kendo UI Data Visualization Chart Widget](https://demos.telerik.com/kendo-ui/area-charts/index). Thus, it exposes the [client-side API and methods offered by the widget](https://docs.telerik.com/kendo-ui/api/dataviz/chart) and mainly provides a wrapper and API for working with the chart on the server (programmatic creation, data binding, declaring in the markup).
 
 ## Public Methods
 
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **getSVGString** |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx).|
+| **getSVGString** |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios](https://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx).|
 | **loadData** |Invokes a light callback to the server to obtain the **RadHtmlChart** data. This is used when the server-side **InvokeLoadData** property is set to **FromCode** . In this case, the data is not sent to the client at all until this method is called.|
 | **repaint** |Redraws the chart. Useful when the chart is in an invisible container that is shown on a certain condition, when a client-side databinding is performed or to replay the initial animation.|
 | **get_dataSourceJSON** |Gets a stringified JSON object with the data source of a databound **RadHtmlChart** . **Tip:** You can parse this to a JSON object through a jQuery parseJSON method in order to manipulate it as an array.|
@@ -34,7 +34,7 @@ This help article lists the **RadHtmlChart**'s public client-side methods that l
 | **set_transitions** |Sets a boolean value indicating whether an animation is played when the chart is rendered.|
 | **get_kendoWidget** |Gets a reference to the Kendo Chart widget.|
 
-**RadHtmlChart** for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Chart client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/chart#methods).
+**RadHtmlChart** for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Chart client-side methods](https://docs.telerik.com/kendo-ui/api/dataviz/chart#methods).
 
 ## Get Client-side Object Reference
 
@@ -162,10 +162,10 @@ End Function
 
  * [RadHtmlChart Client-side Events Basics]({%slug htmlchart/client-side-programming/events/overview%})
 
- * [Kendo Chart Widget First Look](http://demos.telerik.com/kendo-ui/area-charts/index)
+ * [Kendo Chart Widget First Look](https://demos.telerik.com/kendo-ui/area-charts/index)
 
- * [Kendo Chart Client-side API Reference](http://docs.telerik.com/kendo-ui/api/dataviz/chart)
+ * [Kendo Chart Client-side API Reference](https://docs.telerik.com/kendo-ui/api/dataviz/chart)
 
- * [Kendo Chart Client-side Events](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events)
+ * [Kendo Chart Client-side Events](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events)
 
- * [Kendo Chart Client-side Methods](http://docs.telerik.com/kendo-ui/api/dataviz/chart#methods)
+ * [Kendo Chart Client-side Methods](https://docs.telerik.com/kendo-ui/api/dataviz/chart#methods)

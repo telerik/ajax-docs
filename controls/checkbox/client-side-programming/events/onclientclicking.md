@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadCheckBox control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
 	* get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -55,7 +55,7 @@ End Sub
 
 ## See Also
 
- * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
  * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
@@ -71,5 +71,5 @@ End Sub
  
  * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.ButtonCancelEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
+ * [Telerik.Web.UI.ButtonCancelEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
 

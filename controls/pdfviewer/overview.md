@@ -45,7 +45,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 # See Also
 
- * [Overview demo](http://demos.telerik.com/aspnet-ajax/pdfviewer/overview/defaultcs.aspx)
+ * [Overview demo](https://demos.telerik.com/aspnet-ajax/pdfviewer/overview/defaultcs.aspx)
 
 
 

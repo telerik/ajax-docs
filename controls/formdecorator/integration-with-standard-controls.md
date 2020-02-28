@@ -26,7 +26,7 @@ position: 3
 | **Label** |Font-family, font-size and color|
 | **H4, H5, H6** |Font-family, font-weight, font-size and color. H4 and H5 are underlined|
 | **Select** |Background-image, background-color, font-family, font-size and color for default, :hovered and :active state.|
-| **ScrollBar** |Decorated - For more information see [this KB article](http://www.telerik.com/support/kb/aspnet-ajax/formdecorator/styling-scrollbars.aspx)|
+| **ScrollBar** |Decorated - For more information see [this KB article](https://www.telerik.com/support/kb/aspnet-ajax/formdecorator/styling-scrollbars.aspx)|
 
 ## Standard ASP Controls
 

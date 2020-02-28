@@ -12,7 +12,7 @@ position: 3
 
 This article demonstrates how to enable and use the WAI-ARIA support of the **RadButton** control.
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadButton** offers WAI-ARIA support.
+The [WAI-ARIA Suite](https://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadButton** offers WAI-ARIA support.
 
 In order to enable the WAI-ARIA support, set the **RadButton** control's `EnableAriaSupport` property to `true` as shown in **Example 1**.
 
@@ -30,6 +30,6 @@ In order to enable the WAI-ARIA support, set the **RadButton** control's `Enable
 
 ## See Also
 
- * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
+ * [W3C: WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria)
 
 

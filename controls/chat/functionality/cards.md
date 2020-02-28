@@ -68,6 +68,6 @@ To further customize the appearance of a card, you can also use [Custom Template
 
  * [RadChat Client-Side Programming]({%slug chat/client-side-programming/overview%})
 
- * [RadChat Online Demos](http://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
+ * [RadChat Online Demos](https://demos.telerik.com/aspnet-ajax/chat/overview/defaultcs.aspx)
 
  

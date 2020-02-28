@@ -52,4 +52,4 @@ If the RenderInactiveContextualTabGroups property is set to true, the inactive g
 
 # See Also
 
- * [Contextual Tabs](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/contextualtabs/defaultcs.aspx)
+ * [Contextual Tabs](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/contextualtabs/defaultcs.aspx)

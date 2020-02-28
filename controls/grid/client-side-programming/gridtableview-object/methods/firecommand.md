@@ -62,7 +62,7 @@ This method can be used to invoke custom commands along with a single string arg
 |CancelAll| **GridTableView** |fireCommand("CancelAll", "")|Required but not used. Example: fireCommand("CancelAll", "")|
 |Group| **GridTableView** |fireCommand("GroupByColumn", "")|Example: fireCommand("GroupByColumn", "Country")|
 |UnGroup| **GridTableView** |fireCommand("UnGroupByColumn", "")|Example:fireCommand("UnGroupByColumn", "Country")|
-|DownloadAttachment| **GridTableView** |fireCommand("DownloadAttachment", argument)|String - collection of key/value pairs in JSON format (see[this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))Example:var args = '{"FileId":24,"ColumnUniqueName":"AttCol","FileName":"report.doc"}'; fireCommand("DownloadAttachment", args)|
+|DownloadAttachment| **GridTableView** |fireCommand("DownloadAttachment", argument)|String - collection of key/value pairs in JSON format (see[this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))Example:var args = '{"FileId":24,"ColumnUniqueName":"AttCol","FileName":"report.doc"}'; fireCommand("DownloadAttachment", args)|
 |ExpandCollapse| **GridTableView** |fireCommand("ExpandCollapse", itemIndex)|Example:fireCommand("ExpandCollapse", 0)|
 
 The equivalents on the server are listed in [this topic]({%slug grid/control-lifecycle/how-to-fire-command-events%}) from the documentation.

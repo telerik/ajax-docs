@@ -22,7 +22,7 @@ Similar to setting a data source for an ASP.NET control, you should either use t
 
 The data source should have columns for each of the diagram fields that you want to specify. For example, if you want to pull the start cap type of the connection from the data source, this will require a separate column that contains the start cap type of each connection.
 
-The columns of the data source are attached to their corresponding data fields in the connections via the properties with the structure **Data[field name]Field** in **RadDiagram > BindingSettings > ConnectionSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/BindingSettings).
+The columns of the data source are attached to their corresponding data fields in the connections via the properties with the structure **Data[field name]Field** in **RadDiagram > BindingSettings > ConnectionSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Diagram.DataBinding/BindingSettings).
 
 >caption **Example 1**: Data binding shapes and connections in a diagram to a collection of custom objects.
 

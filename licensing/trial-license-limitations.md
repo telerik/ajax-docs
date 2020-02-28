@@ -16,7 +16,7 @@ position: 1
 
 Developer licenses come with modified DLLs, which work without displaying copyright messages. If you have a Developer license for one or more of the Telerik components, you only need to ensure that you are using the developer build when downloading the control(s). These builds have the **Dev** abbreviation in their file names.
 
-If your application is displaying a copyright message intermittently, this means that you are using a trial version of the product. Log in to your [Telerik account](http://www.telerik.com/account/default.aspx) and download the developer build through the **Products & Subscriptions** menu and its Purchased Products section. To update your project, please take a look at the [Upgrading the Trial License to a Production License]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) section for step-by-step instructions.
+If your application is displaying a copyright message intermittently, this means that you are using a trial version of the product. Log in to your [Telerik account](https://www.telerik.com/account/default.aspx) and download the developer build through the **Products & Subscriptions** menu and its Purchased Products section. To update your project, please take a look at the [Upgrading the Trial License to a Production License]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) section for step-by-step instructions.
 
 
 
@@ -28,7 +28,7 @@ The free trial licenses of all Telerik products are **fully functional** and wil
 
 The trial licenses will occasionally display the following message on your webform:
 
->Thank you for using the Trial Version of Telerik® UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support.
+>Thank you for using the Trial Version of Telerik® UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](https://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support.
 
 
 ## See Also
@@ -37,4 +37,4 @@ The trial licenses will occasionally display the following message on your webfo
 
  * [Upgrading a Trial to a Developer License or to a Newer Version]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%})
 
- * [Blog Post: Upgrade the Version of Your Telerik ASP.NET Controls in 6 Easy Steps](http://www.telerik.com/blogs/upgrade-the-version-of-your-telerik-asp.net-controls-in-6-easy-steps)
+ * [Blog Post: Upgrade the Version of Your Telerik ASP.NET Controls in 6 Easy Steps](https://www.telerik.com/blogs/upgrade-the-version-of-your-telerik-asp.net-controls-in-6-easy-steps)

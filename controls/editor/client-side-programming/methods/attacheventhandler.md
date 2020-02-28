@@ -15,7 +15,7 @@ Attaches an event to its handler.
 
 |  **function attachEventHandler (event, eventHandler)**  |  |  |
 | ------ | ------ | ------ |
-| **event** | **string** |Specifies a standard [DHTML](http://msdn2.microsoft.com/en-us/library/ms533051.aspx) event.|
+| **event** | **string** |Specifies a standard [DHTML](https://msdn2.microsoft.com/en-us/library/ms533051.aspx) event.|
 | **eventHandler** | **function** |Specifies the function to call when the event fires.|
 
 Depending on the browser, some events should be attached either to the editor document or to the body of the editor document.

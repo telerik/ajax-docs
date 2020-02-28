@@ -150,7 +150,7 @@ You can achieve the same through a RadClientDataSource control. In such a case, 
 
 ## See Also
 
-* [Live Demo - Virtualization](http://demos.telerik.com/aspnet-ajax/multicolumncombobox/virtualization/defaultcs.aspx)
+* [Live Demo - Virtualization](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/virtualization/defaultcs.aspx)
 
 * [Virtualization in Kendo DropDowns](https://docs.telerik.com/kendo-ui/controls/editors/combobox/virtualization)
 

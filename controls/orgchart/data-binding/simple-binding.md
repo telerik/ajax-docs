@@ -38,12 +38,12 @@ We try to keep our API consistent and to make the learning curve involved with e
 
 With that said, here are demonstrations of the various supported data sources using the Simple Data Binding:
 
-* [Declarative Datasources](http://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/declarativedatasources/defaultcs.aspx)
+* [Declarative Datasources](https://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/declarativedatasources/defaultcs.aspx)
 
-* [Entity Datasource](http://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/entitydatasource/defaultcs.aspx)
+* [Entity Datasource](https://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/entitydatasource/defaultcs.aspx)
 
-* [Linq Datasource](http://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/linqdatasource/defaultcs.aspx)
+* [Linq Datasource](https://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/linqdatasource/defaultcs.aspx)
 
-* [Programatic Data Binding](http://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/programaticdatabinding/defaultcs.aspx)
+* [Programatic Data Binding](https://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/programaticdatabinding/defaultcs.aspx)
 
-* [Load from XML](http://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/xmlfile/defaultcs.aspx)
+* [Load from XML](https://demos.telerik.com/aspnet-ajax/orgchart/examples/populatingwithdata/xmlfile/defaultcs.aspx)

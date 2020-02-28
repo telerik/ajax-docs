@@ -43,7 +43,7 @@ Below you can find the following sections:
 |Word|n/a|HTML|ExportToWord|RadGrid.ExportToWordCommandName|ExportToWord()|ExportToWord()|
 |CSV|n/a|text|ExportToCsv|RadGrid.ExportToCsvCommandName|ExportToCSV()|ExportToCsv()|
 
->note We strongly recommend that you use [Advanced Data Binding](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid**.
+>note We strongly recommend that you use [Advanced Data Binding](https://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid**.
 
 >important RadGrid exporting works only when the **ViewState** is persisted in a hidden field (the default setting). In case you are using an alternative way to persist the **ViewState**, such as storing it in a database or a session, you will receive an exception.
 
@@ -201,11 +201,11 @@ More details on manually canceling the asynchronous postback can be found in fol
 
 * [Exclude controls from ajaxifying]({%slug ajaxmanager/how-to/exclude-controls-from-ajaxifying%})
 
-* [Export RadGrid content to Excel/Word/CSV/PDF with Ajax enabled](http://www.telerik.com/community/code-library/aspnet-ajax/general/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled.aspx)
+* [Export RadGrid content to Excel/Word/CSV/PDF with Ajax enabled](https://www.telerik.com/community/code-library/aspnet-ajax/general/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled.aspx)
 
 ### Nested Grids / Exporting Multiple RadGrids
 
-The following code-library project demonstrates how to export nested *RadGrids* to*PDF*/*Excel* (HTML): [Export multiple RadGrids in single PDF/Excel file](http://www.telerik.com/support/code-library/export-multiple-radgrids-in-single-pdf-excel-file)
+The following code-library project demonstrates how to export nested *RadGrids* to*PDF*/*Excel* (HTML): [Export multiple RadGrids in single PDF/Excel file](https://www.telerik.com/support/code-library/export-multiple-radgrids-in-single-pdf-excel-file)
 
 ### IgnorePaging not Working on DetailTables Excel Export
 
@@ -365,6 +365,6 @@ The following methods are marked as obsolete as of *RadGrid* v4.6 (part of *UIfo
 
 For real-life example, review the online demos:
 
-* [Grid - Word/CSV Export](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/export-word-csv/defaultcs.aspx)
-* [Grid - Export to Excel](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export/defaultcs.aspx)
-* [Grid - Export to PDF](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/pdf-export/defaultcs.aspx)
+* [Grid - Word/CSV Export](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/export-word-csv/defaultcs.aspx)
+* [Grid - Export to Excel](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export/defaultcs.aspx)
+* [Grid - Export to PDF](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/pdf-export/defaultcs.aspx)

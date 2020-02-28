@@ -22,7 +22,7 @@ There is a way to achieve this functionality with a **RadButton** configured as 
 	}
 </script>
 
-<telerik:RadButton RenderMode="Lightweight" ID="RadButton" runat="server" Text="RadButton" NavigateUrl="http://www.telerik.com/" OnClientClicking="OnClientClicking">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton" runat="server" Text="RadButton" NavigateUrl="https://www.telerik.com/" OnClientClicking="OnClientClicking">
 </telerik:RadButton>
 ````
 

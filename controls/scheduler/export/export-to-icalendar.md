@@ -123,6 +123,6 @@ position: 1
 
  * [AppointmentCommand]({%slug scheduler/server-side-programming/server-events/appointmentcommand%})
 
- * [Scheduler - iCalendar Export demo](http://demos.telerik.com/aspnet-ajax/scheduler/examples/export/defaultcs.aspx)
+ * [Scheduler - iCalendar Export demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/export/defaultcs.aspx)
 
- * [Code Library Project: Import ICalendar Data](http://www.telerik.com/support/code-library/import-icalendar-data)
+ * [Code Library Project: Import ICalendar Data](https://www.telerik.com/support/code-library/import-icalendar-data)

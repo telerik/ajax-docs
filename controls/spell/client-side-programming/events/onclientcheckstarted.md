@@ -20,7 +20,7 @@ The event handler receives parameters:
 
 	1. **set_cancel**: Can be used to cancel the event. Calling **set_cancel(true)** prevents the spell check from continuing.
 
-The example below displays the discontinues the spell check if the contents of "TextBox1" contain the string [www.telerik.com](http://www.telerik.com).
+The example below displays the discontinues the spell check if the contents of "TextBox1" contain the string [www.telerik.com](https://www.telerik.com).
 
 ````ASP.NET
 function checkStarted (sender, args)

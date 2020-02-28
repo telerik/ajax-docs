@@ -70,4 +70,4 @@ End Sub
 ````
 
 
-For more information on loading user controls dynamically, see [Load UserControls](http://www.telerik.com/help/aspnet-ajax/ajxLoadUserControls.html).
+For more information on loading user controls dynamically, see [Load UserControls](https://www.telerik.com/help/aspnet-ajax/ajxLoadUserControls.html).

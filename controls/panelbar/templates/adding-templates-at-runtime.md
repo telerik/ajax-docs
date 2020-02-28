@@ -369,4 +369,4 @@ The end result of this code looks like the following:
 
 # See Also
 
- * [PanelBar with Templates demo.](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx)
+ * [PanelBar with Templates demo.](https://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx)

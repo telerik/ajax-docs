@@ -30,7 +30,7 @@ In order to define editable and non-editable regions in **RadEditor**, you shoul
 
 >important Typically, using `contenteditable="false"` can serve only highly specific scenarios. **RadEditor** tools and commands might not operate normally with non-editable elements.
 
-You can find additional information in the following MSDN article: [UNSELECTABLE Attribute](http://msdn.microsoft.com/en-us/library/ms537840.aspx).
+You can find additional information in the following MSDN article: [UNSELECTABLE Attribute](https://msdn.microsoft.com/en-us/library/ms537840.aspx).
 
 To disable the content editing in Firefox (Mozilla), use the [-moz-user-select: none;](http://developer.mozilla.org/en/docs/CSS:-moz-user-select) css property. It is a Mozilla property extension to CSS that is used to determine whether or not an element may have its content selected.
 
@@ -61,4 +61,4 @@ Legal Values of the -moz-user-select css property
 
 * [MDN - Content Editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable)
 
-* [MSDN - Unselectable Attribute](http://msdn.microsoft.com/en-us/library/ms537840.aspx)
+* [MSDN - Unselectable Attribute](https://msdn.microsoft.com/en-us/library/ms537840.aspx)

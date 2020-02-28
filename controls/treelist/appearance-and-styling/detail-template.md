@@ -59,4 +59,4 @@ The following sample illustrates one possible usage of the detail item feature o
 
 
 
-For a live example, check [this](http://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx) online demo.
+For a live example, check [this](https://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx) online demo.

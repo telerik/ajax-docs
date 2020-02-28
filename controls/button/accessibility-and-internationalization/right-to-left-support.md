@@ -41,7 +41,7 @@ The **RadButton** fully supports right-to-left (RTL) language locales (**Figure 
 
 ## See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/button/examples/righttoleft/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/button/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug button/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

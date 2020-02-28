@@ -38,7 +38,7 @@ The main steps when binding a hierarchical grid using the **DetailTableDataBind*
 >
 
 
-For a live example that demonstrates binding a hierarchical grid using the **DetailTableDataBind** event, see [Hierarchy with DetailTableDataBind event](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DetailTableDataBind/DefaultCS.aspx).
+For a live example that demonstrates binding a hierarchical grid using the **DetailTableDataBind** event, see [Hierarchy with DetailTableDataBind event](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DetailTableDataBind/DefaultCS.aspx).
 
 >note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
 >

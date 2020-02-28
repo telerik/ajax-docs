@@ -205,4 +205,4 @@ End Function
 ````
 
 
-For a live example of a **RadGrid** that supports editing when bound to **XmlDataSource**, see [Editing XML using XmlDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).
+For a live example of a **RadGrid** that supports editing when bound to **XmlDataSource**, see [Editing XML using XmlDataSource](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).

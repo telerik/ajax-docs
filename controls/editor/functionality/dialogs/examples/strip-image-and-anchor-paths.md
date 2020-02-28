@@ -49,4 +49,4 @@ With **MakeUrlsAbsolute** assigned to **ContentFilters** the path now shows the 
 
 ## See Also
 
- * [ASP.NET Web Site Paths](http://msdn2.microsoft.com/en-us/library/ms178116.aspx)
+ * [ASP.NET Web Site Paths](https://msdn2.microsoft.com/en-us/library/ms178116.aspx)

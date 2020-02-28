@@ -112,6 +112,6 @@ End Namespace
 ````
 
 
-For a live example of binding to hierarchical data see [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).
+For a live example of binding to hierarchical data see [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).
 
 

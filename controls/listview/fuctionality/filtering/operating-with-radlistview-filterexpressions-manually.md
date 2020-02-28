@@ -180,4 +180,4 @@ RadListView supplies the following enumerators to help you build the desired fil
 | **RadListViewGroupFilterOperator** |And|
 ||Or|
 
-For a live example on how RadListView built-in filtering capabilities can be used, review the online demo [ here ](http://demos.telerik.com/aspnet-ajax/listview/examples/filtering/defaultcs.aspx).
+For a live example on how RadListView built-in filtering capabilities can be used, review the online demo [ here ](https://demos.telerik.com/aspnet-ajax/listview/examples/filtering/defaultcs.aspx).

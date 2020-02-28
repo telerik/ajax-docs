@@ -63,4 +63,4 @@ Note that when range selection is done any other date selection will unselect al
 >
 
 
-To see a live example of the above refer to [Calendar / Range Selection](http://demos.telerik.com/aspnet-ajax/calendar/examples/functionality/rangeselection/defaultcs.aspx).
+To see a live example of the above refer to [Calendar / Range Selection](https://demos.telerik.com/aspnet-ajax/calendar/examples/functionality/rangeselection/defaultcs.aspx).

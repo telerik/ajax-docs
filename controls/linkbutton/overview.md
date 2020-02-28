@@ -35,7 +35,7 @@ Code that creates Figure 1:
 
 ## See Also
 
- * [RadLinkButton Online Demos](http://demos.telerik.com/aspnet-ajax/linkbutton/examples/overview/defaultcs.aspx)
+ * [RadLinkButton Online Demos](https://demos.telerik.com/aspnet-ajax/linkbutton/examples/overview/defaultcs.aspx)
  
  * [RadLinkButton Getting Started]({%slug linkbutton/getting-started%})
  

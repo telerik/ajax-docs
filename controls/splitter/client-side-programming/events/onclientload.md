@@ -35,7 +35,7 @@ The following example uses the **OnClientLoad** event to set the height of a spl
 	width="90%"
 	OnClientLoad="loadSplitter">
  <telerik:RadPane runat="server" id="RadPane3"
-	ContentUrl="http://www.telerik.com" />
+	ContentUrl="https://www.telerik.com" />
  <telerik:RadSplitBar runat="server" id="RadSplitBar2"
 	CollapseMode="Both"  />
  <telerik:RadPane runat="server" id="RadPane4"

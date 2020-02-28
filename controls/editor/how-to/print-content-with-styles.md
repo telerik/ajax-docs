@@ -79,7 +79,7 @@ Fortunately, there is a workaround for this:
 
 		.rade_toolbar.Default .CustomPrint
 		{
-			background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif);
+			background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif);
 		}
 
 
@@ -89,7 +89,7 @@ Fortunately, there is a workaround for this:
 
 You can find a good resource on how to print CSS styles on the Internet. You can see the following articles which we have chosen for you:
 
-* [Introduction to media types](http://www.w3.org/TR/REC-CSS2/media.html)
+* [Introduction to media types](https://www.w3.org/TR/REC-CSS2/media.html)
 
 * [Print Different](http://www.meyerweb.com/eric/articles/webrev/200001.html)
 
@@ -97,4 +97,4 @@ You can find a good resource on how to print CSS styles on the Internet. You can
 
 **EXAMPLE FILES**
 
-[PrintWithStyles](http://www.telerik.com/ArticleFileDownload.aspx?I=jDO&G=Ctb)
+[PrintWithStyles](https://www.telerik.com/ArticleFileDownload.aspx?I=jDO&G=Ctb)

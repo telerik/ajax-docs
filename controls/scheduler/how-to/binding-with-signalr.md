@@ -16,5 +16,5 @@ position: 13
 
 The following code library example demonstrates how you can bind **RadScheduler** with SignalR:
 
-[Binding Scheduler with SignalR](http://www.telerik.com/support/code-library/binding-radscheduler-with-signalr)
+[Binding Scheduler with SignalR](https://www.telerik.com/support/code-library/binding-radscheduler-with-signalr)
 

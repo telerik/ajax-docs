@@ -24,4 +24,4 @@ When the RadComboBox control is placed within a scrollable container and user tr
 
 **SOLUTION**
 
-Please refer to the following [code library resource](http://www.telerik.com/community/code-library/aspnet-ajax/combobox/attach-the-dropdown-to-the-input-element-while-scrolling-within-a-scrollable-container.aspx). You will find attached a sample working project with some instructions.
+Please refer to the following [code library resource](https://www.telerik.com/community/code-library/aspnet-ajax/combobox/attach-the-dropdown-to-the-input-element-while-scrolling-within-a-scrollable-container.aspx). You will find attached a sample working project with some instructions.

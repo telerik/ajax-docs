@@ -53,7 +53,7 @@ position: 0
 
 ````ASP.NET
 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Link Button"
-	ButtonType="LinkButton" NavigateUrl="http://www.telerik.com" Target="_blank" />
+	ButtonType="LinkButton" NavigateUrl="https://www.telerik.com" Target="_blank" />
 ````
 
 ## Configure RadButton as a ToggleButton

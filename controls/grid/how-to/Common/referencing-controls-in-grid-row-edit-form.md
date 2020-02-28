@@ -171,4 +171,4 @@ End Sub
 ````
 
 
-Live example is available [here](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/accessingcellsandrows/defaultcs.aspx).
+Live example is available [here](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/accessingcellsandrows/defaultcs.aspx).

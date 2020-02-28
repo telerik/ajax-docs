@@ -32,7 +32,7 @@ In the following example you will see how to configure the PDFViewer to use PDF.
 
 ## See Also
 
-* [Live Demo - DPL Integration](http://demos.telerik.com/aspnet-ajax/pdfviewer/applicationscenarios/dplintegration/defaultcs.aspx)
+* [Live Demo - DPL Integration](https://demos.telerik.com/aspnet-ajax/pdfviewer/applicationscenarios/dplintegration/defaultcs.aspx)
 
 
 

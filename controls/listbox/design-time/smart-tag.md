@@ -24,7 +24,7 @@ Using the unbound **RadListBox** Smart Tag you can perform the following:
 
 ## RadListBox Tasks
 
-* **Choose Data Source** lets you bind RadListBox declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind RadListBox declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadListBox** opens the [RadListBox Item builder]({%slug listbox/design-time/item-builder%}), where you can add static items to the ListBox and set their properties.
 
@@ -46,7 +46,7 @@ When **RadListBox** is bound to a data source, the Smart Tag looks like the foll
 
 ![Bound Smart Tag](images/listbox_bound_smart_tag.png)
 
-Using the Smart Tag of bound **RadListBox** lets you perform any task you can perform with the Smart Tag of unbound RadListBox. In addition, you can choose **Configure Data Source...** to open the standard [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+Using the Smart Tag of bound **RadListBox** lets you perform any task you can perform with the Smart Tag of unbound RadListBox. In addition, you can choose **Configure Data Source...** to open the standard [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 Once the Data Source is chosen, you can select each of the following: **DataKeyField**, **DataSortField**, **DataTextField** and **DataValueField**. These should be fields in the Data Source which will serve data respectively for the primary key, sort order column and **Text** and **Value** properties of RadListBox Items.
 

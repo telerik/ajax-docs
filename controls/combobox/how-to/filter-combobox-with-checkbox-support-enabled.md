@@ -26,5 +26,5 @@ Due to internal specifics of these 2 logics, combo box **Filtering** and **MarkF
 
 The following code library example demonstrates how the combo box can be filtered when **CheckBox** support is enabled by embedding a TextBox in the combo box' Header Template:
 
-[Code-Library - Filter ComboBox with CheckBoxes support enabled](http://www.telerik.com/support/code-library/filter-combobox-with-checkboxes-support-enabled) 
+[Code-Library - Filter ComboBox with CheckBoxes support enabled](https://www.telerik.com/support/code-library/filter-combobox-with-checkboxes-support-enabled) 
 

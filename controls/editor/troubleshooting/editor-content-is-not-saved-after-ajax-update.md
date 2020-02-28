@@ -36,7 +36,7 @@ In the case of ImageButtons and server buttons, by the time the MS AJAX framewor
 
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
-	<asp:ImageButton ID="ImageButton1" runat="server" OnClick="btnSave_Click" ImageUrl="http://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
+	<asp:ImageButton ID="ImageButton1" runat="server" OnClick="btnSave_Click" ImageUrl="https://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
 	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 </telerik:RadAjaxPanel>
 ````
@@ -180,7 +180,7 @@ Use the MS AJAX framework's [__doPostBack()](http://www.dotnetspider.com/resourc
 
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
-	<asp:ImageButton ID="ImageButton1" runat="server" OnClientClick="javascript:__doPostBack(this.name,'');return false;" OnClick="btnSave_Click" ImageUrl="http://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
+	<asp:ImageButton ID="ImageButton1" runat="server" OnClientClick="javascript:__doPostBack(this.name,'');return false;" OnClick="btnSave_Click" ImageUrl="https://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
 	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 </telerik:RadAjaxPanel>
 ````

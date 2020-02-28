@@ -52,7 +52,7 @@ In accordance with these guidelines W3C defines three levels of conformance deve
 * Compliance Level "AA"
 * Compliance Level "AAA"
 
-For more details on W3C accessibility guidelines see [Web Content Accessibility Guidelines 1.0](http://www.w3.org/TR/WAI-WEBCONTENT/).
+For more details on W3C accessibility guidelines see [Web Content Accessibility Guidelines 1.0](https://www.w3.org/TR/WAI-WEBCONTENT/).
 
 In our attempt to make our products content compliant, each web-control we develop and its QSF strive to obtain at least one of the conformance levels listed above.
 

@@ -97,4 +97,4 @@ Here follows a code sample on using this event:
 
 # See Also
 
- * [Password Strength Checker live demo](http://demos.telerik.com/aspnet-ajax/input/examples/common/passwordstrengthchecker/defaultcs.aspx)
+ * [Password Strength Checker live demo](https://demos.telerik.com/aspnet-ajax/input/examples/common/passwordstrengthchecker/defaultcs.aspx)

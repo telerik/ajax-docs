@@ -48,4 +48,4 @@ The **Footer Template** appears right after all nodes in the RadDropDownTree con
 
 # See Also
 
- * [RadDropDownTree Templates](http://demos.telerik.com/aspnet-ajax/dropdowntree/examples/functionality/templates/defaultcs.aspx)
+ * [RadDropDownTree Templates](https://demos.telerik.com/aspnet-ajax/dropdowntree/examples/functionality/templates/defaultcs.aspx)

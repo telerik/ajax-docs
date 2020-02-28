@@ -69,7 +69,7 @@ End Sub
 ````
 
 
-The RadWindow in this case is only an [INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx) and thus using the controls inside via **JavaScript** requires their correct **Client IDs**:
+The RadWindow in this case is only an [INaming container](https://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx) and thus using the controls inside via **JavaScript** requires their correct **Client IDs**:
 
 ````ASP.NET
 <telerik:RadWindow RenderMode="Lightweight" runat="server" id="RadWindow3" VisibleOnPageLoad="true">
@@ -93,7 +93,7 @@ The RadWindow in this case is only an [INaming container](http://msdn.microsoft.
 >
 * You can dynamically add controls to the RadWindow from code-behind by adding them to its ContentContainer as shown below: **UserListDialog.ContentContainer.Controls.Add(new LiteralControl("Dynamic Control"));** 
 >
-* To use the **RadAjaxManager** control in integration with a **RadWindow** as demonstrated in this [demo](http://demos.telerik.com/aspnet-ajax/window/examples/internalcontent/defaultcs.aspx) you should use a separate **RadWindow** control and not to wrap it in a RadWindowManager. As to using with the standard MS AJAX, it should be used as all other INamingContainers. More information on using AJAX with the ContentTemplate of the RadWindow is available in [this help article]({%slug window/how-to/how-to-use-radwindow-with-ajax%}).
+* To use the **RadAjaxManager** control in integration with a **RadWindow** as demonstrated in this [demo](https://demos.telerik.com/aspnet-ajax/window/examples/internalcontent/defaultcs.aspx) you should use a separate **RadWindow** control and not to wrap it in a RadWindowManager. As to using with the standard MS AJAX, it should be used as all other INamingContainers. More information on using AJAX with the ContentTemplate of the RadWindow is available in [this help article]({%slug window/how-to/how-to-use-radwindow-with-ajax%}).
 >
 * When controls with complex server life cycle are placed in the `ContentTemplate` (e.g., a *RadGrid* ), such **RadWindows** should be kept **outside of a RadWindowManager**. The manager maintains the Windows collection and sometimes needs to Clear() and recreate it, which can cause unexpected behavior with the server logic of the complex controls inside.
 

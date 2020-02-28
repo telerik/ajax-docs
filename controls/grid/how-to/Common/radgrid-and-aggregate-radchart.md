@@ -14,7 +14,7 @@ position: 10
 
 ##
 
-[This demo](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/GridAndAggregateChart/DefaultCS.aspx?product=grid) represents how RadGrid and RadChart can display the same data in their presentation format. To see the functionality in action select customer from the RadComboBox instance and both the grid and the chart controls will show his/her products information in par with the orders he/she made. The name of the series items are created on-the-fly wiring the **ItemDataBound** event of the RadChart.
+[This demo](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/GridAndAggregateChart/DefaultCS.aspx?product=grid) represents how RadGrid and RadChart can display the same data in their presentation format. To see the functionality in action select customer from the RadComboBox instance and both the grid and the chart controls will show his/her products information in par with the orders he/she made. The name of the series items are created on-the-fly wiring the **ItemDataBound** event of the RadChart.
 
 In addition, the three controls on the page are ajaxified by RadAjaxManager to refresh their state with asynchronous request instead of standard postback.
 

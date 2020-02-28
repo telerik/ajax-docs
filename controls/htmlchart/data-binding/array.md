@@ -79,4 +79,4 @@ End Sub
 
  * [RadHtmlChart Line Series]({%slug htmlchart/chart-types/line-chart%})
 
- * [RadHtmlChart Array Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtoarray/defaultcs.aspx)
+ * [RadHtmlChart Array Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/bindtoarray/defaultcs.aspx)

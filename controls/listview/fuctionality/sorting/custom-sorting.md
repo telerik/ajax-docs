@@ -16,7 +16,7 @@ position: 1
 
 **RadListView** provides the possibility to easily extend the default sorting capabilities. By setting the **AllowCustomSorting** property to true, the you notify the **RadListView** of his intentions to sidestep the integrated sorting.
 
-**Custom sorting** functionality enables the use of non-standard sort order defined by the developer, depending on the corresponding scenario. For instance, you can sort **RadListView** by the character count of specific field as demonstrated on our online [Custom sorting demo](http://demos.telerik.com/aspnet-ajax-beta/listview/examples/sorting/customsorting/defaultcs.aspx).
+**Custom sorting** functionality enables the use of non-standard sort order defined by the developer, depending on the corresponding scenario. For instance, you can sort **RadListView** by the character count of specific field as demonstrated on our online [Custom sorting demo](https://demos.telerik.com/aspnet-ajax-beta/listview/examples/sorting/customsorting/defaultcs.aspx).
 
 In the aforementioned demo, we use a custom **CommandArgument** to distinguish the sorting method that should be applied:
 

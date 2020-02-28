@@ -155,4 +155,4 @@ A new client-side [OnClientTemplateDataBound]({%slug treeview/client-side-progra
 
 # See Also
 
- * [Online Demo](http://demos.telerik.com/aspnet-ajax-beta/treeview/examples/functionality/clienttemplates/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax-beta/treeview/examples/functionality/clienttemplates/defaultcs.aspx)

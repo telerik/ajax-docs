@@ -13,8 +13,8 @@ A column type for the RadGrid control that is bound to a field in a data
 The default data binding (when AutoGenerateColumnsproperty
                 is set to true) generates GridBoundColumntype of columns. It
                 displays each item from the DataSource field as text. This column is
-                http://www.telerik.com/help/aspnet-ajax/grdeditforms.html editable(implements the
-                http://www.telerik.com/help/aspnet-ajax/telerik.web.ui-telerik.web.ui.grideditablecolumn.html IGridEditableColumninterface) and provides by default GridTextColumnEditor, used for
+                https://www.telerik.com/help/aspnet-ajax/grdeditforms.html editable(implements the
+                https://www.telerik.com/help/aspnet-ajax/telerik.web.ui-telerik.web.ui.grideditablecolumn.html IGridEditableColumninterface) and provides by default GridTextColumnEditor, used for
                 editing the text in each item.GridBoundColumnhas three similar and yet different
                 properties controlling its visibility and rendering in a browser in regular and in
                 edit mode:bullet Display- concerns only the appearance of the column in

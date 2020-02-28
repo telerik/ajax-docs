@@ -84,41 +84,41 @@ The following articles describe how to configure some of the more common **DataS
 
 ## AccessDataSource:
 
-[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
+[https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
 
 ## SqlDataSource:
 
-[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
+[https://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](https://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
 
 ## ObjectDataSource:
 
-[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
+[https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
 
 ## LinqDataSource:
 
-[http://msdn2.microsoft.com/en-us/library/bb547113.aspx](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+[https://msdn2.microsoft.com/en-us/library/bb547113.aspx](https://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
 ## XmlDataSource:
 
-[http://msdn.microsoft.com/en-us/library/494y92bs.aspx](http://msdn.microsoft.com/en-us/library/494y92bs.aspx)
+[https://msdn.microsoft.com/en-us/library/494y92bs.aspx](https://msdn.microsoft.com/en-us/library/494y92bs.aspx)
 
 ## EntityDataSource:
 
-[http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
+[https://msdn.microsoft.com/en-us/library/cc488502.aspx](https://msdn.microsoft.com/en-us/library/cc488502.aspx)
 
 ## OpenAccessLinqDataSource:
 
-[http://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started](http://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started)
+[https://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started](https://docs.telerik.com/data-access/developers-guide/asp.net-development/working-with-openaccesslinqdatasource/developer-guide-oalinqdatasource-getting-started)
 
 For a tutorial that uses automatic CRUD operations feature, see [Add controls to column templates]({%slug grid/design-time/add-controls-to-column-templates%}).
 
-For a live example that demonstrates automatic data source operations, see [Automatic operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
+For a live example that demonstrates automatic data source operations, see [Automatic operations](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
 
 You may also examine the resources below:
 
-[Automatic operations with SqlDataSource control in hierarchical grid](http://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/insert-update-delete-hierarchy/defaultcs.aspx)
+[Automatic operations with SqlDataSource control in hierarchical grid](https://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/insert-update-delete-hierarchy/defaultcs.aspx)
 
-[Insert/Update/Delete with stored procedures and SqlDataSource control](http://www.telerik.com/community/code-library/submission/b311D-tgcgc.aspx)
+[Insert/Update/Delete with stored procedures and SqlDataSource control](https://www.telerik.com/community/code-library/submission/b311D-tgcgc.aspx)
 
 >note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
 >
@@ -211,13 +211,13 @@ Automatic operations through the **DataSource** control are not supported when y
 		End Class
 
 
-2. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
+2. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
 	>note Note that in this case **RadGrid** automatically extracts the edited values and calls the update method of the **DataSource** control.
 	>
 
 3. Implement the data-editing manually. In the code of the **WebUserControl**, write code to extract the values from all controls (such as text boxes and other input controls). You can use **DataAdapters** to save the changes to your database. You can also execute the **DataSourceView.Update** method as described in the ASP.NET documentation:
 
-	* [http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx)
+	* [https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx)
 
-	* [http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx)
+	* [https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx)

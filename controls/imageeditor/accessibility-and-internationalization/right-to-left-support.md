@@ -35,4 +35,4 @@ html
 
 # See Also
 
- * [Live Demo: RadImageEditor Right-to-left Support](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/righttoleft/defaultcs.aspx)
+ * [Live Demo: RadImageEditor Right-to-left Support](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/righttoleft/defaultcs.aspx)

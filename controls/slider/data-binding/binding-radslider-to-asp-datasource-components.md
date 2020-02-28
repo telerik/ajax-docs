@@ -22,7 +22,7 @@ To control the data binding you should use the new **ItemBinding** inner propert
 
 In addition, you can also add the data bound items to already declared items by setting **AppendDataBoundItems="true"**.
 
-Below is demonstrated how a data source for a RadSlider can be configured. You can also refer to the [Databinding online demo](http://demos.telerik.com/aspnet-ajax/slider/examples/databinding/defaultcs.aspx), which contains a more detailed example of this feature.
+Below is demonstrated how a data source for a RadSlider can be configured. You can also refer to the [Databinding online demo](https://demos.telerik.com/aspnet-ajax/slider/examples/databinding/defaultcs.aspx), which contains a more detailed example of this feature.
 
 ````ASP.NET
 <telerik:RadSlider RenderMode="Lightweight" ID="slider" runat="server" DataSourceID="SqlDataSource1" Width="800"
@@ -37,4 +37,4 @@ runat="server"></asp:SqlDataSource>
 
 ## Database-friendly Value setting
 
-The **RadSlider** control provides **DbValue** property for setting a value in a database-friendly way. By default the **RadSlider** accepts values of type decimal. If a value of incompatible type, for example string, is passed to the **Value** property of the control, this will result in exception. In such cases the property **DbValue** can be used, instead of **Value**. It converts the passed value to a type that can be used by the RadSlider, so that you can avoid problems due to setting incorrect type. The online demo [Database-friendly Value setting](http://demos.telerik.com/aspnet-ajax/slider/examples/dbvalue/defaultcs.aspx) provides an example of the setup that should be used in such scenario.
+The **RadSlider** control provides **DbValue** property for setting a value in a database-friendly way. By default the **RadSlider** accepts values of type decimal. If a value of incompatible type, for example string, is passed to the **Value** property of the control, this will result in exception. In such cases the property **DbValue** can be used, instead of **Value**. It converts the passed value to a type that can be used by the RadSlider, so that you can avoid problems due to setting incorrect type. The online demo [Database-friendly Value setting](https://demos.telerik.com/aspnet-ajax/slider/examples/dbvalue/defaultcs.aspx) provides an example of the setup that should be used in such scenario.

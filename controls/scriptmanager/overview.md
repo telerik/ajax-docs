@@ -49,9 +49,9 @@ When put on the page, the **RadScriptManager** combines all requests (to the "Ja
 
 **RadScriptManager** does this by outputting a **<script>** tag with a specific URL, making a request to an HttpHandler, which then serves the combined scripts.
 
-If the script combination is not needed for some reason (e.g. debugging) it can be disabled by giving the [EnableScriptCombine](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadScriptManager#properties-EnableScriptCombine) property the value of **False**.
+If the script combination is not needed for some reason (e.g. debugging) it can be disabled by giving the [EnableScriptCombine](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadScriptManager#properties-EnableScriptCombine) property the value of **False**.
 
-You can change Handler by using the [HttpHandlerUrl](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radscriptmanager_httphandlerurl.html) property of the control.
+You can change Handler by using the [HttpHandlerUrl](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radscriptmanager_httphandlerurl.html) property of the control.
 
 ## RadScriptManager needs the HttpHandler to be registered in the application's configuration file:
 
@@ -109,7 +109,7 @@ There are two cases:
 
 
 
->note Additional information is available in this blog post: [Web Resources demystified](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-18/Web_Resources_demystified_Part_3_Troubleshooting.aspx).
+>note Additional information is available in this blog post: [Web Resources demystified](https://blogs.telerik.com/AtanasKorchev/Posts/08-07-18/Web_Resources_demystified_Part_3_Troubleshooting.aspx).
 >
 
 

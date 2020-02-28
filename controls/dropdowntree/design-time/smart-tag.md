@@ -21,7 +21,7 @@ The **RadDropDownTree** Smart Tag allows easy access to frequently needed tasks.
 
 ## RadDropDownTree Tasks
 
-* **Choose Data Source** lets you change the declarative binding by selecting a data source from a drop-down list of all available data source components. If you select "**\<New Data Source...\>**" the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
+* **Choose Data Source** lets you change the declarative binding by selecting a data source from a drop-down list of all available data source components. If you select "**\<New Data Source...\>**" the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
 
 * **Open Configuration Wizard** opens the RadDropDownTree Configuration Wizard.
 

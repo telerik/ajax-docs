@@ -72,4 +72,4 @@ The custom ImageEditor dialog is a standard WebUserControl that has to be loaded
 
 
 
-A full working example of a custom dialog implementation is available in the [ImageEditor - Implement Custom Dialog and Insert Image Built-in Dialog](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/customdialoginsertimage/defaultcs.aspx) Live Demo.
+A full working example of a custom dialog implementation is available in the [ImageEditor - Implement Custom Dialog and Insert Image Built-in Dialog](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/customdialoginsertimage/defaultcs.aspx) Live Demo.

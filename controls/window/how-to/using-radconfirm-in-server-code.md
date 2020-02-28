@@ -14,7 +14,7 @@ The **RadConfirm** dialog is essentially a RadWindow, which means it is entirely
 
 ## Initiating A Postback
 
-A hidden button with the desired event handler can be placed on the page and the **__doPostBack()** function can be used to call it. There are different ways to use it and some of them are listed in the [Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) or in [this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
+A hidden button with the desired event handler can be placed on the page and the **__doPostBack()** function can be used to call it. There are different ways to use it and some of them are listed in the [Confirm Server Clicks Online Demo](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) or in [this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
 
 ````ASP.NET
 <telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>

@@ -15,7 +15,7 @@ position: 1
 
 ##
 
-The [Grid Filtered by Combo]( http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridComboAjax/DefaultCS.aspx ) demo presents how to display dependant records in **RadGrid**when a filtering criterion is selected in an external **RadComboBox** control. The grid is populated through an asynchronous call that is made using a **RadAjaxManager** instance which is configured to refresh the grid and the combobox. A loading panel indicates when the ajax request is in progress.
+The [Grid Filtered by Combo]( https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridComboAjax/DefaultCS.aspx ) demo presents how to display dependant records in **RadGrid**when a filtering criterion is selected in an external **RadComboBox** control. The grid is populated through an asynchronous call that is made using a **RadAjaxManager** instance which is configured to refresh the grid and the combobox. A loading panel indicates when the ajax request is in progress.
 
 All of this is achieved in a completely codeless manner through a select **ControlParameter** on the grid's data source (which holds the **ControlID** and the **PropertyName** of the drop-down list) and the AJAX manager's settings.
 

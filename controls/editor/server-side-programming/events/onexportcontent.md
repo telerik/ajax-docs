@@ -190,6 +190,6 @@ End Class
 
  * [Export to PDF]({%slug editor/functionality/import-and-export/export-to-pdf%})
  
- * [Telerik Document Processing - RadWordsProcessing](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview)
+ * [Telerik Document Processing - RadWordsProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview)
  
- * [RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)
+ * [RadFlowDocument](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)

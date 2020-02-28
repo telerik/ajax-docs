@@ -84,7 +84,7 @@ There are two steps that you should take to implement a custom filter:
 	
 	* **set_enabled(boolean)** - enable or disable the module depending on the boolean parameter
 	
-	* **set_isDom(boolean)** - specifies whether the filter will work with DOM objects or String, e.g. the boolean parameter specifies whether the content parameter of the getHtmlContent(content) and getDesignContent(content) functions will return DOM objects or String.The filter used in the [Custom Content Filters demo](http://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) is of type string and converts the lowercase letters to uppercase
+	* **set_isDom(boolean)** - specifies whether the filter will work with DOM objects or String, e.g. the boolean parameter specifies whether the content parameter of the getHtmlContent(content) and getDesignContent(content) functions will return DOM objects or String.The filter used in the [Custom Content Filters demo](https://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) is of type string and converts the lowercase letters to uppercase
 	
 	* **MyFilter.initializeBase(this)** - the initialization function of the module
 	
@@ -137,6 +137,6 @@ The filter modifies the editor content so that in **HTML** mode it is presented 
 
  * [Prevent Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%})
 
- * [Built-In Content Filters](http://demos.telerik.com/aspnet-ajax/Editor/Examples/BuiltInContentFilters/DefaultCS.aspx)
+ * [Built-In Content Filters](https://demos.telerik.com/aspnet-ajax/Editor/Examples/BuiltInContentFilters/DefaultCS.aspx)
 
- * [Custom Content Filters](http://demos.telerik.com/aspnet-ajax/Editor/Examples/ContentFilters/DefaultCS.aspx)
+ * [Custom Content Filters](https://demos.telerik.com/aspnet-ajax/Editor/Examples/ContentFilters/DefaultCS.aspx)

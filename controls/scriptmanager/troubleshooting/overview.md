@@ -43,10 +43,10 @@ Cause: There are different reasons for this error to happen. Please, check the l
 Resolution: Below are the respective resolutions for the problems, described above:
 	1) Implement your own browser detection mechanism and use the **OutputCompression** property of RadScriptManager to control it. You might also try to reinstall the browser,
 	 or restore its initial settings;
-	2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](http://www.telerik.com/client.net/my-client.net.aspx) 
+	2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](https://www.telerik.com/client.net/my-client.net.aspx) 
 	 account. RadScriptManager now supports the addition/insertion of custom scripts depending/dependent on other scripts. The custom script is added as a separate  `<script>` tag and the general merged script is split respectively.
-	3) Check the [Release notes](http://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already 
-	 been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](http://www.telerik.com/support/home.aspx) a 
+	3) Check the [Release notes](https://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already 
+	 been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](https://www.telerik.com/support/home.aspx) a 
 	 small website, demonstrating theproblem.
 
 

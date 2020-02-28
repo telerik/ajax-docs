@@ -112,7 +112,7 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 **FitHeight** - specifies the maximum count of the pages in which the content is distributed to. Meaningful when **FitToPage** is *true*.
 
-**PaperSize** - specifies the paper size in a value from the [PaperKind](http://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx) enumeration.
+**PaperSize** - specifies the paper size in a value from the [PaperKind](https://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx) enumeration.
 
 ## PageSetupElement
 
@@ -152,7 +152,7 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 **AlignmentElement** - determines the horizontal/vertical alignment.
 
-**Borders** - represents the cell borders - please go to the [ExcelML export topic]( http://www.telerik.com/help/aspnet-ajax/grid-excelml-export.html ) for more information.
+**Borders** - represents the cell borders - please go to the [ExcelML export topic]( https://www.telerik.com/help/aspnet-ajax/grid-excelml-export.html ) for more information.
 
 **CellProtection** - the **CellProtectionElement** contains information whether the current cell is protected.
 
@@ -196,4 +196,4 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 ## NumberFormatStyleElement
 
-**FormatType** - used to get/set the number format for the relevant cell. Visit [ExcelML export topic](http://www.telerik.com/help/aspnet-ajax/grid-excelml-export.html) for more information.
+**FormatType** - used to get/set the number format for the relevant cell. Visit [ExcelML export topic](https://www.telerik.com/help/aspnet-ajax/grid-excelml-export.html) for more information.

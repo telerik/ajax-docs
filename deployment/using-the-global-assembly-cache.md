@@ -12,21 +12,21 @@ position: 1
 
 
 
-This article explains the basics on using the [Global Assembly Cache (GAC)](http://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)	with the Telerik Controls.
+This article explains the basics on using the [Global Assembly Cache (GAC)](https://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)	with the Telerik Controls.
 
 While this article can be used as a tutorial on working with the GAC and referencing assemblies in your project,	the best source of information is the official MSDN site:
 
-* [MSDN: Global Assembly Cache](http://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)
+* [MSDN: Global Assembly Cache](https://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)
 
-* [MSDN: Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/en-us/library/6axd4fx6.aspx)
+* [MSDN: Working with Assemblies and the Global Assembly Cache](https://msdn.microsoft.com/en-us/library/6axd4fx6.aspx)
 
-* [MSDN: Global Assembly Cache tool (Gacutil.exe)](http://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx)
+* [MSDN: Global Assembly Cache tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx)
 
-* [MSDN: Visual Studio Command Prompt](http://msdn.microsoft.com/en-us/library/ms229859.aspx)
+* [MSDN: Visual Studio Command Prompt](https://msdn.microsoft.com/en-us/library/ms229859.aspx)
 
-* [MSDN: How to Install an Assembly into the Global Assembly Cache](http://msdn.microsoft.com/en-us/library/dkkx7f79%28v=VS.100%29.aspx)
+* [MSDN: How to Install an Assembly into the Global Assembly Cache](https://msdn.microsoft.com/en-us/library/dkkx7f79%28v=VS.100%29.aspx)
 
-* [MSDN: How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/en-us/library/aa559881.aspx)
+* [MSDN: How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/en-us/library/aa559881.aspx)
 
 The [Telerik® UI for ASP.NET AJAX assemblies]({%slug introduction/installation/included-assemblies%}) are standard .NET assemblies, so all generic rules apply to them as well.
 
@@ -100,7 +100,7 @@ And one that can go in either category:
 
 ## Add, Remove and View Assemblies in the GAC
 
-First, you are going to need a tool from the .NET SDK that comes with Visual Studio – [gacutil.exe](http://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx). To run it go to -> All Programs -> Visual Studio <version> -> Visual Studio Tools -> run the [Visual Studio Command Prompt](http://msdn.microsoft.com/en-us/library/ms229859.aspx) (or Developer Command prompt), depending on the VS version you use.
+First, you are going to need a tool from the .NET SDK that comes with Visual Studio – [gacutil.exe](https://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx). To run it go to -> All Programs -> Visual Studio <version> -> Visual Studio Tools -> run the [Visual Studio Command Prompt](https://msdn.microsoft.com/en-us/library/ms229859.aspx) (or Developer Command prompt), depending on the VS version you use.
 
 ### View the Assemblies in the GAC
 
@@ -138,7 +138,7 @@ Here is an example that removes the R3 2017 Telerik.Web.UI.dll assembly to the G
 
 `gacutil /u Telerik.Web.UI, Version=2017.3.913.45, Culture=neutral, PublicKeyToken=121fae165ba3d4`
 
-You can read more on the subject in the [How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/en-us/library/aa559881.aspx) MSDN article.
+You can read more on the subject in the [How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/en-us/library/aa559881.aspx) MSDN article.
 
 >tip If an assembly has been added to the GAC by an automated installer, to remove it from the GAC, you must first uninstall the program that added it. The Telerik® UI for ASP.NET AJAX installer adds the Telerik.Web.UI.Design.dll assembly to the GAC in versions prior to R1 2018.
 
@@ -219,14 +219,14 @@ If you get the **"Could not load file or assembly…"** error. It means the refe
 
 ## See Also
 
- * [MSDN: Global Assembly Cache](http://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)
+ * [MSDN: Global Assembly Cache](https://msdn.microsoft.com/en-us/library/yf1d93sz.aspx)
 
- * [MSDN: Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/en-us/library/6axd4fx6.aspx)
+ * [MSDN: Working with Assemblies and the Global Assembly Cache](https://msdn.microsoft.com/en-us/library/6axd4fx6.aspx)
 
- * [MSDN: Global Assembly Cache tool (Gacutil.exe)](http://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx)
+ * [MSDN: Global Assembly Cache tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx)
 
- * [MSDN: Visual Studio Command Prompt](http://msdn.microsoft.com/en-us/library/ms229859.aspx)
+ * [MSDN: Visual Studio Command Prompt](https://msdn.microsoft.com/en-us/library/ms229859.aspx)
 
- * [MSDN: How to Install an Assembly into the Global Assembly Cache](http://msdn.microsoft.com/en-us/library/dkkx7f79%28v=VS.100%29.aspx)
+ * [MSDN: How to Install an Assembly into the Global Assembly Cache](https://msdn.microsoft.com/en-us/library/dkkx7f79%28v=VS.100%29.aspx)
 
- * [Telerik Blog Post: Working with Assemblies in the GAC](http://blogs.telerik.com/aspnet-ajax/posts/13-09-19/working-with-assemblies-in-the-global-assembly-cache)
+ * [Telerik Blog Post: Working with Assemblies in the GAC](https://blogs.telerik.com/aspnet-ajax/posts/13-09-19/working-with-assemblies-in-the-global-assembly-cache)

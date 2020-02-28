@@ -13,7 +13,7 @@ position: 3
 
 
 
-The [Window Editing](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndWindow/DefaultCS.aspx) demo shows how to use **RadWindow** for editing **RadGrid** records.
+The [Window Editing](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndWindow/DefaultCS.aspx) demo shows how to use **RadWindow** for editing **RadGrid** records.
 
 The demo uses a **GridTemplateColumn** that contains a **HyperLink** control to launch the window for editing, and a [CommandItemTemplate]({%slug grid/data-editing/commanditem/command-item-template%}) to add a link that launches the window for inserts.
 

@@ -278,4 +278,4 @@ In a new AJAX Enabled Web Application:
 
 ## See Also
 
- * [Save In Database](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/SaveInDatabase/DefaultCS.aspx)
+ * [Save In Database](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/SaveInDatabase/DefaultCS.aspx)

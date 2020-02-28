@@ -50,7 +50,7 @@ The arguments that the constructor of the ResizeExtender class accepts are:
 | **document[Optional]** |The document, to which the specified elementToMoveAndResize element belongs. In case this parameter is not specified, the extender uses the current document.|
 | **moveCursorType[Optional]** |The CSS cursor style, applied to the move handle. By default, the extender uses “move” cursor type.|
 | **autoScrollEnabled[Optional]** |A Boolean property that specifies whether the extender will change the scrollTop and(or) ScrollLeft of the browser window, when the user tries to move the specified elementToMoveAndResize element outside of the visible viewport. Note that this feature does not work in Mobile browsers.|
-| **moveToMouseLocation[Optional]** |A Boolean property that specifies whether the element will move to the click location, before the user starts dragging it. This is useful, in case the move handle is larger than the element to move. A simple example that demonstrates this case is the handle element in the [HSB/HSV palettes of RadColorPicker](http://demos.telerik.com/aspnet-ajax/colorpicker/examples/default/defaultcs.aspx).|
+| **moveToMouseLocation[Optional]** |A Boolean property that specifies whether the element will move to the click location, before the user starts dragging it. This is useful, in case the move handle is larger than the element to move. A simple example that demonstrates this case is the handle element in the [HSB/HSV palettes of RadColorPicker](https://demos.telerik.com/aspnet-ajax/colorpicker/examples/default/defaultcs.aspx).|
 
 Here is an example demonstrating how to drag and resize a DIV element:
 
@@ -58,8 +58,8 @@ Here is an example demonstrating how to drag and resize a DIV element:
 <%@ Page Language="C#" AutoEventWireup="true" %>
 
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title></title>
     <style type="text/css">

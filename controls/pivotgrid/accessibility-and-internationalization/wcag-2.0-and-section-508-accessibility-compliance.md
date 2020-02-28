@@ -18,7 +18,7 @@ position: 0
 
 RadPivotGrid for ASP.NET AJAX satisfies the requirements of "Section 508" for software accessibility, as well as thosefor level AA (in compliance with the W3C Web Accessibility Guidelines 2.0).
 
-[This online example](http://demos.telerik.com/aspnet-ajax/pivotgrid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadPivotGrid accessible by leveraging the settings for the differentcaption, tooltip and summary properties of the rendered HTML elements.
+[This online example](https://demos.telerik.com/aspnet-ajax/pivotgrid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadPivotGrid accessible by leveraging the settings for the differentcaption, tooltip and summary properties of the rendered HTML elements.
 
 **RadPivotGrid.AccessibilitySettings**
 

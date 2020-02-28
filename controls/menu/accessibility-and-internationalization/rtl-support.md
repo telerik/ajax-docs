@@ -48,7 +48,7 @@ This produces the following menu:
 
 ![RadMenu RTL with Images](images/menu_rtlwithimages.png)
 
-For a live example, see [Right to Left Support](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/RightToLeft/DefaultCS.aspx).
+For a live example, see [Right to Left Support](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Functionality/RightToLeft/DefaultCS.aspx).
 
 # See Also
 

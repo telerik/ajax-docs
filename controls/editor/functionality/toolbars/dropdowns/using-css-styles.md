@@ -43,4 +43,4 @@ When an image is selected, the styles related to that image and any global style
 
 ![CSS 5](images/editor-usingcss5.gif)
 
-More information about CSS styles - global and specific for an element, can be found in various internet sites. For example - [www.w3c.org](http://www.w3c.org/).
+More information about CSS styles - global and specific for an element, can be found in various internet sites. For example - [www.w3c.org](https://www.w3c.org/).

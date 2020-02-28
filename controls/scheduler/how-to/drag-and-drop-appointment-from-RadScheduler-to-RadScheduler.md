@@ -79,7 +79,7 @@ function OnClientAppointmentMoveEnd(sender, args) {
 
 ````
 
-Fully working example of the above implementation could be found in the following [**Code library**](http://www.telerik.com/support/code-library/drag-and-drop-appointment-from-radscheduler-to-radscheduler).
+Fully working example of the above implementation could be found in the following [**Code library**](https://www.telerik.com/support/code-library/drag-and-drop-appointment-from-radscheduler-to-radscheduler).
 
 # See Also
 

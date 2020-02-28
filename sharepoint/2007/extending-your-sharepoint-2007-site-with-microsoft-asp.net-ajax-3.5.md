@@ -16,11 +16,11 @@ In order to extend your SharePoint 2007 site with Microsoft **ASP.NET AJAX 3.5**
 
 ## Install .NET Framework 3.5
 
-Download and install .NET Framework 3.5 SP1 from [here](http://www.microsoft.com/downloads/details.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7&displaylang=en).
+Download and install .NET Framework 3.5 SP1 from [here](https://www.microsoft.com/downloads/details.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7&displaylang=en).
 
 ## Modify your web.config file
 
->tip Before you continue reading you can check this KB article by **Michael Raizman**: [SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](http://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
+>tip Before you continue reading you can check this KB article by **Michael Raizman**: [SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](https://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
 
 
 

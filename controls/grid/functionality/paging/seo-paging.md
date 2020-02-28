@@ -28,13 +28,13 @@ SEO paging is used automatically when the grid detects a Web crawler. In additio
 
 In addition, you can specify the query string key for the grid that is used as part of the page query string by setting the **PagerStyle.SEOPagingQueryStringKey** property. This is useful when the grid resides in several containers and its id becomes too long and not very readable.
 
-For a live example demonstrating SEO paging, see [SEO-friendly paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SEOPaging/DefaultCS.aspx).
+For a live example demonstrating SEO paging, see [SEO-friendly paging](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SEOPaging/DefaultCS.aspx).
 
 ## Support for URL Routing in ASP.NET 4.0
 
-ASP.NET 4.0 introduces an easy approach to setup [URL Routing](http://msdn.microsoft.com/en-us/library/cc668201.aspx). With Routing, URLs no longer have to map to physical files. Thus, applications can use friendlier URLs that describe a logical structure, instead of the physical file structure of the application.
+ASP.NET 4.0 introduces an easy approach to setup [URL Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx). With Routing, URLs no longer have to map to physical files. Thus, applications can use friendlier URLs that describe a logical structure, instead of the physical file structure of the application.
 
-As of version 2010.Q2, RadGrid now supports URL Routing in ASP.NET 4.0 applications. Instead of reading query strings, RadGrid can use [URL parameters](http://msdn.microsoft.com/en-us/library/cc668201.aspx#adding_routes_to_a_web_forms_application) that specify the page index.
+As of version 2010.Q2, RadGrid now supports URL Routing in ASP.NET 4.0 applications. Instead of reading query strings, RadGrid can use [URL parameters](https://msdn.microsoft.com/en-us/library/cc668201.aspx#adding_routes_to_a_web_forms_application) that specify the page index.
 
 
 |  **Example**  |  |
@@ -91,4 +91,4 @@ Once routing is enabled in your application, you can configure RadGrid to use th
 >
 
 
-For more information on URL Routing support for RadGrid and a runnable demo, please refer to the [RadGrid for ASP.NET AJAX SEO Paging and Routing in ASP.NET 4.0 blog post in Telerik Blogs](http://blogs.telerik.com/aspnet-ajax/posts/10-06-23/radgrid-for-asp-net-ajax-seo-paging-with-routing-in-asp-net-4-0.aspx).
+For more information on URL Routing support for RadGrid and a runnable demo, please refer to the [RadGrid for ASP.NET AJAX SEO Paging and Routing in ASP.NET 4.0 blog post in Telerik Blogs](https://blogs.telerik.com/aspnet-ajax/posts/10-06-23/radgrid-for-asp-net-ajax-seo-paging-with-routing-in-asp-net-4-0.aspx).

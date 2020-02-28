@@ -15,10 +15,10 @@ position: 3
 This article will introduce you to the specifics related to client-side sorting and filtering in RadListView, including description of the control's behavior during these operations and the API exposed for controlling them.
 
 * **Sorting
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section1_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section1_self**
 
 * **Filtering
-http://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section2_self**
+https://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section2_self**
 
 ## Sorting a client-side bound RadListView
 

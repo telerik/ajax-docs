@@ -103,12 +103,12 @@ End Sub
 
 ````C#
 	
-RadAjaxPanel1.Redirect("http://www.telerik.com");
+RadAjaxPanel1.Redirect("https://www.telerik.com");
 	
 ````
 ````VB.NET
 	
-RadAjaxPanel1.Redirect("http://www.telerik.com")
+RadAjaxPanel1.Redirect("https://www.telerik.com")
 	
 	
 ````

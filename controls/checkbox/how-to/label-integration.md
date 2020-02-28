@@ -59,7 +59,7 @@ To integrate **RadCheckBox** with HTML Label you should simply set the for attri
 
 ## See Also
  
- * [CheckBox - Label Integration Demo](http://demos.telerik.com/aspnet-ajax/checkbox/application-scenarios/label-integration/defaultcs.aspx)
+ * [CheckBox - Label Integration Demo](https://demos.telerik.com/aspnet-ajax/checkbox/application-scenarios/label-integration/defaultcs.aspx)
  
  * [RadLabel Overview]({%slug label/overview%})
  

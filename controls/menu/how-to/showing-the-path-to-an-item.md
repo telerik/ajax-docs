@@ -85,7 +85,7 @@ When the user clicks an item, after the postback, the path to the item appears h
 
 
 
-For a live example, see [Show path](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ShowPath/DefaultCS.aspx).
+For a live example, see [Show path](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ShowPath/DefaultCS.aspx).
 
 # See Also
 

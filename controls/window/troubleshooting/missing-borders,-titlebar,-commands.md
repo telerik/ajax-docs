@@ -16,7 +16,7 @@ Sometimes the borders, TitleBar and StatusBar of the RadWindow do not show up wh
 
 ![radwindow missing-borders](images/radwindow_missing-borders.png)
 
-This behavior is most common under **Internet Explorer** and is usually due to its [31 stylesheets limitation](http://blogs.telerik.com/aspnetmvcteam/posts/10-05-03/internet-explorer-css-limits.aspx). It loads stylesheets alphabetically and the RadWindow is often late in the list. Another factor that contributes to this is that it loads the sprites that actually form the backgrounds of the titlebar and borders only when they are needed (i.e. when it is shown for the first time).
+This behavior is most common under **Internet Explorer** and is usually due to its [31 stylesheets limitation](https://blogs.telerik.com/aspnetmvcteam/posts/10-05-03/internet-explorer-css-limits.aspx). It loads stylesheets alphabetically and the RadWindow is often late in the list. Another factor that contributes to this is that it loads the sprites that actually form the backgrounds of the titlebar and borders only when they are needed (i.e. when it is shown for the first time).
 
 A rather easy solution for this is to add a [RadStyleSheetManager]({%slug stylesheetmanager/overview%}) to the page so that requests for the stylesheets will be combined thus the total number of requests will be reduced.
 
@@ -28,6 +28,6 @@ Another possible reason is that the WebResource requests are not received by the
 
 ## See Also
 
- * [IE's 31 stylesheets limitation](http://blogs.telerik.com/aspnetmvcteam/posts/10-05-03/internet-explorer-css-limits.aspx)
+ * [IE's 31 stylesheets limitation](https://blogs.telerik.com/aspnetmvcteam/posts/10-05-03/internet-explorer-css-limits.aspx)
  
  * [RadStyleSheetManager Overview]({%slug stylesheetmanager/overview%})

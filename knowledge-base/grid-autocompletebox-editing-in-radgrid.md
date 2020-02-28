@@ -153,7 +153,7 @@ Configure the SqlDataSource send CRUD requests to SQL database
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
 </head>

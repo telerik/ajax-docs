@@ -224,7 +224,7 @@ When implementing a dynamic personalized Portal site using the techniques descri
 				Next state
 			End Sub
 
->tip To improve performance, you may want to use a hidden update panel for saving state when minimizing, moving and closing docks. This way the docks state is saved faster as there is no need to update the docking zones. See [My Portal](http://demos.telerik.com/aspnet-ajax/Dock/Examples/MyPortal/DefaultCS.aspx) for a live example that uses this technique.
+>tip To improve performance, you may want to use a hidden update panel for saving state when minimizing, moving and closing docks. This way the docks state is saved faster as there is no need to update the docking zones. See [My Portal](https://demos.telerik.com/aspnet-ajax/Dock/Examples/MyPortal/DefaultCS.aspx) for a live example that uses this technique.
 >
 
 

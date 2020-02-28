@@ -94,7 +94,7 @@ End Sub
 ````
 
 
-**Client-side editing with batch update**One possible implementation is demonstrated on [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
+**Client-side editing with batch update**One possible implementation is demonstrated on [this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
 
 * Wire the ondblclick event of the grid cells
 

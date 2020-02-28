@@ -106,7 +106,7 @@ Note that on the client-side, the names of events are slightly different than th
 |OnClientDropDownItemDataBound|add_dropDownItemDataBound(), remove_dropDownItemDataBound().||
 
 
-For a live example of using client-side events, see [Client Events Demo](http://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/clientevents/defaultcs.aspx).
+For a live example of using client-side events, see [Client Events Demo](https://demos.telerik.com/aspnet-ajax/autocompletebox/examples/programming/clientevents/defaultcs.aspx).
 
 # See Also
 

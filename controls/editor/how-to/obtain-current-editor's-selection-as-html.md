@@ -23,7 +23,7 @@ The example below shows how to obtain the current selection using a custom butto
 		<style type="text/css">
 			.reToolbar.Default .CustomSelectionTool
 			{
-				background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
+				background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
 			}
 		</style>
 		...

@@ -42,7 +42,7 @@ All the shortcuts are controlled through the RadFileExplorer.**KeyboardShortcuts
 
 	* BACK - corresponds to the "Backspace" key
 
-	* CONTEXT - corresponds to the ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) key
+	* CONTEXT - corresponds to the ["(Context) Menu"](https://en.wikipedia.org/wiki/Menu_key) key
 
 	* ESCAPE оr ESC - correspond to the "Escape" key
 
@@ -72,7 +72,7 @@ Default shortcuts:
 
 * **Delete** - delete selected file, folder in the Grid or TreeView. Note, that you need to press "Enter" to select a folder in the TreeView.
 
-* ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) - open/close the Context Menu of the TreeView or the Grid, close to the selected file or folder.
+* ["(Context) Menu"](https://en.wikipedia.org/wiki/Menu_key) - open/close the Context Menu of the TreeView or the Grid, close to the selected file or folder.
 
 	![](images/radfileexplorer-context-menu.png)
 
@@ -80,7 +80,7 @@ Default shortcuts:
 
 Standard keyboard navigation:
 
-* Use **Tab** or **Shift + Tab** to navigate through the items (tools) of the ToolBar if their Keyboard navigation is enabled ([the AccessKey of each button must be set](http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/accessibility-and-internationalization/keyboard-support))
+* Use **Tab** or **Shift + Tab** to navigate through the items (tools) of the ToolBar if their Keyboard navigation is enabled ([the AccessKey of each button must be set](https://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/accessibility-and-internationalization/keyboard-support))
 
 * Use **Tab** or **Shift + Tab** to navigate through the different controls of the FileExplorer, i.e. ToolBar, AddressBar, TreeView, Grid.
 
@@ -126,4 +126,4 @@ A visual indication that the user is currently interacting with one of the FileE
 
 ## See Also
 
- * [Keyboard support demo for RadFileExplorer](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/keyboardsupport/defaultcs.aspx)
+ * [Keyboard support demo for RadFileExplorer](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/keyboardsupport/defaultcs.aspx)

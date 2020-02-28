@@ -59,4 +59,4 @@ The following example illustrates this approach:
 
 
 
-An online demo demonstrating the approach in reality can be viewed [ here](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/RadUploadInAjaxifiedGrid/DefaultCS.aspx?product=grid)
+An online demo demonstrating the approach in reality can be viewed [ here](https://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/RadUploadInAjaxifiedGrid/DefaultCS.aspx?product=grid)

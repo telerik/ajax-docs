@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Barcode.KanjiMode
 # Telerik.Web.UI.Barcode.KanjiMode
 
 Kanji ECI mode for QRCode.
-            See http://docs.telerik.com/devtools/aspnet-ajax/controls/barcode/qrcode.html QRCodeSettingsfor more information
+            See https://docs.telerik.com/devtools/aspnet-ajax/controls/barcode/qrcode.html QRCodeSettingsfor more information
 
 ## Inheritance Hierarchy
 

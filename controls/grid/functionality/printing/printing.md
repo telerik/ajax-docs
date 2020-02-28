@@ -28,6 +28,6 @@ $find(“RadGrid1”).print();
 
 ## See Also
 
- * [Demo: RadGrid Print](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/printing/defaultcs.aspx?isNew=true)
+ * [Demo: RadGrid Print](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/printing/defaultcs.aspx?isNew=true)
 
 

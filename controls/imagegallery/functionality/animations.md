@@ -21,7 +21,7 @@ By using the **Easing** and **Speed** properties, you could configure the animat
 
 ## Type
 
-The **Type** property allows you to choose an animation effect. **RadImageGallery** offers 14different animation effects or you can choose the **Random** type, which will apply a different effect between the image transitions. You can check out the different animation effects in the [live example](http://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/animations/defaultcs.aspx).
+The **Type** property allows you to choose an animation effect. **RadImageGallery** offers 14different animation effects or you can choose the **Random** type, which will apply a different effect between the image transitions. You can check out the different animation effects in the [live example](https://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/animations/defaultcs.aspx).
 
 The **NextImagesAnimation** and **PrevImagesAnimation** properties contain predefined lists with all available animations. You can choose a particular animation, which will be applied to one or both properties. **Easing** and **Speed** properties are not mandatory. **Table 1** shows the different animations.
 
@@ -36,7 +36,7 @@ The **NextImagesAnimation** and **PrevImagesAnimation** properties contain prede
 
 ## Easing
 
-Easing functions makes animation look more realistic by controlling the rate of the transition between the images.The simplest easing function, the line, is linear interpolation at constant rate.More advanced easing functions can have accelerating or decelerating at the beginning, the end or both.You could read the following [MSDN Easing Function](http://msdn.microsoft.com/en-us/library/ee308751%28v=vs.110%29.aspx)help article, which provides detailed information about the different easing functions.Since easing functions are inherited from .NET, **RadImageGallery** supports them.**Table 2** shows the different easing functions.
+Easing functions makes animation look more realistic by controlling the rate of the transition between the images.The simplest easing function, the line, is linear interpolation at constant rate.More advanced easing functions can have accelerating or decelerating at the beginning, the end or both.You could read the following [MSDN Easing Function](https://msdn.microsoft.com/en-us/library/ee308751%28v=vs.110%29.aspx)help article, which provides detailed information about the different easing functions.Since easing functions are inherited from .NET, **RadImageGallery** supports them.**Table 2** shows the different easing functions.
 
 **Table 2:** All available easing functions.
 
@@ -72,6 +72,6 @@ The **Speed** property determines the duration of the animation, measured in mil
 
 # See Also
 
- * [Animation Live Demo](http://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/animations/defaultcs.aspx)
+ * [Animation Live Demo](https://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/animations/defaultcs.aspx)
 
  * [RadImageGallery Overview]({%slug imagegallery/overview%})

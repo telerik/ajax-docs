@@ -45,11 +45,11 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 ````XML
 <?xml version="1.0" encoding="utf-8" ?>
 <sitemap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
-  <siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page">  
-	<siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description="Telerik RadControls for ASP.NET" >  
-		<siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>  
+  <siteMapNode url="https://www.telerik.com" title="Telerik" description="Telerik home page">  
+	<siteMapNode url="https://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description="Telerik RadControls for ASP.NET" >  
+		<siteMapNode url="https://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>  
 	</siteMapNode>  
-	<siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description="Telerik RadNavigation controls" />  
+	<siteMapNode url="https://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description="Telerik RadNavigation controls" />  
   </siteMapNode>
 </sitemap>
 ````
@@ -102,30 +102,30 @@ Consider the following example:
 <?xml version="1.0" encoding="utf-8" ?>
 <Items Text="">
   <Item Text="European cities" Url="" >
-	<Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
-	<Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
-	<Item Text="Paris" Url="http://en.wikipedia.org/wiki/Paris" />
+	<Item Text="Sofia" Url="https://en.wikipedia.org/wiki/Sofia" />
+	<Item Text="Berlin" Url="https://en.wikipedia.org/wiki/Berlin" />
+	<Item Text="Paris" Url="https://en.wikipedia.org/wiki/Paris" />
   </Item>
   <Item Text="North American cities" Url="">
-	<Item Text="Boston" Url="http://en.wikipedia.org/wiki/Boston" />
-	<Item Text="San Francisco" Url="http://en.wikipedia.org/wiki/San_Francisco" />
-	<Item Text="Seattle" Url="http://en.wikipedia.org/wiki/Seattle" />
-	<Item Text="Toronto" Url="http://en.wikipedia.org/wiki/Toronto" />
+	<Item Text="Boston" Url="https://en.wikipedia.org/wiki/Boston" />
+	<Item Text="San Francisco" Url="https://en.wikipedia.org/wiki/San_Francisco" />
+	<Item Text="Seattle" Url="https://en.wikipedia.org/wiki/Seattle" />
+	<Item Text="Toronto" Url="https://en.wikipedia.org/wiki/Toronto" />
   </Item>
   <Item Text="South American cities" Url="">
-	<Item Text="Rio de Janeiro" Url="http://en.wikipedia.org/wiki/Rio_De_Janeiro" />
-	<Item Text="Buenos Aires" Url="http://en.wikipedia.org/wiki/Buenos_aires" />
+	<Item Text="Rio de Janeiro" Url="https://en.wikipedia.org/wiki/Rio_De_Janeiro" />
+	<Item Text="Buenos Aires" Url="https://en.wikipedia.org/wiki/Buenos_aires" />
   </Item>
   <Item Text="Asian cities" Url="">
-	<Item Text="Tokyo" Url="http://en.wikipedia.org/wiki/Tokyo" />
-	<Item Text="Seul" Url="http://en.wikipedia.org/wiki/Seul" />
-	<Item Text="Beijing" Url="http://en.wikipedia.org/wiki/Beijing" />
-	<Item Text="Tehran" Url="http://en.wikipedia.org/wiki/Teheran" />
+	<Item Text="Tokyo" Url="https://en.wikipedia.org/wiki/Tokyo" />
+	<Item Text="Seul" Url="https://en.wikipedia.org/wiki/Seul" />
+	<Item Text="Beijing" Url="https://en.wikipedia.org/wiki/Beijing" />
+	<Item Text="Tehran" Url="https://en.wikipedia.org/wiki/Teheran" />
   </Item>
   <Item Text="African cities" Url="">
-	<Item Text="Kano" Url="http://en.wikipedia.org/wiki/Kano" />
-	<Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
-	<Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
+	<Item Text="Kano" Url="https://en.wikipedia.org/wiki/Kano" />
+	<Item Text="Johannesburg" Url="https://en.wikipedia.org/wiki/Johannesburg" />
+	<Item Text="BeninCity" Url="https://en.wikipedia.org/wiki/Benin" />
   </Item>
 </Items>
 ````

@@ -15,9 +15,9 @@ Under **SharePoint Online** (**Office 365**) and **on-premise** you can use the 
 
 The following articles can help get you started in your development:
 
-* [Kendo UI for Office 365](http://www.telerik.com/kendo-ui/ui-for-office-365-sharepoint) page
+* [Kendo UI for Office 365](https://www.telerik.com/kendo-ui/ui-for-office-365-sharepoint) page
 
-* [Better Office 365 Experiences with Kendo UI](http://www.telerik.com/blogs/better-office-365-experiences-with-kendo-ui) blog post
+* [Better Office 365 Experiences with Kendo UI](https://www.telerik.com/blogs/better-office-365-experiences-with-kendo-ui) blog post
 
 * [Introduction to Using Kendo UI in SharePoint Online – A “How To” Series](https://developer.telerik.com/featured/introduction-using-kendo-ui-sharepoint-online-series/) blog post.
 

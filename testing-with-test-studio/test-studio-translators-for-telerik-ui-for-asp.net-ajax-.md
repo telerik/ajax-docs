@@ -14,7 +14,7 @@ position: 1
 
 ## Overview
 
-The party that best understands the internals of a component is the party that built it. Telerik Test Studio Translators are extensions that expose internal elements and properties of Telerik controls for automation and verification by Test Studio. First, the translator displays the different elements of the control using Test Studio Hover-Over Highlighting. Selecting one of these elements allows automating against that element from the [Elements Menu](http://docs.telerik.com/teststudio/features/recorder/overview) and [Elements Explorer](http://docs.telerik.com/teststudio/features/elements-explorer/overview). These tools will expose special properties and actions of these elements of the control, so that tests can take full advantage of the power of Telerik controls.
+The party that best understands the internals of a component is the party that built it. Telerik Test Studio Translators are extensions that expose internal elements and properties of Telerik controls for automation and verification by Test Studio. First, the translator displays the different elements of the control using Test Studio Hover-Over Highlighting. Selecting one of these elements allows automating against that element from the [Elements Menu](https://docs.telerik.com/teststudio/features/recorder/overview) and [Elements Explorer](https://docs.telerik.com/teststudio/features/elements-explorer/overview). These tools will expose special properties and actions of these elements of the control, so that tests can take full advantage of the power of Telerik controls.
 
 * Test Studio includes translators for the full set of Telerik controls, including RadGrid, RadCombobox, and RadInput controls
 
@@ -42,11 +42,11 @@ As you mouse over these flippers, colored borders appear around a translated ele
 
 As the mouse passes over translated elements, tooltip text appears with the identity of a specific element.The light green highlighting shows the shape of that element’s container.
 
-Clicking one of these flippers opens the Elements Menu for the translated element. Clicking the [Quick Tasks](http://docs.telerik.com/teststudio/features/recorder/verifications/quick-verification) option displays common tasks for the specific element. The screenshot below shows verification and wait tasks for a particular grid cell. This allows a level of transparency and detail custom-fit to this control.
+Clicking one of these flippers opens the Elements Menu for the translated element. Clicking the [Quick Tasks](https://docs.telerik.com/teststudio/features/recorder/verifications/quick-verification) option displays common tasks for the specific element. The screenshot below shows verification and wait tasks for a particular grid cell. This allows a level of transparency and detail custom-fit to this control.
 
 ![Elements menu](images/introduction-teststudio-translators-elements-menu.png)
 
-Telerik controls translators have a base group of intrinsic translators that are used whenever a more specific translator is not available.These translators are listed in the Test Studio [Project Settings](http://docs.telerik.com/teststudio/features/project-settings/translators) dialog.
+Telerik controls translators have a base group of intrinsic translators that are used whenever a more specific translator is not available.These translators are listed in the Test Studio [Project Settings](https://docs.telerik.com/teststudio/features/project-settings/translators) dialog.
 
 ## The Translator Advantage
 
@@ -58,4 +58,4 @@ You can also perform verifications against properties that are not reflected dir
 
 ![Verifications](images/introduction-teststudio-translators-verifications.png)
 
-These are just two of the many scenarios where translators make testing controls easier. Using [Telerik® UI for ASP.NET AJAX translators for Test Studio](http://docs.telerik.com/teststudio/getting-started/test-recording/translators), you can gain more control over actions and verifications while spending less time building and maintaining your tests.
+These are just two of the many scenarios where translators make testing controls easier. Using [Telerik® UI for ASP.NET AJAX translators for Test Studio](https://docs.telerik.com/teststudio/getting-started/test-recording/translators), you can gain more control over actions and verifications while spending less time building and maintaining your tests.

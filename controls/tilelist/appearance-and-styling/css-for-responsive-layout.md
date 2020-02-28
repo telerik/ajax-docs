@@ -16,7 +16,7 @@ This article shows the code that is used to achieve the [responsive layout]({%sl
 
 ## Media Queries Trigger the TileList Layout Change
 
-[CSS media queries](http://www.w3.org/TR/css3-mediaqueries/) are used to detect the viewport size (and its change), so that appropriate CSS rules are applied to the **RadTileList**,its HTML elements and the **Tiles** themselves. Upon a viewport change, the **RadTileList** is notified through a JavaScript event so it can recalculate the available space and, if needed, reorder the tiles and change its HTML elements.
+[CSS media queries](https://www.w3.org/TR/css3-mediaqueries/) are used to detect the viewport size (and its change), so that appropriate CSS rules are applied to the **RadTileList**,its HTML elements and the **Tiles** themselves. Upon a viewport change, the **RadTileList** is notified through a JavaScript event so it can recalculate the available space and, if needed, reorder the tiles and change its HTML elements.
 
 Out of the box, two resolutions are used in the media queries to trigger the two additional layouts—768px and 480px. You can see examples of the layout with each of them in the [responsive layout article]({%slug tilelist/mobile-support/responsive-capabilities%}).
 
@@ -153,6 +153,6 @@ All cascades for the responsive layout go through the `rtlistResponsive` class.
 
  * [Responsive Layout for RadTileList]({%slug tilelist/mobile-support/responsive-capabilities%})
 
- * [CSS Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
+ * [CSS Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
 
  * [Viewport Width Units](http://dev.w3.org/csswg/css-values/#vw-unit)

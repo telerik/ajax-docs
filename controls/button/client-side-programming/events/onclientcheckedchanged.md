@@ -46,7 +46,7 @@ This event is useful when the user wants to execute custom client code when the 
 	ButtonType="ToggleButton" OnClientCheckedChanged="ShowHideWindow" AutoPostBack="false">
 </telerik:RadButton>
 
-<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.telerik.com">
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="https://www.telerik.com">
 </telerik:RadWindow>
 ````
 

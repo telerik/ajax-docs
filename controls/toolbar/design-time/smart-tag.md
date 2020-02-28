@@ -24,7 +24,7 @@ Using the unbound **RadToolBar** Smart Tag you can perform the following:
 
 ## RadToolBar Tasks
 
-* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadToolBar...** opens the [RadToolBar Item Editor]({%slug toolbar/design-time/radtoolbar-item-editor%}), where you can create and configure statically-defined buttons for your toolbar.
 
@@ -54,6 +54,6 @@ When **RadToolBar** is bound to a data source, the Smart Tag looks like the foll
 
 ![toolbar smarttag bound](images/toolbar_smarttag_bound.png)
 
-Using the bound **RadToolBar** Smart Tag you can perform any task you can perform with the unbound Smart Tag. In addition, you can choose **Configure Data Source...** to open the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+Using the bound **RadToolBar** Smart Tag you can perform any task you can perform with the unbound Smart Tag. In addition, you can choose **Configure Data Source...** to open the standard Windows [Data Source Configuration Wizard](https://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 Once the Data Source is chosen, you can select each of the following - **DataTextField** and **DataValueField**. These should be fields in the Data Source which will serve data respectively for the **Text** and **Value** properties of RadToolBar Buttons.

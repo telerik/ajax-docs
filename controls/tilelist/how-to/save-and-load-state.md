@@ -14,7 +14,7 @@ You can save and load the state of a **RadTileList** control for your end users 
 
 The [Selected]({%slug tilelist/functionality/selecting%}) state and the order of the tiles can be saved and loaded.
 
-You can see this in action in the following demo: [Persisting TileList Settings](http://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx). A basic setup is shown in **Example 1**.
+You can see this in action in the following demo: [Persisting TileList Settings](https://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx). A basic setup is shown in **Example 1**.
 
 How to use saving and loading with this example:
 
@@ -225,6 +225,6 @@ End Sub
 
 # See Also
 
-* [Live Demo: Persisting TileList Settings](http://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx)
+* [Live Demo: Persisting TileList Settings](https://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx)
 
 * [Drag and Drop Tiles]({%slug tilelist/functionality/drag-and-drop%})

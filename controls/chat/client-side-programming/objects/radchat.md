@@ -10,7 +10,7 @@ position: 0
 
 # RadChat Object
 
-The **RadChat** control is built on top of the [Kendo UI Chat](http://demos.telerik.com/kendo-ui/chat/index). This allows you to interact with the chat entirely on the client-side. When you have referenced the Kendo UI chat, you can utilize the [full capabilities of its API](http://docs.telerik.com/kendo-ui/api/javascript/ui/chat). 
+The **RadChat** control is built on top of the [Kendo UI Chat](https://demos.telerik.com/kendo-ui/chat/index). This allows you to interact with the chat entirely on the client-side. When you have referenced the Kendo UI chat, you can utilize the [full capabilities of its API](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat). 
 
 The following table lists the methods of the client-side **RadChat** object:
 
@@ -80,7 +80,7 @@ chat.renderSuggestedActions([{
 
 # See Also
 
- * [Kendo UI Chat API](http://docs.telerik.com/kendo-ui/api/javascript/ui/chat)
+ * [Kendo UI Chat API](https://docs.telerik.com/kendo-ui/api/javascript/ui/chat)
 
  * [Client-side programming Overview]({%slug chat/client-side-programming/overview%})
 

@@ -11,7 +11,7 @@ position: 2
 # RadPivotGrid OLAP Support
 
 
->note To display data from OLAP data sources you should download [Microsoft.Analysis Services library](http://www.microsoft.com/en-us/download/details.aspx?id=30440) and put it into the Bin folder or GAC.
+>note To display data from OLAP data sources you should download [Microsoft.Analysis Services library](https://www.microsoft.com/en-us/download/details.aspx?id=30440) and put it into the Bin folder or GAC.
 >
 
 
@@ -44,7 +44,7 @@ The following configuration will give RadPivotGrid XMLA access to the Adventure 
    <XmlaConnectionSettings  
       Cube="Adventure Works"  
       Database=" AdventureWorksDW2012Multidimensional-EE"  
-      ServerAddress="http://demos.telerik.com/olap/msmdpump.dll"> 
+      ServerAddress="https://demos.telerik.com/olap/msmdpump.dll"> 
    </ XmlaConnectionSettings> 
 </OlapSettings> 
 ````
@@ -53,7 +53,7 @@ The following configuration will give RadPivotGrid XMLA access to the Adventure 
 
 ## Binding Through Adomd
 
-ADOMD.NET is a Microsoft .NET Framework data provider that is designed to communicate with Microsoft SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources. More information about ADOMD can be found [here](http://msdn.microsoft.com/en-us/library/ms123483%28v=sql.90%29.aspx).
+ADOMD.NET is a Microsoft .NET Framework data provider that is designed to communicate with Microsoft SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources. More information about ADOMD can be found [here](https://msdn.microsoft.com/en-us/library/ms123483%28v=sql.90%29.aspx).
 
 RadPivotGrid supports displaying data from OLAP data sources through the ADOMD.NET data provider.
 
@@ -94,7 +94,7 @@ The following setting will provide the information necessary for the ADOMD.NET p
    <AdomdConnectionSettings  
       Cube="Adventure Works"  
       Database="Adventure Works DW 2008R2"  
-      ConnectionString="Data Source= http://demos.telerik.com/olap/msmdpump.dll; Catalog=AdventureWorksDW2012Multidimensional-EE"> 
+      ConnectionString="Data Source= https://demos.telerik.com/olap/msmdpump.dll; Catalog=AdventureWorksDW2012Multidimensional-EE"> 
    </ AdomdConnectionSettings> 
 </OlapSettings> 
 ````

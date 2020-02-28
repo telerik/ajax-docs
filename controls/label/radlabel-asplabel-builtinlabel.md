@@ -80,6 +80,6 @@ Some of the Telerik controls like RadTextBox, RadDateTimePicker, RadComboBox, Ra
 
  * [Overview]({%slug label/overview%})
 
- * [Live Demo](http://demos.telerik.com/aspnet-ajax/label/overview/defaultcs.aspx)
+ * [Live Demo](https://demos.telerik.com/aspnet-ajax/label/overview/defaultcs.aspx)
 
  * [Getting Started]({%slug label/getting-started%})

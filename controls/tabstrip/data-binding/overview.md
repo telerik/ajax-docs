@@ -111,7 +111,7 @@ You can use [templates]({%slug tabstrip/templates/overview%}) with a data-bound 
 
 Note that you use **Container.DataItem** to access the tab when it is in a bound mode. The tab must already be bound before template binding can work.
 
-For live examples of data-binding **RadTabStrip**, see [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) and [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx).
+For live examples of data-binding **RadTabStrip**, see [Declarative Data Sources](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) and [Hierarchical Data Binding](https://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx).
 
 # See Also
 

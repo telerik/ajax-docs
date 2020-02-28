@@ -42,7 +42,7 @@ To use these events, simply write a JavaScript function that can be called when 
 
 You can also assign event handlers in client-side code. For more information see the [Setting Event Handlers via JavaScript]({%slug tooltip/client-side-programming/events/setting-event-handlers-via-javascript%}) article.
 
-For a live example illustrating the RadToolTip client-side events, see the [Client-side events](http://demos.telerik.com/aspnet-ajax/tooltip/examples/clientsideevents/defaultcs.aspx) live demo.
+For a live example illustrating the RadToolTip client-side events, see the [Client-side events](https://demos.telerik.com/aspnet-ajax/tooltip/examples/clientsideevents/defaultcs.aspx) live demo.
 
 >tip The **RadToolTipManager** also offers three additional events that are specific for its Load-On-Demand functionaliaty:
 >

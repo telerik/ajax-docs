@@ -29,7 +29,7 @@ When configuring the size of splitters and the panes that they contain, you can 
 
 You can also set the width of the split bars by setting the **SplitBarsSize** property. This property can only be set as an absolute values.
 
-For a live example showing the effects of various combinations of absolute, percent, and free size settings, see [Initial Size](http://demos.telerik.com/aspnet-ajax/Splitter/Examples/InitialSize/DefaultCS.aspx).
+For a live example showing the effects of various combinations of absolute, percent, and free size settings, see [Initial Size](https://demos.telerik.com/aspnet-ajax/Splitter/Examples/InitialSize/DefaultCS.aspx).
 
 ## See Also
 

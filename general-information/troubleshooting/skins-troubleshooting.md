@@ -39,7 +39,7 @@ There are a few common causes for such problems:
 
 * there are **global CSS rules** that affect HTML elements and you would need to resolve them as explained in the [Distorted Appearance]({%slug window/troubleshooting/distorted-appearance%}) article. The provided example uses the RadWindow control, but the approach applies to all controls in the suite.
 
-* your **IE** browser is entering **Compatibility Mode**. This mode is **not supported** (see the [Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page) and you should have your IE browser run in Standards mode. There are several ways to achieve that:
+* your **IE** browser is entering **Compatibility Mode**. This mode is **not supported** (see the [Browser Support](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page) and you should have your IE browser run in Standards mode. There are several ways to achieve that:
 
 	* from the **Compatibility View Settings** menu, **unselect** the "**Display intranet sites in Compatibility Mode**" checkbox
 
@@ -87,7 +87,7 @@ There are a few common causes for such problems:
 
 * There are **mixed [Render Modes]({%slug controls/render-modes%})** of the controls on the page. For example, a RadButton on the master page has `RenderMode="Classic"` and a RadButton on a user control has `RenderMode="Lightweight"`. All controls of the same type and their child controls must have the same render mode. The following KB article can help with identifying and debugging the "mixed render mode" issue: [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues).
 
-* The control's wrapping element has `style="display: none"` and/or it was hidden initially, then shown with JavaScript. Generally, initialization of controls/widgets with such an attribute should be avoided because dimensions and sizing cannot be calculated for elements that are not rendered by the browser. When having appearance/alignment issues when showing controls in such cases, you should call the **`repaint()`** method each Telerik® UI for ASP.NET AJAX control exposes. For controls that wrap Kendo UI widgets, get a reference to the widget and call its [resize() method](http://docs.telerik.com/kendo-ui/api/javascript/ui/widget#methods-resize).
+* The control's wrapping element has `style="display: none"` and/or it was hidden initially, then shown with JavaScript. Generally, initialization of controls/widgets with such an attribute should be avoided because dimensions and sizing cannot be calculated for elements that are not rendered by the browser. When having appearance/alignment issues when showing controls in such cases, you should call the **`repaint()`** method each Telerik® UI for ASP.NET AJAX control exposes. For controls that wrap Kendo UI widgets, get a reference to the widget and call its [resize() method](https://docs.telerik.com/kendo-ui/api/javascript/ui/widget#methods-resize).
 
 * The browser's zoom is different from 100%. The problem is that the zoom not only increases the font size, but also zooms the entire page. That may produce visual glitches when the layout is based on background images and/or sprites. You can find more information in the [Browser Zoom - Why Does It Break Your Page And How To Avoid It](https://www.telerik.com/blogs/browser-zoom---why-does-it-break-your-page-and-how-to-avoid-it) blog post. 
 Another approach to avoid the visual glitches caused by the background images and sprites is to use the Lightweight RenderMode of the controls. It is based on HTML5 and CSS3 and use font icons istead of images.
@@ -160,7 +160,7 @@ You get an error similar to the following:
 
 `Telerik.Web.UI.[Telerik Control] with ID='[Telerik Control ID]' was unable to find embedded skin with name '[Skin Name]'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false.`
 
-Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Skins.dll** assembly, so you need it as well. More information is available in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location%}). The change was announced in a blog post with Q2 2011 ([here](http://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)) and again with Q3 2011 ([here](http://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)).
+Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Skins.dll** assembly, so you need it as well. More information is available in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location%}). The change was announced in a blog post with Q2 2011 ([here](https://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)) and again with Q3 2011 ([here](https://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)).
 
 
 If you get this error after an upgrade to a newer version, the most likely reason for the problem is that there is an issue with the Visual Studio Project references. To fix it, perform a manual upgrade: [Manual Upgrade]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#manual-upgrade).
@@ -197,7 +197,7 @@ This example registers the RadEditor's Outlook skin-specific stylesheet. If you 
 
 Server code blocks may cause issues in the page's head section (where link elements are usually placed), so you may want to wrap them in a **RadCodeBlock** control, otherwise a server error may be thrown, or the code may not be executed (i.e., the link will not work).
 
-More information about this method and WebResources in general is available in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/11-11-23/easily-access-embedded-resources-with-telerik-radcontrols-for-asp-net-ajax.aspx).
+More information about this method and WebResources in general is available in [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/11-11-23/easily-access-embedded-resources-with-telerik-radcontrols-for-asp-net-ajax.aspx).
 
 ### See Also
 
@@ -213,7 +213,7 @@ More information about this method and WebResources in general is available in [
 
  * [Skins Location]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location%})
 
- * [Easily Access Embedded Resources with Telerik® UI for ASP.NET AJAX](http://blogs.telerik.com/aspnet-ajax/posts/11-11-23/easily-access-embedded-resources-with-telerik-radcontrols-for-asp-net-ajax.aspx)
+ * [Easily Access Embedded Resources with Telerik® UI for ASP.NET AJAX](https://blogs.telerik.com/aspnet-ajax/posts/11-11-23/easily-access-embedded-resources-with-telerik-radcontrols-for-asp-net-ajax.aspx)
  
  * [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues)
  

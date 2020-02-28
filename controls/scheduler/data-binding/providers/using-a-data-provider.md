@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadScheduler** follows the Provider Design Pattern to allow for easy integration into existing applications. On the Microsoft Web site, the article [Introduction To the Provider Model](http://msdn2.microsoft.com/en-us/library/aa479030.aspx) provides a detailed introduction to understanding this pattern.
+**RadScheduler** follows the Provider Design Pattern to allow for easy integration into existing applications. On the Microsoft Web site, the article [Introduction To the Provider Model](https://msdn2.microsoft.com/en-us/library/aa479030.aspx) provides a detailed introduction to understanding this pattern.
 
 You can use one of the providers supplied in the Telerik.Web.UI assembly, or you can [implement your own]({%slug scheduler/data-binding/providers/implementing-a-provider%}).
 
@@ -37,7 +37,7 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 	
 
 
->note The PublicKeyToken varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
+>note The PublicKeyToken varies in different versions on RadControls. You can use [JustDecompile](https://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
 >
 
 

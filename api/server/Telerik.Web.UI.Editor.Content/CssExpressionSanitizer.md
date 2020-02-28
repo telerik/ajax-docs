@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Editor.Content.CssExpressionSanitizer
 
 # Telerik.Web.UI.Editor.Content.CssExpressionSanitizer
 
-Sanitizer targeting specificly the http://blogs.msdn.com/b/ie/archive/2008/10/16/ending-expressions.aspx Css expressionproperty in IE browsers
+Sanitizer targeting specificly the https://blogs.msdn.com/b/ie/archive/2008/10/16/ending-expressions.aspx Css expressionproperty in IE browsers
 
 ## Inheritance Hierarchy
 

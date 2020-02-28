@@ -16,9 +16,9 @@ This article explains how to add the **Kendo UI TypeScript definitions** in orde
 
 ## Getting the Kendo TypeScript Definitions
 
-If you have a license for the **Kendo UI** distribution, you can find the **kendo.all.d.ts** file in the **typescript** folder, inside the downloaded package.Otherwise, you can get the file by downloading the trial version — [Try Kendo UI](http://www.telerik.com/download/kendo-ui).
+If you have a license for the **Kendo UI** distribution, you can find the **kendo.all.d.ts** file in the **typescript** folder, inside the downloaded package.Otherwise, you can get the file by downloading the trial version — [Try Kendo UI](https://www.telerik.com/download/kendo-ui).
 
-You can read more about the **Kendo TypeScript** definitions in the [Kendo UI TypeScript Support](http://docs.telerik.com/kendo-ui/typescript) help article.
+You can read more about the **Kendo TypeScript** definitions in the [Kendo UI TypeScript Support](https://docs.telerik.com/kendo-ui/typescript) help article.
 
 ## Adding the Definitions to the Project
 

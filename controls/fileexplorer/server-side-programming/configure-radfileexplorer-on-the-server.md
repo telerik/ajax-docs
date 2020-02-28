@@ -59,8 +59,8 @@ End Sub
 
 ## See Also
 
- * [FileExplorerControls Enumeration](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_fileexplorer_fileexplorercontrols.html)
+ * [FileExplorerControls Enumeration](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_fileexplorer_fileexplorercontrols.html)
 
- * [RadFileExplorer Class Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radfileexplorer.html)
+ * [RadFileExplorer Class Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radfileexplorer.html)
 
- * [RadFileExplorer ItemCommand Event](http://www.telerik.com/help/aspnet-ajax/e_telerik_web_ui_radfileexplorer_itemcommand.html)
+ * [RadFileExplorer ItemCommand Event](https://www.telerik.com/help/aspnet-ajax/e_telerik_web_ui_radfileexplorer_itemcommand.html)

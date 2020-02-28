@@ -38,4 +38,4 @@ Configuring the Quick Access Toolbar is straightforward:
 
 # See Also
 
- * [Quick Access Toolbar](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/quickaccesstoolbar/defaultcs.aspx)
+ * [Quick Access Toolbar](https://demos.telerik.com/aspnet-ajax/ribbonbar/examples/quickaccesstoolbar/defaultcs.aspx)

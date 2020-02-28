@@ -85,4 +85,4 @@ public static IQueryable<Model.ReadWrite.Product> GetData(string productName)
 # See Also
 
  * [Client-side Events]({%slug clientdatasource/client-side-programming/events/overview%})
- * [Binding to Telerik ClientDataSource](http://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx)
+ * [Binding to Telerik ClientDataSource](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx)

@@ -49,7 +49,7 @@ This tutorial will walk you through creating a **RadTabStrip** and shows how to:
 
 * Set the **Text** property to "Telerik".
 
-* Set the **NavigateUrl** property to "http://www.Telerik.com". 
+* Set the **NavigateUrl** property to "https://www.telerik.com". 
 ![Child Item Properties](images/tabstrip_childitemproperties.png)
 
 1. Select the "Web Sites" root item again, and add another child item.

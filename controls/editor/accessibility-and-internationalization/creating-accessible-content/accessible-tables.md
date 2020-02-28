@@ -22,9 +22,9 @@ The narrative software uses the information from the Accessibility table fields 
 
 1. In the "Accessibility" tab, fill in the fields: Heading rows/columns, Caption, and Summary about the table. Select the [Associate cells with headers] checkbox.
 
-	* The caption should specify the title of the table.For information about table captions [http://www.w3.org/TR/WCAG20-TECHS/H39.html](http://www.w3.org/TR/WCAG20-TECHS/H39.html)
+	* The caption should specify the title of the table.For information about table captions [https://www.w3.org/TR/WCAG20-TECHS/H39.html](https://www.w3.org/TR/WCAG20-TECHS/H39.html)
 
-	* Summary is used to give more details on the contents of the table.This attribute only needs to be completed if user sets 2 for the Heading rows or Heading columns field.For more information about Summary attribute include link to [http://www.w3.org/TR/WCAG20-TECHS/H73.html](http://www.w3.org/TR/WCAG20-TECHS/H73.html)
+	* Summary is used to give more details on the contents of the table.This attribute only needs to be completed if user sets 2 for the Heading rows or Heading columns field.For more information about Summary attribute include link to [https://www.w3.org/TR/WCAG20-TECHS/H73.html](https://www.w3.org/TR/WCAG20-TECHS/H73.html)
 
 	* Always select the [Associate cells with headers] checkbox.
 

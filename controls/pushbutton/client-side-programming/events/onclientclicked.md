@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadPushButton control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadPushButton's **CommandName** property
 
@@ -60,7 +60,7 @@ This event should be used in scenarios where the user needs to execute custom cl
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
  
@@ -72,4 +72,4 @@ This event should be used in scenarios where the user needs to execute custom cl
  
  * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

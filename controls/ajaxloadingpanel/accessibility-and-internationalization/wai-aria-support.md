@@ -32,4 +32,4 @@ If your web applications need to be more accessible to people with disabilities,
 
 ## See Also
 
- * [WAI-ARIA Overview at W3C.org](http://www.w3.org/WAI/intro/aria)
+ * [WAI-ARIA Overview at W3C.org](https://www.w3.org/WAI/intro/aria)

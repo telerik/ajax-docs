@@ -20,7 +20,7 @@ There are several ways to use the **RadToggleButton** via the keyboard only:
 
 ## See Also
 
- * [Live Demo: RadToggleButton Keyboard Support](http://demos.telerik.com/aspnet-ajax/togglebutton/examples/keyboard-support/defaultcs.aspx)
+ * [Live Demo: RadToggleButton Keyboard Support](https://demos.telerik.com/aspnet-ajax/togglebutton/examples/keyboard-support/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug togglebutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

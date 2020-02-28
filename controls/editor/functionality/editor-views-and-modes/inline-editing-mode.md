@@ -10,7 +10,7 @@ position: 2
 
 # Inline Editing Mode
 
-This article showcases the **Inline Editing** functionality of the	**Telerik ASP.NET AJAX Editor** that is available as of	**Q3 2014**. You can see it in action in the [Inline Editing](http://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)	live demo.
+This article showcases the **Inline Editing** functionality of the	**Telerik ASP.NET AJAX Editor** that is available as of	**Q3 2014**. You can see it in action in the [Inline Editing](https://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)	live demo.
 
 This article contains the following sections:
 
@@ -69,7 +69,7 @@ The inline editing functionality is controlled by the **EditType** property of *
 				<a href="#HTMLDescription">
 					<sup>1</sup>
 				</a> Editor. It is what Microsoft chose to use in <strong>MSDN</strong>, <strong>CodePlex</strong>, <strong>TechNet</strong>, <strong>MCMS</strong> and even as an alternative to the default editor in
-				<a href="http://www.telerik.com/products/aspnet-ajax/sharepoint.aspx">SharePoint</a>.
+				<a href="https://www.telerik.com/products/aspnet-ajax/sharepoint.aspx">SharePoint</a>.
 			</p>
 		</div>
 	</Content>
@@ -134,4 +134,4 @@ function changeAnimationSettings() {
 
  * [OnClientInlineEditCompleted]({%slug editor/client-side-programming/events/onclientinlineeditcompleted%})
 
- * [Live demo: Editor - Inline Editing](http://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)
+ * [Live demo: Editor - Inline Editing](https://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)

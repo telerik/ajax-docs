@@ -65,7 +65,7 @@ There are a couple of main factors responsible for the slow RadEditor's performa
 
 * The content formatting stripping when pasting huge content uses a lot of CPU resources and the browser could freezes for a long period of time depending on the hardware configuration of the client's machine. The developer could configure the editor to not check and strip the formatting of the pasted content by setting the **StripFormattingOptions** property to **"NoneSupressCleanMessage"**.
 
-* You can use a single **RadEditor** instance to edit multiple elements on the page by following the approach from the [Setting hidden RadEditor in edit mode on click and putting it in non editable mode onblur](http://www.telerik.com/support/kb/aspnet-ajax/details/setting-hidden-radeditor-in-edit-mode-on-click-and-putting-it-in-non-editable-mode-onblur) KB article.
+* You can use a single **RadEditor** instance to edit multiple elements on the page by following the approach from the [Setting hidden RadEditor in edit mode on click and putting it in non editable mode onblur](https://www.telerik.com/support/kb/aspnet-ajax/details/setting-hidden-radeditor-in-edit-mode-on-click-and-putting-it-in-non-editable-mode-onblur) KB article.
 
 * It is important to test the performance only when debugging is disabled. Set `<compilation debug="false" />` in the web.config. When it is true, the MS AJAXdebugging code causes a severe performance hit on the client-side. The fact that most of the editor functionalities implemented in JavaScript, thus resulting in 10 times slower performance compared to native compiled code.
 
@@ -89,4 +89,4 @@ More detailed information on the topic is available in [Toolbar Loading Optimiza
 
  * [LightWeight Render Mode]({%slug editor/mobile-support/render-modes%})
 
- * [Setting hidden RadEditor in edit mode on click and putting it in non editable mode onblur](http://www.telerik.com/support/kb/aspnet-ajax/details/setting-hidden-radeditor-in-edit-mode-on-click-and-putting-it-in-non-editable-mode-onblur)
+ * [Setting hidden RadEditor in edit mode on click and putting it in non editable mode onblur](https://www.telerik.com/support/kb/aspnet-ajax/details/setting-hidden-radeditor-in-edit-mode-on-click-and-putting-it-in-non-editable-mode-onblur)

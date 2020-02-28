@@ -20,7 +20,7 @@ RadListView can be bound to all ASP 3.5 DataSource control types:
 
 All you need to do is set the DataSourceID property of the ListView to the ID of the Data Source control. Then you can use ASP.NET binding expressions (Eval or Bind) for the fields that will be visualized in the listview's body.
 
-Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/databinding/net35datasourcecontrols/defaultcs.aspx) of the product for details and the code snippets in the next paragraph:
+Refer to the [respective online demo](https://demos.telerik.com/aspnet-ajax/listview/examples/databinding/net35datasourcecontrols/defaultcs.aspx) of the product for details and the code snippets in the next paragraph:
 
 
 
@@ -248,6 +248,6 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 
 The following MSDN articles describe how to configure ASP.NET 3.5 **DataSource** controls:
 
-* **LinqDataSource:**[http://msdn2.microsoft.com/en-us/library/bb547113.aspx](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+* **LinqDataSource:**[https://msdn2.microsoft.com/en-us/library/bb547113.aspx](https://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
-* **EntityDataSource:**[http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasource.aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasource.aspx)
+* **EntityDataSource:**[https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasource.aspx](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasource.aspx)

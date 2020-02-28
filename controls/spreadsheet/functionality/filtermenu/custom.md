@@ -38,4 +38,4 @@ The **RadSpreadsheet** control allows you to create your own custom **Filter Men
 
 ````
 
->note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom **Filter Menu** in this Code Library: [Filter Menu Template for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/filter-menu-template).
+>note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom **Filter Menu** in this Code Library: [Filter Menu Template for RadSpreadsheet Code Library](https://www.telerik.com/support/code-library/filter-menu-template).

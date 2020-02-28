@@ -217,7 +217,7 @@ Here are some of the known issues you can face when using RadCompression.
 
 **1.** *Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
 
-*Solution:* This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+*Solution:* This problem is caused by a breaking change in .NET 4.0 described [here](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
 **2.** *Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
 
@@ -229,7 +229,7 @@ Here are some of the known issues you can face when using RadCompression.
 
 ## What is the benefit?
 
-You can see the results from eight unique tests made by our evangelist Todd Anglin in the [following blog post](http://blogs.telerik.com/toddanglin/posts/09-01-28/Optimization-Tips-RadCompression-Module.aspx) and in[this blog post](http://blogs.telerik.com/toddanglin/posts/09-02-27/Optimization-Tip-RadCompression-for-ViewState.aspx) concerning the usage of page adapters.
+You can see the results from eight unique tests made by our evangelist Todd Anglin in the [following blog post](https://blogs.telerik.com/toddanglin/posts/09-01-28/Optimization-Tips-RadCompression-Module.aspx) and in[this blog post](https://blogs.telerik.com/toddanglin/posts/09-02-27/Optimization-Tip-RadCompression-for-ViewState.aspx) concerning the usage of page adapters.
 
 ## Optimization tip summary
 

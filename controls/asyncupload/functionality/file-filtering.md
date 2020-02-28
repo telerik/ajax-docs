@@ -54,7 +54,7 @@ You can apply as many filters as you want. Then, the user can choose among diffe
 
  * [How to filter file selection in the upload dialog](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/how-to-filter-file-selection-in-the-upload-dialog)
 
- * [RadAsyncUpload Validation Demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/validation/defaultcs.aspx?product=asyncupload)
+ * [RadAsyncUpload Validation Demo](https://demos.telerik.com/aspnet-ajax/upload/examples/async/validation/defaultcs.aspx?product=asyncupload)
  
  * [RadAsyncUpload Upload Modules]({%slug asyncupload/upload-modules%})
  

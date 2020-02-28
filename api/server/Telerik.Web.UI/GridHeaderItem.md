@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridHeaderItem
 
 # Telerik.Web.UI.GridHeaderItem
 
-GridHeaderItem class. See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information.
+GridHeaderItem class. See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information.
 
 ## Inheritance Hierarchy
 

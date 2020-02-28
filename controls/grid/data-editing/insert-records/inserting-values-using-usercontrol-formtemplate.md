@@ -101,7 +101,7 @@ End Sub
 ````
 
 
-and with form template custom edit form (note that with form template you may prefer the [codeless approach](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [automatic operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid):
+and with form template custom edit form (note that with form template you may prefer the [codeless approach](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [automatic operations](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid):
 
 
 
@@ -198,9 +198,9 @@ End Sub
 
 Additionally, review the online demos linked below to see the approach in real-life example:
 
-[User control custom edit form](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/usercontroleditform/defaultcs.aspx)
+[User control custom edit form](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/usercontroleditform/defaultcs.aspx)
 
-[Form template custom edit form](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/templateformupdate/defaultcs.aspx)
+[Form template custom edit form](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/templateformupdate/defaultcs.aspx)
 
 ## Important detail when inserting with WebUserControl as edit form
 

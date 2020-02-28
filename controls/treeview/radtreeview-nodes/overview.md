@@ -38,7 +38,7 @@ position: 0
 
 * **Category** allows the node to be a member of an arbitrary group, for example "Customers", "Employees" or "Products".
 
-* **NavigateUrl** is a web address that will be navigated to when the node is clicked. Target supports standard HTML targets (i.e. *_self*, *_blank*, *_top*, *_parent*). For example, set the NavigateUrl to http://www.telerik.com and Target to *_blank* to display the Telerik site in a new browser window.
+* **NavigateUrl** is a web address that will be navigated to when the node is clicked. Target supports standard HTML targets (i.e. *_self*, *_blank*, *_top*, *_parent*). For example, set the NavigateUrl to https://www.telerik.com and Target to *_blank* to display the Telerik site in a new browser window.
 
 * **Level** is an integer value that indicates the node distance from the root node: the root node Level property is zero, children of the root nodes have a level property of "1" and so on.
 

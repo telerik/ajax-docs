@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadToggleButton control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property.
 
@@ -48,7 +48,7 @@ This event can be used in scenarios where one needs custom client-side code to b
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [PushButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
  
@@ -64,4 +64,4 @@ This event can be used in scenarios where one needs custom client-side code to b
  
  * [OnClientMouseOut]({%slug togglebutton/client-side-programming/events/onclientmouseout%})
  
- * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](https://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

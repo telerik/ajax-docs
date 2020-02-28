@@ -98,7 +98,7 @@ Here is the RadSiteMap declaration (the CSS styles are omitted for simplicity):
 ````ASPNET
 <telerik:RadSiteMap ID="RadSiteMap2" runat="server" DataSourceID="SiteMapDataSource">
     <Nodes>
-        <telerik:RadSiteMapNode Text="Telerik" NavigateUrl="http://www.telerik.com">
+        <telerik:RadSiteMapNode Text="Telerik" NavigateUrl="https://www.telerik.com">
             <SeparatorTemplate>
                 Separator template
             </SeparatorTemplate>

@@ -12,7 +12,7 @@ position: 11
 
 When you enable the selection functionality of **RadGrid**, it has a single row selection by default. If you want to allow multi-row selection, you can use the **AllowMultiRowSelection** property and make avail of the `Ctrl` and `Shift` keys to select and deselect items. For convenience, you can also use a **GridClientSelectColumn** which will generate a CheckBox for every row.
 
-By design, simply clicking on a row will select it, but will also deselect any previously selected rows if you are not holding the required keys mentioned above. This default behavior can be seen in the [Grid - Row Selection](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/selecting/row-selection/defaultcs.aspx)  live demo.
+By design, simply clicking on a row will select it, but will also deselect any previously selected rows if you are not holding the required keys mentioned above. This default behavior can be seen in the [Grid - Row Selection](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/selecting/row-selection/defaultcs.aspx)  live demo.
 
 If you prefer to toggle the selected state of the row using single clicks without holding any keys, you can prevent the auto-deselecting using the approach provided below.
 

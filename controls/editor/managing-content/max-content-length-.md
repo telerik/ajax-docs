@@ -30,4 +30,4 @@ Note: In order to not decrease typing, editing and pasting performance both prop
 
 ## See Also
 
- * [Max Content Length](http://demos.telerik.com/aspnet-ajax-beta/Editor/Examples/maxcontentlength/defaultcs.aspx)
+ * [Max Content Length](https://demos.telerik.com/aspnet-ajax-beta/Editor/Examples/maxcontentlength/defaultcs.aspx)

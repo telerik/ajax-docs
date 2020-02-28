@@ -11,13 +11,13 @@ position: 12
 # WAI-ARIA Support and Screen Readers
 
 
-[WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)](http://www.w3.org/WAI/PF/aria-practices/) is a World Wide Web Consortium specification. It explains how to increase the accessibility of the web pages to help people with disabilities navigate the Internet.
+[WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)](https://www.w3.org/WAI/PF/aria-practices/) is a World Wide Web Consortium specification. It explains how to increase the accessibility of the web pages to help people with disabilities navigate the Internet.
 
 WAI-ARIA represents a series of HTML attributes that screen readers can use. Attributes like `"role", "area-expanded", "area-haspopup"` and others provide information to the readers and help people with disabilities interact with dynamic content on the page.
 
 Some controls from the Telerik® UI for ASP.NET AJAX suite have support for WAI-ARIA and can, therefore, render such attributes that screen readers can interpret. This help article lists the controls and shows the common way of enabling these attributes.
 
->note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
+>note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](https://www.w3.org/TR/wai-aria/roles#application)
 >
 
 The following controls offer WAI-ARIA support:
@@ -86,6 +86,6 @@ A screen reader commonly used with is **JAWS** ([JAWS official site](http://www.
 
 # See Also
 
- * [W3C: WAI-ARIA Practices](http://www.w3.org/WAI/PF/aria-practices/)
+ * [W3C: WAI-ARIA Practices](https://www.w3.org/WAI/PF/aria-practices/)
  
  * [Force JAWS to pronounce artbitrary text with JavaScript](https://www.telerik.com/support/kb/aspnet-ajax/details/force-jaws-to-pronounce-artbitrary-text-with-javascript) KB article

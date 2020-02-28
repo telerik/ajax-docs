@@ -81,7 +81,7 @@ To allow associating other functionality to a menu item, RadScheduler exposes th
 
 * [OnAppointmentContextMenuItemClicked]({%slug scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicked-%})
 
-For more information, please see the [Context menu](http://demos.telerik.com/aspnet-ajax/scheduler/examples/contextmenu/defaultcs.aspx) online demo.
+For more information, please see the [Context menu](https://demos.telerik.com/aspnet-ajax/scheduler/examples/contextmenu/defaultcs.aspx) online demo.
 
 If more than one appointment context menu is declared, you can specify which one to be opened for a specific appointmentvia the Appointment's **ContextMenuID** property. For example:
 

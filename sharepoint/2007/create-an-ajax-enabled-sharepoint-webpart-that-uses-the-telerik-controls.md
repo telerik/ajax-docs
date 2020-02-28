@@ -22,9 +22,9 @@ This article shows how to create an AJAX-enabled SharePoint WebPart that uses Te
 
 * To simplify creating, deploying and debugging the web part, we’ll use the ‘Visual Studio extensions for Windows SharePoint Services’. These extensions can be found at the following URLs:
 
-	For Visual Studio 2005:[http://www.microsoft.com/downloads/details.aspx?FamilyID=3E1DCCCD-1CCA-433A-BB4D-97B96BF7AB63&displaylang=en](http://www.microsoft.com/downloads/details.aspx?FamilyID=3E1DCCCD-1CCA-433A-BB4D-97B96BF7AB63&displaylang=en)
+	For Visual Studio 2005:[https://www.microsoft.com/downloads/details.aspx?FamilyID=3E1DCCCD-1CCA-433A-BB4D-97B96BF7AB63&displaylang=en](https://www.microsoft.com/downloads/details.aspx?FamilyID=3E1DCCCD-1CCA-433A-BB4D-97B96BF7AB63&displaylang=en)
 
-	For Visual Studio 2008:[http://www.microsoft.com/downloads/details.aspx?familyid=7BF65B28-06E2-4E87-9BAD-086E32185E68&displaylang=en](http://www.microsoft.com/downloads/details.aspx?familyid=7BF65B28-06E2-4E87-9BAD-086E32185E68&displaylang=en)
+	For Visual Studio 2008:[https://www.microsoft.com/downloads/details.aspx?familyid=7BF65B28-06E2-4E87-9BAD-086E32185E68&displaylang=en](https://www.microsoft.com/downloads/details.aspx?familyid=7BF65B28-06E2-4E87-9BAD-086E32185E68&displaylang=en)
 
 * Create a new WebPart project in Visual Studio:
 

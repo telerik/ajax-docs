@@ -53,7 +53,7 @@ Please refer to the following code snippet if you use Q1 2014 version or newer:
 
 ## RadMenu for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## RadMenu for ASP.NET AJAX Q3 SP2 2009 (Version Number 2009.3.1314)
 
@@ -89,7 +89,7 @@ RadMenu for ASP.NET AJAX is fully backward compatible with its previous version.
 
 * Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [ Disabling Embedded Resources ]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
-* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](http://blogs.telerik.com/atanaskorchev/posts/09-03-06/Meet_Telerik_Web_Design_dll.aspx) for more information.
+* Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](https://blogs.telerik.com/atanaskorchev/posts/09-03-06/Meet_Telerik_Web_Design_dll.aspx) for more information.
 
 ## RadMenu for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105)
 

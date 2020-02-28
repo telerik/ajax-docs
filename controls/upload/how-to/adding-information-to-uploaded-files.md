@@ -12,7 +12,7 @@ position: 0
 
 
 
->caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](https://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](https://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](https://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -34,7 +34,7 @@ To add custom fields to the uploaded files, use the [OnClientAdded]({%slug uploa
 >
 
 
->caution The following example adds **`<LI>`** elements to the UL list of the RadUpload. Note that **MaxFileInputsCount** property counts the number of **`<LI>`** elements so you need to use it with attention. Check the [online example](http://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx) for another approach.
+>caution The following example adds **`<LI>`** elements to the UL list of the RadUpload. Note that **MaxFileInputsCount** property counts the number of **`<LI>`** elements so you need to use it with attention. Check the [online example](https://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx) for another approach.
 >
 
 
@@ -161,4 +161,4 @@ End Sub
 
 * [How to Manipulate the Uploaded Files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%})
 
-* [Additional Fields online example](http://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx)
+* [Additional Fields online example](https://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx)

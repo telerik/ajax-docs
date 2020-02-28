@@ -15,7 +15,7 @@ Thank you for choosing Telerik® UI for ASP.NET AJAX!
 
 The Telerik® UI for ASP.NET AJAX controls suite includes more than 100 versatile and performance-optimized components that help you build high-quality, professional line-of-business projects. From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides you with all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
 
-To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please visit the [product overview page](http://www.telerik.com/products/aspnet-ajax.aspx).
+To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please visit the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ You can also get quickly onboarded and successful with your Telerik UI for ASP.N
 Your constructive feedback is important and it helps us improve our resources and services. Here are the ways to submit your feedback or ask your question:
 
 1. *[Online Ticketing System](https://www.telerik.com/account/support-tickets)* - Questions or feedback about our controls, resources or services.
-2. *[UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx)* - Get the community's support or share information with it.
+2. *[UI for ASP.NET AJAX forums](https://www.telerik.com/community/forums/aspnet-ajax.aspx)* - Get the community's support or share information with it.
 3. *[Feedback Portal](https://feedback.telerik.com/aspnet-ajax)* - Bug reports or feature requests.
 4. *"Was this article helpful? (Yes/No)" section at the end of each article* - Documentation recommendations or problems in the given article.
 5. *Pull request in our [GitHub repository](https://github.com/telerik/ajax-docs)* - Suggest an improvement to an article directly. For an easier access to the GitHub page for the article, click the *Improve this article* button on the right-side navigation.

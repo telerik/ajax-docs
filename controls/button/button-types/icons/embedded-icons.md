@@ -325,4 +325,4 @@ The embedded icons of **RadButton** in the Lightweight RenderMode are font icons
 
  * [Icons Overview]({%slug button/button-types/icons/overview%})
 
- * [Button - Embedded Icons Online Demo](http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/defaultcs.aspx)
+ * [Button - Embedded Icons Online Demo](https://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/defaultcs.aspx)

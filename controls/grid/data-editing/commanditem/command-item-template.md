@@ -408,7 +408,7 @@ End Sub
 ````
 
 
-You can find detailed information about how to create templates programmatically in	[this MSDN article](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).
+You can find detailed information about how to create templates programmatically in	[this MSDN article](https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).
 
 
 ## Custom CommandItemTemplate for Batch Edit Mode
@@ -475,4 +475,4 @@ The markup in **Example 8** emulates the actual HTML RadGrid outputs by default 
 
  * [Command Reference ]({%slug grid/control-lifecycle/command-reference-%})
 
- * [Creating Web Server Control Templates Programmatically](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx)
+ * [Creating Web Server Control Templates Programmatically](https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx)

@@ -75,7 +75,7 @@ The following markup shows how to use **radopen()**, **GetRadWindowManager().ope
 	<Windows>
 		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com">
 		</telerik:RadWindow>
-		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow2" runat="server" NavigateUrl="http://www.telerik.com">
+		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow2" runat="server" NavigateUrl="https://www.telerik.com">
 		</telerik:RadWindow>
 	</Windows>
 </telerik:RadWindowManager>

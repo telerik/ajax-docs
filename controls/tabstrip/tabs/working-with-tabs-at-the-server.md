@@ -31,7 +31,7 @@ protected void Page_Load(object sender, EventArgs e)
     tab2.Text = "Tab 2";
     RadTab tab3 = new RadTab();
     tab3.Text = "Telerik";
-    tab3.NavigateUrl ="http://www.telerik.com";
+    tab3.NavigateUrl ="https://www.telerik.com";
     RadTabStrip1.Tabs.Add(tab1);
     RadTabStrip1.Tabs.Add(tab2);
     RadTabStrip1.Tabs.Add(tab3);
@@ -51,7 +51,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As
         tab2.Text = "Tab 2"
         Dim tab3 As New RadTab()
         tab3.Text = "Telerik"
-        tab3.NavigateUrl = "http://www.telerik.com"
+        tab3.NavigateUrl = "https://www.telerik.com"
         RadTabStrip1.Tabs.Add(tab1)
         RadTabStrip1.Tabs.Add(tab2)
         RadTabStrip1.Tabs.Add(tab3)

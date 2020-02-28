@@ -89,4 +89,4 @@ Keyboard navigation is supported by using the **arrow keys** and special keyboar
 
  * [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%})
 
- * [PanelBar - Keyboard Support demo](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/keyboardsupport/defaultcs.aspx)
+ * [PanelBar - Keyboard Support demo](https://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/keyboardsupport/defaultcs.aspx)

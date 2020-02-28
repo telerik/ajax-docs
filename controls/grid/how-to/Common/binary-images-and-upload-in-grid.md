@@ -14,7 +14,7 @@ position: 7
 
 ##
 
-[This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) illustrates the usage of built-in GridBinaryImageColumn and how to display and edit images in it.Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used this column willshow a RadBinaryImage control in view mode and RadUpload in edit mode to upload an image.
+[This example](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) illustrates the usage of built-in GridBinaryImageColumn and how to display and edit images in it.Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used this column willshow a RadBinaryImage control in view mode and RadUpload in edit mode to upload an image.
 
 The image will be sized automatically to **ImageHeight** and **ImageWidth** pixel values if the **ResizeMode** property of the column is different than **None**. Possible values for the **ResizeMode** property of the column are:
 

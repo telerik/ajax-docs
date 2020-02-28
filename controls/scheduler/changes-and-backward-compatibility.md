@@ -14,7 +14,7 @@ position: 2
 
 ## RadScheduler for ASP.NET AJAX Q2 2010
 
-Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
+Since Q2 2010 all major changes for the controls are listed in the official Release Notes posted [here](https://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx).
 
 ## RadScheduler for ASP.NET AJAX Q1 SP2 2010 (Version Number 2010.1.519)
 
@@ -74,7 +74,7 @@ Cumulative list of removed or obsoleted properties over the last few releases an
 
 **Breaking change**:
 
-Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [http://www.telerik.com/support/kb/aspnet-ajax/scheduler/kb.aspx](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/compatability-css-styles-for-q1-2-9-advanced-form-templates.aspx)
+Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [https://www.telerik.com/support/kb/aspnet-ajax/scheduler/kb.aspx](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/compatability-css-styles-for-q1-2-9-advanced-form-templates.aspx)
 
 **Potentially breaking changes**:
 

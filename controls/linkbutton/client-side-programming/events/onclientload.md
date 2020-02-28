@@ -28,14 +28,14 @@ This event comes handy in scenarios when the user wants to operate with the cont
 		alert('RadLinkButton Object Loaded');
 	}
 </script>
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientLoad="clientLoad" NavigateUrl="http://www.telerik.com" Target="_blank">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientLoad="clientLoad" NavigateUrl="https://www.telerik.com" Target="_blank">
 </telerik:RadLinkButton>
 ````
 
 
 ## See Also
 
- * [LinkButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/linkbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [LinkButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/linkbutton/client-side-api/client-side-events/defaultcs.aspx)
 
  * [LinkButton Object]({%slug linkbutton/client-side-programming/linkbutton-object%})
  

@@ -97,4 +97,4 @@ End Sub
 
 # See Also
 
- * [Check this live in the online demo](http://demos.telerik.com/aspnet-ajax/captcha/examples/serversideevents/defaultcs.aspx)
+ * [Check this live in the online demo](https://demos.telerik.com/aspnet-ajax/captcha/examples/serversideevents/defaultcs.aspx)

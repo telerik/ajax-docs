@@ -7,7 +7,7 @@ description: Telerik.Web.UI.MediaPlayerFile
 # Telerik.Web.UI.MediaPlayerFile
 
 Base class for the MediaPlayerFile object. 
-            Used for the elements in the RadMediaPlayer http://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist Playlist.
+            Used for the elements in the RadMediaPlayer https://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist Playlist.
 
 ## Inheritance Hierarchy
 
