@@ -131,7 +131,7 @@ Below is shown how to modify the CSS in order not only to change some colors and
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 
 

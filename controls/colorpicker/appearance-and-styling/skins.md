@@ -49,6 +49,6 @@ For information on the CSS File structure, see the [Understanding the Skin CSS F
 
  * [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/understanding-the-skin-css-file%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

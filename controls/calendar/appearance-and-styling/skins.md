@@ -70,6 +70,6 @@ In order to set a custom skin for standalone **RadCalendar** controls, please us
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

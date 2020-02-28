@@ -202,6 +202,6 @@ The following diagram shows a symbolic view of the CSS classes in the rendered m
 
  * [RadMenu and RadContextMenu Objects]({%slug menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

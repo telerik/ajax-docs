@@ -51,6 +51,6 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
 
  * [Controlling Appearance]({%slug tabstrip/appearance-and-styling/controlling-appearance%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

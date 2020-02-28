@@ -25,6 +25,6 @@ To apply a skin, set the Skin server-side property of the control. You can set i
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

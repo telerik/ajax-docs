@@ -23,6 +23,6 @@ To make customizing the appearance of **RadDropDownTree** as easy as possible, t
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

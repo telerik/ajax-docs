@@ -48,6 +48,6 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
 
  * [Templates Overview]({%slug panelbar/templates/overview%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

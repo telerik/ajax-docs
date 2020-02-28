@@ -140,6 +140,6 @@ End Sub
 
 * [Controlling Appearance]({%slug tooltip/appearance-and-styling/controlling-appearance%})
 
-* [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+* [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

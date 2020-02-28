@@ -37,7 +37,7 @@ The stylesheet for a **RadScheduler** skin has the name **Scheduler.[SkinName].c
 # See Also
 
  * [Controlling Appearance]({%slug scheduler/appearance-and-styling/controlling-appearance%})
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 
 

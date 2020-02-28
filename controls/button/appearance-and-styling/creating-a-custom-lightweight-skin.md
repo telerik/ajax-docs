@@ -140,6 +140,6 @@ Below is shown how to modify the CSS in order not only to change some colors and
 
  * [Render Modes]({%slug button/mobile-support/render-modes%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

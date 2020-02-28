@@ -32,6 +32,6 @@ To make customizing the appearance of **RadTreeView** as easy as possible, the c
 
  * [CSS Skin File Selectors]({%slug treeview/appearance-and-styling/css-skin-file-selectors%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

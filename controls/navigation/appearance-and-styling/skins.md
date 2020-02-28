@@ -32,6 +32,6 @@ To apply a skin to a **RadNavigation** control, set its **Skin** property.
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

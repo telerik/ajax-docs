@@ -122,6 +122,6 @@ Explained below is a simple method for modifying the image sprites of **RadFormD
 
 * [RadFormDecorator's CSS Classes]({%slug formdecorator/appearance-and-styling/css-classes%})
 
-* [Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)
+* [Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](https://www.telerik.com/videos)
 
 * [Visual Style Builder for ASP.NET](https://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx)

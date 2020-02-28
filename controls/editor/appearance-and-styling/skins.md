@@ -37,6 +37,6 @@ The stylesheet for a **RadEditor** skin has the name **Editor.[SkinName].css** a
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

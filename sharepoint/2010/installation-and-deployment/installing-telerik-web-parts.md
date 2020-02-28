@@ -84,4 +84,4 @@ Alternatively you can run the following **SP PowerShell** command:
 **`Enable-SPFeature TelerikSPRadGridWebPart_SPRadListViewFeature -Url <url of your SP site>`**
 **`Enable-SPFeature TelerikSPRadGridWebPart_SPRadSchedulerFeature -Url <url of your SP site>`**
 
-For an online demonstration of Telerik controls for SharePoint 2010, please, visit out web site at: [http://sharepoint.telerik.com](http://sharepoint.telerik.com)
+For an online demonstration of Telerik controls for SharePoint 2010, please, visit out web site at: [https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2010/installation-and-deployment/installing-telerik-web-parts](https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2010/installation-and-deployment/installing-telerik-web-parts)

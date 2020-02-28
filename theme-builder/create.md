@@ -25,7 +25,7 @@ The **Sass Theme Builder** for Telerik® UI for ASP.NET AJAX is a convenient cus
 
 ## Creating a New Theme
 
-To get started, open the Theme Builder at [http://themebuilder.telerik.com/aspnet-ajax](http://themebuilder.telerik.com/aspnet-ajax) and click on **Start Theming**.
+To get started, open the Theme Builder at [https://themebuilder.telerik.com/aspnet-ajax](https://themebuilder.telerik.com/aspnet-ajax) and click on **Start Theming**.
 
 1. Select one of the existing Skins to use as a base
 2. Select the controls which you intend to style

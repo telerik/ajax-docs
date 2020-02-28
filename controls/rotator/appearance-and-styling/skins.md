@@ -24,6 +24,6 @@ Specify the skin to use by setting the **Skin** property of the **RadRotator** o
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

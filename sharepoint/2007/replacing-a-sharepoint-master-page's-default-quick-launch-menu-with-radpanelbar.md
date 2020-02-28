@@ -89,4 +89,4 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 
 1. Save/check-in the default.master page and open an arbitrary page from the same SharePoint site to see the modification you applied.
 
-The same sequence of steps is used to replace the default navigation on [Telerik's SharePoint 2010 demo site](http://sharepoint.telerik.com/Pages/default.aspx).
+The same sequence of steps is used to replace the default navigation on [Telerik's SharePoint 2010 demo site](https://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2010/installation-and-deployment/installing-telerik-web-parts).

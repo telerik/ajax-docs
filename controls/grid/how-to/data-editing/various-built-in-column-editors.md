@@ -157,4 +157,4 @@ Additional resources about how to integrate custom editors in Telerik RadGrid yo
 
 ## See Also
 
- * [Online example](http://demos1x.telerik.com/aspnet/Controls/Examples/Integration/GridEditorAndCombo/DefaultCS.aspx)
+ * [Online example](https://demos.telerik.com/aspnet/Controls/Examples/Integration/GridEditorAndCombo/DefaultCS.aspx)

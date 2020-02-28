@@ -39,6 +39,6 @@ Please examine the [Creating a custom skin]({%slug introduction/radcontrols-for-
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

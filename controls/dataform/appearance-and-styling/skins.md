@@ -23,6 +23,6 @@ These are the skins provided by Telerik. They are embedded in the **Telerik.Web.
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

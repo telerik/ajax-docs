@@ -57,6 +57,6 @@ In order to explain better the CSS classes of **RadTagCloud**, we will use both 
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

@@ -114,6 +114,6 @@ The stylesheet for RadDropDownList in **Lightweight Render Mode** and **Silk** s
 
  * [Templates Overview]({%slug dropdownlist/templates/overview%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

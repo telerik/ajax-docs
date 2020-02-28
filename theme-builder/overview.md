@@ -10,7 +10,7 @@ position: 0
 
 # Sass Theme Builder Overview
 
-**Progress Sass Theme Builder** for ASP.NET AJAX is a Web application that provides you with the ability to create new or customize existing [themes (skins)](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) for Telerik UI controls with **[Lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes)** rendering. You can find it at [http://themebuilder.telerik.com/aspnet-ajax](http://themebuilder.telerik.com/aspnet-ajax)
+**Progress Sass Theme Builder** for ASP.NET AJAX is a Web application that provides you with the ability to create new or customize existing [themes (skins)](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) for Telerik UI controls with **[Lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes)** rendering. You can find it at [https://themebuilder.telerik.com/aspnet-ajax](https://themebuilder.telerik.com/aspnet-ajax)
 
 With just a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with automatic updates to its composite controls.
 
@@ -52,7 +52,7 @@ The **Sass Theme Builder** web-based tool can help you drastically reduce this e
 
 To create a custom skin with the theme builder, you need to:
 
-1. [Open the Telerik Sass ThemeBuilder](http://themebuilder.telerik.com/aspnet-ajax)
+1. [Open the Telerik Sass ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax)
 2. [Create new or edit an existing skin]({%slug theme-builder/create%})
 3. [Download the new skin and apply it in your project]({%slug theme-builder/download-and-apply%})
 

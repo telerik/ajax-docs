@@ -36,6 +36,6 @@ To apply a skin, set the **Skin** property of the **RadNotification**. You can s
 # See Also
 
  * [Smart Tag]({%slug notification/design-time%})
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

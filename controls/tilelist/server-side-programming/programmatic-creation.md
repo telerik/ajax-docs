@@ -37,7 +37,7 @@ The sample code below illustrates a possible approach to creating and defining t
 //Arrays storing the Tiles' properties
 
 //Sample URLs
-string[] urls = {"https://www.telerik.com", "http://www.google.com", "http://www.bing.com", "https://demos.telerik.com", 
+string[] urls = {"https://www.telerik.com", "https://www.google.com", "https://www.bing.com", "https://demos.telerik.com", 
 				   "http://www.stackoverflow.com" };
 
 //Some of the pre-defined Badge Types
@@ -171,7 +171,7 @@ protected void LoadSharedProperties(RadBaseTile tile, int index)
 'Arrays storing the Tiles' properties
 
 'Sample URLs
-Private urls As String() = {"https://www.telerik.com", "http://www.google.com", "http://www.bing.com", "https://demos.telerik.com", "http://www.stackoverflow.com"}
+Private urls As String() = {"https://www.telerik.com", "https://www.google.com", "https://www.bing.com", "https://demos.telerik.com", "http://www.stackoverflow.com"}
 
 'Some of the pre-defined Badge Types
 Private badges As TileBadgeType() = {TileBadgeType.Available, TileBadgeType.Alert, TileBadgeType.Attention, TileBadgeType.[Error], TileBadgeType.Paused}

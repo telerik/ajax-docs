@@ -47,6 +47,6 @@ The HTML rendering and CSS classes of the RadDataPager fields are similar to tho
 
 ## See Also 
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

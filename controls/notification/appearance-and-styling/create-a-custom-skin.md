@@ -109,6 +109,6 @@ Explained below is a simple method for modifying the image sprites of RadNotific
 
  * [Controlling Appearance]({%slug notification/appearance-and-styling/control-appearance%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

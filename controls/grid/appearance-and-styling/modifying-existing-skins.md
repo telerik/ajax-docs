@@ -274,11 +274,11 @@ The easiest way to create your own skin for RadGrid (as discussed previously in 
 
 Review the [following online demo](https://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/Styles/CustomSkin/DefaultCS.aspx)
 
-of the product (the ASPX and CSS definitions mainly) for more details on the aforementioned approach to create a custom skin for RadGrid. You may also consider utilizing the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool to modify existing skins/create new custom skins.
+of the product (the ASPX and CSS definitions mainly) for more details on the aforementioned approach to create a custom skin for RadGrid. You may also consider utilizing the [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) tool to modify existing skins/create new custom skins.
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 
  

@@ -42,6 +42,6 @@ The stylesheet for a **RadImageEditor** skin has the name **ImageEditor.[SkinNam
 
 ## See Also
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

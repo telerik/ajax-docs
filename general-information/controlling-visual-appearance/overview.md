@@ -81,4 +81,4 @@ Review the bottom section of [this help topic]({%slug introduction/radcontrols-f
 
 For more information about controls skinning, we recommend watching the following video:
 
-[Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)
+[Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](https://www.telerik.com/videos)

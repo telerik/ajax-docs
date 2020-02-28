@@ -64,5 +64,5 @@ For information on the CSS File structure, see the Understanding the Skin CSS Fi
 
  * [Styling Custom Commands]({%slug dock/commands/styling-custom-commands%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 

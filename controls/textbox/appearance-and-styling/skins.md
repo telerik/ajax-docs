@@ -69,6 +69,6 @@ For more information on the *CSS* File structure, see [Understanding the Skin CS
 
  * [Styles]({%slug radtextbox/appearance-and-styling/styles%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

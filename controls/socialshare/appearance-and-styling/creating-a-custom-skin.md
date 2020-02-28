@@ -112,6 +112,6 @@ Explained below is a simple method for modifying the image sprites of **RadSocia
 
  * [Skins]({%slug socialshare/appearance-and-styling/skins%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

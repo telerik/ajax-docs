@@ -245,6 +245,6 @@ The stylesheet for the "Black" skin is as follows:
 
  * [Understanding the Skin CSS File]({%slug combobox/appearance-and-styling/understanding-the-skin-css-file%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 

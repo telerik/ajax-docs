@@ -141,7 +141,7 @@ In order to reset or edit the nuget feed credentials:
 
 ### Error Unable to load the service index for source https://nuget.telerik.com/nuget
 
-Make sure that the Telerik NuGet Feed is live at [http://status.telerik.com/](http://status.telerik.com/).
+Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](https://status.telerik.com/).
 
 
 ## Additional Resources

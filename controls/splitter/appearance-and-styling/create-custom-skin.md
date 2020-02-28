@@ -295,7 +295,7 @@ For more information about Cascading Style Sheets, see
 * [World Wide Web Consortium CSS specifications](https://www.w3.org/Style/CSS/)
 * [W3 Schools CSS tutorial](https://www.w3schools.com/css/default.asp)
 * [Guide to Cascading Style Sheets](http://www.htmlhelp.com/reference/css/)
-* [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+* [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 
 

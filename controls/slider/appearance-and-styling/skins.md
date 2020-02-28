@@ -46,6 +46,6 @@ For information on the CSS File structure, see the [Understanding the Skin CSS F
 
  * [CSS Classes]({%slug slider/appearance-and-styling/css-classes%})
 
- * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+ * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
 
 
