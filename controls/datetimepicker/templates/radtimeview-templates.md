@@ -38,7 +38,7 @@ The following example illustrates how to add templates at design time to the emb
         BorderWidth="1px"
         BorderColor="Black" >
         <HeaderTemplate>
-            <div style="text-align: center; font-size: 9pt; ;">
+            <div style="text-align: center; font-size: 9pt;">
                 <b>Pick a time</b>
             </div>
         </HeaderTemplate>
@@ -57,7 +57,7 @@ The following example illustrates how to add templates at design time to the emb
             <button onclick="javascript: ClosePopup(); return false;">Close</button>
         </FooterTemplate>
     </TimeView>            
-</telerik:RadDateTimePicker1>
+</telerik:RadDateTimePicker>
 ````
 
 ![Templated RadTimeView](images/TimeViewTemplates.png)
