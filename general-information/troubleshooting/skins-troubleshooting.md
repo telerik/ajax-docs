@@ -85,7 +85,7 @@ There are a few common causes for such problems:
 			...
 			</configuration> 
 
-* There are **mixed [Render Modes]({%slug controls/render-modes%})** of the controls on the page. For example, a RadButton on the master page has `RenderMode="Classic"` and a RadButton on a user control has `RenderMode="Lightweight"`. All controls of the same type and their child controls must have the same render mode. The following KB article can help with identifying and debugging the "mixed render mode" issue: [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues).
+* There are **mixed [Render Modes]({%slug controls/render-modes%})** of the controls on the page. For example, a RadButton on the master page has `RenderMode="Classic"` and a RadButton on a user control has `RenderMode="Lightweight"`. All controls of the same type and their child controls must have the same render mode. The following KB article can help with identifying and debugging the "mixed render mode" issue: [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-determine-mixed-render-mode).
 
 * The control's wrapping element has `style="display: none"` and/or it was hidden initially, then shown with JavaScript. Generally, initialization of controls/widgets with such an attribute should be avoided because dimensions and sizing cannot be calculated for elements that are not rendered by the browser. When having appearance/alignment issues when showing controls in such cases, you should call the **`repaint()`** method each Telerik® UI for ASP.NET AJAX control exposes. For controls that wrap Kendo UI widgets, get a reference to the widget and call its [resize() method](https://docs.telerik.com/kendo-ui/api/javascript/ui/widget#methods-resize).
 
@@ -215,5 +215,5 @@ More information about this method and WebResources in general is available in [
 
  * [Easily Access Embedded Resources with Telerik® UI for ASP.NET AJAX](https://blogs.telerik.com/aspnet-ajax/posts/11-11-23/easily-access-embedded-resources-with-telerik-radcontrols-for-asp-net-ajax.aspx)
  
- * [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://www.telerik.com/support/kb/aspnet-ajax/details/determine-the-render-mode-of-all-telerik-controls-and-catch-mixed-render-mode-issues)
+ * [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-determine-mixed-render-mode)
  
