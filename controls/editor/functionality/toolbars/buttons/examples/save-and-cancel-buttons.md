@@ -32,11 +32,11 @@ Create a ToolsFile.xml with a structure similar to the following:
 >important If you are using **Lightweight** rendering mode the Save and Cancel button will be not styled with the default icons. You will need to decorate them additionally by using these CSS rules:
 >
 >        .reTool.reSave:before{
->            content:"\e603";
+>            content:"\e109";
 >        }
 >
 >        .reTool.reCancel:before {
->            content:"\e661";
+>            content:"\e115";
 >        }
 
 
