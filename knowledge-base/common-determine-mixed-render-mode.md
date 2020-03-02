@@ -53,7 +53,7 @@ Attached you can find a script that uses custom script to determine the render m
 For a quick check, you can open the Browser's DevTools(F12) and in the Console tab to execute the following script
 
 ````JavaScript
-$telerik.$(document.body).append('<script src="http://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/files/render-mode-script.js"></script>');
+$telerik.$(document.body).append('<script src="https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/files/render-mode-script.js"></script>');
 ````
 
 This will load the script and execute the function automatiocally. 
