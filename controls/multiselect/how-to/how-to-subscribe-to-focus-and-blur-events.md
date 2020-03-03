@@ -12,8 +12,8 @@ position: 4
 
 In this article you will see how to:
 
-    * [Bind to the blur event of the input](#subscribe-to-blur-event)
-    * [Trigger a postback on blur](#trigger-postback-on-blur)
+* [Bind to the blur event of the input](#subscribe-to-blur-event)
+* [Trigger a postback on blur](#trigger-postback-on-blur)
 
 ## Subscribe to Blur Event
 
@@ -70,7 +70,8 @@ In some scenarios, you want to allow the end clients to select multtiple values 
     function onLoad(multiSelect, args) {
         var $inputEl = $telerik.$(multiSelect.get_inputElement());
         $inputEl.bind("blur", function () {
-            __doPostBack();
+            // https://forums.asp.net/t/1017614.aspx?__doPostBack+control+UniqueID+best+method+
+            __doPostBack("<%= RadMultiSelect1.UniqueID %>", "");
         });
     }
 </script>
