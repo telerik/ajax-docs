@@ -94,7 +94,7 @@ This means you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/b
 
 Often controls are added via user controls, content templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not possible). In such scenarios, IDs are generated dynamically and getting the client-side reference from master or parent pages cannot be done by accessing the `ClientID` property of the control's server-side instance. 
 
-With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use the [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance only without using the server-side ID of the control.
+With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use the [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance even by using the server-side ID only.
 
 >important If the same server-side ID is used with multiple controls, jQuery will return all elements that match the same ending value. You should handle scenarios like this according to the exact requirements and scenario.
 
