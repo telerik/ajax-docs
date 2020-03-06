@@ -37,6 +37,13 @@ You need to add the fully qualified name of the class, otherwise you will get a 
 </appSettings>
 ````
 
+### Other reasons for the error
+
+If adding the `AllowedCustomMetaDataTypes` key or not using custom configuration files do not fix the error, please ensure you have set the necessary encryption keys:
+
+* [ConfigurationEncryptionKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#configurationencryptionkey)
+* [ConfigurationHashKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#configurationhashkey)
+* [Telerik.Web.UI.DialogParametersEncryptionKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security#dialogparametersencryptionkey), if using RadEditor dialogs
 
 ## Solution
 
@@ -65,4 +72,5 @@ In the project you will find two pages with two different custom handlers. As yo
 * [AsyncUpload Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security) article
 * [AsyncUpload - Custom Http Handler](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/imageuploader/defaultcs.aspx) online demo
 * [How to Create a Custom Handler for RadAsyncUpload](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler) article
- 
+* [RadEditor Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security) article
+
