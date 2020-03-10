@@ -16,50 +16,40 @@ From Q1 2012 on **RadListView** supports client-side databinding with the help o
 
 This article will explain the following specifics of the client-side binding in RadListView:
 
-* **Client-side binding modes
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section0_self**
+* **[Client-side binding modes](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#client-side-binding-modes)**
 
-* **Binding the RadListView
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section1_self**
+* **[Binding the RadListView](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#binding-the-radlistview)**
 
-* **Rebinding a single item
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section2_self**
+* **[Rebinding a single item](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#rebinding-a-single-item)**
 
-* **Appending data and infinite scroll
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section3_self**
+* **[Appending data and infinite scroll](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#appending-data-and-infinite-scroll)**
 
-* **Prepending data
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section8_self**
+* **[Prepending data](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#prepending-data)**
 
-* **Client-side initialization with no server control
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section4_self**
+* **[Client-side initialization with no server control](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#client-side-initialization-with-no-server-control)**
 
-* **Disposing RadListView on the client-side
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section5_self**
+* **[Disposing RadListView on the client-side](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#disposing-radlistview-on-the-client-side)**
 
-* **Selecting items
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section6_self**
+* **[Selecting items](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#item-selection)**
 
-* **Data caching
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-specifics.html#Section7_self**
+* **[Data caching](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/overview#data-caching)**
+
 
 >note RadListView relies on jQuery to manipulate the DOM. As a result, jQuery is now a constant dependency for RadListView and gets loaded automatically into the page.
 >
-
-
 
 
 ## Client-side binding modes
 
 RadListView supports two modes of client-side databinding, depending on which *LayoutTemplate* is used to hold the client-bound items:
 
-## Server-side LayoutTemplate as a container of client-bound items
+1. **Server-side LayoutTemplate as a container of client-bound items**
 
-The standard **RadListView.LayoutTemplate** property is defined. **RadListView.ClientSettings.DataBinding.ItemPlaceHolderID** points to the ID of an HTML element inside the server-side LayoutTemplate. This scenario allows RadListView to be server-bound initially and then rebound on the client-side and rendered in the same LayoutTemplate.
+    The standard **RadListView.LayoutTemplate** property is defined. **RadListView.ClientSettings.DataBinding.ItemPlaceHolderID** points to the ID of an HTML element inside the server-side LayoutTemplate. This scenario allows RadListView to be server-bound initially and then rebound on the client-side and rendered in the same LayoutTemplate.
 
-## Client-side LayoutTemplate as a container of client-bound items
+1. **Client-side LayoutTemplate as a container of client-bound items**
 
-In this scenario the client-side **RadListView.ClientSettings.DataBinding.LayoutTemplate** is defined. **RadListView.ClientSettings.DataBinding.ItemPlaceHolderID** points to the ID of an HTML element inside the client-side LayoutTemplate. The server-side LayoutTemplate is omitted. This approach is recommended for scenarios where no server-side databinding is required and RadListView does not have to render content from the server on initial page load.
+    In this scenario the client-side **RadListView.ClientSettings.DataBinding.LayoutTemplate** is defined. **RadListView.ClientSettings.DataBinding.ItemPlaceHolderID** points to the ID of an HTML element inside the client-side LayoutTemplate. The server-side LayoutTemplate is omitted. This approach is recommended for scenarios where no server-side databinding is required and RadListView does not have to render content from the server on initial page load.
 
 ## Binding the RadListView
 
@@ -97,24 +87,24 @@ RadListView also supports prepending data. It is similar to the append data func
 
 The RadListView client-side component supports initialization entirely on the client-side, without being associated with a server-side ASP.NET control. Due to the lack of its own rendering, RadListView is not constrained to a server-side control. Any HTML element can be the container element, in which case RadListView will render its HTML inside this element. The developer needs to register the scripts required by RadListView on the page. This can be done through the **ScriptManager**:
 
-
-          <asp:ScriptManager ID="ScriptManager1" runat="server">
-          <Scripts>
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.ListView.RadListView.js" />
-          </Scripts>
-          </asp:ScriptManager>
-
+````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+    <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.ListView.RadListView.js" />
+    </Scripts>
+</asp:ScriptManager>
+````
 
 
 
 After the scripts have been registered, RadListView can be initialized using the [Telerik.Web.UI.RadListView.create() ](https://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources#Section4) function. This is essentially a convenience function that uses $create to initialize a client-side RadListView component. Using this function, a RadListView instance is created on the client:
 
-
-          var listView = Telerik.Web.UI.RadListView.create("RadListView1", "container", true);
-          listView.get_clientSettings().DataBinding.ItemTemplate = $get("itemTemplate").innerHTML;
-
+````C#
+var listView = Telerik.Web.UI.RadListView.create("RadListView1", "container", true);
+listView.get_clientSettings().DataBinding.ItemTemplate = $get("itemTemplate").innerHTML;
+````
 
 
 
@@ -158,6 +148,7 @@ Here follows an example of a RadListView initialized on the client, *using infin
     </div>
 </script>
 ````
+
 ````JavaScript
 var listView = Telerik.Web.UI.RadListView.create("RadListView1", "container", true);
 listView.get_clientSettings().DataBinding.ItemTemplate = $get("itemTemplate").innerHTML;
@@ -252,3 +243,4 @@ To invalidate the cache, the client-side **RadListView.clearCache(forCurrentStat
 
 >note Data caching does not work for programmatic binding using **set_dataSource()** . Only automatic databinding to web services through the **RadListView.ClientSettings.DataBinding.DataService.Location** property is supported.
 >
+
