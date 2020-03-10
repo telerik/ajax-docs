@@ -14,17 +14,13 @@ position: 4
 
 In this article you can find the client and server-side APIs exposed by RadListView for performing client-side binding and controlling the control behavior when bound this way.
 
-* **Server properties
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section0_self**
+* **[Server properties](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/api#server-properties)**
 
-* **Client properties
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section1_self**
+* **[Client properties](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/api#client-properties)**
 
-* **Client methods
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section2_self**
+* **[Client methods](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/api#client-methods)**
 
-* **Client events
-https://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section3_self**
+* **[Client events](https://docs.telerik.com/devtools/aspnet-ajax/controls/listview/data-binding/client-side/api#client-events)**
 
 ## Server properties
 
@@ -58,12 +54,14 @@ RadListView defines the following new properties in the **ClientSettings.DataBin
 | **DataService.FilterParameterName** |request parameter name specifying filter expression|
 | **DataService.FilterParameterType** |List/Linq/OData/Sql; specifies the format of the filter expression. *Default: List* |
 
-## Client APIs
+# Client APIs
 
 Client-side databinding enabled many new APIs in the client RadListView component. With these new additions RadListView's client-side capabilities are greatly enhanced. Here is a list of the new properties and methods in RadListView, as well as the new client-side events that have been added:
 
+## Client properties
 
->caption Properties
+
+>caption 
 
 |  ** *Property* **  |  ** *Description* **  |
 | ------ | ------ |
@@ -88,8 +86,8 @@ Client-side databinding enabled many new APIs in the client RadListView componen
 | **get_allowNaturalSort()** |Returns whether natural sort is enabled (or "no sort" mode).|
 | **get_filterExpressions()** |Returns a RadListViewFilterExpressions object used for manipulating the filter expressions in RadListView.|
 
-## Methods
 
+## Client methods
 
 >caption  
 
@@ -111,7 +109,9 @@ Client-side databinding enabled many new APIs in the client RadListView componen
 | **filter(field, filterFunction, value, doNotFireCommand)** |Applied a filter to the data in RadListView. * **field** :* The field name to filter. * **filterFunction** :* The filter function to use. Accepted values are specified by the Telerik.Web.UI.RadListViewFilterFunction object. * **value** :* The filter value to use for the specified field. * **doNotFireCommand** :* Optional: A boolean value indicating whether RadListView should suppress firing the Filter command. By default, Filter command is fired when filtering.|
 | **clearFilter(field, doNotFireCommand)** |Clears the filter expressions for the specified field. If no field is specified, clears all filter expression in RadListView. * **field** :* Optional: The field name to remove the filter of. If this parameter is omitted, all filter expressions will be cleared. * **doNotFireCommand** :* Optional: A boolean value indicating whether RadListView should suppress firing the Filter command. By default, Filter command is fired when filtering.|
 
+
 ## Client events
+
 
 All events are exposed through the **RadListView.ClientSettings.ClientEvents** server settings, or through their respective **add_[Event]** and **remove_[Event]** javascript methods.
 
@@ -131,3 +131,4 @@ All events are exposed through the **RadListView.ClientSettings.ClientEvents** s
 | **OnItemSelected** |Raised after an item is selected.|<ul><li>**get_itemIndex()** - returns the index of the item that is selected.</li><ul>|
 | **OnTemplateCreated** |Raised for each template during databinding before the template is databound.|<ul><li>**get_context()** - returns the binding context of the template.</li><li>**get_template()** - returns the template object.</li><li>**set_template()** - sets the template object.</li><li>**get_name()** - returns the name of the template.</li><ul>|
 | **OnTemplateDataBound** |Raised for each template during databinding after the template is databound and before the resulting HTML is added to the DOM.|<ul><li>**get_context()** - returns the binding context of the template</li><li>**get_html()** - returns the HTML of the template</li><li>**set_html()** - sets the HTML of the template</li><li>**get_name()** - returns the name of the template</li><li>**get_template()** - returns the template object</li><ul>|
+
