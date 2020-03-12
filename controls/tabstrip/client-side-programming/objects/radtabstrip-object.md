@@ -18,8 +18,8 @@ The table below lists the most important methods of the client-side **RadTabStri
 | ------ | ------ | ------ | ------ |
 | **trackChanges** |none|none|Begins tracking changes to the tabs. Only changes to the tabs that occur between a call to **trackChanges** and **commitChanges** persist after a postback. See **Example 1**.|
 | **commitChanges** |none|none|Ends tracking changes to the tabs. Only changes to the tabs that occur between a call to **trackChanges** and **commitChanges** persist after a postback. See **Example 1**.|
-| **enable** | none | none | Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened. See **Example 2**. |
-| **disable** | none | none | Enables all tabs in the tab strip. See **Example 3**. |
+| **disable** | none | none | Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened. See **Example 2**. |
+| **enable** | none | none | Enables all tabs in the tab strip. See **Example 3**. |
 | **set_enabled** | bool | none | Enables or disables all tabs in the tab strip. See **Example 2** and **Example 3**. |
 | **get_enabled** | none | boolean | True if the tab strip is enabled. To enable a tab strip, use the enable() or set_enabled(true) methods. |
 | **findTabByValue** |string|RadTab|Returns the first **RadTab** object whose **Value** property is equal to the passed parameter.|
