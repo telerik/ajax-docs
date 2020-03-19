@@ -1,6 +1,6 @@
 ---
 title: Client-side Programming Overview
-page_title: Overview | RadMenu for ASP.NET AJAX Documentation
+page_title: Overview | Client Side Programming | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/client-side-programming/overview
 tags: overview
