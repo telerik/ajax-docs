@@ -3,6 +3,7 @@ title: Standard Buttons' Events
 page_title: Standard Buttons' Events | RadSocialShare for ASP.NET AJAX Documentation
 description: Standard Buttons' Events
 slug: socialshare/troubleshooting/standard-buttons'-events
+previous_url: socialshare/troubleshooting/standard-buttons
 tags: standard,buttons',events
 published: True
 position: 0
