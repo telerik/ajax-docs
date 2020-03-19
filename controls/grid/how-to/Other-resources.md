@@ -69,7 +69,7 @@ The Code Library illustrates how one can use HTML to edit a certain field data i
 
 ## Selection:
 
-* [Get selected items through all pages](www.telerik.com/support/code-library/get-selected-items-through-all-pages)- This project demonstrates how to persist selected rows through rebind operations such as paging, sorting, filtering, grouping, etc. using the approach provided here. In addition to that, it gives a clear example how to pass the selected items' ID collection to the server using a HiddenField.
+* [Get selected items through all pages](https://www.telerik.com/support/code-library/get-selected-items-through-all-pages)- This project demonstrates how to persist selected rows through rebind operations such as paging, sorting, filtering, grouping, etc. using the approach provided here. In addition to that, it gives a clear example how to pass the selected items' ID collection to the server using a HiddenField.
 * [Single RadioButton check at a time with row selection](https://www.telerik.com/support/code-library/single-radiobutton-check-at-a-time-with-row-selection)- This project represents a symbiosis of radio check and row selection by means of a radio button residing in item template of RadGrid template column
 * [Disable selection for some rows in GridClientSelectColumn conditionally](https://www.telerik.com/support/code-library/disable-selection-for-some-rows-in-gridclientselectcolumn-conditionally)- In some particular cases you may need to disallow selection for part of the rows in grid having GridClientSelectColumn.
 
@@ -80,7 +80,7 @@ The Code Library illustrates how one can use HTML to edit a certain field data i
 
 ## Selection:
 
-* [Get selected items through all pages](www.telerik.com/support/code-library/get-selected-items-through-all-pages)- This project demonstrates how to persist selected rows through rebind operations such as paging, sorting, filtering, grouping, etc. using the approach provided here. In addition to that, it gives a clear example how to pass the selected items' ID collection to the server using a HiddenField.
+* [Get selected items through all pages](https://www.telerik.com/support/code-library/get-selected-items-through-all-pages)- This project demonstrates how to persist selected rows through rebind operations such as paging, sorting, filtering, grouping, etc. using the approach provided here. In addition to that, it gives a clear example how to pass the selected items' ID collection to the server using a HiddenField.
 * [Single RadioButton check at a time with row selection](https://www.telerik.com/support/code-library/single-radiobutton-check-at-a-time-with-row-selection)- This project represents a symbiosis of radio check and row selection by means of a radio button residing in item template of RadGrid template column
 * [Disable selection for some rows in GridClientSelectColumn conditionally](https://www.telerik.com/support/code-library/disable-selection-for-some-rows-in-gridclientselectcolumn-conditionally)- In some particular cases you may need to disallow selection for part of the rows in grid having GridClientSelectColumn.
 
