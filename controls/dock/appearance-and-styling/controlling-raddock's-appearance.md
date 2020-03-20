@@ -3,7 +3,7 @@ title: Controlling RadDock's Appearance
 page_title: Controlling RadDock's Appearance | RadDock for ASP.NET AJAX Documentation
 description: Controlling RadDock's Appearance
 slug: dock/appearance-and-styling/controlling-raddock's-appearance
-previous_url: dock/appearance-and-styling/controlling-raddock
+previous_url: controls/dock/appearance-and-styling/controlling-raddock
 tags: controlling,raddock,appearance
 published: True
 position: 0
