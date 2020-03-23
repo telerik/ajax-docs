@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.AttributeCollection
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AttributeCollection
 slug: Telerik.Web.UI.AttributeCollection
 ---

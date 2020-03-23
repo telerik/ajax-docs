@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.TreeListItemDblClickEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListItemDblClickEventArgs
 slug: Telerik.Web.UI.TreeListItemDblClickEventArgs
 ---

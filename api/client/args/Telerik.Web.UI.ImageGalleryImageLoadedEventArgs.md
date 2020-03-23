@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
 slug: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
 ---

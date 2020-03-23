@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.Timer
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.Timer
 slug: Telerik.Web.Timer
 ---

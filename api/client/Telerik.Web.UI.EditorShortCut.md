@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.EditorShortCut
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorShortCut
 slug: Telerik.Web.UI.EditorShortCut
 ---

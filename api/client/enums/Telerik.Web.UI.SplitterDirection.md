@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.SplitterDirection
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SplitterDirection
 slug: Telerik.Web.UI.SplitterDirection
 ---

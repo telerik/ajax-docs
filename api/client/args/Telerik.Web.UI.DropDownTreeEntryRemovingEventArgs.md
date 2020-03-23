@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs
 slug: Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs
 ---

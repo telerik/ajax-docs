@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ControlItemContainer
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ControlItemContainer
 slug: Telerik.Web.UI.ControlItemContainer
 ---

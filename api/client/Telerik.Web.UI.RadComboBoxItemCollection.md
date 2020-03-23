@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadComboBoxItemCollection
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadComboBoxItemCollection
 slug: Telerik.Web.UI.RadComboBoxItemCollection
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.SchedulerResource
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerResource
 slug: Telerik.Web.UI.SchedulerResource
 ---

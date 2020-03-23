@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.PivotGridConfigurationPanelLayoutType
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PivotGridConfigurationPanelLayoutType
 slug: Telerik.Web.UI.PivotGridConfigurationPanelLayoutType
 ---

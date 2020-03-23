@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.Spell.HtmlTextSourceBase
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Spell.HtmlTextSourceBase
 slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 ---

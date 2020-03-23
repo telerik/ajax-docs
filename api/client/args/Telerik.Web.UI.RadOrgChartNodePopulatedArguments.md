@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadOrgChartNodePopulatedArguments
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadOrgChartNodePopulatedArguments
 slug: Telerik.Web.UI.RadOrgChartNodePopulatedArguments
 ---

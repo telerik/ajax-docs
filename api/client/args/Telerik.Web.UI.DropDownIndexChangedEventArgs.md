@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.DropDownListIndexChangedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DropDownListIndexChangedEventArgs
 slug: Telerik.Web.UI.DropDownListIndexChangedEventArgs
 ---

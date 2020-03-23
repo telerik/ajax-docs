@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadTreeList
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTreeList
 slug: Telerik.Web.UI.RadTreeList
 ---

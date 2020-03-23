@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
 slug: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
 ---

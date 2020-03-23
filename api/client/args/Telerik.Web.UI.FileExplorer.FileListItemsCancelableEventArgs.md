@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs
 slug: Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs
 ---

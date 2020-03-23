@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.AnimationType
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AnimationType
 slug: Telerik.Web.UI.AnimationType
 ---

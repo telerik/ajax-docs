@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GridRowDataBoundEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridRowDataBoundEventArgs
 slug: Telerik.Web.UI.GridRowDataBoundEventArgs
 ---

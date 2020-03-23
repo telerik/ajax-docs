@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.CalendarDateClickEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CalendarDateClickEventArgs
 slug: Telerik.Web.UI.CalendarDateClickEventArgs
 ---

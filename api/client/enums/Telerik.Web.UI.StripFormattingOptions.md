@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.StripFormattingOptions
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.StripFormattingOptions
 slug: Telerik.Web.UI.StripFormattingOptions
 ---

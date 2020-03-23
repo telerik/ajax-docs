@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadTreeNodePopulatedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTreeNodePopulatedEventArgs
 slug: Telerik.Web.UI.RadTreeNodePopulatedEventArgs
 ---

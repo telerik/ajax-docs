@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.TreeMapItemCreatedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeMapItemCreatedEventArgs
 slug: Telerik.Web.UI.TreeMapItemCreatedEventArgs
 ---

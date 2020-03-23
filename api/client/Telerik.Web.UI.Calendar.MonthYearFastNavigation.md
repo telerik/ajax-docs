@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.Calendar.MonthYearFastNavigation
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Calendar.MonthYearFastNavigation
 slug: Telerik.Web.UI.Calendar.MonthYearFastNavigation
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ToolTipRelativeDisplay
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ToolTipRelativeDisplay
 slug: Telerik.Web.UI.ToolTipRelativeDisplay
 ---

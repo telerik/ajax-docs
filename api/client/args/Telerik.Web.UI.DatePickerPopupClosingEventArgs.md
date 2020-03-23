@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.DatePickerPopupClosingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DatePickerPopupClosingEventArgs
 slug: Telerik.Web.UI.DatePickerPopupClosingEventArgs
 ---

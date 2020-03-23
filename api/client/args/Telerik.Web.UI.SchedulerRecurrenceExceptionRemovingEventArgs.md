@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.SchedulerRecurrenceExceptionRemovingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerRecurrenceExceptionRemovingEventArgs
 slug: Telerik.Web.UI.SchedulerRecurrenceExceptionRemovingEventArgs
 ---

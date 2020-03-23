@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.AjaxLoadingPanelEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AjaxLoadingPanelEventArgs
 slug: Telerik.Web.UI.AjaxLoadingPanelEventArgs
 ---

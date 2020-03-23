@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadNotification
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadNotification
 slug: Telerik.Web.UI.RadNotification
 ---

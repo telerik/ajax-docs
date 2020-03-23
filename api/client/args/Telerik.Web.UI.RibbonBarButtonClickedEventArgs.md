@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RibbonBarButtonClickedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarButtonClickedEventArgs
 slug: Telerik.Web.UI.RibbonBarButtonClickedEventArgs
 ---

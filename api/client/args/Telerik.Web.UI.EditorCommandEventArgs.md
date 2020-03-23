@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.EditorCommandEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorCommandEventArgs
 slug: Telerik.Web.UI.EditorCommandEventArgs
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.TagCloudDistribution
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TagCloudDistribution
 slug: Telerik.Web.UI.TagCloudDistribution
 ---

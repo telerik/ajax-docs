@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadListBox
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadListBox
 slug: Telerik.Web.UI.RadListBox
 ---

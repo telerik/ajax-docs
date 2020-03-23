@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadPageView
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPageView
 slug: Telerik.Web.UI.RadPageView
 ---

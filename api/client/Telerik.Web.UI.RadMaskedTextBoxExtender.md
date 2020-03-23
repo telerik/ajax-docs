@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadMaskedTextBoxExtender
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMaskedTextBoxExtender
 slug: Telerik.Web.UI.RadMaskedTextBoxExtender
 ---

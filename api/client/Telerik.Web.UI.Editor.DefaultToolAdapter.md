@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.Editor.DefaultToolAdapter
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.DefaultToolAdapter
 slug: Telerik.Web.UI.Editor.DefaultToolAdapter
 ---

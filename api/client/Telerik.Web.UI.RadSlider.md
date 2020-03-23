@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadSlider
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSlider
 slug: Telerik.Web.UI.RadSlider
 ---

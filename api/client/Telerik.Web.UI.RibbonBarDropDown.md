@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RibbonBarDropDown
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarDropDown
 slug: Telerik.Web.UI.RibbonBarDropDown
 ---

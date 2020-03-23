@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.StringBuilder
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.StringBuilder
 slug: Telerik.Web.StringBuilder
 ---

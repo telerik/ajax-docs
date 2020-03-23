@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadAjaxManager
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAjaxManager
 slug: Telerik.Web.UI.RadAjaxManager
 ---

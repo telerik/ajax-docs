@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ButtonCancelEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonCancelEventArgs
 slug: Telerik.Web.UI.ButtonCancelEventArgs
 ---

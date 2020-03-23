@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadPanelBar
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelBar
 slug: Telerik.Web.UI.RadPanelBar
 ---

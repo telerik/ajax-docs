@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.CalendarViewChangedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CalendarViewChangedEventArgs
 slug: Telerik.Web.UI.CalendarViewChangedEventArgs
 ---

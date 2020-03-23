@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.WindowBehaviors
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.WindowBehaviors
 slug: Telerik.Web.UI.WindowBehaviors
 ---

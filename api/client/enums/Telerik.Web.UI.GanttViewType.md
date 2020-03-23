@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GanttViewType
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttViewType
 slug: Telerik.Web.UI.GanttViewType
 ---

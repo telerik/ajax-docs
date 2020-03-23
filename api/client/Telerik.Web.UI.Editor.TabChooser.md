@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.Editor.TabChooser
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.TabChooser
 slug: Telerik.Web.UI.Editor.TabChooser
 ---

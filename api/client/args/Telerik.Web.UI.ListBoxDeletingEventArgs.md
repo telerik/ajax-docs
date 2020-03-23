@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ListBoxDeletingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxDeletingEventArgs
 slug: Telerik.Web.UI.ListBoxDeletingEventArgs
 ---

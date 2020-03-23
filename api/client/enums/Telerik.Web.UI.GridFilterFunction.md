@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GridFilterFunction
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridFilterFunction
 slug: Telerik.Web.UI.GridFilterFunction
 ---

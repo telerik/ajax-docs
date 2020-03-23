@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GridGroupPanel
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridGroupPanel
 slug: Telerik.Web.UI.GridGroupPanel
 ---

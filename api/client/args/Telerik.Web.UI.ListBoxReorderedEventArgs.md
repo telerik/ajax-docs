@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ListBoxReorderedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxReorderedEventArgs
 slug: Telerik.Web.UI.ListBoxReorderedEventArgs
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ToolBarImagePosition
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ToolBarImagePosition
 slug: Telerik.Web.UI.ToolBarImagePosition
 ---

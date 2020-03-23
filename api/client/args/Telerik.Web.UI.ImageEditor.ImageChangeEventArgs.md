@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
 slug: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
 ---

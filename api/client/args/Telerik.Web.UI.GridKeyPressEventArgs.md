@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GridKeyPressEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridKeyPressEventArgs
 slug: Telerik.Web.UI.GridKeyPressEventArgs
 ---

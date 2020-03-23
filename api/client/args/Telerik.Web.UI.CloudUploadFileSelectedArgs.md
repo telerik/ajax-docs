@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.CloudUploadFileSelectedArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CloudUploadFileSelectedArgs
 slug: Telerik.Web.UI.CloudUploadFileSelectedArgs
 ---

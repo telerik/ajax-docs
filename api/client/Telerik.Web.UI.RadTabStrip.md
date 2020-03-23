@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadTabStrip
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTabStrip
 slug: Telerik.Web.UI.RadTabStrip
 ---

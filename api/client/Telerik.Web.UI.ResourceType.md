@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ResourceType
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ResourceType
 slug: Telerik.Web.UI.ResourceType
 ---

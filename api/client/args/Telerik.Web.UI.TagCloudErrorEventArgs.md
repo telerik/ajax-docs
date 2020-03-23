@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.TagCloudErrorEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TagCloudErrorEventArgs
 slug: Telerik.Web.UI.TagCloudErrorEventArgs
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.EditorContextMenu
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorContextMenu
 slug: Telerik.Web.UI.EditorContextMenu
 ---

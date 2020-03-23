@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.NotificationLoad
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.NotificationLoad
 slug: Telerik.Web.UI.NotificationLoad
 ---

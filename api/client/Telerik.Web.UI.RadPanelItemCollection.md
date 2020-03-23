@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadPanelItemCollection
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelItemCollection
 slug: Telerik.Web.UI.RadPanelItemCollection
 ---

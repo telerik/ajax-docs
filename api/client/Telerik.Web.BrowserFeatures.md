@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.BrowserFeatures
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.BrowserFeatures
 static: true
 slug: Telerik.Web.BrowserFeatures

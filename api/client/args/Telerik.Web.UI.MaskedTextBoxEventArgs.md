@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.MaskedTextBoxEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.MaskedTextBoxEventArgs
 slug: Telerik.Web.UI.MaskedTextBoxEventArgs
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadToolBarEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToolBarEventArgs
 slug: Telerik.Web.UI.RadToolBarEventArgs
 ---

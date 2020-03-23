@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.Orientation
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Orientation
 slug: Telerik.Web.UI.Orientation
 ---

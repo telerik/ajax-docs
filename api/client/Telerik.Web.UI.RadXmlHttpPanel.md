@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadXmlHttpPanel
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadXmlHttpPanel
 slug: Telerik.Web.UI.RadXmlHttpPanel
 ---

@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadNavigation
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadNavigation
 slug: Telerik.Web.UI.RadNavigation
 ---

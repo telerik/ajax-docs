@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.GridPopUpShowingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridPopUpShowingEventArgs
 slug: Telerik.Web.UI.GridPopUpShowingEventArgs
 ---

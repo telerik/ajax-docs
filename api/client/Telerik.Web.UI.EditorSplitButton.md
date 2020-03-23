@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.EditorSplitButton
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorSplitButton
 slug: Telerik.Web.UI.EditorSplitButton
 ---

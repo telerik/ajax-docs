@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadCalendar
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadCalendar
 slug: Telerik.Web.UI.RadCalendar
 ---

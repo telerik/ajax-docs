@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadToolBarButton
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToolBarButton
 slug: Telerik.Web.UI.RadToolBarButton
 ---

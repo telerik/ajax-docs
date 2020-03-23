@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
 slug: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
 ---

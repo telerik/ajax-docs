@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.ButtonListDirection
-page_title:
+title_prefix: Client-side API Reference
 description:
 ---
 

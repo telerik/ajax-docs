@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.RadProgressManager
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadProgressManager
 slug: Telerik.Web.UI.RadProgressManager
 ---

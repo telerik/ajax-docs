@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.SplitterResizingEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SplitterResizingEventArgs
 slug: Telerik.Web.UI.SplitterResizingEventArgs
 ---

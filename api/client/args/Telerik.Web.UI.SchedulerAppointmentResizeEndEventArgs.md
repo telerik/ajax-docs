@@ -1,6 +1,6 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs
-page_title: Client-side API Reference
+title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs
 ---
