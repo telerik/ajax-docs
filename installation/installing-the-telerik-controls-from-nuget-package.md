@@ -18,7 +18,7 @@ This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 
 This article contains the following sections:
 
-* [Add the Telerik Private NuGet Feed to Your System](#add-the-telerik-nuget-feed-to-your-system)
+* [Add the Telerik Private NuGet Feed to Your System](#add-the-telerik-private-nuget-feed-to-your-system)
 * [How to use the Telerik NuGet feed in Visual Studio](#telerik-nuget-feed-in-visual-studio)
 * [Available Telerik Nuget packages and the ddls in them](#available-telerik-nuget-packages-and-ddls-in-them)
 * [How to download a .nupkg file to create local feeds](#downloading-a-nuget-package)
