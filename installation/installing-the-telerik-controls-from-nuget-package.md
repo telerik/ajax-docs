@@ -18,6 +18,7 @@ This feed is available as of Q3 2015 SP1 (ver. 2015.3.1111).
 
 This article contains the following sections:
 
+* [Add the Telerik Private NuGet Feed to Your System](#add-telerik-nuget-feed-to-your-system)
 * [How to use the Telerik NuGet feed in Visual Studio](#telerik-nuget-feed-in-visual-studio)
 * [Available Telerik Nuget packages and the ddls in them](#available-telerik-nuget-packages-and-ddls-in-them)
 * [How to download a .nupkg file to create local feeds](#downloading-a-nuget-package)
@@ -28,6 +29,11 @@ This article contains the following sections:
 >caution  **Prerequisite** 
 >In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations.
 
+## Add the Telerik Private NuGet Feed to Your System
+
+The following video explains how you can add the Telerik NuGet feed. If you prefer to do this yourself, follow the rest of this article.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Telerik NuGet Feed in Visual Studio
 
