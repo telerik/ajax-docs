@@ -149,7 +149,7 @@ Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridComman
 End Sub
 ````
 
-# Custom Commands
+## Custom Commands
 
 The name defined in the CommandName property of the Button can be captured as follows
 
