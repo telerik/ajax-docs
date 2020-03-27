@@ -21,7 +21,9 @@ The code below shows how to retrieve a value from a control in a user control cu
 ````VB
 Private Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
     Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-    Dim MyUserControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
+    'Locate the user control in the EditFormItem using its const ID (the public const GridEditFormItem.EditFormUserControlID)
+    Dim editFormItem as GridEditFormItem = CType(editedItem.EditFormItem, GridEditFormItem)    
+    Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
     'Locate the changed row in the DataSource
     Dim changedRows As DataRow() = Me.Employees.Select("EmployeeID = " & editedItem.OwnerTableView.DataKeyValues(editedItem.ItemIndex)("EmployeeID"))
 
@@ -61,7 +63,9 @@ End Sub
 void RadGrid1_UpdateCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 {
     GridEditableItem editedItem = e.Item as GridEditableItem;
-    UserControl userControl = (UserControl)e.Item.FindControl(GridEditFormItem.EditFormUserControlID);
+    //Locate the user control in the EditFormItem using its const ID (the public const GridEditFormItem.EditFormUserControlID)
+    GridEditFormItem editFormItem = editedItem.EditFormItem as GridEditFormItem;
+    UserControl userControl = (UserControl)editFormItem.FindControl(GridEditFormItem.EditFormUserControlID);
     //Prepare new row to add it in the DataSource
     DataRow[] changedRows = this.Employees.Select("EmployeeID = " + editedItem.OwnerTableView.DataKeyValues[editedItem.ItemIndex]["EmployeeID"]);
     if (changedRows.Length != 1)
