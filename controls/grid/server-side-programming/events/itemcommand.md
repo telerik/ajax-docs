@@ -17,7 +17,7 @@ Fired when any button is clicked in the RadGrid control. All bubbled events from
 
     * The control that fires the event
 
-* (GridCommandEventArgs) **e**
+* `(GridCommandEventArgs)` **e**
 
     * Event arguments that 
 
@@ -27,11 +27,11 @@ Fired when any button is clicked in the RadGrid control. All bubbled events from
 
         * `(object)` **e.CommandArgument**
 
-            Arguments that are set to the Button's CommandArgument property.
+            Arguments that are set to the Control's CommandName property. (Usually Button but it could be other Control in the Template)
 
         * `(string)` **e.CommandName**
 
-            Name defined in the CommandName property of the Button.
+            Name defined in the CommandName property of the Control.
 
         * `(object)` **e.CommandSource**
 
@@ -85,6 +85,8 @@ Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridComman
     Dim item As GridItem = e.Item
 End Sub
 ````
+
+### Examples
 
 ## Capturing commands
 

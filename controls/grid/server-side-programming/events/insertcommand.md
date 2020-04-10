@@ -17,7 +17,7 @@ Fired when the Insert button is clicked for an item in the RadGrid control.
 
     * The control that fires the event
 
-* (GridCommandEventArgs) **e**
+* `(GridCommandEventArgs)` **e**
 
     * Event arguments that 
 
@@ -27,11 +27,11 @@ Fired when the Insert button is clicked for an item in the RadGrid control.
 
         * `(object)` **e.CommandArgument**
 
-            Arguments that are set to the Button's CommandArgument property.
+            Arguments that are set to the Control's CommandName property. (Usually Button but it could be other Control in the Template)
 
         * `(string)` **e.CommandName**
 
-            Name defined in the CommandName property of the Button.
+            Name defined in the CommandName property of the Control.
 
         * `(object)` **e.CommandSource**
 

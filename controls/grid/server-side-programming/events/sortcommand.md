@@ -17,9 +17,9 @@ Fired when a column is sorted. To determine the new/previous sort order on sort 
 
     * The control that fires the event
 
-* (GridCommandEventArgs) **e**
+* `(GridCommandEventArgs)` **e**
 
-    * Event arguments that 
+    * Event arguments 
 
         * `(boolean)` **e.Canceled**
             

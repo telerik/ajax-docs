@@ -17,9 +17,9 @@ Fired when the Delete button is clicked for an item in the RadGrid control.
 
     * The control that fires the event
 
-* (GridCommandEventArgs) **e**
+* `(GridCommandEventArgs)` **e**
 
-    * Event arguments that 
+    * Event arguments 
 
         * `(boolean)` **e.Canceled**
             
