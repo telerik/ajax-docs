@@ -86,3 +86,4 @@ Protected Sub RadGrid1_ItemInserted(ByVal sender As Object, ByVal e As GridInser
     Dim keepInInsertMode As Boolean = e.KeepInInsertMode
 End Sub
 ````
+  

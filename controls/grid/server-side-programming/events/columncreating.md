@@ -78,4 +78,4 @@ Protected Sub RadGrid1_ColumnCreating(ByVal sender As Object, ByVal e As GridCol
     Dim ownerTableView As GridTableView = e.OwnerTableView
 End Sub
 ````
-
+  
