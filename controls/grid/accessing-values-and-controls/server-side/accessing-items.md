@@ -239,6 +239,91 @@ Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
+## Accessing GroupHeaderItem
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    var grid = (RadGrid)sender;
+
+    foreach (GridGroupHeaderItem groupHeader in grid.MasterTableView.GetItems(GridItemType.GroupHeader))
+    {
+        var aggreGateValue = (int)groupHeader.AggregatesValues["ShipCountry"];
+        var lblItemCount = groupHeader.FindControl("lblGroupItemCount") as Label;
+        lblItemCount.Text = string.Format("({0})", aggreGateValue.ToString());
+    }
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
+    Dim grid = CType(sender, RadGrid)
+
+    For Each groupHeader As GridGroupHeaderItem In grid.MasterTableView.GetItems(GridItemType.GroupHeader)
+        Dim aggreGateValue = CInt(groupHeader.AggregatesValues("ShipCountry"))
+        Dim lblItemCount = TryCast(groupHeader.FindControl("lblGroupItemCount"), Label)
+        lblItemCount.Text = String.Format("({0})", aggreGateValue.ToString())
+    Next
+End Sub
+````
+
+## Accessing GridDetailTemplateItem
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    var grid = (RadGrid)sender;
+    var detailTemplateItems = grid.MasterTableView.GetItems(GridItemType.DetailTemplateItem);
+
+    foreach (GridDetailTemplateItem detailTemplateItem in detailTemplateItems)
+    {
+        detailTemplateItem.BackColor = Color.LightGray;
+    }
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
+    Dim grid = CType(sender, RadGrid)
+    Dim detailTemplateItems = grid.MasterTableView.GetItems(GridItemType.DetailTemplateItem)
+
+    For Each detailTemplateItem As GridDetailTemplateItem In detailTemplateItems
+        detailTemplateItem.BackColor = Color.LightGray
+    Next
+End Sub
+````
+
+## Hiding GridDetailTemplateItem when exporting
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    var grid = (RadGrid)sender;
+
+    if (grid.IsExporting)
+    {
+        var detailTemplateItems = grid.MasterTableView.GetItems(GridItemType.DetailTemplateItem);
+
+        foreach (GridDetailTemplateItem detailTemplateItem in detailTemplateItems)
+        {
+            detailTemplateItem.Visible = false;
+        }
+    }
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
+    Dim grid = CType(sender, RadGrid)
+
+    If grid.IsExporting Then
+        Dim detailTemplateItems = grid.MasterTableView.GetItems(GridItemType.DetailTemplateItem)
+
+        For Each detailTemplateItem As GridDetailTemplateItem In detailTemplateItems
+            detailTemplateItem.Visible = False
+        Next
+    End If
+End Sub
+````
+
+
 # Edit items
 
 Items in edit mode are contained in the [EditItems](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadGrid#edititems) property of the [RadGrid](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadGrid) object.
@@ -335,21 +420,6 @@ Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.We
 End Sub 'RadGrid1_ItemDataBound
 ````
 
-## Accessing GroupHeaderItem
-
-````C#
-protected void RadGrid1_PreRender(object sender, EventArgs e)
-{
-    var grid = (RadGrid)sender;
-
-    foreach (GridGroupHeaderItem groupHeader in grid.MasterTableView.GetItems(GridItemType.GroupHeader))
-    {
-        var aggreGateValue = (int)groupHeader.AggregatesValues["ShipCountry"];
-        var lblItemCount = groupHeader.FindControl("lblGroupItemCount") as Label;
-        lblItemCount.Text = string.Format("({0})", aggreGateValue.ToString());
-    }
-}
-````
 
 ## See Also
  
