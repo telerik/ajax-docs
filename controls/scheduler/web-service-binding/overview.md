@@ -146,4 +146,4 @@ In addition you can find a full sample project for **"Web Services with Custom P
 
 # See Also
 
- * [Web Service binding blog post](https://blogs.telerik.com/tsvetomirtsonev/posts/09-02-20/Web_Service_binding_with_RadScheduler_for_ASP_NET_AJAX.aspx)
+ * [Web Service binding blog post](https://www.telerik.com/blogs/web-service-binding-with-radscheduler-for-asp-net-ajax)
