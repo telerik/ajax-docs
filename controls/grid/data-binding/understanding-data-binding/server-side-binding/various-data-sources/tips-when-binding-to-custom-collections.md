@@ -302,7 +302,7 @@ Namespace BusinessObjects
 
 ## CustomTypeDescriptorHelper
 
-
+For this approach, Linq expressions needs to be disabled by setting the `EnableLinqExpressions` to `false`.
 
 ````C#
 using System;
