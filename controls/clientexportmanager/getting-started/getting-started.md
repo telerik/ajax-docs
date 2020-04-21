@@ -26,7 +26,7 @@ Drag a **RadClientExportManager** from the Toolbox onto your web page.
 The following code demonstrates the **RadClientExportManager**'s markup in Source mode:
 
 ````ASPNET
-<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1" />
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
 </telerik:RadClientExportManager>
 ````
 
