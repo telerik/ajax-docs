@@ -54,7 +54,7 @@ Telerik **RadButton** provides the following objects on the client-side:
 | **.focus()** |Brings the focus to the RadButton control.|
 | **.click()** |Executes programmatic button click. Accepts an optional boolean parameter that specifies whether the client-side[clicking event]({%slug button/client-side-programming/events/onclientclicking%})ofRadButton will be fired when the control is clicked programmatically. If the function is called without parameter,	the clicking event will not be fired.|
 | **.get_enabled()** |Returns a value, indicating whether the button control is enabled.|
-| **.set_enabled()** |Sets whether the button is enabled.|
+| **.set_enabled()** |Sets whether the button is enabled. Set the true param to enable, or false to disable the button|
 | **.get_readOnly()** |Returns a value, indicating whether the button control is in read-only mode.|
 | **.set_readOnly()** |Sets a value, indicating whether the button control is in read-only mode.|
 | **.get_text()** |The text displayed in the RadButton control.|
