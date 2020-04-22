@@ -275,7 +275,7 @@ The jQuery library introduces a breaking change in version 3.0 and uses `strict 
 
 This incompatibility does not allow the controls to use jQuery 3.x as an embedded version. You can load the latest jQuery on the page and use it for custom logic. Both version can be loaded simultaneously on the page as explained in [Including external jQuery](#including-external-jquery).
 
-As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate [known vulnerability issues for 1.12.4 version](https://www.cvedetails.com/vulnerability-list/vendor_id-6538/product_id-11031/version_id-286372/Jquery-Jquery-1.12.4.html). Here is a list of fixes introduced to the shipped custom embedded jQuery script.
+As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate [known vulnerability issues for 1.12.4 version](https://www.cvedetails.com/vulnerability-list/vendor_id-6538/product_id-11031/version_id-286372/Jquery-Jquery-1.12.4.html). Here is a list of security fixes introduced to the custom jQuery script embedded in the Telerik.Web.UI assembly.
 
 ### Telerik® UI for ASP.NET AJAX R2 2020
 
