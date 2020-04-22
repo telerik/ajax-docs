@@ -24,6 +24,8 @@ This help articles shows how to include and use embedded and external jQuery wit
 
 1. [Telerik UI Controls Using jQuery](#telerik-ui-controls-using-jquery)
 
+1. [Embedded jQuery Security](#embedded-jquery-security)
+
 ## Including jQuery
 
 If you have any of the controls listed in the [Telerik UI Controls Using jQuery](#telerik-ui-controls-using-jquery) section (with the specified version or newer) on your page then the jQuery **is already included** and you can omit this paragraph. If not - follow these steps:
@@ -186,7 +188,7 @@ Use any of the approaches above.
 
 ## jQuery Version History in Telerik UI Controls
 
-Telerik® UI for ASP.NET AJAX R1 2019 - present are using jQuery version 1.12.4, modified to backport their [fix for a potential CORS XSS vulnerability](https://github.com/jquery/jquery/issues/2432#issuecomment-403761229). Static code scans may still show this vulnerability, but it will be a false positive.
+Telerik® UI for ASP.NET AJAX R1 2019 - present are using a modified jQuery version 1.12.4 that includes security vulnerability backport fixes. Find more info in the [Embedded jQuery Security](#embedded-jquery-security) section.
 
 Telerik® UI for ASP.NET AJAX R2 2018 SP1 - R3 2018 are using jQuery version 1.12.4 (downgraded from 3.3.1 in R2 2018 due to incompatibilities with the MS AJAX framework and its __doPostBack() method - [see more](https://www.telerik.com/forums/known-issues-and-important-changes#KKI7NGE4P0K-jwQGL525dA)).
 
@@ -260,6 +262,31 @@ As of Q3 2008, the Telerik.Web.UI assembly includes the jQuery JavaScript librar
 |RadTreeView|Q3 2008|
 |RadWindow|Q1 2009|
 |RadXmlHttpPanel|Q3 2010|
+
+## Embedded jQuery Security
+
+The jQuery library introduces a breaking change in version 3.0 and uses `strict mode` via a `use strict` directive. The strict mode sets limits, such as accessing the caller of a function or using `eval()`. Such limitations affect the MS AJAX framework where the `__doPostBack()` method recursively accesses the callers. More information can be found here:
+
+* [jQuery Core 3.0 Upgrade Guide - Breaking change: jQuery 3.0 runs in Strict Mode](https://jquery.com/upgrade-guide/3.0/#breaking-change-jquery-3-0-runs-in-strict-mode) - "_If you are still using a version of ASP.NET that still does this, keep using jQuery 2.x or earlier._"
+
+* [The ASP.NET AJAX scripts are incompatible with "use strict"](https://developercommunity.visualstudio.com/content/problem/166951/the-aspnet-ajax-scripts-are-incompatible-with-use.html) bug report to Microsoft for .NET framework 
+
+* [WTF! MicrosoftAjax.js vs ‘use strict’ vs Firefox vs IE](https://mnaoumov.wordpress.com/2016/02/12/wtf-microsoftajax-js-vs-use-strict-vs-firefox-vs-ie/) blog post  
+
+This incompatibility does not allow the controls to use jQuery 3.x as an embedded version. You can load the latest jQuery on the page and use it for custom logic. Both version can be loaded simultaneously on the page as explained in [Including external jQuery](#including-external-jquery).
+
+As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate [known vulnerability issues for 1.12.4 version](https://www.cvedetails.com/vulnerability-list/vendor_id-6538/product_id-11031/version_id-286372/Jquery-Jquery-1.12.4.html). Here is a list of fixes introduced to the shipped custom embedded jQuery script.
+
+### Telerik® UI for ASP.NET AJAX R2 2020
+
+* [Cross-site scripting (XSS) vulnerability in jQuery.htmlPrefilter fixed in jQuery 3.5](https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/)
+
+### Telerik® UI for ASP.NET AJAX R1 2019
+
+* [jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed](https://www.cvedetails.com/cve/CVE-2015-9251/)
+
+* [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable `__proto__` property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/)
+
 
 
 ### See Also
