@@ -34,7 +34,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 * Built-in paging, zooming and seraching mechanism
 
-* Virtualization
+* Virtualization - allows you to perform fast scrolling through the pages
 
 * Ability to load files from the client's PC
 
