@@ -109,7 +109,7 @@ There are several ways to add the HTTP handlers:
 >
 >If you are using some form of routing, ensure that the handlers above are excluded (ignored) from routing to avoid breaking the requests the controls need to operate properly.
 >
->You can encrypt the querystring parameters that the Telerik WebResource request has in order to make them unreadable for a third party inspecting the network traffic as well as hide the Telerik.Web.UI version in the markup by setting EnableHandlerEncryption key in the web.config appSettings section - see [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}).
+>You can encrypt the querystring parameters that the Telerik WebResource request has in order to make them unreadable for a third party inspecting the network traffic as well as hide the Telerik.Web.UI version in the markup by setting EnableHandlerEncryption key in the web.config appSettings section - see [Encrypt Telerik WebResource Querystring](https://docs.telerik.com/devtools/aspnet-ajax/controls/scriptmanager/encrypt-telerik-webresource-querystring).
 
 **Example 2**: An HTTP handler registration that uses a fully qualified assembly name.
 
