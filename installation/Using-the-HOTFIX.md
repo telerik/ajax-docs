@@ -13,7 +13,7 @@ position: 4
 
 The **HOTFIX** archive is a bare-bones upgrade option for our controls - it contains only those files you might need to replace in your project to upgrade to the new version of Telerik controls. If you are already using Telerik products and just want to update, download the latest **HOTFIX** and apply it. The **HOTFIX** archive contains the following files:
 
-* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
+* **AdditionalLibraries** - contains the [Telerik document processing libraries](https://docs.telerik.com/devtools/aspnet-ajax/installation/included-assemblies) allowing you to import and export content between different formats.	
 
 * **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
@@ -29,13 +29,13 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 * **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET AJAX client-side objects.
 
->note If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file).
+>note If you are installing the Telerik products for the first time, we recommend that you download the complete package ([MSI](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-telerik-controls-from-msi-file) or [ZIP](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-telerik-controls-from-zip-file) file).
 >
 
 
 ## To update Telerik® UI for ASP.NET AJAX to a new version
 
-1. Log into your [Telerik account](https://www.telerik.com/account/default.aspx) and click on **Downloads** from the top menu.
+1. Log into your [Telerik account](https://www.telerik.com/account/default.aspx) and click on [**Downloads**](https://www.telerik.com/account/product-download?product=RCAJAX) from the top menu.
 
 1. On the loaded page choose from your purchased products Telerik® UI for ASP.NET AJAX, and click on it.
 
