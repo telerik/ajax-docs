@@ -70,7 +70,7 @@ You simply need to replace the assembly references with the new ones. Here is a 
 
 1. **Open the Bin folder** of your project in Windows Explorer and **delete the old Telerik.Web.UI.* assemblies**.
 
-1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35; for .NET 4.5 you need Bin45). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
+1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35; for .NET 4.5 you need Bin45). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it. You can download the hotfix (Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip) from the [Downloads section](https://www.telerik.com/account/product-download?product=RCAJAX) after log in.
 
 1. **Paste the new assemblies in the Bin folder** of your project in Windows Explorer.
 
@@ -223,7 +223,7 @@ The **HRESULT: 0x80131040** error means that the reference to the Telerik.Web.UI
 				<runtime>
 					<dependentAssembly>
 					    <assemblyIdentity name="Telerik.Web.UI" publicKeyToken="121fae78165ba3d4" />
-					    <bindingRedirect oldVersion="1.0.0.0-2015.3.900.40" newVersion="2015.3.930.40" />
+					    <bindingRedirect oldVersion="1.0.0.0-2020.1.219.45" newVersion="2020.1.219.45" />
 					</dependentAssembly>
 				</runtime>
 			</configuration>
