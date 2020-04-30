@@ -21,7 +21,7 @@ You can also define custom properties, which will be later accessible through th
 ![timeline-templates](../images/timeline-templates.png)
 
 ````ASPNET
-<telerik:RadTimeline runat="server" ID="RadTimeline1" Froemds="asd">
+<telerik:RadTimeline runat="server" ID="RadTimeline1">
     <EventTemplate>
                 <div class="k-card-header">
                     <h5 class="k-card-title">#= data.title #</h5>
