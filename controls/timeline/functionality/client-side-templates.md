@@ -1,14 +1,14 @@
 ---
-title: Client-side Templates
-page_title: Client-side Templates | RadTimeline for ASP.NET AJAX Documentation
-description: Client-side Templates
+title: Event Templates
+page_title: Event Templates | RadTimeline for ASP.NET AJAX Documentation
+description: Event Templates
 slug: timeline/functionality/client-side-templates
-tags: templates,client-side
+tags: event,templates,client-side
 published: True
 position: 3
 ---
 
-# Client-side Event Template
+# Event Templates
 
 **RadTimeline** uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the way the events data is rendered, allowing you to customize customize them to your needs instead of using the default card.
 
