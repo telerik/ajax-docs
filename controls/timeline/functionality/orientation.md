@@ -82,6 +82,8 @@ You can get the result from the image above with the following setup:
 
 # See Also
 
- * [Overview demo](https://demos.telerik.com/aspnet-ajax/timeline/overview/defaultcs.aspx)
+ * [Live demo - Overview](https://demos.telerik.com/aspnet-ajax/timeline/overview/defaultcs.aspx)
+ 
+ * [Live Demo - Horizontal Mode](https://demos.telerik.com/aspnet-ajax/timeline/horizontalmode/defaultcs.aspx)
 
 

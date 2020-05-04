@@ -71,7 +71,9 @@ You can also define custom properties, which will be later accessible through th
 
 # See Also
 
- * [Overview demo](https://demos.telerik.com/aspnet-ajax/timeline/overview/defaultcs.aspx)
+ * [Live demo - Overview](https://demos.telerik.com/aspnet-ajax/timeline/overview/defaultcs.aspx)
+ 
+ * [Live Demo - Client Templates](https://demos.telerik.com/aspnet-ajax/timeline/clienttemplates/defaultcs.aspx)
 
 
 

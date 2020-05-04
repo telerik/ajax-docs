@@ -216,5 +216,11 @@ End Class
 	
 ````
 
+# See Also
+
+ * [Live Demo - Programmatic Binding](https://demos.telerik.com/aspnet-ajax/timeline/programmaticbinding/defaultcs.aspx)
+ 
+ 
+
 
 
