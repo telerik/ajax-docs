@@ -10,9 +10,103 @@ position: 0
 
 # Grid Overview
 
-Telerik **RadGrid** is designed to eliminate the typical trade off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+This article provides a quick introduction so you can get your AJAX data grid up and running in a few seconds. You can find 
+how to enable key features like paging, sorting, filtering, editing, grouping, exporting and accessibility support, as well as how to bind data.
+
+Telerik **RadGrid** is designed to eliminate the typical trade-off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+
+To test it by your own and see its benefits in practice you can start a free trial using the button below
+
+<div class="justify-content-center text-center try-button">
+    <a class="button" href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax" target="_blank">Start a free trial</a>
+</div>
+
+<style>
+.try-button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.try-button .button {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #378306;
+    border-radius: 2px;
+    transition: color .2s ease,background-color .2s ease;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    line-height: 1.5em;
+    height: auto;
+}
+
+.try-button .button:hover {
+    color: #ffffff;
+    background-color: #47a336;
+}
+</style>
+
+
+>caption To create a basic `RadGrid`:
+
+1. ensure you have a script manager on the page (use \<asp:ScriptManager> tag to declare one)
+1. use the \<telerik:RadGrid> tag to declare the grid and to set its global properties
+1. use its `DataSource` (or `DataSourceID`) property to reference the variable (or the DataSource component) that will hold your collection of data, see [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})
+1. use the \<telerik:MasterTableView> to declare your main table and set its properties
+1. use the appropriate grid column tags to declare columns depending on the data type of their content. Set the `DataField` property to point at the name of the model field, see [Column Types]({%slug grid/columns/column-types%}) 
+
+>caption Get started with the grid declaration and enabling some of its features
+
+````ASPX
+<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" AllowSorting="true" AllowFilteringByColumn="true" OnNeedDataSource="RadGrid1_NeedDataSource">
+    <MasterTableView AutoGenerateColumns="False" DataKeyNames="ID">
+        <Columns>
+            <telerik:GridBoundColumn DataField="ID" DataType="System.Int32" HeaderText="OrderID" ReadOnly="True" UniqueName="ID">
+            </telerik:GridBoundColumn>
+            <telerik:GridBoundColumn DataField="Name" FilterControlAltText="Filter Name column" SortExpression="Name" HeaderText="Employee Name" UniqueName="Name">
+            </telerik:GridBoundColumn>
+            <telerik:GridBoundColumn DataField="Team" FilterControlAltText="Filter Team column" SortExpression="Team" HeaderText="Team" UniqueName="Team">
+            </telerik:GridBoundColumn>
+            <telerik:GridDateTimeColumn DataField="HireDate" DataType="System.DateTime" FilterControlAltText="Filter HireDate column" SortExpression="HireDate" HeaderText="Hire Date" UniqueName="HireDate">
+            </telerik:GridDateTimeColumn>
+        </Columns>
+    </MasterTableView>
+</telerik:RadGrid>
+````
+
+>caption Provide the RadGrid with a data collection in the code-behind
+
+````C#
+protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+{
+    (sender as RadGrid).DataSource = MyData; 
+}
+
+public IEnumerable<SampleData> MyData = Enumerable.Range(1, 30).Select(x => new SampleData
+{
+    Id = x,
+    Name = "Name " + x,
+    Team = "Team " + x % 5,
+    HireDate = DateTime.Now.AddDays(-x*3).Date
+});
+
+public class SampleData
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Team { get; set; }
+    public DateTime HireDate { get; set; }
+}
+````
+
+The result from the code snippet above
+![Basic RadGrid Example](images/grid-overview-basic-create.png)
+
+
 
 Check out the most commonly used key features below, or head directly to the [Getting Started]({%slug grid/getting-started%}) section.
+
 
 ### Basic Grid
 
@@ -24,10 +118,12 @@ Check out the most commonly used key features below, or head directly to the [Ge
 
 ![](images/grid-overview-advanced.png)
 
-This configuration includes the following functionalities:
+List of key functionalites you can find below:
 
+- [Paging]({%slug grid/functionality/paging/overview%})
 - [Filtering]({%slug grid/functionality/filtering/overview%})
 - [Grouping]({%slug grid/functionality/grouping/overview%})
+- [Data Binding]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})
 - [Hierarchy]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%})
 - [CommandItem]({%slug grid/data-editing/commanditem/overview%})
 - [Export To Excel]({%slug grid/functionality/exporting/export-formats/xlsx-and-docx-export%})
@@ -35,6 +131,9 @@ This configuration includes the following functionalities:
 - [Export To PDF]({%slug grid/functionality/exporting/export-formats/pdf-export%})
 - [Export To DOC]({%slug grid/functionality/exporting/export-formats/xlsx-and-docx-export%})
 - [Print]({%slug grid/functionality/printing/printing%})
+- [Accessibility Compliance]({%slug grid/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
+
+
 
 
 ### Colorful Grid with built-in Skins
@@ -43,6 +142,11 @@ See [Skins]({%slug grid/appearance-and-styling/skins%}) documentation.
 
 ![](images/grid-overview-skins.gif)
 
+### Paging
+
+See [Paging]({%slug grid/functionality/paging/overview%}) documentation.
+
+![](images/grid-overview-paging.png)
 
 ### Filtering
 
