@@ -18,7 +18,7 @@ position: 0
 
 * [ASP 2.0 DataSource types]({%slug timeline/data-binding/server-side/binding-to-asp-datasource-components%})
 
-* [OData]({%slug timeline/data-binding/server-side/binding-to-odata%})
+* [EntityDataSource]({%slug timeline/data-binding/server-side/binding-to-entitydatasource%})
 
 >note Data sources can support both hierarchical and non-hierarchical structures. **RadTimeline**, however, only works with a flat structure - items cannot contain children.
 >
