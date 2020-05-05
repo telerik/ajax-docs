@@ -12,9 +12,9 @@ position: 1
 
 **RadTimeline** can be bound to a **web service** through its inner `WebServiceSettings` tag or through a [RadClientDataSource]({%slug clientdatasource/overview%}). Since the control is a wrapper over the Kendo UI for jQuery widget, it always operates on the client and binds to data with JavaScript.
 
-There are three ways to bind to data on the client:
-	- [WebServiceSettings](#webservicesettings)
-	- [RadClientDataSource](#radclientdatasource)
+There are two ways to bind to data on the client:
+ * [WebServiceSettings](#webservicesettings)
+ * [RadClientDataSource](#radclientdatasource)
 	
 >note The event items bound to **RadTimeline** via client datasource are shown in descending order by default. If you need to change the order of the bound event items (sorting the dates chonologically), you can call the `ClientDataSource` / `WebServiceClientDataSource` sort() method.
 
