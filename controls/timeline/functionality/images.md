@@ -14,7 +14,7 @@ position: 2
 
 Its `Src` property of the `TimeLineItemImage` object will be set to the value of the src field of the image literal if RadTimeline is bound.
 
->caution To show more than one image, customize the [template]({%slug timeline/functionality/client-side-templates%}) of the RadTimeline.
+>caution To show more than one image, customize the [template](https://docs.telerik.com/devtools/aspnet-ajax/controls/timeline/functionality/client-side-templates) of the RadTimeline.
 
 The following example demonstrates how to configure RadTimeline declaratively, having different images insisde each `TimeLineItem`.
 
