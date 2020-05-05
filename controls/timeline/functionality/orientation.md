@@ -19,7 +19,7 @@ position: 1
 
 By default, **RadTimeline** is vertically oriented with its events arranged on one side of the axis, having all events expanded.
 
-You can have the events rendered alternatingly on both sides of the axis by setting its `AlternatingMode` proeprty to `true`. If you enable the `CollapsibleEvents`, all events will start out collapsed. The user can then expand a particular event by clicking on it, to see more than its title and subtitle.
+You can have the events rendered alternatingly on both sides of the axis by setting its `AlternatingMode` property to `true`. If you enable the `CollapsibleEvents`, all events will start out collapsed. The user can then expand a particular event by clicking on it, to see more than its title and subtitle.
 
 >caption Figure 1: RadTimeline with Vertical orientation
 
