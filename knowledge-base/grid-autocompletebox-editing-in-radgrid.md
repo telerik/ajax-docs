@@ -34,7 +34,7 @@ Assuming there is a field in the DataSource that will hold values separated by t
 For GridAutoCompleteColumn all you need is few properties to be set:
 
 - **DataField** points to the field on Grid's data source
-- **DataTextField** and DataValueField points to the fields on  the data source specified by the DataSourceID
+- **DataTextField** and **DataValueField** points to the fields on  the data source specified by the *DataSourceID*
 
 ````XML
 <telerik:GridAutoCompleteColumn HeaderText="AutoComplete with GridAutoCompleteColumn" 
