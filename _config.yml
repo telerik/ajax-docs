@@ -406,6 +406,9 @@ navigation:
     "controls/textbox":
         title: "Textbox"
         position: 1
+    "controls/timeline":
+        title: "Timeline"
+        position: 1
     "controls/tilelist":
         title: "TileList"
         position: 1
@@ -1572,6 +1575,9 @@ navigation:
     "*tilelist/data-binding":
         title: "Data Binding"
         position: 4
+    "*timeline/data-binding":
+        title: "Data Binding"
+        position: 3
     "*timepicker/templates":
         title: "Templates"
         position: 8
@@ -1964,6 +1970,7 @@ intro_columns:
       "SearchBox": "searchbox/overview"
       "SiteMap": "sitemap/overview"
       "Tab Strip": "tabstrip/overview"
+      "Timeline": "timeline/overview"
       "ToggleButton": "togglebutton/overview"
       "ToolBar": "toolbar/overview"
       "TreeView": "treeview/overview"
