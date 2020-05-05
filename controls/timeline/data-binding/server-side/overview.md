@@ -49,7 +49,7 @@ The following properties and methods are used when binding RadTimeline to a data
 
 * **DataBind** method - must be called after the aforementioned properties are set, when binding at runtime. This method is mandatory for binding at runtime.
 
->note If you need to map additional fields from the Data Source to properties of RadTimeline item, the **ItemDataBound** event should be used. See [Binding To ASP DataSource Components]({%slug timeline/data-binding/server-side/binding-to-asp-datasource-components%}), for an example.
+>note If you need to map additional fields from the Data Source to properties of RadTimeline item, the **ItemDataBound** event should be used. See [Binding To ASP DataSource Components](https://docs.telerik.com/devtools/aspnet-ajax/controls/timeline/data-binding/server-side/binding-to-asp-datasource-components), for an example.
 >
 
 
