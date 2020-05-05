@@ -87,7 +87,6 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 <script>
     function OnExpand(sender, args) {
         var item = args.get_dataItem();
-        debugger;
         if (item.attributes && item.attributes.CustomProp && item.attributes.CustomProp == "expandable") {
             console.log("You have expanded " + item.title + "with description: " + item.description);
         }
