@@ -292,3 +292,5 @@ As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with ba
  * [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%})
  
  * [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%})
+ 
+ * [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax)
