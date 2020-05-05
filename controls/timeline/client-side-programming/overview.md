@@ -39,9 +39,9 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **collapse** |object|Collapses an event in vertical mode. See the underlying [collapse](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/collapse) method for more details on its behavior.|
+| **collapse** |object|none|Collapses an event in vertical mode. See the underlying [collapse](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/collapse) method for more details on its behavior.|
 | **dispose** |none|none|Disposes the Timeline client-side object (calls its underlying Kendo widget's [destroy](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/destroy) method). Once you call it, you will not be able to use the widget or control.|
-| **expand** |object|Expands an event in vertical mode. See the underlying [expand](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/expand) method for more details on its behavior.|
+| **expand** |object|none|Expands an event in vertical mode. See the underlying [expand](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/expand) method for more details on its behavior.|
 | **get_kendoWidget** |none|object|Returns a reference to the underlying Kendo Timeline widget.|
 | **get_orientation** |none|Number|Returns the orienation of the timeline axis. The possible return values are *0 = Vertical* and *1 = Horizontal*|
 | **next** |none|none|Switches to the next portion of events with animation in horizontal mode.|
