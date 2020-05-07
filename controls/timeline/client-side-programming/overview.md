@@ -40,14 +40,17 @@ In addition to using the Kendo method directly, you can also use their wrappers 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **collapse** |object|none|Collapses an event in vertical mode. See the underlying [collapse](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/collapse) method for more details on its behavior.|
-| **dispose** |none|none|Disposes the Timeline client-side object (calls its underlying Kendo widget's [destroy](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/destroy) method). Once you call it, you will not be able to use the widget or control.|
 | **expand** |object|none|Expands an event in vertical mode. See the underlying [expand](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/expand) method for more details on its behavior.|
+| **dispose** |none|none|Disposes the Timeline client-side object (calls its underlying Kendo widget's [destroy](https://docs.telerik.com/kendo-ui/api/javascript/ui/timeline/methods/destroy) method). Once you call it, you will not be able to use the widget or control.|
+| **get_clientDataSource** |none|RadClientDataSource|Returns a reference to the underlying RadClientDataSource control.|
 | **get_kendoWidget** |none|object|Returns a reference to the underlying Kendo Timeline widget.|
+| **get_items** |none|jQuery collection|Returns a jQuery collection of the DOM elements of the visible Timeline events.|
+| **get_dataItems** |none|collection|Returns a collection of the data items available in the underlying data source.|
 | **get_orientation** |none|Number|Returns the orienation of the timeline axis. The possible return values are *0 = Vertical* and *1 = Horizontal*|
 | **next** |none|none|Switches to the next portion of events with animation in horizontal mode.|
 | **open** |object|none|Opens event details in horizontal mode.|
 | **previous** |none|none|Switches to the previous portion of events with animation in horizontal mode.|
-| **rapaint** |none|none|Redraws the Timeline widget.|
+| **rеpaint** |none|none|Redraws the Timeline widget.|
 
 
 # See Also
