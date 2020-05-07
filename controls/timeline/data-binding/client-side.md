@@ -315,7 +315,7 @@ End Class
 
 ## RadClientDataSource
 
-The **RadClientDataSource** control allows you to connect to a web service and fetch data that you can bind to **RadTimeLine**. After configuring the client data source, you will need to set the corresponding data fields ( DataTitleField, DataSubtitleField, DataDateField, etc.) and the **ClientDataSourceID** property of the Timeline. All fields of the bound data can be also used in the `EventTemplate` of the control.
+The **RadClientDataSource** control allows you to connect to a web service and fetch data that you can bind to **RadTimeline**. After configuring the client data source, you will need to set the corresponding data fields ( DataTitleField, DataSubtitleField, DataDateField, etc.) and the **ClientDataSourceID** property of the Timeline. All fields of the bound data can be also used in the `EventTemplate` of the control.
 
 
 >caption Example 2: Binding to a RadClientDataSource

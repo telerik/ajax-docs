@@ -1578,6 +1578,9 @@ navigation:
     "*timeline/data-binding":
         title: "Data Binding"
         position: 3
+    "*timeline/data-binding/server-side":
+        title: "Server-side"
+        position: 2
     "*timepicker/templates":
         title: "Templates"
         position: 8

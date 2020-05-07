@@ -12,11 +12,11 @@ position: 2
 
 **RadTimeline** can render an `<img />` tag for the first item of its images collection in the data source.
 
-Its `Src` property of the `TimeLineItemImage` object will be set to the value of the src field of the image literal if RadTimeline is bound.
+Its `Src` property of the `TimelineItemImage` object will be set to the value of the src field of the image literal if RadTimeline is bound.
 
 >caution To show more than one image, customize the [template](https://docs.telerik.com/devtools/aspnet-ajax/controls/timeline/functionality/client-side-templates) of the RadTimeline.
 
-The following example demonstrates how to configure RadTimeline declaratively, having different images insisde each `TimeLineItem`.
+The following example demonstrates how to configure RadTimeline declaratively, having different images insisde each `TimelineItem`.
 
 >caption Figure 1: RadTimeline with an image inside the item
 ![timeline-image](../images/timeline-images.png)

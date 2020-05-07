@@ -14,7 +14,7 @@ position: 4
 
 **RadTimeline** supports binding to **EntityDataSource**. To bind to a DataSource component, all you need to do is set the **DataSourceID** property of RadTimeline to the ID of the DataSource component. You should also set the **DataTextField** and **DataValueField** properties of RadTimeline to map the **Date**, **Title**, **Subtitle**, **Description**, **Actions** and **Images** values of the items to the respective columns / fields from the data source.
 
-You will also need to setup the build-in `RadClientDataSource` instance of the TimeLine, configuring a `Schema` matching the passed data structure.
+You will also need to setup the build-in `RadClientDataSource` instance of the Timeline, configuring a `Schema` matching the passed data structure.
 
 ````ASP.NET
         <telerik:RadTimeline runat="server" ID="TimelineOrders"

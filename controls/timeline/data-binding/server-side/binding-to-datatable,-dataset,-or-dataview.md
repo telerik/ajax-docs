@@ -23,7 +23,7 @@ OnItemDataBound="RadTimeline1_ItemDataBound"></telerik:RadTimeline>
 
 In the **Page_Load** event handler, you can create and fill the DataTable object, then bind it to the RadTimeline. The `DataBind()` method should be called after setting the `DataSource` property.  
 
-The binding of the `Actions` fields in the sample below is done in the TimeLine's OnItemDataBound event handler, which allows you to ajust the `Actions` related data further.
+The binding of the `Actions` fields in the sample below is done in the Timeline's OnItemDataBound event handler, which allows you to ajust the `Actions` related data further.
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
