@@ -99,6 +99,25 @@ public class SampleData
     public DateTime HireDate { get; set; }
 }
 ````
+````VB
+Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
+    TryCast(sender, RadGrid).DataSource = MyData
+End Sub
+
+Public MyData As IEnumerable(Of SampleData) = Enumerable.Range(1, 30).[Select](Function(x) New SampleData With {
+    .Id = x,
+    .Name = "Name " & x,
+    .Team = "Team " & x Mod 5,
+    .HireDate = DateTime.Now.AddDays(-x * 3).Date
+})
+
+Public Class SampleData
+    Public Property Id As Integer
+    Public Property Name As String
+    Public Property Team As String
+    Public Property HireDate As DateTime
+End Class
+````
 
 The result from the code snippet above
 ![Basic RadGrid Example](images/grid-overview-basic-create.png)
