@@ -83,26 +83,37 @@ There are two ways to resolve this:
 	**web.config**
 
 		<configuration>
-		...
-		<location path="Telerik.Web.UI.WebResource.axd">
-		   <system.web>
-		     <authorization>
-		       <allow users="*"/>
-		     </authorization>
-		   </system.web>
-		 </location>
-		<location path="Telerik.Web.UI.DialogHandler.aspx">
-		   <system.web>
-		     <authorization>
-		       <allow users="*"/>
-		     </authorization>
-		   </system.web>
-		 </location>
-		...
-		</configuration> 
-
-
-
+		  ...
+		  <location path="Telerik.Web.UI.WebResource.axd">
+		    <system.web>
+		      <authorization>
+			<allow users="*"/>
+		      </authorization>
+		    </system.web>
+		  </location>
+		  <location path="Telerik.Web.UI.DialogHandler.aspx">
+		    <system.web>
+		      <authorization>
+			<allow users="*"/>
+		      </authorization>
+		    </system.web>
+		  </location>
+		  <location path="ScriptResource.axd">
+		    <system.web>
+		      <authorization>
+			<allow users="*"/>
+		      </authorization>
+		    </system.web>
+		  </location>
+		  <location path="WebResource.axd">
+		    <system.web>
+		      <authorization>
+			<allow users="*"/>
+		      </authorization>
+		    </system.web>
+		  </location>
+		  ...
+		</configuration>
 
 
 ### Dealing with the 404 Error Code (the Requested URL was Not Found)
