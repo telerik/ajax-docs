@@ -119,6 +119,7 @@ intro_columns:
       "SearchBox": "searchbox/overview"
       "SiteMap": "sitemap/overview"
       "Tab Strip": "tabstrip/overview"
+      "Timeline": "timeline/overview"
       "ToggleButton": "togglebutton/overview"
       "ToolBar": "toolbar/overview"
       "TreeView": "treeview/overview"
