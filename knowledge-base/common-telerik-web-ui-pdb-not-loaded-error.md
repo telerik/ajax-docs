@@ -1,6 +1,6 @@
 ---
-title: Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio
-description: Check out this article to see how to fix the following VS errors: No Symbols Loaded, Telerik.Web.Ui.pdb not loaded and Object reference not set to an instance of an object
+title: Telerik Web Ui pdb not loaded error when debugging in Visual Studio
+description: Check out this article to see how to fix the following VS errors No Symbols Loaded, Telerik Web Ui pdb not loaded and Object reference not set to an instance of an object
 type: troubleshooting
 page_title: Telerik.Web.Ui.pdb not loaded error | Telerik UI for ASP.NET AJAX
 slug: common-telerik-web-ui-pdb-not-loaded-error
