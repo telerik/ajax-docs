@@ -3,6 +3,7 @@ title: Expand/Collapse
 page_title: Expand/Collapse | RadOrgChart for ASP.NET AJAX Documentation
 description: Expand/Collapse
 slug: orgchart/functionality/expand-collapse
+previous_url: orgchart/functionality/collapse
 tags: expand/collapse
 published: True
 position: 6
@@ -22,11 +23,11 @@ To further customize the functionality of the RadOrgChart control there are also
 
 * **CollapseAllNodes()**– collapse all nodes in the RadOrgChart
 
-* **CollapseNodes()** - collapse nodes in the RadOrgChart by criteria (lambda)
+* **CollapseNodes()** - collapse nodes in the RadOrgChart by criteria ([lambda](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)), e.g. `RadOrgChart1.CollapseNodes(node => node.Level == 1);`
 
 * **ExpandAllNodes()** – expand all nodes in the RadOrgChart
 
-* **ExpandNodes()** - expand nodes in the RadOrgChart by criteria (lambda)
+* **ExpandNodes()** - expand nodes in the RadOrgChart by criteria ([lambda](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)), e.g. `RadOrgChart1.ExpandNodes(node => node.Level == 1);`
 
 Here is an example how to enable the Expand/Collapse functionality from the markup.
 
