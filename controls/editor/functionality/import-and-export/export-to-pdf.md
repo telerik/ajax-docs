@@ -365,6 +365,7 @@ Although we are striving to constantly improve our products, there are some limi
 * Exporting full HTML page (currently, only the content inside the body tag can be exported).;
 * Nested tables;
 * CSS selectors (Inline Styles only)
+* Form elements like input, button and textarea
 * Background color set through inline elements (SPAN, FONT, etc) is not supported. The PDF library could export background color for block elements such as: 
 
 ````HTML
