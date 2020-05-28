@@ -75,7 +75,7 @@ position: 0
 |MediaManager|Contains the configuration of the MediaManager dialog.|
 |Modules|Gets the list of modules that should be made included in RadEditor.|
 |NamingContainer|(Inherited from System.Web.UI.Control )|
-|NewLineBr|Gets or sets the value indicating whether the RadEditor will insert a new line or a paragraph when the [Enter] key is pressed.|
+|NewLineMode|Gets or sets the value indicating whether the RadEditor will insert a new line or a paragraph when the [Enter] key is pressed.|
 |OnClientCommandExecuted|Gets or sets a value indicating the client-side event handler that is called after an editor command was executed.|
 |OnClientCommandExecuting|Gets or sets a value indicating the client-side event handler that is called before an editor command starts executing.|
 |OnClientInit|Gets or sets a value indicating the client-side event handler that is called when editor starts to load on the client.|
