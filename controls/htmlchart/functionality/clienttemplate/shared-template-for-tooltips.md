@@ -22,7 +22,7 @@ You can hover over a single series item and display a common tooltip with inform
 
 * **category** - The category name (`#= category #`) The string delimited inside `#=.....#` is the expression to be evaluated. The tooltips are HTML, so HTML can be used outside of the expression tags.
 
->note You can use number formats inside **SharedTemplates** . You can find more information in [this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
+>note You can use number formats inside **SharedTemplates** . You can find more information in [this Formatting Numbers](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/appearance-and-styling/format-numbers) article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
 
 ## Example of Using SharedTemplates for ToolTips
 
