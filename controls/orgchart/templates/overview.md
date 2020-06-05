@@ -29,68 +29,72 @@ Here is an example that demonstrates how the above mentioned templates can be ap
 ````ASPNET
 			
 <telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" Skin="Default" GroupColumnCount="1">
-	<ItemTemplate>
-		<div style="background-color: Yellow; height: 80px; width: 180px;">
-			Template A</div>
-	</ItemTemplate>
-	<Nodes>
-		<telerik:OrgChartNode>
-			<GroupItems>
-				<telerik:OrgChartGroupItem Text="CEO">
-				</telerik:OrgChartGroupItem>
-			</GroupItems>
-			<Nodes>
-				<telerik:OrgChartNode>
-					<GroupItems>
-						<telerik:OrgChartGroupItem Text="UnitManager" />
-					</GroupItems>
-					<Nodes>
-						<telerik:OrgChartNode>
-							<GroupItems>
-								<telerik:OrgChartGroupItem Text="TeamLeader1" />
-							</GroupItems>
-							<Nodes>
-								<telerik:OrgChartNode>
-									<ItemTemplate>
-										<div style="background-color: Red; height: 80px; width: 180px;">
-											Template B</div>
-									</ItemTemplate>
-									<GroupItems>
-										<telerik:OrgChartGroupItem Text="Member1" />
-										<telerik:OrgChartGroupItem Text="Member2" />
-										<telerik:OrgChartGroupItem Text="TechnicalLeader">
-											<Template>
-												<div style="background-color: Green; height: 80px; width: 180px;">
-													Template D</div>
-											</Template>
-										</telerik:OrgChartGroupItem>
-									</GroupItems>
-								</telerik:OrgChartNode>
-							</Nodes>
-						</telerik:OrgChartNode>
-						<telerik:OrgChartNode>
-							<GroupItems>
-								<telerik:OrgChartGroupItem Text="TeamLeader2" />
-							</GroupItems>
-							<Nodes>
-								<telerik:OrgChartNode>
-									<ItemTemplate>
-										<div style="background-color: Blue; height: 80px; width: 180px;">
-											Template C</div>
-									</ItemTemplate>
-									<GroupItems>
-										<telerik:OrgChartGroupItem Text="Member1" />
-										<telerik:OrgChartGroupItem Text="Member2" />
-										<telerik:OrgChartGroupItem Text="Member3" />
-									</GroupItems>
-								</telerik:OrgChartNode>
-							</Nodes>
-						</telerik:OrgChartNode>
-					</Nodes>
-				</telerik:OrgChartNode>
-			</Nodes>
-		</telerik:OrgChartNode>
-	</Nodes>
+    <ItemTemplate>
+        <div style="background-color: palegoldenrod; height: 100%; width: 100%;">
+            Template A
+        </div>
+    </ItemTemplate>
+    <Nodes>
+        <telerik:OrgChartNode>
+            <GroupItems>
+                <telerik:OrgChartGroupItem Text="CEO">
+                </telerik:OrgChartGroupItem>
+            </GroupItems>
+            <Nodes>
+                <telerik:OrgChartNode>
+                    <GroupItems>
+                        <telerik:OrgChartGroupItem Text="UnitManager" />
+                    </GroupItems>
+                    <Nodes>
+                        <telerik:OrgChartNode>
+                            <GroupItems>
+                                <telerik:OrgChartGroupItem Text="TeamLeader1" />
+                            </GroupItems>
+                            <Nodes>
+                                <telerik:OrgChartNode>
+                                    <ItemTemplate>
+                                        <div style="background-color: lightcoral; height: 100%; width: 100%;">
+                                            Template B
+                                        </div>
+                                    </ItemTemplate>
+                                    <GroupItems>
+                                        <telerik:OrgChartGroupItem Text="Member1" />
+                                        <telerik:OrgChartGroupItem Text="Member2" />
+                                        <telerik:OrgChartGroupItem Text="TechnicalLeader">
+                                            <Template>
+                                                <div style="background-color: lightgreen; height: 100%; width: 100%;">
+                                                    Template D
+                                                </div>
+                                            </Template>
+                                        </telerik:OrgChartGroupItem>
+                                    </GroupItems>
+                                </telerik:OrgChartNode>
+                            </Nodes>
+                        </telerik:OrgChartNode>
+                        <telerik:OrgChartNode>
+                            <GroupItems>
+                                <telerik:OrgChartGroupItem Text="TeamLeader2" />
+                            </GroupItems>
+                            <Nodes>
+                                <telerik:OrgChartNode>
+                                    <ItemTemplate>
+                                        <div style="background-color: lightblue; height: 100%; width: 100%;">
+                                            Template C
+                                        </div>
+                                    </ItemTemplate>
+                                    <GroupItems>
+                                        <telerik:OrgChartGroupItem Text="Member1" />
+                                        <telerik:OrgChartGroupItem Text="Member2" />
+                                        <telerik:OrgChartGroupItem Text="Member3" />
+                                    </GroupItems>
+                                </telerik:OrgChartNode>
+                            </Nodes>
+                        </telerik:OrgChartNode>
+                    </Nodes>
+                </telerik:OrgChartNode>
+            </Nodes>
+        </telerik:OrgChartNode>
+    </Nodes>
 </telerik:RadOrgChart>
 			
 ````
@@ -99,7 +103,7 @@ Here is an example that demonstrates how the above mentioned templates can be ap
 
 Here is how the above code will look like:
 
-![Templates](images/radorgchart-templates.png)
+![Templates](images/radorgchart-template-new.png)
 
 ## 
 
