@@ -150,8 +150,7 @@ Another approach is to apply inline styles in the markup declaration
 
 *Related resources*
 
-![RadMenu Overlaps RadWindow](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/troubleshooting/common-issues#radmenu-overlaps-radwindow)
-
-![Show RadWindow above RadMenu](https://www.telerik.com/support/kb/aspnet-ajax/details/show-radwindow-above-radmenu)
+- [RadMenu Overlaps RadWindow](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/troubleshooting/common-issues#radmenu-overlaps-radwindow)
+- [Show RadWindow above RadMenu](https://www.telerik.com/support/kb/aspnet-ajax/details/show-radwindow-above-radmenu)
 
 
