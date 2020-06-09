@@ -46,7 +46,7 @@ A number of Telerik controls render with absolute positioning and have their def
 
 * **RadListView dragged item** - 99999
 
-* **RadMenu** - 8000
+* **RadMenu** - 8000. Before expanding an item RadMenu has z-index 7000
 
 * **RadNotification** - 10000
 
@@ -74,8 +74,84 @@ A number of Telerik controls render with absolute positioning and have their def
 
 In different scenarios, you may need to change these values in order to ensure that one specific control will be shown above the other—for example **RadWindow** over **RadMenu**. To do this, you can simply set the value of the z-index property of every control by using the common style property, e.g.:
 
-````ASPNET
+````ASPX
 <telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Style="z-index: 12345">
 </telerik:RadWindowManager>
 ````
+
+## Sample scenarios when overriding z-index is necessary
+
+### RadMenu overlapping RadComboBox DropDown (Slide)
+
+**Default appearance**
+
+![Menu default z-index](images/combo_default.png)
+
+**Desired appearance**
+
+![ComboBox Slide overriden z-index](images/combo_overriden.png)
+
+To achieve the appearance above, apply the following CSS style to override the default z-index of the RadComboBox Slide
+
+````CSS
+.rcbSlide{
+    z-index:8010 !important;
+}
+````
+
+Another approach is to set the z-index inline in the RadComboBox declaration
+
+````ASPX
+<telerik:RadComboBox ID="RadComboBox1" runat="server" style="z-index:8010">
+````
+
+
+### RadMenu overlapping RadContextMenu
+
+**Default appearance**
+
+![ContextMenu default z-index](images/context_default.png)
+
+**Desired appearance**
+
+![ContextMenu overriden z-index](images/context_overriden.png)
+
+The applied CSS style to override the default z-index of the RadContextMenu:
+
+````CSS
+.RadMenu_Context{
+    z-index:8010 !important;
+}
+````
+
+### RadMenu overlapping modal RadWindow
+
+**Default appearance**
+
+![RadWindow default z-index](images/window_default.png)
+
+**Desired appearance**
+
+![RadWindow overriden z-index](images/window_overriden.png)
+
+Override the default z-index of the modal RadWindow with the following style:
+
+````CSS
+.RadWindow {
+    z-index: 8010 !important;
+}
+````
+
+Another approach is to apply inline styles in the markup declaration
+
+````ASPX
+<telerik:RadWindow ID="RadWindow1" runat="server" Modal="true" style="z-index:8010"></telerik:RadWindow>
+````
+
+*Related resources*
+
+![RadMenu Overlaps RadWindow](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/troubleshooting/common-issues#radmenu-overlaps-radwindow)
+
+![Show RadWindow above RadMenu](https://www.telerik.com/support/kb/aspnet-ajax/details/show-radwindow-above-radmenu)
+
 
