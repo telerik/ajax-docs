@@ -1813,6 +1813,7 @@ feedback_ab: true
 has_kb_portal: true
 edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
 product: "Telerik UI for ASP.NET AJAX"
+product_url: https://www.telerik.com/aspnet-ajax
 platform: aspnet-ajax
 download: https://www.telerik.com/products/aspnet-ajax/download.aspx 
 nav:
