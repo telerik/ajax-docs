@@ -29,7 +29,12 @@ Each of the localization strings can be modified at runtime using the **Localiza
                   HSVSliderDragText="<%$ Resources:RadColorPicker, HSVSliderDragText %>"
                   RGBSlidersDecreaseText="<%$ Resources:RadColorPicker, RGBSlidersDecreaseText %>"
                   RGBSlidersDragText="<%$ Resources:RadColorPicker, RGBSlidersDragText %>"
-                  RGBSlidersIncreaseText="<%$ Resources:RadColorPicker, RGBSlidersIncreaseText %>" />
+                  RGBSlidersIncreaseText="<%$ Resources:RadColorPicker, RGBSlidersIncreaseText %>" 
+                  OkButtonText="<%$ Resources:RadColorPicker, OkButtonText %>"
+                  RecentColors="<%$ Resources:RadColorPicker, RecentColors %>"
+                  CustomColor="<%$ Resources:RadColorPicker, CustomColor %>"
+                  CancelButtonText="<%$ Resources:RadColorPicker, CancelButtonText %>"
+                  HexInputTitle="<%$ Resources:RadColorPicker, HexInputTitle %>" />
 </telerik:RadColorPicker>
 ````
 
