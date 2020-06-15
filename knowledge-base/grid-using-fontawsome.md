@@ -73,6 +73,7 @@ And the result is:
 **Following the same approach you can change all desired font-icons with Font Awesome ones like Delete, Insert, Edit, Refresh, etc.**
 
 **Sample CSS**
+
 ````CSS
 .RadGrid .t-font-icon.rgIcon.rgAddIcon:before,
 .RadGrid .t-font-icon.rgIcon.rgRefreshIcon:before,
@@ -119,6 +120,7 @@ That way you can introduce the Font Awesome icons using predefined class names, 
 2. Follow the instructions for using FontAwesome with RadButton from the [Using Font Awesome Icons with RadButton](https://www.telerik.com/support/code-library/using-font-awesome-icons-with-radbutton) Code-library sample.
 
 **Sample declaration**
+
 ````ASPX
 <telerik:GridTemplateColumn>
     <ItemTemplate>
@@ -130,7 +132,8 @@ That way you can introduce the Font Awesome icons using predefined class names, 
     </ItemTemplate>
 </telerik:GridTemplateColumn>
 ````
+
 **Result**
 ![Font Awesome Delete Button in Template Column](images/fontawesome_resultTemplate.png)
 
-
+ 
