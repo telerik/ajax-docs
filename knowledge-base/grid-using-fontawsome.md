@@ -25,46 +25,46 @@ For the successful integration of the FontAwesome glyphs in RadGrid built-in but
 - Download and host Font Awesome locally - [Hosting Font Awesome Yourself](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 - Using a Content Delivery Network (CDN)
 
-For the implementation of samples in the article, a Kit code is placed in the \<head> tag.
+    For the implementation of samples in the article, a Kit code is placed in the \<head> tag.
 
-````ASPX
-<head runat="server">
-    <title></title>
-    <script type="text/javascript" src="https://kit.fontawesome.com/xxxxxxxxxx.js"></script>
-</head>
-````
+    ````ASPX
+    <head runat="server">
+        <title></title>
+        <script type="text/javascript" src="https://kit.fontawesome.com/xxxxxxxxxx.js"></script>
+    </head>
+    ````
 
 2. Define the button which appearance we will modify and the CSS selectors needed for overriding the default appearance. This can be achieved by inspecting the respective HTML element with its applied CSS styles.
 
-As a sample scenario lets change the icon of RadGrid Delete button.
+    As a sample scenario lets change the icon of RadGrid Delete button.
 
-Appearance by default (Skin="Default") 
+    Appearance by default (Skin="Default") 
 
-![Inspect HTML and CSS of rendered delete button](images/fontawesome_default.png)
+    ![Inspect HTML and CSS of rendered delete button](images/fontawesome_default.png)
 
-The Browser's DevTools helps us to find out that icon used by default is a font-icon included as content in pseudo *:before* element of a \<span>
+    The Browser's DevTools helps us to find out that icon used by default is a font-icon included as content in pseudo *:before* element of a \<span>
 
-To be able to replace it with a Font Awesome you need to introduce the new font-icon using the [CSS Pseudo-elements](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements).
+    To be able to replace it with a Font Awesome you need to introduce the new font-icon using the [CSS Pseudo-elements](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements).
 
 3. The next step is to get the font-family, font-weight, and the code of the desired font-icon.
 - Copy the font-family and font-weight according to the used Font Awesome plan
 
-![Font Awesome plans](images/fontawesome_fontFamilies.png)
+    ![Font Awesome plans](images/fontawesome_fontFamilies.png)
 
 - Copy the code of the desired icon
 
-![Icon code](images/fontawesome_iconCode.png)
+    ![Icon code](images/fontawesome_iconCode.png)
 
 4. Finally, apply CSS to override the built-in icon:
 
-````CSS
-.RadGrid .t-font-icon.rgIcon.rgDelIcon:before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f146";
-    color: red;
-}
-````
+    ````CSS
+    .RadGrid .t-font-icon.rgIcon.rgDelIcon:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f146";
+        color: red;
+    }
+    ````
 
 And the result is:
 
