@@ -23,13 +23,13 @@ The subject of the current article is how to remove the new "Focus Ring" (Black 
 
 The "Focus Ring" is represented by an outline style applied by the browser. To modify it you can apply CSS rules and override the styles set by the browsers.
 
->caption 1. Inspect HTML element to define a CSS selector which to be used for applying the new style. 
+>caption 1) Inspect HTML element to define a CSS selector which to be used for applying the new style. 
 
 *Find how to inspect HTML elements and with their styles applied, and some more useful tips in the [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools) blog post.*
 
 ![Inspect HTML element](images/outline_grid_inspect.png)
 
->caption 2. Apply CSS to override the appearance:
+>caption 2) Apply CSS to override the appearance:
 
 ````CSS
 .RadGrid:focus{
