@@ -12,7 +12,10 @@ position: 2
 
 
 
-This article covers the export feature of hierarchical **RadGrid** for the different export types. It is important to note that not all format support exporting hierarchical structures. All but the CSV and the Excel BIFF formats support hierarchy.
+This article covers the export feature of hierarchical **RadGrid** for the different export types. Not all formats support exporting hierarchical structures but there are possible workarounds:
+* [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word](https://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx) 
+* [Biff: Export Grouped Data](https://github.com/telerik/aspnet-sdk/tree/master/Grid/GridExportGroupedData) 
+
 
 By default when you set IgnorePaging to true and then export a parent table in hierarchical grid, the expanded items will collapse.
 
