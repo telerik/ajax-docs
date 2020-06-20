@@ -116,6 +116,9 @@ The visual designer of **RadAjaxManager** , accessible in Visual Studio, lets yo
 
 4. Call the **RadAjaxManager** API from a control on the page and update control(s) on the page. – Using the **RadAjaxManager** API, **2** is made to update **1** and **4** .
 
+## Parent-Child Control Configuration
+
+It is not possible to have child elements to be the AjaxSetting initiator and update their parent container element. If you add a container or parent control to be updated, it is mandatory to also add it itself or some external control to be the initiator. You can imagine it like placing a telerik:RadAjaxPanel or asp:UpdatePanel on the page - it will affect only things inside this panel. RadAjaxManager is similar, but just achieves this behind the curtains.
 
 
 ## See Also
