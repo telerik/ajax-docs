@@ -128,7 +128,7 @@ Failure to deserialize a custom metadata type will also throw a `CryptographicEx
 
 ### DisableAsyncUploadHandler
 
-You can disable file uploads through RadAsyncUpload's built-in configuration altogether. This feature is available as of **R2 2017 SP2**.
+You can disable file uploads through RadAsyncUpload's built-in configuration altogether. This feature is available as of **R2 2017 SP2 (2017.2.711)**.
 
 Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder. 
 
