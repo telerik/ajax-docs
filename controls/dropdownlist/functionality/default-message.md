@@ -26,7 +26,7 @@ position: 1
 
 
 
-## Setting the Default Messagee server-side
+## Setting the Default Message server-side
 
 
 
