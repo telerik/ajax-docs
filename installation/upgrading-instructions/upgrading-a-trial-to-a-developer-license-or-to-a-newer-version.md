@@ -243,6 +243,10 @@ The **HRESULT: 0x80131515** error usually means that the file was downloaded fro
 
 ![unblock-file-for-HRESULT-0x80131515](images/unblock-file.png)
 
+#### Errors caused by the Licenses.licx file
+
+Another reason for the Operation is not supported HRESULT: 0x80131515 and Exception from HRESULT: 0x80004003 (E_POINTER))' errors may be the licenses.licx file. You can delete its content, save and rebuild the app to fix the error as suggest on: [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors).
+
 ## See Also
 
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
@@ -252,3 +256,6 @@ The **HRESULT: 0x80131515** error usually means that the file was downloaded fro
  * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
  * [DLL Hell Strikes Again Blog Post by Damien White](http://blogs.visoftinc.com/2014/08/10/dll-hell-strikes-again/)
+ 
+ * [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors)
+ 
