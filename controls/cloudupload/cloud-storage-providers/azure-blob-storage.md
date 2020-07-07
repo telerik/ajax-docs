@@ -52,13 +52,16 @@ If you use newer versions of the `WindowsAzure.Storage` package, there is a risk
 
 	**XML**
 	
-		<telerik.web.ui>
-			<radCloudUpload>
-				<storageProviders>
-					<add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
-				</storageProviders>
-			</radCloudUpload>
-		</telerik.web.ui>
+		<configuration>
+			...
+			<telerik.web.ui>
+				<radCloudUpload>
+					<storageProviders>
+						<add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
+					</storageProviders>
+				</radCloudUpload>
+			</telerik.web.ui>
+		</configuration>
 
 
 >note Uploading in Azure is done on chunks. Every chunk has size of 2MB. These chunks that were cancelled during the uploading are removed automatically by Azure. When older browsers are used (IE9 or below), files are uploaded at once, because chunking is not supported. In order to upload files larger than 4MB, it is needed to increase the maximum allowed file size. For more details please refer to this [article]({%slug cloudupload/how-to/uploading-large-files%}).
