@@ -16,7 +16,7 @@ Using the server-side API, you can programmatically add, remove, disable, or sel
 
 ## Adding items
 
-Use the **Add** method of the **RadComboBoxItemCollection** object to add items programmatically:
+Use the **Add** method of the **RadComboBoxItemCollection** object to add items programmatically at Page_Load, Button_Click or another server event handler:
 
 
 
@@ -185,7 +185,8 @@ namespace RadWindow
 			RadComboBox1.Items.Add(new RadComboBoxItem("Three", "3"));        
 		}
 		protected void Button1_Click(object sender, EventArgs e)        
-		{            RadComboBoxItem item = null;            
+		{            
+			RadComboBoxItem item = null;            
 			int index = -1;
 			//Get a reference to a RadComboBoxItem with Text property = "Two".            
 			item = RadComboBox1.FindItemByText("Two");
