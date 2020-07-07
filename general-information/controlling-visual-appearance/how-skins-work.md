@@ -82,7 +82,7 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
 
 
->note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014**. You can find more information on the matter in [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014**. You can find more information on the matter in [this blog post](https://www.telerik.com/blogs/6-telerik-asp.net-ajax-skins-going-obsolete).
 
 ## Custom Skins
 
@@ -149,7 +149,7 @@ The Render Mode-specific folders have the following structure: **[Skin Name][Ren
 
 ![](images/base-stylesheet-location.png)
 
->note If you set `RenderMode` to Auto, you will need to devise an approach that will detect the requesting browser (e.g., by using the [RadDeviceDetectionFramework]({%slug controls/raddevicedetectionframework%})) and [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) the appropriate customized stylesheets.
+>note If you set `RenderMode` to Auto, you will need to devise an approach that will detect the requesting browser (e.g., by using the [RadDeviceDetectionFramework](https://docs.telerik.com/devtools/aspnet-ajax/controls/raddevicedetectionframework) and [register](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) the appropriate customized stylesheets.
 
 
 
@@ -160,7 +160,7 @@ The Render Mode-specific folders have the following structure: **[Skin Name][Ren
 
 * [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})
 
-* [Fonts]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%})
+* [Fonts](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/fonts)
 
 * [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%})
 
