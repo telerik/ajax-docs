@@ -61,5 +61,5 @@ and in the web.config file register the handlers as follows with axd for the dia
 </telerik:RadEditor>
 ````
 
-For more information and solutions check out this [popular blog post](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/error-web-config-registration-missing!-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file-).
+For more information and solutions check out this [popular blog post](https://www.telerik.com/support/kb/aspnet-ajax/editor/details/error-web-config-registration-missing!-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file-) and [this forum](https://www.telerik.com/forums/the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file).
 
