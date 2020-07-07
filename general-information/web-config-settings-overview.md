@@ -35,7 +35,9 @@ There are several ways to add the HTTP handlers:
 
 >important For security purposes, you **must** also add the `<appSettings>` keys listed in **Example 1**, with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png). You can even [Encrypt the appSettings section](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
 >
->As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys. 
+>As of R2 2017 SP1, standard .NET methods are used for encryption. Nevertheless, you should still set your own custom keys.
+>
+>As of R1 2020, the [Telerik.Upload.AllowedCustomMetaDataTypes](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes) feature is enabled by default to improve the application security.
 
 >caption **Example 1**: The mandatory web.config additions needed by the Telerik® UI for ASP.NET AJAX suite.
 
