@@ -17,6 +17,14 @@ All events follow the MS AJAX client events convention and receive two arguments
 1. `sender` - the [RadSpreadsheet]({%slug spreadsheet/client-side-programming/objects/radspreadsheet%}) instance that raised the event
 1. `event arguments` - event-specific data provided to the developer
 
+All the exposed events are wrappers over the Kendo UI events but are corresponding to the above convention. For instance, all *Cancellable* events can be canceled as shown below:
+
+````JS
+function ClientInsertSheet(sender, args) {
+    args.set_cancel(true);
+}
+````
+ 
 **RadSpreadsheet** is a wrapper over the Kendo UI Spreadsheet widget and so it exposes the [client events](https://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet#events) and data it does. You can find a list below.
 
 * [OnClientInsertSheet](https://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet/events/insertsheet) — Triggered when a sheet is inserted. Cancellable.
