@@ -22,9 +22,9 @@ There are a few simple requirements that allow file uploads (including [chunk fi
 
 >tip Depending on your host, you may find useful the built-in support RadCloudUpload offers for:
 >
-> * [Amazon S3 Buckets]({%slug cloudupload/cloud-storage-providers/amazon-s3%})
-> * [Azure Blob Storage]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})
-> * [Telerik Backend Services]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})
+> * [Amazon S3 Buckets](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/cloud-storage-providers/amazon-s3)
+> * [Azure Blob Storage](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/cloud-storage-providers/azure-blob-storage)
+> * [Telerik Backend Services](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/telerik-backend-services)
 
 ## Troubleshooting
 
