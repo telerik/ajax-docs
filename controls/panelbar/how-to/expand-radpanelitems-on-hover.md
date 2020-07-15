@@ -24,7 +24,7 @@ The following sample code shows how RadPanelItems can be expanded/collapsed when
        </asp:ScriptManager>
        <script type="text/javascript">
            function ExpandItem(panelbar, args) {
-               if (args.get_item().get_items.Count != 0 && args.get_item().get_expanded() == false) {
+               if (args.get_item().get_items().get_count() != 0 && args.get_item().get_expanded() == false) {
                    args.get_item().set_expanded(true);
                }
                else {
