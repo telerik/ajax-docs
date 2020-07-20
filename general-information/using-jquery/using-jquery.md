@@ -273,7 +273,7 @@ The jQuery library introduces a breaking change in version 3.0 and uses `strict 
 
 * [WTF! MicrosoftAjax.js vs ‘use strict’ vs Firefox vs IE](https://mnaoumov.wordpress.com/2016/02/12/wtf-microsoftajax-js-vs-use-strict-vs-firefox-vs-ie/) blog post  
 
-This incompatibility does not allow the Telerik UI for ASP.NET AJAX controls to use jQuery 3.x as an embedded version. You can load the latest jQuery on the page and use it for custom logic. Both version can be loaded simultaneously on the page as explained in [Including external jQuery](#including-external-jquery). You sould not disable the embedded jQuery and replace it with a 3.x version either, because this will break the MS AJAX framework.
+This incompatibility does not allow the Telerik UI for ASP.NET AJAX controls to use jQuery 3.x as an embedded version. You can load the latest jQuery on the page and use it for custom logic. Both versions can be loaded simultaneously on the page as explained in [Including external jQuery](#including-external-jquery). You should not disable the embedded jQuery and replace it with a 3.x version either, because this will break the MS AJAX framework.
 
 As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate known vulnerability issues for 1.12.4 version. Here is a list of security fixes introduced to the custom jQuery script embedded in the Telerik.Web.UI assembly.
 
