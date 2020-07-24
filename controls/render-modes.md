@@ -48,7 +48,27 @@ This article contains the following sections:
 
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
 
->note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages and user controls. The "mixed render modes" loads styles for both two render modes and that leads to appearance issues. To check and avoid that, review the [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-determine-mixed-render-mode) KB article.
+## RenderMode Conflict ("mixed render modes")
+
+>note Only one type of render mode is supported per page for each control type. Otherwise, there will be a RenderMode Conflict leading to distorted appearance of the controls.
+
+Render Modes are applied by sets of styles. Therefore, if multiple instances of the same control are set to use different RenderMode on the same page that will result in styling conflict. The multiple RenderModes will try to apply different styles to the same element and this will lead to appearance issues.
+
+The direct violation of this rule can be easily determined and avoided: For example, all RadButton controls on the page must have the same value set to the RenderMode property. This includes instances from master pages, content pages, and user controls. 
+
+In case there is a RadButton in Lightweight render mode on the master page and a RadButton in Classic render mode in the content page, both of RadButton controls will load the styles for its render mode and that is how you get the mixed render mode issue.
+
+Indirect RenderMode Conflict:
+
+Some of the Telerik Controls are complex components consisting of multiple embedded child Controls. This could be a reason for having mixed render even when on the surface of it, there is just one instance of certain control.
+
+Let's clarify that with a sample:
+
+If you have a RadButton in Lightweight and a RadMenu in Classic render mode, there will be no conflicting controls, hence no issue.
+
+If you have a RadGrid in Lightweight and a RadMenu in Classic render mode, then there will be an issue. Why? Because the RadGrid is a complex control and has a RadMenu as a child control. That means you would have a RadGrid and a RadMenu(grid's child) in Lightweight render mode and the standalone RadMenu in Classic render mode. Each of the RadMenu's will load the styles for its render mode and that is how you get the mixed render mode issue.
+
+To determine mixed render mode issue on a page and to avoid it, review the [Determine the render mode of all Telerik controls and catch mixed render mode issues](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-determine-mixed-render-mode) KB article.
 
 
 ## RenderMode Fallback Order
