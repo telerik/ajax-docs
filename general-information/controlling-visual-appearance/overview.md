@@ -28,7 +28,7 @@ To use a skin you just need to set the **Skin** property of the control to the d
 @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
 
 
->important If you are using a custom skin, you need to set the **EnableEmbeddedSkins** property to **false** .	If you don't do that, the control will try to register an embedded skin with the specified name and will fail with an exception. For more information you can check the [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) and [Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topics.
+>important If you are using a custom skin, you need to set the **EnableEmbeddedSkins** property to **false** .	If you don't do that, the control will try to register an embedded skin with the specified name and will fail with an exception. For more information you can check the [How skins work](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) and [Skin registration](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) topics.
 
 ## Setting the skin from design time
 
@@ -79,6 +79,6 @@ To set the skin from code-behind you need to set the Skin property of the contro
 
 Review the bottom section of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) for more details.
 
-For more information about controls skinning, we recommend watching the following video:
+<!-- For more information about controls skinning, we recommend watching the following video:
 
-[Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](https://www.telerik.com/videos)
+[Skinning - Deep Dive for the Telerik® UI for ASP.NET AJAX](https://www.telerik.com/videos) -->

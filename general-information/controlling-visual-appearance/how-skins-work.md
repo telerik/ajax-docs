@@ -76,7 +76,7 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 1. **Windows7**
 
 
->tip Some skins have a predefined font, others inherit the font of the page. You can read more in the [Fonts]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) article.
+>tip Some skins have a predefined font, others inherit the font of the page. You can read more in the [Fonts](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/fonts) article.
 
 
 @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)

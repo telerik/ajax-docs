@@ -16,7 +16,7 @@ In some scenarios you may want to use a built-in (embedded) skin, but make some 
 
 In order to override a style from a built-in skin, you will have to find out the CSS rule, which must be overridden, and then construct a new CSS rule with a higher specificity. To accomplish this, it will be useful to have a general idea about the control's HTML output and CSS classes. Basic CSS knowledge is required as well.
 
->tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
+>tip After you create the custom skin you will need to [register](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) it on the page where it will be used.
 
 ## Getting Familiar with Telerik controls' CSS classes and styles
 
@@ -56,7 +56,7 @@ Articles about CSS specificity:
 
 Here is a blog post, which extends the information above with an example about overriding a RadGrid skin.
 
-[How To Override Styles in a Telerik® UI for ASP.NET AJAX' Embedded Skin](https://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx)
+[How To Override Styles in a Telerik® UI for ASP.NET AJAX' Embedded Skin](https://www.telerik.com/blogs/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin)
 
 Also you can refer the PSD files for the obsolete controls' skins and some specific custom skins using the portal below:
 

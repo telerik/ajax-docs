@@ -23,7 +23,7 @@ Developers who want to create a custom skin for one or more Telerik control, hav
 
 In most cases the last option is an unnecessary overhead, unless you need to create a skin, which is totally unique in terms of look and feel, and dimensions. In order to create a custom skin from scratch, you need a better understanding for the control's HTML output and CSS classes.
 
->tip After you create the custom skin you will need to [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) it on the page where it will be used.
+>tip After you create the custom skin you will need to [register](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) it on the page where it will be used.
 
 
 ## Telerik ThemeBuilder application
@@ -68,7 +68,7 @@ Here is a list of the required steps to perform:
 
 1. Set the **Skin** property of your RadColorPicker to "**MySkin**". Then set the **EnableEmbeddedSkins** property to **false**.
 
-	>important If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) and [Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topics.
+	>important If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the [How skins work]({https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) and [Skin registration](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) topics.
 
 1. Modify CSS rules to match your visual requirements. Save the CSS file.
 

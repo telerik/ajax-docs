@@ -12,9 +12,9 @@ position: 2
 
 Up to **Q2 2011 SP1** the built-in skins were located in the Telerik.Web.UI.dll assembly.
 
-Since **Q3 2011** the [Built-in skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) are located in the **Telerik.Web.UI.Skins.dll assembly**. The only exception is the **Default** skin which is still in the Telerik.Web.UI.dll assembly.
+Since **Q3 2011** the [Built-in skins](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work#built-in-skins) are located in the **Telerik.Web.UI.Skins.dll assembly**. The only exception is the **Default** skin which is still in the Telerik.Web.UI.dll assembly.
 
-The new assembly was introduced in Q2 2011 with four new skins being placed directly in it to show the path we are taking. More information on this is available in [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx) from the summer and in [this one from just after the Q3 release](https://blogs.telerik.com/aspnet-ajax/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)
+The new assembly was introduced in Q2 2011 with four new skins being placed directly in it to show the path we are taking. More information on this is available in [this blog post](https://www.telerik.com/blogs/new-telerik-ajax-skins-assembly) from the summer and in [this one from just after the Q3 release](https://www.telerik.com/blogs/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11)
 
 This is done so that the skin usage is more intuitive - it allows us to separate the control functionality and the visual appearance. Another advantage is that the main assembly size is reduced since it no longer contains images and stylesheets.
 
@@ -24,11 +24,11 @@ Additional assembly registrations are not needed for it to work, if the correct 
 
 This means that if you are using a skin different than the Default you need to include the Skins assembly in your project (either in the GAC, or in the Bin folder).
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** . You can find more information on the matter in [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** . You can find more information on the matter in [this blog post](https://www.telerik.com/blogs/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 ### See Also
 
- * [New Telerik AJAX Skins Assembly in Q2'11](https://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)
+ * [New Telerik AJAX Skins Assembly in Q2'11](https://www.telerik.com/blogs/new-telerik-ajax-skins-assembly)
 
- * [Separate Skin Assembly in Telerik® UI for ASP.NET AJAX with Q3'11](https://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)
+ * [Separate Skin Assembly in Telerik® UI for ASP.NET AJAX with Q3'11](https://www.telerik.com/blogs/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11)

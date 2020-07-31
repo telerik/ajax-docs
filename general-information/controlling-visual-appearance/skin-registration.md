@@ -2,7 +2,7 @@
 title: Skin Registration
 page_title: Skin Registration | UI for ASP.NET AJAX Documentation
 description: Skin Registration
-slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration
+д: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration
 tags: skin,registration
 published: True
 position: 3
@@ -29,7 +29,7 @@ If the user needs a custom or a modified skin, the CSS file should be registered
 * [declaratively](#declarative-registration)
 * or [from the code-behind](#programmatic-registration)
 
->tip You can also let [RadSkinManager register the custom skin for you]({%slug controls/radskinmanager%}#loading-skins-by-specifying-a-path).
+>tip You can also let [RadSkinManager register the custom skin for you](https://docs.telerik.com/devtools/aspnet-ajax/controls/radskinmanager#loading-skins-by-specifying-a-path).
 
 >note To use a custom skin, set the `EnableEmbeddedSkins` property of the corresponding control to `false` and its `Skin` property to the name of the custom skin. See the [Global skin settings for the entire website/application](#global-skin-settings-for-the-entire-websiteapplication) section for ways to do that globally.
 
@@ -168,4 +168,5 @@ There are several switches in the `appSettings` section of the `web.config` that
 			<add key="Telerik.Menu.EnableEmbeddedBaseStylesheet" value="false" />
 		</appSettings>
 
-* Alternatively, take advantage of the [ASP.NET 2.x Theme mechanism]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/using-skins-in-asp.net-themes%}) to specify global application style settings for Telerik controls.
+* Alternatively, take advantage of the [ASP.NET Theme mechanism]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/using-skins-in-asp.net-themes%}) to specify global application style settings for Telerik controls.
+
