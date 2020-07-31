@@ -64,6 +64,12 @@ The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the e
 </appSettings>
 ````
 
+## Prevent Cross-site Scripting (XSS)
+
+Please check out the dedicated [Prevent Cross-site Scripting (XSS)](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/managing-content/prevent-cross-site-scripting-(xss)) article to learn how to enable the anti-XSS mechanism of RadEditor.
+
 ## See Also
 
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
+
+* [Prevent Cross-site Scripting (XSS)](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/managing-content/prevent-cross-site-scripting-(xss))
