@@ -68,7 +68,7 @@ Here is a list of the required steps to perform:
 
 1. Set the **Skin** property of your RadColorPicker to "**MySkin**". Then set the **EnableEmbeddedSkins** property to **false**.
 
-	>important If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the [How skins work]({https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) and [Skin registration](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) topics.
+	>important If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the [How skins work](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work) and [Skin registration](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/skin-registration) topics.
 
 1. Modify CSS rules to match your visual requirements. Save the CSS file.
 

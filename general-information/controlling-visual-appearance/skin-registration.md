@@ -2,7 +2,7 @@
 title: Skin Registration
 page_title: Skin Registration | UI for ASP.NET AJAX Documentation
 description: Skin Registration
-д: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration
+slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration
 tags: skin,registration
 published: True
 position: 3
