@@ -256,7 +256,7 @@ End Class
 
  * [Content Filters]({%slug editor/managing-content/content-filters%})
 
- * [Securing RadEditor Content and Preventing XSS Attacks](https://blogs.telerik.com/blogs/14-09-24/securing-radeditor-content-and-preventing-xss-attacks)
+ * [Securing RadEditor Content and Preventing XSS Attacks](https://www.telerik.com/blogs/securing-radeditor-content-and-preventing-xss-attacks)
 
  * [Demo: Built-in Content Filters](https://demos.telerik.com/aspnet-ajax/editor/examples/builtincontentfilters/defaultcs.aspx)
 
