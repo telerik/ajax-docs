@@ -24,6 +24,8 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
 
 * [Out-of-the-box XHTML-enabled output]({%slug editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance%})
 
+* [Anti XSS functionality](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/managing-content/prevent-cross-site-scripting-(xss))
+
 * Industry-best cross-browser support
 
 * [Single-file, drag-and-drop deployment]({%slug editor/getting-started/overview%}) (all editor resources, including the dialogs reside in the same DLL)
