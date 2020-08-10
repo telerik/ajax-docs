@@ -34,7 +34,7 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 
 3. Set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png). You can see the steps of how to generate the security keys in this [YouTube video](https://www.youtube.com/watch?v=J18zDKtiBFE). Do not forget to select the *HMACSHA256* validation method that is the recommended one to generate the keys.
 
 ````web.config
 <appSettings>
@@ -146,9 +146,18 @@ When you set this key to `true`, no files can be uploaded to the default handler
 
 >important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R3 2019 SP1**.
 
+## Frequently Asked Questions
+
+* Am I supposed to decrypt the RadAsyncUpload settings? - the decryption is performed built-in by the control and you are not supported to do anything more than setting the ConfigurationEncryptionKey and ConfigurationHashKey settings and their secure keys in the web.config. 
+* How to secure the uploaded files? - This could be achieved by implementing a [Custom RadAsyncUpload Handler](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler), which gives you the freedom to manipulate the uploaded files, e.g. for example to encrypt them and to decrypt or validate them just before saving them to the desidered upload destination.
+* How to generate the security keys - see the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
+* How large (in bits or bytes) these encryption keys must be - a very strong encryption mechanism is HMACSHA256 so we recommend it.
+
 
 ## See Also
 
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 * [Create a Custom Handler for RadAsyncUpload]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 * [The cryptographic operation has failed! error](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)
+* [Blue Mockingbird Vulnerability Picks up Steam—Telerik Guidance blog post](https://www.telerik.com/blogs/blue-mockingbird-vulnerability-telerik-guidance)
+* [Allows JavaScriptSerializer Deserialization knowledge base article](https://www.telerik.com/support/kb/aspnet-ajax/details/allows-javascriptserializer-deserialization)
