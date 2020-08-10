@@ -22,6 +22,7 @@ This article contains the following sections:
 	* [ConfigurationHashKey](#configurationhashkey)
 	* [AllowedCustomMetaDataTypes](#allowedcustommetadatatypes)
 	* [DisableAsyncUploadHandler](#disableasyncuploadhandler)
+* [FAQ](#frequently-asked-questions)
 
 
 ## Recommended Settings
@@ -148,10 +149,10 @@ When you set this key to `true`, no files can be uploaded to the default handler
 
 ## Frequently Asked Questions
 
-* Am I supposed to decrypt the RadAsyncUpload settings? - the decryption is performed built-in by the control and you are not supported to do anything more than setting the ConfigurationEncryptionKey and ConfigurationHashKey settings and their secure keys in the web.config. 
-* How to secure the uploaded files? - This could be achieved by implementing a [Custom RadAsyncUpload Handler](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler), which gives you the freedom to manipulate the uploaded files, e.g. for example to encrypt them and to decrypt or validate them just before saving them to the desidered upload destination.
-* How to generate the security keys - see the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
-* How large (in bits or bytes) these encryption keys must be - a very strong encryption mechanism is HMACSHA256 so we recommend it.
+* *Am I supposed to decrypt the RadAsyncUpload settings?* - The ecryption/decryption of the AsyncUpload settings is performed built-in by the control and you are not supposed to do anything more than setting the [ConfigurationEncryptionKey](#ConfigurationEncryptionKey) and [ConfigurationHashKey](#ConfigurationHashKey) settings and their secure keys in the web.config. 
+* *How to secure the uploaded files?* - The AsyncUpload does not manipulate the files itself. The files need to be secured manually either on a postback as explained in [How to manipulate the uploaded files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}) and/or by implementing a [Custom RadAsyncUpload Handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}). 
+* *How to generate the security keys?* - See the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
+* *How large (in bits or bytes) these encryption keys must be?* - We recommend a very strong encryption mechanism such as HMACSHA256.
 
 
 ## See Also
