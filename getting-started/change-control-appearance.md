@@ -45,4 +45,4 @@ Appearance
 * [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%})
 * [Creating a Custom Skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
 * [RadSkinManager]({%slug controls/radskinmanager%})
-* [Progress Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
+* [Progress Virtual Classroom](https://learn.telerik.com/)
