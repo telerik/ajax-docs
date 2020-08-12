@@ -57,4 +57,4 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 ## See Also
 
 * [First Steps]({%slug getting-started/first-steps%})
-* [Progress Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
+* [Progress Virtual Classroom](https://learn.telerik.com/)
