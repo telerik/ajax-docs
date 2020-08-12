@@ -273,7 +273,7 @@ Sharing quality feedback and ideas will not only benefit the community and impro
 
 ## Learning Resources
 
-* [Telerik Web UI for ASP.NET AJAX Classroom](https://progress.exceedlms.com/student/path/506628-telerik-ui-for-asp-net-ajax-updated-december-2019) - get quickly onboarded and successful with your Telerik UI for ASP.NET AJAX product with the Virtual Classroom free technical training, available to all active customers
+* [Telerik Web UI for ASP.NET AJAX Classroom](https://learn.telerik.com/) - get quickly onboarded and successful with your Telerik UI for ASP.NET AJAX product with the Virtual Classroom free technical training, available to all active customers
 
 * [Online Demos](https://demos.telerik.com/aspnet-ajax) - also available as a project you can inspect and run locally. You can find them in the `demos` folder of your [installation]({%slug installation/which-file-do-i-need-to-install%}).
 
