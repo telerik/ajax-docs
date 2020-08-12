@@ -25,7 +25,7 @@ If you are just getting started, you can find guidance in the following articles
 You don't need all of this immediately, but you can use this list as a starting point for future reference. 
 
 Video Tutorials
-* [Progress Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
+* [Progress Virtual Classroom](https://learn.telerik.com/)
 
 Installation
 * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
