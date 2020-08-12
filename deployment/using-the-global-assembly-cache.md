@@ -26,7 +26,7 @@ While this article can be used as a tutorial on working with the GAC and referen
 
 * [MSDN: How to Install an Assembly into the Global Assembly Cache](https://msdn.microsoft.com/en-us/library/dkkx7f79%28v=VS.100%29.aspx)
 
-* [MSDN: How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/en-us/library/aa559881.aspx)
+* [MSDN: How to Uninstall an Assembly from the GAC](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-remove-an-assembly-from-the-gac)
 
 The [Telerik® UI for ASP.NET AJAX assemblies]({%slug introduction/installation/included-assemblies%}) are standard .NET assemblies, so all generic rules apply to them as well.
 
@@ -138,7 +138,7 @@ Here is an example that removes the R3 2017 Telerik.Web.UI.dll assembly to the G
 
 `gacutil /u Telerik.Web.UI, Version=2017.3.913.45, Culture=neutral, PublicKeyToken=121fae165ba3d4`
 
-You can read more on the subject in the [How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/en-us/library/aa559881.aspx) MSDN article.
+You can read more on the subject in the [How to Uninstall an Assembly from the GAC](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-remove-an-assembly-from-the-gac) MSDN article.
 
 >tip If an assembly has been added to the GAC by an automated installer, to remove it from the GAC, you must first uninstall the program that added it. The Telerik® UI for ASP.NET AJAX installer adds the Telerik.Web.UI.Design.dll assembly to the GAC in versions prior to R1 2018.
 
