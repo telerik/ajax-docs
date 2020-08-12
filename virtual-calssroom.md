@@ -23,4 +23,4 @@ The benefits of the Virtual Classroom program are:
 
 To get started with the trainings, refer to:
 * [Telerik Web UI for ASP.NET AJAX Classroom](https://progress.exceedlms.com/student/path/506628-telerik-ui-for-asp-net-ajax-updated-december-2019)
-* [All-Progress Products Virtual Classroom](https://www.telerik.com/account/support/virtual-classroom)
+* [All-Progress Products Virtual Classroom](https://learn.telerik.com/)
