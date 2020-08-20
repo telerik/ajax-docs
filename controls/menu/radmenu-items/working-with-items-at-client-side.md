@@ -87,7 +87,7 @@ function EnableItem()
 ````
 
 
-For a live example of adding, removing, and disabling items in client-side code,see [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx).
+For more information about adding, removing, and disabling items in client-side code,see [Add/Remove/Disable Items](https://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx).
 
 # See Also
 
