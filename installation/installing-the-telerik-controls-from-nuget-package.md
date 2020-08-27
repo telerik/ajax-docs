@@ -83,6 +83,8 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 * Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
 
+* Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.nupkg - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll.
+
 * Telerik.Windows.Documents.Spreadsheet.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Spreadsheet.dll
 
 * Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
