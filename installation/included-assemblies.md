@@ -78,6 +78,8 @@ The Telerik document processing libraries are a set of assemblies that let you i
 
 * **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll**—allows exporting of spreadsheets (XLSX, CSV) to PDF.
 
+* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll**.nupkg—The package allows for working with `XLS` spreadsheet documents.
+
 You can find more information on working with the Telerik document processing libraries in the following articles:
 
 * Words (text) processing
@@ -95,6 +97,8 @@ You can find more information on working with the Telerik document processing li
 	* [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started)
 
 	* [XLSX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
+	
+	* [XLS format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xls/xlsformatprovider)
 
 	* [CSV format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
 
