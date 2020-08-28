@@ -17,7 +17,7 @@ The Telerik® UI for ASP.NET AJAX controls suite, also known as RadControls for 
 
 To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please visit the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
 
-<div class="justify-content-center text-center try-button">
+<div id="cta-placeholder" class="justify-content-center text-center try-button">
     <a class="button" href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax" target="_blank">Start a free trial</a>
 </div>
 
