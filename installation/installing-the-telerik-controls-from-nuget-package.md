@@ -93,6 +93,8 @@ Telerik provides a NuGet feed that you can use in Visual Studio by following the
 
 * Telerik.Windows.Documents.Fixed.xxxxx.x.xxx.nupkg - Telerik.Windows.Documents.Fixed.dll
 
+* Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg - Telerik.Windows.Documents.CMapUtils.dll
+
 * Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg - Telerik.Windows.Documents.Core.dll
 
 * Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg - Telerik.Documents.SpreadsheetStreaming.dll
