@@ -76,6 +76,8 @@ The Telerik document processing libraries are a set of assemblies that let you i
 
 * **Telerik.Windows.Documents.Fixed.dll**—this assembly is needed for processing PDF documents.
 
+* **Telerik.Windows.Documents.CMapUtils.dll**-provides a default implementation for getting the data of a predefined CMap table by a given name. The assembly is optional and you will need to include a reference to it only if you need to process documents with [CMap tables](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/concepts/cmaps).
+
 * **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll**—allows exporting of spreadsheets (XLSX, CSV) to PDF.
 
 * **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll**.nupkg—The package allows for working with `XLS` spreadsheet documents.
