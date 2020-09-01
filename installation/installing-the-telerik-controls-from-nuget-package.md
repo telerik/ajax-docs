@@ -145,9 +145,9 @@ Due to this update, you may get the error below when using Visual Studio 2012 th
 The setup can get stuck in a circular reference problem if you enter incorrect credentials the first time.
 In order to reset or edit the nuget feed credentials:
 1. Close Visual Studio
-2. Open Control Panel -> All Control Panel Items -> Credential Manager or simply press Win button and type Manage Windows Credentials and open the manager.
-3. Look for VSCredentials_nuget.telerik.com -> remove or edit the password.
-4. Open Visual Studio and try to access the nuget.telerik.com feed again.
+1. Open Control Panel -> All Control Panel Items -> Credential Manager or simply press Win button and type Manage Windows Credentials and open the manager.
+1. Look for VSCredentials_nuget.telerik.com -> remove or edit the password.
+1. Open Visual Studio and try to access the nuget.telerik.com feed again.
 
 ### Error Unable to load the service index for source https://nuget.telerik.com/nuget
 
