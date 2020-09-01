@@ -144,6 +144,7 @@ Due to this update, you may get the error below when using Visual Studio 2012 th
 
 The setup can get stuck in a circular reference problem if you enter incorrect credentials the first time.
 In order to reset or edit the nuget feed credentials:
+
 1. Close Visual Studio
 1. Open Control Panel -> All Control Panel Items -> Credential Manager or simply press Win button and type Manage Windows Credentials and open the manager.
 1. Look for VSCredentials_nuget.telerik.com -> remove or edit the password.
