@@ -50,7 +50,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **findFirstMatch** |string| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** contains the string passed as parameter.|
 | **clearItems** |none|none|Clears all items of **RadComboBox** .|
 | **clearSelection** |none|none|Clears the selection. See **Example 3**. |
-| **requestItems** |(string text, Boolean)|none|Initiates a [load-on-demand]({%slug combobox/load-on-demand/overview%})callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ). See **Example 4**. |
+| **requestItems** |(string text, Boolean)|none|Initiates a [load-on-demand]({%slug combobox/load-on-demand/overview%}) callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ). See **Example 4**. |
 | **get_id** |none|string|Gets the server-side ID of the **RadComboBox** instance.|
 | **get_dropDownElement** |none|DOM object|Gets a reference to the drop-down list.|
 | **get_inputDomElement** |none|DOM object|Gets a reference to the input area. See **Example 5**. |
@@ -62,6 +62,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **get_enabled** |none|Boolean| **True** if **RadComboBox** is enabled.|
 | **get_selectedItem** |none| **RadComboBoxItem** |Gets the currently selected item.|
 | **get_selectedIndex** |none|integer|Gets the index of the currently selected item.|
+| **set_selectedIndex** |none|integer|Sets the selected Index of the RadComboBox. The method does not actually select an Item.|
 | **get_items** |none| **RadComboBoxItemCollection** |Returns the items collection for **RadComboBox** .|
 | **get_enableItemCaching** |none|boolean| **True** if item caching is enabled (applicable in load-on-demand scenario).|
 | **set_enableItemCaching** |boolean|none|Enables/disables item caching (applicable in load-on-demand scenario).|
@@ -78,8 +79,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **get_highlightedItem** |none| **RadComboBoxItem** |Gets the currently highlighted item.|
 
 
-
-
+You can find a complete list of client-side methods for RadComboBox on [https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadComboBox](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadComboBox).
 
 >caption Example 1: Add a new item and persist it after a postback. 
 ````JavaScript
@@ -189,3 +189,5 @@ function ChangeEnabledState(shouldEnable) {
  * [RadComboBoxItemCollection Object]({%slug combobox/client-side-programming/objects/radcomboboxitemcollection-object%})
 
  * [RadComboBoxItem Object]({%slug combobox/client-side-programming/objects/radcomboboxitem-object%})
+
+ * [Client-side Binding with RadClientDataSource]({%slug combobox/data-binding/binding-to-radclientdatasource%})
