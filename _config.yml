@@ -175,6 +175,9 @@ navigation:
     "controls/captcha":
         title: "Captcha"
         position: 1
+    "controls/card":
+        title: "Card"
+        position: 1
     "controls/chart":
         title: "Chart (Obsolete)"
         position: 1
@@ -1911,6 +1914,7 @@ intro_columns:
   -
     title: "Layout"
     items:
+      "Card": "card/overview"
       "Dock": "dock/overview"
       "Notification": "notification/overview"
       "Page Layout": "pagelayout/overview"
