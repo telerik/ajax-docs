@@ -127,7 +127,7 @@ To create a placeholder for icons/images, add a **CardMediaComponent** inside th
 
 To create separators, add **CardSeparatorComponent** inside the RadCard tag between other components or any other element you would like to separate. This renders an hr element.
 
-[`TagKey="hr"`](#tagkey)]
+[`TagKey="hr"`](#tagkey)
 
 ````ASP.NET
 <telerik:RadCard ID="RadCard1" runat="server">
