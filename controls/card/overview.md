@@ -21,6 +21,7 @@ A Card can consist of a single container or it could be a container with header,
 - [Layout](#layout)
 - [Orientation](#orientation)
 - [Styles](#styles)
+- [Skins](#skins)
 
 
 ## Getting Started
