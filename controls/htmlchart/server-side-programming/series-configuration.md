@@ -199,6 +199,7 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | ------ | ------ |
 | **Width** |The width of the line for the series. Takes the width in pixels.|
 | **LineStyle** |A string property that takes the following values: **Normal**—data points from series will be connected with straight lines; **Smooth**—Data points from series will be connected with fitted curves; **Step**—Data points from series will be connected with lines that have right angle. _Note that the **Step** property is available only for **AreaSeries** and **LineSeries**._|
+| **DashType** |Sets the dash type of the line. An enumeration (Telerik.Web.UI.HtmlChart.Enums.DashType) with the following values: **Dash** , **DashDot** , **Dot** , **LongDash**, **LongDashDot**, **LongDashDotDot**, **Solid** .|
 
 ## Attribute Properties in [AreaSeries, LineSeries, ScatterSeries and ScatterLineSeries] > MarkersAppearance
 
