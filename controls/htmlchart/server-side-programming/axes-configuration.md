@@ -125,6 +125,7 @@ You can find samples implementing the below described properties in the followin
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **Color** |The color for the grid lines. It can take a common color name or a hex value (e.g., "red", "#ff0000") when set in the markup and a value of type **System.Drawing.Color** when set in the code behind.|
+| **DashType** |Sets the dash type of the grid lines. An enumeration (Telerik.Web.UI.HtmlChart.Enums.DashType) with the following values: **Dash** , **DashDot** , **Dot** , **LongDash**, **LongDashDot**, **LongDashDotDot**, **Solid** .|
 | **Visible** |Sets whether to render the grid lines. **True** or **False** |
 | **Width** |The width of the grid line in pixels.|
 
