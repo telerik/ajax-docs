@@ -114,6 +114,14 @@ More information on the series properties is available below.
 *  **RoundedBevel** - **Pie** and **donut** series specific.
 *  **SharpBevel** - **Pie** and **donut** series specific.
 
+## Attribute Properties in [SeriesType] > HighlightAppearance
+
+|  **Name**  |  **Description**  |
+| ------ | ------ |
+| **Toggle** |A function that can be used to handle toggling the points highlight. The available argument fields can be seen [here](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart/configuration/series.highlight#serieshighlighttogglehttps://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart/configuration/series.highlight#serieshighlighttoggle).|
+| **Visible** |If set to **true** the chart will highlight the series when the user hovers it with the mouse. By default chart series highlighting is enabled. .|
+| **Visual** |A function that can be used to set custom visual for the point highlight.|
+
 ## Attribute Properties in [SeriesType] > LabelsAppearance
 
 
@@ -191,6 +199,18 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 *  **CandlestickSeries** tooltips have a predefined pattern by design, they can be modified through **{0}** , **{1}** , **{2}** , **{3}** and **{4}** placeholders that denote accordingly the **Open** , **High** , **Low** , **Close** and the corresponding x-axis item's value.
 
 *  **BoxPlotSeries** tooltips have already predefined pattern by design, however, it can be modified through **{0}** , **{1}** , **{2}** , **{3}** , **{4}** , **{5}** and **{6}** placeholders that denote accordingly the **Lower** , **Q1** , **Median** , **Q3** , **Upper** , **Mean** and the corresponding x-axis item's value.|
+
+## Attribute Properties in [AreaSeries, LineSeries, PolarAreaSeries, PolarLineSeries, RadarAreaSeries, RadarLineSeries and ScatterLineSeries] > LineAppearance
+
+## Attribute Properties in [BubbleSeries, BarSeries, ColumnSeries, DonutSeries, PieSeries, CandlestickSeries, BoxPlotSeries, VerticalBoxPlotSeries, WaterfallSeries, HorizontalWaterfallSeries, RangeBarSeries, RangeColumnSeries and RadarColumnSeries] > BorderAppearance
+
+|  **Name**  |  **Description**  |
+| ------ | ------ |
+| **Color** |The color of the outliers' borders for the items from this series. Can take a common color name or a hex value. If this property is not set explicitly, the control will inherit the color of Series itself.|
+| **DashType** |Sets the dash type of the border. An enumeration (Telerik.Web.UI.HtmlChart.Enums.DashType) with the following values: **Dash** , **DashDot** , **Dot** , **LongDash**, **LongDashDot**, **LongDashDotDot**, **Solid** .|
+|**Opacity** |The opacity of the border. By default the border is opaque.|
+| **Width** |The width of the border for the series. Takes the width in pixels.|
+
 
 ## Attribute Properties in [AreaSeries, LineSeries, PolarAreaSeries, PolarLineSeries, RadarAreaSeries, RadarLineSeries and ScatterLineSeries] > LineAppearance
 
