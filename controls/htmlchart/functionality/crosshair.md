@@ -18,6 +18,8 @@ You can customize the look of the crosshair through the chosen axis `CrosshairAp
 
 >note The crosshair is displayed when the XAxis/YAxis `CrosshairAppearance.Visible` is set to true.
 
+>caution The crosshair functionality is not supported in **Donut**, **Pie**, **Funnel**, **Polar** and **Radar** **charts**.
+
 >caption Example 1: Shows the markup code used to create Figure 1, which demonstrates configured crosshairs in the chart.
 
 ![htmlchart-crosshairs](../images/htmlchart-chrosshairs.gif)
