@@ -145,7 +145,7 @@ When you set this key to `true`, no files can be uploaded to the default handler
 </appSettings>
 ````
 
->important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R3 2019 SP1**.
+>important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R3 2019 SP1**. The DisableAsyncUploadHandler behavior is improved in R3 2020 SP1 (2019.3.1023) and we recommend upgrading to 2019.3.1023 or a later release when using it. 
 
 ## Frequently Asked Questions
 
