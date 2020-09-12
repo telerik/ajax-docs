@@ -12,6 +12,8 @@ position: 0
 
 **RadHtmlChart** exposes several client-side events for handling different user interactions:
 
+* **OnKendoWidgetInitializing**—raised just before the Kendo Widget is initialized. Receives the chart and the chart widget's options as arguments.
+
 * **OnLoad**—raised when the control is initialized.
 
 * [OnDrag](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-drag)—raised as long as the user is dragging the chart using the mouse or swipe gestures.
@@ -40,6 +42,41 @@ position: 0
 
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the corresponding property in the **ClientEvents** RadHtmlChart subtag.
 
+>caption **Example 1:** Handle the client-side **OnKendoWidgetInitializing** event
+
+````ASP.NET
+<script type="text/javascript">
+	function OnKendoWidgetInitializing(chart, options) {
+		 options.title.text = "title text changed from init";
+	}
+</script>
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart3" Width="800px" Height="400px">
+	<ClientEvents OnKendoWidgetInitializing="OnKendoWidgetInitializing" />
+	<PlotArea>
+		<Series>
+			<telerik:ColumnSeries Name="In 2010">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="46.3" />
+					<telerik:CategorySeriesItem Y="46.5" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+		</Series>
+		<XAxis>
+			<Items>
+				<telerik:AxisItem LabelText="January" />
+				<telerik:AxisItem LabelText="Februrary" />
+			</Items>
+		</XAxis>
+		<YAxis>
+			<LabelsAppearance DataFormatString="{0}%" />
+		</YAxis>
+	</PlotArea>
+	<ChartTitle Text="Firefox market share">
+	</ChartTitle>
+</telerik:RadHtmlChart>
+````
+
+>caption **Example 2:** Handle the client-side **OnLoad** event
 ````ASP.NET
 <script type="text/javascript">
 	function OnLoad(chart) {
@@ -72,8 +109,10 @@ To use these events, simply write a JavaScript function that can be called when 
 </telerik:RadHtmlChart>
 ````
 
-All client-side events, except **OnLoad**, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the [Kendo UI HtmlChart API reference](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
 
+All client-side events, except **OnLoad** and **KendoWidgetInitializing**, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the [Kendo UI HtmlChart API reference](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
+
+>caption **Example 3:** Handle the client-side **OnSeriesClick** event
 ````ASP.NET
 <script type="text/javascript">
 	function OnSeriesClick(args) {
