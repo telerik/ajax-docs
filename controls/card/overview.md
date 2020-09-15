@@ -70,18 +70,25 @@ screenshot & URL
 
 ## Layout
 
-screenshot & URL
+- [Read more]({%slug card/layout %})
 
+![Card - Layout](layoutanimation.gif)
 
 ## Orientation
 
-screenshot & URL
+- [Read more]({%slug card/orientation %})
+
+![Card - Orientation](card-orientation.png)
 
 ## Styles
 
-screenshot & URL
+- [Read more]({%slug card/styles %})
+
+![Card Styles](card-styles.png)
 
 ## Skins
 
-screenshot & URL
- 
+- [Read more]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work %})
+
+ ![Card Skins](card-skins.gif)
+   
