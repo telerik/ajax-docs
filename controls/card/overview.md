@@ -58,14 +58,15 @@ To create a Card, add a RadCard tag on the page and fill it with content.
 ## Card Components
 
 - [Header]({%slug card/components%}#header)
-- [Title](#title)
-- [Body](#body)
-- [Footer](#footer)
-- [Actions](#actions)
-- [Media](#media)
-- [Separators](#separators)
+- [Title]({%slug card/components%}#title)
+- [Subtitle]({%slug card/components%}#subtitle)
+- [Body]({%slug card/components%}#body)
+- [Footer]({%slug card/components%}#footer)
+- [Actions]({%slug card/components%}#actions)
+- [Media]({%slug card/components%}#media)
+- [Separators]({%slug card/components%}#separators)
 
-screenshot & URL
+![Card - Components](card-components.png)
 
 
 ## Layout

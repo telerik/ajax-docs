@@ -50,6 +50,19 @@ To create a Title, add a **CardTitleComponent** inside the **RadCard** tag. This
 </telerik:RadCard>
 ````
 
+## Subtitle
+
+To create a Subtitle, add a **CardSubtitleComponent** inside the **RadCard** tag. This renders an h6 element.
+
+[`TagKey="h6"`](#tagkey)
+
+````ASP.NET
+<telerik:RadCard ID="RadCard1" runat="server">
+    <telerik:CardSubtitleComponent runat="server">
+        <%--Card Subtitle--%>
+    </telerik:CardSubtitleComponent>
+</telerik:RadCard>
+````
 
 ## Body
 
