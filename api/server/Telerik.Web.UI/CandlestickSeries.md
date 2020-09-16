@@ -25,6 +25,10 @@ Defines the appearance settings of the series
 
 Get/set the name of the axis, to which the values will be associated
 
+###  BorderAppearance `SeriesBorderAppearance`
+
+Specifies the border settings of the outliers.
+
 ###  ColorField `String`
 
 Specifies the color of the series when the chart is databound.
@@ -80,6 +84,10 @@ The field which is used for the open value when the series is data bound.
 ###  DownColor `Color`
 
 The field which sets the down color of the series items when the close value is lower than the open value.
+
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
 
 ###  Items `SeriesItemCollection`
 

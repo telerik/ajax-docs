@@ -26,6 +26,10 @@ Defines the appearance settings of the series
 
 Get/set the name of the axis, to which the values will be associated
 
+###  BorderAppearance `SeriesBorderAppearance`
+
+Specifies the border settings of the outliers.
+
 ###  ColorField `String`
 
 Specifies the color of the series when the chart is databound.
@@ -85,6 +89,10 @@ The field which specifies the upper value of the box plot item when the chart is
 ###  ExtremesAppearance `ExtremesAppearance`
 
 Defines the appearance settings of the extremes.
+
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
 
 ###  Items `SeriesItemCollection`
 

@@ -55,6 +55,10 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.

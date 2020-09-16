@@ -22,6 +22,10 @@ Defines the common visual appearance settings for the series' tooltips
 
 Specifies background color of the tooltips
 
+###  BorderAppearance `BorderAppearance`
+
+Specifies the border settings of the tooltip.
+
 ###  ClientTemplate `String`
 
 A way to define a client-side template for the labels appearance.

@@ -25,6 +25,10 @@ Defines the appearance settings of the series
 
 Get/set the name of the axis, to which the values will be associated
 
+###  BorderAppearance `SeriesBorderAppearance`
+
+Specifies the border settings of the outliers.
+
 ###  ColorField `String`
 
 Specifies the color of the series when the chart is databound.
@@ -61,6 +65,10 @@ The data field with the values of the SummaryType value.
 ###  Gap `Nullable`1`
 
 Gets or Sets the distance between the category clusters.
+
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
 
 ###  Items `SeriesItemCollection`
 

@@ -69,6 +69,10 @@ Get/Set the automatic change of segment's height according to the item's value
 
 Get/Set the slope of funnel's segments
 
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.

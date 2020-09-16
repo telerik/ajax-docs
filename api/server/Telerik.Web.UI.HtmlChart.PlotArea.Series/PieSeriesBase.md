@@ -25,6 +25,10 @@ Defines the appearance settings of the series
 
 Get/set the name of the axis, to which the values will be associated
 
+###  BorderAppearance `SeriesBorderAppearance`
+
+Specifies the border settings of the outliers.
+
 ###  ColorField `String`
 
 Specifies the color of the series when the chart is databound.
@@ -60,6 +64,10 @@ Specifies the visibility of the series items in the legend for a data-bound scen
 ###  ExplodeField `String`
 
 The data field holding bool value which determines whether the sector should be exploded
+
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
 
 ###  Items `SeriesItemCollection`
 

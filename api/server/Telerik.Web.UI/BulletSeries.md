@@ -61,6 +61,10 @@ The data field with the values of the series along the Y axis
 
 For a data-binding scenario define the field for the target value.
 
+###  HighlightAppearance `SeriesAppearance`
+
+Defines the highlight appearance settings of the series
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.
