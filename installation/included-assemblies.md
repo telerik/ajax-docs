@@ -18,7 +18,7 @@ The assemblies come sorted in several folders so that you can use the appropriat
 
 * If you target *.NET 3.5*, you must use the assemblies from the *Bin35* folder.
 * If you target *.NET 4.0*, you will need the assemblies from the *Bin40* folder.
-* If you target *.NET 4.5*, *.NET 4.6* or *.NET 4.7*, you should use the assemblies from the *Bin45* folder.
+* If you target *.NET 4.5*, *.NET 4.6*, *.NET 4.7* or *.NET 4.8*, you should use the assemblies from the *Bin45* folder.
 
 The binaries from the *Additional Assemblies* folder may have different versions than the main assemblies. You must use the assemblies from the same release as the main assemblies.
 
