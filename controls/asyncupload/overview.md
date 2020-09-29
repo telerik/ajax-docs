@@ -14,7 +14,10 @@ position: 0
 
 ## General Information
 
-**RadAsyncUpload** introduced in Q1 2010 (version 2010.1.309) offers *asynchronous upload* capability while maintaining the look of the regular **RadUpload** control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location *until a postback* occurs. The temporary location is cleaned-up automatically.
+**RadAsyncUpload** introduced in Q1 2010 (version 2010.1.309) offers *asynchronous upload* capability while maintaining the look of the regular **RadUpload** control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. 
+
+>note Files are stored in a temporary location *until a postback* occurs. Temporary files are also deleted after a set amount of time defined by the [TemporaryFileExpiration](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAsyncUpload#temporaryfileexpiration) property. (**Default value: 4 hours**)
+
 
 Internally, **RadAsyncUpload** can choose between four modules for uploading - File API, IFrame, Flash and Silverlight. The module with the highest priority is File API. If the browser does not support File API that module is automatically changed to Silverlight. If there is no Silverlight installed on the client machine, **RadAsyncUpload** will utilize the Flash module. If there is no Flash as well, **RadAsyncUpload** will use the IFrame module, which is supported out of the box on all browsers.
 
