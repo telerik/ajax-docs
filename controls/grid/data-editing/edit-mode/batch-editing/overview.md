@@ -32,7 +32,7 @@ The feature could be easily enabled by setting the **GridTableView.EditMode** pr
 
 If you want to implement your own CRUD operations instead of using declarative data sources, see the [Batch Editing Server-side API]({%slug grid/data-editing/edit-mode/batch-editing/server-side-api%}) article. It also shows how to access and modify the column editor properties on the server.
 
->note Once a postback to the server has been initiated, the user input cannot be restored in the browser. This can result in loss of data. To minimize this, use [client-side validation]({%slug grid/data-editing/edit-mode/batch-editing/validation%}) and cancel the [OnUserAction]({%slug grid/client-side-programming/events/onuseraction%}) or [OnCommand]({%slug grid/client-side-programming/events/oncommand%}) event in case [the batch editing manager `hasChanges()` on the client]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%}).
+>note Once a postback to the server has been initiated, the user input cannot be restored in the browser. This can result in loss of data. To minimize this, use [client-side validation](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/edit-mode/batch-editing/validation) and cancel the [OnUserAction](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/client-side-programming/events/onuseraction) or [OnCommand](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/client-side-programming/events/oncommand) event in case [the batch editing manager `hasChanges()` on the client](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/edit-mode/batch-editing/client-side-api).
 
 Custom logic with the batch edit mode is usually written in JavaScript, however, and to this end you can use:
 
