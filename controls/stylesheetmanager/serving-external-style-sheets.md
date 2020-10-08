@@ -36,6 +36,9 @@ Add the following `<appSetting/>` entry in your *web.config*:
 
 ### Usage
 
+>important External StyleSheet **File Names are case-sensitive** for security reasons.
+>
+
 Register the external style sheets in **RadStyleSheetManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
