@@ -64,5 +64,5 @@ If you want to override this setting on a subset of your pages you can set  the 
 </body>
 ````
 
->note The UI for ASP.NET AJAX controls depend on the [specific version of jQuery they are tested against]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery %}#jquery-version-history-in-telerik-ui-controls), so it is possible that using a significantly different version of jQuery will break the controls.
+>note The UI for ASP.NET AJAX controls depend on the [specific version of jQuery they are tested against](https://docs.telerik.com/devtools/aspnet-ajax/general-information/using-jquery/using-jquery#jquery-version-history-in-telerik-ui-controls), so it is possible that using a significantly different version of jQuery will break the controls.
 
