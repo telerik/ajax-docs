@@ -44,6 +44,8 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * exporting font icons 
 
+* The input element content is not exported. If you have asp:ImageButtons on the page, replace them with RadButton which is rendered as a span element.
+
 * exporting pseudo:elements borders (for example RadOrgChart connection lines) 
 
 * for versions prior to R3 2018, exporting RadHtmlChart controls with page breaks
