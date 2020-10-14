@@ -10,7 +10,17 @@ position: 8
 
 # OnClientSelectionChange
 
-The OnClientSelectionChange event signals that the selection within the editor content area has changed.
+The OnClientSelectionChange event signals that the selection within the editor content area has changed. 
+This event is one of the most widely and often fired internally events by the editor when:
+
+* focus the content area
+* clicking in the content area
+* selecting in the content area
+* typing
+* scrolling
+* a command is fired
+* pasting content
+* setting content
 
 |  **function OnClientSelectionChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
