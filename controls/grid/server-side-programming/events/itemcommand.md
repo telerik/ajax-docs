@@ -39,7 +39,7 @@ Fired when any button is clicked in the RadGrid control. All bubbled events from
 
         * `(GridItem)` **e.Item**
 
-            G Gets the Item that initiated the command. Can be any of the Grid items that Inherit the `GridItem` class (e.g. *GridDataItem*,  *GridCommandItem*, *GridHeaderItem*, *GridFilteringItem*, *GridEditFormItem*, etc...)
+            Gets the Item that initiated the command. Can be any of the Grid items that Inherit the `GridItem` class (e.g. *GridDataItem*,  *GridCommandItem*, *GridHeaderItem*, *GridFilteringItem*, *GridEditFormItem*, etc...)
 
 ## Attaching the event
 
