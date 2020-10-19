@@ -90,6 +90,8 @@ Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
+>note Once you have reference to a certain GridItem you can reach the data in its cells and get references to its embedded controls by following the instructions in the [Accessing Cells and Values]({%slug grid/accessing-values-and-controls/server-side/accessing-cells%}) and [Accessing Controls]({%slug grid/accessing-values-and-controls/server-side/accessing-controls%}) articles.
+
 ## Accessing items by Looping through the Items collection from a Button Click
 
 ````C#
@@ -368,6 +370,10 @@ End Sub
 
 ## Accessing the Edit Item when the Grid enters into Insert/Edit Mode
 
+The type of the editable item is can differ depending on the **EditMode** set to the **MasterTableView**.
+* In **WebForms** and **PopUp** edit mode, the insert item is **GridEditFormInsertItem** and edit item is **GridEditFormItem**.
+* When using **InPlace** edit mode, the insert item comes as **GridDataInsertItem** and the edit item as **GridDataItem**.
+
 ````C#
 private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
@@ -380,6 +386,20 @@ private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArg
         else
         {
             // edit item
+
+            if (e.Item is GridEditFormItem) //EditMode WebForms/PopUp
+            {
+                // edit item containig the controls for editing
+                GridEditFormItem editItem = (e.Item as GridEditFormItem);
+
+                // respective data item containing the cells with populated text
+                GridDataItem dataItem = editItem.ParentItem as GridDataItem;
+            }
+            else if (e.Item is GridDataItem) //EditMode InPlace
+            {
+                // edit item containing the controls for editing
+                GridDataItem editItem = (e.Item as GridDataItem);
+            }
         }
     }
 }
@@ -393,6 +413,20 @@ private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventA
     else
     {
         // edit item
+
+        if (e.Item is GridEditFormItem) //EditMode WebForms/PopUp
+        {
+            // edit item containig the controls for editing
+            GridEditFormItem editItem = (e.Item as GridEditFormItem);
+
+            // respective data item containing the cells with populated text
+            GridDataItem dataItem = editItem.ParentItem as GridDataItem;
+        }
+        else if (e.Item is GridDataItem) //EditMode InPlace
+        {
+            // edit item containing the controls for editing
+            GridDataItem editItem = (e.Item as GridDataItem);
+        }
     }
 }
 ````
@@ -404,6 +438,18 @@ Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.
             ' insert item
         Else
             ' edit item
+
+            If TypeOf e.Item is GridEditFormItem 'EditMode WebForms/PopUp
+                ' edit item containig the controls for editing
+                Dim edititem As GridEditFormItem = CType(e.Item, GridEditFormItem)
+
+                ' respective data item containing the cells with populated text
+                Dim dataItem As GridDataItem = CType(editItem.ParentItem, GridDataItem)
+
+            Elseif TypeOf e.Item Is GridDataItem Then 'EditMode WebForms/PopUp
+                ' edit item containing the controls for editing
+                Dim editItem As GridDataItem = CType(e.Item, GridDataItem))
+            End If
         End If
     End If
 End Sub 'RadGrid1_ItemCreated
@@ -415,9 +461,64 @@ Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.We
             ' insert item
         Else
             ' edit item
+
+            If TypeOf e.Item is GridEditFormItem 'EditMode WebForms/PopUp
+                ' edit item containig the controls for editing
+                Dim edititem As GridEditFormItem = CType(e.Item, GridEditFormItem)
+
+                ' respective data item containing the cells with populated text
+                Dim dataItem As GridDataItem = CType(editItem.ParentItem, GridDataItem)
+
+            Elseif TypeOf e.Item Is GridDataItem Then 'EditMode WebForms/PopUp
+                ' edit item containing the controls for editing
+                Dim editItem As GridDataItem = CType(e.Item, GridDataItem))
+            End If
         End If
     End If
 End Sub 'RadGrid1_ItemDataBound
+````
+
+## Accessing Selected items from a Button Click
+
+For convenient proccesing of selected items on the server-side, **RadGrid** exposes the **SelectedItems** collection. It contains the selected items in all nested tables inside the grid. To reach the selected items in a certain **GridTableView**(e.g. MasterTableView) use the **GetSelectedItems()** method. By using the **ChildSelectedItems** property you can get collection of the selected items in the GridTableView, including the selected ones from its embedded DetailTable(s) (if such exist).    
+
+````C#
+protected void RadButton1_Click(object sender, EventArgs e)
+{
+    //Get all selected items inside the RadGrid
+    foreach (GridDataItem selectedDataItem in RadGrid1.SelectedItems)
+    {
+        // do something
+    }
+
+    //Get the selected items in the MasterTableView
+    foreach (GridDataItem selectedDataItem in RadGrid1.MasterTableView.GetSelectedItems())
+    {
+        // do something
+    }
+
+    //Get the selected items in the MasterTableView including the selected items inside all nested tables
+    foreach (GridDataItem selectedDataItem in RadGrid1.MasterTableView.ChildSelectedItems)
+    {
+        // do something
+    }
+}
+````
+````VB
+Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+    'Get all selected items inside the RadGrid
+    For Each selectedDataItem As GridDataItem In RadGrid1.SelectedItems
+
+    Next
+    'Get the selected items in the MasterTableView
+    For Each selectedDataItem As GridDataItem In RadGrid1.MasterTableView.GetSelectedItems())
+
+    Next
+    'Get the selected items in the MasterTableView including the selected items inside all nested tables
+    For Each selectedDataItem As GridDataItem In RadGrid1.MasterTableView.ChildSelectedItems)
+
+    Next
+End Sub
 ````
 
 
