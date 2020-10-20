@@ -13,7 +13,7 @@ position: 2
 
 
 This article covers the export feature of hierarchical **RadGrid** for the different export types. Not all formats support exporting hierarchical structures but there are possible workarounds:
-* [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word](https://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx) 
+* [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word](https://www.telerik.com/support/code-library/grid-with-hierachy-and-grouping-export-to-excel) 
 * [Biff: Export Grouped Data](https://github.com/telerik/aspnet-sdk/tree/master/Grid/GridExportGroupedData) 
 
 
