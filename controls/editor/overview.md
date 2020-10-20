@@ -44,6 +44,57 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
 
 * Ability to have editors with different skins on the same page
 
+* [Mobile Support and UI]({%slug editor/mobile-support/overview%})
+
+
+## Get started with the RadEditor
+
+To test it by your own and see its benefits in practice you can start a free trial using the button below
+
+<div class="justify-content-center text-center try-button">
+    <a class="button" href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax" target="_blank">Start a free trial</a>
+</div>
+
+<style>
+.try-button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.try-button .button {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #378306;
+    border-radius: 2px;
+    transition: color .2s ease,background-color .2s ease;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    line-height: 1.5em;
+    height: auto;
+}
+
+.try-button .button:hover {
+    color: #ffffff;
+    background-color: #47a336;
+}
+</style>
+
+
+>caption To create a basic `RadEditor`:
+
+1. ensure you have a script manager on the page (use \<asp:ScriptManager> tag to declare one)
+1. use the \<telerik:RadEditor> tag to declare the editor and to set some of its properties
+
+>caption Get started with the editor declaration and enabling some of its features
+
+````ASP.NET
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" ContentAreaMode="div" Width="500" Height="500">
+   <Content>
+	 <b>Setting inline properties</b>
+   </Content>
+</telerik:RadEditor> 
+````
+
 ## See Also
 
  * [Overview]({%slug editor/getting-started/overview%})
@@ -55,3 +106,8 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug editor/accessibility-and-internationalization/standards-compliance/wcag-2.0-and-section-508-accessibility-compliance%})
 
  * [XHTML Compliance]({%slug editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance%})
+
+
+ 
+ 
+ 
