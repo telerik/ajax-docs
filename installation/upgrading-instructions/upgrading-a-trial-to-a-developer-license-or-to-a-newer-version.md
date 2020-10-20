@@ -62,7 +62,9 @@ You can utilize the AJAX VS Extensions wizards:
 
 ### Manual Upgrade
 
-You simply need to replace the assembly references with the new ones. Here is a list of steps that ensures a safe upgrade:
+The manual process gives you the freedom to control each step of the upgrade process. In short you just need to replace the assembly references with the new ones. 
+
+Here is a list of steps that ensures a safe upgrade:
 
 1. Backup your project (a simple copy to another folder is usually enough, and using a source control system makes this redundant).
 
@@ -243,9 +245,13 @@ The **HRESULT: 0x80131515** error usually means that the file was downloaded fro
 
 ![unblock-file-for-HRESULT-0x80131515](images/unblock-file.png)
 
+Note that the Unblock button is a Windows feauture and may not be avaailable. In this case check the information in the below point about the licenses.licx file.
+
 #### Errors caused by the Licenses.licx file
 
 Another reason for the Operation is not supported HRESULT: 0x80131515 and Exception from HRESULT: 0x80004003 (E_POINTER))' errors may be the licenses.licx file. You can delete its content, save and rebuild the app to fix the error as suggest on: [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors).
+
+If you see experience any troubles with the upgrade process, do not hesitate to ask for assistance in the Telerik Ticketing System or the [AJAX forums](https://www.telerik.com/forums/aspnet-ajax).
 
 ## See Also
 
