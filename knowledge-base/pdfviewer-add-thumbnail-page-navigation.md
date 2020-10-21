@@ -1,5 +1,5 @@
 ---
-title: Add Thumbnail page navigation
+title: Add Thumbnail page navigation with RadPdfViewer
 description: Implementation of thumbnail page navigation with PDF.js
 type: how-to
 page_title: Add Thumbnail page navigation - RadPdfNavigation | Telerik UI For ASP.NET AJAX
@@ -20,11 +20,11 @@ tags:
 
 ## Description
 
-Q: How to add Thumbnail page navigation navigation to the RadPdfViewer
+Q: How to add Thumbnail page navigation to the RadPdfViewer
 
 ## Solution
 
-**Prerequisits**
+**Prerequisites**
 
 - Register the Pdf.js library on the page:
 
@@ -39,7 +39,7 @@ Q: How to add Thumbnail page navigation navigation to the RadPdfViewer
 </head>
 ````
 
-- Declare an empty div that will serve as container for the Thumbnail navigation.
+- Declare an empty div that will serve as a container for the Thumbnail navigation.
 
 - Create the RadPdfViewer and set the PDF file that will be displayed
 
@@ -57,7 +57,7 @@ Q: How to add Thumbnail page navigation navigation to the RadPdfViewer
 
 - For each page generate a thumbnail as a canvas element wrapped in a separate div element
 
-- Wire the onclick event to each Thumbnail and append it in the predifined wrapper.
+- Wire the 'onclick' event to each Thumbnail and append it in the predefined wrapper.
 
 - In the Click event get a reference to the PdfViewer control object and activate the respective page in the PDF document using the Kendo widget.
 
@@ -121,4 +121,5 @@ div.thumbnail {
     }
 ````
 
-The approach above allows the users to scroll though the thumbnails of all pages in the navigation element and activate any desired page in the PdfViewer by clicking on the respective Thumbnail. Have in mind that scrolling in the PdfViewer is independent from scrolling in the thumbnail navigation and vice versa. 
+The approach above allows the users to scroll through the thumbnails of all pages in the navigation element and activate any desired page in the PdfViewer by clicking on the respective Thumbnail. Have in mind that scrolling in the PdfViewer is independent of scrolling in the thumbnail navigation and vice versa. 
+
