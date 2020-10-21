@@ -13,17 +13,17 @@ position: 0
 
 
 
-This help article defines the most used **RadAjaxControl** properties and show examples of using a few of them.
+This help article defines the most used **RadAjaxControl** properties and shows examples of using a few of them.
 
 ## 
 
-* **EnableAJAX** - When you set the **EnableAJAX** property to **true** (the default),all requests (controls either within the **RadAjaxPanel** Template or managed by the **RadAjaxManager**)are handled via AJAX. If this property is **false**, requests are handled in the legacy postback manner.
+* **EnableAJAX** - When you set the **EnableAJAX** property to **true** (the default), all requests (controls either within the **RadAjaxPanel** Template or managed by the **RadAjaxManager**)are handled via AJAX. If this property is **false**, requests are handled in the legacy postback manner.
 
 * **EnableHistory** - When you set the **EnableHistory** property to **true** (the default is **false**), browser history is enabled, even when using AJAX. The forward and back buttons of the browser work as expected (IE browser only). For more information, see this article:	[Back and Forward Browser Buttons]({%slug ajaxpanel/troubleshooting/back-and-forward-browser-buttons%})
 
-* **EnablePageHeadUpdate** - When you set the **EnablePageHeadUpdate** property to**true** (the default), the Page <Head> element can be modified during AJAX updates. You'll find this functionality especially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
+* **EnablePageHeadUpdate** - When you set the **EnablePageHeadUpdate** property to **true** (the default), the Page <Head> element can be modified during AJAX updates. You'll find this functionality especially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
 
-* **IsAjaxRequest** - Set this property **true** when the current request is through AJAX and **false** when the request is a standard postback. In **Example 1** , "Button1" has been configured to be AJAX-enabled and the alert will display **true**. Clicking "Button2" will display **false**.
+* **IsAjaxRequest** - Set this property **true** when the current request is through AJAX and **false** when the request is a standard postback. In **Example 1**, "Button1" has been configured to be AJAX-enabled and the alert will display **true**. Clicking "Button2" will display **false**.
 
 
 
@@ -66,13 +66,13 @@ End Sub
 ````
 
 
-* **DefaultLoadingPanelID** - This property allows you to specify a default **LoadingPanel** that will be shown when updating an AJAX enabled controls.
+* **DefaultLoadingPanelID** - This property allows you to specify a default **LoadingPanel** that will be shown when updating an AJAX-enabled controls.
 
-* **UpdatePanelsRenderMode** - This property determines the way of rendering the ajax panels. When you chose the**Block** option the panels will be rendered as **div** elements, while if you chose **Inline** option they will be rendered as **span** elements.
+* **UpdatePanelsRenderMode** - This property determines the way of rendering the ajax panels. When you chose the **Block** option the panels will be rendered as **div** elements, while if you chose the **Inline** option they will be rendered as **span** elements.
 
-* **UpdateInitiatorPanelsOnly** - By setting this property to **true** (its default value is**false**) only the containers added as **UpdatedControls** for a specific initiator will be conditionally updated. For more information, you can check out the [Update Initiator's UpdatePanels only]({%slug ajaxmanager/how-to/update-initiator's-updatepanels-only%}) help article.
+* **UpdateInitiatorPanelsOnly** - By setting this property to **true** (its default value is **false**) only the containers added as **UpdatedControls** for a specific initiator will be conditionally updated. For more information, you can check out the [Update Initiator's UpdatePanels only]({%slug ajaxmanager/how-to/update-initiator's-updatepanels-only%}) help article.
 
-* **ResponseScripts** - This collection of strings contain JavaScript that you want to execute when the response returns to the browser. In **Example 2** an "**alert()**" JavaScript function is added to the collection. Also see below for the rendered HTML results showing the call to **alert()** near the end of the HTML.
+* **ResponseScripts** - This collection of strings contain JavaScript that you want to execute when the response returns to the browser. In **Example 2** an "**alert()**" JavaScript function is added to the collection. Also, see below for the rendered HTML results showing the call to **alert()** near the end of the HTML.
 
 
 
