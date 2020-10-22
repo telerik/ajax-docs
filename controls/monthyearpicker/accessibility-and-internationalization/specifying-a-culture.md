@@ -35,7 +35,7 @@ The associated **CultureInfo** object controls:
 * The way **RadMonthYearPicker** parses values that the user types into the input area.
 
 >caution
-The **CultureInfo** property of **RadCalendar** does not affect the labels on the buttons in the month/year navigation popup. For information on localizing these strings, see [Localizing Strings]({%slug calendar/accessibility-and-internationalization/localizing-strings%}).
+The **CultureInfo** property of **RadCalendar** does not affect the labels on the buttons in the month/year navigation popup. For information on localizing these strings, see [Localizing Strings](https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/accessibility-and-internationalization/localizing-strings).
 >
 
 
