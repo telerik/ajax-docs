@@ -30,6 +30,8 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * rendering of `<select>` elements is imperfect (some minor issues can be noticed, like wrong padding or missing the dropdown arrow). 
 
+* rendering of expanded with size attribute `<select>` elements (including asp:ListBox components) will not render the items. Replace the asp:ListBox with telerik:RadListBox instead.
+
 * images hosted on different domains might not be rendered, unless permissive [Cross-Origin HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image) are provided by the server. Similarly, fonts might not be possible to load cross-domain. Even with the proper CORS headers, IE9 will not be able to load images or fonts from another domain, and could raise a uncatcheable security exception. If you need to support IE9, make sure to host images and fonts on the same domain as the application.
 
 * images will not be exported in IE if their source is an SVG document. These are considered to be tainted.
