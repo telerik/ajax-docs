@@ -129,6 +129,8 @@ Below you can find an example with [Font Awesome Icons](https://fortawesome.gith
 
 You can also change the font-size and color of the font icon as described in the [Fine Tune]({%slug togglebutton/functionality/icons/fine-tune%}) help article.
 
+Find out more information on how to use Font Awesome icons along with Telerik controls in the [4 Ways to Embed Font Awesome in Telerik UI for ASP.NET AJAX Controls](https://www.telerik.com/blogs/4-ways-embed-font-awesome-telerik-ui-for-asp-dotnet-ajax) blog post.
+
 ## See Also
 
  * [RadToggleButton Overview Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
