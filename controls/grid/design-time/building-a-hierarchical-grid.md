@@ -41,33 +41,33 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 ![grid gettingstarted conn String](images/grid_gettingstarted_connString.png)
 
 1. On the **Configure the Select Statement** page, select the **Customers** table from the drop-down list, and select all **(*)** fields. Then choose **Next**:
-![Configure Select Statement](images/grid_hierarchy6.png)
+![Configure Select Statement](../images/grid_hierarchy6.png)
 
 1. On the **Test Query** page, click the **Test Query** button to see the data. Then click **Finish** to exit the **Configure Data Source** wizard:
-![grid hierarchy 7](images/grid_hierarchy7.png)
+![grid hierarchy 7](../images/grid_hierarchy7.png)
 
 1. Using **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) add a second **DataSource** component to RadGrid.
-![Select DataSource](images/grid_hierarchy4_1.png)
+![Select DataSource](../images/grid_hierarchy4_1.png)
 
 1. Choose the same database on the **Choose Your Data Connection** page of the wizard. Then click the **Next** button:
-![Choose DataBase](images/grid_hierarchy7_1.png)
+![Choose DataBase](../images/grid_hierarchy7_1.png)
 
 1. On the **Configure the Select Statement** page, choose the **Orders** table and select all columns again. This time, we are creating a data source for a detail table, so we need to add a where clause so the detail records are limited to the ones that match a record in the parent table. Click the **Where...** button to add a **WHERE** clause:
-![Second Select Statement](images/grid_hierarchy8.png)
+![Second Select Statement](../images/grid_hierarchy8.png)
 
 1. On the **Add WHERE Clause** page, choose the **CustomerID** column, and select **None** as the source of the parameter. Then click the **Add** button to add the condition to the **Where** clause, and click **OK**.
-![Where clause](images/grid_hierarchy9.png)
+![Where clause](../images/grid_hierarchy9.png)
 
 1. The **Configure Select Statement** page now shows your WHERE clause. Click the **Next** button, and then, on the next page, choose **Finish**:
-![Configure Select Statement](images/grid_hierarchy10.png)
+![Configure Select Statement](../images/grid_hierarchy10.png)
 
 1. After you press the **Finish** button **RadGrid** will ask you if you want to apply the new datasource schema, choose **No**:
-![Apply New Schema](images/grid_hierarchy11.png)
+![Apply New Schema](../images/grid_hierarchy11.png)
 
 ## Creating the grid and binding its Master Table
 
 1. In the **RadGrid's** Smart Tag, select **SQLDataSource1** as a data source for the grid. This binds the **MasterTableView** to the **Customers** table. If RadGrid asks you whether to apply the new datasource schema, choose **Yes**. In addition, while in the Smart Tag, choose **Metro** from the **Skin** drop-down to give the grid a different skin:
-![grid addcontrols 12](images/grid_addcontrols12.png)
+![grid addcontrols 12](../images/grid_addcontrols12.png)
 
 1. Still in the Smart Tag, click the link labelled **Open Configuration Wizard**:
 ![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
@@ -79,15 +79,15 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 	1. Select **Columns** tab.
 
 	1. Remove any columns you do not want to display for the Master Table:
-	![DeleteColumn](images/grid_hierarchy13.png)
+	![DeleteColumn](../images/grid_hierarchy13.png)
 
 1. In **General** tab of the **MasterTableView** node make sure that the **DataKeyNames** list contains the string **CustomerID**. This column must be identified as a key name so that it can be used to link to detail tables:
-![SetDataKeyNames](images/grid_hierarchy14.png)
+![SetDataKeyNames](../images/grid_hierarchy14.png)
 
 ## Creating and binding the first detail table
 
 1. In the **Grid hierarchy** tree view, click the "+" button while the **MasterTableView** is selected to add a Detail TableView.
-![Add Detail Table](images/grid_hierarchy15.png)
+![Add Detail Table](../images/grid_hierarchy15.png)
 
 1. Select the detail table under **MasterTableView** node.
 
@@ -96,21 +96,21 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. In the **Parent table relation**, fill in the **CustomerID** string in both fields(**MasterKeyField and DetailKeyField**) click the "+" button to add a relationship between a field in the detail table and its corresponding field in the parent table.
 
 1. Now set the **DataKeyNames** property of the detail table to **OrderID**. This will be useful later when binding a second detail table as a child of this table view.
-![Set Parent Table Relation](images/grid_hierarchy16.png)
+![Set Parent Table Relation](../images/grid_hierarchy16.png)
 
 1. Before exiting the **RadGrid** Editor, return to the **MasterTableView** node, on the right pane click the **Paging** tab and then check the **Allow paging** checkbox and set the **Page size** to **5** rows:
-![Set Paging](images/grid_hierarchy17.png)
+![Set Paging](../images/grid_hierarchy17.png)
 
 1. Run the application to see that the grid now displays a two-level hierarchy, with the **Orders** table nested inside the **Customers** table:
-![Hierarchical RadGrid](images/grid_hierarchy18.png)
+![Hierarchical RadGrid](../images/grid_hierarchy18.png)
 
 ## Creating and binding the second detail table
 
 1. Bring up the **RadGrid's** Editor again and add a second Detail Table as a child of the first Detail Table:
-![Add Second Detail Table](images/grid_hierarchy19.png)
+![Add Second Detail Table](../images/grid_hierarchy19.png)
 
 1. Because we will be binding the detail table dynamically, there is no need to set any more properties, so exit the property builder:
-![Close the Editor](images/grid_hierarchy20.png)
+![Close the Editor](../images/grid_hierarchy20.png)
 
 1. Give the **RadGrid** a **DetailTableDataBind** event handler. This event handler
 
@@ -170,4 +170,4 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 		End Function
 
 1. Run the application. Note that you can now see the dynamically bound Detail Table:
-![RadGrid With Three Levels](images/grid_hierarchy21.png)
+![RadGrid With Three Levels](../images/grid_hierarchy21.png)
