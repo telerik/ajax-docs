@@ -29,7 +29,7 @@ When you present large number of records at once you will see delays in the grid
 
 	* The same number of input controls will be loaded up to 10 times faster
 
-	* The maximum number of input controls allowed on the page can be 10 times greater. You could check [this](https://demos.telerik.com/aspnet-ajax/input/examples/radinputmanager/dynamicinputfiltersettings/defaultcs.aspx?product=grid) online demo application for a sample code and performance overview.
+	* The maximum number of input controls allowed on the page can be 10 times greater. You could check [this](https://demos.telerik.com/aspnet-ajax/inputmanager/performance/grid-integration/defaultcs.aspx?product=grid) online demo application for a sample code and performance overview.
 
 4. Use built-in/custom paging or virtual scrolling/paging and present only fixed set of records at a time - here are online examples for it: [Basic paging]( https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	), [Virtual scrolling and paging]( https://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	). In case you have more than **100** records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate throughthe grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to **10-15** at most (through the **PageSize** property of the **GridTableView** object).
 
