@@ -39,7 +39,7 @@ In Visual Studio at design time, if you want to Ajax-enable web controls on a pa
 
 **Out-of-Panel Update**
 
-There are cases when you may want to update the controls inside a **RadAjaxPanel** by triggering a callback externally from other control on the page.The following approach is not recommended as **RadAjaxManager** can handle any complex scenarios. You can use asp:Panel controls and link them via **RadAjaxManager**'s settings. The same Panel may be set as both AJAX initiator and updated control, which will cause functionality similar to **RadAjaxPanel** .
+There are cases when you may want to update the controls inside a **RadAjaxPanel** by triggering a callback externally from other control on the page. The following approach is not recommended as **RadAjaxManager** can handle any complex scenarios. You can use asp:Panel controls and link them via **RadAjaxManager**'s settings. The same Panel may be set as both AJAX initiator and updated control, which will cause functionality similar to **RadAjaxPanel** .
 
 You need to call the**$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (passing the necessary information as parameters to it) and then override the **RaisePostBackEvent** method or handle theRadAjaxPanel **AjaxRequest** server-side event to apply the changes. **Example 1** shows a sample implementation, which changes the background color of the panel.
 
@@ -52,7 +52,7 @@ You need to call the**$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (
 </telerik:RadAjaxPanel>
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	<script type="text/javascript">
-	     function invokeAjaxrequest() {
+	     function invokeAjaxRequest() {
 	        $find("<%= RadAjaxPanel1.ClientID%>").ajaxRequestWithTarget("<%= RadAjaxPanel1.UniqueID %>", "ChangeColor");
 	    }
 	</script>
@@ -95,7 +95,7 @@ End Sub
 
 You can use any external control to force **RadAjaxPanel** to perform an AJAX request by calling this client-side function. When using this function, the event target defaults to the **RadAjaxPanel** instance.
 
->note You can construct the JavaScript function calls manually or alternatively use the server-side method[GetAjaxEventReference](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radajaxcontrol_getajaxeventreference.html)and have Telerik RadAjax generate the necessary code for you.
+>note You can construct the JavaScript function calls manually or alternatively use the server-side method [GetAjaxEventReference](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAjaxControl#getajaxeventreference) and have Telerik RadAjax generate the necessary code for you.
 >
 
 
