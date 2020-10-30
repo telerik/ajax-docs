@@ -60,4 +60,66 @@ This event should be used in scenarios where the user needs to execute custom cl
 </telerik:radwindow>
 ````
 
+Here is another code sample of how to get the get_commandArgument() method from the eventArgs parameter:
+
+````ASP.NET
+<asp:ScriptManager runat="server" />
+<script type="text/javascript">
+    function btnEdit_Clicking(sender, eventArgs) {
+        radconfirm("Are you sure?", confirmCallBackFn, 300, 150, null, eventArgs.get_commandArgument(), "myConfirmImage.png"); return false;
+        args.set_cancel(true);
+    }
+    function confirmCallBackFn(arg) {
+        radalert("Confirm returned the following result: " + arg);
+        return false;
+    }
+</script>
+<telerik:RadButton ID="RadButton2" AutoPostBack="false"
+    runat="server" Text="Click Me"
+    OnClientClicking="btnEdit_Clicking"
+    CommandArgument="RadConfirm Title">
+</telerik:RadButton>
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server"></telerik:RadWindowManager>
+````
+You can find more information in the following Code Library [Passing user-defined parameters to client-side event handlers](https://www.telerik.com/support/code-library/passing-user-defined-parameters-to-client-side-event-handlers)
+
+````ASP.NET
+	<script type="text/javascript">
+		function Click1(button, args)
+		{
+			alert("Arguments passed: arg1-" + args.get_commandName() + " arg2-" + args.get_commandArgument());
+		}
+
+		function Click2(button, args)
+		{
+			var arguments = args.get_commandArgument().split('|');
+			alert("Arguments passed: arg1-" + arguments[0] + " arg2-" + arguments[1]);
+		}
+
+		function Click3(button, args, arg1, arg2)
+		{
+			alert("Arguments passed: arg1-" + arg1 + " arg2-" + arg2);
+		}
+	</script>
+	<div>
+		<telerik:RadButton ID="RadButton1" runat="server" AutoPostBack="false" Text="Command Name and Command Argument"
+			OnClientClicked="Click1" CommandArgument="Value2" CommandName="Value1">
+		</telerik:RadButton>
+		<br />
+		<br />
+		<telerik:RadButton ID="RadButton2" runat="server" AutoPostBack="false" Text="Command Argument"
+			OnClientClicked="Click2" CommandArgument="Value1|Value2">
+		</telerik:RadButton>
+		<br />
+		<br />
+		<telerik:RadButton ID="RadButton3" runat="server" AutoPostBack="false" Text="Anonymous function"
+			OnClientClicked="function(button, args){Click3(button, args, 'Value1', 'Value2');}">
+		</telerik:RadButton>
+````
+
+You can also attach to the clicked client event of RadButton on the client with this line of code:
+
+````ASP.NET
+button.add_clicked(function() { alert('You have attached to the clicked event of the button'); });
+````
 
