@@ -64,6 +64,7 @@ To test it on your own and see its benefits in practice you can start a free tri
 ````ASP.NET
 <telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" TargetFolder="Uploads" AllowedFileExtensions=".jpeg,.jpg,.png,.doc,.docx,.xls,.xlsx" runat="server"></telerik:RadAsyncUpload>
 ````
+
 For more information on setting up the environment see the [First Steps]({%slug getting-started/first-steps%}) article.
 
 ## Temporary Files
