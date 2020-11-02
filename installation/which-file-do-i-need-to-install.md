@@ -16,7 +16,8 @@ position: 0
 >
 >**Prerequisite**
 >
->In order to have Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations. For example you can download .NET 4.8 from [here](https://dotnet.microsoft.com/download/dotnet-framework/net48).
+>In order to have Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations. For example you can download .NET 4.8 from [here](https://dotnet.microsoft.com/download/dotnet-framework/net48). 
+>Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-telerik-controls-from-msi-file). If you'd like to add the controls to your project (aspx, ascx, masterpage, etc.) see [Add the Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-the-controls-to-your-project).
 
 Telerik provides the following installation package types that you can download from [here](https://www.telerik.com/account/product-download?product=RCAJAX):
 
