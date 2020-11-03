@@ -89,5 +89,6 @@ Additionally, you can clear the items by using **clearItems()** client-side meth
 # See Also
 
  * [Clear button on RadComboBox](https://www.telerik.com/forums/clear-button-on-radcombbox#bNcNnq0fZ0GbMi2qUiEcgw)
- * [How to reset RadComboBox with Checkboxes using Javascript]({%slug combobox/client-side-programming/objects/radcombobox-object%})
+ * [How to reset RadComboBox with Checkboxes using Javascript](https://www.telerik.com/forums/how-to-reset-radcombobox-with-checkboxes-using-javascript)
+ * [RadComboBox object API]({%slug combobox/client-side-programming/objects/radcombobox-object%})
 	
