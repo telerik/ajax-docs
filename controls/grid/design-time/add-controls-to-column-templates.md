@@ -45,22 +45,23 @@ This tutorial shows how to:
 
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this] ({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
+>note If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this]({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
+
 1. On the **Configure Select Statement** page, select the Orders table from thedrop-down list, and select theOrderID, CustomerID, EmployeeID, and OrderDate fields and then click **Next** button:
 
-![Configure Select Statement](images/grid_add-controls-to-template6.png)
+![Configure Select Statement](../images/grid_add-controls-to-template6.png)
 
 1. Click the **Specify a custom SQL statement or stored procedure** radio button.Then choose **Next**:
 
-![Specify a custom SQL statement](images/grid_add-controls-to-template7.png)
+![Specify a custom SQL statement](../images/grid_add-controls-to-template7.png)
 
 1. Add an **Update** statement to the data source:
 
-![Configure Update statement](images/grid_add_controls_to_template8.png)
+![Configure Update statement](../images/grid_add_controls_to_template8.png)
 
 1. On the **Test Query** page, click the **Test Query** button to see the data. Then click **Finish**, to exit the **Configure Data Source** wizard:
 
-![Test Query](images/grid_add-controls-to-template9.png)
+![Test Query](../images/grid_add-controls-to-template9.png)
 
 ## Adding Template columns
 
@@ -83,57 +84,57 @@ This tutorial shows how to:
 
 1. Choose the Template column that you wish to edit:
 
-![Rad Grid grd addcontrols 03](images/RadGrid_grd_addcontrols03.png)
+![Rad Grid grd addcontrols 03](../images/RadGrid_grd_addcontrols03.png)
 
 1. Drag and drop a **RadDatePicker** control from Visual Studio's toolbox ontothe **EditItemTemplate**.
 
-![Rad Grid grd addcontrols 04](images/RadGrid_grd_addcontrols04jpg.png)
+![Rad Grid grd addcontrols 04](../images/RadGrid_grd_addcontrols04jpg.png)
 
 1. Now add a **Label** control to the **ItemTemplate**.
 
-![grid addcontrols 04 1](images/grid_addcontrols04_1.png)
+![grid addcontrols 04 1](../images/grid_addcontrols04_1.png)
 
 1. Select **Edit DataBindings** from the **RadDatePicker's Smart Tag**:
 
-![Rad Grid grd addcontrols 05jpg](images/RadGrid_grd_addcontrols05jpg.png)
+![Rad Grid grd addcontrols 05jpg](../images/RadGrid_grd_addcontrols05jpg.png)
 
 1. In the **DataBindings** dialog:
 	* Check **Show all properties** to view the properties of the date picker.
 	* Choose the **SelectedDate** property as the property to bind.
 	* Choose the **OrderDate** field as the **Fieldbinding**.
 	* Check the **Two-way data binding** box to enable the control to update the field value.<br/>	
-		![Rad Grid grd addcontrols 06jpg](images/RadGrid_grd_addcontrols06jpg.png)
+		![Rad Grid grd addcontrols 06jpg](../images/RadGrid_grd_addcontrols06jpg.png)
 1. Use a similar technique to bind the **Label** control:
 
-![Rad Grid grd addcontrols 6jpg](images/RadGrid_grd_addcontrols6jpg.png)
+![Rad Grid grd addcontrols 6jpg](../images/RadGrid_grd_addcontrols6jpg.png)
 
 1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) to end template editing:
 
-![grid addcontrols 7jpg](images/grid_addcontrols7jpg.png)
+![grid addcontrols 7jpg](../images/grid_addcontrols7jpg.png)
 
 ## Enabling editing, paging, and change the Skin
 
 1. Back in **RadGrid's** Editor, add an edit command column to the grid:
 
-![grid addcontrols 08jpg](images/grid_addcontrols08jpg.png)
+![grid addcontrols 08jpg](../images/grid_addcontrols08jpg.png)
 
 1. Remove the **OrderDate** column; the Template column will be used instead:
 
-![grid addcontrols 10jpg](images/grid_addcontrols10jpg.png)
+![grid addcontrols 10jpg](../images/grid_addcontrols10jpg.png)
 
 1. Still in the RadGrid's Editor check the **AllowAutomaticUpdates** checkbox on the right pane:
 
-![grid addcontrols 09jpg](images/grid_addcontrols09jpg.png)
+![grid addcontrols 09jpg](../images/grid_addcontrols09jpg.png)
 
 1. Now select the **MasterTableView** node, then select **Paging** tab and change the **Page size** to **5** rows.
 
-![grid addcontrols 11](images/grid_addcontrols11.png)
+![grid addcontrols 11](../images/grid_addcontrols11.png)
 
 1. From the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labeled **Skin** and choose **Metro** skin.
 
-![grid addcontrols 12](images/grid_addcontrols12.png)
+![grid addcontrols 12](../images/grid_addcontrols12.png)
 
 1. Run the application. Click the edit column to see the edit template you added. Note that if you edit a value in the grid, the database is updated:
 
-![GridEditing](images/grid_add-controls-to-template23.png)
+![GridEditing](../images/grid_add-controls-to-template23.png)
 
