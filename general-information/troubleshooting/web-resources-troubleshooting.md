@@ -143,8 +143,7 @@ Please check the following:
 			<add name="ScriptResource" preCondition="integratedMode" verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />   
 
 
-	>note **ASP.NET 4.0-4.8:**
-	The ScriptResource.axd instance is no longer needed in the web.config as of .NET 4.0 and later, but if you have it in your web.config make sure that its Version value corresponds to the .NET version used by your Web Forms app.
+	>note **ASP.NET 4.0-4.8:** The ScriptResource.axd instance is no longer needed in the web.config as of .NET 4.0 and later, but if you have it in your web.config make sure that its Version value corresponds to the .NET version used by your Web Forms app.
 
 
 1. If you are using Telerik® UI for ASP.NET AJAX and RadScriptManager check if the Telerik.Web.UI.WebResource.axd HTTP handler is correctly registered in your web.config:
