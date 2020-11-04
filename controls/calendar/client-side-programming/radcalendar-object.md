@@ -18,6 +18,20 @@ The following table lists the most important properties and methods of the **Rad
 The **RadCalendar** client object represents dates as 3-element arrays, where the elements represent the year, month, and day, in that order.
 >
 
+The following code snippet demonstrates how to get reference of the client-side object of **RadCalendar**:
+
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Clear the Calendar" OnClientClicked="getClientReference" AutoPostBack="false" />
+<script type="text/javascript">
+    function getClientReference() {
+        var calendar = $find("<%= RadCalendar1.ClientID %>");
+        alert(calendar.get_id()); //returns the element ID
+        alert(calendar.get_element()); //returns a reference to the HTML wrapper
+    }
+</script> 
+````
+
 
 ## Properties
 
@@ -51,18 +65,23 @@ The **RadCalendar** client object represents dates as 3-element arrays, where th
 | **set_datesInRange(startDate, endDate)** |Date, Date||Set selection date range|
 | **DateTimeFormatInfo** ||[DateTimeFormatInfo]({%slug calendar/client-side-programming/datetimeformatinfo-object%})|The helper object that the calendar uses for formatting date and time information. You can use this object as well for formatting dates in client-side code.|
 
-````JavaScript
-<script type="text/javascript">
-    var calendar = $find("<%= RadCalendar1.ClientID %>");
-    var dates = calendar.get_selectedDates();
-    for (var i = 0; i < dates.length; i++) {
-        var date = dates[i];
-        var year = date[0];
-        var month = date[1];
-        var day = date[2];
-        if (year < 2000)
-            calendar.unselectDate(date);
-    }		
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Unselect the dates before 2025" OnClientClicked="unselectDates" AutoPostBack="false" />
+<script>
+    function unselectDates(sender, args) {
+        var calendar = $find("<%= RadCalendar1.ClientID %>");
+        var dates = calendar.get_selectedDates();
+        for (var i = 0; i < dates.length; i++) 
+        {
+            var date = dates[i];
+            var year = date[0];
+            var month = date[1];
+            var day = date[2];
+            if (year < 2025)
+                calendar.unselectDate(date);
+        }
+    }
 </script>
 ````
 
@@ -81,6 +100,8 @@ The **RadCalendar** client object represents dates as 3-element arrays, where th
 | **calculateDateFromStep** |integer|Array (triplet)|Returns the triplet for the date that is offset by the specified number of days from the current month.If the parameter is positive, the days are offset from the last day of the month. If the parameter is negative,the days are offset from the first day of the month (see sample below).|
 
 ````JavaScript
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Select Today" OnClientClicked="SelectToday" AutoPostBack="false" />
 <script type="text/javascript">
     function SelectToday() {
         var todaysDate = new Date();
@@ -88,27 +109,30 @@ The **RadCalendar** client object represents dates as 3-element arrays, where th
         var calendar = $find("<%=RadCalendar1.ClientID%>");
         calendar.selectDate(todayTriplet, true);
     }
-</script>	
+</script>
 ````
 
 
-
-````JavaScript
-<script type="text/javascript">
-    function SelectTodayAndTomorrow() {
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Select Today And Tomorrow" OnClientClicked="selectTodayAndTomorrow" AutoPostBack="false" />
+<script>
+    function selectTodayAndTomorrow() {
         var todaysDate = new Date();
         var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
         var tomorrowTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate() + 1];
         var selectedDates = [todayTriplet, tomorrowTriplet];
+
         var calendar = $find("<%=RadCalendar1.ClientID%>");
         calendar.selectDates(selectedDates, true);
-    }		
-</script>	
+    }
+</script>
 ````
 
 
-
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Unselect Today" OnClientClicked="UnselectToday" AutoPostBack="false" />
 <script type="text/javascript">
     function UnselectToday() {
         var todaysDate = new Date();
@@ -116,42 +140,47 @@ The **RadCalendar** client object represents dates as 3-element arrays, where th
         var calendar = $find("<%=RadCalendar1.ClientID%>");
         calendar.unselectDate(todayTriplet);
     }		
-</script>	
+</script>		
 ````
 
-
-
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Clear the Calendar" OnClientClicked="clearCalendar" AutoPostBack="false" />
 <script type="text/javascript">
-    function ClearCalendar() {
+    function clearCalendar() {
         var calendar = $find("<%= RadCalendar1.ClientID %>");
-        calendar.unselectDates(calendar.get_selectedDates());
-     }
-</script>	
+        var dates = calendar.get_selectedDates();
+        calendar.unselectDates(dates);
+    }
+</script> 	
 ````
 
 
 
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Go To Summer Of Love" OnClientClicked="goToSummerOfLove" AutoPostBack="false" />
 <script type="text/javascript">
-    function GoToSummerOfLove() {
+    function goToSummerOfLove() {
         var triplet = [1968, 6, 1];
         var calendar = $find("<%=RadCalendar1.ClientID%>");
         calendar.set_rangeMinDate([1960, 1, 1]);
         calendar.navigateToDate(triplet);
     }
-</script>	
+</script>
 ````
 
 
 
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Go Forward Six Months" OnClientClicked="goForwardSixMonths" AutoPostBack="false" />
 <script type="text/javascript">
-    function GoForwardSixMonths() {
+    function goForwardSixMonths() {
         var calendar = $find("<%=RadCalendar1.ClientID%>");
         var target = calendar.calculateDateFromStep(183);
         calendar.navigateToDate(target);
-     }
+    }
 </script>	
 ````
 
@@ -160,3 +189,5 @@ The **RadCalendar** client object represents dates as 3-element arrays, where th
 # See Also
 
  * [Overview]({%slug calendar/client-side-programming/overview%})
+ * [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%})
+ * [Full list of the client-side API](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadCalendar)
