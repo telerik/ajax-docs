@@ -25,20 +25,6 @@ The filtering is working, but to see the results you need to open the dropdown w
 ````ASPNET
 <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server"
     Filter="Contains"
-    OnClientKeyPressing="(function(sender, e){ if (!sender.get_dropDownVisible()) sender.showDropDown(); })">
-    <Items>
-        <telerik:RadComboBoxItem Text="Item1" Value="1" />
-        <telerik:RadComboBoxItem Text="Item2" Value="2" />
-        <telerik:RadComboBoxItem Text="Item3" Value="3" />
-    </Items>
-</telerik:RadComboBox>			
-````
-
-or
-
-````ASPNET
-<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server"
-    Filter="Contains"
     OnClientKeyPressing="OnClientKeyPressing">
     <Items>
         <telerik:RadComboBoxItem Text="Item1" Value="1" />
@@ -57,6 +43,6 @@ or
 
 # See Also
 
-* [OnClientKeyPressing event]({%combobox/client-side-programming/events/onclientkeypressing%})
+* [OnClientKeyPressing event]({%slug combobox/client-side-programming/events/onclientkeypressing%})
 
 
