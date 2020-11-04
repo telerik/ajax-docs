@@ -62,7 +62,7 @@ There are, however, a few ways to alleviate such a problem:
 
 * Look into ways to increase the Application Pool recycle time or implement a heartbeat-like functionality to keep it alive at all times
 
-* You may experience the error in a load balanced environment where the servers are configured to use different machine keys. In this case, the request to a resource may fail due to the encrypted querystring parameter identifying the resource being non-decryptable on the other server. To solve it, you should ensure that all servers use the same <machineKey> as explained in the [Web Farm Deployment Considerations](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff649308(v=pandp.10)?redirectedfrom=MSDN#web-farm-deployment-considerations) article.
+* You may experience the error in a load balanced environment where the servers are configured to use different machine keys. In this case, the request to a resource may fail due to the encrypted querystring parameter identifying the resource being non-decryptable on the other server. To solve it, you should ensure that all servers use the same <machineKey> and Telerik.Web.UI.WebResourceSession as explained in the [Integrating RadControls in WebFarm/WebGarden](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) article.
 
 * [Important tip] Use the CDNs (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) plus the [MS AJAX CDN](https://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using WebResources).
 
@@ -185,7 +185,7 @@ Check the detailed error message where the two common cases are:
 
 1. [Telerik.Web.UI.WebResource.axd 500 (Internal Server Error)](https://stackoverflow.com/questions/21490064/telerik-web-ui-webresource-axd-500-internal-server-error) - the error might be due to a missing/incorrect stylesheet webresource file - in this case, upgrade to the latest available version of the product. You can also  the value of the RenderMode property to Lightweight/Classic to see whether it will help. Please also report such an errors in the [feedback portal](https://feedback.telerik.com/aspnet-ajax), the ticketing system or the [forum](https://www.telerik.com/forums/aspnet-ajax) so that we can verify and fix them.
 
-### What to if there is no error, but the body of the returned resource is blank
+### What to do if there is no error, but the body of the returned resource is blank
 
 If the Telerik.Web.UI.ScriptFolder or Telerik.Web.UI.ScriptsFolder" web.config appSettings are set, make sure that the path to the resources is valid since it is case-sensitive.
 You can find more on these properties in the [Combining External Scripts]({%slug scriptmanager/combining-external-scripts%}) article.
@@ -205,3 +205,7 @@ Please check the following KB article on the matter: [Error: Web.config registra
  * [Skins Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting%})
  
  * [Debugging ASP.NET 2.0 Web Resources: Decrypting the URL and Getting the Resource Name](https://www.telerik.com/blogs/debugging-asp-net-2-0-web-resources-decrypting-the-url-and-getting-the-resource-name)
+ 
+ * [Integrating RadControls in WebFarm/WebGarden](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) 
+ 
+ * [Web Farm Deployment Considerations](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff649308(v=pandp.10)?redirectedfrom=MSDN#web-farm-deployment-considerations)
