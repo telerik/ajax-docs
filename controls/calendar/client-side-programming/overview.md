@@ -18,12 +18,19 @@ The **RadCalendar** control provides a flexible client-side API. You can easily 
 
 All the API methods are accessible via the registered JavaScript objects for each control. The following code snippet shows how to get reference of the client-side object of **RadCalendar**:
 
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Clear the Calendar" OnClientClicked="getClientReference" AutoPostBack="false" />
 <script type="text/javascript">
-    var calendar = $find("<%= RadCalendar1.ClientID %>");
-</script>
+    function getClientReference() {
+        var calendar = $find("<%= RadCalendar1.ClientID %>");
+        alert(calendar.get_id()); //returns the element ID
+        alert(calendar.get_element()); //returns a reference to the HTML wrapper
+    }
+</script> 
 ````
 
+You can find more detailed instructions of how to get client reference to a Telerik AJAX control on [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}).
 
 
 ## Getting and setting the selected date
@@ -32,33 +39,42 @@ The **RadCalendar** client object represents dates as triplets. Each triplet is 
 
 To get the selected date or dates on a **RadCalendar** control, use the **get_selectedDates()** method. This methods returns an array. If no date is selected, the array has length 0. If the calendar does not support multi-select mode, then the array has at most one element. Each date in the array is a triplet:
 
-````JavaScript
-var calendar = $find("<%= RadCalendar1.ClientID %>");
-var dates = calendar.get_selectedDates();
-for (int i = 0; i < dates.length; i++)
-{
-    var date = dates[i];
-    var year = date[0];
-    var month = date[1];
-    var day = date[2];
-    if (year < 2000)
-    calendar.unselectDate(date);
-}
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Unselect the dates before 2025" OnClientClicked="unselectDates" AutoPostBack="false" />
+<script>
+    function unselectDates(sender, args) {
+        var calendar = $find("<%= RadCalendar1.ClientID %>");
+        var dates = calendar.get_selectedDates();
+        for (var i = 0; i < dates.length; i++) 
+        {
+            var date = dates[i];
+            var year = date[0];
+            var month = date[1];
+            var day = date[2];
+            if (year < 2025)
+                calendar.unselectDate(date);
+        }
+    }
+</script>
 ````
-
-
 
 To set the selected date on a **RadCalendar** control, use the **selectDate()** or **selectDates()** method:
 
-````JavaScript
-function SelectTodayAndTomorrow() {
-    var todaysDate = new Date();
-    var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
-    var tomorrowTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate() + 1];
-    var selectedDates = [todayTriplet, tomorrowTriplet];
-    var calendar = $find("<%=RadCalendar1.ClientID%>");
-    calendar.selectDates(selectedDates, true);
-}
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Select Today And Tomorrow" OnClientClicked="selectTodayAndTomorrow" AutoPostBack="false" />
+<script>
+    function selectTodayAndTomorrow() {
+        var todaysDate = new Date();
+        var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
+        var tomorrowTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate() + 1];
+        var selectedDates = [todayTriplet, tomorrowTriplet];
+
+        var calendar = $find("<%=RadCalendar1.ClientID%>");
+        calendar.selectDates(selectedDates, true);
+    }
+</script>
 ````
 
 
@@ -80,14 +96,16 @@ The following methods get or set the minimum and maximum values:
 
 On **RadCalendar** you can unselect individual dates using the **unselectDate** or **unselectDates** method:
 
-````JavaScript
+````ASP.NET
+<telerik:RadCalendar ID="RadCalendar1" runat="server"></telerik:RadCalendar>
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Clear the Calendar" OnClientClicked="clearCalendar" AutoPostBack="false" />
 <script type="text/javascript">
     function clearCalendar() {
         var calendar = $find("<%= RadCalendar1.ClientID %>");
         var dates = calendar.get_selectedDates();
         calendar.unselectDates(dates);
     }
-</script>		
+</script> 	
 ````
 
 
@@ -95,5 +113,6 @@ On **RadCalendar** you can unselect individual dates using the **unselectDate** 
 # See Also
 
  * [RadCalendar object]({%slug calendar/client-side-programming/radcalendar-object%})
+ * [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%})
 
 
