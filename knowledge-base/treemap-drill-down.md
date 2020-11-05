@@ -96,7 +96,6 @@ In this article we are demonstrating a possible way to achieve drill-down functi
         RadTreeMap1.DataFieldParentID = "ParentID";
         RadTreeMap1.DataTextField = "Name";
         RadTreeMap1.DataValueField = "ID";
-        DataTable dt = GetPlayers();
         DataTable result = GetPlayers().Select(string.Format("Sport = '{0}'", sport)).CopyToDataTable();
 
         RadTreeMap1.DataSource = result;
@@ -169,7 +168,6 @@ In this article we are demonstrating a possible way to achieve drill-down functi
         RadTreeMap1.DataFieldParentID = "ParentID"
         RadTreeMap1.DataTextField = "Name"
         RadTreeMap1.DataValueField = "ID"
-        Dim dt As DataTable = GetPlayers()
         Dim result As DataTable = GetPlayers().[Select](String.Format("Sport = '{0}'", sport)).CopyToDataTable()
         RadTreeMap1.DataSource = result
         RadTreeMap1.DataBind()
