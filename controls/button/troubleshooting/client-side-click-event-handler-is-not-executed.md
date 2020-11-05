@@ -49,7 +49,7 @@ Below is shown a comparison between ASP button and **RadButton** client-side eve
 </telerik:RadButton>
 ````
 
-More information is available in the [Migrating OnClientClick handlers from ASP button to Telerik’s ASP.NET AJAX Button](https://blogs.telerik.com/aspnet-ajax/posts/12-08-10/migrating-onclientclick-handlers-from-asp-button-to-telerik-s-asp-net-ajax-button.aspx) blog post.
+More information is available in the [Migrating OnClientClick handlers from ASP button to Telerik’s ASP.NET AJAX Button](https://www.telerik.com/blogs/migrating-onclientclick-handlers-from-asp-button-to-telerik-s-asp-net-ajax-button) blog post.
 
 ## See Also
 
