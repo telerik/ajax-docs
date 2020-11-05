@@ -1,6 +1,6 @@
 ---
 title: RadTreeMap Drill Down
-description:  Example showing how to implement a Drill Down funtionality in RadTreeMap
+description:  Example showing how to implement a Drill Down functionality in RadTreeMap
 type: how-to
 page_title: Drill Down functionality - RadTreeMap | Telerik UI For ASP.NET AJAX
 slug: treemap-drill-down
@@ -26,7 +26,7 @@ In this article we are demonstrating a possible way to achieve drill-down functi
 1. Handle the client-side `Load` event of the TreeMap and attach a handler to the tile's element `click` event there.
 2. Initialize a manual ajax request by pass the text of the clicked item to the AjaxManager (use the `ajaxRequest()` method)
 3. Handle the AjaxManager's OnAjaxRequest event
-4. Change the DataSource of the TreeMap depending on the argument pased to the server-side `AjaxRequest` Handler.
+4. Change the DataSource of the TreeMap depending on the argument passed to the server-side `AjaxRequest` Handler.
 
 ## Solution
 
@@ -214,4 +214,7 @@ In this article we are demonstrating a possible way to achieve drill-down functi
     End Function
 ````
 ## See Also
+* [RadTreeMap - Server-side Binding](https://docs.telerik.com/devtools/aspnet-ajax/controls/treemap/data-binding/server-side-binding)
+* [RadAjaxManager - Manually Add an AJAX Request](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxmanager/how-to/manually-add-an-ajax-request)
+
 
