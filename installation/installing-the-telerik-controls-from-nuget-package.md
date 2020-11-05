@@ -27,7 +27,7 @@ This article contains the following sections:
 
 
 >caution  **Prerequisite** 
->In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations.
+>In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8 installations.
 
 ## Add the Telerik Private NuGet Feed to Your System
 
@@ -121,13 +121,15 @@ You can download a *.nupkg* file to [build a private feed](https://www.telerik.c
  
 ## Automated Builds
 
-If you are using the Telerik NuGet feed on an automated build environment, you can provide your own credentials to the build PC so that it can connect to the feed and download the package.
+Often enough, you would want to set up Continuous Integration and/or Continuous Delivery (CI/CD) pipelines or builds for your project that uses the Telerik components. This is a valid scenario and the "one license per developer" license does not prevent you from doing so. The Telerik components are commercial software and as such can only be distributed through channels that are private and/or behind authentication.
 
+There are a couple of common ways people implement CI/CD automated builds:
 
-You can read more about adding credentials via the NuGet.config in the following page: [https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials).
+* You can put your own credentials (or the credentials of the license holder, depending on how your licenses are set up) in the nuget.config of the build machine/pipeline. In many cases, when doing so, they will even be encrypted when you add the Telerik feed source through the CLI. Alternatively, you can copy an encrypted version from your own local config if you have one and if plain text is an issue. You can read more about adding credentials via the NuGet.config in the following page: [https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file#packagesourcecredentials).
 
-You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC.
+* Creating a local folder (for example, on a shared network drive or other suitable location accessible by your builds and team) that holds the `.nupkg` files we provide (you can download them from your telerik.com account).
 
+You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC. They can by such colleagues (like other developers, QAs, designers, front-end devs, DBAs and so on) for building and running a solution, provided they do not use the Telerik components to create functionality. Of course, you must ensure that such credentials or package sources are not available to the general public (for example, in public repositories). 
 
 ## Troubleshooting
 
@@ -157,4 +159,5 @@ Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](h
 
 ## Additional Resources
 
-[Azure DevOps and Telerik NuGet Packages](https://www.telerik.com/blogs/azure-devops-and-telerik-nuget-packages)
+* [Azure DevOps and Telerik NuGet Packages](https://www.telerik.com/blogs/azure-devops-and-telerik-nuget-packages)
+
