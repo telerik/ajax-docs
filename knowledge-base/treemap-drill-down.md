@@ -31,6 +31,7 @@ In this article we are demonstrating a possible way to achieve drill-down functi
 ## Solution
 
 ![](images/treemap-drill-down.gif)
+
 ````ASP.NET
         <telerik:RadCodeBlock runat="server">
             <script>
@@ -211,6 +212,7 @@ In this article we are demonstrating a possible way to achieve drill-down functi
         Return table
     End Function
 ````
+
 ## See Also
 * [RadTreeMap - Server-side Binding](https://docs.telerik.com/devtools/aspnet-ajax/controls/treemap/data-binding/server-side-binding)
 * [RadAjaxManager - Manually Add an AJAX Request](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxmanager/how-to/manually-add-an-ajax-request)
