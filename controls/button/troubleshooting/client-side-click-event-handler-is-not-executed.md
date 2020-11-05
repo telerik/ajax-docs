@@ -59,4 +59,4 @@ More information is available in the [Migrating OnClientClick handlers from ASP 
 
  * [Event Handlers Are Not Raised]({%slug button/troubleshooting/event-handlers-are-not-raised%})
 
- * [Migrating OnClientClick handlers from ASP button to Telerik’s ASP.NET AJAX Button](https://blogs.telerik.com/aspnet-ajax/posts/12-08-10/migrating-onclientclick-handlers-from-asp-button-to-telerik-s-asp-net-ajax-button.aspx)
+ * [Migrating OnClientClick handlers from ASP button to Telerik’s ASP.NET AJAX Button](https://www.telerik.com/blogs/migrating-onclientclick-handlers-from-asp-button-to-telerik-s-asp-net-ajax-button)
