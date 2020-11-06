@@ -23,6 +23,7 @@ res_type: kb
 
 ## Description
 In this article we are demonstrating a possible way to achieve drill-down functionality with RadTreeMap, utilizing the API of the control and the RadAjaxManager functionality. You can implement that by following the steps below:
+
 1. Handle the client-side `Load` event of the TreeMap and attach a handler to the tile's element `click` event there.
 1. Initialize a manual ajax request by pass the text of the clicked item to the AjaxManager (use the `ajaxRequest()` method)
 1. Handle the AjaxManager's OnAjaxRequest event
