@@ -38,14 +38,33 @@ The minimum required to show the **RadConfirm** is a message and the callback fu
 		radalert("Confirm returned the following result: " + arg);
 	}
 </script>
-<button onclick="radconfirm('Are you sure?', confirmCallBackFn); return false;">
-	show radconfirm</button>
+<button onclick="radconfirm('Are you sure?', confirmCallBackFn); return false;">Show radconfirm</button>
 ````
 
 The full syntax of the radconfirm() function is as follows:
 
 ````JavaScript
 var oConfirm = radconfirm(text, callBackFn, oWidth, oHeight, callerObj, oTitle, imgUrl);
+````
+
+Here is an example with all the parameters set:
+
+````JavaScript
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+</telerik:RadWindowManager>
+<script type="text/javascript">
+    function showRadConfirm() {
+        var width, height = "150px";
+        var title = "Confirm title"
+        var text = "Are you sure?";
+        var imgUrl = "https://via.placeholder.com/32";
+        radconfirm(text, callBackFn, width, height, null, title, imgUrl);
+    }
+    function callBackFn(arg) {
+        radalert("Confirm returned the following result: " + arg);
+    }
+</script>
+<button onclick="showRadConfirm(); return false;">Show radconfirm</button>
 ````
 
 where you can set optional width, height, title and image URL for the RadConfirm dialog.
@@ -57,13 +76,28 @@ This method also returns a reference to the RadAlert object (which is essentiall
 Since Q1 2011 the **RadWindowManager** offers a built-in server-side method to call the **RadConfirm**:
 
 ````C#
-RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, null, "My Confirm", "myConfirmImage.png");
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        RadWindowManager RadWindowManager1 = new RadWindowManager();
+        Form.Controls.Add(RadWindowManager1);
+        RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 200, null, "My Confirm", "myConfirmImage.png");
+
+        string script = "function confirmCallBackFn(arg){ radalert(\"Confirm returned the following result: \" + arg); };";
+        ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, true);
+
+    }
 ````
 ````VB
-RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, Nothing, "My Confirm", "myConfirmImage.png")	  
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    Dim RadWindowManager1 As RadWindowManager = New RadWindowManager()
+    Form.Controls.Add(RadWindowManager1)
+    RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 200, Nothing, "My Confirm", "myConfirmImage.png")
+    Dim script As String = "function confirmCallBackFn(arg){ radalert(""Confirm returned the following result: "" + arg); };"
+    ScriptManager.RegisterStartupScript(Page, Page.[GetType](), "key", script, True)
+End Sub	  
 ```` 
 
->note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+>note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods).
 
 >important The **callback function** is a client-side JavaScript function which is executed when the dialog is closed.
 
@@ -81,3 +115,5 @@ The appearance of the confirm dialog is controlled by two things: the **Skin** p
 ## See Also
 
  * [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%})
+ 
+ * [ScriptManager.RegisterStartupScript Method](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager.registerstartupscript?view=netframework-4.8)
