@@ -19,7 +19,7 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
->note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback %}) article.
+>note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback) article.
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
@@ -34,7 +34,7 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 	* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
 
 
->note Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
+>note Hierarchical structure is not supported with simple data binding (calling **DataBind**()).
 
 
 
@@ -386,7 +386,7 @@ End Sub
 ````
 
 
->caution When creating a grid in the **Page_Init** event handler, you can use the **Page_Load** event to add anAJAX setting for the grid to a **RadAjaxManager** so that the grid usesasynchronous callbacks.
+>caution When creating a grid in the **Page_Init** event handler, you can use the **Page_Load** event to add an AJAX setting for the grid to a **RadAjaxManager** so that the grid uses asynchronous callbacks.
 >
 
 
@@ -742,4 +742,4 @@ The code sample above results in the following grid:
 
 ![Creating Templates programmatically](images/grd_TemplateColumnProgrammatically.png)
 
-For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](https://msdn2.microsoft.com/en-us/library/aa289501.aspx).
+For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](https://docs.microsoft.com/en-us/previous-versions/aspnet/0e39s2ck(v=vs.100)x).
