@@ -6,11 +6,16 @@ slug: controls/radskinmanager
 tags: radskinmanager
 published: True
 position: 4
+CTAControlName: SkinManager
 ---
 
 # RadSkinManager
 
 This article provides the following information:
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
 
 * [What is RadSkinManager](#what-is-radskinmanager)
 

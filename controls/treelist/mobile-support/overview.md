@@ -8,6 +8,10 @@ published: True
 position: 0
 ---
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-small.html %}
+{% endif %}
+
 # Mobile Support Overview
 
 

@@ -1814,6 +1814,7 @@ gcs_api_key: 'AIzaSyDjPEJ7amQPG71P3RIB6et8uieUkqGx1js'
 feedback_ab: true
 
 has_kb_portal: true
+has_cta_panels: true
 edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
 product: "Telerik UI for ASP.NET AJAX"
 product_url: https://www.telerik.com/aspnet-ajax

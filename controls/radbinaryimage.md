@@ -6,6 +6,7 @@ slug: controls/radbinaryimage
 tags: radbinaryimage
 published: True
 position: 6
+CTAControlName: RadBinaryImage
 ---
 
 # RadBinaryImage
@@ -13,6 +14,10 @@ position: 6
 
 
 **RadBinaryImage** gives you an easy way of showing an image stored as binary data in a database. The control can be used in any data bound control (**Repeater**, **DataList**, **GridView**, etc.) to display images which originate from binary image field in the data source. The control uses an internal http handler which streams the image from the binary source to the page in which it has to be visualized.The storage of the binary stream when transferred between the control itself and the handler is the *HttpContext.Current.Cache* object and the image is cached in the browser. Its default expiration time is 2 hours (unless the control in which the **RadBinaryImage** is nested is rebound or recreated). This means that subsequent loads of the binary image are taken from the browser cache when using the same url for access. In case the browser cache is disabled, the image will be persisted for 2 minutes on the server before it is streamed to the page from the data source.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
 
 ## 
 

@@ -6,12 +6,16 @@ slug: controls/radcompression
 tags: radcompression
 published: True
 position: 8
+CTAControlName: RadCompression
 ---
 
 # RadCompression
 
 This article explains what is RadCompression and contains the following sections:
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
 
 - [RadCompression](#radcompression)
     - [What is RadCompression?](#what-is-radcompression)
