@@ -14,11 +14,14 @@ position: 0
 
 ## 
 
-![RadMenu overview](images/menu_overview.png)
+
 
 **Telerik RadMenu for ASP.NET AJAX** is a flexible navigation component for use in ASP.NET applications.
 
-**Telerik RadContextMenu** is a related control that shares the powerful features of **RadMenu**, but which acts as a context menu or popup menu. Using **RadMenu** and **RadContextMenu**, you get
+**Telerik RadContextMenu** is a related control that shares the powerful features of **RadMenu**, but which acts as a context menu or popup menu. 
+
+#### Key Features
+Using **RadMenu** and **RadContextMenu**, you get
 
 * A [client-side API]({%slug menu/client-side-programming/overview%}) that includes the ability to add, remove and update menu items and have these changes persist after a postback to the server.
 
@@ -70,4 +73,5 @@ position: 0
 
 * Support for all major browsers, including Internet Explorer 5.5 and above, Netscape 7.0 and above (PC -- Netscape 7.1 for Mac and Linux), Mozilla 1.0 and above (all operating systems),Firefox 0.8 and above (all operating systems), Opera 7.5 and above, and Safari 1.3 and above.
 
+![RadMenu overview](images/menu_overview.png)
 

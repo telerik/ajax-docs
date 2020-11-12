@@ -14,7 +14,7 @@ position: 0
 
 In Q2 2012 SP1 a CTP version of new **RadPivotGrid** control is released. RadPivotGrid is a data summarization control where users can break down raw data in any manner they want.	A pivot table can help quickly summarize the reports and highlight the desired information. It displays data in format such as	spreadsheets or business intelligence applications.
 
-The key features of the RadPivotGrid control are:
+#### Key Features
 
 * **Various field types**
 

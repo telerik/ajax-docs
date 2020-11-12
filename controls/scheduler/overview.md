@@ -11,10 +11,9 @@ position: 0
 # Scheduler Overview
 
 
-
-## 
-
 Using the Telerik **RadScheduler** control, you can build powerful ASP.NET applications to allow users to create and manage tasks. **RadScheduler** displays and edits scheduled appointments that are stored in a separate data source.A variety of [data binding]({%slug scheduler/data-binding/overview%}) options allows you to work with data sources that are as simple or as powerful as you want.
+
+#### Key Features
 
 Using **RadScheduler**, users can
 

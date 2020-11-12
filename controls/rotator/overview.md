@@ -12,7 +12,7 @@ position: 0
 
 **Telerik RadRotator for ASP.NET AJAX** is a flexible UI component for content rotation and personalization. The control is completely rewritten (compared to RadRotator for ASP.NET) and offers many improvements in data binding and control's handling.
 
-![RotatorOverview](images/rotator-overview.png)
+##
 
 RadRotator for ASP.NET AJAX is completely customizable in terms of appearance and offers numerous configuration options like:
 

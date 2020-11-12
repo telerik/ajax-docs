@@ -17,6 +17,10 @@ This library enables you to work with spreadsheet documents – create ones from
 
 ![RadSpreadProcessing Overview image](images/RadSpreadProcessing_Overview_01.png)
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
 **RadSpreadProcessing** comes with support for:
 
 * [**Shapes and Images**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/shapes-and-images): API for insertion, positioning and deletion of images in worksheets.		

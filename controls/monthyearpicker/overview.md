@@ -11,7 +11,11 @@ position: 0
 # RadMonthYearPicker Overview
 
 
-The Telerik **RadMonthYearPicker** control is composed of **RadDateInput** control and **MonthYearView** popup controls. It enables the user to easily select a month and a year.
+The Telerik **RadMonthYearPicker** control is composed of **RadDateInput** control and **MonthYearView** popup controls. 
+
+#### Key Features
+
+It enables the user to easily select a month and a year.
 
 * [Client-side API]({%slug monthyearpicker/client-side-programming/radmonthyearpicker-object%}) for controlling the picker without unnecessary postbacks and [client-side events]({%slug monthyearpicker/client-side-programming/events/overview%}) on the picker controls and their embedded input controls and popups.
 

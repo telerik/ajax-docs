@@ -12,7 +12,7 @@ position: 0
 
 **Telerik RadRating** is a flexible UI component that allows users to intuitively rate by selecting number of items [stars] from a predefined maximum number of items. The user can fully customize the control by configuring its orientation, rating precision, direction etc.
 
-## Key features:
+#### Key features:
 
 * **Horizontal/Vertical Orientation** - depending on your needs, RadRating can be displayed horizontally or vertically on the page by setting the **Orientation** property.
 

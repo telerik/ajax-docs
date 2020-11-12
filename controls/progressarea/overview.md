@@ -10,10 +10,6 @@ position: 0
 
 # ProgressArea Overview
 
-
-
-## Overview
-
 RadProgressArea control provides support for custom progress monitoring. It can be used together with any upload control - the simple HTML tag, Microsoft’s default control or Telerik’s RadAsyncUpload control, to display file upload progress in a rich and highly customizable manner. The progress bar can be adapted to any application's design thanks to the 20 built-in skins or define your own templates for custom look and feel.
 
 ## RadProgressArea Basic Usage

@@ -10,8 +10,6 @@ position: 0
 
 # ODataDataSource Overview
 
-## 
-
 **RadODataDataSource** is a client data source component that allows querying of local and remote services. The purpose of the control is to allow user to easily create data model for their applications. To facilitate the configuration of the data model further, we implemented a specially designed wizard. Using it, you can visually configure the data model. With the **RadODataDataSource** one can easily configure not only one but several models and bind each of them to a different control. It is also important to note that these controls should support such binding.
 
 >important Note that services used for the **RadODataDataSource** should expose **OData** feed.

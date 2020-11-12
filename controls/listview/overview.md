@@ -11,40 +11,10 @@ position: 0
 # ListView Overview
 
 
-
-##   
-
 Telerik RadListView is designed to give your the freedom to specify predefined or customized type of layout for the items displayed in the control and in the same time gives you integrated sorting, paging, grouping, editing, selecting, etc. capabilities. You can embed various controls of your choice in RadListView's templates and model their appearance in a custom manner. Thanks to its innovative architecture Telerik RadListView is extremely fast and generates very little output. Added to this is true cross browser support  — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
 
 To test it by your own and see its benefits in practice you can start a free trial using the button below
 
-<div class="justify-content-center text-center try-button">
-    <a class="button" href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax" target="_blank">Start a free trial</a>
-</div>
-
-<style>
-.try-button {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-.try-button .button {
-    display: inline-block;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #ff6358;
-    border-radius: 2px;
-    transition: color .2s ease,background-color .2s ease;
-    text-decoration: none;
-    padding: 10px 30px 10px 30px;
-    line-height: 1.5em;
-    height: auto;
-}
-
-.try-button .button:hover {
-    color: #ffffff;
-    background-color: #e74b3c;
-}
-</style>
 
 
 >caption To create a basic `RadListView`:

@@ -12,6 +12,8 @@ position: 0
 
 The **RadRadioButtonList** control (**Figure 1**) enriches the features of the ASP.NET RadioButtonList control. Additionally, it provides events, supports Commands and numerous [themes]({%slug radiobuttonlist/appearance-and-styling/skins%}). **RadRadioButtonList** is available as of **R3 2016**.
 
+##
+
 You can easily style the control by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}). Developers can easily migrate their applications from using the standard ASP.NET (RadioButtonList) controls to the **RadRadioButtonList** control, because most of the RadioButtonList's functionality is provided by the **RadRadioButtonList** control, and the **RadRadioButtonList** is controlled by the same or similar (intuitive) properties.
 
 

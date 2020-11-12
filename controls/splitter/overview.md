@@ -10,7 +10,9 @@ position: 0
 
 # Splitter Overview
 
-Telerik __RadSplitter for ASP.NET AJAX__ is a flexible UI component for managing the size and the layout of Web page content. __RadSplitter__ divides the layout of a Web page into frame-like regions called panes. Layouts can be conveniently enhanced further with sliding panes: dockable panels with resizable areas just as in Visual Studio, but boosted with ASP.NET AJAX capabilities. __RadSplitter__ offers the following features:
+Telerik __RadSplitter for ASP.NET AJAX__ is a flexible UI component for managing the size and the layout of Web page content. __RadSplitter__ divides the layout of a Web page into frame-like regions called panes. Layouts can be conveniently enhanced further with sliding panes: dockable panels with resizable areas just as in Visual Studio, but boosted with ASP.NET AJAX capabilities. 
+
+#### Key Features
 
 * [Content Resizing.]({%slug splitter/panes/resizing%}) Drag a split bar to resize the content area of the panes. You can define the maximum and minimum size of panes, and configure the way panes are resized when the user drags on a split bar, including specifying which panes are resized, setting the resize step size, allowing "live" resizes, and more.
 

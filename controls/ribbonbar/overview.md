@@ -10,11 +10,11 @@ position: 0
 
 # RibbonBar Overview
 
+**RadRibbonBar** is the newest addition to the suite of RadControls for ASP.NET AJAX, brings the ability to create rich toolboxes, which typically cannot be seen in web applications. We are trying to follow the development guidelines of Microsoft Ribbon specification and to give it the look and feel you can find in many modern applications today such as those found in Microsoft Office.
 
+##
 
-## 
-
-**RadRibbonBar** is the newest addition to the suite of RadControls for ASP.NET AJAX, brings the ability to create rich toolboxes, which typically cannot be seen in web applications. We are trying to follow the development guidelines of Microsoft Ribbon specification and to give it the look and feel you can find in many modern applications today such as those found in Microsoft Office.The Telerik ASP.NET AJAX RibbonBar control allows you to easily organize the navigation of your application in a simple, structured way. What is more, RadRibbonBar mimics the UI of the RibbonBar used in Microsoft Office 2007, thus providing your end-users with a familiar way to navigate around your application.
+The Telerik ASP.NET AJAX RibbonBar control allows you to easily organize the navigation of your application in a simple, structured way. What is more, RadRibbonBar mimics the UI of the RibbonBar used in Microsoft Office 2007, thus providing your end-users with a familiar way to navigate around your application.
 
 In the first version of the control, we are presenting the following tools, which you can use to build your RadRibbonBar:
 

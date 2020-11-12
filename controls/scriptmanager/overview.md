@@ -11,12 +11,11 @@ position: 1
 # ScriptManager Overview
 
 
-
-## Overview
-
 By default, each of the RadControls for ASP.NET AJAX serves a set of files (JS code) needed for its proper client-side operation.
 
 When loading a page with several controls on it, the number of these files can become very large, often resulting in a reduced page load time and increased traffic. The reason for this problem is that browsers make a separate request to the server for each of these resources.
+
+##
 
 Usually this problem is overcome by disabling the automatic script serving of the controls, combining them into a smaller set of files and registering the links to these files manually on the page.
 

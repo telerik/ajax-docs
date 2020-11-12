@@ -14,7 +14,7 @@ Telerik Persistence Framework provides the ability to preserve and restore the s
 
 The core functionality is presented by **RadPersisterManager** and **RadPersisterManagerProxy** – there should be only one instance of **RadPersistenceManager** and the proxies are defined on the content pages or user controls to persists the state of the controls on them. **RadPersistenceManager** enables you to save and load custom key-value settings.
 
-Key features of the framework are:
+#### Key features:
 * Long-term persistence of Telerik controls' UI-modifiable state
 * Persistence of custom key-value settings
 * Ability to implement own storage and serialization providers

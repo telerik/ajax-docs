@@ -26,6 +26,10 @@ It is a powerful and at the same time easy-to-use control that represents data i
 
 * [Flexible rendering engine]({%slug orgchart/functionality/rendered-fields%}).
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
 This control provides the best way to visualize and understand your workforce by simple and easy to illustrate hierarchical relationships.
 
 It's specifically designed in order to help the final user creates diagrams for different human resources – this could be management, staff organization, office administration, management structures and as well as many more.

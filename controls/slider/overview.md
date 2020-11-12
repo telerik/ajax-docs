@@ -26,6 +26,10 @@ position: 0
 
 * **Decrease handle:** Decreases the value of the slider by a single step.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
 ## Behavior
 
 Control the position and value behavior of RadSlider by setting [MinimumValue, MaximumValue, Value and LargeChange]({%slug slider/getting-started/behavior%}) properties. MinimumValue and MaximumValue set the lower and upper bounds that Value can be, Value is the current position of the slider and LargeChange controls the amount of increment or decrement caused by a mouse click on the slider.

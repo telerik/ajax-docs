@@ -15,7 +15,7 @@ position: 0
 
 **RadNotification** is a lightweight control which can be used to display a notification message both from the server and the client. The notification is completely customizable, can be loaded on demand through a callback or WebService, can be automatically displayed and/or updated at specific intervals and supports different animation effects and at different position.
 
-Key features:
+#### Key features:
 
 * Semantic rendering - no HTML tables used
 
