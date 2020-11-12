@@ -13,7 +13,7 @@ position: 0
 
 The Telerik **RadCalendar** is highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
 
-## Features
+#### Features
 
 * A [client-side API]({%slug calendar/client-side-programming/overview%}) with powerful methods that let you configure the calendar and [numerous events]({%slug calendar/client-side-programming/events/overview%}) that let you intercept what the user is doing with the calendar.
 

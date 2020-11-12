@@ -10,9 +10,9 @@ position: 0
 
 # RadCaptcha Overview
 
-## 
+It is so easy to prevent your online forms from automated spam by simply adding RadCaptcha to your ASP.NET application. A flexible website security component, RadCaptcha will protect your registration, comment, poll, content submission, and so on. It generates distorted images of letters and numbers that are easily decipherable to humans, but not to spam bots. In essence, it allows you to focus on your code or content, instead of on deleting spam.
 
-![Rad Captcha](images/RadCaptcha.PNG)
+## Strategies for protection against automated form submissions
 
 Telerik's **RadCaptcha** control provides two major strategies for protection against automated form submissions:
 
@@ -33,3 +33,9 @@ Telerik's **RadCaptcha** control provides two major strategies for protection ag
 	1. Minimum form submission time – the presumption is that a human cannot input the fields in a form correctly for a time less than 3 seconds (this is set by default, and could be modified). If the submission is executed faster than the predefined value, it is assumed that the executor is a robot.
 	
 	1. Invisible textbox in the form (the so-called “honeypot”) – this rule requires the insertion of a textbox which is not visible when the form is styled. Still, it will be detected by a robot, and therefore if any data is entered, the executor is considered to be a robot. An invisible label is also used to instruct humans not to fill in the textbox. This is necessary in case the styles are turned off and the textbox becomes visible, or in case a screen reader is used for disabled people.
+
+## See Also
+
+* [Getting Started]({%slug captcha/getting-started%})
+
+* [Overview Demo](https://demos.telerik.com/aspnet-ajax/captcha/examples/overview/defaultcs.aspx)

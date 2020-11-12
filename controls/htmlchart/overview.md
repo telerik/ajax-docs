@@ -12,6 +12,7 @@ position: 0
 
 **RadHtmlChart** for ASP.NET AJAX is a control powered by the Kendo UI Data Visualization Chart widget. The control provides a powerful charting mechanism based on [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) when shown in modern browsers like Firefox, Chrome, IE9+, Opera and [VML](https://en.wikipedia.org/wiki/Vector_Markup_Language) fallback for older browsers like IE8 and below. It was added to the Telerik® UI for ASP.NET AJAX suite in Q2 2012. **RadHtmlChart** is the successor to **RadChart**.
 
+#### Features
 This article provides a brief overview of the main features of the **RadHtmlChart** control.
 
 * pure **client-side rendering** through JavaScript which reduces the amount of work the server has to do—only serialized data is sent to the client instead of rendering the entire image and sending markup
