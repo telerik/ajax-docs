@@ -10,13 +10,11 @@ position: 0
 
 # RadColorPicker Overview
 
+Telerik RadColorPicker for ASP.NET AJAX is a lightweight UI component that allows users to select colors from the RGB or HEX color spaces using a configurable palette view. 
 
+#### Key Features
 
-
-
-![](images/colorpicker-overview006.png)
-
-Telerik RadColorPicker for ASP.NET AJAX is a lightweight UI component that allows users to select colors from the RGB or HEX color spaces using a configurable palette view. The control is completely customizable in terms of appearance and offers numerous configuration options including:
+The control is completely customizable in terms of appearance and offers numerous configuration options including:
 
 1. [25 Preset Color Palettes]({%slug colorpicker/functionality/color-presets%}) To speed up your work RadColorPicker is shipped with 25 ready-to-use color palettes like Grayscale, Web216, ReallyWebSafe, Office, etc.
 

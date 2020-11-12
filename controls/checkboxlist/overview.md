@@ -12,6 +12,7 @@ position: 0
 
 The **RadCheckBoxList** control (**Figure 1**) enriches the features of the ASP.NET CheckBoxList control. Additionally, it provides events, supports Commands and numerous [themes]({%slug checkboxlist/appearance-and-styling/skins%}). **RadCheckBoxList** is available as of **R3 2016**.
 
+## Configuration
 You can easily style the control by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}). Developers can easily migrate their applications from using the standard ASP.NET (CheckBoxList) controls to the **RadCheckBoxList** control, because most of the CheckBoxList's functionality is provided by the **RadCheckBoxList** control, and the **RadCheckBoxList** is controlled by the same or similar (intuitive) properties.
 
 

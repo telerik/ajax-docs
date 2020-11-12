@@ -15,7 +15,7 @@ The **RadDatePicker** control is composed of **RadDateInput** control with an in
 
 
 
-## Features
+#### Features
 
 **RadDatePicker** for ASP.NET AJAX is a highly configurable date input control that offers the following features:
 

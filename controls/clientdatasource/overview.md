@@ -11,12 +11,9 @@ position: 0
 # ClientDataSource Overview
 
 
-
-## 
-
 **RadClientDataSource** for ASP.NET AJAX is a control powered by [Kendo UI DataSource](https://demos.telerik.com/kendo-ui/datasource/index) framework. It allows querying local and remote services and wide variety ofdata operations. The rich client-side API offers capabilities for data editing, sorting, paging, filtering, grouping and more. The provided Client-side events allow fully customization of the queries and parameters passed to the web service.
 
-## Key Features
+#### Key Features
 
 * Easy databinding to any web services (OData, XML, WCF)
 
@@ -32,7 +29,7 @@ position: 0
 
 * Rich Client-side API and events
 
-# See Also
+## See Also
 
  * [Getting Started]({%slug clientdatasource/getting-started%})
 

@@ -12,6 +12,7 @@ position: 0
 
 The **RadCheckBox** control (**Figure 1**) enriches the features, that ASP.NET CheckBox control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug checkbox/appearance-and-styling/skins%}). **RadCheckBox** is available as of **Q1 2016**.
 
+#### Configuration
 The control can be easily styled by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single checkbox. Developers can easily migrate their applications from using the standard ASP.NET (checkbox) controls to the **RadCheckBox** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
 
 

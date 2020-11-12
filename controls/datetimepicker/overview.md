@@ -13,6 +13,8 @@ position: 0
 
 The Telerik **RadDateTimePicker** control is composed of **RadDateInput** control, **RadCalendar** and **RadTimeView** controls. **RadDateTimePicker** combines the features of **RadDatePicker** and **RadTimePicker** in a single control for selecting both a date and a time value.
 
+#### Features
+
 The **RadDateTimePicker** control provides the following features:
 
 * [Client-side API]({%slug datetimepicker/client-side-programming/overview%}) for controlling the date and time pickers without unnecessary postbacks and [client-side events]({%slug datetimepicker/client-side-programming/events/overview%}) on the picker controls and their embedded input controls and popups.

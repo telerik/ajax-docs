@@ -12,7 +12,10 @@ position: 0
 
 
 
-**RadDataPager** can be used to display paging navigation controls for other data-bound controls that implement the **IPageableItemContainer** or **IRadPageableItemContainer** interface (like the RadListView and MS ListView). The RadDataPager control lets users view large sets of data in small chunks for faster loading and easier navigation. It also provides a set of events, helper methods and properties for custom intervention.
+**RadDataPager** can be used to display paging navigation controls for other data-bound controls that implement the **IPageableItemContainer** or **IRadPageableItemContainer** interface (like the RadListView and MS ListView). 
+
+##
+The RadDataPager control lets users view large sets of data in small chunks for faster loading and easier navigation. It also provides a set of events, helper methods and properties for custom intervention.
 ![RadDataPager](images/DataPager_Overview.png)
 
 You can easily add the RadDataPager control to a Web Form within Visual Studio. The paging interface appears wherever you place the RadDataPager control on the page. You may place it before or after the RadListView control, as well as within its LayoutTemplate element.

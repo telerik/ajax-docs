@@ -10,11 +10,11 @@ position: 0
 
 # ComboBox Overview
 
+**Telerik RadComboBox for ASP.NET AJAX** is a flexible drop-down control for ASP.NET applications. 
 
+#### Key Features
 
-## 
-
-**Telerik RadComboBox for ASP.NET AJAX** is a flexible drop-down control for ASP.NET applications. **RadComboBox** introduces a number of advanced features, including:
+**RadComboBox** introduces a number of advanced features, including:
 
 * [A client-side API]({%slug combobox/client-side-programming/overview%}) that includes the ability to add, delete and update RadComboBox items and allow the changes to persist server-side.
 

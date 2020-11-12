@@ -16,6 +16,10 @@ position: 0
 
 **RadCloudUpload** provides the ability to upload files directly to Cloud Storage Providers - AmazonS3 and Azure. The upload workflow is as follows: the file, which is about to be uploaded is initially processed to a handler and the handler uploads the file to the specified storage provider **(files are not stored on the server's hard drive)**.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
 The main built-in features of **RadCloudUpload** include:
 
 * Validation
