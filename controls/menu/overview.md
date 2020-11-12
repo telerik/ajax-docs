@@ -12,10 +12,6 @@ position: 0
 
 
 
-## 
-
-
-
 **Telerik RadMenu for ASP.NET AJAX** is a flexible navigation component for use in ASP.NET applications.
 
 **Telerik RadContextMenu** is a related control that shares the powerful features of **RadMenu**, but which acts as a context menu or popup menu. 

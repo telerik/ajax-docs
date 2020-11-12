@@ -12,13 +12,16 @@ position: 0
 
 
 Telerik **RadNavigation** for ASP.NET AJAX is a simple yet customizable navigation widget, which can be widely used in ASP.NET applications. The control has a built-in light-weight rendering and adaptive behavior.
->caption Figure 1: RadNavigation on desktop and mobile
-
-![navigation-overview](images/navigation-overview.png)
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-introduction.html %}
 {% endif %}
+
+>caption Figure 1: RadNavigation on desktop and mobile
+
+![navigation-overview](images/navigation-overview.png)
+
+
 
 
 ## Key Features
