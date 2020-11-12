@@ -16,6 +16,8 @@ position: 0
 
 Broadly speaking, there are two groups of controls which are extended using the RadInputManager. The first are controls which are located directly on the page, such as a normal text box somewhere on the form. The second are text boxes located in another control- for example a text box nested in a repeater.
 
+## 
+
 Additionally, within the RadInputManager, there are four types of settings which could be added:
 
 1. **telerik:DateInputSetting** – the targeted text box will be accepting input in a date format

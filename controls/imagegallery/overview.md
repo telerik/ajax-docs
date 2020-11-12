@@ -16,6 +16,7 @@ position: 0
 
 ## 
 
+
 **Telerik Image Gallery(Figure 1)** enables end users to view a collection of images in two main ways:
 
 * **ImageArea** - containing the original image, controls for navigation ,slideshow and full-screen buttons.

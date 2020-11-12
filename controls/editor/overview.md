@@ -10,11 +10,9 @@ position: 0
 
 # Editor Overview
 
-![](images/editor-productlogolight.gif)
+Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.NET AJAX** is the successor for the well-known industry standard Editor for ASP.NET. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component, turning it into the fastest loading Web Editor. 
 
-![](images/radeditorpreview.png)
-
-Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.NET AJAX** is the successor for the well-known industry standard Editor for ASP.NET. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component, turning it into the fastest loading Web Editor. Among the hottest features are: 
+#### Hottest Key features
 
 * Unmatched loading speed
 
@@ -47,7 +45,7 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
 * [Mobile Support and UI]({%slug editor/mobile-support/overview%})
 
 
-## Get started with the RadEditor
+#### Get started with the RadEditor
 
 To test it by your own and see its benefits in practice you can start a free trial using the button below
 
@@ -88,12 +86,15 @@ To test it by your own and see its benefits in practice you can start a free tri
 >caption Get started with the editor declaration and enabling some of its features
 
 ````ASP.NET
-<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" ContentAreaMode="div" Width="500" Height="500">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" ContentAreaMode="div" Width="500" Height="500" Skin="Black">
    <Content>
 	 <b>Setting inline properties</b>
    </Content>
 </telerik:RadEditor> 
 ````
+
+![](images/radeditorpreview.png)
+
 
 ## See Also
 

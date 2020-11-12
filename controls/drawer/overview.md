@@ -12,6 +12,7 @@ position: 0
 
 RadDrawer operates on the client and provides a dismissible or always visible panel. It can act as a sidebar for navigation in your responsive web applications. It can also be used for updating a content of a section of the page.
 
+##
 RadDrawer is available as of R3 2019 and it is a server-side WebForms wrapper over the [Kendo UI Drawer for jQuery](https://docs.telerik.com/kendo-ui/controls/navigation/drawer/overview) widget.
 
 

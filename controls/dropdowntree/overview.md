@@ -12,11 +12,15 @@ position: 0
 
 
 
-## 
+
 
 The **RadDropDownTree** control is a combination of a lightweight dropdown and a tree control. In the RadDropDownTree we use the approach with entries. Basically, a new entry is created as a result of node's selection from the tree.
 
 ![Overview](images/dopdowntree_overview.png)
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
 
 ## Main features of the RadDropDownTree
 

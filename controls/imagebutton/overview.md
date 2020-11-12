@@ -12,6 +12,8 @@ position: 0
 
 The **RadImageButton** control (**Figure 1**) can be used as alternative to ASP.NET ImageButton control. Its functionality is enriched with client-side and server-side API which you can use to achieve plenty of application requirments. **RadImageButton** provides additional events, the ability to use a [content template]({%slug imagebutton/functionality/contenttemplate%}), a [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). **RadImageButton** is available as of **Q1 2016**.
 
+##
+
 The control can be easily styled by changing the **Skin** property, and alternatively setting properties that change the look of the control. Developers can easily migrate their applications from using the standard ASP.NET Image control to the new **RadImageButton** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
 
 

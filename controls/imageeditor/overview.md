@@ -17,7 +17,7 @@ position: 0
 **RadImageEditor** is a powerful and flexible graphics editing component that allows the users to modify their images directly in the browser, without installing any third party plugins. The actions on the image are performed on the client or, through a light callback, on the server, giving you the ability to perform the editing quickly and see the changes on the fly. The control is fully customizable, intuitive to work with and provides many features. 
 
 
-## Key features:
+#### Key features:
 
 * **Rich Client-side functionality** - RadImageEditor exposes many of the methods used to perform the operations on the image, so that the image can be easily modified programmatically.
 

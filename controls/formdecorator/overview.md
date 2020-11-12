@@ -36,6 +36,12 @@ position: 0
 
 elements, without generating any additional Html - hidden inputs, divs, etc. Thus it integrates seamlessly into the page and doesn't require any changes to the existing page's layout.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
+#### Key features
+
 Here are the main features of the control:
 
 * Hover/Out states for the buttons using pure CSS

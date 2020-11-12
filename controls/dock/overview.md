@@ -14,7 +14,10 @@ position: 0
 
 
 
-The **Telerik Docking controls** consist of **RadDock**, **RadDockZone**, and **RadDockLayout**. Together, they can be used to create ASP.NET applications that contain movable content regions that can be dragged around the Web page, docked into docking zones, collapsed into a minimized state and expanded to display their content, pinned in place, and so on.Using these controls, you get
+The **Telerik Docking controls** consist of **RadDock**, **RadDockZone**, and **RadDockLayout**. Together, they can be used to create ASP.NET applications that contain movable content regions that can be dragged around the Web page, docked into docking zones, collapsed into a minimized state and expanded to display their content, pinned in place, and so on. 
+
+#### Key Features
+Using these controls, you get
 
 * A [client-side API]({%slug dock/client-side-programming/overview%}) that includes the ability to manipulate **RadDock** controls in the same way the user can move them with the mouse and numerous [client-side events]({%slug dock/client-side-programming/events/overview%}) to respond to user actions.
 

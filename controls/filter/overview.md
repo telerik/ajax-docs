@@ -12,11 +12,11 @@ position: 0
 
 
 
-## 
+
 
 Build complex filter expressions in a breeze with **RadFilter** for ASP.NET AJAX. The control allows to specify expressions based on the data type of the source fields and attach them to data-bound controls like **RadGrid** and **RadListView** for ASP.NET AJAX. The visual intuitive UI of **RadFilter** is especially designed to facilitate the end-user and at the same time is powerful enough to create related expressions with a few clicks. Data input filters ensure that the entered filter pattern will be valid and processed accurately.
 
-Key features:
+#### Key features:
 
 * **Visual Expression Building** - Data filtering has never been user-friendlier. With RadFilter, you point-and-click to select your filter options and you are good to go.
 

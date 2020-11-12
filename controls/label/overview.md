@@ -16,7 +16,7 @@ position: 0
 The Label control provides server-side API that allows customization of its behavior. Simple and intuitive API allows easy integration with all controls by setting the **AssociatedControlID** property. Supports customization of the inner content such as adding icons and/or hyperlinks.
 
 
-## Key Features
+#### Key Features
 
 * Seamless integration with the ASP.NET and Telerik WebForms components
 * Consistent look and feel with Telerik ASP.NET AJAX controls on the page
