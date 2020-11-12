@@ -15,7 +15,7 @@ position: 0
 
 This help article describes the main features of the RadAjaxPanel, how to use it, and provides methods you can use if you need to use an external control to force RadAjaxPanel to perform an AJAX request. The **RadAjaxPanel** control provides the easiest way to AJAX-enable ASP.NET web controls. You simply need to place the controls that you want Ajax-enabled into a **RadAjaxPanel** and Telerik **RadAjax** takes care of the rest. Best of all, this happens transparently to the framework and the controls that are being Ajax-enabled.
 
-The main features of **RadAjaxPanel** are:
+## Key features:
 
 * Ajax-enables all controls inside that normally work with postbacks.
 

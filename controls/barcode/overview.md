@@ -14,7 +14,7 @@ position: 0
 
 The **RadBarcode** control can be used for automatic Barcode generation directly from a numeric or character data. It supports several standards that can be used when creating the image.
 
-List with **standard barcode types** is shown in the screenshot below:
+>caption List with **standard barcode types** is shown in the screenshot below:
 ![barcode overview](images/barcode_overview.png)
 
 ## Properties
