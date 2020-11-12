@@ -14,7 +14,7 @@ position: 0
 
 **Telerik RadTreeView for ASP.NET AJAX** is the supercharged treeview component for ASP.NET, combining highly-efficient rendering and AJAX Load on Demand support for superior performance. Added to this are SEO compliance, full drag-and-drop capabilities, and nearly codeless development experience.
 
-## Key Features
+#### Key Features
 
 * [Simple rendering]({%slug treeview/web-pages/rendering%}) for minimal HTML output.
 

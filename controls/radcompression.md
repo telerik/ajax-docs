@@ -11,11 +11,16 @@ CTAControlName: RadCompression
 
 # RadCompression
 
+
+>important RadCompression is deprecated. We advise that you consider using the dynamic content compression feature IIS 7 and later provide.
+>
+>RadCompression was designed to solve the problem where AJAX requests to dynamic content like aspx pages, and WebResource requests, were not compressed by IIS. This is no longer relevant since IIS 7 and later tackle this problem.
+>
+> If you are still concerned about the response size, you can consider storing the ViewState on the server instead of using the default hidden field.
+
+
 This article explains what is RadCompression and contains the following sections:
 
-{% if site.has_cta_panels == true %}
-{% include cta-panel-overview.html %}
-{% endif %}
 
 - [RadCompression](#radcompression)
     - [What is RadCompression?](#what-is-radcompression)
@@ -27,12 +32,9 @@ This article explains what is RadCompression and contains the following sections
     - [What is the benefit?](#what-is-the-benefit)
     - [Optimization tip summary](#optimization-tip-summary)
 
->important RadCompression is deprecated. We advise that you consider using the dynamic content compression feature IIS 7 and later provide.
->
->RadCompression was designed to solve the problem where AJAX requests to dynamic content like aspx pages, and WebResource requests, were not compressed by IIS. This is no longer relevant since IIS 7 and later tackle this problem.
->
-> If you are still concerned about the response size, you can consider storing the ViewState on the server instead of using the default hidden field.
-
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
 
 ## What is RadCompression?
 

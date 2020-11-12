@@ -17,6 +17,8 @@ position: 0
 
 Since **Q3 2013** the [Tiles]({%slug tilelist/tiles/overview%}) can be used as standalone controls with their own events, methods and properties.
 
+#### Top Features
+
 The control offers a rich set of features:
 
 * **Various Tile types**

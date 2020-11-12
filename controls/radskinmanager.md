@@ -13,9 +13,7 @@ CTAControlName: SkinManager
 
 This article provides the following information:
 
-{% if site.has_cta_panels == true %}
-{% include cta-panel-overview.html %}
-{% endif %}
+
 
 * [What is RadSkinManager](#what-is-radskinmanager)
 
@@ -28,6 +26,11 @@ This article provides the following information:
    * [Register custom skins by specifying a path](#loading-skins-by-specifying-a-path)
 
    * [Register custom skins from an external assembly](#loading-skins-from-an-external-assembly)
+   
+   
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
 
 ## What is RadSkinManager?
 

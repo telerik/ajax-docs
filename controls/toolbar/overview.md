@@ -12,9 +12,11 @@ position: 0
 
 
 
-## 
+**Telerik RadToolBar for ASP.NET AJAX** lets you build tool bars used in ASP.NET applications. 
 
-**Telerik RadToolBar for ASP.NET AJAX** lets you build tool bars used in ASP.NET applications.Using **RadToolBar**, you get
+#### Features
+
+Using **RadToolBar**, you get
 
 * A [client-side API]({%slug toolbar/client-side-programming/overview%}) that includes the ability to respond when the user clicks a button without unnecessary postbacks.
 

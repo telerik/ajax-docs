@@ -11,10 +11,9 @@ position: 0
 # TreeList Overview
 
 
-
-## 
-
 Telerik RadTreeList is a hybrid control combining treeview and grid in one. It gives you the opportunityfor hierarchical representation of the underlying data like in a treeview. In addition it can have multiple columnsand provides you with the ability to perform advanced operations like paging, sorting, selecting items, etc.
+
+#### Key Features
 
 The key features of the RadTreelist control are:
 

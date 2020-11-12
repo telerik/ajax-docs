@@ -10,7 +10,10 @@ position: 0
 
 # Window Overview
 
-Telerik RadWindow lets you build customized dialog boxes and modal or non-modal windows for a web application.Each RadWindow object generates a popup window that appears in the browser. However, unlike browser windows, RadWindow objects offer several advantages:
+Telerik RadWindow lets you build customized dialog boxes and modal or non-modal windows for a web application. Each RadWindow object generates a popup window that appears in the browser. 
+
+
+#### Advantages over the browser windows:
 
 * **The appearance of Telerik RadWindow can be easily customized** using [skins]({%slug window/appearance-and-styling/skins%}). This allows you to easily blend it with the design of your web application. RadWindowfeatures new transparency and animation effects. In addition in the new version you can have different skins for different RadWindows on the same page.
 

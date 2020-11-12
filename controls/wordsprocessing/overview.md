@@ -18,6 +18,10 @@ position: 0
    ![RadWordsProcessing Overview image](images/RadWordsProcessing_Overview_01.png)
 
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-introduction.html %}
+{% endif %}
+
 ## Model
 
 The model of **RadWordsProcessing** includes:
