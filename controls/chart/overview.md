@@ -6,6 +6,7 @@ slug: chart/overview
 tags: overview
 published: True
 position: 0
+CTAControlName: Chart
 ---
 
 # Chart Overview

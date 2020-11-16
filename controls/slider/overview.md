@@ -6,6 +6,7 @@ slug: slider/overview
 tags: overview
 published: True
 position: 0
+CTAControlName: Slider
 ---
 
 # Slider Overview

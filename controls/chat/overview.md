@@ -6,6 +6,7 @@ slug: chat/overview
 tags: overview
 published: True
 position: 0
+CTAControlName: Chat
 ---
 
 # RadChat Overview

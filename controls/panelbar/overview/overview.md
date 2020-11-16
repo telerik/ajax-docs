@@ -6,6 +6,7 @@ slug: panelbar/overview/overview
 tags: overview
 published: True
 position: 0
+CTAControlName: PanelBar
 ---
 
 # RadPanelBar Overview

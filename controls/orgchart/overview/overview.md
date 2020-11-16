@@ -6,6 +6,7 @@ slug: orgchart/overview/overview
 tags: overview
 published: True
 position: 0
+CTAControlName: OrgChart
 ---
 
 # RadOrgChart Overview

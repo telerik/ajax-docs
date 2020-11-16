@@ -6,6 +6,7 @@ slug: cloudupload/overview
 tags: overview, cloudupload, asp.net
 published: True
 position: 0
+CTAControlName: CloudUpload
 ---
 
 # CloudUpload Overview
