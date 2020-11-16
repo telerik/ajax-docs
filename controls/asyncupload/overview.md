@@ -88,6 +88,11 @@ Internally, **RadAsyncUpload** can choose between four modules for uploading - F
 
 In web farms, each server will need to use the *same MachineKey* that **RadAsyncUpload** uses for encryption. Most web farms should already have their MachineKeys synchronized as this is the recommended approach for web farm deployment.
 
+## What is the max file size that the AsyncUpload can handle?
+
+One of the benefits of RadAsyncUpload is that it allows you to upload files bigger than 2GB as explained at [Uploading Large Files]({%slug asyncupload/functionality/uploading-large-files%}).
+
+
 # See Also
 
  * [First Steps]({%slug getting-started/first-steps%})
@@ -99,5 +104,10 @@ In web farms, each server will need to use the *same MachineKey* that **RadAsync
  * [RadAsyncUpload vs. RadUpload for ASP.NET AJAX]({%slug asyncupload/radasyncupload-vs-radupload%})
 
  * [RadAsyncUpload Modules]({%slug asyncupload/upload-modules%})
+ 
+ * [Uploading Large Files]({%slug asyncupload/functionality/uploading-large-files%})
 
  * [Online Demos](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx)
+ 
+
+ 
