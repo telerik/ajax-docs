@@ -19,7 +19,7 @@ The **RadDropDownTree** control is a combination of a lightweight dropdown and a
 ![Overview](images/dopdowntree_overview.png)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Main features of the RadDropDownTree

@@ -26,7 +26,7 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 ![dropdownlist-overview](images/dropdownlist-overview.png)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Why choose RadDropDownList?

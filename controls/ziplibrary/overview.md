@@ -19,7 +19,7 @@ Have you ever wondered how to increase the responsiveness of your applications b
 ![Zip Library Overview image](images/ZipLibrary_Overview_01.png)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 This is a list with short descriptions of the top-of-the-line features of Telerik's __Zip Library__ control:

@@ -19,7 +19,7 @@ position: 0
 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 ## Model

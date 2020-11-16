@@ -27,7 +27,7 @@ It is a powerful and at the same time easy-to-use control that represents data i
 * [Flexible rendering engine]({%slug orgchart/functionality/rendered-fields%}).
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 This control provides the best way to visualize and understand your workforce by simple and easy to illustrate hierarchical relationships.

@@ -37,7 +37,7 @@ position: 0
 elements, without generating any additional Html - hidden inputs, divs, etc. Thus it integrates seamlessly into the page and doesn't require any changes to the existing page's layout.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 #### Key features

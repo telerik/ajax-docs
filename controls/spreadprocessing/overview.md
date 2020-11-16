@@ -18,7 +18,7 @@ This library enables you to work with spreadsheet documents – create ones from
 ![RadSpreadProcessing Overview image](images/RadSpreadProcessing_Overview_01.png)
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 **RadSpreadProcessing** comes with support for:

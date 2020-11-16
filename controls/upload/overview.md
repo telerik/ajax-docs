@@ -16,7 +16,7 @@ position: 0
 >
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 **Telerik RadUpload** is a set of three controls for uploading files and monitoring the progress of uploads (or other long processes). These controls provide tight integration with ASP.NET AJAX. **RadUpload for ASP.NET AJAX** contains:

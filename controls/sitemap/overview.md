@@ -19,7 +19,7 @@ position: 0
 Improve you web page load time with the flexible, lightweight **RadSiteMap** control for ASP.NET AJAX. This UI component with its efficient semantic rendering gives you a lightning fast solution and highly optimized HTML output. With the ease of Telerik’s SiteMap for ASP.NET AJAX you can organize and list the pages on your web site, customize the layout, choose from a variety of appearance options and templates. Add value to your web site by optimizing it for crawler and search engines with no extra development effort.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
 
 **Semantic Rendering for Minimal HTML**

@@ -20,7 +20,7 @@ __RadPdfProcessing__ is a processing library that allows to create, import and e
 The API of RadPdfProcessing contains two different editors, enabling you to choose between editing in a flow-like manner, or using the much more powerful and flexible fixed document structure and drawing on the page.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-overview.html %}
 {% endif %}
             
 The document model of the library provides support for:
