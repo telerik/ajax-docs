@@ -169,6 +169,9 @@ navigation:
     "controls/button":
         title: "Button"
         position: 1
+    "controls/breadcrumb":
+        title: "Breadcrumb"
+        position: 1
     "controls/calendar":
         title: "Calendar"
         position: 1
@@ -1962,6 +1965,7 @@ intro_columns:
     title: "Navigation"
     items:
       "Button": "button/telerik's-asp.net-button-overview"
+      "Breadcrumb": "breadcrumb/overview"
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
       "Drawer": "drawer/overview"
