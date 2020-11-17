@@ -170,7 +170,7 @@ Please check the following:
 
 ### Dealing with the 500 Error Code (Server Error)
 
-Check the detailed error message where the two common cases are:
+Check the detailed error message where the common cases are:
 
 1. "Padding is invalid and cannot be removed"
 
@@ -183,6 +183,12 @@ Check the detailed error message where the two common cases are:
 1. [RadAsyncUpload throws HTTP 500 with a red dot beside the uploaded file name](https://stackoverflow.com/questions/20170482/radasyncupload-throws-http-500-with-a-red-dot-beside-the-uploaded-file-name) - Make sure that the Telerik.Web.UI.WebResource.axd handler is registered in the web.config.
 
 1. [Telerik.Web.UI.WebResource.axd 500 (Internal Server Error)](https://stackoverflow.com/questions/21490064/telerik-web-ui-webresource-axd-500-internal-server-error) - the error might be due to a missing/incorrect stylesheet webresource file - in this case, upgrade to the latest available version of the product. You can also  the value of the RenderMode property to Lightweight/Classic to see whether it will help. Please also report such an errors in the [feedback portal](https://feedback.telerik.com/aspnet-ajax), the ticketing system or the [forum](https://www.telerik.com/forums/aspnet-ajax) so that we can verify and fix them.
+
+1. Sys.WebForms.PageRequestManagerServerErrorException: An unknown error occurred while processing the request on the server. The status code returned from the server was: 500 - 
+Usually such an error is thrown when multiple (or nested) AJAX requests are initiated in one and the same time or there is a server error thrown during an AJAX update. You can disable temporary the AJAX on the page in order to see what the actual error thrown on the page is and debug further the cause of it. You can see how to do this easily here: 
+[Get more descriptive errors by disabling AJAX](https://www.telerik.com/support/kb/aspnet-ajax/ajaxmanager/details/how-to-disable-ajax-temporarily).
+Also make sure that the handlers are registered properly inside the <httpHandlers> and <handlers> section of the web.config file as explained at [Mandatory Additions to the web.config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig). You can find other possible reason for the error on [ASP.NET, The status code returned from the server was: 500](https://stackoverflow.com/questions/2351504/asp-net-the-status-code-returned-from-the-server-was-500#:~:text=HTTP%20error%20code%20500%20simply,what%20the%20%22something%22%20is.) and [Error: Sys.WebForms.PageRequestManagerServerErrorException](https://www.telerik.com/forums/error-sys-webforms-pagerequestmanagerservererrorexception-an-unknown-error-occurred-while-processing-the-request-on-the-server-the-status-code-returne). 
+Another way to look for the cause of the problem is to remove the AJAX settings one by one unless you find the one leading to the error and, respectively, the controls which updatе is causing it.
 
 ### What to do if there is no error, but the body of the returned resource is blank
 
