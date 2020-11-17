@@ -158,6 +158,7 @@ When you set this key to `true`, no files can be uploaded to the default handler
 	  * [Unrestricted File Upload (CVE-2014-2217 and CVE-2017-11317)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/unrestricted-file-upload)
 	  * [Cryptographic Weakness (CVE-2017-9248)](https://www.telerik.com/support/kb/aspnet-ajax/details/cryptographic-weakness)
 	  * [Insecure Direct Object Reference (CVE-2017-11357)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/insecure-direct-object-reference)
+	  * Other places to check for Telerik related vulnerabilities are the CVE databases such as [https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html](https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html) and [https://nvd.nist.gov/vuln/data-feeds](https://nvd.nist.gov/vuln/data-feeds) as advised by the [First 5 Tips for Building Secure (Web) Apps](https://www.telerik.com/blogs/first-5-tips-for-building-secure-web-apps) blog post. 
 * *Are there any other Security articles to check* - Yes, please review the following resources:
 	* [Mandatory Additions to the web.config]({%slug general-information/web-config-settings-overview%})
 	* [RadEditor Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security)
