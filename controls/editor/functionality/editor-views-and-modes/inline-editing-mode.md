@@ -10,7 +10,7 @@ position: 2
 
 # Inline Editing Mode
 
-This article showcases the **Inline Editing** functionality of the	**Telerik ASP.NET AJAX Editor** that is available as of	**Q3 2014**. You can see it in action in the [Inline Editing](https://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)	live demo.
+This article showcases the **Inline Editing** functionality of the	**Telerik ASP.NET AJAX Editor** that is available as of	**Q3 2014**. You can see it in action in the [Inline Editing](https://demos.telerik.com/aspnet-ajax/editor/examples/inline-editing/defaultcs.aspx)	live demo.
 
 This article contains the following sections:
 
