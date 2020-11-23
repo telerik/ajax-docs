@@ -149,12 +149,15 @@ When you set this key to `true`, no files can be uploaded to the default handler
 
 ## Frequently Asked Questions
 
+* *RadAsyncUpload component in not used in the web app, is the app still vulnerable to the known vulnerabilities in the RadAsyncUpload?* - Your app will be safe from the known vulnerabiltieis if the Telerik.Web.UI.dll assembly is released before Q1 2010 (version 2010.1.309) or after R3 2019 SP1 (2019.3.1023). For more information please refer to the [Allows JavaScriptSerializer Deserialization (CVE-2019-18935)](https://www.telerik.com/support/kb/aspnet-ajax/details/allows-javascriptserializer-deserialization) article.
+* *How to generate the security keys?* - See the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
+* *How to find what version of the Telerik the website used?* - You can see the version in the source code of the page. Search for <!- 20. Another way to check the assembly version is to right click on the Telerik.Web.UI.dll -> Properties -> Details -> Product version.
 * *Am I supposed to decrypt the RadAsyncUpload settings?* - The ecryption/decryption of the AsyncUpload settings is performed built-in by the control and you are not supposed to do anything more than setting the [ConfigurationEncryptionKey](#ConfigurationEncryptionKey) and [ConfigurationHashKey](#ConfigurationHashKey) settings and their secure keys in the web.config. 
 * *How to secure the uploaded files?* - The AsyncUpload does not manipulate the files itself. The files need to be secured manually either on a postback as explained in [How to manipulate the uploaded files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}) and/or by implementing a [Custom RadAsyncUpload Handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}). 
-* *How to generate the security keys?* - See the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
 * *How large (in bits or bytes) these encryption keys must be?* - We recommend a very strong encryption mechanism such as HMACSHA256.
 * *Where do we find a complete list of the known vulnerabilities?* - The KB articles below discuss all the known vulnerabilities in the Telerik AJAX controls:
 	* [Allows JavaScriptSerializer Deserialization (CVE-2019-18935)](https://www.telerik.com/support/kb/aspnet-ajax/details/allows-javascriptserializer-deserialization)
+	* [Blue Mockingbird Vulnerability Picks up Steam—Telerik Guidance blog post (CVE-2019-18935)](https://www.telerik.com/blogs/blue-mockingbird-vulnerability-telerik-guidance)
 	* [Unrestricted File Upload (CVE-2014-2217 and CVE-2017-11317)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/unrestricted-file-upload)
 	* [Cryptographic Weakness (CVE-2017-9248)](https://www.telerik.com/support/kb/aspnet-ajax/details/cryptographic-weakness)
 	* [Insecure Direct Object Reference (CVE-2017-11357)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/insecure-direct-object-reference)
