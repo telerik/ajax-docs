@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadToolTip
 # Telerik.Web.UI.RadToolTip
 
 RadToolTip class
-            You can find information on the server API of RadToolTip at https://docs.telerik.com/devtools/aspnet-ajax/controls/tooltip/server-side-programming/overview Server-Side Programming Overview.
+            You can find information on the Server-side API of RadToolTip at https://docs.telerik.com/devtools/aspnet-ajax/controls/tooltip/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 

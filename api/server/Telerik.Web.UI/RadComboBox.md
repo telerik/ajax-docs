@@ -15,7 +15,7 @@ The RadComboBoxcontrol supports the following features:
             		The value of the P:Telerik.Web.UI.RadComboBoxItem.Text Textproperty is displayed in the RadComboBoxcontrol, 
             		while the P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty is used to store any additional data about the item, 
             		such as data passed to the postback event associated with the item. 
-                You can find information on the server API of RadComboBox at https://docs.telerik.com/devtools/aspnet-ajax/controls/combobox/server-side-programming/events Events.
+                You can find information on the server API of RadComboBox at https://docs.telerik.com/devtools/aspnet-ajax/controls/combobox/server-side-programming/events .
 
 ## Inheritance Hierarchy
 

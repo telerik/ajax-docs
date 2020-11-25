@@ -13,7 +13,7 @@ Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadA
             the controls that you want ajaxified into Telerik.Web.UI.RadAjaxPanel and Telerik RadAjax takes 
             care of the rest. Best of all this happens transparently to the framework and the 
             controls that are being ajaxified.
-            You can find information on the server API of RadAjaxPanel at https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxpanel/server-side-programming/properties Server-Side Programming.
+            You can find information on the server API of RadAjaxPanel at the Server-Side Programming article here: https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxpanel/server-side-programming/properties .
 
 ## Inheritance Hierarchy
 

@@ -25,7 +25,7 @@ The RadMenucontrol is used to display a list of menu items in a Web Forms
             		while the P:Telerik.Web.UI.RadMenuItem.Value Valueproperty is used to store any additional data about the item, 
             		such as data passed to the postback event associated with the item. When clicked, an item can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadMenuItem.NavigateUrl NavigateUrlproperty.
-                You can find information on the server API of RadMenu at https://docs.telerik.com/devtools/aspnet-ajax/controls/menu/server-side-programming/events Events.
+                You can find information on the Server-side API of RadMenu at https://docs.telerik.com/devtools/aspnet-ajax/controls/menu/server-side-programming/events .
 
 ## Inheritance Hierarchy
 

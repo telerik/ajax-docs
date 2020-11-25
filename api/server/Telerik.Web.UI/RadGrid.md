@@ -21,7 +21,7 @@ Set properties of RadGrid as default for the corresponding properties of grid's
             according to the P:Telerik.Web.UI.GridTableView.ParentItem property key values.
             The P:Telerik.Web.UI.RadGrid.Columns of RadGrid property is a reference to the columns of the MasterTableView and is present in RadGrid for 
             compatibility with the DataGrid server control. 
-            You can find more information on the server properties and events of RadGrid at https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/server-side-programming/overview Server-Side Programming Overview.
+            You can find more information on the server properties and events of RadGrid at the Server-Side Programming Overview article here: https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 

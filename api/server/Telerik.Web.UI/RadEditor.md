@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadEditor
 # Telerik.Web.UI.RadEditor
 
 Telerik RadEditor
-            You can find information on the server properties, methods and events of RadEditor at https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/server-side-programming/overview Server-Side Programming Overview.
+            You can find information on the server properties, methods and events of RadEditor at https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 

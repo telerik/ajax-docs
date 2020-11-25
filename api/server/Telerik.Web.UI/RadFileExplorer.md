@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadFileExplorer
 # Telerik.Web.UI.RadFileExplorer
 
 Telerik File Explorer control
-            You can find information on the server-side API of RadFileExplorer at https://docs.telerik.com/devtools/aspnet-ajax/controls/fileexplorer/server-side-programming/overview Server-Side Programming Overview.
+            You can find information on the server-side API of RadFileExplorer at https://docs.telerik.com/devtools/aspnet-ajax/controls/fileexplorer/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 

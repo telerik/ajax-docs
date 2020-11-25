@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadHtmlChart
 # Telerik.Web.UI.RadHtmlChart
 
 Telerik HtmlChart control
-            You can find information on the server properties, methods and events of RadHtmlChart at https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/server-side-programming/overview Server-Side Programming Overview.
+            You can find information on the server properties, methods and events of RadHtmlChart at https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 

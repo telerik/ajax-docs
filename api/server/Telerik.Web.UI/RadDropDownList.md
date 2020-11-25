@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadDropDownList
 # Telerik.Web.UI.RadDropDownList
 
 This Class defines the RadDropDownList.
-                You can find information on the server API of RadDropDownList at https://docs.telerik.com/devtools/aspnet-ajax/controls/dropdownlist/server-side-programming/overview Server-side Programming Overview.
+                You can find information on the server API of RadDropDownList at https://docs.telerik.com/devtools/aspnet-ajax/controls/dropdownlist/server-side-programming/overview .
 
 ## Inheritance Hierarchy
 
