@@ -9,6 +9,7 @@ description: Telerik.Web.UI.RadNumericTextBox
 RadNumericTextBox restricts user input to numeric values. It shares the common properties
             of all RadInput controls, including support for skins, styles for different states, empty
             message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
+            You can find information on the server API of RadNumericTextBox at https://docs.telerik.com/devtools/aspnet-ajax/controls/numerictextbox/server-side-programming/properties Server-side Programming Overview.
 
 ## Inheritance Hierarchy
 

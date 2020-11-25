@@ -20,7 +20,8 @@ Set properties of RadGrid as default for the corresponding properties of grid's
             E:Telerik.Web.UI.RadGrid.DetailTableDataBind event, where you should set the DataSource of each bound detail table filtered
             according to the P:Telerik.Web.UI.GridTableView.ParentItem property key values.
             The P:Telerik.Web.UI.RadGrid.Columns of RadGrid property is a reference to the columns of the MasterTableView and is present in RadGrid for 
-            compatibility with the DataGrid server control.
+            compatibility with the DataGrid server control. 
+            You can find more information on the server properties and events of RadGrid at https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/server-side-programming/overview Server-Side Programming Overview.
 
 ## Inheritance Hierarchy
 

@@ -9,6 +9,7 @@ description: Telerik.Web.UI.RadDateTimePicker
 A Telerik.Web.UI.RadDateInput control with an integrated Telerik.Web.UI.RadCalendar control and an integrated Telerik.Web.UI.RadTimeView control. This combines the 
             features of Telerik.Web.UI.RadDatePicker and Telerik.Web.UI.RadTimePicker in a 
             single control for selecting both a date and a time value.
+                You can find information on the server API of RadDateTimePicker at https://docs.telerik.com/devtools/aspnet-ajax/controls/datetimepicker/server-side-programming/raddatetimepicker-object Server-side Programming Overview.
 
 ## Inheritance Hierarchy
 

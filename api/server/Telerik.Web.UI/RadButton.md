@@ -6,7 +6,8 @@ description: Telerik.Web.UI.RadButton
 
 # Telerik.Web.UI.RadButton
 
-RadButton control provides the features, that ASP.NET: Button, ImageButton, LinkButton, RadioButton and CheckBox controls have.
+RadButton control provides the features, that ASP.NET: Button, ImageButton, LinkButton, RadioButton and CheckBox controls have. 
+            You can find information on the server API of RadButton at https://docs.telerik.com/devtools/aspnet-ajax/controls/button/server-side-programming/properties-and-events Server-Side Programming Overview.
 
 ## Inheritance Hierarchy
 

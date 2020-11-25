@@ -14,7 +14,8 @@ The RadComboBoxcontrol supports the following features:
                     properties.Customizable appearance through built-in or user-defined skins.ItemsEach item has a P:Telerik.Web.UI.RadComboBoxItem.Text Textand a P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty. 
             		The value of the P:Telerik.Web.UI.RadComboBoxItem.Text Textproperty is displayed in the RadComboBoxcontrol, 
             		while the P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty is used to store any additional data about the item, 
-            		such as data passed to the postback event associated with the item.
+            		such as data passed to the postback event associated with the item. 
+                You can find information on the server API of RadComboBox at https://docs.telerik.com/devtools/aspnet-ajax/controls/combobox/server-side-programming/events Events.
 
 ## Inheritance Hierarchy
 
@@ -145,6 +146,10 @@ Use the CollapseDelay property to delay dropdown closing. To
                 cause immediate item closing set this property to 0 (zero).
                     To customize the timeout prior to item closing use the
                     ExpandDelay property.
+
+###  ControlId `String`
+
+The client-side id of the inner input element used for intergation with RadLabel
 
 ###  Controls `ControlCollection`
 

@@ -9,6 +9,7 @@ description: Telerik.Web.UI.RadAjaxManager
 Telerik.Web.UI.RadAjaxManager is one of the two major controls of the Telerik RadAjax suite. 
             The other one is Telerik.Web.UI.RadAjaxPanel . Telerik.Web.UI.RadAjaxManager allows
             developers rapidly develop powerful and complex AJAX solutions.
+            You can find information on the server API of RadAjaxManager at https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxmanager/server-side-programming/properties Server-Side Programming Overview.
 
 ## Inheritance Hierarchy
 

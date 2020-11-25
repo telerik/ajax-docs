@@ -7,6 +7,7 @@ description: Telerik.Web.UI.RadWindowManager
 # Telerik.Web.UI.RadWindowManager
 
 Telerik RadWindowManager
+            You can find information on the server API of RadWindowManager at https://docs.telerik.com/devtools/aspnet-ajax/controls/window/server-side-programming/properties Properties.
 
 ## Inheritance Hierarchy
 

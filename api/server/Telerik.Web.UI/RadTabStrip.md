@@ -24,6 +24,7 @@ The RadTabStripcontrol is used to display a list of tabs in a Web Forms
             		while the P:Telerik.Web.UI.RadTab.Value Valueproperty is used to store any additional data about the tab, 
             		such as data passed to the postback event associated with the tab. When clicked, a tab can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadTab.NavigateUrl NavigateUrlproperty.
+                You can find information on the server API of RadTabStrip at https://docs.telerik.com/devtools/aspnet-ajax/controls/tabstrip/server-side-programming/events Events.
 
 ## Inheritance Hierarchy
 

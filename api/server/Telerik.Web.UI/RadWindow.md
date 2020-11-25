@@ -7,6 +7,7 @@ description: Telerik.Web.UI.RadWindow
 # Telerik.Web.UI.RadWindow
 
 Telerik RadWindow
+            You can find information on the server API of RadWindow at https://docs.telerik.com/devtools/aspnet-ajax/controls/window/server-side-programming/properties Properties.
 
 ## Inheritance Hierarchy
 

@@ -10,6 +10,7 @@ A control which contains Telerik.Web.UI.RadPageView controls. Only one page view
 
 #### Remarks
 RadMultiPage is usually used with RadTabStrip to create paged data entry forms. Use the P:Telerik.Web.UI.RadTabStrip.MultiPageID property to associate a RadMultiPage control with RadTabStrip.
+                You can find information on the server API of RadMultiPage at https://docs.telerik.com/devtools/aspnet-ajax/controls/tabstrip/server-side-programming/events Events.
 
 ## Inheritance Hierarchy
 

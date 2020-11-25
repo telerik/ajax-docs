@@ -65,6 +65,10 @@ Use the CollapseAnimation property to customize the expand
                     To customize the expand animation you can use the
                     ExpandAnimation property.
 
+###  ControlId `String`
+
+The client-side id of the inner input element used for intergation with RadLabel
+
 ###  CssClassFormatString `String`
 
 The CssClass property will now be used instead of the former Skin 

@@ -370,7 +370,7 @@ When set to string.Empty, the files must be saved manually to the desired locati
 
 Sets how long temporary files should be kept before automatically deleting them.
             The property accepts TimeSpan values. The default value is 4 hours. More information regarding the TimeSpan structure can 
-            be found here - http://www.dotnetperls.com/timespan
+            be found here - https://www.dotnetperls.com/timespan
 
 #### Remarks
 Note that when a postback occurs temporary files are either saved as permanent or removed.
