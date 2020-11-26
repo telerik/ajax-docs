@@ -23,7 +23,7 @@ RadDrawer is a wrapper over the Kendo UI Drawer widget and so it exposes the [cl
 
 The exceptions are the OnInitialize and OnLoad events that are specific to the MS AJAX framework.
 
->caption Listing 1: The client-side events exposed by RadMultiColumnComboBox
+>caption Listing 1: The client-side events exposed by RadDrawer
 
   
 * [OnShow](https://docs.telerik.com/kendo-ui/api/javascript/ui/drawer/events/show)—Fires before the RadDrawer is revealed. Cancellable.
