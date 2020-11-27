@@ -10,9 +10,11 @@ position: 0
 
 # RadBreadcrumb Overview
 
-The RadBreadcrumb is an intuitive UI component that allows navigation within a folder structure or web page. It provides an easy way to navigate backwards by one or multiple steps.
+RadBreadcrumb is an intuitive UI component that allows navigation within a folder structure or web page. It provides an easy way to navigate backwards by one or multiple steps.
 
 RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrapper over the [Kendo UI Breadcrumb for jQuery](https://docs.telerik.com/kendo-ui/controls/navigation/breadcrumb/overview) widget.
+
+>caption Figure 1:
 
 ![Breadcrumb overview](images/breadcrumb-overview-basicusage.png)
 
@@ -32,7 +34,7 @@ RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrappe
 
 ## Add a RadBreadcrumb Control
 
-To add a RadBreadcrumb similar to the one in picture above follow the steps:
+To add a RadBreadcrumb similar to the one shown in Figure 1 follow the steps:
 
 1. Add a **ScriptManager** control on a Web Form.
 
@@ -51,6 +53,14 @@ To add a RadBreadcrumb similar to the one in picture above follow the steps:
     </Items>
 </telerik:RadBreadcrumb>
 ````
+
+## Skins
+
+The RadBreadcrumb control can be styled by setting a desired built-in skin:
+
+![Breadcrumb skins](images/breadcrumb-overview-skins.gif)
+
+Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
 Go ahead with the [Getting Started]({%slug breadcrumb/getting-started%}) article to learn more about Breadcrumb Control. Also, you can check out the [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx) to see it in action.
 
