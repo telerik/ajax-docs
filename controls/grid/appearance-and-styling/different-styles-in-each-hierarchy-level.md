@@ -16,7 +16,7 @@ position: 13
 
 Sometimes you may search the option to have different appearance settings for the table in hierarchical grid when one of the predefined [ skins ]({%slug grid/appearance-and-styling/skins%}) is applied. Since the skin definitions will override any additional css classes for the nested tables, you will need to put an *!important* keyword to the corresponding inner tables styles in order to take precedence over the grid table rendering. Thus the corresponding appearance setting will dominate over the style specified in the **Styles.css** file of the chosen skin.
 
-Below is a sample approach:
+Below is a sample approach that works for both RenderMode Classic and Lightweight:
 
 ````ASP.NET
 <html ASP.NETns="https://www.w3.org/1999/xhtml">
@@ -145,6 +145,8 @@ Below is a sample approach:
 </body>
 </html>
 ````
+
+For fine tunning you can examine the RadGrid CSS in the Chrome DevTools and experiment with the styles as explained in the following blog post [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools#see-the-applied-styles).
 
 
 
