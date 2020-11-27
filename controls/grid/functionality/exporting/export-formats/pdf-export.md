@@ -89,7 +89,7 @@ Although you can't modify the contents on **OnGridExporting**, you can use this 
 
 * to save the file on the server/send it via mail if needed.
 
-* to show the *PDF* file in *RadWindow* - there is a [blog post](https://blogs.telerik.com/vladimirenchev/posts/08-12-08/How_To_Export_grid_to_PDF_file_and_show_the_result_using_the_window.aspx) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
+* to show the *PDF* file in *RadWindow* - there is a [blog post](https://www.telerik.com/blogs/how-to-export-grid-to-pdf-file-and-show-the-result-using-the-window) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
 
 ## Appearance
 
