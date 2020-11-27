@@ -28,24 +28,24 @@ The following tutorial demonstrates how you can add the RadBreadcrumb control an
 
     * `Type` - Specifies if the BreadcrumbItemType is Item(default) or RootItem.
     Item - renders the items with text and no icon; RootItem - renders the item with icon and no text. The default value is *BreadcrumbItemType.Item*.
-    * `Href` - Defines the navigation link's url of the item (rendered if navigation is true).
+    * `Href` - Defines the navigation link's URL of the item (rendered if navigation is true).
     * `Text` - Defines the text of the item.
     * `Icon` - Defines the icon to be rendered.
     * `ItemClass` - Defines the item classes (applies to the rendered &lt;li&gt; element).
     * `IconClass`- Defines the icon classes (applies to the &lt;span&gt; element).
-    * `ShowIcon` - Defines whether to show the icon. Default value is *"true"* for **RootItem** and *"false"* for **Item**.
-    * `ShowText` - Defines whether to show the text. Default value is *"false"* for **RootItem** and *"true"* for **Item**.
+    * `ShowIcon` - Defines whether to show the icon. The default value is *"true"* for **RootItem** and *"false"* for **Item**.
+    * `ShowText` - Defines whether to show the text. The default value is *"false"* for **RootItem** and *"true"* for **Item**.
     * `Disabled` - Defines whether the item is disabled. The default value is *"false"*.
 
 Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 
 ````ASPX
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb3" RootIcon="pin" DelimiterIcon="divide" Editable="true" Skin="Silk" Navigational="true">
+<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb3" RootIcon="pin" DelimiterIcon="divide" Skin="Silk" Navigational="true">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" Text="Telerik UI for ASP.NET AJAX" ShowText="true" ItemClass="customRootItem" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
         <telerik:BreadcrumbItem Text="Controls" ShowIcon="true" Icon="folder-open" Disabled="true" IconClass="customIcon" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
-        <telerik:BreadcrumbItem Text="RadBreadcrumb" ToolTip="RadBreadcrumb" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
+        <telerik:BreadcrumbItem Text="RadBreadcrumb" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
         <telerik:BreadcrumbItem Text="Getting Started" Icon="star" ShowIcon="true" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/getting-started" />
     </Items>
 </telerik:RadBreadcrumb>

@@ -47,19 +47,19 @@ RadBreadcrumb1.Items.Add(item)
 
 * `Type` - Specifies if the **BreadcrumbItemType** is **Item**(default) or **RootItem**. 
 
-    * **RootItem** - renders the item with icon and no text.
+    * **RootItem** - renders the item with an icon and no text.
     * **Item** - renders the items with text and no icon.
 
-* `Text` - Defines the text of the item.
+* `Text` - Defines the text of the item. If set, its value is also applied as a tooltip of the item.
 * `Icon` - Defines the icon to be rendered. Gets a string value corresponding to a class from the [Kendo UI Web Font Icons](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web#list-of-font-icons). Find more related information in the [Icons]({%slug breadcrumb/functionality/icons%}) section.
-* `Href` - Defines the navigation link's url of the item. The Href is applied only if the **Navigational** propery of the **RadBreadcrumb** is set to *'true'*.
+* `Href` - Defines the navigation link's URL of the item. The Href is applied only if the **Navigational** property of the **RadBreadcrumb** is set to *'true'*.
 * `Disabled` - Defines whether the item is disabled.
 * `ToolTip` - Defines the title of the item that will be used as a tooltip. 
 
 >caption Appearance properties
 
-* `ShowText` - Defines whether to show the text. Default value is *'false'* for **RootItem** and *'true'* for **Item**.
-* `ShowIcon` - Defines whether to show the icon. Default value is *'true'* for **RootItem** and *'false'* for **Item**.
+* `ShowText` - Defines whether to show the text. The default value is *'false'* for **RootItem** and *'true'* for **Item**.
+* `ShowIcon` - Defines whether to show the icon. The default value is *'true'* for **RootItem** and *'false'* for **Item**.
 * `ItemClass` - Defines the item classes (applies to the rendered &lt;li&gt; element).
 * `LinkClass` - Defines the link classes (applies to the &lt;a&gt; element).
 * `IconClass`- Defines the icon classes (applies to the &lt;span&gt; element).
@@ -74,7 +74,7 @@ A sample with some of the Item's properties in use:
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" Text="Telerik UI for ASP.NET AJAX" ShowText="true" Icon="pin" ItemClass="customRootItem" ToolTip="Home page" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
         <telerik:BreadcrumbItem Text="Controls" ShowIcon="true" Icon="folder-open" Disabled="true" IconClass="customIcon" Href="/controls" />
-        <telerik:BreadcrumbItem Text="RadBreadcrumb" ToolTip="RadBreadcrumb for ASP.NET AJAX" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
+        <telerik:BreadcrumbItem Text="RadBreadcrumb" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
         <telerik:BreadcrumbItem Text="Functionality" ShowIcon="true" Icon="folder-open" Disabled="true"  Href="/functionality" />
         <telerik:BreadcrumbItem Text="Items" Icon="star" ShowIcon="true" Href="/items" />
     </Items>
@@ -91,13 +91,24 @@ A sample with some of the Item's properties in use:
 }
 ````
 
+>caption RootTilte
+
+For RootItems, where no text is rendered by default, setting a title (ToolTip) can also be done by using the **MessageSettings.RootTitle** property of the RadBreadcrumb. The RootTitle can be declared in the markup inside the &lt;MessageSettings&gt; inner tag:
+
+````ASPX
+<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1">
+    <MessagesSettings RootTitle="Home page" />
+````
+
+>note The RootTitle set in the MessagesSettings takes efect only if RootItem has no values assigned to its Text and ToolTip properties.
+
 ## Item template
 
 **RadBreadcrumb** uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the rendering of the items.
 
 The default appearance of the Breadcrumb Control can be achieved with the template declaration shown below. It can serve as a convenient basis for further modifications:
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="RadBreadcrumb1_DataBinding">
     <ItemTemplate>
         <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">

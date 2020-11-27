@@ -10,7 +10,7 @@ position: 1
 
 # Icons
 
-The Breadcrumb allows to configure the icons of the items and the delimiters. The built-in icons that can be used with the component are listed in the [Kendo UI Web Font Icons](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web#list-of-font-icons) page.
+The Breadcrumb allows configuring the icons of the items and the delimiters. The built-in icons that can be used with the component are listed on the [Kendo UI Web Font Icons](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web#list-of-font-icons) page.
 
 To include a desired icon from the list it is enough to set its name to the respective icon property - `RootIcon`, `DelimiterIcon` of the **RadBreadcrumb**, or `Icon` of each **BreadcrumbItem**.
 
@@ -20,9 +20,11 @@ To include a desired icon from the list it is enough to set its name to the resp
 
 The root icon is the icon rendered in the RootItem. It is clickable and resets the value of the component when clicked.
 
+![Change RootIcon](../images/breadcrumb-functionality-icons-rootIcon.png)
+
 The icon of the RootItem can be set via the `RootIcon` property of the **RadBreadcrumb**:
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" RootIcon="user">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" ToolTip="My Profile" />
@@ -32,9 +34,9 @@ The icon of the RootItem can be set via the `RootIcon` property of the **RadBrea
 </telerik:RadBreadcrumb>
 ````
 
-It can also be set by using the `Icon` property of the respective **BreadcrumbItem**
+The same result can be achievend by setting the `Icon` property of the respective **BreadcrumbItem**
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" ToolTip="My Profile" Icon="user" />
@@ -44,14 +46,9 @@ It can also be set by using the `Icon` property of the respective **BreadcrumbIt
 </telerik:RadBreadcrumb>
 ````
 
-Both of the code snippets above will have the same result:
-
-![Change RootIcon](../images/breadcrumb-functionality-icons-rootIcon.png)
-
 In case the `RootIcon` is not set explicitly, it gets its default value - "home"
 
 >note If different icons are set to the `RootIcon` property of the **RadBreadcrumb** and to the `Icon` property of **BreadcrumbItem** with type RootItem, the one set to the Item takes effect.
->
 
 >note By default the RootIcon is visible. It can be hidden by setting the `ShowIcon` property of the RootItem to *'false'* 
 
@@ -59,7 +56,7 @@ In case the `RootIcon` is not set explicitly, it gets its default value - "home"
 
 The delimiter icon is the icon rendered between the items in the Breadcrumb. It can be set via the `DelimiterIcon` property of the Breadcrumb:
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb2" DelimiterIcon="divide">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" />
@@ -75,9 +72,9 @@ The delimiter icon is the icon rendered between the items in the Breadcrumb. It 
 
 ## Item Icon
 
-The icons rendered for each item. It is also clickable and can be configured through the `Icon` property of **BreadcrumbItem**. By default the Item icon is not visible (despite for RootItems). To show the icon for an item set its `ShowIcon` property to *'true'*
+The icons rendered for each item. It is also clickable and can be configured through the `Icon` property of **BreadcrumbItem**. By default, the Item icon is not visible (despite for RootItems). To show the icon for an item set its `ShowIcon` property to *'true'*
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" >
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" />
@@ -101,7 +98,7 @@ Sample usage of the `IconClass` property is shown below:
 
 And the code to achieve this appearance:
 
-````
+````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb2" Skin="Silk" >
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" IconClass="largeGreenIcon" />
@@ -118,5 +115,5 @@ And the code to achieve this appearance:
     }
 </style>
 ````
-
+ 
 
