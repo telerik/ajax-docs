@@ -10,13 +10,11 @@ position: 0
 
 # Skins
 
-
-
-This help article discusses using skins in **RadGrid**. You can see examples of the built-in skins, you can learn how to create custom skins, plus you'llsee major properties you'll use to customize skins as well as a list of required names for skin images you must use for custom skins.
+This help article discusses using skins in **RadGrid**. You can see examples of the built-in skins, you can learn how to create custom skins, plus you'll see major properties you'll use to customize skins as well as a list of required names for skin images you must use for custom skins.
 
 By default, all controls in the Telerik UI for ASP.NET suite have a polished look and feel, which is consistent across the whole product line.
 
-All resources (scripts, skins, etc.) are implemented as Embedded WebResources in ASP.NET 3.x\4.x for a very easy and convenient deployment. The only thing you need to do is drag **RadGrid** from your toolbox onto your web page (no external files will be required) and **RadGrid** will use its default skin.
+All resources (scripts, skins, etc.) are implemented as Embedded WebResources in ASP.NET 3.5-4.8 for a very easy and convenient deployment. The only thing you need to do is drag **RadGrid** from your toolbox onto your web page (no external files will be required) and **RadGrid** will use its default skin.
 
 Generally, you can change the existing grid skins by setting the **Skin** property to the name of the skin. See the sections below for more info.
 
@@ -35,63 +33,23 @@ Except setting the **Skin** property to one of the built-in skins you can use it
 
 * If a skin is not explicitly defined, the **Default** skin from the embedded web resources will be used.
 
-* You can use a predefined skin or your own skin. When following the second approach you need to set EnableEmbeddedSkins=false and define **Skin** and **ImagesPath** property values (see the next paragraph for more details).
+* You can use a predefined skin or your own skin. When following the second approach you need to set EnableEmbeddedSkins=false and define **Skin** property value (see the next paragraph for more details).
 
 ## Creating Custom Skins for RadGrid
 
 A developer can create custom skins to use in **RadGrid**. They are not embedded so the control cannot register them automatically. If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of the control to **false**. If you do not do so, the following exception will be thrown saying that there is no embedded skin matching the **Skin** property:
 
-> Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false. *
+> Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false.
 
-By default, **RadGrid** expects the icons for its various action buttons to be part of the custom skin's stylesheet. This is the most common and recommended approach. Usually, all icons are part of a single sprite image, although this is not a requirement and you can point the resspective CSS rules to individual images.
+You can see how to create a custom skin with the desired name with the help of the [Telerik Theme Builder](https://themebuilder.telerik.com/aspnet-ajax) in the [following video](https://www.youtube.com/watch?v=0kiuagrNvac) and the [Sass Theme Builder Overview article]({%slug theme-builder/overview%}). 
 
-Alternatively, you can use separate icons, which are not part of the skin's styles. In order to set the filtering/sorting/paging/expand/collapse images and the data editing images (edit/update/delete/add record/refresh), you can create your own images and set the path to them through the **ImagesPath** property of **RadGrid**. In order to be referenced properly, the names of these images should match those for the predefined skins (see the list below).
+You can learn how to apply the new custom skin at [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}).
 
-**Filtering images**
+For more information please check the [Custom Skin demo](https://demos.telerik.com/aspnet-ajax/grid/examples/styles/custom-skin/defaultcs.aspx).
 
-Filter.gif
-
-**Sorting images**
-
-SortAsc.gif
-
-SortDesc.gif
-
-**Expand/Collapse images**
-
-SinglePlus.gif
-
-SingleMinus.gif
-
-**Pager images**
-
-PagingFirst.gif
-
-PagingLast.gif
-
-PagingNext.gif
-
-PagingPrevious.gif
-
-**Edit/Update/Delete/Insert/Cancel/Add record/Refresh images**
-
-Edit.gif
-
-Update.gif
-
-Delete.gif
-
-Cancel.gif
-
-AddRecord.gif
-
-Refresh.gif
-
-**Reorder indicators images**
-
-MoveUp.gif
-
-MoveDown.gif
+## Modifying an existing skin
+The skins created in the [Telerik Theme Builder](https://themebuilder.telerik.com/aspnet-ajax) can be imported via its interface and modified as many times as you wish - see [Importing a Theme]({%slug theme-builder/import%}).
+You can see how to modify an existing skin at [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%}).
 
 ## Properties (Applicable When Not Using an Embedded or External Skin)
 
@@ -111,30 +69,16 @@ You can customize the appearance of the **RadGrid** control by setting the style
 | **SelectedItemStyle** |Specifies the style for the selected item in the **RadGrid** control.|
 | **GroupHeaderItemStyle** |Specifies the style for the group header in the **RadGrid** control.|
 
-## Images
 
-The skin's images have to be named as follows:
-
-
->caption  
-
-|  **Image**  |  **File name**  |
-| ------ | ------ |
-|![AddRecord.gif](images/grd_AddRecord.gif)| **AddRecord.gif** |
-|![Cancel.gif](images/grd_Cancel.gif)| **Cancel.gif** |
-|![Delete.gif](images/grd_Delete.gif)| **Delete.gif** |
-|![Edit.gif](images/grd_Edit.gif)| **Edit.gif** |
-|![Filter.gif](images/grd_Filter.gif)| **Filter.gif** |
-|![Refresh.gif](images/grd_Refresh.gif)| **Refresh.gif** |
-|![SingleMinus.gif](images/grd_SingleMinus.gif)| **SingleMinus.gif** |
-|![SinglePlus.gif](images/grd_SinglePlus.gif)| **SinglePlus.gif** |
-|![SortAsc.gif](images/grd_SortAsc.gif)| **SortAsc.gif** |
-|![SortDesc.gif](images/grd_SortDesc.gif)| **SortDesc.gif** |
-|![Update.gif](images/grd_Update.gif)| **Update.gif** |
 
 ## See Also
 
+ * [Controlling Visual Appearance Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%})
+ * [Sass Theme Builder Overview article]({%slug theme-builder/overview%})
  * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
+ * [Custom Skin demo](https://demos.telerik.com/aspnet-ajax/grid/examples/styles/custom-skin/defaultcs.aspx)
+ * [How to Load Skins from External Assemblies article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%})
+ * [How to load skins from external assemblies code library](https://www.telerik.com/support/code-library/how-to-load-skins-from-external-assemblies)
  * [HTML Output]({%slug grid/appearance-and-styling/html-output%})
  * [Modifying Existing Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
 
