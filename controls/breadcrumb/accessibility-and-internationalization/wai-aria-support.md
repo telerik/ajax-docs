@@ -10,18 +10,15 @@ position: 3
 
 # WAI-ARIA Support
 
+**RadBreadcrumb** follows the WAI-ARIA Authoring Practices for implementing the keyboard navigation for its component role.
 
-## WAI-ARIA
+The Breadcrumb uses the *aria-current="true"* attribute to mark the current **BreadcrumbItem** and the *aria-disabled* property to mark the disabled state of each item.
 
-The component follows the WAI-ARIA Authoring Practices for implementing the keyboard navigation for its component role.
- <!-- and is tested against the popular screen readers.  -->
-The Breadcrumb uses the *aria-current="true"* attribute to mark the current **BreadcrumbItem**.
- <!-- The *aria-disabled* attribute is set on the elements depending on the disabled option. -->
+>note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
+>
 
-## Section 508
+# See Also
 
-The Breadcrumb is compliant with the Section 508 requirements. For more information, refer to the article on Section 508 support in Telerik UI for ASP.NET MVC.
+ * [WAI-ARIA basic information](https://www.w3.org/WAI/intro/aria)
 
-## WCAG 2.1
 
-The Breadcrumb supports the standards for providing accessible web content which are set by the Web Content Accessibility Guidelines 2.1. For more information, refer to the article on WCAG 2.1 compliance in UI for ASP.NET MVC

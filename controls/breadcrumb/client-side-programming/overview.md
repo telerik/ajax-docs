@@ -2,7 +2,7 @@
 title: RadBreadcrumb object
 page_title: RadBreadcrumb object | RadBreadcrumb for ASP.NET AJAX Documentation
 description: RadBreadcrumb object
-slug: breadcrumb/client-side-programming/radbreadcrumb-object
+slug: breadcrumb/client-side-programming/overview
 tags: radbreadcrumb,object
 published: True
 position: 0
@@ -22,16 +22,18 @@ RadBreadcrumb is a server-side wrapper over the Kendo UI Breadcrumb Widget. Thus
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
-````JavaScript
-var breadcrumbObject  = $find("<%=RadBreadcrumb1.ClientID %>"); //the standard script control object
-var kendoBreadcrumb = breadcrumbObject.get_kendoWidget(); //the Kendo widget
-````
+    **JavaScript**
+
+        var breadcrumbObject  = $find("<%=RadBreadcrumb1.ClientID %>"); //the standard script control object
+        var kendoBreadcrumb = breadcrumbObject.get_kendoWidget(); //the Kendo widget
+
 
 * Get the Kendo Widget in its usual way. Make sure to use the `$telerik.$` jQuery reference:
 
-````JavaScript
-var kendoBreadcrumb = $telerik.$("#<%=RadBreadcrumb1.ClientID %>").data("kendoBreadcrumb"); 
-````
+    **JavaScript**
+    
+        var kendoBreadcrumb = $telerik.$("#<%=RadBreadcrumb1.ClientID %>").data("kendoBreadcrumb"); 
+
 
 In addition to using the Kendo methods directly, you can also use their wrappers that follow the MS AJAX convention through the RadBreadcrumb client object.
 

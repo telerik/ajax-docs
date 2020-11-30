@@ -22,6 +22,8 @@ The root icon is the icon rendered in the RootItem. It is clickable and resets t
 
 ![Change RootIcon](../images/breadcrumb-functionality-icons-rootIcon.png)
 
+>note By default the RootIcon is visible. It can be hidden by setting the `ShowIcon` property of the RootItem to *'false'* 
+
 The icon of the RootItem can be set via the `RootIcon` property of the **RadBreadcrumb**:
 
 ````ASPX
@@ -34,7 +36,7 @@ The icon of the RootItem can be set via the `RootIcon` property of the **RadBrea
 </telerik:RadBreadcrumb>
 ````
 
-The same result can be achievend by setting the `Icon` property of the respective **BreadcrumbItem**
+The same result can be achieved by setting the `Icon` property of the respective **BreadcrumbItem**
 
 ````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1">
@@ -49,8 +51,6 @@ The same result can be achievend by setting the `Icon` property of the respectiv
 In case the `RootIcon` is not set explicitly, it gets its default value - "home"
 
 >note If different icons are set to the `RootIcon` property of the **RadBreadcrumb** and to the `Icon` property of **BreadcrumbItem** with type RootItem, the one set to the Item takes effect.
-
->note By default the RootIcon is visible. It can be hidden by setting the `ShowIcon` property of the RootItem to *'false'* 
 
 ## Delimiter Icon
 

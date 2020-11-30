@@ -18,7 +18,7 @@ The following tutorial demonstrates how you can add the RadBreadcrumb control an
 
 1. Add a **ScriptManager** control on a Web Form.
 
-1. Add a **RadBreadcrumb** control to the page, and set the desired properties:
+1. Add a **RadBreadcrumb** control to the page, and set the desired properties, like:
 
     * `DelimiterIcon` - Defines the name of an existing icon in the [Kendo UI Web Font Icons](https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web#list-of-font-icons). The icon will be applied as a separator between the segments of the Breadcrumb path. The default value is *"arrow-chevron-right"*.
     * `Navigational` - Indicates whether the navigation functionality of the Breadcrumb will be enabled/disabled. When **Navigational** is set to *"true"*, the URL (path) will be automatically added to the *href* attribute of the rendered links. In this state, the click event will trigger navigation. The default value is *"false"*.
@@ -61,4 +61,8 @@ Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 ````
 
  As a next step, you can check out the [Functionality]({%slug breadcrumb/functionality/items%}) of the RadBreadcrumb.
+
+# See Also
+ * [Server-side Programming]({%slug breadcrumb/server-side-programming/overview%})
+
 
