@@ -17,9 +17,11 @@ The keyboard navigation of the RadBreadcrumb is always available.
 `Enter`
 * When the Control is focused and its `Editable` property is set to true, triggers edit mode.
 * When an item is focused and the `Navigational` property is set to true, navigates to the URL set to the respective **BreadcrumbItem**.
-* When the Breadcrumb is in edit mode, saves the changes, exits edit mode, and focuses on the root item.
+* When the Breadcrumb is in edit mode, exits edit mode, and initiates a postback.
 
-`Tab` - When the widget is focused, navigates through the items.
+`Tab`
+* When the Control is focused, navigates through the items.
+* When RadBreadcrumb is in edit mode, saves the changes on the client-side, and exits edit mode.
 
 `Esc` - Exits edit mode without saving the changes.
 

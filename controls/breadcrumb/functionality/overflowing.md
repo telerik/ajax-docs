@@ -36,11 +36,13 @@ Sample of overflowing RadBreadcrumb:
 
  By setting the `Gap` property of RadBreadcrumb you can define the space in pixels after the last item to stay empty. The gap value is taken into account when items overflow and continue to remain empty.
 
+![Overflowing with Gap](../images/breadcrumb-functionality-overflowing-gap.gif)
+
 ````ASPX
-<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Width="300" Gap="50">
+<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1"
+    Width="300" Gap="50"
+    Value="/I1/I2/I3/I4/I5/I6/I7/I8">
+</telerik:RadBreadcrumb>
 ````
-
- ![Overflowing with Gap](../images/breadcrumb-functionality-overflowing-gap.gif)
-
 
  

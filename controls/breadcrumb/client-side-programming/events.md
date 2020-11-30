@@ -25,15 +25,14 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Listing 1: The client-side events exposed by RadBreadcrumb
 
+* **OnInitialize**—Fired just before the RadBreadcrumb client-side object is initialized.
+
+* **OnLoad**—Fired when RadBreadcrumb is initialized.
   
 * [OnClick](https://docs.telerik.com/kendo-ui/api/javascript/ui/breadcrumb/events/click)—Fires when an item or a rootitem is clicked. (Cancelable event)
   
 * [OnChange](https://docs.telerik.com/kendo-ui/api/javascript/ui/breadcrumb/events/change)—Fires when the value of the Breadcrumb is changed. 
 
-
-* **OnInitialize**—Fired just before the RadBreadcrumb client-side object is initialized.
-
-* **OnLoad**—Fired when RadBreadcrumb is initialized.
 
 ## Examples
 

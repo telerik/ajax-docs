@@ -18,23 +18,22 @@ RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrappe
 
 ![Breadcrumb overview](images/breadcrumb-overview-basicusage.png)
 
-## Functionalities and Features
+## Key Features
 
-* [Icons]({%slug breadcrumb/functionality/icons%})
-
-* [Items]({%slug breadcrumb/functionality/items%})
-
-* [Editing]({%slug breadcrumb/functionality/editing%})
-
-* [Navigation]({%slug breadcrumb/functionality/navigation%})
-
+* Renders and operates on the client-side
+* [Built-in accessibility, WAI-ARIA and RTL support]({%slug breadcrumb/accessibility-and-internationalization/keyboard-support%})
+* [Support for root and child items]({%slug breadcrumb/functionality/items%})
+* [Built-in Icons]({%slug breadcrumb/functionality/icons%})
 * [Overflowing]({%slug breadcrumb/functionality/overflowing%})
-
-* [Accessibility]({%slug breadcrumb/accessibility-and-internationalization/keyboard-support%})
+* [Editing functionality]({%slug breadcrumb/functionality/editing%})
+* [Built-in navigation support]({%slug breadcrumb/functionality/navigation%})
+* [Support for items ClientTemplate](https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/functionality/items#item-template)
+* [Flexible client-side API]({%slug breadcrumb/client-side-programming/radbreadcrumb-object%})
+* [Visual Appeal - shiped with a rich set of skins for easy and consistent styling](#skins)
 
 ## Add a RadBreadcrumb Control
 
-To add a RadBreadcrumb similar to the one shown in Figure 1 follow the steps:
+To add a RadBreadcrumb similar to the one shown in **Figure 1** follow the steps:
 
 1. Add a **ScriptManager** control on a Web Form.
 
