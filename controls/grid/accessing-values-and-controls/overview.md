@@ -15,7 +15,7 @@ This article will help you find your way to access RadGrid object, TableViews, I
 
 ## Client-Side
 
-Section with JavaScript examples for accesing Cells, Values, Controls, and more... in RadGrid.
+Section with JavaScript examples for accesing Cells, Values, Controls, and more. in RadGrid.
 
 - [Accessing RadGrid]({%slug grid/accessing-values-and-controls/client-side/accessing-radgrid %})
 - [Accessing Items/Rows]({%slug grid/accessing-values-and-controls/client-side/accessing-items %})
@@ -23,7 +23,7 @@ Section with JavaScript examples for accesing Cells, Values, Controls, and more.
 
 ## Server-Side
 
-Articles in this section provide with examples on accessing objects in RadGrid, such as the rows, header, footer or controls and more...
+Articles in this section provide with examples on accessing objects in RadGrid, such as the rows, header, footer or controls and more.
 
 - [Accessing RadGrid]({%slug grid/accessing-values-and-controls/server-side/accessing-radgrid %})
 - [Accessing Tables]({%slug grid/accessing-values-and-controls/server-side/accessing-tables %})
