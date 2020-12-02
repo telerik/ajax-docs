@@ -13,9 +13,9 @@ position: 0
 
 Thank you for choosing Telerik® UI for ASP.NET AJAX!
 
-The Telerik® UI for ASP.NET AJAX controls suite, formerly known as RadControls for ASP.NET AJAX where RAD stands for Rapid Application Development, includes more than 100 versatile and performance-optimized components that help you build high-quality, professional line-of-business projects. From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides you with all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
+The Telerik® UI for ASP.NET AJAX controls suite, formerly known as RadControls for ASP.NET AJAX where RAD stands for Rapid Application Development, includes more than 120 versatile and performance-optimized ASP.NET Web Forms components that help you build high-quality, professional line-of-business projects. From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides you with all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
 
-To read more about the benefits of using Telerik® UI for ASP.NET AJAX, please visit the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
+To read more about the benefits of using Telerik® UI for ASP.NET AJAX suite, please visit the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ If you are a new user, we recommend that you **follow the [First Steps]({%slug g
 * Check out the [Learning Resources](#learning-resources)
 
 
-## List of Controls
+## List of the WebForms UI Controls
 
 Here are quick links to the control-specific sections of our documentation:
 
