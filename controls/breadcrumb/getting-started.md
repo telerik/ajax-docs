@@ -12,7 +12,7 @@ position: 1
 
 The following tutorial demonstrates how you can add the RadBreadcrumb control and customize it by setting some of its properties.
 
->caption Figure 1: RadBreadcrumb
+>caption Figure 1:
 
 ![Breadcrumb overview](images/breadcrumb-gettingstarted-sampleuse.png)
 
@@ -62,7 +62,10 @@ Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 
  As a next step, you can check out the [Functionality]({%slug breadcrumb/functionality/items%}) of the RadBreadcrumb.
 
+
 # See Also
  * [Server-side Programming]({%slug breadcrumb/server-side-programming/overview%})
+ * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
+* [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
 
 

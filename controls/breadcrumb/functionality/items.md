@@ -14,6 +14,8 @@ position: 0
 
 Each **BreadcrumbItem** can be customized by setting its various properties.
 
+>caption Figure 1:
+
 ![Icon types](../images/breadcrumb-functionality-items-elements.png)
 
 The RadBreadcrumb items can be defined declaratively in the markup in the &lt;Items&gt; tag:
@@ -65,14 +67,16 @@ RadBreadcrumb1.Items.Add(item)
 * `IconClass`- Defines the icon classes (applies to the &lt;span&gt; element).
 
 
-A sample with some of the Item's properties in use:
+A sample with some of the Item's properties in use is shown in **Figure 2** below:
+
+>caption Figure 2:
 
 ![Sample usage of properties](../images/breadcrumb-functionality-items-propertiesSample.png)
 
 ````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Skin="Silk" Navigational="true">
     <Items>
-        <telerik:BreadcrumbItem Type="RootItem" Text="Telerik UI for ASP.NET AJAX" ShowText="true" Icon="pin" ItemClass="customRootItem" ToolTip="Home page" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
+        <telerik:BreadcrumbItem Type="RootItem" Text="Telerik UI" ShowText="true" Icon="pin" ItemClass="customRootItem" ToolTip="Home page" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
         <telerik:BreadcrumbItem Text="Controls" ShowIcon="true" Icon="folder-open" Disabled="true" IconClass="customIcon" Href="/controls" />
         <telerik:BreadcrumbItem Text="RadBreadcrumb" Href="https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/overview" />
         <telerik:BreadcrumbItem Text="Functionality" ShowIcon="true" Icon="folder-open" Disabled="true"  Href="/functionality" />
@@ -129,8 +133,66 @@ The default appearance of the Breadcrumb Control can be achieved with the templa
     </ItemTemplate>
 </telerik:RadBreadcrumb>
 ````
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadBreadcrumb1.DataBind();
+    }
+}
 
-The result from the declaration above should be the same as if ItemTemplate is not in use:
+protected void RadBreadcrumb1_DataBinding(object sender, EventArgs e)
+{
+    (sender as RadBreadcrumb).Items.AddRange(GetBreadcrumbItems(null));
+}
+
+private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
+{
+    var result = new List<BreadcrumbItem>();
+
+    for (int i = 0; i < 5; i++)
+    {
+        var index = i + 1;
+        var breadcrumbItem = new BreadcrumbItem() { Text = "Item " + index, Href = "/Item " + index };
+        result.Add(breadcrumbItem);
+    }
+    result[0].Type = BreadcrumbItemType.RootItem;
+
+    return result;
+}
+````
+````VB
+ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+        If Not IsPostBack Then
+            RadBreadcrumb1.DataBind()
+        End If
+    End Sub
+
+    Protected Sub RadBreadcrumb1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+        (TryCast(sender, RadBreadcrumb)).Items.AddRange(GetBreadcrumbItems(Nothing))
+    End Sub
+
+    Private Function GetBreadcrumbItems(ByVal dataSource As Object) As IEnumerable(Of BreadcrumbItem)
+        Dim result = New List(Of BreadcrumbItem)()
+
+        For i As Integer = 0 To 5 - 1
+            Dim index = i + 1
+            Dim breadcrumbItem = New BreadcrumbItem() With {
+                .Text = "Item " & index,
+                .Href = "/Item " & index
+            }
+            result.Add(breadcrumbItem)
+        Next
+
+        result(0).Type = BreadcrumbItemType.RootItem
+        Return result
+    End Function
+````
+
+The result from the declaration above should be the same as if ItemTemplate is not in use, see **Figure 3** below:
+
+>caption Figure 3:
 
 ![Default Template](../images/breadcrumb-functionality-items-templateDefault.png)
 
@@ -138,12 +200,14 @@ We can modify the default template (the one above) and customize it to achieve t
 
 In the sample below, a new custom attribute is added to each item and the same is included in the customized template structure:
 
+>caption Figure 4:
+
 ![Custom Template](../images/breadcrumb-functionality-items-templateCustom.png)
 
-Here is the code leading to the appearance above:
+Here is the code leading to the appearance shown in **Figure 4**:
 
 ````ASPX
-<telerik:RadBreadcrumb runat="server" ID="Radbreadcrumb3" OnDataBinding="Radbreadcrumb3_DataBinding">
+<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="Radbreadcrumb1_DataBinding">
     <ItemTemplate>
             <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">
                 <a href="#:href#" 
@@ -171,11 +235,11 @@ protected void Page_Load(object sender, EventArgs e)
 {
     if (!IsPostBack)
     {
-        Radbreadcrumb1.DataBind();
+        RadBreadcrumb1.DataBind();
     }
 }
 
-protected void Radbreadcrumb1_DataBinding(object sender, EventArgs e)
+protected void RadBreadcrumb1_DataBinding(object sender, EventArgs e)
 {
     (sender as RadBreadcrumb).Items.AddRange(GetBreadcrumbItems(null));
 }
@@ -200,11 +264,11 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
 ````VB
  Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
         If Not IsPostBack Then
-            Radbreadcrumb1.DataBind()
+            RadB    readcrumb1.DataBind()
         End If
     End Sub
 
-    Protected Sub Radbreadcrumb1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+    Protected Sub RadBreadcrumb1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
         (TryCast(sender, RadBreadcrumb)).Items.AddRange(GetBreadcrumbItems(Nothing))
     End Sub
 
@@ -228,3 +292,9 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
 ````
 
  
+# See Also
+
+ * [Item ClientTemplate live demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/functionality/clienttemplate/defaultcs.aspx)
+ * [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview)
+
+

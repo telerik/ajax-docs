@@ -48,11 +48,10 @@ In addition to using the Kendo methods directly, you can also use their wrappers
 | **repaint** |Boolean|none| Repaints the control. The "force" argument determines whether the resizing routine should be executed even if the respective widget's outer dimensions have not changed.|
 
 
-
 # See Also
 
- * [Live Demo - RadBreadcrumb Client-side API]()
-
  * [RadBreadcrumb Client-side Events]({%slug breadcrumb/client-side-programming/events%})
+ * [Live Demo - RadBreadcrumb Client-side API](https://demos.telerik.com/aspnet-ajax/breadcrumb/client-side-programming/clientsideapi/defaultcs.aspx)
+ * [Kendo UI Breadcrumb widget API](https://docs.telerik.com/kendo-ui/api/javascript/ui/breadcrumb)
 
 
