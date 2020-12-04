@@ -35,3 +35,12 @@ When the `Editable` property of the breadcrumb is set to *'true'*, in the `Acces
 
 As result Alt + W focuses the breadcrumb and turns it into edit mode.
 
+Test the keyboard support of RadBreadcrumb in the [live demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/accessibility-and-internationalization/keyboardsupport/defaultcs.aspx)
+
+
+# See Also
+
+ * [Keyboad support demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/accessibility-and-internationalization/keyboardsupport/defaultcs.aspx)
+ 
+
+

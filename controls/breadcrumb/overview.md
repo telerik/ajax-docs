@@ -57,15 +57,19 @@ To add a RadBreadcrumb similar to the one shown in **Figure 1** follow the steps
 
 The RadBreadcrumb control can be styled by setting a desired built-in skin:
 
+>caption Figure 2:
+
 ![Breadcrumb skins](images/breadcrumb-overview-skins.gif)
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
 Go ahead with the [Getting Started]({%slug breadcrumb/getting-started%}) article to learn more about Breadcrumb Control. Also, you can check out the [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx) to see it in action.
 
+
 # See Also
 
  * [Getting Started]({%slug breadcrumb/getting-started%})
  * [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
-  
-  
+ * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%}) 
+
+

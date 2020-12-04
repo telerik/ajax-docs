@@ -98,8 +98,12 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 </telerik:RadBreadcrumb>
 ````
 
+See live sample of handling the client events in our [Client-side events demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/client-side-programming/clientsideevents/defaultcs.aspx)
 
-## See Also
 
-* [RadBreadcrumb Client-side Object]({%slug breadcrumb/client-side-programming/overview%})
+# See Also
+
+ * [RadBreadcrumb Client-side Object]({%slug breadcrumb/client-side-programming/overview%})
+ * [Client-side events demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/client-side-programming/clientsideevents/defaultcs.aspx)
+
 
