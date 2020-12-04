@@ -283,7 +283,7 @@ As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with ba
 
 * [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable `__proto__` property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/) - from version **R1 2019**
 
-
+You can find more information in the following KB article on the matter: [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax).
 
 ### See Also
 
