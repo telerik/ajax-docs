@@ -66,6 +66,6 @@ Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 # See Also
  * [Server-side Programming]({%slug breadcrumb/server-side-programming/overview%})
  * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
-* [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
+ * [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
 
 
