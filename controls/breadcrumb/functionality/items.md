@@ -106,7 +106,7 @@ For RootItems, where no text is rendered by default, setting a title (ToolTip) c
 
 >note The RootTitle set in the MessagesSettings takes efect only if RootItem has no values assigned to its Text and ToolTip properties.
 
-## Item template
+## ClientItemTemplate
 
 **RadBreadcrumb** uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the rendering of the items.
 
@@ -114,7 +114,7 @@ The default appearance of the Breadcrumb Control can be achieved with the templa
 
 ````ASPX
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="RadBreadcrumb1_DataBinding">
-    <ItemTemplate>
+    <ClientItemTemplate>
         <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">
             <a href="#:href#" 
             class="#:linkClass# #if(type !== "rootitem"){# k-breadcrumb-link#}#
@@ -130,7 +130,7 @@ The default appearance of the Breadcrumb Control can be achieved with the templa
             #if(renderDelimiter) {#<span class="k-breadcrumb-delimiter-icon k-icon k-i-#:delimiterIcon#" aria-hidden="true"></span>#}#
             #if(type === "rootitem" && renderDelimiter) {#<span class="k-breadcrumb-delimiter-icon k-hidden k-icon k-i-#:delimiterIcon#" aria-hidden="true"></span>#}#
         </li>
-    </ItemTemplate>
+    </ClientItemTemplate>
 </telerik:RadBreadcrumb>
 ````
 ````C#
@@ -190,7 +190,7 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
     End Function
 ````
 
-The result from the declaration above should be the same as if ItemTemplate is not in use, see **Figure 3** below:
+The result from the declaration above should be the same as if ClientItemTemplate is not in use, see **Figure 3** below:
 
 >caption Figure 3:
 
@@ -207,8 +207,8 @@ In the sample below, a new custom attribute is added to each item and the same i
 Here is the code leading to the appearance shown in **Figure 4**:
 
 ````ASPX
-<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="Radbreadcrumb1_DataBinding">
-    <ItemTemplate>
+<telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="RadBreadcrumb1_DataBinding">
+    <ClientItemTemplate>
             <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">
                 <a href="#:href#" 
                 class="#:linkClass# #if(type !== "rootitem"){# k-breadcrumb-link#}#
@@ -227,7 +227,7 @@ Here is the code leading to the appearance shown in **Figure 4**:
             #if(renderDelimiter) {#<span class="k-breadcrumb-delimiter-icon k-icon k-i-#:delimiterIcon#" aria-hidden="true"></span>#}#
             #if(type === "rootitem" && renderDelimiter) {#<span class="k-breadcrumb-delimiter-icon k-hidden k-icon k-i-#:delimiterIcon#" aria-hidden="true"></span>#}#
             </li>
-    </ItemTemplate>
+    </ClientItemTemplate>
 </telerik:RadBreadcrumb>
 ````
 ````C#
@@ -252,7 +252,7 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
     {
         var index = i + 1;
         var breadcrumbItem = new BreadcrumbItem() { Text = "Item " + index, Href = "/Item " + index };
-        //additional attribute that can be used in the ItemTemplate
+        //additional attribute that can be used in the ClientItemTemplate
         breadcrumbItem.Attributes.Add("Description", "Item description " + index);
         result.Add(breadcrumbItem);
     }
@@ -281,7 +281,7 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
                 .Text = "Item " & index,
                 .Href = "/Item " & index
             }
-            'additional attribute that can be used in the ItemTemplate
+            'additional attribute that can be used in the ClientItemTemplate
             breadcrumbItem.Attributes.Add("Description", "Item description " & index)
             result.Add(breadcrumbItem)
         Next
@@ -294,7 +294,7 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
  
 # See Also
 
- * [Item ClientTemplate live demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/functionality/clienttemplate/defaultcs.aspx)
+ * [ClientItemTemplate live demo](https://demos.telerik.com/aspnet-ajax/breadcrumb/functionality/clienttemplate/defaultcs.aspx)
  * [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview)
 
 
