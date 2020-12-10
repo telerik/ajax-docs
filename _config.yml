@@ -843,19 +843,16 @@ navigation:
     "*grid/data-binding":
         title: "Data Binding"
         position: 6
-    "*grid/data-binding/understanding-data-binding":
-        title: "Understanding Data Binding"
-        position: 1
-    "*grid/data-binding/understanding-data-binding/client-side-binding":
+    "*grid/data-binding/client-side-binding":
         title: "Client-side Binding"
         position: 1
-    "*grid/data-binding/understanding-data-binding/server-side-binding":
+    "*grid/data-binding/server-side-binding":
         title: "Server-side binding"
         position: 2
-    "*grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources":
+    "*grid/data-binding/server-side-binding/various-data-sources":
         title: "Various Data Sources"
         position: 3
-    "*grid/data-binding/understanding-data-binding/webservice-binding":
+    "*grid/data-binding/webservice-binding":
         title: "WebService Binding"
         position: 3
     "*grid/data-editing":
