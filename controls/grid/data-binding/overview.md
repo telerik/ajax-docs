@@ -26,11 +26,13 @@ There are 3 ways to bind the grid to a data source:
 >
 
 Here is a basic runnable example which you can directly copy-paste to your project:
-```ASP.NET
+
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server"
     OnNeedDataSource="RadGrid1_NeedDataSource">
 </telerik:RadGrid>
-```
+````
+
 ```C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
@@ -40,18 +42,19 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
         Name = "Item " + x
     });
 }
-```
-```VB.NET
+````
+````VB.NET
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
     (TryCast(sender, RadGrid)).DataSource = Enumerable.Range(1, 6).[Select](Function(x) New With {Key
         .ID = x, Key
         .Name = "Item " & x
     })
 End Sub
-```
+````
 
 
 Resulting to this:
+
 ![Grid Data Binding Basics 1](images/grid-data-binding-basics-1.png)
 
 ## Hierarchical grids
@@ -73,12 +76,14 @@ When binding the grid by setting the **DataSource** property in the **NeedDataSo
 * Any object collection that implements the **IListSource** , **IList** , **IEnumerable** , or **ICustomTypeDescriptor** interface.
 
 Here is another basic runnable example with dummy DataTable which you can once again directly copy-paste to your project:
-```ASP.NET
+
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" 
     OnNeedDataSource="RadGrid1_NeedDataSource">
 </telerik:RadGrid>
-```
-```C#
+````
+
+````C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
     (sender as RadGrid).DataSource = GetGridSource();
@@ -130,8 +135,8 @@ private DataTable GetGridSource()
 
     return dataTable;
 }
-```
-```VB
+````
+````VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceEventArgs)
     (TryCast(sender, RadGrid)).DataSource = GetGridSource()
 End Sub
@@ -181,12 +186,11 @@ Private Function GetGridSource() As DataTable
 
     Return dataTable
 End Function
-```
-
-
+````
 
 
 Resulting to this:
+
 ![Grid Data Binding Basics 2](images/grid-data-binding-basics-2.png)
 
 ## Bindable Property Types
