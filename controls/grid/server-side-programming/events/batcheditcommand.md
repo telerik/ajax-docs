@@ -9,7 +9,7 @@ position: 50
 
 # BatchEditCommand Event
 
-Event fired when saving the Changes for RadGrid with [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) and [Server-Side binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}).
+Event fired when saving the Changes for RadGrid with [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) and [Server-Side binding]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}).
 
 ## Event Parameters
 

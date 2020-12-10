@@ -2,11 +2,11 @@
 title: Programmatic Data Binding Using the NeedDataSource Event
 page_title: Programmatic Data-binding Using the NeedDataSource Event | RadGrid for ASP.NET AJAX Documentation
 description: When programmatically binding a RadGrid use the NeedDataSource Event
-slug: grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event
+slug: grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event
 tags: programmatic,data-binding,needdatasource,events
 published: True
 position: 1
-previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-\(using-needdatasource-event\)
+previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-\(using-needdatasource-event\),controls/grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event
 ---
 
 # Programmatic Data Binding Using the NeedDataSource Event

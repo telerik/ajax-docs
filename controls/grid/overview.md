@@ -21,7 +21,7 @@ To test it by your own and see its benefits in practice you can start a free tri
 
 1. ensure you have a script manager on the page (use \<asp:ScriptManager> tag to declare one)
 1. use the \<telerik:RadGrid> tag to declare the grid and to set its global properties
-1. use its `DataSource` (or `DataSourceID`) property to reference the variable (or the DataSource component) that will hold your collection of data, see [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})
+1. use its `DataSource` (or `DataSourceID`) property to reference the variable (or the DataSource component) that will hold your collection of data, see [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%})
 1. use the \<telerik:MasterTableView> to declare your main table and set its properties
 1. use the appropriate grid column tags to declare columns depending on the data type of their content. Set the `DataField` property to point at the name of the model field, see [Column Types]({%slug grid/columns/column-types%}) 
 
@@ -113,7 +113,7 @@ List of key functionalites you can find below:
 - [Paging]({%slug grid/functionality/paging/overview%})
 - [Filtering]({%slug grid/functionality/filtering/overview%})
 - [Grouping]({%slug grid/functionality/grouping/overview%})
-- [Data Binding]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%})
+- [Data Binding]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%})
 - [Hierarchy]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%})
 - [CommandItem]({%slug grid/data-editing/commanditem/overview%})
 - [Export To Excel]({%slug grid/functionality/exporting/export-formats/xlsx-and-docx-export%})

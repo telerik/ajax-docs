@@ -5,7 +5,7 @@ description: Using NoRecordsTemplate
 slug: grid/data-binding/using-norecordstemplate
 tags: using,norecordstemplate
 published: True
-position: 3
+position: 5
 ---
 
 # Using NoRecordsTemplate

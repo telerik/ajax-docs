@@ -152,7 +152,7 @@ End Sub
 
 ## Iterating through the rows of tables on a 3 level hierarchy on Button Click
 
-Sample Code Snippets for a three level hierarchy can be found at [Programmatic Data Binding Using the NeedDataSource Event - Three level Hierarchy]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event %}#three-level-hierarchy)
+Sample Code Snippets for a three level hierarchy can be found at [Programmatic Data Binding Using the NeedDataSource Event - Three level Hierarchy]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event %}#three-level-hierarchy)
 
 ````C#
 protected void RadButton1_Click(object sender, EventArgs e)

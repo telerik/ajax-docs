@@ -120,7 +120,7 @@ That concludes the data binding of controls.
 
 **CRUD**
 
-To Enable [Automatic DataSource Operations](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/automatic-datasource-operations), the Grid must be bound using [Declarative DataSource](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource)
+To Enable [Automatic DataSource Operations](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/automatic-datasource-operations), the Grid must be bound using [Declarative DataSource](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/server-side-binding/declarative-datasource)
 
 ````XML
 <telerik:RadGrid ID="RadGrid1" runat="server" 

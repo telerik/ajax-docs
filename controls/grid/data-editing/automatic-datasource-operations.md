@@ -24,7 +24,7 @@ Once it is bound to a **DataSource** control that supports Insert, Update, and D
 
 * **AllowAutomaticUpdates**="**True**"
 
-The automatic data source operations only work when binding the grid to a [declarative data source]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) using the **DataSourceID** property of the grid. You must configure the data source so that it supports the automatic operations.
+The automatic data source operations only work when binding the grid to a [declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) using the **DataSourceID** property of the grid. You must configure the data source so that it supports the automatic operations.
 
 You also need to set the **DataKeyNames** property of the table views in the grid so that the insert, update, and delete operations perform as expected.
 

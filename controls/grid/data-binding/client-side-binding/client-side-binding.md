@@ -2,7 +2,8 @@
 title: Client-side Binding
 page_title: Client-side Binding | RadGrid for ASP.NET AJAX Documentation
 description: Client-side Binding
-slug: grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding
+slug: grid/data-binding/client-side-binding/client-side-binding
+previous_url: controls/grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding
 tags: client-side,binding
 published: True
 position: 0

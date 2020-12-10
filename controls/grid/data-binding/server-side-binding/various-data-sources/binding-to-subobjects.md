@@ -2,7 +2,8 @@
 title: Binding to SubObjects
 page_title: Binding to SubObjects | RadGrid for ASP.NET AJAX Documentation
 description: Binding to SubObjects
-slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-subobjects
+slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-subobjects
+previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-subobjects
 tags: binding,to,subobjects
 published: True
 position: 3

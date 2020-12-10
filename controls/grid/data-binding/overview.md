@@ -1,27 +1,25 @@
 ---
-title: Telerik RadGrid Data Binding Basics
-page_title: Telerik RadGrid Data Binding Basics | RadGrid for ASP.NET AJAX Documentation
-description: Telerik RadGrid Data Binding Basics
-slug: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
-tags: telerik,radgrid,data,binding,basics
+title: Overview
+page_title: Data Binding Overview | RadGrid for ASP.NET AJAX Documentation
+description: Data Binding Overview
+slug: grid/data-binding/overview
+tags: telerik,radgrid,data,binding,overview
 published: True
 position: 0
-previous_url: grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
+previous_url: controls/grid/data-binding/telerik-radgrid-data-binding-basics
 ---
 
-# Telerik RadGrid Data Binding Basics
-
-
+# Data Binding Overview
 
 **RadGrid** is a powerful component that displays data obtained from a database or other data source. The data is presented in tabular view and can be further enhanced with templates or other customization options.
 
 There are 3 ways to bind the grid to a data source:
 
-* [**Declarative Binding**]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) in the mark-up via the **DataSourceID** property - By using declarative data source controls (introduced in ASP.NET 2.0), you can bind the grid declaratively, with no coding necessary. This mode also supports [Automatic CRUD operations](https://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/automatic-crud-operations/defaultcs.aspx).
+* [**Declarative Binding**]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) in the mark-up via the **DataSourceID** property - By using declarative data source controls (introduced in ASP.NET 2.0), you can bind the grid declaratively, with no coding necessary. This mode also supports [Automatic CRUD operations](https://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/automatic-crud-operations/defaultcs.aspx).
 
-* [**Programmatic Binding**]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) in the code-behind via the **DataSource** property and using the **NeedDataSource** event - **RadGrid** calls this event each time it needs a data source query like Paging, Sorting, Filtering, Grouping, etc. This approach is convenient when you have the data source present in C# or VB code, for instance a List of Class or Objects.
+* [**Programmatic Binding**]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) in the code-behind via the **DataSource** property and using the **NeedDataSource** event - **RadGrid** calls this event each time it needs a data source query like Paging, Sorting, Filtering, Grouping, etc. This approach is convenient when you have the data source present in C# or VB code, for instance a List of Class or Objects.
 
-* [**Client-Side Binding**]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}) - **RadGrid** provides a variety of options here like RadClientDataSource, WebServices, PageMethods, local JSON objects, etc. More information you can find in our dedicated Client-Side Binding [articles]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}) and [demos](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx).
+* [**Client-Side Binding**]({%slug grid/data-binding/client-side-binding/client-side-binding%}) - **RadGrid** provides a variety of options here like RadClientDataSource, WebServices, PageMethods, local JSON objects, etc. More information you can find in our dedicated Client-Side Binding [articles]({%slug grid/data-binding/client-side-binding/client-side-binding%}) and [demos](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx).
 
 >note It is highly recommended to avoid using the DataBind() method:  
 [How to bind RadGrid properly on server-side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)

@@ -5,7 +5,7 @@ description: Programmatic Creation from XML
 slug: grid/data-binding/programmatic-creation-from-xml
 tags: programmatic,creation,from,xml
 published: True
-position: 4
+position: 6
 ---
 
 # Programmatic Creation from XML

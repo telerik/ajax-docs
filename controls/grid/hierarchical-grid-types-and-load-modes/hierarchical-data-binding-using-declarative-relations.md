@@ -16,7 +16,7 @@ When binding the detail tables in a hierarchical grid, you must provide some way
 
 ## Data sources
 
-When using declarative relations to describe the data hierarchy, each table view (**MasterTableView** and every **GridTableView** inside the **DetailTables** collection of a parent table view), must have its own data source. When using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}), the data source for each table view is assigned to the **DataSourceID** property. The data sources for detail tables should filter records based on all fields that link the detail table to the parent table, with parameters to supply the values of those linking fields. Typically, this is done using a **WHERE** clause in the **SelectCommand** of a data source, but more complicated SELECT methods are possible (for example, a parameterized stored procedure).
+When using declarative relations to describe the data hierarchy, each table view (**MasterTableView** and every **GridTableView** inside the **DetailTables** collection of a parent table view), must have its own data source. When using [declarative data sources]({%slug grid/data-binding/server-side-binding/declarative-datasource%}), the data source for each table view is assigned to the **DataSourceID** property. The data sources for detail tables should filter records based on all fields that link the detail table to the parent table, with parameters to supply the values of those linking fields. Typically, this is done using a **WHERE** clause in the **SelectCommand** of a data source, but more complicated SELECT methods are possible (for example, a parameterized stored procedure).
 
 ## DataKeyNames
 

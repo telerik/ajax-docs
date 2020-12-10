@@ -5,7 +5,7 @@ description: Model Binding and Strongly Typed Data Controls Support
 slug: grid/data-binding/model-binding-and-strongly-typed-data-controls-support
 tags: model,binding,and,strongly,typed,data,controls,support
 published: True
-position: 5
+position: 7
 ---
 
 # Model Binding and Strongly Typed Data Controls Support

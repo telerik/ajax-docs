@@ -28,13 +28,13 @@ There are three ways to create a RadGrid:
 
 ## Binding data
 
-Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%}) article.
+Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%}) article.
 
 Depending on the Business Requirements, you can bind data to it on:
 
-* [Client-Side]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%})
-* [Server-Side]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
-* [Declaratively]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%})
+* [Client-Side]({%slug grid/data-binding/client-side-binding/client-side-binding%})
+* [Server-Side]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
+* [Declaratively]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
 
 ## Features/Functionalities
 

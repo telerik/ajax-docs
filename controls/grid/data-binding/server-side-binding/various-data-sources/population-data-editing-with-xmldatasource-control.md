@@ -2,7 +2,7 @@
 title: Population/Data Editing with XmlDataSource Control
 page_title: Population/Data Editing with XmlDataSource Control | RadGrid for ASP.NET AJAX Documentation
 description: Population/Data Editing with XmlDataSource Control
-slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/population-data-editing-with-xmldatasource-control
+slug: grid/data-binding/server-side-binding/various-data-sources/population-data-editing-with-xmldatasource-control
 tags: population/data,editing,with,xmldatasource,control
 published: True
 position: 5

@@ -5,7 +5,7 @@ description: Master Detail Grids
 slug: grid/data-binding/master-detail-grids
 tags: master,detail,grids
 published: True
-position: 2
+position: 4
 ---
 
 # Master Detail Grids

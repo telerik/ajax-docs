@@ -24,7 +24,7 @@ Static rows are always present in the grid structure regardless of whether they 
 
 ## Dynamic Rows
 
-Each dynamic row in the grid represents a record from the specified [data source]({%slug grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics%}). Dynamic rows are represented by the **GridDataItem** class (a descendent of **GridItem**).
+Each dynamic row in the grid represents a record from the specified [data source]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%}). Dynamic rows are represented by the **GridDataItem** class (a descendent of **GridItem**).
 
 Each **GridTableView** has a set of rows (the **Items** collection) of type **GridDataItem.** The collection does not provide any methods to add or remove items. However, you can control the content of an item by providing a handler for the **ItemCreated** event.
 
@@ -50,8 +50,8 @@ Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle
 
  * [Accessing Cells and Rows]({%slug grid/accessing-values-and-controls/overview%})
 
- * [Simple Databinding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%})
+ * [Simple Databinding]({%slug grid/data-binding/server-side-binding/simple-data-binding%})
 
- * [Programmatic Databinding Using NeedDataSource Event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
+ * [Programmatic Databinding Using NeedDataSource Event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
 
  * [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
