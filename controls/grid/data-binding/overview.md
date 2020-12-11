@@ -6,7 +6,7 @@ slug: grid/data-binding/overview
 tags: telerik,radgrid,data,binding,overview
 published: True
 position: 0
-previous_url: controls/grid/data-binding/overview
+previous_url: controls/grid/data-binding/understanding-data-binding/telerik-radgrid-data-binding-basics
 ---
 
 # Data Binding Overview
