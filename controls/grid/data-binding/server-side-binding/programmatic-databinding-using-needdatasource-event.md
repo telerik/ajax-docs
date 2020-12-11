@@ -513,6 +513,6 @@ End Function
 
 ## See Also
 
- * [Bindable Property Types](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/telerik-radgrid-data-binding-basics#bindable-property-types)
- * [Telerik RadGrid Data Binding Basics](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/telerik-radgrid-data-binding-basics)
+ * [Bindable Property Types](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/overview#bindable-property-types)
+ * [Telerik RadGrid Data Binding Basics](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/overview)
  * [Properly Bind a RadGrid on the Server-side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)

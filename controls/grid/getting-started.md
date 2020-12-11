@@ -28,7 +28,7 @@ There are three ways to create a RadGrid:
 
 ## Binding data
 
-Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%}) article.
+Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/overview%}) article.
 
 Depending on the Business Requirements, you can bind data to it on:
 

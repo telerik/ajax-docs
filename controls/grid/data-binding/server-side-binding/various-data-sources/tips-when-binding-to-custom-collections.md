@@ -17,7 +17,7 @@ This topic describes some of the considerations you should keep in mind when des
 
 ## Limiting the fields that the grid fetches
 
-By default, **RadGrid** fetches all [bindable property values]({%slug grid/data-binding/telerik-radgrid-data-binding-basics%}) from the data source you use for control structure generation. These values can be used in sorting, filtering, grouping or other operations. In some cases, however, you may not need your grid instance to iterate through all the fields in your data source when binding. This can be a requirement when you have custom collection of business objects that you assign as the **DataSource** property of a **RadGrid** control to generate its content.
+By default, **RadGrid** fetches all [bindable property values]({%slug grid/data-binding/overview%}) from the data source you use for control structure generation. These values can be used in sorting, filtering, grouping or other operations. In some cases, however, you may not need your grid instance to iterate through all the fields in your data source when binding. This can be a requirement when you have custom collection of business objects that you assign as the **DataSource** property of a **RadGrid** control to generate its content.
 
 To prevent the grid from traversing all data fields in a collection, set the master table view's **RetrieveAllDataFields** property to **False**. In this case, any additional fields that you want to use for sorting, grouping or assigning to **DataKeyNames** can be included in the **AdditionalDataFieldNames** array. When you set **RetrieveAllDataFields** to **False**, only the properties that are used as column **DataFields** or those specified in the **AdditionalDataFieldNames** are extracted from the data source.
 
