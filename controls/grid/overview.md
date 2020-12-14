@@ -98,13 +98,13 @@ The result from the code snippet above
 Check out the most commonly used key features below, or head directly to the [Getting Started]({%slug grid/getting-started%}) section.
 
 
-### Basic Grid
+## Basic Grid
 
 ![](images/grid-overview-basic.png)
 
 
 
-### Advanced Grid
+## Advanced Grid
 
 ![](images/grid-overview-advanced.png)
 
@@ -126,46 +126,46 @@ List of key functionalites you can find below:
 
 
 
-### Colorful Grid with built-in Skins
+## Colorful Grid with built-in Skins
 
 See [Skins]({%slug grid/appearance-and-styling/skins%}) documentation.
 
 ![](images/grid-overview-skins.gif)
 
-### Paging
+## Paging
 
 See [Paging]({%slug grid/functionality/paging/overview%}) documentation.
 
 ![](images/grid-overview-paging.png)
 
-### Filtering
+## Filtering
 
 See [Filtering]({%slug grid/functionality/filtering/overview%}) documentation.
 
 ![](images/grid-overview-filtering.png)
 
-### Sorting
+## Sorting
 
 See [Sorting]({%slug grid/functionality/sorting/overview%}) documentation.
 
 ![](images/grid-overview-sorting.png)
 
-### Grouping
+## Grouping
 
 See [Grouping]({%slug grid/functionality/grouping/overview%}) documentation.
 
 ![](images/grid-overview-grouping.png)
 
-### Hierarchy
+## Hierarchy
 
 See [Hierarchical Grid Types]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%}) documentation.
 
 ![](images/grid-overview-hierarchy.png)
 
-### Create/Read/Update/Delete (CRUD) operations
+## Create/Read/Update/Delete (CRUD) operations
 
 
-#### Server-Side Editing
+### Server-Side Editing
 
 **Edit Form**
 
@@ -185,7 +185,7 @@ See [InPlace]({%slug grid/data-editing/edit-mode/in-place%}) documentation.
 
 ![](images/grid-overview-inplace.png)
 
-#### Client-Side Editing
+### Client-Side Editing
 
 **Batch Edit**
 
@@ -193,6 +193,14 @@ See [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
 
 ![](images/grid-overview-batchedit.png)
 
+
+## Properties & Methods - API Reference
+
+- [Telerik.Web.UI.RadGrid](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadGrid) (RadGrid)
+
+- [Telerik.Web.UI.GridTableView](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTableView) (MasterTable and/or DetailTables)
+
+## Get Started
 
 [Get Started with RadGrid]({%slug grid/getting-started%})
 

@@ -341,6 +341,18 @@ When in browser mode, **GridDropDownColumn** looks and behaves like a standard *
 
 * Set the **ListValueField** property to the name of the field in the lookup table that supplies the value for the field specified by the **DataField** property.
 
+### Automatic Load-On-Demand support for GridDropDownColumn
+
+As of version 2010.Q2 of Telerik controls, GridDropDownColumn supports automatic load-on-demand for the RadComboBox editor. The column provides a set of new properties that allow you to configure how load-on-demand works:
+
+- **AllowAutomaticLoadOnDemand** - Gets or sets a value indicating whether automatic load-on-demand is enabled for the RadComboBox editor (by default false).
+
+- **ShowMoreResultsBox** - Gets or sets a value indicating whether the RadComboBox editor displays a More Results box (by default false).
+
+- **AllowVirtualScrolling** - Gets or sets a value indicating whether virtual scrolling is enabled for RadComboBox editor (by default false).
+
+- **ItemsPerRequest** - Gets or sets the number of Items the RadComboBox editor will load per Item request (by default -1, meaning all items will be requested).
+
 For more information on configuring **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/common/customize-griddropdowncolumn%}).
 
 **GridDropDownColumn** is editable (implements the **IGridEditableColumn** interface) and provides, by default,	**GridDropDownListColumnEditor** as its column editor. You can use the **DropDownControlType** property to specify whether	the column editor uses a **RadComboBox** or a standard **DropDownList** as the column editor. The default editor is	**RadComboBox**.
