@@ -95,7 +95,7 @@ In addition to the available filter expressions, you can create your own filter 
 >
 
 
-There are also some useful shortcuts (achievable with several lines of javascript code) for applying filters when typing in the column header filter box and pressing the [**Enter**] key from the keyboard (illustrated in [this video](http://telerikwatch.com/2008/09/telerik-watch-minute-enhancing-radgrid.html)). Note that a prerequisite to trigger filter operation on [**Enter**] key press is to set the **AutoPostBackOnFilter**property of the corresponding column to **true**:
+There are also some useful shortcuts (achievable with several lines of javascript code) for applying filters when typing in the column header filter box and pressing the [**Enter**] key from the keyboard (illustrated in [this video](http://www.telerikwatch.com/2008/09/telerik-watch-minute-enhancing-radgrid.html)). Note that a prerequisite to trigger filter operation on [**Enter**] key press is to set the **AutoPostBackOnFilter**property of the corresponding column to **true**:
 
 * If the user enters **[some_value]**and hits [**Enter**] key, the grid will automatically use the **Contains** filter function
 
