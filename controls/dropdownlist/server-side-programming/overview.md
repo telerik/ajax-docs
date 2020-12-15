@@ -10,9 +10,10 @@ position: 0
 
 # Server-side Programming Overview
 
-
-
 ## 
+
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadDropDownList class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDropDownList).
+
 
 **RadDropDownList** supports a number of server-side events that let you respond to events with complex actions that can't be performed in client-side code.
 
