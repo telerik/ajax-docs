@@ -10,6 +10,8 @@ position: 0
 
 # Properties
 
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadWindow class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadWindow).
+
 ## RadWindow and RadWindowManager common properties:
 
 >caption RadWindow and RadWindowManager common properties
