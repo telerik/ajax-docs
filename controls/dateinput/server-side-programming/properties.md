@@ -53,6 +53,8 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 ## Properties specific for RadDateInput
 
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadDateInput class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDateInput). If you are interested in the most popular ones check below:
+
 * The **IncrementSettings** property specifies how the control changes its value in response to the arrow keys, mouse wheel, and (in the case of **RadNumericTextBox**) spin buttons. **IncrementSettings** is a composite property with the following sub-properties:
 
 * **InterceptArrowKeys**: When **InterceptArrowKeys** is **True**, the user can use the arrow keys to change the value of the control.See [Keyboard Support]({%slug raddateinput/accessibility-and-internationalization/keyboard-support%}) for details.
