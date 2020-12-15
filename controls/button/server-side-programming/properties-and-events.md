@@ -10,6 +10,8 @@ position: 0
 
 # Properties and Events
 
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadButton class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadButton). If you are interested in the most popular ones check the table below:
+
 ## RadButton common features (properties)
 
 | Property | Description |
