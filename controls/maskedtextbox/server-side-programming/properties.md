@@ -61,6 +61,8 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 ## Properties specific for RadMaskedTextBox
 
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadMaskedTextBox class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadMaskedTextBox).
+
 * The **TextMode** property specifies how the control displays its value. It can be set to any of the following values:
 
 * **Telerik.Web.UI.InputMode.SingleLine**: When the **TextMode** property is **SingleLine**, the value of the text box appears in a single line of text.
