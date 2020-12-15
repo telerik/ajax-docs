@@ -10,7 +10,7 @@ position: 0
 
 # Server-side Programming Overview
 
-
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadListView class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadListView).
 
 Following are tables of the most important properties and event you should be aware of when working with **RadListView**.
 
