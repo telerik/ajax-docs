@@ -14,7 +14,7 @@ position: 0
 
 # Server Events Overview
 
-
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadScheduler class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadScheduler).
 
 ## 
 
