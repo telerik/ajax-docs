@@ -10,7 +10,7 @@ position: 0
 
 # RadDatePicker Object
 
-
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadDatePicker class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDatePicker).
 
 The main classes for working with the **RadDatePicker** control are:
 
