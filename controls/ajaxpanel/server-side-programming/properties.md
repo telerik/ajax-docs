@@ -10,9 +10,9 @@ position: 0
 
 # Properties
 
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadAjaxPanel class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAjaxPanel).
 
-
-This help article defines the most used **RadAjaxControl** properties and show examples of using a few of them.
+You can find below the most used **RadAjaxControl** properties along with some examples.
 
 ##
 
