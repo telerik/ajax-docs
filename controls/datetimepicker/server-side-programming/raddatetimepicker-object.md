@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadDateTimePicker** control provides a rich API with classes that expose several properties, enumerations, methods and events. You can use the API to easily customize the control in the code-behind.
+The **RadDateTimePicker** control provides a [rich API](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDateTimePicker) with classes that expose several properties, enumerations, methods and events. You can use the API to easily customize the control in the code-behind.
 
 
 ## RadDateTimePicker
