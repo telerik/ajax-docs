@@ -10,7 +10,7 @@ position: 0
 
 # Server-side Programming Overview
 
-
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadTextBox class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadTextBox).
 
 While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDateInput**, and **RadNumericTextBox**) each have their own unique properties for configuring the control for its associated type of values, most of the properties of these controls are common to all four types.
 
