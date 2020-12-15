@@ -10,6 +10,7 @@ position: 0
 
 # RadTimePicker Object
 
+For a detailed list with the server-side properties and methods of the control, see the [Server-Side API of the RadTimePicker class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadTimePicker).
 
 The main classes for working with the **RadTimePicker** controls are:
 
