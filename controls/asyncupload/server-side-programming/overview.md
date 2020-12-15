@@ -12,6 +12,7 @@ position: 0
 
 
 This article provides a list and detailed description of the properties and methods that you can use with the **RadAsyncUpload** control.
+For the full list visit the [RadAsyncUpload class article](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAsyncUpload).
 
 ## Properties
 
