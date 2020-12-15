@@ -10,6 +10,8 @@ position: 0
 
 # Server-Side Programming Overview
 
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadGrid class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadGrid). You can also find it in the intellisense in Visual Studio.
+
 For instructions and examples for a server-side approach to access Cells, Values, Controls and more in RadGrid, visit the: [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
 
 ## Classes and Properties
