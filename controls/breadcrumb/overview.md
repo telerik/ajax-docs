@@ -27,7 +27,7 @@ RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrappe
 * [Editing functionality]({%slug breadcrumb/functionality/editing%})
 * [Built-in navigation support]({%slug breadcrumb/functionality/navigation%})
 * [Support for ClientItemTemplate](https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/functionality/items#clientitemtemplate)
-* [Flexible client-side API]({%slug breadcrumb/client-side-programming/radbreadcrumb-object%})
+* [Flexible client-side API]({%slug breadcrumb/client-side-programming/overview%})
 * [Visual Appeal - shiped with a rich set of skins for easy and consistent styling](#skins)
 
 ## Add a RadBreadcrumb Control
