@@ -9,6 +9,16 @@ res_type: kb
 
 This article shows a few common steps for troubleshooting JavaScript errors in your project.
 
+In the article:
+
+ * [Show JavaScript console errors on the page](#show-javascript-console-errors-on-the-page)
+ * [Common errors](#common-errors)
+     * [Errors hidden by AJAX](#errors-hidden-by-ajax)
+     * [Compatibility Mode in Internet Explorer](#compatibility-mode-in-internet-explorer)
+    
+ * [Use DevTools for troubleshooting](#use-devtools-for-troubleshooting)
+     * [Troubleshooting JavaScript errors](#troubleshooting-javascript-errors)
+     * [Troubleshooting Network requests](#troubleshooting-network-requests)
 
 ## Show JavaScript console errors on the page
 
