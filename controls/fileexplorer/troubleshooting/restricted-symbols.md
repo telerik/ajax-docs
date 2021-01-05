@@ -16,7 +16,7 @@ There are some sets of symbols, which use in a URL path is considered as restric
 
 ![fileexplorer-restricted-symbols-1](images/fileexplorer-restricted-symbols-1.png)
 
-This error is not caused by **RadFileExplorer's** limitation, but indicates that the publishing was cancelled due to the ASP.NETvalidators detecting a dangerous input in the request path. This information concerns the following characters: **<,>,*,%,&,:,\**. You can predefine the set of the restricted symbols by both setting `ValidateRequest="false"` to the declaration of the page,containing the Editor and adding the [requestPathInvalidCharacters](https://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.requestpathinvalidcharacters.aspx) in the `<httpRuntime>` section of the *web.config*:
+This error is not caused by **RadFileExplorer's** limitation, but indicates that the publishing was cancelled due to the ASP.NET validators detecting a dangerous input in the request path. This information concerns the following characters: **<,>,*,%,&,:,\**. You can predefine the set of the restricted symbols by both setting `ValidateRequest="false"` to the declaration of the page, containing FileExplorer and adding the [requestPathInvalidCharacters](https://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.requestpathinvalidcharacters.aspx) in the `<httpRuntime>` section of the *web.config*:
 
 ````XML
 <system.web>
