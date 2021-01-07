@@ -39,6 +39,8 @@ There are several ways to add the HTTP handlers:
 >
 >As of R1 2020, the [Telerik.Upload.AllowedCustomMetaDataTypes](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes) feature is enabled by default to improve the application security.
 
+>caution As of R1 2020, the **Machine Key** is used automatically for the `ConfigurationEncryptionKey` and `ConfigurationHashKey` keys if they are not set explicitly. You will still need to set your own custom keys if you are using older version of the controls.
+
 >caption **Example 1**: The mandatory web.config additions needed by the Telerik® UI for ASP.NET AJAX suite.
 
 ````web.config
