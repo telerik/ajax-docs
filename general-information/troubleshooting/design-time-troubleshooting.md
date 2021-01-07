@@ -26,6 +26,8 @@ This article describes common issues related to the design-time rendering of the
 
 * [Design-time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
 
+* [Distorted appearance when using designer on HiDPI monitors](#distorted-appearance-when-using-designer-on-hidpi-monitors)
+
 >note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik® UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
 >
 >As of R1 2018, this assembly is no longer added to the GAC by the installer.
@@ -231,6 +233,48 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 
 	>note Using the third approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE. This instance of the error usually happens when upgrading Telerik® UI for ASP.NET AJAX.
 
+## Distorted appearance when using designer on HiDPI monitors
+
+The WebForms Designer in Visual Studio doesn't have scaling support. Therefore when scaling is enabled on a high-resolution setup, this can cause display issues with some forms in the Designer. For examples, too small and difficult to click SmartTag button, overlapping controls, truncated table rows, or Configuration Wizard appearance issues like shown below:
+
+![Sample Appearance issue](images/desigener-on-hdpi-monitors.png)
+
+The solution suggested by Microsoft for fixing this issue in WinForms Designer has proven helpful for solving it with WebForms Designer as well. Check it out in the [Disable DPI-awareness in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/designers/disable-dpi-awareness) article.
+
+**Possible solutions**:
+
+1. Restart Visual Studio as a DPI-unaware process
+
+	When you open a form in the Designer in Visual Studio on an HDPI monitor, Visual Studio displays a yellow informational bar at the top of the designer:
+
+	![Informational bar in Visual Studio to restart in DPI-unaware mode](images/informational-bar-in-VisualStudio-DPI-unaware-mode.png)
+
+	You can restart Visual Studio as a DPI-unaware process by selecting the option on the yellow informational bar. This is the preferred way of resolving the problem.
+
+	>note It's important to restart Visual Studio as a DPI-aware process when you're finished working in the Designer. When it's running as a DPI-unaware process, fonts can look blurry and you may see issues in other designers such as the XAML Designer. If you close and reopen Visual Studio when it's running in DPI-unaware mode, it becomes DPI-aware again. You can also select the Restart Visual Studio as a DPI-aware process option in the informational bar.
+	
+1. Add a registry entry
+
+	You can mark Visual Studio as DPI-unaware by modifying the registry. Open Registry Editor and add an entry to the HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers subkey:
+
+	Entry: Depending on whether you're using Visual Studio 2017 or 2019, use one of these values:
+
+	 * C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
+	 * C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+
+	>note If you're using the Professional or Enterprise edition of Visual Studio, replace Community with Professional or Enterprise in the entry. Also replace the drive letter as necessary.
+
+	**Type**: REG_SZ
+
+	**Value**: DPIUNAWARE
+
+	>note Visual Studio remains in DPI-unaware mode until you remove the registry entry.
+
+1. Set your display scaling setting to 100%
+
+	To set your display scaling setting to 100% in Windows 10, type display settings in the task bar search box, and then select Change display settings. In the Settings window, set Change the size of text, apps, and other items to 100%.
+
+	Setting your display scaling to 100% may be undesirable, because it can make the user interface too small to be usable
 
 
 ### See Also
