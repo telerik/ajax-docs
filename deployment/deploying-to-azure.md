@@ -16,9 +16,9 @@ position: 3
 
 Deploying a project that uses the Telerik® UI for ASP.NET AJAX to Windows Azure is not very different than deploying a standard application. More information can be found in the following resources:
 
-* [Telerik® UI for ASP.NET AJAX on Azure from Todd Anglin's blog](https://blogs.telerik.com/toddanglin/posts/09-04-13/radcontrols-for-asp-net-ajax-on-azure-part-1.aspx)
+* [Telerik® UI for ASP.NET AJAX on Azure from Todd Anglin's blog](https://www.telerik.com/blogs/radcontrols-for-asp-net-ajax-on-azure-part-1)
 
-* [Deploying Telerik® UI for ASP.NET AJAX to Azure from Todd Anglin's blog](https://blogs.telerik.com/toddanglin/posts/09-04-17/deploying-radcontrols-to-azure.aspx)
+* [Deploying Telerik® UI for ASP.NET AJAX to Azure from Todd Anglin's blog](https://www.telerik.com/blogs/deploying-radcontrols-to-azure)
 
 
 ## Common Issues
@@ -27,6 +27,5 @@ Deploying a project that uses the Telerik® UI for ASP.NET AJAX to Windows Azure
 
 This can often seem like an intermittent problem - i.e. after some deployment attempts the Telerik controls will work, after some - they will not.
 
-The reason behind this behavior, however, is within Microsoft's servers - when you upload from a location that is ahead of the time zone in which the Azure servers are located the AssemblyResourceLocator does not work correctly until the servers catch up to the local time in which you upload. This is explained in [this thread in Microsoft's forums](http://social.msdn.microsoft.com/Forums/en/windowsazure/thread/751e27a9-4108-4446-9870-411f409d2c08).
-
-This means that usually simply waiting will resolve the situation. More information and an alternative approach is shown in Simon Holman's blog post [Telerik CSS issues with Windows Azure](http://simon-holman.net/2011/07/telerik-css-issues-with-windows-azure/).
+The reason behind this behavior, however, is within Microsoft's servers - when you upload from a location that is ahead of the time zone in which the Azure servers are located the AssemblyResourceLocator does not work correctly until the servers catch up to the local time in which you upload. This is explained in [this thread in Microsoft's forums](http://social.msdn.microsoft.com/Forums/en/windowsazure/thread/751e27a9-4108-4446-9870-411f409d2c08). Additionally, you can try enabling the Telerik CDN:
+[CDN Support Overview]({%slug scriptmanager/cdn-support/overview%}).
