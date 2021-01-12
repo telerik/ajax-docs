@@ -34,7 +34,7 @@ The filtering is working, but to see the results you need to open the dropdown w
 </telerik:RadComboBox>
 <script>
     function OnClientKeyPressing(sender, e) {
-        if (!sender.get_dropDownVisible()) {
+        if (!sender.get_dropDownVisible() && e.get_domEvent().keyCode != 9) {
             sender.showDropDown();
         }
     }
