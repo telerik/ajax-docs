@@ -51,7 +51,7 @@ KendoUI number and date formats can be used inside the Client Templates. In orde
 >note 
 >* These formats are essentially JavaScript functions and are evaluated during runtime. This means that the strings that are passed to the ClientTemplate property must be properly escaped to allow JavaScript to work with them.
 >
->* If these properties	are set in the code-behind the strings must be additionally escaped for the code-behind language according to its specifics	so that they are valid. More information on the matter is available in the [Handling Special Symbols help article]({%slug htmlchart/troubleshooting/handle-special-symbols%}).
+>* If these properties	are set in the code-behind the strings must be additionally escaped for the code-behind language according to its specifics	so that they are valid. More information on the matter is available in the [Handling Special Symbols help article](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/troubleshooting/handle-special-symbols).
 >
 
 ## See Also
