@@ -78,7 +78,7 @@ Protected Sub RadFileExplorer1_ItemCommand(ByVal sender As Object, ByVal e As Ra
 End Sub
 ````
 
->tip You can use the `ItemCommand` event to validate the user actions in order to tighten security. You can find an example in the [Security]({%slug fileexplorer/security%}) help article.
+>tip You can use the `ItemCommand` event to validate the user actions in order to tighten security. You can find an example in the [Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/fileexplorer/security) help article.
 
 ## ExplorerPopulated
 
@@ -141,4 +141,10 @@ Protected Sub RadFileExplorer1_ExplorerPopulated(ByVal sender As Object, ByVal e
 	End Select
 End Sub
 ````
+
+You can also handle some of the events of the controls nested in RadFileExplorer by accessing them in the Page_Load event through the RadFileExplorer object. More details about the controls nested in RadFileExplorer can be found here:
+
+[RadFileExplorer Server-side Programming Overview]({%slug fileexplorer/server-side-programming/overview%})
+
+
 
