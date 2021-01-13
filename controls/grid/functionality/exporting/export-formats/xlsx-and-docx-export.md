@@ -162,11 +162,57 @@ Additionally you can change the default alignment on **OnInfrastructureExporting
 
 Both **xlsx** and **docx** support exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an **absolute** or **relative** path are supported, but binary images are not.
 
+## Auto-fit columns width
+
+For the XLSX format only, the R1 2020 release introduces the option to set the AutoWidth setting for the exported columns. It is based on the AutoWidth settins of the RadSpreadProcessing Library explained in [RadSpreadProcessing - Auto Fit Columns Width](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/working-with-rows-and-columns/resizing#auto-fit-columns-width). You can check the [Export to Excel](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export/defaultcs.aspx) online demo for a practical demonstration.
+
+````ASP.NET
+<ExportSettings>
+    <Excel Format="Xlsx" AutoFitColumnWidth="AutoFitAll" />
+</ExportSettings>
+````
+
+The enum type for the AutoFitColumnWidth is Telerik.Web.UI.Export.ExportAutoFitWidthMode with the following options:
+
+- `Disabled` (*default*) - The width of the columns is the default one or the one defined in HeaderStyle-Width property of the column
+- `AutoFitExpandOnly` - Does not affect columns that are wide enough to accommodate all cells in the column
+- `AutoFitAll` - Resizes all columns so the column width is equal to the width of the widest cell in it
+- `ExpandToFitNumberValuesWidth` - It resizes columns with cells that contain only number values
+
 ## Generate Export Output
 
 RadGrid provides a convenient way to extract the XLSX output as a string without actually exporting - this is done via the `GenerateXlsxOutput()` method. It is available for .NET version 4.0+ and in Telerik UI for ASP.NET AJAX versions R2 2019 and later.
 
-This can be used to get the content out of multiple grids simultaneously, then modify or save it. You can check the [Export Multiple Grids](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export-multiple-grids/defaultcs.aspx?product=grid) live demo which demonstrates a practical implementation.
+As of R1 2021, the `GenerateXlsxOutput()` method has a few overloads introduced that allow you to receive the Workbook object or byte[] of the export output.
+
+This can be used to get the content out of multiple grids simultaneously, then modify or save it. You can check the following live demos which demonstrate a practical implementation.
+
+1. [Export Multiple Grids](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export-multiple-grids/defaultcs.aspx?product=grid)
+2. [Export Grid to a Preformatted Template file](https://demos.telerik.com/aspnet-ajax/grid/Examples/Functionality/Exporting/Excel-Export-To-Template-File/DefaultCS.aspx)
+
+Example:
+
+````C#
+// alias for the using used for shorter definition of the Workbook type
+using xlsx = Telerik.Windows.Documents.Spreadsheet.Model;
+
+// various ways to use the GenerateXlsxOutput() method
+byte[] outputAsByteArray =  RadGrid1.MasterTableView.GenerateXlsxOutput<byte[]>() as byte[];
+xlsx.Workbook outputAsWorkbook = RadGrid1.MasterTableView.GenerateXlsxOutput<xlsx.Workbook>() as xlsx.Workbook;
+string outputAsString = RadGrid1.MasterTableView.GenerateXlsxOutput<string>() as string;
+string outputAsString2 = RadGrid1.MasterTableView.GenerateXlsxOutput();
+````
+````VB
+' alias for the Import used for shorter definition of the Workbook type
+Imports xlsx = Telerik.Windows.Documents.Spreadsheet.Model
+
+' various ways to use the GenerateXlsxOutput() method
+Dim outputAsByteArray As Byte() = TryCast(RadGrid1.MasterTableView.GenerateXlsxOutput(Of Byte())(), Byte())
+Dim outputAsWorkbook As xlsx.Workbook = TryCast(RadGrid1.MasterTableView.GenerateXlsxOutput(Of xlsx.Workbook)(), xlsx.Workbook)
+Dim outputAsString As String = TryCast(RadGrid1.MasterTableView.GenerateXlsxOutput(Of String)(), String)
+Dim outputAsString2 As String = RadGrid1.MasterTableView.GenerateXlsxOutput()
+````
+
 
 **If you are not actually exporting** at the end of the logic and the Response is not cleared, the state of the grids may change. This is especially true when the `IgnorePaging` and `HideStructureColumns` exporting properties are enabled. To return the original state, you can set `AllowPaging` to true then call `Rebind()` to the grid instance. Alternatively, you can try using the `Response.Redirect(Request.RawUrl);` approach.
 

@@ -28,6 +28,7 @@ Below you can find the following sections:
 	* [Export in Web Farm](#export-in-web-farm)
 	* [Export over SSL](#export-over-ssl)
 	* [Export Template Columns](#export-template-columns)
+	* [Export to preformatted template XLSX file]({%slug grid/functionality/exporting/export-formats/xlsx-and-docx-export%}#generate-export-output)
 * [Obsolete Methods](#obsolete-methods)
 * [Live Demos](#live-demos)
 
@@ -69,7 +70,14 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 	>note  **Internet Explorer** ignores the **FileName** property when **OpenInNewWindow** is set to false.
 
+* **WorksheetName**— As of R1 2021, the Excel specific Worksheet name property can be used. This is helpful when you want to give a predefined name for the Excel sheet where the Grid's data will be populated. If empty, the file name will be used as a worksheet name. The restrictions for the name are the same as the one applicable to the Excel sheets. 
+	**ASP.NET**
 
+		<ExportSettings>
+			<Excel WorksheetName="Employees" />
+		</ExportSettings>
+
+	>note  **WorksheetName** property is applicable only for Excel formats different from *HTML*.
 
 * **HideStructureColumns**—Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn* as well as the first *GridGroupSplitterColumn*. Note that this property will affect only the first level in hierarchical *RadGrids*.
 

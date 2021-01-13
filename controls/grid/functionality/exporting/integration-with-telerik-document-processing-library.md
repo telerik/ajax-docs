@@ -232,6 +232,8 @@ Protected Sub ExportToExcel_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
+>note As of R1 2021, the MasterTableView's `GenerateXlsxOutput()` method can return an already populated Workbook. It is perfect for a scenario where you need to populate the data to a preformatted template Xlsx file. More information can be found in [Xlsx and Docx export - Generate Export Output](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-formats/xlsx-and-docx-export#generate-export-output) article and the [Export Grid to a Preformatted Template file](https://demos.telerik.com/aspnet-ajax/grid/Examples/Functionality/Exporting/Excel-Export-To-Template-File/DefaultCS.aspx) online demo.
+
 
 ## Exporting RadGrid to Word
 
