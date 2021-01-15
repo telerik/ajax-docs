@@ -34,8 +34,7 @@ The following tutorial demonstrates how you can add a **RadMultiSelect** control
 
     **ASPX**
     
-        <telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" DataTextField="text" DataValueField="value" Filter="Contains" Width="400px"
-            Placeholder="Select attendees..." >
+        <telerik:RadMultiSelect ID="RadMultiSelect1" runat="server" DataTextField="text" DataValueField="value" Filter="Contains" Width="400px" Placeholder="Select attendees..." AutoClose="false">
             <Items>
                 <telerik:MultiSelectItem Text="Steven White" Value="1"></telerik:MultiSelectItem>
                 <telerik:MultiSelectItem Text="Nancy King" Value="2"></telerik:MultiSelectItem>
