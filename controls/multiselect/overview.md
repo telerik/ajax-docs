@@ -38,6 +38,8 @@ It operates on the client, displays a list of options and allows multiple select
 
 * Rich [client-side API]({%slug multiselect/client-side-programming/overview%}) and [events]({%slug multiselect/client-side-programming/events%})
 
+* Option for keeping or closing the DropDown upon selecting an item. This is controlled throughout the AutoClose property, see [Getting Started]({%slug multiselect/getting-started%}) section.
+
 
 # See Also
 
