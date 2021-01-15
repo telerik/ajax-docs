@@ -19,7 +19,7 @@ The following tutorial demonstrates how you can add a **RadMultiSelect** control
 
 1. Add a **ScriptManager** control on a Web Form.
 
-2. Add a **RadMultiColumnComboBox** control to the page, and set its properties:
+2. Add a **RadMultiSelect** control to the page, and set its properties:
 
     * `DataTextField` and `DataValueField` - set them to `text` and `value` when populated with MultiSelectItems.
     * Populate the `Items` collection with `MultiSelectItem` instances and set their properties:
@@ -28,6 +28,7 @@ The following tutorial demonstrates how you can add a **RadMultiSelect** control
     * `FooterTemplate` - you can set custom footer template to the **RadMultiSelect** popup here.
     * `Filter` - set it to "`Contains`" to enable generic filtering.
     * Set other properties like `Placeholder`, `DropDownHeight` and `Width` to control its appearance as desired.
+    * *Optional*: Set the `AutoClose` property to **false** if you would like to keep the DropDown open upon selecting an item. This way you can select more items without the need top open it again. Set the `AutoClose` property to **true** to make the DropDown close as soon as you select an item from the list.
         
     The end result should be similar to the following:
 
