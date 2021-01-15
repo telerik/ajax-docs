@@ -31,7 +31,6 @@ You are able to instantiate the provider through code. This allows you to provid
 For example:
 
 ````C#
-	
 protected void Page_Init(object sender, EventArgs e)
 {
 	ExchangeSchedulerProvider provider =
@@ -41,7 +40,12 @@ protected void Page_Init(object sender, EventArgs e)
 	// new ExchangeSchedulerProvider("https://dc1.litwareinc.com/EWS/Exchange.asmx", credentials);
 	RadScheduler1.Provider = provider;
 }  
-	
+````
+````VB
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+    Dim provider As ExchangeSchedulerProvider = New ExchangeSchedulerProvider("https://yourURL.com/EWS/Exchange.asmx", "username", "password", "domain", "CalendarName")
+    RadScheduler1.Provider = provider
+End Sub
 ````
 
 
