@@ -1464,6 +1464,14 @@ Generates the text representing the Export Output for Microsoft Excel XSLX forma
 
 `System.String` 
 
+###  GenerateXlsxOutput
+
+Generates a SpreadProcessing Workbook that can be exported to a number of formats such as XLSX, PDF and others. For more information, check https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/general-information
+
+#### Returns
+
+`System.String` 
+
 ###  GetBatchColumnEditor
 
 Returns the column editor for the specified column for EditMode="Batch".

@@ -1,10 +1,10 @@
 ---
-title: Telerik.Web.UI.RadPdfViewer
-page_title: Telerik.Web.UI.RadPdfViewer
-description: Telerik.Web.UI.RadPdfViewer
+title: Telerik.Web.UI.RadBreadcrumb
+page_title: Telerik.Web.UI.RadBreadcrumb
+description: Telerik.Web.UI.RadBreadcrumb
 ---
 
-# Telerik.Web.UI.RadPdfViewer
+# Telerik.Web.UI.RadBreadcrumb
 
 ## Inheritance Hierarchy
 
@@ -12,15 +12,15 @@ description: Telerik.Web.UI.RadPdfViewer
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
 * Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
-* Telerik.Web.UI.RadPdfViewer
+* Telerik.Web.UI.RadBreadcrumb
 
 ## Properties
 
-###  ActivePage `Int32`
+###  BindToLocation `Boolean`
 
-The active page number in the viewer.
+Indicates whether the Breadcrumb will enable/disable the binding to the location object of the browser on initialization.
 
-###  ClientEvents `PdfViewerClientEvents`
+###  ClientEvents `BreadcrumbClientEvents`
 
 Defines the client events handlers.
 
@@ -29,14 +29,22 @@ Defines the client events handlers.
 This property is overridden in order to support controls which implement INamingContainer.
             The default value is changed to "AutoID".
 
+###  ClientItemTemplate `String`
+
+The template used to render the items in the breadcrumb.
+
 ###  CssClassFormatString `String`
 
 The CssClass property will now be used instead of the former Skin 
             and will be modified in AddAttributesToRender()
 
-###  DefaultPageSizeSettings `DefaultPageSize`
+###  DelimiterIcon `String`
 
-Specifies the default page size if no PDF is displayed in the PdfViewer. The page size will shrink to fit the viewer dimensions.
+Defines a name of an existing icon in the Kendo UI Web Font Icons. The icon will be applied as separator between the segments of the Breadcrumb path.
+
+###  Editable `Boolean`
+
+Indicates whether the editing functionality of the Breadcrumb will be enabled/disabled.If the option is enabled the path will be editable. Clicking in an empty area of the component will trigger editing mode. Editing mode shows an input showing the value of the component enabling the end user to type a new path.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -70,22 +78,25 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Returns true if ripple effect should be added
 
+###  Gap `Double`
+
+Defines the space in pixels after the last item to stay empty.The gap value is taken into account when items overflow and continues to remain empty.
+
 ###  IsSkinSet `String`
 
 For internal use.
 
-###  MaxSerializerLength `Int32`
+###  Items `BreadcrumbItemsCollection`
 
-Specifies the maximum length of accepted JSON strings.
-            Default value is int.MaxValue (2048MB=2147483647)
+Array of items to be rendered in Breadcrumb.
 
 ###  MessagesSettings `Messages`
 
-Specifies the localization messages of the PdfViewer.
+Defines the text of the root icon title that is displayed within the Breadcrumb.
 
-###  PdfjsProcessingSettings `PdfjsProcessing`
+###  Navigational `Boolean`
 
-Specifies the PDF.JS configuration options. Including pdfjs is mandatory.
+Indicates whether the navigation functionality of the Breadcrumb will be enabled/disabled.When navigational is set to false, automatic navigation (changing url location) is disabled by default. In this state, the click event will be prevented and navigation will occur only if programmatic navigation is implemented.When navigational is set to true, the url (path) will be automatically added to the href attribute of the rendered links. In this state, the click event will trigger navigation.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -107,14 +118,14 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
+###  RootIcon `String`
+
+Defines a name of an existing icon in the Kendo UI Web Font Icons. The icon will be applied as the first item(root) of Breadcrumb path.The root icon is clickable and resets the value of the component.
+
 ###  RuntimeSkin `String`
 
 Gets the real skin name for the control user interface. If Skin is not set, returns
             "Default", otherwise returns Skin.
-
-###  Scale `Scale`
-
-Specifies the default scale of the pages.
 
 ###  Skin `String`
 
@@ -124,25 +135,9 @@ Gets or sets the skin name for the control user interface.
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  ToolBar `Boolean`
+###  Value `String`
 
-ToolBar option accepts a Boolean value which indicates if the toolbar will be displayed or an Object with items. Inherits Kendo UI ToolBar.
-
-###  ToolBarSettings `Boolean`
-
-ToolBar option accepts a Boolean value which indicates if the toolbar will be displayed or an Object with items. Inherits Kendo UI ToolBar.
-
-###  ZoomMax `Double`
-
-Specifies the maximum zoom that could be applied to the pages.
-
-###  ZoomMin `Double`
-
-Specifies the minimum zoom that could be applied to the pages.
-
-###  ZoomRate `Double`
-
-Specifies the zoom rate that could be applied to the pages. Used when zooming on mousewheel and for the zoomIn and zoomOut tools.
+Defines the value/path of the component. Each segments is separated by a slash.
 
 ## Methods
 
@@ -181,24 +176,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  LoadPostData
-
-Loads the posted content of the list control, if it is different from the last posting.
-
-#### Parameters
-
-#### postDataKey `System.String`
-
-The key identifier for the control, used to index the postCollection.
-
-#### postCollection `System.Collections.Specialized.NameValueCollection`
-
-A  that contains value information indexed by control identifiers.
-
-#### Returns
-
-`System.Boolean` true if the posted content is different from the last posting; otherwise, false.
 
 ###  LoadPostData
 

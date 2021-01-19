@@ -37,6 +37,10 @@ Gets a set of properties that get or set the names of the JavaScript
 This property is overridden in order to support controls which implement INamingContainer.
             The default value is changed to "AutoID".
 
+###  ControlId `String`
+
+The client-side id of the inner input element used for intergation with RadLabel
+
 ###  CssClassFormatString `String`
 
 The CssClass property will now be used instead of the former Skin 

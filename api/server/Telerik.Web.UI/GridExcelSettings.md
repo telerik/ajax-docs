@@ -16,6 +16,11 @@ Class holding settings associated with the Telerik.Web.UI.RadGrid exporting to E
 
 ## Properties
 
+###  AutoFitColumnWidth `ExportAutoFitWidthMode`
+
+Determines whether RadGrid will auto-fit the columns' width based on the length of the content.
+            False by default. XLSX format only.
+
 ###  AutoFitImages `Boolean`
 
 Determines whether RadGrid will fit the image within the boundaries of its parent cell (true) or will leave it with the default dimensions (false).
@@ -32,4 +37,9 @@ Gets or sets the file extension for RadGrid Excel export.
 ###  Format `GridExcelExportFormat`
 
 Gets or sets in which format the Excel data will be exported.
+
+###  WorksheetName `String`
+
+A string specifying the name of the worksheet that will be
+            created. If none is set, the ExportSettings.FileName will be used for a Worksheet name. Not applicable for ExcelFormat.Html.
 
