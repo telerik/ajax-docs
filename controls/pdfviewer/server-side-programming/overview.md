@@ -52,5 +52,65 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
+## Creating a PdfViewer in the Code-Behind
 
+RadPdfViewer can be created and configured entirely in the code-behind, as demonstrated in the sample below:
 
+````ASPX
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.js"></script>
+    <script type="text/javascript">
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.worker.js';
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+    </form>
+````
+
+````C#
+protected void Page_Init(object sender, EventArgs e)
+{
+    GeneratePdfViewer();
+}
+
+private void GeneratePdfViewer()
+{
+    var pdfViewer = new RadPdfViewer();
+
+    pdfViewer.ID = "RadPdfViewer1";
+    pdfViewer.Height = Unit.Pixel(550);
+    pdfViewer.Width = Unit.Pixel(800);
+    pdfViewer.Scale = new Telerik.Web.UI.PdfViewer.Scale(0.9);
+
+    pdfViewer.ToolBar = true;
+    pdfViewer.ToolBarSettings.Items = new string[] { "pager", "spacer", "zoom", "toggleSelection", "spacer", "search", "download", "print" };
+
+    pdfViewer.PdfjsProcessingSettings.File = "Document.pdf";
+
+    Panel1.Controls.Add(pdfViewer);
+}
+````
+````VB
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
+    GeneratePdfViewer()
+End Sub
+
+Private Sub GeneratePdfViewer()
+    Dim pdfViewer = New RadPdfViewer()
+    pdfViewer.ID = "RadPdfViewer1"
+    pdfViewer.Height = Unit.Pixel(550)
+    pdfViewer.Width = Unit.Pixel(800)
+    pdfViewer.Scale = New PdfViewer.Scale(0.9)
+    pdfViewer.ToolBar = True
+    pdfViewer.ToolBarSettings.Items = New String() {"pager", "spacer", "zoom", "toggleSelection", "spacer", "search", "download", "print"}
+    pdfViewer.PdfjsProcessingSettings.File = "sample.pdf"
+    Panel1.Controls.Add(pdfViewer)
+End Sub
+````
+
+ 
