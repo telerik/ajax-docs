@@ -1,6 +1,6 @@
 ---
 title: Virtual Classroom
-page_title: Virtual Classroom | Telerik Web UI for ASP.NET AJAX
+page_title: Virtual Classroom
 description: "Get started with Telerik Web UI for ASP.NET AJAX and learn about the Virtual Classroom technical training exclusive to active license holders."
 slug: virtualclass_ajax
 position: 1595

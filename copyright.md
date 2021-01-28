@@ -1,6 +1,6 @@
 ---
 title: Copyright
-page_title: Welcome to UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Welcome to UI for ASP.NET AJAX
 description: Welcome to UI for ASP.NET AJAX
 slug: copyright/copyright
 tags: copyright

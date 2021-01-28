@@ -1,6 +1,6 @@
 ---
 title: Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite
-page_title: Use TypeScript for the Telerik® Suite
+page_title: Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite
 description: Check our Web Forms article about Use TypeScript for the Telerik® UI for ASP.NET AJAX Suite.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-the-telerik-ui-for-asp.net-ajax-suite
 tags: use,typescript,for,the,telerik,ui,for,asp.net,ajax,suite

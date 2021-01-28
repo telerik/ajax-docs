@@ -1,6 +1,6 @@
 ---
 title: Test Studio Translators for Telerik® UI for ASP.NET AJAX 
-page_title: Test Studio Translators for Telerik®
+page_title: Test Studio Translators for Telerik® UI for ASP.NET AJAX
 description: Check our Web Forms article about Test Studio Translators for Telerik® UI for ASP.NET AJAX.
 slug: introduction/testing-with-test-studio/test-studio-translators-for-telerik-ui-for-asp.net-ajax-
 tags: test,studio,translators,for,telerik,ui,for,asp.net,ajax,

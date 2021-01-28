@@ -1,6 +1,6 @@
 ---
 title: Next Steps
-page_title: Next Steps with
+page_title: Next Steps with UI for ASP.NET AJAX
 description: Check our Web Forms article about Next Steps with UI for ASP.NET AJAX.
 slug: getting-started/next-steps
 tags: Next Steps

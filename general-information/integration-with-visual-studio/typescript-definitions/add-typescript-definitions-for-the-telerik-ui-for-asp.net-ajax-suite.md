@@ -1,6 +1,6 @@
 ---
 title: Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite
-page_title: Add TypeScript Definitions for the Telerik® Suite
+page_title: Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite
 description: Check our Web Forms article about Add TypeScript Definitions for the Telerik® UI for ASP.NET AJAX Suite.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite
 tags: add,typescript,definitions,for,the,telerik,ui,for,asp.net,ajax,suite
