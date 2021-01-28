@@ -1,7 +1,7 @@
 ---
 title: suppressCompleteMessage Method
-page_title: suppressCompleteMessage Method | RadSpell for ASP.NET AJAX Documentation
-description: suppressCompleteMessage Method
+page_title: suppressCompleteMessage Method - RadSpell
+description: Check our Web Forms article about suppressCompleteMessage Method.
 slug: spell/changes-and-backward-compatibility/suppresscompletemessage-method
 tags: suppresscompletemessage,method
 published: True

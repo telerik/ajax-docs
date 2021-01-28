@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.ModulesManager
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.ModulesManager
 slug: Telerik.Web.UI.Editor.ModulesManager
 ---

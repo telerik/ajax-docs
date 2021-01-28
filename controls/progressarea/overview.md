@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadProgressArea Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadProgressArea Overview
+description: Check our Web Forms article about Overview.
 slug: progressarea/overview
 tags: overview
 published: True

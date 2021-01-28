@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadClientExportManager for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadClientExportManager
+description: Check our Web Forms article about Getting Started.
 slug: clientexportmanager/getting-started/getting-started
 tags: getting,started
 published: True

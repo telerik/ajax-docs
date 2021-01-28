@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDatePicker
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDatePicker
 slug: Telerik.Web.UI.RadDatePicker
 ---

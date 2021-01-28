@@ -1,7 +1,7 @@
 ---
 title: get_contentArea
-page_title: get_contentArea | RadEditor for ASP.NET AJAX Documentation
-description: get_contentArea
+page_title: get_contentArea - RadEditor
+description: Check our Web Forms article about get_contentArea.
 slug: editor/client-side-programming/methods/get_contentarea
 tags: get_contentarea
 published: True

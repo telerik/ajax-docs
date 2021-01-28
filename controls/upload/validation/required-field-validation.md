@@ -1,7 +1,7 @@
 ---
 title: Required Field Validation
-page_title: Required Field Validation | RadUpload for ASP.NET AJAX Documentation
-description: Required Field Validation
+page_title: Required Field Validation - RadUpload
+description: Check our Web Forms article about Required Field Validation.
 slug: upload/validation/required-field-validation
 tags: required,field,validation
 published: True

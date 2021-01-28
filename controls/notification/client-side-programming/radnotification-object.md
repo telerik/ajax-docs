@@ -1,7 +1,7 @@
 ---
 title: RadNotification Object
-page_title: RadNotification Object | RadNotification for ASP.NET AJAX Documentation
-description: RadNotification Object
+page_title: RadNotification Object - RadNotification
+description: Check our Web Forms article about RadNotification Object.
 slug: notification/client-side-programming/radnotification-object
 tags: radnotification,object
 published: True

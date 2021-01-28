@@ -1,7 +1,7 @@
 ---
 title: OnClientClicking
-page_title: OnClientClicking | RadCheckBox for ASP.NET AJAX Documentation
-description: OnClientClicking
+page_title: OnClientClicking - RadCheckBox
+description: Check our Web Forms article about OnClientClicking.
 slug: checkbox/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnItemDropping
-page_title: OnItemDropping | RadListView for ASP.NET AJAX Documentation
-description: OnItemDropping
+page_title: OnItemDropping - RadListView
+description: Check our Web Forms article about OnItemDropping.
 slug: listview/client-side-programming/events/onitemdropping
 tags: onitemdropping
 published: True

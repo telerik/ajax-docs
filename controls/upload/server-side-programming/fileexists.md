@@ -1,7 +1,7 @@
 ---
 title: FileExists
-page_title: FileExists | RadUpload for ASP.NET AJAX Documentation
-description: FileExists
+page_title: FileExists - RadUpload
+description: Check our Web Forms article about FileExists.
 slug: upload/server-side-programming/fileexists
 tags: fileexists
 published: True

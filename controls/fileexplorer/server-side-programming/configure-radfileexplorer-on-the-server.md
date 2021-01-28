@@ -1,7 +1,7 @@
 ---
 title: Configure RadFileExplorer on the Server
-page_title: Configure RadFileExplorer on the Server | RadFileExplorer for ASP.NET AJAX Documentation
-description: Configure RadFileExplorer on the Server
+page_title: Configure RadFileExplorer on the Server - RadFileExplorer
+description: Check our Web Forms article about Configure RadFileExplorer on the Server.
 slug: fileexplorer/server-side-programming/configure-radfileexplorer-on-the-server
 tags: configure,radfileexplorer,on,the,server
 published: True

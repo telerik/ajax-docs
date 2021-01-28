@@ -1,7 +1,7 @@
 ---
 title: Disable AJAX when Client Browser Does Not Support it
-page_title: Disable AJAX when Client Browser Does Not Support it | RadAjax for ASP.NET AJAX Documentation
-description: Disable AJAX when Client Browser Does Not Support it
+page_title: Disable AJAX when Client Browser Does Not Support it
+description: Check our Web Forms article about Disable AJAX when Client Browser Does Not Support it.
 slug: ajaxmanager/how-to/disable-ajax-when-client-browser-does-not-support-it
 previous_url: ajax/how-to/disable-ajax-when-client-browser-does-not-support-it
 tags: disable,ajax,when,client,browser,does,not,support,it

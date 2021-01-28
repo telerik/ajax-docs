@@ -1,7 +1,7 @@
 ---
 title: get_headerMenu()
-page_title: get_headerMenu() | RadGrid for ASP.NET AJAX Documentation
-description: get_headerMenu()
+page_title: get_headerMenu() - RadGrid
+description: Check our Web Forms article about get_headerMenu().
 slug: grid/client-side-programming/radgrid-object/properties/get_headermenu()
 tags: get_headermenu()
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Document Manager
-page_title: Document Manager | UI for ASP.NET AJAX Documentation
-description: Document Manager
+page_title: Document Manager
+description: Check our Web Forms article about Document Manager.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/document-manager
 tags: document,manager
 published: True

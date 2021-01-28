@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockToggleCommand
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockToggleCommand
 slug: Telerik.Web.UI.DockToggleCommand
 ---

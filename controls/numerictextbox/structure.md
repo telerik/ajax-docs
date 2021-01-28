@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadNumericTextBox
+description: Check our Web Forms article about Structure.
 slug: numerictextbox/structure
 tags: structure
 published: True

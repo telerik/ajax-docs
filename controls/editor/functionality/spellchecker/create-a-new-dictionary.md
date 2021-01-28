@@ -1,7 +1,7 @@
 ---
 title: Create a New Dictionary
-page_title: Create a New Dictionary | RadEditor for ASP.NET AJAX Documentation
-description: Create a New Dictionary
+page_title: Create a New Dictionary - RadEditor
+description: Check our Web Forms article about Create a New Dictionary.
 slug: editor/functionality/spellchecker/create-a-new-dictionary
 tags: create,a,new,dictionary
 published: True

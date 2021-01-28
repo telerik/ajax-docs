@@ -1,7 +1,7 @@
 ---
 title: Customizing Row Appearance
-page_title: Customizing Row Appearance | RadGrid for ASP.NET AJAX Documentation
-description: Customizing Row Appearance
+page_title: Customizing Row Appearance - RadGrid
+description: Check our Web Forms article about Customizing Row Appearance.
 slug: grid/appearance-and-styling/customizing-row-appearance
 tags: customizing,row,appearance
 published: True

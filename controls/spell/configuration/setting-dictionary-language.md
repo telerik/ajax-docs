@@ -1,7 +1,7 @@
 ---
 title: Setting Dictionary Language
-page_title: Setting Dictionary Language | RadSpell for ASP.NET AJAX Documentation
-description: Setting Dictionary Language
+page_title: Setting Dictionary Language - RadSpell
+description: Check our Web Forms article about Setting Dictionary Language.
 slug: spell/configuration/setting-dictionary-language
 tags: setting,dictionary,language
 published: True

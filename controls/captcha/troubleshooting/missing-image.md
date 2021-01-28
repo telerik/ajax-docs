@@ -1,7 +1,7 @@
 ---
 title: Missing Image
-page_title: Missing Image | RadCaptcha for ASP.NET AJAX Documentation
-description: Missing Image
+page_title: Missing Image - RadCaptcha
+description: Check our Web Forms article about Missing Image.
 slug: captcha/troubleshooting/missing-image
 tags: missing,image
 published: True

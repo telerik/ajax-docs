@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTabStripCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTabStripCancelEventArgs
 slug: Telerik.Web.UI.RadTabStripCancelEventArgs
 ---

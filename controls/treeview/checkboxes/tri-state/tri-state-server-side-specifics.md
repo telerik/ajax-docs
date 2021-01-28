@@ -1,7 +1,7 @@
 ---
 title: Server-side specifics
-page_title: Tri-State server-side specifics | RadTreeView for ASP.NET AJAX Documentation
-description: Tri-State server-side specifics
+page_title: Tri-State server-side specifics - RadTreeView
+description: Check our Web Forms article about Tri-State server-side specifics.
 slug: treeview/checkboxes/tri-state/tri-state-server-side-specifics
 tags: tri-state,server-side,specifics
 published: True

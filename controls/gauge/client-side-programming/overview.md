@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Progamming Overview | RadGauge for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Progamming Overview - RadGauge
+description: Check our Web Forms article about Overview.
 slug: gauge/client-side-progamming/overview
 tags: overview
 published: True

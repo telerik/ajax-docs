@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadDataPager for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadDataPager
+description: Check our Web Forms article about Overview.
 slug: datapager/server-side-programming/overview
 tags: overview
 published: True

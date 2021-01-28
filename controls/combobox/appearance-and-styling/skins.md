@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadComboBox for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadComboBox
+description: Check our Web Forms article about Skins.
 slug: combobox/appearance-and-styling/skins
 tags: skins
 published: True

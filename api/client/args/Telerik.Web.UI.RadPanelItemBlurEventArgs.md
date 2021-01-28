@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPanelItemBlurEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelItemBlurEventArgs
 slug: Telerik.Web.UI.RadPanelItemBlurEventArgs
 ---

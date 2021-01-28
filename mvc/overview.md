@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: MVC Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: MVC Overview
+description: Check our Web Forms article about Overview.
 slug: mvc/overview
 tags: overview
 published: True

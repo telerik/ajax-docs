@@ -1,7 +1,7 @@
 ---
 title: Go into Edit Mode with AJAX Double-Click
-page_title: Go into Edit Mode with AJAX Double-Click | RadGrid for ASP.NET AJAX Documentation
-description: Go into Edit Mode with AJAX Double-Click
+page_title: Go into Edit Mode with AJAX Double-Click - RadGrid
+description: Check our Web Forms article about Go into Edit Mode with AJAX Double-Click.
 slug: grid/how-to/ajaxified-grid/go-into-edit-mode-with-ajax-double-click
 previous_url: controls/grid/ajaxified-radgrid/go-into-edit-mode-with-ajax-double-click
 tags: go,into,edit,mode,with,ajax,double-click

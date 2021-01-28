@@ -1,7 +1,7 @@
 ---
 title: RadGantt Structure
-page_title: RadGantt Structure | RadGantt for ASP.NET AJAX Documentation
-description: RadGantt Structure
+page_title: RadGantt Structure - RadGantt
+description: Check our Web Forms article about RadGantt Structure.
 slug: gantt/structure/layout
 tags: layout
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Agenda View
-page_title: Agenda View | RadScheduler for ASP.NET AJAX Documentation
-description: Agenda View
+page_title: Agenda View - RadScheduler
+description: Check our Web Forms article about Agenda View.
 slug: scheduler/views/agenda-view
 tags: agenda,view
 published: True

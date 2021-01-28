@@ -1,7 +1,7 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientItemDataBound
+page_title: OnClientItemDataBound - RadComboBox
+description: Check our Web Forms article about OnClientItemDataBound.
 slug: combobox/client-side-programming/events/onclientitemdatabound
 tags: onclientitemdatabound
 published: True

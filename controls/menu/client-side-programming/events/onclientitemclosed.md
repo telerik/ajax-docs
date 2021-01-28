@@ -1,7 +1,7 @@
 ---
 title: OnClientItemClosed
-page_title: OnClientItemClosed | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemClosed
+page_title: OnClientItemClosed - RadMenu
+description: Check our Web Forms article about OnClientItemClosed.
 slug: menu/client-side-programming/events/onclientitemclosed
 tags: onclientitemclosed
 published: True

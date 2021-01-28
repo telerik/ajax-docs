@@ -1,7 +1,7 @@
 ---
 title: Localization through Resource Files
-page_title: Localization through Resource Files | RadImageGallery for ASP.NET AJAX Documentation
-description: Localization through Resource Files
+page_title: Localization through Resource Files - RadImageGallery
+description: Check our Web Forms article about Localization through Resource Files.
 slug: imagegallery/accessibility-and-internationalization/localization-through-resource-files
 tags: localization,resource,files
 published: True

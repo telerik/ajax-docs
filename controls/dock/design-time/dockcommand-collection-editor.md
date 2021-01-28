@@ -1,7 +1,7 @@
 ---
 title: DockCommand Collection Editor
-page_title: DockCommand Collection Editor | RadDock for ASP.NET AJAX Documentation
-description: DockCommand Collection Editor
+page_title: DockCommand Collection Editor - RadDock
+description: Check our Web Forms article about DockCommand Collection Editor.
 slug: dock/design-time/dockcommand-collection-editor
 tags: dockcommand,collection,editor
 published: True

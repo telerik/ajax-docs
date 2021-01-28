@@ -1,7 +1,7 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Keyboard Support
+page_title: Keyboard Support - RadNumericTextBox
+description: Check our Web Forms article about Keyboard Support.
 slug: numerictextbox/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True

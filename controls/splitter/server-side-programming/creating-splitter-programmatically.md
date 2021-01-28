@@ -1,7 +1,7 @@
 ---
 title: Creating Splitter Programmatically
-page_title: Creating Splitter Programmatically | RadSplitter for ASP.NET AJAX Documentation
-description: Creating Splitter Programmatically
+page_title: Creating Splitter Programmatically - RadSplitter
+description: Check our Web Forms article about Creating Splitter Programmatically.
 slug: splitter/server-side-programming/creating-splitter-programmatically
 previous_url: controls/splitter/server-side-programming/creating-splitter-programatically
 tags: creating,splitter,programmatically

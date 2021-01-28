@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadPageLayout Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadPageLayout Overview
+description: Check our Web Forms article about Overview.
 slug: pagelayout/overview
 tags: overview
 published: True

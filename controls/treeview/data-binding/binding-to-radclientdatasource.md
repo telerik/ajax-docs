@@ -1,7 +1,7 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | RadTreeView for ASP.NET AJAX Documentation
-description: Binding to RadClientDataSource
+page_title: Binding to RadClientDataSource - RadTreeView
+description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: treeview/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FileExplorer.FileList
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FileExplorer.FileList
 slug: Telerik.Web.UI.FileExplorer.FileList
 ---

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarMinimizingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarMinimizingEventArgs
 slug: Telerik.Web.UI.RibbonBarMinimizingEventArgs
 ---

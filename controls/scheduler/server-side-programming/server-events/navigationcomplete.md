@@ -1,7 +1,7 @@
 ---
 title: NavigationComplete
-page_title: NavigationComplete | RadScheduler for ASP.NET AJAX Documentation
-description: NavigationComplete
+page_title: NavigationComplete - RadScheduler
+description: Check our Web Forms article about NavigationComplete.
 slug: scheduler/server-side-programming/server-events/navigationcomplete
 tags: navigationcomplete
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Default Item
-page_title: Default Item | RadComboBox for ASP.NET AJAX Documentation
-description: Default Item
+page_title: Default Item - RadComboBox
+description: Check our Web Forms article about Default Item.
 slug: combobox/radcombobox-items/default-item
 tags: default,item
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.PivotGridMenuShownEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PivotGridMenuShownEventArgs
 slug: Telerik.Web.UI.PivotGridMenuShownEventArgs
 ---

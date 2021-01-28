@@ -1,7 +1,7 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientTemplateDataBound
+page_title: OnClientTemplateDataBound - RadNavigation
+description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: navigation/client-side-programming/events/onclienttemplatedatabound
 tags: onclienttemplatedatabound
 published: True

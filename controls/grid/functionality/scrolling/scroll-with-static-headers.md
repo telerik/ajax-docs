@@ -1,7 +1,7 @@
 ---
 title: Scroll with Static Headers
-page_title: Scroll with Static Headers | RadGrid for ASP.NET AJAX Documentation
-description: Scroll with Static Headers
+page_title: Scroll with Static Headers - RadGrid
+description: Check our Web Forms article about Scroll with Static Headers.
 slug: grid/functionality/scrolling/scroll-with-static-headers
 tags: scroll,with,static,headers
 published: True

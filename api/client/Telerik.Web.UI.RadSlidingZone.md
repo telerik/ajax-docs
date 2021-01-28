@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSlidingZone
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSlidingZone
 slug: Telerik.Web.UI.RadSlidingZone
 ---

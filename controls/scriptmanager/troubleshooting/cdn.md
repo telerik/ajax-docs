@@ -1,7 +1,7 @@
 ---
 title: CDN
-page_title: CDN | RadScriptManager for ASP.NET AJAX Documentation
-description: CDN
+page_title: CDN - RadScriptManager
+description: Check our Web Forms article about CDN.
 slug: scriptmanager/troubleshooting/cdn
 tags: cdn
 published: True

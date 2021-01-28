@@ -1,7 +1,7 @@
 ---
 title: OnAjaxRequest
-page_title: OnAjaxRequest | RadAjax for ASP.NET AJAX Documentation
-description: OnAjaxRequest
+page_title: OnAjaxRequest
+description: Check our Web Forms article about OnAjaxRequest.
 slug: ajaxpanel/server-side-programming/events/onajaxrequest
 tags: onajaxrequest
 published: True

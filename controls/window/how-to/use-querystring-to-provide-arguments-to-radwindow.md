@@ -1,7 +1,7 @@
 ---
 title: Use Querystring to Provide Arguments to RadWindow
-page_title: Use Querystring to Provide Arguments to RadWindow | RadWindow for ASP.NET AJAX Documentation
-description: Use Querystring to Provide Arguments to RadWindow
+page_title: Use Querystring to Provide Arguments to RadWindow - RadWindow
+description: Check our Web Forms article about Use Querystring to Provide Arguments to RadWindow.
 slug: window/how-to/use-querystring-to-provide-arguments-to-radwindow
 tags: use,querystring,to,provide,arguments,to,radwindow
 published: True

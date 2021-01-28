@@ -1,7 +1,7 @@
 ---
 title: Week View
-page_title: Week View | RadScheduler for ASP.NET AJAX Documentation
-description: Week View
+page_title: Week View - RadScheduler
+description: Check our Web Forms article about Week View.
 slug: scheduler/views/week-view
 tags: week,view
 published: True

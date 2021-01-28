@@ -1,7 +1,7 @@
 ---
 title: Formatting Numeric Values
-page_title: Formatting Numeric Values | UI for ASP.NET AJAX Documentation
-description: Formatting Numeric Values
+page_title: Formatting Numeric Values
+description: Check our Web Forms article about Formatting Numeric Values.
 slug: numerictextbox/features/formatting-numeric-values
 tags: formatting,numeric,values
 published: True

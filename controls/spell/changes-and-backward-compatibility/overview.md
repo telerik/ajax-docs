@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Changes and Backward Compatibility Overview | RadSpell for ASP.NET AJAX Documentation
-description: Overview
+page_title: Changes and Backward Compatibility Overview - RadSpell
+description: Check our Web Forms article about Overview.
 slug: spell/changes-and-backward-compatibility/overview
 tags: overview
 published: True

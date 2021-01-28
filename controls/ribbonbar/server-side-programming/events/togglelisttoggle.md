@@ -1,7 +1,7 @@
 ---
 title: ToggleListToggle
-page_title: ToggleListToggle | RadRibbonBar for ASP.NET AJAX Documentation
-description: ToggleListToggle
+page_title: ToggleListToggle - RadRibbonBar
+description: Check our Web Forms article about ToggleListToggle.
 slug: ribbonbar/server-side-programming/events/togglelisttoggle
 tags: togglelisttoggle
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnPageIndexChanging
-page_title: OnPageIndexChanging | RadDataPager for ASP.NET AJAX Documentation
-description: OnPageIndexChanging
+page_title: OnPageIndexChanging - RadDataPager
+description: Check our Web Forms article about OnPageIndexChanging.
 slug: datapager/client-side-programming/events/onpageindexchanging
 tags: onpageindexchanging
 published: True

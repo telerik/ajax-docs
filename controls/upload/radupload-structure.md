@@ -1,7 +1,7 @@
 ---
 title: RadUpload Structure
-page_title: RadUpload Structure | RadUpload for ASP.NET AJAX Documentation
-description: RadUpload Structure
+page_title: RadUpload Structure - RadUpload
+description: Check our Web Forms article about RadUpload Structure.
 slug: upload/radupload-structure
 tags: radupload,structure
 published: True

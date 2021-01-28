@@ -1,7 +1,7 @@
 ---
 title: Legends
-page_title: Legends | RadChart for ASP.NET AJAX Documentation
-description: Legends
+page_title: Legends - RadChart
+description: Check our Web Forms article about Legends.
 slug: chart/understanding-radchart-elements/legends
 tags: legends
 published: True

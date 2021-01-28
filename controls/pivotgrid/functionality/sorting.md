@@ -1,7 +1,7 @@
 ---
 title: Sorting
-page_title: Sorting | RadPivotGrid for ASP.NET AJAX Documentation
-description: Sorting
+page_title: Sorting - RadPivotGrid
+description: Check our Web Forms article about Sorting.
 slug: pivotgrid/functionality/sorting
 tags: sorting
 published: True

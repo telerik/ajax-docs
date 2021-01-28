@@ -1,7 +1,7 @@
 ---
 title: ContentTemplateTile Object
-page_title: ContentTemplateTile Object | RadTile for ASP.NET AJAX Documentation
-description: ContentTemplateTile Object
+page_title: ContentTemplateTile Object - RadTile
+description: Check our Web Forms article about ContentTemplateTile Object.
 slug: tilelist/tiles/client-side-programming/contenttemplatetile-object
 tags: contenttemplatetile,object
 published: True

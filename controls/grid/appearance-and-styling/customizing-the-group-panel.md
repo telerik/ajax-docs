@@ -1,7 +1,7 @@
 ---
 title: Customizing the Group Panel
-page_title: Customizing the Group Panel | RadGrid for ASP.NET AJAX Documentation
-description: Customizing the Group Panel
+page_title: Customizing the Group Panel - RadGrid
+description: Check our Web Forms article about Customizing the Group Panel.
 slug: grid/appearance-and-styling/customizing-the-group-panel
 tags: customizing,the,group,panel
 published: True

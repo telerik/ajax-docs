@@ -1,7 +1,7 @@
 ---
 title: Badge and Title Elements
-page_title: Badge and Title Elements | RadTile for ASP.NET AJAX Documentation
-description: Badge and Title Elements
+page_title: Badge and Title Elements - RadTile
+description: Check our Web Forms article about Badge and Title Elements.
 slug: tilelist/tiles/badge-and-title-elements
 tags: badge,and,title,elements
 published: True

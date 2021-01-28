@@ -1,7 +1,7 @@
 ---
 title: OnTreeListDestroying
-page_title: OnTreeListDestroying | RadTreeList for ASP.NET AJAX Documentation
-description: OnTreeListDestroying Event
+page_title: OnTreeListDestroying - RadTreeList
+description: Check our Web Forms article about OnTreeListDestroying Event.
 slug: treelist/client-side-programming/Events/OnTreeListDestroying
 tags: events,OnTreeListDestroying
 published: True

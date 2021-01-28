@@ -1,7 +1,7 @@
 ---
 title: Appearance Issues with Initially Hidden Editor
-page_title: Appearance Issues with Initially Hidden Editor | RadEditor for ASP.NET AJAX Documentation
-description: Appearance Issues with Initially Hidden Editor
+page_title: Appearance Issues with Initially Hidden Editor - RadEditor
+description: Check our Web Forms article about Appearance Issues with Initially Hidden Editor.
 slug: editor/troubleshooting/appearance-issues-with-initially-hidden-editor
 tags: appearance,issues,with,initially,hidden,editor
 published: True

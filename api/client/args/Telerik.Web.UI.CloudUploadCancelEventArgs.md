@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.CloudUploadCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CloudUploadCancelEventArgs
 slug: Telerik.Web.UI.CloudUploadCancelEventArgs
 ---

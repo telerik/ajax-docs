@@ -1,7 +1,7 @@
 ---
 title: RadScheduler Object
-page_title: RadScheduler Object | RadScheduler for ASP.NET AJAX Documentation
-description: RadScheduler Object
+page_title: RadScheduler Object - RadScheduler
+description: Check our Web Forms article about RadScheduler Object.
 slug: scheduler/client-side-programming/properties-and-methods/radscheduler-object
 tags: radscheduler,object
 published: True

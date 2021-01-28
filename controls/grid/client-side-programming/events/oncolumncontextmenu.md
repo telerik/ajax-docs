@@ -1,7 +1,7 @@
 ---
 title: OnColumnContextMenu
-page_title: OnColumnContextMenu | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnContextMenu
+page_title: OnColumnContextMenu - RadGrid
+description: Check our Web Forms article about OnColumnContextMenu.
 slug: grid/client-side-programming/events/oncolumncontextmenu
 tags: oncolumncontextmenu
 published: True

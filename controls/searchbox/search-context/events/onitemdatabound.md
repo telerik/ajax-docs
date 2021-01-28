@@ -1,7 +1,7 @@
 ---
 title: OnItemDataBound
-page_title: OnItemDataBound | RadSearchBox for ASP.NET AJAX Documentation
-description: OnItemDataBound
+page_title: OnItemDataBound - RadSearchBox
+description: Check our Web Forms article about OnItemDataBound.
 slug: searchbox/search-context/events/onitemdatabound
 tags: onitemdatabound
 published: True

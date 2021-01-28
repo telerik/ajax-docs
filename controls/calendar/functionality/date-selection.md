@@ -1,7 +1,7 @@
 ---
 title: Date Selection
-page_title: Date Selection | RadCalendar for ASP.NET AJAX Documentation
-description: Date Selection
+page_title: Date Selection - RadCalendar
+description: Check our Web Forms article about Date Selection.
 slug: calendar/functionality/date-selection
 tags: date,selection
 published: True

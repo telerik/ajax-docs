@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditingOptions
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditingOptions
 slug: Telerik.Web.UI.EditingOptions
 ---

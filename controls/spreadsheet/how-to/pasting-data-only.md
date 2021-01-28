@@ -1,7 +1,7 @@
 ---
 title: Paste Data-Only
-page_title: Paste Data-Only | RadSpreadsheet for ASP.NET AJAX Documentation
-description: How to paste data-only into the RadSpreadsheet, stripping all styles
+page_title: Paste Data-Only - RadSpreadsheet
+description: Check our Web Forms article about How to paste data-only into the RadSpreadsheet, stripping all styles.
 slug: spreadsheet/how-to/pasting-data-only
 tags: pasting,data,only,spreadsheet
 published: True

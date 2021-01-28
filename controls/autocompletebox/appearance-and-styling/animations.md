@@ -1,7 +1,7 @@
 ---
 title: Animations
-page_title: Animations | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Animations
+page_title: Animations - RadAutoCompleteBox
+description: Check our Web Forms article about Animations.
 slug: autocompletebox/appearance-and-styling/animations
 tags: animations
 published: True

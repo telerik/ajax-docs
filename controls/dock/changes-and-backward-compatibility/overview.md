@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Changes and Backward Compatibility Overview | RadDock for ASP.NET AJAX Documentation
-description: Overview
+page_title: Changes and Backward Compatibility Overview - RadDock
+description: Check our Web Forms article about Overview.
 slug: dock/changes-and-backward-compatibility/overview
 tags: overview
 published: True

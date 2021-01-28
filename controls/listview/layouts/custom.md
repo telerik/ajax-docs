@@ -1,7 +1,7 @@
 ---
 title: Custom
-page_title: Custom | RadListView for ASP.NET AJAX Documentation
-description: Custom
+page_title: Custom - RadListView
+description: Check our Web Forms article about Custom.
 slug: listview/layouts/custom
 tags: custom
 published: True

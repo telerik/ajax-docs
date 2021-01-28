@@ -1,7 +1,7 @@
 ---
 title: TreeListColumn Object
-page_title: TreeListColumn Object | RadTreeList for ASP.NET AJAX Documentation
-description: TreeListColumn Object
+page_title: TreeListColumn Object - RadTreeList
+description: Check our Web Forms article about TreeListColumn Object.
 slug: treelist/client-side-programming/treelistcolumn-object
 tags: treelistcolumn,object
 published: True

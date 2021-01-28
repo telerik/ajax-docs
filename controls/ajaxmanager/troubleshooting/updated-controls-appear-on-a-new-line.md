@@ -1,7 +1,7 @@
 ---
 title: Updated Controls Appear on a New Line
-page_title: Updated Controls Appear on a New Line | RadAjax for ASP.NET AJAX Documentation
-description: Updated Controls Appear on a New Line
+page_title: Updated Controls Appear on a New Line
+description: Check our Web Forms article about Updated Controls Appear on a New Line.
 slug: ajaxmanager/troubleshooting/updated-controls-appear-on-a-new-line
 previous_url: ajax/radajaxmanager/troubleshooting/updated-controls-appear-on-a-new-line
 tags: radajaxmanager,new,line

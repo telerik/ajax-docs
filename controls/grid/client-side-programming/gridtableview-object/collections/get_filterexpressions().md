@@ -1,7 +1,7 @@
 ---
 title: get_filterExpressions()
-page_title: get_filterExpressions() | RadGrid for ASP.NET AJAX Documentation
-description: get_filterExpressions()
+page_title: get_filterExpressions() - RadGrid
+description: Check our Web Forms article about get_filterExpressions().
 slug: grid/client-side-programming/gridtableview-object/collections/get_filterexpressions()
 tags: get_filterexpressions()
 published: True

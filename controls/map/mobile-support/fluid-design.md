@@ -1,7 +1,7 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | RadMap for ASP.NET AJAX Documentation
-description: Fluid Design
+page_title: Fluid Design - RadMap
+description: Check our Web Forms article about Fluid Design.
 slug: map/mobile-support/fluid-design
 tags: fluid,design
 published: True

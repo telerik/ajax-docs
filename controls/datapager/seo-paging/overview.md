@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: SEO Paging Overview | RadDataPager for ASP.NET AJAX Documentation
-description: Overview
+page_title: SEO Paging Overview - RadDataPager
+description: Check our Web Forms article about Overview.
 slug: datapager/seo-paging/overview
 tags: overview
 published: True

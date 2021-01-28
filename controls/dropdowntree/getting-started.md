@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadDropDownTree for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET RadDropDownTree Getting Started
+page_title: Getting Started - RadDropDownTree
+description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Getting Started.
 slug: dropdowntree/getting-started
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientValidationFailed
-page_title: OnClientValidationFailed | RadCloudUpload for ASP.NET AJAX Documentation
-description: OnClientValidationFailed
+page_title: OnClientValidationFailed - RadCloudUpload
+description: Check our Web Forms article about OnClientValidationFailed.
 slug: cloudupload/client-side-programming/events/onclientvalidationfailed
 tags: onclientvalidationfailed
 published: True

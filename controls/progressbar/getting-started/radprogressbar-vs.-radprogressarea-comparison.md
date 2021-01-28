@@ -1,7 +1,7 @@
 ---
 title: RadProgressBar vs. RadProgressArea Comparison
-page_title: RadProgressBar vs. RadProgressArea Comparison | RadProgressBar for ASP.NET AJAX Documentation
-description: RadProgressBar vs. RadProgressArea Comparison
+page_title: RadProgressBar vs. RadProgressArea Comparison - RadProgressBar
+description: Check our Web Forms article about RadProgressBar vs. RadProgressArea Comparison.
 slug: progressbar/getting-started/radprogressbar-vs.-radprogressarea-comparison
 tags: radprogressbar,vs.,radprogressarea,comparison
 published: True

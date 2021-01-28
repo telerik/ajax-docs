@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadTabStrip for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadTabStrip
+description: Check our Web Forms article about Validation.
 slug: tabstrip/web-pages/validation
 tags: validation
 published: True

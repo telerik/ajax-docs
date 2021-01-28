@@ -1,7 +1,7 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | RadEditor for ASP.NET AJAX Documentation
-description: Right-to-left Support
+page_title: Right-to-left Support - RadEditor
+description: Check our Web Forms article about Right-to-left Support.
 slug: editor/accessibility-and-internationalization/standards-compliance/right-to-left-support
 tags: right-to-left,support
 published: True

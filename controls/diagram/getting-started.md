@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadDiagram for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadDiagram
+description: Check our Web Forms article about Getting Started.
 slug: diagram/getting-started
 tags: getting,started
 published: True

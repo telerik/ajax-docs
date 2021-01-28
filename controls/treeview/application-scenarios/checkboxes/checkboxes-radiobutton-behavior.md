@@ -1,7 +1,7 @@
 ---
 title: CheckBoxes RadioButton Behavior
-page_title: CheckBoxes RadioButton Behavior | RadTreeView for ASP.NET AJAX Documentation
-description: CheckBoxes RadioButton Behavior
+page_title: CheckBoxes RadioButton Behavior - RadTreeView
+description: Check our Web Forms article about CheckBoxes RadioButton Behavior.
 slug: treeview/application-scenarios/checkboxes/checkboxes-radiobutton-behavior
 tags: checkboxes,radiobutton,behavior
 published: True

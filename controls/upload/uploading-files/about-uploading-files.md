@@ -1,7 +1,7 @@
 ---
 title: About Uploading Files
-page_title: About Uploading Files | RadUpload for ASP.NET AJAX Documentation
-description: About Uploading Files
+page_title: About Uploading Files - RadUpload
+description: Check our Web Forms article about About Uploading Files.
 slug: upload/uploading-files/about-uploading-files
 tags: about,uploading,files
 published: True

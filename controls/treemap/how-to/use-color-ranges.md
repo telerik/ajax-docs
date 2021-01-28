@@ -1,7 +1,7 @@
 ---
 title: Use Color Ranges
-page_title: Use Color Ranges | RadTreeMap for ASP.NET AJAX Documentation
-description: Use Color Ranges for items to have sibling and child items take different shades of the main color.
+page_title: Use Color Ranges - RadTreeMap
+description: Check our Web Forms article about Use Color Ranges for items to have sibling and child items take different shades of the main color.
 slug: treemap/how-to/use-color-ranges
 tags: use,color,range,kendo,widget,sibing,shade
 published: True

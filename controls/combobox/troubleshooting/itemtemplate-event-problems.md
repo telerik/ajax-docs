@@ -1,7 +1,7 @@
 ---
 title: ItemTemplate Event Problems
-page_title: ItemTemplate Event Problems | RadComboBox for ASP.NET AJAX Documentation
-description: ItemTemplate Event Problems
+page_title: ItemTemplate Event Problems - RadComboBox
+description: Check our Web Forms article about ItemTemplate Event Problems.
 slug: combobox/troubleshooting/itemtemplate-event-problems
 tags: itemtemplate,event,problems
 published: True

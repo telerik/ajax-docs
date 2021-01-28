@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadMultiColumnComboBox
+description: Check our Web Forms article about Overview.
 slug: multicolumncombobox/client-side-programming/events
 tags: overview,events
 published: True

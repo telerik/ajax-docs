@@ -1,7 +1,7 @@
 ---
 title: Custom Validation
-page_title: Custom Validation | RadUpload for ASP.NET AJAX Documentation
-description: Custom Validation
+page_title: Custom Validation - RadUpload
+description: Check our Web Forms article about Custom Validation.
 slug: upload/validation/custom-validation
 tags: custom,validation
 published: True

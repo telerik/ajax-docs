@@ -1,7 +1,7 @@
 ---
 title: Implementing Drill-Down Functionality
-page_title: Implementing Drill-Down Functionality | RadHtmlChart for ASP.NET AJAX Documentation
-description: Implementing Drill-Down Functionality
+page_title: Implementing Drill-Down Functionality - RadHtmlChart
+description: Check our Web Forms article about Implementing Drill-Down Functionality.
 slug: htmlchart/how-to/implementing-drill-down-functionality
 tags: implementing,drill-down,functionality
 published: True

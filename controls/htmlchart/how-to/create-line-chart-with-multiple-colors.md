@@ -1,7 +1,7 @@
 ---
 title: Create Line Chart With Multiple Colors
-page_title: Create Line Chart With Multiple Colors | RadHtmlChart for ASP.NET AJAX Documentation
-description: Create Line Chart With Multiple Colors
+page_title: Create Line Chart With Multiple Colors - RadHtmlChart
+description: Check our Web Forms article about Create Line Chart With Multiple Colors.
 slug: htmlchart/how-to/create-line-chart-with-multiple-colors
 tags: create,line,chart,with,multiple,colors
 published: True

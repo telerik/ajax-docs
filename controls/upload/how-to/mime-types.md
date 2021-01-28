@@ -1,7 +1,7 @@
 ---
 title: Mime-Types
-page_title: Mime-Types | RadUpload for ASP.NET AJAX Documentation
-description: Mime-Types
+page_title: Mime-Types - RadUpload
+description: Check our Web Forms article about Mime-Types.
 slug: upload/how-to/mime-types
 tags: mime-types
 published: True

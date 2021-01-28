@@ -1,7 +1,7 @@
 ---
 title: OnClientItemPopulating
-page_title: OnClientItemPopulating | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemPopulating
+page_title: OnClientItemPopulating - RadMenu
+description: Check our Web Forms article about OnClientItemPopulating.
 slug: menu/client-side-programming/events/onclientitempopulating
 tags: onclientitempopulating
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Implemented Inherited Properties
-page_title: Implemented Inherited Properties | RadSplitter for ASP.NET AJAX Documentation
-description: Implemented Inherited Properties
+page_title: Implemented Inherited Properties - RadSplitter
+description: Check our Web Forms article about Implemented Inherited Properties.
 slug: splitter/server-side-programming/implemented-inherited-properties
 tags: implemented,inherited,properties
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Ajaxify and Update Controls in Master and Content Page
-page_title: Ajaxify and Update Controls in Master and Content Page | RadAjax for ASP.NET AJAX Documentation
-description: Ajaxify and Update Controls in Master and Content Page
+page_title: Ajaxify and Update Controls in Master and Content Page
+description: Check our Web Forms article about Ajaxify and Update Controls in Master and Content Page.
 slug: ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
 previous_url: ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
 tags: radajax,and,masterpage

@@ -1,7 +1,7 @@
 ---
 title: Programmatic Binding
-page_title: Programmatic Binding | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Programmatic Binding
+page_title: Programmatic Binding - RadSpreadsheet
+description: Check our Web Forms article about Programmatic Binding.
 slug: spreadsheet/data-binding/programmatic-binding
 tags: programmatic, binding
 published: True

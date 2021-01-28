@@ -1,7 +1,7 @@
 ---
 title: RadSocialShare Object
-page_title: RadSocialShare Object | RadSocialShare for ASP.NET AJAX Documentation
-description: RadSocialShare Object
+page_title: RadSocialShare Object - RadSocialShare
+description: Check our Web Forms article about RadSocialShare Object.
 slug: socialshare/client-side-programming/radsocialshare-object
 tags: radsocialshare,object
 published: True

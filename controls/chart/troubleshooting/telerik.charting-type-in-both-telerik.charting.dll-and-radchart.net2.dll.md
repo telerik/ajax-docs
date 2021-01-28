@@ -1,7 +1,7 @@
 ---
 title: Telerik.Charting.<type> in both Telerik.Charting.dll and RadChart.Net2.dll
-page_title: Chart Image is not displayed in the page | RadChart for ASP.NET AJAX Documentation
-description: Telerik.Charting.<type> in both Telerik.Charting.dll and RadChart.Net2.dll
+page_title: Chart Image is not displayed in the page - RadChart
+description: Check our Web Forms article about Telerik.Charting.<type> in both Telerik.Charting.dll and RadChart.Net2.dll.
 slug: chart/troubleshooting/telerik.charting-type-in-both-telerik.charting.dll-and-radchart.net2.dll
 tags: chart,type,both,telerik.charting.dll,radchart.net2.dll
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadTimeView Structure
-page_title: RadTimeView Structure | RadDateTimePicker for ASP.NET AJAX Documentation
-description: RadTimeView Structure
+page_title: RadTimeView Structure - RadDateTimePicker
+description: Check our Web Forms article about RadTimeView Structure.
 slug: datetimepicker/getting-started/radtimeview-structure
 tags: radtimeview,structure
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Accessing Controls
-page_title: Accessing Controls Server-Side - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing Controls in RadGrid
+page_title: Accessing Controls Server-Side - RadGrid
+description: Check our Web Forms article about Accessing Controls in RadGrid.
 slug: grid/accessing-values-and-controls/server-side/accessing-controls
 published: True
 position: 4

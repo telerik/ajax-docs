@@ -1,7 +1,7 @@
 ---
 title: Custom Editors
-page_title: Custom Editors | RadTreeList for ASP.NET AJAX Documentation
-description: Custom Editors
+page_title: Custom Editors - RadTreeList
+description: Check our Web Forms article about Custom Editors.
 slug: treelist/data-editing/column-editors/custom-editors
 tags: custom,editors
 published: True

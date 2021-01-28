@@ -1,7 +1,7 @@
 ---
 title: sort
-page_title: sort | RadGrid for ASP.NET AJAX Documentation
-description: sort
+page_title: sort - RadGrid
+description: Check our Web Forms article about sort.
 slug: grid/client-side-programming/gridtableview-object/methods/sort
 tags: sort
 published: True

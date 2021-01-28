@@ -1,7 +1,7 @@
 ---
 title: Add/Remove tools from the toolbar
-page_title: Add/Remove tools from the toolbar | UI for ASP.NET AJAX Documentation
-description: Add/Remove tools from the toolbar
+page_title: Add/Remove tools from the toolbar
+description: Check our Web Forms article about Add/Remove tools from the toolbar.
 slug: sharepoint/2007/radeditor-for-moss/configuration/add/remove-tools-from-the-toolbar
 tags: add/remove,tools,from,the,toolbar
 published: True

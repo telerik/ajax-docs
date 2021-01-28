@@ -1,7 +1,7 @@
 ---
 title: Binding to Hierarchical Data
-page_title: Binding to Hierarchical Data | RadTreeView for ASP.NET AJAX Documentation
-description: Binding to Hierarchical Data
+page_title: Binding to Hierarchical Data - RadTreeView
+description: Check our Web Forms article about Binding to Hierarchical Data.
 slug: treeview/data-binding/binding-to-hierarchical-data
 tags: binding,to,hierarchical,data
 published: True

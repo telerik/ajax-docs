@@ -1,8 +1,8 @@
 ---
 title: Strip HTML tags exported to CSV
-description: Strip HTML tags exported to CSV
+description: Strip HTML tags exported to CSV.
 type: how-to
-page_title: Strip HTML tags exported to CSV - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: Strip HTML tags exported to CSV - RadGrid
 slug: strip-html-from-exported-csv
 ticketid: 1461923
 res_type: kb

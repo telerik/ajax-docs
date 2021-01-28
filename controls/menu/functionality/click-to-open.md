@@ -1,7 +1,7 @@
 ---
 title: Click To Open
-page_title: Click To Open | RadMenu for ASP.NET AJAX Documentation
-description: Click To Open
+page_title: Click To Open - RadMenu
+description: Check our Web Forms article about Click To Open.
 slug: menu/functionality/click-to-open
 tags: click,to,open
 published: True

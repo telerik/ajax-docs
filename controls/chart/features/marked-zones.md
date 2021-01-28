@@ -1,7 +1,7 @@
 ---
 title: Marked Zones
-page_title: Marked Zones | RadChart for ASP.NET AJAX Documentation
-description: Marked Zones
+page_title: Marked Zones - RadChart
+description: Check our Web Forms article about Marked Zones.
 slug: chart/features/marked-zones
 tags: marked,zones
 published: True

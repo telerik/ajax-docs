@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Pasting Content Overview | RadEditor for ASP.NET AJAX Documentation
-description: Pasting Content Overview
+page_title: Pasting Content Overview - RadEditor
+description: Check our Web Forms article about Pasting Content Overview.
 slug: editor/managing-content/pasting-content/overview
 tags: overview
 published: True

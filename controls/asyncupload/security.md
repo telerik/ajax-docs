@@ -1,7 +1,7 @@
 ---
 title: Security
-page_title: Security | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Apply security in RadAsyncUpload and enforce information encryption to prevent attacks.
+page_title: Security - RadAsyncUpload
+description: Check our Web Forms article about Apply security in RadAsyncUpload and enforce information encryption to prevent attacks.
 slug: asyncupload-security
 tags: security
 published: True

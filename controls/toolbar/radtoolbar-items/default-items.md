@@ -1,7 +1,7 @@
 ---
 title: Default Items
-page_title: Default Items | RadToolBar for ASP.NET AJAX Documentation
-description: Default Items
+page_title: Default Items - RadToolBar
+description: Check our Web Forms article about Default Items.
 slug: toolbar/radtoolbar-items/default-items
 tags: default,items
 published: True

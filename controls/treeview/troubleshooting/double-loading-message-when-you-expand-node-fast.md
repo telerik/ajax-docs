@@ -1,7 +1,7 @@
 ---
 title: Double Loading Message When You Expand Node Fast
-page_title: Double Loading Message When You Expand Node Fast | RadTreeView for ASP.NET AJAX Documentation
-description: Double Loading Message When You Expand Node Fast
+page_title: Double Loading Message When You Expand Node Fast - RadTreeView
+description: Check our Web Forms article about Double Loading Message When You Expand Node Fast.
 slug: treeview/troubleshooting/double-loading-message-when-you-expand-node-fast
 tags: double,loading,message,when,you,expand,node,fast
 published: True

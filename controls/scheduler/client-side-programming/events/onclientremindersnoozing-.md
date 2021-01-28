@@ -1,7 +1,7 @@
 ---
 title: OnClientReminderSnoozing 
-page_title: OnClientReminderSnoozing  | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientReminderSnoozing 
+page_title: OnClientReminderSnoozing - RadScheduler
+description: Check our Web Forms article about OnClientReminderSnoozing.
 slug: scheduler/client-side-programming/events/onclientremindersnoozing-
 tags: onclientremindersnoozing,
 published: True

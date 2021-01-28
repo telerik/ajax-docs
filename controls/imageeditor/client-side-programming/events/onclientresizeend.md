@@ -1,7 +1,7 @@
 ---
 title: OnClientResizeEnd
-page_title: OnClientResizeEnd | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientResizeEnd
+page_title: OnClientResizeEnd - RadImageEditor
+description: Check our Web Forms article about OnClientResizeEnd.
 slug: imageeditor/client-side-programming/events/onclientresizeend
 tags: onclientresizeend
 published: True

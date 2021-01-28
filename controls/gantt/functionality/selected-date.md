@@ -1,7 +1,7 @@
 ---
 title: Selected Date
-page_title: Selected Date | RadGantt for ASP.NET AJAX Documentation
-description: Selected Date
+page_title: Selected Date - RadGantt
+description: Check our Web Forms article about Selected Date.
 slug: gantt/functionality/selected-date
 tags: selected date
 published: True

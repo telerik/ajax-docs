@@ -1,7 +1,7 @@
 ---
 title: Using the Node Controls Collection
-page_title: Using the Node Controls Collection | RadTreeView for ASP.NET AJAX Documentation
-description: Using the Node Controls Collection
+page_title: Using the Node Controls Collection - RadTreeView
+description: Check our Web Forms article about Using the Node Controls Collection.
 slug: treeview/server-side-programming/using-the-node-controls-collection
 tags: using,the,node,controls,collection
 published: True

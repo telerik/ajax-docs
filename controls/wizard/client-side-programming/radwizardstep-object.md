@@ -1,7 +1,7 @@
 ---
 title: RadWizardStep Object
-page_title: RadWizardStep Object | RadWizard for ASP.NET AJAX Documentation
-description: RadWizardStep Object
+page_title: RadWizardStep Object - RadWizard
+description: Check our Web Forms article about RadWizardStep Object.
 slug: wizard/client-side-programming/radwizardstep-object
 tags: radwizardstep,object
 published: True

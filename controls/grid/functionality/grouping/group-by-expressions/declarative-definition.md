@@ -1,7 +1,7 @@
 ---
 title: Declarative Definition
-page_title: Declarative Definition | RadGrid for ASP.NET AJAX Documentation
-description: Declarative Definition
+page_title: Declarative Definition - RadGrid
+description: Check our Web Forms article about Declarative Definition.
 slug: grid/functionality/grouping/group-by-expressions/declarative-definition
 tags: declarative,definition
 published: True

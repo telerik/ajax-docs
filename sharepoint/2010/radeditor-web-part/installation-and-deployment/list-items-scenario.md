@@ -1,7 +1,7 @@
 ---
 title: List Items Scenario
-page_title: List Items Scenario | UI for ASP.NET AJAX Documentation
-description: List Items Scenario
+page_title: List Items Scenario
+description: Check our Web Forms article about List Items Scenario.
 slug: sharepoint/2010/radeditor-web-part/installation-and-deployment/list-items-scenario
 tags: list,items,scenario
 published: True

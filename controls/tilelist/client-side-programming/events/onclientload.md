@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadTileList for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadTileList
+description: Check our Web Forms article about OnClientLoad.
 slug: tilelist/client-side-programming/client-side-events/onclientload
 tags: onclientload
 published: True

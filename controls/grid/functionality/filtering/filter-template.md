@@ -1,7 +1,7 @@
 ---
 title: Filter Template
-page_title: Filter Template | RadGrid for ASP.NET AJAX Documentation
-description: Filter Template
+page_title: Filter Template - RadGrid
+description: Check our Web Forms article about Filter Template.
 slug: grid/functionality/filtering/filter-template
 tags: filter,template
 published: True

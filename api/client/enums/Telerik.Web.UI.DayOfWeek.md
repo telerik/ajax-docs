@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DayOfWeek
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DayOfWeek
 slug: Telerik.Web.UI.DayOfWeek
 ---

@@ -1,7 +1,7 @@
 ---
 title: Building a Hierarchical Grid
-page_title: Building a Hierarchical Grid | RadGrid for ASP.NET AJAX Documentation
-description: Building a Hierarchical Grid
+page_title: Building a Hierarchical Grid - RadGrid
+description: Check our Web Forms article about Building a Hierarchical Grid.
 slug: grid/design-time/building-a-hierarchical-grid
 tags: building,a,hierarchical,grid
 published: True

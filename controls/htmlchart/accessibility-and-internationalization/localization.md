@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadHtmlChart for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadHtmlChart
+description: Check our Web Forms article about Localization.
 slug: htmlchart/accessibility-and-internationalization/localization
 tags: localization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Security
-page_title: Security | RadSpell for ASP.NET AJAX Documentation
-description: Apply security in RadSpell and enforce information encryption to prevent attacks.
+page_title: Security - RadSpell
+description: Check our Web Forms article about Apply security in RadSpell and enforce information encryption to prevent attacks.
 slug: editor-security
 tags: security
 published: True

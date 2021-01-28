@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadCalendar for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadCalendar
+description: Check our Web Forms article about Smart Tag.
 slug: timepicker/design-time/smart-tag
 tags: smart,tag
 published: True

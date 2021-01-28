@@ -1,7 +1,7 @@
 ---
 title:  Custom Storage Provider
-page_title:  Custom Storage Provider | RadPersistenceFramework for ASP.NET AJAX Documentation
-description:  Custom Storage Provider
+page_title: Custom Storage Provider - RadPersistenceFramework
+description: Check our Web Forms article about Custom Storage Provider.
 slug: persistenceframework/functionality/-custom-storage-provider
 tags: custom,storage,provider
 published: True

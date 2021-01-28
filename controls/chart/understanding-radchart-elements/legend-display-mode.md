@@ -1,7 +1,7 @@
 ---
 title: Legend Display Mode
-page_title: Legend Display Mode | RadChart for ASP.NET AJAX Documentation
-description: Legend Display Mode
+page_title: Legend Display Mode - RadChart
+description: Check our Web Forms article about Legend Display Mode.
 slug: chart/understanding-radchart-elements/legend-display-mode
 tags: legend,display,mode
 published: True

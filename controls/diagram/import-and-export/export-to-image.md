@@ -1,7 +1,7 @@
 ---
 title: Export to Image
-page_title: Export to Image | RadDiagram for ASP.NET AJAX Documentation
-description: Export to Image
+page_title: Export to Image - RadDiagram
+description: Check our Web Forms article about Export to Image.
 slug: diagram/import-and-export/export-to-image
 tags: export,to,image
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Saving Grid Settings on a Per User Basis
-page_title: Saving Grid Settings on a Per User Basis | RadGrid for ASP.NET AJAX Documentation
-description: Saving Grid Settings on a Per User Basis
+page_title: Saving Grid Settings on a Per User Basis - RadGrid
+description: Check our Web Forms article about Saving Grid Settings on a Per User Basis.
 slug: grid/how-to/common/saving-grid-settings-on-a-per-user-basis
 tags: saving,grid,settings,on,a,per,user,basis
 published: True

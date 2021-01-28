@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadNavigation for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadNavigation
+description: Check our Web Forms article about Overview.
 slug: navigation/templates/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Empty Values
-page_title: Empty Values | RadChart for ASP.NET AJAX Documentation
-description: Empty Values
+page_title: Empty Values - RadChart
+description: Check our Web Forms article about Empty Values.
 slug: chart/features/empty-values
 tags: empty,values
 published: True

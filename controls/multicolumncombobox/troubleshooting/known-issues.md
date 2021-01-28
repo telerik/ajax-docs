@@ -1,7 +1,7 @@
 ---
 title: Known Issues
-page_title: Known Issues | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Known Issues
+page_title: Known Issues - RadMultiColumnComboBox
+description: Check our Web Forms article about Known Issues.
 slug: multicolumncombobox/known-issues
 tags: overview
 published: True

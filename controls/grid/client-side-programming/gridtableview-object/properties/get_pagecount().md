@@ -1,7 +1,7 @@
 ---
 title: get_pageCount()
-page_title: get_pageCount() | RadGrid for ASP.NET AJAX Documentation
-description: get_pageCount()
+page_title: get_pageCount() - RadGrid
+description: Check our Web Forms article about get_pageCount().
 slug: grid/client-side-programming/gridtableview-object/properties/get_pagecount()
 tags: get_pagecount()
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPanelItemCollapseEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelItemCollapseEventArgs
 slug: Telerik.Web.UI.RadPanelItemCollapseEventArgs
 ---

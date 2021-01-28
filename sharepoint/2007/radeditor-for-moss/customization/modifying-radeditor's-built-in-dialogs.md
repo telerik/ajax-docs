@@ -1,7 +1,7 @@
 ---
 title: Modifying RadEditor's built-in dialogs
-page_title: Modifying RadEditor's built-in dialogs | UI for ASP.NET AJAX Documentation
-description: Modifying RadEditor's built-in dialogs
+page_title: Modifying RadEditor's built-in dialogs
+description: Check our Web Forms article about Modifying RadEditor's built-in dialogs.
 slug: sharepoint/2007/radeditor-for-moss/customization/modifying-radeditor's-built-in-dialogs
 tags: modifying,radeditor's,built-in,dialogs
 published: True

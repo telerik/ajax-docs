@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: Layout | RadSiteMap for ASP.NET AJAX Documentation
-description: Layout
+page_title: Layout - RadSiteMap
+description: Check our Web Forms article about Layout.
 slug: sitemap/functionality/layout
 tags: layout
 published: True

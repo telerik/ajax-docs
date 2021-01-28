@@ -1,7 +1,7 @@
 ---
 title: Binding RadTicker
-page_title: Binding RadTicker | RadRotator for ASP.NET AJAX Documentation
-description: Binding RadTicker
+page_title: Binding RadTicker - RadRotator
+description: Check our Web Forms article about Binding RadTicker.
 slug: rotator/data-binding/binding-radticker
 tags: binding,radticker
 published: True

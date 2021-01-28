@@ -1,7 +1,7 @@
 ---
 title: HTML Output
-page_title: RadLabel HTML Output | UI for ASP.NET AJAX Documentation
-description: RadLabel HTML Output
+page_title: RadLabel HTML Output
+description: Check our Web Forms article about RadLabel HTML Output.
 slug: label/html-output
 tags: overview
 published: True

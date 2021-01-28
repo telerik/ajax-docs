@@ -1,7 +1,7 @@
 ---
 title: Working With Tabs at the Server
-page_title: Working With Tabs at the Server | RadTabStrip for ASP.NET AJAX Documentation
-description: Working With Tabs at the Server
+page_title: Working With Tabs at the Server - RadTabStrip
+description: Check our Web Forms article about Working With Tabs at the Server.
 slug: tabstrip/tabs/working-with-tabs-at-the-server
 tags: working,with,tabs,at,the,server
 published: True

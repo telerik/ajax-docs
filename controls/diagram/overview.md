@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDiagram Overview | RadDiagram for ASP.NET AJAX Documentation
-description: RadDiagram Overview
+page_title: RadDiagram Overview - RadDiagram
+description: Check our Web Forms article about RadDiagram Overview.
 slug: diagram/overview
 tags: overview
 published: True

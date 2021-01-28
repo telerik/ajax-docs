@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadFileExplorer for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadFileExplorer
+description: Check our Web Forms article about Elastic Design.
 slug: fileexplorer/mobile-support/elastic-design
 tags: elastic,design,file explorer
 published: True

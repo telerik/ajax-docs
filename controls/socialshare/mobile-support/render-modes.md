@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadSocialShare for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadSocialShare
+description: Check our Web Forms article about Render Modes.
 slug: socialshare/mobile-support/render-modes
 tags: render,modes,social share
 published: True

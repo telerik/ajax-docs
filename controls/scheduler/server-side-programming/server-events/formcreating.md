@@ -1,7 +1,7 @@
 ---
 title: FormCreating
-page_title: FormCreating | RadScheduler for ASP.NET AJAX Documentation
-description: FormCreating
+page_title: FormCreating - RadScheduler
+description: Check our Web Forms article about FormCreating.
 slug: scheduler/server-side-programming/server-events/formcreating
 tags: formcreating
 published: True

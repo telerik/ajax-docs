@@ -1,7 +1,7 @@
 ---
 title: OutputType
-page_title: OutputType | UI for ASP.NET AJAX Documentation
-description: OutputType
+page_title: OutputType
+description: Check our Web Forms article about OutputType.
 slug: barcode/outputtype
 tags: outputtype
 published: True

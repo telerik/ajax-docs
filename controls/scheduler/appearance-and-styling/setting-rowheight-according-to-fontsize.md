@@ -1,7 +1,7 @@
 ---
 title: Setting RowHeight According to the Currently Used Font Size
-page_title: Setting RowHeight According to the Currently Used Font Size | RadScheduler for ASP.NET AJAX Documentation
-description: Setting RowHeight According to the Currently Used Font Size
+page_title: Setting RowHeight According to the Currently Used Font Size - RadScheduler
+description: Check our Web Forms article about Setting RowHeight According to the Currently Used Font Size.
 slug: scheduler/appearance-and-styling/setting-rowheight-according-to-fontsize
 tags: setting,styles,rowheight,fontsize
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DialogOpenEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DialogOpenEventArgs
 slug: Telerik.Web.UI.DialogOpenEventArgs
 ---

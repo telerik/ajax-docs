@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarTabCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarTabCollection
 slug: Telerik.Web.UI.RibbonBarTabCollection
 ---

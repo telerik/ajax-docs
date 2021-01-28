@@ -1,7 +1,7 @@
 ---
 title: RadEditor Does Not Work in RadWindow
-page_title: RadEditor Does Not Work in RadWindow | RadWindow for ASP.NET AJAX Documentation
-description: RadEditor Does Not Work in RadWindow
+page_title: RadEditor Does Not Work in RadWindow - RadWindow
+description: Check our Web Forms article about RadEditor Does Not Work in RadWindow.
 slug: window/troubleshooting/radeditor-does-not-work-in-radwindow
 tags: radeditor,does,not,work,in,radwindow
 published: True

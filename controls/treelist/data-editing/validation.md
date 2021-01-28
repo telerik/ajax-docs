@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadTreeList for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadTreeList
+description: Check our Web Forms article about Validation.
 slug: treelist/data-editing/validation
 tags: validation
 published: True

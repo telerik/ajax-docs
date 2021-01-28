@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadNotification for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadNotification
+description: Check our Web Forms article about Overview.
 slug: notification/server-side-programming/overview
 tags: overview
 published: True

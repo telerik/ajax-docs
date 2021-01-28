@@ -2,7 +2,7 @@
 title: Client-Side CRUD with AJAX-enabled WCF
 description: 
 type: how-to
-page_title: Client-Side CRUD with AJAX-enabled WCF - RadGrid | UI for ASP.NET AJAX
+page_title: Client-Side CRUD with AJAX-enabled WCF - RadGrid
 slug: grid-client-side-crud-ajax-enabled-wcf
 res_type: kb
 ---

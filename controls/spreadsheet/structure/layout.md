@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: Layout | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Layout
+page_title: Layout - RadSpreadsheet
+description: Check our Web Forms article about Layout.
 slug: spreadsheet/structure/layout
 tags: layout
 published: True

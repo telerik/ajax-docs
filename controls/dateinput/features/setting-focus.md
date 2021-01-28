@@ -1,7 +1,7 @@
 ---
 title: Setting Focus
-page_title: Setting Focus | RadDateInput for ASP.NET AJAX Documentation
-description: Setting Focus
+page_title: Setting Focus - RadDateInput
+description: Check our Web Forms article about Setting Focus.
 slug: raddateinput/features/setting-focus
 tags: setting,focus
 published: True

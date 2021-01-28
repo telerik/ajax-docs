@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadMultiSelect for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadMultiSelect
+description: Check our Web Forms article about Templates.
 slug: multiselect/functionality/templates
 tags: template,client
 published: True

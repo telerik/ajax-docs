@@ -1,7 +1,7 @@
 ---
 title: OnClientTimeSlotContextMenu
-page_title: OnClientTimeSlotContextMenu | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientTimeSlotContextMenu
+page_title: OnClientTimeSlotContextMenu - RadScheduler
+description: Check our Web Forms article about OnClientTimeSlotContextMenu.
 slug: scheduler/client-side-programming/events/onclienttimeslotcontextmenu
 tags: onclienttimeslotcontextmenu
 published: True

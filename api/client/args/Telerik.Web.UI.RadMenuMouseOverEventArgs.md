@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuMouseOverEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuMouseOverEventArgs
 slug: Telerik.Web.UI.RadMenuMouseOverEventArgs
 ---

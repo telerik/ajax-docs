@@ -1,7 +1,7 @@
 ---
 title: OnClientGalleryCommandPreviewEnd 
-page_title: OnClientGalleryCommandPreviewEnd  | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientGalleryCommandPreviewEnd 
+page_title: OnClientGalleryCommandPreviewEnd - RadRibbonBar
+description: Check our Web Forms article about OnClientGalleryCommandPreviewEnd.
 slug: ribbonbar/client-side-programming/events/onclientgallerycommandpreviewend-
 tags: onclientgallerycommandpreviewend,
 published: True

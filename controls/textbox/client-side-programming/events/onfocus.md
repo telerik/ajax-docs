@@ -1,7 +1,7 @@
 ---
 title: OnFocus
-page_title: OnFocus | RadTextBox for ASP.NET AJAX Documentation
-description: OnFocus
+page_title: OnFocus - RadTextBox
+description: Check our Web Forms article about OnFocus.
 slug: radtextbox/client-side-programming/events/onfocus
 tags: onfocus
 published: True

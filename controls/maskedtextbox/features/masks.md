@@ -1,7 +1,7 @@
 ---
 title: Masks
-page_title: Masks | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: Masks
+page_title: Masks - RadMaksedTextBox
+description: Check our Web Forms article about Masks.
 slug: radmaskedtextbox/features/masks
 tags: masks
 published: True

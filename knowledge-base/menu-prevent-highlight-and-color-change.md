@@ -2,7 +2,7 @@
 title: Prevent highlight and color change in menu
 description: 
 type: how-to
-page_title: Prevent highlight and color change in RadMenu | Telerik UI for ASP.NET AJAX
+page_title: Prevent highlight and color change in RadMenu
 slug: prevent-highlight-and-color-change-in-menu
 position: 
 tags: 

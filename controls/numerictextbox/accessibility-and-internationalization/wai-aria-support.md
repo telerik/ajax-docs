@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadNumericTextBox for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadNumericTextBox
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: numerictextbox/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

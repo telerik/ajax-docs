@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
 slug: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
 ---

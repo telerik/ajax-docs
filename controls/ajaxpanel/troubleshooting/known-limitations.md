@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadAjax for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations
+description: Check our Web Forms article about Known Limitations.
 slug: ajaxpanel/troubleshooting/known-limitations
 tags: known,limitations
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnItemDragStarted
-page_title: OnItemDragStarted | RadListView for ASP.NET AJAX Documentation
-description: OnItemDragStarted
+page_title: OnItemDragStarted - RadListView
+description: Check our Web Forms article about OnItemDragStarted.
 slug: listview/client-side-programming/events/onitemdragstarted
 tags: onitemdragstarted
 published: True

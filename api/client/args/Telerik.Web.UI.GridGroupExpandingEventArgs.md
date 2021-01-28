@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridGroupExpandingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridGroupExpandingEventArgs
 slug: Telerik.Web.UI.GridGroupExpandingEventArgs
 ---

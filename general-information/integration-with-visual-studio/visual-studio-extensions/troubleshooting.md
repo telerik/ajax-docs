@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
-page_title: Troubleshooting | UI for ASP.NET AJAX Documentation
-description: Troubleshooting
+page_title: Troubleshooting
+description: Check our Web Forms article about Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/troubleshooting
 tags: troubleshooting
 published: True

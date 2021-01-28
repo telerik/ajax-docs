@@ -1,7 +1,7 @@
 ---
 title: Setting Styles for Appointments
-page_title: Setting Styles for Appointments | RadScheduler for ASP.NET AJAX Documentation
-description: Setting Styles for Appointments
+page_title: Setting Styles for Appointments - RadScheduler
+description: Check our Web Forms article about Setting Styles for Appointments.
 slug: scheduler/appearance-and-styling/setting-styles-for-appointments
 tags: setting,styles,for,appointments
 published: True

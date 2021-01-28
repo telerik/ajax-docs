@@ -1,7 +1,7 @@
 ---
 title: Candlestick Chart
-page_title: Candlestick Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Candlestick Chart
+page_title: Candlestick Chart - RadHtmlChart
+description: Check our Web Forms article about Candlestick Chart.
 slug: htmlchart/chart-types/candlestick-chart
 tags: candlestick,chart
 published: True

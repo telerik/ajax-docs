@@ -1,7 +1,7 @@
 ---
 title: set_currentPageIndex
-page_title: set_currentPageIndex | RadListView for ASP.NET AJAX Documentation
-description: set_currentPageIndex
+page_title: set_currentPageIndex - RadListView
+description: Check our Web Forms article about set_currentPageIndex.
 slug: listview/client-side-programming/radlistview/properties/set_currentpageindex
 tags: set_currentpageindex
 published: True

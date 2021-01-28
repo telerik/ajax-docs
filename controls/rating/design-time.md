@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadRating for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadRating
+description: Check our Web Forms article about Design Time.
 slug: rating/design-time
 tags: design,time
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnBatchEditClosed
-page_title: OnBatchEditClosed | RadGrid for ASP.NET AJAX Documentation
-description: OnBatchEditClosed
+page_title: OnBatchEditClosed - RadGrid
+description: Check our Web Forms article about OnBatchEditClosed.
 slug: grid/client-side-programming/events/onbatcheditclosed
 tags: onbatcheditclosed
 published: True

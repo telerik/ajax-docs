@@ -1,7 +1,7 @@
 ---
 title: NodeDrop
-page_title: NodeDrop | RadTreeView for ASP.NET AJAX Documentation
-description: NodeDrop
+page_title: NodeDrop - RadTreeView
+description: Check our Web Forms article about NodeDrop.
 slug: treeview/server-side-programming/events/nodedrop
 tags: nodedrop
 published: True

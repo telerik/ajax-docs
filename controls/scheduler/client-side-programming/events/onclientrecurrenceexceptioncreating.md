@@ -1,7 +1,7 @@
 ---
 title: OnClientRecurrenceExceptionCreating
-page_title: OnClientRecurrenceExceptionCreating | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientRecurrenceExceptionCreating
+page_title: OnClientRecurrenceExceptionCreating - RadScheduler
+description: Check our Web Forms article about OnClientRecurrenceExceptionCreating.
 slug: scheduler/client-side-programming/events/onclientrecurrenceexceptioncreating
 tags: onclientrecurrenceexceptioncreating
 published: True

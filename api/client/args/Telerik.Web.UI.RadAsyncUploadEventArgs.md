@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAsyncUploadEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAsyncUploadEventArgs
 slug: Telerik.Web.UI.RadAsyncUploadEventArgs
 ---

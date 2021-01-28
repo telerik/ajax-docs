@@ -1,7 +1,7 @@
 ---
 title: ProgressData
-page_title: ProgressData | RadProgressArea for ASP.NET AJAX Documentation
-description: ProgressData
+page_title: ProgressData - RadProgressArea
+description: Check our Web Forms article about ProgressData.
 slug: progressarea/client-side-programming/progressdata
 tags: progressdata
 published: True

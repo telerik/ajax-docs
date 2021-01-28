@@ -1,7 +1,7 @@
 ---
 title: Image Button
-page_title: Image Button | RadButton for ASP.NET AJAX Documentation
-description: Image Button
+page_title: Image Button - RadButton
+description: Check our Web Forms article about Image Button.
 slug: button/button-types/image-button
 tags: image,button
 published: True

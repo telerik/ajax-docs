@@ -1,7 +1,7 @@
 ---
 title: LauncherClick 
-page_title: LauncherClick  | RadRibbonBar for ASP.NET AJAX Documentation
-description: LauncherClick 
+page_title: LauncherClick - RadRibbonBar
+description: Check our Web Forms article about LauncherClick.
 slug: ribbonbar/server-side-programming/events/launcherclick-
 tags: launcherclick,
 published: True

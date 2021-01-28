@@ -1,7 +1,7 @@
 ---
 title: Access the Embedded RadCalendar on the Server
-page_title: Access the Embedded RadCalendar on the Server | RadScheduler for ASP.NET AJAX Documentation
-description: Access the Embedded RadCalendar on the Server
+page_title: Access the Embedded RadCalendar on the Server - RadScheduler
+description: Check our Web Forms article about Access the Embedded RadCalendar on the Server.
 slug: scheduler/how-to/access-the-embedded-radcalendar-on-the-server
 tags: access,the,embedded,radcalendar,on,the,server
 published: True

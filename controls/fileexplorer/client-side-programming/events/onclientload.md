@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadFileExplorer
+description: Check our Web Forms article about OnClientLoad.
 slug: fileexplorer/client-side-programming/events/onclientload
 tags: onclientload
 published: True

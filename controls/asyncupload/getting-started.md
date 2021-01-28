@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadAsyncUpload
+description: Check our Web Forms article about Getting Started.
 slug: asyncupload/getting-started
 tags: getting,started
 published: True

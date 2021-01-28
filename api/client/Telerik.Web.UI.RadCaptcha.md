@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadCaptcha
-title_prefix: Client-side API Reference RadCaptcha Client-side API
 description: Telerik.Web.UI.RadCaptcha
 slug: Telerik.Web.UI.RadCaptcha
 ---

@@ -1,7 +1,7 @@
 ---
 title: Localization through Global Resources
-page_title: Localization through Global Resources | RadGrid for ASP.NET AJAX Documentation
-description: Localization through Global Resources
+page_title: Localization through Global Resources - RadGrid
+description: Check our Web Forms article about Localization through Global Resources.
 slug: grid/accessibility-and-internationalization/localization-through-global-resources
 tags: localization,through,global,resources
 published: True

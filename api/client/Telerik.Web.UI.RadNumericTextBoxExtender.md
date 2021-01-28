@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadNumericTextBoxExtender
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadNumericTextBoxExtender
 slug: Telerik.Web.UI.RadNumericTextBoxExtender
 ---

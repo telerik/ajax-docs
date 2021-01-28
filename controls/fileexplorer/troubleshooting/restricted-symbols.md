@@ -1,7 +1,7 @@
 ---
 title: Restricted Symbols
-page_title: Restricted Symbols | RadFileExplorer for ASP.NET AJAX Documentation
-description: Restricted Symbols
+page_title: Restricted Symbols - RadFileExplorer
+description: Check our Web Forms article about Restricted Symbols.
 slug: fileexplorer/troubleshooting/restricted-symbols
 tags: restricted,symbols
 published: True

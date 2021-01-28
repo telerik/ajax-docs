@@ -1,7 +1,7 @@
 ---
 title: exportToWord
-page_title: exportToWord | RadGrid for ASP.NET AJAX Documentation
-description: exportToWord
+page_title: exportToWord - RadGrid
+description: Check our Web Forms article about exportToWord.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttoword
 tags: exporttoword
 published: True

@@ -1,7 +1,7 @@
 ---
 title: AppointmentClick
-page_title: AppointmentClick | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentClick
+page_title: AppointmentClick - RadScheduler
+description: Check our Web Forms article about AppointmentClick.
 slug: scheduler/server-side-programming/server-events/appointmentclick
 tags: appointmentclick
 published: True

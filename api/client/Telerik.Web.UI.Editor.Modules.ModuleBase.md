@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.Modules.ModuleBase
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.Modules.ModuleBase
 slug: Telerik.Web.UI.Editor.Modules.ModuleBase
 ---

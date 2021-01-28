@@ -1,7 +1,7 @@
 ---
 title: OnClientItemBlur
-page_title: OnClientItemBlur | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemBlur
+page_title: OnClientItemBlur - RadMenu
+description: Check our Web Forms article about OnClientItemBlur.
 slug: menu/client-side-programming/events/onclientitemblur
 tags: onclientitemblur
 published: True

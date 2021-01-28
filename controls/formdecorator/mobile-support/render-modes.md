@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadFormDecorator for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadFormDecorator
+description: Check our Web Forms article about Render Modes.
 slug: formdecorator/mobile-support/render-modes
 tags: render,modes
 published: True

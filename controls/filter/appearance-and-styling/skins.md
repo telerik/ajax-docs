@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadFilter for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadFilter
+description: Check our Web Forms article about Skins.
 slug: filter/appearance-and-styling/skins
 tags: skins
 published: True

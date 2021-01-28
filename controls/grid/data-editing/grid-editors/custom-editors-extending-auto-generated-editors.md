@@ -1,7 +1,7 @@
 ---
 title: Custom Editors Extending Auto-Generated Editors
-page_title: Custom Editors Extending Auto-Generated Editors | RadGrid for ASP.NET AJAX Documentation
-description: Custom Editors Extending Auto-Generated Editors
+page_title: Custom Editors Extending Auto-Generated Editors - RadGrid
+description: Check our Web Forms article about Custom Editors Extending Auto-Generated Editors.
 slug: grid/data-editing/grid-editors/custom-editors-extending-auto-generated-editors
 tags: custom,editors,extending,auto-generated,editors
 published: True

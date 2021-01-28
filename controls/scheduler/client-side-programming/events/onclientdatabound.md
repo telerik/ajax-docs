@@ -1,7 +1,7 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientDataBound
+page_title: OnClientDataBound - RadScheduler
+description: Check our Web Forms article about OnClientDataBound.
 slug: scheduler/client-side-programming/events/onclientdatabound
 tags: onclientdatabound
 published: True

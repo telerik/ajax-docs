@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | RadTileList for ASP.NET AJAX Documentation
-description: Programmatic Creation
+page_title: Programmatic Creation - RadTileList
+description: Check our Web Forms article about Programmatic Creation.
 slug: tilelist/server-side-programming/programmatic-creation
 tags: programmatic,creation
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Client-side Delete
-page_title: Client-side Delete | RadGrid for ASP.NET AJAX Documentation
-description: Client-side Delete
+page_title: Client-side Delete - RadGrid
+description: Check our Web Forms article about Client-side Delete.
 slug: grid/data-editing/delete-records/client-side-delete
 tags: client-side,delete
 published: True

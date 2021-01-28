@@ -1,8 +1,8 @@
 ---
 title: Load and Save Spreadsheet via JSON
-description: Save and Load RadSpreadsheet provider with JSON string, improve loading performance and access changes on postback
+description: Save and Load RadSpreadsheet provider with JSON string, improve loading performance and access changes on postback.
 type: how-to
-page_title: Improve performance and save and load RadSpreadsheet via JSON | Telerik UI for ASP.NET AJAX
+page_title: Improve performance and save and load RadSpreadsheet via JSON
 slug: spreadsheet-load-via-json-and-save-with-postback
 position: 
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: Single table at a level
-page_title: Single table at a level | RadGrid for ASP.NET AJAX Documentation
-description: Single table at a level
+page_title: Single table at a level - RadGrid
+description: Check our Web Forms article about Single table at a level.
 slug: grid/hierarchical-grid-types-and-load-modes/single-table-at-a-level
 tags: single,table,at,a,level
 published: True

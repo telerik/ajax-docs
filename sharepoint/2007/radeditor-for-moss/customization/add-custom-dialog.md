@@ -1,7 +1,7 @@
 ---
 title: Add Custom Dialog
-page_title: Add Custom Dialog | UI for ASP.NET AJAX Documentation
-description: Add Custom Dialog
+page_title: Add Custom Dialog
+description: Check our Web Forms article about Add Custom Dialog.
 slug: sharepoint/2007/radeditor-for-moss/customization/add-custom-dialog
 tags: add,custom,dialog
 published: True

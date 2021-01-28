@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadDropDownTree for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadDropDownTree
+description: Check our Web Forms article about Localization.
 slug: dropdowntree/accessibility-and-internationalization/localization
 tags: localization
 published: True

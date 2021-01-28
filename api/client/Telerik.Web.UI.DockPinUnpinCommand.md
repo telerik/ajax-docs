@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockPinUnpinCommand
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockPinUnpinCommand
 slug: Telerik.Web.UI.DockPinUnpinCommand
 ---

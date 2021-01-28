@@ -1,7 +1,7 @@
 ---
 title: Assembly White List
-page_title: Assembly White List | RadScriptManager for ASP.NET AJAX Documentation
-description: Assembly White List
+page_title: Assembly White List - RadScriptManager
+description: Check our Web Forms article about Assembly White List.
 slug: scriptmanager/assembly-white-list
 tags: assembly,white,list
 published: True

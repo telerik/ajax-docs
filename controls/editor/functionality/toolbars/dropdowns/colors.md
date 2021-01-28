@@ -1,7 +1,7 @@
 ---
 title: Colors
-page_title: Colors | RadEditor for ASP.NET AJAX Documentation
-description: Colors
+page_title: Colors - RadEditor
+description: Check our Web Forms article about Colors.
 slug: editor/functionality/toolbars/dropdowns/colors
 tags: colors
 published: True

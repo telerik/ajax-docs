@@ -1,7 +1,7 @@
 ---
 title: ItemDeselected
-page_title: ItemDeselected | RadMultiSelect for ASP.NET AJAX Documentation
-description: ItemDeselected
+page_title: ItemDeselected - RadMultiSelect
+description: Check our Web Forms article about ItemDeselected.
 slug: multiselect/server-side-programming/events/itemdeselected
 tags: itemdeselected
 published: True

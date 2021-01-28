@@ -1,7 +1,7 @@
 ---
 title: ObjectDataSource
-page_title: ObjectDataSource | RadHtmlChart for ASP.NET AJAX Documentation
-description: ObjectDataSource
+page_title: ObjectDataSource - RadHtmlChart
+description: Check our Web Forms article about ObjectDataSource.
 slug: htmlchart/data-binding/objectdatasource
 tags: objectdatasource
 published: True

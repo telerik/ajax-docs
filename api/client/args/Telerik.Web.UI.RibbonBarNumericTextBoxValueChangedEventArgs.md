@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
 slug: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
 ---

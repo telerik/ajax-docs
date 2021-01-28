@@ -1,7 +1,7 @@
 ---
 title: hideFilterItem
-page_title: hideFilterItem | RadGrid for ASP.NET AJAX Documentation
-description: hideFilterItem
+page_title: hideFilterItem - RadGrid
+description: Check our Web Forms article about hideFilterItem.
 slug: grid/client-side-programming/gridtableview-object/methods/hidefilteritem
 tags: hidefilteritem
 published: True

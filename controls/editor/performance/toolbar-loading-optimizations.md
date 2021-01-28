@@ -1,7 +1,7 @@
 ---
 title: Toolbar Loading Optimizations
-page_title: Toolbar Loading Optimizations | RadEditor for ASP.NET AJAX Documentation
-description: Toolbar Loading Optimizations
+page_title: Toolbar Loading Optimizations - RadEditor
+description: Check our Web Forms article about Toolbar Loading Optimizations.
 slug: editor/performance/toolbar-loading-optimizations
 tags: toolbar,loading,optimizations
 published: True

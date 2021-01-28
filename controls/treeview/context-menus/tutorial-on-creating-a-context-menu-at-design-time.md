@@ -1,7 +1,7 @@
 ---
 title: Tutorial on Creating a Context Menu at Design Time
-page_title: Tutorial on Creating a Context Menu at Design Time | RadTreeView for ASP.NET AJAX Documentation
-description: Tutorial on Creating a Context Menu at Design Time
+page_title: Tutorial on Creating a Context Menu at Design Time - RadTreeView
+description: Check our Web Forms article about Tutorial on Creating a Context Menu at Design Time.
 slug: treeview/context-menus/tutorial-on-creating-a-context-menu-at-design-time
 tags: tutorial,on,creating,a,context,menu,at,design,time
 published: True

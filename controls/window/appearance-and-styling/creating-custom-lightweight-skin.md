@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Lightweight Skin
-page_title: Creating a Custom Lightweight Skin | RadButton for ASP.NET AJAX Documentation
-description: Creating a Custom Lightweight Skin
+page_title: Creating a Custom Lightweight Skin - RadButton
+description: Check our Web Forms article about Creating a Custom Lightweight Skin.
 slug: window/appearance-and-styling/creating-custom-lightweight-skin.md
 tags: creating,custom,lightweight,skin
 published: True

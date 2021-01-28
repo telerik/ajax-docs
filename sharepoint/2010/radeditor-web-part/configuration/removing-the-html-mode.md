@@ -1,7 +1,7 @@
 ---
 title: Removing the HTML Mode
-page_title: Removing the HTML Mode | UI for ASP.NET AJAX Documentation
-description: Removing the HTML Mode
+page_title: Removing the HTML Mode
+description: Check our Web Forms article about Removing the HTML Mode.
 slug: sharepoint/2010/radeditor-web-part/configuration/removing-the-html-mode
 tags: removing,the,html,mode
 published: True

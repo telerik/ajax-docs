@@ -1,7 +1,7 @@
 ---
 title: RadPane Object
-page_title: RadPane Object | RadSplitter for ASP.NET AJAX Documentation
-description: RadPane Object
+page_title: RadPane Object - RadSplitter
+description: Check our Web Forms article about RadPane Object.
 slug: splitter/client-side-programming/radpane-object
 tags: radpane,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Strip Pasting Tools
-page_title: Strip Pasting Tools | RadEditor for ASP.NET AJAX Documentation
-description: Strip Pasting Tools
+page_title: Strip Pasting Tools - RadEditor
+description: Check our Web Forms article about Strip Pasting Tools.
 slug: editor/functionality/toolbars/dropdowns/strip-pasting-tools
 tags: strip,pasting,tools
 published: True

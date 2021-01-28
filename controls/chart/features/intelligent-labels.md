@@ -1,7 +1,7 @@
 ---
 title: Intelligent Labels
-page_title: Intelligent Labels | RadChart for ASP.NET AJAX Documentation
-description: Intelligent Labels
+page_title: Intelligent Labels - RadChart
+description: Check our Web Forms article about Intelligent Labels.
 slug: chart/features/intelligent-labels
 tags: intelligent,labels
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadSlider for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadSlider
+description: Check our Web Forms article about Skins.
 slug: slider/appearance-and-styling/skins
 tags: skins
 published: True

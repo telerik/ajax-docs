@@ -1,7 +1,7 @@
 ---
 title: EntityDataSource
-page_title: EntityDataSource | RadHtmlChart for ASP.NET AJAX Documentation
-description: EntityDataSource
+page_title: EntityDataSource - RadHtmlChart
+description: Check our Web Forms article about EntityDataSource.
 slug: htmlchart/data-binding/entitydatasource
 tags: entitydatasource
 published: True

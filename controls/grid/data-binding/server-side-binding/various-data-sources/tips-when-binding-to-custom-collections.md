@@ -1,7 +1,7 @@
 ---
 title: Tips When Binding to Custom Collections
-page_title: Tips When Binding to Custom Collections | RadGrid for ASP.NET AJAX Documentation
-description: Tips When Binding to Custom Collections
+page_title: Tips When Binding to Custom Collections - RadGrid
+description: Check our Web Forms article about Tips When Binding to Custom Collections.
 slug: grid/data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
 tags: tips,when,binding,to,custom,collections

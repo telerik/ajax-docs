@@ -1,7 +1,7 @@
 ---
 title: Binding to ASP.NET Datasource Components
-page_title: Binding to ASP.NET Datasource Components | RadListBox for ASP.NET AJAX Documentation
-description: Binding to ASP.NET Datasource Components
+page_title: Binding to ASP.NET Datasource Components - RadListBox
+description: Check our Web Forms article about Binding to ASP.NET Datasource Components.
 slug: listbox/data-binding/binding-to-asp.net-datasource-components
 tags: binding,to,asp.net,datasource,components
 published: True

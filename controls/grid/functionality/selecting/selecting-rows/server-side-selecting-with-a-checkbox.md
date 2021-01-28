@@ -1,7 +1,7 @@
 ---
 title: Server-side Selecting with a CheckBox
-page_title: Server-side Selecting with a CheckBox | RadGrid for ASP.NET AJAX Documentation
-description: Server-side Selecting with a CheckBox
+page_title: Server-side Selecting with a CheckBox - RadGrid
+description: Check our Web Forms article about Server-side Selecting with a CheckBox.
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-checkbox
 tags: server-side,selecting,with,a,checkbox
 published: True

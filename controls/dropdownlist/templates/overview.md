@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadDropDownList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadDropDownList
+description: Check our Web Forms article about Overview.
 slug: dropdownlist/templates/overview
 tags: overview
 published: True

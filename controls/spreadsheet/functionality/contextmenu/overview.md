@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Context Menu Format | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadSpreadsheet Context Menu Format
+description: Check our Web Forms article about Overview.
 slug: spreadsheet/functionality/contextmenu/overview
 tags: overview
 published: True

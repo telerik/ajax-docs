@@ -1,7 +1,7 @@
 ---
 title: Load
-page_title: Load | RadWizard for ASP.NET AJAX Documentation
-description: Load
+page_title: Load - RadWizard
+description: Check our Web Forms article about Load.
 slug: wizard/client-side-programming/events/load
 tags: load
 published: True

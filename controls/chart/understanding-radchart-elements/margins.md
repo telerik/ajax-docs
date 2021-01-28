@@ -1,7 +1,7 @@
 ---
 title: Margins
-page_title: Margins | RadChart for ASP.NET AJAX Documentation
-description: Margins
+page_title: Margins - RadChart
+description: Check our Web Forms article about Margins.
 slug: chart/understanding-radchart-elements/margins
 tags: margins
 published: True

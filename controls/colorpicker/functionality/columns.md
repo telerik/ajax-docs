@@ -1,7 +1,7 @@
 ---
 title: Columns
-page_title: Columns | RadColorPicker for ASP.NET AJAX Documentation
-description: Columns
+page_title: Columns - RadColorPicker
+description: Check our Web Forms article about Columns.
 slug: colorpicker/functionality/columns
 tags: columns
 published: True

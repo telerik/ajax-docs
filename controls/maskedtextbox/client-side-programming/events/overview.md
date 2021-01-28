@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadMaskedTextBox
+description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/client-side-programming/events/overview
 tags: overview
 published: True

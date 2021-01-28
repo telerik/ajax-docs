@@ -1,7 +1,7 @@
 ---
 title: OnItemCreated
-page_title: OnItemCreated | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemCreated Event
+page_title: OnItemCreated - RadTreeList
+description: Check our Web Forms article about OnItemCreated Event.
 slug: treelist/client-side-programming/Events/OnItemCreated
 tags: events,OnItemCreated
 published: True

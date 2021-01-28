@@ -1,7 +1,7 @@
 ---
 title: Axis Labels
-page_title: Axis Labels | RadChart for ASP.NET AJAX Documentation
-description: Axis Labels
+page_title: Axis Labels - RadChart
+description: Check our Web Forms article about Axis Labels.
 slug: chart/understanding-radchart-elements/axis-labels
 tags: axis,labels
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using FormTemplate and UserControl
-page_title: Using FormTemplate andUserControl | RadTreeList for ASP.NET AJAX Documentation
-description: Using FormTemplate and UserControl
+page_title: Using FormTemplate andUserControl - RadTreeList
+description: Check our Web Forms article about Using FormTemplate and UserControl.
 slug: treelist/data-editing/inserting-records/using-formtemplate-and-usercontrol
 tags: using,formtemplate/usercontrol
 published: True

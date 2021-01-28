@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TagCloudCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TagCloudCancelEventArgs
 slug: Telerik.Web.UI.TagCloudCancelEventArgs
 ---

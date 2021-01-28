@@ -1,7 +1,7 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | RadSiteMap for ASP.NET AJAX Documentation
-description: NodeDataBound
+page_title: NodeDataBound - RadSiteMap
+description: Check our Web Forms article about NodeDataBound.
 slug: sitemap/server-side-programming/nodedatabound
 tags: nodedatabound
 published: True

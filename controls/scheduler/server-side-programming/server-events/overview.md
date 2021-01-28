@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Events Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Events Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/server-side-programming/server-events/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Progress Template
-page_title: Progress Template | RadProgressArea for ASP.NET AJAX Documentation
-description: Progress Template
+page_title: Progress Template - RadProgressArea
+description: Check our Web Forms article about Progress Template.
 slug: progressarea/progress-template
 tags: progress,template
 published: True

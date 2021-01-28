@@ -1,7 +1,7 @@
 ---
 title: Orientation
-page_title: Orientation | RadTimeline for ASP.NET AJAX Documentation
-description: Orientation
+page_title: Orientation - RadTimeline
+description: Check our Web Forms article about Orientation.
 slug: timeline/functionality/orientation
 tags: orientation,client,server
 published: True

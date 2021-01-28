@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Rad Chart Basics | RadChart for ASP.NET AJAX Documentation
-description: Rad Chart Basics
+page_title: Rad Chart Basics - RadChart
+description: Check our Web Forms article about Rad Chart Basics.
 slug: chart/understanding-radchart-elements/rad-chart-basics
 tags: rad,chart,basics
 published: True

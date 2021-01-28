@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadAsyncUpload
+description: Check our Web Forms article about Skins.
 slug: asyncupload/appearance-and-styling/skins
 tags: skins
 published: True

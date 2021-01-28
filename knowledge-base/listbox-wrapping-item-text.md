@@ -2,7 +2,7 @@
 title: Wrap RadListBoxItem text on a new line
 description: Learn how to wrap the RadListBoxItem text on a new line.
 type: how-to
-page_title: Wrap ListBox item text on a new line - RadListBoxItem | Telerik Web UI
+page_title: Wrap ListBox item text on a new line - RadListBoxItem - Telerik Web UI
 slug: listbox-wrapping-item-text
 position: 
 ticketid: 1432363

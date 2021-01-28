@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSpell
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSpell
 slug: Telerik.Web.UI.RadSpell
 ---

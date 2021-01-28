@@ -1,7 +1,7 @@
 ---
 title: MaskPart Collection Editor
-page_title: MaskPart Collection Editor | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: MaskPart Collection Editor
+page_title: MaskPart Collection Editor - RadMaskedTextBox
+description: Check our Web Forms article about MaskPart Collection Editor.
 slug: radmaskedtextbox/design-time/maskpart-collection-editor
 tags: maskpart,collection,editor
 published: True

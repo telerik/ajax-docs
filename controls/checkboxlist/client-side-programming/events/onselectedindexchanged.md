@@ -1,7 +1,7 @@
 ---
 title: OnSelectedIndexChanged
-page_title: OnSelectedIndexChanged | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnSelectedIndexChanged
+page_title: OnSelectedIndexChanged - RadCheckBoxList
+description: Check our Web Forms article about OnSelectedIndexChanged.
 slug: checkboxlist/client-side-programming/events/onselectedindexchanged
 tags: onselectedindexchanged
 published: True

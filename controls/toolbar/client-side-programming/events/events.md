@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Events Overview | RadToolBar for ASP.NET AJAX Documentation
-description: Events overview
+page_title: Client-side Events Overview - RadToolBar
+description: Check our Web Forms article about Events overview.
 slug: toolbar/client-side-programming/events
 tags: events,overview
 published: True

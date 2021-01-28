@@ -1,7 +1,7 @@
 ---
 title: What is New
-page_title: What is New | RadToolBar for ASP.NET AJAX Documentation
-description: What is New
+page_title: What is New - RadToolBar
+description: Check our Web Forms article about What is New.
 slug: toolbar/what-is-new
 tags: what,is,new
 published: False

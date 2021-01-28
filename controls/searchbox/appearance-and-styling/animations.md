@@ -1,7 +1,7 @@
 ---
 title: Animations
-page_title: Animations | RadSearchBox for ASP.NET AJAX Documentation
-description: Animations
+page_title: Animations - RadSearchBox
+description: Check our Web Forms article about Animations.
 slug: searchbox/appearance-and-styling/animations
 tags: animations
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadFileExplorer for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadFileExplorer
+description: Check our Web Forms article about Localization.
 slug: fileexplorer/accessibility-and-internationalization/localization
 tags: localization
 published: True

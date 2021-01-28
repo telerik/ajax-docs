@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: SharePoint Editor Dialogs Overview | UI for ASP.NET AJAX Documentation
-description: SharePoint Editor Dialogs Overview
+page_title: SharePoint Editor Dialogs Overview
+description: Check our Web Forms article about SharePoint Editor Dialogs Overview.
 slug: sharepoint/2010/radeditor-web-part/dialogs/overview
 tags: editor,dialogs,sharepoint,overview,tool,name
 published: True

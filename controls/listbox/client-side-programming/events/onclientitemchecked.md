@@ -1,7 +1,7 @@
 ---
 title: OnClientItemChecked
-page_title: OnClientItemChecked | RadListBox for ASP.NET AJAX Documentation
-description: OnClientItemChecked
+page_title: OnClientItemChecked - RadListBox
+description: Check our Web Forms article about OnClientItemChecked.
 slug: listbox/client-side-programming/events/onclientitemchecked
 tags: onclientitemchecked
 published: True

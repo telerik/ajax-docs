@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadColorPicker for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadColorPicker
+description: Check our Web Forms article about Localization.
 slug: colorpicker/accessibility-and-internationalization/localization
 tags: localization
 published: True

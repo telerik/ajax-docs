@@ -1,7 +1,7 @@
 ---
 title: Data Editing
-page_title: Data Editing | RadTreeList for ASP.NET AJAX Documentation
-description: Data Editing
+page_title: Data Editing - RadTreeList
+description: Check our Web Forms article about Data Editing.
 slug: treelist/mobile-support/mobile-rendering/data-editing
 tags: data,editing
 published: True

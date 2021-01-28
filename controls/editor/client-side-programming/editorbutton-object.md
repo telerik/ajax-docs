@@ -1,7 +1,7 @@
 ---
 title: EditorButton Object
-page_title: EditorButton Object | RadEditor for ASP.NET AJAX Documentation
-description: EditorButton Object
+page_title: EditorButton Object - RadEditor
+description: Check our Web Forms article about EditorButton Object.
 slug: editor/client-side-programming/editorbutton-object
 tags: editorbutton,object
 published: True

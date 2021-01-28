@@ -1,7 +1,7 @@
 ---
 title: get_visible()
-page_title: get_visible() | RadGrid for ASP.NET AJAX Documentation
-description: get_visible()
+page_title: get_visible() - RadGrid
+description: Check our Web Forms article about get_visible().
 slug: grid/client-side-programming/gridcolumn-object/properties/get_visible()
 tags: get_visible()
 published: True

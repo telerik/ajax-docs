@@ -1,7 +1,7 @@
 ---
 title: Overflowing
-page_title: Overflowing  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Overflowing 
+page_title: Overflowing - RadBreadcrumb
+description: Check our Web Forms article about Overflowing.
 slug: breadcrumb/functionality/overflowing
 tags: overflowing
 published: True

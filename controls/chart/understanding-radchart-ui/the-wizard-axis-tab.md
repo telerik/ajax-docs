@@ -1,7 +1,7 @@
 ---
 title: The Wizard Axis Tab
-page_title: The Wizard Axis Tab | RadChart for ASP.NET AJAX Documentation
-description: The Wizard Axis Tab
+page_title: The Wizard Axis Tab - RadChart
+description: Check our Web Forms article about The Wizard Axis Tab.
 slug: chart/understanding-radchart-ui/the-wizard-axis-tab
 tags: the,wizard,axis,tab
 published: True

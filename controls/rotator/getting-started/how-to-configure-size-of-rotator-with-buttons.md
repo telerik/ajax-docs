@@ -1,7 +1,7 @@
 ---
 title: How To Configure Size of Rotator with Buttons
-page_title: How To Configure Size of Rotator with Buttons | RadRotator for ASP.NET AJAX Documentation
-description: How To Configure Size of Rotator with Buttons
+page_title: How To Configure Size of Rotator with Buttons - RadRotator
+description: Check our Web Forms article about How To Configure Size of Rotator with Buttons.
 slug: rotator/getting-started/how-to-configure-size-of-rotator-with-buttons
 tags: how,to,configure,size,of,rotator,with,buttons
 published: True

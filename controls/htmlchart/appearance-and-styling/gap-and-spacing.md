@@ -1,7 +1,7 @@
 ---
 title: Gap and Spacing
-page_title: Gap and Spacing | RadHtmlChart for ASP.NET AJAX Documentation
-description: Gap and Spacing
+page_title: Gap and Spacing - RadHtmlChart
+description: Check our Web Forms article about Gap and Spacing.
 slug: htmlchart/appearance-and-styling/gap-and-spacing
 tags: gap,and,spacing
 published: True

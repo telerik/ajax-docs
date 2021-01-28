@@ -1,7 +1,7 @@
 ---
 title: NavigationBarButtonClick
-page_title: NavigationBarButtonClick | RadWizard for ASP.NET AJAX Documentation
-description: NavigationBarButtonClick
+page_title: NavigationBarButtonClick - RadWizard
+description: Check our Web Forms article about NavigationBarButtonClick.
 slug: wizard/server-side-programming/events/navigationbarbuttonclick
 tags: navigationbarbuttonclick
 published: True

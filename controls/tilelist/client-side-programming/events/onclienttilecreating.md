@@ -1,7 +1,7 @@
 ---
 title: OnClientTileCreating
-page_title: OnClientTileCreating | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTileCreating
+page_title: OnClientTileCreating - RadTileList
+description: Check our Web Forms article about OnClientTileCreating.
 slug: tilelist/client-side-programming/client-side-events/onclienttilecreating
 tags: onclienttilecreating
 published: True

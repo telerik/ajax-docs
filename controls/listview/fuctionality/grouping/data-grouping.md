@@ -1,7 +1,7 @@
 ---
 title: Data Grouping
-page_title: Data Grouping | RadListView for ASP.NET AJAX Documentation
-description: Data Grouping
+page_title: Data Grouping - RadListView
+description: Check our Web Forms article about Data Grouping.
 slug: listview/fuctionality/grouping/data-grouping
 tags: data,grouping
 published: True

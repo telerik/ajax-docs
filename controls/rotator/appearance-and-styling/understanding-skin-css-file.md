@@ -1,7 +1,7 @@
 ---
 title: Understanding Skin CSS File
-page_title: Understanding Skin CSS File | RadRotator for ASP.NET AJAX Documentation
-description: Understanding Skin CSS File
+page_title: Understanding Skin CSS File - RadRotator
+description: Check our Web Forms article about Understanding Skin CSS File.
 slug: rotator/appearance-and-styling/understanding-skin-css-file
 tags: understanding,skin,css,file
 published: True

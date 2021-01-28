@@ -1,7 +1,7 @@
 ---
 title: DateTimeFormatInfo object
-page_title: DateTimeFormatInfo object | RadCalendar for ASP.NET AJAX Documentation
-description: DateTimeFormatInfo object
+page_title: DateTimeFormatInfo object - RadCalendar
+description: Check our Web Forms article about DateTimeFormatInfo object.
 slug: calendar/client-side-programming/datetimeformatinfo-object
 tags: datetimeformatinfo,object
 published: True

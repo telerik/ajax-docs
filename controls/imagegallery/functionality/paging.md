@@ -1,7 +1,7 @@
 ---
 title: Paging
-page_title: Paging | RadImageGallery for ASP.NET AJAX Documentation
-description: Paging
+page_title: Paging - RadImageGallery
+description: Check our Web Forms article about Paging.
 slug: imagegallery/functionality/paging
 tags: paging
 published: True

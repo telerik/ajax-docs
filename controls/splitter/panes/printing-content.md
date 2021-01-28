@@ -1,7 +1,7 @@
 ---
 title: Printing Content
-page_title: Printing Content | RadSplitter for ASP.NET AJAX Documentation
-description: Printing Content
+page_title: Printing Content - RadSplitter
+description: Check our Web Forms article about Printing Content.
 slug: splitter/panes/printing-content
 tags: printing,content
 published: True

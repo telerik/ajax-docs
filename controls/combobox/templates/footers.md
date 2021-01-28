@@ -1,7 +1,7 @@
 ---
 title: Footers
-page_title: Footers | RadComboBox for ASP.NET AJAX Documentation
-description: Footers
+page_title: Footers - RadComboBox
+description: Check our Web Forms article about Footers.
 slug: combobox/templates/footers
 tags: footers
 published: True

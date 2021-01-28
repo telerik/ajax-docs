@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeChecking
-page_title: OnClientNodeChecking | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeChecking
+page_title: OnClientNodeChecking - RadTreeView
+description: Check our Web Forms article about OnClientNodeChecking.
 slug: treeview/client-side-programming/events/onclientnodechecking
 tags: onclientnodechecking
 published: True

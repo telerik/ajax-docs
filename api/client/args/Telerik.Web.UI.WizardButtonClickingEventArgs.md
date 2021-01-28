@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.WizardButtonClickingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.WizardButtonClickingEventArgs
 slug: Telerik.Web.UI.WizardButtonClickingEventArgs
 ---

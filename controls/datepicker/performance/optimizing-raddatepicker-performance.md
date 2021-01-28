@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadDatePicker Performance
-page_title: Optimizing RadDatePicker Performance | RadDatePicker for ASP.NET AJAX Documentation
-description: Optimizing RadDatePicker Performance
+page_title: Optimizing RadDatePicker Performance - RadDatePicker
+description: Check our Web Forms article about Optimizing RadDatePicker Performance.
 slug: datepicker/performance/optimizing-raddatepicker-performance
 tags: performance,optimizing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadRotator Types
-page_title: RadRotator Types | RadRotator for ASP.NET AJAX Documentation
-description: RadRotator Types
+page_title: RadRotator Types - RadRotator
+description: Check our Web Forms article about RadRotator Types.
 slug: rotator/functionality/radrotator-types
 tags: radrotator,types
 published: True

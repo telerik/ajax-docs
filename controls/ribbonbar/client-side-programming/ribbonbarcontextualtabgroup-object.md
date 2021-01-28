@@ -1,7 +1,7 @@
 ---
 title: RibbonBarContextualTabGroup Object
-page_title: RibbonBarContextualTabGroup Object | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarContextualTabGroup Object
+page_title: RibbonBarContextualTabGroup Object - RadRibbonBar
+description: Check our Web Forms article about RibbonBarContextualTabGroup Object.
 slug: ribbonbar/client-side-programming/ribbonbarcontextualtabgroup-object
 tags: ribbonbarcontextualtabgroup,object
 published: True

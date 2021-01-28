@@ -1,7 +1,7 @@
 ---
 title: Changes and backward compatibility
-page_title: Changes and backward compatibility | RadTabStrip for ASP.NET AJAX Documentation
-description: Changes and backward compatibility
+page_title: Changes and backward compatibility - RadTabStrip
+description: Check our Web Forms article about Changes and backward compatibility.
 slug: tabstrip/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

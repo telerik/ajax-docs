@@ -1,7 +1,7 @@
 ---
 title: Ensure the Selection of Existing Items with AllowCustomText 
-page_title: Ensure the Selection of Existing Items with AllowCustomText  | RadComboBox for ASP.NET AJAX Documentation
-description: Ensure the Selection of Existing Items with AllowCustomText 
+page_title: Ensure the Selection of Existing Items with AllowCustomText - RadComboBox
+description: Check our Web Forms article about Ensure the Selection of Existing Items with AllowCustomText.
 slug: combobox/how-to/ensure-the-selection-of-existing-items-with-allowcustomtext-
 tags: ensure,the,selection,of,existing,items,with,allowcustomtext,
 published: True

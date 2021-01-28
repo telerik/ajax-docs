@@ -1,7 +1,7 @@
 ---
 title: OnItemSelecting
-page_title: OnItemSelecting | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemSelecting Event
+page_title: OnItemSelecting - RadTreeList
+description: Check our Web Forms article about OnItemSelecting Event.
 slug: treelist/client-side-programming/Events/OnItemSelecting
 tags: events,OnItemSelecting
 published: True

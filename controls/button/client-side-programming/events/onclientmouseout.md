@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | RadButton for ASP.NET AJAX Documentation
-description: OnClientMouseOut
+page_title: OnClientMouseOut - RadButton
+description: Check our Web Forms article about OnClientMouseOut.
 slug: button/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True

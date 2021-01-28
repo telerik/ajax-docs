@@ -1,7 +1,7 @@
 ---
 title: Predefined
-page_title: Predefined | RadListView for ASP.NET AJAX Documentation
-description: Predefined
+page_title: Predefined - RadListView
+description: Check our Web Forms article about Predefined.
 slug: listview/layouts/predefined
 tags: predefined
 published: True

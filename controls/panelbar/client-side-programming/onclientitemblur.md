@@ -1,7 +1,7 @@
 ---
 title: OnClientItemBlur
-page_title: OnClientItemBlur | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientItemBlur
+page_title: OnClientItemBlur - RadPanelBar
+description: Check our Web Forms article about OnClientItemBlur.
 slug: panelbar/client-side-programming/onclientitemblur
 tags: onclientitemblur
 published: True

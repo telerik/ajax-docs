@@ -1,7 +1,7 @@
 ---
 title: RadUpload Select-Browse Button is Not Visible in IE
-page_title: RadUpload Select-Browse Button is Not Visible in IE | RadUpload for ASP.NET AJAX Documentation
-description: RadUpload Select-Browse Button is Not Visible in IE
+page_title: RadUpload Select-Browse Button is Not Visible in IE - RadUpload
+description: Check our Web Forms article about RadUpload Select-Browse Button is Not Visible in IE.
 slug: upload/troubleshooting/radupload-select-browse-button-is-not-visible-in-ie
 tags: radupload,select-browse,button,is,not,visible,in,ie
 published: True

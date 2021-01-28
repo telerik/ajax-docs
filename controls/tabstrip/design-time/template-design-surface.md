@@ -1,7 +1,7 @@
 ---
 title: Template Design Surface
-page_title: Template Design Surface | RadTabStrip for ASP.NET AJAX Documentation
-description: Template Design Surface
+page_title: Template Design Surface - RadTabStrip
+description: Check our Web Forms article about Template Design Surface.
 slug: tabstrip/design-time/template-design-surface
 tags: template,design,surface
 published: True

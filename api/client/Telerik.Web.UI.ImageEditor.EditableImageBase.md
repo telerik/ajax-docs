@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.EditableImageBase
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.EditableImageBase
 slug: Telerik.Web.UI.ImageEditor.EditableImageBase
 ---

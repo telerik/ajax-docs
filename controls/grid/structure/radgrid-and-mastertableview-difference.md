@@ -1,7 +1,7 @@
 ---
 title: RadGrid and MasterTableView Difference
-page_title: RadGrid and MasterTableView Difference | RadGrid for ASP.NET AJAX Documentation
-description: RadGrid and MasterTableView Difference
+page_title: RadGrid and MasterTableView Difference - RadGrid
+description: Check our Web Forms article about RadGrid and MasterTableView Difference.
 slug: grid/structure/radgrid-and-mastertableview-difference
 previous_url: controls/grid/defining-structure/radgrid-and-mastertableview-difference
 tags: radgrid,and,mastertableview,difference

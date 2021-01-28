@@ -1,7 +1,7 @@
 ---
 title: Hiding the Expand/Collapse Images When No Records
-page_title: Hiding the expand/collapse images when no records | RadGrid for ASP.NET AJAX Documentation
-description: Hiding the expand/collapse images when no records
+page_title: Hiding the expand/collapse images when no records - RadGrid
+description: Check our Web Forms article about Hiding the expand/collapse images when no records.
 slug: grid/how-to/hierarchy/hiding-the-expand-collapse-images-when-no-records
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/hiding-the-expand-collapse-images-when-no-records
 tags: hiding,the,expand/collapse,images,when,no,records

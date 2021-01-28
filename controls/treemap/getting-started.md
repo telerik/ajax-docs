@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadTreeMap for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadTreeMap
+description: Check our Web Forms article about Getting Started.
 slug: treemap/getting-started
 tags: getting,started
 published: True

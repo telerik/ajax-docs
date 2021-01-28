@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadImageEditor for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadImageEditor
+description: Check our Web Forms article about Structure.
 slug: imageeditor/getting-started/structure
 tags: structure
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadTicker Elastic Capabilities
-page_title: RadTicker Elastic Capabilities | RadRotator for ASP.NET AJAX Documentation
-description: RadTicker Elastic Capabilities
+page_title: RadTicker Elastic Capabilities - RadRotator
+description: Check our Web Forms article about RadTicker Elastic Capabilities.
 slug: rotator/mobile-support/radticker-elastic-capabilities
 tags: radticker,elastic,capabilities
 published: True

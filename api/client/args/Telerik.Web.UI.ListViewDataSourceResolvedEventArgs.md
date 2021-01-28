@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
 slug: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Setting The Background
-page_title: Setting The Background | RadChart for ASP.NET AJAX Documentation
-description: Setting The Background
+page_title: Setting The Background - RadChart
+description: Check our Web Forms article about Setting The Background.
 slug: chart/styling-radcharts/setting-the-background
 tags: setting,the,background
 published: True

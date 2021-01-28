@@ -1,7 +1,7 @@
 ---
 title: Enforce Roles
-page_title: Enforce Roles | RadEditor for ASP.NET AJAX Documentation
-description: Enforce Roles
+page_title: Enforce Roles - RadEditor
+description: Check our Web Forms article about Enforce Roles.
 slug: editor/functionality/dialogs/examples/enforce-roles
 tags: enforce,roles
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadComboBox for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadComboBox
+description: Check our Web Forms article about Events.
 slug: combobox/server-side-programming/events
 tags: events
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | RadDock for ASP.NET AJAX Documentation
-description: Responsive, Adaptive and Elastic Capabilities
+page_title: Responsive, Adaptive and Elastic Capabilities - RadDock
+description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
 slug: dock/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
 published: True

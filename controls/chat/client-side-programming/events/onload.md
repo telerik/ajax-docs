@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadChat for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadChat
+description: Check our Web Forms article about OnLoad.
 slug: chat/client-side-programming/events/onload
 tags: onload
 published: True

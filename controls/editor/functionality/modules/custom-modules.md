@@ -1,7 +1,7 @@
 ---
 title: Custom Modules
-page_title: Custom Modules | RadEditor for ASP.NET AJAX Documentation
-description: Custom Modules
+page_title: Custom Modules - RadEditor
+description: Check our Web Forms article about Custom Modules.
 slug: editor/functionality/modules/custom-modules
 tags: custom,modules
 published: True

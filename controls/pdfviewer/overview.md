@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadPdfViewer Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadPdfViewer Overview
+description: Check our Web Forms article about Overview.
 slug: pdfviewer/overview
 tags: overview
 published: True

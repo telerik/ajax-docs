@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadGantt for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadGantt
+description: Check our Web Forms article about Skins.
 slug: gantt/appearance-and-styling/skins
 tags: skins
 published: True

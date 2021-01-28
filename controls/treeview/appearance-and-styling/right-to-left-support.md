@@ -1,7 +1,7 @@
 ---
 title: Right-To-Left Support
-page_title: Right-To-Left Support | RadTreeView for ASP.NET AJAX Documentation
-description: Right-To-Left Support
+page_title: Right-To-Left Support - RadTreeView
+description: Check our Web Forms article about Right-To-Left Support.
 slug: treeview/appearance-and-styling/right-to-left-support
 tags: right-to-left,support
 published: True

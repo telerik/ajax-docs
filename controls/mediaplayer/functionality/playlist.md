@@ -1,7 +1,7 @@
 ---
 title: Playlist
-page_title: Playlist | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Playlist
+page_title: Playlist - RadMediaPlayer
+description: Check our Web Forms article about Playlist.
 slug: mediaplayer/functionality/playlist
 tags: playlist
 published: True

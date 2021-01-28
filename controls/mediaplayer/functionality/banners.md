@@ -1,7 +1,7 @@
 ---
 title: Banners
-page_title: Banners | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Banners
+page_title: Banners - RadMediaPlayer
+description: Check our Web Forms article about Banners.
 slug: mediaplayer/functionality/banners
 tags: banners
 published: True

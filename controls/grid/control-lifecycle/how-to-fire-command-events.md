@@ -1,7 +1,7 @@
 ---
 title: How to Fire Command Events
-page_title: How to Fire Command Events | RadGrid for ASP.NET AJAX Documentation
-description: How to Fire Command Events
+page_title: How to Fire Command Events - RadGrid
+description: Check our Web Forms article about How to Fire Command Events.
 slug: grid/control-lifecycle/how-to-fire-command-events
 tags: how,to,fire,command,events
 published: True

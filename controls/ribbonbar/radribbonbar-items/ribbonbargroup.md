@@ -1,7 +1,7 @@
 ---
 title: RibbonBarGroup
-page_title: RibbonBarGroup | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarGroup
+page_title: RibbonBarGroup - RadRibbonBar
+description: Check our Web Forms article about RibbonBarGroup.
 slug: ribbonbar/radribbonbar-items/ribbonbargroup
 tags: ribbonbargroup
 published: True

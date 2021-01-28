@@ -1,7 +1,7 @@
 ---
 title: XHTML
-page_title: XHTML | RadChart for ASP.NET AJAX Documentation
-description: XHTML
+page_title: XHTML - RadChart
+description: Check our Web Forms article about XHTML.
 slug: chart/standards-compliance/xhtml
 tags: xhtml
 published: True

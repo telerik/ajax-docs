@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Creating a Custom Lightweight Skin
-page_title: Tutorial - Creating a Custom Lightweight Skin | RadFormDecorator for ASP.NET AJAX Documentation
-description: Tutorial for Creating a Custom Lightweight Skin for RadFormDecorator
+page_title: Tutorial - Creating a Custom Lightweight Skin - RadFormDecorator
+description: Check our Web Forms article about Tutorial for Creating a Custom Lightweight Skin for RadFormDecorator.
 slug: formdecorator/appearance-and-styling/tutorial-creating-custom-lightweight-skin
 tags: FormDecorator, custom, lightweight, skin, tutorial
 published: True

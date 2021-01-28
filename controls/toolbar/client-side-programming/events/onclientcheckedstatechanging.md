@@ -1,7 +1,7 @@
 ---
 title: OnClientCheckedStateChanging
-page_title: OnClientCheckedStateChanging | RadToolBar for ASP.NET AJAX Documentation
-description: OnClientCheckedStateChanging
+page_title: OnClientCheckedStateChanging - RadToolBar
+description: Check our Web Forms article about OnClientCheckedStateChanging.
 slug: toolbar/client-side-programming/onclientcheckedstatechanging
 tags: onclientcheckedstatechanging
 published: True

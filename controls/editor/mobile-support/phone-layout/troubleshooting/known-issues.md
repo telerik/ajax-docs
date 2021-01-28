@@ -1,7 +1,7 @@
 ---
 title: Known Issues
-page_title: Phone Layout Known Issues | RadEditor for ASP.NET AJAX Documentation
-description: Mobile Rendering
+page_title: Phone Layout Known Issues - RadEditor
+description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/troubleshooting/known-issues
 tags: editor,support,mobile,rendering,issues
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Responsive Design
-page_title: Responsive Design | RadToolBar for ASP.NET AJAX Documentation
-description: Responsive Design
+page_title: Responsive Design - RadToolBar
+description: Check our Web Forms article about Responsive Design.
 slug: toolbar/mobile-support/responsive-design
 tags: responsive,design
 published: True

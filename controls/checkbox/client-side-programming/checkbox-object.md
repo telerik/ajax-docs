@@ -1,7 +1,7 @@
 ---
 title: CheckBox Object
-page_title: CheckBox Object | RadCheckBox for ASP.NET AJAX Documentation
-description: CheckBox Object
+page_title: CheckBox Object - RadCheckBox
+description: Check our Web Forms article about CheckBox Object.
 slug: checkbox/client-side-programming/checkbox-object
 tags: checkbox,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadScheduler for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadScheduler
+description: Check our Web Forms article about Smart Tag.
 slug: scheduler/design-time/smart-tag
 tags: smart,tag
 published: True

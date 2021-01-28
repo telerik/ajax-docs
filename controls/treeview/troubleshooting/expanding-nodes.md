@@ -1,7 +1,7 @@
 ---
 title: Expanding Nodes
-page_title: Expanding Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Expanding Nodes
+page_title: Expanding Nodes - RadTreeView
+description: Check our Web Forms article about Expanding Nodes.
 slug: treeview/troubleshooting/expanding-nodes
 tags: expanding,nodes
 published: True

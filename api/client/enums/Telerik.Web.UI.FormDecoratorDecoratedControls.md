@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FormDecoratorDecoratedControls
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FormDecoratorDecoratedControls
 slug: Telerik.Web.UI.FormDecoratorDecoratedControls
 ---

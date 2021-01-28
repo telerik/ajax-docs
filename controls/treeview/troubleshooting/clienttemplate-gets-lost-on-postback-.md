@@ -1,7 +1,7 @@
 ---
 title: ClientTemplate Gets Lost on PostBack 
-page_title: ClientTemplate Gets Lost on PostBack  | RadTreeView for ASP.NET AJAX Documentation
-description: ClientTemplate Gets Lost on PostBack 
+page_title: ClientTemplate Gets Lost on PostBack - RadTreeView
+description: Check our Web Forms article about ClientTemplate Gets Lost on PostBack.
 slug: treeview/troubleshooting/clienttemplate-gets-lost-on-postback-
 tags: clienttemplate,gets,lost,on,postback,
 published: True

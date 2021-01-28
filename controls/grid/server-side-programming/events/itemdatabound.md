@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound Event - RadGrid | UI for ASP.NET AJAX
-description: ItemDataBound Event
+page_title: ItemDataBound Event - RadGrid
+description: Check our Web Forms article about ItemDataBound Event.
 slug: grid/server-side-programming/events/itemdatabound
 published: True
 position: 50

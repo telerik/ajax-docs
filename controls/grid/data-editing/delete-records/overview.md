@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadGrid
+description: Check our Web Forms article about Overview.
 slug: grid/data-editing/delete-records/overview
 tags: overview
 published: True

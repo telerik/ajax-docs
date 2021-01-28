@@ -1,7 +1,7 @@
 ---
 title: Types
-page_title: Types | RadBarcode for ASP.NET AJAX Documentation
-description: Types
+page_title: Types - RadBarcode
+description: Check our Web Forms article about Types.
 slug: barcode/types
 tags: types
 published: True

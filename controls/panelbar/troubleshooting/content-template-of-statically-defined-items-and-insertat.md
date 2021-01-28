@@ -1,7 +1,7 @@
 ---
 title: Content Template of Statically Defined Items and InsertAt
-page_title: Content Template of Statically Defined Items and InsertAt | RadPanelBar for ASP.NET AJAX Documentation
-description: Cannot Collapse Root Items
+page_title: Content Template of Statically Defined Items and InsertAt - RadPanelBar
+description: Check our Web Forms article about Cannot Collapse Root Items.
 slug: panelbar/troubleshooting/content-template-of-statically-defined-items-and-insertat
 tags: content,template,statically,defined,items,insertat
 published: True

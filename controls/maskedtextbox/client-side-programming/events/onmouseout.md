@@ -1,7 +1,7 @@
 ---
 title: OnMouseOut
-page_title: OnMouseOut | RadMaksedTextBoxxtBox for ASP.NET AJAX Documentation
-description: OnMouseOut
+page_title: OnMouseOut - RadMaksedTextBoxxtBox
+description: Check our Web Forms article about OnMouseOut.
 slug: radmaskedtextbox/client-side-programming/events/onmouseout
 tags: onmouseout
 published: True

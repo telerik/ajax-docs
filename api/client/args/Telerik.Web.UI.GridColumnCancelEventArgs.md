@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridColumnCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridColumnCancelEventArgs
 slug: Telerik.Web.UI.GridColumnCancelEventArgs
 ---

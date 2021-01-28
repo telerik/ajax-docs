@@ -1,7 +1,7 @@
 ---
 title: Orientation
-page_title: Orientation | RadWizard for ASP.NET AJAX Documentation
-description: Orientation
+page_title: Orientation - RadWizard
+description: Check our Web Forms article about Orientation.
 slug: wizard/functionality/orientation
 tags: orientation
 published: True

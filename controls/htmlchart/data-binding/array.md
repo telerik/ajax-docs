@@ -1,7 +1,7 @@
 ---
 title: Array
-page_title: Array | RadHtmlChart for ASP.NET AJAX Documentation
-description: Array
+page_title: Array - RadHtmlChart
+description: Check our Web Forms article about Array.
 slug: htmlchart/data-binding/array
 tags: array
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadTextBox for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadTextBox
+description: Check our Web Forms article about Validation.
 slug: radtextbox/features/validation
 tags: validation
 published: True

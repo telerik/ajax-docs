@@ -1,7 +1,7 @@
 ---
 title: RadEditor Display Issue in Firefox 2.0
-page_title: RadEditor Display Issue in Firefox 2.0 | RadEditor for ASP.NET AJAX Documentation
-description: RadEditor Display Issue in Firefox 2.0
+page_title: RadEditor Display Issue in Firefox 2.0 - RadEditor
+description: Check our Web Forms article about RadEditor Display Issue in Firefox 2.0.
 slug: editor/troubleshooting/radeditor-display-issue-in-firefox-2.0
 tags: radeditor,display,issue,in,firefox,2.0
 published: False

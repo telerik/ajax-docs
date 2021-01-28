@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ProgressBarOrientation
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ProgressBarOrientation
 slug: Telerik.Web.UI.ProgressBarOrientation
 ---

@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeClicked
-page_title: OnClientNodeClicked | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeClicked
+page_title: OnClientNodeClicked - RadTreeView
+description: Check our Web Forms article about OnClientNodeClicked.
 slug: treeview/client-side-programming/events/onclientnodeclicked
 tags: onclientnodeclicked
 published: True

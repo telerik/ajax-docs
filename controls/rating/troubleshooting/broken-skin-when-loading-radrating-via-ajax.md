@@ -1,7 +1,7 @@
 ---
 title: Broken Skin When Loading RadRating via AJAX
-page_title: Broken Skin When Loading RadRating via AJAX | RadRating for ASP.NET AJAX Documentation
-description: Broken Skin When Loading RadRating via AJAX
+page_title: Broken Skin When Loading RadRating via AJAX - RadRating
+description: Check our Web Forms article about Broken Skin When Loading RadRating via AJAX.
 slug: rating/troubleshooting/broken-skin-when-loading-radrating-via-ajax
 tags: broken,skin,when,loading,radrating,via,ajax
 published: True

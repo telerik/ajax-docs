@@ -1,7 +1,7 @@
 ---
 title: Memory Consumption Increase
-page_title: Memory Consumption Increase | RadCaptcha for ASP.NET AJAX Documentation
-description: Memory Consumption Increase
+page_title: Memory Consumption Increase - RadCaptcha
+description: Check our Web Forms article about Memory Consumption Increase.
 slug: captcha/changes-and-backward-compatibility/memory-consumption-increase
 tags: memory,consumption,increase
 published: True

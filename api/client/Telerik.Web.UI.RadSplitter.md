@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSplitter
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSplitter
 slug: Telerik.Web.UI.RadSplitter
 ---

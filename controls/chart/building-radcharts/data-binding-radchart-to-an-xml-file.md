@@ -1,7 +1,7 @@
 ---
 title: Data Binding RadChart to an XML file
-page_title: Data Binding RadChart to an XML file | RadChart for ASP.NET AJAX Documentation
-description: Data Binding RadChart to an XML file
+page_title: Data Binding RadChart to an XML file - RadChart
+description: Check our Web Forms article about Data Binding RadChart to an XML file.
 slug: chart/building-radcharts/data-binding-radchart-to-an-xml-file
 tags: data,binding,radchart,to,an,xml,file
 published: True

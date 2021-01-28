@@ -1,7 +1,7 @@
 ---
 title: DeviceDetectionFramework
-page_title: RadDeviceDetectionFramework | UI for ASP.NET AJAX Documentation
-description: RadDeviceDetectionFramework
+page_title: RadDeviceDetectionFramework
+description: Check our Web Forms article about RadDeviceDetectionFramework.
 slug: controls/raddevicedetectionframework
 tags: raddevicedetectionframework
 published: True

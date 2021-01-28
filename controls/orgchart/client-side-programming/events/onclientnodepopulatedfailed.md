@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulatedFailed
-page_title: OnClientNodePopulatedFailed | RadOrgChart for ASP.NET AJAX Documentation
-description: OnClientNodePopulatedFailed
+page_title: OnClientNodePopulatedFailed - RadOrgChart
+description: Check our Web Forms article about OnClientNodePopulatedFailed.
 slug: orgchart/client-side-programming/events/onclientnodepopulatedfailed
 tags: onclientnodepopulatedfailed
 published: True

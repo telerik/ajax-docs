@@ -1,7 +1,7 @@
 ---
 title: Using Columns
-page_title: Using Columns | RadGrid for ASP.NET AJAX Documentation
-description: Using Columns
+page_title: Using Columns - RadGrid
+description: Check our Web Forms article about Using Columns.
 slug: grid/columns/using-columns
 tags: using,columns
 published: True

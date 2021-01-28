@@ -1,7 +1,7 @@
 ---
 title: Change the Height of the Input Element
-page_title: Change the Height of the Input Element | UI for ASP.NET AJAX Documentation
-description: Change the Height of the Input Element
+page_title: Change the Height of the Input Element
+description: Check our Web Forms article about Change the Height of the Input Element.
 slug: combobox/appearance-and-styling/change-the-height-of-the-input-element
 tags: tutorial,change,height,input,element
 published: True

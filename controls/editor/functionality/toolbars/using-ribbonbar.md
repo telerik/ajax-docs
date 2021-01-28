@@ -1,7 +1,7 @@
 ---
 title: Using RibbonBar Toolbar
-page_title: Using RibbonBar Toolbar | RadEditor for ASP.NET AJAX Documentation
-description: Using RibbonBar Toolbar
+page_title: Using RibbonBar Toolbar - RadEditor
+description: Check our Web Forms article about Using RibbonBar Toolbar.
 slug: editor/functionality/toolbars/using-ribbonbar
 tags: editor, ribbonbarm toolbar, mode
 published: True

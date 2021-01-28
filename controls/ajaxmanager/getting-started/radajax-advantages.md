@@ -1,7 +1,7 @@
 ---
 title: RadAjaxManager Advantages
-page_title: RadAjaxManager Advantages | RadAjax for ASP.NET AJAX Documentation
-description: RadAjaxManager Advantages
+page_title: RadAjaxManager Advantages
+description: Check our Web Forms article about RadAjaxManager Advantages.
 slug: ajaxmanager/getting-started/radajax-advantages
 previous_url: ajax/getting-started/radajax-advantages
 tags: radajaxmanager,advantages

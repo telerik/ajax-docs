@@ -1,7 +1,7 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Common Issues
+page_title: Common Issues - RadRadioButtonList
+description: Check our Web Forms article about Common Issues.
 slug: radiobuttonlist/troubleshooting/common-issues
 tags: common,issues
 published: True

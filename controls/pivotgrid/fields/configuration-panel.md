@@ -1,7 +1,7 @@
 ---
 title: Configuration Panel
-page_title: Configuration Panel | RadPivotGrid for ASP.NET AJAX Documentation
-description: Configuration Panel
+page_title: Configuration Panel - RadPivotGrid
+description: Check our Web Forms article about Configuration Panel.
 slug: pivotgrid/fields/configuration-panel
 tags: configuration,panel
 published: True

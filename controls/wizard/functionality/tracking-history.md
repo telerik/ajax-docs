@@ -1,7 +1,7 @@
 ---
 title: Tracking History
-page_title: Tracking History | RadWizard for ASP.NET AJAX Documentation
-description: Tracking History
+page_title: Tracking History - RadWizard
+description: Check our Web Forms article about Tracking History.
 slug: wizard/functionality/tracking-history
 tags: tracking,history
 published: True

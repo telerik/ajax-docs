@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridClientDataBindingParameterType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridClientDataBindingParameterType
 slug: Telerik.Web.UI.GridClientDataBindingParameterType
 ---

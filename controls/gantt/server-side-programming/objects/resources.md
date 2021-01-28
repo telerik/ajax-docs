@@ -1,7 +1,7 @@
 ---
 title: Resources
-page_title: Resources | RadGantt for ASP.NET AJAX Documentation
-description: Resources
+page_title: Resources - RadGantt
+description: Check our Web Forms article about Resources.
 slug: gantt/server-side-programming/objects/resources
 tags: resources
 published: True

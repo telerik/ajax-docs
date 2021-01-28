@@ -1,7 +1,7 @@
 ---
 title: Upgrading to a newer version of RadEditor for MOSS
-page_title: Upgrading to a newer version of RadEditor for MOSS | UI for ASP.NET AJAX Documentation
-description: Upgrading to a newer version of RadEditor for MOSS
+page_title: Upgrading to a newer version of RadEditor for MOSS
+description: Check our Web Forms article about Upgrading to a newer version of RadEditor for MOSS.
 slug: sharepoint/2007/radeditor-for-moss/migration-and-upgrade/upgrading-to-a-newer-version-of-radeditor-for-moss
 tags: upgrading,to,a,newer,version,of,radeditor,for,moss
 published: True

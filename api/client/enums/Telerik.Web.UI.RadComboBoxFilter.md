@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadComboBoxFilter
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadComboBoxFilter
 slug: Telerik.Web.UI.RadComboBoxFilter
 ---

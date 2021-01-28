@@ -1,7 +1,7 @@
 ---
 title: EditForm Types
-page_title: EditForm Types | RadTreeList for ASP.NET AJAX Documentation
-description: EditForm Types
+page_title: EditForm Types - RadTreeList
+description: Check our Web Forms article about EditForm Types.
 slug: treelist/data-editing/edit-mode/editform-types
 tags: editform,types
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulating
-page_title: OnClientNodePopulating | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodePopulating
+page_title: OnClientNodePopulating - RadNavigation
+description: Check our Web Forms article about OnClientNodePopulating.
 slug: navigation/client-side-programming/events/onclientnodepopulating
 tags: onclientnodepopulating
 published: True

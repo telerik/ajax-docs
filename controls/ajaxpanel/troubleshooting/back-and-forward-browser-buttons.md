@@ -1,7 +1,7 @@
 ---
 title: Back and Forward Browser Buttons
-page_title: Back and Forward Browser Buttons | RadAjax for ASP.NET AJAX Documentation
-description: Back and Forward Browser Buttons
+page_title: Back and Forward Browser Buttons
+description: Check our Web Forms article about Back and Forward Browser Buttons.
 slug: ajaxpanel/troubleshooting/back-and-forward-browser-buttons
 tags: back,and,forward,browser,buttons
 published: True

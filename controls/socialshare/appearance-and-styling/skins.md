@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadSocialShare for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadSocialShare
+description: Check our Web Forms article about Skins.
 slug: socialshare/appearance-and-styling/skins
 tags: skins
 published: True

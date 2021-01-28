@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadOrgChartNodePopulationFailedArguments
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadOrgChartNodePopulationFailedArguments
 slug: Telerik.Web.UI.RadOrgChartNodePopulationFailedArguments
 ---

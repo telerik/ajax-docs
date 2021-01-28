@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenu
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenu
 slug: Telerik.Web.UI.RadMenu
 ---

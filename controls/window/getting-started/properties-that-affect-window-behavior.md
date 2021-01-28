@@ -1,7 +1,7 @@
 ---
 title: Properties that Affect Window Behavior
-page_title: Properties that Affect Window Behavior | RadWindow for ASP.NET AJAX Documentation
-description: Properties that Affect Window Behavior
+page_title: Properties that Affect Window Behavior - RadWindow
+description: Check our Web Forms article about Properties that Affect Window Behavior.
 slug: window/getting-started/properties-that-affect-window-behavior
 tags: properties,that,affect,window,behavior
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Event Templates
-page_title: Event Templates | RadTimeline for ASP.NET AJAX Documentation
-description: Event Templates
+page_title: Event Templates - RadTimeline
+description: Check our Web Forms article about Event Templates.
 slug: timeline/functionality/client-side-templates
 tags: event,templates,client-side
 published: True

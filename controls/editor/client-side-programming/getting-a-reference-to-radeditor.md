@@ -1,7 +1,7 @@
 ---
 title: Getting a Reference to RadEditor
-page_title: Getting a Reference to RadEditor | RadEditor for ASP.NET AJAX Documentation
-description: Getting a Reference to RadEditor
+page_title: Getting a Reference to RadEditor - RadEditor
+description: Check our Web Forms article about Getting a Reference to RadEditor.
 slug: editor/client-side-programming/getting-a-reference-to-radeditor
 tags: getting,a,reference,to,radeditor
 published: True

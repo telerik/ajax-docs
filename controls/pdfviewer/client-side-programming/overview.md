@@ -1,7 +1,7 @@
 ---
 title: RadPdfViewer Object
-page_title: RadPdfViewer Object | RadPdfViewer for ASP.NET AJAX Documentation
-description: RadPdfViewer Object
+page_title: RadPdfViewer Object - RadPdfViewer
+description: Check our Web Forms article about RadPdfViewer Object.
 slug: pdfviewer/client-side-programming/overview
 tags: pdfviewer,object
 published: True

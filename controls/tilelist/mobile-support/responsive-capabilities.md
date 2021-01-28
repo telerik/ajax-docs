@@ -1,7 +1,7 @@
 ---
 title: Responsive Capabilities
-page_title: Responsive Capabilities | RadTileList for ASP.NET AJAX Documentation
-description: Responsive Capabilities of RadTileList
+page_title: Responsive Capabilities - RadTileList
+description: Check our Web Forms article about Responsive Capabilities of RadTileList.
 slug: tilelist/mobile-support/responsive-capabilities
 tags: responsive,capabilities,tilelist
 published: True

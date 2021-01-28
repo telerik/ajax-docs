@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadImageButton for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadImageButton
+description: Check our Web Forms article about Render Modes.
 slug: imagebutton/mobile-support/render-modes
 tags: render,modes
 published: True

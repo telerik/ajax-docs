@@ -1,7 +1,7 @@
 ---
 title: AppointmentCommand
-page_title: AppointmentCommand | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentCommand
+page_title: AppointmentCommand - RadScheduler
+description: Check our Web Forms article about AppointmentCommand.
 slug: scheduler/server-side-programming/server-events/appointmentcommand
 tags: appointmentcommand
 published: True

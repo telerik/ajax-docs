@@ -1,7 +1,7 @@
 ---
 title: AssignmentDelete
-page_title: AssignmentDelete | RadGantt for ASP.NET AJAX Documentation
-description: AssignmentDelete
+page_title: AssignmentDelete - RadGantt
+description: Check our Web Forms article about AssignmentDelete.
 slug: gantt/server-side-programming/events/assignmentdelete
 tags: assignmentdelete
 published: True

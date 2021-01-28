@@ -1,7 +1,7 @@
 ---
 title: Adding Images to Steps
-page_title: Adding Images to Steps | RadWizard for ASP.NET AJAX Documentation
-description: Adding Images to Steps
+page_title: Adding Images to Steps - RadWizard
+description: Check our Web Forms article about Adding Images to Steps.
 slug: wizard/appearance-and-styling/adding-images-to-steps
 tags: adding,images,to,steps
 published: True

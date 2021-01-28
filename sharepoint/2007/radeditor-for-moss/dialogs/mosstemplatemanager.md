@@ -1,7 +1,7 @@
 ---
 title: MOSSTemplateManager
-page_title: MOSSTemplateManager | UI for ASP.NET AJAX Documentation
-description: MOSSTemplateManager
+page_title: MOSSTemplateManager
+description: Check our Web Forms article about MOSSTemplateManager.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/mosstemplatemanager
 tags: mosstemplatemanager
 published: True

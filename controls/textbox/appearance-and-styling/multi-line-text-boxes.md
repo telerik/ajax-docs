@@ -1,7 +1,7 @@
 ---
 title: Multi-Line Text Boxes
-page_title: Multi-Line Text Boxes | RadTextBox for ASP.NET AJAX Documentation
-description: Multi-Line Text Boxes
+page_title: Multi-Line Text Boxes - RadTextBox
+description: Check our Web Forms article about Multi-Line Text Boxes.
 slug: radtextbox/appearance-and-styling/multi-line-text-boxes
 tags: multi-line,text,boxes
 published: True

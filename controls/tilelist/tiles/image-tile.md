@@ -1,7 +1,7 @@
 ---
 title: Image Tile
-page_title: Image Tile | RadTile for ASP.NET AJAX Documentation
-description: Image Tile
+page_title: Image Tile - RadTile
+description: Check our Web Forms article about Image Tile.
 slug: tilelist/tiles/image-tile
 tags: image,tile
 published: True

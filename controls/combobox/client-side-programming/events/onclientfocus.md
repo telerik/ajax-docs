@@ -1,7 +1,7 @@
 ---
 title: OnClientFocus
-page_title: OnClientFocus | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientFocus
+page_title: OnClientFocus - RadComboBox
+description: Check our Web Forms article about OnClientFocus.
 slug: combobox/client-side-programming/events/onclientfocus
 tags: onclientfocus
 published: True

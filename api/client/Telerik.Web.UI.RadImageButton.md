@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadImageButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadImageButton
 slug: Telerik.Web.UI.RadImageButton
 ---

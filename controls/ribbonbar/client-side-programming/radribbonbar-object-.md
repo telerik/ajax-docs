@@ -1,7 +1,7 @@
 ---
 title: RadRibbonBar Object 
-page_title: RadRibbonBar Object  | RadRibbonBar for ASP.NET AJAX Documentation
-description: RadRibbonBar Object 
+page_title: RadRibbonBar Object - RadRibbonBar
+description: Check our Web Forms article about RadRibbonBar Object.
 slug: ribbonbar/client-side-programming/radribbonbar-object-
 tags: radribbonbar,object,
 published: True

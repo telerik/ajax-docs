@@ -1,7 +1,7 @@
 ---
 title: Page Settings
-page_title: Page Settings | RadScheduler for ASP.NET AJAX Documentation
-description: Page Settings
+page_title: Page Settings - RadScheduler
+description: Check our Web Forms article about Page Settings.
 slug: scheduler/export/pdf/page-settings
 tags: page,settings
 published: True

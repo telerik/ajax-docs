@@ -1,7 +1,7 @@
 ---
 title: OnClientSlideRangeStart
-page_title: OnClientSlideRangeStart | RadSlider for ASP.NET AJAX Documentation
-description: OnClientSlideRangeStart
+page_title: OnClientSlideRangeStart - RadSlider
+description: Check our Web Forms article about OnClientSlideRangeStart.
 slug: slider/client-side-programming/events/onclientsliderangestart
 tags: onclientsliderangestart
 published: True

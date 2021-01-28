@@ -1,7 +1,7 @@
 ---
 title: OnClientInit
-page_title: OnClientInit | RadEditor for ASP.NET AJAX Documentation
-description: OnClientInit
+page_title: OnClientInit - RadEditor
+description: Check our Web Forms article about OnClientInit.
 slug: editor/client-side-programming/events/onclientinit
 tags: onclientinit
 published: True

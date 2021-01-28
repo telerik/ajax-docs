@@ -1,7 +1,7 @@
 ---
 title: Selecting Cells and Columns
-page_title: Selecting Cells and Columns | RadGrid for ASP.NET AJAX Documentation
-description: Selecting Cells and Columns
+page_title: Selecting Cells and Columns - RadGrid
+description: Check our Web Forms article about Selecting Cells and Columns.
 slug: grid/functionality/selecting/selecting-cells-and-columns
 tags: selecting,cells,and,columns
 published: True

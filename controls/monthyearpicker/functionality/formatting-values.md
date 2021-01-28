@@ -1,7 +1,7 @@
 ---
 title: Formatting Values
-page_title: Formatting Values | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Formatting Values
+page_title: Formatting Values - RadMonthYearPicker
+description: Check our Web Forms article about Formatting Values.
 slug: monthyearpicker/functionality/formatting-values
 tags: formatting,values
 published: True

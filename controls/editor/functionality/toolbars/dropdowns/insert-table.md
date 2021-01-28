@@ -1,7 +1,7 @@
 ---
 title: Insert Table
-page_title: Insert Table | RadEditor for ASP.NET AJAX Documentation
-description: Insert Table
+page_title: Insert Table - RadEditor
+description: Check our Web Forms article about Insert Table.
 slug: editor/functionality/toolbars/dropdowns/insert-table
 tags: insert,table
 published: True

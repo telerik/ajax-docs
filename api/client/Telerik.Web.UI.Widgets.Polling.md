@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Widgets.Polling
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Widgets.Polling
 slug: Telerik.Web.UI.Widgets.Polling
 ---

@@ -1,7 +1,7 @@
 ---
 title: OnClientResponseEnd
-page_title: OnClientResponseEnd | RadTooltip for ASP.NET AJAX Documentation
-description: OnClientResponseEnd
+page_title: OnClientResponseEnd - RadTooltip
+description: Check our Web Forms article about OnClientResponseEnd.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseend
 tags: onclientresponseend
 published: True

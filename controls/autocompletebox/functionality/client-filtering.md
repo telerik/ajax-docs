@@ -1,7 +1,7 @@
 ---
 title: Client Filtering
-page_title: Client Filtering | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Client Filtering
+page_title: Client Filtering - RadAutoCompleteBox
+description: Check our Web Forms article about Client Filtering.
 slug: autocompletebox/functionality/client-filtering
 tags: client,filtering
 published: True

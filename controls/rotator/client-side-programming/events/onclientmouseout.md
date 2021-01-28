@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | RadRotator for ASP.NET AJAX Documentation
-description: OnClientMouseOut
+page_title: OnClientMouseOut - RadRotator
+description: Check our Web Forms article about OnClientMouseOut.
 slug: rotator/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True

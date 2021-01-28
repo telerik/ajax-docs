@@ -1,7 +1,7 @@
 ---
 title: Known Error Messages
-page_title: Known Error Messages | RadUpload for ASP.NET AJAX Documentation
-description: Known Error Messages
+page_title: Known Error Messages - RadUpload
+description: Check our Web Forms article about Known Error Messages.
 slug: upload/troubleshooting/known-error-messages
 tags: known,error,messages
 published: True

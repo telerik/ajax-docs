@@ -1,7 +1,7 @@
 ---
 title: set_selected()
-page_title: set_selected() | RadGrid for ASP.NET AJAX Documentation
-description: set_selected()
+page_title: set_selected() - RadGrid
+description: Check our Web Forms article about set_selected().
 slug: grid/client-side-programming/griddataitem-object/properties/set_selected()
 tags: set_selected()
 published: True

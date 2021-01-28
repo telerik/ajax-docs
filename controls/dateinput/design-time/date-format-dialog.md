@@ -1,7 +1,7 @@
 ---
 title: Date Format Dialog
-page_title: Date Format Dialog | RadDateInput for ASP.NET AJAX Documentation
-description: Date Format Dialog
+page_title: Date Format Dialog - RadDateInput
+description: Check our Web Forms article about Date Format Dialog.
 slug: raddateinput/design-time/date-format-dialog
 tags: date,format,dialog
 published: True

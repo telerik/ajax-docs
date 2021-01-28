@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Programmatic Creation
+page_title: Programmatic Creation - RadMediaPlayer
+description: Check our Web Forms article about Programmatic Creation.
 slug: mediaplayer/server-side-programming/programmatic-creation
 tags: programmatic,creation
 published: True

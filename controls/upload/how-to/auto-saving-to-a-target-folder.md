@@ -1,7 +1,7 @@
 ---
 title: Auto Saving to a Target Folder
-page_title: Auto Saving to a Target Folder | RadUpload for ASP.NET AJAX Documentation
-description: Auto Saving to a Target Folder
+page_title: Auto Saving to a Target Folder - RadUpload
+description: Check our Web Forms article about Auto Saving to a Target Folder.
 slug: upload/how-to/auto-saving-to-a-target-folder
 tags: auto,saving,to,a,target,folder
 published: True

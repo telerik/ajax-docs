@@ -1,7 +1,7 @@
 ---
 title: Customize Control Behavior
-page_title: Customize Control Behavior | UI for ASP.NET AJAX Documentation
-description: Customize Control Behavior
+page_title: Customize Control Behavior
+description: Check our Web Forms article about Customize Control Behavior.
 slug: getting-started/customize-control-behavior
 tags: Customize Control Behavior
 published: True

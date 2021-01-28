@@ -1,7 +1,7 @@
 ---
 title: OnClientSlideStart
-page_title: OnClientSlideStart | RadSlider for ASP.NET AJAX Documentation
-description: OnClientSlideStart
+page_title: OnClientSlideStart - RadSlider
+description: Check our Web Forms article about OnClientSlideStart.
 slug: slider/client-side-programming/events/onclientslidestart
 tags: onclientslidestart
 published: True

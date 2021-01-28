@@ -1,7 +1,7 @@
 ---
 title: OnActionClick
-page_title: OnActionClick | RadChat for ASP.NET AJAX Documentation
-description: OnActionClick
+page_title: OnActionClick - RadChat
+description: Check our Web Forms article about OnActionClick.
 slug: chat/client-side-programming/events/onactionclick
 tags: onactionclick
 published: True

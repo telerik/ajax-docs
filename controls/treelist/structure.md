@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadTreeList for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadTreeList
+description: Check our Web Forms article about Structure.
 slug: treelist/structure
 tags: structure
 published: True

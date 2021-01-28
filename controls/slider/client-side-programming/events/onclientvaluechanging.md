@@ -1,7 +1,7 @@
 ---
 title: OnClientValueChanging
-page_title: OnClientValueChanging | RadSlider for ASP.NET AJAX Documentation
-description: OnClientValueChanging
+page_title: OnClientValueChanging - RadSlider
+description: Check our Web Forms article about OnClientValueChanging.
 slug: slider/client-side-programming/events/onclientvaluechanging
 tags: onclientvaluechanging
 published: True

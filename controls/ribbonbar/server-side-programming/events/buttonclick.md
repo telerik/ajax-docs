@@ -1,7 +1,7 @@
 ---
 title: ButtonClick
-page_title: ButtonClick | RadRibbonBar for ASP.NET AJAX Documentation
-description: ButtonClick
+page_title: ButtonClick - RadRibbonBar
+description: Check our Web Forms article about ButtonClick.
 slug: ribbonbar/server-side-programming/events/buttonclick
 tags: buttonclick
 published: True

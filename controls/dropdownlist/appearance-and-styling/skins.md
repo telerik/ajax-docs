@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadDropDownList for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadDropDownList
+description: Check our Web Forms article about Skins.
 slug: dropdownlist/appearance-and-styling/skins
 tags: skins
 published: True

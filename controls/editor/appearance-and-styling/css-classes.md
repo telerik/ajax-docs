@@ -1,7 +1,7 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | RadEditor for ASP.NET AJAX Documentation
-description: CSS Classes
+page_title: CSS Classes - RadEditor
+description: Check our Web Forms article about CSS Classes.
 slug: editor/appearance-and-styling/css-classes
 tags: css,classes
 published: True

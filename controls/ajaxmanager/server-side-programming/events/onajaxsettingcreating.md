@@ -1,7 +1,7 @@
 ---
 title: OnAjaxSettingCreating
-page_title: OnAjaxSettingCreating | RadAjax for ASP.NET AJAX Documentation
-description: OnAjaxSettingCreating
+page_title: OnAjaxSettingCreating
+description: Check our Web Forms article about OnAjaxSettingCreating.
 slug: ajaxmanager/server-side-programming/events/onajaxsettingcreating
 previous_url: ajax/server-side-programming/events/onajaxsettingcreating
 tags: onajaxsettingcreating

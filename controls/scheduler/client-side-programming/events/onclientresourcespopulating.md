@@ -1,7 +1,7 @@
 ---
 title: OnClientResourcesPopulating
-page_title: OnClientResourcesPopulating | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientResourcesPopulating
+page_title: OnClientResourcesPopulating - RadScheduler
+description: Check our Web Forms article about OnClientResourcesPopulating.
 slug: scheduler/client-side-programming/events/onclientresourcespopulating
 tags: onclientresourcespopulating
 published: True

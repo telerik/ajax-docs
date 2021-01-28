@@ -1,7 +1,7 @@
 ---
 title: OnInitialize
-page_title: OnInitialize | RadProgressBar for ASP.NET AJAX Documentation
-description: OnInitialize
+page_title: OnInitialize - RadProgressBar
+description: Check our Web Forms article about OnInitialize.
 slug: progressbar/client-side-programming/events/oninitialize
 tags: oninitialize
 published: True

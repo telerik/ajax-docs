@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SplitterPaneBase
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SplitterPaneBase
 slug: Telerik.Web.UI.SplitterPaneBase
 ---

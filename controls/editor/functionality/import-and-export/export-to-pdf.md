@@ -1,7 +1,7 @@
 ---
 title: Export to PDF
-page_title: Export to PDF | RadEditor for ASP.NET AJAX Documentation
-description: Export to PDF
+page_title: Export to PDF - RadEditor
+description: Check our Web Forms article about Export to PDF.
 slug: editor/functionality/import-and-export/export-to-pdf
 tags: export,to,pdf
 published: True

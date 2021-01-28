@@ -1,7 +1,7 @@
 ---
 title: Controlling Content Shared in Facebook
-page_title: Controlling Content Shared in Facebook | RadSocialShare for ASP.NET AJAX Documentation
-description: Controlling Content Shared in Facebook
+page_title: Controlling Content Shared in Facebook - RadSocialShare
+description: Check our Web Forms article about Controlling Content Shared in Facebook.
 slug: socialshare/troubleshooting/controlling-content-shared-in-facebook
 tags: controlling,content,shared,in,facebook
 published: True

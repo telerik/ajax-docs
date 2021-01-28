@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentDeleting
-page_title: OnClientAppointmentDeleting | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentDeleting
+page_title: OnClientAppointmentDeleting - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentDeleting.
 slug: scheduler/client-side-programming/events/onclientappointmentdeleting
 tags: onclientappointmentdeleting
 published: True

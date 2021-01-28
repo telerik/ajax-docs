@@ -1,7 +1,7 @@
 ---
 title: Set Different Styles to Appointments 
-page_title: Set Different Styles to Appointments  | RadScheduler for ASP.NET AJAX Documentation
-description: Set Different Styles to Appointments 
+page_title: Set Different Styles to Appointments - RadScheduler
+description: Check our Web Forms article about Set Different Styles to Appointments.
 slug: scheduler/how-to/set-different-styles-to-appointments-
 tags: set,different,styles,to,appointments,
 published: True

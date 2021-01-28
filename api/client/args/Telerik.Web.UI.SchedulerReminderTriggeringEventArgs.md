@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerReminderTriggeringEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerReminderTriggeringEventArgs
 slug: Telerik.Web.UI.SchedulerReminderTriggeringEventArgs
 ---

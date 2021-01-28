@@ -1,7 +1,7 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | RadComboBox for ASP.NET AJAX Documentation
-description: Binding to OData
+page_title: Binding to OData - RadComboBox
+description: Check our Web Forms article about Binding to OData.
 slug: combobox/data-binding/binding-to-odata
 tags: binding,to,odata
 published: True

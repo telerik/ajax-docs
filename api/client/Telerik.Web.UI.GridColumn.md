@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridColumn
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridColumn
 slug: Telerik.Web.UI.GridColumn
 ---

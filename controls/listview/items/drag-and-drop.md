@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop
-page_title: Drag and Drop | RadListView for ASP.NET AJAX Documentation
-description: Drag and Drop
+page_title: Drag and Drop - RadListView
+description: Check our Web Forms article about Drag and Drop.
 slug: listview/items/drag-and-drop
 tags: drag,and,drop
 published: True

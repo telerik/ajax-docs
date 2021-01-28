@@ -1,7 +1,7 @@
 ---
 title: OnClientTaskMoveStart
-page_title: OnClientTaskMoveStart | RadGantt for ASP.NET AJAX Documentation
-description: OnClientTaskMoveStart
+page_title: OnClientTaskMoveStart - RadGantt
+description: Check our Web Forms article about OnClientTaskMoveStart.
 slug: gantt/client-side-programming/events/onclienttaskmovestart
 tags: onclienttaskmovestart
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDataPager Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadDataPager Overview
+description: Check our Web Forms article about Overview.
 slug: datapager/overview
 tags: overview
 published: True

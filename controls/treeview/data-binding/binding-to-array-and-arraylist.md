@@ -1,7 +1,7 @@
 ---
 title: Binding to Array and ArrayList
-page_title: Binding to Array and ArrayList | RadTreeView for ASP.NET AJAX Documentation
-description: Binding to Array and ArrayList
+page_title: Binding to Array and ArrayList - RadTreeView
+description: Check our Web Forms article about Binding to Array and ArrayList.
 slug: treeview/data-binding/binding-to-array-and-arraylist
 tags: binding,to,array,and,arraylist
 published: True

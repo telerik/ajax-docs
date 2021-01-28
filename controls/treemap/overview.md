@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadTreeMap Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadTreeMap Overview
+description: Check our Web Forms article about Overview.
 slug: treemap/overview
 tags: overview
 published: True

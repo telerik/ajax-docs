@@ -1,7 +1,7 @@
 ---
 title: Icons
-page_title: Icons  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Icons 
+page_title: Icons - RadBreadcrumb
+description: Check our Web Forms article about Icons.
 slug: breadcrumb/functionality/icons
 tags: icons
 published: True

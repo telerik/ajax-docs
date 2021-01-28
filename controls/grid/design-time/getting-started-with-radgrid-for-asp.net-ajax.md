@@ -1,7 +1,7 @@
 ---
 title: Getting Started with RadGrid for ASP.NET AJAX
-page_title: Getting Started with RadGrid for ASP.NET AJAX | RadGrid for ASP.NET AJAX Documentation
-description: Getting Started with RadGrid for ASP.NET AJAX
+page_title: Getting Started with RadGrid - RadGrid
+description: Check our Web Forms article about Getting Started with RadGrid for ASP.NET AJAX.
 slug: grid/design-time/getting-started-with-radgrid-for-asp.net-ajax
 tags: getting,started,with,radgrid,for,asp.net,ajax
 published: True

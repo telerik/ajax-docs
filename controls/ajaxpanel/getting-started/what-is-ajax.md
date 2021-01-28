@@ -1,7 +1,7 @@
 ---
 title: What is AJAX
-page_title: What is AJAX | RadAjax for ASP.NET AJAX Documentation
-description: What is AJAX
+page_title: What is AJAX
+description: Check our Web Forms article about What is AJAX.
 slug: ajaxpanel/getting-started/what-is-ajax
 tags: radajax, ajax
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Tips and Tricks for Ajaxifying Specific Controls
-page_title: Tips and Tricks for Ajaxifying Specific Controls | RadAjax for ASP.NET AJAX Documentation
-description: Tips and Tricks for Ajaxifying Specific Controls
+page_title: Tips and Tricks for Ajaxifying Specific Controls
+description: Check our Web Forms article about Tips and Tricks for Ajaxifying Specific Controls.
 slug: ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
 previous_url: ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
 tags: tips,and,tricks,for,ajaxifying,specific,controls

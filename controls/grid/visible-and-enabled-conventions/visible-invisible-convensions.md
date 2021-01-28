@@ -1,7 +1,7 @@
 ---
 title: Visible Invisible Conventions
-page_title: Visible Invisible Conventions | RadGrid for ASP.NET AJAX Documentation
-description: Visible Invisible Conventions
+page_title: Visible Invisible Conventions - RadGrid
+description: Check our Web Forms article about Visible Invisible Conventions.
 slug: grid/visible-and-enabled-conventions/visible-invisible-conventions
 tags: visible, invisible, conventions
 published: True

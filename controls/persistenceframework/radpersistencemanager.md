@@ -1,7 +1,7 @@
 ---
 title: RadPersistenceManager
-page_title: RadPersistenceManager | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: RadPersistenceManager
+page_title: RadPersistenceManager - RadPersistenceFramework
+description: Check our Web Forms article about RadPersistenceManager.
 slug: persistenceframework/radpersistencemanager
 tags: radpersistencemanager
 published: True

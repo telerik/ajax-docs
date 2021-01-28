@@ -1,7 +1,7 @@
 ---
 title: RadTimePicker Object
-page_title: Server-Side Object | RadTimePicker for ASP.NET AJAX Documentation
-description: RadTimePicker Server-Side Object
+page_title: Server-Side Object - RadTimePicker
+description: Check our Web Forms article about RadTimePicker Server-Side Object.
 slug: timepicker/server-side-programming/server-side-objects
 tags: server-side,objects
 published: True

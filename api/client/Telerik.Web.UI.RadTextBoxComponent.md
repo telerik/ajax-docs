@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTextBoxComponent
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTextBoxComponent
 slug: Telerik.Web.UI.RadTextBoxComponent
 ---

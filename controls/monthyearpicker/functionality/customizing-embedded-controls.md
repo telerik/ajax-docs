@@ -1,7 +1,7 @@
 ---
 title: Customizing the Embedded Controls
-page_title: Customizing the Embedded Controls | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Customizing the Embedded Controls
+page_title: Customizing the Embedded Controls - RadMonthYearPicker
+description: Check our Web Forms article about Customizing the Embedded Controls.
 slug: monthyearpicker/functionality/customizing-embedded-controls
 tags: customizing,embedded,controls
 published: True

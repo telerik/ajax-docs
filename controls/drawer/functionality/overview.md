@@ -1,7 +1,7 @@
 ---
 title: Functionality Overview
-page_title: Functionality Overview | RadDrawer for ASP.NET AJAX Documentation
-description: Functionality Overview
+page_title: Functionality Overview - RadDrawer
+description: Check our Web Forms article about Functionality Overview.
 slug: drawer/functionality/overview
 tags: overview
 published: True

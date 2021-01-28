@@ -1,7 +1,7 @@
 ---
 title: Customizing the Appearance of Auto-generated Action Buttons
-page_title: Customizing the Appearance of Auto-generated Action Buttons | RadGrid for ASP.NET AJAX Documentation
-description: Customizing the Appearance of Auto-generated Action Buttons
+page_title: Customizing the Appearance of Auto-generated Action Buttons - RadGrid
+description: Check our Web Forms article about Customizing the Appearance of Auto-generated Action Buttons.
 slug: grid/how-to/data-editing/customizing-the-appearance-of-auto-generated-action-buttons
 previous_url: controls/grid/data-editing/how-to/customizing-the-appearance-of-auto-generated-action-buttons
 tags: customizing,the,appearance,of,auto-generated,action,buttons

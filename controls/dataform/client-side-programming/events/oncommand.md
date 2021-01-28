@@ -1,7 +1,7 @@
 ---
 title: OnCommand
-page_title: OnCommand | RadDataForm for ASP.NET AJAX 
-description: OnCommand
+page_title: OnCommand - RadDataForm
+description: Check our Web Forms article about OnCommand.
 slug: dataform/client-side-programming/events/oncommand
 tags: oncommand
 published: True

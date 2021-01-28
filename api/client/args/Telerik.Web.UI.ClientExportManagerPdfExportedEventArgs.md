@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs
 slug: Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs
 ---

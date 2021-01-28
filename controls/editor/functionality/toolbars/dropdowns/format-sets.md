@@ -1,7 +1,7 @@
 ---
 title: Format Sets
-page_title: Format Sets | RadEditor for ASP.NET AJAX Documentation
-description: Format Sets
+page_title: Format Sets - RadEditor
+description: Check our Web Forms article about Format Sets.
 slug: editor/functionality/toolbars/dropdowns/format-sets
 tags: format,sets
 published: True

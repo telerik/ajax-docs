@@ -1,7 +1,7 @@
 ---
 title: OnClientDataLoadingError
-page_title: OnClientDataLoadingError | RadTile for ASP.NET AJAX Documentation
-description: OnClientDataLoadingError
+page_title: OnClientDataLoadingError - RadTile
+description: Check our Web Forms article about OnClientDataLoadingError.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloadingerror
 tags: onclientdataloadingerror
 published: True

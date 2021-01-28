@@ -1,7 +1,7 @@
 ---
 title: Launching on Client-side Event
-page_title: Launching on Client-side Event | RadSpell for ASP.NET AJAX Documentation
-description: Launching on Client-side Event
+page_title: Launching on Client-side Event - RadSpell
+description: Check our Web Forms article about Launching on Client-side Event.
 slug: spell/how-to/launching-on-client-side-event
 tags: launching,on,client-side,event
 published: True

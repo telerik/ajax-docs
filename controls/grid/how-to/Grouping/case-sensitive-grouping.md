@@ -1,7 +1,7 @@
 ---
 title: Case Sensitive Grouping
-page_title: Case Sensitive Grouping | RadGrid for ASP.NET AJAX Documentation
-description: Case Sensitive Grouping
+page_title: Case Sensitive Grouping - RadGrid
+description: Check our Web Forms article about Case Sensitive Grouping.
 slug: grid/functionality/grouping/how-to/case-sensitive-grouping
 tags: case,sensitive,grouping
 published: True

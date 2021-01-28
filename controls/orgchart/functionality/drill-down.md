@@ -1,7 +1,7 @@
 ---
 title: Drill Down
-page_title: Drill Down | RadOrgChart for ASP.NET AJAX Documentation
-description: Drill Down
+page_title: Drill Down - RadOrgChart
+description: Check our Web Forms article about Drill Down.
 slug: orgchart/functionality/drill-down
 tags: drill,down
 published: True

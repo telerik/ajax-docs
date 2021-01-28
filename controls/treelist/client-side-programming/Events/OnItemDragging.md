@@ -1,7 +1,7 @@
 ---
 title: OnItemDragging
-page_title: OnItemDragging | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemDragging Event
+page_title: OnItemDragging - RadTreeList
+description: Check our Web Forms article about OnItemDragging Event.
 slug: treelist/client-side-programming/Events/OnItemDragging
 tags: events,OnItemDragging
 published: True

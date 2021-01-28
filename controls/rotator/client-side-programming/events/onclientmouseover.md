@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadRotator for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadRotator
+description: Check our Web Forms article about OnClientMouseOver.
 slug: rotator/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

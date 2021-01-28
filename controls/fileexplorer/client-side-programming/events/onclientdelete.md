@@ -1,7 +1,7 @@
 ---
 title: OnClientDelete
-page_title: OnClientDelete | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientDelete
+page_title: OnClientDelete - RadFileExplorer
+description: Check our Web Forms article about OnClientDelete.
 slug: fileexplorer/client-side-programming/events/onclientdelete
 tags: onclientdelete
 published: True

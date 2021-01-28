@@ -1,7 +1,7 @@
 ---
 title: Scrolling to a Node When Page First Loads
-page_title: Scrolling to a Node When Page First Loads | RadTreeView for ASP.NET AJAX Documentation
-description: Scrolling to a Node When Page First Loads
+page_title: Scrolling to a Node When Page First Loads - RadTreeView
+description: Check our Web Forms article about Scrolling to a Node When Page First Loads.
 slug: treeview/application-scenarios/client-side-programming/scrolling-to-a-node-when-page-first-loads
 tags: scrolling,to,a,node,when,page,first,loads
 published: True

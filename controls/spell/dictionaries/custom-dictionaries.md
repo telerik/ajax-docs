@@ -1,7 +1,7 @@
 ---
 title: Custom Dictionaries
-page_title: Custom Dictionaries | RadSpell for ASP.NET AJAX Documentation
-description: Custom Dictionaries
+page_title: Custom Dictionaries - RadSpell
+description: Check our Web Forms article about Custom Dictionaries.
 slug: spell/dictionaries/custom-dictionaries
 tags: custom,dictionaries
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Localizing the TreeList Messages
-page_title: Localizing the TreeList Messages | RadTreeList for ASP.NET AJAX Documentation
-description: Localizing the TreeList Messages
+page_title: Localizing the TreeList Messages - RadTreeList
+description: Check our Web Forms article about Localizing the TreeList Messages.
 slug: treelist/accessibility-and-internationalization/localizing-the-treelist-messages
 tags: localizing,the,treelist,messages
 published: True

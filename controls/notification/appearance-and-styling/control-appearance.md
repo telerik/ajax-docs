@@ -1,7 +1,7 @@
 ---
 title: Control Appearance
-page_title: Control Appearance | RadNotification for ASP.NET AJAX Documentation
-description: Control Appearance
+page_title: Control Appearance - RadNotification
+description: Check our Web Forms article about Control Appearance.
 slug: notification/appearance-and-styling/control-appearance
 tags: control,appearance
 published: True

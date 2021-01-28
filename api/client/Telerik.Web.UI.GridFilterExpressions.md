@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridFilterExpressions
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridFilterExpressions
 slug: Telerik.Web.UI.GridFilterExpressions
 ---

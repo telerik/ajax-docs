@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadComboBoxRequestCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadComboBoxRequestCancelEventArgs
 slug: Telerik.Web.UI.RadComboBoxRequestCancelEventArgs
 ---

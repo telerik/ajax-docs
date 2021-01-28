@@ -1,7 +1,7 @@
 ---
 title: Uploading Files with AJAX
-page_title: Uploading Files with AJAX | RadUpload for ASP.NET AJAX Documentation
-description: Uploading Files with AJAX
+page_title: Uploading Files with AJAX - RadUpload
+description: Check our Web Forms article about Uploading Files with AJAX.
 slug: upload/uploading-files/uploading-files-with-ajax
 tags: uploading,files,with,ajax
 published: True

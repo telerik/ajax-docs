@@ -1,7 +1,7 @@
 ---
 title: Declarative Data Source
-page_title: Declarative Data Source | RadPivotGrid for ASP.NET AJAX Documentation
-description: Declarative Data Source
+page_title: Declarative Data Source - RadPivotGrid
+description: Check our Web Forms article about Declarative Data Source.
 slug: pivotgrid/data-binding/declarative-data-source
 tags: declarative,data,source
 published: True

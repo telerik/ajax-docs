@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.NotificationScrolling
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.NotificationScrolling
 slug: Telerik.Web.UI.NotificationScrolling
 ---

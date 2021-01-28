@@ -1,7 +1,7 @@
 ---
 title: Installing the Telerik Controls from MSI File
-page_title: Installing the Telerik Controls from MSI File | UI for ASP.NET AJAX Documentation
-description: Installing the Telerik Controls from MSI File
+page_title: Installing the Telerik Controls from MSI File
+description: Check our Web Forms article about Installing the Telerik Controls from MSI File.
 slug: introduction/installation/installing-the-telerik-controls-from-msi-file
 tags: installing,the,telerik,controls,from,msi,file
 published: True

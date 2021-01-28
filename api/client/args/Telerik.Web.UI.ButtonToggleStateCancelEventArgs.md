@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ButtonToggleStateCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonToggleStateCancelEventArgs
 slug: Telerik.Web.UI.ButtonToggleStateCancelEventArgs
 ---

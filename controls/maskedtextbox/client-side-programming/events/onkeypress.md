@@ -1,7 +1,7 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnKeyPress
+page_title: OnKeyPress - RadMaksedTextBox
+description: Check our Web Forms article about OnKeyPress.
 slug: radmaskedtextbox/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True

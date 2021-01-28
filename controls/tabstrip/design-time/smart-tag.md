@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadTabStrip for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadTabStrip
+description: Check our Web Forms article about Smart Tag.
 slug: tabstrip/design-time/smart-tag
 tags: smart,tag
 published: True

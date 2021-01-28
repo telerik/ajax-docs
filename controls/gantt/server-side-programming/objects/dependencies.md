@@ -1,7 +1,7 @@
 ---
 title: Dependency
-page_title: Dependency | RadGantt for ASP.NET AJAX Documentation
-description: Dependency
+page_title: Dependency - RadGantt
+description: Check our Web Forms article about Dependency.
 slug: gantt/server-side-programming/objects/dependencies
 tags: dependencies
 published: True

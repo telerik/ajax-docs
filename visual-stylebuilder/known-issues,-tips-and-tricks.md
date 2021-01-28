@@ -1,7 +1,7 @@
 ---
 title: Known Issues, Tips and Tricks
-page_title: Known Issues, Tips and Tricks | UI for ASP.NET AJAX Documentation
-description: Known Issues, Tips and Tricks
+page_title: Known Issues, Tips and Tricks
+description: Check our Web Forms article about Known Issues, Tips and Tricks.
 slug: introduction/visual-stylebuilder/known-issues,-tips-and-tricks
 tags: known,issues,,tips,and,tricks
 published: True

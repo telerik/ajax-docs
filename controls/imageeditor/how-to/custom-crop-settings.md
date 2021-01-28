@@ -1,7 +1,7 @@
 ---
 title: Custom Crop Settings
-page_title: Custom Crop Settings | RadImageEditor for ASP.NET AJAX Documentation
-description: Custom Crop Settings
+page_title: Custom Crop Settings - RadImageEditor
+description: Check our Web Forms article about Custom Crop Settings.
 slug: imageeditor/how-to/custom-crop-settings
 tags: custom,crop,settings
 published: True

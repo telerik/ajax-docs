@@ -1,7 +1,7 @@
 ---
 title: OnRowShowing
-page_title: OnRowShowing | RadGrid for ASP.NET AJAX Documentation
-description: OnRowShowing
+page_title: OnRowShowing - RadGrid
+description: Check our Web Forms article about OnRowShowing.
 slug: grid/client-side-programming/events/onrowshowing
 tags: onrowshowing
 published: True

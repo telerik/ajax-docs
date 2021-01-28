@@ -1,7 +1,7 @@
 ---
 title: OnDataFormDestroying
-page_title: OnDataFormDestroying | RadDataForm for ASP.NET AJAX 
-description: OnDataFormDestroying
+page_title: OnDataFormDestroying - RadDataForm
+description: Check our Web Forms article about OnDataFormDestroying.
 slug: dataform/client-side-programming/events/ondataformdestroying
 tags: ondataformdestroying
 published: True

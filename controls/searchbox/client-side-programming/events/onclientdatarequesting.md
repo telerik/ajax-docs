@@ -1,7 +1,7 @@
 ---
 title: OnClientDataRequesting
-page_title: OnClientDataRequesting | RadSearchBox for ASP.NET AJAX Documentation
-description: OnClientDataRequesting
+page_title: OnClientDataRequesting - RadSearchBox
+description: Check our Web Forms article about OnClientDataRequesting.
 slug: searchbox/client-side-programming/events/onclientdatarequesting
 tags: onclientdatarequesting
 published: True

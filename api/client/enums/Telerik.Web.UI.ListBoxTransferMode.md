@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxTransferMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxTransferMode
 slug: Telerik.Web.UI.ListBoxTransferMode
 ---

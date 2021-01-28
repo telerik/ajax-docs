@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadAjaxManager Overview | RadAjax for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadAjaxManager Overview
+description: Check our Web Forms article about Overview.
 slug: ajaxmanager/overview
 previous_url: ajax/radajaxmanager/overview
 tags: overview

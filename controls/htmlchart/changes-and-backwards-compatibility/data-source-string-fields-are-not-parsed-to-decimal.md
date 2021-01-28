@@ -1,7 +1,7 @@
 ---
 title: Data Source String Fields Are Not Parsed to Decimal
-page_title: Data Source String Fields Are Not Parsed to Decimal | RadHtmlChart for ASP.NET AJAX Documentation
-description: Data Source String Fields Are Not Parsed to Decimal
+page_title: Data Source String Fields Are Not Parsed to Decimal - RadHtmlChart
+description: Check our Web Forms article about Data Source String Fields Are Not Parsed to Decimal.
 slug: htmlchart/changes-and-backwards-compatibility/data-source-string-fields-are-not-parsed-to-decimal
 tags: data,source,string,fields,are,not,parsed,to,decimal
 published: True

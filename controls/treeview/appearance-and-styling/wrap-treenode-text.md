@@ -1,7 +1,7 @@
 ---
 title: Wrap TreeNode Text
-page_title: Wrap TreeNode Text | RadTreeView for ASP.NET AJAX Documentation
-description: Wrap TreeNode Text
+page_title: Wrap TreeNode Text - RadTreeView
+description: Check our Web Forms article about Wrap TreeNode Text.
 slug: treeview/appearance-and-styling/wrap-treenode-text
 tags: wrap,treenode,text
 published: True

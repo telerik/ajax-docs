@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Events Overview | RadRating for ASP.NET AJAX Documentation
-description: Events Overview
+page_title: Events Overview - RadRating
+description: Check our Web Forms article about Events Overview.
 slug: rating/client-side-programming/events/overview
 tags: overview
 published: True

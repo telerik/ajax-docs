@@ -1,7 +1,7 @@
 ---
 title: Single Click Button
-page_title: Single Click Button | RadButton for ASP.NET AJAX Documentation
-description: Single Click Button
+page_title: Single Click Button - RadButton
+description: Check our Web Forms article about Single Click Button.
 slug: button/functionality/single-click-button
 tags: single,click,button
 published: True

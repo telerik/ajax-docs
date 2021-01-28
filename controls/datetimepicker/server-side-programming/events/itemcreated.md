@@ -1,7 +1,7 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | RadDateTimePicker for ASP.NET AJAX Documentation
-description: RadDateTimePicker ItemCreated
+page_title: ItemCreated - RadDateTimePicker
+description: Check our Web Forms article about RadDateTimePicker ItemCreated.
 slug: datetimepicker/server-side-programming/events/itemcreated
 tags: itemcreated
 published: True

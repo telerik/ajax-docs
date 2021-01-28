@@ -1,7 +1,7 @@
 ---
 title: Shapes
-page_title: Shapes | RadDiagram for ASP.NET AJAX Documentation
-description: Shapes
+page_title: Shapes - RadDiagram
+description: Check our Web Forms article about Shapes.
 slug: diagram/data-binding/server-side/shapes
 tags: shapes
 published: True

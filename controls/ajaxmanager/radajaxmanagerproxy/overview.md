@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadAjaxManagerProxy Overview | RadAjax for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadAjaxManagerProxy Overview
+description: Check our Web Forms article about Overview.
 slug: ajaxmanager/radajaxmanagerproxy/overview
 previous_url: ajax/radajaxmanagerproxy/overview
 tags: overview

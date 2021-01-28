@@ -1,7 +1,7 @@
 ---
 title: Elastic Capabilities
-page_title: Elastic Capabilities | RadTileList for ASP.NET AJAX Documentation
-description: Elastic Capabilities
+page_title: Elastic Capabilities - RadTileList
+description: Check our Web Forms article about Elastic Capabilities.
 slug: tilelist/mobile-support/elastic-capabilities
 tags: elastic,capabilities
 published: True

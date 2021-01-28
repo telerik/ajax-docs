@@ -1,7 +1,7 @@
 ---
 title: Using a Custom Image Provider
-page_title: Using a Custom Image Provider | RadImageEditor for ASP.NET AJAX Documentation
-description: Using a Custom Image Provider
+page_title: Using a Custom Image Provider - RadImageEditor
+description: Check our Web Forms article about Using a Custom Image Provider.
 slug: imageeditor/functionality/using-a-custom-image-provider
 tags: using,a,custom,image,provider
 published: True

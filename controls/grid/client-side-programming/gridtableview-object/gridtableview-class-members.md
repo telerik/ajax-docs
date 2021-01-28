@@ -1,7 +1,7 @@
 ---
 title: GridTableView Class Members
-page_title: GridTableView Class Members | RadGrid for ASP.NET AJAX Documentation
-description: GridTableView Class Members
+page_title: GridTableView Class Members - RadGrid
+description: Check our Web Forms article about GridTableView Class Members.
 slug: grid/client-side-programming/gridtableview-object/gridtableview-class-members
 tags: gridtableview,class,members
 published: True

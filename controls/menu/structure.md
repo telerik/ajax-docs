@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadMenu for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadMenu
+description: Check our Web Forms article about Structure.
 slug: menu/structure
 tags: structure
 published: True

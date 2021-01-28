@@ -1,8 +1,8 @@
 ---
 title: Remove Outline around Telerik Controls in Chrome
-description:
+description: 
 type: how-to
-page_title: Remove Outline around Telerik Controls in Chrome | Telerik UI for ASP.NET AJAX
+page_title: Remove Outline around Telerik Controls in Chrome
 ticketid: 1471985
 res_type: kb
 ---

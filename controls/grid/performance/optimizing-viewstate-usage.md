@@ -1,7 +1,7 @@
 ---
 title: Optimizing ViewState usage
-page_title: Optimizing ViewState usage | RadGrid for ASP.NET AJAX Documentation
-description: Optimizing ViewState usage
+page_title: Optimizing ViewState usage - RadGrid
+description: Check our Web Forms article about Optimizing ViewState usage.
 slug: grid/performance/optimizing-viewstate-usage
 tags: optimizing,viewstate,usage
 published: True

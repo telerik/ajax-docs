@@ -1,7 +1,7 @@
 ---
 title: Filter Does Not Work when You Tab to the Combobox
-page_title: Filter Does Not Work when You Tab to the Combobox | RadComboBox for ASP.NET AJAX Documentation
-description: Filter Does Not Work when You Tab to the Combobox
+page_title: Filter Does Not Work when You Tab to the Combobox - RadComboBox
+description: Check our Web Forms article about Filter Does Not Work when You Tab to the Combobox.
 slug: combobox/troubleshooting/filter-does-not-work-when-you-tab-to-the-combobox
 tags: filter,does,not,work,when,you,tab,to,the,combobox
 published: True

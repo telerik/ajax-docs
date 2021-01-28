@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ComboBoxCheckAllCheckingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ComboBoxCheckAllCheckingEventArgs
 slug: Telerik.Web.UI.ComboBoxCheckAllCheckingEventArgs
 ---

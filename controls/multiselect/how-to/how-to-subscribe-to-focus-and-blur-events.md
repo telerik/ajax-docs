@@ -1,7 +1,7 @@
 ---
 title: How to Subscribe to Blur Event
-page_title: How to Subscribe to Blur Event | RadMultiSelect for ASP.NET AJAX Documentation
-description: How to Subscribe to Blur Events
+page_title: How to Subscribe to Blur Event - RadMultiSelect
+description: Check our Web Forms article about How to Subscribe to Blur Events.
 slug: multiselect/how-to/how-to-subscribe-to-blur-event
 tags: how,to,subscribe,blur,events
 published: True

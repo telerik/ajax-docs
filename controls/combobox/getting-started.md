@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadComboBox for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadComboBox
+description: Check our Web Forms article about Getting Started.
 slug: combobox/getting-started
 tags: getting,started
 published: True

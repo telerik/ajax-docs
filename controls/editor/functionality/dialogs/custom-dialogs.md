@@ -1,7 +1,7 @@
 ---
 title: Custom Dialogs
-page_title: Custom Dialogs | RadEditor for ASP.NET AJAX Documentation
-description: Custom Dialogs
+page_title: Custom Dialogs - RadEditor
+description: Check our Web Forms article about Custom Dialogs.
 slug: editor/functionality/dialogs/custom-dialogs
 tags: custom,dialogs
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom Task Edit Window
-page_title: Custom Task Edit Window | UI for ASP.NET AJAX Documentation
-description: Custom Task Edit Window
+page_title: Custom Task Edit Window
+description: Check our Web Forms article about Custom Task Edit Window.
 slug: gantt/how-to/custom-task-edit-window
 tags: custom,task,edit,window
 published: True

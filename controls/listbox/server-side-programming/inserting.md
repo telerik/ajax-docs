@@ -1,7 +1,7 @@
 ---
 title: Inserting
-page_title: Inserting | RadListBox for ASP.NET AJAX Documentation
-description: Inserting
+page_title: Inserting - RadListBox
+description: Check our Web Forms article about Inserting.
 slug: listbox/server-side-programming/server-events/inserting
 tags: inserting
 published: True

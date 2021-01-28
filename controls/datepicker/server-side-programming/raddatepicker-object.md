@@ -1,7 +1,7 @@
 ---
 title: RadDatePicker Object
-page_title: RadDatePicker Server-side Object | RadDatePicker for ASP.NET AJAX Documentation
-description: RadDatePicker Server-Side Object
+page_title: RadDatePicker Server-side Object - RadDatePicker
+description: Check our Web Forms article about RadDatePicker Server-Side Object.
 slug: calendar/server-side-programming/server-side-objects
 tags: server-side,objects
 published: True

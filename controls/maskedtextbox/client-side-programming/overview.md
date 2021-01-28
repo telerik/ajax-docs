@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadMaskedTextBox
+description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/client-side-programming/overview
 tags: overview
 published: True

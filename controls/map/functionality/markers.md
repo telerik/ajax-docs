@@ -1,7 +1,7 @@
 ---
 title: Markers
-page_title: Markers | RadMap for ASP.NET AJAX Documentation
-description: Markers
+page_title: Markers - RadMap
+description: Check our Web Forms article about Markers.
 slug: map/functionality/markers
 tags: markers
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Gestures Support
-page_title: Gestures Support | RadScheduler for ASP.NET AJAX Documentation
-description: Gestures Support
+page_title: Gestures Support - RadScheduler
+description: Check our Web Forms article about Gestures Support.
 slug: scheduler/mobile-support/gestures-support
 tags: gestures,support
 published: True

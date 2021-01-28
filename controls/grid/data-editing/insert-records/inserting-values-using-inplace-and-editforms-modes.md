@@ -1,7 +1,7 @@
 ---
 title: Inserting Values Using InPlace and EditForms Modes
-page_title: Inserting Values Using InPlace and EditForms Modes | RadGrid for ASP.NET AJAX Documentation
-description: Inserting Values Using InPlace and EditForms Modes
+page_title: Inserting Values Using InPlace and EditForms Modes - RadGrid
+description: Check our Web Forms article about Inserting Values Using InPlace and EditForms Modes.
 slug: grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes
 tags: inserting,values,using,inplace,and,editforms,modes
 published: True

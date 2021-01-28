@@ -1,7 +1,7 @@
 ---
 title: reorderColumns
-page_title: reorderColumns | RadGrid for ASP.NET AJAX Documentation
-description: reorderColumns
+page_title: reorderColumns - RadGrid
+description: Check our Web Forms article about reorderColumns.
 slug: grid/client-side-programming/gridtableview-object/methods/reordercolumns
 tags: reordercolumns
 published: True

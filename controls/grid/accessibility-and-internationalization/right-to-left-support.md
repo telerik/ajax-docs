@@ -1,7 +1,7 @@
 ---
 title: Right-to-left support
-page_title: Right-to-left support | RadGrid for ASP.NET AJAX Documentation
-description: Right-to-left support
+page_title: Right-to-left support - RadGrid
+description: Check our Web Forms article about Right-to-left support.
 slug: grid/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True

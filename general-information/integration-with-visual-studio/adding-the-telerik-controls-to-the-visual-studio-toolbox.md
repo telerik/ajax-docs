@@ -1,7 +1,7 @@
 ---
 title: Adding the Telerik Controls to the Visual Studio Toolbox
-page_title: Adding the Telerik Controls to the Visual Studio Toolbox | UI for ASP.NET AJAX Documentation
-description: Adding the Telerik Controls to the Visual Studio Toolbox
+page_title: Adding the Telerik Controls to the Visual Studio Toolbox
+description: Check our Web Forms article about Adding the Telerik Controls to the Visual Studio Toolbox.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox
 tags: adding,the,telerik,controls,to,the,visual,studio,toolbox
 published: True

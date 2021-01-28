@@ -1,7 +1,7 @@
 ---
 title: Axes Configuration
-page_title: Axes Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Axes Configuration
+page_title: Axes Configuration - RadHtmlChart
+description: Check our Web Forms article about Axes Configuration.
 slug: htmlchart/server-side-programming/axes-configuration
 tags: axes,configuration
 published: True

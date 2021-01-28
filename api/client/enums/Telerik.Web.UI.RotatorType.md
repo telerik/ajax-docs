@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RotatorType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RotatorType
 slug: Telerik.Web.UI.RotatorType
 ---

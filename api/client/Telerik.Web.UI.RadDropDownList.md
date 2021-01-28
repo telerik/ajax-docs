@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDropDownList
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDropDownList
 slug: Telerik.Web.UI.RadDropDownList
 ---

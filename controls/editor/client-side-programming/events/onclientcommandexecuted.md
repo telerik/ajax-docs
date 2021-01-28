@@ -1,7 +1,7 @@
 ---
 title: OnClientCommandExecuted
-page_title: OnClientCommandExecuted | RadEditor for ASP.NET AJAX Documentation
-description: OnClientCommandExecuted
+page_title: OnClientCommandExecuted - RadEditor
+description: Check our Web Forms article about OnClientCommandExecuted.
 slug: editor/client-side-programming/events/onclientcommandexecuted
 tags: onclientcommandexecuted
 published: True

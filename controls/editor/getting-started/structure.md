@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadEditor Structure | RadEditor for ASP.NET AJAX Documentation
-description: RadEditor Structure
+page_title: RadEditor Structure - RadEditor
+description: Check our Web Forms article about RadEditor Structure.
 slug: editor/getting-started/radeditor-structure
 tags: radeditor,structure
 published: True

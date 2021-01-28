@@ -1,7 +1,7 @@
 ---
 title: How to Hide Input Textbox
-page_title: How to Hide Input Textbox | RadUpload for ASP.NET AJAX Documentation
-description: How to Hide Input Textbox
+page_title: How to Hide Input Textbox - RadUpload
+description: Check our Web Forms article about How to Hide Input Textbox.
 slug: upload/how-to/how-to-hide-input-textbox
 tags: how,to,hide,input,textbox
 published: True

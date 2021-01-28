@@ -1,8 +1,8 @@
 ---
 title: Image button inside RadGrid
-description: Use templates to add image buttons to RadGrid
+description: Use templates to add image buttons to RadGrid.
 type: how-to
-page_title: Create an image button in Templates - RadGrid | Telerik UI For ASP.NET AJAX
+page_title: Create an image button in Templates - RadGrid - Telerik UI For ASP.NET AJAX
 slug: grid-image-button-inside-radgrid
 position: 
 tags: 

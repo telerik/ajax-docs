@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadTreeView
+description: Check our Web Forms article about OnClientMouseOver.
 slug: treeview/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

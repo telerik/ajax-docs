@@ -1,7 +1,7 @@
 ---
 title: OnClientShowing
-page_title: OnClientShowing | RadMenu for ASP.NET AJAX Documentation
-description: OnClientShowing
+page_title: OnClientShowing - RadMenu
+description: Check our Web Forms article about OnClientShowing.
 slug: menu/client-side-programming/events/onclientshowing
 tags: onclientshowing
 published: True

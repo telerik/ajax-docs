@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadGrid for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadGrid
+description: Check our Web Forms article about Filtering.
 slug: grid/mobile-support/mobile-rendering/filtering
 tags: filtering
 published: True

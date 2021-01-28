@@ -1,7 +1,7 @@
 ---
 title: Adding Custom Command Buttons
-page_title: Adding Custom Command Buttons | RadFileExplorer for ASP.NET AJAX Documentation
-description: Adding Custom Command Buttons
+page_title: Adding Custom Command Buttons - RadFileExplorer
+description: Check our Web Forms article about Adding Custom Command Buttons.
 slug: fileexplorer/how-to/adding-custom-command-buttons
 tags: adding,custom,command,buttons
 published: True

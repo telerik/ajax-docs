@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Getting Started Overview | RadColorPicker for ASP.NET AJAX Documentation
-description: Overview
+page_title: Getting Started Overview - RadColorPicker
+description: Check our Web Forms article about Overview.
 slug: colorpicker/getting-started/overview
 tags: overview
 published: True

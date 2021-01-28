@@ -1,7 +1,7 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | RadSlider for ASP.NET AJAX Documentation
-description: Mouse Wheel Support
+page_title: Mouse Wheel Support - RadSlider
+description: Check our Web Forms article about Mouse Wheel Support.
 slug: slider/getting-started/mouse-wheel-support
 tags: mouse,wheel,support
 published: True

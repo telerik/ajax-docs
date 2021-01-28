@@ -1,7 +1,7 @@
 ---
 title: Create
-page_title: Create | UI for ASP.NET AJAX Documentation
-description: Create
+page_title: Create
+description: Check our Web Forms article about Create.
 slug: theme-builder/create
 tags: create
 published: True

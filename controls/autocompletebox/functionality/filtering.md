@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadAutoCompleteBox
+description: Check our Web Forms article about Filtering.
 slug: autocompletebox/functionality/filtering
 tags: filtering
 published: True

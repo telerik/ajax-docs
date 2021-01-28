@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadWizard for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadWizard
+description: Check our Web Forms article about Localization.
 slug: wizard/accessibility-and-internationalization/localization
 tags: localization
 published: True

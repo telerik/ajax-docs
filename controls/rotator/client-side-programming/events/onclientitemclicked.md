@@ -1,7 +1,7 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | RadRotator for ASP.NET AJAX Documentation
-description: OnClientItemClicked
+page_title: OnClientItemClicked - RadRotator
+description: Check our Web Forms article about OnClientItemClicked.
 slug: rotator/client-side-programming/events/onclientitemclicked
 tags: onclientitemclicked
 published: True

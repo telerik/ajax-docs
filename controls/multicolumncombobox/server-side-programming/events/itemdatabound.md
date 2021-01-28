@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadMultiColumnComboBox
+description: Check our Web Forms article about ItemDataBound.
 slug: multicolumncombobox/server-side-programming/events/itemdatabound
 tags: itemdatabound
 published: True

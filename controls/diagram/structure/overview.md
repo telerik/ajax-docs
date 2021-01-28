@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Structure Overview | RadDiagram for ASP.NET AJAX Documentation
-description: Structure Overview
+page_title: Structure Overview - RadDiagram
+description: Check our Web Forms article about Structure Overview.
 slug: diagram/structure/overview
 tags: overview
 published: True

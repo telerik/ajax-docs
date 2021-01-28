@@ -1,7 +1,7 @@
 ---
 title: ItemCreated
-page_title: ItemCreated Event - RadGrid | UI for ASP.NET AJAX
-description: ItemCreated Event
+page_title: ItemCreated Event - RadGrid
+description: Check our Web Forms article about ItemCreated Event.
 slug: grid/server-side-programming/events/itemcreated
 published: True
 position: 50

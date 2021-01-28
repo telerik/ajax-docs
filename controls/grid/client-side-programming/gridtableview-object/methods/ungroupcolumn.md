@@ -1,7 +1,7 @@
 ---
 title: ungroupColumn
-page_title: ungroupColumn | RadGrid for ASP.NET AJAX Documentation
-description: ungroupColumn
+page_title: ungroupColumn - RadGrid
+description: Check our Web Forms article about ungroupColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/ungroupcolumn
 tags: ungroupcolumn
 published: True

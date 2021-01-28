@@ -1,7 +1,7 @@
 ---
 title: Fixed Layout
-page_title: Fixed Layout | RadSplitter for ASP.NET AJAX Documentation
-description: Fixed Layout
+page_title: Fixed Layout - RadSplitter
+description: Check our Web Forms article about Fixed Layout.
 slug: splitter/layout/fixed-layout
 tags: fixed,layout
 published: True

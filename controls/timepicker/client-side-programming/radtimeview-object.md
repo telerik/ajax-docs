@@ -1,7 +1,7 @@
 ---
 title: RadTimeView object
-page_title: RadTimeView object | RadTimePicker for ASP.NET AJAX Documentation
-description: RadTimeView object
+page_title: RadTimeView object - RadTimePicker
+description: Check our Web Forms article about RadTimeView object.
 slug: timepicker/client-side-programming/radtimeview-object
 tags: radtimeview,object
 published: True

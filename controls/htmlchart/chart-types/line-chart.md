@@ -1,7 +1,7 @@
 ---
 title: Line Chart
-page_title: Line Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Line Chart
+page_title: Line Chart - RadHtmlChart
+description: Check our Web Forms article about Line Chart.
 slug: htmlchart/chart-types/line-chart
 tags: line,chart
 published: True

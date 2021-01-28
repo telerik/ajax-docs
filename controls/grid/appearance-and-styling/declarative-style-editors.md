@@ -1,7 +1,7 @@
 ---
 title: Declarative Style Editors
-page_title: Declarative Style Editors | RadGrid for ASP.NET AJAX Documentation
-description: Declarative Style Editors
+page_title: Declarative Style Editors - RadGrid
+description: Check our Web Forms article about Declarative Style Editors.
 slug: grid/appearance-and-styling/declarative-style-editors
 tags: declarative,style,editors
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | RadTagCloud for ASP.NET AJAX Documentation
-description: OnClientDataBound
+page_title: OnClientDataBound - RadTagCloud
+description: Check our Web Forms article about OnClientDataBound.
 slug: tagcloud/client-side-programming/events/onclientdatabound
 tags: onclientdatabound
 published: True

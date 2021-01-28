@@ -1,7 +1,7 @@
 ---
 title: Examples
-page_title: Examples | RadWindow for ASP.NET AJAX Documentation
-description: Examples
+page_title: Examples - RadWindow
+description: Check our Web Forms article about Examples.
 slug: window/server-side-programming/examples
 tags: examples
 published: True

@@ -1,7 +1,7 @@
 ---
 title: How to Use JavaScript Intellisense for the Telerik Controls
-page_title: How to Use JavaScript Intellisense for the Telerik Controls | UI for ASP.NET AJAX Documentation
-description: How to Use JavaScript Intellisense for the Telerik Controls
+page_title: How to Use JavaScript Intellisense for the Telerik Controls
+description: Check our Web Forms article about How to Use JavaScript Intellisense for the Telerik Controls.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/how-to-use-javascript-intellisense-for-the-telerik-controls
 tags: how,to,use,javascript,intellisense,for,the,telerik,controls
 published: True

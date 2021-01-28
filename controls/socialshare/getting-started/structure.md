@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadSocialShare for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadSocialShare
+description: Check our Web Forms article about Structure.
 slug: socialshare/getting-started/structure
 tags: structure
 published: True

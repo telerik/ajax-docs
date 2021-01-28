@@ -1,7 +1,7 @@
 ---
 title: Fire Doublecilck Event When Clicking on the Node Image
-page_title: Fire Doublecilck Event When Clicking on the Node Image | RadTreeView for ASP.NET AJAX Documentation
-description: Fire Doublecilck Event When Clicking on the Node Image
+page_title: Fire Doublecilck Event When Clicking on the Node Image - RadTreeView
+description: Check our Web Forms article about Fire Doublecilck Event When Clicking on the Node Image.
 slug: treeview/application-scenarios/client-side-programming/fire-doublecilck-event-when-clicking-on-the-node-image
 tags: fire,doublecilck,event,when,clicking,on,the,node,image
 published: True

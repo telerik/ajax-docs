@@ -1,7 +1,7 @@
 ---
 title: Disposed
-page_title: Disposed Event - RadGrid | UI for ASP.NET AJAX
-description: Disposed Event
+page_title: Disposed Event - RadGrid
+description: Check our Web Forms article about Disposed Event.
 slug: grid/server-side-programming/events/disposed
 published: True
 position: 50

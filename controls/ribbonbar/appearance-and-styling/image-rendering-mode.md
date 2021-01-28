@@ -1,7 +1,7 @@
 ---
 title: Image Rendering Mode
-page_title: Image Rendering Mode | RadRibbonBar for ASP.NET AJAX Documentation
-description: Image Rendering Mode
+page_title: Image Rendering Mode - RadRibbonBar
+description: Check our Web Forms article about Image Rendering Mode.
 slug: ribbonbar/appearance-and-styling/image-rendering-mode
 tags: image,rendering,mode
 published: True

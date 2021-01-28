@@ -1,7 +1,7 @@
 ---
 title: OnClientReminderDismissing 
-page_title: OnClientReminderDismissing  | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientReminderDismissing 
+page_title: OnClientReminderDismissing - RadScheduler
+description: Check our Web Forms article about OnClientReminderDismissing.
 slug: scheduler/client-side-programming/events/onclientreminderdismissing-
 tags: onclientreminderdismissing,
 published: True

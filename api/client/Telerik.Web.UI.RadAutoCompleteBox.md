@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAutoCompleteBox
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAutoCompleteBox
 slug: Telerik.Web.UI.RadAutoCompleteBox
 ---

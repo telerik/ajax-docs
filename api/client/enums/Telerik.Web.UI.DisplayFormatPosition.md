@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DisplayFormatPosition
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DisplayFormatPosition
 slug: Telerik.Web.UI.DisplayFormatPosition
 ---

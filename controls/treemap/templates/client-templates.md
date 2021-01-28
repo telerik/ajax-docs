@@ -1,7 +1,7 @@
 ---
 title: Client Templates
-page_title: Client Templates | RadTreeMap for ASP.NET AJAX Documentation
-description: Client Templates
+page_title: Client Templates - RadTreeMap
+description: Check our Web Forms article about Client Templates.
 slug: treemap/templates/client-templates
 tags: client,templates
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Google Specifics
-page_title: Google Specifics | RadSocialShare for ASP.NET AJAX Documentation
-description: Google Specifics
+page_title: Google Specifics - RadSocialShare
+description: Check our Web Forms article about Google Specifics.
 slug: socialshare/troubleshooting/google-specifics
 tags: google,specifics
 published: True

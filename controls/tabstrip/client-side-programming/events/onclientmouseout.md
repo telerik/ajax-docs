@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientMouseOut
+page_title: OnClientMouseOut - RadTabStrip
+description: Check our Web Forms article about OnClientMouseOut.
 slug: tabstrip/client-side-programming/onclientmouseout
 tags: onclientmouseout
 published: True

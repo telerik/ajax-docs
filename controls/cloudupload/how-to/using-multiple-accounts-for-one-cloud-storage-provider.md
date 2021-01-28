@@ -1,7 +1,7 @@
 ---
 title: Using Multiple Accounts for One Cloud Storage Provider
-page_title: Using Multiple Accounts for One Cloud Storage Provider | RadCloudUpload for ASP.NET AJAX Documentation
-description: Using Multiple Accounts for One Cloud Storage Provider
+page_title: Using Multiple Accounts for One Cloud Storage Provider - RadCloudUpload
+description: Check our Web Forms article about Using Multiple Accounts for One Cloud Storage Provider.
 slug: cloudupload/how-to/using-multiple-accounts-for-one-cloud-storage-provider
 tags: using,multiple,accounts,for,one,cloud,storage,provider
 published: True

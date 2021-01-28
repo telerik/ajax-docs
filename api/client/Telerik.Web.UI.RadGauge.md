@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadGauge
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadGauge
 slug: Telerik.Web.UI.RadGauge
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadLinkButton for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadLinkButton
+description: Check our Web Forms article about Overview.
 slug: linkbutton/overview
 tags: overview
 published: True

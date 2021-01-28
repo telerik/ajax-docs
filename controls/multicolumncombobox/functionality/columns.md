@@ -1,7 +1,7 @@
 ---
 title: Columns
-page_title: Columns | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Columns
+page_title: Columns - RadMultiColumnComboBox
+description: Check our Web Forms article about Columns.
 slug: multicolumncombobox/functionality/columns
 tags: Columns
 published: True

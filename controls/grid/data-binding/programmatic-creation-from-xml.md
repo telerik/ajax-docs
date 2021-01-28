@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation from XML
-page_title: Programmatic Creation from XML | RadGrid for ASP.NET AJAX Documentation
-description: Programmatic Creation from XML
+page_title: Programmatic Creation from XML - RadGrid
+description: Check our Web Forms article about Programmatic Creation from XML.
 slug: grid/data-binding/programmatic-creation-from-xml
 tags: programmatic,creation,from,xml
 published: True

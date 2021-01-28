@@ -1,7 +1,7 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | RadDateInput for ASP.NET AJAX Documentation
-description: Mouse Wheel Support
+page_title: Mouse Wheel Support - RadDateInput
+description: Check our Web Forms article about Mouse Wheel Support.
 slug: raddateinput/accessibility-and-internationalization/mouse-wheel-support
 tags: mouse,wheel,support
 published: True

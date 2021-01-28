@@ -1,7 +1,7 @@
 ---
 title: Expand Parent Nodes
-page_title: Expand Parent Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Expand Parent Nodes
+page_title: Expand Parent Nodes - RadTreeView
+description: Check our Web Forms article about Expand Parent Nodes.
 slug: treeview/application-scenarios/client-side-programming/expand-parent-nodes
 tags: expand,parent,nodes
 published: True

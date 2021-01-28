@@ -1,7 +1,7 @@
 ---
 title: SearchContext Object
-page_title: SearchContext Object | RadSearchBox for ASP.NET AJAX Documentation
-description: SearchContext Object
+page_title: SearchContext Object - RadSearchBox
+description: Check our Web Forms article about SearchContext Object.
 slug: searchbox/client-side-programming/searchcontext-object
 tags: searchcontext,object
 published: True

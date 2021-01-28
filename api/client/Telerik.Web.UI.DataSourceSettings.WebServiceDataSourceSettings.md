@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
 slug: Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
 ---

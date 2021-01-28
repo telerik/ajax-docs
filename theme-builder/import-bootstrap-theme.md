@@ -1,7 +1,7 @@
 ---
 title: Import Bootstrap Theme
-page_title: Import Bootstrap Theme | UI for ASP.NET AJAX Documentation
-description: Import Bootstrap Theme
+page_title: Import Bootstrap Theme
+description: Check our Web Forms article about Import Bootstrap Theme.
 slug: theme-builder/import-bootstrap-theme
 tags: import, bootstrap, theme
 published: False

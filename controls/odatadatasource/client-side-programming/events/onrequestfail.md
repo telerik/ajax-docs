@@ -1,7 +1,7 @@
 ---
 title: OnRequestFail
-page_title: OnRequestFail | RadODataDataSource for ASP.NET AJAX Documentation
-description: OnRequestFail
+page_title: OnRequestFail - RadODataDataSource
+description: Check our Web Forms article about OnRequestFail.
 slug: odatadatasource/client-side-programming/events/onrequestfail
 tags: onrequestfail
 published: True

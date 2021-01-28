@@ -1,7 +1,7 @@
 ---
 title: fireCommand
-page_title: fireCommand | RadGrid for ASP.NET AJAX Documentation
-description: fireCommand
+page_title: fireCommand - RadGrid
+description: Check our Web Forms article about fireCommand.
 slug: grid/client-side-programming/gridtableview-object/methods/firecommand
 tags: firecommand
 published: True

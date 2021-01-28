@@ -1,7 +1,7 @@
 ---
 title: Adding and Editing Templates at Design Time
-page_title: Adding and Editing Templates at Design Time | RadToolBar for ASP.NET AJAX Documentation
-description: Adding and Editing Templates at Design Time
+page_title: Adding and Editing Templates at Design Time - RadToolBar
+description: Check our Web Forms article about Adding and Editing Templates at Design Time.
 slug: toolbar/templates/adding-and-editing-templates-at-design-time
 tags: adding,and,editing,templates,at,design,time
 published: True

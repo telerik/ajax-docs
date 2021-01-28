@@ -1,7 +1,7 @@
 ---
 title: Extracting values
-page_title: Extracting values | RadGrid for ASP.NET AJAX Documentation
-description: Extracting values
+page_title: Extracting values - RadGrid
+description: Check our Web Forms article about Extracting values.
 slug: grid/data-editing/extracting-values
 tags: extracting,values
 published: True

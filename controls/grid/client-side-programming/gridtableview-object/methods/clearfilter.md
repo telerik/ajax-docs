@@ -1,7 +1,7 @@
 ---
 title: clearFilter
-page_title: clearFilter | RadGrid for ASP.NET AJAX Documentation
-description: clearFilter
+page_title: clearFilter - RadGrid
+description: Check our Web Forms article about clearFilter.
 slug: grid/client-side-programming/gridtableview-object/methods/clearfilter
 tags: clearfilter
 published: True

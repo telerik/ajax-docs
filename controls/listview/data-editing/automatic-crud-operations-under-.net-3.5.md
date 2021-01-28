@@ -1,7 +1,7 @@
 ---
 title: Automatic CRUD Operations under .NET 3.5
-page_title: Automatic CRUD Operations under .NET 3.5 | RadListView for ASP.NET AJAX Documentation
-description: Automatic CRUD Operations under .NET 3.5
+page_title: Automatic CRUD Operations under .NET 3.5 - RadListView
+description: Check our Web Forms article about Automatic CRUD Operations under .NET 3.5.
 slug: listview/data-editing/automatic-crud-operations-under-.net-3.5
 tags: automatic,crud,operations,under,.net,3.5
 published: True

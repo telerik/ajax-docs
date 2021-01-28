@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Filter Menu | UI for ASP.NET AJAX Documentation
-description: Overview 
+page_title: RadSpreadsheet Filter Menu
+description: Check our Web Forms article about Overview.
 slug: spreadsheet/functionality/validation/overview
 tags: overview
 published: True

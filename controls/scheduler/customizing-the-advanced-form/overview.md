@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Customizing the Advanced Form Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Customizing the Advanced Form Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/customizing-the-advanced-form/overview
 tags: overview
 published: True

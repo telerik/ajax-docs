@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadPushButton for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadPushButton
+description: Check our Web Forms article about Overview.
 slug: pushbutton/overview
 tags: overview
 published: True

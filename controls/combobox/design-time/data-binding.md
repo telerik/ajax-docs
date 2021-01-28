@@ -1,7 +1,7 @@
 ---
 title: Data Binding
-page_title: Data Binding | RadComboBox for ASP.NET AJAX Documentation
-description: Data Binding
+page_title: Data Binding - RadComboBox
+description: Check our Web Forms article about Data Binding.
 slug: combobox/design-time/data-binding
 tags: data,binding
 published: True

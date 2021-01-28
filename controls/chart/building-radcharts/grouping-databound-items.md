@@ -1,7 +1,7 @@
 ---
 title: Grouping databound items
-page_title: Grouping databound items | RadChart for ASP.NET AJAX Documentation
-description: Grouping databound items
+page_title: Grouping databound items - RadChart
+description: Check our Web Forms article about Grouping databound items.
 slug: chart/building-radcharts/grouping-databound-items
 tags: grouping,databound,items
 published: True

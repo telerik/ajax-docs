@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: CDN Support Overview | RadStyleSheetManager for ASP.NET AJAX Documentation
-description: Overview
+page_title: CDN Support Overview - RadStyleSheetManager
+description: Check our Web Forms article about Overview.
 slug: stylesheetmanager/cdn-support/overview
 tags: overview
 published: True

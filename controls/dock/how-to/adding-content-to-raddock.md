@@ -1,7 +1,7 @@
 ---
 title: Adding Content to RadDock
-page_title: Adding Content to RadDock | RadDock for ASP.NET AJAX Documentation
-description: Adding Content to RadDock
+page_title: Adding Content to RadDock - RadDock
+description: Check our Web Forms article about Adding Content to RadDock.
 slug: dock/how-to/adding-content-to-raddock
 tags: adding,content,to,raddock
 published: True

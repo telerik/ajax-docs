@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadMap Structure | RadMap for ASP.NET AJAX Documentation
-description: RadMap Structure
+page_title: RadMap Structure - RadMap
+description: Check our Web Forms article about RadMap Structure.
 slug: map/getting-started/radmap-structure
 tags: radmap,structure
 published: True

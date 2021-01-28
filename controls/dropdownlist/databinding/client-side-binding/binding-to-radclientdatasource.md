@@ -1,7 +1,7 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | RadDropDownList for ASP.NET AJAX Documentation
-description: Binding to RadClientDataSource
+page_title: Binding to RadClientDataSource - RadDropDownList
+description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: dropdownlist/databinding/client-side-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
 published: True

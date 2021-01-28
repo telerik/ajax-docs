@@ -1,7 +1,7 @@
 ---
 title: Modes
-page_title: Modes | RadImageGallery for ASP.NET AJAX Documentation
-description: Modes
+page_title: Modes - RadImageGallery
+description: Check our Web Forms article about Modes.
 slug: imagegallery/functionality/modes
 tags: modes
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeDropped
-page_title: OnClientNodeDropped | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeDropped
+page_title: OnClientNodeDropped - RadTreeView
+description: Check our Web Forms article about OnClientNodeDropped.
 slug: treeview/client-side-programming/events/onclientnodedropped
 tags: onclientnodedropped
 published: True

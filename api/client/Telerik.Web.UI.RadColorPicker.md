@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadColorPicker
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadColorPicker
 slug: Telerik.Web.UI.RadColorPicker
 ---

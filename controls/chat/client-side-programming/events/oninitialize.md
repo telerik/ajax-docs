@@ -1,7 +1,7 @@
 ---
 title: OnInitialize
-page_title: OnInitialize | RadChat for ASP.NET AJAX Documentation
-description: OnInitialize
+page_title: OnInitialize - RadChat
+description: Check our Web Forms article about OnInitialize.
 slug: chat/client-side-programming/events/oninitialize
 tags: oninitialize
 published: True

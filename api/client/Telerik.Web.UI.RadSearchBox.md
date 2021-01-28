@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSearchBox
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSearchBox
 slug: Telerik.Web.UI.RadSearchBox
 ---

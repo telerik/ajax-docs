@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadLinkButton for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadLinkButton
+description: Check our Web Forms article about Design Time.
 slug: linkbutton/design-time
 tags: design,time
 published: True

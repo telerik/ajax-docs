@@ -1,7 +1,7 @@
 ---
 title: Global Resource Files
-page_title: Global Resource Files | RadEditor for ASP.NET AJAX Documentation
-description: Global Resource Files
+page_title: Global Resource Files - RadEditor
+description: Check our Web Forms article about Global Resource Files.
 slug: editor/accessibility-and-internationalization/localization/global-resource-files
 tags: global,resource,files
 published: True

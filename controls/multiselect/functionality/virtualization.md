@@ -1,7 +1,7 @@
 ---
 title: Virtualization
-page_title: Virtualization | RadMultiSelect for ASP.NET AJAX Documentation
-description: Virtualization
+page_title: Virtualization - RadMultiSelect
+description: Check our Web Forms article about Virtualization.
 slug: multiselect/functionality/virtualization
 tags: Virtualization
 published: True

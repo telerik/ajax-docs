@@ -1,7 +1,7 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadCheckBox for ASP.NET AJAX Documentation
-description: Common Issues
+page_title: Common Issues - RadCheckBox
+description: Check our Web Forms article about Common Issues.
 slug: checkbox/troubleshooting/common-issues
 tags: common,issues
 published: True

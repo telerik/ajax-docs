@@ -1,7 +1,7 @@
 ---
 title: Increase and Decrease Size Buttons
-page_title: Increase and Decrease Size Buttons | RadEditor for ASP.NET AJAX Documentation
-description: Increase and Decrease Size Buttons
+page_title: Increase and Decrease Size Buttons - RadEditor
+description: Check our Web Forms article about Increase and Decrease Size Buttons.
 slug: editor/functionality/toolbars/buttons/examples/increase-and-decrease-size-buttons
 tags: increase,and,decrease,size,buttons
 published: True

@@ -1,7 +1,7 @@
 ---
 title: AssignmentInsert
-page_title: AssignmentInsert | RadGantt for ASP.NET AJAX Documentation
-description: AssignmentInsert
+page_title: AssignmentInsert - RadGantt
+description: Check our Web Forms article about AssignmentInsert.
 slug: gantt/server-side-programming/events/assignmentinsert
 tags: assignmentinsert
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDropDownList Overview | UI for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET RadDropDownList Overview
+page_title: RadDropDownList Overview
+description: Check our Web Forms article about Telerik's ASP.NET RadDropDownList Overview.
 slug: dropdownlist/overview
 tags: overview
 published: True

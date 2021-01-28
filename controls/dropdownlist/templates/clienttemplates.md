@@ -1,7 +1,7 @@
 ---
 title: ClientTemplates
-page_title: ClientTemplates | RadDropDownList for ASP.NET AJAX Documentation
-description: ClientTemplates
+page_title: ClientTemplates - RadDropDownList
+description: Check our Web Forms article about ClientTemplates.
 slug: dropdownlist/templates/clienttemplates
 tags: clienttemplates
 published: True

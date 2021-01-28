@@ -1,7 +1,7 @@
 ---
 title: DockCommand Object
-page_title: DockCommand Object | RadDock for ASP.NET AJAX Documentation
-description: DockCommand Object
+page_title: DockCommand Object - RadDock
+description: Check our Web Forms article about DockCommand Object.
 slug: dock/client-side-programming/dockcommand-object
 tags: dockcommand,object
 published: True

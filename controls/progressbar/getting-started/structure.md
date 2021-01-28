@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadProgressBar Structure | RadProgressBar for ASP.NET AJAX Documentation
-description: RadProgressBar Structure
+page_title: RadProgressBar Structure - RadProgressBar
+description: Check our Web Forms article about RadProgressBar Structure.
 slug: progressbar/getting-started/element-structure
 tags: element,structure
 published: True

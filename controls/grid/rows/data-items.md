@@ -1,7 +1,7 @@
 ---
 title: Data Items
-page_title: Data Items | RadGrid for ASP.NET AJAX Documentation
-description: Data Items
+page_title: Data Items - RadGrid
+description: Check our Web Forms article about Data Items.
 slug: grid/rows/data-items
 tags: data,items
 published: True

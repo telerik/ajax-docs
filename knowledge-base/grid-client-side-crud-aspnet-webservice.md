@@ -2,7 +2,7 @@
 title: Client-Side CRUD with ASP.NET WebService (ASMX)
 description: 
 type: how-to
-page_title: Client-Side CRUD with ASP.NET WebService (ASMX) - RadGrid | UI for ASP.NET AJAX
+page_title: Client-Side CRUD with ASP.NET WebService (ASMX) - RadGrid
 slug: grid-client-side-crud-aspnet-webservice
 res_type: kb
 ---

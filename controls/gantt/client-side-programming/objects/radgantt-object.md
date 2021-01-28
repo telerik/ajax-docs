@@ -1,7 +1,7 @@
 ---
 title: RadGantt Object
-page_title: RadGantt Object | RadGantt for ASP.NET AJAX Documentation
-description: RadGantt Object
+page_title: RadGantt Object - RadGantt
+description: Check our Web Forms article about RadGantt Object.
 slug: gantt/client-side-programming/objects/radgantt-object
 tags: radgantt,object
 published: True

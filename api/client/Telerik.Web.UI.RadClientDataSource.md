@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadClientDataSource
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadClientDataSource
 slug: Telerik.Web.UI.RadClientDataSource
 ---

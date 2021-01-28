@@ -1,7 +1,7 @@
 ---
 title: Animation
-page_title: Animation | RadTreeView for ASP.NET AJAX Documentation
-description: Animation
+page_title: Animation - RadTreeView
+description: Check our Web Forms article about Animation.
 slug: treeview/appearance-and-styling/animation
 tags: animation
 published: True

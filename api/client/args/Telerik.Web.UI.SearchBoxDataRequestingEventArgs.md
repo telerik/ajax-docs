@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
 slug: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
 ---

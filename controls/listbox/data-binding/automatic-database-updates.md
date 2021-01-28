@@ -1,7 +1,7 @@
 ---
 title: Automatic Database Updates
-page_title: Automatic Database Updates | RadListBox for ASP.NET AJAX Documentation
-description: Automatic Database Updates
+page_title: Automatic Database Updates - RadListBox
+description: Check our Web Forms article about Automatic Database Updates.
 slug: listbox/data-binding/automatic-database-updates
 tags: automatic,database,updates
 published: True

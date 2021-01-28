@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadDatePicker for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadDatePicker
+description: Check our Web Forms article about Overview.
 slug: datepicker/server-side-programming/events/overview
 tags: server-side,events,overview
 published: True

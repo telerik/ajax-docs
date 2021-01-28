@@ -1,7 +1,7 @@
 ---
 title: Edit and Insert Appointment with Single Click
-page_title: Edit and Insert Appointment with Single Click | RadScheduler for ASP.NET AJAX Documentation
-description: Edit and Insert Appointment with Single Click
+page_title: Edit and Insert Appointment with Single Click - RadScheduler
+description: Check our Web Forms article about Edit and Insert Appointment with Single Click.
 slug: scheduler/how-to/edit-and-insert-appointment-with-single-click
 tags: edit,and,insert,appointment,with,single,click
 published: True

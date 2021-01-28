@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadRadioButtonList
+description: Check our Web Forms article about Skins.
 slug: radiobuttonlist/appearance-and-styling/skins
 tags: skins
 published: True

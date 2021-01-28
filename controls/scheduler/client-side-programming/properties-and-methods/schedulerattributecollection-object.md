@@ -1,7 +1,7 @@
 ---
 title: SchedulerAttributeCollection Object
-page_title: SchedulerAttributeCollection Object | RadScheduler for ASP.NET AJAX Documentation
-description: SchedulerAttributeCollection Object
+page_title: SchedulerAttributeCollection Object - RadScheduler
+description: Check our Web Forms article about SchedulerAttributeCollection Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerattributecollection-object
 tags: schedulerattributecollection,object
 published: True

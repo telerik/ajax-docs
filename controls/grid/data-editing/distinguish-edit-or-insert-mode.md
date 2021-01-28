@@ -1,7 +1,7 @@
 ---
 title: Distinguish Edit or Insert Mode
-page_title: Distinguish Edit or Insert Mode | RadGrid for ASP.NET AJAX Documentation
-description: Distinguish Edit or Insert Mode
+page_title: Distinguish Edit or Insert Mode - RadGrid
+description: Check our Web Forms article about Distinguish Edit or Insert Mode.
 slug: grid/data-editing/distinguish-edit-or-insert-mode
 tags: distinguish,edit,or,insert,mode
 published: True

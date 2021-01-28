@@ -1,6 +1,6 @@
 ---
 title: Ability to preview PDF documents from the Document Manager
-description: See how to enable the PDF File Preview on double click on the PDF file in the File Explorer
+description: See how to enable the PDF File Preview on double click on the PDF file in the File Explorer.
 type: how-to
 page_title: Preview PDF files via the Document Manager
 slug: editor-preview-pdf-files-via-the-document-manager

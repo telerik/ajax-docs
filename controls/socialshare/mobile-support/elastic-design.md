@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadSocialShare for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadSocialShare
+description: Check our Web Forms article about Elastic Design.
 slug: socialshare/mobile-support/elastic-design
 tags: elastic,design,social share
 published: True

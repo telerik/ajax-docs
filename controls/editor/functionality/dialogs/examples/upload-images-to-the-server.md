@@ -1,7 +1,7 @@
 ---
 title: Upload Images to the Server
-page_title: Upload Images to the Server | RadEditor for ASP.NET AJAX Documentation
-description: Upload Images to the Server
+page_title: Upload Images to the Server - RadEditor
+description: Check our Web Forms article about Upload Images to the Server.
 slug: editor/functionality/dialogs/examples/upload-images-to-the-server
 tags: upload,images,to,the,server
 published: True

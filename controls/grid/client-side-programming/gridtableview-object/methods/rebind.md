@@ -1,7 +1,7 @@
 ---
 title: rebind
-page_title: rebind | RadGrid for ASP.NET AJAX Documentation
-description: rebind
+page_title: rebind - RadGrid
+description: Check our Web Forms article about rebind.
 slug: grid/client-side-programming/gridtableview-object/methods/rebind
 tags: rebind
 published: True

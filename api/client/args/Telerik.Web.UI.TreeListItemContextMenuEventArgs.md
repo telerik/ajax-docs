@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeListItemContextMenuEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListItemContextMenuEventArgs
 slug: Telerik.Web.UI.TreeListItemContextMenuEventArgs
 ---

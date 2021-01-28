@@ -1,7 +1,7 @@
 ---
 title: Using RadEditor in custom MOSS solutions
-page_title: Using RadEditor in custom MOSS solutions | UI for ASP.NET AJAX Documentation
-description: Using RadEditor in custom MOSS solutions
+page_title: Using RadEditor in custom MOSS solutions
+description: Check our Web Forms article about Using RadEditor in custom MOSS solutions.
 slug: sharepoint/2007/radeditor-for-moss/customization/using-radeditor-in-custom-moss-solutions
 tags: using,radeditor,in,custom,moss,solutions
 published: True

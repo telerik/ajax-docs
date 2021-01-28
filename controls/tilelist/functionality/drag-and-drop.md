@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop
-page_title: Drag and Drop | RadTileList for ASP.NET AJAX Documentation
-description: Drag and Drop
+page_title: Drag and Drop - RadTileList
+description: Check our Web Forms article about Drag and Drop.
 slug: tilelist/functionality/drag-and-drop
 tags: drag,and,drop
 published: True

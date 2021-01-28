@@ -1,7 +1,7 @@
 ---
 title: Multi Column Menu
-page_title: Multi Column Menu | RadMenu for ASP.NET AJAX Documentation
-description: Multi Column Menu
+page_title: Multi Column Menu - RadMenu
+description: Check our Web Forms article about Multi Column Menu.
 slug: menu/functionality/multi-column-menu
 tags: multi,column,menu
 published: True

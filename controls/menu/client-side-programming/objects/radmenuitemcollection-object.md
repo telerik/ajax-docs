@@ -1,7 +1,7 @@
 ---
 title: RadMenuItemCollection Object
-page_title: RadMenuItemCollection Object | RadMenu for ASP.NET AJAX Documentation
-description: RadMenuItemCollection Object
+page_title: RadMenuItemCollection Object - RadMenu
+description: Check our Web Forms article about RadMenuItemCollection Object.
 slug: menu/client-side-programming/objects/radmenuitemcollection-object
 tags: radmenuitemcollection,object
 published: True

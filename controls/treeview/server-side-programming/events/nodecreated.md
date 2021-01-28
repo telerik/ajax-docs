@@ -1,7 +1,7 @@
 ---
 title: NodeCreated
-page_title: NodeCreated | RadTreeView for ASP.NET AJAX Documentation
-description: NodeCreated
+page_title: NodeCreated - RadTreeView
+description: Check our Web Forms article about NodeCreated.
 slug: treeview/server-side-programming/events/nodecreated
 tags: nodecreated
 published: True

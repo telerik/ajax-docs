@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ResourceStyleMapping
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ResourceStyleMapping
 slug: Telerik.Web.UI.ResourceStyleMapping
 ---

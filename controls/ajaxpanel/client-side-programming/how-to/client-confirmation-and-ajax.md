@@ -1,7 +1,7 @@
 ---
 title: Client Confirmation and AJAX
-page_title: Client Confirmation and AJAX | RadAjax for ASP.NET AJAX Documentation
-description: Client Confirmation and AJAX
+page_title: Client Confirmation and AJAX
+description: Check our Web Forms article about Client Confirmation and AJAX.
 slug: ajaxpanel/client-side-programming/how-to/client-confirmation-and-ajax
 tags: client,confirmation,and,ajax
 published: True

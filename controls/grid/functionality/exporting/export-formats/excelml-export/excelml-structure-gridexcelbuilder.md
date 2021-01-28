@@ -1,7 +1,7 @@
 ---
 title: ExcelML structure / GridExcelBuilder
-page_title: ExcelML structure / GridExcelBuilder | RadGrid for ASP.NET AJAX Documentation
-description: ExcelML structure / GridExcelBuilder
+page_title: ExcelML structure / GridExcelBuilder - RadGrid
+description: Check our Web Forms article about ExcelML structure / GridExcelBuilder.
 slug: grid/functionality/exporting/export-formats/excelml-export/excelml-structure-gridexcelbuilder
 tags: excelml,structure,/,gridexcelbuilder
 published: True

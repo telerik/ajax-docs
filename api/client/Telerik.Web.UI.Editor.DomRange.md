@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.DomRange
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.DomRange
 slug: Telerik.Web.UI.Editor.DomRange
 ---

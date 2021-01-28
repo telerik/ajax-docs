@@ -1,7 +1,7 @@
 ---
 title: ButtonClick
-page_title: ButtonClick | RadToolBar for ASP.NET AJAX Documentation
-description: ButtonClick
+page_title: ButtonClick - RadToolBar
+description: Check our Web Forms article about ButtonClick.
 slug: toolbar/server-side-programming/buttonclick
 tags: buttonclick
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarGroup
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarGroup
 slug: Telerik.Web.UI.RibbonBarGroup
 ---

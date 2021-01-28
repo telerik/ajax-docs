@@ -1,7 +1,7 @@
 ---
 title: Removing RadCalendar from the Tab Sequence
-page_title: Removing RadCalendar from the Tab Sequence | RadCalendar for ASP.NET AJAX Documentation
-description: Removing RadCalendar from the Tab Sequence
+page_title: Removing RadCalendar from the Tab Sequence - RadCalendar
+description: Check our Web Forms article about Removing RadCalendar from the Tab Sequence.
 slug: calendar/how-to/removing-radcalendar-from-the-tab-sequence
 tags: removing,radcalendar,from,the,tab,sequence
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Bubble Charts
-page_title: Bubble Charts | RadChart for ASP.NET AJAX Documentation
-description: Bubble Charts
+page_title: Bubble Charts - RadChart
+description: Check our Web Forms article about Bubble Charts.
 slug: chart/understanding-radchart-types/bubble-charts
 tags: bubble,charts
 published: True

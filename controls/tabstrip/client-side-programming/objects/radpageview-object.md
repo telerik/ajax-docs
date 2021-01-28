@@ -1,7 +1,7 @@
 ---
 title: RadPageView Object
-page_title: RadPageView Object | RadTabStrip for ASP.NET AJAX Documentation
-description: RadPageView Object
+page_title: RadPageView Object - RadTabStrip
+description: Check our Web Forms article about RadPageView Object.
 slug: tabstrip/client-side-programming/radpageview-object
 tags: radpageview,object
 published: True

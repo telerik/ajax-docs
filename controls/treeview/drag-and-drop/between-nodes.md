@@ -1,7 +1,7 @@
 ---
 title: Between Nodes
-page_title: Between Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Between Nodes
+page_title: Between Nodes - RadTreeView
+description: Check our Web Forms article about Between Nodes.
 slug: treeview/drag-and-drop/between-nodes
 tags: between,nodes
 published: True

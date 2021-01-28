@@ -1,7 +1,7 @@
 ---
 title: Performance
-page_title: Performance | RadInputManager for ASP.NET AJAX Documentation
-description: Performance
+page_title: Performance - RadInputManager
+description: Check our Web Forms article about Performance.
 slug: radinputmanager/performance
 tags: performance
 published: True

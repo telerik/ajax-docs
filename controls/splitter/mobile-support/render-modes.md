@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadSplitter for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadSplitter
+description: Check our Web Forms article about Render Modes.
 slug: splitter/mobile-support/render-modes
 tags: render,modes,splitter
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | RadMenu for ASP.NET AJAX Documentation
-description: Binding to DataTable
+page_title: Binding to DataTable - RadMenu
+description: Check our Web Forms article about Binding to DataTable.
 slug: menu/data-binding/binding-to-datatable
 tags: binding,to,datatable
 published: True

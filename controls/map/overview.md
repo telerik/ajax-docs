@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadMap Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadMap Overview
+description: Check our Web Forms article about Overview.
 slug: map/overview
 tags: overview
 published: True

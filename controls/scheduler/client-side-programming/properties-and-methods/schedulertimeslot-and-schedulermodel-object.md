@@ -1,7 +1,7 @@
 ---
 title: SchedulerTimeSlot and SchedulerModel Object
-page_title: SchedulerTimeSlot and SchedulerModel Object | RadScheduler for ASP.NET AJAX Documentation
-description: SchedulerTimeSlot and SchedulerModel Object
+page_title: SchedulerTimeSlot and SchedulerModel Object - RadScheduler
+description: Check our Web Forms article about SchedulerTimeSlot and SchedulerModel Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulertimeslot-and-schedulermodel-object
 tags: schedulertimeslot,and,schedulermodel,object
 published: True

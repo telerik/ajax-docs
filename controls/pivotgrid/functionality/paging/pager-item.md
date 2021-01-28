@@ -1,7 +1,7 @@
 ---
 title: Pager Item
-page_title: Pager Item | RadPivotGrid for ASP.NET AJAX Documentation
-description: Pager Item
+page_title: Pager Item - RadPivotGrid
+description: Check our Web Forms article about Pager Item.
 slug: pivotgrid/functionality/paging/pager-item
 tags: pager,item
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadDropDownTree Object
-page_title: RadDropDownTree Object | RadDropDownTree for ASP.NET AJAX Documentation
-description: RadDropDownTree Object
+page_title: RadDropDownTree Object - RadDropDownTree
+description: Check our Web Forms article about RadDropDownTree Object.
 slug: dropdowntree/client-side-programming/raddropdowntree-object
 tags: raddropdowntree,object
 published: True

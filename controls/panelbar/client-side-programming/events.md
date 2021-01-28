@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Client-side Events | RadPanelBar for ASP.NET AJAX Documentation
-description: Events
+page_title: Client-side Events - RadPanelBar
+description: Check our Web Forms article about Events.
 slug: panelbar/client-side-programming/events
 tags: events
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom Components 
-page_title: Custom Components | RadChat for ASP.NET AJAX Documentation
-description: Custom Components 
+page_title: Custom Components - RadChat
+description: Check our Web Forms article about Custom Components.
 slug: chat/functionality/components
 tags: custom,components
 published: True

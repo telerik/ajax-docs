@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadCaptcha for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadCaptcha
+description: Check our Web Forms article about Localization.
 slug: captcha/accessibility-and-internationalization/localization
 tags: localization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Expanding and Collapsing Items
-page_title: Expanding and Collapsing Items | RadPanelBar for ASP.NET AJAX Documentation
-description: Expanding and Collapsing Items
+page_title: Expanding and Collapsing Items - RadPanelBar
+description: Check our Web Forms article about Expanding and Collapsing Items.
 slug: panelbar/radpanelbar-items/expanding-and-collapsing-items
 tags: expanding,and,collapsing,items
 published: True

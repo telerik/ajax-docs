@@ -1,7 +1,7 @@
 ---
 title: Broken File Browser Dialogs
-page_title: Broken File Browser Dialogs | RadEditor for ASP.NET AJAX Documentation
-description: Broken File Browser Dialogs
+page_title: Broken File Browser Dialogs - RadEditor
+description: Check our Web Forms article about Broken File Browser Dialogs.
 slug: editor/troubleshooting/broken-file-browser-dialogs
 tags: broken,file,browser,dialogs
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Client-side Data Binding
-page_title: Client-side Data Binding | UI for ASP.NET AJAX Documentation
-description: Client-side Data Binding
+page_title: Client-side Data Binding
+description: Check our Web Forms article about Client-side Data Binding.
 slug: sharepoint/2010/radgrid-web-part/client-side-data-binding
 tags: client-side,data,binding
 published: True

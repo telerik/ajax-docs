@@ -1,7 +1,7 @@
 ---
 title: Separators
-page_title: Separators | RadToolBar for ASP.NET AJAX Documentation
-description: Separators
+page_title: Separators - RadToolBar
+description: Check our Web Forms article about Separators.
 slug: toolbar/appearance-and-styling/separators
 tags: separators
 published: True

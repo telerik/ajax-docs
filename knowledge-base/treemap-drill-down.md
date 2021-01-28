@@ -1,8 +1,8 @@
 ---
 title: RadTreeMap Drill Down
-description:  Example showing how to implement a Drill Down functionality in RadTreeMap
+description: Example showing how to implement a Drill Down functionality in RadTreeMap.
 type: how-to
-page_title: Drill Down functionality - RadTreeMap | Telerik UI For ASP.NET AJAX
+page_title: Drill Down functionality - RadTreeMap - Telerik UI For ASP.NET AJAX
 slug: treemap-drill-down
 position: 
 tags: 

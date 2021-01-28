@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadFilter for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadFilter
+description: Check our Web Forms article about Localization.
 slug: filter/accessibility-and-internationalization/localization
 tags: localization
 published: True

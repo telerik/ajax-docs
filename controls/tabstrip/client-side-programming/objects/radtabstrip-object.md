@@ -1,7 +1,7 @@
 ---
 title: RadTabStrip Object
-page_title: RadTabStrip Object | RadTabStrip for ASP.NET AJAX Documentation
-description: RadTabStrip Object
+page_title: RadTabStrip Object - RadTabStrip
+description: Check our Web Forms article about RadTabStrip Object.
 slug: tabstrip/client-side-programming/radtabstrip-object
 tags: radtabstrip,object
 published: True

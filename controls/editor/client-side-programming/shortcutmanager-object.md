@@ -1,7 +1,7 @@
 ---
 title: ShortcutManager Object
-page_title: ShortcutManager Object | RadEditor for ASP.NET AJAX Documentation
-description: ShortcutManager Object
+page_title: ShortcutManager Object - RadEditor
+description: Check our Web Forms article about ShortcutManager Object.
 slug: editor/client-side-programming/shortcutmanager-object
 tags: shortcutmanager,object
 published: True

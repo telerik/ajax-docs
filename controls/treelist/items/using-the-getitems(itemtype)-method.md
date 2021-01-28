@@ -1,7 +1,7 @@
 ---
 title: Using the GetItems(itemType) Method
-page_title: Using the GetItems(itemType) Method | RadTreeList for ASP.NET AJAX Documentation
-description: Using the GetItems(itemType) Method
+page_title: Using the GetItems(itemType) Method - RadTreeList
+description: Check our Web Forms article about Using the GetItems(itemType) Method.
 slug: treelist/items/using-the-getitems(itemtype)-method
 tags: using,the,getitems(itemtype),method
 published: True

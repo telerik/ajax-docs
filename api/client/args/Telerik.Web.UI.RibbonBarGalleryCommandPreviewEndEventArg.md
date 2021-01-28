@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs
 slug: Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs
 ---

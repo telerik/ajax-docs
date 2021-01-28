@@ -1,7 +1,7 @@
 ---
 title: Animations
-page_title: Animations | RadImageGallery for ASP.NET AJAX Documentation
-description: Animations
+page_title: Animations - RadImageGallery
+description: Check our Web Forms article about Animations.
 slug: imagegallery/functionality/animations
 tags: animations
 published: True

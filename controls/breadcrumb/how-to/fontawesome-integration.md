@@ -1,7 +1,7 @@
 ---
 title: How to integrate the RadBreadcrumb with FontAwesome icons
-page_title: How to integrate the RadBreadcrumb with FontAwesome icons | RadBreadcrumb for ASP.NET AJAX Documentation
-description: How to integrate the RadBreadcrumb with FontAwesome icons
+page_title: How to integrate the RadBreadcrumb with FontAwesome icons - RadBreadcrumb
+description: Check our Web Forms article about How to integrate the RadBreadcrumb with FontAwesome icons.
 slug: breadcrumb/how-to/how-to-integrate-radbreadcrumb-with-fontawesome-icons
 tags: how,to,integrate,radbreadcrumb,breadcrumb,fontawesome,icons
 published: True

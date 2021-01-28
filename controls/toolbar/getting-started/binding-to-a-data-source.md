@@ -1,7 +1,7 @@
 ---
 title: Binding to a Data Source
-page_title: Binding to a Data Source | RadToolBar for ASP.NET AJAX Documentation
-description: Binding to a Data Source
+page_title: Binding to a Data Source - RadToolBar
+description: Check our Web Forms article about Binding to a Data Source.
 slug: toolbar/getting-started/binding-to-a-data-source
 tags: binding,to,a,data,source
 published: True

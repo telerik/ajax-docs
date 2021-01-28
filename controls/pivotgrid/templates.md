@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadPivotGrid for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadPivotGrid
+description: Check our Web Forms article about Templates.
 slug: pivotgrid/templates
 tags: templates
 published: True

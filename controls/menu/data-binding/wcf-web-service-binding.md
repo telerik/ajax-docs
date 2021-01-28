@@ -1,7 +1,7 @@
 ---
 title: WCF Web Service Binding
-page_title: WCF Web Service Binding | RadMenu for ASP.NET AJAX Documentation
-description: WCF Web Service Binding
+page_title: WCF Web Service Binding - RadMenu
+description: Check our Web Forms article about WCF Web Service Binding.
 slug: menu/data-binding/wcf-web-service-binding
 tags: wcf,web,service,binding
 published: True

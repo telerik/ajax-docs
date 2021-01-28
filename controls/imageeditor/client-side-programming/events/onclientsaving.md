@@ -1,7 +1,7 @@
 ---
 title: OnClientSaving
-page_title: OnClientSaving | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientSaving
+page_title: OnClientSaving - RadImageEditor
+description: Check our Web Forms article about OnClientSaving.
 slug: imageeditor/client-side-programming/events/onclientsaving
 tags: onclientsaving
 published: True

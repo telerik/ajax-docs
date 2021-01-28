@@ -1,7 +1,7 @@
 ---
 title: OnClientButtonClicking
-page_title: OnClientButtonClicking | RadToolBar for ASP.NET AJAX Documentation
-description: OnClientButtonClicking
+page_title: OnClientButtonClicking - RadToolBar
+description: Check our Web Forms article about OnClientButtonClicking.
 slug: toolbar/client-side-programming/onclientbuttonclicking
 tags: onclientbuttonclicking
 published: True

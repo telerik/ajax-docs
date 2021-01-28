@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridCellSelection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridCellSelection
 slug: Telerik.Web.UI.GridCellSelection
 ---

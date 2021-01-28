@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.WindowAutoSizeBehaviors
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.WindowAutoSizeBehaviors
 slug: Telerik.Web.UI.WindowAutoSizeBehaviors
 ---

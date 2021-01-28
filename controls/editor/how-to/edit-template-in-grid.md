@@ -1,7 +1,7 @@
 ---
 title: Edit Template in Grid
-page_title: Edit Template in Grid | RadEditor for ASP.NET AJAX Documentation
-description: Edit Template in Grid
+page_title: Edit Template in Grid - RadEditor
+description: Check our Web Forms article about Edit Template in Grid.
 slug: editor/how-to/edit-template-in-grid
 tags: edit,template,in,grid
 published: True

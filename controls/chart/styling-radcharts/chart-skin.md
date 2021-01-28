@@ -1,7 +1,7 @@
 ---
 title: Chart Skin
-page_title: Chart Skin | RadChart for ASP.NET AJAX Documentation
-description: Chart Skin
+page_title: Chart Skin - RadChart
+description: Check our Web Forms article about Chart Skin.
 slug: chart/styling-radcharts/chart-skin
 tags: chart,skin
 published: True

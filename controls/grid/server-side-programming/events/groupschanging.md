@@ -1,7 +1,7 @@
 ---
 title: GroupsChanging
-page_title: GroupsChanging Event - RadGrid | UI for ASP.NET AJAX
-description: GroupsChanging Event
+page_title: GroupsChanging Event - RadGrid
+description: Check our Web Forms article about GroupsChanging Event.
 slug: grid/server-side-programming/events/groupschanging
 published: True
 position: 50

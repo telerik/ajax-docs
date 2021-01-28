@@ -1,7 +1,7 @@
 ---
 title: cancelAll
-page_title: cancelAll | RadGrid for ASP.NET AJAX Documentation
-description: cancelAll
+page_title: cancelAll - RadGrid
+description: Check our Web Forms article about cancelAll.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelall
 tags: cancelall
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Drag And Drop
-page_title: Drag And Drop | RadDock for ASP.NET AJAX Documentation
-description: Drag And Drop
+page_title: Drag And Drop - RadDock
+description: Check our Web Forms article about Drag And Drop.
 slug: dock/getting-started/drag-and-drop
 tags: drag,and,drop
 published: True

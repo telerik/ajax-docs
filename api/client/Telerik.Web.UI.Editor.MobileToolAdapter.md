@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.MobileToolAdapter
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.MobileToolAdapter
 slug: Telerik.Web.UI.Editor.MobileToolAdapter
 ---

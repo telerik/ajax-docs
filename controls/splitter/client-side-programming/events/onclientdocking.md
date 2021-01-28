@@ -1,7 +1,7 @@
 ---
 title: OnClientDocking
-page_title: OnClientDocking | RadSplitter for ASP.NET AJAX Documentation
-description: OnClientDocking
+page_title: OnClientDocking - RadSplitter
+description: Check our Web Forms article about OnClientDocking.
 slug: splitter/client-side-programming/events/onclientdocking
 tags: onclientdocking
 published: True

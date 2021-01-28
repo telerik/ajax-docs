@@ -1,7 +1,7 @@
 ---
 title: OnScroll
-page_title: OnScroll | RadTreeList for ASP.NET AJAX Documentation
-description: OnScroll Event
+page_title: OnScroll - RadTreeList
+description: Check our Web Forms article about OnScroll Event.
 slug: treelist/client-side-programming/Events/OnScroll
 tags: events,OnScroll
 published: True

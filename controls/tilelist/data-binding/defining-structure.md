@@ -1,7 +1,7 @@
 ---
 title: Defining Structure
-page_title: Defining Structure | RadTileList for ASP.NET AJAX Documentation
-description: Defining Structure
+page_title: Defining Structure - RadTileList
+description: Check our Web Forms article about Defining Structure.
 slug: tilelist/data-binding/defining-structure
 tags: defining,structure
 published: True

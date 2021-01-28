@@ -1,7 +1,7 @@
 ---
 title: Client-side
-page_title: Client-side | RadMap for ASP.NET AJAX Documentation
-description: Client-side
+page_title: Client-side - RadMap
+description: Check our Web Forms article about Client-side.
 slug: map/data-binding/client-side
 tags: client-side
 published: True

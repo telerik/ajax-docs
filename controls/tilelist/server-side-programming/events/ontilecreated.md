@@ -1,7 +1,7 @@
 ---
 title: OnTileCreated
-page_title: OnTileCreated | RadTileList for ASP.NET AJAX Documentation
-description: OnTileCreated
+page_title: OnTileCreated - RadTileList
+description: Check our Web Forms article about OnTileCreated.
 slug: tilelist/server-side-programming/server-side-events/ontilecreated
 tags: ontilecreated
 published: True

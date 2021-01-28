@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentEditing
-page_title: OnClientAppointmentEditing | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentEditing
+page_title: OnClientAppointmentEditing - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentEditing.
 slug: scheduler/client-side-programming/events/onclientappointmentediting
 tags: onclientappointmentediting
 published: True

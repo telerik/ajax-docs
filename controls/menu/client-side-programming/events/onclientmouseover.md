@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadMenu for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadMenu
+description: Check our Web Forms article about OnClientMouseOver.
 slug: menu/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

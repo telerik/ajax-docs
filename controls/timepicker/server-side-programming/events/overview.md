@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadTimePicker for ASP.NET AJAX Documentation
-description: RadTimePicker Server-Side Events Overview
+page_title: Overview - RadTimePicker
+description: Check our Web Forms article about RadTimePicker Server-Side Events Overview.
 slug: timepicker/server-side-programming/events/overview
 tags: server-side,events,overview
 published: True

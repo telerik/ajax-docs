@@ -1,7 +1,7 @@
 ---
 title: Totals in Grid Footers
-page_title: Totals in Grid Footers | RadGrid for ASP.NET AJAX Documentation
-description: Totals in Grid Footers
+page_title: Totals in Grid Footers - RadGrid
+description: Check our Web Forms article about Totals in Grid Footers.
 slug: grid/how-to/totals-in-grid-footers
 tags: totals,in,grid,footers
 published: True

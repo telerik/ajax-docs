@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadZipLibrary for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadZipLibrary
+description: Check our Web Forms article about Overview.
 slug: radziplibrary-overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Declarative Definition
-page_title: Declarative Definition | RadListView for ASP.NET AJAX Documentation
-description: Declarative Definition
+page_title: Declarative Definition - RadListView
+description: Check our Web Forms article about Declarative Definition.
 slug: listview/defining-structure/declarative-definition
 tags: declarative,definition
 published: True

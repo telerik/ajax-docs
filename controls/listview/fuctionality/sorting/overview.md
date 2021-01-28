@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Sorting Overview | RadListView for ASP.NET AJAX Documentation
-description: Overview
+page_title: Sorting Overview - RadListView
+description: Check our Web Forms article about Overview.
 slug: listview/fuctionality/sorting/overview
 tags: overview
 published: True

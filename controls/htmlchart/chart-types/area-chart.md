@@ -1,7 +1,7 @@
 ---
 title: Area Chart
-page_title: Area Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Area Chart
+page_title: Area Chart - RadHtmlChart
+description: Check our Web Forms article about Area Chart.
 slug: htmlchart/chart-types/area-chart
 tags: area,chart
 published: True

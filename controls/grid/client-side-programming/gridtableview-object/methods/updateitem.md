@@ -1,7 +1,7 @@
 ---
 title: updateItem
-page_title: updateItem | RadGrid for ASP.NET AJAX Documentation
-description: updateItem
+page_title: updateItem - RadGrid
+description: Check our Web Forms article about updateItem.
 slug: grid/client-side-programming/gridtableview-object/methods/updateitem
 tags: updateitem
 published: True

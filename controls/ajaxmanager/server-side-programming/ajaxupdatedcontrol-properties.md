@@ -1,7 +1,7 @@
 ---
 title: AjaxUpdatedControl Properties
-page_title: AjaxUpdatedControl Properties | RadAjax for ASP.NET AJAX Documentation
-description: AjaxUpdatedControl Properties
+page_title: AjaxUpdatedControl Properties
+description: Check our Web Forms article about AjaxUpdatedControl Properties.
 slug: ajaxmanager/server-side-programming/ajaxupdatedcontrol-properties
 previous_url: ajax/server-side-programming/ajaxupdatedcontrol-properties
 tags: ajaxupdatedcontrol,properties

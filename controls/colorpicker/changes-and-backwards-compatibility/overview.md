@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Changes and Backwards Compatibility Overview | RadColorPicker for ASP.NET AJAX Documentation
-description: Overview
+page_title: Changes and Backwards Compatibility Overview - RadColorPicker
+description: Check our Web Forms article about Overview.
 slug: colorpicker/changes-and-backwards-compatibility/overview
 tags: overview
 published: True

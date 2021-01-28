@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadDateInput for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadDateInput
+description: Check our Web Forms article about Validation.
 slug: dateinput/features/validation
 tags: dateinput,features,validation
 published: True

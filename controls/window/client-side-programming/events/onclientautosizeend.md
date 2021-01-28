@@ -1,7 +1,7 @@
 ---
 title: OnClientAutoSizeEnd
-page_title: OnClientAutoSizeEnd | RadWindow for ASP.NET AJAX Documentation
-description: OnClientAutoSizeEnd
+page_title: OnClientAutoSizeEnd - RadWindow
+description: Check our Web Forms article about OnClientAutoSizeEnd.
 slug: window/client-side-programming/events/onclientautosizeend
 tags: onclientautosizeend
 published: True

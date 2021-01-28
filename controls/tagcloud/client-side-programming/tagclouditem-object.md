@@ -1,7 +1,7 @@
 ---
 title: TagCloudItem Object
-page_title: TagCloudItem Object | RadTagCloud for ASP.NET AJAX Documentation
-description: TagCloudItem Object
+page_title: TagCloudItem Object - RadTagCloud
+description: Check our Web Forms article about TagCloudItem Object.
 slug: tagcloud/client-side-programming/tagclouditem-object
 tags: tagclouditem,object
 published: True

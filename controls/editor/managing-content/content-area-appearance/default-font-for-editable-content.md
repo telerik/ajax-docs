@@ -1,7 +1,7 @@
 ---
 title: Default Font for Editable Content
-page_title: Default Font for Editable Content | RadEditor for ASP.NET AJAX Documentation
-description: Default Font for Editable Content
+page_title: Default Font for Editable Content - RadEditor
+description: Check our Web Forms article about Default Font for Editable Content.
 slug: editor/managing-content/content-area-appearance/default-font-for-editable-content
 tags: default,font,for,editable,content
 published: True

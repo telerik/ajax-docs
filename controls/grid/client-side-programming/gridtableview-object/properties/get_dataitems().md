@@ -1,7 +1,7 @@
 ---
 title: get_dataItems()
-page_title: get_dataItems() | RadGrid for ASP.NET AJAX Documentation
-description: get_dataItems()
+page_title: get_dataItems() - RadGrid
+description: Check our Web Forms article about get_dataItems().
 slug: grid/client-side-programming/gridtableview-object/properties/get_dataitems()
 tags: get_dataitems()
 published: True

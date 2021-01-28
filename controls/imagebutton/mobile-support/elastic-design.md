@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadImageButton for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadImageButton
+description: Check our Web Forms article about Elastic Design.
 slug: imagebutton/mobile-support/elastic-design
 tags: elastic,design
 published: True

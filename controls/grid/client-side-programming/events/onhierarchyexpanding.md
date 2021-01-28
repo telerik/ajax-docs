@@ -1,7 +1,7 @@
 ---
 title: OnHierarchyExpanding
-page_title: OnHierarchyExpanding | RadGrid for ASP.NET AJAX Documentation
-description: OnHierarchyExpanding
+page_title: OnHierarchyExpanding - RadGrid
+description: Check our Web Forms article about OnHierarchyExpanding.
 slug: grid/client-side-programming/events/onhierarchyexpanding
 tags: onhierarchyexpanding
 published: True

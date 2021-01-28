@@ -1,7 +1,7 @@
 ---
 title: get_dataType()
-page_title: get_dataType() | RadGrid for ASP.NET AJAX Documentation
-description: get_dataType()
+page_title: get_dataType() - RadGrid
+description: Check our Web Forms article about get_dataType().
 slug: grid/client-side-programming/gridcolumn-object/properties/get_datatype()
 tags: get_datatype()
 published: True

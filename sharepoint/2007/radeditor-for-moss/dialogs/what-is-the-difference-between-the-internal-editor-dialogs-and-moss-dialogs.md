@@ -1,7 +1,7 @@
 ---
 title: What is the difference between the internal editor dialogs and MOSS dialogs
-page_title: What is the difference between the internal editor dialogs and MOSS dialogs | UI for ASP.NET AJAX Documentation
-description: What is the difference between the internal editor dialogs and MOSS dialogs
+page_title: What is the difference between the internal editor dialogs and MOSS dialogs
+description: Check our Web Forms article about What is the difference between the internal editor dialogs and MOSS dialogs.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/what-is-the-difference-between-the-internal-editor-dialogs-and-moss-dialogs
 tags: what,is,the,difference,between,the,internal,editor,dialogs,and,moss,dialogs
 published: True

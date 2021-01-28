@@ -1,7 +1,7 @@
 ---
 title: Tab Key Behavior
-page_title: Tab Key Behavior | RadEditor for ASP.NET AJAX Documentation
-description: Tab Key Behavior
+page_title: Tab Key Behavior - RadEditor
+description: Check our Web Forms article about Tab Key Behavior.
 slug: editor/accessibility-and-internationalization/keyboard-support/tab-key-behavior
 tags: tab,key,behavior
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using Different Configuration Files for Different SharePoint Sites
-page_title: Using Different Configuration Files for Different SharePoint Sites | UI for ASP.NET AJAX Documentation
-description: Using Different Configuration Files for Different SharePoint Sites
+page_title: Using Different Configuration Files for Different SharePoint Sites
+description: Check our Web Forms article about Using Different Configuration Files for Different SharePoint Sites.
 slug: sharepoint/2010/radeditor-web-part/configuration/using-different-configuration-files-for-different-sharepoint-sites
 tags: using,different,configuration,files,for,different,sharepoint,sites
 published: True

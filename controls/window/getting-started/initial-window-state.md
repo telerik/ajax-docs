@@ -1,7 +1,7 @@
 ---
 title: Initial Window State
-page_title: Initial Window State | RadWindow for ASP.NET AJAX Documentation
-description: Initial Window State
+page_title: Initial Window State - RadWindow
+description: Check our Web Forms article about Initial Window State.
 slug: window/getting-started/initial-window-state
 tags: initial,window,state
 published: True

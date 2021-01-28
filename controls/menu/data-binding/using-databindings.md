@@ -1,7 +1,7 @@
 ---
 title: Using DataBindings
-page_title: Using DataBindings | RadMenu for ASP.NET AJAX Documentation
-description: Using DataBindings
+page_title: Using DataBindings - RadMenu
+description: Check our Web Forms article about Using DataBindings.
 slug: menu/data-binding/using-databindings
 tags: using,databindings
 published: True

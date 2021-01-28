@@ -1,7 +1,7 @@
 ---
 title: Collapsing
-page_title: Collapsing | RadSplitter for ASP.NET AJAX Documentation
-description: Collapsing
+page_title: Collapsing - RadSplitter
+description: Check our Web Forms article about Collapsing.
 slug: splitter/panes/collapsing
 tags: collapsing
 published: True

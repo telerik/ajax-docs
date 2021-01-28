@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridHierarchyActionEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridHierarchyActionEventArgs
 slug: Telerik.Web.UI.GridHierarchyActionEventArgs
 ---

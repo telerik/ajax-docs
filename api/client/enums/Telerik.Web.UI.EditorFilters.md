@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorFilters
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorFilters
 slug: Telerik.Web.UI.EditorFilters
 ---

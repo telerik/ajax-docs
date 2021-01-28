@@ -1,7 +1,7 @@
 ---
 title: Binding to Object-Based DataSources
-page_title: Binding to Object-Based DataSources | RadPanelBar for ASP.NET AJAX Documentation
-description: Binding to Object-Based DataSources
+page_title: Binding to Object-Based DataSources - RadPanelBar
+description: Check our Web Forms article about Binding to Object-Based DataSources.
 slug: panelbar/data-binding/binding-to-object-based-datasources
 tags: binding,to,object-based,datasources
 published: True

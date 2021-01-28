@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadDropDownList for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET RadDropDownList Server-side Programming Overview
+page_title: Server-side Programming Overview - RadDropDownList
+description: Check our Web Forms article about Telerik's ASP.NET RadDropDownList Server-side Programming Overview.
 slug: dropdownlist/server-side-programming/overview
 tags: overview
 published: True

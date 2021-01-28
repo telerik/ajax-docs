@@ -1,7 +1,7 @@
 ---
 title: Scale Breaks
-page_title: Scale Breaks | RadChart for ASP.NET AJAX Documentation
-description: Scale Breaks
+page_title: Scale Breaks - RadChart
+description: Check our Web Forms article about Scale Breaks.
 slug: chart/features/scale-breaks
 tags: scale,breaks
 published: True

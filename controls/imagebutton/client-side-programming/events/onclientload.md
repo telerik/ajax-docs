@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadImageButton for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadImageButton
+description: Check our Web Forms article about OnClientLoad.
 slug: imagebutton/client-side-programming/events/onclientload
 tags: onclientload
 published: True

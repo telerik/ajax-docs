@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadProgressBar for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadProgressBar
+description: Check our Web Forms article about Design Time.
 slug: progressbar/design-time
 tags: design,time
 published: True

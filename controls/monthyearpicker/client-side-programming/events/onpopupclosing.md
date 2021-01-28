@@ -1,7 +1,7 @@
 ---
 title: OnPopupClosing
-page_title: OnPopupClosing | RAdMonthYearPicker for ASP.NET AJAX Documentation
-description: OnPopupClosing
+page_title: OnPopupClosing - RAdMonthYearPicker
+description: Check our Web Forms article about OnPopupClosing.
 slug: monthyearpicker/client-side-programming/events/onpopupclosing
 tags: onpopupclosing
 published: True

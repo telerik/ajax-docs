@@ -1,7 +1,7 @@
 ---
 title: Render Mode
-page_title: Render Mode | RadDatePicker for ASP.NET AJAX Documentation
-description: Render Mode
+page_title: Render Mode - RadDatePicker
+description: Check our Web Forms article about Render Mode.
 slug: datepicker/mobile-support/render-mode
 tags: render,mode
 published: True

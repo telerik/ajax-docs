@@ -1,7 +1,7 @@
 ---
 title: Selecting
-page_title: Selecting | RadGrid for ASP.NET AJAX Documentation
-description: Selecting
+page_title: Selecting - RadGrid
+description: Check our Web Forms article about Selecting.
 slug: grid/mobile-support/mobile-rendering/selecting
 tags: selecting
 published: True

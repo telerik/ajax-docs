@@ -1,7 +1,7 @@
 ---
 title: Data Editing
-page_title: Data Editing | RadGrid for ASP.NET AJAX Documentation
-description: Data Editing
+page_title: Data Editing - RadGrid
+description: Check our Web Forms article about Data Editing.
 slug: grid/mobile-support/mobile-rendering/data-editing
 tags: data,editing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom
-page_title: RadSpreadsheet CellFormat | UI for ASP.NET AJAX Documentation
-description: Custom Cell Format
+page_title: RadSpreadsheet CellFormat
+description: Check our Web Forms article about Custom Cell Format.
 slug: spreadsheet/functionality/cellformat/custom
 tags: cellformat
 published: True

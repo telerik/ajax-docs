@@ -1,7 +1,7 @@
 ---
 title: Declaring Sliding Zones
-page_title: Declaring Sliding Zones | RadSplitter for ASP.NET AJAX Documentation
-description: Declaring Sliding Zones
+page_title: Declaring Sliding Zones - RadSplitter
+description: Check our Web Forms article about Declaring Sliding Zones.
 slug: splitter/sliding-zones/declaring-sliding-zones
 tags: declaring,sliding,zones
 published: True

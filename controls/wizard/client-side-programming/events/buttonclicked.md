@@ -1,7 +1,7 @@
 ---
 title: ButtonClicked
-page_title: ButtonClicked | RadWizard for ASP.NET AJAX Documentation
-description: ButtonClicked
+page_title: ButtonClicked - RadWizard
+description: Check our Web Forms article about ButtonClicked.
 slug: wizard/client-side-programming/events/buttonclicked
 tags: buttonclicked
 published: True

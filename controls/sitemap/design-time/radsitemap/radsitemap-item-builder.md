@@ -1,7 +1,7 @@
 ---
 title: RadSiteMap Item Builder
-page_title: RadSiteMap Item Builder | RadSiteMap for ASP.NET AJAX Documentation
-description: RadSiteMap Item Builder
+page_title: RadSiteMap Item Builder - RadSiteMap
+description: Check our Web Forms article about RadSiteMap Item Builder.
 slug: sitemap/design-time/radsitemap/radsitemap-item-builder
 tags: radsitemap,item,builder
 published: True

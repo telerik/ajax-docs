@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Views Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Views Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/views/overview
 tags: overview
 published: True

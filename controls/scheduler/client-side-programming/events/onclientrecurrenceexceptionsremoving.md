@@ -1,7 +1,7 @@
 ---
 title: OnClientRecurrenceExceptionsRemoving
-page_title: OnClientRecurrenceExceptionsRemoving | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientRecurrenceExceptionsRemoving
+page_title: OnClientRecurrenceExceptionsRemoving - RadScheduler
+description: Check our Web Forms article about OnClientRecurrenceExceptionsRemoving.
 slug: scheduler/client-side-programming/events/onclientrecurrenceexceptionsremoving
 tags: onclientrecurrenceexceptionsremoving
 published: True

@@ -1,7 +1,7 @@
 ---
 title: getSelectionHtml
-page_title: getSelectionHtml | RadEditor for ASP.NET AJAX Documentation
-description: getSelectionHtml
+page_title: getSelectionHtml - RadEditor
+description: Check our Web Forms article about getSelectionHtml.
 slug: editor/client-side-programming/methods/getselectionhtml
 tags: getselectionhtml
 published: True

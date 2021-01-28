@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadSpell for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadSpell
+description: Check our Web Forms article about Skins.
 slug: spell/appearance-and-styling/skins
 tags: skins
 published: True

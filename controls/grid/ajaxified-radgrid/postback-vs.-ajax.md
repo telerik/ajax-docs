@@ -1,7 +1,7 @@
 ---
 title: Postback vs. AJAX
-page_title: Postback vs. AJAX | RadGrid for ASP.NET AJAX Documentation
-description: Postback vs. AJAX
+page_title: Postback vs. AJAX - RadGrid
+description: Check our Web Forms article about Postback vs. AJAX.
 slug: grid/ajaxified-radgrid/postback-vs.-ajax
 tags: postback,vs.,ajax
 published: True

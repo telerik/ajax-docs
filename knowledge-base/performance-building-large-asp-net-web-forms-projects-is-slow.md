@@ -2,7 +2,7 @@
 title: Building large ASP.NET Web Forms site is slow
 description: Learn how to increase the build speed of a large ASP.NET Web Forms website, like the Telerik AJAX live demos app, via the Property Pages Build configuration of Visual Studio.
 type: troubleshooting
-page_title: Telerik Live demos build process takes a very long time 
+page_title: Telerik Live demos build process takes a very long time
 slug: performance-building-large-asp-net-web-forms-projects-is-slow
 position: 
 tags: 

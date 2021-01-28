@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadPanelBar for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadPanelBar
+description: Check our Web Forms article about Structure.
 slug: panelbar/overview/structure
 tags: structure
 published: True

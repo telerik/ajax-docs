@@ -1,7 +1,7 @@
 ---
 title: Deleting Grid Items Depending on CheckBox State
-page_title: Deleting Grid Items Depending on CheckBox State | RadGrid for ASP.NET AJAX Documentation
-description: Deleting Grid Items Depending on CheckBox State
+page_title: Deleting Grid Items Depending on CheckBox State - RadGrid
+description: Check our Web Forms article about Deleting Grid Items Depending on CheckBox State.
 slug: grid/data-editing/delete-records/deleting-grid-items-depending-on-checkbox-state
 tags: deleting,grid,items,depending,on,checkbox,state
 published: True

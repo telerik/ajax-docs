@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadAsyncUpload for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadAsyncUpload
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: asyncupload/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

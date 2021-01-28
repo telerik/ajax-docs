@@ -1,7 +1,7 @@
 ---
 title: Standards Compliance
-page_title: RadTreeView Standards Compliance | RadTreeView for ASP.NET AJAX Documentation
-description: RadTreeView Standards Compliance
+page_title: RadTreeView Standards Compliance - RadTreeView
+description: Check our Web Forms article about RadTreeView Standards Compliance.
 slug: treeview/standards-compliance
 tags: radtreeview,standards,compliance
 published: True

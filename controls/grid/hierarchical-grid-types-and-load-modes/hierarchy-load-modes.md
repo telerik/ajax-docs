@@ -1,7 +1,7 @@
 ---
 title: Hierarchy load modes
-page_title: Hierarchy load modes | RadGrid for ASP.NET AJAX Documentation
-description: Hierarchy load modes
+page_title: Hierarchy load modes - RadGrid
+description: Check our Web Forms article about Hierarchy load modes.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes
 tags: hierarchy,load,modes
 published: True

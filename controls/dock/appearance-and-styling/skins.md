@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadDock for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadDock
+description: Check our Web Forms article about Skins.
 slug: dock/appearance-and-styling/skins
 tags: skins
 published: True

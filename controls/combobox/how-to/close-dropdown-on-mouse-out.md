@@ -1,7 +1,7 @@
 ---
 title: Close Dropdown on Mouse Out
-page_title: Close Dropdown on Mouse Out | RadComboBox for ASP.NET AJAX Documentation
-description: Close Dropdown on Mouse Out
+page_title: Close Dropdown on Mouse Out - RadComboBox
+description: Check our Web Forms article about Close Dropdown on Mouse Out.
 slug: combobox/how-to/close-dropdown-on-mouse-out
 tags: close,dropdown,on,mouse,out
 published: True

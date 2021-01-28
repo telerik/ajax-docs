@@ -1,7 +1,7 @@
 ---
 title: Date Format Patterns
-page_title: Date Format Patterns | RadCalendar for ASP.NET AJAX Documentation
-description: Date Format Patterns
+page_title: Date Format Patterns - RadCalendar
+description: Check our Web Forms article about Date Format Patterns.
 slug: calendar/accessibility-and-internationalization/date-format-patterns
 tags: date,format,patterns
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using Additional Columns
-page_title: Using Additional Columns | RadTreeView for ASP.NET AJAX Documentation
-description: Using Additional Columns
+page_title: Using Additional Columns - RadTreeView
+description: Check our Web Forms article about Using Additional Columns.
 slug: treeview/data-binding/using-additional-columns
 tags: using,additional,columns
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadPushButton for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadPushButton
+description: Check our Web Forms article about OnClientMouseOver.
 slug: pushbutton/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

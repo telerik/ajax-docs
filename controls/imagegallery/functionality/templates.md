@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadImageGallery for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadImageGallery
+description: Check our Web Forms article about Templates.
 slug: imagegallery/functionality/templates
 tags: templates
 published: True

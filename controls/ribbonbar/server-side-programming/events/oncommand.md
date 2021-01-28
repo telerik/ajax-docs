@@ -1,7 +1,7 @@
 ---
 title: OnCommand
-page_title: OnCommand | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnCommand
+page_title: OnCommand - RadRibbonBar
+description: Check our Web Forms article about OnCommand.
 slug: ribbonbar/server-side-programming/events/oncommand
 tags: oncommand
 published: True

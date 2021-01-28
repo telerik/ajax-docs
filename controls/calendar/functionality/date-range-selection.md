@@ -1,7 +1,7 @@
 ---
 title: Date Range Selection
-page_title: Date Range Selection | RadCalendar for ASP.NET AJAX Documentation
-description: Date Range Selection
+page_title: Date Range Selection - RadCalendar
+description: Check our Web Forms article about Date Range Selection.
 slug: calendar/functionality/date-range-selection
 tags: date,range,selection
 published: True

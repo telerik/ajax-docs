@@ -1,7 +1,7 @@
 ---
 title: Custom Links
-page_title: Custom Links | UI for ASP.NET AJAX Documentation
-description: Custom Links
+page_title: Custom Links
+description: Check our Web Forms article about Custom Links.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/custom-links
 tags: custom,links
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadRibbonBar for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadRibbonBar
+description: Check our Web Forms article about Overview.
 slug: ribbonbar/server-side-programming/events/overview
 tags: overview
 published: True

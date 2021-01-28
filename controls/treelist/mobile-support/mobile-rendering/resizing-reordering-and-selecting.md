@@ -1,7 +1,7 @@
 ---
 title: Functionality
-page_title: Functionality | RadTreeList for ASP.NET AJAX Documentation
-description: Mobile Functionality
+page_title: Functionality - RadTreeList
+description: Check our Web Forms article about Mobile Functionality.
 slug: treelist/mobile-support/mobile-rendering/functionality
 tags: resizing,reordering and selecting
 published: True

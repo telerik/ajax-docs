@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Scrolling Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Scrolling Overview - RadTreeList
+description: Check our Web Forms article about Overview.
 slug: treelist/functionality/scrolling/overview
 tags: overview
 published: True

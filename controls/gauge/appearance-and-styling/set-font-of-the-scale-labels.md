@@ -1,7 +1,7 @@
 ---
 title: Set Font of the Scale Labels
-page_title: Set Font of the Scale Labels | RadGauge for ASP.NET AJAX Documentation
-description: Set Font of the Scale Labels
+page_title: Set Font of the Scale Labels - RadGauge
+description: Check our Web Forms article about Set Font of the Scale Labels.
 slug: gauge/appearance-and-styling/set-font-of-the-scale-labels
 tags: set,font,of,the,scale,labels
 published: True

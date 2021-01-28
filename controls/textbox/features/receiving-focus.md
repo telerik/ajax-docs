@@ -1,7 +1,7 @@
 ---
 title: Receiving Focus
-page_title: Receiving Focus | RadTextBox for ASP.NET AJAX Documentation
-description: Receiving Focus
+page_title: Receiving Focus - RadTextBox
+description: Check our Web Forms article about Receiving Focus.
 slug: radtextbox/features/receiving-focus
 tags: receiving,focus
 published: True

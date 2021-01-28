@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Visual Studio Extensions Overview | UI for ASP.NET AJAX Documentation
-description: Visual Studio extensions for Telerik AJAX project creation, upgrade, configration and conversion. Common scenarios and toolbox configuration of Telerik tools.
+page_title: Visual Studio Extensions Overview
+description: Check our Web Forms article about Visual Studio extensions for Telerik AJAX project creation, upgrade, configration and conversion. Common scenarios and toolbox configuration of Telerik tools.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview
 tags: overview
 published: True

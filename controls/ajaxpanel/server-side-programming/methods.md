@@ -1,7 +1,7 @@
 ---
 title: Methods
-page_title: Methods | RadAjax for ASP.NET AJAX Documentation
-description: Methods
+page_title: Methods
+description: Check our Web Forms article about Methods.
 slug: ajaxpanel/server-side-programming/methods
 tags: methods
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientRequestStart
-page_title: OnClientRequestStart | RadGantt for ASP.NET AJAX Documentation
-description: OnClientRequestStart
+page_title: OnClientRequestStart - RadGantt
+description: Check our Web Forms article about OnClientRequestStart.
 slug: gantt/client-side-programming/events/onclientrequeststart
 tags: onclientrequeststart
 published: True

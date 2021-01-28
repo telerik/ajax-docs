@@ -1,7 +1,7 @@
 ---
 title: OnBatchEditSetEditorValue
-page_title: OnBatchEditSetEditorValue | RadGrid for ASP.NET AJAX Documentation
-description: OnBatchEditSetEditorValue
+page_title: OnBatchEditSetEditorValue - RadGrid
+description: Check our Web Forms article about OnBatchEditSetEditorValue.
 slug: grid/client-side-programming/events/onbatcheditseteditorvalue
 tags: onbatcheditseteditorvalue
 published: True

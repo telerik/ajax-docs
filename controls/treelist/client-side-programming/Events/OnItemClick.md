@@ -1,7 +1,7 @@
 ---
 title: OnItemClick
-page_title: OnItemClick | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemClick Event
+page_title: OnItemClick - RadTreeList
+description: Check our Web Forms article about OnItemClick Event.
 slug: treelist/client-side-programming/Events/OnItemClick
 tags: events,OnItemClick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadDateInput Client Object
-page_title: RadDateInput Client Object | RadDateInput for ASP.NET AJAX Documentation
-description: RadDateInput Client Object
+page_title: RadDateInput Client Object - RadDateInput
+description: Check our Web Forms article about RadDateInput Client Object.
 slug: raddateinput/client-side-programming/raddateinput-client-object
 tags: raddateinput,client,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Page-break Button
-page_title: Page-break Button | RadEditor for ASP.NET AJAX Documentation
-description: Page-break Button
+page_title: Page-break Button - RadEditor
+description: Check our Web Forms article about Page-break Button.
 slug: editor/functionality/toolbars/buttons/examples/page-break-button
 tags: page-break,button
 published: True

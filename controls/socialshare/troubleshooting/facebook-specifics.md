@@ -1,7 +1,7 @@
 ---
 title: Facebook Specifics
-page_title: Facebook Specifics | RadSocialShare for ASP.NET AJAX Documentation
-description: Facebook Specifics
+page_title: Facebook Specifics - RadSocialShare
+description: Check our Web Forms article about Facebook Specifics.
 slug: socialshare/troubleshooting/facebook-specifics
 tags: facebook,specifics
 published: True

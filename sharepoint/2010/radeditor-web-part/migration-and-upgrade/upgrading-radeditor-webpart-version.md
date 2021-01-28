@@ -1,7 +1,7 @@
 ---
 title: Upgrading RadEditor WebPart Version
-page_title: Upgrading RadEditor WebPart Version | UI for ASP.NET AJAX Documentation
-description: Upgrading RadEditor WebPart Version
+page_title: Upgrading RadEditor WebPart Version
+description: Check our Web Forms article about Upgrading RadEditor WebPart Version.
 slug: sharepoint/2010/radeditor-web-part/migration-and-upgrade/upgrading-radeditor-webpart-version
 tags: upgrading,radeditor,webpart,version
 published: True

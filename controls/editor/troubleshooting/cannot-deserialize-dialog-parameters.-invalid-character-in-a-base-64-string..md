@@ -1,7 +1,7 @@
 ---
 title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
-page_title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string. | RadEditor for ASP.NET AJAX Documentation
-description: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
+page_title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string. - RadEditor
+description: Check our Web Forms article about Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 slug: editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.
 tags: cannot,deserialize,dialog,parameters.,invalid,character,in,a,base-64,string.
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadInput for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadInput
+description: Check our Web Forms article about Overview.
 slug: radtextbox/client-side-programming/events/overview
 tags: overview
 published: True

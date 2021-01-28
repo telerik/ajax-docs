@@ -1,7 +1,7 @@
 ---
 title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn
-page_title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
-description: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn
+page_title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn - RadGrid
+description: Check our Web Forms article about Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn.
 slug: grid/how-to/data-editing/insert-in-grid-with-tooltip
 previous_url: controls/grid/how-to/operations-with-ms-dropdownlist-in-edititemtemplate-of-gridtemplatecolumn
 tags: operations,with,ms,dropdownlist,in,edititemtemplate,of,gridtemplatecolumn

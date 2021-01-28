@@ -1,7 +1,7 @@
 ---
 title: OnClientCollapsing
-page_title: OnClientCollapsing | RadSplitter for ASP.NET AJAX Documentation
-description: OnClientCollapsing
+page_title: OnClientCollapsing - RadSplitter
+description: Check our Web Forms article about OnClientCollapsing.
 slug: splitter/client-side-programming/events/onclientcollapsing
 tags: onclientcollapsing
 published: True

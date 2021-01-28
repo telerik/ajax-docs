@@ -1,7 +1,7 @@
 ---
 title: OnRowDropped
-page_title: OnRowDropped | RadGrid for ASP.NET AJAX Documentation
-description: OnRowDropped
+page_title: OnRowDropped - RadGrid
+description: Check our Web Forms article about OnRowDropped.
 slug: grid/client-side-programming/events/onrowdropped
 tags: onrowdropped
 published: True

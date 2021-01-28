@@ -1,7 +1,7 @@
 ---
 title: Load Content Via WebService
-page_title: Load Content Via WebService | RadNotification for ASP.NET AJAX Documentation
-description: Load Content Via WebService
+page_title: Load Content Via WebService - RadNotification
+description: Check our Web Forms article about Load Content Via WebService.
 slug: notification/setting-content/load-content-via-webservice
 tags: load,content,via,webservice
 published: True

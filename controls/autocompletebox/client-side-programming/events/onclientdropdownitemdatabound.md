@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownItemDataBound
-page_title: OnClientDropDownItemDataBound | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: OnClientDropDownItemDataBound
+page_title: OnClientDropDownItemDataBound - RadAutoCompleteBox
+description: Check our Web Forms article about OnClientDropDownItemDataBound.
 slug: autocompletebox/client-side-programming/events/onclientdropdownitemdatabound
 tags: onclientdropdownitemdatabound
 published: True

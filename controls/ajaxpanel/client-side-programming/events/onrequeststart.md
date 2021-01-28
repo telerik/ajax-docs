@@ -1,7 +1,7 @@
 ---
 title: OnRequestStart
-page_title: OnRequestStart | RadAjax for ASP.NET AJAX Documentation
-description: OnRequestStart
+page_title: OnRequestStart
+description: Check our Web Forms article about OnRequestStart.
 slug: ajaxpanel/client-side-programming/events/onrequeststart
 tags: onrequeststart
 published: True

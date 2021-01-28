@@ -1,7 +1,7 @@
 ---
 title: Data Binding Overview
-page_title: Overview | RadSearchBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadSearchBox
+description: Check our Web Forms article about Overview.
 slug: searchbox/search-context/data-binding/overview
 tags: overview
 published: True

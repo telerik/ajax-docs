@@ -1,7 +1,7 @@
 ---
 title: OnClientActivate
-page_title: OnClientActivate | RadWindow for ASP.NET AJAX Documentation
-description: OnClientActivate
+page_title: OnClientActivate - RadWindow
+description: Check our Web Forms article about OnClientActivate.
 slug: window/client-side-programming/events/onclientactivate
 tags: onclientactivate
 published: True

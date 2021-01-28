@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs
 slug: Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs
 ---

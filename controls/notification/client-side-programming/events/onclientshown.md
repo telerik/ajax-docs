@@ -1,7 +1,7 @@
 ---
 title: OnClientShown
-page_title: OnClientShown | RadNotification for ASP.NET AJAX Documentation
-description: OnClientShown
+page_title: OnClientShown - RadNotification
+description: Check our Web Forms article about OnClientShown.
 slug: notification/client-side-programming/events/onclientshown
 tags: onclientshown
 published: True

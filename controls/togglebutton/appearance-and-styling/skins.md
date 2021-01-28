@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadToggleButton for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadToggleButton
+description: Check our Web Forms article about Skins.
 slug: togglebutton/appearance-and-styling/skins
 tags: skins
 published: True

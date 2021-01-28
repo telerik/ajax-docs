@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Control Lifecycle Overview | RadListView for ASP.NET AJAX Documentation
-description: Overview
+page_title: Control Lifecycle Overview - RadListView
+description: Check our Web Forms article about Overview.
 slug: listview/control-lifecycle/overview
 tags: overview
 published: True

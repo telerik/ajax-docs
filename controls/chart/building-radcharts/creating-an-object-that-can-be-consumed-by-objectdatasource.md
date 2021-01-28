@@ -1,7 +1,7 @@
 ---
 title: Creating an Object that can be Consumed by ObjectDataSource
-page_title: Creating an Object that can be Consumed by ObjectDataSource | RadChart for ASP.NET AJAX Documentation
-description: Creating an Object that can be Consumed by ObjectDataSource
+page_title: Creating an Object that can be Consumed by ObjectDataSource - RadChart
+description: Check our Web Forms article about Creating an Object that can be Consumed by ObjectDataSource.
 slug: chart/building-radcharts/creating-an-object-that-can-be-consumed-by-objectdatasource
 tags: creating,an,object,that,can,be,consumed,by,objectdatasource
 published: True

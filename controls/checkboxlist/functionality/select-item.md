@@ -1,7 +1,7 @@
 ---
 title: Select Item
-page_title: Select Item | RadCheckBoxList for ASP.NET AJAX Documentation
-description: Select Item
+page_title: Select Item - RadCheckBoxList
+description: Check our Web Forms article about Select Item.
 slug: checkboxlist/functionality/select-item
 tags: select,item
 published: True

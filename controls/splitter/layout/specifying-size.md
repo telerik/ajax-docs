@@ -1,7 +1,7 @@
 ---
 title: Specifying Size
-page_title: Specifying Size | RadSplitter for ASP.NET AJAX Documentation
-description: Specifying Size
+page_title: Specifying Size - RadSplitter
+description: Check our Web Forms article about Specifying Size.
 slug: splitter/layout/specifying-size
 tags: specifying,size
 published: True

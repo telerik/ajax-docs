@@ -1,7 +1,7 @@
 ---
 title: Strip Formatting Tools
-page_title: Strip Formatting Tools | RadEditor for ASP.NET AJAX Documentation
-description: Strip Formatting Tools
+page_title: Strip Formatting Tools - RadEditor
+description: Check our Web Forms article about Strip Formatting Tools.
 slug: editor/functionality/toolbars/dropdowns/strip-formatting-tools
 tags: strip,formatting,tools
 published: True

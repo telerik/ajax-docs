@@ -1,7 +1,7 @@
 ---
 title: How to Use a jQuery Plugin
-page_title: How to Use a jQuery Plugin | UI for ASP.NET AJAX Documentation
-description: How to Use a jQuery Plugin
+page_title: How to Use a jQuery Plugin
+description: Check our Web Forms article about How to Use a jQuery Plugin.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/how-to-use-a-jquery-plugin
 tags: how,to,use,a,jquery,plugin
 published: True

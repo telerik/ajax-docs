@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentsPopulated
-page_title: OnClientAppointmentsPopulated | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentsPopulated
+page_title: OnClientAppointmentsPopulated - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentsPopulated.
 slug: scheduler/client-side-programming/events/onclientappointmentspopulated
 tags: onclientappointmentspopulated
 published: True

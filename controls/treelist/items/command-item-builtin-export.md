@@ -1,7 +1,7 @@
 ---
 title: Command Item with Export Buttons
-page_title: Command Item | RadTreeList for ASP.NET AJAX Documentation
-description: Command Item for built in export
+page_title: Command Item - RadTreeList
+description: Check our Web Forms article about Command Item for built in export.
 slug: treelist/items/command-item
 tags: command,item,export
 published: True

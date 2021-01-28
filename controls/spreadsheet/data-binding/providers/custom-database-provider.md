@@ -1,7 +1,7 @@
 ---
 title: Implementing Custom Provider
-page_title: Implementing Custom Provider | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Custom Database Provider
+page_title: Implementing Custom Provider - RadSpreadsheet
+description: Check our Web Forms article about Custom Database Provider.
 slug: spreadsheet/data-binding/providers/custom-database-provider
 tags: custom,database,provider
 published: True

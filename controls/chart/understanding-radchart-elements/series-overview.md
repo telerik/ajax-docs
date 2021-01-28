@@ -1,7 +1,7 @@
 ---
 title: Series Overview
-page_title: Series Overview | RadChart for ASP.NET AJAX Documentation
-description: Series Overview
+page_title: Series Overview - RadChart
+description: Check our Web Forms article about Series Overview.
 slug: chart/understanding-radchart-elements/series-overview
 tags: series,overview
 published: True

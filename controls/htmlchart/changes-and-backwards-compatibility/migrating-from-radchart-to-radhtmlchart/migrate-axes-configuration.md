@@ -1,7 +1,7 @@
 ---
 title: Migrate Axes Configuration
-page_title: Migrate Axes Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Migrate Axes Configuration
+page_title: Migrate Axes Configuration - RadHtmlChart
+description: Check our Web Forms article about Migrate Axes Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-axes-configuration
 tags: migrate,axes,configuration
 published: True

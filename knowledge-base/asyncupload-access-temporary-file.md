@@ -1,8 +1,8 @@
 ---
 title: Access temporary file name and manually delete tempfile from RadAsyncUpload
-description: Accessing temporary files from UploadFile in RadAsyncUpload to get the name and remove the file manually
+description: Accessing temporary files from UploadFile in RadAsyncUpload to get the name and remove the file manually.
 type: how-to
-page_title: Accessing Temporary files - RadAsyncUpload | Telerik UI for ASP.NET AJAX
+page_title: Accessing Temporary files - RadAsyncUpload
 slug: asyncupload-access-temporary-file
 position: 
 tags: temporaryfile, asyncupload, manually, delete, delete temporary file, temporary file name

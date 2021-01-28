@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadProgressBar Overview | UI for ASP.NET AJAX Documentation
-description: ProgressBar Overview
+page_title: RadProgressBar Overview
+description: Check our Web Forms article about ProgressBar Overview.
 slug: progressbar/overview
 tags: overview
 published: True

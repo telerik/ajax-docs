@@ -1,7 +1,7 @@
 ---
 title: Animations
-page_title: Animations | RadPanelBar for ASP.NET AJAX Documentation
-description: Animations
+page_title: Animations - RadPanelBar
+description: Check our Web Forms article about Animations.
 slug: panelbar/appearance-and-styling/animations
 tags: animations
 published: True

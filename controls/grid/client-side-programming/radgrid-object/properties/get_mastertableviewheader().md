@@ -1,7 +1,7 @@
 ---
 title: get_masterTableViewHeader()
-page_title: get_masterTableViewHeader() | RadGrid for ASP.NET AJAX Documentation
-description: get_masterTableViewHeader()
+page_title: get_masterTableViewHeader() - RadGrid
+description: Check our Web Forms article about get_masterTableViewHeader().
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewheader()
 tags: get_mastertableviewheader()
 published: True

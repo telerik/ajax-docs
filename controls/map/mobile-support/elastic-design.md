@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadMap for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadMap
+description: Check our Web Forms article about Elastic Design.
 slug: map/mobile-support/elastic-design
 tags: elastic,design
 published: True

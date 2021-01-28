@@ -1,7 +1,7 @@
 ---
 title: RadUpload Object
-page_title: RadUpload Object | RadUpload for ASP.NET AJAX Documentation
-description: RadUpload Object
+page_title: RadUpload Object - RadUpload
+description: Check our Web Forms article about RadUpload Object.
 slug: upload/client-side-programming/radupload-object
 tags: radupload,object
 published: True

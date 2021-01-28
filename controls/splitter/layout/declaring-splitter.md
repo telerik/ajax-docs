@@ -1,7 +1,7 @@
 ---
 title: Declaring Splitter
-page_title: Declaring Splitter | RadSplitter for ASP.NET AJAX Documentation
-description: Declaring Splitter
+page_title: Declaring Splitter - RadSplitter
+description: Check our Web Forms article about Declaring Splitter.
 slug: splitter/layout/declaring-splitter
 tags: declaring,splitter
 published: True

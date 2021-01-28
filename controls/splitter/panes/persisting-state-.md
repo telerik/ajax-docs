@@ -1,7 +1,7 @@
 ---
 title: Persisting State 
-page_title: Persisting State  | RadSplitter for ASP.NET AJAX Documentation
-description: Persisting State 
+page_title: Persisting State - RadSplitter
+description: Check our Web Forms article about Persisting State.
 slug: splitter/panes/persisting-state-
 tags: persisting,state,
 published: True

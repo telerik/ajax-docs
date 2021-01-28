@@ -1,7 +1,7 @@
 ---
 title: OnClientGroupPopulationFailed
-page_title: OnClientGroupPopulationFailed | RadOrgChart for ASP.NET AJAX Documentation
-description: OnClientGroupPopulationFailed
+page_title: OnClientGroupPopulationFailed - RadOrgChart
+description: Check our Web Forms article about OnClientGroupPopulationFailed.
 slug: orgchart/client-side-programming/events/onclientgrouppopulationfailed
 tags: onclientgrouppopulationfailed
 published: True

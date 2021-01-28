@@ -1,7 +1,7 @@
 ---
 title: Change the End Date When the Start Date Changes
-page_title: Change the End Date When the Start Date Changes | RadScheduler for ASP.NET AJAX Documentation
-description: Change the End Date When the Start Date Changes
+page_title: Change the End Date When the Start Date Changes - RadScheduler
+description: Check our Web Forms article about Change the End Date When the Start Date Changes.
 slug: scheduler/how-to/change-the-end-date-when-the-start-date-changes
 tags: change,the,end,date,when,the,start,date,changes
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom Templates 
-page_title: Custom Templates | RadChat for ASP.NET AJAX Documentation
-description: Custom Templates 
+page_title: Custom Templates - RadChat
+description: Check our Web Forms article about Custom Templates.
 slug: chat/functionality/templates
 tags: custom,templates
 published: True

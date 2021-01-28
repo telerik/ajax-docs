@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTagCloud
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTagCloud
 slug: Telerik.Web.UI.RadTagCloud
 ---

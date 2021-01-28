@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadTreeView Performance
-page_title: Optimizing RadTreeView Performance | RadTreeView for ASP.NET AJAX Documentation
-description: Optimizing RadTreeView Performance
+page_title: Optimizing RadTreeView Performance - RadTreeView
+description: Check our Web Forms article about Optimizing RadTreeView Performance.
 slug: treeview/troubleshooting/optimizing-radtreeview-performance
 tags: optimizing,radtreeview,performance
 published: True

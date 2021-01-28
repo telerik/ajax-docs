@@ -1,7 +1,7 @@
 ---
 title: Applying Custom Sort Criteria
-page_title: Applying Custom Sort Criteria | RadGrid for ASP.NET AJAX Documentation
-description: Applying Custom Sort Criteria
+page_title: Applying Custom Sort Criteria - RadGrid
+description: Check our Web Forms article about Applying Custom Sort Criteria.
 slug: grid/functionality/sorting/applying-custom-sort-criteria
 tags: applying,custom,sort,criteria
 published: True

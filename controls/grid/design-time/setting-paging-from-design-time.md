@@ -1,7 +1,7 @@
 ---
 title: Setting Paging from Design Time
-page_title: Setting Paging from Design Time | RadGrid for ASP.NET AJAX Documentation
-description: Setting Paging from Design Time
+page_title: Setting Paging from Design Time - RadGrid
+description: Check our Web Forms article about Setting Paging from Design Time.
 slug: grid/design-time/setting-paging-from-design-time
 tags: setting,paging,from,design,time
 published: True

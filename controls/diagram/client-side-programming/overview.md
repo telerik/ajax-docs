@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadDiagram for ASP.NET AJAX Documentation
-description: Client-side Programming Overview
+page_title: Overview - RadDiagram
+description: Check our Web Forms article about Client-side Programming Overview.
 slug: diagram/client-side-programming/overview
 tags: overview
 published: True

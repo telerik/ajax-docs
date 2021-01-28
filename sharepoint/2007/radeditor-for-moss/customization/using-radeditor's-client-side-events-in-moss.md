@@ -1,7 +1,7 @@
 ---
 title: Using RadEditor's Client-Side events in MOSS
-page_title: Using RadEditor's Client-Side events in MOSS | UI for ASP.NET AJAX Documentation
-description: Using RadEditor's Client-Side events in MOSS
+page_title: Using RadEditor's Client-Side events in MOSS
+description: Check our Web Forms article about Using RadEditor's Client-Side events in MOSS.
 slug: sharepoint/2007/radeditor-for-moss/customization/using-radeditor's-client-side-events-in-moss
 tags: using,radeditor's,client-side,events,in,moss
 published: True

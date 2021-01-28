@@ -1,7 +1,7 @@
 ---
 title: AppointmentCancelingEdit
-page_title: AppointmentCancelingEdit | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentCancelingEdit
+page_title: AppointmentCancelingEdit - RadScheduler
+description: Check our Web Forms article about AppointmentCancelingEdit.
 slug: scheduler/server-side-programming/server-events/appointmentcancelingedit
 tags: appointmentcancelingedit
 published: True

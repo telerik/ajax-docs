@@ -1,7 +1,7 @@
 ---
 title: OnClientHidden
-page_title: OnClientHidden | RadMenu for ASP.NET AJAX Documentation
-description: OnClientHidden
+page_title: OnClientHidden - RadMenu
+description: Check our Web Forms article about OnClientHidden.
 slug: menu/client-side-programming/events/onclienthidden
 tags: onclienthidden
 published: True

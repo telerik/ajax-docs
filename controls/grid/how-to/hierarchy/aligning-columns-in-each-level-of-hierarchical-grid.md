@@ -1,7 +1,7 @@
 ---
 title: Aligning Columns in Each Level of Hierarchical Grid
-page_title: Aligning columns in each level of hierarchical grid | RadGrid for ASP.NET AJAX Documentation
-description: Aligning columns in each level of hierarchical grid
+page_title: Aligning columns in each level of hierarchical grid - RadGrid
+description: Check our Web Forms article about Aligning columns in each level of hierarchical grid.
 slug: grid/how-to/hierarchy/aligning-columns-in-each-level-of-hierarchical-grid
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/aligning-columns-in-each-level-of-hierarchical-grid
 tags: aligning,columns,in,each,level,of,hierarchical,grid

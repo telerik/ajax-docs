@@ -1,7 +1,7 @@
 ---
 title: IE9 Compatibility Modes
-page_title: IE9 Compatibility Modes | RadImageEditor for ASP.NET AJAX Documentation
-description: IE9 Compatibility Modes
+page_title: IE9 Compatibility Modes - RadImageEditor
+description: Check our Web Forms article about IE9 Compatibility Modes.
 slug: imageeditor/troubleshooting/known-issues/ie9-compatibility-modes
 tags: ie9,compatibility,modes
 published: True

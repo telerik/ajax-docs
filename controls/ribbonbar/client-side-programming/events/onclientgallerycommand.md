@@ -1,7 +1,7 @@
 ---
 title: OnClientGalleryCommand
-page_title: OnClientGalleryCommand | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientGalleryCommand
+page_title: OnClientGalleryCommand - RadRibbonBar
+description: Check our Web Forms article about OnClientGalleryCommand.
 slug: ribbonbar/client-side-programming/events/onclientgallerycommand
 tags: onclientgallerycommand
 published: True

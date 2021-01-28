@@ -1,7 +1,7 @@
 ---
 title: Conditional Row Select in Hierarchy
-page_title: Conditional Row Select in Hierarchy | RadGrid for ASP.NET AJAX Documentation
-description: Conditional Row Select in Hierarchy
+page_title: Conditional Row Select in Hierarchy - RadGrid
+description: Check our Web Forms article about Conditional Row Select in Hierarchy.
 slug: grid/how-to/selecting/conditional-row-select-in-hierarchy
 previous_url: controls/grid/functionality/selecting/how-to/conditional-row-select-in-hierarchy
 tags: client-side,selecting,conditional, hierarchy

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadRating for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadRating
+description: Check our Web Forms article about Getting Started.
 slug: rating/getting-started
 tags: getting,started
 published: True

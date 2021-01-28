@@ -1,7 +1,7 @@
 ---
 title: Introduction
-page_title: Introduction | UI for ASP.NET AJAX Documentation
-description: Introduction
+page_title: Introduction
+description: Check our Web Forms article about Introduction.
 slug: sharepoint/2007/radeditor-for-moss/introduction
 tags: introduction
 published: True

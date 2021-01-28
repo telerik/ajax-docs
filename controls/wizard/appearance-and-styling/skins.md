@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadWizard for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadWizard
+description: Check our Web Forms article about Skins.
 slug: wizard/appearance-and-styling/skins
 tags: skins
 published: True

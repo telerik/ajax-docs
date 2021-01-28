@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs
 slug: Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs
 ---

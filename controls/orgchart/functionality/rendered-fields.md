@@ -1,7 +1,7 @@
 ---
 title: Rendered Fields
-page_title: Rendered Fields | RadOrgChart for ASP.NET AJAX Documentation
-description: Rendered Fields
+page_title: Rendered Fields - RadOrgChart
+description: Check our Web Forms article about Rendered Fields.
 slug: orgchart/functionality/rendered-fields
 tags: rendered,fields
 published: True

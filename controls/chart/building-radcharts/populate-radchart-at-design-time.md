@@ -1,7 +1,7 @@
 ---
 title: Populate RadChart at Design-Time
-page_title: Populate RadChart at Design-Time | RadChart for ASP.NET AJAX Documentation
-description: Populate RadChart at Design-Time
+page_title: Populate RadChart at Design-Time - RadChart
+description: Check our Web Forms article about Populate RadChart at Design-Time.
 slug: chart/building-radcharts/populate-radchart-at-design-time
 tags: populate,radchart,at,design-time
 published: True

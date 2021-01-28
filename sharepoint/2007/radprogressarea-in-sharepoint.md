@@ -1,7 +1,7 @@
 ---
 title: RadProgressArea in SharePoint
-page_title: RadProgressArea in SharePoint | UI for ASP.NET AJAX Documentation
-description: RadProgressArea in SharePoint
+page_title: RadProgressArea in SharePoint
+description: Check our Web Forms article about RadProgressArea in SharePoint.
 slug: sharepoint/2007/radprogressarea-in-sharepoint
 tags: radprogressarea,in,sharepoint
 published: True

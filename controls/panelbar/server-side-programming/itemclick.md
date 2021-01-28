@@ -1,7 +1,7 @@
 ---
 title: ItemClick
-page_title: ItemClick | RadPanelBar for ASP.NET AJAX Documentation
-description: ItemClick
+page_title: ItemClick - RadPanelBar
+description: Check our Web Forms article about ItemClick.
 slug: panelbar/server-side-programming/itemclick
 tags: itemclick
 published: True

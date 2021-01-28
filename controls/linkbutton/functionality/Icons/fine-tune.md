@@ -1,7 +1,7 @@
 ---
 title: Fine-tune
-page_title: Fine-tune | RadLinkButton for ASP.NET AJAX Documentation
-description: Fine-tune
+page_title: Fine-tune - RadLinkButton
+description: Check our Web Forms article about Fine-tune.
 slug: linkbutton/functionality/icons/fine-tune
 tags: fine,tune
 published: True

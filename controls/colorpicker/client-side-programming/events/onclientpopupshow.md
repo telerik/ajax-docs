@@ -1,7 +1,7 @@
 ---
 title: OnClientPopUpShow
-page_title: OnClientPopUpShow | RadColorPicker for ASP.NET AJAX Documentation
-description: OnClientPopUpShow
+page_title: OnClientPopUpShow - RadColorPicker
+description: Check our Web Forms article about OnClientPopUpShow.
 slug: colorpicker/client-side-programming/events/onclientpopupshow
 tags: onclientpopupshow
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Creating RadChart Programmatically
-page_title: Creating RadChart Programmatically | RadChart for ASP.NET AJAX Documentation
-description: Creating RadChart Programmatically
+page_title: Creating RadChart Programmatically - RadChart
+description: Check our Web Forms article about Creating RadChart Programmatically.
 slug: chart/building-radcharts/creating-radchart-programmatically
 tags: creating,radchart,programmatically
 published: True

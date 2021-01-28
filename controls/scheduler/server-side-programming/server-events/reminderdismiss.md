@@ -1,7 +1,7 @@
 ---
 title: ReminderDismiss
-page_title: ReminderDismiss | RadScheduler for ASP.NET AJAX Documentation
-description: ReminderDismiss
+page_title: ReminderDismiss - RadScheduler
+description: Check our Web Forms article about ReminderDismiss.
 slug: scheduler/server-side-programming/server-events/reminderdismiss
 tags: reminderdismiss
 published: True

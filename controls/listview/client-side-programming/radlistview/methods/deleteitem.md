@@ -1,7 +1,7 @@
 ---
 title: deleteItem
-page_title: deleteItem | RadListView for ASP.NET AJAX Documentation
-description: deleteItem
+page_title: deleteItem - RadListView
+description: Check our Web Forms article about deleteItem.
 slug: listview/client-side-programming/radlistview/methods/deleteitem
 tags: deleteitem
 published: True

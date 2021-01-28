@@ -1,7 +1,7 @@
 ---
 title: Using shared RadTimeView
-page_title: Using shared RadTimeView | RadTimePicker for ASP.NET AJAX Documentation
-description: Using shared RadTimeView
+page_title: Using shared RadTimeView - RadTimePicker
+description: Check our Web Forms article about Using shared RadTimeView.
 slug: timepicker/functionality/using-shared-radtimeview
 tags: using,shared,radtimeview
 published: True

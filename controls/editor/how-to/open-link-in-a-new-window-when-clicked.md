@@ -1,7 +1,7 @@
 ---
 title: Open Link in a New Window When Clicked
-page_title: Open Link in a New Window When Clicked | RadEditor for ASP.NET AJAX Documentation
-description: Open Link in a New Window When Clicked
+page_title: Open Link in a New Window When Clicked - RadEditor
+description: Check our Web Forms article about Open Link in a New Window When Clicked.
 slug: editor/how-to/open-link-in-a-new-window-when-clicked
 tags: open,link,in,a,new,window,when,clicked
 published: True

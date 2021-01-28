@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadRotator for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadRotator
+description: Check our Web Forms article about Skins.
 slug: rotator/appearance-and-styling/skins
 tags: skins
 published: True

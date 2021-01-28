@@ -1,7 +1,7 @@
 ---
 title: Advanced via NeedDataSource
-page_title: Advanced via NeedDataSource | RadImageGallery for ASP.NET AJAX Documentation
-description: Advanced via NeedDataSource
+page_title: Advanced via NeedDataSource - RadImageGallery
+description: Check our Web Forms article about Advanced via NeedDataSource.
 slug: imagegallery/data-binding/server-side/advanced-via-needdatasource
 tags: advanced,via,needdatasource
 published: True

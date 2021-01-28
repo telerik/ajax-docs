@@ -1,7 +1,7 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | RadTextBox for ASP.NET AJAX Documentation
-description: Mouse Wheel Support
+page_title: Mouse Wheel Support - RadTextBox
+description: Check our Web Forms article about Mouse Wheel Support.
 slug: radtextbox/accessibility-and-internationalization/mouse-wheel-support
 tags: mouse,wheel,support
 published: True

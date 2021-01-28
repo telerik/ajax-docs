@@ -1,7 +1,7 @@
 ---
 title: Two State Buttons
-page_title: Two State Buttons | RadToolBar for ASP.NET AJAX Documentation
-description: Two State Buttons
+page_title: Two State Buttons - RadToolBar
+description: Check our Web Forms article about Two State Buttons.
 slug: toolbar/radtoolbar-items/two-state-buttons
 tags: two,state,buttons
 published: True

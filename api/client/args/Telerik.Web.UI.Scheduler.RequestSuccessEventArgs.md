@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Scheduler.RequestSuccessEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Scheduler.RequestSuccessEventArgs
 slug: Telerik.Web.UI.Scheduler.RequestSuccessEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: OnItemLoad
-page_title: OnItemLoad | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnItemLoad
+page_title: OnItemLoad - RadRadioButtonList
+description: Check our Web Forms article about OnItemLoad.
 slug: radiobuttonlist/client-side-programming/events/onitemload
 tags: onitemload
 published: True

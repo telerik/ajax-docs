@@ -1,7 +1,7 @@
 ---
 title: WebService Configuration
-page_title: WebService Configuration | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: WebService Configuration
+page_title: WebService Configuration - RadXmlHttpPanel
+description: Check our Web Forms article about WebService Configuration.
 slug: xmlhttppanel/getting-started/webservice-configuration
 tags: webservice,configuration
 published: True

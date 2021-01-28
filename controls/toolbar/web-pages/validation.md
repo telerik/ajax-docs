@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadToolBar for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadToolBar
+description: Check our Web Forms article about Validation.
 slug: toolbar/web-pages/validation
 tags: validation
 published: True

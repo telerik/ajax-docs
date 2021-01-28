@@ -1,7 +1,7 @@
 ---
 title: Separators
-page_title: Separators | RadComboBox for ASP.NET AJAX Documentation
-description: Separators
+page_title: Separators - RadComboBox
+description: Check our Web Forms article about Separators.
 slug: combobox/appearance-and-styling/separators
 tags: separators
 published: True

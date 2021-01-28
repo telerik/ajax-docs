@@ -1,7 +1,7 @@
 ---
 title: ASP.NET Validators Support
-page_title: ASP.NET Validators Support | RadCheckBoxList for ASP.NET AJAX Documentation
-description: ASP.NET Validators Support
+page_title: ASP.NET Validators Support - RadCheckBoxList
+description: Check our Web Forms article about ASP.NET Validators Support.
 slug: checkboxlist/functionality/aspnet-validators-support
 tags: checkboxlist, checkbox, aspnet,validators,support, validate, validation, native
 published: True

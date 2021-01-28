@@ -1,7 +1,7 @@
 ---
 title: Accessing Cells and Values
-page_title: Accessing Cells Server-Side - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing Grid Cells on server
+page_title: Accessing Cells Server-Side - RadGrid
+description: Check our Web Forms article about Accessing Grid Cells on server.
 slug: grid/accessing-values-and-controls/server-side/accessing-cells
 published: True
 position: 3

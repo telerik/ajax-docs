@@ -1,7 +1,7 @@
 ---
 title: get_isItemInserted()
-page_title: get_isItemInserted() | RadGrid for ASP.NET AJAX Documentation
-description: get_isItemInserted()
+page_title: get_isItemInserted() - RadGrid
+description: Check our Web Forms article about get_isItemInserted().
 slug: grid/client-side-programming/gridtableview-object/properties/get_isiteminserted()
 tags: get_isiteminserted()
 published: True

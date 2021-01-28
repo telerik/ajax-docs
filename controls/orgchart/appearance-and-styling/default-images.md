@@ -1,7 +1,7 @@
 ---
 title: Default Images
-page_title: Default Images | RadOrgChart for ASP.NET AJAX Documentation
-description: Default Images
+page_title: Default Images - RadOrgChart
+description: Check our Web Forms article about Default Images.
 slug: orgchart/appearance-and-styling/default-images
 tags: default,images
 published: True

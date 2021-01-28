@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentMoveEndEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentMoveEndEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentMoveEndEventArgs
 ---

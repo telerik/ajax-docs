@@ -1,7 +1,7 @@
 ---
 title: RadSlidingPane Object
-page_title: RadSlidingPane Object | RadSplitter for ASP.NET AJAX Documentation
-description: RadSlidingPane Object
+page_title: RadSlidingPane Object - RadSplitter
+description: Check our Web Forms article about RadSlidingPane Object.
 slug: splitter/client-side-programming/radslidingpane-object
 tags: radslidingpane,object
 published: True

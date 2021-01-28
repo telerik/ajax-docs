@@ -1,7 +1,7 @@
 ---
 title: Elements
-page_title: Elements | RadDataPager for ASP.NET AJAX Documentation
-description: Elements
+page_title: Elements - RadDataPager
+description: Check our Web Forms article about Elements.
 slug: datapager/elements-and-templates/elements
 tags: elements
 published: True

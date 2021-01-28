@@ -1,7 +1,7 @@
 ---
 title: Wrong Control is Filtered with Multiple Instances
-page_title: Wrong Control is Filtered with Multiple Instances | RadFilter for ASP.NET AJAX Documentation
-description: Wrong control may be filtered when more than one instance of their user control is present. See how to resolve/
+page_title: Wrong Control is Filtered with Multiple Instances - RadFilter
+description: Check our Web Forms article about Wrong control may be filtered when more than one instance of their user control is present. See how to resolve/.
 slug: filter/troubleshooting/wrong-control-filtered-multiple-user-controls
 tags: filter,multiple,instances,wrong,control,filtered
 published: True

@@ -1,7 +1,7 @@
 ---
 title: cancelInsert
-page_title: cancelInsert | RadGrid for ASP.NET AJAX Documentation
-description: cancelInsert
+page_title: cancelInsert - RadGrid
+description: Check our Web Forms article about cancelInsert.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelinsert
 tags: cancelinsert
 published: True

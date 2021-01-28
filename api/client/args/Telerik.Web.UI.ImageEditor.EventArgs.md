@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.EventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.EventArgs
 slug: Telerik.Web.UI.ImageEditor.EventArgs
 ---

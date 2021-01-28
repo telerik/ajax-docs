@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadAjaxLoadingPanel for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadAjaxLoadingPanel
+description: Check our Web Forms article about Skins.
 slug: ajaxloadingpanel/appearance-and-styling/skins
 previous_url: ajax/appearance-and-styling/skins
 tags: skins

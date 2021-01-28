@@ -1,7 +1,7 @@
 ---
 title: RadUpload RTL Support
-page_title: RadUpload RTL Support | RadUpload for ASP.NET AJAX Documentation
-description: RadUpload RTL Support
+page_title: RadUpload RTL Support - RadUpload
+description: Check our Web Forms article about RadUpload RTL Support.
 slug: upload/localization/radupload-rtl-support
 tags: radupload,rtl,support
 published: True

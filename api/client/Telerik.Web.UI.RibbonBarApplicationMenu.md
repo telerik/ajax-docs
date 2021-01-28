@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarApplicationMenu
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarApplicationMenu
 slug: Telerik.Web.UI.RibbonBarApplicationMenu
 ---

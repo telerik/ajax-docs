@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SpreadsheetRange
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SpreadsheetRange
 slug: Telerik.Web.UI.SpreadsheetRange
 ---

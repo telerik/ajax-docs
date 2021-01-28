@@ -1,7 +1,7 @@
 ---
 title: Cross-Page PostBacks
-page_title: Cross-Page PostBacks | RadComboBox for ASP.NET AJAX Documentation
-description: Cross-Page PostBacks
+page_title: Cross-Page PostBacks - RadComboBox
+description: Check our Web Forms article about Cross-Page PostBacks.
 slug: combobox/functionality/cross-page-postbacks
 tags: cross-page,postbacks
 published: True

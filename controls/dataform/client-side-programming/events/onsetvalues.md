@@ -1,7 +1,7 @@
 ---
 title: OnSetValues
-page_title: OnSetValues | RadDataForm for ASP.NET AJAX 
-description: OnSetValues
+page_title: OnSetValues - RadDataForm
+description: Check our Web Forms article about OnSetValues.
 slug: dataform/client-side-programming/events/onsetvalues
 tags: onsetvalues
 published: True

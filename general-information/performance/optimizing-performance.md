@@ -1,7 +1,7 @@
 ---
 title: Optimizing Performance
-page_title: Optimizing Performance | UI for ASP.NET AJAX Documentation
-description: Optimizing Performance
+page_title: Optimizing Performance
+description: Check our Web Forms article about Optimizing Performance.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/optimizing-performance
 tags: optimizing,performance
 published: True

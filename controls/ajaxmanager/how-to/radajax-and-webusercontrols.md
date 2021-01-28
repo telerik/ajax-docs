@@ -1,7 +1,7 @@
 ---
 title: RadAjax and WebUserControls
-page_title: RadAjax and WebUserControls | RadAjax for ASP.NET AJAX Documentation
-description: RadAjax and WebUserControls
+page_title: RadAjax and WebUserControls
+description: Check our Web Forms article about RadAjax and WebUserControls.
 slug: ajaxmanager/how-to/radajax-and-webusercontrols
 previous_url: ajax/radajaxmanager/how-to/radajax-and-webusercontrols
 tags: radajax,and,webusercontrols

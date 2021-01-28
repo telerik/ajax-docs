@@ -1,7 +1,7 @@
 ---
 title: set_virtualItemCount()
-page_title: set_virtualItemCount() | RadGrid for ASP.NET AJAX Documentation
-description: set_virtualItemCount()
+page_title: set_virtualItemCount() - RadGrid
+description: Check our Web Forms article about set_virtualItemCount().
 slug: grid/client-side-programming/gridtableview-object/properties/set_virtualitemcount()
 tags: set_virtualitemcount()
 published: True

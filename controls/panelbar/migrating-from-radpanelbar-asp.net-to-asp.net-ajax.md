@@ -1,7 +1,7 @@
 ---
 title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX
-page_title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX | RadPanelBar for ASP.NET AJAX Documentation
-description: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX
+page_title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX - RadPanelBar
+description: Check our Web Forms article about Migrating From RadPanelBar ASP.NET to ASP.NET AJAX.
 slug: panelbar/migrating-from-radpanelbar-asp.net-to-asp.net-ajax
 tags: migrating,from,radpanelbar,asp.net,to,asp.net,ajax
 published: True

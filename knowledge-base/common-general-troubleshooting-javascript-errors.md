@@ -1,8 +1,8 @@
 ---
 title: General troubleshooting of JavaScript errors
-description: General troubleshooting of JavaScript errors
+description: General troubleshooting of JavaScript errors.
 type: how-to
-page_title: General troubleshooting of JavaScript errors - Common | Telerik UI for ASP.NET AJAX
+page_title: General troubleshooting of JavaScript errors - Common
 slug: common-general-troubleshooting-javascript-errors
 res_type: kb
 ---

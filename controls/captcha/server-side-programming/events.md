@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadCaptcha for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadCaptcha
+description: Check our Web Forms article about Events.
 slug: captcha/server-side-programming/events
 tags: events
 published: True

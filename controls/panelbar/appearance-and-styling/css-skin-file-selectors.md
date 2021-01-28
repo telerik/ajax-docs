@@ -1,7 +1,7 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | RadPanelBar for ASP.NET AJAX Documentation
-description: CSS Skin File Selectors
+page_title: CSS Skin File Selectors - RadPanelBar
+description: Check our Web Forms article about CSS Skin File Selectors.
 slug: panelbar/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
 published: True

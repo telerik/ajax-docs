@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadCloudUpload for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadCloudUpload
+description: Check our Web Forms article about Skins.
 slug: cloudupload/appearance-and-styling/skins
 tags: skins
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnColumnResizing
-page_title: OnColumnResizing | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnResizing
+page_title: OnColumnResizing - RadGrid
+description: Check our Web Forms article about OnColumnResizing.
 slug: grid/client-side-programming/events/oncolumnresizing
 tags: oncolumnresizing
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.InputManagerErrorEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.InputManagerErrorEventArgs
 slug: Telerik.Web.UI.InputManagerErrorEventArgs
 ---

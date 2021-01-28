@@ -1,7 +1,7 @@
 ---
 title: Object reference not set to an instance of an object
-page_title: Object reference not set to an instance of an object | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Object reference not set to an instance of an object
+page_title: Object reference not set to an instance of an object - RadSpreadsheet
+description: Check our Web Forms article about Object reference not set to an instance of an object.
 slug: spreadsheet/troubleshooting/object-reference-not-set-to-an-instance-of-an-object
 tags: assembly,object,reference
 published: True

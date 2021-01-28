@@ -1,7 +1,7 @@
 ---
 title: Use NavigateUrl with StandardButton Type
-page_title: Use NavigateUrl with StandardButton Type | RadButton for ASP.NET AJAX Documentation
-description: Use NavigateUrl with StandardButton Type
+page_title: Use NavigateUrl with StandardButton Type - RadButton
+description: Check our Web Forms article about Use NavigateUrl with StandardButton Type.
 slug: button/how-to/use-navigateurl-with-standardbutton-type
 tags: use,navigateurl,with,standardbutton,type
 published: True

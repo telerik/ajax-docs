@@ -1,7 +1,7 @@
 ---
 title: OnFilterMenuShowing
-page_title: OnFilterMenuShowing | RadGrid for ASP.NET AJAX Documentation
-description: OnFilterMenuShowing
+page_title: OnFilterMenuShowing - RadGrid
+description: Check our Web Forms article about OnFilterMenuShowing.
 slug: grid/client-side-programming/events/onfiltermenushowing
 tags: onfiltermenushowing
 published: True

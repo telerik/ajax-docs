@@ -1,7 +1,7 @@
 ---
 title: Implementing Show Path and BreadCrumb
-page_title: Implementing Show Path and BreadCrumb | RadTabStrip for ASP.NET AJAX Documentation
-description: Implementing Show Path and BreadCrumb
+page_title: Implementing Show Path and BreadCrumb - RadTabStrip
+description: Check our Web Forms article about Implementing Show Path and BreadCrumb.
 slug: tabstrip/how-to/implementing-show-path-and-breadcrumb
 tags: implementing,show,path,and,breadcrumb
 published: True

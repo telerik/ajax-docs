@@ -1,7 +1,7 @@
 ---
 title: Implementing a Provider
-page_title: Implementing a Provider | RadScheduler for ASP.NET AJAX Documentation
-description: Implementing a Provider
+page_title: Implementing a Provider - RadScheduler
+description: Check our Web Forms article about Implementing a Provider.
 slug: scheduler/data-binding/providers/implementing-a-provider
 tags: implementing,a,provider
 published: True

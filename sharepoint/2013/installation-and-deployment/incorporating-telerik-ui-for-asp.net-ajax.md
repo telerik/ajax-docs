@@ -1,7 +1,7 @@
 ---
 title: Incorporating Telerik® UI for ASP.NET AJAX
-page_title: Incorporating Telerik® UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Incorporating Telerik® UI for ASP.NET AJAX
+page_title: Incorporating Telerik®
+description: Check our Web Forms article about Incorporating Telerik® UI for ASP.NET AJAX.
 slug: sharepoint/2013/installation-and-deployment/incorporating-telerik-ui-for-asp.net-ajax
 tags: incorporating,telerik,ui,for,asp.net,ajax
 published: True

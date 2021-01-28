@@ -1,7 +1,7 @@
 ---
 title: Grouping
-page_title: Grouping | RadGrid for ASP.NET AJAX Documentation
-description: Grouping
+page_title: Grouping - RadGrid
+description: Check our Web Forms article about Grouping.
 slug: grid/mobile-support/mobile-rendering/grouping
 tags: grouping
 published: True

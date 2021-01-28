@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadOrgChart
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadOrgChart
 slug: Telerik.Web.UI.RadOrgChart
 ---

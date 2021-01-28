@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Extensions Options
-page_title: Visual Studio Extensions Options | UI for ASP.NET AJAX Documentation
-description: Visual Studio Extensions Options
+page_title: Visual Studio Extensions Options
+description: Check our Web Forms article about Visual Studio Extensions Options.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options
 tags: visual,studio,extensions,options
 published: True

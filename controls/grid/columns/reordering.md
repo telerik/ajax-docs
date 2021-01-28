@@ -1,7 +1,7 @@
 ---
 title: Reordering
-page_title: Reordering | RadGrid for ASP.NET AJAX Documentation
-description: Reordering
+page_title: Reordering - RadGrid
+description: Check our Web Forms article about Reordering.
 slug: grid/columns/reordering
 tags: reordering
 published: True

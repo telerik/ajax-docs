@@ -1,7 +1,7 @@
 ---
 title: Reordered
-page_title: Reordered | RadListBox for ASP.NET AJAX Documentation
-description: Reordered
+page_title: Reordered - RadListBox
+description: Check our Web Forms article about Reordered.
 slug: listbox/server-side-programming/server-events/reordered
 tags: reordered
 published: True

@@ -1,7 +1,7 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | RadTreeView for ASP.NET AJAX Documentation
-description: NodeDataBound
+page_title: NodeDataBound - RadTreeView
+description: Check our Web Forms article about NodeDataBound.
 slug: treeview/server-side-programming/events/nodedatabound
 tags: nodedatabound
 published: True

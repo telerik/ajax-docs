@@ -1,7 +1,7 @@
 ---
 title: Displaying and Editing SharePoint List Items
-page_title: Displaying and Editing SharePoint List Items | UI for ASP.NET AJAX Documentation
-description: Displaying and Editing SharePoint List Items
+page_title: Displaying and Editing SharePoint List Items
+description: Check our Web Forms article about Displaying and Editing SharePoint List Items.
 slug: sharepoint/2010/radgrid-web-part/displaying-and-editing-sharepoint-list-items
 tags: displaying,and,editing,sharepoint,list,items
 published: True

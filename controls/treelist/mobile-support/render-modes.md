@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadTreeList for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadTreeList
+description: Check our Web Forms article about Render Modes.
 slug: treelist/mobile-support/render-modes
 tags: render,modes
 published: True

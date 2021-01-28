@@ -1,7 +1,7 @@
 ---
 title: ToggleButton Object
-page_title: ToggleButton Object | RadToggleButton for ASP.NET AJAX Documentation
-description: ToggleButton Object
+page_title: ToggleButton Object - RadToggleButton
+description: Check our Web Forms article about ToggleButton Object.
 slug: togglebutton/client-side-programming/togglebutton-object
 tags: togglebutton,object
 published: True

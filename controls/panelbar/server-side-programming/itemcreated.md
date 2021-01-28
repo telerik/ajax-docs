@@ -1,7 +1,7 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | RadPanelBar for ASP.NET AJAX Documentation
-description: ItemCreated
+page_title: ItemCreated - RadPanelBar
+description: Check our Web Forms article about ItemCreated.
 slug: panelbar/server-side-programming/itemcreated
 tags: itemcreated
 published: True

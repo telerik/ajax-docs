@@ -1,7 +1,7 @@
 ---
 title: URL Routing
-page_title: URL Routing | RadDataPager for ASP.NET AJAX Documentation
-description: URL Routing
+page_title: URL Routing - RadDataPager
+description: Check our Web Forms article about URL Routing.
 slug: datapager/seo-paging/url-routing
 tags: url,routing
 published: True

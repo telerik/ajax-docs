@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointment
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointment
 slug: Telerik.Web.UI.SchedulerAppointment
 ---

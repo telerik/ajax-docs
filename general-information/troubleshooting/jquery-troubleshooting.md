@@ -1,7 +1,7 @@
 ---
 title: jQuery Troubleshooting
-page_title: jQuery Troubleshooting | UI for ASP.NET AJAX Documentation
-description: jQuery Troubleshooting
+page_title: jQuery Troubleshooting
+description: Check our Web Forms article about jQuery Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting
 tags: jquery,troubleshooting
 published: True

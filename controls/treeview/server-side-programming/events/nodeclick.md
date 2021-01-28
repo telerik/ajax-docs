@@ -1,7 +1,7 @@
 ---
 title: NodeClick
-page_title: NodeClick | RadTreeView for ASP.NET AJAX Documentation
-description: NodeClick
+page_title: NodeClick - RadTreeView
+description: Check our Web Forms article about NodeClick.
 slug: treeview/server-side-programming/events/nodeclick
 tags: nodeclick
 published: True

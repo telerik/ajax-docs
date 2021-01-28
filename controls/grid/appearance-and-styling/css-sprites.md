@@ -1,7 +1,7 @@
 ---
 title: CSS sprites
-page_title: CSS sprites | RadGrid for ASP.NET AJAX Documentation
-description: CSS sprites
+page_title: CSS sprites - RadGrid
+description: Check our Web Forms article about CSS sprites.
 slug: grid/appearance-and-styling/css-sprites
 tags: css,sprites
 published: True

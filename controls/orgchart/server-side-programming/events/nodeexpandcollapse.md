@@ -1,7 +1,7 @@
 ---
 title: NodeExpandCollapse
-page_title: NodeExpandCollapse | RadOrgChart for ASP.NET AJAX Documentation
-description: NodeExpandCollapse
+page_title: NodeExpandCollapse - RadOrgChart
+description: Check our Web Forms article about NodeExpandCollapse.
 slug: orgchart/server-side-programming/events/nodeexpandcollapse
 tags: nodeexpandcollapse
 published: True

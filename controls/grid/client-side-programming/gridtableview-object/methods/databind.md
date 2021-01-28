@@ -1,7 +1,7 @@
 ---
 title: dataBind
-page_title: dataBind | RadGrid for ASP.NET AJAX Documentation
-description: dataBind
+page_title: dataBind - RadGrid
+description: Check our Web Forms article about dataBind.
 slug: grid/client-side-programming/gridtableview-object/methods/databind
 tags: databind
 published: True

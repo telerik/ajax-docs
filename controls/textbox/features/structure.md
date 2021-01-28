@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadTextBox for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadTextBox
+description: Check our Web Forms article about Structure.
 slug: radtextbox/features/structure
 tags: structure
 published: True

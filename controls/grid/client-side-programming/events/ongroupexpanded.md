@@ -1,7 +1,7 @@
 ---
 title: OnGroupExpanded
-page_title: OnGroupExpanded | RadGrid for ASP.NET AJAX Documentation
-description: OnGroupExpanded
+page_title: OnGroupExpanded - RadGrid
+description: Check our Web Forms article about OnGroupExpanded.
 slug: grid/client-side-programming/events/ongroupexpanded
 tags: ongroupexpanded
 published: True

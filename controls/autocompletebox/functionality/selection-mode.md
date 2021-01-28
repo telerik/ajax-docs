@@ -1,7 +1,7 @@
 ---
 title: Selection Mode
-page_title: Selection Mode | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Selection Mode
+page_title: Selection Mode - RadAutoCompleteBox
+description: Check our Web Forms article about Selection Mode.
 slug: autocompletebox/functionality/selection-mode
 tags: selection,mode
 published: True

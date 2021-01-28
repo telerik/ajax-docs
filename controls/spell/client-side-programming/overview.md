@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadSpell for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadSpell
+description: Check our Web Forms article about Overview.
 slug: spell/client-side-programming/overview
 tags: overview
 published: True

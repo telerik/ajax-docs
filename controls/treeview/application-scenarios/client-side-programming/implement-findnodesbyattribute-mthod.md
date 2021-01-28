@@ -1,7 +1,7 @@
 ---
 title: Implement findNodesByAttribute Method
-page_title: Implement findNodesByAttribute Method | RadTreeView for ASP.NET AJAX Documentation
-description: Implement findNodesByAttribute Method
+page_title: Implement findNodesByAttribute Method - RadTreeView
+description: Check our Web Forms article about Implement findNodesByAttribute Method.
 slug: treeview/application-scenarios/client-side-programming/implement-findnodesbyattribute-mthod
 tags: implement,findnodesbyattribute,mthod
 published: True

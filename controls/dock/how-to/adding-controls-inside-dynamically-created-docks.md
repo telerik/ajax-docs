@@ -1,7 +1,7 @@
 ---
 title: Adding Controls Inside Dynamically Created Docks
-page_title: Adding Controls Inside Dynamically Created Docks | RadDock for ASP.NET AJAX Documentation
-description: Adding Controls Inside Dynamically Created Docks
+page_title: Adding Controls Inside Dynamically Created Docks - RadDock
+description: Check our Web Forms article about Adding Controls Inside Dynamically Created Docks.
 slug: dock/how-to/adding-controls-inside-dynamically-created-docks
 tags: adding,controls,inside,dynamically,created,docks
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Working with Resources
-page_title: Working with Resources | RadScheduler for ASP.NET AJAX Documentation
-description: Working with Resources
+page_title: Working with Resources - RadScheduler
+description: Check our Web Forms article about Working with Resources.
 slug: scheduler/server-side-programming/working-with-resources
 tags: working,with,resources
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Security
-page_title: Security | RadEditor for ASP.NET AJAX Documentation
-description: Apply security in RadEditor and enforce information encryption to prevent attacks.
+page_title: Security - RadEditor
+description: Check our Web Forms article about Apply security in RadEditor and enforce information encryption to prevent attacks.
 slug: editor-security
 tags: security
 published: True

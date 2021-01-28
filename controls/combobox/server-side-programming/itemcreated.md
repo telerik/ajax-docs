@@ -1,7 +1,7 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | RadComboBox for ASP.NET AJAX Documentation
-description: ItemCreated
+page_title: ItemCreated - RadComboBox
+description: Check our Web Forms article about ItemCreated.
 slug: combobox/server-side-programming/itemcreated
 tags: itemcreated
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Colors
-page_title: Colors | UI for ASP.NET AJAX Documentation
-description: Colors
+page_title: Colors
+description: Check our Web Forms article about Colors.
 slug: sharepoint/2010/radeditor-web-part/dropdowns/colors
 tags: colors
 published: True

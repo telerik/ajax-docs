@@ -1,7 +1,7 @@
 ---
 title: Adding Templates
-page_title: Adding Templates | RadComboBox for ASP.NET AJAX Documentation
-description: Adding Templates
+page_title: Adding Templates - RadComboBox
+description: Check our Web Forms article about Adding Templates.
 slug: combobox/templates/adding-templates
 tags: adding,templates
 published: True

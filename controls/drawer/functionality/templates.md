@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadDrawer for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadDrawer
+description: Check our Web Forms article about Templates.
 slug: drawer/functionality/templates
 tags: template,client
 published: True

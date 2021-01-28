@@ -1,7 +1,7 @@
 ---
 title: XML Provider
-page_title: XML Provider | RadGantt for ASP.NET AJAX Documentation
-description: XML Provider
+page_title: XML Provider - RadGantt
+description: Check our Web Forms article about XML Provider.
 slug: gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider
 tags: xml,provider
 published: True

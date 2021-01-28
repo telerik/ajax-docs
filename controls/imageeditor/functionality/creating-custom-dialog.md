@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Dialog
-page_title: Creating a Custom Dialog | RadImageEditor for ASP.NET AJAX Documentation
-description: Creating a Custom Dialog
+page_title: Creating a Custom Dialog - RadImageEditor
+description: Check our Web Forms article about Creating a Custom Dialog.
 slug: imageeditor/functionality/creating-custom-dialog
 tags: creating,custom,dialog
 published: True

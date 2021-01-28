@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FileExplorerFilterEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FileExplorerFilterEventArgs
 slug: Telerik.Web.UI.FileExplorerFilterEventArgs
 ---

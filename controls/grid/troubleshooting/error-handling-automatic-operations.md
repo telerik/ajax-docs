@@ -1,7 +1,7 @@
 ---
 title: Error Handling Automatic Operations
-page_title: Error Handling Automatic Operations | RadGrid for ASP.NET AJAX Documentation
-description: Error Handling Automatic Operations
+page_title: Error Handling Automatic Operations - RadGrid
+description: Check our Web Forms article about Error Handling Automatic Operations.
 slug: grid/troubleshooting/error-handling-automatic-operations
 tags: error,handling,automatic,operations
 published: True

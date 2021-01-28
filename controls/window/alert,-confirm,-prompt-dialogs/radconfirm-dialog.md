@@ -1,7 +1,7 @@
 ---
 title: RadConfirm Dialog
-page_title: RadConfirm Dialog | RadWindow for ASP.NET AJAX Documentation
-description: RadConfirm Dialog
+page_title: RadConfirm Dialog - RadWindow
+description: Check our Web Forms article about RadConfirm Dialog.
 slug: window/alert,-confirm,-prompt-dialogs/radconfirm-dialog
 tags: radconfirm,dialog
 published: True

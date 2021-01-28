@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadToolBarButtonCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToolBarButtonCollection
 slug: Telerik.Web.UI.RadToolBarButtonCollection
 ---

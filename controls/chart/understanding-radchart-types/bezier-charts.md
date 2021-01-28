@@ -1,7 +1,7 @@
 ---
 title: Bezier Charts
-page_title: Bezier Charts | RadChart for ASP.NET AJAX Documentation
-description: Bezier Charts
+page_title: Bezier Charts - RadChart
+description: Check our Web Forms article about Bezier Charts.
 slug: chart/understanding-radchart-types/bezier-charts
 tags: bezier,charts
 published: True

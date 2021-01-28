@@ -1,7 +1,7 @@
 ---
 title: Using ResourcePopulationMode in ServerSide and Authentication
-page_title: Using ResourcePopulationMode in ServerSide and Authentication | RadScheduler for ASP.NET AJAX Documentation
-description: Using ResourcePopulationMode in ServerSide and Authentication
+page_title: Using ResourcePopulationMode in ServerSide and Authentication - RadScheduler
+description: Check our Web Forms article about Using ResourcePopulationMode in ServerSide and Authentication.
 slug: scheduler/web-service-binding/using-resourcepopulationmode-in-serverside-and-authentication
 tags: using,resourcepopulationmode,in,serverside,and,authentication
 published: True

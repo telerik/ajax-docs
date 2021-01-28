@@ -1,7 +1,7 @@
 ---
 title: Customizing Markers in RadMap
-page_title: Customizing Markers in RadMap | RadMap for ASP.NET AJAX Documentation
-description: Customizing Markers in RadMap
+page_title: Customizing Markers in RadMap - RadMap
+description: Check our Web Forms article about Customizing Markers in RadMap.
 slug: map/appearance-and-styling/customizing-markers-in-radmap
 tags: customizing,markers,in,radmap
 published: True

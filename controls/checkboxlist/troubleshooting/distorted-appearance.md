@@ -1,7 +1,7 @@
 ---
 title: Distorted Appearance
-page_title: Distorted Appearance | RadCheckBoxList for ASP.NET AJAX Documentation
-description: Distorted Appearance
+page_title: Distorted Appearance - RadCheckBoxList
+description: Check our Web Forms article about Distorted Appearance.
 slug: checkboxlist/troubleshooting/distorted-appearance
 tags: distorted,appearance
 published: True

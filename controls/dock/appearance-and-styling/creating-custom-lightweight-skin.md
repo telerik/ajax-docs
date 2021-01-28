@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Lightweight Skin
-page_title: Tutorial - Creating a Custom Lightweight Skin | RadDock for ASP.NET AJAX Documentation
-description: Tutorial - Creating a Custom Lightweight Skin
+page_title: Tutorial - Creating a Custom Lightweight Skin - RadDock
+description: Check our Web Forms article about Tutorial - Creating a Custom Lightweight Skin.
 slug: dock/appearance-and-styling/creating-custom-lightweight-skin
 tags: skin, custom, lightweight
 published: True

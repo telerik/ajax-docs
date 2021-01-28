@@ -1,8 +1,8 @@
 ---
 title: Select rows using radio buttons
-description: JavaScript solution for selecting rows using radio buttons
+description: JavaScript solution for selecting rows using radio buttons.
 type: how-to
-page_title: Select rows with Radio button on client side - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: Select rows with Radio button on client side - RadGrid
 slug: grid-select-row-with-radiobutton-client-side
 position:
 tags:

@@ -1,7 +1,7 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | RadRotator for ASP.NET AJAX Documentation
-description: OnClientDataBound
+page_title: OnClientDataBound - RadRotator
+description: Check our Web Forms article about OnClientDataBound.
 slug: rotator/client-side-programming/events/onclientdatabound
 tags: onclientdatabound
 published: True

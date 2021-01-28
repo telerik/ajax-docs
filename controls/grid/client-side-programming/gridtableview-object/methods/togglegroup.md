@@ -1,7 +1,7 @@
 ---
 title: toggleGroup
-page_title: toggleGroup | RadGrid for ASP.NET AJAX Documentation
-description: toggleGroup
+page_title: toggleGroup - RadGrid
+description: Check our Web Forms article about toggleGroup.
 slug: grid/client-side-programming/gridtableview-object/methods/togglegroup
 tags: togglegroup
 published: True

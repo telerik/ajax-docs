@@ -1,7 +1,7 @@
 ---
 title: Distorted Appearance
-page_title: Distorted Appearance | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Distorted Appearance
+page_title: Distorted Appearance - RadRadioButtonList
+description: Check our Web Forms article about Distorted Appearance.
 slug: radiobuttonlist/troubleshooting/distorted-appearance
 tags: distorted,appearance
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSchedulerRecurrenceEditor
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSchedulerRecurrenceEditor
 slug: Telerik.Web.UI.RadSchedulerRecurrenceEditor
 ---

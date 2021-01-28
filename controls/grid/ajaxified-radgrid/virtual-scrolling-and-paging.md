@@ -1,7 +1,7 @@
 ---
 title: Virtual Scrolling and Paging
-page_title: Virtual Scrolling and Paging | RadGrid for ASP.NET AJAX Documentation
-description: Virtual Scrolling and Paging
+page_title: Virtual Scrolling and Paging - RadGrid
+description: Check our Web Forms article about Virtual Scrolling and Paging.
 slug: grid/ajaxified-radgrid/virtual-scrolling-and-paging
 tags: virtual,scrolling,and,paging
 published: True

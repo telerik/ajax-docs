@@ -1,7 +1,7 @@
 ---
 title: Server-side Data Binding
-page_title: Server-side Data Binding | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Server-side Data Binding
+page_title: Server-side Data Binding - RadRadioButtonList
+description: Check our Web Forms article about Server-side Data Binding.
 slug: radiobuttonlist/data-binding/server-side-data-binding
 tags: server,side,data,binding,sql,list,array,items
 published: True

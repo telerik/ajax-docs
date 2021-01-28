@@ -1,7 +1,7 @@
 ---
 title: How To Configure Animations
-page_title: How To Configure Animations | RadRotator for ASP.NET AJAX Documentation
-description: How To Configure Animations
+page_title: How To Configure Animations - RadRotator
+description: Check our Web Forms article about How To Configure Animations.
 slug: rotator/getting-started/how-to-configure-animations
 tags: how,to,configure,animations
 published: True

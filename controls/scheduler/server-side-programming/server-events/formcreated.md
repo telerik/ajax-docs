@@ -1,7 +1,7 @@
 ---
 title: FormCreated
-page_title: FormCreated | RadScheduler for ASP.NET AJAX Documentation
-description: FormCreated
+page_title: FormCreated - RadScheduler
+description: Check our Web Forms article about FormCreated.
 slug: scheduler/server-side-programming/server-events/formcreated
 tags: formcreated
 published: True

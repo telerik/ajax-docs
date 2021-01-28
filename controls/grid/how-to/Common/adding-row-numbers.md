@@ -1,7 +1,7 @@
 ---
 title: Adding Row Numbers
-page_title: Adding Row Numbers | RadGrid for ASP.NET AJAX Documentation
-description: Adding Row Numbers
+page_title: Adding Row Numbers - RadGrid
+description: Check our Web Forms article about Adding Row Numbers.
 slug: grid/how-to/common/adding-row-numbers
 tags: adding,row,numbers
 published: True

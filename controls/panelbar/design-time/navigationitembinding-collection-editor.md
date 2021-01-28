@@ -1,7 +1,7 @@
 ---
 title: NavigationItemBinding Collection Editor
-page_title: NavigationItemBinding Collection Editor | RadPanelBar for ASP.NET AJAX Documentation
-description: NavigationItemBinding Collection Editor
+page_title: NavigationItemBinding Collection Editor - RadPanelBar
+description: Check our Web Forms article about NavigationItemBinding Collection Editor.
 slug: panelbar/design-time/navigationitembinding-collection-editor
 tags: navigationitembinding,collection,editor
 published: True

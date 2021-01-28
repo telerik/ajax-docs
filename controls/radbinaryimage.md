@@ -1,7 +1,7 @@
 ---
 title: BinaryImage
-page_title: RadBinaryImage | UI for ASP.NET AJAX Documentation
-description: RadBinaryImage
+page_title: RadBinaryImage
+description: Check our Web Forms article about RadBinaryImage.
 slug: controls/radbinaryimage
 tags: radbinaryimage
 published: True

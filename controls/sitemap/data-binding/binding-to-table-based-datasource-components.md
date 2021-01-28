@@ -1,7 +1,7 @@
 ---
 title: Binding to Table-Based DataSource Components
-page_title: Binding to Table-Based DataSource Components | RadSiteMap for ASP.NET AJAX Documentation
-description: Binding to Table-Based DataSource Components
+page_title: Binding to Table-Based DataSource Components - RadSiteMap
+description: Check our Web Forms article about Binding to Table-Based DataSource Components.
 slug: sitemap/data-binding/binding-to-table-based-datasource-components
 tags: binding,to,table-based,datasource,components
 published: True

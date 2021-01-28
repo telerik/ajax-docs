@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadTextBox for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadTextBox
+description: Check our Web Forms article about Skins.
 slug: radtextbox/appearance-and-styling/skins
 tags: skins
 published: True

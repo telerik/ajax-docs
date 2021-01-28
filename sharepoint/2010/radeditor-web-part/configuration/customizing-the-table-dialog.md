@@ -1,7 +1,7 @@
 ---
 title: Customizing the Table Dialog
-page_title: Customizing the Table Dialog | UI for ASP.NET AJAX Documentation
-description: Customizing the Table Dialog
+page_title: Customizing the Table Dialog
+description: Check our Web Forms article about Customizing the Table Dialog.
 slug: sharepoint/2010/radeditor-web-part/configuration/customizing-the-table-dialog
 tags: customizing,the,table,dialog
 published: True

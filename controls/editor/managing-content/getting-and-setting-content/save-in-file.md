@@ -1,7 +1,7 @@
 ---
 title: Save in File
-page_title: Save in File | RadEditor for ASP.NET AJAX Documentation
-description: Save in File
+page_title: Save in File - RadEditor
+description: Check our Web Forms article about Save in File.
 slug: editor/managing-content/getting-and-setting-content/save-in-file
 tags: save,in,file
 published: True

@@ -1,7 +1,7 @@
 ---
 title: CheckBoxList Object
-page_title: CheckBoxList Object | RadCheckBoxList for ASP.NET AJAX Documentation
-description: CheckBoxList Object
+page_title: CheckBoxList Object - RadCheckBoxList
+description: Check our Web Forms article about CheckBoxList Object.
 slug: checkboxlist/client-side-programming/checkboxlist-object
 tags: checkboxbutton, button, checkboxlist, list, checkbox ,object
 published: True

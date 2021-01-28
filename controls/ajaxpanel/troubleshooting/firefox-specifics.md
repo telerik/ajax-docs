@@ -1,7 +1,7 @@
 ---
 title: Firefox Specifics
-page_title: Firefox Specifics | RadAjax for ASP.NET AJAX Documentation
-description: Firefox Specifics
+page_title: Firefox Specifics
+description: Check our Web Forms article about Firefox Specifics.
 slug: ajaxpanel/troubleshooting/firefox-specifics
 tags: firefox,specifics
 published: True

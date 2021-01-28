@@ -1,7 +1,7 @@
 ---
 title: Accessing Client Changes on the Server
-page_title: Accessing Client Changes on the Server | RadPanelBar for ASP.NET AJAX Documentation
-description: Accessing Client Changes on the Server
+page_title: Accessing Client Changes on the Server - RadPanelBar
+description: Check our Web Forms article about Accessing Client Changes on the Server.
 slug: panelbar/client-side-programming/accessing-client-changes-on-the-server
 tags: accessing,client,changes,on,the,server
 published: True

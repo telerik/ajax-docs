@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
 slug: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
 ---

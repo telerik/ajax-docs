@@ -1,7 +1,7 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | RadImageEditor for ASP.NET AJAX Documentation
-description: Right-to-left Support
+page_title: Right-to-left Support - RadImageEditor
+description: Check our Web Forms article about Right-to-left Support.
 slug: imageeditor/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True

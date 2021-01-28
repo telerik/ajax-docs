@@ -1,7 +1,7 @@
 ---
 title: Notes on Resource Grouping
-page_title: Notes on Resource Grouping | RadScheduler for ASP.NET AJAX Documentation
-description: Notes on Resource Grouping
+page_title: Notes on Resource Grouping - RadScheduler
+description: Check our Web Forms article about Notes on Resource Grouping.
 slug: scheduler/web-service-binding/notes-on-resource-grouping
 tags: notes,on,resource,grouping
 published: True

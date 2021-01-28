@@ -1,7 +1,7 @@
 ---
 title: Day Templates
-page_title: RadCalendar Day Templates | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendar Day Templates
+page_title: RadCalendar Day Templates - RadCalendar
+description: Check our Web Forms article about RadCalendar Day Templates.
 slug: calendar/functionality/templates/day-templates
 tags: radcalendar,day,templates
 published: True

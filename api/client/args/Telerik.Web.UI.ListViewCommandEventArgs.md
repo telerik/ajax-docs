@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewCommandEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewCommandEventArgs
 slug: Telerik.Web.UI.ListViewCommandEventArgs
 ---

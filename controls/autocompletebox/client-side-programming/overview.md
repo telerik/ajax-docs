@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-Side Programming Overview | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET AutoCompleteBox Client-Side Programming Overview
+page_title: Client-Side Programming Overview - RadAutoCompleteBox
+description: Check our Web Forms article about Telerik's ASP.NET AutoCompleteBox Client-Side Programming Overview.
 slug: autocompletebox/client-side-programming/overview
 tags: overview
 published: True

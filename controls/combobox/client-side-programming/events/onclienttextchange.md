@@ -1,7 +1,7 @@
 ---
 title: OnClientTextChange
-page_title: OnClientTextChange | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientTextChange
+page_title: OnClientTextChange - RadComboBox
+description: Check our Web Forms article about OnClientTextChange.
 slug: combobox/client-side-programming/events/onclienttextchange
 tags: onclienttextchange
 published: True

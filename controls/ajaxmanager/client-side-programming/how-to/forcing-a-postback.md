@@ -1,7 +1,7 @@
 ---
 title: Forcing a Postback
-page_title: Forcing a Postback | RadAjax for ASP.NET AJAX Documentation
-description: Forcing a Postback
+page_title: Forcing a Postback
+description: Check our Web Forms article about Forcing a Postback.
 slug: ajaxmanager/client-side-programming/how-to/forcing-a-postback
 previous_url: ajax/client-side-programming/how-to/forcing-a-postback
 tags: forcing,a,postback

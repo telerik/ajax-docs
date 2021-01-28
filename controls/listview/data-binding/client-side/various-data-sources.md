@@ -1,7 +1,7 @@
 ---
 title: Various Data Sources
-page_title: Various Data Sources | RadListView for ASP.NET AJAX Documentation
-description: Various Data Sources
+page_title: Various Data Sources - RadListView
+description: Check our Web Forms article about Various Data Sources.
 slug: listview/data-binding/client-side/various-data-sources
 tags: various,data,sources
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Year View
-page_title: Year View | RadScheduler for ASP.NET AJAX Documentation
-description: Year View
+page_title: Year View - RadScheduler
+description: Check our Web Forms article about Year View.
 slug: scheduler/views/year-view
 tags: year,view
 published: True

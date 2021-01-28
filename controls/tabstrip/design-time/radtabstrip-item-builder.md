@@ -1,7 +1,7 @@
 ---
 title: RadTabStrip Item Builder
-page_title: RadTabStrip Item Builder | RadTabStrip for ASP.NET AJAX Documentation
-description: RadTabStrip Item Builder
+page_title: RadTabStrip Item Builder - RadTabStrip
+description: Check our Web Forms article about RadTabStrip Item Builder.
 slug: tabstrip/design-time/radtabstrip-item-builder
 tags: radtabstrip,item,builder
 published: True

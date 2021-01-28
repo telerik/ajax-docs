@@ -1,7 +1,7 @@
 ---
 title: Upgrade Project
-page_title: Upgrade Project  | UI for ASP.NET AJAX Documentation
-description: Upgrade Project
+page_title: Upgrade Project
+description: Check our Web Forms article about Upgrade Project.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard
 tags: upgrade,wizard
 published: True

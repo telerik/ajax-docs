@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.InputManagerValueChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.InputManagerValueChangedEventArgs
 slug: Telerik.Web.UI.InputManagerValueChangedEventArgs
 ---

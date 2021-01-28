@@ -1,7 +1,7 @@
 ---
 title: Showing the Path to an Item
-page_title: Showing the Path to an Item | RadMenu for ASP.NET AJAX Documentation
-description: Showing the Path to an Item
+page_title: Showing the Path to an Item - RadMenu
+description: Check our Web Forms article about Showing the Path to an Item.
 slug: menu/how-to/showing-the-path-to-an-item
 tags: showing,the,path,to,an,item
 published: True

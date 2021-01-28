@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewDataBindingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewDataBindingEventArgs
 slug: Telerik.Web.UI.ListViewDataBindingEventArgs
 ---

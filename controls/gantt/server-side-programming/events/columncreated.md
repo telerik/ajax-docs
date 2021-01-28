@@ -1,7 +1,7 @@
 ---
 title: ColumnCreated
-page_title: ColumnCreated | RadGantt for ASP.NET AJAX Documentation
-description: ColumnCreated
+page_title: ColumnCreated - RadGantt
+description: Check our Web Forms article about ColumnCreated.
 slug: gantt/server-side-programming/events/columncreated
 tags: columncreated
 published: True

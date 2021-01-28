@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Events | RadTabStrip for ASP.NET AJAX Documentation
-description: Events overview
+page_title: Client-side Events - RadTabStrip
+description: Check our Web Forms article about Events overview.
 slug: tabstrip/client-side-programming/events
 tags: events,overview
 published: True

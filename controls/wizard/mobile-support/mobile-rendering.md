@@ -1,7 +1,7 @@
 ---
 title: Mobile Rendering
-page_title: Mobile Rendering | RadWizard for ASP.NET AJAX Documentation
-description: Mobile Rendering
+page_title: Mobile Rendering - RadWizard
+description: Check our Web Forms article about Mobile Rendering.
 slug: wizard/mobile-support/mobile-rendering
 tags: mobile,rendering
 published: True

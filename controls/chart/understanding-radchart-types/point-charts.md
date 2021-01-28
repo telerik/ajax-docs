@@ -1,7 +1,7 @@
 ---
 title: Point Charts
-page_title: Point Charts | RadChart for ASP.NET AJAX Documentation
-description: Point Charts
+page_title: Point Charts - RadChart
+description: Check our Web Forms article about Point Charts.
 slug: chart/understanding-radchart-types/point-charts
 tags: point,charts
 published: True

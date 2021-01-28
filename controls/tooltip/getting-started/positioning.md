@@ -1,7 +1,7 @@
 ---
 title: Positioning
-page_title: Positioning | RadTooltip for ASP.NET AJAX Documentation
-description: Positioning
+page_title: Positioning - RadTooltip
+description: Check our Web Forms article about Positioning.
 slug: tooltip/getting-started/positioning
 tags: positioning
 published: True

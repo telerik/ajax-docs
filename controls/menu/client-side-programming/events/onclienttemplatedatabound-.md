@@ -1,7 +1,7 @@
 ---
 title: OnClientTemplateDataBound 
-page_title: OnClientTemplateDataBound  | RadMenu for ASP.NET AJAX Documentation
-description: OnClientTemplateDataBound 
+page_title: OnClientTemplateDataBound - RadMenu
+description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: menu/client-side-programming/events/onclienttemplatedatabound-
 tags: onclienttemplatedatabound,
 published: True

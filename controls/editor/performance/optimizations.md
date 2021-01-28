@@ -1,7 +1,7 @@
 ---
 title: Optimizations
-page_title: Optimizations | RadEditor for ASP.NET AJAX Documentation
-description: Optimizations
+page_title: Optimizations - RadEditor
+description: Check our Web Forms article about Optimizations.
 slug: editor/performance/optimizations
 tags: optimizations
 published: True

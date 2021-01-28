@@ -1,7 +1,7 @@
 ---
 title: OnClientAdding
-page_title: OnClientAdding | RadUpload for ASP.NET AJAX Documentation
-description: OnClientAdding
+page_title: OnClientAdding - RadUpload
+description: Check our Web Forms article about OnClientAdding.
 slug: upload/client-side-programming/onclientadding
 tags: onclientadding
 published: True

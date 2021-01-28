@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentMoveStart
-page_title: OnClientAppointmentMoveStart | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentMoveStart
+page_title: OnClientAppointmentMoveStart - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentMoveStart.
 slug: scheduler/client-side-programming/events/onclientappointmentmovestart
 tags: onclientappointmentmovestart
 published: True

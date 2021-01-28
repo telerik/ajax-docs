@@ -1,7 +1,7 @@
 ---
 title: Skin Selectors
-page_title: Skin Selectors | RadSearchBox for ASP.NET AJAX Documentation
-description: Skin Selectors
+page_title: Skin Selectors - RadSearchBox
+description: Check our Web Forms article about Skin Selectors.
 slug: searchbox/appearance-and-styling/skin-selectors
 tags: skin,selectors
 published: True

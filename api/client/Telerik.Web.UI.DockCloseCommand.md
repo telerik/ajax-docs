@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockCloseCommand
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockCloseCommand
 slug: Telerik.Web.UI.DockCloseCommand
 ---

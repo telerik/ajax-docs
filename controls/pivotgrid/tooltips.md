@@ -1,7 +1,7 @@
 ---
 title: Tooltips
-page_title: Tooltips | RadPivotGrid for ASP.NET AJAX Documentation
-description: Tooltips
+page_title: Tooltips - RadPivotGrid
+description: Check our Web Forms article about Tooltips.
 slug: pivotgrid/tooltips
 tags: tooltips
 published: True

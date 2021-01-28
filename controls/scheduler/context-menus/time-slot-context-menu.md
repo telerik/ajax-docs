@@ -1,7 +1,7 @@
 ---
 title: Time Slot Context Menu
-page_title: Time Slot Context Menu | RadScheduler for ASP.NET AJAX Documentation
-description: Time Slot Context Menu
+page_title: Time Slot Context Menu - RadScheduler
+description: Check our Web Forms article about Time Slot Context Menu.
 slug: scheduler/context-menus/time-slot-context-menu
 tags: time,slot,context,menu
 published: True

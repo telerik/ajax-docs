@@ -1,7 +1,7 @@
 ---
 title: Spell Checking RadTextBox
-page_title: Spell Checking RadTextBox | RadTextBox for ASP.NET AJAX Documentation
-description: Spell Checking RadTextBox
+page_title: Spell Checking RadTextBox - RadTextBox
+description: Check our Web Forms article about Spell Checking RadTextBox.
 slug: radtextbox/features/spell-checking-radtextbox
 tags: spell,checking,radtextbox
 published: True

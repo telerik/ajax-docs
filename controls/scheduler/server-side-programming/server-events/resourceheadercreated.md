@@ -1,7 +1,7 @@
 ---
 title: ResourceHeaderCreated
-page_title: ResourceHeaderCreated | RadScheduler for ASP.NET AJAX Documentation
-description: ResourceHeaderCreated
+page_title: ResourceHeaderCreated - RadScheduler
+description: Check our Web Forms article about ResourceHeaderCreated.
 slug: scheduler/server-side-programming/server-events/resourceheadercreated
 tags: resourceheadercreated
 published: True

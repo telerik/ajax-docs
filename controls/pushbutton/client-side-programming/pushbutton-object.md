@@ -1,7 +1,7 @@
 ---
 title: PushButton Object
-page_title: PushButton Object | RadPushButton for ASP.NET AJAX Documentation
-description: PushButton Object
+page_title: PushButton Object - RadPushButton
+description: Check our Web Forms article about PushButton Object.
 slug: pushbutton/client-side-programming/pushbutton-object
 tags: pushbutton,object
 published: True

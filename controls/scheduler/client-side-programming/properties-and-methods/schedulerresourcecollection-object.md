@@ -1,7 +1,7 @@
 ---
 title: SchedulerResourceCollection Object
-page_title: SchedulerResourceCollection Object | RadScheduler for ASP.NET AJAX Documentation
-description: SchedulerResourceCollection Object
+page_title: SchedulerResourceCollection Object - RadScheduler
+description: Check our Web Forms article about SchedulerResourceCollection Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object
 tags: schedulerresourcecollection,object
 published: True

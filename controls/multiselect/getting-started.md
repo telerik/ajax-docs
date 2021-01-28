@@ -1,7 +1,7 @@
 ---
 title: Getting Started 
-page_title: Getting Started  | RadMultiSelect for ASP.NET AJAX Documentation
-description: Getting Started 
+page_title: Getting Started - RadMultiSelect
+description: Check our Web Forms article about Getting Started.
 slug: multiselect/getting-started
 tags: getting,started,
 published: True

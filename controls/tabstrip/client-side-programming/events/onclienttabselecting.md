@@ -1,7 +1,7 @@
 ---
 title: OnClientTabSelecting
-page_title: OnClientTabSelecting | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientTabSelecting
+page_title: OnClientTabSelecting - RadTabStrip
+description: Check our Web Forms article about OnClientTabSelecting.
 slug: tabstrip/client-side-programming/onclienttabselecting
 tags: onclienttabselecting
 published: True

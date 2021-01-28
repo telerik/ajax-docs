@@ -1,7 +1,7 @@
 ---
 title: OnLinkedInShare
-page_title: OnLinkedInShare | RadSocialShare for ASP.NET AJAX Documentation
-description: OnLinkedInShare
+page_title: OnLinkedInShare - RadSocialShare
+description: Check our Web Forms article about OnLinkedInShare.
 slug: socialshare/client-side-programming/events/onlinkedinshare
 tags: onlinkedinshare
 published: True

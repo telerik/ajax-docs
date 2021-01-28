@@ -1,7 +1,7 @@
 ---
 title: Setting Focus
-page_title: Setting Focus | RadTextBox for ASP.NET AJAX Documentation
-description: Setting Focus
+page_title: Setting Focus - RadTextBox
+description: Check our Web Forms article about Setting Focus.
 slug: radtextbox/features/setting-focus
 tags: setting,focus
 published: True

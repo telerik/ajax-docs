@@ -1,7 +1,7 @@
 ---
 title: Connections
-page_title: Connections | RadDiagram for ASP.NET AJAX Documentation
-description: Connections
+page_title: Connections - RadDiagram
+description: Check our Web Forms article about Connections.
 slug: diagram/data-binding/server-side/connections
 tags: connections
 published: True

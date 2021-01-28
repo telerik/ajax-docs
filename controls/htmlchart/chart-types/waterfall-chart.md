@@ -1,7 +1,7 @@
 ---
 title: Waterfall Chart
-page_title: Waterfall Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Waterfall Chart
+page_title: Waterfall Chart - RadHtmlChart
+description: Check our Web Forms article about Waterfall Chart.
 slug: htmlchart/chart-types/waterfall-chart
 tags: waterfall,chart
 published: True

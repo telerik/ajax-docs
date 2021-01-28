@@ -1,7 +1,7 @@
 ---
 title: Toggle CSS Files from the CssFiles Collection
-page_title: Toggle CSS Files from the CssFiles Collection| RadEditor for ASP.NET AJAX Documentation
-description: Toggle CSS Files from the CssFiles Collection
+page_title: Toggle CSS Files from the CssFiles Collection- RadEditor
+description: Check our Web Forms article about Toggle CSS Files from the CssFiles Collection.
 slug: editor/how-to/toggle-css-files-from-cssfiles-collection
 tags: css, files, toggle, disable, decoration, content, area, iframe
 published: True

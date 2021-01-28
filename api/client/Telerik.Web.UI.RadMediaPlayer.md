@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMediaPlayer
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMediaPlayer
 slug: Telerik.Web.UI.RadMediaPlayer
 ---

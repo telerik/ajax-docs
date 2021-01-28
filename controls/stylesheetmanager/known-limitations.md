@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadStylesheetManager for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadStylesheetManager
+description: Check our Web Forms article about Known Limitations.
 slug: stylesheet/known-limitations
 tags: known,limitations
 published: True

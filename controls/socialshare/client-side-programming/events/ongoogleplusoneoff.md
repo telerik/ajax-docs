@@ -1,7 +1,7 @@
 ---
 title: OnGooglePlusOneOff
-page_title: OnGooglePlusOneOff | RadSocialShare for ASP.NET AJAX Documentation
-description: OnGooglePlusOneOff
+page_title: OnGooglePlusOneOff - RadSocialShare
+description: Check our Web Forms article about OnGooglePlusOneOff.
 slug: socialshare/client-side-programming/events/ongoogleplusoneoff
 tags: ongoogleplusoneoff
 published: True

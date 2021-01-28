@@ -1,7 +1,7 @@
 ---
 title: RenderDay object
-page_title: RenderDay object | RadCalendar for ASP.NET AJAX Documentation
-description: RenderDay object
+page_title: RenderDay object - RadCalendar
+description: Check our Web Forms article about RenderDay object.
 slug: calendar/client-side-programming/renderday-object
 tags: renderday,object
 published: True

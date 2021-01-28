@@ -1,7 +1,7 @@
 ---
 title: RadPivotGrid OLAP Support
-page_title: RadPivotGrid OLAP Support | RadPivotGrid for ASP.NET AJAX Documentation
-description: RadPivotGrid OLAP Support
+page_title: RadPivotGrid OLAP Support - RadPivotGrid
+description: Check our Web Forms article about RadPivotGrid OLAP Support.
 slug: pivotgrid/data-binding/radpivotgrid-olap-support
 tags: radpivotgrid,olap,support
 published: True

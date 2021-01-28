@@ -1,7 +1,7 @@
 ---
 title: Date Axis Base Unit Steps
-page_title: Date Axis Base Unit Steps | RadHtmlChart for ASP.NET AJAX Documentation
-description: Date Axis Base Unit Steps
+page_title: Date Axis Base Unit Steps - RadHtmlChart
+description: Check our Web Forms article about Date Axis Base Unit Steps.
 slug: htmlchart/functionality/axes/date-axis-base-unit-steps
 tags: date,axis
 published: True

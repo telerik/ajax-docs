@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadCalendar Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadCalendar Overview
+description: Check our Web Forms article about Overview.
 slug: calendar/overview
 tags: overview
 published: True

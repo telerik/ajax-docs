@@ -1,7 +1,7 @@
 ---
 title: Box Plot Chart
-page_title: Box Plot Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Box Plot Chart
+page_title: Box Plot Chart - RadHtmlChart
+description: Check our Web Forms article about Box Plot Chart.
 slug: htmlchart/chart-types/box-plot-chart
 tags: box,plot,chart
 published: True

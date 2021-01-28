@@ -1,7 +1,7 @@
 ---
 title: RadPanelBar Object
-page_title: RadPanelBar Object | RadPanelBar for ASP.NET AJAX Documentation
-description: RadPanelBar Object
+page_title: RadPanelBar Object - RadPanelBar
+description: Check our Web Forms article about RadPanelBar Object.
 slug: panelbar/client-side-programming/radpanelbar-object
 tags: radpanelbar,object
 published: True

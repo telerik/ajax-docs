@@ -1,7 +1,7 @@
 ---
 title: OnExcelExportCellFormatting
-page_title: OnExcelExportCellFormatting Event - RadGrid | UI for ASP.NET AJAX
-description: OnExcelExportCellFormatting Event
+page_title: OnExcelExportCellFormatting Event - RadGrid
+description: Check our Web Forms article about OnExcelExportCellFormatting Event.
 slug: grid/server-side-programming/events/onexcelexportcellformatting
 published: True
 position: 50

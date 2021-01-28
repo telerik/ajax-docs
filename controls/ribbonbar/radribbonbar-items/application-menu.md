@@ -1,7 +1,7 @@
 ---
 title: Application Menu
-page_title: Application Menu | RadRibbonBar for ASP.NET AJAX Documentation
-description: Application Menu
+page_title: Application Menu - RadRibbonBar
+description: Check our Web Forms article about Application Menu.
 slug: ribbonbar/radribbonbar-items/application-menu
 tags: application,menu
 published: True

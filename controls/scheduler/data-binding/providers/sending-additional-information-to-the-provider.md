@@ -1,7 +1,7 @@
 ---
 title: Sending Additional Information to the Provider
-page_title: Sending Additional Information to the Provider | RadScheduler for ASP.NET AJAX Documentation
-description: Sending Additional Information to the Provider
+page_title: Sending Additional Information to the Provider - RadScheduler
+description: Check our Web Forms article about Sending Additional Information to the Provider.
 slug: scheduler/data-binding/providers/sending-additional-information-to-the-provider
 tags: sending,additional,information,to,the,provider
 published: True

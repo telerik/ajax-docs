@@ -1,7 +1,7 @@
 ---
 title: FIPS Compatibility
-page_title: FIPS Compatibility | UI for ASP.NET AJAX Documentation
-description: FIPS Compatibility
+page_title: FIPS Compatibility
+description: Check our Web Forms article about FIPS Compatibility.
 slug: controls/fips-compatibility
 tags: fips,compatibility
 published: True

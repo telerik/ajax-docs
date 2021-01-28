@@ -1,7 +1,7 @@
 ---
 title: Load-on-demand RadGrid in RadComboBox
-page_title: Load-on-demand RadGrid in RadComboBox | RadGrid for ASP.NET AJAX Documentation
-description: Load-on-demand RadGrid in RadComboBox
+page_title: Load-on-demand RadGrid in RadComboBox - RadGrid
+description: Check our Web Forms article about Load-on-demand RadGrid in RadComboBox.
 slug: grid/how-to/common/load-on-demand-radgrid-in-radcombobox
 tags: load-on-demand,radgrid,in,radcombobox
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SpellCheckService
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SpellCheckService
 slug: Telerik.Web.UI.SpellCheckService
 ---

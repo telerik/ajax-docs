@@ -1,7 +1,7 @@
 ---
 title: Using RadTreeNode Methods Against а Group of Nodes
-page_title: Using RadTreeNode Methods Against а Group of Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Using RadTreeNode Methods Against а Group of Nodes
+page_title: Using RadTreeNode Methods Against а Group of Nodes - RadTreeView
+description: Check our Web Forms article about Using RadTreeNode Methods Against а Group of Nodes.
 slug: treeview/application-scenarios/client-side-programming/using-radtreenode-methods-against-a-group-of-nodes
 tags: using,radtreenode,methods,against,а,group,of,nodes
 published: True

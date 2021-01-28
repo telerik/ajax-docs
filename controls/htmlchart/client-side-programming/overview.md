@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadHtmlChart
+description: Check our Web Forms article about Overview.
 slug: htmlchart/client-side-programming/overview
 tags: overview
 published: True

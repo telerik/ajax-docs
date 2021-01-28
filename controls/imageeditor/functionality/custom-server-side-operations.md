@@ -1,7 +1,7 @@
 ---
 title: Custom Server-side Operations
-page_title: Custom Server-side Operations | RadImageEditor for ASP.NET AJAX Documentation
-description: Custom Server-side Operations
+page_title: Custom Server-side Operations - RadImageEditor
+description: Check our Web Forms article about Custom Server-side Operations.
 slug: imageeditor/functionality/custom-server-side-operations
 tags: custom,server-side,operations
 published: True

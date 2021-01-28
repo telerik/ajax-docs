@@ -1,7 +1,7 @@
 ---
 title: Web API Binding
-page_title: Web API Binding | RadScheduler for ASP.NET AJAX Documentation
-description: Web API Binding
+page_title: Web API Binding - RadScheduler
+description: Check our Web Forms article about Web API Binding.
 slug: scheduler/web-service-binding/web-api-binding
 tags: web,api,binding
 published: True

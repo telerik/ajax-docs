@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Totals Overview | RadPivotGrid for ASP.NET AJAX Documentation
-description: Overview
+page_title: Totals Overview - RadPivotGrid
+description: Check our Web Forms article about Overview.
 slug: pivotgrid/totals/overview
 tags: overview
 published: True

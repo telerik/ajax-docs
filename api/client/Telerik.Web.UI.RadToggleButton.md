@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadToggleButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToggleButton
 slug: Telerik.Web.UI.RadToggleButton
 ---

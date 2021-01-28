@@ -1,7 +1,7 @@
 ---
 title: OnBatchEditSetCellValue
-page_title: OnBatchEditSetCellValue | RadGrid for ASP.NET AJAX Documentation
-description: OnBatchEditSetCellValue
+page_title: OnBatchEditSetCellValue - RadGrid
+description: Check our Web Forms article about OnBatchEditSetCellValue.
 slug: grid/client-side-programming/events/onbatcheditsetcellvalue
 tags: onbatcheditsetcellvalue
 published: True

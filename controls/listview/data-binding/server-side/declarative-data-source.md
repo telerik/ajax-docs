@@ -1,7 +1,7 @@
 ---
 title: Declarative Data Source
-page_title: Declarative Data Source | RadListView for ASP.NET AJAX Documentation
-description: Declarative Data Source
+page_title: Declarative Data Source - RadListView
+description: Check our Web Forms article about Declarative Data Source.
 slug: listview/data-binding/server-side/declarative-data-source
 tags: declarative,data,source
 published: True

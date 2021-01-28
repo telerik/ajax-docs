@@ -1,7 +1,7 @@
 ---
 title: SelectedDateChanged
-page_title: SelectedDateChanged | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: SelectedDateChanged
+page_title: SelectedDateChanged - RadMonthYearPicker
+description: Check our Web Forms article about SelectedDateChanged.
 slug: monthyearpicker/server-side-programming/events/selecteddatechanged
 tags: selecteddatechanged
 published: True

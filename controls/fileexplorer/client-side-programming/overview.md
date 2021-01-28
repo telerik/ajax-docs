@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadFileExplorer for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadFileExplorer
+description: Check our Web Forms article about Overview.
 slug: fileexplorer/client-side-programming/overview
 tags: overview
 published: True

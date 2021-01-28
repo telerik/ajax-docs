@@ -1,7 +1,7 @@
 ---
 title: HTML Output
-page_title: HTML Output | RadLightBox for ASP.NET AJAX Documentation
-description: HTML Output
+page_title: HTML Output - RadLightBox
+description: Check our Web Forms article about HTML Output.
 slug: lightbox/appearance-and-styling/html-output
 tags: html,output
 published: True

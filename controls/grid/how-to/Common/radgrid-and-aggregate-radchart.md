@@ -1,7 +1,7 @@
 ---
 title: RadGrid and Aggregate RadChart
-page_title: RadGrid and Aggregate RadChart | RadGrid for ASP.NET AJAX Documentation
-description: RadGrid and Aggregate RadChart
+page_title: RadGrid and Aggregate RadChart - RadGrid
+description: Check our Web Forms article about RadGrid and Aggregate RadChart.
 slug: grid/how-to/common/radgrid-and-aggregate-radchart
 tags: radgrid,and,aggregate,radchart
 published: True

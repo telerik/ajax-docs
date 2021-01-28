@@ -1,7 +1,7 @@
 ---
 title: RadToolBarButton Id and Custom Attributes (Q1 2016 SP1)
-page_title: RadToolBarButton Id and Custom Attributes (Q1 2016 SP1) | RadToolBar for ASP.NET AJAX Documentation
-description: RadToolBarButton Id and Custom Attributes (Q1 2016 SP1)
+page_title: RadToolBarButton Id and Custom Attributes (Q1 2016 SP1) - RadToolBar
+description: Check our Web Forms article about RadToolBarButton Id and Custom Attributes (Q1 2016 SP1).
 slug: toolbar/changes-and-backwards-compatibility/radtoolbarbutton-id-and-custom-attributes-q1-2016-sp1
 tags: radtoolbarbutton,id,custom,attributes
 published: True

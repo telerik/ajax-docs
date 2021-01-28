@@ -1,7 +1,7 @@
 ---
 title: Custom Data Calculations
-page_title: Custom Data Calculations | RadPivotGrid for ASP.NET AJAX Documentation
-description: Custom Data Calculations
+page_title: Custom Data Calculations - RadPivotGrid
+description: Check our Web Forms article about Custom Data Calculations.
 slug: pivotgrid/fields/custom-data-calculations
 tags: custom,data,calculations
 published: True

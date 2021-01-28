@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadCalendar for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadCalendar
+description: Check our Web Forms article about Skins.
 slug: calendar/appearance-and-styling/skins
 tags: skins
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Whether Node.get_parent Returns the Parent Node or the Parent Treeview
-page_title: Whether Node.get_parent Returns the Parent Node or the Parent Treeview | RadTreeView for ASP.NET AJAX Documentation
-description: Whether Node.get_parent Returns the Parent Node or the Parent Treeview
+page_title: Whether Node.get_parent Returns the Parent Node or the Parent Treeview - RadTreeView
+description: Check our Web Forms article about Whether Node.get_parent Returns the Parent Node or the Parent Treeview.
 slug: treeview/application-scenarios/client-side-programming/whether-node.get_parent-returns-the-parent-node-or-the-parent-treeview
 tags: whether,node.get_parent,returns,the,parent,node,or,the,parent,treeview
 published: True

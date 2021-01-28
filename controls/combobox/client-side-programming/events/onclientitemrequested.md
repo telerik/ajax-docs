@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientItemsRequested
+page_title: OnClientItemsRequested - RadComboBox
+description: Check our Web Forms article about OnClientItemsRequested.
 slug: combobox/client-side-programming/events/onclientitemrequested
 tags: onclientitemsrequested
 published: True

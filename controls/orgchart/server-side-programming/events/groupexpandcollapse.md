@@ -1,7 +1,7 @@
 ---
 title: GroupExpandCollapse
-page_title: GroupExpandCollapse | RadOrgChart for ASP.NET AJAX Documentation
-description: GroupExpandCollapse
+page_title: GroupExpandCollapse - RadOrgChart
+description: Check our Web Forms article about GroupExpandCollapse.
 slug: orgchart/server-side-programming/events/groupexpandcollapse
 tags: groupexpandcollapse
 published: True

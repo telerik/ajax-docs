@@ -1,7 +1,7 @@
 ---
 title: A Script Causes IE to Run Slowly
-page_title: A Script Causes IE to Run Slowly | RadTreeView for ASP.NET AJAX Documentation
-description: A Script Causes IE to Run Slowly
+page_title: A Script Causes IE to Run Slowly - RadTreeView
+description: Check our Web Forms article about A Script Causes IE to Run Slowly.
 slug: treeview/troubleshooting/a-script-causes-ie-to-run-slowly
 tags: a,script,causes,ie,to,run,slowly
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Supported Data Sources
-page_title: Supported Data Sources | RadTileList for ASP.NET AJAX Documentation
-description: Supported Data Sources
+page_title: Supported Data Sources - RadTileList
+description: Check our Web Forms article about Supported Data Sources.
 slug: tilelist/data-binding/supported-data-sources
 tags: supported,data,sources
 published: True

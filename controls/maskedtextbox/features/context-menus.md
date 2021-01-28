@@ -1,7 +1,7 @@
 ---
 title: Context Menus
-page_title: Context Menus | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: Context Menus
+page_title: Context Menus - RadMaskedTextBox
+description: Check our Web Forms article about Context Menus.
 slug: radmaskedtextbox/getting-started/context-menus
 tags: context,menus
 published: True

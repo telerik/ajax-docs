@@ -1,7 +1,7 @@
 ---
 title: Items
-page_title: Items  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Items 
+page_title: Items - RadBreadcrumb
+description: Check our Web Forms article about Items.
 slug: breadcrumb/functionality/items
 tags: items
 published: True

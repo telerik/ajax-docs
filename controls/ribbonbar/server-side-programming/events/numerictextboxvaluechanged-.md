@@ -1,7 +1,7 @@
 ---
 title: NumericTextBoxValueChanged 
-page_title: NumericTextBoxValueChanged  | RadRibbonBar for ASP.NET AJAX Documentation
-description: NumericTextBoxValueChanged 
+page_title: NumericTextBoxValueChanged - RadRibbonBar
+description: Check our Web Forms article about NumericTextBoxValueChanged.
 slug: ribbonbar/server-side-programming/events/numerictextboxvaluechanged-
 tags: numerictextboxvaluechanged,
 published: True

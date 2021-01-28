@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | RadPivotGrid for ASP.NET AJAX Documentation
-description: Programmatic Creation
+page_title: Programmatic Creation - RadPivotGrid
+description: Check our Web Forms article about Programmatic Creation.
 slug: pivotgrid/programmatic-creation
 tags: programmatic,creation
 published: True

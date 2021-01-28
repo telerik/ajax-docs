@@ -1,7 +1,7 @@
 ---
 title: OnFocus
-page_title: OnFocus | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnFocus
+page_title: OnFocus - RadMaksedTextBox
+description: Check our Web Forms article about OnFocus.
 slug: radmaskedtextbox/client-side-programming/events/onfocus
 tags: onfocus
 published: True

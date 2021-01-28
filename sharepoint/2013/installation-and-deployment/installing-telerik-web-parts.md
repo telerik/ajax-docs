@@ -1,7 +1,7 @@
 ---
 title: Installing Telerik Web Parts
-page_title: Installing Telerik Web Parts | UI for ASP.NET AJAX Documentation
-description: Installing Telerik Web Parts
+page_title: Installing Telerik Web Parts
+description: Check our Web Forms article about Installing Telerik Web Parts.
 slug: sharepoint/2013/installation-and-deployment/installing-telerik-web-parts
 tags: installing,telerik,web,parts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: Styles | RadDateInput for ASP.NET AJAX Documentation
-description: Styles
+page_title: Styles - RadDateInput
+description: Check our Web Forms article about Styles.
 slug: raddateinput/appearance-and-styling/styles
 tags: styles
 published: True

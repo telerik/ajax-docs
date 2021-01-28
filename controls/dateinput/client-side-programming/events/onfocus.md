@@ -1,7 +1,7 @@
 ---
 title: OnFocus
-page_title: OnFocus | RadDateInput for ASP.NET AJAX Documentation
-description: OnFocus
+page_title: OnFocus - RadDateInput
+description: Check our Web Forms article about OnFocus.
 slug: raddateinput/client-side-programming/events/onfocus
 tags: onfocus
 published: True

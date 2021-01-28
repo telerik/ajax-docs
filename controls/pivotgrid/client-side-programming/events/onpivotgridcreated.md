@@ -1,7 +1,7 @@
 ---
 title: OnPivotGridCreated
-page_title: OnPivotGridCreated | RadPivotGrid for ASP.NET AJAX Documentation
-description: OnPivotGridCreated
+page_title: OnPivotGridCreated - RadPivotGrid
+description: Check our Web Forms article about OnPivotGridCreated.
 slug: pivotgrid/client-side-programming/events/onpivotgridcreated
 tags: onpivotgridcreated
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnMonthSelected
-page_title: OnMonthSelected | RAdMonthYearPicker for ASP.NET AJAX Documentation
-description: OnMonthSelected
+page_title: OnMonthSelected - RAdMonthYearPicker
+description: Check our Web Forms article about OnMonthSelected.
 slug: monthyearpicker/client-side-programming/events/onmonthselected
 tags: onmonthselected
 published: True

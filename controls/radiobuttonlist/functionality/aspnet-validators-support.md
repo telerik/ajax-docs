@@ -1,7 +1,7 @@
 ---
 title: ASP.NET Validators Support
-page_title: ASP.NET Validators Support | RadRadioButtonList for ASP.NET AJAX Documentation
-description: ASP.NET Validators Support
+page_title: ASP.NET Validators Support - RadRadioButtonList
+description: Check our Web Forms article about ASP.NET Validators Support.
 slug: radiobuttonlist/functionality/aspnet-validators-support
 tags: radiobutton, aspnet,validators,support, validate, validation, native
 published: True

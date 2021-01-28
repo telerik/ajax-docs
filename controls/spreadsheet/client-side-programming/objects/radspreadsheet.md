@@ -1,7 +1,7 @@
 ---
 title: Spreadsheet Object
-page_title: RadSpreadsheet Object | UI for ASP.NET AJAX Documentation
-description: RadSpreadsheet Object
+page_title: RadSpreadsheet Object
+description: Check our Web Forms article about RadSpreadsheet Object.
 slug: spreadsheet/client-side-programming/objects/radspreadsheet
 tags: spreadsheetobject
 published: True

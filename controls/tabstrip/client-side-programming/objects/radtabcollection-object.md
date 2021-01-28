@@ -1,7 +1,7 @@
 ---
 title: RadTabCollection Object
-page_title: RadTabCollection Object | RadTabStrip for ASP.NET AJAX Documentation
-description: RadTabCollection Object
+page_title: RadTabCollection Object - RadTabStrip
+description: Check our Web Forms article about RadTabCollection Object.
 slug: tabstrip/client-side-programming/radtabcollection-object
 tags: radtabcollection,object
 published: True

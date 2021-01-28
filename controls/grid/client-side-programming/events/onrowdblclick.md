@@ -1,7 +1,7 @@
 ---
 title: OnRowDblClick
-page_title: OnRowDblClick | RadGrid for ASP.NET AJAX Documentation
-description: OnRowDblClick
+page_title: OnRowDblClick - RadGrid
+description: Check our Web Forms article about OnRowDblClick.
 slug: grid/client-side-programming/events/onrowdblclick
 tags: onrowdblclick
 published: True

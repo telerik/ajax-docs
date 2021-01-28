@@ -1,7 +1,7 @@
 ---
 title: get_editFormItem()
-page_title: get_editFormItem() | RadGrid for ASP.NET AJAX Documentation
-description: get_editFormItem()
+page_title: get_editFormItem() - RadGrid
+description: Check our Web Forms article about get_editFormItem().
 slug: grid/client-side-programming/griddataitem-object/properties/get_editformitem()
 tags: get_editformitem()
 published: True

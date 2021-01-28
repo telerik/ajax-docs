@@ -1,7 +1,7 @@
 ---
 title: Wizard Object
-page_title: Wizard Object | RadWizard for ASP.NET AJAX Documentation
-description: Wizard Object
+page_title: Wizard Object - RadWizard
+description: Check our Web Forms article about Wizard Object.
 slug: wizard/client-side-programming/wizard-object
 tags: wizard,object
 published: True

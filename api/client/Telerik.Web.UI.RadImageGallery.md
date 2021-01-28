@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadImageGalleryItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadImageGalleryItem
 slug: Telerik.Web.UI.RadImageGalleryItem
 ---

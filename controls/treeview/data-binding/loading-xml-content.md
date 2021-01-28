@@ -1,7 +1,7 @@
 ---
 title: Loading XML Content
-page_title: Loading XML Content | RadTreeView for ASP.NET AJAX Documentation
-description: Loading XML Content
+page_title: Loading XML Content - RadTreeView
+description: Check our Web Forms article about Loading XML Content.
 slug: treeview/data-binding/loading-xml-content
 tags: loading,xml,content
 published: True

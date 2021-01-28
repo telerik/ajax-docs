@@ -1,7 +1,7 @@
 ---
 title: Standards Compliance
-page_title: Standards Compliance | RadPanelBar for ASP.NET AJAX Documentation
-description: Standards Compliance
+page_title: Standards Compliance - RadPanelBar
+description: Check our Web Forms article about Standards Compliance.
 slug: panelbar/overview/standards-compliance
 tags: standards,compliance
 published: True

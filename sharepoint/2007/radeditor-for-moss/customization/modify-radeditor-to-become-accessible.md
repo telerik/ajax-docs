@@ -1,7 +1,7 @@
 ---
 title: Modify RadEditor to Become Accessible
-page_title: Modify RadEditor to Become Accessible | UI for ASP.NET AJAX Documentation
-description: Modify RadEditor to Become Accessible
+page_title: Modify RadEditor to Become Accessible
+description: Check our Web Forms article about Modify RadEditor to Become Accessible.
 slug: sharepoint/2007/radeditor-for-moss/customization/modify-radeditor-to-become-accessible
 tags: modify,radeditor,to,become,accessible
 published: True

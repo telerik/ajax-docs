@@ -1,7 +1,7 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | RadFileExplorer for ASP.NET AJAX Documentation
-description: Create a Custom Skin
+page_title: Create a Custom Skin - RadFileExplorer
+description: Check our Web Forms article about Create a Custom Skin.
 slug: fileexplorer/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
 published: True

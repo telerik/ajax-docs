@@ -1,7 +1,7 @@
 ---
 title: OnCalendarViewChanging
-page_title: OnCalendarViewChanging | RadCalendar for ASP.NET AJAX Documentation
-description: OnCalendarViewChanging
+page_title: OnCalendarViewChanging - RadCalendar
+description: Check our Web Forms article about OnCalendarViewChanging.
 slug: calendar/client-side-programming/events/oncalendarviewchanging
 tags: oncalendarviewchanging
 published: True

@@ -1,7 +1,7 @@
 ---
 title: get_virtualItemCount()
-page_title: get_virtualItemCount() | RadGrid for ASP.NET AJAX Documentation
-description: get_virtualItemCount()
+page_title: get_virtualItemCount() - RadGrid
+description: Check our Web Forms article about get_virtualItemCount().
 slug: grid/client-side-programming/gridtableview-object/properties/get_virtualitemcount()
 tags: get_virtualitemcount()
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadComboBox
+description: Check our Web Forms article about Overview.
 slug: combobox/templates/overview
 tags: overview, templates
 published: True

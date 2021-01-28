@@ -1,7 +1,7 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | RadTreeView for ASP.NET AJAX Documentation
-description: Web Service Binding
+page_title: Web Service Binding - RadTreeView
+description: Check our Web Forms article about Web Service Binding.
 slug: treeview/load-on-demand/web-service-binding
 tags: web,service,binding
 published: True

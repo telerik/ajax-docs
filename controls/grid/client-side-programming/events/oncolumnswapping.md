@@ -1,7 +1,7 @@
 ---
 title: OnColumnSwapping
-page_title: OnColumnSwapping | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnSwapping
+page_title: OnColumnSwapping - RadGrid
+description: Check our Web Forms article about OnColumnSwapping.
 slug: grid/client-side-programming/events/oncolumnswapping
 tags: oncolumnswapping
 published: True

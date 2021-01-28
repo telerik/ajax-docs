@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpell Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadSpell Overview
+description: Check our Web Forms article about Overview.
 slug: spell/overview
 tags: overview
 published: True

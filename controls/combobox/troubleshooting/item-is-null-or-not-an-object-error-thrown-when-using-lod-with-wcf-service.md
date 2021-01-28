@@ -1,7 +1,7 @@
 ---
 title: Item is null or not an object error Thrown When Using LoD with WCF service
-page_title: Item is null or not an object error Thrown When Using LoD with WCF service | RadComboBox for ASP.NET AJAX Documentation
-description: Item is null or not an object error Thrown When Using LoD with WCF service
+page_title: Item is null or not an object error Thrown When Using LoD with WCF service - RadComboBox
+description: Check our Web Forms article about Item is null or not an object error Thrown When Using LoD with WCF service.
 slug: combobox/troubleshooting/item-is-null-or-not-an-object-error-thrown-when-using-lod-with-wcf-service
 tags: item,is,null,or,not,an,object,error,thrown,when,using,lod,with,wcf,service
 published: True

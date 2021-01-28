@@ -1,7 +1,7 @@
 ---
 title: OnClientPageLoad
-page_title: OnClientPageLoad | RadWindow for ASP.NET AJAX Documentation
-description: OnClientPageLoad
+page_title: OnClientPageLoad - RadWindow
+description: Check our Web Forms article about OnClientPageLoad.
 slug: window/client-side-programming/events/onclientpageload
 tags: onclientpageload
 published: True

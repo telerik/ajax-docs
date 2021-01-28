@@ -1,7 +1,7 @@
 ---
 title: editItem
-page_title: editItem | RadGrid for ASP.NET AJAX Documentation
-description: editItem
+page_title: editItem - RadGrid
+description: Check our Web Forms article about editItem.
 slug: grid/client-side-programming/gridtableview-object/methods/edititem
 tags: edititem
 published: True

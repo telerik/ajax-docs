@@ -1,7 +1,7 @@
 ---
 title: Migrate Data Binding Configuration
-page_title: Migrate Data Binding Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Migrate Data Binding Configuration
+page_title: Migrate Data Binding Configuration - RadHtmlChart
+description: Check our Web Forms article about Migrate Data Binding Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-data-binding-configuration
 tags: migrate,data,binding,configuration
 published: True

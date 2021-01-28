@@ -1,7 +1,7 @@
 ---
 title: AutoCompleteBoxEntry Object
-page_title: AutoCompleteBoxEntry Object | AutoCompleteBox for ASP.NET AJAX Documentation
-description: AutoCompleteBoxEntry Object
+page_title: AutoCompleteBoxEntry Object - AutoCompleteBox
+description: Check our Web Forms article about AutoCompleteBoxEntry Object.
 slug: autocompletebox/client-side-programming/objects/autocompleteboxentry-object
 tags: autocompletebox,object
 published: True

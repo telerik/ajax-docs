@@ -1,7 +1,7 @@
 ---
 title: RibbonBarComboBox
-page_title: RibbonBarComboBox | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarComboBox
+page_title: RibbonBarComboBox - RadRibbonBar
+description: Check our Web Forms article about RibbonBarComboBox.
 slug: ribbonbar/radribbonbar-items/ribbonbarcombobox
 tags: ribbonbarcombobox
 published: True

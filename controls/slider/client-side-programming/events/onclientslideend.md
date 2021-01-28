@@ -1,7 +1,7 @@
 ---
 title: OnClientSlideEnd
-page_title: OnClientSlideEnd | RadSlider for ASP.NET AJAX Documentation
-description: OnClientSlideEnd
+page_title: OnClientSlideEnd - RadSlider
+description: Check our Web Forms article about OnClientSlideEnd.
 slug: slider/client-side-programming/events/onclientslideend
 tags: onclientslideend
 published: True

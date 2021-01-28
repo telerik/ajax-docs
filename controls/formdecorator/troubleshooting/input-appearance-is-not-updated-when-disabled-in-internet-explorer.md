@@ -1,7 +1,7 @@
 ---
 title: Input Appearance Is Not Updated When Disabled In Internet Explorer
-page_title: Input Appearance Is Not Updated When Disabled In Internet Explorer | RadFormDecorator for ASP.NET AJAX Documentation
-description: Input Appearance Is Not Updated When Disabled In Internet Explorer
+page_title: Input Appearance Is Not Updated When Disabled In Internet Explorer - RadFormDecorator
+description: Check our Web Forms article about Input Appearance Is Not Updated When Disabled In Internet Explorer.
 slug: formdecorator/troubleshooting/input-appearance-is-not-updated-when-disabled-in-internet-explorer
 tags: input,appearance,is,not,updated,when,disabled,in,internet,explorer
 published: True

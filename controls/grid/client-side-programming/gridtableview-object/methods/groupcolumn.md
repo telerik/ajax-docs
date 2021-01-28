@@ -1,7 +1,7 @@
 ---
 title: groupColumn
-page_title: groupColumn | RadGrid for ASP.NET AJAX Documentation
-description: groupColumn
+page_title: groupColumn - RadGrid
+description: Check our Web Forms article about groupColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/groupcolumn
 tags: groupcolumn
 published: True

@@ -1,7 +1,7 @@
 ---
 title: The Wizard Labels, Legend and Titles Tab
-page_title: The Wizard Labels, Legend and Titles Tab | RadChart for ASP.NET AJAX Documentation
-description: The Wizard Labels, Legend and Titles Tab
+page_title: The Wizard Labels, Legend and Titles Tab - RadChart
+description: Check our Web Forms article about The Wizard Labels, Legend and Titles Tab.
 slug: chart/understanding-radchart-ui/the-wizard-labels,-legend-and-titles-tab
 tags: the,wizard,labels,,legend,and,titles,tab
 published: True

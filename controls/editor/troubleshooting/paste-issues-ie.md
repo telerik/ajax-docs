@@ -1,7 +1,7 @@
 ---
 title: Pasting Issues Under IE
-page_title: Pasting Issues Under IE | RadEditor for ASP.NET AJAX Documentation
-description: Pasting Issues Under IE
+page_title: Pasting Issues Under IE - RadEditor
+description: Check our Web Forms article about Pasting Issues Under IE.
 slug: editor/troubleshooting/paste-issues-ie
 tags: pasting,issues,with,ie,internet explorer,editor,paste
 published: True

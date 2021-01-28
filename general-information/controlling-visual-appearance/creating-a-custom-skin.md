@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | UI for ASP.NET AJAX Documentation
-description: Creating a Custom Skin
+page_title: Creating a Custom Skin
+description: Check our Web Forms article about Creating a Custom Skin.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin
 tags: creating,a,custom,skin
 published: True

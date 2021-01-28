@@ -1,7 +1,7 @@
 ---
 title: Save and Load State
-page_title: Save and Load State | RadTileList for ASP.NET AJAX Documentation
-description: Save and Load State
+page_title: Save and Load State - RadTileList
+description: Check our Web Forms article about Save and Load State.
 slug: tilelist/how-to/save-and-load-state
 tags: save,load,state
 published: True

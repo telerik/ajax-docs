@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadColorPicker for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadColorPicker
+description: Check our Web Forms article about Overview.
 slug: colorpicker/client-side-programming/overview
 tags: overview
 published: True

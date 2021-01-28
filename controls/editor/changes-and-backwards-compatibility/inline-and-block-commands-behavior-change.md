@@ -1,7 +1,7 @@
 ---
 title: Inline and Block Commands Behavior Change
-page_title: Inline and Block Commands Behavior Change | RadEditor for ASP.NET AJAX Documentation
-description: Inline and Block Commands Behavior Change
+page_title: Inline and Block Commands Behavior Change - RadEditor
+description: Check our Web Forms article about Inline and Block Commands Behavior Change.
 slug: editor/changes-and-backwards-compatibility/inline-and-block-commands-behavior-change
 tags: inline,and,block,commands,behavior,change
 published: True

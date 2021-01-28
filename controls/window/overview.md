@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadWindow for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadWindow
+description: Check our Web Forms article about Overview.
 slug: window/overview
 tags: overview
 published: True

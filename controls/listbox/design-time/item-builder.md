@@ -1,7 +1,7 @@
 ---
 title: Item Builder
-page_title: Item Builder | RadListBox for ASP.NET AJAX Documentation
-description: Item Builder
+page_title: Item Builder - RadListBox
+description: Check our Web Forms article about Item Builder.
 slug: listbox/design-time/item-builder
 tags: item,builder
 published: True

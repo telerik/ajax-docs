@@ -1,7 +1,7 @@
 ---
 title: Defining custom CSS styles
-page_title: Defining custom CSS styles | UI for ASP.NET AJAX Documentation
-description: Defining custom CSS styles
+page_title: Defining custom CSS styles
+description: Check our Web Forms article about Defining custom CSS styles.
 slug: sharepoint/2007/radeditor-for-moss/customization/defining-custom-css-styles
 tags: defining,custom,css,styles
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Make RadTreeView Occupy the Entire Window Height
-page_title: Make RadTreeView Occupy the Entire Window Height | RadTreeView for ASP.NET AJAX Documentation
-description: Make RadTreeView Occupy the Entire Window Height
+page_title: Make RadTreeView Occupy the Entire Window Height - RadTreeView
+description: Check our Web Forms article about Make RadTreeView Occupy the Entire Window Height.
 slug: treeview/application-scenarios/client-side-programming/make-radtreeview-occupy-the-entire-window-height
 tags: make,radtreeview,occupy,the,entire,window,height
 published: True

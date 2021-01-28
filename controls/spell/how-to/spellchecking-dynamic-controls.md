@@ -1,7 +1,7 @@
 ---
 title: Spellchecking Dynamic Controls
-page_title: Spellchecking Dynamic Controls | RadSpell for ASP.NET AJAX Documentation
-description: Spellchecking Dynamic Controls
+page_title: Spellchecking Dynamic Controls - RadSpell
+description: Check our Web Forms article about Spellchecking Dynamic Controls.
 slug: spell/how-to/spellchecking-dynamic-controls
 tags: spellchecking,dynamic,controls
 published: True

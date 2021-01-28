@@ -1,7 +1,7 @@
 ---
 title: Data Binding RadChart
-page_title: Data Binding RadChart | RadChart for ASP.NET AJAX Documentation
-description: Data Binding RadChart
+page_title: Data Binding RadChart - RadChart
+description: Check our Web Forms article about Data Binding RadChart.
 slug: chart/building-radcharts/data-binding-radchart
 tags: data,binding,radchart
 published: True

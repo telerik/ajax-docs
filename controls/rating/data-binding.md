@@ -1,7 +1,7 @@
 ---
 title: Data Binding
-page_title: Data Binding | RadRating for ASP.NET AJAX Documentation
-description: Data Binding
+page_title: Data Binding - RadRating
+description: Check our Web Forms article about Data Binding.
 slug: rating/data-binding
 tags: data,binding
 published: True

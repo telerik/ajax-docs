@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: RadMonthYearPicker Server-Side Events Overview
+page_title: Overview - RadMonthYearPicker
+description: Check our Web Forms article about RadMonthYearPicker Server-Side Events Overview.
 slug: monthyearpicker/server-side-programming/events/overview
 tags: server-side,events,overview
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SocialDialogCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SocialDialogCancelEventArgs
 slug: Telerik.Web.UI.SocialDialogCancelEventArgs
 ---

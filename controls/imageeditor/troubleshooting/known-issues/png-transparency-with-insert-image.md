@@ -1,7 +1,7 @@
 ---
 title: PNG Transparency with InsertImage Limitation
-page_title: PNG Transparency with InsertImage Limitation | RadImageEditor for ASP.NET AJAX Documentation
-description: PNG Transparency with InsertImage Limitation
+page_title: PNG Transparency with InsertImage Limitation - RadImageEditor
+description: Check our Web Forms article about PNG Transparency with InsertImage Limitation.
 slug: imageeditor/troubleshooting/known-issues/png-transparency-with-insert-image
 tags: png,transparency,insert,image,limitation
 published: True

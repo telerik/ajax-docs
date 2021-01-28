@@ -1,7 +1,7 @@
 ---
 title: Using Client-Side Events
-page_title: Using Client-Side Events | UI for ASP.NET AJAX Documentation
-description: Using Client-Side Events
+page_title: Using Client-Side Events
+description: Check our Web Forms article about Using Client-Side Events.
 slug: sharepoint/2010/radeditor-web-part/customization/using-client-side-events
 tags: using,client-side,events
 published: True

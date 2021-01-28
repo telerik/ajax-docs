@@ -1,7 +1,7 @@
 ---
 title: OnDateClick
-page_title: OnDateClick | RadCalendar for ASP.NET AJAX Documentation
-description: OnDateClick
+page_title: OnDateClick - RadCalendar
+description: Check our Web Forms article about OnDateClick.
 slug: calendar/client-side-programming/events/ondateclick
 tags: ondateclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: SpellCheckValidator
-page_title: SpellCheckValidator | RadSpell for ASP.NET AJAX Documentation
-description: SpellCheckValidator
+page_title: SpellCheckValidator - RadSpell
+description: Check our Web Forms article about SpellCheckValidator.
 slug: spell/how-to/spellcheckvalidator
 tags: spellcheckvalidator
 published: True

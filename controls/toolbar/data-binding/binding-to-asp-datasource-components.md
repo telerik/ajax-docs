@@ -1,7 +1,7 @@
 ---
 title: Binding to ASP DataSource Components
-page_title: Binding to ASP DataSource Components | RadToolBar for ASP.NET AJAX Documentation
-description: Binding to ASP DataSource Components
+page_title: Binding to ASP DataSource Components - RadToolBar
+description: Check our Web Forms article about Binding to ASP DataSource Components.
 slug: toolbar/data-binding/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components
 published: True

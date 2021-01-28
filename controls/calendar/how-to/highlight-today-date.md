@@ -1,7 +1,7 @@
 ---
 title: Highlight Today Date
-page_title: Highlight Today Date | RadCalendar for ASP.NET AJAX Documentation
-description: Highlight Today Date
+page_title: Highlight Today Date - RadCalendar
+description: Check our Web Forms article about Highlight Today Date.
 slug: calendar/how-to/highlight-today-date
 tags: highlight,today,date
 published: True

@@ -1,7 +1,7 @@
 ---
 title: DataBinding expressions
-page_title: DataBinding expressions | RadMenu for ASP.NET AJAX Documentation
-description: DataBinding expressions
+page_title: DataBinding expressions - RadMenu
+description: Check our Web Forms article about DataBinding expressions.
 slug: menu/templates/databinding-expressions
 tags: databinding,expressions
 published: True

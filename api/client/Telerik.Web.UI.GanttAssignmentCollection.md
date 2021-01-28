@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttAssignmentCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttAssignmentCollection
 slug: Telerik.Web.UI.GanttAssignmentCollection
 ---

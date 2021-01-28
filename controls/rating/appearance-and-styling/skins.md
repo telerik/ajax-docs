@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadRating for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadRating
+description: Check our Web Forms article about Skins.
 slug: rating/appearance-and-styling/skins
 tags: skins
 published: True

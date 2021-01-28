@@ -1,7 +1,7 @@
 ---
 title: Load On Demand
-page_title: Load On Demand | RadOrgChart for ASP.NET AJAX Documentation
-description: Load On Demand
+page_title: Load On Demand - RadOrgChart
+description: Check our Web Forms article about Load On Demand.
 slug: orgchart/functionality/load-on-demand
 tags: load,on,demand
 published: True

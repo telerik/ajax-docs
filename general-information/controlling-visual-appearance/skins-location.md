@@ -1,7 +1,7 @@
 ---
 title: Skins Location
-page_title: Skins Location | UI for ASP.NET AJAX Documentation
-description: Skins Location
+page_title: Skins Location
+description: Check our Web Forms article about Skins Location.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location
 tags: skins,location
 published: True

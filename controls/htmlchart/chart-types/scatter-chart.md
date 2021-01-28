@@ -1,7 +1,7 @@
 ---
 title: Scatter Chart
-page_title: Scatter Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Scatter Chart
+page_title: Scatter Chart - RadHtmlChart
+description: Check our Web Forms article about Scatter Chart.
 slug: htmlchart/chart-types/scatter-chart
 tags: scatter,chart
 published: True

@@ -1,7 +1,7 @@
 ---
 title: getSelectedElement
-page_title: getSelectedElement | RadEditor for ASP.NET AJAX Documentation
-description: getSelectedElement
+page_title: getSelectedElement - RadEditor
+description: Check our Web Forms article about getSelectedElement.
 slug: editor/client-side-programming/methods/selection/getselectedelement
 tags: getselectedelement
 published: True

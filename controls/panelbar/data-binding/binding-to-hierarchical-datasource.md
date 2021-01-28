@@ -1,7 +1,7 @@
 ---
 title: Binding to Hierarchical DataSource
-page_title: Binding to Hierarchical DataSource | RadPanelBar for ASP.NET AJAX Documentation
-description: Binding to Hierarchical DataSource
+page_title: Binding to Hierarchical DataSource - RadPanelBar
+description: Check our Web Forms article about Binding to Hierarchical DataSource.
 slug: panelbar/data-binding/binding-to-hierarchical-datasource
 tags: binding,to,hierarchical,datasource
 published: True

@@ -1,7 +1,7 @@
 ---
 title: detachEventHandler
-page_title: detachEventHandler | RadEditor for ASP.NET AJAX Documentation
-description: detachEventHandler
+page_title: detachEventHandler - RadEditor
+description: Check our Web Forms article about detachEventHandler.
 slug: editor/client-side-programming/methods/detacheventhandler
 tags: detacheventhandler
 published: True

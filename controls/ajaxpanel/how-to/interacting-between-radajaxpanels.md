@@ -1,7 +1,7 @@
 ---
 title: Interacting Between RadAjaxPanels
-page_title: Interacting Between RadAjaxPanels | RadAjax for ASP.NET AJAX Documentation
-description: Interacting Between RadAjaxPanels
+page_title: Interacting Between RadAjaxPanels
+description: Check our Web Forms article about Interacting Between RadAjaxPanels.
 slug: ajaxpanel/how-to/interacting-between-radajaxpanels
 previous_url: ajax/radajaxpanel/how-to/interacting-between-radajaxpanels
 tags: interacting,between,radajaxpanels

@@ -1,7 +1,7 @@
 ---
 title: Integration with DataSource Controls
-page_title: Integration with DataSource Controls | RadFilter for ASP.NET AJAX Documentation
-description: Integration with DataSource Controls
+page_title: Integration with DataSource Controls - RadFilter
+description: Check our Web Forms article about Integration with DataSource Controls.
 slug: filter/how-to/integration-with-datasource-controls
 tags: integration,with,datasource,controls
 published: True

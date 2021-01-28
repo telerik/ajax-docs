@@ -1,7 +1,7 @@
 ---
 title: TextBox and Label Decoration
-page_title: TextBox and Label Decoration | RadCaptcha for ASP.NET AJAX Documentation
-description: TextBox and Label Decoration
+page_title: TextBox and Label Decoration - RadCaptcha
+description: Check our Web Forms article about TextBox and Label Decoration.
 slug: captcha/appearance-and-styling/textbox-and-label-decoration
 tags: textbox,and,label,decoration
 published: True

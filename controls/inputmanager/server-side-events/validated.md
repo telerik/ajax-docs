@@ -1,7 +1,7 @@
 ---
 title: Validated
-page_title: Validated | RadInputManager for ASP.NET AJAX Documentation
-description: Validated
+page_title: Validated - RadInputManager
+description: Check our Web Forms article about Validated.
 slug: radinputmanager/server-side-events/validated
 tags: validated
 published: True

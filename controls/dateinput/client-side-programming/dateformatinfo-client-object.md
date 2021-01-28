@@ -1,7 +1,7 @@
 ---
 title: DateFormatInfo Client Object
-page_title: DateFormatInfo Client Object | RadDateInput for ASP.NET AJAX Documentation
-description: DateFormatInfo Client Object
+page_title: DateFormatInfo Client Object - RadDateInput
+description: Check our Web Forms article about DateFormatInfo Client Object.
 slug: raddateinput/client-side-programming/dateformatinfo-client-object
 tags: dateformatinfo,client,object
 published: True

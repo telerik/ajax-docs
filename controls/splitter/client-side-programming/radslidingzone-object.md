@@ -1,7 +1,7 @@
 ---
 title: RadSlidingZone Object
-page_title: RadSlidingZone Object | RadSplitter for ASP.NET AJAX Documentation
-description: RadSlidingZone Object
+page_title: RadSlidingZone Object - RadSplitter
+description: Check our Web Forms article about RadSlidingZone Object.
 slug: splitter/client-side-programming/radslidingzone-object
 tags: radslidingzone,object
 published: True

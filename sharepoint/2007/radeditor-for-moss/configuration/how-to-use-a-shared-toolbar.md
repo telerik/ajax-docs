@@ -1,7 +1,7 @@
 ---
 title: How to use a Shared Toolbar
-page_title: How to use a Shared Toolbar | UI for ASP.NET AJAX Documentation
-description: How to use a Shared Toolbar
+page_title: How to use a Shared Toolbar
+description: Check our Web Forms article about How to use a Shared Toolbar.
 slug: sharepoint/2007/radeditor-for-moss/configuration/how-to-use-a-shared-toolbar
 tags: how,to,use,a,shared,toolbar
 published: True

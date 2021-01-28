@@ -1,7 +1,7 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | RadUpload for ASP.NET AJAX Documentation
-description: Understanding the Skin CSS File
+page_title: Understanding the Skin CSS File - RadUpload
+description: Check our Web Forms article about Understanding the Skin CSS File.
 slug: upload/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
 published: True

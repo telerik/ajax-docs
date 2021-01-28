@@ -1,7 +1,7 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | RadPushButton for ASP.NET AJAX Documentation
-description: Fluid Design
+page_title: Fluid Design - RadPushButton
+description: Check our Web Forms article about Fluid Design.
 slug: pushbutton/mobile-support/fluid-design
 tags: fluid,design
 published: True

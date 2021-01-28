@@ -1,7 +1,7 @@
 ---
 title: 100% Stacked Series
-page_title: 100% Stacked Series | RadHtmlChart for ASP.NET AJAX Documentation
-description: 100% Stacked Series
+page_title: 100% Stacked Series - RadHtmlChart
+description: Check our Web Forms article about 100% Stacked Series.
 slug: htmlchart/functionality/100-stacked-series
 tags: 100%,stacked,series
 published: True

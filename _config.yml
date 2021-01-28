@@ -1785,17 +1785,43 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
+        title_prefix: "Telerik Web Forms"
+        title_prefix_separator: " "
+        description_suffix: "Read more in Telerik UI for ASP.NET AJAX Documentation."
+-
+    scope:
+        path: "introduction.md"
+    values:
+        title_prefix: ""
+        title_prefix_separator: ""
+        description_suffix: ""
 -
     scope:
         path: "knowledge-base"
     values:
         res_type: "kb"
+        title_prefix: "Telerik RadControls"
+        title_prefix_separator: " "
+        description_suffix: "Find other useful information in the Knowledgebase section of the ASP.NET AJAX documentation."
 -
     scope:
         path: "api"
     values:
         kind: "api"
         res_type: "api"
+        description_suffix: "- Save development time with the complete Telerik UI for AJAX API reference listing publicly available classes, methods, and properties."
+-
+    scope:
+        path: "api/client"
+    values:
+        title_prefix: "Client-side API Reference"
+        title_prefix_separator: " - "
+-
+    scope:
+        path: "api/server"
+    values:
+        title_prefix: "Server-side API Reference"
+        title_prefix_separator: " - "
 
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output

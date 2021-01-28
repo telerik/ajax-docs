@@ -1,7 +1,7 @@
 ---
 title: Web Content Management Scenario
-page_title: Web Content Management Scenario | UI for ASP.NET AJAX Documentation
-description: Web Content Management Scenario
+page_title: Web Content Management Scenario
+description: Check our Web Forms article about Web Content Management Scenario.
 slug: sharepoint/2013/radeditor-web-part/installation-and-deployment/web-content-management-scenario
 tags: web,content,management,scenario
 published: True

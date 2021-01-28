@@ -1,7 +1,7 @@
 ---
 title: Binding to DataTable, DataSet or DataView
-page_title: Binding to DataTable, DataSet or DataView | RadDropDownTree for ASP.NET AJAX Documentation
-description: Binding to DataTable, DataSet or DataView
+page_title: Binding to DataTable, DataSet or DataView - RadDropDownTree
+description: Check our Web Forms article about Binding to DataTable, DataSet or DataView.
 slug: dropdowntree/data-binding/binding-to-datatable,-dataset-or-dataview
 tags: binding,to,datatable,,dataset,or,dataview
 published: True

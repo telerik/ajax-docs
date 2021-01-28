@@ -1,6 +1,5 @@
 ---
 title:  Telerik.Web.UI.RadDiagram
-title_prefix: Client-side API Reference
 description: Client-side API Reference RadDiagram Client-side API
 slug: Telerik.Web.UI.RadDiagram
 ---

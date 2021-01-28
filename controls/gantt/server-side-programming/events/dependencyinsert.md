@@ -1,7 +1,7 @@
 ---
 title: DependencyInsert
-page_title: DependencyInsert | RadGantt for ASP.NET AJAX Documentation
-description: DependencyInsert
+page_title: DependencyInsert - RadGantt
+description: Check our Web Forms article about DependencyInsert.
 slug: gantt/server-side-programming/events/dependencyinsert
 tags: dependencyinsert
 published: True

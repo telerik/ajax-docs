@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadEditor
+description: Check our Web Forms article about Overview.
 slug: editor/server-side-programming/overview
 tags: overview
 published: True

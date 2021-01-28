@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadToggleButton for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadToggleButton
+description: Check our Web Forms article about Design Time.
 slug: togglebutton/design-time
 tags: design,time
 published: True

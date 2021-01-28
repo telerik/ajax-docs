@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ExpandDirection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ExpandDirection
 slug: Telerik.Web.UI.ExpandDirection
 ---

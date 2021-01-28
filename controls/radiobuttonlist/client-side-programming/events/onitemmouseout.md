@@ -1,7 +1,7 @@
 ---
 title: OnItemMouseOut
-page_title: OnItemMouseOut | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnItemMouseOut
+page_title: OnItemMouseOut - RadRadioButtonList
+description: Check our Web Forms article about OnItemMouseOut.
 slug: radiobuttonlist/client-side-programming/events/onitemmouseout
 tags: onitemmouseout
 published: True

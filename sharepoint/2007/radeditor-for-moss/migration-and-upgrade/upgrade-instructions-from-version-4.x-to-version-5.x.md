@@ -1,7 +1,7 @@
 ---
 title: Upgrade Instructions from version 4.x to version 5.x
-page_title: Upgrade Instructions from version 4.x to version 5.x | UI for ASP.NET AJAX Documentation
-description: Upgrade Instructions from version 4.x to version 5.x
+page_title: Upgrade Instructions from version 4.x to version 5.x
+description: Check our Web Forms article about Upgrade Instructions from version 4.x to version 5.x.
 slug: sharepoint/2007/radeditor-for-moss/migration-and-upgrade/upgrade-instructions-from-version-4.x-to-version-5.x
 tags: upgrade,instructions,from,version,4.x,to,version,5.x
 published: True

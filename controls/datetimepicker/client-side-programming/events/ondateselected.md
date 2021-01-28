@@ -1,7 +1,7 @@
 ---
 title: OnDateSelected
-page_title: OnDateSelected | RadDateTimePicker for ASP.NET AJAX Documentation
-description: OnDateSelected
+page_title: OnDateSelected - RadDateTimePicker
+description: Check our Web Forms article about OnDateSelected.
 slug: datetimepicker/client-side-programming/events/ondateselected
 tags: ondateselected
 published: True

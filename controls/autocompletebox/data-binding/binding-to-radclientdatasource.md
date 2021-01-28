@@ -1,7 +1,7 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Binding to RadClientDataSource
+page_title: Binding to RadClientDataSource - RadAutoCompleteBox
+description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: autocompletebox/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
 published: True

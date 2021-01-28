@@ -1,7 +1,7 @@
 ---
 title: Context Menus
-page_title: Context Menus | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Context Menus
+page_title: Context Menus - RadNumericTextBox
+description: Check our Web Forms article about Context Menus.
 slug: numerictextbox/features/context-menus
 tags: context,menus
 published: True

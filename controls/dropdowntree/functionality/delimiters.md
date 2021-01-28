@@ -1,7 +1,7 @@
 ---
 title: Delimiters
-page_title: Delimiters | RadDropDownTree for ASP.NET AJAX Documentation
-description: Delimiters
+page_title: Delimiters - RadDropDownTree
+description: Check our Web Forms article about Delimiters.
 slug: dropdowntree/functionality/delimiters
 tags: delimiters
 published: True

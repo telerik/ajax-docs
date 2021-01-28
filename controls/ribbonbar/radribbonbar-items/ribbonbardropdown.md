@@ -1,7 +1,7 @@
 ---
 title: RibbonBarDropDown
-page_title: RibbonBarDropDown | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarDropDown
+page_title: RibbonBarDropDown - RadRibbonBar
+description: Check our Web Forms article about RibbonBarDropDown.
 slug: ribbonbar/radribbonbar-items/ribbonbardropdown
 tags: ribbonbardropdown
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Programmatic Definition
-page_title: Programmatic Definition | RadGrid for ASP.NET AJAX Documentation
-description: Programmatic Definition
+page_title: Programmatic Definition - RadGrid
+description: Check our Web Forms article about Programmatic Definition.
 slug: grid/functionality/grouping/group-by-expressions/programmatic-definition
 tags: programmatic,definition
 published: True

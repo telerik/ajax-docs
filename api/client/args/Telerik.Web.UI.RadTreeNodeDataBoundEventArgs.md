@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTreeNodeDataBoundEventArgs 
-title_prefix: Client-side API Reference
 description: Client-side API Reference
 slug: Telerik.Web.UI.RadTreeNodeDataBoundEventArgs
 ---

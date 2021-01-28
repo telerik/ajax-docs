@@ -1,7 +1,7 @@
 ---
 title: OnHierarchyCollapsing
-page_title: OnHierarchyCollapsing | RadGrid for ASP.NET AJAX Documentation
-description: OnHierarchyCollapsing
+page_title: OnHierarchyCollapsing - RadGrid
+description: Check our Web Forms article about OnHierarchyCollapsing.
 slug: grid/client-side-programming/events/onhierarchycollapsing
 tags: onhierarchycollapsing
 published: True

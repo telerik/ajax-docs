@@ -1,7 +1,7 @@
 ---
 title: Known Issues
-page_title: Known Issues | RadProgressBar for ASP.NET AJAX Documentation
-description: Known Issues in RadProgressBar
+page_title: Known Issues - RadProgressBar
+description: Check our Web Forms article about Known Issues in RadProgressBar.
 slug: progressbar/known-issues
 tags: known,issues,progressbar,radprogressbar
 published: True

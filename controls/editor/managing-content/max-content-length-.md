@@ -1,7 +1,7 @@
 ---
 title: Max Content Length 
-page_title: Max Content Length  | RadEditor for ASP.NET AJAX Documentation
-description: Max Content Length 
+page_title: Max Content Length - RadEditor
+description: Check our Web Forms article about Max Content Length.
 slug: editor/managing-content/max-content-length-
 tags: max,content,length,
 published: True

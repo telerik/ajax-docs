@@ -1,7 +1,7 @@
 ---
 title: Render Mode
-page_title: Render Mode | RadCalendar for ASP.NET AJAX Documentation
-description: Render Mode
+page_title: Render Mode - RadCalendar
+description: Check our Web Forms article about Render Mode.
 slug: calendar/mobile-support/render-mode
 tags: render,mode
 published: True

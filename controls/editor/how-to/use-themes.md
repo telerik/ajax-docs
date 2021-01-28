@@ -1,7 +1,7 @@
 ---
 title: Use Themes
-page_title: Use Themes | RadEditor for ASP.NET AJAX Documentation
-description: Use Themes
+page_title: Use Themes - RadEditor
+description: Check our Web Forms article about Use Themes.
 slug: editor/how-to/use-themes
 tags: use,themes
 published: True

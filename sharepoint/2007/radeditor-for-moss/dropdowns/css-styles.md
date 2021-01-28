@@ -1,7 +1,7 @@
 ---
 title: CSS Styles
-page_title: CSS Styles | UI for ASP.NET AJAX Documentation
-description: CSS Styles
+page_title: CSS Styles
+description: Check our Web Forms article about CSS Styles.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/css-styles
 tags: css,styles
 published: True

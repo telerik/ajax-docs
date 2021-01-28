@@ -1,7 +1,7 @@
 ---
 title: Sending via E-mail
-page_title: Sending via E-mail | RadSocialShare for ASP.NET AJAX Documentation
-description: Sending via E-mail
+page_title: Sending via E-mail - RadSocialShare
+description: Check our Web Forms article about Sending via E-mail.
 slug: socialshare/functionality/sending-via-e-mail
 tags: sending,via,e-mail
 published: True

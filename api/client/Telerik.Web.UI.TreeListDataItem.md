@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeListDataItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListDataItem
 slug: Telerik.Web.UI.TreeListDataItem
 ---

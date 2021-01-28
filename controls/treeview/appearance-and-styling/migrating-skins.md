@@ -1,7 +1,7 @@
 ---
 title: Migrating Skins
-page_title: Migrating Skins | RadTreeView for ASP.NET AJAX Documentation
-description: Migrating Skins
+page_title: Migrating Skins - RadTreeView
+description: Check our Web Forms article about Migrating Skins.
 slug: treeview/appearance-and-styling/migrating-skins
 tags: migrating,skins
 published: True

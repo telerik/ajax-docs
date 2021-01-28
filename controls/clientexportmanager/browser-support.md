@@ -1,7 +1,7 @@
 ---
 title: Browser Support
-page_title: Browser Support | RadClientExportManager for ASP.NET AJAX Documentation
-description: Browser Support
+page_title: Browser Support - RadClientExportManager
+description: Check our Web Forms article about Browser Support.
 slug: clientexportmanager/browser-support
 tags: browser,support
 published: True

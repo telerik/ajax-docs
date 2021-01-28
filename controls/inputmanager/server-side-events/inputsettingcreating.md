@@ -1,7 +1,7 @@
 ---
 title: InputSettingCreating
-page_title: InputSettingCreating | RadInputManager for ASP.NET AJAX Documentation
-description: InputSettingCreating
+page_title: InputSettingCreating - RadInputManager
+description: Check our Web Forms article about InputSettingCreating.
 slug: radinputmanager/server-side-events/inputsettingcreating
 tags: inputsettingcreating
 published: True

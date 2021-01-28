@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadNumericTextBox
+description: Check our Web Forms article about OnLoad.
 slug: numerictextbox/client-side-programming/events/onload
 tags: onload
 published: True

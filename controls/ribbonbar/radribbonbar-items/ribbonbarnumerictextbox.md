@@ -1,7 +1,7 @@
 ---
 title: RibbonBarNumericTextBox
-page_title: RibbonBarNumericTextBox | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarNumericTextBox
+page_title: RibbonBarNumericTextBox - RadRibbonBar
+description: Check our Web Forms article about RibbonBarNumericTextBox.
 slug: ribbonbar/radribbonbar-items/ribbonbarnumerictextbox
 tags: ribbonbarnumerictextbox
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientClicking
-page_title: OnClientClicking | RadPushButton for ASP.NET AJAX Documentation
-description: OnClientClicking
+page_title: OnClientClicking - RadPushButton
+description: Check our Web Forms article about OnClientClicking.
 slug: pushbutton/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True

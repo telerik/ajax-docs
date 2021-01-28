@@ -1,7 +1,7 @@
 ---
 title: Provide Good Color Contrasts for Content
-page_title: Provide Good Color Contrasts for Content | RadEditor for ASP.NET AJAX Documentation
-description: Provide Good Color Contrasts for Content
+page_title: Provide Good Color Contrasts for Content - RadEditor
+description: Check our Web Forms article about Provide Good Color Contrasts for Content.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/provide-good-color-contrasts-for-content
 tags: provide,good,color,contrasts,for,content
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadRadioButtonList
+description: Check our Web Forms article about Overview.
 slug: radiobuttonlist/overview
 tags: overview
 published: True

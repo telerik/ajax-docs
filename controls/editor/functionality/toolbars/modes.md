@@ -1,7 +1,7 @@
 ---
 title: Modes
-page_title: Modes | RadEditor for ASP.NET AJAX Documentation
-description: Modes
+page_title: Modes - RadEditor
+description: Check our Web Forms article about Modes.
 slug: editor/functionality/toolbars/modes
 tags: modes
 published: True

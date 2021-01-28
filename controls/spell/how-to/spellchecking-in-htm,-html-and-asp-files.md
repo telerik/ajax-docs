@@ -1,7 +1,7 @@
 ---
 title: Spellchecking in HTM, HTML and ASP Files
-page_title: Spellchecking in HTM, HTML and ASP Files | RadSpell for ASP.NET AJAX Documentation
-description: Spellchecking in HTM, HTML and ASP Files
+page_title: Spellchecking in HTM, HTML and ASP Files - RadSpell
+description: Check our Web Forms article about Spellchecking in HTM, HTML and ASP Files.
 slug: spell/how-to/spellchecking-in-htm,-html-and-asp-files
 tags: spellchecking,in,htm,,html,and,asp,files
 published: True

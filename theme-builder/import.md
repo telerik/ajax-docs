@@ -1,7 +1,7 @@
 ---
 title: Import
-page_title: Import | UI for ASP.NET AJAX Documentation
-description: Import
+page_title: Import
+description: Check our Web Forms article about Import.
 slug: theme-builder/import
 tags: import,theme
 published: True

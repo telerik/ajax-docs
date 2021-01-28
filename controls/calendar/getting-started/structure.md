@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadCalendar Structure | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendar Structure
+page_title: RadCalendar Structure - RadCalendar
+description: Check our Web Forms article about RadCalendar Structure.
 slug: calendar/getting-started/structure
 tags: radcalendar,structure
 published: True

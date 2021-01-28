@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadRotator for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadRotator
+description: Check our Web Forms article about Overview.
 slug: rotator/server-side-programming/overview
 tags: overview
 published: True

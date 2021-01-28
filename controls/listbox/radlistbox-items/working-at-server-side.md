@@ -1,7 +1,7 @@
 ---
 title: Working at Server-side
-page_title: Working at Server-side | RadListBox for ASP.NET AJAX Documentation
-description: Working at Server-side
+page_title: Working at Server-side - RadListBox
+description: Check our Web Forms article about Working at Server-side.
 slug: listbox/radlistbox-items/working-at-server-side
 tags: working,at,server-side
 published: True

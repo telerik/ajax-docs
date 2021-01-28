@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Client-side Events | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Events
+page_title: Client-side Events - RadBreadcrumb
+description: Check our Web Forms article about Events.
 slug: breadcrumb/client-side-programming/events
 tags: events
 published: True

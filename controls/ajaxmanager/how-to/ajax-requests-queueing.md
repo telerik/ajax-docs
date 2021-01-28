@@ -1,7 +1,7 @@
 ---
 title: Ajax Requests Queueing
-page_title: Ajax Requests Queueing | RadAjax for ASP.NET AJAX Documentation
-description: Ajax Requests Queueing
+page_title: Ajax Requests Queueing
+description: Check our Web Forms article about Ajax Requests Queueing.
 slug: ajaxmanager/how-to/ajax-requests-queueing
 previous_url: ajax/how-to/ajax-requests-queueing
 tags: ajax,requests,queueing

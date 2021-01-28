@@ -1,7 +1,7 @@
 ---
 title: Detail Template
-page_title: Detail Template | RadTreeList for ASP.NET AJAX Documentation
-description: Detail Template
+page_title: Detail Template - RadTreeList
+description: Check our Web Forms article about Detail Template.
 slug: treelist/appearance-and-styling/detail-template
 tags: detail,template
 published: True

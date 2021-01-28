@@ -1,7 +1,7 @@
 ---
 title: OnClientLauncherClicked
-page_title: OnClientLauncherClicked | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientLauncherClicked
+page_title: OnClientLauncherClicked - RadRibbonBar
+description: Check our Web Forms article about OnClientLauncherClicked.
 slug: ribbonbar/client-side-programming/events/onclientlauncherclicked
 tags: onclientlauncherclicked
 published: True

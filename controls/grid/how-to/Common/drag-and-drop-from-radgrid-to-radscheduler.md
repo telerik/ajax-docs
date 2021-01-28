@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop from RadGrid to RadScheduler
-page_title: Drag and Drop from RadGrid to RadScheduler | RadGrid for ASP.NET AJAX Documentation
-description: Drag and Drop from RadGrid to RadScheduler
+page_title: Drag and Drop from RadGrid to RadScheduler - RadGrid
+description: Check our Web Forms article about Drag and Drop from RadGrid to RadScheduler.
 slug: grid/how-to/common/drag-and-drop-from-radgrid-to-radscheduler
 tags: drag,and,drop,from,radgrid,to,radscheduler
 published: True

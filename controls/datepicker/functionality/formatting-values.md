@@ -1,7 +1,7 @@
 ---
 title: Formatting Values
-page_title: RadDatePicker Formatting Values | RadDatePicker for ASP.NET AJAX Documentation
-description: RadDatePicker Formatting Values
+page_title: RadDatePicker Formatting Values - RadDatePicker
+description: Check our Web Forms article about RadDatePicker Formatting Values.
 slug: datepicker/functionality/formatting-values
 tags: formatting,values
 published: True

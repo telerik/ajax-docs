@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadMultiColumnComboBox
+description: Check our Web Forms article about Filtering.
 slug: multicolumncombobox/functionality/filtering
 tags: filtering,client,server
 published: True

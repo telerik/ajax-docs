@@ -1,7 +1,7 @@
 ---
 title: Move ShowOnFocus Toolbar to a Different Location
-page_title: Move ShowOnFocus Toolbar to a Different Location | RadEditor for ASP.NET AJAX Documentation
-description: This is a how-to article about moving the popup element of the ShowOnFocus Toolbar to a different location on the page.
+page_title: Move ShowOnFocus Toolbar to a Different Location - RadEditor
+description: Check our Web Forms article about This is a how-to article about moving the popup element of the ShowOnFocus Toolbar to a different location on the page.
 slug: editor/how-to/strip-html-on-paste
 tags: custom, solution, paste, strip, HTML, editor, content area
 published: True

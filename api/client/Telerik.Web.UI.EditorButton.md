@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorButton
 slug: Telerik.Web.UI.EditorButton
 ---

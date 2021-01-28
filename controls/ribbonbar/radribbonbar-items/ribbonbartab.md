@@ -1,7 +1,7 @@
 ---
 title: RibbonBarTab
-page_title: RibbonBarTab | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarTab
+page_title: RibbonBarTab - RadRibbonBar
+description: Check our Web Forms article about RibbonBarTab.
 slug: ribbonbar/radribbonbar-items/ribbonbartab
 tags: ribbonbartab
 published: True

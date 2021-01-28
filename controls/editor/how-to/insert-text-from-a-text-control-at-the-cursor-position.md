@@ -1,7 +1,7 @@
 ---
 title: Insert Text from a Text Control at the Cursor Position
-page_title: Insert Text from a Text Control at the Cursor Position | RadEditor for ASP.NET AJAX Documentation
-description: Insert Text from a Text Control at the Cursor Position
+page_title: Insert Text from a Text Control at the Cursor Position - RadEditor
+description: Check our Web Forms article about Insert Text from a Text Control at the Cursor Position.
 slug: editor/how-to/insert-text-from-a-text-control-at-the-cursor-position
 tags: insert,text,from,a,text,control,at,the,cursor,position
 published: True

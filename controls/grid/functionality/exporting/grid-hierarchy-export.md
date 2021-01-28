@@ -1,7 +1,7 @@
 ---
 title: Grid Hierarchy Export
-page_title: Grid Hierarchy Export | RadGrid for ASP.NET AJAX Documentation
-description: Grid Hierarchy Export
+page_title: Grid Hierarchy Export - RadGrid
+description: Check our Web Forms article about Grid Hierarchy Export.
 slug: grid/functionality/exporting/grid-hierarchy-export
 tags: grid,hierarchy,export
 published: True

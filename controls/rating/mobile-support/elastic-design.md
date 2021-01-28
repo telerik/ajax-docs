@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadRating for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadRating
+description: Check our Web Forms article about Elastic Design.
 slug: rating/mobile-support/elastic-design
 tags: elastic,design
 published: True

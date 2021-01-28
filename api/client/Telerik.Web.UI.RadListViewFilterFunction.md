@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadListViewFilterFunction
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadListViewFilterFunction
 static: true
 slug: Telerik.Web.UI.RadListViewFilterFunction

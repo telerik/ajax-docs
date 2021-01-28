@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadGantt
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadGantt
 slug: Telerik.Web.UI.RadGantt
 ---

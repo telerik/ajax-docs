@@ -1,7 +1,7 @@
 ---
 title: OnClientMove
-page_title: OnClientMove | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientMove
+page_title: OnClientMove - RadFileExplorer
+description: Check our Web Forms article about OnClientMove.
 slug: fileexplorer/client-side-programming/events/onclientmove
 tags: onclientmove
 published: True

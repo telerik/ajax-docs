@@ -1,7 +1,7 @@
 ---
 title: NodeEdit
-page_title: NodeEdit | RadTreeView for ASP.NET AJAX Documentation
-description: NodeEdit
+page_title: NodeEdit - RadTreeView
+description: Check our Web Forms article about NodeEdit.
 slug: treeview/server-side-programming/events/nodeedit
 tags: nodeedit
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Creating SlidingZone Programmatically
-page_title: Creating SlidingZone Programmatically | RadSplitter for ASP.NET AJAX Documentation
-description: Creating SlidingZone Programmatically
+page_title: Creating SlidingZone Programmatically - RadSplitter
+description: Check our Web Forms article about Creating SlidingZone Programmatically.
 slug: splitter/server-side-programming/creating-slidingzone-programmatically
 tags: creating,slidingzone,programmatically
 published: True

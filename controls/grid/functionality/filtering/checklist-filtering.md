@@ -1,7 +1,7 @@
 ---
 title: CheckList Filtering
-page_title: CheckList Filtering | RadGrid for ASP.NET AJAX Documentation
-description: CheckList Filtering
+page_title: CheckList Filtering - RadGrid
+description: Check our Web Forms article about CheckList Filtering.
 slug: grid/functionality/filtering/checklist-filtering
 tags: checklist,filtering
 published: True

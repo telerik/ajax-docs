@@ -1,7 +1,7 @@
 ---
 title: API for Controlling the Automatic Operations
-page_title: API for Controlling the Automatic Operations | RadGrid for ASP.NET AJAX Documentation
-description: API for Controlling the Automatic Operations
+page_title: API for Controlling the Automatic Operations - RadGrid
+description: Check our Web Forms article about API for Controlling the Automatic Operations.
 slug: grid/data-editing/api-for-controlling-the-automatic-operations
 tags: api,for,controlling,the,automatic,operations
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Migrating Skins from RadTabStrip ASP.NET to ASP.NET AJAX
-page_title: Migrating Skins from RadTabStrip ASP.NET to ASP.NET AJAX | RadTabStrip for ASP.NET AJAX Documentation
-description: Migrating Skins from RadTabStrip ASP.NET to ASP.NET AJAX
+page_title: Migrating Skins from RadTabStrip ASP.NET to ASP.NET AJAX - RadTabStrip
+description: Check our Web Forms article about Migrating Skins from RadTabStrip ASP.NET to ASP.NET AJAX.
 slug: tabstrip/appearance-and-styling/migrating-skins-from-radtabstrip-asp.net-to-asp.net-ajax
 tags: migrating,skins,from,radtabstrip,asp.net,to,asp.net,ajax
 published: True

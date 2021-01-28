@@ -1,7 +1,7 @@
 ---
 title: Media
-page_title: Media | RadEditor for ASP.NET AJAX Documentation
-description: Media
+page_title: Media - RadEditor
+description: Check our Web Forms article about Media.
 slug: editor/functionality/dialogs/file-browser-dialogs/media
 tags: media
 published: True

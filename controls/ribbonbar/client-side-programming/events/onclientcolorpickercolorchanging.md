@@ -1,7 +1,7 @@
 ---
 title: OnClientColorPickerColorChanging
-page_title: OnClientColorPickerColorChanging | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientColorPickerColorChanging
+page_title: OnClientColorPickerColorChanging - RadRibbonBar
+description: Check our Web Forms article about OnClientColorPickerColorChanging.
 slug: ribbonbar/client-side-programming/events/onclientcolorpickercolorchanging
 tags: onclientcolorpickercolorchanging
 published: True

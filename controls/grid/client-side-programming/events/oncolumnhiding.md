@@ -1,7 +1,7 @@
 ---
 title: OnColumnHiding
-page_title: OnColumnHiding | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnHiding
+page_title: OnColumnHiding - RadGrid
+description: Check our Web Forms article about OnColumnHiding.
 slug: grid/client-side-programming/events/oncolumnhiding
 tags: oncolumnhiding
 published: True

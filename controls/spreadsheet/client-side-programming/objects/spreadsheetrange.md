@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetRange Object
-page_title: SpreadsheetRange Object | UI for ASP.NET AJAX Documentation
-description: SpreadsheetRange Object
+page_title: SpreadsheetRange Object
+description: Check our Web Forms article about SpreadsheetRange Object.
 slug: spreadsheet/client-side-programming/objects/spreadsheetrange
 tags: spreadsheetrange
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Disabling Embedded Resources
-page_title: Disabling Embedded Resources | UI for ASP.NET AJAX Documentation
-description: Disabling Embedded Resources
+page_title: Disabling Embedded Resources
+description: Check our Web Forms article about Disabling Embedded Resources.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources
 tags: disabling,embedded,resources
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SearchBoxButtonAlignment
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SearchBoxButtonAlignment
 slug: Telerik.Web.UI.SearchBoxButtonAlignment
 ---

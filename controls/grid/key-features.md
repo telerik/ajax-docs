@@ -1,7 +1,7 @@
 ---
 title: Key Features
-page_title: Key Features | RadGrid for ASP.NET AJAX Documentation
-description: Key Features
+page_title: Key Features - RadGrid
+description: Check our Web Forms article about Key Features.
 slug: grid/key-features
 previous_url: controls/grid/getting-started/key-features
 tags: key,features

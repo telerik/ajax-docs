@@ -1,7 +1,7 @@
 ---
 title: ContentTemplate
-page_title: ContentTemplate | RadPushButton for ASP.NET AJAX Documentation
-description: ContentTemplate
+page_title: ContentTemplate - RadPushButton
+description: Check our Web Forms article about ContentTemplate.
 slug: pushbutton/functionality/contenttemplate
 tags: contenttemplate
 published: True

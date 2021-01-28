@@ -1,7 +1,7 @@
 ---
 title: Display Sort Index for Multi-Column Sorting
-page_title: Display Sort Index for Multi-Column Sorting | RadGrid for ASP.NET AJAX Documentation
-description: Display Sort Index for Multi-Column Sorting
+page_title: Display Sort Index for Multi-Column Sorting - RadGrid
+description: Check our Web Forms article about Display Sort Index for Multi-Column Sorting.
 slug: grid/how-to/sorting/display-sort-index-for-multi-column-sorting
 tags: sort,index,grid,multi-column
 published: True

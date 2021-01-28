@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Tri-State CheckBoxes Overview | RadTreeView for ASP.NET AJAX Documentation
-description: Tri-State CheckBoxes Overview
+page_title: Tri-State CheckBoxes Overview - RadTreeView
+description: Check our Web Forms article about Tri-State CheckBoxes Overview.
 slug: treeview/checkboxes/tri-state/tri-state-checkboxes-overview
 tags: tri-state,checkboxes,overview
 published: True

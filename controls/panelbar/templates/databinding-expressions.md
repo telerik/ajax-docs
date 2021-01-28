@@ -1,7 +1,7 @@
 ---
 title: DataBinding Expressions
-page_title: DataBinding Expressions | RadPanelBar for ASP.NET AJAX Documentation
-description: DataBinding Expressions
+page_title: DataBinding Expressions - RadPanelBar
+description: Check our Web Forms article about DataBinding Expressions.
 slug: panelbar/templates/databinding-expressions
 tags: databinding,expressions
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadTooltip for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadTooltip
+description: Check our Web Forms article about Smart Tag.
 slug: tooltip/design-time/smart-tag
 tags: smart,tag
 published: True

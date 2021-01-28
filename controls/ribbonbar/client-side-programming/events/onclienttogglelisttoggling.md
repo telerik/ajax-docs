@@ -1,7 +1,7 @@
 ---
 title: OnClientToggleListToggling
-page_title: OnClientToggleListToggling | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientToggleListToggling
+page_title: OnClientToggleListToggling - RadRibbonBar
+description: Check our Web Forms article about OnClientToggleListToggling.
 slug: ribbonbar/client-side-programming/events/onclienttogglelisttoggling
 tags: onclienttogglelisttoggling
 published: True

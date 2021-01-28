@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Creating the structure using the Designer - RadGrid | UI for ASP.NET AJAX
-description: Overview
+page_title: Creating the structure using the Designer - RadGrid
+description: Check our Web Forms article about Overview.
 slug: grid/create-radgrid/design-time
 tags: overview
 published: True

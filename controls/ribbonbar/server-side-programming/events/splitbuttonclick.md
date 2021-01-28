@@ -1,7 +1,7 @@
 ---
 title: SplitButtonClick
-page_title: SplitButtonClick | RadRibbonBar for ASP.NET AJAX Documentation
-description: SplitButtonClick
+page_title: SplitButtonClick - RadRibbonBar
+description: Check our Web Forms article about SplitButtonClick.
 slug: ribbonbar/server-side-programming/events/splitbuttonclick
 tags: splitbuttonclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadPersistenceManagerProxy and WebUserControls
-page_title: RadPersistenceManagerProxy and WebUserControls | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadPersistenceManagerProxy and WebUserControls - RadPersistenceFramework
+description: Check our Web Forms article about Overview.
 slug: persistenceframework/radpersistencemanagerproxy-and-webusercontrols
 tags: radpersistencemanagerproxy, webusercontrols
 published: True

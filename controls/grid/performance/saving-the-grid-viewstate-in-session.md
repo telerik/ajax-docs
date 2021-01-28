@@ -1,7 +1,7 @@
 ---
 title: Saving the grid ViewState in Session
-page_title: Saving the grid ViewState in Session | RadGrid for ASP.NET AJAX Documentation
-description: Saving the grid ViewState in Session
+page_title: Saving the grid ViewState in Session - RadGrid
+description: Check our Web Forms article about Saving the grid ViewState in Session.
 slug: grid/performance/saving-the-grid-viewstate-in-session
 tags: saving,the,grid,viewstate,in,session
 published: True

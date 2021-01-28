@@ -1,7 +1,7 @@
 ---
 title: Peek Template
-page_title: Peek Template | RadTile for ASP.NET AJAX Documentation
-description: Peek Template
+page_title: Peek Template - RadTile
+description: Check our Web Forms article about Peek Template.
 slug: tilelist/tiles/peek-template
 tags: peek,template
 published: True

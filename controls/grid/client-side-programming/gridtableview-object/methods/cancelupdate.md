@@ -1,7 +1,7 @@
 ---
 title: cancelUpdate
-page_title: cancelUpdate | RadGrid for ASP.NET AJAX Documentation
-description: cancelUpdate
+page_title: cancelUpdate - RadGrid
+description: Check our Web Forms article about cancelUpdate.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelupdate
 tags: cancelupdate
 published: True

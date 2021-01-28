@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ReminderCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ReminderCollection
 slug: Telerik.Web.UI.ReminderCollection
 ---

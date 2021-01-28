@@ -1,7 +1,7 @@
 ---
 title: Accessing the Elements of Advanced Type Pager
-page_title: Accessing the Elements of Advanced Type Pager | RadGrid for ASP.NET AJAX Documentation
-description: Accessing the Elements of Advanced Type Pager
+page_title: Accessing the Elements of Advanced Type Pager - RadGrid
+description: Check our Web Forms article about Accessing the Elements of Advanced Type Pager.
 slug: grid/functionality/paging/changing-the-default-pager/accessing-the-elements-of-advanced-type-pager
 tags: accessing,the,elements,of,advanced,type,pager
 published: True

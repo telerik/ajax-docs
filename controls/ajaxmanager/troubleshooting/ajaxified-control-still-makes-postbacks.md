@@ -1,7 +1,7 @@
 ---
 title: Ajaxified Control Still Makes Postbacks
-page_title: Ajaxified Control Still Makes Postbacks | RadAjax for ASP.NET AJAX Documentation
-description: Ajaxified Control Still Makes Postbacks
+page_title: Ajaxified Control Still Makes Postbacks
+description: Check our Web Forms article about Ajaxified Control Still Makes Postbacks.
 slug: ajaxmanager/troubleshooting/ajaxified-control-still-makes-postbacks
 previous_url: ajax/radajaxmanager/troubleshooting/ajaxified-control-still-makes-postbacks
 tags: ajaxified,control,still,makes,postbacks

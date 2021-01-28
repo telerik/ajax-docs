@@ -1,7 +1,7 @@
 ---
 title: ChildrenCreated
-page_title: ChildrenCreated | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: ChildrenCreated
+page_title: ChildrenCreated - RadMonthYearPicker
+description: Check our Web Forms article about ChildrenCreated.
 slug: monthyearpicker/server-side-programming/events/childrencreated
 tags: childrencreated
 published: True

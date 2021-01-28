@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-Side Programming Overview | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-Side Programming Overview - RadAsyncUpload
+description: Check our Web Forms article about Overview.
 slug: asyncupload/client-side-programming/overview
 tags: overview
 published: True

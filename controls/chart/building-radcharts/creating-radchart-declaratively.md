@@ -1,7 +1,7 @@
 ---
 title: Creating RadChart Declaratively
-page_title: Creating RadChart Declaratively | RadChart for ASP.NET AJAX Documentation
-description: Creating RadChart Declaratively
+page_title: Creating RadChart Declaratively - RadChart
+description: Check our Web Forms article about Creating RadChart Declaratively.
 slug: chart/building-radcharts/creating-radchart-declaratively
 tags: creating,radchart,declaratively
 published: True

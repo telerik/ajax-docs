@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDock
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDock
 slug: Telerik.Web.UI.RadDock
 ---

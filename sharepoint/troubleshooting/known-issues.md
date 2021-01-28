@@ -1,7 +1,7 @@
 ---
 title: Known Issues
-page_title: Known Issues | UI for ASP.NET AJAX Documentation
-description: Known Issues
+page_title: Known Issues
+description: Check our Web Forms article about Known Issues.
 slug: sharepoint/troubleshooting/known-issues
 previous_url: sharepoint/known-issues
 tags: known,issues

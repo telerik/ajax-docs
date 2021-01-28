@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop of Grid Items
-page_title: Drag and Drop of Grid Items | RadGrid for ASP.NET AJAX Documentation
-description: Drag and Drop of Grid Items
+page_title: Drag and Drop of Grid Items - RadGrid
+description: Check our Web Forms article about Drag and Drop of Grid Items.
 slug: grid/rows/drag-and-drop-of-grid-items
 tags: drag,and,drop,of,grid,items
 published: True

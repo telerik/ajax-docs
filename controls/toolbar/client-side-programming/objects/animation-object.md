@@ -1,7 +1,7 @@
 ---
 title: Animation Object
-page_title: Animation Object | RadToolBar for ASP.NET AJAX Documentation
-description: Animation Object
+page_title: Animation Object - RadToolBar
+description: Check our Web Forms article about Animation Object.
 slug: toolbar/client-side-programming/animation-object
 tags: animation,object
 published: True

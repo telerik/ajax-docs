@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Multiline Cell Editing Overview | UI for ASP.NET AJAX Documentation
-description: Multiline Cell Editing Overview
+page_title: RadSpreadsheet Multiline Cell Editing Overview
+description: Check our Web Forms article about Multiline Cell Editing Overview.
 slug: spreadsheet/functionality/multilinecellediting/overview
 tags: overview
 published: True

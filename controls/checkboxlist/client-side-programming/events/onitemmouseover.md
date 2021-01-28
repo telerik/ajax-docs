@@ -1,7 +1,7 @@
 ---
 title: OnItemMouseOver
-page_title: OnItemMouseOver | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnItemMouseOver
+page_title: OnItemMouseOver - RadCheckBoxList
+description: Check our Web Forms article about OnItemMouseOver.
 slug: checkboxlist/client-side-programming/events/onitemmouseover
 tags: onitemmouseover
 published: True

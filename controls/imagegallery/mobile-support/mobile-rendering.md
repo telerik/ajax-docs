@@ -1,7 +1,7 @@
 ---
 title: Mobile Rendering
-page_title: Mobile Rendering | RadImageGallery for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Mobile Rendering - RadImageGallery
+description: Check our Web Forms article about Render Modes.
 slug: imagegallery/mobile-support/mobile-rendering
 tags: render,modes
 published: True

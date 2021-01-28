@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadTimeline for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadTimeline
+description: Check our Web Forms article about Overview.
 slug: timeline/client-side-programming/events
 tags: overview,events
 published: True

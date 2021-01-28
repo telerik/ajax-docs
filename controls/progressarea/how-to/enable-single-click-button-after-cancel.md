@@ -1,7 +1,7 @@
 ---
 title: Enable Single Click Button after Cancel Click
-page_title: Enable Single Click Button after Cancel Click | RadProgressArea for ASP.NET AJAX Documentation
-description: How to Enable Single Click Button after Cancel Click
+page_title: Enable Single Click Button after Cancel Click - RadProgressArea
+description: Check our Web Forms article about How to Enable Single Click Button after Cancel Click.
 slug: progressarea/how-to/enable-single-click-button-after-cancel
 tags: enable,single,click,button,cancel,progress
 published: True

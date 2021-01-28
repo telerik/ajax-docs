@@ -1,7 +1,7 @@
 ---
 title: RadMonthYearPicker Object
-page_title: RadMonthYearPicker Object | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: RadMonthYearPicker Object
+page_title: RadMonthYearPicker Object - RadMonthYearPicker
+description: Check our Web Forms article about RadMonthYearPicker Object.
 slug: monthyearpicker/client-side-programming/radmonthyearpicker-object
 tags: radmonthyearpicker,object
 published: True

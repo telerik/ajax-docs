@@ -1,7 +1,7 @@
 ---
 title: attachEventHandler
-page_title: attachEventHandler | RadEditor for ASP.NET AJAX Documentation
-description: attachEventHandler
+page_title: attachEventHandler - RadEditor
+description: Check our Web Forms article about attachEventHandler.
 slug: editor/client-side-programming/methods/attacheventhandler
 tags: attacheventhandler
 published: True

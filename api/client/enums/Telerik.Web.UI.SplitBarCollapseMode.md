@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SplitBarCollapseMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SplitBarCollapseMode
 slug: Telerik.Web.UI.SplitBarCollapseMode
 ---

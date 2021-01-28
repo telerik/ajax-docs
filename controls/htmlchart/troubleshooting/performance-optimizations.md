@@ -1,7 +1,7 @@
 ---
 title: Performance Optimizations
-page_title: Performance Optimizations | RadHtmlChart for ASP.NET AJAX Documentation
-description: Performance Optimizations
+page_title: Performance Optimizations - RadHtmlChart
+description: Check our Web Forms article about Performance Optimizations.
 slug: htmlchart/troubleshooting/performance-optimizations
 tags: performance,optimizations
 published: True

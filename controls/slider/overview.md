@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSlider Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadSlider Overview
+description: Check our Web Forms article about Overview.
 slug: slider/overview
 tags: overview
 published: True

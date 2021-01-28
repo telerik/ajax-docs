@@ -1,7 +1,7 @@
 ---
 title: Disable RadEditor
-page_title: Disable RadEditor | RadEditor for ASP.NET AJAX Documentation
-description: Disable RadEditor
+page_title: Disable RadEditor - RadEditor
+description: Check our Web Forms article about Disable RadEditor.
 slug: editor/functionality/editor-views-and-modes/disable-radeditor
 tags: disable,radeditor
 published: True

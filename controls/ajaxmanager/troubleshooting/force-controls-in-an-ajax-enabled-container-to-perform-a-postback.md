@@ -1,7 +1,7 @@
 ---
 title: Force Controls in an AJAX-enabled Container to Perform a Postback
-page_title: Force Controls in an AJAX-enabled Container to Perform a Postback | RadAjax for ASP.NET AJAX Documentation
-description: Force Controls in an AJAX-enabled Container to Perform a Postback
+page_title: Force Controls in an AJAX-enabled Container to Perform a Postback
+description: Check our Web Forms article about Force Controls in an AJAX-enabled Container to Perform a Postback.
 slug: ajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback
 previous_url: ajax/radajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback
 tags: force,controls,in,an,ajax-enabled,container,to,perform,a,postback

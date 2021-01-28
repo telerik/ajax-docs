@@ -1,7 +1,7 @@
 ---
 title: Configuration Wizard
-page_title: Configuration Wizard | RadDropDownTree for ASP.NET AJAX Documentation
-description: RadDropDownTree Configuration Wizard
+page_title: Configuration Wizard - RadDropDownTree
+description: Check our Web Forms article about RadDropDownTree Configuration Wizard.
 slug: dropdowntree/design-time/configuration-wizard
 tags: raddropdowntree,configuration,wizard,design
 published: True

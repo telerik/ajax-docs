@@ -1,7 +1,7 @@
 ---
 title: OnClientRequestStart
-page_title: OnClientRequestStart | RadTooltip for ASP.NET AJAX Documentation
-description: OnClientRequestStart
+page_title: OnClientRequestStart - RadTooltip
+description: Check our Web Forms article about OnClientRequestStart.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientrequeststart
 tags: onclientrequeststart
 published: True

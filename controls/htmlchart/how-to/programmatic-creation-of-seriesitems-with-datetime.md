@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation Of SeriesItems With DateTime
-page_title: Programmatic Creation Of SeriesItems With DateTime | RadHtmlChart for ASP.NET AJAX Documentation
-description: Programmatic Creation Of SeriesItems With DateTime
+page_title: Programmatic Creation Of SeriesItems With DateTime - RadHtmlChart
+description: Check our Web Forms article about Programmatic Creation Of SeriesItems With DateTime.
 slug: htmlchart/how-to/programmatic-creation-of-seriesitems-with-datetime
 tags: programmatic,creation,of,seriesitems,with,datetime
 published: True

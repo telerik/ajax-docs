@@ -1,7 +1,7 @@
 ---
 title: Fine Tuning
-page_title: Fine Tuning | UI for ASP.NET AJAX Documentation
-description: Fine Tuning
+page_title: Fine Tuning
+description: Check our Web Forms article about Fine Tuning.
 slug: introduction/visual-stylebuilder/fine-tuning
 tags: fine,tuning
 published: True

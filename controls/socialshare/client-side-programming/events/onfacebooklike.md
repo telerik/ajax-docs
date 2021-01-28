@@ -1,7 +1,7 @@
 ---
 title: OnFacebookLike
-page_title: OnFacebookLike | RadSocialShare for ASP.NET AJAX Documentation
-description: OnFacebookLike
+page_title: OnFacebookLike - RadSocialShare
+description: Check our Web Forms article about OnFacebookLike.
 slug: socialshare/client-side-programming/events/onfacebooklike
 tags: onfacebooklike
 published: True

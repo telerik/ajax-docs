@@ -1,7 +1,7 @@
 ---
 title: Caching Items
-page_title: Caching Items | RadComboBox for ASP.NET AJAX Documentation
-description: Caching Items
+page_title: Caching Items - RadComboBox
+description: Check our Web Forms article about Caching Items.
 slug: combobox/load-on-demand/caching-items
 tags: caching,items
 published: True

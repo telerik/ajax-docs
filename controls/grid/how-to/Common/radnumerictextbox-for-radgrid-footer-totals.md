@@ -1,7 +1,7 @@
 ---
 title: RadNumericTextBox for RadGrid Footer Totals
-page_title: RadNumericTextBox for RadGrid Footer Totals | RadGrid for ASP.NET AJAX Documentation
-description: RadNumericTextBox for RadGrid Footer Totals
+page_title: RadNumericTextBox for RadGrid Footer Totals - RadGrid
+description: Check our Web Forms article about RadNumericTextBox for RadGrid Footer Totals.
 slug: grid/how-to/common/radnumerictextbox-for-radgrid-footer-totals
 tags: radnumerictextbox,for,radgrid,footer,totals
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DateInputValueChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DateInputValueChangedEventArgs
 static: true
 slug: Telerik.Web.UI.DateInputValueChangedEventArgs

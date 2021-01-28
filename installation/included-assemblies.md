@@ -1,7 +1,7 @@
 ---
 title: Included Assemblies
-page_title: Included Assemblies | UI for ASP.NET AJAX Documentation
-description: Included Assemblies
+page_title: Included Assemblies
+description: Check our Web Forms article about Included Assemblies.
 slug: introduction/installation/included-assemblies
 tags: included,assemblies
 published: True

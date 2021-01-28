@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadToolTip Performance
-page_title: Optimizing RadToolTip Performance | RadToolTip for ASP.NET AJAX Documentation
-description: Optimizing RadToolTip Performance
+page_title: Optimizing RadToolTip Performance - RadToolTip
+description: Check our Web Forms article about Optimizing RadToolTip Performance.
 slug: tooltip/performance/optimizing-radtooltip-performance
 tags: performance,optimizing
 published: True

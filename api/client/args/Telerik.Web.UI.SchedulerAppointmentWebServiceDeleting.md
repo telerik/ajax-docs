@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting
 slug: Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting
 ---

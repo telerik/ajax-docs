@@ -1,7 +1,7 @@
 ---
 title: Progress Monitoring
-page_title: Progress Monitoring | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Progress Monitoring
+page_title: Progress Monitoring - RadAsyncUpload
+description: Check our Web Forms article about Progress Monitoring.
 slug: asyncupload/progress-monitoring
 tags: progress,monitoring
 published: True

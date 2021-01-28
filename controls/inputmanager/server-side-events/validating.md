@@ -1,7 +1,7 @@
 ---
 title: Validating
-page_title: Validating | RadInputManager for ASP.NET AJAX Documentation
-description: Validating
+page_title: Validating - RadInputManager
+description: Check our Web Forms article about Validating.
 slug: radinputmanager/server-side-events/validating
 tags: validating
 published: True

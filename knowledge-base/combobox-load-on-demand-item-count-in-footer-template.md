@@ -1,8 +1,8 @@
 ---
 title: Item Count in footer Template using RadComboBox with Load On Demand
-description: Item Count in footer Template using RadComboBox with Load On Demand
+description: Item Count in footer Template using RadComboBox with Load On Demand.
 type: how-to
-page_title: Use LoadOnDemand and display Item count in Footer Template - RadComboBox | Telerik UI for ASP.NET AJAX
+page_title: Use LoadOnDemand and display Item count in Footer Template - RadComboBox
 slug: combobox-load-on-demand-item-count-in-footer-template
 position: 
 tags: 

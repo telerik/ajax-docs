@@ -1,7 +1,7 @@
 ---
 title: Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax
-page_title: Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax | RadAjax for ASP.NET AJAX Documentation
-description: Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax
+page_title: Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax
+description: Check our Web Forms article about Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax.
 slug: ajaxpanel/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax
 tags: incompatible,controls,and,updating,3rd,party,controls,with,telerik,radajax
 published: True

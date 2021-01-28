@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AutoCompleteBoxEntryCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AutoCompleteBoxEntryCollection
 slug: Telerik.Web.UI.AutoCompleteBoxEntryCollection
 ---

@@ -1,7 +1,7 @@
 ---
 title: Custom
-page_title: RadSpreadsheet Custom Context Menu| UI for ASP.NET AJAX Documentation
-description: Custom ContextMenu 
+page_title: RadSpreadsheet Custom Context Menu
+description: Check our Web Forms article about Custom ContextMenu.
 slug: spreadsheet/functionality/contextmenu/custom
 tags: custom
 published: True

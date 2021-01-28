@@ -1,8 +1,8 @@
 ---
 title: Adjust RadHtmlChart dimensions when displayed
-description: How to resize initially hidden HtmlCharts when they are displayed
+description: How to resize initially hidden HtmlCharts when they are displayed.
 type: how-to
-page_title: Hidden chart to be resized when displayed - RadHtmlChart | Telerik UI for ASP.NET AJAX
+page_title: Hidden chart to be resized when displayed - RadHtmlChart
 slug: htmlchart-adjust-radhtmlchart-dimensions-when-displayed
 position: 
 tags: 

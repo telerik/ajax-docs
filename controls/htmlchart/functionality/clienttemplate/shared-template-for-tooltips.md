@@ -1,7 +1,7 @@
 ---
 title: Shared Template for ToolTips
-page_title: Shared Template for ToolTips | RadHtmlChart for ASP.NET AJAX Documentation
-description: Shared Template for ToolTips
+page_title: Shared Template for ToolTips - RadHtmlChart
+description: Check our Web Forms article about Shared Template for ToolTips.
 slug: htmlchart/functionality/clienttemplate/shared-template-for-tooltips
 tags: shared,template,for,tooltips
 published: True

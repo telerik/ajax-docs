@@ -1,7 +1,7 @@
 ---
 title: Populate Static Content
-page_title: Populate Static Content | RadNotification for ASP.NET AJAX Documentation
-description: Populate Static Content
+page_title: Populate Static Content - RadNotification
+description: Check our Web Forms article about Populate Static Content.
 slug: notification/setting-content/populate-static-content
 tags: populate,static,content
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadInputComponent
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadInputComponent
 slug: Telerik.Web.UI.RadInputComponent
 ---

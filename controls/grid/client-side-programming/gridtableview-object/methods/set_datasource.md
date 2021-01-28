@@ -1,7 +1,7 @@
 ---
 title: set_dataSource
-page_title: set_dataSource | RadGrid for ASP.NET AJAX Documentation
-description: set_dataSource
+page_title: set_dataSource - RadGrid
+description: Check our Web Forms article about set_dataSource.
 slug: grid/client-side-programming/gridtableview-object/methods/set_datasource
 tags: set_datasource
 published: True

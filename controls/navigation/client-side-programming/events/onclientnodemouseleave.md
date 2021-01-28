@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeMouseLeave
-page_title: OnClientNodeMouseLeave | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodeMouseLeave
+page_title: OnClientNodeMouseLeave - RadNavigation
+description: Check our Web Forms article about OnClientNodeMouseLeave.
 slug: navigation/client-side-programming/events/onclientnodemouseleave
 tags: onclientnodemouseleave
 published: True

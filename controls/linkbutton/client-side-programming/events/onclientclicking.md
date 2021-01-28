@@ -1,7 +1,7 @@
 ---
 title: OnClientClicking
-page_title: OnClientClicking | RadLinkButton for ASP.NET AJAX Documentation
-description: OnClientClicking
+page_title: OnClientClicking - RadLinkButton
+description: Check our Web Forms article about OnClientClicking.
 slug: linkbutton/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True

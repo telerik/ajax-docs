@@ -1,7 +1,7 @@
 ---
 title: Changes and Backward Compatibility
-page_title: Changes and Backward Compatibility | RadMenu for ASP.NET AJAX Documentation
-description: Changes and Backward Compatibility
+page_title: Changes and Backward Compatibility - RadMenu
+description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: menu/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: False

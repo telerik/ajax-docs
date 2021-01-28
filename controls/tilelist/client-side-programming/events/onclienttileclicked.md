@@ -1,7 +1,7 @@
 ---
 title: OnClientTileClicked
-page_title: OnClientTileClicked | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTileClicked
+page_title: OnClientTileClicked - RadTileList
+description: Check our Web Forms article about OnClientTileClicked.
 slug: tilelist/client-side-programming/client-side-events/onclienttileclicked
 tags: onclienttileclicked
 published: True

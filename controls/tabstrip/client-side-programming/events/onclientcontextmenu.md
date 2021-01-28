@@ -1,7 +1,7 @@
 ---
 title: OnClientContextMenu
-page_title: OnClientContextMenu | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientContextMenu
+page_title: OnClientContextMenu - RadTabStrip
+description: Check our Web Forms article about OnClientContextMenu.
 slug: tabstrip/client-side-programming/onclientcontextmenu
 tags: onclientcontextmenu
 published: True

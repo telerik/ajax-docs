@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.PivotGridFieldZoneType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PivotGridFieldZoneType
 slug: Telerik.Web.UI.PivotGridFieldZoneType
 ---

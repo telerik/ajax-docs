@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Scheduler.NavigationCommandEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Scheduler.NavigationCommandEventArgs
 slug: Telerik.Web.UI.Scheduler.NavigationCommandEventArgs
 ---

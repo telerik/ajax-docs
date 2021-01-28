@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorDropDown
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorDropDown
 slug: Telerik.Web.UI.EditorDropDown
 ---

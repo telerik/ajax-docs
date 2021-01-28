@@ -1,7 +1,7 @@
 ---
 title: Binding to LinqDataSource
-page_title: Binding to LinqDataSource | RadTabStrip for ASP.NET AJAX Documentation
-description: Binding to LinqDataSource
+page_title: Binding to LinqDataSource - RadTabStrip
+description: Check our Web Forms article about Binding to LinqDataSource.
 slug: tabstrip/data-binding/binding-to-linqdatasource
 tags: binding,to,linqdatasource
 published: True

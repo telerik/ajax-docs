@@ -1,7 +1,7 @@
 ---
 title: OnClientValidationFailed
-page_title: OnClientValidationFailed | RadAsyncUpload for ASP.NET AJAX Documentation
-description: OnClientValidationFailed
+page_title: OnClientValidationFailed - RadAsyncUpload
+description: Check our Web Forms article about OnClientValidationFailed.
 slug: asyncupload/client-side-programming/onclientvalidationfailed
 tags: onclientvalidationfailed
 published: True

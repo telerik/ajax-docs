@@ -1,7 +1,7 @@
 ---
 title: Uploading Large Files
-page_title: Uploading Large Files | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Uploading Large Files
+page_title: Uploading Large Files - RadAsyncUpload
+description: Check our Web Forms article about Uploading Large Files.
 slug: asyncupload/functionality/uploading-large-files
 tags: uploading,large,files
 published: True

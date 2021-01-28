@@ -1,7 +1,7 @@
 ---
 title: NavigationTabBinding Collection Editor
-page_title: NavigationTabBinding Collection Editor | RadTabStrip for ASP.NET AJAX Documentation
-description: NavigationTabBinding Collection Editor
+page_title: NavigationTabBinding Collection Editor - RadTabStrip
+description: Check our Web Forms article about NavigationTabBinding Collection Editor.
 slug: tabstrip/design-time/navigationtabbinding-collection-editor
 tags: navigationtabbinding,collection,editor
 published: True

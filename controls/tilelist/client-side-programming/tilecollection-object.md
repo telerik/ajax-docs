@@ -1,7 +1,7 @@
 ---
 title: TileCollection Object
-page_title: TileCollection Object | RadTileList for ASP.NET AJAX Documentation
-description: TileCollection Object
+page_title: TileCollection Object - RadTileList
+description: Check our Web Forms article about TileCollection Object.
 slug: tilelist/client-side-programming/tilecollection-object
 tags: tilecollection,object
 published: True

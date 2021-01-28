@@ -1,7 +1,7 @@
 ---
 title: Real Font Sizes
-page_title: Real Font Sizes | RadEditor for ASP.NET AJAX Documentation
-description: Real Font Sizes
+page_title: Real Font Sizes - RadEditor
+description: Check our Web Forms article about Real Font Sizes.
 slug: editor/functionality/toolbars/dropdowns/real-font-sizes
 tags: real,font,sizes
 published: True

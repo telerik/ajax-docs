@@ -1,7 +1,7 @@
 ---
 title: Fluid behavior
-page_title: Fluid behavior | RadNavigation for ASP.NET AJAX Documentation
-description: Fluid behavior
+page_title: Fluid behavior - RadNavigation
+description: Check our Web Forms article about Fluid behavior.
 slug: navigation/mobile-support/fluid-behavior
 tags: fluid,behavior
 published: False

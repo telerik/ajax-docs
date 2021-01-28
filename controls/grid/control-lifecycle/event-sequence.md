@@ -1,7 +1,7 @@
 ---
 title: Event sequence
-page_title: Event sequence | RadGrid for ASP.NET AJAX Documentation
-description: Event sequence
+page_title: Event sequence - RadGrid
+description: Check our Web Forms article about Event sequence.
 slug: grid/control-lifecycle/event-sequence
 tags: event,sequence
 published: True

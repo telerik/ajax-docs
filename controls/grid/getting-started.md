@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started - RadGrid | Telerik UI for ASP.NET AJAX
-description: Getting Started with RadGrid
+page_title: Getting Started - RadGrid
+description: Check our Web Forms article about Getting Started with RadGrid.
 slug: grid/getting-started
 tags: 
 published: True

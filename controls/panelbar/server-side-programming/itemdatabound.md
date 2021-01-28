@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadPanelBar for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadPanelBar
+description: Check our Web Forms article about ItemDataBound.
 slug: panelbar/server-side-programming/itemdatabound
 tags: itemdatabound
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Binding to EntityDataSource
-page_title: Binding to EntityDataSource | RadTimeline for ASP.NET AJAX Documentation
-description: Binding to EntityDataSource
+page_title: Binding to EntityDataSource - RadTimeline
+description: Check our Web Forms article about Binding to EntityDataSource.
 slug: timeline/data-binding/server-side/binding-to-entitydatasource
 tags: binding,to,EntityDataSource
 published: True

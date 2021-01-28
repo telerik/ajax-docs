@@ -1,7 +1,7 @@
 ---
 title: web.config Settings Overview
-page_title: web.config Settings Overview | UI for ASP.NET AJAX Documentation
-description: web.config Settings Overview
+page_title: web.config Settings Overview
+description: Check our Web Forms article about web.config Settings Overview.
 slug: general-information/web-config-settings-overview
 tags: web.config,settings,overview,handlers,required
 published: True

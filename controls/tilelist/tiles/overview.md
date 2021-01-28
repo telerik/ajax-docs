@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Tiles Overview | RadTile for ASP.NET AJAX Documentation
-description: Overview
+page_title: Tiles Overview - RadTile
+description: Check our Web Forms article about Overview.
 slug: tilelist/tiles/overview
 tags: overview
 published: True

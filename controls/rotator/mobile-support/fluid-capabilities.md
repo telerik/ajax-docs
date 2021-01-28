@@ -1,7 +1,7 @@
 ---
 title: Fluid Capabilities
-page_title: Fluid Capabilities | RadRotator for ASP.NET AJAX Documentation
-description: Fluid Capabilities
+page_title: Fluid Capabilities - RadRotator
+description: Check our Web Forms article about Fluid Capabilities.
 slug: rotator/mobile-support/fluid-capabilities
 tags: fluid,capabilities
 published: True

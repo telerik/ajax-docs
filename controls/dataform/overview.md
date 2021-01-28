@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDataForm Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadDataForm Overview
+description: Check our Web Forms article about Overview.
 slug: dataform/overview
 tags: overview
 published: True

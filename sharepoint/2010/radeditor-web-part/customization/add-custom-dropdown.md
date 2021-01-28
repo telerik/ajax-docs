@@ -1,7 +1,7 @@
 ---
 title: Add Custom DropDown
-page_title: Add Custom DropDown | UI for ASP.NET AJAX Documentation
-description: Add Custom DropDown
+page_title: Add Custom DropDown
+description: Check our Web Forms article about Add Custom DropDown.
 slug: sharepoint/2010/radeditor-web-part/customization/add-custom-dropdown
 tags: add,custom,dropdown
 published: True

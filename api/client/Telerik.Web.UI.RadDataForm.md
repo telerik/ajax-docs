@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDataForm
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDataForm
 slug: Telerik.Web.UI.RadDataForm
 ---

@@ -1,7 +1,7 @@
 ---
 title: deselectItem
-page_title: deselectItem | RadListView for ASP.NET AJAX Documentation
-description: deselectItem
+page_title: deselectItem - RadListView
+description: Check our Web Forms article about deselectItem.
 slug: listview/client-side-programming/radlistview/methods/deselectitem
 tags: deselectitem
 published: True

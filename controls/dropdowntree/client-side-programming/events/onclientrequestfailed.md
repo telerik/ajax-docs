@@ -1,7 +1,7 @@
 ---
 title: OnClientRequestFailed
-page_title: OnClientRequestFailed | RadDropDownTree for ASP.NET AJAX Documentation
-description: OnClientRequestFailed
+page_title: OnClientRequestFailed - RadDropDownTree
+description: Check our Web Forms article about OnClientRequestFailed.
 slug: dropdowntree/client-side-programming/events/onclientrequestfailed
 tags: onclientrequestfailed
 published: False

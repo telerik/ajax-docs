@@ -1,7 +1,7 @@
 ---
 title: Right-to-Left Support
-page_title: Right-to-Left Support | RadButton for ASP.NET AJAX Documentation
-description: Right-to-Left Support
+page_title: Right-to-Left Support - RadButton
+description: Check our Web Forms article about Right-to-Left Support.
 slug: button/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True

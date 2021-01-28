@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDatePicker Getting Started Overview | RadDatePicker for ASP.NET AJAX Documentation
-description: RadDatePicker Getting Started Overview
+page_title: RadDatePicker Getting Started Overview - RadDatePicker
+description: Check our Web Forms article about RadDatePicker Getting Started Overview.
 slug: datepicker/getting-started/overview
 tags: overview
 published: True

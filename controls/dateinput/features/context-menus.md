@@ -1,7 +1,7 @@
 ---
 title: Context Menus
-page_title: Context Menus | RadDateInput for ASP.NET AJAX Documentation
-description: Context Menus
+page_title: Context Menus - RadDateInput
+description: Check our Web Forms article about Context Menus.
 slug: raddateinput/features/context-menus
 tags: context,menus
 published: True

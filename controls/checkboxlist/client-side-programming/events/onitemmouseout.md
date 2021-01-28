@@ -1,7 +1,7 @@
 ---
 title: OnItemMouseOut
-page_title: OnItemMouseOut | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnItemMouseOut
+page_title: OnItemMouseOut - RadCheckBoxList
+description: Check our Web Forms article about OnItemMouseOut.
 slug: checkboxlist/client-side-programming/events/onitemmouseout
 tags: onitemmouseout
 published: True

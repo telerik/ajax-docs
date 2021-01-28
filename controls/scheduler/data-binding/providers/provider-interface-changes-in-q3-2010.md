@@ -1,7 +1,7 @@
 ---
 title: Provider Interface Changes in Q3 2010
-page_title: Provider Interface Changes in Q3 2010 | RadScheduler for ASP.NET AJAX Documentation
-description: Provider Interface Changes in Q3 2010
+page_title: Provider Interface Changes in Q3 2010 - RadScheduler
+description: Check our Web Forms article about Provider Interface Changes in Q3 2010.
 slug: scheduler/data-binding/providers/provider-interface-changes-in-q3-2010
 tags: provider,interface,changes,in,q3,2010
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Making Postback or AJAX Request on Client Row Click
-page_title: Making Postback or AJAX Request on Client Row Click | RadGrid for ASP.NET AJAX Documentation
-description: Making Postback or AJAX Request on Client Row Click
+page_title: Making Postback or AJAX Request on Client Row Click - RadGrid
+description: Check our Web Forms article about Making Postback or AJAX Request on Client Row Click.
 slug: grid/client-side-programming/making-postback-or-ajax-request-on-client-row-click
 tags: making,postback,or,ajax,request,on,client,row,click
 published: True

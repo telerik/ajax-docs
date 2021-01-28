@@ -1,7 +1,7 @@
 ---
 title: Lifecycle
-page_title: Lifecycle | RadDock for ASP.NET AJAX Documentation
-description: Lifecycle
+page_title: Lifecycle - RadDock
+description: Check our Web Forms article about Lifecycle.
 slug: dock/structure/dock/lifecycle
 tags: lifecycle
 published: True

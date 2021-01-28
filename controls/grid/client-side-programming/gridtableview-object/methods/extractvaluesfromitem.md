@@ -1,7 +1,7 @@
 ---
 title: extractValuesFromItem
-page_title: extractValuesFromItem | RadGrid for ASP.NET AJAX Documentation
-description: extractValuesFromItem
+page_title: extractValuesFromItem - RadGrid
+description: Check our Web Forms article about extractValuesFromItem.
 slug: grid/client-side-programming/gridtableview-object/methods/extractvaluesfromitem
 tags: extractvaluesfromitem
 published: True

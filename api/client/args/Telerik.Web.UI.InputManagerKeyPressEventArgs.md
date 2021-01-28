@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.InputManagerKeyPressEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.InputManagerKeyPressEventArgs
 slug: Telerik.Web.UI.InputManagerKeyPressEventArgs
 ---

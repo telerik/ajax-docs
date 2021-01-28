@@ -1,7 +1,7 @@
 ---
 title: OnPost
-page_title: OnPost | RadChat for ASP.NET AJAX Documentation
-description: OnPost
+page_title: OnPost - RadChat
+description: Check our Web Forms article about OnPost.
 slug: chat/client-side-programming/events/onpost
 tags: onpost
 published: True

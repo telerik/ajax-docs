@@ -1,7 +1,7 @@
 ---
 title: XLSX and DOCX Format
-page_title: XLSX and DOCX Format | RadTreeList for ASP.NET AJAX Documentation
-description: XLSX and DOCX Format
+page_title: XLSX and DOCX Format - RadTreeList
+description: Check our Web Forms article about XLSX and DOCX Format.
 slug: treelist/functionality/exporting/xlsx-and-docx-format
 tags: xlsx,and,docx,format
 published: True

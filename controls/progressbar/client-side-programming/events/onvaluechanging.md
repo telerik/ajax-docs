@@ -1,7 +1,7 @@
 ---
 title: OnValueChanging
-page_title: OnValueChanging | RadProgressBar for ASP.NET AJAX Documentation
-description: OnValueChanging
+page_title: OnValueChanging - RadProgressBar
+description: Check our Web Forms article about OnValueChanging.
 slug: progressbar/client-side-programming/events/onvaluechanging
 tags: onvaluechanging
 published: True

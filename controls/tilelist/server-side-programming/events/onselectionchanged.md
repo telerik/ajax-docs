@@ -1,7 +1,7 @@
 ---
 title: OnSelectionChanged
-page_title: OnSelectionChanged | RadTileList for ASP.NET AJAX Documentation
-description: OnSelectionChanged
+page_title: OnSelectionChanged - RadTileList
+description: Check our Web Forms article about OnSelectionChanged.
 slug: tilelist/server-side-programming/server-side-events/onselectionchanged
 tags: onselectionchanged
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Getting and Setting Values
-page_title: Getting and Setting Values | RadDateInput for ASP.NET AJAX Documentation
-description: Getting and Setting Values
+page_title: Getting and Setting Values - RadDateInput
+description: Check our Web Forms article about Getting and Setting Values.
 slug: raddateinput/features/getting-and-setting-values
 tags: getting,and,setting,values
 published: True

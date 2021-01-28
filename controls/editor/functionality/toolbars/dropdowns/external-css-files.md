@@ -1,7 +1,7 @@
 ---
 title: External CSS Files
-page_title: External CSS Files | RadEditor for ASP.NET AJAX Documentation
-description: External CSS Files
+page_title: External CSS Files - RadEditor
+description: Check our Web Forms article about External CSS Files.
 slug: editor/functionality/toolbars/dropdowns/external-css-files
 tags: external,css,files
 published: True

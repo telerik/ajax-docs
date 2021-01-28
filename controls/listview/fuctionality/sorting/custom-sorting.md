@@ -1,7 +1,7 @@
 ---
 title: Custom Sorting
-page_title: Custom Sorting | RadListView for ASP.NET AJAX Documentation
-description: Custom Sorting
+page_title: Custom Sorting - RadListView
+description: Check our Web Forms article about Custom Sorting.
 slug: listview/fuctionality/sorting/custom-sorting
 tags: custom,sorting
 published: True

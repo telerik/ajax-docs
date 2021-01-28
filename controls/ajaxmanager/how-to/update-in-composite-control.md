@@ -1,7 +1,7 @@
 ---
 title: Update in Composite Control
-page_title: Update in Composite Control | RadAjax for ASP.NET AJAX Documentation
-description: Update in Composite Control
+page_title: Update in Composite Control
+description: Check our Web Forms article about Update in Composite Control.
 slug: ajaxmanager/how-to/update-in-composite-control
 previous_url: ajax/radajaxmanager/how-to/update-in-composite-control
 tags: update,in,composite,control

@@ -1,7 +1,7 @@
 ---
 title: Customize the Appearance of Control Buttons
-page_title: Customize the Appearance of Control Buttons | RadRotator for ASP.NET AJAX Documentation
-description: Customize the Appearance of Control Buttons
+page_title: Customize the Appearance of Control Buttons - RadRotator
+description: Check our Web Forms article about Customize the Appearance of Control Buttons.
 slug: rotator/appearance-and-styling/customize-the-appearance-of-control-buttons
 tags: customize,the,appearance,of,control,buttons
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientResponseError
-page_title: OnClientResponseError | RadTooltip for ASP.NET AJAX Documentation
-description: OnClientResponseError
+page_title: OnClientResponseError - RadTooltip
+description: Check our Web Forms article about OnClientResponseError.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseerror
 tags: onclientresponseerror
 published: True

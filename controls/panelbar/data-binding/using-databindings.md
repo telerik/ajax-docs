@@ -1,7 +1,7 @@
 ---
 title: Using DataBindings
-page_title: Using DataBindings | RadPanelBar for ASP.NET AJAX Documentation
-description: Using DataBindings
+page_title: Using DataBindings - RadPanelBar
+description: Check our Web Forms article about Using DataBindings.
 slug: panelbar/data-binding/using-databindings
 tags: using,databindings
 published: True

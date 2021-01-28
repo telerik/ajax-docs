@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendar Client-side Programming Overview
+page_title: Client-side Programming Overview - RadCalendar
+description: Check our Web Forms article about RadCalendar Client-side Programming Overview.
 slug: calendar/client-side-programming/overview
 tags: overview
 published: True

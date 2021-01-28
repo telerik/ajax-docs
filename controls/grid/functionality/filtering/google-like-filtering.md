@@ -1,7 +1,7 @@
 ---
 title: Google-like Filtering
-page_title: Google-like Filtering | RadGrid for ASP.NET AJAX Documentation
-description: Google-like Filtering
+page_title: Google-like Filtering - RadGrid
+description: Check our Web Forms article about Google-like Filtering.
 slug: grid/functionality/filtering/google-like-filtering
 tags: google-like,filtering
 published: True

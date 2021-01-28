@@ -1,7 +1,7 @@
 ---
 title: DataForm Object
-page_title: DataForm Object | RadDataForm for ASP.NET AJAX Documentation
-description: DataForm Object
+page_title: DataForm Object - RadDataForm
+description: Check our Web Forms article about DataForm Object.
 slug: dataform/server-side-programming/dataform-object
 tags: dataform,object
 published: True

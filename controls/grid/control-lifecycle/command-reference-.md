@@ -1,7 +1,7 @@
 ---
 title: Command Reference 
-page_title: Command Reference  | RadGrid for ASP.NET AJAX Documentation
-description: Command Reference 
+page_title: Command Reference - RadGrid
+description: Check our Web Forms article about Command Reference.
 slug: grid/control-lifecycle/command-reference-
 tags: command,reference,
 published: True

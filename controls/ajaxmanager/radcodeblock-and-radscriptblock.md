@@ -1,7 +1,7 @@
 ---
 title: RadCodeBlock and RadScriptBlock
-page_title: RadCodeBlock and RadScriptBlock | RadAjax for ASP.NET AJAX Documentation
-description: RadCodeBlock and RadScriptBlock
+page_title: RadCodeBlock and RadScriptBlock
+description: Check our Web Forms article about RadCodeBlock and RadScriptBlock.
 slug: ajaxmanager/radcodeblock-and-radscriptblock
 previous_url: ajax/radcodeblock-and-radscriptblock
 tags: radcodeblock,and,radscriptblock

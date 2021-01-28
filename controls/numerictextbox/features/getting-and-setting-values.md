@@ -1,7 +1,7 @@
 ---
 title: Getting and Setting Values
-page_title: Getting and Setting Values | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Getting and Setting Values
+page_title: Getting and Setting Values - RadNumericTextBox
+description: Check our Web Forms article about Getting and Setting Values.
 slug: numerictextbox/features/getting-and-setting-values
 tags: getting,and,setting,values
 published: True

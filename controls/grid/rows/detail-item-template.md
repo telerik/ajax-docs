@@ -1,7 +1,7 @@
 ---
 title: Detail Item Template
-page_title: Detail Item Template | RadGrid for ASP.NET AJAX Documentation
-description: Detail Item Template
+page_title: Detail Item Template - RadGrid
+description: Check our Web Forms article about Detail Item Template.
 slug: grid/rows/detail-item-template
 tags: detail,item,template
 published: True

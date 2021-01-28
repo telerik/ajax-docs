@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadInputManager for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadInputManager
+description: Check our Web Forms article about Design Time.
 slug: radinputmanager/design-time
 tags: design,time
 published: True

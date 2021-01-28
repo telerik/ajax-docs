@@ -1,7 +1,7 @@
 ---
 title: Server-side Programming
-page_title: Server-side Programming | RadMap for ASP.NET AJAX Documentation
-description: Server-side Programming
+page_title: Server-side Programming - RadMap
+description: Check our Web Forms article about Server-side Programming.
 slug: map/server-side-programming
 tags: server-side,programming
 published: True

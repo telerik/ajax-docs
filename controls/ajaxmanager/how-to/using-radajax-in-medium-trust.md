@@ -1,7 +1,7 @@
 ---
 title: Using RadAjax in Medium Trust
-page_title: Using RadAjax in Medium Trust | RadAjax for ASP.NET AJAX Documentation
-description: Using RadAjax in Medium Trust
+page_title: Using RadAjax in Medium Trust
+description: Check our Web Forms article about Using RadAjax in Medium Trust.
 slug: ajaxmanager/how-to/using-radajax-in-medium-trust
 previous_url: ajax/how-to/using-radajax-in-medium-trust
 tags: using,radajax,in,medium,trust

@@ -1,7 +1,7 @@
 ---
 title: Using Audio Code
-page_title: Using Audio Code | RadCaptcha for ASP.NET AJAX Documentation
-description: Using Audio Code
+page_title: Using Audio Code - RadCaptcha
+description: Check our Web Forms article about Using Audio Code.
 slug: captcha/functionality/using-audio-code
 tags: using,audio,code
 published: True

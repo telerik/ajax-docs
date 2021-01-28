@@ -1,7 +1,7 @@
 ---
 title: Wrong Results at Medium Typing Speed
-page_title: Wrong Results at Medium Typing Speed | RadSearchBox for ASP.NET AJAX Documentation
-description: Wrong Results at Medium Typing Speed for users because of overlapping requests.
+page_title: Wrong Results at Medium Typing Speed - RadSearchBox
+description: Check our Web Forms article about Wrong Results at Medium Typing Speed for users because of overlapping requests.
 slug: controls/searchbox/troubleshooting/wrong-results-at-medium-typing-speed
 tags: wrong,results,search,request,delay,user,typing,speed
 published: true

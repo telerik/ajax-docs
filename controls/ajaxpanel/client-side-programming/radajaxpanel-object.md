@@ -1,7 +1,7 @@
 ---
 title: RadAjaxPanel Object
-page_title: RadAjaxPanel Object | RadAjax for ASP.NET AJAX Documentation
-description: RadAjaxPanel Object
+page_title: RadAjaxPanel Object
+description: Check our Web Forms article about RadAjaxPanel Object.
 slug: ajaxpanel/client-side-programming/radajaxpanel-object
 previous_url: ajax/client-side-programming/radajaxpanel-object
 tags: radajaxpanel,object

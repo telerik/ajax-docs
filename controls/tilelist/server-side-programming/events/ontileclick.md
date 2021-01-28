@@ -1,7 +1,7 @@
 ---
 title: OnTileClick
-page_title: OnTileClick | RadTileList for ASP.NET AJAX Documentation
-description: OnTileClick
+page_title: OnTileClick - RadTileList
+description: Check our Web Forms article about OnTileClick.
 slug: tilelist/server-side-programming/server-side-events/ontileclick
 tags: ontileclick
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSocialShare
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSocialShare
 slug: Telerik.Web.UI.RadSocialShare
 ---

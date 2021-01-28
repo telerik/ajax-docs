@@ -1,7 +1,7 @@
 ---
 title: Load
-page_title: Load Event - RadGrid | UI for ASP.NET AJAX
-description: Load Event
+page_title: Load Event - RadGrid
+description: Check our Web Forms article about Load Event.
 slug: grid/server-side-programming/events/load
 published: True
 position: 50

@@ -1,7 +1,7 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | RadTile for ASP.NET AJAX Documentation
-description: OnClientTemplateDataBound
+page_title: OnClientTemplateDataBound - RadTile
+description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound
 tags: onclienttemplatedatabound
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadDock Object
-page_title: RadDock Object | RadDock for ASP.NET AJAX Documentation
-description: RadDock Object
+page_title: RadDock Object - RadDock
+description: Check our Web Forms article about RadDock Object.
 slug: dock/client-side-programming/raddock-object
 tags: raddock,object
 published: True

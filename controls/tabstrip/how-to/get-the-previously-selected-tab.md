@@ -1,7 +1,7 @@
 ---
 title: Get the Previously Selected Tab
-page_title: Get the Previously Selected Tab | RadTabStrip for ASP.NET AJAX Documentation
-description: Get the Previously Selected Tab
+page_title: Get the Previously Selected Tab - RadTabStrip
+description: Check our Web Forms article about Get the Previously Selected Tab.
 slug: tabstrip/how-to/get-the-previously-selected-tab
 tags: get,the,previously,selected,tab
 published: True

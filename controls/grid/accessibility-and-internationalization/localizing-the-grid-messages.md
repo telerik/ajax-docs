@@ -1,7 +1,7 @@
 ---
 title: Localizing the Grid Messages
-page_title: Localizing the Grid Messages | RadGrid for ASP.NET AJAX Documentation
-description: Localizing the Grid Messages
+page_title: Localizing the Grid Messages - RadGrid
+description: Check our Web Forms article about Localizing the Grid Messages.
 slug: grid/accessibility-and-internationalization/localizing-the-grid-messages
 tags: localizing,the,grid,messages
 published: True

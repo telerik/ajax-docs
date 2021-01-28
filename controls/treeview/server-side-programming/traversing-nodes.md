@@ -1,7 +1,7 @@
 ---
 title: Traversing Nodes
-page_title: Traversing Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Traversing Nodes
+page_title: Traversing Nodes - RadTreeView
+description: Check our Web Forms article about Traversing Nodes.
 slug: treeview/server-side-programming/traversing-nodes
 tags: traversing,nodes
 published: True

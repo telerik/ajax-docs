@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadAjax for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: ajaxpanel/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

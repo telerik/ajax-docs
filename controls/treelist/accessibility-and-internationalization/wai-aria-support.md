@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadTreeList for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadTreeList
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: treelist/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

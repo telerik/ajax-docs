@@ -1,7 +1,7 @@
 ---
 title: Sliding Pane Behavior
-page_title: Sliding Pane Behavior | RadSplitter for ASP.NET AJAX Documentation
-description: Sliding Pane Behavior
+page_title: Sliding Pane Behavior - RadSplitter
+description: Check our Web Forms article about Sliding Pane Behavior.
 slug: splitter/sliding-zones/sliding-pane-behavior
 tags: sliding,pane,behavior
 published: True

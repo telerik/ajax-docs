@@ -1,7 +1,7 @@
 ---
 title: OnGridExporting
-page_title: OnGridExporting Event - RadGrid | UI for ASP.NET AJAX
-description: OnGridExporting Event
+page_title: OnGridExporting Event - RadGrid
+description: Check our Web Forms article about OnGridExporting Event.
 slug: grid/server-side-programming/events/ongridexporting
 published: True
 position: 50

@@ -1,7 +1,7 @@
 ---
 title: Client-Side
-page_title: Client-Side Data Binding | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Client data binding overview of RadMultiColumnComboBox
+page_title: Client-Side Data Binding - RadMultiColumnComboBox
+description: Check our Web Forms article about Client data binding overview of RadMultiColumnComboBox.
 slug: multicolumncombobox/data-binding/client-side
 tags: data,binding,overview,client,side,web,service
 published: True

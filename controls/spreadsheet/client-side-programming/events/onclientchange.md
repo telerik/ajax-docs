@@ -1,7 +1,7 @@
 ---
 title: OnClientChange
-page_title: RadSpreadsheet Client-side Event | UI for ASP.NET AJAX Documentation
-description: RadSpreadsheet Client-side Event
+page_title: RadSpreadsheet Client-side Event
+description: Check our Web Forms article about RadSpreadsheet Client-side Event.
 slug: spreadsheet/client-side-programming/events/onclientchange
 tags: spreadsheetevent
 published: True

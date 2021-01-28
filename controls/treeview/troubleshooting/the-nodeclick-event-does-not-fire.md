@@ -1,7 +1,7 @@
 ---
 title: The NodeClick Event Does Not Fire
-page_title: The NodeClick Event Does Not Fire | RadTreeView for ASP.NET AJAX Documentation
-description: The NodeClick Event Does Not Fire
+page_title: The NodeClick Event Does Not Fire - RadTreeView
+description: Check our Web Forms article about The NodeClick Event Does Not Fire.
 slug: treeview/troubleshooting/the-nodeclick-event-does-not-fire
 tags: the,nodeclick,event,does,not,fire
 published: True

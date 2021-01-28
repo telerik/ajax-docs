@@ -2,7 +2,7 @@
 title: Disable browser spellcheck and curly red underlines in RadEditor content area
 description: The curly red underline is a result of the browser spellchecker. This article shows how to disable it.
 type: troubleshooting
-page_title: Disable browser spellchecking and curly red underlines in content area - RadEditor | Telerik Web UI
+page_title: Disable browser spellchecking and curly red underlines in content area - RadEditor - Telerik Web UI
 slug: editor-disable-browser-spellchecker-and-red-underlines
 position: 
 tags: spell, spellchecking, editor, browser, curtly, underline, underlines, red, misspelled words

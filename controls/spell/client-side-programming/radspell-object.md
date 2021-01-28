@@ -1,7 +1,7 @@
 ---
 title: RadSpell Object
-page_title: RadSpell Object | RadSpell for ASP.NET AJAX Documentation
-description: RadSpell Object
+page_title: RadSpell Object - RadSpell
+description: Check our Web Forms article about RadSpell Object.
 slug: spell/client-side-programming/radspell-object
 tags: radspell,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentCreated
-page_title: OnClientAppointmentCreated | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentCreated
+page_title: OnClientAppointmentCreated - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentCreated.
 slug: scheduler/client-side-programming/events/onclientappointmentcreated
 tags: onclientappointmentcreated
 published: True

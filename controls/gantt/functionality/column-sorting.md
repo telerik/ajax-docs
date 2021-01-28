@@ -1,7 +1,7 @@
 ---
 title: Column Sorting
-page_title: Column Sorting | RadGantt for ASP.NET AJAX Documentation
-description: Column Sorting
+page_title: Column Sorting - RadGantt
+description: Check our Web Forms article about Column Sorting.
 slug: gantt/functionality/column-sorting
 tags: column,sorting
 published: True

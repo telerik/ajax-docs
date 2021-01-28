@@ -1,7 +1,7 @@
 ---
 title: Sticky Tooltips
-page_title: Sticky Tooltips | RadTooltip for ASP.NET AJAX Documentation
-description: Sticky Tooltips
+page_title: Sticky Tooltips - RadTooltip
+description: Check our Web Forms article about Sticky Tooltips.
 slug: tooltip/getting-started/sticky-tooltips
 tags: sticky,tooltips
 published: True

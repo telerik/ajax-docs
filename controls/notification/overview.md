@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadNotification Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadNotification Overview
+description: Check our Web Forms article about Overview.
 slug: notification/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Different configuration files for different webs
-page_title: Different configuration files for different webs | UI for ASP.NET AJAX Documentation
-description: Different configuration files for different webs
+page_title: Different configuration files for different webs
+description: Check our Web Forms article about Different configuration files for different webs.
 slug: sharepoint/2007/radeditor-for-moss/configuration/different-configuration-files-for-different-webs
 tags: different,configuration,files,for,different,webs
 published: True

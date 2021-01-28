@@ -1,7 +1,7 @@
 ---
 title: Removing the Borders
-page_title: Removing the Borders | RadWindow for ASP.NET AJAX Documentation
-description: Removing the Borders
+page_title: Removing the Borders - RadWindow
+description: Check our Web Forms article about Removing the Borders.
 slug: window/appearance-and-styling/removing-the-borders
 tags: removing,the,borders
 published: True

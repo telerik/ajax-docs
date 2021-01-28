@@ -1,7 +1,7 @@
 ---
 title: Exclude Controls from Ajaxifying
-page_title: Exclude Controls from Ajaxifying | RadAjax for ASP.NET AJAX Documentation
-description: Exclude Controls from Ajaxifying
+page_title: Exclude Controls from Ajaxifying
+description: Check our Web Forms article about Exclude Controls from Ajaxifying.
 slug: ajaxpanel/how-to/exclude-controls-from-ajaxifying
 tags: exclude,controls,from,ajaxifying
 published: True

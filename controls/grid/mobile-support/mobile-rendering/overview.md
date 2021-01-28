@@ -1,7 +1,7 @@
 ---
 title: Mobile Rendering Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadGrid
+description: Check our Web Forms article about Overview.
 slug: grid/mobile-support/mobile-rendering/overview
 tags: overview
 published: True

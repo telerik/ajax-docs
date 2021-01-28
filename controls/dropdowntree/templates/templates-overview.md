@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadDropDownTree for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET RadDropDownTree Templates Overview
+page_title: Templates Overview - RadDropDownTree
+description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Templates Overview.
 slug: dropdowntree/templates/templates-overview
 tags: templates,overview
 published: True

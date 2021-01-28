@@ -1,7 +1,7 @@
 ---
 title: Content Security Policy
-page_title: Content Security Policy | UI for ASP.NET AJAX Documentation
-description: Content Security Policy and the UI for ASP.NET AJAX suite
+page_title: Content Security Policy
+description: Check our Web Forms article about Content Security Policy and the UI for ASP.NET AJAX suite.
 slug: general-information/content-security-policy
 tags: Content Security Policy,csp,unsafe-eval,eval
 published: True

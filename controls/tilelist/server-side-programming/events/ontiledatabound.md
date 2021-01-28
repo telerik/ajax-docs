@@ -1,7 +1,7 @@
 ---
 title: OnTileDataBound
-page_title: OnTileDataBound | RadTileList for ASP.NET AJAX Documentation
-description: OnTileDataBound
+page_title: OnTileDataBound - RadTileList
+description: Check our Web Forms article about OnTileDataBound.
 slug: tilelist/server-side-programming/server-side-events/ontiledatabound
 tags: ontiledatabound
 published: True

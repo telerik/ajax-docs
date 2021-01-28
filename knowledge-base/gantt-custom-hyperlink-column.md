@@ -1,8 +1,8 @@
 ---
 title: Create Hyperlink column in RadGantt
-description: Add hyperlink column in RadGantt
+description: Add hyperlink column in RadGantt.
 type: how-to
-page_title: Add hyperlink column in RadGantt | Telerik UI for ASP.NET AJAX
+page_title: Add hyperlink column in RadGantt
 slug: gantt-custom-hyperlink-column
 position: 
 tags: 

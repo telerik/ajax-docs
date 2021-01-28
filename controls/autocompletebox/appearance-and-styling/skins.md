@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadAutoCompleteBox
+description: Check our Web Forms article about Skins.
 slug: autocompletebox/appearance-and-styling/skins
 tags: skins
 published: False

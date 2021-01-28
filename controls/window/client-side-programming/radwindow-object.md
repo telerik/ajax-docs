@@ -1,7 +1,7 @@
 ---
 title: RadWindow Object
-page_title: RadWindow Object | RadWindow for ASP.NET AJAX Documentation
-description: RadWindow Object
+page_title: RadWindow Object - RadWindow
+description: Check our Web Forms article about RadWindow Object.
 slug: window/client-side-programming/radwindow-object
 tags: radwindow,object
 published: True

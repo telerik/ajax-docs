@@ -1,7 +1,7 @@
 ---
 title: Dock Zone Orientation
-page_title: Dock Zone Orientation | RadDock for ASP.NET AJAX Documentation
-description: Dock Zone Orientation
+page_title: Dock Zone Orientation - RadDock
+description: Check our Web Forms article about Dock Zone Orientation.
 slug: dock/getting-started/dock-zone-orientation
 tags: dock,zone,orientation
 published: True

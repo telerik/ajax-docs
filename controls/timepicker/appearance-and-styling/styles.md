@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: Styles | RadTimePicker for ASP.NET AJAX Documentation
-description: Styles
+page_title: Styles - RadTimePicker
+description: Check our Web Forms article about Styles.
 slug: timepicker/appearance-and-styling/styles
 tags: styles
 published: True

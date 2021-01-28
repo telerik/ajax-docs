@@ -1,7 +1,7 @@
 ---
 title: License File
-page_title: License File | UI for ASP.NET AJAX Documentation
-description: License File
+page_title: License File
+description: Check our Web Forms article about License File.
 slug: introduction/licensing/license-file
 tags: license,file
 published: True

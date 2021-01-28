@@ -1,7 +1,7 @@
 ---
 title: Problems with Registering the HttpHandlers in a Web Site that Uses Authentication
-page_title: Problems with Registering the HttpHandlers in a Web Site that Uses Authentication | RadEditor for ASP.NET AJAX Documentation
-description: Problems with Registering the HttpHandlers in a Web Site that Uses Authentication
+page_title: Problems with Registering the HttpHandlers in a Web Site that Uses Authentication - RadEditor
+description: Check our Web Forms article about Problems with Registering the HttpHandlers in a Web Site that Uses Authentication.
 slug: editor/troubleshooting/problems-with-registering-the-httphandlers-in-a-web-site-that-uses-authentication
 tags: problems,with,registering,the,httphandlers,in,a,web,site,that,uses,authentication
 published: True

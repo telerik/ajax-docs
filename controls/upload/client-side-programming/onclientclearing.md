@@ -1,7 +1,7 @@
 ---
 title: OnClientClearing
-page_title: OnClientClearing | RadUpload for ASP.NET AJAX Documentation
-description: OnClientClearing
+page_title: OnClientClearing - RadUpload
+description: Check our Web Forms article about OnClientClearing.
 slug: upload/client-side-programming/onclientclearing
 tags: onclientclearing
 published: True

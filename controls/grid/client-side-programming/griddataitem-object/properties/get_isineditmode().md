@@ -1,7 +1,7 @@
 ---
 title: get_isInEditMode()
-page_title: get_isInEditMode() | RadGrid for ASP.NET AJAX Documentation
-description: get_isInEditMode()
+page_title: get_isInEditMode() - RadGrid
+description: Check our Web Forms article about get_isInEditMode().
 slug: grid/client-side-programming/griddataitem-object/properties/get_isineditmode()
 tags: get_isineditmode()
 published: True

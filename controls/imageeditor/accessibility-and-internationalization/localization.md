@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadImageEditor for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadImageEditor
+description: Check our Web Forms article about Localization.
 slug: imageeditor/accessibility-and-internationalization/localization
 tags: localization
 published: True

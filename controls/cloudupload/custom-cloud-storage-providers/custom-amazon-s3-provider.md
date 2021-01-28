@@ -1,7 +1,7 @@
 ---
 title: Custom Amazon S3 Provider
-page_title: Custom Amazon S3 Provider | RadCloudUpload for ASP.NET AJAX Documentation
-description: Custom Amazon S3 Provider
+page_title: Custom Amazon S3 Provider - RadCloudUpload
+description: Check our Web Forms article about Custom Amazon S3 Provider.
 slug: cloudupload/custom-cloud-storage-providers/custom-amazon-s3-provider
 tags: custom,amazon,s3,provider
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Resize and Drag Extender
-page_title: Resize and Drag Extender | UI for ASP.NET AJAX Documentation
-description: Resize and Drag Extender
+page_title: Resize and Drag Extender
+description: Check our Web Forms article about Resize and Drag Extender.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools/resize-and-drag-extender
 tags: resize,and,drag,extender
 published: True

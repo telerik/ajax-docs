@@ -1,7 +1,7 @@
 ---
 title: GroupItemDrop
-page_title: GroupItemDrop | RadOrgChart for ASP.NET AJAX Documentation
-description: GroupItemDrop
+page_title: GroupItemDrop - RadOrgChart
+description: Check our Web Forms article about GroupItemDrop.
 slug: orgchart/server-side-programming/events/groupitemdrop
 tags: groupitemdrop
 published: True

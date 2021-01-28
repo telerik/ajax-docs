@@ -1,7 +1,7 @@
 ---
 title: RadTreeNodeCollection
-page_title: RadTreeNodeCollection | RadTreeView for ASP.NET AJAX Documentation
-description: RadTreeNodeCollection
+page_title: RadTreeNodeCollection - RadTreeView
+description: Check our Web Forms article about RadTreeNodeCollection.
 slug: treeview/client-side-programming/objects/radtreenodecollection
 tags: radtreenodecollection
 published: True

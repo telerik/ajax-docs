@@ -1,7 +1,7 @@
 ---
 title: OnClientTileDragging
-page_title: OnClientTileDragging | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTileDragging
+page_title: OnClientTileDragging - RadTileList
+description: Check our Web Forms article about OnClientTileDragging.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledragging
 tags: onclienttiledragging
 published: True

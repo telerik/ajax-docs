@@ -1,7 +1,7 @@
 ---
 title: Custom Edit Forms
-page_title: Custom Edit Forms | RadGrid for ASP.NET AJAX Documentation
-description: Custom Edit Forms
+page_title: Custom Edit Forms - RadGrid
+description: Check our Web Forms article about Custom Edit Forms.
 slug: grid/data-editing/edit-mode/custom-edit-forms
 tags: custom,edit,forms
 published: True

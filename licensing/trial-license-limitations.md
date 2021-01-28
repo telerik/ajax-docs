@@ -1,7 +1,7 @@
 ---
 title: Trial License Limitations
-page_title: Trial License Limitations | UI for ASP.NET AJAX Documentation
-description: Trial License Limitations
+page_title: Trial License Limitations
+description: Check our Web Forms article about Trial License Limitations.
 slug: introduction/licensing/trial-license-limitations
 tags: trial,license,limitations
 published: True

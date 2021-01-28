@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadWindow
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadWindow
 slug: Telerik.Web.UI.RadWindow
 ---

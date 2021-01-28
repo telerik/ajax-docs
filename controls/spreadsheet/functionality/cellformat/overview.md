@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Overview | UI for ASP.NET AJAX Documentation
-description: CellFormat Overview
+page_title: RadSpreadsheet Overview
+description: Check our Web Forms article about CellFormat Overview.
 slug: spreadsheet/functionality/cellformat/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Range
-page_title: Range | RadGantt for ASP.NET AJAX Documentation
-description: Range
+page_title: Range - RadGantt
+description: Check our Web Forms article about Range.
 slug: gantt/functionality/range
 tags: range
 published: True

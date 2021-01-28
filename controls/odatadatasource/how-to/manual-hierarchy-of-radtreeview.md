@@ -1,7 +1,7 @@
 ---
 title: Manual Hierarchy of RadTreeView
-page_title: Manual Hierarchy of RadTreeView | RadODataDataSource for ASP.NET AJAX Documentation
-description: Manual Hierarchy of RadTreeView
+page_title: Manual Hierarchy of RadTreeView - RadODataDataSource
+description: Check our Web Forms article about Manual Hierarchy of RadTreeView.
 slug: odatadatasource/how-to/manual-hierarchy-of-radtreeview
 tags: manual,hierarchy,of,radtreeview
 published: True

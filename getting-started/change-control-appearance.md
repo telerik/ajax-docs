@@ -1,7 +1,7 @@
 ---
 title: Change Control Appearance
-page_title: Change Control Appearance | UI for ASP.NET AJAX Documentation
-description: Change Control Appearance
+page_title: Change Control Appearance
+description: Check our Web Forms article about Change Control Appearance.
 slug: getting-started/change-control-appearance
 tags: Change Control Appearance
 published: True

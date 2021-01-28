@@ -1,7 +1,7 @@
 ---
 title: LoadDockLayout
-page_title: LoadDockLayout | RadDock for ASP.NET AJAX Documentation
-description: LoadDockLayout
+page_title: LoadDockLayout - RadDock
+description: Check our Web Forms article about LoadDockLayout.
 slug: dock/server-side-programming/events/loaddocklayout
 tags: loaddocklayout
 published: True

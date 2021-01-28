@@ -1,7 +1,7 @@
 ---
 title: AppointmentUpdate
-page_title: AppointmentUpdate | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentUpdate
+page_title: AppointmentUpdate - RadScheduler
+description: Check our Web Forms article about AppointmentUpdate.
 slug: scheduler/server-side-programming/server-events/appointmentupdate
 tags: appointmentupdate
 published: True

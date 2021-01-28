@@ -1,7 +1,7 @@
 ---
 title: Defining Client-Side HTML Templates
-page_title: Defining Client-Side HTML Templates | RadListView for ASP.NET AJAX Documentation
-description: Defining Client-Side HTML Templates
+page_title: Defining Client-Side HTML Templates - RadListView
+description: Check our Web Forms article about Defining Client-Side HTML Templates.
 slug: listview/data-binding/client-side/defining-client-side-html-templates
 tags: defining,client-side,html,templates
 published: True

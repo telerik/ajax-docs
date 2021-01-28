@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Mobile Support Overview | RadImageGallery for ASP.NET AJAX Documentation
-description: Overview
+page_title: Mobile Support Overview - RadImageGallery
+description: Check our Web Forms article about Overview.
 slug: imagegallery/mobile-support/overview
 tags: overview
 published: True

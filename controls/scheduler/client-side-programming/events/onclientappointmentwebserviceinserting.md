@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentWebServiceInserting
-page_title: OnClientAppointmentWebServiceInserting | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentWebServiceInserting
+page_title: OnClientAppointmentWebServiceInserting - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentWebServiceInserting.
 slug: scheduler/client-side-programming/events/onclientappointmentwebserviceinserting
 tags: onclientappointmentwebserviceinserting
 published: True

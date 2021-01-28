@@ -1,7 +1,7 @@
 ---
 title: Image Manager
-page_title: Image Manager | UI for ASP.NET AJAX Documentation
-description: Image Manager
+page_title: Image Manager
+description: Check our Web Forms article about Image Manager.
 slug: sharepoint/2010/radeditor-web-part/dialogs/image-manager
 tags: image,manager
 published: True

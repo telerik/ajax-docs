@@ -1,7 +1,7 @@
 ---
 title: Expand a Header Item While Clicking on the ImageUrl Only
-page_title: Expand a Header Item While Clicking on the ImageUrl Only | RadPanelBar for ASP.NET AJAX Documentation
-description: Expand a Header Item While Clicking on the ImageUrl Only
+page_title: Expand a Header Item While Clicking on the ImageUrl Only - RadPanelBar
+description: Check our Web Forms article about Expand a Header Item While Clicking on the ImageUrl Only.
 slug: panelbar/how-to/expand-a-header-item-while-clicking-on-the-imageurl-only
 tags: expand,a,header,item,while,clicking,on,the,imageurl,only
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadUpload Context
-page_title: RadUpload Context | RadUpload for ASP.NET AJAX Documentation
-description: RadUpload Context
+page_title: RadUpload Context - RadUpload
+description: Check our Web Forms article about RadUpload Context.
 slug: upload/server-side-programming/radupload-context
 tags: radupload,context
 published: True

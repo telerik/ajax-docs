@@ -1,7 +1,7 @@
 ---
 title: Decorating Div Content Area
-page_title: Decorating Div Content Area | RadEditor for ASP.NET AJAX Documentation
-description: Decorating Div Content Area
+page_title: Decorating Div Content Area - RadEditor
+description: Check our Web Forms article about Decorating Div Content Area.
 slug: editor/managing-content/content-area-appearance/decorating-div-contentareamode
 tags: decorating,div,content,area
 published: True

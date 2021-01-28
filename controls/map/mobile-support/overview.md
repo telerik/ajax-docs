@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Mobile Support Overview | RadMap for ASP.NET AJAX Documentation
-description: Overview
+page_title: Mobile Support Overview - RadMap
+description: Check our Web Forms article about Overview.
 slug: map/mobile-support/overview
 tags: overview
 published: True

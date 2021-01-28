@@ -1,7 +1,7 @@
 ---
 title: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX
-page_title: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX | RadSplitter for ASP.NET AJAX Documentation
-description: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX
+page_title: Migrating from RadSplitter Classic to RadSplitter - RadSplitter
+description: Check our Web Forms article about Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX.
 slug: splitter/getting-started/migrating-from-radsplitter-classic-to-radsplitter-for-asp.net-ajax
 tags: migrating,from,radsplitter,classic,to,radsplitter,for,asp.net,ajax
 published: True

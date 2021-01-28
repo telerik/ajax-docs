@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Getting Started | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: RadPersistenceManager Getting Started Overview
+page_title: Getting Started - RadPersistenceFramework
+description: Check our Web Forms article about RadPersistenceManager Getting Started Overview.
 slug: persistenceframework/getting-started/overview
 tags: overview
 published: True

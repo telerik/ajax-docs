@@ -1,7 +1,7 @@
 ---
 title: Custom Label 
-page_title: Custom Label  | RadProgressBar for ASP.NET AJAX Documentation
-description: Custom Label 
+page_title: Custom Label - RadProgressBar
+description: Check our Web Forms article about Custom Label.
 slug: progressbar/functionality/custom-label-
 tags: custom,label,
 published: True

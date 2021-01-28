@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditorShortCut
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditorShortCut
 slug: Telerik.Web.UI.ImageEditorShortCut
 ---

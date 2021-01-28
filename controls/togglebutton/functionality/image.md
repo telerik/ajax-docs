@@ -1,7 +1,7 @@
 ---
 title: Image
-page_title: Image | RadToggleButton for ASP.NET AJAX Documentation
-description: Image
+page_title: Image - RadToggleButton
+description: Check our Web Forms article about Image.
 slug: togglebutton/functionality/image
 tags: image
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: Properties | RadAjax for ASP.NET AJAX Documentation
-description: Properties
+page_title: Properties
+description: Check our Web Forms article about Properties.
 slug: ajaxpanel/server-side-programming/properties
 tags: properties
 published: True

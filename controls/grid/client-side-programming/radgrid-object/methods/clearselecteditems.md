@@ -1,7 +1,7 @@
 ---
 title: clearSelectedItems
-page_title: clearSelectedItems | RadGrid for ASP.NET AJAX Documentation
-description: clearSelectedItems
+page_title: clearSelectedItems - RadGrid
+description: Check our Web Forms article about clearSelectedItems.
 slug: grid/client-side-programming/radgrid-object/methods/clearselecteditems
 tags: clearselecteditems
 published: True

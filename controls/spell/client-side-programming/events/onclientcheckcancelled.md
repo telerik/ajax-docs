@@ -1,7 +1,7 @@
 ---
 title: OnClientCheckCancelled
-page_title: OnClientCheckCancelled | RadSpell for ASP.NET AJAX Documentation
-description: OnClientCheckCancelled
+page_title: OnClientCheckCancelled - RadSpell
+description: Check our Web Forms article about OnClientCheckCancelled.
 slug: spell/client-side-programming/events/onclientcheckcancelled
 tags: onclientcheckcancelled
 published: True

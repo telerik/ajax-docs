@@ -1,6 +1,6 @@
 ---
 title: Retrieve DataKeyValue of RadListView on RadDataPager change
-description: See how to retrieve the DataKeyValue on the RadDataPager change in RadListView/
+description: See how to retrieve the DataKeyValue on the RadDataPager change in RadListView/.
 type: troubleshooting
 page_title: How to get the RadListView DataKeyValue when DataPager Command event fires
 slug: radlistview-retrieve-datakeyvalue-on-data-pager-change

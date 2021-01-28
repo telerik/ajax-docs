@@ -1,7 +1,7 @@
 ---
 title: OnClientTileDropping
-page_title: OnClientTileDropping | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTileDropping
+page_title: OnClientTileDropping - RadTileList
+description: Check our Web Forms article about OnClientTileDropping.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledropping
 tags: onclienttiledropping
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadNotification for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadNotification
+description: Check our Web Forms article about Skins.
 slug: notification/appearance-and-styling/skins
 tags: skins
 published: True

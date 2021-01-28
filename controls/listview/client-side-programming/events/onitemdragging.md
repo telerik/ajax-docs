@@ -1,7 +1,7 @@
 ---
 title: OnItemDragging
-page_title: OnItemDragging | RadListView for ASP.NET AJAX Documentation
-description: OnItemDragging
+page_title: OnItemDragging - RadListView
+description: Check our Web Forms article about OnItemDragging.
 slug: listview/client-side-programming/events/onitemdragging
 tags: onitemdragging
 published: True

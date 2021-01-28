@@ -1,7 +1,7 @@
 ---
 title: Items
-page_title: Items | RadListView for ASP.NET AJAX Documentation
-description: Items
+page_title: Items - RadListView
+description: Check our Web Forms article about Items.
 slug: listview/fuctionality/selecting/items
 tags: items
 published: True

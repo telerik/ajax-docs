@@ -1,7 +1,7 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | RadListBox for ASP.NET AJAX Documentation
-description: OnClientTemplateDataBound
+page_title: OnClientTemplateDataBound - RadListBox
+description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: listbox/client-side-programming/events/onclienttemplatedatabound
 tags: onclienttemplatedatabound
 published: True

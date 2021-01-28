@@ -1,7 +1,7 @@
 ---
 title: Supported Controls
-page_title: Supported Controls | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: Supported Controls
+page_title: Supported Controls - RadPersistenceFramework
+description: Check our Web Forms article about Supported Controls.
 slug: persistenceframework/getting-started/supported-controls
 tags: supported,controls
 published: True

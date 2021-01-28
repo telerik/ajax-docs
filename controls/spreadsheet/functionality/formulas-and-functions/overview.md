@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Formulas and Functions | UI for ASP.NET AJAX Documentation
-description: Overview 
+page_title: RadSpreadsheet Formulas and Functions
+description: Check our Web Forms article about Overview.
 slug: spreadsheet/functionality/formulas-and-functions/overview
 tags: functions, formulas
 published: True

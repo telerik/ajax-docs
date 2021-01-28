@@ -1,7 +1,7 @@
 ---
 title: Controls Are Not Updated During the ItemsRequested Event
-page_title: Controls Are Not Updated During the ItemsRequested Event | RadComboBox for ASP.NET AJAX Documentation
-description: Controls Are Not Updated During the ItemsRequested Event
+page_title: Controls Are Not Updated During the ItemsRequested Event - RadComboBox
+description: Check our Web Forms article about Controls Are Not Updated During the ItemsRequested Event.
 slug: combobox/troubleshooting/controls-are-not-updated-during-the-itemsrequested-event
 tags: controls,are,not,updated,during,the,itemsrequested,event
 published: True

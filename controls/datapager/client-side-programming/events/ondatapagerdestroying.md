@@ -1,7 +1,7 @@
 ---
 title: OnDataPagerDestroying
-page_title: OnDataPagerDestroying | RadDataPager for ASP.NET AJAX Documentation
-description: OnDataPagerDestroying
+page_title: OnDataPagerDestroying - RadDataPager
+description: Check our Web Forms article about OnDataPagerDestroying.
 slug: datapager/client-side-programming/events/ondatapagerdestroying
 tags: ondatapagerdestroying
 published: True

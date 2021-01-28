@@ -1,7 +1,7 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadFileExplorer for ASP.NET AJAX Documentation
-description: Common Issues
+page_title: Common Issues - RadFileExplorer
+description: Check our Web Forms article about Common Issues.
 slug: fileexplorer/troubleshooting/common-issues
 tags: common,issues
 published: True

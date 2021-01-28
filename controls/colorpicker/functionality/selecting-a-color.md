@@ -1,7 +1,7 @@
 ---
 title: Selecting a Color
-page_title: Selecting a Color | RadColorPicker for ASP.NET AJAX Documentation
-description: Selecting a Color
+page_title: Selecting a Color - RadColorPicker
+description: Check our Web Forms article about Selecting a Color.
 slug: colorpicker/functionality/selecting-a-color
 tags: selecting,a,color
 published: True

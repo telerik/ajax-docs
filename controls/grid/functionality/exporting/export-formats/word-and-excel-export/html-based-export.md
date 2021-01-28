@@ -1,7 +1,7 @@
 ---
 title: HTML-Based Export
-page_title: HTML-Based Export | RadGrid for ASP.NET AJAX Documentation
-description: HTML-Based Export
+page_title: HTML-Based Export - RadGrid
+description: Check our Web Forms article about HTML-Based Export.
 slug: grid/functionality/exporting/export-formats/word-and-excel-export/html-based-export
 tags: html-based,export
 published: True

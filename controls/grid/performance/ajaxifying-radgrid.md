@@ -1,7 +1,7 @@
 ---
 title: Ajaxifying RadGrid
-page_title: Ajaxifying RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Ajaxifying RadGrid
+page_title: Ajaxifying RadGrid - RadGrid
+description: Check our Web Forms article about Ajaxifying RadGrid.
 slug: grid/performance/ajaxifying-radgrid
 tags: ajaxifying,radgrid
 published: True

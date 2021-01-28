@@ -1,7 +1,7 @@
 ---
 title: Resizing and Reordering
-page_title: Resizing and Reordering | RadGrid for ASP.NET AJAX Documentation
-description: Resizing and Reordering
+page_title: Resizing and Reordering - RadGrid
+description: Check our Web Forms article about Resizing and Reordering.
 slug: grid/mobile-support/mobile-rendering/resizing-and-reordering
 tags: resizing,and,reordering
 published: True

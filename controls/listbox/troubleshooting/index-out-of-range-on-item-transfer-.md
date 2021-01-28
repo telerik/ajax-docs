@@ -1,7 +1,7 @@
 ---
 title: Index Out of Range on Item Transfer 
-page_title: Index Out of Range on Item Transfer  | RadListBox for ASP.NET AJAX Documentation
-description: Index Out of Range on Item Transfer 
+page_title: Index Out of Range on Item Transfer - RadListBox
+description: Check our Web Forms article about Index Out of Range on Item Transfer.
 slug: listbox/troubleshooting/index-out-of-range-on-item-transfer-
 tags: index,out,of,range,on,item,transfer,
 published: True

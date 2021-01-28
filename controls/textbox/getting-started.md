@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started Overview | RadTextBox for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started Overview - RadTextBox
+description: Check our Web Forms article about Getting Started.
 slug: radtextbox/getting-started
 tags: overview
 published: True

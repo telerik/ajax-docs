@@ -1,7 +1,7 @@
 ---
 title: Order Series via ZIndex Property
-page_title: Order Series via ZIndex Property | RadHtmlChart for ASP.NET AJAX Documentation
-description: Order Series via ZIndex Property
+page_title: Order Series via ZIndex Property - RadHtmlChart
+description: Check our Web Forms article about Order Series via ZIndex Property.
 slug: htmlchart/appearance-and-styling/order-series-via-zindex-property
 tags: order,series,via,zindex,property
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnRowResizing
-page_title: OnRowResizing | RadGrid for ASP.NET AJAX Documentation
-description: OnRowResizing
+page_title: OnRowResizing - RadGrid
+description: Check our Web Forms article about OnRowResizing.
 slug: grid/client-side-programming/events/onrowresizing
 tags: onrowresizing
 published: True

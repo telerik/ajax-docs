@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs
 ---

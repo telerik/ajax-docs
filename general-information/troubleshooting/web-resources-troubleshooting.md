@@ -1,7 +1,7 @@
 ---
 title: Web Resources Troubleshooting
-page_title: Web Resources Troubleshooting | UI for ASP.NET AJAX Documentation
-description: Web Resources Troubleshooting
+page_title: Web Resources Troubleshooting
+description: Check our Web Forms article about Web Resources Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting
 tags: web,resources,troubleshooting
 published: True

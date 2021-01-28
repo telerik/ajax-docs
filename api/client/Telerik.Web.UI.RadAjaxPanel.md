@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAjaxPanel
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAjaxPanel
 slug: Telerik.Web.UI.RadAjaxPanel
 ---

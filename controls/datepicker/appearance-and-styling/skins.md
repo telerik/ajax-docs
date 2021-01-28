@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadDatePicker for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadDatePicker
+description: Check our Web Forms article about Skins.
 slug: datepicker/appearance-and-styling/skins
 tags: skins
 published: True

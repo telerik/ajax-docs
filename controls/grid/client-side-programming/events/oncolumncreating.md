@@ -1,7 +1,7 @@
 ---
 title: OnColumnCreating
-page_title: OnColumnCreating | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnCreating
+page_title: OnColumnCreating - RadGrid
+description: Check our Web Forms article about OnColumnCreating.
 slug: grid/client-side-programming/events/oncolumncreating
 tags: oncolumncreating
 published: True

@@ -1,7 +1,7 @@
 ---
 title: WizardStepCreated
-page_title: WizardStepCreated | RadWizard for ASP.NET AJAX Documentation
-description: WizardStepCreated
+page_title: WizardStepCreated - RadWizard
+description: Check our Web Forms article about WizardStepCreated.
 slug: wizard/server-side-programming/events/wizardstepcreated
 tags: wizardstepcreated
 published: True

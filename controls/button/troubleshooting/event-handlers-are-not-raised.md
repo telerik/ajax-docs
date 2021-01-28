@@ -1,7 +1,7 @@
 ---
 title: Event Handlers Are Not Raised
-page_title: Event Handlers Are Not Raised | RadButton for ASP.NET AJAX Documentation
-description: Event Handlers Are Not Raised
+page_title: Event Handlers Are Not Raised - RadButton
+description: Check our Web Forms article about Event Handlers Are Not Raised.
 slug: button/troubleshooting/event-handlers-are-not-raised
 tags: event,handlers,are,not,raised
 published: True

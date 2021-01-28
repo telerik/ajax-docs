@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownSelectedIndexChanging
-page_title: OnClientDropDownSelectedIndexChanging | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientDropDownSelectedIndexChanging
+page_title: OnClientDropDownSelectedIndexChanging - RadRibbonBar
+description: Check our Web Forms article about OnClientDropDownSelectedIndexChanging.
 slug: ribbonbar/client-side-programming/events/onclientdropdownselectedindexchanging
 tags: onclientdropdownselectedindexchanging
 published: True

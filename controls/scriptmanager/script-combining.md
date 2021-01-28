@@ -1,7 +1,7 @@
 ---
 title: Script Combining
-page_title: Script Combining | RadScriptManager for ASP.NET AJAX Documentation
-description: Script Combining
+page_title: Script Combining - RadScriptManager
+description: Check our Web Forms article about Script Combining.
 slug: scriptmanager/script-combining
 tags: script,combining
 published: False

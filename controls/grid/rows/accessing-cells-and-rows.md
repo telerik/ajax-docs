@@ -1,7 +1,7 @@
 ---
 title: Accessing Cells and Rows
-page_title: Accessing Cells and Rows | RadGrid for ASP.NET AJAX Documentation
-description: Accessing Cells and Rows
+page_title: Accessing Cells and Rows - RadGrid
+description: Check our Web Forms article about Accessing Cells and Rows.
 slug: grid/rows/accessing-cells-and-rows
 tags: accessing,cells,and,rows
 published: False

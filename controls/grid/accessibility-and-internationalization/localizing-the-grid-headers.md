@@ -1,7 +1,7 @@
 ---
 title: Localizing the Grid Headers
-page_title: Localizing the Grid Headers | RadGrid for ASP.NET AJAX Documentation
-description: Localizing the Grid Headers
+page_title: Localizing the Grid Headers - RadGrid
+description: Check our Web Forms article about Localizing the Grid Headers.
 slug: grid/accessibility-and-internationalization/localizing-the-grid-headers
 tags: localizing,the,grid,headers
 published: True

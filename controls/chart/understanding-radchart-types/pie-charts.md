@@ -1,7 +1,7 @@
 ---
 title: Pie Charts
-page_title: Pie Charts | RadChart for ASP.NET AJAX Documentation
-description: Pie Charts
+page_title: Pie Charts - RadChart
+description: Check our Web Forms article about Pie Charts.
 slug: chart/understanding-radchart-types/pie-charts
 tags: pie,charts
 published: True

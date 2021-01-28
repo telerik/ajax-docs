@@ -1,7 +1,7 @@
 ---
 title: OnClientTabUnSelected
-page_title: OnClientTabUnSelected | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientTabUnSelected
+page_title: OnClientTabUnSelected - RadTabStrip
+description: Check our Web Forms article about OnClientTabUnSelected.
 slug: tabstrip/client-side-programming/onclienttabunselected
 tags: onclienttabunselected
 published: True

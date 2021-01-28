@@ -1,7 +1,7 @@
 ---
 title: RibbonBarButton
-page_title: RibbonBarButton | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarButton
+page_title: RibbonBarButton - RadRibbonBar
+description: Check our Web Forms article about RibbonBarButton.
 slug: ribbonbar/radribbonbar-items/ribbonbarbutton
 tags: ribbonbarbutton
 published: True

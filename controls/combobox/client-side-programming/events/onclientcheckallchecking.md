@@ -1,7 +1,7 @@
 ---
 title: OnClientCheckAllChecking
-page_title: OnClientCheckAllChecking | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientCheckAllChecking
+page_title: OnClientCheckAllChecking - RadComboBox
+description: Check our Web Forms article about OnClientCheckAllChecking.
 slug: combobox/client-side-programming/events/onclientcheckallchecking
 tags: onclientcheckallchecking
 published: True

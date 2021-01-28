@@ -1,7 +1,7 @@
 ---
 title: Design Time Support for RadMultiPage
-page_title: Design Time Support for RadMultiPage | RadTabStrip for ASP.NET AJAX Documentation
-description: Design Time Support for RadMultiPage
+page_title: Design Time Support for RadMultiPage - RadTabStrip
+description: Check our Web Forms article about Design Time Support for RadMultiPage.
 slug: tabstrip/design-time/design-time-support-for-radmultipage
 tags: design,time,support,for,radmultipage
 published: True

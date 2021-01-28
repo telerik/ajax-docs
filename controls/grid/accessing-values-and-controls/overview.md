@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Accessing values and controls - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing Values and Controls
+page_title: Accessing values and controls - RadGrid
+description: Check our Web Forms article about Accessing Values and Controls.
 slug: grid/accessing-values-and-controls/overview
 previous_url: controls/grid/rows/accessing-cells-and-rows
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: TextChanged Event
-page_title: TextChanged Event | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: TextChanged Event
+page_title: TextChanged Event - RadMaksedTextBox
+description: Check our Web Forms article about TextChanged Event.
 slug: radmaskedtextbox/server-side-programming/textchanged-event
 tags: textchanged,event
 published: True

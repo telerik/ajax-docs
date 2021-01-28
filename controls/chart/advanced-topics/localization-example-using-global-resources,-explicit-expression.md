@@ -1,7 +1,7 @@
 ---
 title: Localization Example Using Global Resources, Explicit Expression
-page_title: Localization Example Using Global Resources, Explicit Expression | RadChart for ASP.NET AJAX Documentation
-description: Localization Example Using Global Resources, Explicit Expression
+page_title: Localization Example Using Global Resources, Explicit Expression - RadChart
+description: Check our Web Forms article about Localization Example Using Global Resources, Explicit Expression.
 slug: chart/advanced-topics/localization-example-using-global-resources,-explicit-expression
 tags: localization,example,using,global,resources,,explicit,expression
 published: True

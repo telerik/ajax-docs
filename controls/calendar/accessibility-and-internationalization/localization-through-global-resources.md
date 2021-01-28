@@ -1,7 +1,7 @@
 ---
 title: Localization Through Global Resources
-page_title: Localization Through Global Resources | RadCalendar for ASP.NET AJAX Documentation
-description: Localization Through Global Resources
+page_title: Localization Through Global Resources - RadCalendar
+description: Check our Web Forms article about Localization Through Global Resources.
 slug: calendar/accessibility-and-internationalization/localization-through-global-resources
 tags: localization,through,global,resources
 published: True

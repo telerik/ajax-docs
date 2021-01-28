@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMaskedTextBoxComponent
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMaskedTextBoxComponent
 slug: Telerik.Web.UI.RadMaskedTextBoxComponent
 ---

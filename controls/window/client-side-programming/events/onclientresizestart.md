@@ -1,7 +1,7 @@
 ---
 title: OnClientResizeStart
-page_title: OnClientResizeStart | RadWindow for ASP.NET AJAX Documentation
-description: OnClientResizeStart
+page_title: OnClientResizeStart - RadWindow
+description: Check our Web Forms article about OnClientResizeStart.
 slug: window/client-side-programming/events/onclientresizestart
 tags: onclientresizestart
 published: True

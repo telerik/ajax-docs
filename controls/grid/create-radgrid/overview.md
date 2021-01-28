@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Creating, Modifing the Grid structure - RadGrid | UI for ASP.NET AJAX
-description: Create RadGrid - Overview
+page_title: Creating, Modifing the Grid structure - RadGrid
+description: Check our Web Forms article about Create RadGrid - Overview.
 slug: grid/create-radgrid/overview
 tags: overview
 published: True

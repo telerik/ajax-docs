@@ -1,7 +1,7 @@
 ---
 title: Updating
-page_title: Updating | RadListBox for ASP.NET AJAX Documentation
-description: Updating
+page_title: Updating - RadListBox
+description: Check our Web Forms article about Updating.
 slug: listbox/server-side-programming/server-events/updating
 tags: updating
 published: True

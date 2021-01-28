@@ -1,7 +1,7 @@
 ---
 title: Use RadMenu in a User Control with OutputCache Enabled
-page_title: Use RadMenu in a User Control with OutputCache Enabled | RadMenu for ASP.NET AJAX Documentation
-description: Use RadMenu in a User Control with OutputCache Enabled
+page_title: Use RadMenu in a User Control with OutputCache Enabled - RadMenu
+description: Check our Web Forms article about Use RadMenu in a User Control with OutputCache Enabled.
 slug: menu/how-to/use-radmenu-in-a-user-control-with-outputcache-enabled
 tags: use,radmenu,in,a,user,control,with,outputcache,enabled
 published: True

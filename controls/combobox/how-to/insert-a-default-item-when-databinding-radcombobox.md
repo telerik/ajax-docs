@@ -1,7 +1,7 @@
 ---
 title: Insert a Default Item When Databinding RadComboBox
-page_title: Insert a Default Item When Databinding RadComboBox | RadComboBox for ASP.NET AJAX Documentation
-description: Insert a Default Item When Databinding RadComboBox
+page_title: Insert a Default Item When Databinding RadComboBox - RadComboBox
+description: Check our Web Forms article about Insert a Default Item When Databinding RadComboBox.
 slug: combobox/how-to/insert-a-default-item-when-databinding-radcombobox
 tags: insert,a,default,item,when,databinding,radcombobox
 published: True

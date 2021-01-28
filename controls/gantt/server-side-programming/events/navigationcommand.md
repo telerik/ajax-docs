@@ -1,7 +1,7 @@
 ---
 title: NavigationCommand
-page_title: NavigationCommand | RadGantt for ASP.NET AJAX Documentation
-description: NavigationCommand
+page_title: NavigationCommand - RadGantt
+description: Check our Web Forms article about NavigationCommand.
 slug: gantt/server-side-programming/events/navigationcommand
 tags: navigationcommand
 published: True

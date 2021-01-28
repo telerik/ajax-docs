@@ -1,7 +1,7 @@
 ---
 title: Upload Modules
-page_title: Upload Modules | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Upload Modules
+page_title: Upload Modules - RadAsyncUpload
+description: Check our Web Forms article about Upload Modules.
 slug: asyncupload/upload-modules
 tags: upload,modules
 published: True

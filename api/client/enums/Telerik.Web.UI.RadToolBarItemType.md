@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadToolBarItemType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToolBarItemType
 slug: Telerik.Web.UI.RadToolBarItemType
 ---

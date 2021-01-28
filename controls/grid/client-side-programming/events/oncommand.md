@@ -1,7 +1,7 @@
 ---
 title: OnCommand
-page_title: OnCommand | RadGrid for ASP.NET AJAX Documentation
-description: OnCommand
+page_title: OnCommand - RadGrid
+description: Check our Web Forms article about OnCommand.
 slug: grid/client-side-programming/events/oncommand
 tags: oncommand
 published: True

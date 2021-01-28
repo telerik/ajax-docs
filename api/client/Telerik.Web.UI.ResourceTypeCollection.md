@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ResourceTypeCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ResourceTypeCollection
 slug: Telerik.Web.UI.ResourceTypeCollection
 ---

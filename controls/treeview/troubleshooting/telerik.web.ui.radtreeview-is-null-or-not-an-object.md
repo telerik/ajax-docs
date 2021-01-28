@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTreeView Is null or not an object
-page_title: Telerik.Web.UI.RadTreeView Is null or not an object | RadTreeView for ASP.NET AJAX Documentation
-description: Telerik.Web.UI.RadTreeView Is null or not an object
+page_title: Telerik.Web.UI.RadTreeView Is null or not an object - RadTreeView
+description: Check our Web Forms article about Telerik.Web.UI.RadTreeView Is null or not an object.
 slug: treeview/troubleshooting/telerik.web.ui.radtreeview-is-null-or-not-an-object
 tags: telerik.web.ui.radtreeview,is,null,or,not,an,object
 published: True

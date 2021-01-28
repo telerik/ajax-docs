@@ -1,7 +1,7 @@
 ---
 title: Header Context Menu
-page_title: Header Context Menu | RadGrid for ASP.NET AJAX Documentation
-description: Header Context Menu
+page_title: Header Context Menu - RadGrid
+description: Check our Web Forms article about Header Context Menu.
 slug: grid/columns/header-context-menu
 tags: header,context,menu
 published: True

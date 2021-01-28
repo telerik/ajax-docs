@@ -1,7 +1,7 @@
 ---
 title: Animation 
-page_title: Animation  | RadGrid for ASP.NET AJAX Documentation
-description: Animation 
+page_title: Animation - RadGrid
+description: Check our Web Forms article about Animation.
 slug: grid/columns/animation-
 tags: animation,
 published: True

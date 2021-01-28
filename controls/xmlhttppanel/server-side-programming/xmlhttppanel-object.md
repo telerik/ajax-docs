@@ -1,7 +1,7 @@
 ---
 title: XmlHttpPanel Object
-page_title: XmlHttpPanel Object | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: XmlHttpPanel Object
+page_title: XmlHttpPanel Object - RadXmlHttpPanel
+description: Check our Web Forms article about XmlHttpPanel Object.
 slug: xmlhttppanel/server-side-programming/xmlhttppanel-object
 tags: xmlhttppanel,object
 published: True

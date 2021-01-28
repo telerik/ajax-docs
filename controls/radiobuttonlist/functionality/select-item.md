@@ -1,7 +1,7 @@
 ---
 title: Select Item
-page_title: Select Item | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Select Item
+page_title: Select Item - RadRadioButtonList
+description: Check our Web Forms article about Select Item.
 slug: radiobuttonlist/functionality/select-item
 tags: select,item
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ContentTemplate Tile
-page_title: ContentTemplate Tile | RadTile for ASP.NET AJAX Documentation
-description: ContentTemplate Tile
+page_title: ContentTemplate Tile - RadTile
+description: Check our Web Forms article about ContentTemplate Tile.
 slug: tilelist/tiles/contenttemplate-tile
 tags: contenttemplate,tile
 published: True

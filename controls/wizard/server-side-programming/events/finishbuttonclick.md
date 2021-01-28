@@ -1,7 +1,7 @@
 ---
 title: FinishButtonClick
-page_title: FinishButtonClick | RadWizard for ASP.NET AJAX Documentation
-description: FinishButtonClick
+page_title: FinishButtonClick - RadWizard
+description: Check our Web Forms article about FinishButtonClick.
 slug: wizard/server-side-programming/events/finishbuttonclick
 tags: finishbuttonclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: AppointmentContextMenuItemClicking
-page_title: AppointmentContextMenuItemClicking | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentContextMenuItemClicking
+page_title: AppointmentContextMenuItemClicking - RadScheduler
+description: Check our Web Forms article about AppointmentContextMenuItemClicking.
 slug: scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicking
 tags: appointmentcontextmenuitemclicking
 published: True

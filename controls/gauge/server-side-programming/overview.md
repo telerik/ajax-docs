@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadGauge for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadGauge
+description: Check our Web Forms article about Overview.
 slug: gauge/server-side-programming/overview
 tags: overview
 published: True

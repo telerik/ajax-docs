@@ -1,7 +1,7 @@
 ---
 title: RecurrenceExceptionCreated
-page_title: RecurrenceExceptionCreated | RadScheduler for ASP.NET AJAX Documentation
-description: RecurrenceExceptionCreated
+page_title: RecurrenceExceptionCreated - RadScheduler
+description: Check our Web Forms article about RecurrenceExceptionCreated.
 slug: scheduler/server-side-programming/server-events/recurrenceexceptioncreated
 tags: recurrenceexceptioncreated
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom Dropdown
-page_title: Custom Dropdown | RadEditor for ASP.NET AJAX Documentation
-description: Custom Dropdown
+page_title: Custom Dropdown - RadEditor
+description: Check our Web Forms article about Custom Dropdown.
 slug: editor/functionality/toolbars/dropdowns/custom-dropdown
 tags: custom,dropdown
 published: True

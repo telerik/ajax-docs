@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentClickEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentClickEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentClickEventArgs
 ---

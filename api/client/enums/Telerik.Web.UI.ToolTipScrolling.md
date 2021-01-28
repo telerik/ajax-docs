@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ToolTipScrolling
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ToolTipScrolling
 slug: Telerik.Web.UI.ToolTipScrolling
 ---

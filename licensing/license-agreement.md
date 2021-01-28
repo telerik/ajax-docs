@@ -1,7 +1,7 @@
 ---
 title: License Agreement
-page_title: License Agreement | UI for ASP.NET AJAX Documentation
-description: License Agreement
+page_title: License Agreement
+description: Check our Web Forms article about License Agreement.
 slug: introduction/licensing/license-agreement
 tags: license,agreement
 published: True

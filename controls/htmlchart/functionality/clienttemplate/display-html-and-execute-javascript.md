@@ -1,7 +1,7 @@
 ---
 title: Display HTML and Execute JavaScript
-page_title: Display HTML and Execute JavaScript | RadHtmlChart for ASP.NET AJAX Documentation
-description: Display HTML and Execute JavaScript
+page_title: Display HTML and Execute JavaScript - RadHtmlChart
+description: Check our Web Forms article about Display HTML and Execute JavaScript.
 slug: htmlchart/functionality/clienttemplate/display-html-and-execute-javascript
 tags: display,html,and,execute,javascript
 published: True

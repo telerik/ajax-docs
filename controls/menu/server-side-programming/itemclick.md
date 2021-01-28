@@ -1,7 +1,7 @@
 ---
 title: ItemClick
-page_title: ItemClick | RadMenu for ASP.NET AJAX Documentation
-description: ItemClick
+page_title: ItemClick - RadMenu
+description: Check our Web Forms article about ItemClick.
 slug: menu/server-side-programming/itemclick
 tags: itemclick
 published: True

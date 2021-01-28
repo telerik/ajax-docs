@@ -1,7 +1,7 @@
 ---
 title: Differences between ItemCreated  and ItemDataBound Events
-page_title: Differences between ItemCreated  and ItemDataBound Events | RadListView for ASP.NET AJAX Documentation
-description: Differences between ItemCreated  and ItemDataBound Events
+page_title: Differences between ItemCreated and ItemDataBound Events - RadListView
+description: Check our Web Forms article about Differences between ItemCreated  and ItemDataBound Events.
 slug: listview/control-lifecycle/differences-between-itemcreated--and-itemdatabound-events
 tags: differences,between,itemcreated,,and,itemdatabound,events
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadScheduler for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadScheduler
+description: Check our Web Forms article about Skins.
 slug: scheduler/appearance-and-styling/skins
 tags: skins
 published: True

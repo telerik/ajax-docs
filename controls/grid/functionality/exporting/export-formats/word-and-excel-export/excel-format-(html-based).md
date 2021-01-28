@@ -1,7 +1,7 @@
 ---
 title: Excel Format (HTML-Based)
-page_title: Excel Format (HTML-Based) | RadGrid for ASP.NET AJAX Documentation
-description: Excel Format (HTML-Based)
+page_title: Excel Format (HTML-Based) - RadGrid
+description: Check our Web Forms article about Excel Format (HTML-Based).
 slug: grid/functionality/exporting/export-formats/word-and-excel-export/excel-format-(html-based)
 tags: excel,format,(html-based)
 published: True

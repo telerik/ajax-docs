@@ -1,7 +1,7 @@
 ---
 title: Deploying a Telerik-enabled ASP.NET Web Forms Application
-page_title: Deploying a Telerik-enabled Web Application | UI for ASP.NET AJAX Documentation
-description: Deploying a Telerik-enabled Web Application
+page_title: Deploying a Telerik-enabled Web Application
+description: Check our Web Forms article about Deploying a Telerik-enabled Web Application.
 slug: introduction/deployment/deploying-a-telerik-enabled-webapplication
 tags: deploying,a,telerik-enabled,webapplication
 published: True

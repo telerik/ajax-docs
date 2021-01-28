@@ -1,7 +1,7 @@
 ---
 title: Service Configuration
-page_title: Service Configuration | RadClientDataSource for ASP.NET AJAX Documentation
-description: Service Configuration
+page_title: Service Configuration - RadClientDataSource
+description: Check our Web Forms article about Service Configuration.
 slug: clientdatasource/service-configuration
 tags: service,configuration
 published: True

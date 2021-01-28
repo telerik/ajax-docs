@@ -1,7 +1,7 @@
 ---
 title: Associate RadToolTip with RadToolBarButton
-page_title: Associate RadToolTip with RadToolBarButton | RadToolBar for ASP.NET AJAX Documentation
-description: Associate RadToolTip with RadToolBarButton
+page_title: Associate RadToolTip with RadToolBarButton - RadToolBar
+description: Check our Web Forms article about Associate RadToolTip with RadToolBarButton.
 slug: toolbar/how-to/associate-radtooltip-with-radtoolbarbutton
 tags: associate,radtooltip,with,from,radtoolbarbutton
 published: True

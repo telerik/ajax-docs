@@ -1,8 +1,8 @@
 ---
 title: Attaching blur event handler to RadEditor ContentArea  
-description: Instructions how to attach blur event handler to RadEditor ContentArea
+description: Instructions how to attach blur event handler to RadEditor ContentArea.
 type: how-to
-page_title: Attaching blur event handler to RadEditor ContentArea - RadEditor | Telerik UI for ASP.NET AJAX
+page_title: Attaching blur event handler to RadEditor ContentArea - RadEditor
 slug: attaching-blur-event-handler-to-radeditor-contentarea
 ticketid: 1460940
 res_type: kb

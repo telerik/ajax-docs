@@ -1,7 +1,7 @@
 ---
 title: SaveSettings
-page_title: SaveSettings | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: SaveSettings
+page_title: SaveSettings - RadPersistenceFramework
+description: Check our Web Forms article about SaveSettings.
 slug: persistenceframework/server-side-programming/events/savesettings
 tags: savesettings
 published: True

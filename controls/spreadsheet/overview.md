@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadSpreadsheet Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadSpreadsheet Overview
+description: Check our Web Forms article about Overview.
 slug: spreadsheet/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Focus the RadComboBox
-page_title: Focus the RadComboBox | RadComboBox for ASP.NET AJAX Documentation
-description: Focus the RadComboBox
+page_title: Focus the RadComboBox - RadComboBox
+description: Check our Web Forms article about Focus the RadComboBox.
 slug: combobox/how-to/focus-the-radcombobox
 tags: focus,the,radcombobox
 published: True

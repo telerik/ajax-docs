@@ -1,7 +1,7 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
-description: Responsive, Adaptive and Elastic Capabilities
+page_title: Responsive, Adaptive and Elastic Capabilities
+description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs
 slug: Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs
 ---

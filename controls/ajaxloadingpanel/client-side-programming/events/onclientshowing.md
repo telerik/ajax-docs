@@ -1,7 +1,7 @@
 ---
 title: OnClientShowing
-page_title: OnClientShowing | RadAjaxLoadingPanel for ASP.NET AJAX Documentation
-description: OnClientShowing
+page_title: OnClientShowing - RadAjaxLoadingPanel
+description: Check our Web Forms article about OnClientShowing.
 slug: ajaxloadingpanel/client-side-programming/events/onclientshowing
 previous_url: ajax/client-side-programming/events/onclientshowing
 tags: onclientshowing

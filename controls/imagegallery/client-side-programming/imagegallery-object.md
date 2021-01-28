@@ -1,7 +1,7 @@
 ---
 title: ImageGallery Object
-page_title: ImageGallery Object | RadImageGallery for ASP.NET AJAX Documentation
-description: ImageGallery Object
+page_title: ImageGallery Object - RadImageGallery
+description: Check our Web Forms article about ImageGallery Object.
 slug: imagegallery/client-side-programming/imagegallery-object
 tags: imagegallery,object
 published: True

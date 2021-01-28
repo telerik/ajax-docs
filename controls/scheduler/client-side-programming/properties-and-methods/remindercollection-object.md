@@ -1,7 +1,7 @@
 ---
 title: ReminderCollection Object
-page_title: ReminderCollection Object | RadScheduler for ASP.NET AJAX Documentation
-description: ReminderCollection Object
+page_title: ReminderCollection Object - RadScheduler
+description: Check our Web Forms article about ReminderCollection Object.
 slug: scheduler/client-side-programming/properties-and-methods/remindercollection-object
 tags: remindercollection,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Updating Values Using InPlace and EditForms Modes
-page_title: Updating Values Using InPlace and EditForms Modes | RadGrid for ASP.NET AJAX Documentation
-description: Updating Values Using InPlace and EditForms Modes
+page_title: Updating Values Using InPlace and EditForms Modes - RadGrid
+description: Check our Web Forms article about Updating Values Using InPlace and EditForms Modes.
 slug: grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes
 tags: updating,values,using,inplace,and,editforms,modes
 published: True

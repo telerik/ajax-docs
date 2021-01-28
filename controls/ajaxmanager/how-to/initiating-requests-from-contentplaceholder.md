@@ -1,7 +1,7 @@
 ---
 title: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
-page_title: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another | RadAjax for ASP.NET AJAX Documentation
-description: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
+page_title: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
+description: Check our Web Forms article about Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another.
 slug: ajaxmanager/how-to/initiating-requests-from-contentplaceholder
 previous_url: ajax/radajaxmanager/how-to/initiating-requests-from-contentplaceholder
 tags: radajax,and,masterpage

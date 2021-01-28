@@ -1,7 +1,7 @@
 ---
 title: Expand Panelbar Width Regarding the Widest Item
-page_title: Expand Panelbar Width Regarding the Widest Item | RadPanelBar for ASP.NET AJAX Documentation
-description: Expand Panelbar Width Regarding the Widest Item
+page_title: Expand Panelbar Width Regarding the Widest Item - RadPanelBar
+description: Check our Web Forms article about Expand Panelbar Width Regarding the Widest Item.
 slug: panelbar/how-to/expand-panelbar-width-regarding-the-widest-item
 tags: expand,panelbar,width,regarding,the,widest,item
 published: True

@@ -1,7 +1,7 @@
 ---
 title: NodeCheck
-page_title: NodeCheck | RadTreeView for ASP.NET AJAX Documentation
-description: NodeCheck
+page_title: NodeCheck - RadTreeView
+description: Check our Web Forms article about NodeCheck.
 slug: treeview/server-side-programming/events/nodecheck
 tags: nodecheck
 published: True

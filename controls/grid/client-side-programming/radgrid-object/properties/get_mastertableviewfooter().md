@@ -1,7 +1,7 @@
 ---
 title: get_masterTableViewFooter()
-page_title: get_masterTableViewFooter() | RadGrid for ASP.NET AJAX Documentation
-description: get_masterTableViewFooter()
+page_title: get_masterTableViewFooter() - RadGrid
+description: Check our Web Forms article about get_masterTableViewFooter().
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewfooter()
 tags: get_mastertableviewfooter()
 published: True

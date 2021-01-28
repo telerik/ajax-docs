@@ -1,7 +1,7 @@
 ---
 title: Using shared RadCalendar
-page_title: Using shared RadCalendar | RadDatePicker for ASP.NET AJAX Documentation
-description: Using shared RadCalendar
+page_title: Using shared RadCalendar - RadDatePicker
+description: Check our Web Forms article about Using shared RadCalendar.
 slug: datepicker/functionality/using-shared-radcalendar
 tags: using,shared,radcalendar
 published: True

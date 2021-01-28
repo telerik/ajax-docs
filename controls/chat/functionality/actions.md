@@ -1,7 +1,7 @@
 ---
 title: Default Actions 
-page_title: Default Actions  | RadChat for ASP.NET AJAX Documentation
-description: Default Actions 
+page_title: Default Actions - RadChat
+description: Check our Web Forms article about Default Actions.
 slug: chat/functionality/actions
 tags: default,actions
 published: True

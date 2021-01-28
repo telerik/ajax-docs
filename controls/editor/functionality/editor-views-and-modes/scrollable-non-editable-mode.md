@@ -1,7 +1,7 @@
 ---
 title: Scrollable Non Editable Mode
-page_title: Scrollable Non Editable Mode | RadEditor for ASP.NET AJAX Documentation
-description: Scrollable Non Editable Mode
+page_title: Scrollable Non Editable Mode - RadEditor
+description: Check our Web Forms article about Scrollable Non Editable Mode.
 slug: editor/functionality/editor-views-and-modes/scrollable-non-editable-mode
 tags: scrollable,non,editable,mode
 published: True

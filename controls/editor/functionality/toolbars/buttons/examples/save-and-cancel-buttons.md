@@ -1,7 +1,7 @@
 ---
 title: Save and Cancel Buttons
-page_title: Save and Cancel Buttons | RadEditor for ASP.NET AJAX Documentation
-description: Save and Cancel Buttons
+page_title: Save and Cancel Buttons - RadEditor
+description: Check our Web Forms article about Save and Cancel Buttons.
 slug: editor/functionality/toolbars/buttons/examples/save-and-cancel-buttons
 tags: save,and,cancel,buttons
 published: True

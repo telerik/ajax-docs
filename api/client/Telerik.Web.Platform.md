@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.Platform
-title_prefix: Client-side API Reference
 description: Telerik.Web.Platform
 static: true
 slug: Telerik.Web.Platform

@@ -1,7 +1,7 @@
 ---
 title: Accessing Cells and Items
-page_title: Accessing Cells and Items | RadTreeList for ASP.NET AJAX Documentation
-description: Accessing Cells and Items
+page_title: Accessing Cells and Items - RadTreeList
+description: Check our Web Forms article about Accessing Cells and Items.
 slug: treelist/items/accessing-cells-and-items
 tags: accessing,cells,and,items
 published: True

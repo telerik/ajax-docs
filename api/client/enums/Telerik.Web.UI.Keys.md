@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Keys
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Keys
 slug: Telerik.Web.UI.Keys
 ---

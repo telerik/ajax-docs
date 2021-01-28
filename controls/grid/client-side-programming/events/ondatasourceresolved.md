@@ -1,7 +1,7 @@
 ---
 title: OnDataSourceResolved
-page_title: OnDataSourceResolved | RadGrid for ASP.NET AJAX Documentation
-description: OnDataSourceResolved
+page_title: OnDataSourceResolved - RadGrid
+description: Check our Web Forms article about OnDataSourceResolved.
 slug: grid/client-side-programming/events/ondatasourceresolved
 tags: ondatasourceresolved
 published: True

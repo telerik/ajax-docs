@@ -1,7 +1,7 @@
 ---
 title: Referencing the External Content of a Pane
-page_title: Referencing the External Content of a Pane | RadSplitter for ASP.NET AJAX Documentation
-description: Referencing the External Content of a Pane
+page_title: Referencing the External Content of a Pane - RadSplitter
+description: Check our Web Forms article about Referencing the External Content of a Pane.
 slug: splitter/how-to/referencing-the-external-content-of-a-pane
 tags: referencing,the,external,content,of,a,pane
 published: True

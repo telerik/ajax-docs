@@ -1,7 +1,7 @@
 ---
 title: OnEnable
-page_title: OnEnable | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnEnable
+page_title: OnEnable - RadNumericTextBox
+description: Check our Web Forms article about OnEnable.
 slug: numerictextbox/client-side-programming/events/onenable
 tags: onenable
 published: True

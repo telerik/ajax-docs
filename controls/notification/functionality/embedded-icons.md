@@ -1,7 +1,7 @@
 ---
 title: Embedded Icons
-page_title: Embedded Icons | RadNotification for ASP.NET AJAX Documentation
-description: Embedded Icons
+page_title: Embedded Icons - RadNotification
+description: Check our Web Forms article about Embedded Icons.
 slug: notification/functionality/embedded-icons
 tags: embedded,icons
 published: True

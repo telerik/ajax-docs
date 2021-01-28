@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttDependency
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttDependency
 slug: Telerik.Web.UI.GanttDependency
 ---

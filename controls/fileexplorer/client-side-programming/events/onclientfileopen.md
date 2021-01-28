@@ -1,7 +1,7 @@
 ---
 title: OnClientFileOpen
-page_title: OnClientFileOpen | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientFileOpen
+page_title: OnClientFileOpen - RadFileExplorer
+description: Check our Web Forms article about OnClientFileOpen.
 slug: fileexplorer/client-side-programming/events/onclientfileOpen
 tags: onclientdelete
 published: True

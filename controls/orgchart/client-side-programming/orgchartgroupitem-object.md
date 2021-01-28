@@ -1,7 +1,7 @@
 ---
 title: OrgChartGroupItem Object
-page_title: OrgChartGroupItem Object | RadOrgChart for ASP.NET AJAX Documentation
-description: OrgChartGroupItem Object
+page_title: OrgChartGroupItem Object - RadOrgChart
+description: Check our Web Forms article about OrgChartGroupItem Object.
 slug: orgchart/client-side-programming/orgchartgroupitem-object
 tags: orgchartgroupitem,object
 published: True

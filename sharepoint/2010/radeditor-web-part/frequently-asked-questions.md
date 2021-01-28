@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
-page_title: Frequently Asked Questions | UI for ASP.NET AJAX Documentation
-description: Frequently Asked Questions
+page_title: Frequently Asked Questions
+description: Check our Web Forms article about Frequently Asked Questions.
 slug: sharepoint/2010/radeditor-web-part/frequently-asked-questions
 tags: frequently,asked,questions
 published: True

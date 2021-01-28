@@ -1,7 +1,7 @@
 ---
 title: Inheriting Grid Columns
-page_title: Inheriting Grid Columns | RadGrid for ASP.NET AJAX Documentation
-description: Inheriting Grid Columns
+page_title: Inheriting Grid Columns - RadGrid
+description: Check our Web Forms article about Inheriting Grid Columns.
 slug: grid/inheritance/inheriting-grid-columns
 tags: inheriting,grid,columns
 published: True

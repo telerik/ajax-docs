@@ -1,7 +1,7 @@
 ---
 title: get_dataItem
-page_title: get_dataItem | RadGrid for ASP.NET AJAX Documentation
-description: get_dataItem
+page_title: get_dataItem - RadGrid
+description: Check our Web Forms article about get_dataItem.
 slug: grid/client-side-programming/griddataitem-object/methods/get_dataitem
 tags: get_dataitem
 published: True

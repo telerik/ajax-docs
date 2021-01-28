@@ -1,7 +1,7 @@
 ---
 title: OnClientDeleting
-page_title: OnClientDeleting | RadListBox for ASP.NET AJAX Documentation
-description: OnClientDeleting
+page_title: OnClientDeleting - RadListBox
+description: Check our Web Forms article about OnClientDeleting.
 slug: listbox/client-side-programming/events/onclientdeleting
 tags: onclientdeleting
 published: True

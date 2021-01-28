@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadMaskedTextBox
+description: Check our Web Forms article about Skins.
 slug: radmaskedtextbox/appearance-and-styling/skins
 tags: skins
 published: True

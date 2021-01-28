@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequestFailed
-page_title: OnClientItemsRequestFailed | RadRotator for ASP.NET AJAX Documentation
-description: OnClientItemsRequestFailed
+page_title: OnClientItemsRequestFailed - RadRotator
+description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: rotator/client-side-programming/events/onclientitemsrequestfailed
 tags: onclientitemsrequestfailed
 published: True

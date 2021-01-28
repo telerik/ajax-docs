@@ -1,7 +1,7 @@
 ---
 title: Defining Declaratively
-page_title: Defining Declaratively | RadTabStrip for ASP.NET AJAX Documentation
-description: Defining Declaratively
+page_title: Defining Declaratively - RadTabStrip
+description: Check our Web Forms article about Defining Declaratively.
 slug: tabstrip/radmultipage/defining-declaratively
 tags: defining,declaratively
 published: True

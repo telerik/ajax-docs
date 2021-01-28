@@ -1,7 +1,7 @@
 ---
 title: BarOverLapPercent and BarWidthPercent
-page_title: BarOverLapPercent and BarWidthPercent | RadChart for ASP.NET AJAX Documentation
-description: BarOverLapPercent and BarWidthPercent
+page_title: BarOverLapPercent and BarWidthPercent - RadChart
+description: Check our Web Forms article about BarOverLapPercent and BarWidthPercent.
 slug: chart/understanding-radchart-elements/baroverlappercent-and-barwidthpercent
 tags: baroverlappercent,and,barwidthpercent
 published: True

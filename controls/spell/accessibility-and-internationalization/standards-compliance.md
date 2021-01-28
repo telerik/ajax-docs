@@ -1,7 +1,7 @@
 ---
 title: Standards Compliance
-page_title: Standards Compliance | RadSpell for ASP.NET AJAX Documentation
-description: Standards Compliance
+page_title: Standards Compliance - RadSpell
+description: Check our Web Forms article about Standards Compliance.
 slug: spell/accessibility-and-internationalization/standards-compliance
 tags: standards,compliance
 published: True

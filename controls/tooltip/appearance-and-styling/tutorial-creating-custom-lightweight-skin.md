@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Creating a Custom Lightweight Skin
-page_title: Tutorial  Creating a Custom Lightweight Skin | RadTooltip for ASP.NET AJAX Documentation
-description: Tutorial for Creating a Custom Lightweight Skin for RadTooltip
+page_title: Tutorial Creating a Custom Lightweight Skin - RadTooltip
+description: Check our Web Forms article about Tutorial for Creating a Custom Lightweight Skin for RadTooltip.
 slug: tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin
 tags: tooltip, custom, lightweight, skin, tutorial
 published: True

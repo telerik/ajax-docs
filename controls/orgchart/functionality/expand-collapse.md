@@ -1,7 +1,7 @@
 ---
 title: Expand/Collapse
-page_title: Expand/Collapse | RadOrgChart for ASP.NET AJAX Documentation
-description: Expand/Collapse
+page_title: Expand/Collapse - RadOrgChart
+description: Check our Web Forms article about Expand/Collapse.
 slug: orgchart/functionality/expand-collapse
 previous_url: orgchart/functionality/collapse
 tags: expand/collapse

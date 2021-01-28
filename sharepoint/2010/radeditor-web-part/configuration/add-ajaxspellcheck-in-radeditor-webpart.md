@@ -1,7 +1,7 @@
 ---
 title: Add AjaxSpellCheck in RadEditor WebPart
-page_title: Add AjaxSpellCheck in RadEditor WebPart | UI for ASP.NET AJAX Documentation
-description: Add AjaxSpellCheck in RadEditor WebPart
+page_title: Add AjaxSpellCheck in RadEditor WebPart
+description: Check our Web Forms article about Add AjaxSpellCheck in RadEditor WebPart.
 slug: sharepoint/2010/radeditor-web-part/configuration/add-ajaxspellcheck-in-radeditor-webpart
 tags: add,ajaxspellcheck,in,radeditor,webpart
 published: True

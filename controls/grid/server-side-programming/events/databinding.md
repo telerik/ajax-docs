@@ -1,7 +1,7 @@
 ---
 title: DataBinding
-page_title: DataBinding Server Event - RadGrid | UI for ASP.NET AJAX
-description: DataBinding Server Event
+page_title: DataBinding Server Event - RadGrid
+description: Check our Web Forms article about DataBinding Server Event.
 slug: grid/server-side-programming/events/databinding
 published: True
 position: 50

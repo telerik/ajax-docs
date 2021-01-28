@@ -1,7 +1,7 @@
 ---
 title: OnRowDeselecting
-page_title: OnRowDeselecting | RadGrid for ASP.NET AJAX Documentation
-description: OnRowDeselecting
+page_title: OnRowDeselecting - RadGrid
+description: Check our Web Forms article about OnRowDeselecting.
 slug: grid/client-side-programming/events/onrowdeselecting
 tags: onrowdeselecting
 published: True

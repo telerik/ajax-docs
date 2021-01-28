@@ -1,7 +1,7 @@
 ---
 title: swapColumns
-page_title: swapColumns | RadGrid for ASP.NET AJAX Documentation
-description: swapColumns
+page_title: swapColumns - RadGrid
+description: Check our Web Forms article about swapColumns.
 slug: grid/client-side-programming/gridtableview-object/methods/swapcolumns
 tags: swapcolumns
 published: True

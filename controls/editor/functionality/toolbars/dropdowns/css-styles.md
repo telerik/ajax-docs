@@ -1,7 +1,7 @@
 ---
 title: CSS Styles
-page_title: CSS Styles | RadEditor for ASP.NET AJAX Documentation
-description: CSS Styles
+page_title: CSS Styles - RadEditor
+description: Check our Web Forms article about CSS Styles.
 slug: editor/functionality/toolbars/dropdowns/css-styles
 tags: css,styles
 published: True

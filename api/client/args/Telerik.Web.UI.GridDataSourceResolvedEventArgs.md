@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridDataSourceResolvedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridDataSourceResolvedEventArgs
 slug: Telerik.Web.UI.GridDataSourceResolvedEventArgs
 ---

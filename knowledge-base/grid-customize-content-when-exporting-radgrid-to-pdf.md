@@ -2,7 +2,7 @@
 title: Customize content when Exporting RadGrid to PDF
 description: Example of using the Document Processing Libraries to customize the content when exporting RadGrid to PDF.
 type: how-to
-page_title: Export To PDF Customize Content - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: Export To PDF Customize Content - RadGrid
 slug: grid-customize-content-when-exporting-radgrid-to-pdf
 position: 
 tags: 

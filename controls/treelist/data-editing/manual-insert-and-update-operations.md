@@ -1,7 +1,7 @@
 ---
 title: Manual Insert and Update Operations
-page_title: Manual Insert and Update Operations | RadTreeList for ASP.NET AJAX Documentation
-description: Manual Insert and Update Operations
+page_title: Manual Insert and Update Operations - RadTreeList
+description: Check our Web Forms article about Manual Insert and Update Operations.
 slug: treelist/data-editing/manual-insert-and-update-operations
 tags: manual,insert/update,operations
 published: True

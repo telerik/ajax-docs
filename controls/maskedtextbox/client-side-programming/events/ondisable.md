@@ -1,7 +1,7 @@
 ---
 title: OnDisable
-page_title: OnDisable | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnDisable
+page_title: OnDisable - RadMaksedTextBox
+description: Check our Web Forms article about OnDisable.
 slug: radmaskedtextbox/client-side-programming/events/ondisable
 tags: ondisable
 published: True

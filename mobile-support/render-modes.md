@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | UI for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes
+description: Check our Web Forms article about Render Modes.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes
 tags: render,modes
 published: True

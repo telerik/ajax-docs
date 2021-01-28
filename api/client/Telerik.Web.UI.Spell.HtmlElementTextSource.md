@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Spell.HtmlElementTextSource
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Spell.HtmlElementTextSource
 slug: Telerik.Web.UI.Spell.HtmlElementTextSource
 ---

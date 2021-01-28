@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadClientDataSource for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadClientDataSource
+description: Check our Web Forms article about Getting Started.
 slug: clientdatasource/getting-started
 tags: getting,started
 published: True

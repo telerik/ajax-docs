@@ -1,7 +1,7 @@
 ---
 title: Configuring the Embedded Time View
-page_title: Configuring the Embedded Time View | RadDateTimePicker for ASP.NET AJAX Documentation
-description: Configuring the Embedded Time View
+page_title: Configuring the Embedded Time View - RadDateTimePicker
+description: Check our Web Forms article about Configuring the Embedded Time View.
 slug: datetimepicker/functionality/configuring-the-embedded-time-view
 tags: configuring,the,embedded,time,view
 published: True

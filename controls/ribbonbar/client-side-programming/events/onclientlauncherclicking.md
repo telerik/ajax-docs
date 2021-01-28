@@ -1,7 +1,7 @@
 ---
 title: OnClientLauncherClicking
-page_title: OnClientLauncherClicking | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientLauncherClicking
+page_title: OnClientLauncherClicking - RadRibbonBar
+description: Check our Web Forms article about OnClientLauncherClicking.
 slug: ribbonbar/client-side-programming/events/onclientlauncherclicking
 tags: onclientlauncherclicking
 published: True

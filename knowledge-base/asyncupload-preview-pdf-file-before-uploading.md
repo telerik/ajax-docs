@@ -1,8 +1,8 @@
 ---
 title: Preview PDF files before uploading with RadAsyncUpload
-description: Use PDF.js library to preview PDF files before uploading with RadAsyncUpload
+description: Use PDF.js library to preview PDF files before uploading with RadAsyncUpload.
 type: how-to
-page_title: Use PDF.js library to preview PDF files before uploading with RadAsyncUpload | Telerik UI for ASP.NET AJAX
+page_title: Use PDF.js library to preview PDF files before uploading with RadAsyncUpload
 slug: asyncupload-preview-pdf-file-before-uploading
 position: 
 tags: 

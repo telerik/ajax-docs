@@ -1,7 +1,7 @@
 ---
 title: Column Settings
-page_title: Column Settings | RadGrid for ASP.NET AJAX Documentation
-description: Column Settings
+page_title: Column Settings - RadGrid
+description: Check our Web Forms article about Column Settings.
 slug: grid/mobile-support/mobile-rendering/column-settings
 tags: column,settings
 published: True

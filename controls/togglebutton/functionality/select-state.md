@@ -1,7 +1,7 @@
 ---
 title: Select State
-page_title: Select State | RadToggleButton for ASP.NET AJAX Documentation
-description: Select State
+page_title: Select State - RadToggleButton
+description: Check our Web Forms article about Select State.
 slug: togglebutton/functionality/select-state
 tags: select,state
 published: True

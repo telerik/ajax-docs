@@ -1,7 +1,7 @@
 ---
 title: RadEditor Object
-page_title: RadEditor Object | RadEditor for ASP.NET AJAX Documentation
-description: RadEditor Object
+page_title: RadEditor Object - RadEditor
+description: Check our Web Forms article about RadEditor Object.
 slug: editor/client-side-programming/radeditor-object
 tags: radeditor,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Nodes and Items
-page_title: Nodes and Items | RadOrgChart for ASP.NET AJAX Documentation
-description: Nodes and Items
+page_title: Nodes and Items - RadOrgChart
+description: Check our Web Forms article about Nodes and Items.
 slug: orgchart/overview/nodes-and-items
 tags: nodes,and,items
 published: True

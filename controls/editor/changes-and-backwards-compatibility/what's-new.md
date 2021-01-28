@@ -1,7 +1,7 @@
 ---
 title: What's New
-page_title: What's New | RadEditor for ASP.NET AJAX Documentation
-description: What's New
+page_title: What's New - RadEditor
+description: Check our Web Forms article about What's New.
 slug: editor/changes-and-backwards-compatibility/what's-new
 tags: what's,new
 published: False

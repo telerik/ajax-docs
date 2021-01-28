@@ -1,7 +1,7 @@
 ---
 title: SvgExporting
-page_title: SvgExporting | RadClientExportManager for ASP.NET AJAX Documentation
-description: SvgExporting
+page_title: SvgExporting - RadClientExportManager
+description: Check our Web Forms article about SvgExporting.
 slug: clientexportmanager/client-side-programming/events/svgexporting
 tags: svgexporting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Expand Only One Node per Level
-page_title: Expand Only One Node per Level | RadTreeView for ASP.NET AJAX Documentation
-description: Expand Only One Node per Level
+page_title: Expand Only One Node per Level - RadTreeView
+description: Check our Web Forms article about Expand Only One Node per Level.
 slug: treeview/application-scenarios/client-side-programming/expand-only-one-node-per-level
 tags: expand,only,one,node,per,level
 published: True

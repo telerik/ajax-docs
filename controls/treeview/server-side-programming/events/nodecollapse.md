@@ -1,7 +1,7 @@
 ---
 title: NodeCollapse
-page_title: NodeCollapse | RadTreeView for ASP.NET AJAX Documentation
-description: NodeCollapse
+page_title: NodeCollapse - RadTreeView
+description: Check our Web Forms article about NodeCollapse.
 slug: treeview/server-side-programming/events/nodecollapse
 tags: nodecollapse
 published: True

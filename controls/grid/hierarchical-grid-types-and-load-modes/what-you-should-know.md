@@ -1,7 +1,7 @@
 ---
 title: What you should know
-page_title: What you should know | RadGrid for ASP.NET AJAX Documentation
-description: What you should know
+page_title: What you should know - RadGrid
+description: Check our Web Forms article about What you should know.
 slug: grid/hierarchical-grid-types-and-load-modes/what-you-should-know
 tags: what,you,should,know
 published: True

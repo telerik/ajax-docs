@@ -1,7 +1,7 @@
 ---
 title: Customize Tile Size in TileList
-page_title: Customize Tile Size in TileList | RadTileList for ASP.NET AJAX Documentation
-description: Customize Tile Size in TileList
+page_title: Customize Tile Size in TileList - RadTileList
+description: Check our Web Forms article about Customize Tile Size in TileList.
 slug: tilelist/how-to/save-and-load-state
 tags: custom, tile, size, dimension, wide, square, tilelist
 published: True

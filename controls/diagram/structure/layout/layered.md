@@ -1,7 +1,7 @@
 ---
 title: Layered
-page_title: Layered | RadDiagram for ASP.NET AJAX Documentation
-description: Layered
+page_title: Layered - RadDiagram
+description: Check our Web Forms article about Layered.
 slug: diagram/structure/layout/layered
 tags: layered
 published: True

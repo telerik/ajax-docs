@@ -1,7 +1,7 @@
 ---
 title: Scroll RadGrid to Specific item
-page_title: Scroll RadGrid to Specific item | RadGrid for ASP.NET AJAX Documentation
-description: Scroll RadGrid to Specific item
+page_title: Scroll RadGrid to Specific item - RadGrid
+description: Check our Web Forms article about Scroll RadGrid to Specific item.
 slug: grid/how-to/scrolling/scroll-to-item
 tags: scroll,grid,to,specific,item
 published: True

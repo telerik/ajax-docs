@@ -1,7 +1,7 @@
 ---
 title: OnMoveDown
-page_title: OnMoveDown | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnMoveDown
+page_title: OnMoveDown - RadMaksedTextBox
+description: Check our Web Forms article about OnMoveDown.
 slug: radmaskedtextbox/client-side-programming/events/onmovedown
 tags: onmovedown
 published: True

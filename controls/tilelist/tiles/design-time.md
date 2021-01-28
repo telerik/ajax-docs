@@ -1,7 +1,7 @@
 ---
 title: Design-time
-page_title: Design-time | RadTile for ASP.NET AJAX Documentation
-description: Design-time
+page_title: Design-time - RadTile
+description: Check our Web Forms article about Design-time.
 slug: tilelist/tiles/design-time
 tags: design-time
 published: True

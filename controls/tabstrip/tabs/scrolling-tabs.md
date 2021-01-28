@@ -1,7 +1,7 @@
 ---
 title: Scrolling Tabs
-page_title: Scrolling Tabs | RadTabStrip for ASP.NET AJAX Documentation
-description: Scrolling Tabs
+page_title: Scrolling Tabs - RadTabStrip
+description: Check our Web Forms article about Scrolling Tabs.
 slug: tabstrip/tabs/scrolling-tabs
 tags: scrolling,tabs
 published: True

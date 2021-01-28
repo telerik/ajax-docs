@@ -1,7 +1,7 @@
 ---
 title: Binding to Web Service or Wcf Service
-page_title: Binding to Web Service or Wcf Service | RadTagCloud for ASP.NET AJAX Documentation
-description: Binding to Web Service or Wcf Service
+page_title: Binding to Web Service or Wcf Service - RadTagCloud
+description: Check our Web Forms article about Binding to Web Service or Wcf Service.
 slug: tagcloud/data-binding/binding-to-web-service-or-wcf-service
 tags: binding,to,web,service,or,wcf,service
 published: True

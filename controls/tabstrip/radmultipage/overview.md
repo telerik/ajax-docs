@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadMultiPage Overview | RadTabStrip for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadMultiPage Overview - RadTabStrip
+description: Check our Web Forms article about Overview.
 slug: tabstrip/radmultipage/overview
 tags: overview
 published: True

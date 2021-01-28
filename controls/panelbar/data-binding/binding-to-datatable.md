@@ -1,7 +1,7 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | RadPanelBar for ASP.NET AJAX Documentation
-description: Binding to DataTable
+page_title: Binding to DataTable - RadPanelBar
+description: Check our Web Forms article about Binding to DataTable.
 slug: panelbar/data-binding/binding-to-datatable
 tags: binding,to,datatable
 published: True

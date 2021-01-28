@@ -1,7 +1,7 @@
 ---
 title: Changing the Strings in the User Interface
-page_title: Changing the Strings in the User Interface | RadSplitter for ASP.NET AJAX Documentation
-description: Changing the Strings in the User Interface
+page_title: Changing the Strings in the User Interface - RadSplitter
+description: Check our Web Forms article about Changing the Strings in the User Interface.
 slug: splitter/accessibility-and-internationalization/changing-the-strings-in-the-user-interface
 tags: changing,the,strings,in,the,user,interface
 published: True

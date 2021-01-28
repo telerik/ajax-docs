@@ -1,7 +1,7 @@
 ---
 title: OnItemContextMenu
-page_title: OnItemContextMenu | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemContextMenu Event
+page_title: OnItemContextMenu - RadTreeList
+description: Check our Web Forms article about OnItemContextMenu Event.
 slug: treelist/client-side-programming/Events/OnItemContextMenu
 tags: events,OnItemContextMenu
 published: True

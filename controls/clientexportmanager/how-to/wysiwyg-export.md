@@ -1,7 +1,7 @@
 ---
 title: WYSIWYG Export
-page_title: WYSIWYG Export | RadClientExportManager for ASP.NET AJAX Documentation
-description: WYSIWYG Export
+page_title: WYSIWYG Export - RadClientExportManager
+description: Check our Web Forms article about WYSIWYG Export.
 slug: clientexportmanager/how-to/wysiwyg-export
 tags: wysiwyg,export
 published: True

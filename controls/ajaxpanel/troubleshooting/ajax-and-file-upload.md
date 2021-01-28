@@ -1,7 +1,7 @@
 ---
 title: AJAX And File Upload
-page_title: AJAX And File Upload | RadAjax for ASP.NET AJAX Documentation
-description: AJAX And File Upload
+page_title: AJAX And File Upload
+description: Check our Web Forms article about AJAX And File Upload.
 slug: ajaxpanel/troubleshooting/ajax-and-file-upload
 tags: ajax,and,file,upload
 published: True

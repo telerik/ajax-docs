@@ -1,7 +1,7 @@
 ---
 title: Styling Chart Elements
-page_title: Styling Chart Elements | RadChart for ASP.NET AJAX Documentation
-description: Styling Chart Elements
+page_title: Styling Chart Elements - RadChart
+description: Check our Web Forms article about Styling Chart Elements.
 slug: chart/styling-radcharts/styling-chart-elements
 tags: styling,chart,elements
 published: True

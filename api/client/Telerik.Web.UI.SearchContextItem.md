@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SearchContextItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SearchContextItem
 slug: Telerik.Web.UI.SearchContextItem
 ---

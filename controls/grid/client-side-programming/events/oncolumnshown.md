@@ -1,7 +1,7 @@
 ---
 title: OnColumnShown
-page_title: OnColumnShown | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnShown
+page_title: OnColumnShown - RadGrid
+description: Check our Web Forms article about OnColumnShown.
 slug: grid/client-side-programming/events/oncolumnshown
 tags: oncolumnshown
 published: True

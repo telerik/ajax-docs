@@ -1,7 +1,7 @@
 ---
 title: Creating a Simple Context Menu
-page_title: Creating a Simple Context Menu | RadMenu for ASP.NET AJAX Documentation
-description: Creating a Simple Context Menu
+page_title: Creating a Simple Context Menu - RadMenu
+description: Check our Web Forms article about Creating a Simple Context Menu.
 slug: menu/getting-started/creating-a-simple-context-menu
 tags: creating,a,simple,context,menu
 published: True

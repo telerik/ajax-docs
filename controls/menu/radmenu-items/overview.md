@@ -1,7 +1,7 @@
 ---
 title: RadMenu Items Overview
-page_title: Overview | RadMenu for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadMenu
+description: Check our Web Forms article about Overview.
 slug: menu/radmenu-items/overview
 tags: overview
 published: True

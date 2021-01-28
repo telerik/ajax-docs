@@ -1,7 +1,7 @@
 ---
 title: Handling FormCreated
-page_title: Handling FormCreated | RadScheduler for ASP.NET AJAX Documentation
-description: Handling FormCreated
+page_title: Handling FormCreated - RadScheduler
+description: Check our Web Forms article about Handling FormCreated.
 slug: scheduler/customizing-the-advanced-form/handling-formcreated
 tags: handling,formcreated
 published: True

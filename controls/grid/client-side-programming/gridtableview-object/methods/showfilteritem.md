@@ -1,7 +1,7 @@
 ---
 title: showFilterItem
-page_title: showFilterItem | RadGrid for ASP.NET AJAX Documentation
-description: showFilterItem
+page_title: showFilterItem - RadGrid
+description: Check our Web Forms article about showFilterItem.
 slug: grid/client-side-programming/gridtableview-object/methods/showfilteritem
 tags: showfilteritem
 published: True

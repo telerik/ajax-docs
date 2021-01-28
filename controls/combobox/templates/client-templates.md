@@ -1,7 +1,7 @@
 ---
 title: Client Templates
-page_title: Client Templates | RadComboBox for ASP.NET AJAX Documentation
-description: Client Templates
+page_title: Client Templates - RadComboBox
+description: Check our Web Forms article about Client Templates.
 slug: combobox/templates/client-templates
 tags: client,templates
 published: True

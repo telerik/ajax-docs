@@ -1,7 +1,7 @@
 ---
 title: OnRowDragging
-page_title: OnRowDragging | RadGrid for ASP.NET AJAX Documentation
-description: OnRowDragging
+page_title: OnRowDragging - RadGrid
+description: Check our Web Forms article about OnRowDragging.
 slug: grid/client-side-programming/events/onrowdragging
 tags: onrowdragging
 published: True

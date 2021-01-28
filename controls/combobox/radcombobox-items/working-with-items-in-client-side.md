@@ -1,7 +1,7 @@
 ---
 title: Working with Items in Client-Side
-page_title: Working with Items in Client-Side | RadComboBox for ASP.NET AJAX Documentation
-description: Working with Items in Client-Side
+page_title: Working with Items in Client-Side - RadComboBox
+description: Check our Web Forms article about Working with Items in Client-Side.
 slug: combobox/radcombobox-items/working-with-items-in-client-side
 tags: working,with,items,in,client-side
 published: True

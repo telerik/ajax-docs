@@ -1,7 +1,7 @@
 ---
 title: OnColumnDestroying
-page_title: OnColumnDestroying | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnDestroying
+page_title: OnColumnDestroying - RadGrid
+description: Check our Web Forms article about OnColumnDestroying.
 slug: grid/client-side-programming/events/oncolumndestroying
 tags: oncolumndestroying
 published: True

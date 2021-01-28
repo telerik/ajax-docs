@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentDoubleClick
-page_title: OnClientAppointmentDoubleClick | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentDoubleClick
+page_title: OnClientAppointmentDoubleClick - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentDoubleClick.
 slug: scheduler/client-side-programming/events/onclientappointmentdoubleclick
 tags: onclientappointmentdoubleclick
 published: True

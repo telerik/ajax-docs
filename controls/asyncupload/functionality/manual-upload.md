@@ -1,7 +1,7 @@
 ---
 title: Manual Upload
-page_title: Manual Upload | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Manual Upload
+page_title: Manual Upload - RadAsyncUpload
+description: Check our Web Forms article about Manual Upload.
 slug: asyncupload/functionality/manual-upload
 tags: manual,upload
 published: True

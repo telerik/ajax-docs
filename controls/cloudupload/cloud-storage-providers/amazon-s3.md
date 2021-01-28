@@ -1,7 +1,7 @@
 ---
 title: Amazon S3
-page_title: Amazon S3 | RadCloudUpload for ASP.NET AJAX Documentation
-description: Amazon S3
+page_title: Amazon S3 - RadCloudUpload
+description: Check our Web Forms article about Amazon S3.
 slug: cloudupload/cloud-storage-providers/amazon-s3
 tags: amazon,s3
 published: True

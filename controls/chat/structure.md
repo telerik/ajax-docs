@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure Overview | RadChat for ASP.NET AJAX Documentation
-description: Structure Overview
+page_title: Structure Overview - RadChat
+description: Check our Web Forms article about Structure Overview.
 slug: chat/structure
 tags: structure
 published: True

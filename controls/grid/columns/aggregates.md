@@ -1,7 +1,7 @@
 ---
 title: Aggregates
-page_title: Aggregates | RadGrid for ASP.NET AJAX Documentation
-description: Aggregates
+page_title: Aggregates - RadGrid
+description: Check our Web Forms article about Aggregates.
 slug: grid/columns/aggregates
 tags: aggregates
 published: True

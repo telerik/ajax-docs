@@ -1,7 +1,7 @@
 ---
 title: Making a Grid Row Selected at All Times
-page_title: Making a Grid Row Selected at All Times | RadGrid for ASP.NET AJAX Documentation
-description: Making a Grid Row Selected at All Times
+page_title: Making a Grid Row Selected at All Times - RadGrid
+description: Check our Web Forms article about Making a Grid Row Selected at All Times.
 slug: grid/how-to/selecting/making-a-grid-row-selected-at-all-times
 previous_url: controls/grid/functionality/selecting/how-to/making-a-grid-row-selected-at-all-times
 tags: selecting

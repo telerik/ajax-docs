@@ -1,7 +1,7 @@
 ---
 title: Displaying External Content
-page_title: Displaying External Content | RadSplitter for ASP.NET AJAX Documentation
-description: Displaying External Content
+page_title: Displaying External Content - RadSplitter
+description: Check our Web Forms article about Displaying External Content.
 slug: splitter/panes/displaying-external-content
 tags: displaying,external,content
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Primary Action Button
-page_title: Primary Action Button | RadFormDecorator for ASP.NET AJAX Documentation
-description: Primary Action Button
+page_title: Primary Action Button - RadFormDecorator
+description: Check our Web Forms article about Primary Action Button.
 slug: formdecorator/appearance-and-styling/primary-action-button
 tags: primary,action,button
 published: True

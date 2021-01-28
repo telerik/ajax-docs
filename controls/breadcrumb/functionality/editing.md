@@ -1,7 +1,7 @@
 ---
 title: Editing
-page_title: Editing  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Editing 
+page_title: Editing - RadBreadcrumb
+description: Check our Web Forms article about Editing.
 slug: breadcrumb/functionality/editing
 tags: editing
 published: True

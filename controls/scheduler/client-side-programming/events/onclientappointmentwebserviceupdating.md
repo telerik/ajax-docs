@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentWebServiceUpdating
-page_title: OnClientAppointmentWebServiceUpdating | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentWebServiceUpdating
+page_title: OnClientAppointmentWebServiceUpdating - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentWebServiceUpdating.
 slug: scheduler/client-side-programming/events/onclientappointmentwebserviceupdating
 tags: onclientappointmentwebserviceupdating
 published: True

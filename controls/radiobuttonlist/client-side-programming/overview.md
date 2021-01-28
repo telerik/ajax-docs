@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadRadioButtonList
+description: Check our Web Forms article about Overview.
 slug: radiobuttonlist/client-side-programming/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Wrong RadWindow Is Opened
-page_title: Wrong RadWindow Is Opened | RadWindow for ASP.NET AJAX Documentation
-description: Wrong RadWindow Is Opened
+page_title: Wrong RadWindow Is Opened - RadWindow
+description: Check our Web Forms article about Wrong RadWindow Is Opened.
 slug: window/troubleshooting/wrong-radwindow-is-opened
 tags: wrong,radwindow,is,opened
 published: True

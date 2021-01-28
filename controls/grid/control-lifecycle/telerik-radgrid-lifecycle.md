@@ -1,7 +1,7 @@
 ---
 title: Telerik RadGrid lifecycle
-page_title: Telerik RadGrid lifecycle | RadGrid for ASP.NET AJAX Documentation
-description: Telerik RadGrid lifecycle
+page_title: Telerik RadGrid lifecycle - RadGrid
+description: Check our Web Forms article about Telerik RadGrid lifecycle.
 slug: grid/control-lifecycle/telerik-radgrid-lifecycle
 tags: telerik,radgrid,lifecycle
 published: True

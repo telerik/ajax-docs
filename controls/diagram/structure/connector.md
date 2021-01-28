@@ -1,7 +1,7 @@
 ---
 title: Connector
-page_title: Connector | UI for ASP.NET AJAX Documentation
-description: Connector
+page_title: Connector
+description: Check our Web Forms article about Connector.
 slug: diagram/structure/connector
 tags: connector
 published: True

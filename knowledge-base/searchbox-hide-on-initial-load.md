@@ -1,6 +1,6 @@
 ---
 title: Hide SearchBox on Initial Load
-description: This article demonstrates how you can hide RadSearchBox initially and then show it
+description: This article demonstrates how you can hide RadSearchBox initially and then show it.
 type: how-to
 page_title: How to hide RadSearchBox initially?
 slug: searchbox-hide-on-initial-load

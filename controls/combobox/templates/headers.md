@@ -1,7 +1,7 @@
 ---
 title: Headers
-page_title: Headers | RadComboBox for ASP.NET AJAX Documentation
-description: Headers
+page_title: Headers - RadComboBox
+description: Check our Web Forms article about Headers.
 slug: combobox/templates/headers
 tags: headers
 published: True

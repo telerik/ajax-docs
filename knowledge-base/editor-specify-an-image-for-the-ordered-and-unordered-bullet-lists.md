@@ -1,6 +1,6 @@
 ---
 title: Specify an image for the ordered and unordered lists
-description: The article explains how to configure the bullet and numbered lists to use a custom image for the marker
+description: The article explains how to configure the bullet and numbered lists to use a custom image for the marker.
 type: how-to
 page_title: Is it possible to have a bullet and numbered lists with image markers?
 slug: editor-specify-an-image-for-the-ordered-and-unordered-bullet-lists

@@ -1,7 +1,7 @@
 ---
 title: Design-time
-page_title: Design-time | RadSearchBox for ASP.NET AJAX Documentation
-description: Design-time
+page_title: Design-time - RadSearchBox
+description: Check our Web Forms article about Design-time.
 slug: searchbox/design-time
 tags: design-time
 published: true

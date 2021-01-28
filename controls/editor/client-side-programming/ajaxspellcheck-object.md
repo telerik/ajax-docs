@@ -1,7 +1,7 @@
 ---
 title: AjaxSpellCheck Object
-page_title: AjaxSpellCheck Object | RadEditor for ASP.NET AJAX Documentation
-description: AjaxSpellCheck Object
+page_title: AjaxSpellCheck Object - RadEditor
+description: Check our Web Forms article about AjaxSpellCheck Object.
 slug: editor/client-side-programming/ajaxspellcheck-object
 tags: ajaxspellcheck,object
 published: True

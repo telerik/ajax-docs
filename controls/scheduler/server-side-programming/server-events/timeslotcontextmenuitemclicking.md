@@ -1,7 +1,7 @@
 ---
 title: TimeSlotContextMenuItemClicking
-page_title: TimeSlotContextMenuItemClicking | RadScheduler for ASP.NET AJAX Documentation
-description: TimeSlotContextMenuItemClicking
+page_title: TimeSlotContextMenuItemClicking - RadScheduler
+description: Check our Web Forms article about TimeSlotContextMenuItemClicking.
 slug: scheduler/server-side-programming/server-events/timeslotcontextmenuitemclicking
 tags: timeslotcontextmenuitemclicking
 published: True

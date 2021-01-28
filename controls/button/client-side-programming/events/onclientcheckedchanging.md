@@ -1,7 +1,7 @@
 ---
 title: OnClientCheckedChanging
-page_title: OnClientCheckedChanging | RadButton for ASP.NET AJAX Documentation
-description: OnClientCheckedChanging
+page_title: OnClientCheckedChanging - RadButton
+description: Check our Web Forms article about OnClientCheckedChanging.
 slug: button/client-side-programming/events/onclientcheckedchanging
 tags: onclientcheckedchanging
 published: True

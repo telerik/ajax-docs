@@ -1,7 +1,7 @@
 ---
 title: RadDrawer Object
-page_title: RadDrawer Object | RadDrawer for ASP.NET AJAX Documentation
-description: RadDrawer Object
+page_title: RadDrawer Object - RadDrawer
+description: Check our Web Forms article about RadDrawer Object.
 slug: drawer/client-side-programming/overview
 tags: drawer,object
 published: True

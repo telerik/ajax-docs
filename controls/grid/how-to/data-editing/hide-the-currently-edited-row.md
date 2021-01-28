@@ -1,7 +1,7 @@
 ---
 title: Hide the Currently Edited Row
-page_title: Hide the Currently Edited Row | RadGrid for ASP.NET AJAX Documentation
-description: Hide the Currently Edited Row
+page_title: Hide the Currently Edited Row - RadGrid
+description: Check our Web Forms article about Hide the Currently Edited Row.
 slug: grid/how-to/data-editing/hide-the-currently-edited-row
 previous_url: controls/grid/data-editing/how-to/hide-the-currently-edited-row
 tags: hide,the,currently,edited,row

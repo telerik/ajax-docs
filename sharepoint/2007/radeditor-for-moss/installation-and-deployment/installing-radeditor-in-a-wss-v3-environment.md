@@ -1,7 +1,7 @@
 ---
 title: Installing RadEditor in a WSS v3 environment
-page_title: Installing RadEditor in a WSS v3 environment | UI for ASP.NET AJAX Documentation
-description: Installing RadEditor in a WSS v3 environment
+page_title: Installing RadEditor in a WSS v3 environment
+description: Check our Web Forms article about Installing RadEditor in a WSS v3 environment.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-wss-v3-environment
 tags: installing,radeditor,in,a,wss,v3,environment
 published: True

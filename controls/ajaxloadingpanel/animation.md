@@ -1,7 +1,7 @@
 ---
 title: Animation
-page_title: RadAjaxLoadingPanel Animation | RadAjax for ASP.NET AJAX Documentation
-description: Animation
+page_title: RadAjaxLoadingPanel Animation
+description: Check our Web Forms article about Animation.
 slug: ajaxloadingpanel/animation
 previous_url: ajax/radajaxloadingpanel/animation
 tags: animation

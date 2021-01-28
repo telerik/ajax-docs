@@ -1,7 +1,7 @@
 ---
 title: Paste at the Cursor Position
-page_title:  Paste at the Cursor Position | RadEditor for ASP.NET AJAX Documentation
-description: paste content programmatically at the cursor position
+page_title: Paste at the Cursor Position - RadEditor
+description: Check our Web Forms article about paste content programmatically at the cursor position.
 slug: editor/how-to/paste-at-cursor-position
 tags: paste,programmatically,at,the,cursor,position
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientFilesDropping
-page_title: OnClientFilesDropping | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientFilesDropping
+page_title: OnClientFilesDropping - RadFileExplorer
+description: Check our Web Forms article about OnClientFilesDropping.
 slug: fileexplorer/client-side-programming/events/onclientfilesdropping
 tags: onclientfilesdropping
 published: True

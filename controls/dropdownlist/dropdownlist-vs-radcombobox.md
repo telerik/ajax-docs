@@ -1,7 +1,7 @@
 ---
 title: DropDownList vs RadComboBox
-page_title: DropDownList vs RadComboBox | UI for ASP.NET AJAX Documentation
-description: DropDownList vs RadComboBox
+page_title: DropDownList vs RadComboBox
+description: Check our Web Forms article about DropDownList vs RadComboBox.
 slug: dropdownlist/dropdownlist-vs-radcombobox
 tags: dropdownlist,vs,radcombobox
 published: True

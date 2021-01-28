@@ -1,7 +1,7 @@
 ---
 title: Tutorial on Creating a Custom Skin
-page_title: Tutorial on Creating a Custom Skin | RadTreeView for ASP.NET AJAX Documentation
-description: Tutorial on Creating a Custom Skin
+page_title: Tutorial on Creating a Custom Skin - RadTreeView
+description: Check our Web Forms article about Tutorial on Creating a Custom Skin.
 slug: treeview/appearance-and-styling/tutorial-on-creating-a-custom-skin
 tags: tutorial,on,creating,a,custom,skin
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Toggle button
-page_title: Toggle button | RadButton for ASP.NET AJAX Documentation
-description: Toggle button
+page_title: Toggle button - RadButton
+description: Check our Web Forms article about Toggle button.
 slug: button/button-types/toggle-button
 tags: toggle,button
 published: True

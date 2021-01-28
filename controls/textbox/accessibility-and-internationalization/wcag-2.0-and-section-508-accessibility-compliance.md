@@ -1,7 +1,7 @@
 ---
 title: WCAG 2.0 and Section 508 Accessibility Compliance
-page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadTextBox for ASP.NET AJAX Documentation
-description: WCAG 2.0 and Section 508 Accessibility Compliance
+page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadTextBox
+description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: radtextbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True

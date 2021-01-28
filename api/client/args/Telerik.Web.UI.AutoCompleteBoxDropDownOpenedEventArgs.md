@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AutoCompleteBoxDropDownOpenedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AutoCompleteBoxDropDownOpenedEventArgs
 slug: Telerik.Web.UI.AutoCompleteBoxDropDownOpenedEventArgs
 ---

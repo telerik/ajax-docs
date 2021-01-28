@@ -1,7 +1,7 @@
 ---
 title: ItemClick Event Does Not Fire
-page_title: ItemClick Event Does Not Fire | RadMenu for ASP.NET AJAX Documentation
-description: ItemClick Event Does Not Fire
+page_title: ItemClick Event Does Not Fire - RadMenu
+description: Check our Web Forms article about ItemClick Event Does Not Fire.
 slug: menu/troubleshooting/itemclick-event-does-not-fire
 tags: itemclick,event,does,not,fire
 published: True

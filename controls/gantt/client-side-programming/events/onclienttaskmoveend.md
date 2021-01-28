@@ -1,7 +1,7 @@
 ---
 title: OnClientTaskMoveEnd
-page_title: OnClientTaskMoveEnd | RadGantt for ASP.NET AJAX Documentation
-description: OnClientTaskMoveEnd
+page_title: OnClientTaskMoveEnd - RadGantt
+description: Check our Web Forms article about OnClientTaskMoveEnd.
 slug: gantt/client-side-programming/events/onclienttaskmoveend
 tags: onclienttaskmoveend
 published: True

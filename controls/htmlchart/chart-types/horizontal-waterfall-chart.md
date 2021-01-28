@@ -1,7 +1,7 @@
 ---
 title: Horizontal Waterfall Chart
-page_title: Horizontal Waterfall Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Horizontal Waterfall Chart
+page_title: Horizontal Waterfall Chart - RadHtmlChart
+description: Check our Web Forms article about Horizontal Waterfall Chart.
 slug: htmlchart/chart-types/horizontal-waterfall-chart
 tags: horizontal,waterfall,chart
 published: True

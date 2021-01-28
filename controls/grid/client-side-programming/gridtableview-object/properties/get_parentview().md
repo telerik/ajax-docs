@@ -1,7 +1,7 @@
 ---
 title: get_parentView()
-page_title: get_parentView() | RadGrid for ASP.NET AJAX Documentation
-description: get_parentView()
+page_title: get_parentView() - RadGrid
+description: Check our Web Forms article about get_parentView().
 slug: grid/client-side-programming/gridtableview-object/properties/get_parentview()
 tags: get_parentview()
 published: True

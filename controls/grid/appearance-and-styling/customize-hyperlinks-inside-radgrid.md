@@ -1,7 +1,7 @@
 ---
 title: Customize Hyperlinks inside RadGrid
-page_title: Customize Hyperlinks inside RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Customize Hyperlinks inside RadGrid
+page_title: Customize Hyperlinks inside RadGrid - RadGrid
+description: Check our Web Forms article about Customize Hyperlinks inside RadGrid.
 slug: grid/appearance-and-styling/customize-hyperlinks-inside-radgrid
 tags: customize,hyperlinks,inside,radgrid
 published: True

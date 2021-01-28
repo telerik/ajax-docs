@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadRotator for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadRotator
+description: Check our Web Forms article about OnClientLoad.
 slug: rotator/client-side-programming/events/onclientload
 tags: onclientload
 published: True

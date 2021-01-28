@@ -1,7 +1,7 @@
 ---
 title: Adding a Description Field
-page_title: Adding a Description Field | RadScheduler for ASP.NET AJAX Documentation
-description: Adding a Description Field
+page_title: Adding a Description Field - RadScheduler
+description: Check our Web Forms article about Adding a Description Field.
 slug: scheduler/data-binding/adding-a-description-field
 tags: adding,a,description,field
 published: True

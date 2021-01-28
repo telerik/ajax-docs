@@ -1,7 +1,7 @@
 ---
 title: Navigation
-page_title: Navigation  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Navigation 
+page_title: Navigation - RadBreadcrumb
+description: Check our Web Forms article about Navigation.
 slug: breadcrumb/functionality/navigation
 tags: navigation
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadToolTip
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadToolTip
 slug: Telerik.Web.UI.RadToolTip
 ---

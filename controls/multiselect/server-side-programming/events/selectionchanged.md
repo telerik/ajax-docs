@@ -1,7 +1,7 @@
 ---
 title: SelectionChanged
-page_title: SelectionChanged | RadMultiSelect for ASP.NET AJAX Documentation
-description: SelectionChanged
+page_title: SelectionChanged - RadMultiSelect
+description: Check our Web Forms article about SelectionChanged.
 slug: multiselect/server-side-programming/events/selectionchanged
 tags: selectionchanged
 published: True

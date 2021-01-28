@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadImageButton for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadImageButton
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: imagebutton/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

@@ -1,7 +1,7 @@
 ---
 title: End User Restriction
-page_title: End User Restriction | RadComboBox for ASP.NET AJAX Documentation
-description: End User Restriction
+page_title: End User Restriction - RadComboBox
+description: Check our Web Forms article about End User Restriction.
 slug: combobox/functionality/end-user-restriction
 tags: end,user,restriction
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Create a Custom Skin from an Existing One
-page_title: Create a Custom Skin from an Existing One | RadRotator for ASP.NET AJAX Documentation
-description: Create a Custom Skin from an Existing One
+page_title: Create a Custom Skin from an Existing One - RadRotator
+description: Check our Web Forms article about Create a Custom Skin from an Existing One.
 slug: rotator/appearance-and-styling/create-a-custom-skin-from-an-existing-one
 tags: create,a,custom,skin,from,an,existing,one
 published: True

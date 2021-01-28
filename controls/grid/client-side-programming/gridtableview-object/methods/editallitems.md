@@ -1,7 +1,7 @@
 ---
 title: editAllItems
-page_title: editAllItems | RadGrid for ASP.NET AJAX Documentation
-description: editAllItems
+page_title: editAllItems - RadGrid
+description: Check our Web Forms article about editAllItems.
 slug: grid/client-side-programming/gridtableview-object/methods/editallitems
 tags: editallitems
 published: True

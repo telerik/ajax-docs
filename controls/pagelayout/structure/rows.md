@@ -1,7 +1,7 @@
 ---
 title: Rows
-page_title: Rows | RadPageLayout for ASP.NET AJAX Documentation
-description: Rows
+page_title: Rows - RadPageLayout
+description: Check our Web Forms article about Rows.
 slug: pagelayout/structure/rows
 tags: rows
 published: True

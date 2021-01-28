@@ -1,7 +1,7 @@
 ---
 title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel
-page_title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel | RadAjax for ASP.NET AJAX Documentation
-description: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel
+page_title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel
+description: Check our Web Forms article about Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel.
 slug: ajaxmanager/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 previous_url: ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 tags: ajax-enable,a,scenario,through,radajaxmanager,and,radajaxloadingpanel

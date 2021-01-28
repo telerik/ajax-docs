@@ -1,7 +1,7 @@
 ---
 title: ToolBox Troubleshooting
-page_title: ToolBox Troubleshooting | UI for ASP.NET AJAX Documentation
-description: ToolBox Troubleshooting
+page_title: ToolBox Troubleshooting
+description: Check our Web Forms article about ToolBox Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/toolbox-troubleshooting
 tags: toolbox,troubleshooting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnEnable
-page_title: OnEnable | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnEnable
+page_title: OnEnable - RadMaksedTextBox
+description: Check our Web Forms article about OnEnable.
 slug: radmaskedtextbox/client-side-programming/events/onenable
 tags: onenable
 published: True

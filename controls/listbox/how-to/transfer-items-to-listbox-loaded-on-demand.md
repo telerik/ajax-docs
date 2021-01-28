@@ -1,7 +1,7 @@
 ---
 title: Transfer Items to ListBox Loaded on Demand
-page_title: Transfer Items to ListBox Loaded on Demand | RadListBox for ASP.NET AJAX Documentation
-description: Transfer Items to ListBox Loaded on Demand
+page_title: Transfer Items to ListBox Loaded on Demand - RadListBox
+description: Check our Web Forms article about Transfer Items to ListBox Loaded on Demand.
 slug: listbox/how-to/transfer-items-to-listbox-loaded-on-demand
 tags: transfer,items,loaded,on,demand
 published: True

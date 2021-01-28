@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadRadioButtonList for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadRadioButtonList
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: radiobuttonlist/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

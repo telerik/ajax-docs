@@ -1,7 +1,7 @@
 ---
 title: OnEnumerationChanged
-page_title: OnEnumerationChanged | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: OnEnumerationChanged
+page_title: OnEnumerationChanged - RadMaksedTextBox
+description: Check our Web Forms article about OnEnumerationChanged.
 slug: radmaskedtextbox/client-side-programming/events/onenumerationchanged
 tags: onenumerationchanged
 published: True

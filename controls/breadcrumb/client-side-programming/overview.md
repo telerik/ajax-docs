@@ -1,7 +1,7 @@
 ---
 title: RadBreadcrumb object
-page_title: RadBreadcrumb object | RadBreadcrumb for ASP.NET AJAX Documentation
-description: RadBreadcrumb object
+page_title: RadBreadcrumb object - RadBreadcrumb
+description: Check our Web Forms article about RadBreadcrumb object.
 slug: breadcrumb/client-side-programming/overview
 tags: radbreadcrumb,object
 published: True

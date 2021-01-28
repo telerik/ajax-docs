@@ -1,7 +1,7 @@
 ---
 title: LoadCustomSettings
-page_title: LoadCustomSettings | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: LoadCustomSettings
+page_title: LoadCustomSettings - RadPersistenceFramework
+description: Check our Web Forms article about LoadCustomSettings.
 slug: persistenceframework/server-side-programming/events/loadcustomsettings
 tags: loadcustomsettings
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageType
 slug: Telerik.Web.UI.ImageType
 ---

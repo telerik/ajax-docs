@@ -1,7 +1,7 @@
 ---
 title: Binding to Array, or ArrayList
-page_title: Binding to Array, or ArrayList | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Binding to Array, or ArrayList
+page_title: Binding to Array, or ArrayList - RadAutoCompleteBox
+description: Check our Web Forms article about Binding to Array, or ArrayList.
 slug: autocompletebox/data-binding/binding-to-array,-or-arraylist
 tags: binding,to,array,,or,arraylist
 published: True

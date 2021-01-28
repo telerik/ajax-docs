@@ -1,7 +1,7 @@
 ---
 title: OnClientCommandExecuting
-page_title: OnClientCommandExecuting | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientCommandExecuting
+page_title: OnClientCommandExecuting - RadImageEditor
+description: Check our Web Forms article about OnClientCommandExecuting.
 slug: imageeditor/client-side-programming/events/onclientcommandexecuting
 tags: onclientcommandexecuting
 published: True

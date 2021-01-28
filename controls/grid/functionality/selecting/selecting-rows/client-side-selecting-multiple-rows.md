@@ -1,7 +1,7 @@
 ---
 title: Client-side Selecting Multiple Rows
-page_title: Client-side Selecting Multiple Rows | RadGrid for ASP.NET AJAX Documentation
-description: Client-side Selecting Multiple Rows
+page_title: Client-side Selecting Multiple Rows - RadGrid
+description: Check our Web Forms article about Client-side Selecting Multiple Rows.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows
 tags: client-side,selecting,multiple,rows
 published: True

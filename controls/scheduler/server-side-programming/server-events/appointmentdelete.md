@@ -1,7 +1,7 @@
 ---
 title: AppointmentDelete
-page_title: AppointmentDelete | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentDelete
+page_title: AppointmentDelete - RadScheduler
+description: Check our Web Forms article about AppointmentDelete.
 slug: scheduler/server-side-programming/server-events/appointmentdelete
 tags: appointmentdelete
 published: True

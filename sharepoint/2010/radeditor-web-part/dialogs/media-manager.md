@@ -1,7 +1,7 @@
 ---
 title: Media Manager
-page_title: Media Manager | UI for ASP.NET AJAX Documentation
-description: Media Manager
+page_title: Media Manager
+description: Check our Web Forms article about Media Manager.
 slug: sharepoint/2010/radeditor-web-part/dialogs/media-manager
 tags: media,manager
 published: True

@@ -1,7 +1,7 @@
 ---
 title: get_columns()
-page_title: get_columns() | RadGrid for ASP.NET AJAX Documentation
-description: get_columns()
+page_title: get_columns() - RadGrid
+description: Check our Web Forms article about get_columns().
 slug: grid/client-side-programming/gridtableview-object/properties/get_columns()
 tags: get_columns()
 published: True

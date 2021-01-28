@@ -1,7 +1,7 @@
 ---
 title: NavigationCommand
-page_title: NavigationCommand | RadScheduler for ASP.NET AJAX Documentation
-description: NavigationCommand
+page_title: NavigationCommand - RadScheduler
+description: Check our Web Forms article about NavigationCommand.
 slug: scheduler/server-side-programming/server-events/navigationcommand
 tags: navigationcommand
 published: True

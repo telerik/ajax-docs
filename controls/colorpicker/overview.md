@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadColorPicker Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadColorPicker Overview
+description: Check our Web Forms article about Overview.
 slug: colorpicker/overview
 tags: overview
 published: True

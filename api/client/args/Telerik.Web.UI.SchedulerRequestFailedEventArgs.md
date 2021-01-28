@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerRequestFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerRequestFailedEventArgs
 slug: Telerik.Web.UI.SchedulerRequestFailedEventArgs
 ---

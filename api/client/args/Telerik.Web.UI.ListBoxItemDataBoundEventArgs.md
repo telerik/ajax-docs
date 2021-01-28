@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
 slug: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Conditional Formatting
-page_title: Conditional Formatting | RadPivotGrid for ASP.NET AJAX Documentation
-description: Conditional Formatting
+page_title: Conditional Formatting - RadPivotGrid
+description: Check our Web Forms article about Conditional Formatting.
 slug: pivotgrid/appearance-and-styling/conditional-formatting
 tags: conditional,formatting
 published: True

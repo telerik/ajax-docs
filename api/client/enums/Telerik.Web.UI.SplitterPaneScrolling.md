@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SplitterPaneScrolling
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SplitterPaneScrolling
 slug: Telerik.Web.UI.SplitterPaneScrolling
 ---

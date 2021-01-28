@@ -1,7 +1,7 @@
 ---
 title: Edit Existing Skin
-page_title: Edit Existing Skin | UI for ASP.NET AJAX Documentation
-description: Edit Existing Skin
+page_title: Edit Existing Skin
+description: Check our Web Forms article about Edit Existing Skin.
 slug: introduction/visual-stylebuilder/edit-existing-skin
 tags: edit,existing,skin
 published: True

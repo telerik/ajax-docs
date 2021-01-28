@@ -1,7 +1,7 @@
 ---
 title: showInsertItem
-page_title: showInsertItem | RadGrid for ASP.NET AJAX Documentation
-description: showInsertItem
+page_title: showInsertItem - RadGrid
+description: Check our Web Forms article about showInsertItem.
 slug: grid/client-side-programming/gridtableview-object/methods/showinsertitem
 tags: showinsertitem
 published: True

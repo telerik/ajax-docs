@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadTimeline for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadTimeline
+description: Check our Web Forms article about Overview.
 slug: timeline/data-binding/server-side/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Binding RadImageGallery to a Static Collection of Items
-page_title: Binding RadImageGallery to a Static Collection of Items | RadImageGallery for ASP.NET AJAX Documentation
-description: Binding RadImageGallery to a Static Collection of Items
+page_title: Binding RadImageGallery to a Static Collection of Items - RadImageGallery
+description: Check our Web Forms article about Binding RadImageGallery to a Static Collection of Items.
 slug: imagegallery/data-binding/server-side/binding-radimagegallery-to-a-static-collection-of-items
 tags: binding,radimagegallery,to,a,static,collection,of,items
 published: True

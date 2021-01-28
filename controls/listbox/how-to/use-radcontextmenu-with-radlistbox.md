@@ -1,7 +1,7 @@
 ---
 title: Use RadContextMenu with RadListBox
-page_title: Use RadContextMenu with RadListBox | RadListBox for ASP.NET AJAX Documentation
-description: Use RadContextMenu with RadListBox
+page_title: Use RadContextMenu with RadListBox - RadListBox
+description: Check our Web Forms article about Use RadContextMenu with RadListBox.
 slug: listbox/how-to/use-radcontextmenu-with-radlistbox
 tags: use,radcontextmenu,with,radlistbox
 published: True

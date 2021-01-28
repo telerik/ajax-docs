@@ -1,7 +1,7 @@
 ---
 title: GanttAssignment Object
-page_title: GanttAssignment Object | RadGantt for ASP.NET AJAX Documentation
-description: GanttAssignment Object
+page_title: GanttAssignment Object - RadGantt
+description: Check our Web Forms article about GanttAssignment Object.
 slug: gantt/client-side-programming/objects/ganttassignment-object
 tags: ganttassignment,object
 published: True

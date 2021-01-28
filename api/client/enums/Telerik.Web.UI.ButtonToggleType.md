@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ButtonToggleType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonToggleType
 slug: Telerik.Web.UI.ButtonToggleType
 ---

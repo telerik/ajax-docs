@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadTabStrip Performance
-page_title: Optimizing RadTabStrip Performance | RadTabStrip for ASP.NET AJAX Documentation
-description: Optimizing RadTabStrip Performance
+page_title: Optimizing RadTabStrip Performance - RadTabStrip
+description: Check our Web Forms article about Optimizing RadTabStrip Performance.
 slug: tabstrip/performance/optimizing-radtabstrip-performance
 tags: performance,optimizing
 published: True

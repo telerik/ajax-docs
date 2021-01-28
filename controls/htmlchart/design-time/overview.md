@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Design Time Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: Overview
+page_title: Design Time Overview - RadHtmlChart
+description: Check our Web Forms article about Overview.
 slug: htmlchart/design-time/overview
 tags: overview
 published: True

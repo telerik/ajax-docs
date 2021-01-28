@@ -1,7 +1,7 @@
 ---
 title: Column Types
-page_title: Column Types | RadGrid for ASP.NET AJAX Documentation
-description: Column Types
+page_title: Column Types - RadGrid
+description: Check our Web Forms article about Column Types.
 slug: grid/columns/column-types
 tags: column,types
 published: True

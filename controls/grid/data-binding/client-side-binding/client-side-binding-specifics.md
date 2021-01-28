@@ -1,7 +1,7 @@
 ---
 title: Client-side Binding Specifics
-page_title: Client-side Binding Specifics | RadGrid for ASP.NET AJAX Documentation
-description: Client-side Binding Specifics
+page_title: Client-side Binding Specifics - RadGrid
+description: Check our Web Forms article about Client-side Binding Specifics.
 slug: grid/data-binding/client-side-binding/client-side-binding-specifics
 previous_url: controls/grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding-specifics
 tags: client-side,binding,specifics

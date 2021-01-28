@@ -1,7 +1,7 @@
 ---
 title: Download New Version
-page_title: Download New Version | UI for ASP.NET AJAX Documentation
-description: Download New Version
+page_title: Download New Version
+description: Check our Web Forms article about Download New Version.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval
 tags: automatic,latest,version,retrieval
 published: True

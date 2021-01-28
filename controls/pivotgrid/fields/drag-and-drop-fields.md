@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop Fields
-page_title: Drag and Drop Fields | RadPivotGrid for ASP.NET AJAX Documentation
-description: Drag and Drop Fields
+page_title: Drag and Drop Fields - RadPivotGrid
+description: Check our Web Forms article about Drag and Drop Fields.
 slug: pivotgrid/fields/drag-and-drop-fields
 tags: drag,and,drop,fields
 published: True

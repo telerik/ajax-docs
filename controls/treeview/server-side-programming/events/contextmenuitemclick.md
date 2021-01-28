@@ -1,7 +1,7 @@
 ---
 title: ContextMenuItemClick
-page_title: ContextMenuItemClick | RadTreeView for ASP.NET AJAX Documentation
-description: ContextMenuItemClick
+page_title: ContextMenuItemClick - RadTreeView
+description: Check our Web Forms article about ContextMenuItemClick.
 slug: treeview/server-side-programming/events/contextmenuitemclick
 tags: contextmenuitemclick
 published: True

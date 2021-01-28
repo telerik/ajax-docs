@@ -1,7 +1,7 @@
 ---
 title: Strip HTML on Paste
-page_title: Strip HTML on Paste | RadEditor for ASP.NET AJAX Documentation
-description: This is a custom solution for stripping some HTML when pasting in RadEditor
+page_title: Strip HTML on Paste - RadEditor
+description: Check our Web Forms article about This is a custom solution for stripping some HTML when pasting in RadEditor.
 slug: editor/how-to/strip-html-on-paste
 tags: custom, solution, paste, strip, HTML, editor, content area
 published: True

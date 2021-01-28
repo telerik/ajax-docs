@@ -1,7 +1,7 @@
 ---
 title: Integrated Paging
-page_title: Integrated Paging | RadListView for ASP.NET AJAX Documentation
-description: Integrated Paging
+page_title: Integrated Paging - RadListView
+description: Check our Web Forms article about Integrated Paging.
 slug: listview/fuctionality/paging/integrated-paging
 tags: integrated,paging
 published: True

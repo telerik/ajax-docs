@@ -1,7 +1,7 @@
 ---
 title: To Any HTML Element
-page_title: To Any HTML Element | RadTreeView for ASP.NET AJAX Documentation
-description: To Any HTML Element
+page_title: To Any HTML Element - RadTreeView
+description: Check our Web Forms article about To Any HTML Element.
 slug: treeview/drag-and-drop/to-any-html-element
 tags: to,any,html,element
 published: True

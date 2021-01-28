@@ -1,7 +1,7 @@
 ---
 title: OnClientDoubleClick
-page_title: OnClientDoubleClick | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientDoubleClick
+page_title: OnClientDoubleClick - RadTreeView
+description: Check our Web Forms article about OnClientDoubleClick.
 slug: treeview/client-side-programming/events/onclientdoubleclick
 tags: onclientdoubleclick
 published: True

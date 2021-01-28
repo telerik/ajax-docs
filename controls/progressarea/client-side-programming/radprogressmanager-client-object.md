@@ -1,7 +1,7 @@
 ---
 title: RadProgressManager Client Object
-page_title: RadProgressManager Client Object | RadProgressArea for ASP.NET AJAX Documentation
-description: RadProgressManager Client Object
+page_title: RadProgressManager Client Object - RadProgressArea
+description: Check our Web Forms article about RadProgressManager Client Object.
 slug: progressarea/client-side-programming/radprogressmanager-client-object
 tags: radprogressmanager,client,object
 published: True

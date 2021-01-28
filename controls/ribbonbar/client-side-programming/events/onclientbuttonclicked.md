@@ -1,7 +1,7 @@
 ---
 title: OnClientButtonClicked
-page_title: OnClientButtonClicked | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientButtonClicked
+page_title: OnClientButtonClicked - RadRibbonBar
+description: Check our Web Forms article about OnClientButtonClicked.
 slug: ribbonbar/client-side-programming/events/onclientbuttonclicked
 tags: onclientbuttonclicked
 published: True

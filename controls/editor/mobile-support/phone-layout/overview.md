@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Phone Layout Overview | RadEditor for ASP.NET AJAX Documentation
-description: Mobile Rendering
+page_title: Phone Layout Overview - RadEditor
+description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/overview
 tags: editor,support,mobile,rendering,overview
 published: True

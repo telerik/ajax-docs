@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockMode
 slug: Telerik.Web.UI.DockMode
 ---

@@ -1,7 +1,7 @@
 ---
 title: How to Set Minimum File Inputs Count
-page_title: How to Set Minimum File Inputs Count | RadUpload for ASP.NET AJAX Documentation
-description: How to Set Minimum File Inputs Count
+page_title: How to Set Minimum File Inputs Count - RadUpload
+description: Check our Web Forms article about How to Set Minimum File Inputs Count.
 slug: upload/how-to/how-to-set-minimum-file-inputs-count
 tags: how,to,set,minimum,file,inputs,count
 published: True

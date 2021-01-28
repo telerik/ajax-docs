@@ -1,7 +1,7 @@
 ---
 title: Manage Content
-page_title: Manage Content | RadEditor for ASP.NET AJAX Documentation
-description: Manage Content
+page_title: Manage Content - RadEditor
+description: Check our Web Forms article about Manage Content.
 slug: editor/getting-started/manage-content
 tags: manage,content
 published: True

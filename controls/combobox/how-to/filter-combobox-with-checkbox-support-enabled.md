@@ -1,7 +1,7 @@
 ---
 title: Filter ComboBox with CheckBox support enabled
-page_title: Filter ComboBox with CheckBox support enabled | RadComboBox for ASP.NET AJAX Documentation
-description: Filter ComboBox with CheckBox support enabled
+page_title: Filter ComboBox with CheckBox support enabled - RadComboBox
+description: Check our Web Forms article about Filter ComboBox with CheckBox support enabled.
 slug: combobox/how-to/filter-combobox-with-checkbox-support-enabled
 tags: filter,combobox,with,checkbox,support,enabled
 published: True

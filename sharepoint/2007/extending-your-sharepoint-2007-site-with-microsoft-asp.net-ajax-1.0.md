@@ -1,7 +1,7 @@
 ---
 title: Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0
-page_title: Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0 | UI for ASP.NET AJAX Documentation
-description: Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0
+page_title: Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0
+description: Check our Web Forms article about Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0.
 slug: sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0
 tags: extending,your,sharepoint,2007,site,with,microsoft,asp.net,ajax,1.0
 published: True

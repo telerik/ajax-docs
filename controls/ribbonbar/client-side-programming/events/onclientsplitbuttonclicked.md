@@ -1,7 +1,7 @@
 ---
 title: OnClientSplitButtonClicked
-page_title: OnClientSplitButtonClicked | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientSplitButtonClicked
+page_title: OnClientSplitButtonClicked - RadRibbonBar
+description: Check our Web Forms article about OnClientSplitButtonClicked.
 slug: ribbonbar/client-side-programming/events/onclientsplitbuttonclicked
 tags: onclientsplitbuttonclicked
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadGrid Filtering with RadFilter
-page_title: RadGrid Filtering with RadFilter | RadFilter for ASP.NET AJAX Documentation
-description: RadGrid Filtering with RadFilter
+page_title: RadGrid Filtering with RadFilter - RadFilter
+description: Check our Web Forms article about RadGrid Filtering with RadFilter.
 slug: filter/how-to/radgrid-filtering-with-radfilter
 tags: radgrid,filtering,with,radfilter
 published: True

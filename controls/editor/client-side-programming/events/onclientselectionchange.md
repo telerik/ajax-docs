@@ -1,7 +1,7 @@
 ---
 title: OnClientSelectionChange
-page_title: OnClientSelectionChange | RadEditor for ASP.NET AJAX Documentation
-description: OnClientSelectionChange
+page_title: OnClientSelectionChange - RadEditor
+description: Check our Web Forms article about OnClientSelectionChange.
 slug: editor/client-side-programming/events/onclientselectionchange
 tags: onclientselectionchange
 published: True

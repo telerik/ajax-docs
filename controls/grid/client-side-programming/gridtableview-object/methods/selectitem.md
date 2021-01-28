@@ -1,7 +1,7 @@
 ---
 title: selectItem
-page_title: selectItem | RadGrid for ASP.NET AJAX Documentation
-description: selectItem
+page_title: selectItem - RadGrid
+description: Check our Web Forms article about selectItem.
 slug: grid/client-side-programming/gridtableview-object/methods/selectitem
 tags: selectitem
 published: True

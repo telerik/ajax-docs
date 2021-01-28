@@ -1,7 +1,7 @@
 ---
 title: Cloning a RadTreeView
-page_title: Cloning a RadTreeView | RadTreeView for ASP.NET AJAX Documentation
-description: Cloning a RadTreeView
+page_title: Cloning a RadTreeView - RadTreeView
+description: Check our Web Forms article about Cloning a RadTreeView.
 slug: treeview/application-scenarios/server-side-programming/cloning-a-radtreeview
 tags: cloning,a,radtreeview
 published: True

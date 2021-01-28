@@ -1,7 +1,7 @@
 ---
 title: Virtualization
-page_title: Virtualization | RadGrid for ASP.NET AJAX Documentation
-description: Virtualization
+page_title: Virtualization - RadGrid
+description: Check our Web Forms article about Virtualization.
 slug: grid/functionality/scrolling/virtualization
 tags: virtualization
 published: True

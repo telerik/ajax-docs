@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeExpanding
-page_title: OnClientNodeExpanding | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodeExpanding
+page_title: OnClientNodeExpanding - RadNavigation
+description: Check our Web Forms article about OnClientNodeExpanding.
 slug: navigation/client-side-programming/events/onclientnodeexpanding
 tags: onclientnodeexpanding
 published: True

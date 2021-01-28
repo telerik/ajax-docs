@@ -1,7 +1,7 @@
 ---
 title: Upgrade API Analyzer Tool
-page_title: Upgrade API Analyzer Tool | UI for ASP.NET AJAX
-description: "Prepare for upgrade - analyze a Telerik® UI for ASP.NET AJAX application for important changes."
+page_title: Upgrade API Analyzer Tool
+description: Check our Web Forms article about "Prepare for upgrade - analyze a Telerik® UI for ASP.NET AJAX application for important changes.".
 slug: upgrade_api_analyzer
 position: 5
 ---

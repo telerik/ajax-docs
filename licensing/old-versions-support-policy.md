@@ -1,7 +1,7 @@
 ---
 title: Old Versions Support Policy
-page_title: Old Versions Support Policy | UI for ASP.NET AJAX Documentation
-description: Old Versions Support Policy for UI for ASP.NET AJAX
+page_title: Old Versions Support Policy
+description: Check our Web Forms article about Old Versions Support Policy for UI for ASP.NET AJAX.
 slug: introduction/licensing/old-versions-support-policy
 tags: old,versions,support,feature,request,bug,fix,release
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadClientExportManager for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadClientExportManager
+description: Check our Web Forms article about Overview.
 slug: clientexportmanager/client-side-programming/overview
 tags: overview
 published: True

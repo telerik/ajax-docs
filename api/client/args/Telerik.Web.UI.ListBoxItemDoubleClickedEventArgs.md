@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
 slug: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
 ---

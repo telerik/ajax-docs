@@ -1,7 +1,7 @@
 ---
 title: Known Issues
-page_title: Known Issues | RadNotification for ASP.NET AJAX Documentation
-description: Known Issues
+page_title: Known Issues - RadNotification
+description: Check our Web Forms article about Known Issues.
 slug: notification/troubleshooting/known-issues
 tags: known,issues
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Shapes
-page_title: Shapes | RadMap for ASP.NET AJAX Documentation
-description: Shapes
+page_title: Shapes - RadMap
+description: Check our Web Forms article about Shapes.
 slug: map/functionality/shapes
 tags: shapes
 published: True

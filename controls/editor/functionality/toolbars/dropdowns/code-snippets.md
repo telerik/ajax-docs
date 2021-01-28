@@ -1,7 +1,7 @@
 ---
 title: Code Snippets
-page_title: Code Snippets | RadEditor for ASP.NET AJAX Documentation
-description: Code Snippets
+page_title: Code Snippets - RadEditor
+description: Check our Web Forms article about Code Snippets.
 slug: editor/functionality/toolbars/dropdowns/code-snippets
 tags: code,snippets
 published: True

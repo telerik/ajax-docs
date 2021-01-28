@@ -1,7 +1,7 @@
 ---
 title: ComboBoxSelectedIndexChanged
-page_title: ComboBoxSelectedIndexChanged | RadRibbonBar for ASP.NET AJAX Documentation
-description: ComboBoxSelectedIndexChanged
+page_title: ComboBoxSelectedIndexChanged - RadRibbonBar
+description: Check our Web Forms article about ComboBoxSelectedIndexChanged.
 slug: ribbonbar/server-side-programming/events/comboboxselectedindexchanged
 tags: comboboxselectedindexchanged
 published: True

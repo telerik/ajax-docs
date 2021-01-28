@@ -1,7 +1,7 @@
 ---
 title: OnClientDragStart
-page_title: OnClientDragStart | RadListBox for ASP.NET AJAX Documentation
-description: OnClientDragStart
+page_title: OnClientDragStart - RadListBox
+description: Check our Web Forms article about OnClientDragStart.
 slug: listbox/client-side-programming/events/onclientdragstart
 tags: onclientdragstart
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeListItemDraggingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListItemDraggingEventArgs
 slug: Telerik.Web.UI.TreeListItemDraggingEventArgs
 ---

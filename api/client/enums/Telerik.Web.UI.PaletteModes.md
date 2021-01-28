@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.PaletteModes
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PaletteModes
 slug: Telerik.Web.UI.PaletteModes
 ---

@@ -1,7 +1,7 @@
 ---
 title: Real Font Sizes
-page_title: Real Font Sizes | UI for ASP.NET AJAX Documentation
-description: Real Font Sizes
+page_title: Real Font Sizes
+description: Check our Web Forms article about Real Font Sizes.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/real-font-sizes
 tags: real,font,sizes
 published: True

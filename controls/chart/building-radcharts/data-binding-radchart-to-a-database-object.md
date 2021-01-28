@@ -1,7 +1,7 @@
 ---
 title: Data Binding RadChart to a Database Object
-page_title: Data Binding RadChart to a Database Object | RadChart for ASP.NET AJAX Documentation
-description: Data Binding RadChart to a Database Object
+page_title: Data Binding RadChart to a Database Object - RadChart
+description: Check our Web Forms article about Data Binding RadChart to a Database Object.
 slug: chart/building-radcharts/data-binding-radchart-to-a-database-object
 tags: data,binding,radchart,to,a,database,object
 published: True

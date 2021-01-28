@@ -1,7 +1,7 @@
 ---
 title: PDF Overview
-page_title: Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/export/pdf/overview
 tags: overview
 published: True

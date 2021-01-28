@@ -1,7 +1,7 @@
 ---
 title: Controlling Layout
-page_title: Controlling Layout | RadTabStrip for ASP.NET AJAX Documentation
-description: Controlling Layout
+page_title: Controlling Layout - RadTabStrip
+description: Check our Web Forms article about Controlling Layout.
 slug: tabstrip/appearance-and-styling/controlling-layout
 tags: controlling,layout
 published: True

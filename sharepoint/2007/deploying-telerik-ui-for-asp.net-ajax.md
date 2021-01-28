@@ -1,7 +1,7 @@
 ---
 title: Deploying Telerik® UI for ASP.NET AJAX
-page_title: Deploying Telerik® UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Deploying Telerik® UI for ASP.NET AJAX
+page_title: Deploying Telerik®
+description: Check our Web Forms article about Deploying Telerik® UI for ASP.NET AJAX.
 slug: sharepoint/2007/deploying-telerik-ui-for-asp.net-ajax
 tags: deploying,telerik,ui,for,asp.net,ajax
 published: True

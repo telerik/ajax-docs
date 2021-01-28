@@ -1,7 +1,7 @@
 ---
 title: RadListView Class Members
-page_title: RadListView Class Members | RadListView for ASP.NET AJAX Documentation
-description: RadListView Class Members
+page_title: RadListView Class Members - RadListView
+description: Check our Web Forms article about RadListView Class Members.
 slug: listview/client-side-programming/radlistview/radlistview-class-members
 tags: radlistview,class,members
 published: True

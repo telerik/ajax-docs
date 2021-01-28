@@ -1,7 +1,7 @@
 ---
 title: OnBlur
-page_title: OnBlur | RadInputManager for ASP.NET AJAX Documentation
-description: OnBlur
+page_title: OnBlur - RadInputManager
+description: Check our Web Forms article about OnBlur.
 slug: radinputmanager/client-side-events/onblur
 tags: onblur
 published: True

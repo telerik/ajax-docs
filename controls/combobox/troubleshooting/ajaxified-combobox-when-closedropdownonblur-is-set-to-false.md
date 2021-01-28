@@ -1,7 +1,7 @@
 ---
 title: Ajaxified ComboBox when CloseDropDownOnBlur is set to false 
-page_title: Ajaxified ComboBox when CloseDropDownOnBlur is set to false | RadComboBox for ASP.NET AJAX Documentation
-description: Ajaxified ComboBox when CloseDropDownOnBlur is set to false
+page_title: Ajaxified ComboBox when CloseDropDownOnBlur is set to false - RadComboBox
+description: Check our Web Forms article about Ajaxified ComboBox when CloseDropDownOnBlur is set to false.
 slug: combobox/troubleshooting/ajaxified-combobox-when-closedropdownonblur-is-set-to-false
 tags: ajaxified,combobox,closedropdownonblur,false
 published: True

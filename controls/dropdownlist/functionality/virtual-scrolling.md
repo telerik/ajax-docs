@@ -1,7 +1,7 @@
 ---
 title: Virtual Scrolling
-page_title: Virtual Scrolling | RadDropDownList for ASP.NET AJAX Documentation
-description: Virtual Scrolling
+page_title: Virtual Scrolling - RadDropDownList
+description: Check our Web Forms article about Virtual Scrolling.
 slug: dropdownlist/functionality/virtual-scrolling
 tags: virtual,scrolling
 published: True

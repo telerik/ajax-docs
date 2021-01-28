@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadTooltip Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadTooltip Overview
+description: Check our Web Forms article about Overview.
 slug: tooltip/overview
 tags: overview
 published: True

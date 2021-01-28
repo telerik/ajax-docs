@@ -1,7 +1,7 @@
 ---
 title: Replace the Edit Form
-page_title: Replace the Edit Form | RadScheduler for ASP.NET AJAX Documentation
-description: Replace the Edit Form
+page_title: Replace the Edit Form - RadScheduler
+description: Check our Web Forms article about Replace the Edit Form.
 slug: scheduler/how-to/replace-the-edit-form
 tags: replace,the,edit,form
 published: True

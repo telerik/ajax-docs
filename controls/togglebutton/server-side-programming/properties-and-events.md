@@ -1,7 +1,7 @@
 ---
 title: Properties and Events
-page_title: Properties and Events | RadToggleButton for ASP.NET AJAX Documentation
-description: Properties and Events
+page_title: Properties and Events - RadToggleButton
+description: Check our Web Forms article about Properties and Events.
 slug: togglebutton/server-side-programming/properties-and-events
 tags: properties,and,events
 published: True

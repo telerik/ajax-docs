@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Classic Skin
-page_title: Tutorial - Creating a Custom Classic Skin | RadDock for ASP.NET AJAX Documentation
-description: Tutorial - Creating a Custom Classic Skin
+page_title: Tutorial - Creating a Custom Classic Skin - RadDock
+description: Check our Web Forms article about Tutorial - Creating a Custom Classic Skin.
 slug: dock/appearance-and-styling/creating-custom-classic-skin
 tags: skin, custom, classic
 published: True

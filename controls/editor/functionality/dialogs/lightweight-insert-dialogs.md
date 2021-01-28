@@ -1,7 +1,7 @@
 ---
 title: Lightweight Insert Dialogs
-page_title: Lightweight Insert Dialogs | RadEditor for ASP.NET AJAX Documentation
-description: Lightweight Insert Dialogs
+page_title: Lightweight Insert Dialogs - RadEditor
+description: Check our Web Forms article about Lightweight Insert Dialogs.
 slug: editor/functionality/dialogs/lightweight-insert-dialogs
 tags: lightweight,insert,dialogs
 published: True

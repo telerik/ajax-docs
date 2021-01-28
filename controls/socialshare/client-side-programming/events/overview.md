@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Events Overview | RadSocialShare for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Events Overview - RadSocialShare
+description: Check our Web Forms article about Overview.
 slug: socialshare/client-side-programming/events/overview
 tags: overview
 published: True

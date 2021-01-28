@@ -1,7 +1,7 @@
 ---
 title: RadWizardStepCollection Object
-page_title: RadWizardStepCollection Object | RadWizard for ASP.NET AJAX Documentation
-description: RadWizardStepCollection Object
+page_title: RadWizardStepCollection Object - RadWizard
+description: Check our Web Forms article about RadWizardStepCollection Object.
 slug: wizard/client-side-programming/radwizardstepcollection-object
 tags: radwizardstepcollection,object
 published: True

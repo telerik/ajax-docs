@@ -1,7 +1,7 @@
 ---
 title: get_id()
-page_title: get_id() | RadGrid for ASP.NET AJAX Documentation
-description: get_id()
+page_title: get_id() - RadGrid
+description: Check our Web Forms article about get_id().
 slug: grid/client-side-programming/radgrid-object/properties/get_id()
 tags: get_id()
 published: True

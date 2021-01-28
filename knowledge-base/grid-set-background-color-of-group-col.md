@@ -1,6 +1,6 @@
 ---
 title: Set the Background Color of Multi-column Header Col Group
-description: This article demonstrates how you can set the background color of a ColGroup header cell
+description: This article demonstrates how you can set the background color of a ColGroup header cell.
 type: how-to
 page_title: Set the background color of RadGrid multi-column header
 slug: grid-set-background-color-of-group-col

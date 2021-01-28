@@ -1,7 +1,7 @@
 ---
 title: AJAX updates
-page_title: AJAX updates | RadSplitter for ASP.NET AJAX Documentation
-description: AJAX updates
+page_title: AJAX updates - RadSplitter
+description: Check our Web Forms article about AJAX updates.
 slug: splitter/how-to/ajax-updates
 tags: ajax,updates
 published: True

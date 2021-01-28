@@ -1,7 +1,7 @@
 ---
 title: Auto-Generated Editors
-page_title: Auto-Generated Editors | RadGrid for ASP.NET AJAX Documentation
-description: Auto-Generated Editors
+page_title: Auto-Generated Editors - RadGrid
+description: Check our Web Forms article about Auto-Generated Editors.
 slug: grid/data-editing/grid-editors/auto-generated-editors
 tags: auto-generated,editors
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Events Lifecycle
-page_title: Events Lifecycle | RadDataForm for ASP.NET AJAX Documentation
-description: Events Lifecycle
+page_title: Events Lifecycle - RadDataForm
+description: Check our Web Forms article about Events Lifecycle.
 slug: dataform/server-side-programming/events-lifecycle
 tags: events,lifecycle
 published: True

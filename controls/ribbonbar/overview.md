@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RibbonBar Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RibbonBar Overview
+description: Check our Web Forms article about Overview.
 slug: ribbonbar/overview
 tags: overview
 published: True

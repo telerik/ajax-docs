@@ -1,7 +1,7 @@
 ---
 title: Loading Items from WCF Service
-page_title: Loading Items from WCF Service | RadComboBox for ASP.NET AJAX Documentation
-description: Loading Items from WCF Service
+page_title: Loading Items from WCF Service - RadComboBox
+description: Check our Web Forms article about Loading Items from WCF Service.
 slug: combobox/load-on-demand/loading-items-from-wcf-service
 tags: loading,items,from,wcf,service
 published: True

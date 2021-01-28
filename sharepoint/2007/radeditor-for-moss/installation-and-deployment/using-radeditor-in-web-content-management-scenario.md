@@ -1,7 +1,7 @@
 ---
 title: Using RadEditor in Web Content Management scenario
-page_title: Using RadEditor in Web Content Management scenario | UI for ASP.NET AJAX Documentation
-description: Using RadEditor in Web Content Management scenario
+page_title: Using RadEditor in Web Content Management scenario
+description: Check our Web Forms article about Using RadEditor in Web Content Management scenario.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-radeditor-in-web-content-management-scenario
 tags: using,radeditor,in,web,content,management,scenario
 published: True

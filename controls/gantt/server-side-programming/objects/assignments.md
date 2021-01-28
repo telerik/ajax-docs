@@ -1,7 +1,7 @@
 ---
 title: Assignments
-page_title: Assignments | RadGantt for ASP.NET AJAX Documentation
-description: Assignments
+page_title: Assignments - RadGantt
+description: Check our Web Forms article about Assignments.
 slug: gantt/server-side-programming/objects/assignments
 tags: assignments
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Subtitles
-page_title: Subtitles | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Subtitles
+page_title: Subtitles - RadMediaPlayer
+description: Check our Web Forms article about Subtitles.
 slug: mediaplayer/functionality/subtitles
 tags: subtitles
 published: True

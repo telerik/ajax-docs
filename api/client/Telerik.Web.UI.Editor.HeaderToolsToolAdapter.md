@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.HeaderToolsToolAdapter
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.HeaderToolsToolAdapter
 slug: Telerik.Web.UI.Editor.HeaderToolsToolAdapter
 ---

@@ -1,7 +1,7 @@
 ---
 title: Input Mask Dialog
-page_title: Input Mask Dialog | RadMaksedTextBox for ASP.NET AJAX Documentation
-description: Input Mask Dialog
+page_title: Input Mask Dialog - RadMaksedTextBox
+description: Check our Web Forms article about Input Mask Dialog.
 slug: radmaskedtextbox/design-time/input-mask-dialog
 tags: input,mask,dialog
 published: True

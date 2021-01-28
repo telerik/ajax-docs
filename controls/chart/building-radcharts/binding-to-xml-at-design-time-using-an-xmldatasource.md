@@ -1,7 +1,7 @@
 ---
 title: Binding to XML at Design-Time using an XMLDataSource
-page_title: Binding to XML at Design-Time using an XMLDataSource | RadChart for ASP.NET AJAX Documentation
-description: Binding to XML at Design-Time using an XMLDataSource
+page_title: Binding to XML at Design-Time using an XMLDataSource - RadChart
+description: Check our Web Forms article about Binding to XML at Design-Time using an XMLDataSource.
 slug: chart/building-radcharts/binding-to-xml-at-design-time-using-an-xmldatasource
 tags: binding,to,xml,at,design-time,using,an,xmldatasource
 published: True

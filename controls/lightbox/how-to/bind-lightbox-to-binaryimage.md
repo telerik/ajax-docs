@@ -1,7 +1,7 @@
 ---
 title: Binding RadLightBox to BinaryImage
-page_title: Binding RadLightBox to BinaryImage | RadLightBox for ASP.NET AJAX Documentation
-description: Binding RadLightBox to BinaryImage
+page_title: Binding RadLightBox to BinaryImage - RadLightBox
+description: Check our Web Forms article about Binding RadLightBox to BinaryImage.
 slug: lightbox/how-to/bind-lightbox-to-binaryimage
 tags: lightbox,binding,BinaryImage
 published: True

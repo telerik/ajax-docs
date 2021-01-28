@@ -1,7 +1,7 @@
 ---
 title: OnClientContextMenu
-page_title: OnClientContextMenu | RadToolBar for ASP.NET AJAX Documentation
-description: OnClientContextMenu
+page_title: OnClientContextMenu - RadToolBar
+description: Check our Web Forms article about OnClientContextMenu.
 slug: toolbar/client-side-programming/onclientcontextmenu
 tags: onclientcontextmenu
 published: True

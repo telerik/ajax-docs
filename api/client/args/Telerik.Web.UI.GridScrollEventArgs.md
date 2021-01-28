@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridScrollEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridScrollEventArgs
 slug: Telerik.Web.UI.GridScrollEventArgs
 ---

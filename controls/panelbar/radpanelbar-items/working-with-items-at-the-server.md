@@ -1,7 +1,7 @@
 ---
 title: Working With Items at the Server
-page_title: Working With Items at the Server | RadPanelBar for ASP.NET AJAX Documentation
-description: Working With Items at the Server
+page_title: Working With Items at the Server - RadPanelBar
+description: Check our Web Forms article about Working With Items at the Server.
 slug: panelbar/radpanelbar-items/working-with-items-at-the-server
 tags: working,with,items,at,the,server
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Start Slideshow automatically
-page_title: Start Slideshow automatically | UI for ASP.NET AJAX Documentation
-description: Start Slideshow automatically
+page_title: Start Slideshow automatically
+description: Check our Web Forms article about Start Slideshow automatically.
 slug: imagegallery/how-to/start-slideshow-automatically
 tags: start,slideshow,automatically
 published: True

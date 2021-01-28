@@ -1,7 +1,7 @@
 ---
 title: Play Sound on Show
-page_title: Play Sound on Show | RadNotification for ASP.NET AJAX Documentation
-description: Play Sound on Show
+page_title: Play Sound on Show - RadNotification
+description: Check our Web Forms article about Play Sound on Show.
 slug: notification/functionality/play-sound-on-show
 tags: play,sound,on,show
 published: True

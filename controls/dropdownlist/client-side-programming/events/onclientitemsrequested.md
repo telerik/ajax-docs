@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | RadDropDownList for ASP.NET AJAX Documentation
-description: OnClientItemsRequested
+page_title: OnClientItemsRequested - RadDropDownList
+description: Check our Web Forms article about OnClientItemsRequested.
 slug: dropdownlist/client-side-programming/events/onclientitemsrequested
 tags: onclientitemsrequested
 published: True

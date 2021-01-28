@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ISchedulerTimeSlot
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ISchedulerTimeSlot
 slug: Telerik.Web.UI.ISchedulerTimeSlot
 ---

@@ -1,7 +1,7 @@
 ---
 title: Setting  the CSS Class of Items
-page_title: Setting  the CSS Class of Items | RadPanelBar for ASP.NET AJAX Documentation
-description: Setting  the CSS Class of Items
+page_title: Setting the CSS Class of Items - RadPanelBar
+description: Check our Web Forms article about Setting  the CSS Class of Items.
 slug: panelbar/appearance-and-styling/setting--the-css-class-of-items
 tags: setting,,the,css,class,of,items
 published: True

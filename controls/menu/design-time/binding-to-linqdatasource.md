@@ -1,7 +1,7 @@
 ---
 title: Binding to LinqDataSource
-page_title: Binding to LinqDataSource | RadMenu for ASP.NET AJAX Documentation
-description: Binding to LinqDataSource
+page_title: Binding to LinqDataSource - RadMenu
+description: Check our Web Forms article about Binding to LinqDataSource.
 slug: menu/design-time/binding-to-linqdatasource
 tags: binding,to,linqdatasource
 published: True

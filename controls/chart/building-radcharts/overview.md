@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Building RadCharts | RadChart for ASP.NET AJAX Documentation
-description: Building RadCharts
+page_title: Building RadCharts - RadChart
+description: Check our Web Forms article about Building RadCharts.
 slug: chart/building-radcharts/building-radcharts
 tags: building,radcharts
 published: True

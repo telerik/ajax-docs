@@ -1,7 +1,7 @@
 ---
 title: Prevent a Specific Button from Performing Postback
-page_title: Prevent a Specific Button from Performing Postback | RadToolBar for ASP.NET AJAX Documentation
-description: Prevent a Specific Button from Performing Postback
+page_title: Prevent a Specific Button from Performing Postback - RadToolBar
+description: Check our Web Forms article about Prevent a Specific Button from Performing Postback.
 slug: toolbar/how-to/prevent-a-specific-button-from-performing-postback
 tags: prevent,a,specific,button,from,performing,postback
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Multi-Day View
-page_title: Multi-Day View | RadScheduler for ASP.NET AJAX Documentation
-description: Multi-Day View
+page_title: Multi-Day View - RadScheduler
+description: Check our Web Forms article about Multi-Day View.
 slug: scheduler/views/multi-day-view
 tags: multi-day,view
 published: True

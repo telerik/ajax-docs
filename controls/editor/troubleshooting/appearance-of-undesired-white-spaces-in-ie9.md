@@ -1,7 +1,7 @@
 ---
 title: Appearance of Undesired White Spaces in IE9
-page_title: Appearance of Undesired White Spaces in IE9 | RadEditor for ASP.NET AJAX Documentation
-description: Appearance of Undesired White Spaces in IE9
+page_title: Appearance of Undesired White Spaces in IE9 - RadEditor
+description: Check our Web Forms article about Appearance of Undesired White Spaces in IE9.
 slug: editor/troubleshooting/appearance-of-undesired-white-spaces-in-ie9
 tags: appearance,of,undesired,white,spaces,in,ie9
 published: True

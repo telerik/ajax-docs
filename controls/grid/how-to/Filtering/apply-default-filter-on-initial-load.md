@@ -1,7 +1,7 @@
 ---
 title: Apply Default Filter on Initial Load
-page_title: Apply Default Filter on Initial Load | RadGrid for ASP.NET AJAX Documentation
-description: Apply Default Filter on Initial Load
+page_title: Apply Default Filter on Initial Load - RadGrid
+description: Check our Web Forms article about Apply Default Filter on Initial Load.
 slug: grid/how-to/filtering/apply-default-filter-on-initial-load
 previous_url: controls/grid/functionality/filtering/how-to/apply-default-filter-on-initial-load
 tags: apply,default,filter,on,initial,load

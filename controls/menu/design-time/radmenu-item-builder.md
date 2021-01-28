@@ -1,7 +1,7 @@
 ---
 title: RadMenu Item Builder
-page_title: RadMenu Item Builder | RadMenu for ASP.NET AJAX Documentation
-description: RadMenu Item Builder
+page_title: RadMenu Item Builder - RadMenu
+description: Check our Web Forms article about RadMenu Item Builder.
 slug: menu/design-time/radmenu-item-builder
 tags: radmenu,item,builder
 published: True

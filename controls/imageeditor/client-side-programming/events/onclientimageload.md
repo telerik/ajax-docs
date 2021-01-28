@@ -1,7 +1,7 @@
 ---
 title: OnClientImageLoad
-page_title: OnClientImageLoad | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientImageLoad
+page_title: OnClientImageLoad - RadImageEditor
+description: Check our Web Forms article about OnClientImageLoad.
 slug: imageeditor/client-side-programming/events/onclientimageload
 tags: onclientimageload
 published: True

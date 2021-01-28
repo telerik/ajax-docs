@@ -1,7 +1,7 @@
 ---
 title: OnClientDeletingSelected
-page_title: OnClientDeletingSelected | RadUpload for ASP.NET AJAX Documentation
-description: OnClientDeletingSelected
+page_title: OnClientDeletingSelected - RadUpload
+description: Check our Web Forms article about OnClientDeletingSelected.
 slug: upload/client-side-programming/onclientdeletingselected
 tags: onclientdeletingselected
 published: True

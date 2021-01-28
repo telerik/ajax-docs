@@ -1,7 +1,7 @@
 ---
 title: RadAutoCompleteBox Object
-page_title: RadAutoCompleteBox Object | AutoCompleteBox for ASP.NET AJAX Documentation
-description: RadAutoCompleteBox Object
+page_title: RadAutoCompleteBox Object - AutoCompleteBox
+description: Check our Web Forms article about RadAutoCompleteBox Object.
 slug: autocompletebox/client-side-programming/objects/radautocompletebox-object
 tags: autocompletebox,object
 published: True

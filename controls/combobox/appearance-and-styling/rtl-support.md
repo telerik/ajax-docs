@@ -1,7 +1,7 @@
 ---
 title: RTL Support
-page_title: RTL Support | RadComboBox for ASP.NET AJAX Documentation
-description: RTL Support
+page_title: RTL Support - RadComboBox
+description: Check our Web Forms article about RTL Support.
 slug: combobox/appearance-and-styling/rtl-support
 tags: rtl,support
 published: True

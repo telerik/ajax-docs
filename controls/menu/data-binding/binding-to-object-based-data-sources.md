@@ -1,7 +1,7 @@
 ---
 title: Binding to Object-Based Data Sources
-page_title: Binding to Object-Based Data Sources | RadMenu for ASP.NET AJAX Documentation
-description: Binding to Object-Based Data Sources
+page_title: Binding to Object-Based Data Sources - RadMenu
+description: Check our Web Forms article about Binding to Object-Based Data Sources.
 slug: menu/data-binding/binding-to-object-based-data-sources
 tags: binding,to,object-based,data,sources
 published: True

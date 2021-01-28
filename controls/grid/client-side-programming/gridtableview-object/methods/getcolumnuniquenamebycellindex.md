@@ -1,7 +1,7 @@
 ---
 title: getColumnUniqueNameByCellIndex
-page_title: getColumnUniqueNameByCellIndex | RadGrid for ASP.NET AJAX Documentation
-description: getColumnUniqueNameByCellIndex
+page_title: getColumnUniqueNameByCellIndex - RadGrid
+description: Check our Web Forms article about getColumnUniqueNameByCellIndex.
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnuniquenamebycellindex
 tags: getcolumnuniquenamebycellindex
 published: True

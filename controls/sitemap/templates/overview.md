@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadSiteMap for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadSiteMap
+description: Check our Web Forms article about Overview.
 slug: sitemap/templates/overview
 tags: overview
 published: True

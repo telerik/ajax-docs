@@ -1,7 +1,7 @@
 ---
 title: Chart Image is not displayed in the page
-page_title: Chart Image is not displayed in the page | RadChart for ASP.NET AJAX Documentation
-description: Chart Image is not displayed in the page
+page_title: Chart Image is not displayed in the page - RadChart
+description: Check our Web Forms article about Chart Image is not displayed in the page.
 slug: chart/troubleshooting/chart-image-is-not-displayed-in-the-page
 tags: chart,image,is,not,displayed,in,the,page
 published: True

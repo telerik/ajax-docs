@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorToolStrip
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorToolStrip
 slug: Telerik.Web.UI.EditorToolStrip
 ---

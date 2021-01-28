@@ -1,7 +1,7 @@
 ---
 title: OnItemDblClick
-page_title: OnItemDblClick | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemDblClick Event
+page_title: OnItemDblClick - RadTreeList
+description: Check our Web Forms article about OnItemDblClick Event.
 slug: treelist/client-side-programming/Events/OnItemDblClick
 tags: events,OnItemDblClick
 published: True

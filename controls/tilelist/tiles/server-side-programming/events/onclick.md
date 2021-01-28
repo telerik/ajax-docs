@@ -1,7 +1,7 @@
 ---
 title: OnClick
-page_title: OnClick | RadTile for ASP.NET AJAX Documentation
-description: OnClick
+page_title: OnClick - RadTile
+description: Check our Web Forms article about OnClick.
 slug: tilelist/tiles/server-side-programming/events/onclick
 tags: onclick
 published: True

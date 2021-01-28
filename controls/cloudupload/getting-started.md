@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadCloudUpload for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadCloudUpload
+description: Check our Web Forms article about Getting Started.
 slug: cloudupload/getting-started
 tags: getting,started
 published: True

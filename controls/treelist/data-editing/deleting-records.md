@@ -1,7 +1,7 @@
 ---
 title: Deleting Records
-page_title: Deleting Records | RadTreeList for ASP.NET AJAX Documentation
-description: Deleting Records
+page_title: Deleting Records - RadTreeList
+description: Check our Web Forms article about Deleting Records.
 slug: treelist/data-editing/deleting-records
 tags: deleting,records
 published: True

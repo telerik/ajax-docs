@@ -1,7 +1,7 @@
 ---
 title: How to set height to 100% when using ContentUrl in PageView
-page_title: How to set height to 100% when using ContentUrl in PageView | RadTabStrip for ASP.NET AJAX Documentation
-description: How to set height to 100% when using ContentUrl in PageView
+page_title: How to set height to 100% when using ContentUrl in PageView - RadTabStrip
+description: Check our Web Forms article about How to set height to 100% when using ContentUrl in PageView.
 slug: tabstrip/troubleshooting/how-to-set-height-to-100%-when-using-contenturl-in-pageview
 tags: how,to,set,height,to,100%,when,using,contenturl,in,pageview
 published: True

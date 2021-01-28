@@ -1,7 +1,7 @@
 ---
 title: Disable or Hide Modules
-page_title: Disable or Hide Modules | RadEditor for ASP.NET AJAX Documentation
-description: Disable or Hide Modules
+page_title: Disable or Hide Modules - RadEditor
+description: Check our Web Forms article about Disable or Hide Modules.
 slug: editor/functionality/modules/disable-or-hide-modules
 tags: disable,or,hide,modules
 published: True

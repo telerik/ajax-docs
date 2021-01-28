@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentResizeStart
-page_title: OnClientAppointmentResizeStart | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentResizeStart
+page_title: OnClientAppointmentResizeStart - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentResizeStart.
 slug: scheduler/client-side-programming/events/onclientappointmentresizestart
 tags: onclientappointmentresizestart
 published: True

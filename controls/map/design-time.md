@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadMap for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadMap
+description: Check our Web Forms article about Design Time.
 slug: map/design-time
 tags: design,time
 published: True

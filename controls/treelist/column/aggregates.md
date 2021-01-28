@@ -1,7 +1,7 @@
 ---
 title: Aggregates
-page_title: Aggregates | RadTreeList for ASP.NET AJAX Documentation
-description: Aggregates
+page_title: Aggregates - RadTreeList
+description: Check our Web Forms article about Aggregates.
 slug: treelist/column/aggregates
 tags: aggregates
 published: True

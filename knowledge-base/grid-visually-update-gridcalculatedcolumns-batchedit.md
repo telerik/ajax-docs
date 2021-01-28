@@ -2,7 +2,7 @@
 title: Visually Update CalculatedColumns on BatchEdit Cell Value Changed
 description: 
 type: how-to
-page_title: Visually Update CalculatedColumns in BatchEdit - RadGrid |UI for ASP.NET AJAX
+page_title: Visually Update CalculatedColumns in BatchEdit - RadGrid
 slug: grid-visually-update-gridcalculatedcolumns-batchedit
 res_type: kb
 ---

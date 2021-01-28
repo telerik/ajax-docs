@@ -1,7 +1,7 @@
 ---
 title: OnClientComboBoxSelectedIndexChanging
-page_title: OnClientComboBoxSelectedIndexChanging | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientComboBoxSelectedIndexChanging
+page_title: OnClientComboBoxSelectedIndexChanging - RadRibbonBar
+description: Check our Web Forms article about OnClientComboBoxSelectedIndexChanging.
 slug: ribbonbar/client-side-programming/events/onclientcomboboxselectedindexchanging
 tags: onclientcomboboxselectedindexchanging
 published: True

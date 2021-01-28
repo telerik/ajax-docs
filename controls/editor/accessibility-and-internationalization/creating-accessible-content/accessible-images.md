@@ -1,7 +1,7 @@
 ---
 title: Accessible Images
-page_title: Accessible Images | RadEditor for ASP.NET AJAX Documentation
-description: Accessible Images
+page_title: Accessible Images - RadEditor
+description: Check our Web Forms article about Accessible Images.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-images
 tags: accessible,images
 published: True

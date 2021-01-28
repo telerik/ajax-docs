@@ -1,7 +1,7 @@
 ---
 title: Template Editor
-page_title: Template Editor | RadListBox for ASP.NET AJAX Documentation
-description: Template Editor
+page_title: Template Editor - RadListBox
+description: Check our Web Forms article about Template Editor.
 slug: listbox/design-time/template-editor
 tags: template,editor
 published: True

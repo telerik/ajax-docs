@@ -1,7 +1,7 @@
 ---
 title: Server Templates
-page_title: Server Templates | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Server Templates
+page_title: Server Templates - RadAutoCompleteBox
+description: Check our Web Forms article about Server Templates.
 slug: autocompletebox/templates/server-templates
 tags: server,templates
 published: True

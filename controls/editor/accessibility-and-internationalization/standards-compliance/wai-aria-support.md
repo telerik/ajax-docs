@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadEditor for ASP.NET AJAX Documentation
-description: WAI-ARIA Support
+page_title: WAI-ARIA Support - RadEditor
+description: Check our Web Forms article about WAI-ARIA Support.
 slug: editor/accessibility-and-internationalization/standards-compliance/wai-aria-support
 tags: wai-aria,support
 published: True

@@ -1,7 +1,7 @@
 ---
 title: fire
-page_title: fire | RadEditor for ASP.NET AJAX Documentation
-description: fire
+page_title: fire - RadEditor
+description: Check our Web Forms article about fire.
 slug: editor/client-side-programming/methods/fire
 tags: fire
 published: True

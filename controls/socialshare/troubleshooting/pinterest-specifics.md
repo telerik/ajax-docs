@@ -1,7 +1,7 @@
 ---
 title: Pinterest Specifics
-page_title: Pinterest Specifics | RadSocialShare for ASP.NET AJAX Documentation
-description: Pinterest Specifics
+page_title: Pinterest Specifics - RadSocialShare
+description: Check our Web Forms article about Pinterest Specifics.
 slug: socialshare/troubleshooting/pinterest-specifics
 tags: pinterest,specifics
 published: True

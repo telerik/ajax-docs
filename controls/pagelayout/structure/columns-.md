@@ -1,7 +1,7 @@
 ---
 title: Columns 
-page_title: Columns  | RadPageLayout for ASP.NET AJAX Documentation
-description: Columns 
+page_title: Columns - RadPageLayout
+description: Check our Web Forms article about Columns.
 slug: pagelayout/structure/columns-
 tags: columns,
 published: True

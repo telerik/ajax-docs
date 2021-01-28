@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadImageGallery for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadImageGallery
+description: Check our Web Forms article about Overview.
 slug: imagegallery/server-side-programming/overview
 tags: overview
 published: True

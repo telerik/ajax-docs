@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadPanelBar
+description: Check our Web Forms article about OnClientLoad.
 slug: panelbar/client-side-programming/onclientload
 tags: onclientload
 published: True

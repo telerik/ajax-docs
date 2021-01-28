@@ -1,7 +1,7 @@
 ---
 title: Accessing Client Changes at the Server
-page_title: Accessing Client Changes at the Server | RadComboBox for ASP.NET AJAX Documentation
-description: Accessing Client Changes at the Server
+page_title: Accessing Client Changes at the Server - RadComboBox
+description: Check our Web Forms article about Accessing Client Changes at the Server.
 slug: combobox/client-side-programming/accessing-client-changes-at-the-server
 tags: accessing,client,changes,at,the,server
 published: True

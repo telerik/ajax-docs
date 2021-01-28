@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeClicked
-page_title: OnClientNodeClicked | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodeClicked
+page_title: OnClientNodeClicked - RadNavigation
+description: Check our Web Forms article about OnClientNodeClicked.
 slug: navigation/client-side-programming/events/onclientnodeclicked
 tags: onclientnodeclicked
 published: True

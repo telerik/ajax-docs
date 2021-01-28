@@ -1,7 +1,7 @@
 ---
 title: Week View
-page_title: Week View | RadGantt for ASP.NET AJAX Documentation
-description: Week View
+page_title: Week View - RadGantt
+description: Check our Web Forms article about Week View.
 slug: gantt/views/week-view
 tags: week,view
 published: True

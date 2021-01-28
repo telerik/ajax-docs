@@ -1,7 +1,7 @@
 ---
 title: Focus the Textboxes in the Edit Control
-page_title: Focus the Textboxes in the Edit Control | RadGrid for ASP.NET AJAX Documentation
-description: Focus the Textboxes in the Edit Control
+page_title: Focus the Textboxes in the Edit Control - RadGrid
+description: Check our Web Forms article about Focus the Textboxes in the Edit Control.
 slug: grid/how-to/data-editing/focus-the-textboxes-in-the-edit-control
 previous_url: controls/grid/data-editing/how-to/focus-the-textboxes-in-the-edit-control
 tags: focus,the,textboxes,in,the,edit,control

@@ -1,7 +1,7 @@
 ---
 title: Integration with ListView
-page_title: Integration with ListView | RadDataPager for ASP.NET AJAX Documentation
-description: Integration with ListView
+page_title: Integration with ListView - RadDataPager
+description: Check our Web Forms article about Integration with ListView.
 slug: datapager/how-to/integration-with-listview
 tags: integration,with,listview
 published: True

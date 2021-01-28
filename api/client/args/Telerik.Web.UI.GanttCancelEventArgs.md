@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttCancelEventArgs
 slug: Telerik.Web.UI.GanttCancelEventArgs
 ---

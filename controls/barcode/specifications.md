@@ -1,7 +1,7 @@
 ---
 title: Specifications
-page_title: Specifications | RadBarcode for ASP.NET AJAX Documentation
-description: Specifications
+page_title: Specifications - RadBarcode
+description: Check our Web Forms article about Specifications.
 slug: barcode/specifications
 tags: specifications
 published: True

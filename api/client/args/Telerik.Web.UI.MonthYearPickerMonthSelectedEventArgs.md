@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs
 slug: Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs
 ---

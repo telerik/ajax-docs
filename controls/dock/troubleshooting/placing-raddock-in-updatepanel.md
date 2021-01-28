@@ -1,7 +1,7 @@
 ---
 title: Placing RadDock In UpdatePanel
-page_title: Placing RadDock In UpdatePanel | RadDock for ASP.NET AJAX Documentation
-description: Placing RadDock In UpdatePanel
+page_title: Placing RadDock In UpdatePanel - RadDock
+description: Check our Web Forms article about Placing RadDock In UpdatePanel.
 slug: dock/troubleshooting/placing-raddock-in-updatepanel
 tags: placing,raddock,in,updatepanel
 published: True

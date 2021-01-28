@@ -1,7 +1,7 @@
 ---
 title: Nested Context Menus
-page_title: Nested Context Menus  | RadEditor for ASP.NET AJAX Documentation
-description: Nested Context Menus
+page_title: Nested Context Menus - RadEditor
+description: Check our Web Forms article about Nested Context Menus.
 slug: editor/functionality/context-menus/nested-context-menus
 tags: disable,context,menu, nested, right, click
 published: True

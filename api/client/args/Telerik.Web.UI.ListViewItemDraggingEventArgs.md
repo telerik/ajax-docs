@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewItemDraggingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewItemDraggingEventArgs
 slug: Telerik.Web.UI.ListViewItemDraggingEventArgs
 ---

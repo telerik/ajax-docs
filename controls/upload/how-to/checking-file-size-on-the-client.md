@@ -1,7 +1,7 @@
 ---
 title: Checking File Size on the Client
-page_title: Checking File Size on the Client | RadUpload for ASP.NET AJAX Documentation
-description: Checking File Size on the Client
+page_title: Checking File Size on the Client - RadUpload
+description: Check our Web Forms article about Checking File Size on the Client.
 slug: upload/how-to/checking-file-size-on-the-client
 tags: checking,file,size,on,the,client
 published: True

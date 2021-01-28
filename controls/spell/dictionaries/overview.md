@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Dictionaries Overview | RadSpell for ASP.NET AJAX Documentation
-description: Overview
+page_title: Dictionaries Overview - RadSpell
+description: Check our Web Forms article about Overview.
 slug: spell/dictionaries/overview
 tags: overview
 published: True

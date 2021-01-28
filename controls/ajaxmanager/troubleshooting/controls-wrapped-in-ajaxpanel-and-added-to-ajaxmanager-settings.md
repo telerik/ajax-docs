@@ -1,7 +1,7 @@
 ---
 title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings
-page_title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings | RadAjax for ASP.NET AJAX Documentation
-description: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings
+page_title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings
+description: Check our Web Forms article about Controls Wrapped in AjaxPanel and Added to AjaxManager Settings.
 slug: ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings
 previous_url: ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings
 tags: controls,wrapped,in,ajaxpanel,and,added,to,ajaxmanager,settings

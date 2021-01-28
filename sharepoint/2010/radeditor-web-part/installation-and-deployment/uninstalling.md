@@ -1,7 +1,7 @@
 ---
 title: Uninstalling
-page_title: Uninstalling | UI for ASP.NET AJAX Documentation
-description: Uninstalling
+page_title: Uninstalling
+description: Check our Web Forms article about Uninstalling.
 slug: sharepoint/2010/radeditor-web-part/installation-and-deployment/uninstalling
 tags: uninstalling
 published: True

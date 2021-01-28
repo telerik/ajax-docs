@@ -1,7 +1,7 @@
 ---
 title: Adding Labels
-page_title: Adding Labels | RadTextBox for ASP.NET AJAX Documentation
-description: Adding Labels
+page_title: Adding Labels - RadTextBox
+description: Check our Web Forms article about Adding Labels.
 slug: radtextbox/appearance-and-styling/adding-labels
 tags: adding,labels
 published: True

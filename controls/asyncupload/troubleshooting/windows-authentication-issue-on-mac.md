@@ -1,7 +1,7 @@
 ---
 title: Inability to upload files on iOS and OSX devices with enabled Windows Authentication
-page_title: Inability to upload files on iOS and OSX devices with enabled Windows Authentication | RadAsyncUpload for ASP.NET AJAX Documentation
-description: When uploading a file using the RadAsyncUpload in Safari on iOS and OSX, the upload could hang and never completes.
+page_title: Inability to upload files on iOS and OSX devices with enabled Windows Authentication - RadAsyncUpload
+description: Check our Web Forms article about When uploading a file using the RadAsyncUpload in Safari on iOS and OSX, the upload could hang and never completes.
 slug: asyncupload/troubleshooting/windows-authentication-issue-on-mac
 tags: windows, authentication, mac, safari, upload, issue, problem, bug
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadCheckBoxList for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadCheckBoxList
+description: Check our Web Forms article about Skins.
 slug: checkboxlist/appearance-and-styling/skins
 tags: skins
 published: True

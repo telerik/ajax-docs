@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadPushButton for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadPushButton
+description: Check our Web Forms article about Render Modes.
 slug: pushbutton/mobile-support/render-modes
 tags: render,modes
 published: True

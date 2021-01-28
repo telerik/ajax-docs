@@ -1,7 +1,7 @@
 ---
 title: RadWindowManager Object
-page_title: RadWindowManager Object | RadWindow for ASP.NET AJAX Documentation
-description: RadWindowManager Object
+page_title: RadWindowManager Object - RadWindow
+description: Check our Web Forms article about RadWindowManager Object.
 slug: window/client-side-programming/radwindowmanager-object
 tags: radwindowmanager,object
 published: True

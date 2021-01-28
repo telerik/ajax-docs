@@ -1,7 +1,7 @@
 ---
 title: ActiveStepChanged
-page_title: ActiveStepChanged | RadWizard for ASP.NET AJAX Documentation
-description: ActiveStepChanged
+page_title: ActiveStepChanged - RadWizard
+description: Check our Web Forms article about ActiveStepChanged.
 slug: wizard/server-side-programming/events/activestepchanged
 tags: activestepchanged
 published: True

@@ -2,7 +2,7 @@
 title: Using Font Awesome in RadGrid buttons
 description: 
 type: how-to
-page_title: Using Font Awesome in RadGrid buttons | Telerik UI for ASP.NET AJAX
+page_title: Using Font Awesome in RadGrid buttons
 slug: grid-using-fontawesome
 res_type: kb
 ---

@@ -1,7 +1,7 @@
 ---
 title: Positions
-page_title: Positions | RadDrawer for ASP.NET AJAX Documentation
-description: Positions
+page_title: Positions - RadDrawer
+description: Check our Web Forms article about Positions.
 slug: drawer/functionality/positions
 tags: Positions
 published: True

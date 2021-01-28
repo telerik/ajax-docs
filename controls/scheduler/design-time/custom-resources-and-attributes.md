@@ -1,7 +1,7 @@
 ---
 title: Custom Resources and Attributes
-page_title: Custom Resources and Attributes | RadScheduler for ASP.NET AJAX Documentation
-description: Custom Resources and Attributes
+page_title: Custom Resources and Attributes - RadScheduler
+description: Check our Web Forms article about Custom Resources and Attributes.
 slug: scheduler/design-time/custom-resources-and-attributes
 tags: custom,resources,and,attributes
 published: True

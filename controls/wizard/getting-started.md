@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadWizard for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadWizard
+description: Check our Web Forms article about Getting Started.
 slug: wizard/getting-started
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Inserting Flash and Media Files
-page_title: Inserting Flash and Media Files | UI for ASP.NET AJAX Documentation
-description: Inserting Flash and Media Files
+page_title: Inserting Flash and Media Files
+description: Check our Web Forms article about Inserting Flash and Media Files.
 slug: sharepoint/2010/radeditor-web-part/dialogs/inserting-flash-and-media-files
 tags: inserting,flash,and,media,files
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadSplitter for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadSplitter
+description: Check our Web Forms article about Structure.
 slug: splitter/getting-started/structure
 tags: structure
 published: True

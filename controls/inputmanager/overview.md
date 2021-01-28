@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadInputManager for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadInputManager
+description: Check our Web Forms article about Overview.
 slug: radinputmanager/overview
 tags: overview
 published: True

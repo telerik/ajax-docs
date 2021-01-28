@@ -1,7 +1,7 @@
 ---
 title: Stacked Series
-page_title: Stacked Series | RadHtmlChart for ASP.NET AJAX Documentation
-description: Stacked Series
+page_title: Stacked Series - RadHtmlChart
+description: Check our Web Forms article about Stacked Series.
 slug: htmlchart/functionality/stacked-series
 tags: stacked,series
 published: True

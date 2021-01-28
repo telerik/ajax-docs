@@ -1,7 +1,7 @@
 ---
 title: Sparkline Chart
-page_title: Sparkline Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Sparkline Chart
+page_title: Sparkline Chart - RadHtmlChart
+description: Check our Web Forms article about Sparkline Chart.
 slug: htmlchart/chart-types/sparkline-chart
 tags: sparkline,chart
 published: True

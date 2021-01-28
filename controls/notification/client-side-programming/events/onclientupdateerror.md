@@ -1,7 +1,7 @@
 ---
 title: OnClientUpdateError
-page_title: OnClientUpdateError | RadNotification for ASP.NET AJAX Documentation
-description: OnClientUpdateError
+page_title: OnClientUpdateError - RadNotification
+description: Check our Web Forms article about OnClientUpdateError.
 slug: notification/client-side-programming/events/onclientupdateerror
 tags: onclientupdateerror
 published: True

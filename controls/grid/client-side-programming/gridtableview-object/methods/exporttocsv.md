@@ -1,7 +1,7 @@
 ---
 title: exportToCsv
-page_title: exportToCsv | RadGrid for ASP.NET AJAX Documentation
-description: exportToCsv
+page_title: exportToCsv - RadGrid
+description: Check our Web Forms article about exportToCsv.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttocsv
 tags: exporttocsv
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Add AjaxSettings Programmatically
-page_title: Add AjaxSettings Programmatically | RadAjax for ASP.NET AJAX Documentation
-description: Add AjaxSettings Programmatically
+page_title: Add AjaxSettings Programmatically
+description: Check our Web Forms article about Add AjaxSettings Programmatically.
 slug: ajaxmanager/how-to/add-ajaxsettings-programmatically
 previous_url: ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically
 tags: add,ajaxsettings,programmatically

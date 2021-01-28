@@ -1,7 +1,7 @@
 ---
 title: Tile Layers
-page_title: Tile Layers | RadMap for ASP.NET AJAX Documentation
-description: Tile Layers
+page_title: Tile Layers - RadMap
+description: Check our Web Forms article about Tile Layers.
 slug: map/functionality/tile-layers
 tags: tile,layers
 published: True

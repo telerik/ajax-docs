@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: File Browser Dialogs Overview | RadEditor for ASP.NET AJAX Documentation
-description: File Browser Dialogs Overview
+page_title: File Browser Dialogs Overview - RadEditor
+description: Check our Web Forms article about File Browser Dialogs Overview.
 slug: editor/functionality/dialogs/file-browser-dialogs/overview
 tags: overview
 published: True

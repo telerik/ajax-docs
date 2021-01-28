@@ -1,7 +1,7 @@
 ---
 title: RadOrgChart Object
-page_title: RadOrgChart Object | RadOrgChart for ASP.NET AJAX Documentation
-description: RadOrgChart Object
+page_title: RadOrgChart Object - RadOrgChart
+description: Check our Web Forms article about RadOrgChart Object.
 slug: orgchart/client-side-programming/radorgchart-object
 tags: radorgchart,object
 published: True

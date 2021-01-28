@@ -1,7 +1,7 @@
 ---
 title: Group Header and Footer Templates
-page_title: Group Header and Footer Templates | RadGrid for ASP.NET AJAX Documentation
-description: Group Header and Footer Templates
+page_title: Group Header and Footer Templates - RadGrid
+description: Check our Web Forms article about Group Header and Footer Templates.
 slug: grid/functionality/grouping/group-header-and-footer-templates
 tags: group,header,and,footer,templates
 published: True

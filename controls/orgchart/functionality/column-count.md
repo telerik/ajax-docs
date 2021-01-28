@@ -1,7 +1,7 @@
 ---
 title: Column Count
-page_title: Column Count | RadOrgChart for ASP.NET AJAX Documentation
-description: Column Count
+page_title: Column Count - RadOrgChart
+description: Check our Web Forms article about Column Count.
 slug: orgchart/functionality/column-count
 tags: column,count
 published: True

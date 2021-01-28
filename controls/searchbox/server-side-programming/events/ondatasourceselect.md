@@ -1,7 +1,7 @@
 ---
 title: OnDataSourceSelect
-page_title: OnDataSourceSelect | RadSearchBox for ASP.NET AJAX Documentation
-description: OnDataSourceSelect
+page_title: OnDataSourceSelect - RadSearchBox
+description: Check our Web Forms article about OnDataSourceSelect.
 slug: searchbox/server-side-programming/events/ondatasourceselect
 tags: ondatasourceselect
 published: True

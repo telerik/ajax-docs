@@ -1,7 +1,7 @@
 ---
 title: selectItem
-page_title: selectItem | RadListView for ASP.NET AJAX Documentation
-description: selectItem
+page_title: selectItem - RadListView
+description: Check our Web Forms article about selectItem.
 slug: listview/client-side-programming/radlistview/methods/selectitem
 tags: selectitem
 published: True

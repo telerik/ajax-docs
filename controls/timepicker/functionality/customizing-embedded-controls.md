@@ -1,7 +1,7 @@
 ---
 title: Customizing the Embedded Controls
-page_title: Customizing the Embedded Controls | RadTimePicker for ASP.NET AJAX Documentation
-description: Customizing the Embedded Controls
+page_title: Customizing the Embedded Controls - RadTimePicker
+description: Check our Web Forms article about Customizing the Embedded Controls.
 slug: timepicker/functionality/customizing-the-embedded-controls
 tags: customizing,the,embedded,controls
 published: True

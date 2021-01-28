@@ -1,7 +1,7 @@
 ---
 title: Resposnive, Adaptive and Elastic Capabilities
-page_title: Resposnive, Adaptive and Elastic Capabilities | RadTagCloud for ASP.NET AJAX Documentation
-description: Resposnive, Adaptive and Elastic Capabilities
+page_title: Resposnive, Adaptive and Elastic Capabilities - RadTagCloud
+description: Check our Web Forms article about Resposnive, Adaptive and Elastic Capabilities.
 slug: tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities
 tags: resposnive,,adaptive,and,elastic,capabilities
 published: True

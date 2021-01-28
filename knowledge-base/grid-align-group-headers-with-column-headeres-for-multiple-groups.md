@@ -1,6 +1,6 @@
 ---
 title: Align RadGrid Group Headers with Column Headers for Multiple Groups
-description: Follow along to learn how to align multiple group headers and columns in a RadGrid
+description: Follow along to learn how to align multiple group headers and columns in a RadGrid.
 type: how-to
 page_title: Align Columns and Headers with Multiple Groups in RadGrid
 slug: grid-align-group-headers-with-column-headers-for-multiple-groups

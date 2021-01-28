@@ -1,7 +1,7 @@
 ---
 title: Basic Usage
-page_title: Basic Usage | UI for ASP.NET AJAX Documentation
-description: Basic Usage
+page_title: Basic Usage
+description: Check our Web Forms article about Basic Usage.
 slug: introduction/visual-stylebuilder/basic-usage
 tags: basic,usage
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RotatorAnimationType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RotatorAnimationType
 slug: Telerik.Web.UI.RotatorAnimationType
 ---

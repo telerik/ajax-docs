@@ -1,7 +1,7 @@
 ---
 title: Getting Started 
-page_title: Getting Started  | RadDropDownTree for ASP.NET AJAX Documentation
-description: Getting Started 
+page_title: Getting Started - RadDropDownTree
+description: Check our Web Forms article about Getting Started.
 slug: dropdowntree/getting-started/getting-started-
 tags: getting,started,
 published: False

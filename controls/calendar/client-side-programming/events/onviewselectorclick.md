@@ -1,7 +1,7 @@
 ---
 title: OnViewSelectorClick
-page_title: OnViewSelectorClick | RadCalendar for ASP.NET AJAX Documentation
-description: OnViewSelectorClick
+page_title: OnViewSelectorClick - RadCalendar
+description: Check our Web Forms article about OnViewSelectorClick.
 slug: calendar/client-side-programming/events/onviewselectorclick
 tags: onviewselectorclick
 published: True

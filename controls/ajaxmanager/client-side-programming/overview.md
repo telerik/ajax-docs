@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadAjax for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview
+description: Check our Web Forms article about Overview.
 slug: ajaxmanager/client-side-programming/overview
 previous_url: ajax/client-side-programming/overview
 tags: overview

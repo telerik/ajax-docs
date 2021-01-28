@@ -1,7 +1,7 @@
 ---
 title: Showing and Positioning
-page_title: Showing and Positioning | RadWindow for ASP.NET AJAX Documentation
-description: Showing and Positioning
+page_title: Showing and Positioning - RadWindow
+description: Check our Web Forms article about Showing and Positioning.
 slug: window/getting-started/showing-and-positioning
 tags: showing,and,positioning
 published: True

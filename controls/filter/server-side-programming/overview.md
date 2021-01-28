@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadFilter Server-Side Programming Overview | RadFilter for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadFilter Server-Side Programming Overview - RadFilter
+description: Check our Web Forms article about Overview.
 slug: filter/server-side-programming/overview
 tags: overview
 published: True

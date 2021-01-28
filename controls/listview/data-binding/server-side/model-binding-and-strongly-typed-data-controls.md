@@ -1,7 +1,7 @@
 ---
 title: Model binding and strongly typed data controls
-page_title: Model binding and strongly typed data controls | RadListView for ASP.NET AJAX Documentation
-description: Model binding and strongly typed data controls
+page_title: Model binding and strongly typed data controls - RadListView
+description: Check our Web Forms article about Model binding and strongly typed data controls.
 slug: listview/data-binding/server-side/model-binding-and-strongly-typed-data-controls
 tags: model,binding,and,strongly,typed,data,controls
 published: True

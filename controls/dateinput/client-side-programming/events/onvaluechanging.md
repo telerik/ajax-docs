@@ -1,7 +1,7 @@
 ---
 title: OnValueChanging
-page_title: OnValueChanging | RadDateInput for ASP.NET AJAX Documentation
-description: OnValueChanging
+page_title: OnValueChanging - RadDateInput
+description: Check our Web Forms article about OnValueChanging.
 slug: raddateinput/client-side-programming/events/onvaluechanging
 tags: onvaluechanging
 published: True

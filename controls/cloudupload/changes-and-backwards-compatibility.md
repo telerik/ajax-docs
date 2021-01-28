@@ -1,7 +1,7 @@
 ---
 title: Changes and Backward Compatibility
-page_title: Changes and backward compatibility | RadCloudUpload for ASP.NET AJAX Documentation
-description: Changes and backward compatibility
+page_title: Changes and backward compatibility - RadCloudUpload
+description: Check our Web Forms article about Changes and backward compatibility.
 slug: cloudupload/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

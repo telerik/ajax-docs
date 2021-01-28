@@ -1,7 +1,7 @@
 ---
 title: DialogsCssFile Property
-page_title: DialogsCssFile Property | RadEditor for ASP.NET AJAX Documentation
-description: DialogsCssFile Property
+page_title: DialogsCssFile Property - RadEditor
+description: Check our Web Forms article about DialogsCssFile Property.
 slug: editor/appearance-and-styling/dialogscssfile-property
 tags: dialogscssfile,property
 published: True

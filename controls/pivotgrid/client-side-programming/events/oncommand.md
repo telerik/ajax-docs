@@ -1,7 +1,7 @@
 ---
 title: OnCommand
-page_title: OnCommand | RadPivotGrid for ASP.NET AJAX Documentation
-description: OnCommand
+page_title: OnCommand - RadPivotGrid
+description: Check our Web Forms article about OnCommand.
 slug: pivotgrid/client-side-programming/events/oncommand
 tags: oncommand
 published: True

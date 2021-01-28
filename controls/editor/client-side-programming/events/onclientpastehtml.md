@@ -1,7 +1,7 @@
 ---
 title: OnClientPasteHtml
-page_title: OnClientPasteHtml | RadEditor for ASP.NET AJAX Documentation
-description: OnClientPasteHtml
+page_title: OnClientPasteHtml - RadEditor
+description: Check our Web Forms article about OnClientPasteHtml.
 slug: editor/client-side-programming/events/onclientpastehtml
 tags: onclientpastehtml
 published: True

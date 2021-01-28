@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeDragging
-page_title: OnClientNodeDragging | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeDragging
+page_title: OnClientNodeDragging - RadTreeView
+description: Check our Web Forms article about OnClientNodeDragging.
 slug: treeview/client-side-programming/events/onclientnodedragging
 tags: onclientnodedragging
 published: True

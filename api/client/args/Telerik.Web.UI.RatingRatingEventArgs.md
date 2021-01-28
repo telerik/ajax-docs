@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RatingRatingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RatingRatingEventArgs
 slug: Telerik.Web.UI.RatingRatingEventArgs
 ---

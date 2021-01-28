@@ -1,7 +1,7 @@
 ---
 title: Print the Content of the Selected RadPageView only
-page_title: Print the Content of the Selected RadPageView only | RadTabStrip for ASP.NET AJAX Documentation
-description: Print the Content of the Selected RadPageView only
+page_title: Print the Content of the Selected RadPageView only - RadTabStrip
+description: Check our Web Forms article about Print the Content of the Selected RadPageView only.
 slug: tabstrip/how-to/print-the-content-of-the-selected-radpageview-only
 tags: print,the,content,of,the,selected,radpageview,only
 published: True

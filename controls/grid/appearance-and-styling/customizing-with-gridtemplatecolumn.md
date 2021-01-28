@@ -1,7 +1,7 @@
 ---
 title: Customizing with GridTemplateColumn
-page_title: Customizing with GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
-description: Customizing with GridTemplateColumn
+page_title: Customizing with GridTemplateColumn - RadGrid
+description: Check our Web Forms article about Customizing with GridTemplateColumn.
 slug: grid/appearance-and-styling/customizing-with-gridtemplatecolumn
 tags: customizing,with,gridtemplatecolumn
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientBeforeClose
-page_title: OnClientBeforeClose | RadWindow for ASP.NET AJAX Documentation
-description: OnClientBeforeClose
+page_title: OnClientBeforeClose - RadWindow
+description: Check our Web Forms article about OnClientBeforeClose.
 slug: window/client-side-programming/events/onclientbeforeclose
 tags: onclientbeforeclose
 published: True

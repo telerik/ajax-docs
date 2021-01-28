@@ -1,7 +1,7 @@
 ---
 title: Sort Expressions
-page_title: Sort Expressions | RadGrid for ASP.NET AJAX Documentation
-description: Sort Expressions
+page_title: Sort Expressions - RadGrid
+description: Check our Web Forms article about Sort Expressions.
 slug: grid/functionality/sorting/sort-expressions
 tags: sort,expressions
 published: True

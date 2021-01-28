@@ -1,7 +1,7 @@
 ---
 title: OnClientNavigationComplete
-page_title: OnClientNavigationComplete | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientNavigationComplete
+page_title: OnClientNavigationComplete - RadScheduler
+description: Check our Web Forms article about OnClientNavigationComplete.
 slug: scheduler/client-side-programming/events/onclientnavigationcomplete
 tags: onclientnavigationcomplete
 published: True

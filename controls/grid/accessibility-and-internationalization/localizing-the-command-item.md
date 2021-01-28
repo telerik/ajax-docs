@@ -1,7 +1,7 @@
 ---
 title: Localizing the Command Item
-page_title: Localizing the Command Item | RadGrid for ASP.NET AJAX Documentation
-description: Localizing the Command Item
+page_title: Localizing the Command Item - RadGrid
+description: Check our Web Forms article about Localizing the Command Item.
 slug: grid/accessibility-and-internationalization/localizing-the-command-item
 tags: localizing,the,command,item
 published: True

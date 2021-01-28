@@ -1,7 +1,7 @@
 ---
 title: Change RenderMode According to Current Window Size
-page_title: Change RenderMode According to Current Window Size | RadMenu for ASP.NET AJAX Documentation
-description: Change RenderMode According to Current Window Size
+page_title: Change RenderMode According to Current Window Size - RadMenu
+description: Check our Web Forms article about Change RenderMode According to Current Window Size.
 slug: menu/how-to/change-rendermode-according-to-current-window-size
 tags: rendermode,lightweight,mobile,window,size,viw,menu,change
 published: True

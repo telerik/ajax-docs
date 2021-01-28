@@ -1,7 +1,7 @@
 ---
 title: RadComboBoxItemCollection Object
-page_title: RadComboBoxItemCollection Object | RadComboBox for ASP.NET AJAX Documentation
-description: RadComboBoxItemCollection Object
+page_title: RadComboBoxItemCollection Object - RadComboBox
+description: Check our Web Forms article about RadComboBoxItemCollection Object.
 slug: combobox/client-side-programming/objects/radcomboboxitemcollection-object
 tags: radcomboboxitemcollection,object
 published: True

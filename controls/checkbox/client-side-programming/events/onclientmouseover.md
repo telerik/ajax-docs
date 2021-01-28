@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadCheckBox for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadCheckBox
+description: Check our Web Forms article about OnClientMouseOver.
 slug: checkbox/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

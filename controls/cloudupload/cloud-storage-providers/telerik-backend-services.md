@@ -1,7 +1,7 @@
 ---
 title: Telerik Backend Services
-page_title: Telerik Backend Services | RadCloudUpload for ASP.NET AJAX Documentation
-description: Telerik Backend Services
+page_title: Telerik Backend Services - RadCloudUpload
+description: Check our Web Forms article about Telerik Backend Services.
 slug: cloudupload/cloud-storage-providers/telerik-backend-services
 tags: telerik,backend,services
 published: True

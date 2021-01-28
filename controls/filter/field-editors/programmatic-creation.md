@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | RadFilter for ASP.NET AJAX Documentation
-description: Programmatic Creation
+page_title: Programmatic Creation - RadFilter
+description: Check our Web Forms article about Programmatic Creation.
 slug: filter/field-editors/programmatic-creation
 tags: programmatic,creation
 published: True

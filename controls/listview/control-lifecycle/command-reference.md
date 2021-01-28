@@ -1,7 +1,7 @@
 ---
 title: Command Reference
-page_title: Command Reference | RadListView for ASP.NET AJAX Documentation
-description: Command Reference
+page_title: Command Reference - RadListView
+description: Check our Web Forms article about Command Reference.
 slug: listview/control-lifecycle/command-reference
 tags: command,reference
 published: True

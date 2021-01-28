@@ -1,7 +1,7 @@
 ---
 title: Item Sizes
-page_title: Item Sizes | RadRibbonBar for ASP.NET AJAX Documentation
-description: Item Sizes
+page_title: Item Sizes - RadRibbonBar
+description: Check our Web Forms article about Item Sizes.
 slug: ribbonbar/appearance-and-styling/item-sizes
 tags: item,sizes
 published: True

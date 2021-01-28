@@ -1,7 +1,7 @@
 ---
 title: Polar Chart
-page_title: Polar Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Polar Chart
+page_title: Polar Chart - RadHtmlChart
+description: Check our Web Forms article about Polar Chart.
 slug: htmlchart/chart-types/polar-chart
 tags: polar,chart
 published: True

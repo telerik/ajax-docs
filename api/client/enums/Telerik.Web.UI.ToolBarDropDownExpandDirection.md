@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ToolBarDropDownExpandDirection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ToolBarDropDownExpandDirection
 slug: Telerik.Web.UI.ToolBarDropDownExpandDirection
 ---

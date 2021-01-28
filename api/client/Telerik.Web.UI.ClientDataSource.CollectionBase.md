@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.CollectionBase
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ClientDataSource.CollectionBase
 slug: Telerik.Web.UI.ClientDataSource.CollectionBase
 ---

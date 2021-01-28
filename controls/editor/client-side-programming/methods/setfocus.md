@@ -1,7 +1,7 @@
 ---
 title: setFocus
-page_title: setFocus | RadEditor for ASP.NET AJAX Documentation
-description: setFocus
+page_title: setFocus - RadEditor
+description: Check our Web Forms article about setFocus.
 slug: editor/client-side-programming/methods/setfocus
 tags: setfocus
 published: True

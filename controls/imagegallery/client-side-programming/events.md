@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadImageGallery for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadImageGallery
+description: Check our Web Forms article about Events.
 slug: imagegallery/client-side-programming/events
 tags: events
 published: True

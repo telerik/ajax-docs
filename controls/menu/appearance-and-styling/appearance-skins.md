@@ -1,7 +1,7 @@
 ---
 title: Appearance Skins
-page_title: Appearance Skins | RadMenu for ASP.NET AJAX Documentation
-description: Appearance Skins
+page_title: Appearance Skins - RadMenu
+description: Check our Web Forms article about Appearance Skins.
 slug: menu/appearance-and-styling/appearance-skins
 tags: appearance,skins
 published: True

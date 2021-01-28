@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadCard Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadCard Overview
+description: Check our Web Forms article about Overview.
 slug: card/overview
 tags: overview
 published: True

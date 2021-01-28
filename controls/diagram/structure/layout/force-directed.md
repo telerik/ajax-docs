@@ -1,7 +1,7 @@
 ---
 title: Force-directed
-page_title: Force-directed | RadDiagram for ASP.NET AJAX Documentation
-description: Force-directed
+page_title: Force-directed - RadDiagram
+description: Check our Web Forms article about Force-directed.
 slug: diagram/structure/layout/force-directed
 tags: force-directed
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientClicked
-page_title: OnClientClicked | RadTile for ASP.NET AJAX Documentation
-description: OnClientClicked
+page_title: OnClientClicked - RadTile
+description: Check our Web Forms article about OnClientClicked.
 slug: tilelist/tiles/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True

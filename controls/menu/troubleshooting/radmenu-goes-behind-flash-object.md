@@ -1,7 +1,7 @@
 ---
 title: RadMenu Goes Behind Flash Object
-page_title: RadMenu Goes Behind Flash Object | RadMenu for ASP.NET AJAX Documentation
-description: RadMenu Goes Behind Flash Object
+page_title: RadMenu Goes Behind Flash Object - RadMenu
+description: Check our Web Forms article about RadMenu Goes Behind Flash Object.
 slug: menu/troubleshooting/radmenu-goes-behind-flash-object
 tags: radmenu,goes,behind,flash,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: Properties | RadLinkButton for ASP.NET AJAX Documentation
-description: Properties
+page_title: Properties - RadLinkButton
+description: Check our Web Forms article about Properties.
 slug: linkbutton/server-side-programming/properties-and-events
 previous_url: controls/linkbutton/server-side-programming/properties-and-events
 tags: properties

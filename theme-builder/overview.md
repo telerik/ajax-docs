@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Sass Theme Builder Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Sass Theme Builder Overview
+description: Check our Web Forms article about Overview.
 slug: theme-builder/overview
 tags: overview
 published: True

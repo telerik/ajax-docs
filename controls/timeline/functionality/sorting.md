@@ -1,7 +1,7 @@
 ---
 title: Sorting
-page_title: Sorting | RadTimeline for ASP.NET AJAX Documentation
-description: Sorting
+page_title: Sorting - RadTimeline
+description: Check our Web Forms article about Sorting.
 slug: timeline/functionality/sorting
 tags: sorting,client,server
 published: True

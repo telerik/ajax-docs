@@ -1,7 +1,7 @@
 ---
 title: Getting Started 
-page_title: Getting Started  | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Getting Started 
+page_title: Getting Started - RadBreadcrumb
+description: Check our Web Forms article about Getting Started.
 slug: breadcrumb/getting-started
 tags: getting,started,
 published: True

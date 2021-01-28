@@ -1,7 +1,7 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | RadOrgChart for ASP.NET AJAX Documentation
-description: NodeDataBound
+page_title: NodeDataBound - RadOrgChart
+description: Check our Web Forms article about NodeDataBound.
 slug: orgchart/server-side-programming/events/nodedatabound
 tags: nodedatabound
 published: True

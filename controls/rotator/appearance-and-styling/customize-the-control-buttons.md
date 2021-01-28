@@ -1,7 +1,7 @@
 ---
 title: Customize the Control Buttons
-page_title: Customize the Control Buttons | RadRotator for ASP.NET AJAX Documentation
-description: Customize the Control Buttons
+page_title: Customize the Control Buttons - RadRotator
+description: Check our Web Forms article about Customize the Control Buttons.
 slug: rotator/appearance-and-styling/customize-the-control-buttons
 tags: customize,the,control,buttons
 published: True

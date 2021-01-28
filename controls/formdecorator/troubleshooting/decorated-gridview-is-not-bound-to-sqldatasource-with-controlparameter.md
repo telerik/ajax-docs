@@ -1,7 +1,7 @@
 ---
 title: Decorated GridView Is Not Bound to SqlDataSource with ControlParameter 
-page_title: Decorated GridView Is Not Bound to SqlDataSource with ControlParameter  | RadFormDecorator for ASP.NET AJAX Documentation
-description: Decorated GridView Is Not Bound to SqlDataSource with ControlParameter 
+page_title: Decorated GridView Is Not Bound to SqlDataSource with ControlParameter - RadFormDecorator
+description: Check our Web Forms article about Decorated GridView Is Not Bound to SqlDataSource with ControlParameter.
 slug: formdecorator/troubleshooting/decorated-gridview-is-not-bound-to-sqldatasource-with-controlparameter
 tags: decorated,gridview,is,not,bound,to,sqldatasource,with,controlparameter 
 published: True

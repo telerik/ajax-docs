@@ -1,7 +1,7 @@
 ---
 title: Client Templates
-page_title: Client Templates | RadMenu for ASP.NET AJAX Documentation
-description: Client Templates
+page_title: Client Templates - RadMenu
+description: Check our Web Forms article about Client Templates.
 slug: menu/templates/client-templates
 tags: client,templates
 published: True

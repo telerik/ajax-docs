@@ -1,7 +1,7 @@
 ---
 title: Binding to Hierarchical DataSource Components
-page_title: Binding to Hierarchical DataSource Components | RadTabStrip for ASP.NET AJAX Documentation
-description: Binding to Hierarchical DataSource Components
+page_title: Binding to Hierarchical DataSource Components - RadTabStrip
+description: Check our Web Forms article about Binding to Hierarchical DataSource Components.
 slug: tabstrip/data-binding/binding-to-hierarchical-datasource-components
 tags: binding,to,hierarchical,datasource,components
 published: True

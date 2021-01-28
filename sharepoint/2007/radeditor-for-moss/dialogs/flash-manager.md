@@ -1,7 +1,7 @@
 ---
 title: Flash Manager
-page_title: Flash Manager | UI for ASP.NET AJAX Documentation
-description: Flash Manager
+page_title: Flash Manager
+description: Check our Web Forms article about Flash Manager.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/flash-manager
 tags: flash,manager
 published: True

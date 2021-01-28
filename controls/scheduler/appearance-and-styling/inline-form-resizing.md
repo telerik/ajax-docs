@@ -1,7 +1,7 @@
 ---
 title: Inline Form Resizing
-page_title: Inline Form Resizing | RadScheduler for ASP.NET AJAX Documentation
-description: Inline Form Resizing
+page_title: Inline Form Resizing - RadScheduler
+description: Check our Web Forms article about Inline Form Resizing.
 slug: scheduler/appearance-and-styling/inline-form-resizing
 tags: inline,form,resizing
 published: True

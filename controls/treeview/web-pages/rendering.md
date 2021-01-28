@@ -1,7 +1,7 @@
 ---
 title: Rendering
-page_title: Rendering | RadTreeView for ASP.NET AJAX Documentation
-description: Rendering
+page_title: Rendering - RadTreeView
+description: Check our Web Forms article about Rendering.
 slug: treeview/web-pages/rendering
 tags: rendering
 published: True

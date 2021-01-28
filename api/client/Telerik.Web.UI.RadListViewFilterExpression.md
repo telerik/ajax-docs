@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadListViewFilterExpression
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadListViewFilterExpression
 slug: Telerik.Web.UI.RadListViewFilterExpression
 ---

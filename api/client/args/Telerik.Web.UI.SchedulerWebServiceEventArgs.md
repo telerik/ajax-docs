@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerWebServiceEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerWebServiceEventArgs
 slug: Telerik.Web.UI.SchedulerWebServiceEventArgs
 ---

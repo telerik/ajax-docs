@@ -1,7 +1,7 @@
 ---
 title: Template Manager
-page_title: Template Manager | UI for ASP.NET AJAX Documentation
-description: Template Manager
+page_title: Template Manager
+description: Check our Web Forms article about Template Manager.
 slug: sharepoint/2010/radeditor-web-part/dialogs/template-manager
 tags: template,manager
 published: True

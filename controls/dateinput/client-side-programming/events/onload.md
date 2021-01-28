@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadDateInput for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadDateInput
+description: Check our Web Forms article about OnLoad.
 slug: raddateinput/client-side-programming/events/onload
 tags: onload
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Animations
-page_title: Animations | RadDropDownTree for ASP.NET AJAX Documentation
-description: Animations
+page_title: Animations - RadDropDownTree
+description: Check our Web Forms article about Animations.
 slug: dropdowntree/appearance-and-styling/animations
 tags: animations
 published: True

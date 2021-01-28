@@ -1,7 +1,7 @@
 ---
 title: Export to JSON
-page_title: Export to JSON | RadDiagram for ASP.NET AJAX Documentation
-description: Export to JSON
+page_title: Export to JSON - RadDiagram
+description: Check our Web Forms article about Export to JSON.
 slug: diagram/import-and-export/export-to-json
 tags: export,to,json
 published: True

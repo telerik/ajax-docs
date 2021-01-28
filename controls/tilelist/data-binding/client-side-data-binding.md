@@ -1,7 +1,7 @@
 ---
 title: Client-side Data Binding
-page_title: Client-side Data Binding | RadTileList for ASP.NET AJAX Documentation
-description: Client-side Data Binding
+page_title: Client-side Data Binding - RadTileList
+description: Check our Web Forms article about Client-side Data Binding.
 slug: tilelist/data-binding/client-side-data-binding
 tags: client-side,data,binding
 published: True

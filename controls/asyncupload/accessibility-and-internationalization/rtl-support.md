@@ -1,7 +1,7 @@
 ---
 title: RTL Support
-page_title: RTL Support | RadAsyncUpload for ASP.NET AJAX Documentation
-description: RTL Support
+page_title: RTL Support - RadAsyncUpload
+description: Check our Web Forms article about RTL Support.
 slug: asyncupload/accessibility-and-internationalization/rtl-support
 tags: rtl,support
 published: True

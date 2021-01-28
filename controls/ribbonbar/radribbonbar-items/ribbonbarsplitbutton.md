@@ -1,7 +1,7 @@
 ---
 title: RibbonBarSplitButton
-page_title: RibbonBarSplitButton | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarSplitButton
+page_title: RibbonBarSplitButton - RadRibbonBar
+description: Check our Web Forms article about RibbonBarSplitButton.
 slug: ribbonbar/radribbonbar-items/ribbonbarsplitbutton
 tags: ribbonbarsplitbutton
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Inline Editing Mode
-page_title: Inline Editing Mode | RadEditor for ASP.NET AJAX Documentation
-description: Inline Editing Mode
+page_title: Inline Editing Mode - RadEditor
+description: Check our Web Forms article about Inline Editing Mode.
 slug: editor/functionality/editor-views-and-modes/inline-editing-mode
 tags: inline,editing,mode
 published: True

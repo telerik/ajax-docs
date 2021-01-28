@@ -1,7 +1,7 @@
 ---
 title: Setting Event Handlers via JavaScript
-page_title: Setting Event Handlers via JavaScript | RadTooltip for ASP.NET AJAX Documentation
-description: Setting Event Handlers via JavaScript
+page_title: Setting Event Handlers via JavaScript - RadTooltip
+description: Check our Web Forms article about Setting Event Handlers via JavaScript.
 slug: tooltip/client-side-programming/events/setting-event-handlers-via-javascript
 tags: setting,event,handlers,via,javascript
 published: True

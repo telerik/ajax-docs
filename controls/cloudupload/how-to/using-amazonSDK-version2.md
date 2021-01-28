@@ -1,7 +1,7 @@
 ---
 title: Using Amazon SDK v2
-page_title: Using Amazon SDK v2 | RadCloudUpload for ASP.NET AJAX Documentation
-description: Changes and backward compatibility
+page_title: Using Amazon SDK v2 - RadCloudUpload
+description: Check our Web Forms article about Changes and backward compatibility.
 slug: cloudupload/how-to/using-amazonsdk-version2
 tags: using,amazon,SDK,v2
 published: True

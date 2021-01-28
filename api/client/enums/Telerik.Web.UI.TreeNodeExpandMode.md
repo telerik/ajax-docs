@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeNodeExpandMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeNodeExpandMode
 slug: Telerik.Web.UI.TreeNodeExpandMode
 ---

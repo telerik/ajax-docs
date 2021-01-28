@@ -1,7 +1,7 @@
 ---
 title: collapseAllGroups
-page_title: collapseAllGroups | RadGrid for ASP.NET AJAX Documentation
-description: collapseAllGroups
+page_title: collapseAllGroups - RadGrid
+description: Check our Web Forms article about collapseAllGroups.
 slug: grid/client-side-programming/gridtableview-object/methods/collapseallgroups
 tags: collapseallgroups
 published: True

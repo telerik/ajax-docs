@@ -1,7 +1,7 @@
 ---
 title: OnSearch
-page_title: OnSearch | RadSearchBox for ASP.NET AJAX Documentation
-description: OnSearch
+page_title: OnSearch - RadSearchBox
+description: Check our Web Forms article about OnSearch.
 slug: searchbox/server-side-programming/events/onsearch
 tags: onsearch
 published: True

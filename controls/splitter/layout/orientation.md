@@ -1,7 +1,7 @@
 ---
 title: Orientation
-page_title: Orientation | RadSplitter for ASP.NET AJAX Documentation
-description: Orientation
+page_title: Orientation - RadSplitter
+description: Check our Web Forms article about Orientation.
 slug: splitter/layout/orientation
 tags: orientation
 published: True

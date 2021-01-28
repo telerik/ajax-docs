@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.ImageText
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.ImageText
 slug: Telerik.Web.UI.ImageEditor.ImageText
 ---

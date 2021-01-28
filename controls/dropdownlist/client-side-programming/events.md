@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadDropDownList for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadDropDownList
+description: Check our Web Forms article about Events.
 slug: dropdownlist/client-side-programming/events
 tags: events
 published: True

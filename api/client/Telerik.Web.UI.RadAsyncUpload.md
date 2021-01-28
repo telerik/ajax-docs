@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAsyncUpload
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAsyncUpload
 slug: Telerik.Web.UI.RadAsyncUpload
 ---

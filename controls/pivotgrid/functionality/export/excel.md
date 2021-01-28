@@ -1,7 +1,7 @@
 ---
 title: Excel
-page_title: Excel | RadPivotGrid for ASP.NET AJAX Documentation
-description: Excel
+page_title: Excel - RadPivotGrid
+description: Check our Web Forms article about Excel.
 slug: pivotgrid/functionality/export/excel
 tags: excel
 published: True

@@ -1,8 +1,8 @@
 ---
 title: Understanding AJAX Controls
-description: Deep dive into RadAjaxPanel, RadAjaxManager and RadAjaxManagerProxy
+description: Deep dive into RadAjaxPanel, RadAjaxManager and RadAjaxManagerProxy.
 type: how-to
-page_title: Understanding AJAX Controls - RadAjax | Telerik UI for ASP.NET AJAX
+page_title: Understanding AJAX Controls - RadAjax
 slug: understanding-ajax-controls
 ticketid: 1441721
 res_type: kb

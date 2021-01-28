@@ -1,7 +1,7 @@
 ---
 title: Template
-page_title: Template | RadDataPager for ASP.NET AJAX Documentation
-description: Template
+page_title: Template - RadDataPager
+description: Check our Web Forms article about Template.
 slug: datapager/elements-and-templates/template
 tags: template
 published: True

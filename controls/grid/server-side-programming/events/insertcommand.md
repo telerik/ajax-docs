@@ -1,7 +1,7 @@
 ---
 title: InsertCommand
-page_title: InsertCommand Event - RadGrid | UI for ASP.NET AJAX
-description: InsertCommand Event
+page_title: InsertCommand Event - RadGrid
+description: Check our Web Forms article about InsertCommand Event.
 slug: grid/server-side-programming/events/insertcommand
 published: True
 position: 50

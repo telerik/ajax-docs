@@ -1,7 +1,7 @@
 ---
 title: Defining the Structure in the Code-Behind
-page_title: Defining the Structure in the Code-Behind | RadTabStrip for ASP.NET AJAX Documentation
-description: Defining the Structure in the Code-Behind
+page_title: Defining the Structure in the Code-Behind - RadTabStrip
+description: Check our Web Forms article about Defining the Structure in the Code-Behind.
 slug: tabstrip/radmultipage/defining-the-structure-in-the-code-behind
 tags: defining,the,structure,in,the,code-behind
 published: True

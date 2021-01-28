@@ -1,7 +1,7 @@
 ---
 title: OnClientTimeSlotContextMenuItemClicked
-page_title: OnClientTimeSlotContextMenuItemClicked | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientTimeSlotContextMenuItemClicked
+page_title: OnClientTimeSlotContextMenuItemClicked - RadScheduler
+description: Check our Web Forms article about OnClientTimeSlotContextMenuItemClicked.
 slug: scheduler/client-side-programming/events/onclienttimeslotcontextmenuitemclicked
 tags: onclienttimeslotcontextmenuitemclicked
 published: True

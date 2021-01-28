@@ -1,7 +1,7 @@
 ---
 title: resizeItem
-page_title: resizeItem | RadGrid for ASP.NET AJAX Documentation
-description: resizeItem
+page_title: resizeItem - RadGrid
+description: Check our Web Forms article about resizeItem.
 slug: grid/client-side-programming/gridtableview-object/methods/resizeitem
 tags: resizeitem
 published: True

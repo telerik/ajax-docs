@@ -1,7 +1,7 @@
 ---
 title: PDF Multi-page Export
-page_title: PDF Multi-page Export | RadClientExportManager for ASP.NET AJAX Documentation
-description: PDF Multi-page Export
+page_title: PDF Multi-page Export - RadClientExportManager
+description: Check our Web Forms article about PDF Multi-page Export.
 slug: clientexportmanager/functionality/pdf-multi-page-export
 tags: pdf,multipage, multi, page
 published: True

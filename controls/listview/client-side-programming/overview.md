@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadListView for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadListView
+description: Check our Web Forms article about Overview.
 slug: listview/client-side-programming/overview
 tags: overview
 published: True

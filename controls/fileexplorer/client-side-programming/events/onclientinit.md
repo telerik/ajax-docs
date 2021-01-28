@@ -1,7 +1,7 @@
 ---
 title: OnClientInit
-page_title: OnClientInit | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientInit
+page_title: OnClientInit - RadFileExplorer
+description: Check our Web Forms article about OnClientInit.
 slug: fileexplorer/client-side-programming/events/onclientinit
 tags: onclientinit
 published: True

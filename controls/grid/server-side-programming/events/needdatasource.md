@@ -1,7 +1,7 @@
 ---
 title: NeedDataSource
-page_title: NeedDataSource Event - RadGrid | UI for ASP.NET AJAX
-description: NeedDataSource Event
+page_title: NeedDataSource Event - RadGrid
+description: Check our Web Forms article about NeedDataSource Event.
 slug: grid/server-side-programming/events/needdatasource
 published: True
 position: 50

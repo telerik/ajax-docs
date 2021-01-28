@@ -1,7 +1,7 @@
 ---
 title: File Input Appearance
-page_title: File Input Appearance | RadUpload for ASP.NET AJAX Documentation
-description: File Input Appearance
+page_title: File Input Appearance - RadUpload
+description: Check our Web Forms article about File Input Appearance.
 slug: upload/appearance-and-styling/file-input-appearance
 tags: file,input,appearance
 published: True

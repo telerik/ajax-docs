@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | RadCheckBox for ASP.NET AJAX Documentation
-description: OnClientMouseOut
+page_title: OnClientMouseOut - RadCheckBox
+description: Check our Web Forms article about OnClientMouseOut.
 slug: checkbox/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Adding Sort and Filter Expressions with Client-side Binding
-page_title: Adding Sort and Filter Expressions with Client-side Binding | RadGrid for ASP.NET AJAX Documentation
-description: Adding Sort and Filter Expressions with Client-side Binding
+page_title: Adding Sort and Filter Expressions with Client-side Binding - RadGrid
+description: Check our Web Forms article about Adding Sort and Filter Expressions with Client-side Binding.
 slug: grid/data-binding/client-side-binding/adding-sort-and-filter-expressions-with-client-side-binding
 previous_url: controls/grid/data-binding/understanding-data-binding/client-side-binding/adding-sort-and-filter-expressions-with-client-side-binding
 tags: adding,sort,and,filter,expressions,with,client-side,binding

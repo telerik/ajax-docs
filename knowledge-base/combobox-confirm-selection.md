@@ -1,8 +1,8 @@
 ---
 title: Confirm selection of RadComboBox
-description: Add confirmation dialog on SelectedIndexChanged - RadComboBox
+description: Add confirmation dialog on SelectedIndexChanged - RadComboBox.
 type: how-to
-page_title: Confirm selection of RadComboBox | Telerik UI for ASP.NET AJAX
+page_title: Confirm selection of RadComboBox
 slug: confirm-selection-of-radcombobox
 ticketid: 1461060
 res_type: kb

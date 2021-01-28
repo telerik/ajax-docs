@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title:  Client-side events Overview | RadDatePicker for ASP.NET AJAX Documentation
-description: RadDatePicker Client-side events Overview
+page_title: Client-side events Overview - RadDatePicker
+description: Check our Web Forms article about RadDatePicker Client-side events Overview.
 slug: datepicker/client-side-programming/events/overview
 tags: overview
 published: True

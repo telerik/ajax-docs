@@ -1,7 +1,7 @@
 ---
 title: Migrate Date Axis Configuration
-page_title: Migrate Date Axis Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Migrate Date Axis Configuration
+page_title: Migrate Date Axis Configuration - RadHtmlChart
+description: Check our Web Forms article about Migrate Date Axis Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-date-axis-configuration
 tags: migrate,date,axis,configuration
 published: True

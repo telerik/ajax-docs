@@ -1,7 +1,7 @@
 ---
 title: Determine if a Page is Loaded Inside a RadWindow
-page_title: Determine if a Page is Loaded Inside a RadWindow | RadWindow for ASP.NET AJAX Documentation
-description: Determine if a Page is Loaded Inside a RadWindow
+page_title: Determine if a Page is Loaded Inside a RadWindow - RadWindow
+description: Check our Web Forms article about Determine if a Page is Loaded Inside a RadWindow.
 slug: window/how-to/determine-if-a-page-is-loaded-inside-a-radwindow
 tags: determine,if,a,page,is,loaded,inside,a,radwindow
 published: True

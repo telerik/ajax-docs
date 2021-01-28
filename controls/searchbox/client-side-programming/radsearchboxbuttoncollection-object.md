@@ -1,7 +1,7 @@
 ---
 title: RadSearchBoxButtonCollection Object
-page_title: RadSearchBoxButtonCollection Object | RadSearchBox for ASP.NET AJAX Documentation
-description: RadSearchBoxButtonCollection Object
+page_title: RadSearchBoxButtonCollection Object - RadSearchBox
+description: Check our Web Forms article about RadSearchBoxButtonCollection Object.
 slug: searchbox/client-side-programming/radsearchboxbuttoncollection-object
 tags: radsearchboxbuttoncollection,object
 published: True

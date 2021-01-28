@@ -1,7 +1,7 @@
 ---
 title: Prevent Opening a Disabled MenuItem in New Tab
-page_title: Prevent Opening a Disabled MenuItem in New Tab | RadMenu for ASP.NET AJAX Documentation
-description: Prevent Opening a Disabled MenuItem in New Tab
+page_title: Prevent Opening a Disabled MenuItem in New Tab - RadMenu
+description: Check our Web Forms article about Prevent Opening a Disabled MenuItem in New Tab.
 slug: menu/how-to/prevent-opening-a-disabled-menuitem-in-new-tab
 tags: prevent,opening,a,disabled,menuitem,in,new,tab
 published: True

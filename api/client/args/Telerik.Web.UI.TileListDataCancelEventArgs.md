@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TileListDataCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TileListDataCancelEventArgs
 slug: Telerik.Web.UI.TileListDataCancelEventArgs
 ---

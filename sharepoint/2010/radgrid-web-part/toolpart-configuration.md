@@ -1,7 +1,7 @@
 ---
 title: ToolPart Configuration
-page_title: ToolPart Configuration | UI for ASP.NET AJAX Documentation
-description: ToolPart Configuration
+page_title: ToolPart Configuration
+description: Check our Web Forms article about ToolPart Configuration.
 slug: sharepoint/2010/radgrid-web-part/toolpart-configuration
 tags: toolpart,configuration
 published: True

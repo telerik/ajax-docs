@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.InputSettingValidateOnEvent
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.InputSettingValidateOnEvent
 slug: Telerik.Web.UI.InputSettingValidateOnEvent
 ---

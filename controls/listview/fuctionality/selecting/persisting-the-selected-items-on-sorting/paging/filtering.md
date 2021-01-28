@@ -1,7 +1,7 @@
 ---
 title: Persisting the Selected Items on Sorting/Paging/Filtering
-page_title: Persisting the Selected Items on Sorting/Paging/Filtering | RadListView for ASP.NET AJAX Documentation
-description: Persisting the Selected Items on Sorting/Paging/Filtering
+page_title: Persisting the Selected Items on Sorting/Paging/Filtering - RadListView
+description: Check our Web Forms article about Persisting the Selected Items on Sorting/Paging/Filtering.
 slug: listview/fuctionality/selecting/persisting-the-selected-items-on-sorting/paging/filtering
 tags: persisting,the,selected,items,on,sorting/paging/filtering
 published: True

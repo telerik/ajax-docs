@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Server-side Events | RadToolBar for ASP.NET AJAX Documentation
-description: Events
+page_title: Server-side Events - RadToolBar
+description: Check our Web Forms article about Events.
 slug: toolbar/server-side-programming/events
 tags: events
 published: True

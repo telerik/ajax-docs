@@ -1,7 +1,7 @@
 ---
 title: OnClientDropping
-page_title: OnClientDropping | RadListBox for ASP.NET AJAX Documentation
-description: OnClientDropping
+page_title: OnClientDropping - RadListBox
+description: Check our Web Forms article about OnClientDropping.
 slug: listbox/client-side-programming/events/onclientdropping
 tags: onclientdropping
 published: True

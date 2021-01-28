@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadProgressArea for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadProgressArea
+description: Check our Web Forms article about Getting Started.
 slug: progressarea/getting-started
 tags: getting,started
 published: True

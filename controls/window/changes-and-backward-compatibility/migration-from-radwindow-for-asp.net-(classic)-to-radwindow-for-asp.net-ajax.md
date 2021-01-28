@@ -1,7 +1,7 @@
 ---
 title: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX
-page_title: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX | RadWindow for ASP.NET AJAX Documentation
-description: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX
+page_title: Migration from RadWindow for ASP.NET (Classic) to RadWindow - RadWindow
+description: Check our Web Forms article about Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX.
 slug: window/changes-and-backward-compatibility/migration-from-radwindow-for-asp.net-(classic)-to-radwindow-for-asp.net-ajax
 tags: migration,from,radwindow,for,asp.net,(classic),to,radwindow,for,asp.net,ajax
 published: True

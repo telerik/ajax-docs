@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadGrid for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadGrid
+description: Check our Web Forms article about Known Limitations.
 slug: grid/troubleshooting/known-limitations
 tags: known,limitations
 published: True

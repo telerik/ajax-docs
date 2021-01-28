@@ -1,7 +1,7 @@
 ---
 title: getColumnByUniqueName
-page_title: getColumnByUniqueName | RadGrid for ASP.NET AJAX Documentation
-description: getColumnByUniqueName
+page_title: getColumnByUniqueName - RadGrid
+description: Check our Web Forms article about getColumnByUniqueName.
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnbyuniquename
 tags: getcolumnbyuniquename
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Standalone RadioButton
-page_title: Standalone RadioButton | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Standalone RadioButton
+page_title: Standalone RadioButton - RadRadioButtonList
+description: Check our Web Forms article about Standalone RadioButton.
 slug: radiobuttonlist/functionality/standalone-radiobutton
 tags: radiobutton, standalone, single
 published: True

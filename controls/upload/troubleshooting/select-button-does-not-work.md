@@ -1,7 +1,7 @@
 ---
 title: Select Button Does Not Work
-page_title: Select Button Does Not Work | RadUpload for ASP.NET AJAX Documentation
-description: Select Button Does Not Work
+page_title: Select Button Does Not Work - RadUpload
+description: Check our Web Forms article about Select Button Does Not Work.
 slug: upload/troubleshooting/select-button-does-not-work
 tags: select,button,does,not,work
 published: True

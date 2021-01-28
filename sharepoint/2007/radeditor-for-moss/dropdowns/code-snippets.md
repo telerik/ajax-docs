@@ -1,7 +1,7 @@
 ---
 title: Code Snippets
-page_title: Code Snippets | UI for ASP.NET AJAX Documentation
-description: Code Snippets
+page_title: Code Snippets
+description: Check our Web Forms article about Code Snippets.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/code-snippets
 tags: code,snippets
 published: True

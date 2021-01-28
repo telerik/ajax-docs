@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs
 slug: Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs
 ---

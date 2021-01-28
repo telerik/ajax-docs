@@ -1,7 +1,7 @@
 ---
 title: Step Line Chart
-page_title: Step Line Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Step Line Chart
+page_title: Step Line Chart - RadHtmlChart
+description: Check our Web Forms article about Step Line Chart.
 slug: htmlchart/chart-types/step-line-chart
 tags: step,line,chart
 published: True

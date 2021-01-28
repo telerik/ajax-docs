@@ -1,7 +1,7 @@
 ---
 title: get_clientDataKeyNames()
-page_title: get_clientDataKeyNames() | RadGrid for ASP.NET AJAX Documentation
-description: get_clientDataKeyNames()
+page_title: get_clientDataKeyNames() - RadGrid
+description: Check our Web Forms article about get_clientDataKeyNames().
 slug: grid/client-side-programming/gridtableview-object/properties/get_clientdatakeynames()
 tags: get_clientdatakeynames()
 published: True

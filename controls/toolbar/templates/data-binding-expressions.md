@@ -1,7 +1,7 @@
 ---
 title: Data Binding Expressions
-page_title: Data Binding Expressions | RadToolBar for ASP.NET AJAX Documentation
-description: Data Binding Expressions
+page_title: Data Binding Expressions - RadToolBar
+description: Check our Web Forms article about Data Binding Expressions.
 slug: toolbar/templates/data-binding-expressions
 tags: data,binding,expressions
 published: True

@@ -1,7 +1,7 @@
 ---
 title: What is New
-page_title: What is New | RadComboBox for ASP.NET AJAX Documentation
-description: What is New
+page_title: What is New - RadComboBox
+description: Check our Web Forms article about What is New.
 slug: combobox/what-is-new
 tags: what,is,new
 published: False

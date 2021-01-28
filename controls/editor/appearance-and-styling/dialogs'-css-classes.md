@@ -1,7 +1,7 @@
 ---
 title: Dialogs' CSS Classes
-page_title: Dialogs' CSS Classes | RadEditor for ASP.NET AJAX Documentation
-description: Dialogs' CSS Classes
+page_title: Dialogs' CSS Classes - RadEditor
+description: Check our Web Forms article about Dialogs' CSS Classes.
 slug: editor/appearance-and-styling/dialogs'-css-classes
 tags: dialogs',css,classes
 published: True

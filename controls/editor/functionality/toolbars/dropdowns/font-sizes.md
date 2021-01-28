@@ -1,7 +1,7 @@
 ---
 title: Font Sizes
-page_title: Font Sizes | RadEditor for ASP.NET AJAX Documentation
-description: Font Sizes
+page_title: Font Sizes - RadEditor
+description: Check our Web Forms article about Font Sizes.
 slug: editor/functionality/toolbars/dropdowns/font-sizes
 tags: font,sizes
 published: True

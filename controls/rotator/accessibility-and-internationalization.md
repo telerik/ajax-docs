@@ -1,7 +1,7 @@
 ---
 title: Accessibility and Internationalization
-page_title: Accessibility and Internationalization | RadRotator for ASP.NET AJAX Documentation
-description: Accessibility and Internationalization
+page_title: Accessibility and Internationalization - RadRotator
+description: Check our Web Forms article about Accessibility and Internationalization.
 slug: rotator/accessibility-and-internationalization
 tags: accessibility,and,internationalization
 published: True

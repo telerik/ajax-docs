@@ -1,7 +1,7 @@
 ---
 title: Colors
-page_title: Colors | RadTreeMap for ASP.NET AJAX Documentation
-description: Colors
+page_title: Colors - RadTreeMap
+description: Check our Web Forms article about Colors.
 slug: treemap/functionality/colors
 tags: colors
 published: True

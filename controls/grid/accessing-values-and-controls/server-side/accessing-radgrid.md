@@ -1,7 +1,7 @@
 ---
 title: Accessing RadGrid
-page_title: Accessing the Grid Server-Side - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing the Grid on server
+page_title: Accessing the Grid Server-Side - RadGrid
+description: Check our Web Forms article about Accessing the Grid on server.
 slug: grid/accessing-values-and-controls/server-side/accessing-radgrid
 published: True
 position: 0

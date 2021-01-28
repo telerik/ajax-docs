@@ -1,7 +1,7 @@
 ---
 title: ColumnCreating
-page_title: ColumnCreating | RadGantt for ASP.NET AJAX Documentation
-description: ColumnCreating
+page_title: ColumnCreating - RadGantt
+description: Check our Web Forms article about ColumnCreating.
 slug: gantt/server-side-programming/events/columncreating
 tags: columncreating
 published: True

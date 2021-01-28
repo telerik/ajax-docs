@@ -1,7 +1,7 @@
 ---
 title: Properties Enumerators
-page_title: Properties Enumerators | RadSocialShare for ASP.NET AJAX Documentation
-description: Properties Enumerators
+page_title: Properties Enumerators - RadSocialShare
+description: Check our Web Forms article about Properties Enumerators.
 slug: socialshare/server-side-programming/properties-enumerators
 tags: properties,enumerators
 published: True

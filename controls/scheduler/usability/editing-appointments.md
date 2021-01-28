@@ -1,7 +1,7 @@
 ---
 title: Editing Appointments
-page_title: Editing Appointments | RadScheduler for ASP.NET AJAX Documentation
-description: Editing Appointments
+page_title: Editing Appointments - RadScheduler
+description: Check our Web Forms article about Editing Appointments.
 slug: scheduler/usability/editing-appointments
 tags: editing,appointments
 published: True

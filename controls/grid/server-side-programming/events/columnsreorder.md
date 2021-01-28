@@ -1,7 +1,7 @@
 ---
 title: ColumnsReorder
-page_title: ColumnsReorder Event - RadGrid | UI for ASP.NET AJAX
-description: ColumnsReorder Event
+page_title: ColumnsReorder Event - RadGrid
+description: Check our Web Forms article about ColumnsReorder Event.
 slug: grid/server-side-programming/events/columnsreorder
 published: True
 position: 50

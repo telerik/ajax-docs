@@ -1,7 +1,7 @@
 ---
 title: OnClientSubmit
-page_title: OnClientSubmit | RadEditor for ASP.NET AJAX Documentation
-description: OnClientSubmit
+page_title: OnClientSubmit - RadEditor
+description: Check our Web Forms article about OnClientSubmit.
 slug: editor/client-side-programming/events/onclientsubmit
 tags: onclientsubmit
 published: True

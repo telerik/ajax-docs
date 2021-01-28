@@ -1,7 +1,7 @@
 ---
 title: Use RadConfirm to Confirm MenuItem Click
-page_title: Use RadConfirm to Confirm MenuItem Click | RadMenu for ASP.NET AJAX Documentation
-description: Use RadConfirm to Confirm MenuItem Click
+page_title: Use RadConfirm to Confirm MenuItem Click - RadMenu
+description: Check our Web Forms article about Use RadConfirm to Confirm MenuItem Click.
 slug: menu/how-to/use-radconfirm-to-confirm-menuitem-click
 tags: use,radconfirm,to,confirm,menuitem,click
 published: True

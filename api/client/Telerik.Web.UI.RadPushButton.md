@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPushButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPushButton
 slug: Telerik.Web.UI.RadPushButton
 ---

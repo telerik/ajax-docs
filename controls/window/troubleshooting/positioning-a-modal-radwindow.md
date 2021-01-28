@@ -1,7 +1,7 @@
 ---
 title: Positioning a Modal RadWindow
-page_title: Positioning a Modal RadWindow | RadWindow for ASP.NET AJAX Documentation
-description: Positioning a Modal RadWindow
+page_title: Positioning a Modal RadWindow - RadWindow
+description: Check our Web Forms article about Positioning a Modal RadWindow.
 slug: window/troubleshooting/positioning-a-modal-radwindow
 tags: positioning,a,modal,radwindow
 published: True

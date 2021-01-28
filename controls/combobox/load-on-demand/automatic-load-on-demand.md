@@ -1,7 +1,7 @@
 ---
 title: Automatic Load On Demand
-page_title: Automatic Load On Demand | RadComboBox for ASP.NET AJAX Documentation
-description: Automatic Load On Demand
+page_title: Automatic Load On Demand - RadComboBox
+description: Check our Web Forms article about Automatic Load On Demand.
 slug: combobox/load-on-demand/automatic-load-on-demand
 tags: automatic,load,on,demand
 published: True

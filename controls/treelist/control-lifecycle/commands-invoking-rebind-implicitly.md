@@ -1,7 +1,7 @@
 ---
 title: Commands Invoking Rebind Implicitly
-page_title: Commands Invoking Rebind Implicitly | RadTreeList for ASP.NET AJAX Documentation
-description: Commands Invoking Rebind Implicitly
+page_title: Commands Invoking Rebind Implicitly - RadTreeList
+description: Check our Web Forms article about Commands Invoking Rebind Implicitly.
 slug: treelist/control-lifecycle/commands-invoking-rebind-implicitly
 tags: commands,invoking,rebind,implicitly
 published: True

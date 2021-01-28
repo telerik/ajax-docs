@@ -1,7 +1,7 @@
 ---
 title: Spellchecking Multiple Text Areas
-page_title: Spellchecking Multiple Text Areas | RadSpell for ASP.NET AJAX Documentation
-description: Spellchecking Multiple Text Areas
+page_title: Spellchecking Multiple Text Areas - RadSpell
+description: Check our Web Forms article about Spellchecking Multiple Text Areas.
 slug: spell/how-to/spellchecking-multiple-text-areas
 tags: spellchecking,multiple,text,areas
 published: True

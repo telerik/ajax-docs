@@ -1,7 +1,7 @@
 ---
 title: OnDateSelected
-page_title: OnDateSelected | RadCalendar for ASP.NET AJAX Documentation
-description: OnDateSelected
+page_title: OnDateSelected - RadCalendar
+description: Check our Web Forms article about OnDateSelected.
 slug: calendar/client-side-programming/events/ondateselected
 tags: ondateselected
 published: True

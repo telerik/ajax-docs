@@ -1,7 +1,7 @@
 ---
 title: CSS Skin File Selector
-page_title: CSS Skin File Selector | RadListBox for ASP.NET AJAX Documentation
-description: CSS Skin File Selector
+page_title: CSS Skin File Selector - RadListBox
+description: Check our Web Forms article about CSS Skin File Selector.
 slug: listbox/appearance-and-styling/css-skin-file-selector
 tags: css,skin,file,selector
 published: True

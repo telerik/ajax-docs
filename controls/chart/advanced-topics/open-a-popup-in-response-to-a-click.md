@@ -1,7 +1,7 @@
 ---
 title: Open a Popup in Response to a Click
-page_title: Open a Popup in Response to a Click | RadChart for ASP.NET AJAX Documentation
-description: Open a Popup in Response to a Click
+page_title: Open a Popup in Response to a Click - RadChart
+description: Check our Web Forms article about Open a Popup in Response to a Click.
 slug: chart/advanced-topics/open-a-popup-in-response-to-a-click
 tags: open,a,popup,in,response,to,a,click
 published: True

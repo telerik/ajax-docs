@@ -1,7 +1,7 @@
 ---
 title: Enable Scrolling for ContextMenu in RadFilter
-page_title: Enable Scrolling for ContextMenu in RadFilter | RadFilter for ASP.NET AJAX Documentation
-description: Enable Scrolling for ContextMenu in RadFilter
+page_title: Enable Scrolling for ContextMenu in RadFilter - RadFilter
+description: Check our Web Forms article about Enable Scrolling for ContextMenu in RadFilter.
 slug: filter/how-to/enable-scrolling-for-contextmenu-in-radfilter
 tags: enable,scrolling,for,contextmenu,in,radfilter
 published: True

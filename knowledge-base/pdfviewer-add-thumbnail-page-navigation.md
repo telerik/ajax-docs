@@ -1,8 +1,8 @@
 ---
 title: Add Thumbnail page navigation with RadPdfViewer
-description: Implementation of thumbnail page navigation with PDF.js
+description: Implementation of thumbnail page navigation with PDF.js.
 type: how-to
-page_title: Add Thumbnail page navigation - RadPdfNavigation | Telerik UI For ASP.NET AJAX
+page_title: Add Thumbnail page navigation - RadPdfNavigation - Telerik UI For ASP.NET AJAX
 slug: pdfviewer-add-thumbnail-page-navigation
 position: 
 tags: 

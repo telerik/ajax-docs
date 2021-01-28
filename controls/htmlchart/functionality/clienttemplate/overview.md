@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: ClientTemplate Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: ClientTemplate Overview
+page_title: ClientTemplate Overview - RadHtmlChart
+description: Check our Web Forms article about ClientTemplate Overview.
 slug: htmlchart/functionality/clienttemplate/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Event Sequence
-page_title: Event Sequence | RadTreeList for ASP.NET AJAX Documentation
-description: Event Sequence
+page_title: Event Sequence - RadTreeList
+description: Check our Web Forms article about Event Sequence.
 slug: treelist/control-lifecycle/event-sequence
 tags: event,sequence
 published: True

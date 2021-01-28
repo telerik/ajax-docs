@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadToolBar for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadToolBar
+description: Check our Web Forms article about Overview.
 slug: toolbar/data-binding/overview
 tags: overview
 published: True

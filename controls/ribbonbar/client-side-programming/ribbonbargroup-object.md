@@ -1,7 +1,7 @@
 ---
 title: RibbonBarGroup Object
-page_title: RibbonBarGroup Object | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarGroup Object
+page_title: RibbonBarGroup Object - RadRibbonBar
+description: Check our Web Forms article about RibbonBarGroup Object.
 slug: ribbonbar/client-side-programming/ribbonbargroup-object
 tags: ribbonbargroup,object
 published: True

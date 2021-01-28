@@ -1,7 +1,7 @@
 ---
 title: clearActiveRow
-page_title: clearActiveRow | RadGrid for ASP.NET AJAX Documentation
-description: clearActiveRow
+page_title: clearActiveRow - RadGrid
+description: Check our Web Forms article about clearActiveRow.
 slug: grid/client-side-programming/radgrid-object/methods/clearactiverow
 tags: clearactiverow
 published: True

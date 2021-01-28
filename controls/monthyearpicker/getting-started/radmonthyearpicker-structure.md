@@ -1,7 +1,7 @@
 ---
 title: RadMonthYearPicker Structure
-page_title: RadMonthYearPicker Structure | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: RadMonthYearPicker Structure
+page_title: RadMonthYearPicker Structure - RadMonthYearPicker
+description: Check our Web Forms article about RadMonthYearPicker Structure.
 slug: monthyearpicker/getting-started/radmonthyearpicker-structure
 tags: radmonthyearpicker,structure
 published: True

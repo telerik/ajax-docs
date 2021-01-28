@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.GroupExpression
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ClientDataSource.GroupExpression
 slug: Telerik.Web.UI.ClientDataSource.GroupExpression
 ---

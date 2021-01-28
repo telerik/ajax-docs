@@ -1,7 +1,7 @@
 ---
 title: RibbonBarToggleButton
-page_title: RibbonBarToggleButton | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarToggleButton
+page_title: RibbonBarToggleButton - RadRibbonBar
+description: Check our Web Forms article about RibbonBarToggleButton.
 slug: ribbonbar/radribbonbar-items/ribbonbartogglebutton
 tags: ribbonbartogglebutton
 published: True

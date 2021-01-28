@@ -1,7 +1,7 @@
 ---
 title: OnClientTabEnabled
-page_title: OnClientTabEnabled | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientTabEnabled
+page_title: OnClientTabEnabled - RadTabStrip
+description: Check our Web Forms article about OnClientTabEnabled.
 slug: tabstrip/client-side-programming/onclienttabenabled
 tags: onclienttabenabled
 published: True

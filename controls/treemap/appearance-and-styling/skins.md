@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadTreeMap for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadTreeMap
+description: Check our Web Forms article about Skins.
 slug: treemap/appearance-and-styling/skins
 tags: skins
 published: True

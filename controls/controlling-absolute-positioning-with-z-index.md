@@ -1,7 +1,7 @@
 ---
 title: Controlling Absolute Positioning with z-index
-page_title: Controlling Absolute Positioning with z-index | UI for ASP.NET AJAX Documentation
-description: Controlling Absolute Positioning with z-index
+page_title: Controlling Absolute Positioning with z-index
+description: Check our Web Forms article about Controlling Absolute Positioning with z-index.
 slug: controls/controlling-absolute-positioning-with-z-index
 tags: controlling,absolute,positioning,with,z-index
 published: True

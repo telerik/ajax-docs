@@ -1,7 +1,7 @@
 ---
 title: Database Structure
-page_title: Database Structure | RadGantt for ASP.NET AJAX Documentation
-description: Database Structure
+page_title: Database Structure - RadGantt
+description: Check our Web Forms article about Database Structure.
 slug: gantt/resources/data-binding/database-structure
 tags: database,structure
 published: True

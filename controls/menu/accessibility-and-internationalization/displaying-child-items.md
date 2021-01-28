@@ -1,7 +1,7 @@
 ---
 title: Displaying Child Items
-page_title: Displaying Child Items | RadMenu for ASP.NET AJAX Documentation
-description: Displaying Child Items
+page_title: Displaying Child Items - RadMenu
+description: Check our Web Forms article about Displaying Child Items.
 slug: menu/accessibility-and-internationalization/displaying-child-items
 tags: displaying,child,items
 published: True

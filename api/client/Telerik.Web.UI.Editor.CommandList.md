@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.CommandList
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.CommandList
 static: true
 slug: Telerik.Web.UI.Editor.CommandList

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadSplitter for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadSplitter
+description: Check our Web Forms article about Design Time.
 slug: splitter/design-time
 tags: design,time
 published: True

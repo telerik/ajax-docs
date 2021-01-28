@@ -1,7 +1,7 @@
 ---
 title: Manual CRUD Operations
-page_title: Manual CRUD Operations | RadDataForm for ASP.NET AJAX 
-description: Manual CRUD Operations
+page_title: Manual CRUD Operations - RadDataForm
+description: Check our Web Forms article about Manual CRUD Operations.
 slug: dataform/data-editing/manual-crud-operations
 tags: manual,crud,operations
 published: True

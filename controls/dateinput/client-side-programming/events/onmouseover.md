@@ -1,7 +1,7 @@
 ---
 title: OnMouseOver
-page_title: OnMouseOver | RadDateInput for ASP.NET AJAX Documentation
-description: OnMouseOver
+page_title: OnMouseOver - RadDateInput
+description: Check our Web Forms article about OnMouseOver.
 slug: raddateinput/client-side-programming/events/onmouseover
 tags: onmouseover
 published: True

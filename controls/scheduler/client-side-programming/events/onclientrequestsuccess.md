@@ -1,7 +1,7 @@
 ---
 title: OnClientRequestSuccess
-page_title: OnClientRequestSuccess | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientRequestSuccess
+page_title: OnClientRequestSuccess - RadScheduler
+description: Check our Web Forms article about OnClientRequestSuccess.
 slug: scheduler/client-side-programming/events/onclientrequestsuccess
 tags: onclientrequestsuccess
 published: True

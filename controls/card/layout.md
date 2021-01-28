@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: RadCard Layout | UI for ASP.NET AJAX Documentation
-description: Layout
+page_title: RadCard Layout
+description: Check our Web Forms article about Layout.
 slug: card/layout
 tags: layout
 published: True

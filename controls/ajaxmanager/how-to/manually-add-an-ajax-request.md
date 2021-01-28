@@ -1,7 +1,7 @@
 ---
 title: Manually Add an AJAX Request
-page_title: Manually Add an AJAX Request | RadAjax for ASP.NET AJAX Documentation
-description: Manually Add an AJAX Request
+page_title: Manually Add an AJAX Request
+description: Check our Web Forms article about Manually Add an AJAX Request.
 slug: ajaxmanager/how-to/manually-add-an-ajax-request
 previous_url: ajax/how-to/manually-add-an-ajax-request
 tags: manually,add,an,ajax,request

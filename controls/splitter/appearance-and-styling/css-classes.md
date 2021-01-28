@@ -1,7 +1,7 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | RadSplitter for ASP.NET AJAX Documentation
-description: CSS Classes
+page_title: CSS Classes - RadSplitter
+description: Check our Web Forms article about CSS Classes.
 slug: splitter/appearance-and-styling/css-classes
 tags: css,classes
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadComboBox in RadGrid
-page_title: RadComboBox in RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: RadComboBox in RadGrid
+page_title: RadComboBox in RadGrid - RadGrid
+description: Check our Web Forms article about RadComboBox in RadGrid.
 slug: grid/how-to/common/radcombobox-in-radgrid
 tags: radcombobox,in,radgrid
 published: True

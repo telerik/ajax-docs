@@ -1,7 +1,7 @@
 ---
 title: Using a Data Provider
-page_title: Using a Data Provider | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Using a Data Provider
+page_title: Using a Data Provider - RadSpreadsheet
+description: Check our Web Forms article about Using a Data Provider.
 slug: spreadsheet/data-binding/providers/using-a-data-provider
 tags: using,a,data,provider
 published: True

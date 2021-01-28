@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SliderItemDataBindingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SliderItemDataBindingEventArgs
 slug: Telerik.Web.UI.SliderItemDataBindingEventArgs
 ---

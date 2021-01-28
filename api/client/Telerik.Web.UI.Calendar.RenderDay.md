@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Calendar.RenderDay
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Calendar.RenderDay
 slug: Telerik.Web.UI.Calendar.RenderDay
 ---

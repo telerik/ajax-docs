@@ -1,7 +1,7 @@
 ---
 title: ResourcesPopulating
-page_title: ResourcesPopulating | RadScheduler for ASP.NET AJAX Documentation
-description: ResourcesPopulating
+page_title: ResourcesPopulating - RadScheduler
+description: Check our Web Forms article about ResourcesPopulating.
 slug: scheduler/server-side-programming/server-events/resourcespopulating
 tags: resourcespopulating
 published: True

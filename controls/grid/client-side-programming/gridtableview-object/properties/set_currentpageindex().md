@@ -1,7 +1,7 @@
 ---
 title: set_currentPageIndex()
-page_title: set_currentPageIndex() | RadGrid for ASP.NET AJAX Documentation
-description: set_currentPageIndex()
+page_title: set_currentPageIndex() - RadGrid
+description: Check our Web Forms article about set_currentPageIndex().
 slug: grid/client-side-programming/gridtableview-object/properties/set_currentpageindex()
 tags: set_currentpageindex()
 published: True

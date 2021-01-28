@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadListBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadListBox
+description: Check our Web Forms article about Overview.
 slug: listbox/templates/overview
 tags: overview
 published: True

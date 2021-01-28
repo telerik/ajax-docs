@@ -1,7 +1,7 @@
 ---
 title: Hierarchical Data
-page_title: Hierarchical Data | UI for ASP.NET AJAX Documentation
-description: Hierarchical Data
+page_title: Hierarchical Data
+description: Check our Web Forms article about Hierarchical Data.
 slug: sharepoint/2010/radgrid-web-part/hierarchical-data
 tags: hierarchical,data
 published: True

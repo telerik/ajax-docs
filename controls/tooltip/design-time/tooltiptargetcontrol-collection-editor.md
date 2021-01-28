@@ -1,7 +1,7 @@
 ---
 title: ToolTipTargetControl Collection Editor
-page_title: ToolTipTargetControl Collection Editor | RadTooltip for ASP.NET AJAX Documentation
-description: ToolTipTargetControl Collection Editor
+page_title: ToolTipTargetControl Collection Editor - RadTooltip
+description: Check our Web Forms article about ToolTipTargetControl Collection Editor.
 slug: tooltip/design-time/tooltiptargetcontrol-collection-editor
 tags: tooltiptargetcontrol,collection,editor
 published: True

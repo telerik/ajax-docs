@@ -1,7 +1,7 @@
 ---
 title: XLSX and DOCX Export
-page_title: XLSX and DOCX Export | RadGrid for ASP.NET AJAX Documentation
-description: XLSX and DOCX Export
+page_title: XLSX and DOCX Export - RadGrid
+description: Check our Web Forms article about XLSX and DOCX Export.
 slug: grid/functionality/exporting/export-formats/xlsx-and-docx-export
 tags: xlsx,and,docx,export
 published: True

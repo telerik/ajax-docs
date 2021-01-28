@@ -1,7 +1,7 @@
 ---
 title: Passing Additional Information to the Server
-page_title: Passing Additional Information to the Server | RadSearchBox for ASP.NET AJAX Documentation
-description: Passing Additional Information to the Server
+page_title: Passing Additional Information to the Server - RadSearchBox
+description: Check our Web Forms article about Passing Additional Information to the Server.
 slug: searchbox/functionality/passing-additional-information-to-the-server
 tags: passing,additional,information,to,the,server
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Installation Troubleshooting
-page_title: Installation Troubleshooting | UI for ASP.NET AJAX Documentation
-description: Installation Troubleshooting
+page_title: Installation Troubleshooting
+description: Check our Web Forms article about Installation Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting
 tags: installation,troubleshooting
 published: True

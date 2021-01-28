@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadTabStrip for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadTabStrip
+description: Check our Web Forms article about Overview.
 slug: tabstrip/data-binding/overview
 tags: overview
 published: True

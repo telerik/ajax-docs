@@ -1,7 +1,7 @@
 ---
 title: Various Built-in Column Editors
-page_title: Various Built-in Column Editors | RadGrid for ASP.NET AJAX Documentation
-description: Various Built-in Column Editors
+page_title: Various Built-in Column Editors - RadGrid
+description: Check our Web Forms article about Various Built-in Column Editors.
 slug: grid/how-to/data-editing/various-built-in-column-editors
 previous_url: controls/grid/how-to/various-built-in-column-editors
 tags: various,built-in,column,editors

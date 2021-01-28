@@ -1,7 +1,7 @@
 ---
 title: Set Toolbox Version
-page_title: Set Toolbox Version | UI for ASP.NET AJAX Documentation
-description: Set Toolbox Version
+page_title: Set Toolbox Version
+description: Check our Web Forms article about Set Toolbox Version.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration
 tags: toolbox,configuration
 published: True

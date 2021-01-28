@@ -1,7 +1,7 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientItemClicked
+page_title: OnClientItemClicked - RadPanelBar
+description: Check our Web Forms article about OnClientItemClicked.
 slug: panelbar/client-side-programming/onclientitemclicked
 tags: onclientitemclicked
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientReminderTriggering
-page_title: OnClientReminderTriggering | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientReminderTriggering
+page_title: OnClientReminderTriggering - RadScheduler
+description: Check our Web Forms article about OnClientReminderTriggering.
 slug: scheduler/client-side-programming/events/onclientremindertriggering
 tags: onclientremindertriggering
 published: True

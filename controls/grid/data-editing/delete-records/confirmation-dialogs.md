@@ -1,7 +1,7 @@
 ---
 title: Confirmation Dialogs
-page_title: Confirmation Dialogs | RadGrid for ASP.NET AJAX Documentation
-description: Confirmation Dialogs
+page_title: Confirmation Dialogs - RadGrid
+description: Check our Web Forms article about Confirmation Dialogs.
 slug: grid/data-editing/delete-records/confirmation-dialogs
 tags: confirmation,dialogs
 published: True

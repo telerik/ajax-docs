@@ -1,7 +1,7 @@
 ---
 title: get_detailTables()
-page_title: get_detailTables() | RadGrid for ASP.NET AJAX Documentation
-description: get_detailTables()
+page_title: get_detailTables() - RadGrid
+description: Check our Web Forms article about get_detailTables().
 slug: grid/client-side-programming/radgrid-object/properties/get_detailtables()
 tags: get_detailtables()
 published: True

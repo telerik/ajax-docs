@@ -1,7 +1,7 @@
 ---
 title: Creating Node Structure In-Line
-page_title: Creating Node Structure In-Line | RadTreeView for ASP.NET AJAX Documentation
-description: Creating Node Structure In-Line
+page_title: Creating Node Structure In-Line - RadTreeView
+description: Check our Web Forms article about Creating Node Structure In-Line.
 slug: treeview/radtreeview-nodes/creating-node-structure-in-line
 tags: creating,node,structure,in-line
 published: True

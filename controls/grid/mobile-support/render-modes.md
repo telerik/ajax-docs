@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadGrid for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadGrid
+description: Check our Web Forms article about Render Modes.
 slug: grid/mobile-support/render-modes
 tags: render,modes
 published: True

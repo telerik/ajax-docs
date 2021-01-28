@@ -1,7 +1,7 @@
 ---
 title: RadButton Validation and Client-side Event Handlers
-page_title: RadButton Validation and Client-side Event Handlers | RadButton for ASP.NET AJAX Documentation
-description: RadButton Validation and Client-side Event Handlers
+page_title: RadButton Validation and Client-side Event Handlers - RadButton
+description: Check our Web Forms article about RadButton Validation and Client-side Event Handlers.
 slug: button/how-to/radbutton-validation-and-client-side-event-handlers
 tags: radbutton,validation,and,client-side,event,handlers
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnItemLoad
-page_title: OnItemLoad | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnItemLoad
+page_title: OnItemLoad - RadCheckBoxList
+description: Check our Web Forms article about OnItemLoad.
 slug: checkboxlist/client-side-programming/events/onitemload
 tags: onitemload
 published: True

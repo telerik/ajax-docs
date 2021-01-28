@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadCheckBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadCheckBox
+description: Check our Web Forms article about Overview.
 slug: checkbox/overview
 tags: overview
 published: True

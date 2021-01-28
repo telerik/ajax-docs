@@ -1,7 +1,7 @@
 ---
 title: DropDownSelectedIndexChanged
-page_title: DropDownSelectedIndexChanged | RadRibbonBar for ASP.NET AJAX Documentation
-description: DropDownSelectedIndexChanged
+page_title: DropDownSelectedIndexChanged - RadRibbonBar
+description: Check our Web Forms article about DropDownSelectedIndexChanged.
 slug: ribbonbar/server-side-programming/events/dropdownselectedindexchanged
 tags: dropdownselectedindexchanged
 published: True

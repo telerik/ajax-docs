@@ -1,7 +1,7 @@
 ---
 title: Database Provider
-page_title: Database Provider | RadGantt for ASP.NET AJAX Documentation
-description: Database Provider
+page_title: Database Provider - RadGantt
+description: Check our Web Forms article about Database Provider.
 slug: gantt/data-binding/server-side-binding/programmatic-binding-/database-provider
 tags: database,provider
 published: True

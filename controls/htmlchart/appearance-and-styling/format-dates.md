@@ -1,7 +1,7 @@
 ---
 title: Format Dates
-page_title: Format Dates | RadHtmlChart for ASP.NET AJAX Documentation
-description: Format Dates
+page_title: Format Dates - RadHtmlChart
+description: Check our Web Forms article about Format Dates.
 slug: htmlchart/appearance-and-styling/format-dates
 tags: format,dates
 published: True

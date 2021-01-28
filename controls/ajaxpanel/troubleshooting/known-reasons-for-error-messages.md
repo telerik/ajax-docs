@@ -1,7 +1,7 @@
 ---
 title: Known Reasons for Error Messages
-page_title: Known Reasons for Error Messages | RadAjax for ASP.NET AJAX Documentation
-description: Known Reasons for Error Messages
+page_title: Known Reasons for Error Messages
+description: Check our Web Forms article about Known Reasons for Error Messages.
 slug: ajaxpanel/troubleshooting/known-reasons-for-error-messages
 tags: known,reasons,for,error,messages
 published: True

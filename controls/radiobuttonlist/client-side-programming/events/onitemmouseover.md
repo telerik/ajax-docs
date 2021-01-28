@@ -1,7 +1,7 @@
 ---
 title: OnItemMouseOver
-page_title: OnItemMouseOver | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnItemMouseOver
+page_title: OnItemMouseOver - RadRadioButtonList
+description: Check our Web Forms article about OnItemMouseOver.
 slug: radiobuttonlist/client-side-programming/events/onitemmouseover
 tags: onitemmouseover
 published: True

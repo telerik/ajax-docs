@@ -1,7 +1,7 @@
 ---
 title: Set Properties
-page_title: Set Properties | RadEditor for ASP.NET AJAX Documentation
-description: Set Properties
+page_title: Set Properties - RadEditor
+description: Check our Web Forms article about Set Properties.
 slug: editor/getting-started/set-properties
 tags: set,properties
 published: True

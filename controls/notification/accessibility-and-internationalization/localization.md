@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadNotification for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadNotification
+description: Check our Web Forms article about Localization.
 slug: notification/accessibility-and-internationalization/localization
 tags: localization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using RadEditor in List Items
-page_title: Using RadEditor in List Items | UI for ASP.NET AJAX Documentation
-description: Using RadEditor in List Items
+page_title: Using RadEditor in List Items
+description: Check our Web Forms article about Using RadEditor in List Items.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-radeditor-in-list-items
 tags: using,radeditor,in,list,items
 published: True

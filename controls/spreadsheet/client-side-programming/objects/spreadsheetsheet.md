@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetSheet Object
-page_title: SpreadsheetSheet Object| UI for ASP.NET AJAX Documentation
-description: SpreadsheetSheet Object
+page_title: SpreadsheetSheet Object
+description: Check our Web Forms article about SpreadsheetSheet Object.
 slug: spreadsheet/client-side-programming/objects/spreadsheetsheet
 tags: spreadsheetsheet
 published: True

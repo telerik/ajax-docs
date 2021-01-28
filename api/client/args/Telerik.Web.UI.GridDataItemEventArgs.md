@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridDataItemEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridDataItemEventArgs
 slug: Telerik.Web.UI.GridDataItemEventArgs
 ---

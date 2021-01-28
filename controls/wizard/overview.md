@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadWizard Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadWizard Overview
+description: Check our Web Forms article about Overview.
 slug: wizard/overview
 tags: overview
 published: True

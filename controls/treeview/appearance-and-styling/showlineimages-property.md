@@ -1,7 +1,7 @@
 ---
 title: ShowLineImages Property
-page_title: ShowLineImages Property | RadTreeView for ASP.NET AJAX Documentation
-description: ShowLineImages Property
+page_title: ShowLineImages Property - RadTreeView
+description: Check our Web Forms article about ShowLineImages Property.
 slug: treeview/appearance-and-styling/showlineimages-property
 tags: showlineimages,property
 published: True

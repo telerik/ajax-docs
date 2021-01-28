@@ -1,7 +1,7 @@
 ---
 title: OnClientEntryRemoved
-page_title: OnClientEntryRemoved | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: OnClientEntryRemoved
+page_title: OnClientEntryRemoved - RadAutoCompleteBox
+description: Check our Web Forms article about OnClientEntryRemoved.
 slug: autocompletebox/client-side-programming/events/oncliententryremoved
 tags: oncliententryremoved
 published: True

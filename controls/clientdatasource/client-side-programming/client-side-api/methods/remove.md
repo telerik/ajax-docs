@@ -1,7 +1,7 @@
 ---
 title: remove
-page_title: ClientDataSource Object remove() | RadClientDataSource for ASP.NET AJAX Documentation
-description: remove
+page_title: ClientDataSource Object remove() - RadClientDataSource
+description: Check our Web Forms article about remove.
 slug: clientdatasource/client-side-programming/client-side-api/methods/remove
 tags: remove
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ShowDelay and AutoCloseDelay
-page_title: ShowDelay and AutoCloseDelay | RadTooltip for ASP.NET AJAX Documentation
-description: ShowDelay and AutoCloseDelay
+page_title: ShowDelay and AutoCloseDelay - RadTooltip
+description: Check our Web Forms article about ShowDelay and AutoCloseDelay.
 slug: tooltip/getting-started/showdelay-and-autoclosedelay
 tags: showdelay,and,autoclosedelay
 published: True

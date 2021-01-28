@@ -1,7 +1,7 @@
 ---
 title: SelectedIndexChanged
-page_title: SelectedIndexChanged | RadDropDownList for ASP.NET AJAX Documentation
-description: SelectedIndexChanged
+page_title: SelectedIndexChanged - RadDropDownList
+description: Check our Web Forms article about SelectedIndexChanged.
 slug: dropdownlist/server-side-programming/events/selectedindexchanged
 tags: selectedindexchanged
 published: True

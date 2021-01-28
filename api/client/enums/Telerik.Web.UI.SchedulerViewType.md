@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerViewType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerViewType
 slug: Telerik.Web.UI.SchedulerViewType
 ---

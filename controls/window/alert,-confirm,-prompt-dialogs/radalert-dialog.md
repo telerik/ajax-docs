@@ -1,7 +1,7 @@
 ---
 title: RadAlert Dialog
-page_title: RadAlert Dialog | RadWindow for ASP.NET AJAX Documentation
-description: RadAlert Dialog
+page_title: RadAlert Dialog - RadWindow
+description: Check our Web Forms article about RadAlert Dialog.
 slug: window/alert,-confirm,-prompt-dialogs/radalert-dialog
 tags: radalert,dialog
 published: True

@@ -1,7 +1,7 @@
 ---
 title: page
-page_title: page | RadGrid for ASP.NET AJAX Documentation
-description: page
+page_title: page - RadGrid
+description: Check our Web Forms article about page.
 slug: grid/client-side-programming/gridtableview-object/methods/page
 tags: page
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.PivotGridAggregate
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PivotGridAggregate
 slug: Telerik.Web.UI.PivotGridAggregate
 ---

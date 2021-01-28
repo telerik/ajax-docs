@@ -1,7 +1,7 @@
 ---
 title: Explore Control Features
-page_title: Explore Control Features | UI for ASP.NET AJAX Documentation
-description: Explore Control Features in UI for ASP.NET AJAX
+page_title: Explore Control Features
+description: Check our Web Forms article about Explore Control Features in UI for ASP.NET AJAX.
 slug: getting-started/explore-control-features
 tags: Explore Control Features
 published: True

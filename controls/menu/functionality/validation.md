@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadMenu for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadMenu
+description: Check our Web Forms article about Validation.
 slug: menu/functionality/validation
 tags: validation
 published: True

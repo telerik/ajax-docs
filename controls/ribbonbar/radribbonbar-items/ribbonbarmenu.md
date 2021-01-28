@@ -1,7 +1,7 @@
 ---
 title: RibbonBarMenu
-page_title: RibbonBarMenu | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarMenu
+page_title: RibbonBarMenu - RadRibbonBar
+description: Check our Web Forms article about RibbonBarMenu.
 slug: ribbonbar/radribbonbar-items/ribbonbarmenu
 tags: ribbonbarmenu
 published: True

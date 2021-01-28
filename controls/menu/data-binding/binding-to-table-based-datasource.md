@@ -1,7 +1,7 @@
 ---
 title: Binding to Table-Based DataSource
-page_title: Binding to Table-Based DataSource | RadMenu for ASP.NET AJAX Documentation
-description: Binding to Table-Based DataSource
+page_title: Binding to Table-Based DataSource - RadMenu
+description: Check our Web Forms article about Binding to Table-Based DataSource.
 slug: menu/data-binding/binding-to-table-based-datasource
 tags: binding,to,table-based,datasource
 published: True

@@ -1,7 +1,7 @@
 ---
 title: How to Disable the Collapse Animation at Client-side
-page_title: How to Disable the Collapse Animation at Client-side | RadMenu for ASP.NET AJAX Documentation
-description: How to Disable the Collapse Animation at Client-side
+page_title: How to Disable the Collapse Animation at Client-side - RadMenu
+description: Check our Web Forms article about How to Disable the Collapse Animation at Client-side.
 slug: menu/how-to/how-to-disable-the-collapse-animation-at-client-side
 tags: how,to,disable,the,collapse,animation,at,client-side
 published: True

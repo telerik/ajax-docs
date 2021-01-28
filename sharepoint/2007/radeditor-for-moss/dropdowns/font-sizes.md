@@ -1,7 +1,7 @@
 ---
 title: Font Sizes
-page_title: Font Sizes | UI for ASP.NET AJAX Documentation
-description: Font Sizes
+page_title: Font Sizes
+description: Check our Web Forms article about Font Sizes.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/font-sizes
 tags: font,sizes
 published: True

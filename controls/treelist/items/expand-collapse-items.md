@@ -1,7 +1,7 @@
 ---
 title: Expand/Collapse Items
-page_title: Expand/Collapse Items | RadTreeList for ASP.NET AJAX Documentation
-description: Expand/Collapse Items
+page_title: Expand/Collapse Items - RadTreeList
+description: Check our Web Forms article about Expand/Collapse Items.
 slug: treelist/items/expand-collapse-items
 tags: expand,collapse,items
 published: True

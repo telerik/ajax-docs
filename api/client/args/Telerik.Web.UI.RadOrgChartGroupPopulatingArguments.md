@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadOrgChartGroupPopulatingArguments
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadOrgChartGroupPopulatingArguments
 slug: Telerik.Web.UI.RadOrgChartGroupPopulatingArguments
 ---

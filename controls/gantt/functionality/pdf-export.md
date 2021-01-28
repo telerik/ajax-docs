@@ -1,7 +1,7 @@
 ---
 title: PDF Export
-page_title: PDF Export | RadGantt for ASP.NET AJAX Documentation
-description: PDF Export
+page_title: PDF Export - RadGantt
+description: Check our Web Forms article about PDF Export.
 slug: gantt/functionality/pdf-export
 tags: pdf,export
 published: True

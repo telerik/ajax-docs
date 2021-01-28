@@ -1,7 +1,7 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | RadCheckBox for ASP.NET AJAX Documentation
-description: Create a Custom Skin
+page_title: Create a Custom Skin - RadCheckBox
+description: Check our Web Forms article about Create a Custom Skin.
 slug: checkbox/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
 published: True

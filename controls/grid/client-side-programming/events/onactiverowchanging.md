@@ -1,7 +1,7 @@
 ---
 title: OnActiveRowChanging
-page_title: OnActiveRowChanging | RadGrid for ASP.NET AJAX Documentation
-description: OnActiveRowChanging
+page_title: OnActiveRowChanging - RadGrid
+description: Check our Web Forms article about OnActiveRowChanging.
 slug: grid/client-side-programming/events/onactiverowchanging
 tags: onactiverowchanging
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeDragStart
-page_title: OnClientNodeDragStart | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeDragStart
+page_title: OnClientNodeDragStart - RadTreeView
+description: Check our Web Forms article about OnClientNodeDragStart.
 slug: treeview/client-side-programming/events/onclientnodedragstart
 tags: onclientnodedragstart
 published: True

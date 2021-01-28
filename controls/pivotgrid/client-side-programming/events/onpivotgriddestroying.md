@@ -1,7 +1,7 @@
 ---
 title: OnPivotGridDestroying
-page_title: OnPivotGridDestroying | RadPivotGrid for ASP.NET AJAX Documentation
-description: OnPivotGridDestroying
+page_title: OnPivotGridDestroying - RadPivotGrid
+description: Check our Web Forms article about OnPivotGridDestroying.
 slug: pivotgrid/client-side-programming/events/onpivotgriddestroying
 tags: onpivotgriddestroying
 published: True

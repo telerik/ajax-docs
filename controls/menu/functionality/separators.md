@@ -1,7 +1,7 @@
 ---
 title: Separators
-page_title: Separators | RadMenu for ASP.NET AJAX Documentation
-description: Separators
+page_title: Separators - RadMenu
+description: Check our Web Forms article about Separators.
 slug: menu/functionality/separators
 tags: separators
 published: True

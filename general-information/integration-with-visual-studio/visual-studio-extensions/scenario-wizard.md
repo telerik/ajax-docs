@@ -1,7 +1,7 @@
 ---
 title: Add Scenario
-page_title: Add Scenario | UI for ASP.NET AJAX Documentation
-description: Add Scenario
+page_title: Add Scenario
+description: Check our Web Forms article about Add Scenario.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard
 tags: scenario,wizard
 published: True

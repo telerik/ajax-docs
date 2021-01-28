@@ -1,7 +1,7 @@
 ---
 title: OnTableDestroying
-page_title: OnTableDestroying | RadGrid for ASP.NET AJAX Documentation
-description: OnTableDestroying
+page_title: OnTableDestroying - RadGrid
+description: Check our Web Forms article about OnTableDestroying.
 slug: grid/client-side-programming/events/ontabledestroying
 tags: ontabledestroying
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnPopupOpening
-page_title: OnPopupOpening | RadDateTimePicker for ASP.NET AJAX Documentation
-description: OnPopupOpening
+page_title: OnPopupOpening - RadDateTimePicker
+description: Check our Web Forms article about OnPopupOpening.
 slug: datetimepicker/client-side-programming/events/onpopupopening
 tags: onpopupopening
 published: True

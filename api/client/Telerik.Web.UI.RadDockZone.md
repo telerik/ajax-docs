@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDockZone
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDockZone
 slug: Telerik.Web.UI.RadDockZone
 ---

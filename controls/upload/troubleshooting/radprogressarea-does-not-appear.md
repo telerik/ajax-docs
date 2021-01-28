@@ -1,7 +1,7 @@
 ---
 title: RadProgressArea Does Not Appear
-page_title: RadProgressArea Does Not Appear | RadUpload for ASP.NET AJAX Documentation
-description: RadProgressArea Does Not Appear
+page_title: RadProgressArea Does Not Appear - RadUpload
+description: Check our Web Forms article about RadProgressArea Does Not Appear.
 slug: upload/troubleshooting/radprogressarea-does-not-appear
 tags: radprogressarea,does,not,appear
 published: True

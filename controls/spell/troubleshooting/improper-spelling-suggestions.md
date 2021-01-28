@@ -1,7 +1,7 @@
 ---
 title: Improper Spelling Suggestions
-page_title: Improper Spelling Suggestions | RadSpell for ASP.NET AJAX Documentation
-description: Improper Spelling Suggestions
+page_title: Improper Spelling Suggestions - RadSpell
+description: Check our Web Forms article about Improper Spelling Suggestions.
 slug: spell/troubleshooting/improper-spelling-suggestions
 tags: improper,spelling,suggestions
 published: True

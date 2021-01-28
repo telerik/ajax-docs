@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Reminders Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Reminders Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/reminders/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadColorPicker for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadColorPicker
+description: Check our Web Forms article about Elastic Design.
 slug: colorpicker/mobile-support/elastic-design
 tags: elastic,design,color picker
 published: True

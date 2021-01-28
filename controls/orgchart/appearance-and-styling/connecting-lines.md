@@ -1,7 +1,7 @@
 ---
 title: Connecting Lines
-page_title: Connecting Lines | RadOrgChart for ASP.NET AJAX Documentation
-description: Connecting Lines
+page_title: Connecting Lines - RadOrgChart
+description: Check our Web Forms article about Connecting Lines.
 slug: orgchart/appearance-and-styling/connecting-lines
 tags: connecting,lines
 published: True

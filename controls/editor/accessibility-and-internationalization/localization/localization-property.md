@@ -1,7 +1,7 @@
 ---
 title: Localization Property
-page_title: Localization Property | RadEditor for ASP.NET AJAX Documentation
-description: Localization Property
+page_title: Localization Property - RadEditor
+description: Check our Web Forms article about Localization Property.
 slug: editor/accessibility-and-internationalization/localization/localization-property
 tags: localization,property
 published: True

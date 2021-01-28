@@ -1,7 +1,7 @@
 ---
 title: OnClientEntryAdding
-page_title: OnClientEntryAdding | RadDropDownTree for ASP.NET AJAX Documentation
-description: OnClientEntryAdding
+page_title: OnClientEntryAdding - RadDropDownTree
+description: Check our Web Forms article about OnClientEntryAdding.
 slug: dropdowntree/client-side-programming/events/oncliententryadding
 tags: oncliententryadding
 published: True

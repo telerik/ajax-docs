@@ -1,7 +1,7 @@
 ---
 title: RadMenu and RadContextMenu Objects
-page_title: RadMenu and RadContextMenu Objects | RadMenu for ASP.NET AJAX Documentation
-description: RadMenu and RadContextMenu Objects
+page_title: RadMenu and RadContextMenu Objects - RadMenu
+description: Check our Web Forms article about RadMenu and RadContextMenu Objects.
 slug: menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects
 tags: radmenu,and,radcontextmenu,objects
 published: True

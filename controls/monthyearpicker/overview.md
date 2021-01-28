@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadMonthYearPicker Overview | UI for ASP.NET AJAX Documentation
-description: RadMonthYearPicker Overview
+page_title: RadMonthYearPicker Overview
+description: Check our Web Forms article about RadMonthYearPicker Overview.
 slug: monthyearpicker/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Customizing the Menu
-page_title: Customizing the Menu | RadFilter for ASP.NET AJAX Documentation
-description: Customizing the Menu
+page_title: Customizing the Menu - RadFilter
+description: Check our Web Forms article about Customizing the Menu.
 slug: filter/how-to/customizing-the-menu
 tags: customizing,the,menu
 published: True

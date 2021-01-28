@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequestFailed
-page_title: OnClientItemsRequestFailed | RadDropDownList for ASP.NET AJAX Documentation
-description: OnClientItemsRequestFailed
+page_title: OnClientItemsRequestFailed - RadDropDownList
+description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: dropdownlist/client-side-programming/events/onclientitemsrequestfailed
 tags: onclientitemsrequestfailed
 published: True

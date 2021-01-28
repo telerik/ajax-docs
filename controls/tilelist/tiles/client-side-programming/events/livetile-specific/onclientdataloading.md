@@ -1,7 +1,7 @@
 ---
 title: OnClientDataLoading
-page_title: OnClientDataLoading | RadTile for ASP.NET AJAX Documentation
-description: OnClientDataLoading
+page_title: OnClientDataLoading - RadTile
+description: Check our Web Forms article about OnClientDataLoading.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading
 tags: onclientdataloading
 published: True

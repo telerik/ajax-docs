@@ -1,7 +1,7 @@
 ---
 title: update
-page_title: ClientDataSource Object update() | RadClientDataSource for ASP.NET AJAX Documentation
-description: update
+page_title: ClientDataSource Object update() - RadClientDataSource
+description: Check our Web Forms article about update.
 slug: clientdatasource/client-side-programming/client-side-api/methods/update
 tags: update
 published: True

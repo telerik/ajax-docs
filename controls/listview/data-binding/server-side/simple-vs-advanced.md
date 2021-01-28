@@ -1,7 +1,7 @@
 ---
 title: Simple vs Advanced
-page_title: Simple vs Advanced | RadListView for ASP.NET AJAX Documentation
-description: Simple vs Advanced
+page_title: Simple vs Advanced - RadListView
+description: Check our Web Forms article about Simple vs Advanced.
 slug: listview/data-binding/server-side/simple-vs-advanced
 tags: simple,vs,advanced
 published: True

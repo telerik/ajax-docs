@@ -1,7 +1,7 @@
 ---
 title: Ignoring Words and Fragments
-page_title: Ignoring Words and Fragments | RadSpell for ASP.NET AJAX Documentation
-description: Ignoring Words and Fragments
+page_title: Ignoring Words and Fragments - RadSpell
+description: Check our Web Forms article about Ignoring Words and Fragments.
 slug: spell/configuration/ignoring-words-and-fragments
 tags: ignoring,words,and,fragments
 published: True

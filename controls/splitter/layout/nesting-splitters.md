@@ -1,7 +1,7 @@
 ---
 title: Nesting Splitters
-page_title: Nesting Splitters | RadSplitter for ASP.NET AJAX Documentation
-description: Nesting Splitters
+page_title: Nesting Splitters - RadSplitter
+description: Check our Web Forms article about Nesting Splitters.
 slug: splitter/layout/nesting-splitters
 tags: nesting,splitters
 published: True

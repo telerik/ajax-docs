@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: RadSpreadsheet Client-side Events Overview | UI for ASP.NET AJAX Documentation
-description: RadSpreadsheet Client-side Events Overview
+page_title: RadSpreadsheet Client-side Events Overview
+description: Check our Web Forms article about RadSpreadsheet Client-side Events Overview.
 slug: spreadsheet/client-side-programming/events/overview
 tags: spreadsheetevents,overview,client,spreadsheet,events
 published: True

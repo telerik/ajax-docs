@@ -1,7 +1,7 @@
 ---
 title: RadMultiPage Object
-page_title: RadMultiPage Object | RadTabStrip for ASP.NET AJAX Documentation
-description: RadMultiPage Object
+page_title: RadMultiPage Object - RadTabStrip
+description: Check our Web Forms article about RadMultiPage Object.
 slug: tabstrip/client-side-programming/radmultipage-object
 tags: radmultipage,object
 published: True

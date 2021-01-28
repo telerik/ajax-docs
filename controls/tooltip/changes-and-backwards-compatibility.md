@@ -1,7 +1,7 @@
 ---
 title: Changes And Backwards Compatibility
-page_title: Changes And Backwards Compatibility | RadTooltip for ASP.NET AJAX Documentation
-description: Changes And Backwards Compatibility
+page_title: Changes And Backwards Compatibility - RadTooltip
+description: Check our Web Forms article about Changes And Backwards Compatibility.
 slug: tooltip/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
 published: True

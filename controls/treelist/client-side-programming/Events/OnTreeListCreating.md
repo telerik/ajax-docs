@@ -1,7 +1,7 @@
 ---
 title: OnTreeListCreating
-page_title: OnTreeListCreating | RadTreeList for ASP.NET AJAX Documentation
-description: OnTreeListCreating Event
+page_title: OnTreeListCreating - RadTreeList
+description: Check our Web Forms article about OnTreeListCreating Event.
 slug: treelist/client-side-programming/Events/OnTreeListCreating
 tags: events,OnTreeListCreating
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Supported SharePoint App Models
-page_title: Supported SharePoint App Models | UI for ASP.NET AJAX Documentation
-description: Supported SharePoint App Models
+page_title: Supported SharePoint App Models
+description: Check our Web Forms article about Supported SharePoint App Models.
 slug: sharepoint/2013/installation-and-deployment/supported-sharepoint-app-models
 tags: supported,sharepoint,app,models
 published: True

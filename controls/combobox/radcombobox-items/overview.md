@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadComboBox Items Overview | RadComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadComboBox Items Overview - RadComboBox
+description: Check our Web Forms article about Overview.
 slug: combobox/radcombobox-items/overview
 tags: overview
 published: True

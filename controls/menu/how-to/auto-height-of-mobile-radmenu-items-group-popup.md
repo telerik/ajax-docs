@@ -1,7 +1,7 @@
 ---
 title: Auto height of Mobile RadMenu items group popup
-page_title: Auto height of Mobile RadMenu items group popup | RadMenu for ASP.NET AJAX Documentation
-description: Auto height of Mobile RadMenu items group popup
+page_title: Auto height of Mobile RadMenu items group popup - RadMenu
+description: Check our Web Forms article about Auto height of Mobile RadMenu items group popup.
 slug: menu/how-to/auto-height-of-mobile-radmenu-items-group-popup
 tags: radmenu,auto,resize,height,size,items,menu,popup,mobile
 published: True

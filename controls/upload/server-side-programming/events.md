@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Server-side Events | RadUpload for ASP.NET AJAX Documentation
-description: Events
+page_title: Server-side Events - RadUpload
+description: Check our Web Forms article about Events.
 slug: upload/server-side-programming/events
 tags: events
 published: True

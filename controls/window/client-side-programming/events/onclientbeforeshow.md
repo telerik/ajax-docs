@@ -1,7 +1,7 @@
 ---
 title: OnClientBeforeShow
-page_title: OnClientBeforeShow | RadWindow for ASP.NET AJAX Documentation
-description: OnClientBeforeShow
+page_title: OnClientBeforeShow - RadWindow
+description: Check our Web Forms article about OnClientBeforeShow.
 slug: window/client-side-programming/events/onclientbeforeshow
 tags: onclientbeforeshow
 published: True

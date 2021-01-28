@@ -1,7 +1,7 @@
 ---
 title: Session State Usage
-page_title: Session State Usage | RadChart for ASP.NET AJAX Documentation
-description: Session State Usage
+page_title: Session State Usage - RadChart
+description: Check our Web Forms article about Session State Usage.
 slug: chart/advanced-topics/session-state-usage
 tags: session,state,usage
 published: True

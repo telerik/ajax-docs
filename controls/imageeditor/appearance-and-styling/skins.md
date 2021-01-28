@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadImageEditor for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadImageEditor
+description: Check our Web Forms article about Skins.
 slug: imageeditor/appearance-and-styling/skins
 tags: skins
 published: True

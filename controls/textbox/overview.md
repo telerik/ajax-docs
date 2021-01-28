@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadTextBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadTextBox
+description: Check our Web Forms article about Overview.
 slug: radtextbox/overview
 tags: overview
 published: True

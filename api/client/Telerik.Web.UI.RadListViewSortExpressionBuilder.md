@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadListViewSortExpressionBuilder
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadListViewSortExpressionBuilder
 slug: Telerik.Web.UI.RadListViewSortExpressionBuilder
 ---

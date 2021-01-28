@@ -1,7 +1,7 @@
 ---
 title: SelectionStateChanged
-page_title: SelectionStateChanged | RadTile for ASP.NET AJAX Documentation
-description: SelectionStateChanged
+page_title: SelectionStateChanged - RadTile
+description: Check our Web Forms article about SelectionStateChanged.
 slug: tilelist/tiles/server-side-programming/events/selectionstatechanged
 tags: selectionstatechanged
 published: True

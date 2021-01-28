@@ -1,7 +1,7 @@
 ---
 title: OnClientResizeStart
-page_title: OnClientResizeStart | RadDock for ASP.NET AJAX Documentation
-description: OnClientResizeStart
+page_title: OnClientResizeStart - RadDock
+description: Check our Web Forms article about OnClientResizeStart.
 slug: dock/client-side-programming/events/onclientresizestart
 tags: onclientresizestart
 published: True

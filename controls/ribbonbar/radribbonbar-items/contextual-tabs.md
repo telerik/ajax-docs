@@ -1,7 +1,7 @@
 ---
 title: Contextual Tabs
-page_title: Contextual Tabs | RadRibbonBar for ASP.NET AJAX Documentation
-description: Contextual Tabs
+page_title: Contextual Tabs - RadRibbonBar
+description: Check our Web Forms article about Contextual Tabs.
 slug: ribbonbar/radribbonbar-items/contextual-tabs
 tags: contextual,tabs
 published: True

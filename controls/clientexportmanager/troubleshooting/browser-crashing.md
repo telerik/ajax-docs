@@ -1,7 +1,7 @@
 ---
 title: Browser Crashing
-page_title: Browser Crashing | RadClientExportManager for ASP.NET AJAX Documentation
-description: Browser Crashing
+page_title: Browser Crashing - RadClientExportManager
+description: Check our Web Forms article about Browser Crashing.
 slug: clientexportmanager/troubleshooting/browser-crashing
 tags: browser,crashing
 published: True

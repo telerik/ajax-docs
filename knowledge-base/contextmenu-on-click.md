@@ -1,8 +1,8 @@
 ---
 title: Open context menu by clicking on a button
-description: Example showing how to open RadContextMenu on Button Click
+description: Example showing how to open RadContextMenu on Button Click.
 type: how-to
-page_title: Open a context menu on Button Click - RadContextMenu | Telerik UI For ASP.NET AJAX
+page_title: Open a context menu on Button Click - RadContextMenu - Telerik UI For ASP.NET AJAX
 slug: contextmenu-on-click
 position: 
 tags: 

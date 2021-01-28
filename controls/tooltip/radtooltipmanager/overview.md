@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadToolTipManager Overview | RadTooltip for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadToolTipManager Overview - RadTooltip
+description: Check our Web Forms article about Overview.
 slug: tooltip/radtooltipmanager/overview
 tags: overview
 published: True

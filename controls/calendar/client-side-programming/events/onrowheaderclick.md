@@ -1,7 +1,7 @@
 ---
 title: OnRowHeaderClick
-page_title: OnRowHeaderClick | RadCalendar for ASP.NET AJAX Documentation
-description: OnRowHeaderClick
+page_title: OnRowHeaderClick - RadCalendar
+description: Check our Web Forms article about OnRowHeaderClick.
 slug: calendar/client-side-programming/events/onrowheaderclick
 tags: onrowheaderclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadSocialShare for ASP.NET AJAX Documentation
-description: Known Limitations in RadSocialShare for ASP.NET AJAX
+page_title: Known Limitations - RadSocialShare
+description: Check our Web Forms article about Known Limitations in RadSocialShare for ASP.NET AJAX.
 slug: socialshare/troubleshooting/known-limitations
 tags: limitations, known
 published: True

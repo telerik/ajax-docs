@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulated
-page_title: OnClientNodePopulated | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodePopulated
+page_title: OnClientNodePopulated - RadNavigation
+description: Check our Web Forms article about OnClientNodePopulated.
 slug: navigation/client-side-programming/events/onclientnodepopulated
 tags: onclientnodepopulated
 published: True

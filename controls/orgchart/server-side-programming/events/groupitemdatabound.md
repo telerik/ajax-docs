@@ -1,7 +1,7 @@
 ---
 title: GroupItemDataBound
-page_title: GroupItemDataBound | RadOrgChart for ASP.NET AJAX Documentation
-description: GroupItemDataBound
+page_title: GroupItemDataBound - RadOrgChart
+description: Check our Web Forms article about GroupItemDataBound.
 slug: orgchart/server-side-programming/events/groupitemdatabound
 tags: groupitemdatabound
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using ClientDataSource With Web API
-page_title: Using ClientDataSource With Web API | RadClientDataSource for ASP.NET AJAX Documentation
-description: Using ClientDataSource With Web API
+page_title: Using ClientDataSource With Web API - RadClientDataSource
+description: Check our Web Forms article about Using ClientDataSource With Web API.
 slug: clientdatasource/how-to/using-clientdatasource-with-web-api
 tags: using,clientdatasource,with,web,api
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Change Mouse Pointer on MenuItem Hover
-page_title: Change Mouse Pointer on MenuItem Hover | RadMenu for ASP.NET AJAX Documentation
-description: Change Mouse Pointer on MenuItem Hover
+page_title: Change Mouse Pointer on MenuItem Hover - RadMenu
+description: Check our Web Forms article about Change Mouse Pointer on MenuItem Hover.
 slug: menu/how-to/change-mouse-pointer-on-menuitem-hover
 tags: change,mouse,pointer,on,menuitem,hover
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadGrid Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadGrid Overview
+description: Check our Web Forms article about Overview.
 slug: grid/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadImageGallery Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadImageGallery Overview
+description: Check our Web Forms article about Overview.
 slug: imagegallery/overview
 tags: overview
 published: True

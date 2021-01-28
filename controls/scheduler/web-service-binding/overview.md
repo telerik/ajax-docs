@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Web Service Binding Overview | RadScheduler for ASP.NET AJAX Documentation
-description: Overview
+page_title: Web Service Binding Overview - RadScheduler
+description: Check our Web Forms article about Overview.
 slug: scheduler/web-service-binding/overview
 tags: overview
 published: True

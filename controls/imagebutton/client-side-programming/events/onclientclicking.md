@@ -1,7 +1,7 @@
 ---
 title: OnClientClicking
-page_title: OnClientClicking | RadImageButton for ASP.NET AJAX Documentation
-description: OnClientClicking
+page_title: OnClientClicking - RadImageButton
+description: Check our Web Forms article about OnClientClicking.
 slug: imagebutton/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True

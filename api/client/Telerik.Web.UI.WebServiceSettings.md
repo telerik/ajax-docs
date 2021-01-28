@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.WebServiceSettings
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.WebServiceSettings
 slug: Telerik.Web.UI.WebServiceSettings
 ---

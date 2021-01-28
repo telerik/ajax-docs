@@ -1,7 +1,7 @@
 ---
 title: OnClientFilter
-page_title: OnClientFilter | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientFilter
+page_title: OnClientFilter - RadFileExplorer
+description: Check our Web Forms article about OnClientFilter.
 slug: fileexplorer/client-side-programming/events/onclientfilter
 tags: onclientfilter
 published: True

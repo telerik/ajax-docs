@@ -1,7 +1,7 @@
 ---
 title: Creating Context Menus from XML Files
-page_title: Creating Context Menus from XML Files | RadTreeView for ASP.NET AJAX Documentation
-description: Creating Context Menus from XML Files
+page_title: Creating Context Menus from XML Files - RadTreeView
+description: Check our Web Forms article about Creating Context Menus from XML Files.
 slug: treeview/context-menus/creating-context-menus-from-xml-files
 tags: creating,context,menus,from,xml,files
 published: True

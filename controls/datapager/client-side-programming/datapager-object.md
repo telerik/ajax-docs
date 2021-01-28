@@ -1,7 +1,7 @@
 ---
 title: DataPager Object
-page_title: DataPager Object | RadDataPager for ASP.NET AJAX Documentation
-description: DataPager Object
+page_title: DataPager Object - RadDataPager
+description: Check our Web Forms article about DataPager Object.
 slug: datapager/client-side-programming/datapager-object
 tags: datapager,object
 published: True

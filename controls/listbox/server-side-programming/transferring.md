@@ -1,7 +1,7 @@
 ---
 title: Transferring
-page_title: Transferring | RadListBox for ASP.NET AJAX Documentation
-description: Transferring
+page_title: Transferring - RadListBox
+description: Check our Web Forms article about Transferring.
 slug: listbox/server-side-programming/server-events/transferring
 tags: transferring
 published: True

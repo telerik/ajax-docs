@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownOpening
-page_title: OnClientDropDownOpening | RadToolBar for ASP.NET AJAX Documentation
-description: OnClientDropDownOpening
+page_title: OnClientDropDownOpening - RadToolBar
+description: Check our Web Forms article about OnClientDropDownOpening.
 slug: toolbar/client-side-programming/onclientdropdownopening
 tags: onclientdropdownopening
 published: True

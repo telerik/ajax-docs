@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadTileList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadTileList
+description: Check our Web Forms article about Overview.
 slug: tilelist/data-binding/overview
 tags: overview
 published: True

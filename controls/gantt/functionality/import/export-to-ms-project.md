@@ -1,7 +1,7 @@
 ---
 title: Export to MS Project
-page_title: Export to MS Project | RadGantt for ASP.NET AJAX Documentation
-description: Export to MS Project
+page_title: Export to MS Project - RadGantt
+description: Check our Web Forms article about Export to MS Project.
 slug: gantt/functionality/import/export-to-ms-project
 tags: export,to,ms,project
 published: False

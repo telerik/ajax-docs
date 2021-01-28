@@ -1,7 +1,7 @@
 ---
 title: Chunk Upload
-page_title: Chunk Upload | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Chunk Upload
+page_title: Chunk Upload - RadAsyncUpload
+description: Check our Web Forms article about Chunk Upload.
 slug: asyncupload/functionality/chunk-upload
 tags: chunk,upload
 published: True

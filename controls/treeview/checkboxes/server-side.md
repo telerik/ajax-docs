@@ -1,7 +1,7 @@
 ---
 title: Server-side
-page_title: Server-side | RadTreeView for ASP.NET AJAX Documentation
-description: Server-side
+page_title: Server-side - RadTreeView
+description: Check our Web Forms article about Server-side.
 slug: treeview/checkboxes/server-side
 tags: server-side
 published: True

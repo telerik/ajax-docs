@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadAsyncUpload Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadAsyncUpload Overview
+description: Check our Web Forms article about Overview.
 slug: asyncupload/overview
 tags: overview
 published: True

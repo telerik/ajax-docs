@@ -1,7 +1,7 @@
 ---
 title: Center PopUp Edit Form in RadGrid
-page_title: Center PopUp Edit Form in RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Center PopUp Edit Form in RadGrid
+page_title: Center PopUp Edit Form in RadGrid - RadGrid
+description: Check our Web Forms article about Center PopUp Edit Form in RadGrid.
 slug: grid/how-to/data-editing/center-popup-edit-form-in-radgrid
 previous_url: controls/grid/data-editing/how-to/center-popup-edit-form-in-radgrid
 tags: center,popup,edit,form,in,radgrid

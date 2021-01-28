@@ -1,7 +1,7 @@
 ---
 title: The DataItem Property is Empty
-page_title: The DataItem Property is Empty | RadTreeView for ASP.NET AJAX Documentation
-description: The DataItem Property is Empty
+page_title: The DataItem Property is Empty - RadTreeView
+description: Check our Web Forms article about The DataItem Property is Empty.
 slug: treeview/troubleshooting/the-dataitem-property-is-empty
 tags: the,dataitem,property,is,empty
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Viewport Breakpoints
-page_title: Viewport Breakpoints | RadPageLayout for ASP.NET AJAX Documentation
-description: Viewport Breakpoints
+page_title: Viewport Breakpoints - RadPageLayout
+description: Check our Web Forms article about Viewport Breakpoints.
 slug: pagelayout/creating-responsive-design/viewport-breakpoints
 tags: viewport,breakpoints
 published: True

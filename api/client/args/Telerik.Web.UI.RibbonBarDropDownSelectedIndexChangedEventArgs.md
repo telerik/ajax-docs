@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangedEventArgs
 slug: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangedEventArgs
 ---

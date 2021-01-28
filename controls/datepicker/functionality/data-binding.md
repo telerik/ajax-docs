@@ -1,7 +1,7 @@
 ---
 title: Data Binding 
-page_title: Data Binding  | RadDatePicker for ASP.NET AJAX Documentation
-description: Data Binding 
+page_title: Data Binding - RadDatePicker
+description: Check our Web Forms article about Data Binding.
 slug: datepicker/functionality/data-binding
 tags: data,binding
 published: True

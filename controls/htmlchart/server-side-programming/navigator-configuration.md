@@ -1,7 +1,7 @@
 ---
 title: Navigator Configuration
-page_title: Navigator Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Navigator Configuration
+page_title: Navigator Configuration - RadHtmlChart
+description: Check our Web Forms article about Navigator Configuration.
 slug: htmlchart/server-side-programming/navigator-configuration
 tags: navigator,configuration
 published: True

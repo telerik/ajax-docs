@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ButtonListItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonListItem
 slug: Telerik.Web.UI.ButtonListItem
 ---

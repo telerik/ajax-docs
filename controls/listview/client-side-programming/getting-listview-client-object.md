@@ -1,7 +1,7 @@
 ---
 title: Getting ListView Client Object
-page_title: Getting ListView Client Object | RadListView for ASP.NET AJAX Documentation
-description: Getting ListView Client Object
+page_title: Getting ListView Client Object - RadListView
+description: Check our Web Forms article about Getting ListView Client Object.
 slug: listview/client-side-programming/getting-listview-client-object
 tags: getting,listview,client,object
 published: True

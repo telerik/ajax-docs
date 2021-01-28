@@ -1,7 +1,7 @@
 ---
 title: Caching Provider
-page_title: Caching Provider | RadCaptcha for ASP.NET AJAX Documentation
-description: Caching Provider
+page_title: Caching Provider - RadCaptcha
+description: Check our Web Forms article about Caching Provider.
 slug: captcha/functionality/caching-provider
 tags: caching,provider
 published: True

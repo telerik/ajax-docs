@@ -1,7 +1,7 @@
 ---
 title: OnClientImageChanged
-page_title: OnClientImageChanged | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientImageChanged
+page_title: OnClientImageChanged - RadImageEditor
+description: Check our Web Forms article about OnClientImageChanged.
 slug: imageeditor/client-side-programming/events/onclientimagechanged
 tags: onclientimagechanged
 published: True

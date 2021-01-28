@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs
 slug: Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs
 ---

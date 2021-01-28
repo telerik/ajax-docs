@@ -1,7 +1,7 @@
 ---
 title: filter
-page_title: filter | RadGrid for ASP.NET AJAX Documentation
-description: filter
+page_title: filter - RadGrid
+description: Check our Web Forms article about filter.
 slug: grid/client-side-programming/gridtableview-object/methods/filter
 tags: filter
 published: True

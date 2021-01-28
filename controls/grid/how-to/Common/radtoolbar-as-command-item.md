@@ -1,7 +1,7 @@
 ---
 title: RadToolBar as Command Item
-page_title: RadToolBar as Command Item | RadGrid for ASP.NET AJAX Documentation
-description: RadToolBar as Command Item
+page_title: RadToolBar as Command Item - RadGrid
+description: Check our Web Forms article about RadToolBar as Command Item.
 slug: grid/how-to/common/radtoolbar-as-command-item
 tags: radtoolbar,as,command,item
 published: True

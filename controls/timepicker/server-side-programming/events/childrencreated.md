@@ -1,7 +1,7 @@
 ---
 title: ChildrenCreated
-page_title: ChildrenCreated | RadTimePicker for ASP.NET AJAX Documentation
-description: ChildrenCreated
+page_title: ChildrenCreated - RadTimePicker
+description: Check our Web Forms article about ChildrenCreated.
 slug: timepicker/server-side-programming/events/childrencreated
 tags: childrencreated
 published: True

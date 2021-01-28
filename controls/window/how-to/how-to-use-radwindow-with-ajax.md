@@ -1,7 +1,7 @@
 ---
 title: How to Use RadWindow with AJAX
-page_title: How to Use RadWindow with AJAX | RadWindow for ASP.NET AJAX Documentation
-description: How to Use RadWindow with AJAX
+page_title: How to Use RadWindow with AJAX - RadWindow
+description: Check our Web Forms article about How to Use RadWindow with AJAX.
 slug: window/how-to/how-to-use-radwindow-with-ajax
 tags: how,to,use,radwindow,with,ajax
 published: True

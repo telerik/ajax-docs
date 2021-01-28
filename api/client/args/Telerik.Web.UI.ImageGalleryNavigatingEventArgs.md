@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageGalleryNavigatingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageGalleryNavigatingEventArgs
 slug: Telerik.Web.UI.ImageGalleryNavigatingEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: CheckBoxes Overview | RadTreeView for ASP.NET AJAX Documentation
-description: Overview
+page_title: CheckBoxes Overview - RadTreeView
+description: Check our Web Forms article about Overview.
 slug: treeview/checkboxes/overview
 tags: overview
 published: True

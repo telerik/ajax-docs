@@ -1,7 +1,7 @@
 ---
 title: Setting Event Handlers via JavaScript
-page_title: Setting Event Handlers via JavaScript | RadImageButton for ASP.NET AJAX Documentation
-description: Setting Event Handlers via JavaScript
+page_title: Setting Event Handlers via JavaScript - RadImageButton
+description: Check our Web Forms article about Setting Event Handlers via JavaScript.
 slug: imagebutton/client-side-programming/events/setting-event-handlers-via-javascript
 tags: setting,event,handlers,via,javascript
 published: True

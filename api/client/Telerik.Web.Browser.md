@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.Browser
-title_prefix: Client-side API Reference
 description: Telerik.Web.Browser
 static: true
 slug: Telerik.Web.Browser

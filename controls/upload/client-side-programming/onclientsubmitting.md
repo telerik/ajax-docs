@@ -1,7 +1,7 @@
 ---
 title: OnClientSubmitting
-page_title: OnClientSubmitting | RadUpload for ASP.NET AJAX Documentation
-description: OnClientSubmitting
+page_title: OnClientSubmitting - RadUpload
+description: Check our Web Forms article about OnClientSubmitting.
 slug: upload/client-side-programming/onclientsubmitting
 tags: onclientsubmitting
 published: True

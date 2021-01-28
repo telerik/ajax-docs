@@ -1,7 +1,7 @@
 ---
 title: Switching between Insert/Update/Regular Modes
-page_title: Switching between Insert/Update/Regular Modes | RadListView for ASP.NET AJAX Documentation
-description: Switching between Insert/Update/Regular Modes
+page_title: Switching between Insert/Update/Regular Modes - RadListView
+description: Check our Web Forms article about Switching between Insert/Update/Regular Modes.
 slug: listview/data-editing/how-to/switching-between-insert/update/regular-modes
 tags: switching,between,insert/update/regular,modes
 published: True

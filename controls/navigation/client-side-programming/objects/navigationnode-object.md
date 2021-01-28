@@ -1,7 +1,7 @@
 ---
 title: NavigationNode Object
-page_title: NavigationNode Object | RadNavigation for ASP.NET AJAX Documentation
-description: NavigationNode Object
+page_title: NavigationNode Object - RadNavigation
+description: Check our Web Forms article about NavigationNode Object.
 slug: navigation/client-side-programming/objects/navigationnode-object
 tags: navigationnode,object
 published: True

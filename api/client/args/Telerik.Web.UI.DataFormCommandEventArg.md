@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DataFormCommandEventArg
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DataFormCommandEventArg
 slug: Telerik.Web.UI.DataFormCommandEventArg
 ---

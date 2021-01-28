@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.ToolWidget
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.ToolWidget
 slug: Telerik.Web.UI.ImageEditor.ToolWidget
 ---

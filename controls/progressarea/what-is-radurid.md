@@ -1,7 +1,7 @@
 ---
 title: RadUrid
-page_title: RadUrid | RadProgressArea for ASP.NET AJAX Documentation
-description: RadUrid
+page_title: RadUrid - RadProgressArea
+description: Check our Web Forms article about RadUrid.
 slug: progressarea/what-is-radurid
 tags: radurid
 published: True

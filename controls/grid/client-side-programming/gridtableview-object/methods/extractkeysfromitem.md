@@ -1,7 +1,7 @@
 ---
 title: extractKeysFromItem
-page_title: extractKeysFromItem | RadGrid for ASP.NET AJAX Documentation
-description: extractKeysFromItem
+page_title: extractKeysFromItem - RadGrid
+description: Check our Web Forms article about extractKeysFromItem.
 slug: grid/client-side-programming/gridtableview-object/methods/extractkeysfromitem
 tags: extractkeysfromitem
 published: True

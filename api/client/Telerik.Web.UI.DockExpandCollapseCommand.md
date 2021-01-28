@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockExpandCollapseCommand
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockExpandCollapseCommand
 slug: Telerik.Web.UI.DockExpandCollapseCommand
 ---

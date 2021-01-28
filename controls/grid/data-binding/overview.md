@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadGrid for ASP.NET AJAX Documentation
-description: Data Binding Overview
+page_title: Data Binding Overview - RadGrid
+description: Check our Web Forms article about Data Binding Overview.
 slug: grid/data-binding/overview
 tags: telerik,radgrid,data,binding,overview
 published: True

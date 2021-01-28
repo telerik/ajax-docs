@@ -1,7 +1,7 @@
 ---
 title: Dropping
-page_title: Dropping | RadListBox for ASP.NET AJAX Documentation
-description: Dropping
+page_title: Dropping - RadListBox
+description: Check our Web Forms article about Dropping.
 slug: listbox/server-side-programming/server-events/dropping
 tags: dropping
 published: True

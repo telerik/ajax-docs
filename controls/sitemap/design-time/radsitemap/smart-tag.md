@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadSiteMap for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadSiteMap
+description: Check our Web Forms article about Smart Tag.
 slug: sitemap/design-time/radsitemap/smart-tag
 tags: smart,tag
 published: True

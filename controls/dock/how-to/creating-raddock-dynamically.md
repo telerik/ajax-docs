@@ -1,7 +1,7 @@
 ---
 title: Creating RadDock Dynamically
-page_title: Creating RadDock Dynamically | RadDock for ASP.NET AJAX Documentation
-description: Creating RadDock Dynamically
+page_title: Creating RadDock Dynamically - RadDock
+description: Check our Web Forms article about Creating RadDock Dynamically.
 slug: dock/how-to/creating-raddock-dynamically
 tags: creating,raddock,dynamically
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientItemCollapse
-page_title: OnClientItemCollapse | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientItemCollapse
+page_title: OnClientItemCollapse - RadPanelBar
+description: Check our Web Forms article about OnClientItemCollapse.
 slug: panelbar/client-side-programming/onclientitemcollapse
 tags: onclientitemcollapse
 published: True

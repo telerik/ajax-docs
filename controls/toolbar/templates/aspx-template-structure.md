@@ -1,7 +1,7 @@
 ---
 title: ASPX Template Structure
-page_title: ASPX Template Structure | RadToolBar for ASP.NET AJAX Documentation
-description: ASPX Template Structure
+page_title: ASPX Template Structure - RadToolBar
+description: Check our Web Forms article about ASPX Template Structure.
 slug: toolbar/templates/aspx-template-structure
 tags: aspx,template,structure
 published: True

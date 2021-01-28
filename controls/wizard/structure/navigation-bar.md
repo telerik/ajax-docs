@@ -1,7 +1,7 @@
 ---
 title: Navigation Bar
-page_title: Navigation Bar | RadWizard for ASP.NET AJAX Documentation
-description: Navigation Bar
+page_title: Navigation Bar - RadWizard
+description: Check our Web Forms article about Navigation Bar.
 slug: wizard/structure/navigation-bar
 tags: navigation,bar
 published: True

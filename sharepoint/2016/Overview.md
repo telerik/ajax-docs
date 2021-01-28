@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Telerik Web Parts for SharePoint 2016 | UI for ASP.NET AJAX Documentation
-description: Telerik Web Parts for SharePoint 2016
+page_title: Telerik Web Parts for SharePoint 2016
+description: Check our Web Forms article about Telerik Web Parts for SharePoint 2016.
 slug: sharepoint/2016/overview
 tags: installing,telerik,web,parts
 published: True

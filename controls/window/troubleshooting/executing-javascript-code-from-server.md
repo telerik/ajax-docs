@@ -1,7 +1,7 @@
 ---
 title: Executing JavaScript Code from Server
-page_title: Executing JavaScript Code from Server | RadWindow for ASP.NET AJAX Documentation
-description: Executing JavaScript Code from Server
+page_title: Executing JavaScript Code from Server - RadWindow
+description: Check our Web Forms article about Executing JavaScript Code from Server.
 slug: window/troubleshooting/executing-javascript-code-from-server
 tags: executing,javascript,code,from,server
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | RadSplitter for ASP.NET AJAX Documentation
-description: Changes And Backward Compatibility
+page_title: Changes And Backward Compatibility - RadSplitter
+description: Check our Web Forms article about Changes And Backward Compatibility.
 slug: splitter/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

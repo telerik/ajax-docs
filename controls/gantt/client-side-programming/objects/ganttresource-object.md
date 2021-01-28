@@ -1,7 +1,7 @@
 ---
 title: GanttResource Object
-page_title: GanttResource Object | RadGantt for ASP.NET AJAX Documentation
-description: GanttResource Object
+page_title: GanttResource Object - RadGantt
+description: Check our Web Forms article about GanttResource Object.
 slug: gantt/client-side-programming/objects/ganttresource-object
 tags: ganttresource,object
 published: True

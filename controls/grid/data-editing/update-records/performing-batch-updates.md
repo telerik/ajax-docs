@@ -1,7 +1,7 @@
 ---
 title: Performing Batch Updates
-page_title: Performing Batch Updates | RadGrid for ASP.NET AJAX Documentation
-description: Performing Batch Updates
+page_title: Performing Batch Updates - RadGrid
+description: Check our Web Forms article about Performing Batch Updates.
 slug: grid/data-editing/update-records/performing-batch-updates
 tags: performing,batch,updates
 published: True

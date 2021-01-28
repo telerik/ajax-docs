@@ -1,7 +1,7 @@
 ---
 title: Content Filters
-page_title: Content Filters | RadEditor for ASP.NET AJAX Documentation
-description: Content Filters
+page_title: Content Filters - RadEditor
+description: Check our Web Forms article about Content Filters.
 slug: editor/managing-content/content-filters
 tags: content,filters
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadCaptcha for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadCaptcha
+description: Check our Web Forms article about Getting Started.
 slug: captcha/getting-started
 tags: getting,started
 published: True

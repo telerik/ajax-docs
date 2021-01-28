@@ -1,7 +1,7 @@
 ---
 title: OnColumnMouseOut
-page_title: OnColumnMouseOut | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnMouseOut
+page_title: OnColumnMouseOut - RadGrid
+description: Check our Web Forms article about OnColumnMouseOut.
 slug: grid/client-side-programming/events/oncolumnmouseout
 tags: oncolumnmouseout
 published: True

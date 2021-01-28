@@ -1,7 +1,7 @@
 ---
 title: Server-side Binding
-page_title: Server-side Binding | RadTreeView for ASP.NET AJAX Documentation
-description: Server-side Binding
+page_title: Server-side Binding - RadTreeView
+description: Check our Web Forms article about Server-side Binding.
 slug: treeview/load-on-demand/server-side-binding
 tags: server-side,binding
 published: True

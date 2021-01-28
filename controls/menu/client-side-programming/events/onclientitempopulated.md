@@ -1,7 +1,7 @@
 ---
 title: OnClientItemPopulated
-page_title: OnClientItemPopulated | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemPopulated
+page_title: OnClientItemPopulated - RadMenu
+description: Check our Web Forms article about OnClientItemPopulated.
 slug: menu/client-side-programming/events/onclientitempopulated
 tags: onclientitempopulated
 published: True

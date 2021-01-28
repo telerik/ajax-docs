@@ -1,7 +1,7 @@
 ---
 title: GridDataItem Class Members
-page_title: GridDataItem Class Members | RadGrid for ASP.NET AJAX Documentation
-description: GridDataItem Class Members
+page_title: GridDataItem Class Members - RadGrid
+description: Check our Web Forms article about GridDataItem Class Members.
 slug: grid/client-side-programming/griddataitem-object/griddataitem-class-members
 tags: griddataitem,class,members
 published: True

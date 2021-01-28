@@ -1,7 +1,7 @@
 ---
 title: Add Your Own Buttons
-page_title: Add Your Own Buttons | RadEditor for ASP.NET AJAX Documentation
-description: Add Your Own Buttons
+page_title: Add Your Own Buttons - RadEditor
+description: Check our Web Forms article about Add Your Own Buttons.
 slug: editor/functionality/toolbars/buttons/add-your-own-buttons
 tags: add,your,own,buttons
 published: True

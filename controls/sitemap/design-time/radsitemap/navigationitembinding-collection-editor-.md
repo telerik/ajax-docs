@@ -1,7 +1,7 @@
 ---
 title: NavigationItemBinding Collection Editor 
-page_title: NavigationItemBinding Collection Editor  | RadSiteMap for ASP.NET AJAX Documentation
-description: NavigationItemBinding Collection Editor 
+page_title: NavigationItemBinding Collection Editor - RadSiteMap
+description: Check our Web Forms article about NavigationItemBinding Collection Editor.
 slug: sitemap/design-time/radsitemap/navigationitembinding-collection-editor-
 tags: navigationitembinding,collection,editor,
 published: True

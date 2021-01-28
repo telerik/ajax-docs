@@ -1,7 +1,7 @@
 ---
 title: OnItemCheckedChanged
-page_title: OnItemCheckedChanged | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnItemCheckedChanged
+page_title: OnItemCheckedChanged - RadCheckBoxList
+description: Check our Web Forms article about OnItemCheckedChanged.
 slug: checkboxlist/client-side-programming/events/onitemcheckedchanged
 tags: onitemcheckedchanged
 published: True

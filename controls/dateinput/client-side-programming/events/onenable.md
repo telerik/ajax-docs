@@ -1,7 +1,7 @@
 ---
 title: OnEnable
-page_title: OnEnable | RadDateInput for ASP.NET AJAX Documentation
-description: OnEnable
+page_title: OnEnable - RadDateInput
+description: Check our Web Forms article about OnEnable.
 slug: raddateinput/client-side-programming/events/onenable
 tags: onenable
 published: True

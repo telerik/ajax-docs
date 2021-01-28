@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadMultiSelect for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadMultiSelect
+description: Check our Web Forms article about Filtering.
 slug: multiselect/functionality/filtering
 tags: filtering,client,server
 published: True

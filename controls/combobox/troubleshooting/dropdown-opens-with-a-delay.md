@@ -1,7 +1,7 @@
 ---
 title: DropDown Opens with a Delay
-page_title: DropDown Opens with a Delay | RadComboBox for ASP.NET AJAX Documentation
-description: DropDown Opens with a Delay
+page_title: DropDown Opens with a Delay - RadComboBox
+description: Check our Web Forms article about DropDown Opens with a Delay.
 slug: combobox/troubleshooting/dropdown-opens-with-a-delay
 tags: dropdown,opens,with,a,delay
 published: True

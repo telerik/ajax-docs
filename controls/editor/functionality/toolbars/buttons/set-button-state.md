@@ -1,7 +1,7 @@
 ---
 title: Set Button State
-page_title: Set Button State | RadEditor for ASP.NET AJAX Documentation
-description: Set Button State
+page_title: Set Button State - RadEditor
+description: Check our Web Forms article about Set Button State.
 slug: editor/functionality/toolbars/buttons/set-button-state
 tags: set,button,state
 published: True

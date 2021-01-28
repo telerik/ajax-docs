@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Collection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Collection
 slug: Telerik.Web.UI.Collection
 ---

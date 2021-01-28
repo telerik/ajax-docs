@@ -1,7 +1,7 @@
 ---
 title: Redirecting from a Context Menu Selection
-page_title: Redirecting from a Context Menu Selection | RadTreeView for ASP.NET AJAX Documentation
-description: Redirecting from a Context Menu Selection
+page_title: Redirecting from a Context Menu Selection - RadTreeView
+description: Check our Web Forms article about Redirecting from a Context Menu Selection.
 slug: treeview/application-scenarios/context-menus/redirecting-from-a-context-menu-selection
 tags: redirecting,from,a,context,menu,selection
 published: True

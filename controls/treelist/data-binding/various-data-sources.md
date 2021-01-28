@@ -1,7 +1,7 @@
 ---
 title: Various Data Sources
-page_title: Various Data Sources | RadTreeList for ASP.NET AJAX Documentation
-description: Various Data Sources
+page_title: Various Data Sources - RadTreeList
+description: Check our Web Forms article about Various Data Sources.
 slug: treelist/data-binding/various-data-sources
 tags: various,data,sources
 published: True

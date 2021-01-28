@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Support
-page_title: Visual Studio Support | RadGrid for ASP.NET AJAX Documentation
-description: Visual Studio Support
+page_title: Visual Studio Support - RadGrid
+description: Check our Web Forms article about Visual Studio Support.
 slug: grid/design-time/visual-studio-support
 tags: visual,studio,support
 published: True

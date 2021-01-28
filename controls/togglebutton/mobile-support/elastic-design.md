@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadToggleButton for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadToggleButton
+description: Check our Web Forms article about Elastic Design.
 slug: togglebutton/mobile-support/elastic-design
 tags: elastic,design
 published: True

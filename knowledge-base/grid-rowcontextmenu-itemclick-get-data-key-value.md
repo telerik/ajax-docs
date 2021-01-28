@@ -2,7 +2,7 @@
 title: Access Data Key values of Grid rows in RowContextMenu ItemClick event
 description: 
 type: how-to
-page_title: RowContextMenu ItemClick Get Data key value - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: RowContextMenu ItemClick Get Data key value - RadGrid
 slug: grid-rowcontextmenu-itemclick-get-data-key-value
 position: 
 tags: 

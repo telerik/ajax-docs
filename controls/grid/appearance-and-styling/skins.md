@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadGrid for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadGrid
+description: Check our Web Forms article about Skins.
 slug: grid/appearance-and-styling/skins
 tags: skins
 published: True

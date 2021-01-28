@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: Layout | RadSlider for ASP.NET AJAX Documentation
-description: Layout
+page_title: Layout - RadSlider
+description: Check our Web Forms article about Layout.
 slug: slider/getting-started/layout
 tags: layout
 published: True

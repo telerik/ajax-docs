@@ -1,7 +1,7 @@
 ---
 title: Upload Files to a Shared Drive
-page_title: Upload Files to a Shared Drive | RadEditor for ASP.NET AJAX Documentation
-description: Upload Files to a Shared Drive
+page_title: Upload Files to a Shared Drive - RadEditor
+description: Check our Web Forms article about Upload Files to a Shared Drive.
 slug: editor/functionality/dialogs/examples/upload-files-to-a-shared-drive
 tags: upload,files,to,a,shared,drive
 published: True

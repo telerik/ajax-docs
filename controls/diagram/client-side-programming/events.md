@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadDiagram for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadDiagram
+description: Check our Web Forms article about Events.
 slug: diagram/client-side-programming/events
 tags: events
 published: True

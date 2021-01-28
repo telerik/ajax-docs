@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadMediaPlayer
+description: Check our Web Forms article about Skins.
 slug: mediaplayer/appearance-and-styling/skins
 tags: skins
 published: True

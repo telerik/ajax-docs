@@ -1,7 +1,7 @@
 ---
 title: Executing Custom Javascript Code after AJAX Update
-page_title: Executing Custom Javascript Code after AJAX Update | RadAjax for ASP.NET AJAX Documentation
-description: Executing Custom Javascript Code after AJAX Update
+page_title: Executing Custom Javascript Code after AJAX Update
+description: Check our Web Forms article about Executing Custom Javascript Code after AJAX Update.
 slug: ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update
 previous_url: ajax/how-to/executing-custom-javascript-code-after-ajax-update
 tags: executing,custom,javascript,code,after,ajax,update

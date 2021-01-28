@@ -1,7 +1,7 @@
 ---
 title: Binding with SignalR
-page_title: Binding with SignalR | RadScheduler for ASP.NET AJAX Documentation
-description: Binding with SignalR
+page_title: Binding with SignalR - RadScheduler
+description: Check our Web Forms article about Binding with SignalR.
 slug: scheduler/how-to/binding-with-signalr
 tags: binding,with,signalr
 published: True

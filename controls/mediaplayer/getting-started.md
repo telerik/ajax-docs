@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadMediaPlayer
+description: Check our Web Forms article about Getting Started.
 slug: mediaplayer/getting-started
 tags: getting,started
 published: True

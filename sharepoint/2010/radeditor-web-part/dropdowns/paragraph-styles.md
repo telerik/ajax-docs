@@ -1,7 +1,7 @@
 ---
 title: Paragraph Styles
-page_title: Paragraph Styles | UI for ASP.NET AJAX Documentation
-description: Paragraph Styles
+page_title: Paragraph Styles
+description: Check our Web Forms article about Paragraph Styles.
 slug: sharepoint/2010/radeditor-web-part/dropdowns/paragraph-styles
 tags: paragraph,styles
 published: True

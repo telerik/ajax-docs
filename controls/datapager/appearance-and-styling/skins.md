@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadDataPager for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadDataPager
+description: Check our Web Forms article about Skins.
 slug: datapager/appearance-and-styling/skins
 tags: skins
 published: True

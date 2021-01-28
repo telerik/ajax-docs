@@ -1,7 +1,7 @@
 ---
 title: Dates Configuration
-page_title: Dates Configuration | RadCalendar for ASP.NET AJAX Documentation
-description: Dates Configuration
+page_title: Dates Configuration - RadCalendar
+description: Check our Web Forms article about Dates Configuration.
 slug: calendar/functionality/dates-configuration
 tags: managing,dates
 published: True

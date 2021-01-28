@@ -1,7 +1,7 @@
 ---
 title: Resizing
-page_title: Resizing | RadTreeList for ASP.NET AJAX Documentation
-description: Resizing
+page_title: Resizing - RadTreeList
+description: Check our Web Forms article about Resizing.
 slug: treelist/column/resizing
 tags: resizing
 published: True

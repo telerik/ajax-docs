@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadSpell for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadSpell
+description: Check our Web Forms article about Design Time.
 slug: spell/design-time
 tags: design,time
 published: True

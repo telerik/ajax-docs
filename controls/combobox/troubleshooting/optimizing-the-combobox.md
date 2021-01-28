@@ -1,7 +1,7 @@
 ---
 title: Optimizing the Combobox
-page_title: Optimizing the Combobox | RadComboBox for ASP.NET AJAX Documentation
-description: Optimizing the Combobox
+page_title: Optimizing the Combobox - RadComboBox
+description: Check our Web Forms article about Optimizing the Combobox.
 slug: combobox/troubleshooting/optimizing-the-combobox
 tags: optimizing,the,combobox
 published: True

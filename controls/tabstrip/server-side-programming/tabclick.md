@@ -1,7 +1,7 @@
 ---
 title: TabClick
-page_title: TabClick | RadTabStrip for ASP.NET AJAX Documentation
-description: TabClick
+page_title: TabClick - RadTabStrip
+description: Check our Web Forms article about TabClick.
 slug: tabstrip/server-side-programming/tabclick
 tags: tabclick
 published: True

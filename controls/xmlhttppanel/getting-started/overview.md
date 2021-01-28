@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Getting Started Overview | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: Overview
+page_title: Getting Started Overview - RadXmlHttpPanel
+description: Check our Web Forms article about Overview.
 slug: xmlhttppanel/getting-started/overview
 tags: overview
 published: True

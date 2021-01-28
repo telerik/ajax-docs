@@ -1,7 +1,7 @@
 ---
 title: OnClientDoubleClick
-page_title: OnClientDoubleClick | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientDoubleClick
+page_title: OnClientDoubleClick - RadTabStrip
+description: Check our Web Forms article about OnClientDoubleClick.
 slug: tabstrip/client-side-programming/onclientdoubleclick
 tags: onclientdoubleclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Gestures Support
-page_title: Gestures Support | UI for ASP.NET AJAX Documentation
-description: Gestures Support
+page_title: Gestures Support
+description: Check our Web Forms article about Gestures Support.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/gestures-support
 tags: gestures,support
 published: True

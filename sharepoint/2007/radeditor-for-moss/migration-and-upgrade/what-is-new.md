@@ -1,7 +1,7 @@
 ---
 title: What's new
-page_title: What's new? | RadEditor for MOSS Documentation
-description: What's new in RadEditor for MOSS
+page_title: What's new? - RadEditor for MOSS Documentation
+description: Check our Web Forms article about What's new in RadEditor for MOSS.
 slug: sharepoint/2007/radeditor-for-moss/migration-and-upgrade/what-is-new
 tags: what's, new,radeditor,for,moss
 published: True

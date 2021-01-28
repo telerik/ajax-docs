@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarComboTextChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarComboTextChangedEventArgs
 slug: Telerik.Web.UI.RibbonBarComboTextChangedEventArgs
 ---

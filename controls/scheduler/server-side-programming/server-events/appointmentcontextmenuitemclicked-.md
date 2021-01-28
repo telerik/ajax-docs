@@ -1,7 +1,7 @@
 ---
 title: AppointmentContextMenuItemClicked 
-page_title: AppointmentContextMenuItemClicked  | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentContextMenuItemClicked 
+page_title: AppointmentContextMenuItemClicked - RadScheduler
+description: Check our Web Forms article about AppointmentContextMenuItemClicked.
 slug: scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicked-
 tags: appointmentcontextmenuitemclicked,
 published: True

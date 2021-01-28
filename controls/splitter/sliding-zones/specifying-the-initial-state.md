@@ -1,7 +1,7 @@
 ---
 title: Specifying the Initial State
-page_title: Specifying the Initial State | RadSplitter for ASP.NET AJAX Documentation
-description: Specifying the Initial State
+page_title: Specifying the Initial State - RadSplitter
+description: Check our Web Forms article about Specifying the Initial State.
 slug: splitter/sliding-zones/specifying-the-initial-state
 tags: specifying,the,initial,state
 published: True

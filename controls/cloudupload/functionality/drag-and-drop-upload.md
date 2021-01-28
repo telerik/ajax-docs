@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop Upload
-page_title: Drag and Drop Upload | RadCloudUpload for ASP.NET AJAX Documentation
-description: Drag and Drop Upload
+page_title: Drag and Drop Upload - RadCloudUpload
+description: Check our Web Forms article about Drag and Drop Upload.
 slug: cloudupload/functionality/drag-and-drop-upload
 tags: drag,and,drop,upload
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuItemOpenedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuItemOpenedEventArgs
 slug: Telerik.Web.UI.RadMenuItemOpenedEventArgs
 ---

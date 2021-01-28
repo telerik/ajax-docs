@@ -1,7 +1,7 @@
 ---
 title: Grid Performance Optimizations
-page_title: Grid Performance Optimizations | UI for ASP.NET AJAX Documentation
-description: Grid Performance Optimizations
+page_title: Grid Performance Optimizations
+description: Check our Web Forms article about Grid Performance Optimizations.
 slug: grid/performance/grid-performance-optimizations
 tags: grid,performance,optimizations
 published: True

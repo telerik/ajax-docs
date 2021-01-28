@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadGantt for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadGantt
+description: Check our Web Forms article about Overview.
 slug: gantt/server-side-programming/overview
 tags: overview
 published: True

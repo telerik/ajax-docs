@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadTimeline for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadTimeline
+description: Check our Web Forms article about Overview.
 slug: timeline/server-side-programming/overview
 tags: overview
 published: True

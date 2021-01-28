@@ -1,7 +1,7 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | RadTile for ASP.NET AJAX Documentation
-description: Fluid Design
+page_title: Fluid Design - RadTile
+description: Check our Web Forms article about Fluid Design.
 slug: tilelist/tiles/mobile-support/fluid-design
 tags: fluid,design,tile
 published: True

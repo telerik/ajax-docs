@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RotatorButtonEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RotatorButtonEventArgs
 slug: Telerik.Web.UI.RotatorButtonEventArgs
 ---

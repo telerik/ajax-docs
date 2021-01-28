@@ -1,7 +1,7 @@
 ---
 title: Migration from RadEditor Classic to RadEditor for ASP.NET AJAX
-page_title: Migration from RadEditor Classic to RadEditor for ASP.NET AJAX | RadEditor for ASP.NET AJAX Documentation
-description: Migration from RadEditor Classic to RadEditor for ASP.NET AJAX
+page_title: Migration from RadEditor Classic to RadEditor - RadEditor
+description: Check our Web Forms article about Migration from RadEditor Classic to RadEditor for ASP.NET AJAX.
 slug: editor/changes-and-backwards-compatibility/migration-from-radeditor-classic-to-radeditor-for-asp.net-ajax
 tags: migration,from,radeditor,classic,to,radeditor,for,asp.net,ajax
 published: True

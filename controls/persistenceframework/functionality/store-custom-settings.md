@@ -1,7 +1,7 @@
 ---
 title: Store Custom Settings
-page_title: Store Custom Settings | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: Store Custom Settings
+page_title: Store Custom Settings - RadPersistenceFramework
+description: Check our Web Forms article about Store Custom Settings.
 slug: persistenceframework/functionality/store-custom-settings
 tags: custom,store,provider
 published: True

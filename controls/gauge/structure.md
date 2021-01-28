@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadGauge Structure | RadGauge for ASP.NET AJAX Documentation
-description: RadGauge Structure
+page_title: RadGauge Structure - RadGauge
+description: Check our Web Forms article about RadGauge Structure.
 slug: gauge/radgauge-structure
 tags: radgauge,structure
 published: True

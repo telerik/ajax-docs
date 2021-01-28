@@ -1,7 +1,7 @@
 ---
 title: Styling from Design-Time
-page_title: Styling from Design-Time | RadGrid for ASP.NET AJAX Documentation
-description: Styling from Design-Time
+page_title: Styling from Design-Time - RadGrid
+description: Check our Web Forms article about Styling from Design-Time.
 slug: grid/designеr/styling-from-design-time
 tags: styling,from,design-time
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadToolBar Object
-page_title: RadToolBar Object | RadToolBar for ASP.NET AJAX Documentation
-description: RadToolBar Object
+page_title: RadToolBar Object - RadToolBar
+description: Check our Web Forms article about RadToolBar Object.
 slug: toolbar/client-side-programming/radtoolbar-object
 tags: radtoolbar,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Gantt Charts
-page_title: Gantt Charts | RadChart for ASP.NET AJAX Documentation
-description: Gantt Charts
+page_title: Gantt Charts - RadChart
+description: Check our Web Forms article about Gantt Charts.
 slug: chart/understanding-radchart-types/gantt-charts
 tags: gantt,charts
 published: True

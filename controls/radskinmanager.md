@@ -1,7 +1,7 @@
 ---
 title: SkinManager
-page_title: RadSkinManager | UI for ASP.NET AJAX Documentation
-description: RadSkinManager
+page_title: RadSkinManager
+description: Check our Web Forms article about RadSkinManager.
 slug: controls/radskinmanager
 tags: radskinmanager
 published: True

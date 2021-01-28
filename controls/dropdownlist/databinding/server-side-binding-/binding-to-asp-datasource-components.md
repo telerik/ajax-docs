@@ -1,7 +1,7 @@
 ---
 title: Binding to Asp DataSource components
-page_title: Binding to Asp DataSource components | RadDropDownList for ASP.NET AJAX Documentation
-description: Binding to Asp DataSource components
+page_title: Binding to Asp DataSource components - RadDropDownList
+description: Check our Web Forms article about Binding to Asp DataSource components.
 slug: dropdownlist/databinding/server-side-binding-/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components
 published: True

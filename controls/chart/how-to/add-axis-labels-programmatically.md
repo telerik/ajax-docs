@@ -1,7 +1,7 @@
 ---
 title: Add Axis Labels Programmatically
-page_title: How to Add Axis Labels Programmatically | UI for ASP.NET AJAX Documentation
-description: How to Extend the Displayable Area for YAxis Data
+page_title: How to Add Axis Labels Programmatically
+description: Check our Web Forms article about How to Extend the Displayable Area for YAxis Data.
 slug: chart/how-to/add-axis-labels-programmatically
 tags: how to, add, axis, label, programmatically
 published: True

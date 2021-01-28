@@ -1,7 +1,7 @@
 ---
 title: OnClientModeChange
-page_title: OnClientModeChange | RadEditor for ASP.NET AJAX Documentation
-description: OnClientModeChange
+page_title: OnClientModeChange - RadEditor
+description: Check our Web Forms article about OnClientModeChange.
 slug: editor/client-side-programming/events/onclientmodechange
 tags: onclientmodechange
 published: True

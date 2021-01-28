@@ -1,7 +1,7 @@
 ---
 title: Avoid generating multiple controls with the same ID
-page_title: Avoid generating multiple controls with the same ID | RadTabStrip for ASP.NET AJAX Documentation
-description: Avoid generating multiple controls with the same ID
+page_title: Avoid generating multiple controls with the same ID - RadTabStrip
+description: Check our Web Forms article about Avoid generating multiple controls with the same ID.
 slug: tabstrip/troubleshooting/avoid-generating-multiple-controls-with-the-same-id
 tags: how,to,multiple,id,prevent,equal
 published: True

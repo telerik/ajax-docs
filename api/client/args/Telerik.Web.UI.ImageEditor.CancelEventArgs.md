@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.CancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.CancelEventArgs
 slug: Telerik.Web.UI.ImageEditor.CancelEventArgs
 ---

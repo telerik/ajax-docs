@@ -1,7 +1,7 @@
 ---
 title: Receiving Focus
-page_title: Receiving Focus | RadDateInput for ASP.NET AJAX Documentation
-description: Receiving Focus
+page_title: Receiving Focus - RadDateInput
+description: Check our Web Forms article about Receiving Focus.
 slug: raddateinput/features/receiving-focus
 tags: receiving,focus
 published: True

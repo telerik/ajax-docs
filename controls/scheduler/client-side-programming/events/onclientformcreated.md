@@ -1,7 +1,7 @@
 ---
 title: OnClientFormCreated
-page_title: OnClientFormCreated | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientFormCreated
+page_title: OnClientFormCreated - RadScheduler
+description: Check our Web Forms article about OnClientFormCreated.
 slug: scheduler/client-side-programming/events/onclientformcreated
 tags: onclientformcreated
 published: True

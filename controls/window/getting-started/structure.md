@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadWindow for ASP.NET AJAX Documentation
-description: RadWindow Structure
+page_title: Structure - RadWindow
+description: Check our Web Forms article about RadWindow Structure.
 slug: window/getting-started/element-structure
 tags: element,structure
 published: True

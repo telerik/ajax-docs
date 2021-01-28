@@ -1,7 +1,7 @@
 ---
 title: Import from JSON
-page_title: Import from JSON | RadDiagram for ASP.NET AJAX Documentation
-description: Import from JSON
+page_title: Import from JSON - RadDiagram
+description: Check our Web Forms article about Import from JSON.
 slug: diagram/import-and-export/import-from-json
 tags: import,from,json
 published: True

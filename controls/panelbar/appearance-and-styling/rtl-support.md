@@ -1,7 +1,7 @@
 ---
 title: RTL support
-page_title: RTL support | RadPanelBar for ASP.NET AJAX Documentation
-description: RTL support
+page_title: RTL support - RadPanelBar
+description: Check our Web Forms article about RTL support.
 slug: panelbar/appearance-and-styling/rtl-support
 tags: rtl,support
 published: True

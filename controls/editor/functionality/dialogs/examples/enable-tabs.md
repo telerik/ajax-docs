@@ -1,7 +1,7 @@
 ---
 title: Enable Tabs
-page_title: Enable Tabs | RadEditor for ASP.NET AJAX Documentation
-description: Enable Tabs
+page_title: Enable Tabs - RadEditor
+description: Check our Web Forms article about Enable Tabs.
 slug: editor/functionality/dialogs/examples/enable-tabs
 tags: enable,tabs
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Appointment Interaction
-page_title: Appointment Interaction | RadScheduler for ASP.NET AJAX Documentation
-description: Appointment Interaction
+page_title: Appointment Interaction - RadScheduler
+description: Check our Web Forms article about Appointment Interaction.
 slug: scheduler/mobile-support/appointment-interaction
 tags: appointment,interaction
 published: True

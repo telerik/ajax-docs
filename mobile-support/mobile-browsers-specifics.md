@@ -1,7 +1,7 @@
 ---
 title: Mobile Browsers Specifics
-page_title: Mobile Browsers Specifics | UI for ASP.NET AJAX Documentation
-description: Mobile Browsers Specifics
+page_title: Mobile Browsers Specifics
+description: Check our Web Forms article about Mobile Browsers Specifics.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-browsers-specifics
 tags: mobile,browsers,specifics
 published: True

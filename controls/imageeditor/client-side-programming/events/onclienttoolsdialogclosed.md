@@ -1,7 +1,7 @@
 ---
 title: OnClientToolsDialogClosed
-page_title: OnClientToolsDialogClosed | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientToolsDialogClosed
+page_title: OnClientToolsDialogClosed - RadImageEditor
+description: Check our Web Forms article about OnClientToolsDialogClosed.
 slug: imageeditor/client-side-programming/events/onclienttoolsdialogclosed
 tags: onclienttoolsdialogclosed
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Rendering
-page_title: Rendering | RadComboBox for ASP.NET AJAX Documentation
-description: Rendering
+page_title: Rendering - RadComboBox
+description: Check our Web Forms article about Rendering.
 slug: combobox/accessibility-and-internationalization/rendering
 tags: rendering
 published: True

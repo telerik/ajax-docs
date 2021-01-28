@@ -1,7 +1,7 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | RadSlider for ASP.NET AJAX Documentation
-description: Changes And Backward Compatibility
+page_title: Changes And Backward Compatibility - RadSlider
+description: Check our Web Forms article about Changes And Backward Compatibility.
 slug: slider/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

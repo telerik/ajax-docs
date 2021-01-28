@@ -1,7 +1,7 @@
 ---
 title: Customizing the Pager
-page_title: Customizing the Pager | RadGrid for ASP.NET AJAX Documentation
-description: Customizing the Pager
+page_title: Customizing the Pager - RadGrid
+description: Check our Web Forms article about Customizing the Pager.
 slug: grid/appearance-and-styling/customizing-the-pager
 tags: customizing,the,pager
 published: True

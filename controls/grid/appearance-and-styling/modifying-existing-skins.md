@@ -1,7 +1,7 @@
 ---
 title: Modifying Existing Skins
-page_title: Modifying Existing Skins | RadGrid for ASP.NET AJAX Documentation
-description: Modifying Existing Skins
+page_title: Modifying Existing Skins - RadGrid
+description: Check our Web Forms article about Modifying Existing Skins.
 slug: grid/appearance-and-styling/modifying-existing-skins
 tags: modifying,existing,skins
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Declarative Data Source
-page_title: Declarative Data Source | RadDataForm for ASP.NET AJAX 
-description: Declarative Data Source
+page_title: Declarative Data Source - RadDataForm
+description: Check our Web Forms article about Declarative Data Source.
 slug: dataform/data-binding/declarative-data-source
 tags: declarative,data,source
 published: True

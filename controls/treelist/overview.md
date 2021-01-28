@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadTreeList Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadTreeList Overview - RadTreeList
+description: Check our Web Forms article about Overview.
 slug: treelist/overview
 tags: overview
 published: True

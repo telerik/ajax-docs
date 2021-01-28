@@ -1,7 +1,7 @@
 ---
 title: Escape HTML Tags in the Text of the Items When They Are Created on the Client-side
-page_title: Escape HTML Tags in the Text of the Items When They Are Created on the Client-side | RadListBox for ASP.NET AJAX Documentation
-description: Escape HTML Tags in the Text of the Items When They Are Created on the Client-side
+page_title: Escape HTML Tags in the Text of the Items When They Are Created on the Client-side - RadListBox
+description: Check our Web Forms article about Escape HTML Tags in the Text of the Items When They Are Created on the Client-side.
 slug: listbox/how-to/escape-html-tags-in-the-text-of-the-items-when-they-are-created-on-the-client-side
 tags: escape,html,tags,in,the,text,of,the,items,when,they,are,created,on,the,client-side
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
 slug: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
 ---

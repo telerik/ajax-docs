@@ -1,7 +1,7 @@
 ---
 title: Run the RadScheduler in Anonymous Authorization Disabled Environment
-page_title: Run the RadScheduler in Anonymous Authorization Disabled Environment | RadScheduler for ASP.NET AJAX Documentation
-description: Run the RadScheduler in Anonymous Authorization Disabled Environment
+page_title: Run the RadScheduler in Anonymous Authorization Disabled Environment - RadScheduler
+description: Check our Web Forms article about Run the RadScheduler in Anonymous Authorization Disabled Environment.
 slug: scheduler/troubleshootings/run-the-radscheduler-in-anonymous-authorization-disabled-environment
 tags: run,the,radscheduler,in,anonymous,authorization,disabled,environment
 published: True

@@ -1,7 +1,7 @@
 ---
 title: TextChanged Event
-page_title: TextChanged Event | RadNumericTextBox for ASP.NET AJAX Documentation
-description: TextChanged Event
+page_title: TextChanged Event - RadNumericTextBox
+description: Check our Web Forms article about TextChanged Event.
 slug: numerictextbox/server-side-programming/textchanged-event
 tags: textchanged,event
 published: True

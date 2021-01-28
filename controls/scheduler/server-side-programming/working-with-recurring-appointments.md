@@ -1,7 +1,7 @@
 ---
 title: Working with Recurring Appointments
-page_title: Working with Recurring Appointments | RadScheduler for ASP.NET AJAX Documentation
-description: Working with Recurring Appointments
+page_title: Working with Recurring Appointments - RadScheduler
+description: Check our Web Forms article about Working with Recurring Appointments.
 slug: scheduler/server-side-programming/working-with-recurring-appointments
 tags: working,with,recurring,appointments
 published: True

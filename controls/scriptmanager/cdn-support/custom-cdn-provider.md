@@ -1,7 +1,7 @@
 ---
 title: Custom CDN Provider
-page_title: Custom CDN Provider | RadScriptManager for ASP.NET AJAX Documentation
-description: Custom CDN Provider
+page_title: Custom CDN Provider - RadScriptManager
+description: Check our Web Forms article about Custom CDN Provider.
 slug: scriptmanager/cdn-support/custom-cdn-provider
 tags: custom,cdn,provider
 published: True

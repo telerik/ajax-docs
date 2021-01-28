@@ -1,7 +1,7 @@
 ---
 title: RadScheduler Structure
-page_title: RadScheduler Structure | RadScheduler for ASP.NET AJAX Documentation
-description: RadScheduler Structure
+page_title: RadScheduler Structure - RadScheduler
+description: Check our Web Forms article about RadScheduler Structure.
 slug: scheduler/usability/radscheduler-structure
 tags: radscheduler,structure
 published: False

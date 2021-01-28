@@ -1,7 +1,7 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | RadSplitter for ASP.NET AJAX Documentation
-description: Controlling Appearance
+page_title: Controlling Appearance - RadSplitter
+description: Check our Web Forms article about Controlling Appearance.
 slug: splitter/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
 published: True

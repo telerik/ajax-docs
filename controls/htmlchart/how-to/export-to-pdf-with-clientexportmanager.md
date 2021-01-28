@@ -1,7 +1,7 @@
 ---
 title: Export to PDF or Image with RadClientExportManager
-page_title: Export to PDF or Image with RadClientExportManager | RadHtmlChart for ASP.NET AJAX Documentation
-description: Export to PDF or Image with RadClientExportManager
+page_title: Export to PDF or Image with RadClientExportManager - RadHtmlChart
+description: Check our Web Forms article about Export to PDF or Image with RadClientExportManager.
 slug: htmlchart/how-to/export-to-pdf-with-clientexportmanager
 tags: Export,PDF, image,RadClientExportManager,ClientExportManager, client-side
 published: True

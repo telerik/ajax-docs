@@ -1,7 +1,7 @@
 ---
 title: Custom Paging
-page_title: Custom Paging | RadGrid for ASP.NET AJAX Documentation
-description: Custom Paging
+page_title: Custom Paging - RadGrid
+description: Check our Web Forms article about Custom Paging.
 slug: grid/functionality/paging/custom-paging
 tags: custom,paging
 published: True

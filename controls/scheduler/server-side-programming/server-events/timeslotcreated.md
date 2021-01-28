@@ -1,7 +1,7 @@
 ---
 title: TimeSlotCreated
-page_title: TimeSlotCreated | RadScheduler for ASP.NET AJAX Documentation
-description: TimeSlotCreated
+page_title: TimeSlotCreated - RadScheduler
+description: Check our Web Forms article about TimeSlotCreated.
 slug: scheduler/server-side-programming/server-events/timeslotcreated
 tags: timeslotcreated
 published: True

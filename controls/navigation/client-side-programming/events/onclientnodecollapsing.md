@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeCollapsing
-page_title: OnClientNodeCollapsing | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodeCollapsing
+page_title: OnClientNodeCollapsing - RadNavigation
+description: Check our Web Forms article about OnClientNodeCollapsing.
 slug: navigation/client-side-programming/events/onclientnodecollapsing
 tags: onclientnodecollapsing
 published: True

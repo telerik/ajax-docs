@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadToggleButton for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadToggleButton
+description: Check our Web Forms article about OnClientLoad.
 slug: togglebutton/client-side-programming/events/onclientload
 tags: onclientload
 published: True

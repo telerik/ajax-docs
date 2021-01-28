@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadPdfViewer for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadPdfViewer
+description: Check our Web Forms article about Overview.
 slug: pdfviewer/client-side-programming/events
 tags: overview,events
 published: True

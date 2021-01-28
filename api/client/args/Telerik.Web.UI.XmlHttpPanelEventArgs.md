@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.XmlHttpPanelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.XmlHttpPanelEventArgs
 slug: Telerik.Web.UI.XmlHttpPanelEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Distorted Appearance
-page_title: Distorted Appearance | RadWindow for ASP.NET AJAX Documentation
-description: Distorted Appearance
+page_title: Distorted Appearance - RadWindow
+description: Check our Web Forms article about Distorted Appearance.
 slug: window/troubleshooting/distorted-appearance
 tags: distorted,appearance
 published: True

@@ -1,7 +1,7 @@
 ---
 title: getDataServiceQuery(entityName)
-page_title: getDataServiceQuery(entityName) | RadGrid for ASP.NET AJAX Documentation
-description: getDataServiceQuery(entityName)
+page_title: getDataServiceQuery(entityName) - RadGrid
+description: Check our Web Forms article about getDataServiceQuery(entityName).
 slug: grid/client-side-programming/gridtableview-object/methods/getdataservicequery(entityname)
 tags: getdataservicequery(entityname)
 published: True

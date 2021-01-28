@@ -1,7 +1,7 @@
 ---
 title: Adding the Telerik Controls to Your Project
-page_title: Adding the Telerik Controls to Your Project | UI for ASP.NET AJAX Documentation
-description: Adding the Telerik Controls to Your Project
+page_title: Adding the Telerik Controls to Your Project
+description: Check our Web Forms article about Adding the Telerik Controls to Your Project.
 slug: general-information/adding-the-telerik-controls-to-your-project
 tags: adding,the,telerik,controls,to,your,project
 published: True

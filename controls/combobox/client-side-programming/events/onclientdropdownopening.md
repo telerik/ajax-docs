@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownOpening
-page_title: OnClientDropDownOpening | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientDropDownOpening
+page_title: OnClientDropDownOpening - RadComboBox
+description: Check our Web Forms article about OnClientDropDownOpening.
 slug: combobox/client-side-programming/events/onclientdropdownopening
 tags: onclientdropdownopening
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnError
-page_title: OnError | RadDateInput for ASP.NET AJAX Documentation
-description: OnError
+page_title: OnError - RadDateInput
+description: Check our Web Forms article about OnError.
 slug: raddateinput/client-side-programming/events/onerror
 tags: onerror
 published: True

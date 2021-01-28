@@ -1,7 +1,7 @@
 ---
 title: Strip Image and Anchor Paths
-page_title: Strip Image and Anchor Paths | RadEditor for ASP.NET AJAX Documentation
-description: Strip Image and Anchor Paths
+page_title: Strip Image and Anchor Paths - RadEditor
+description: Check our Web Forms article about Strip Image and Anchor Paths.
 slug: editor/functionality/dialogs/examples/strip-image-and-anchor-paths
 tags: strip,image,and,anchor,paths
 published: True

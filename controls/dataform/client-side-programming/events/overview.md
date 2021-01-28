@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadDataForm Events Overview | RadDataForm for ASP.NET AJAX 
-description: Overview
+page_title: RadDataForm Events Overview - RadDataForm
+description: Check our Web Forms article about Overview.
 slug: dataform/client-side-programming/events/overview
 tags: overview
 published: True

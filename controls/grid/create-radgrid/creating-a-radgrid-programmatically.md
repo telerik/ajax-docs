@@ -1,7 +1,7 @@
 ---
 title: Programmatically
-page_title: Creating the Grid structure Programmatically - RadGrid | UI for ASP.NET AJAX
-description: Creating a RadGrid Programmatically
+page_title: Creating the Grid structure Programmatically - RadGrid
+description: Check our Web Forms article about Creating a RadGrid Programmatically.
 slug: grid/create-radgrid/creating-a-radgrid-programmatically
 previous_url: controls/grid/defining-structure/creating-a-radgrid-programmatically
 tags: creating,a,radgrid,programmatically

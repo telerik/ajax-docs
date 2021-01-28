@@ -1,7 +1,7 @@
 ---
 title: ReadOnly Mode for Individual Cells
-page_title: ReadOnly Mode for Individual Cells | RadGrid for ASP.NET AJAX Documentation
-description: ReadOnly Mode for Individual Cells
+page_title: ReadOnly Mode for Individual Cells - RadGrid
+description: Check our Web Forms article about ReadOnly Mode for Individual Cells.
 slug: grid/how-to/data-editing/readonly-mode-for-individual-cells
 previous_url: controls/grid/data-editing/how-to/readonly-mode-for-individual-cells
 tags: readonly,mode,for,individual,cells

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadChat Overview | UI for ASP.NET AJAX Documentation
-description: RadChat Overview
+page_title: RadChat Overview
+description: Check our Web Forms article about RadChat Overview.
 slug: chat/overview
 tags: overview
 published: True

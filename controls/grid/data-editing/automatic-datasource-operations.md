@@ -1,7 +1,7 @@
 ---
 title: Automatic DataSource Operations
-page_title: Automatic DataSource Operations | RadGrid for ASP.NET AJAX Documentation
-description: Automatic DataSource Operations
+page_title: Automatic DataSource Operations - RadGrid
+description: Check our Web Forms article about Automatic DataSource Operations.
 slug: grid/data-editing/automatic-datasource-operations
 tags: automatic,datasource,operations
 published: True

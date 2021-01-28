@@ -1,7 +1,7 @@
 ---
 title: Format Numbers
-page_title: Format Numbers | RadHtmlChart for ASP.NET AJAX Documentation
-description: Format Numbers
+page_title: Format Numbers - RadHtmlChart
+description: Check our Web Forms article about Format Numbers.
 slug: htmlchart/appearance-and-styling/format-numbers
 tags: format,numbers
 published: True

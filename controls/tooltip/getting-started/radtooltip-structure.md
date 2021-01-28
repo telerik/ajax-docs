@@ -1,7 +1,7 @@
 ---
 title: RadToolTip Structure
-page_title: RadToolTip Structure | RadTooltip for ASP.NET AJAX Documentation
-description: RadToolTip Structure
+page_title: RadToolTip Structure - RadTooltip
+description: Check our Web Forms article about RadToolTip Structure.
 slug: tooltip/getting-started/radtooltip-structure
 tags: radtooltip,structure
 published: True

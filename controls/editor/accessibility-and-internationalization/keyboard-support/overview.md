@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Keyboard Support Overview | RadEditor for ASP.NET AJAX Documentation
-description: Keyboard Support Overview
+page_title: Keyboard Support Overview - RadEditor
+description: Check our Web Forms article about Keyboard Support Overview.
 slug: editor/accessibility-and-internationalization/keyboard-support/overview
 tags: overview
 published: True

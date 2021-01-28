@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadTimePicker Performance
-page_title: Optimizing RadTimePicker Performance | RadTimePicker for ASP.NET AJAX Documentation
-description: Optimizing RadTimePicker Performance
+page_title: Optimizing RadTimePicker Performance - RadTimePicker
+description: Check our Web Forms article about Optimizing RadTimePicker Performance.
 slug: timepicker/performance/optimizing-radtimepicker-performance
 tags: performance,optimizing
 published: True

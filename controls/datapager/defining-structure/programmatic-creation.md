@@ -1,7 +1,7 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | RadDataPager for ASP.NET AJAX Documentation
-description: Programmatic Creation
+page_title: Programmatic Creation - RadDataPager
+description: Check our Web Forms article about Programmatic Creation.
 slug: datapager/defining-structure/programmatic-creation
 tags: programmatic,creation
 published: True

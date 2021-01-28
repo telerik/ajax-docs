@@ -1,7 +1,7 @@
 ---
 title: Export to SVG
-page_title: Export to SVG | RadDiagram for ASP.NET AJAX Documentation
-description: Export to SVG
+page_title: Export to SVG - RadDiagram
+description: Check our Web Forms article about Export to SVG.
 slug: diagram/import-and-export/export-to-svg
 tags: export,to,svg
 published: True

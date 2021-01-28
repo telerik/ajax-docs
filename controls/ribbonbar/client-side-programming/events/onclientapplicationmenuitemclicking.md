@@ -1,7 +1,7 @@
 ---
 title: OnClientApplicationMenuItemClicking
-page_title: OnClientApplicationMenuItemClicking | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientApplicationMenuItemClicking
+page_title: OnClientApplicationMenuItemClicking - RadRibbonBar
+description: Check our Web Forms article about OnClientApplicationMenuItemClicking.
 slug: ribbonbar/client-side-programming/events/onclientapplicationmenuitemclicking
 tags: onclientapplicationmenuitemclicking
 published: True

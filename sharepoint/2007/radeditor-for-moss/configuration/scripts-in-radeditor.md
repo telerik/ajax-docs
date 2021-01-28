@@ -1,7 +1,7 @@
 ---
 title: Scripts in RadEditor
-page_title: Scripts in RadEditor | UI for ASP.NET AJAX Documentation
-description: Scripts in RadEditor
+page_title: Scripts in RadEditor
+description: Check our Web Forms article about Scripts in RadEditor.
 slug: sharepoint/2007/radeditor-for-moss/configuration/scripts-in-radeditor
 tags: scripts,in,radeditor
 published: True

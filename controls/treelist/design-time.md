@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadTreeList for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadTreeList
+description: Check our Web Forms article about Design Time.
 slug: treelist/design-time
 tags: design,time
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeListItemDragStartedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListItemDragStartedEventArgs
 slug: Telerik.Web.UI.TreeListItemDragStartedEventArgs
 ---

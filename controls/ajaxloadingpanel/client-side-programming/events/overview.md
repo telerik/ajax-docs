@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadAjaxLoadingPanel for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadAjaxLoadingPanel
+description: Check our Web Forms article about Overview.
 slug: ajaxloadingpanel/client-side-programming/events/overview
 previous_url: ajax/client-side-programming/events/overview
 tags: overview

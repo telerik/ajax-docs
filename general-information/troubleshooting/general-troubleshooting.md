@@ -1,7 +1,7 @@
 ---
 title: General Troubleshooting
-page_title: General Troubleshooting | UI for ASP.NET AJAX Documentation
-description: General Troubleshooting
+page_title: General Troubleshooting
+description: Check our Web Forms article about General Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting
 tags: general,troubleshooting
 published: True

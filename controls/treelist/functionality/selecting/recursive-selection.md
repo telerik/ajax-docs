@@ -1,7 +1,7 @@
 ---
 title: Recursive Selection
-page_title: Recursive Selection | RadTreeList for ASP.NET AJAX Documentation
-description: Recursive Selection
+page_title: Recursive Selection - RadTreeList
+description: Check our Web Forms article about Recursive Selection.
 slug: treelist/functionality/selecting/recursive-selection
 tags: recursive,selection
 published: True

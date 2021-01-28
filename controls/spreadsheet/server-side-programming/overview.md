@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadSpreadsheet
+description: Check our Web Forms article about Overview.
 slug: spreadsheet/server-side-programming/overview
 tags: overview
 published: True

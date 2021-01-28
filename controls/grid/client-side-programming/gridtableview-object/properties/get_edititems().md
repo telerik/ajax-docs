@@ -1,7 +1,7 @@
 ---
 title: get_editItems()
-page_title: get_editItems() | RadGrid for ASP.NET AJAX Documentation
-description: get_editItems()
+page_title: get_editItems() - RadGrid
+description: Check our Web Forms article about get_editItems().
 slug: grid/client-side-programming/gridtableview-object/properties/get_edititems()
 tags: get_edititems()
 published: True

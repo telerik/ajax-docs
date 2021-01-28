@@ -1,7 +1,7 @@
 ---
 title: Client-side Programming
-page_title: Client-side Programming | RadMap for ASP.NET AJAX Documentation
-description: Client-side Programming
+page_title: Client-side Programming - RadMap
+description: Check our Web Forms article about Client-side Programming.
 slug: map/client-side-programming
 tags: client-side,programming
 published: True

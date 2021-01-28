@@ -1,7 +1,7 @@
 ---
 title: OnClientProgressStarted
-page_title: OnClientProgressStarted | RadProgressArea for ASP.NET AJAX Documentation
-description: OnClientProgressStarted
+page_title: OnClientProgressStarted - RadProgressArea
+description: Check our Web Forms article about OnClientProgressStarted.
 slug: progressarea/client-side-programming/onclientprogressstarted
 tags: onclientprogressstarted
 published: True

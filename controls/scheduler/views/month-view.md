@@ -1,7 +1,7 @@
 ---
 title: Month View
-page_title: Month View | RadScheduler for ASP.NET AJAX Documentation
-description: Month View
+page_title: Month View - RadScheduler
+description: Check our Web Forms article about Month View.
 slug: scheduler/views/month-view
 tags: month,view
 published: True

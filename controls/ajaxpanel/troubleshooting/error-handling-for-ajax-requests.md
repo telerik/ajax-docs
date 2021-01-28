@@ -1,7 +1,7 @@
 ---
 title: Error Handling for AJAX Requests
-page_title: Error Handling for AJAX Requests | RadAjax for ASP.NET AJAX Documentation
-description: Error Handling for AJAX Requests
+page_title: Error Handling for AJAX Requests
+description: Check our Web Forms article about Error Handling for AJAX Requests.
 slug: ajaxpanel/troubleshooting/error-handling-for-ajax-requests
 tags: error,handling,for,ajax,requests
 published: True

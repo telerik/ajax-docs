@@ -1,7 +1,7 @@
 ---
 title: Customizing the Day Matrix
-page_title: Customizing the Day Matrix | RadCalendar for ASP.NET AJAX Documentation
-description: Customizing the Day Matrix
+page_title: Customizing the Day Matrix - RadCalendar
+description: Check our Web Forms article about Customizing the Day Matrix.
 slug: calendar/functionality/customizing-the-day-matrix
 tags: customizing,the,day,matrix
 published: True

@@ -1,7 +1,7 @@
 ---
 title: hideColumn
-page_title: hideColumn | RadGrid for ASP.NET AJAX Documentation
-description: hideColumn
+page_title: hideColumn - RadGrid
+description: Check our Web Forms article about hideColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/hidecolumn
 tags: hidecolumn
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using Custom Attributes Client-side
-page_title: Using Custom Attributes at the Client | RadTreeView for ASP.NET AJAX Documentation
-description: Using Custom Attributes at the Client
+page_title: Using Custom Attributes at the Client - RadTreeView
+description: Check our Web Forms article about Using Custom Attributes at the Client.
 slug: treeview/custom-attributes/using-custom-attributes-at-the-client
 tags: using,custom,attributes,at,the,client
 published: True

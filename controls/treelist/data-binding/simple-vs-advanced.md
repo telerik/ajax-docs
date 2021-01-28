@@ -1,7 +1,7 @@
 ---
 title: Simple vs Advanced
-page_title: Simple vs Advanced | RadTreeList for ASP.NET AJAX Documentation
-description: Simple vs Advanced
+page_title: Simple vs Advanced - RadTreeList
+description: Check our Web Forms article about Simple vs Advanced.
 slug: treelist/data-binding/simple-vs-advanced
 tags: simple,vs,advanced
 published: True

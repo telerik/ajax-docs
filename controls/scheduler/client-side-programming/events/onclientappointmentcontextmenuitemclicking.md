@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentContextMenuItemClicking
-page_title: OnClientAppointmentContextMenuItemClicking | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentContextMenuItemClicking
+page_title: OnClientAppointmentContextMenuItemClicking - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentContextMenuItemClicking.
 slug: scheduler/client-side-programming/events/onclientappointmentcontextmenuitemclicking
 tags: onclientappointmentcontextmenuitemclicking
 published: True

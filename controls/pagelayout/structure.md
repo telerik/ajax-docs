@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadPageLayout for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadPageLayout
+description: Check our Web Forms article about Structure.
 slug: pagelayout/structure
 tags: structure
 published: False

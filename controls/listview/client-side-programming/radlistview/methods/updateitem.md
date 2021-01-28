@@ -1,7 +1,7 @@
 ---
 title: updateItem
-page_title: updateItem | RadListView for ASP.NET AJAX Documentation
-description: updateItem
+page_title: updateItem - RadListView
+description: Check our Web Forms article about updateItem.
 slug: listview/client-side-programming/radlistview/methods/updateitem
 tags: updateitem
 published: True

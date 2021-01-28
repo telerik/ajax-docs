@@ -1,7 +1,7 @@
 ---
 title: Fields Popup
-page_title: Fields Popup | RadPivotGrid for ASP.NET AJAX Documentation
-description: Fields Popup
+page_title: Fields Popup - RadPivotGrid
+description: Check our Web Forms article about Fields Popup.
 slug: pivotgrid/fields/fields-popup
 tags: fields,popup
 published: True

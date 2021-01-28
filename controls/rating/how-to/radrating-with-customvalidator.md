@@ -1,7 +1,7 @@
 ---
 title: RadRating with CustomValidator
-page_title: RadRating with CustomValidator | RadRating for ASP.NET AJAX Documentation
-description: RadRating with CustomValidator
+page_title: RadRating with CustomValidator - RadRating
+description: Check our Web Forms article about RadRating with CustomValidator.
 slug: rating/how-to/radrating-with-customvalidator
 tags: radrating,with,customvalidator
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientCheckFinished
-page_title: OnClientCheckFinished | RadSpell for ASP.NET AJAX Documentation
-description: OnClientCheckFinished
+page_title: OnClientCheckFinished - RadSpell
+description: Check our Web Forms article about OnClientCheckFinished.
 slug: spell/client-side-programming/events/onclientcheckfinished
 tags: onclientcheckfinished
 published: True

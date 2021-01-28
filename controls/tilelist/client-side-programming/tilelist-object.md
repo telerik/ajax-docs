@@ -1,7 +1,7 @@
 ---
 title: TileList Object
-page_title: TileList Object | RadTileList for ASP.NET AJAX Documentation
-description: TileList Object
+page_title: TileList Object - RadTileList
+description: Check our Web Forms article about TileList Object.
 slug: tilelist/client-side-programming/tilelist-object
 tags: tilelist,object
 published: True

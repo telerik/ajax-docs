@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Rotator Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Rotator Overview
+description: Check our Web Forms article about Overview.
 slug: rotator/overview
 tags: overview
 published: True

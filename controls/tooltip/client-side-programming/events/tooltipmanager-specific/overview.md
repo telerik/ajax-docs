@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: ToolTipManager Specific Events Overview | RadTooltip for ASP.NET AJAX Documentation
-description: Overview
+page_title: ToolTipManager Specific Events Overview - RadTooltip
+description: Check our Web Forms article about Overview.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/overview
 tags: overview
 published: True

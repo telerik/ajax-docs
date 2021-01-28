@@ -1,7 +1,7 @@
 ---
 title: OnItemDeselected
-page_title: OnItemDeselected | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemDeselected Event
+page_title: OnItemDeselected - RadTreeList
+description: Check our Web Forms article about OnItemDeselected Event.
 slug: treelist/client-side-programming/Events/OnItemDeselected
 tags: events,OnItemDeselected
 published: True

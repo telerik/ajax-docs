@@ -1,7 +1,7 @@
 ---
 title: Upload Large Files (maxRequestLength)
-page_title: Upload Large Files (maxRequestLength) | RadEditor for ASP.NET AJAX Documentation
-description: Upload Large Files (maxRequestLength)
+page_title: Upload Large Files (maxRequestLength) - RadEditor
+description: Check our Web Forms article about Upload Large Files (maxRequestLength).
 slug: editor/functionality/dialogs/examples/upload-large-files-(maxrequestlength)
 tags: upload,large,files,(maxrequestlength)
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Setting  the CSS Class of Buttons
-page_title: Setting  the CSS Class of Buttons | RadToolBar for ASP.NET AJAX Documentation
-description: Setting  the CSS Class of Buttons
+page_title: Setting the CSS Class of Buttons - RadToolBar
+description: Check our Web Forms article about Setting  the CSS Class of Buttons.
 slug: toolbar/appearance-and-styling/setting-the-css-class-of-buttons
 tags: setting,,the,css,class,of,buttons
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Different Edit Forms on Edit and Insert
-page_title: Different Edit Forms on Edit and Insert | RadGrid for ASP.NET AJAX Documentation
-description: Different Edit Forms on Edit and Insert
+page_title: Different Edit Forms on Edit and Insert - RadGrid
+description: Check our Web Forms article about Different Edit Forms on Edit and Insert.
 slug: grid/how-to/data-editing/different-edit-forms-on-edit-and-insert
 previous_url: controls/grid/data-editing/how-to/different-edit-forms-on-edit-and-insert
 tags: different,edit,forms,on,edit,and,insert

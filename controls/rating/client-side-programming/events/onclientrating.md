@@ -1,7 +1,7 @@
 ---
 title: OnClientRating
-page_title: OnClientRating | RadRating for ASP.NET AJAX Documentation
-description: OnClientRating
+page_title: OnClientRating - RadRating
+description: Check our Web Forms article about OnClientRating.
 slug: rating/client-side-programming/events/onclientrating
 tags: onclientrating
 published: True

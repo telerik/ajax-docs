@@ -1,7 +1,7 @@
 ---
 title: CommandsManager Object
-page_title: CommandsManager Object | RadEditor for ASP.NET AJAX Documentation
-description: CommandsManager Object
+page_title: CommandsManager Object - RadEditor
+description: Check our Web Forms article about CommandsManager Object.
 slug: editor/client-side-programming/commandsmanager-object
 tags: commandsmanager,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: BaseTile Object
-page_title: BaseTile Object | RadTile for ASP.NET AJAX Documentation
-description: BaseTile Object
+page_title: BaseTile Object - RadTile
+description: Check our Web Forms article about BaseTile Object.
 slug: tilelist/tiles/client-side-programming/basetile-object
 tags: basetile,object
 published: True

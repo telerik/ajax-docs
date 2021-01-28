@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadSpreadsheet
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadSpreadsheet
 slug: Telerik.Web.UI.RadSpreadsheet
 ---

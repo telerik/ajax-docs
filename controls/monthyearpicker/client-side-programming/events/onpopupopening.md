@@ -1,7 +1,7 @@
 ---
 title: OnPopupOpening
-page_title: OnPopupOpening | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: OnPopupOpening
+page_title: OnPopupOpening - RadMonthYearPicker
+description: Check our Web Forms article about OnPopupOpening.
 slug: monthyearpicker/client-side-programming/events/onpopupopening
 tags: onpopupopening
 published: True

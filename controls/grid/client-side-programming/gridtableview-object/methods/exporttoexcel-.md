@@ -1,7 +1,7 @@
 ---
 title: exportToExcel 
-page_title: exportToExcel  | RadGrid for ASP.NET AJAX Documentation
-description: exportToExcel 
+page_title: exportToExcel - RadGrid
+description: Check our Web Forms article about exportToExcel.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttoexcel-
 tags: exporttoexcel,
 published: True

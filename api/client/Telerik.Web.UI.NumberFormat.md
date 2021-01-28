@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.NumberFormat
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.NumberFormat
 slug: Telerik.Web.UI.NumberFormat
 ---

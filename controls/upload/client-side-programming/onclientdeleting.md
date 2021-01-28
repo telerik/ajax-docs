@@ -1,7 +1,7 @@
 ---
 title: OnClientDeleting
-page_title: OnClientDeleting | RadUpload for ASP.NET AJAX Documentation
-description: OnClientDeleting
+page_title: OnClientDeleting - RadUpload
+description: Check our Web Forms article about OnClientDeleting.
 slug: upload/client-side-programming/onclientdeleting
 tags: onclientdeleting
 published: True

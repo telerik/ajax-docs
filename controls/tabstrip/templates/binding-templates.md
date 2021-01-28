@@ -1,7 +1,7 @@
 ---
 title: Binding Templates
-page_title: Binding Templates | RadTabStrip for ASP.NET AJAX Documentation
-description: Binding Templates
+page_title: Binding Templates - RadTabStrip
+description: Check our Web Forms article about Binding Templates.
 slug: tabstrip/templates/binding-templates
 tags: binding,templates
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.CommandsManager
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.CommandsManager
 slug: Telerik.Web.UI.Editor.CommandsManager
 ---

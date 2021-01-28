@@ -1,7 +1,7 @@
 ---
 title: editItem
-page_title: editItem | RadListView for ASP.NET AJAX Documentation
-description: editItem
+page_title: editItem - RadListView
+description: Check our Web Forms article about editItem.
 slug: listview/client-side-programming/radlistview/methods/edititem
 tags: edititem
 published: True

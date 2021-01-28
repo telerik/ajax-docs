@@ -1,7 +1,7 @@
 ---
 title: Gestures
-page_title: Gestures | RadWizard for ASP.NET AJAX Documentation
-description: Gestures
+page_title: Gestures - RadWizard
+description: Check our Web Forms article about Gestures.
 slug: wizard/mobile-support/gestures
 tags: gestures
 published: True

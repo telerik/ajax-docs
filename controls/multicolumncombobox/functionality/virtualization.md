@@ -1,7 +1,7 @@
 ---
 title: Virtualization
-page_title: Virtualization | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Virtualization
+page_title: Virtualization - RadMultiColumnComboBox
+description: Check our Web Forms article about Virtualization.
 slug: multicolumncombobox/functionality/virtualization
 tags: Virtualization
 published: True

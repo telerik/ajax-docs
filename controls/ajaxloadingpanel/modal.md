@@ -1,7 +1,7 @@
 ---
 title: Modal
-page_title: RadAjaxLoadingPanel Modality | RadAjax for ASP.NET AJAX Documentation
-description: Modal
+page_title: RadAjaxLoadingPanel Modality
+description: Check our Web Forms article about Modal.
 slug: ajaxloadingpanel/modal
 tags: modal
 published: True

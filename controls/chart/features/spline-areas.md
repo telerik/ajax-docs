@@ -1,7 +1,7 @@
 ---
 title: Spline Areas
-page_title: Spline Areas | RadChart for ASP.NET AJAX Documentation
-description: Spline Areas
+page_title: Spline Areas - RadChart
+description: Check our Web Forms article about Spline Areas.
 slug: chart/features/spline-areas
 tags: spline,areas
 published: True

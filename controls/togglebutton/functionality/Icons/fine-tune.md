@@ -1,7 +1,7 @@
 ---
 title: Fine-tune
-page_title: Fine-tune | RadToggleButton for ASP.NET AJAX Documentation
-description: Fine-tune
+page_title: Fine-tune - RadToggleButton
+description: Check our Web Forms article about Fine-tune.
 slug: togglebutton/functionality/icons/fine-tune
 tags: fine,tune
 published: True

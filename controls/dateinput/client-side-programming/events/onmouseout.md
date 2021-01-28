@@ -1,7 +1,7 @@
 ---
 title: OnMouseOut
-page_title: OnMouseOut | RadDateInput for ASP.NET AJAX Documentation
-description: OnMouseOut
+page_title: OnMouseOut - RadDateInput
+description: Check our Web Forms article about OnMouseOut.
 slug: raddateinput/client-side-programming/events/onmouseout
 tags: onmouseout
 published: True

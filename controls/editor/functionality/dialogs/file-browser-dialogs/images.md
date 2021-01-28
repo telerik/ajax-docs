@@ -1,7 +1,7 @@
 ---
 title: Images
-page_title: Images | RadEditor for ASP.NET AJAX Documentation
-description: Images
+page_title: Images - RadEditor
+description: Check our Web Forms article about Images.
 slug: editor/functionality/dialogs/file-browser-dialogs/images
 tags: images
 published: True

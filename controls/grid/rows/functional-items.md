@@ -1,7 +1,7 @@
 ---
 title: Functional Items
-page_title: Functional Items | RadGrid for ASP.NET AJAX Documentation
-description: Functional Items
+page_title: Functional Items - RadGrid
+description: Check our Web Forms article about Functional Items.
 slug: grid/rows/functional-items
 tags: functional,items
 published: True

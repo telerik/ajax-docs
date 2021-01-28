@@ -1,7 +1,7 @@
 ---
 title: RadLabel vs asp:Label vs Built-in Label
-page_title: RadLabel vs asp:Label vs Built-in Label | RadMediaPlayer for ASP.NET AJAX Documentation
-description: RadLabel vs asp:Label vs Built-in Label
+page_title: RadLabel vs asp:Label vs Built-in Label - RadMediaPlayer
+description: Check our Web Forms article about RadLabel vs asp:Label vs Built-in Label.
 slug: label/overview/radlabel-asplabel-builtinlabel
 tags: comparison
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Rebind Grid with EnableViewState = false
-page_title: Rebind Grid with EnableViewState = false | RadGrid for ASP.NET AJAX Documentation
-description: Rebind Grid with EnableViewState = false
+page_title: Rebind Grid with EnableViewState = false - RadGrid
+description: Check our Web Forms article about Rebind Grid with EnableViewState = false.
 slug: grid/performance/rebind-grid-with-enableviewstate-=-false
 tags: rebind,grid,with,enableviewstate,=,false
 published: True

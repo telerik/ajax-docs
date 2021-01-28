@@ -1,7 +1,7 @@
 ---
 title: No Wrap for Grid Cell Content
-page_title: No Wrap for Grid Cell Content | RadGrid for ASP.NET AJAX Documentation
-description: No Wrap for Grid Cell Content
+page_title: No Wrap for Grid Cell Content - RadGrid
+description: Check our Web Forms article about No Wrap for Grid Cell Content.
 slug: grid/how-to/common/no-wrap-for-grid-cell-content
 previous_url: grid/how-to/no-wrap-for-grid-cell-content
 tags: no,wrap,for,grid,cell,content

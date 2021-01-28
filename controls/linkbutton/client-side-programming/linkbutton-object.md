@@ -1,7 +1,7 @@
 ---
 title: RadLinkButton Object
-page_title: RadLinkButton Object | RadLinkButton for ASP.NET AJAX Documentation
-description: RadLinkButton Object
+page_title: RadLinkButton Object - RadLinkButton
+description: Check our Web Forms article about RadLinkButton Object.
 slug: linkbutton/client-side-programming/linkbutton-object
 tags: linkbutton,object
 published: True

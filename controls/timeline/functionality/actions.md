@@ -1,7 +1,7 @@
 ---
 title: Actions
-page_title: Actions | RadTimeline for ASP.NET AJAX Documentation
-description: Actions
+page_title: Actions - RadTimeline
+description: Check our Web Forms article about Actions.
 slug: timeline/functionality/actions
 tags: actions,client,server
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Installing the Telerik Controls from ZIP File
-page_title: Installing the Telerik Controls from ZIP File | UI for ASP.NET AJAX Documentation
-description: Installing the Telerik Controls from ZIP File
+page_title: Installing the Telerik Controls from ZIP File
+description: Check our Web Forms article about Installing the Telerik Controls from ZIP File.
 slug: introduction/installation/installing-the-telerik-controls-from-zip-file
 tags: installing,the,telerik,controls,from,zip,file
 published: True

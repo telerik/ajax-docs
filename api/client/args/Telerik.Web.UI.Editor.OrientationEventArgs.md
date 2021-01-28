@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.OrientationEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.OrientationEventArgs
 slug: Telerik.Web.UI.Editor.OrientationEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadAjaxPanel Overview | RadAjax for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadAjaxPanel Overview
+description: Check our Web Forms article about Overview.
 slug: ajaxpanel/overview
 previous_url: ajax/radajaxpanel/overview
 tags: overview

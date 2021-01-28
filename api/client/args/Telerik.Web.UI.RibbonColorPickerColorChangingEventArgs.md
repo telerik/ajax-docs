@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonColorPickerColorChangingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonColorPickerColorChangingEventArgs
 slug: Telerik.Web.UI.RibbonColorPickerColorChangingEventArgs
 ---

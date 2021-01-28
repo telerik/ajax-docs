@@ -1,7 +1,7 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | RadDropDownTree for ASP.NET AJAX Documentation
-description: Web Service Binding
+page_title: Web Service Binding - RadDropDownTree
+description: Check our Web Forms article about Web Service Binding.
 slug: dropdowntree/data-binding/web-service-binding
 tags: web,service,binding
 published: True

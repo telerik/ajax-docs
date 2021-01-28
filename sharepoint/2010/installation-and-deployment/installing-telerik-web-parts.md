@@ -1,7 +1,7 @@
 ---
 title: Installing Telerik Web Parts for SharePoint
-page_title: Installing Telerik Web Parts for SharePoint | UI for ASP.NET AJAX Documentation
-description: Installing Telerik Web Parts for SharePoint
+page_title: Installing Telerik Web Parts for SharePoint
+description: Check our Web Forms article about Installing Telerik Web Parts for SharePoint.
 slug: sharepoint/2010/installation-and-deployment/installing-telerik-web-parts-for-sharepoint
 tags: installing,telerik,web,parts,for,sharepoint
 published: True

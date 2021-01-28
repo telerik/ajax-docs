@@ -1,7 +1,7 @@
 ---
 title: Adding Images to Buttons
-page_title: Adding Images to Buttons | RadToolBar for ASP.NET AJAX Documentation
-description: Adding Images to Buttons
+page_title: Adding Images to Buttons - RadToolBar
+description: Check our Web Forms article about Adding Images to Buttons.
 slug: toolbar/appearance-and-styling/adding-images-to-buttons
 tags: adding,images,to,buttons
 published: True

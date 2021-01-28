@@ -1,7 +1,7 @@
 ---
 title: exportToPdf
-page_title: exportToPdf | RadGrid for ASP.NET AJAX Documentation
-description: exportToPdf
+page_title: exportToPdf - RadGrid
+description: Check our Web Forms article about exportToPdf.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttopdf
 tags: exporttopdf
 published: True

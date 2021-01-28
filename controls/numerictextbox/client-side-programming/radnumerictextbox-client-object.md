@@ -1,7 +1,7 @@
 ---
 title: RadNumericTextBox Client Object
-page_title: RadNumericTextBox Client Object | RadNumericTextBox for ASP.NET AJAX Documentation
-description: RadNumericTextBox Client Object
+page_title: RadNumericTextBox Client Object - RadNumericTextBox
+description: Check our Web Forms article about RadNumericTextBox Client Object.
 slug: numerictextbox/client-side-programming/radnumerictextbox-client-object
 tags: radnumerictextbox,client,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using Custom Attributes Server-side
-page_title: Using Custom Attributes at the Server | RadTreeView for ASP.NET AJAX Documentation
-description: Using Custom Attributes at the Server
+page_title: Using Custom Attributes at the Server - RadTreeView
+description: Check our Web Forms article about Using Custom Attributes at the Server.
 slug: treeview/custom-attributes/using-custom-attributes-at-the-server
 tags: using,custom,attributes,at,the,server
 published: True

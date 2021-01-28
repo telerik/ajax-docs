@@ -1,7 +1,7 @@
 ---
 title: Introduction
-page_title: Introduction | RadInputManager for ASP.NET AJAX Documentation
-description: Introduction
+page_title: Introduction - RadInputManager
+description: Check our Web Forms article about Introduction.
 slug: radinputmanager/introduction
 tags: introduction
 published: True

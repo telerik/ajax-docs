@@ -1,7 +1,7 @@
 ---
 title: Creating Custom Skin Using Sprite
-page_title: Creating Custom Skin Using Sprite | RadMenu for ASP.NET AJAX Documentation
-description: Using Sprite
+page_title: Creating Custom Skin Using Sprite - RadMenu
+description: Check our Web Forms article about Using Sprite.
 slug: menu/appearance-and-styling/creating-custom-skin-using-sprite
 tags: css,custon skin,sprite
 published: True

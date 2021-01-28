@@ -1,7 +1,7 @@
 ---
 title: Finding Nodes at Runtime
-page_title: Finding Nodes at Runtime | RadTreeView for ASP.NET AJAX Documentation
-description: Finding Nodes at Runtime
+page_title: Finding Nodes at Runtime - RadTreeView
+description: Check our Web Forms article about Finding Nodes at Runtime.
 slug: treeview/server-side-programming/finding-nodes-at-runtime
 tags: finding,nodes,at,runtime
 published: True

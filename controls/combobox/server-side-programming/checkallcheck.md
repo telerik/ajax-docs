@@ -1,7 +1,7 @@
 ---
 title: CheckAllCheck
-page_title: CheckAllCheck | RadComboBox for ASP.NET AJAX Documentation
-description: CheckAllCheck
+page_title: CheckAllCheck - RadComboBox
+description: Check our Web Forms article about CheckAllCheck.
 slug: combobox/server-side-programming/checkallcheck
 tags: checkallcheck
 published: True

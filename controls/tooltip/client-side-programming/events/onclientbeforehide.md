@@ -1,7 +1,7 @@
 ---
 title: OnClientBeforeHide
-page_title: OnClientBeforeHide | RadTooltip for ASP.NET AJAX Documentation
-description: OnClientBeforeHide
+page_title: OnClientBeforeHide - RadTooltip
+description: Check our Web Forms article about OnClientBeforeHide.
 slug: tooltip/client-side-programming/events/onclientbeforehide
 tags: onclientbeforehide
 published: True

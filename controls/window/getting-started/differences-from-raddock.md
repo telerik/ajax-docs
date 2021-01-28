@@ -1,7 +1,7 @@
 ---
 title: Differences from RadDock
-page_title: Differences from RadDock | RadWindow for ASP.NET AJAX Documentation
-description: Differences from RadDock
+page_title: Differences from RadDock - RadWindow
+description: Check our Web Forms article about Differences from RadDock.
 slug: window/getting-started/differences-from-raddock
 tags: differences,from,raddock
 published: True

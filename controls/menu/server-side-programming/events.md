@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadMenu for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadMenu
+description: Check our Web Forms article about Events.
 slug: menu/server-side-programming/events
 tags: events
 published: True

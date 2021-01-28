@@ -1,7 +1,7 @@
 ---
 title: Tutorial on Web Service Binding
-page_title: Tutorial on Web Service Binding | RadTreeView for ASP.NET AJAX Documentation
-description: Tutorial on Web Service Binding
+page_title: Tutorial on Web Service Binding - RadTreeView
+description: Check our Web Forms article about Tutorial on Web Service Binding.
 slug: treeview/load-on-demand/tutorial-on-web-service-binding
 tags: tutorial,on,web,service,binding
 published: True

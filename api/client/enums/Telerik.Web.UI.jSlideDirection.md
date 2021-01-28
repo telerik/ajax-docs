@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.jSlideDirection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.jSlideDirection
 slug: Telerik.Web.UI.jSlideDirection
 ---

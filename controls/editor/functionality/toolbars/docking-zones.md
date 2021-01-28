@@ -1,7 +1,7 @@
 ---
 title: Docking Zones
-page_title: Docking Zones | RadEditor for ASP.NET AJAX Documentation
-description: Docking Zones
+page_title: Docking Zones - RadEditor
+description: Check our Web Forms article about Docking Zones.
 slug: editor/functionality/toolbars/docking-zones
 tags: docking,zones
 published: True

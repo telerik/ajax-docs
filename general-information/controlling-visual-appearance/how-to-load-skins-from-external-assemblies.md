@@ -1,7 +1,7 @@
 ---
 title: How to Load Skins from External Assemblies
-page_title: How to Load Skins from External Assemblies | UI for ASP.NET AJAX Documentation
-description: How to Load Skins from External Assemblies
+page_title: How to Load Skins from External Assemblies
+description: Check our Web Forms article about How to Load Skins from External Assemblies.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies
 tags: how,to,load,skins,from,external,assemblies
 published: True

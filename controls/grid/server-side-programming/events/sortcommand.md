@@ -1,7 +1,7 @@
 ---
 title: SortCommand
-page_title: SortCommand Event - RadGrid | UI for ASP.NET AJAX
-description: SortCommand Event
+page_title: SortCommand Event - RadGrid
+description: Check our Web Forms article about SortCommand Event.
 slug: grid/server-side-programming/events/sortcommand
 published: True
 position: 50

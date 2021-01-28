@@ -1,7 +1,7 @@
 ---
 title: Accessing Client Changes on the Server Side
-page_title: Accessing Client Changes on the Server Side | RadTreeView for ASP.NET AJAX Documentation
-description: Accessing Client Changes on the Server Side
+page_title: Accessing Client Changes on the Server Side - RadTreeView
+description: Check our Web Forms article about Accessing Client Changes on the Server Side.
 slug: treeview/client-side-programming/accessing-client-changes-on-the-server-side
 tags: accessing,client,changes,on,the,server,side
 published: True

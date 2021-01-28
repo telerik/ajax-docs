@@ -1,7 +1,7 @@
 ---
 title: Connecting to Various DataSource controls
-page_title: Connecting to Various DataSource controls | RadClientDataSource for ASP.NET AJAX Documentation
-description: Connecting to Various DataSource controls
+page_title: Connecting to Various DataSource controls - RadClientDataSource
+description: Check our Web Forms article about Connecting to Various DataSource controls.
 slug: clientdatasource/connecting-to-various-data-sources
 tags: connecting,to,various,data,source,controls
 published: True

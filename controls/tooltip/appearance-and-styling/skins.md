@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadTooltip for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadTooltip
+description: Check our Web Forms article about Skins.
 slug: tooltip/appearance-and-styling/skins
 tags: skins
 published: True

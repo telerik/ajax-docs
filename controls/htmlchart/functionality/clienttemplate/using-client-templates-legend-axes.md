@@ -1,7 +1,7 @@
 ---
 title: Using Client Templates in Legend and Axes Labels
-page_title: ClientTemplate Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: ClientTemplate Overview
+page_title: ClientTemplate Overview - RadHtmlChart
+description: Check our Web Forms article about ClientTemplate Overview.
 slug: htmlchart/functionality/clienttemplate/using-client-templates-legend-axes
 tags: client-templates, templates, client, kendo, axes, labels, legend, custom
 published: True

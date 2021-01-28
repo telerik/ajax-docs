@@ -1,7 +1,7 @@
 ---
 title: getCellByColumnUniqueName
-page_title: getCellByColumnUniqueName | RadGrid for ASP.NET AJAX Documentation
-description: getCellByColumnUniqueName
+page_title: getCellByColumnUniqueName - RadGrid
+description: Check our Web Forms article about getCellByColumnUniqueName.
 slug: grid/client-side-programming/gridtableview-object/methods/getcellbycolumnuniquename
 tags: getcellbycolumnuniquename
 published: True

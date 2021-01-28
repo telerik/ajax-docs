@@ -1,7 +1,7 @@
 ---
 title: RadComboBox Object
-page_title: RadComboBox Object | RadComboBox for ASP.NET AJAX Documentation
-description: RadComboBox Object
+page_title: RadComboBox Object - RadComboBox
+description: Check our Web Forms article about RadComboBox Object.
 slug: combobox/client-side-programming/objects/radcombobox-object
 tags: radcombobox,object
 published: True

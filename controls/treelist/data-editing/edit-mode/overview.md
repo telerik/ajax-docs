@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Edit Mode Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Edit Mode Overview - RadTreeList
+description: Check our Web Forms article about Overview.
 slug: treelist/data-editing/edit-mode/overview
 tags: overview
 published: True

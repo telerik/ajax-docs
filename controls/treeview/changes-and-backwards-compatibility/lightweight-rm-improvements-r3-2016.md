@@ -1,7 +1,7 @@
 ---
 title: Improving Lightweight Rendering for RadTreeView (R3 2016)
-page_title: Improving Lightweight Rendering for RadTreeView (R3 2016) | RadTreeView for ASP.NET AJAX Documentation
-description: Improving Lightweight Rendering for RadTreeView (R3 2016)
+page_title: Improving Lightweight Rendering for RadTreeView (R3 2016) - RadTreeView
+description: Check our Web Forms article about Improving Lightweight Rendering for RadTreeView (R3 2016).
 slug: treeview/changes-and-backwards-compatibility/lightweight-rm-improvements-r3-2016
 tags: lightweight,improvement,changes,redermode
 published: True

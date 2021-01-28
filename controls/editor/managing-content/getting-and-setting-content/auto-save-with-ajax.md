@@ -1,7 +1,7 @@
 ---
 title: Auto Save with Ajax
-page_title: Auto Save with Ajax | RadEditor for ASP.NET AJAX Documentation
-description: Auto Save with Ajax
+page_title: Auto Save with Ajax - RadEditor
+description: Check our Web Forms article about Auto Save with Ajax.
 slug: editor/managing-content/getting-and-setting-content/auto-save-with-ajax
 tags: auto,save,with,ajax
 published: True

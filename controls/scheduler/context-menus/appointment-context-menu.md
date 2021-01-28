@@ -1,7 +1,7 @@
 ---
 title: Appointment Context Menu
-page_title: Appointment Context Menu | RadScheduler for ASP.NET AJAX Documentation
-description: Appointment Context Menu
+page_title: Appointment Context Menu - RadScheduler
+description: Check our Web Forms article about Appointment Context Menu.
 slug: scheduler/context-menus/appointment-context-menu
 tags: appointment,context,menu
 published: True

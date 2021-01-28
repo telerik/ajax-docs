@@ -1,8 +1,8 @@
 ---
 title: Custom skins not applied or overridden by base Telerik stylesheets
-description: The selectors in the Custom Skins generated from the Telerik ThemeBuilder are with the same specificity and get overridden when loaded in head tag
+description: The selectors in the Custom Skins generated from the Telerik ThemeBuilder are with the same specificity and get overridden when loaded in head tag.
 type: troubleshooting
-page_title: Custom Skins from Telerik ThemeBuilder get overridden and are not applied 
+page_title: Custom Skins from Telerik ThemeBuilder get overridden and are not applied
 slug: themebuilder-custom-skin-gets-overridden-and-not-applied
 position: 
 tags: 

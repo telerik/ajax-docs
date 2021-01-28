@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: Styles | RadTextBox for ASP.NET AJAX Documentation
-description: Styles
+page_title: Styles - RadTextBox
+description: Check our Web Forms article about Styles.
 slug: radtextbox/appearance-and-styling/styles
 tags: styles
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadCheckBoxList for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadCheckBoxList
+description: Check our Web Forms article about Design Time.
 slug: checkboxlist/design-time
 tags: design,time
 published: True

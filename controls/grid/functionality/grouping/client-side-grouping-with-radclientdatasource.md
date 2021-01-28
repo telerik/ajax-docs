@@ -1,7 +1,7 @@
 ---
 title: Client-side grouping with RadClientDataSource
-page_title: Client-side grouping with RadClientDataSource | RadGrid for ASP.NET AJAX Documentation
-description: Client-side grouping with RadClientDataSource
+page_title: Client-side grouping with RadClientDataSource - RadGrid
+description: Check our Web Forms article about Client-side grouping with RadClientDataSource.
 slug: grid/functionality/grouping/client-side-grouping-with-radclientdatasource
 tags: client-side,grouping,with,radclientdatasource
 published: True

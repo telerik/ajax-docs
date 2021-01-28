@@ -1,7 +1,7 @@
 ---
 title: OnTooltipShow
-page_title: OnTooltipShow | RadPivotGrid for ASP.NET AJAX Documentation
-description: OnTooltipShow
+page_title: OnTooltipShow - RadPivotGrid
+description: Check our Web Forms article about OnTooltipShow.
 slug: pivotgrid/client-side-programming/events/ontooltipshow
 tags: ontooltipshow
 published: True

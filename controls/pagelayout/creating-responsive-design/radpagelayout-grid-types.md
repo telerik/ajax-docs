@@ -1,7 +1,7 @@
 ---
 title: RadPageLayout Grid Types
-page_title: RadPageLayout Grid Types | RadPageLayout for ASP.NET AJAX Documentation
-description: RadPageLayout Grid Types
+page_title: RadPageLayout Grid Types - RadPageLayout
+description: Check our Web Forms article about RadPageLayout Grid Types.
 slug: pagelayout/creating-responsive-design/radpagelayout-grid-types
 tags: radpagelayout,grid,types
 published: True

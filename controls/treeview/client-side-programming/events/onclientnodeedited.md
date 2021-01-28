@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeEdited
-page_title: OnClientNodeEdited | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeEdited
+page_title: OnClientNodeEdited - RadTreeView
+description: Check our Web Forms article about OnClientNodeEdited.
 slug: treeview/client-side-programming/events/onclientnodeedited
 tags: onclientnodeedited
 published: True

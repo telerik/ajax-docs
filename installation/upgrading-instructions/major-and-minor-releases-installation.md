@@ -1,7 +1,7 @@
 ---
 title: Major and Minor Releases Installation
-page_title: Major and Minor Releases Installation | UI for ASP.NET AJAX Documentation
-description: Major and Minor Releases Installation
+page_title: Major and Minor Releases Installation
+description: Check our Web Forms article about Major and Minor Releases Installation.
 slug: introduction/installation/upgrading-instructions/major-and-minor-releases-installation
 tags: major,and,minor,releases,installation
 published: True

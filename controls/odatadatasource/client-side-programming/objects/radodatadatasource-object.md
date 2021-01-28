@@ -1,7 +1,7 @@
 ---
 title: RadODataDataSource Object
-page_title: RadODataDataSource Object | RadODataDataSource for ASP.NET AJAX Documentation
-description: RadODataDataSource Object
+page_title: RadODataDataSource Object - RadODataDataSource
+description: Check our Web Forms article about RadODataDataSource Object.
 slug: odatadatasource/client-side-programming/objects/radodatadatasource-object
 tags: radodatadatasource,object
 published: True

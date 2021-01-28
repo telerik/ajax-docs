@@ -1,7 +1,7 @@
 ---
 title: Dropped AJAX Requests from Child Window
-page_title: Dropped AJAX Requests from Child Window | RadAjax for ASP.NET AJAX Documentation
-description: Dropped AJAX Requests from Child Window
+page_title: Dropped AJAX Requests from Child Window
+description: Check our Web Forms article about Dropped AJAX Requests from Child Window.
 slug: ajaxpanel/troubleshooting/dropped-ajax-requests-from-child-window
 tags: dropped,ajax,requests,from,child,window
 published: True

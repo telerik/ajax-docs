@@ -1,7 +1,7 @@
 ---
 title: get_pageSize()
-page_title: get_pageSize() | RadGrid for ASP.NET AJAX Documentation
-description: get_pageSize()
+page_title: get_pageSize() - RadGrid
+description: Check our Web Forms article about get_pageSize().
 slug: grid/client-side-programming/gridtableview-object/properties/get_pagesize()
 tags: get_pagesize()
 published: True

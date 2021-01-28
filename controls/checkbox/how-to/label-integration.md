@@ -1,7 +1,7 @@
 ---
 title: Label Integration
-page_title: Label Integration | RadCheckBox for ASP.NET AJAX Documentation
-description: Label Integration
+page_title: Label Integration - RadCheckBox
+description: Check our Web Forms article about Label Integration.
 slug: checkbox/how-to/label-integration
 tags: label,integration
 published: True

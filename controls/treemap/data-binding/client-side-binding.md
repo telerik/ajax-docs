@@ -1,7 +1,7 @@
 ---
 title: Client-side Binding
-page_title: Client-side Binding | RadTreeMap for ASP.NET AJAX Documentation
-description: Client-side Binding
+page_title: Client-side Binding - RadTreeMap
+description: Check our Web Forms article about Client-side Binding.
 slug: treemap/data-binding/client-side-binding
 tags: client-side,binding
 published: True

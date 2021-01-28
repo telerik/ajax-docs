@@ -1,7 +1,7 @@
 ---
 title: Spline Chart
-page_title: Spline Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Spline Chart
+page_title: Spline Chart - RadHtmlChart
+description: Check our Web Forms article about Spline Chart.
 slug: htmlchart/chart-types/spline-chart
 tags: spline,chart
 published: True

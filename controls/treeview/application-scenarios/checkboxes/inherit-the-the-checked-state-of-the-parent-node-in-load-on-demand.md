@@ -1,7 +1,7 @@
 ---
 title: Inherit the the Checked State of the Parent Node In Load on Demand
-page_title: Inherit the the Checked State of the Parent Node In Load on Demand | RadTreeView for ASP.NET AJAX Documentation
-description: Inherit the the Checked State of the Parent Node In Load on Demand
+page_title: Inherit the the Checked State of the Parent Node In Load on Demand - RadTreeView
+description: Check our Web Forms article about Inherit the the Checked State of the Parent Node In Load on Demand.
 slug: treeview/application-scenarios/checkboxes/inherit-the-the-checked-state-of-the-parent-node-in-load-on-demand
 tags: inherit,the,the,checked,state,of,the,parent,node,in,load,on,demand
 published: True

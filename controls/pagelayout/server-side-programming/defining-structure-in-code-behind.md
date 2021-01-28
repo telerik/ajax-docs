@@ -1,7 +1,7 @@
 ---
 title: Defining Structure in Code-Behind
-page_title: Defining Structure in Code-Behind | RadPageLayout for ASP.NET AJAX Documentation
-description: Defining Structure in Code-Behind
+page_title: Defining Structure in Code-Behind - RadPageLayout
+description: Check our Web Forms article about Defining Structure in Code-Behind.
 slug: pagelayout/server-side-programming/defining-structure-in-code-behind
 tags: defining,structure,in,code-behind
 published: True

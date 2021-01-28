@@ -1,7 +1,7 @@
 ---
 title: Events Triggered on Command Execution
-page_title: Events Triggered on Command Execution | RadDock for ASP.NET AJAX Documentation
-description: Events Triggered on Command Execution
+page_title: Events Triggered on Command Execution - RadDock
+description: Check our Web Forms article about Events Triggered on Command Execution.
 slug: dock/commands/events-triggered-on-command-execution
 tags: events,triggered,on,command,execution
 published: True

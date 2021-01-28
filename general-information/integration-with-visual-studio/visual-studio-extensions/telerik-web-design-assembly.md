@@ -1,7 +1,7 @@
 ---
 title: Telerik Web Design Assembly
-page_title: Telerik Web Design Assembly | UI for ASP.NET AJAX Documentation
-description: Telerik Web Design Assembly
+page_title: Telerik Web Design Assembly
+description: Check our Web Forms article about Telerik Web Design Assembly.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/telerik-web-design-assembly
 tags: telerik,web,design,assembly
 published: True

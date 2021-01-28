@@ -1,7 +1,7 @@
 ---
 title: Triggering Spellchecker on Page_Load
-page_title: Triggering Spellchecker on Page_Load | RadSpell for ASP.NET AJAX Documentation
-description: Triggering Spellchecker on Page_Load
+page_title: Triggering Spellchecker on Page_Load - RadSpell
+description: Check our Web Forms article about Triggering Spellchecker on Page_Load.
 slug: spell/how-to/triggering-spellchecker-on-page_load
 tags: triggering,spellchecker,on,page_load
 published: True

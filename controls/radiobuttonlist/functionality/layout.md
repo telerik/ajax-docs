@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: Layout | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Layout
+page_title: Layout - RadRadioButtonList
+description: Check our Web Forms article about Layout.
 slug: radiobuttonlist/functionality/layout
 tags: layout
 published: True

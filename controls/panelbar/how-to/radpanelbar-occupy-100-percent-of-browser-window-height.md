@@ -1,7 +1,7 @@
 ---
 title: RadPanelBar Occupy 100% of Browser Window Height
-page_title: RadPanelBar Occupy 100% of Browser Window Height | RadPanelBar for ASP.NET AJAX Documentation
-description: RadPanelBar Occupy 100% of Browser Window Height
+page_title: RadPanelBar Occupy 100% of Browser Window Height - RadPanelBar
+description: Check our Web Forms article about RadPanelBar Occupy 100% of Browser Window Height.
 slug: panelbar/how-to/radpanelbar-occupy-100%-of-browser-window-height
 tags: radpanelbar,occupy,100%,of,browser,window,height
 published: True

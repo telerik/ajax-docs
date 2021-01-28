@@ -1,7 +1,7 @@
 ---
 title: Autosizing Issues
-page_title: Autosizing Issues | RadWindow for ASP.NET AJAX Documentation
-description: Autosizing Issues
+page_title: Autosizing Issues - RadWindow
+description: Check our Web Forms article about Autosizing Issues.
 slug: window/troubleshooting/autosizing-issues
 tags: autosizing,issues
 published: True

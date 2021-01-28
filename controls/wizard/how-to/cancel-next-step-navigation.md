@@ -1,7 +1,7 @@
 ---
 title: Cancel Next Step Navigation
-page_title: Cancel Next Step Navigation | RadWizard for ASP.NET AJAX Documentation
-description: Cancel Next Step Navigation
+page_title: Cancel Next Step Navigation - RadWizard
+description: Check our Web Forms article about Cancel Next Step Navigation.
 slug: wizard/how-to/cancel-next-step-navigation
 tags: cancel,next,step,navigation
 published: True

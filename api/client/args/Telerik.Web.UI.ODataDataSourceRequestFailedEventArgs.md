@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
 slug: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
 ---

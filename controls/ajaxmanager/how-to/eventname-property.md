@@ -1,7 +1,7 @@
 ---
 title: EventName Property
-page_title: EventName Property | RadAjax for ASP.NET AJAX Documentation
-description: EventName Property
+page_title: EventName Property
+description: Check our Web Forms article about EventName Property.
 slug: ajaxmanager/how-to/eventname-property
 previous_url: ajax/how-to/eventname-property
 tags: eventname,property

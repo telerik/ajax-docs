@@ -1,7 +1,7 @@
 ---
 title: Custom Stylization
-page_title: Custom Stylization | RadEditor for ASP.NET AJAX Documentation
-description: Custom Stylization
+page_title: Custom Stylization - RadEditor
+description: Check our Web Forms article about Custom Stylization.
 slug: editor/managing-content/content-area-appearance/custom-stylization
 tags: custom,stylization
 published: False

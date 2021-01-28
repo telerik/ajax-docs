@@ -1,7 +1,7 @@
 ---
 title: OnClientFilesSelecting
-page_title: OnClientFilesSelecting | RadCloudUpload for ASP.NET AJAX Documentation
-description: OnClientFilesSelecting
+page_title: OnClientFilesSelecting - RadCloudUpload
+description: Check our Web Forms article about OnClientFilesSelecting.
 slug: cloudupload/client-side-programming/events/onclientfilesselecting
 tags: onclientfilesselecting
 published: True

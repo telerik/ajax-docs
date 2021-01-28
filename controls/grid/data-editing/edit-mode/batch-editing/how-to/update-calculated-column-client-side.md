@@ -1,7 +1,7 @@
 ---
 title: Update Calculated Columns Client-side
-page_title: Update Calculated Columns Client-side | RadGrid for ASP.NET AJAX Documentation
-description: Update Calculated Columns Client-side
+page_title: Update Calculated Columns Client-side - RadGrid
+description: Check our Web Forms article about Update Calculated Columns Client-side.
 slug: grid/data-editing/edit-mode/batch-editing/how-to/update-calculated-column-client-side
 tags: update,calculated,columns,client-side
 published: True

@@ -1,7 +1,7 @@
 ---
 title: deleteItem
-page_title: deleteItem | RadGrid for ASP.NET AJAX Documentation
-description: deleteItem
+page_title: deleteItem - RadGrid
+description: Check our Web Forms article about deleteItem.
 slug: grid/client-side-programming/gridtableview-object/methods/deleteitem
 tags: deleteitem
 published: True

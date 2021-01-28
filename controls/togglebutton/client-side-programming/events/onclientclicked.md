@@ -1,7 +1,7 @@
 ---
 title: OnClientClicked
-page_title: OnClientClicked | RadToggleButton for ASP.NET AJAX Documentation
-description: OnClientClicked
+page_title: OnClientClicked - RadToggleButton
+description: Check our Web Forms article about OnClientClicked.
 slug: togglebutton/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True

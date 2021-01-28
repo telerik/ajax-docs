@@ -1,7 +1,7 @@
 ---
 title: Resizing
-page_title: Resizing | RadSplitter for ASP.NET AJAX Documentation
-description: Resizing
+page_title: Resizing - RadSplitter
+description: Check our Web Forms article about Resizing.
 slug: splitter/panes/resizing
 tags: resizing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ContentTemplate
-page_title: ContentTemplate | RadLinkButton for ASP.NET AJAX Documentation
-description: ContentTemplate
+page_title: ContentTemplate - RadLinkButton
+description: Check our Web Forms article about ContentTemplate.
 slug: linkbutton/functionality/contenttemplate
 tags: contenttemplate
 published: True

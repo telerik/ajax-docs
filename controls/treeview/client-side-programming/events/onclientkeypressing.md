@@ -1,7 +1,7 @@
 ---
 title: OnClientKeyPressing
-page_title: OnClientKeyPressing | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientKeyPressing
+page_title: OnClientKeyPressing - RadTreeView
+description: Check our Web Forms article about OnClientKeyPressing.
 slug: treeview/client-side-programming/events/onclientkeypressing
 tags: onclientkeypressing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadTile for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadTile
+description: Check our Web Forms article about Overview.
 slug: tilelist/tiles/client-side-programming/overview
 tags: overview
 published: True

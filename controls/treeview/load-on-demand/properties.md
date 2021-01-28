@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: Properties | RadTreeView for ASP.NET AJAX Documentation
-description: Properties
+page_title: Properties - RadTreeView
+description: Check our Web Forms article about Properties.
 slug: treeview/load-on-demand/properties
 tags: properties
 published: True

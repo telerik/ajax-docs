@@ -1,7 +1,7 @@
 ---
 title: Container
-page_title: Container | RadPageLayout for ASP.NET AJAX Documentation
-description: Container
+page_title: Container - RadPageLayout
+description: Check our Web Forms article about Container.
 slug: pagelayout/structure/container
 tags: container
 published: True

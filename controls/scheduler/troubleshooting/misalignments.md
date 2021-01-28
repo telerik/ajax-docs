@@ -1,7 +1,7 @@
 ---
 title: Misalignments
-page_title: Misalignments | RadScheduler for ASP.NET AJAX Documentation
-description: Misalignments
+page_title: Misalignments - RadScheduler
+description: Check our Web Forms article about Misalignments.
 slug: scheduler/troubleshootings/misalignments
 tags: misalignments
 published: True

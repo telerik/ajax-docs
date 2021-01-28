@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop
-page_title: Drag and Drop | RadTreeView for ASP.NET AJAX Documentation
-description: Drag and Drop
+page_title: Drag and Drop - RadTreeView
+description: Check our Web Forms article about Drag and Drop.
 slug: treeview/troubleshooting/drag-and-drop
 tags: drag,and,drop
 published: True

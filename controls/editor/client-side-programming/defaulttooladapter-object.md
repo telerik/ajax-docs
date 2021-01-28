@@ -1,7 +1,7 @@
 ---
 title: DefaultToolAdapter Object
-page_title: DefaultToolAdapter Object | RadEditor for ASP.NET AJAX Documentation
-description: DefaultToolAdapter Object
+page_title: DefaultToolAdapter Object - RadEditor
+description: Check our Web Forms article about DefaultToolAdapter Object.
 slug: editor/client-side-programming/defaulttooladapter-object
 tags: defaulttooladapter,object
 published: True

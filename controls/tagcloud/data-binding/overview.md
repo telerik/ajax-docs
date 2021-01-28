@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadTagCloud for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadTagCloud
+description: Check our Web Forms article about Overview.
 slug: tagcloud/data-binding/overview
 tags: overview
 published: True

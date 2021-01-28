@@ -1,7 +1,7 @@
 ---
 title: Assign Individual Colors to Bars
-page_title: How to Assign Individual Colors to Bars | UI for ASP.NET AJAX Documentation
-description: How to Assign Individual Colors to Bars
+page_title: How to Assign Individual Colors to Bars
+description: Check our Web Forms article about How to Assign Individual Colors to Bars.
 slug: chart/how-to/assign-individual-colors-to-bars
 tags: how to, assign, color, individual, bar
 published: True

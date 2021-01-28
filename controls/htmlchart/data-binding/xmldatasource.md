@@ -1,7 +1,7 @@
 ---
 title: XmlDataSource
-page_title: XmlDataSource | RadHtmlChart for ASP.NET AJAX Documentation
-description: XmlDataSource
+page_title: XmlDataSource - RadHtmlChart
+description: Check our Web Forms article about XmlDataSource.
 slug: htmlchart/data-binding/xmldatasource
 tags: xmldatasource
 published: True

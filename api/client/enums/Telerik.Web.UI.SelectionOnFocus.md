@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SelectionOnFocus
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SelectionOnFocus
 slug: Telerik.Web.UI.SelectionOnFocus
 ---

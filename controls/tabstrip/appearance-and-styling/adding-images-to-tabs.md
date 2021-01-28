@@ -1,7 +1,7 @@
 ---
 title: Adding Images to Tabs
-page_title: Adding Images to Tabs | RadTabStrip for ASP.NET AJAX Documentation
-description: Adding Images to Tabs
+page_title: Adding Images to Tabs - RadTabStrip
+description: Check our Web Forms article about Adding Images to Tabs.
 slug: tabstrip/appearance-and-styling/adding-images-to-tabs
 tags: adding,images,to,tabs
 published: True

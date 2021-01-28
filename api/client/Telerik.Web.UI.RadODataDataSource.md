@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadODataDataSource
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadODataDataSource
 slug: Telerik.Web.UI.RadODataDataSource
 ---

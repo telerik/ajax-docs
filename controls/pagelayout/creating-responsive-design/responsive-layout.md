@@ -1,7 +1,7 @@
 ---
 title: Responsive Layout
-page_title: Responsive Layout | RadPageLayout for ASP.NET AJAX Documentation
-description: Responsive Layout
+page_title: Responsive Layout - RadPageLayout
+description: Check our Web Forms article about Responsive Layout.
 slug: pagelayout/creating-responsive-design/responsive-layout
 tags: responsive,layout
 published: True

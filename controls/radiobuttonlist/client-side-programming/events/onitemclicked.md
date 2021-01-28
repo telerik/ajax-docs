@@ -1,7 +1,7 @@
 ---
 title: OnItemClicked
-page_title: OnItemClicked | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnItemClicked
+page_title: OnItemClicked - RadRadioButtonList
+description: Check our Web Forms article about OnItemClicked.
 slug: radiobuttonlist/client-side-programming/events/onitemclicked
 tags: onitemclicked
 published: True

@@ -1,7 +1,7 @@
 ---
 title: NestedView template
-page_title: NestedView template | RadGrid for ASP.NET AJAX Documentation
-description: NestedView template
+page_title: NestedView template - RadGrid
+description: Check our Web Forms article about NestedView template.
 slug: grid/hierarchical-grid-types-and-load-modes/nestedview-template
 tags: nestedview,template
 published: True

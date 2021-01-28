@@ -1,7 +1,7 @@
 ---
 title: Telerik Static Client Library
-page_title: Telerik Static Client Library | UI for ASP.NET AJAX Documentation
-description: Telerik Static Client Library
+page_title: Telerik Static Client Library
+description: Check our Web Forms article about Telerik Static Client Library.
 slug: controls/telerik-static-client-library
 tags: telerik,static,client,library
 published: True

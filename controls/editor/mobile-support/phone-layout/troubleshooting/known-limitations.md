@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Phone Layout Known Limitations | RadEditor for ASP.NET AJAX Documentation
-description: Mobile Rendering
+page_title: Phone Layout Known Limitations - RadEditor
+description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/troubleshooting/known-limitations
 tags: editor,support,mobile,rendering,limitations
 published: True

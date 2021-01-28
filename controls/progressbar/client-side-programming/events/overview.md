@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Events Overview | RadProgressBar for ASP.NET AJAX Documentation
-description: Events Overview
+page_title: Events Overview - RadProgressBar
+description: Check our Web Forms article about Events Overview.
 slug: progressbar/client-side-programming/events/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ItemsRequested
-page_title: ItemsRequested | RadComboBox for ASP.NET AJAX Documentation
-description: ItemsRequested
+page_title: ItemsRequested - RadComboBox
+description: Check our Web Forms article about ItemsRequested.
 slug: combobox/server-side-programming/itemsrequested
 tags: itemsrequested
 published: True

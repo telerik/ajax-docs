@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadPushButton for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadPushButton
+description: Check our Web Forms article about OnClientLoad.
 slug: pushbutton/client-side-programming/events/onclientload
 tags: onclientload
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RibbonBarButtonStrip
-page_title: RibbonBarButtonStrip | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarButtonStrip
+page_title: RibbonBarButtonStrip - RadRibbonBar
+description: Check our Web Forms article about RibbonBarButtonStrip.
 slug: ribbonbar/radribbonbar-items/ribbonbarbuttonstrip
 tags: ribbonbarbuttonstrip
 published: True

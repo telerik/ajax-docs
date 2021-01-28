@@ -1,7 +1,7 @@
 ---
 title: Upgrading a Trial to a Developer License or to a Newer Version
-page_title: Upgrading a Trial to a Developer License or to a Newer Version | UI for ASP.NET AJAX Documentation
-description: Upgrading a Trial to a Developer License or to a Newer Version
+page_title: Upgrading a Trial to a Developer License or to a Newer Version
+description: Check our Web Forms article about Upgrading a Trial to a Developer License or to a Newer Version.
 slug: introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version
 tags: upgrading,a,trial,to,a,developer,license,or,to,a,newer,version
 published: True

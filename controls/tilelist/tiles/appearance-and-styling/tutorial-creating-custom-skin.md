@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Creating a Custom Skin
-page_title: Tutorial  Creating a Custom Skin | RadTile for ASP.NET AJAX Documentation
-description: Tutorial for Creating a Custom Skin for RadTile
+page_title: Tutorial Creating a Custom Skin - RadTile
+description: Check our Web Forms article about Tutorial for Creating a Custom Skin for RadTile.
 slug: tilelist/tiles/appearance-and-styling/tutorial-creating-custom-skin
 tags: tilelist, custom, skin, tutorial
 published: True

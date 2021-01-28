@@ -1,7 +1,7 @@
 ---
 title: Upload Modules
-page_title: Upload Modules | RadCloudUpload for ASP.NET AJAX Documentation
-description: Upload Modules
+page_title: Upload Modules - RadCloudUpload
+description: Check our Web Forms article about Upload Modules.
 slug: cloudupload/upload-modules
 tags: upload,modules
 published: True

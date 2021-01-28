@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadFileExplorer for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadFileExplorer
+description: Check our Web Forms article about Design Time.
 slug: fileexplorer/design-time
 tags: design,time
 published: True

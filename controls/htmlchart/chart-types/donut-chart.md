@@ -1,7 +1,7 @@
 ---
 title: Donut Chart
-page_title: Donut Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Donut Chart
+page_title: Donut Chart - RadHtmlChart
+description: Check our Web Forms article about Donut Chart.
 slug: htmlchart/chart-types/donut-chart
 tags: donut,chart
 published: True

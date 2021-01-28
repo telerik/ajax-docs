@@ -1,7 +1,7 @@
 ---
 title: OnClientPasswordStrengthCalculating
-page_title: OnClientPasswordStrengthCalculating | RadTextBox for ASP.NET AJAX Documentation
-description: OnClientPasswordStrengthCalculating
+page_title: OnClientPasswordStrengthCalculating - RadTextBox
+description: Check our Web Forms article about OnClientPasswordStrengthCalculating.
 slug: radtextbox/client-side-programming/events/onclientpasswordstrengthcalculating
 tags: onclientpasswordstrengthcalculating
 published: True

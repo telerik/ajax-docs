@@ -1,7 +1,7 @@
 ---
 title: page
-page_title: page | RadListView for ASP.NET AJAX Documentation
-description: page
+page_title: page - RadListView
+description: Check our Web Forms article about page.
 slug: listview/client-side-programming/radlistview/methods/page
 tags: page
 published: True

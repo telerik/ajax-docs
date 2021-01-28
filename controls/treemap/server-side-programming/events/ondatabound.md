@@ -1,7 +1,7 @@
 ---
 title: OnDataBound
-page_title: OnDataBound | RadTreeMap for ASP.NET AJAX Documentation
-description: OnDataBound
+page_title: OnDataBound - RadTreeMap
+description: Check our Web Forms article about OnDataBound.
 slug: treemap/server-side-programming/events/ondatabound
 tags: ondatabound
 published: True

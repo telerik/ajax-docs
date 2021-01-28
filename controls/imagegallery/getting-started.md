@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadImageGallery for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadImageGallery
+description: Check our Web Forms article about Getting Started.
 slug: imagegallery/getting-started
 tags: getting,started
 published: True

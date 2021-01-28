@@ -1,7 +1,7 @@
 ---
 title: Data Binding RadChart to an Array
-page_title: Data Binding RadChart to an Array | RadChart for ASP.NET AJAX Documentation
-description: Data Binding RadChart to an Array
+page_title: Data Binding RadChart to an Array - RadChart
+description: Check our Web Forms article about Data Binding RadChart to an Array.
 slug: chart/building-radcharts/data-binding-radchart-to-an-array
 tags: data,binding,radchart,to,an,array
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Date Axis
-page_title: Date Axis | RadHtmlChart for ASP.NET AJAX Documentation
-description: Date Axis
+page_title: Date Axis - RadHtmlChart
+description: Check our Web Forms article about Date Axis.
 slug: htmlchart/functionality/axes/date-axis
 tags: date,axis
 published: True

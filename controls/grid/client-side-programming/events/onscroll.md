@@ -1,7 +1,7 @@
 ---
 title: OnScroll
-page_title: OnScroll | RadGrid for ASP.NET AJAX Documentation
-description: OnScroll
+page_title: OnScroll - RadGrid
+description: Check our Web Forms article about OnScroll.
 slug: grid/client-side-programming/events/onscroll
 tags: onscroll
 published: True

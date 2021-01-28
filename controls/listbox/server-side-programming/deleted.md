@@ -1,7 +1,7 @@
 ---
 title: Deleted
-page_title: Deleted | RadListBox for ASP.NET AJAX Documentation
-description: Deleted
+page_title: Deleted - RadListBox
+description: Check our Web Forms article about Deleted.
 slug: listbox/server-side-programming/server-events/deleted
 tags: deleted
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Copy or Move Nodes from One TreeView to Another Using the CTRL Key
-page_title: Copy or Move Nodes from One TreeView to Another Using the CTRL Key | RadTreeView for ASP.NET AJAX Documentation
-description: Copy or Move Nodes from One TreeView to Another Using the CTRL Key
+page_title: Copy or Move Nodes from One TreeView to Another Using the CTRL Key - RadTreeView
+description: Check our Web Forms article about Copy or Move Nodes from One TreeView to Another Using the CTRL Key.
 slug: treeview/application-scenarios/general/copy-or-move-nodes-from-one-treeview-to-another-using-the-ctrl-key
 tags: copy,or,move,nodes,from,one,treeview,to,another,using,the,ctrl,key
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ItemEvent
-page_title: ItemEvent Event - RadGrid | UI for ASP.NET AJAX
-description: ItemEvent Event
+page_title: ItemEvent Event - RadGrid
+description: Check our Web Forms article about ItemEvent Event.
 slug: grid/server-side-programming/events/itemevent
 published: True
 position: 50

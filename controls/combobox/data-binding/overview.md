@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadComboBox
+description: Check our Web Forms article about Overview.
 slug: combobox/data-binding/overview
 tags: overview
 published: True

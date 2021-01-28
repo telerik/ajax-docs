@@ -1,7 +1,7 @@
 ---
 title: Visual Template
-page_title: Visual Template | RadHtmlChart for ASP.NET AJAX Documentation
-description: Custom Visual Template for Chart Elements
+page_title: Visual Template - RadHtmlChart
+description: Check our Web Forms article about Custom Visual Template for Chart Elements.
 slug: htmlchart/functionality/visual-template
 tags: custom,visual,template,visualization
 published: True

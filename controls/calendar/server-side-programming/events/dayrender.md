@@ -1,7 +1,7 @@
 ---
 title: DayRender
-page_title: DayRender | RadCalendar for ASP.NET AJAX Documentation
-description: DayRender
+page_title: DayRender - RadCalendar
+description: Check our Web Forms article about DayRender.
 slug: calendar/server-side-programming/events/dayrender
 tags: dayrender
 published: True

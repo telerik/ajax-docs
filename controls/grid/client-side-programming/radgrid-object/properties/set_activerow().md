@@ -1,7 +1,7 @@
 ---
 title: set_activeRow()
-page_title: set_activeRow() | RadGrid for ASP.NET AJAX Documentation
-description: set_activeRow()
+page_title: set_activeRow() - RadGrid
+description: Check our Web Forms article about set_activeRow().
 slug: grid/client-side-programming/radgrid-object/properties/set_activerow()
 tags: set_activerow()
 published: True

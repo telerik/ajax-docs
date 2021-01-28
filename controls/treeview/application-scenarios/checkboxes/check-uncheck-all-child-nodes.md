@@ -1,7 +1,7 @@
 ---
 title: Check-Uncheck All Child Nodes
-page_title: Check-Uncheck All Child Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Check-Uncheck All Child Nodes
+page_title: Check-Uncheck All Child Nodes - RadTreeView
+description: Check our Web Forms article about Check-Uncheck All Child Nodes.
 slug: treeview/application-scenarios/checkboxes/check-uncheck-all-child-nodes
 tags: check-uncheck,all,child,nodes
 published: True

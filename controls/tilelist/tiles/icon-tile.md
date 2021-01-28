@@ -1,7 +1,7 @@
 ---
 title: Icon Tile
-page_title: Icon Tile | RadTile for ASP.NET AJAX Documentation
-description: Icon Tile
+page_title: Icon Tile - RadTile
+description: Check our Web Forms article about Icon Tile.
 slug: tilelist/tiles/icon-tile
 tags: icon,tile
 published: True

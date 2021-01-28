@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeViewLoadingStatusPosition
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeViewLoadingStatusPosition
 slug: Telerik.Web.UI.TreeViewLoadingStatusPosition
 ---

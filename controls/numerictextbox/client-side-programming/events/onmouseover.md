@@ -1,7 +1,7 @@
 ---
 title: OnMouseOver
-page_title: OnMouseOver | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnMouseOver
+page_title: OnMouseOver - RadNumericTextBox
+description: Check our Web Forms article about OnMouseOver.
 slug: numerictextbox/client-side-programming/events/onmouseover
 tags: onmouseover
 published: True

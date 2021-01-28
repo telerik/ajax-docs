@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadSpell for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadSpell
+description: Check our Web Forms article about Getting Started.
 slug: spell/getting-started
 tags: getting,started
 published: True

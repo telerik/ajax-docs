@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FileExplorerItemPermissions
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FileExplorerItemPermissions
 slug: Telerik.Web.UI.FileExplorerItemPermissions
 ---

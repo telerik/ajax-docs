@@ -1,7 +1,7 @@
 ---
 title: Mobile Support and Responsiveness
-page_title: Mobile Support and Responsiveness | UI for ASP.NET AJAX Documentation
-description: Mobile Support and Responsiveness
+page_title: Mobile Support and Responsiveness
+description: Check our Web Forms article about Mobile Support and Responsiveness.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-support-and-responsiveness
 tags: mobile,support,and,responsiveness
 published: True

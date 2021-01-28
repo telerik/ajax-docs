@@ -1,7 +1,7 @@
 ---
 title: Styling Custom Commands
-page_title: Styling Custom Commands | RadDock for ASP.NET AJAX Documentation
-description: Styling Custom Commands
+page_title: Styling Custom Commands - RadDock
+description: Check our Web Forms article about Styling Custom Commands.
 slug: dock/commands/styling-custom-commands
 tags: styling,custom,commands
 published: True

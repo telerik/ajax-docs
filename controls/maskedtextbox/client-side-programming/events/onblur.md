@@ -1,7 +1,7 @@
 ---
 title: OnBlur
-page_title: OnBlur | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: OnBlur
+page_title: OnBlur - RadMaskedTextBox
+description: Check our Web Forms article about OnBlur.
 slug: radmaskedtextbox/client-side-programming/events/onblur
 tags: onblur
 published: True

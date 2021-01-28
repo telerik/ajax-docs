@@ -1,7 +1,7 @@
 ---
 title: Line Charts
-page_title: Line Charts | RadChart for ASP.NET AJAX Documentation
-description: Line Charts
+page_title: Line Charts - RadChart
+description: Check our Web Forms article about Line Charts.
 slug: chart/understanding-radchart-types/line-charts
 tags: line,charts
 published: True

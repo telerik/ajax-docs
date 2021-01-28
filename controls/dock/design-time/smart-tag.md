@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadDock for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadDock
+description: Check our Web Forms article about Smart Tag.
 slug: dock/design-time/smart-tag
 tags: smart,tag
 published: True

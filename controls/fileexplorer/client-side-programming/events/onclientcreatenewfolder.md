@@ -1,7 +1,7 @@
 ---
 title: OnClientCreateNewFolder
-page_title: OnClientCreateNewFolder | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientCreateNewFolder
+page_title: OnClientCreateNewFolder - RadFileExplorer
+description: Check our Web Forms article about OnClientCreateNewFolder.
 slug: fileexplorer/client-side-programming/events/onclientcreatenewfolder
 tags: onclientcreatenewfolder
 published: True

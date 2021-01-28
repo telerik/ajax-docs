@@ -1,8 +1,8 @@
 ---
 title: Add Wizard Finish button to PostbackTriggers collection of AsyncUpload
-description: Persist RadAsyncUpload files in RadWizard until Finish button is clicked
+description: Persist RadAsyncUpload files in RadWizard until Finish button is clicked.
 type: how-to
-page_title: Add RadWizard buttons to RadAsyncUpload postbacktriggers collection | Telerik UI for ASP.NET AJAX
+page_title: Add RadWizard buttons to RadAsyncUpload postbacktriggers collection
 slug: asyncupload-add-radwizard-finish-button-as-postbacktrigger
 position: 
 tags: 

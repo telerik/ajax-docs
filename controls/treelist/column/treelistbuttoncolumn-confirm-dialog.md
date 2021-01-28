@@ -1,7 +1,7 @@
 ---
 title: TreeListButtonColumn Confirm Dialog
-page_title: TreeListButtonColumn Confirm Dialog | RadTreeList for ASP.NET AJAX Documentation
-description: TreeListButtonColumn Confirm Dialog
+page_title: TreeListButtonColumn Confirm Dialog - RadTreeList
+description: Check our Web Forms article about TreeListButtonColumn Confirm Dialog.
 slug: treelist/column/treelistbuttoncolumn-confirm-dialog
 tags: treelistbuttoncolumn,confirm,dialog
 published: True

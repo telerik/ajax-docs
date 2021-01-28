@@ -1,7 +1,7 @@
 ---
 title: Web Farm
-page_title: Web Farm | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Web Farm and Load Balancing with RadAsyncUpload
+page_title: Web Farm - RadAsyncUpload
+description: Check our Web Forms article about Web Farm and Load Balancing with RadAsyncUpload.
 slug: asyncupload/troubleshooting/web-farm
 tags: web,farm,load,balancing,balanced,balancer,upload,shared,folder,target
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadChart Types Overview | RadChart for ASP.NET AJAX Documentation
-description: RadChart Types Overview
+page_title: RadChart Types Overview - RadChart
+description: Check our Web Forms article about RadChart Types Overview.
 slug: chart/understanding-radchart-types/radchart-types-overview
 tags: radchart,types,overview
 published: True

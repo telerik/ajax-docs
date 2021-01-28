@@ -1,7 +1,7 @@
 ---
 title: Import from DOCX and RTF
-page_title: Import from DOCX and RTF | RadEditor for ASP.NET AJAX Documentation
-description: Import from DOCX and RTF
+page_title: Import from DOCX and RTF - RadEditor
+description: Check our Web Forms article about Import from DOCX and RTF.
 slug: editor/functionality/import-and-export/import-from-docx-and-rtf
 tags: import,from,docx,and,rtf
 published: True

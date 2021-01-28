@@ -1,7 +1,7 @@
 ---
 title: RadToolTip Object
-page_title: RadToolTip Object | RadTooltip for ASP.NET AJAX Documentation
-description: RadToolTip Object
+page_title: RadToolTip Object - RadTooltip
+description: Check our Web Forms article about RadToolTip Object.
 slug: tooltip/client-side-programming/radtooltip-object
 tags: radtooltip,object
 published: True

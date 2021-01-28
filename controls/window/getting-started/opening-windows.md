@@ -1,7 +1,7 @@
 ---
 title: Opening Windows
-page_title: Opening Windows | RadWindow for ASP.NET AJAX Documentation
-description: Opening Windows
+page_title: Opening Windows - RadWindow
+description: Check our Web Forms article about Opening Windows.
 slug: window/getting-started/opening-windows
 tags: opening,windows
 published: True

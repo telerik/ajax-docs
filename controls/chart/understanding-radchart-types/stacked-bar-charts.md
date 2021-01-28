@@ -1,7 +1,7 @@
 ---
 title: Stacked Bar Charts
-page_title: Stacked Bar Charts | RadChart for ASP.NET AJAX Documentation
-description: Stacked Bar Charts
+page_title: Stacked Bar Charts - RadChart
+description: Check our Web Forms article about Stacked Bar Charts.
 slug: chart/understanding-radchart-types/stacked-bar-charts
 tags: stacked,bar,charts
 published: True

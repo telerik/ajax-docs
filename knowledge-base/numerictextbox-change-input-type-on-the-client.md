@@ -1,6 +1,6 @@
 ---
 title: Change Input type of RadNumericTextBox from Client Side
-description: See how to change the numeric type from number to currency and percent on the client
+description: See how to change the numeric type from number to currency and percent on the client.
 type: how-to
 page_title: Change Input type of the Numeric TextBox on the client
 slug: numerictextbox-change-input-type-on-the-client

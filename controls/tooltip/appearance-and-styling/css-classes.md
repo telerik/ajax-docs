@@ -1,7 +1,7 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | RadTooltip for ASP.NET AJAX Documentation
-description: CSS Classes
+page_title: CSS Classes - RadTooltip
+description: Check our Web Forms article about CSS Classes.
 slug: tooltip/appearance-and-styling/css-classes
 tags: css,classes
 published: True

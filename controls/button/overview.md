@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadButton Overview | RadButton for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadButton Overview - RadButton
+description: Check our Web Forms article about Overview.
 slug: button/telerik's-asp.net-button-overview
 tags: telerik's,asp.net,button,overview
 published: True

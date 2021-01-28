@@ -1,7 +1,7 @@
 ---
 title: Inheriting RadGrid
-page_title: Inheriting RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Inheriting RadGrid
+page_title: Inheriting RadGrid - RadGrid
+description: Check our Web Forms article about Inheriting RadGrid.
 slug: grid/inheritance/inheriting-radgrid
 tags: inheriting,radgrid
 published: True

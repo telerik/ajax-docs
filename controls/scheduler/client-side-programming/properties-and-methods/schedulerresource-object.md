@@ -1,7 +1,7 @@
 ---
 title: SchedulerResource Object
-page_title: SchedulerResource Object | RadScheduler for ASP.NET AJAX Documentation
-description: SchedulerResource Object
+page_title: SchedulerResource Object - RadScheduler
+description: Check our Web Forms article about SchedulerResource Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresource-object
 tags: schedulerresource,object
 published: True

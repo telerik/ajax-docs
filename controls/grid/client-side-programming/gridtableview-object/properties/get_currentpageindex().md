@@ -1,7 +1,7 @@
 ---
 title: get_currentPageIndex()
-page_title: get_currentPageIndex() | RadGrid for ASP.NET AJAX Documentation
-description: get_currentPageIndex()
+page_title: get_currentPageIndex() - RadGrid
+description: Check our Web Forms article about get_currentPageIndex().
 slug: grid/client-side-programming/gridtableview-object/properties/get_currentpageindex()
 tags: get_currentpageindex()
 published: True

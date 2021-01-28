@@ -1,7 +1,7 @@
 ---
 title: Show and Hide AjaxLoadingPanel explicitly
-page_title: Show and Hide AjaxLoadingPanel explicitly | RadAjax for ASP.NET AJAX Documentation
-description: Show and Hide AjaxLoadingPanel explicitly
+page_title: Show and Hide AjaxLoadingPanel explicitly
+description: Check our Web Forms article about Show and Hide AjaxLoadingPanel explicitly.
 slug: ajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly
 previous_url: ajax/radajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly
 tags: show,and,hide,ajaxloadingpanel,explicitly

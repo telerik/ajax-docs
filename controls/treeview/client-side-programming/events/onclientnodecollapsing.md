@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeCollapsing
-page_title: OnClientNodeCollapsing | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeCollapsing
+page_title: OnClientNodeCollapsing - RadTreeView
+description: Check our Web Forms article about OnClientNodeCollapsing.
 slug: treeview/client-side-programming/events/onclientnodecollapsing
 tags: onclientnodecollapsing
 published: True

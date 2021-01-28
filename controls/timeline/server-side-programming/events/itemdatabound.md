@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadTimeline for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadTimeline
+description: Check our Web Forms article about ItemDataBound.
 slug: timeline/server-side-programming/events/itemdatabound
 tags: itemdatabound
 published: True

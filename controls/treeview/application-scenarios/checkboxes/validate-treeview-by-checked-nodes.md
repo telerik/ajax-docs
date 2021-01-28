@@ -1,7 +1,7 @@
 ---
 title: Validate Treeview by Checked Nodes
-page_title: Validate Treeview by Checked Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Validate Treeview by Checked Nodes
+page_title: Validate Treeview by Checked Nodes - RadTreeView
+description: Check our Web Forms article about Validate Treeview by Checked Nodes.
 slug: treeview/application-scenarios/checkboxes/validate-treeview-by-checked-nodes
 tags: validate,treeview,by,checked,nodes
 published: True

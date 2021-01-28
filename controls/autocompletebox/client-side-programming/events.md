@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Client-Side Programming Events | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Events
+page_title: Client-Side Programming Events - RadAutoCompleteBox
+description: Check our Web Forms article about Events.
 slug: autocompletebox/client-side-programming/events
 tags: events
 published: True

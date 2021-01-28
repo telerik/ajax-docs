@@ -1,7 +1,7 @@
 ---
 title: OnClientExpanded
-page_title: OnClientExpanded | RadSplitter for ASP.NET AJAX Documentation
-description: OnClientExpanded
+page_title: OnClientExpanded - RadSplitter
+description: Check our Web Forms article about OnClientExpanded.
 slug: splitter/client-side-programming/events/onclientexpanded
 tags: onclientexpanded
 published: True

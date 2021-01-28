@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Search Context Overview | RadSearchBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Search Context Overview - RadSearchBox
+description: Check our Web Forms article about Overview.
 slug: searchbox/search-context/overview
 tags: overview
 published: True

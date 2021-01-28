@@ -1,7 +1,7 @@
 ---
 title: Difference from RadWindow
-page_title: Difference from RadWindow | RadLightBox for ASP.NET AJAX Documentation
-description: Difference from RadWindow
+page_title: Difference from RadWindow - RadLightBox
+description: Check our Web Forms article about Difference from RadWindow.
 slug: lightbox/difference-from-radwindow
 tags: difference,from,radwindow
 published: True

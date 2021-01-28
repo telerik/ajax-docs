@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadDrawer for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadDrawer
+description: Check our Web Forms article about Overview.
 slug: drawer/client-side-programming/events
 tags: overview,events
 published: True

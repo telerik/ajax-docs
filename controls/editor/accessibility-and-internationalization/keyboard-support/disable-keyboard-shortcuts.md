@@ -1,7 +1,7 @@
 ---
 title: Disable Keyboard Shortcuts
-page_title: Disable Keyboard Shortcuts | RadEditor for ASP.NET AJAX Documentation
-description: Disable Keyboard Shortcuts
+page_title: Disable Keyboard Shortcuts - RadEditor
+description: Check our Web Forms article about Disable Keyboard Shortcuts.
 slug: editor/accessibility-and-internationalization/keyboard-support/disable-keyboard-shortcuts
 tags: disable,keyboard,shortcuts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Translating Strings
-page_title: Translating Strings | RadScheduler for ASP.NET AJAX Documentation
-description: Translating Strings
+page_title: Translating Strings - RadScheduler
+description: Check our Web Forms article about Translating Strings.
 slug: scheduler/accessibility-and-internationalization/translating-strings
 tags: translating,strings
 published: True

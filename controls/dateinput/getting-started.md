@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started Overview | RadDateInput for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started Overview - RadDateInput
+description: Check our Web Forms article about Getting Started.
 slug: raddateinput/getting-started/overview
 tags: overview
 published: True

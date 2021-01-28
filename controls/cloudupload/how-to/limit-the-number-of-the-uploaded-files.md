@@ -1,7 +1,7 @@
 ---
 title: Limit the Number of the Uploaded Files
-page_title: Limit the Number of the Uploaded Files | RadCloudUpload for ASP.NET AJAX Documentation
-description: Limit the Number of the Uploaded Files
+page_title: Limit the Number of the Uploaded Files - RadCloudUpload
+description: Check our Web Forms article about Limit the Number of the Uploaded Files.
 slug: cloudupload/how-to/limit-the-number-of-the-uploaded-files
 tags: limit,the,number,of,the,uploaded,files
 published: True

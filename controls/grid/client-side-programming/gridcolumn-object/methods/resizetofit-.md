@@ -1,7 +1,7 @@
 ---
 title: resizeToFit 
-page_title: resizeToFit  | RadGrid for ASP.NET AJAX Documentation
-description: resizeToFit 
+page_title: resizeToFit - RadGrid
+description: Check our Web Forms article about resizeToFit.
 slug: grid/client-side-programming/gridcolumn-object/methods/resizetofit-
 tags: resizetofit,
 published: True

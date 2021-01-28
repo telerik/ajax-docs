@@ -1,7 +1,7 @@
 ---
 title: Set Editor Background and Color
-page_title: Set Editor Background and Color | RadEditor for ASP.NET AJAX Documentation
-description: Set Editor Background and Color
+page_title: Set Editor Background and Color - RadEditor
+description: Check our Web Forms article about Set Editor Background and Color.
 slug: editor/managing-content/content-area-appearance/set-editor-background-and-color
 tags: set,editor,background,and,color
 published: True

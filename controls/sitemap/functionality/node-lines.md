@@ -1,7 +1,7 @@
 ---
 title: Node Lines
-page_title: Node Lines | RadSiteMap for ASP.NET AJAX Documentation
-description: Node Lines
+page_title: Node Lines - RadSiteMap
+description: Check our Web Forms article about Node Lines.
 slug: sitemap/functionality/node-lines
 tags: node,lines
 published: True

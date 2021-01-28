@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadRating
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadRating
 slug: Telerik.Web.UI.RadRating
 ---

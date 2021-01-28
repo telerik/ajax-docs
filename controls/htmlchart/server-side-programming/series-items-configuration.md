@@ -1,7 +1,7 @@
 ---
 title: Series Items Configuration
-page_title: Series Items Configuration | RadHtmlChart for ASP.NET AJAX Documentation
-description: Series Items Configuration
+page_title: Series Items Configuration - RadHtmlChart
+description: Check our Web Forms article about Series Items Configuration.
 slug: htmlchart/server-side-programming/series-items-configuration
 tags: series,items,configuration
 published: True

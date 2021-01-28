@@ -1,7 +1,7 @@
 ---
 title: Hide a Context Menu When the Mouse Moves Out
-page_title: Hide a Context Menu When the Mouse Moves Out | RadMenu for ASP.NET AJAX Documentation
-description: Hide a Context Menu When the Mouse Moves Out
+page_title: Hide a Context Menu When the Mouse Moves Out - RadMenu
+description: Check our Web Forms article about Hide a Context Menu When the Mouse Moves Out.
 slug: menu/how-to/hide-a-context-menu-when-the-mouse-moves-out
 tags: hide,a,context,menu,when,the,mouse,moves,out
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadAjax and MasterPage
-page_title: RadAjax and MasterPage | RadAjax for ASP.NET AJAX Documentation
-description: RadAjax and MasterPage
+page_title: RadAjax and MasterPage
+description: Check our Web Forms article about RadAjax and MasterPage.
 slug: ajaxmanager/how-to/radajax-and-masterpage
 previous_url: ajax/radajaxmanager/how-to/radajax-and-masterpage
 tags: radajax,and,masterpage

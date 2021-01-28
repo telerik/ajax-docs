@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentSerialized
-page_title: OnClientAppointmentSerialized | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentSerialized
+page_title: OnClientAppointmentSerialized - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentSerialized.
 slug: scheduler/client-side-programming/events/onclientappointmentserialized
 tags: onclientappointmentserialized
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadListView for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadListView
+description: Check our Web Forms article about Design Time.
 slug: listview/design-time
 tags: design,time
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Migrating to RadColorPicker for ASP.NET AJAX
-page_title: Migrating to RadColorPicker for ASP.NET AJAX | RadColorPicker for ASP.NET AJAX Documentation
-description: Migrating to RadColorPicker for ASP.NET AJAX
+page_title: Migrating to RadColorPicker - RadColorPicker
+description: Check our Web Forms article about Migrating to RadColorPicker for ASP.NET AJAX.
 slug: colorpicker/changes-and-backwards-compatibility/migrating-to-radcolorpicker-for-asp.net-ajax
 tags: migrating,to,radcolorpicker,for,asp.net,ajax
 published: True

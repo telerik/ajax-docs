@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadTagCloud for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadTagCloud
+description: Check our Web Forms article about Skins.
 slug: tagcloud/appearance-and-styling/skins
 tags: skins
 published: True

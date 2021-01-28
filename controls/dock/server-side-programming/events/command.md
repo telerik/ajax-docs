@@ -1,7 +1,7 @@
 ---
 title: Command
-page_title: Command | RadDock for ASP.NET AJAX Documentation
-description: Command
+page_title: Command - RadDock
+description: Check our Web Forms article about Command.
 slug: dock/server-side-programming/events/command
 tags: command
 published: True

@@ -1,7 +1,7 @@
 ---
 title: updateEditedItems
-page_title: updateEditedItems | RadGrid for ASP.NET AJAX Documentation
-description: updateEditedItems
+page_title: updateEditedItems - RadGrid
+description: Check our Web Forms article about updateEditedItems.
 slug: grid/client-side-programming/gridtableview-object/methods/updateediteditems
 tags: updateediteditems
 published: True

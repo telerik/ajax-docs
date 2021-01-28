@@ -1,7 +1,7 @@
 ---
 title: OnClientGroupPopulated
-page_title: OnClientGroupPopulated | RadOrgChart for ASP.NET AJAX Documentation
-description: OnClientGroupPopulated
+page_title: OnClientGroupPopulated - RadOrgChart
+description: Check our Web Forms article about OnClientGroupPopulated.
 slug: orgchart/client-side-programming/events/onclientgrouppopulated
 tags: onclientgrouppopulated
 published: True

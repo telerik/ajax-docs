@@ -1,7 +1,7 @@
 ---
 title: Installing the Telerik Controls from a NuGet Package
-page_title: Installing the Telerik Controls from a NuGet Package | UI for ASP.NET AJAX Documentation
-description: Installing the Telerik Controls from a NuGet Package
+page_title: Installing the Telerik Controls from a NuGet Package
+description: Check our Web Forms article about Installing the Telerik Controls from a NuGet Package.
 slug: introduction/installation/installing-the-telerik-controls-from-a-nuget-package
 tags: installing,the,telerik,controls,from,nuget,package
 published: True

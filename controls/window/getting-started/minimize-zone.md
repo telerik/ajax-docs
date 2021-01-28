@@ -1,7 +1,7 @@
 ---
 title: Minimize Zone
-page_title: Minimize Zone | RadWindow for ASP.NET AJAX Documentation
-description: Minimize Zone
+page_title: Minimize Zone - RadWindow
+description: Check our Web Forms article about Minimize Zone.
 slug: window/getting-started/minimize-zone
 tags: minimize,zone
 published: True

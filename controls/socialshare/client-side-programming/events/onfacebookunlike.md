@@ -1,7 +1,7 @@
 ---
 title: OnFacebookUnLike
-page_title: OnFacebookUnLike | RadSocialShare for ASP.NET AJAX Documentation
-description: OnFacebookUnLike
+page_title: OnFacebookUnLike - RadSocialShare
+description: Check our Web Forms article about OnFacebookUnLike.
 slug: socialshare/client-side-programming/events/onfacebookunlike
 tags: onfacebookunlike
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadTagCloud for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadTagCloud
+description: Check our Web Forms article about Design Time.
 slug: tagcloud/design-time
 tags: design,time
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Text Tile
-page_title: Text Tile | RadTile for ASP.NET AJAX Documentation
-description: Text Tile
+page_title: Text Tile - RadTile
+description: Check our Web Forms article about Text Tile.
 slug: tilelist/tiles/text-tile
 tags: text,tile
 published: True

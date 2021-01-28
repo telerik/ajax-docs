@@ -1,7 +1,7 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | RadTagCloud for ASP.NET AJAX Documentation
-description: OnClientItemClicked
+page_title: OnClientItemClicked - RadTagCloud
+description: Check our Web Forms article about OnClientItemClicked.
 slug: tagcloud/client-side-programming/events/onclientitemclicked
 tags: onclientitemclicked
 published: True

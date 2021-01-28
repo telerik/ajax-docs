@@ -1,7 +1,7 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | RadTooltip for ASP.NET AJAX Documentation
-description: Right-to-left Support
+page_title: Right-to-left Support - RadTooltip
+description: Check our Web Forms article about Right-to-left Support.
 slug: tooltip/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True

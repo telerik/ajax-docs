@@ -1,7 +1,7 @@
 ---
 title: Which File Do I Need to Install
-page_title: Which File Do I Need to Install | UI for ASP.NET AJAX Documentation
-description: Which File Do I Need to Install?
+page_title: Which File Do I Need to Install
+description: Check our Web Forms article about Which File Do I Need to Install?.
 slug: installation/which-file-do-i-need-to-install
 tags: which,file,install
 published: True

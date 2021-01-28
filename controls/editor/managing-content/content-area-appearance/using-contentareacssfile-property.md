@@ -1,7 +1,7 @@
 ---
 title: Using ContentAreaCssFile Property
-page_title: Using ContentAreaCssFile Property | RadEditor for ASP.NET AJAX Documentation
-description: Using ContentAreaCssFile Property
+page_title: Using ContentAreaCssFile Property - RadEditor
+description: Check our Web Forms article about Using ContentAreaCssFile Property.
 slug: editor/managing-content/content-area-appearance/using-contentareacssfile-property
 tags: content, area, css, file, property, stylization, custom, CSS
 published: True

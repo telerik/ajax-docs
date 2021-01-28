@@ -1,7 +1,7 @@
 ---
 title: Reordering Tasks 
-page_title: Reordering Tasks  | RadGantt for ASP.NET AJAX Documentation
-description: Reordering Tasks 
+page_title: Reordering Tasks - RadGantt
+description: Check our Web Forms article about Reordering Tasks.
 slug: gantt/functionality/reordering-tasks-
 tags: reordering,tasks,
 published: True

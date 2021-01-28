@@ -1,7 +1,7 @@
 ---
 title: Dialogs
-page_title: Mobile Dialogs | RadEditor for ASP.NET AJAX Documentation
-description: Mobile Rendering
+page_title: Mobile Dialogs - RadEditor
+description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/dialogs
 tags: editor,support,mobile,rendering,dialogs
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Track Changes
-page_title: Track Changes | RadEditor for ASP.NET AJAX Documentation
-description: Track Changes
+page_title: Track Changes - RadEditor
+description: Check our Web Forms article about Track Changes.
 slug: editor/functionality/track-changes-and-comments/track-changes
 tags: track,changes
 published: True

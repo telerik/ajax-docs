@@ -1,7 +1,7 @@
 ---
 title: Image Maps
-page_title: Image Maps | RadChart for ASP.NET AJAX Documentation
-description: Image Maps
+page_title: Image Maps - RadChart
+description: Check our Web Forms article about Image Maps.
 slug: chart/advanced-topics/image-maps
 tags: image,maps
 published: True

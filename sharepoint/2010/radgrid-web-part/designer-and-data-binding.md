@@ -1,7 +1,7 @@
 ---
 title: Designer and Data Binding
-page_title: Designer and Data Binding | UI for ASP.NET AJAX Documentation
-description: Designer and Data Binding
+page_title: Designer and Data Binding
+description: Check our Web Forms article about Designer and Data Binding.
 slug: sharepoint/2010/radgrid-web-part/designer-and-data-binding
 tags: designer,and,data,binding
 published: True

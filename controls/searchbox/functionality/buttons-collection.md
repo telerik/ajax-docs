@@ -1,7 +1,7 @@
 ---
 title: Buttons Collection
-page_title: Buttons Collection | RadSearchBox for ASP.NET AJAX Documentation
-description: Buttons Collection
+page_title: Buttons Collection - RadSearchBox
+description: Check our Web Forms article about Buttons Collection.
 slug: searchbox/functionality/buttons-collection
 tags: buttons,collection
 published: True

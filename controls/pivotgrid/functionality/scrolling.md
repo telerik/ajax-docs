@@ -1,7 +1,7 @@
 ---
 title: Scrolling
-page_title: Scrolling | RadPivotGrid for ASP.NET AJAX Documentation
-description: Scrolling
+page_title: Scrolling - RadPivotGrid
+description: Check our Web Forms article about Scrolling.
 slug: pivotgrid/functionality/scrolling
 tags: scrolling
 published: True

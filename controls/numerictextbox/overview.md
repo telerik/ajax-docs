@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadNumericTextBox Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadNumericTextBox Overview
+description: Check our Web Forms article about Overview.
 slug: numerictextbox/overview
 tags: overview
 published: True

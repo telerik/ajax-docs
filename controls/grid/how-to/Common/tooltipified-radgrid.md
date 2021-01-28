@@ -1,7 +1,7 @@
 ---
 title: Tooltipified RadGrid
-page_title: Tooltipified RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Tooltipified RadGrid
+page_title: Tooltipified RadGrid - RadGrid
+description: Check our Web Forms article about Tooltipified RadGrid.
 slug: grid/how-to/common/tooltipified-radgrid
 tags: tooltipified,radgrid
 published: True

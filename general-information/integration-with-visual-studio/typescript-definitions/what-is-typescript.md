@@ -1,7 +1,7 @@
 ---
 title: What is TypeScript
-page_title: What is TypeScript | UI for ASP.NET AJAX Documentation
-description: What is TypeScript
+page_title: What is TypeScript
+description: Check our Web Forms article about What is TypeScript.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/what-is-typescript
 tags: what,is,typescript
 published: True

@@ -1,7 +1,7 @@
 ---
 title: The RadChart User Interface
-page_title: The RadChart User Interface | RadChart for ASP.NET AJAX Documentation
-description: The RadChart User Interface
+page_title: The RadChart User Interface - RadChart
+description: Check our Web Forms article about The RadChart User Interface.
 slug: chart/understanding-radchart-ui/the-radchart-user-interface
 tags: the,radchart,user,interface
 published: True

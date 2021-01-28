@@ -1,7 +1,7 @@
 ---
 title: Print
-page_title: Print | RadGrid for ASP.NET AJAX Documentation
-description: Print
+page_title: Print - RadGrid
+description: Check our Web Forms article about Print.
 slug: grid/functionality/printing/printing
 tags: print
 published: True

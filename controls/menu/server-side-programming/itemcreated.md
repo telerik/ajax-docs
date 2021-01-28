@@ -1,7 +1,7 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | RadMenu for ASP.NET AJAX Documentation
-description: ItemCreated
+page_title: ItemCreated - RadMenu
+description: Check our Web Forms article about ItemCreated.
 slug: menu/server-side-programming/itemcreated
 tags: itemcreated
 published: True

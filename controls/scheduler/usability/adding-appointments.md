@@ -1,7 +1,7 @@
 ---
 title: Adding Appointments
-page_title: Adding Appointments | RadScheduler for ASP.NET AJAX Documentation
-description: Adding Appointments
+page_title: Adding Appointments - RadScheduler
+description: Check our Web Forms article about Adding Appointments.
 slug: scheduler/usability/adding-appointments
 tags: adding,appointments
 published: True

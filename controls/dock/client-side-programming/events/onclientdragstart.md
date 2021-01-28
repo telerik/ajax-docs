@@ -1,7 +1,7 @@
 ---
 title: OnClientDragStart
-page_title: OnClientDragStart | RadDock for ASP.NET AJAX Documentation
-description: OnClientDragStart
+page_title: OnClientDragStart - RadDock
+description: Check our Web Forms article about OnClientDragStart.
 slug: dock/client-side-programming/events/onclientdragstart
 tags: onclientdragstart
 published: True

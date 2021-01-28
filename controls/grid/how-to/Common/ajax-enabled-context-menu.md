@@ -1,7 +1,7 @@
 ---
 title: AJAX-enabled Context Menu
-page_title: AJAX-enabled Context Menu | RadGrid for ASP.NET AJAX Documentation
-description: AJAX-enabled Context Menu
+page_title: AJAX-enabled Context Menu - RadGrid
+description: Check our Web Forms article about AJAX-enabled Context Menu.
 slug: grid/how-to/common/ajax-enabled-context-menu
 tags: ajax-enabled,context,menu
 published: True

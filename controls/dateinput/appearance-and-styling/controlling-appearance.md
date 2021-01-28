@@ -1,7 +1,7 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | RadDateInput for ASP.NET AJAX Documentation
-description: Controlling Appearance
+page_title: Controlling Appearance - RadDateInput
+description: Check our Web Forms article about Controlling Appearance.
 slug: raddateinput/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
 published: True

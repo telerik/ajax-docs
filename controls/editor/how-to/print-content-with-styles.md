@@ -1,7 +1,7 @@
 ---
 title: Print Content with Styles
-page_title: Print Content with Styles | RadEditor for ASP.NET AJAX Documentation
-description: Print Content with Styles
+page_title: Print Content with Styles - RadEditor
+description: Check our Web Forms article about Print Content with Styles.
 slug: editor/how-to/print-content-with-styles
 tags: print,content,with,styles
 published: True

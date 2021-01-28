@@ -1,7 +1,7 @@
 ---
 title: Filter for GridDateTimeColumn
-page_title: Filter for GridDateTimeColumn | RadGrid for ASP.NET AJAX Documentation
-description: Filter for GridDateTimeColumn
+page_title: Filter for GridDateTimeColumn - RadGrid
+description: Check our Web Forms article about Filter for GridDateTimeColumn.
 slug: grid/how-to/filtering/filter-for-griddatetimecolumn
 previous_url: controls/grid/functionality/filtering/how-to/filter-for-griddatetimecolumn
 tags: filter,for,griddatetimecolumn

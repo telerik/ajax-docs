@@ -1,7 +1,7 @@
 ---
 title: Notification Menu
-page_title: Notification Menu | RadNotification for ASP.NET AJAX Documentation
-description: Notification Menu
+page_title: Notification Menu - RadNotification
+description: Check our Web Forms article about Notification Menu.
 slug: notification/functionality/notification-menu
 tags: notification,menu
 published: True

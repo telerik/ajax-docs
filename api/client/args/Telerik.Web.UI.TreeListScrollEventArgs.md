@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TreeListScrollEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TreeListScrollEventArgs
 slug: Telerik.Web.UI.TreeListScrollEventArgs
 ---

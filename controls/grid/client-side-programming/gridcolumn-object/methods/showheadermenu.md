@@ -1,7 +1,7 @@
 ---
 title: showHeaderMenu
-page_title: showHeaderMenu | RadGrid for ASP.NET AJAX Documentation
-description: showHeaderMenu
+page_title: showHeaderMenu - RadGrid
+description: Check our Web Forms article about showHeaderMenu.
 slug: grid/client-side-programming/gridcolumn-object/methods/showheadermenu
 tags: showheadermenu
 published: True

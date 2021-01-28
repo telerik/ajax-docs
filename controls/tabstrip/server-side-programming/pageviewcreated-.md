@@ -1,7 +1,7 @@
 ---
 title: PageViewCreated 
-page_title: PageViewCreated  | RadTabStrip for ASP.NET AJAX Documentation
-description: PageViewCreated 
+page_title: PageViewCreated - RadTabStrip
+description: Check our Web Forms article about PageViewCreated.
 slug: tabstrip/server-side-programming/pageviewcreated-
 tags: pageviewcreated,
 published: True

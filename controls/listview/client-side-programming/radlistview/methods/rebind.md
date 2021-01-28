@@ -1,7 +1,7 @@
 ---
 title: rebind
-page_title: rebind | RadListView for ASP.NET AJAX Documentation
-description: rebind
+page_title: rebind - RadListView
+description: Check our Web Forms article about rebind.
 slug: listview/client-side-programming/radlistview/methods/rebind
 tags: rebind
 published: True

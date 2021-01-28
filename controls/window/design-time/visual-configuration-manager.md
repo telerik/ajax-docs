@@ -1,7 +1,7 @@
 ---
 title: Visual Configuration Manager
-page_title: Visual Configuration Manager | RadWindow for ASP.NET AJAX Documentation
-description: Visual Configuration Manager
+page_title: Visual Configuration Manager - RadWindow
+description: Check our Web Forms article about Visual Configuration Manager.
 slug: window/design-time/visual-configuration-manager
 tags: visual,configuration,manager
 published: True

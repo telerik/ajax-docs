@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridCellSelectEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridCellSelectEventArgs
 slug: Telerik.Web.UI.GridCellSelectEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Insert Select Element
-page_title: Insert Select Element | RadEditor for ASP.NET AJAX Documentation
-description: Insert Select Element
+page_title: Insert Select Element - RadEditor
+description: Check our Web Forms article about Insert Select Element.
 slug: editor/functionality/dialogs/insert-select-element
 tags: insert,select,element
 published: True

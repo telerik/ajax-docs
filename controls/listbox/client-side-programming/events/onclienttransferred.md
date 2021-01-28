@@ -1,7 +1,7 @@
 ---
 title: OnClientTransferred
-page_title: OnClientTransferred | RadListBox for ASP.NET AJAX Documentation
-description: OnClientTransferred
+page_title: OnClientTransferred - RadListBox
+description: Check our Web Forms article about OnClientTransferred.
 slug: listbox/client-side-programming/events/onclienttransferred
 tags: onclienttransferred
 published: True

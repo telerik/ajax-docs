@@ -1,7 +1,7 @@
 ---
 title: OnClientNumericTextBoxValueChanging
-page_title: OnClientNumericTextBoxValueChanging | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientNumericTextBoxValueChanging
+page_title: OnClientNumericTextBoxValueChanging - RadRibbonBar
+description: Check our Web Forms article about OnClientNumericTextBoxValueChanging.
 slug: ribbonbar/client-side-programming/events/onclientnumerictextboxvaluechanging
 tags: onclientnumerictextboxvaluechanging
 published: True

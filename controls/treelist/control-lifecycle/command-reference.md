@@ -1,7 +1,7 @@
 ---
 title: Command Reference
-page_title: Command Reference | RadTreeList for ASP.NET AJAX Documentation
-description: Command Reference
+page_title: Command Reference - RadTreeList
+description: Check our Web Forms article about Command Reference.
 slug: treelist/control-lifecycle/command-reference
 tags: command,reference
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Behavior
-page_title: Behavior | RadSlider for ASP.NET AJAX Documentation
-description: Behavior
+page_title: Behavior - RadSlider
+description: Check our Web Forms article about Behavior.
 slug: slider/getting-started/behavior
 tags: behavior
 published: True

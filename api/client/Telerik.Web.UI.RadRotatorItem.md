@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadRotatorItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadRotatorItem
 slug: Telerik.Web.UI.RadRotatorItem
 ---

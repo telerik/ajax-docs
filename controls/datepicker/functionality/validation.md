@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadDatePicker for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadDatePicker
+description: Check our Web Forms article about Validation.
 slug: datepicker/functionality/validation
 tags: web,pages,validation
 published: True

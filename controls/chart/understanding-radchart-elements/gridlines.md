@@ -1,7 +1,7 @@
 ---
 title: Gridlines
-page_title: Gridlines | RadChart for ASP.NET AJAX Documentation
-description: Gridlines
+page_title: Gridlines - RadChart
+description: Check our Web Forms article about Gridlines.
 slug: chart/understanding-radchart-elements/gridlines
 tags: gridlines
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientResize
-page_title: OnClientResize | RadWindow for ASP.NET AJAX Documentation
-description: OnClientResize
+page_title: OnClientResize - RadWindow
+description: Check our Web Forms article about OnClientResize.
 slug: window/client-side-programming/events/onclientresize
 tags: onclientresize
 published: True

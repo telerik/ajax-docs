@@ -1,7 +1,7 @@
 ---
 title: Using the RadEditor WebPart
-page_title: Using the RadEditor WebPart | UI for ASP.NET AJAX Documentation
-description: Using the RadEditor WebPart
+page_title: Using the RadEditor WebPart
+description: Check our Web Forms article about Using the RadEditor WebPart.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-the-radeditor-webpart
 tags: using,the,radeditor,webpart
 published: True

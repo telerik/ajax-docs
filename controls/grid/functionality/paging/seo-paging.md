@@ -1,7 +1,7 @@
 ---
 title: SEO Paging
-page_title: SEO Paging | RadGrid for ASP.NET AJAX Documentation
-description: SEO Paging
+page_title: SEO Paging - RadGrid
+description: Check our Web Forms article about SEO Paging.
 slug: grid/functionality/paging/seo-paging
 tags: seo,paging
 published: True

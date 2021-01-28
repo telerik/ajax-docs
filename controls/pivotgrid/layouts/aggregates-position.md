@@ -1,7 +1,7 @@
 ---
 title: Aggregates Position
-page_title: Aggregates Position | RadPivotGrid for ASP.NET AJAX Documentation
-description: Aggregates Position
+page_title: Aggregates Position - RadPivotGrid
+description: Check our Web Forms article about Aggregates Position.
 slug: pivotgrid/layouts/aggregates-position
 tags: aggregates,position
 published: True

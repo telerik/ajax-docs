@@ -1,7 +1,7 @@
 ---
 title: OnCellDeselecting
-page_title: OnCellDeselecting | RadGrid for ASP.NET AJAX Documentation
-description: OnCellDeselecting
+page_title: OnCellDeselecting - RadGrid
+description: Check our Web Forms article about OnCellDeselecting.
 slug: grid/client-side-programming/events/oncelldeselecting
 tags: oncelldeselecting
 published: True

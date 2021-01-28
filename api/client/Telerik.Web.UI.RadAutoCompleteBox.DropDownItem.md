@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAutoCompleteBox.DropDownItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAutoCompleteBox.DropDownItem
 slug: Telerik.Web.UI.RadAutoCompleteBox.DropDownItem
 ---

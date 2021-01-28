@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadTreeView
+description: Check our Web Forms article about OnClientLoad.
 slug: treeview/client-side-programming/events/onclientload
 tags: onclientload
 published: True

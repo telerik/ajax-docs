@@ -2,7 +2,7 @@
 title: Save and Restore RadGrid filters in the code behind
 description: Solution to Save and Restore Filters in the code behind for all filter types of RadGrid.
 type: how-to
-page_title: Save and Restore Filters programmatically - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: Save and Restore Filters programmatically - RadGrid
 slug: grid-save-and-restore-filters-programmatically
 position:
 tags: grid, radgrid, filter, excel-like filter, headercontext, filtermenu, checklist filtering, basic, classic

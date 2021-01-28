@@ -1,7 +1,7 @@
 ---
 title: Stacked Area Charts
-page_title: Stacked Area Charts | RadChart for ASP.NET AJAX Documentation
-description: Stacked Area Charts
+page_title: Stacked Area Charts - RadChart
+description: Check our Web Forms article about Stacked Area Charts.
 slug: chart/understanding-radchart-types/stacked-area-charts
 tags: stacked,area,charts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadImageEditor for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadImageEditor
+description: Check our Web Forms article about Elastic Design.
 slug: imageeditor/mobile-support/elastic-design
 tags: elastic,design,image editor
 published: True

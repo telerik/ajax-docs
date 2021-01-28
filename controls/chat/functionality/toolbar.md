@@ -1,7 +1,7 @@
 ---
 title: Toolbar
-page_title: Toolbar | RadChat for ASP.NET AJAX Documentation
-description: Toolbar 
+page_title: Toolbar - RadChat
+description: Check our Web Forms article about Toolbar.
 slug: chat/functionality/toolbar
 tags: toolbar, buttons
 published: True

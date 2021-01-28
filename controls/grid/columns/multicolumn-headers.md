@@ -1,7 +1,7 @@
 ---
 title: Multicolumn Headers
-page_title: Multicolumn Headers | RadGrid for ASP.NET AJAX Documentation
-description: Multicolumn Headers
+page_title: Multicolumn Headers - RadGrid
+description: Check our Web Forms article about Multicolumn Headers.
 slug: grid/columns/multicolumn-headers
 tags: multicolumn,headers
 published: True

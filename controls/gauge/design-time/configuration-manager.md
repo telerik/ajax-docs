@@ -1,7 +1,7 @@
 ---
 title: Configuration Manager
-page_title: Configuration Manager | RadGauge for ASP.NET AJAX Documentation
-description: Configuration Manager
+page_title: Configuration Manager - RadGauge
+description: Check our Web Forms article about Configuration Manager.
 slug: gauge/design-time/configuration-manager
 tags: configuration,manager
 published: True

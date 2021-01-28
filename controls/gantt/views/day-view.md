@@ -1,7 +1,7 @@
 ---
 title: Day View
-page_title: Day View | RadGantt for ASP.NET AJAX Documentation
-description: Day View
+page_title: Day View - RadGantt
+description: Check our Web Forms article about Day View.
 slug: gantt/views/day-view
 tags: day,view
 published: True

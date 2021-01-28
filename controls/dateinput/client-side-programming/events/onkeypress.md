@@ -1,7 +1,7 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadDateInput for ASP.NET AJAX Documentation
-description: OnKeyPress
+page_title: OnKeyPress - RadDateInput
+description: Check our Web Forms article about OnKeyPress.
 slug: raddateinput/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True

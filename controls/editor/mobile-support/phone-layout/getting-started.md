@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Phone Layout Getting Started | RadEditor for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Phone Layout Getting Started - RadEditor
+description: Check our Web Forms article about Getting Started.
 slug: editor/mobile-support/phone-layout/getting-started
 tags: editor,support,mobile,rendering,overview, getting, started
 published: True

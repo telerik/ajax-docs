@@ -1,7 +1,7 @@
 ---
 title: ImageExported
-page_title: ImageExported | RadClientExportManager for ASP.NET AJAX Documentation
-description: ImageExported
+page_title: ImageExported - RadClientExportManager
+description: Check our Web Forms article about ImageExported.
 slug: clientexportmanager/client-side-programming/events/imageexported
 tags: imageexported
 published: True

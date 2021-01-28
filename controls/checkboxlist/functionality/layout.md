@@ -1,7 +1,7 @@
 ---
 title: Layout
-page_title: Layout | RadCheckBoxList for ASP.NET AJAX Documentation
-description: Layout
+page_title: Layout - RadCheckBoxList
+description: Check our Web Forms article about Layout.
 slug: checkboxlist/functionality/layout
 tags: layout
 published: True

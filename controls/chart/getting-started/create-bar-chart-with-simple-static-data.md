@@ -1,7 +1,7 @@
 ---
 title: Create a Bar Chart with Simple Static Data
-page_title: Create a Bar Chart with Simple Static Data | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Create a Bar Chart with Simple Static Data
+description: Check our Web Forms article about Overview.
 slug: chart/getting-started/create-bar-chart-with-simple-static-data
 tags: Create, static, Chart, getting started
 published: True

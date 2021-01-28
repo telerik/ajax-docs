@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs
 slug: Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs
 ---

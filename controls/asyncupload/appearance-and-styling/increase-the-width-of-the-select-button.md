@@ -1,7 +1,7 @@
 ---
 title: Increase the Width of the Select Button
-page_title: Increase the Width of the Select Button | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Increase the Width of the Select Button
+page_title: Increase the Width of the Select Button - RadAsyncUpload
+description: Check our Web Forms article about Increase the Width of the Select Button.
 slug: asyncupload/appearance-and-styling/increase-the-width-of-the-select-button
 tags: increase,the,width,of,the,select,button
 published: True

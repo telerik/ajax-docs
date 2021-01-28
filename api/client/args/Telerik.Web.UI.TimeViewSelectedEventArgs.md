@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TimeViewSelectedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TimeViewSelectedEventArgs
 slug: Telerik.Web.UI.TimeViewSelectedEventArgs
 ---

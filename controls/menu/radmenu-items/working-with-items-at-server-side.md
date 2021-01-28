@@ -1,7 +1,7 @@
 ---
 title: Working With Items at Server-side
-page_title: Working With Items at Server-side | RadMenu for ASP.NET AJAX Documentation
-description: Working With Items at Server-side
+page_title: Working With Items at Server-side - RadMenu
+description: Check our Web Forms article about Working With Items at Server-side.
 slug: menu/radmenu-items/working-with-items-at-server-side
 tags: working,with,items,at,server-side
 published: True

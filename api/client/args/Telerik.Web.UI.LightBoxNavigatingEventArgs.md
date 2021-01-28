@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.LightBoxNavigatingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.LightBoxNavigatingEventArgs
 slug: Telerik.Web.UI.LightBoxNavigatingEventArgs
 ---

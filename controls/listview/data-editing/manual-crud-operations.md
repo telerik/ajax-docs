@@ -1,7 +1,7 @@
 ---
 title: Manual CRUD Operations
-page_title: Manual CRUD Operations | RadListView for ASP.NET AJAX Documentation
-description: Manual CRUD Operations
+page_title: Manual CRUD Operations - RadListView
+description: Check our Web Forms article about Manual CRUD Operations.
 slug: listview/data-editing/manual-crud-operations
 tags: manual,crud,operations
 published: True

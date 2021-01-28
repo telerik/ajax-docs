@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.UploadedFileState
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.UploadedFileState
 slug: Telerik.Web.UI.UploadedFileState
 ---

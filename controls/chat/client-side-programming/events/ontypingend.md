@@ -1,7 +1,7 @@
 ---
 title: OnTypingEnd
-page_title: OnTypingEnd | RadChat for ASP.NET AJAX Documentation
-description: OnTypingEnd
+page_title: OnTypingEnd - RadChat
+description: Check our Web Forms article about OnTypingEnd.
 slug: chat/client-side-programming/events/ontypingend
 tags: ontypingend
 published: True

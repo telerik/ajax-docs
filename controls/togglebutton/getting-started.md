@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadToggleButton for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadToggleButton
+description: Check our Web Forms article about Getting Started.
 slug: togglebutton/getting-started
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Custom ToolStrip
-page_title: Custom ToolStrip | RadEditor for ASP.NET AJAX Documentation
-description: Custom ToolStrip
+page_title: Custom ToolStrip - RadEditor
+description: Check our Web Forms article about Custom ToolStrip.
 slug: editor/functionality/toolbars/dropdowns/custom-toolstrip
 tags: custom,toolstrip
 published: True

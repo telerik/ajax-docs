@@ -1,7 +1,7 @@
 ---
 title: TabDataBound
-page_title: TabDataBound | RadTabStrip for ASP.NET AJAX Documentation
-description: TabDataBound
+page_title: TabDataBound - RadTabStrip
+description: Check our Web Forms article about TabDataBound.
 slug: tabstrip/server-side-programming/tabdatabound
 tags: tabdatabound
 published: True

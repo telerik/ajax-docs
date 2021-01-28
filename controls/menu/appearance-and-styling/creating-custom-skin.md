@@ -1,7 +1,7 @@
 ---
 title: Creating Custom Skin
-page_title: Creating Custom Skin | RadMenu for ASP.NET AJAX Documentation
-description: Creating Custom Skin
+page_title: Creating Custom Skin - RadMenu
+description: Check our Web Forms article about Creating Custom Skin.
 slug: menu/appearance-and-styling/creating-custom-skin
 tags: css,skin,file,selectors
 published: True

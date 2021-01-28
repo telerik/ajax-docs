@@ -1,7 +1,7 @@
 ---
 title: Use RadComboBox with OutputCache
-page_title: Use RadComboBox with OutputCache | RadComboBox for ASP.NET AJAX Documentation
-description: Use RadComboBox with OutputCache
+page_title: Use RadComboBox with OutputCache - RadComboBox
+description: Check our Web Forms article about Use RadComboBox with OutputCache.
 slug: combobox/how-to/use-radcombobox-with-outputcache
 tags: use,radcombobox,with,outputcache
 published: True

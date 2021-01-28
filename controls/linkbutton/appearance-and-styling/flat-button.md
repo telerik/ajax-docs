@@ -1,7 +1,7 @@
 ---
 title: Flat Button
-page_title: Flat Button | RadLinkButton for ASP.NET AJAX Documentation
-description: Flat Button
+page_title: Flat Button - RadLinkButton
+description: Check our Web Forms article about Flat Button.
 slug: linkbutton/appearance-and-styling/flat-button
 tags: material, skin, flat, button
 published: True

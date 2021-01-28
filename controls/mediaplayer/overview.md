@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadMediaPlayer Overview | UI for ASP.NET AJAX Documentation
-description: Telerik ASP.NET Video and Audio Player Overview
+page_title: RadMediaPlayer Overview
+description: Check our Web Forms article about Telerik ASP.NET Video and Audio Player Overview.
 slug: mediaplayer/overview
 tags: overview
 published: True

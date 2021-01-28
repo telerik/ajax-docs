@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadColorPicker for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadColorPicker
+description: Check our Web Forms article about OnClientLoad.
 slug: colorpicker/client-side-programming/events/onclientload
 tags: onclientload
 published: True

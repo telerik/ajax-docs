@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.EditableCanvas
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.EditableCanvas
 slug: Telerik.Web.UI.ImageEditor.EditableCanvas
 ---

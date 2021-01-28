@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListViewItemDroppedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListViewItemDroppedEventArgs
 slug: Telerik.Web.UI.ListViewItemDroppedEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: RadAsyncUpload vs RadUpload
-page_title: RadAsyncUpload vs RadUpload | RadAsyncUpload for ASP.NET AJAX Documentation
-description: RadAsyncUpload vs RadUpload
+page_title: RadAsyncUpload vs RadUpload - RadAsyncUpload
+description: Check our Web Forms article about RadAsyncUpload vs RadUpload.
 slug: asyncupload/radasyncupload-vs-radupload
 tags: radasyncupload,vs,radupload
 published: True

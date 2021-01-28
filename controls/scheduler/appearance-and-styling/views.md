@@ -1,7 +1,7 @@
 ---
 title: Views
-page_title: Views | RadScheduler for ASP.NET AJAX Documentation
-description: Views
+page_title: Views - RadScheduler
+description: Check our Web Forms article about Views.
 slug: scheduler/appearance-and-styling/views
 tags: views
 published: False

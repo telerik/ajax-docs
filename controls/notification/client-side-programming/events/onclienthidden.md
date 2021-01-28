@@ -1,7 +1,7 @@
 ---
 title: OnClientHidden
-page_title: OnClientHidden | RadNotification for ASP.NET AJAX Documentation
-description: OnClientHidden
+page_title: OnClientHidden - RadNotification
+description: Check our Web Forms article about OnClientHidden.
 slug: notification/client-side-programming/events/onclienthidden
 tags: onclienthidden
 published: True

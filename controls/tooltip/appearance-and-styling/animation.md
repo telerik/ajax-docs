@@ -1,7 +1,7 @@
 ---
 title: Animation
-page_title: Animation | RadTooltip for ASP.NET AJAX Documentation
-description: Animation
+page_title: Animation - RadTooltip
+description: Check our Web Forms article about Animation.
 slug: tooltip/appearance-and-styling/animation
 tags: animation
 published: True

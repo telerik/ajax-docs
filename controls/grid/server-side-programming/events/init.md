@@ -1,7 +1,7 @@
 ---
 title: Init
-page_title: Init Event - RadGrid | UI for ASP.NET AJAX
-description: Init Event
+page_title: Init Event - RadGrid
+description: Check our Web Forms article about Init Event.
 slug: grid/server-side-programming/events/init
 published: True
 position: 50

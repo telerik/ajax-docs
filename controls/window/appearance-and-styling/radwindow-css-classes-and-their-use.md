@@ -1,7 +1,7 @@
 ---
 title: RadWindow CSS Classes and Their Use
-page_title: RadWindow CSS Classes and Their Use | RadWindow for ASP.NET AJAX Documentation
-description: RadWindow CSS Classes and Their Use
+page_title: RadWindow CSS Classes and Their Use - RadWindow
+description: Check our Web Forms article about RadWindow CSS Classes and Their Use.
 slug: window/appearance-and-styling/radwindow-css-classes-and-their-use
 tags: radwindow,css,classes,and,their,use
 published: True

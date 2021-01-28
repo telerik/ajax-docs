@@ -1,7 +1,7 @@
 ---
 title: Export to DOCX and RTF
-page_title: Export to DOCX and RTF | RadEditor for ASP.NET AJAX Documentation
-description: Export to DOCX and RTF
+page_title: Export to DOCX and RTF - RadEditor
+description: Check our Web Forms article about Export to DOCX and RTF.
 slug: editor/functionality/import-and-export/export-to-docx-and-rtf
 tags: export,to,docx,and,rtf
 published: True

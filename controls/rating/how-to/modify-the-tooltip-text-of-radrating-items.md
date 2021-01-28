@@ -1,7 +1,7 @@
 ---
 title: Modify the Tooltip Text of RadRating Items
-page_title: Modify the Tooltip Text of RadRating Items | RadRating for ASP.NET AJAX Documentation
-description: Modify the Tooltip Text of RadRating Items
+page_title: Modify the Tooltip Text of RadRating Items - RadRating
+description: Check our Web Forms article about Modify the Tooltip Text of RadRating Items.
 slug: rating/how-to/modify-the-tooltip-text-of-radrating-items
 tags: modify,the,tooltip,text,of,radrating,items
 published: True

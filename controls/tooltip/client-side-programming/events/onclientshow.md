@@ -1,7 +1,7 @@
 ---
 title: OnClientShow
-page_title: OnClientShow | RadTooltip for ASP.NET AJAX Documentation
-description: OnClientShow
+page_title: OnClientShow - RadTooltip
+description: Check our Web Forms article about OnClientShow.
 slug: tooltip/client-side-programming/events/onclientshow
 tags: onclientshow
 published: True

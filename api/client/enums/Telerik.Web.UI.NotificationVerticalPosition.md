@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.NotificationVerticalPosition
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.NotificationVerticalPosition
 slug: Telerik.Web.UI.NotificationVerticalPosition
 ---

@@ -1,7 +1,7 @@
 ---
 title: How to Place the Submit Button Inside the Upload Container
-page_title: How to Place the Submit Button Inside the Upload Container | RadUpload for ASP.NET AJAX Documentation
-description: How to Place the Submit Button Inside the Upload Container
+page_title: How to Place the Submit Button Inside the Upload Container - RadUpload
+description: Check our Web Forms article about How to Place the Submit Button Inside the Upload Container.
 slug: upload/how-to/how-to-place-the-submit-button-inside-the-upload-container
 tags: how,to,place,the,submit,button,inside,the,upload,container
 published: True

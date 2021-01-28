@@ -1,7 +1,7 @@
 ---
 title: Frozen Columns
-page_title: Frozen Columns | RadGrid for ASP.NET AJAX Documentation
-description: Frozen Columns
+page_title: Frozen Columns - RadGrid
+description: Check our Web Forms article about Frozen Columns.
 slug: grid/functionality/scrolling/frozen-columns
 tags: frozen,columns
 published: True

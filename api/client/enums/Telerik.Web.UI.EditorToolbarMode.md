@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorToolbarMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorToolbarMode
 slug: Telerik.Web.UI.EditorToolbarMode
 ---

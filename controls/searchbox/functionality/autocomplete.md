@@ -1,7 +1,7 @@
 ---
 title: AutoComplete
-page_title: AutoComplete | RadSearchBox for ASP.NET AJAX Documentation
-description: AutoComplete
+page_title: AutoComplete - RadSearchBox
+description: Check our Web Forms article about AutoComplete.
 slug: searchbox/functionality/autocomplete
 tags: autocomplete
 published: True

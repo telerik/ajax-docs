@@ -1,7 +1,7 @@
 ---
 title: OnClientInitialize
-page_title: OnClientInitialize | RadDock for ASP.NET AJAX Documentation
-description: OnClientInitialize
+page_title: OnClientInitialize - RadDock
+description: Check our Web Forms article about OnClientInitialize.
 slug: dock/client-side-programming/events/onclientinitialize
 tags: onclientinitialize
 published: True

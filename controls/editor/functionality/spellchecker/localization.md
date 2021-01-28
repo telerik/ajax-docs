@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadEditor for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadEditor
+description: Check our Web Forms article about Localization.
 slug: editor/functionality/spellchecker/localization
 tags: localization
 published: True

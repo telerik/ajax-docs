@@ -1,7 +1,7 @@
 ---
 title: Server-Side
-page_title: Server-Side Data Binding | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Server data binding overview of RadMultiColumnComboBox
+page_title: Server-Side Data Binding - RadMultiColumnComboBox
+description: Check our Web Forms article about Server data binding overview of RadMultiColumnComboBox.
 slug: multicolumncombobox/data-binding/server-side
 tags: data,binding,overview,server,side,list,object,data,table,sqldatasource,declarative
 published: True

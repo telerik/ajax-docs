@@ -1,7 +1,7 @@
 ---
 title: OnClientReordering
-page_title: OnClientReordering | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientReordering
+page_title: OnClientReordering - RadTabStrip
+description: Check our Web Forms article about OnClientReordering.
 slug: tabstrip/client-side-programming/onclientreordering
 tags: onclientreordering
 published: True

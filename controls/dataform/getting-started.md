@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadDataForm for ASP.NET AJAX
-description: Getting Started
+page_title: Getting Started - RadDataForm
+description: Check our Web Forms article about Getting Started.
 slug: dataform/getting-started
 tags: getting,started
 published: True

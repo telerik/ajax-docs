@@ -1,7 +1,7 @@
 ---
 title: Images
-page_title: Images | RadTimeline for ASP.NET AJAX Documentation
-description: Images
+page_title: Images - RadTimeline
+description: Check our Web Forms article about Images.
 slug: timeline/functionality/images
 tags: images,client,server
 published: True

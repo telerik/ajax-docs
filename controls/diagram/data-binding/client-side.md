@@ -1,7 +1,7 @@
 ---
 title: Client-side
-page_title: Client-side | RadDiagram for ASP.NET AJAX Documentation
-description: Client-side
+page_title: Client-side - RadDiagram
+description: Check our Web Forms article about Client-side.
 slug: diagram/data-binding/client-side
 tags: client-side
 published: True

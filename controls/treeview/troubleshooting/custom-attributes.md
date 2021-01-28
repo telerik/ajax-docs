@@ -1,7 +1,7 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | RadTreeView for ASP.NET AJAX Documentation
-description: Custom Attributes
+page_title: Custom Attributes - RadTreeView
+description: Check our Web Forms article about Custom Attributes.
 slug: treeview/troubleshooting/custom-attributes
 tags: custom,attributes
 published: True

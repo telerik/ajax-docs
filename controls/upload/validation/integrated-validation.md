@@ -1,7 +1,7 @@
 ---
 title: Integrated Validation
-page_title: Integrated Validation | RadUpload for ASP.NET AJAX Documentation
-description: Integrated Validation
+page_title: Integrated Validation - RadUpload
+description: Check our Web Forms article about Integrated Validation.
 slug: upload/validation/integrated-validation
 tags: integrated,validation
 published: True

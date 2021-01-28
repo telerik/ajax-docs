@@ -1,7 +1,7 @@
 ---
 title: Multiline Labels
-page_title: Multiline Labels | RadHtmlChart for ASP.NET AJAX Documentation
-description: Multiline Labels
+page_title: Multiline Labels - RadHtmlChart
+description: Check our Web Forms article about Multiline Labels.
 slug: htmlchart/functionality/multiline-labels
 tags: multiline,labels
 published: True

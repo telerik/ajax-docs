@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadClientDataSource for ASP.NET AJAX
-description: Overview
+page_title: Client-side Programming Overview - RadClientDataSource
+description: Check our Web Forms article about Overview.
 slug: clientdatasource/client-side-programming/overview
 tags: overview
 published: True

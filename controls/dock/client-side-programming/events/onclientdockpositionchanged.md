@@ -1,7 +1,7 @@
 ---
 title: OnClientDockPositionChanged
-page_title: OnClientDockPositionChanged | RadDock for ASP.NET AJAX Documentation
-description: OnClientDockPositionChanged
+page_title: OnClientDockPositionChanged - RadDock
+description: Check our Web Forms article about OnClientDockPositionChanged.
 slug: dock/client-side-programming/events/onclientdockpositionchanged
 tags: onclientdockpositionchanged
 published: True

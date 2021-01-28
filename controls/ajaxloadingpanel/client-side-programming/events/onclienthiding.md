@@ -1,7 +1,7 @@
 ---
 title: OnClientHiding
-page_title: OnClientHiding | RadAjaxLoadingPanel for ASP.NET AJAX Documentation
-description: OnClientHiding
+page_title: OnClientHiding - RadAjaxLoadingPanel
+description: Check our Web Forms article about OnClientHiding.
 slug: ajaxloadingpanel/client-side-programming/events/onclienthiding
 previous_url: ajax/client-side-programming/events/onclienthiding
 tags: onclienthiding

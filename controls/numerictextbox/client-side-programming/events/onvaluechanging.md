@@ -1,7 +1,7 @@
 ---
 title: OnValueChanging
-page_title: OnValueChanging | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnValueChanging
+page_title: OnValueChanging - RadNumericTextBox
+description: Check our Web Forms article about OnValueChanging.
 slug: numerictextbox/client-side-programming/events/onvaluechanging
 tags: onvaluechanging
 published: True

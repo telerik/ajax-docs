@@ -1,7 +1,7 @@
 ---
 title: Getting Started 
-page_title: Getting Started  | RadPdfViewer for ASP.NET AJAX Documentation
-description: Getting Started 
+page_title: Getting Started - RadPdfViewer
+description: Check our Web Forms article about Getting Started.
 slug: pdfviewer/getting-started
 tags: getting,started,
 published: True

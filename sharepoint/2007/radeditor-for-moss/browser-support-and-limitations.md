@@ -1,7 +1,7 @@
 ---
 title: Browser support and limitations
-page_title: Browser support and limitations | UI for ASP.NET AJAX Documentation
-description: Browser support and limitations
+page_title: Browser support and limitations
+description: Check our Web Forms article about Browser support and limitations.
 slug: sharepoint/2007/radeditor-for-moss/browser-support-and-limitations
 tags: browser,support,and,limitations
 published: True

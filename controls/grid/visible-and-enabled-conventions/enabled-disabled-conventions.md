@@ -1,7 +1,7 @@
 ---
 title: Enabled Disabled Conventions
-page_title: Enabled Disabled Conventions | RadGrid for ASP.NET AJAX Documentation
-description: Enabled Disabled Conventions
+page_title: Enabled Disabled Conventions - RadGrid
+description: Check our Web Forms article about Enabled Disabled Conventions.
 slug: grid/visible/enabled-conventions/enabled-disabled-conventions
 tags: enabled,disabled,conventions
 published: True

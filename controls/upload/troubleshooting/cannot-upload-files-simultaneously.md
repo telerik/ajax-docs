@@ -1,7 +1,7 @@
 ---
 title: Cannot Upload Files Simultaneously
-page_title: Cannot Upload Files Simultaneously | RadUpload for ASP.NET AJAX Documentation
-description: Cannot Upload Files Simultaneously
+page_title: Cannot Upload Files Simultaneously - RadUpload
+description: Check our Web Forms article about Cannot Upload Files Simultaneously.
 slug: upload/troubleshooting/cannot-upload-files-simultaneously
 tags: cannot,upload,files,simultaneously
 published: True

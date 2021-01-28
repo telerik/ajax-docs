@@ -1,7 +1,7 @@
 ---
 title: Localizing RadUpload
-page_title: Localizing RadUpload | RadUpload for ASP.NET AJAX Documentation
-description: Localizing RadUpload
+page_title: Localizing RadUpload - RadUpload
+description: Check our Web Forms article about Localizing RadUpload.
 slug: upload/localization/localizing-radupload
 tags: localizing,radupload
 published: True

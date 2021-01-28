@@ -1,7 +1,7 @@
 ---
 title: On the Server
-page_title: On the Server | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: On the Server
+page_title: On the Server - RadAutoCompleteBox
+description: Check our Web Forms article about On the Server.
 slug: autocompletebox/working-with-entries/on-the-server
 tags: on,the,server
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Changing the Text of Tree Nodes
-page_title: Changing the Text of Tree Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Changing the Text of Tree Nodes
+page_title: Changing the Text of Tree Nodes - RadTreeView
+description: Check our Web Forms article about Changing the Text of Tree Nodes.
 slug: treeview/application-scenarios/client-side-programming/changing-the-text-of-tree-nodes
 tags: changing,the,text,of,tree,nodes
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientResponseEnded
-page_title: OnClientResponseEnded | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: OnClientResponseEnded
+page_title: OnClientResponseEnded - RadXmlHttpPanel
+description: Check our Web Forms article about OnClientResponseEnded.
 slug: xmlhttppanel/client-side-programming/events/onclientresponseended
 tags: onclientresponseended
 published: True

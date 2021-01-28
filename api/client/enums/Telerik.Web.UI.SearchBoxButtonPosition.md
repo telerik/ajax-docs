@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SearchBoxButtonPosition
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SearchBoxButtonPosition
 slug: Telerik.Web.UI.SearchBoxButtonPosition
 ---

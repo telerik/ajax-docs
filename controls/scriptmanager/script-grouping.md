@@ -1,7 +1,7 @@
 ---
 title: Script Grouping
-page_title: Script Grouping | RadScriptManager for ASP.NET AJAX Documentation
-description: Script Grouping
+page_title: Script Grouping - RadScriptManager
+description: Check our Web Forms article about Script Grouping.
 slug: scriptmanager/script-grouping
 tags: script,grouping
 published: True

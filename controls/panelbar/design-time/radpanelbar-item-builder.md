@@ -1,7 +1,7 @@
 ---
 title: RadPanelBar Item Builder
-page_title: RadPanelBar Item Builder | RadPanelBar for ASP.NET AJAX Documentation
-description: RadPanelBar Item Builder
+page_title: RadPanelBar Item Builder - RadPanelBar
+description: Check our Web Forms article about RadPanelBar Item Builder.
 slug: panelbar/design-time/radpanelbar-item-builder
 tags: radpanelbar,item,builder
 published: True

@@ -1,7 +1,7 @@
 ---
 title: showDialog
-page_title: showDialog | RadEditor for ASP.NET AJAX Documentation
-description: showDialog
+page_title: showDialog - RadEditor
+description: Check our Web Forms article about showDialog.
 slug: editor/client-side-programming/methods/showdialog
 tags: showdialog
 published: True

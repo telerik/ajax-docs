@@ -1,7 +1,7 @@
 ---
 title: Navigation Controls Settings
-page_title: Navigation Controls Settings | RadCalendar for ASP.NET AJAX Documentation
-description: Navigation Controls Settings
+page_title: Navigation Controls Settings - RadCalendar
+description: Check our Web Forms article about Navigation Controls Settings.
 slug: calendar/functionality/navigation-controls-settings
 tags: navigation,controls,settings
 published: True

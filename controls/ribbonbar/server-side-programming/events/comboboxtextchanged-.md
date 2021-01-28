@@ -1,7 +1,7 @@
 ---
 title: ComboBoxTextChanged 
-page_title: ComboBoxTextChanged  | RadRibbonBar for ASP.NET AJAX Documentation
-description: ComboBoxTextChanged 
+page_title: ComboBoxTextChanged - RadRibbonBar
+description: Check our Web Forms article about ComboBoxTextChanged.
 slug: ribbonbar/server-side-programming/events/comboboxtextchanged-
 tags: comboboxtextchanged,
 published: True

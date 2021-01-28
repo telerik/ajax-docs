@@ -1,7 +1,7 @@
 ---
 title: Export Infrastructure
-page_title: Export Infrastructure | UI for ASP.NET AJAX Documentation
-description: Export Infrastructure
+page_title: Export Infrastructure
+description: Check our Web Forms article about Export Infrastructure.
 slug: controls/export-infrastructure
 tags: export,infrastructure
 published: True

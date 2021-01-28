@@ -1,7 +1,7 @@
 ---
 title: Axes
-page_title: Axes | RadChart for ASP.NET AJAX Documentation
-description: Axes
+page_title: Axes - RadChart
+description: Check our Web Forms article about Axes.
 slug: chart/understanding-radchart-elements/axes
 tags: axes
 published: True

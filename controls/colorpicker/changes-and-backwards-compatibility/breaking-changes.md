@@ -1,7 +1,7 @@
 ---
 title: Breaking Changes
-page_title: Breaking Changes | RadColorPicker for ASP.NET AJAX Documentation
-description: Breaking Changes
+page_title: Breaking Changes - RadColorPicker
+description: Check our Web Forms article about Breaking Changes.
 slug: colorpicker/changes-and-backwards-compatibility/breaking-changes
 tags: breaking,changes
 published: True

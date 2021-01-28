@@ -1,7 +1,7 @@
 ---
 title: Two-way Declarative Binding
-page_title: Two-way Declarative Binding | RadGrid for ASP.NET AJAX Documentation
-description: Two-way Declarative Binding
+page_title: Two-way Declarative Binding - RadGrid
+description: Check our Web Forms article about Two-way Declarative Binding.
 slug: grid/data-editing/two-way-declarative-binding
 tags: two-way,declarative,binding
 published: True

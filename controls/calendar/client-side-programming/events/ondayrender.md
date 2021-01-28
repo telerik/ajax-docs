@@ -1,7 +1,7 @@
 ---
 title: OnDayRender
-page_title: OnDayRender | RadCalendar for ASP.NET AJAX Documentation
-description: OnDayRender
+page_title: OnDayRender - RadCalendar
+description: Check our Web Forms article about OnDayRender.
 slug: calendar/client-side-programming/events/ondayrender
 tags: ondayrender
 published: True

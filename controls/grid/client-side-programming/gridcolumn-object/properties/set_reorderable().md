@@ -1,7 +1,7 @@
 ---
 title: set_reorderable()
-page_title: set_reorderable() | RadGrid for ASP.NET AJAX Documentation
-description: set_reorderable()
+page_title: set_reorderable() - RadGrid
+description: Check our Web Forms article about set_reorderable().
 slug: grid/client-side-programming/gridcolumn-object/properties/set_reorderable()
 tags: set_reorderable()
 published: True

@@ -1,7 +1,7 @@
 ---
 title: GanttDependencyCollection Object
-page_title: GanttDependencyCollection Object | RadGantt for ASP.NET AJAX Documentation
-description: GanttDependencyCollection Object
+page_title: GanttDependencyCollection Object - RadGantt
+description: Check our Web Forms article about GanttDependencyCollection Object.
 slug: gantt/client-side-programming/objects/ganttdependencycollection-object
 tags: ganttdependencycollection,object
 published: True

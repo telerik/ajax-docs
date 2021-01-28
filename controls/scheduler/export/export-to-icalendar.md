@@ -1,7 +1,7 @@
 ---
 title: Export to ICalendar
-page_title: Export to ICalendar | RadScheduler for ASP.NET AJAX Documentation
-description: Export to ICalendar
+page_title: Export to ICalendar - RadScheduler
+description: Check our Web Forms article about Export to ICalendar.
 slug: scheduler/export/export-to-icalendar
 tags: export,to,icalendar
 published: True

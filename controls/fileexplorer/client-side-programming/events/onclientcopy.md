@@ -1,7 +1,7 @@
 ---
 title: OnClientCopy
-page_title: OnClientCopy | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientCopy
+page_title: OnClientCopy - RadFileExplorer
+description: Check our Web Forms article about OnClientCopy.
 slug: fileexplorer/client-side-programming/events/onclientcopy
 tags: onclientcopy
 published: True

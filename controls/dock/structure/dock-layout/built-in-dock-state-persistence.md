@@ -1,7 +1,7 @@
 ---
 title: Built-in Dock State Persistence
-page_title: Built-in Dock State Persistence | RadDock for ASP.NET AJAX Documentation
-description: Built-in Dock State Persistence
+page_title: Built-in Dock State Persistence - RadDock
+description: Check our Web Forms article about Built-in Dock State Persistence.
 slug: dock/structure/dock-layout/built-in-dock-state-persistence
 tags: built-in,dock,state,persistence
 published: True

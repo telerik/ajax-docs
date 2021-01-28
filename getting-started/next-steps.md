@@ -1,7 +1,7 @@
 ---
 title: Next Steps
-page_title: Next Steps with UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Next Steps with UI for ASP.NET AJAX
+page_title: Next Steps with
+description: Check our Web Forms article about Next Steps with UI for ASP.NET AJAX.
 slug: getting-started/next-steps
 tags: Next Steps
 published: True

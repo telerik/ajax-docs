@@ -1,7 +1,7 @@
 ---
 title: SqlDataSource
-page_title: SqlDataSource | RadHtmlChart for ASP.NET AJAX Documentation
-description: SqlDataSource
+page_title: SqlDataSource - RadHtmlChart
+description: Check our Web Forms article about SqlDataSource.
 slug: htmlchart/data-binding/sqldatasource
 tags: sqldatasource
 published: True

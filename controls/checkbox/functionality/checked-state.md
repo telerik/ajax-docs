@@ -1,7 +1,7 @@
 ---
 title: Checked State
-page_title: Checked State | RadCheckBox for ASP.NET AJAX Documentation
-description: Checked State
+page_title: Checked State - RadCheckBox
+description: Check our Web Forms article about Checked State.
 slug: checkbox/functionality/checked-state
 tags: checked,state
 published: True

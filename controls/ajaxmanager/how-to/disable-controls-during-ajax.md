@@ -1,7 +1,7 @@
 ---
 title: Disable Controls During AJAX
-page_title: Disable Controls During AJAX | RadAjax for ASP.NET AJAX Documentation
-description: Disable Controls During AJAX
+page_title: Disable Controls During AJAX
+description: Check our Web Forms article about Disable Controls During AJAX.
 slug: ajaxmanager/how-to/disable-controls-during-ajax
 previous_url: ajax/how-to/disable-controls-during-ajax
 tags: disable,controls,during,ajax

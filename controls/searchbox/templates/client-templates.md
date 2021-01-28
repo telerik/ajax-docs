@@ -1,7 +1,7 @@
 ---
 title: Client Templates
-page_title: Client Templates | RadSearchBox for ASP.NET AJAX Documentation
-description: Client Templates
+page_title: Client Templates - RadSearchBox
+description: Check our Web Forms article about Client Templates.
 slug: searchbox/templates/client-templates
 tags: client,templates
 published: True

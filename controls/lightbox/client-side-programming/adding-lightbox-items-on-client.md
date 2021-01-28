@@ -1,7 +1,7 @@
 ---
 title: Adding LightBox Items on Client
-page_title: Adding LightBox Items on Client | RadLightBox for ASP.NET AJAX Documentation
-description: Adding LightBox Items on Client
+page_title: Adding LightBox Items on Client - RadLightBox
+description: Check our Web Forms article about Adding LightBox Items on Client.
 slug: lightbox/client-side-programming/adding-lightbox-items-on-client
 tags: adding,lightbox,items,on,client
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Resizing Rows
-page_title: Resizing Rows | RadGrid for ASP.NET AJAX Documentation
-description: Resizing Rows
+page_title: Resizing Rows - RadGrid
+description: Check our Web Forms article about Resizing Rows.
 slug: grid/rows/resizing-rows
 tags: resizing,rows
 published: True

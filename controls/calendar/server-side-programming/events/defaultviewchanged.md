@@ -1,7 +1,7 @@
 ---
 title: DefaultViewChanged
-page_title: DefaultViewChanged | RadCalendar for ASP.NET AJAX Documentation
-description: DefaultViewChanged
+page_title: DefaultViewChanged - RadCalendar
+description: Check our Web Forms article about DefaultViewChanged.
 slug: calendar/server-side-programming/events/defaultviewchanged
 tags: defaultviewchanged
 published: True

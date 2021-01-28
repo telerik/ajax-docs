@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeDataBound
-page_title: OnClientNodeDataBound | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeDataBound
+page_title: OnClientNodeDataBound - RadTreeView
+description: Check our Web Forms article about OnClientNodeDataBound.
 slug: treeview/client-side-programming/events/onclientnodedatabound
 tags: onclientnodedatabound
 published: True

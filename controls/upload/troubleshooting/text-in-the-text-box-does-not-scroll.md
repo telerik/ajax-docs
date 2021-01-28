@@ -1,7 +1,7 @@
 ---
 title: Text in the Text Box Does Not Scroll
-page_title: Text in the Text Box Does Not Scroll | RadUpload for ASP.NET AJAX Documentation
-description: Text in the Text Box Does Not Scroll
+page_title: Text in the Text Box Does Not Scroll - RadUpload
+description: Check our Web Forms article about Text in the Text Box Does Not Scroll.
 slug: upload/troubleshooting/text-in-the-text-box-does-not-scroll
 tags: text,in,the,text,box,does,not,scroll
 published: True

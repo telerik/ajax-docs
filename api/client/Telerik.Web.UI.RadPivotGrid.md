@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPivotGrid
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPivotGrid
 slug: Telerik.Web.UI.RadPivotGrid
 ---

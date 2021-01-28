@@ -1,7 +1,7 @@
 ---
 title: Group-Enabled Binding
-page_title: Group-Enabled Binding | RadOrgChart for ASP.NET AJAX Documentation
-description: Group-Enabled Binding
+page_title: Group-Enabled Binding - RadOrgChart
+description: Check our Web Forms article about Group-Enabled Binding.
 slug: orgchart/data-binding/group-enabled-binding
 tags: group-enabled,binding
 published: True

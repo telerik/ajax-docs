@@ -1,7 +1,7 @@
 ---
 title: Pan and Zoom
-page_title: Pan and Zoom | RadHtmlChart for ASP.NET AJAX Documentation
-description: Panand Zoom features of RadHtmlChart
+page_title: Pan and Zoom - RadHtmlChart
+description: Check our Web Forms article about Panand Zoom features of RadHtmlChart.
 slug: htmlchart/functionality/zoom-pan-scroll
 tags: pan, zoom, htmlchart, chart, telerik, kendo, panning, zooming
 published: True

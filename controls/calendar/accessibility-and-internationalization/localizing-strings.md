@@ -1,7 +1,7 @@
 ---
 title: Localizing Strings
-page_title: Localizing Strings | RadCalendar for ASP.NET AJAX Documentation
-description: Localizing Strings
+page_title: Localizing Strings - RadCalendar
+description: Check our Web Forms article about Localizing Strings.
 slug: calendar/accessibility-and-internationalization/localizing-strings
 tags: localizing,strings
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadListBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadListBox
+description: Check our Web Forms article about Overview.
 slug: listbox/server-side-programming/server-events/overview
 tags: overview
 published: True

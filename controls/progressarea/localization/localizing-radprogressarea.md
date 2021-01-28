@@ -1,7 +1,7 @@
 ---
 title: Localizing RadProgressArea
-page_title: Localizing RadProgressArea | RadProgressArea for ASP.NET AJAX Documentation
-description: Localizing RadProgressArea
+page_title: Localizing RadProgressArea - RadProgressArea
+description: Check our Web Forms article about Localizing RadProgressArea.
 slug: progressarea/localization/localizing-radprogressarea
 tags: localizing,radprogressarea
 published: True

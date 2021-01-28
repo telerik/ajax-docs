@@ -1,7 +1,7 @@
 ---
 title: Dictionary Configurator
-page_title: Dictionary Configurator | RadSpell for ASP.NET AJAX Documentation
-description: Dictionary Configurator
+page_title: Dictionary Configurator - RadSpell
+description: Check our Web Forms article about Dictionary Configurator.
 slug: spell/dictionaries/dictionary-configurator
 tags: dictionary,configurator
 published: True

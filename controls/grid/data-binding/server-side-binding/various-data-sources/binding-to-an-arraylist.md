@@ -1,7 +1,7 @@
 ---
 title: Binding to an ArrayList
-page_title: Binding to an ArrayList | RadGrid for ASP.NET AJAX Documentation
-description: Binding to an ArrayList
+page_title: Binding to an ArrayList - RadGrid
+description: Check our Web Forms article about Binding to an ArrayList.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist
 tags: binding,to,an,arraylist

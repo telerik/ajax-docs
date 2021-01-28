@@ -1,7 +1,7 @@
 ---
 title: findControl
-page_title: findControl | RadGrid for ASP.NET AJAX Documentation
-description: findControl
+page_title: findControl - RadGrid
+description: Check our Web Forms article about findControl.
 slug: grid/client-side-programming/griddataitem-object/methods/findcontrol
 tags: findcontrol
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Blank Dialogs Problem
-page_title: Blank Dialogs Problem | RadEditor for ASP.NET AJAX Documentation
-description: Blank Dialogs Problem
+page_title: Blank Dialogs Problem - RadEditor
+description: Check our Web Forms article about Blank Dialogs Problem.
 slug: editor/troubleshooting/blank-dialogs-problem
 tags: blank,dialogs,problem
 published: True

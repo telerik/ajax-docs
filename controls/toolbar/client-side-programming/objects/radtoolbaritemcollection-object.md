@@ -1,7 +1,7 @@
 ---
 title: RadToolBarItemCollection Object
-page_title: RadToolBarItemCollection Object | RadToolBar for ASP.NET AJAX Documentation
-description: RadToolBarItemCollection Object
+page_title: RadToolBarItemCollection Object - RadToolBar
+description: Check our Web Forms article about RadToolBarItemCollection Object.
 slug: toolbar/client-side-programming/radtoolbaritemcollection-object
 tags: radtoolbaritemcollection,object
 published: True

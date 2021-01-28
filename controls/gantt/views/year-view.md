@@ -1,7 +1,7 @@
 ---
 title: Year View
-page_title: Year View | RadGantt for ASP.NET AJAX Documentation
-description: Year View
+page_title: Year View - RadGantt
+description: Check our Web Forms article about Year View.
 slug: gantt/views/year-view
 tags: year,view
 published: True

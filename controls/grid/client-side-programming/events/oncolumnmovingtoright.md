@@ -1,7 +1,7 @@
 ---
 title: OnColumnMovingToRight
-page_title: OnColumnMovingToRight | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnMovingToRight
+page_title: OnColumnMovingToRight - RadGrid
+description: Check our Web Forms article about OnColumnMovingToRight.
 slug: grid/client-side-programming/events/oncolumnmovingtoright
 tags: oncolumnmovingtoright
 published: True

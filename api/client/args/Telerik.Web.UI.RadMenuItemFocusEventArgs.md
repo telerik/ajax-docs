@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuItemFocusEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuItemFocusEventArgs
 slug: Telerik.Web.UI.RadMenuItemFocusEventArgs
 ---

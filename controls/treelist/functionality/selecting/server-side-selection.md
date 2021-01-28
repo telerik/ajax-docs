@@ -1,7 +1,7 @@
 ---
 title: Server-side Selection
-page_title: Server-side Selection | RadTreeList for ASP.NET AJAX Documentation
-description: Server-side Selection
+page_title: Server-side Selection - RadTreeList
+description: Check our Web Forms article about Server-side Selection.
 slug: treelist/functionality/selecting/server-side-selection
 tags: server-side,selection
 published: True

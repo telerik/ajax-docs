@@ -1,7 +1,7 @@
 ---
 title: Automatic Text-wrapping
-page_title: Automatic Text-wrapping | RadChart for ASP.NET AJAX Documentation
-description: Automatic Text-wrapping
+page_title: Automatic Text-wrapping - RadChart
+description: Check our Web Forms article about Automatic Text-wrapping.
 slug: chart/features/automatic-text-wrapping
 tags: automatic,text-wrapping
 published: True

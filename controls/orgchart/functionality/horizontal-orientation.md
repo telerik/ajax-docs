@@ -1,7 +1,7 @@
 ---
 title: Horizontal Orientation
-page_title: Horizontal Orientation | RadOrgChart for ASP.NET AJAX Documentation
-description: Horizontal Orientation
+page_title: Horizontal Orientation - RadOrgChart
+description: Check our Web Forms article about Horizontal Orientation.
 slug: orgchart/functionality/horizontal-orientation
 tags: horizontal,orientation
 published: True

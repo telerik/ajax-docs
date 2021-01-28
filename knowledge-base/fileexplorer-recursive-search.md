@@ -1,6 +1,6 @@
 ---
 title: Recursive Search in FileExplorer
-description: See hot to simulate recursive search/filtering through the files in RadFileExplorer
+description: See hot to simulate recursive search/filtering through the files in RadFileExplorer.
 type: how-to
 page_title: Simulate recursive search with RadFileExplorer
 slug: fileexplorer-recursive-search

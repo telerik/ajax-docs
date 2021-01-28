@@ -1,7 +1,7 @@
 ---
 title: Client-side
-page_title: Client-side | RadImageGallery for ASP.NET AJAX Documentation
-description: Client-side
+page_title: Client-side - RadImageGallery
+description: Check our Web Forms article about Client-side.
 slug: imagegallery/data-binding/client-side
 tags: client-side
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxDraggingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxDraggingEventArgs
 slug: Telerik.Web.UI.ListBoxDraggingEventArgs
 ---

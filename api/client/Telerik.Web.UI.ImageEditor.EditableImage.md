@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.EditableImage
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.EditableImage
 static: true
 slug: Telerik.Web.UI.ImageEditor.EditableImage

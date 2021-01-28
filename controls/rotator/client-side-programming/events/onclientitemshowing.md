@@ -1,7 +1,7 @@
 ---
 title: OnClientItemShowing
-page_title: OnClientItemShowing | RadRotator for ASP.NET AJAX Documentation
-description: OnClientItemShowing
+page_title: OnClientItemShowing - RadRotator
+description: Check our Web Forms article about OnClientItemShowing.
 slug: rotator/client-side-programming/events/onclientitemshowing
 tags: onclientitemshowing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Server Templates
-page_title: Server Templates | RadMenu for ASP.NET AJAX Documentation
-description: Server Templates
+page_title: Server Templates - RadMenu
+description: Check our Web Forms article about Server Templates.
 slug: menu/templates/server-templates
 tags: server,templates
 published: True

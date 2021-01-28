@@ -1,7 +1,7 @@
 ---
 title: OnCustomParameter
-page_title: OnCustomParameter | RadClientDataSource for ASP.NET AJAX Documentation
-description: OnCustomParameter
+page_title: OnCustomParameter - RadClientDataSource
+description: Check our Web Forms article about OnCustomParameter.
 slug: clientdatasource/client-side-programming/events/oncustomparameter
 tags: events
 published: True

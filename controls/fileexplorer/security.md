@@ -1,7 +1,7 @@
 ---
 title: Security
-page_title: Security | RadFileExplorer for ASP.NET AJAX Documentation
-description: Security
+page_title: Security - RadFileExplorer
+description: Check our Web Forms article about Security.
 slug: fileexplorer/security
 tags: security,action
 published: True

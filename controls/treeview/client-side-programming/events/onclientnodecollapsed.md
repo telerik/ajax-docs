@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeCollapsed
-page_title: OnClientNodeCollapsed | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeCollapsed
+page_title: OnClientNodeCollapsed - RadTreeView
+description: Check our Web Forms article about OnClientNodeCollapsed.
 slug: treeview/client-side-programming/events/onclientnodecollapsed
 tags: onclientnodecollapsed
 published: True

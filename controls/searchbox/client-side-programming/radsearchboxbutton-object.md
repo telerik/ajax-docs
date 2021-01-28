@@ -1,7 +1,7 @@
 ---
 title: RadSearchBoxButton Object
-page_title: RadSearchBoxButton Object | RadSearchBox for ASP.NET AJAX Documentation
-description: RadSearchBoxButton Object
+page_title: RadSearchBoxButton Object - RadSearchBox
+description: Check our Web Forms article about RadSearchBoxButton Object.
 slug: searchbox/client-side-programming/radsearchboxbutton-object
 tags: radsearchboxbutton,object
 published: True

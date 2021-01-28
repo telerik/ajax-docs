@@ -1,7 +1,7 @@
 ---
 title: Connection
-page_title: Connection | RadDiagram for ASP.NET AJAX Documentation
-description: Connection
+page_title: Connection - RadDiagram
+description: Check our Web Forms article about Connection.
 slug: diagram/structure/connection
 tags: connection
 published: True

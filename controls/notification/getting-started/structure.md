@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadNotification Structure | RadNotification for ASP.NET AJAX Documentation
-description: RadNotification Structure
+page_title: RadNotification Structure - RadNotification
+description: Check our Web Forms article about RadNotification Structure.
 slug: notification/getting-started/radnotification-structure
 tags: radnotification,structure
 published: True

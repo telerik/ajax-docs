@@ -1,7 +1,7 @@
 ---
 title: Crosshairs
-page_title: Crosshairs | RadHtmlChart for ASP.NET AJAX Documentation
-description: Crosshairs
+page_title: Crosshairs - RadHtmlChart
+description: Check our Web Forms article about Crosshairs.
 slug: htmlchart/functionality/crosshairs
 tags: crosshairs, crosshair, cross-hair, cross hair
 published: True

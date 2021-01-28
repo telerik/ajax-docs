@@ -1,7 +1,7 @@
 ---
 title: DataSet
-page_title: DataSet | RadHtmlChart for ASP.NET AJAX Documentation
-description: DataSet
+page_title: DataSet - RadHtmlChart
+description: Check our Web Forms article about DataSet.
 slug: htmlchart/data-binding/dataset
 tags: dataset
 published: True

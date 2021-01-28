@@ -1,7 +1,7 @@
 ---
 title: Using the TargetControlID Property
-page_title: Using the TargetControlID Property | RadTooltip for ASP.NET AJAX Documentation
-description: Using the TargetControlID Property
+page_title: Using the TargetControlID Property - RadTooltip
+description: Check our Web Forms article about Using the TargetControlID Property.
 slug: tooltip/radtooltip/using-the-targetcontrolid-property
 tags: using,the,targetcontrolid,property
 published: True

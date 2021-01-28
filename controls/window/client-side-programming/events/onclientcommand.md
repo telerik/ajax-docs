@@ -1,7 +1,7 @@
 ---
 title: OnClientCommand
-page_title: OnClientCommand | RadWindow for ASP.NET AJAX Documentation
-description: OnClientCommand
+page_title: OnClientCommand - RadWindow
+description: Check our Web Forms article about OnClientCommand.
 slug: window/client-side-programming/events/onclientcommand
 tags: onclientcommand
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Plot Bands
-page_title: Plot Bands | RadHtmlChart for ASP.NET AJAX Documentation
-description: Plot Bands
+page_title: Plot Bands - RadHtmlChart
+description: Check our Web Forms article about Plot Bands.
 slug: htmlchart/functionality/plot-bands
 tags: plot,bands
 published: True

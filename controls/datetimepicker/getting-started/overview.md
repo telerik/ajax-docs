@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadDateTimePicker for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadDateTimePicker
+description: Check our Web Forms article about Overview.
 slug: datetimepicker/getting-started/overview
 tags: overview
 published: True

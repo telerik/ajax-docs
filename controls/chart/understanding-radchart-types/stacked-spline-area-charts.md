@@ -1,7 +1,7 @@
 ---
 title: Stacked Spline Area Charts
-page_title: Stacked Spline Area Charts | RadChart for ASP.NET AJAX Documentation
-description: Stacked Spline Area Charts
+page_title: Stacked Spline Area Charts - RadChart
+description: Check our Web Forms article about Stacked Spline Area Charts.
 slug: chart/understanding-radchart-types/stacked-spline-area-charts
 tags: stacked,spline,area,charts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Mobile Support Overview | RadLightBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Mobile Support Overview - RadLightBox
+description: Check our Web Forms article about Overview.
 slug: lightbox/mobile-support/overview
 tags: overview
 published: True

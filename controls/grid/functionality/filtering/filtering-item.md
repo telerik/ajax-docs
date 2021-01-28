@@ -1,7 +1,7 @@
 ---
 title: Filtering Item
-page_title: Filtering Item | RadGrid for ASP.NET AJAX Documentation
-description: Filtering Item
+page_title: Filtering Item - RadGrid
+description: Check our Web Forms article about Filtering Item.
 slug: grid/functionality/filtering/filtering-item
 tags: filtering,item
 published: True

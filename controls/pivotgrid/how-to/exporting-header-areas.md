@@ -1,7 +1,7 @@
 ---
 title: Export Header Areas
-page_title: Export Header Areas | RadPivotGrid for ASP.NET AJAX Documentation
-description: Export Header Areas
+page_title: Export Header Areas - RadPivotGrid
+description: Check our Web Forms article about Export Header Areas.
 slug: pivotgrid/how-to/export-header-areas
 tags: export,header,areas
 published: True

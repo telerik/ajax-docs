@@ -1,7 +1,7 @@
 ---
 title: Adding Custom Grid Columns
-page_title: Adding Custom Grid Columns | RadFileExplorer for ASP.NET AJAX Documentation
-description: Adding Custom Grid Columns
+page_title: Adding Custom Grid Columns - RadFileExplorer
+description: Check our Web Forms article about Adding Custom Grid Columns.
 slug: fileexplorer/how-to/adding-custom-grid-columns
 tags: adding,custom,grid,columns
 published: True

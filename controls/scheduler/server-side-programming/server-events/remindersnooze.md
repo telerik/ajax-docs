@@ -1,7 +1,7 @@
 ---
 title: ReminderSnooze
-page_title: ReminderSnooze | RadScheduler for ASP.NET AJAX Documentation
-description: ReminderSnooze
+page_title: ReminderSnooze - RadScheduler
+description: Check our Web Forms article about ReminderSnooze.
 slug: scheduler/server-side-programming/server-events/remindersnooze
 tags: remindersnooze
 published: True

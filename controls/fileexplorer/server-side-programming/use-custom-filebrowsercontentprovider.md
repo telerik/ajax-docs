@@ -1,7 +1,7 @@
 ---
 title: Use Custom FileBrowserContentProvider
-page_title: Use Custom FileBrowserContentProvider | RadFileExplorer for ASP.NET AJAX Documentation
-description: Use Custom FileBrowserContentProvider
+page_title: Use Custom FileBrowserContentProvider - RadFileExplorer
+description: Check our Web Forms article about Use Custom FileBrowserContentProvider.
 slug: fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider
 tags: use,custom,filebrowsercontentprovider
 published: True

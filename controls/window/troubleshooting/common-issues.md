@@ -1,7 +1,7 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadWindow for ASP.NET AJAX Documentation
-description: Common Issues
+page_title: Common Issues - RadWindow
+description: Check our Web Forms article about Common Issues.
 slug: window/troubleshooting/common-issues
 tags: common,issues
 published: True

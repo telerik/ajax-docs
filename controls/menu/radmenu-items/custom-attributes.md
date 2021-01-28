@@ -1,7 +1,7 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | RadMenu for ASP.NET AJAX Documentation
-description: Custom Attributes
+page_title: Custom Attributes - RadMenu
+description: Check our Web Forms article about Custom Attributes.
 slug: menu/radmenu-items/custom-attributes
 tags: custom,attributes
 published: True

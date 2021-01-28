@@ -1,7 +1,7 @@
 ---
 title: Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX
-page_title: Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX | RadMenu for ASP.NET AJAX Documentation
-description: Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX
+page_title: Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX - RadMenu
+description: Check our Web Forms article about Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX.
 slug: menu/appearance-and-styling/migrating-skins-from-radmenu-asp.net-to-asp.net-ajax
 tags: migrating,skins,from,radmenu,asp.net,to,asp.net,ajax
 published: True

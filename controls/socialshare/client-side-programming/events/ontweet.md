@@ -1,7 +1,7 @@
 ---
 title: OnTweet
-page_title: OnTweet | RadSocialShare for ASP.NET AJAX Documentation
-description: OnTweet
+page_title: OnTweet - RadSocialShare
+description: Check our Web Forms article about OnTweet.
 slug: socialshare/client-side-programming/events/ontweet
 tags: ontweet
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory
 slug: Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory
 ---

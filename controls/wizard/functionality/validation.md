@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadWizard for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadWizard
+description: Check our Web Forms article about Validation.
 slug: wizard/functionality/validation
 tags: validation
 published: True

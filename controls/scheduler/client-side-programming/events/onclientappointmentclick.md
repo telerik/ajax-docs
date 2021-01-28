@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentClick
-page_title: OnClientAppointmentClick | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentClick
+page_title: OnClientAppointmentClick - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentClick.
 slug: scheduler/client-side-programming/events/onclientappointmentclick
 tags: onclientappointmentclick
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadEditor for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadEditor
+description: Check our Web Forms article about OnClientLoad.
 slug: editor/client-side-programming/events/onclientload
 tags: onclientload
 published: True

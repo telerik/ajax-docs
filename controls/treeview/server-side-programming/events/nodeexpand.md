@@ -1,7 +1,7 @@
 ---
 title: NodeExpand
-page_title: NodeExpand | RadTreeView for ASP.NET AJAX Documentation
-description: NodeExpand
+page_title: NodeExpand - RadTreeView
+description: Check our Web Forms article about NodeExpand.
 slug: treeview/server-side-programming/events/nodeexpand
 tags: nodeexpand
 published: True

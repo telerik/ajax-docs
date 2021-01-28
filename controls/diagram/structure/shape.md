@@ -1,7 +1,7 @@
 ---
 title: Shape
-page_title: Shape | RadDiagram for ASP.NET AJAX Documentation
-description: Shape
+page_title: Shape - RadDiagram
+description: Check our Web Forms article about Shape.
 slug: diagram/structure/shape
 tags: shape
 published: True

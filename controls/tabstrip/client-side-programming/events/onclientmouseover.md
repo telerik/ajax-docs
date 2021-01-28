@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadTabStrip
+description: Check our Web Forms article about OnClientMouseOver.
 slug: tabstrip/client-side-programming/onclientmouseover
 tags: onclientmouseover
 published: True

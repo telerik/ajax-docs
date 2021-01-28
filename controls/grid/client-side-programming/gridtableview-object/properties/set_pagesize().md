@@ -1,7 +1,7 @@
 ---
 title: set_pageSize()
-page_title: set_pageSize() | RadGrid for ASP.NET AJAX Documentation
-description: set_pageSize()
+page_title: set_pageSize() - RadGrid
+description: Check our Web Forms article about set_pageSize().
 slug: grid/client-side-programming/gridtableview-object/properties/set_pagesize()
 tags: set_pagesize()
 published: True

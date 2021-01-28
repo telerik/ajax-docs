@@ -1,7 +1,7 @@
 ---
 title: Block Commands Behavior Change
-page_title: Block Commands Behavior Change | RadEditor for ASP.NET AJAX Documentation
-description: Block Commands Behavior Change
+page_title: Block Commands Behavior Change - RadEditor
+description: Check our Web Forms article about Block Commands Behavior Change.
 slug: editor/changes-and-backwards-compatibility/block-commands-behavior-change
 tags: block,commands,behavior,change
 published: False

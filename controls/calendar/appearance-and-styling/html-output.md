@@ -1,7 +1,7 @@
 ---
 title: HTML Output
-page_title: HTML Output | RadCalendar for ASP.NET AJAX Documentation
-description: HTML Output
+page_title: HTML Output - RadCalendar
+description: Check our Web Forms article about HTML Output.
 slug: calendar/appearance-and-styling/html-output
 tags: html,output
 published: True

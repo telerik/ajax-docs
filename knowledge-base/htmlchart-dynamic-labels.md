@@ -1,8 +1,8 @@
 ---
 title: Dynamic column/bar series labels position 
-description: See how to change the column/bar series labels position dynamically
+description: See how to change the column/bar series labels position dynamically.
 type: how-to
-page_title: Dynamic column/bar series labels position 
+page_title: Dynamic column/bar series labels position
 slug: htmlchart-dynamic-labels
 position: 
 tags: 

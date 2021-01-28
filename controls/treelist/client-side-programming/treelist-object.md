@@ -1,7 +1,7 @@
 ---
 title: TreeList Object
-page_title: TreeList Object | RadTreeList for ASP.NET AJAX Documentation
-description: TreeList Object
+page_title: TreeList Object - RadTreeList
+description: Check our Web Forms article about TreeList Object.
 slug: treelist/client-side-programming/treelist-object
 tags: treelist,object
 published: True

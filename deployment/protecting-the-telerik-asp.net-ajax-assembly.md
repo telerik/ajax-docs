@@ -1,7 +1,7 @@
 ---
 title: Protecting the Telerik ASP.NET AJAX Assemblies
-page_title: Protecting the Telerik ASP.NET AJAX Assemblies | UI for ASP.NET AJAX Documentation
-description: Protecting the Telerik ASP.NET AJAX Assemblies
+page_title: Protecting the Telerik ASP.NET AJAX Assemblies
+description: Check our Web Forms article about Protecting the Telerik ASP.NET AJAX Assemblies.
 slug: introduction/deployment/protecting-the-telerik-asp.net-ajax-assembly
 tags: protecting,the,telerik,asp.net,ajax,assembly
 published: True

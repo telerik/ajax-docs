@@ -1,7 +1,7 @@
 ---
 title: Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar
-page_title: Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar | UI for ASP.NET AJAX Documentation
-description: Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar
+page_title: Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar
+description: Check our Web Forms article about Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar.
 slug: sharepoint/2007/replacing-a-sharepoint-master-page's-default-quick-launch-menu-with-radpanelbar
 tags: replacing,a,sharepoint,master,page's,default,quick,launch,menu,with,radpanelbar
 published: True

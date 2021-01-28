@@ -1,7 +1,7 @@
 ---
 title: DataKeyNames
-page_title: DataKeyNames | RadSearchBox for ASP.NET AJAX Documentation
-description: DataKeyNames
+page_title: DataKeyNames - RadSearchBox
+description: Check our Web Forms article about DataKeyNames.
 slug: searchbox/functionality/datakeynames
 tags: datakeynames
 published: True

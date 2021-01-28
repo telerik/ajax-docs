@@ -1,7 +1,7 @@
 ---
 title: repaint
-page_title: repaint | RadGrid for ASP.NET AJAX Documentation
-description: repaint
+page_title: repaint - RadGrid
+description: Check our Web Forms article about repaint.
 slug: grid/client-side-programming/radgrid-object/methods/repaint
 tags: repaint
 published: True

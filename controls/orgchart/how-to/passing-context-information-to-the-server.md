@@ -1,7 +1,7 @@
 ---
 title: Passing Context Information to the Server
-page_title: Passing Context Information to the Server | RadOrgChart for ASP.NET AJAX Documentation
-description: Passing Context Information to the Server
+page_title: Passing Context Information to the Server - RadOrgChart
+description: Check our Web Forms article about Passing Context Information to the Server.
 slug: orgchart/how-to/passing-context-information-to-the-server
 tags: passing,context,information,to,the,server
 published: True

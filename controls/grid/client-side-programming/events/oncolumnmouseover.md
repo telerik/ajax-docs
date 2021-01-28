@@ -1,7 +1,7 @@
 ---
 title: OnColumnMouseOver
-page_title: OnColumnMouseOver | RadGrid for ASP.NET AJAX Documentation
-description: OnColumnMouseOver
+page_title: OnColumnMouseOver - RadGrid
+description: Check our Web Forms article about OnColumnMouseOver.
 slug: grid/client-side-programming/events/oncolumnmouseover
 tags: oncolumnmouseover
 published: True

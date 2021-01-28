@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridColumnEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridColumnEventArgs
 slug: Telerik.Web.UI.GridColumnEventArgs
 ---

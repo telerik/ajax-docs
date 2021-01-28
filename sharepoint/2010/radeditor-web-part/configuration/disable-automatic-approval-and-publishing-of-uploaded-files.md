@@ -1,7 +1,7 @@
 ---
 title: Disable Automatic Approval and Publishing of Uploaded Files
-page_title: Disable Automatic Approval and Publishing of Uploaded Files | UI for ASP.NET AJAX Documentation
-description: Disable Automatic Approval and Publishing of Uploaded Files
+page_title: Disable Automatic Approval and Publishing of Uploaded Files
+description: Check our Web Forms article about Disable Automatic Approval and Publishing of Uploaded Files.
 slug: sharepoint/2010/radeditor-web-part/configuration/disable-automatic-approval-and-publishing-of-uploaded-files
 tags: disable,automatic,approval,and,publishing,of,uploaded,files
 published: True

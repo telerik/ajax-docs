@@ -1,7 +1,7 @@
 ---
 title: Accessing Tabs
-page_title: Accessing Tabs | RadTabStrip for ASP.NET AJAX Documentation
-description: Accessing Tabs
+page_title: Accessing Tabs - RadTabStrip
+description: Check our Web Forms article about Accessing Tabs.
 slug: tabstrip/server-side-programming/accessing-tabs
 tags: accessing,tabs
 published: True

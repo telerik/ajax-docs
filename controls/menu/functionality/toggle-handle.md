@@ -1,7 +1,7 @@
 ---
 title: Toggle Handle
-page_title: Toggle Handle | RadMenu for ASP.NET AJAX Documentation
-description: Toggle Handle
+page_title: Toggle Handle - RadMenu
+description: Check our Web Forms article about Toggle Handle.
 slug: menu/functionality/toggle-handle
 tags: toggle,handle
 published: True

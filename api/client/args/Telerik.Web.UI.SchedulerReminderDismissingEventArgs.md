@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerReminderDismissingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerReminderDismissingEventArgs
 slug: Telerik.Web.UI.SchedulerReminderDismissingEventArgs
 ---

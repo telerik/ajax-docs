@@ -1,7 +1,7 @@
 ---
 title: Silverlight Manager
-page_title: Silverlight Manager | RadEditor for ASP.NET AJAX Documentation
-description: Silverlight Manager
+page_title: Silverlight Manager - RadEditor
+description: Check our Web Forms article about Silverlight Manager.
 slug: editor/functionality/dialogs/file-browser-dialogs/silverlight-manager
 tags: silverlight,manager
 published: True

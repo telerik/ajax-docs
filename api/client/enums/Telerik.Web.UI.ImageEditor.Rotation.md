@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ImageEditor.Rotation
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ImageEditor.Rotation
 slug: Telerik.Web.UI.ImageEditor.Rotation
 ---

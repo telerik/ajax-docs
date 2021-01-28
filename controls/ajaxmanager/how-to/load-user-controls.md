@@ -1,7 +1,7 @@
 ---
 title: Load User Controls
-page_title: Load User Controls | RadAjax for ASP.NET AJAX Documentation
-description: Load User Controls
+page_title: Load User Controls
+description: Check our Web Forms article about Load User Controls.
 slug: ajaxmanager/how-to/load-user-controls
 previous_url: ajax/how-to/load-user-controls
 tags: load,user,controls

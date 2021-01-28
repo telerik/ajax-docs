@@ -1,7 +1,7 @@
 ---
 title: OnDisable
-page_title: OnDisable | RadDateInput for ASP.NET AJAX Documentation
-description: OnDisable
+page_title: OnDisable - RadDateInput
+description: Check our Web Forms article about OnDisable.
 slug: raddateinput/client-side-programming/events/ondisable
 tags: ondisable
 published: True

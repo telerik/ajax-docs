@@ -1,7 +1,7 @@
 ---
 title: In Place
-page_title: In Place | RadGrid for ASP.NET AJAX Documentation
-description: In Place
+page_title: In Place - RadGrid
+description: Check our Web Forms article about In Place.
 slug: grid/data-editing/edit-mode/in-place
 tags: in,place
 published: True

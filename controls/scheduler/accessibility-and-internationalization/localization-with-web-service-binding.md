@@ -1,7 +1,7 @@
 ---
 title: Localization with Web Service binding
-page_title: Localization with Web Service binding | RadScheduler for ASP.NET AJAX Documentation
-description: Localization with Web Service binding
+page_title: Localization with Web Service binding - RadScheduler
+description: Check our Web Forms article about Localization with Web Service binding.
 slug: scheduler/accessibility-and-internationalization/localization-with-web-service-binding
 tags: localization,with,web,service,binding
 published: False

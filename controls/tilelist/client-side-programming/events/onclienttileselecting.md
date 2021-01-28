@@ -1,7 +1,7 @@
 ---
 title: OnClientTileSelecting
-page_title: OnClientTileSelecting | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTileSelecting
+page_title: OnClientTileSelecting - RadTileList
+description: Check our Web Forms article about OnClientTileSelecting.
 slug: tilelist/client-side-programming/client-side-events/onclienttileselecting
 tags: onclienttileselecting
 published: True

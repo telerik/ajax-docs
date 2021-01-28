@@ -1,7 +1,7 @@
 ---
 title: MenuItemClick
-page_title: MenuItemClick | RadRibbonBar for ASP.NET AJAX Documentation
-description: MenuItemClick
+page_title: MenuItemClick - RadRibbonBar
+description: Check our Web Forms article about MenuItemClick.
 slug: ribbonbar/server-side-programming/events/menuitemclick
 tags: menuitemclick
 published: True

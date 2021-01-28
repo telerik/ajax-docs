@@ -1,7 +1,7 @@
 ---
 title: OnEnable
-page_title: OnEnable | RadTextBox for ASP.NET AJAX Documentation
-description: OnEnable
+page_title: OnEnable - RadTextBox
+description: Check our Web Forms article about OnEnable.
 slug: radtextbox/client-side-programming/events/onenable
 tags: onenable
 published: True

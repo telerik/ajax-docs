@@ -1,7 +1,7 @@
 ---
 title: Data Binding 
-page_title: Data Binding  | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Data Binding 
+page_title: Data Binding - RadMonthYearPicker
+description: Check our Web Forms article about Data Binding.
 slug: monthyearpicker/functionality/data-binding
 tags: data,binding
 published: True

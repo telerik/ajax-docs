@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Controlling Visual Appearance Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Controlling Visual Appearance Overview
+description: Check our Web Forms article about Overview.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview
 tags: overview
 published: True

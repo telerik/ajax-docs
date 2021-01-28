@@ -1,7 +1,7 @@
 ---
 title: Width
-page_title: Width | RadColorPicker for ASP.NET AJAX Documentation
-description: Width
+page_title: Width - RadColorPicker
+description: Check our Web Forms article about Width.
 slug: colorpicker/functionality/width
 tags: width
 published: True

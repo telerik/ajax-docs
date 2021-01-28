@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadNavigation for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadNavigation
+description: Check our Web Forms article about Skins.
 slug: navigation/appearance-and-styling/skins
 tags: skins
 published: True

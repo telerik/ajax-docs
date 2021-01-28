@@ -1,7 +1,7 @@
 ---
 title: Accessibility
-page_title: Accessibility | UI for ASP.NET AJAX Documentation
-description: Accessibility
+page_title: Accessibility
+description: Check our Web Forms article about Accessibility.
 slug: combobox/accessibility-and-internationalization/accessibility
 tags: accessibility
 published: True

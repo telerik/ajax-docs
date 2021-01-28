@@ -1,7 +1,7 @@
 ---
 title: PDF Export
-page_title: PDF Export | RadScheduler for ASP.NET AJAX Documentation
-description: PDF Export
+page_title: PDF Export - RadScheduler
+description: Check our Web Forms article about PDF Export.
 slug: scheduler/troubleshootings/pdf-export
 tags: pdf,export
 published: True

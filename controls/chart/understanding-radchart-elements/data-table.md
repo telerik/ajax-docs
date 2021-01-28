@@ -1,7 +1,7 @@
 ---
 title: Data Table
-page_title: Data Table | RadChart for ASP.NET AJAX Documentation
-description: Data Table
+page_title: Data Table - RadChart
+description: Check our Web Forms article about Data Table.
 slug: chart/understanding-radchart-elements/data-table
 tags: data,table
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Group Title
-page_title: Group Title | RadTileList for ASP.NET AJAX Documentation
-description: Group Title
+page_title: Group Title - RadTileList
+description: Check our Web Forms article about Group Title.
 slug: tilelist/functionality/group-title
 tags: group, title
 published: True

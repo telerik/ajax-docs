@@ -1,7 +1,7 @@
 ---
 title: fireCommand
-page_title: fireCommand | RadListView for ASP.NET AJAX Documentation
-description: fireCommand
+page_title: fireCommand - RadListView
+description: Check our Web Forms article about fireCommand.
 slug: listview/client-side-programming/radlistview/methods/firecommand
 tags: firecommand
 published: True

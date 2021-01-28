@@ -1,7 +1,7 @@
 ---
 title: OnClientItemPopulationFailed
-page_title: OnClientItemPopulationFailed | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemPopulationFailed
+page_title: OnClientItemPopulationFailed - RadMenu
+description: Check our Web Forms article about OnClientItemPopulationFailed.
 slug: menu/client-side-programming/events/onclientitempopulationfailed
 tags: onclientitempopulationfailed
 published: True

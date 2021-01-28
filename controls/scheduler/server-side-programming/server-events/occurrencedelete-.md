@@ -1,7 +1,7 @@
 ---
 title: OccurrenceDelete 
-page_title: OccurrenceDelete  | RadScheduler for ASP.NET AJAX Documentation
-description: OccurrenceDelete 
+page_title: OccurrenceDelete - RadScheduler
+description: Check our Web Forms article about OccurrenceDelete.
 slug: scheduler/server-side-programming/server-events/occurrencedelete-
 tags: occurrencedelete,
 published: True

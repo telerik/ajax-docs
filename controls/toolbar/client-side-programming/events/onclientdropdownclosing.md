@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownClosing
-page_title: OnClientDropDownClosing | RadToolBar for ASP.NET AJAX Documentation
-description: OnClientDropDownClosing
+page_title: OnClientDropDownClosing - RadToolBar
+description: Check our Web Forms article about OnClientDropDownClosing.
 slug: toolbar/client-side-programming/onclientdropdownclosing
 tags: onclientdropdownclosing
 published: True

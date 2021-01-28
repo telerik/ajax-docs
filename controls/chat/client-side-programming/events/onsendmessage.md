@@ -1,7 +1,7 @@
 ---
 title: OnSendMessage
-page_title: OnSendMessage | RadChat for ASP.NET AJAX Documentation
-description: OnSendMessage
+page_title: OnSendMessage - RadChat
+description: Check our Web Forms article about OnSendMessage.
 slug: chat/client-side-programming/events/onsendmessage
 tags: onsendmessage
 published: True

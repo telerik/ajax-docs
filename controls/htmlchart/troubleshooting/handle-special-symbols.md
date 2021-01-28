@@ -1,7 +1,7 @@
 ---
 title: Handle Special Symbols
-page_title: Handle Special Symbols | RadHtmlChart for ASP.NET AJAX Documentation
-description: Handle Special Symbols
+page_title: Handle Special Symbols - RadHtmlChart
+description: Check our Web Forms article about Handle Special Symbols.
 slug: htmlchart/troubleshooting/handle-special-symbols
 tags: handle,special,symbols
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnImportContent
-page_title: OnImportContent | RadEditor for ASP.NET AJAX Documentation
-description: OnImportContent
+page_title: OnImportContent - RadEditor
+description: Check our Web Forms article about OnImportContent.
 slug: editor/server-side-programming/events/onimportcontent
 tags: onimportcontent
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadWizard for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadWizard
+description: Check our Web Forms article about Known Limitations.
 slug: wizard/troubleshooting/known-limitations
 tags: known,limitations
 published: True

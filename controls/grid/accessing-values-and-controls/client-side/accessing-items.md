@@ -1,7 +1,7 @@
 ---
 title: Accessing Items
-page_title: Accessing items Client-Side - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing Grid Items on Client
+page_title: Accessing items Client-Side - RadGrid
+description: Check our Web Forms article about Accessing Grid Items on Client.
 slug: grid/accessing-values-and-controls/client-side/accessing-items
 published: True
 position: 2

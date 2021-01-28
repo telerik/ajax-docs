@@ -1,7 +1,7 @@
 ---
 title: set_html
-page_title: set_html | RadEditor for ASP.NET AJAX Documentation
-description: set_html
+page_title: set_html - RadEditor
+description: Check our Web Forms article about set_html.
 slug: editor/client-side-programming/methods/set_html
 tags: set_html
 published: True

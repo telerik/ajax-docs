@@ -1,7 +1,7 @@
 ---
 title: Progress Bar
-page_title: Progress Bar | RadWizard for ASP.NET AJAX Documentation
-description: Progress Bar
+page_title: Progress Bar - RadWizard
+description: Check our Web Forms article about Progress Bar.
 slug: wizard/structure/progress-bar
 tags: progress,bar
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientShortCutHit
-page_title: OnClientShortCutHit | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientShortCutHit
+page_title: OnClientShortCutHit - RadImageEditor
+description: Check our Web Forms article about OnClientShortCutHit.
 slug: imageeditor/client-side-programming/events/onclientshortcuthit
 tags: onclientshortcuthit
 published: True

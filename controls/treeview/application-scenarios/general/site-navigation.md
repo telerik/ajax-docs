@@ -1,7 +1,7 @@
 ---
 title: Site Navigation
-page_title: Site Navigation | RadTreeView for ASP.NET AJAX Documentation
-description: Site Navigation
+page_title: Site Navigation - RadTreeView
+description: Check our Web Forms article about Site Navigation.
 slug: treeview/application-scenarios/general/site-navigation
 tags: site,navigation
 published: True

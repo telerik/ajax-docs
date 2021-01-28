@@ -1,7 +1,7 @@
 ---
 title: Custom Shapes and Connectors
-page_title: Custom Shapes and Connectors | RadDiagram for ASP.NET AJAX Documentation
-description: Custom Shapes and Connectors
+page_title: Custom Shapes and Connectors - RadDiagram
+description: Check our Web Forms article about Custom Shapes and Connectors.
 slug: diagram/how-to/custom-shapes-and-connectors
 tags: custom,shapes,and,connectors
 published: True

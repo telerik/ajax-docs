@@ -1,7 +1,7 @@
 ---
 title: Data and Layout
-page_title: Data and Layout | RadListView for ASP.NET AJAX Documentation
-description: Data and Layout
+page_title: Data and Layout - RadListView
+description: Check our Web Forms article about Data and Layout.
 slug: listview/templates/data-and-layout
 tags: data,and,layout
 published: True

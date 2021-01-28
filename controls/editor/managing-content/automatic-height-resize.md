@@ -1,7 +1,7 @@
 ---
 title: Automatic Height Resize
-page_title: Automatic Height Resize | RadEditor for ASP.NET AJAX Documentation
-description: Automatic Height Resize
+page_title: Automatic Height Resize - RadEditor
+description: Check our Web Forms article about Automatic Height Resize.
 slug: editor/managing-content/automatic-height-resize
 tags: automatic,height,resize
 published: True

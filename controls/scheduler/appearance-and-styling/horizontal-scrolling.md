@@ -1,7 +1,7 @@
 ---
 title: Horizontal Scrolling
-page_title: Horizontal Scrolling | RadScheduler for ASP.NET AJAX Documentation
-description: Horizontal Scrolling
+page_title: Horizontal Scrolling - RadScheduler
+description: Check our Web Forms article about Horizontal Scrolling.
 slug: scheduler/appearance-and-styling/horizontal-scrolling
 tags: horizontal,scrolling
 published: True

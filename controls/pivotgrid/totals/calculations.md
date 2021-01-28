@@ -1,7 +1,7 @@
 ---
 title: Calculations
-page_title: Calculations | RadPivotGrid for ASP.NET AJAX Documentation
-description: Calculations
+page_title: Calculations - RadPivotGrid
+description: Check our Web Forms article about Calculations.
 slug: pivotgrid/totals/calculations
 tags: calculations
 published: True

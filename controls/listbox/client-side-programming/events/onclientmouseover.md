@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadListBox for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadListBox
+description: Check our Web Forms article about OnClientMouseOver.
 slug: listbox/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True

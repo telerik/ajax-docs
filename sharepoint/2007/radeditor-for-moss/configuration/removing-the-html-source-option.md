@@ -1,7 +1,7 @@
 ---
 title: Removing the HTML source option
-page_title: Removing the HTML source option | UI for ASP.NET AJAX Documentation
-description: Removing the HTML source option
+page_title: Removing the HTML source option
+description: Check our Web Forms article about Removing the HTML source option.
 slug: sharepoint/2007/radeditor-for-moss/configuration/removing-the-html-source-option
 tags: removing,the,html,source,option
 published: True

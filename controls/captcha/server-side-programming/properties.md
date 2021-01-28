@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: Properties | RadCaptcha for ASP.NET AJAX Documentation
-description: Properties
+page_title: Properties - RadCaptcha
+description: Check our Web Forms article about Properties.
 slug: captcha/server-side-programming/properties
 tags: properties
 published: True

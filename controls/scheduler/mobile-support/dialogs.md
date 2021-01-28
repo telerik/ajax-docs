@@ -1,7 +1,7 @@
 ---
 title: Dialogs
-page_title: Dialogs | RadScheduler for ASP.NET AJAX Documentation
-description: Dialogs
+page_title: Dialogs - RadScheduler
+description: Check our Web Forms article about Dialogs.
 slug: scheduler/mobile-support/dialogs
 tags: dialogs
 published: True

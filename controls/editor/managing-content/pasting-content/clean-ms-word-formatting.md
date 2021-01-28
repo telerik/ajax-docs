@@ -1,7 +1,7 @@
 ---
 title: Clean MS Word Formatting 
-page_title: Clean MS Word Formatting  | RadEditor for ASP.NET AJAX Documentation
-description: Clean MS Word Formatting 
+page_title: Clean MS Word Formatting - RadEditor
+description: Check our Web Forms article about Clean MS Word Formatting.
 slug: editor/managing-content/pasting-content/clean-ms-word-formatting-
 tags: clean,ms,word,formatting,
 published: True

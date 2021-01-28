@@ -1,7 +1,7 @@
 ---
 title: Change Filter Items
-page_title: Change Filter Items | RadGrid for ASP.NET AJAX Documentation
-description: Change Filter Items
+page_title: Change Filter Items - RadGrid
+description: Check our Web Forms article about Change Filter Items.
 slug: grid/how-to/filtering/change-filter-items
 previous_url: controls/grid/functionality/filtering/how-to/change-filter-items
 tags: change,filter,items

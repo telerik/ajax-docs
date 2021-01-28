@@ -1,7 +1,7 @@
 ---
 title: Create Project
-page_title: Create Project | UI for ASP.NET AJAX Documentation
-description: Create Project
+page_title: Create Project
+description: Check our Web Forms article about Create Project.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard
 tags: creation,and,configuration,wizard
 published: True

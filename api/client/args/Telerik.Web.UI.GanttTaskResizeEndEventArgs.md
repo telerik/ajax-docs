@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttTaskResizeEndEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttTaskResizeEndEventArgs
 slug: Telerik.Web.UI.GanttTaskResizeEndEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Rich User Interaction
-page_title: Rich User Interaction | RadDiagram for ASP.NET AJAX Documentation
-description: Rich User Interaction
+page_title: Rich User Interaction - RadDiagram
+description: Check our Web Forms article about Rich User Interaction.
 slug: diagram/functionality/rich-user-interaction
 tags: rich,user,interaction
 published: True

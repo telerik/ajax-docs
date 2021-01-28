@@ -1,7 +1,7 @@
 ---
 title: OnSelectedIndexChanged
-page_title: OnSelectedIndexChanged | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnSelectedIndexChanged
+page_title: OnSelectedIndexChanged - RadRadioButtonList
+description: Check our Web Forms article about OnSelectedIndexChanged.
 slug: radiobuttonlist/client-side-programming/events/onselectedindexchanged
 tags: onselectedindexchanged
 published: True

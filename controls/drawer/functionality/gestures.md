@@ -1,7 +1,7 @@
 ---
 title: Gestures
-page_title: Gestures | RadDrawer for ASP.NET AJAX Documentation
-description: Gestures
+page_title: Gestures - RadDrawer
+description: Check our Web Forms article about Gestures.
 slug: drawer/functionality/gestures
 tags: gestures
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadBarcode for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadBarcode
+description: Check our Web Forms article about Design Time.
 slug: barcode/design-time
 tags: design,time
 published: True

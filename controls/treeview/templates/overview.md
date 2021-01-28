@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadTreeView for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadTreeView
+description: Check our Web Forms article about Overview.
 slug: treeview/templates/overview
 tags: overview
 published: True

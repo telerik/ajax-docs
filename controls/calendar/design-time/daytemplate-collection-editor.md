@@ -1,7 +1,7 @@
 ---
 title: DayTemplate Collection Editor
-page_title: DayTemplate Collection Editor | RadCalendar for ASP.NET AJAX Documentation
-description: DayTemplate Collection Editor
+page_title: DayTemplate Collection Editor - RadCalendar
+description: Check our Web Forms article about DayTemplate Collection Editor.
 slug: calendar/design-time/daytemplate-collection-editor
 tags: daytemplate,collection,editor
 published: True

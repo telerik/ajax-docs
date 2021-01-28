@@ -1,7 +1,7 @@
 ---
 title: OnClientContextMenuShowing
-page_title: OnClientContextMenuShowing | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientContextMenuShowing
+page_title: OnClientContextMenuShowing - RadTreeView
+description: Check our Web Forms article about OnClientContextMenuShowing.
 slug: treeview/client-side-programming/events/onclientcontextmenushowing
 tags: onclientcontextmenushowing
 published: True

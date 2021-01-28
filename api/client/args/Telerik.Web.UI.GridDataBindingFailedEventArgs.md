@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridDataBindingFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridDataBindingFailedEventArgs
 slug: Telerik.Web.UI.GridDataBindingFailedEventArgs
 ---

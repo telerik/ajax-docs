@@ -1,7 +1,7 @@
 ---
 title: Missing Borders, TitleBar, Commands
-page_title: Missing Borders, TitleBar, Commands | RadWindow for ASP.NET AJAX Documentation
-description: Missing Borders, TitleBar, Commands
+page_title: Missing Borders, TitleBar, Commands - RadWindow
+description: Check our Web Forms article about Missing Borders, TitleBar, Commands.
 slug: window/troubleshooting/missing-borders,-titlebar,-commands
 tags: missing,borders,,titlebar,,commands
 published: True

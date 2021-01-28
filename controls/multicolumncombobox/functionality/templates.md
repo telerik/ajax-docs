@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadMultiColumnComboBox
+description: Check our Web Forms article about Templates.
 slug: multicolumncombobox/functionality/templates
 tags: template,client
 published: True

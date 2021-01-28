@@ -1,7 +1,7 @@
 ---
 title: Toolbars and Menus
-page_title: Toolbars and Menus | RadEditor for ASP.NET AJAX Documentation
-description: Toolbars and Menus
+page_title: Toolbars and Menus - RadEditor
+description: Check our Web Forms article about Toolbars and Menus.
 slug: editor/getting-started/toolbars-and-menus
 tags: toolbars,and,menus
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientMouseOver
+page_title: OnClientMouseOver - RadPanelBar
+description: Check our Web Forms article about OnClientMouseOver.
 slug: panelbar/client-side-programming/onclientmouseover
 tags: onclientmouseover
 published: True

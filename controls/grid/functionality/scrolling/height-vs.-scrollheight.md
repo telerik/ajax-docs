@@ -1,7 +1,7 @@
 ---
 title: Height vs. ScrollHeight
-page_title: Height vs. ScrollHeight | RadGrid for ASP.NET AJAX Documentation
-description: Height vs. ScrollHeight
+page_title: Height vs. ScrollHeight - RadGrid
+description: Check our Web Forms article about Height vs. ScrollHeight.
 slug: grid/functionality/scrolling/height-vs.-scrollheight
 tags: height,vs.,scrollheight
 published: True

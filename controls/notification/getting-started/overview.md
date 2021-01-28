@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Getting Started Overview | RadNotification for ASP.NET AJAX Documentation
-description: Overview
+page_title: Getting Started Overview - RadNotification
+description: Check our Web Forms article about Overview.
 slug: notification/getting-started/overview
 tags: overview
 published: True

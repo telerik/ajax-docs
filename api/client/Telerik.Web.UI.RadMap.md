@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMap
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMap
 slug: Telerik.Web.UI.RadMap
 ---

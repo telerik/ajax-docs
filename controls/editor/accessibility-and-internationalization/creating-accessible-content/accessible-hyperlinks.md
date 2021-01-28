@@ -1,7 +1,7 @@
 ---
 title: Accessible Hyperlinks
-page_title: Accessible Hyperlinks | RadEditor for ASP.NET AJAX Documentation
-description: Accessible Hyperlinks
+page_title: Accessible Hyperlinks - RadEditor
+description: Check our Web Forms article about Accessible Hyperlinks.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-hyperlinks
 tags: accessible,hyperlinks
 published: True

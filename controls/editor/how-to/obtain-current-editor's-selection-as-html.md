@@ -1,7 +1,7 @@
 ---
 title: Obtain Current Editor's Selection as HTML
-page_title: Obtain Current Editor's Selection as HTML | RadEditor for ASP.NET AJAX Documentation
-description: Obtain Current Editor's Selection as HTML
+page_title: Obtain Current Editor's Selection as HTML - RadEditor
+description: Check our Web Forms article about Obtain Current Editor's Selection as HTML.
 slug: editor/how-to/obtain-current-editor's-selection-as-html
 tags: obtain,current,editor's,selection,as,html
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ItemsRequested
-page_title: ItemsRequested | RadListBox for ASP.NET AJAX Documentation
-description: ItemsRequested
+page_title: ItemsRequested - RadListBox
+description: Check our Web Forms article about ItemsRequested.
 slug: listbox/server-side-programming/server-events/itemsrequested
 tags: itemsrequested
 published: True

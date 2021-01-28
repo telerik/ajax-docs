@@ -1,7 +1,7 @@
 ---
 title: Cross-Page Postback
-page_title: Cross-Page Postback | RadToolBar for ASP.NET AJAX Documentation
-description: Cross-Page Postback
+page_title: Cross-Page Postback - RadToolBar
+description: Check our Web Forms article about Cross-Page Postback.
 slug: toolbar/web-pages/cross-page-postback
 tags: cross-page,postback
 published: True

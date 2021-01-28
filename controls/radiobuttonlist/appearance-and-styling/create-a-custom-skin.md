@@ -1,7 +1,7 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Create a Custom Skin
+page_title: Create a Custom Skin - RadRadioButtonList
+description: Check our Web Forms article about Create a Custom Skin.
 slug: radiobuttonlist/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAsyncUploadValidationFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAsyncUploadValidationFailedEventArgs
 slug: Telerik.Web.UI.RadAsyncUploadValidationFailedEventArgs
 ---

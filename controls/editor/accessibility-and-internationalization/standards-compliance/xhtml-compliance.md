@@ -1,7 +1,7 @@
 ---
 title: XHTML Compliance
-page_title: XHTML Compliance | RadEditor for ASP.NET AJAX Documentation
-description: XHTML Compliance
+page_title: XHTML Compliance - RadEditor
+description: Check our Web Forms article about XHTML Compliance.
 slug: editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance
 tags: xhtml,compliance
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height
-page_title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height | RadTreeList for ASP.NET AJAX Documentation
-description: Resizing TreeList with Scrolling when Data is Less Than Scroll Height
+page_title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height - RadTreeList
+description: Check our Web Forms article about Resizing TreeList with Scrolling when Data is Less Than Scroll Height.
 slug: treelist/functionality/scrolling/how-to/resizing-treelist-with-scrolling-when-data-is-less-than-scroll-height
 tags: resizing,treelist,with,scrolling,when,data,is,less,than,scroll,height
 published: True

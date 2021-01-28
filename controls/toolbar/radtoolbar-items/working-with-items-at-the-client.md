@@ -1,7 +1,7 @@
 ---
 title: Working With Items at the Client
-page_title: Working With Items at the Client | RadToolBar for ASP.NET AJAX Documentation
-description: Working With Items at the Client
+page_title: Working With Items at the Client - RadToolBar
+description: Check our Web Forms article about Working With Items at the Client.
 slug: toolbar/radtoolbar-items/working-with-items-at-the-client
 tags: working,with,items,at,the,client
 published: True

@@ -1,7 +1,7 @@
 ---
 title: jQuery Intellisense
-page_title: jQuery Intellisense | UI for ASP.NET AJAX Documentation
-description: jQuery Intellisense
+page_title: jQuery Intellisense
+description: Check our Web Forms article about jQuery Intellisense.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense
 tags: jquery,intellisense
 published: True

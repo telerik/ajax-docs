@@ -1,7 +1,7 @@
 ---
 title: ExternalDialogsPath property
-page_title: ExternalDialogsPath property | UI for ASP.NET AJAX Documentation
-description: ExternalDialogsPath property
+page_title: ExternalDialogsPath property
+description: Check our Web Forms article about ExternalDialogsPath property.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/externaldialogspath-property
 tags: externaldialogspath,property
 published: True

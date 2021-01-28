@@ -1,7 +1,7 @@
 ---
 title: Set Properties Via Config File
-page_title: Set Properties Via Config File | UI for ASP.NET AJAX Documentation
-description: Set Properties Via Config File
+page_title: Set Properties Via Config File
+description: Check our Web Forms article about Set Properties Via Config File.
 slug: sharepoint/2007/radeditor-for-moss/configuration/set-properties-via-config-file
 tags: set,properties,via,config,file
 published: True

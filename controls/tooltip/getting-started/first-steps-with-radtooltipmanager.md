@@ -1,7 +1,7 @@
 ---
 title: FIrst Steps with RadToolTipManager
-page_title: FIrst Steps with RadToolTipManager | RadTooltip for ASP.NET AJAX Documentation
-description: FIrst Steps with RadToolTipManager
+page_title: FIrst Steps with RadToolTipManager - RadTooltip
+description: Check our Web Forms article about FIrst Steps with RadToolTipManager.
 slug: tooltip/getting-started/first-steps-with-radtooltipmanager
 tags: first,steps,with,radtooltipmanager
 published: True

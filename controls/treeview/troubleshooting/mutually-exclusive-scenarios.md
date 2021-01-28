@@ -1,7 +1,7 @@
 ---
 title: Mutually Exclusive Scenarios
-page_title: Mutually Exclusive Scenarios | RadTreeView for ASP.NET AJAX Documentation
-description: Mutually Exclusive Scenarios
+page_title: Mutually Exclusive Scenarios - RadTreeView
+description: Check our Web Forms article about Mutually Exclusive Scenarios.
 slug: treeview/troubleshooting/mutually-exclusive-scenarios
 tags: mutually,exclusive,scenarios
 published: True

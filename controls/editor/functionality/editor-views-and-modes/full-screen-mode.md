@@ -1,7 +1,7 @@
 ---
 title: Full Screen Mode
-page_title: Full Screen Mode | RadEditor for ASP.NET AJAX Documentation
-description: Full Screen Mode
+page_title: Full Screen Mode - RadEditor
+description: Check our Web Forms article about Full Screen Mode.
 slug: editor/functionality/editor-views-and-modes/full-screen-mode
 tags: full,screen,mode
 published: True

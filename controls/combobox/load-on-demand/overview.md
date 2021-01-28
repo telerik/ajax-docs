@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Load On Demand Overview | RadComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Load On Demand Overview - RadComboBox
+description: Check our Web Forms article about Overview.
 slug: combobox/load-on-demand/overview
 tags: overview
 published: True

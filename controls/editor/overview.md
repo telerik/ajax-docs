@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview
+description: Check our Web Forms article about Overview.
 slug: editor/overview
 tags: overview
 published: True

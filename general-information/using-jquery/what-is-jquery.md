@@ -1,7 +1,7 @@
 ---
 title: What is jQuery
-page_title: What is jQuery | UI for ASP.NET AJAX Documentation
-description: What is jQuery?
+page_title: What is jQuery
+description: Check our Web Forms article about What is jQuery?.
 slug: general-information/using-jquery/what-is-jquery
 tags: what is,jquery
 published: True

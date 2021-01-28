@@ -1,7 +1,7 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | RadSocialShare for ASP.NET AJAX Documentation
-description: Right-to-left Support
+page_title: Right-to-left Support - RadSocialShare
+description: Check our Web Forms article about Right-to-left Support.
 slug: socialshare/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True

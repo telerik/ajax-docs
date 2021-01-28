@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadWizard
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadWizard
 slug: Telerik.Web.UI.RadWizard
 ---

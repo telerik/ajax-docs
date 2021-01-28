@@ -1,7 +1,7 @@
 ---
 title: OnClientDragging
-page_title: OnClientDragging | RadListBox for ASP.NET AJAX Documentation
-description: OnClientDragging
+page_title: OnClientDragging - RadListBox
+description: Check our Web Forms article about OnClientDragging.
 slug: listbox/client-side-programming/events/onclientdragging
 tags: onclientdragging
 published: True

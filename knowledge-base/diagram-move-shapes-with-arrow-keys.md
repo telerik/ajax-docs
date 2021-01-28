@@ -1,8 +1,8 @@
 ---
 title: Move Shapes with Arrow Keys
-description: Example showng how to move shapes in RadDiagram with arrow keys
+description: Example showng how to move shapes in RadDiagram with arrow keys.
 type: how-to
-page_title: Move Shapes with Arrow Keys - RadDiagram | Telerik UI For ASP.NET AJAX
+page_title: Move Shapes with Arrow Keys - RadDiagram - Telerik UI For ASP.NET AJAX
 slug: move-shapes-with-arrow-keys
 position: 
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: Print the Chart
-page_title: Print the Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Print the Chart
+page_title: Print the Chart - RadHtmlChart
+description: Check our Web Forms article about Print the Chart.
 slug: htmlchart/how-to/print-the-chart
 tags: print,the,chart
 published: True

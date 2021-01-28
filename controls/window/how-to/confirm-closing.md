@@ -1,7 +1,7 @@
 ---
 title: Confirm Closing
-page_title: Confirm Closing | RadWindow for ASP.NET AJAX Documentation
-description: Confirm Closing
+page_title: Confirm Closing - RadWindow
+description: Check our Web Forms article about Confirm Closing.
 slug: window/how-to/confirm-closing
 tags: confirm,closing
 published: True

@@ -1,7 +1,7 @@
 ---
 title:  DockPositionChanged
-page_title:  DockPositionChanged | RadDock for ASP.NET AJAX Documentation
-description:  DockPositionChanged
+page_title: DockPositionChanged - RadDock
+description: Check our Web Forms article about DockPositionChanged.
 slug: dock/server-side-programming/events/dockpositionchanged
 tags: dockpositionchanged
 published: True

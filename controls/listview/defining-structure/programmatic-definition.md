@@ -1,7 +1,7 @@
 ---
 title: Programmatic Definition
-page_title: Programmatic Definition | RadListView for ASP.NET AJAX Documentation
-description: Programmatic Definition
+page_title: Programmatic Definition - RadListView
+description: Check our Web Forms article about Programmatic Definition.
 slug: listview/defining-structure/programmatic-definition
 tags: programmatic,definition
 published: True

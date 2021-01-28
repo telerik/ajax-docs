@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.CalendarDateSelectedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CalendarDateSelectedEventArgs
 slug: Telerik.Web.UI.CalendarDateSelectedEventArgs
 ---

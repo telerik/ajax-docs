@@ -1,7 +1,7 @@
 ---
 title: Comments
-page_title: Comments | RadEditor for ASP.NET AJAX Documentation
-description: Comments
+page_title: Comments - RadEditor
+description: Check our Web Forms article about Comments.
 slug: editor/functionality/track-changes-and-comments/comments
 tags: comments
 published: True

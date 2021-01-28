@@ -1,7 +1,7 @@
 ---
 title: Chat Object
-page_title: RadChat Object | RadChat for ASP.NET AJAX Documentation
-description: RadChat Object 
+page_title: RadChat Object - RadChat
+description: Check our Web Forms article about RadChat Object.
 slug: chat/client-side-programming/objects/radchat
 tags: chatobject
 published: True

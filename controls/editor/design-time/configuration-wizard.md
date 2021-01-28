@@ -1,7 +1,7 @@
 ---
 title: Configuration Wizard
-page_title: Configuration Wizard | RadEditor for ASP.NET AJAX Documentation
-description: Configuration Wizard
+page_title: Configuration Wizard - RadEditor
+description: Check our Web Forms article about Configuration Wizard.
 slug: editor/design-time/configuration-wizard
 tags: configuration,wizard
 published: True

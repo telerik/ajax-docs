@@ -1,7 +1,7 @@
 ---
 title: ImageAndText Tile
-page_title: ImageAndText Tile | RadTile for ASP.NET AJAX Documentation
-description: ImageAndText Tile
+page_title: ImageAndText Tile - RadTile
+description: Check our Web Forms article about ImageAndText Tile.
 slug: tilelist/tiles/imageandtext-tile
 tags: imageandtext,tile
 published: True

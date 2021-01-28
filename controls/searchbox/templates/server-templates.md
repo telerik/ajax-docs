@@ -1,7 +1,7 @@
 ---
 title: Server Templates
-page_title: Server Templates | RadSearchBox for ASP.NET AJAX Documentation
-description: Server Templates
+page_title: Server Templates - RadSearchBox
+description: Check our Web Forms article about Server Templates.
 slug: searchbox/templates/server-templates
 tags: server,templates
 published: True

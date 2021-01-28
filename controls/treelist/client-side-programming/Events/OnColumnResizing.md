@@ -1,7 +1,7 @@
 ---
 title: OnColumnResizing
-page_title: OnColumnResizing | RadTreeList for ASP.NET AJAX Documentation
-description: OnColumnResizing Event
+page_title: OnColumnResizing - RadTreeList
+description: Check our Web Forms article about OnColumnResizing Event.
 slug: treelist/client-side-programming/Events/OnColumnResizing
 tags: events,OnColumnResizing
 published: True

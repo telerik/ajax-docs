@@ -1,7 +1,7 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | RadNavigation for ASP.NET AJAX Documentation
-description: Accessing Controls Inside Templates
+page_title: Accessing Controls Inside Templates - RadNavigation
+description: Check our Web Forms article about Accessing Controls Inside Templates.
 slug: navigation/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
 published: True

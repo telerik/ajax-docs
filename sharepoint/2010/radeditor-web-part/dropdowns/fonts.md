@@ -1,7 +1,7 @@
 ---
 title: Fonts
-page_title: Fonts | UI for ASP.NET AJAX Documentation
-description: Fonts
+page_title: Fonts
+description: Check our Web Forms article about Fonts.
 slug: sharepoint/2010/radeditor-web-part/dropdowns/fonts
 tags: fonts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Events Overview
-page_title: Overview | RadDropDownTree for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadDropDownTree
+description: Check our Web Forms article about Overview.
 slug: dropdowntree/client-side-programming/events/overview
 tags: overview
 published: True

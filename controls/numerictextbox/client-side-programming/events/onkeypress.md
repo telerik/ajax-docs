@@ -1,7 +1,7 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnKeyPress
+page_title: OnKeyPress - RadNumericTextBox
+description: Check our Web Forms article about OnKeyPress.
 slug: numerictextbox/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True

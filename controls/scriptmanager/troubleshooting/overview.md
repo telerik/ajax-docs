@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Troubleshooting Overview | RadScriptManager for ASP.NET AJAX Documentation
-description: Overview
+page_title: Troubleshooting Overview - RadScriptManager
+description: Check our Web Forms article about Overview.
 slug: scriptmanager/troubleshooting/overview
 tags: overview
 published: True

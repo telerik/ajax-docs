@@ -1,7 +1,7 @@
 ---
 title: Collections
-page_title: Collections | RadSocialShare for ASP.NET AJAX Documentation
-description: Collections
+page_title: Collections - RadSocialShare
+description: Check our Web Forms article about Collections.
 slug: socialshare/configuring-buttons/collections
 tags: collections
 published: True

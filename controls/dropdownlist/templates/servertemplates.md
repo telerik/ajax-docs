@@ -1,7 +1,7 @@
 ---
 title: ServerTemplates
-page_title: ServerTemplates | RadDropDownList for ASP.NET AJAX Documentation
-description: ServerTemplates
+page_title: ServerTemplates - RadDropDownList
+description: Check our Web Forms article about ServerTemplates.
 slug: dropdownlist/templates/servertemplates
 tags: servertemplates
 published: True

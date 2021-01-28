@@ -1,7 +1,7 @@
 ---
 title: Using WebFarm or WebGarden Environment
-page_title: Using WebFarm or WebGarden Environment | RadCaptcha for ASP.NET AJAX Documentation
-description: Using WebFarm or WebGarden Environment
+page_title: Using WebFarm or WebGarden Environment - RadCaptcha
+description: Check our Web Forms article about Using WebFarm or WebGarden Environment.
 slug: captcha/troubleshooting/using-webfarm-or-webgarden-environment
 tags: using,webfarm,or,webgarden,environment
 published: True

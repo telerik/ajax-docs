@@ -1,7 +1,7 @@
 ---
 title: Server-side
-page_title: Server-side | RadMap for ASP.NET AJAX Documentation
-description: Server-side
+page_title: Server-side - RadMap
+description: Check our Web Forms article about Server-side.
 slug: map/data-binding/server-side
 tags: server-side
 published: True

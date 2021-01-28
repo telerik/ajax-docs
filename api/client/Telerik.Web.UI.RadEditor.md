@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadEditor
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadEditor
 slug: Telerik.Web.UI.RadEditor
 ---

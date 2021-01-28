@@ -1,7 +1,7 @@
 ---
 title: ButtonToggle
-page_title: ButtonToggle | RadRibbonBar for ASP.NET AJAX Documentation
-description: ButtonToggle
+page_title: ButtonToggle - RadRibbonBar
+description: Check our Web Forms article about ButtonToggle.
 slug: ribbonbar/server-side-programming/events/buttontoggle
 tags: buttontoggle
 published: True

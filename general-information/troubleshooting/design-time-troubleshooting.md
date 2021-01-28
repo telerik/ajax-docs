@@ -1,7 +1,7 @@
 ---
 title: Design-time Troubleshooting
-page_title: Design-time Troubleshooting | UI for ASP.NET AJAX Documentation
-description: Design-time Troubleshooting
+page_title: Design-time Troubleshooting
+description: Check our Web Forms article about Design-time Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting
 tags: design-time,troubleshooting
 published: True

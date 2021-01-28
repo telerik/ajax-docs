@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxContextMenuEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxContextMenuEventArgs
 slug: Telerik.Web.UI.ListBoxContextMenuEventArgs
 ---

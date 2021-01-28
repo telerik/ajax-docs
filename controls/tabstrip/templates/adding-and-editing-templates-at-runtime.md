@@ -1,7 +1,7 @@
 ---
 title: Adding and Editing Templates at Runtime
-page_title: Adding and Editing Templates at Runtime | RadTabStrip for ASP.NET AJAX Documentation
-description: Adding and Editing Templates at Runtime
+page_title: Adding and Editing Templates at Runtime - RadTabStrip
+description: Check our Web Forms article about Adding and Editing Templates at Runtime.
 slug: tabstrip/templates/adding-and-editing-templates-at-runtime
 tags: adding,and,editing,templates,at,runtime
 published: True

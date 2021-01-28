@@ -1,7 +1,7 @@
 ---
 title: OnTableCreated
-page_title: OnTableCreated | RadGrid for ASP.NET AJAX Documentation
-description: OnTableCreated
+page_title: OnTableCreated - RadGrid
+description: Check our Web Forms article about OnTableCreated.
 slug: grid/client-side-programming/events/ontablecreated
 tags: ontablecreated
 published: True

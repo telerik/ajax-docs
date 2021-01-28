@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Structure Overview | RadDock for ASP.NET AJAX Documentation
-description: Overview
+page_title: Structure Overview - RadDock
+description: Check our Web Forms article about Overview.
 slug: dock/structure/overview
 tags: overview
 published: True

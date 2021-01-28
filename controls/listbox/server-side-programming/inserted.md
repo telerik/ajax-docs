@@ -1,7 +1,7 @@
 ---
 title: Inserted
-page_title: Inserted | RadListBox for ASP.NET AJAX Documentation
-description: Inserted
+page_title: Inserted - RadListBox
+description: Check our Web Forms article about Inserted.
 slug: listbox/server-side-programming/server-events/inserted
 tags: inserted
 published: True

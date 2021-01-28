@@ -1,7 +1,7 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | RadGantt for ASP.NET AJAX Documentation
-description: Web Service Binding
+page_title: Web Service Binding - RadGantt
+description: Check our Web Forms article about Web Service Binding.
 slug: gantt/data-binding/client-side-binding/web-service-binding
 tags: web,service,binding
 published: True

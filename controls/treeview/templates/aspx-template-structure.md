@@ -1,7 +1,7 @@
 ---
 title: ASPX Template Structure
-page_title: ASPX Template Structure | RadTreeView for ASP.NET AJAX Documentation
-description: ASPX Template Structure
+page_title: ASPX Template Structure - RadTreeView
+description: Check our Web Forms article about ASPX Template Structure.
 slug: treeview/templates/aspx-template-structure
 tags: aspx,template,structure
 published: True

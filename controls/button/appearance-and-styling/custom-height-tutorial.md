@@ -1,7 +1,7 @@
 ---
 title: Custom Height Tutorial
-page_title: Custom Height Tutorial | RadButton for ASP.NET AJAX Documentation
-description: Custom Height Tutorial
+page_title: Custom Height Tutorial - RadButton
+description: Check our Web Forms article about Custom Height Tutorial.
 slug: button/appearance-and-styling/custom-height-tutorial
 tags: custom,height,tutorial
 published: True

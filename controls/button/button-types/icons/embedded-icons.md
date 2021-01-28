@@ -1,7 +1,7 @@
 ---
 title: Embedded Icons
-page_title: Embedded Icons | RadButton for ASP.NET AJAX Documentation
-description: Embedded Icons
+page_title: Embedded Icons - RadButton
+description: Check our Web Forms article about Embedded Icons.
 slug: button/button-types/icons/embedded-icons
 tags: embedded,icons
 published: True

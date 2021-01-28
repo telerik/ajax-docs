@@ -1,7 +1,7 @@
 ---
 title: editSelectedItems
-page_title: editSelectedItems | RadGrid for ASP.NET AJAX Documentation
-description: editSelectedItems
+page_title: editSelectedItems - RadGrid
+description: Check our Web Forms article about editSelectedItems.
 slug: grid/client-side-programming/gridtableview-object/methods/editselecteditems
 tags: editselecteditems
 published: True

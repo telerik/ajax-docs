@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadSearchBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadSearchBox
+description: Check our Web Forms article about Overview.
 slug: searchbox/templates/overview
 tags: overview
 published: True

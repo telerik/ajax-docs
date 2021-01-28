@@ -1,6 +1,6 @@
 ---
 title: RadSpell error - Web.config registration missing
-description: When users click on the RadSpell control, they get a Web.config registration missing? and a 404 - File or directory not found error
+description: When users click on the RadSpell control, they get a Web.config registration missing? and a 404 - File or directory not found error.
 type: troubleshooting
 page_title: RadSpell Error Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
 slug: spell-error-web-config-registration-missing

@@ -1,7 +1,7 @@
 ---
 title: Sorting
-page_title: Sorting | RadTreeList for ASP.NET AJAX Documentation
-description: Sorting
+page_title: Sorting - RadTreeList
+description: Check our Web Forms article about Sorting.
 slug: treelist/functionality/sorting
 tags: sorting
 published: True

@@ -1,6 +1,6 @@
 ---
 title: Context menus do not work on iPads after latest iOS update 13
-description: In iPad with iOS 13 update, the context menu is not opening in Safari
+description: In iPad with iOS 13 update, the context menu is not opening in Safari.
 type: troubleshooting
 page_title: Context menus not working in iPads with iOS 13
 slug: contextmenu-not-working-ipad-ios13-safari

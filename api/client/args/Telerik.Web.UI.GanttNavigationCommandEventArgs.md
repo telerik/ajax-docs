@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttNavigationCommandEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttNavigationCommandEventArgs
 slug: Telerik.Web.UI.GanttNavigationCommandEventArgs
 ---

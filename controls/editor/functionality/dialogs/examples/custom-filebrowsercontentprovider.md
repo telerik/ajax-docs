@@ -1,7 +1,7 @@
 ---
 title: Custom FileBrowserContentProvider
-page_title: Custom FileBrowserContentProvider | RadEditor for ASP.NET AJAX Documentation
-description: Custom FileBrowserContentProvider
+page_title: Custom FileBrowserContentProvider - RadEditor
+description: Check our Web Forms article about Custom FileBrowserContentProvider.
 slug: editor/functionality/dialogs/examples/custom-filebrowsercontentprovider
 tags: custom,filebrowsercontentprovider
 published: True

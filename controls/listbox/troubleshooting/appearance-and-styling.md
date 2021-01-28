@@ -1,7 +1,7 @@
 ---
 title: Appearance and Styling
-page_title: Appearance and Styling | RadListBox for ASP.NET AJAX Documentation
-description: Appearance and Styling
+page_title: Appearance and Styling - RadListBox
+description: Check our Web Forms article about Appearance and Styling.
 slug: listbox/troubleshooting/appearance-and-styling
 tags: appearance,and,styling
 published: True

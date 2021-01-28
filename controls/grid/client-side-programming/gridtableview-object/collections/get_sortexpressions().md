@@ -1,7 +1,7 @@
 ---
 title: get_sortExpressions()
-page_title: get_sortExpressions() | RadGrid for ASP.NET AJAX Documentation
-description: get_sortExpressions()
+page_title: get_sortExpressions() - RadGrid
+description: Check our Web Forms article about get_sortExpressions().
 slug: grid/client-side-programming/gridtableview-object/collections/get_sortexpressions()
 tags: get_sortexpressions()
 published: True

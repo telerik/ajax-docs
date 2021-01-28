@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadColorPicker for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadColorPicker
+description: Check our Web Forms article about Structure.
 slug: colorpicker/getting-started/structure
 tags: structure
 published: True

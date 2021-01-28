@@ -1,7 +1,7 @@
 ---
 title: Tree
-page_title: Tree | RadDiagram for ASP.NET AJAX Documentation
-description: Tree
+page_title: Tree - RadDiagram
+description: Check our Web Forms article about Tree.
 slug: diagram/structure/layout/tree
 tags: tree
 published: True

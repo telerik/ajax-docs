@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadSpreadProcessing for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadSpreadProcessing
+description: Check our Web Forms article about Overview.
 slug: radspreadprocessing-overview
 tags: overview
 published: True

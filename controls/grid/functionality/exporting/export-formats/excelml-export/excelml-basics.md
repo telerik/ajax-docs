@@ -1,7 +1,7 @@
 ---
 title: ExcelML basics
-page_title: ExcelML basics | RadGrid for ASP.NET AJAX Documentation
-description: ExcelML basics
+page_title: ExcelML basics - RadGrid
+description: Check our Web Forms article about ExcelML basics.
 slug: grid/functionality/exporting/export-formats/excelml-export/excelml-basics
 tags: excelml,basics
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | RadTooltip for ASP.NET AJAX Documentation
-description: Server-side Programming
+page_title: Server-side Programming Overview - RadTooltip
+description: Check our Web Forms article about Server-side Programming.
 slug: tooltip/server-side-programming
 tags: server-side,programming
 published: True

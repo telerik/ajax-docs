@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadDropDownTree for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadDropDownTree
+description: Check our Web Forms article about Filtering.
 slug: dropdowntree/functionality/filtering
 tags: filtering
 published: True

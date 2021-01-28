@@ -1,7 +1,7 @@
 ---
 title: Add RadAjaxManager Programmatically
-page_title: Add RadAjaxManager Programmatically | RadAjax for ASP.NET AJAX Documentation
-description: Add RadAjaxManager Programmatically
+page_title: Add RadAjaxManager Programmatically
+description: Check our Web Forms article about Add RadAjaxManager Programmatically.
 slug: ajaxmanager/how-to/add-radajaxmanager-programmatically
 previous_url: ajax/radajaxmanager/how-to/add-radajaxmanager-programmatically
 tags: add,radajaxmanager,programmatically

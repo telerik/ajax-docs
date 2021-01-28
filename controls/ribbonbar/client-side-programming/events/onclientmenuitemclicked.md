@@ -1,7 +1,7 @@
 ---
 title: OnClientMenuItemClicked
-page_title: OnClientMenuItemClicked | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientMenuItemClicked
+page_title: OnClientMenuItemClicked - RadRibbonBar
+description: Check our Web Forms article about OnClientMenuItemClicked.
 slug: ribbonbar/client-side-programming/events/onclientmenuitemclicked
 tags: onclientmenuitemclicked
 published: True

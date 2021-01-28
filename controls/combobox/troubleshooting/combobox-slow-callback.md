@@ -1,7 +1,7 @@
 ---
 title: Combobox Slow Callback
-page_title: Combobox Slow Callback | RadComboBox for ASP.NET AJAX Documentation
-description: Combobox Slow Callback
+page_title: Combobox Slow Callback - RadComboBox
+description: Check our Web Forms article about Combobox Slow Callback.
 slug: combobox/troubleshooting/combobox-slow-callback
 tags: combobox,slow,callback
 published: True

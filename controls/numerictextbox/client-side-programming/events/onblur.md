@@ -1,7 +1,7 @@
 ---
 title: OnBlur
-page_title: OnBlur | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnBlur
+page_title: OnBlur - RadNumericTextBox
+description: Check our Web Forms article about OnBlur.
 slug: numerictextbox/client-side-programming/events/onblur
 tags: onblur
 published: True

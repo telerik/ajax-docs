@@ -1,7 +1,7 @@
 ---
 title: Working with Nodes on the Server
-page_title: Working with Nodes on the Server | RadTreeView for ASP.NET AJAX Documentation
-description: Working with Nodes on the Server
+page_title: Working with Nodes on the Server - RadTreeView
+description: Check our Web Forms article about Working with Nodes on the Server.
 slug: treeview/radtreeview-nodes/working-with-nodes-at-the-server
 tags: working,with,nodes,at,the,server
 published: True

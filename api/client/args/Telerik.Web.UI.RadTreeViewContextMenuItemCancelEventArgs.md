@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs
 slug: Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs
 ---

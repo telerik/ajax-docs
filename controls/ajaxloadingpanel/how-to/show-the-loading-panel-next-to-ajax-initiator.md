@@ -1,7 +1,7 @@
 ---
 title: Show the Loading Panel next to AJAX Initiator
-page_title: Show the Loading Panel next to AJAX Initiator | RadAjax for ASP.NET AJAX Documentation
-description: Show the Loading Panel next to AJAX Initiator
+page_title: Show the Loading Panel next to AJAX Initiator
+description: Check our Web Forms article about Show the Loading Panel next to AJAX Initiator.
 slug: ajaxloadingpanel/how-to/show-the-loading-panel-next-to-ajax-initiator
 previous_url: ajax/radajaxloadingpanel/how-to/show-the-loading-panel-next-to-ajax-initiator
 tags: show,the,loading,panel,next,to,ajax,initiator

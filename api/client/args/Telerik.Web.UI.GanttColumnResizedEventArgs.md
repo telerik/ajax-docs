@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttColumnResizedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttColumnResizedEventArgs
 slug: Telerik.Web.UI.GanttColumnResizedEventArgs
 ---

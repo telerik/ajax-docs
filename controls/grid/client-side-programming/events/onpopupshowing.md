@@ -1,7 +1,7 @@
 ---
 title: OnPopUpShowing
-page_title: OnPopUpShowing | RadGrid for ASP.NET AJAX Documentation
-description: OnPopUpShowing
+page_title: OnPopUpShowing - RadGrid
+description: Check our Web Forms article about OnPopUpShowing.
 slug: grid/client-side-programming/events/onpopupshowing
 tags: onpopupshowing
 published: True

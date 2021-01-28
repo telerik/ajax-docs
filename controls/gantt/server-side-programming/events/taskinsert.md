@@ -1,7 +1,7 @@
 ---
 title: TaskInsert
-page_title: TaskInsert | RadGantt for ASP.NET AJAX Documentation
-description: TaskInsert
+page_title: TaskInsert - RadGantt
+description: Check our Web Forms article about TaskInsert.
 slug: gantt/server-side-programming/events/taskinsert
 tags: taskinsert
 published: True

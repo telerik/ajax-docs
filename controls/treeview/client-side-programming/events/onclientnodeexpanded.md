@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeExpanded
-page_title: OnClientNodeExpanded | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeExpanded
+page_title: OnClientNodeExpanded - RadTreeView
+description: Check our Web Forms article about OnClientNodeExpanded.
 slug: treeview/client-side-programming/events/onclientnodeexpanded
 tags: onclientnodeexpanded
 published: True

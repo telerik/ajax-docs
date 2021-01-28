@@ -1,7 +1,7 @@
 ---
 title: AppointmentInsert
-page_title: AppointmentInsert | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentInsert
+page_title: AppointmentInsert - RadScheduler
+description: Check our Web Forms article about AppointmentInsert.
 slug: scheduler/server-side-programming/server-events/appointmentinsert
 tags: appointmentinsert
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Accessing Expression Items
-page_title: Accessing Expression Items | RadFilter for ASP.NET AJAX Documentation
-description: Accessing Expression Items
+page_title: Accessing Expression Items - RadFilter
+description: Check our Web Forms article about Accessing Expression Items.
 slug: filter/filter-expressions/accessing-expression-items
 tags: accessing,expression,items
 published: True

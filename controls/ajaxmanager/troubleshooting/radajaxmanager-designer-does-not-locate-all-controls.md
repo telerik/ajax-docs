@@ -1,7 +1,7 @@
 ---
 title: RadAjaxManager Designer Does Not Locate All Controls
-page_title: RadAjaxManager Designer Does Not Locate All Controls | RadAjax for ASP.NET AJAX Documentation
-description: RadAjaxManager Designer Does Not Locate All Controls
+page_title: RadAjaxManager Designer Does Not Locate All Controls
+description: Check our Web Forms article about RadAjaxManager Designer Does Not Locate All Controls.
 slug: ajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls
 previous_url: ajax/radajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls
 tags: radajaxmanager,designer,does,not,locate,all,controls

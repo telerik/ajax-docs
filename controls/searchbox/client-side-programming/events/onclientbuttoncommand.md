@@ -1,7 +1,7 @@
 ---
 title: OnClientButtonCommand
-page_title: OnClientButtonCommand | RadSearchBox for ASP.NET AJAX Documentation
-description: OnClientButtonCommand
+page_title: OnClientButtonCommand - RadSearchBox
+description: Check our Web Forms article about OnClientButtonCommand.
 slug: searchbox/client-side-programming/events/onclientbuttoncommand
 tags: onclientbuttoncommand
 published: True

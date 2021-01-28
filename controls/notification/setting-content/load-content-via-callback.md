@@ -1,7 +1,7 @@
 ---
 title: Load Content Via Callback
-page_title: Load Content Via Callback | RadNotification for ASP.NET AJAX Documentation
-description: Load Content Via Callback
+page_title: Load Content Via Callback - RadNotification
+description: Check our Web Forms article about Load Content Via Callback.
 slug: notification/setting-content/load-content-via-callback
 tags: load,content,via,callback
 published: True

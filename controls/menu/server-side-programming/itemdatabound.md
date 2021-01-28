@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadMenu for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadMenu
+description: Check our Web Forms article about ItemDataBound.
 slug: menu/server-side-programming/itemdatabound
 tags: itemdatabound
 published: True

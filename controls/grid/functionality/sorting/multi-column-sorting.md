@@ -1,7 +1,7 @@
 ---
 title: Multi-Column Sorting
-page_title: Multi-Column Sorting | RadGrid for ASP.NET AJAX Documentation
-description: Multi-Column Sorting
+page_title: Multi-Column Sorting - RadGrid
+description: Check our Web Forms article about Multi-Column Sorting.
 slug: grid/functionality/sorting/multi-column-sorting
 tags: multi-column,sorting
 published: True

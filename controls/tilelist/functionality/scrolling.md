@@ -1,7 +1,7 @@
 ---
 title: Scrolling
-page_title: Scrolling | RadTileList for ASP.NET AJAX Documentation
-description: Scrolling
+page_title: Scrolling - RadTileList
+description: Check our Web Forms article about Scrolling.
 slug: tilelist/functionality/scrolling
 tags: scrolling
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Loading Tabs from XML
-page_title: Loading Tabs from XML | RadTabStrip for ASP.NET AJAX Documentation
-description: Loading Tabs from XML
+page_title: Loading Tabs from XML - RadTabStrip
+description: Check our Web Forms article about Loading Tabs from XML.
 slug: tabstrip/tabs/loading-tabs-from-xml
 tags: loading,tabs,from,xml
 published: True

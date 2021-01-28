@@ -1,7 +1,7 @@
 ---
 title: Getting the Nodes Full Path
-page_title: Getting the Nodes Full Path | RadTreeView for ASP.NET AJAX Documentation
-description: Getting the Nodes Full Path
+page_title: Getting the Nodes Full Path - RadTreeView
+description: Check our Web Forms article about Getting the Nodes Full Path.
 slug: treeview/application-scenarios/client-side-programming/getting-the-nodes-full-path
 tags: getting,the,nodes,full,path
 published: True

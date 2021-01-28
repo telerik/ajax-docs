@@ -1,7 +1,7 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | RadNavigation for ASP.NET AJAX Documentation
-description: NodeDataBound
+page_title: NodeDataBound - RadNavigation
+description: Check our Web Forms article about NodeDataBound.
 slug: navigation/server-side-programming/events/nodedatabound
 tags: nodedatabound
 published: True

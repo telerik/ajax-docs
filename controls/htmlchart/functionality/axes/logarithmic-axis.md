@@ -1,7 +1,7 @@
 ---
 title: Logarithmic Axis
-page_title: Logarithmic Axis | RadHtmlChart for ASP.NET AJAX Documentation
-description: Logarithmic Axis
+page_title: Logarithmic Axis - RadHtmlChart
+description: Check our Web Forms article about Logarithmic Axis.
 slug: htmlchart/functionality/axes/logarithmic-axis
 tags: logarithmic,axis
 published: True

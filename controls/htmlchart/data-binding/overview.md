@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: Array
+page_title: Data Binding Overview - RadHtmlChart
+description: Check our Web Forms article about Array.
 slug: htmlchart/data-binding/overview
 tags: data, binding, overview, grouping
 published: True

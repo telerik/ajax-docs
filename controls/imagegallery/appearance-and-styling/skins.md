@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadImageGallery for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadImageGallery
+description: Check our Web Forms article about Skins.
 slug: imagegallery/appearance-and-styling/skins
 tags: skins
 published: True

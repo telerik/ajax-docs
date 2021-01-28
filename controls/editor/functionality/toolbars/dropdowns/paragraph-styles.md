@@ -1,7 +1,7 @@
 ---
 title: Paragraph Styles
-page_title: Paragraph Styles | RadEditor for ASP.NET AJAX Documentation
-description: Paragraph Styles
+page_title: Paragraph Styles - RadEditor
+description: Check our Web Forms article about Paragraph Styles.
 slug: editor/functionality/toolbars/dropdowns/paragraph-styles
 tags: paragraph,styles
 published: True

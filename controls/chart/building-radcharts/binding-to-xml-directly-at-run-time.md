@@ -1,7 +1,7 @@
 ---
 title: Binding to XML Directly at Run-Time
-page_title: Binding to XML Directly at Run-Time | RadChart for ASP.NET AJAX Documentation
-description: Binding to XML Directly at Run-Time
+page_title: Binding to XML Directly at Run-Time - RadChart
+description: Check our Web Forms article about Binding to XML Directly at Run-Time.
 slug: chart/building-radcharts/binding-to-xml-directly-at-run-time
 tags: binding,to,xml,directly,at,run-time
 published: True

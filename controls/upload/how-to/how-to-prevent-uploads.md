@@ -1,7 +1,7 @@
 ---
 title: How to Prevent Uploads
-page_title: How to Prevent Uploads | RadUpload for ASP.NET AJAX Documentation
-description: How to Prevent Uploads
+page_title: How to Prevent Uploads - RadUpload
+description: Check our Web Forms article about How to Prevent Uploads.
 slug: upload/how-to/how-to-prevent-uploads
 tags: how,to,prevent,uploads
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Ticks
-page_title: Ticks | RadChart for ASP.NET AJAX Documentation
-description: Ticks
+page_title: Ticks - RadChart
+description: Check our Web Forms article about Ticks.
 slug: chart/understanding-radchart-elements/ticks
 tags: ticks
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequesting
-page_title: OnClientItemsRequesting | RadRotator for ASP.NET AJAX Documentation
-description: OnClientItemsRequesting
+page_title: OnClientItemsRequesting - RadRotator
+description: Check our Web Forms article about OnClientItemsRequesting.
 slug: rotator/client-side-programming/events/onclientitemsrequesting
 tags: onclientitemsrequesting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientTilePeekTemplateDataBound
-page_title: OnClientTilePeekTemplateDataBound | RadTileList for ASP.NET AJAX Documentation
-description: OnClientTilePeekTemplateDataBound
+page_title: OnClientTilePeekTemplateDataBound - RadTileList
+description: Check our Web Forms article about OnClientTilePeekTemplateDataBound.
 slug: tilelist/client-side-programming/client-side-events/onclienttilepeektemplatedatabound
 tags: onclienttilepeektemplatedatabound
 published: True

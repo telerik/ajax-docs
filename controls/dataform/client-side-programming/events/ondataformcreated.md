@@ -1,7 +1,7 @@
 ---
 title: OnDataFormCreated
-page_title: OnDataFormCreated | RadDataForm for ASP.NET AJAX 
-description: OnDataFormCreated
+page_title: OnDataFormCreated - RadDataForm
+description: Check our Web Forms article about OnDataFormCreated.
 slug: dataform/client-side-programming/events/ondataformcreated
 tags: ondataformcreated
 published: True

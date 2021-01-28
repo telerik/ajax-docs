@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadSplitter for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadSplitter
+description: Check our Web Forms article about Elastic Design.
 slug: splitter/mobile-support/elastic-design
 tags: elastic,design,splitter
 published: True

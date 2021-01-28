@@ -1,7 +1,7 @@
 ---
 title: ViewCellCreated
-page_title: ViewCellCreated | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: ViewCellCreated
+page_title: ViewCellCreated - RadMonthYearPicker
+description: Check our Web Forms article about ViewCellCreated.
 slug: monthyearpicker/server-side-programming/server-side-events/viewcellcreated
 tags: viewcellcreated
 published: True

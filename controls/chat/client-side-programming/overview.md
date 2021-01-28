@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadChat for ASP.NET AJAX Documentation
-description: Client-side Programming Overview
+page_title: Overview - RadChat
+description: Check our Web Forms article about Client-side Programming Overview.
 slug: chat/client-side-programming/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadDataPager for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadDataPager
+description: Check our Web Forms article about Design Time.
 slug: datapager/design-time
 tags: design,time
 published: True

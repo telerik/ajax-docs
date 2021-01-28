@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: RadHtmlChart Structure | RadHtmlChart for ASP.NET AJAX Documentation
-description: RadHtmlChart Structure
+page_title: RadHtmlChart Structure - RadHtmlChart
+description: Check our Web Forms article about RadHtmlChart Structure.
 slug: htmlchart/radhtmlchart-structure
 tags: radhtmlchart,structure
 published: True

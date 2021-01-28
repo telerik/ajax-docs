@@ -1,7 +1,7 @@
 ---
 title: Load On Demand Expand on Server-side NodeClick
-page_title: Load On Demand Expand on Server-side NodeClick | RadTreeView for ASP.NET AJAX Documentation
-description: Load On Demand Expand on Server-side NodeClick
+page_title: Load On Demand Expand on Server-side NodeClick - RadTreeView
+description: Check our Web Forms article about Load On Demand Expand on Server-side NodeClick.
 slug: treeview/troubleshooting/load-on-demand-expand-on-server-side-nodeclick
 tags: load,on,demand,expand,on,server-side,nodeclick
 published: True

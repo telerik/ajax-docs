@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadCloudUpload Overview | UI for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET CloudUpload Overview
+page_title: RadCloudUpload Overview
+description: Check our Web Forms article about Telerik's ASP.NET CloudUpload Overview.
 slug: cloudupload/overview
 tags: overview, cloudupload, asp.net
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadToolBar Item Editor
-page_title: RadToolBar Item Editor | RadToolBar for ASP.NET AJAX Documentation
-description: RadToolBar Item Editor
+page_title: RadToolBar Item Editor - RadToolBar
+description: Check our Web Forms article about RadToolBar Item Editor.
 slug: toolbar/design-time/radtoolbar-item-editor
 tags: radtoolbar,item,editor
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Events Overview | RadTreeView for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Events Overview - RadTreeView
+description: Check our Web Forms article about Overview.
 slug: treeview/server-side-programming/events/overview
 tags: overview
 published: True

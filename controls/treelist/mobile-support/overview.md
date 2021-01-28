@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Mobile Support Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Mobile Support Overview - RadTreeList
+description: Check our Web Forms article about Overview.
 slug: treelist/mobile-support/overview
 tags: overview
 published: True

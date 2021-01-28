@@ -1,7 +1,7 @@
 ---
 title: RadComboBox Structure
-page_title: RadComboBox Structure | RadComboBox for ASP.NET AJAX Documentation
-description: RadComboBox Structure
+page_title: RadComboBox Structure - RadComboBox
+description: Check our Web Forms article about RadComboBox Structure.
 slug: combobox/radcombobox-structure
 tags: radcombobox,structure
 published: True

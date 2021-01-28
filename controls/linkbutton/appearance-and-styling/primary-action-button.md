@@ -1,7 +1,7 @@
 ---
 title: Primary Action Button
-page_title: Primary Action Button | RadLinkButton for ASP.NET AJAX Documentation
-description: Primary Action Button
+page_title: Primary Action Button - RadLinkButton
+description: Check our Web Forms article about Primary Action Button.
 slug: linkbutton/appearance-and-styling/primary-action-button
 tags: primary,and,secondary,action,buttons,state
 published: True

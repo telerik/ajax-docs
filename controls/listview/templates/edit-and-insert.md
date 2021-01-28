@@ -1,7 +1,7 @@
 ---
 title: Edit and Insert
-page_title: Edit and Insert | RadListView for ASP.NET AJAX Documentation
-description: Edit and Insert
+page_title: Edit and Insert - RadListView
+description: Check our Web Forms article about Edit and Insert.
 slug: listview/templates/edit-and-insert
 tags: edit,and,insert
 published: True

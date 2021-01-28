@@ -1,7 +1,7 @@
 ---
 title: Supported File Types
-page_title: Supported File Types | RadClientExportManager for ASP.NET AJAX Documentation
-description: Supported File Types
+page_title: Supported File Types - RadClientExportManager
+description: Check our Web Forms article about Supported File Types.
 slug: clientexportmanager/functionality/supported-file-types
 tags: supported,file,types
 published: True

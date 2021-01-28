@@ -1,7 +1,7 @@
 ---
 title: RadHtmlChart Integration With KendoUI Widgets
-page_title: RadHtmlChart Integration With KendoUI Widgets | RadHtmlChart for ASP.NET AJAX Documentation
-description: RadHtmlChart Integration With KendoUI Widgets
+page_title: RadHtmlChart Integration With KendoUI Widgets - RadHtmlChart
+description: Check our Web Forms article about RadHtmlChart Integration With KendoUI Widgets.
 slug: htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets
 tags: radhtmlchart,integration,with,kendoui,widgets
 published: True

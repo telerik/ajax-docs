@@ -1,7 +1,7 @@
 ---
 title: Migrating default rich-text editor Web Parts
-page_title: Migrating default rich-text editor Web Parts | UI for ASP.NET AJAX Documentation
-description: Migrating default rich-text editor Web Parts
+page_title: Migrating default rich-text editor Web Parts
+description: Check our Web Forms article about Migrating default rich-text editor Web Parts.
 slug: sharepoint/2007/radeditor-for-moss/migration-and-upgrade/migrating-default-rich-text-editor-web-parts
 tags: migrating,default,rich-text,editor,web,parts
 published: True

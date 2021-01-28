@@ -1,7 +1,7 @@
 ---
 title: AppointmentCreated
-page_title: AppointmentCreated | RadScheduler for ASP.NET AJAX Documentation
-description: AppointmentCreated
+page_title: AppointmentCreated - RadScheduler
+description: Check our Web Forms article about AppointmentCreated.
 slug: scheduler/server-side-programming/server-events/appointmentcreated
 tags: appointmentcreated
 published: True

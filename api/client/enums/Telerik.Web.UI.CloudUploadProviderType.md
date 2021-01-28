@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.CloudUploadProviderType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CloudUploadProviderType
 slug: Telerik.Web.UI.CloudUploadProviderType
 ---

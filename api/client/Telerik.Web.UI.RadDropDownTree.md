@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDropDownTree
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDropDownTree
 slug: Telerik.Web.UI.RadDropDownTree
 ---

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttEventArgs
 slug: Telerik.Web.UI.GanttEventArgs
 ---

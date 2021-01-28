@@ -1,7 +1,7 @@
 ---
 title: Model Binding and Strongly Typed Data Controls
-page_title: Model Binding and Strongly Typed Data Controls | RadTreeList for ASP.NET AJAX Documentation
-description: Model Binding and Strongly Typed Data Controls
+page_title: Model Binding and Strongly Typed Data Controls - RadTreeList
+description: Check our Web Forms article about Model Binding and Strongly Typed Data Controls.
 slug: treelist/data-binding/model-binding-and-strongly-typed-data-controls
 tags: model,binding,and,strongly,typed,data,controls
 published: True

@@ -1,7 +1,7 @@
 ---
 title: DropDown Settings
-page_title: DropDown Settings | RadDropDownTree for ASP.NET AJAX Documentation
-description: DropDown Settings
+page_title: DropDown Settings - RadDropDownTree
+description: Check our Web Forms article about DropDown Settings.
 slug: dropdowntree/functionality/dropdown-settings
 tags: dropdown,settings
 published: True

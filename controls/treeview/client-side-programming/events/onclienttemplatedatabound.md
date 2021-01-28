@@ -1,7 +1,7 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientTemplateDataBound
+page_title: OnClientTemplateDataBound - RadTreeView
+description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: treeview/client-side-programming/events/onclienttemplatedatabound
 tags: onclienttemplatedatabound
 published: True

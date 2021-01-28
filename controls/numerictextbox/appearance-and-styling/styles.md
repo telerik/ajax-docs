@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: Styles | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Styles
+page_title: Styles - RadNumericTextBox
+description: Check our Web Forms article about Styles.
 slug: numerictextbox/appearance-and-styling/styles
 tags: styles
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Grid Based Layout 
-page_title: Grid Based Layout  | RadPageLayout for ASP.NET AJAX Documentation
-description: Grid Based Layout 
+page_title: Grid Based Layout - RadPageLayout
+description: Check our Web Forms article about Grid Based Layout.
 slug: pagelayout/creating-responsive-design/grid-based-layout-
 tags: grid,based,layout,
 published: True

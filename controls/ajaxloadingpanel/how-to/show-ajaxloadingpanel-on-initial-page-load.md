@@ -1,7 +1,7 @@
 ---
 title: Show AjaxLoadingPanel on Initial Page Load
-page_title: Show AjaxLoadingPanel on Initial Page Load | RadAjax for ASP.NET AJAX Documentation
-description: Show AjaxLoadingPanel on Initial Page Load
+page_title: Show AjaxLoadingPanel on Initial Page Load
+description: Check our Web Forms article about Show AjaxLoadingPanel on Initial Page Load.
 slug: ajaxloadingpanel/how-to/show-ajaxloadingpanel-on-initial-page-load
 previous_url: ajax/radajaxloadingpanel/how-to/show-ajaxloadingpanel-on-initial-page-load
 tags: show,ajaxloadingpanel,on,initial,page,load

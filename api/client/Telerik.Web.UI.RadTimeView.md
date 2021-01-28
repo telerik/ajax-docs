@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTimeView
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTimeView
 slug: Telerik.Web.UI.RadTimeView
 ---

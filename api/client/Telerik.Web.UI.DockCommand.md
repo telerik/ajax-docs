@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DockCommand
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DockCommand
 slug: Telerik.Web.UI.DockCommand
 ---

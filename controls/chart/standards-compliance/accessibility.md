@@ -1,7 +1,7 @@
 ---
 title: Accessibility
-page_title: Accessibility | RadChart for ASP.NET AJAX Documentation
-description: Accessibility
+page_title: Accessibility - RadChart
+description: Check our Web Forms article about Accessibility.
 slug: chart/standards-compliance/accessibility
 tags: accessibility
 published: True

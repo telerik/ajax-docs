@@ -1,7 +1,7 @@
 ---
 title: Load Content Via WCF Service
-page_title: Load Content Via WCF Service | RadNotification for ASP.NET AJAX Documentation
-description: Load Content Via WCF Service
+page_title: Load Content Via WCF Service - RadNotification
+description: Check our Web Forms article about Load Content Via WCF Service.
 slug: notification/setting-content/load-content-via-wcf-service
 tags: load,content,via,wcf,service
 published: True

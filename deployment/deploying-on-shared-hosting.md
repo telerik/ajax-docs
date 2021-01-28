@@ -1,7 +1,7 @@
 ---
 title: Deploying on Shared Hosting
-page_title: Deploying on Shared Hosting | UI for ASP.NET AJAX Documentation
-description: Deploying on Shared Hosting
+page_title: Deploying on Shared Hosting
+description: Check our Web Forms article about Deploying on Shared Hosting.
 slug: introduction/deployment/deploying-on-shared-hosting
 tags: deploying,on,shared,hosting
 published: True

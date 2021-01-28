@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadTagCloud for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadTagCloud
+description: Check our Web Forms article about Getting Started.
 slug: tagcloud/getting-started
 tags: getting,started
 published: True

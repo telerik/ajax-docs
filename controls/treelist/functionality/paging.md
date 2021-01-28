@@ -1,7 +1,7 @@
 ---
 title: Paging
-page_title: Paging | RadTreeList for ASP.NET AJAX Documentation
-description: Paging
+page_title: Paging - RadTreeList
+description: Check our Web Forms article about Paging.
 slug: treelist/functionality/paging
 tags: paging
 published: True

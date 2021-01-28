@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridTableCreatedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridTableCreatedEventArgs
 slug: Telerik.Web.UI.GridTableCreatedEventArgs
 ---

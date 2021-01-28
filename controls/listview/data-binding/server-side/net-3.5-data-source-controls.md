@@ -1,7 +1,7 @@
 ---
 title: NET 3.5 Data Source Controls
-page_title: NET 3.5 Data Source Controls | RadListView for ASP.NET AJAX Documentation
-description: NET 3.5 Data Source Controls
+page_title: NET 3.5 Data Source Controls - RadListView
+description: Check our Web Forms article about NET 3.5 Data Source Controls.
 slug: listview/data-binding/server-side/net-3.5-data-source-controls
 tags: net,3.5,data,source,controls
 published: True

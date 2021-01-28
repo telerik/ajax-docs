@@ -1,7 +1,7 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadPdfViewer for ASP.NET AJAX Documentation
-description: Keyboard Support
+page_title: Keyboard Support - RadPdfViewer
+description: Check our Web Forms article about Keyboard Support.
 slug: pdfviewer/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True

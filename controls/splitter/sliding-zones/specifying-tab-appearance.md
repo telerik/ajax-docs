@@ -1,7 +1,7 @@
 ---
 title: Specifying Tab appearance
-page_title: Specifying Tab appearance | RadSplitter for ASP.NET AJAX Documentation
-description: Specifying Tab appearance
+page_title: Specifying Tab appearance - RadSplitter
+description: Check our Web Forms article about Specifying Tab appearance.
 slug: splitter/sliding-zones/specifying-tab-appearance
 tags: specifying,tab,appearance
 published: True

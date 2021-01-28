@@ -1,7 +1,7 @@
 ---
 title: Timeline View
-page_title: Timeline View | RadScheduler for ASP.NET AJAX Documentation
-description: Timeline View
+page_title: Timeline View - RadScheduler
+description: Check our Web Forms article about Timeline View.
 slug: scheduler/views/timeline-view
 tags: timeline,view
 published: True

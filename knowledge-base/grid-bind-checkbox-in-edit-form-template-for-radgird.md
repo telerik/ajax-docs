@@ -1,6 +1,6 @@
 ---
 title: How to Bind Checkbox in EditForm Template for RadGrid
-description: Learn how to bind a checkbox in a RadGrid Edit Form Template
+description: Learn how to bind a checkbox in a RadGrid Edit Form Template.
 type: how-to
 page_title: Binding Edit Form Template with a Checkbox in RadGrid
 slug: how-to-bind-checkbox-in-edit-form-template-for-radgrid

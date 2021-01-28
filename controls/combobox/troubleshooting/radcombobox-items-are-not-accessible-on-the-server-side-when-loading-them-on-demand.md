@@ -1,7 +1,7 @@
 ---
 title: RadComboBox items are not accessible on the server-side when loading them on demand
-page_title: RadComboBox items are not accessible on the server-side when loading them on demand | RadComboBox for ASP.NET AJAX Documentation
-description: RadComboBox items are not accessible on the server-side when loading them on demand
+page_title: RadComboBox items are not accessible on the server-side when loading them on demand - RadComboBox
+description: Check our Web Forms article about RadComboBox items are not accessible on the server-side when loading them on demand.
 slug: combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand
 tags: radcombobox,items,are,not,accessible,on,the,server-side,when,loading,them,on,demand
 published: True

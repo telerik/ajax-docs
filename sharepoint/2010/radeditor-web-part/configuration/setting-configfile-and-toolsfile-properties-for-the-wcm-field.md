@@ -1,7 +1,7 @@
 ---
 title: Setting ConfigFile and ToolsFile Properties for the WCM field
-page_title: Setting ConfigFile and ToolsFile Properties for the WCM field | UI for ASP.NET AJAX Documentation
-description: Setting ConfigFile and ToolsFile Properties for the WCM field
+page_title: Setting ConfigFile and ToolsFile Properties for the WCM field
+description: Check our Web Forms article about Setting ConfigFile and ToolsFile Properties for the WCM field.
 slug: sharepoint/2010/radeditor-web-part/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field
 tags: setting,configfile,and,toolsfile,properties,for,the,wcm,field
 published: True

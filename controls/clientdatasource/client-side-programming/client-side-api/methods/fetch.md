@@ -1,7 +1,7 @@
 ---
 title: fetch
-page_title: ClientDataSource Object fetch() | RadClientDataSource for ASP.NET AJAX Documentation
-description: fetch
+page_title: ClientDataSource Object fetch() - RadClientDataSource
+description: Check our Web Forms article about fetch.
 slug: clientdatasource/client-side-programming/client-side-api/methods/fetch
 tags: fetch
 published: True

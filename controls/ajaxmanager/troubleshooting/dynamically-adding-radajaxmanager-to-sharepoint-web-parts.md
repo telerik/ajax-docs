@@ -1,7 +1,7 @@
 ---
 title: Dynamically Adding RadAjaxManager to Sharepoint Web Parts
-page_title: Dynamically Adding RadAjaxManager to Sharepoint Web Parts | RadAjax for ASP.NET AJAX Documentation
-description: Dynamically Adding RadAjaxManager to Sharepoint Web Parts
+page_title: Dynamically Adding RadAjaxManager to Sharepoint Web Parts
+description: Check our Web Forms article about Dynamically Adding RadAjaxManager to Sharepoint Web Parts.
 slug: ajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts
 previous_url: ajax/radajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts
 tags: dynamically,adding,radajaxmanager,to,sharepoint,web,parts

@@ -1,7 +1,7 @@
 ---
 title: Manipulating Query String Parameters in the Upload Handler
-page_title: Manipulating Query String Parameters in the Upload Handler | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Manipulating Query String Parameters in the Upload Handler
+page_title: Manipulating Query String Parameters in the Upload Handler - RadAsyncUpload
+description: Check our Web Forms article about Manipulating Query String Parameters in the Upload Handler.
 slug: asyncupload/functionality/manipulating-query-string-parameters-in-the-upload-handler
 tags: manipulating,query,string,parameters,in,the,upload,handler
 published: True

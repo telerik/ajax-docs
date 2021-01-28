@@ -1,7 +1,7 @@
 ---
 title: Using RadWindow as a Dialog
-page_title: Using RadWindow as a Dialog | RadWindow for ASP.NET AJAX Documentation
-description: Using RadWindow as a Dialog
+page_title: Using RadWindow as a Dialog - RadWindow
+description: Check our Web Forms article about Using RadWindow as a Dialog.
 slug: window/how-to/using-radwindow-as-a-dialog
 tags: using,radwindow,as,a,dialog
 published: True

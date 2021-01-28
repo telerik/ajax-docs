@@ -1,7 +1,7 @@
 ---
 title: Custom
-page_title: Custom | RadFilter for ASP.NET AJAX Documentation
-description: Custom
+page_title: Custom - RadFilter
+description: Check our Web Forms article about Custom.
 slug: filter/field-editors/custom
 tags: custom
 published: True

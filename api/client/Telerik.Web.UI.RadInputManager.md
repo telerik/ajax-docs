@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadInputManager
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadInputManager
 slug: Telerik.Web.UI.RadInputManager
 ---

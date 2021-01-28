@@ -1,7 +1,7 @@
 ---
 title: Adding Information to Uploaded Files
-page_title: Adding Information to Uploaded Files | RadUpload for ASP.NET AJAX Documentation
-description: Adding Information to Uploaded Files
+page_title: Adding Information to Uploaded Files - RadUpload
+description: Check our Web Forms article about Adding Information to Uploaded Files.
 slug: upload/how-to/adding-information-to-uploaded-files
 tags: adding,information,to,uploaded,files
 published: True

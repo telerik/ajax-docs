@@ -1,7 +1,7 @@
 ---
 title: Bullet Chart
-page_title: Bullet Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Bullet Chart
+page_title: Bullet Chart - RadHtmlChart
+description: Check our Web Forms article about Bullet Chart.
 slug: htmlchart/chart-types/bullet-chart
 tags: bullet,chart
 published: True

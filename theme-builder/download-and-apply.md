@@ -1,7 +1,7 @@
 ---
 title: Download and Apply
-page_title: Download and Apply | UI for ASP.NET AJAX Documentation
-description: Download and Apply
+page_title: Download and Apply
+description: Check our Web Forms article about Download and Apply.
 slug: theme-builder/download-and-apply
 tags: download,apply
 published: True

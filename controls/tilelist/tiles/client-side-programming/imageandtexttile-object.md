@@ -1,7 +1,7 @@
 ---
 title: ImageAndTextTile Object
-page_title: ImageAndTextTile Object | RadTile for ASP.NET AJAX Documentation
-description: ImageAndTextTile Object
+page_title: ImageAndTextTile Object - RadTile
+description: Check our Web Forms article about ImageAndTextTile Object.
 slug: tilelist/tiles/client-side-programming/imageandtexttile-object
 tags: imageandtexttile,object
 published: True

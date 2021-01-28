@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadEditor for ASP.NET AJAX Documentation
-description: Getting and Setting Content Overview
+page_title: Overview - RadEditor
+description: Check our Web Forms article about Getting and Setting Content Overview.
 slug: editor/managing-content/getting-and-setting-content/overview
 tags: overview
 published: True

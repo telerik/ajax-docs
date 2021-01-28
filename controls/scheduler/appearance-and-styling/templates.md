@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadScheduler for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadScheduler
+description: Check our Web Forms article about Templates.
 slug: scheduler/appearance-and-styling/templates
 tags: templates
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadTextBox for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadTextBox
+description: Check our Web Forms article about OnLoad.
 slug: radtextbox/client-side-programming/events/onload
 tags: onload
 published: True

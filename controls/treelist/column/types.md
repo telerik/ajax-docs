@@ -1,7 +1,7 @@
 ---
 title: Types
-page_title: Types | RadTreeList for ASP.NET AJAX Documentation
-description: Types
+page_title: Types - RadTreeList
+description: Check our Web Forms article about Types.
 slug: treelist/column/types
 tags: types
 published: True

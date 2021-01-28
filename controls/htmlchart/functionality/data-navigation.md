@@ -1,7 +1,7 @@
 ---
 title: Data Navigation
-page_title: Data Navigation | RadHtmlChart for ASP.NET AJAX Documentation
-description: Data Navigation
+page_title: Data Navigation - RadHtmlChart
+description: Check our Web Forms article about Data Navigation.
 slug: htmlchart/functionality/data-navigation
 tags: data,navigation
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | RadProgressBar for ASP.NET AJAX Documentation
-description: Elastic Design
+page_title: Elastic Design - RadProgressBar
+description: Check our Web Forms article about Elastic Design.
 slug: progressbar/mobile-support/elastic-design
 tags: elastic,design
 published: True

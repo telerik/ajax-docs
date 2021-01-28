@@ -1,7 +1,7 @@
 ---
 title: Selecting
-page_title: Selecting | RadTileList for ASP.NET AJAX Documentation
-description: Selecting
+page_title: Selecting - RadTileList
+description: Check our Web Forms article about Selecting.
 slug: tilelist/functionality/selecting
 tags: selecting
 published: True

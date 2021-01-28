@@ -1,7 +1,7 @@
 ---
 title: LINQ To SQL - Binding and Manual CRUD Operations
-page_title: LINQ To SQL - Binding and Manual CRUD Operations | RadGrid for ASP.NET AJAX Documentation
-description: LINQ To SQL - Binding and Manual CRUD Operations
+page_title: LINQ To SQL - Binding and Manual CRUD Operations - RadGrid
+description: Check our Web Forms article about LINQ To SQL - Binding and Manual CRUD Operations.
 slug: grid/asp.net-3.5-features/linq-to-sql---binding-and-manual-crud-operations
 tags: linq,to,sql,-,binding,and,manual,crud,operations
 published: True

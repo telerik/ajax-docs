@@ -1,7 +1,7 @@
 ---
 title: Ajaxified Control in ItemTemplate Does a Full Postback
-page_title: Ajaxified Control in ItemTemplate Does a Full Postback | RadComboBox for ASP.NET AJAX Documentation
-description: Ajaxified Control in ItemTemplate Does a Full Postback
+page_title: Ajaxified Control in ItemTemplate Does a Full Postback - RadComboBox
+description: Check our Web Forms article about Ajaxified Control in ItemTemplate Does a Full Postback.
 slug: combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback
 tags: ajaxified,control,in,itemtemplate,does,a,full,postback
 published: True

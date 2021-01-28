@@ -1,7 +1,7 @@
 ---
 title: OnExportContent
-page_title: OnExportContent | RadEditor for ASP.NET AJAX Documentation
-description: OnExportContent
+page_title: OnExportContent - RadEditor
+description: Check our Web Forms article about OnExportContent.
 slug: editor/server-side-programming/events/onexportcontent
 tags: onexportcontent
 published: True

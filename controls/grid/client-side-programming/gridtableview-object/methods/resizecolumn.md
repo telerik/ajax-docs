@@ -1,7 +1,7 @@
 ---
 title: resizeColumn
-page_title: resizeColumn | RadGrid for ASP.NET AJAX Documentation
-description: resizeColumn
+page_title: resizeColumn - RadGrid
+description: Check our Web Forms article about resizeColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/resizecolumn
 tags: resizecolumn
 published: True

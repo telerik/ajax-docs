@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadWordsProcessing for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadWordsProcessing
+description: Check our Web Forms article about Overview.
 slug: radwordsprocessing-overview
 tags: overview
 published: True

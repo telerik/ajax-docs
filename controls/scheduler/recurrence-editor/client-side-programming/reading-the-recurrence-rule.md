@@ -1,7 +1,7 @@
 ---
 title: Reading the Recurrence Rule
-page_title: Reading the Recurrence Rule | RadScheduler for ASP.NET AJAX Documentation
-description: Reading the Recurrence Rule
+page_title: Reading the Recurrence Rule - RadScheduler
+description: Check our Web Forms article about Reading the Recurrence Rule.
 slug: scheduler/recurrence-editor/client-side-programming/reading-the-recurrence-rule
 tags: reading,the,recurrence,rule
 published: True

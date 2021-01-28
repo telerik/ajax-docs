@@ -1,7 +1,7 @@
 ---
 title: Grouping
-page_title: Grouping | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Grouping
+page_title: Grouping - RadMultiColumnComboBox
+description: Check our Web Forms article about Grouping.
 slug: multicolumncombobox/functionality/grouping
 tags: Grouping
 published: True

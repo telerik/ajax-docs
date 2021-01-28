@@ -1,7 +1,7 @@
 ---
 title: Using Custom Style Sheet Files
-page_title: Using Custom Style Sheet Files | RadScheduler for ASP.NET AJAX Documentation
-description: Using Custom Style Sheet Files
+page_title: Using Custom Style Sheet Files - RadScheduler
+description: Check our Web Forms article about Using Custom Style Sheet Files.
 slug: scheduler/export/pdf/using-custom-style-sheet-files
 tags: using,custom,style,sheet,files
 published: True

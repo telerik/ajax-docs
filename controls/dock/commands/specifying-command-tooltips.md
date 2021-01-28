@@ -1,7 +1,7 @@
 ---
 title: Specifying Command ToolTips
-page_title: Specifying Command ToolTips | RadDock for ASP.NET AJAX Documentation
-description: Specifying Command ToolTips
+page_title: Specifying Command ToolTips - RadDock
+description: Check our Web Forms article about Specifying Command ToolTips.
 slug: dock/commands/specifying-command-tooltips
 tags: specifying,command,tooltips
 published: True

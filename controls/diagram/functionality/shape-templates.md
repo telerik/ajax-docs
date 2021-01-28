@@ -1,7 +1,7 @@
 ---
 title: Shape Templates
-page_title: Shape Templates | RadDiagram for ASP.NET AJAX Documentation
-description: Shape Templates
+page_title: Shape Templates - RadDiagram
+description: Check our Web Forms article about Shape Templates.
 slug: diagram/functionality/shape-templates
 tags: shape,templates
 published: True

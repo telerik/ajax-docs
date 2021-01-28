@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadGantt Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadGantt Overview
+description: Check our Web Forms article about Overview.
 slug: gantt/overview
 tags: overview
 published: True

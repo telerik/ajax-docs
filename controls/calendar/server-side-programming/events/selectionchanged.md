@@ -1,7 +1,7 @@
 ---
 title: SelectionChanged
-page_title: SelectionChanged | RadCalendar for ASP.NET AJAX Documentation
-description: SelectionChanged
+page_title: SelectionChanged - RadCalendar
+description: Check our Web Forms article about SelectionChanged.
 slug: calendar/server-side-programming/events/selectionchanged
 tags: selectionchanged
 published: True

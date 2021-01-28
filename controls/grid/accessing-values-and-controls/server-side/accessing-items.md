@@ -1,7 +1,7 @@
 ---
 title: Accessing Items
-page_title: Accessing rows Server-Side - RadGrid | Telerik UI for ASP.NET AJAX
-description: Accessing Grid Rows on server
+page_title: Accessing rows Server-Side - RadGrid
+description: Check our Web Forms article about Accessing Grid Rows on server.
 slug: grid/accessing-values-and-controls/server-side/accessing-items
 published: True
 position: 2

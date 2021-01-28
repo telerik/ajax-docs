@@ -1,7 +1,7 @@
 ---
 title: Convert Project
-page_title: Convert Project | UI for ASP.NET AJAX Documentation
-description: Convert Project
+page_title: Convert Project
+description: Check our Web Forms article about Convert Project.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/convert-project
 tags: configuration,wizard
 published: True

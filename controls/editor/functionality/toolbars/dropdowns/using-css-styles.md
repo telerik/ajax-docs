@@ -1,7 +1,7 @@
 ---
 title: Using CSS Styles
-page_title: Using CSS Styles | RadEditor for ASP.NET AJAX Documentation
-description: Using CSS Styles
+page_title: Using CSS Styles - RadEditor
+description: Check our Web Forms article about Using CSS Styles.
 slug: editor/functionality/toolbars/dropdowns/using-css-styles
 tags: using,css,styles
 published: True

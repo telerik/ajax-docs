@@ -1,7 +1,7 @@
 ---
 title: Inserting Flash and Media files in RadEditor
-page_title: Inserting Flash and Media files in RadEditor | UI for ASP.NET AJAX Documentation
-description: Inserting Flash and Media files in RadEditor
+page_title: Inserting Flash and Media files in RadEditor
+description: Check our Web Forms article about Inserting Flash and Media files in RadEditor.
 slug: sharepoint/2007/radeditor-for-moss/dialogs/inserting-flash-and-media-files-in-radeditor
 tags: inserting,flash,and,media,files,in,radeditor
 published: True

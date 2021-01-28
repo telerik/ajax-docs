@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadClientExportManager Overview | UI for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET ClientExportManager Overview
+page_title: RadClientExportManager Overview
+description: Check our Web Forms article about Telerik's ASP.NET ClientExportManager Overview.
 slug: clientexportmanager/overview
 tags: overview, clientexportmanager, export
 published: True

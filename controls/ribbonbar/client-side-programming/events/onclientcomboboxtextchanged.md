@@ -1,7 +1,7 @@
 ---
 title: OnClientComboBoxTextChanged
-page_title: OnClientComboBoxTextChanged | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientComboBoxTextChanged
+page_title: OnClientComboBoxTextChanged - RadRibbonBar
+description: Check our Web Forms article about OnClientComboBoxTextChanged.
 slug: ribbonbar/client-side-programming/events/onclientcomboboxtextchanged
 tags: onclientcomboboxtextchanged
 published: True

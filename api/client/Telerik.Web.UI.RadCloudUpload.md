@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadCloudUpload
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadCloudUpload
 slug: Telerik.Web.UI.RadCloudUpload
 ---

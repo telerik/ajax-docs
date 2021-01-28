@@ -1,7 +1,7 @@
 ---
 title: Combined CDN Request for Telerik Controls
-page_title: Combined CDN Request for Telerik Controls | RadStyleSheetManager for ASP.NET AJAX Documentation
-description: Combined CDN Request for Telerik Controls for performance improvement
+page_title: Combined CDN Request for Telerik Controls - RadStyleSheetManager
+description: Check our Web Forms article about Combined CDN Request for Telerik Controls for performance improvement.
 slug: stylesheetmanager/cdn-support/combined-request-for-telerik-controls
 tags: cdn,request,combined,performance,improvement
 published: True

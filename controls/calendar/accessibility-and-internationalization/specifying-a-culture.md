@@ -1,7 +1,7 @@
 ---
 title: Specifying a Culture
-page_title: Specifying a Culture | RadCalendar for ASP.NET AJAX Documentation
-description: Specifying a Culture
+page_title: Specifying a Culture - RadCalendar
+description: Check our Web Forms article about Specifying a Culture.
 slug: calendar/accessibility-and-internationalization/specifying-a-culture
 tags: specifying,a,culture
 published: True

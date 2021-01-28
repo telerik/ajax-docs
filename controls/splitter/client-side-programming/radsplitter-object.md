@@ -1,7 +1,7 @@
 ---
 title: RadSplitter Object
-page_title: RadSplitter Object | RadSplitter for ASP.NET AJAX Documentation
-description: RadSplitter Object
+page_title: RadSplitter Object - RadSplitter
+description: Check our Web Forms article about RadSplitter Object.
 slug: splitter/client-side-programming/radsplitter-object
 tags: radsplitter,object
 published: True

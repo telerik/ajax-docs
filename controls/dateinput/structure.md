@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadDateInput for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadDateInput
+description: Check our Web Forms article about Structure.
 slug: /raddateinput/structure
 tags: structure
 published: True

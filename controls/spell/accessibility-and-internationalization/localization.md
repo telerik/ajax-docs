@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadSpell for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadSpell
+description: Check our Web Forms article about Localization.
 slug: spell/accessibility-and-internationalization/localization
 tags: localization
 published: True

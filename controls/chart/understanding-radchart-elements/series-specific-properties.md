@@ -1,7 +1,7 @@
 ---
 title: Series-Specific Properties
-page_title: Series-Specific Properties | RadChart for ASP.NET AJAX Documentation
-description: Series-Specific Properties
+page_title: Series-Specific Properties - RadChart
+description: Check our Web Forms article about Series-Specific Properties.
 slug: chart/understanding-radchart-elements/series-specific-properties
 tags: series-specific,properties
 published: True

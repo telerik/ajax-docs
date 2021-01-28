@@ -1,7 +1,7 @@
 ---
 title: OnError
-page_title: OnError | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: OnError
+page_title: OnError - RadMaskedTextBox
+description: Check our Web Forms article about OnError.
 slug: radmaskedtextbox/client-side-programming/events/onerror
 tags: onerror
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Uploaded Files Position
-page_title: Uploaded Files Position | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Uploaded Files Position
+page_title: Uploaded Files Position - RadAsyncUpload
+description: Check our Web Forms article about Uploaded Files Position.
 slug: asyncupload/functionality/uploaded-files-position
 tags: uploaded,files,position
 published: True

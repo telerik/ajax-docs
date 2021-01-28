@@ -1,7 +1,7 @@
 ---
 title: OnListViewCreated
-page_title: OnListViewCreated | RadListView for ASP.NET AJAX Documentation
-description: OnListViewCreated
+page_title: OnListViewCreated - RadListView
+description: Check our Web Forms article about OnListViewCreated.
 slug: listview/client-side-programming/events/onlistviewcreated
 tags: onlistviewcreated
 published: True

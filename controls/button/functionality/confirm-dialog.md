@@ -1,7 +1,7 @@
 ---
 title: Button Confirm Dialog
-page_title: Button Confirm Dialog | RadButton for ASP.NET AJAX Documentation
-description: Button Confirm Dialog
+page_title: Button Confirm Dialog - RadButton
+description: Check our Web Forms article about Button Confirm Dialog.
 slug: button/functionality/button-confirm-dialog
 tags: confirm,dialog,button
 published: True

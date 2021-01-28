@@ -1,7 +1,7 @@
 ---
 title: Get Client-side Reference to a Control Object
-page_title: Get Client-side Reference to a Control Object | UI for ASP.NET AJAX Documentation
-description: Shows several ways to get a client-side reference to an instance of a control.
+page_title: Get Client-side Reference to a Control Object
+description: Check our Web Forms article about Shows several ways to get a client-side reference to an instance of a control.
 slug: general-information/get-client-side-reference
 tags: client, side, client-side, instance, get, reference, javascript, js, events, ajax, find
 published: True

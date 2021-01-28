@@ -1,7 +1,7 @@
 ---
 title: get_groupExpressions()
-page_title: get_groupExpressions() | RadClientDataSource for ASP.NET AJAX Documentation
-description: get_groupExpressions()
+page_title: get_groupExpressions() - RadClientDataSource
+description: Check our Web Forms article about get_groupExpressions().
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_groupexpressions()
 tags: get_groupexpressions()
 published: True

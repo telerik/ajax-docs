@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.FilterExpressionCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ClientDataSource.FilterExpressionCollection
 slug: Telerik.Web.UI.ClientDataSource.FilterExpressionCollection
 ---

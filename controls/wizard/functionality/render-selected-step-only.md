@@ -1,7 +1,7 @@
 ---
 title: Render Selected Step Only
-page_title: Render Selected Step Only | RadWizard for ASP.NET AJAX Documentation
-description: Render Selected Step Only
+page_title: Render Selected Step Only - RadWizard
+description: Check our Web Forms article about Render Selected Step Only.
 slug: wizard/functionality/render-selected-step-only
 tags: render,selected,step,only
 published: True

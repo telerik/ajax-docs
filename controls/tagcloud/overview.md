@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadTagCloud Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadTagCloud Overview
+description: Check our Web Forms article about Overview.
 slug: tagcloud/overview
 tags: overview
 published: True

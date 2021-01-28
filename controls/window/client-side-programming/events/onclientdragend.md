@@ -1,7 +1,7 @@
 ---
 title: OnClientDragEnd
-page_title: OnClientDragEnd | RadWindow for ASP.NET AJAX Documentation
-description: OnClientDragEnd
+page_title: OnClientDragEnd - RadWindow
+description: Check our Web Forms article about OnClientDragEnd.
 slug: window/client-side-programming/events/onclientdragend
 tags: onclientdragend
 published: True

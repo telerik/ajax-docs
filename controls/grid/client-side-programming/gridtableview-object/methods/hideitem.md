@@ -1,7 +1,7 @@
 ---
 title: hideItem
-page_title: hideItem | RadGrid for ASP.NET AJAX Documentation
-description: hideItem
+page_title: hideItem - RadGrid
+description: Check our Web Forms article about hideItem.
 slug: grid/client-side-programming/gridtableview-object/methods/hideitem
 tags: hideitem
 published: True

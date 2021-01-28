@@ -1,7 +1,7 @@
 ---
 title: OnClientInlineEditCompleted
-page_title: OnClientInlineEditCompleted | RadEditor for ASP.NET AJAX Documentation
-description: OnClientInlineEditCompleted
+page_title: OnClientInlineEditCompleted - RadEditor
+description: Check our Web Forms article about OnClientInlineEditCompleted.
 slug: editor/client-side-programming/events/onclientinlineeditcompleted
 tags: onclientinlineeditcompleted
 published: True

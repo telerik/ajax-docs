@@ -1,7 +1,7 @@
 ---
 title: Security
-page_title: Security | RadCloudUpload for ASP.NET AJAX Documentation
-description: Apply security in RadCloudUpload and enforce information encryption to prevent attacks.
+page_title: Security - RadCloudUpload
+description: Check our Web Forms article about Apply security in RadCloudUpload and enforce information encryption to prevent attacks.
 slug: cloudupload-security
 tags: security
 published: True

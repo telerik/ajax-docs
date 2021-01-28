@@ -1,7 +1,7 @@
 ---
 title: Building a Simple TreeView
-page_title: Building a Simple TreeView | RadTreeView for ASP.NET AJAX Documentation
-description: Building a Simple TreeView
+page_title: Building a Simple TreeView - RadTreeView
+description: Check our Web Forms article about Building a Simple TreeView.
 slug: treeview/getting-started/building-a-simple-treeview
 tags: building,a,simple,treeview
 published: True

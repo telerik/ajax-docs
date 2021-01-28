@@ -1,7 +1,7 @@
 ---
 title: Adding Templates at Designtime
-page_title: Adding Templates at Designtime | RadPanelBar for ASP.NET AJAX Documentation
-description: Adding Templates at Designtime
+page_title: Adding Templates at Designtime - RadPanelBar
+description: Check our Web Forms article about Adding Templates at Designtime.
 slug: panelbar/templates/adding-templates-at-designtime
 tags: adding,templates,at,designtime
 published: True

@@ -1,7 +1,7 @@
 ---
 title: GridHyperLinkColumn/GridTemplateColumn
-page_title: GridHyperLinkColumn/GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
-description: GridHyperLinkColumn/GridTemplateColumn
+page_title: GridHyperLinkColumn/GridTemplateColumn - RadGrid
+description: Check our Web Forms article about GridHyperLinkColumn/GridTemplateColumn.
 slug: grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
 tags: gridhyperlinkcolumn/gridtemplatecolumn
 published: True

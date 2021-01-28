@@ -1,7 +1,7 @@
 ---
 title: RadDialogOpener Object
-page_title: RadDialogOpener Object | RadEditor for ASP.NET AJAX Documentation
-description: RadDialogOpener Object
+page_title: RadDialogOpener Object - RadEditor
+description: Check our Web Forms article about RadDialogOpener Object.
 slug: editor/client-side-programming/raddialogopener-object
 tags: raddialogopener,object
 published: True

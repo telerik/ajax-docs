@@ -1,7 +1,7 @@
 ---
 title: Load
-page_title: Load | RadClientExportManager for ASP.NET AJAX Documentation
-description: Load
+page_title: Load - RadClientExportManager
+description: Check our Web Forms article about Load.
 slug: clientexportmanager/client-side-programming/events/load
 tags: load
 published: True

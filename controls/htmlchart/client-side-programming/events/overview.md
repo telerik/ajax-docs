@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: Events Overview
+page_title: Overview - RadHtmlChart
+description: Check our Web Forms article about Events Overview.
 slug: htmlchart/client-side-programming/events/overview
 tags: overview
 published: True

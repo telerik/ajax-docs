@@ -1,7 +1,7 @@
 ---
 title: Binding to DataTable or DataSet
-page_title: Binding to DataTable or DataSet | RadGrid for ASP.NET AJAX Documentation
-description: Binding to DataTable or DataSet
+page_title: Binding to DataTable or DataSet - RadGrid
+description: Check our Web Forms article about Binding to DataTable or DataSet.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-datatable-or-dataset
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-datatable-or-dataset
 tags: binding,to,datatable,or,dataset

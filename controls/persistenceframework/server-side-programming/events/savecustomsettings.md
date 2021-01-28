@@ -1,7 +1,7 @@
 ---
 title: SaveCustomSettings
-page_title: SaveCustomSettings | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: SaveCustomSettings
+page_title: SaveCustomSettings - RadPersistenceFramework
+description: Check our Web Forms article about SaveCustomSettings.
 slug: persistenceframework/server-side-programming/events/savecustomsettings
 tags: savecustomsettings
 published: True

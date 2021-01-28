@@ -1,7 +1,7 @@
 ---
 title: Pass More than one Argument
-page_title: Pass More than one Argument | RadAjax for ASP.NET AJAX Documentation
-description: Pass More than one Argument
+page_title: Pass More than one Argument
+description: Check our Web Forms article about Pass More than one Argument.
 slug: ajaxpanel/client-side-programming/how-to/pass-more-than-one-argument
 tags: pass,more,than,one,argument
 published: True

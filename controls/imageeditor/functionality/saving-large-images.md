@@ -1,7 +1,7 @@
 ---
 title: Saving Large Images
-page_title: Saving Large Images | RadImageEditor for ASP.NET AJAX Documentation
-description: Saving Large Images
+page_title: Saving Large Images - RadImageEditor
+description: Check our Web Forms article about Saving Large Images.
 slug: imageeditor/functionality/saving-large-images
 tags: saving,save,large,images,server-side,json,maxjsonlength,maxRequestLength
 published: True

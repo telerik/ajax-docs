@@ -1,7 +1,7 @@
 ---
 title: AdRotator
-page_title: AdRotator | RadRotator for ASP.NET AJAX Documentation
-description: AdRotator
+page_title: AdRotator - RadRotator
+description: Check our Web Forms article about AdRotator.
 slug: rotator/functionality/adrotator
 tags: adrotator
 published: True

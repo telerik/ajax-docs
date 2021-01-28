@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadCheckBoxList
-title_prefix: Client-side API Reference
 description:
 slug: Telerik.Web.UI.RadCheckBoxList
 ---

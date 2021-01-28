@@ -1,7 +1,7 @@
 ---
 title: OnItemDragStarted
-page_title: OnItemDragStarted | RadTreeList for ASP.NET AJAX Documentation
-description: OnItemDragStarted Event
+page_title: OnItemDragStarted - RadTreeList
+description: Check our Web Forms article about OnItemDragStarted Event.
 slug: treelist/client-side-programming/Events/OnItemDragStarted
 tags: events,OnItemDragStarted
 published: True

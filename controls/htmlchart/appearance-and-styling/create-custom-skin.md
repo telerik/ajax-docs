@@ -1,7 +1,7 @@
 ---
 title: Create Custom Skin
-page_title: Create Custom Skin | RadHtmlChart for ASP.NET AJAX Documentation
-description: Create Custom Skin
+page_title: Create Custom Skin - RadHtmlChart
+description: Check our Web Forms article about Create Custom Skin.
 slug: htmlchart/appearance-and-styling/create-custom-skin
 tags: create,custom,skin
 published: True

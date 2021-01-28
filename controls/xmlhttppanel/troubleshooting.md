@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
-page_title: Troubleshooting | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: Troubleshooting
+page_title: Troubleshooting - RadXmlHttpPanel
+description: Check our Web Forms article about Troubleshooting.
 slug: xmlhttppanel/troubleshooting
 tags: troubleshooting
 published: True

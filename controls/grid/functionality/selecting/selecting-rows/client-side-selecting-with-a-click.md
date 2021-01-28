@@ -1,7 +1,7 @@
 ---
 title: Client-side Selecting with a Click
-page_title: Client-side Selecting with a Click | RadGrid for ASP.NET AJAX Documentation
-description: Client-side Selecting with a Click
+page_title: Client-side Selecting with a Click - RadGrid
+description: Check our Web Forms article about Client-side Selecting with a Click.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click
 tags: client-side,selecting,with,a,click
 published: True

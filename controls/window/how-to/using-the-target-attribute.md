@@ -1,7 +1,7 @@
 ---
 title: Using the Target Attribute
-page_title: Using the Target Attribute | RadWindow for ASP.NET AJAX Documentation
-description: Using the Target Attribute
+page_title: Using the Target Attribute - RadWindow
+description: Check our Web Forms article about Using the Target Attribute.
 slug: window/how-to/using-the-target-attribute
 tags: using,the,target,attribute
 published: True

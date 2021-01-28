@@ -1,7 +1,7 @@
 ---
 title: Advanced via NeedDataSource
-page_title: Advanced via NeedDataSource | RadDataForm for ASP.NET AJAX 
-description: Advanced via NeedDataSource
+page_title: Advanced via NeedDataSource - RadDataForm
+description: Check our Web Forms article about Advanced via NeedDataSource.
 slug: dataform/data-binding/advanced-via-needdatasource
 tags: advanced,via,needdatasource
 published: True

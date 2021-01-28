@@ -1,7 +1,7 @@
 ---
 title: Composite Controls
-page_title: Composite Controls | UI for ASP.NET AJAX Documentation
-description: Composite Controls
+page_title: Composite Controls
+description: Check our Web Forms article about Composite Controls.
 slug: theme-builder/composite-controls
 tags: composite,controls
 published: False

@@ -1,7 +1,7 @@
 ---
 title: Excel BIFF Export
-page_title: Excel BIFF Export | RadGrid for ASP.NET AJAX Documentation
-description: Excel BIFF Export
+page_title: Excel BIFF Export - RadGrid
+description: Check our Web Forms article about Excel BIFF Export.
 slug: grid/functionality/exporting/export-formats/excel-biff-export
 tags: excel,biff,export
 published: True

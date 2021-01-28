@@ -1,7 +1,7 @@
 ---
 title: RadListBoxItem Object
-page_title: RadListBoxItem Object | RadListBox for ASP.NET AJAX Documentation
-description: RadListBoxItem Object
+page_title: RadListBoxItem Object - RadListBox
+description: Check our Web Forms article about RadListBoxItem Object.
 slug: listbox/client-side-programming/objects/radlistboxitem-object
 tags: radlistboxitem,object
 published: True

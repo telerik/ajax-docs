@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Mobile Support Overview | RadRotator for ASP.NET AJAX Documentation
-description: Overview
+page_title: Mobile Support Overview - RadRotator
+description: Check our Web Forms article about Overview.
 slug: rotator/mobile-support/overview
 tags: overview
 published: True

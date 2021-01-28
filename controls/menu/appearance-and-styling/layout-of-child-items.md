@@ -1,7 +1,7 @@
 ---
 title: Layout of Child Items
-page_title: Layout of Child Items | RadMenu for ASP.NET AJAX Documentation
-description: Layout of Child Items
+page_title: Layout of Child Items - RadMenu
+description: Check our Web Forms article about Layout of Child Items.
 slug: menu/appearance-and-styling/layout-of-child-items
 tags: layout,of,child,items
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Returning Extra Data from the Web Service
-page_title: Returning Extra Data from the Web Service | RadScheduler for ASP.NET AJAX Documentation
-description: Returning Extra Data from the Web Service
+page_title: Returning Extra Data from the Web Service - RadScheduler
+description: Check our Web Forms article about Returning Extra Data from the Web Service.
 slug: scheduler/web-service-binding/returning-extra-data-from-the-web-service
 tags: returning,extra,data,from,the,web,service
 published: True

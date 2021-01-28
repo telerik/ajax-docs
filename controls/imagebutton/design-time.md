@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadImageButton for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadImageButton
+description: Check our Web Forms article about Design Time.
 slug: imagebutton/design-time
 tags: design,time
 published: True

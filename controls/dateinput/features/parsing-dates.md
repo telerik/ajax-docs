@@ -1,7 +1,7 @@
 ---
 title: Parsing Dates
-page_title: Parsing Dates | RadDateInput for ASP.NET AJAX Documentation
-description: Parsing Dates
+page_title: Parsing Dates - RadDateInput
+description: Check our Web Forms article about Parsing Dates.
 slug: raddateinput/features/parsing-dates
 tags: parsing,dates
 published: True

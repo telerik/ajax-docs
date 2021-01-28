@@ -1,7 +1,7 @@
 ---
 title: TabCreated
-page_title: TabCreated | RadTabStrip for ASP.NET AJAX Documentation
-description: TabCreated
+page_title: TabCreated - RadTabStrip
+description: Check our Web Forms article about TabCreated.
 slug: tabstrip/server-side-programming/tabcreated
 tags: tabcreated
 published: True

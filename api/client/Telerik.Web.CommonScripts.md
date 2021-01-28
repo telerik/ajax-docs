@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.CommonScripts
-title_prefix: Client-side API Reference
 description: Telerik.Web.CommonScripts
 static: true
 slug: Telerik.Web.CommonScripts

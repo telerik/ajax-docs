@@ -1,7 +1,7 @@
 ---
 title: Export from Ajaxified RadTreeList
-page_title: Export from Ajaxified RadTreeList | RadTreeList for ASP.NET AJAX Documentation
-description: Export from Ajaxified RadTreeList
+page_title: Export from Ajaxified RadTreeList - RadTreeList
+description: Check our Web Forms article about Export from Ajaxified RadTreeList.
 slug: treelist/functionality/exporting/export-from-ajaxified-radtreelist
 tags: export,from,ajaxified,radtreelist
 published: True

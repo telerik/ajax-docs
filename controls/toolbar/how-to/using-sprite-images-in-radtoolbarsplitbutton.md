@@ -1,7 +1,7 @@
 ---
 title: Using Sprite Images in RadToolBarSplitButton
-page_title: Using Sprite Images in RadToolBarSplitButton | RadToolBar for ASP.NET AJAX Documentation
-description: Using Sprite Images in RadToolBarSplitButton
+page_title: Using Sprite Images in RadToolBarSplitButton - RadToolBar
+description: Check our Web Forms article about Using Sprite Images in RadToolBarSplitButton.
 slug: toolbar/how-to/using-sprite-images-in-radtoolbarsplitbutton
 tags: using,sprite,images,in,radtoolbarsplitbutton
 published: True

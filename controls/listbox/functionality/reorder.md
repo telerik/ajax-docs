@@ -1,7 +1,7 @@
 ---
 title: Reorder
-page_title: Reorder | RadListBox for ASP.NET AJAX Documentation
-description: Reorder
+page_title: Reorder - RadListBox
+description: Check our Web Forms article about Reorder.
 slug: listbox/functionality/reorder
 tags: reorder
 published: True

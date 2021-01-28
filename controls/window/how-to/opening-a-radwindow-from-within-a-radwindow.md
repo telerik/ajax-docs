@@ -1,7 +1,7 @@
 ---
 title: Open a RadWindow from Within a RadWindow
-page_title: Open a RadWindow from Within a RadWindow | RadWindow for ASP.NET AJAX Documentation
-description: How to open a RadWindow from Within a RadWindow
+page_title: Open a RadWindow from Within a RadWindow - RadWindow
+description: Check our Web Forms article about How to open a RadWindow from Within a RadWindow.
 slug: window/how-to/opening-a-radwindow-from-within-a-radwindow
 tags: opening, open,radwindow,from,within,inside,radwindow
 published: True

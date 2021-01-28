@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TabStripScrollButtonsPosition
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TabStripScrollButtonsPosition
 slug: Telerik.Web.UI.TabStripScrollButtonsPosition
 ---

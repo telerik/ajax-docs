@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPanelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelEventArgs
 slug: Telerik.Web.UI.RadPanelEventArgs
 ---

@@ -1,7 +1,7 @@
 ---
 title: set_expanded()
-page_title: set_expanded() | RadGrid for ASP.NET AJAX Documentation
-description: set_expanded()
+page_title: set_expanded() - RadGrid
+description: Check our Web Forms article about set_expanded().
 slug: grid/client-side-programming/griddataitem-object/properties/set_expanded()
 tags: set_expanded()
 published: True

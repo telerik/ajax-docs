@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FilterMenuShowingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FilterMenuShowingEventArgs
 slug: Telerik.Web.UI.FilterMenuShowingEventArgs
 ---

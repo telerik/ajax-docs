@@ -1,7 +1,7 @@
 ---
 title: Reordered
-page_title: Reordered | RadTabStrip for ASP.NET AJAX Documentation
-description: Reordered
+page_title: Reordered - RadTabStrip
+description: Check our Web Forms article about Reordered.
 slug: tabstrip/server-side-programming/reordered
 tags: reordered
 published: True

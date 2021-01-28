@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-Side Programming Overview | RadDock for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-Side Programming Overview - RadDock
+description: Check our Web Forms article about Overview.
 slug: dock/server-side-programming/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: NextButtonClick
-page_title: NextButtonClick | RadWizard for ASP.NET AJAX Documentation
-description: NextButtonClick
+page_title: NextButtonClick - RadWizard
+description: Check our Web Forms article about NextButtonClick.
 slug: wizard/server-side-programming/events/nextbuttonclick
 tags: nextbuttonclick
 published: True

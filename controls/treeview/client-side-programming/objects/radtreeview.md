@@ -1,7 +1,7 @@
 ---
 title: RadTreeView
-page_title: RadTreeView | RadTreeView for ASP.NET AJAX Documentation
-description: RadTreeView
+page_title: RadTreeView - RadTreeView
+description: Check our Web Forms article about RadTreeView.
 slug: treeview/client-side-programming/objects/radtreeview
 tags: radtreeview
 published: True

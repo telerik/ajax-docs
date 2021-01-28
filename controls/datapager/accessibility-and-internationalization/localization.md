@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadDataPager for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadDataPager
+description: Check our Web Forms article about Localization.
 slug: datapager/accessibility-and-internationalization/localization
 tags: localization
 published: True

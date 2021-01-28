@@ -1,7 +1,7 @@
 ---
 title: OnClientItemSelected
-page_title: OnClientItemSelected | RadFileExplorer for ASP.NET AJAX Documentation
-description: OnClientItemSelected
+page_title: OnClientItemSelected - RadFileExplorer
+description: Check our Web Forms article about OnClientItemSelected.
 slug: fileexplorer/client-side-programming/events/onclientitemselected
 tags: onclientitemselected
 published: True

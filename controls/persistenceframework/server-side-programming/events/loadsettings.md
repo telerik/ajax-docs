@@ -1,7 +1,7 @@
 ---
 title: LoadSettings
-page_title: LoadSettings | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: LoadSettings
+page_title: LoadSettings - RadPersistenceFramework
+description: Check our Web Forms article about LoadSettings.
 slug: persistenceframework/server-side-programming/events/loadsettings
 tags: loadsettings
 published: True

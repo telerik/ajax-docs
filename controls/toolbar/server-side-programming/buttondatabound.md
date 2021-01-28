@@ -1,7 +1,7 @@
 ---
 title: ButtonDataBound
-page_title: ButtonDataBound | RadToolBar for ASP.NET AJAX Documentation
-description: ButtonDataBound
+page_title: ButtonDataBound - RadToolBar
+description: Check our Web Forms article about ButtonDataBound.
 slug: toolbar/server-side-programming/buttondatabound
 tags: buttondatabound
 published: True

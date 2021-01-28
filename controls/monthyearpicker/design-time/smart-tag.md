@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadMonthYearPicker
+description: Check our Web Forms article about Smart Tag.
 slug: monthyearpicker/design-time/smart-tag
 tags: smart,tag
 published: True

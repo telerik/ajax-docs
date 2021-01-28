@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time
+description: Check our Web Forms article about Design Time.
 slug: ajaxpanel/design-time
 tags: design,time
 published: True

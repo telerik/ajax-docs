@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadRibbonBar for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadRibbonBar
+description: Check our Web Forms article about Structure.
 slug: ribbonbar/structure
 tags: structure
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnRowSelecting
-page_title: OnRowSelecting | RadGrid for ASP.NET AJAX Documentation
-description: OnRowSelecting
+page_title: OnRowSelecting - RadGrid
+description: Check our Web Forms article about OnRowSelecting.
 slug: grid/client-side-programming/events/onrowselecting
 tags: onrowselecting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentContextMenu
-page_title: OnClientAppointmentContextMenu | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentContextMenu
+page_title: OnClientAppointmentContextMenu - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentContextMenu.
 slug: scheduler/client-side-programming/events/onclientappointmentcontextmenu
 tags: onclientappointmentcontextmenu
 published: True

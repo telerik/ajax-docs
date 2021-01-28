@@ -1,7 +1,7 @@
 ---
 title: Validation
-page_title: Validation | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Validation
+page_title: Validation - RadMonthYearPicker
+description: Check our Web Forms article about Validation.
 slug: monthyearpicker/functionality/validation
 tags: validation
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ColumnCreated
-page_title: ColumnCreated Event - RadGrid | UI for ASP.NET AJAX
-description: ColumnCreated Event
+page_title: ColumnCreated Event - RadGrid
+description: Check our Web Forms article about ColumnCreated Event.
 slug: grid/server-side-programming/events/columncreated
 published: True
 position: 50

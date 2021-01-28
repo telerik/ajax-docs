@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SpreadsheetSheet
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SpreadsheetSheet
 slug: Telerik.Web.UI.SpreadsheetSheet
 ---

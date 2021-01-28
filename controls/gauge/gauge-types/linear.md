@@ -1,7 +1,7 @@
 ---
 title: Linear
-page_title: Linear | RadGauge for ASP.NET AJAX Documentation
-description: Linear
+page_title: Linear - RadGauge
+description: Check our Web Forms article about Linear.
 slug: gauge/gauge-types/linear
 tags: linear
 published: True

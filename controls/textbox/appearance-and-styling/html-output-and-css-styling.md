@@ -1,7 +1,7 @@
 ---
 title: HTML Output and CSS Styling
-page_title: HTML Output and CSS Styling | RadTextBox for ASP.NET AJAX Documentation
-description: HTML Output and CSS Styling
+page_title: HTML Output and CSS Styling - RadTextBox
+description: Check our Web Forms article about HTML Output and CSS Styling.
 slug: radtextbox/appearance-and-styling/html-output-and-css-styling
 tags: html,output,and,css,styling
 published: True

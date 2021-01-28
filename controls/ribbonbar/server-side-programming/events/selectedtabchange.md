@@ -1,7 +1,7 @@
 ---
 title: SelectedTabChange
-page_title: SelectedTabChange | RadRibbonBar for ASP.NET AJAX Documentation
-description: SelectedTabChange
+page_title: SelectedTabChange - RadRibbonBar
+description: Check our Web Forms article about SelectedTabChange.
 slug: ribbonbar/server-side-programming/events/selectedtabchange
 tags: selectedtabchange
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientTabDragStart
-page_title: OnClientTabDragStart | RadTabStrip for ASP.NET AJAX Documentation
-description: OnClientTabDragStart
+page_title: OnClientTabDragStart - RadTabStrip
+description: Check our Web Forms article about OnClientTabDragStart.
 slug: tabstrip/client-side-programming/onclienttabdragstart
 tags: onclienttabdragstart
 published: True

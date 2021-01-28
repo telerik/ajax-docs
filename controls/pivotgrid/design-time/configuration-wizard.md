@@ -1,7 +1,7 @@
 ---
 title: Configuration Wizard
-page_title: Configuration Wizard | RadPivotGrid for ASP.NET AJAX Documentation
-description: Configuration Wizard
+page_title: Configuration Wizard - RadPivotGrid
+description: Check our Web Forms article about Configuration Wizard.
 slug: pivotgrid/design-time/configuration-wizard
 tags: configuration,wizard
 published: True

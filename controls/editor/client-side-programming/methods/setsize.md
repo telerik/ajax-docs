@@ -1,7 +1,7 @@
 ---
 title: setSize
-page_title: setSize | RadEditor for ASP.NET AJAX Documentation
-description: setSize
+page_title: setSize - RadEditor
+description: Check our Web Forms article about setSize.
 slug: editor/client-side-programming/methods/setsize
 tags: setsize
 published: True

@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support and Screen Readers
-page_title: WAI-ARIA Support and Screen Readers | UI for ASP.NET AJAX Documentation
-description: WAI-ARIA Support and Screen Readers
+page_title: WAI-ARIA Support and Screen Readers
+description: Check our Web Forms article about WAI-ARIA Support and Screen Readers.
 slug: controls/wai-aria-support-and-screen-readers
 tags: wai-aria,support,and,screen,readers
 published: True

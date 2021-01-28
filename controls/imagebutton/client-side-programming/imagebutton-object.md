@@ -1,7 +1,7 @@
 ---
 title: ImageButton Object
-page_title: ImageButton Object | RadImageButton for ASP.NET AJAX Documentation
-description: ImageButton Object
+page_title: ImageButton Object - RadImageButton
+description: Check our Web Forms article about ImageButton Object.
 slug: imagebutton/client-side-programming/imagebutton-object
 tags: imagebutton,object
 published: True

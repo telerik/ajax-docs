@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditorContentAreaMode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditorContentAreaMode
 slug: Telerik.Web.UI.EditorContentAreaMode
 ---

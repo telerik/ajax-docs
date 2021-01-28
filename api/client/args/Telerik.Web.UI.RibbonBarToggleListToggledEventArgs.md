@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarToggleListToggledEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarToggleListToggledEventArgs
 slug: Telerik.Web.UI.RibbonBarToggleListToggledEventArgs
 ---

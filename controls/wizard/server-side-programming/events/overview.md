@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-side Events Overview | RadWizard for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Events Overview - RadWizard
+description: Check our Web Forms article about Overview.
 slug: wizard/server-side-programming/events/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Input Types
-page_title: Input Types | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Input Types
+page_title: Input Types - RadAutoCompleteBox
+description: Check our Web Forms article about Input Types.
 slug: autocompletebox/functionality/input-types
 tags: input,types
 published: True

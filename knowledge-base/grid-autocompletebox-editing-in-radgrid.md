@@ -1,8 +1,8 @@
 ---
 title: Edit and insert with autocomplete
-description: Editing in RadGrid using RadAutoCompleteBox in GridTemplateColumn and built-in GridAutoCompleteColumn
+description: Editing in RadGrid using RadAutoCompleteBox in GridTemplateColumn and built-in GridAutoCompleteColumn.
 type: how-to
-page_title: Edit and insert with autocomplete - RadGrid | Telerik UI for ASP.NET AJAX
+page_title: Edit and insert with autocomplete - RadGrid
 slug: grid-autocompletebox-editing-in-radgrid
 position: 
 tags: autocompletebox, radautocompletebox, radgrid, grid, gridtemplatecolumn, editing, gridautocompletecolumn

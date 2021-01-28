@@ -1,7 +1,7 @@
 ---
 title: Elastic behavior
-page_title: Elastic behavior | RadNavigation for ASP.NET AJAX Documentation
-description: Elastic behavior
+page_title: Elastic behavior - RadNavigation
+description: Check our Web Forms article about Elastic behavior.
 slug: navigation/mobile-support/elastic-behavior
 tags: elastic,behavior
 published: False

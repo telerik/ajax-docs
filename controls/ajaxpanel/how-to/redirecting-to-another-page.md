@@ -1,7 +1,7 @@
 ---
 title: Redirecting to Another Page
-page_title: Redirecting to Another Page | RadAjax for ASP.NET AJAX Documentation
-description: Redirecting to Another Page
+page_title: Redirecting to Another Page
+description: Check our Web Forms article about Redirecting to Another Page.
 slug: ajaxpanel/how-to/redirecting-to-another-page
 tags: redirecting,to,another,page
 published: True

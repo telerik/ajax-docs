@@ -1,7 +1,7 @@
 ---
 title: OnGridCreating
-page_title: OnGridCreating | RadGrid for ASP.NET AJAX Documentation
-description: OnGridCreating
+page_title: OnGridCreating - RadGrid
+description: Check our Web Forms article about OnGridCreating.
 slug: grid/client-side-programming/events/ongridcreating
 tags: ongridcreating
 published: True

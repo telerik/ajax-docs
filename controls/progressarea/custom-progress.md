@@ -1,7 +1,7 @@
 ---
 title: Custom Progress
-page_title: Custom Progress | RadProgressArea for ASP.NET AJAX Documentation
-description: Custom Progress
+page_title: Custom Progress - RadProgressArea
+description: Check our Web Forms article about Custom Progress.
 slug: progressarea/custom-progress
 tags: custom,progress
 published: True

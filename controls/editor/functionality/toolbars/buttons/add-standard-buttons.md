@@ -1,7 +1,7 @@
 ---
 title: Add Standard Buttons
-page_title: Add Standard Buttons | RadEditor for ASP.NET AJAX Documentation
-description: Add Standard Buttons
+page_title: Add Standard Buttons - RadEditor
+description: Check our Web Forms article about Add Standard Buttons.
 slug: editor/functionality/toolbars/buttons/add-standard-buttons
 tags: add,standard,buttons
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Methods and Properties
-page_title: Methods and Properties | RadMenu for ASP.NET AJAX Documentation
-description: Methods and Properties
+page_title: Methods and Properties - RadMenu
+description: Check our Web Forms article about Methods and Properties.
 slug: menu/server-side-programming/methods-and-properties
 tags: methods,and,properties
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Adding Templates at Runtime
-page_title: Adding Templates at Runtime | RadPanelBar for ASP.NET AJAX Documentation
-description: Adding Templates at Runtime
+page_title: Adding Templates at Runtime - RadPanelBar
+description: Check our Web Forms article about Adding Templates at Runtime.
 slug: panelbar/templates/adding-templates-at-runtime
 tags: adding,templates,at,runtime
 published: True

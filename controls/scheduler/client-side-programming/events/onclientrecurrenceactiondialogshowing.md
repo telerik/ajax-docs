@@ -1,7 +1,7 @@
 ---
 title: OnClientRecurrenceActionDialogShowing
-page_title: OnClientRecurrenceActionDialogShowing | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientRecurrenceActionDialogShowing
+page_title: OnClientRecurrenceActionDialogShowing - RadScheduler
+description: Check our Web Forms article about OnClientRecurrenceActionDialogShowing.
 slug: scheduler/client-side-programming/events/onclientrecurrenceactiondialogshowing
 tags: onclientrecurrenceactiondialogshowing
 published: True

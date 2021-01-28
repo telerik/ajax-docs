@@ -1,7 +1,7 @@
 ---
 title: SmartTag
-page_title: SmartTag | RadGrid for ASP.NET AJAX Documentation
-description: SmartTag
+page_title: SmartTag - RadGrid
+description: Check our Web Forms article about SmartTag.
 slug: grid/design-time/smarttag
 tags: smarttag
 published: True

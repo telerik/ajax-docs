@@ -1,7 +1,7 @@
 ---
 title: OnMoveUp
-page_title: OnMoveUp | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: OnMoveUp
+page_title: OnMoveUp - RadMaskedTextBox
+description: Check our Web Forms article about OnMoveUp.
 slug: radmaskedtextbox/client-side-programming/events/onmoveup
 tags: onmoveup
 published: True

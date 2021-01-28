@@ -1,7 +1,7 @@
 ---
 title: Use Custom Modal Advanced Template
-page_title: Use Custom Modal Advanced Template | RadScheduler for ASP.NET AJAX Documentation
-description: Use Custom Modal Advanced Template
+page_title: Use Custom Modal Advanced Template - RadScheduler
+description: Check our Web Forms article about Use Custom Modal Advanced Template.
 slug: scheduler/how-to/use-custom-modal-advanced-template
 tags: use,custom,modal,advanced,template
 published: True

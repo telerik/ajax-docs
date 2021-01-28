@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadImageAndTextTile
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadImageAndTextTile
 slug: Telerik.Web.UI.RadImageAndTextTile
 ---

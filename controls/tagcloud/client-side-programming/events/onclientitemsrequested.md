@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | RadTagCloud for ASP.NET AJAX Documentation
-description: OnClientItemsRequested
+page_title: OnClientItemsRequested - RadTagCloud
+description: Check our Web Forms article about OnClientItemsRequested.
 slug: tagcloud/client-side-programming/events/onclientitemsrequested
 tags: onclientitemsrequested
 published: True

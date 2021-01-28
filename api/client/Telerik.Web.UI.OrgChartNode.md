@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.OrgChartNode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.OrgChartNode
 slug: Telerik.Web.UI.OrgChartNode
 ---

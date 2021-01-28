@@ -1,7 +1,7 @@
 ---
 title: Localization through Resource Files
-page_title: Localization through Resource Files | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Localization through Resource Files
+page_title: Localization through Resource Files - RadMediaPlayer
+description: Check our Web Forms article about Localization through Resource Files.
 slug: mediaplayer/accessibility-and-internationalization/localization-through-resource-files
 tags: localization,resource,files
 published: True

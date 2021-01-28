@@ -1,7 +1,7 @@
 ---
 title: TileGroup Object
-page_title: TileGroup Object | RadTileList for ASP.NET AJAX Documentation
-description: TileGroup Object
+page_title: TileGroup Object - RadTileList
+description: Check our Web Forms article about TileGroup Object.
 slug: tilelist/server-side-programming/tilegroup-object
 tags: tilegroup,object
 published: True

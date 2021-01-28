@@ -1,7 +1,7 @@
 ---
 title: OnClientDragStart
-page_title: OnClientDragStart | RadWindow for ASP.NET AJAX Documentation
-description: OnClientDragStart
+page_title: OnClientDragStart - RadWindow
+description: Check our Web Forms article about OnClientDragStart.
 slug: window/client-side-programming/events/onclientdragstart
 tags: onclientdragstart
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Sending Additional Information to the Web Service
-page_title: Sending Additional Information to the Web Service | RadGantt for ASP.NET AJAX Documentation
-description: Sending Additional Information to the Web Service
+page_title: Sending Additional Information to the Web Service - RadGantt
+description: Check our Web Forms article about Sending Additional Information to the Web Service.
 slug: gantt/data-binding/client-side-binding/sending-additional-information-to-the-web-service
 tags: sending,additional,information,to,the,web,service
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadChat for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadChat
+description: Check our Web Forms article about Getting Started.
 slug: chat/getting-started
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: Server-side Programming Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Server-side Programming Overview - RadMaskedTextBox
+description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/server-side-programming/properties
 tags: overview
 published: True

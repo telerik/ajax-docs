@@ -1,7 +1,7 @@
 ---
 title: OnDataFormCreating
-page_title: OnDataFormCreating | RadDataForm for ASP.NET AJAX 
-description: OnDataFormCreating
+page_title: OnDataFormCreating - RadDataForm
+description: Check our Web Forms article about OnDataFormCreating.
 slug: dataform/client-side-programming/events/ondataformcreating
 tags: ondataformcreating
 published: True

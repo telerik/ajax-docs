@@ -1,7 +1,7 @@
 ---
 title: Fonts
-page_title: Fonts | RadEditor for ASP.NET AJAX Documentation
-description: Fonts
+page_title: Fonts - RadEditor
+description: Check our Web Forms article about Fonts.
 slug: editor/functionality/toolbars/dropdowns/fonts
 tags: fonts
 published: True

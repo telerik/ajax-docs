@@ -1,7 +1,7 @@
 ---
 title: OnGridCreated
-page_title: OnGridCreated | RadGrid for ASP.NET AJAX Documentation
-description: OnGridCreated
+page_title: OnGridCreated - RadGrid
+description: Check our Web Forms article about OnGridCreated.
 slug: grid/client-side-programming/events/ongridcreated
 tags: ongridcreated
 published: True

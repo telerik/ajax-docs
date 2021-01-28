@@ -1,6 +1,5 @@
 ---
 title: TTelerik.Web.UI.WizardStepType
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.WizardStepType
 slug: Telerik.Web.UI.WizardStepType
 ---

@@ -1,7 +1,7 @@
 ---
 title: RadAjaxManager Object
-page_title: RadAjaxManager Object | RadAjax for ASP.NET AJAX Documentation
-description: RadAjaxManager Object
+page_title: RadAjaxManager Object
+description: Check our Web Forms article about RadAjaxManager Object.
 slug: ajaxmanager/client-side-programming/radajaxmanager-object
 previous_url: ajax/client-side-programming/radajaxmanager-object
 tags: radajaxmanager,object

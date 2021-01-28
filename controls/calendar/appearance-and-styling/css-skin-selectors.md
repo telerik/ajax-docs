@@ -1,7 +1,7 @@
 ---
 title: CSS Skin Selectors
-page_title: CSS Skin Selectors | RadCalendar for ASP.NET AJAX Documentation
-description: CSS Skin Selectors
+page_title: CSS Skin Selectors - RadCalendar
+description: Check our Web Forms article about CSS Skin Selectors.
 slug: calendar/appearance-and-styling/css-skin-selectors
 tags: css,skin,selectors
 published: True

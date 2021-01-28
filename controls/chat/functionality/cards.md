@@ -1,7 +1,7 @@
 ---
 title: Default Cards 
-page_title: Default Cards | RadChat for ASP.NET AJAX Documentation
-description: Default Cards 
+page_title: Default Cards - RadChat
+description: Check our Web Forms article about Default Cards.
 slug: chat/functionality/cards
 tags: default,cards
 published: True

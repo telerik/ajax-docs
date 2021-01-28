@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Spellchecker Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+page_title: Spellchecker Overview - RadEditor
+description: Check our Web Forms article about Overview.
 slug: editor/functionality/spellchecker/overview
 tags: overview
 published: True

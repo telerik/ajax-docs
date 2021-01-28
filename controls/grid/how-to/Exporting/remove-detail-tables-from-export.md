@@ -1,7 +1,7 @@
 ---
 title: Remove Detail Tables from Export
-page_title: Remove Detail Tables from Export | RadGrid for ASP.NET AJAX Documentation
-description: Remove Detail Tables from Export to prevent blank rows or nested items
+page_title: Remove Detail Tables from Export - RadGrid
+description: Check our Web Forms article about Remove Detail Tables from Export to prevent blank rows or nested items.
 slug: grid/how-to/exporting/remove-detail-tables-from-export
 tags: export,detail,table,blank,row
 published: True

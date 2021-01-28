@@ -1,7 +1,7 @@
 ---
 title: Advanced via NeedDataSource
-page_title: Advanced via NeedDataSource | RadPivotGrid for ASP.NET AJAX Documentation
-description: Advanced via NeedDataSource
+page_title: Advanced via NeedDataSource - RadPivotGrid
+description: Check our Web Forms article about Advanced via NeedDataSource.
 slug: pivotgrid/data-binding/advanced-via-needdatasource
 tags: advanced,via,needdatasource
 published: True

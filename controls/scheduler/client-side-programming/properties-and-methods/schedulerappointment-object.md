@@ -1,7 +1,7 @@
 ---
 title: SchedulerAppointment Object
-page_title: SchedulerAppointment Object | RadScheduler for ASP.NET AJAX Documentation
-description: SchedulerAppointment Object
+page_title: SchedulerAppointment Object - RadScheduler
+description: Check our Web Forms article about SchedulerAppointment Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerappointment-object
 tags: schedulerappointment,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Gestures
-page_title: Gestures | RadImageGallery for ASP.NET AJAX Documentation
-description: Gestures
+page_title: Gestures - RadImageGallery
+description: Check our Web Forms article about Gestures.
 slug: imagegallery/mobile-support/gestures
 tags: gestures
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Styling the CommandItem
-page_title: Styling the CommandItem | RadGrid for ASP.NET AJAX Documentation
-description: Styling the CommandItem
+page_title: Styling the CommandItem - RadGrid
+description: Check our Web Forms article about Styling the CommandItem.
 slug: grid/appearance-and-styling/styling-the-commanditem
 tags: styling,the,commanditem
 published: True

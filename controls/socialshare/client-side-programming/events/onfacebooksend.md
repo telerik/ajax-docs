@@ -1,7 +1,7 @@
 ---
 title: OnFacebookSend
-page_title: OnFacebookSend | RadSocialShare for ASP.NET AJAX Documentation
-description: OnFacebookSend
+page_title: OnFacebookSend - RadSocialShare
+description: Check our Web Forms article about OnFacebookSend.
 slug: socialshare/client-side-programming/events/onfacebooksend
 tags: onfacebooksend
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Loading Items from a Web Service
-page_title: Loading Items from a Web Service | RadComboBox for ASP.NET AJAX Documentation
-description: Loading Items from a Web Service
+page_title: Loading Items from a Web Service - RadComboBox
+description: Check our Web Forms article about Loading Items from a Web Service.
 slug: combobox/load-on-demand/loading-items-from-a-web-service
 tags: loading,items,from,a,web,service
 published: True

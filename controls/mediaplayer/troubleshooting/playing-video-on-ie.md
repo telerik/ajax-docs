@@ -1,7 +1,7 @@
 ---
 title: Playing Video on IE
-page_title: Playing Video on IE | RadMediaPlayer for ASP.NET AJAX Documentation
-description: Playing Video on IE
+page_title: Playing Video on IE - RadMediaPlayer
+description: Check our Web Forms article about Playing Video on IE.
 slug: mediaplayer/troubleshooting/playing-video-on-ie
 tags: playing,video,on,ie
 published: True

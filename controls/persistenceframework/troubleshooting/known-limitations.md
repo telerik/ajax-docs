@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadPersistenceFramework for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadPersistenceFramework
+description: Check our Web Forms article about Known Limitations.
 slug: persistenceframework/troubleshooting/known-limitations
 tags: limitations
 published: True

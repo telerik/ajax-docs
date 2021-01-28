@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridHeaderMenuCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridHeaderMenuCancelEventArgs
 slug: Telerik.Web.UI.GridHeaderMenuCancelEventArgs
 ---

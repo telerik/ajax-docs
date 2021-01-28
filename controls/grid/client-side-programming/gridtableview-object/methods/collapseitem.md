@@ -1,7 +1,7 @@
 ---
 title: collapseItem
-page_title: collapseItem | RadGrid for ASP.NET AJAX Documentation
-description: collapseItem
+page_title: collapseItem - RadGrid
+description: Check our Web Forms article about collapseItem.
 slug: grid/client-side-programming/gridtableview-object/methods/collapseitem
 tags: collapseitem
 published: True

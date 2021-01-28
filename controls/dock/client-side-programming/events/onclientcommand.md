@@ -1,7 +1,7 @@
 ---
 title: OnClientCommand
-page_title: OnClientCommand | RadDock for ASP.NET AJAX Documentation
-description: OnClientCommand
+page_title: OnClientCommand - RadDock
+description: Check our Web Forms article about OnClientCommand.
 slug: dock/client-side-programming/events/onclientcommand
 tags: onclientcommand
 published: True

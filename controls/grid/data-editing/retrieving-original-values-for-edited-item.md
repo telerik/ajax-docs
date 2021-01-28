@@ -1,7 +1,7 @@
 ---
 title: Retrieving Original Values for Edited Item
-page_title: Retrieving Original Values for Edited Item | RadGrid for ASP.NET AJAX Documentation
-description: Retrieving Original Values for Edited Item
+page_title: Retrieving Original Values for Edited Item - RadGrid
+description: Check our Web Forms article about Retrieving Original Values for Edited Item.
 slug: grid/data-editing/retrieving-original-values-for-edited-item
 tags: retrieving,original,values,for,edited,item
 published: True

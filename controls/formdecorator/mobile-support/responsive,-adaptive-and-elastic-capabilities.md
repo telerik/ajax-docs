@@ -1,7 +1,7 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | RadFormDecorator for ASP.NET AJAX Documentation
-description: Responsive, Adaptive and Elastic Capabilities
+page_title: Responsive, Adaptive and Elastic Capabilities - RadFormDecorator
+description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
 slug: formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
 published: True

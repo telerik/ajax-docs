@@ -1,7 +1,7 @@
 ---
 title: Setting RadGrid
-page_title: Setting RadGrid | RadGrid for ASP.NET AJAX Documentation
-description: Setting RadGrid
+page_title: Setting RadGrid - RadGrid
+description: Check our Web Forms article about Setting RadGrid.
 slug: grid/design-time/setting-radgrid
 tags: setting,radgrid
 published: True

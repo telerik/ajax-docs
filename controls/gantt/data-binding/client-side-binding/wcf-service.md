@@ -1,7 +1,7 @@
 ---
 title: WCF Service
-page_title: WCF Service | RadGantt for ASP.NET AJAX Documentation
-description: WCF Service
+page_title: WCF Service - RadGantt
+description: Check our Web Forms article about WCF Service.
 slug: gantt/data-binding/client-side-binding/wcf-service
 tags: wcf,service
 published: False

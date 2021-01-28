@@ -1,7 +1,7 @@
 ---
 title: Color Presets
-page_title: Color Presets | RadColorPicker for ASP.NET AJAX Documentation
-description: Color Presets
+page_title: Color Presets - RadColorPicker
+description: Check our Web Forms article about Color Presets.
 slug: colorpicker/functionality/color-presets
 tags: color,presets
 published: True

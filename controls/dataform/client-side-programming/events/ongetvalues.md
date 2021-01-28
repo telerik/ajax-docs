@@ -1,7 +1,7 @@
 ---
 title: OnGetValues
-page_title: OnGetValues | RadDataForm for ASP.NET AJAX 
-description: OnGetValues
+page_title: OnGetValues - RadDataForm
+description: Check our Web Forms article about OnGetValues.
 slug: dataform/client-side-programming/events/ongetvalues
 tags: ongetvalues
 published: True

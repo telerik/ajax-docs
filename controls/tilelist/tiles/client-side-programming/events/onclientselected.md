@@ -1,7 +1,7 @@
 ---
 title: OnClientSelected
-page_title: OnClientSelected | RadTile for ASP.NET AJAX Documentation
-description: OnClientSelected
+page_title: OnClientSelected - RadTile
+description: Check our Web Forms article about OnClientSelected.
 slug: tilelist/tiles/client-side-programming/events/onclientselected
 tags: onclientselected
 published: True

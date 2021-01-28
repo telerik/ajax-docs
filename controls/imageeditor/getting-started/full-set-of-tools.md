@@ -1,7 +1,7 @@
 ---
 title: Full Set of Tools
-page_title: Full Set of Tools | RadImageEditor for ASP.NET AJAX Documentation
-description: Full Set of Tools
+page_title: Full Set of Tools - RadImageEditor
+description: Check our Web Forms article about Full Set of Tools.
 slug: imageeditor/getting-started/full-set-of-tools
 tags: full,set,of,tools
 published: True

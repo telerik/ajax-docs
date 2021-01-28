@@ -1,7 +1,7 @@
 ---
 title: OnClientAdded
-page_title: OnClientAdded | RadAsyncUpload for ASP.NET AJAX Documentation
-description: OnClientAdded
+page_title: OnClientAdded - RadAsyncUpload
+description: Check our Web Forms article about OnClientAdded.
 slug: asyncupload/client-side-programming/onclientadded
 tags: onclientadded
 published: True

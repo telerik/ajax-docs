@@ -1,7 +1,7 @@
 ---
 title: Persisting Client-side Selection with ViewState Disabled
-page_title: Persisting Client-side Selection with ViewState Disabled | RadGrid for ASP.NET AJAX Documentation
-description: Persisting Client-side Selection with ViewState Disabled
+page_title: Persisting Client-side Selection with ViewState Disabled - RadGrid
+description: Check our Web Forms article about Persisting Client-side Selection with ViewState Disabled.
 slug: grid/how-to/selecting/persisting-client-side-selection-with-disabled-viewstate
 previous_url: controls/grid/functionality/selecting/how-to/persisting-client-side-selection-with-disabled-viewstate
 tags: selecting, persisting, ViewState

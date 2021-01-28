@@ -1,7 +1,7 @@
 ---
 title: XHTML Validator
-page_title: XHTML Validator | RadEditor for ASP.NET AJAX Documentation
-description: XHTML Validator
+page_title: XHTML Validator - RadEditor
+description: Check our Web Forms article about XHTML Validator.
 slug: editor/functionality/dialogs/xhtml-validator
 tags: xhtml,validator
 published: True

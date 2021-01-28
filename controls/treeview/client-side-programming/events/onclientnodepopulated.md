@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulated
-page_title: OnClientNodePopulated | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodePopulated
+page_title: OnClientNodePopulated - RadTreeView
+description: Check our Web Forms article about OnClientNodePopulated.
 slug: treeview/client-side-programming/events/onclientnodepopulated
 tags: onclientnodepopulated
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Creating a Custom Skin
-page_title: Tutorial - Creating a Custom Skin | RadSlider for ASP.NET AJAX Documentation
-description: Tutorial - Creating a Custom Skin
+page_title: Tutorial - Creating a Custom Skin - RadSlider
+description: Check our Web Forms article about Tutorial - Creating a Custom Skin.
 slug: slider/appearance-and-styling/tutorial-creating-custom-skin
 tags: tutorial, creating,custom,skin,custom skin
 published: True

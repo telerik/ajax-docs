@@ -1,7 +1,7 @@
 ---
 title: TreeListDataItem Object
-page_title: TreeListDataItem Object | RadTreeList for ASP.NET AJAX Documentation
-description: TreeListDataItem Object
+page_title: TreeListDataItem Object - RadTreeList
+description: Check our Web Forms article about TreeListDataItem Object.
 slug: treelist/client-side-programming/treelistdataitem-object
 tags: treelistdataitem,object
 published: True

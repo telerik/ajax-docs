@@ -1,7 +1,7 @@
 ---
 title: Creating Context Menus at the Client
-page_title: Creating Context Menus at the Client | RadTreeView for ASP.NET AJAX Documentation
-description: Creating Context Menus at the Client
+page_title: Creating Context Menus at the Client - RadTreeView
+description: Check our Web Forms article about Creating Context Menus at the Client.
 slug: treeview/context-menus/creating-context-menus-at-the-client
 tags: creating,context,menus,at,the,client
 published: True

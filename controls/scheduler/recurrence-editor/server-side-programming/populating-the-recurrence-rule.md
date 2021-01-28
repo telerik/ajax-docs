@@ -1,7 +1,7 @@
 ---
 title: Populating the Recurrence Rule
-page_title: Populating the Recurrence Rule | RadScheduler for ASP.NET AJAX Documentation
-description: Populating the Recurrence Rule
+page_title: Populating the Recurrence Rule - RadScheduler
+description: Check our Web Forms article about Populating the Recurrence Rule.
 slug: scheduler/recurrence-editor/server-side-programming/populating-the-recurrence-rule
 tags: populating,the,recurrence,rule
 published: True

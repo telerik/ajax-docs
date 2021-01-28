@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadSearchBox for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadSearchBox
+description: Check our Web Forms article about Getting Started.
 slug: searchbox/getting-started
 tags: getting,started
 published: True

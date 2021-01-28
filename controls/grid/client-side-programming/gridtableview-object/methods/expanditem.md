@@ -1,7 +1,7 @@
 ---
 title: expandItem
-page_title: expandItem | RadGrid for ASP.NET AJAX Documentation
-description: expandItem
+page_title: expandItem - RadGrid
+description: Check our Web Forms article about expandItem.
 slug: grid/client-side-programming/gridtableview-object/methods/expanditem
 tags: expanditem
 published: True

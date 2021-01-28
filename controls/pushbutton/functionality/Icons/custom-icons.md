@@ -1,7 +1,7 @@
 ---
 title: Custom Icons
-page_title: Custom Icons | RadPushButton for ASP.NET AJAX Documentation
-description: Custom Icons
+page_title: Custom Icons - RadPushButton
+description: Check our Web Forms article about Custom Icons.
 slug: pushbutton/functionality/icons/custom-icons
 tags: custom,icons
 published: True

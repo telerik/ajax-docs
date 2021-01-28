@@ -1,7 +1,7 @@
 ---
 title: Serving External Style Sheets
-page_title: Serving External Style Sheets | RadStyleSheetManager for ASP.NET AJAX Documentation
-description: Serving External Style Sheets
+page_title: Serving External Style Sheets - RadStyleSheetManager
+description: Check our Web Forms article about Serving External Style Sheets.
 slug: stylesheetmanager/serving-external-style-sheets
 tags: serving,external,style,sheets
 published: True

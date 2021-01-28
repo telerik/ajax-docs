@@ -1,7 +1,7 @@
 ---
 title: getRange
-page_title: getRange | RadEditor for ASP.NET AJAX Documentation
-description: getRange
+page_title: getRange - RadEditor
+description: Check our Web Forms article about getRange.
 slug: editor/client-side-programming/methods/selection/getrange
 tags: getrange
 published: True

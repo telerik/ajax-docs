@@ -1,7 +1,7 @@
 ---
 title: Assign Different Client Events for Different Controls
-page_title: Assign Different Client Events for Different Controls | RadAjax for ASP.NET AJAX Documentation
-description: Assign Different Client Events for Different Controls
+page_title: Assign Different Client Events for Different Controls
+description: Check our Web Forms article about Assign Different Client Events for Different Controls.
 slug: ajaxmanager/client-side-programming/how-to/assign-different-client-events-for-different-controls
 previous_url: ajax/client-side-programming/how-to/assign-different-client-events-for-different-controls
 tags: assign,different,client,events,for,different,controls

@@ -1,7 +1,7 @@
 ---
 title: Transfer
-page_title: Transfer | RadListBox for ASP.NET AJAX Documentation
-description: Transfer
+page_title: Transfer - RadListBox
+description: Check our Web Forms article about Transfer.
 slug: listbox/functionality/transfer
 tags: transfer
 published: True

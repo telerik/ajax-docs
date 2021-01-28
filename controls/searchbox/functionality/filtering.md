@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadSearchBox for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadSearchBox
+description: Check our Web Forms article about Filtering.
 slug: searchbox/functionality/filtering
 tags: filtering
 published: True

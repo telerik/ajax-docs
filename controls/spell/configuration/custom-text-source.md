@@ -1,7 +1,7 @@
 ---
 title: Custom Text Source
-page_title: Custom Text Source | RadSpell for ASP.NET AJAX Documentation
-description: Custom Text Source
+page_title: Custom Text Source - RadSpell
+description: Check our Web Forms article about Custom Text Source.
 slug: spell/configuration/custom-text-source
 tags: custom,text,source
 published: True

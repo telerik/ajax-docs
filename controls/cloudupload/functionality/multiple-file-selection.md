@@ -1,7 +1,7 @@
 ---
 title: Multiple File Selection
-page_title: Multiple File Selection | RadCloudUpload for ASP.NET AJAX Documentation
-description: Multiple File Selection
+page_title: Multiple File Selection - RadCloudUpload
+description: Check our Web Forms article about Multiple File Selection.
 slug: cloudupload/functionality/multiple-file-selection
 tags: multiple,file,selection
 published: True

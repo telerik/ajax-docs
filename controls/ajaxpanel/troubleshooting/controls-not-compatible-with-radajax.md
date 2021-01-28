@@ -1,7 +1,7 @@
 ---
 title: Controls Not Compatible with RadAjax
-page_title: Controls Not Compatible with RadAjax | RadAjax for ASP.NET AJAX Documentation
-description: Controls Not Compatible with RadAjax
+page_title: Controls Not Compatible with RadAjax
+description: Check our Web Forms article about Controls Not Compatible with RadAjax.
 slug: ajaxpanel/troubleshooting/controls-not-compatible-with-radajax
 tags: controls,not,compatible,with,radajax
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Call Functions in Windows
-page_title: How to Call Functions in Windows | RadWindow for ASP.NET AJAX Documentation
-description: How to Call Functions in Windows
+page_title: How to Call Functions in Windows - RadWindow
+description: Check our Web Forms article about How to Call Functions in Windows.
 slug: window/how-to/calling-functions-in-windows
 tags: calling,call,functions,in,windows
 published: True

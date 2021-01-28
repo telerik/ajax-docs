@@ -1,7 +1,7 @@
 ---
 title: Elastic Capabilities
-page_title: Elastic Capabilities | RadRotator for ASP.NET AJAX Documentation
-description: Elastic Capabilities
+page_title: Elastic Capabilities - RadRotator
+description: Check our Web Forms article about Elastic Capabilities.
 slug: rotator/mobile-support/elastic-capabilities
 tags: elastic,capabilities
 published: True

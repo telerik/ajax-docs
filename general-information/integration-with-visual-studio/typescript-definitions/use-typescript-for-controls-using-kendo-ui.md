@@ -1,7 +1,7 @@
 ---
 title: Use TypeScript for Controls Using Kendo UI
-page_title: Use TypeScript for Controls Using Kendo UI | UI for ASP.NET AJAX Documentation
-description: Use TypeScript for Controls Using Kendo UI
+page_title: Use TypeScript for Controls Using Kendo UI
+description: Check our Web Forms article about Use TypeScript for Controls Using Kendo UI.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-controls-using-kendo-ui
 tags: use,typescript,for,controls,using,kendo,ui
 published: True

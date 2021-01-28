@@ -1,7 +1,7 @@
 ---
 title: Getting Started 
-page_title: Getting Started  | RadTimeline for ASP.NET AJAX Documentation
-description: Getting Started 
+page_title: Getting Started - RadTimeline
+description: Check our Web Forms article about Getting Started.
 slug: timeline/getting-started
 tags: getting,started,
 published: True

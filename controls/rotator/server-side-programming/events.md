@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadRotator for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadRotator
+description: Check our Web Forms article about Events.
 slug: rotator/server-side-programming/events
 tags: events
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Control New Line Behavior
-page_title: Control New Line Behavior | RadEditor for ASP.NET AJAX Documentation
-description: Control New Line Behavior
+page_title: Control New Line Behavior - RadEditor
+description: Check our Web Forms article about Control New Line Behavior.
 slug: editor/managing-content/control-new-line-behavior
 tags: control,new,line,behavior
 published: True

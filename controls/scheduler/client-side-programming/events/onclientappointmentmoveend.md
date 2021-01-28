@@ -1,7 +1,7 @@
 ---
 title: OnClientAppointmentMoveEnd
-page_title: OnClientAppointmentMoveEnd | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientAppointmentMoveEnd
+page_title: OnClientAppointmentMoveEnd - RadScheduler
+description: Check our Web Forms article about OnClientAppointmentMoveEnd.
 slug: scheduler/client-side-programming/events/onclientappointmentmoveend
 tags: onclientappointmentmoveend
 published: True

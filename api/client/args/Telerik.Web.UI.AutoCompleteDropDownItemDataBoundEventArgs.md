@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs
 slug: Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs
 ---

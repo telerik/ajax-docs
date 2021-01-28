@@ -1,7 +1,7 @@
 ---
 title: Different Styles in Each Hierarchy Level
-page_title: Different Styles in Each Hierarchy Level | RadGrid for ASP.NET AJAX Documentation
-description: Different Styles in Each Hierarchy Level
+page_title: Different Styles in Each Hierarchy Level - RadGrid
+description: Check our Web Forms article about Different Styles in Each Hierarchy Level.
 slug: grid/appearance-and-styling/different-styles-in-each-hierarchy-level
 tags: different,styles,in,each,hierarchy,level
 published: True

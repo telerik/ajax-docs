@@ -1,7 +1,7 @@
 ---
 title: OnClientNavigationCommand
-page_title: OnClientNavigationCommand | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientNavigationCommand
+page_title: OnClientNavigationCommand - RadScheduler
+description: Check our Web Forms article about OnClientNavigationCommand.
 slug: scheduler/client-side-programming/events/onclientnavigationcommand
 tags: onclientnavigationcommand
 published: True

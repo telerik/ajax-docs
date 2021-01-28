@@ -1,7 +1,7 @@
 ---
 title: Declarative Binding
-page_title: Declarative Binding | RadGantt for ASP.NET AJAX Documentation
-description: Declarative Binding
+page_title: Declarative Binding - RadGantt
+description: Check our Web Forms article about Declarative Binding.
 slug: gantt/data-binding/server-side-binding/declarative-binding
 tags: declarative,binding
 published: True

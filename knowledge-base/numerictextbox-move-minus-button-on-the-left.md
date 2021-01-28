@@ -1,6 +1,6 @@
 ---
 title: Separate spinner buttons of NumericTextBox
-description: Put down "-" icon on the left and "+" icon on the right side of RadNumericTextBox
+description: Put down "-" icon on the left and "+" icon on the right side of RadNumericTextBox.
 type: how-to
 page_title: Move decrease button on the left of the input
 slug: numerictextbox-move-minus-button-on-the-left

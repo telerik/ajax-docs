@@ -1,7 +1,7 @@
 ---
 title: OnYearSelected
-page_title: OnYearSelected | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: OnYearSelected
+page_title: OnYearSelected - RadMonthYearPicker
+description: Check our Web Forms article about OnYearSelected.
 slug: monthyearpicker/client-side-programming/events/onyearselected
 tags: onyearselected
 published: True

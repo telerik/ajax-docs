@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuMouseOutEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuMouseOutEventArgs
 slug: Telerik.Web.UI.RadMenuMouseOutEventArgs
 ---

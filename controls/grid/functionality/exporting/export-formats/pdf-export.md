@@ -1,7 +1,7 @@
 ---
 title: PDF Export
-page_title: PDF Export | RadGrid for ASP.NET AJAX Documentation
-description: PDF Export
+page_title: PDF Export - RadGrid
+description: Check our Web Forms article about PDF Export.
 slug: grid/functionality/exporting/export-formats/pdf-export
 tags: pdf,export
 published: True

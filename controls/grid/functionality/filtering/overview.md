@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Filtering Overview | RadGrid for ASP.NET AJAX Documentation
-description: Overview
+page_title: Filtering Overview - RadGrid
+description: Check our Web Forms article about Overview.
 slug: grid/functionality/filtering/overview
 tags: overview
 published: True

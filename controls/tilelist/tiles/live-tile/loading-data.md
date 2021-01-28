@@ -1,7 +1,7 @@
 ---
 title: Loading Data
-page_title: Loading Data | RadTile for ASP.NET AJAX Documentation
-description: Loading Data
+page_title: Loading Data - RadTile
+description: Check our Web Forms article about Loading Data.
 slug: tilelist/tiles/live-tile/loading-data
 tags: loading,data
 published: True

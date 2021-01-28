@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTabCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTabCollection
 static: true
 slug: Telerik.Web.UI.RadTabCollection

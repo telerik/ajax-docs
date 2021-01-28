@@ -1,7 +1,7 @@
 ---
 title: Using the HOTFIX (DLLs and Scripts/Skins Only)
-page_title: Using the HOTFIX (DLLs and Scripts/Skins Only) | UI for ASP.NET AJAX Documentation
-description: Using the HOTFIX (DLLs and Scripts/Skins Only)
+page_title: Using the HOTFIX (DLLs and Scripts/Skins Only)
+description: Check our Web Forms article about Using the HOTFIX (DLLs and Scripts/Skins Only).
 slug: introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)
 tags: hotfix
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Month Navigation
-page_title: RadCalendar Month Navigation | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendar Month Navigation
+page_title: RadCalendar Month Navigation - RadCalendar
+description: Check our Web Forms article about RadCalendar Month Navigation.
 slug: calendar/accessibility-and-internationalization/radcalendar-month-navigation
 tags: radcalendar,month,navigation
 published: True

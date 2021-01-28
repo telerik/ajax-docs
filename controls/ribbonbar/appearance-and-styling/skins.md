@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadRibbonBar for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadRibbonBar
+description: Check our Web Forms article about Skins.
 slug: ribbonbar/appearance-and-styling/skins
 tags: skins
 published: True

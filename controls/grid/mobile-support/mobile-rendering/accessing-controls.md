@@ -1,7 +1,7 @@
 ---
 title: Accessing Controls
-page_title: Accessing Controls | RadGrid for ASP.NET AJAX Documentation
-description: Accessing Controls
+page_title: Accessing Controls - RadGrid
+description: Check our Web Forms article about Accessing Controls.
 slug: grid/mobile-support/mobile-rendering/accessing-controls
 tags: accessing,controls
 published: True

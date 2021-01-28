@@ -1,6 +1,6 @@
 ---
 title: Determine Last Level of TreeList
-description: This sample demonstrates how you can figure out the last level of RadTreeList?
+description: This sample demonstrates how you can figure out the last level of RadTreeList?.
 type: how-to
 page_title: How to determine the last level of TreeList?
 slug: treelist-determine-last-level

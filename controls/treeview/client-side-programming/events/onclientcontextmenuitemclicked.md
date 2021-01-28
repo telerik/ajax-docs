@@ -1,7 +1,7 @@
 ---
 title: OnClientContextMenuItemClicked
-page_title: OnClientContextMenuItemClicked | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientContextMenuItemClicked
+page_title: OnClientContextMenuItemClicked - RadTreeView
+description: Check our Web Forms article about OnClientContextMenuItemClicked.
 slug: treeview/client-side-programming/events/onclientcontextmenuitemclicked
 tags: onclientcontextmenuitemclicked
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Search Button
-page_title: Search Button | RadSearchBox for ASP.NET AJAX Documentation
-description: Search Button
+page_title: Search Button - RadSearchBox
+description: Check our Web Forms article about Search Button.
 slug: searchbox/functionality/search-button
 tags: search,button
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Localize Buttons, ToolTips, etc
-page_title: Localize Buttons, ToolTips, etc | RadEditor for ASP.NET AJAX Documentation
-description: Localize Buttons, ToolTips, etc
+page_title: Localize Buttons, ToolTips, etc - RadEditor
+description: Check our Web Forms article about Localize Buttons, ToolTips, etc.
 slug: editor/accessibility-and-internationalization/localization/localize-buttons,-tooltips,-etc
 tags: localize,buttons,,tooltips,,etc
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Setting the CSS Class of Tabs
-page_title: Setting the CSS Class of Tabs | RadTabStrip for ASP.NET AJAX Documentation
-description: Setting the CSS Class of Tabs
+page_title: Setting the CSS Class of Tabs - RadTabStrip
+description: Check our Web Forms article about Setting the CSS Class of Tabs.
 slug: tabstrip/appearance-and-styling/setting-the-css-class-of-tabs
 tags: setting,the,css,class,of,tabs
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Add Custom Buttons
-page_title: Add Custom Buttons | UI for ASP.NET AJAX Documentation
-description: Add Custom Buttons
+page_title: Add Custom Buttons
+description: Check our Web Forms article about Add Custom Buttons.
 slug: sharepoint/2010/radeditor-web-part/customization/add-custom-buttons
 tags: add,custom,buttons
 published: True

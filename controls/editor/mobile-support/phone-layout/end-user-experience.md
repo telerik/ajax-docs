@@ -1,7 +1,7 @@
 ---
 title: End User Experience
-page_title: Phone Layout End User Experience | RadEditor for ASP.NET AJAX Documentation
-description: End User Experience
+page_title: Phone Layout End User Experience - RadEditor
+description: Check our Web Forms article about End User Experience.
 slug: editor/mobile-support/phone-layout/end-user-experience
 tags: editor,support,mobile,rendering,end, user, experience, phone, layout
 published: True

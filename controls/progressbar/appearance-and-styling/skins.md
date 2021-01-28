@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadProgressBar for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadProgressBar
+description: Check our Web Forms article about Skins.
 slug: progressbar/appearance-and-styling/skins
 tags: skins
 published: True

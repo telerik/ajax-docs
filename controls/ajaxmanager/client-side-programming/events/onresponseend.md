@@ -1,7 +1,7 @@
 ---
 title: OnResponseEnd
-page_title: OnResponseEnd | RadAjax for ASP.NET AJAX Documentation
-description: OnResponseEnd
+page_title: OnResponseEnd
+description: Check our Web Forms article about OnResponseEnd.
 slug: ajaxmanager/client-side-programming/events/onresponseend
 previous_url: ajax/client-side-programming/events/onresponseend
 tags: onresponseend

@@ -1,7 +1,7 @@
 ---
 title: Using the Advanced Templates
-page_title: Using the Advanced Templates | RadScheduler for ASP.NET AJAX Documentation
-description: Using the Advanced Templates
+page_title: Using the Advanced Templates - RadScheduler
+description: Check our Web Forms article about Using the Advanced Templates.
 slug: scheduler/customizing-the-advanced-form/using-the-advanced-templates
 tags: using,the,advanced,templates
 published: True

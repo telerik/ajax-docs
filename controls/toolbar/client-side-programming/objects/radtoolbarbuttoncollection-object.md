@@ -1,7 +1,7 @@
 ---
 title: RadToolBarButtonCollection Object
-page_title: RadToolBarButtonCollection Object | RadToolBar for ASP.NET AJAX Documentation
-description: RadToolBarButtonCollection Object
+page_title: RadToolBarButtonCollection Object - RadToolBar
+description: Check our Web Forms article about RadToolBarButtonCollection Object.
 slug: toolbar/client-side-programming/radtoolbarbuttoncollection-object
 tags: radtoolbarbuttoncollection,object
 published: True

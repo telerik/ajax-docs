@@ -1,7 +1,7 @@
 ---
 title: Using the Global Assembly Cache
-page_title: Using the Global Assembly Cache | UI for ASP.NET AJAX Documentation
-description: Using the Global Assembly Cache
+page_title: Using the Global Assembly Cache
+description: Check our Web Forms article about Using the Global Assembly Cache.
 slug: introduction/deployment/using-the-global-assembly-cache
 tags: using,the,global,assembly,cache
 published: True

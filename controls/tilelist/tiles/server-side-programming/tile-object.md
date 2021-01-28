@@ -1,7 +1,7 @@
 ---
 title: Tile Object
-page_title: Tile Object | RadTile for ASP.NET AJAX Documentation
-description: Tile Object
+page_title: Tile Object - RadTile
+description: Check our Web Forms article about Tile Object.
 slug: tilelist/tiles/server-side-programming/tile-object
 tags: tile,object
 published: True

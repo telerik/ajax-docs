@@ -1,7 +1,7 @@
 ---
 title: Export HTML Elements
-page_title: Export HTML Elements | RadClientExportManager for ASP.NET AJAX Documentation
-description: Export HTML Elements
+page_title: Export HTML Elements - RadClientExportManager
+description: Check our Web Forms article about Export HTML Elements.
 slug: clientexportmanager/functionality/export-html-elements
 tags: export,html,elements
 published: True

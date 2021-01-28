@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.AnimationSettings
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.AnimationSettings
 slug: Telerik.Web.UI.AnimationSettings
 ---

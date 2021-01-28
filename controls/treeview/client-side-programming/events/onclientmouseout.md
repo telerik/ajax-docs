@@ -1,7 +1,7 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientMouseOut
+page_title: OnClientMouseOut - RadTreeView
+description: Check our Web Forms article about OnClientMouseOut.
 slug: treeview/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True

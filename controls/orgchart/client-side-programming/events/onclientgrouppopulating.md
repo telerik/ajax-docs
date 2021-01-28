@@ -1,7 +1,7 @@
 ---
 title: OnClientGroupPopulating
-page_title: OnClientGroupPopulating | RadOrgChart for ASP.NET AJAX Documentation
-description: OnClientGroupPopulating
+page_title: OnClientGroupPopulating - RadOrgChart
+description: Check our Web Forms article about OnClientGroupPopulating.
 slug: orgchart/client-side-programming/events/onclientgrouppopulating
 tags: onclientgrouppopulating
 published: True

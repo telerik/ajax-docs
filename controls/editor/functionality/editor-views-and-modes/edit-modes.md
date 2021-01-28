@@ -1,7 +1,7 @@
 ---
 title: Edit Modes
-page_title: Edit Modes | RadEditor for ASP.NET AJAX Documentation
-description: Edit Modes
+page_title: Edit Modes - RadEditor
+description: Check our Web Forms article about Edit Modes.
 slug: editor/functionality/editor-views-and-modes/edit-modes
 tags: edit,modes
 published: True

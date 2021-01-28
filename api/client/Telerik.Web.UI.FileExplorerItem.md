@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.FileExplorerItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.FileExplorerItem
 static: true
 slug: Telerik.Web.UI.FileExplorerItem

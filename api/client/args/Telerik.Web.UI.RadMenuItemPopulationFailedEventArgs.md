@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs
 slug: Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs
 ---

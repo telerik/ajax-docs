@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadImageEditor for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadImageEditor
+description: Check our Web Forms article about Overview.
 slug: imageeditor/client-side-programming/overview
 tags: overview
 published: True

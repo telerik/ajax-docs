@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ButtonBase.CheckableButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonBase.CheckableButton
 slug: Telerik.Web.UI.ButtonBase.CheckableButton
 ---

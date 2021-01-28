@@ -1,7 +1,7 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemClicked
+page_title: OnClientItemClicked - RadMenu
+description: Check our Web Forms article about OnClientItemClicked.
 slug: menu/client-side-programming/events/onclientitemclicked
 tags: onclientitemclicked
 published: True

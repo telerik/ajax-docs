@@ -1,7 +1,7 @@
 ---
 title: ContentAreaMode Property
-page_title: ContentAreaMode Property | RadEditor for ASP.NET AJAX Documentation
-description: ContentAreaMode Property
+page_title: ContentAreaMode Property - RadEditor
+description: Check our Web Forms article about ContentAreaMode Property.
 slug: editor/functionality/editor-views-and-modes/contentareamode-property
 tags: contentareamode,property
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Sliding Direction
-page_title: Sliding Direction | RadSplitter for ASP.NET AJAX Documentation
-description: Sliding Direction
+page_title: Sliding Direction - RadSplitter
+description: Check our Web Forms article about Sliding Direction.
 slug: splitter/sliding-zones/sliding-direction
 tags: sliding,direction
 published: True

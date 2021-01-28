@@ -1,7 +1,7 @@
 ---
 title: Task
-page_title: Task | RadGantt for ASP.NET AJAX Documentation
-description: Task
+page_title: Task - RadGantt
+description: Check our Web Forms article about Task.
 slug: gantt/server-side-programming/objects/tasks
 tags: tasks
 published: True

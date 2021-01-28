@@ -1,7 +1,7 @@
 ---
 title: OnTextChanged
-page_title: OnTextChanged | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: OnTextChanged
+page_title: OnTextChanged - RadAutoCompleteBox
+description: Check our Web Forms article about OnTextChanged.
 slug: autocompletebox/server-side-programming/events/ontextchanged
 tags: ontextchanged
 published: True

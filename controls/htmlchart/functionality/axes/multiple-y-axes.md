@@ -1,7 +1,7 @@
 ---
 title: Multiple Y-Axes
-page_title: Multiple Y-Axes | RadHtmlChart for ASP.NET AJAX Documentation
-description: Multiple Y-Axes
+page_title: Multiple Y-Axes - RadHtmlChart
+description: Check our Web Forms article about Multiple Y-Axes.
 slug: htmlchart/functionality/axes/multiple-y-axes
 tags: multiple,y-axes
 published: True

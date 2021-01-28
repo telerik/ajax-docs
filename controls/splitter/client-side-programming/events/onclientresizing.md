@@ -1,7 +1,7 @@
 ---
 title: OnClientResizing
-page_title: OnClientResizing | RadSplitter for ASP.NET AJAX Documentation
-description: OnClientResizing
+page_title: OnClientResizing - RadSplitter
+description: Check our Web Forms article about OnClientResizing.
 slug: splitter/client-side-programming/events/onclientresizing
 tags: onclientresizing
 published: True

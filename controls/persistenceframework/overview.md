@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadPersistenceFramework Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadPersistenceFramework Overview
+description: Check our Web Forms article about Overview.
 slug: persistenceframework/overview
 tags: overview
 published: True

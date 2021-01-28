@@ -1,7 +1,7 @@
 ---
 title: Filter Items
-page_title: Filter Items | RadFileExplorer for ASP.NET AJAX Documentation
-description: Filter Items
+page_title: Filter Items - RadFileExplorer
+description: Check our Web Forms article about Filter Items.
 slug: fileexplorer/functionality/filter-items
 tags: filter,items
 published: True

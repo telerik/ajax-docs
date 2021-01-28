@@ -1,7 +1,7 @@
 ---
 title: Edit Forms
-page_title: Edit Forms | RadGrid for ASP.NET AJAX Documentation
-description: Edit Forms
+page_title: Edit Forms - RadGrid
+description: Check our Web Forms article about Edit Forms.
 slug: grid/data-editing/edit-mode/edit-forms
 tags: edit,forms
 published: True

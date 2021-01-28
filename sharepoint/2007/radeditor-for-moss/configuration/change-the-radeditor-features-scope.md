@@ -1,7 +1,7 @@
 ---
 title: Change the RadEditor features scope
-page_title: Change the RadEditor features scope | UI for ASP.NET AJAX Documentation
-description: Change the RadEditor features scope
+page_title: Change the RadEditor features scope
+description: Check our Web Forms article about Change the RadEditor features scope.
 slug: sharepoint/2007/radeditor-for-moss/configuration/change-the-radeditor-features-scope
 tags: change,the,radeditor,features,scope
 published: True

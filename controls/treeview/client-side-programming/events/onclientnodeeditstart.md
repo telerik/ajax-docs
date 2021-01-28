@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeEditStart
-page_title: OnClientNodeEditStart | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodeEditStart
+page_title: OnClientNodeEditStart - RadTreeView
+description: Check our Web Forms article about OnClientNodeEditStart.
 slug: treeview/client-side-programming/events/onclientnodeeditstart
 tags: onclientnodeeditstart
 published: True

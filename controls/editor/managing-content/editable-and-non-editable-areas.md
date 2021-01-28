@@ -1,7 +1,7 @@
 ---
 title: Editable and Non-Editable Areas
-page_title: Editable and Non-Editable Areas | RadEditor for ASP.NET AJAX Documentation
-description: How to implement editable and non-editable arwas in RadEditor
+page_title: Editable and Non-Editable Areas - RadEditor
+description: Check our Web Forms article about How to implement editable and non-editable arwas in RadEditor.
 slug: editor/managing-content/editable-and-non-editable-areas
 tags: editable,and,non-editable,areas
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | RadDropDownList for ASP.NET AJAX Documentation
-description: Binding to OData
+page_title: Binding to OData - RadDropDownList
+description: Check our Web Forms article about Binding to OData.
 slug: dropdownlist/databinding/client-side-binding/binding-to-odata
 tags: binding,to,odata
 published: True

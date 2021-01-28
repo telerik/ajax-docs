@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadSocialShare for ASP.NET AJAX Documentation
-description: Design Time
+page_title: Design Time - RadSocialShare
+description: Check our Web Forms article about Design Time.
 slug: socialshare/design-time
 tags: design,time
 published: True

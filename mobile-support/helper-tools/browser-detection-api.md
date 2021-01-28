@@ -1,7 +1,7 @@
 ---
 title: Browser Detection API
-page_title: Browser Detection API | UI for ASP.NET AJAX Documentation
-description: Browser Detection API offered by Telerik UI for ASP.NET AJAX
+page_title: Browser Detection API
+description: Check our Web Forms article about Browser Detection API offered by Telerik UI for ASP.NET AJAX.
 slug: mobile-support/helper-tools/browser-detection-api
 tags: mobile,support,browser,detection,api
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Automatic Data Operations
-page_title: Automatic Data Operations | RadTreeList for ASP.NET AJAX Documentation
-description: Automatic Data Operations
+page_title: Automatic Data Operations - RadTreeList
+description: Check our Web Forms article about Automatic Data Operations.
 slug: treelist/data-editing/automatic-data-operations
 tags: automatic,data,operations
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnItemClicking
-page_title: OnItemClicking | RadCheckBoxList for ASP.NET AJAX Documentation
-description: OnItemClicking
+page_title: OnItemClicking - RadCheckBoxList
+description: Check our Web Forms article about OnItemClicking.
 slug: checkboxlist/client-side-programming/events/onitemclicking
 tags: onitemclicking
 published: True

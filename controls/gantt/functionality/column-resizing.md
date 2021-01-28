@@ -1,7 +1,7 @@
 ---
 title: Column Resizing
-page_title: Column Resizing | RadGantt for ASP.NET AJAX Documentation
-description: Column Resizing
+page_title: Column Resizing - RadGantt
+description: Check our Web Forms article about Column Resizing.
 slug: gantt/functionality/column-resizing
 tags: column,resizing
 published: True

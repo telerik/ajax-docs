@@ -1,7 +1,7 @@
 ---
 title: XLSX and DOCX formats
-page_title: XLSX and DOCX formats | RadPivotGrid for ASP.NET AJAX Documentation
-description: XLSX and DOCX formats
+page_title: XLSX and DOCX formats - RadPivotGrid
+description: Check our Web Forms article about XLSX and DOCX formats.
 slug: pivotgrid/functionality/export/xlsx-and-docx-formats
 tags: xlsx,and,docx,formats
 published: True

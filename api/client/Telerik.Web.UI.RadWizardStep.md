@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadWizardStep
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadWizardStep
 slug: Telerik.Web.UI.RadWizardStep
 ---

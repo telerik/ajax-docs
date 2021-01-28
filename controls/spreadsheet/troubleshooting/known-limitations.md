@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadSpreadsheet for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadSpreadsheet
+description: Check our Web Forms article about Known Limitations.
 slug: spreadsheet/troubleshooting/known-limitations
 tags: known,limitations
 published: True

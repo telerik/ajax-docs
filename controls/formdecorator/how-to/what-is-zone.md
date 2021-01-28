@@ -1,7 +1,7 @@
 ---
 title: What is Zone
-page_title: What is Zone | RadFormDecorator for ASP.NET AJAX Documentation
-description: What is Zone
+page_title: What is Zone - RadFormDecorator
+description: Check our Web Forms article about What is Zone.
 slug: formdecorator/how-to/what-is-zone
 tags: what,is,zone
 published: True

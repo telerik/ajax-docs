@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
 ---

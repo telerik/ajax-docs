@@ -1,7 +1,7 @@
 ---
 title: Controlling Posts
-page_title: Controlling Posts | RadSocialShare for ASP.NET AJAX Documentation
-description: Controlling Posts
+page_title: Controlling Posts - RadSocialShare
+description: Check our Web Forms article about Controlling Posts.
 slug: socialshare/functionality/controlling-posts
 tags: controlling,posts
 published: True

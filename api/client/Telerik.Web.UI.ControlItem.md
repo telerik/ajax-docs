@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ControlItem
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ControlItem
 slug: Telerik.Web.UI.ControlItem
 ---

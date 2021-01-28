@@ -1,7 +1,7 @@
 ---
 title: Increase Thumbnail Dimensions
-page_title: Increase Thumbnail Dimensions | RadFileExplorer for ASP.NET AJAX Documentation
-description: Increase Thumbnail Dimensions
+page_title: Increase Thumbnail Dimensions - RadFileExplorer
+description: Check our Web Forms article about Increase Thumbnail Dimensions.
 slug: fileexplorer/appearance-and-styling/increase-thumbnail-dimensions
 tags: increase,thumbnail,dimensions
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Using jQuery
-page_title: Using jQuery | UI for ASP.NET AJAX Documentation
-description: Using jQuery
+page_title: Using jQuery
+description: Check our Web Forms article about Using jQuery.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery
 tags: using,jquery
 published: True

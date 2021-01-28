@@ -1,7 +1,7 @@
 ---
 title: Integration with Telerik Document Processing Library
-page_title: Integration with Telerik Document Processing Library | RadGrid for ASP.NET AJAX Documentation
-description: Integration with Telerik Document Processing Library
+page_title: Integration with Telerik Document Processing Library - RadGrid
+description: Check our Web Forms article about Integration with Telerik Document Processing Library.
 slug: grid/functionality/exporting/integration-with-telerik-document-processing-library
 tags: integration,with,telerik,document,processing,library
 published: True

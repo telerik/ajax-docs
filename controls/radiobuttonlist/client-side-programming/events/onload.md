@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadRadioButtonList
+description: Check our Web Forms article about OnLoad.
 slug: radiobuttonlist/client-side-programming/events/onload
 tags: onload
 published: True

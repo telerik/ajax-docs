@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuItemPopulatedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuItemPopulatedEventArgs
 slug: Telerik.Web.UI.RadMenuItemPopulatedEventArgs
 ---

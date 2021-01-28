@@ -1,7 +1,7 @@
 ---
 title: Styled
-page_title: Styled | RadSocialShare for ASP.NET AJAX Documentation
-description: Styled
+page_title: Styled - RadSocialShare
+description: Check our Web Forms article about Styled.
 slug: socialshare/configuring-buttons/styled
 tags: styled
 published: True

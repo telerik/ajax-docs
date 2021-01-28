@@ -1,7 +1,7 @@
 ---
 title: Cannot Collapse Root Items
-page_title: Cannot Collapse Root Items | RadPanelBar for ASP.NET AJAX Documentation
-description: Cannot Collapse Root Items
+page_title: Cannot Collapse Root Items - RadPanelBar
+description: Check our Web Forms article about Cannot Collapse Root Items.
 slug: panelbar/troubleshooting/cannot-collapse-root-items
 tags: cannot,collapse,root,items
 published: True

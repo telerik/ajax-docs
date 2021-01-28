@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulating
-page_title: OnClientNodePopulating | RadOrgChart for ASP.NET AJAX Documentation
-description: OnClientNodePopulating
+page_title: OnClientNodePopulating - RadOrgChart
+description: Check our Web Forms article about OnClientNodePopulating.
 slug: orgchart/client-side-programming/events/onclientnodepopulating
 tags: onclientnodepopulating
 published: True

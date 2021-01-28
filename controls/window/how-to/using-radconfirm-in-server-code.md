@@ -1,7 +1,7 @@
 ---
 title: Using RadConfirm In Server Code
-page_title: Using RadConfirm In Server Code | RadWindow for ASP.NET AJAX Documentation
-description: Using RadConfirm In Server Code
+page_title: Using RadConfirm In Server Code - RadWindow
+description: Check our Web Forms article about Using RadConfirm In Server Code.
 slug: window/how-to/using-radconfirm-in-server-code
 tags: using,radconfirm,in,server,code
 published: True

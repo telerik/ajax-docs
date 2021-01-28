@@ -1,7 +1,7 @@
 ---
 title: How to Use Css Conditional Comments with Ajax
-page_title: How to Use Css Conditional Comments with Ajax | RadAjax for ASP.NET AJAX Documentation
-description: How to Use Css Conditional Comments with Ajax
+page_title: How to Use Css Conditional Comments with Ajax
+description: Check our Web Forms article about How to Use Css Conditional Comments with Ajax.
 slug: ajaxpanel/how-to/how-to-use-css-conditional-comments-with-ajax
 tags: how,to,use,css,conditional,comments,with,ajax
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Symbols
-page_title: Symbols | RadEditor for ASP.NET AJAX Documentation
-description: Symbols
+page_title: Symbols - RadEditor
+description: Check our Web Forms article about Symbols.
 slug: editor/functionality/toolbars/dropdowns/symbols
 tags: symbols
 published: True

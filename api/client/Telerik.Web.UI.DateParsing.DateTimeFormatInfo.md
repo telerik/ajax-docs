@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DateParsing.DateTimeFormatInfo
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DateParsing.DateTimeFormatInfo
 slug: Telerik.Web.UI.DateParsing.DateTimeFormatInfo
 ---

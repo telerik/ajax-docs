@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ButtonBase.PostBackButtonBase
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ButtonBase.PostBackButtonBase
 slug: Telerik.Web.UI.ButtonBase.PostBackButtonBase
 ---

@@ -1,7 +1,7 @@
 ---
 title: Display Modes
-page_title: Display Modes | RadDrawer for ASP.NET AJAX Documentation
-description: Display Modes
+page_title: Display Modes - RadDrawer
+description: Check our Web Forms article about Display Modes.
 slug: drawer/functionality/display-modes
 tags: display,mode,interaction
 published: True

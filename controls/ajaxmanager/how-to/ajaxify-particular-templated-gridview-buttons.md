@@ -1,7 +1,7 @@
 ---
 title: Ajaxify Particular Templated GridView Buttons
-page_title: Ajaxify Particular Templated GridView Buttons | RadAjax for ASP.NET AJAX Documentation
-description: Ajaxify Particular Templated GridView Buttons
+page_title: Ajaxify Particular Templated GridView Buttons
+description: Check our Web Forms article about Ajaxify Particular Templated GridView Buttons.
 slug: ajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons
 previous_url: ajax/radajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons
 tags: ajaxify,particular,templated,gridview,buttons

@@ -1,7 +1,7 @@
 ---
 title: set_mode
-page_title: set_mode | RadEditor for ASP.NET AJAX Documentation
-description: set_mode
+page_title: set_mode - RadEditor
+description: Check our Web Forms article about set_mode.
 slug: editor/client-side-programming/methods/set_mode
 tags: set_mode
 published: True

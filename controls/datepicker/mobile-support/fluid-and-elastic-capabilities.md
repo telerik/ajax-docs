@@ -1,7 +1,7 @@
 ---
 title: Fluid and Elastic Capabilities
-page_title: Fluid and Elastic Capabilities | RadDatePicker for ASP.NET AJAX Documentation
-description: Fluid and Elastic Capabilities
+page_title: Fluid and Elastic Capabilities - RadDatePicker
+description: Check our Web Forms article about Fluid and Elastic Capabilities.
 slug: datepicker/mobile-support/fluid-and-elastic-capabilities
 tags: fluid,and,elastic,capabilities
 published: True

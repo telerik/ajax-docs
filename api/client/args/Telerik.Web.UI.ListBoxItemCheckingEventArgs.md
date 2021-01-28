@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ListBoxItemCheckingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ListBoxItemCheckingEventArgs
 slug: Telerik.Web.UI.ListBoxItemCheckingEventArgs
 ---

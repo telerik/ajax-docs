@@ -1,7 +1,7 @@
 ---
 title: OnClientRequestFailed
-page_title: OnClientRequestFailed | RadScheduler for ASP.NET AJAX Documentation
-description: OnClientRequestFailed
+page_title: OnClientRequestFailed - RadScheduler
+description: Check our Web Forms article about OnClientRequestFailed.
 slug: scheduler/client-side-programming/events/onclientrequestfailed
 tags: onclientrequestfailed
 published: True

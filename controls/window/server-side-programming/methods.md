@@ -1,7 +1,7 @@
 ---
 title: Methods
-page_title: Methods | RadWindow for ASP.NET AJAX Documentation
-description: Methods
+page_title: Methods - RadWindow
+description: Check our Web Forms article about Methods.
 slug: window/server-side-programming/methods
 tags: methods
 published: True

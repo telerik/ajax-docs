@@ -1,7 +1,7 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | RadTreeView for ASP.NET AJAX Documentation
-description: Controlling Appearance
+page_title: Controlling Appearance - RadTreeView
+description: Check our Web Forms article about Controlling Appearance.
 slug: treeview/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
 published: True

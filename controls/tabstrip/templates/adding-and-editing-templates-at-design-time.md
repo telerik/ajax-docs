@@ -1,7 +1,7 @@
 ---
 title: Adding and Editing Templates at Design Time
-page_title: Adding and Editing Templates at Design Time | RadTabStrip for ASP.NET AJAX Documentation
-description: Adding and Editing Templates at Design Time
+page_title: Adding and Editing Templates at Design Time - RadTabStrip
+description: Check our Web Forms article about Adding and Editing Templates at Design Time.
 slug: tabstrip/templates/adding-and-editing-templates-at-design-time
 tags: adding,and,editing,templates,at,design,time
 published: True

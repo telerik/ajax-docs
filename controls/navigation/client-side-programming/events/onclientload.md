@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadNavigation
+description: Check our Web Forms article about OnClientLoad.
 slug: navigation/client-side-programming/events/onclientload
 tags: onclientload
 published: True

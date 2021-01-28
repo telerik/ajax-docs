@@ -1,7 +1,7 @@
 ---
 title: Dynamic InputSettings
-page_title: Dynamic InputSettings | RadInputManager for ASP.NET AJAX Documentation
-description: Dynamic InputSettings
+page_title: Dynamic InputSettings - RadInputManager
+description: Check our Web Forms article about Dynamic InputSettings.
 slug: radinputmanager/dynamic-inputsettings
 tags: dynamic,inputsettings
 published: True

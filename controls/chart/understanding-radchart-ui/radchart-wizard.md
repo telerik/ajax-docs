@@ -1,7 +1,7 @@
 ---
 title: RadChart Wizard
-page_title: RadChart Wizard | RadChart for ASP.NET AJAX Documentation
-description: RadChart Wizard
+page_title: RadChart Wizard - RadChart
+description: Check our Web Forms article about RadChart Wizard.
 slug: chart/understanding-radchart-ui/radchart-wizard
 tags: radchart,wizard
 published: True

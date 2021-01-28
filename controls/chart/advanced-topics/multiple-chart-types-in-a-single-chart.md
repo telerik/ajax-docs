@@ -1,7 +1,7 @@
 ---
 title: Multiple Chart Types in a Single Chart
-page_title: Multiple Chart Types in a Single Chart | RadChart for ASP.NET AJAX Documentation
-description: Multiple Chart Types in a Single Chart
+page_title: Multiple Chart Types in a Single Chart - RadChart
+description: Check our Web Forms article about Multiple Chart Types in a Single Chart.
 slug: chart/advanced-topics/multiple-chart-types-in-a-single-chart
 tags: multiple,chart,types,in,a,single,chart
 published: True

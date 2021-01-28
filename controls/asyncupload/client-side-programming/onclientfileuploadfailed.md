@@ -1,7 +1,7 @@
 ---
 title: OnClientFileUploadFailed
-page_title: OnClientFileUploadFailed | RadAsyncUpload for ASP.NET AJAX Documentation
-description: OnClientFileUploadFailed
+page_title: OnClientFileUploadFailed - RadAsyncUpload
+description: Check our Web Forms article about OnClientFileUploadFailed.
 slug: asyncupload/client-side-programming/onclientfileuploadfailed
 tags: onclientfileuploadfailed
 published: True

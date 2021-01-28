@@ -1,7 +1,7 @@
 ---
 title: OnClientSelectedTabChanged 
-page_title: OnClientSelectedTabChanged  | RadRibbonBar for ASP.NET AJAX Documentation
-description: OnClientSelectedTabChanged 
+page_title: OnClientSelectedTabChanged - RadRibbonBar
+description: Check our Web Forms article about OnClientSelectedTabChanged.
 slug: ribbonbar/client-side-programming/events/onclientselectedtabchanged-
 tags: onclientselectedtabchanged,
 published: True

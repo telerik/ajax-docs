@@ -1,7 +1,7 @@
 ---
 title: ValidatingFile
-page_title: ValidatingFile | RadUpload for ASP.NET AJAX Documentation
-description: ValidatingFile
+page_title: ValidatingFile - RadUpload
+description: Check our Web Forms article about ValidatingFile.
 slug: upload/server-side-programming/validatingfile
 tags: validatingfile
 published: True

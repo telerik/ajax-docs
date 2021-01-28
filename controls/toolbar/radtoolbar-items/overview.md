@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: RadToolBar Items Overview | RadToolBar for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadToolBar Items Overview - RadToolBar
+description: Check our Web Forms article about Overview.
 slug: toolbar/radtoolbar-items/overview
 tags: overview
 published: True

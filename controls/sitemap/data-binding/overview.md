@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadSiteMap for ASP.NET AJAX Documentation
-description: Overview
+page_title: Data Binding Overview - RadSiteMap
+description: Check our Web Forms article about Overview.
 slug: sitemap/data-binding/overview
 tags: overview
 published: True

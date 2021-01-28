@@ -1,7 +1,7 @@
 ---
 title: Fonts
-page_title: Fonts | UI for ASP.NET AJAX Documentation
-description: Treats font size and family used in the built-in skins and render modes, how to set font icons size
+page_title: Fonts
+description: Check our Web Forms article about Treats font size and family used in the built-in skins and render modes, how to set font icons size.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts
 tags: font, font-size, font-family, font-weight, font-icon, font-style
 published: True

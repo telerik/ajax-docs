@@ -1,7 +1,7 @@
 ---
 title: OnHeaderMenuShowing
-page_title: OnHeaderMenuShowing | RadGrid for ASP.NET AJAX Documentation
-description: OnHeaderMenuShowing
+page_title: OnHeaderMenuShowing - RadGrid
+description: Check our Web Forms article about OnHeaderMenuShowing.
 slug: grid/client-side-programming/events/onheadermenushowing
 tags: onheadermenushowing
 published: True

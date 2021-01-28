@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Telerik and SharePoint Online | UI for ASP.NET AJAX Documentation
-description: Telerik and SharePoint Online
+page_title: Telerik and SharePoint Online
+description: Check our Web Forms article about Telerik and SharePoint Online.
 slug: sharepoint/online/overview
 tags: telerik,sharepoint,online
 published: True

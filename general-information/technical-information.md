@@ -1,7 +1,7 @@
 ---
 title: Technical Information
-page_title: Technical Information | UI for ASP.NET AJAX Documentation
-description: Technical Information
+page_title: Technical Information
+description: Check our Web Forms article about Technical Information.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/system-requirements-and-browser-support
 previous_url: introduction-system-requirements
 tags: system,requirements,and,browser,support

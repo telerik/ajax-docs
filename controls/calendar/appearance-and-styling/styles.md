@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: Styles | RadCalendar for ASP.NET AJAX Documentation
-description: Styles
+page_title: Styles - RadCalendar
+description: Check our Web Forms article about Styles.
 slug: calendar/appearance-and-styling/styles
 tags: styles
 published: True

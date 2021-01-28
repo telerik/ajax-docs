@@ -1,7 +1,7 @@
 ---
 title: Disabling the Embedded jQuery
-page_title: Disabling the Embedded jQuery | RadScriptManager for ASP.NET AJAX Documentation
-description: Disabling the Embedded jQuery
+page_title: Disabling the Embedded jQuery - RadScriptManager
+description: Check our Web Forms article about Disabling the Embedded jQuery.
 slug: scriptmanager/disabling-the-embedded-jquery
 tags: disabling,the,embedded,jquery
 published: True

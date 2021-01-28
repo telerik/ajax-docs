@@ -1,7 +1,7 @@
 ---
 title: RadioButtonList Object
-page_title: RadioButtonList Object | RadRadioButtonList for ASP.NET AJAX Documentation
-description: RadioButtonList Object
+page_title: RadioButtonList Object - RadRadioButtonList
+description: Check our Web Forms article about RadioButtonList Object.
 slug: radiobuttonlist/client-side-programming/radiobuttonlist-object
 tags: radiobutton, button, radiobuttonlist, list, radio ,object
 published: True

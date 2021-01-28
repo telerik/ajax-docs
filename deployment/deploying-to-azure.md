@@ -1,7 +1,7 @@
 ---
 title: Deploying to Azure
-page_title: Deploying to Azure | UI for ASP.NET AJAX Documentation
-description: Deploying to Azure
+page_title: Deploying to Azure
+description: Check our Web Forms article about Deploying to Azure.
 slug: introduction/deployment/deploying-to-azure
 tags: deploying,to,azure
 published: True

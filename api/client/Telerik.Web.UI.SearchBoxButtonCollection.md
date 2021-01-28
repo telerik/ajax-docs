@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SearchBoxButtonCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SearchBoxButtonCollection
 slug: Telerik.Web.UI.SearchBoxButtonCollection
 ---

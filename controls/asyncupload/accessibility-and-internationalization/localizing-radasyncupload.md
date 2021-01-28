@@ -1,7 +1,7 @@
 ---
 title: Localizing RadAsyncUpload
-page_title: Localizing RadAsyncUpload | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Localizing RadAsyncUpload
+page_title: Localizing RadAsyncUpload - RadAsyncUpload
+description: Check our Web Forms article about Localizing RadAsyncUpload.
 slug: asyncupload/accessibility-and-internationalization/localizing-radasyncupload
 tags: localizing,radasyncupload
 published: True

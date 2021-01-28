@@ -1,7 +1,7 @@
 ---
 title: Reduce the Space Between the Nodes
-page_title: Reduce the Space Between the Nodes | RadTreeView for ASP.NET AJAX Documentation
-description: Reduce the Space Between the Nodes
+page_title: Reduce the Space Between the Nodes - RadTreeView
+description: Check our Web Forms article about Reduce the Space Between the Nodes.
 slug: treeview/application-scenarios/general/reduce-the-space-between-the-nodes
 tags: reduce,the,space,between,the,nodes
 published: True

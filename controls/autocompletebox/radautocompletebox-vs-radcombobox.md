@@ -1,7 +1,7 @@
 ---
 title: RadAutoCompleteBox vs RadComboBox
-page_title: RadAutoCompleteBox vs RadComboBox | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: RadAutoCompleteBox vs RadComboBox
+page_title: RadAutoCompleteBox vs RadComboBox - RadAutoCompleteBox
+description: Check our Web Forms article about RadAutoCompleteBox vs RadComboBox.
 slug: autocompletebox/radautocompletebox-vs-radcombobox
 tags: radautocompletebox,vs,radcombobox
 published: True

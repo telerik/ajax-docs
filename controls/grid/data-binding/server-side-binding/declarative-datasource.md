@@ -1,7 +1,7 @@
 ---
 title: Declarative DataSource
-page_title: Declarative DataSource | RadGrid for ASP.NET AJAX Documentation
-description: Declarative DataSource
+page_title: Declarative DataSource - RadGrid
+description: Check our Web Forms article about Declarative DataSource.
 slug: grid/data-binding/server-side-binding/declarative-datasource
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource
 tags: declarative,datasource

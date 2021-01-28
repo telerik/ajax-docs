@@ -1,7 +1,7 @@
 ---
 title: OnDateSelecting
-page_title: OnDateSelecting | RadCalendar for ASP.NET AJAX Documentation
-description: OnDateSelecting
+page_title: OnDateSelecting - RadCalendar
+description: Check our Web Forms article about OnDateSelecting.
 slug: calendar/client-side-programming/events/ondateselecting
 tags: ondateselecting
 published: True

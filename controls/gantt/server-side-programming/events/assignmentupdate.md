@@ -1,7 +1,7 @@
 ---
 title: AssignmentUpdate
-page_title: AssignmentUpdate | RadGantt for ASP.NET AJAX Documentation
-description: AssignmentUpdate
+page_title: AssignmentUpdate - RadGantt
+description: Check our Web Forms article about AssignmentUpdate.
 slug: gantt/server-side-programming/events/assignmentupdate
 tags: assignmentupdate
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Orientation
-page_title: RadCard Orientation | UI for ASP.NET AJAX Documentation
-description: Orientation
+page_title: RadCard Orientation
+description: Check our Web Forms article about Orientation.
 slug: card/orientation
 tags: orientation
 published: True

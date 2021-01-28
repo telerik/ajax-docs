@@ -1,7 +1,7 @@
 ---
 title: Single Expand Path
-page_title: Single Expand Path | RadTreeView for ASP.NET AJAX Documentation
-description: Single Expand Path
+page_title: Single Expand Path - RadTreeView
+description: Check our Web Forms article about Single Expand Path.
 slug: treeview/server-side-programming/single-expand-path
 tags: single,expand,path
 published: True

@@ -1,7 +1,7 @@
 ---
 title: First Steps
-page_title: First Steps with UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: First Steps with UI for ASP.NET AJAX
+page_title: First Steps with
+description: Check our Web Forms article about First Steps with UI for ASP.NET AJAX.
 slug: getting-started/first-steps
 tags: get,started,first,steps
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridDragDropCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridDragDropCancelEventArgs
 slug: Telerik.Web.UI.GridDragDropCancelEventArgs
 ---

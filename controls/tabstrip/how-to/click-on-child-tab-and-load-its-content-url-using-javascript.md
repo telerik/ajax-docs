@@ -1,7 +1,7 @@
 ---
 title: Click on child tab and load its ContentUrl using JavaScript
-page_title: Click on child tab and load its ContentUrl using JavaScript | RadTabStrip for ASP.NET AJAX Documentation
-description: Click on child tab and load its ContentUrl using JavaScript
+page_title: Click on child tab and load its ContentUrl using JavaScript - RadTabStrip
+description: Check our Web Forms article about Click on child tab and load its ContentUrl using JavaScript.
 slug: tabstrip/how-to/click-on-child-tab-and-load-its-content-url-using-javascript
 tags: click,tabs,child,load. ContentUrl,JavaScript,client-side
 published: True

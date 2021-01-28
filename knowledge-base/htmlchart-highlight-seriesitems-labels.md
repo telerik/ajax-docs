@@ -1,6 +1,6 @@
 ---
 title: Highlight series labels depending on the items values
-description: Learn how to style the SeriesItems labels depending on the item's value
+description: Learn how to style the SeriesItems labels depending on the item's value.
 type: how-to
 page_title: Style specific seriesitem labels depending on the items value
 slug: htmlchart-highlight-seriesitems-labels

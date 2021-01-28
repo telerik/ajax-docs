@@ -1,7 +1,7 @@
 ---
 title: ItemCheck
-page_title: ItemCheck | RadListBox for ASP.NET AJAX Documentation
-description: ItemCheck
+page_title: ItemCheck - RadListBox
+description: Check our Web Forms article about ItemCheck.
 slug: listbox/server-side-programming/server-events/itemcheck
 tags: itemcheck
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadHtmlChart
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadHtmlChart
 slug: Telerik.Web.UI.RadHtmlChart
 ---

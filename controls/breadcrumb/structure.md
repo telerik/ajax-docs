@@ -1,7 +1,7 @@
 ---
 title: Structure
-page_title: Structure | RadBreadcrumb for ASP.NET AJAX Documentation
-description: Structure
+page_title: Structure - RadBreadcrumb
+description: Check our Web Forms article about Structure.
 slug: breadcrumb/structure
 tags: structure
 published: True

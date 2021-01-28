@@ -1,7 +1,7 @@
 ---
 title: OnValueChanged
-page_title: OnValueChanged | RadTextBox for ASP.NET AJAX Documentation
-description: OnValueChanged
+page_title: OnValueChanged - RadTextBox
+description: Check our Web Forms article about OnValueChanged.
 slug: radtextbox/client-side-programming/events/onvaluechanged
 tags: onvaluechanged
 published: True

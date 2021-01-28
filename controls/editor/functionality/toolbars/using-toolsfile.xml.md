@@ -1,7 +1,7 @@
 ---
 title: Using ToolsFile.xml
-page_title: Using ToolsFile.xml | RadEditor for ASP.NET AJAX Documentation
-description: Using ToolsFile.xml
+page_title: Using ToolsFile.xml - RadEditor
+description: Check our Web Forms article about Using ToolsFile.xml.
 slug: editor/functionality/toolbars/using-toolsfile.xml
 tags: using,toolsfile.xml
 published: True

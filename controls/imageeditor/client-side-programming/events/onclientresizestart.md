@@ -1,7 +1,7 @@
 ---
 title: OnClientResizeStart
-page_title: OnClientResizeStart | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientResizeStart
+page_title: OnClientResizeStart - RadImageEditor
+description: Check our Web Forms article about OnClientResizeStart.
 slug: imageeditor/client-side-programming/events/onclientresizestart
 tags: onclientresizestart
 published: True

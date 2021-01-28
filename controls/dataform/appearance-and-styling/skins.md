@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadDataForm for ASP.NET AJAX 
-description: Skins
+page_title: Skins - RadDataForm
+description: Check our Web Forms article about Skins.
 slug: dataform/appearance-and-styling/skins
 tags: skins
 published: True

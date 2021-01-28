@@ -1,7 +1,7 @@
 ---
 title: OnTypingStart
-page_title: OnTypingStart | RadChat for ASP.NET AJAX Documentation
-description: OnTypingStart
+page_title: OnTypingStart - RadChat
+description: Check our Web Forms article about OnTypingStart.
 slug: chat/client-side-programming/events/ontypingstart
 tags: ontypingstart
 published: True

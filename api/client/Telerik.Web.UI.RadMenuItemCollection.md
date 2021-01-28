@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadMenuItemCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadMenuItemCollection
 slug: Telerik.Web.UI.RadMenuItemCollection
 ---

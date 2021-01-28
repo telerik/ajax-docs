@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ToolTipHideEvent
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ToolTipHideEvent
 slug: Telerik.Web.UI.ToolTipHideEvent
 ---

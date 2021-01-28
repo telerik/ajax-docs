@@ -1,7 +1,7 @@
 ---
 title: Templates
-page_title: Templates | RadEditor for ASP.NET AJAX Documentation
-description: Templates
+page_title: Templates - RadEditor
+description: Check our Web Forms article about Templates.
 slug: editor/functionality/dialogs/file-browser-dialogs/templates
 tags: templates
 published: True

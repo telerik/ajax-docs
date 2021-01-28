@@ -1,7 +1,7 @@
 ---
 title: RadMultiColumnComboBox Object
-page_title: RadMultiColumnComboBox Object | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: RadMultiColumnComboBox Object
+page_title: RadMultiColumnComboBox Object - RadMultiColumnComboBox
+description: Check our Web Forms article about RadMultiColumnComboBox Object.
 slug: multicolumncombobox/client-side-programming/overview
 tags: multicolumncombobox,object
 published: True

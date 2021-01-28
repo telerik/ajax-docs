@@ -1,7 +1,7 @@
 ---
 title: Filtering
-page_title: Filtering | RadPivotGrid for ASP.NET AJAX Documentation
-description: Filtering
+page_title: Filtering - RadPivotGrid
+description: Check our Web Forms article about Filtering.
 slug: pivotgrid/functionality/filtering
 tags: filtering
 published: True

@@ -1,7 +1,7 @@
 ---
 title: SharePoint Configuration 
-page_title: SharePoint Configuration | RadProgressArea for ASP.NET AJAX Documentation
-description: SharePoint Configuration
+page_title: SharePoint Configuration - RadProgressArea
+description: Check our Web Forms article about SharePoint Configuration.
 slug: progressarea/how-to/sharepoint-configuration
 tags: sharepoint,configuration
 published: True

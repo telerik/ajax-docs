@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerReminderSnoozingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerReminderSnoozingEventArgs
 slug: Telerik.Web.UI.SchedulerReminderSnoozingEventArgs
 ---

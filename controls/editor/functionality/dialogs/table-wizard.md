@@ -1,7 +1,7 @@
 ---
 title: Table Wizard
-page_title: Table Wizard | RadEditor for ASP.NET AJAX Documentation
-description: Table Wizard
+page_title: Table Wizard - RadEditor
+description: Check our Web Forms article about Table Wizard.
 slug: editor/functionality/dialogs/table-wizard
 tags: table,wizard
 published: True

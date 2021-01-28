@@ -1,7 +1,7 @@
 ---
 title: Cross-Page Postback
-page_title: Cross-Page Postback | RadMenu for ASP.NET AJAX Documentation
-description: Cross-Page Postback
+page_title: Cross-Page Postback - RadMenu
+description: Check our Web Forms article about Cross-Page Postback.
 slug: menu/functionality/cross-page-postback
 tags: cross-page,postback
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ShowEvent
-page_title: ShowEvent | RadTooltip for ASP.NET AJAX Documentation
-description: ShowEvent
+page_title: ShowEvent - RadTooltip
+description: Check our Web Forms article about ShowEvent.
 slug: tooltip/getting-started/showevent
 tags: showevent
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Empty Uploaded Files Collection
-page_title: Empty Uploaded Files Collection | RadUpload for ASP.NET AJAX Documentation
-description: Empty Uploaded Files Collection
+page_title: Empty Uploaded Files Collection - RadUpload
+description: Check our Web Forms article about Empty Uploaded Files Collection.
 slug: upload/troubleshooting/empty-uploaded-files-collection
 tags: empty,uploaded,files,collection
 published: True

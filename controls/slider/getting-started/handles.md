@@ -1,7 +1,7 @@
 ---
 title: Handles
-page_title: Handles | RadSlider for ASP.NET AJAX Documentation
-description: Handles
+page_title: Handles - RadSlider
+description: Check our Web Forms article about Handles.
 slug: slider/getting-started/handles
 tags: handles
 published: True

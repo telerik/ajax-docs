@@ -1,7 +1,7 @@
 ---
 title: API
-page_title: API | RadListView for ASP.NET AJAX Documentation
-description: API
+page_title: API - RadListView
+description: Check our Web Forms article about API.
 slug: listview/data-binding/client-side/api
 tags: api
 published: True

@@ -1,7 +1,7 @@
 ---
 title: findElement
-page_title: findElement | RadGrid for ASP.NET AJAX Documentation
-description: findElement
+page_title: findElement - RadGrid
+description: Check our Web Forms article about findElement.
 slug: grid/client-side-programming/griddataitem-object/methods/findelement
 tags: findelement
 published: True

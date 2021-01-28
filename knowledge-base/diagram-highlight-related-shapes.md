@@ -1,6 +1,6 @@
 ---
 title: Highlight Related Shapes when a shape is clicked
-description: Highlight Related Shapes when a shape is clicked
+description: Highlight Related Shapes when a shape is clicked.
 type: how-to
 page_title: Highlight all connected shapes on shape click
 slug: diagram-highlight-related-shapes

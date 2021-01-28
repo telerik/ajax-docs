@@ -1,7 +1,7 @@
 ---
 title: OnClientItemDataBinding
-page_title: OnClientItemDataBinding | RadSlider for ASP.NET AJAX Documentation
-description: OnClientItemDataBinding
+page_title: OnClientItemDataBinding - RadSlider
+description: Check our Web Forms article about OnClientItemDataBinding.
 slug: slider/client-side-programming/events/data-binding/onclientitemdatabinding
 tags: onclientitemdatabinding
 published: True

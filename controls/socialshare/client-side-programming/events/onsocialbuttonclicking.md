@@ -1,7 +1,7 @@
 ---
 title: OnSocialButtonClicking
-page_title: OnSocialButtonClicking | RadSocialShare for ASP.NET AJAX Documentation
-description: OnSocialButtonClicking
+page_title: OnSocialButtonClicking - RadSocialShare
+description: Check our Web Forms article about OnSocialButtonClicking.
 slug: socialshare/client-side-programming/events/onsocialbuttonclicking
 tags: onsocialbuttonclicking
 published: True

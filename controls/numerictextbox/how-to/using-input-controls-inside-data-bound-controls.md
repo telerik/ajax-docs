@@ -1,7 +1,7 @@
 ---
 title: Using Input Controls Inside Data-Bound Controls
-page_title: Using Input Controls Inside Data-Bound Controls | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Using Input Controls Inside Data-Bound Controls
+page_title: Using Input Controls Inside Data-Bound Controls - RadNumericTextBox
+description: Check our Web Forms article about Using Input Controls Inside Data-Bound Controls.
 slug: numerictextbox/how-to/using-input-controls-inside-data-bound-controls
 tags: using,input,controls,inside,data-bound,controls
 published: True

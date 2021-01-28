@@ -1,7 +1,7 @@
 ---
 title: Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls
-page_title: Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls | UI for ASP.NET AJAX Documentation
-description: Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls
+page_title: Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls
+description: Check our Web Forms article about Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls.
 slug: sharepoint/2007/create-an-ajax-enabled-sharepoint-webpart-that-uses-the-telerik-controls
 tags: create,an,ajax-enabled,sharepoint,webpart,that,uses,the,telerik,controls
 published: True

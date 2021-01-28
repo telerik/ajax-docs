@@ -1,7 +1,7 @@
 ---
 title: Changing the Grid Structure Dynamically on Postback
-page_title: Changing the Grid Structure Dynamically on Postback - RadGrid | UI for ASP.NET AJAX
-description: Changing the Grid Structure Dynamically on Postback
+page_title: Changing the Grid Structure Dynamically on Postback - RadGrid
+description: Check our Web Forms article about Changing the Grid Structure Dynamically on Postback.
 slug: grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback
 previous_url: controls/grid/defining-structure/changing-the-grid-structure-dynamically-on-postback
 tags: changing,the,grid,structure,dynamically,on,postback

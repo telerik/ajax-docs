@@ -1,7 +1,7 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadHtmlChart for ASP.NET AJAX Documentation
-description: Common Issues
+page_title: Common Issues - RadHtmlChart
+description: Check our Web Forms article about Common Issues.
 slug: htmlchart/troubleshooting/common-issues
 tags: common,issues
 published: True

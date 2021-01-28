@@ -1,7 +1,7 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadImageButton for ASP.NET AJAX Documentation
-description: Keyboard Support
+page_title: Keyboard Support - RadImageButton
+description: Check our Web Forms article about Keyboard Support.
 slug: imagebutton/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Properties and Events
-page_title: Properties and Events | RadButton for ASP.NET AJAX Documentation
-description: Properties and Events
+page_title: Properties and Events - RadButton
+description: Check our Web Forms article about Properties and Events.
 slug: button/server-side-programming/properties-and-events
 tags: properties,and,events
 published: True

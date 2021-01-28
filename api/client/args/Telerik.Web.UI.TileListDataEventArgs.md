@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.TileListDataEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.TileListDataEventArgs
 slug: Telerik.Web.UI.TileListDataEventArgs
 ---

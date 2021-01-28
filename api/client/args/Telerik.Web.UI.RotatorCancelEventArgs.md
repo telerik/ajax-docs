@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RotatorCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RotatorCancelEventArgs
 slug: Telerik.Web.UI.RotatorCancelEventArgs
 ---

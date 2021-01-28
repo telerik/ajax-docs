@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DropDownListItemSelectingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DropDownListItemSelectingEventArgs
 slug: Telerik.Web.UI.DropDownListItemSelectingEventArgs
 ---

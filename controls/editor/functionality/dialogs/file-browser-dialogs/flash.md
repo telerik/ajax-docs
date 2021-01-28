@@ -1,7 +1,7 @@
 ---
 title: Flash
-page_title: Flash | RadEditor for ASP.NET AJAX Documentation
-description: Flash
+page_title: Flash - RadEditor
+description: Check our Web Forms article about Flash.
 slug: editor/functionality/dialogs/file-browser-dialogs/flash
 tags: flash
 published: True

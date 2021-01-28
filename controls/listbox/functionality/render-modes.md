@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadListBox for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes - RadListBox
+description: Check our Web Forms article about Render Modes.
 slug: listbox/functionality/render-modes
 tags: render,modes
 published: True

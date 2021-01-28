@@ -1,7 +1,7 @@
 ---
 title: Symbols
-page_title: Symbols | UI for ASP.NET AJAX Documentation
-description: Symbols
+page_title: Symbols
+description: Check our Web Forms article about Symbols.
 slug: sharepoint/2007/radeditor-for-moss/dropdowns/symbols
 tags: symbols
 published: True

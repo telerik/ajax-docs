@@ -1,7 +1,7 @@
 ---
 title: RadTimeView Templates
-page_title: RadTimeView Templates | RadDateTimePicker for ASP.NET AJAX Documentation
-description: RadTimeView Templates
+page_title: RadTimeView Templates - RadDateTimePicker
+description: Check our Web Forms article about RadTimeView Templates.
 slug: datetimepicker/functionality/templates/radtimeview-templates
 tags: radtimeview,templates
 published: True

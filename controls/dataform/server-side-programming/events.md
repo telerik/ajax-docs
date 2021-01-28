@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadDataForm for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadDataForm
+description: Check our Web Forms article about Events.
 slug: dataform/server-side-programming/events
 tags: events
 published: True

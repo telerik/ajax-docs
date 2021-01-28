@@ -1,7 +1,7 @@
 ---
 title: OnClientNodeMouseEnter
-page_title: OnClientNodeMouseEnter | RadNavigation for ASP.NET AJAX Documentation
-description: OnClientNodeMouseEnter
+page_title: OnClientNodeMouseEnter - RadNavigation
+description: Check our Web Forms article about OnClientNodeMouseEnter.
 slug: navigation/client-side-programming/events/onclientnodemouseenter
 tags: onclientnodemouseenter
 published: True

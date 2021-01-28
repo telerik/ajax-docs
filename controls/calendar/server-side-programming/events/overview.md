@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Server-Side Events Overview | RadCalendar for ASP.NET AJAX Documentation
-description: Server-Side Events Overview
+page_title: Server-Side Events Overview - RadCalendar
+description: Check our Web Forms article about Server-Side Events Overview.
 slug: calendar/server-side-programming/events/overview
 tags: server-side,events,basics
 published: True

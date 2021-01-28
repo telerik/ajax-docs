@@ -1,7 +1,7 @@
 ---
 title: OnClientNodePopulationFailed
-page_title: OnClientNodePopulationFailed | RadTreeView for ASP.NET AJAX Documentation
-description: OnClientNodePopulationFailed
+page_title: OnClientNodePopulationFailed - RadTreeView
+description: Check our Web Forms article about OnClientNodePopulationFailed.
 slug: treeview/client-side-programming/events/onclientnodepopulationfailed
 tags: onclientnodepopulationfailed
 published: True

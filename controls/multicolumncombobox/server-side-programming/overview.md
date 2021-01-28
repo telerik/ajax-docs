@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Overview
+page_title: Overview - RadMultiColumnComboBox
+description: Check our Web Forms article about Overview.
 slug: multicolumncombobox/server-side-programming/overview
 tags: overview
 published: True

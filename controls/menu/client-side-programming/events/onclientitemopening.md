@@ -1,7 +1,7 @@
 ---
 title: OnClientItemOpening
-page_title: OnClientItemOpening | RadMenu for ASP.NET AJAX Documentation
-description: OnClientItemOpening
+page_title: OnClientItemOpening - RadMenu
+description: Check our Web Forms article about OnClientItemOpening.
 slug: menu/client-side-programming/events/onclientitemopening
 tags: onclientitemopening
 published: True

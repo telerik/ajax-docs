@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadFileExplorer
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadFileExplorer
 slug: Telerik.Web.UI.RadFileExplorer
 ---

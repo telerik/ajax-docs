@@ -1,7 +1,7 @@
 ---
 title: UpdateCommand
-page_title: UpdateCommand Event - RadGrid | UI for ASP.NET AJAX
-description: UpdateCommand Event
+page_title: UpdateCommand Event - RadGrid
+description: Check our Web Forms article about UpdateCommand Event.
 slug: grid/server-side-programming/events/updatecommand
 published: True
 position: 50

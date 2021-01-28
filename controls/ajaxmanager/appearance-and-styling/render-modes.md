@@ -1,7 +1,7 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadAjax for ASP.NET AJAX Documentation
-description: Render Modes
+page_title: Render Modes
+description: Check our Web Forms article about Render Modes.
 slug: ajaxmanager/appearance-and-styling/render-modes
 previous_url: ajax/appearance-and-styling/render-modes
 tags: render,modes

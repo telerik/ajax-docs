@@ -1,7 +1,7 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadDatePicker for ASP.NET AJAX Documentation
-description: RadDatePicker Keyboard Support
+page_title: Keyboard Support - RadDatePicker
+description: Check our Web Forms article about RadDatePicker Keyboard Support.
 slug: datepicker/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True

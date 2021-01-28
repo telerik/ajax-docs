@@ -1,7 +1,7 @@
 ---
 title: getParentElement
-page_title: getParentElement | RadEditor for ASP.NET AJAX Documentation
-description: getParentElement
+page_title: getParentElement - RadEditor
+description: Check our Web Forms article about getParentElement.
 slug: editor/client-side-programming/methods/selection/getparentelement
 tags: getparentelement
 published: True

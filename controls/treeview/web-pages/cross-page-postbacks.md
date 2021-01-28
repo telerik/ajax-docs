@@ -1,7 +1,7 @@
 ---
 title: Cross-Page Postbacks
-page_title: Cross-Page Postbacks | RadTreeView for ASP.NET AJAX Documentation
-description: Cross-Page Postbacks
+page_title: Cross-Page Postbacks - RadTreeView
+description: Check our Web Forms article about Cross-Page Postbacks.
 slug: treeview/web-pages/cross-page-postbacks
 tags: cross-page,postbacks
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientProgressUpdating
-page_title: OnClientProgressUpdating | RadProgressArea for ASP.NET AJAX Documentation
-description: OnClientProgressUpdating
+page_title: OnClientProgressUpdating - RadProgressArea
+description: Check our Web Forms article about OnClientProgressUpdating.
 slug: progressarea/client-side-programming/onclientprogressupdating
 tags: onclientprogressupdating
 published: True

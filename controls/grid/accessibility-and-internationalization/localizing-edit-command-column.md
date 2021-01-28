@@ -1,7 +1,7 @@
 ---
 title: Localizing Edit Command Column
-page_title: Localizing Edit Command Column | RadGrid for ASP.NET AJAX Documentation
-description: Localizing Edit Command Column
+page_title: Localizing Edit Command Column - RadGrid
+description: Check our Web Forms article about Localizing Edit Command Column.
 slug: grid/accessibility-and-internationalization/localizing-edit-command-column
 tags: localizing,edit,command,column
 published: True

@@ -1,7 +1,7 @@
 ---
 title: expandGroup
-page_title: expandGroup | RadGrid for ASP.NET AJAX Documentation
-description: expandGroup
+page_title: expandGroup - RadGrid
+description: Check our Web Forms article about expandGroup.
 slug: grid/client-side-programming/gridtableview-object/methods/expandgroup
 tags: expandgroup
 published: True

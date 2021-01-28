@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RibbonBarEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RibbonBarEventArgs
 slug: Telerik.Web.UI.RibbonBarEventArgs
 ---

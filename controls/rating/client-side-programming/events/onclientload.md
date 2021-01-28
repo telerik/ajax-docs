@@ -1,7 +1,7 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | RadRating for ASP.NET AJAX Documentation
-description: OnClientLoad
+page_title: OnClientLoad - RadRating
+description: Check our Web Forms article about OnClientLoad.
 slug: rating/client-side-programming/events/onclientload
 tags: onclientload
 published: True

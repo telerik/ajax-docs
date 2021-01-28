@@ -1,7 +1,7 @@
 ---
 title: Column Chart
-page_title: Column Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Column Chart
+page_title: Column Chart - RadHtmlChart
+description: Check our Web Forms article about Column Chart.
 slug: htmlchart/chart-types/column-chart
 tags: column,chart
 published: True

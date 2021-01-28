@@ -1,7 +1,7 @@
 ---
 title: get_name()
-page_title: get_name() | RadGrid for ASP.NET AJAX Documentation
-description: get_name()
+page_title: get_name() - RadGrid
+description: Check our Web Forms article about get_name().
 slug: grid/client-side-programming/gridtableview-object/properties/get_name()
 tags: get_name()
 published: True

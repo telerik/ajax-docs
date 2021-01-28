@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop Appointment from RadScheduler to RadScheduler
-page_title: Drag and Drop Appointment from RadScheduler to RadScheduler | RadScheduler for ASP.NET AJAX Documentation
-description: Drag and Drop Appointment from RadScheduler to RadScheduler
+page_title: Drag and Drop Appointment from RadScheduler to RadScheduler - RadScheduler
+description: Check our Web Forms article about Drag and Drop Appointment from RadScheduler to RadScheduler.
 slug: scheduler/how-to/drag-and-drop-appointment-from-RadScheduler-to-RadScheduler
 tags: drag-drop,drag,drop,appointment
 published: True

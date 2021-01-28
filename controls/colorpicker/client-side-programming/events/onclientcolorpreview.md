@@ -1,7 +1,7 @@
 ---
 title: OnClientColorPreview
-page_title: OnClientColorPreview | RadColorPicker for ASP.NET AJAX Documentation
-description: OnClientColorPreview
+page_title: OnClientColorPreview - RadColorPicker
+description: Check our Web Forms article about OnClientColorPreview.
 slug: colorpicker/client-side-programming/events/onclientcolorpreview
 tags: onclientcolorpreview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientItemCreated
-page_title: OnClientItemCreated | RadTreeMap for ASP.NET AJAX Documentation
-description: OnClientItemCreated
+page_title: OnClientItemCreated - RadTreeMap
+description: Check our Web Forms article about OnClientItemCreated.
 slug: treemap/client-side-programming/events/onclientitemcreated
 tags: onclientitemcreated
 published: True

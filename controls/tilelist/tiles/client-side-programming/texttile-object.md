@@ -1,7 +1,7 @@
 ---
 title: TextTile Object
-page_title: TextTile Object | RadTile for ASP.NET AJAX Documentation
-description: TextTile Object
+page_title: TextTile Object - RadTile
+description: Check our Web Forms article about TextTile Object.
 slug: tilelist/tiles/client-side-programming/texttile-object
 tags: texttile,object
 published: True

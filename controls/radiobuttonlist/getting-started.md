@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadRadioButtonList for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadRadioButtonList
+description: Check our Web Forms article about Getting Started.
 slug: radiobuttonlist/getting-started
 tags: getting,started
 published: True

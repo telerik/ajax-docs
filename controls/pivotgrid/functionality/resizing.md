@@ -1,7 +1,7 @@
 ---
 title: Resizing
-page_title: Resizing | RadPivotGrid for ASP.NET AJAX Documentation
-description: Resizing
+page_title: Resizing - RadPivotGrid
+description: Check our Web Forms article about Resizing.
 slug: pivotgrid/functionality/resizing
 tags: resizing
 published: True

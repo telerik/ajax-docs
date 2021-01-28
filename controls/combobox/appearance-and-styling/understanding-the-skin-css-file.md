@@ -1,7 +1,7 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | RadComboBox for ASP.NET AJAX Documentation
-description: Understanding the Skin CSS File
+page_title: Understanding the Skin CSS File - RadComboBox
+description: Check our Web Forms article about Understanding the Skin CSS File.
 slug: combobox/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Initially Hidden Rotator Does Not Show
-page_title: Initially Hidden Rotator Does Not Show | RadRotator for ASP.NET AJAX Documentation
-description: show initially hidden rotator with JavaScript or CSS
+page_title: Initially Hidden Rotator Does Not Show - RadRotator
+description: Check our Web Forms article about show initially hidden rotator with JavaScript or CSS.
 slug: rotator/troubleshooting/initially-hidden
 tags: initially,hidden,show,css,javascript,collapsed
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Command Item Template
-page_title: Command Item Template | RadGrid for ASP.NET AJAX Documentation
-description: Command Item Template
+page_title: Command Item Template - RadGrid
+description: Check our Web Forms article about Command Item Template.
 slug: grid/data-editing/commanditem/command-item-template
 tags: command,item,template
 published: True

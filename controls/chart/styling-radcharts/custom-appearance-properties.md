@@ -1,7 +1,7 @@
 ---
 title: Custom Appearance Properties
-page_title: Custom Appearance Properties | RadChart for ASP.NET AJAX Documentation
-description: Custom Appearance Properties
+page_title: Custom Appearance Properties - RadChart
+description: Check our Web Forms article about Custom Appearance Properties.
 slug: chart/styling-radcharts/custom-appearance-properties
 tags: custom,appearance,properties
 published: True

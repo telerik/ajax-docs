@@ -1,7 +1,7 @@
 ---
 title: Bar Chart
-page_title: Bar Chart | RadHtmlChart for ASP.NET AJAX Documentation
-description: Bar Chart
+page_title: Bar Chart - RadHtmlChart
+description: Check our Web Forms article about Bar Chart.
 slug: htmlchart/chart-types/bar-chart
 tags: bar,chart
 published: True

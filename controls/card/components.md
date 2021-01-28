@@ -1,7 +1,7 @@
 ---
 title: Components
-page_title: RadCard Components | UI for ASP.NET AJAX Documentation
-description: Components
+page_title: RadCard Components
+description: Check our Web Forms article about Components.
 slug: card/components
 tags: components
 published: True

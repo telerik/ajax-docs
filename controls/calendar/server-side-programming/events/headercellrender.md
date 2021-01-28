@@ -1,7 +1,7 @@
 ---
 title: HeaderCellRender
-page_title: HeaderCellRender | RadCalendar for ASP.NET AJAX Documentation
-description: HeaderCellRender
+page_title: HeaderCellRender - RadCalendar
+description: Check our Web Forms article about HeaderCellRender.
 slug: calendar/server-side-programming/events/headercellrender
 tags: headercellrender
 published: True

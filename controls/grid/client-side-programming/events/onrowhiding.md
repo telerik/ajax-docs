@@ -1,7 +1,7 @@
 ---
 title: OnRowHiding
-page_title: OnRowHiding | RadGrid for ASP.NET AJAX Documentation
-description: OnRowHiding
+page_title: OnRowHiding - RadGrid
+description: Check our Web Forms article about OnRowHiding.
 slug: grid/client-side-programming/events/onrowhiding
 tags: onrowhiding
 published: True

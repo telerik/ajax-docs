@@ -1,7 +1,7 @@
 ---
 title: OnClientTaskResizeEnd
-page_title: OnClientTaskResizeEnd | RadGantt for ASP.NET AJAX Documentation
-description: OnClientTaskResizeEnd
+page_title: OnClientTaskResizeEnd - RadGantt
+description: Check our Web Forms article about OnClientTaskResizeEnd.
 slug: gantt/client-side-programming/events/onclienttaskresizeend
 tags: onclienttaskresizeend
 published: True

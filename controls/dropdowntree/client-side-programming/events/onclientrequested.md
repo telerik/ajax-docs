@@ -1,7 +1,7 @@
 ---
 title: OnClientRequested
-page_title: OnClientRequested | RadDropDownTree for ASP.NET AJAX Documentation
-description: OnClientRequested
+page_title: OnClientRequested - RadDropDownTree
+description: Check our Web Forms article about OnClientRequested.
 slug: dropdowntree/client-side-programming/events/onclientrequested
 tags: onclientrequested
 published: False

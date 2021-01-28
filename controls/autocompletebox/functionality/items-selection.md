@@ -1,7 +1,7 @@
 ---
 title: Items Selection
-page_title: Items Selection | RadAutoCompleteBox for ASP.NET AJAX Documentation
-description: Items Selection
+page_title: Items Selection - RadAutoCompleteBox
+description: Check our Web Forms article about Items Selection.
 slug: autocompletebox/functionality/items-selection
 tags: items,selection
 published: True

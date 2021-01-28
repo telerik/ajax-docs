@@ -1,7 +1,7 @@
 ---
 title: Standard
-page_title: Standard | RadSocialShare for ASP.NET AJAX Documentation
-description: Standard
+page_title: Standard - RadSocialShare
+description: Check our Web Forms article about Standard.
 slug: socialshare/configuring-buttons/standard
 tags: standard
 published: True

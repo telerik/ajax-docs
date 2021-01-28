@@ -1,7 +1,7 @@
 ---
 title: Methods
-page_title: Methods | RadButton for ASP.NET AJAX Documentation
-description: Methods
+page_title: Methods - RadButton
+description: Check our Web Forms article about Methods.
 slug: button/server-side-programming/methods
 tags: methods
 published: True

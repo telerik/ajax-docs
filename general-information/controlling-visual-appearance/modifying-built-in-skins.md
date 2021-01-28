@@ -1,7 +1,7 @@
 ---
 title: Modifying Built-in Skins
-page_title: Modifying Built-in Skins | UI for ASP.NET AJAX Documentation
-description: Modifying Built-in Skins
+page_title: Modifying Built-in Skins
+description: Check our Web Forms article about Modifying Built-in Skins.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins
 tags: modifying,built-in,skins
 published: True

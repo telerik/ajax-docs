@@ -1,7 +1,7 @@
 ---
 title: Navigation
-page_title: Navigation | RadTileList for ASP.NET AJAX Documentation
-description: Navigation
+page_title: Navigation - RadTileList
+description: Check our Web Forms article about Navigation.
 slug: tilelist/functionality/navigation
 tags: navigation
 published: True

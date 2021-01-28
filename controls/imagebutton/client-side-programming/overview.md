@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadImageButton for ASP.NET AJAX Documentation
-description: Overview
+page_title: Client-side Programming Overview - RadImageButton
+description: Check our Web Forms article about Overview.
 slug: imagebutton/client-side-programming/overview
 tags: overview
 published: True

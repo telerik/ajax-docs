@@ -1,7 +1,7 @@
 ---
 title: Getting RadGrid Client Object
-page_title: Getting RadGrid Client Object | RadGrid for ASP.NET AJAX Documentation
-description: Getting RadGrid Client Object
+page_title: Getting RadGrid Client Object - RadGrid
+description: Check our Web Forms article about Getting RadGrid Client Object.
 slug: grid/client-side-programming/getting-radgrid-client-object
 tags: getting,radgrid,client,object
 published: True

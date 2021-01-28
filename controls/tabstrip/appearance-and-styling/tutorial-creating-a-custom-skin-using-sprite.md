@@ -1,7 +1,7 @@
 ---
 title: Tutorial Creating a Custom Skin Using Sprite 
-page_title: Tutorial Creating a Custom Skin Using Sprite  | RadTabStrip for ASP.NET AJAX Documentation
-description: Tutorial Creating a Custom Skin Using Sprite 
+page_title: Tutorial Creating a Custom Skin Using Sprite - RadTabStrip
+description: Check our Web Forms article about Tutorial Creating a Custom Skin Using Sprite.
 slug: tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin-using-sprite
 tags: tutorial,creating,a,custom,skin,using,sprite,
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Animation
-page_title: Animation | RadComboBox for ASP.NET AJAX Documentation
-description: Animation
+page_title: Animation - RadComboBox
+description: Check our Web Forms article about Animation.
 slug: combobox/appearance-and-styling/animation
 tags: animation
 published: True

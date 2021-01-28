@@ -1,7 +1,7 @@
 ---
 title: RadProgressBar Object
-page_title: RadProgressBar Object | RadProgressBar for ASP.NET AJAX Documentation
-description: RadProgressBar Object
+page_title: RadProgressBar Object - RadProgressBar
+description: Check our Web Forms article about RadProgressBar Object.
 slug: progressbar/client-side-programming/radprogressbar-object
 tags: radprogressbar,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnClientUpdated
-page_title: OnClientUpdated | RadNotification for ASP.NET AJAX Documentation
-description: OnClientUpdated
+page_title: OnClientUpdated - RadNotification
+description: Check our Web Forms article about OnClientUpdated.
 slug: notification/client-side-programming/events/onclientupdated
 tags: onclientupdated
 published: True

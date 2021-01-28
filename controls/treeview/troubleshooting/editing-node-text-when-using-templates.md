@@ -1,7 +1,7 @@
 ---
 title: Editing Node Text When Using Templates
-page_title: Editing Node Text When Using Templates | RadTreeView for ASP.NET AJAX Documentation
-description: Editing Node Text When Using Templates
+page_title: Editing Node Text When Using Templates - RadTreeView
+description: Check our Web Forms article about Editing Node Text When Using Templates.
 slug: treeview/troubleshooting/editing-node-text-when-using-templates
 tags: editing,node,text,when,using,templates
 published: True

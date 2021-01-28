@@ -1,7 +1,7 @@
 ---
 title: Using NoRecordsTemplate
-page_title: Using NoRecordsTemplate | RadGrid for ASP.NET AJAX Documentation
-description: Using NoRecordsTemplate
+page_title: Using NoRecordsTemplate - RadGrid
+description: Check our Web Forms article about Using NoRecordsTemplate.
 slug: grid/data-binding/using-norecordstemplate
 tags: using,norecordstemplate
 published: True

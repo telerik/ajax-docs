@@ -1,7 +1,7 @@
 ---
 title: Series Items
-page_title: Series Items | RadChart for ASP.NET AJAX Documentation
-description: Series Items
+page_title: Series Items - RadChart
+description: Check our Web Forms article about Series Items.
 slug: chart/understanding-radchart-elements/series-items
 tags: series,items
 published: True

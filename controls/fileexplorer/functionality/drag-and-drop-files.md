@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop Files
-page_title: Drag and Drop Files | RadFileExplorer for ASP.NET AJAX Documentation
-description: Drag and Drop Files
+page_title: Drag and Drop Files - RadFileExplorer
+description: Check our Web Forms article about Drag and Drop Files.
 slug: fileexplorer/functionality/drag-and-drop-files
 tags: drag,and,dorp,files
 published: True

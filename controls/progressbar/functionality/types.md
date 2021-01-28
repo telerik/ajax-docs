@@ -1,7 +1,7 @@
 ---
 title: Types
-page_title: Types | RadProgressBar for ASP.NET AJAX Documentation
-description: Types
+page_title: Types - RadProgressBar
+description: Check our Web Forms article about Types.
 slug: progressbar/functionality/types
 tags: types
 published: True

@@ -1,7 +1,7 @@
 ---
 title: My CSS Rule Does Not Apply
-page_title: My CSS Rule Does Not Apply | RadMenu for ASP.NET AJAX Documentation
-description: My CSS Rule Does Not Apply
+page_title: My CSS Rule Does Not Apply - RadMenu
+description: Check our Web Forms article about My CSS Rule Does Not Apply.
 slug: menu/troubleshooting/my-css-rule-does-not-apply
 tags: my,css,rule,does,not,apply
 published: True

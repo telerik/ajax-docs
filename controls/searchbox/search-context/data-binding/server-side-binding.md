@@ -1,7 +1,7 @@
 ---
 title: Server-side Binding
-page_title: Server-side Binding | RadSearchBox for ASP.NET AJAX Documentation
-description: Server-side Binding
+page_title: Server-side Binding - RadSearchBox
+description: Check our Web Forms article about Server-side Binding.
 slug: searchbox/search-context/data-binding/server-side-binding
 tags: server-side,binding
 published: True

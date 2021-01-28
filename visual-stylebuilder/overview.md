@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Visual StyleBuilder Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Visual StyleBuilder Overview
+description: Check our Web Forms article about Overview.
 slug: introduction/visual-stylebuilder/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: CheckBox Support
-page_title: CheckBox Support | RadComboBox for ASP.NET AJAX Documentation
-description: CheckBox Support
+page_title: CheckBox Support - RadComboBox
+description: Check our Web Forms article about CheckBox Support.
 slug: combobox/functionality/checkbox-support
 tags: checkbox,support
 published: True

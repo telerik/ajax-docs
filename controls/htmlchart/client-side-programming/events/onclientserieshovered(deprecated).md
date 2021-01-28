@@ -1,7 +1,7 @@
 ---
 title: OnClientSeriesHovered(deprecated)
-page_title: OnClientSeriesHovered(deprecated) | RadHtmlChart for ASP.NET AJAX Documentation
-description: OnClientSeriesHovered(deprecated)
+page_title: OnClientSeriesHovered(deprecated) - RadHtmlChart
+description: Check our Web Forms article about OnClientSeriesHovered(deprecated).
 slug: htmlchart/client-side-programming/events/onclientserieshovered(deprecated)
 tags: onclientserieshovered(deprecated)
 published: True

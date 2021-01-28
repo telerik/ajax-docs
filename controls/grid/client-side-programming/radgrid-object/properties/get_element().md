@@ -1,7 +1,7 @@
 ---
 title: get_element()
-page_title: get_element() | RadGrid for ASP.NET AJAX Documentation
-description: get_element()
+page_title: get_element() - RadGrid
+description: Check our Web Forms article about get_element().
 slug: grid/client-side-programming/radgrid-object/properties/get_element()
 tags: get_element()
 published: True

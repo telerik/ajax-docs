@@ -1,7 +1,7 @@
 ---
 title: RibbonBarGalleryCategory
-page_title: RibbonBarGalleryCategory | RadRibbonBar for ASP.NET AJAX Documentation
-description: RibbonBarGalleryCategory
+page_title: RibbonBarGalleryCategory - RadRibbonBar
+description: Check our Web Forms article about RibbonBarGalleryCategory.
 slug: ribbonbar/radribbonbar-items/ribbonbargallery/ribbonbargallerycategory
 tags: ribbonbargallerycategory
 published: True

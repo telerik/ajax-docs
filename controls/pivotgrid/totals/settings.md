@@ -1,7 +1,7 @@
 ---
 title: Settings
-page_title: Settings | RadPivotGrid for ASP.NET AJAX Documentation
-description: Settings
+page_title: Settings - RadPivotGrid
+description: Check our Web Forms article about Settings.
 slug: pivotgrid/totals/settings
 tags: settings
 published: True

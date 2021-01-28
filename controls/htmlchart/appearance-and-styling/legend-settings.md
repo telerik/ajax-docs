@@ -1,7 +1,7 @@
 ---
 title: Legend Settings
-page_title: Legend Settings | RadHtmlChart for ASP.NET AJAX Documentation
-description: Legend Settings
+page_title: Legend Settings - RadHtmlChart
+description: Check our Web Forms article about Legend Settings.
 slug: htmlchart/appearance-and-styling/legend-settings
 tags: legend,settings
 published: True

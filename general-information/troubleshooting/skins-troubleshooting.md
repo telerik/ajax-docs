@@ -1,7 +1,7 @@
 ---
 title: Skins Troubleshooting
-page_title: Skins Troubleshooting | UI for ASP.NET AJAX Documentation
-description: Skins Troubleshooting
+page_title: Skins Troubleshooting
+description: Check our Web Forms article about Skins Troubleshooting.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting
 tags: skins,troubleshooting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Adding Images to Items
-page_title: Adding Images to Items | RadMenu for ASP.NET AJAX Documentation
-description: Adding Images to Items
+page_title: Adding Images to Items - RadMenu
+description: Check our Web Forms article about Adding Images to Items.
 slug: menu/appearance-and-styling/adding-images-to-items
 tags: adding,images,to,items
 published: True

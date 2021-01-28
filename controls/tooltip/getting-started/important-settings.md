@@ -1,7 +1,7 @@
 ---
 title: Important Settings
-page_title: Important Settings | RadTooltip for ASP.NET AJAX Documentation
-description: Important Settings
+page_title: Important Settings - RadTooltip
+description: Check our Web Forms article about Important Settings.
 slug: tooltip/getting-started/important-settings
 tags: important,settings
 published: True

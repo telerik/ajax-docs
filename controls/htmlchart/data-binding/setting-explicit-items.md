@@ -1,7 +1,7 @@
 ---
 title: Setting Explicit Items
-page_title: Setting Explicit Items | RadHtmlChart for ASP.NET AJAX Documentation
-description: Setting Explicit Items
+page_title: Setting Explicit Items - RadHtmlChart
+description: Check our Web Forms article about Setting Explicit Items.
 slug: htmlchart/data-binding/setting-explicit-items
 tags: setting,explicit,items
 published: True

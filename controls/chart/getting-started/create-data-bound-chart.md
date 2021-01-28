@@ -1,7 +1,7 @@
 ---
 title: Create a Data Bound Chart
-page_title: Create a Data Bound Chart | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: Create a Data Bound Chart
+description: Check our Web Forms article about Overview.
 slug: chart/getting-started/create-data-bound-chart
 tags: Create, Data Bound, Chart, getting started
 published: True

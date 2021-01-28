@@ -1,7 +1,7 @@
 ---
 title: Uploading Large Files
-page_title: Uploading Large Files | RadCloudUpload for ASP.NET AJAX Documentation
-description: Uploading Large Files
+page_title: Uploading Large Files - RadCloudUpload
+description: Check our Web Forms article about Uploading Large Files.
 slug: cloudupload/how-to/uploading-large-files
 tags: uploading,large,files
 published: True

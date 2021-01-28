@@ -1,7 +1,7 @@
 ---
 title: Popup Edit Form
-page_title: Popup Edit Form | RadGrid for ASP.NET AJAX Documentation
-description: Popup Edit Form
+page_title: Popup Edit Form - RadGrid
+description: Check our Web Forms article about Popup Edit Form.
 slug: grid/data-editing/edit-mode/popup-edit-form
 tags: popup,edit,form
 published: True

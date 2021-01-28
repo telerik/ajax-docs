@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Client-side Events Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Events
+page_title: Client-side Events Overview - RadTreeList
+description: Check our Web Forms article about Events.
 slug: treelist/client-side-programming/Events/Overview
 tags: events
 published: True

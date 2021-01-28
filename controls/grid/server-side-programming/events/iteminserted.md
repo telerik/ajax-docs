@@ -1,7 +1,7 @@
 ---
 title: ItemInserted
-page_title: ItemInserted Event - RadGrid | UI for ASP.NET AJAX
-description: ItemInserted Event
+page_title: ItemInserted Event - RadGrid
+description: Check our Web Forms article about ItemInserted Event.
 slug: grid/server-side-programming/events/iteminserted
 published: True
 position: 50

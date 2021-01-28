@@ -1,7 +1,7 @@
 ---
 title: NodeDrop
-page_title: NodeDrop | RadOrgChart for ASP.NET AJAX Documentation
-description: NodeDrop
+page_title: NodeDrop - RadOrgChart
+description: Check our Web Forms article about NodeDrop.
 slug: orgchart/server-side-programming/events/nodedrop
 tags: nodedrop
 published: True

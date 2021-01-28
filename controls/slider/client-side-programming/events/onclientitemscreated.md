@@ -1,7 +1,7 @@
 ---
 title: OnClientItemsCreated
-page_title: OnClientItemsCreated | RadSlider for ASP.NET AJAX Documentation
-description: OnClientItemsCreated
+page_title: OnClientItemsCreated - RadSlider
+description: Check our Web Forms article about OnClientItemsCreated.
 slug: slider/client-side-programming/events/onclientitemscreated
 tags: onclientitemscreated
 published: True

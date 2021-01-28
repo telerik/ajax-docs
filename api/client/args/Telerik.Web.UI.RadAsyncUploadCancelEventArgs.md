@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
 slug: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
 ---

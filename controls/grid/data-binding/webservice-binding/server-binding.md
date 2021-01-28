@@ -1,7 +1,7 @@
 ---
 title: Server Binding
-page_title: Server Binding | RadGrid for ASP.NET AJAX Documentation
-description: Server Binding
+page_title: Server Binding - RadGrid
+description: Check our Web Forms article about Server Binding.
 slug: grid/data-binding/webservice-binding/server-binding
 previous_url: controls/grid/data-binding/understanding-data-binding/webservice-binding/server-binding
 tags: server,binding

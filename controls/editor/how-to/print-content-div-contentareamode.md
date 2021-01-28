@@ -1,7 +1,7 @@
 ---
 title: Print Content when using Div ContentAreaMode
-page_title: Print Content when using Div ContentAreaMode | RadEditor for ASP.NET AJAX Documentation
-description: This is a custom solution for printing the content of RadEditor with Dov ContentAreaMode
+page_title: Print Content when using Div ContentAreaMode - RadEditor
+description: Check our Web Forms article about This is a custom solution for printing the content of RadEditor with Dov ContentAreaMode.
 slug: editor/how-to/print-content-div-contentareamode
 tags: custom, solution, print, content, HTML, editor, content area, mode, contentareamode, div
 published: True

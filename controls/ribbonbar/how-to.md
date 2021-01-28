@@ -1,7 +1,7 @@
 ---
 title: How To
-page_title: How To | RadRibbonBar for ASP.NET AJAX Documentation
-description: How To
+page_title: How To - RadRibbonBar
+description: Check our Web Forms article about How To.
 slug: ribbonbar/how-to
 tags: application,scenarios
 published: True

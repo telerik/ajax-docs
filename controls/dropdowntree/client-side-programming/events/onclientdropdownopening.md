@@ -1,7 +1,7 @@
 ---
 title: OnClientDropDownOpening
-page_title: OnClientDropDownOpening | RadDropDownTree for ASP.NET AJAX Documentation
-description: OnClientDropDownOpening
+page_title: OnClientDropDownOpening - RadDropDownTree
+description: Check our Web Forms article about OnClientDropDownOpening.
 slug: dropdowntree/client-side-programming/events/onclientdropdownopening
 tags: onclientdropdownopening
 published: True

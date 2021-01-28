@@ -1,7 +1,7 @@
 ---
 title: NavigationNodeCollection Object
-page_title: NavigationNodeCollection Object | RadNavigation for ASP.NET AJAX Documentation
-description: NavigationNodeCollection Object
+page_title: NavigationNodeCollection Object - RadNavigation
+description: Check our Web Forms article about NavigationNodeCollection Object.
 slug: navigation/client-side-programming/objects/navigationnodecollection-object
 tags: navigationnodecollection,object
 published: True

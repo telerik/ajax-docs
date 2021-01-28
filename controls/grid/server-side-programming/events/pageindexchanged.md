@@ -1,7 +1,7 @@
 ---
 title: PageIndexChanged
-page_title: PageIndexChanged Event - RadGrid | UI for ASP.NET AJAX
-description: PageIndexChanged Event
+page_title: PageIndexChanged Event - RadGrid
+description: Check our Web Forms article about PageIndexChanged Event.
 slug: grid/server-side-programming/events/pageindexchanged
 published: True
 position: 50

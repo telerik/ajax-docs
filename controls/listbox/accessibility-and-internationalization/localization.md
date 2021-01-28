@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadListBox for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadListBox
+description: Check our Web Forms article about Localization.
 slug: listbox/accessibility-and-internationalization/localization
 tags: localization
 published: True

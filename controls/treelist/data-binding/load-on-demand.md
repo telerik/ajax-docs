@@ -1,7 +1,7 @@
 ---
 title: Load On Demand
-page_title: Load On Demand | RadTreeList for ASP.NET AJAX Documentation
-description: Load On Demand
+page_title: Load On Demand - RadTreeList
+description: Check our Web Forms article about Load On Demand.
 slug: treelist/data-binding/load-on-demand
 tags: load,on,demand
 published: True

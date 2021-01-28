@@ -1,7 +1,7 @@
 ---
 title: OnPdfExporting
-page_title: OnPdfExporting Event - RadGrid | UI for ASP.NET AJAX
-description: OnPdfExporting Event
+page_title: OnPdfExporting Event - RadGrid
+description: Check our Web Forms article about OnPdfExporting Event.
 slug: grid/server-side-programming/events/onpdfexporting
 published: True
 position: 50

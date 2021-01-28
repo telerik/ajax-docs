@@ -1,7 +1,7 @@
 ---
 title: OnClientUndocking
-page_title: OnClientUndocking | RadSplitter for ASP.NET AJAX Documentation
-description: OnClientUndocking
+page_title: OnClientUndocking - RadSplitter
+description: Check our Web Forms article about OnClientUndocking.
 slug: splitter/client-side-programming/events/onclientundocking
 tags: onclientundocking
 published: True

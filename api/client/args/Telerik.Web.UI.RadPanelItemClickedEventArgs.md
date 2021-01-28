@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadPanelItemClickedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadPanelItemClickedEventArgs
 slug: Telerik.Web.UI.RadPanelItemClickedEventArgs
 ---

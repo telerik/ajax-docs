@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Events Overview | RadLinkButton for ASP.NET AJAX Documentation
-description: Events Overview
+page_title: Events Overview - RadLinkButton
+description: Check our Web Forms article about Events Overview.
 slug: linkbutton/client-side-programming/events/overview
 tags: events,overview
 published: True

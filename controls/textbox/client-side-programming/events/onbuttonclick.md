@@ -1,7 +1,7 @@
 ---
 title: OnButtonClick
-page_title: OnButtonClick | RadTextBox for ASP.NET AJAX Documentation
-description: OnButtonClick
+page_title: OnButtonClick - RadTextBox
+description: Check our Web Forms article about OnButtonClick.
 slug: radtextbox/client-side-programming/events/onbuttonclick
 tags: onbuttonclick
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GridColumnSwappedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GridColumnSwappedEventArgs
 slug: Telerik.Web.UI.GridColumnSwappedEventArgs
 ---

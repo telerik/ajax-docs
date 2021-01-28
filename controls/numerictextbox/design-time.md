@@ -1,7 +1,7 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Smart Tag
+page_title: Smart Tag - RadNumericTextBox
+description: Check our Web Forms article about Smart Tag.
 slug: numerictextbox/design-time
 tags: smart,tag
 published: True

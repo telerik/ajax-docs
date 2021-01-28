@@ -1,7 +1,7 @@
 ---
 title: How to Resize Images
-page_title: How to Resize Images | RadUpload for ASP.NET AJAX Documentation
-description: How to Resize Images
+page_title: How to Resize Images - RadUpload
+description: Check our Web Forms article about How to Resize Images.
 slug: upload/how-to/how-to-resize-images
 tags: how,to,resize,images
 published: True

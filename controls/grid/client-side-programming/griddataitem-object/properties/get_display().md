@@ -1,7 +1,7 @@
 ---
 title: get_display()
-page_title: get_display() | RadGrid for ASP.NET AJAX Documentation
-description: get_display()
+page_title: get_display() - RadGrid
+description: Check our Web Forms article about get_display().
 slug: grid/client-side-programming/griddataitem-object/properties/get_display()
 tags: get_display()
 published: True

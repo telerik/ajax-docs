@@ -1,7 +1,7 @@
 ---
 title: Center the Loading Panel on the Screen
-page_title: Center the Loading Panel on the Screen | RadAjax for ASP.NET AJAX Documentation
-description: Center the Loading Panel on the Screen
+page_title: Center the Loading Panel on the Screen
+description: Check our Web Forms article about Center the Loading Panel on the Screen.
 slug: ajaxloadingpanel/how-to/center-the-loading-panel-on-the-screen
 previous_url: ajax/radajaxloadingpanel/how-to/center-the-loading-panel-on-the-screen
 tags: center,the,loading,panel,on,the,screen

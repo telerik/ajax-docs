@@ -1,7 +1,7 @@
 ---
 title: pasteHtml
-page_title: pasteHtml | RadEditor for ASP.NET AJAX Documentation
-description: pasteHtml
+page_title: pasteHtml - RadEditor
+description: Check our Web Forms article about pasteHtml.
 slug: editor/client-side-programming/methods/pastehtml
 tags: pastehtml
 published: True

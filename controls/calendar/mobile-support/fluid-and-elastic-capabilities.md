@@ -1,7 +1,7 @@
 ---
 title: Fluid and Elastic Capabilities
-page_title: Fluid and Elastic Capabilities | RadCalendar for ASP.NET AJAX Documentation
-description: Fluid and Elastic Capabilities
+page_title: Fluid and Elastic Capabilities - RadCalendar
+description: Check our Web Forms article about Fluid and Elastic Capabilities.
 slug: calendar/mobile-support/fluid-and-elastic-capabilities
 tags: fluid,and,elastic,capabilities
 published: True

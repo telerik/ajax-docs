@@ -1,7 +1,7 @@
 ---
 title: Title Bar Template
-page_title: Title Bar Template | RadDock for ASP.NET AJAX Documentation
-description: Title Bar Template
+page_title: Title Bar Template - RadDock
+description: Check our Web Forms article about Title Bar Template.
 slug: dock/structure/dock/title-bar-template
 tags: title,bar,template
 published: True

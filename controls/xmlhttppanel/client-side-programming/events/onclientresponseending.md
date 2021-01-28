@@ -1,7 +1,7 @@
 ---
 title: OnClientResponseEnding
-page_title: OnClientResponseEnding | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: OnClientResponseEnding
+page_title: OnClientResponseEnding - RadXmlHttpPanel
+description: Check our Web Forms article about OnClientResponseEnding.
 slug: xmlhttppanel/client-side-programming/events/onclientresponseending
 tags: onclientresponseending
 published: True

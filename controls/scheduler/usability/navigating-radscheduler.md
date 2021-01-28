@@ -1,7 +1,7 @@
 ---
 title: Navigating RadScheduler
-page_title: Navigating RadScheduler | RadScheduler for ASP.NET AJAX Documentation
-description: Navigating RadScheduler
+page_title: Navigating RadScheduler - RadScheduler
+description: Check our Web Forms article about Navigating RadScheduler.
 slug: scheduler/usability/navigating-radscheduler
 tags: navigating,radscheduler
 published: True

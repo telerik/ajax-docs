@@ -1,7 +1,7 @@
 ---
 title: Update Initiator's UpdatePanels only
-page_title: Update Initiator's UpdatePanels only | RadAjax for ASP.NET AJAX Documentation
-description: Update Initiator's UpdatePanels only
+page_title: Update Initiator's UpdatePanels only
+description: Check our Web Forms article about Update Initiator's UpdatePanels only.
 slug: ajaxmanager/how-to/update-initiator's-updatepanels-only
 previous_url: ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only
 tags: update,initiator's,updatepanels,only

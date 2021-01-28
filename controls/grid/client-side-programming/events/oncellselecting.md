@@ -1,7 +1,7 @@
 ---
 title: OnCellSelecting
-page_title: OnCellSelecting | RadGrid for ASP.NET AJAX Documentation
-description: OnCellSelecting
+page_title: OnCellSelecting - RadGrid
+description: Check our Web Forms article about OnCellSelecting.
 slug: grid/client-side-programming/events/oncellselecting
 tags: oncellselecting
 published: True

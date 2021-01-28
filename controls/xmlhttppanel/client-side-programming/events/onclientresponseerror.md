@@ -1,7 +1,7 @@
 ---
 title: OnClientResponseError
-page_title: OnClientResponseError | RadXmlHttpPanel for ASP.NET AJAX Documentation
-description: OnClientResponseError
+page_title: OnClientResponseError - RadXmlHttpPanel
+description: Check our Web Forms article about OnClientResponseError.
 slug: xmlhttppanel/client-side-programming/events/onclientresponseerror
 tags: onclientresponseerror
 published: True

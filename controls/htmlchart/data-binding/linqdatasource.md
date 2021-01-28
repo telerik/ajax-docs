@@ -1,7 +1,7 @@
 ---
 title: LinqDataSource
-page_title: LinqDataSource | RadHtmlChart for ASP.NET AJAX Documentation
-description: LinqDataSource
+page_title: LinqDataSource - RadHtmlChart
+description: Check our Web Forms article about LinqDataSource.
 slug: htmlchart/data-binding/linqdatasource
 tags: linqdatasource
 published: True

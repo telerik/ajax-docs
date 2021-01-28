@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadMultiSelect for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadMultiSelect
+description: Check our Web Forms article about ItemDataBound.
 slug: multiselect/server-side-programming/events/itemdatabound
 tags: itemdatabound
 published: True

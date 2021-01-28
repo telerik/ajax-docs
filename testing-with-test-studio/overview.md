@@ -1,7 +1,7 @@
 ---
 title: Overview 
-page_title: Testing with Test Studio Overview  | UI for ASP.NET AJAX Documentation
-description: Overview 
+page_title: Testing with Test Studio Overview
+description: Check our Web Forms article about Overview.
 slug: introduction/testing-with-test-studio/overview
 tags: overview,
 published: True

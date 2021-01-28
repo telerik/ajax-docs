@@ -1,7 +1,7 @@
 ---
 title: WCF Service Binding
 page_title: WCF Service Binding - RadTreeView
-description: WCF Service Binding
+description: Check our Web Forms article about WCF Service Binding.
 slug: treeview/load-on-demand/wcf-service-binding
 tags: wcf,service,binding
 published: True

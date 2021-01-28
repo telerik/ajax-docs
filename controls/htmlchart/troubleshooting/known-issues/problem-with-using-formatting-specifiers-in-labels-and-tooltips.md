@@ -1,7 +1,7 @@
 ---
 title: Problem with Using Formatting Specifiers in Labels and Tooltips
-page_title: Problem with Using Formatting Specifiers in Labels and Tooltips | RadHtmlChart for ASP.NET AJAX Documentation
-description: Problem with Using Formatting Specifiers in Labels and Tooltips
+page_title: Problem with Using Formatting Specifiers in Labels and Tooltips - RadHtmlChart
+description: Check our Web Forms article about Problem with Using Formatting Specifiers in Labels and Tooltips.
 slug: htmlchart/troubleshooting/known-issues/problem-with-using-formatting-specifiers-in-labels-and-tooltips
 tags: problem,with,using,formatting,specifiers,in,labels,and,tooltips
 published: True

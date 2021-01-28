@@ -1,7 +1,7 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadTreeList for ASP.NET AJAX Documentation
-description: OnKeyPress Event
+page_title: OnKeyPress - RadTreeList
+description: Check our Web Forms article about OnKeyPress Event.
 slug: treelist/client-side-programming/Events/OnKeyPress
 tags: events,OnKeyPress
 published: True

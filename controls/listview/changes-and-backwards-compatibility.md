@@ -1,7 +1,7 @@
 ---
 title: Changes and Backwards Compatibility
-page_title: Changes and Backwards Compatibility | RadListView for ASP.NET AJAX Documentation
-description: Changes and Backwards Compatibility
+page_title: Changes and Backwards Compatibility - RadListView
+description: Check our Web Forms article about Changes and Backwards Compatibility.
 slug: listview/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
 published: True

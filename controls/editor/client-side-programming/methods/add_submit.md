@@ -1,7 +1,7 @@
 ---
 title: add_submit
-page_title: add_submit | RadEditor for ASP.NET AJAX Documentation
-description: add_submit
+page_title: add_submit - RadEditor
+description: Check our Web Forms article about add_submit.
 slug: editor/client-side-programming/methods/add_submit
 tags: add_submit
 published: True

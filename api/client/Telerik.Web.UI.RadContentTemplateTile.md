@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadContentTemplateTile
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadContentTemplateTile
 slug: Telerik.Web.UI.RadContentTemplateTile
 ---

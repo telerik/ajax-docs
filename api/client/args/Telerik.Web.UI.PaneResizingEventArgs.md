@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.PaneResizingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.PaneResizingEventArgs
 slug: Telerik.Web.UI.PaneResizingEventArgs
 ---

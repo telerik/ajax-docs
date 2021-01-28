@@ -1,7 +1,7 @@
 ---
 title: Adding Buttons
-page_title: Adding Buttons | RadNumericTextBox for ASP.NET AJAX Documentation
-description: Adding Buttons
+page_title: Adding Buttons - RadNumericTextBox
+description: Check our Web Forms article about Adding Buttons.
 slug: numerictextbox/features/adding-buttons
 tags: adding,buttons
 published: True

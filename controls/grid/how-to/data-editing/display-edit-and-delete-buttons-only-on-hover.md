@@ -1,7 +1,7 @@
 ---
 title: Display Edit and Delete buttons only on hover
-page_title: Display Edit and Delete buttons only on hover | RadGrid for ASP.NET AJAX Documentation
-description: Display edit and delete buttons only on hover
+page_title: Display Edit and Delete buttons only on hover - RadGrid
+description: Check our Web Forms article about Display edit and delete buttons only on hover.
 slug: grid/how-to/data-editing/display-edit-and-delete-buttons-only-on-hover
 previous_url: controls/grid/data-editing/how-to/display-edit-and-delete-buttons-only-on-hover
 tags: edit,delete,buttons

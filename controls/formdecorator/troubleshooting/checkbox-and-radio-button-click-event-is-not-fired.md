@@ -1,7 +1,7 @@
 ---
 title: Checkbox And Radio Button Click Event Is Not Fired
-page_title: Checkbox And Radio Button Click Event Is Not Fired | RadFormDecorator for ASP.NET AJAX Documentation
-description: Checkbox And Radio Button Click Event Is Not Fired
+page_title: Checkbox And Radio Button Click Event Is Not Fired - RadFormDecorator
+description: Check our Web Forms article about Checkbox And Radio Button Click Event Is Not Fired.
 slug: formdecorator/troubleshooting/checkbox-and-radio-button-click-event-is-not-fired
 tags: checkbox,and,radio,button,click,event,is,not,fired
 published: True

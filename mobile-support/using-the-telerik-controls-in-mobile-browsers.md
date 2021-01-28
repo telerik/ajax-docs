@@ -1,7 +1,7 @@
 ---
 title: Using the Telerik Controls in Mobile Browsers
-page_title: Using the Telerik Controls in Mobile Browsers | UI for ASP.NET AJAX Documentation
-description: Using the Telerik Controls in Mobile Browsers
+page_title: Using the Telerik Controls in Mobile Browsers
+description: Check our Web Forms article about Using the Telerik Controls in Mobile Browsers.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/using-the-telerik-controls-in-mobile-browsers
 tags: using,the,telerik,controls,in,mobile,browsers
 published: False

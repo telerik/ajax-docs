@@ -1,7 +1,7 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadProgressBar for ASP.NET AJAX Documentation
-description: OnLoad
+page_title: OnLoad - RadProgressBar
+description: Check our Web Forms article about OnLoad.
 slug: progressbar/client-side-programming/events/onload
 tags: onload
 published: True

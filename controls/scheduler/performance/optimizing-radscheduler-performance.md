@@ -1,7 +1,7 @@
 ---
 title: Optimizing RadScheduler Performance
-page_title: Optimizing RadScheduler Performance | RadScheduler for ASP.NET AJAX Documentation
-description: Optimizing RadScheduler Performance
+page_title: Optimizing RadScheduler Performance - RadScheduler
+description: Check our Web Forms article about Optimizing RadScheduler Performance.
 slug: scheduler/performance/optimizing-radscheduler-performance
 tags: performance,optimizing
 published: True

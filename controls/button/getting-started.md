@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadButton for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadButton
+description: Check our Web Forms article about Getting Started.
 slug: button/getting-started
 tags: getting,started
 published: True

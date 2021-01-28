@@ -1,7 +1,7 @@
 ---
 title: Connect to Chatbot Service via Chat Agent
-page_title: Connect to Chatbot Service via Chat Agent| RadChat for ASP.NET AJAX Documentation
-description: Connect to Chatbot Service via Chat Agent
+page_title: Connect to Chatbot Service via Chat Agent- RadChat
+description: Check our Web Forms article about Connect to Chatbot Service via Chat Agent.
 slug: chat/how-to/configure-chat-agent
 tags: connect, chatbot, service, configure, agent
 published: True

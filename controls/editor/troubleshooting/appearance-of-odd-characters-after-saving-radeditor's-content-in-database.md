@@ -1,7 +1,7 @@
 ---
 title: Appearance of Odd Characters After Saving RadEditor's Content In Database
-page_title: Appearance of Odd Characters After Saving RadEditor's Content In Database | RadEditor for ASP.NET AJAX Documentation
-description: Appearance of Odd Characters After Saving RadEditor's Content In Database
+page_title: Appearance of Odd Characters After Saving RadEditor's Content In Database - RadEditor
+description: Check our Web Forms article about Appearance of Odd Characters After Saving RadEditor's Content In Database.
 slug: editor/troubleshooting/appearance-of-odd-characters-after-saving-radeditor's-content-in-database
 tags: appearance,of,odd,characters,after,saving,radeditor's,content,in,database
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Disable Plugins
-page_title: Disable Plugins | RadAsyncUpload for ASP.NET AJAX Documentation
-description: Disable Plugins
+page_title: Disable Plugins - RadAsyncUpload
+description: Check our Web Forms article about Disable Plugins.
 slug: asyncupload/functionality/disable-plugins
 tags: disable,plugins
 published: True

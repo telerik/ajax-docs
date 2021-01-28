@@ -1,7 +1,7 @@
 ---
 title: QRCode
-page_title: QRCode | RadBarcode for ASP.NET AJAX Documentation
-description: QRCode
+page_title: QRCode - RadBarcode
+description: Check our Web Forms article about QRCode.
 slug: barcode/qrcode
 tags: qrcode
 published: True

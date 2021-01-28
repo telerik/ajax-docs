@@ -1,7 +1,7 @@
 ---
 title: Other Resources
-page_title: Other Resources | RadGrid for ASP.NET AJAX Documentation
-description: Other Resources
+page_title: Other Resources - RadGrid
+description: Check our Web Forms article about Other Resources.
 slug: grid/how-to/Other-resources
 tags: codelibrary, howto
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Displaying and Editing Appointments
-page_title: Displaying and Editing Appointments | UI for ASP.NET AJAX Documentation
-description: Displaying and Editing Appointments
+page_title: Displaying and Editing Appointments
+description: Check our Web Forms article about Displaying and Editing Appointments.
 slug: sharepoint/2010/radscheduler-web-part/displaying-and-editing-appointments
 tags: displaying,and,editing,appointments
 published: True

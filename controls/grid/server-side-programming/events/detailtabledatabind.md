@@ -1,7 +1,7 @@
 ---
 title: DetailTableDataBind
-page_title: DetailTableDataBind Event - RadGrid | UI for ASP.NET AJAX
-description: DetailTableDataBind Event
+page_title: DetailTableDataBind Event - RadGrid
+description: Check our Web Forms article about DetailTableDataBind Event.
 slug: grid/server-side-programming/events/detailtabledatabind
 published: True
 position: 50

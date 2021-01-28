@@ -1,7 +1,7 @@
 ---
 title: OnClientDialogLoaded
-page_title: OnClientDialogLoaded | RadImageEditor for ASP.NET AJAX Documentation
-description: OnClientDialogLoaded
+page_title: OnClientDialogLoaded - RadImageEditor
+description: Check our Web Forms article about OnClientDialogLoaded.
 slug: imageeditor/client-side-programming/events/onclientdialogloaded
 tags: onclientdialogloaded
 published: True

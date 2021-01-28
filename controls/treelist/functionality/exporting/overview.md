@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Exporting Overview | RadTreeList for ASP.NET AJAX Documentation
-description: Overview
+page_title: Exporting Overview - RadTreeList
+description: Check our Web Forms article about Overview.
 slug: treelist/functionality/exporting/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Skins
-page_title: Skins | RadTabStrip for ASP.NET AJAX Documentation
-description: Skins
+page_title: Skins - RadTabStrip
+description: Check our Web Forms article about Skins.
 slug: tabstrip/appearance-and-styling/skins
 tags: skins
 published: True

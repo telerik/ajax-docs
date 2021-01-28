@@ -1,7 +1,7 @@
 ---
 title: What is New
-page_title: What is New | RadTreeView for ASP.NET AJAX Documentation
-description: What is New
+page_title: What is New - RadTreeView
+description: Check our Web Forms article about What is New.
 slug: treeview/what-is-new
 tags: what,is,new
 published: False

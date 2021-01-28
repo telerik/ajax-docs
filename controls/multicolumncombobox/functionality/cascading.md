@@ -1,7 +1,7 @@
 ---
 title: Cascading
-page_title: Cascading | RadMultiColumnComboBox for ASP.NET AJAX Documentation
-description: Cascading
+page_title: Cascading - RadMultiColumnComboBox
+description: Check our Web Forms article about Cascading.
 slug: multicolumncombobox/functionality/cascading
 tags: cascading
 published: True

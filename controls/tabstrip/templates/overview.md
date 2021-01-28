@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Templates Overview | RadTabStrip for ASP.NET AJAX Documentation
-description: Overview
+page_title: Templates Overview - RadTabStrip
+description: Check our Web Forms article about Overview.
 slug: tabstrip/templates/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Styling
-page_title: Styling | RadPivotGrid for ASP.NET AJAX Documentation
-description: Styling
+page_title: Styling - RadPivotGrid
+description: Check our Web Forms article about Styling.
 slug: pivotgrid/appearance-and-styling/styling
 tags: styling
 published: True

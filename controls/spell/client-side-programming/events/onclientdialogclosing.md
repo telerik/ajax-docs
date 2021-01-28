@@ -1,7 +1,7 @@
 ---
 title: OnClientDialogClosing
-page_title: OnClientDialogClosing | RadSpell for ASP.NET AJAX Documentation
-description: OnClientDialogClosing
+page_title: OnClientDialogClosing - RadSpell
+description: Check our Web Forms article about OnClientDialogClosing.
 slug: spell/client-side-programming/events/onclientdialogclosing
 tags: onclientdialogclosing
 published: True

@@ -1,7 +1,7 @@
 ---
 title: OnToolClick
-page_title: OnToolClick | RadChat for ASP.NET AJAX Documentation
-description: OnToolClick
+page_title: OnToolClick - RadChat
+description: Check our Web Forms article about OnToolClick.
 slug: chat/client-side-programming/events/ontoolclick
 tags: ontoolclick
 published: True

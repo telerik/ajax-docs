@@ -1,6 +1,6 @@
 ---
 title: Hide Add/Edit Columns in RadTreeList Export to Excel
-description: Learn how to hide the add or edit column text in a RadTreeList export to Excel scenario
+description: Learn how to hide the add or edit column text in a RadTreeList export to Excel scenario.
 type: how-to
 page_title: Export to Excel in RadTreeList and Hide Add/Edit Columns
 slug: treelist-hide-add-edit-columns-on-export-to-excel

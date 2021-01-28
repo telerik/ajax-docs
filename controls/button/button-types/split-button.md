@@ -1,7 +1,7 @@
 ---
 title: Split Button
-page_title: Split Button | RadButton for ASP.NET AJAX Documentation
-description: Split Button
+page_title: Split Button - RadButton
+description: Check our Web Forms article about Split Button.
 slug: button/button-types/split-button
 tags: split,button
 published: True

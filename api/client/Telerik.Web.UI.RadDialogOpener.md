@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadDialogOpener
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadDialogOpener
 slug: Telerik.Web.UI.RadDialogOpener
 ---

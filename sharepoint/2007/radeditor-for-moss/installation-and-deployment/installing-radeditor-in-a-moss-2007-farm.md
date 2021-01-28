@@ -1,7 +1,7 @@
 ---
 title: Installing RadEditor in a MOSS 2007 farm
-page_title: Installing RadEditor in a MOSS 2007 farm | UI for ASP.NET AJAX Documentation
-description: Installing RadEditor in a MOSS 2007 farm
+page_title: Installing RadEditor in a MOSS 2007 farm
+description: Check our Web Forms article about Installing RadEditor in a MOSS 2007 farm.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-moss-2007-farm
 tags: installing,radeditor,in,a,moss,2007,farm
 published: True

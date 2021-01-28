@@ -1,6 +1,6 @@
 ---
 title: Change shared tooltip client-side template of RadHtmlChart
-description: See how to control the Tooltip appearance by defining a custom common tooltip client template
+description: See how to control the Tooltip appearance by defining a custom common tooltip client template.
 type: how-to
 page_title: Modify built-in shared tooltip template of BoxPlotChart
 slug: htmlchart-custom-shared-tooltip-template

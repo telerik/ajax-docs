@@ -1,7 +1,7 @@
 ---
 title: RadLabel Object
-page_title: RadLabel Server-side Object | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadLabel Server-side Object
+description: Check our Web Forms article about Overview.
 slug: label/server-side-programming/radlabel-object
 tags: radlabel,server-side,object
 published: True

@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadRadioButton
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadRadioButton
 slug: Telerik.Web.UI.RadRadioButton
 ---

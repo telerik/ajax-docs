@@ -1,7 +1,7 @@
 ---
 title: Migrating from RadComboBox Classic to ASP.NET AJAX version
-page_title: Migrating from RadComboBox Classic to ASP.NET AJAX version | RadComboBox for ASP.NET AJAX Documentation
-description: Migrating from RadComboBox Classic to ASP.NET AJAX version
+page_title: Migrating from RadComboBox Classic to ASP.NET AJAX version - RadComboBox
+description: Check our Web Forms article about Migrating from RadComboBox Classic to ASP.NET AJAX version.
 slug: combobox/migrating-from-radcombobox-classic-to-asp.net-ajax-version
 tags: migrating,from,radcombobox,classic,to,asp.net,ajax,version
 published: True

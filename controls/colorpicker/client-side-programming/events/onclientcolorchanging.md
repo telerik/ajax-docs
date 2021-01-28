@@ -1,7 +1,7 @@
 ---
 title: OnClientColorChanging
-page_title: OnClientColorChanging | RadColorPicker for ASP.NET AJAX Documentation
-description: OnClientColorChanging
+page_title: OnClientColorChanging - RadColorPicker
+description: Check our Web Forms article about OnClientColorChanging.
 slug: colorpicker/client-side-programming/events/onclientcolorchanging
 tags: onclientcolorchanging
 published: True

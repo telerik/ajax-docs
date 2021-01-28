@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
-page_title: Troubleshooting | RadCloudUpload for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET CloudUpload Overview
+page_title: Troubleshooting - RadCloudUpload
+description: Check our Web Forms article about Telerik's ASP.NET CloudUpload Overview.
 slug: cloudupload/troubleshooting
 tags: troubleshooting, cloudupload, asp.net
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Yammer Specifics
-page_title: Yammer Specifics | RadSocialShare for ASP.NET AJAX Documentation
-description: Yammer Specifics
+page_title: Yammer Specifics - RadSocialShare
+description: Check our Web Forms article about Yammer Specifics.
 slug: socialshare/troubleshooting/yammer-specifics
 tags: yammer,specifics
 published: True

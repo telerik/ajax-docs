@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
 slug: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
 ---

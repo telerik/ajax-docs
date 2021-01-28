@@ -1,7 +1,7 @@
 ---
 title: TouchScrollExtender
-page_title: TouchScrollExtender | UI for ASP.NET AJAX Documentation
-description: TouchScrollExtender
+page_title: TouchScrollExtender
+description: Check our Web Forms article about TouchScrollExtender.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools/touchscrollextender
 tags: touchscrollextender
 published: True

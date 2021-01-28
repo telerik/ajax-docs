@@ -1,7 +1,7 @@
 ---
 title: UI Interaction Controls
-page_title: UI Interaction Controls | RadMap for ASP.NET AJAX Documentation
-description: UI Interaction Controls
+page_title: UI Interaction Controls - RadMap
+description: Check our Web Forms article about UI Interaction Controls.
 slug: map/functionality/ui-interaction-controls
 tags: ui,interaction,controls
 published: True

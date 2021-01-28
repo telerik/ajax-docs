@@ -1,7 +1,7 @@
 ---
 title: Introduction
-page_title: Welcome to UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
-description: Welcome to UI for ASP.NET AJAX
+page_title: The Most Complete ASP.NET AJAX Documentation
+description: Telerik UI for ASP.NET AJAX components suite includes more than 120 versatile & optimized ASP.NET Web Forms components that help you build high-quality apps.
 slug: introduction/introduction
 tags: introduction
 published: True

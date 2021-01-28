@@ -1,7 +1,7 @@
 ---
 title: Cascading Delete in Hierarchical Grid
-page_title: Cascading Delete in Hierarchical Grid | RadGrid for ASP.NET AJAX Documentation
-description: Cascading Delete in Hierarchical Grid
+page_title: Cascading Delete in Hierarchical Grid - RadGrid
+description: Check our Web Forms article about Cascading Delete in Hierarchical Grid.
 slug: grid/data-editing/delete-records/cascading-delete-in-hierarchical-grid
 tags: cascading,delete,in,hierarchical,grid
 published: True

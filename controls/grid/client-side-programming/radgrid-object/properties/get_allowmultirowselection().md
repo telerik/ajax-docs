@@ -1,7 +1,7 @@
 ---
 title: get_allowMultiRowSelection()
-page_title: get_allowMultiRowSelection() | RadGrid for ASP.NET AJAX Documentation
-description: get_allowMultiRowSelection()
+page_title: get_allowMultiRowSelection() - RadGrid
+description: Check our Web Forms article about get_allowMultiRowSelection().
 slug: grid/client-side-programming/radgrid-object/properties/get_allowmultirowselection()
 tags: get_allowmultirowselection()
 published: True

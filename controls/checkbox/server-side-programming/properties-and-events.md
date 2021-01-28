@@ -1,7 +1,7 @@
 ---
 title: Properties and Events
-page_title: Properties and Events | RadCheckBox for ASP.NET AJAX Documentation
-description: Properties and Events
+page_title: Properties and Events - RadCheckBox
+description: Check our Web Forms article about Properties and Events.
 slug: checkbox/server-side-programming/properties-and-events
 tags: properties,and,events
 published: True

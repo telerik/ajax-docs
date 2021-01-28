@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.CloudUploadFileUploadingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CloudUploadFileUploadingEventArgs
 slug: Telerik.Web.UI.CloudUploadFileUploadingEventArgs
 ---

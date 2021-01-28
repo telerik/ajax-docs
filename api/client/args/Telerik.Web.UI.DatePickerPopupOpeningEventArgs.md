@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DatePickerPopupOpeningEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DatePickerPopupOpeningEventArgs
 slug: Telerik.Web.UI.DatePickerPopupOpeningEventArgs
 ---

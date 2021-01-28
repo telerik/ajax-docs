@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.SchedulerWebServiceSettings
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.SchedulerWebServiceSettings
 slug: Telerik.Web.UI.SchedulerWebServiceSettings
 ---

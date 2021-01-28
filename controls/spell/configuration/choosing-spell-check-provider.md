@@ -1,7 +1,7 @@
 ---
 title: Choosing Spell Check Provider
-page_title: Choosing Spell Check Provider | RadSpell for ASP.NET AJAX Documentation
-description: Choosing Spell Check Provider
+page_title: Choosing Spell Check Provider - RadSpell
+description: Check our Web Forms article about Choosing Spell Check Provider.
 slug: spell/configuration/choosing-spell-check-provider
 tags: choosing,spell,check,provider
 published: True

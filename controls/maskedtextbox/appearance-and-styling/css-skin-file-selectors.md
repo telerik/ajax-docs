@@ -1,7 +1,7 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | RadMaskedTextBox for ASP.NET AJAX Documentation
-description: CSS Skin File Selectors
+page_title: CSS Skin File Selectors - RadMaskedTextBox
+description: Check our Web Forms article about CSS Skin File Selectors.
 slug: radmaskedtextbox/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
 published: True

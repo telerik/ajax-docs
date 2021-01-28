@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Events | RadCloudUpload for ASP.NET AJAX Documentation
-description: Events
+page_title: Events - RadCloudUpload
+description: Check our Web Forms article about Events.
 slug: cloudupload/client-side-programming/events
 tags: events
 published: True

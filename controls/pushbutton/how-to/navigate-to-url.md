@@ -1,7 +1,7 @@
 ---
 title: Navigate to Url
-page_title: Navigate to Url | RadPushButton for ASP.NET AJAX Documentation
-description: Navigate to Url
+page_title: Navigate to Url - RadPushButton
+description: Check our Web Forms article about Navigate to Url.
 slug: pushbutton/how-to/navigate-to-url-with-pushbutton
 tags: navigate, to, url,with,pushbutton
 published: True

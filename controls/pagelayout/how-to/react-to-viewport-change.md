@@ -1,7 +1,7 @@
 ---
 title: React to Viewport Change
-page_title: React to Viewport Change | RadPageLayout for ASP.NET AJAX Documentation
-description: React to Viewport Change
+page_title: React to Viewport Change - RadPageLayout
+description: Check our Web Forms article about React to Viewport Change.
 slug: pagelayout/how-to/react-to-viewport-change
 tags: react,to,viewport,change
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Client-side Selection
-page_title: Client-side Selection | RadTreeList for ASP.NET AJAX Documentation
-description: Client-side Selection
+page_title: Client-side Selection - RadTreeList
+description: Check our Web Forms article about Client-side Selection.
 slug: treelist/functionality/selecting/client-side-selection
 tags: client-side,selection
 published: True

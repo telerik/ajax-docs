@@ -1,7 +1,7 @@
 ---
 title: Animation Duration
-page_title: Animation Duration | RadSlider for ASP.NET AJAX Documentation
-description: Animation Duration
+page_title: Animation Duration - RadSlider
+description: Check our Web Forms article about Animation Duration.
 slug: slider/getting-started/animation-duration
 tags: animation,duration
 published: True

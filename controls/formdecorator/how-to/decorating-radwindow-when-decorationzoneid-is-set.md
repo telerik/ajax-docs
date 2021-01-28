@@ -1,7 +1,7 @@
 ---
 title: Decorating RadWindow When DecorationZoneID Is Set
-page_title: Decorating RadWindow When DecorationZoneID Is Set | RadFormDecorator for ASP.NET AJAX Documentation
-description: Decorating RadWindow When DecorationZoneID Is Set
+page_title: Decorating RadWindow When DecorationZoneID Is Set - RadFormDecorator
+description: Check our Web Forms article about Decorating RadWindow When DecorationZoneID Is Set.
 slug: formdecorator/how-to/decorating-radwindow-when-decorationzoneid-is-set
 tags: decorating,radwindow,when,decorationzoneid,is,set
 published: True

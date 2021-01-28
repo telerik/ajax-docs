@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | RadTimePicker for ASP.NET AJAX Documentation
-description: ItemDataBound
+page_title: ItemDataBound - RadTimePicker
+description: Check our Web Forms article about ItemDataBound.
 slug: timepicker/server-side-programming/events/itemdatabound
 tags: itemdatabound
 published: True

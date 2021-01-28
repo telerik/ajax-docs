@@ -1,7 +1,7 @@
 ---
 title: Word Format (HTML-Based)
-page_title: Word Format (HTML-Based) | RadGrid for ASP.NET AJAX Documentation
-description: Word Format (HTML-Based)
+page_title: Word Format (HTML-Based) - RadGrid
+description: Check our Web Forms article about Word Format (HTML-Based).
 slug: grid/functionality/exporting/export-formats/word-and-excel-export/word-format-(html-based)
 tags: word,format,(html-based)
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Embed RadHtmlChart in PDF on the Server-side
-page_title: Embed RadHtmlChart in PDF on the Server-side | RadHtmlChart for ASP.NET AJAX Documentation
-description: Embed RadHtmlChart in PDF on the Server-side
+page_title: Embed RadHtmlChart in PDF on the Server-side - RadHtmlChart
+description: Check our Web Forms article about Embed RadHtmlChart in PDF on the Server-side.
 slug: htmlchart/how-to/export-to-pdf-on-the-server
 tags: create,line,chart,with,multiple,colors
 published: True

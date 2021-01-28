@@ -1,7 +1,7 @@
 ---
 title: Working with Items at Server-Side
-page_title: Working with Items at Server-Side | RadComboBox for ASP.NET AJAX Documentation
-description: Working with Items at Server-Side
+page_title: Working with Items at Server-Side - RadComboBox
+description: Check our Web Forms article about Working with Items at Server-Side.
 slug: combobox/radcombobox-items/working-with-items-at-server-side
 tags: working,with,items,at,server-side
 published: True

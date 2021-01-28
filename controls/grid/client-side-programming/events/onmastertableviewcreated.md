@@ -1,7 +1,7 @@
 ---
 title: OnMasterTableViewCreated
-page_title: OnMasterTableViewCreated | RadGrid for ASP.NET AJAX Documentation
-description: OnMasterTableViewCreated
+page_title: OnMasterTableViewCreated - RadGrid
+description: Check our Web Forms article about OnMasterTableViewCreated.
 slug: grid/client-side-programming/events/onmastertableviewcreated
 tags: onmastertableviewcreated
 published: True

@@ -1,7 +1,7 @@
 ---
 title: PreviousButtonClick
-page_title: PreviousButtonClick | RadWizard for ASP.NET AJAX Documentation
-description: PreviousButtonClick
+page_title: PreviousButtonClick - RadWizard
+description: Check our Web Forms article about PreviousButtonClick.
 slug: wizard/server-side-programming/events/previousbuttonclick
 tags: previousbuttonclick
 published: True

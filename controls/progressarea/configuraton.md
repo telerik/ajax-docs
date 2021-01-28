@@ -1,7 +1,7 @@
 ---
 title: Configuraton
-page_title: Configuraton | RadProgressArea for ASP.NET AJAX Documentation
-description: Configuraton
+page_title: Configuraton - RadProgressArea
+description: Check our Web Forms article about Configuraton.
 slug: progressarea/configuraton
 tags: configuraton
 published: True

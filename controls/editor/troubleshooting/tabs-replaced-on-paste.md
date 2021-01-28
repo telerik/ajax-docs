@@ -1,7 +1,7 @@
 ---
 title: TABs Replaced on Paste
-page_title: TABs Replaced on Paste | RadEditor for ASP.NET AJAX Documentation
-description: TABs Replaced on Paste
+page_title: TABs Replaced on Paste - RadEditor
+description: Check our Web Forms article about TABs Replaced on Paste.
 slug: editor/troubleshooting/tabs-replaced-on-paste
 tags: tabs,replaced,on,paste
 published: True

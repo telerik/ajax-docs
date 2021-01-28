@@ -1,7 +1,7 @@
 ---
 title: Resize the Dropdown Header and Pop-up Size
-page_title: Resize the Dropdown Header and Pop-up Size | RadEditor for ASP.NET AJAX Documentation
-description: Resize the Dropdown Header and Pop-up Size
+page_title: Resize the Dropdown Header and Pop-up Size - RadEditor
+description: Check our Web Forms article about Resize the Dropdown Header and Pop-up Size.
 slug: editor/functionality/toolbars/dropdowns/examples/resize-the-dropdown-header-and-pop-up-size
 tags: resize,the,dropdown,header,and,pop-up,size
 published: True

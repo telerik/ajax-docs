@@ -1,7 +1,7 @@
 ---
 title: Custom Paging
-page_title: Custom Paging | RadListView for ASP.NET AJAX Documentation
-description: Custom Paging
+page_title: Custom Paging - RadListView
+description: Check our Web Forms article about Custom Paging.
 slug: listview/fuctionality/paging/custom-paging
 tags: custom,paging
 published: True

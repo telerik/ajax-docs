@@ -1,7 +1,7 @@
 ---
 title: Using the TargetControls Collection
-page_title: Using the TargetControls Collection | RadTooltip for ASP.NET AJAX Documentation
-description: Using the TargetControls Collection
+page_title: Using the TargetControls Collection - RadTooltip
+description: Check our Web Forms article about Using the TargetControls Collection.
 slug: tooltip/radtooltipmanager/using-the-targetcontrols-collection
 tags: using,the,targetcontrols,collection
 published: True

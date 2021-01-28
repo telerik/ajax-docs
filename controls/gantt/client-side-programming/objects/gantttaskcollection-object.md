@@ -1,7 +1,7 @@
 ---
 title: GanttTaskCollection Object
-page_title: GanttTaskCollection Object | RadGantt for ASP.NET AJAX Documentation
-description: GanttTaskCollection Object
+page_title: GanttTaskCollection Object - RadGantt
+description: Check our Web Forms article about GanttTaskCollection Object.
 slug: gantt/client-side-programming/objects/gantttaskcollection-object
 tags: gantttaskcollection,object
 published: True

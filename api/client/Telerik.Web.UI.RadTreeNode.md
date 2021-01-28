@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadTreeNode
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadTreeNode
 slug: Telerik.Web.UI.RadTreeNode
 ---

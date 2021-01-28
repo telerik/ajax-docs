@@ -1,7 +1,7 @@
 ---
 title: Calling the Predefined Dialogs from the Server Methods
-page_title: Calling the Predefined Dialogs from the Server Methods | RadWindow for ASP.NET AJAX Documentation
-description: Calling the Predefined Dialogs from the Server Methods
+page_title: Calling the Predefined Dialogs from the Server Methods - RadWindow
+description: Check our Web Forms article about Calling the Predefined Dialogs from the Server Methods.
 slug: window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods
 tags: calling,the,predefined,dialogs,from,the,server,methods
 published: True

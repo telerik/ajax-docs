@@ -1,7 +1,7 @@
 ---
 title: RadButton Known Issues in IE6 and IE7
-page_title: RadButton Known Issues in IE6 and IE7 | RadButton for ASP.NET AJAX Documentation
-description: RadButton Known Issues in IE6 and IE7
+page_title: RadButton Known Issues in IE6 and IE7 - RadButton
+description: Check our Web Forms article about RadButton Known Issues in IE6 and IE7.
 slug: button/troubleshooting/radbutton-known-issues-in-ie6-and-ie7
 tags: radbutton,known,issues,in,ie6,and,ie7
 published: True

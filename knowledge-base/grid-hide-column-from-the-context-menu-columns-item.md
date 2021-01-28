@@ -1,6 +1,6 @@
 ---
 title: How To Hide Column from the Grid Context Menu
-description: Dynamically hide a Column from the Grid Context Menu Columns Item
+description: Dynamically hide a Column from the Grid Context Menu Columns Item.
 type: how-to
 page_title: Dynamically Hide Column from the Grid Context Menu
 slug: how-to-hide-column-from-the-grid-context-menu-columns-item

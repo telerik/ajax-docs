@@ -1,7 +1,7 @@
 ---
 title: How to Change the Dialog Templates
-page_title: How to Change the Dialog Templates | RadWindow for ASP.NET AJAX Documentation
-description: How to Change the Dialog Templates
+page_title: How to Change the Dialog Templates - RadWindow
+description: Check our Web Forms article about How to Change the Dialog Templates.
 slug: window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates
 tags: how,to,change,the,dialog,templates
 published: True

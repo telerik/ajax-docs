@@ -1,7 +1,7 @@
 ---
 title: OnViewChanged
-page_title: OnViewChanged | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: OnViewChanged
+page_title: OnViewChanged - RadMonthYearPicker
+description: Check our Web Forms article about OnViewChanged.
 slug: monthyearpicker/client-side-programming/events/onviewchanged
 tags: onviewchanged
 published: True

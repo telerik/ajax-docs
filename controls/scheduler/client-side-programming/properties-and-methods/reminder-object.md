@@ -1,7 +1,7 @@
 ---
 title: Reminder Object
-page_title: Reminder Object | RadScheduler for ASP.NET AJAX Documentation
-description: Reminder Object
+page_title: Reminder Object - RadScheduler
+description: Check our Web Forms article about Reminder Object.
 slug: scheduler/client-side-programming/properties-and-methods/reminder-object
 tags: reminder,object
 published: True

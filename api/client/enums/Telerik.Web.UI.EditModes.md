@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.EditModes
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.EditModes
 slug: Telerik.Web.UI.EditModes
 ---

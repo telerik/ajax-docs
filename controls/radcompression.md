@@ -1,7 +1,7 @@
 ---
 title: Compression
-page_title: RadCompression | UI for ASP.NET AJAX Documentation
-description: RadCompression
+page_title: RadCompression
+description: Check our Web Forms article about RadCompression.
 slug: controls/radcompression
 tags: radcompression
 published: True

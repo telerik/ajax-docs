@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.GanttResourceCollection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.GanttResourceCollection
 slug: Telerik.Web.UI.GanttResourceCollection
 ---

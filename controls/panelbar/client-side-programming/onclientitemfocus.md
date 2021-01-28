@@ -1,7 +1,7 @@
 ---
 title: OnClientItemFocus
-page_title: OnClientItemFocus | RadPanelBar for ASP.NET AJAX Documentation
-description: OnClientItemFocus
+page_title: OnClientItemFocus - RadPanelBar
+description: Check our Web Forms article about OnClientItemFocus.
 slug: panelbar/client-side-programming/onclientitemfocus
 tags: onclientitemfocus
 published: True

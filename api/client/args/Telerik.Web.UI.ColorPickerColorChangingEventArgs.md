@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.ColorPickerColorChangingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.ColorPickerColorChangingEventArgs
 slug: Telerik.Web.UI.ColorPickerColorChangingEventArgs
 ---

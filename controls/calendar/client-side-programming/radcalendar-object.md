@@ -1,7 +1,7 @@
 ---
 title: RadCalendar object
-page_title: RadCalendar object | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendar object
+page_title: RadCalendar object - RadCalendar
+description: Check our Web Forms article about RadCalendar object.
 slug: calendar/client-side-programming/radcalendar-object
 tags: radcalendar,object
 published: True

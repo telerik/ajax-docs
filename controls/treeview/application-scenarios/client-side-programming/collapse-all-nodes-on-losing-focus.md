@@ -1,7 +1,7 @@
 ---
 title: Collapse All Nodes on Losing Focus
-page_title: Collapse All Nodes on Losing Focus | RadTreeView for ASP.NET AJAX Documentation
-description: Collapse All Nodes on Losing Focus
+page_title: Collapse All Nodes on Losing Focus - RadTreeView
+description: Check our Web Forms article about Collapse All Nodes on Losing Focus.
 slug: treeview/application-scenarios/client-side-programming/collapse-all-nodes-on-losing-focus
 tags: collapse,all,nodes,on,losing,focus
 published: True

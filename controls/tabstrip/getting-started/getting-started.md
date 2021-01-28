@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadTabStrip for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadTabStrip
+description: Check our Web Forms article about Getting Started.
 slug: tabstrip/getting-started/getting-started
 tags: getting,started
 published: True

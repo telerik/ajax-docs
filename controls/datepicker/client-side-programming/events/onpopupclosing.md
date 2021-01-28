@@ -1,7 +1,7 @@
 ---
 title: OnPopupClosing
-page_title: OnPopupClosing | RadDatePicker for ASP.NET AJAX Documentation
-description: OnPopupClosing
+page_title: OnPopupClosing - RadDatePicker
+description: Check our Web Forms article about OnPopupClosing.
 slug: datepicker/client-side-programming/events/onpopupclosing
 tags: onpopupclosing
 published: True

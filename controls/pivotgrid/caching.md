@@ -1,7 +1,7 @@
 ---
 title: Caching
-page_title: Caching | RadPivotGrid for ASP.NET AJAX Documentation
-description: Caching
+page_title: Caching - RadPivotGrid
+description: Check our Web Forms article about Caching.
 slug: pivotgrid/caching
 tags: caching
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | RadHtmlChart for ASP.NET AJAX Documentation
-description: Known Limitations
+page_title: Known Limitations - RadHtmlChart
+description: Check our Web Forms article about Known Limitations.
 slug: htmlchart/troubleshooting/known-issues/known-limitations
 tags: known,limitations
 published: True

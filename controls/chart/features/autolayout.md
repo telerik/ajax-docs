@@ -1,7 +1,7 @@
 ---
 title: AutoLayout
-page_title: AutoLayout | RadChart for ASP.NET AJAX Documentation
-description: AutoLayout
+page_title: AutoLayout - RadChart
+description: Check our Web Forms article about AutoLayout.
 slug: chart/features/autolayout
 tags: autolayout
 published: True

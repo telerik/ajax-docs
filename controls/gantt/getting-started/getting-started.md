@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started | RadGantt for ASP.NET AJAX Documentation
-description: Getting Started
+page_title: Getting Started - RadGantt
+description: Check our Web Forms article about Getting Started.
 slug: gantt/getting-started-/getting-started
 tags: getting,started
 published: False

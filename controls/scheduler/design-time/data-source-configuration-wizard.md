@@ -1,7 +1,7 @@
 ---
 title: Data Source Configuration Wizard
-page_title: Data Source Configuration Wizard | RadScheduler for ASP.NET AJAX Documentation
-description: Data Source Configuration Wizard
+page_title: Data Source Configuration Wizard - RadScheduler
+description: Check our Web Forms article about Data Source Configuration Wizard.
 slug: scheduler/design-time/data-source-configuration-wizard
 tags: data,source,configuration,wizard
 published: True

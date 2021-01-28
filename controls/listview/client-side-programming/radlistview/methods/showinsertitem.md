@@ -1,7 +1,7 @@
 ---
 title: showInsertItem
-page_title: showInsertItem | RadListView for ASP.NET AJAX Documentation
-description: showInsertItem
+page_title: showInsertItem - RadListView
+description: Check our Web Forms article about showInsertItem.
 slug: listview/client-side-programming/radlistview/methods/showinsertitem
 tags: showinsertitem
 published: True

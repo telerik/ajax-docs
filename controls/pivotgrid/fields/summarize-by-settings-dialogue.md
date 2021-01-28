@@ -1,7 +1,7 @@
 ---
 title: Summarize By Settings Dialogue
-page_title: Summarize By Settings Dialogue | RadPivotGrid for ASP.NET AJAX Documentation
-description: Summarize By Settings Dialogue
+page_title: Summarize By Settings Dialogue - RadPivotGrid
+description: Check our Web Forms article about Summarize By Settings Dialogue.
 slug: pivotgrid/fields/summarize-by-settings-dialogue
 tags: summarize,by,settings,dialogue
 published: True

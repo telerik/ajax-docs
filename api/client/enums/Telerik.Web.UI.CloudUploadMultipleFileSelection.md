@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.CloudUploadMultipleFileSelection
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.CloudUploadMultipleFileSelection
 slug: Telerik.Web.UI.CloudUploadMultipleFileSelection
 ---

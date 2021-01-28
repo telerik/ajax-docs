@@ -1,8 +1,8 @@
 ---
 title: Selected Values of Controls when used in Templates
-description: Instructions for binding the Selected Values, Text, Date of different controls when they are used in Templates
+description: Instructions for binding the Selected Values, Text, Date of different controls when they are used in Templates.
 type: how-to
-page_title: Selected Values of Controls when used in Templates - Common | Telerik UI for ASP.NET AJAX
+page_title: Selected Values of Controls when used in Templates - Common
 slug: common-selected-values-for-controls-when-used-in-templates
 ticketid: 1457466
 res_type: kb

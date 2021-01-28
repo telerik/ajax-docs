@@ -1,7 +1,7 @@
 ---
 title: Localization
-page_title: Localization | RadSocialShare for ASP.NET AJAX Documentation
-description: Localization
+page_title: Localization - RadSocialShare
+description: Check our Web Forms article about Localization.
 slug: socialshare/accessibility-and-internationalization/localization
 tags: localization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Styles
-page_title: RadCard Styles | UI for ASP.NET AJAX Documentation
-description: Styles
+page_title: RadCard Styles
+description: Check our Web Forms article about Styles.
 slug: card/styles
 tags: styles
 published: True

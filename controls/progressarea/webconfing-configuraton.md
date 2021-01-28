@@ -1,7 +1,7 @@
 ---
 title: WebConfig Configuraton
-page_title: WebConfing Configuraton | RadProgressArea for ASP.NET AJAX Documentation
-description: WebConfing Configuraton
+page_title: WebConfing Configuraton - RadProgressArea
+description: Check our Web Forms article about WebConfing Configuraton.
 slug: progressarea/webconfing-configuraton
 tags: webconfing,configuraton
 published: True

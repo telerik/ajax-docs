@@ -1,7 +1,7 @@
 ---
 title: PageSizeChanged
-page_title: PageSizeChanged Event - RadGrid | UI for ASP.NET AJAX
-description: PageSizeChanged Event
+page_title: PageSizeChanged Event - RadGrid
+description: Check our Web Forms article about PageSizeChanged Event.
 slug: grid/server-side-programming/events/pagesizechanged
 published: True
 position: 50

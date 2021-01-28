@@ -1,7 +1,7 @@
 ---
 title: Client-Side
-page_title: Client-Side | RadTreeView for ASP.NET AJAX Documentation
-description: Client-Side
+page_title: Client-Side - RadTreeView
+description: Check our Web Forms article about Client-Side.
 slug: treeview/checkboxes/client-side
 tags: client-side
 published: True

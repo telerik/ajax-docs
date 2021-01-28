@@ -1,7 +1,7 @@
 ---
 title: Client-side specifics
-page_title: Tri-Sate client-side specifics | RadTreeView for ASP.NET AJAX Documentation
-description: Tri-Sate client-side specifics
+page_title: Tri-Sate client-side specifics - RadTreeView
+description: Check our Web Forms article about Tri-Sate client-side specifics.
 slug: treeview/checkboxes/tri-state/tri-sate-client-side-specifics
 tags: tri-sate,client-side,specifics
 published: True

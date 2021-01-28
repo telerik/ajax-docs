@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.DropDownTreeEntryAddingEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.DropDownTreeEntryAddingEventArgs
 slug: Telerik.Web.UI.DropDownTreeEntryAddingEventArgs
 ---

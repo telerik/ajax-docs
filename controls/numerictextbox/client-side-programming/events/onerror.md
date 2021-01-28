@@ -1,7 +1,7 @@
 ---
 title: OnError
-page_title: OnError | RadNumericTextBox for ASP.NET AJAX Documentation
-description: OnError
+page_title: OnError - RadNumericTextBox
+description: Check our Web Forms article about OnError.
 slug: numerictextbox/client-side-programming/events/onerror
 tags: onerror
 published: True

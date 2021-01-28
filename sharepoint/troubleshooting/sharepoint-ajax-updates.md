@@ -1,7 +1,7 @@
 ---
 title: Using AJAX in SharePoint WebParts
-page_title: Using AJAX in SharePoint WebParts | UI for ASP.NET AJAX Documentation
-description: Using AJAX in SharePoint WebParts
+page_title: Using AJAX in SharePoint WebParts
+description: Check our Web Forms article about Using AJAX in SharePoint WebParts.
 slug: sharepoint/troubleshooting/sharepoint-ajax-updates
 previous_url: controls/ajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts
 tags: sharepoint,ajax

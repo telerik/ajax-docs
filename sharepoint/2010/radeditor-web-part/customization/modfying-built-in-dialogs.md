@@ -1,7 +1,7 @@
 ---
 title: Modfying Built-in Dialogs
-page_title: Modfying Built-in Dialogs | UI for ASP.NET AJAX Documentation
-description: Modfying Built-in Dialogs
+page_title: Modfying Built-in Dialogs
+description: Check our Web Forms article about Modfying Built-in Dialogs.
 slug: sharepoint/2010/radeditor-web-part/customization/modfying-built-in-dialogs
 tags: modfying,built-in,dialogs
 published: True

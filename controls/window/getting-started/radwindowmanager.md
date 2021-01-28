@@ -1,7 +1,7 @@
 ---
 title: RadWindowManager
-page_title: RadWindowManager | RadWindow for ASP.NET AJAX Documentation
-description: RadWindowManager
+page_title: RadWindowManager - RadWindow
+description: Check our Web Forms article about RadWindowManager.
 slug: window/getting-started/radwindowmanager
 tags: radwindowmanager
 published: True

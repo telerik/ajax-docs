@@ -1,7 +1,7 @@
 ---
 title: Responding to Server Events
-page_title: Responding to Server Events | RadChart for ASP.NET AJAX Documentation
-description: Responding to Server Events
+page_title: Responding to Server Events - RadChart
+description: Check our Web Forms article about Responding to Server Events.
 slug: chart/advanced-topics/responding-to-server-events
 tags: responding,to,server,events
 published: True

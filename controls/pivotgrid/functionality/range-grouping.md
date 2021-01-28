@@ -1,7 +1,7 @@
 ---
 title: Range Grouping
-page_title: Range Grouping | RadPivotGrid for ASP.NET AJAX Documentation
-description: Range Grouping
+page_title: Range Grouping - RadPivotGrid
+description: Check our Web Forms article about Range Grouping.
 slug: pivotgrid/functionality/range-grouping
 tags: range,grouping
 published: True

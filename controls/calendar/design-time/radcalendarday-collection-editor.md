@@ -1,7 +1,7 @@
 ---
 title: RadCalendarDay Collection Editor
-page_title: RadCalendarDay Collection Editor | RadCalendar for ASP.NET AJAX Documentation
-description: RadCalendarDay Collection Editor
+page_title: RadCalendarDay Collection Editor - RadCalendar
+description: Check our Web Forms article about RadCalendarDay Collection Editor.
 slug: calendar/design-time/radcalendarday-collection-editor
 tags: radcalendarday,collection,editor
 published: True

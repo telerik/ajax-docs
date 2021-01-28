@@ -1,7 +1,7 @@
 ---
 title: Design Time
-page_title: Design Time | RadDataForm for ASP.NET AJAX 
-description: Design Time
+page_title: Design Time - RadDataForm
+description: Check our Web Forms article about Design Time.
 slug: dataform/design-time
 tags: design,time
 published: True

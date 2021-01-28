@@ -1,6 +1,5 @@
 ---
 title: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
-title_prefix: Client-side API Reference
 description: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 slug: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 ---

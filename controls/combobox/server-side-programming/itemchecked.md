@@ -1,7 +1,7 @@
 ---
 title: ItemChecked
-page_title: ItemChecked | RadComboBox for ASP.NET AJAX Documentation
-description: ItemChecked
+page_title: ItemChecked - RadComboBox
+description: Check our Web Forms article about ItemChecked.
 slug: combobox/server-side-programming/itemchecked
 tags: itemchecked
 published: True

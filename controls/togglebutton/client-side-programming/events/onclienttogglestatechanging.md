@@ -1,7 +1,7 @@
 ---
 title: OnClientToggleStateChanging
-page_title: OnClientToggleStateChanging | RadToggleButton for ASP.NET AJAX Documentation
-description: OnClientToggleStateChanging
+page_title: OnClientToggleStateChanging - RadToggleButton
+description: Check our Web Forms article about OnClientToggleStateChanging.
 slug: togglebutton/client-side-programming/events/onclienttogglestatechanging
 tags: OnClientToggleStateChanging, toggleStateChanging, state, RadToggleButton, event, client-side
 published: True

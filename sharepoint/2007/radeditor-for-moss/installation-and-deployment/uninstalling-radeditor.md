@@ -1,7 +1,7 @@
 ---
 title: Uninstalling RadEditor
-page_title: Uninstalling RadEditor | UI for ASP.NET AJAX Documentation
-description: Uninstalling RadEditor
+page_title: Uninstalling RadEditor
+description: Check our Web Forms article about Uninstalling RadEditor.
 slug: sharepoint/2007/radeditor-for-moss/installation-and-deployment/uninstalling-radeditor
 tags: uninstalling,radeditor
 published: True

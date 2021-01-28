@@ -1,7 +1,7 @@
 ---
 title: Background and Plot Areas
-page_title: Background and Plot Areas | RadChart for ASP.NET AJAX Documentation
-description: Background and Plot Areas
+page_title: Background and Plot Areas - RadChart
+description: Check our Web Forms article about Background and Plot Areas.
 slug: chart/understanding-radchart-elements/background-and-plot-areas
 tags: background,and,plot,areas
 published: True

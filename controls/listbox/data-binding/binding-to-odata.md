@@ -1,7 +1,7 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | RadListBox for ASP.NET AJAX Documentation
-description: Binding to OData
+page_title: Binding to OData - RadListBox
+description: Check our Web Forms article about Binding to OData.
 slug: listbox/data-binding/binding-to-odata
 tags: binding,to,odata
 published: True

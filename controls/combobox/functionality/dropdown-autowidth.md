@@ -1,7 +1,7 @@
 ---
 title: Dropdown AutoWidth
-page_title: Dropdown AutoWidth | RadComboBox for ASP.NET AJAX Documentation
-description: Dropdown AutoWidth
+page_title: Dropdown AutoWidth - RadComboBox
+description: Check our Web Forms article about Dropdown AutoWidth.
 slug: combobox/functionality/dropdown-autowidth
 tags: dropdown,autowidth
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Documents
-page_title: Documents | RadEditor for ASP.NET AJAX Documentation
-description: Documents
+page_title: Documents - RadEditor
+description: Check our Web Forms article about Documents.
 slug: editor/functionality/dialogs/file-browser-dialogs/documents
 tags: documents
 published: True

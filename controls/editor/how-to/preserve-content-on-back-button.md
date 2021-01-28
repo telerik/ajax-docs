@@ -1,7 +1,7 @@
 ---
 title: Preserve the Content in RadEditor when Using Back Button
-page_title:  Preserve the Content in RadEditor when Using Back Button | RadEditor for ASP.NET AJAX Documentation
-description:  You can learn here possible solutions to preserve content when user has navigated to a page with RadEditor by using the browser's back button.
+page_title: Preserve the Content in RadEditor when Using Back Button - RadEditor
+description: Check our Web Forms article about You can learn here possible solutions to preserve content when user has navigated to a page with RadEditor by using the browser's back button.
 slug: editor/how-to/preserve-content-on-back-button
 tags: back, history, forward, previous, browser, content, preserve, hidden, textarea, form
 published: True

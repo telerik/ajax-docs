@@ -1,7 +1,7 @@
 ---
 title: Loading Items from XML
-page_title: Loading Items from XML | RadListBox for ASP.NET AJAX Documentation
-description: Loading Items from XML
+page_title: Loading Items from XML - RadListBox
+description: Check our Web Forms article about Loading Items from XML.
 slug: listbox/radlistbox-items/loading-items-from-xml
 tags: loading,items,from,xml
 published: True
