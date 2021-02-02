@@ -188,19 +188,19 @@ Main benefits of using RadListView:
     - [Custom Layouts]({%slug listview/layouts/custom%})
 
 * **DataBinding capabilities**
-    - [Server-side Binding](%slug listview/data-binding/server-side/simple-vs-advanced%)
-    - [Client-side Binding](%slug listview/data-binding/client-side/overview%)
+    - [Server-side Binding]({%slug listview/data-binding/server-side/simple-vs-advanced%})
+    - [Client-side Binding]({%slug listview/data-binding/client-side/overview%})
 
 
 **List of key features you can find below:**
-- [Sorting](%slug listview/fuctionality/sorting/overview%)
-- [Paging](%slug listview/fuctionality/paging/integrated-paging%)
-- [Selecting](%slug listview/fuctionality/selecting/items%)
-- [Grouping](%slug listview/fuctionality/grouping/overview%)
-- [Filtering](%slug listview/fuctionality/filtering/overview%)
-- [Create/Read/Update/Delete (CRUD) operations](%slug listview/data-editing/automatic-crud-operations%)
-- [Skins](%slug listview/appearance-and-styling/skins%)
-- [Edit form Validation](%slug listview/data-editing/flexible-validation%)
+- [Sorting]({%slug listview/fuctionality/sorting/overview%})
+- [Paging]({%slug listview/fuctionality/paging/integrated-paging%})
+- [Selecting]({%slug listview/fuctionality/selecting/items%})
+- [Grouping]({%slug listview/fuctionality/grouping/overview%})
+- [Filtering]({%slug listview/fuctionality/filtering/overview%})
+- [Create/Read/Update/Delete (CRUD) operations]({%slug listview/data-editing/automatic-crud-operations%})
+- [Skins]({%slug listview/appearance-and-styling/skins%})
+- [Edit form Validation]({%slug listview/data-editing/flexible-validation%})
 
 
 
