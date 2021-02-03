@@ -22,7 +22,6 @@ RadMediaPlayer uses the build-in HTML5 `<video>` and `<audio>` element functiona
 
 Due to a recent change in the script of the player, from last year onward it will render as an <object> for FLV videos even on modern browsers supporting HTML5. That way, the customer is now able to provide single FLV video and let the player handle the rest.
 
-For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash `<object>`, instead of the default `<video>` element. This improvement enables the RadMediaPlayer to support FLV video format on all browsers by rendering as an `<object>` automatically when the provided video is of FLV format.
 ![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
 
 
