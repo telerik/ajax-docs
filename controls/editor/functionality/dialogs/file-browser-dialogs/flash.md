@@ -10,6 +10,8 @@ position: 5
 
 # Flash
 
+>note Adobe will no longer support Flash Player after December 31, 2020, and Adobe will block Flash content from running in Flash Player beginning January 12, 2021. How does this affect the RadEditor's Flash Manager? - the dialog will be unable to preview the swf videos inside its Preview area, but you still will be able to insert the objects tags in the content area.
+
 **Functionality:**
 
 Using the Flash Manager dialog the users of a RadEditor can:
