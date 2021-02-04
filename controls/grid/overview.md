@@ -8,12 +8,12 @@ published: True
 position: 0
 ---
 
-# Grid Overview
+# Grid Overview 
 
 This article provides a quick introduction so you can get your AJAX data grid up and running in a few seconds. You can find 
 how to enable key features like paging, sorting, filtering, editing, grouping, exporting and accessibility support, as well as how to bind data.
 
-Telerik **RadGrid** is designed to eliminate the typical trade-off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+Telerik **RadGrid** is designed to eliminate the typical trade-off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support).
 
 To test it by your own and see its benefits in practice you can start a free trial using the button below
 
