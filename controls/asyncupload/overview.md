@@ -16,7 +16,7 @@ position: 0
 
 >note Files are stored in a temporary location *until a postback* occurs. Temporary files are also deleted after a set amount of time defined by the [TemporaryFileExpiration](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAsyncUpload#temporaryfileexpiration) property. (**Default value: 4 hours**)
 
-The control *supports web farm* scenarios. Upload progress is available in this scenario as long as Flash or Silverlight is installed on the client machine.
+
 ![Overview](images/asyncupload-overview.png)
 
 ## Get started with the RadAsyncUpload
@@ -79,14 +79,14 @@ Finally, all processed temporary files are deleted. Temporary files are also del
 
 ## Validation
 
-Validation for **RadAsyncUpload** differs from validation in **RadUpload** as it is now possible to validate size on the client, as long as the **File API** upload module is used or there is Silverlight or Flash installed on the client's browser. If the validation fails, **RadAsyncUpload** will fire **OnClientValidationFailed**.
+Validation for **RadAsyncUpload** differs from validation in **RadUpload** as it is now possible to validate size on the client, as long as the **File API** upload module is used or there is Silverlight or Flash installed on and supported by the client's browser. If the validation fails, **RadAsyncUpload** will fire **OnClientValidationFailed**.
 
 ## Different built-in upload modules
 Internally, **RadAsyncUpload** can choose between four modules for uploading - File API, IFrame, Flash and Silverlight. The module with the highest priority and most features supported is File API. The Silverlight and Flash modules are a fallback if File API is not supported and any of the two technologies are available. The final fallback is an upload using the IFrame module supported in all browsers.
 
 ## Web Farms
 
-In web farms, each server will need to use the *same MachineKey* that **RadAsyncUpload** uses for encryption. Most web farms should already have their MachineKeys synchronized as this is the recommended approach for web farm deployment.
+In web farms, each server will need to use the *same MachineKey* that **RadAsyncUpload** uses for encryption. Most web farms should already have their MachineKeys synchronized as this is the recommended approach for web farm deployment. For more information see the [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) blog post.
 
 ## What is the max file size that the AsyncUpload can handle?
 
