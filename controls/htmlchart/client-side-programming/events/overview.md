@@ -22,9 +22,9 @@ position: 0
 
 * [OnDragStart](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#events-dragStart)—raised when the user starts dragging the chart.
 
-* [OnLegendItemClick](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemClick)—raised when an legend item is clicked.
+* [OnLegendItemClick](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemClick)—raised when a legend item is clicked.
 
-* [OnLegendItemHover](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemHover)—raised when an legend item is hovered.
+* [OnLegendItemHover](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemHover)—raised when a legend item is hovered.
 
 * [OnSeriesClick](https://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesClick)—rised when the user clicks the chart series.
 
