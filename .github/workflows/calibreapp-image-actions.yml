@@ -36,6 +36,6 @@ jobs:
           #body: ${{ steps.calibre.outputs.markdown }}
       - name: Commit changes in report file
         run: |
-          echo ${{ steps.calibre.outputs.markdown }} > optimized-images-report.md
+          echo "${{ steps.calibre.outputs.markdown }}" > optimized-images-report.md
           git add -A
           git commit -m "Add Optimized images report"  
