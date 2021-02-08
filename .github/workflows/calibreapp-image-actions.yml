@@ -23,7 +23,15 @@ jobs:
         with:
           githubToken: ${{ secrets.IMAGE_OPTIMIZATION_ACTION_TOKEN }}
           compressOnly: true
-     
+
+      - name: Add image changes to file
+        if: steps.calibre.outputs.markdown != ''
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          echo "${{ steps.calibre.outputs.markdown }}" > optimized-images-report.md
+          git add -A
+          git commit -m "Add Optimized images report"  
        
       - name: Create New Pull Request If Needed
         if: steps.calibre.outputs.markdown != ''
@@ -34,10 +42,4 @@ jobs:
           branch-suffix: timestamp
           commit-message: Compressed Images
           #body: ${{ steps.calibre.outputs.markdown }}
-      - name: Add image changes to file
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          echo "${{ steps.calibre.outputs.markdown }}" > optimized-images-report.md
-          git add -A
-          git commit -m "Add Optimized images report"  
+      
