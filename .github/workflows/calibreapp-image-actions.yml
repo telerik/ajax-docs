@@ -34,8 +34,8 @@ jobs:
           branch-suffix: timestamp
           commit-message: Compressed Images
           #body: ${{ steps.calibre.outputs.markdown }}
-      - name: Commit changes
+      - name: Commit changes in report file
         run: |
-          ${{ steps.calibre.outputs.markdown }} +%s > new-report.txt
+          echo ${{ steps.calibre.outputs.markdown }} > optimized-images-report.md
           git add -A
-          git commit -m "Add Optimized images report"  :  
+          git commit -m "Add Optimized images report"  
