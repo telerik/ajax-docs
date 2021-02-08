@@ -23,11 +23,19 @@ jobs:
         with:
           githubToken: ${{ secrets.IMAGE_OPTIMIZATION_ACTION_TOKEN }}
           compressOnly: true
+     
+       
       - name: Create New Pull Request If Needed
         if: steps.calibre.outputs.markdown != ''
         uses: peter-evans/create-pull-request@v3
+        
         with:
           title: Compressed Images
           branch-suffix: timestamp
           commit-message: Compressed Images
-          body: ${{ steps.calibre.outputs.markdown }}
+          #body: ${{ steps.calibre.outputs.markdown }}
+      - name: Commit changes
+        run: |
+          ${{ steps.calibre.outputs.markdown }} > new-report.txt
+          git add -A
+          git commit -m "Add Optimized images report"  :  
