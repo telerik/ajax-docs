@@ -1,7 +1,7 @@
 name: Compress Images
 on:
   push:
-    branches: [master,image-optimization-quality-60]
+    branches: [master,image-optimization-quality-70]
     # Run Image Actions when JPG, JPEG, PNG or WebP files are added or changed.
     # See https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onpushpull_requestpaths for reference.
     paths:
@@ -23,10 +23,10 @@ jobs:
         with:
           githubToken: ${{ secrets.IMAGE_OPTIMIZATION_ACTION_TOKEN }}
           compressOnly: true
-          jpegQuality: '60'
+          jpegQuality: '70'
           jpegProgressive: false
-          pngQuality: '60'
-          webpQuality: '60'
+          pngQuality: '70'
+          webpQuality: '70'
 
       - name: Add image changes to file
         if: steps.calibre.outputs.markdown != ''
