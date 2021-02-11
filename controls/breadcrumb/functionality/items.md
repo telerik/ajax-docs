@@ -30,7 +30,7 @@ The RadBreadcrumb items can be defined declaratively in the markup in the &lt;It
 </telerik:RadBreadcrumb>
 ````
 
-They can also be added programaticaly in the Items collection of the RadBreadcrumb control:
+They can also be added programmatically in the Items collection of the RadBreadcrumb control:
 
 ````C#
 BreadcrumbItem item = new BreadcrumbItem();
@@ -164,30 +164,30 @@ private IEnumerable<BreadcrumbItem> GetBreadcrumbItems(object dataSource)
 ````
 ````VB
  Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-        If Not IsPostBack Then
-            RadBreadcrumb1.DataBind()
-        End If
-    End Sub
+    If Not IsPostBack Then
+        RadBreadcrumb1.DataBind()
+    End If
+End Sub
 
-    Protected Sub RadBreadcrumb1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
-        (TryCast(sender, RadBreadcrumb)).Items.AddRange(GetBreadcrumbItems(Nothing))
-    End Sub
+Protected Sub RadBreadcrumb1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+    (TryCast(sender, RadBreadcrumb)).Items.AddRange(GetBreadcrumbItems(Nothing))
+End Sub
 
-    Private Function GetBreadcrumbItems(ByVal dataSource As Object) As IEnumerable(Of BreadcrumbItem)
-        Dim result = New List(Of BreadcrumbItem)()
+Private Function GetBreadcrumbItems(ByVal dataSource As Object) As IEnumerable(Of BreadcrumbItem)
+    Dim result = New List(Of BreadcrumbItem)()
 
-        For i As Integer = 0 To 5 - 1
-            Dim index = i + 1
-            Dim breadcrumbItem = New BreadcrumbItem() With {
-                .Text = "Item " & index,
-                .Href = "/Item " & index
-            }
-            result.Add(breadcrumbItem)
-        Next
+    For i As Integer = 0 To 5 - 1
+        Dim index = i + 1
+        Dim breadcrumbItem = New BreadcrumbItem() With {
+            .Text = "Item " & index,
+            .Href = "/Item " & index
+        }
+        result.Add(breadcrumbItem)
+    Next
 
-        result(0).Type = BreadcrumbItemType.RootItem
-        Return result
-    End Function
+    result(0).Type = BreadcrumbItemType.RootItem
+    Return result
+End Function
 ````
 
 The result from the declaration above should be the same as if ClientItemTemplate is not in use, see **Figure 3** below:
