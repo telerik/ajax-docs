@@ -109,6 +109,182 @@ Create a RadClientDataSource Control that will call use the WebService.asmx for 
 </telerik:RadClientDataSource>
 ````
 
+The JavaScript code logic written based on the instructions from the [Working with Templates]({%slug grid/data-editing/edit-mode/batch-editing/working-with-templates%}) article.
+
+````JavaScript
+<script>
+    // Logic to handle the Cascading Functionality 
+    
+    // When Selecting a Continent
+    function ContinentSelect(sender, args) {
+        var gridElement = $telerik.$(sender.get_element()).closest('.RadGrid')[0];
+
+        if (gridElement && gridElement.control) {
+            var grid = gridElement.control,
+                batMan = grid.get_batchEditingManager(),
+                dataItem,
+                countryCell,
+                editRow = batMan.get_currentlyEditedRow();
+                    
+            // Instantiate the GridDataItems collection
+            grid.get_masterTableView().get_dataItems();
+
+            if (!editRow) {
+                var editCell = batMan.get_currentlyEditedCell();
+                editRow = $telerik.$(editCell).closest('tr')[0];
+
+                // cast the Row (TR element) to GridDataItem object
+                dataItem = editRow.control;
+                countryCell = dataItem.get_cell("Country");
+
+                // Timeout is needed to let the current cell close before another opens.
+                setTimeout(function () {
+                    batMan.changeCellValue(countryCell, "");
+                    batMan.openCellForEdit(countryCell);
+                }, 30)
+                batMan.changeCellValue(countryCell, "")
+            } else {
+                dataItem = editRow.control;
+                countryCell = dataItem.get_cell("Country");
+                var mccb = $telerik.findControl(countryCell, "MCCBCountry");
+                mccb.set_text("");
+            }
+        }
+    }
+
+    // When the Country MultiColumnComboBox DropDown is opening
+    function CountryDropDownOpening(sender, args) {
+        if (sender.get_id().indexOf("MCCBCountry") > -1) {
+            var gridElement = $(sender.get_element()).closest('.RadGrid')[0];
+
+            if (gridElement && gridElement.control) {
+                var grid = gridElement.control,
+                    batMan = grid.get_batchEditingManager(),
+                    editRow = batMan.get_currentlyEditedRow(),
+                    dataItem,
+                    continentCell,
+                    continentName;
+
+                // Instantiate the GridDataItems collection
+                grid.get_masterTableView().get_dataItems();
+
+                if (editRow && editRow.control)
+                    dataItem = editRow.control;
+
+                if (!editRow) {
+                    var editCell = batMan.get_currentlyEditedCell();
+                    editRow = $telerik.$(editCell).closest('tr')[0];
+
+                    // cast the Row (TR element) to GridDataItem object
+                    dataItem = editRow.control;
+
+                    continentName = batMan.getCellValue(dataItem.get_cell("Continent"));
+                } else {
+                    var mccbContinent = $telerik.findControl(dataItem.get_cell("Continent"), "MCCBContinent");
+                    continentName = mccbContinent.get_text();
+                }
+
+                // Change the DataSource of the Country MultiColumnComboBox
+                var dataSource = sender.get_kendoWidget().dataSource;
+                var clientDataSource = $telerik.findControl(document, "RadClientDataSource1")
+                var query = new kendo.data.Query(clientDataSource.get_kendoWidget().data());
+                var data = query.filter({ field: "ContinentName", operator: "eq", value: continentName }).data;
+                sender.set_dataSource(data);
+            }
+        }
+    }
+
+    // Events to handle custom Controls in BatchEdit Mode
+    // https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/edit-mode/batch-editing/working-with-templates
+    function GetCellValue(sender, args) {
+        var container = args.get_container();
+        var text = $(container).text().trim();
+
+        if (args.get_columnUniqueName() === "Continent" ||
+            args.get_columnUniqueName() === "Country") {
+
+            args.set_cancel(true);
+
+            args.set_value(text);
+        }
+    }
+
+    function SetCellValue(sender, args) {
+        var container = args.get_container();
+
+        if (args.get_columnUniqueName() === "Continent" ||
+            args.get_columnUniqueName() === "Country") {
+
+            args.set_cancel(true);
+
+            var mccbId = args.get_columnUniqueName() === "Continent" ? "MCCBContinent" : args.get_columnUniqueName() === "Country" ? "MCCBCountry" : null;
+
+            if (!mccbId) return;
+
+            var mccb = $telerik.findControl(args.get_cell(), mccbId);
+
+            container.innerHTML = mccb.get_text();
+        }
+    }
+
+    function GetEditorValue(sender, args) {
+        var container = args.get_container();
+
+        if (args.get_columnUniqueName() === "Continent" ||
+            args.get_columnUniqueName() === "Country") {
+
+            args.set_cancel(true);
+
+            var mccbId = args.get_columnUniqueName() === "Continent" ? "MCCBContinent" : args.get_columnUniqueName() === "Country" ? "MCCBCountry" : null;
+
+            if (!mccbId) return;
+
+            var mccb = $telerik.findControl(container, mccbId);
+            args.set_value(mccb.get_text());
+        }
+
+    }
+
+    function SetEditorValue(sender, args) {
+        var cellValue = args.get_value();
+        var container = args.get_container();
+
+        if (args.get_columnUniqueName() === "Continent" ||
+            args.get_columnUniqueName() === "Country") {
+
+            args.set_cancel(true);
+
+            var mccbId = args.get_columnUniqueName() === "Continent" ? "MCCBContinent" : args.get_columnUniqueName() === "Country" ? "MCCBCountry" : null;
+
+            if (!mccbId) return;
+
+            var mccb = $telerik.findControl(container, mccbId);
+
+            mccb.set_text(cellValue);
+        }
+    }
+
+    // The following function is there to fix the Closing issues of RadMultiColumnComboBox/RadMultiSelect in the Grid
+    // https://feedback.telerik.com/aspnet-ajax/1399575-built-in-integration-for-multicolumncombobox-with-grid-in-batch-edit-mode
+    // https://feedback.telerik.com/aspnet-ajax/1494217-built-in-integration-for-multiselect-with-grid-in-batch-edit-mode
+    $('body').on('mousedown', '.k-list-scroller', function (ev) {
+        $telerik.cancelRawEvent(ev);
+        ev.stopPropagation();
+        ev.stopImmediatePropagation();
+    });
+
+    // Parsing the JSON object for the Grid
+    // https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/client-data-source-binding/defaultcs.aspx
+    function Parse(sender, args) {
+        var response = args.get_response().d;
+
+        if (response) {
+            args.set_parsedData(response);
+        }
+    }
+</script>
+````
+
 ### Default.aspx.cs
 
 Bind data to RadGrid and to one of the ComboBoxes. The ComboBox which will change its datasource based on the selection of the other, can only be bound on the client-side.
