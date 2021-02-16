@@ -80,7 +80,7 @@ The following list shows the most common areas and elements of the Waterfall cha
 
 ## Databound Waterfall chart
 
->caption Example 2: The code that creates the chart from **Figure 1** by binding its data fields.
+>caption Example 2: The code that creates the chart from **Figure 1** by binding the Waterfall series' DataFieldY, DataSummaryField, ColorField fields and the DataLabelsField of the XAxis.
 
 ````ASP.NET
         <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px">
