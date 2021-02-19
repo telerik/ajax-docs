@@ -39,13 +39,21 @@ and these ones in **Horizontal mode**:
 
 >caption Focus
 
-When the `Navigatable` property of the timeline is set to *'true'* as well as the TabIndex property is specified, in the `AccessKey` property of the Control you can set the desired key for quick navigation to the timeline.
+When the `Navigatable` property of the timeline is set to *'true'* as well as the following JavaScript code is set, you can focus the timeline with the Alt+W shortcut:
 
 ````ASPX
-<telerik:RadTimeline runat="server" ID="RadTimeline1" AlternatingMode="true" CollapsibleEvents="true" Orientation="Vertical" TabIndex="1" AccessKey="W" Navigatable="true">
+<telerik:RadTimeline runat="server" ID="RadTimeline1" AlternatingMode="true" CollapsibleEvents="true" Orientation="Vertical" Navigatable="true">
+<script>
+	var $ = $telerik.$;
+	$(document.body).keydown(function (e) {
+		if (e.altKey && e.keyCode == 87) {
+			$(".k-card:first").focus();
+		}
+	});
+</script>
 ````
 
-As result Alt + W focuses the timeline's wrapper.
+As result Alt + W focuses the timeline first card.
 
 
 
