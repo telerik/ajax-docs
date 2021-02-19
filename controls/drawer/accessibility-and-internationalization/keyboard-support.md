@@ -34,7 +34,7 @@ The drawer supports the following keyboard shortcuts:
 When the `Navigatable` property of the drawer is set to *'true'*, in the `AccessKey` property of the Control you can set the desired key for quick navigation to the drawer.
 
 ````ASPX
-<telerik:RadDrawer runat="server" ID="RadDrawer1" Editable="true" AccessKey="W">
+<telerik:RadDrawer runat="server" ID="RadDrawer1" Navigatable="true" AccessKey="W">
 ````
 
 As result Alt + W focuses the drawer's active item.
