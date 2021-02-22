@@ -10,7 +10,11 @@ position: 1
 
 # RadWindow Object
 
-The **RadWindow** client-side object has a number of client-side properties and methods that you can use to manipulate the windows in the browser. They are listed below.	There are also a number of [client-side events]({%slug window/client-side-programming/events/overview%}) that you can use those methods in to produce the logic required by your scenario.	At the end of the article you will also find a basic example of their use. You can also create instances dynamically through the [RadWindowManager client-side object]({%slug window/client-side-programming/radwindowmanager-object%}).
+In this article, we list the numerous client-side properties and methods exposed by the client-side **RadWindow** object. These properties and methods allow you to manipulate the windows in the browser. Additionally, you can use these methods in various [client-side events]({%slug window/client-side-programming/events/overview%}) and produce the logic required by your scenario.
+
+At the end of the article, you will find a [basic example](#examples) that demonstrates how to call methods, set properties, and handle events.
+
+>tip You can also create RadWindow instances dynamically through the [RadWindowManager client-side object]({%slug window/client-side-programming/radwindowmanager-object%}).
 
 This article contains the following sections:
 
@@ -144,9 +148,6 @@ This article contains the following sections:
 
 ## Methods for Modifying Client-side Event Handlers Dynamically
 
-You can read more on the subject in the [Setting Client Event Handlers by Using JavaScript]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) help article.
-
-
 >caption Methods for modifying client-side event handlers dynamically.
 
 | Name | Description |
@@ -177,6 +178,8 @@ You can read more on the subject in the [Setting Client Event Handlers by Using 
 | **remove_resizeEnd** |Removes a function declared with the **add_resizeEnd** function.|
 | **remove_resizeStart** |Removes a function declared with the **add_resizeStart** function.|
 | **remove_show** |Removes a function declared with the **add_show** function.|
+
+>tip See the [Setting Client Event Handlers by Using JavaScript]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) article for an example that shows how to set client event-handlers.
 
 ## Examples
 

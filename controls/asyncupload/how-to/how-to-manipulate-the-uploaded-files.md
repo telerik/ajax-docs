@@ -10,15 +10,16 @@ position: 5
 
 # How to Manipulate the Uploaded Files
 
-If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields]({%slug upload/how-to/adding-information-to-uploaded-files%})), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
+If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields]({%slug upload/how-to/adding-information-to-uploaded-files%})), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database or other storage media.
 
-In the article below you can find the API that RadAsyncUpload provides for managing files, and examples of a few common scenarios.
+In this article, you can find the API that RadAsyncUpload provides for managing files and a [few examples](#examples) that demonstrate common scenarios.
 
 **RadAsyncUpload** provides the **UploadedFiles**  collection that contains all valid uploaded files.
 
-**UploadedFiles** property is of type **Telerik.Web.UI.UploadedFileCollection**. Each file in the collection is an instance of the **UploadedFile** class. **Table 1** lists the members of the **UploadedFile** class.
+The **UploadedFiles** property is of type **Telerik.Web.UI.UploadedFileCollection**. Each file in the collection is an instance of the **UploadedFile** class. **Table 1** lists the members of the **UploadedFile** class.
 
->caption Table 1: Server-side API of the uploaded files:
+>caption Table 1: UploadedFile Server-side API
+
 | Property or Method | Type (Return Type) | Description |
 | ------ | ------ | ------ |
 | **Properties** |||
@@ -34,19 +35,15 @@ In the article below you can find the API that RadAsyncUpload provides for manag
 |GetFieldValue(string)|string|Retrieves a [custom field]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file.|
 |GetIsFieldChecked(string)|boolean|Retrieves whether a [custom check box]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file was checked.|
 
->caution If you set the **TargetFolder** property and then use the server-side API to manipulate the uploaded files, you may experiene issues:
+>caution Use either the **TargetFolder** property or the server-side API. If you first set the **TargetFolder** property and then use the server-side API to manipulate the uploaded files, you may experience the following issues:
 >
-> * End up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
-> * An error when attempting a custom `.SaveAs()` call on an uploaded file that points to the temporary folder of the RadAsyncUpload, similar to `Could not find file '<physical path to your app>\App_Data\RadUploadTemp\some-uploaded-file.png.tmp'`. This is caused by the fact that that the control moved the file to the target folder. The **solution** is to **remove** the `TargetFolder` property and save the files only with your own code.
-> * You can get a similar error if antivirus software or other code deletes the temporary file(s) before the `FileUploaded` event is fired. Thus, you may want to have a `try-catch` block around the `.SaveAs` call. RadAsyncUpload handles this internally only when saving to the `TargetFolder`.
+> * Two copies of the uploaded files are saved. Any valid files will already be saved to the target folder.
+> * An error appears when attempting a custom `.SaveAs()` call on an uploaded file. The error points to the temporary folder of the RadAsyncUpload, for example, `Could not find file '<physical path to your app>\App_Data\RadUploadTemp\some-uploaded-file.png.tmp'`. This is caused by the fact that that the control moved the file to the target folder. The solution is to remove the `TargetFolder` property and save the files only with your own code.
+>   * A similar error can appear if antivirus software or other code deletes the temporary file(s) before the `FileUploaded` event is fired. Thus, you may want to have a `try-catch` block around the `.SaveAs` call. RadAsyncUpload handles this internally only when saving to the `TargetFolder`.
 
-You can find several examples below:
+## Examples
 
-* [Saving uploaded files](#saving-uploaded-files)
-* [Saving uploaded files in control's OnFileUploaded event](#saving-uploaded-files-in-controls-onfileuploaded-event)
-* [Using the InputStream property](#using-the-inputstream-property)
-
-## Saving uploaded files
+### Saving Uploaded Files
 
 The following example illustrates how to save uploaded files to a location of your choice, in the postback event of another control like a button:
 
@@ -74,7 +71,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 End Sub 
 ````
 
-## Saving uploaded files in control's OnFileUploaded event
+### Saving Uploaded Files in the Control's OnFileUploaded Event
 
 The following example illustrates how to save uploaded files to a location of your choice in OnFileUpload event:
 
@@ -101,7 +98,7 @@ Protected Sub RadAsyncUpload1_FileUploaded(sender As Object, e As FileUploadedEv
 End Sub
 ````
 
-## Using the InputStream property
+### Using the InputStream Property
 
 You can use the **InputStream** property to access the content of the uploaded files without saving them to a temporary location. This property is useful when you want to insert the file into a database, or process its contents without saving.
 

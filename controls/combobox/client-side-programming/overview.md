@@ -41,7 +41,7 @@ var item = combo.findItemByText(text);
 
 ## Cancelling an Event
 
-Several client-side events occur immediately before **RadComboBox** performs some action. Most of these events all have names that end with "-ing". You can use these events to cancel the **RadComboBox's** action by using the **set_cancel** method of the **eventArgs** passed to the handler:
+Several client-side events occur immediately before **RadComboBox** performs an action. Most of these events have names that end with "-ing". You can use these events to cancel the **RadComboBox's** action by using the **set_cancel** method of the **eventArgs** that are passed to the handler:
 
 ````JavaScript
 	
@@ -147,15 +147,13 @@ function AddNewItem() {
 
 
 
->note This approach does not affect Items loaded on demand - [by design they are lost after postback]({%slug combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand%}).
+>note This approach does not affect Items loaded on demand. By design, they are [lost after postback]({%slug combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand%}).
 >
 
 
 ## Getting All RadComboBox Instances on the Client-side
 
-**RadComboBox** exposes an array on the client-side that contains all **RadComboBox** instances. You can access this array using syntax like this:
-
-**Telerik.Web.UI.RadComboBox.ComboBoxes**
+**RadComboBox** exposes an array on the client-side that contains all **RadComboBox** instances. You can access this array using syntax like this: **Telerik.Web.UI.RadComboBox.ComboBoxes**.
 
 If **RadComboBox** controls are embedded in another control, you can simply get these controls from the array using code like **Example 2.**
 
@@ -182,7 +180,11 @@ If **RadComboBox** controls are embedded in another control, you can simply get 
 				
 ````
 
+## Next Steps
 
+[Access client-side changes at the server]({%slug combobox/client-side-programming/accessing-client-changes-at-the-server%})
+
+[Explore the RadComboBox client-side events]({%slug combobox/client-side-programming/events%})
 
 # See Also
 
