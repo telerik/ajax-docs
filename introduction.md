@@ -10,24 +10,22 @@ position: 0
 
 # Welcome to UI for ASP.NET AJAX
 
+The Telerik® UI for ASP.NET AJAX controls suite includes more than 120 versatile and performance-optimized ASP.NET Web Forms components that help you build high-quality, professional line-of-business projects. This controls suite was formerly known as RadControls for ASP.NET AJAX, where RAD stands for Rapid Application Development.
 
-Thank you for choosing Telerik® UI for ASP.NET AJAX!
+From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
 
-The Telerik® UI for ASP.NET AJAX controls suite, formerly known as RadControls for ASP.NET AJAX where RAD stands for Rapid Application Development, includes more than 120 versatile and performance-optimized ASP.NET Web Forms components that help you build high-quality, professional line-of-business projects. From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides you with all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
-
-To read more about the benefits of using Telerik® UI for ASP.NET AJAX suite, please visit the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
+To learn more about the benefits of using Telerik® UI for ASP.NET AJAX suite, see the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
 
 ## Getting Started
 
-If you are a new user, we recommend that you **follow the [First Steps]({%slug getting-started/first-steps%})** article. For more information:
+If you are new to UI for ASP.NET AJAX:
 
-* Get acquainted with the [Technical information and system requirements](https://docs.telerik.com/devtools/aspnet-ajax/general-information/technical-information)
-* Check out the [Learning Resources](#learning-resources)
+* Don't miss the [First Steps]({%slug getting-started/first-steps%})** article that demonstrates how to use the controls.
+* Check out the available [Learning Resources](#learning-resources).
 
+## Available UI Controls
 
-## List of the WebForms UI Controls
-
-Here are quick links to the control-specific sections of our documentation:
+Use the following list to quickly access the documents for the desired controls:
 
 {% include intro-page-table.html %}
 <!-- 
@@ -231,7 +229,7 @@ This UI for ASP.NET AJAX library is a commercial UI library. You are welcome to 
 
 ## Support and Feedback Options
 
-Your constructive feedback is important and it helps us improve our resources and services. Here are the ways to ask your questions or to submit your feedback:
+Your feedback is important and it helps us improve our resources and services. Here are the ways to ask your questions or submit feedback:
 
 * *Online Ticketing System* - License holders and active trialists can take advantage of our outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [UI for ASP.NET AJAX dedicated support](https://www.telerik.com/account/support-tickets) system.
 * *[UI for ASP.NET AJAX forums](https://www.telerik.com/forums/aspnet-ajax)* - Get the community's support or share information with it.

@@ -10,250 +10,81 @@ position: 0
 
 # Upgrading a Trial to a Developer License or to a Newer Version
 
-
-
-This article explains how to upgrade the version of the Telerik® UI for ASP.NET AJAX control and how to switch from a Trial to a Developer license.
-
-You can find concrete information about your case in the distinct sections of this article:
-
-* [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
-
-	* [Automatically](#automatic-upgrade)
-	
-	* [Manually](#manual-upgrade)
-
-* [Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
-
-* [Upgrading Troubleshooting](#upgrading-troubleshooting)
-
-	* [Installation Issues](#installation-issues)
-	
-	* [Referencing the Telerik Assemblies from the GAC](#referencing-the-telerik-assemblies-from-the-gac)
-	
-	* [I Still Get the Old Version](#i-still-get-the-old-version)
-	
-	* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
-	
-	* [Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework](#newtonsoftjson-is-built-by-a-higher-version-than-the-currently-targeted-framework)
-
-	* [Could not load file or assembly 'Telerik.Web.UI' After Upgrade](#could-not-load-file-or-assembly-telerikwebui-after-upgrade)
+This article explains how to upgrade the version of the Telerik® UI for ASP.NET AJAX controls and how to switch from a Trial to a Developer license.
 
 ## Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX
 
-**To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
+To upgrade the Telerik controls in your project:
 
->tip Before starting an upgrade of your project, you may find it useful to review the following resources:
->
-> * The [Known Issues and Important Changes](https://www.telerik.com/forums/known-issues-and-important-changes) sticky thread. It lists changes that may affect your code and known regression issues (that are usually fixed in the subsequent release). Review the information for the releases you go through so you can evaluate whether you will be affected by anything.
->
-> * The [Telerik Upgrade API Analyzer]({%slug upgrade_api_analyzer%}) can analyze your C# code to notify you of changes between your version and the new version you want to upgrade to. It offers information as of the Q1 2012 (2012.1.225) release.
->
-> * [UI for ASP.NET AJAX Release History](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history)—reviewing the release notes for all releases you go through will let you see what has changed, what fixes, features and controls have been implemented so you are better prepared to meet your project's challenges.
+1. Install the new version by using your preferred [installation package]({%slug installation/which-file-do-i-need-to-install%}).
 
-There are two ways to perform an upgrade:
+1. Replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) with their newer versions and update their references in the project.
+
+>tip Before upgrading your project, review the following resources:
+>
+> * The [Known Issues and Important Changes](https://www.telerik.com/forums/known-issues-and-important-changes) thread lists changes and known regression issues that may affect your code.
+>
+> * The [Telerik Upgrade API Analyzer]({%slug upgrade_api_analyzer%}) analyzes your C# code and notifies you of changes between your version and the new version.
+>
+> * The [UI for ASP.NET AJAX Release Notes](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history) list all changes, fixes, new features and controls.
+
+You can upgrade the controls either [automatically](#automatic-upgrade) or [manually](#manual-upgrade).
 
 ### Automatic Upgrade
 
-You can utilize the AJAX VS Extensions wizards:
+The automatic upgrade is possible if you use the UI for ASP.NET AJAX Visual Studio extensions. To perform the automatic upgrade:
 
-1. [Automatic Latest Version Retrieval Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%})
+1. Use the [UI for ASP.NET AJAX Visual Studio extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}) to download the latest version.
 
-1. [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%})
+1. Use the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) to upgrade the control in your project.
 
 ### Manual Upgrade
 
-The manual process gives you the freedom to control each step of the upgrade process. In short you just need to replace the assembly references with the new ones. 
+The manual upgrade gives you the freedom to control each step of the process. In short, you just need to replace the assembly references with the new ones.
 
-Here is a list of steps that ensures a safe upgrade:
+The following steps ensure a safe upgrade:
 
-1. Backup your project (a simple copy to another folder is usually enough, and using a source control system makes this redundant).
+1. Backup your project. A simple copy to another folder is usually enough, and using a source control makes this unnecessary.
 
-1. **Delete the old Telerik.Web.UI.* references** from the project and close it. This includes the	[Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}).
+1. Delete the old Telerik.Web.UI.* references from the project and close it. Delete also the [Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}).
 
-1. **Open the Bin folder** of your project in Windows Explorer and **delete the old Telerik.Web.UI.* assemblies**.
+1. Open the `Bin` folder of your project in Windows Explorer and delete the old Telerik.Web.UI.* assemblies.
 
-1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35; for .NET 4.5 you need Bin45). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it. You can download the hotfix (Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip) from the [Downloads section](https://www.telerik.com/account/product-download?product=RCAJAX) after log in.
+1. Copy the new assemblies from the corresponding `Bin*` folder in the UI for ASP.NET AJAX installation path:
 
-1. **Paste the new assemblies in the Bin folder** of your project in Windows Explorer.
+   * The `Bin45` folder contains the assemblies for .NET 4.5
 
-1. **Add references to the Telerik assemblies in the project** in Visual Studio.
+   * The `Bin40` folder contains the assemblies for .NET 4.0.
 
-1. Make sure you have all the [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
+   * The `Bin35` folder contains the assemblies for .NET 3.5.
 
-As with any ASP.NET Project, it is often helpful to clear the ASP Temporary files and the browser cache.
+   * If you install a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
 
-In the same manner (copy and replace), you may also want to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}) you are using, as well as localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc. Make sure to save any modifications you have beforehand to avoid losing your work.
+1. Paste the new assemblies in the `Bin` folder of your project in Windows Explorer.
+
+1. Open the project in Visual Studio and add references to the Telerik assemblies.
+
+1. Make sure you have all [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
+
+>tip As with any ASP.NET project, it is often helpful to clear the ASP Temporary files and the browser cache.
+>
+> * You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc.
 
 ## Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET AJAX
 
-The difference between the trial and licensed version of the Telerik controls is built into the assemblies themselves. You do not need license keys or activations.
+The trial version and the licensed version of UI for ASP.NET AJAX have different assemblies, this why you don't need a license key or an activation to upgrade. Instead, you must replace the trial assemblies with the licensed assemblies.
 
-Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
+To upgrade to a licensed version:
 
->tip You should delete (uninstall) the Trial version from your machine before upgrading to the licensed ones. Doing so eliminates the chance of trial assemblies still making it into the project references or even production. 
+1. Download the licensed version of UI for ASP.NET AJAX.
 
-## Upgrading Troubleshooting
+1. Follow the steps in the [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) section to delete the trial assemblies and replace them with the developer versions.
 
-### Installation Issues
-
-If you are having difficulties with installing the controls, examine the [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%}) article. In the meantime, you can download the [hotfix archive]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) and	[upgrade the controls manually](#manual-upgrade).
-
-### Referencing the Telerik Assemblies from the GAC
-
-When referencing assemblies from the GAC, the way those references are added to VS and the way the assemblies are placed in the GAC are slightly different than the common BIN-deployment scenario. For example, you will need to add the Telerik assemblies to the GAC manually and use fully qualified assembly names in the [handler registrations in the web.config]({%slug general-information/web-config-settings-overview%}). You can read more about handling assemblies in the GAC and their references in the [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article.
-
-### I Still Get the Old Version
-
-Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the update may seem to have failed. Try the following to ensure that no caches remain:
-
-* Terminate the IIS process (from the Windows Task Manager) and close Visual Studio.
-
-* Clean up the Temporary ASP.NET Files from *`<sysdrive>:\Windows\Microsoft.NET\Framework[64]\<vernum>\Temporary ASP.NET Files`*.
-
-* Delete your browser cache. For example, these are the steps for IE: Tools -> Internet Options -> Delete Files.
-
-* Clean up the Windows WebSite Cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\WebsiteCache*.	The location of this cache may vary from one operating system to the next.
-
-* Clean up the Visual Studio Backup from *`<sysdrive>:\Users\<UserName>\Documents\Visual Studio <vsVersion>\Backup Files`*. This location depends on your VS settings and installation.
-
-* Clean up the Project Assemblies cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies`*. The location of this cache may vary from one operating system to the next.
-
-### I Still Get the Copyright Message
-
-
-The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll:
-
->Thank you for using the Trial Version of Telerik® UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](https://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support. 
-
-The Developer versions of the Telerik controls do not throw copyright messages.
-
-**To remove the copyright message**
-
-1. Make sure you have downloaded the proper, Developer "DLL and Scripts only" file from your account. You will recognize it by the *Dev* abbreviation in the file name (see **Figure 1-2**).
-
-1. [Upgrade your project manually](#manual-upgrade) to ensure the correct assemblies are referenced.
-
-You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information by double-clicking the assembly in Visual Studio and exploring its properties as shown in **Figure 2**.
-
->caption Figure 1: The Properties dialog of a trial Telerik.Web.UI.dll file shows a "Trial Version" text.
-![trial-version-file-properties](images/trial-version-file-properties.png)
-
->caption Figure 2: The Properties dialog of a Dev Telerik.Web.UI.dll file in Visual Studio do not have the Trial keyword.
-![dev-version-vs-properties](images/dev-version-vs-properties.png)
-
-
-### Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework
-
-If your project runs on .NET 4.0, you may get an error similar to the following:
-
-	
->The primary reference "**Telerik.Web.UI**, Version=2015.3.930.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" **could not be resolved because it has an indirect dependency on the assembly** "**Newtonsoft.Json**, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed" **which was built against the ".NETFramework,Version=v4.5" framework. This is a higher version than the currently targeted framework ".NETFramework,Version=v4.0"**.
-
-The issue is **caused by** the **Microsoft Windows Azure .NET SDK** as explained by Damien White in his [DLL Hell Strikes Again](http://blogs.visoftinc.com/2014/08/10/dll-hell-strikes-again/) blog post:
-
->The root cause is with Azure SDK 2.3. The SDK install drops a .NET 4.5-targeted Newtonsoft.Json.dll in the C:\Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref folder. Unfortunately, this folder is registered as a global reference folder even for frameworks prior to .NET 4.5.
-
-There are several ways to **fix** the issue:
-
-* If possible for your project, **upgrade to .NET 4.5**.
-
-* **Uninstall** the **Microsoft Windows Azure .NET SDK** if you do not need it.
-
-* Include a **NuGet** package for the **Newtonsoft.Json** assembly in your project with the proper version so a local reference is used.
-
-* **Remove the Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
-
-* According to client reports, in some cases [cleaning the ASP.NET Temporary Files and the .NET temporary files](https://weblogs.asp.net/psheriff/clean-up-after-visual-studio) resolves the problem as well.
-
-* You can add a `bindingRedirect` element to your `web.config` file and use the version you need:
-
-	**web.config**
-
-		<dependentAssembly>
-		    <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
-		    <bindingRedirect oldVersion="1.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
-		</dependentAssembly>
-
-	If a binding redirect does not work (e.g., in a build environment), the following approach has been reported by clients to resolve the problem, as seen on the [Could not load file or assembly… NuGet Assembly Redirects](http://blog.myget.org/post/2014/11/27/Could-not-load-file-or-assembly-NuGet-Assembly-Redirects.aspx) blog post:
-
-	1. From any .config file, remove the `<assemblyBinding>` element and its child elements. In other words—strip your app from assembly binding redirects.
-
-	1. Open the Package Manager Console in Visual Studio. This can be done from the View > Other Windows > Package Manager Console.
-
-	1. Execute the following command: `Get-Project -All | Add-BindingRedirect`
-
-
-
-
-
-### Could Not Load File or Assembly 'Telerik.Web.UI' After Upgrade
-
-The most common error looks like this:
-
->**Could not load file or assembly** 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. **The located assembly's manifest definition does not match the assembly reference**. (Exception from **HRESULT: 0x80131040**)
-
-or
-
->**Could not load file or assembly** 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. **Operation is not supported**. (Exception from **HRESULT: 0x80131515**)
-
-where the Version value is usually the old version you are upgrading from.
-
-Below you can find information on dealing with both errors.
-
-#### The located assembly's manifest definition does not match the assembly reference HRESULT: 0x80131040
-
-The **HRESULT: 0x80131040** error means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
-
-* The reference in the Visual Studio project itself points to the old version (e.g., to the installation folder). To resolve this, update the project references to point to the BIN and ensure the correct assemblies are there.
-
-* There is a `Register` directive with a fully qualified assembly name somewhere in your project that points to an old version (e.g., on a master page, or a user control, or in the web.config). There are several ways to fix it:
-
-	* The best resolution is to find and remove the old version reference. It is best to avoid fully qualified assembly names as this facilitates future upgrades. Usually, a `Register` directive should look like this:
-
-		**ASP.NET**
-
-			<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
-
-
-	* Update the `Register` directive to match the current version. You will have to repeat this process every time you upgrade.
-
-	* Add a `bindingRedirect` element in your web.config to point all references to the new version. You will need to update it every time you upgrade.
-
-		**web.config**
-
-			<configuration>
-				<runtime>
-					<dependentAssembly>
-					    <assemblyIdentity name="Telerik.Web.UI" publicKeyToken="121fae78165ba3d4" />
-					    <bindingRedirect oldVersion="1.0.0.0-2020.1.219.45" newVersion="2020.1.219.45" />
-					</dependentAssembly>
-				</runtime>
-			</configuration>
-
-* There is an explicit reference to a concrete Telerik controls version in another project (e.g., a data access layer, a second web app in the current solution, some custom class or custom controls assembly). In these cases you will need to find the reference and update it.
-
-#### Operation is not supported HRESULT: 0x80131515
-
-The **HRESULT: 0x80131515** error usually means that the file was downloaded from the Internet and Windows has blocked it. In such cases you need to simply do the following:
-
-1. In **Windows Explorer**, **right-click** the file.
-1. Select **Properties**
-1. Click the **Unblock** button.
-1. **Clear** the **read-only** attribute.
-
->caption How to Unblock a file if you get the HRESULT: 0x80131515 error
-
-![unblock-file-for-HRESULT-0x80131515](images/unblock-file.png)
-
-Note that the Unblock button is a Windows feauture and may not be avaailable. In this case check the information in the below point about the licenses.licx file.
-
-#### Errors caused by the Licenses.licx file
-
-Another reason for the Operation is not supported HRESULT: 0x80131515 and Exception from HRESULT: 0x80004003 (E_POINTER))' errors may be the licenses.licx file. You can delete its content, save and rebuild the app to fix the error as suggest on: [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors).
-
-If you see experience any troubles with the upgrade process, do not hesitate to ask for assistance in the Telerik Ticketing System or the [AJAX forums](https://www.telerik.com/forums/aspnet-ajax).
+>tip You should delete (or uninstall) the Trial version from your machine before upgrading to the licensed version. Doing so eliminates the chance of trial assemblies still making it into the project references or even production.
 
 ## See Also
+
+ * [Troubleshoot Upgrade Issues]()
 
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 
@@ -264,4 +95,3 @@ If you see experience any troubles with the upgrade process, do not hesitate to 
  * [DLL Hell Strikes Again Blog Post by Damien White](http://blogs.visoftinc.com/2014/08/10/dll-hell-strikes-again/)
  
  * [How to fix License File related errors](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors)
- 

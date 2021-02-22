@@ -10,63 +10,48 @@ position: 0
 
 # Filtering Overview
 
-
-
 **RadGrid** natively supports filtering of table columns for its master and detail tables. To enable or disable filtering, set the **AllowFilteringByColumn** property of the **RadGrid** or **GridTableView** control.
 
-When filtering is enabled, a [filtering item]({%slug grid/functionality/filtering/filtering-item%}) (**GridFilteringItem**) appears below the column header. The user can enter a filter criterion in the filter box. A drop-down list allows the user to select a filter expression that is applied to the criterion for the column. When the user presses the filter button (next to the filter box), the grid displays only the records matching the filter criteria specified using the filter boxes:
+To see filtering functionality in action, check out the [Filtering Demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx).
+
+When filtering is enabled, a [filtering item]({%slug grid/functionality/filtering/filtering-item%}) (**GridFilteringItem**) appears below the column header. The user can enter a filter criterion in the filter box. A drop-down list allows the user to select a filter expression that is applied to the filter criterion for the column, for example, *StartsWith*.
+
 ![Filtering](images/grd_Filtering.png)
 
-All filters in a single table are applied using AND operator. That is, only items (grid rows) that comply with all filters are displayed.
+All filters in a single table are applied using the AND operator so that only items (grid rows) that match all filters are displayed.
 
-**RadGrid** filters data internally, after data binding. Filtering can be fully customized by setting the value of **FilterExpression** property of the **GridTableView** control. Note that the value of this property overrides all other filtering.
+**RadGrid** filters data internally, after data binding. If you need to fully customize the filtering, use the **GridTableView** control and set the value of its **FilterExpression** property.
 
->caution The built-in filtering feature is not supported when you bind the grid by explicitly calling **DataBind()** .
->
+>* The value of the **FilterExpression** property overrides all other filtering settings.
+>* The built-in filtering feature is not supported when you bind the grid by explicitly calling **DataBind()**.
 
+## Setting Default Filter
 
-## Default settings
-
-You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties of the **GridColumn** object to specify the default filter function and default filter value that appear in the filter text box.
-
->caution When you set these properties, **RadGrid** displays this value as an initial filter but does NOT perform the filtering. For information on applying an initial filter, see [Applying default filter on initial load]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}).
->
-
+You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties of the **GridColumn** object to specify the default filter function and default filter value that appear in the filter text box. When you set these properties, **RadGrid** displays this value as an initial filter but does NOT apply the filtering. For information on applying an initial filter, see [Applying default filter on initial load]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}).
 
 Additionally, you can disable the filtering option for some of the grid columns by setting their **AllowFiltering** property to **False**.
 
->note Depending on the data source, the filtering may be case-sensitive or case-insensitive. You can control this behavior using the **GroupingSettings-CaseSensitive** property. In some *.NET 3.5* scenarios you should also turn off the **Linq** expressions - **EnableLinqExpressions="false"** 
->
+> Depending on the data source, the filtering may be case-sensitive or case-insensitive. You can control this behavior using the **GroupingSettings-CaseSensitive** property. In some *.NET 3.5* scenarios, you should also turn off the **Linq** expressions - **EnableLinqExpressions="false"**.
 
+## Filtering Menus
 
-## Filtering menus
+The filtering menu is represented by a drop-down list that is independent for each column in **RadGrid**. The available filter functions in the filtering menu are organized into three groups. You can specify the displayed filter functions group by setting the column's **FilterListOptions** property:
 
-The filtering menu is independent for each column in **RadGrid**.
+* **VaryByDataType** (the default value) - The list of filter functions depends on the **DataType** property of the column. For example, filter functions "StartsWith", "EndsWith... " are not available for columns with **DataType** integer.
 
-You can specify the group of possible filter functions that are displayed for a column by setting its **FilterListOptions** property. The **FilterListOptions** property has three possible values:
+  > The **DataType** property of a column is set during data binding. You can, however, set this property explicitly, which can alter the allowed filtering expressions. For example, if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
 
-* **VaryByDataType** (the default value) - The list of filter functions depends on the **DataType** property of the column. For example, filter functions "StartsWith", "EndsWith... " are not be available for columns with **DataType** integer.
+* **VaryByDataTypeAllowCustom** - The list of filter functions depends on the **DataType** property of the column, but an additional "Custom" item appears in the menu as well. If the user selects the "Custom" item, the value entered in the filter box is assumed to be a complete filter expression, including data field, operators, and value. This lets the user specify keywords and fields from the data source in the filter text box.
 
->note The **DataType** property of a column is set during data binding. You can, however, set this property explictly, which can alter the allowed filtering expressions. For example, if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
->
-
-
-* **VaryByDataTypeAllowCustom** - The list of filter functions depends on the **DataType** property of the column, but an additional "Custom" item appears in the menu as well. If the user selects the "Custom" item, the value entered in the filter box is assumed to be a complete filter expression, including data field, operators, and value. This lets the user specify key words and fields from the data source in the filter text box.
-
-* **AllowAllFilters** - The list of filter functions contains all possible filter expressions. Note that some data types are not applicable to some filter functions. For example, the 'like' function cannot be applied to an integer data type. In such cases, you should handle the filtering in a custom manner, using the **ItemCommand** event handler where the command name is "Filter"**.**
+* **AllowAllFilters** - The list of filter functions contains all possible filter expressions. Note that some data types do not apply to some filter functions. For example, the 'like' function cannot be applied to an integer data type. In such cases, you should handle the filtering in a custom manner, using the **ItemCommand** event handler where the command name is `Filter.`.
 
 Users can set a filter expression based on the rules specified in the corresponding column properties: **GridColumn.FilterFormatString**.
 
->note The filtering menu is presented by single object server-side. This implementation was chosen to speed up grid performance by creating one menu instance server side and cloning the instance for different columns.
->
-
+> The filtering menu is presented by a single server-side object. This implementation was chosen to speed up the grid's performance by creating one menu instance server-side and cloning the instance for different columns.
 
 ## Filter functions
 
-The **GridKnownFunction** enumeration lists the possible filter functions that can appear in the list of filter functions. The following table lists the possible **GridKnownFunction** values:
-
-
->caption  
+The **GridKnownFunction** enumeration lists the possible filter functions that can appear in the filtering menu. The following table represents the possible **GridKnownFunction** values:
 
 | Value | Description |
 | ------ | ------ |
@@ -89,11 +74,9 @@ The **GridKnownFunction** enumeration lists the possible filter functions that c
 |NotIsNull|Only those records that do not contain null values in the column.|
 |Custom|A custom filter function. The filter value should contain a valid filter expression, including data field, operators, and value.|
 
-In addition to the available filter expressions, you can create your own filter using the **GridFilterFunction** class.
+In addition to the available filter functions, you can create your own filter using the **GridFilterFunction** class.
 
->note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
->
-
+> With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead to the old T-SQL syntax. Only this way they will be evaluated properly by the control.
 
 There are also some useful shortcuts (achievable with several lines of javascript code) for applying filters when typing in the column header filter box and pressing the [**Enter**] key from the keyboard (illustrated in [this video](http://www.telerikwatch.com/2008/09/telerik-watch-minute-enhancing-radgrid.html)). Note that a prerequisite to trigger filter operation on [**Enter**] key press is to set the **AutoPostBackOnFilter**property of the corresponding column to **true**:
 
@@ -117,11 +100,7 @@ There are also some useful shortcuts (achievable with several lines of javascrip
 
 * If the user enters **[some_value][ ][some_other_value]** and hits [**Enter**] key, the grid will automatically use the **Between**filter function
 
->note To define a default filter function to be applied when you press the [Enter] key from the keyboard (when no shortcuts are used), use the **CurrentFilterFunction** property of the respective grid column.
->
-
-
-
+> To define a default filter function applied when you press the [Enter] key from the keyboard (when no shortcuts are used), use the **CurrentFilterFunction** property of the respective grid column.
 
 ## Using the ItemCommand event with filters
 
@@ -150,7 +129,7 @@ Another option is to set **FilterDelay** property for grid column that can be fi
 
 
 
->note When the FilterDelay property is set, the filtering will be triggered after the last key stroke with the filter delay time span being respected or immediately if [ENTER] has been hit. In addition, if AutoPostBackOnFilter has been set to true along with a FilterDelay time span, the filtering should be triggered immediately on [TAB] key press. If only AutoPostBackOnFilter has been set to true, the filtering should be triggered immediately on [TAB] and [ENTER] key press.
+> When the FilterDelay property is set, the filtering will be triggered after the last keystroke with the filter delay time span being respected or immediately if [ENTER] has been hit. In addition, if AutoPostBackOnFilter has been set to true along with a FilterDelay time span, the filtering should be triggered immediately on [TAB] key press. If only AutoPostBackOnFilter has been set to true, the filtering should be triggered immediately on [TAB] and [ENTER] key press.
 >
 
 

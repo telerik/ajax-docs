@@ -11,21 +11,23 @@ position: 9
 
 # RadCodeBlock and RadScriptBlock
 
-RadCodeBlock and RadScriptBlock are used to allow server and client script to work well together with AJAX updates. RadCodeBlock should be used when you have server code blocks placed within the markup. RadScriptBlock is used where you have JavaScript that evaluates after an AJAX request.
+This article describes how **RadCodeBlock** and **RadScriptBlock** work. We also provide a few simple examples that demonstrate how to use them.
 
-This article describes how **RadCodeBlock** and **RadScriptBlock** work and provides simple examples. You can use **RadCodeBlock** and **RadScriptBlock** to allow server and client script to work well together with AJAX updates.
+You can use **RadCodeBlock** and **RadScriptBlock** to allow server and client scripts to work together with the complex AJAX updates that are enabled by **RadAjaxManager**:
+
+* Use RadCodeBlock when you have server code blocks placed within the markup.
+
+* Use RadScriptBlock when you have a JavaScript that evaluates after an AJAX request.
 
 ## RadCodeBlock
 
-You should use **RadCodeBlock** when you have server code blocks placed within your markup (most often some JavaScript functions accessing server controls). **RadCodeBlock** (see **Example 1** ) isolates the code block and prevents the server error:
+The way how code blocks (server script within `<%= %>` tags) are implemented in ASP.NET may interfere with the **RadAjaxManager** render interception mechanism. To prevent this interference, use **RadCodeBlock** whenever you have server code blocks placed within your markup, for example, when some JavaScript functions access the server controls. **RadCodeBlock** isolates the code block and prevents server errors like this:
 
 *System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).*
 
-For more background on this issue see Rick Strahl's article, [Understanding how <% %>expressions render and why Controls.Add() doesn't work](http://www.west-wind.com/WebLog/posts/6148.aspx).
+For more background on this issue, see Rick Strahl's article, [Understanding how <% %>expressions render and why Controls.Add() doesn't work](http://www.west-wind.com/WebLog/posts/6148.aspx).
 
-The way code blocks (server script within "<%= %>"tags) are implemented in ASP.NET may interfere with the **RadAjaxManager** render interception mechanism.
-
-**Example 1** : Using a **RadCodeBlock** in your markup will isolate your code block and prevents the System.Web.HttpException server error.
+**Example 1** : Using a **RadCodeBlock** in your markup isolates your code block and prevents the `System.Web.HttpException` server error.
 
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -37,11 +39,11 @@ The way code blocks (server script within "<%= %>"tags) are implemented in ASP.N
 </telerik:RadCodeBlock>
 ````
 
-You can place as many RadCodeBlock elements on the page as needed. 
+You can place as many RadCodeBlock elements on the page as needed.
 
 ## RadScriptBlock
 
-You should use a **RadScriptBlock** (see **Example 2** ) where you have JavaScript that evaluates after an AJAX request, for example, when the content of **RadAjaxPanel** is updated asynchronously. You can also use a **RadScriptBlock** like a **RadCodeBlock** to handle server code blocks (<% ... %>).
+You should use a **RadScriptBlock** (see **Example 2** ) where you have JavaScript that evaluates after an AJAX request, for example, when the content of **RadAjaxPanel** is updated asynchronously. You can also use a **RadScriptBlock** like a **RadCodeBlock** to handle server code blocks (`<% ... %>`).
 
 RadScriptBlock wraps JavaScript where the JavaScript is located in an updating area. The example below shows a RadScriptBlock within a RadAjaxPanel.
 
@@ -92,4 +94,3 @@ You can put as many RadScriptBlock tags on the page as needed as shown in the ex
 * [Telerik RadCodeBlock vs RadScriptBlock](https://www.inalign.com/sitefinity/telerik-radcodeblock-vs-radscriptblock)
 
 * [Apply Client-side Logic to Initially Hidden Controls](https://www.telerik.com/support/kb/aspnet-ajax/details/apply-client-side-logic-to-initially-hidden-controls)
-

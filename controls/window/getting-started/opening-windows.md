@@ -10,7 +10,9 @@ position: 2
 
 # Opening Windows
 
-Several functions let you open a **RadWindow** object from your client-side JavaScript:
+In this article, we describe the methods and functions that you can use to open a **RadWindow**.
+
+Several functions let you open a **RadWindow** object through a client-side JavaScript:
 
 * The **show** method lets you open a single window that has been declared on your page when there is no **RadWindowManager** object. You can use ASP.NET AJAX's **$find** method to obtain a reference to the window.
 
@@ -34,9 +36,9 @@ oWnd.show();
 
 Both the **radopen()** function and the **GetRadWindowManager().open()** method take two required parameters and can take four optional parameters:
 
-* **Url** - This supplies the URL for the content window. If this is given an argument of null, the **NavigateUrl** property set for the window on the server is used.
+* **Url** - supplies the URL for the content window. If the given argument is null, the **NavigateUrl** property set for the window on the server is used.
 
-* **Name** - This is the ID of a particular (existing) **RadWindow** object to show. If this is given an argument of null, the function creates a new window with a random ID. If a window with the provided ID does not exist, a new one is created using this ID.
+* **Name** - the ID of the existing **RadWindow** object that you want to show. If the given argument is null, the function creates a new window with a random ID. If a window with the provided ID does not exist, a new one is created using this ID.
 
 * *Optional*: **content element** — a DOM element that will be placed in the [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the control. If one is provided and an URL is passed, the URL will be ignored. The *content element* argument is only available in the `RadWindowManagerInstance.open()` method, but *not* in the `window.radopen()` method.
 

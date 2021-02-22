@@ -10,52 +10,51 @@ position: 11
 
 # Insert a Default Item When Databinding RadComboBox
 
+This article shows how to add a default item that does not belong to the datasource of a databound RadComboBox. This is useful if you want to add a hint. For example, you can add the *Select a country* item to a ComboBox that is bound to datasource with countries. The *Select a country* item will appear as the default item and will remind the users to select a country before continuing.
 
+To add the default item:
 
-## 
+1. Set the **AppendDataBoundItems** property of the ComboBox to `True`. This ensures that both databound items and manually inserted items are shown in the dropdown.
 
-This article shows how to add a default item (like "Select a country") that does not belong to the datasource of a databound RadComboBox.
+1. Add the static item.
 
-The mandatory thing to do is to set the **AppendDataBoundItems** property of the combobox to *True*. This will ensure that both databound items and manually inserted item can be shows in the dropdown.
+   * You can add the item inline (in the `<Items>` `</Items>` section).
 
-The next step is to add the static item. You can add it either inline (in the `<Items>` `</Items>` section) or in the code behind. If you prefer the latter approach you need to add the item in the **DataBound** event of the combobox (not to be mistaken with [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event). The **DataBound** event fires after all items are bound and loaded to the combobox:
+   * You can add the item in the code behind. You need to add the item in the **DataBound** event of the ComboBox (not to be mistaken with [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event). The **DataBound** event fires after all items are bound and loaded to the combobox:
 
+	````C#
+		
+	protected void RadComboBox1_DataBound(object sender, EventArgs e) 
+	{ 
+		var combo = (RadComboBox)sender; 
+		combo.Items.Insert(0, new RadComboBoxItem("Select a country", string.Empty)); 
+	}
+		
+	````
+	````VB.NET
 
+	Protected Sub RadComboBox1_DataBound(ByVal sender As Object, ByVal e As EventArgs)
 
-````C#
-	
-protected void RadComboBox1_DataBound(object sender, EventArgs e) 
-{ 
-	var combo = (RadComboBox)sender; 
-	combo.Items.Insert(0, new RadComboBoxItem("Select a country", string.Empty)); 
-}
-	
-````
-````VB.NET
+		Dim combo As RadComboBox = DirectCast(sender, RadComboBox)
+		combo.Items.Insert(0, New RadComboBoxItem("Select a country", String.Empty))
 
-Protected Sub RadComboBox1_DataBound(ByVal sender As Object, ByVal e As EventArgs)
+	End Sub
+		
+	````
 
-	Dim combo As RadComboBox = DirectCast(sender, RadComboBox)
-	combo.Items.Insert(0, New RadComboBoxItem("Select a country", String.Empty))
+## Add a Default Item When Using Templates
 
-End Sub
-	
-````
-
-
-That was easy. What if your combobox uses [Templates]({%slug combobox/templates/overview%})? For example, the template could look like this:
+If your combobox uses [Templates]({%slug combobox/templates/overview%}), the template could look like this:
 
 ````C#
 <itemtemplate> 
 <ul>     
-   <li class="col1"><%# DataBinder.Eval(Container.DataItem, "CompanyName") %></li>     
-   <li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>     
-   <li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
+<li class="col1"><%# DataBinder.Eval(Container.DataItem, "CompanyName") %></li>     
+<li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>     
+<li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
 </ul>
 </itemtemplate>
 ````
-
-
 
 Now, if you just add a static item to the combobox - it will not be shown as an item when you open the dropdown. Because its DataItem property is NULL (since it is added as static item) and the DataBinder.Eval() expression returns nothing. Here is what you can do - the following code will insert the **Select a country** text in the first column of the combobox:
 
@@ -71,7 +70,5 @@ Now, if you just add a static item to the combobox - it will not be shown as an 
    <telerik:RadComboBoxItem Text="Select a country" />
 </Items> 
 ````
-
-
 
 This way, the "Select a country" item will have its DataItem property null, so the dropdown will take its **Text** property.

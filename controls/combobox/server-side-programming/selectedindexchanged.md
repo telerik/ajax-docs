@@ -10,31 +10,25 @@ position: 4
 
 # SelectedIndexChanged
 
+The **SelectedIndexChanged** event occurs when the user selects a new item from the drop-down list in the RadComboBox.
 
-
-## 
-
-The **SelectedIndexChanged** event occurs when the user selects a new item in the drop-down list.
-
->caution The **SelectedIndexChanged** event does not fire unless the **AutoPostBack** property is **True** .
->
-
+> To use the **SelectedIndexChanged**, set the **AutoPostBack** property to **True**. Otherwise, the **SelectedIndexChanged** event will not fire.
 
 The **SelectedIndexChanged** event handler receives two arguments:
 
-1. The **RadComboBox** that is loading items. This argument is of type object, but can be cast to the **RadComboBox** type.
+1. The **RadComboBox** that is loading items. This argument is of type object but can be cast to the **RadComboBox** type.
 
 1. An EventArgs object. This object has the following properties for identifying what has changed:
 
-* **Text** is the text of the item that was just selected.
+   * **Text** is the text of the item that was just selected.
 
-* **Value** is the value of the item that was just selected.
+   * **Value** is the value of the item that was just selected.
 
-* **OldText** is the text of the item that was previously selected
+   * **OldText** is the text of the item that was previously selected
 
-* **OldValue** is the value of the item that was previously selected
+   * **OldValue** is the value of the item that was previously selected
 
-Use the **SelectedIndexChanged** event handler to respond in server-side code when the user changes the current selection:
+The following examples demonstrate how to use the **SelectedIndexChanged** event handler to respond in server-side code when the user changes the current selection:
 
 ````ASPNET
 <telerik:radcombobox 
