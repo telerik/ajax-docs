@@ -3,7 +3,7 @@ title: Empty Link error for Editor tools when validated with Wave
 description: WAVE gives an "Empty Link" error for the tools in the Editor's toolbar. 
 type: troubleshooting
 page_title: Empty Link error for Editor tools when validated with Wave
-slug: empty-link-for-editor-tools-when-validated-with-wave
+slug: editor-empty-link-for-editor-tools-when-validated-with-wave
 position: 
 tags: wave, editor, accessibility
 ticketid:
