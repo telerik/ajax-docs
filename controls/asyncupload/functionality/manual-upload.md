@@ -28,13 +28,11 @@ The **resumeUpload()** method resumes the upload that was paused.
 
 ## See Also
 
-* [Manual Upload online demo](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/manualupload/defaultcs.aspx)
+* [Control over Upload Process(Manual Upload) online demo](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/manualupload/defaultcs.aspx)
 
 * [Getting Started]({%slug asyncupload/getting-started%})
 
 * [Filtering]({%slug asyncupload/functionality/file-filtering%})
 
 * [Multiple File Selection]({%slug asyncupload/functionality/multiple-file-selection%})
-
-* [Control over Upload Process online demo](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/manualupload/defaultcs.aspx)
 
