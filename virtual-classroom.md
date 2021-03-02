@@ -7,7 +7,7 @@ previous_url: virtual-calssroom
 position: 1595
 ---
 
-# Telerik UI for ASP.NET AJAX
+# Online Technical Training
 
 Telerik UI for ASP.NET AJAX includes a technical online training available for active license holders. The training is part the Progress Telerik<sup>®</sup> Video Learning Platform and covers multiple topics related to setup, installation and building applications with Telerik components.
 
