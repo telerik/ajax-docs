@@ -7,21 +7,20 @@ previous_url: virtual-calssroom
 position: 1595
 ---
 
-# Virtual Classroom
+# Telerik UI for ASP.NET AJAX
 
-The Progress<sup>®</sup> Virtual Classroom contains product-focused training courses and represent a Getting Started technical training exclusive to active license holders.
+Telerik UI for ASP.NET AJAX includes a technical online training available for active license holders. The training is part the Progress Telerik<sup>®</sup> Video Learning Platform and covers multiple topics related to setup, installation and building applications with Telerik components.
 
-Each session provides practical knowledge combined with helpful approaches to application development which are suitable for both junior and senior developers.
+The training format and syllabus allow learning at your own pace and referring to topics of interest when needed. It covers all the needed material from ASP.NET Web Forms technology basics to installation and integration of Telerik UI for ASP.NET AJAX controls. The course provides a great way for onboarding new team members and it boosts developer productivity with hands-on experience for building a real-world application, along with multiple how-to topics, code examples, and important additions and resources.
 
-The benefits of the Virtual Classroom program are:
-* Empowering your developer productivity.
-* Helping you gain new skills.
-* Growing your product know-how.
-* Improving your getting started experience.
-* Letting you learn at your own pace.
-* Letting you choose your own learning path.
-* Exploring common development practices, code examples, and sample applications.
+The Telerik UI for ASP.NET AJAX technical online training has an approximate duration of 2 hours and it’s split into seven modules with the following learning path:
+* **Chapter 1: Introduction** (Course Overview)
+* **Chapter 2: ASP.NET Web Forms Fundamentals** (Server-side vs. Client-side rendering, Architecture, Page Lifecycle, Platform features, Structure and syntax)
+* **Chapter 3: Get Started** (Installation of Telerik UI for ASP.NET AJAX, Project setup, RadScriptManager, RadStylesheetManager, Rendering modes, Device detection framework, Exporting to documents)
+* **Chapter 4: Server-side APIs** (Data binding, RadGrid, Postback vs. AJAX, Enabling AJAX with Telerik AJAX controls)
+* **Chapter 5: Client-side APIs** (RadAlert, RadGrid Client API, Styling and Theme Builder, Binding OData)
+* **Chapter 6: Important Additions** (Deploying projects, RadChat, Chatbots and Conversational UI, HTML and Accessibility compliance, TestStudio integration)
+* **Chapter 7: Conclusion** (Learning and Support Resources)
 
-To get started with the trainings, refer to:
-* [Telerik Web UI for ASP.NET AJAX Classroom](https://learn.telerik.com/learn/course/external/view/elearning/5/Telerik%20UI%20for%20ASP.NET%20AJAX)
-* [All-Progress Products Virtual Classroom](https://learn.telerik.com/)
+To get started with the Telerik UI for ASP.NET AJAX online training, visit our learning portal with all [All-Progress Products Virtual Classroom Courses](https://learn.telerik.com/learn) or jump directly to [Telerik UI for ASP.NET AJAX Online Training](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax).
+
