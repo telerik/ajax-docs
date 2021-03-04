@@ -27,7 +27,7 @@ In order to make RadEditor editable on click, hide it and save its content when 
 
 Here is the whole code solution:
 
-````ASPX
+````ASP.NET
 <div id="lContent">Sample Content 123</div>  
 <div style="display:none" id="tContent">   
     <telerik:radeditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">   
@@ -79,7 +79,7 @@ function lContent_Click()
 
 In order to make RadEditor editable on double click, hide it and save its content on custom button click, use the code below:
 
-````ASPX
+````ASP.NET
 <style>  
 .annotation   
 {   
