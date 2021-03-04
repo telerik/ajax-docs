@@ -11,7 +11,7 @@ res_type: kb
 
 In scenarios in which RadEditor and an **<asp:ImageButton** or an **<asp:Button** are placed inside a **<telerik:RadAjaxPanel** or an **<asp:UpdatePanel** and the editor's content is updated by pressing the <asp:ImageButton or an <asp:Button the editor's content is not populated:
 
-````ASPX
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager2" runat="server" /> 
 <telerik:RadAjaxPanel ID="RadAjaxPanel2" runat="server">  
         <asp:Panel ID="Panel1" runat="server">  
@@ -57,7 +57,7 @@ OR use <telerik:RadAjaxPanel> instead of <asp:UpdatePanel>. RadAjaxPanel will ad
 ### Solution for <asp:ImageButton> controls:
 Since the <asp:ImageButton does not offer such an UseSubmitBehavior property, we develop a workaround that tricks the MS AJAX framework, here it is:
 
-````ASPX
+````ASP.NET
 <asp:ImageButton OnClientClick="javascript:__doPostBack(this.id,'');return false;"
 ID="ImageButton1" runat="server" OnClick="btnSave_Click"
 ImageUrl="Save.gif" />
