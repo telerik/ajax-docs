@@ -46,29 +46,29 @@ To add the default item:
 
 If your combobox uses [Templates]({%slug combobox/templates/overview%}), the template could look like this:
 
-````C#
-<itemtemplate> 
-<ul>     
-<li class="col1"><%# DataBinder.Eval(Container.DataItem, "CompanyName") %></li>     
-<li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>     
-<li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
-</ul>
-</itemtemplate>
+````ASP.NET
+<ItemTemplate>
+    <ul>
+        <li class="col1"><%# DataBinder.Eval(Container.DataItem, "CompanyName") %></li>
+        <li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>
+        <li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
+    </ul>
+</ItemTemplate>
 ````
 
 Now, if you just add a static item to the combobox - it will not be shown as an item when you open the dropdown. Because its DataItem property is NULL (since it is added as static item) and the DataBinder.Eval() expression returns nothing. Here is what you can do - the following code will insert the **Select a country** text in the first column of the combobox:
 
-````C#
+````ASP.NET
 <ItemTemplate>
-<ul>
-	<li class="col1"><%# Container.DataItem != null ? DataBinder.Eval(Container.DataItem, "CompanyName") : DataBinder.Eval(Container, "Text") %></li>
-	<li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>
-	<li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
-</ul>
+    <ul>
+        <li class="col1"><%# Container.DataItem != null ? DataBinder.Eval(Container.DataItem, "CompanyName") : DataBinder.Eval(Container, "Text") %></li>
+        <li class="col2"><%# DataBinder.Eval(Container.DataItem, "City") %></li>
+        <li class="col3"><%# DataBinder.Eval(Container.DataItem, "ContactTitle") %></li>
+    </ul>
 </ItemTemplate>
 <Items>
-   <telerik:RadComboBoxItem Text="Select a country" />
-</Items> 
+    <telerik:RadComboBoxItem Text="Select a country" />
+</Items>
 ````
 
 This way, the "Select a country" item will have its DataItem property null, so the dropdown will take its **Text** property.
