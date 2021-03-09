@@ -13,7 +13,7 @@ position: 0
 
 This article describes how to customize the **Edit**, **Update**, **Cancel**, and **Insert** buttons in [GridEditCommandColumn]({%slug grid/columns/column-types%}#grideditcommandcolumn) and [GridButtonColumn]({%slug grid/columns/column-types%}#gridbuttoncolumn).
 
-The examples below explain how to customize the buttons in Grid's View mode. If you need to customize these buttons in Edit or Insert mode, see [Customizing the Appearance of Auto-generated Action Buttons](grid/how-to/data-editing/customizing-the-appearance-of-auto-generated-action-buttons).
+The examples below explain how to customize the buttons in Grid's View mode. If you need to customize these buttons in Edit or Insert mode, see [Customizing the Appearance of Auto-generated Action Buttons]({%slug grid/how-to/data-editing/customizing-the-appearance-of-auto-generated-action-buttons%}).
 
 ## Customize the Auto-Generated Edit and Delete Column Buttons
 
