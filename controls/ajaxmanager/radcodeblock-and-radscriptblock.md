@@ -94,3 +94,5 @@ You can put as many RadScriptBlock tags on the page as needed as shown in the ex
 * [Telerik RadCodeBlock vs RadScriptBlock](https://www.inalign.com/sitefinity/telerik-radcodeblock-vs-radscriptblock)
 
 * [Apply Client-side Logic to Initially Hidden Controls](https://www.telerik.com/support/kb/aspnet-ajax/details/apply-client-side-logic-to-initially-hidden-controls)
+
+
