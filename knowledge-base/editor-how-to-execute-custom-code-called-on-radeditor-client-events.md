@@ -3,7 +3,7 @@ title: How to execute custom code called on RadEditor client-side events
 description: See how to export RadEditor content to PDF
 type: how-to
 page_title: How to execute custom code called on RadEditor client events
-slug: how-to-execute-custom-code-called-on-radeditor-client-events
+slug: editor-how-to-execute-custom-code-called-on-radeditor-client-events
 res_type: kb
 ---
 
