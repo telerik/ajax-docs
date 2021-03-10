@@ -195,3 +195,5 @@ In a new AJAX Enabled Web Application:
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
  * [Overview]({%slug editor/managing-content/getting-and-setting-content/overview%})
+
+ * [RadGrid Edit Template demo](https://demos.telerik.com/aspnet-ajax/editor/examples/edittemplate/defaultcs.aspx_
