@@ -10,7 +10,7 @@ position: 11
 
 # Code Snippets
 
-The Code snippets dropdown (<tool name="InsertSnippet" />) is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the **Snippets** collection. You can add to the Snippets collection declaratively, programmatically and using the ToolsFile.
+The Code snippets dropdown (&lt;tool name="InsertSnippet" /&gt;) is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the **Snippets** collection. You can add to the Snippets collection declaratively, programmatically and using the ToolsFile.
 
 ![](images/editor-dropdowns015.png)
 
