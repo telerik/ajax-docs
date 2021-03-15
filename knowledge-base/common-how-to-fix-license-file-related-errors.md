@@ -73,6 +73,13 @@ If the above does not help:
  * restart the PC
  * and test again the project
  
+## Alternative solution based on a third party NuGet project:
+
+The [EmptyLicensesLicx](https://github.com/augustoproiete/EmptyLicensesLicx) is a NuGet Package to ensure the empty license.licx is present and working in Visual Studio.
+
+For details of why the error occurs see the readme on the GitHub project. The [developer](https://github.com/augustoproiete) behind the project does a wonderful job of breaking down the [problem](https://github.com/augustoproiete/EmptyLicensesLicx#the-problem) and [solution](https://github.com/augustoproiete/EmptyLicensesLicx#the-solution). 
+
+ 
 ### Missing Licenses licx file
 If for some reason the license.licx file is missing and you are getting build errors because of it, you can rebuild the application and it should be recreated. 
 Another approach is to create an empty license.licx file in the root of your Web Site or in the /ProjectName/Properties folder, if you are developing a Web Application project.
