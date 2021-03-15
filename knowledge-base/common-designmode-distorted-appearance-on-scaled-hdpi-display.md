@@ -3,6 +3,7 @@ title: Distorted appearance in Design Mode running on scaled HiDPI display
 description: Design Mode - Appearance issues when runing VisualStudio on HiDPI monitor. Disable DPI-awarness.
 type: troubleshooting
 page_title: Distorted appearance in Design Mode running on scaled HiDPI display
+slug: common-designmode-distorted-appearance-on-scaled-hdpi-display
 ticketid: 1506664
 res_type: kb
 ---
