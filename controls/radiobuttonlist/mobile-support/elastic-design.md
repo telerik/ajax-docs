@@ -33,9 +33,9 @@ This article explains the **elastic design capabilities RadRadioButtonList offer
 ````ASP.NET
 <telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
 	<Items>
-        <telerik:RadioButtonListItem Text="English" Selected="true" />
-        <telerik:RadioButtonListItem Text="German" />
-        <telerik:RadioButtonListItem Text="French" />
+        <telerik:ButtonListItem Text="English" Selected="true" />
+        <telerik:ButtonListItem Text="German" />
+        <telerik:ButtonListItem Text="French" />
     </Items>
 </telerik:RadRadioButtonList>
 ````
