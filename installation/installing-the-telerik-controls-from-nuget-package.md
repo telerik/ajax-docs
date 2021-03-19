@@ -66,7 +66,7 @@ You have successfully added the Telerik NuGet feed as a Package source. The step
 
 ## Available Telerik NuGet packages
 
-The Telerik NuGet Feed allows you to install not only the UI for ASP.NET AJAX packages. You can also install packages with:
+The Telerik NuGet Feed allows you to install not only the UI for ASP.NET AJAX packages. You can also install packages that contain:
 
 * [Telerik ZIP Library]({%slug introduction/installation/included-assemblies %}#telerik-zip-library).
 
@@ -91,6 +91,14 @@ The following table lists the packages available in the Telerik NuGet Feed and t
 | Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg | Telerik.Windows.Documents.CMapUtils.dll |
 | Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg | Telerik.Windows.Documents.Core.dll |
 | Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg | Telerik.Documents.SpreadsheetStreaming.dll |
+
+>tip Besides the packages listed above, Telerik provides a number of additional libraries that are available when you install UI for ASP.NET AJAX [from an MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [from a ZIP file]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}). For example: 
+>
+>* Newtonsoft.Json.dll
+>* Telerik.Web.Spreadsheet.dll
+>
+>These libraries are available in the `AdditionalLibraries` folder within the UI for ASP.NET AJAX installation directory.
+
 
 ## Downloading a NuGet Package
 
