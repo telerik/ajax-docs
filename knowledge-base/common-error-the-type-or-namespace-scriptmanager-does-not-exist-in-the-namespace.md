@@ -1,8 +1,8 @@
 ---
-title: Error: The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
-description: See how to fix the Error: The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
+title: Error - The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
+description: See how to fix the Error - The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
 type: troubleshooting
-page_title: Error: The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
+page_title: Error - The type or namespace 'ScriptManager' does not exist in the namespace 'System.Web.UI'
 slug: common-error-the-type-or-namespace-scriptmanager-does-not-exist-in-the-namespace
 res_type: kb
 ---
@@ -19,9 +19,10 @@ If you get a ScriptManager related error like follows, the tips below may help y
 
 1.  Add the following Page directive to the aspx/ascx file:
 
-    ````ASP.NET
-    <%@ Register TagPrefix="asp" Namespace="System.Web.UI" Assembly="System.Web"%>
-    ````
+ ````ASP.NET
+ <%@ Register TagPrefix="asp" Namespace="System.Web.UI" Assembly="System.Web"%>
+ ````
+
 1. Remove the ID attribute from the ScriptManager declaration (for example `ID="ScriptManager1"`) in the aspx/ascx file and delete the protected `global::System.Web.UI.ScriptManager ScriptManager1` declaration from the designer.cs file.
 
 1. Search in the designer for System.Web.UI.WebControls.ScriptManager and replace it with System.Web.UI.ScriptManager.
