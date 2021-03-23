@@ -150,6 +150,11 @@ In R1 2018, the `nuget.exe` version we use was updated from `2.8` to `4.3`. This
 
 Due to this update, you may get the error below when using Visual Studio 2012 that uses the NuGet Package Manager version 2.0. The **solution is to upgrade the NuGet Package Manager to version 2.8**.
 
+### Error: [Telerik NuGet] The V2 feed at 'https://nuget.telerik.com/nuget/Search()?$filter=IsLatestVersion&searchTerm='telerik'&targetFramework='net45'&includePrerelease=false&$skip=0&$top=26&semVerLevel=2.0.0' returned an unexpected status code '401 Logon failed.'.
+
+See the following forum thread on the matter: nuget can't connect to [https://nuget.telerik.com/nuget](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
+ 
+
 ## Additional Resources
 
 * [Azure DevOps and Telerik NuGet Packages](https://www.telerik.com/blogs/azure-devops-and-telerik-nuget-packages)
