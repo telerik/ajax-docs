@@ -181,6 +181,150 @@ Below is an example of a ToolsFile:
 </root> 			
 ````
 
+## Full Set of Tools Setup
+
+````ASP.NET
+        <telerik:RadEditor ID="RadEditor1" runat="server">
+            <Tools>
+                <telerik:EditorToolGroup>
+                    <telerik:EditorTool Name="XhtmlValidator" />
+                    <telerik:EditorTool Name="PageProperties" />
+                    <telerik:EditorTool Name="StyleBuilder" />
+                    <telerik:EditorTool Name="TrackChangesDialog" />
+                    <telerik:EditorTool Name="FormatCodeBlock" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertImage" />
+                    <telerik:EditorTool Name="InsertLink" />
+                    <telerik:EditorTool Name="InsertTableLight" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertFormElement" />
+                    <telerik:EditorTool Name="InsertFormForm" />
+                    <telerik:EditorTool Name="InsertFormButton" />
+                    <telerik:EditorTool Name="InsertFormCheckbox" />
+                    <telerik:EditorTool Name="InsertFormHidden" />
+                    <telerik:EditorTool Name="InsertFormPassword" />
+                    <telerik:EditorTool Name="InsertFormRadio" />
+                    <telerik:EditorTool Name="InsertFormReset" />
+                    <telerik:EditorTool Name="InsertFormSelect" />
+                    <telerik:EditorTool Name="InsertFormSubmit" />
+                    <telerik:EditorTool Name="InsertFormTextarea" />
+                    <telerik:EditorTool Name="InsertFormText" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="StripAll" />
+                    <telerik:EditorTool Name="StripCss" />
+                    <telerik:EditorTool Name="StripFont" />
+                    <telerik:EditorTool Name="StripSpan" />
+                    <telerik:EditorTool Name="StripWord" />
+                    <telerik:EditorTool Name="FormatStripper" />
+                </telerik:EditorToolGroup>
+                <telerik:EditorToolGroup>
+                    <telerik:EditorTool Name="AjaxSpellCheck" />
+                    <telerik:EditorTool Name="ImageManager" ShortCut="CTRL+M" />
+                    <telerik:EditorTool Name="SetImageProperties" />
+                    <telerik:EditorTool Name="ImageMapDialog" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="FlashManager" />
+                    <telerik:EditorTool Name="MediaManager" />
+                    <telerik:EditorTool Name="InsertExternalVideo" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="DocumentManager" />
+                    <telerik:EditorTool Name="TemplateManager" />
+                    <telerik:EditorTool Name="SilverlightManager" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertTable" />
+                    <telerik:EditorTool Name="InsertRowAbove" />
+                    <telerik:EditorTool Name="InsertRowBelow" />
+                    <telerik:EditorTool Name="DeleteRow" />
+                    <telerik:EditorTool Name="InsertColumnLeft" />
+                    <telerik:EditorTool Name="InsertColumnRight" />
+                    <telerik:EditorTool Name="DeleteColumn" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="MergeColumns" />
+                    <telerik:EditorTool Name="MergeRows" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="SplitCell" />
+                    <telerik:EditorTool Name="SplitCellHorizontal" />
+                    <telerik:EditorTool Name="DeleteCell" />
+                    <telerik:EditorTool Name="SetCellProperties" />
+                    <telerik:EditorTool Name="SetTableProperties" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertSymbol" />
+                </telerik:EditorToolGroup>
+                <telerik:EditorToolGroup>
+                    <telerik:EditorTool Name="Undo" />
+                    <telerik:EditorTool Name="Redo" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="Cut" />
+                    <telerik:EditorTool Name="Copy" />
+                    <telerik:EditorTool Name="Paste" ShortCut="CTRL+!" />
+                    <telerik:EditorTool Name="PasteMarkdown" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="PasteFromWord" />
+                    <telerik:EditorTool Name="PasteFromWordNoFontsNoSizes" />
+                    <telerik:EditorTool Name="PastePlainText" />
+                    <telerik:EditorTool Name="PasteAsHtml" />
+                    <telerik:EditorTool Name="PasteHtml" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="Print" />
+                    <telerik:EditorTool Name="FindAndReplace" />
+                    <telerik:EditorTool Name="SelectAll" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertGroupbox" />
+                    <telerik:EditorTool Name="InsertParagraph" />
+                    <telerik:EditorTool Name="InsertHorizontalRule" />
+                    <telerik:EditorTool Name="InsertSnippet" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="InsertDate" />
+                    <telerik:EditorTool Name="InsertTime" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="AboutDialog" />
+                    <telerik:EditorTool Name="Help" />
+                    <telerik:EditorTool Name="ToggleScreenMode" />
+                </telerik:EditorToolGroup>
+                <telerik:EditorToolGroup>
+                    <telerik:EditorTool Name="Bold" />
+                    <telerik:EditorTool Name="Italic" />
+                    <telerik:EditorTool Name="Underline" />
+                    <telerik:EditorTool Name="StrikeThrough" />
+                    <telerik:EditorTool Name="ForeColor" />
+                    <telerik:EditorTool Name="BackColor" />
+                    <telerik:EditorTool Name="FormatPainter" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="JustifyLeft" />
+                    <telerik:EditorTool Name="JustifyCenter" />
+                    <telerik:EditorTool Name="JustifyRight" />
+                    <telerik:EditorTool Name="JustifyFull" />
+                    <telerik:EditorTool Name="JustifyNone" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="Superscript" />
+                    <telerik:EditorTool Name="Subscript" />
+                    <telerik:EditorSeparator></telerik:EditorSeparator>
+                    <telerik:EditorTool Name="ConvertToLower" />
+                    <telerik:EditorTool Name="ConvertToUpper" />
+                    <telerik:EditorTool Name="Indent" />
+                    <telerik:EditorTool Name="Outdent" />
+                    <telerik:EditorTool Name="InsertOrderedList" />
+                    <telerik:EditorTool Name="InsertUnorderedList" />
+                    <telerik:EditorTool Name="AbsolutePosition" />
+                    <telerik:EditorTool Name="LinkManager" />
+                    <telerik:EditorTool Name="Unlink" />
+                    <telerik:EditorTool Name="SetLinkProperties" />
+                    <telerik:EditorTool Name="ToggleTableBorder" />
+                </telerik:EditorToolGroup>
+                <telerik:EditorToolGroup>
+                    <telerik:EditorTool Name="FontName" />
+                    <telerik:EditorTool Name="FontSize" />
+                    <telerik:EditorTool Name="RealFontSize" />
+                    <telerik:EditorTool Name="ApplyClass" />
+                    <telerik:EditorTool Name="InsertCustomLink" />
+                    <telerik:EditorTool Name="FormatBlock" />
+                    <telerik:EditorTool Name="FormatSets" />
+                    <telerik:EditorTool Name="Zoom" />
+                </telerik:EditorToolGroup>
+            </Tools>
+        </telerik:RadEditor>
+````
+
 ## See Also
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
