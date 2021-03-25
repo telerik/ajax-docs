@@ -58,9 +58,10 @@ or
 Could not load file or assembly 'Telerik.Web.UI, Version=20xx.x.xxx.xx, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. Invalid pointer (Exception from HRESULT: 0x80004003 (E_POINTER))' 
 
 you can solve them by:
- * Deleting the contents of the license.licx and making it read only
- * Or deleting the whole license.licx file and rebuild
- * Or right-clicking the Telerik.Web.UI.dll file in Windows Explorer, select Properties, and then click the 'Unblock' button on the General tab near the bottom.
+ * Since the error could happen if the installed .NET Runtime assemblies are different than the project's configured .NET Runtime (targetFramework), make sure that the targetFramework of the app matches the .NET version of the Telerik Web UI assemblies. If the app is built against .NET 4.0, use the Telerik assemblies built for .NET 4.0 (in the manual installation they reside inside the Bin40 folder, for NET 4.5 and above, use the assemblies in the Bin45 folder). One way to test if this is the cause of the issue is to double-click on the error in the Visual Studio Output window which will open the file with the error. Upon opening the file, Visual Studio will then do some thinking and then the error will disappear.
+ * Another reason for the error is the existence of old versions of the Telerik assemblies declared inside the licenses.licx file. Open the file and Delete the contents of the license.licx and making it read only.
+ * Alternatively, you can also delete the whole license.licx file and rebuild
+ * Or right-click the Telerik.Web.UI.dll file in Windows Explorer, select Properties, and then click the 'Unblock' button on the General tab near the bottom.
  * Or if your app is under the source control to make it ignore the license file so any changes on a developer machine won't make it into the build machine or anywhere elsewhere.
 
 A customer report indicates that if the reference errors persist after following these steps, the solution was to re-install the NuGet package microsoft.bcl.build.
@@ -73,7 +74,7 @@ If the above does not help:
  * restart the PC
  * and test again the project
  
-## Alternative solution based on a third party NuGet project:
+## Alternative solution based on a third party NuGet project to ensure that the license file is cleared before compiling the application:
 
 The [EmptyLicensesLicx](https://github.com/augustoproiete/EmptyLicensesLicx) is a NuGet Package to ensure the empty license.licx is present and working in Visual Studio.
 
