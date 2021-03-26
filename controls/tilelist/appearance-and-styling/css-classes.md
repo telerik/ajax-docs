@@ -41,7 +41,12 @@ position: 1
 >note To further customize the Tiles in the TileList as standalone objects, you should follow the [RadBaseTile's CSS Classes article]({%slug tilelist/tiles/appearance-and-styling/css-classes%}).
 >
 
+Find sample on how to use the CSS classes for adding border, padding and border to RadTileList Groups in the [dedicated KB article]({%slug tilelist-add-border-padding-and-margin-to-tilelistgroup%}).
+
 
 # See Also
 
  * [CSS Classes]({%slug tilelist/tiles/appearance-and-styling/css-classes%})
+
+ * [Add border, padding, and margin to RadTileList Groups]({%slug tilelist-add-border-padding-and-margin-to-tilelistgroup%})
+
