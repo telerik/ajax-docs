@@ -93,6 +93,7 @@ If you need to show different markers depending on the series item value/categor
                 }
 
                 else if (category == 3) {
+                    //draw circle
                     var CircGeometry = new geom.Circle([center.x, center.y], 10);
 
                     var path = new kendo.drawing.Circle(CircGeometry, {
@@ -101,8 +102,7 @@ If you need to show different markers depending on the series item value/categor
                     });
                 }
                 else if (category == 4) {
-
-                    //or draw any desired custom shape lice arc
+                    //draw any desired custom shape like arc
                     var radius = 10;
                     var path = new kendo.drawing.Path({
                         stroke: {
