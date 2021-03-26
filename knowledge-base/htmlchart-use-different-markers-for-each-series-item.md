@@ -1,6 +1,6 @@
 ---
 title: How to Use Different Markers for Each Series Item
-description: Use different markers for each series item
+description: In this article you will see how to use different markers for each series item, based on the item value.
 type: how-to
 page_title: How to use different marker for each series item
 slug: htmlchart-use-different-markers-for-each-series-item
