@@ -1,6 +1,6 @@
 ---
 title: How to produce relative path for links when MakeUrlsAbsolute content filter enabled
-description: See how to produce relative paths for links when MakeUrlsAbsolute content filter enabled
+description: See how to produce relative paths for links when MakeUrlsAbsolute content filter of RadEditor is enabled.
 type: how-to
 page_title: How to produce relative paths for links when MakeUrlsAbsolute content filter enabled
 slug: editor-how-to-produce-relative-path-for-links-when-makeurlsabsolute-content-filter-enabled
