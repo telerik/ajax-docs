@@ -41,13 +41,13 @@ Private Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-However, this approach will raise the Page_Load event. In some cases, there might be a specific logic in the Page Load event, which, if executed twice may result in a different outcome.
+However, this approach will raise the Page_Load event. In some cases, there might be a specific logic in the Page Load event, which, if executed twice may produce a different outcome.
 
 ## Solution
 
-Instead of calling the [RadAlert() server-side method](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/alert,-confirm,-prompt-dialogs/radalert-dialog#calling-radalert-from-the-code-behind), call the [radalert() client-side method](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/alert,-confirm,-prompt-dialogs/radalert-dialog#calling-radalert-via-javascript) by [registering a StartupScript](https://www.telerik.com/support/kb/aspnet-ajax/details/executing-javascript-code-from-server-side-in-web-forms-and-asp.net-ajax) when the PostBack occurs.
+Instead of calling the Server-Side "[RadAlert()](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/alert,-confirm,-prompt-dialogs/radalert-dialog#calling-radalert-from-the-code-behind)", register the Client-Side "[radalert()](https://docs.telerik.com/devtools/aspnet-ajax/controls/window/alert,-confirm,-prompt-dialogs/radalert-dialog#calling-radalert-via-javascript)" method [as a StartupScript](https://www.telerik.com/support/kb/aspnet-ajax/details/executing-javascript-code-from-server-side-in-web-forms-and-asp.net-ajax).
 
-Make sure to have a RadAjaxManager on the Page
+Make sure to have a RadWindowManager on the Page. The Server-Side "RadAlert()" and Client-Side "radalert()" methods are part of the RadWindowManager APIs.
 
 ````XML
 <telerik:RadWindowManager ID="RadWindowManager1" runat="server"></telerik:RadWindowManager>
