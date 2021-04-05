@@ -40,15 +40,21 @@ To add a new filter expression to your client-side bound grid, one should call t
 ````JavaScript
 <script type="text/javascript">
     function AddFilterExpression(grid, columnUniqueName, dataField, filterFunction, filterValue) {
-        var filterExpression = new Telerik.Web.UI.GridFilterExpression();
-        var column = grid.get_masterTableView().getColumnByUniqueName(columnUniqueName);
-        column.set_filterFunction("Contains");
-        filterExpression.set_fieldName(dataField);
-        filterExpression.set_fieldValue(filterValue);
-        filterExpression.set_filterFunction(filterFunction);
-        filterExpression.set_columnUniqueName(columnUniqueName);
-        grid.get_masterTableView()._updateFilterControlValue(filterValue, columnUniqueName, filterFunction);
-        grid.get_masterTableView()._filterExpressions.add(filterExpression);
+        /* Some of the FilterControls such as a DatePicker, may have not finished rendering, as a result the Object is not available 
+        and getting/setting their values cannot be done.
+        For that reason, applying a little delay using setTimeout() function. 
+        This will put the script execution in order, and ensures that the Filter Controls are rendered before applying new Expressions. */
+        setTimeout(function () {
+            var filterExpression = new Telerik.Web.UI.GridFilterExpression();
+            var column = grid.get_masterTableView().getColumnByUniqueName(columnUniqueName);
+            column.set_filterFunction("Contains");
+            filterExpression.set_fieldName(dataField);
+            filterExpression.set_fieldValue(filterValue);
+            filterExpression.set_filterFunction(filterFunction);
+            filterExpression.set_columnUniqueName(columnUniqueName);
+            grid.get_masterTableView()._updateFilterControlValue(filterValue, columnUniqueName, filterFunction);
+            grid.get_masterTableView()._filterExpressions.add(filterExpression);
+        }, 15);
     }
 </script>
 ````
