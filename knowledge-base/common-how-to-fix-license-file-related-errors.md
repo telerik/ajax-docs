@@ -13,9 +13,10 @@ Sometimes when upgrading a Web Site or Web App project to a newer version of Tel
  * [licenses.licx (1): Unable to resolve type 'Telerik.Web.UI.Rad<control_name>, Telerik.Web.UI, Version=201x.x.xxxx.xx, Culture=neutral, PublicKeyToken=121fae78165ba3d4'](#could-not-load-file-or-assembly)
  * [Processing complist 'Properties\licenses.licx'...
 12>C:\Projects\<Project Name>\Properties\licenses.licx(3): error LC0004: Exception occurred creating type 'Telerik.Web.UI.<Control_Name>, Telerik.Web.UI, Version=201x.x.xxxx.xx, Culture=neutral, PublicKeyToken=121fae78165ba3d4' System.MissingMethodException: Constructor on type 'Telerik.Web.UI.<Control_Name>' not found](#could-not-load-file-or-assembly)
+ * [Alternative NuGet solution](#alternative-nuget-solution)
  * [License file is missing](#missing-licenses-licx-file)
  * [License file is not updated and contains information for older versions of the controls](#license-file-is-not-updated-and-contains-information-for-older-versions-of-the-controls)
- * [Task could not find "LC.exe" using the SdkToolsPath](#task-could-not-find-lc.exe-using-the-sdktoolspath)
+ * [Task could not find "LC.exe" using the SdkToolsPath](#task-could-not-find-lcexe-using-the-sdktoolspath)
  * [Could not transform licenses file into a binary resource](#could-not-transform-licenses-file-into-a-binary-resource)
  * [Source controls issues](#source-control-issues)
  * ["Thank you for using the Trial Version of Telerik UI for ASP.NET Ajax to build more powerful applications faster" error message in the browser](#getting-a-trial-error-message-when-refreshing-the-page)
@@ -74,9 +75,9 @@ If the above does not help:
  * restart the PC
  * and test again the project
  
-## Alternative solution based on a third party NuGet project to ensure that the license file is cleared before compiling the application:
+### Alternative NuGet solution
 
-The [EmptyLicensesLicx](https://github.com/augustoproiete/EmptyLicensesLicx) is a NuGet Package to ensure the empty license.licx is present and working in Visual Studio.
+The [EmptyLicensesLicx](https://github.com/augustoproiete/EmptyLicensesLicx) is a third-party NuGet Package solution which ensures that the empty license.licx is present and working in Visual Studio.
 
 For details of why the error occurs see the readme on the GitHub project. The [developer](https://github.com/augustoproiete) behind the project does a wonderful job of breaking down the [problem](https://github.com/augustoproiete/EmptyLicensesLicx#the-problem) and [solution](https://github.com/augustoproiete/EmptyLicensesLicx#the-solution). 
 
