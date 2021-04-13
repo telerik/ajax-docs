@@ -12,10 +12,6 @@ position: 0
 
 The **RadSwitch** control (**Figure 1**) enriches the features, that ASP.NET Switch control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug switch/appearance-and-styling/skins%}). **RadSwitch** is available as of **R2 2021**.
 
-#### Configuration
-The control can be easily styled by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single switch. Developers can easily migrate their applications from using the standard ASP.NET (switch) controls to the **RadSwitch** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
-
-
 >caption Figure 1: RadSwitch configuration.
 
 ![RadButton](images/switch-overview.png)
