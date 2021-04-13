@@ -403,6 +403,9 @@ navigation:
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
         position: 1
+    "controls/switch":
+        title: "Switch"
+        position: 1
     "controls/tabstrip":
         title: "Tab Strip"
         position: 1
@@ -2005,6 +2008,7 @@ intro_columns:
       "RibbonBar": "ribbonbar/overview"
       "SearchBox": "searchbox/overview"
       "SiteMap": "sitemap/overview"
+      "Switch": "switch/overview"
       "Tab Strip": "tabstrip/overview"
       "Timeline": "timeline/overview"
       "ToggleButton": "togglebutton/overview"
