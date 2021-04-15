@@ -179,7 +179,7 @@ The issue is observed because all such handler must be placed at the end of the 
 
 **Current limitation:**
 
-**Gettng [NullReferenceException: Object not set to an instance of an object.] error when using RadScriptManager and loading scripts from assemblies with short names while with there is no error with a standard ScriptManager.**
+**Getting [NullReferenceException: Object not set to an instance of an object.] error when using RadScriptManager and loading scripts from assemblies with short names while with there is no error with a standard ScriptManager.**
 
 Resolution
 
