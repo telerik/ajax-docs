@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientRequestStart.
 slug: gantt/client-side-programming/events/onclientrequeststart
 tags: onclientrequeststart
 published: True
-position: 1
+position: 8
 ---
 
 # OnClientRequestStart

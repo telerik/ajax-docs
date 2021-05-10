@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskResizeEnd.
 slug: gantt/client-side-programming/events/onclienttaskresizeend
 tags: onclienttaskresizeend
 published: True
-position: 7
+position: 16
 ---
 
 # OnClientTaskResizeEnd

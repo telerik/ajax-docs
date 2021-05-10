@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskResizeStart.
 slug: gantt/client-side-programming/events/onclienttaskresizestart
 tags: onclienttaskresizestart
 published: True
-position: 5
+position: 14
 ---
 
 # OnClientTaskResizeStart

@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientNavigationCommand.
 slug: gantt/client-side-programming/events/onclientnavigationcommand
 tags: onclientnavigationcommand
 published: True
-position: 8
+position: 18
 ---
 
 # OnClientNavigationCommand

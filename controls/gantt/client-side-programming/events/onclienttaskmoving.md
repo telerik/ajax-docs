@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskMoving.
 slug: gantt/client-side-programming/events/onclienttaskmoving
 tags: onclienttaskmoving
 published: True
-position: 3
+position: 12
 ---
 
 # OnClientTaskMoving
