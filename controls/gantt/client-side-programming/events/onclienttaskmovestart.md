@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskMoveStart.
 slug: gantt/client-side-programming/events/onclienttaskmovestart
 tags: onclienttaskmovestart
 published: True
-position: 2
+position: 11
 ---
 
 # OnClientTaskMoveStart

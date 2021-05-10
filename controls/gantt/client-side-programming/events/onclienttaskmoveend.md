@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskMoveEnd.
 slug: gantt/client-side-programming/events/onclienttaskmoveend
 tags: onclienttaskmoveend
 published: True
-position: 4
+position: 13
 ---
 
 # OnClientTaskMoveEnd

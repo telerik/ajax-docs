@@ -5,7 +5,7 @@ description: Check our Web Forms article about OnClientTaskResizing.
 slug: gantt/client-side-programming/events/onclienttaskresizing
 tags: onclienttaskresizing
 published: True
-position: 6
+position: 15
 ---
 
 # OnClientTaskResizing
