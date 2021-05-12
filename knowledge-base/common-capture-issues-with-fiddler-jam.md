@@ -39,7 +39,7 @@ Once you have [installed the Fiddler Jam browser extension](#installing-fiddler-
 1. Open a new tab. You can also type/paste <a href="about:blank">about:blank</a> in the address bar and press Enter
 1. Open the Fiddler Jam extension 
 1. Click the `Advanced Options` text button (located above the `Start Capture` button)
-1. Ensure the `Capture Post Data` switch is disabled if reproducing the issue triggers a postback.
+1. Ensure the `Mask Post Data` switch is disabled if reproducing the issue triggers a postback.
 1. Click the `Start Capture button`
 1. Navigate to your page
 1. Reproduce or observe the issue
