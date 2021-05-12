@@ -37,11 +37,15 @@ position: 0
 
 * Day, Week, Month and Year views
 
+* Planned vs Actual
+
 * Customizable task edit capabilities
 
 * Data Binding - Client-side and Server-side
 
 * Integrated sorting, reordering and resizing
+
+* Templates for the Toolbar, Column and Column header, Header view and Task tooltip.
 
 * Column Show/Hide
 
