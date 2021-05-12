@@ -107,6 +107,10 @@ Enables or configures the mini mode for the Kendo UI Drawer. This is a compact v
 
 Determines how the Kendo UI Drawer will interact with the associated content. The default one (overlay) will simply overlap the associated content with overlay effect. On the other hand "push" mode will show the drawer next to associated cotent. The associated content will shrink its content.
 
+###  Navigatable `Boolean`
+
+Navigate the widget using the keyboard. By default keyboard navigation is disabled.
+
 ###  Position `DrawerPositionType`
 
 The position of the drawer. Can be left (default) or right.

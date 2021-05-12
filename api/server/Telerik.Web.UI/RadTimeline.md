@@ -127,6 +127,10 @@ Sets specific width for the event in vertical mode.
 
 For internal use.
 
+###  Navigatable `Boolean`
+
+Navigate the widget using the keyboard. Setting it to true will enable the keyaboard navigation for the component.
+
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
