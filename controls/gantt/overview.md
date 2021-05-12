@@ -37,7 +37,7 @@ position: 0
 
 * Day, Week, Month and Year views
 
-* Planned vs Actual
+* Planned vs Actual (baseline)
 
 * Customizable task edit capabilities
 
