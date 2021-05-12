@@ -21,7 +21,7 @@ End-users share the full context (network logs, browser console logs, and screen
 
 ### Security
 
-Fiddler Jam is a Chrome extension tool that can capture the ongoing tab activity and generate links with the captured activity logs. With such functionality, a particular set of security is added as functionality to Fiddler Jam to protect its users' privacy and allow you to share logs with some information being entirely stripped. You can find more information on the topic in [Fiddler Jam Secuirty](https://docs.telerik.com/fiddler-jam/security).
+Fiddler Jam is a Chrome extension tool that can capture the ongoing tab activity and generate links with the captured activity logs. With such functionality, a particular set of security is added as functionality to Fiddler Jam to protect its users' privacy and allow you to share logs with some information being entirely stripped. You can find more information on the topic in [Fiddler Jam Security](https://docs.telerik.com/fiddler-jam/security) article.
 
 ## Installing Fiddler Jam
 
@@ -59,4 +59,4 @@ Once you have [installed the Fiddler Jam browser extension](#installing-fiddler-
 * [Fiddler Jam documentation](https://docs.telerik.com/fiddler-jam/introduction)
 * [General troubleshooting of JavaScript errors]({%slug common-general-troubleshooting-javascript-errors %})
 * [Improve Your Debugging Skills with Chrome DevTools blog](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools)
-  
+* [Fiddler Jam Security](https://docs.telerik.com/fiddler-jam/security)
