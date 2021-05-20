@@ -142,6 +142,8 @@ In order to reset or edit the nuget feed credentials:
 1. Look for VSCredentials_nuget.telerik.com -> remove or edit the password.
 1. Open Visual Studio and try to access the nuget.telerik.com feed again.
 
+For additional troubleshooting options, see the NuGet can't connect to [Telerik NuGet Server thread](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
+
 ### Error Unable to load the service index for source https://nuget.telerik.com/nuget
 
 Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](https://status.telerik.com/).
