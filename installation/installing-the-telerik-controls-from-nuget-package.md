@@ -132,6 +132,8 @@ You must protect your credentials and ensure they are used only by you and not b
 
 ### Incorrect credentials and how to reenter them
 
+Error details: Failed to fetch results from V2 feed at 'https://nuget.telerik.com/nuget/Packages' with following message : Response status code does not indicate success: 401 (Logon failed.).
+
 The setup can get stuck in a circular reference problem if you enter incorrect credentials the first time.
 In order to reset or edit the nuget feed credentials:
 
