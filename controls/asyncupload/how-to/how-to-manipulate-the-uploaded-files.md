@@ -167,5 +167,5 @@ The InputStream property is also showcased in the [Access temporary file name an
 # See Also
 
  * [How to Extend the RadAsyncUpload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
- * [Access temporary file name and manually delete tempfile from RadAsyncUpload]({%slug knowledge-base/asyncupload-access-temporary-file%})
+ * [Access temporary file name and manually delete tempfile from RadAsyncUpload]({%slug asyncupload-access-temporary-file%})
 
