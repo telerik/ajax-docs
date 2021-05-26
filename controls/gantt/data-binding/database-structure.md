@@ -51,6 +51,49 @@ ALTER TABLE [dbo].[GanttTasks] CHECK CONSTRAINT [FK_GanttTasks_GanttTasks]
 GO
 ````
 
+### Planned/Baseline Tasks
+
+R2 2021 introduces the [Planned vs Actual/Baseline functionality]({%slug gantt/functionality/planned-vs-actual %}). To leverage it, the `PlannedStart` and `PlannedEnd` columns should be added. They should be nullable and of type `datetime`.
+
+````SQL
+USE [DBNAME]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[GanttPlannedTasks](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[ParentID] [int] NULL,
+	[OrderID] [int] NOT NULL,
+	[Title] [ntext] NULL,
+	[Start] [datetime] NOT NULL,
+	[PlannedStart] [datetime] NULL,
+	[End] [datetime] NOT NULL,
+	[PlannedEnd] [datetime] NULL,
+	[PercentComplete] [decimal](5, 2) NOT NULL,
+	[Expanded] [bit] NULL,
+	[Summary] [bit] NOT NULL,
+ CONSTRAINT [PK_GanttPlannedTasks] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[GanttPlannedTasks]  WITH CHECK ADD  CONSTRAINT [FK_GanttPlannedTasks_GanttPlannedTasks] FOREIGN KEY([ParentID])
+REFERENCES [dbo].[GanttPlannedTasks] ([ID])
+GO
+
+ALTER TABLE [dbo].[GanttPlannedTasks] CHECK CONSTRAINT [FK_GanttPlannedTasks_GanttPlannedTasks]
+GO
+```` 
+
+
 ## Dependencies![gantt-database-structure-2](images/gantt-database-structure-2.png)
 
 Here is a simpler example without support for resources:
