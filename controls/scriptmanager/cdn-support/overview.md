@@ -214,3 +214,4 @@ All ASP.NET scripts and Telerik resources are served from the respective CDNs.
 ## Additional Resources
 
 * [CDN Fallback to Local Resources](https://www.telerik.com/support/code-library/cdn-fallback)
+* [Configure Local CDN](https://www.youtube.com/watch?v=iPcvj7Vl5TM)
