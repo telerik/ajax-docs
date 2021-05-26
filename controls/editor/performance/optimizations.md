@@ -53,6 +53,52 @@ Protected Sub Page_Load(sender As Object, e As EventArgs)
 End Sub	
 ````
 
+## High CPU on server due that the RadEditor's dialog parameters are deserialized with strong encryption. 
+
+By default, RadEditor register all _dialogDefinitions which is a pretty long string which may decrease the performance of the page as well as of the server. You can remove all dialog definitions from the dialog opener control after they are populated on the server using the code below:
+
+````C#	
+public partial class _Default : System.Web.UI.Page 
+{ 
+    protected override void OnPreRenderComplete(EventArgs e) 
+    { 
+        reDescription.DialogOpener.DialogDefinitions.Clear(); 
+        base.OnPreRenderComplete(e); 
+    } 
+} 
+````
+````VB
+Public Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
+        reDescription.DialogOpener.DialogDefinitions.Clear()
+        MyBase.OnPreRenderComplete(e)
+    End Sub
+End Class
+````
+
+This will clear the dialog definitions and will reduce the size of the page on the client.
+
+You'll still be able to take advantage of the lightweight dialogs showcased at 
+
+* http://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx 
+* https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/lightweight-insert-dialogs
+
+ 
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1" >
+    <Tools>
+        <telerik:EditorToolGroup>
+            <telerik:EditorTool Name="InsertImage" />
+            <telerik:EditorTool Name="InsertLink" />
+            <telerik:EditorTool Name="InsertTableLight" />
+        </telerik:EditorToolGroup>
+    </Tools>
+</telerik:RadEditor>
+````
+
+
 ## Working With Large Content - Creating, Editing, Pasting, Loading and Saving Optimizations
 
 There are a couple of main factors responsible for the slow RadEditor's performance when pasting,loading, editing or saving large XHTML / HTML / TXT files, which content size exceeds 100KB:
