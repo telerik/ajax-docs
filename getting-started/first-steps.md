@@ -74,7 +74,7 @@ The **Telerik UI for ASP.NET AJAX suite** is integrated with our **Telerik ASP.N
 >caption Create a new project
 ![Create a new project](images/getting-started-project-wizard.gif)
 
-Detailed version of the steps above in the [Create Project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard) help article.  
+You can see detailed version of the steps above in the [Create Project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard) help article.  
 
 
 ## Add RadEditor to the Application
