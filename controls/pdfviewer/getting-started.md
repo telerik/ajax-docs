@@ -42,6 +42,6 @@ The following tutorial demonstrates how you can add a **RadPdfViewer** control p
                 </PdfjsProcessingSettings>
             </telerik:RadPdfViewer>
 
-
+Ideas on how to set up the content of RadPdfViewer you can find in the [5 Different Approaches of Setting up the Content in RadPdfViewer](https://www.telerik.com/blogs/5-different-approaches-setting-up-content-radpdfviewer-aspnet-ajax) blog post.
 
 
