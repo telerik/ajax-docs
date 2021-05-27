@@ -104,6 +104,8 @@ For the content of the item, for example `<span>` elements, the following classe
 * `class='k-icon'` class - makes an element with an icon size. Usually combined with enabled Mini Mode;
 * `class='k-item-text'` class - signs the element that contains the item's text
 
+On the server-side, the `ItemsTemplate` can be set as a string. Check out the [Create Drawer items server-side]({%slug drawer/how-to/create-items-server-side%}) how-to article for more information how to easily create items on the server and translate them to a string.
+
 ## Mini Template
 
 A template that is visible when the Drawer is collapsed and Mini Mode is enabled. It is useful when the icons of the Collapsed and Expanded items need to be different.
@@ -114,4 +116,6 @@ A template that is visible when the Drawer is collapsed and Mini Mode is enabled
 * [Live Demo - Templates](https://demos.telerik.com/aspnet-ajax/drawer/functionality/defaultcs.aspx)
 
 * [Kendo UI Drawer Widget API Reference](https://docs.telerik.com/kendo-ui/controls/navigation/drawer/overview)
+
+* [Create Drawer items server-side]({%slug drawer/how-to/create-items-server-side%})
 

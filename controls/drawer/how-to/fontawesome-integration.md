@@ -143,9 +143,9 @@ The default class for the 4.* version is `fa` and to add a specific icon, the `f
 ````
 
 
-# See Also
+## See Also
 
- * [Getting Started]()
+* [Getting Started]({%slug drawer/getting-started%})
  
-
+* [RadDrawer templates]({%slug drawer/functionality/templates %})
  
