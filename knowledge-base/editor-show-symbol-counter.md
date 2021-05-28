@@ -15,7 +15,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product Version</td>
-			<td>2017.2.503</td>
+			<td>all</td>
 		</tr>
 		<tr>
 			<td>Product</td>
@@ -26,7 +26,7 @@ res_type: kb
 
 
 ## Description
-ReadEditor Word and Symbol Count is not shown when EditModes is set to Design when the EditModes property is set to Design.
+ReadEditor Word and Symbol Count is not shown when EditModes property is set to Design.
 
 ## Solution
 When the EditModes property is set to Design mode, the whole bottom area gets hidden along the Design, HTML and Preview buttons along with the Statistics Module. To show it once again, define it explicitly as shown below:
@@ -47,3 +47,4 @@ When the EditModes property is set to Design mode, the whole bottom area gets hi
 ````
 
 You can find more information in this article: [Disable or Hide Modules](http://www.telerik.com/help/aspnet-ajax/editor_disablehidemodules.html).
+ 
