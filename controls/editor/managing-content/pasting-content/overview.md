@@ -37,7 +37,7 @@ In case pasting precedes without any automatic on-paste stripping(e.g., **StripF
 
 ## End-user Experience
 
-By default, **RadEditor** is configured to paste content as it is copied.The only exception is when MS Word content has been pasted.When such content is detected, a confirm dialog opens. That allows the end user to choose whether the content is to be cleaned up by **RadEditor**, or pasted as it is (**Figure 2**).
+By default, **RadEditor** is configured to paste content as it is copied. The only exception is when MS Word content has been pasted. When such content is detected, a confirm dialog opens. That allows the end user to choose whether the content is to be cleaned up by **RadEditor**, or pasted as it is (**Figure 2**).
 
 >caption Figure 2: Default Configuration – Pasting from MS Word.
 
@@ -110,6 +110,27 @@ In **Figure 1**, the **Paste from Word** tool is used and the content is cleaned
 >caption Figure 4: Using Paste from Word tool when clipboard manipulation is restricted.
 
 ![editor-paste-dialogs](images/editor-paste-dialogs.png)![editor-paste-dialogs-result](images/editor-paste-dialogs-result.png)
+
+
+
+### Paste Text and Image from MS Word
+
+If you copy both text and an image from MS Word and paste in the Editor, the image will not get pasted as expected. This behavior is due to the security policy of the browser.
+
+Instead of reading the image data and loading it as a `base64` string to the `src` attribute of the `<img> `element, the browser generates an `<img>` tag which points to the clipboard location of the file on the client machine.
+
+A browser is not allowed to access such a resource, and so it throws an error and the image is not rendered which you can verify in the browser dev tools console, you will see an error such as: `"Not allowed to load local resource: <some image path>"`. 
+
+You can read more about this in <a href="https://stackoverflow.com/questions/39007243/cannot-open-local-file-chrome-not-allowed-to-load-local-resource" target="_blank">this StackOverflow thread</a>.
+
+#### Work Around
+
+To work around this browser behavior, copy only the text or a single image from the MS Word document, and paste the image in the content area of the Editor separately. 
+
+By default, the browser allows you to copy and paste a single image from Word in the Editor by converting its `src` to a `base64` string. 
+
+If you paste more images at the same time, their `src` attributes will not be converted to `base64` strings and the browser will paste them with their `http` protocol and `URL` pointing to the physical folder which will result in the error described above.
+
 
 ## See Also
 
