@@ -67,3 +67,5 @@ To do that attach to the [OnClientPasteHtml event](http://demos.telerik.com/aspn
     }
 </script>
 ````
+
+ 

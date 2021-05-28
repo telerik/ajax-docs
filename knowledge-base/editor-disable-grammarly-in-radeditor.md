@@ -27,3 +27,5 @@ Grammarly can be easily disabled by applying the data-gramm attribute set to fas
 </script>
 <telerik:RadEditor OnClientLoad="OnClientLoad" runat="server" ID="RadEditor1"></telerik:RadEditor>
 ````
+
+ 

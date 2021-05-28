@@ -7,13 +7,13 @@ slug: registering-an-external-skin-of-radeditor
 res_type: kb
 ---
  
-## HOW-TO  
+## How-to  
 Register an external skin of RadEditor  
    
-## DESCRIPTION
+## Description
 The solution below demonstrates how to disable the embedded RadEditor's skin and register the external Vista skin. It is useful in scenarios when for some reason the editor is unable to read its embedded skins or when the developer wants to modify the external skin and create a custom skin.  
    
-## SOLUTION 
+## Solution 
 In order to register the external **Vista** skin of RadEditor, follow the steps below:
  
 1. Set the **EnableEmbeddedSkins** property to **false**, thus the editor will not read its embedded in the Telerik.Web.UI.dll skin files.
@@ -65,9 +65,8 @@ In order to register the external **Vista** skin of RadEditor, follow the steps 
 		@import url("ImageEditor.Vista.css");
 		@import url("Dock.Vista.css");
 	````
+
 6. Set the editor's **DialogsCssFile** property to point to the **DialogCSS.css** e.g.  DialogsCssFile="~/Skins/Vista/DialogCSS.css"
 
 
  
-
-
