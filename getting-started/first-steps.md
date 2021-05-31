@@ -96,7 +96,18 @@ To learn more about the functionalities of the Telerik ASP.NET AJAX Visual Studi
 
 The Web Forms Site created through the Telerik project template includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls. The site has even a [ScriptManager control]({%slug scriptmanager/overview%}) that is required by all AJAX controls. That's why you can add the [RadEditor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) control to the page in one simple step:
 
-* Open `Default.aspx`, and then declare RadEditor right after RadScriptManager:
+1. Open `Default.aspx`, and then declare RadEditor right after RadScriptManager:
+
+```ASPX
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+
+<telerik:RadEditor runat="server"></telerik:RadEditor>
+```
+
+2. In the aspx declaration above, you also set some basic [RadEditor properties](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/server-side-programming/overview):
+    * ID
+    * RenderMode
+    * Content
 
 ```ASPX
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
@@ -107,12 +118,6 @@ The Web Forms Site created through the Telerik project template includes all bas
     </Content>
 </telerik:RadEditor>
 ```
-
-In the aspx declaration above, you also set some basic [RadEditor properties](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/server-side-programming/overview):
-
-* ID
-* RenderMode
-* Content
 
 To run your first page with a Telerik control, press **F5**.
 
