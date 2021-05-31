@@ -62,7 +62,7 @@ public partial class _Default : System.Web.UI.Page
 { 
     protected override void OnPreRenderComplete(EventArgs e) 
     { 
-        reDescription.DialogOpener.DialogDefinitions.Clear(); 
+        RadEditor1.DialogOpener.DialogDefinitions.Clear(); 
         base.OnPreRenderComplete(e); 
     } 
 } 
@@ -72,7 +72,7 @@ Public Partial Class _Default
     Inherits System.Web.UI.Page
 
     Protected Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
-        reDescription.DialogOpener.DialogDefinitions.Clear()
+        RadEditor1.DialogOpener.DialogDefinitions.Clear()
         MyBase.OnPreRenderComplete(e)
     End Sub
 End Class
