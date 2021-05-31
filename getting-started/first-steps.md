@@ -123,154 +123,150 @@ Another way to add a Telerik control to your project is to drag the control dire
 
 ## Add RadHtmlChart to the Project
 
-Let’s dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. Following the steps below you will be able to create a bound RadHtmlChart, using the values from a custom data field into a custom tooltip template. We will use a simple DataTable for this sample, but you can bind RadHtmlChart to the [preferred data source type](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/data-binding/overview). 
+Let’s dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. By following the steps below, you will create a data-bound [RadHtmlChart]({%slug htmlchart/overview%}). You will also add a handy tooltip that shows the values from a custom data field. We will use a simple `DataTable` for this sample, but you can bind RadHtmlChart to a [preferred data source type](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/data-binding/overview).
 
-1. Add a **ScriptManager** control on a Web Form page. 
+You already have a [RadScriptManager control](#add-radeditor-to-the-application) on the page so you are ready to declare RadHtmlChart. Place the RadHtmlChart declaration right after the RadEditor control that you added in the previous step:
 
-```ASPX
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
-```
+1. In Default.aspx, define a **RadHtmlChart** with `ID="RadHtmlChart1"`:
 
-1. Define a **RadHtmlChart** with `ID="RadHtmlChart1"`
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+    </telerik:RadHtmlChart>
+    ```
 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-</telerik:RadHtmlChart>
-```
+1. Add a `ChartTitle` to the created **RadHtmlChart**:
 
-1. Add a `ChartTitle` to the created **RadHtmlChart**
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+        <ChartTitle Text="Sales Log"></ChartTitle> 
+    </telerik:RadHtmlChart>
+    ```
 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-    <ChartTitle Text="Sales Log"></ChartTitle> 
-</telerik:RadHtmlChart>
-```
+1. Add `ColumnSeries` to the `PlotArea.Series` collection of the control:
 
-1. Add a `ColumnSeries` to the `PlotArea.Series` collection of the control: 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-    <ChartTitle Text="Sales Log"></ChartTitle> 
-    <PlotArea> 
-        <Series> 
-            <telerik:ColumnSeries Name=" Cloth?s"></telerik:ColumnSeries> 
-        </Series> 
-    </PlotArea> 
-</telerik:RadHtmlChart>
-```
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+        <ChartTitle Text="Sales Log"></ChartTitle> 
+        <PlotArea> 
+            <Series> 
+                <telerik:ColumnSeries Name="Clothes"></telerik:ColumnSeries> 
+            </Series> 
+        </PlotArea> 
+    </telerik:RadHtmlChart>
+    ```
 
-1. In the code-behind of the page create a `GetData()` method, returning the data that will be bound to the chart: 
+1. In the code-behind of the page, create a `GetData()` method. This method returns the sample data that we will bind to the chart:
 
-```C#
-private DataTable GetData() 
-    { 
-        DataTable dt = new DataTable(); 
+    ```C#
+    private DataTable GetData() 
+        { 
+            DataTable dt = new DataTable(); 
 
-        dt.Columns.Add("labels"); 
-        dt.Columns.Add("values"); 
-        dt.Columns.Add("colors"); 
-        dt.Columns.Add("description"); 
+            dt.Columns.Add("labels"); 
+            dt.Columns.Add("values"); 
+            dt.Columns.Add("colors"); 
+            dt.Columns.Add("description"); 
+            
+            dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers"); 
+            dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts"); 
+            dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts"); 
+            dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts"); 
+
+            return dt; 
+        }
+    ```
+    ```VB
+    Private Function GetData() As DataTable 
+        Dim dt As DataTable = New DataTable() 
+
+        dt.Columns.Add("labels") 
+        dt.Columns.Add("values") 
+        dt.Columns.Add("colors") 
+        dt.Columns.Add("description") 
         
-        dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers"); 
-        dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts"); 
-        dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts"); 
-        dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts"); 
+        dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers") 
+        dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts") 
+        dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts") 
+        dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts") 
 
-        return dt; 
-    }
-```
-```VB
-Private Function GetData() As DataTable 
-    Dim dt As DataTable = New DataTable() 
+        Return dt 
+    End Function
+    ```
 
-    dt.Columns.Add("labels") 
-    dt.Columns.Add("values") 
-    dt.Columns.Add("colors") 
-    dt.Columns.Add("description") 
-    
-    dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers") 
-    dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts") 
-    dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts") 
-    dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts") 
+1. Configure the data source of the chart to use the created sample data:
 
-    Return dt 
-End Function
-```
-
-1. Configure the data source of the chart with the created sample data: 
-
-```C#
-protected void Page_Load(object sender, EventArgs e) 
-{ 
-    if (!IsPostBac1k) 
+    ```C#
+    protected void Page_Load(object sender, EventArgs e) 
     { 
-        RadHtmlChart1.DataSource = GetData(); 
-    } 
-}
-```
-```VB
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load 
-    If Not IsPostBack Then 
-        RadHtmlChart1.DataSource = GetData() 
-    End If 
-End Sub
-```
+        if (!IsPostBack) 
+        { 
+            RadHtmlChart1.DataSource = GetData(); 
+        } 
+    }
+    ```
+    ```VB
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load 
+        If Not IsPostBack Then 
+            RadHtmlChart1.DataSource = GetData() 
+        End If 
+    End Sub
+    ```
 
-1. Set the **colors** and **values** field names to the Series `DataFieldY` and `ColorField` proeprties: 
+1. Set the **colors** and **values** field names to the Series `DataFieldY` and `ColorField` properties:
 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-    <ChartTitle Text="Sales Log"></ChartTitle> 
-    <PlotArea> 
-        <Series> 
-            <telerik:ColumnSeries Name="Cloth?s" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries> 
-        </Series> 
-    </PlotArea> 
-</telerik:RadHtmlChart>
-```
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+        <ChartTitle Text="Sales Log"></ChartTitle> 
+        <PlotArea> 
+            <Series> 
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries> 
+            </Series> 
+        </PlotArea> 
+    </telerik:RadHtmlChart>
+    ```
 
-1. Set the **labels** field name to the `PlotArea.XAxis.DataLabelsField` value
+1. Set the **labels** field name to the `PlotArea.XAxis.DataLabelsField` value:
 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-    <ChartTitle Text="Sales Log"></ChartTitle> 
-    <PlotArea> 
-        <Series> 
-            <telerik:ColumnSeries Name="Cloth?s" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries> 
-        </Series> 
-        <XAxis DataLabelsField="labels"></XAxis> 
-    </PlotArea> 
-</telerik:RadHtmlChart>
-```
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+        <ChartTitle Text="Sales Log"></ChartTitle> 
+        <PlotArea> 
+            <Series> 
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries> 
+            </Series> 
+            <XAxis DataLabelsField="labels"></XAxis> 
+        </PlotArea> 
+    </telerik:RadHtmlChart>
+    ```
 
-1. Define a `TooltipsAppearance` nested tag in the series declaration and define a custom Tooltip template in it. All fields from the passed datasource are available through the `dataItem` object of the template. 
+1. Define a `TooltipsAppearance` nested tag in the series declaration. Then define a [custom Tooltip template](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/functionality/clienttemplate/overview) in it. All fields from the passed datasource are available through the `dataItem` object of the template:
 
-```ASPX
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
-    <ChartTitle Text="Sales Log"></ChartTitle> 
-    <PlotArea> 
-        <Series> 
-            <telerik:ColumnSeries Name="Cloth?s" DataFieldY="values" ColorField="colors"> 
-                <TooltipsAppearance> 
-                    <ClientTemplate> 
-                        There are #=dataItem.description# sold in #=category# 
-                    </ClientTemplate> 
-                </TooltipsAppearance> 
-            </telerik:ColumnSeries> 
-        </Series> 
-        <XAxis DataLabelsField="labels"></XAxis> 
-    </PlotArea> 
-</telerik:RadHtmlChart>
-```
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server"> 
+        <ChartTitle Text="Sales Log"></ChartTitle> 
+        <PlotArea> 
+            <Series> 
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors"> 
+                    <TooltipsAppearance> 
+                        <ClientTemplate> 
+                            There are #=dataItem.description# sold in #=category# 
+                        </ClientTemplate> 
+                    </TooltipsAppearance> 
+                </telerik:ColumnSeries> 
+            </Series> 
+            <XAxis DataLabelsField="labels"></XAxis> 
+        </PlotArea> 
+    </telerik:RadHtmlChart>
+    ```
 
-1. **Run the page** in the browser by pressing F5. You should see something like this: 
+Now you can run the page by pressing **F5**. You should see something like this:
 
 >caption Bound RadHtmlChart with custom Tooltip template
 ![Bound RadHtmlChart with custom Tooltip template](images/getting-started-htmlchart.png)
 
-
 ## Apply New Skin to the Controls
 
-Each control from the UI for ASP.NET AJAX has more than [20 predefined skins](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work#built-in-skins). Setting the desired skin name as a value of the `Skin` property of a control will allow you to change its whole look and feel: 
+Each control in UI for ASP.NET AJAX has more than [20 predefined skins](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work#built-in-skins) that allow you to change the look and feel of the components. To use the desired skin, set the skin name as the value of the control's `Skin` property:
 
 ```ASPX
 <telerik:RadEditor runat="server" ID="RadEditor1" Skin="Glow" RenderMode="Lightweight">
