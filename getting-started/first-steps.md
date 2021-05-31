@@ -269,7 +269,7 @@ Now you can run the page by pressing **F5**. You should see something like this:
 Each control in UI for ASP.NET AJAX has more than [20 predefined skins](https://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/how-skins-work#built-in-skins) that allow you to change the look and feel of the components. To use the desired skin, set the skin name as the value of the control's `Skin` property:
 
 ```ASPX
-<telerik:RadEditor runat="server" ID="RadEditor1" Skin="Glow" RenderMode="Lightweight">
+<telerik:RadEditor runat="server" ID="RadEditor2" Skin="Glow" RenderMode="Lightweight">
     <Content>             
         Congratulations! You have the Telerik UI for ASP.NET controls running in your project!     
     </Content> 
@@ -277,7 +277,7 @@ Each control in UI for ASP.NET AJAX has more than [20 predefined skins](https://
 ```
 
 >caption Apply Glow Skin to RadEditor
-![Apply Glow Skin to RadEditor](images/getting-started-editor.png)
+![Apply Glow Skin to RadEditor](images/getting-started-editor-skin.png)
 
 ## Resources
 
