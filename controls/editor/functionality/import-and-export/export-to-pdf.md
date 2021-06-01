@@ -347,7 +347,7 @@ End Sub
 
 Last, but not least, by calling the **ExportToPDF()** the content will be exported using the newly defined	library instead of the default one.
 
-For more information on how to use an external library and a complete example with source code, refer to the [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](https://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
+For more information on how to use an external library and a complete example with source code, refer to the [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](https://www.telerik.com/blogs/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
 
 ## Unsupported Features and Scenarios
 
