@@ -22,7 +22,7 @@ To follow the steps in this tutorial, you need:
 
 * [.NET Framework 4.5 (or later)](https://dotnet.microsoft.com/download)
 
-The prerequisites above apply only to this article and guarantee that you can successfully complete the tutorial. For a complete list with all supported frameworks and development tools, see [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
+>important The prerequisites above apply only to this article and guarantee that you can successfully complete the tutorial. For a complete list with all supported frameworks and development tools, see [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
 
 ## Download the Controls
 
@@ -279,6 +279,17 @@ Each control in UI for ASP.NET AJAX has more than [20 predefined skins](https://
 
 >caption Apply Glow Skin to RadEditor
 ![Apply Glow Skin to RadEditor](images/getting-started-editor-skin.png)
+
+## Next Steps
+Now that you have the Telerik UI for ASP.NET AJAX controls running in your project, you may want to explore their features, customize their behavior or change their appearance. Below you can find guidance on getting started with such tasks:
+
+* [Explore control features](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/explore-control-features)
+
+* [Customize control behavior](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/explore-control-features)
+
+* [Further information](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/next-steps)
+
+
 
 ## Resources
 
