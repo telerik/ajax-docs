@@ -84,15 +84,15 @@ protected void Page_Load(object sender, EventArgs e)
     RadCalendar popupCal = new RadCalendar();
     popupCal.ID = "sharedDynamicCalendar";
     popupCal.EnableMultiSelect = false;
-    popupCal.Skin = "Inox";
+    popupCal.Skin = "Bootstrap";
     popupCal.EnableMonthYearFastNavigation = false;
     popupCal.UseColumnHeadersAsSelectors = false;
     popupCal.UseRowHeadersAsSelectors = false;
-    sharedPopupPlaceHolder.Controls.Add(popupCal);
+    sharedCalendarPlaceHolder.Controls.Add(popupCal);
     RadDateTimePicker1.SharedCalendar = popupCal;
     RadTimeView popupTime = new RadTimeView();
     popupTime.ID = "sharedDynamicTimeView";
-    popupTime.Skin = "Inox";
+    popupTime.Skin = "Bootstrap";
 
     sharedPopupPlaceHolder.Controls.Add(popupTime);
     RadDateTimePicker1.SharedTimeView = popupTime;
@@ -103,15 +103,15 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
     Dim popupCal As New RadCalendar()
     popupCal.ID = "sharedDynamicCalendar"
     popupCal.EnableMultiSelect = False
-    popupCal.Skin = "Inox"
+    popupCal.Skin = "Bootstrap"
     popupCal.EnableMonthYearFastNavigation = False
     popupCal.UseColumnHeadersAsSelectors = False
     popupCal.UseRowHeadersAsSelectors = False
-    sharedPopupPlaceHolder.Controls.Add(popupCal)
+    sharedCalendarPlaceHolder.Controls.Add(popupCal)
     RadDateTimePicker1.SharedCalendar = popupCal
     Dim popupTime As New RadTimeView()
     popupTime.ID = "sharedDynamicTimeView"
-    popupTime.Skin = "Inox"
+    popupTime.Skin = "Bootstrap"
     sharedPopupPlaceHolder.Controls.Add(popupTime)
     RadDateTimePicker1.SharedTimeView = popupTime
 End Sub
