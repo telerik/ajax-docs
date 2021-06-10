@@ -94,7 +94,7 @@ protected void Page_Load(object sender, EventArgs e)
     popupTime.ID = "sharedDynamicTimeView";
     popupTime.Skin = "Bootstrap";
 
-    sharedPopupPlaceHolder.Controls.Add(popupTime);
+    sharedCalendarPlaceHolder.Controls.Add(popupTime);
     RadDateTimePicker1.SharedTimeView = popupTime;
 }
 ````
@@ -112,7 +112,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
     Dim popupTime As New RadTimeView()
     popupTime.ID = "sharedDynamicTimeView"
     popupTime.Skin = "Bootstrap"
-    sharedPopupPlaceHolder.Controls.Add(popupTime)
+    sharedCalendarPlaceHolder.Controls.Add(popupTime)
     RadDateTimePicker1.SharedTimeView = popupTime
 End Sub
 ````
