@@ -15,7 +15,6 @@ how to enable key features like paging, sorting, filtering, editing, grouping, e
 
 Telerik **RadGrid** is designed to eliminate the typical trade-off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
 
-To test it by your own and see its benefits in practice you can start a free trial using the button below
 
 >caption To create a basic `RadGrid`:
 

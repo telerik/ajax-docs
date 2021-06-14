@@ -18,36 +18,6 @@ This article gives a quick overview of the **RadAsyncUpload** control and shows 
 
 ## Get started with the RadAsyncUpload
 
-To test it on your own and see its benefits in practice, you can start a free trial.
-
-<div class="justify-content-center text-center try-button">
-    <a class="button" href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax" target="_blank">Start a free trial</a>
-</div>
-
-<style>
-.try-button {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-.try-button .button {
-    display: inline-block;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #378306;
-    border-radius: 2px;
-    transition: color .2s ease,background-color .2s ease;
-    text-decoration: none;
-    padding: 10px 30px 10px 30px;
-    line-height: 1.5em;
-    height: auto;
-}
-
-.try-button .button:hover {
-    color: #ffffff;
-    background-color: #47a336;
-}
-</style>
-
 
 >caption To create a basic `RadAsyncUpload`:
 
