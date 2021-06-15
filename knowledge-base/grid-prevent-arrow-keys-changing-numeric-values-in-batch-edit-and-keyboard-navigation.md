@@ -8,13 +8,13 @@ res_type: kb
 ---
 
 
-## DESCRIPTION
+## Description
 
 The increment settings of RadNumericTextBox are enabled by default for better convenience when operating with the input control. You can access the control and disable the arrow navigation of the numbox itself using the approach demonstrated in the following section:
 
 [http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/accessing-cells-and-rows#accessing-controls-in-batch-edit-mode](http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/accessing-cells-and-rows#accessing-controls-in-batch-edit-mode)
 
-## SOLUTION
+## Solution
   
 To resolve that, you can use the PreRender event of the Grid to disable intercepting user events in the Numeric TextBox.
 
@@ -51,3 +51,5 @@ And then set it in the column definition:
 ````XML
 <telerik:GridNumericColumn ... ColumnEditorID="NumBoxEditor1">
 ````
+
+ 
