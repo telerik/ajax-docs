@@ -112,3 +112,8 @@ The chart in **Figure 1** was created with the markup in **Example 1**.
  * [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%})
 
  * [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})
+ 
+ * [KB - Change the Default Shared Tooltip client-side template of RadHtmlChart]({%slug htmlchart-custom-shared-tooltip-template%})
+
+
+
