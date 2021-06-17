@@ -10,7 +10,7 @@ position: 1
 
 # First Steps with UI for ASP.NET AJAX
 
-In this article, we demonstrate the steps to create a [Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms) that uses [Telerik UI for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax) components. You will download the Telerik components, create a project, and add the [RadEditor](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview) and [RadHtmlChart](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/overview) controls. As RadHtmlChart requires data binding to show its full potential, you will learn how to bind the Telerik controls to sample data.
+This article demonstrates the steps to create a [Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms) that uses [Telerik UI for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax) components. You will download the Telerik components, create a project, and add the [RadEditor](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview) and [RadHtmlChart](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/overview) controls. As RadHtmlChart requires data binding to show its full potential, you will learn how to bind the Telerik controls to sample data.
 
 Throughout this tutorial, you'll find links to relevant articles that you don't need to read immediately, but will help you deepen your knowledge about the Telerik UI controls. If you want to experiment with the sample application created here, you can fork or download the source code from the [GitHub repository](https://github.com/telerik/aspnet-sdk/tree/master/Common/MyFirstTelerikSite).
 
@@ -65,7 +65,7 @@ Run the downloaded file, follow the on-screen instructions, and accept the defau
 
 ![Enable Visual Studio Integration](images/getting-started-install-ui-for-ajax.png)
 
-In this tutorial, we recommend using the MSI to get the Telerik controls, but there are various other ways. See [Which File Do I Need to Install](https://docs.telerik.com/devtools/aspnet-ajax/installation/which-file-do-i-need-to-install) for a list with all distribution methods.  
+This tutorial recommends using the MSI to get the Telerik controls, but there are various other ways. See [Which File Do I Need to Install](https://docs.telerik.com/devtools/aspnet-ajax/installation/which-file-do-i-need-to-install) for a list with all distribution methods.  
 
 ## Create a New Project
 
@@ -88,7 +88,7 @@ To create the project:
 >caption Create a new project
 ![Create a new project](images/getting-started-project-wizard.gif)
 
-The Telerik templates for Visual Studio allow you to kick-start your application development by creating a new project that has all required resources that enable you to use the Telerik controls. But if you need to add the Telerik controls to an already existing project, see the instructions in [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/adding-the-telerik-controls-to-your-project).
+The Telerik templates for Visual Studio allow you to kick-start your application development by creating a new project that has all required resources that enable you to use the Telerik controls. But if you need to add the Telerik controls to an already existing project, see the instructions in [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/adding-the-telerik-controls-to-your-project).
 
 To learn more about the functionalities of the Telerik ASP.NET AJAX Visual Studio Extensions, see the documents in section [**GENERAL INFORMATION** > **Integration with Visual Studio** > **Visual Studio Extensions document section**]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}).
 
@@ -295,7 +295,7 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 
 * [Github – download MyFirstTelerikSite project ](https://github.com/telerik/aspnet-sdk/tree/master/Common/MyFirstTelerikSite)
 
-* [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/adding-the-telerik-controls-to-your-project)  
+* [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/adding-the-telerik-controls-to-your-project)  
 
 * [Change Control Appearance ](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/change-control-appearance)
 
