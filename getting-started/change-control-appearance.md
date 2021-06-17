@@ -31,7 +31,6 @@ In either case, you may find helpful the [Improve Your Debugging Skills with Chr
 If you experience issues with the control appearance, start by examining the [Different appearance or behavior in Internet Explorer on local and production servers](https://www.telerik.com/support/kb/aspnet-ajax/details/different-appearance-in-internet-explorer-on-local-and-production-servers) KB article.
 
 ## Next Steps
-* [More Learning Resources]({%slug getting-started/next-steps%})
 * [Customize control behavior]({%slug getting-started/customize-control-behavior%})
 * [Change control appearance]({%slug getting-started/change-control-appearance%})
 * [Start from the First Steps]({%slug getting-started/first-steps%})

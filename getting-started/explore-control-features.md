@@ -52,7 +52,6 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 
 * [Customize control behavior]({%slug getting-started/customize-control-behavior%})
 * [Change control appearance]({%slug getting-started/change-control-appearance%})
-* [Further information]({%slug getting-started/next-steps%})
 
 ## See Also
 
