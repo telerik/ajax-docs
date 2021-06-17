@@ -258,7 +258,7 @@ Sharing quality feedback and ideas will not only benefit the community and impro
 
 * [Installing Telerik Controls](https://docs.telerik.com/devtools/aspnet-ajax/installation/which-file-do-i-need-to-install)
 
-* [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/adding-the-telerik-controls-to-your-project)
+* [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/adding-the-telerik-controls-to-your-project)
 
 * Generate a new Telerik Project (guided wizard) - for  [Visual Studio](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard).
 
