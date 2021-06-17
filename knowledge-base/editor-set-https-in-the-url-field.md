@@ -33,7 +33,10 @@ To update the default value of the URL field of the Hyperlink manager from http:
 
 ````JavaScript
 setTimeout(function () {
-    document.getElementById("LinkURL").value = "https://";
+    var urlField = document.getElementById("LinkURL");
+    if (urlField.value.indexOf("https") || urlField.value.indexOf("http") > 0) {
+        urlField.value = "https://";
+    }
 }, 100);
 ````
 
