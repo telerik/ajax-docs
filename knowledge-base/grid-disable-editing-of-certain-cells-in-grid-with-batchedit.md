@@ -21,6 +21,10 @@ How to disable editing of cells in RadGrid with Batch editing (EditMode="**Batch
 - Disable editing of certain cells in multiple rows
 - Disable editing of certain cells in certain rows
 
+### DEMO
+
+![](images/grid-disable-editing-cells.gif)
+
 ## Solution
 
 When it comes to Batch editing (EditMode="**Batch**") the entire functionality is based on JavaScript and only the Client-Side events can be used. 
@@ -168,11 +172,6 @@ function OnRowCreated(sender, args) {
     }
 }
 ````
-
-### DEMO
-
-![](images/grid-disable-editing-cells.gif)
-
 
 ### Documentation & Resources
 
