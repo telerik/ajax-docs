@@ -287,7 +287,6 @@ Now that you have the Telerik UI for ASP.NET AJAX controls running in your proje
 
 * [Customize control behavior](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/explore-control-features)
 
-* [Further information](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/next-steps)
 
 
 

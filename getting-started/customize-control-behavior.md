@@ -65,11 +65,9 @@ The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since 
 Below you can find guidance on getting started with other common tasks:
 
 * [Change control appearance]({%slug getting-started/change-control-appearance%})
-* [Further information]({%slug getting-started/next-steps%})
 
 ## See Also
 
 * [First Steps]({%slug getting-started/first-steps%})
-* [Explore control features]({%slug getting-started/next-steps%})
 * [Customize control behavior]({%slug getting-started/explore-control-features%})
 * [Progress Virtual Classroom](https://learn.telerik.com/)
