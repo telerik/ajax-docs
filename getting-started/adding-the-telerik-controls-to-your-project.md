@@ -93,6 +93,12 @@ After you've added the needed controls, you can configure them by using the foll
 
 You can read more about the individual controls' properties and features in their respective sections in the documentation, demos, and by using the IntelliSense in Visual Studio.
 
+## Next Steps
+
+* [Explore control features]({%slug getting-started/explore-control-features%})
+* [Customize control behavior]({%slug getting-started/customize-control-behavior%})
+
+
 ### See Also
 
  * [First Steps with UI for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps)
