@@ -20,4 +20,5 @@ You can use the **ClickToOpen** property to specify that menu items do not expan
 <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" ClickToOpen="True">
 ````
 
+By default The ClickToOpen functionality is applicable only for the Root items of the RadMenu. To apply the same functionality for the sub-items, a custom implementation is required. An idea how to achieve that you can find in the [Apply ClickToOpen functionality for sub-items of RadMenu](https://www.telerik.com/support/kb/aspnet-ajax/menu/details/apply-clicktoopen-functionality-for-sub-items-of-radmenu) knowledge base article.
 
