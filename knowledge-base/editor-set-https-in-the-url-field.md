@@ -46,4 +46,40 @@ and to load it through the DialogsScriptFile property
 <telerik:RadEditor runat="server" ID="RadEditor1" DialogsScriptFile="~/dialog.js" ></telerik:RadEditor>
 ````
  
+## Solution 2
+
+Use the OnClientCommandExecuted to access the HyperlinkManager dialog's contents and modify the LinkURL field value according to what's commining from the selection in the content area, e.g. if there is a selected URL it will stay untouched, if it is an empty selection the http:// protocol will be updated to https://, e.g.
+
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuted="OnClientCommandExecuted"></telerik:RadEditor>
+<script> 
+    function OnClientCommandExecuted(sender, args) {
+        var dialogWindow,
+            isIframe,
+            commandName = args.get_commandName();
+
+        dialogWindow = sender.get_dialogOpener()._dialogContainers[commandName];
+
+        if (dialogWindow) {
+            isIframe = dialogWindow.get_contentFrame();
+
+            if (isIframe) {
+                dialogWindow.add_pageLoad(setUrlProtocol);
+            }
+            else
+                setUrlProtocol(dialogWindow);
+        }
+    }
+
+    function setUrlProtocol(sender) {
+        sender.set_reloadOnShow(true);
+        var urlField = sender.get_contentFrame().contentDocument.getElementById("LinkURL");
+        
+        if (urlField.value.indexOf("http://") >= 0 && urlField.value.substring(0).length == 7)  {
+            urlField.value = "https://";
+        }
+        sender.remove_pageLoad(setUrlProtocol);
+    }
+</script>
+````
  
