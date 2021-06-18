@@ -5,7 +5,7 @@ description: Learn how to take advantage of the demos, documentation, and Visual
 slug: getting-started/explore-control-features
 tags: Exploring Control Features
 published: True
-position: 2
+position: 3
 ---
 
 # Exploring the Controls and their Features
