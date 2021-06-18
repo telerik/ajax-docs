@@ -56,7 +56,7 @@ Use the OnClientCommandExecuted to access the HyperlinkManager dialog's contents
     function OnClientCommandExecuted(sender, args) {
         var dialogWindow,
             isIframe,
-            commandName = args.get_commandName();
+            commandName = "LinkManager";
 
         dialogWindow = sender.get_dialogOpener()._dialogContainers[commandName];
 
