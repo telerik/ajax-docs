@@ -1,46 +1,56 @@
 ---
-title: Explore Control Features
-page_title: Explore Control Features
-description: Check our Web Forms article about Explore Control Features in UI for ASP.NET AJAX.
+title: Exploring the Controls
+page_title: Exploring the Controls and their Features
+description: Learn how to take advantage of the demos, documentation, and Visual Studio's IntelliSense when you work with the Telerik controls for ASP.NET AJAX in Web Forms.
 slug: getting-started/explore-control-features
-tags: Explore Control Features
+tags: Exploring Control Features
 published: True
 position: 2
 ---
 
-# Explore Control Features
+# Exploring the Controls and their Features
 
-Once you have the controls [working in your project]({%slug getting-started/first-steps%}), it's time to see what they can do. This article provides a short overview of how to get started with finding control functionality so you can use it.
+This article describes how to use the learning resources that will help you find information about the Telerik controls, their functionalities, and features.
 
 ## Demos
 
-To get an overview of what each control offers, the fastest approach is to go to our [Live Demos](https://demos.telerik.com/aspnet-ajax).
+To see a Telerik control in action and get an overview of its most popular features, go to the [Live Demos](https://demos.telerik.com/aspnet-ajax).
 
-You can **download the demo site** from your telerik.com account as a VS project and play around with the demos in the comfort of your IDE. The ` Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Dev.msi` and `Telerik_UI_for_ASP.NET_AJAX_<version>_Dev.zip` files contain the demo site. If your license is a trial one, you will see `...Trial.msi` and `...Trial.zip` respectively.
-
-## Explore properties and tags
-
-You can **explore** the available properties, events and inner tags of any control through the VS **intellisense** to get a quick glimpse of their concepts and availability.
-
->caption Figure 1: Explore Intellisense in the markup
-
-![Explore Intellisense in the markup](images/markup-intellisense.png "Explore Intellisense in the markup")
-
->caption Figure 2: Explore Inetllisense in the code-behind
-
-![Explore Inetllisense in the code-behind](images/code-behind-intellisense.png "Explore Inetllisense in the code-behind")
+You can download an MSI installer with these demos from your [Telerik account](https://www.telerik.com/account/product-download?product=RCAJAX) and then explore them in the comfort of your IDE. The `Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Dev.msi` and `Telerik_UI_for_ASP.NET_AJAX_<version>_Demos_Trial.msi` files contain a Visual Studio solution with all demos.
 
 ## Documentation
 
-In addition to that, the **documentation** provides a section for each control that contains help articles **on distinct features and API reference**.
+For each control, the documentation provides a [dedicated main section]({%slug breadcrumb/overview%}) with various sub-sections:
 
->caption Figure 3: Typical control documentation structure
+* [Functionality]({%slug breadcrumb/functionality/items%})&mdash;Contains articles that explain how to use some of the main features and functionalities of the controls.
 
-![Typical control documentation structure](images/typical-control-docs-structure.png "Typical control documentation structure")
+* [Server-side Programming]({%slug breadcrumb/server-side-programming/overview%})&mdash;Contains detailed information about the properties and events in the control's server-side API. This is the first place to look at when you need to implement additional server-side logic in the control.
 
-## Design-time
+* [Client-side Programming]({%slug breadcrumb/client-side-programming/overview%})&mdash;Contains information about the properties and events in the control's client-side API. This is the first place to look at when you need to implement additional client-side logic in the control.
 
-Last, but not least, some most common tasks and configuration options are available in the control's **Smart Tag in Design Mode**. You will also find **design-time wizards** and **links** that can be useful when you are getting started with a feature, or even for advanced users who want to save time with setting up collections, data sources or properties.
+* [How to]({%slug breadcrumb/how-to/how-to-integrate-radbreadcrumb-with-fontawesome-icons%})&mdash;Contains how-to instructions for custom scenarios.
+
+You will also find rich [client-side](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.GridColumn) and [server-side](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridAnimationSettings) API references.
+
+>caption Figure 1: Documentation structure for a typical control
+
+![Documentation structure for a typical control](images/typical-control-docs.png "Documentation structure for a typical control")
+
+## Properties and Tags
+
+Visual Studio's IntelliSense allows you to explore the available properties, events, and inner tags of any control.
+
+>caption Figure 2: Exploring IntelliSense in the markup
+
+![Explore IntelliSense in the markup](images/markup-intellisense.png "Explore IntelliSense in the markup")
+
+>caption Figure 3: Explore IntelliSense in the code-behind
+
+![Explore IntelliSense in the code-behind](images/code-behind-intellisense.png "Explore IntelliSense in the code-behind")
+
+## Smart Tags and Wizards at Design-Time
+
+Most tasks and configuration options are available in the control's Smart Tag in Design Mode. You will also find design-time wizards and links that can be useful if you are getting started with a feature or even if you are an advanced user who wants to save time with setting up collections, data sources, or properties.
 
 >caption Figure 4: Smart Tag features
 
@@ -48,7 +58,7 @@ Last, but not least, some most common tasks and configuration options are availa
 
 ## Next Steps
 
-Now that you have the Telerik UI for ASP.NET AJAX controls running in your project, you may want to explore their features, customize their behavior or change their appearance. Below you can find guidance on getting started with such tasks:
+Now that you know how to learn more about the controls and their features, you can start customizing their behavior and appearance:
 
 * [Customize control behavior]({%slug getting-started/customize-control-behavior%})
 * [Change control appearance]({%slug getting-started/change-control-appearance%})

@@ -81,7 +81,7 @@ You can add any Telerik Control manually to the page by following the instructio
 
 >Always place the Telerik AJAX controls after the ScriptManager declaration and inside the `<form>` tag. Make sure that the [RenderMode property]({%slug controls/render-modes%}) of the controls is set to Lightweight.
 
-### Configuring Controls
+## Configuring Controls
 
 After you've added the needed controls, you can configure them by using the following approaches:
 
