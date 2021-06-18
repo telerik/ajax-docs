@@ -1,43 +1,42 @@
 ---
-title: Customize Control Behavior
+title: Customizing Control Behavior
 page_title: Customize Control Behavior
 description: Check our Web Forms article about Customize Control Behavior.
 slug: getting-started/customize-control-behavior
 tags: Customize Control Behavior
 published: True
-position: 3
+position: 4
 ---
 
-# Customize Control Behavior
+# Customizing the Behavior of a Control
 
-Once you have the controls [working in your project]({%slug getting-started/first-steps%}), and you [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides a short overview of how to customize the behavior of the UI for ASP.NET AJAX controls.
+Once you have the controls [working in your project]({%slug getting-started/first-steps%}) and [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides tips on customizing the behavior of the UI for ASP.NET AJAX controls.
 
-## Look for Properties and Events, and Ready Solutions
+## Looking for Properties, Events, and Ready Solutions
 
-We try to create built-in features for the most common use cases, and the rich API the controls provide lets you customize their behavior further. The first step to customizing the control behavior is to look for similar built-in features and their corresponding events and API.
+The Telerik controls have built-in features for the most common use cases, while their rich API lets you customize their behavior further. The first step to customizing a control's behavior is to look for similar built-in features and their corresponding events and API.
 
-If you do not immediately see a feature you need, **take a look at the control properties and events** and it is likely that something will stand out as relevant. **Searching online** for your question is likely to provide you with **[demos](https://demos.telerik.com/aspnet-ajax/)**, **[documentation]({%slug introduction/introduction%})** or **[forum](https://www.telerik.com/forums/aspnet-ajax)** threads that treat similar questions and can **jump-start your development**. You can also find a lot of examples in the **[Code Library section](https://www.telerik.com/support/code-library/aspnet-ajax)** and in the **[Knowledge Base articles](https://www.telerik.com/support/kb/aspnet-ajax)**.
+If you do not immediately find the feature you need, take a look at the control's properties and events, and something will likely stand out as relevant. Search for it online, and you will find results from numerous Telerik resources:
 
-## Using the Documentation
+* [Demos](https://demos.telerik.com/aspnet-ajax/)
+* [Documentation]({%slug introduction/introduction%})
+* [Forums](https://www.telerik.com/forums/aspnet-ajax)
+* [Code Library section](https://www.telerik.com/support/code-library/aspnet-ajax)
+* [Knowledge Base articles](https://www.telerik.com/support/kb/aspnet-ajax)
 
-Each control also has a section in its documentation that is dedicated to listing properties and events with details on what they do and how they are used. The folders are invariably called **`Server-side Programming`** and **`Client-side Programming`** in the table of contents on the left hand side.
-This is the first place to look at when you need to **implement additional logic** around the control's functionality as it provides **API reference and event handling information**.
+## Customizing Complex Controls
 
->caption Figure 1: How to find API reference and event handling in the documentation
+Complex controls often use other Telerik controls internally. Customizing their behavior usually boils down to accessing the child controls and using their properties and events as if they were not nested. Thus, looking for child control references is a shortcut to customizing complex controls. They can be exposed as properties and often using `.FindControl()` will let you access them on the server.
 
-![Reference in Table of Contents](images/reference-in-toc.png "Reference in TOC")
+## Referencing a Control's Client-Side Object
 
-## Nested Controls
+When you need to get work done in the browser, you will need a reference to the client-side object of the control. This is a bit peculiar in MS AJAX, and the [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}) help article explains how to do that.
 
-**Complex controls** often use other Telerik controls internally, and so **customizing** their behavior usually **boils down to accessing the child controls and using their properties and events** as if they were not nested. Thus, looking for child control references is a shortcut to customizing complex controls.  They can be exposed as properties, and often times using `.FindControl()` will let you access them on the server.
-
-When you need to get work done **in the browser**, you will need a **reference to the client-side object** of the control. This is a bit peculiar in MS AJAX, and the [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%}) help article explains how to do that.
-
-### Client-side Event Handling
+### Handling Client-Side Events
 
 The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since they are server-side controls to being with, these events are exposed via serializable server properties and not as event attributes.
 
-**To handle a client-side event of a Telerik controls, you must provide only the string name of the handler function, without parentheses.** If you add the parentheses, the event handler function will try to execute as soon as the page loads, and this will usually result in errors.
+To handle a client-side event of a Telerik controls, you must provide only the string name of the handler function, *without parentheses*. If you add the parentheses, the event handler function will try to execute as soon as the page loads, and this will usually result in errors.
 
 >caption Example 1: Handling the client-side click of a Telerik button vs standard button
 
@@ -62,9 +61,7 @@ The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since 
 
 ## Next Steps
 
-Below you can find guidance on getting started with other common tasks:
-
-* [Change control appearance]({%slug getting-started/change-control-appearance%})
+[Change the appearance of a Telerik control]({%slug getting-started/change-control-appearance%})
 
 ## See Also
 
