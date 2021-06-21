@@ -162,7 +162,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 End Sub
 ````
 
-The InputStream property is also showcased in the [Access temporary file name and manually delete tempfile from RadAsyncUpload](%slug knowledge-base/asyncupload-access-temporary-file%}) how-to article.
+The InputStream property is also showcased in the [Access temporary file name and manually delete tempfile from RadAsyncUpload]({%slug asyncupload-access-temporary-file%}) how-to article.
 
 # See Also
 
