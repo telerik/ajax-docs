@@ -31,7 +31,7 @@ Before adding a Telerik control to your project, verify that the server, develop
 	
 		<asp:ScriptManager ID="ScriptManager1" runat="server" />				
 
-	>tip If the page is a content page or user control, you can add the ScriptManager to the master or main page. For more details about ScriptManager, see [Microsoft's dedicated article](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8).
+	>tip If the page is a content page or user control, you can add the ScriptManager to the master or main page. For more details about ScriptManager, see <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft's dedicated article</a>.
 
     Alternatively, you can use [RadScriptManager](https://docs.telerik.com/devtools/aspnet-ajax/controls/scriptmanager/overview), which extends the standard ScriptManager control and adds more features to it.
 

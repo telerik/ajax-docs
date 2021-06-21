@@ -10,7 +10,7 @@ position: 1
 
 # First Steps with UI for ASP.NET AJAX
 
-This article demonstrates the steps to create a [Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms) that uses [Telerik UI for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax) components. You will download the Telerik components, create a project, and add the [RadEditor](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview) and [RadHtmlChart](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/overview) controls. As RadHtmlChart requires data binding to show its full potential, you will learn how to bind the Telerik controls to sample data.
+This article demonstrates the steps to create a <a href="https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms" target="_blank">Web Forms application</a> components. You will download the Telerik components, create a project, and add the [RadEditor](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview) and [RadHtmlChart](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/overview) controls. As RadHtmlChart requires data binding to show its full potential, you will learn how to bind the Telerik controls to sample data.
 
 Throughout this tutorial, you'll find links to relevant articles that you don't need to read immediately, but will help you deepen your knowledge about the Telerik UI controls. If you want to experiment with the sample application created here, you can fork or download the source code from the [GitHub repository](https://github.com/telerik/aspnet-sdk/tree/master/Common/MyFirstTelerikSite).
 
@@ -20,7 +20,7 @@ To follow the steps in this tutorial, you need:
 
 * Visual Studio 2019
 
-* [.NET Framework 4.5 (or later)](https://dotnet.microsoft.com/download)
+* <a href="https://dotnet.microsoft.com/download" target="_blank">.NET Framework 4.5 (or later)</a>
 
 >important The prerequisites above apply only to this article and guarantee that you can successfully complete the tutorial. For a complete list with all supported frameworks and development tools, see [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
 
