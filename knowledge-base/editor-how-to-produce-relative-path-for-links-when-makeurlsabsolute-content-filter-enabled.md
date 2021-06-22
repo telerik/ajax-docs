@@ -1,23 +1,35 @@
 ---
 title: How to produce relative path for links when MakeUrlsAbsolute content filter enabled
-description: See how to produce relative paths for links when MakeUrlsAbsolute content filter of RadEditor is enabled.
+description: How to produce relative path for links when RadEditor MakeUrlsAbsolute content filter enabled. Check it now!
 type: how-to
-page_title: How to produce relative paths for links when MakeUrlsAbsolute content filter enabled
+page_title: How to produce relative path for links when MakeUrlsAbsolute content filter enabled
 slug: editor-how-to-produce-relative-path-for-links-when-makeurlsabsolute-content-filter-enabled
 res_type: kb
 ---
 
-## Description
 
-In some scenarios you might need to enable the MakeUrlsAbsolute content filter to provide absolute URLs for your content but you want to keep the relative paths for link elements. By design, this content filter applies for IMG, A, EMBED and AREA elemets and does not provide configuration properties.
+   
+## HOW-TO  
 
-## Solution
+Produce relative path for links when RadEditor MakeUrlsAbsolute filter property is set to **true**.  
+   
+   
+## DESCRIPTION  
 
-For such scenario you can create a custom content filter to remove the domain name from the HREF attribute of the links. In order to ensure that this filter will be applied, it must not be a DOM filter because of the order of executing of content filters:
-Built-in DOM filters -> Custom DOM filters -> ConvertToXhtml filter -> Built-in string filters -> Custom string filters
-Creating such filter as a string filter, will ensure that it will be executed last.
-Here is the complete code solution:
+In some scenarios you might need to enable the MakeUrlsAbsolute content filter to provide absolute URLs for your content but you want to keep the relative paths for link elements. By design, this content filter applies for IMG, A, EMBED and AREA elemets and does not provide configuration properties.  
+   
+   
+## SOLUTION  
 
+For such scenario you can create a custom content filter to remove the domain name from the HREF attribute of the links. In order to ensure that this filter will be applied, it must not be a DOM filter because of the order of executing of content filters:  
+
+Built-in DOM filters -> Custom DOM filters -> ConvertToXhtml filter -> Built-in string filters -> Custom string filters   
+
+Creating such filter as a string filter, will ensure that it will be executed last.  
+
+Here is the complete code solution:  
+ 
+ 
 ````ASP.NET
 <telerik:RadEditor ID="RadEditor1" runat="server" ContentFilters="MakeUrlsAbsolute, DefaultFilters"
     OnClientLoad="OnClientLoad">
@@ -31,7 +43,7 @@ function OnClientLoad(editor, args)
 MyFilter = function()
 {
     MyFilter.initializeBase(this);
-    //set_isDom(false) in order to create the filter as a string filter
+    //set_isDom(false) in order to create the filter as string filter
     this.set_isDom(false);
     this.set_enabled(true);
     this.set_name("RadEditor filter that strips the domain from links HREF attribute");
@@ -60,4 +72,10 @@ MyFilter.prototype =
 MyFilter.registerClass('MyFilter', Telerik.Web.UI.Editor.Filter);
 </script>
 ````
+ 
+   
+   
+   
+ 
+
 
