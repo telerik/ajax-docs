@@ -32,30 +32,18 @@ The **ClientDataSource Model** actually demonstrates model of the schema which h
 These are the properties that you can use for configuring the **Model**:
 
 * **ID** - Gets or sets the field serving as ID of the model. Necessary for CRUD operations!
-
 * **Fields** - Represents a collection of **ClientDataSourceModelFields** configuring the settings for each field:
-
 * **FieldName** - Gets or sets the name of the field from the model.
-
 * **OriginalFieldName** - Gets or sets the name of the orginal field from the data.
-
 * **ParseFunctionName** - Gets or sets the name of function which will parse the field value. If not set default parsers will be used.
-
 * **Editable** – Gets or sets field from the Model is editable. Default is true.
-
 * **Nullable** – Gets or sets field from the Model is nullable. Default is true.
-
 * **DefaultValue** – Gets or sets the default value of the field from the model.
-
 * **DataType** – Gets or sets the corresponding client-side type of the field from the model. Currently enumeration:
-
-* Data
-
-* String
-
-* Number
-
-* Boolean
+  * Data
+  * String
+  * Number
+  * Boolean
 
 ## Create the Service
 
