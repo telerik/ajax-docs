@@ -141,7 +141,7 @@ End Class
 The data coming from the WebService must be an array of objects
 
 ````JavaScript
-var arrayOfObjects = [
+[
     { Freight: 1.1, OrderDate: "/Date(1624395600000)/", OrderID: 1, ShipName: "ShipName 1", ShipCountry: "ShipCountry 1" },
     { Freight: 2.2, OrderDate: "/Date(1624395600000)/", OrderID: 2, ShipName: "ShipName 2", ShipCountry: "ShipCountry 2" }
     { Freight: 3.3, OrderDate: "/Date(1624395600000)/", OrderID: 3, ShipName: "ShipName 3", ShipCountry: "ShipCountry 3" }
@@ -158,7 +158,7 @@ If the data is nested, you must specify in the `Schema-DataName` which nested pr
 Response
 
 ````JavaScript
-var nestedObject = {
+{
     d: [
         { Freight: 1.1, OrderDate: "/Date(1624395600000)/", OrderID: 1, ShipName: "ShipName 1", ShipCountry: "ShipCountry 1" },
         { Freight: 2.2, OrderDate: "/Date(1624395600000)/", OrderID: 2, ShipName: "ShipName 2", ShipCountry: "ShipCountry 2" }
@@ -185,7 +185,7 @@ Schema
 Response
 
 ````JavaScript
-var nestedObject = {
+{
     one: {
         two: [
             { Freight: 1.1, OrderDate: "/Date(1624395600000)/", OrderID: 1, ShipName: "ShipName 1", ShipCountry: "ShipCountry 1" },
@@ -216,7 +216,7 @@ Alternatively, you can parse and assign the data manually using the **OnDataPars
 The response is a **nested object**.
 
 ````JavaScript
-var nestedObject = {
+{
     d: [
         { Freight: 1.1, OrderDate: "/Date(1624395600000)/", OrderID: 1, ShipName: "ShipName 1", ShipCountry: "ShipCountry 1" },
         { Freight: 2.2, OrderDate: "/Date(1624395600000)/", OrderID: 2, ShipName: "ShipName 2", ShipCountry: "ShipCountry 2" }
