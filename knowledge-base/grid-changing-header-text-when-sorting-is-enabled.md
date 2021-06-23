@@ -18,23 +18,22 @@ However, when the **AllowSorting** setting is enabled, changing the Text propert
 
 You can use one of the following approaches to resolve the issue:  
 
-1. In DataBinding event
+In **DataBinding** event
 
-    ````C#
-    protected void RadGrid1_DataBinding(object sender, EventArgs e)
-    {
-        RadGrid1.MasterTableView.GetColumn("ShipName").HeaderText = "Success";
-    }
-    ````
+````C#
+protected void RadGrid1_DataBinding(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.GetColumn("ShipName").HeaderText = "Success";
+}
+````
 
+In **PreRender** event
 
-1. In PreRender event
-
-    ````C#
-    protected void RadGrid1_PreRender(object sender, EventArgs e)
-    {
-        TableCell cell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ShipName");
-        (cell.Controls[0] as LinkButton).Text = "Success";
-    }
-    ````
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    TableCell cell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ShipName");
+    (cell.Controls[0] as LinkButton).Text = "Success";
+}
+````
  
