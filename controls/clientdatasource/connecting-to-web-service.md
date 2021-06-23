@@ -10,17 +10,14 @@ position: 2
 
 # Connecting to Web Service
 
+Instructions to create and configure the RadClientDataSource.
 
+## Create & Bind the Controls
 
-In this topic, we will show how to bind a DataBound control to a **WebService** using the **RadClientDataSourceControl**.
+* From the **Toolbox** in **Visual Studio**, drag a **RadClientDataSource** and **RadGrid** instance to the design surface of your page.
+* Define the url to the **WebService** using the **Url** property. In this example we are using "**https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
 
-## 
-
-* From the **Toolbox** in **Visual Studio**, drag a **RadClientDataSource** instances to the design surface of your page.
-
-* Set a **WebService** using the **Url** property. In this example we are using "**https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products**"
-
-````C#
+````XML
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
@@ -30,32 +27,63 @@ In this topic, we will show how to bind a DataBound control to a **WebService** 
 </telerik:RadClientDataSource>
 ````
 
-
-
 * Configure the **Model Schema** and set the **Fileds** for the data source control
 
-````C#
+````XML
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
     <DataSource>
         <WebServiceDataSourceSettings ServiceType="OData">
-            <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" />
+            <Select Url="https://demos.telerik.com/kendo-ui/service/Northwind.svc/Products" DataType="JSONP" ContentType="application/json" />
         </WebServiceDataSourceSettings>
     </DataSource>
-    <Schema>
-        <Model>
-            <telerik:ClientDataSourceModelField FieldName="ProductName" DataType="String" />
-            <telerik:ClientDataSourceModelField FieldName="QuantityPerUnit" DataType="String" />
+    <Schema GroupsName="ProductName">
+        <Model ID="Model1">
+            <telerik:ClientDataSourceModelField FieldName="ProductName" DataType="String" Editable="true" IgnoreCase="true" />
+            <telerik:ClientDataSourceModelField FieldName="QuantityPerUnit" DataType="String" Nullable="false" />
             <telerik:ClientDataSourceModelField FieldName="UnitPrice" DataType="Number" />
             <telerik:ClientDataSourceModelField FieldName="UnitsInStock" DataType="Number" />
             <telerik:ClientDataSourceModelField FieldName="Discontinued" DataType="Boolean" />
         </Model>
     </Schema>
-</telerik:RadClientDataSource>
+    <GroupExpressions>
+        <telerik:ClientDataSourceGroupExpression FieldName="ProductName">
+        </telerik:ClientDataSourceGroupExpression>
+    </GroupExpressions>
+</telerik:RadClientDataSource>	
 ````
 
+* Assign the ClientDataSource to the **DataBound** control (e.g. RadGrid)
 
-* Assign the ClientDataSource to the **DataBound** control.
+**Using Visual Studio Designer**
+  
 ![client-data-source-id](images/client-data-source-id.png)
+ 
+**Using the Source**
 
-* The DataBound control will properly retrieve the data from the WebService
+````XML
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" AllowFilteringByColumn="true" ClientDataSourceID="RadClientDataSource1">
+    <MasterTableView AutoGenerateColumns="False">
+        <Columns>
+            <telerik:GridBoundColumn DataField="ProductName" UniqueName="ProductName" HeaderText="ProductName">
+            </telerik:GridBoundColumn>
+
+            <telerik:GridBoundColumn DataField="QuantityPerUnit" UniqueName="QuantityPerUnit" HeaderText="QuantityPerUnit">
+            </telerik:GridBoundColumn>
+
+            <telerik:GridNumericColumn DataField="UnitPrice" UniqueName="UnitPrice" HeaderText="UnitPrice">
+            </telerik:GridNumericColumn>
+
+            <telerik:GridNumericColumn DataField="UnitsInStock" UniqueName="UnitsInStock" HeaderText="UnitsInStock">
+            </telerik:GridNumericColumn>
+
+            <telerik:GridBoundColumn DataField="Discontinued" UniqueName="Discontinued" HeaderText="Discontinued">
+            </telerik:GridBoundColumn>
+        </Columns>
+    </MasterTableView>
+</telerik:RadGrid>
+````
+
+**Result**
+
 ![client-data-source-grid](images/client-data-source-grid.png)
+ 
