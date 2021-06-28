@@ -255,7 +255,7 @@ Remove *runtimeVersionv2.0* from the handler declaration.
 
 **Design-Time error on a page using Telerik controls:**
 
-**Error Creating Control - Telerik control'Property' cannot be initialized. Details: Unable to cast object of type 'Type' to type 'Type'**.
+**Error Creating Control - Telerik control 'Property' cannot be initialized. Details: Unable to cast object of type 'Type' to type 'Type'**.
 
 **Cause**:
 
@@ -273,7 +273,13 @@ When you drag a **Telerik control** from the Toolbox to the design surface, you 
 
 **Suggested Solution**:
 
-Please check the following links for different solution options: [link 1](https://www.telerik.com/community/forums/aspnet-ajax/menu/menu-problem-39-error-creating-control-39-at-design-time.aspx), [link 2](https://www.telerik.com/community/forums/aspnet-ajax/general-discussions/ajax-2009-q2-release-giving-me-gray-hair.aspx) and [link 3](http://blogs.microsoft.co.il/blogs/kolbis/archive/2008/06/29/unable-to-cast-object-from-type-x-to-type-x.aspx).
+Please check the following links for different solution options:
+
+* [Error rendering control (Unable to cast object of TypeA to TypeA)](https://www.telerik.com/forums/error-rendering-control-unable-to-cast-object-of-typea-to-typea-75309ca98a0e)
+* [Menu problem: "Error creating control" at design time](https://www.telerik.com/forums/menu-problem-39-error-creating-control-39-at-design-time)
+* [Clearing Cache](https://www.telerik.com/forums/ajax-2009-q2-release-giving-me-gray-hair)
+* [Visual Studio: "Error Creating Control"](https://www.telerik.com/blogs/visual-studio-ldquo-error-creating-control-rdquo) blog post
+
 
 **Problem**:
 
