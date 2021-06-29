@@ -57,9 +57,9 @@ You can also use the **OnClientSelectedIndexChanging** event when you deploy dep
 
 ````ASPNET
 <script type="text/javascript">        
-function LoadCountries(combo, eventarqs) {
+function LoadCountries(combo, eventArgs) {
 		var countriesCombo = $find("<%= RadComboBox2.ClientID %>");
-		var item = eventarqs.get_item(); 
+		var item = eventArgs.get_item(); 
 		countriesCombo.set_text("Loading...");
 		if (item.get_index() > 0) {
 			countriesCombo.requestItems(item.get_value(), false);
@@ -69,7 +69,7 @@ function LoadCountries(combo, eventarqs) {
 			countriesCombo.clearItems();
 		 }
 	}
-	function ItemsLoaded(combo, eventarqs) {
+	function ItemsLoaded(combo, eventArgs) {
 		var countriesCombo = $find("<%=RadComboBox2.ClientID%>");
 		if (combo.get_items().get_count() > 0) {
 			combo.set_text(combo.get_items().getItem(0).get_text());
