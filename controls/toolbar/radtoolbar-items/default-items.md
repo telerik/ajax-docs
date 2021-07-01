@@ -19,3 +19,9 @@ The "push button" behavior of the split button can operate independently of its 
 * To allow the split button's "push button" behavior to act independently of the drop-down list, set the **EnableDefaultButton** property to **False**. When EnableDefaultButton is False, the split button is rendered using its own **Text** property and any Image properties you specify.
 
 * To allow the split button to represent a button in the drop-down list, set the **EnableDefaultButton** property to **True** (this is the default value). When **EnableDefaultButton** is **True**, the **DefaultButtonIndex** property identifies which button in its drop-down list is the default button. (**DefaultButtonIndex** is the index of the default button in the split button's **Buttons** collection). When **EnableDefaultButton** is **True**, the split button is rendered using the **Text** and image of the default button rather than the values assigned to its own **Text** and image properties.
+
+
+## See Also 
+
+* [Set selected item in ToolBarSplitButton]({%slug toolbar/how-to/set-selected-item-in-toolbarsplitbutton%})
+
