@@ -291,7 +291,7 @@ RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 
 ### Export Template Columns
 
-Exporting usually contains only data. This applies mostly to Excel/CSV export. Template columns can contain arbitrary HTML and controls, and may not get exported as expected. In such case, the developer must provide `Text` for the cell when exporting the grid. For example:
+Exporting usually contains only data. This applies mostly to Excel/CSV export. Template columns can contain arbitrary HTML and controls, and may not get exported as expected. In such case, the developer must set ExportOnlyData="false" inside the ExportSettings inner tag as well as provide `Text` for the cell when exporting the grid. For example:
 
 ````C#
 protected void RadGrid1_PreRender(object sender, EventArgs e)
