@@ -14,7 +14,7 @@ Generally, RadButton provides its own **.set\_visible()** method which can be us
 
  [RadButton Client-side Object Model](https://docs.telerik.com/devtools/aspnet-ajax/controls/button/client-side-programming/overview#client-side-object-model)  
   
- If you want to add some animated effect to this action to make it more pleasant to the eye, look no further than the approach below.
+ If you want to add some animated effect to this action to make it more pleasant to the eye, look no further than the approach below. 
  
  ![Animate Button Hiding](images/button-animate-hiding-and-showing.gif)
 
@@ -56,7 +56,7 @@ Generally, RadButton provides its own **.set\_visible()** method which can be us
         }
         else {
             $(this._element).fadeOut("slow", function () {
-                Sys.UI.DomElement.setVisible(buttonEl, value)
+                Sys.UI.DomElement.setVisible(buttonEl, value) 
             });
         }
     }
