@@ -23,7 +23,7 @@ Also, RadHtmlChart does not adjust size based on the label size.
 There are various approaches you can take to improve the appearance of the chart. For example, you can use one or more of the following:
 
 - Move the long content to a tooltip instead of to the label.
-- Truncate the label: [https://www.telerik.com/support/kb/aspnet-ajax/chart-(html5)/details/truncate-labels-(set-max-length)](/support/kb/aspnet-ajax/chart-%28html5%29/details/truncate-labels-%28set-max-length%29).
+- Truncate the label: [https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/htmlchart-truncate-labels]({%slug htmlchart-truncate-labels%}).
 - Split the labels into several lines: [http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx).
 - Change the LabelsAppearance.Position property to, for example, InsideEnd to provide more room for the label.
 - Set a [padding for the series](https://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-series.padding) that results in the desired appearance. For example:  
