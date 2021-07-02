@@ -12,7 +12,7 @@ res_type: kb
 
 When generating the RadCaptcha audio, the server CPU usage goes high and does not come back down. The RadCaptcha audio does not work and the request for it does not return.
 
-The CPU usage may go up to 50% on the first request and then to 100%, or  to 100% directly. 
+The CPU usage may go up to 50% on the first request and then to 100%, or  to 100% directly.
 
 ## Description
 
