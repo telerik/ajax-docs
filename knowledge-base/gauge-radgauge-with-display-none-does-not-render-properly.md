@@ -1,8 +1,8 @@
 ---
-title: RadGauge with 'display: none' does not render properly
-description: RadGauge with 'display: none' does not render properly. Check it now!
+title: RadGauge with 'display&#x3a; none' does not render properly
+description: RadGauge with 'display&#x3a; none' does not render properly. Check it now!
 type: how-to
-page_title: RadGauge with 'display: none' does not render properly
+page_title: RadGauge with 'display&#x3a; none' does not render properly
 slug: gauge-radgauge-with-display-none-does-not-render-properly
 res_type: kb
 ---

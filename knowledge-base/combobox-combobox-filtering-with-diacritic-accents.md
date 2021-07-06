@@ -33,7 +33,7 @@ For convenience to your users, you can choose to enable accent-insensitive filte
   
  And you can add the following override JavaScript logic to your page to achieve this filtering requirement:  
 
-````Javascript
+````JavaScript
 <script>
     var $ = $telerik.$, $T = Telerik.Web.UI, $I = $T.RadComboBoxItem;
  
@@ -101,7 +101,7 @@ For convenience to your users, you can choose to enable accent-insensitive filte
         return str;
     };
 </script>
-```
+````
   
 
 
