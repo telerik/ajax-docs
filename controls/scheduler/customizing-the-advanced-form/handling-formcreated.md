@@ -227,6 +227,81 @@ End Sub
  </script>
 ````
 
+## Replace Subject field textbox with a RadComboBox
+
+````ASP.NET
+<style>
+    .hidden-textbox {
+        display: none
+    }
+</style>
+<script type="text/javascript">
+
+    var subjectTextBox;
+    function OnLoadSubjectTextBox(sender) {
+        subjectTextBox = sender;
+    }
+    function OnClientSelectedIndexChanging(sender, args) {
+        subjectTextBox.set_value(args.get_item().get_text());
+    }
+</script>
+````
+
+````C#
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{
+    if ((e.Container.Mode == SchedulerFormMode.AdvancedEdit) || (e.Container.Mode == SchedulerFormMode.AdvancedInsert))
+    {
+        RadComboBox subjectChanger = new RadComboBox();
+        subjectChanger.Items.Add(new RadComboBoxItem("-"));
+        subjectChanger.Items.Add(new RadComboBoxItem("Homework"));
+        subjectChanger.Items.Add(new RadComboBoxItem("Test"));
+        subjectChanger.Items.Add(new RadComboBoxItem("Final exam"));
+        subjectChanger.Label = "Update subject:";
+        subjectChanger.OnClientSelectedIndexChanging = "OnClientSelectedIndexChanging";
+
+        subjectChanger.Width = Unit.Pixel(250);
+        subjectChanger.LabelCssClass = "rfbLabel";
+
+        var item = subjectChanger.FindItemByText(e.Appointment.Subject);
+        if (item!=null)
+        {
+            item.Selected = true;
+        }
+
+        RadTextBox subject = e.Container.FindControl("Subject") as RadTextBox;
+        subject.WrapperCssClass = "hidden-textbox";
+        subject.ClientEvents.OnLoad = "OnLoadSubjectTextBox";
+        subject.Parent.Controls.Add(subjectChanger);
+    }
+}
+````
+````VB
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
+    If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
+        Dim subjectChanger As RadComboBox = New RadComboBox()
+        subjectChanger.Items.Add(New RadComboBoxItem("-"))
+        subjectChanger.Items.Add(New RadComboBoxItem("Homework"))
+        subjectChanger.Items.Add(New RadComboBoxItem("Test"))
+        subjectChanger.Items.Add(New RadComboBoxItem("Final exam"))
+        subjectChanger.Label = "Update subject:"
+        subjectChanger.OnClientSelectedIndexChanging = "OnClientSelectedIndexChanging"
+        subjectChanger.Width = Unit.Pixel(250)
+        subjectChanger.LabelCssClass = "rfbLabel"
+        Dim item = subjectChanger.FindItemByText(e.Appointment.Subject)
+
+        If item IsNot Nothing Then
+            item.Selected = True
+        End If
+
+        Dim subject As RadTextBox = TryCast(e.Container.FindControl("Subject"), RadTextBox)
+        subject.WrapperCssClass = "hidden-textbox"
+        subject.ClientEvents.OnLoad = "OnLoadSubjectTextBox"
+        subject.Parent.Controls.Add(subjectChanger)
+    End If
+End Sub
+````
+
 
 
 ## Hide the "all day checkbox"
