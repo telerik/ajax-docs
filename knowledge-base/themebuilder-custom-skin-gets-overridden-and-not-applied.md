@@ -22,9 +22,44 @@ res_type: kb
 
 
 ## Description
-The Skins generated from the Telerik ThemeBuilder are generated with the same selectors's specificity as the built-in base styles. Sometimes, depending on the skin and scenario, the base Telerik styles are overriding styles from the custom skins. This is considered an issue with the skins themselves and will be fixed in upcoming versions of the controls. In the meantime the solution below can be used.
+The Skins generated from the Telerik ThemeBuilder are generated with the same selectors's specificity as the built-in base styles. Sometimes, depending on the skin and scenario, the base Telerik styles are overriding styles from the custom skins. 
 
-## Solution
+The issue is observed in scenarios where the stylesheets are loaded in the `<head>`. That is because the base skins are loaded programmatically as the last children of the `<head>`, meaning the base stylesheets will be loaded after the custom skin files.
+
+This is considered an issue with the skins themselves and will be fixed in upcoming versions of the controls. In the meantime one of the solutions below can be used.
+
+## Solutions
+
+### Load stylesheets in body
+
+As the description explains, the reversed order is causing the issue so to ensure the proper order, you can load the skins in the `<body>` instead of the `<head>`.
+
+### Use RadStyleSheetManager
+
+The RadStyleSheetManager gives the ability to control the loading order of the stylesheets you pass. That means you can load the styles with a big OrderIndex and the custom skin files will be loaded after the base styles. 
+
+````web.config
+<configuration>
+  <appSettings>
+    <add key="Telerik.Web.UI.StyleSheetFolders" value="~/Skins" />
+````
+
+````ASP.NET
+<telerik:RadStyleSheetManager runat="server">
+    <StyleSheets>
+        <telerik:StyleSheetReference Path="~/Skins/Button.MySkin.css" OrderIndex="9999" />
+        <telerik:StyleSheetReference Path="~/Skins/Grid.MySkin" OrderIndex="9999" />
+        <%-- Other custom skin files here --%>
+    </StyleSheets>
+</telerik:RadStyleSheetManager>
+````
+
+>note Keep in mind that in order to load stylesheets from the local system you need to set the `Telerik.Web.UI.StyleSheetFolders` setting in the web.config: [RadStyleSheetManager - Serving External Stylesheets](https://docs.telerik.com/devtools/aspnet-ajax/controls/stylesheetmanager/serving-external-style-sheets)
+
+
+
+
+### Modify selectors in skin files
 
 The [Telerik ThemeBuilder]({%slug theme-builder/overview%}) allows customizing skins for the Lightweight render mode of the Telerik UI for ASP.NET AJAX controls. 
 Increasing the Selectors' specificity would prevent any base stylesheets from overriding it. 
