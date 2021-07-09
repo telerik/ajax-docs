@@ -52,7 +52,7 @@ The following steps ensure a safe upgrade:
 
 1. Copy the new assemblies from the corresponding `Bin*` folder in the UI for ASP.NET AJAX installation path:
 
-   * The `Bin45` folder contains the assemblies for .NET 4.5
+   * The `Bin45` folder contains the assemblies for .NET 4.5 and above.
 
    * The `Bin40` folder contains the assemblies for .NET 4.0.
 
