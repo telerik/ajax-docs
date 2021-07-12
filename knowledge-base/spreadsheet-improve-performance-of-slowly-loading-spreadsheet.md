@@ -3,7 +3,7 @@ title: Improve performance of slowly loading Spreadsheet
 description: Improve performance of slowly loading Spreadsheet. Check it now!
 type: how-to
 page_title: Improve performance of slowly loading Spreadsheet
-slug: improve-performance-of-slowly-loading-spreadsheet
+slug: spreadsheet-improve-performance-of-slowly-loading-spreadsheet
 res_type: kb
 ---
 
