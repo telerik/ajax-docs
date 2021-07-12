@@ -1,6 +1,6 @@
 ---
 title: Server side events not fired when a Navigation control is bound via SiteMap DataSource
-description: Server side events not fired when a Navigation control is bound via SiteMap DataSource. Check it now!
+description: Server side events not fired when a Navigation control is bound via SiteMap DataSource - Telerik ASP.NET AJAX. Check it now!
 type: how-to
 page_title: Server side events not fired when a Navigation control is bound via SiteMap DataSource
 slug: menu-server-side-events-not-fired-when-a-navigation-control-is-bound-via-sitemap-datasource
@@ -10,7 +10,7 @@ res_type: kb
 
    
  ## HOW-TO  
- Fire server-side events when the control is bound to SiteMap DataSource.   
+ Fire server-side events when the control is bound to SiteMap DataSource   
    
    
 ## SOLUTION  
