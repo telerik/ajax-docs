@@ -38,11 +38,11 @@ The common features of all **RadInput** controls include
 
 * Optional postback when the user changes the value.
 
-* Support for all major browsers, including Internet Explorer 6.0 and above, Mozilla Firefox 2.0 and above, Google Chrome 2.0 and above, Opera 9.0 and above, and Safari 3.0 and above.
+* [Support for all major browsers](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) including Chrome, Firefox and Microsoft Edge.
 
-In addition to these common features, each **RadInput** control provides its own unique features, designed to make it as easy as possible to work with a particular type of data:
+In addition to these common features, each **RadInput** control provides its own unique features, designed to make it as easy as possible to work with a particular type of data.
 
-****RadNumericTextBox** controls support the following specific features also:
+For example, **RadNumericTextBox** control supports the following specific features also:
 
 * Currency, Percentage, or Number mode
 
