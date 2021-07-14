@@ -1,8 +1,8 @@
 ---
-title: "Page Not Found" error when uploading large files on Win2003
-description: "Page Not Found" error when uploading large files on Win2003. Check it now!
+title: Page Not Found error when uploading large files on Win2003
+description: Page Not Found error when uploading large files on Win2003. Check it now!
 type: how-to
-page_title: "Page Not Found" error when uploading large files on Win2003
+page_title: Page Not Found error when uploading large files on Win2003
 slug: asyncupload-page-not-found-error-when-uploading-large-files-on-win2003
 res_type: kb
 ---

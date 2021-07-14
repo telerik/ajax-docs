@@ -1,6 +1,6 @@
 ---
 title: Broken scroll and overflow appearance in Spreadsheet
-: Broken scroll and overflow appearance in Spreadsheet. Check it now!
+description: Broken scroll and overflow appearance in Spreadsheet. Check it now!
 type: how-to
 page_title: Broken scroll and overflow appearance in Spreadsheet
 slug: spreadsheet-broken-scroll-and-overflow-appearance
