@@ -6,14 +6,13 @@ page_title: How-to Expand and Collapse nodes by clicking on node's text
 slug: treeview-how-to-expand-and-collapse-nodes-by-clicking-on-node-s-text
 res_type: kb
 ---
-
-
  
 ## HOW-TO
 Expand and collapse nodes by clicking on node's text  
    
 ## SOLUTION  
- Subscribe to the [OnClientNodeClicked]({%slug treeview/client-side-programming/events/onclientnodeclicked}) and define its event handler as follows:  
+
+Subscribe to the [OnClientNodeClicked]({%slug treeview/client-side-programming/events/onclientnodeclicked%}) and define its event handler as follows:  
    
    
 ````
