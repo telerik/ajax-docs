@@ -22,11 +22,27 @@ Nowadays supporting mobile devices in the Web Development is a must. However fin
 >note When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode**.
 >
 
+## How it works?
+
+Telerik DeviceDetectionFramework is designed to distinguish whether the application is browsed on a desktop screen or on a mobile device screen. Its main purpose is to allow automatic enabling of controls' Mobile render mode when browsed under mobile devices as well as to allow you to apply different CSS for different predefined or custom ranges of mobile devices' screen size. 
+
+This framework matches the user agent string from the request with a predefined database that holds records for various mobile devices' screen sizes in CSS pixels. That screen size check is done server-side to allow proper control rendering - client-side check would come too late. When the framework finds a match, it returns the screen size. If no match is found, the result returned is 0. In the case of mobile devices, there is a specific screen size for each device that is known in advance and could be matched against unique user agent string values that hold information about the mobile device model.
+
+>important
+RadDeviceDetectionFramework cannot define the **Device orientation**
+>
+
+The Device orientation is not passed in the user agent string, so the RadDeviceDetectionFramework cannot distinguish whether the requesting device is in Landscape or Portrait mode. Such a check could be accomplished on the client using Media Queries. Find more about how to use media queries in:
+
+ - [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+ - [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+
 
 ## How to use it?
 
 In order to use **Detection Framework** you need to add reference to **Telerik.Web.Device.Detection.dll** in your project.
-
 
 
 ````C#
