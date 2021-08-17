@@ -48,7 +48,7 @@ In the example code below the item index is presented in MS Label control which 
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
-    if (e.Item is GridDataItem && e.Item.OwnerTableView.DataSourceID == "AccessDataSource1")
+    if (e.Item is GridDataItem && e.Item.OwnerTableView.DataSourceID == "SqlDataSource1")
     {
         Label lbl = e.Item.FindControl("numberLabel") as Label;
         lbl.Text = (e.Item.ItemIndex + 1).ToString();
@@ -57,7 +57,7 @@ protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEven
 ````
 ````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-    If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource1") Then
+    If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "SqlDataSource1") Then
         Dim lbl As Label = CType(e.Item.FindControl("numberLabel"), Label)
         lbl.Text = (e.Item.ItemIndex + 1).ToString
     End If
