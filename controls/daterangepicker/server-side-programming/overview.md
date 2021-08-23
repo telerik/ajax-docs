@@ -66,7 +66,7 @@ End Sub
 
  * [Server-Side API of the RadDateRangePicker class](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadDateRangePicker)
  
- * [RadCalendar Server-side Programming]({%slug calendar/server-side-programming/server-side-objects%})
+ * [RadCalendar Server-side Programming]({%slug calendar/server-side-programming/radcalendar-object%})
 
- * [RadDatePicker Server-side Programming]({%slug datepicker/server-side-programming/server-side-objects%})
+ * [RadDatePicker Server-side Programming]({%slug calendar/server-side-programming/server-side-objects%})
 
