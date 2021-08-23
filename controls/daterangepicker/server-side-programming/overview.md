@@ -18,9 +18,9 @@ For a list with the server-side properties and methods of the control, see the [
 
 Information about the Server-side APIs of the embedded controls you can find in the dedicated articles:
 
- - [RadCalendar Server-side Programming]({%slug calendar/server-side-programming/server-side-objects%})
+ - [RadCalendar Server-side Programming]({%slug calendar/server-side-programming/radcalendar-object%})
 
- - [RadDatePicker Server-side Programming]({%slug datepicker/server-side-programming/server-side-objects%})
+ - [RadDatePicker Server-side Programming]({%slug calendar/server-side-programming/server-side-objects%})
 
 
 ## Create a RadDateRangePicker in the Code-behind:
