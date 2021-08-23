@@ -33,7 +33,7 @@ The rich functionality of the built-in RadCalendar and DatePicker(s) determine t
 </telerik:RadDateRangePicker>
 ````
 
-To find more on how to customize the embedded controls, check out the [Customizing the Embedded Controls]({%slug Customizing the Embedded Controls%}) article and the the dedicated documentation sections of the embedded components:
+To find more on how to customize the embedded controls, check out the [Customizing the Embedded Controls]({%slug daterangepicker/functionality/customizing-embedded-controls%}) article and the the dedicated documentation sections of the embedded components:
 
  - [RadCalendar Overview]({%slug calendar/overview%})
 
