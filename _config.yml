@@ -217,6 +217,9 @@ navigation:
     "controls/datepicker":
         title: "Date Picker"
         position: 1
+    "controls/daterangepicker":
+        title: "DateRangePicker"
+        position: 1
     "controls/datetimepicker":
         title: "DateTimePicker"
         position: 1
@@ -1906,6 +1909,7 @@ intro_columns:
     items:
       "Calendar": "calendar/overview"
       "DatePicker": "datepicker/overview"
+      "DateRangePicker": "daterangepicker/overview"
       "DateTimePicker": "datetimepicker/overview"
       "Gantt": "gantt/overview"
       "MonthYearPicker": "monthyearpicker/overview"
