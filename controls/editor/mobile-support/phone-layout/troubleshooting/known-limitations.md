@@ -20,6 +20,8 @@ This help article lists the known limitations of RadEditor with **[phone layout]
 
 * Right-to-left mode is not supported in the mobile rendering.
 
+* The AjaxSpellCheck tool is not available in the mobile render mode.
+
 ## See Also
 
 * [Phone Layout Overview]({%slug editor/mobile-support/phone-layout/overview%})
