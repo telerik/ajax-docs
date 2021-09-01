@@ -8,22 +8,19 @@ published: True
 position: 0
 ---
 
-# Overview
+## Overview
 
-
-
-## 
 
 
 >caption 
 
 ![RadTreeView Tri-State CheckBoxes Overview](images/treeview_tristatecheckboxesoverview.png)
 
-The Tri-State CheckBox mode of RadTreeView allows for Nodes' CheckBoxes (when enabled) to have an additional, third state - **Indeterminate**. A Node's CheckBox is in **Indeterminate**state if it has both **Checked** and **Unchecked** CheckBoxes of child Nodes.
+The Tri-State CheckBox mode of RadTreeView allows for Nodes' CheckBoxes (when enabled) to have an additional, third state - **Indeterminate**. A Node's CheckBox is in **Indeterminate** state if it has both **Checked** and **Unchecked** CheckBoxes of child Nodes.
 
 When **RadTreeView** is in Tri-State CheckBox mode, a Node's CheckBox can be in either of the following states:
 
-* **Checked - CheckBoxes of all child Nodes are **Checked**.
+* **Checked** - CheckBoxes of all child Nodes are **Checked**.
 
 * **Unchecked** - CheckBoxes of all child Nodes are **Unchecked**.
 
@@ -49,6 +46,38 @@ The **Indeterminate** state of a Node is not persisted. That is if a Node's Chec
 
 
 
->caution Tri-State CheckBoxes are actually rendered as <*span*> elements with predefined CSS styles. They are not styled by the [RadFormDectorator]({%slug formdecorator/overview%}) control. For more information, please read the [Tri-Sate client-side specifics]({%slug treeview/checkboxes/tri-state/tri-sate-client-side-specifics%}) topic.
+>caution Tri-State CheckBoxes are actually rendered as <*span*> elements with predefined CSS styles. They are not styled by the [RadFormDectorator](https://docs.telerik.com/devtools/aspnet-ajax/controls/formdecorator/overview) control. For more information, please read the [Tri-State client-side specifics](https://docs.telerik.com/devtools/aspnet-ajax/controls/treeview/checkboxes/tri-state/tri-sate-client-side-specifics) topic.
 >
+
+>caption Example 1: Conigure a Tri state Checkbox TreeView
+
+````ASP.NET
+        <telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Default" RenderMode="Lightweight"
+            CheckBoxes="True" TriStateCheckBoxes="true">
+            <Nodes>
+                <telerik:RadTreeNode Text="Root RadTreeNode1" Checked="true">
+                    <Nodes>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 1"></telerik:RadTreeNode>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 2" Checked="true"></telerik:RadTreeNode>
+                    </Nodes>
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode Text="Root RadTreeNode2">
+                    <Nodes>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 1"></telerik:RadTreeNode>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 2"></telerik:RadTreeNode>
+                    </Nodes>
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode Text="Root RadTreeNode3">
+                    <Nodes>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 1">
+                             <Nodes>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 1" Checked="true"></telerik:RadTreeNode>
+                        <telerik:RadTreeNode Text="Child RadTreeNode 2"></telerik:RadTreeNode>
+                    </Nodes>
+                        </telerik:RadTreeNode>
+                    </Nodes>
+                </telerik:RadTreeNode>
+            </Nodes>
+        </telerik:RadTreeView>
+````
 
