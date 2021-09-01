@@ -68,3 +68,8 @@ Properties
 | **isNegative** |none|boolean|Returns **true** if the value of the text box is a negative number.|
 | **isReadOnly** |none|boolean|Returns **true** of the text box is read-only.|
 | **isEmpty** |none|boolean|Returns **true** if the value of the text box has not been set.|
+
+
+## See Also
+
+* [RadNumericTextBox Client-side API Demo](https://demos.telerik.com/aspnet-ajax/numerictextbox/programming/client-side/api/defaultcs.aspx)
