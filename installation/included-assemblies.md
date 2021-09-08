@@ -66,7 +66,9 @@ The Telerik document processing libraries are a set of assemblies that let you i
 
 * **Telerik.Windows.Zip.dll**—needed for working with zipped formats (DOCX, XLSX) and PDF.
 
-* **Telerik.Windows.Documents.Flow.FormatProviders.Pdf**—allows exporting of flow documents (DOCX, RTF) to PDF.
+* **Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll**—allows exporting of flow documents (DOCX, RTF) to PDF.
+
+* **Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll**—allows importing of DOC and DOT document.
 
 * **Telerik.Documents.SpreadsheetStreaming.dll**—The main assembly for generating huge spreadsheet files using minimum resources.
 
@@ -85,6 +87,8 @@ The Telerik document processing libraries are a set of assemblies that let you i
 You can find more information on working with the Telerik document processing libraries in the following articles:
 
 * Words (text) processing
+
+	* [DOC format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/word-file-formats/doc/docformatprovider)
 
 	* [DOCX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/docx/docxformatprovider)
 
