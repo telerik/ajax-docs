@@ -12,7 +12,7 @@ position: 4
 
 This article explains how to install and use the NuGet feed and packages provided by Telerik to get the Telerik® UI for ASP.NET AJAX controls in your project.
 
-> tip The improved Telerik NuGet v3 is now available for beta testing at [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json). The new v3 API is faster, lighter, and reduces the number of requests from NuGet clients. You are welcome to try it.
+>tip The improved Telerik NuGet v3 is now available for beta testing at [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json). The new v3 API is faster, lighter, and reduces the number of requests from NuGet clients. You are welcome to try it.
 
 > To use the UI for ASP.NET AJAX controls, you need to install ASP.NET Web Forms on your development/production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8 installations.
 
