@@ -30,7 +30,17 @@ You can use the `TAB` key to focus the control. Once focus is on the **RadCalend
 
 * Pressing the `arrow` keys when focus is on the calendar moves the focused date in the respective direction.
 
-A built-in access key is `Y` so you can use `Alt+Y` to focus the control by default. If you need more granular access key settings, you can use JavaScript to set them:
+By default you can use `Ctrl+Y` to focus the control.
+
+With R3 2021 you can now focus the RadCalendar by specifying the Focus Key and modifier/command key as shown below:
+
+````ASPX
+<telerik:RadCalendar RenderMode="Lightweight" runat="server" ID="RadCalendar1" EnableKeyboardNavigation="true">
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="Q" />
+</telerik:RadCalendar>
+````
+
+For previous versions, if you need more granular access key settings, you can use JavaScript to set them:
 
 >caption How to set a custom access key to a RadCalendar.
 
