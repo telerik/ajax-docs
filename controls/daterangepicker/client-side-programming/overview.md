@@ -18,7 +18,7 @@ To use the API, you must first [get a reference to the control's client-side obj
 var dateRangePickerObject = $find("<%=RadDateRangePicker1.ClientID %>");
 ````
 
-Once you have reference to the RadDateRangePicker, you can use the following three functions to reach the embeded Calendar and DatePicker(s) and use their own Client-side APIs
+Once you have reference to the RadDateRangePicker, you can use the following three functions to reach the embedded Calendar and DatePicker(s) and use their own Client-side APIs
 
 | Property              | RETURN TYPE   | DESCRIPTION                                                            |
 |-----------------------|---------------|------------------------------------------------------------------------|
@@ -55,6 +55,7 @@ The following table lists the most important properties of the **RadDateRangePic
 | showPopup   | integer, integer |             | Displays the popup calendar at the specified coordinates. If the two parameters are omitted, the popup appears below the input area. |
 | hidePopup   |                  |             | Hides the popup calendar if it is shown.                                                                                                               |
 | togglePopup |                  |             | Toggles the visible state of the popup calendar.                                                                                                         |
+| _doPostBack |                  |             | Initiates a Postback so the client-side selection is submitted to the server.                                                                                                    |
 
 
 # See Also
