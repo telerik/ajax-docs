@@ -16,12 +16,20 @@ position: 0
 
 The **RadDateRangePicker** controls expose the following server-side event:
 
- * [RangeSelectionChanged]({%slug daterangepicker/server-side-programming/events/rangeselectionchanged%}) occurs when the user changes the value of the control, either when control area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control.
+ * [RangeSelectionChanged]({%slug daterangepicker/server-side-programming/events/rangeselectionchanged%}) occurs after a Postback, when the value of the control has been changed.
 
+To achieve AutoPostBack behavior with the **RadDateRangePicker**, you can use the [client-side DateSelected event]({%slug daterangepicker/client-side-programming/events/ondateselected%}) to trigger a postback for submitting the changes to the server-side. Otherwise the **RangeSelectionChanged** event will be triggered after a postback initiated by another postback control (e.g. Submit button):
 
->note In order for the server-side events to be fired the **RadDateRangePicker** should trigger postback. You need to set the **AutoPostBack** property to **true**.
->
+````JavaScript
+function OnDateSelected(sender, args) {
+    // trigger a postback when both start and end dates are selected
+    if (sender.get_rangeSelectionStartDate() && sender.get_rangeSelectionEndDate()) {
+        args.set_shouldPostBack(true);
+    }
+}
+````
 
+See live sample of handling the server event in our [Server-side events demo](https://demos.telerik.com/aspnet-ajax/daterangepicker/server-side-programming/server-side-events/defaultcs.aspx)
 
 # See Also
 
