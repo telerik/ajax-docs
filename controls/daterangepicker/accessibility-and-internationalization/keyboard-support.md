@@ -10,49 +10,18 @@ position: 1
 
 # Keyboard Support
 
-The **RadDateRangePicker** control supports keyboard navigation using the following keys:
+The **RadDateRangePicker** control supports keyboard navigation using the tab or arrow keys:
 
-### Focus:
+ - Tab key Navigation - Once focus is on the **RadDateRangePicker** control, the popup Calendar is automatically opened. The `TAB` key and `SHIFT+TAB` key combination move between the **StartDatePicker** and the **EndDatePicker** controls. When the PopUpButtons of the embedded pickers are shown they are also being focused by pressing the `TAB` or `SHIFT+TAB`. The first time the user presses the TAB key, focus moves to the first date input area, where the user can type a start date value.
 
- - `Alt + W` -  focuses the Start DatePicker and opens the popup Calendar
+ - Arrow key Navigation - Users can navigate within the input areas of the embedded **RadDatePicker** controls using the arrow keys:
 
-### On closed popup:
-
- - `enter` - triggers change event
-
- - `alt + down arrow` - opens the popup
-
-### On opened popup:
-
- - `left arrow` - highlights previous day
-
- - `right arrow` - highlights next day
-
- - `up arrow` - highlights same day from the previous week
-
- - `down arrow` - highlights same day from the next week
-
- - `shift + arrow` - performs range selection
-
- - `ctrl + left arrow` - navigates to previous set of views
-
- - `ctrl + right arrow` - navigates to next set of views
-
- - `ctrl + up arrow` - navigates to previous view
-
- - `ctrl + down arrow` - navigates to next view
-
- - `home` - highlights first day of the month
-
- - `end` - highlights last day of the month
-
- - `alt + up arrow` - closes the popup
-
- - `esc` - closes the popup
-
+   The left and right arrow keys move the cursor one position to the left or right. When the shift key is pressed at the same time, the left and right arrow keys extend or contract the current selection on position to the left or right.
+  
+   The up and down arrow keys increase or decrease the value of the date part that contains the cursor when the **[StartDatePicker/EndDatePicker].DateInput.IncrementSettings.InterceptArrowKeys** property is true. The **[StartDatePicker/EndDatePicker].DateInput.IncrementSettings.Step** property specifies the number of months, days, years, hours, minutes or seconds by which the value changes.
 
 # See Also
 
- * [RadCalendar Keyboard Support]({%slug calendar/accessibility-and-internationalization/keyboard-support%})
+ * [RadDatePicker Keyboard Support]({%slug datepicker/accessibility-and-internationalization/keyboard-support%})
 
 
