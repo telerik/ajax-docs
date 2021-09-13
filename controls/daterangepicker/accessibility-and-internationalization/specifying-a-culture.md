@@ -47,7 +47,7 @@ You can assign the culture of a **RadDateRangePicker** control declaratively in 
     ID="RadDateRangePicker1"
     runat="server"
     Culture = "French (France)">
-</telerik:RadDatePicker>
+</telerik:RadDateRangePicker>
 ````
 
 ## Assigning the culture in the code-behind

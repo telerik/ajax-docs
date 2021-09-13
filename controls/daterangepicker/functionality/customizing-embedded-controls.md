@@ -66,6 +66,15 @@ Check out the sample below:
     </EndDatePicker>
 </telerik:RadDateRangePicker>
 ````
+````CSS
+html body .RadDateRangePicker .startPopupCustomIcon:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f274";
+}
+````
+
+>note In the sample above, the DatePopUpButton contains a third-party font icon that requires a reference to an external library. Find out how to replace the embedded font icons of Telerik controls with external ones in the [4 Ways to Embed Font Awesome in Telerik UI for ASP.NET AJAX Controls](https://www.telerik.com/blogs/4-ways-embed-font-awesome-telerik-ui-for-asp-dotnet-ajax) blog post.
+
 
 
 # See Also

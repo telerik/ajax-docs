@@ -3,7 +3,7 @@ title: How to integrate the RadDateRangePicker in RadGrid control
 page_title: How to integrate the RadDateRangePicker in RadGrid control
 description: Check our Web Forms article about How to integrate the RadDateRangePicker in RadGrid control.
 slug: daterangepicker/how-to/radgrid-integration
-tags: how,to,integrate,radbreadcrumb,breadcrumb,fontawesome,icons
+tags: daterangepicker,radgrid
 published: True
 position: 0
 ---

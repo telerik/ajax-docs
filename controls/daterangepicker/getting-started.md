@@ -56,7 +56,7 @@ For the intuitive behavior of a simply declared RadDateRangePicker, we have chan
 | `ShowPopupOnFocus`        | True                                | False                          |
 
 >note
-For the proper funtioning of the RadDateRangePicker, some features of the embedded Calendar and DatePickers are disabled.
+For the proper functioning of the RadDateRangePicker, some features of the embedded Calendar and DatePickers are disabled.
 
 ## Add a RadDateRangePicker Control
 
