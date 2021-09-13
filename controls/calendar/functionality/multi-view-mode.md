@@ -41,7 +41,7 @@ The code below shows the configuration of the multi-view calendar shown above:
 
 
 >caution 
-Multi-view calendar logic works -only- when **AutoPostBack="true"** . As a result, if a **RadCalendar** control is used as the popup control inside a **RadDatePicker** or **RadDateTimePicker** control, it cannot use multi-view mode.
+For versions prior **R3 2021**, Multi-view calendar logic works _only_ when **AutoPostBack="true"**. As a result, if a **RadCalendar** control is used as the popup control inside a **RadDatePicker** or **RadDateTimePicker** control, it cannot use multi-view mode.
 >
 
 
