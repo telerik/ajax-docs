@@ -60,7 +60,7 @@ The following table lists the most important properties of the **RadDateRangePic
 
 # See Also
 
- * [RadDateRangePicker Client-side Events]({%slug daterangepicker/client-side-programming/events%})
+ * [RadDateRangePicker Client-side Events]({%slug daterangepicker/client-side-programming/events/overview%})
 
  * [RadCalendar]({%slug calendar/client-side-programming/overview%})
  
