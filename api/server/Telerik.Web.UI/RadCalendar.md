@@ -591,6 +591,10 @@ Returns whether RadCalendar is currently in design mode.
 
 For internal use.
 
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to define keyboard shortcut to focus the RadCalendar's main table.
+
 ###  LocalizationPath `CalendarStrings`
 
 Gets or sets a value indicating where RadCalendar will look for its .resx localization file.
