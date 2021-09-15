@@ -30,7 +30,7 @@ When I copy a table with borders and paste in the editor it is not showing the b
 
 ## Solution
 
-As explained at [RadEditor and the Browser Clipboard]({%slug editor/managing-content/pasting-content/overview}), the RadEditor’s paste functionality uses the browser’s DOM clipboard events. Therefore, any content pasted, is first processed by the browser. Images, HTML, MS Word and Excel, plain text and so on, are data types that are first translated to HTML by the browser and then fetched via the clipboard event’s data to the editor.
+As explained at [RadEditor and the Browser Clipboard]({%slug editor/managing-content/pasting-content/overview%}), the RadEditor’s paste functionality uses the browser’s DOM clipboard events. Therefore, any content pasted, is first processed by the browser. Images, HTML, MS Word and Excel, plain text and so on, are data types that are first translated to HTML by the browser and then fetched via the clipboard event’s data to the editor.
 
 The observed behavior with the missing table border from Excel is a browser behavior and you can reproduce it by:
 
