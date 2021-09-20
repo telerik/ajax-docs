@@ -38,7 +38,7 @@ To customize the way the tasks of the Gantt are rendered, use the **ClientTempla
 This is the template that is rendered for each individual task in the timeline veiw. It receives the `data` parameter that points to the dataItem for the corresponding task, so you can use all its data source fields
 
 
-````ASPX
+````ASP.NET
 <ClientTemplate>
     <div class="template" style="background-color: #: color#;">  
         <div class="wrapper">

@@ -20,7 +20,7 @@ Here is one option to use RadDateRangePicker to show and edit date ranges inside
 
  1. Declare a RadDateRangePicker inside the EditTemplate of a GridTemplateColumn and use its DbRangeSelectionStartDate and DbRangeSelectionEndDate properties for binding to the Grid's DataSource fields (*StartDate* and *EndDate* are the data field names used in the sample below):
 
- ````ASPX
+ ````ASP.NET
  <EditItemTemplate>
     <telerik:RadDateRangePicker ID="RadDateRangePicker1" CssClass="RadDateRangePicker" runat="server"
         DbRangeSelectionStartDate='<%# Bind("StartDate") %>'
@@ -37,7 +37,7 @@ Here is one option to use RadDateRangePicker to show and edit date ranges inside
 
  2. In the Item Template you can use Labels to visualize the current DateRange:
 
- ````ASPX
+ ````ASP.NET
  <ItemTemplate>
     <asp:Label runat="server" ID="startDate" Text='<%# Eval("StartDate", "{0:D}") %>'>
     </asp:Label>
@@ -51,7 +51,7 @@ Here is one option to use RadDateRangePicker to show and edit date ranges inside
 
 Check out the complete sample with RadGrid's Manual CRUD Operations below:
 
-````ASPX(C#)
+````ASP.NET(C#)
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="750"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnUpdateCommand="RadGrid1_UpdateCommand"
@@ -91,7 +91,7 @@ Check out the complete sample with RadGrid's Manual CRUD Operations below:
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````ASPX(VB)
+````ASP.NET(VB)
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="750"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnUpdateCommand="RadGrid1_UpdateCommand"

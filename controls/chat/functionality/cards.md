@@ -17,7 +17,7 @@ Rich cards are complex attachment messages that can contain additional message s
 ![chat with heroCard template](../images/chat-heroCard.png)
 
 
-````ASPX
+````ASP.NET
 <telerik:RadChat runat="server" ID="RadChat1">
     <ClientEvents OnLoad="OnLoad"/>
     <MessagesSettings Placeholder="Type your message here..." />

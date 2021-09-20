@@ -25,7 +25,7 @@ Information about the Server-side APIs of the embedded controls you can find in 
 
 ## Create a RadDateRangePicker in the Code-behind:
 
-````ASPX
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
 

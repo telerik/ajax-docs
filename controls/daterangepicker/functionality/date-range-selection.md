@@ -22,7 +22,7 @@ By default the **RangeSelectionMode** property is set to **ConsecutiveClicks**.
 
 On the client you could get the Start/End range dates by using the **get_rangeSelectionStartDate()** and **get_rangeSelectionEndDate()** methods of the RadDateRangePicker object. You can set them programmatically by using **set_rangeSelectionStartDate(startDate)** and **set_rangeSelectionEndDate(endDate)** client-side methods:
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker runat="server" ID="DateRangePicker1"></telerik:RadDateRangePicker>
 
 <telerik:RadButton runat="server" ID="RadButton1" Text="Call JavaScript function" AutoPostBack="false" OnClientClicked="OnClientClicked" />

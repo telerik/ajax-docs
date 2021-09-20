@@ -55,7 +55,7 @@ For example, if we want to show four items (100x100 pixels) in a horizontal rota
 </style>
 ````
  
-````ASPX
+````ASP.NET
 <telerik:RadRotator ID="RadRotator1" runat="server" Width="460" ItemWidth="100" Height="100" RotatorType="Buttons" RenderMode="Lightweight" Skin="Black"
 	ItemHeight="100" DataSourceID="SqlDataSource1" FrameDuration="1000">
 	<ItemTemplate>
@@ -99,7 +99,7 @@ In the example below you can see a helper class (i.e., RadRotatorSizeConfigurato
 	</style>
 ````
 
-````ASPX
+````ASP.NET
 <telerik:RadRotator ID="RadRotator1" runat="server" ItemWidth="100" Height="100" RotatorType="Buttons" RenderMode="Lightweight" Skin="Black"
 	ItemHeight="100"  DataSourceID="SqlDataSource1" FrameDuration="1000">
 	<ItemTemplate>

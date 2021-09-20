@@ -40,7 +40,7 @@ To add a RadBreadcrumb similar to the one shown in **Figure 1** follow the steps
 
 1. Use the **&lt;Items&gt;** inner tag to declare each **BreadcrumbItem** and set its properties.
 
-````ASPX
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Skin="Default">
     <Items>

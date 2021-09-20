@@ -30,7 +30,7 @@ All events follow the MS AJAX client events convention and receive two arguments
 
 To use the client-side events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding property.
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker RenderMode="Lightweight" ID="RadDateRangePicker1" runat="server">
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadDateRangePicker>

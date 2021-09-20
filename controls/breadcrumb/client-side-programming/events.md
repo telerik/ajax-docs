@@ -38,7 +38,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Example 1: Store a reference to the client-side object through the OnLoad event
 
-````ASPX
+````ASP.NET
 <script>
 	var breadcrumb, kendoBreadcrumb;
 	function OnLoad(sender, args) {
@@ -53,7 +53,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Example 2: Get the data associated with the clicked item
 
-````ASPX
+````ASP.NET
 <script>
     function OnClick(sender, args) {
         // object of the clicked item 
@@ -79,7 +79,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Example 3: Get changed value of the breadcrumb:
 
-````ASPX
+````ASP.NET
 <script>
     function OnChange(sender, args) {
         //log the value of the Breadcrumb after change

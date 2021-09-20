@@ -20,7 +20,7 @@ Each **BreadcrumbItem** can be customized by setting its various properties.
 
 The RadBreadcrumb items can be defined declaratively in the markup in the &lt;Items&gt; tag:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb ID="RadBreadcrumb1" runat="server">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" Text="Root item" />
@@ -73,7 +73,7 @@ A sample with some of the Item's properties in use is shown in **Figure 2** belo
 
 ![Sample usage of properties](../images/breadcrumb-functionality-items-propertiesSample.png)
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Skin="Silk" Navigational="true">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" Text="Telerik UI" ShowText="true" Icon="pin" ItemClass="customRootItem" ToolTip="Home page" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
@@ -99,7 +99,7 @@ A sample with some of the Item's properties in use is shown in **Figure 2** belo
 
 For RootItems, where no text is rendered by default, setting a title (ToolTip) can also be done by using the **MessageSettings.RootTitle** property of the RadBreadcrumb. The RootTitle can be declared in the markup inside the &lt;MessageSettings&gt; inner tag:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1">
     <MessagesSettings RootTitle="Home page" />
 ````
@@ -112,7 +112,7 @@ For RootItems, where no text is rendered by default, setting a title (ToolTip) c
 
 The default appearance of the Breadcrumb Control can be achieved with the template declaration shown below. It can serve as a convenient basis for further modifications:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="RadBreadcrumb1_DataBinding">
     <ClientItemTemplate>
         <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">
@@ -206,7 +206,7 @@ In the sample below, a new custom attribute is added to each item and the same i
 
 Here is the code leading to the appearance shown in **Figure 4**:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" OnDataBinding="RadBreadcrumb1_DataBinding">
     <ClientItemTemplate>
             <li class="k-breadcrumb-item #:itemClass# #if(lastSegment){#k-breadcrumb-last-item#}#">

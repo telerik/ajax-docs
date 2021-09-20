@@ -20,7 +20,7 @@ Editing mode shows an input field containing the current value of the widget. Us
 
 Declaration of the RadBreadcrumb shown in **Figure 1**:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Editable="true">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" />

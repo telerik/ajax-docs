@@ -20,7 +20,7 @@ The structure of the **RadDateRangePicker** control is as follows:
 
 The rich functionality of the built-in RadCalendar and DatePicker(s) determine the flexibility of the RadDateRangePicker itself. You can use the corresponding inner tags to set the properties of the Calendar and pickers in any desired manner as shown below:
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker runat="server" ID="RadDateRangePicker1" Skin="Material" Width="800">
     <Calendar FirstDayOfWeek="Monday">
     </Calendar>
@@ -66,7 +66,7 @@ For the proper functioning of the RadDateRangePicker, some features of the embed
 
 1. Set the desired properties of the DateRangePickers and its embedded controls: Calendar, StartDatePicker, EndDatePicker:
 
-````ASPX
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
 <telerik:RadDateRangePicker runat="server" ID="RadDateRangePicker1">

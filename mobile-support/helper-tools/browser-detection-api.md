@@ -126,7 +126,7 @@ The **Telerik** object provides the following set of static properties for brows
 
 Here is one example that shows how you can use these flags. The script is after the script manager so that the Telerik namespace is available.
 
-````ASPX
+````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1">
     <Scripts>
         <%--This script refernece is only needed if you do not use any Telerik.Web.UI controls on the page--%>

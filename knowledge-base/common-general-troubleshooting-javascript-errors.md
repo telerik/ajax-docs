@@ -36,7 +36,7 @@ This approach might not be a good idea for applications in a production environm
 
  * One way to avoid alerting the errors in production is to let the 'onerror' handler execute only when the request is from the local machine. You can use a RadCodeBlock to wrap the event listener and switch it on/off by setting its Visible property depending on the value in the [HttpRequest.IsLocal](https://docs.microsoft.com/en-us/dotnet/api/system.web.httprequest.islocal?view=netframework-4.8) property.
 
-````ASPX
+````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server" OnLoad="RadCodeBlock1_Load">
     <script>
         window.onerror = function (e) {
@@ -62,7 +62,7 @@ End Sub
 
  * Alternatively, you can check the *Request.Path* to distinguish the developer environment. You can also use server expressions to add or skip the declaration of the event listener, as shown below:
 
-````ASPX
+````ASP.NET
 <telerik:RadCodeBlock runat="server">
     <% //destinguish the developer environment by checking the request path
         if (Request.Path.Contains(devEnvironmentSpecificString))

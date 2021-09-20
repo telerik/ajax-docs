@@ -27,7 +27,7 @@ Since Q2 2012 there are some modifications for RadInput validation.The main idea
 
 The following declaration shows the use of a required field validator from the form above:
 
-````ASPX
+````ASP.NET
 <telerik:RadTextBox
 	ID="RadTextBox1"
 	runat="server"

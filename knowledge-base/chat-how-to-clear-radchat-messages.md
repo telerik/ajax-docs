@@ -31,7 +31,7 @@ Learn how to clear the messages inside RadChat.
 ## Solution
 You can clear the content of the chat, you can utilize jQuery and get access to the element that holds the messages and clear the messages.
 
-````ASPX
+````ASP.NET
 <telerik:RadButton runat="server" ID="RadButton1" Text="Clear Chat Screen" AutoPostBack="false" OnClientClicked="clearChatScreen" />
 
 <script>

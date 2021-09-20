@@ -25,7 +25,7 @@ In addition to calling **Eval** and **Bind** methods to perform data binding in 
 
 The following example demonstrates how to bind a **RadDateRangePicker** control inside a RadGrid, as shown above.
 
-````ASPX
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand">
     <MasterTableView EditMode="InPlace">

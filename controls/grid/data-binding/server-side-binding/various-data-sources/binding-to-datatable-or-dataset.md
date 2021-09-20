@@ -16,7 +16,7 @@ When not using [declarative data sources]({%slug grid/data-binding/server-side-b
 
 
 
-````ASPX
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" CellSpacing="0"
     GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" AllowPaging="true"
     PageSize="10">

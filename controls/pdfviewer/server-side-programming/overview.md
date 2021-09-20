@@ -56,7 +56,7 @@ End Sub
 
 RadPdfViewer can be created and configured entirely in the code-behind, as demonstrated in the sample below:
 
-````ASPX
+````ASP.NET
 <head runat="server">
     <title></title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.js"></script>

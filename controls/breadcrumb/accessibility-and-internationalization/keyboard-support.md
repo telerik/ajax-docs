@@ -29,7 +29,7 @@ The keyboard navigation of the RadBreadcrumb is always available.
 
 When the `Editable` property of the breadcrumb is set to *'true'*, in the `AccessKey` property of the Control you can set the desired key for quick navigation to the Breadcrumb.
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Editable="true" AccessKey="W">
 ````
 

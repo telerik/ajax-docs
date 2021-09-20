@@ -30,7 +30,7 @@ To configure the Toolbar items, use the composite `ButtonsCollection` property o
 
 >caption **Example 1**: A Chat with toolbar buttons.
 
-````ASPX
+````ASP.NET
 <style type="text/css">
     .t-i-image::before {content: "\e501";}
     .t-i-clip::before {content: "\e10e";}
@@ -64,7 +64,7 @@ The Chat configuration object allows you to configure the following behavior asp
 
 >caption **Example 2**: A Chat with a expandable toolbar.
 
-````ASPX
+````ASP.NET
 <style type="text/css">
     .t-i-image::before {content: "\e501";}
     .t-i-clip::before {content: "\e10e";}

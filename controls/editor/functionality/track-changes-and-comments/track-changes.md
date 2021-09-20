@@ -221,7 +221,7 @@ Enabling the Track Changes feature enables you to use the following client-side 
 
 >caption How to enable the Track Changes feature, but require the user to click the toolbar button (i.e., have track changes on pause initially).
 
-````ASPX
+````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" EnableTrackChanges="true" OnClientLoad="OnClientLoad">
     <Tools>
         <telerik:EditorToolGroup>

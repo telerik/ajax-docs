@@ -73,7 +73,7 @@ For example, a `ShipVia` column will only have the `GreaterThan` option with the
 
 If there is going to only be one option, also make sure to `.click()` it instead of hiding it when the menu is about to show. This will invoke the actual filter operation that the user cannot otherwise call without the menu options.
 
-````ASPX
+````ASP.NET
 <telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="false" OnFieldEditorCreated="RadFilter1_FieldEditorCreated"></telerik:RadFilter>
 
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" DataSourceID="SqlDataSource1" AllowPaging="true" AllowSorting="true" AllowFilteringByColumn="true" OnItemCommand="RadGrid1_ItemCommand">

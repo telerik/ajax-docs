@@ -16,7 +16,7 @@ To encapsulate the communication with the specific service, use an **agent** hel
 
 The following example uses the [Microsoft Bot Framework](https://dev.botframework.com/). The **agent** is subscribed to listen for any **activity$** of the remote service. When an activity is detected, the appropriate method from the Chat public API is invoked to render the data. To handle the user input, the example implements the **post** event handler of the Chat and the arguments are passed to the Chat Bot service.
 
-````ASPX
+````ASP.NET
 <!-- Load Bot Framework Client API -->
 <script src="http://unpkg.com/botframework-directlinejs/directLine.js"></script>
 

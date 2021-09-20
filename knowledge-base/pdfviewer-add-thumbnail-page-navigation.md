@@ -28,7 +28,7 @@ Q: How to add Thumbnail page navigation to the RadPdfViewer
 
 - Register the Pdf.js library on the page:
 
-````ASPX
+````ASP.NET
 <head runat="server">
     <title></title>
     ...

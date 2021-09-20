@@ -25,7 +25,7 @@ Example:
 
 Call get_dataKeyValue() on row double click:
 
-````ASPX
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px" OnNeedDataSource="RadGrid1_NeedDataSource">
     <ClientSettings>
         <ClientEvents OnRowDblClick="onRowDblClick" />

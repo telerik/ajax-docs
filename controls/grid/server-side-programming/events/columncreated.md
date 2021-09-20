@@ -94,7 +94,7 @@ End Sub
 
 ## Localizing the Grid Headers
 
-````ASPX
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True" runat="server" OnColumnCreated="RadGrid1_ColumnCreated">
   <MasterTableView Width="100%" AutoGenerateColumns="True" />
 </telerik:RadGrid>

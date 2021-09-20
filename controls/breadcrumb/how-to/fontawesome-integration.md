@@ -39,7 +39,7 @@ For the of sample in the article, a Kit code is placed in the \<body> tag.
 
 Set the desired Font Awesome class to the `ItemClass` property of the desired **BreadcrumbItem** and ensure the `ShowIcon` property is set to *'true'* (for RootItem, `ShowIcon` is true by default). Check out how to use the Font Awesome classes in the [Font Awesome - Basic Use]("https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use") article.
 
-````ASPX
+````ASP.NET
 <telerik:BreadcrumbItem Type="RootItem" IconClass="fas fa-house-user" />
 <telerik:BreadcrumbItem Text="Item 1" ShowIcon="true" IconClass="fas fa-key" />
 ````
@@ -64,7 +64,7 @@ Sample CSS to change the DelimiterIcon:
 
 Here is the complete declaration to achieve the RadBreadcrumn shown in ***Figure 1*** :
 
-````ASPX
+````ASP.NET
 <style>
     .RadBreadcrumb .k-icon.k-breadcrumb-delimiter-icon {
         font-family: "Font Awesome 5 Free";

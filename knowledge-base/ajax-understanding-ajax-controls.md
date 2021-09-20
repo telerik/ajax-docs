@@ -28,7 +28,7 @@ RadAjaxManager may seem a little complicated at first, but it's simple and easy 
 Let's start with the generic ASP UpdatePanel that is used to enable AJAX for controls in ASP.NET WebForms projects. In order to enable AJAX for one or more controls using UpdatePanel, the controls need to be placed in the ContentTemplate of the UpdatePanel. 
 Example Code snippets: Example showing how a button makes a partial post back and updates the Label with the current time.
 
-````ASPX
+````ASP.NET
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="UpdateTime" />
@@ -63,7 +63,7 @@ For that case, the Update Panel comes with Triggers where you can specify which 
 
 In the following example, you can see how the Button is added to the Triggers of the UpdatePanel. When this button is clicked, it will trigger the Partial PostBack and update the Label inside the UpdatePanel.
 
-````ASPX
+````ASP.NET
 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="UpdateTime" />
 
 <%--Some other control here--%>
@@ -81,7 +81,7 @@ In the following example, you can see how the Button is added to the Triggers of
 
 You may update multiple labels with the same button
 
-````ASPX
+````ASP.NET
 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="UpdateTime" />
 
 <%--Some other control here--%>
@@ -101,7 +101,7 @@ You may update multiple labels with the same button
 
 You may use multiple buttons to trigger the Post Back and update the label.
 
-````ASPX
+````ASP.NET
 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="UpdateTime" />
 <asp:Button ID="Button2" runat="server" Text="Button" OnClick="UpdateTime" />
 <asp:Button ID="Button3" runat="server" Text="Button" OnClick="UpdateTime" />
@@ -129,7 +129,7 @@ The RadAjaxPanel is a wrapper for the UpdatePanel. Meaning, when you use this co
 
 The following example shows how to enable AJAX for a Label and a Button. And that is by placing the two controls in the RadAjaxPanel.
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
     <asp:Button ID="Button1" runat="server" Text="Button" OnClick="UpdateTime" />
     <asp:Label ID="Label1" runat="server"></asp:Label>
@@ -146,7 +146,7 @@ Consider the RadAjaxManager as the settings part of the Update Panel. In the Upd
 
 The following example will enable AJAX for the Label and make the Button update it.
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <%--The control that Triggers the Partial Post Back--%>
@@ -167,7 +167,7 @@ Regardless of the location of the Button1 and Label1, the AJAX will be enabled a
 
 Consider the following configuration:
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <%--The control that Triggers the Partial Post Back--%>
@@ -205,7 +205,7 @@ RadAjaxManager utilizes the RadAjaxPanel to wrap controls inside based on the Aj
 
 Example settings of the RadAjaxManager to configure one Button as PostBack control that will update three Labels as UpdatedControls
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <%--The control that Triggers the Partial Post Back--%>
@@ -230,7 +230,7 @@ Example settings of the RadAjaxManager to configure one Button as PostBack contr
 
 RadAjaxManager example to configure multiple Buttons that will update a single Label.
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <%--The control that Triggers the Partial Post Back--%>
@@ -265,7 +265,7 @@ RadAjaxManager example to configure multiple Buttons that will update a single L
 
 Configure multiple buttons to update multiple labels.
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <%--The control that Triggers the Partial Post Back--%>
@@ -335,7 +335,7 @@ If enabling AJAX  for the loaded Content, the content and its children will be a
 
 **MasterPage.master**
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="Panel1">
@@ -358,7 +358,7 @@ Only the UserControl and its child controls will be ajaxified.
 
 **MasterPage.master**
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 </telerik:RadAjaxManager>
 
@@ -371,7 +371,7 @@ Only the UserControl and its child controls will be ajaxified.
 
 **ContentPage.aspx**
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="Panel2">
@@ -393,7 +393,7 @@ Only one control in inside the WebUserControl will be ajaxified.
 
 **MasterPage.master**
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 </telerik:RadAjaxManager>
 
@@ -406,7 +406,7 @@ Only one control in inside the WebUserControl will be ajaxified.
 
 **ContentPage.aspx**
 
-````ASPX
+````ASP.NET
 <asp:Panel ID="Panel2" runat="server">
     <%--WebUserControl--%>
 </asp:Panel>
@@ -414,7 +414,7 @@ Only one control in inside the WebUserControl will be ajaxified.
 
 **WebUserControl.ascx** (AJAX is enabled on the innermost level of the hierarchy. Master and Content pages must not enable AJAX)
 
-````ASPX
+````ASP.NET
 <telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="RadGrid1">

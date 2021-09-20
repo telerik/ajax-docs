@@ -114,7 +114,7 @@ When using RadComboBox with enabled checkbox, common issue is how to bring the c
 
 Sample declaration:
 
-````ASPX
+````ASP.NET
 <telerik:RadComboBox runat="server" AutoPostBack="true" OnItemChecked="RadComboBox1_ItemChecked" ID="RadComboBox1" CheckBoxes="true">
     <Items>
         <telerik:RadComboBoxItem Text="Item 1" Value="1" />

@@ -16,7 +16,7 @@ For example you can wrap the Breadcrumb in a &lt;div dir="rtl" class="k-rtl"&gt;
 
 ![Right to Left support](../images/breadcrumb-accessibility-rtl.png)
 
-````ASPX
+````ASP.NET
 <div dir="rtl" class="k-rtl">
     <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb2">
         <Items>

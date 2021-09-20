@@ -18,7 +18,7 @@ For a list with the server-side properties and methods of the control, see the [
 
 ## Create a RadBreadcrumb in the Code-behind:
 
-````ASPX
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
 

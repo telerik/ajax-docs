@@ -34,7 +34,7 @@ Check out the sample below:
 
 ![Customized embedded controls](../images/embedded-controls.png)
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker runat="server" ID="RadDateRangePicker1" Skin="Bootstrap" Width="800">
     <Calendar CellAlign="Center"
         RangeMinDate="8/8/2021"

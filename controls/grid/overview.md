@@ -26,7 +26,7 @@ Telerik **RadGrid** is designed to eliminate the typical trade-off associated wi
 
 >caption Get started with the grid declaration and enabling some of its features
 
-````ASPX
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" AllowSorting="true" AllowFilteringByColumn="true" OnNeedDataSource="RadGrid1_NeedDataSource">

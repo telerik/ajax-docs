@@ -40,7 +40,7 @@ To handle a client-side event of a Telerik controls, you must provide only the s
 
 >caption Example 1: Handling the client-side click of a Telerik button vs standard button
 
-````ASPX
+````ASP.NET
 <input onclick="return myStandardClickHandler(this);" value="Standard control" id="Button1" runat="server" type="submit" />
 <telerik:RadPushButton OnClientClicking="myTelerikClickHandler" Text="Telerik control" ID="RadPushButton1" runat="server"></telerik:RadPushButton>
 <script>

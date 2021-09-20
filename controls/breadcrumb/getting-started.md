@@ -39,7 +39,7 @@ The following tutorial demonstrates how you can add the RadBreadcrumb control an
 
 Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 
-````ASPX
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb3" RootIcon="pin" DelimiterIcon="divide" Skin="Silk" Navigational="true">
     <Items>

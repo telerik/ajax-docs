@@ -41,7 +41,7 @@ and these ones in **Horizontal mode**:
 
 When the `Navigatable` property of the timeline is set to *'true'* as well as the following JavaScript code is set, you can focus the timeline with the Alt+W shortcut:
 
-````ASPX
+````ASP.NET
 <telerik:RadTimeline runat="server" ID="RadTimeline1" AlternatingMode="true" CollapsibleEvents="true" Orientation="Vertical" Navigatable="true">
 <script>
 	var $ = $telerik.$;

@@ -18,7 +18,7 @@ Depending on the value set for the ContentAreaMode property, there are two diffe
 
 `ContentAreaMode="Iframe"`
 
-````ASPX
+````ASP.NET
     <script type="text/javascript">
         function InlineEditor_OnClientLoad(editor, args) {
             var element = editor.get_contentArea();
@@ -39,7 +39,7 @@ Depending on the value set for the ContentAreaMode property, there are two diffe
 
 `ContentAreaMode="Div"`
 
-````ASPX
+````ASP.NET
 <script type="text/javascript">
     function InlineEditor_OnClientLoad(editor, args) {
         editor.attachEventHandler("blur", function (e) {

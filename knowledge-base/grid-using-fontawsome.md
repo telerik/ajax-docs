@@ -27,7 +27,7 @@ For the successful integration of the FontAwesome glyphs in RadGrid built-in but
 
 For the implementation of samples in the article, a Kit code is placed in the \<head> tag.
 
-````ASPX
+````ASP.NET
 <head runat="server">
     <title></title>
     <script type="text/javascript" src="https://kit.fontawesome.com/xxxxxxxxxx.js"></script>
@@ -121,7 +121,7 @@ That way you can introduce the Font Awesome icons using predefined class names, 
 
 **Sample declaration**
 
-````ASPX
+````ASP.NET
 <telerik:GridTemplateColumn>
     <ItemTemplate>
         <telerik:RadButton ID="RadButton1" runat="server" CommandName="Delete" Text="Delete" ButtonType="StandardButton" style="background:none; border:none; color:red;">

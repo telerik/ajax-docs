@@ -74,7 +74,7 @@ Also, make sure to test the application in `Release` mode explicitly because the
 Having an operational MS AJAX environment is essential before adding the Telerik controls to it.
 
 >caption Example 4: Test basic MS AJAX functionality with CSP
-````ASPX
+````ASP.NET
 <ol>
     <li>Make sure there are no errors and blocked resources.</li>
     <li>Click the button.</li>

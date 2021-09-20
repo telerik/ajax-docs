@@ -14,7 +14,7 @@ By setting the `Navigational` property of **RadBreadcrumb** you can determine wh
 
 The below example demonstrates enabled navigation:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Navigational="true">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" ToolTip="Telerik UI for ASP.NET AJAX" Href="https://docs.telerik.com/devtools/aspnet-ajax/" />
@@ -28,7 +28,7 @@ The below example demonstrates enabled navigation:
 
 The `BindToLocation` property allows binding to the location object of the browser on initialization. If enabled, the value of the control will be set to the current URL. In addition, that url will be added to the href attribute of the Breadcrumb items through the If `Navigational` is also set to *'true'*.
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" BindToLocation="true" Navigational="true"></telerik:RadBreadcrumb>
 ````
 

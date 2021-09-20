@@ -32,7 +32,7 @@ The root icon is the icon rendered in the RootItem. It is clickable and resets t
 
 The icon of the RootItem can be set via the `RootIcon` property of the **RadBreadcrumb** like shown in **Figure 2** above:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" RootIcon="user">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" ToolTip="My Profile" />
@@ -44,7 +44,7 @@ The icon of the RootItem can be set via the `RootIcon` property of the **RadBrea
 
 The same result can be achieved by setting the `Icon` property of the respective **BreadcrumbItem**
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" ToolTip="My Profile" Icon="user" />
@@ -62,7 +62,7 @@ In case the `RootIcon` is not set explicitly, it gets its default value - "home"
 
 The delimiter icon is the icon rendered between the items in the Breadcrumb. It can be set via the `DelimiterIcon` property of the Breadcrumb. Check out the sample declaration and **Figure 3** below:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb2" DelimiterIcon="divide">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" />
@@ -84,7 +84,7 @@ The icons rendered for each item. It is also clickable and can be configured thr
 
 By default, the Item icon is not visible (despite for RootItems). To show the icon for an item set its `ShowIcon` property to *'true'*, like demonstrated below:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" >
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" />
@@ -118,7 +118,7 @@ We would need to get the Unicode of the desired icon from the [Kendo Icons page]
 
 The declaration of the Breadcrumb shown in **Figure 5**:
 
-````ASPX
+````ASP.NET
 <style>
     .k-i-arrow-right:before {
         content: "\e018";
@@ -164,7 +164,7 @@ Sample usage of the `IconClass` property is shown in **Figure 6** below:
 
 And the code to achieve this appearance:
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb2" Skin="Silk" >
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" IconClass="largeGreenIcon" />

@@ -74,7 +74,7 @@ A number of Telerik controls render with absolute positioning and have their def
 
 In different scenarios, you may need to change these values in order to ensure that one specific control will be shown above the other—for example **RadWindow** over **RadMenu**. To do this, you can simply set the value of the z-index property of every control by using the common style property, e.g.:
 
-````ASPX
+````ASP.NET
 <telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Style="z-index: 12345">
 </telerik:RadWindowManager>
 ````
@@ -101,7 +101,7 @@ To achieve the appearance above, apply the following CSS style to override the d
 
 Another approach is to set the z-index inline in the RadComboBox declaration
 
-````ASPX
+````ASP.NET
 <telerik:RadComboBox ID="RadComboBox1" runat="server" style="z-index:8010">
 ````
 
@@ -144,7 +144,7 @@ Override the default z-index of the modal RadWindow with the following style:
 
 Another approach is to apply inline styles in the markup declaration
 
-````ASPX
+````ASP.NET
 <telerik:RadWindow ID="RadWindow1" runat="server" Modal="true" style="z-index:8010"></telerik:RadWindow>
 ````
 

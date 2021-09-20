@@ -22,7 +22,7 @@ Once the user clicks on an option, the [OnActionClick]({%slug chat/client-side-p
 
 ![chat with suggested actions](../images/chat-suggested-actions-full.gif)
 
-````ASPX
+````ASP.NET
 <telerik:RadChat runat="server" ID="RadChat1" Width="350px" Height="300px">
     <ClientEvents OnLoad="OnLoad" OnActionClick="OnActionClick" />
 </telerik:RadChat>

@@ -147,7 +147,7 @@ Configure the SqlDataSource send CRUD requests to SQL database
 
 **Default.aspx**
 
-````ASPX
+````ASP.NET
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
 
 

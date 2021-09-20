@@ -33,7 +33,7 @@ The drawer supports the following keyboard shortcuts:
 
 When the `Navigatable` property of the drawer is set to *'true'*, in the `AccessKey` property of the Control you can set the desired key for quick navigation to the drawer.
 
-````ASPX
+````ASP.NET
 <telerik:RadDrawer runat="server" ID="RadDrawer1" Navigatable="true" AccessKey="W">
 ````
 

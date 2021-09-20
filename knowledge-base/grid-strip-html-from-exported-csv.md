@@ -23,7 +23,7 @@ To implement this, the **e.ExportOutput** event can be used. In the event argume
 
 Here is a complete example
 
-````ASPX.NET
+````ASP.NET.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px" OnNeedDataSource="RadGrid1_NeedDataSource" OnGridExporting="RadGrid1_GridExporting">
     <ExportSettings ExportOnlyData="true" IgnorePaging="true">
     </ExportSettings>

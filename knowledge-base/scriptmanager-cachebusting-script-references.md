@@ -21,7 +21,7 @@ When custom scripts are referenced with the **Path** property of a ScriptReferen
 
 We can use a custom query string to manipulate the requested path to the script file:
 
-````ASPX
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" OnResolveScriptReference="RadScriptManager1_ResolveScriptReference">
     <Scripts>
         <telerik:RadScriptReference Path="~/scripts.js?cache-buster-v" />

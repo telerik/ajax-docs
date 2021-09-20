@@ -44,7 +44,7 @@ For previous versions, if you need more granular access key settings, you can us
 
 >caption How to set a custom access key to a RadCalendar.
 
-````ASPX
+````ASP.NET
 <telerik:RadCalendar ID="RadCalendar1" RenderMode="Lightweight" runat="server"
     EnableKeyboardNavigation="true" EnableAriaSupport="true" EnableMultiSelect="false">
     <ClientEvents OnLoad="OnLoad" />
@@ -58,7 +58,7 @@ For previous versions, if you need more granular access key settings, you can us
 
 >caption How to change the markup and script to use a key set in the control markup.
 
-````ASPX
+````ASP.NET
 <telerik:RadCalendar ID="RadCalendar1" RenderMode="Lightweight" runat="server"
     EnableKeyboardNavigation="true" EnableAriaSupport="true" EnableMultiSelect="false">
     <ClientEvents OnLoad="function(s,a){OnLoad(s,a,'K')}" />

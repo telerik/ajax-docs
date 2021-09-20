@@ -19,7 +19,7 @@ The following example demonstrates how to implement a simple [Kendo UI Template]
 
 ![chat with custom template](../images/chat-custom-template.png)
 
-````ASPX
+````ASP.NET
 <telerik:RadChat runat="server" ID="RadChat1">
   <ClientEvents OnLoad="renderSuggestedActions" />
 </telerik:RadChat>

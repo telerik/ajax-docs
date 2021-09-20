@@ -18,7 +18,7 @@ Sample of overflowing RadBreadcrumb:
 
 ![Overflowing](../images/breadcrumb-functionality-overflowing-sample.gif)
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1" Width="300">
     <Items>
         <telerik:BreadcrumbItem Type="RootItem" Text="Root Item" />
@@ -38,7 +38,7 @@ Sample of overflowing RadBreadcrumb:
 
 ![Overflowing with Gap](../images/breadcrumb-functionality-overflowing-gap.gif)
 
-````ASPX
+````ASP.NET
 <telerik:RadBreadcrumb runat="server" ID="RadBreadcrumb1"
     Width="300" Gap="50"
     Value="/I1/I2/I3/I4/I5/I6/I7/I8">
