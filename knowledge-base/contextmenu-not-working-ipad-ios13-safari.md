@@ -63,7 +63,7 @@ The reason behind this behavior is the intention of Apple to promote iPad tablet
 
 ## Suggested Workarounds
 
-The good thing is that at the moment of writing, there are no MAC machines with built-in touch screens, so the _navigator.maxTouchPoints_. This means placing the following script on the page will solve the issue:
+The good thing is that at the moment of writing, there are no MAC machines with built-in touch screens, so the _navigator.maxTouchPoints_. This means placing the following script on the page _somewhere after the ScriptManager_ will solve the issue:
 
 ````JavaScript
 // iPad with enabled "Request Desktop Site" 
