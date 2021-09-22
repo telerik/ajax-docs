@@ -33,6 +33,7 @@ In the following example you will see how to configure the PDFViewer to use PDF.
 ## See Also
 
 * [Live Demo - DPL Integration](https://demos.telerik.com/aspnet-ajax/pdfviewer/applicationscenarios/dplintegration/defaultcs.aspx)
+* [5 Different Approaches of Setting up the Content in RadPdfViewer](https://www.telerik.com/blogs/5-different-approaches-setting-up-content-radpdfviewer-aspnet-ajax)
 
 
 

@@ -113,4 +113,8 @@ Private Sub GeneratePdfViewer()
 End Sub
 ````
 
- 
+### See Also
+
+* [5 Different Approaches of Setting up the Content in RadPdfViewer](https://www.telerik.com/blogs/5-different-approaches-setting-up-content-radpdfviewer-aspnet-ajax)
+
+
