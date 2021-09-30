@@ -5,8 +5,10 @@ description: Check our Web Forms article about Test Studio Translators for Teler
 slug: introduction/testing-with-test-studio/test-studio-translators-for-telerik-ui-for-asp.net-ajax-
 tags: test,studio,translators,for,telerik,ui,for,asp.net,ajax,
 published: True
+previous_url: testing-with-test-studio/test-studio-translators-for-telerik-ui-for-asp.net-ajax-
 position: 1
 ---
+
 
 # Test Studio Translators for Telerik® UI for ASP.NET AJAX 
 

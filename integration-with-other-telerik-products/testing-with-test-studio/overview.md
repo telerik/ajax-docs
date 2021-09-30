@@ -5,6 +5,7 @@ description: Check our Web Forms article about Overview.
 slug: introduction/testing-with-test-studio/overview
 tags: overview,
 published: True
+previous_url: testing-with-test-studio/overview
 position: 0
 ---
 

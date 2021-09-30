@@ -64,9 +64,15 @@ navigation:
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
         position: 17
+    "integration-with-other-telerik-products":
+        title: "Integration with Other Telerik Products"
+        position: 18
     "mvc":
         title: "Integration with ASPNET MVC"
-        position: 18
+        position: 19
+    "integration-with-other-telerik-products/testing-with-test-studio":
+        title: "Automated Testing with Test Studio"
+        position: 1
     "sharepoint":
         title: "Integration with SharePoint"
         position: 20
@@ -127,9 +133,6 @@ navigation:
     "sharepoint/online":
         title: "SharePoint Online (Office 365)"
         position: 4
-    "testing-with-test-studio":
-        title: "Testing with Test Studio"
-        position: 25
     "api":
         title: "API Reference"
         position: 30
