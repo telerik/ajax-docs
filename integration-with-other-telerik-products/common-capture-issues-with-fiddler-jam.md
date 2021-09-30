@@ -23,7 +23,11 @@ You can download and install the Fiddler Jam Chrome extension from [Chrome Web S
 
 ## Capture a log
 
-Once you have [installed the Fiddler Jam browser extension](#installing-fiddler-jam), you can start capturing your issue and send it to the support team. The detailed capturing instructions can be found in [Fiddler Jam extension - Recording a log](https://docs.telerik.com/fiddler-jam/extension/recording-a-log) while below you can find summarized instructions to follow more easily when capturing a log and sharing it with the Telerik support team.
+Once you have [installed the Fiddler Jam browser extension](#installing-fiddler-jam), you can start capturing your issue and send it to the support team. 
+
+The detailed capturing instructions can be found in [Fiddler Jam extension - Recording a log](https://docs.telerik.com/fiddler-jam/extension/recording-a-log) while below you can a short video demonstrating the Installing and Capture process. For convenience, you can find summarized instructions to follow more easily when capturing a log written after the video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AegKWavRSv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Navigate to <a href="about:blank" target="_blank">about:blank</a> or an empty page to ensure a clean capture
 2. Open the Fiddler Jam extension (default shortcut is `Ctrl+Shift+F`)
