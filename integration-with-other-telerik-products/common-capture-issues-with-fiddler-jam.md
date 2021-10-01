@@ -1,6 +1,6 @@
 ---
 title: Capture ASP.NET Web Forms network logs & log issues with Fiddler Jam
-description: Capture ASP.NET AJAX and Web Forms network logs & log issues in the browser with Telerik Fiddler Jam extention tool
+description: Capture ASP.NET AJAX and Web Forms network logs & log issues in the browser with Telerik Fiddler Jam extension tool
 page_title: Capture ASP.NET Web Forms network logs & log issues with Fiddler Jam
 slug: common-capture-issues-with-fiddler-jam
 previous_url: knowledge-base/common-capture-issues-with-fiddler-jam
@@ -25,7 +25,7 @@ You can download and install the Fiddler Jam Chrome extension from [Chrome Web S
 
 Once you have [installed the Fiddler Jam browser extension](#installing-fiddler-jam), you can start capturing your issue and send it to the support team. 
 
-The detailed capturing instructions can be found in [Fiddler Jam extension - Recording a log](https://docs.telerik.com/fiddler-jam/extension/recording-a-log) while below you can a short video demonstrating the Installing and Capture process. For convenience, you can find summarized instructions to follow more easily when capturing a log written after the video.
+The detailed capturing instructions can be found in [Fiddler Jam extension - Recording a log](https://docs.telerik.com/fiddler-jam/extension/recording-a-log) while below you can find a short video demonstrating the Installation and Capture process. For convenience, you can find summarized instructions to follow more easily when capturing a log written after the video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AegKWavRSv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ The detailed capturing instructions can be found in [Fiddler Jam extension - Rec
 
 ## Submit a log
 
-1. *Optional* Toggle the `Password Protection` switch and enter a password (requirements: min 8 characters, 1 uppercase leter, 1 lowercase letter, 1 number)
+1. *Optional* Toggle the `Password Protection` switch and enter a password (requirements: min 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number)
 1. Click the `Get Link` button
 1. Copy the generated link and share it in the support ticket
 
