@@ -13,7 +13,7 @@ position: 1
 
 
 
-Telerik ASP.NET AJAX Visual Studio Extensions will help you to quickly create an application pre-configured to use Telerik® UI for ASP.NET AJAX. The fastest way to have such a project is using the Visual Studio New Project Wizard. Having opened it, the following four Telerik Ajax project templates could be found under the Telerik -> Web node:
+[Telerik ASP.NET AJAX Visual Studio Extensions](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions) will help you to quickly create an application pre-configured to use Telerik® UI for ASP.NET AJAX. The fastest way to have such a project is using the Visual Studio New Project Wizard. Having opened it, the following four Telerik Ajax project templates could be found under the Telerik -> Web node:
 
 ![introduction-vsx newproject 1](images/introduction-vsx_vs_newproject1.png)
 
