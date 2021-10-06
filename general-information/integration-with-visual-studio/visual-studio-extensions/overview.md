@@ -12,7 +12,7 @@ position: 0
 
 
 
-Visual Studio Extensions for Telerik® UI for ASP.NET AJAX aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
+[Visual Studio Extensions for Telerik® UI for ASP.NET AJAX](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions) aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
 
 The extensions handle the following major points in the development with Telerik® UI for ASP.NET AJAX:
 
