@@ -118,7 +118,14 @@ Now the HTML output of the scripts tag will be like this:
 <script src="http://my.favorite.cdn/ajaxz/2015.2.826/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
 ````
 
->note The solution is fully applicable also for creating a local CDN. Just copy the `Scripts` and `Skins` folders inside a folder in the root of your application and configure the BaseUrl and BaseSecureUrl to point to the resources folder. For more detailed instructions check out the following [YouTube video](https://www.youtube.com/watch?v=iPcvj7Vl5TM).
+# Custom Local CDN Provider
+
+The solution described in the section above is fully applicable also for creating a local CDN. Just copy the `Scripts` and `Skins` folders inside a folder in the root of your application and configure the BaseUrl and BaseSecureUrl to point to the resources folder. 
+
+For more detailed instructions check out the Configure Local CDN for Telerik UI for ASP.NET AJAX video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iPcvj7Vl5TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 >note If you are using non-IIS CDN hosting service configuration might be different.
 
