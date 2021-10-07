@@ -10,21 +10,6 @@ ticketid: 1360977
 res_type: kb
 ---
 
-## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>2019.3.917</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>RadHtmlChart for ASP.NET AJAX</td>
-		</tr>
-	</tbody>
-</table>
-
-
 ## Description
 The labels [Visual template](https://docs.telerik.com/devtools/aspnet-ajax/controls/htmlchart/functionality/visual-template) functionality of **RadHtmlChart** allows for customizing the whole appearance of the series labels. If you need to highlight the Series labels depending on the item's value (in terms of fore and background color), you can implement a custom Visual template, redrawing the used elements via the [Kendo Drawing API](https://docs.telerik.com/kendo-ui/framework/drawing/basic-shapes):
 
