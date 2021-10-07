@@ -10,17 +10,6 @@ ticketid: 1443948
 res_type: kb
 ---
 
-## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product</td>
-			<td>RadDrawer for ASP.NET AJAX</td>
-		</tr>
-	</tbody>
-</table>
-
-
 ## Description
 
 I am using a RadHtmlChart that is hiddent by css. This RadHtmlChart is one of many. They are then used within a RadPageLayout that is then hook to a RadDrawer.
