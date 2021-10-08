@@ -40,7 +40,7 @@ To configure the Telerik NuGet Feed in Visual Studio:
 
 1. Enter a **Name** for the new package source, for example, **Telerik NuGet**.
 
-1. Add the **https://nuget.telerik.com/nuget** URL as a **Source** and click **OK**.
+1. Add the **https://nuget.telerik.com/v3/index.json** URL as a **Source** and click **OK**.
 
 	>caption Figure 1: Visual Studio NuGet Package Manager and Telerik NuGet Feed
 
@@ -138,7 +138,7 @@ You must protect your credentials and ensure they are used only by you and not b
 
 ### Incorrect credentials and how to reenter them
 
-Error details: Failed to fetch results from V2 feed at 'https://nuget.telerik.com/nuget/Packages' with following message : Response status code does not indicate success: 401 (Logon failed.).
+Error details: Failed to fetch results from V3 feed at 'https://nuget.telerik.com/v3/index.json' with following message : Response status code does not indicate success: 401 (Logon failed.).
 
 The setup can get stuck in a circular reference problem if you enter incorrect credentials the first time.
 In order to reset or edit the nuget feed credentials:
@@ -150,7 +150,7 @@ In order to reset or edit the nuget feed credentials:
 
 For additional troubleshooting options, see the NuGet can't connect to [Telerik NuGet Server thread](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
 
-### Error Unable to load the service index for source https://nuget.telerik.com/nuget
+### Error Unable to load the service index for source https://nuget.telerik.com/v3/index.json
 
 Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](https://status.telerik.com/).
 
