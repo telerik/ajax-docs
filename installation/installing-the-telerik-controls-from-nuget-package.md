@@ -12,7 +12,7 @@ position: 4
 
 This article explains how to install and use the NuGet feed and packages provided by Telerik to get the Telerik® UI for ASP.NET AJAX controls in your project.
 
->tip The improved Telerik NuGet v3 is now available for beta testing at [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json). The new v3 API is faster, lighter, and reduces the number of requests from NuGet clients. You are welcome to try it.
+
 
 > To use the UI for ASP.NET AJAX controls, you need to install ASP.NET Web Forms on your development/production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8 installations.
 
@@ -22,7 +22,11 @@ This article explains how to install and use the NuGet feed and packages provide
 
 * If you prefer the written instructions, continue to the [Telerik NuGet Feed in Visual Studio](#telerik-nuget-feed-in-visual-studio) section.
 
+>The legacy https://nuget.telerik.com/nuget server is now deprecated. Make sure to switch to the new https://nuget.telerik.com/v3/index.json server, which is faster, lighter, and reduces the number of requests from your NuGet client.
+
+````HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+````
 
 ## Telerik NuGet Feed in Visual Studio
 
