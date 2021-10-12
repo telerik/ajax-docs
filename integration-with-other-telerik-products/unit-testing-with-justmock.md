@@ -274,18 +274,21 @@ public class JustMockTestSelecting
         //Arrange
 
         //DataSource mocking
-        //Replace the real DataSource with dummy test data
+        //  Replace the real DataSource with dummy test data
         DataTable testData = GetTestData();
         Mock.Arrange(() => gridHelper.GetData()).IgnoreInstance().Returns(testData);
 
         //Method mocking with DoInstead()
-        //Replace the actual implementation of ExecuteGridPreRender with mocked one 
-        //to ensure selecting specific country for the test
+        //  Replace the actual implementation of ExecuteGridPreRender with mocked one 
+        //  to ensure selecting specific country for the test
         Mock.Arrange(() => gridHelper.ExecuteGridPreRender())
             .DoInstead(() => { gridHelper.SelectExpiringOrdersByShipCountry("Switzerland"); });
 
         //Act
+
+        //Rebind the RadGrid to raise the NeedDataSource event
         this.radGrid.Rebind();
+        //Simulate triggering RadGrid's PreRender event by explicitly invoking the event handler method
         RadGrid1_PreRender(this.radGrid, new EventArgs());
 
         //Assert
@@ -299,22 +302,25 @@ public class JustMockTestSelecting
         //Arrange
 
         //DataSource mocking
-            //Replace the real DataSource with dummy test data
+        //  Replace the real DataSource with dummy test data
         DataTable testData = GetTestData();
         Mock.Arrange(() => gridHelper.GetData()).IgnoreInstance().Returns(testData);
 
         //Method mocking with DoInstead()
-            //Replace the actual implementation of ExecuteGridPreRender with mocked one
-            //to ensure selecting specific country for the test
+        //  Replace the actual implementation of ExecuteGridPreRender with mocked one
+        //  to ensure selecting specific country for the test
         Mock.Arrange(() => gridHelper.ExecuteGridPreRender())
             .DoInstead(() => { gridHelper.SelectExpiringOrdersByShipCountry("Switzerland"); });
 
         //Future Mocking of Methods that Depend on Other Methods
-            //Mock the IsOrderExpiring method to ensure all orders are considered as expiring for the test
+        //  Mock the IsOrderExpiring method to ensure all orders are considered as expiring for the test
         Mock.Arrange(() => gridHelper.IsOrderExpiring(Arg.IsAny<GridDataItem>())).IgnoreInstance().Returns(true);
 
         //Act
+        
+        //Rebind the RadGrid to raise the NeedDataSource event
         this.radGrid.Rebind();
+        //Simulate triggering RadGrid's PreRender event by explicitly invoking the event handler method
         RadGrid1_PreRender(this.radGrid, new EventArgs());
 
         //Assert
