@@ -70,6 +70,6 @@ The **GridColumnGroupCollection** type is a new type that implements StateManage
 | **HeaderStyle** | **TableItemStyle** |Defines styles for each multicolumn header style. See Styling section below for more info.|
 | **ColSpan** | **Int** |Public ReadOnly. Return the number of spanned columns by the multicolumn header. Min value is 1.|
 | **Visible** | **Bool** |Public ReadOnly. Returns whether a multicolumn header cell will be rendered as visible or not. True if at least one of its children (gridcolumn or columngroup) is visible, otherwise false.|
-| **CompareTo** | **Int** |Implemetns standard comparison operation and also allows comparison between GridColumnGroups and ordinary GridColumns. Used to determine the proper order of the cells in each multiheader.|
+| **CompareTo** | **Int** |Implements standard comparison operation and also allows comparison between GridColumnGroups and ordinary GridColumns. Used to determine the proper order of the cells in each multiheader.|
 
 
