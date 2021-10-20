@@ -20,7 +20,7 @@ The **RadProgressBar** control in the Telerik® UI for ASP.NET AJAX suite is ava
 
 The control offers a rich set of features:
 
-* Progress monitoring of measurable processes.
+* Progress monitoring of measurable processes. _For tracking server-side processes dynamically check out [RadProgressArea - Custom Progress]({%slug progressarea/custom-progress%})._
 
 * Support for different progress types - [value, percent, and chunks]({%slug progressbar/functionality/types%}).
 
