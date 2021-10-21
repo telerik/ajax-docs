@@ -21,7 +21,7 @@ For most of the data-type columns like GridBoundColumn, GridNumericColumn, etc.,
 
 The alternative approach is to access the generated edit controls and set their initial value manually:
 
-[Accessing Controls in Edit/Insert Mode]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-editinsert-mode)
+[Accessing Controls in Edit/Insert Mode]({%slug grid/accessing-values-and-controls/server-side/accessing-controls%}#accessing-controls-in-editinsert-mode)
   
 You can use the approach demonstrated here to determine whether the item is in edit or insert mode:  
 
