@@ -12,7 +12,7 @@ Focusing the input control directly is a valid approach for other edit modes lik
 
 ## Solution
  You can achieve this requirement using some time delay. First, access the generated edit control:  
-[Accessing Controls in Edit/Insert Mode]({%slug grid/rows/accessing-cells-and-rows%}#accessing-controls-in-editinsert-mode)
+[Accessing Controls in Edit/Insert Mode]({%slug grid/accessing-values-and-controls/server-side/accessing-controls%}#accessing-controls-in-editinsert-mode)
   
 Then, apply the focusing logic:  
 
