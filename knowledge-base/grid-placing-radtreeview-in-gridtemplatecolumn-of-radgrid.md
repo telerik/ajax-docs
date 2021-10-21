@@ -7,19 +7,16 @@ slug: grid-placing-radtreeview-in-gridtemplatecolumn-of-radgrid
 res_type: kb
 ---
 
+## DESCRIPTION  
 
+There are cases in which you may want to show a treeview-like structure inside ItemTemplate of GridTemplateColumn. This article will show how to place a RadTreeView in GridTemplateColumn of RadGrid.
+   
+## SOLUTION
 
-## HOW-TO  
-Place RadTreeView in GridTemplateColumn of RadGrid  
+This task is pretty much straight-forward. You just need to wrap RadTreeView instance inside the **ItemTemplate** of your **GridTemplateColumn** and configure it to display the data you would like to present for the end user.   
+The sample code below shows how to render **Locations** loaded from XML content file in TreeView object (embedded in RadGrid instance):  
    
- ## DESCRIPTION  
-There are cases in which you may want to show a treeview-like structure inside ItemTemplate of GridTemplateColumn  
-   
-## SOLUTIONs  
- This task is pretty much straight-forward. You just need to wrap RadTreeView instance inside the **ItemTemplate** of your **GridTemplateColumn** and configure it to display the data you would like to present for the end user.   
- The sample code below shows how to render **Locations** loaded from XML content file in TreeView object (embedded in RadGrid instance):  
-   
- ````aspx
+````aspx
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
     <Scripts>
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js">
@@ -48,10 +45,10 @@ There are cases in which you may want to show a treeview-like structure inside I
         </MasterTableView>
     </telerik:RadGrid>
 </div>
- ````
+````
 
- ````C#
- protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+````C#
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 {
     if (e.Item is GridDataItem)
     {
