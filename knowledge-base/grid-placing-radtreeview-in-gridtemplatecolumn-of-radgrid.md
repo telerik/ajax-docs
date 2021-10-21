@@ -84,7 +84,6 @@ public DataTable GetDataTable(string query)
     return myDataTable;
 }
 ````
-
 ````VB              
 Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
     If TypeOf (e.Item) Is GridDataItem Then
@@ -114,5 +113,4 @@ End Function
 ````
 
 You can download the sample treeview-in-gridtemplatecolumn.zip project from [here](files/treeview-in-gridtemplatecolumn.zip).
-
-    
+ 
