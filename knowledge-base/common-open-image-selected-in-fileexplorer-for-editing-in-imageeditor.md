@@ -100,8 +100,7 @@ You can find more details about the used client- and server-side API of the cont
 - [RadFileExplorer OnClientItemSelected]({%slug fileexplorer/client-side-programming/events/onclientitemselected%})
 - [RadImageEditor Server-side API]({%slug imageeditor/server-side-programming/overview%})
 - [RadImageEditor OnClientSaved]({%slug imageeditor/client-side-programming/events/onclientsaved%})
-- [RadAjaxManager Client-side API]({%slug ajax/client-side-programming/overview
-%})
+- [RadAjaxManager Client-side API]({%slug ajaxmanager/client-side-programming/overview%})
 - [RadAjaxManager OnAjaxRequest]({%slug ajaxmanager/server-side-programming/events/onajaxrequest%})
 - [RadImageEditor Custom Content Provider demo](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/customcontentprovider/defaultcs.aspx)
 
