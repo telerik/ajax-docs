@@ -44,8 +44,8 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |ImageButton|[Yes (render mode)]({%slug imagebutton/mobile-support/render-modes%})|-|
 |ImageEditor|[Yes (render mode)]({%slug imageeditor/mobile-support/render-modes%})|-|
 |ImageGallery|Yes (by design)|[Yes (render mode)]({%slug imagegallery/mobile-support/mobile-rendering%})|
-|Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
-|LightBox|Yes (by design)|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|
+|Input|[Yes (render mode)]({%slug textbox/mobile-support/render-modes%})|-|
+|LightBox|Yes (by design)|[Yes (render mode)]({%slug textbox/mobile-support/render-modes%})|
 |LinkButton|[Yes (by design)]({%slug linkbutton/mobile-support/render-modes%})|-|
 |ListBox|[Yes (render mode)]({%slug listbox/functionality/render-modes%})|-|
 |Map|N/A|-|

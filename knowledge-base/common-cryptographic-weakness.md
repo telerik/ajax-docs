@@ -242,7 +242,7 @@ We would like to thank Erlend Leiknes, security consultant in Mnemonic AS, and T
 
 ## See Also
 
-* [RadEditor Security article]({%slug editor-security%})
+* [RadEditor Security article]({%slug editor/security%})
 * [Allows JavaScriptSerializer Deserialization]({%slug common-allows-javascriptserializer-deserialization%})
 * [RadAsyncUpload Security article]({%slug asyncupload-security%})
 * [Unrestricted File Upload](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/unrestricted-file-upload)
