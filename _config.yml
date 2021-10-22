@@ -940,8 +940,11 @@ navigation:
         title: "Selecting"
         position: 5
     "*grid/functionality/selecting/selecting-rows":
-        title: "Selecting rows"
-        position: 0
+        title: "Selecting Rows"
+        position: 1
+    "*grid/functionality/selecting/selecting-cells":
+        title: "Selecting Cells"
+        position: 2
     "*grid/functionality/exporting":
         title: "Exporting"
         position: 6
