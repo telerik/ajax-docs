@@ -81,10 +81,14 @@ There are several ways to **fix** the issue:
 
 	**web.config**
 
-		<dependentAssembly>
-		    <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
-		    <bindingRedirect oldVersion="1.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
-		</dependentAssembly>
+		<configuration>
+		  <runtime>
+		    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+		      <dependentAssembly>
+			<assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+			<bindingRedirect oldVersion="1.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
+		      </dependentAssembly>
+		    </assemblyBinding>
 
 	If a binding redirect does not work (e.g., in a build environment), the following approach has been reported by clients to resolve the problem, as seen on the [Could not load file or assembly… NuGet Assembly Redirects](http://blog.myget.org/post/2014/11/27/Could-not-load-file-or-assembly-NuGet-Assembly-Redirects.aspx) blog post:
 
