@@ -55,4 +55,4 @@ function cellSelected(sender, args) {
 
 
 
-A list of the possible options for the CellSelectionMode property could be found [here.]({%slug grid/functionality/selecting/selecting-cells-and-columns%})
+A list of the possible options for the CellSelectionMode property could be found [here.]({%slug grid/functionality/selecting/overview%})

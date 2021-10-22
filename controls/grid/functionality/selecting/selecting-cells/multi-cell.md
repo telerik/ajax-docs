@@ -261,7 +261,7 @@ function ToggleCellSelectionUsingGridAPIs(sender, args) {
 
 ## Programmatic Selection Server-Side
 
-Selecting Multiple Cells on the server is done the same way as described in the [SingleCell]({%slug grid/functionality/selectingh/selecting-cells/single-cell%}) article. However, to let the Grid allow multiple cells to be selected, you will need to change the `ClientSettings-Selecting-CellSelectionMode` property of the Grid instance to `MultiCell`.
+Selecting Multiple Cells on the server is done the same way as described in the [SingleCell]({%slug grid/functionality/selecting/selecting-cells/single-cell%}) article. However, to let the Grid allow multiple cells to be selected, you will need to change the `ClientSettings-Selecting-CellSelectionMode` property of the Grid instance to `MultiCell`.
 
 **Example**
 
@@ -281,7 +281,7 @@ By default the Selection is handled on the Client-Side. To make it work on serve
 
 On the backend, you can capture the custom command, find the desired cell and select it respectively.
 
-Follow the **5 steps below** to implement this functionality (Same steps as in the [SingleCell - Programmatic Server-Side]({%slug grid/functionality/selectingh/selecting-cells/single-cell%}#selectdeselect-a-cell-upon-clicking-on-it) article):
+Follow the **5 steps below** to implement this functionality (Same steps as in the [SingleCell - Programmatic Server-Side]({%slug grid/functionality/selecting/selecting-cells/single-cell%}#selectdeselect-a-cell-upon-clicking-on-it) article):
 
 **STEP 1** 
 
