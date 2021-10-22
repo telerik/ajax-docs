@@ -1,18 +1,21 @@
 ---
-title: Enabling RadEditor in SharePoint
-description: Find out different options and approaching on enabling RadEditor in SharePoint environment.
+title: Enabling RadEditor in SharePoint 2010
+description: Find out different options and approach for on enabling RadEditor in SharePoint environment.
 type: how-to
-page_title: editor-enable-radeditor-in-sharepoint
-slug: editor-disabling-image-resize-in-radeditor
+page_title: Enalbe RadEditor in SharePoint 2010
+slug: editor-enable-radeditor-in-sharepoint
 res_type: kb
 ---
 
 ## HOW-TO
 
-* [Insert Built-in RadEditor WebPart to a page](#Insert-Built-in-RadEditor-WebPart-to-a-page)
-* [Create Custom RadEditor WebPart](#Create-Custom-RadEditor-WebPart)
-* [Enable RadEditor for editing page content](#Enable-RadEditor-for-editing-page-content)
-* [Enable RadEditor for editing lists](#Enable-RadEditor-for-editing-lists)
+- [HOW-TO](#how-to)
+- [Solution](#solution)
+  - [Insert Built-in RadEditor WebPart to a page](#insert-built-in-radeditor-webpart-to-a-page)
+  - [Create Custom RadEditor WebPart](#create-custom-radeditor-webpart)
+  - [Enable RadEditor for editing page content](#enable-radeditor-for-editing-page-content)
+  - [Enable RadEditor for editing lists](#enable-radeditor-for-editing-lists)
+- [See Also](#see-also)
 
 ## Solution
 

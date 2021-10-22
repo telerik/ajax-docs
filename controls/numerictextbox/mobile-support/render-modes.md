@@ -2,7 +2,7 @@
 title: Render Modes
 page_title: Render Modes - RadInput
 description: Check our Web Forms article about Render Modes.
-slug: input/mobile-support/render-modes
+slug: numerictextbox/mobile-support/render-modes
 tags: render,modes
 published: True
 position: 0

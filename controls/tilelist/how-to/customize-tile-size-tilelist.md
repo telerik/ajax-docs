@@ -2,7 +2,7 @@
 title: Customize Tile Size in TileList
 page_title: Customize Tile Size in TileList - RadTileList
 description: Check our Web Forms article about Customize Tile Size in TileList.
-slug: tilelist/how-to/save-and-load-state
+slug: tilelist/how-to/customize-tile-size-in-tilelist
 tags: custom, tile, size, dimension, wide, square, tilelist
 published: True
 position: 4

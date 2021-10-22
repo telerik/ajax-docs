@@ -2,7 +2,7 @@
 title: Security
 page_title: Security - RadSpell
 description: Check our Web Forms article about Apply security in RadSpell and enforce information encryption to prevent attacks.
-slug: editor-security
+slug: spell/security
 tags: security
 published: True
 position: 5
