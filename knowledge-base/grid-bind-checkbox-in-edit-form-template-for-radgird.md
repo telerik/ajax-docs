@@ -66,6 +66,8 @@ GO
         <EditFormSettings EditFormType="Template">
             <FormTemplate>
                 <asp:CheckBox ID="Checkbox1" runat="server" Checked='<%# Bind("IsTrue") %>' />
+		<%--or--%>
+		<%--<asp:CheckBox runat="server" ID="CheckBox1" Checked='<%#(Container is GridEditFormInsertItem) ? false : DataBinder.Eval(Container.DataItem,"IsTrue")%> '/>--%>
                 <asp:Button ID="btnUpdate" Text='<%# (Container is GridEditFormInsertItem) ? "Insert" : "Update" %>' runat="server" CommandName='<%# (Container is GridEditFormInsertItem) ? "PerformInsert" : "Update" %>'></asp:Button>&nbsp;
                 <asp:Button ID="btnCancel" Text="Cancel" runat="server" CausesValidation="False" CommandName="Cancel"></asp:Button>
             </FormTemplate>
