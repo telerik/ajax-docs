@@ -20,32 +20,39 @@ In certain cases, e.g. the web server is behind a load balancer, which is the SS
 
 ### Solution:
 
-In these cases, a solution is to force secure links by setting the **BaseUrl** property to the value of the **BaseSecureUrl**. There are three alternative ways of doing this (identically applicable to **RadStyleSheetManager**):
+In these cases, a solution is to force secure links by setting the **BaseUrl** property to the value of the **BaseSecureUrl**. There are three alternative ways of doing this (identically applicable to **RadStyleSheetManager**).
 
-* 
+The URL values used in the examples below are the official CDN links for the Styles and Scripts explained in [CDN support overview]({%slug scriptmanager/cdn-support/overview%}). If you use a [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}), you can use your custom link instead.
+
+#### Solution 1 - Globally in the web.config file
 
 ````XML
-<appsettings>  
-	<add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="https://my.favorite.cdn"  />   
+<appsettings>      	
+    <!-- use secure Telerik CDN for scripts -->
+    <add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="https://d2i2wahzwrm1n5.cloudfront.net"  />   
+    <add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://d2i2wahzwrm1n5.cloudfront.net"  />
+    <!-- use secure Telerik CDN for styles and images -->
+    <add key="Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl" value="https://d35islomi5rx1v.cloudfront.net" />
+    <add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="https://d35islomi5rx1v.cloudfront.net" />
 </appsettings>
 ````
 
 
 
-* 
+#### Solution 2 -  Page setup in the markup 
 
 ````XML
-<telerik:RadScriptManager 
-	ID="RadScriptManager1" 
-	runat="server">
-	<CdnSettings TelerikCdn="Enabled" 
-		BaseUrl="https://my.favorite.cdn" />
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    <CdnSettings TelerikCdn="Enabled" BaseUrl="https://d2i2wahzwrm1n5.cloudfront.net" />
 </telerik:RadScriptManager>
+<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager1">
+    <CdnSettings TelerikCdn="Enabled" BaseUrl="https://d35islomi5rx1v.cloudfront.net" />
+</telerik:RadStyleSheetManager>
 ````
 
 
 
-* 
+#### Solution 3 -  Page setup from the code-behind
 
 
 
@@ -54,6 +61,7 @@ In these cases, a solution is to force secure links by setting the **BaseUrl** p
 protected void Page_Init(object sender, EventArgs e)
 {
 	RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl;
+	RadStyleSheetManager1.CdnSettings.BaseUrl = RadStyleSheetManager1.CdnSettings.BaseSecureUrl;
 }
 	
 ````
@@ -61,13 +69,15 @@ protected void Page_Init(object sender, EventArgs e)
 	
 Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
 	RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl
+	RadStyleSheetManager1.CdnSettings.BaseUrl = RadStyleSheetManager1.CdnSettings.BaseSecureUrl
 End Sub
-	
-	#End Region
-	
-	End Class
+
 ````
 
 
 
-# See Also
+## See Also
+
+* [CDN support overview]({%slug scriptmanager/cdn-support/overview%})
+
+* [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%})

@@ -40,6 +40,8 @@ Using the Content Delivery Network has a number of advantages:
 
 ## How to enable Telerik CDN
 
+The **RadStyleSheetManager** has the same configuration for enabling the Telerik CDN and for convenience, the example below will show enabling the Telerik CDN for the styles along with the scripts.
+
 >note CDN support will be enabled ONLY for:
 >
 * Official Major Releases
@@ -49,7 +51,7 @@ Using the Content Delivery Network has a number of advantages:
 
 1. Make sure you are using Telerik.Web.UI version 2009.3.1207 (**Q3 2009 SP1**) or later.
 
-2. Set the **CdnSettings-TelerikCdn** property of the RadScriptManager to Enabled:
+2. Set the **CdnSettings-TelerikCdn** property of the RadScriptManager and RadStyleSheetManager to Enabled:
 
 ````ASPNET
 <telerik:RadScriptManager 
@@ -57,6 +59,10 @@ Using the Content Delivery Network has a number of advantages:
 	runat="server"    
 	CdnSettings-TelerikCdn="Enabled">
 </telerik:RadScriptManager>
+
+<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager1"
+    CdnSettings-TelerikCdn="Enabled">
+</telerik:RadStyleSheetManager>
 				
 ````
 
@@ -70,6 +76,10 @@ Another way to set that property is to use the composite **<CdnSettings>** prope
 	runat="server">
 	<CdnSettings TelerikCdn="Enabled" />
 </telerik:RadScriptManager>
+
+<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager1">
+    <CdnSettings TelerikCdn="Enabled" />
+</telerik:RadStyleSheetManager>
 ````
 
 
@@ -89,14 +99,15 @@ Note, that the second line will enable the [CDN support for the CSS and image fi
 
 ## How are my users affected?
 
-The Telerik CDN uses the following host names for loading the control resources:
+The Telerik CDN uses the following host names for loading the control resources. 
 
-* **https://aspnet-scripts.telerikstatic.com** - for the scripts;
+* **http://aspnet-scripts.telerikstatic.com** - for the scripts;
 
-* **https://aspnet-skins.telerikstatic.com** - for the skins (css and images);
+* **http://aspnet-skins.telerikstatic.com** - for the skins (css and images);
 
 Your users need to have access to the above URLs.
 
+>note Check the [CDN Troubleshooting - Links to web resources are non-secure although the page is requested through SSL]({%slug scriptmanager/troubleshooting/cdn%}) for issues with pages loaded over HTTPS that still request the HTTP CDN scripts.
 
 
 ## What about SSL?
@@ -153,15 +164,14 @@ To further optimize the load of the scripts you can download the **MicrosoftAjax
 
 ## Recommended setup
 
-## ASP.NET 2.0
+## ASP.NET 4.0 and above
 
 ````ASPNET
 <telerik:RadScriptManager 
 	runat="server" 
-	ID="RadScriptManager1">    
-	<CdnSettings TelerikCdn="Enabled" />
-</telerik:RadScriptManager> 
-
+	ID="RadScriptManager1" 
+	EnableCdn="true"> 
+</telerik:RadScriptManager>
 <telerik:RadStyleSheetManager 
 	runat="server" 
 	ID="RadStyleSheetManager1">    
@@ -171,7 +181,9 @@ To further optimize the load of the scripts you can download the **MicrosoftAjax
 
 
 
-The Telerik resources will be loaded from the CDN, MS AJAX will be served by RadScriptManager.
+All ASP.NET scripts and Telerik resources are served from the respective CDNs.
+
+
 
 ## ASP.NET 3.5
 
@@ -192,14 +204,15 @@ The Telerik resources will be loaded from the CDN, MS AJAX will be served by Rad
 
 Both MS AJAX scripts and Telerik resources will be served from the respective CDNs.
 
-## ASP.NET 4.0
+## ASP.NET 2.0
 
 ````ASPNET
 <telerik:RadScriptManager 
 	runat="server" 
-	ID="RadScriptManager1" 
-	EnableCdn="true"> 
-</telerik:RadScriptManager>
+	ID="RadScriptManager1">    
+	<CdnSettings TelerikCdn="Enabled" />
+</telerik:RadScriptManager> 
+
 <telerik:RadStyleSheetManager 
 	runat="server" 
 	ID="RadStyleSheetManager1">    
@@ -209,7 +222,8 @@ Both MS AJAX scripts and Telerik resources will be served from the respective CD
 
 
 
-All ASP.NET scripts and Telerik resources are served from the respective CDNs.
+The Telerik resources will be loaded from the CDN, MS AJAX will be served by RadScriptManager.
+
 
 ## Additional Resources
 
