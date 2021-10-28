@@ -3,7 +3,7 @@ title: Custom radprompt for RadWindow for ASP.NET AJAX
 description: Custom radprompt for RadWindow for ASP.NET AJAX. Check it now!
 type: how-to
 page_title: Custom radprompt for RadWindow for ASP.NET AJAX
-slug: window-custom-radprompt-for-radwindow-for-asp-net-ajax
+slug: window-custom-radprompt-using-radwindow
 res_type: kb
 ---
 
