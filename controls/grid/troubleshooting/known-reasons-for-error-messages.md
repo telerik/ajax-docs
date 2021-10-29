@@ -143,3 +143,13 @@ To prevent this error add the following lines just before the grid is exported:
 * RadGrid1.Page.Response.ClearHeaders();
 
 * RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
+
+
+
+## An asynchronous operation cannot be started at this time
+
+For more information and solution to this error, check out the [Errors when Page Async="true" for the async-await pattern]({%slug common-errors-when-page-async-is-true-for-the-async-await-pattern%}) knowledge base article.
+
+Full error message:
+
+_An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked &lt;%@ Page Async="true" %&gt;. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it._

@@ -48,6 +48,14 @@ In the code of the **NeedDataSource** handler you should prepare the data source
 
 Alternatively, you can use AccessDataSource/SqlDataSource/ObjectDataSource/XmlDataSource controls to populate Telerik RadListView with data - this is another advanced data-binding mode of the control which allows automatic operations as well. See the the rest of the examples in this section as well as the Insert/Update/Delete section of the [online demos](https://demos.telerik.com/aspnet-ajax/listview) for more info.
 
+### Using Async API Methods In NeedDataSource
+
+Using `async` methods inside the `NeedDataSource` event results in the following error:
+
+    _An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked &lt;%@ Page Async="true" %&gt;. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it._
+
+For more details on the error and how to overcome it, check out the [Errors when Page Async="true" for the async-await pattern]({%slug common-errors-when-page-async-is-true-for-the-async-await-pattern%}) knowledge base article.
+
 ## Simple binding
 
 Simple data-binding through the DataBind() method can be used in simple scenarios which does not require complex operations like insert/delete/update, filtering, etc. For advanced features like data editing, filtering, etc. Telerik RadListView requires advanced data-binding through its NeedDataSource event or a data source control as explained above.

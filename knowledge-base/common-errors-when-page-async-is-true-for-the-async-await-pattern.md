@@ -9,9 +9,9 @@ res_type: kb
 
 ## Problem
 
-Using the **async-await** pattern (setting the **Async** attribute of the **Page directive** to **true**) causes errors (example stack traces and error messages are available below).
+Using the **async-await** pattern (setting the **Async** attribute of the **Page directive** to **true**) causes errors (example stack traces and error messages are available below). For example, calling asynchronous APIs in `NeedDataSource` event of a `Grid`, `ListView`, etc.
 
-## Decription
+## Description
 
 **The Telerik UI for ASP.NET AJAX controls do not support the async-await pattern for WebForms**. As complex server controls they rely heavily on the page lifecycle of the WebForm and the state of various global objects that is set by the standard flow of events in the form. Asynchronous tasks change this order and also require a different approach to writing code (namely, minimizing the use of global objects, which is impossible in WebForms).
 
@@ -119,3 +119,82 @@ System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.Ht
 ````
 
  
+## Solution
+
+The solution to using asynchronous API is to wrap the asynchronous method call in a `Task.Run`, configureAwait to be false(to avoid potential deadlocks), and finally get the `.Result` of the wrapped task, which will be the item you need
+
+- [https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.run](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.run)
+
+````C#
+
+protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+{
+    Task<DataTable> taskOfDataTable = Task.Run(async () => await GetGridSourceAsDataTable().ConfigureAwait(false));
+    DataTable dataTableResults = taskOfDataTable.Result;
+    (sender as RadGrid).DataSource = dataTableResults;
+
+    //Task<IEnumerable<OrderModel>> taskOfList = Task.Run(async () => await GetGridSourceAsIEnumerable().ConfigureAwait(false));
+    //IEnumerable<OrderModel> listResults = taskOfList.Result;
+    //(sender as RadGrid).DataSource = listResults;
+}
+
+// dummy async method for demo purposes. Replace with your async method
+private async Task<DataTable> GetGridSourceAsDataTable()
+{
+    await Task.Delay(3000);
+    DataTable dataTable = new DataTable();
+
+    dataTable.Columns.Add(new DataColumn("OrderID", typeof(int)));
+    dataTable.Columns.Add(new DataColumn("OrderDate", typeof(DateTime)));
+    dataTable.Columns.Add(new DataColumn("Freight", typeof(decimal)));
+    dataTable.Columns.Add(new DataColumn("ShipName", typeof(string)));
+    dataTable.Columns.Add(new DataColumn("ShipCountry", typeof(string)));
+
+    dataTable.PrimaryKey = new DataColumn[] { dataTable.Columns["OrderID"] };
+
+    for (int i = 0; i < 70; i++)
+    {
+        // or use the following one-liner with the following arguments
+        // OrderID, OrderDate, Freight, ShipName, ShipCountry
+        //dataTable.Rows.Add(i + 1, DateTime.Now, (i + 1) + (i + 1) * 0.1 + (i + 1) * 0.01, "Name " + (i + 1), "Country " + (i + 1));
+
+        DataRow row = dataTable.NewRow();
+        row["OrderID"] = i + 1;
+        row["OrderDate"] = DateTime.Now;
+        row["Freight"] = (i + 1) + (i + 1) * 0.1 + (i + 1) * 0.01;
+        row["ShipName"] = "Name " + (i + 1);
+        row["ShipCountry"] = "Country " + (i + 1);
+
+        dataTable.Rows.Add(row);
+    }
+
+    return dataTable;
+}
+    
+public class OrderModel
+{
+    public int OrderID { get; set; }
+    public DateTime OrderDate { get; set; }
+    public decimal Freight { get; set; }
+    public string ShipName { get; set; }
+    public string ShipCountry { get; set; }
+}
+
+// dummy async method for demo purposes. Replace with your async method
+private async Task<IEnumerable<OrderModel>> GetGridSourceAsIEnumerable()
+{
+    await Task.Delay(3000);
+
+    return Enumerable.Range(1, 100).Select(x => new OrderModel
+    {
+        OrderID = x,
+        OrderDate = DateTime.Now.AddHours(x),
+        Freight = x * 0.33M,
+        ShipCountry = "Ship Country " + (x % 7),
+        ShipName = "Ship Name " + x
+    });
+}
+
+````
+
+
