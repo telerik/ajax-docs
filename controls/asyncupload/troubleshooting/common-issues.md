@@ -73,4 +73,36 @@ When running a project using Visual Studio in Administrator mode, the Drag and D
 The file upload will fail if the **TemporaryUpload** folder is not given with enough permissions, even if the permissions of the **TargetFolder** are set properly.The default temporary upload folder is placed inside the App_data folder, so you have to give full read and write permissions to it as well:
 `~/App_Data/RadUploadTemp `
 
+## Cannot Upload Files From Google Drive on Android
+
+### Description
+
+When the user on a mobile Android devices tries to upload a file from Google Drive the upload hands and shows a yellow dot. It is caused by a known bug with the Google API that prevents the proper upload from Google Drive on Android devices. This interferes with the use of FileAPI to upload files, hence the issue with the AsyncUpload:
+
+* [https://bugs.chromium.org/p/chromium/issues/detail?id=1063576&q=ERR_UPLOAD_FILE_CHANGED&can=2](https://bugs.chromium.org/p/chromium/issues/detail?id=1063576&q=ERR_UPLOAD_FILE_CHANGED&can=2 ) 
+* [https://stackoverflow.com/questions/57516930/prevent-html-file-input-from-selecting-files-in-google-drive-while-using-android](https://stackoverflow.com/questions/57516930/prevent-html-file-input-from-selecting-files-in-google-drive-while-using-android) 
+* [https://support.google.com/chrome/thread/3125379?hl=en](https://support.google.com/chrome/thread/3125379?hl=en) 
+* [https://stackoverflow.com/questions/62714319/attached-from-google-drivecloud-storage-in-android-file-gives-err-upload-file](https://stackoverflow.com/questions/62714319/attached-from-google-drivecloud-storage-in-android-file-gives-err-upload-file)
+* [https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-bugs/err_upload_file_changed%7Csort:date/chromium-bugs/9LU9A878N7g/6NNxA7R8p78J](https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-bugs/err_upload_file_changed%7Csort:date/chromium-bugs/9LU9A878N7g/6NNxA7R8p78J)
+
+
+### Solution
+
+The solution is to use the fallback iframe upload module when the browser is Chrome and the platform is Android. More info about the upload modules of the AsyncUpload can be found in [RadAsyncUpload Modules]({%slug asyncupload/upload-modules%}) article.
+
+Placing the following script under the ScriptManager will force the AsyncUpload to use the iframe module over the FileAPI:
+
+````ASP.NET
+<script>
+    if (Telerik.Web.Platform.android && Telerik.Web.Browser.chrome && Telerik.Web.UI.RadAsyncUpload) {
+        // force iframe mode due to https://bugs.chromium.org/p/chromium/issues/detail?id=1063576&q=ERR_UPLOAD_FILE_CHANGED&can=2
+        Telerik.Web.UI.RadAsyncUpload.Modules.FileApi.isAvailable = function () { return false; };
+        Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; };
+        Telerik.Web.UI.RadAsyncUpload.Modules.Silverlight.isAvailable = function () { return false; };
+    }
+</script>
+````
+
+
+
 ## See Also
