@@ -14,7 +14,7 @@ position: 20
 
 ## Basics
 
-The Export Infrastructure is designed to be a middle tier structure that sits between an export library and server control. Currently there are three renderers - for binary XLS (BIFF) files, for XLSX files and for DOCX files. Note that XLSX and DOXS renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. Although it has been used internally for RadGrid, it is in fact independent and could be used in a wide range of scenarios. For example:
+The Export Infrastructure is designed to be a middle tier structure that sits between an export library and server control. Currently there are three renderers - for binary XLS (BIFF) files, for XLSX files and for DOCX files. Note that XLSX and DOCX renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. Although it has been used internally for RadGrid, it is in fact independent and could be used in a wide range of scenarios. For example:
 
 * for generating a binary XLS/XSLX/DOCX file on-the-fly
 
@@ -172,7 +172,7 @@ tbl.ShiftRowsDown(2, 5)
 
 ## Rendering
 
-As mentioned in the beginning of this topic, at this point there are three renderers available. Note that XLSX and DOXS renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. You could use them to generate the appropriate file from a given structure. Simply create an instance of the XlsBiffRenderer, XlsxRenderer orDocxRenderer class, provide a reference to the ExportStructure object and then invoke the Render method. When executed, it will return a byte array that could be either saved in a file or sent to the client via the Response object.
+As mentioned in the beginning of this topic, at this point there are three renderers available. Note that XLSX and DOCX renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. You could use them to generate the appropriate file from a given structure. Simply create an instance of the XlsBiffRenderer, XlsxRenderer orDocxRenderer class, provide a reference to the ExportStructure object and then invoke the Render method. When executed, it will return a byte array that could be either saved in a file or sent to the client via the Response object.
 
 Using the different renderers
 
