@@ -43,7 +43,10 @@ Office HTML format supports page headers and footers. Microsoft Excel makes this
 
 An example is shown below:
 
-
+````ASPX
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting">
+</telerik:RadGrid>
+````
 
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -223,6 +226,7 @@ Example:
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting">
 </telerik:RadGrid>
 ````
+
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
 {
@@ -257,7 +261,10 @@ End Sub
 
 Another useful property is **RowBreak**. This property allows you to set page breaks of the rows. Generally, you can assign as many **RowBreak** properties as you need and add them to the **RowBreaks** collection. The example below demonstrates	how to use them. Note that the **Print** element should be set as well in order for the row breaks to be applied correctly.
 
-
+````ASPX
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting">
+</telerik:RadGrid>
+````
 
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
