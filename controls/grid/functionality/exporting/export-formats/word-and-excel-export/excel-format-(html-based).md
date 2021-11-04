@@ -174,9 +174,10 @@ Example:
 
 
 ````ASPX
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting" ...>
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting">
 </telerik:RadGrid>
 ````
+
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
 {
@@ -219,7 +220,7 @@ Example:
 
 
 ````ASPX
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting" ...>
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting">
 </telerik:RadGrid>
 ````
 ````C#
