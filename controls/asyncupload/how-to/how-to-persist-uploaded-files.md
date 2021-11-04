@@ -19,7 +19,7 @@ Indeed **RadAsyncUpload** persists its client state (it is a hidden field on the
 >note In order to persist the files after a postback, the **RadAsyncUpload** has to be rendered on the page.
 >
 
-**PostbackTriggers** property is a string array and it can be set from the markup or from the code behind. In case that the property is set from the markup and from the code behind, the value from the code behind is taking in mind.
+The **PostbackTriggers** property accepts as a value a string array. The codebehind values have higher priority over the ones in the markup and override them:
 
 ````ASPNET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager"></telerik:RadScriptManager>         
