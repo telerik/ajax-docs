@@ -17,7 +17,7 @@ It is expected to receive the following warning when opening the generated **xls
 *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
 ![](images/grd_excel_warning.png)
 
-The cause of this warning message is explained in details in the following blog posts:
+The cause of this warning message is explained in detail in the following blog posts:
 
 [MSDN blogs: Excel 2007 Extension Warning On Opening Excel Workbook from a Web Site](http://blogs.msdn.com/vsofficedeveloper/pages/Excel-2007-Extension-Warning.aspx)
 
@@ -25,7 +25,7 @@ The cause of this warning message is explained in details in the following blog 
 
 ## Using Headers and Footers
 
-Office HTML format supports page headers and footers.	Microsoft Excel makes this data persistent through the use of the **mso-header-data** and **mso-footer-data** attributes.Each attribute is a string with metadata identified by the ampersand character(**&**).Below you can find a list of the supported header/footer attributes:
+Office HTML format supports page headers and footers. Microsoft Excel makes this data persistent through the use of the **mso-header-data** and **mso-footer-data** attributes. Each attribute is a string with metadata identified by the ampersand character(**&**). Below you can find a list of the supported header/footer attributes:
 
 
 | Metadata | Represents |
@@ -120,7 +120,7 @@ You can see some of the most common custom number formats and their description 
 |"d\\-mmm\\-yyyy"|another date format|
 |Percent|percent|
 
-Another interesting feature, supported by the Excel export are the formulas. You can assign the desired formula to a specific cell by applying the **formula** attribute.
+Another interesting feature, supported by the Excel export, is the formulas. You can assign the desired formula to a specific cell by applying the **formula** attribute.
 
 >note The formula attribute is valid in the context of the **Office HTML** only. You shouldn't apply this attribute unconditionally in order to prevent validation problems.
 >
@@ -153,7 +153,7 @@ End Sub
 
 ## XML Options
 
-**XmlOptions** property allows you to set different options of the exported file.	The XML element contains one or more sub-elements. These include **DocumentProperties** which is valid for Word and Excel,	**WordDocument** which can be used when exporting to Word, and finally **ExcelWorkbook** which applies to Microsoft Excel.
+**XmlOptions** property allows you to set different options for the exported file.	The XML element contains one or more sub-elements. These include **DocumentProperties** which is valid for Word and Excel,	**WordDocument** which can be used when exporting to Word, and finally **ExcelWorkbook** which applies to Microsoft Excel.
 
 A list of the supported **ExcelWorkbook** properties is represented below.
 
@@ -173,7 +173,10 @@ A list of the supported **ExcelWorkbook** properties is represented below.
 Example:
 
 
-
+````ASPX
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting" ...>
+</telerik:RadGrid>
+````
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
 {
@@ -198,7 +201,7 @@ End Sub
 ````
 
 
-**Print element** contains different print options which allow you to modify the printed output.
+The **Print element** contains different print options which allow you to modify the printed output.
 
 A list of the supported **Print** properties is represented below.
 
@@ -215,7 +218,10 @@ A list of the supported **Print** properties is represented below.
 Example:
 
 
-
+````ASPX
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnHTMLExporting="RadGrid1_HtmlExporting" ...>
+</telerik:RadGrid>
+````
 ````C#
 protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
 {
@@ -248,7 +254,7 @@ End Sub
 ````
 
 
-Another useful property is **RowBreak**. This property allows you to set a page breaks of the rows. Generally you can assign as	many **RowBreak** properties as you need and add them in the **RowBreaks** collection. The example below demonstrates	how to use them. Note that the **Print** element should be set as well in order the row breaks to be applied correctly.
+Another useful property is **RowBreak**. This property allows you to set page breaks of the rows. Generally, you can assign as many **RowBreak** properties as you need and add them to the **RowBreaks** collection. The example below demonstrates	how to use them. Note that the **Print** element should be set as well in order for the row breaks to be applied correctly.
 
 
 
