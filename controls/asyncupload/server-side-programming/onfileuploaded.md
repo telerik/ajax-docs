@@ -14,7 +14,7 @@ position: 2
 
 The server-side **FileUploaded** occurs after a file is uploaded and a postback is triggered.
 
->note When the [PostbackTriggers]({%slug asyncupload/how-to/how-to-persist-uploaded-files%}) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
+>note When the [PostbackTriggers](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-persist-uploaded-files) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
 >
 
 The **FileUploaded** event handler receives two arguments:
@@ -25,7 +25,7 @@ The **FileUploaded** event handler receives two arguments:
 
 * **IsValid** - Allows you to specify whether the uploaded file is valid. If it is, **RadAsyncUpload** will automatically save it to the TargetFolder, if one is set.
 
-* **File** - Provides reference to the file uploaded.
+* **File** - Provides a reference to the file uploaded.
 
 * **UploadResult** - A container object containing information sent from the **RadAsyncUpload** file handler. For additional information, visit [How to extend the RadAsyncUpload handler.]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
