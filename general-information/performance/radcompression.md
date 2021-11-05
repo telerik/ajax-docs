@@ -5,7 +5,8 @@ description: Check our Web Forms article about RadCompression.
 slug: controls/radcompression
 tags: radcompression
 published: True
-position: 8
+previous_url: controls/radcompression
+position: 2
 CTAControlName: RadCompression
 ---
 

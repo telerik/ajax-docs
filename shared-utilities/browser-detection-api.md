@@ -5,6 +5,7 @@ description: Check our Web Forms article about Browser Detection API offered by 
 slug: mobile-support/helper-tools/browser-detection-api
 tags: mobile,support,browser,detection,api
 published: True
+previous_url: mobile-support/helper-tools/browser-detection-api
 position: 0
 ---
 

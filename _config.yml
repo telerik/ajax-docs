@@ -50,14 +50,15 @@ navigation:
     "mobile-support":
         title: "Mobile Support"
         position: 5
-    "mobile-support/helper-tools":
-        title: "Helper Tools"
     "deployment":
         title: "Deployment"
         position: 6
     "controls":
         title: "Controls"
         position: 12
+    "shared-utilities":
+        title: "Shared Utilities"
+        position: 13
     "theme-builder":
         title: "Theme Builder"
         position: 16
@@ -73,6 +74,24 @@ navigation:
     "integration-with-other-telerik-products/testing-with-test-studio":
         title: "Automated Testing with Test Studio"
         position: 1
+    "integration-with-other-telerik-products/document-processing":
+        title: "Document Processing Libraries"
+        position: 2
+    "integration-with-other-telerik-products/document-processing/pdfprocessing":
+        title: "PdfProcessing"
+        position: 1
+    "integration-with-other-telerik-products/document-processing/spreadprocessing":
+        title: "SpreadProcessing"
+        position: 2
+    "integration-with-other-telerik-products/document-processing/spreadstreamprocessing":
+        title: "SpreadStreamProcessing"
+        position: 3
+    "integration-with-other-telerik-products/document-processing/wordsprocessing":
+        title: "WordsProcessing"
+        position: 4
+    "integration-with-other-telerik-products/document-processing/ziplibrary":
+        title: "ZipLibrary"
+        position: 5            
     "sharepoint":
         title: "Integration with SharePoint"
         position: 20
@@ -337,9 +356,6 @@ navigation:
     "controls/panelbar":
         title: "PanelBar"
         position: 1
-    "controls/pdfprocessing":
-        title: "PdfProcessing"
-        position: 1
     "controls/pdfviewer":
         title: "PdfViewer"
         position: 1
@@ -397,14 +413,8 @@ navigation:
     "controls/splitter":
         title: "Splitter"
         position: 1
-    "controls/spreadprocessing":
-        title: "SpreadProcessing"
-        position: 1
     "controls/spreadsheet":
         title: "Spreadsheet"
-        position: 1
-    "controls/spreadstreamprocessing":
-        title: "SpreadStreamProcessing"
         position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
@@ -457,14 +467,8 @@ navigation:
     "controls/wizard":
         title: "Wizard"
         position: 1
-    "controls/wordsprocessing":
-        title: "WordsProcessing"
-        position: 1
     "controls/xmlhttppanel":
         title: "XmlHttpPanel"
-        position: 1
-    "controls/ziplibrary":
-        title: "Zip Library"
         position: 1
 
 ## List common control TOC structure so it is reused by all controls

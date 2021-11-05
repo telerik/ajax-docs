@@ -5,6 +5,7 @@ description: Check our Web Forms article about Overview.
 slug: radspreadprocessing-overview
 tags: overview
 published: True
+previous_url: controls/spreadprocessing/overview
 position: 0
 CTAControlName: SpreadProcessing
 ---

@@ -5,7 +5,8 @@ description: Check our Web Forms article about Resize and Drag Extender.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools/resize-and-drag-extender
 tags: resize,and,drag,extender
 published: True
-position: 2
+previous_url: mobile-support/helper-tools/resize-and-drag-extender
+position: 3
 ---
 
 # Resize and Drag Extender

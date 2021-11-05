@@ -5,7 +5,8 @@ description: Check our Web Forms article about WAI-ARIA Support and Screen Reade
 slug: controls/wai-aria-support-and-screen-readers
 tags: wai-aria,support,and,screen,readers
 published: True
-position: 12
+previous_url: controls/wai-aria-support-and-screen-readers
+position: 11
 ---
 
 # WAI-ARIA Support and Screen Readers

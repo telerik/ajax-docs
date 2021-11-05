@@ -5,6 +5,7 @@ description: Check our Web Forms article about Overview.
 slug: radwordsprocessing-overview
 tags: overview
 published: True
+previous_url: controls/wordsprocessing/overview
 position: 0
 CTAControlName: WordsProcessing
 ---

@@ -5,8 +5,9 @@ description: Check our Web Forms article about Changes and Backwards Compatibili
 slug: controls/changes-and-backwards-compatibility
 previous_url: what's-new-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
+previous_url: controls/changes-and-backwards-compatibility
 published: True
-position: 18
+position: 9
 ---
 
 # Changes and Backwards Compatibility

@@ -5,6 +5,7 @@ description: Check our Web Forms article about Overview.
 slug: radpdfprocessing-overview
 tags: overview
 published: True
+previous_url: controls/pdfprocessing/overview
 position: 0
 CTAControlName: PdfProcessing
 ---

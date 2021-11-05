@@ -5,7 +5,8 @@ description: Check our Web Forms article about Render Modes.
 slug: controls/render-modes
 tags: render,modes
 published: True
-position: 10
+previous_url: controls/render-modes
+position: 9
 ---
 
 # Render Modes

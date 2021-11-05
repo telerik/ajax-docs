@@ -5,7 +5,8 @@ description: Check our Web Forms article about RadDeviceDetectionFramework.
 slug: controls/raddevicedetectionframework
 tags: raddevicedetectionframework
 published: True
-position: 14
+previous_url: controls/raddevicedetectionframework
+position: 2
 CTAControlName: DeviceDetectionFramework
 ---
 
