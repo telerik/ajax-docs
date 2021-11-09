@@ -26,15 +26,15 @@ The following table lists the default column editors for each of the built-in ed
 
 | Column type | Default column editor | Column editor base class |
 | ------ | ------ | ------ |
-|GridBoundColumn|GridTextBoxColumnEditor|GridTextColumnEditor|
-|GridDropDownColumn|GridDropDownListColumnEditor|GridDropDownColumnEditor|
-|GridCheckBoxColumn|GridCheckBoxListColumnEditor|GridBoolColumnEditor|
-|GridDateTimeColumn|GridDateTimeColumnEditor|GridTextColumnEditor|
-|GridNumericColumn|GridNumericColumnEditor|GridTextColumnEditor|
-|GridMaskedColumn|GridMaskedColumnEditor|GridTextColumnEditor|
-|GridHTMLEditorColumn|GridHTMLEditorColumnEditor|GridTextColumnEditor|
-|GridTemplateColumn|GridTemplateColumnEditor|GridColumnEditorBase|
-|GridBinaryImageColumn|GridBinaryImageColumnEditor|GridColumnEditorBase|
+|GridBoundColumn|GridTextBoxColumnEditor|[GridTextColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTextColumnEditor)|
+|GridDropDownColumn|GridDropDownListColumnEditor|[GridDropDownColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridDropDownColumnEditor)|
+|GridCheckBoxColumn|GridCheckBoxListColumnEditor|[GridBoolColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridBoolColumnEditor)|
+|GridDateTimeColumn|GridDateTimeColumnEditor|[GridTextColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTextColumnEditor)|
+|GridNumericColumn|GridNumericColumnEditor|[GridTextColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTextColumnEditor)|
+|GridMaskedColumn|GridMaskedColumnEditor|[GridTextColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTextColumnEditor)|
+|GridHTMLEditorColumn|GridHTMLEditorColumnEditor|[GridTextColumnEditor](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTextColumnEditor)|
+|GridTemplateColumn|GridTemplateColumnEditor|[GridColumnEditorBase](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridColumnEditorBase)|
+|GridBinaryImageColumn|GridBinaryImageColumnEditor|[GridColumnEditorBase](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridColumnEditorBase)|
 
 
 >caution The purpose of column editors is to define the style of the controls in edit mode. Note that using column editors for modifying the functionality of the edit controls is not recommended.
