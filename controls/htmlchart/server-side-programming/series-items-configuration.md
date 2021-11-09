@@ -74,6 +74,9 @@ To create series items programmatically, you should use the respective class for
 * **WaterfallSeries** and **HorizontalWaterfallSeries** use the **WaterfallSeriesItem** class.
 
 In order to access the properties of the series in the code-behind, the series must be cast to the respective series type (e.g. (RadHtmlChart1.PlotArea.Series[0] as ColumnSeries).SeriesItems[0].Y = 10;).
+  
+You can see how to create the series of the chart and bind their items on the server-side in the last section of the following article: [HtmlChart Server-side Overview]({%slug htmlchart/server-side-programming/overview%}#programatic-chart-creation)
+
 
 ## See Also
 
@@ -86,3 +89,5 @@ In order to access the properties of the series in the code-behind, the series m
  * [Configuring PlotArea Element Axes of the RadHtmlChart]({%slug htmlchart/server-side-programming/axes-configuration%})
 
  * [Navigator Configuration]({%slug htmlchart/server-side-programming/navigator-configuration%})
+  
+ * [Create HtmlChart on the server-side]({%slug htmlchart/server-side-programming/overview%})
