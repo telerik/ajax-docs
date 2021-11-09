@@ -78,7 +78,8 @@ To create a global resource file to localize the filter:
 
 1. Create the **App_GlobalResources** folder in the root of your web application.
 
-1. Copy the default resource **RadFilter.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the Telerik controls.
+1. Copy the default resource **RadFilter.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the Telerik controls. Usually the path to the localization files is similar to (the version number differs):
+*C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2021\App_GlobalResources*
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadFilter follow a strict naming convention:**RadFilter.Main.<Culture Identifier>.resx**
 
