@@ -65,9 +65,9 @@ This issue seems to be handled in the latest (4.0.0) version of Microsoft.Owin, 
 
 ## Files
 
-* [testOwinIssue](files\testowinissue.zip)
-* [WindowManagerAddendum](files\windowmanageraddendum.zip)
-* [WindowAddendum](files\windowaddendum.zip)
-* [editoraddendum_v3](files\editoraddendum_v3.zip)
-* [FileExplorerAddendum_v2](files\fileexploreraddendum_v2.zip)
-* [AsyncUploadAddendum](files\asyncuploadaddendum.zip)
+* [testOwinIssue](files/testowinissue.zip)
+* [WindowManagerAddendum](files/windowmanageraddendum.zip)
+* [WindowAddendum](files/windowaddendum.zip)
+* [editoraddendum_v3](files/editoraddendum_v3.zip)
+* [FileExplorerAddendum_v2](files/fileexploreraddendum_v2.zip)
+* [AsyncUploadAddendum](files/asyncuploadaddendum.zip)
