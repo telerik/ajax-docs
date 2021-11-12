@@ -22,10 +22,11 @@ To prevent the browser to load the exported file in the browser page, cancel the
 
 Aslo you can stop the "Save As" pop up window by setting the OpenInNewWindow property to false, e.g.
 
-
+````ASPX
 <telerik:RadEditor runat="server" ID="radEditor" Width="700px" Height="500px" SkinID="DefaultSetOfTools" OnExportContent="RadEditorExportContent">
         <ExportSettings OpenInNewWindow="false"></ExportSettings>
 </telerik:RadEditor>
+````
 
 ## See Also
 * [PDF export and OnExportContent event](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/import-and-export/export-to-pdf#onexportcontent-event)
