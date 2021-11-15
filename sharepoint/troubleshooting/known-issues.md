@@ -11,9 +11,20 @@ position: 0
 
 # Known Issues
 
-
-
 This article describes known issues with integrating the Telerik controls in SharePoint (all versions). Telerik does not (yet) have solutions for these issues. This article will feature a common scenario with editing Web Parts inside **RadEditor** for SharePoint.
+
+## Installation Requires SharePoint 2013
+
+The error message: "*This installation requires Microsoft SharePoint 2013 or Microsoft SharePoint Foundation 2013. Please, ensure you have Microsoft SharePoint 2013 or Microsoft SharePoint Foundation 2013 installed.*" indicates that the Telerik Web Part Installer is being run on a Server which does not have SharePoint 2013 installed. 
+
+![Incorrect SharePoint version](images/automatic_installer_error.png)
+
+
+### Solution
+
+- If installing Telerik Web Parts for SharePoint 2010, please, use the MSI installer for SharePoint 2010.
+- In case you are trying to install Telerik Web Parts for SharePoint 2016 and later, you will need to deploy the Solution manually, see [Manual Installation, Upgrade, Removal]({%slug sharepoint/2013/installation-and-deployment/installing-telerik-web-parts%}#manual-installation-upgrade-removal).
+
 
 ## Web Parts Cannot Be Edited in RadEditor for SharePoint
 
