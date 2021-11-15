@@ -30,13 +30,10 @@ function OnGridCreated(sender, args) {
 And the setScroll function:
 
 ````JavaScript
-function OnGridCreated(sender, args) {
-    var grid = $find("<%=RadGrid1.ClientID%>");  // Get the client-side object of the Grid
-    var master = grid.get_masterTableView();     // Get the master table
-    var offset = master.getColumnByUniqueName("Freight").get_element().offsetLeft;  // Get the offset of the specific column cell
- 
-    setScroll(grid, offset);
-}
+function setScroll(grid, scrollLeft) {
+    var dataDiv = $telerik.findElement(grid.get_element(), grid.get_id() + "_GridData");
+    dataDiv.scrollLeft = scrollLeft;  // Set the scroll offset
+} 
 ````
 
  
