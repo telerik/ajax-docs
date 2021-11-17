@@ -105,7 +105,7 @@ Basically, a grid bound using client side data-binding improves the performance 
 
 * Data editing and grid editors. Since the control is bound on the client, and no subsequent trips are made to the server, the default editors cannot be rendered, and shown, which is the standard behavior, when the grid is bound on the server. The most straightforward option to work-around this is to use an external edit form, which is demonstrated in the [following example](https://demos.telerik.com/aspnet-ajax/grid/examples/client/insertupdatedelete/defaultcs.aspx).
 
-* Hierarchical structures - with the client side data binding approach for the grid, there is no out-of-the-box support for hierarchical structures (possible solutions are presented in [this blog post](https://blogs.telerik.com/vladimirenchev/posts/08-09-09/how-to-telerik-radgrid-master-detail-client-side-data-binding-using-linq-to-sql-and-webservice.aspx	)).
+* Hierarchical structures - with the client side data binding approach for the grid, there is no out-of-the-box support for hierarchical structures (possible solutions are presented in the [How To: Telerik RadGrid Master/Detail client-side data-binding using LINQ to SQL and WebService](https://www.telerik.com/blogs/how-to-telerik-radgrid-master-detail-client-side-data-binding-using-linq-to-sql-and-webservice) Blog post)
 
 * Grouping with client-side binding is not supported. Server binding only should be used in order to achieve grouping.
 
