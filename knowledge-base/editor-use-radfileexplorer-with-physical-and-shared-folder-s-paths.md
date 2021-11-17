@@ -19,7 +19,7 @@ The provider supports shared folder's paths like "\\server.name\Path\Folder" as 
 ## THE MAIN PROBLEM
   
 The main problem in this case is that we are working with physical paths that we do not want to pass (show) to the client. In the address bar of the **RadFileExplorer** we need to show custom paths, which uniquely identify the items in the FileExplorer (and on the server). In this case, a strong mapping between the physical path and the virtual path (that will be shown in the address bar) is necessary.   
-In the example, which you can download from [here](files/editor_PhysicalpathFilesystemProvider.zip), the mapping is specified in the *MappingFile* sfile. You can add another mapping in the .*mapping*file and then use the mapped physical paths in the *ViewPath*, *DeletePath* or *UploadPath* collections of the FileExplorer. In the demo, the *GetPhysicalFromVirtualPath* function is widely used, and this function gets the mapped physical path from the passed virtual path.   
+In the example, which you can download from [here](files/fileexplorer-PhysicalpathFilesystemProvider.zip), the mapping is specified in the *MappingFile* sfile. You can add another mapping in the .*mapping*file and then use the mapped physical paths in the *ViewPath*, *DeletePath* or *UploadPath* collections of the FileExplorer. In the demo, the *GetPhysicalFromVirtualPath* function is widely used, and this function gets the mapped physical path from the passed virtual path.   
   
 This is an example configuration using *CustomFileSystemProvider*:  
   
@@ -73,6 +73,6 @@ string[] deletePaths = new string[]
 ## NOTE   
 Please, read the comment in the beginning of the *MoveDirectory*function. Also, in the earlier versions of the control the *CheckDeletePermissions*method does not exist and needs to be removed. Also, a new method is added in the FileBrowserContentProvider - *CheckReadPermissions* (starting from version *2010.2.286*) and It should be overridden as well in order to ensure that the content provider will work properly.
 
-You can download the sample files from [here](files/editor_PhysicalpathFilesystemProvider.zip). There are both C# and VB.NET versions inside the archive.
+You can download the sample files from [here](files/fileexplorer-PhysicalpathFilesystemProvider.zip). There are both C# and VB.NET versions inside the archive.
 
  
