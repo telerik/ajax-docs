@@ -31,8 +31,12 @@ var grid = $find("<%=RadGrid1.ClientID %>");
 
 Additionally, to get reference to the *div wrapper* or the * html table element * rendered by the RadGrid instance, you can use the **$get(id)** method (shortcut for the document.getElementById() javascript method).
 
+Check out this article for more examples: [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference})
+
 More info about the $find and $get shortcut methods exposed by the ASP.NET AJAX framework you can find visiting the links below:
 
-* [https://www.asp.net/ajaxlibrary/Reference.Sys-Application-$find-Method.ashx](https://www.asp.net/ajaxlibrary/Reference.Sys-Application-$find-Method.ashx)
-
-* [https://www.asp.net/ajaxlibrary/Reference.Sys-UI-DomElement-$get-Method.ashx](https://www.asp.net/ajaxlibrary/Reference.Sys-UI-DomElement-$get-Method.ashx)
+* [Sys.Application $find Method](https://docs.microsoft.com/en-us/previous-versions/bb397441(v=vs.140))
+* [Sys.Application.findComponent Method](https://docs.microsoft.com/en-us/previous-versions/bb397522(v=vs.140))
+* [Sys.Application Class](https://docs.microsoft.com/en-us/previous-versions/bb310856(v=vs.140))
+  
+    
