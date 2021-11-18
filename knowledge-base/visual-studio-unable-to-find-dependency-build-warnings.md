@@ -47,3 +47,11 @@ What you can do in case your Visual Studio is warning you about those missing de
 * Be aware that the Telerik ASP.NET AJAX controls can work and operate only inside an ASP.NET Web Forms applications/websites. If the app is of different type, this can also generate this error. 
 * You will get the same warnings if you open the Telerik.Web.UI.dll in tools like [Telerik JustDecompile](https://www.telerik.com/products/decompiler.aspx) because of the missing storage assemblies. This is an expected behavior.
 
+You can find more information in the following resources:
+* [Visual Studio 2017 Build warnings on Telerik.Web.UI.dll](https://www.telerik.com/forums/visual-studio-2017-build-warnings-on-telerik-web-ui-dll) 
+* [Could Not Load File or Assembly 'Telerik.Web.UI' After Upgrade](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/troubleshoot-upgrade#could-not-load-file-or-assembly-telerikwebui-after-upgrade)
+* [Could not load file or assembly](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-how-to-fix-license-file-related-errors)
+* [Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio]({%slug common-telerik-web-ui-pdb-not-loaded-error}) 
+* [Could not load file or assembly 'Telerik.Web.UI' or one of its dependencies](https://stackoverflow.com/questions/8754626/could-not-load-file-or-assembly-telerik-web-ui-or-one-of-its-dependencies)
+
+ 
