@@ -10,60 +10,273 @@ ticketid: 1425180
 res_type: kb
 ---
 
-## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product</td>
-			<td>RadGrid for ASP.NET AJAX</td>
-		</tr>
-	</tbody>
-</table>
-
-
 ## Description
 
 Saving and Restoring filters can be as simple as saving the Grid's FilterExpression ([Apply Default Filter on Initial Load](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/how-to/Filtering/apply-default-filter-on-initial-load)). This, however, does not restore the filter functions and values for the Filter Controls automatically, it needs to be done manually.
 
-Parsing the FilterExpressions to get the information required to restore the filter values/functions can eventually be time consuming.
-
+Parsing the FilterExpressions to get the information required to restore the filter values/functions can eventually be complicated, time consuming and error prone.
 
 ## Solution
 
-Easy and efficient way to collect and restore filters in RadGrid.
-In order to collect all the necessary information needed for restoring the filters, loop through the Grid columns, get all filter related information and save it in the a variable. This example uses session.
+Easy and efficient way to Save/Restore filters in RadGrid that works with all Filter Types:
+- FilterType="Classic"
+- FilterType="CheckList"
+- FilterType="Combined"
+- FilterType="HeaderContext"
 
-For restoring, reverse the logic used to save the filters.
+To Save the filters, you will need to collect the following information from RadGrid and save it somewhere in the *Session*, *Cookie*, *ViewState*, in a *File* or in the *Database*:
 
-#### Buttons to Save/Restore filters
+- **FilterExpression** (from RadGrid-MasterTableView)
+- **CurrentFilterValue** (for each column)
+- **CurrentFilterFunction** (for each column)
+- **AndCurrentFilterValue** (for each column)
+- **AndCurrentFilterFunction** (for each column)
+- **ListOfFilterValues** (for each column)
+
+````C#
+// Get the FilterExpression
+string filterExpression = RadGrid1.MasterTableView.FilterExpression;
+
+// Loop through the Columns collection
+foreach (GridColumn column in RadGrid1.MasterTableView.RenderColumns.Where(x => x.SupportsFiltering()))
+{
+    // For each column collect the following
+        
+    // Current Filter Filter Function/Value
+    string currentFilterValue = column.CurrentFilterValue;
+    GridKnownFunction currentFilterFunction = column.CurrentFilterFunction;
+
+    // AND Filter Function/Value
+    string andCurrentFilterValue = column.AndCurrentFilterValue;
+    GridKnownFunction andCurrentFilterFunction = column.AndCurrentFilterFunction;
+
+    // List of Filter Values -> Filter values for FilterType="Checklist" or FilterType="HeaderContext"
+    string[] listOfFilterValues = column.ListOfFilterValues;
+}
+````
+````VB
+'Get the FilterExpression
+Dim filterExpression As String = grid.MasterTableView.FilterExpression
+
+'Loop through the Collection of Filter data you have saved
+
+For Each column As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
+    'For each column collect the following
+    
+    'Current Filter Filter Function/Value
+    Dim currentFilterValue As String = column.CurrentFilterValue
+    Dim currentFilterFunction As GridKnownFunction = column.CurrentFilterFunction
+    
+    'AND Filter Function/Value
+    Dim andCurrentFilterValue As String = column.AndCurrentFilterValue
+    Dim andCurrentFilterFunction As GridKnownFunction = column.AndCurrentFilterFunction
+    
+    'List of Filter Values -> Filter values for FilterType="Checklist" or FilterType="HeaderContext"
+    Dim listOfFilterValues As String() = column.ListOfFilterValues
+Next
+````
+
+To restore the filters, apply the collected filter information back to RadGrid.
+
+### Example
+
+>caption 1) Create the following or similar Classes that will hold the information for us.
+
+````C#
+public class GridFilters
+{
+    public string GridID { get; set; }
+    public string FilterExpression { get; set; }
+    public List<ColumnFilter> ListOfColumnFilter { get; set; }
+}
+public class ColumnFilter
+{
+    public string ColumnName { get; set; }
+    public string CurrentFilterValue { get; set; }
+    public GridKnownFunction CurrentFilterFunction { get; set; }
+    public string AndCurrentFilterValue { get; set; }
+    public GridKnownFunction AndCurrentFilterFunction { get; set; }
+    public string[] ListOfFilterValues { get; set; }
+}
+````
+````VB
+Public Class GridFilters
+    Public Property GridID As String
+    Public Property FilterExpression As String
+    Public Property ListOfColumnFilter As List(Of ColumnFilter)
+End Class
+
+Public Class ColumnFilter
+    Public Property ColumnName As String
+    Public Property CurrentFilterValue As String
+    Public Property CurrentFilterFunction As GridKnownFunction
+    Public Property AndCurrentFilterValue As String
+    Public Property AndCurrentFilterFunction As GridKnownFunction
+    Public Property ListOfFilterValues As String()
+End Class
+````
+
+>caption 2) Create a function that will save the filters
+
+````C#
+private void SaveFilters(RadGrid grid)
+{
+    GridFilters storedFilters = new GridFilters();
+
+    storedFilters.GridID = grid.ID;
+    storedFilters.FilterExpression = grid.MasterTableView.FilterExpression;
+    storedFilters.ListOfColumnFilter = new List<ColumnFilter>();
+    foreach (GridColumn column in grid.MasterTableView.RenderColumns.Where(x => x.SupportsFiltering()))
+    {
+        ColumnFilter columnFilter = new ColumnFilter();
+
+        columnFilter.ColumnName = column.UniqueName;
+        columnFilter.CurrentFilterValue = column.CurrentFilterValue;
+        columnFilter.CurrentFilterFunction = column.CurrentFilterFunction;
+        columnFilter.AndCurrentFilterValue = column.AndCurrentFilterValue;
+        columnFilter.AndCurrentFilterFunction = column.AndCurrentFilterFunction;
+        columnFilter.ListOfFilterValues = column.ListOfFilterValues;
+
+        storedFilters.ListOfColumnFilter.Add(columnFilter);
+    }
+    Session[grid.ID] = storedFilters;
+}
+````
+````VB
+Private Sub SaveFilters(ByVal grid As RadGrid)
+	Dim storedFilters As GridFilters = New GridFilters()
+	storedFilters.GridID = grid.ID
+	storedFilters.FilterExpression = grid.MasterTableView.FilterExpression
+	storedFilters.ListOfColumnFilter = New List(Of ColumnFilter)()
+
+	For Each column As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
+		Dim columnFilter As ColumnFilter = New ColumnFilter()
+
+        columnFilter.ColumnName = column.UniqueName
+        columnFilter.CurrentFilterValue = column.CurrentFilterValue
+        columnFilter.CurrentFilterFunction = column.CurrentFilterFunction
+        columnFilter.AndCurrentFilterValue = column.AndCurrentFilterValue
+        columnFilter.AndCurrentFilterFunction = column.AndCurrentFilterFunction
+        columnFilter.ListOfFilterValues = column.ListOfFilterValues
+
+		storedFilters.ListOfColumnFilter.Add(columnFilter)
+	Next
+
+	Session(grid.ID) = storedFilters
+End Sub
+````
+
+>caption 3) Create a function that will restore the filters
+
+````C#
+private void RestoreFilters(RadGrid grid)
+{
+    if (Session[grid.ID] == null) return;
+
+    GridFilters storedFilters = (GridFilters)Session[grid.ID];
+
+    if (storedFilters == null) return;
+
+    grid.MasterTableView.FilterExpression = storedFilters.FilterExpression;
+
+    foreach (ColumnFilter colFilter in storedFilters.ListOfColumnFilter)
+    {
+        GridColumn col = grid.MasterTableView.GetColumn(colFilter.ColumnName);
+
+        col.CurrentFilterValue = colFilter.CurrentFilterValue;
+        col.CurrentFilterFunction = colFilter.CurrentFilterFunction;
+        col.AndCurrentFilterValue = colFilter.AndCurrentFilterValue;
+        col.AndCurrentFilterFunction = colFilter.AndCurrentFilterFunction;
+        col.ListOfFilterValues = colFilter.ListOfFilterValues;
+    }
+    //Session[grid.ID] = null; //Only clear the session if you're sure the filters are no longer needed.
+    grid.Rebind();
+}
+````
+````VB
+Private Sub RestoreFilters(ByVal grid As RadGrid)
+    If Session(grid.ID) Is Nothing Then Return
+
+    Dim storedFilters As GridFilters = TryCast(Session(grid.ID), GridFilters)
+
+    If storedFilters Is Nothing Then Return
+
+    grid.MasterTableView.FilterExpression = storedFilters.FilterExpression
+
+    For Each colFilter As ColumnFilter In storedFilters.ListOfColumnFilter
+        Dim col As GridColumn = grid.MasterTableView.GetColumn(colFilter.ColumnName)
+        col.CurrentFilterValue = colFilter.CurrentFilterValue
+        col.CurrentFilterFunction = colFilter.CurrentFilterFunction
+        col.AndCurrentFilterValue = colFilter.AndCurrentFilterValue
+        col.AndCurrentFilterFunction = colFilter.AndCurrentFilterFunction
+        col.ListOfFilterValues = colFilter.ListOfFilterValues
+    Next
+
+    'Session(grid.ID) = Nothing 'Only clear the session if you're sure the filters are no longer needed.
+    grid.Rebind()
+End Sub
+````
+
+>caption 4) Create two Buttons, one for Saving and one for Restoring the filters
 
 ````ASP.NET
 <telerik:RadButton ID="btnSaveFilters" runat="server" Text="Save Filters" OnClick="btnSaveFilters_Click"></telerik:RadButton>
 <telerik:RadButton ID="btnRestoreFilters" runat="server" Text="Restore Filters" OnClick="btnRestoreFilters_Click"></telerik:RadButton>
 ````
 
-#### FilterType="Classic"
+>caption 5) In the Click event handler, call the function for saving/restoring respectively.
+
+````C#
+// Save Filters
+protected void btnSaveFilters_Click(object sender, EventArgs e)
+{
+    // Pass the RadGrid object to the function
+    SaveFilters(RadGrid1);
+}
+// Restore Filters
+protected void btnRestoreFilters_Click(object sender, EventArgs e)
+{
+    // Pass the RadGrid object to the function
+    RestoreFilters(RadGrid1);
+}
+````
+````VB
+'Save Filters
+Protected Sub btnSaveFilters_Click(ByVal sender As Object, ByVal e As EventArgs)
+    'Pass the RadGrid object to the function
+    SaveFilters(RadGrid1)
+End Sub
+'Restore Filters
+Protected Sub btnRestoreFilters_Click(ByVal sender As Object, ByVal e As EventArgs)
+    'Pass the RadGrid object to the function
+    RestoreFilters(RadGrid1)
+End Sub
+````
+
+### TEST this Solution
+
+Create an ASPX Page and add the following Grid definitions to it
 
 ````ASP.NET
+
+<h3>Action Buttons</h3>
+<telerik:RadButton ID="btnSaveFilters" runat="server" Text="Save Filters" OnClick="btnSaveFilters_Click"></telerik:RadButton>
+<telerik:RadButton ID="btnRestoreFilters" runat="server" Text="Restore Filters" OnClick="btnRestoreFilters_Click"></telerik:RadButton>
+
+<h3>RadGrid with FilterType="Classic"</h3>
 <telerik:RadGrid ID="RadGrid_Classic_Filter" runat="server" AllowFilteringByColumn="true" OnNeedDataSource="RadGrid_NeedDataSource"
     FilterType="Classic">
 </telerik:RadGrid>
-````
 
-#### FilterType="CheckList"
-
-````ASP.NET
+<h3>RadGrid with FilterType="CheckList"</h3>
 <telerik:RadGrid ID="RadGrid_CheckList_Filter" runat="server" AllowFilteringByColumn="true"
     FilterType="CheckList"
     OnNeedDataSource="RadGrid_NeedDataSource"
     OnColumnCreated="RadGrid_ColumnCreated"
     OnFilterCheckListItemsRequested="RadGrid_FilterCheckListItemsRequested">
 </telerik:RadGrid>
-````
 
-#### FilterType="Combined"
-
-````ASP.NET
+<h3>RadGrid with FilterType="Combined"</h3>
 <telerik:RadGrid ID="RadGrid_Combined_Filter" runat="server" AllowFilteringByColumn="true"
     FilterType="Combined"
     EnableHeaderContextMenu="true"
@@ -72,11 +285,8 @@ For restoring, reverse the logic used to save the filters.
     OnColumnCreated="RadGrid_ColumnCreated"
     OnFilterCheckListItemsRequested="RadGrid_FilterCheckListItemsRequested">
 </telerik:RadGrid>
-````
 
-#### FilterType="HeaderContext"
-
-````ASP.NET
+<h3>RadGrid with FilterType="HeaderContext"</h3>
 <telerik:RadGrid ID="RadGridWithHeaderContext" runat="server" AllowFilteringByColumn="true"
     FilterType="HeaderContext"
     EnableHeaderContextMenu="true"
@@ -86,6 +296,8 @@ For restoring, reverse the logic used to save the filters.
     OnFilterCheckListItemsRequested="RadGrid_FilterCheckListItemsRequested">
 </telerik:RadGrid>
 ````
+
+In the CodeBehind, add the following code
 
 ### Code Behind Logic
 
@@ -183,7 +395,7 @@ private void RestoreFilters(RadGrid grid)
 {
     if (Session[grid.ID] == null) return;
 
-    GridFilters storedFilters = (GridFilters)Session[grid.ID];
+    GridFilters storedFilters = (Session[grid.ID] as GridFilters);
 
     if (storedFilters == null) return;
 
@@ -199,16 +411,16 @@ private void RestoreFilters(RadGrid grid)
         col.AndCurrentFilterFunction = colFilter.AndCurrentFilterFunction;
         col.ListOfFilterValues = colFilter.ListOfFilterValues;
     }
-    Session[grid.ID] = null;
+    //Session[grid.ID] = null; //Only clear the session if you're sure the filters are no longer needed.
     grid.Rebind();
 }
-class GridFilters
+public class GridFilters
 {
     public string GridID { get; set; }
     public string FilterExpression { get; set; }
     public List<ColumnFilter> ListOfColumnFilter { get; set; }
 }
-class ColumnFilter
+public class ColumnFilter
 {
     public string ColumnName { get; set; }
     public string CurrentFilterValue { get; set; }
@@ -220,67 +432,67 @@ class ColumnFilter
 ````
 ````VB
 Private Function OrdersTable() As DataTable
-	Dim dt As DataTable = New DataTable()
-	dt.Columns.Add(New DataColumn("OrderID", GetType(Integer)))
-	dt.Columns.Add(New DataColumn("OrderDate", GetType(DateTime)))
-	dt.Columns.Add(New DataColumn("Freight", GetType(Decimal)))
-	dt.Columns.Add(New DataColumn("ShipName", GetType(String)))
-	dt.Columns.Add(New DataColumn("ShipCountry", GetType(String)))
-	dt.PrimaryKey = New DataColumn() {dt.Columns("OrderID")}
+    Dim dt As DataTable = New DataTable()
+    dt.Columns.Add(New DataColumn("OrderID", GetType(Integer)))
+    dt.Columns.Add(New DataColumn("OrderDate", GetType(DateTime)))
+    dt.Columns.Add(New DataColumn("Freight", GetType(Decimal)))
+    dt.Columns.Add(New DataColumn("ShipName", GetType(String)))
+    dt.Columns.Add(New DataColumn("ShipCountry", GetType(String)))
+    dt.PrimaryKey = New DataColumn() {dt.Columns("OrderID")}
 
-	For i As Integer = 0 To 3 - 1
-		Dim index As Integer = i + 1
-		Dim row As DataRow = dt.NewRow()
-		row("OrderID") = index
-		row("OrderDate") = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0).AddHours(index)
-		row("Freight") = index * 0.1 + index * 0.01
-		row("ShipName") = "Name " & index
-		row("ShipCountry") = "Country " & index
-		dt.Rows.Add(row)
-	Next
+    For i As Integer = 0 To 3 - 1
+        Dim index As Integer = i + 1
+        Dim row As DataRow = dt.NewRow()
+        row("OrderID") = index
+        row("OrderDate") = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0).AddHours(index)
+        row("Freight") = index * 0.1 + index * 0.01
+        row("ShipName") = "Name " & index
+        row("ShipCountry") = "Country " & index
+        dt.Rows.Add(row)
+    Next
 
-	Return dt
+    Return dt
 End Function
 
 Protected Sub RadGrid_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
-	(TryCast(sender, RadGrid)).DataSource = OrdersTable()
+    CType(sender, RadGrid).DataSource = OrdersTable()
 End Sub
 
 Protected Sub RadGrid_FilterCheckListItemsRequested(ByVal sender As Object, ByVal e As GridFilterCheckListItemsRequestedEventArgs)
-	Dim DataField As String = (TryCast(e.Column, IGridDataColumn)).GetActiveDataField()
-	e.ListBox.DataSource = OrdersTable().DefaultView.ToTable(True, DataField)
-	e.ListBox.DataKeyField = DataField
-	e.ListBox.DataTextField = DataField
-	e.ListBox.DataValueField = DataField
-	e.ListBox.DataBind()
+    Dim DataField As String = TryCast(e.Column, IGridDataColumn).GetActiveDataField()
+    e.ListBox.DataSource = OrdersTable().DefaultView.ToTable(True, DataField)
+    e.ListBox.DataKeyField = DataField
+    e.ListBox.DataTextField = DataField
+    e.ListBox.DataValueField = DataField
+    e.ListBox.DataBind()
 End Sub
 
 Protected Sub RadGrid_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
-	If e.Column.SupportsFiltering() Then
-		e.Column.FilterCheckListEnableLoadOnDemand = True
-	End If
+    If e.Column.SupportsFiltering() Then
+        e.Column.FilterCheckListEnableLoadOnDemand = True
+    End If
 End Sub
 
 Protected Sub btnSaveFilters_Click(ByVal sender As Object, ByVal e As EventArgs)
-	For Each grid As RadGrid In form1.Controls.OfType(Of RadGrid)()
-		SaveFilters(grid)
-	Next
+    For Each grid As RadGrid In form1.Controls.OfType(Of RadGrid)()
+        SaveFilters(grid)
+    Next
 End Sub
 
 Protected Sub btnRestoreFilters_Click(ByVal sender As Object, ByVal e As EventArgs)
-	For Each grid As RadGrid In form1.Controls.OfType(Of RadGrid)()
-		RestoreFilters(grid)
-	Next
+    For Each grid As RadGrid In form1.Controls.OfType(Of RadGrid)()
+        RestoreFilters(grid)
+    Next
 End Sub
 
 Private Sub SaveFilters(ByVal grid As RadGrid)
-	Dim storedFilters As GridFilters = New GridFilters()
-	storedFilters.GridID = grid.ID
-	storedFilters.FilterExpression = grid.MasterTableView.FilterExpression
-	storedFilters.ListOfColumnFilter = New List(Of ColumnFilter)()
+    Dim storedFilters As GridFilters = New GridFilters()
+    storedFilters.GridID = grid.ID
+    storedFilters.FilterExpression = grid.MasterTableView.FilterExpression
+    storedFilters.ListOfColumnFilter = New List(Of ColumnFilter)()
 
-	For Each column As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
-		Dim columnFilter As ColumnFilter = New ColumnFilter()
+    For Each column As GridColumn In grid.MasterTableView.RenderColumns.Where(Function(x) x.SupportsFiltering())
+        Dim columnFilter As ColumnFilter = New ColumnFilter()
 
         columnFilter.ColumnName = column.UniqueName
         columnFilter.CurrentFilterValue = column.CurrentFilterValue
@@ -289,47 +501,49 @@ Private Sub SaveFilters(ByVal grid As RadGrid)
         columnFilter.AndCurrentFilterFunction = column.AndCurrentFilterFunction
         columnFilter.ListOfFilterValues = column.ListOfFilterValues
 
-		storedFilters.ListOfColumnFilter.Add(columnFilter)
-	Next
+        storedFilters.ListOfColumnFilter.Add(columnFilter)
+    Next
 
-	Session(grid.ID) = storedFilters
+    Session(grid.ID) = storedFilters
 End Sub
 
 Private Sub RestoreFilters(ByVal grid As RadGrid)
-	If Session(grid.ID) Is Nothing Then Return
-	Dim storedFilters As GridFilters = CType(Session(grid.ID), GridFilters)
-	If storedFilters Is Nothing Then Return
-	grid.MasterTableView.FilterExpression = storedFilters.FilterExpression
+    If Session(grid.ID) Is Nothing Then Return
 
-	For Each colFilter As ColumnFilter In storedFilters.ListOfColumnFilter
-		Dim col As GridColumn = grid.MasterTableView.GetColumn(colFilter.ColumnName)
-		col.CurrentFilterValue = colFilter.CurrentFilterValue
-		col.CurrentFilterFunction = colFilter.CurrentFilterFunction
-		col.AndCurrentFilterValue = colFilter.AndCurrentFilterValue
-		col.AndCurrentFilterFunction = colFilter.AndCurrentFilterFunction
-		col.ListOfFilterValues = colFilter.ListOfFilterValues
-	Next
+    Dim storedFilters As GridFilters = TryCast(Session(grid.ID), GridFilters)
 
-	Session(grid.ID) = Nothing
-	grid.Rebind()
+    If storedFilters Is Nothing Then Return
+
+    grid.MasterTableView.FilterExpression = storedFilters.FilterExpression
+
+    For Each colFilter As ColumnFilter In storedFilters.ListOfColumnFilter
+        Dim col As GridColumn = grid.MasterTableView.GetColumn(colFilter.ColumnName)
+        col.CurrentFilterValue = colFilter.CurrentFilterValue
+        col.CurrentFilterFunction = colFilter.CurrentFilterFunction
+        col.AndCurrentFilterValue = colFilter.AndCurrentFilterValue
+        col.AndCurrentFilterFunction = colFilter.AndCurrentFilterFunction
+        col.ListOfFilterValues = colFilter.ListOfFilterValues
+    Next
+
+    'Session(grid.ID) = Nothing 'Only clear the session if you're sure the filters are no longer needed.
+    grid.Rebind()
 End Sub
 
-Class GridFilters
-	Public Property GridID As String
-	Public Property FilterExpression As String
-	Public Property ListOfColumnFilter As List(Of ColumnFilter)
+Public Class GridFilters
+    Public Property GridID As String
+    Public Property FilterExpression As String
+    Public Property ListOfColumnFilter As List(Of ColumnFilter)
 End Class
 
-Class ColumnFilter
-	Public Property ColumnName As String
-	Public Property CurrentFilterValue As String
-	Public Property CurrentFilterFunction As GridKnownFunction
-	Public Property AndCurrentFilterValue As String
-	Public Property AndCurrentFilterFunction As GridKnownFunction
-	Public Property ListOfFilterValues As String()
+Public Class ColumnFilter
+    Public Property ColumnName As String
+    Public Property CurrentFilterValue As String
+    Public Property CurrentFilterFunction As GridKnownFunction
+    Public Property AndCurrentFilterValue As String
+    Public Property AndCurrentFilterFunction As GridKnownFunction
+    Public Property ListOfFilterValues As String()
 End Class
 ````
-
 
 ## See Also
 * [Grid - Basic Filtering](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx) - Demo
@@ -337,3 +551,4 @@ End Class
 * [CheckList Filtering](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/filtering/checklist-filtering) - Documentation
 * [Known Filter functions](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/filtering/overview#filter-functions) - Documentation
 * [Accessing Cells and Rows](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/accessing-cells-and-rows) - Documentation
+ 
