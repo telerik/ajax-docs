@@ -51,7 +51,7 @@ You can find more information in the following resources:
 * [Visual Studio 2017 Build warnings on Telerik.Web.UI.dll](https://www.telerik.com/forums/visual-studio-2017-build-warnings-on-telerik-web-ui-dll) 
 * [Could Not Load File or Assembly 'Telerik.Web.UI' After Upgrade](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/troubleshoot-upgrade#could-not-load-file-or-assembly-telerikwebui-after-upgrade)
 * [Could not load file or assembly](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-how-to-fix-license-file-related-errors)
-* [Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio]({%slug common-telerik-web-ui-pdb-not-loaded-error}) 
+* [Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio]({%slug common-telerik-web-ui-pdb-not-loaded-error%}) 
 * [Could not load file or assembly 'Telerik.Web.UI' or one of its dependencies](https://stackoverflow.com/questions/8754626/could-not-load-file-or-assembly-telerik-web-ui-or-one-of-its-dependencies)
 
  
