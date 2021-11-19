@@ -24,6 +24,8 @@ In order to facilitate that we have implemented a **3-level** templating engine 
 
 3. **GroupItem level (simply Template)** - for the item, with disregard of node or global (OrgChart.ItemTemplate) template.
 
+For more information check out the online [Templates demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/templates/defaultcs.aspx) as well as the examples below.
+
 Here is an example that demonstrates how the above mentioned templates can be applied:
 
 ````ASPNET
@@ -254,6 +256,8 @@ Private Function GetDataSource() As DataTable
 End Function
 	
 ````
+
+
 
 
 # See Also
