@@ -104,7 +104,7 @@ Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As Grid
 End Sub
 ````
 
-For more details and examples check out the dedicated article: [Hierarchical data-binding using DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event}). 
+For more details and examples check out the dedicated article: [Hierarchical data-binding using DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event%}). 
 
    
  
