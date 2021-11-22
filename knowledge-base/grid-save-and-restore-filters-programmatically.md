@@ -12,9 +12,11 @@ res_type: kb
 
 ## Description
 
-Saving and Restoring filters can be as simple as saving the Grid's FilterExpression ([Apply Default Filter on Initial Load](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/how-to/Filtering/apply-default-filter-on-initial-load)). This, however, does not restore the filter functions and values for the Filter Controls automatically, it needs to be done manually.
+Applying filters for the Grid is done by Setting the FilterExpressions as described in the [Operate with the FilterExpression Manually]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%}) and [Setting the initial filter in the code-behind]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}#setting-the-initial-filter-in-the-code-behind) articles. That approach, however, will only apply filters without setting/restoring the filter functions and values.
 
-Parsing the FilterExpressions to get the information required to restore the filter values/functions can eventually be complicated, time consuming and error prone.
+Furthermore, parsing the FilterExpressions to get the information required, or to restore the filter values/functions can be more complex and can be easily mistaken.
+
+The following Solution, will show a all-in-one functionality to Save and Restore FilterExpressions, Filter Functions and Values to RadGrid easily.
 
 ## Solution
 
@@ -546,9 +548,9 @@ End Class
 ````
 
 ## See Also
-* [Grid - Basic Filtering](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx) - Demo
-* [Grid - Excel-like Filtering](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx) - Demo
-* [CheckList Filtering](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/filtering/checklist-filtering) - Documentation
-* [Known Filter functions](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/filtering/overview#filter-functions) - Documentation
-* [Accessing Cells and Rows](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/accessing-cells-and-rows) - Documentation
+* [Basic Filtering (Demo)](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
+* [Excel-like Filtering (Demo)](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
+* [CheckList Filtering (Docs)]({%slug grid/functionality/filtering/checklist-filtering%})
+* [Known Filter functions (Docs)]({%slug grid/functionality/filtering/overview%}#filter-functions)
+* [Accessing Values and Controls (Docs)]({%slug grid/accessing-values-and-controls/overview%})
  
