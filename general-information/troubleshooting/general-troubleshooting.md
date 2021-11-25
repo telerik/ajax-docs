@@ -27,6 +27,8 @@ Here is a list with the main sections:
 
 * [Error message, "The Controls collection cannot be modified because the control contains code blocks"](#error-message-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks)
 
+* [Error message, "This configuration section cannot be used at this path. This happens when the section is locked at a parent level..."](#error-message-this-configuration-section-cannot-be-used-at-this-path)
+
 * [Problem: Telerik control stylesheet is not registered after an AJAX request (inside MS UpdatePanel) when the control is not initially visible on the page ](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
 
 * [Problem: Using the Telerik controls with RadScriptManager on your login page throws an error](#using-the-telerik-controls-with-radscriptmanager-on-your-login-page-throws-an-error)
@@ -183,7 +185,17 @@ or
 </body>   
 ````
 
+## Error Message, This configuration section cannot be used at this path
 
+**Problem**:
+
+HTTP Error 500.19
+
+Config error This configuration section cannot be used at this path. This happens when the section is locked at a parent level. Locking is either by default (overrideModeDefault="Deny"), or set explicitly by a location tag with overrideMode="Deny" or the legacy allowOverride="false".
+
+**Suggested Solution**:
+
+Check out our dedicated KB article about this error - [HTTP Error 500.19 Config error: This configuration section cannot be used at this path]({%slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path%})
 
 ## Telerik control stylesheet is not registered after an AJAX request (inside MS UpdatePanel) when the control is not initially visible on the page
 

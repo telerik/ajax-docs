@@ -70,8 +70,7 @@ A customer report indicates that if the reference errors persist after following
 If the above does not help:
 
  * remove the reference to Telerik.Web.UI.dll in Visual Studio and re-add it.
- * [clean the Temporary ASP.NET Files folder](https://stackoverflow.com/questions/16137457/asp-net-temporary-files-cleanup)
- * [clean Visual Studio cache](https://errorhandlinginskills.wordpress.com/2018/07/28/how-to-clear-visual-studio-cache/)
+ * [clean the Temporary ASP.NET Files folder and Visual Studio cache]({%slug common-cleanup-asp-vs-cache-and-temp%})
  * restart the PC
  * and test again the project
  

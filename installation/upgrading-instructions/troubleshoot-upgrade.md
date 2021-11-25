@@ -75,7 +75,7 @@ There are several ways to **fix** the issue:
 
 * **Remove the Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
 
-* According to client reports, in some cases [Cleaning the ASP.NET Temporary Files and the .NET temporary files](https://weblogs.asp.net/psheriff/clean-up-after-visual-studio) resolves the problem as well.
+* According to client reports, in some cases [Cleaning the ASP.NET Temporary Files and the Visual Studio Cache]({%slug common-cleanup-asp-vs-cache-and-temp%}) resolves the problem as well.
 
 * Add a `bindingRedirect` element to your `web.config` file and use the version you need:
 
