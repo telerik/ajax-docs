@@ -36,14 +36,6 @@ Below you can find the common places where the unneeded temp files are stored so
  ````
  %USERPROFILE%\AppData\Local\Microsoft\WebsiteCache
 ````
- 
-
- >caption Visual Studio Backup
- ````
- %USERPROFILE%\Documents\Visual Studio [2019|2022]
-````
- 
- The Visual Studio backup folder never gets cleaned out automatically, so you should periodically delete all files and folders under this directory.
 
  >caption Project Assemblies
 
