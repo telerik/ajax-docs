@@ -175,7 +175,7 @@ private void RestoreFilters(RadGrid grid)
 {
     if (Session[grid.ID] == null) return;
 
-    GridFilters storedFilters = (GridFilters)Session[grid.ID];
+    GridFilters storedFilters = Session[grid.ID] as GridFilters;
 
     if (storedFilters == null) return;
 
