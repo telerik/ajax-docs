@@ -2,7 +2,7 @@
 title: Repeated Table Headers
 page_title: Repeated Table Headers - RadClientExportManager
 description: Render table headers on each page when you export content in PDF with RadClientExportManager for ASP.NET AJAX
-slug: clientexportmanager/how-to/repeat-headers
+slug: clientexportmanager/functionality/repeat-headers
 tags: repeat,table,headers,export
 published: True
 position: 4
@@ -14,9 +14,21 @@ This help article will show how you can render recurrent table headers.
 
 ## 
 
-If you want the `<thead>` elements of an HTML `<table>` element to be repeated on each page, set the RepeatHeaders="true" setting in the PdfSettings inner-tag of RadClientExportManager:
+If you want the `<thead>` elements of an HTML `<table>` element to be repeated on each page, set the **RepeatHeaders="true"** setting in the PdfSettings inner-tag of RadClientExportManager:
 
 ````ASPNET
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+    <PdfSettings RepeatHeaders="true" PageBreakSelector=".pageBreak" MarginRight="10mm" PaperSize="A5" Landscape="true" MarginBottom="10mm" MarginTop="10mm" MarginLeft="10mm" FileName="MyFile.pdf" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement();return false;" value="export" />
+
+<script type="text/javascript">
+    function exportElement() {
+        var exp = $find("<%= RadClientExportManager1.ClientID %>");
+        exp.exportPDF($telerik.$("#grid"));
+    }
+</script>
+
 <table id="grid">
     <thead>
         <tr>
@@ -100,17 +112,6 @@ If you want the `<thead>` elements of an HTML `<table>` element to be repeated o
         </tr>
     </tbody>
 </table>
-<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-    <PdfSettings RepeatHeaders="true" PageBreakSelector=".pageBreak" MarginRight="10mm" PaperSize="A5" Landscape="true" MarginBottom="10mm" MarginTop="10mm" MarginLeft="10mm" FileName="MyFile.pdf" />
-</telerik:RadClientExportManager>
-<input type="button" onclick="exportElement()" value="export" />
-
-<script type="text/javascript">
-    function exportElement() {
-        var exp = $find("<%= RadClientExportManager1.ClientID %>");
-        exp.exportPDF($telerik.$("#grid"));
-    }
-</script>
 ````
 
 # See Also
