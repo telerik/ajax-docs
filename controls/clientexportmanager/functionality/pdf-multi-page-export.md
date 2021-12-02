@@ -12,7 +12,7 @@ position: 4
 
 
 
-## PDF Multi-page Export
+## Manual Page Breaking
 
 With **RadClientExportManager** you can split the exported content to different pages in the output PDF file. To do that use the **PageBreakSelector** property to specify the page breaks. A page will break before each element that matches the selector set as a value to the **PageBreakSelector** property.
 
@@ -78,6 +78,53 @@ This is how the exported PDF file's content would look like:
 
 ![PanelBar](images/PanelBarExported.png)
 
+
+## Automatic Page Breaking
+The ClientExportManager component supports automatic page breaking. To automatically insert page breaks, set the **PaperSize** option.
+
+````ASP.NET
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+    <PdfSettings  
+        PaperSize="A6" 
+        Landscape="true" MarginRight="10mm" MarginBottom="10mm" MarginTop="10mm" MarginLeft="10mm" FileName="MyFile.pdf" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement();return false;" value="export" />
+
+<script type="text/javascript">
+    function exportElement() {
+        var exp = $find("<%= RadClientExportManager1.ClientID %>");
+        exp.exportPDF($telerik.$("#panel-container"));
+    }
+</script>
+
+<div id="panel-container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis
+        libero, lobortis ac rutrum quis, varius a velit. Donec lacus erat,
+        cursus sed porta quis, adipiscing et ligula. Duis volutpat, sem pharetra
+        accumsan pharetra, mi ligula cursus felis, ac aliquet leo diam eget
+        risus. Integer facilisis, justo cursus venenatis vehicula, massa nisl
+        tempor sem, in ullamcorper neque mauris in orci.
+    </p>
+    <p>Ut orci ligula, varius ac consequat in, rhoncus in dolor. Mauris
+        pulvinar molestie accumsan. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia Curae; Aenean velit ligula,
+        pharetra quis aliquam sed, scelerisque sed sapien. Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Aliquam dui mi, vulputate vitae pulvinar ac, condimentum sed eros.
+    </p>
+    <p>Aliquam at nisl quis est adipiscing bibendum. Nam malesuada eros
+        facilisis arcu vulputate at aliquam nunc tempor. In commodo scelerisque
+        enim, eget sodales lorem condimentum rutrum. Phasellus sem metus,
+        ultricies at commodo in, tristique non est. Morbi vel mauris eget mauris
+        commodo elementum. Nam eget libero lacus, ut sollicitudin ante. Nam odio
+        quam, suscipit a fringilla eget, dignissim nec arcu. Donec tristique
+        arcu ut sapien elementum pellentesque.
+    </p>
+</div>
+````
+
+> Note: You will still be able to apply the **PageBreakSelector** configuration to manually specify the break points.
+
 ## Page break limitations
 
 Page breaking happens only inside text nodes. Therefore, if an element has no text content, it cannot be split across pages. For example an `<img>`, or a `<div>` which has perhaps a border or background image, but otherwise no content, will not be split. If such elements fall on a page boundary, they will be moved to the next page (along with all the following DOM nodes), and if they don't fit on a single page they will be truncated.
@@ -120,3 +167,4 @@ You can find a live example of the **RadClientExportManager's** multi-page PDF e
 
 * [Change the Exported Content before Export]({%slug clientexportmanager/how-to/change-the-exported-content-before-export%})
 
+ 
