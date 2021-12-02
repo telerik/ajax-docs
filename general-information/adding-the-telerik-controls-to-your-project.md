@@ -41,9 +41,9 @@ Before adding a Telerik control to your project, verify that the server, develop
 
 To add a Telerik control to an ASP.NET WebForm, you can use either of the following approaches:
 
-* [Drag a Telerik Control from the toolbox](#dragging-a-telerik-control-from-the-toolbox)
+* [Drag a Telerik Control from the toolbox](#dragging-a-telerik-control-from-the-toolbox).
 
-* [Manually add a Telerik Control to the form](#manually-adding-a-telerik-control-to-the-form)
+* [Manually add a Telerik Control to the form](#manually-adding-a-telerik-control-to-the-form).
 
 ### Dragging a Telerik Control from the Toolbox
 
