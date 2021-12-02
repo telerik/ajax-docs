@@ -6,7 +6,7 @@ slug: getting-started/adding-the-telerik-controls-to-your-project
 previous_url: getting-started/adding-the-telerik-controls-to-your-project
 tags: adding,the,telerik,controls,to,your,project
 published: True
-position: 2
+position: 1
 ---
 
 # Adding the Telerik Controls to Your Project
