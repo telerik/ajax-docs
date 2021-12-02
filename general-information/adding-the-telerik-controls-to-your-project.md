@@ -3,7 +3,7 @@ title: Adding the Telerik Controls to Your Project
 page_title: Adding the Telerik Controls to Your Project
 description: Learn how to add the Telerik Controls to an existing Web Forms Project.
 slug: getting-started/adding-the-telerik-controls-to-your-project
-previous_url: general-information/adding-the-telerik-controls-to-your-project
+previous_url: getting-started/adding-the-telerik-controls-to-your-project
 tags: adding,the,telerik,controls,to,your,project
 published: True
 position: 2
@@ -25,7 +25,9 @@ Before adding a Telerik control to your project, verify that the server, develop
 
 1. Add the needed HTTP handlers in `web.config` as described in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
-    >tip To configure your project by adding the needed assemblies, the required references, and `web.config` settings to the solution, you can use the [Convert to Telerik Web Application](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/convert-project) option in the [Telerik Visual Studio Extensions](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/overview). Alternatively, you can log into [Your Telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX) and obtain the `Telerik.Web.UI.dll` and other desired assemblies from the Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip file.
+1. Add the needed assemblies and the required references to the solution. You can find the `Telerik.Web.UI.dll` file and the other assemblies in the `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip` file that you can download from your [Telerik account](https://www.telerik.com/account/product-download?product=RCAJAX).
+
+    >tip You can automate the previous two steps by using the [Convert to Telerik Web Application](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/convert-project) option in the [Telerik Visual Studio Extensions](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/overview).
 
 1. Add a **ScriptManager** control at the top of the page in which you are going to add a Telerik control.
 	
@@ -33,11 +35,15 @@ Before adding a Telerik control to your project, verify that the server, develop
 
 	>tip If the page is a content page or user control, you can add the ScriptManager to the master or main page. For more details about ScriptManager, see <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft's dedicated article</a>.
 
-    Alternatively, you can use [RadScriptManager](https://docs.telerik.com/devtools/aspnet-ajax/controls/scriptmanager/overview), which extends the standard ScriptManager control and adds more features to it.
+    Alternatively, you can use [RadScriptManager](https://docs.telerik.com/devtools/aspnet-ajax/controls/scriptmanager/overview), which extends the standard ScriptManager control and adds more features.
 
 ## Adding Telerik Controls to a WebForm
 
 To add a Telerik control to an ASP.NET WebForm, you can use either of the following approaches:
+
+* [Drag a Telerik Control from the toolbox](#dragging-a-telerik-control-from-the-toolbox)
+
+* [Manually add a Telerik Control to the form](#manually-adding-a-telerik-control-to-the-form)
 
 ### Dragging a Telerik Control from the Toolbox
 
