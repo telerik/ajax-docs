@@ -33,7 +33,7 @@ This article describes common issues related to the design-time rendering of the
 >As of R1 2018, this assembly is no longer added to the GAC by the installer.
 
 
-## Error Creating Control Failed To Create Designer after upgrade to R1 2018
+## Error Failed To Create Designer after upgrade
 
 If you have been using a version prior to R1 2018 and upgrade to R1 2018 or later, you may get errors similar to the following if you use the automated upgrade wizard:
 
