@@ -24,9 +24,9 @@ This article explains how to install and use the NuGet feed and packages provide
 
 >The legacy https://nuget.telerik.com/nuget server is now deprecated. Make sure to switch to the new https://nuget.telerik.com/v3/index.json server, which is faster, lighter, and reduces the number of requests from your NuGet client.
 
-````HTML
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-````
+
 
 ## Telerik NuGet Feed in Visual Studio
 
