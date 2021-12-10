@@ -410,6 +410,9 @@ navigation:
     "controls/spell":
         title: "Spell"
         position: 1
+    "controls/splitbutton":
+        title: "SplitButton"
+        position: 1
     "controls/splitter":
         title: "Splitter"
         position: 1
@@ -2022,6 +2025,7 @@ intro_columns:
       "RibbonBar": "ribbonbar/overview"
       "SearchBox": "searchbox/overview"
       "SiteMap": "sitemap/overview"
+      "SplitButton": "splitbutton/overview"
       "Switch": "switch/overview"
       "Tab Strip": "tabstrip/overview"
       "Timeline": "timeline/overview"
