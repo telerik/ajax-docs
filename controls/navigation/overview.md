@@ -39,6 +39,8 @@ Telerik **RadNavigation** for ASP.NET AJAX is a simple yet customizable navigati
 
 * Visual Appeal – ships with rich set of skins for easy and consistent styling
 
+* Screen Boundary Detection - turn it on by setting the EnableScreenBoundaryDetection property to true.
+
 # See Also
 
  * [Overview demo](https://demos.telerik.com/aspnet-ajax/navigation/overview/defaultcs.aspx)
