@@ -97,6 +97,8 @@ End Sub
 
 ## See Also
 
+ * [RadButton as SplitButton demo](https://demos.telerik.com/aspnet-ajax/button/examples/splitbutton/defaultcs.aspx)
+ 
  * [Button Types Overview]({%slug button/button-types/overview%})
 
  * [Icons Overview]({%slug button/button-types/icons/overview%})
