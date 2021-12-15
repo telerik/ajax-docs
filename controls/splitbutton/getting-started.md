@@ -14,7 +14,7 @@ The following article shows the structure and demonstrates how you can add the R
 
 ## Structure
 
-?he **RadSplitButton** is essentially a [RadPushButton]({%slug pushbutton/overview%}), functionally expanded with a [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%}) holding the set of alternative button options.
+The **RadSplitButton** is essentially a [RadPushButton]({%slug pushbutton/overview%}), functionally expanded with a [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%}) holding the set of alternative button options.
 
 ![SplitButton Structure](images/splitbutton_structure.png)
 
@@ -49,7 +49,7 @@ To add a RadSplitButton similar to the one shown in image above, follow the step
 </telerik:RadSplitButton>
 ````
 
-As a next step, you can check out the [Functionality]({%slug splitbutton/functionality/contextmenu%}) of the RadSplitButton.
+As a next step, you can check out the [Functionality]({%slug splitbutton/functionality/context-menu%}) of the RadSplitButton.
 
 ## See Also
 
