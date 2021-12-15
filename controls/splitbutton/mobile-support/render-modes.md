@@ -39,7 +39,7 @@ There are two ways to configure the rendering mode of the controls:
 
  ````web.config
 <appSettings>
-    <add key="Telerik.Web.UI.PushButton.RenderMode" value="Lightweight" />
+    <add key="Telerik.Web.UI.SplitButton.RenderMode" value="Lightweight" />
 </appSettings>
 ````
 

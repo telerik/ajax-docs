@@ -16,7 +16,7 @@ This article explains the **fluid design capabilities RadSplitButton offers**. T
 
 >caption Figure 1: RadSplitButton occupying 100% of its parent's width.
 
-![pushbutton-fluid-design](images/splitbutton-fluid-design.gif)
+![splitbutton-fluid-design](images/splitbutton-fluid-design.gif)
 
 >caption Example 1: Shows the markup that provides fluid design of the RadSplitButton in Figure 1.
 

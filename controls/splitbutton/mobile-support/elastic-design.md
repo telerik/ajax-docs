@@ -48,10 +48,10 @@ body .RadMenu_Context {
 
 ## See Also
 
- * [Mobile Support Overview]({%slug pushbutton/mobile-support/overview%})
+ * [Mobile Support Overview]({%slug splitbutton/mobile-support/overview%})
 
- * [Render Modes]({%slug pushbutton/mobile-support/render-modes%})
+ * [Render Modes]({%slug splitbutton/mobile-support/render-modes%})
 
- * [Fluid Design]({%slug pushbutton/mobile-support/fluid-design%})
+ * [Fluid Design]({%slug splitbutton/mobile-support/fluid-design%})
 
 @[template](/_templates/common/font-size-notes.md#related-resources)
