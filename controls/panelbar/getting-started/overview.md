@@ -12,7 +12,7 @@ position: 0
 
 
 
-This tutorial will walk you through creating a **RadPanelBar** and shows how to:
+This tutorial will walk you through creating a **RadPanelBar** (Accordion) and shows how to:
 
 * Use the **RadPanelBar Item Builder** to build a multi-level panel bar.
 
