@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-This tutorial will show how to bind **RadPanelBar** to an **AccessDataSource**:
+This tutorial will show how to bind the Telerik Accordion component to an **AccessDataSource**:
 
 1. Locate the "Nwind.mdb" file that appears in the "Live Demos\App_Data" sub-folder of the folder where you installed RadControls "for ASP.NET Ajax".
 
