@@ -62,3 +62,7 @@ Protected Sub RadGrid1_SelectedIndexChanged(ByVal sender As Object, _
 End Sub
 ````
 
+## See Also
+
+* [Getting Cell Values for Selected Rows Client-side]({%slug controls/grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows%})
+
