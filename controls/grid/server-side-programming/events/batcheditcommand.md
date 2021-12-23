@@ -101,3 +101,9 @@ Protected Sub RadGrid1_BatchEditCommand(ByVal sender As Object, ByVal e As GridB
 End Sub
 ````
  
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
+
+

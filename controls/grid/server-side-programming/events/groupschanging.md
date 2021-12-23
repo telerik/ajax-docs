@@ -93,4 +93,7 @@ Protected Sub RadGrid1_GroupsChanging(ByVal sender As Object, ByVal e As GridGro
 End Sub
 ````
 
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
   

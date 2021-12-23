@@ -134,3 +134,9 @@ Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColu
 End Sub
 ````
   
+
+### See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
+

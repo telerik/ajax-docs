@@ -59,4 +59,9 @@ Protected Sub RadGrid1_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
+
   

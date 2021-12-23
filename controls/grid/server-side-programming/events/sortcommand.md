@@ -86,4 +86,8 @@ Protected Sub RadGrid1_SortCommand(ByVal sender As Object, ByVal e As GridComman
 End Sub
 ````
  
-  
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
+

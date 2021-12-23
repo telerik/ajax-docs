@@ -94,4 +94,8 @@ Protected Sub RadGrid1_PageSizeChanged(ByVal sender As Object, ByVal e As GridPa
 End Sub
 ````
 
-  
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
+

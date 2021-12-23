@@ -94,4 +94,8 @@ Protected Sub RadGrid1_ItemUpdated(ByVal sender As Object, ByVal e As GridUpdate
     Dim suppressRebind As Boolean = e.SuppressRebind
 End Sub
 ````
-  
+
+
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})

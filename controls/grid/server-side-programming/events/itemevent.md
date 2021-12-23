@@ -74,3 +74,8 @@ Protected Sub RadGrid1_ItemEvent(ByVal sender As Object, ByVal e As GridItemEven
 End Sub
 ````
   
+
+## See Also
+
+* [Telerik RadGrid Event Sequence]({%slug grid/control-lifecycle/event-sequence%})
+
