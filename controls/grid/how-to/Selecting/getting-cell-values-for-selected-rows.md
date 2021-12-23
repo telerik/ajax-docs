@@ -54,5 +54,8 @@ The following example illustrates this process. It gets the cell in two cases:
 </telerik:RadGrid><input onclick="GetSelectedNames();" type="button" value="Get selected rows contact names">
 ````
 
+## See Also
+
+* [Retrieving Primary Key Field Values for Selected Items Server-side]({%slug grid/how-to/selecting/retrieving-primary-key-field-values-for-selected-items%})
 
 
