@@ -64,5 +64,5 @@ End Sub
 
 ## See Also
 
-* [Getting Cell Values for Selected Rows Client-side]({%slug controls/grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows%})
+* [Getting Cell Values for Selected Rows Client-side]({%slug grid/how-to/selecting/getting-cell-values-for-selected-rows%})
 
