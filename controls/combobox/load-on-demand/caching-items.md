@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-As of Q1 SP2, RadComboBox introduces a new property - **EnableItemCaching**. It can be used **only** in Load-on-demand scenario.
+The **EnableItemCaching** property of RadComboBox can be used **only** in Load-on-demand scenario.
 
 When **EnableItemCaching** is set to True (by default it is False), the combobox will cache the items returned for every request. This means that if you type a given text and the combobox returns some items - they will be cached and the next time you type the same text - the **ItemsRequested** server-side event will not fire, but the items will load from the cache. This will decrease the server round-trips and improve the performance in cases where the number of items is huge.
 
