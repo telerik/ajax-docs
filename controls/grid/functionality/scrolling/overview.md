@@ -12,7 +12,9 @@ position: 0
 
 
 
-Often, when constructing a Web page that contains a grid, there are design limitations regarding the size of the grid. In such cases, you may need to enable client-side grid scrolling so that the grid can fit it in the allowed space. You can enable scrolling by setting the **ClientSettings.Scrolling.AllowScroll** property to **True** (By default its value is **False**.)
+Often, when constructing a Web page that contains a grid, there are design limitations regarding the size of the grid. In such cases, you may need to enable client-side grid scrolling so that the grid can fit it in the allowed space. You can enable scrolling by setting the **ClientSettings.Scrolling.AllowScroll** property to **True** (By default its value is **False**.) 
+
+You can test the scrolling functionality of RadGrid directly in the [Scrolling](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/scrolling/scrolling/defaultcs.aspx) live demo.
 
 >note The **ClientSettings.Scrolling.ScrollHeight** property specifies the height value beyond which scrolling is turned on. The default value is 300px.
 >
@@ -41,3 +43,11 @@ You can modify the way **RadGrid** looks during scrolling by modifying the follo
 * **GridDataDiv_Default -** for controlling the appearance of the **GridDataItem**
 
 * **GridFooterDiv_Default** - for controlling the appearance of the **GridFooterItem**
+
+
+# See Also
+
+ * [Scrolling](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/scrolling/scrolling/defaultcs.aspx) live demo.
+
+
+   
