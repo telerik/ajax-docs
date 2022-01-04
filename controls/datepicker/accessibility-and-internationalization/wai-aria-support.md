@@ -11,7 +11,14 @@ position: 6
 # WAI-ARIA Support
 
 
-The **RadDatePicker** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
+The **RadDatePicker** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**, e.g.
+
+````ASP.NET
+        <telerik:RadDatePicker RenderMode="Lightweight" Width="100%" ID="RadDatePicker1" runat="server" EnableAriaSupport="true" EnableKeyboardNavigation="true">
+            <Calendar ID="Calendar1" runat="server" EnableAriaSupport="true"></Calendar>
+            <DateInput ToolTip="Date input" runat="server" Label="Delivery date"></DateInput>
+        </telerik:RadDatePicker>
+````
 
 All ARIA attributes are **lower case**. They are shown in the table below.
 
