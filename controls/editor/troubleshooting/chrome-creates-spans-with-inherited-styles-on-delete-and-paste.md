@@ -22,13 +22,39 @@ You can work around this Chrome browser behavior by setting an empty value for t
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
     <CssFiles>
-        <telerik:EditorCssFile Value="" />
+        <telerik:EditorCssFile Value="~/empty.css" />
     </CssFiles>
     <Content>
         <p>para</p>
     </Content>
 </telerik:RadEditor>
 ````
+
+## How to apply the CssFiles workaround if I do need to use telerik:EditorCssFile?	
+
+If the CssFiles property is already set then it is up to the developer to decide what CSS and font settings to apply to the content area by having in mind the verified Chrome/Chromium bug.
+
+So if you apply a font with rem to the iframe content area 
+
+````CSS
+body {
+    font-size: 1rem
+}
+````
+
+via the CssFiles property, this will trigger the browser bug.
+
+If the font is not specified or set in pixels 
+
+````CSS
+body {
+    font-size: 12px
+}
+````
+
+the problem will not happen.
+
+You can test with a regular editable div element and you will reproduce the same problem when the body font-size is set in rem - http://dojo.telerik.com/AFoHOpOf/2.
 
 ## See Also
 
