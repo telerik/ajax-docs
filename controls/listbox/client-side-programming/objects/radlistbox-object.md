@@ -41,6 +41,7 @@ The following table lists the most important methods of the client-side **RadLis
 | **get_id** |none|string|Gets the ClientID of the RadListBox|
 | **deleteItem** |RadListBoxItem|none|Deletes the item passed as an argument|
 | **insertItems** |Array of RadListboxItems|none|Bulk inserts an array of RadListbox items to RadListBox|
+| **set_visible** |boolean|none|Sets the listview as visible or not on the client|
 
 
 >caption Example 1: Demonstrates the usage of the commitChanges method
