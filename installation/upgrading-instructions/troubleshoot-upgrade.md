@@ -54,6 +54,11 @@ You can see the file information of a trial version of the Telerik.Web.UI.dll as
 >caption Figure 2: The Properties dialog of a Dev Telerik.Web.UI.dll file in Visual Studio do not have the Trial keyword.
 ![dev-version-vs-properties](images/dev-version-vs-properties.png)
 
+You can find more tips and triks on how to solve the trial errors
+ * "*Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. Purchase the Commercial Version now to get access to all product updates and the Telerik expert support*" 
+ * "*Telerik.Web.UI 201X.X.XXX.XX trial version. Copyright Telerik © 2002-201X. To remove this message, please purchase a developer version.*" 
+
+in the dedicated [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application) blog post.
 
 ## Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework
 
@@ -174,6 +179,8 @@ If you experience any troubles with the upgrade process, do not hesitate to ask 
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
+ 
+ * [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application)
 
  * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
