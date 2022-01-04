@@ -82,6 +82,10 @@ To upgrade to a licensed version:
 
 >tip You should delete (or uninstall) the Trial version from your machine before upgrading to the licensed version. Doing so eliminates the chance of trial assemblies still making it into the project references or even production.
 
+>tip If you are getting trial errors similar to "*Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. Purchase the Commercial Version now to get access to all product updates and the Telerik expert support*" 
+or
+ "*Telerik.Web.UI 201X.X.XXX.XX trial version. Copyright Telerik © 2002-201X. To remove this message, please purchase a developer version.*" check out the dedicated [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application) blog post.
+
 ## See Also
 
  * [Troubleshoot Upgrade Issues]()
@@ -89,6 +93,8 @@ To upgrade to a licensed version:
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
+ 
+ * [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application)
 
  * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
