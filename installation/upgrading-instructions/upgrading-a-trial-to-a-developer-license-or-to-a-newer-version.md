@@ -88,7 +88,7 @@ or
 
 ## See Also
 
- * [Troubleshoot Upgrade Issues]()
+ * [Troubleshoot Upgrade Issues]({%slug troubleshoot-upgrade-issues%})
 
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 
