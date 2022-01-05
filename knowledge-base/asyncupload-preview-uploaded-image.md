@@ -35,7 +35,7 @@ As a final touch, we can assign an initial "No preview available image" for the
 ````
 
 ````ASP.NET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" AllowedFileExtensions="jpg, jpeg, png, gif" OnClientFileUploadRemoved="OnClientFileUploadRemoved" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" AllowedFileExtensions=".jpg,.jpeg,.png,.gif" OnClientFileUploadRemoved="OnClientFileUploadRemoved" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
 
 <img src="http://ctt.trains.com/sitefiles/images/no-preview-available.png" id="preview-image" alt="Preview image here"  />
 ````
