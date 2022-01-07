@@ -154,9 +154,11 @@ You can find information about binding **RadAutoCompleteBox** in this help artic
 
 **GridBoundColumn** displays a table view column bound to a field in the data source of the table view that contains it. To bind this column type to a field, set its **DataField** property to the name of a field.
 
-This column supports editing of its data (it implements the **IGridEditableColumn** interface) and provides, by default, **GridTextBoxColumnEditor** as a column editor to allow editing the text for each cell. It also exposes the **HtmlEncode** property (its default value is **False**) which specifies whether the text in the corresponding cell will be encoded automatically or not when displayed in the browser. You can find more information about the nature of HTML encoding here:
+This column supports editing of its data (it implements the **IGridEditableColumn** interface) and provides, by default, **GridTextBoxColumnEditor** as a column editor to allow editing the text for each cell. 
 
-[https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx)
+It also exposes the **HtmlEncode** property (its default value is **False**) which specifies whether the text in the corresponding cell will be encoded automatically or not when displayed in the browser. Setting the HtmlEncode property to True is recommended to avoid *Cross-Site Scripting (XSS)*, see [RadGrid Security]({%slug grid/security%}).
+
+You can find more information about the nature of HTML encoding here: [https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx)
 
 Moreover, the built-in **GridBoundColumn** has an **EmptyDataText** property, which specifies the text that will be displayed in the column cell when it has an empty/null value retrieved from the data source.
 
@@ -452,6 +454,9 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 </telerik:GridHTMLEditorColumn>
 ````
 
+It also exposes the **HtmlEncode** property (its default value is **False**) which specifies whether the text in the corresponding cell will be encoded automatically or not when displayed in the browser. Setting the HtmlEncode property to True is recommended to avoid *Cross-Site Scripting (XSS)*, see [RadGrid Security]({%slug grid/security%}).
+
+You can find more information about the nature of HTML encoding here: [https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx](https://msdn.microsoft.com/en-us/library/system.web.httpserverutility.htmlencode.aspx)
 
 
 >note See the **[GridTemplateColumn](#gridtemplatecolumn)** section below for a comparison between **GridHTMLEditorColumn** and a template column that contains a **RadEditor** control.
