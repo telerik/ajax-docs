@@ -22,6 +22,8 @@ It also offers [Keyboard support]({%slug splitbutton/accessibility-and-internati
 
  * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG/)
 
+ * [Live Demo: RadSplitButton WCAG 2.0 and Section 508 Accessibility Compliance](https://demos.telerik.com/aspnet-ajax/splitbutton/accessibility-support/defaultcs.aspx)
+  
  * [Right-to-Left Support]({%slug splitbutton/accessibility-and-internationalization/right-to-left-support%})
 
  * [Keyboard Support]({%slug splitbutton/accessibility-and-internationalization/keyboard-support%})

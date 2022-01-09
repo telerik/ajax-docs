@@ -12,7 +12,7 @@ position: 0
 
 The **SplitButton** control is a multi-function menu button that offers a default action as well as the possibility of choosing a different action by selecting from a set of alternatives.
 
-The **RadSplitButton** extends the already known **[RadPushButton]({%slug pushbutton/overview%})** with a **[RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})** holding the set of alternative button options. RadSplitButton is available as of **R1 2022**.
+The **RadSplitButton** is a lightweight version of the already known **[RadButton]({%slug button/telerik's-asp.net-button-overview%})** with enabled `SplitButton` functionality and an embedded **[RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})** holding the set of alternative button options. RadSplitButton is available as of **R1 2022**.
 
 ![SplitButton sample image](images/splitbutton-overview.png)
 
@@ -40,6 +40,6 @@ Take the first steps with **RadSplitButton** by checking out the [Getting Starte
 ## See Also
 
  * [Getting Started]({%slug splitbutton/getting-started%})
- * [RadSplitButton online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/examples/overview/defaultcs.aspx)
+ * [RadSplitButton online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/overview/defaultcs.aspx)
  * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%}) 
 

@@ -14,13 +14,13 @@ The following article shows the structure and demonstrates how you can add the R
 
 ## Structure
 
-The **RadSplitButton** is essentially a [RadPushButton]({%slug pushbutton/overview%}), functionally expanded with a [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%}) holding the set of alternative button options.
+The **RadSplitButton** is essentially inheriting the same base as a [RadPushButton]({%slug pushbutton/overview%}), functionally expanded with a [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%}) holding the set of alternative button options.
 
 ![SplitButton Structure](images/splitbutton_structure.png)
 
 To find more about the embedded components of the SplitButton, check out the dedicated documentation sections:
 
- - [RadPushButton]({%slug splitbutton/overview%}) 
+ - [RadPushButton]({%slug pushbutton/overview%}) 
 
  - [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})
 
@@ -55,5 +55,5 @@ As a next step, you can check out the [Functionality]({%slug splitbutton/functio
 
  * [Server-side Programming]({%slug splitbutton/server-side-programming/overview%})
  * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
- * [RadDateRangePicker online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/examples/overview/defaultcs.aspx)
+ * [RadSplitButton online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/overview/defaultcs.aspx)
 
