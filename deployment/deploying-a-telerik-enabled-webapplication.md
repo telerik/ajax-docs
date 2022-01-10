@@ -35,3 +35,8 @@ In case you are deploying the assemblies in the GAC, examine the [Working with A
 
 * Make sure that the .NET 4.xx+ is installed on the server and the [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements) are met.
 
+* If the deployed version of the Telerik assemblies differs from the one in the local project, make sure to delete the Telerik assemlies in the "obj" folder of your project as well as to [Clean Up ASP.NET and Visual Studio Cache and Temp Files]({%slug common-cleanup-asp-vs-cache-and-temp%}).
+
+  
+
+   
