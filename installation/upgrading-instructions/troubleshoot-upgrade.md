@@ -34,6 +34,10 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 * Clean up the Project Assemblies cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies`*. The location of this cache may vary depending on the operating system.
 
+* Delete the Telerik assemlies in the "obj" folder of your project 
+
+You can find more details at [Clean Up ASP.NET and Visual Studio Cache and Temp Files]({%slug common-cleanup-asp-vs-cache-and-temp%}).
+
 ## I Still Get the Copyright Message
 
 The Developer versions of the Telerik controls do not throw copyright messages. The following message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll:
