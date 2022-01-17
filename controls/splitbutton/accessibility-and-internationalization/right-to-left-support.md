@@ -11,7 +11,7 @@ position: 1
 # Right-to-Left Support
 
 
-The **RadSplitButton** fully supports right-to-left (RTL) language locales (**Figure 1**).In order to turn on the RTL support you should set **dir=rtl to the html or body** element or at least to its parent element (**Figure 1**). You can also use the **direction:rtl** CSS property.
+The **RadSplitButton** fully supports right-to-left (RTL) language locales (**Figure 1**). In order to turn on the RTL support you should set **dir=rtl to the html or body** element or at least to its parent element (**Figure 1**). You can also use the **direction:rtl** CSS property.
 
 >caption Figure 1: RadSplitButton in RTL mode.
 

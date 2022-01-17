@@ -19,7 +19,7 @@ There are several ways to use the **RadSplitButton** via the keyboard only:
 
 >note Note: By default tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
 
-Once the **SplitButton** is focused, you can use the `Alt` + `Down Arrow` to open and focus the button's **ContextMenu**. Then, you can use leverage the [ContextMenu's keyboard support]({%slug menu/accessibility-and-internationalization/keyboard-support%}) to navigate, select and close the dropdown.
+Once the **SplitButton** is focused, you can use the `Alt` + `Down Arrow` to open and focus the button's **ContextMenu**. Then, you can leverage the [ContextMenu's keyboard support]({%slug menu/accessibility-and-internationalization/keyboard-support%}) to navigate, select and close the dropdown.
 
 ## See Also
 
