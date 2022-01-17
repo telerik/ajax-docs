@@ -18,11 +18,6 @@ The **RadSplitButton** is essentially inheriting the same base as a [RadPushButt
 
 ![SplitButton Structure](images/splitbutton_structure.png)
 
-To find more about the embedded components of the SplitButton, check out the dedicated documentation sections:
-
- - [RadPushButton]({%slug pushbutton/overview%}) 
-
- - [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})
 
 ## Add a RadSplitButton Control
 
