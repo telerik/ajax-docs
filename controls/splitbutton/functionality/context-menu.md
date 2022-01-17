@@ -47,9 +47,132 @@ To define the set of various Button Commands for the **RadSplitButton** it is en
 </telerik:RadSplitButton>
 ````
 
-The `Value` of each **RadMenuItem** acts as a separate `CommandName` for the **SplitButton** that will be processed upon clicking the Item.
+By default the `Value` of each **RadMenuItem** acts as a separate `CommandName` for the **SplitButton** that will be processed upon clicking the Item. 
 
+>note This behavior can be changed/extended with the help of the [OnClientContextMenuItemClicked event]({%slug splitbutton/client-side-programming/events/onclientcontextmenuitemclicked%}).
 
->note The value set to `CommandArgument` property is static and remains always the one defined in the RadSplitButton declaration.
+## Persisting ContextMenu selection
 
+**RadSplitButton** exposes the `PersistChangesFromContextMenu` property that controls wether the `Text` of a clicked Context's MenuItem should become a `Text` for the **RadSplitButton** and the `Value` of the MenuItem should be set button's `CommandName`.
 
+See how the `PersistChangesFromContextMenu` affects the behavior of the control:
+
+>caption PersistChangesFromContextMenu="true" (Default)
+
+![Enabled PersistChangesFromContextMenu](images/context_menu_persist_true.gif)
+
+>caption PersistChangesFromContextMenu="false"
+
+![Disabled PersistChangesFromContextMenu](images/context_menu_persist_false.gif)
+
+Here is the sample declaration we used for the two examples above:
+
+````ASPX
+<telerik:RadSplitButton runat="server" AutoPostBack="true" ID="RadSplitButton1" Text="Paste" PersistChangesFromContextMenu="false" CommandName="Paste" OnCommand="RadSplitButton1_Command" Skin="Silk">
+    <ContextMenu>
+        <Items>
+            <telerik:RadMenuItem Text="Paste" Value="Paste" CommandName="Paste"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as Plain Text" Value="PastePlainText" CommandName="PastePlain"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as HTML" Value="PasteHtml" CommandName="PasteHtml"></telerik:RadMenuItem>
+        </Items>
+    </ContextMenu>
+</telerik:RadSplitButton>
+<br />
+<asp:Label Text="" ID="Label1" runat="server" />
+````
+
+````C#
+protected void RadSplitButton1_Command(object sender, CommandEventArgs e)
+{
+    var commandName = e.CommandName;
+    Label1.Text += String.Format("<br />Command: <b>{0}</b>;", commandName);
+}
+````
+````VB
+Protected Sub RadSplitButton1_Command(ByVal sender As Object, ByVal e As CommandEventArgs)
+    Dim commandName = e.CommandName
+    Label1.Text += String.Format("<br />Command: <b>{0}</b>;", commandName)
+End Sub
+````
+
+## DataBinding
+
+The RadContextMenu embedded in RadSplitButton is a fully functional Menu having the same properties, methods, and events like the [RadMenu]({%slug menu/overview%}). Similar to the RadMenu the Context menu in the SplitButton can be bound to various types of data sources.
+
+All the properties related to the context menu binding are accessible in the markup within the `<ContextMenu>` inner tag and in the code-behind via the `[RadSplitButton].ContextMenu` property.
+
+To get a better understanding of how to bind set of actions to the RadSplitButton's ContextMenu check out the dedicated live demos:
+
+ - [Declarative DataSources](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/declarative-binding/defaultcs.aspx)
+
+ - [Programmatic Binding](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/programmatic-binding/defaultcs.aspx)
+
+ - [Binding to Telerik ClientDataSource](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/client-side-data-binding/defaultcs.aspx)
+
+More details about binding a menu you can find in the [DataBinding section of RadMenu documentation]({%slug menu/data-binding/overview%}). 
+
+Sample of basic binding within RadSplitButton:
+
+````ASPX
+<telerik:RadSplitButton runat="server" ID="RadSplitButton1" Text="SplitButton">
+    <ContextMenu OnDataBinding="SplitButtonContextMenu_DataBinding"
+        DataTextField="Text"
+        DataValueField="Command">
+    </ContextMenu>
+</telerik:RadSplitButton>
+````
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadSplitButton1.ContextMenu.DataBind();
+    }
+}
+
+protected void SplitButtonContextMenu_DataBinding(object sender, EventArgs e)
+{
+    var contextMenu = sender as RadContextMenu;
+    contextMenu.DataSource = new object[] {
+        new {Text = "Action 1", Command = "Command 1"},
+        new {Text = "Action 2", Command = "Command 2"},
+        new {Text = "Action 3", Command = "Command 3"},
+        new {Text = "Action 4", Command = "Command 4"},
+    };
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Not IsPostBack Then
+        RadSplitButton1.ContextMenu.DataBind()
+    End If
+End Sub
+
+Protected Sub SplitButtonContextMenu_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+    Dim contextMenu = TryCast(sender, RadContextMenu)
+    contextMenu.DataSource = New Object() {New With {Key
+        .Text = "Action 1", Key
+        .Command = "Command 1"
+    }, New With {Key
+        .Text = "Action 2", Key
+        .Command = "Command 2"  
+    }, New With {Key
+        .Text = "Action 3", Key
+        .Command = "Command 3"
+    }, New With {Key
+        .Text = "Action 4", Key
+        .Command = "Command 4"
+    }}
+End Sub
+````
+
+## See Also
+
+ * [Data Binding Demo](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/programmatic-binding/defaultcs.aspx)
+
+ * [Icons]({%slug splitbutton/functionality/icons/embedded-icons%})
+
+ * [Content Template]({%slug splitbutton/functionality/contenttemplate%})
+ 
+ * [Single-Click]({%slug splitbutton/functionality/single-click%})
