@@ -23,7 +23,7 @@ Information about the Server-side APIs of the embedded ContextMenu you can find 
  - [Telerik.Web.UI.RadContextMenu](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadContextMenu)
 
 
-## RadSplitButton Server-side Events:
+## RadSplitButton Server-side Events
 
 | Property | Description |
 | ------ | ------ |
@@ -31,7 +31,7 @@ Information about the Server-side APIs of the embedded ContextMenu you can find 
 | **OnCommand** |raised on Postback triggered by the SplitButton. The e.CommandArgument is the one specified in the RadSplitButton. When button is clicked e.CommandName is the CommandName set for the SplitButton itself. When Item in the ContextMenu is clicked, the e.CommandName is the Value of the clicked item.|
 
 
-## Create a RadSplitButton in the Code-behind:
+## Create a RadSplitButton in the Code-behind
 
 ````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
