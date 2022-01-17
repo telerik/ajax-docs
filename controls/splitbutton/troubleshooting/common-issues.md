@@ -2,7 +2,7 @@
 title: Common Issues
 page_title: Common Issues - RadSplitButton
 description: Check our Web Forms article about Common Issues.
-slug: pushbutton/troubleshooting/common-issues
+slug: splitbutton/troubleshooting/common-issues
 tags: common,issues
 published: True
 position: 0

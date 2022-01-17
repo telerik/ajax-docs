@@ -2,7 +2,7 @@
 title: Distorted Appearance
 page_title: Distorted Appearance - RadSplitButton
 description: Check our Web Forms article about Distorted Appearance.
-slug: pushbutton/troubleshooting/distorted-appearance
+slug: splitbutton/troubleshooting/distorted-appearance
 tags: distorted,appearance
 published: True
 position: 1
@@ -21,10 +21,10 @@ position: 1
 <telerik:RadButton RenderMode="Classic" ID="RadButton1" runat="server" Text="RadButton" />
 ```` 
 
-@[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadPushButton")
+@[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadSplitButton")
 
 
-* [Render Modes]({%slug pushbutton/mobile-support/render-modes%})
+* [Render Modes]({%slug splitbutton/mobile-support/render-modes%})
 
 * [Client-side Click Event Handler Is Not Executed]({%slug button/troubleshooting/client-side-click-event-handler-is-not-executed%})
 

@@ -10,7 +10,7 @@ position: 1
 
 # Single Click
 
-As the RadSplitButton is essentially a [RadPushButton]({%slug pushbutton/overview%}) it also exposes the `SingleClick` property.
+RadSplitButton similar to the [RadPushButton]({%slug pushbutton/overview%}), also exposes the `SingleClick` property.
 
 The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in scenarios when the developer should prevent submitting of identical content multiple times to the server.
 
@@ -62,4 +62,4 @@ End Sub
 
  * [Content Template]({%slug splitbutton/functionality/contenttemplate%})
  
- 
+
