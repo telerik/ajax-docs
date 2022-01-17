@@ -36,6 +36,8 @@ function OnClientClicking(sender, args) {
 }
 ````
 
+>caption Cookie API
+
 ````JavaScript
 var cookieAPI = (function (undefined) {
     function clearCookie(cookieName) {
