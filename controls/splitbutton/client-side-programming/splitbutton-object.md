@@ -28,6 +28,7 @@ The following table lists the most important properties of the **RadSplitButton*
 | ------ | ------ |
 | **.get_text()** |The text displayed in the RadSplitButton control.|
 | **.set_text()** |Sets the text displayed in the RadSplitButton control.|
+| **.get_contextMenu()** |Gets the client-side control object of the embedded RadContextMenu.|
 | **.get_toolTip()** |Gets the text displayed when the mouse pointer hovers over the RadSplitButton control.|
 | **.set_toolTip()** |Sets the text displayed when the mouse pointer hovers over the RadSplitButton control.|
 | **.get_iconElement()** |Gets a reference to the HTML element that holds the icon.|
