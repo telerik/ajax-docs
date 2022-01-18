@@ -251,6 +251,21 @@ navigation:
     "controls/dock":
         title: "Dock"
         position: 1
+    "controls/dragdropmanager":
+        title: "DragDropManager"
+        position: 1
+    "controls/dragdropmanager/client-side-programming/draggable":
+        title: "Draggabe"
+        position: 1
+    "controls/dragdropmanager/client-side-programming/droptarget":
+        title: "DropTarget"
+        position: 2
+    "controls/dragdropmanager/client-side-programming/droptargetarea":
+        title: "DropTargetArea"
+        position: 3
+    "controls/dragdropmanager/client-side-programming/dragdropmanager":
+        title: "DragDropManager"
+        position: 4
     "controls/drawer":
         title: "Drawer"
         position: 1
