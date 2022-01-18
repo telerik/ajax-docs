@@ -49,7 +49,7 @@ Restricting the hint movement within the boundaries of an element.
 
 ![](images/dragdropmanager-functionality-containers.gif)
 
-Visit the the [Containers]({%slug dragdropmanager/functionality/containers %}) page for more details.
+Visit the the [Containers]({%slug dragdropmanager/functionality/container %}) page for more details.
 
 ## Distance
 
@@ -73,7 +73,7 @@ Allows Draggable elements to be dropped only on DropTargets with the same group.
 
 ![](images/dragdropmanager-functionality-group.gif)
 
-Visit the the [Group]({%slug dragdropmanager/functionality/group %}) page for more details.
+Visit the the [Group]({%slug dragdropmanager/functionality/groups %}) page for more details.
 
 ## Ignore
 
