@@ -19,7 +19,7 @@ The default appearance and behavior of the **SplitButton** Control can be replic
 ````ASPX
 <telerik:RadSplitButton runat="server" ID="RadSplitButton1" Text="option1" PersistChangesFromContextMenu="true" CommandName="DoSomething">
     <ContentTemplate>
-        <span class="rbSplitPart rbSplitPartRight" onclick="splitPartClick(this);"><span class="rbIcon p-icon rbSplitIcon p-i-arrow-down"></span></span>
+        <span class="rbSplitPart rbSplitPartRight" onclick="splitPartClick(this,event);"><span class="rbIcon p-icon rbSplitIcon p-i-arrow-down"></span></span>
         <asp:Label Text='<%# Container.Text %>' CssClass="rbText" ID="Label1" runat="server" />
     </ContentTemplate>
     <ContextMenu>
@@ -30,9 +30,9 @@ The default appearance and behavior of the **SplitButton** Control can be replic
     </ContextMenu>
 </telerik:RadSplitButton>
 <script>
-    function splitPartClick(splitPart) {
-        event.preventDefault();
-        event.stopPropagation();
+    function splitPartClick(splitPart,ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
         var splitButton = splitPart.closest('.RadSplitButton').control;
         splitButton.openContextMenu(true);
     }
@@ -73,7 +73,7 @@ Below is the SplitButton declaration for achieving this appearance:
             <img alt="cog" src="https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
             <telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
             <div>Tasks</div>
-        <div onclick="splitPartClick(this);"><span class="rbIcon p-icon rbSplitIcon p-i-arrow-down"></span></div>
+        <div onclick="splitPartClick(this,event);"><span class="rbIcon p-icon rbSplitIcon p-i-arrow-down"></span></div>
     </ContentTemplate>
     <ContextMenu>
         <Items>
@@ -83,9 +83,9 @@ Below is the SplitButton declaration for achieving this appearance:
     </ContextMenu>
 </telerik:RadSplitButton>
 <script>
-    function splitPartClick(splitPart) {
-        event.preventDefault();
-        event.stopPropagation();
+    function splitPartClick(splitPart,ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
         var splitButton = splitPart.closest('.RadSplitButton').control;
         splitButton.openContextMenu(true);
     }

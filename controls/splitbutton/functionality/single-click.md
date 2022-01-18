@@ -41,16 +41,17 @@ The following properties should be used to enable the single click functionality
 ````C#
 protected void RadSplitButton1_Click(object sender, EventArgs e)
 {
+    //imitate time consuming server request, so that the disabled button can be examined after clicking it
     System.Threading.Thread.Sleep(1000);
 }
 ````
 ````VB
 Protected Sub RadSplitButton1_Click(sender As Object, e As System.EventArgs) Handles RadSplitButton1.Click
+    'imitate time consuming server request, so that the disabled button can be examined after clicking it
     System.Threading.Thread.Sleep(1000)
 End Sub
 ````
 
->note The method **System.Threading.Thread.Sleep**	is used to imitate time consuming server request, so that the disabled button can be examined after clicking it.
 
 ## See Also
 

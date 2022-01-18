@@ -28,7 +28,7 @@ Information about the Server-side APIs of the embedded ContextMenu you can find 
 | Property | Description |
 | ------ | ------ |
 | **OnClick** |raised when the RadSplitButton or one of its ContextMenu Items is clicked. (AutoPostBack=true)|
-| **OnCommand** |raised on Postback triggered by the SplitButton. The e.CommandArgument is the one specified in the RadSplitButton. When button is clicked e.CommandName is the CommandName set for the SplitButton itself. When Item in the ContextMenu is clicked, the e.CommandName is the Value of the clicked item.|
+| **OnCommand** |raised on Postback triggered by the SplitButton. The CommandArgument and CommandName are passed as event arguments.|
 
 
 ## Create a RadSplitButton in the Code-behind
