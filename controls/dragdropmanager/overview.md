@@ -24,10 +24,10 @@ Apart from the regular dragging and dropping, the Drag and Drop controls bring s
 - [Hint]({%slug dragdropmanager/functionality/hint %}) - An element that appears as dragged, a clone of the original element or a completely custom one
 - [AutoScroll]({%slug dragdropmanager/functionality/autoscroll %}) - Enables automatic scrolling of the container once the dragged element approaches the boundaries
 - [Axis]({%slug dragdropmanager/functionality/axis %}) - Restraining the dragged element movement only on a single axis
-- [Containers]({%slug dragdropmanager/functionality/containers %}) - Restricting the hint movement within the boundaries of an element
+- [Containers]({%slug dragdropmanager/functionality/container %}) - Restricting the hint movement within the boundaries of an element
 - [Distance]({%slug dragdropmanager/functionality/distance %}) - The distance the user needs to drag and element to engage the actual dragging process
 - [Filter]({%slug dragdropmanager/functionality/filter %}) - Define multiple elements as draggable within a container
-- [Group]({%slug dragdropmanager/functionality/group %}) - Allows Draggable elements to be dropped only on DropTargets with the same group
+- [Group]({%slug dragdropmanager/functionality/groups %}) - Allows Draggable elements to be dropped only on DropTargets with the same group
 - [Ignore]({%slug dragdropmanager/functionality/ignore %}) - Ignore specific elements within a Draggable that should not trigger the Drag functionality.
 - [Client-Side Programming]({%slug dragdropmanager/client-side-programming/overview %}) - APIs and Events to interact with the Controls using JavaScript.
 
