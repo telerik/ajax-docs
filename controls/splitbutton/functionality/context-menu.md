@@ -163,13 +163,9 @@ The RadContextMenu embedded in RadSplitButton is a fully functional Menu having 
 
 All the properties related to the context menu binding are accessible in the markup within the `<ContextMenu>` inner tag and in the code-behind via the `[RadSplitButton].ContextMenu` property.
 
-To get a better understanding of how to bind set of actions to the RadSplitButton's ContextMenu check out the dedicated live demos:
+To get a better understanding of how to bind set of actions to the RadSplitButton's ContextMenu check out the dedicated live demo:
 
- - [Declarative DataSources](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/declarative-binding/defaultcs.aspx)
-
- - [Programmatic Binding](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/programmatic-binding/defaultcs.aspx)
-
- - [Binding to Telerik ClientDataSource](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/client-side-data-binding/defaultcs.aspx)
+ - [ContextMenu Binding](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/context-menu-binding/defaultcs.aspx)
 
 More details about binding a menu you can find in the [DataBinding section of RadMenu documentation]({%slug menu/data-binding/overview%}). 
 
@@ -231,7 +227,7 @@ End Sub
 
 ## See Also
 
- * [Data Binding Demo](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/programmatic-binding/defaultcs.aspx)
+ * [ContextMenu Binding](https://demos.telerik.com/aspnet-ajax/splitbutton/data-binding/context-menu-binding/defaultcs.aspx)
 
  * [Icons]({%slug splitbutton/functionality/icons/embedded-icons%})
 

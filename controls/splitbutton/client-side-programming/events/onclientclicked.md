@@ -27,7 +27,7 @@ This event should be used in scenarios where the user needs to execute custom cl
 
 ## See Also
 
- * [RadSplitButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/splitbutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [RadSplitButton - Client-side Events Demo](https://demos.telerik.com/aspnet-ajax/splitbutton/client-side-events/defaultcs.aspx)
 
  * [SplitButton Object]({%slug splitbutton/client-side-programming/splitbutton-object%})
  

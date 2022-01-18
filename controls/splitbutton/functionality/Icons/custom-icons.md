@@ -61,7 +61,7 @@ You can use custom font icons in **RadSplitButton** as well. To do that, follow 
 
 		<telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button With Custom Font Icon">
 			<Icon CssClass="myCustomFontIconClass" />
-		</telerik:RadPushButton>
+		</telerik:RadSplitButton>
 
 		<telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button with Icon">
 			<Icon CssClass="myCustomFontIconClass" />

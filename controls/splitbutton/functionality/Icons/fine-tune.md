@@ -31,7 +31,7 @@ You can change the position of font or image icons to match your concrete requir
 
 The embedded **RadSplitButton** icons are font icons. Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (see **Figure 2** and **Example 2**).
 
->caption Figure 2: Customize the font size and color of the embedded icons of RadPushButton with CSS.
+>caption Figure 2: Customize the font size and color of the embedded icons of RadSplitButton with CSS.
 
 ![Button Icon Customized](images/fine-tune.png)
 
