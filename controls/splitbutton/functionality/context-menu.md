@@ -71,9 +71,9 @@ Here is the sample declaration we used for the two examples above:
 <telerik:RadSplitButton runat="server" AutoPostBack="true" ID="RadSplitButton1" Text="Paste" PersistChangesFromContextMenu="false" CommandName="Paste" OnCommand="RadSplitButton1_Command" Skin="Silk">
     <ContextMenu>
         <Items>
-            <telerik:RadMenuItem Text="Paste" Value="Paste" CommandName="Paste"></telerik:RadMenuItem>
-            <telerik:RadMenuItem Text="Paste as Plain Text" Value="PastePlainText" CommandName="PastePlain"></telerik:RadMenuItem>
-            <telerik:RadMenuItem Text="Paste as HTML" Value="PasteHtml" CommandName="PasteHtml"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste" Value="Paste"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as Plain Text" Value="PastePlainText"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as HTML" Value="PasteHtml"></telerik:RadMenuItem>
         </Items>
     </ContextMenu>
 </telerik:RadSplitButton>
@@ -91,9 +91,71 @@ protected void RadSplitButton1_Command(object sender, CommandEventArgs e)
 ````VB
 Protected Sub RadSplitButton1_Command(ByVal sender As Object, ByVal e As CommandEventArgs)
     Dim commandName = e.CommandName
-    Label1.Text += String.Format("<br />Command: <b>{0}</b>;", commandName)
+    Label1.Text &= String.Format("<br />Command: <b>{0}</b>;", commandName)
 End Sub
 ````
+
+## Using And Persisting Custom Item Attributes
+
+The embedded ContextMenu in RadSplitButton can handle custom attributes as described in the [RadMenu Custom Attributes]({%slug menu/radmenu-items/custom-attributes%}) article.
+
+Within the [OnClientContextMenuItemClicked event]({%slug splitbutton/client-side-programming/events/onclientcontextmenuitemclicked%}) we can pass custom attributes as different CommandName and CommandArgument upon clicking each MenuItem.
+
+For instance:
+
+````ASPX
+<telerik:RadSplitButton runat="server" ID="RadSplitButton1" Text="Paste"
+    CommandName="Paste" CommandArgument="Default Argument"
+    OnClientContextMenuItemClicked="OnClientContextMenuItemClicked"
+    OnCommand="RadSplitButton1_Command" Skin="Silk">
+    <ContextMenu>
+        <Items>
+            <telerik:RadMenuItem Text="Paste" CommandName="Paste" CommandArgument="Custom Argument 1"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as Plain Text" CommandName="PastePlainText" CommandArgument="Custom Argument 2"></telerik:RadMenuItem>
+            <telerik:RadMenuItem Text="Paste as HTML" CommandName="PasteHtml" CommandArgument="Custom Argument 3"></telerik:RadMenuItem>
+        </Items>
+    </ContextMenu>
+</telerik:RadSplitButton>
+<br />
+<asp:Label Text="" ID="Label1" runat="server" />
+````
+
+````JavaScript
+function OnClientContextMenuItemClicked(sender, args) {
+    var item = args.get_item();
+    //get the custom attributes (CommandName and CommandArgument) set to the items
+    var itemCommandName = item.get_attributes().getAttribute("CommandName");
+    var itemCommandArg = item.get_attributes().getAttribute("CommandArgument");
+    args.set_newCommandName(itemCommandName);
+    args.set_newCommandArgument(itemCommandArg);
+}
+````
+
+````C#
+protected void RadSplitButton1_Command(object sender, CommandEventArgs e)
+{
+    var commandName = e.CommandName;
+    var commandArgument = e.CommandArgument;
+    Label1.Text += String.Format("<br />CommandName: <b>{0}</b>;<br />CommandArgument: <b>{1}</b>", commandName, commandArgument);
+}
+````
+````VB
+Protected Sub RadSplitButton1_Command(ByVal sender As Object, ByVal e As CommandEventArgs)
+    Dim commandName = e.CommandName
+    Dim commandArgument = e.CommandArgument
+    Label1.Text &= String.Format("<br />CommandName: <b>{0}</b>;<br />CommandArgument: <b>{1}</b>", commandName, commandArgument)
+End Sub
+````
+
+The result behavior will be different depending on the value set to the `PersistChangesFromContextMenu` property of the RadSplitButton:
+
+>caption PersistChangesFromContextMenu="true" (Default)
+
+![Enabled PersistChangesFromContextMenu custom attributes](images/context_menu_custom_attr_persist_true.gif)
+
+>caption PersistChangesFromContextMenu="false"
+
+![Disabled PersistChangesFromContextMenu custom attributes](images/context_menu_custom_attr_persist_false.gif)
 
 ## DataBinding
 
