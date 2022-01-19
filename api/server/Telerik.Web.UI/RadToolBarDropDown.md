@@ -204,10 +204,6 @@ Gets the RadToolBar instance which contains the item.
 Use this property to obtain an instance to the
                 RadToolBar object containing the item.
 
-###  Value `String`
-
-Gets or sets the value.
-
 ## Methods
 
 ###  IsChildControl

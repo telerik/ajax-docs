@@ -530,6 +530,50 @@ The ignore case.
 
 `Telerik.Web.UI.TControlItem` 
 
+###  FindDropDownByValue
+
+Searches the RadToolBar control for the first
+                RadToolBarDropDown which
+            	Value
+            	property is equal to the specified value.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadToolBarDropDown` A RadToolBarDropDown which
+            	Value
+            	property is equal to the specified value. If an item is not found, null
+            	(Nothing in Visual Basic) is returned.
+
+###  FindDropDownByValue
+
+Searches the RadToolBar control for the first
+                RadToolBarDropDown which
+            	Value
+            	property is equal to the specified value.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### ignoreCase `System.Boolean`
+
+A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+
+#### Returns
+
+`Telerik.Web.UI.RadToolBarDropDown` A RadToolBarButton which
+            	Value
+            	property is equal to the specified value. If an item is not found, null
+            	(Nothing in Visual Basic) is returned.
+
 ###  FindItem
 
 Returns  the first RadToolBarItem 

@@ -54,6 +54,11 @@ Gets or sets the interval between the minor divisions.
 
 Defines a collection of gauge ranges.
 
+###  RangeSize `Nullable`1`
+
+Gets or sets the width of the range indicators of the RadialGauge.
+            If the value is null, it will default to size equal to half of the MinorTick size.
+
 ###  Reverse `Boolean`
 
 Gets or sets a bool value indicating whether the direction of the scale values will be reversed.

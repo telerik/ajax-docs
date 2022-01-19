@@ -120,6 +120,14 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Returns true if ripple effect should be added
 
+###  EnableScreenBoundaryDetection `Boolean`
+
+Gets or sets a value indicating whether the screen boundary detection will be applied when menu items are expanded.
+
+#### Remarks
+By default RadNavigation will check if there is enough space to open a menu item. If there isn't the expand direction of the 
+            	item will be inverted - Left to Right, Bottom to Top and vice versa.
+
 ###  ExpandAnimation `AnimationSettings`
 
 Gets the settings for the animation played when the dropdown opens.
