@@ -1946,6 +1946,7 @@ intro_columns:
   -
     title: "Interactivity & UX"
     items:
+      "DragDropManager": "dragdropmanager/overview"
       "Progress Area": "progressarea/overview"
       "ProgressBar": "progressbar/overview"
       "Persistence Framework": "persistenceframework/overview"
