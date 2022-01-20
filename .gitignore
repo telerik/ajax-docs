@@ -21,6 +21,7 @@
 /styles/
 _site
 _tempconfig.yml
+_excludefile.yml
 bs-config.js
 build-docs.sh
 copy_content.sh
