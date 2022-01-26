@@ -36,7 +36,7 @@ Fortunately, there is a workaround for this:
 
 
 ````JavaScript
-		<script type="text/javascript">
+<script type="text/javascript">
     Telerik.Web.UI.Editor.CommandList["CustomPrint"] = function (commandName, editor, args) {
         var printIframe = document.createElement("IFRAME");
         document.body.appendChild(printIframe);
@@ -75,7 +75,6 @@ Fortunately, there is a workaround for this:
 1. To add an icon to the CustomPrint button add the following style in your page:
 
 ````CSS
-
         <style>
             .reCustomPrint {
                 background-image: url(https://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/Custom.gif) !important;
@@ -94,7 +93,7 @@ Fortunately, there is a workaround for this:
 You can find a good resource on how to print CSS styles on the Internet. You can see the following articles which we have chosen for you:
 
 * [Introduction to media types](https://www.w3.org/TR/REC-CSS2/media.html)
-
 * [Print Different](http://www.meyerweb.com/eric/articles/webrev/200001.html)
+* [Print Content when using Div ContentAreaMode]({%slug editor/how-to/print-content-div-contentareamode %})
    
    
