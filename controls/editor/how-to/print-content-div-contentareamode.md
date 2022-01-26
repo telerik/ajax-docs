@@ -18,14 +18,13 @@ You can find here a solution that shows how to create a custom Print tool that w
 <telerik:RadEditor RenderMode="Lightweight" ID="RE1" runat="server" ContentAreaMode="Div">
     <Content>
         <h1>Title</h1>
-         <p>Some content.</p>
+        <p>Some content.</p>
     </Content>
     <Tools>
         <telerik:EditorToolGroup>
             <telerik:EditorTool Name="Print" />
         </telerik:EditorToolGroup>
     </Tools>
-
 </telerik:RadEditor>
 
 <script>
@@ -36,13 +35,18 @@ You can find here a solution that shows how to create a custom Print tool that w
         WinPrint.document.close();
         WinPrint.focus();
         WinPrint.print();
-        WinPrint.close();
+        setTimeout(function () {
+            WinPrint.close();
+        }, 1000);
+
     };
 </script>
-
 ````
 
 ## See Also
 
 * [Add Your Own Buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%})
 * [ContentAreaMode Property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%})
+* [Print Content with Styles]({$slug editor/how-to/print-content-with-styles%})
+ 
+  
