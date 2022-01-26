@@ -47,6 +47,6 @@ You can find here a solution that shows how to create a custom Print tool that w
 
 * [Add Your Own Buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%})
 * [ContentAreaMode Property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%})
-* [Print Content with Styles]({$slug editor/how-to/print-content-with-styles%})
+* [Print Content with Styles]({%slug editor/how-to/print-content-with-styles%})
  
   
