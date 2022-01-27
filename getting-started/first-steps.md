@@ -1,6 +1,6 @@
 ---
 title: First Steps
-page_title: First Steps with UI for ASP.NET AJAX
+page_title: First Steps 
 description: "A step-by-step tutorial teaching how to use the Telerik UI controls for ASP.NET AJAX in Web Forms applications."
 slug: getting-started/first-steps
 tags: get,started,first,steps

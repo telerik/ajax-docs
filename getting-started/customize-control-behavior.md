@@ -19,7 +19,7 @@ The Telerik controls have built-in features for the most common use cases, while
 If you do not immediately find the feature you need, take a look at the control's properties and events, and something will likely stand out as relevant. Search for it online, and you will find results from numerous Telerik resources:
 
 * [Demos](https://demos.telerik.com/aspnet-ajax/)
-* [Documentation]({%slug introduction/introduction%})
+* [Documentation]({%slug introduction/introduction %})
 * [Forums](https://www.telerik.com/forums/aspnet-ajax)
 * [Code Library section](https://www.telerik.com/support/code-library/aspnet-ajax)
 * [Knowledge Base articles](https://www.telerik.com/support/kb/aspnet-ajax)

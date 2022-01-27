@@ -1,34 +1,29 @@
 ---
 title: Introduction
-page_title: The Most Complete ASP.NET AJAX Documentation
-description: Telerik UI for ASP.NET AJAX components suite includes more than 120 versatile & optimized ASP.NET Web Forms components that help you build high-quality apps.
+page_title: Introduction
+description: "The Telerik UI for ASP.NET AJAX components suite includes more than 120 versatile & optimized ASP.NET Web Forms components that help you build high-quality apps."
 slug: introduction/introduction
 tags: introduction
 published: True
 position: 0
 ---
 
-# Welcome to UI for ASP.NET AJAX
+# Welcome to Telerik UI for ASP.NET AJAX
 
-The Telerik® UI for ASP.NET AJAX controls suite includes more than 120 versatile and performance-optimized ASP.NET Web Forms components that help you build high-quality, professional line-of-business projects. This controls suite was formerly known as RadControls for ASP.NET AJAX, where RAD stands for Rapid Application Development.
+Thank you for choosing Progress® Telerik® UI for ASP.NET AJAX!   
+
+The UI for ASP.NET AJAX suite includes more than 120 versatile and performance-optimized ASP.NET Web Forms components that help you build high-quality, professional line-of-business projects. The suite was formerly known as "RadControls for ASP.NET AJAX", where RAD stands for Rapid Application Development.
 
 From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik® UI for ASP.NET AJAX provides all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
 
-To learn more about the benefits of using Telerik® UI for ASP.NET AJAX suite, see the [product overview page](https://www.telerik.com/products/aspnet-ajax.aspx).
+Telerik UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5, 4.6, 4.7, and 4.8. The same assemblies work both for 32-bit and 64-bit machines.
 
-## Getting Started
+## List of Components
 
-If you are new to UI for ASP.NET AJAX:
-
-* Don't miss the **[First Steps]({%slug getting-started/first-steps%})** article that demonstrates how to use the controls.
-* Check out the available [Learning Resources](#learning-resources).
-
-## Available UI Controls
-
-Use the following list to quickly access the documents for the desired controls:
+The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 {% include intro-page-table.html %}
-<!-- 
+<!--
 * [AjaxLoadingPanel]({%slug ajaxloadingpanel/overview%})
 
 * [AjaxManager]({%slug ajaxmanager/overview%})
@@ -219,51 +214,29 @@ Use the following list to quickly access the documents for the desired controls:
 
 * [Zip Library]({%slug radziplibrary-overview%}) -->
 
+## Support Options
 
-Telerik® UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5, 4.6, 4.7 and 4.8. The same assemblies work for both 32-bit and 64-bit machines.
+For any issues you might come across while working with Telerik UI for ASP.NET AJAX, use any of the following available support channels. Note that sharing quality feedback and ideas will not only benefit the community and improve the products, but may also win you [Telerik points](https://www.telerik.com/community/telerik-points).
 
-
-## Trial Version and Commercial License
-
-This UI for ASP.NET AJAX library is a commercial UI library. You are welcome to explore its full functionality and get technical support from the team when you register for a <a href="https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax">free 30-day trial</a>. To use it commercially, you need to <a href="https://www.telerik.com/purchase/individual/aspnet-ajax.aspx" target="_blank">purchase a license</a>. Feel free to review the Telerik UI for ASP.NET AJAX <a href="https://www.telerik.com/purchase/license-agreement/aspnet-ajax" target="_blank">License Agreement</a> to get acquainted with the full terms of use.
-
-## Support and Feedback Options
-
-Your feedback is important and it helps us improve our resources and services. Here are the ways to ask your questions or submit feedback:
-
-* *Online Ticketing System* - License holders and active trialists can take advantage of our outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [UI for ASP.NET AJAX dedicated support](https://www.telerik.com/account/support-tickets) system.
-* *[UI for ASP.NET AJAX forums](https://www.telerik.com/forums/aspnet-ajax)* - Get the community's support or share information with it.
-* *[UI for ASP.NET AJAX Feedback Portal](https://feedback.telerik.com/aspnet-ajax)* - Bug reports or feature requests.
-* *[UI for ASP.NET AJAX roadmap](https://www.telerik.com/support/whats-new/aspnet-ajax/roadmap)* provides information on the features in discussion and also the planned ones for release.
-* *"Was this article helpful? (Yes/No)" section at the end of each article* - Documentation recommendations or problems in the given article.
-* *Pull request in our [GitHub repository](https://github.com/telerik/ajax-docs)* - Suggest an improvement to an article directly. For easier access to the GitHub page for the article, click the *Improve this article* button on the right-side navigation.
-* You may still need a tailor-made solution for your project. In such cases, go straight to [Progress Services](https://www.progress.com/services).
-
-Sharing quality feedback and ideas will not only benefit the community and improve our products, but you may also win [Telerik points](https://www.telerik.com/community/telerik-points).
+* Telerik UI for ASP.NET AJAX license holders and anyone in an active trial can take advantage of the Telerik UI for ASP.NET AJAX outstanding customer support delivered by the actual developers who built the library. To submit a support ticket, use the [Telerik UI for ASP.NET AJAX support system](https://www.telerik.com/account/support-tickets).
+* Telerik UI for ASP.NET AJAX forum is part of the free support you can get from the community and from the Telerik UI for ASP.NET AJAX team on all kinds of general issues. Note that communicating with the team through the forum might take a bit longer to reach the documentation team. However, leaving your feedback in the forum guarantees your suggestion a support number and the team will follow it up.
+* [Telerik UI for ASP.NET AJAX forums](https://www.telerik.com/forums/aspnet-ajax) are part of the free support you can get from the community and from the Kendo UI team on all kinds of general issues.
+* [Telerik UI for ASP.NET AJAX feedback portal](https://feedback.telerik.com/aspnet-ajax) and [Telerik UI for ASP.NET AJAX roadmap](https://www.telerik.com/support/whats-new/aspnet-ajax/roadmap) provide information on the features in discussion and also the planned ones for release.
+* For any features that have already been released, visit the [Telerik UI for ASP.NET AJAX Release History](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history) page.
+* This official Telerik UI for ASP.NET AJAX documentation is public and available for all users. If you want to share your feedback on a specific article, fill in the **Was this article helpful?** form and tell us more about whether the content was useful for you to successfully achieve what you wanted.
+* You can also directly contribute to the documentation&mdash;click the **Improve this article** button on the right-hand side to access the GitHub repository with the source documentation files and, then, create a Pull Request with the suggested changes.
+* Need something unique that is tailor-made for your project? Progress offers its [Progress Services group](https://www.progress.com/services) that can work with you to create any customized solution that you might need.
 
 ## Learning Resources
 
-* [Telerik Web UI for ASP.NET AJAX Classroom](https://learn.telerik.com/) - get quickly onboarded and successful with your Telerik UI for ASP.NET AJAX product with the Virtual Classroom free technical training, available to all active customers
-
-* [Online Demos](https://demos.telerik.com/aspnet-ajax) - also available as a project you can inspect and run locally. You can find them in the `demos` folder of your [installation]({%slug installation/which-file-do-i-need-to-install%}).
-
-* [Knowledge Base](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base) - contains answers to some common questions, problems, and errors. A free-text search is also available.
-
-* [Support and Learning Resources](https://www.telerik.com/support/aspnet-ajax) - a hub with links to all resources such as blogs, videos, repos, docs, and so on.
-
+* [Telerik UI for ASP.NET AJAX Virtual Classroom (Training Courses for Registered Users)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
+* [Online Demos for Telerik UI for ASP.NET AJAX ](https://demos.telerik.com/aspnet-ajax)
+* [Telerik Blog on Telerik UI for ASP.NET AJAX](https://www.telerik.com/blogs/tag/asp-net-ajax)
+* [Telerik UI for ASP.NET AJAX Webinars](https://www.telerik.com/webinars/aspnet-ajax)
+* [Knowledge Base Documentation Hub](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base)
 
 ## Next Steps
 
-* [First Steps with UI for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps)
-
-* [Installing Telerik Controls](https://docs.telerik.com/devtools/aspnet-ajax/installation/which-file-do-i-need-to-install)
-
-* [Adding the Telerik Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/adding-the-telerik-controls-to-your-project)
-
-* Generate a new Telerik Project (guided wizard) - for  [Visual Studio](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard).
-
-* [Convert an existing project to a Telerik-enabled project](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/convert-project)
-
-* [Upgrade a Trial to a Developer License or to a Newer Version](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version)
-
-
+* [Getting Started with Telerik UI for ASP.NET AJAX]({% slug getting-started/first-steps %})
+* Trial and Commercial Telerik UI for ASP.NET AJAX License and License Agreement
+* Usage Specifics for Trial and Commercial Users
