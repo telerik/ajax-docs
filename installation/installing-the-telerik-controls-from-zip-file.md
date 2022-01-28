@@ -11,7 +11,7 @@ position: 3
 # Installing the Telerik Controls from ZIP File
 
 
->caution  **Prerequisite** 
+>caution  **Prerequisite**
 >In order to have the Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET AJAX installed on your development/production machine. ASP.NET AJAX is available in the .NET 4.x+ installations.
 
 
@@ -26,9 +26,9 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 1. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
 
 1. Download the **Manual installation** (**Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip**) file.The **ZIP** file contains the following folders:
-	
-	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.	
-	
+
+	* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) allowing you to import and export content between different formats.
+
 	* **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
 	* **EditorDialogs** - contains the **Editor** dialog files.
@@ -38,7 +38,7 @@ To install the Telerik® UI for ASP.NET AJAX suite on your machine from the **ZI
 	* **Live Demos** - contains the product Quick-Start Framework and examples and the VisualStudio solution file opening them. You can start the samples directly from this folder, using the **StartExamples.exe** file.
 
 	* **Scripts** - all controls part of the suite have their scripts embedded as web resources. However if you need to modify a script or use it as an external, you can find it in this folder.
-	
+
 	* **Skins** - all controls part of the suite have their skins embedded as web resources. However if you need to modify a skin or use it as an external one, you can find it in this folder.
 
 	* **TypeScriptDefinitions** - contains the TypeScript definitions for the Telerik® UI for ASP.NET AJAX client-side objects.
@@ -70,5 +70,4 @@ To add any control to the VS.NET toolbox, review the [Adding Telerik® UI for AS
 
 ## See Also
 
- * [Trial License Limitations]({%slug introduction/licensing/trial-license-limitations%})
- 
+ * [Trial License Limitations]({%slug introduction/licensing/license-agreement %})

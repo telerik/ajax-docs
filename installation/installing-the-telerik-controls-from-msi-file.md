@@ -56,4 +56,4 @@ Please, check the [Installation Troubleshooting]({%slug introduction/radcontrols
 
 ## See Also
 
- * [Trial License Limitations]({%slug introduction/licensing/trial-license-limitations%})
+ * [Trial License Limitations]({%slug introduction/licensing/license-agreement %})
