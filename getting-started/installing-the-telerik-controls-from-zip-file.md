@@ -1,5 +1,5 @@
 ---
-title: Installing the Telerik Controls from ZIP File
+title: Installing with ZIP
 page_title: Installing the Telerik Controls from ZIP File
 description: Check our Web Forms article about Installing the Telerik Controls from ZIP File.
 slug: introduction/installation/installing-the-telerik-controls-from-zip-file
@@ -70,4 +70,8 @@ To add any control to the VS.NET toolbox, review the [Adding Telerik® UI for AS
 
 ## See Also
 
+<<<<<<< HEAD:installation/installing-the-telerik-controls-from-zip-file.md
  * [Trial License Limitations]({%slug introduction/licensing/license-agreement %})
+=======
+ * [Trial License Limitations]({%slug introduction/licensing/trial-license-limitations%})
+>>>>>>> 0f4fc3273 (docs: move installation topics to gs, create gs with msi guide):getting-started/installing-the-telerik-controls-from-zip-file.md

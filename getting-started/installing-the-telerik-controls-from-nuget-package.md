@@ -1,5 +1,5 @@
 ---
-title: Installing the Telerik Controls from a NuGet Package
+title: Installing with NuGet
 page_title: Installing the Telerik Controls from a NuGet Package
 description: Check our Web Forms article about Installing the Telerik Controls from a NuGet Package.
 slug: introduction/installation/installing-the-telerik-controls-from-a-nuget-package
@@ -98,7 +98,7 @@ The following table lists the packages available in the Telerik NuGet Feed and t
 | Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg | Telerik.Windows.Documents.Core.dll |
 | Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg | Telerik.Documents.SpreadsheetStreaming.dll |
 
->tip Besides the packages listed above, Telerik provides a number of additional libraries that are available when you install UI for ASP.NET AJAX [from an MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [from a ZIP file]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}). For example: 
+>tip Besides the packages listed above, Telerik provides a number of additional libraries that are available when you install UI for ASP.NET AJAX [from an MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [from a ZIP file]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}). For example:
 >
 >* Newtonsoft.Json.dll
 >* Telerik.Web.Spreadsheet.dll
@@ -132,7 +132,7 @@ There are a couple of common ways people implement CI/CD automated builds:
 
 * Creating a local folder (for example, on a shared network drive or other suitable location accessible by your builds and team) that holds the `.nupkg` files we provide (you can download them from your telerik.com account).
 
-You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC. They can by such colleagues (like other developers, QAs, designers, front-end devs, DBAs and so on) for building and running a solution, provided they do not use the Telerik components to create functionality. Of course, you must ensure that such credentials or package sources are not available to the general public (for example, in public repositories). 
+You must protect your credentials and ensure they are used only by you and not by other developers, according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local NuGet.config file and use it on the build PC. They can by such colleagues (like other developers, QAs, designers, front-end devs, DBAs and so on) for building and running a solution, provided they do not use the Telerik components to create functionality. Of course, you must ensure that such credentials or package sources are not available to the general public (for example, in public repositories).
 
 ## Troubleshooting
 
@@ -163,7 +163,7 @@ Due to this update, you may get the error below when using Visual Studio 2012 th
 ### Error: [Telerik NuGet] The V2 feed at 'https://nuget.telerik.com/nuget/Search()?$filter=IsLatestVersion&searchTerm='telerik'&targetFramework='net45'&includePrerelease=false&$skip=0&$top=26&semVerLevel=2.0.0' returned an unexpected status code '401 Logon failed.'.
 
 See the following forum thread on the matter: [nuget can't connect to Telerik NuGet Server](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
- 
+
 
 ## Additional Resources
 
