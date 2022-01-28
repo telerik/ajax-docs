@@ -13,7 +13,7 @@ position: 4
 
 The **HOTFIX** archive is a bare-bones upgrade option for our controls - it contains only those files you might need to replace in your project to upgrade to the new version of Telerik controls. If you are already using Telerik products and just want to update, download the latest **HOTFIX** and apply it. The **HOTFIX** archive contains the following files:
 
-* **AdditionalLibraries** - contains the [Telerik document processing libraries](https://docs.telerik.com/devtools/aspnet-ajax/installation/included-assemblies) allowing you to import and export content between different formats.	
+* **AdditionalLibraries** - contains the [Telerik document processing libraries](https://docs.telerik.com/devtools/aspnet-ajax/installation/included-assemblies) allowing you to import and export content between different formats.
 
 * **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
@@ -39,7 +39,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 1. On the loaded page choose from your purchased products Telerik® UI for ASP.NET AJAX, and click on it.
 
-1. Click on the black **Latest internal build** button in order to download the latest hotfix directly, or on the **Internal Builds** option in order to chose from the available for you hotfix versions. 
+1. Click on the black **Latest internal build** button in order to download the latest hotfix directly, or on the **Internal Builds** option in order to chose from the available for you hotfix versions.
 
 1. Once the download completes, unzip the files at a convenient location.
 
@@ -75,4 +75,4 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
  * [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
 
- * [Trial License Limitations]({%slug introduction/licensing/trial-license-limitations%})
+ * [Trial License Limitations]({%slug introduction/licensing/license-agreement%})
