@@ -13,7 +13,7 @@ position: 4
 
 The **HOTFIX** archive is a bare-bones upgrade option for our controls - it contains only those files you might need to replace in your project to upgrade to the new version of Telerik controls. If you are already using Telerik products and just want to update, download the latest **HOTFIX** and apply it. The **HOTFIX** archive contains the following files:
 
-* **AdditionalLibraries** - contains the [Telerik document processing libraries](https://docs.telerik.com/devtools/aspnet-ajax/installation/included-assemblies) allowing you to import and export content between different formats.
+* **AdditionalLibraries** - contains the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}) allowing you to import and export content between different formats.
 
 * **BinXX** - contains the Telerik  controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
