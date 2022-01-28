@@ -46,6 +46,41 @@ This is a cross-platform library that lets you load, create and update Zip archi
 
 You can read more about it in its documentation: [Getting started with RadZipLibrary](https://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
 
+## Telerik NuGet Packages
+
+The Telerik NuGet Feed allows you to install not only the UI for ASP.NET AJAX packages. You can also install packages that contain:
+
+* [Telerik ZIP Library]({%slug introduction/installation/included-assemblies %}#telerik-zip-library).
+
+* [Telerik Spreadsheet Library]({%slug introduction/installation/included-assemblies %}#telerik-spreadsheet-library).
+
+* [Telerik Document Processing Libraries]({%slug introduction/installation/included-assemblies %}#telerik-document-processing-libraries).
+
+The following table lists the packages available in the Telerik NuGet Feed and the assemblies that they contain:
+
+| NuGet package | Included assemblies |
+|---------------|------------|
+|Telerik.UI.for.AspNet.Ajax.Netxx.xxxx.x.xxx.nupkg | Telerik.Web.Design.dll, Telerik.Web.Device.Detection.dll, Telerik.Web.UI.dll, Telerik.Web.UI.Skins.dll |
+| Telerik.Windows.Zip.xxxx.x.xxx.nupkg | Telerik.Windows.Zip.dll |
+| Telerik.Windows.Zip.Extensions.xxxx.x.xxx.nupkg | Telerik.Windows.Zip.Extensions.dll |
+| Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xxxx.x.xxx.nupkg | Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll |
+| Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xxxx.x.xxx.nupkg | Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll |
+| Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.nupkg | Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll |
+| Telerik.Windows.Documents.Spreadsheet.xxxxx.x.xxx.nupkg | Telerik.Windows.Documents.Spreadsheet.dll |
+| Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg | Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll |
+| Telerik.Windows.Documents.Flow.xxxxx.x.xxx.nupkg | Telerik.Windows.Documents.Flow.dll |
+| Telerik.Windows.Documents.Fixed.xxxxx.x.xxx.nupkg | Telerik.Windows.Documents.Fixed.dll |
+| Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg | Telerik.Windows.Documents.CMapUtils.dll |
+| Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg | Telerik.Windows.Documents.Core.dll |
+| Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg | Telerik.Documents.SpreadsheetStreaming.dll |
+
+>tip Besides the packages listed above, Telerik provides a number of additional libraries that are available when you install UI for ASP.NET AJAX [from an MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [from a ZIP file]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}). For example:
+>
+>* Newtonsoft.Json.dll
+>* Telerik.Web.Spreadsheet.dll
+>
+>These libraries are available in the `AdditionalLibraries` folder within the UI for ASP.NET AJAX installation directory.
+
 ## Telerik Spreadsheet Library
 
 The **Telerik.Web.Spreadsheet.dll** library is an assembly that lets you use the [**RadSpreadsheet**]({%slug spreadsheet/overview%}) control in your project. You will also need the **Newtsoft.Json.dll** assembly.
@@ -103,7 +138,7 @@ You can find more information on working with the Telerik document processing li
 	* [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started)
 
 	* [XLSX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
-	
+
 	* [XLS format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xls/xlsformatprovider)
 
 	* [CSV format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
@@ -115,11 +150,11 @@ You can find more information on working with the Telerik document processing li
 * PDF processing
 
 	* [PDF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/pdf/pdfformatprovider)
-	
+
 	* [Text format provider](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/plain-text/textformatprovider)
 
 * Fast spreadsheet generation
-	
+
 	* [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/getting-started)
 
 
@@ -141,8 +176,7 @@ If your project references a different version of this assembly, review the [New
  * [Telerik Spreadsheet Processing Library](https://www.telerik.com/products/wpf/spreadsheet-processing.aspx)
 
  * [Telerik Device Detection Framework Overview](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
- 
- * [Telerik Device Detection Framework API]({%slug controls/raddevicedetectionframework%})
- 
- * [UI for ASP.NET AJAX Controls RenderModes Basics]({%slug controls/render-modes%})
 
+ * [Telerik Device Detection Framework API]({%slug controls/raddevicedetectionframework%})
+
+ * [UI for ASP.NET AJAX Controls RenderModes Basics]({%slug controls/render-modes%})

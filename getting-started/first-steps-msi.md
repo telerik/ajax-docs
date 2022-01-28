@@ -28,13 +28,13 @@ MSI files are intended for easy and automatic installation of a product. This tu
 
 1. If a new user, [create a Telerik account](https://www.telerik.com/account/).
 
-## Step 1: Install the Controls
+## Step 1: Install Telerik UI for ASP.NET AJAX
 
 1. Log into your [Telerik account](https://www.telerik.com/account/product-download?product=RCAJAX).
 
 1. For trial users, navigate to [Telerik UI for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax) and select **Download Free Trial**.
 
-  For commercial users, on the **DOWNLOADS** tab, choose **Progress® Telerik® UI for ASP.NET AJAX** and then select **Latest Public Version**.
+  For commercial users, on the **DOWNLOADS** tab, choose **Progress® Telerik® UI for ASP.NET AJAX**, and then select **Latest Public Version**.
 
   >caption Download the Commercially Licensed Version
   ![Download the Commercially Licensed Version](images/getting-started-download-msi.png)
@@ -47,14 +47,14 @@ MSI files are intended for easy and automatic installation of a product. This tu
   * The latest package that is available for download has all updates/HOTFIXES applied already and you don't need to update it further.
   * The MSI installation will not overwrite previous Telerik UI for ASP.NET AJAX installations unless the current installation is of the same version.
 
-## Step 2: Load the Demos
+## Step 2: Download the Demos
 
 1. From the **Resources** section of same page, download the MSI installation for the Telerik UI for ASP.NET AJAX examples. Once you install them on your machine, you can launch the live demos in either of the following ways:
 
-  * For **Start Menu** programs, open **Telerik** -> **Live Examples - UI for ASP.NET AJAX**.
+  * For **Start Menu** programs, open **Telerik** > **Live Examples - UI for ASP.NET AJAX**.
   * For Windows Explorer, navigate to the Telerik control installation folder, typically `C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Live Demos` and double-click the `StartExamples.exe` file.
 
-1. Load the **Live Examples** solution to your Visual Studio and start the project by clicking `F5`. The fastest way to load the examples is by using the **Start Menu** by selecting **Telerik** -> **UI for ASP.NET AJAX RX YYYY -> Open Sample Web Site in Visual Studio**. Visual Studio will locally start the **Live Demos** by using the integrated ASP.NET Development Server.
+1. Load the **Live Examples** solution to your Visual Studio and start the project by clicking `F5`. The fastest way to load the examples is by using the **Start Menu** by selecting **Telerik** > **UI for ASP.NET AJAX RX YYYY -> Open Sample Web Site in Visual Studio**. Visual Studio will locally start the **Live Demos** by using the integrated ASP.NET Development Server.
 
 >note The Telerik UI for ASP.NET AJAX package automatically adds the products to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
 
