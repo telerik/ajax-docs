@@ -54,7 +54,7 @@ To configure the Telerik NuGet Feed in Visual Studio:
 
 	>caption Visual Studio NuGet package manager and the Telerik NuGet feed.
 
-	![Visual Studio NuGet Package Manager and Telerik NuGet Feed](images/telerik-nuged-feed-in-npm.png)
+	![Visual Studio NuGet Package Manager and Telerik NuGet Feed](images/telerik-nuget-feed-in-npm.png)
 
 ## Step 2: Install Telerik UI for ASP.NET AJAX
 
@@ -167,7 +167,7 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 
 1. In the code-behind of the page, create a `GetData()` method. This method returns the sample data that you will bind to the chart:
 
-    ```C#
+    ````C#
     private DataTable GetData()
         {
             DataTable dt = new DataTable();
@@ -184,8 +184,8 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 
             return dt;
         }
-    ```
-    ```VB
+    ````
+    ````VB
     Private Function GetData() As DataTable
         Dim dt As DataTable = New DataTable()
 
@@ -201,11 +201,11 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 
         Return dt
     End Function
-    ```
+    ````
 
 1. Configure the data source of the chart to use the created sample data:
 
-    ```C#
+    ````C#
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
@@ -213,14 +213,14 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
             RadHtmlChart1.DataSource = GetData();
         }
     }
-    ```
-    ```VB
+    ````
+    ````VB
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
         If Not IsPostBack Then
             RadHtmlChart1.DataSource = GetData()
         End If
     End Sub
-    ```
+    ````
 
 1. Set the `colors` and `values` field names to the Series `DataFieldY` and `ColorField` properties:
 
