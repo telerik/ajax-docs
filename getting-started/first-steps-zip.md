@@ -38,11 +38,11 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 After successfully providing the prerequisites, you will install the suite from the ZIP file without IIS running:
 
-1. Log into your [Telerik account](https://www.telerik.com/account/default.aspx) and click **Downloads** from the top menu.
+1. Log into your [Telerik account](https://www.telerik.com/account/) and click **Downloads** from the top menu.
 
-1. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
+2. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
 
-1. Download the **Manual installation** (`Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip`) file.
+3. Download the **Manual installation** (`Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip`) file.
 
 ## Step 2: Run the Demos
 
