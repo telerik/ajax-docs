@@ -24,6 +24,8 @@ This tutorial describes how to get up and running with the Telerik UI for ASP.NE
 
 ## Prerequisites
 
+The following prerequisites are required for accomplishing the scenario in this tutorial. For more information on the third-party tooling versions supported by Telerik UI for ASP.NET AJAX, refer to the [list with system requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
+
 1. [Install Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/).
 
 1. [Install .NET Framework 4.5 or later](https://dotnet.microsoft.com/en-us/download).
@@ -78,18 +80,199 @@ Now that you have successfully added the Telerik NuGet feed as a package source,
 
 	![Adding the Telerik® UI for ASP.NET AJAX package to the solution](images/add-telerik-package.png)
 
+## Step 3: Create the ASP.NET AJAX Project
 
+Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which allow you to effortlessly create a pre-configured Telerik UI project in the following way:
 
+1. Open Visual Studio and select **File** > **New** > **Project**.
 
+1. In the search box, enter **Telerik**.
 
-............
-we need to add or edit the above steps to show how to add the Editor (and the Chart if necessary)
-............
+   >tip If the list doesn't contain Telerik templates, then the Telerik extensions are missing. In this case, go to [Telerik UI for ASP.NET AJAX Extension](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions), download the file from the VS marketplace, and install it.
 
+1. Select the **Telerik C# Web Forms Site** template. Click **Next**.
 
+1. Enter **MyFirstTelerikSite** in the **Project name** field, select **.NET Framework 4.5** (or later), and then select **Create**.
 
+1. In the **Create New Project Wizard**, select **BLANK**. Click **Finish**.
 
+>caption Create the new ASP.NET project.
+![Create a new project](images/getting-started-project-wizard.gif)
 
+The Telerik templates for Visual Studio allow you to kick-start your application development by creating a new project that contains all required resources which enable you to use the Telerik controls. However, if you need to add the Telerik controls to an already existing project, refer to the article on [adding the Telerik controls to your project]({% slug getting-started/adding-the-telerik-controls-to-your-project %}).
+
+## Step 4: Add the Editor to Your Project
+
+The Web Forms Site created through the Telerik project template includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) control to the page in the following simple way:
+
+1. Open `Default.aspx` and declare `RadEditor` right after `RadScriptManager`:
+
+   ```ASPX
+   <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+
+   <telerik:RadEditor runat="server" ID="RadEditor1" </telerik:RadEditor>
+   ```
+1. Set the `RenderMode` and `Content` properties of the Editor:
+
+   ```ASPX
+   <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+
+   <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight">
+       <Content>             
+           Congratulations! You have the Telerik UI for ASP.NET controls running in your project!         
+       </Content>
+   </telerik:RadEditor>
+   ```
+
+1. Run your page by pressing `F5`.
+
+>caption Add the Editor to a page.
+![Add RadEditor to a page](images/getting-started-editor.png)
+
+Another way to add a Telerik control to your project is to drag the Editor control directly from the VS toolbox. For more information, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox %}).
+
+## Step 5: Add the HtmlChart to Your Project
+
+Let’s dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. By following the steps below, you will create a data-bound [HtmlChart]({%slug htmlchart/overview%}). You will also add a handy tooltip that shows the values from a custom data field.
+
+The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred data source type]({% slug htmlchart/data-binding/overview %}). The page already contains a [ScriptManager control](#add-radeditor-to-the-application), so you are ready to declare the HtmlChart right after the Editor control that you added in the previous step:
+
+1. In `Default.aspx`, define an HtmlChart with `ID="RadHtmlChart1"`:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+    </telerik:RadHtmlChart>
+    ```
+
+1. Add a `ChartTitle` to the created HtmlChart:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+        <ChartTitle Text="Sales Log"></ChartTitle>
+    </telerik:RadHtmlChart>
+    ```
+
+1. Add `ColumnSeries` to the `PlotArea.Series` collection of the control:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+        <ChartTitle Text="Sales Log"></ChartTitle>
+        <PlotArea>
+            <Series>
+                <telerik:ColumnSeries Name="Clothes"></telerik:ColumnSeries>
+            </Series>
+        </PlotArea>
+    </telerik:RadHtmlChart>
+    ```
+
+1. In the code-behind of the page, create a `GetData()` method. This method returns the sample data that you will bind to the chart:
+
+    ```C#
+    private DataTable GetData()
+        {
+            DataTable dt = new DataTable();
+
+            dt.Columns.Add("labels");
+            dt.Columns.Add("values");
+            dt.Columns.Add("colors");
+            dt.Columns.Add("description");
+
+            dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers");
+            dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts");
+            dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts");
+            dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts");
+
+            return dt;
+        }
+    ```
+    ```VB
+    Private Function GetData() As DataTable
+        Dim dt As DataTable = New DataTable()
+
+        dt.Columns.Add("labels")
+        dt.Columns.Add("values")
+        dt.Columns.Add("colors")
+        dt.Columns.Add("description")
+
+        dt.Rows.Add("Week 1", 3, "#99C794", " 1 blouse and 2 trousers")
+        dt.Rows.Add("Week 2", 10, "#5FB3B3", "7 blouses and 3 skirts")
+        dt.Rows.Add("Week 3", 7, "#FAC863", "7 skirts")
+        dt.Rows.Add("Week 4", 12, "#6699CC", "5 blouses, 5 trousers and 2 skirts")
+
+        Return dt
+    End Function
+    ```
+
+1. Configure the data source of the chart to use the created sample data:
+
+    ```C#
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            RadHtmlChart1.DataSource = GetData();
+        }
+    }
+    ```
+    ```VB
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            RadHtmlChart1.DataSource = GetData()
+        End If
+    End Sub
+    ```
+
+1. Set the `colors` and `values` field names to the Series `DataFieldY` and `ColorField` properties:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+        <ChartTitle Text="Sales Log"></ChartTitle>
+        <PlotArea>
+            <Series>
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries>
+            </Series>
+        </PlotArea>
+    </telerik:RadHtmlChart>
+    ```
+
+1. Set the `labels` field name to the `PlotArea.XAxis.DataLabelsField` value:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+        <ChartTitle Text="Sales Log"></ChartTitle>
+        <PlotArea>
+            <Series>
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors"></telerik:ColumnSeries>
+            </Series>
+            <XAxis DataLabelsField="labels"></XAxis>
+        </PlotArea>
+    </telerik:RadHtmlChart>
+    ```
+
+1. Define a `TooltipsAppearance` nested tag in the series declaration. Then define a [custom Tooltip template]({% slug htmlchart/functionality/clienttemplate/overview %}) in it. All fields from the passed data source are available through the `dataItem` object of the template:
+
+    ```ASPX
+    <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server">
+        <ChartTitle Text="Sales Log"></ChartTitle>
+        <PlotArea>
+            <Series>
+                <telerik:ColumnSeries Name="Clothes" DataFieldY="values" ColorField="colors">
+                    <TooltipsAppearance>
+                        <ClientTemplate>
+                            There are #=dataItem.description# sold in #=category#
+                        </ClientTemplate>
+                    </TooltipsAppearance>
+                </telerik:ColumnSeries>
+            </Series>
+            <XAxis DataLabelsField="labels"></XAxis>
+        </PlotArea>
+    </telerik:RadHtmlChart>
+    ```
+
+1. Run the page by pressing `F5`. You are expected to see something similar to the following image:
+
+>caption Bound the HtmlChart with a custom Tooltip template.
+![Bound RadHtmlChart with custom Tooltip template](images/getting-started-htmlchart.png)
 
 ## Step 6: Style the Controls
 
