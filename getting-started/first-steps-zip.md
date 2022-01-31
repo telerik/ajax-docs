@@ -47,7 +47,7 @@ After successfully providing the prerequisites, you will install the suite from 
 ## Step 2: Run the Demos
 
 Once you have the controls installed locally, you can run the examples by executing the `StartExamples.exe` file from the `/Live Demos` folder.
-Alternatively, you can manually add the examples to an aspx or ascx page. For more information on how to do this, refer to the article on [adding Telerik ASP.NET AJAX controls to a page]](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps#add-a-control-to-a-page).
+Alternatively, you can manually add the examples to an aspx or ascx page. For more information on how to do this, refer to the article on [adding Telerik ASP.NET AJAX controls to a page]({% slug getting-started/adding-the-telerik-controls-to-your-project %}).
 
 ## Step 3: Create the ASP.NET AJAX Project
 
@@ -262,5 +262,7 @@ That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET A
 
 ## Next Steps
 
+* [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements)
 * [Available Product Files for Download]({% slug installation/which-file-do-i-need-to-install %})
-* [Available Assemblies]({% slug introduction/installation/included-assemblies %})
+* [Included Assemblies]({% slug introduction/installation/included-assemblies %})
+* [Adding Telerik ASP.NET AJAX Controls to a Page]({% slug getting-started/adding-the-telerik-controls-to-your-project %})
