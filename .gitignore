@@ -19,14 +19,16 @@
 /favicon.ico
 /fonts/
 /styles/
+_excludefile.yml
 _site
 _tempconfig.yml
-_excludefile.yml
 bs-config.js
 build-docs.sh
+CODEOWNERS
 copy_content.sh
 copy_local.sh
 Dockerfile
+exclude.txt
 Gemfile
 Gemfile.lock
 install-npm.sh
@@ -38,3 +40,4 @@ SlugLog.log
 start-docs.sh
 temp_exclude_result.tmp
 watch.sh
+to_delete.md
