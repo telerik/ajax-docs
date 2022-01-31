@@ -28,7 +28,7 @@ To download `.nupkg` files locally:
 
 1. Go to the [Downloads page of UI for ASP.NET AJAX](https://www.telerik.com/account/product-download?product=RCAJAX).
 
-1. Click on the `.nupkg` files you require (for example, `Telerik.UI.for.AspNet.Ajax.Net45.2016.3.1027.nupkg`) to download them. The file name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>.<Telerik controls version>.nupkg`.
+1. Click on the `.nupkg` files you require (for example, `Telerik.UI.for.AspNet.Ajax.Net45.2022.1.119.nupkg`) to download them. The file name is built in the following format: `Telerik.UI.for.AspNet.Ajax.Net<.NET version of your project>.<Telerik controls version>.nupkg`.
 
 1. Configure your server and projects to use the feed.
 
@@ -64,9 +64,9 @@ The [downloaded ZIP file]({% slug introduction/installation/installing-the-teler
 
 * `TypeScriptDefinitions`&mdash;Contains the TypeScript definitions for the Telerik UI for ASP.NET AJAX client-side objects.
 
-Among the files that are available for download is `Telerik_UI_for_ASP.NET_AJAX_2019_3_917_Dev_hotfix.zip` (**Hotfix**). It is a lighter version of the full `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip` installation and is faster to download because it doesn't contain the live demos. It is handy to use it when [you manually upgrade](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#manual-upgrade) the project to a later version or from trial to registered developer version.
+Among the files that are available for download is `Telerik_UI_for_ASP.NET_AJAX_2022_1_119_Dev_hotfix.zip` (**Hotfix**). It is a lighter version of the full `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip` installation and is faster to download because it doesn't contain the live demos. It is handy to use it when [you manually upgrade](https://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#manual-upgrade) the project to a later version or from trial to registered developer version.
 
-To use the `Telerik_UI_for_ASP.NET_AJAX_2019_3_917_Dev_hotfix.zip` file, give full permissions to the ASP.NET user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) on the folder where the files were extracted.
+To use the `Telerik_UI_for_ASP.NET_AJAX_2022_1_119_Dev_hotfix.zip` file, give full permissions to the ASP.NET user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) on the folder where the files were extracted.
 
 * If you are using a modified or external script, you need to set the `EnableEmbeddedScripts` property to `false`. Otherwise the control will fail to load its client scripts with an exception. For more information, refer to the article on [disabling embedded resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}).
 
