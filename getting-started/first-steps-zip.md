@@ -24,6 +24,8 @@ This tutorial describes how to get up and running with Telerik UI for ASP.NET AJ
 
 ## Prerequisites
 
+The following prerequisites are required for accomplishing the scenario in this tutorial. For more information on the third-party tooling versions supported by Telerik UI for ASP.NET AJAX, refer to the [list with system requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
+
 1. [Install Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/).
 
 1. [Install .NET Framework 4.5 or later](https://dotnet.microsoft.com/en-us/download).
