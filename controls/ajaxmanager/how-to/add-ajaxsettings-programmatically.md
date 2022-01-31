@@ -53,6 +53,8 @@ And in the code-behind:
 	    //public void AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel)
 	    //public void AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode)
 	    //public void AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode, Unit updatePanelHeight)
+	    // Introduced in R1 2022 SP1
+	    //public void AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode, Unit updatePanelHeight, string updatePanelCssClass)
 	 }
 	    
  protected void Button1_Click(object sender, EventArgs e)   
@@ -69,6 +71,8 @@ And in the code-behind:
 	        'Public Sub AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel)
 	        'Public Sub AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode)
 	        'Public Sub AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode, Unit updatePanelHeight)
+		'Introduced in R1 2022 SP1
+		'Public Sub AddAjaxSetting(Control ajaxifiedControl, Control updatedControl, RadAjaxLoadingPanel loadingPanel, UpdatePanelRenderMode renderMode, Unit updatePanelHeight, string updatePanelCssClass)
  End Sub
  Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        Image1.Visible = Not Image1.Visible
