@@ -10,7 +10,7 @@ position: 4
 
 # Customizing the Behavior of a Control
 
-Once you have the controls [working in your project]({%slug getting-started/first-steps%}) and [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides tips on customizing the behavior of the UI for ASP.NET AJAX controls.
+Once you have the controls [working in your project]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs. This article provides tips on customizing the behavior of the UI for ASP.NET AJAX controls.
 
 ## Looking for Properties, Events, and Ready Solutions
 
@@ -65,6 +65,6 @@ To handle a client-side event of a Telerik controls, you must provide only the s
 
 ## See Also
 
-* [First Steps]({%slug getting-started/first-steps%})
+* [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
 * [Customize control behavior]({%slug getting-started/explore-control-features%})
 * [Progress Virtual Classroom](https://learn.telerik.com/)

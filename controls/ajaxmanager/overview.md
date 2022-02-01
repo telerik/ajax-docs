@@ -124,7 +124,7 @@ It is not possible to have child elements to be the AjaxSetting initiator and up
 ## See Also
  * [Getting Started - What is AJAX?]({%slug ajaxmanager/getting-started/what-is-ajax%})
 
- * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
+ * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
 
  * [RadAjaxManagerProxy Overview]({%slug ajaxmanager/radajaxmanagerproxy/overview%})
 

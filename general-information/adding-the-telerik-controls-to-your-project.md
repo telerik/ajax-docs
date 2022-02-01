@@ -13,7 +13,7 @@ position: 1
 
 This article describes how to add the Telerik® UI for ASP.NET AJAX controls to an existing ASP.NET web application or website and lists the required prerequisites.
 
-If you are looking for a complete step-by-step guide on creating a new web application with Telerik controls, see the [First Steps]({%slug getting-started/first-steps%}) article.
+If you are looking for a complete step-by-step guide on creating a new web application with Telerik controls, see the [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) article.
 
 ## Prerequisites
 

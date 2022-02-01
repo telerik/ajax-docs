@@ -65,5 +65,5 @@ Now that you know how to learn more about the controls and their features, you c
 
 ## See Also
 
-* [First Steps]({%slug getting-started/first-steps%})
+* [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
 * [Progress Virtual Classroom](https://learn.telerik.com/)
