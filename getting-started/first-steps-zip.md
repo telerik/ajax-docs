@@ -3,7 +3,7 @@ title: First Steps with ZIP
 page_title: First Steps with ZIP Installation
 description: "Get started with Telerik UI for ASP.NET AJAX and learn how to install the controls from a ZIP file, and then build and run a sample application."
 slug: introduction/installation/installing-the-telerik-controls-from-zip-file
-previous_url: /installation/installing-the-telerik-controls-from-zip-file
+previous_url: installation/installing-the-telerik-controls-from-zip-file
 tags: installing, telerik, controls, from, zip, file
 published: True
 position: 3

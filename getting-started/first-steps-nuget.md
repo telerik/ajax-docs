@@ -3,7 +3,7 @@ title: First Steps with MSI
 page_title: First Steps with NuGet Installation
 description: "Get started with Telerik UI for ASP.NET AJAX and learn how to install the controls from a NuGet package, and then build and run a sample application."
 slug: introduction/installation/installing-the-telerik-controls-from-a-nuget-package
-previous_url: /installation/installing-the-telerik-controls-from-nuget-package
+previous_url: installation/installing-the-telerik-controls-from-nuget-package
 tags: installing, telerik, controls, nuget, package
 published: True
 position: 2
