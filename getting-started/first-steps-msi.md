@@ -45,10 +45,6 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. Once the download completes, run the MSI file and follow the instructions. On a 32-bit machine and unless you specify otherwise, the wizard will install the Telerik UI for ASP.NET AJAX suite in the `C:\Program Files\Progress\` folder. On a 64-bit machine, the default path is `C:\Program Files (x86)\Progress\`.
 
-  * Prior to R3 2017, the default installation paths are `C:\Program Files\Telerik\` and `C:\Program Files (x86)\Telerik\` respectively.
-  * The latest package that is available for download has all updates/HOTFIXES applied already and you don't need to update it further.
-  * The MSI installation will not overwrite previous Telerik UI for ASP.NET AJAX installations unless the current installation is of the same version.
-
 ## Step 2: Download the Demos
 
 1. From the **Resources** section of same page, download the MSI installation for the Telerik UI for ASP.NET AJAX examples. Once you install them on your machine, you can launch the live demos in either of the following ways:
@@ -62,13 +58,15 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 ## Step 3: Create the ASP.NET AJAX Project
 
-Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which allow you to effortlessly create a pre-configured Telerik UI project in the following way:
+Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}). The Telerik templates allow you to effortlessly create a pre-configured Telerik UI project that contains all required resources which enable you to use the Telerik controls.
+
+>For adding the Telerik controls to an already existing project, refer to the article on [adding the Telerik controls to your project]({% slug getting-started/adding-the-telerik-controls-to-your-project %}).
 
 1. Open Visual Studio and select **File** > **New** > **Project**.
 
 1. In the search box, enter **Telerik**.
 
-   >tip If the list doesn't contain Telerik templates, then the Telerik extensions are missing. In this case, go to [Telerik UI for ASP.NET AJAX Extension](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions), download the file from the VS marketplace, and install it.
+   If the list doesn't contain Telerik templates, then the Telerik extensions are missing. In this case, go to [Telerik UI for ASP.NET AJAX Extension](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions), download the file from the VS marketplace, and install it.
 
 1. Select the **Telerik C# Web Forms Site** template. Click **Next**.
 
@@ -76,14 +74,14 @@ Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [V
 
 1. In the **Create New Project Wizard**, select **BLANK**. Click **Finish**.
 
->caption Create the new ASP.NET project.
+>caption Create the new ASP.NET project
 ![Create a new project](images/getting-started-project-wizard.gif)
-
-The Telerik templates for Visual Studio allow you to kick-start your application development by creating a new project that contains all required resources which enable you to use the Telerik controls. However, if you need to add the Telerik controls to an already existing project, refer to the article on [adding the Telerik controls to your project]({% slug getting-started/adding-the-telerik-controls-to-your-project %}).
 
 ## Step 4: Add the Editor to Your Project
 
-The Web Forms Site created through the Telerik project template includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) control to the page in the following simple way:
+The Web Forms Site created through the Telerik project templates includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) to the page in a simple way as demonstrated in this step.
+
+> Alternatively, you can add the Editor to your project by dragging it directly from the VS toolbox. For more information, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox %}).
 
 1. Open `Default.aspx` and declare `RadEditor` right after `RadScriptManager`:
 
@@ -106,10 +104,8 @@ The Web Forms Site created through the Telerik project template includes all bas
 
 1. Run your page by pressing `F5`.
 
->caption Add the Editor to a page.
+>caption Add the Editor to the page
 ![Add RadEditor to a page](images/getting-started-editor.png)
-
-Another way to add a Telerik control to your project is to drag the Editor control directly from the VS toolbox. For more information, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox %}).
 
 ## Step 5: Add the HtmlChart to Your Project
 
@@ -251,8 +247,8 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 
 1. Run the page by pressing `F5`. You are expected to see something similar to the following image:
 
->caption Bound the HtmlChart with a custom Tooltip template.
-![Bound RadHtmlChart with custom Tooltip template](images/getting-started-htmlchart.png)
+>caption Bound HtmlChart with a custom Tooltip template
+![Bound HtmlChart with a custom Tooltip template](images/getting-started-htmlchart.png)
 
 ## Step 6: Style the Controls
 
@@ -266,7 +262,7 @@ Telerik UI for ASP.NET AJAX provides more than [20 predefined skins]({% slug int
 </telerik:RadEditor>
 ```
 
->caption Apply the Glow skin to the Editor.
+>caption Apply the Glow skin to the Editor
 ![Apply Glow Skin to Editor](images/getting-started-editor-skin.png)
 
 That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET AJAX and take full advantage of its slick functionalities!

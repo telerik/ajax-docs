@@ -44,32 +44,29 @@ After successfully providing the prerequisites, you will install the suite from 
 
 1. Download the **Manual installation** (`Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip`) file and extract its content to a convenient location.
 
-
-
 ## Step 2: Upgrade an Existing Telerik UI for ASP.NET AJAX Project
 
 The files from the ZIP installation are usually used for manual upgrading of an already existing Telerik UI for ASP.NET AJAX Project. The following steps ensure a safe upgrade:
 
-1. Backup your project.
-   
-1. Delete the old Telerik.Web.UI.* references from the project and close it.
+1. Back up your project.
 
-1. Open the 'Bin' folder of your project in Windows Explorer and delete the old Telerik.Web.UI.* assemblies.
+1. Delete the old `Telerik.Web.UI.*` references from the project and close it. As with any ASP.NET project, it is helpful to clear the ASP.NET Temporary files and the browser cache.
+
+1. Open the **Bin** folder of your project in Windows Explorer and delete the old `Telerik.Web.UI.*` assemblies.
 
 1. Copy the new assemblies from the `Bin45` folder in the UI for ASP.NET AJAX installation path and paste them to the `Bin` folder of your project.
-   
+
+  You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (`~/App_GlobalResources`), dialogs (ImageEditor, Editor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), and so on.
+
 1. Open the project in Visual Studio and add references to the Telerik assemblies.
 
-1. Make sure you have all [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
-
-You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc.
-
->tip As with any ASP.NET project, it is often helpful to clear the ASP Temporary files and the browser cache.
->
+1. Make sure you have all [necessary `web.config` registrations]({%slug general-information/web-config-settings-overview%}).
 
 ## Step 3: Add the Editor to Your Project
 
-The Web Forms Site created through the Telerik project template includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) control to the page in the following simple way:
+The Web Forms Site created through the Telerik project templates includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) to the page in a simple way as demonstrated in this step.
+
+> Alternatively, you can add the Editor to your project by dragging it directly from the VS toolbox. For more information, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox %}).
 
 1. Open `Default.aspx` and declare `RadEditor` right after `RadScriptManager`:
 
@@ -92,10 +89,8 @@ The Web Forms Site created through the Telerik project template includes all bas
 
 1. Run your page by pressing `F5`.
 
->caption Add the Editor to a page.
-![Add RadEditor to a page](images/getting-started-editor.png)
-
-Another way to add a Telerik control to your project is to drag the Editor control directly from the VS toolbox. For more information, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox %}).
+>caption Add the Editor to the page.
+![Add the Editor to the page](images/getting-started-editor.png)
 
 ## Step 4: Add the HtmlChart to Your Project
 
@@ -237,8 +232,8 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 
 1. Run the page by pressing `F5`. You are expected to see something similar to the following image:
 
->caption Bound the HtmlChart with a custom Tooltip template.
-![Bound RadHtmlChart with custom Tooltip template](images/getting-started-htmlchart.png)
+>caption Bound HtmlChart with a custom Tooltip template
+![Bound HtmlChart with a custom Tooltip template](images/getting-started-htmlchart.png)
 
 ## Step 5: Style the Controls
 

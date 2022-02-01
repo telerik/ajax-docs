@@ -3,6 +3,7 @@ title: Licensing
 page_title: Licensing
 description: "Learn more about the trial and commercial licenses, the .NET licensing mechanism, and the license limitations by Telerik UI for ASP.NET AJAX."
 slug: introduction/licensing/license-agreement
+previous_url: licensing/licensing
 tags: license, agreement
 previous_url: licensing/license-agreement, licensing/trial-license-limitations, licensing/license-file
 published: True
@@ -23,7 +24,7 @@ If your application is displaying a copyright message intermittently, this means
 
 The free trial licenses of all Telerik products are fully functional and will work for an unlimited time, but will randomly display a copyright message on the page.
 
-## Bill of Materials (BOM) and Third-Party Software Licensing
+## Bill of Materials and Third-Party Software Licensing
 
 For a Bill of Materials (BOM) and a list of the third party software (including open-source software), go to your Telerik controls installation folder `\LicenseAgreements\ThirdParty\NOTICE.txt`. For example, the default location for the R2 2018 SP1 release is `C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2018\LicenseAgreements\ThirdParty\NOTICE.txt`. For versions prior to R2 2018 SP1, the file is called `licenses.txt`.
 
@@ -33,8 +34,8 @@ As of Q1 2015, Telerik UI for ASP.NET AJAX uses the [standard .NET licensing mec
 
 The `license.licx` file is maintained by Visual Studio and contains information about all licensed components in the application, including non-Telerik products. The availability of this license file is not expected to cause any performance or compilation issues and you can ignore it.
 
-If your project build fails with errors pointing to the license file, you can delete it and rebuild the application. Alternatively, you can clear its contents and mark it as `Read Only`. All known errors related to the usage of the license file are covered by the KB article on [fixing license file related errors]({% slug common-how-to-fix-license-file-related-errors %}).
+* If your project build fails with errors pointing to the license file, you can delete it and rebuild the application. Alternatively, you can clear its contents and mark it as `Read Only`. All known errors related to the usage of the license file are covered by the KB article on [fixing license file related errors]({% slug common-how-to-fix-license-file-related-errors %}).
 
-If you are working under source control, once the file is created, it will be detected as a change by your source control system. It is recommended that you check in this file initially. When the files is checked out again during your work,	it is up to you to decide whether to check it in or discard the changes.
+* If you are working under source control, once the file is created, it will be detected as a change by your source control system. It is recommended that you check in this file initially. When the files is checked out again during your work,	it is up to you to decide whether to check it in or discard the changes.
 
-If you are getting random copyright errors in the browser when using the trial version of Telerik UI for ASP.NET AJAX, refer to the article on [getting the copyright message]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}}#i-still-get-the-copyright-message). In this case, you need to upgrade the `Telerik.Web.UI.dll` trial version with the registered developer one as explained in the article on [upgrading a trial to a developer license]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
+* If you are getting random copyright errors in the browser when using the trial version of Telerik UI for ASP.NET AJAX, refer to the article on [getting the copyright message]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}}#i-still-get-the-copyright-message). In this case, you need to upgrade the `Telerik.Web.UI.dll` trial version with the registered developer one as explained in the article on [upgrading a trial to a developer license]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
