@@ -1,7 +1,7 @@
 ---
 title: Introduction
 page_title: Introduction
-description: "The Telerik UI for ASP.NET AJAX components suite includes more than 120 versatile & optimized ASP.NET Web Forms components that help you build high-quality apps."
+description: "The Telerik UI for ASP.NET AJAX components suite includes more than 120 versatile and optimized ASP.NET Web Forms components that help you build high-quality apps."
 slug: introduction/introduction
 tags: introduction
 published: True
@@ -238,5 +238,4 @@ For any issues you might come across while working with Telerik UI for ASP.NET A
 ## Next Steps
 
 * [Getting Started with Telerik UI for ASP.NET AJAX]({% slug getting-started/first-steps %})
-* Trial and Commercial Telerik UI for ASP.NET AJAX License and License Agreement
-* Usage Specifics for Trial and Commercial Users
+* [Trial and Commercial Telerik UI for ASP.NET AJAX License and License Agreement]({% slug introduction/licensing/license-agreement %})
