@@ -147,19 +147,19 @@ navigation:
     "licensing":
         title: "Licensing"
         position: 29
-    "styles":
+    "styling":
         title: "Styles & Appearance"
         position: 14
     "upgrade-compatibility":
         title: "Upgrade & Compatibility"
         position: 16
-    "styles/controlling-visual-appearance":
+    "styling/controlling-visual-appearance":
         title: "Controlling the Appearance"
         position: 10
-    "styles/visual-stylebuilder":
+    "styling/visual-stylebuilder":
         title: "Visual Stylebuilder"
         position: 20
-    "styles/theme-builder":
+    "styling/theme-builder":
         title: "Theme Builder"
         position: 30
     "api":
