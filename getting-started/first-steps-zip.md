@@ -6,7 +6,7 @@ slug: introduction/installation/installing-the-telerik-controls-from-zip-file
 previous_url: installation/installing-the-telerik-controls-from-zip-file
 tags: installing, telerik, controls, from, zip, file
 published: True
-position: 3
+position: 2
 ---
 
 # First Steps by Installing with a ZIP File

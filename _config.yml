@@ -15,12 +15,18 @@ navigation:
     "getting-started":
         title: "Getting Started"
         position: 1
-    "installation":
-        title: "Installation"
-        position: 3
-    "installation/upgrading-instructions":
-        title: "Upgrading Instructions"
+    "getting-started/installation":
+        title: "Download & Installation"
+        position: 10
+    "getting-started/installation/upgrading-instructions":
+        title: "Upgrade"
         position: 6
+    "getting-started/work-with-controls":
+        title: "Working with the Controls"
+        position: 20
+    "getting-started/performance":
+        title: "Performance"
+        position: 30
     "general-information":
         title: "General Information"
         position: 4
@@ -33,15 +39,9 @@ navigation:
     "general-information/integration-with-visual-studio/visual-studio-extensions":
         title: "Visual Studio Extensions"
         position: 3
-    "general-information/controlling-visual-appearance":
-        title: "Controlling Visual Appearance"
-        position: 11
     "general-information/using-jquery":
         title: "Using jQuery"
         position: 12
-    "general-information/performance":
-        title: "Performance"
-        position: 13
     "general-information/troubleshooting":
         title: "Troubleshooting"
         position: 14
@@ -57,12 +57,6 @@ navigation:
     "shared-utilities":
         title: "Shared Utilities"
         position: 13
-    "theme-builder":
-        title: "Theme Builder"
-        position: 16
-    "visual-stylebuilder":
-        title: "Visual StyleBuilder"
-        position: 17
     "integration-with-other-telerik-products":
         title: "Integration with Other Telerik Products"
         position: 18
@@ -153,6 +147,21 @@ navigation:
     "licensing":
         title: "Licensing"
         position: 29
+    "styles":
+        title: "Styles & Appearance"
+        position: 14
+    "upgrade-compatibility":
+        title: "Upgrade & Compatibility"
+        position: 16
+    "styles/controlling-visual-appearance":
+        title: "Controlling the Appearance"
+        position: 10
+    "styles/visual-stylebuilder":
+        title: "Visual Stylebuilder"
+        position: 20
+    "styles/theme-builder":
+        title: "Theme Builder"
+        position: 30
     "api":
         title: "API Reference"
         position: 30
