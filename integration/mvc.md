@@ -1,16 +1,14 @@
 ---
-title: Overview
-page_title: MVC Overview
+title: ASP.NET MVC
+page_title: ASP.NET MVC
 description: Check our Web Forms article about Overview.
 slug: mvc/overview
+previous_url: mvc/overview
 tags: overview
 published: True
-position: 0
 ---
 
-# MVC Overview
-
-
+# ASP.NET MVC
 
 This article explains which Telerik products can be used in an ASP.NET MVC environment.
 

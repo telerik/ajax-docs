@@ -18,9 +18,6 @@ navigation:
     "getting-started/installation":
         title: "Download & Installation"
         position: 10
-    "getting-started/installation/upgrading-instructions":
-        title: "Upgrade"
-        position: 6
     "getting-started/work-with-controls":
         title: "Working with the Controls"
         position: 20
@@ -150,9 +147,23 @@ navigation:
     "styling":
         title: "Styles & Appearance"
         position: 14
+    "integration":
+        title: "Integration"
+        position: 15
+    "integration/jquery":
+        title: "jQuery"
+    "integration/sharepoint":
+        title: "Sharepoint"
+    "integration/telerik-products":
+        title: "Telerik Products"
+    "integration/visual-studio":
+        title: "Visual Studio"
     "upgrade-compatibility":
         title: "Upgrade & Compatibility"
         position: 16
+    "upgrade-compatibility/upgrading-instructions":
+        title: "Upgrading"
+        position: 10
     "styling/controlling-visual-appearance":
         title: "Controlling the Appearance"
         position: 10
