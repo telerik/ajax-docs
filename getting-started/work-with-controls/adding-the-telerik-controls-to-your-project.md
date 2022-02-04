@@ -5,6 +5,7 @@ description: Learn how to add the Telerik Controls to an existing Web Forms Proj
 slug: getting-started/adding-the-telerik-controls-to-your-project
 previous_url: getting-started/adding-the-telerik-controls-to-your-project
 tags: adding,the,telerik,controls,to,your,project
+previous_url: general-information/adding-the-telerik-controls-to-your-project
 published: True
 position: 1
 ---
@@ -30,7 +31,7 @@ Before adding a Telerik control to your project, verify that the server, develop
     >tip You can automate the previous two steps by using the [Convert to Telerik Web Application](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/convert-project) option in the [Telerik Visual Studio Extensions](https://docs.telerik.com/devtools/aspnet-ajax/general-information/integration-with-visual-studio/visual-studio-extensions/overview).
 
 1. Add a **ScriptManager** control at the top of the page in which you are going to add a Telerik control.
-	
+
 		<asp:ScriptManager ID="ScriptManager1" runat="server" />				
 
 	>tip If the page is a content page or user control, you can add the ScriptManager to the master or main page. For more details about ScriptManager, see <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft's dedicated article</a>.
@@ -61,7 +62,7 @@ You can add any Telerik Control manually to the page by following the instructio
 
 	````ASP.NET
 
-		<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %> 
+		<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
 	````
 
 	>tip If multiple pages in your application will use Telerik controls, add the following lines to the `web.config` file so you don't need to add the `Register` directive to every page or user control.
@@ -80,7 +81,7 @@ You can add any Telerik Control manually to the page by following the instructio
 	````ASP.NET
 		<form id="form1" runat="server">
 			<telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
-			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" Text="Some Text" runat="server" /> 
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" Text="Some Text" runat="server" />
 			<telerik:RadPushButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Submit"></telerik:RadPushButton>
 		</form>
 	````

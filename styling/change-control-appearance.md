@@ -3,7 +3,8 @@ title: Changing Control Appearance
 page_title: Change Control Appearance
 description: Check our Web Forms article about Change Control Appearance.
 slug: getting-started/change-control-appearance
-tags: Change Control Appearance
+tags: change, appearance, of, controls
+previous_url: getting-started/change-control-appearance
 published: True
 position: 5
 ---

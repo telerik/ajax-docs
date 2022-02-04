@@ -3,7 +3,8 @@ title: Exploring the Controls
 page_title: Exploring the Controls and their Features
 description: Learn how to take advantage of the demos, documentation, and Visual Studio's IntelliSense when you work with the Telerik controls for ASP.NET AJAX in Web Forms.
 slug: getting-started/explore-control-features
-tags: Exploring Control Features
+tags: explore, control, features
+previous_url: getting-started/explore-control-features
 published: True
 position: 6
 ---

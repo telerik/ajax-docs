@@ -4,13 +4,14 @@ page_title: web.config Settings Overview
 description: Check our Web Forms article about web.config Settings Overview.
 slug: general-information/web-config-settings-overview
 tags: web.config,settings,overview,handlers,required
+previous_url: general-information/web-config-settings-overview
 published: True
 position: 2
 ---
 
 # web.config Settings Overview
 
-This article explains the entries a Telerik-enabled Web Site or Web Application has. There are several mandatory additions, and a number of optional configuration settings: 
+This article explains the entries a Telerik-enabled Web Site or Web Application has. There are several mandatory additions, and a number of optional configuration settings:
 
 
 * [Mandatory Additions to the web.config](#mandatory-additions-to-the-webconfig)
@@ -29,7 +30,7 @@ For the controls from the Telerik® UI for ASP.NET AJAX suite to function, **the
 There are several ways to add the HTTP handlers:
 
 * Use the [Configuration and Creation Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) from the [Telerik Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) can add them automatically.
-* The **Smart Tag** of each control will let you register the handlers it needs if they are not present. Not all handlers are needed by each control, so the available list may vary. 
+* The **Smart Tag** of each control will let you register the handlers it needs if they are not present. Not all handlers are needed by each control, so the available list may vary.
 * You can simply use the following code snippet (**Example 1**) and paste it into your web.config.
 
 
@@ -107,7 +108,7 @@ There are several ways to add the HTTP handlers:
 </configuration>
 ````
 
->note In case your project references the Telerik assemblies from the **GAC**, you will need to register these handlers by using the fully qualified assembly name by adding the assembly information to the type attribute (**Example 2**). 
+>note In case your project references the Telerik assemblies from the **GAC**, you will need to register these handlers by using the fully qualified assembly name by adding the assembly information to the type attribute (**Example 2**).
 >
 >If you deploy the project on a **WebFarm**/**WebGarden**, you need to change the Telerik.Web.UI.WebResource.axd type (**Example 3**). You can read more about deploying a solution that uses Telerik controls on a WebFarm or WebGarden in the [How to integrate RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden) blog post.
 >
@@ -123,7 +124,7 @@ There are several ways to add the HTTP handlers:
    verb="*" preCondition="integratedMode" />
 ````
 
-where you will need to change the Version property to the concrete version you are using and the same assembly is to be used with all handlers. 
+where you will need to change the Version property to the concrete version you are using and the same assembly is to be used with all handlers.
 
 **Example 3**: The **Telerik.Web.UI.WebResource.axd** handler type for **WebFarm/WebGarden** deployment.
 
@@ -154,9 +155,9 @@ where you will need to change the Version property to the concrete version you a
 
 ## Control Properties You Can Set From the web.config
 
-There are various control properties that you can set from the web.config for an application-wide effect. This includes [scripts CDN]({%slug scriptmanager/cdn-support/overview%}), [skins CDN]({%slug stylesheetmanager/cdn-support/overview%}), [render mode]({%slug controls/render-modes%}), [skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}), and so on. 
+There are various control properties that you can set from the web.config for an application-wide effect. This includes [scripts CDN]({%slug scriptmanager/cdn-support/overview%}), [skins CDN]({%slug stylesheetmanager/cdn-support/overview%}), [render mode]({%slug controls/render-modes%}), [skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}), and so on.
 
- Such keys are added under the `<appSettings>` section in the web.config like shown in **Example 4**. 
+ Such keys are added under the `<appSettings>` section in the web.config like shown in **Example 4**.
 
 **Example 4**: A site-wide setting added in the web.config.
 
@@ -172,53 +173,53 @@ There are various control properties that you can set from the web.config for an
 
 >tip You can [use a separate config file for the appSettings](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-read-telerik-appsettings-from-an-external-file) to declutter the web.config.
 
-You can add any of the keys below in a similar fashion. 
+You can add any of the keys below in a similar fashion.
 
 The following is a list of all available `appSettings` keys for the Telerik® UI for ASP.NET AJAX controls:
 
-* **BindGridInvisibleColumns**—when set to true, all columns in a RadGrid which have the Visible property to false will bind their data. You can read more about its use case in the [Breaking change: Hidden column cell text is not persisted in ViewState](https://www.telerik.com/forums/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate) forum thread. 
+* **BindGridInvisibleColumns**—when set to true, all columns in a RadGrid which have the Visible property to false will bind their data. You can read more about its use case in the [Breaking change: Hidden column cell text is not persisted in ViewState](https://www.telerik.com/forums/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate) forum thread.
 
-* **CSApiKey**—the key provided by _https://www.appgate.com/_ . Required for using the [Accessibility Compliance Check RadEditor Dialog]({%slug editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog%}) . 
+* **CSApiKey**—the key provided by _https://www.appgate.com/_ . Required for using the [Accessibility Compliance Check RadEditor Dialog]({%slug editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog%}) .
 
-* **KeepOriginalOrderOfScriptDescriptorsDuringAjax**—when set to true, the original order of the  statements of the controls that participate in the partial page rendering will be preserved in case RadAjaxManager or RadAjaxPanel is used. Otherwise, the order will be reversed. You can read more about this in the [Tips and tricks for ajaxifying specific controls]({%slug ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls%}) help article. 
+* **KeepOriginalOrderOfScriptDescriptorsDuringAjax**—when set to true, the original order of the  statements of the controls that participate in the partial page rendering will be preserved in case RadAjaxManager or RadAjaxPanel is used. Otherwise, the order will be reversed. You can read more about this in the [Tips and tricks for ajaxifying specific controls]({%slug ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls%}) help article.
 
-* **Telerik.AsyncUpload.ConfigurationEncryptionKey**—lets you set a custom encryption key RadAsyncUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
+* **Telerik.AsyncUpload.ConfigurationEncryptionKey**—lets you set a custom encryption key RadAsyncUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article.
 
-* **Telerik.AsyncUpload.TemporaryFolder**—lets you set the temporary folder RadAsyncUpload uses on an application level. You can read more about this feature in the [RadAsyncUpload Overview]({%slug asyncupload/overview%}) help article. 
+* **Telerik.AsyncUpload.TemporaryFolder**—lets you set the temporary folder RadAsyncUpload uses on an application level. You can read more about this feature in the [RadAsyncUpload Overview]({%slug asyncupload/overview%}) help article.
 
-* **Telerik.EnableEmbeddedBaseStylesheet**—lets you disable the embedded base stylesheets for all Telerik controls in the application by setting it to false. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the base stylesheet is. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article. 
+* **Telerik.EnableEmbeddedBaseStylesheet**—lets you disable the embedded base stylesheets for all Telerik controls in the application by setting it to false. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the base stylesheet is. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
 
-* **Telerik.EnableEmbeddedScripts**—lets you disable the embedded scripts for all Telerik controls in the application by setting it to false. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article. 
+* **Telerik.EnableEmbeddedScripts**—lets you disable the embedded scripts for all Telerik controls in the application by setting it to false. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
 
-* **Telerik.EnableEmbeddedSkins**—lets you disable the embedded skin-specific stylesheets for all Telerik controls in the application by setting it to false. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the skin-specific stylesheet is. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article. 
+* **Telerik.EnableEmbeddedSkins**—lets you disable the embedded skin-specific stylesheets for all Telerik controls in the application by setting it to false. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the skin-specific stylesheet is. You can read more about disabling the embedded resources in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
 
-* **Telerik.ScriptManager.EnableEmbeddedjQuery**—lets you disable the embedded jQuery that comes with the Telerik controls by setting it to false. You can read more about this feature in the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article. 
+* **Telerik.ScriptManager.EnableEmbeddedjQuery**—lets you disable the embedded jQuery that comes with the Telerik controls by setting it to false. You can read more about this feature in the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article.
 
-* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption as well as hides the version <!-- 20xx.x.xxx.xx --> of Telerik.Web.UI in the rendered output. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article. 
+* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption as well as hides the version <!-- 20xx.x.xxx.xx --> of Telerik.Web.UI in the rendered output. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article.
 
-* **Telerik.ScriptManager.TelerikCdn**—lets you enable the scripts CDN support in RadScriptManager globally for the application by setting it to true. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
+* **Telerik.ScriptManager.TelerikCdn**—lets you enable the scripts CDN support in RadScriptManager globally for the application by setting it to true. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article.
 
-* **Telerik.ScriptManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
-* **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
-* **Telerik.ScriptManager.TelerikCdn.CombinedScript**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.CombinedScript**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) article.
 
-* **Telerik.StyleSheetManager.TelerikCdn**—lets you enable the skins (css and images) CDN support in RadStyleSheetManager globally for the application by setting it to true. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
+* **Telerik.StyleSheetManager.TelerikCdn**—lets you enable the skins (css and images) CDN support in RadStyleSheetManager globally for the application by setting it to true. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article.
 
-* **Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the skins (css and images) CDN for the entire application. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
+* **Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the skins (css and images) CDN for the entire application. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article.
 
-* **Telerik.StyleSheetManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the skins (css and images) CDN for the entire application. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
+* **Telerik.StyleSheetManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the skins (css and images) CDN for the entire application. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article.
 
-* **Telerik.StyleSheetManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (styles) or let each control request its styles separately. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
+* **Telerik.StyleSheetManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (styles) or let each control request its styles separately. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) article.
 
-* **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article. 
+* **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article.
 
 * **Telerik.Upload.AllowedCustomMetaDataTypes**—lets you whitelist custom file uploads metadata. Read more in [RadAsyncUpload Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).
 
-* **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload and RadCloudUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article. 
+* **Telerik.Upload.ConfigurationHashKey**—lets you set an additional encryption key RadAsyncUpload and RadCloudUpload will use for sending its configuration to the client. Read more in the [RadAsyncUpload Security]({%slug asyncupload-security %}) help article.
 
-* **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
+* **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article.
 
 * **Telerik.Web.CaptchaDenyAudioHandler**—lets you to disable requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%}) article.
 
@@ -226,19 +227,19 @@ The following is a list of all available `appSettings` keys for the Telerik® UI
 
 * **Telerik.Web.DisableCloudUploadHandler**—lets you disable requests to the built-in file upload handler of **RadCloudUpload**. You can read more in the [RadCloudUpload Security]({%slug cloudupload-security%}) article.
 
-* **Telerik.Web.SkinsAssembly**—in order to load skins from an external assembly, you need to register its name via this key. You can read more about using external skins assemblies in the [How to Load Skins from External Assemblies]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) article and you may also find useful the [RadSkinManager]({%slug controls/radskinmanager%}) control. 
+* **Telerik.Web.SkinsAssembly**—in order to load skins from an external assembly, you need to register its name via this key. You can read more about using external skins assemblies in the [How to Load Skins from External Assemblies]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) article and you may also find useful the [RadSkinManager]({%slug controls/radskinmanager%}) control.
 
-* **Telerik.Web.UI.DialogParametersEncryptionKey**—lets you set a static key that RadEditor will use when deserializing its dialog parameters. By default, this key is randomly generated each time the application recycles. You can read more about its use in the [Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string]({%slug editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.%}) troubleshooting article. 
+* **Telerik.Web.UI.DialogParametersEncryptionKey**—lets you set a static key that RadEditor will use when deserializing its dialog parameters. By default, this key is randomly generated each time the application recycles. You can read more about its use in the [Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string]({%slug editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.%}) troubleshooting article.
 
-* **Telerik.Web.UI.ScriptFolder**—a folder in the project that hosts the external scripts combined by RadScriptManager through the Telerik.Web.UI.WebResource.axd handler. You can read more about this feature in the [Combining External Scripts]({%slug scriptmanager/combining-external-scripts%}) article. 
+* **Telerik.Web.UI.ScriptFolder**—a folder in the project that hosts the external scripts combined by RadScriptManager through the Telerik.Web.UI.WebResource.axd handler. You can read more about this feature in the [Combining External Scripts]({%slug scriptmanager/combining-external-scripts%}) article.
 
-* **Telerik.Web.UI.ScriptFolders**—a semicolon-separated list of folders in the project that host the external scripts combined by RadScriptManager through the Telerik.Web.UI.WebResource.axd handler. You can read more about this feature in the [Combining External Scripts]({%slug scriptmanager/combining-external-scripts%}) article. 
+* **Telerik.Web.UI.ScriptFolders**—a semicolon-separated list of folders in the project that host the external scripts combined by RadScriptManager through the Telerik.Web.UI.WebResource.axd handler. You can read more about this feature in the [Combining External Scripts]({%slug scriptmanager/combining-external-scripts%}) article.
 
-* **Telerik.Web.UI.StyleSheetFolder**—a folder in the project that hosts the external stylesheets combined by RadStyleSheetManager and RadSkinManager. This key must be set in order for these controls to work with custom skins. You can read more about the feature in the [RadSkinManager]({%slug controls/radskinmanager%}) and [Serving external style sheets]({%slug stylesheetmanager/serving-external-style-sheets%}) articles. 
+* **Telerik.Web.UI.StyleSheetFolder**—a folder in the project that hosts the external stylesheets combined by RadStyleSheetManager and RadSkinManager. This key must be set in order for these controls to work with custom skins. You can read more about the feature in the [RadSkinManager]({%slug controls/radskinmanager%}) and [Serving external style sheets]({%slug stylesheetmanager/serving-external-style-sheets%}) articles.
 
-* **Telerik.Web.UI.StyleSheetFolders**—a semicolon-separated list of folders in the project that hosts the external stylesheets combined by RadStyleSheetManager and RadSkinManager. This key must be set in order for these controls to work with custom skins. You can read more about the feature in the [RadSkinManager]({%slug controls/radskinmanager%}) and [Serving external style sheets]({%slug stylesheetmanager/serving-external-style-sheets%}) articles. 
+* **Telerik.Web.UI.StyleSheetFolders**—a semicolon-separated list of folders in the project that hosts the external stylesheets combined by RadStyleSheetManager and RadSkinManager. This key must be set in order for these controls to work with custom skins. You can read more about the feature in the [RadSkinManager]({%slug controls/radskinmanager%}) and [Serving external style sheets]({%slug stylesheetmanager/serving-external-style-sheets%}) articles.
 
-* **UseGridNativeEditorsInMobileMode**—lets you disable the native browser editors and use the Telerik editors for a RadGrid in Mobile RenderMode by setting it to false. You can read more about this feature in the [Data Editing on Mobile Devices]({%slug grid/mobile-support/mobile-rendering/data-editing%}) article. 
+* **UseGridNativeEditorsInMobileMode**—lets you disable the native browser editors and use the Telerik editors for a RadGrid in Mobile RenderMode by setting it to false. You can read more about this feature in the [Data Editing on Mobile Devices]({%slug grid/mobile-support/mobile-rendering/data-editing%}) article.
 
 
 **Example 5**: A sample that shows how you can set all of the available appSettings keys for the Telerik controls.
@@ -290,9 +291,9 @@ This section lists optional control-specific settings that you can configure in 
 
 ### RadScheduler
 
-You can set the RadScheduler data provider in the web.config file as shown in **Example 6** and **7**. 
+You can set the RadScheduler data provider in the web.config file as shown in **Example 6** and **7**.
 
-**RadScheduler** is designed to be used with providers configured in a custom section of the web.config file. The custom section requires a handler that is included in the Telerik.Web.UI assembly. 
+**RadScheduler** is designed to be used with providers configured in a custom section of the web.config file. The custom section requires a handler that is included in the Telerik.Web.UI assembly.
 
 **Example 6**: How to configure a custom section:
 
@@ -326,7 +327,7 @@ You can set the RadScheduler data provider in the web.config file as shown in **
 
 ### RadMediaPlayer
 
-You can add RadMediaPlayer MIME settings to the web.config file: 
+You can add RadMediaPlayer MIME settings to the web.config file:
 
 **Example 8**: Adding the respective MIME settings:
 
@@ -345,9 +346,9 @@ You can add RadMediaPlayer MIME settings to the web.config file:
 Apart from enabling [RadCompression]({%slug controls/radcompression%}), you can also configure its features:
 
 #### RadCompression and full postbacks
-	
+
 **Example 9**: Enable the RadCompression for regular postbacks:
-		
+
 ````XML
 <configSections>
 
@@ -369,7 +370,7 @@ Due to the fact that the **RadCompression**  module takes advantage of the **ASP
 * **ControlState** - by default, the **SessionPageStatePersister** doesn't add the **ControlState** to the **Session** so you may need to add it manually:
 
 	**Example 11**: Set the control state in Session:
-	
+
 ````XML
 <system.web>
   <browserCaps>
@@ -381,7 +382,7 @@ Due to the fact that the **RadCompression**  module takes advantage of the **ASP
 ````
 
 
-* **Page history** - in applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the **Session**. The default value of the history size is 9. 
+* **Page history** - in applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the **Session**. The default value of the history size is 9.
 
 **Example 12**: Configure the amount of pages that are persisted in Session:
 
@@ -431,7 +432,7 @@ You can configure what is the maximum allowed file upload size:
 **Example 15**: Settings for IIS7:
 
 ````XML
-<system.webServer> 
+<system.webServer>
   <security>
     <requestFiltering>
       <requestLimits maxAllowedContentLength="1024000000" />
@@ -439,4 +440,4 @@ You can configure what is the maximum allowed file upload size:
   </security>
 </system.webServer>
 ````
-
+ 

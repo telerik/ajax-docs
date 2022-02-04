@@ -3,7 +3,8 @@ title: Customizing Control Behavior
 page_title: Customize Control Behavior
 description: Check our Web Forms article about Customize Control Behavior.
 slug: getting-started/customize-control-behavior
-tags: Customize Control Behavior
+tags: customize, control, behavior
+previous_url: getting-started/customize-control-behavior
 published: True
 position: 4
 ---

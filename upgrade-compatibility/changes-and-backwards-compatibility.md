@@ -3,7 +3,7 @@ title: Changes and Backwards Compatibility
 page_title: Changes and Backwards Compatibility
 description: Check our Web Forms article about Changes and Backwards Compatibility.
 slug: controls/changes-and-backwards-compatibility
-previous_url: what's-new-and-backwards-compatibility
+previous_url: what's-new-and-backwards-compatibility, general-information/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
 previous_url: controls/changes-and-backwards-compatibility
 published: True
@@ -134,7 +134,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## Telerik RadAjax for ASP.NET AJAX Q1 2009#
 ````ASPNET
-<telerik:RadAjaxLoadingPanel id="LoadingPanel1" Runat="server" Skin=""> <asp:Image id="Image1" runat="server" ImageUrl="~/loading1.gif" > </asp:Image></telerik:RadAjaxLoadingPanel> 
+<telerik:RadAjaxLoadingPanel id="LoadingPanel1" Runat="server" Skin=""> <asp:Image id="Image1" runat="server" ImageUrl="~/loading1.gif" > </asp:Image></telerik:RadAjaxLoadingPanel>
 ````
 
 
@@ -170,7 +170,7 @@ In this version of the control, a number of changes have been made with respect 
 
 * Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic]({%slug grid/appearance-and-styling/modifying-existing-skins%}) from the documentation for more info about the changes and [this forum thread](https://www.telerik.com/community/forums/aspnet-ajax/grid/radgrid-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary. Below is the most important part of it: CSS Classes Description
 
- Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins CSS classes signature conforms to the same concepts): 
+ Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins CSS classes signature conforms to the same concepts):
 
 
 
@@ -292,7 +292,7 @@ In this version of the control, a number of changes have been made with respect 
 
 * The **FullScreenMode** property is now obsolete.
 
-## 
+##
 
 **Telerik® UI for ASP.NET AJAX Q3 2008**
 
@@ -347,7 +347,7 @@ with this one:
 |`<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Charting" TagPrefix="telerik" %>`|
 
 
-## 
+##
 
 **Telerik RadEditor for ASP.NET AJAX Q3 2008**
 
@@ -388,7 +388,7 @@ All custom skins will stop working, however, migrating is very easy, by followin
 
 **RadInputManager** styles: * RadInputMgr_Skin(common CSS class), RadInput_Empty_Skin, RadInput_Enabled_Skin, RadInput_Hover_Skin, RadInput_Focused_Skin, RadInput_Disabled_Skin, RadInput_Negative_Skin and RadInput_Error_Skin *
 
-## 
+##
 
 **Telerik RadSlider for ASP.NET AJAX Q3 2008 and before**
 

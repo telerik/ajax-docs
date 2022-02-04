@@ -3,7 +3,8 @@ title: FIPS Compatibility
 page_title: FIPS Compatibility
 description: Check our Web Forms article about FIPS Compatibility.
 slug: controls/fips-compatibility
-tags: fips,compatibility
+tags: fips, compatibility
+previous_url: general-information/fips-compatibility
 published: True
 previous_url: controls/fips-compatibility
 position: 10
@@ -41,9 +42,9 @@ In this case, you may need to change the default algorithms to 3DES, as shown be
 >caption How to get FIPS-compliance running under .NET 3.5
 
 ````ASPNET
-<machineKey validationKey="AutoGenerate,IsolateApps" 
-     decryptionKey="AutoGenerate,IsolateApps" 
-     validation="3DES" 
+<machineKey validationKey="AutoGenerate,IsolateApps"
+     decryptionKey="AutoGenerate,IsolateApps"
+     validation="3DES"
      decryption="3DES" />
 ````
 
@@ -62,11 +63,11 @@ This includes Word and all Excel export formats, but not PDF.
 
 The **PDF export** is **FIPS**-compliant as of **Q2 2013**.
 
-**Under .NET 3.5**, **FIPS-compliance cannot be guaranteed as of R1 2017**. Since this version, the Telerik.Web.UI assembly uses the HMACSHA256 algorithm to provide secure encryption. This algorithm is not recognized by .NET 3.5 as FIPS-compliant. 
+**Under .NET 3.5**, **FIPS-compliance cannot be guaranteed as of R1 2017**. Since this version, the Telerik.Web.UI assembly uses the HMACSHA256 algorithm to provide secure encryption. This algorithm is not recognized by .NET 3.5 as FIPS-compliant.
 
 The algorithms .NET 3.5 recognizes are considered outdated and weak, and we cannot fall back to them, because this will compromise security. The best advice we can offer is that you upgrade to a newer version of .NET, at least to .NET 4.0.
 
-Thus, under .NET 3.5 you may get an exception similar to the following, and the solution is to upgrade to .NET 4.0 or later. 
+Thus, under .NET 3.5 you may get an exception similar to the following, and the solution is to upgrade to .NET 4.0 or later.
 
 > `This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms.`
 

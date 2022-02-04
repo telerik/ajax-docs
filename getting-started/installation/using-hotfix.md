@@ -1,14 +1,15 @@
 ---
-title: Using the HOTFIX (DLLs and Scripts/Skins Only)
-page_title: Using the HOTFIX (DLLs and Scripts/Skins Only)
+title: Using the HOTFIX Files
+page_title: Using the HOTFIX Files
 description: Check our Web Forms article about Using the HOTFIX (DLLs and Scripts/Skins Only).
 slug: introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)
 tags: hotfix
+previous_url: installation/Using-the-HOTFIX
 published: True
 position: 4
 ---
 
-# Using the HOTFIX (DLLs and Scripts/Skins Only)
+# Using the HOTFIX Files
 
 
 The **HOTFIX** archive is a bare-bones upgrade option for our controls - it contains only those files you might need to replace in your project to upgrade to the new version of Telerik controls. If you are already using Telerik products and just want to update, download the latest **HOTFIX** and apply it. The **HOTFIX** archive contains the following files:

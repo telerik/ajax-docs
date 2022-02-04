@@ -6,7 +6,7 @@ slug: introduction/installation/installing-the-telerik-controls-from-a-nuget-pac
 previous_url: installation/installing-the-telerik-controls-from-nuget-package
 tags: installing, telerik, controls, nuget, package
 published: True
-position: 2
+position: 3
 ---
 
 # First Steps by Installing from a NuGet Package

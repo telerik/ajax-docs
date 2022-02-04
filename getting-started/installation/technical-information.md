@@ -4,7 +4,8 @@ page_title: Technical Information
 description: Check our Web Forms article about Technical Information.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/system-requirements-and-browser-support
 previous_url: introduction-system-requirements
-tags: system,requirements,and,browser,support
+tags: system, requirements, and, browser, support
+previous_url: general-information/technical-information
 published: True
 position: 0
 ---

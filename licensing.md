@@ -7,7 +7,7 @@ previous_url: licensing/licensing
 tags: license, agreement
 previous_url: licensing/license-agreement, licensing/trial-license-limitations, licensing/license-file
 published: True
-position: 0
+position: 20
 ---
 
 # Licensing

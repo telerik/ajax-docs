@@ -4,13 +4,14 @@ page_title: Get Client-side Reference to a Control Object
 description: Check our Web Forms article about Shows several ways to get a client-side reference to an instance of a control.
 slug: general-information/get-client-side-reference
 tags: client, side, client-side, instance, get, reference, javascript, js, events, ajax, find
+previous_url: general-information/get-client-side-reference
 published: True
 position: 3
 ---
 
 # Get Client-side Reference to a Control Object
 
-This article shows how to get a client-side reference to a **Telerik® UI for ASP.NET AJAX** control and use its client-side API. 
+This article shows how to get a client-side reference to a **Telerik® UI for ASP.NET AJAX** control and use its client-side API.
 
 You can quickly navigate through the sections from here:
 * [Using the MS AJAX Approach](#using-the-ms-ajax-approach)
@@ -92,7 +93,7 @@ This means you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/b
 
 ## Using jQuery Selectors
 
-Often controls are added via user controls, content templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not possible). In such scenarios, IDs are generated dynamically and getting the client-side reference from master or parent pages cannot be done by accessing the `ClientID` property of the control's server-side instance. 
+Often controls are added via user controls, content templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not possible). In such scenarios, IDs are generated dynamically and getting the client-side reference from master or parent pages cannot be done by accessing the `ClientID` property of the control's server-side instance.
 
 With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use the [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance even by using the server-side ID only.
 
@@ -198,17 +199,17 @@ End Sub
 ## See Also
 
 * MSDN - [IScriptControl interface](https://msdn.microsoft.com/en-us/library/system.web.ui.iscriptcontrol(v=vs.110).aspx)
- 
+
 * MSDN - [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)
- 
+
 * MSDN - [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx)
- 
+
 * MSDN - [Sys.Application.findComponent](https://msdn.microsoft.com/library/bb397522(v=vs.100).aspx)
- 
+
 * MSDN - [$get()](https://msdn.microsoft.com/library/bb397717(v=vs.100).aspx)
- 
+
 * MDN - [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
- 
+
 * jQuery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
 
 * jQuery [$(document).ready event](https://api.jquery.com/ready/)
@@ -218,4 +219,3 @@ End Sub
 * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
 
 * [Access Telerik Controls on Client-Side](https://www.telerik.com/support/kb/aspnet-ajax/details/access-telerik-controls-on-client-side)
-
