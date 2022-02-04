@@ -27,18 +27,6 @@ navigation:
     "general-information":
         title: "General Information"
         position: 4
-    "general-information/integration-with-visual-studio":
-        title: "Integration with Visual Studio"
-        position: 10
-    "general-information/integration-with-visual-studio/typescript-definitions":
-        title: "TypeScript Definitions"
-        position: 2
-    "general-information/integration-with-visual-studio/visual-studio-extensions":
-        title: "Visual Studio Extensions"
-        position: 3
-    "general-information/using-jquery":
-        title: "Using jQuery"
-        position: 12
     "general-information/troubleshooting":
         title: "Troubleshooting"
         position: 14
@@ -54,116 +42,12 @@ navigation:
     "shared-utilities":
         title: "Shared Utilities"
         position: 13
-    "integration-with-other-telerik-products":
-        title: "Integration with Other Telerik Products"
-        position: 18
-    "mvc":
-        title: "Integration with ASPNET MVC"
-        position: 19
-    "integration-with-other-telerik-products/testing-with-test-studio":
-        title: "Automated Testing with Test Studio"
-        position: 1
-    "integration-with-other-telerik-products/document-processing":
-        title: "Document Processing Libraries"
-        position: 2
-    "integration-with-other-telerik-products/document-processing/pdfprocessing":
-        title: "PdfProcessing"
-        position: 1
-    "integration-with-other-telerik-products/document-processing/spreadprocessing":
-        title: "SpreadProcessing"
-        position: 2
-    "integration-with-other-telerik-products/document-processing/spreadstreamprocessing":
-        title: "SpreadStreamProcessing"
-        position: 3
-    "integration-with-other-telerik-products/document-processing/wordsprocessing":
-        title: "WordsProcessing"
-        position: 4
-    "integration-with-other-telerik-products/document-processing/ziplibrary":
-        title: "ZipLibrary"
-        position: 5
-    "sharepoint":
-        title: "Integration with SharePoint"
-        position: 20
-    "sharepoint/2010":
-        title: "SharePoint 2010"
-        position: 1
-    "sharepoint/troubleshooting":
-        title: "Troubleshooting"
-        position: 5
-    "sharepoint/2010/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "sharepoint/2010/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "sharepoint/2010/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
-    "sharepoint/2010/radeditor-web-part/migration-and-upgrade":
-        title: "Migration and upgrade"
-        position: 3
-    "sharepoint/2010/radeditor-web-part/configuration":
-        title: "Configuration"
-        position: 4
-    "sharepoint/2010/radeditor-web-part/dropdowns":
-        title: "DropDowns"
-        position: 5
-    "sharepoint/2010/radeditor-web-part/dialogs":
-        title: "Dialogs"
-        position: 6
-    "sharepoint/2010/radeditor-web-part/customization":
-        title: "Customization"
-        position: 7
-    "sharepoint/2010/radgrid-web-part":
-        title: "RadGrid Web Part"
-        position: 2
-    "sharepoint/2010/radlistview-web-part":
-        title: "RadListView Web Part"
-        position: 3
-    "sharepoint/2010/radscheduler-web-part":
-        title: "RadScheduler Web Part"
-        position: 4
-    "sharepoint/2013":
-        title: "SharePoint 2013"
-        position: 2
-    "sharepoint/2013/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "sharepoint/2013/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "sharepoint/2013/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
-    "sharepoint/2016":
-        title: "SharePoint 2016"
-        position: 3
-    "sharepoint/online":
-        title: "SharePoint Online (Office 365)"
-        position: 4
     "licensing":
         title: "Licensing"
         position: 29
     "styling":
         title: "Styles & Appearance"
         position: 14
-    "integration":
-        title: "Integration"
-        position: 15
-    "integration/jquery":
-        title: "jQuery"
-    "integration/sharepoint":
-        title: "Sharepoint"
-    "integration/telerik-products":
-        title: "Telerik Products"
-    "integration/visual-studio":
-        title: "Visual Studio"
-    "upgrade-compatibility":
-        title: "Upgrade & Compatibility"
-        position: 16
-    "upgrade-compatibility/upgrading-instructions":
-        title: "Upgrading"
-        position: 10
     "styling/controlling-visual-appearance":
         title: "Controlling the Appearance"
         position: 10
@@ -173,6 +57,98 @@ navigation:
     "styling/theme-builder":
         title: "Theme Builder"
         position: 30
+    "integration":
+        title: "Integration"
+        position: 15
+    "integration/jquery":
+        title: "jQuery"
+    "integration/sharepoint":
+        title: "Sharepoint"
+    "integration/sharepoint/2010":
+        title: "SharePoint 2010"
+        position: 3
+    "integration/sharepoint/troubleshooting":
+        title: "Troubleshooting"
+        position: 5
+    "integration/sharepoint/2010/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "integration/sharepoint/2010/radeditor-web-part":
+        title: "Editor Web Part"
+        position: 1
+    "integration/sharepoint/2010/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
+    "integration/sharepoint/2010/radeditor-web-part/migration-and-upgrade":
+        title: "Migration and Upgrade"
+        position: 3
+    "integration/sharepoint/2010/radeditor-web-part/configuration":
+        title: "Configuration"
+        position: 4
+    "integration/sharepoint/2010/radeditor-web-part/dropdowns":
+        title: "DropDowns"
+        position: 5
+    "integration/sharepoint/2010/radeditor-web-part/dialogs":
+        title: "Dialogs"
+        position: 6
+    "integration/sharepoint/2010/radeditor-web-part/customization":
+        title: "Customization"
+        position: 7
+    "integration/sharepoint/2010/radgrid-web-part":
+        title: "Grid Web Part"
+        position: 2
+    "integration/sharepoint/2010/radlistview-web-part":
+        title: "ListView Web Part"
+        position: 3
+    "integration/sharepoint/2010/radscheduler-web-part":
+        title: "Scheduler Web Part"
+        position: 4
+    "integration/sharepoint/2013":
+        title: "SharePoint 2013"
+        position: 2
+    "integration/sharepoint/2013/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "integration/sharepoint/2013/radeditor-web-part":
+        title: "Editor Web Part"
+        position: 1
+    "integration/sharepoint/2013/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
+    "integration/sharepoint/2016":
+        title: "SharePoint 2016"
+        position: 1
+    "integration/sharepoint/online":
+        title: "SharePoint Online (Office 365)"
+        position: 4
+    "integration/telerik-products":
+        title: "Telerik Products"
+    "integration/telerik-products/testing-with-test-studio":
+        title: "Automated Testing with Test Studio"
+    "integration/telerik-products/document-processing":
+        title: "Document Processing Libraries"
+    "integration/telerik-products/document-processing/pdfprocessing":
+        title: "PdfProcessing"
+    "integration/telerik-products/document-processing/spreadprocessing":
+        title: "SpreadProcessing"
+    "integration/telerik-products/document-processing/spreadstreamprocessing":
+        title: "SpreadStreamProcessing"
+    "integration/telerik-products/document-processing/wordsprocessing":
+        title: "WordsProcessing"
+    "integration/telerik-products/document-processing/ziplibrary":
+        title: "ZipLibrary"
+    "integration/visual-studio":
+        title: "Visual Studio"
+    "integration/visual-studio/typescript-definitions":
+        title: "TypeScript Definitions"
+    "integration/visual-studio/visual-studio-extensions":
+        title: "Visual Studio Extensions"
+    "upgrade-compatibility":
+        title: "Upgrade & Compatibility"
+        position: 16
+    "upgrade-compatibility/upgrading-instructions":
+        title: "Upgrading"
+        position: 10
     "api":
         title: "API Reference"
         position: 30
