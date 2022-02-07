@@ -49,7 +49,9 @@ Unfortunately in the case of ImageButtons and server buttons, by the time the MS
 ### Solution for <asp:Button> controls:
 In order to fix the problem you will have to set the "submit" button's property **UseSubmitBehavior="false"**, e.g.
 
+````ASP.NET
 <asp:Button UseSubmitBehavior="false" ID="Button1" runat="server" OnClick="btnSave_Click" Text="Save" />
+````
 
 OR use <telerik:RadAjaxPanel> instead of <asp:UpdatePanel>. RadAjaxPanel will add the **UseSubmitBehavior="false"** behavior automatically to all push buttons.
 
