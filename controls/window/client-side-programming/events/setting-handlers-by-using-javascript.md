@@ -110,7 +110,7 @@ You can set client events for **RadWindow** on the client via JavaScript by usin
 
 	function OnClientActivate(sender, eventArgs)
 	{
-		LogEvent("<strong>OnClientActivate</strong>: RadWindow is activated.");
+		logEvent("<strong>OnClientActivate</strong>: RadWindow is activated.");
 	}
 
 	function OnClientBeforeClose(sender, eventArgs)
@@ -123,7 +123,7 @@ You can set client events for **RadWindow** on the client via JavaScript by usin
 		logEvent("<strong>OnClientClose</strong>: RadWindow is closed");
 	}
 
-	function OnClientshow(sender, eventArgs)
+	function OnClientShow(sender, eventArgs)
 	{
 		logEvent("<strong>OnClientShow</strong>: RadWindow is shown.");
 	}
@@ -140,7 +140,7 @@ You can set client events for **RadWindow** on the client via JavaScript by usin
 	/**************************************************
 	Helper
 	*************************************************/
-	function LogEvent(eventString)
+	function logEvent(eventString)
 	{
 		var d = new Date();
 		var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
