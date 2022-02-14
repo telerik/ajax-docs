@@ -1,45 +1,48 @@
 ---
 title: Available Product Files
 page_title: Available Product Files
-description: Check our Web Forms article about Which File Do I Need to Install?.
+description: "Learn about what the product files that are available for download contain before you start working with the Telerik UI for ASP.NET AJAX controls."
 slug: installation/which-file-do-i-need-to-install
-tags: which,file,install
+tags: which, file, to, install, available, product, files
 published: True
-position: 0
+position: 2
 ---
 
-# Which File Do I Need to Install?
+# Available Product Files
 
+Telerik UI for ASP.NET AJAX provides a set of installation package types that you can download from [the **Download** tab in your Telerik account](https://www.telerik.com/account/product-download?product=RCAJAX).
 
+## Prerequisites and Specifics
 
->caution
->
->**Prerequisite**
->
->In order to have Telerik® UI for ASP.NET AJAX running, you will need to have ASP.NET Web Forms installed on your development/production machine. ASP.NET Web Forms is available in the .NET 4.x+ installations. For example you can download .NET 4.8 from [here](https://dotnet.microsoft.com/download/dotnet-framework/net48).
->Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-telerik-controls-from-msi-file). If you'd like to add the controls to your project (aspx, ascx, masterpage, etc.) see [Add the Controls to Your Project](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/adding-the-telerik-controls-to-your-project).
+* Install ASP.NET Web Forms on your development or production machine. ASP.NET Web Forms are available in the .NET 4.x+ installations. For example, to download .NET 4.8, go to [https://dotnet.microsoft.com/download/dotnet-framework/net48](https://dotnet.microsoft.com/download/dotnet-framework/net48).
 
-Telerik provides the following installation package types that you can download from [here](https://www.telerik.com/account/product-download?product=RCAJAX):
+* During an [MSI installation]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file %}), the Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox. To add the controls to your project (aspx, ascx, masterpage, and so on), refer to the article on [adding the controls to your project]({% slug getting-started/adding-the-telerik-controls-to-your-project %}).
 
-* [MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) file for automatic installation. The Windows Installer Package (**MSI**) files are intended for easy and automatic installation of a product. The **MSI** installer unpacks the controls on your computer in a folder named Telerik in your Program Files. Additionally, the installer package adds the Telerik® UI for ASP.NET AJAX help files to your VS.NET IDE and to your local copy of [MSDN](https://msdn.microsoft.com/) (if you have one installed). If selected in the Feature Selection screen, the installer automatically adds Telerik® UI for ASP.NET AJAX Visual Studio Extensions and populates your Visual Studio Toolbox with the Telerik controls.
+## Package Types
 
-* [ZIP]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file for manual (advanced) installation. The **ZIP** is used for manual (advanced) installs and for upgrading/updating purposes. The folder structure is different from the Windows Installer (**MSI**) package. You need to be familiar with ASP.NET, IIS, setting permissions and creating virtual folders. It is a common practice to unpack the manual installation ZIP file directly to **inetpub/wwwroot**. Use the ZIP file for [deploying on shared hosting]({%slug introduction/deployment/deploying-on-shared-hosting%}).
+The Telerik UI for ASP.NET AJAX delivers the following available package types:
 
-* [DLL files only (a.k.a. HOTFIX)]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) for updating/upgrading a product to a newer version. This is a bare-bones upgrade option for our controls. The hotfix contain only the files that your Web Project needs to run correctly. Besides the assemblies, it contains the latest JavaScript files and skins (if you've needed to use these as external files), the up-to-date RadEditor dialogs and RadSpell dictionaries.
+* An [MSI file]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) for automatic installation. The Windows Installer Package (**MSI**) files are intended for easy and automatic installation of a product. The **MSI** installer unpacks the controls on your computer in a folder named **Telerik** in your `Program Files`. Additionally, the installer package adds the Telerik UI for ASP.NET AJAX help files to your VS.NET IDE and to your local copy of [MSDN](https://msdn.microsoft.com/) if you have one installed. If selected from the **Feature Selection** screen, the installer will automatically add the Telerik UI for ASP.NET AJAX Visual Studio Extensions and populate your Visual Studio Toolbox with the Telerik controls.
 
-* [NuGet package]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}) Telerik provides a NuGet feed that you can use to download only the necessary assemblies to get the project running. Additionally, you can also download the *.nupkg* files from Your Account in order to create a private company feed.
+  If you already have Telerik controls installed by the MSI package, you can safely install an updated version&mdash;the installer will keep your existing installation. The new files will be placed in a separate folder and the new installation will not damage the common installer files. For more information and examples, refer to the article on [major and minor releases installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%}).
 
-* Source code (for licensed users only) is distributed as an archive named Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Source.zip and may be handy for educational or customization purposes of the controls. It may be also useful in scenarios when you'd like to check the private API of the controls as well as if there is some undocumented functionality.
+  The latest `MSI` package available for download has already all updates/HOTFIXES applied and you don't need to update it further.
 
->note The latest **MSI** and **ZIP** packages available for download already have all updates/HOTFIXES applied. There is no need to update them further.
+* A [ZIP library]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}) file for manual (advanced) installation. The **ZIP** is used for manual (advanced) installations and for upgrading or updating purposes. The folder structure is different from the Windows Installer (**MSI**) package. You need to be familiar with ASP.NET, IIS, setting permissions, and creating virtual folders. It is a common practice to unpack the manual installation ZIP file directly to `inetpub/wwwroot`. To [deploy on shared hosting]({%slug introduction/deployment/deploying-on-shared-hosting%}), use the ZIP file.
 
-If you already have Telerik controls installed by the MSI package, you can safely install an updated version&mdash;the installer will keep your existing installation. The new files will be placed in a separate folder and the new installation does not damage the common installer files. You can find more information and examples in the [Major and Minor Releases Installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%}) help article.
+  The latest `ZIP` package available for download has already all updates/HOTFIXES applied and you don't need to update it further.
+
+* [DLL files only (or HOTFIX)]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) for updating or upgrading a product to a later version. This is a bare-bones upgrade option for the controls. The `HOTFIX` contains only the files that your Web Project needs to run correctly. Besides the assemblies, it contains the latest JavaScript files and skins (if you've needed to use these as external files), the up-to-date Editor dialogs, and Spell dictionaries.
+
+* A [NuGet package]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}). Telerik provides a NuGet feed that you can use to download only the necessary assemblies to get the project running. Additionally, you can also download the `.nupkg` files from your Telerik account to create a private company feed.
+
+* (For licensed users only) The source code is distributed as an archive named `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Source.zip` and may be handy for educational or customization purposes of the controls. It may also be useful for checking the private API of the controls or if there is some undocumented functionality.
 
 ## See Also
 
- * [Installing the Telerik Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+ * [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
 
- * [Installing the Telerik Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
+ * [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
 
  * [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
 
