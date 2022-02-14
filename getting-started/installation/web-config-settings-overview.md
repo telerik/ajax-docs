@@ -1,18 +1,17 @@
 ---
-title: web.config Settings Overview
-page_title: web.config Settings Overview
-description: Check our Web Forms article about web.config Settings Overview.
+title: Setting the web.config File
+page_title: Setting the web.config File
+description: ""
 slug: general-information/web-config-settings-overview
 tags: web.config,settings,overview,handlers,required
 previous_url: general-information/web-config-settings-overview
 published: True
-position: 2
+position: 5
 ---
 
-# web.config Settings Overview
+# Setting the web.config File
 
 This article explains the entries a Telerik-enabled Web Site or Web Application has. There are several mandatory additions, and a number of optional configuration settings:
-
 
 * [Mandatory Additions to the web.config](#mandatory-additions-to-the-webconfig)
 
@@ -440,4 +439,3 @@ You can configure what is the maximum allowed file upload size:
   </security>
 </system.webServer>
 ````
- 
