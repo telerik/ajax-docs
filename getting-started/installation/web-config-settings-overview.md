@@ -1,7 +1,7 @@
 ---
 title: Setting the web.config File
 page_title: Setting the web.config File
-description: ""
+description: "Configure the mandatory additions, set the control properties, and add optional configurations to the web.config file when working with Telerik UI for ASP.NET AJAX."
 slug: general-information/web-config-settings-overview
 tags: web.config, settings, overview, handlers, required
 previous_url: general-information/web-config-settings-overview
@@ -11,7 +11,7 @@ position: 5
 
 # Setting the web.config File
 
-A Telerik-enabled web site or web application requires you to add a number configurations as well as provides optional settings that you can implement.
+A Telerik-enabled website or web application requires you to add a number configurations as well as provides optional settings that you can implement.
 
 * [Configure the mandatory additions to the `web.config` file](#configuring-mandatory-additions)
 

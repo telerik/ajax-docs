@@ -1,7 +1,7 @@
 ---
 title: Disabling Embedded Resources
 page_title: Disabling Embedded Resources
-description: Check our Web Forms article about Disabling Embedded Resources.
+description: "Disable the embedded scripts or skins for a single control or globally for your whole project when working with Telerik UI for ASP.NET AJAX."
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources
 tags: disabling,embedded,resources
 published: True
@@ -10,38 +10,31 @@ position: 1
 
 # Disabling Embedded Resources
 
+By default, the JavaScript files needed by the Telerik UI for ASP.NET AJAX controls are served as web resources, embedded in the `Telerik.Web.UI.dll` assembly.
 
+To avoid using WebResources, apply either of the following approaches:
 
-By default, JavaScript files needed by the Telerik® UI for ASP.NET AJAX controls are served as web resources (embedded in the **Telerik.Web.UI.dll** assembly).
+* Use the [Scripts CDN]({%slug scriptmanager/cdn-support/overview%}) and [Stylesheets CDN]({%slug stylesheetmanager/cdn-support/overview%}) providers Telerik offers out of the box.
 
-In some cases, you may want to avoid using WebResources, and you have two options to do that:
+* Disable the embedded scripts for the controls and add the script files as static `.js` files to your application as described in the following sections.
 
-* Use the CDN providers Telerik offers out of the box:
+It is faster and easier to [create a custom CDN provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}). Doing so will still load the scripts from static files to allow better caching, yet no custom script references must be added in the ScriptManager, nor the `EnableEmbeddedScripts` property needs to be disabled for each control.
 
-	* [Scripts CDN]({%slug scriptmanager/cdn-support/overview%})
+This article provides details on the following scenarios:
 
-	* [Stylesheets CDN]({%slug stylesheetmanager/cdn-support/overview%})
+* [Disabling embedded scripts](#disabling-embedded-scripts)
 
-* Disable the embedded scripts for the controls and add the script files as static __*.js__ files to your application, as described below.
+* [Disabling embedded skins](#disabling-embedded-skins)
 
->tip It is faster and easier to [create a custom CDN provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}). Doing so will still load the scripts from static files to allow better caching, yet no custom script references must be added in the ScriptManager, nor the EnableEmbeddedScripts property needs to be disabled for each control.
-
-This article contains the following sections:
-
-* [Disabling Embedded Scripts](#disabling-embedded-scripts)
-
-* [Disabling Embedded Skins](#disabling-embedded-skins)
-
-* [Disable Embedded Scripts/Skins for the Entire Web Site/Web Application Project](#disable-embedded-scripts/skins-for-the-entire-web-site/web-application-project)
+* [Disabling embedded scripts and skins globally](#disabling-embedded-scripts-and-skins-globally)
 
 ## Disabling Embedded Scripts
 
-For custom deployment scenarios you can specify an alternative location for JavaScript files. To do so you should set the **EnableEmbeddedScripts** property to ***false***. Then, the JavaScript files will not be loaded from the assembly.
+For custom deployment scenarios, you can specify an alternative location for JavaScript filesby setting `EnableEmbeddedScripts` to `false`. Then, the JavaScript files will not be loaded from the assembly.
 
-You will also need to add a script reference for each JavaScript file through the ScriptManager or [RadScriptManager]({%slug scriptmanager/overview%}).
+You will also need to add a script reference for each JavaScript file through the ScriptManager or the [ScriptManager]({%slug scriptmanager/overview%}).
 
-A complete list of the JavaScript files used by Telerik® UI for ASP.NET AJAX can be found below. You need to register only the JavaScript files required by the controls you are currently using. Common JavaScript files (e.g. Core.js) should be registered only once.
-
+The following is a complete list of the JavaScript files used by Telerik UI for ASP.NET AJAX. You need to register only the JavaScript files required by the controls you are currently using. Common JavaScript files (for example, `Core.js`) have to be registered only once. All JavaScript files are available in the distribution (`EXE`, `ZIP`, and `HOTFIX`) of the controls **Scripts** folder.
 
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -59,14 +52,11 @@ A complete list of the JavaScript files used by Telerik® UI for ASP.NET AJAX ca
 <telerik:RadListBox enableembeddedscripts="false" id="RadListBox1" runat="server"></telerik:RadListBox>
 ````
 
-All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of controls' "Scripts" folder.
+Note that the order of the JS files registered for most of Telerik controls is important since there are some dependencies between the JavaScript files of a single control. Therefore, it is recommended to follow the exact order of the script references from the table below.
 
->caution Note that the order of the JS files registered for most of Telerik controls is important since there are some dependencies between the JavaScript files of a single control. Therefore it is recommended to follow the exact order of the script references from the table below.
+To get the Ripple effect for the Material skin when you have disabled the embedded scripts, you need to add `<asp:ScriptReference Path="~/Scripts/Common/MaterialRippleScripts.js" />` after `<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />`. You also need to include the `Skins/Common/MaterialRipple.css` if you disable the embedded skins.
 
->note To get the Ripple Effect for the Material Skin when you have disabled the embedded scripts, you will need to add `<asp:ScriptReference Path="~/Scripts/Common/MaterialRippleScripts.js" />` after `<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />`. You also need to include the `Skins/Common/MaterialRipple.css` if you disable the embedded skins.
-
-
-* **RadAjaxLoadingPanel**
+The following example demonstrates how to set the AjaxLoadingPanel.
 
 ````ASP.NET
 <scripts>
@@ -76,7 +66,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadAjaxManager**
+The following example demonstrates how to set the AjaxManager.
 
 ````ASP.NET
 <scripts>
@@ -85,7 +75,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadAjaxPanel**
+The following example demonstrates how to set the AjaxPanel.
 
 ````ASP.NET
 <scripts>
@@ -94,7 +84,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadAsyncUpload**
+The following example demonstrates how to set the AsyncUpload.
 
 ````ASP.NET
 <Scripts>
@@ -111,7 +101,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadAutoCompleteBox**
+The following example demonstrates how to set the AutoCompleteBox.
 
 ````ASP.NET
 <scripts>
@@ -123,7 +113,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadBarcode**
+The following example demonstrates how to set the Barcode.
 
 ````ASP.NET
 <scripts>
@@ -131,7 +121,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadButton**
+The following example demonstrates how to set the Button.
 
 ````ASP.NET
 <scripts>
@@ -142,7 +132,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadCalendar**
+The following example demonstrates how to set the Calendar.
 
 ````ASP.NET
 <scripts>
@@ -153,7 +143,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadCaptcha**
+The following example demonstrates how to set the Captcha.
 
 ````ASP.NET
 <scripts>
@@ -162,7 +152,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadClientExportManager**
+The following example demonstrates how to set the ClientExportManager.
 
 ````ASP.NET
 <scripts>
@@ -178,7 +168,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadColorPicker**
+The following example demonstrates how to set the ColorPicker.
 
 ````ASP.NET
 <scripts>
@@ -190,7 +180,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadComboBox**
+The following example demonstrates how to set the ComboBox.
 
 ````ASP.NET
 <scripts>
@@ -205,7 +195,10 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadContextMenu**
+The following example demonstrates how to set the ContextMenu. Note that as of the Q1 2014, the Menu scripts are modified. For more information, refer to the [Changes and Backward Compatibility of the Menu]({%slug menu/overview%}) article.
+
+The `MobileMenuItem.js` is only needed when `RenderMode` is set to `"Auto"` or to `"Mobile"`.
+The `RadMenuItem.js` is used when `RenderMode` is set to `"Auto"`, `"Classic"`, or `"Lightweight"`. It does work in cooperation with `ClassicView.js` if the current render mode is classic, and `LiteView.js` if the render mode is lightweight.
 
 ````ASP.NET
 <scripts>
@@ -227,13 +220,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
-
->note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
-> **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
->
-
-* **RadCloudUpload**
+The following example demonstrates how to set the CloudUpload.
 
 ````ASP.NET
 <scripts>
@@ -244,7 +231,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDataPager**
+The following example demonstrates how to set the DataPager.
 
 ````ASP.NET
 <scripts>
@@ -253,7 +240,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDateInput**
+The following example demonstrates how to set the DateInput.
 
 ````ASP.NET
 <scripts>
@@ -262,7 +249,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDatePicker**
+The following example demonstrates how to set the DatePicker.
 
 ````ASP.NET
 <scripts>
@@ -277,7 +264,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDateTimePicker**
+The following example demonstrates how to set the DateTimePicker.
 
 ````ASP.NET
 <scripts>
@@ -294,7 +281,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDock**
+The following example demonstrates how to set the Dock.
 
 ````ASP.NET
 <scripts>
@@ -309,7 +296,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDropDownList**
+The following example demonstrates how to set the DropDownList.
 
 ````ASP.NET
 <scripts>
@@ -322,7 +309,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDropDownTree**
+The following example demonstrates how to set the DropDownTree.
 
 ````ASP.NET
 <scripts>
@@ -336,7 +323,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadEditor**
+The following example demonstrates how to set the Editor.
 
 ````ASP.NET
 <scripts>
@@ -371,7 +358,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadFileExplorer**
+The following example demonstrates how to set the FileExplorer.
 
 ````ASP.NET
 <scripts>
@@ -403,7 +390,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadFilter**
+The following example demonstrates how to set the Filter. Note that if you use the `datetime` or `numeric` filter fields, you will need to add the DatePicker or DateTimePicker and the NumericTextBox client scripts explicitly.
 
 ````ASP.NET
 <scripts>
@@ -417,10 +404,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-*In case you use datetime or numeric filter fields, you will need to the RadDatePicker/RadDateTimePicker and RadNumericTextBox client scripts explicitly*
-
-
-* **RadFormDecorator**
+The following example demonstrates how to set the FormDecorator.
 
 ````ASP.NET
 <scripts>
@@ -430,7 +414,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadGantt**
+The following example demonstrates how to set the Gantt.
 
 ````ASP.NET
 <Scripts>
@@ -472,7 +456,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadGauge**
+The following example demonstrates how to set the Gauge.
 
 ````ASP.NET
 <Scripts>
@@ -489,7 +473,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadGrid**
+The following example demonstrates how to set the Grid. Note that if you use features like filtering, context menus, and so on that utilize other Telerik controls like ContextMenu, DatePicker, ComboBoxes, Input, and so on, you need to register their client scripts explicitly as well.
 
 ````ASP.NET
 <scripts>
@@ -503,10 +487,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
-
-
-* **RadHtmlChart**
+The following example demonstrates how to set the HtmlChart.
 
 ````ASP.NET
 <Scripts>
@@ -536,7 +517,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadInputManager**
+The following example demonstrates how to set the InputManager.
 
 ````ASP.NET
 <scripts>
@@ -547,7 +528,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadImageEditor**
+The following example demonstrates how to set the ImageEditor.
 
 ````ASP.NET
 <scripts>
@@ -569,7 +550,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadListBox**
+The following example demonstrates how to set the ListBox.
 
 ````ASP.NET
 <scripts>
@@ -584,7 +565,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadListView**
+The following example demonstrates how to set the ListView.
 
 ````ASP.NET
 <scripts>
@@ -595,7 +576,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadMaskedTextBox**
+The following example demonstrates how to set the MaskedTextBox.
 
 ````ASP.NET
 <scripts>
@@ -605,7 +586,10 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadMenu**
+The following example demonstrates how to set the Menu. Note that as of the Q1 2014, the Menu scripts are modified. For more information, refer to the [Changes and Backward Compatibility of the Menu]({%slug menu/overview%}) article.
+
+The `MobileMenuItem.js` is only needed when `RenderMode` is set to `"Auto"` or to `"Mobile"`.
+The `RadMenuItem.js` is used when `RenderMode` is set to `"Auto"`, `"Classic"`, or `"Lightweight"`. It does work in cooperation with `ClassicView.js` if the current render mode is classic, and `LiteView.js` if the render mode is lightweight.
 
 ````ASP.NET
 <scripts>
@@ -627,14 +611,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-
->caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
-
->note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
-> **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
->
-
-* **RadMonthYearPicker**
+The following example demonstrates how to set the MonthYearPicker.
 
 ````ASP.NET
 <scripts>                  
@@ -647,7 +624,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadMultiPage**
+The following example demonstrates how to set the MultiPage.
 
 ````ASP.NET
 <scripts>
@@ -656,7 +633,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadNotification**
+The following example demonstrates how to set the Notification.
 
 ````ASP.NET
 <Scripts>
@@ -686,7 +663,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadNumericTextBox**
+The following example demonstrates how to set the NumericTextBox.
 
 ````ASP.NET
 <scripts>
@@ -696,7 +673,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadOrgChart**
+The following example demonstrates how to set the OrgChart.
 
 ````ASP.NET
 <scripts>
@@ -707,7 +684,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadPanelBar**
+The following example demonstrates how to set the PanelBar.
 
 ````ASP.NET
 <scripts>
@@ -720,7 +697,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadPivotGrid**
+The following example demonstrates how to set the PivotGrid. Note that if you use features like filtering, context menus, and so on, which utilize other Telerik controls like the ContextMenu, DatePicker, ComboBoxes, Input, and so on, you need to register their client scripts explicitly as well.
 
 ````ASP.NET
 <scripts>
@@ -737,9 +714,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
-
-* **RadRating**
+The following example demonstrates how to set the Rating.
 
 ````ASP.NET
 <scripts>
@@ -750,7 +725,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadRibbonBar**
+The following example demonstrates how to set the RibbonBar.
 
 ````ASP.NET
 <scripts>
@@ -764,7 +739,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadRotator**
+The following example demonstrates how to set the Rotator.
 
 ````ASP.NET
 <scripts>
@@ -776,7 +751,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadScheduler**
+The following example demonstrates how to set the Scheduler. Note that to use the WebAPI which is introduced in the .NET 4.5, you have to include the `WebApiLoader.js`.
 
 ````ASP.NET
 <scripts>
@@ -831,10 +806,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note Please note that in order to use the WebAPI which is introduced in the .NET 4.5 you have to include the **WebApiLoader.js**.
->
-
-* **RadSearchBox**
+The following example demonstrates how to set the SearchBox.
 
 ````ASP.NET
 <scripts>
@@ -847,7 +819,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadSocialShare**
+The following example demonstrates how to set the SocialShare.
 
 ````ASP.NET
 <scripts>
@@ -866,7 +838,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadSiteMap**
+The following example demonstrates how to set the SiteMap.
 
 ````ASP.NET
 <scripts>
@@ -874,7 +846,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadSlider**
+The following example demonstrates how to set the Slider.
 
 ````ASP.NET
 <scripts>
@@ -887,7 +859,9 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadSpell**
+The following example demonstrates how to set the Spell. Note that to add the script of the Spell dialog to the dialog (which is a separate page), you need the extra step of setting the `DialogsScriptFile` file (`<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`). To use this property, you need Telerik UI for ASP.NET AJAX version Q3 2008 SP2 or later, for example, 2008.3.1314.xx.
+
+The script file in fact needs to be a combination of four of the following installation `js` files&mdash;`Core.js`, `SpellCheckService.js`, `SpellDialog.js`, `Dialogs/DialogControlInitializer.js`, `FormDecorator/RadFormDecorator.js`, `jQuery.js`, or `jQueryPlugins.js`.
 
 ````ASP.NET
 <scripts>                  
@@ -905,20 +879,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-
->caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik® UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*.
->The script file in fact needs to be a combination of 4 installation js files.
->
-
-1. Core.js
-1. SpellCheckService.js
-1. SpellDialog.js
-1. Dialogs/DialogControlInitializer.js
-1. FormDecorator/RadFormDecorator.js
-1. jQuery.js
-1. jQueryPlugins.js
-
-* **RadSplitter**
+The following example demonstrates how to set the Splitter.
 
 ````ASP.NET
 <scripts>
@@ -933,7 +894,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTabStrip**
+The following example demonstrates how to set the TabStrip.
 
 ````ASP.NET
 <scripts>
@@ -945,7 +906,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTagCloud**
+The following example demonstrates how to set the TagCloud.
 
 ````ASP.NET
 <scripts>
@@ -956,7 +917,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTextBox**
+The following example demonstrates how to set the TextBox.
 
 ````ASP.NET
 <scripts>
@@ -965,7 +926,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTicker**
+The following example demonstrates how to set the Ticker.
 
 ````ASP.NET
 <scripts>
@@ -974,7 +935,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTileList**
+The following example demonstrates how to set the TileList.
 
 ````ASP.NET
 <scripts>
@@ -989,7 +950,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTimePicker**
+The following example demonstrates how to set the TimePicker.
 
 ````ASP.NET
 <scripts>
@@ -1006,7 +967,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadToolBar**
+The following example demonstrates how to set the ToolBar.
 
 ````ASP.NET
 <scripts>
@@ -1018,7 +979,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadToolTip**
+The following example demonstrates how to set the ToolTip. Note that `RadToolTipManager.js` is needed only when the ToolTipManager is used.
 
 ````ASP.NET
 <scripts>
@@ -1034,13 +995,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-
-
->note Note that RadToolTipManager.js is needed only when RadToolTipManager is used.
->
-
-
-* **RadTreeList**
+The following example demonstrates how to set the TreeList.
 
 ````ASP.NET
 <scripts>
@@ -1050,7 +1005,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadTreeView**
+The following example demonstrates how to set the TreeView.
 
 ````ASP.NET
 <scripts>
@@ -1064,7 +1019,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadUpload**
+The following example demonstrates how to set the Upload.
 
 ````ASP.NET
 <scripts>
@@ -1076,7 +1031,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadWindow**
+The following example demonstrates how to set the Window. Note that `RadWindowManager.js` is only needed when the WindowManager is used.
 
 ````ASP.NET
 <scripts>
@@ -1094,11 +1049,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-
->note Note that RadWindowManager.js is only needed when RadWindowManager is used.
->
-
-* **RadXmlHttpPanel**
+The following example demonstrates how to set the XmlHttpPanel.
 
 ````ASP.NET
 <scripts>
@@ -1112,24 +1063,31 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ## Disabling Embedded Skins
 
-If the **Skin** property is not set explicitly either in the control's definition or in the Web.config file of the application, Telerik controls use the **Default** skin by default.
+If the `Skin` property is not set explicitly either in the control definition or in the `Web.config` file of the application, the controls will use the Default skin by default.
 
-If you, for some reason, need to disable the embedded skins or styles of a Telerik control, you could make avail of the following properties:
+If you need to disable the embedded skins or styles of a Telerik control, use the following properties:
 
-* **EnableEmbeddedSkins** - Prevents the loading of the skin-specific styles of the control, which are required for the built-in skins. Set to false when using a custom skin.
-* **EnableEmbeddedBaseStylesheet** - Prevents registering of the base stylesheet of the control, which contains the main CSS styles. These styles include alignment, border widths, paddings, font icons, etc. and are applied to the control instances regardless of their chosen skin name.
+* `EnableEmbeddedSkins`&mdash;Prevents the loading of the skin-specific styles of the control, which are required for the built-in skins. Set to `false` when using a custom skin.
+* `EnableEmbeddedBaseStylesheet`&mdash;Prevents the registering of the base stylesheet of the control, which contains the main CSS styles. These styles include alignment, border widths, paddings, font icons, and so on, and are applied to the control instances regardless of their chosen skin name.
 
-More information can be found at:
+For more information, refer to the following articles:
 
 * [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
 
 * [Creating custom skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
 
 
+## Disabling Embedded Scripts and Skins Globally
 
-## Disable Embedded Scripts/Skins for the Entire Web Site/Web Application Project
+The enabling or disabling of scripts and skins is prioritized as follows:
 
-* If you need to disable the embedded scripts and skins for **all Telerik controls** in your web site/web application project add these lines in the **web.config** file:
+* The settings applied at page level have top priority.
+* The settings applied for a particular control in the `web.config` file are next in priority.
+* The settings applied for all Telerik controls globally in the `web.config` file are last in priority.
+
+Therefore, the individual disabling of scripts and skins for a specific control in the `web.config` will override the setting globally defined for all controls in the same file, while the page level disabling of scripts and skins will override all relevant definitions from the `web.config` file.
+
+To disable the embedded scripts and skins for all Telerik controls in your project, add the following lines to the `web.config` file:
 
 ````ASP.NET
 <appsettings>
@@ -1140,8 +1098,7 @@ More information can be found at:
 </appsettings>
 ````
 
-
-* If you need to globally disable the embedded scripts/skins for a **particular Telerik control** add these lines in the **web.config** file:
+To globally disable the embedded scripts and skins for a particular Telerik control, add the following lines to the `web.config` file. You need to replace the name of the Menu control with the control you need, for example, TreeView, Grid, Upload, and so on.
 
 ````ASP.NET
 <appsettings>
@@ -1151,15 +1108,3 @@ More information can be found at:
 	<add key="Telerik.Menu.EnableEmbeddedScripts" value="false"/>
 </appsettings>
 ````
-
-Just change the **Menu** with the name of the control you want - TreeView, Grid, Upload, etc.
-
-
->note The scripts/skins enable/disable is prioritized as follows:
->
-* The settings applied at page level have top priority.
-* The settings applied for a particular control in the web.config file are next in priority.
-* The settings applied for all Telerik controls globally in the web.config file are last in priority.
->
->Hence the individual scripts/skins disabling for a particular control in the web.config will override the setting defined for all controls globally in the same file, while the page level scripts/skins disabling will override all relevant definitions from the web.config file.
->

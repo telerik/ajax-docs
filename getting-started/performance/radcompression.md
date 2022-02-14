@@ -1,13 +1,13 @@
 ---
 title: Compression
-page_title: RadCompression
-description: Check our Web Forms article about RadCompression.
+page_title: Compression
+description: ""
 slug: controls/radcompression
+previous_url: controls/radcompression
+CTAControlName: RadCompression
 tags: radcompression
 published: True
-previous_url: controls/radcompression
 position: 2
-CTAControlName: RadCompression
 ---
 
 # RadCompression
@@ -85,7 +85,7 @@ By default the RadCompression module will compress AJAX requests only (with the 
 
 ````C#     
 [Telerik.Web.UI.RadCompressionSettings(HttpCompression = Telerik.Web.UI.CompressionType.None)]  
-public partial class Default_Cs : System.Web.UI.Page 
+public partial class Default_Cs : System.Web.UI.Page
 {
     ...
 }
@@ -99,8 +99,8 @@ End Class
 ````
 
 
-Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done 
->note 
+Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done
+>note
 >the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
 
 ````web.config
@@ -179,7 +179,7 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
                     RequiresControlStateInSession=true
                 </case>
             </browserCaps>
-        </system.web> 
+        </system.web>
 
 
 * **Page history** - in applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the **Session**. The default value of the history size is 9.
@@ -188,7 +188,7 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
 
         <system.web>   
         <sessionPageState historySize="15" />
-        </system.web> 
+        </system.web>
 
 
 >note When IIS **dynamic compression** is enabled the **ViewState** will be automatically compressed even if the **RadCompression** module is not enabled.
