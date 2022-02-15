@@ -133,3 +133,4 @@ If your project references a different version of this assembly, review the [New
 * [Telerik Device Detection Framework Overview](https://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
 * [Telerik Device Detection Framework API]({%slug controls/raddevicedetectionframework%})
 * [UI for ASP.NET AJAX Controls RenderModes Basics]({%slug controls/render-modes%})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

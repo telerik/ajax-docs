@@ -95,3 +95,10 @@ To implement CI/CD automated builds, choose either of the following common appro
 * Create a local folder on a shared network drive or other suitable location accessible by your builds and team. This folder will hold the provided `.nupkg` files, which you can download from your Telerik account.
 
 You need to protect your credentials and ensure they are used only by you and not by other developers according to the [license-per-developer policy](https://www.telerik.com/purchase/license-agreement/aspnet-ajax). For example, take your encrypted password from your local `NuGet.config` file and use it on the build PC. They can be used by other developers, QAs, designers, front-end developers, DBAs, and so on, for building and running a solution provided they do not use the Telerik components to create functionalities. You have to ensure that such credentials or package sources are not available to the general public, for example, in public repositories.
+
+## See Also
+
+* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
+* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

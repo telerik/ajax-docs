@@ -21,3 +21,11 @@ This article lists the resources with the system requirements, and technical and
 * [XHTML compliance](https://www.telerik.com/aspnet-ajax/tech-sheets/xhtml-compliance)
 * [Accessibility support](https://www.telerik.com/aspnet-ajax/tech-sheets/accessibility-support)
 * [Localization and Right-to-Left support](https://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)
+
+
+## See Also
+
+* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
+* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

@@ -40,10 +40,8 @@ The Telerik UI for ASP.NET AJAX delivers the following available package types:
 
 ## See Also
 
- * [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-
- * [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
-
- * [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
-
- * [Major and Minor Releases Installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%})
+* [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
+* [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
+* [Major and Minor Releases Installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
