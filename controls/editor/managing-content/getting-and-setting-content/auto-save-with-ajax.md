@@ -39,4 +39,7 @@ function OnClientLoad(sender, args)
 }	
 ````
 
+For a complete implementation please examine the [Save in File demo](https://demos.telerik.com/aspnet-ajax/editor/examples/autosave/defaultcs.aspx).
 
+
+ 
