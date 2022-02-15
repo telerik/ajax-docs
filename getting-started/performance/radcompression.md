@@ -1,7 +1,7 @@
 ---
 title: Compression
 page_title: Compression
-description: ""
+description: "Learn more about the Telerik UI for ASP.NET AJAX Compression module and the ways for compression it provides."
 slug: controls/radcompression
 previous_url: controls/radcompression
 CTAControlName: RadCompression
@@ -10,56 +10,52 @@ published: True
 position: 2
 ---
 
-# RadCompression
+# Compression
 
+>The Telerik UI for ASP.NET AJAX Compression module is now deprecated. It is recommended that you use the IIS 7 or later dynamic content compression feature. If you are still concerned about the response size, consider storing the ViewState on the server instead of using the default hidden field.
 
->important RadCompression is deprecated. We advise that you consider using the dynamic content compression feature IIS 7 and later provide.
->
->RadCompression was designed to solve the problem where AJAX requests to dynamic content like aspx pages, and WebResource requests, were not compressed by IIS. This is no longer relevant since IIS 7 and later tackle this problem.
->
-> If you are still concerned about the response size, you can consider storing the ViewState on the server instead of using the default hidden field.
+The Compression module was initially designed for solving issues when AJAX requests to dynamic content, such as ASPX pages and WebResource requests, were not compressed by IIS.
 
+This article explains what the Compression feature is and contains the following sections:
 
-This article explains what is RadCompression and contains the following sections:
-
-
-- [RadCompression](#radcompression)
-    - [What is RadCompression?](#what-is-radcompression)
-    - [How is RadCompression enabled?](#how-is-radcompression-enabled)
-    - [ViewState compression](#viewstate-compression)
-    - [RadCompression and SessionPageState](#radcompression-and-sessionpagestate)
-    - [How to enable compression for regular postbacks?](#how-to-enable-compression-for-regular-postbacks)
-    - [Known issues](#known-issues)
-    - [What is the benefit?](#what-is-the-benefit)
-    - [Optimization tip summary](#optimization-tip-summary)
+- [Compression Overview](#compression-overview)
+- [Enabling Compression](#enabling-compression)
+- [ViewState compression](#viewstate-compression)
+- [Compression and SessionPageState](#compression-and-sessionpagestate)
+- [Enabling compression for regular postbacks](#enabling-compression-for-regular-postbacks)
+- [Known issues](#known-issues)
+- [Benefits](#benefits)
+- [Optimization tip summary](#optimization-tip-summary)
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-overview.html %}
 {% endif %}
 
-## What is RadCompression?
+## Compression Overview
 
-Simply put, RadCompression is an HttpModule that is shipped with the Telerik® UI for ASP.NET AJAX and is designed to *automatically* compress your AJAX and Web Service responses. In other words, RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code. It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
+Simply put, the Telerik UI for ASP.NET AJAX Compression is an HttpModule that is shipped with the suite and is designed to automatically compress your AJAX and Web Service responses. Compression intercepts the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally.
 
+The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code. It reduces the number of bits that are sent over the wire (from your server to your client) and thus improves your page performance by reducing the time to last byte (TTLB).
 
+The Compression feature is designed based on other HTTPcompression tools, such as the built-in HTTP Compression in IIS7 and later versions. By adding the Compression to your project, you start compressing your AJAX and Web Service responses.
 
-RadCompression is designed based on other HTTPcompression tools, such as the built-in **HTTP Compression** in IIS7 and higher versions. By adding RadCompression to your project, you start compressing your **AJAX** and **Web Service** responses.
+Compression automatically detects and compresses requests that expect the following content response types (as found in the HTTP request's `ContentType` or `AcceptsTypes` headers):
 
-**RadCompression**	will automatically detect and compress requests that expect these content response types	(as found in the HTTP request's "**ContentType**" header or "**AcceptsTypes**" header):
+* `application/x-www-form-urlencoded`
 
-* application/x-www-form-urlencoded
+* `application/json`
 
-* application/json
+* `application/xml`
 
-* application/xml
+* `application/atom+xml`
 
-* application/atom+xml
+Generally, these types reflect the content types returned by AJAX Web Services, ADO.NET Data Services, and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types (such as a typical RSS feed).
 
-These types generally reflect the content types returned by AJAX Web Services, ADO.NET Data Services, and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types (such as a typical RSS feed). If a browser supports compression (most modern browsers do) and RadCompression	is enabled, all content of this type will be compressed. The one exception is IE6, which does not support this compression well, so RadCompression will automatically ignore requests coming fromIE6 clients.
+If a browser supports compression (most modern browsers do) and the Compression feature	is enabled, all content of this type will be compressed. The one exception is IE6, which does not support this compression well, so the Compression will automatically ignore requests coming fromIE6 clients.
 
-## How is RadCompression enabled?
+## Enabling Compression
 
-Enabling RadCompression could not be easier. It is a simple matter of adding a HttpModule registration to the site's web.config. Specifically, you need the following:
+To enable Compression, add an `HttpModule` registration to the `web.config` file of the site. Specifically, you need the following implementation:
 
 ````web.config
 <httpModules>
@@ -77,11 +73,7 @@ Enabling RadCompression could not be easier. It is a simple matter of adding a H
 </system.webServer>		
 ````
 
-
-
-By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you can enable compression for regular postbacks as well setting the *enablePostbackCompression* property to true (its default value is false, see web.config section below).You also have the option to disable the compression for particular pages if necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
-
-
+By default, the Compression module will compress AJAX requests only (with the content type headers specified above). However, you can enable compression for regular postbacks as well setting the `enablePostbackCompression` property to `true`, which is `false` by default. You also have the option to disable the compression for particular pages if necessary by using the `RadCompressionSettings` attribute of the page in question:
 
 ````C#     
 [Telerik.Web.UI.RadCompressionSettings(HttpCompression = Telerik.Web.UI.CompressionType.None)]  
@@ -98,10 +90,10 @@ Partial Public Class _Default
 End Class
 ````
 
+Another aspect of the Compression model allows you to exclude particular request handlers through the `web.configconfiguration` settings of the module. Note that the `matchExact` attribute determines whether the rule will be forced for the specified path only or globally for the entire web site or web application project
 
-Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done
->note
->the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
+When you are using IIS dynamic compression, enabling the Compression feature is not required as this will result in doubling the compression of the response.
+
 
 ````web.config
 <configSections>
@@ -125,15 +117,15 @@ Another aspect of the RadCompression model allows you to exclude particular requ
 </telerik.web.ui>
 ````
 
+## ViewState Compression
 
+When you enable the Compression module, you get the entire response compressed including the ViewState.
 
->note When using **IIS dynamic compression** enabling RadCompression is not required as this will result in double compression of the response.
->
+However, you can turn on only the ViewState compression and store it either in a hidden field or in the `Session` to pass and retrieve it from there on form submits without compressing the rest of the response. For this purpose, you can use additional page adapters which override the default page adapter for the ViewState storage.
 
+To enable the ViewState compression, register these Compression `controlAdapters` by using the `BrowserFile.browser` file in the `App_Browsers` folder of your project.
 
-## ViewState compression
-
-When you enable the RadCompression module, you get the entire response compressed *including the ViewState*. However, you also have the option to turn on only ViewState compression and store it either in a hidden field, or in the Session (to pass and retrieve it from there on form submits), without compressing the rest of the response. For this purpose you can use additional page adapters which override the default page adapter for viewstate storage. To enable viewstate compression you can register these RadCompression controlAdapters using *BrowserFile.browser* file in *App_Browsers* folder of your web site/project. Here is how to register a hidden field which will be used as a container for the compressed page viewstate:
+The following example demonstrates how to register a hidden field which will be used as a container for the compressed page ViewState.
 
 ````ASP.NET
 <browsers>  
@@ -145,11 +137,9 @@ When you enable the RadCompression module, you get the entire response compresse
 </browsers>   			
 ````
 
+To use this adapter, you do not need to enable the Compression module through the `web.config` file as described above. You can use `RadHiddenFieldPageStateCompression`  separately from the Compression module in cases where only the ViewState compression is needed. Using both at the same time can result in compressing the ViewState twice.
 
-
-To use this adapter you *do not need to enable RadCompression module* through the web.config file as described above.**RadHiddenFieldPageStateCompression** might be used separately from the RadCompression module in cases where only viewstate compression is needed.Using both at the same time could result in compressing the ViewState twice.
-
-You can also store the compressed ViewState in the Session:
+The following example demonstrates how to store the compressed ViewState in the `Session`. In this case, enabling the Compression module at the same time is fine because when the compressed ViewState is saved in `Session`, it is not included in the response and the Compression module will not compress it.
 
 ````ASP.NET
 <browsers>  
@@ -161,15 +151,11 @@ You can also store the compressed ViewState in the Session:
 </browsers>
 ````
 
+## Compression and SessionPageState
 
+Due to the fact that the Compression module takes advantage of the ASP.NET `SessionPageStatePersister`, in some scenarios you may need to fine-tune its settings:
 
-In this case enabling RadCompression at the same time would be fine, as when the compressed ViewState is saved in Session, it is not included in the response, so the RadCompression module does not compress it.
-
-## RadCompression and SessionPageState
-
-Due to the fact that **RadCompression** module takes advantage of theASP.NET's **SessionPageStatePersister** there are some scenarios where you may need to fine-tune its settings:
-
-* **ControlState** - by default, the **SessionPageStatePersister** doesn't add the **ControlState** to the **Session** so you may need to add it manually:
+* `ControlState`&mdash;By default, the `SessionPageStatePersister` doesn't add the `ControlState` to the `Session` so you may need to add it manually.
 
     **ASP.NET**
 
@@ -182,7 +168,7 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
         </system.web>
 
 
-* **Page history** - in applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the **Session**. The default value of the history size is 9.
+* `Page history`&mdash;In applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the `Session`. The default value of the history size is `9`. Note that when the IIS dynamic compression is enabled, the ViewState will be automatically compressed even if the Compression module is not enabled.
 
     **web.config**
 
@@ -191,13 +177,11 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
         </system.web>
 
 
->note When IIS **dynamic compression** is enabled the **ViewState** will be automatically compressed even if the **RadCompression** module is not enabled.
->
+## Enabling Compression for Regular Postbacks
 
+You can enable the postback compression by setting the `enablePostbackCompression` property of the Compression module to `true` (the default value is `false`).
 
-## How to enable compression for regular postbacks?
-
-You can enable the postback compression by setting the *enablePostbackCompression* property of theRadCompression module to true (the default value is *false*). This can be done at application level in the following manner:
+The following example demonstrates how to do this at the application level. Note that setting the same attribute at page level will override the `web.config` settings because it will be treated with higher priority.
 
 ````web.config
 <configSections>
@@ -212,36 +196,28 @@ You can enable the postback compression by setting the *enablePostbackCompressio
 </telerik.web.ui> 		
 ````
 
+## Known Issues
 
+Tis section lists some of the common known issues you might encounter when using the Compression module.
 
->note Note that setting the same attribute at page level will override the web.config settings because it will be treated with higher priority.
->
+1. **Problem** When Compression is enabled and you are using .NET 4.0 or .NET 4.5, event handlers might not be raised in a default document in the Integrated Mode of IIS 7 and later versions.
 
+  **Solution** This problem is caused by a breaking change in .NET 4.0 described [here](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To work around the issue, set `preCondition="managedHandler"` for the Compression module. You may also need to remove the `runAllManagedModulesForAllRequests` setting from your `web.config` if you have it, or, alternatively, set it to `false`.
 
-## Known issues
+1. **Problem** Controls bound to WCF services do not work in classic AppPool scenarios with Windows authentication enabled.
 
-Here are some of the known issues you can face when using RadCompression.
+  **Solution** Try removing the Compression from the HttpModules section of the `web.config`. On some machines the Compression module halts the WCF responses effectively breaking the pages that consume the services.
 
-**1.** *Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
+1. **Problem** The control state cannot be loaded properly after a postback. This can happen if the ViewState is stored in the session and popup windows cause a number of postbacks, which causes the session history to be lost for the main page.
 
-*Solution:* This problem is caused by a breaking change in .NET 4.0 described [here](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+  **Solution** Disable the Compression module and use the IIS dynamic content compression. Alternatively, you can store the ViewState in the hidden field only. Yet another option is to increase the history cache but this will consume system resources and will only delay the issue.
 
-**2.** *Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
+## Benefits
 
-*Solution:* Try removing RadCompression from the HttpModules section of the web.config. We have found out that on some machines RadCompression halts the WCF responses, effectively breaking the pages that consume the services.
+For more information about using page adapters, refer to the results from eight unique tests made by evangelist Todd Anglin in the [following blog post](https://blogs.telerik.com/toddanglin/posts/09-01-28/Optimization-Tips-RadCompression-Module.aspx) and in [this blog post](https://blogs.telerik.com/toddanglin/posts/09-02-27/Optimization-Tip-RadCompression-for-ViewState.aspx).
 
-**3.** - *Problem:* Control state cannot be loaded properly after a postback. This can happen if the ViewState is stored in the session and popup windows cause a number of postbacks. This causes the session history to be lost for the main page (see the sessionPageState section above).
+## Optimization Tip Summary
 
-*Solution:* Disable RadCompression and use the IIS dynamic content compression. Alternatively, you can store the ViewState in the hidden field only. The third option is to increase the history cache but this will consume system resources and will only delay the issue.
+The impact the usage of the Compression module has on your site depends on the location of your users. If you have a site that is deployed over the web where latency and connection speeds are unpredictable, reducing the bytes you send over the wire is	an easy way to improve your site performance. And since the Compression can literally be implemented with a single change to your	`config` file, you do not have much to lose. Therefore, using the Compression is an easy way to reduce the bytes sent over the wire for XHR operations.
 
-## What is the benefit?
-
-You can see the results from eight unique tests made by our evangelist Todd Anglin in the [following blog post](https://blogs.telerik.com/toddanglin/posts/09-01-28/Optimization-Tips-RadCompression-Module.aspx) and in[this blog post](https://blogs.telerik.com/toddanglin/posts/09-02-27/Optimization-Tip-RadCompression-for-ViewState.aspx) concerning the usage of page adapters.
-
-## Optimization tip summary
-
-When it comes to RadCompression, the impact it has on your site just depends on where your users are located. If you have a site that is deployed over the web where latency and connection speeds are unpredictable, reducing the bytes you send over the wire is	an easy way to improve your site's performance. And since RadCompression can literally be implemented with a single change to your	config file, you really do not have much to lose. In a quick word:
-
-**RadCompression is an easy way to reduce the bytes sent over the wire for XHR operations.**
-
->tip RadCompression is deprecated in favor of the IIS dynamic content compression that solves the same problem at the server level.
+Note that the Compression approach is now deprecated in favor of the IIS dynamic content compression that solves the same problem at the server level.
