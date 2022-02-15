@@ -377,3 +377,10 @@ The following example demonstrates the settings for IIS7:
   </security>
 </system.webServer>
 ````
+
+## See Also
+
+* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
+* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

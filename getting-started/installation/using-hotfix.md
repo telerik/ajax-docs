@@ -73,6 +73,7 @@ If you get a copyright message, this means that either you are using the trial v
 
 ## See Also
 
- * [Adding the Telerik Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%})
- * [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
- * [Trial License Limitations]({%slug introduction/licensing/license-agreement%})
+* [Adding the Telerik Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%})
+* [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
+* [Trial License Limitations]({%slug introduction/licensing/license-agreement%})
+* [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
