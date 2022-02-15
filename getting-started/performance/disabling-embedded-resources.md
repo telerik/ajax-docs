@@ -30,7 +30,7 @@ This article provides details on the following scenarios:
 
 ## Disabling Embedded Scripts
 
-For custom deployment scenarios, you can specify an alternative location for JavaScript filesby setting `EnableEmbeddedScripts` to `false`. Then, the JavaScript files will not be loaded from the assembly.
+For custom deployment scenarios, you can specify an alternative location for JavaScript files by setting `EnableEmbeddedScripts` to `false`. Then, the JavaScript files will not be loaded from the assembly.
 
 You will also need to add a script reference for each JavaScript file through the ScriptManager or the [ScriptManager]({%slug scriptmanager/overview%}).
 
