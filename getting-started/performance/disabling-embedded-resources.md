@@ -1108,3 +1108,5 @@ To globally disable the embedded scripts and skins for a particular Telerik cont
 	<add key="Telerik.Menu.EnableEmbeddedScripts" value="false"/>
 </appsettings>
 ````
+
+ 
