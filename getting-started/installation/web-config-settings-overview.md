@@ -29,10 +29,13 @@ To add the HTTP handlers, use any of the following approaches:
 * If the handlers that are needed by a control are not present, use the **Smart Tag** of the control to register them. Not all handlers are needed by individual controls, so the available list may vary.
 * Copy the code from the following example and paste it into your `web.config` file.
 
->important For security purposes, you also have to add the `<appSettings>` keys listed in the example with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them but make sure to avoid the `,IsolateApps` portion](images/generate-keys-iis.png). You can also [Encrypt the `appSettings` section](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
->As of R2 2017 SP1, the standard .NET methods are used for encryption. Nevertheless, you still have to set your own custom keys.
->As of R1 2020, the [`Telerik.Upload.AllowedCustomMetaDataTypes`](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes) feature is enabled by default to improve the application security.
->As of R1 2020, the MachineKey is automatically used for the `ConfigurationEncryptionKey`, `ConfigurationHashKey`, and `DialogParametersEncryptionKey` keys if they are not set explicitly. You will still need to set your own custom keys if you are using previous versions of the controls.
+When manually adding the HTTP handlers, note the following considerations:  
+
+* For security purposes, you also have to add the `<appSettings>` keys listed in the example with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them but make sure to avoid the `,IsolateApps` portion](images/generate-keys-iis.png). You can also [Encrypt the `appSettings` section](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
+* As of R2 2017 SP1, the standard .NET methods are used for encryption. Nevertheless, you still have to set your own custom keys.
+* As of R1 2020, the [`Telerik.Upload.AllowedCustomMetaDataTypes`](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes) feature is enabled by default to improve the application security.
+
+>important As of R1 2020, the MachineKey is automatically used for the `ConfigurationEncryptionKey`, `ConfigurationHashKey`, and `DialogParametersEncryptionKey` keys if they are not set explicitly. You will still need to set your own custom keys if you are using previous versions of the controls.
 
 The following example demonstrates the mandatory `web.config` additions needed by the Telerik UI for ASP.NET AJAX suite.
 
