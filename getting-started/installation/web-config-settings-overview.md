@@ -336,6 +336,7 @@ Due to the fact that the `RadCompression` module takes advantage of the ASP.NET 
 		</system.web>
 		````
 
+
 ### CloudUpload
 
 The following example demonstrates how to configure the CloudUpload provider settings.
@@ -355,7 +356,7 @@ The following example demonstrates how to configure the CloudUpload provider set
 </telerik.web.ui>
 ````
 
-### AsyncUpload and dUpload
+### AsyncUpload and Upload
 
 You can set the maximum size that us allowed for upload.
 
