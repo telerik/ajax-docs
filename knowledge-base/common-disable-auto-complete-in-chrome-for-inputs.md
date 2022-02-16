@@ -9,7 +9,7 @@ res_type: kb
 
 ## Description
 
-If you have a requirement to stop the auto fill feature of the input elements, RadTextBox and RadCombobox, you should be aware that the `[autocomplete](https://www.w3schools.com/tags/att_input_autocomplete.asp)="off"` attribute is currently ignored by many of the modern browsers, including Chrome.
+If you have a requirement to stop the auto fill feature of the input elements, RadTextBox and RadCombobox, you should be aware that the `autocomplete="off"` attribute (see [input autocomplete](https://www.w3schools.com/tags/att_input_autocomplete.asp)) is currently ignored by many of the modern browsers, including Chrome.
 
 ## Solution
 
