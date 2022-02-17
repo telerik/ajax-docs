@@ -271,5 +271,6 @@ That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET A
 
 * [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements)
 * [Available Product Files for Download]({% slug installation/which-file-do-i-need-to-install %})
+* [Silent MSI install]({% slug silent-msi-installation %})
 * [Included Assemblies]({% slug introduction/installation/included-assemblies %})
 * [Adding Telerik ASP.NET AJAX Controls to a Page]({% slug getting-started/adding-the-telerik-controls-to-your-project %})
