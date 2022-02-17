@@ -45,6 +45,8 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. Once the download completes, run the MSI file and follow the instructions. On a 32-bit machine and unless you specify otherwise, the wizard will install the Telerik UI for ASP.NET AJAX suite in the `C:\Program Files\Progress\` folder. On a 64-bit machine, the default path is `C:\Program Files (x86)\Progress\`.
 
+>Tip: You can also install the msi silently as explained in [Silent MSI install]({% slug silent-msi-installation %}).
+
 ## Step 2: Download the Demos
 
 1. From the **Resources** section of same page, download the MSI installation for the Telerik UI for ASP.NET AJAX examples. Once you install them on your machine, you can launch the live demos in either of the following ways:
@@ -271,6 +273,5 @@ That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET A
 
 * [System Requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements)
 * [Available Product Files for Download]({% slug installation/which-file-do-i-need-to-install %})
-* [Silent MSI install]({% slug silent-msi-installation %})
 * [Included Assemblies]({% slug introduction/installation/included-assemblies %})
 * [Adding Telerik ASP.NET AJAX Controls to a Page]({% slug getting-started/adding-the-telerik-controls-to-your-project %})
