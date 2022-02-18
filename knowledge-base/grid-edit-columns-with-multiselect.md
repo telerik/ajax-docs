@@ -223,7 +223,7 @@ protected void RadGrid1_UpdateCommand(object sender, GridCommandEventArgs e) {
     End Sub
 ````
 
-## Related articles
+For more details about the operations used in the article, you can check out the links below:
 
 - [RadMultiSelect - Server Side Data Binding]({%slug multiselect/data-binding/server-side%})
 - [RadGrid - ItemDataBound event]({%slug grid/server-side-programming/events/itemdatabound%})
