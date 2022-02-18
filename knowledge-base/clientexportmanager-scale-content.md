@@ -1,8 +1,8 @@
 ---
-title: Scale content
+title: Scale content with RadClientExportManager
 description: Scale content with RadClientExportManager. Check it now!
 type: how-to
-page_title: Scale content
+page_title: Scale content with RadClientExportManagers
 slug: clientexportmanager-scale-content
 res_type: kb
 ---
