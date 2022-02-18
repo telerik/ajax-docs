@@ -35,7 +35,9 @@ For specific control settings, refer to the [client-side](https://docs.telerik.c
 
 >caption Typical documentation structure of a control
 
-![Documentation structure for a typical control](images/typical-control-docs.png "Documentation structure for a typical control")
+
+
+![Documentation structure for a typical control](../images/typical-control-docs.png "Documentation structure for a typical control")
 
 ## Properties and Tags
 
@@ -43,11 +45,11 @@ Visual Studio IntelliSense allows you to explore the available properties, event
 
 >caption Explore IntelliSense in the markup
 
-![Explore IntelliSense in the markup](images/markup-intellisense.png "Explore IntelliSense in the markup")
+![Explore IntelliSense in the markup](../images/markup-intellisense.png "Explore IntelliSense in the markup")
 
 >caption Explore IntelliSense in the code-behind
 
-![Explore IntelliSense in the code-behind](images/code-behind-intellisense.png "Explore IntelliSense in the code-behind")
+![Explore IntelliSense in the code-behind](../images/code-behind-intellisense.png "Explore IntelliSense in the code-behind")
 
 ## Smart Tags and Wizards at Design-Time
 
@@ -55,7 +57,7 @@ Most tasks and configuration options are available in the **Smart Tag** of the c
 
 >caption Smart Tag features
 
-![Smart Tag features](images/smart-tag-features.png "Smart Tag features")
+![Smart Tag features](../images/smart-tag-features.png "Smart Tag features")
 
 ## Next Steps
 
