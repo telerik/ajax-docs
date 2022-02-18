@@ -41,7 +41,7 @@ The Telerik UI for ASP.NET AJAX controls provide many client-side events. Since 
 
 To handle a client-side event of a control, you must provide only the string name of the handler function, without parentheses. If you add parentheses, the event handler function will try to execute as soon as the page loads, and this will usually result in errors.
 
->caption Handling the client-side click of a Telerik UI for ASP.NET AJAX Button vs a standard button.
+>caption Handle the client-side click of a Telerik UI for ASP.NET AJAX Button vs a standard button
 
 ````ASP.NET
 <input onclick="return myStandardClickHandler(this);" value="Standard control" id="Button1" runat="server" type="submit" />

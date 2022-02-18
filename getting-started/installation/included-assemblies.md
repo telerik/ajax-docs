@@ -64,11 +64,11 @@ Telerik UI for ASP.NET AJAX provides the following Telerik NuGet feed packages a
 | `Telerik.UI.for.AspNet.Ajax.Netxx.xxxx.x.xxx.nupkg` | `Telerik.Web.Design.dll`, `Telerik.Web.Device.Detection.dll`, `Telerik.Web.UI.dll`, `Telerik.Web.UI.Skins.dll` |
 | `Telerik.Windows.Zip.xxxx.x.xxx.nupkg` | `Telerik.Windows.Zip.dll` |
 | `Telerik.Windows.Zip.Extensions.xxxx.x.xxx.nupkg` | `Telerik.Windows.Zip.Extensions.dll` |
-| `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xxxx.x.xxx.nupkg | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll` |
+| `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll` |
 | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll` |
 | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.nupkg` | Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll` |
 | `Telerik.Windows.Documents.Spreadsheet.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.dll` |
-| `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll |
+| `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll` |
 | `Telerik.Windows.Documents.Flow.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.dll` |
 | `Telerik.Windows.Documents.Fixed.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Fixed.dll` |
 | `Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.CMapUtils.dll` |
@@ -104,7 +104,7 @@ Telerik UI for ASP.NET AJAX provides the following document processing assemblie
 |`Telerik.Windows.Documents.Spreadsheet.dll`|The main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 |`Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll`|Allows you to import or export the spreadsheet document model from or to XLSX.
 |`Telerik.Windows.Documents.Fixed.dll`|Needed for processing PDF documents.
-|(Optional) `Telerik.Windows.Documents.CMapUtils.dll`|Provides a default implementation for getting the data of a predefined CMap table by a given name. Include a reference to it only if you need to process documents with [CMap tables](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/concepts/cmaps).
+|`Telerik.Windows.Documents.CMapUtils.dll`|(Optional) Provides a default implementation for getting the data of a predefined CMap table by a given name. Include a reference to it only if you need to process documents with [CMap tables](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/concepts/cmaps).
 |`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll`|Allows you to export spreadsheets (`XLSX`, `CSV`) to PDF.
 |`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll.nupkg`|Allows you to work with `XLS` spreadsheet documents.
 

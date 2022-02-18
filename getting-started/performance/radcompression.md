@@ -198,17 +198,17 @@ The following example demonstrates how to do this at the application level. Note
 
 ## Known Issues
 
-Tis section lists some of the common known issues you might encounter when using the Compression module.
+This section lists some of the common known issues you might encounter when using the Compression module.
 
-1. **Problem** When Compression is enabled and you are using .NET 4.0 or .NET 4.5, event handlers might not be raised in a default document in the Integrated Mode of IIS 7 and later versions.
+* **Problem** When Compression is enabled and you are using .NET 4.0 or .NET 4.5, event handlers might not be raised in a default document in the Integrated Mode of IIS 7 and later versions.
 
   **Solution** This problem is caused by a breaking change in .NET 4.0 described [here](https://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To work around the issue, set `preCondition="managedHandler"` for the Compression module. You may also need to remove the `runAllManagedModulesForAllRequests` setting from your `web.config` if you have it, or, alternatively, set it to `false`.
 
-1. **Problem** Controls bound to WCF services do not work in classic AppPool scenarios with Windows authentication enabled.
+* **Problem** Controls bound to WCF services do not work in classic AppPool scenarios with Windows authentication enabled.
 
   **Solution** Try removing the Compression from the HttpModules section of the `web.config`. On some machines the Compression module halts the WCF responses effectively breaking the pages that consume the services.
 
-1. **Problem** The control state cannot be loaded properly after a postback. This can happen if the ViewState is stored in the session and popup windows cause a number of postbacks, which causes the session history to be lost for the main page.
+* **Problem** The control state cannot be loaded properly after a postback. This can happen if the ViewState is stored in the session and popup windows cause a number of postbacks, which causes the session history to be lost for the main page.
 
   **Solution** Disable the Compression module and use the IIS dynamic content compression. Alternatively, you can store the ViewState in the hidden field only. Yet another option is to increase the history cache but this will consume system resources and will only delay the issue.
 

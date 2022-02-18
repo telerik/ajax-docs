@@ -63,10 +63,15 @@ To update your project to the latest Telerik UI for ASP.NET AJAX version:
 If you still get the previous version of Telerik UI for ASP.NET AJAX, note that sometimes the .NET Framework wrongly caches the Telerik UI for ASP.NET AJAX `dll` and, therefore, the update may seem to have failed.
 
 Try the following to ensure that this is not the case:
+
 1. From the Windows Task Manager, terminate the `aspnet_wp.exe` process.
+
 1. Open a Windows Explorer and navigate to `C:\Windows(WINNT)\Microsoft.NET\Framework\v[YOUR_VERSION]\Temporary ASP.NET Files`.
+
 1. Delete all folders with names corresponding to your Telerik projects, that is, Telerik UI for ASP.NET AJAX, and so on.
+
 1. Delete your Visual Studio web project caches. These are located in `C:\Documents and Settings\[YOUR USER]\VSWebCache`.
+
 1. Delete your browser cache by navigating to **Tools** > **Internet Options** > **Delete Files**.
 
 If you get a copyright message, this means that either you are using the trial version of Telerik UI for ASP.NET AJAX as the Developer versions of Telerik controls do not throw copyright messages, or that you have downloaded the wrong `DLLs only` file. Make sure you download the proper, developer file with the `Dev` suffix in the file name.

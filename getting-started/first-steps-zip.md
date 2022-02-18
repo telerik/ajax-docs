@@ -89,7 +89,7 @@ The Web Forms Site created through the Telerik project templates includes all ba
 
 1. Run your page by pressing `F5`.
 
->caption Add the Editor to the page.
+>caption Add the Editor to the page
 ![Add the Editor to the page](images/getting-started-editor.png)
 
 ## Step 4: Add the HtmlChart to Your Project
@@ -247,7 +247,7 @@ Telerik UI for ASP.NET AJAX provides more than [20 predefined skins]({% slug int
 </telerik:RadEditor>
 ```
 
->caption Apply the Glow skin to the Editor.
+>caption Apply the Glow skin to the Editor
 ![Apply Glow Skin to Editor](images/getting-started-editor-skin.png)
 
 That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET AJAX and take full advantage of its slick functionalities!
