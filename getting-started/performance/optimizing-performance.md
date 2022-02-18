@@ -48,74 +48,20 @@ The ScriptManager and the StyleSheetManager controls also enable you to download
 
 Downloading from the CDN, however, will result in a request for each individual file (script, stylesheet, font, and so on). You can improve the CDN performance even further by instructing the controls to fetch a combined resource of all scripts and base stylesheets for all the controls in a single request by toggling the `Telerik.ScriptManager.TelerikCdn.CombinedResource` and `Telerik.StyleSheetManager.TelerikCdn.CombinedResource` [`appSettings` keys]({% slug general-information/web-config-settings-overview %}) to `enabled`. This configuration is exposed for an individual instance through the `CdnSettings-CombinedResource` property.
 
-### Grid
+The following table lists Telerik UI for ASP.NET AJAX controls and the resources for their performance optimization.
 
-The Grid provides various solutions to optimize its performance as described in the following articles:
-
-* [Optimizing the Grid Performance]({%slug grid/performance/grid-performance-optimizations %})
-
-* [Ajaxifying the Grid]({%slug grid/performance/ajaxifying-radgrid %})
-
-* [Saving the Grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session %})
-
-* [Optimizing the Usage of the Grid ViewState]({%slug grid/performance/optimizing-viewstate-usage %})
-
-* [Rebinding the Grid with `EnableViewState=false`]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false %})
-
-### Editor
-
-The following articles provide information for optimizing the performance of the Editor:
-
-* [Optimizing the Editor Performance]({%slug editor/performance/optimizations %})
-
-* [Optimizing the Toolbar Loading]({%slug editor/performance/toolbar-loading-optimizations %})
-
-### TreeView
-
-For more information on optimizing the TreeView, refer to the article on [optimizing the TreeView performance]({%slug treeview/troubleshooting/optimizing-radtreeview-performance %}).
-
-### Captcha
-
-You can disable the Captcha audio to eliminate requests to the built-in audio handler. For more information, refer to the [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%}) article.
-
-### ComboBox
-
-Performance might degrade with lots of items and lots of ComboBox instances on the page. For more information, refer to the [Optimizing the Combobox]({%slug combobox/troubleshooting/optimizing-the-combobox%}) article.
-
-### Menu
-
-For more information, refer to the [Optimizing RadMenu Performance]({%slug menu/performance/optimizing-radmenu-performance%}) article.
-
-### TabStrip
-
-For more information, refer to the [Optimizing RadTabStrip Performance]({%slug tabstrip/performance/optimizing-radtabstrip-performance%}) article.
-
-### Pickers
-
-Performance problems can be caused by using the pickers in list controls. For more information, refer to the following articles:
-
-* [Optimizing the DatePicker Performance]({%slug datepicker/performance/optimizing-raddatepicker-performance%})
-
-* [Optimizing the DateTimePicker Performance]({%slug datetimepicker/performance/optimizing-raddatetimepicker-performance%})
-
-* [Optimizing the TimePicker Performance]({%slug timepicker/performance/optimizing-radtimepicker-performance%})
-
-### Inputs and TextBoxes
-
-Performance problems can be caused by using inputs and textboxes in templates of list controls. A better idea is to create an outside edit form similar to the one emonstrated in the [Client-side edit, update, delete and insert with Controls for ASP.NET AJAX, WebServices and LINQ](https://www.telerik.com/blogs/client-side-edit-update-delete-and-insert-with-radcontrols-for-asp-net-ajax-webservices-and-linq) article.
-
-### ToolTip
-
-The Tooltip and the TooltipManager are quite lightweight but you may still want to optimize them if many controls are rendered on the page. For more information, refer to the [Optimizing the ToolTip Performance]({%slug tooltip/performance/optimizing-radtooltip-performance%}) article.
-
-### Scheduler
-
-For more information, refer to the [Optimizing the Scheduler Performance]({%slug scheduler/performance/optimizing-radscheduler-performance%}) article.
-
-### HtmlChart
-
-For more information, refer to the [Optimizing the HtmlChart Performance]({%slug htmlchart/troubleshooting/performance-optimizations%}) article.
-
-### AjaxPanel and AjaxManager
-
-For more information, refer to the [Optimizing Performance Using the AjaxManager]({%slug ajaxmanager/performance/optimizing-performance-using-radajaxmanager%}) article.
+|Controls|Solutions for Performance Optimization
+|:--|:--
+|Grid|<ul><li>[Optimizing the Grid performance]({%slug grid/performance/grid-performance-optimizations %})</li> <li>[Ajaxifying the Grid]({%slug grid/performance/ajaxifying-radgrid %})</li> <li>[Saving the Grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session %})</li> <li>[Optimizing the usage of the Grid ViewState]({%slug grid/performance/optimizing-viewstate-usage %})</li> <li>[Rebinding the Grid with `EnableViewState=false`]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false %})</li></ul>
+|Editor|<ul><li>[Optimizing the Editor performance]({%slug editor/performance/optimizations %})</li> <li>[Optimizing the Toolbar loading]({%slug editor/performance/toolbar-loading-optimizations %})</li></ul>
+|TreeView|[Optimizing the TreeView performance]({%slug treeview/troubleshooting/optimizing-radtreeview-performance %})
+|Captcha|[Disabling the Captcha audio to eliminate requests to the built-in audio handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%})
+|ComboBox|[Optimizing the Combobox performance]({%slug combobox/troubleshooting/optimizing-the-combobox%})
+|Menu|[Optimizing the Menu performance]({%slug menu/performance/optimizing-radmenu-performance%})
+|TabStrip|[Optimizing the TabStrip performance]({%slug tabstrip/performance/optimizing-radtabstrip-performance%})
+|Pickers|<ul><li>[Optimizing the DatePicker performance]({%slug datepicker/performance/optimizing-raddatepicker-performance%})</li> <li>[Optimizing the DateTimePicker Performance]({%slug datetimepicker/performance/optimizing-raddatetimepicker-performance%})</li> <li>[Optimizing the TimePicker Performance]({%slug timepicker/performance/optimizing-radtimepicker-performance%})</li></ul>
+|Inputs and TextBoxes|Performance problems can be caused by using inputs and textboxes in templates of list controls. A better idea is to create an outside edit form similar to the one demonstrated in the [Client-side edit, update, delete and insert with Controls for ASP.NET AJAX, WebServices and LINQ](https://www.telerik.com/blogs/client-side-edit-update-delete-and-insert-with-radcontrols-for-asp-net-ajax-webservices-and-linq) article.
+|ToolTip|[Optimizing the ToolTip performance]({%slug tooltip/performance/optimizing-radtooltip-performance%})
+|Scheduler|[Optimizing the Scheduler performance]({%slug scheduler/performance/optimizing-radscheduler-performance%})
+|HtmlChart|[Optimizing the HtmlChart performance]({%slug htmlchart/troubleshooting/performance-optimizations%})
+|AjaxPanel and AjaxManager|[Optimizing performance by using the AjaxManager]({%slug ajaxmanager/performance/optimizing-performance-using-radajaxmanager%})

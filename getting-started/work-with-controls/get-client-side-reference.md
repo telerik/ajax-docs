@@ -27,7 +27,7 @@ This article contains the following sections:
 
 MS AJAX exposes the [`Sys.Application.findComponent`](https://msdn.microsoft.com/library/bb397522(v=vs.100).aspx) method that enables you to get the client-side reference of an MS AJAX-based control in the client through JavaScript. You can also use its shortcut (`$find()`), as shown in the following example.
 
->caption Using the `$find` method to get the client-side reference of the control.
+>caption Use the `$find` method
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -54,7 +54,7 @@ This means you can use the MS AJAX [`$get()`](https://msdn.microsoft.com/library
 
 It is recommended that you use server-side scripting tags and get the dynamically created client ID of the control (`<%= [ControlID].ClientID %>`). If, however, you do not have access to the server-side instance of the control, refer to the options in the [Using jQuery Selectors](#using-jquery-selectors) section.
 
->caption Using the `getElementById` method to get the client-side reference of the control.
+>caption Use the `getElementById` method
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -73,7 +73,7 @@ It is recommended that you use server-side scripting tags and get the dynamicall
 </script>
 ````
 
->caption Using the `$get` method to get the client-side reference of the control.
+>caption Use the `$get` method
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -102,7 +102,7 @@ With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.n
 
 The following example demonstrates how to use `attributeEndsWith` selector. You can utilize other selectors for the ID (for example, `contains`), or use the CSS class where you can assign the desired jQuery selector to a control or its parent to build.
 
->caption Using the `attributeEndsWith` selector to get the client-side instance of a control.
+>caption Use the `attributeEndsWith` selector
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -125,7 +125,7 @@ The following example demonstrates how to use `attributeEndsWith` selector. You 
 
 You can also use the `$telerik.findControl()` method that is exposed in the [Telerik Static Client Library]({%slug controls/telerik-static-client-library%}).
 
->caption Using the `$telerik.findControl` method to get the client-side reference of a control.
+>caption Use the `$telerik.findControl` method
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -153,7 +153,7 @@ The client-side instances of the Telerik UI for ASP.NET AJAX controls are initia
 
 In the following examples, using native DOM events, such as [`window.load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) or [`$(document).ready` jQuery event](https://api.jquery.com/ready/), may not achieve the expected results. Such events are usually prior to the `Sys.Application.load` event and cannot guarantee that the control instances are initialized.
 
->caption Using the `Sys.Application.load` event to get the instance.
+>caption Use the `Sys.Application.load` event
 
 ````ASP.NET
 <telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
@@ -172,7 +172,7 @@ In the following examples, using native DOM events, such as [`window.load`](http
 </script>
 ````
 
->caption Using server-side techniques to interact with a client-side control instances.
+>caption Use server-side techniques to interact with a client-side control instance
 
 ````ASP.NET
 <telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">

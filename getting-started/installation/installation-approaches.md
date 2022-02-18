@@ -48,9 +48,11 @@ The downloaded ZIP file contains the following folders:
 
 * `TypeScriptDefinitions`&mdash;Contains the TypeScript definitions for the Telerik UI for ASP.NET AJAX client-side objects.
 
-* Among the files that are available for download is `Telerik_UI_for_ASP.NET_AJAX_2022_1_119_Dev_hotfix.zip` (**Hotfix**). It is a lighter version of the full `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip` installation and is faster to download because it doesn't contain the live demos. It is handy to use it when [you manually upgrade]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#manual-upgrade) the project to a later version or from a trial to a registered developer version.
+* `Telerik_UI_for_ASP.NET_AJAX_2022_1_119_Dev_hotfix.zip` (**Hotfix**)&mdash;A lighter version of the full `Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip` installation and is faster to download because it doesn't contain the live demos. It is handy to use it when [you manually upgrade]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#manual-upgrade) the project to a later version or from a trial to a registered developer version.
 
   To use the `Telerik_UI_for_ASP.NET_AJAX_2022_1_119_Dev_hotfix.zip` file, give full permissions to the ASP.NET user (if you are using IIS5) or to the **Network** **Service** account (under IIS6, Windows Server 2003) for the folder where the files were extracted.
+
+When using the ZIP installation approach, note the following:
 
 * If you are using a modified or external script, you need to set the `EnableEmbeddedScripts` property to `false`. Otherwise, the control will fail to load its client scripts with an exception. For more information, refer to the article on [disabling embedded resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}).
 

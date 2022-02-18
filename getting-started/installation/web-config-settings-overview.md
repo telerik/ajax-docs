@@ -176,7 +176,7 @@ You can add any of the following available `appSettings` keys for the Telerik UI
 |`Telerik.EnableEmbeddedScripts`|Lets you disable the embedded scripts for all Telerik controls in the application by setting it to `false`. For more information, refer to the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
 |`Telerik.EnableEmbeddedSkins`|Lets you disable the embedded skin-specific stylesheets for all Telerik controls in the application by setting it to `false`. The [How Skins Work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) article explains what the skin-specific stylesheet is. For more information, refer to the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
 |`Telerik.ScriptManager.EnableEmbeddedjQuery`|Lets you disable the embedded jQuery that comes with the Telerik controls by setting it to `false`. For more information, refer to the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article.
-|`Telerik.ScriptManager.EnableHandlerEncryption`|Lets you enable the Telerik WebResource request `querystring` encryption as well as hides the `Telerik.Web.UI` <!-- 20xx.x.xxx.xx --> version in the rendered output. For more information, refer to the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article.
+|`Telerik.ScriptManager.EnableHandlerEncryption`|Lets you enable the Telerik WebResource request `querystring` encryption as well as hides the `Telerik.Web.UI <!-- 20xx.x.xxx.xx -->` version in the rendered output. For more information, refer to the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article.
 |`Telerik.ScriptManager.TelerikCdn`|Lets you globally enable the scripts CDN support in the ScriptManager for the application by setting it to `true`. For more information, refer to the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article.
 |`Telerik.ScriptManager.TelerikCdn.BaseSecureUrl`|Lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. For more information, refer to the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 |`Telerik.ScriptManager.TelerikCdn.BaseUrl`|Lets you configure the base URL of the scripts CDN for the entire application. For more information, refer to the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
@@ -297,6 +297,7 @@ Apart from enabling the [Compression]({%slug controls/radcompression%}), you can
 
 The following example demonstrates how to enable the Compression for regular postbacks.
 
+
 ````XML
 <configSections>
 
@@ -312,9 +313,8 @@ The following example demonstrates how to enable the Compression for regular pos
 
 Due to the fact that the `RadCompression` module takes advantage of the ASP.NET `SessionPageStatePersister`, you may need to fine-tune its settings.
 
-* `ControlState`&mdash;By default, the `SessionPageStatePersister` doesn't add the `ControlState` to the `Session` so you may need to add it manually:
+* `ControlState`&mdash;By default, the `SessionPageStatePersister` doesn't add the `ControlState` to the `Session` so you may need to add it manually. The following example demonstrates how to set the control state in `Session`.
 
-		The following example demonstrates how to set the control state in `Session`.
 
 		````XML
 		<system.web>
@@ -326,9 +326,8 @@ Due to the fact that the `RadCompression` module takes advantage of the ASP.NET 
 		</system.web>
 		````
 
-* `Page history`&mdash;In applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the `Session`. The default value of the history size is `9`.
+* `Page history`&mdash;In applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the `Session`. The default value of the history size is `9`. The following example demonstrates how to configure the amount of pages that are persisted in `Session`.
 
-		The following example demonstrates how to configure the amount of pages that are persisted in `Session`:
 
 		````XML
 		<system.web>

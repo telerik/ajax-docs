@@ -33,7 +33,7 @@ For useful scenarios and troubleshooting issues, run a search through the [Knowl
 
 For specific control settings, refer to the [client-side](https://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.GridColumn) and [server-side](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridAnimationSettings) API references&mdash;in this case, the Grid as an example.
 
->caption Typical documentation structure of a control.
+>caption Typical documentation structure of a control
 
 ![Documentation structure for a typical control](images/typical-control-docs.png "Documentation structure for a typical control")
 
@@ -41,11 +41,11 @@ For specific control settings, refer to the [client-side](https://docs.telerik.c
 
 Visual Studio IntelliSense allows you to explore the available properties, events, and inner tags of any control.
 
->caption Exploring IntelliSense in the markup.
+>caption Explore IntelliSense in the markup
 
 ![Explore IntelliSense in the markup](images/markup-intellisense.png "Explore IntelliSense in the markup")
 
->caption Exploring IntelliSense in the code-behind.
+>caption Explore IntelliSense in the code-behind
 
 ![Explore IntelliSense in the code-behind](images/code-behind-intellisense.png "Explore IntelliSense in the code-behind")
 
@@ -53,7 +53,7 @@ Visual Studio IntelliSense allows you to explore the available properties, event
 
 Most tasks and configuration options are available in the **Smart Tag** of the control in Design mode. You will also find design-time wizards and links that can be useful if you are getting started with a feature or even if you are an advanced user who wants to save time with setting up collections, data sources, or properties.
 
->caption Smart Tag features.
+>caption Smart Tag features
 
 ![Smart Tag features](images/smart-tag-features.png "Smart Tag features")
 
