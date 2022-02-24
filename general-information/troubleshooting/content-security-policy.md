@@ -25,8 +25,8 @@ To allow font icons, raster icons and inline style attributes that are also heav
 
 >caption Example 1: Minimal configuration to run UI for ASP.NET AJAX with CSP.
 ````HTML
-<meta 
-    http-equiv="Content-Security-Policy" 
+<meta
+    http-equiv="Content-Security-Policy"
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' ;"
      />
 ````
@@ -35,8 +35,8 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
 
 >caption Example 2: Using UI for ASP.NET AJAX with CDN over HTTPS (SSL).
 ````HTML
-<meta 
-    http-equiv="Content-Security-Policy" 
+<meta
+    http-equiv="Content-Security-Policy"
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://d2i2wahzwrm1n5.cloudfront.net ;
 			 style-src 'self' 'unsafe-inline' https://d35islomi5rx1v.cloudfront.net ;
 			 font-src 'self' https://d35islomi5rx1v.cloudfront.net 'data:';
@@ -46,8 +46,8 @@ To work with CDN, you must also add the `self` keyword to the `font-src` and `im
 
 >caption Example 3: Using UI for ASP.NET AJAX with CDN over plain HTTP.
 ````HTML
-<meta 
-    http-equiv="Content-Security-Policy" 
+<meta
+    http-equiv="Content-Security-Policy"
     content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://aspnet-scripts.telerikstatic.com ;
 			 style-src 'self' 'unsafe-inline' https://aspnet-skins.telerikstatic.com ;
 			 font-src 'self' https://aspnet-skins.telerikstatic.com 'data:';
@@ -91,5 +91,3 @@ Having an operational MS AJAX environment is essential before adding the Telerik
 
 
 ## See Also
-
-
