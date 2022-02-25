@@ -4,7 +4,7 @@ page_title: Links with Selected Resources for Handling Possible Issues
 description: "Look through the links with resources for handling possible issues that might occur when working with Telerik UI for ASP.NET AJAX."
 slug: links-troubleshooting-kb-resources
 previous_url: general-information/troubleshooting/installation-troubleshooting, general-information/troubleshooting/general-troubleshooting, general-information/troubleshooting/web-resources-troubleshooting, general-information/troubleshooting/design-time-troubleshooting, general-information/troubleshooting/toolbox-troubleshooting, general-information/troubleshooting/skins-troubleshooting, general-information/troubleshooting/jquery-troubleshooting, general-information/troubleshooting/content-security-policy
-tags: telerik, asp, net, ajax, troubleshoting, links, with, resources
+tags: telerik, asp, net, ajax, troubleshooting, links, with, resources
 published: True
 position: 100
 ---
@@ -36,15 +36,15 @@ For faster navigation, the links are grouped into the following sets:
 
 ## General
 
-* [`'Telerik' is undefined` Error When Running a Website in the IIS 7+ Integrated Mode](#error-message-telerik-is-undefined-when-running-a-website-on-iis-7-integrated-mode)
+* [`'Telerik' is undefined` Error When Running a Website in the Integrated Mode on IIS 7 and Later]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting %})
 
-* [Error: `The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'`](#error-message-the-type-systemwebuiiscriptcontrol-is-defined-in-an-assembly-that-is-not-referenced-you-must-add-a-reference-to-assembly-systemwebextensions-version10610250-cultureneutral-publickeytoken31bf3856ad364e35)
+* [Error: `The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'`]({% slug systemwebuiiscriptcontrol-in-assembly-not-referenced-error %})
 
-* [Error: `The control with ID '(ControlID)' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.`](#error-message-the-control-with-id-controlid-requires-a-scriptmanager-on-the-page-the-scriptmanager-must-appear-before-any-controls-that-need-it)
+* [Error: `The control with ID '(ControlID)' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.`]({% slug control-id-requires-scriptmanager-on-page-error %})
 
-* [Microsoft JScript runtime error: `'Sys' is undefined`](#error-message-microsoft-jscript-runtime-error-sys-is-undefined)
+* [Microsoft JScript runtime error: `'Sys' is undefined`]({% slug sys-is-undefined-ms-js-runtime-error %})
 
-* [Error: `The Controls collection cannot be modified because the control contains code blocks`](#error-message-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks)
+* [Error: `The Controls collection cannot be modified because the control contains code blocks`]({% slug cannot-modify-control-collection-because-of-code-blocks %})
 
 * [Error `This configuration section cannot be used at this path. This happens when the section is locked at a parent level...`](#error-message-this-configuration-section-cannot-be-used-at-this-path)
 

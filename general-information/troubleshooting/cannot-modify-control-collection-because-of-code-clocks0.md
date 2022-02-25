@@ -1,150 +1,37 @@
 ---
-title: General Troubleshooting
-page_title: General Troubleshooting
-description: Check our Web Forms article about General Troubleshooting.
-slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting
-tags: general,troubleshooting
+title: Controls Collection Cannot Be Modified because of Code Blocks Error Occurs
+page_title: Controls Collection Cannot Be Modified because of Code Blocks Error Occurs
+description: "When working with Telerik UI for ASP.NET AJAX, I get a controls collection cannot be modified because the control contains code blocks error message."
+slug: cannot-modify-control-collection-because-of-code-clocks
+tags: telerik, asp, net, ajax, troubleshooting, controls, collection, cannot, be, modified, because, the, control, contains, code, blocks, error
+type: troubleshooting
+category: knowledge-base
+res_type: kb
 published: True
-position: 1
 ---
 
-# General Troubleshooting
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
+When working with Telerik UI for ASP.NET AJAX, I get an error that the controls collection cannot be modified because the control contains code blocks.
 
-This article lists common problems and their solutions. You can go through the list below to see if your case is described there. You can also use the browser find command (Ctrl+F) to search for the error you get.
+## Error Message
 
-Here is a list with the main sections:
+`The Controls collection cannot be modified because the control contains code blocks`
 
-* [Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode](#error-message-telerik-is-undefined-when-running-a-website-on-iis-7-integrated-mode)
+## Cause
 
-* [Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'" ](#error-message-the-type-systemwebuiiscriptcontrol-is-defined-in-an-assembly-that-is-not-referenced-you-must-add-a-reference-to-assembly-systemwebextensions-version10610250-cultureneutral-publickeytoken31bf3856ad364e35)
-
-* [Error message, "The control with ID '(ControlID)' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it." ](#error-message-the-control-with-id-controlid-requires-a-scriptmanager-on-the-page-the-scriptmanager-must-appear-before-any-controls-that-need-it)
-
-* [Error message, "Microsoft JScript runtime error: 'Sys' is undefined"](#error-message-microsoft-jscript-runtime-error-sys-is-undefined)
-
-* [Error message, "The Controls collection cannot be modified because the control contains code blocks"](#error-message-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks)
-
-* [Error message, "This configuration section cannot be used at this path. This happens when the section is locked at a parent level..."](#error-message-this-configuration-section-cannot-be-used-at-this-path)
-
-* [Problem: Telerik control stylesheet is not registered after an AJAX request (inside MS UpdatePanel) when the control is not initially visible on the page ](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
-
-* [Problem: Using the Telerik controls with RadScriptManager on your login page throws an error](#using-the-telerik-controls-with-radscriptmanager-on-your-login-page-throws-an-error)
-
-* [Problem: Design-Time error on a page using Telerik controls](#design-time-error-on-a-page-using-telerik-controls)
-
-* [Problem: System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)](#systemiofileloadexception-could-not-load-file-or-assembly-telerikwebui-versionxxxxxxxxxx-cultureneutral-publickeytokenxxxxxxxxxxxxxxxx-or-one-of-its-dependencies-the-located-assemblys-manifest-definition-does-not-match-the-assembly-reference-exception-from-hresult-0x80131040)
-
-* [Problem: Telerik controls do not work if a Compression Module is used in the project/web site](#telerik-controls-do-not-work-if-a-compression-module-is-used-in-the-projectweb-site)
-
-* [Problem: Security Exception](#security-exception)
-
-* [Problem: Setting ClientIDMode property to Static breaks the Telerik controls functionality](#setting-clientidmode-property-to-static-breaks-the-telerik-controls-functionality)
-
-* [Problem: Telerik controls are incompatible with Ajax Control Toolkit](#telerik-controls-are-incompatible-with-ajax-control-toolkit)
-
-* [Problem: Telerik controls integration with Kendo UI widgets](#telerik-controls-integration-with-kendo-ui-widgets)
-
-* [Problem: Unobtrusive Validation Basics](#unobtrusive-validation-basics)
-
-## Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode
-
-**Problem**:
-
-**Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode.**
-
-**Suggested Solution**:
-
-When in integrated mode, IIS7 reads the application configuration from the **`<system.webServer>`** section group in the application configuration file, but not the **`<system.web>`** section group. Since Visual Studio 2005 does not provide "native" support for IIS7, the **RadScriptManager** registration cannot be automatically added to the **system.webServer**.
-
-To solve the problem you should manually add the **HttpHandler registration** to the **system.webServer** section group. There are two cases:
-
-* Telerik.Web.UI.dll is in the **GAC**:
-
-	**XML**
-
-		<system.webServer>
-		…
-			<handlers>
-			…
-				<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-			…
-			</handlers>
-		</system.webServer> 
-
-
-
-	>caution You need to replace [ **ASSEMBLY_VERSION** ] with the exact version of your DLL.
-
-
-
-* Telerik.Web.UI.dll is **not in the GAC**:
-
-	**XML**
-
-		<system.webServer>
-		…
-			<handlers>
-			…
-				<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" />
-			…
-			</handlers>
-		</system.webServer> 
-
-
-
-Additional information is available in this blog post: [Web Resources demystified](https://blogs.telerik.com/aspnet-ajax/posts/08-07-18/web-resources-demystified-part-3-troubleshooting.aspx).
-
-## Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'"
-
-**Problem**:
-
-**Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'"**
-
-**Suggested Solution**:
-
-This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
-
-## Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."
-
-**Problem**:
-
-**Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."**
-
-**Suggested Solution**:
-
-This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX to a page that does not contain a **ScriptManager** control. To resolve this error, please add a **ScriptManager** control to your page:
-
-````ASP.NET
-<asp:ScriptManager ID="ScriptManager1" runat="server" /> 
-````
-
-
-If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik® UI for ASP.NET AJAX suite. For further details about the **ScriptManager** control, you can read this article [https://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](https://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
-
-## Error message, "Microsoft JScript runtime error: 'Sys' is undefined"
-
-**Problem**:
-
-**Error message, "Microsoft JScript runtime error: 'Sys' is undefined"**
-
-**Suggested Solution**:
-
-This error occurs when you have added a control from Telerik® UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
-
-## Error message, "The Controls collection cannot be modified because the control contains code blocks"
-
-**Problem**:
-
-**Error message, "The Controls collection cannot be modified because the control contains code blocks".**
-
-**Suggested Solution**:
-
-If you receive exceptions such as "System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks" you need to move the code block (i.e., `<% ... %>`) outside of the head tag:
-
-Incorrect:
+The possible cause for this issues is that the code block is inside the `head` tag, for example:
 
 ````ASP.NET
 <head id="Head1" runat="server">
@@ -155,10 +42,12 @@ Incorrect:
 </head>
 <body>
 ...
-</body> 
+</body>
 ````
 
-Correct:
+## Solution
+
+To solve this issue, move the code block (`<% ... %>`) outside the `head` tag:
 
 ````ASP.NET
 <head id="Head2" runat="server">
@@ -185,6 +74,8 @@ or
 </body>   
 ````
 
+
+
 ## Error Message, This configuration section cannot be used at this path
 
 **Problem**:
@@ -209,7 +100,7 @@ If the control is initially invisible and is shown after an ASP.NET AJAX update,
 
 ````HTML
 <link href="<my_path_to_stylesheet>" rel="stylesheet" runat="server" >
-```` 
+````
 
 
 
@@ -246,12 +137,12 @@ Add a **`<location>`** section to the application configuration file to allow ac
    </system.web>
  </location>
 ...
-</configuration> 
+</configuration>
 ````
 
 **Cause**:
 
-If a website was migrated from an older version of ASP.NET to the latest there might be a *preCondition* attribute added to the Telerik.Web.UI.WebResource.axd handler declaration stating that the runtime version is 2.0 
+If a website was migrated from an older version of ASP.NET to the latest there might be a *preCondition* attribute added to the Telerik.Web.UI.WebResource.axd handler declaration stating that the runtime version is 2.0
 
 ```
  preCondition="integratedMode,runtimeVersionv2.0"
@@ -259,7 +150,7 @@ If a website was migrated from an older version of ASP.NET to the latest there m
 
 **Suggested Solution**:
 
-Remove *runtimeVersionv2.0* from the handler declaration. 
+Remove *runtimeVersionv2.0* from the handler declaration.
 
 ## Design-Time error on a page using Telerik controls
 
@@ -312,17 +203,17 @@ Visual Studio 2008 has a problem with loading GAC-ed design-time assemblies of c
 1. Bin-deploy the design-time assembly
 
 	* Add a reference to Telerik.Web.Design.dll to your web site or application
-	
+
 	* Remove Telerik.Web.Design.dll from the GAC
-	
+
 	* Restart Visual Studio
 
 1. GAC-deploy the control library assembly
 
 	* Add Telerik.Web.UI.dll in the GAC
-	
+
 	* Remove Telerik.Web.UI.dll from your bin folder
-	
+
 	* Restart Visual Studio
 
 1. Copy **Telerik.Web.UI.dll** to **C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies** and restart Visual Studio.
@@ -370,7 +261,7 @@ Skip compression for the requested resource in the Compression Module. If the **
 
 **Security Exception**
 
-**Description:** The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file. 
+**Description:** The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file.
 
 **Exception Details:** *System.Security.SecurityException:Request for the permission of type 'System.Web.AspNetHostingPermission,...*
 
