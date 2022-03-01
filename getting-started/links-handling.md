@@ -1,6 +1,6 @@
 ---
-title: Resources on Handling Issues
-page_title: Links with Selected Resources for Handling Possible Issues
+title: Known Issues
+page_title: Known Issues
 description: "Look through the links with resources for handling possible issues that might occur when working with Telerik UI for ASP.NET AJAX."
 slug: links-troubleshooting-kb-resources
 previous_url: general-information/troubleshooting/installation-troubleshooting, general-information/troubleshooting/general-troubleshooting, general-information/troubleshooting/web-resources-troubleshooting, general-information/troubleshooting/design-time-troubleshooting, general-information/troubleshooting/toolbox-troubleshooting, general-information/troubleshooting/skins-troubleshooting, general-information/troubleshooting/jquery-troubleshooting, general-information/troubleshooting/content-security-policy
@@ -9,9 +9,9 @@ published: True
 position: 100
 ---
 
-# Links with Selected Resources for Handling Possible Issues
+# List of Known Issues
 
-This article provides a collection of links to selected Knowledge Base articles which cover scenarios for handling frequent issues you might encounter when working with Telerik UI for ASP.NET AJAX.
+This article provides links to selected Knowledge Base articles covering scenarios for handling some of the most common Telerik UI for ASP.NET AJAX issues.
 
 For faster navigation, the links are grouped into the following sets:
 
@@ -70,7 +70,43 @@ For faster navigation, the links are grouped into the following sets:
 
 ## Web Resources
 
+If you are using an ASP.NET server control with rich client-side behavior, it is likely built to utilize web resources. Sometimes your page loads and the rich server-side control does not work at all, for example, the tree view does not expand, the grid cannot sort, and so on. Most of the times such issues occur because the JavaScript files of those controls have failed to load.
 
+If your browser is configured to prompt on JavaScript errors, you may see an error message similar to the `RadTreeView is undefined` one.
+
+If you are using Telerik UI for ASP.NET AJAX, receiving this message indicates that there might be a Web Resource related issue.
+
+## Identifying the Error
+
+To identify the error that occurs, use either of the following approaches:
+
+* Manually request the WebResource handler.
+
+  View the rendered output of your page and get the URL of the offending script tag, for example:
+
+  ````HTML
+  <script type="text/javascript"
+  src="/Sample/WebResource.axd?d=axd__
+  axd&t=633437882200000000"></script>
+  ````
+
+  If you paste that URL in the address bar of your browser, specifically after the domain and folder, the web server will serve back the content of that web resource. If the issue is related to the HTTP handler of the web resource, you will see an error page saying that the server returned an HTTP error code 404 (not found) or 500 (server error).
+
+* Using web development tools to request the WebResource handler.
+
+  Use an HTTP traffic sniffer tool like [Google DevTools](https://developers.google.com/web/tools/chrome-devtools/resources), [Fiddler](https://www.telerik.com/fiddler), or [Firefox FireBug](http://www.getfirebug.com/) to find out if the request to a web resource file has failed and what the exact error is.
+
+The following list links to the most common issues related to web resources when working with Telerik UI for ASP.NET AJAX:
+
+* [This is an Invalid WebResource Request]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting %})
+
+* [Unauthorized Access (401) Error]({% slug unauthorized-access-error-401 %})
+
+* [The Requested URL Was Not Found (404) Error]({% slug requested-url-not-found-error-404 %})
+
+* [Server Error (500)]({% slug server-error-500-occurs %})
+
+* [No Error Occurs, but the Body of the Returned Resource Is Blank]({% slug body-of-returned-resource-is-blank %})
 
 
 ## Design-Time
