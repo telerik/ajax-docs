@@ -26,23 +26,25 @@ This help articles shows how to include and use embedded and external jQuery wit
 
 1. [Embedded jQuery Security](#embedded-jquery-security)
 
+1. [Unobtrusive Validation Basics](#unobtrusive-validation-basics)
+
 ## Including jQuery
 
 If you have any of the controls listed in the [Telerik UI Controls Using jQuery](#telerik-ui-controls-using-jquery) section (with the specified version or newer) on your page then the jQuery **is already included** and you can omit this paragraph. If not - follow these steps:
 
 1. Add a ScriptReference pointing to **Core.js** as we use a slightly customized version of jQuery which depends on Core.js.
-	
+
 	We have not modified the implementation of jQuery in any way. We have just appended a few more lines of JavaScript at the end of the file in order to avoid any version conflict and to include a few useful jQuery plugins.
-	
+
 	**ASP.NET**
 
-		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" /> 
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 
 1. Add a ScriptReference pointing to **jQuery.js**
 
 	**ASP.NET**
-	
-		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" /> 
+
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 
 Here is how your RadScriptManager (or ScriptManager) should look like in the end:
 
@@ -52,7 +54,7 @@ Here is how your RadScriptManager (or ScriptManager) should look like in the end
        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
    </Scripts>
-</telerik:RadScriptManager> 
+</telerik:RadScriptManager>
 ````
 
 ## Including external jQuery
@@ -67,7 +69,7 @@ You can disable the jQuery scripts our controls bring by default via the followi
 1. Load the custom version of jQuery you want to use. At this point you have the jQuery embedded in the Telerik controls and the custom one that is loaded via the following code. Proceed to the next step if you want to replace the embedded version with the custom one.
 
 	**ASP.NET**
-	
+
 		<head>
 		    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		    ...
@@ -79,7 +81,7 @@ You can disable the jQuery scripts our controls bring by default via the followi
 1. Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
 
 	**ASP.NET**
-	
+
 		<telerik:RadScriptManager runat="server" ID="RadScriptManager2" EnableEmbeddedjQuery="false">
 		    <Scripts>
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
@@ -103,18 +105,18 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 
 
 *  Using a global variable
-	
+
 	**JavaScript**
 
 		<script type="text/javascript">
 		    window.$ = $telerik.$;
-		</script> 
+		</script>
 
 
 * Using a self-calling anonymous function (**Example 1**):
 
 	**JavaScript**
-	
+
 		<script type="text/javascript">
 			(function ($) {
 				$(document).ready(function () {
@@ -122,18 +124,18 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 				}
 		   );
 			})($telerik.$);
-		</script> 
+		</script>
 
 
 * Using the **$telerik.$** alias:
 
 	**JavaScript**
-	
+
 		<script type="text/javascript">
 			$telerik.$(document).ready(function () {
 				alert("Document is ready");
 			});
-		</script> 
+		</script>
 
 
 * Include a script reference to the **Telerik.Web.UI.Common.jQueryInclude.js**:
@@ -145,7 +147,7 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 		   ......
 		          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
 		   </Scripts>
-		</telerik:RadScriptManager> 
+		</telerik:RadScriptManager>
 
 
 
@@ -183,7 +185,7 @@ Use any of the approaches above.
            });
 		});
 	})($telerik.$);
-</script> 
+</script>
 ````
 
 ## jQuery Version History in Telerik UI Controls
@@ -269,7 +271,7 @@ The jQuery library introduces a breaking change in version 3.0 and uses `strict 
 
 * [jQuery Core 3.0 Upgrade Guide - Breaking change: jQuery 3.0 runs in Strict Mode](https://jquery.com/upgrade-guide/3.0/#breaking-change-jquery-3-0-runs-in-strict-mode) - "_If you are still using a version of ASP.NET that still does this, keep using jQuery 2.x or earlier._"
 
-* [The ASP.NET AJAX scripts are incompatible with "use strict"](https://developercommunity.visualstudio.com/content/problem/166951/the-aspnet-ajax-scripts-are-incompatible-with-use.html) bug report to Microsoft for .NET framework 
+* [The ASP.NET AJAX scripts are incompatible with "use strict"](https://developercommunity.visualstudio.com/content/problem/166951/the-aspnet-ajax-scripts-are-incompatible-with-use.html) bug report to Microsoft for .NET framework
 
 * [WTF! MicrosoftAjax.js vs ‘use strict’ vs Firefox vs IE](https://mnaoumov.wordpress.com/2016/02/12/wtf-microsoftajax-js-vs-use-strict-vs-firefox-vs-ie/) blog post  
 
@@ -285,12 +287,20 @@ As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with ba
 
 You can find more information in the following KB article on the matter: [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax).
 
-### See Also
+## Unobtrusive Validation Basics
+
+Unobtrusive validation is a type of validation that makes use of the HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and requires a jQuery library that is registered with the ScriptManager as `jquery`. To add this registration, install the [`AspNet.ScriptManager.jQuery` NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
+
+In addition, when the page contains a ScriptManager control, you need to instruct it to register jQuery before the `WebForms.js` and `WebUIValidation.js` core script files that provide the unobtrusive validation. For more information about this requirement, refer to the [Unobtrusive validation breaks with a Script Manager on the page](https://connect.microsoft.com/VisualStudio/feedback/details/748064/unobtrusive-validation-breaks-with-a-script-manager-on-the-page) Microsoft Connect feedback item.
+
+The unobtrusive validation is automatically configured when you create a web site through the .NET 4.5 Web Forms Site template of Visual Studio. If you use it with a `RadScriptManager` or in a Telerik website or web application template, however, a few common scenarios that require additional modifications may occur. For more information, refer to the [troubleshooting scenarios on integrating jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting%}).
+
+## See Also
 
  * [What is jQuery?]({%slug general-information/using-jquery/what-is-jquery%})
 
  * [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%})
- 
+
  * [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%})
- 
+
  * [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax)

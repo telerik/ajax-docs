@@ -50,23 +50,23 @@ For faster navigation, the links are grouped into the following sets:
 
 * [The Telerik Control Stylesheet Is Not Registered after an AJAX Request](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
 
-* [Error When Using the Telerik Controls with the ScriptManager on the Login Page](#using-the-telerik-controls-with-radscriptmanager-on-your-login-page-throws-an-error)
+* [Error When Using the Telerik Controls with the ScriptManager on the Login Page]({% slug control-stylesheet-not-registered-after-ajax-request %})
 
-* [Error during Design-Time on a Page Using Telerik Controls](#design-time-error-on-a-page-using-telerik-controls)
+* [Error during Design-Time on a Page Using Telerik Controls]({% slug design-time-errors-on-page-with-telerik-controls %})
 
-* [Error: `System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)`](#systemiofileloadexception-could-not-load-file-or-assembly-telerikwebui-versionxxxxxxxxxx-cultureneutral-publickeytokenxxxxxxxxxxxxxxxx-or-one-of-its-dependencies-the-located-assemblys-manifest-definition-does-not-match-the-assembly-reference-exception-from-hresult-0x80131040)
+* [Error: `System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)`]({% slug located-assembly-manifest-definition-not-matching-reference %})
 
-* [Telerik Controls Do Not Work If a Compression Module Is Used in the Project](#telerik-controls-do-not-work-if-a-compression-module-is-used-in-the-projectweb-site)
+* [Telerik Controls Do Not Work If a Compression Module Is Used in the Project]({% slug controls-not-working-if-compression-used-in-project %})
 
-* [Security Exception](#security-exception)
+* [Security Exception]({% slug security-exception-occurs %})
 
-* [Setting the `ClientIDMode` Property to `Static` Breaks the Telerik Controls Functionality](#setting-clientidmode-property-to-static-breaks-the-telerik-controls-functionality)
+* [Setting the `ClientIDMode` Property to `Static` Breaks the Telerik Controls Functionality]({% slug clientidmode-static-breaks-controls-functionality %})
 
-* [Telerik Controls Are Incompatible with Ajax Control Toolkit](#telerik-controls-are-incompatible-with-ajax-control-toolkit)
+* [Telerik Controls Are Incompatible with Ajax Control Toolkit]({% slug telerik-controls-incompatible-with-ajax-control-toolkit %})
 
-* [Integrating Telerik Controls with Kendo UI Widgets](#telerik-controls-integration-with-kendo-ui-widgets)
+* [Integrating Telerik Controls with Kendo UI Widgets]({% slug integrating-telerik-controls-with-kendo-jquery-raises-issues %})
 
-* [Unobtrusive Validation Basics](#unobtrusive-validation-basics)
+* [Unobtrusive Validation Basics]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery %}#unobtrusive-validation-basics)
 
 ## Web Resources
 
