@@ -970,14 +970,11 @@ navigation:
     "*grid/functionality/printing":
         title: "Printing"
         position: 7
-    "*grid/functionality/exporting/export-formats":
-        title: "Export Formats"
-        position: 1
-    "*grid/functionality/exporting/export-formats/excelml-export":
-        title: "ExcelML Export"
-        position: 2
-    "*grid/functionality/exporting/export-formats/word-and-excel-export":
-        title: "Word and Excel Export"
+    "*grid/functionality/exporting/excel-export":
+        title: "Excel Export"
+        position: 3
+    "*grid/functionality/exporting/word-export":
+        title: "Word Export"
         position: 4
     "*grid/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
