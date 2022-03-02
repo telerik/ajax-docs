@@ -116,7 +116,7 @@ List of key functionalites you can find below:
 - [Hierarchy]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%})
 - [CommandItem]({%slug grid/data-editing/commanditem/overview%})
 - [Export To Excel]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
-- [Export To CSV]({%slug grid/functionality/exporting/csv%})
+- [Export To CSV]({%slug grid/functionality/exporting/csv-export%})
 - [Export To PDF]({%slug grid/functionality/exporting/pdf-export%})
 - [Export To DOC]({%slug grid/functionality/exporting/word-export/word-docx%})
 - [Print]({%slug grid/functionality/printing/printing%})
