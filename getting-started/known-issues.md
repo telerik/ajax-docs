@@ -133,11 +133,11 @@ Some of the design-time issues linked below, which refer to the previous install
 
 ## Visual Studio Toolbox
 
-* [The Telerik UI for ASP.NET AJAX Controls Do Not Appear in the Toolbox](#the-telerik-ui-for-aspnet-ajax-controls-do-not-appear-in-the-toolbox)
+* [The Telerik UI for ASP.NET AJAX Controls Do Not Appear in the Toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/toolbox-troubleshooting %})
 
-* [The Toolbox Contains Old Item Registrations](#the-toolbox-contains-old-item-registrations)
+* [The Toolbox Contains Old Item Registrations]({% slug vs-toolbox-containing-old-item-registrations %})
 
-* [Missing or Disabled Toolbox Items](#missing-or-disabled-toolbox-items)
+* [Missing or Disabled Toolbox Items]({% slug vs-toolbox-items-missing-or-disabled %})
 
 ## Skins
 
