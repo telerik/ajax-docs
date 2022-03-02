@@ -5,60 +5,338 @@ description: Check our Web Forms article about Integration with Telerik Document
 slug: grid/functionality/exporting/integration-with-telerik-document-processing-library
 tags: integration,with,telerik,document,processing,library
 published: True
-position: 3
+position: 5
 ---
 
-# Integration with Telerik Document Processing Library
+# Integration with Telerik Document Processing Libraries (DPL)
+
+Telerik Document Processing is a bundle of UI-independent cross-platform libraries that enable you to process the most commonly used text, PDF, and spreadsheet file formats. The Document Processing library allows you to create, import, modify and export documents without relying on external dependencies like Adobe Acrobat or Microsoft Office.
+
+For more details about the benefits of using Telerik Document Processing, see the [Telerik Document Processing product overview page](https://www.telerik.com/document-processing-libraries).
+
+The DPL are supported and shipped with the **Telerik® UI for ASP.NET AJAX** suite starting from Q2 2014. More information about the assemblies and how to include them in your project can be found in the [Included assemblies]({%slug introduction/installation/included-assemblies%}) help article.
+
+## Create an Excel Document
+
+Required Assemblies for building the Excel Document
+
+   - Telerik.Windows.Documents.Core.dll
+   - Telerik.Windows.Documents.Spreadsheet.dll
+   - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+   - Telerik.Windows.Zip.dll
+
+Using/Imports statement
+
+````C#
+using Telerik.Windows.Documents.Spreadsheet.FormatProviders;
+using Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.Xlsx;
+using xlsx = Telerik.Windows.Documents.Spreadsheet.Model;
+````
+````VB
+Imports Telerik.Windows.Documents.Spreadsheet.FormatProviders
+Imports Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.Xlsx
+Imports xlsx = Telerik.Windows.Documents.Spreadsheet.Model
+````
+
+Steps to create a Workbook object, and Write text into Cells
+
+````C#
+// Create a Workbook object
+xlsx.Workbook myWorkbook = new xlsx.Workbook();
+
+// Create Worksheet object for the Workbook
+xlsx.Worksheet myWorksheet = myWorkbook.Worksheets.Add();
+
+// Write a Text to the First Cell of the First Row
+// Select the First Cell
+int columnIndex = 0; // 1st Cell Index
+var rowIndex = 0; // 1st Row Index
+xlsx.CellSelection selectedCell = myWorksheet.Cells[rowIndex, columnIndex];
+
+// Set Cell Value
+selectedCell.SetValue("First Cell First Row");
+
+// Wite a Text to the 4th Cell in the 5th Row
+// Select the Next Cell
+columnIndex = 3; // 4th Cell index
+rowIndex = 4; // 5th Row Index
+selectedCell = myWorksheet.Cells[rowIndex, columnIndex];
+
+// Set Cell Value
+selectedCell.SetValue("Fourth Cell Fifth Row");
+````
+````VB
+'Create a Workbook object
+Dim myWorkbook As xlsx.Workbook = New xlsx.Workbook()
+
+'Create Worksheet object for the Workbook
+Dim myWorksheet As xlsx.Worksheet = myWorkbook.Worksheets.Add()
+
+'Write a Text to the First Cell of the First Row
+'Select the First Cell
+Dim columnIndex As Integer = 0 '1st Cell Index
+Dim rowIndex As Integer = 0 '1st Row Index
+Dim selectedCell As xlsx.CellSelection = myWorksheet.Cells(rowIndex, columnIndex)
+
+'Set Cell Value
+selectedCell.SetValue("First Cell First Row")
+
+'Wite a Text to the 4th Cell in the 5th Row
+'Select the Next Cell
+columnIndex = 3
+rowIndex = 4
+selectedCell = myWorksheet.Cells(rowIndex, columnIndex)
+
+'Set Cell Value
+selectedCell.SetValue("Fourth Cell Fifth Row")
+````
+
+>caption Result
+
+![](images/grid-exporting-integration-with-dpl-excel-document-example.png)
+
+This was just a very basic example of creating an Excel Document using the DPL. More information about the APIs and examples can be found on the DPL documentation page, see [Telerik Document Processing - SpreadProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview).
+
+Once done building the Workbook, you can convert it to an Excel Document and save it to the disk or Send it back in the Response for Downloading.
+
+## Create a Word Document
+
+````C#
+// Create a FlowDocument
+docx.RadFlowDocument flowDocument = new docx.RadFlowDocument();
+// Create a Document Section
+docx.Section section = flowDocument.Sections.AddSection();
+// Insert a Table into the Document Section
+docx.Table table = section.Blocks.AddTable();
+        
+// Create Cell Border Style
+docx.Styles.TableCellBorders tableCellBorders = new docx.Styles.TableCellBorders(new docx.Styles.Border(docx.Styles.BorderStyle.Single));
+
+// Loop for creating 5 rows and 4 cells per row
+for (int rowIndex = 0; rowIndex < 5; rowIndex++)
+{
+    // Insert more Rows into the Table
+    docx.TableRow row = table.Rows.AddTableRow();
+
+    for (int colIndex = 0; colIndex < 4; colIndex++)
+    {
+        docx.TableCell cell = row.Cells.AddTableCell();
+        // Apply the border style to the Cell
+        cell.Borders = tableCellBorders;
+    }
+}
+
+// First Cell in the First Row
+docx.TableCell selectedCell = table.Rows[0].Cells[0];
+// Add a Paragraph to the Cell
+docx.Paragraph paragraph = selectedCell.Blocks.AddParagraph();
+// Set Paragraph value
+paragraph.Inlines.AddRun("First Cell First Row");
+
+// Fourth Cell Fifth Row
+selectedCell = table.Rows[4].Cells[3];
+// Add a Paragraph to the Cell
+paragraph = selectedCell.Blocks.AddParagraph();
+// Set Paragraph value
+paragraph.Inlines.AddRun("Fourth Cell Fifth Row");
+````
+````VB
+````
+
+>caption Result
+
+![](images/grid-exporting-integration-with-dpl-word-document-example.png)
+
+
+## Save the Document to Disk
+
+This uses the Workbook object created in the [Create an Excel Document](#create-an-excel-document) section to save it to the Disk.
+
+````C#
+// Create an Excel Format Provider which will be used to convert the Workbook to an Excel Document
+IWorkbookFormatProvider formatProvider = new XlsxFormatProvider();
+
+// Create a Path including the Filename and Extension
+string virtualPath = "~/MyWorkbook.xlsx";
+
+// FileStream only Supports Physical Path, if you used a Virtual Path, Convert it to a Physical Path
+string absolutePath = Server.MapPath(virtualPath);
+
+// Use Stream to Create the Excel File
+using (Stream output = new FileStream(absolutePath, FileMode.Create))
+{
+    // Export the Workbook Object to the Excel File
+    formatProvider.Export(myWorkbook, output);
+}
+````
+````VB
+'Create an Excel Format Provider which will be used to convert the Workbook to an Excel Document
+Dim formatProvider As IWorkbookFormatProvider = New XlsxFormatProvider()
+'Create a Path including the Filename and Extension
+Dim virtualPath As String = "~/MyWorkbook.xlsx"
+'FileStream only Supports Physical Path, if you used a Virtual Path, Convert it to a Physical Path
+Dim absolutePath As String = Server.MapPath(virtualPath)
+
+'Use Stream to Create the Excel File
+Using output As Stream = New FileStream(absolutePath, FileMode.Create)
+    'Export the Workbook Object to the Excel File
+    formatProvider.Export(myWorkbook, output)
+End Using
+````
+
+>caption Result
+
+![](images/grid-exporting-integration-with-dpl-save-to-disk.png)
+
+
+## Download the Document
+
+````C#
+// Create an Excel Format Provider which will be used to convert the Workbook to an Excel Document
+IWorkbookFormatProvider formatProvider = new XlsxFormatProvider();
+
+using (MemoryStream ms = new MemoryStream())
+{
+    // Convert Workbook to MemoryStream
+    formatProvider.Export(myWorkbook, ms);
+
+    // Convert MemoryStream to Byte array
+    byte[] output = ms.ToArray();
+
+    // Clear Previous Response
+    Response.Clear();
+    // Set the Content (mime) type for Excel XLSX
+    Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+
+    // Define the FileName
+    string fileName = "MyWorkBook.xlsx";
+
+    // Use Content-Disposition: attachment if you want browser to offer the File to Download
+    Response.AddHeader("Content-Disposition", "attachment;filename=\"" + fileName + "\"");
+
+    // Use "Content-Disposition: inline" if you want browsers to open the file directly (only works with browsers that have extensions to open this document)
+    //Response.AddHeader("Content-Disposition", "inline;filename=\"" + fileName + "\"");
+
+    // Return the Output
+    Response.BinaryWrite(output);
+
+    // End the Response
+    Response.End();
+}
+````
+````VB
+'Create an Excel Format Provider which will be used to convert the Workbook to an Excel Document
+Dim formatProvider As IWorkbookFormatProvider = New XlsxFormatProvider()
+'
+Using ms As MemoryStream = New MemoryStream()
+    'Convert Workbook to MemoryStream
+    formatProvider.Export(myWorkbook, ms)
+    
+    'Convert MemoryStream to Byte array
+    Dim output As Byte() = ms.ToArray()
+    
+    'Clear Previous Response
+    Response.Clear()
+    
+    'Set the Content (mime) type for Excel XLSX
+    Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    
+    'Define the FileName
+    Dim fileName As String = "MyWorkBook.xlsx"
+    
+    'Use Content-Disposition: attachment if you want browser to offer the File to Download
+    Response.AddHeader("Content-Disposition", "attachment;filename=""" & fileName & """")
+    'Use "Content-Disposition: inline" if you want browsers to open the file directly (only works with browsers that have extensions to open this document)
+    'Response.AddHeader("Content-Disposition", "inline;filename=""" & fileName & """")
+    
+    'Return the Output
+    Response.BinaryWrite(output)
+    
+    'End the Response
+    Response.[End]()
+End Using
+````
+
+>caption Result
+
+![](images/grid-exporting-integration-with-dpl-save-as.png)
 
 
 
-**Telerik document processing Libraries** allow you export **RadGrid** to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik® UI for ASP.NET AJAX**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](https://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
+## Export RadGrid to Excel
 
-## Exporting RadGrid to Excel
+In addition to the built-in export functionalities and [Support Export Formats]({%slug grid/functionality/exporting/overview%}#supported-formats) the RadGrid can offer, you can also use the DPL APIs to export the Grid to Excel (XLSX) and Word (DOCX) document manually.
 
-The assemblies that must be referenced in order to export the RadGrid are:
+Exporting the Grid manually comes handy when trying to create a Document structure that is beyond the built-in functionality.
 
-* Telerik.Windows.Documents.Core.dll
+The following steps walk you through the entire process of Exporting the a simple structure of Grid (headers & rows) to Excel Document manually.
 
-* Telerik.Windows.Documents.Spreadsheet.dll
+1. Required Assemblies for building the Excel Document:
 
-For export and import to XLSX:
+   - Telerik.Windows.Documents.Core.dll
+   - Telerik.Windows.Documents.Spreadsheet.dll
+   - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+   - Telerik.Windows.Zip.dll
 
-* Telerik.Windows.Zip.dll
+1. Using/Imports statement
 
-* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+    ````C#
+    using Telerik.Windows.Documents.Spreadsheet.FormatProviders;
+    using Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.Xlsx;
+    using xlsx = Telerik.Windows.Documents.Spreadsheet.Model;
+    ````
+    ````VB
+    Imports Telerik.Windows.Documents.Spreadsheet.FormatProviders
+    Imports Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.Xlsx
+    Imports xlsx = Telerik.Windows.Documents.Spreadsheet.Model
+    ````
 
-The following steps walk you through the entire process of creating an Excel document and then export it to the server.
+2. Start by creating a **Workbook** object and add a new **Worksheet** object to the **Worksheets** collection.
 
-1. Create an instance of the **Workbook** class and add a new **Worksheet** object to the **Worksheets** collection.
+    ````C#
+    xlsx.Workbook workbook = new xlsx.Workbook();
+    xlsx.Worksheet worksheet = workbook.Worksheets.Add();
+    ````
+    ````VB
+    Dim workbook As New xlsx.Workbook()
+    Dim worksheet As xlsx.Worksheet = workbook.Worksheets.Add()
+    ````
 
+3. Create an array of GridItemTypes containing the following GridItemTypes: Header, Item and AlternatingItem.
+
+    ````C#
+    GridItemType[] supportedItemTypes = new GridItemType[]   {
+        GridItemType.Header,
+        GridItemType.AlternatingItem,
+        GridItemType.Item
+    };
+    ````
+    ````VB
+    Dim supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
+    ````
+
+4. Get a Collection of Items that will include the Grid Header and Grid Rows by using the GetItems() method of the Grid MasterTable.
+
+    ````C#
+    GridItem[] gridItems = RadGrid1.MasterTableView.GetItems(supportedItemTypes);
+    ````
+    ````VB
+    Dim gridItems As GridItem() = RadGrid1.MasterTableView.GetItems(supportedItemTypes)
+    ````
+
+
+5. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
 	**C#**
-	
-		Workbook workbook = new Workbook();
-		Worksheet worksheet = workbook.Worksheets.Add();
-	
-	**VB**
-	
-		Dim workbook As New Workbook()
-		Dim worksheet As Worksheet = workbook.Worksheets.Add()
-
-
-
-2. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
-
-	**C#**
-	
 		private GridItemType[] supportedItemTypes = new GridItemType[] 
-		    { 
-		        GridItemType.Header, 
-		        GridItemType.AlternatingItem, 
-		        GridItemType.Item 
-		    };
+        { 
+            GridItemType.Header, 
+            GridItemType.AlternatingItem, 
+            GridItemType.Item 
+        };
 	**VB**
 	
 		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
-
 
 	**C#**
 	
@@ -232,10 +510,10 @@ Protected Sub ExportToExcel_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
->note As of R1 2021, the MasterTableView's `GenerateXlsxOutput()` method can return an already populated Workbook. It is perfect for a scenario where you need to populate the data to a preformatted template Xlsx file. More information can be found in [Xlsx and Docx export - Generate Export Output](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-formats/xlsx-and-docx-export#generate-export-output) article and the [Export Grid to a Preformatted Template file](https://demos.telerik.com/aspnet-ajax/grid/Examples/Functionality/Exporting/Excel-Export-To-Template-File/DefaultCS.aspx) online demo.
+>note As of R1 2021, the MasterTableView's `GenerateXlsxOutput()` method can return an already populated Workbook. It is perfect for a scenario where you need to populate the data to a preformatted template Xlsx file. More information can be found in [Xlsx and Docx export - Generate Export Output](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/excel-export/excel-xlsx#generate-export-output) article and the [Export Grid to a Preformatted Template file](https://demos.telerik.com/aspnet-ajax/grid/Examples/Functionality/Exporting/Excel-Export-To-Template-File/DefaultCS.aspx) online demo.
 
 
-## Exporting RadGrid to Word
+## Export RadGrid to Word
 
 The assemblies that must be referenced in order to export the RadGrid are:
 

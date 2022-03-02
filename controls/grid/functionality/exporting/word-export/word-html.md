@@ -1,26 +1,58 @@
 ---
-title: HTML-Based Export
-page_title: HTML-Based Export - RadGrid
-description: Check our Web Forms article about HTML-Based Export.
-slug: grid/functionality/exporting/export-formats/word-and-excel-export/html-based-export
+title: Html (DOC)
+page_title: Word-Html (DOC) Export - RadGrid
+description: Word-Html (DOC) Export
+slug: grid/functionality/exporting/word-export/word-html
+previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/html-based-export
 tags: html-based,export
 published: True
 position: 0
 ---
 
-# HTML-Based Export
+# Word-Html (DOC) Export
 
 
+**RadGrid** is able to export your data to **Word** using **HTML/CSS-based** format. It is not the native binary format used by *Microsoft Office* but it is a popular way to export data and it is also officially supported by **Microsoft**, see [Microsoft® Office HTML and XML Reference](https://msdn.microsoft.com/en-us/library/aa155477%28office.10%29.aspx)
 
-**RadGrid** is able to export your data to **Word** and **Excel** using **HTML/CSS-based** format. It is not the native binary format used by *Microsoft Office* but it is a popular way to export data and it is also officially supported by **Microsoft**:
 
-[Microsoft® Office HTML and XML Reference](https://msdn.microsoft.com/en-us/library/aa155477%28office.10%29.aspx)
+## Usage
 
-## Styles / Appearance
+To export the Grid using this format, set the **Word-Format** property to **Html** within the `ExportSettings` element. **Html** is the `default` value, you might as well omit this property.
+
+>caption Example
+
+````ASP.NET
+<ExportSettings>
+    <Excel Format="Html" />
+</ExportSettings>
+````
+
+## Export Events
+
+Server-Side events triggered for the Html format.
+
+- **OnGridExporting**: This event is triggered when the Grid is exporting. It can be used to access the output from the event argument (`string`)**e.ExportOutput** when using the Excel-Format Html. 
+
+- **OnHtmlExporting**: This event is triggered for the Html format during the export. This event can be used to set the XmlOptions and add additional Styles to the Document. For more details check out the [Styling - Using Headers and Footers](#using-headers-and-footers) or [Styling - Xml Options](#xml-options) sections.
+
+
+## Customizing the Export Output
 
 Due to the fact that this format is based on standard **HTML/CSS** it is quite straightforward to control the appearance of the output by applying **CSS** tags/classes to the cells/rows/tables, etc.
 
-## ExportCellFormating / ExcelExportCellFormatting events
+- [ExportCellFormating / ExcelExportCellFormatting events](#exportcellformating--excelexportcellformatting-events)
+- [HTMLExporting event](#htmlexporting-event)
+- [Line Breaks](#line-breaks)
+- [Styling rows/cells](#styling-rowscells)
+- [Using ItemCreated/ItemDataBound](#using-itemcreateditemdatabound)
+- [XML Options](#xml-options)
+- [Hiding columns](#hiding-columns)
+- [Hiding items](#hiding-items)
+- [Default Cell Alignment](#default-cell-alignment)
+- [Resizing/Aligning Columns](#resizingaligning-columns)
+- [Text Alignment](#text-alignment)
+
+### ExportCellFormating / ExcelExportCellFormatting events
 
 In order to aid the developers, we exposed the **ExportCellFormatting** event. It fires for each cell in each *data item* in **RadGrid**.
 
@@ -56,7 +88,7 @@ Dim columnName As String = column.UniqueName
 ````
 
 
-## HTMLExporting event
+### HTMLExporting event
 
 The purpose of this event is to allow the developer to insert global styles (CSS) or configuration options (XML) to the exported file. A possible application for this event is to enable the grid lines for the current worksheet:
 
@@ -75,7 +107,7 @@ End Sub
 ````
 
 
-## Line Breaks
+### Line Breaks
 
 In case you need to use a line breaks when exporting to Excel or Word you can add **<br/>** tags in order to move the text onthe next line. Nevertheless this approach will move the text in a new cell in the next row rather than creating a line break within the current cell. To get around this you can add **mso-data-placement** style to the **<br/>** tags.
 
@@ -94,7 +126,7 @@ End Sub
 ````
 
 
-## Styling rows/cells
+### Styling rows/cells
 
 Thanks to the **ExportCellFormatting** event it is really easy to apply custom styles to the rows/cells. The following code-snippet demonstrates how to style the alternating items:
 
@@ -142,7 +174,7 @@ End Sub
 ````
 
 
-## Using ItemCreated/ItemDataBound
+### Using ItemCreated/ItemDataBound
 
 These events are usable in different scenarios such as applying styles to items other than **GridDataItem**
 
@@ -182,7 +214,7 @@ End Sub
 
 When **IgnorePaging="false"** you should rebind **RadGrid** manually, otherwise this approach won't work. The above code needs only one change - put **RadGrid1.Rebind()** after the point where you set the flag.
 
-## XML Options
+### XML Options
 
 **XmlOptions** property allows you to set different options of the exported file.	The XML element contains one or more sub-elements. These include **DocumentProperties** which is valid for Word and Excel,	**WordDocument** which can be used when exporting to Word, and finally **ExcelWorkbook** which applies to Microsoft Excel.
 
@@ -200,12 +232,11 @@ Below you could find a list with the supported sub-elements of the **DocumentPro
 |\<o:Manager\> \</o:Manager\>|Manager’s name.|
 |\<o:Company\> \</o:Company\>|String value holding the name of the company.|
 
-A list of supported Word properties could be found [here]({%slug grid/functionality/exporting/export-formats/word-and-excel-export/word-format-(html-based)%}).
+A list of supported Word properties could be found [here]({%slug grid/functionality/exporting/word-export/xml-options%}).
 
-A list of supported Excel properties could be found [here]({%slug grid/functionality/exporting/export-formats/word-and-excel-export/excel-format-(html-based)%}).
+A list of supported Excel properties could be found [here]({%slug grid/functionality/exporting/excel-export/excel-html%}).
 
 Example:
-
 
 
 ````C#
@@ -227,7 +258,7 @@ End Sub
 ````
 
 
-## Hiding columns
+### Hiding columns
 
 You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
@@ -252,7 +283,7 @@ End Sub
 >
 
 
-## Hiding items
+### Hiding items
 
 There are two common ways to hide an item.
 
@@ -324,7 +355,7 @@ Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEv
 End Sub
 ````
 
-## Default Cell Alignment
+### Default Cell Alignment
 
 You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
 
@@ -336,7 +367,7 @@ You can specify a default alignment to all cells by using **DefaultCellAlignment
 
 Additionally you can change the default alignment on **HtmlExporting** event.
 
-## Resizing/Aligning Columns
+### Resizing/Aligning Columns
 
 There are various ways to set the width of a given column.
 
@@ -392,18 +423,16 @@ End Sub
 ````
 
 
-## Alignment
+### Text Alignment
 
 You can specify the horizontal alignment, using the **text-align CSS** attribute. Please note that it is not possible to apply this attribute to the whole header row - you should set it to each cell (**TH**) separately. The aforementioned limitation concerns only to the header items.
 
-## Unsupported scenarios
+## Limitations
 
-There are several limitations that you should have in mind:
+This export format does not support the following features:
 
-* embedded images are not supported
+- Embedded images
+- Exporting hidden RadGrid (**Visible="false"**)
+- `OpenOffice`, `AbiWord`, and a few more apps do not support this standard so they won't show the files properly
 
-* exporting invisible **RadGrid** - to avoid problems with missing content, you should temporary show **RadGrid** before export
-
-* **OpenOffice**, **AbiWord**, etc doesn't support this standard so they won't show the files properly
-
-* in theory all **Microsoft Office** versions from **2000** up might work, although we don't guarantee that any version, prior to **2003** will display the **Office HTML** formats as expected
+>important In theory all **Microsoft Office** versions from **2000** and later might work, although we don't guarantee that any version, prior to **2003** will display the **Office HTML** formats as expected.

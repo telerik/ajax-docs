@@ -1,86 +1,112 @@
 ---
-title: ExcelML basics
-page_title: ExcelML basics - RadGrid
-description: Check our Web Forms article about ExcelML basics.
-slug: grid/functionality/exporting/export-formats/excelml-export/excelml-basics
-tags: excelml,basics
+title: ExcelML (XLS)
+page_title: Excel-ExcelML (XLS) Export - RadGrid
+description: Excel-ExcelML (XLS) Export
+slug: grid/functionality/exporting/excel-export/excel-excelml
+previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-basics
+tags: excelml,gridexcelbuilder,overview
 published: True
 position: 0
 ---
 
-# ExcelML basics
+# Excel-ExcelML (XLS) Export
+
+**ExcelML** exports the Grid to an *XML-based* Excel Document that complies with the [Microsoft XMLSS](https://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) specification and is supported in *Microsoft Office 2003* and later. 
+
+Unlike the other supported Formats, ExcelML functionality builds the output directly from the DataSource.
+
+>caption Diagram illustrating which sources are exported using different Export Formats
+
+![](images/grid-excelml-export-diagram.png)
+
+Due to the nature of ExcelML format, there are certain limitations. For more details, you can check out the [Limitations](#limitations) section.
 
 
+## Usage
 
-## Overview
+To export the Grid using ExcelML, there are two properties that need to be set:
 
-**ExcelML** is **XML-based** file format. It complies to the [Microsoft XMLSS](https://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
+1. set the **Excel-Format** property to **ExcelML** within the `ExportSettings` element.
+2. set the **ExportOnlyData** property to **true** within the `ExportSettings` element (***mandatory for ExcelML***)
 
->note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
->
+>caption Example
 
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ExportSettings ExportOnlyData="true">
+        <Excel Format="ExcelML" />
+    </ExportSettings>
+</telerik:RadGrid>
+````
 
-There are two events, dedicated for the **ExcelML** format: **ExcelMLExportRowCreated** and **ExcelMLExportStylesCreated**.
+When exporting *Arrays*, *ArrayList*, *Custom Objects*, *LinqDataSource* the `UseAllDataFields` must be set to `true` in MasterTableView.
 
->caution It is expected to receive the following warning when opening the generated **xls** file in **Microsoft Office 2007** .
-> *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?* 
->
-![](images/grd_excel_warning.png)
+>caption Example
 
-The cause of this warning message is explained in details in the following blog posts:
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ExportSettings ExportOnlyData="true">
+        <Excel Format="ExcelML" />
+    </ExportSettings>
 
-[MSDN blogs: Excel 2007 Extension Warning On Opening Excel Workbook from a Web Site](http://blogs.msdn.com/vsofficedeveloper/pages/Excel-2007-Extension-Warning.aspx)
+    <MasterTableView UseAllDataFields="true">
+    </MasterTableView>
+</telerik:RadGrid>
+````
 
-[Grinn blog: "The file you are trying to open, '[filename]', is in a different format"](http://www.grinn.net/blog/dev/2008/06/file-you-are-trying-to-open-is-in.html)
-
->caution When exporting *arrays* , *ArrayList* , *custom objects* , *LinqDataSource* you should set **UseAllDataFields="true"** in MasterTableView.
->
-
-
->caution It is mandatory to set the **ExportOnlyData** property to true when using **ExcelML** format. Otherwise, an exception will be thrown.
->
-
-
->note Due to limitation in the **ExcelML** engine, when exporting **RadGrid** with grouping, all groups will be expanded regardless of their actual state.
->
-
-
->note From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn**. It is important to know that when its *DataTextField* property is set, other columns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
->
+>important When Exporting to **ExcelML** format, it is recommended to use [Programmatic Data Binding with the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) or binding data with [Declarative DataSource]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) controls.
 
 
-## ExcelMLRowCreated
+## Export Events
 
-This event is handy when the developer wants to modify the structure of the exported table or when assigning styles to grid table elements. It occurs when the **ExcelML** engine creates a new row.
+Server-Side events dedicated for the ExcelML format.
 
-## ExcelMLStylesCreated
+- **OnExcelMLRowCreated**: This event is triggered when a new row is created for the Excel Document. It could be handy when the developer wants to modify the structure of the exported table or when assigning styles to grid table elements.
 
-**RadGrid** fires this event when creating the build-in styles. It could be used not only for modifying the predefined styles but also to define your own (already assigned to a grid table element on **ExcelMLExportRowCreated**) custom style.
+- **OnExcelMLStylesCreated**: This event is triggered when creating the built-in styles. It could be used not only for modifying the predefined styles but also to define your own (already assigned to a grid table element on **OnExcelMLExportRowCreated**) custom style. You can access the styles' collection through the `e.Styles` property. For more details, check out the [Styles](#styles) section.
 
-You can access the styles' collection through the **Styles** property (**GridExportExcelMLStyleCreatedArgs)**.
+- **OnExcelMLWorkbookCreated**: This event is triggered when the Excel Document (XMLSS) structure is fully created. It could be useful when you need to traverse that structure and make changes or get the whole XML output.
 
-## ExcelMLWorkbookCreated
 
-This event triggers when the XMLSS structure is fully created. It could be useful when you need to traverse that structure or get the whole XML.
+## Customizing the Export Output
 
-## Styles
+- [Default Cell Alignment](#default-cell-alignment)
+- [Changing the Built-in Styles](#changing-the-built-in-styles)
+- [Adding Custom Styles](#adding-custom-styles)
+- [Styling the Header & Footer](#styling-the-header--footer)
+- [StyleElement object](#styleelement-object)
+- [Number formats](#number-formats)
+- [Borders](#borders)
+- [Hiding columns](#hiding-columns)
+- [Auto Filter](#auto-filter)
+- [Cells Protection](#cells-protection)
+- [Print option](#print-option)
 
-## Built-in styles
+
+### Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment within the **OnExcelMLStylesCreated** event.
+
+### Changing the Built-in Styles
 
 The ID's of the built-in styles are listed below:
 
-* **headerStyle**
+- headerStyle
+- itemStyle
+- alternatingItemStyle
+- dateItemStyle
+- alternatingDateItemStyle
 
-* **itemStyle**
 
-* **alternatingItemStyle**
-
-* **dateItemStyle**
-
-* **alternatingDateItemStyle**
-
-The following code-snippet modifies the default **itemStyle**/**alternatingItemStyle**:
-
+>caption Example code to change the default item and alternating item styles
 
 
 ````C#
@@ -116,7 +142,7 @@ End Sub
 ````
 
 
-## Custom styles
+### Adding Custom Styles
 
 In order to define a custom style, you should assign it to the desired element (on **GridExportExcelMLRowCreated**) and then add the style to the collection on **GridExportExcelMLStyleCreated** event.
 
@@ -148,7 +174,7 @@ End Sub
 ````
 
 
-## Styling header/footer
+### Styling the Header & Footer
 
 You add the symbols from the table below to data of the header / footer elements in order to format them:
 
@@ -194,7 +220,7 @@ End Sub
 ````
 
 
-## StyleElement object
+### StyleElement object
 
 This object contains the whole information about a particular style. Fonts, colors, borders, number formats, cell alignment, etc could be applied by modifying the **StyleElement**.
 
@@ -227,19 +253,7 @@ For more information about the number formats/borders, please visit the followin
 
 [XML Spreadsheet reference](https://msdn.microsoft.com/en-us/library/aa140066%28office.10%29.aspx)
 
-## Default Cell Alignment
-
-You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
-
-````ASP.NET    
-<ExportSettings>
-    <Excel DefaultCellAlignment="Center" />
-</ExportSettings>
-````
-
-Additionally you can change the default alignment on **ExcelMLStylesCreated** event.
-
-## Number formats
+### Number formats
 
 In addition to the predefined formats,you could add your own custom formats.
 
@@ -251,7 +265,7 @@ style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 ````
 
 
-## Borders
+### Borders
 
 Each **StyleElement** has a **Borders** property (**BorderStylesCollection**) that contains the definition of each border. Border position should be specified using the **PositionType** enumeration:
 
@@ -304,7 +318,7 @@ End Sub
 ````
 
 
-## Hiding columns
+### Hiding columns
 
 You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
@@ -329,13 +343,13 @@ End Sub
 >
 
 
-## Auto Filter
+### Auto Filter
 
 **ExcelML** is the only excel format which provides build in **auto filter** functionality. To remove the filter controls from the header row set the Range property to empty string.(e.Worksheet.AutoFilter.Range = ""). By setting the range you could move the filter on a different place within the excel sheet. Only the data placed below the filtering dropdown menu will be included in the filter range. (Example: e.Worksheet.AutoFilter.Range = "R4C1: R4C5")
 
 Generally speaking, **R1C1** notation is another way to create cell references which uses numbers for both the rows and columns. R1C1 stands for row index and column index number. This notation is only useful in RadGrid for setting the AutoFilter range.
 
-## Cells Protection
+### Cells Protection
 
 **ExcelML** is one of the excel format which supports cells protection.When you enable the worksheet protection all the cells will be protected as the default state of the cells is “locked”. In order to unlock them you have to create a custom **StyleElement** and set its **IsProtected** property to **false**. Then you could apply this style to the cells which should be unlocked.
 
@@ -389,13 +403,11 @@ End Sub
 ````
 
 
-## Print option
+### Print option
 
 ExcelML export format provide two print options which allow you to modify the printed output. The first option is **FitHeight**	which specifies the maximum count of the pages in which the content is distributed to. Meaningful when FitToPage is *true*. The second one is **PaperSize** which specifies the paper size in a value from the PaperKind enumeration.
 
 The following code snippet demonstrates how to use them.
-
-
 
 ````C#
 protected void grid_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
@@ -413,3 +425,55 @@ Protected Sub grid_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.
 End Sub
 ````
 
+## Limitations 
+
+- **MultiColumn Headers** 
+  - MultiColumn Headers are not supported.
+- **Grouping**
+  - When exporting **RadGrid** with grouping, all groups will be expanded regardless of their actual state.
+- **GridHyperLinkColumn**
+  - As of Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn**. It is important to know that when its *DataTextField* property is set, other columns bound to the same field are not exported.
+  - When the *Text* property of the **GridHyperLinkColumn** is set and the *DataField* is not defined, columns added to the *DataNavigateUrlFields* are not exported.
+
+
+## Troubleshooting
+
+### NullReferenceException during Export
+
+***
+
+If using [Simple Data Binding]({%slug grid/data-binding/server-side-binding/simple-data-binding%}) with the condition `!IsPostBack` / `Not IsPostBack` the export could fail with the exception: **NullReferenceException**
+
+Solution is to use [Programmatic Data Binding with NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) or binding data with [Declarative DataSource]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) controls.
+
+### The file format and extension don't match
+
+***
+
+*The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
+
+![](images/grid-excelml-old-warning.png)
+
+***
+
+*The file format and extension of 'Filename.xls' don't match. The file could be corrupted or unsafe. Unless you trust its source, don't open it. Do you want to open it anyway?*
+
+![](images/grid-excelml-warning.png)
+
+
+This warning message was added as a Security feature to Microsoft Office 2007 and can occur in the following cases:
+
+1. The file is not compatible with the current Excel-version
+   - **ExcelML** format is version 2003 which is older than Microsoft Office version 2007 or later, hence the warning. As long the as the document structure is correct, it can still be opened by clicking on the *Yes* button.
+
+2. The file format and extension do not match
+   - If the File format is different from the file extension assigned to it this warning would show up. Correcting the File extension to comply with the File format would fix the issue.
+
+3. The file has become corrupt or damaged.
+  - If the file or its content has become corrupt or damaged, this Warning will be shown. In this case, the file cannot be opened with Microsoft Office unless repaired.
+
+
+## See Also
+- [GridExcelBuilder for ExcelML]({slug grid/functionality/exporting/excel-export/gridexcelbuilder%})
+
+ 

@@ -1,75 +1,98 @@
 ---
-title: XLSX and DOCX Export
-page_title: XLSX and DOCX Export - RadGrid
-description: Check our Web Forms article about XLSX and DOCX Export.
-slug: grid/functionality/exporting/export-formats/xlsx-and-docx-export
+title: Xlsx (XLSX)
+page_title: Excel-Xlsx (OOXML) Export - RadGrid
+description: Excel-Xlsx (OOXML) Export
+slug: grid/functionality/exporting/excel-export/excel-xlsx
+previous_url: controls/grid/functionality/exporting/export-formats/xlsx-and-docx-export
 tags: xlsx,and,docx,export
 published: True
-position: 5
+position: 4
 ---
 
-# XLSX and DOCX Export
+# Excel-Xlsx (OOXML) Export
 
+XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007 and is based on the Office Open XML (OOXML) standard ECMA-376. the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
 
+Telerik ASP.NET AJAX Controls support this format since Q3 2014 by utilizing the [Telerik Document Processing Libraries (DPL)](https://docs.telerik.com/devtools/document-processing/introduction).
 
-This help article describes the specifics of exporting a **RadGrid** control to **XLSX** and **DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}). In order to use this export formats, you have to set the **ExportSettings-Excel-Format** property to **Xlsx** and **ExportSettings-Word-Format** property to **Docx**.
-
-````ASP.NET
-<ExportSettings>
-    <Excel Format="Xlsx" />
-    <Word Format="Docx" />
-</ExportSettings>
-````
-
+The **DPL** is included in the **Telerik UI for ASP.NET AJAX** suite, see [Included Assemblies
+]({%slug introduction/installation/included-assemblies%}).
 
 
 ## Required Assemblies
 
 The assemblies that must be referenced in order to export RadGrid to Excel are:
 
-* Telerik.Windows.Documents.Core.dll
+- Telerik.Windows.Documents.Core.dll
+- Telerik.Windows.Documents.Spreadsheet.dll
+- Telerik.Windows.Zip.dll
+- Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
 
-* Telerik.Windows.Documents.Spreadsheet.dll
 
-* Telerik.Windows.Zip.dll
+More information about the assemblies and how to reference them in your project can be found in the [Included assemblies]({%slug introduction/installation/included-assemblies%}) help article.
 
-* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+## Usage
 
-The assemblies that must be referenced in order to export RadGrid to Word are:
+In order to use this export format, be sure to reference the DPL assemblies and change the **Excel-Format** property to **Xlsx** within the `ExportSettings` element.
 
-* Telerik.Windows.Documents.Core.dll
+>caption Example
 
-* Telerik.Windows.Documents.Flow.dll
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ExportSettings>
+        <Excel Format="Xlsx" />
+    </ExportSettings>
+</telerik:RadGrid>
+````
 
-* Telerik.Windows.Zip.dll
+## Export events
 
-More information about the assemblies and how to include them in your project can be found in the [Included assemblies](https://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
+Server-Side events triggered for the Biff format.
 
-## Formatting
+- **OnInfrastructureExporting**: This event is triggered when the Export Structure is ready. It can be used to change the Export Structure before exporting. The Export Structure can be accessed from the Event argument - (`Telerik.Web.UI.ExportInfrastructure.ExportStructure`)**e.ExportStructure**
 
-When you set **DataFormatString** of **RadGrid** columns, the format will be applied to the exported file. Note that only the [custom numeric format strings](https://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel's custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](https://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still be used, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGrid cells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the **SuppressColumnDataFormatStrings** property to true.
+- **OnGridExporting**: This event is triggered when the Grid is exporting regardless of the Export Format. It can also be used to access the output, however, unlike in the *OnInfrastructureExporting* event, the output returns a string - (`string`)**e.ExportOutput**. 
 
-Example 1:
+- **OnExcelExportCellFormatting**: This is event is triggered when the Grid export functionality formats the cell. It fires for every cell and can be used to apply additional styles to them.
+
+For more details, check out the [Styling](#styling) section.
+
+
+## Customizing the Export Output
+
+- [Formatting Cell Values](#formatting-cell-values)
+- [Hiding Columns / Rows](#hiding-columns--rows)
+- [Styling Columns / Rows / Cell](#styling-columns--rows--cell)
+- [Default Cell Alignment](#default-cell-alignment)
+- [Image Support](#image-support)
+- [Auto-fit columns width](#auto-fit-columns-width)
+- [Generate Export Output](#generate-export-output)
+
+### Formatting Cell Values
+
+When you set **DataFormatString** of **RadGrid** columns, the format will be applied to the exported file. 
+
+Note that only the [custom numeric format strings](https://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1) will work because in most scenarios they match the [Microsoft Excel's custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). 
+
+The built-in .NET [standard numeric format strings](https://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still be used, but the output will not be as expected. 
+
+It is important to note, that the exported file is based on the actual RadGrid cells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the **SuppressColumnDataFormatStrings** property to true.
+
+>caption Example 1
 
 ````ASP.NET
 <telerik:GridBoundColumn DataType="System.DateTime" DataField="DateField" DataFormatString="{0:tt dd-MM(yyyy) }" />
 ````
 
-
-
-Example 2:
+>caption Example 2
 
 ````ASP.NET
 <telerik:GridBoundColumn DataType="System.Double" DataField="DoubleField" DataFormatString="{0:C2}" />
 ````
 
-
-
-## Hiding Columns / Rows
+### Hiding Columns / Rows
 
 Hiding rows and columns is pretty straightforward. Actually you can hide these elements in the same way you hide them in a normal server-side scenario.
-
-
 
 ````C#
 RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
@@ -80,10 +103,9 @@ RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
 
-
 Additionally you could use the **Exportable** property that allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file.Its default value is **true**.
 
-## Styling Columns / Rows / Cell
+### Styling Columns / Rows / Cell
 
 In order to style the elements of the **RadGrid** you could use the standard ASP.NET style properties such as ItemStyle,AlternatingItemStyle, HeaderStyle and FooterStyle to provide a custom style for the items of **RadGrid** control.
 
@@ -93,11 +115,9 @@ In order to style the elements of the **RadGrid** you could use the standard ASP
 <HeaderStyle BackColor="Yellow" />
 ````
 
-
-
 Another approach is to hook **OnInfrastructureExporting** event handler and apply the styles in code behind. Note that styling via CSS classes is not possible.
 
-
+>caption Styling Columns
 
 ````C#
 xls.Column col = e.ExportStructure.Tables[0].Columns[2];
@@ -110,8 +130,7 @@ col.Style.BackColor = Color.Gray
 col.Style.ForeColor = Color.Yellow
 ````
 
-
-
+>caption Styling Rows
 
 ````C#
 xls.Row row = e.ExportStructure.Tables[0].Rows[2];
@@ -122,8 +141,7 @@ Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 row.Style.BackColor = Color.Blue
 ````
 
-
-
+>caption Styling Cells 1
 
 ````C#
 xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
@@ -134,7 +152,7 @@ Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 cell1.Style.BackColor = Color.Yellow
 ````
 
-
+>caption Styling Cells 2
 
 
 ````C#
@@ -146,7 +164,7 @@ Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 cell2.Style.ForeColor = Color.Tomato
 ````
 
-## Default Cell Alignment
+### Default Cell Alignment
 
 You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
 
@@ -158,11 +176,11 @@ You can specify a default alignment to all cells by using **DefaultCellAlignment
 
 Additionally you can change the default alignment on **OnInfrastructureExporting** event.
 
-## Image Support
+### Image Support
 
-Both **xlsx** and **docx** support exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an **absolute** or **relative** path are supported, but binary images are not.
+**Xlsx** supports exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an **absolute** or **relative** path are supported, but binary images are not.
 
-## Auto-fit columns width
+### Auto-fit columns width
 
 For the XLSX format only, the R1 2020 release introduces the option to set the AutoWidth setting for the exported columns. It is based on the AutoWidth settins of the RadSpreadProcessing Library explained in [RadSpreadProcessing - Auto Fit Columns Width](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/working-with-rows-and-columns/resizing#auto-fit-columns-width). You can check the [Export to Excel](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export/defaultcs.aspx) online demo for a practical demonstration.
 
@@ -179,7 +197,7 @@ The enum type for the AutoFitColumnWidth is Telerik.Web.UI.Export.ExportAutoFitW
 - `AutoFitAll` - Resizes all columns so the column width is equal to the width of the widest cell in it
 - `ExpandToFitNumberValuesWidth` - It resizes columns with cells that contain only number values
 
-## Generate Export Output
+### Generate Export Output
 
 RadGrid provides a convenient way to extract the XLSX output as a string without actually exporting - this is done via the `GenerateXlsxOutput()` method. It is available for .NET version 4.0+ and in Telerik UI for ASP.NET AJAX versions R2 2019 and later.
 
@@ -213,13 +231,10 @@ Dim outputAsString As String = TryCast(RadGrid1.MasterTableView.GenerateXlsxOutp
 Dim outputAsString2 As String = RadGrid1.MasterTableView.GenerateXlsxOutput()
 ````
 
-
-**If you are not actually exporting** at the end of the logic and the Response is not cleared, the state of the grids may change. This is especially true when the `IgnorePaging` and `HideStructureColumns` exporting properties are enabled. To return the original state, you can set `AllowPaging` to true then call `Rebind()` to the grid instance. Alternatively, you can try using the `Response.Redirect(Request.RawUrl);` approach.
+>important **If you are not actually exporting** the Grid after calling the GenerateXlsxOutput()and the Response is not cleared, the state of the grids may change. This is especially true when the **IgnorePaging** and **HideStructureColumns** properties are enabled. To return the original state, you can set **AllowPaging** to **true** then call the `Rebind()` method of the Grid. Alternatively, you can try using the `Response.Redirect(Request.RawUrl);` approach.
 
 ## Limitations
 
-* No hierarchy support
-
-* No automatic column/row resizing
-
-* [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
+- No hierarchy support
+- No automatic row resizing
+- [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
