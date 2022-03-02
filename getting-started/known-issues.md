@@ -111,19 +111,25 @@ The following list links to the most common issues related to web resources when
 
 ## Design-Time
 
-* [Creating a Control Failed to Create a Designer after Upgrade to R1 2018](#error-creating-control-failed-to-create-designer-after-upgrade-to-r1-2018)
+When working with Telerik UI for ASP.NET AJAX, note that as of R1 2018, the `Telerik.Web.Design.dll` assembly is no longer added by the automated `.msi` installer to the GAC. The `Telerik.Web.Design.dll` file is the assembly that contains the design-time code and if it is not referenced properly in your project, you may get design-time errors.
 
-* [Errors: `Unknown server tag`, `Could not load file or assembly`](#unknown-server-tagcould-not-load-file-or-assembly-errors)
+Previously, `Telerik.Web.Design.dll` was installed in the GAC by the automated installer of the Telerik UI for ASP.NET AJAX suite. Adding it to the GAC was necessary because of Visual Studio 2008 that could not otherwise read design-time code and has caused various issues with later versions because it prevented proper upgrades and broke references.
 
-* [Error: `An unhandled exception has occurred. (A)(control type) cannot be cast to (B)(control type)`](#an-unhandled-exception-has-occurred-acontrol-type-cannot-be-cast-to-bcontrol-type)
+Some of the design-time issues linked below, which refer to the previous installation approach of the assembly, may require you to modify the GAC to remove duplicate assemblies. For more information, refer to the article on [using the global assembly cache]({%slug introduction/deployment/using-the-global-assembly-cache%}).
 
-* [Visual Studio Crashes If the Project Uses Microsoft Report Viewer When Designing a Local Report (.rdlc) and Adding a Dataset](#visual-studio-crashes-if-the-project-uses-microsoft-report-viewer-when-designing-a-local-report-rdlc-and-adding-a-dataset)
+* [Creating a Control Failed to Create a Designer after Upgrade to R1 2018]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting %})
 
-* [Designer Files Are Not Updated or Are Lacking Telerik Controls](#designer-files-are-not-updated-or-are-missing-telerik-controls)
+* [Errors: `Unknown server tag`, `Could not load file or assembly`]({% slug unknown-server-tag-could-not-load-file-or-assembly %})
 
-* [Design-Time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
+* [Error: `An unhandled exception has occurred. (A)(control type) cannot be cast to (B)(control type)`]({% slug control-type-a-cannot-be-cast-to-control-type-b-exception %})
 
-* [Distorted Appearance When Using Designer on HiDPI Monitors](#distorted-appearance-when-using-designer-on-hidpi-monitors)
+* [Visual Studio Crashes If the Project Uses Microsoft Report Viewer When Designing a Local Report (.rdlc) and Adding a Dataset]({% slug vs-crashes-if-ms-report-viewer-used-for-local-reports-adding-datasets %})
+
+* [Designer Files Are Not Updated or Are Lacking Telerik Controls]({% slug designer-files-not-updated-missing-telerik-controls %})
+
+* [Design-Time Issues with Visual Studio 2008]({% slug design-time-issues-vs-2008 %})
+
+* [Distorted Appearance When Using Designer on HiDPI Monitors]({% slug distorted-appearance-using-designer-on-hidpi-monitors %})
 
 ## Visual Studio Toolbox
 
