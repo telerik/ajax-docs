@@ -141,15 +141,15 @@ Some of the design-time issues linked below, which refer to the previous install
 
 ## Skins
 
-* [Incorrect or Distorted Appearance](#incorrect-or-distorted-appearance)
+* [Incorrect or Distorted Appearance]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting %})
 
-* [Appearance Issues When the Control Is Added during an AJAX Request](#appearance-issues-when-control-is-added-during-ajax-request)
+* [Appearance Issues When the Control Is Added during an AJAX Request]({% slug appearance-issues-when-adding-controls-during-ajax-requests %})
 
-* [Error: `Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false`](#cannot-find-the-skins)
+* [Error: `Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false`]({% slug unable-to-find-embedded-skin %})
 
-* [Different Rendering between the Design-Time Preview and in the Browser](#different-render-in-design-time-and-in-browser)
+* [Different Rendering between the Design-Time Preview and in the Browser]({% slug different-render-design-time-browser %})
 
-* [The `GetWebResourceUrl` Fails](#getwebresourceurl-fails)
+* [The `GetWebResourceUrl` Fails]({% slug getwebresourceurl-fails %})
 
 ## jQuery Integration
 
