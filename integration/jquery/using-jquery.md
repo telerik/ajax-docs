@@ -26,8 +26,6 @@ This help articles shows how to include and use embedded and external jQuery wit
 
 1. [Embedded jQuery Security](#embedded-jquery-security)
 
-1. [Unobtrusive Validation Basics](#unobtrusive-validation-basics)
-
 ## Including jQuery
 
 If you have any of the controls listed in the [Telerik UI Controls Using jQuery](#telerik-ui-controls-using-jquery) section (with the specified version or newer) on your page then the jQuery **is already included** and you can omit this paragraph. If not - follow these steps:
@@ -286,14 +284,6 @@ As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with ba
 * [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable `__proto__` property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/) - from version **R1 2019**
 
 You can find more information in the following KB article on the matter: [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax).
-
-## Unobtrusive Validation Basics
-
-Unobtrusive validation is a type of validation that makes use of the HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and requires a jQuery library that is registered with the ScriptManager as `jquery`. To add this registration, install the [`AspNet.ScriptManager.jQuery` NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
-
-In addition, when the page contains a ScriptManager control, you need to instruct it to register jQuery before the `WebForms.js` and `WebUIValidation.js` core script files that provide the unobtrusive validation. For more information about this requirement, refer to the [Unobtrusive validation breaks with a Script Manager on the page](https://connect.microsoft.com/VisualStudio/feedback/details/748064/unobtrusive-validation-breaks-with-a-script-manager-on-the-page) Microsoft Connect feedback item.
-
-The unobtrusive validation is automatically configured when you create a web site through the .NET 4.5 Web Forms Site template of Visual Studio. If you use it with a `RadScriptManager` or in a Telerik website or web application template, however, a few common scenarios that require additional modifications may occur. For more information, refer to the [troubleshooting scenarios on integrating jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting%}).
 
 ## See Also
 

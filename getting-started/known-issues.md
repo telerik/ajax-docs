@@ -153,14 +153,24 @@ Some of the design-time issues linked below, which refer to the previous install
 
 ## jQuery Integration
 
-* [Unobtrusive Validation Basics](#unobtrusive-validation-basics)—this section explains what unobtrusive validation is and what it needs to work.
+Unobtrusive validation is a type of validation that makes use of the HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and requires a jQuery library that is registered with the ScriptManager as `jquery`. To add this registration, install the [`AspNet.ScriptManager.jQuery` NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
 
-* [Using Unobtrusive Validation in .NET 4.5 Web Forms Site or Web Forms Application with the ScriptManager](#how-to-use-unobtrusive-validation-in-net-45-web-forms-site--web-forms-application-with-radscriptmanager)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Web Forms Site** or **Web Forms Application** template of Visual Studio and uses **RadScriptManager**.
+In addition, when the page contains a ScriptManager control, you need to instruct it to register jQuery before the `WebForms.js` and `WebUIValidation.js` core script files that provide the unobtrusive validation. For more information about this requirement, refer to the [Unobtrusive validation breaks with a Script Manager on the page](https://connect.microsoft.com/VisualStudio/feedback/details/748064/unobtrusive-validation-breaks-with-a-script-manager-on-the-page) Microsoft Connect feedback item.
 
-* [Using Unobtrusive Validation in .NET 4.5 Telerik Web Site or a Telerik Web Application](#how-to-use-unobtrusive-validation-in-net-45-telerik-web-site--telerik-web-application)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio.
+The unobtrusive validation is automatically configured when you create a web site through the .NET 4.5 Web Forms Site template of Visual Studio. If you use it with a `RadScriptManager` or in a Telerik website or web application template, however, a few common scenarios that require additional modifications may occur. For more information, refer to the [troubleshooting scenarios on integrating jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting%}).
 
-* [Using Unobtrusive Validation in .NET 4.5 Telerik Web Site or Telerik Web Application that Has jQuery Registered in the ScriptManager](#how-to-use-unobtrusive-validation-in-net-45-telerik-web-site--telerik-web-application-that-has-jquery-registered-in-radscriptmanager) — this section explains how touse unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio and has jQuery registered with the RadScriptManager via a **ScriptReference** with **Name** property set to **jquery**.
+Most of the issues related to the jQuery integration are related to the Unobtrusive Validation mode. You can avoid jQuery and validation problems with a single line in the `web.config` file that will disable the unobtrusive validation:
 
-* [Error: `0x800a139e - JavaScript runtime error: SyntaxError`](#0x800a139e---javascript-runtime-error-syntaxerror)—this section treats a jQuery runtime error in Visual Studio output window when the project is started in debug mode in Internet Explorer.
+        <appSettings>
+            <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+
+
+* [Using Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting %})
+
+* [Using Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application]({% slug unobtrusive-validation-net45-telerik-site-app %})
+
+* [Using Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application with jQuery Registered in the ScriptManager]({% slug unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager %})
+
+* [Error: `0x800a139e - JavaScript runtime error: SyntaxError`]({% slug 0x800a139e-js-runtime-syntax-error %})
 
 ## Content Security Policy
