@@ -28,7 +28,7 @@ res_type: kb
 
 ## Description
 
-As noted in the [PDF Export Q&A](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-formats/pdf-export#pdf-export-q--a), when the PDF Export produces a blank page, this is because of the [ClientSettings for Scrolling and UseStaticHeaders](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/scrolling/scroll-with-static-headers). These need to be disabled. See the below solution.
+As noted in the [PDF Export Q&A](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/pdf#pdf-export-q--a), when the PDF Export produces a blank page, this is because of the [ClientSettings for Scrolling and UseStaticHeaders](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/scrolling/scroll-with-static-headers). These need to be disabled. See the below solution.
 
 ## Solution
 
@@ -59,5 +59,5 @@ End Sub
 
 ## See Also
 
-*    [PDF Export Q&A](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-formats/pdf-export#pdf-export-q--a)
+*    [PDF Export Q&A](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/pdf#pdf-export-q--a)
 *    [ClientSettings for Scrolling and UseStaticHeaders](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/scrolling/scroll-with-static-headers)

@@ -132,7 +132,7 @@ You can find more information on working with the Telerik document processing li
 
   - [RadGrid - Integration with Telerik Document Processing Library]({%slug grid/functionality/exporting/integration-with-telerik-document-processing-library%})
 
-  - [RadGrid - XLSX and DOCX Export]({%slug grid/functionality/exporting/export-formats/xlsx-and-docx-export%})
+  - [RadGrid - XLSX and DOCX Export]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
 
   - [RadPivotGrid - XLSX and DOCX formats]({%slug pivotgrid/functionality/export/xlsx-and-docx-formats%})
 

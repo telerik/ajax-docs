@@ -23,7 +23,7 @@ res_type: kb
 
 ## Description
 
-RadGrid comes with a built-in functionality for exporting its content to PDF: [PDF Export]({%slug grid/functionality/exporting/export-formats/pdf-export %}). This works great, however, in some cases, one would like to customize the PDF content further and change properties other than the RadGrid provides.
+RadGrid comes with a built-in functionality for exporting its content to PDF: [PDF Export]({%slug grid/functionality/exporting/pdf %}). This works great, however, in some cases, one would like to customize the PDF content further and change properties other than the RadGrid provides.
 
 The answer is [RadSpreadProcessing - Telerik Document Processing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview)
 
@@ -500,7 +500,7 @@ End Class
 
 ## See Also
 
-- [RadGrid PDF Export]({%slug grid/functionality/exporting/export-formats/pdf-export%})
+- [RadGrid PDF Export]({%slug grid/functionality/exporting/pdf%})
 - [GenerateXlsxOutput](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI.Grid.Export/TableViewExporter#generatexlsxoutput)
 - [Grid - Export Multiple Grids](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/exporting/excel-export-multiple-grids/defaultcs.aspx)
 - [RadSpreadProcessing OverView](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview.html)
