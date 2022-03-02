@@ -117,7 +117,7 @@ List of key functionalites you can find below:
 - [CommandItem]({%slug grid/data-editing/commanditem/overview%})
 - [Export To Excel]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
 - [Export To CSV]({%slug grid/functionality/exporting/csv%})
-- [Export To PDF]({%slug grid/functionality/exporting/pdf%})
+- [Export To PDF]({%slug grid/functionality/exporting/pdf-export%})
 - [Export To DOC]({%slug grid/functionality/exporting/word-export/word-docx%})
 - [Print]({%slug grid/functionality/printing/printing%})
 - [Accessibility Compliance]({%slug grid/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})

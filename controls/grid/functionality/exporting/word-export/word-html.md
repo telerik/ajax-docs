@@ -232,10 +232,6 @@ Below you could find a list with the supported sub-elements of the **DocumentPro
 |\<o:Manager\> \</o:Manager\>|Manager’s name.|
 |\<o:Company\> \</o:Company\>|String value holding the name of the company.|
 
-A list of supported Word properties could be found [here]({%slug grid/functionality/exporting/word-export/xml-options%}).
-
-A list of supported Excel properties could be found [here]({%slug grid/functionality/exporting/excel-export/excel-html%}).
-
 Example:
 
 

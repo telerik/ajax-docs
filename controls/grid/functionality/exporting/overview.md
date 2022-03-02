@@ -41,8 +41,8 @@ The built-in export functionality of Telerik RadGrid can export your data to **P
 
 ## Supported Formats
 
-- **CSV** -  File format is a delimited text file that uses a comma to separate values. It is widely used to display simple tabular data [[Read more]({%slug grid/functionality/exporting/csv%})]
-- **PDF** - Is a file format developed by Adobe to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. [[Read more]({%slug grid/functionality/exporting/pdf%})]
+- **CSV** -  File format is a delimited text file that uses a comma to separate values. It is widely used to display simple tabular data [[Read more]({%slug grid/functionality/exporting/csv-export%})]
+- **PDF** - Is a file format developed by Adobe to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. [[Read more]({%slug grid/functionality/exporting/pdf-export%})]
 - **Excel**
   - **ExcelML** - XMLSS compliant XML-Based Format (.xls) [[Read more]({%slug grid/functionality/exporting/excel-export/excel-excelml%})]
   - **Biff** - Binary Excel Format (.xls) [[Read more]({%slug grid/functionality/exporting/excel-export/excel-biff%})]
@@ -595,8 +595,8 @@ RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 
 - **Client-Side data binding**: Exporting is a Server-Side functionality which iterates through the Grid Items and Columns to build the document for exporting. If the data is bound to the Grid on client-side, this information will not available on the server, hence returning an empty document. If this is crucial to your business, you may try the [Kendo UI Grid](https://demos.telerik.com/kendo-ui/grid/index) which is a client-side (jQuery) widget and can export the content on client, see [Export to Excel](https://demos.telerik.com/kendo-ui/grid/excel-export), [Export to PDF](https://demos.telerik.com/kendo-ui/grid/pdf-export) and [Selection & Export](https://demos.telerik.com/kendo-ui/grid/selection-export).
 - **Exporting invisible RadGrid.** - RadGrid with Visible="False" cannot be exported.
-- [**CSV** - Limitations]({%slug grid/functionality/exporting/csv%}#limitations)
-- [**PDF** - Limitations]({%slug grid/functionality/exporting/pdf%}#limitations)
+- [**CSV** - Limitations]({%slug grid/functionality/exporting/csv-export%}#limitations)
+- [**PDF** - Limitations]({%slug grid/functionality/exporting/pdf-export%}#limitations)
 - [**Excel-ExcelML** - Limitations]({%slug grid/functionality/exporting/excel-export/excel-excelml%}#limitations)
 - [**Excel-Biff** - Limitations]({%slug grid/functionality/exporting/excel-export/excel-biff%}#limitations)
 - [**Excel-Html** - Limitations]({%slug grid/functionality/exporting/excel-export/excel-html%}#limitations)

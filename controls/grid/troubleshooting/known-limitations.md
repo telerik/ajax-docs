@@ -89,7 +89,7 @@ There are some limitations in the implementation of the export engine. The secti
 
 ### PDF
 
-* **OnGridExporting** - this event is usable in many scenarios when you want to modify the output file - for example you may want to add some custom information above RadGrid or when you want to remove/add/replace parts of the content. The only limitation applies to the PDF export because by the time the **OnGridExporting** event is raised, the PDF is already generated. For more information, please visit the dedicated [PDF format]({%slug grid/functionality/exporting/pdf%}) topic which introduces the **OnPdfExporting** event that is designed specifically for this format.
+* **OnGridExporting** - this event is usable in many scenarios when you want to modify the output file - for example you may want to add some custom information above RadGrid or when you want to remove/add/replace parts of the content. The only limitation applies to the PDF export because by the time the **OnGridExporting** event is raised, the PDF is already generated. For more information, please visit the dedicated [PDF format]({%slug grid/functionality/exporting/pdf-export%}) topic which introduces the **OnPdfExporting** event that is designed specifically for this format.
 
 * Image transparency
 

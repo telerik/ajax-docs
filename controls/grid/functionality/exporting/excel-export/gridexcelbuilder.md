@@ -66,7 +66,7 @@ End Class
 ## StyleElement
 
 - **AlignmentElement** (`AlignmentElement`) - Gets the AlignmentElement used for manipulating the horizontal/vertical alignment.
-- **Borders** - represents the cell borders - please go to the [ExcelML export topic]({%slug slug grid/functionality/exporting/excel-export/excel-excelml%}) for more information.
+- **Borders** - represents the cell borders - please go to the [ExcelML export topic]({%slug grid/functionality/exporting/excel-export/excel-excelml%}) for more information.
 - **CellProtection** - the **CellProtectionElement** contains information whether the current cell is protected.
 - **FontStyle** - **FontStyleElement** - contains the font-related information.
 - **Id** - the **Style Id**
