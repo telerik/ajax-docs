@@ -39,7 +39,7 @@ Depending on the use case, use any of the following approaches to solve this iss
 
 	It is recommended to report such errors in the [feedback portal](https://feedback.telerik.com/aspnet-ajax), the ticketing system, or the [forum](https://www.telerik.com/forums/aspnet-ajax) so that the team can verify and fix them.
 
-* (`Sys.WebForms.PageRequestManagerServerErrorException: An unknown error occurred while processing the request on the server. The status code returned from the server was: 500`) Usually, such an error is thrown when multiple or nested AJAX requests are initiated at the same time or when a server error is thrown during an AJAX update. To solve this issue, [temporarily disable AJAX on the page](https://www.telerik.com/support/kb/aspnet-ajax/ajaxmanager/details/how-to-disable-ajax-temporarily) to see what the actual error thrown on the page is. Then, debug its cause.
+* (`Sys.WebForms.PageRequestManagerServerErrorException: An unknown error occurred while processing the request on the server. The status code returned from the server was: 500`) Usually, such an error is thrown when multiple or nested AJAX requests are initiated at the same time or when a server error is thrown during an AJAX update. To solve this issue, [temporarily disable AJAX on the page]({% slug common-get-more-descriptive-errors-by-disabling-ajax %}) to see what the actual error thrown on the page is. Then, debug its cause.
 
 	Also, make sure that the handlers are properly registered inside the `<httpHandlers>` and `<handlers>` section of the `web.config` file as explained in the article on [mandatory additions to the `web.config`]({% slug general-information/web-config-settings-overview %}#configuring-mandatory-additions).
 

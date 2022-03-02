@@ -46,7 +46,7 @@ For faster navigation, the links are grouped into the following sets:
 
 * [Error: `The Controls collection cannot be modified because the control contains code blocks`]({% slug cannot-modify-control-collection-because-of-code-blocks %})
 
-* [Error `This configuration section cannot be used at this path. This happens when the section is locked at a parent level...`](#error-message-this-configuration-section-cannot-be-used-at-this-path)
+* [Error `This configuration section cannot be used at this path.`]({% slug slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
 
 * [The Telerik Control Stylesheet Is Not Registered after an AJAX Request](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
 
