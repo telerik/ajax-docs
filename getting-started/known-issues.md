@@ -9,9 +9,9 @@ published: True
 position: 100
 ---
 
-# List of Known Issues
+# Known Issues
 
-This article provides links to selected Knowledge Base articles covering scenarios for handling some of the most common Telerik UI for ASP.NET AJAX issues.
+This article provides links to specific Knowledge Base articles covering scenarios for handling some of the most common Telerik UI for ASP.NET AJAX issues.
 
 For faster navigation, the links are grouped into the following sets:
 
@@ -19,10 +19,11 @@ For faster navigation, the links are grouped into the following sets:
 * [General](#general)
 * [Web Resources](#web-resources)
 * [Design-Time](#design-time)
-* [Visual Studio Toolbox](#visual-studio-toolbox)
+* [Visual Studio ToolBox](#visual-studio-toolbox)
 * [Skins](#skins)
 * [jQuery Integration](#jquery-integration)
-* [Content Security Policy](#content-security-policy)
+
+For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX with the strict Content Security Policy mode, refer to the [Content Security Policy Mode]({% slug general-information/content-security-policy %}) article.
 
 ## Installation
 
@@ -131,13 +132,13 @@ Some of the design-time issues linked below, which refer to the previous install
 
 * [Distorted Appearance When Using Designer on HiDPI Monitors]({% slug distorted-appearance-using-designer-on-hidpi-monitors %})
 
-## Visual Studio Toolbox
+## Visual Studio ToolBox
 
-* [The Telerik UI for ASP.NET AJAX Controls Do Not Appear in the Toolbox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/toolbox-troubleshooting %})
+* [The Telerik UI for ASP.NET AJAX Controls Do Not Appear in the ToolBox]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/toolbox-troubleshooting %})
 
-* [The Toolbox Contains Old Item Registrations]({% slug vs-toolbox-containing-old-item-registrations %})
+* [The ToolBox Contains Old Item Registrations]({% slug vs-toolbox-containing-old-item-registrations %})
 
-* [Missing or Disabled Toolbox Items]({% slug vs-toolbox-items-missing-or-disabled %})
+* [Missing or Disabled ToolBox Items]({% slug vs-toolbox-items-missing-or-disabled %})
 
 ## Skins
 
@@ -172,5 +173,3 @@ Most of the issues related to the jQuery integration are related to the Unobtrus
 * [Using Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application with jQuery Registered in the ScriptManager]({% slug unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager %})
 
 * [Error: `0x800a139e - JavaScript runtime error: SyntaxError`]({% slug 0x800a139e-js-runtime-syntax-error %})
-
-## Content Security Policy
