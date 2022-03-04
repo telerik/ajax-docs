@@ -1,12 +1,11 @@
 ---
 title: WAI-ARIA Support and Screen Readers
 page_title: WAI-ARIA Support and Screen Readers
-description: "Learn more about the accessibility and WAI-ARIA support offered by Telerik ASP.NET AJAJ and supported screen readers."
+description: "Learn more about the accessibility and WAI-ARIA support offered by Telerik ASP.NET AJAX and supported screen readers."
 slug: controls/wai-aria-support-and-screen-readers
 previous_url: controls/wai-aria-support-and-screen-readers, general-information/wai-aria-support-and-screen-readers
 tags: telerik, asp, net, ajax, wai-aria, accessibility, support, and, screen, readers
 published: True
-position: 
 ---
 
 # WAI-ARIA Support and Screen Readers

@@ -57,6 +57,9 @@ navigation:
     "styling/theme-builder":
         title: "Theme Builder"
         position: 30
+    "accessibility":
+        title: "Accessibility"
+        position: 17 
     "integration":
         title: "Integration"
         position: 15
