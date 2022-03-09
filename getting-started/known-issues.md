@@ -15,41 +15,40 @@ This article provides links to specific Knowledge Base articles covering scenari
 
 For faster navigation, the links are grouped into the following sets:
 
-- [Known Issues](#known-issues)
-  - [Installation](#installation)
-  - [General](#general)
-  - [Web Resources](#web-resources)
-  - [Identifying the Error](#identifying-the-error)
-  - [Design-Time](#design-time)
-  - [Visual Studio ToolBox](#visual-studio-toolbox)
-  - [Skins](#skins)
-  - [jQuery Integration](#jquery-integration)
+- [Installation](#installation)
+- [General](#general)
+- [Web Resources](#web-resources)
+- [Identifying the Error](#identifying-the-error)
+- [Design-Time](#design-time)
+- [Visual Studio ToolBox](#visual-studio-toolbox)
+- [Skins](#skins)
+- [jQuery Integration](#jquery-integration)
 
 For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX with the strict Content Security Policy mode, refer to the [Content Security Policy Mode]({% slug general-information/content-security-policy %}) article.
 
 ## Installation
 
-* [Error: `This installation package could not be opened. Contact the Application vendor to verify that this is a valid windows installer package`]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting %})
+* [`This installation package could not be opened. Contact the Application vendor to verify that this is a valid windows installer package`]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting %})
 
-* [Error: `A Network Error Occurred While Attempting to Read from the File`]({% slug installation-network-error-while-reading-file %})
+* [`A Network Error Occurred While Attempting to Read from the File`]({% slug installation-network-error-while-reading-file %})
 
-* [Error: `There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor.`]({% slug windows-installer-package-program-could-not-run-error %})
+* [`There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor.`]({% slug windows-installer-package-program-could-not-run-error %})
 
 * [Installation Error Screen Appears during Installation]({% slug error-screen-during-installation %})
 
 ## General
 
-* [`'Telerik' is undefined` Error When Running a Website in the Integrated Mode on IIS 7 and Later]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting %})
+* [`'Telerik' is undefined` When Running a Website in the Integrated Mode on IIS 7 and Later]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting %})
 
-* [Error: `The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'`]({% slug systemwebuiiscriptcontrol-in-assembly-not-referenced-error %})
+* [`The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'`]({% slug systemwebuiiscriptcontrol-in-assembly-not-referenced-error %})
 
-* [Error: `The control with ID '(ControlID)' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.`]({% slug control-id-requires-scriptmanager-on-page-error %})
+* [`The control with ID '(ControlID)' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.`]({% slug control-id-requires-scriptmanager-on-page-error %})
 
-* [Microsoft JScript runtime error: `'Sys' is undefined`]({% slug sys-is-undefined-ms-js-runtime-error %})
+* [`'Sys' is undefined` Microsoft JavaScript Runtime Error]({% slug sys-is-undefined-ms-js-runtime-error %})
 
-* [Error: `The Controls collection cannot be modified because the control contains code blocks`]({% slug cannot-modify-control-collection-because-of-code-blocks %})
+* [`The Controls collection cannot be modified because the control contains code blocks`]({% slug cannot-modify-control-collection-because-of-code-blocks %})
 
-* [Error `This configuration section cannot be used at this path.`]({% slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
+* [`This configuration section cannot be used at this path.`]({% slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
 
 * [The Telerik Control Stylesheet Is Not Registered after an AJAX Request](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
 
@@ -57,7 +56,7 @@ For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX wit
 
 * [Error during Design-Time on a Page Using Telerik Controls]({% slug design-time-errors-on-page-with-telerik-controls %})
 
-* [Error: `System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)`]({% slug located-assembly-manifest-definition-not-matching-reference %})
+* [`System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)`]({% slug located-assembly-manifest-definition-not-matching-reference %})
 
 * [Telerik Controls Do Not Work If a Compression Module Is Used in the Project]({% slug controls-not-working-if-compression-used-in-project %})
 
@@ -78,8 +77,6 @@ If you are using an ASP.NET server control with rich client-side behavior, it is
 If your browser is configured to prompt on JavaScript errors, you may see an error message similar to the `RadTreeView is undefined` one.
 
 If you are using Telerik UI for ASP.NET AJAX, receiving this message indicates that there might be a Web Resource related issue.
-
-## Identifying the Error
 
 To identify the error that occurs, use either of the following approaches:
 
@@ -122,9 +119,9 @@ Some of the design-time issues linked below, which refer to the previous install
 
 * [Creating a Control Failed to Create a Designer after Upgrade to R1 2018]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting %})
 
-* [Errors: `Unknown server tag`, `Could not load file or assembly`]({% slug unknown-server-tag-could-not-load-file-or-assembly %})
+* [`Unknown server tag` or `Could not load file or assembly`]({% slug unknown-server-tag-could-not-load-file-or-assembly %})
 
-* [Error: `An unhandled exception has occurred. (A)(control type) cannot be cast to (B)(control type)`]({% slug control-type-a-cannot-be-cast-to-control-type-b-exception %})
+* [`An unhandled exception has occurred. (A)(control type) cannot be cast to (B)(control type)`]({% slug control-type-a-cannot-be-cast-to-control-type-b-exception %})
 
 * [Visual Studio Crashes If the Project Uses Microsoft Report Viewer When Designing a Local Report (.rdlc) and Adding a Dataset]({% slug vs-crashes-if-ms-report-viewer-used-for-local-reports-adding-datasets %})
 
@@ -148,7 +145,7 @@ Some of the design-time issues linked below, which refer to the previous install
 
 * [Appearance Issues When the Control Is Added during an AJAX Request]({% slug appearance-issues-when-adding-controls-during-ajax-requests %})
 
-* [Error: `Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false`]({% slug unable-to-find-embedded-skin %})
+* [`Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false`]({% slug unable-to-find-embedded-skin %})
 
 * [Different Rendering between the Design-Time Preview and in the Browser]({% slug different-render-design-time-browser %})
 
@@ -156,7 +153,7 @@ Some of the design-time issues linked below, which refer to the previous install
 
 ## jQuery Integration
 
-Unobtrusive validation is a type of validation that makes use of the HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and requires a jQuery library that is registered with the ScriptManager as `jquery`. To add this registration, install the [`AspNet.ScriptManager.jQuery` NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
+Unobtrusive validation uses the HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and requires a jQuery library that is registered with the ScriptManager as `jquery`. To add this registration, install the [`AspNet.ScriptManager.jQuery` NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
 
 In addition, when the page contains a ScriptManager control, you need to instruct it to register jQuery before the `WebForms.js` and `WebUIValidation.js` core script files that provide the unobtrusive validation. For more information about this requirement, refer to the [Unobtrusive validation breaks with a Script Manager on the page](https://connect.microsoft.com/VisualStudio/feedback/details/748064/unobtrusive-validation-breaks-with-a-script-manager-on-the-page) Microsoft Connect feedback item.
 
@@ -168,10 +165,10 @@ Most of the issues related to the jQuery integration are related to the Unobtrus
             <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
 
 
-* [Using Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting %})
+* [Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting %})
 
-* [Using Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application]({% slug unobtrusive-validation-net45-telerik-site-app %})
+* [Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application]({% slug unobtrusive-validation-net45-telerik-site-app %})
 
-* [Using Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application with jQuery Registered in the ScriptManager]({% slug unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager %})
+* [Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application with jQuery Registered in the ScriptManager]({% slug unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager %})
 
-* [Error: `0x800a139e - JavaScript runtime error: SyntaxError`]({% slug 0x800a139e-js-runtime-syntax-error %})
+* [`0x800a139e - JavaScript runtime error: SyntaxError`]({% slug 0x800a139e-js-runtime-syntax-error %})

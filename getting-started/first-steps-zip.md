@@ -22,6 +22,8 @@ This tutorial describes how to get up and running with Telerik UI for ASP.NET AJ
 * Then, you will dive deeper by defining the HtmlChart control and binding it to sample data.
 * Finally, you will add some styling to the controls.
 
+>tip How about a free Telerik UI onboarding course? Learn how to take advantage of the [Telerik Virtual Classroom](https://learn.telerik.com/learn).
+
 ## Prerequisites
 
 The following prerequisites are required for accomplishing the scenario in this tutorial. For more information on the third-party tooling versions supported by Telerik UI for ASP.NET AJAX, refer to the [list with system requirements](https://www.telerik.com/aspnet-ajax/tech-sheets/system-requirements).
