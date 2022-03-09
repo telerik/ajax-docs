@@ -82,7 +82,11 @@ To solve the issue regardless of its cause, use any of the following approaches:
 			</telerik:RadCodeBlock>
 
 * Render another instance of the control in a location outside the visible part the viewport. This will ensure that the required stylesheets will be loaded (ASP.NET):
+	
+	**ASP.NET**
+	
+	    <div style="position:absolute;top:-10000;left:-10000;">
+		    <telerik:RadRating runat="server" ID="RadRating1"></telerik:RadRating>
+	    </div>
 
-	<div style="position:absolute;top:-10000;left:-10000;">
-		<telerik:RadRating runat="server" ID="RadRating1"></telerik:RadRating>
-	</div>
+
