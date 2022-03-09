@@ -15,13 +15,15 @@ This article provides links to specific Knowledge Base articles covering scenari
 
 For faster navigation, the links are grouped into the following sets:
 
-* [Installation](#installation)
-* [General](#general)
-* [Web Resources](#web-resources)
-* [Design-Time](#design-time)
-* [Visual Studio ToolBox](#visual-studio-toolbox)
-* [Skins](#skins)
-* [jQuery Integration](#jquery-integration)
+- [Known Issues](#known-issues)
+  - [Installation](#installation)
+  - [General](#general)
+  - [Web Resources](#web-resources)
+  - [Identifying the Error](#identifying-the-error)
+  - [Design-Time](#design-time)
+  - [Visual Studio ToolBox](#visual-studio-toolbox)
+  - [Skins](#skins)
+  - [jQuery Integration](#jquery-integration)
 
 For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX with the strict Content Security Policy mode, refer to the [Content Security Policy Mode]({% slug general-information/content-security-policy %}) article.
 
@@ -47,7 +49,7 @@ For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX wit
 
 * [Error: `The Controls collection cannot be modified because the control contains code blocks`]({% slug cannot-modify-control-collection-because-of-code-blocks %})
 
-* [Error `This configuration section cannot be used at this path.`]({% slug slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
+* [Error `This configuration section cannot be used at this path.`]({% slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
 
 * [The Telerik Control Stylesheet Is Not Registered after an AJAX Request](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
 
