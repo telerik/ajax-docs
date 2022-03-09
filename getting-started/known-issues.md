@@ -3,7 +3,7 @@ title: Known Issues
 page_title: Known Issues
 description: "Look through the links with resources for handling possible issues that might occur when working with Telerik UI for ASP.NET AJAX."
 slug: links-troubleshooting-kb-resources
-previous_url: general-information/troubleshooting/installation-troubleshooting, general-information/troubleshooting/general-troubleshooting, general-information/troubleshooting/web-resources-troubleshooting, general-information/troubleshooting/design-time-troubleshooting, general-information/troubleshooting/toolbox-troubleshooting, general-information/troubleshooting/skins-troubleshooting, general-information/troubleshooting/jquery-troubleshooting, general-information/troubleshooting/content-security-policy
+previous_url: general-information/troubleshooting/installation-troubleshooting, general-information/troubleshooting/general-troubleshooting, general-information/troubleshooting/web-resources-troubleshooting, general-information/troubleshooting/design-time-troubleshooting, general-information/troubleshooting/toolbox-troubleshooting, general-information/troubleshooting/skins-troubleshooting, general-information/troubleshooting/jquery-troubleshooting
 tags: telerik, asp, net, ajax, troubleshooting, links, with, resources
 published: True
 position: 100
