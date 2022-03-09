@@ -27,7 +27,7 @@ When I'm adding a Telerik control to the page during an AJAX request, appearance
 
 ## Cause
 
-The possible reasons for this issue may be the following:
+The possible reasons for such issues may be the following:
 
 * The stylesheets cannot be registered during the partial page rendering because the `<head>` tag where stylesheets go is not updated.
 
@@ -41,7 +41,7 @@ To solve the issue regardless of its cause, use any of the following approaches:
 
 * If the previous approach does not help, register the needed stylesheets to the page at all times and ensure that the control does not load them by setting its `EnableEmbeddedBaseStylesheet` and `EnableEmbeddedSkins` properties to `false`.
 
-	The following examples demonstrates how to load the stylesheets of a control from the Telerik assembly. The examples use the Rating control but you can change it to the one you use and also replace the specific built-in skin name according to your needs.
+	The following examples demonstrate how to load the stylesheets of a control from the Telerik assembly. The examples use the Rating control but you can change it to the one you use and also replace the specific built-in skin name according to your needs.
 
 	 * By using a StyleSheetManager control:
 

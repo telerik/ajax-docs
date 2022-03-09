@@ -27,7 +27,7 @@ When working with Telerik UI for ASP.NET AJAX, the appearance gets distorted whe
 
 ## Error Messages
 
-![Sample Appearance issue](images/desigener-on-hdpi-monitors.png)
+![Sample Appearance issue](../images/desigener-on-hdpi-monitors.png)
 
 ## Cause
 
@@ -43,7 +43,7 @@ Alternatively, to solve this issue, use any of the following approaches:
 
 	When you open a form in the Designer in Visual Studio on an HDPI monitor, Visual Studio displays a yellow informational bar at the top of the designer:
 
-	![Informational bar in Visual Studio to restart in DPI-unaware mode](images/informational-bar-in-VisualStudio-DPI-unaware-mode.png)
+	![Informational bar in Visual Studio to restart in DPI-unaware mode](../images/informational-bar-in-VisualStudio-DPI-unaware-mode.png)
 
 	You can restart Visual Studio as a DPI-unaware process by selecting the option on the yellow informational bar. This is the preferred way of resolving the problem.
 

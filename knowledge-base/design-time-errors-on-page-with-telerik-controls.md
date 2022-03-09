@@ -23,7 +23,7 @@ published: True
 
 ## Description
 
-When working with Telerik UI for ASP.NET AJAX or dragging a Telerik control from the Toolbox to the design surface, design-time errors occur on a page that uses Telerik controls.
+When working with Telerik UI for ASP.NET AJAX or dragging a Telerik control from the ToolБox to the design surface, design-time errors occur on a page that uses Telerik controls.
 
 ## Causes
 
@@ -51,10 +51,10 @@ Depending on the possible cause for this issue, use the following approaches to 
 
 * (Dragging a Telerik control from the ToolBox) Refer to the following resources:
 
-	* [Error rendering control (Unable to cast object of TypeA to TypeA)](https://www.telerik.com/forums/error-rendering-control-unable-to-cast-object-of-typea-to-typea-75309ca98a0e)
-	* [Menu problem: "Error creating control" at design time](https://www.telerik.com/forums/menu-problem-39-error-creating-control-39-at-design-time)
+	* [Error rendering control (`Unable to cast object of TypeA to TypeA`)](https://www.telerik.com/forums/error-rendering-control-unable-to-cast-object-of-typea-to-typea-75309ca98a0e)
+	* [Menu problem: `Error creating control` at design time](https://www.telerik.com/forums/menu-problem-39-error-creating-control-39-at-design-time)
 	* [Clearing Cache](https://www.telerik.com/forums/ajax-2009-q2-release-giving-me-gray-hair)
-	* [Visual Studio: "Error Creating Control"](https://www.telerik.com/blogs/visual-studio-ldquo-error-creating-control-rdquo)
+	* [Visual Studio: `Error Creating Control`](https://www.telerik.com/blogs/visual-studio-ldquo-error-creating-control-rdquo)
 
 * (Problem loading GAC-ed assemblies) To solve this issue, use any of the following approaches:
 

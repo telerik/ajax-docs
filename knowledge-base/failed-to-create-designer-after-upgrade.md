@@ -25,7 +25,7 @@ published: True
 
 If you are using a version prior to R1 2018 and upgrade to R1 2018 or later and the automated upgrade wizard, you may get errors similar to the following:
 
-![Error Creating Control Failed To Create Designer](images/failed-to-create-designer-r1-2018.jpg)
+![Error Creating Control Failed To Create Designer](../images/failed-to-create-designer-r1-2018.jpg)
 
 ## Cause
 

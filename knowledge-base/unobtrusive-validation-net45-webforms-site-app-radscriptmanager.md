@@ -1,6 +1,6 @@
 ---
-title: Using Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager
-page_title: Using Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager
+title: Use Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager
+page_title: Use Unobtrusive Validation in .NET 4.5 WebForms Site or Application with the ScriptManager
 description: "Learn how to use unobtrusive validation in .NET 4.5 WebForms site or application with the ScriptManager."
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting
 tags: telerik, asp, net, ajax, troubleshooting, jquery, using, unobtrusive, validation, in, .net, 4.5, webforms, site, application, app, with, radscriptmanager

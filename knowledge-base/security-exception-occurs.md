@@ -23,7 +23,7 @@ published: True
 
 ## Description
 
-When working with Telerik UI for ASP.NET AJAX, a security exception occurs&mdash;`The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file.`
+When working with Telerik UI for ASP.NET AJAX, a security exception occurs: `The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file.`
 
 ## Error Message
 

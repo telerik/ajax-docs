@@ -1,6 +1,6 @@
 ---
-title: Using Telerik Controls with ScriptManager on Login Page Throws an Error
-page_title: Using Telerik Controls with ScriptManager on Login Page Throws an Error
+title: Use Telerik Controls with ScriptManager on Login Page Throws an Error
+page_title: Use Telerik Controls with ScriptManager on Login Page Throws an Error
 description: "When working with Telerik UI for ASP.NET AJAX, using the Telerik controls with RadScriptManager on your login page throws an error."
 slug: using-controls-with-scriptmanager-login-page-error
 tags: telerik, asp, net, ajax, troubleshooting, control, stylesheet, not, registered, after, ajax, request
@@ -25,6 +25,14 @@ published: True
 
 When working with Telerik UI for ASP.NET AJAX, using the Telerik controls with the ScriptManager on my login page throws an error.
 
+## Error Messages
+
+* `ASP.NET Ajax client-side framework failed to load`
+
+* `'Sys' is undefined`
+
+* `"Telerik.Web.UI" is undefined`
+
 ## Cause
 
 As the website denies access to all pages to unauthorized users, access to the `Telerik.Web.UI.WebResource.axd` handler is unauthorized and the handler serves the content of the login page instead of the combined scripts.
@@ -34,14 +42,6 @@ Alternatively, if a website was migrated from a previous ASP.NET version to the 
 ```
  preCondition="integratedMode,runtimeVersionv2.0"
 ```
-
-## Error Messages
-
-* `ASP.NET Ajax client-side framework failed to load`
-
-* `'Sys' is undefined`
-
-* `"Telerik.Web.UI" is undefined`
 
 ## Solution
 

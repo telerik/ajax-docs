@@ -49,20 +49,20 @@ Based on similar issues, the identified occurrences include the following cases:
 
 	To avoid this issue, use any of the suggested approaches:
 
-		* Delete all files in `[VSInstallDir]\Common7\IDE\ProjectTemplatesCache`.
+	* Delete all files in `[VSInstallDir]\Common7\IDE\ProjectTemplatesCache`.
 
-		* Delete all files in `[VSInstallDir]\Common7\IDE\ItemTemplatesCache`.
+	* Delete all files in `[VSInstallDir]\Common7\IDE\ItemTemplatesCache`.
 
-		* Start a Visual Studio instance and run the installer without closing it.
+	* Start a Visual Studio instance and run the installer without closing it.
 
-		* Run the `[VSInstallDir]\Common7\IDE\devenv.exe /setup` command manually.
+	* Run the `[VSInstallDir]\Common7\IDE\devenv.exe /setup` command manually.
 
 * The automatic installation of ASP.NET AJAX Extensions 1.0, performed by the Telerik UI for ASP.NET AJAX installer as a prerequisite for the .NE 2.0 assemblies, did not succeed.
 
 	To work around this issue:
 
-	 	1. Download [ASP.NET AJAX 1.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually.
+	1. Download [ASP.NET AJAX 1.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&displaylang=en) and install it manually.
 
-		1. Run the Telerik UI for ASP.NET AJAX installer.
+	1. Run the Telerik UI for ASP.NET AJAX installer.
 
 For more information, refer to the article on [post-installation issues]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting%}).

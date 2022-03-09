@@ -1,6 +1,6 @@
 ---
-title: Using Unobtrusive Validation in .NET 4.5 Telerik Site or Application
-page_title: Using Unobtrusive Validation in .NET 4.5 Telerik Site or Application
+title: Use Unobtrusive Validation in .NET 4.5 Telerik Site or Application
+page_title: Use Unobtrusive Validation in .NET 4.5 Telerik Site or Application
 description: "Learn how to use unobtrusive validation in .NET 4.5 Telerik website or web application."
 slug: unobtrusive-validation-net45-telerik-site-app
 tags: telerik, asp, net, ajax, troubleshooting, jquery, using, unobtrusive, validation, in, .net, 4.5, telerik, web, site, application, app
@@ -46,5 +46,3 @@ To set up the unobtrusive validation:
 	    </Scripts>
 	</telerik:RadScriptManager>
 	````
-
- 

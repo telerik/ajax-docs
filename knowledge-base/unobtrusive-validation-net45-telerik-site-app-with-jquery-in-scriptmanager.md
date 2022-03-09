@@ -1,6 +1,6 @@
 ---
-title: Using Unobtrusive Validation in .NET 4.5 Telerik Site or Application with jQuery Registered in ScriptManager
-page_title: Using Unobtrusive Validation in .NET 4.5 Telerik Site or Application with jQuery Registered in ScriptManager
+title: Use Unobtrusive Validation in .NET 4.5 Telerik Site or Application with jQuery Registered in ScriptManager
+page_title: Use Unobtrusive Validation in .NET 4.5 Telerik Site or Application with jQuery Registered in ScriptManager
 description: "Learn how to use unobtrusive validation in .NET 4.5 Telerik website or web application that has jQuery registered in the RadScriptManager."
 slug: unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager
 tags: telerik, asp, net, ajax, troubleshooting, jquery, using, unobtrusive, validation, in, .net, 4.5, telerik, web, site, application, app, with, registered, in, radscriptmanager
@@ -60,5 +60,3 @@ To configure the unobtrusive validation when you have a custom version of jQuery
 	    </Scripts>
 	</telerik:RadScriptManager>
 	````
-
- 

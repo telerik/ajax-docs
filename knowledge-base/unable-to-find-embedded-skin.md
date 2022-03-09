@@ -33,7 +33,7 @@ When working with Telerik UI for ASP.NET AJAX, I get an error that the embedded 
 
 The possible reasons for this issue include the following:
 
-* As of Q3 2011, all built-in skins are located in the `Telerik.Web.UI.Skins.dll` assembly. The change was announced in a blog post with [Q2 2011](https://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)) and again with [Q3 2011](https://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx).
+* As of Q3 2011, all built-in skins are located in the `Telerik.Web.UI.Skins.dll` assembly. The change was announced in a blog post with [Q2 2011](https://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx) and again with [Q3 2011](https://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx).
 
 * If you get this error after an upgrade to a later version, the most likely reason for the problem is that an issue has occurred with the Visual Studio Project references.
 
