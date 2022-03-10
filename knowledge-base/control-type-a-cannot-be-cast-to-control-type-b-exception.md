@@ -29,7 +29,7 @@ The design-time displays an error when rendering a control that an [A][control t
 
 `An unhandled exception has occurred.[A][control type] cannot be cast to [B][control type]. Type A originates from 'Telerik.Web.UI, Version=[Version], Culture=neutral,PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location1]'. Type B originates from 'Telerik.Web.UI,Version=[Version], Culture=neutral, PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location2]'.`
 
-![Error Rendering Control](../images/introduction-design_time_error_type3.png)
+![Error Rendering Control](images/introduction-design_time_error_type3.png)
 
 ## Cause
 

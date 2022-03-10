@@ -31,7 +31,7 @@ To solve the issue, use any of the following approaches:
 
 * In the IIS management console, check that the `.axd` extension (the default HTTP handler extension) is allowed under the **Handler Mappings** feature of IIS:
 
-	![](../images/axd-presence-and-file-mapping.png)
+	![](images/axd-presence-and-file-mapping.png)
 
 * Click the **Edit** button as displayed in the previous screenshot to check if the **Verify if file exists** checkbox is unchecked.
 

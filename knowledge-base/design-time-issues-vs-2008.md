@@ -33,7 +33,7 @@ You may not be able to upgrade to Visual Studio 2008 SP1 and you may get an exce
 
 >caption Two ways this error gets represented to the end user
 
-![](../images/introduction-design_time_error_type2.png)
+![](images/introduction-design_time_error_type2.png)
 
 ## Cause
 

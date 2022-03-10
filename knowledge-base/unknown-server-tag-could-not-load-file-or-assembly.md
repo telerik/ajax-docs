@@ -27,7 +27,7 @@ When a project using Telerik controls is opened and a page is loaded, a `"Unknow
 
 ## Error Message
 
-![Unknown server tag](../images/introduction-unknownservertag.png)
+![Unknown server tag](images/introduction-unknownservertag.png)
 
 ## Cause
 
@@ -53,19 +53,19 @@ To solve this issue, use the respective approach:
 
 	* (Automatically) Use the **Property** pages. You will still need to update the `<%@ Register Assembly="Telerik.Web.UI"… %>` directives in your pages manually.
 
-		![Property pages](../images/introduction-launch_propertypages.png)
+		![Property pages](images/introduction-launch_propertypages.png)
 
 		![Telerik.Web.UI project reference](images/introduction-telerik.web.ui.reference_added_as_bin_reference.png)
 
 		Note that to avoid the need to manually modify the `<%@ Register Assembly="Telerik.Web.UI"… %>` directives, it is recommended that you register the tag prefix in the `web.config` instead, as shown in the screenshot below.
 
-		![Telerik TagPrefix registration](../images/introduction-telerik_tagprefix_registration.png)
+		![Telerik TagPrefix registration](images/introduction-telerik_tagprefix_registration.png)
 
 * Update the `Bin` reference:
 
 	1. Browse to the `Telerik.Web.UI` assembly through the **Property** pages.
 
-		![Browser to reference](../images/introduction-browse_to_reference.png)
+		![Browser to reference](images/introduction-browse_to_reference.png)
 
 		Note that when browsing to the `Telerik.Web.UI` assembly in the context of a website project, Visual Studio will always add a GAC reference if it finds the same version of the `Telerik.Web.UI` assembly.
 
