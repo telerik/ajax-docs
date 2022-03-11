@@ -87,17 +87,17 @@ End Sub
 	
 ````
 
+Additional online examples can be found in the following links:
 
-[Load On Demand](https://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
-
-[Populate from a WebService](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
+- [Load On Demand - Demo](https://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
+- [Populate from a WebService](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
 
 # See Also
 
- * [Passing Context Information to the Server ]({%slug combobox/load-on-demand/passing-context-information-to-the-server-%})
+- [Passing Context Information to the Server ]({%slug combobox/load-on-demand/passing-context-information-to-the-server-%})
+- [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox-virtual-scrolling%})
+- [Caching Items]({%slug combobox/load-on-demand/caching-items%})
+- [Automatic Load On Demand]({%slug combobox/load-on-demand/automatic-load-on-demand%})
+- [RadComboBox items are not accessible on the server-side with Load On Demand]({%slug combobox-items-not-accessible-on-server-side-with-load-on-demand%})
+ 
 
- * [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox-virtual-scrolling%})
-
- * [Caching Items]({%slug combobox/load-on-demand/caching-items%})
-
- * [Automatic Load On Demand]({%slug combobox/load-on-demand/automatic-load-on-demand%})
