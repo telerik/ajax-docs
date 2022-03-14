@@ -1,14 +1,14 @@
 ---
-title: Responsive, Adaptive and Elastic Capabilities
+title: Responsive, Adaptive, and Elastic Capabilities
 page_title: Responsive, Adaptive and Elastic Capabilities
-description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
+description: 
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities
-tags: responsive,,adaptive,and,elastic,capabilities
+tags: telerik, aspnet, ajax, mobile, support, responsive, adaptive, elastic, capabilities
 published: True
 position: 1
 ---
 
-# Responsive, Adaptive and Elastic Capabilities
+# Responsive, Adaptive, and Elastic Capabilities
 
 To fit into a responsive page design, the controls from the UI for ASP.NET AJAX suite offer a set of features that let you integrate them into the page's design by making use of their responsive, adaptive, elastic and fluid capabilities. A list is available in **Table 1**.
 
@@ -22,6 +22,51 @@ A control can hardly be considered responsive by itself, because this heavily de
 * **Elastic** (Figure 3)—this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
 
 * **Adaptive** (Figure 4)—an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
+
+## Responsive Control Types
+
+The Telerik UI for ASP.NET AJAX controls provide a set of responsive behaviors for web projects. For a list with the responsive capabilities each control delivers, refer to the article on [responsive, adaptive and elastic abilities]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities%}).
+
+### Adaptive Controls
+
+Adaptive controls feature multiple HTML renderings with the appropriate styles to support various devices. When a page that contains an adaptive control is requested, on the server the control defines which HTML rendering is optimal for the browser and the device which request the content. For more information, refer to the [adaptive control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/adaptive-behavior.aspx).
+
+>caption Adaptive controls
+
+![](images/adaptive-sample.png)
+
+
+### Elastic Controls
+
+Elastic behavior means that the control will grow and shrink appropriately to maintain a size that is relative to the font-size in use on the web page. In this way, end users can zoom or change the font sizes in their browser, and allow the controls to size appropriately. For more information, refer to the [elastic control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/elastic-behavior.aspx).
+
+>caption Elastic controls
+
+![](images/elastic-sample.png)
+
+
+### Responsive Controls
+
+The responsive controls feature single HTML rendering and are adapted for various device and browser sizes in the browser through styles and scripts. The whole script and style information is transmitted to the browser, and with CSS media queries the browser presents the optimized layout for the control. For more information, refer to the [responsive control demos online](https://demos.telerik.com/responsive-web-design-aspnet/samples/responsive-behavior.aspx).
+
+>caption Responsive controls
+
+![](images/responsive-sample.png)
+
+### Fluid Controls
+
+Fluid controls fill in their containing object in the HTML layout. If the container changes size, the control inside scales and sizes with the container. Most Telerik ASP.NET AJAX controls now feature fluid behaviors.
+
+>caption Fluid controls
+
+![](images/fluid-sample.png)
+
+## Samples 
+
+Telerik has assembled samples implementations of all of these features for you to be able to review on the	[Responsive Web Design sample website](https://demos.telerik.com/responsive-web-design-aspnet/default.aspx). Click through to that sample to try out the various features outlined here, including Adaptive, Elastic, and Responsive behaviors. Don’t forget to try using that sample website with your tablet and smart phone.
+
+
+
 
 
 >caption Figure 1: Fluid control concept
