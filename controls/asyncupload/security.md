@@ -35,7 +35,7 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 
 3. Set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png). You can see the steps of how to generate the security keys in this [YouTube video](https://www.youtube.com/watch?v=J18zDKtiBFE). Do not forget to select the *HMACSHA256* validation method that is the recommended one to generate the keys.
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png). You can see the steps of how to generate the security keys in this [YouTube video](https://www.youtube.com/watch?v=J18zDKtiBFE). Do not forget to select the *HMACSHA256* validation method that is the recommended one to generate the keys.
 
 >caution As of R1 2020, the **Machine Key** is used automatically for the `ConfigurationEncryptionKey`, `ConfigurationHashKey` and `DialogParametersEncryptionKey` keys if they are not set explicitly. You will still need to set your own custom keys if you are using older version of the controls.
 
@@ -57,7 +57,7 @@ The information below provides more details on the available keys and their usag
 
 >important If you do not set custom encryption and hashing keys, default (hardcoded) values are used to encrypt/decrypt the information for versions prior to R2 2017 SP1. If you are using such an old version, we recommend [upgrading]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) to the latest.
 >
->As of **R2 2017 SP1**, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings). 
+>As of **R2 2017 SP1**, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings).
 >
 >Other cryptographic operations in the UI for ASP.NET AJAX suite may also use these two keys. Telerik avoids adding more keys in order to improve backwards compatibility of your applications and to reduce the number of properties you have to set.
 
@@ -80,7 +80,7 @@ To provide secure encryption of the control configuration, we strongly advise th
 
 The `Telerik.AsyncUpload.ConfigurationEncryptionKey` is available as of Q3 2012 SP1 (version 2012.3.1205).
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
 
 
 ### ConfigurationHashKey
@@ -95,7 +95,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 </appSettings>
 ````
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../../general-information/images/generate-keys-iis.png).
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
 
 ### AllowedCustomMetaDataTypes
 
@@ -133,7 +133,7 @@ Failure to deserialize a custom metadata type will also throw a `CryptographicEx
 
 You can disable file uploads through RadAsyncUpload's built-in configuration altogether. This feature is available as of **R2 2017 SP2 (2017.2.711)**.
 
-Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder. 
+Setting the `Telerik.Web.DisableAsyncUploadHandler` key to `true` disables the built-in RadAsyncUpload handler that is used for storing files in the temporary folder before they are moved to the target folder.
 
 When you set this key to `true`, no files can be uploaded to the default handler (`Telerik.Web.UI.WebResource.axd`) and async upload requests to it will return a 404 error. You may want to handle the [OnClientFileUploadFailed event]({%slug asyncupload/client-side-programming/onclientfileuploadfailed%}) to prevent the page from throwing JavaScript errors.
 
@@ -147,15 +147,15 @@ When you set this key to `true`, no files can be uploaded to the default handler
 </appSettings>
 ````
 
->important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R3 2019 SP1**. The DisableAsyncUploadHandler behavior is improved in R3 2020 SP1 (2019.3.1023) and we recommend upgrading to 2019.3.1023 or a later release when using it. 
+>important Even when disabling file uploads, we recommend setting the [main custom encryption keys](#recommended-settings), especially for versions prior to **R3 2019 SP1**. The DisableAsyncUploadHandler behavior is improved in R3 2020 SP1 (2019.3.1023) and we recommend upgrading to 2019.3.1023 or a later release when using it.
 
 ## Frequently Asked Questions
 
 * If the *RadAsyncUpload component is not used in the web app, then is the app still vulnerable to the known vulnerabilities in the RadAsyncUpload?* - Your app will be safe from the known vulnerabilities if the Telerik.Web.UI.dll assembly is released before Q1 2010 (version 2010.1.309) or after R3 2019 SP1 (2019.3.1023). For more information please refer to the [Allows JavaScriptSerializer Deserialization (CVE-2019-18935)](https://www.telerik.com/support/kb/aspnet-ajax/details/allows-javascriptserializer-deserialization) article.
 * *How to generate the security keys?* - See the [Generate security keys for RadAsyncUpload (Telerik UI for ASP.NET AJAX) video](https://www.youtube.com/watch?v=J18zDKtiBFE).
 * *How to find what version of the Telerik the website used?* - You can see the version in the source code of the page. Search for <!- 20. Another way to check the assembly version is to right click on the Telerik.Web.UI.dll -> Properties -> Details -> Product version.
-* *Am I supposed to decrypt the RadAsyncUpload settings?* - The ecryption/decryption of the AsyncUpload settings is performed built-in by the control and you are not supposed to do anything more than setting the [ConfigurationEncryptionKey](#ConfigurationEncryptionKey) and [ConfigurationHashKey](#ConfigurationHashKey) settings and their secure keys in the web.config. 
-* *How to secure the uploaded files?* - The AsyncUpload does not manipulate the files itself. The files need to be secured manually either on a postback as explained in [How to manipulate the uploaded files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}) and/or by implementing a [Custom RadAsyncUpload Handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}). 
+* *Am I supposed to decrypt the RadAsyncUpload settings?* - The ecryption/decryption of the AsyncUpload settings is performed built-in by the control and you are not supposed to do anything more than setting the [ConfigurationEncryptionKey](#ConfigurationEncryptionKey) and [ConfigurationHashKey](#ConfigurationHashKey) settings and their secure keys in the web.config.
+* *How to secure the uploaded files?* - The AsyncUpload does not manipulate the files itself. The files need to be secured manually either on a postback as explained in [How to manipulate the uploaded files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}) and/or by implementing a [Custom RadAsyncUpload Handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}).
 * *How large (in bits or bytes) these encryption keys must be?* - We recommend a very strong encryption mechanism such as HMACSHA256.
 * *Is RadUpload vulnerable to any known security issues?* - While [RadUpload]({%slug upload/overview%}) does not have known vulnerabilities, it has been discontinued in June 2013 (Q2’13) in favor of RadAsyncUpload and because of that, we do not recommend using it.
 * *Where do we find a complete list of the known vulnerabilities?* - The KB articles below discuss all the known vulnerabilities in the Telerik AJAX controls:
@@ -164,7 +164,7 @@ When you set this key to `true`, no files can be uploaded to the default handler
 	* [Unrestricted File Upload (CVE-2014-2217 and CVE-2017-11317)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/unrestricted-file-upload)
 	* [Cryptographic Weakness (CVE-2017-9248)](https://www.telerik.com/support/kb/aspnet-ajax/details/cryptographic-weakness)
 	* [Insecure Direct Object Reference (CVE-2017-11357)](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/insecure-direct-object-reference)
-	* Other places to check for Telerik related vulnerabilities are the CVE databases such as [https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html](https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html) and [https://nvd.nist.gov/vuln/data-feeds](https://nvd.nist.gov/vuln/data-feeds) as advised by the [First 5 Tips for Building Secure (Web) Apps](https://www.telerik.com/blogs/first-5-tips-for-building-secure-web-apps) blog post. 
+	* Other places to check for Telerik related vulnerabilities are the CVE databases such as [https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html](https://www.cvedetails.com/vulnerability-list/vendor_id-14130/Telerik.html) and [https://nvd.nist.gov/vuln/data-feeds](https://nvd.nist.gov/vuln/data-feeds) as advised by the [First 5 Tips for Building Secure (Web) Apps](https://www.telerik.com/blogs/first-5-tips-for-building-secure-web-apps) blog post.
 * *Are there any other Security articles to check* - Yes, please review the following resources:
 	* [Mandatory Additions to the web.config]({%slug general-information/web-config-settings-overview%})
 	* [RadEditor Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security)
@@ -184,4 +184,3 @@ When you set this key to `true`, no files can be uploaded to the default handler
 * [RadEditor Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security)
 * [RadFileExplorer Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/fileexplorer/security)
 * [First 5 Tips for Building Secure (Web) Apps blog post](https://www.telerik.com/blogs/first-5-tips-for-building-secure-web-apps)
-

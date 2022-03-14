@@ -24,12 +24,6 @@ navigation:
     "getting-started/performance":
         title: "Performance"
         position: 30
-    "general-information":
-        title: "General Information"
-        position: 4
-    "general-information/troubleshooting":
-        title: "Troubleshooting"
-        position: 14
     "mobile-support":
         title: "Mobile Support"
         position: 5
@@ -57,6 +51,9 @@ navigation:
     "styling/theme-builder":
         title: "Theme Builder"
         position: 30
+    "accessibility":
+        title: "Accessibility"
+        position: 17
     "integration":
         title: "Integration"
         position: 15

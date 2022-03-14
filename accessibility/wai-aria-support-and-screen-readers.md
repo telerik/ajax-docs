@@ -1,16 +1,14 @@
 ---
 title: WAI-ARIA Support and Screen Readers
 page_title: WAI-ARIA Support and Screen Readers
-description: Check our Web Forms article about WAI-ARIA Support and Screen Readers.
+description: "Learn more about the accessibility and WAI-ARIA support offered by Telerik ASP.NET AJAX and supported screen readers."
 slug: controls/wai-aria-support-and-screen-readers
-tags: wai-aria,support,and,screen,readers
+previous_url: controls/wai-aria-support-and-screen-readers, general-information/wai-aria-support-and-screen-readers
+tags: telerik, asp, net, ajax, wai-aria, accessibility, support, and, screen, readers
 published: True
-previous_url: controls/wai-aria-support-and-screen-readers
-position: 11
 ---
 
 # WAI-ARIA Support and Screen Readers
-
 
 [WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)](https://www.w3.org/WAI/PF/aria-practices/) is a World Wide Web Consortium specification. It explains how to increase the accessibility of the web pages to help people with disabilities navigate the Internet.
 
@@ -88,5 +86,5 @@ A screen reader commonly used with is **JAWS** ([JAWS official site](http://www.
 # See Also
 
  * [W3C: WAI-ARIA Practices](https://www.w3.org/WAI/PF/aria-practices/)
- 
+
  * [Force JAWS to pronounce artbitrary text with JavaScript](https://www.telerik.com/support/kb/aspnet-ajax/details/force-jaws-to-pronounce-artbitrary-text-with-javascript) KB article
