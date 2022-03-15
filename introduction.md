@@ -5,7 +5,7 @@ description: "The Telerik UI for ASP.NET AJAX components suite includes more tha
 slug: introduction/introduction
 tags: introduction
 published: True
-position: 0
+position: 1
 ---
 
 # Welcome to Telerik UI for ASP.NET AJAX

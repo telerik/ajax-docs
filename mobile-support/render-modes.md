@@ -1,16 +1,18 @@
 ---
 title: Render Modes
 page_title: Render Modes
-description: Check our Web Forms article about Render Modes.
+description: "Learn more about the render modes provided by the Telerik UI for ASP.NET AJAX controls."
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes
-tags: render,modes
+tags: telerik, aspnet, ajax, mobile, support, render, nodes
 published: True
-position: 2
+position: 3
 ---
 
 # Render Modes
 
-Some controls from the UI for ASP.NET AJAX suite	can produce different (usually more lightweight) markup and make styling easier through CSS3. Below you can find a list with the modes each control supports. For more information on the feature and its benefits, examine the [Render modes]({%slug controls/render-modes%}) help article.
+Some Telerik UI for ASP.NET AJAX controls provide more lightweight markup and facilitate styling through CSS3. 
+
+The following table lists the modes each control supports. For more information, refer to the article on [render modes in the **Styling & Appearance** section]({%slug controls/render-modes%}).
 
 
 | Control | Lightweight Rendering | Mobile Rendering |
@@ -85,10 +87,9 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Window|[Yes (render mode)]({%slug window/mobile-support/render-modes%})|-|
 |XmlHttpPanel|N/A|-|
 
-If you are extending the Telerik controls that support render modes through a property (i.e., they are not lightweight by design, for example), you need to addseveral properties to your class that will provide this functionality:
+To extend the rendering mode of Telerik controls by using a property, that is, the controls are not lightweight by design for example, you need to add specific properties to your class to provide this functionality:
 
->caption Example 1: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
-
+The following example demonstrates the properties which enable you to use `RenderMode` for controls inherited from the Telerik controls.
 
 
 ````C#
@@ -107,7 +108,7 @@ public class BaseScheduler : RadScheduler
 		}
 	}
 
-	//only add this property if the base control implements Lightweight rendering via the RenderMode property
+	//Add this property only if the base control implements the Lightweight rendering through the RenderMode property
 	protected override bool SupportsLightweightRendering
 	{
 		get
@@ -116,7 +117,7 @@ public class BaseScheduler : RadScheduler
 		}
 	}
 
-	//only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
+	//Add this property only if the base control implements Adaptive (Mobile) rendering through the RenderMode property
 	protected override bool SupportsAdaptiveRendering
 	{
 		get
@@ -125,7 +126,7 @@ public class BaseScheduler : RadScheduler
 		}
 	}
 
-	//only add this property if the base control implements Native rendering via the RenderMode property
+	//Add this property onyl if the base control implements Native rendering through the RenderMode property
 	protected override bool SupportsNativeRendering
 	{
 		get
@@ -148,21 +149,21 @@ Public Class BaseScheduler
 		End If
 	End Sub
 
-	'only add this property if the base control implements Lightweight rendering via the RenderMode property
+	'Add this property only if the base control implements Lightweight rendering through the RenderMode property
 	Protected Overrides ReadOnly Property SupportsLightweightRendering() As Boolean
 		Get
 			Return True
 		End Get
 	End Property
 
-	'only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
+	'Add this property only if the base control implements Adaptive (Mobile) rendering through the RenderMode property
 	Protected Overrides ReadOnly Property SupportsAdaptiveRendering() As Boolean
 		Get
 			Return True
 		End Get
 	End Property
 
-	'only add this property if the base control implements Native rendering via the RenderMode property
+	'Add this property only if the base control implements Native rendering through the RenderMode property
 	Protected Overrides ReadOnly Property SupportsNativeRendering() As Boolean
 		Get
 			Return True

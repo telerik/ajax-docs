@@ -1,34 +1,30 @@
 ---
-title: Gestures Support
-page_title: Gestures Support
-description: Check our Web Forms article about Gestures Support.
+title: Gesture Support
+page_title: Gesture Support
+description: "Learn about the gesture support provided by Telerik UI for ASP.NET AJAX controls."
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/gestures-support
-tags: gestures,support
+tags: telerik, aspnet, ajax, mobile, support, gestures
 published: True
-position: 3
+position: 4
 ---
 
-# Gestures Support
+# Gesture Support
 
-Some controls from the UI for ASP.NET AJAX suite can react to touch gestures in order to perform a certain action according to the control specifics.A tap gesture is available for any clickable element.Controls where scrolling is needed and available react to the scrolling gestures.Here follows a list with the controls that handle specific gestures, and the actions they perform.
+By default, some Telerik UI for ASP.NET AJAX controls support touch gestures for performing certain actions. 
 
-* [**Grid**]({%slug grid/mobile-support/mobile-rendering/overview%}) — drag to scroll the tableview or perform swipe with two active points to go to the next/previous page.
+All clickable elements support tap gestures. Scrollable controls support scrolling gestures. 
 
-* [**Editor**]({%slug editor/mobile-support/overview%}) - tap or double tap to activate a button (tool) or choose an item from a list; drag to scroll (e.g., the content area or the list of tools). Double tap acts like a single tap. Pinch gestures are cancelled by the control to prevent zooming, both in the main editor view and in the dialogs.
+The following table lists the controls that handle specific gestures, and the actions they perform.
 
-* [**ImageGallery**]({%slug imagegallery/mobile-support/gestures%}) — swipe to navigate the images, thumbnails and show/hide the thumbnails area;tap and hold to toggle the slideshow feature;	double tap to enter/exit full screen mode; tap on an image to navigate to the page pointed by the **NavigateUrl** property.
-
-* [**LightBox**]({%slug lightbox/mobile-support/gestures-support%}) — swipe to navigate the images or tap on the image to hide the **navigation arrows** (if visible) and the **description box** (when overlay mode is enabled).
-
-* [**Map**]({%slug map/mobile-support/gestures-support%}) — drag the layer to pan; spread or pinch to zoom in or zoom out.
-
-* **Rotator** — drag an item to scroll the rotator.
-
-* **Slider** — drag both of the slider's drag handles simultaneously to change its selected region.
-
-* **TileList** — drag a tile to move it; short vertical drag to select a tile.
-
-* **Window** — drag the title bar to move the window.
-
-* [**Drawer**]({%slug drawer/functionality/gestures%}) — swipe to reveal the full content of the RadDrawer control.
-
+|Control|Gesture and Action
+|:---|:---
+|[Grid]({%slug grid/mobile-support/mobile-rendering/overview%})|<ul><li>Drag to scroll the table view.</li> <li>Swipe with two active points to go to the next or previous page.</li></ul>
+|[Editor]({%slug editor/mobile-support/overview%})|<ul><li>Tap or double-tap to activate a button (tool) or choose an item from a list.</li> <li>Drag to scroll (for example, the content area or the list of tools). Double-tap acts like a single tap.</li> <li>Pinch gestures are cancelled by the control to prevent zooming, both in the main editor view and in the dialogs.</li></ul>
+|[ImageGallery]({%slug imagegallery/mobile-support/gestures%})|<ul><li>Swipe to navigate the images, thumbnails, and show or hide the thumbnails area.</li> <li>Tap and hold to toggle the slideshow feature.</li> <li>Double-tap to enter or exit the full screen mode.</li> <li>Tap on an image to navigate to the page pointed by the `NavigateUrl` property.</li></ul>
+|[LightBox]({%slug lightbox/mobile-support/gestures-support%})|Swipe to navigate the images or tap on the image to hide the navigation arrows (if visible) and the description box (when the overlay mode is enabled).
+|[Map]({%slug map/mobile-support/gestures-support%})|<ul><li>Drag the layer to pan.</li> <li>Spread or pinch to zoom in or zoom out.</li></ul>
+|Rotator|Drag an item to scroll the rotator.
+|Slider|Simultaneously drag both drag handles of the Slider to change its selected region.
+|TileList|<ul><li>Drag a tile to move it.</li> <li>Perform a short vertical drag to select a tile.</li></ul>
+|Window|Drag the title bar to move the window.
+|[Drawer]({%slug drawer/functionality/gestures%})|Swipe to reveal the full content of the Drawer.

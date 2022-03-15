@@ -12,9 +12,39 @@ all_pages_domain: "https://docs.telerik.com/devtools"
 navigation:
 
 ## List common directory names and order here, like this:
+    "api":
+        title: "API Reference"
+        position: 0
     "getting-started":
         title: "Getting Started"
-        position: 1
+        position: 2
+    "controls":
+        title: "Controls"
+        position: 3
+    "styling":
+        title: "Styles & Appearance"
+        position: 4
+    "deployment":
+        title: "Deployment"
+        position: 5
+    "shared-utilities":
+        title: "Shared Utilities"
+        position: 6
+    "integration":
+        title: "Integration"
+        position: 7
+    "mobile-support":
+        title: "Mobile Support"
+        position: 8
+    "accessibility":
+        title: "Accessibility"
+        position: 9
+    "upgrade-compatibility":
+        title: "Upgrade & Compatibility"
+        position: 10        
+    "knowledge-base":
+        title: "Knowledge Base"
+        position: 30                
     "getting-started/installation":
         title: "Download & Installation"
         position: 10
@@ -24,24 +54,6 @@ navigation:
     "getting-started/performance":
         title: "Performance"
         position: 30
-    "mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "deployment":
-        title: "Deployment"
-        position: 6
-    "controls":
-        title: "Controls"
-        position: 12
-    "shared-utilities":
-        title: "Shared Utilities"
-        position: 13
-    "licensing":
-        title: "Licensing"
-        position: 29
-    "styling":
-        title: "Styles & Appearance"
-        position: 14
     "styling/controlling-visual-appearance":
         title: "Controlling the Appearance"
         position: 10
@@ -51,12 +63,6 @@ navigation:
     "styling/theme-builder":
         title: "Theme Builder"
         position: 30
-    "accessibility":
-        title: "Accessibility"
-        position: 17
-    "integration":
-        title: "Integration"
-        position: 15
     "integration/jquery":
         title: "jQuery"
     "integration/sharepoint":
@@ -140,15 +146,9 @@ navigation:
         title: "TypeScript Definitions"
     "integration/visual-studio/visual-studio-extensions":
         title: "Visual Studio Extensions"
-    "upgrade-compatibility":
-        title: "Upgrade & Compatibility"
-        position: 16
     "upgrade-compatibility/upgrading-instructions":
         title: "Upgrading"
         position: 10
-    "api":
-        title: "API Reference"
-        position: 30
     "api/client":
         title: "Client-side"
         position: 1
@@ -159,9 +159,6 @@ navigation:
     "api/server":
         title: "Server-side"
         position: 2
-    "knowledge-base":
-        title: "Knowledge Base"
-        position: 40
 
 ## List control directory names and order here, like this:
     "controls/ajaxpanel":
