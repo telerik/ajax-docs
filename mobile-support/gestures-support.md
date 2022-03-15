@@ -5,7 +5,7 @@ description: "Learn about the gesture support provided by Telerik UI for ASP.NET
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/gestures-support
 tags: telerik, aspnet, ajax, mobile, support, gestures
 published: True
-position: 3
+position: 4
 ---
 
 # Gesture Support

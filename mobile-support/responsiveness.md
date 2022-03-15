@@ -2,10 +2,11 @@
 title: Responsiveness
 page_title: Responsiveness
 description: "Learn more about the responsive behavior of the Telerik UI for ASP.NET AJAX controls and the types of responsive behaviors the controls provide."
+previous_url: mobile-support/mobile-support-and-responsiveness
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-support-and-responsiveness
 tags: telerik, aspnet, ajax, mobile, support, responsiveness
 published: True
-position: 0
+position: 1
 ---
 
 # Responsiveness

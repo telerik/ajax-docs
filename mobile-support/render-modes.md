@@ -5,7 +5,7 @@ description: "Learn more about the render modes provided by the Telerik UI for A
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes
 tags: telerik, aspnet, ajax, mobile, support, render, nodes
 published: True
-position: 2
+position: 3
 ---
 
 # Render Modes

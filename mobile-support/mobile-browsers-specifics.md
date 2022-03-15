@@ -2,10 +2,11 @@
 title: Mobile Browser Specifics
 page_title: Mobile Browser Specifics
 description: "Learn about the mobile browser support that comes with Telerik UI for ASP.NET AJAX."
+previous_url: mobile-support/using-the-telerik-controls-in-mobile-browsers
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-browsers-specifics
 tags: telerik, aspnet, ajax, mobile, support, browser, specifics
 published: True
-position: 4
+position: 5
 ---
 
 # Mobile Browser Specifics
