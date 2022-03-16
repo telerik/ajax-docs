@@ -68,14 +68,14 @@ Here is a sample usage:
 ````ASPX
 <style>
     .RadCalendarPopup .RadCalendarTimeView tr:nth-of-type(2),
-    .RadCalendarPopup .RadCalendarTimeView tr:nth-of-type(5),
-    .RadCalendarPopup .RadCalendarTimeView tr:nth-of-type(8) {
+    .RadCalendarPopup .RadCalendarTimeView tr:nth-of-type(4),
+    .RadCalendarPopup .RadCalendarTimeView tr:nth-of-type(6) {
         background-color: yellow;
         color: red;
     }
 </style>
 <telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" Width="285px" runat="server" Visible="true">
-    <TimeView Interval="20" Columns="4" RenderDirection="Vertical" StartTime="9:00" EndTime="18:15">
+    <TimeView Interval="30" Columns="3" RenderDirection="Vertical" StartTime="9:00" EndTime="18:00">
     </TimeView>
 </telerik:RadTimePicker>
 ````
