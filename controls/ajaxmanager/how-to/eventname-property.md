@@ -1,25 +1,40 @@
 ---
-title: EventName Property
-page_title: EventName Property
-description: Check our Web Forms article about EventName Property.
+title: Set the EventName Property in the AjaxManager and UpdatePanel Controls
+page_title: Set the EventName Property in the AjaxManager and UpdatePanel Controls
+description: "Learn how to set the EventName property in the AjaxManager and UpdatePanel controls."
 slug: ajaxmanager/how-to/eventname-property
-previous_url: ajax/how-to/eventname-property
-tags: eventname,property
+previous_url: ajax/how-to/eventname-property, controls/ajaxmanager/how-to/eventname-property
+tags: telerik, asp, net, ajax, manager, set, eventname, property
 published: True
-position: 13
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# EventName Property
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-As of Q2 2013, the **EventName** property of the **RadAjaxManager** settings behaves as expected and works properly in all scenarios where you would use **asp:UpdatePanel** controls. This article compares setting the **EventName** property for an **UpdatePanel** and setting the same property for a **RadAjaxPanel**. The **EventName** property gets or sets the Postback control event that triggers the updated controls to be updated.
+How can I set the `EventName` property in the Telerik AjaxManager control and in `asp:UpdatePanel` controls?
 
-## Setting the EventName Property
+## Solution
 
-The main difference between setting this property in **RadAjaxManger** and the same in **asp:UpdatePanel** is that the **RadAjaxManager** makes this task easier and you write less code. **Example 1** and **Example 2** define the EventName in both cases.
+As of Q2 2013, the `EventName` property of the Telerik AjaxManager settings behaves as expected and works properly in all scenarios where you use `asp:UpdatePanel` controls. 
 
-* **Example 1** : Setting **EventName** for **asp:UpdatePanel's AsyncPostBack** triggers:
+This article compares the setting of the `EventName` property for the UpdatePanel and for the AjaxPanel. The `EventName` property gets or sets the `Postback` control event that triggers the updated controls to update.
+
+The main difference between setting `EventName` in the AjaxManager and `asp:UpdatePanel` is that the AjaxManager makes this task easier and you write less code. 
+
+The following example demonstrates how to set `EventName` for the `AsyncPostBack` triggers of the `asp:UpdatePanel`.
 
 
 
@@ -96,8 +111,7 @@ End Class
 ````
 
 
-* **Example 2**: How to set the **EventName** property of a **RadAjaxManager** control:
-
+The following example demonstrates how to set the `EventName` property of the AjaxManager control.
 
 
 ````ASP.NET
@@ -180,4 +194,4 @@ End Class
 
 ## See Also
 
- * [Overview]({%slug ajaxmanager/overview%})
+* [AjaxManager Overview]({%slug ajaxmanager/overview%})

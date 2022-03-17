@@ -1,26 +1,40 @@
 ---
-title: Executing Custom Javascript Code after AJAX Update
-page_title: Executing Custom Javascript Code after AJAX Update
-description: Check our Web Forms article about Executing Custom Javascript Code after AJAX Update.
+title: Execute Custom Javascript Code after an AJAX Update 
+page_title: Execute Custom Javascript Code after AJAX Update
+description: "Learn how to execute custom JavaScript code after an Ajax update in Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update
-previous_url: ajax/how-to/executing-custom-javascript-code-after-ajax-update
-tags: executing,custom,javascript,code,after,ajax,update
+previous_url: ajax/how-to/executing-custom-javascript-code-after-ajax-update, controls/ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update
+tags: telerik, asp, net, ajax, manager, execute, custom, javascript, code, after, update
 published: True
-position: 5
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Executing Custom Javascript Code after AJAX Update
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I execute custom JavaScript code after an Ajax update in Telerik UI for ASP.NET AJAX? 
 
-Telerik **RadAjax** offers the ability to execute custom JavaScript code that comes as a response from the server thus giving you more flexibility to complete more specific or complex tasks on the client. This help article shows a few ways to execute custom JavaScript code after an AJAX update.
+## Solution
 
-The best and most intuitive approach is to use the [ResponseScripts](https://www.telerik.com/help/aspnet-ajax/ajax-control-properties.html) property of the **RadAjaxPanel** or **RadAjaxManager** .
+Telerik UI for ASP.NET AJAX enables you to execute custom JavaScript code that comes as a response from the server thus giving you more flexibility to complete more specific or complex tasks on the client. 
 
-**Example 1** shows how to pop an alert when a Button is clicked.
+To execute custom JavaScript code after an AJAX update use any of the suggested approaches in this section.
 
+The recommended and most intuitive approach is to use the [`ResponseScripts`]({% slug ajaxmanager/server-side-programming/properties %}) property of the AjaxPanel or AjaxManager.
+
+The following example shows how to pop an alert when a Button is clicked.
 
 
 ````C#
@@ -37,8 +51,7 @@ End Sub
 ````
 
 
-**Example 2** shows another approach. You can use the **RegisterStartupScript** static method of the **ScriptManager** class:
-
+The following example shows another approach&mdash;you can use the `RegisterStartupScript` static method of the `ScriptManager` class.
 
 
 ````C#
@@ -56,8 +69,8 @@ End Sub
 ````
 
 
-You can also use the [pageLoaded](https://msdn.microsoft.com/en-us/library/bb397523.aspx)event of the [PageRequestManager](https://msdn.microsoft.com/en-us/library/bb311028.aspx) class.
+Alternatively, you can use the [`pageLoaded`](https://msdn.microsoft.com/en-us/library/bb397523.aspx) event of the [`PageRequestManager`](https://msdn.microsoft.com/en-us/library/bb311028.aspx) class.
 
 ## See Also
 
- * [Properties]({%slug ajaxmanager/server-side-programming/properties%})
+* [Server-Side Properties of the AjaxManager]({%slug ajaxmanager/server-side-programming/properties%})

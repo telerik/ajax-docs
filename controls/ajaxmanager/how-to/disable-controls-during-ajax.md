@@ -1,27 +1,38 @@
 ---
-title: Disable Controls During AJAX
-page_title: Disable Controls During AJAX
-description: Check our Web Forms article about Disable Controls During AJAX.
+title: Disable Controls during AJAX Requests with the AjaxManager
+page_title: Disable Controls During AJAX Requests with the AjaxManager
+description: "Learn how to disable controls during Ajax with the Telerik UI for AJAX AjaxManager."
 slug: ajaxmanager/how-to/disable-controls-during-ajax
-previous_url: ajax/how-to/disable-controls-during-ajax
-tags: disable,controls,during,ajax
+previous_url: ajax/how-to/disable-controls-during-ajax, controls/ajaxmanager/how-to/disable-controls-during-ajax
+tags: telerik, asp, net, ajax, manager, disable, controls, during, ajax
 published: True
-position: 8
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Disable Controls During AJAX
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
+
+## Description
+
+How can I disable a single control during an AJAX update so that users are not able to use it before the response ends? How can I set a global flag to disable a control with the AjaxManager control?
+
+## Solution 
+
+To disable a control during an AJAX update, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%}) client-side events. Then, change the `disabled` value.
+
+The following example demonstrates how to prevent the interaction with a control during an AJAX request. Implementing the code will disable any control that has already started a request until its response ends.
 
 
-
-## 
-
-This help article describes how to disable a single control during an AJAX update or how to set a global flag to disable a control, and shows examples of each.
-
-You may want to disable control during an AJAX update, so the users won't be able to use it before response end. You can easily disable a control during an AJAX update using the [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) and[OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%}) client-side events and changing the **disabled** value.
-
-**Example 1** shows this approach.
-
-Example 1: Prevent the interaction with a control during an AJAX request.
 
 ````ASPNET
 <script type="text/javascript">
@@ -50,14 +61,9 @@ Example 1: Prevent the interaction with a control during an AJAX request.
 ````
 
 
+If you need to disable AJAX until the current response finishes, no matter which control has started the first request and which is going to make a second one, you can set a global flag. 
 
-Implementing the code in **Example 1** will disable any control that has already started a request until its response ends.
-
-
-
-If you want to disable AJAX until the current response finishes, no matter which control has started the first request and which is going to make a second one, you can set a global flag as shown in **Example 2**.
-
-Example 2: Notify the user that an action is in progress.
+The following example demonstrates how to notify the user that an action is in progress.
 
 ````JavaScript
 	
@@ -80,6 +86,6 @@ var AjaxIsActive = false;
 
 ## See Also
 
- * [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
 
- * [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
+* [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%})

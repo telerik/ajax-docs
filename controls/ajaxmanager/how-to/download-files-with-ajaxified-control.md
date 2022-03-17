@@ -1,22 +1,34 @@
 ---
-title: Download Files with Ajaxified Control
-page_title: Download Files with Ajaxified Control
-description: Check our Web Forms article about Download Files with Ajaxified Control.
+title: Download Files with an Ajaxified Control When Using the AjaxManager
+page_title: Download Files with an Ajaxified Control When Using the AjaxManager
+description: "Learn how to download files with an ajaxified control with the Telerik AjaxManager control."
 slug: ajaxmanager/how-to/download-files-with-ajaxified-control
-previous_url: ajax/how-to/download-files-with-ajaxified-control
-tags: download,files,with,ajaxified,control
+previous_url: ajax/how-to/download-files-with-ajaxified-control, controls/ajaxmanager/how-to/download-files-with-ajaxified-control
+tags: telerik, asp, net, ajax, manager, download, files, with, ajaxified, control
 published: True
-position: 10
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Download Files with Ajaxified Control
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I download files with an ajaxified control with the Telerik AjaxManager?
 
-If you want to invoke download for a file from an AJAX-enabled control (either placed in **RadAjaxPanel**or ajaxified by **RadAjaxManager** ), you cannot use the normal **response.WriteFile** function.
+## Solution 
 
+The `XmlHttpRequest` does not allow you to use the normal `response.WriteFile` function for invoking the download for a file from an AJAX-enabled control, which is either placed in the `RadAjaxPanel` or ajaxified by the `RadAjaxManager`.
 
 
 ````C#
@@ -29,10 +41,7 @@ Response.WriteFile("~/Your_File")
 ````
 
 
-Why? Because the **XmlHttpRequest** cannot handle this.
-
-Instead you can use the **ResponseScripts** collection of the **RadAjax** controls to change the location header and download the file:
-
+To work around this issue, use the `ResponseScripts` collection of the Telerik AJAX controls to change the location header and to download the file. In the following example, the `ResponseScripts` collection will be executed after the Ajax request completes.
 
 
 ````C#
@@ -44,10 +53,8 @@ RadAjaxPanel1.ResponseScripts.Add(String.Format("window.location.href = ""{0}"";
 ````
 
 
-The **ResponseScripts** collection will be executed after ajax request completes.
-
 ## See Also
 
- * [Known Reasons for Error Messages]({%slug ajaxmanager/troubleshooting/known-reasons-for-error-messages%})
+* [Known Reasons for Error Messages]({%slug ajaxmanager/troubleshooting/known-reasons-for-error-messages%})
 
- * [Properties]({%slug ajaxmanager/server-side-programming/properties%})
+* [AjaxManager Server-Side Programming Properties]({%slug ajaxmanager/server-side-programming/properties%})
