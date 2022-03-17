@@ -1,22 +1,36 @@
 ---
-title: Add RadAjaxManager Programmatically
-page_title: Add RadAjaxManager Programmatically
-description: Check our Web Forms article about Add RadAjaxManager Programmatically.
+title: Add the AjaxManager Programmatically
+page_title: Add the AjaxManager Programmatically
+description: "Learn how to programmatically add the RadAjaxManager when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/add-radajaxmanager-programmatically
-previous_url: ajax/radajaxmanager/how-to/add-radajaxmanager-programmatically
-tags: add,radajaxmanager,programmatically
+previous_url: ajax/radajaxmanager/how-to/add-radajaxmanager-programmatically, controls/ajaxmanager/how-to/add-radajaxmanager-programmatically 
+tags: telerik, asp, net, ajax, manager, add, radajaxmanager, programmatically
 published: True
-position: 7
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Add RadAjaxManager Programmatically
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I programmatically create an AjaxManager control?
 
-There are some cases where you might need to create the RadAjaxManager control programmatically. This is an easy task, however note this should be done in the **Page_Init** event but later. Below is a sample code you can use:
+## Solution
 
+To achieve the desired scenario, you need to create the AjaxManager in the `Page_Init` event on a later stage. 
+
+The following example demonstrates how to define the AjaxManager control. 
 
 
 ````C#
@@ -36,10 +50,9 @@ End Sub
 ````
 
 
-Then, to access the RadAjaxManager instance you can call the **GetCurrent()** static method of the RadAjaxManager class:
+Now you need to access the `RadAjaxManager` instance by calling the `GetCurrent()` static method of the `RadAjaxManager` class. Note that if you are creating the `ScriptManager` dynamically as well, you have to add it to the `Page.Form.Controls` collection before the `RadAjaxManager` control.
 
 **Server-Side**
-
 
 
 ````C#
@@ -67,5 +80,3 @@ End Sub
 ````
 
 
-
-Additionally, note that if you are creating the ScriptManager dynamically as well, you should add it to the Page.Form.Controls collection before the RadAjaxManager control.

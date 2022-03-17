@@ -1,20 +1,38 @@
 ---
-title: Ajaxify and Update Controls in Master and Content Page
-page_title: Ajaxify and Update Controls in Master and Content Page
-description: Check our Web Forms article about Ajaxify and Update Controls in Master and Content Page.
+title: Ajaxify and Update Controls in Master and Content Page with the AjaxManager
+page_title: Ajaxify and Update Controls in Master and Content Page with the AjaxManager
+description: "Learn how to ajaxify and update controls in the master and content page with the AjaxManager."
 slug: ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
-previous_url: ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
-tags: radajax,and,masterpage
+previous_url: ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page, controls/ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
+tags: telerik, asp, net, ajax, manager, radajax, and, masterpage
 published: True
-position: 3
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Ajaxify and Update Controls in Master and Content Page
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
-With **RadAjaxManager** in your MasterPage you can enable AJAX and update every single control in your application. The example below shows how this could be achieved adding the necessary AJAX settings programmatically.
+## Description
 
-This sample application contains buttons in the the master and content page. The two buttons update controls in the master and content page as well. See the code below for details:
+How can I enable AJAX and update every single control in my application with the AjaxManager in my `MasterPage`?
+
+## Solution 
+
+The following example shows how to achieve the desired scenario by adding the necessary AJAX settings programmatically. The sample application contains buttons in the master and content page. The two buttons update controls in the master and content page as well. 
+
+>important * The initiator of the AJAX request (the first argument `AddAjaxSetting` receives) must be an `IPostBack` control. This means that the initiator must be a control that performs a postback on its own (like a button or a grid) and not a simple container (like an `<asp:Panel>` control). Containers do not invoke the request themselves and the AjaxManager cannot identify if the request comes from their children because the container ID is not present in the POST parameters.
+>* Using a container like a `Panel` for an AJAX initiator can result in various issues like initiating full postbacks instead of AJAX requests, or an unexpected list of updated controls.
+
 
 **Master Page**
 
@@ -108,6 +126,3 @@ Protected Sub btnIncrease_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub 'btnIncrease_Click
 ````
 
->important The initiator of the AJAX request (the first argument `AddAjaxSetting` receives) must be an `IPostBack` control. This means that the initiator must be a control that performs a postback on its own (like a button, or a grid) and not a simple container (like an `<asp:Panel>` control). Containers do not invoke the request themselves and RadAjaxManager cannot know the request comes from their children because the container ID is not present in the POST parameters.
->
->Using a container like a `Panel` for an AJAX initiator can result in various issues like full postbacks being initiated instead of AJAX requests, or unexpected list of updated controls.

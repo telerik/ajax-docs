@@ -1,22 +1,34 @@
 ---
-title: Ajaxify Particular Templated GridView Buttons
-page_title: Ajaxify Particular Templated GridView Buttons
-description: Check our Web Forms article about Ajaxify Particular Templated GridView Buttons.
+title: Ajaxify Particular Templated GridView Buttons with AjaxManager
+page_title: Ajaxify Particular Templated GridView Buttons with AjaxManager
+description: "Learn how to ajaxify particular templated GridView buttons with the AjaxManager."
 slug: ajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons
-previous_url: ajax/radajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons
-tags: ajaxify,particular,templated,gridview,buttons
+previous_url: ajax/radajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons, controls/ajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons
+tags: telerik, asp, net, ajax, manager, ajaxify, particular, templated, gridview, buttons
 published: True
-position: 5
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Ajaxify Particular Templated GridView Buttons
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description 
 
-## 
+How can I ajaxify specific controls, residing in the template column of the GridView control, to update other controls, for example, outside of the GridView, without a postback? 
 
-Sometimes you may want to ajaxify *particular* controls (residing in template column of GridView control) in order to update other controls (for example outside of the GridView) without postback. The most straight-forward solution is to ajaxify the whole GridView. Here is a sample code:
+## Solution 
 
+To achieve the desired scenario, ajaxify the whole GridView. 
 
 
 ````ASP.NET
@@ -39,9 +51,9 @@ Sometimes you may want to ajaxify *particular* controls (residing in template co
 
 However, you may need another column to make regular postbacks or even the rest of the actions to trigger standard postback requests.
 
-This is when the RadAjaxManager comes into place. The manager settings can be added programmatically specifying each particular control which you want to ajaxify and/or update. The essential part is to attach the appropriate event(s) in which to apply the ajax settings. For the GridView in this situation the proper place is the **Row_PreRender** event handler.
+This is when the RadAjaxManager comes into place. You can add the manager settings programmatically and specify each particular control which you want to ajaxify or update. The essential part is to attach the appropriate event or events in which to apply the Ajax settings. For the GridView in this scenario, the proper place is the `Row_PreRender` event handler.
 
-The GridView in the sample contains one template and one button column. The ImageButtons in the template column are ajaxified by the RadAjaxManager and the buttons in the ButtonField start regular postbacks. Both the image and the push buttons update text box outside of the GridView.
+The GridView in the sample contains one template and one button column. The `ImageButtons` in the template column are ajaxified by the AjaxManager and the buttons in the `ButtonField` start regular postbacks. Both the image and the push buttons update the text box outside of the GridView.
 
 
 
@@ -112,4 +124,4 @@ End Sub
 
 ## See Also
 
- * [Ajaxifying particular controls in Telerik RadGrid template column with RadAjaxManager](https://demos.telerik.com/aspnet-ajax/ajaxmanager/application-scenarios/partial-ajaxification/defaultcs.aspx)
+* [Demo: Ajaxifying Particular Controls in the Template Column of the Grid with the AjaxManager](https://demos.telerik.com/aspnet-ajax/ajaxmanager/application-scenarios/partial-ajaxification/defaultcs.aspx)

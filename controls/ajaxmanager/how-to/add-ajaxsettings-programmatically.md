@@ -1,33 +1,43 @@
 ---
-title: Add AjaxSettings Programmatically
-page_title: Add AjaxSettings Programmatically
-description: Check our Web Forms article about Add AjaxSettings Programmatically.
+title: Add AjaxSettings to the AajaxManager Programmatically
+page_title: Add AjaxSettings to the AajaxManager Programmatically
+description: "Learn how to programmatically add the AjaxSettings to the Telerik UI for ASP.NET AJAX AjaxManager."
 slug: ajaxmanager/how-to/add-ajaxsettings-programmatically
-previous_url: ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically
-tags: add,ajaxsettings,programmatically
+previous_url: ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically, controls/ajaxmanager/how-to/add-ajaxsettings-programmatically
+tags: telerik, asp, net, ajax, manager, add, ajaxsettings, programmatically
 published: True
-position: 0
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Add AjaxSettings Programmatically
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I add the `AjaxSettings` programmatically to the AjaxManager? 
 
-This help article discusses the **AjaxSettings** which represent a mapping between a control that initiates an AJAX request and a collection of controls to be updated. There are different cases where, you need to add AJAX pairs dynamically (at runtime).For example, when the controls in the setting are not directly accessible (they are children of other controls in the form) or the**RadAjaxManager** is placed on the parent page and there is no **RadAjax** control on the child page/user control. Note that the way the user creates the settings depends on its preferences and application implementation.
+## Solution  
 
-When adding **AjaxSettings** dynamically you should always do this in the **Page** event handler, which is executed each time during the page lifecycle (**Page_Load**, **Page_PreRender**) so that the control could be ajaxified when the page is initially loaded. **Example 1** shows how to AJAX-enable a Button control in a page **Page_Load** event.
+The `AjaxSettings` represent the mapping between a control that initiates an AJAX request and a collection of controls that will be updated. 
 
->note Note that you need to assure that the controls that take part in the AJAX pair are available on the page!
->
+In some cases, you need to add AJAX pairs dynamically, at runtime. For example, when the controls in the setting are not directly accessible, that is, when they are children of other controls in the form, or when  the `RadAjaxManager` is placed on the parent page and the child page or user control does not contain a `RadAjax` control. Note that the way users create the settings depends on their preferences and the application implementation.
 
+When you add the `AjaxSettings` dynamically, you need to always do this in the `Page` event handler. It is executed each time during the page lifecycle (on `Page_Load` and `Page_PreRender`) so that the control can be ajaxified when the page is initially loaded. 
 
->note You cannot add **AjaxSettings** dynamically in the **Page_Init** event. It is too early in the page lifecycle since the **RadAjaxManager** is not created yet.
->
+> * Make sure that the controls in the AJAX pair are available on the page.
+> * You cannot add the `AjaxSettings` dynamically in the `Page_Init` event at this stage of the page lifecycle because the `RadAjaxManager` is not created yet.
 
-
-The example below demonstrates how to AJAX-enable a Button control dynamically to toggle the visibility of an image. The markup and code show how to use **AjaxSettings** to add AJAX to a button control in the **Page_Load** event to display an image (the Telerik logo).
+The following example demonstrates how to AJAX-enable a Button control dynamically to toggle the visibility of an image. The markup and code show how to use `AjaxSettings` to add AJAX to the Button in the `Page_Load` event to display the image of the Telerik logo.
 
 ````ASP.NET
  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -38,10 +48,7 @@ The example below demonstrates how to AJAX-enable a Button control dynamically t
 </asp:Panel>
 ````
 
-
-
-And in the code-behind:
-
+The following example shows the code-behind.
 
 
 ````C#
@@ -82,4 +89,4 @@ And in the code-behind:
 
 ## See Also
 
- * [Update in Composite Control]({%slug ajaxmanager/how-to/update-in-composite-control%})
+* [Update in Composite Control]({%slug ajaxmanager/how-to/update-in-composite-control%})
