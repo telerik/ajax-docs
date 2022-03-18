@@ -8,12 +8,12 @@ res_type: kb
 ---
 
 
-## PROBLEM  
+## Problem  
 Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.  
   
 ![Web.config Registration Missing error](images/editor_webconfig_registration_missing.png)  
   
-## DESCRIPTION
+## Description
 To enable the RadEditor dialog to work, you need to register their HttpHandler in the web.config file as shown in the [Mandatory Additions to the web.config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig) article:
 
 ````XML
@@ -42,7 +42,7 @@ The use of an HttpHandler could lead to one of the following errors:
 * [The last resort solution](#the-last-resort-solution)
 
 
-## SOLUTIONS
+## Solutions
 
 ### The dialog handler is not registered in the web config
 
@@ -172,7 +172,9 @@ In case there are more than one web.config files in the web app/site/project mak
  
 ### The last resort solution
 
-This is the solution we recommend not only for MOSS, SharePoint and MVC environments, but also when the solutions above do not help: 
+In friendly URLs, URL rewriting or routing scenarios, in SharePoint and MVC environments, it is a pretty common problem to face issues with modified and incorrect paths to the handlers that end with the aspx extension.
+
+So instead of modifying your URL rewriter, routing or other URL modification-related code, the last resort solution allows you to configure the RadEditor control to look for a handler with a different extension that will be not touched by the URL modification code. In the example below, the aspx extension is changed to axd, but you can change the extension to whatever string that works for your app.
 
 Open the web.config file and replace Telerik.Web.UI.DialogHandler.aspx with Telerik.Web.UI.DialogHandler.axd
  
@@ -197,11 +199,20 @@ Set the RadEditor's DialogHandlerUrl property to "~/Telerik.Web.UI.DialogHandler
 <telerik:RadEditor ID="RadEditor1" DialogHandlerUrl="~/Telerik.Web.UI.DialogHandler.axd" runat="server"></telerik:RadEditor>
 ````
 
-## See Also
+## Additional Resources
+
 In this section, you will find solutions for other problems that you may experience with RadEditor dialogs:
 * [Problems with Registering the HttpHandlers in a Web Site that Uses Authentication](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/problems-with-registering-the-httphandlers-in-a-web-site-that-uses-authentication)
 * [Broken File Browser Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/broken-file-browser-dialogs) and [Appearance Problems](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/skins-troubleshooting#incorrect-or-distorted-appearance)
 * [Blank Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/blank-dialogs-problem) and [Long Url Length Problems](https://www.telerik.com/forums/radeditor-dialog-window-errors)
 * [500 server error with Microsoft OWIN and Telerik controls during a callback](https://www.telerik.com/support/kb/aspnet-ajax/window/details/500-server-error-with-microsoft-owin-and-radwindowmanager-during-a-callback)
 
- 
+# See Also
+
+* [Problems with Registering the HttpHandlers in a Web Site that Uses Authentication](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/problems-with-registering-the-httphandlers-in-a-web-site-that-uses-authentication)
+* [Broken File Browser Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/broken-file-browser-dialogs)
+* [Appearance Problems](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/skins-troubleshooting#incorrect-or-distorted-appearance)
+* [Blank Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/blank-dialogs-problem)
+* [Long Url Length Problems](https://www.telerik.com/forums/radeditor-dialog-window-errors)
+* [500 server error with Microsoft OWIN and Telerik controls during a callback](https://www.telerik.com/support/kb/aspnet-ajax/window/details/500-server-error-with-microsoft-owin-and-radwindowmanager-during-a-callback)
+
