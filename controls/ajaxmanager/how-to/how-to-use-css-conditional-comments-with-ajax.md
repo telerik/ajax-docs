@@ -1,41 +1,56 @@
 ---
-title: How to Use Css Conditional Comments with Ajax
-page_title: How to Use Css Conditional Comments with Ajax
-description: Check our Web Forms article about How to Use Css Conditional Comments with Ajax.
+title: Use Conditional CSS Comments with Ajax
+page_title: Use Conditional CSS Comments with Ajax
+description: "Learn how to use conditional CSS comments with Ajax."
 slug: ajaxmanager/how-to/how-to-use-css-conditional-comments-with-ajax
-previous_url: ajax/how-to/how-to-use-css-conditional-comments-with-ajax
-tags: how,to,use,css,conditional,comments,with,ajax
+previous_url: ajax/how-to/how-to-use-css-conditional-comments-with-ajax, controls/ajaxmanager/how-to/how-to-use-css-conditional-comments-with-ajax
+tags: telerik, asp, net, ajax, manager, how, to, use, conditional, css
 published: True
-position: 9
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# How to Use CSS Conditional Comments with Ajax
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I use conditional CSS comments with Telerik UI for ASP.NET AJAX? 
 
-With the release of Internet Explorer 7 (IE 7),developers should create separate style sheets for different browsers, at least for a moderately complex visual design or layout. Note that in Internet Explorer 10 and later versions conditional comments are obsolete.One of the approaches is to use conditional comments. The advantages of that are:
+## Solution
 
-* Only browsers that need (or take advantage) of the style sheets will download them.
+> In Internet Explorer version 10 and later conditional comments are obsolete.
 
-* The base style sheets (should) be completely standards based, serving as the foundation.
+With the release of Internet Explorer 7 (IE 7), more complex visual designs or layouts require developers to create separate stylesheets for different browsers. 
 
-* No validation issues for browser-specific code such as IE’s expressions, or untested CSS 3 rules, as the code will be executed only if browsers supporting it
+To create such stylesheets, you can use conditional comments with the following advantages:
 
-This article explains how to take advantage of the CSS conditional comments and still be able to use RadAjax controls.
+* Only browsers that need or use the stylesheets will download them.
 
-The **RadAjaxManager** looks for link or style tags and adds them to the page on AJAX request. It skips the conditional comments and therefore all styles are loaded after AJAX request, no matter which browser or version it is. Unfortunately, we have not found a feasible way to check for those and we cannot easily fix this problem. However, there are two workarounds that, depending on the scenario,may work for you:
+* The base stylesheets are completely standards based, serving as the foundation.
 
-* Set the **EnablePageHeadUpdate** property of the AJAXcontrol to **false** - this way it will not update the Head tag. However, if you load controls dynamically with AJAX, their stylesheets will not be applied. This is fixable as well - you just need to manually add the style sheet declarations for the controls on the page.
+* No validation issues, such as IE expressions or untested CSS 3 rules, for browser-specific code occur as the code will be executed only if browsers supporting it
 
-* Move the conditional comments out of the Head tag. This way they will not be updated by the **RadAjaxManager** but will still be applied depending on the browser used. This workaround is even valid xhtml1.1 as the HTML comments are skipped by theHTML validator:
+The AjaxManager looks for link or style tags and adds them to the page on AJAX request. It skips the conditional comments and, therefore, all styles are loaded after an AJAX request, no matter which browser or version it is. To work around this issue and depending on your scenario, use either of the following approaches:
 
-````ASP.NET
+* Set the `EnablePageHeadUpdate` property of the control to `false`. As a result, it will not update the `Head` tag. However, if you load controls dynamically with AJAX, their stylesheets will not be applied. To fix this issue, manually add the stylesheet declarations for the controls on the page.
+
+* Move the conditional comments out of the `Head` tag. As a result, they will not be updated by the AjaxManager but will still be applied depending on the used browser. This workaround is also valid for XHTML 1.1 as the HTML comments are skipped by the HTML validator:
+
+    ````ASP.NET
 <body>
 	<!--[if lte IE 6]>     <link rel="stylesheet" type="text/css" href="ie6.css" />    <![endif]-->
 <form id="form1" runat="server">
-````
+    ````
 
 
 

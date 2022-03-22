@@ -1,63 +1,76 @@
 ---
 title: Load User Controls
 page_title: Load User Controls
-description: Check our Web Forms article about Load User Controls.
+description: "Learn how to load user controls with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/load-user-controls
-previous_url: ajax/how-to/load-user-controls
-tags: load,user,controls
+previous_url: ajax/how-to/load-user-controls, controls/ajaxmanager/how-to/load-user-controls
+tags: telerik, asp, net, ajax, manager, how, to, load, user, controls
 published: True
-position: 2
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Load User Controls
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
+
+## Description
+
+How can I load user controls with Telerik UI for ASP.NET AJAX? 
+
+## Solution
+
+The dynamic loading of user controls follows the same logic as in normal postback applications. You can load `customUserControls` with AJAX requests in the demonstrated way below. For an online demo, refer to the [Loading User Controls](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx) page.
+
+1. Provide an appropriate container for the control, for example, `asp:Panel`.
+
+1. Instantiate your user control in the `Page_Init` or `Page_Load` event and always re-create the last loaded user control.
 
 
 
-## 
-
-The dynamic loading of user controls follows the same logic as in normal postback applications. You can load customUserControls via AJAX requests by following the steps below:
-
-1. You need to have an appropriate container for it, for example asp:Panel.
-
-1. Instantiate your user control in **Page_Init** or **Page_Load** and always recreate the last loaded User Control:
-
-
-
-````C#
+    ````C#
 UserControl MyControl = (UserControl)LoadControl(controlName);
 LoadMyUserControl(CurrentControl, Panel1);
-````
-````VB
+    ````
+    ````VB
 Dim MyControl As UserControl = Me.LoadControl(controlName)
 Me.LoadMyUserControl(Me.CurrentControl, Panel1)
-````
+    ````
 
 
-1. Make sure you assign a unique ID to the dynamically loaded User Control:
+1. Assign a unique ID to the dynamically loaded user control.
 
 
 
-````C#
+    ````C#
 string userControlID = controlName.Split('.')[0];
 MyControl.ID = userControlID.Replace("/", "").Replace("~", "");
-````
-````VB
+    ````
+    ````VB
 Dim userControlID As String = controlName.Split(".")(0)
 MyControl.ID = userControlID.Replace("/", "").Replace("~", "")
 	
-````
+    ````
 
 
 1. Place the instance inside the controls collection of the container:
 
-````VB
+    ````VB
 Parent.Controls.Add(MyControl)
 	
-````
+    ````
 
 
 
-**Example** : The following example demonstrates how to implement the above steps in simple scenario.
+The following example demonstrates how to implement the previous steps in a simple scenario.
 
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -84,7 +97,7 @@ Parent.Controls.Add(MyControl)
 
 
 
-And in the code-behind:
+The following is the implementation in the code-behind:
 
 
 
@@ -164,9 +177,7 @@ End Sub
 ````
 
 
-An online demo for loading User Controls is available at the following link:
 
-[https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/LoadingUserControls/DefaultCS.aspx)
 
 ## See Also
 

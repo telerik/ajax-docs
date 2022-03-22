@@ -1,22 +1,36 @@
 ---
-title: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
-page_title: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
-description: Check our Web Forms article about Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another.
+title: Initiate Requests from One ContentPlaceHolder and Load or Update Controls in Another
+page_title: Initiate Requests from One ContentPlaceHolder and Load or Update Controls in Another
+description: "Learn how to initiate requests from one ContentPlaceHolder and load or update controls in anther with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/initiating-requests-from-contentplaceholder
-previous_url: ajax/radajaxmanager/how-to/initiating-requests-from-contentplaceholder
-tags: radajax,and,masterpage
+previous_url: ajax/radajaxmanager/how-to/initiating-requests-from-contentplaceholder, controls/ajaxmanager/how-to/initiating-requests-from-contentplaceholder
+tags: telerik, asp, net, ajax, manager, how, to, initiate, requests, from, one, contentplaceholder, and, load, update, controls, in, another
 published: True
-position: 4
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
-**RadAjaxManager** could handle all the **MasterPage** and **WebUserControls** scenarios no matter the complexity of the application. To prove this, we show you how it can handle a scenario, where loading of WebUserControls is done in contents of MasterPage by RadAjaxManager.
+## Description
 
-An important point to notice in the following implementation, is the event bubbling approach. We use it because we load dynamically a user control from an action in another loaded user control. So the button click event is bubbled from the user control to the content page, where the first user control is loaded on each page load. Then we determine whether to perform loading of the second user control depending on the command from the button's bubbled event.
+How can I initiate requests from one `ContentPlaceHolder` and load or update controls in anther with Telerik UI for ASP.NET AJAX? 
 
-Here is the full working code containing a MasterPage, content page and two simple WebUserControls:
+## Solution
+
+The AjaxManager can handle all `MasterPage` and `WebUserControls` scenarios regardless of the complexity of the application. 
+
+The following example demonstrates how to load the `WebUserControls` in the contents of the `MasterPage` by the AjaxManager. Note the event bubbling approach which the demo uses because of the dynamic loading of a user control from an action in another loaded user control. The button `click` event is bubbled from the user control to the content page where the first user control is loaded on each page load. Then, the demo determines whether to perform loading of the second user control depending on the command from the bubbled event of the button.
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" />
@@ -26,16 +40,16 @@ Here is the full working code containing a MasterPage, content page and two simp
 </asp:Panel>
 ````
 
-This _MasterPage_ has nothing in its code-behind.
+This `MasterPage` doesn't contain anything in its code-behind.
 
-Standard content page **ASPX**:
+A standard content ASPX page:
 
 ````ASP.NET
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server" />
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server" />
 ````
 
-The key **content page code-behind**:
+The key content page code-behind:
 
 ````C#
 private Control Content(string id)
@@ -143,9 +157,8 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 End Sub
 ````
 
-And the second _WebUserControl_, which is loaded when the button _"Load"_ in the first _WebUserControl_ is clicked:
+The second `WebUserControl` page is loaded when the **Load** button in the first `WebUserControl` is clicked. It shows some text in the ASPX and has nothing in its code-behind.
 
-It just shows some text in the ASPX and has nothing in its code-behind.
 ````ASP.NET
 UserControl2
 ````
