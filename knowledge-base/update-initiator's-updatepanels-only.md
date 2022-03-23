@@ -1,23 +1,36 @@
 ---
-title: Update Initiator's UpdatePanels only
-page_title: Update Initiator's UpdatePanels only
-description: Check our Web Forms article about Update Initiator's UpdatePanels only.
+title: Update the UpdatePanels of the Initiator Only
+page_title: Update the UpdatePanels of the Initiator Only
+description: "Learn how to update the UpdatePanels of the initiator only in Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/update-initiator's-updatepanels-only
-previous_url: ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only
-tags: update,initiator's,updatepanels,only
+previous_url: ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only, controls/ajaxmanager/how-to/update-initiator's-updatepanels-only
+tags: telerik, asp, net, ajax, manager, how, to, update, updatepanels, of, initiator, only
 published: True
-position: 8
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Update Initiator's UpdatePanels only
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-In the current implementation of RadAjaxManager in case two asp Panels for example are added as updated controls to two different initiators the both asp Panels will be updated on any Ajax request no matter of the initiator.
+How can I load user controls with Telerik UI for ASP.NET AJAX? 
 
-## 
+## Solution
 
-In the example below no matter that there is no setting in which the first panel updates the second one, on Button1 click event the Label2 nested in the second asp Panel will also be updated:
+In the current implementation of the AjaxManager, if two ASP Panels are added as updated controls to two different initiators, for example, both ASP Panels will be updated on any Ajax request no matter of the initiator.
+
+The example below demonstrates that even though no settings define that the first panel has to update the second one, the `Label2` that is nested in the second ASP Panel will also be updated on the Button1 `click` event:
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" DefaultLoadingPanelID="RadAjaxLoadingPanel1"
@@ -78,9 +91,8 @@ End Class
 ````
 
 
-## 
 
-Since **Q2 2012 SP2** release a new property **UpdateInitiatorPanelsOnly** is added to the RadAjaxManager. By setting its value to “true” (its default value is “false”) only the containers added as UpdatedControls for a specific initiator will be conditionally updated.
+Since the Q2 2012 SP2 release, the AjaxManager provides a new `UpdateInitiatorPanelsOnly` property which is set to `false` by default. By setting its value to `true`, only the containers added as `UpdatedControls` for a specific initiator will be conditionally updated. By using the markup in the example, only `Label1` will be conditionally updated.
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" UpdateInitiatorPanelsOnly="true" DefaultLoadingPanelID="RadAjaxLoadingPanel1"
@@ -117,4 +129,4 @@ Since **Q2 2012 SP2** release a new property **UpdateInitiatorPanelsOnly** is ad
 
 
 
-By using the markup above only Label1 will be conditionally updated.
+

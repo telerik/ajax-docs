@@ -1,23 +1,37 @@
 ---
 title: Update in Composite Control
 page_title: Update in Composite Control
-description: Check our Web Forms article about Update in Composite Control.
+description: "Learn how to make updates in a composite control with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/how-to/update-in-composite-control
-previous_url: ajax/radajaxmanager/how-to/update-in-composite-control
-tags: update,in,composite,control
+previous_url: ajax/radajaxmanager/how-to/update-in-composite-control, controls/ajaxmanager/how-to/update-in-composite-control
+tags: telerik, asp, net, ajax, manager, how, to, update, in, composite, control
 published: True
-position: 6
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Update in Composite Control
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
+
+## Description
+
+How can I use AjaxManager updates controls from a composite control with Telerik UI for ASP.NET AJAX? 
+
+## Solution
 
 
+To use AjaxManager updates controls from a composite control, set IDs of the instantiated controls and add them to the controls collection. You can add a necessary AJAX setting in the `CreateChildControls` method only after the controls are added into the corresponding controls collection.
 
-## 
-
-This topic demonstrates a possible scenario of RadAjaxManager updates controls from a composite control. It is important to set IDs of instantiated controls as well as adding them into controls collection. A necessary AJAX setting could be added at CreateChildControls method, however this must be done **after** controls are added into corresponding controls collection.
-
-The example below includes a single RadAjaxManager control on the page. Here is the code-behind:
+The example below includes a single AjaxManager control on the page and shows the code-behind:
 
 
 
@@ -58,7 +72,7 @@ End Sub
 ````
 
 
-And the composite control class:
+The following example demonstrates how to set the composite control class.
 
 
 
@@ -194,4 +208,4 @@ End Class
 
 ## See Also
 
- * [Manually Add an AJAX Request]({%slug ajaxmanager/how-to/manually-add-an-ajax-request%})
+* [Manually Add an AJAX Request]({%slug ajaxmanager/how-to/manually-add-an-ajax-request%})

@@ -1,39 +1,41 @@
 #known-errors
 
-This help article describes common reasons for error messages and their solutions.
+This article lists the common error messages which may occur when working with Telerik UI for ASP.NET AJAX, and their causes and solutions.
 
-* **`SyntaxError`** (for IE) or **`Uncaught SyntaxError: Failed to execute 'insertRule' on 'CSSStyleSheet': Failed to parse the rule'`** (for Chrome), or **`SyntaxError: An invalid or illegal string was specified`** (for FireFox).
+* The `SyntaxError` in Internet Explorer, `Uncaught SyntaxError: Failed to execute 'insertRule' on 'CSSStyleSheet': Failed to parse the rule'` in Chrome, or `SyntaxError: An invalid or illegal string was specified` in FireFox occur.
 
-	This error is caused by having commented CSS rules (e.g., `/* .someClass { display: none; } */`) in the `<head>` of your page.
+	The cause for this error is the commented CSS rules in the `<head>` of your page, for example, `/* .someClass { display: none; } */`.
 
-	RadAjax controls update the `<head>` of the page to let controls register stylesheets and scripts during an AJAX request and such commented rules cannot be parsed by the engine.
+	The AjaxManager and Ajaxpanel update the `<head>` of the page to enable controls to register stylesheets and scripts during an AJAX request. Such commented rules cannot be parsed by the engine.
 
-	There are three solutions:
+	To solve this issue, use any of the following approaches:
 
-	* Set the `EnablePageHeadUpdate` property of the RadAjax control to `false`.
+	* Set the `EnablePageHeadUpdate` property of the Ajax control to `false`.
 
 	* Remove the commented CSS rule or move it to a separate stylesheet file.
 
-	* Place the styles settings in external css files.
+	* Place the styles settings in external CSS files.
 
 
-* **Receiving `Sys.WebForms.PageRequestManagerParserErrorException`.** You may receive this error if you have used **RadAjaxPanel** and **RadAjaxManager** to AJAX-enable the same control at the same time. You can read more about the problem in the [Controls Wrapped in AjaxPanel and Added to AjaxManager Settings]({%slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}) help article.
+* `Sys.WebForms.PageRequestManagerParserErrorException` occurs.
+
+	A possible cause for this error is the usage of the AjaxPanel and AjaxManager to AJAX-enable the same control at the same time. For more information on the issue, refer to the article on [using controls wrapped in an AjaxPanel and added to the AjaxManager settings]({%slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}).
 
 
-* **The state information is invalid for this page and might be corrupted.** Firefox 1.5 and up uses in-memory caching for entire web pages, including their JavaScript states, for a single browser session. Going backward and forward between visited pages requires no page loading and the JavaScript states are preserved. This feature, referred to by some as bfcache (for "Back-Forward Cache"), makes page navigation very fast. This caching state is preserved until the user closes the browser.Please refer to the [Ajax, ViewState and Firefox]({%slug ajaxpanel/troubleshooting/firefox-specifics%}) help article for more information and a workaround.
+* `The state information is invalid for this page and might be corrupted` error occurs. 
 
-* Dialog with the following error: **`Unexpected AJAX response was received from the server`**. This may be caused by one of the following reasons:
+	Firefox version 1.5 and later use in-memory caching for entire web pages, including their JavaScript states, for a single browser session. Going backward and forward between visited pages requires no page loading and the JavaScript states are preserved. This feature, referred to by some as bfcache (for "Back-Forward Cache"), makes page navigation very fast. The caching state is preserved until the user closes the browser. For more information and a workaround, refer to the article on [using Ajax, ViewState, and Firefox]({%slug ajaxpanel/troubleshooting/firefox-specifics%}).
 
-	* `Server.Transfer()`.
-	* Custom HTTP handler.
-	* Incorrect loading of an AJAX-enabled user control.
+* `Unexpected AJAX response was received from the server` error occurs in a dialog. 
 
-	**Verify that you don't get a server-side exception or any other undesired behavior, by setting the `EnableAJAX` property to `false`**.
+	The possible causes for this issue may be any of the following:
 
-	Most often people see this error when using the `Server.Transfer` method. Note that some controls may use this method internally (like the `asp:LoginView` control). In order to redirect to another page in an AJAX-enabled application, you should use the approaches mentioned in the [Redirecting to another page] ({%slug ajaxpanel/how-to/redirecting-to-another-page%}) help article. In most cases, `Response.Redirect` does the trick. You can also try using the `Redirect` method of the `RadAjax` control you use.
+	* Using `Server.Transfer()`&mdash;Some controls may use this method internally, for example, the `asp:LoginView` control. To redirect to another page in an AJAX-enabled application, use the approaches from the article on [redirecting to another page]({%slug ajaxpanel/how-to/redirecting-to-another-page%}). To solve this issue, utilize `Response.Redirect`. You can also try using the `Redirect` method of the Ajax control you use.
 
-	Another reason you might see this error is because the application improperly loads user controls. The [Loading user controls]({%slug ajaxpanel/how-to/load-user-controls%}) help topic will help you fix the error in your code.
+	* Using a custom HTTP handler
+	
+	* Incorrect loading of an AJAX-enabled user control. To solve the issue, refer to the article on [loading user controls]({%slug ajaxpanel/how-to/load-user-controls%}).
 
-	Additionally, if the suggestions above do not help, you could disable AJAX as suggested in the error message. This will help you verify whether the error is related to using AJAX and if it is not, to fix any server-side errors if any are thrown.
+	If the suggested solutions do not fix the issue, disable AJAX as suggested in the error message. Verify that you don't get a server-side exception or any other undesired behavior by setting the `EnableAJAX` property to `false`. This approach will help you verify whether the error is related to using AJAX and, if not, to fix any server-side errors if any are thrown.
 
 #end
