@@ -3,7 +3,7 @@ title: Optimizing Performance Using RadAjaxManager
 page_title: Optimizing Performance Using RadAjaxManager
 description: Check our Web Forms article about Optimizing Performance Using RadAjaxManager.
 slug: ajaxmanager/performance/optimizing-performance-using-radajaxmanager
-previous_url: ajax/performance/optimizing-performance-using-radajaxmanager
+previous_url: ajax/performance/optimizing-performance-using-radajaxmanager, controls/ajaxmanager/performance/optimizing-performance-using-radajaxmanager
 tags: optimizing,performance,using,radajaxmanager
 published: True
 position: 0

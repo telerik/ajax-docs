@@ -1,30 +1,25 @@
 ---
 title: Overview
-page_title: RadAjaxManager Overview
-description: Check our Web Forms article about Overview.
+page_title: AjaxManager Overview 
+description: 
 slug: ajaxmanager/overview
 previous_url: ajax/radajaxmanager/overview
-tags: overview
+tags: telerik, aspnet, ajax, ajaxmanager, overview
 published: True
 position: 0
 ---
 
-# RadAjaxManager Overview
+# AjaxManager Overview
 
 
+The AjaxManager enables you to rapidly configure practical and complex AJAX solutions in your project.
 
-AJAX is one of the main techniques of Web Programming which allows you to add a nice finishing touch to your application - by improving the performance drastically and make the server-side operations to have a similar responsiveness just as client-side functions. 
-
-And here comes the role of the **RadAjaxManager** component - it powers developers to rapidly configure practical and complex AJAX solutions in their project.
+The following image shows an AjaxManager in action with applied Grid paging and an AjaxLoadingPanel for visual indication.
 
 ![RadAjaxManager in Action](images/AJAXinAction.gif)
 
-**Figure 1** - RadAjaxManager in Action with RadGrid paging - together with RadAjaxLoadingPanel for visual indication
-
 
 ## Main Features
-
-The main features of **RadAjaxManager** are:
 
 * **Availibility** - You can AJAX-enable all controls that normally work with postbacks. 
 

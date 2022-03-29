@@ -1,13 +1,16 @@
 ---
-title: What is AJAX
-page_title: What is AJAX
-description: Check our Web Forms article about What is AJAX.
+title: On AJAX and Telerik AJAX
+page_title: 
+description: ""
 slug: ajaxmanager/getting-started/what-is-ajax
-previous_url: ajax/getting-started/what-is-ajax
-tags: radajax, ajax
+previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax
+tags: telerik, asp, net, ajax, about, what, is, ajax
 published: True
-position: 0
+position: 
 ---
+
+
+AJAX is one of the main techniques of Web Programming which allows you to add a nice finishing touch to your application - by improving the performance drastically and make the server-side operations to have a similar responsiveness just as client-side functions. 
 
 # What is AJAX
 

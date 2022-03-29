@@ -3,7 +3,7 @@ title: Overview
 page_title: RadAjaxManagerProxy Overview
 description: Check our Web Forms article about Overview.
 slug: ajaxmanager/radajaxmanagerproxy/overview
-previous_url: ajax/radajaxmanagerproxy/overview
+previous_url: ajax/radajaxmanagerproxy/overview, controls/ajaxmanager/radajaxmanagerproxy/overview
 tags: overview
 published: True
 position: 0
