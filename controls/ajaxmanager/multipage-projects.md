@@ -1,17 +1,15 @@
 ---
-title: Overview
-page_title: RadAjaxManagerProxy Overview
-description: Check our Web Forms article about Overview.
+title: Ajaxifying Multi-Page Projects
+page_title: Ajaxifying Multi-Page Projects with the AjaxManagerProxy
+description: 
 slug: ajaxmanager/radajaxmanagerproxy/overview
 previous_url: ajax/radajaxmanagerproxy/overview, controls/ajaxmanager/radajaxmanagerproxy/overview
-tags: overview
+tags: telerik, aspnet, ajax, ajaxmanager, ajaxify, multipage, projects
 published: True
 position: 0
 ---
 
-# RadAjaxManagerProxy Overview
-
-
+# Ajaxifying Multi-Page Projects with the AjaxManagerProxy
 
 This help article describes how to work with **RadAjaxManagerProxy** controls and provides an example.
 

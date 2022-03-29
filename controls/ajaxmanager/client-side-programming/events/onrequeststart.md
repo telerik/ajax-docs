@@ -1,10 +1,10 @@
 ---
 title: OnRequestStart
-page_title: OnRequestStart
-description: Check our Web Forms article about OnRequestStart.
+page_title: Ajax Manager OnRequestStart
+description: 
 slug: ajaxmanager/client-side-programming/events/onrequeststart
 previous_url: ajax/client-side-programming/events/onrequeststart
-tags: onrequeststart
+tags: telerik, aspnet, ajax, ajaxmanager, onrequeststart, event, clientside, programming, api
 published: True
 position: 1
 ---

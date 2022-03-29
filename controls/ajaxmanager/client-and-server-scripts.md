@@ -1,15 +1,15 @@
 ---
-title: RadCodeBlock and RadScriptBlock
-page_title: RadCodeBlock and RadScriptBlock
-description: Check our Web Forms article about RadCodeBlock and RadScriptBlock.
+title: Using Server and Client Scrips Together 
+page_title: Using Server and Client Scrips Together with the AjaxManager
+description: 
 slug: ajaxmanager/radcodeblock-and-radscriptblock
-previous_url: ajax/radcodeblock-and-radscriptblock
-tags: radcodeblock,and,radscriptblock
+previous_url: ajax/radcodeblock-and-radscriptblock, controls/ajaxmanager/radcodeblock-and-radscriptblock
+tags: telerik, aspnet, ajax, ajaxmanager, using, client, server, scripts, together, radcodeblock, radscriptblock
 published: True
 position: 9
 ---
 
-# RadCodeBlock and RadScriptBlock
+# Enabling Server and Client Scrips
 
 This article describes how **RadCodeBlock** and **RadScriptBlock** work. We also provide a few simple examples that demonstrate how to use them.
 

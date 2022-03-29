@@ -1,10 +1,10 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support
-description: Check our Web Forms article about WAI-ARIA Support.
+page_title: AjaxManager WAI-ARIA Support
+description: 
 slug: ajaxmanager/accessibility-and-internationalization/wai-aria-support
 previous_url: controls/ajaxmanager/accessibility-and-internationalization/wai-aria-support
-tags: wai-aria,support
+tags: telerik, aspnet, ajax, ajaxmanager, waiaria, support, accessibility
 published: True
 position: 0
 ---

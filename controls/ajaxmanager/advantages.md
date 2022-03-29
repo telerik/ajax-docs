@@ -1,19 +1,19 @@
 ---
-title: RadAjaxManager Advantages
-page_title: RadAjaxManager Advantages
+title: Advantages
+page_title: AjaxManager Advantages
 description: Check our Web Forms article about RadAjaxManager Advantages.
 slug: ajaxmanager/getting-started/radajax-advantages
 previous_url: ajax/getting-started/radajax-advantages
-tags: radajaxmanager,advantages
+tags: telerik, aspnet, ajax, ajaxmanager, advantages
 published: True
 position: 1
 ---
 
-# RadAjaxManager Advantages
+# AjaxManager Advantages
 
 
 
-This help article described how you can enable AJAX on a page using **RadAjaxManager**, what are its benefits and how it can be configured.
+This help article described how you can enable AJAX on a page using AjaxManager, what are its benefits and how it can be configured.
 
 The greatest advantage of the **RadAjaxManager** control is that you don't need to make any changes to your existing applications or build new ones in some specific way so that they can be AJAX-enabled. **RadAjaxManager** for ASP.NET AJAX uses the Microsoft ASP.NET AJAX engine to ajax-ify applications, however eliminates the need of using numerous UpdatePanels, triggers, etc.
 

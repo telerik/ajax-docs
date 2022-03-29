@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-page_title: Frequently Asked Questions
+page_title: AjaxManager Frequently Asked Questions
 description: "Find the answers of the most frequently asked questions when working with the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/how-to/frequently-asked-questions
 previous_url: ajax/how-to/frequently-asked-questions, controls/ajaxmanager/how-to/frequently-asked-questions

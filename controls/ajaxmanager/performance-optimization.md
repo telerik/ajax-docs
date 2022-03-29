@@ -1,17 +1,15 @@
 ---
-title: Optimizing Performance Using RadAjaxManager
-page_title: Optimizing Performance Using RadAjaxManager
-description: Check our Web Forms article about Optimizing Performance Using RadAjaxManager.
+title: Performance Optimization 
+page_title: AjaxManager Performance Optimization 
+description: 
 slug: ajaxmanager/performance/optimizing-performance-using-radajaxmanager
 previous_url: ajax/performance/optimizing-performance-using-radajaxmanager, controls/ajaxmanager/performance/optimizing-performance-using-radajaxmanager
-tags: optimizing,performance,using,radajaxmanager
+tags: telerik, aspnet, ajax, ajaxmanager, optimizing, the, performance
 published: True
 position: 0
 ---
 
-# Optimizing Performance Using RadAjaxManager
-
-
+# Performance Optimization
 
 This help article offers a few performance tips with code examples on pages where you have used **RadAjaxManager** to AJAX-enable many controls.
 

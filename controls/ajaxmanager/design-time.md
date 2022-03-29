@@ -1,9 +1,9 @@
 ---
 title: Design Time
-page_title: Design Time
-description: Check our Web Forms article about Design Time.
+page_title: AjaxManager Design Time
+description: 
 slug: ajaxmanager/design-time
-tags: design,time
+tags: telerik, aspnet, ajax, ajaxmanager, design, time, smart, tag
 published: True
 position: 3
 ---

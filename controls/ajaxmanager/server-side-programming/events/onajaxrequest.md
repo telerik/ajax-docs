@@ -1,10 +1,10 @@
 ---
 title: OnAjaxRequest
-page_title: OnAjaxRequest
-description: Check our Web Forms article about OnAjaxRequest.
+page_title: AjaxManager OnAjaxRequest
+description: 
 slug: ajaxmanager/server-side-programming/events/onajaxrequest
 previous_url: ajax/server-side-programming/events/onajaxrequest
-tags: onajaxrequest
+tags: telerik, aspnet, ajax, ajaxmanager, onajaxrequest, event, serverside, programming
 published: True
 position: 0
 ---

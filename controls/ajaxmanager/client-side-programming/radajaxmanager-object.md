@@ -1,10 +1,10 @@
 ---
 title: RadAjaxManager Object
 page_title: RadAjaxManager Object
-description: Check our Web Forms article about RadAjaxManager Object.
+description: 
 slug: ajaxmanager/client-side-programming/radajaxmanager-object
 previous_url: ajax/client-side-programming/radajaxmanager-object
-tags: radajaxmanager,object
+tags: telerik, aspnet, ajax, ajaxmanager, radajaxmanager, object
 published: True
 position: 1
 ---

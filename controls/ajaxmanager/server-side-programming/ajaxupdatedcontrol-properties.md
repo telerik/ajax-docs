@@ -1,10 +1,10 @@
 ---
 title: AjaxUpdatedControl Properties
 page_title: AjaxUpdatedControl Properties
-description: Check our Web Forms article about AjaxUpdatedControl Properties.
+description: 
 slug: ajaxmanager/server-side-programming/ajaxupdatedcontrol-properties
 previous_url: ajax/server-side-programming/ajaxupdatedcontrol-properties
-tags: ajaxupdatedcontrol,properties
+tags: telerik, aspnet, ajax, ajaxmanager, ajaxupdatedcontrol, properties
 published: True
 position: 2
 ---

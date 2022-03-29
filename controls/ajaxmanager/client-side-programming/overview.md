@@ -1,10 +1,10 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview
-description: Check our Web Forms article about Overview.
+page_title: AjaxManager Client-Side Programming Overview
+description: 
 slug: ajaxmanager/client-side-programming/overview
 previous_url: ajax/client-side-programming/overview
-tags: overview
+tags: telerik, aspnet, ajax, ajaxmanager, clientside, programming, overview
 published: True
 position: 0
 ---

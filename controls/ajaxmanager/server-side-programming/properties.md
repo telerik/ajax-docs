@@ -1,10 +1,10 @@
 ---
 title: Properties
-page_title: Properties
-description: Check our Web Forms article about Properties.
+page_title: AjaxManager Properties
+description: 
 slug: ajaxmanager/server-side-programming/properties
 previous_url: ajax/server-side-programming/properties
-tags: properties
+tags: telerik, aspnet, ajax, ajaxmanager, properties, serverside, programming
 published: True
 position: 0
 ---

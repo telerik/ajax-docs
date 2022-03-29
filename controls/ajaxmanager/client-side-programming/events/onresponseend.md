@@ -1,10 +1,10 @@
 ---
 title: OnResponseEnd
-page_title: OnResponseEnd
-description: Check our Web Forms article about OnResponseEnd.
+page_title: AjaxManager OnResponseEnd
+description: 
 slug: ajaxmanager/client-side-programming/events/onresponseend
 previous_url: ajax/client-side-programming/events/onresponseend
-tags: onresponseend
+tags: telerik, aspnet, ajax, ajaxmanager, onresponseend, event, clientside, programming, api
 published: True
 position: 2
 ---

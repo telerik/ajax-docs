@@ -1,10 +1,10 @@
 ---
 title: OnAjaxSettingCreating
-page_title: OnAjaxSettingCreating
-description: Check our Web Forms article about OnAjaxSettingCreating.
+page_title: AjaxManager OnAjaxSettingCreating
+description: 
 slug: ajaxmanager/server-side-programming/events/onajaxsettingcreating
 previous_url: ajax/server-side-programming/events/onajaxsettingcreating
-tags: onajaxsettingcreating
+tags: telerik, aspnet, ajax, ajaxmanager, onajaxsettingcreating, event, serverside, programming
 published: True
 position: 1
 ---

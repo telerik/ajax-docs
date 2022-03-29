@@ -1,9 +1,9 @@
 ---
 title: Overview
-page_title: Overview
-description: Check our Web Forms article about Overview.
+page_title: AjaxManager Client-Side Events Overview
+description: 
 slug: ajaxmanager/client-side-programming/events/overview
-tags: overview
+tags: telerik, aspnet, ajax, ajaxmanager, clientside, events, overview
 published: True
 position: 0
 ---

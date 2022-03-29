@@ -1,10 +1,10 @@
 ---
 title: Methods
-page_title: Methods
-description: Check our Web Forms article about Methods.
+page_title: AjaxManager Methods
+description: 
 slug: ajaxmanager/server-side-programming/methods
 previous_url: ajax/server-side-programming/methods
-tags: methods
+tags: telerik, aspnet, ajax, ajaxmanager, methods, serverside, programming
 published: True
 position: 1
 ---

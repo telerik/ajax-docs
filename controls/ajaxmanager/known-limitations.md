@@ -1,6 +1,6 @@
 ---
 title: Known Limitations
-page_title: Known Limitations
+page_title: AjaxManager Known Limitations
 description: "Learn more about the known limitations when using the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/troubleshooting/known-limitations
 previous_url: ajax/troubleshooting/known-limitations, controls/ajaxmanager/troubleshooting/known-limitations 
@@ -77,6 +77,8 @@ This article lists the known limitations you may encounter when working with the
 * **AJAX requests are not working when `RestoreOriginalRenderDelegate` is `false`**&mdash;The same issue may occur when inheriting from an AjaxPage to support Medium Trust in DNN or SharePoint. You need to consider these limitations when you configure the AjaxManager or the AjaxPanel for your particular project schema.
 
 * **When using Medium Trust, client-side validation does not execute and validators are added dynamically during an Ajax call**&mdash;When the Medium Trust level is used, you cannot use reflection to set private properties. However, when you use validators in a template that is placed in an AjaxPanel, you need to set the `_parent` private property of the validators to the updated panel with reflection. This approach is required so that all validators are rendered as expected. Therefore, in such scenarios, to make validators work as expected, use `asp:UpdatePanel` instead of the AjaxPanel or AjaxManager.
+
+* **Parent-child control configuration**&mdash;Child elements cannot be the `AjaxSetting` initiator or update their parent container element. To add and update a container or a parent control, allow the container or the control, or an external component to be the initiator. It is similar to placing a `telerik:RadAjaxPanel` or `asp:UpdatePanel` on the page: it will affect only the content inside this panel. The AjaxManager is similar; only it achieves what is going on under the hood.
 
 ## See Also
 
