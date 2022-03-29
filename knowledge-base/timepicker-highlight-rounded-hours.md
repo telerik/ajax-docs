@@ -14,6 +14,9 @@ res_type: kb
 
 How to highlight the rounded hours in RadTimePicker?
 
+![Highlight rounded hours](images/timepicker-highlight-rounded-hours.png)
+
+
 ## Solution
 
 ### Using Templates
@@ -24,7 +27,7 @@ With the following code we can add a custom CSS class to the items holding round
 
 ````ASPX
 <telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker2" runat="server">
-    <TimeView ID="TimeView1" runat="server" Interval="15" Columns="6">
+    <TimeView ID="TimeView1" runat="server" Interval="15" Columns="6" StartTime="9:00" EndTime="18:00">
         <HeaderTemplate>
             <div class="headerTemplate">
                 Time Picker
@@ -36,7 +39,7 @@ With the following code we can add a custom CSS class to the items holding round
             </a>
         </TimeTemplate>
         <AlternatingTimeTemplate>
-                <a href="#" class="itemt <%# DateTime.Parse(DataBinder.Eval(Container, "DataItem.Time").ToString()).Minute == 0 ? "roundHour" : "" %>">
+            <a href="#" class="itemt <%# DateTime.Parse(DataBinder.Eval(Container, "DataItem.Time").ToString()).Minute == 0 ? "roundHour" : "" %>">
                 <%# DataBinder.Eval(Container, "DataItem.Time", "{0:hh:mm tt}") %>
             </a>
         </AlternatingTimeTemplate>
