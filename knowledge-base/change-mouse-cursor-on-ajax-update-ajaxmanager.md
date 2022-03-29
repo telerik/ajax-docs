@@ -1,21 +1,35 @@
 ---
-title: Change Mouse Cursor on AJAX Update
-page_title: Change Mouse Cursor on AJAX Update
-description: Check our Web Forms article about Change Mouse Cursor on AJAX Update.
+title: Change the Mouse Cursor on Ajax Updates with the AjaxManager or AjaxPanel
+page_title: Change the Mouse Cursor on Ajax Updates with the AjaxManager or AjaxPanel
+description: "Learn how to change the mouse cursor on an Ajax update with the Telerik UI for ASP.NET AjaxManager or AjaxPanel."
 slug: ajaxmanager/client-side-programming/how-to/change-mouse-cursor-on-ajax-update
-previous_url: ajax/client-side-programming/how-to/change-mouse-cursor-on-ajax-update
-tags: change,mouse,cursor,on,ajax,update
+previous_url: ajax/client-side-programming/how-to/change-mouse-cursor-on-ajax-update, controls/ajaxmanager/client-side-programming/how-to/change-mouse-cursor-on-ajax-update
+tags: telerik, asp, net, ajax, manager, panel, client, side, programming, change, mouse, cursor, on, updates
 published: True
-position: 5
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Change Mouse Cursor on AJAX Update
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxPanel</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I change the mouse cursor on an Ajax update with the Telerik UI for ASP.NET AjaxManager or AjaxPanel? 
 
-Changing the mouse cursor on Ajax update could be achieved using the client-side event of Telerik RadAjax controls. The easiest way is to use the following events script:
+## Solution
+
+To achieve the desired behavior, use the client-side event of AjaxManager or AjaxPanel. The following snippet shows the events script you need.
 
 ````JavaScript
 <script type="text/javascript">
@@ -30,7 +44,7 @@ Changing the mouse cursor on Ajax update could be achieved using the client-side
 
 
 
-Here is another solution using additional CSS classes:
+Alternatively, you can use additional CSS classes as demonstrated in the following example.
 
 ````JavaScript
 <script type="text/javascript">

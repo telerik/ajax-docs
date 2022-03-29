@@ -1,21 +1,35 @@
 ---
-title: Cancel AJAX  Request
-page_title: Cancel AJAX Request
-description: Check our Web Forms article about Cancel AJAX  Request.
+title: Cancel AJAX Requests with the AjaxManager or AjaxPanel
+page_title: Cancel AJAX Requests with the AjaxManager or AjaxPanel
+description: "Learn how to cancel Ajax requests with the Telerik UI for ASP.NET AjaxManager or AjaxPanel."
 slug: ajaxmanager/client-side-programming/how-to/cancel-ajax--request
-previous_url: ajax/client-side-programming/how-to/cancel-ajax--request
-tags: cancel,ajax,,request
+previous_url: ajax/client-side-programming/how-to/cancel-ajax--request, controls/ajaxmanager/client-side-programming/how-to/cancel-ajax--request
+tags: telerik, asp, net, ajax, manager, panel, client, side, programming, cancel, requests
 published: True
-position: 0
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Cancel AJAX  Request
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxPanel</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I cancel an Ajax request with the Telerik UI for ASP.NET AjaxManager or AjaxPanel? 
 
-You can cancel an AJAX request in the **OnRequestStart** client-side event handler of your RadAjaxManager/RadAjaxPanel.Calling **set_cancel(true)** prevents the request from continuing.
+## Solution
+
+To cancel an AJAX request, in the `OnRequestStart` client-side event handler of the AjaxManager or AjaxPanel, call the `set_cancel(true)` to prevent the request from continuing.
 
 ````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -52,6 +66,6 @@ You can cancel an AJAX request in the **OnRequestStart** client-side event handl
 
 ## See Also
 
- * [Client Confirmation and AJAX]({%slug ajaxmanager/client-side-programming/how-to/client-confirmation-and-ajax%})
+* [Client Confirmation and AJAX]({%slug ajaxmanager/client-side-programming/how-to/client-confirmation-and-ajax%})
 
- * [Cancel AJAX](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/CancelAJAX/DefaultCS.aspx)
+* [Cancelling AJAX](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/CancelAJAX/DefaultCS.aspx)

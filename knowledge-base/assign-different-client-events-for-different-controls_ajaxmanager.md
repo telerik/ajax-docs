@@ -1,23 +1,35 @@
 ---
-title: Assign Different Client Events for Different Controls
-page_title: Assign Different Client Events for Different Controls
-description: Check our Web Forms article about Assign Different Client Events for Different Controls.
+title: Assign Different Client Events for Different Controls with the AjaxManager or AjaxPanel
+page_title: Assign Different Client Events for Different Controls with the AjaxManager or AjaxPanel
+description: "Learn how to assign different client events for different controls with the Telerik UI for ASP.NET AjaxManager or AjaxPanel."
 slug: ajaxmanager/client-side-programming/how-to/assign-different-client-events-for-different-controls
-previous_url: ajax/client-side-programming/how-to/assign-different-client-events-for-different-controls
-tags: assign,different,client,events,for,different,controls
+previous_url: ajax/client-side-programming/how-to/assign-different-client-events-for-different-controls, controls/ajaxmanager/client-side-programming/how-to/assign-different-client-events-for-different-controls
+tags: telerik, asp, net, ajax, manager, panel, client, side, programming, assign, different, event, for, different, controls
 published: True
-position: 4
+type: how-to
+category: knowledge-base
+res_type: kb
 ---
 
-# Assign Different Client Events for Different Controls
+## Environment
 
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxManager</td>
+			<td>Progress® Telerik® UI for ASP.NET AJAX AjaxPanel</td>
+		</tr>
+	</tbody>
+</table>
 
+## Description
 
-## 
+How can I assign different client-events to different AJAX-enabled controls with the Telerik UI for ASP.NET AjaxManager or AjaxPanel? 
 
-In order to assign different client-events to different AJAX-enabled controls, you can use the approach shown in **Example 1** .
+## Solution  
 
-**Example 1: You can determine the target control of the AJAX request using the client-side events of the RadAjaxManager.**
+The following example demonstrates how to achieve the desired scenario by determining the target control of the AJAX request with the client-side events of the AjaxManager. As a result, the DropDownList and the Button will have different client-events although they are using the same AjaxManager or AjaxPanel.
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -69,12 +81,11 @@ In order to assign different client-events to different AJAX-enabled controls, y
 
 
 
-This way the **DropDownList** and the **Button** will have different client-events although they are using the same **RadAjaxManager** or **RadAjaxPanel** .
 
 ## See Also
 
- * [Overview]({%slug ajaxmanager/client-side-programming/overview%})
+* [Client-Side Programming with the AjaxManager Overview]({%slug ajaxmanager/client-side-programming/overview%})
 
- * [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
 
- * [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
+* [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
