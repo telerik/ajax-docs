@@ -6,7 +6,7 @@ slug: ajaxmanager/appearance-and-styling/render-modes
 previous_url: ajax/appearance-and-styling/render-modes, controls/ajaxmanager/appearance-and-styling/render-modes
 tags: telerik, aspnet, ajax, ajaxmanager, render, modes
 published: True
-position: 4
+position: 7
 ---
 
 # Render Modes

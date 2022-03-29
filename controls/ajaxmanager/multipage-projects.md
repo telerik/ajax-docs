@@ -6,7 +6,7 @@ slug: ajaxmanager/radajaxmanagerproxy/overview
 previous_url: ajax/radajaxmanagerproxy/overview, controls/ajaxmanager/radajaxmanagerproxy/overview
 tags: telerik, aspnet, ajax, ajaxmanager, ajaxify, multipage, projects
 published: True
-position: 0
+position: 4
 ---
 
 # Ajaxifying Multi-Page Projects with the AjaxManagerProxy

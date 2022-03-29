@@ -6,7 +6,7 @@ slug: ajaxmanager/performance/optimizing-performance-using-radajaxmanager
 previous_url: ajax/performance/optimizing-performance-using-radajaxmanager, controls/ajaxmanager/performance/optimizing-performance-using-radajaxmanager
 tags: telerik, aspnet, ajax, ajaxmanager, optimizing, the, performance
 published: True
-position: 0
+position: 5
 ---
 
 # Performance Optimization

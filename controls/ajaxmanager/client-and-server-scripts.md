@@ -6,7 +6,7 @@ slug: ajaxmanager/radcodeblock-and-radscriptblock
 previous_url: ajax/radcodeblock-and-radscriptblock, controls/ajaxmanager/radcodeblock-and-radscriptblock
 tags: telerik, aspnet, ajax, ajaxmanager, using, client, server, scripts, together, radcodeblock, radscriptblock
 published: True
-position: 9
+position: 6
 ---
 
 # Enabling Server and Client Scrips

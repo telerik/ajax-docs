@@ -541,12 +541,6 @@ navigation:
 
 
 ## List control specific directory names and order here, like this:
-    "*ajaxmanager/radajaxmanagerproxy":
-        title: "RadAjaxManagerProxy"
-        position: 6
-    "*ajaxmanager/performance":
-        title: "Performance"
-        position: 8
     "*autocompletebox/client-side-programming/objects":
         title: "Objects"
         position: 4
