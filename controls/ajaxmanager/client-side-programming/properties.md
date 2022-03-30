@@ -1,15 +1,15 @@
 ---
-title: Overview
-page_title: AjaxManager Client-Side Programming Overview
-description: "Learn more about the exposed Telerik UI for ASP.NET AJAX client-side API."
+title: Properties
+page_title: AjaxManager Client-Side Properties
+description: "Learn more about the exposed Telerik UI for ASP.NET AJAX client-side properties."
 slug: ajaxmanager/client-side-programming/overview
-previous_url: ajax/client-side-programming/overview
+previous_url: ajax/client-side-programming/overview, controls/ajaxmanager/client-side-programming/overview
 tags: telerik, aspnet, ajax, ajaxmanager, clientside, programming, overview
 published: True
 position: 0
 ---
 
-# Client-side Programming Overview
+# Client-Side Properties 
 
 You can use the client-side API to execute your own JavaScript functions at certain stages of the AJAX request. 
 

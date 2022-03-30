@@ -13,13 +13,10 @@ position: 0
 
 The AjaxManager and the AjaxPanel both descend from the `RadAjaxControl` instance. 
 
-`RadAjaxControl` introduces the `AjaxClientEvents` property that contains the following events:
+The `RadAjaxControl` introduces the `AjaxClientEvents` property that contains the following events:
 
-
-| Name | Description |
-| ------ | ------ |
-|[`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})|Fired when a request to the server is started.|
-|[`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%})|Fired when a response from the server is processed.|
+* [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})&mdash;Fired when a request to the server is started.
+* [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%})&mdash;Fired when a response from the server is processed.
 
 To use these events, write a JavaScript function that can be called when the event occurs. Then, assign the name of the JavaScript function as the value of the corresponding property.
 

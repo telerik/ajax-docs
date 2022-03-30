@@ -167,6 +167,12 @@ navigation:
     "controls/ajaxmanager":
         title: "AjaxManager"
         position: 1
+    "controls/ajaxmanager/client-side-programming":
+        title: "Client-Side API"
+        position: 70
+    "controls/ajaxmanager/server-side-programming":
+        title: "Server-Side API"
+        position: 80
     "controls/ajaxloadingpanel":
         title: "AjaxLoadingPanel"
         position: 1

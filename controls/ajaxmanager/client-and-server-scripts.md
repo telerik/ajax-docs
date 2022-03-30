@@ -1,6 +1,6 @@
 ---
-title: Using Server and Client Scrips Together 
-page_title: Using Server and Client Scrips Together with the AjaxManager
+title: Using Server and Client Scrips Simultaneously 
+page_title: Using Server and Client Scrips Simultaneously with the AjaxManager
 description: "Learn how to use the RadCodeBlock and RadScriptBlock in Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/radcodeblock-and-radscriptblock
 previous_url: ajax/radcodeblock-and-radscriptblock, controls/ajaxmanager/radcodeblock-and-radscriptblock
@@ -9,7 +9,7 @@ published: True
 position: 6
 ---
 
-# Using Server and Client Scrips Together 
+# Using Server and Client Scrips Simultaneously 
 
 To allow server and client scripts to work together during the AJAX updates enabled by AjaxManager, use the `RadCodeBlock` and `RadScriptBlock`.
 

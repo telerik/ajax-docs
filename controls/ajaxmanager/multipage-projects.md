@@ -1,5 +1,5 @@
 ---
-title: Ajaxifying Multi-Page Projects
+title: Multi-Page Projects
 page_title: Ajaxifying Multi-Page Projects with the AjaxManagerProxy
 description: "Learn how to use the AjaxManagerProxy when working with the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/radajaxmanagerproxy/overview

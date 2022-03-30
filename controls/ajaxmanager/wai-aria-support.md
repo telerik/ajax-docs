@@ -6,7 +6,7 @@ slug: ajaxmanager/accessibility-and-internationalization/wai-aria-support
 previous_url: controls/ajaxmanager/accessibility-and-internationalization/wai-aria-support
 tags: telerik, aspnet, ajax, ajaxmanager, waiaria, support, accessibility
 published: True
-position: 8
+position: 90
 ---
 
 # WAI-ARIA Support

@@ -6,7 +6,7 @@ slug: ajaxmanager/getting-started/radajax-advantages
 previous_url: ajax/getting-started/radajax-advantages
 tags: telerik, aspnet, ajax, ajaxmanager, advantages
 published: True
-position: 2
+position: 1
 ---
 
 # AjaxManager Advantages
@@ -17,7 +17,7 @@ Among the many advantages for using the AjaxManager is that you don't need to ma
 
 The AjaxManager uses the Microsoft ASP.NET AJAX engine to Ajaxify applications but eliminates the need of using numerous UpdatePanels, triggers, and so on.
 
-The click-and-Go™ technology of the AjaxManager allows you to AJAX-enable any ASP.NET application without making any modification or writing a single line of code. For more information, refer to the article on [AJAX and Telerik AJAX]({% slug ... %}). 
+The click-and-Go™ technology of the AjaxManager allows you to AJAX-enable any ASP.NET application without making any modification or writing a single line of code. For more information, refer to the article on [AJAX and Telerik AJAX]({% slug ajaxmanager/getting-started/what-is-ajax %}). 
 
 ## Existing Applications
 

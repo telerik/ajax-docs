@@ -6,7 +6,7 @@ slug: ajaxmanager/getting-started/ajax-enable-a-scenario-through-radajaxmanager-
 previous_url: ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel, controls/ajaxmanager/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 tags: telerik, aspnet, ajax, ajaxmanager, getting, started, enable, ajaxloadingpanel
 published: True
-position: 1
+position: 2
 ---
 
 # Getting Started with the Telerik AjaxManager
