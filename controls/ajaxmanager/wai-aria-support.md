@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA Support
 page_title: AjaxManager WAI-ARIA Support
-description: 
+description: "Learn about the accessibility support provided by the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/accessibility-and-internationalization/wai-aria-support
 previous_url: controls/ajaxmanager/accessibility-and-internationalization/wai-aria-support
 tags: telerik, aspnet, ajax, ajaxmanager, waiaria, support, accessibility
@@ -11,25 +11,15 @@ position: 8
 
 # WAI-ARIA Support
 
+The AjaxManager provides the WAI-ARIA accessibility support for people with disabilities. 
 
+To enable WAI-ARIA, set the `EnableAriaSupport` server property to `true`. All WAI-ARIA attribute values are lowercase.
 
+The AjaxManager supports the `Aria-live: assertive` WAI-ARIA property. 
 
-
-## 
-
-If your web applications need to be more accessible to people with disabilities, the **RadAjax** control offers **WAI-ARIA** support,which a developer can easily enable by setting the **EnableAriaSupport** server property to true.RadAjax WAI-ARIA attributes values are lower case.
-
-
->caption  
-
-|  **Control**  |  **Attributes**  |
-| ------ | ------ |
-| **RadAjaxManager** |Aria-live: assertive|
-
->note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run an HTML document containing WAI-ARIA attributes through the W3C Validator, it shows errors in the results for any WAI-ARIA attributes. The DOCTYPE declarations do not include any information about the WAI-ARIA attributes and you cannot have a valid document, which includes elements, attributes, and attribute values, not detailed in its DTD-s.
->
+> HTML documents using WAI-ARIA do not validate and the W3C Validator shows errors in the results for any WAI-ARIA attributes. The `DOCTYPE` declarations do not include any information about the WAI-ARIA attributes and you cannot have a valid document, which includes elements, attributes, and attribute values, that are not detailed in its DTDs.
 
 
 ## See Also
 
- * [WAI-ARIA Overview at W3C.org](https://www.w3.org/WAI/intro/aria)
+* [WAI-ARIA Overview at W3C.org](https://www.w3.org/WAI/intro/aria)

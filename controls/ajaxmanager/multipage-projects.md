@@ -1,7 +1,7 @@
 ---
 title: Ajaxifying Multi-Page Projects
 page_title: Ajaxifying Multi-Page Projects with the AjaxManagerProxy
-description: 
+description: "Learn how to use the AjaxManagerProxy when working with the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/radajaxmanagerproxy/overview
 previous_url: ajax/radajaxmanagerproxy/overview, controls/ajaxmanager/radajaxmanagerproxy/overview
 tags: telerik, aspnet, ajax, ajaxmanager, ajaxify, multipage, projects
@@ -11,13 +11,14 @@ position: 4
 
 # Ajaxifying Multi-Page Projects with the AjaxManagerProxy
 
-This help article describes how to work with **RadAjaxManagerProxy** controls and provides an example.
+The Ajaxifying Telerik mechanism allows you to use only a single AjaxManager on a page.
 
-## 
+To work around this functionality and handle complex scenarios, for example, when using [WebUserControls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%}) or [Master/Content Pages]({%slug ajaxmanager/how-to/radajax-and-masterpage%}), place a `RadAjaxManager` instance on the main or master page, and then add a `RadAjaxManagerProxy` control to the user control or content page.
 
-**RadAjax** allows only one **RadAjaxManager** on a page. So in a complex scenarios like [WebUserControls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%}) or [Master/Content Pages]({%slug ajaxmanager/how-to/radajax-and-masterpage%}), you should place a **RadAjaxManager** instance on the main/master page and then add a **RadAjaxManagerProxy** control to the user control/content page.**RadAjaxManagerProxy** copies the exact same [RadAjaxManager designer configuration]({%slug ajaxmanager/overview%}) so that you can set all the necessary AJAX settings within the WebUserControl/ContentPage entirely through the designer. **Example 1** shows how you could use **RadAjaxManagerProxy** to Ajax-enable controls within a WebUserControl/ContentPage.
+The `RadAjaxManagerProxy` copies the exact same [AjaxManager designer configuration]({%slug ajaxmanager/overview%}) so that you can set all the necessary AJAX settings within the WebUserControl or ContentPage entirely through the designer. 
 
-**Example 1**: **RadAjaxManagerProxy** sample configuration.
+The following example shows how to use the `RadAjaxManagerProxy` to Ajax-enable controls within a WebUserControl or ContentPage.
+
 
 ````ASP.NET
 <telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
@@ -40,9 +41,17 @@ This help article describes how to work with **RadAjaxManagerProxy** controls an
 
 
 
-Using the **RadAjaxManagerProxy** makes design-time configuration easier. The **RadAjaxManagerProxy** does not provide client-side functionality as the **RadAjaxManager** does. Also, **RadAjaxManagerProxy** does not have [client-side object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%}) or functions like [ajaxRequest/ajaxRequestWithTarget]({%slug ajaxmanager/client-side-programming/overview%}) and [client-side events]({%slug ajaxmanager/client-side-programming/events/overview%}).Instead, you can get the **RadAjaxManager** instance through the **GetCurrent** static method (**Example 2**) similar to the asp:ScriptManager control and call the master **RadAjaxManager** client-side methods if necessary.
+Using the `RadAjaxManagerProxy` makes the design-time configuration easier: 
 
-**Example 2**: Getting instance of **RadAjaxManager** and firing an Ajax request.
+* `RadAjaxManagerProxy` does not provide client-side functionality as the AjaxManager does.
+
+* `RadAjaxManagerProxy` does not have a [client-side object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%}) or functions like [`ajaxRequest` and `ajaxRequestWithTarget`]({%slug ajaxmanager/client-side-programming/overview%}), nor it provides [client-side events]({%slug ajaxmanager/client-side-programming/events/overview%}).
+
+* You can get the `RadAjaxManager` instance through the `GetCurrent` static method similar to the `asp:ScriptManager` control and call the master `RadAjaxManager` client-side methods if necessary.
+
+The following example demonstrates how to set the `RadAjaxManager` instance and fire an AJAX request.
+
+>caution When you use a server-side code block, wrap the entire script in a `RadCodeBlock` to prevent the `System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>)` server error.
 
 ````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -56,14 +65,11 @@ Using the **RadAjaxManagerProxy** makes design-time configuration easier. The **
 
 
 
->caution When you use a server-side code block (like in **Example 2** ) you should wrap the entire script in a **RadCodeBlock** . This is necessary to prevent the server error *System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>)* .
->
 
+If you need to handle the master manager events in the user control or content page, attach event handlers to the `RadAjaxManager` as shown in the following example. 
 
-If you need to handle the master manager events in the user control or content page, you can attach event handlers to the **RadAjaxManager** as shown in **Example 3** .
-
-**Example 3**: Attaching event handlers to a **RadAjaxManager** in a ContentPage
-
+>* To add [AJAX settings programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}), it is recommended that you get the master `RadAjaxManager` instance and call its methods or properties as well. 
+>* You can use the same `GetCurrent` method to access the `RadAjaxManager` placed in the Master or Main page from a Content page or WebUserControl.
 
 
 ````C#
@@ -92,18 +98,11 @@ End Sub
 ````
 
 
->note If you need to add[AJAX settings programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%}), it is recommended that you get the master **RadAjaxManager** instance and call its methods/properties as well. The same **GetCurrent** method could be used to access the **RadAjaxManager** placed in the Master/Main page from a Content page/WebUserControl.
->
-
 
 ## See Also
 
- * [Overview]({%slug ajaxmanager/overview%})
-
- * [Design Time]({%slug ajaxmanager/design-time%})
-
- * [RadAjax and WebUserControls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%})
-
- * [RadAjax and MasterPage]({%slug ajaxmanager/how-to/radajax-and-masterpage%})
-
- * [Demo: RadAjaxManager](https://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)
+* [AjaxManager Overview]({%slug ajaxmanager/overview%})
+* [Design-Time]({%slug ajaxmanager/design-time%})
+* [Telerik Ajaxifying Mechanism and WebUserControls]({%slug ajaxmanager/how-to/radajax-and-webusercontrols%})
+* [Telerik Ajaxifying Mechanism and MasterPage]({%slug ajaxmanager/how-to/radajax-and-masterpage%})
+* [Using the AjaxManager (Demo)](https://demos.telerik.com/aspnet-ajax/ajax/examples/overview/defaultcs.aspx)

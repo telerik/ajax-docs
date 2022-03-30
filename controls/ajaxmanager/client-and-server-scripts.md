@@ -1,7 +1,7 @@
 ---
 title: Using Server and Client Scrips Together 
 page_title: Using Server and Client Scrips Together with the AjaxManager
-description: 
+description: "Learn how to use the RadCodeBlock and RadScriptBlock in Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/radcodeblock-and-radscriptblock
 previous_url: ajax/radcodeblock-and-radscriptblock, controls/ajaxmanager/radcodeblock-and-radscriptblock
 tags: telerik, aspnet, ajax, ajaxmanager, using, client, server, scripts, together, radcodeblock, radscriptblock
@@ -9,25 +9,21 @@ published: True
 position: 6
 ---
 
-# Enabling Server and Client Scrips
+# Using Server and Client Scrips Together 
 
-This article describes how **RadCodeBlock** and **RadScriptBlock** work. We also provide a few simple examples that demonstrate how to use them.
+To allow server and client scripts to work together during the AJAX updates enabled by AjaxManager, use the `RadCodeBlock` and `RadScriptBlock`.
 
-You can use **RadCodeBlock** and **RadScriptBlock** to allow server and client scripts to work together with the complex AJAX updates that are enabled by **RadAjaxManager**:
+When server code blocks are placed within the markup, use the `RadCodeBlock`. When you have the JavaScript that evaluates after an AJAX request, use the `RadScriptBlock`.
 
-* Use RadCodeBlock when you have server code blocks placed within the markup.
+## Using the RadCodeBlock
 
-* Use RadScriptBlock when you have a JavaScript that evaluates after an AJAX request.
+The way the server script within `<%= %>` tags (code blocks) are implemented in ASP.NET may interfere with the AjaxManager render interception mechanism. 
 
-## RadCodeBlock
+To prevent this interference, use the `RadCodeBlock` whenever you have server code blocks placed within your markup, for example, when some JavaScript functions access the server controls. The `RadCodeBlock` isolates the code block and prevents server errors similar to `System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).` You can place as many `RadCodeBlock` elements on the page as needed.
 
-The way how code blocks (server script within `<%= %>` tags) are implemented in ASP.NET may interfere with the **RadAjaxManager** render interception mechanism. To prevent this interference, use **RadCodeBlock** whenever you have server code blocks placed within your markup, for example, when some JavaScript functions access the server controls. **RadCodeBlock** isolates the code block and prevents server errors like this:
+For more information, refer to Rick Strahl's [Understanding how <% %>expressions render and why Controls.Add() doesn't work](http://www.west-wind.com/WebLog/posts/6148.aspx) article.
 
-*System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).*
-
-For more background on this issue, see Rick Strahl's article, [Understanding how <% %>expressions render and why Controls.Add() doesn't work](http://www.west-wind.com/WebLog/posts/6148.aspx).
-
-**Example 1** : Using a **RadCodeBlock** in your markup isolates your code block and prevents the `System.Web.HttpException` server error.
+The following example demonstrates the `RadCodeBlock` in the markup isolates the code block and prevents the `System.Web.HttpException` server error.
 
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -39,15 +35,14 @@ For more background on this issue, see Rick Strahl's article, [Understanding how
 </telerik:RadCodeBlock>
 ````
 
-You can place as many RadCodeBlock elements on the page as needed.
 
-## RadScriptBlock
+## Using the RadScriptBlock
 
-You should use a **RadScriptBlock** (see **Example 2** ) where you have JavaScript that evaluates after an AJAX request, for example, when the content of **RadAjaxPanel** is updated asynchronously. You can also use a **RadScriptBlock** like a **RadCodeBlock** to handle server code blocks (`<% ... %>`).
+Where you have JavaScript that evaluates after an AJAX request, use the `RadScriptBlock`, for example, when the content of the AjaxPanel is updated asynchronously. 
 
-RadScriptBlock wraps JavaScript where the JavaScript is located in an updating area. The example below shows a RadScriptBlock within a RadAjaxPanel.
+You can also use a `RadScriptBlock` like a `RadCodeBlock` to handle server code blocks (`<% ... %>`). You can place as many `RadScriptBlock` tags on the page as needed. 
 
-**Example 2** : Using a **RadScriptBlock** to isolate JavaScript code
+The `RadScriptBlock` wraps JavaScript where the JavaScript is located in an updating area. The example below shows a `RadScriptBlock` within an AjaxPanel.
 
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
@@ -62,7 +57,7 @@ RadScriptBlock wraps JavaScript where the JavaScript is located in an updating a
 </telerik:RadAjaxPanel>
 ````
 
-**Example 3** : Using a **RadScriptBlock** to isolate the server tags in the src/href values
+The following example demonstrates how a `RadScriptBlock` isolates the server tags in the `src` and `href` values.
 
 ````ASP.NET
 <telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
@@ -80,19 +75,14 @@ RadScriptBlock wraps JavaScript where the JavaScript is located in an updating a
 </telerik:RadScriptBlock>
 ````
 
-You can put as many RadScriptBlock tags on the page as needed as shown in the example above. 
 
 
 ## See Also
 
-* [Error message, "The Controls collection cannot be modified because the control contains code blocks"](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/general-troubleshooting#error-message-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks)
-
+* [The Controls collection cannot be modified because the control contains code blocks (Error)](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/general-troubleshooting#error-message-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks)
 * [The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>)](https://www.telerik.com/forums/232173-the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks-i-e-lt-gt)
-
-* [RadCodeBlock and RadScriptBlock](https://www.telerik.com/forums/radcodeblock-and-radscriptblock)
-
+* [The RadCodeBlock and RadScriptBlock (Forum Thread)](https://www.telerik.com/forums/radcodeblock-and-radscriptblock)
 * [Telerik RadCodeBlock vs RadScriptBlock](https://www.inalign.com/sitefinity/telerik-radcodeblock-vs-radscriptblock)
-
-* [Apply Client-side Logic to Initially Hidden Controls](https://www.telerik.com/support/kb/aspnet-ajax/details/apply-client-side-logic-to-initially-hidden-controls)
+* [Applying Client-Side Logic to Initially Hidden Controls](https://www.telerik.com/support/kb/aspnet-ajax/details/apply-client-side-logic-to-initially-hidden-controls)
 
 
