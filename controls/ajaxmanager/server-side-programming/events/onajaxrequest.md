@@ -1,7 +1,7 @@
 ---
 title: OnAjaxRequest
-page_title: AjaxManager OnAjaxRequest
-description: 
+page_title: AjaxManager OnAjaxRequest Server-Side Event
+description: "Learn how to use the OnAjaxRequest server-side event when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/events/onajaxrequest
 previous_url: ajax/server-side-programming/events/onajaxrequest
 tags: telerik, aspnet, ajax, ajaxmanager, onajaxrequest, event, serverside, programming
@@ -11,13 +11,12 @@ position: 0
 
 # OnAjaxRequest
 
+The `AjaxRequest` event occurs when triggered by the client-side [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}) function or the server-side [`RaisePostBackEvent()``]({%slug ajaxmanager/server-side-programming/methods%}) method. 
 
+The event cannot be cancelled. The `AjaxRequest` event handler receives a single string argument.
 
-The **AjaxRequest** event occurs when triggered by the client-side [ajaxRequest()]({%slug ajaxmanager/client-side-programming/overview%}) function or the server-side [RaisePostBackEvent()]({%slug ajaxmanager/server-side-programming/methods%}) method. The event can not be cancelled. The **AjaxRequest** event handler receives a single string argument.
+The example below demonstrates an `AjaxRequest` triggered from both the client and server. An a HTML input button and a standard ASP.NET button are also defined. The HTML input button triggers a function that calls the client-side [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}). The ASP.NET button triggers a server-side `OnClick` event that in turn calls the [`RaisePostBackEvent()`]({%slug ajaxmanager/server-side-programming/methods%}) method.
 
-The example below demonstrates AjaxRequest triggered from both the client and server. An a HTML input button and a standard ASP.NET button are defined in the example. The HTML input button triggers a function that calls the client-side [ajaxRequest()]({%slug ajaxmanager/client-side-programming/overview%}). The ASP.NET button triggers a server-side OnClick event that in turn calls the [RaisePostBackEvent()]({%slug ajaxmanager/server-side-programming/methods%}) method.
-
-## Example
 
 ````ASP.NET
 <form id="form1" runat="server">

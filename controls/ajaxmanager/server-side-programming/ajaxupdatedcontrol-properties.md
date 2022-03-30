@@ -1,7 +1,7 @@
 ---
 title: AjaxUpdatedControl Properties
-page_title: AjaxUpdatedControl Properties
-description: 
+page_title: AjaxUpdatedControl Server-Side Properties
+description: "Learn how to set the AjaxUpdatedControl server-side properties when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/ajaxupdatedcontrol-properties
 previous_url: ajax/server-side-programming/ajaxupdatedcontrol-properties
 tags: telerik, aspnet, ajax, ajaxmanager, ajaxupdatedcontrol, properties
@@ -11,19 +11,15 @@ position: 2
 
 # AjaxUpdatedControl Properties
 
+When configuring the Ajax settings, either declaratively or dynamically, you might need to set some of the following properties to each of the updated controls:
 
+* `LoadingPanelID`&mdash;Gets or sets the `ID` of the loading panel which is will be displayed over the updated control during AJAX.
 
-## 
+* `UpdatePanelHeight`&mdash;Determines the height of the AJAX panel wrapped around the updated control. Useful when you need to set 100% height to the parent of the updated control.
 
-When configuring ajax settings, be it declaratively, or dynamically, you might need to set some of the below properties to each of the updated controls:
+* `UpdatePanelRenderMode`&mdash;Determines the [render mode of the AJAX panel]({%slug ajaxmanager/appearance-and-styling/render-modes%}).
 
-* **LoadingPanelID** - gets or sets the loading panel ID which is will be displayed over the updated control during ajax.
-
-* **UpdatePanelHeight** - determines what will be the height of the ajax panel wrapped around the updated control. Useful when you need to set 100% high to the parent of the updated control.
-
-* **UpdatePanelRenderMode** - determines what will be the ajax panel render mode. For more information see [this article]({%slug ajaxmanager/appearance-and-styling/render-modes%})
-
-Example:
+The following example demonstrates how to set the `AjaxUpdatedControl` properties. 
 
 
 ````ASP.NET
