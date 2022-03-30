@@ -1,58 +1,83 @@
 ---
 title: On AJAX and Telerik AJAX
-page_title: 
-description: ""
+page_title: On AJAX and Telerik AJAX
+description: "Get the basic concepts behind the AJAX programming technology and learn more about the logic of Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/getting-started/what-is-ajax
 previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax
 tags: telerik, asp, net, ajax, about, what, is, ajax
 published: True
-position: 
+position: 0
 ---
 
+# On AJAX and Telerik AJAX 
 
-AJAX is one of the main techniques of Web Programming which allows you to add a nice finishing touch to your application - by improving the performance drastically and make the server-side operations to have a similar responsiveness just as client-side functions. 
+AJAX is one of the main techniques for web programming. The AJAX communication technique allows you to add a nice finishing touch to your application by drastically improving the performance of the operations and by seamlessly implementing a client-side type of responsiveness for server-side operations. 
 
 # What is AJAX
 
+The core idea behind AJAX is to make the communication with the server asynchronous, so that the data is transferred and processed in the background. As a result, the user can continue working on the other parts of the page without interruption. 
 
-The core idea behind AJAX is to make the communication with the server asynchronous, so that data is transferred and processed in the background. As a result the user can continue working on the other parts of the page without interruption. In an AJAX-enabled application only the relevant page elements are updated and only when necessary.In contrast, the traditional synchronous (postback-based) communication requires a full page reload each time data is transferred to/from the server. This leads to the following negative effects:
+In an AJAX-enabled application and only when necessary, only the relevant page elements are updated. In contrast, the traditional synchronous (postback-based) communication requires a full page reload each time data is transferred to or from the server. 
 
-* **Poor Interactivity** - the user interaction with the application is interrupted by a postback every time a server call is needed.
+The postback-based data transfer leads to the following drawbacks:
 
-* **Ineffectiveness** - the full page is rendered and transferred to the client on each postback. This process is time consuming and traffic intensive.
+* Poor interactivity&mdash;The user interaction with the application is interrupted by a postback every time a server call is needed.
 
-* **Low Usability** - the requirement for full page postback whenever the user interface is changed imposes hefty limitations on the degree of sophistication a web user interface can achieve. Before AJAX, rich and smooth interfaces with on-demand updates could only be implemented using Flash technology.
+* Ineffectiveness&mdash;The full page is rendered and transferred to the client on each postback. This process is time-consuming and traffic-intensive.
 
-AJAX-enabled applications, on the other hand, rely on a new asynchronous method of client-server communication. It is implemented as a JavaScript engine that is loaded on the client during the initial page load. From there on, this engine serves as a mediator that sends only relevant XML-formatted data to the server and subsequently processes the server response to update the relevant page elements.
+* Low usability&mdash;The requirement for a full-page postback whenever the user interface changes, imposes hefty limitations on the degree of sophistication a web user interface can achieve. Before AJAX, rich and smooth interfaces with on-demand updates could only be implemented by using the Flash technology.
 
-Below is a diagram of the complete lifecycle of an AJAX-enabled web form.
+AJAX-enabled applications, on the other hand, rely on a new asynchronous method of client-server communication. That communication is implemented as a JavaScript engine that is loaded on the client during the initial page load. From there on, this engine serves as a mediator that sends only relevant XML-formatted data to the server and subsequently processes the server response to update the relevant page elements.
+
+## Visual Representation
+
+The following diagram shows the complete lifecycle of an AJAX-enabled web form.
 
 ![AJAX Diagram](images/AJAX_diagram_thumb.gif)
 
-1. Initial request by the browser – the user requests a particular URL
+* **1**&mdash;Represents the initial request by the browser, that is, the user requests a particular URL.
 
-1. The complete page is rendered by the server (along with the JavaScript AJAX engine) and sent to the client (HTML, CSS, JavaScript AJAX engine)
+* **2**&mdash;The complete page is rendered by the server (the JavaScript AJAX engine) and then sent to the client (the HTML, CSS, JavaScript AJAX engine).
 
-1. All subsequent requests to the server are initiated as function calls to the JavaScript engine
+* **3**&mdash;All subsequent requests to the server are initiated as function calls to the JavaScript engine.
 
-1. The JavaScript engine then makes an XmlHttpRequest to the server
+* **4**&mdash;The JavaScript engine then makes an XmlHttpRequest to the server.
 
-1. The server processes the request and sends a response in XML format to the client (XML document). It contains the data only of the page elements that need to be changed. In most cases this data comprises just a fraction of the total page markup
+* **5**&mdash;The server processes the request and sends a response in an XML format (XML document) to the client. The response contains the data only of the page elements that need to be changed. In most cases, this data comprises of only a fraction of the total page markup.
 
-1. The AJAX engine processes the server response, updates the relevant page content or performs another operation with the new data received from the server. (HTML + CSS)
+* **6**&mdash;The AJAX engine processes the server response, updates the relevant page content, or performs another operation with the new data received from the server (HTML and CSS).
 
-AJAX development however is a quite complex process. It requires:
+## AJAX Development Requirements
 
-* Intensive JavaScript coding - this may turn to be a problem for a large number of .Net developers. Furthermore, the lack of good debugging tools for client-side script makes the process even more complicated
+The AJAX development is a complex process and poses the following requirements:
 
-* Comprehensive knowledge of the ASP.NET page lifecycle - AJAX applications typically break the normal page life-cycle and do not work properly. As a result developers have to handle ViewState management, EventValidation, and preservation of client-scripts
+* Intensive JavaScript coding&mdash;Sometimes the lack of good debugging tools for client-side scripts makes the process more complicated.
 
-The Telerik RadAjax framework eliminates those challenges. The product features Telerik Click-and-Go™ patent-pending technology, which allow you to jump-start your AJAX development today:
+* Comprehensive knowledge of the ASP.NET page lifecycle&mdash;AJAX applications typically break the normal page lifecycle and do not work properly. As a result, developers have to handle the `ViewState` management, and the `EventValidation` and preservation of client scripts.
 
-* AJAX-enable any existing or new application, regardless of its level of complexity
+## Where Telerik AJAX Comes In
 
-* You don't need detailed knowledge of AJAX
+The Telerik AJAX framework eliminates the AJAX development challenges. The product allows you to jump-start your AJAX development immediately as it features the Telerik Click-and-Go™ patent-pending technology:
 
-* You don't have to modify your application - you do not need to place Update Panels, set triggers, manually invoke AJAX requests, etc.
+* Telerik AJAX allows you to AJAX-enable any existing or new application, regardless of its level of complexity.
 
-* You don't have to write a single line of code (JavaScript or server-side)
+* You don't need detailed knowledge of AJAX.
+
+* You don't have to modify your application as you don't need to place update panels, set triggers, manually invoke AJAX requests, and the like.
+
+* You don't have to write a single line of JavaScript or server-side code. 
+
+## About Telerik AJAX
+
+Telerik UI for ASP.NET AJAX delivers the AjaxManager and AjaxPanel controls which handle the Ajaxification of the controls located on the pages of your project.
+
+!!! .... more info what the controls do.  
+
+## Learning Resources 
+
+* [AJAX Programming (Wikipedia)](https://en.wikipedia.org/wiki/Ajax_(programming))
+* [Telerik UI for ASP.NET AJAX Virtual Classroom (Training Courses for Registered Users)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
+* [Online Demos for Telerik UI for ASP.NET AJAX ](https://demos.telerik.com/aspnet-ajax)
+* [First Steps with Telerik AJAX (MSI)]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [First Steps with Telerik AJAX (ZIP)]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
+* [First Steps with Telerik AJAX (NuGet)]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
