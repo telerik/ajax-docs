@@ -63,7 +63,7 @@ To solve this issue, use the respective approach:
 
 * Update the `Bin` reference:
 
-	1. Browse to the `Telerik.Web.UI` assembly through the **Property** pages.
+	1. Browse to the `Telerik.Web.UI` assembly through the **Property** pages. Make sure to choose the assembly from the correct folder (e.g. `bin35`, `bin40` or `bin45`) depening on the .NET version of your project.
 
 		![Browser to reference](images/introduction-browse_to_reference.png)
 
