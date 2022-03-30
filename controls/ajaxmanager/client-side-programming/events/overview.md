@@ -1,30 +1,29 @@
 ---
 title: Overview
 page_title: AjaxManager Client-Side Events Overview
-description: 
+description: "Learn how to use the client-side events when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/client-side-programming/events/overview
 tags: telerik, aspnet, ajax, ajaxmanager, clientside, events, overview
 published: True
 position: 0
 ---
 
-# Events Overview
+# Client-Side Events Overview
 
 
+The AjaxManager and the AjaxPanel both descend from the `RadAjaxControl` instance. 
 
-## Client-side events for RadAjaxManager/RadAjaxPanel
-
-**RadAjaxManager** and **RadAjaxPanel** both descend from **RadAjaxControl** . **RadAjaxControl** introduces the **AjaxClientEvents** property that contains the following events:
+`RadAjaxControl` introduces the `AjaxClientEvents` property that contains the following events:
 
 
 | Name | Description |
 | ------ | ------ |
-|[OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})|Fired when a request to the server is started.|
-|[OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})|Fired when a response from the server is processed.|
+|[`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})|Fired when a request to the server is started.|
+|[`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%})|Fired when a response from the server is processed.|
 
-To use these events, simply write a JavaScript function that can be called when the event occurs(**Example 1** ). Then assign the name of the JavaScript function as the value of the the corresponding property.
+To use these events, write a JavaScript function that can be called when the event occurs. Then, assign the name of the JavaScript function as the value of the corresponding property.
 
-Example 1: Displays a message when request starts and ends.
+The following example shows how to display a message when a request starts and ends.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -50,10 +49,6 @@ Example 1: Displays a message when request starts and ends.
 
 ## See Also 
 
- * [Overview]({%slug ajaxmanager/overview%})
-
- * [Client-side Overview]({%slug ajaxmanager/client-side-programming/overview%})
-
- * [RadAjaxManager Object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%})
-
- * [Demo: RadAjaxManager Client-side API](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)
+* [AjaxManager Overview]({%slug ajaxmanager/overview%})
+* [Demo: AjaxManager Client-Side API](https://demos.telerik.com/aspnet-ajax/ajax/examples/manager/clientsideapi/defaultcs.aspx)
+* [The RadAjaxManager Client-Side Object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%})
