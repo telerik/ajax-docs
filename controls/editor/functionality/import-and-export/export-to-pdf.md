@@ -358,6 +358,7 @@ Although we are striving to constantly improve our products, there are some limi
 * Nested DIV elements with absolute position;
 * Nested DIV elements with specified width or height;
 * `<ins>` and `<del>` elements;
+* `<pre>` elements and inline `style="white-space:pre;"` styles
 * Automatic text clipping;
 * Client-side binding;
 * Medium trust;
