@@ -71,7 +71,6 @@ The **RadClientDataSource** provides the following properties for configuration.
 | UpdateMethod | *Used with Model Binding.* Define the Update Method that will be used for updating records. |
 
 
-For live illustration of the functionality check out the online demo [here](https://demos.telerik.com/aspnet-ajax/clientdatasource/functionality/binding-to-datasourcecontrols/defaultcs.aspx).
 
 
 
