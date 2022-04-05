@@ -77,19 +77,120 @@ To customize the Legend items' marker size and type, you have a few options:
 1. Use [visual templates]({%slug htmlchart/functionality/visual-template%}) as demonstrated in the **Example 2**
 2. Use the overwrite shared in the [Automatic Legend marker shape customization]({%slug htmlchart-custom-legend-marker-shape%}) KB article. 
 
-//TODO:
+
 >caption **Figure 2**: Legend shape customized via `VisualTemplate`.
-![legend marker shape](images/legend-position-align.png)
-//TODO:
+![legend marker shape](images/legend-custom-shapes.png)
+
 >caption **Example 2**: The code that creates **Figure 2**.
 
 ````ASP.NET
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="350" Height="150">
-	<Legend>
-		<Appearance Position="Bottom" Align="End">
-		</Appearance>
-	</Legend>
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Font-Size="14px" Width="600px" Height="400px">
+    <PlotArea>
+        <Series>
+            <telerik:LineSeries Name="Product 1">
+                <MarkersAppearance MarkersType="Triangle" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="150" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 2">
+                <MarkersAppearance MarkersType="Circle" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="210" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 3">
+                <MarkersAppearance MarkersType="Cross" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="50" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 4">
+                <MarkersAppearance MarkersType="Square" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="250" />
+                </SeriesItems>
+            </telerik:LineSeries>
+        </Series>
+        <XAxis>
+            <Items>
+                <telerik:AxisItem LabelText="1" />
+            </Items>
+        </XAxis>
+    </PlotArea>
+    <Legend>
+        <Appearance Visible="True"></Appearance>
+        <Item Visual="legendItemVisual" />
+    </Legend>
 </telerik:RadHtmlChart>
+<script>
+    var drawing = kendo.drawing,
+        geometry = kendo.geometry,
+        columnWidth;
+
+    function legendItemVisual(e) {
+        var column;
+        var color = e.options.markers.background;
+        var labelColor = e.options.labels.color ? e.options.labels.color : "#000";
+        var rect = new kendo.geometry.Rect([0, 0], [100, 50]);
+        var layout = new drawing.Layout(rect, {
+            spacing: 5,
+            alignItems: "center"
+        });
+
+        var markersType = e.series.markers.type;
+        var marker;
+        console.log(markersType);
+        if (markersType == "triangle") {
+            marker = new kendo.drawing.Path({
+                fill: {
+                    color: color
+                },
+                stroke: { color: color, width: 0 }
+            }).moveTo(10, 0).lineTo(15, 10).lineTo(5, 10).close();
+        }
+        else if (markersType == "cross") {
+            var svgPath = "M32.78,0.50 L42.22,0.50 L42.22,32.78 L74.50,32.78 L74.50,42.22 L42.22,42.22 L42.22,74.50 L32.78,74.50 L32.78,42.22 L0.50,42.22 L0.50,32.78 L32.78,32.78 z";
+            marker = drawing.Path.parse(svgPath, {
+                fill: {
+                    color: color,
+                },
+                stroke: {
+                    color: color,
+                    width: 1
+                }
+            });
+            marker.transform(geometry.transform().scale(0.18, 0.18).rotate(45, 0)); //resize and rotate the path
+        }
+        else if (markersType == "square") {
+            var rectGeom = new geometry.Rect([5, 5], [10, 10]);
+            marker = new drawing.Rect(rectGeom, {
+                fill: {
+                    color: color
+                },
+                stroke: { color: color, width: 0 }
+            });
+
+        }
+        else { //cicle
+            var CircGeometry = new kendo.geometry.Circle([10, 5], 5);
+            marker = new kendo.drawing.Circle(CircGeometry, {
+                stroke: { color: color, width: 0 },
+                fill: { color: color }
+            });
+        }
+
+        var label = new kendo.drawing.Text(e.series.name, [0, 0], {
+            fill: {
+                color: labelColor
+            }
+        });
+
+        layout.append(marker, label);
+        layout.reflow();
+        return layout;
+    };
+</script>
 ````
 
 
