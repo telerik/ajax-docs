@@ -66,7 +66,7 @@ However, once the container control is added to the UpdatedControls collection, 
 	            <telerik:AjaxUpdatedControl ControlID="Panel1" />
 	        </UpdatedControls>
 	    </telerik:AjaxSetting>
-	    <telerik:AjaxSetting AjaxControlID="Button2">
+	    <telerik:AjaxSetting AjaxControlID="Panel1">
 	        <UpdatedControls>
 	            <telerik:AjaxUpdatedControl ControlID="Panel1" />
 	        </UpdatedControls>
@@ -86,6 +86,10 @@ However, once the container control is added to the UpdatedControls collection, 
 
 
 
+
+
+>note Note that you need to add an AJAX setting where the container control updates itself.
+>
 
 
 **2. [*Оbsolete*] Set the ChildrenAsTriggers property of the update panel added dynamically around the container control to false**
