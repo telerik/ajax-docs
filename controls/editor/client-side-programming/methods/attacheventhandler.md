@@ -78,11 +78,30 @@ Here is an example, which works for both ContentAreaMode="div" and ContentAreaMo
 </script>
 ````
 
+The $telerik.addExternalHandler method will add an additional handler for each attached event (click, bluer, or other) you perform, which means that you have to remove the old one if it exists:
 
+````ASP.NET
+<script>
+// remove old handler, if it exists
+if (clickHandler)
+    $telerik.removeExternalHandler(element, "click", clickHandler);
+// declare new handler (overriding the old one)
+clickHandler = function (e) {
+    node = e.srcElement || e.target;
+    //console.log("click" + node.tagName);
+};
+// add new handler
+$telerik.addExternalHandler(element, "click", clickHandler);
+</script>
+````
 
->note In earlier versions, **addExternalHandler()** was referred to through the **Telerik.Web.DomElement** object.Since then has undergone significant optimization of core scripts (script size was reduced by over 100K, and the controls now load even faster). One of the optimizations was to group all core functionality into a single javascript class/object referred to as **$telerik** .
+You can find an example on how to examine the selected elements in the content area on click and right click (oncontextmenu) of RadEditor in this forum post:
+[RadEditor.getSelectedElement() does not return a svg-element in Chrome & Edge](https://www.telerik.com/forums/radeditor-getselectedelement-does-not-return-a-svg-element-in-chrome-edge).
+
+>note In earlier versions, **addExternalHandler()** was referred to through the **Telerik.Web.DomElement** object. Since then has undergone significant optimization of core scripts (script size was reduced by over 100K, and the controls now load even faster). One of the optimizations was to group all core functionality into a single javascript class/object referred to as **$telerik** .
 >
 >So, the correct way to refer to a "system" method is:
 >`$telerik.addExternalHandler()`
 
 
+  
