@@ -63,6 +63,10 @@ If you are using the Material skin, you must also add the `https://fonts.gstatic
 
 The presence of the `font-src 'self'` section causes Chrome to evaluate all fonts on the page and this will also trigger requests to the Google cloud for the Roboto font, even if it is not used by the page, that is, even if the Material skin is not used.
 
+You can find more information on how to work with third-party libraries and resolved CSP-related issues in the following Telerik forum thread [RadMap CSP Setting for Bing](https://www.telerik.com/forums/rad-map-csp-setting-for-bing) and in the Resolve Content Security Policies errors YouTube video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FWHUzMZKXE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Working with Microsoft AJAX
 
 The Microsoft (MS) AJAX framework also uses `eval()` calls and inline `<script>` tags. It generates a `$create()` statement for each `IScriptControl` instance such as the Telerik UI for ASP.NET AJAX controls. They are placed in an inline `<script>` tag at the end of the form.
