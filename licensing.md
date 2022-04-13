@@ -42,11 +42,11 @@ The `license.licx` file is maintained by Visual Studio and contains information 
 
 ## Licensing FAQ
 
-* How many licenses do I need? - Each license allows one developer to work with the product. If you purchase a license for a product bundle, such as Telerik UI for ASP.NET AJAX or DevCraft Complete, all the tools in the bundle are licensed to one developer, and only that developer can develop products with the tools in the bundle.
+* *How many licenses do I need?* - Each license allows one developer to work with the product. If you purchase a license for a product bundle, such as Telerik UI for ASP.NET AJAX or DevCraft Complete, all the tools in the bundle are licensed to one developer, and only that developer can develop products with the tools in the bundle.
 
-* Can I install the product on more than one machine? - The Telerik licenses have no ties to any specific machine or server, but only to a developer. Developers can install an application that uses our controls on one to many machines (development, staging, production) using their single license.
+* *Can I install the product on more than one machine?* - The Telerik licenses have no ties to any specific machine or server, but only to a developer. Developers can install an application that uses our controls on one to many machines (development, staging, production) using their single license.
 
-* Does the trial version impose any limitations - the trial version of Telerik UI for ASP.NET AJAX is fully functional and will continue to work even after the 30 days evaluation period. The only limitation is the random trial error message that you will get sometimes when you refresh or load the page with the components. The upgrade to a registered Dev version of the product will remove the trial error.
+* *Does the trial version impose any limitations?* - The trial version of Telerik UI for ASP.NET AJAX is fully functional and will continue to work even after the 30 days evaluation period. The only limitation is the random trial error message that you will get sometimes when you refresh or load the page with the components. The upgrade to a registered Dev version of the product will remove the trial error. You can find upgrade instructions in [Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET AJAX]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}).
 
 You can find more information for the licensing in the [Purchasing & Licensing FAQs](https://www.telerik.com/purchase/faq/licensing-purchasing) page as well as in the [Telerik licensing demystified](https://www.telerik.com/blogs/telerik-licensing-demystified) blog post.
 
