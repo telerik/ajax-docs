@@ -110,5 +110,5 @@ By simulating the AjaxPanel behavior, you are free from the limitation to update
 
 * [AjaxManager Overview]({%slug ajaxmanager/overview%})
 
-* [Known Reasons for Error Messages in the AjaxManager]({%slug ajaxmanager/troubleshooting/known-reasons-for-error-messages%})
+* [Known Reasons for Error Messages in the AjaxManager]({%slug syntax-browser-errors-occur%})
  

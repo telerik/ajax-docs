@@ -55,6 +55,6 @@ RadAjaxPanel1.ResponseScripts.Add(String.Format("window.location.href = ""{0}"";
 
 ## See Also
 
-* [Known Reasons for Error Messages]({%slug ajaxmanager/troubleshooting/known-reasons-for-error-messages%})
+* [Known Reasons for Error Messages]({%slug syntax-browser-errors-occur%})
 
 * [AjaxManager Server-Side Programming Properties]({%slug ajaxmanager/server-side-programming/properties%})
