@@ -21,23 +21,22 @@ The `AjaxSettingCreating` event handler receives two arguments:
 
 * An `AjaxSettingCreatingEventArgs` object with the following properties:
 
-		* `Canceled`&mdash;This boolean property can be set to `true` to abandon creating the `AjaxSetting` and will prevent the [`OnAjaxSettingCreated`]({%slug ajaxmanager/server-side-programming/events/onajaxsettingcreated%}) event from firing.
+    * `Canceled`&mdash;This boolean property can be set to `true` to abandon creating the `AjaxSetting` and will prevent the [`OnAjaxSettingCreated`]({%slug ajaxmanager/server-side-programming/events/onajaxsettingcreated%}) event from firing.
 
-		* `Initiator`&mdash;A reference to the object that triggered the AJAX request.
+    * `Initiator`&mdash;A reference to the object that triggered the AJAX request.
 
-		* `Updated`&mdash;A reference to the object that will be updated by the AJAX request.
+    * `Updated`&mdash;A reference to the object that will be updated by the AJAX request.
 
-		* `UpdatePanel`&mdash;A reference to the underlying MS AJAX UpdatePanel.
+    * `UpdatePanel`&mdash;A reference to the underlying MS AJAX UpdatePanel.
+
 
 The following example demonstrates how to use the `OnAjaxSettingCreating` event.
 
 ````C#
-	
 protected void RadAjaxManager1_AjaxSettingCreating(object sender, AjaxSettingCreatingEventArgs e)
 {
 	e.Canceled = (e.Initiator == Button1) & (e.Updated == Label1);
-}
-				
+}			
 ````
 ````VB
 Protected Sub RadAjaxManager1_AjaxSettingCreating(ByVal sender As Object, ByVal e As AjaxSettingCreatingEventArgs)

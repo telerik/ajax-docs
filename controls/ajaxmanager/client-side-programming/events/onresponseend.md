@@ -19,11 +19,11 @@ Two parameters are passed to the event handler with the following methods:
 
 * `eventArgs`&mdash;Provides the following methods:
 
-		* `get_eventTarget()`&mdash;Gets the `UniqueID` of the element that had raised the request.
+    * `get_eventTarget()`&mdash;Gets the `UniqueID` of the element that had raised the request.
 
-		* `get_eventArgument()`&mdash;Gets the string passed in the initial AJAX request.
+    * `get_eventArgument()`&mdash;Gets the string passed in the initial AJAX request.
 
-		* `get_eventTargetElement()`&mdash;Gets the instance of the client-side object that raised the AJAX request.
+    * `get_eventTargetElement()`&mdash;Gets the instance of the client-side object that raised the AJAX request.
 
 The following example displays the control that initiated the request.
 

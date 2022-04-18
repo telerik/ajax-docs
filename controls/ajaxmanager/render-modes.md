@@ -17,48 +17,48 @@ To change this behaviour, the AjaxManager exposes the `UpdatePanelsRenderMode`, 
 
 * `UpdatePanelsRenderMode`&mdash;You can set this property to the AjaxManager to control the render mode for all AJAX-enabled controls. `UpdatePanelsRenderMode` has two possible values: `Block` (the default value) and `Inline`. 
 
-		The following example shows how to set the `UpdatePanelsRenderMode` value to `Inline`.
+    The following example shows how to set the `UpdatePanelsRenderMode` value to `Inline`.
 
-		````ASP.NET
-		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" UpdatePanelsRenderMode="Inline">
-			<AjaxSettings>
-			    <telerik:AjaxSetting AjaxControlID="Button1">
-			        <UpdatedControls>
-			         <telerik:AjaxUpdatedControl ControlID="Label1" />
-			         <telerik:AjaxUpdatedControl ControlID="Label2" />
-			        </UpdatedControls>
-			    </telerik:AjaxSetting>
-			</AjaxSettings>
-		</telerik:RadAjaxManager>
-		````
+    ````ASP.NET
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" UpdatePanelsRenderMode="Inline">
+		<AjaxSettings>
+			<telerik:AjaxSetting AjaxControlID="Button1">
+				<UpdatedControls>
+					<telerik:AjaxUpdatedControl ControlID="Label1" />
+					<telerik:AjaxUpdatedControl ControlID="Label2" />
+				</UpdatedControls>
+			</telerik:AjaxSetting>
+		</AjaxSettings>
+    </telerik:RadAjaxManager>
+    ````
 
 
 
 * `UpdatePanelRenderMode`&mdash;You can set this property for a particular `AjaxUpdatedControl` setting in the AjaxManager. Its default value is `Block`. You can change it to `Inline` as shown in the following example.
 
-		````ASP.NET
-		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-			<AjaxSettings>
-			    telerik:AjaxSetting AjaxControlID="Button1">
-			        <UpdatedControls>
-			                <telerik:AjaxUpdatedControl ControlID="Label1" UpdatePanelRenderMode="Inline" />
-			                telerik:AjaxUpdatedControl ControlID="Label2" />
-			        </UpdatedControls>
-			    </telerik:AjaxSetting>
-			</AjaxSettings>
-		</telerik:RadAjaxManager>
-		````
+    ````ASP.NET
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+		telerik:AjaxSetting AjaxControlID="Button1">
+			<UpdatedControls>
+					<telerik:AjaxUpdatedControl ControlID="Label1" UpdatePanelRenderMode="Inline" />
+					telerik:AjaxUpdatedControl ControlID="Label2" />
+			</UpdatedControls>
+		</telerik:AjaxSetting>
+	</AjaxSettings>
+    </telerik:RadAjaxManager>
+    ````
 
 
 
 * `RenderMode`&mdash;You can change the render mode of the controls wrapped in an AjaxManager control by setting its `RenderMode` property to `Inline` or `Block` (the default value).
 
-		````ASP.NET
-		<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" RenderMode="Inline">
-			 <asp:Button ID="Button1" runat="server" Text="AJAX" />
-			 <asp:Label ID="Label1" runat="server" Text="Label1" />
-		</telerik:RadAjaxPanel>
-		````
+    ````ASP.NET
+    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" RenderMode="Inline">
+		<asp:Button ID="Button1" runat="server" Text="AJAX" />
+		<asp:Label ID="Label1" runat="server" Text="Label1" />
+    </telerik:RadAjaxPanel>
+    ````
 
 
 
@@ -66,7 +66,6 @@ If an updated control has several initiators and is present in several places in
 
 
 ````C#
-	
 protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCreatedEventArgs e)
 	{
 	    if (e.Updated.ID == "Label1")
@@ -80,7 +79,6 @@ Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e
 	    e.UpdatePanel.RenderMode = UpdatePanelRenderMode.Block
 	End If
 End Sub
-	
 ````
 
 

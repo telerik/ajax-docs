@@ -21,17 +21,17 @@ Two parameters are passed to the event handler with the following methods:
 
 * `eventArgs`&mdash;Provides the following methods:
 
-		* `set_cancel()`&mdash;Lets you permit or block the AJAX request from continuing. Calling `set_cancel(true)` prevents the request from continuing.
+    * `set_cancel()`&mdash;Lets you permit or block the AJAX request from continuing. Calling `set_cancel(true)` prevents the request from continuing.
 
-		* `get_eventTarget()`&mdash;Gets the `UniqueID` of the element that had raised the request.
+    * `get_eventTarget()`&mdash;Gets the `UniqueID` of the element that had raised the request.
 
-		* `get_eventArgument()`&mdash;Gets the string passed in the initial AJAX request.
+    * `get_eventArgument()`&mdash;Gets the string passed in the initial AJAX request.
 
-		* `get_eventTargetElement()`&mdash;Gets the instance of the client-side object that raised the AJAX request. You can iterate each of the settings and retrieve the initiating control `id` and another array of objects that represent updated controls.
+    * `get_eventTargetElement()`&mdash;Gets the instance of the client-side object that raised the AJAX request. You can iterate each of the settings and retrieve the initiating control `id` and another array of objects that represent updated controls.
 
-		* `get_ajaxSettings()`&mdash;Returns an array of objects that represents AjaxManager current configuration of the AjaxManager or the updated controls of the AjaxPanel.
+    * `get_ajaxSettings()`&mdash;Returns an array of objects that represents AjaxManager current configuration of the AjaxManager or the updated controls of the AjaxPanel.
 
-		* `get_enableAjax()`, `set_enableAjax()`&mdash;Gets or sets if an AJAX request is performed. `set_enableAjax(false)` causes the request to be performed with a standard postback.
+    * `get_enableAjax()`, `set_enableAjax()`&mdash;Gets or sets if an AJAX request is performed. `set_enableAjax(false)` causes the request to be performed with a standard postback.
 
 The example below displays the control that initiated the request.
 
