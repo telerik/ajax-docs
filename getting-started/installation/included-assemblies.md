@@ -91,6 +91,8 @@ The Telerik document processing libraries are a set of assemblies that let you i
 
 @[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the needed assemblies, support: They support, isplural: assemblies")
 
+>note The version of the Telerik Document Processing assemblies differs from the Main Assemblies one since they are built a few weeks earlier. To ensure compatibility of the assemblies, you have to obtain the assemblies from the same release/installation.
+
 Telerik UI for ASP.NET AJAX provides the following document processing assemblies:
 
 |Document Processing Assemblies|Specifics
