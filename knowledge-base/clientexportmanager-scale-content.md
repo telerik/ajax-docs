@@ -16,6 +16,9 @@ When the ClientExportManager exports the content with pageBreaks and if the cont
 
 
 ### SOLUTION
+
+>note As of R2 2022 there is a new Scale server property inside the PdfSettings inner-tag which enables scaling of the produced PDF content.
+
 The solution is to use the [scale client-side setting](https://docs.telerik.com/kendo-ui/framework/drawing/pdf-output/scaling) of the underlying Kendo Drawing API of the ClientExportManager as shown below:
 
 ````ASP.NET
