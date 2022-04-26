@@ -1,5 +1,5 @@
 ---
-title: Uncaught ReferenceError: Telerik is not defined error
+title: Uncaught ReferenceError Telerik is not defined error
 description: Have you ever received the Uncaught ReferenceError Telerik is not defined JavaScript client error on the page or in the browser console? See how to solve it with Telerik UI for ASP.NET AJAX
 type: troubleshooting
 page_title: Uncaught ReferenceError Telerik is not defined error
@@ -41,7 +41,7 @@ if (typeof ($telerik) != "undefined" && Telerik.Web.UI.Editor != undefined && Te
 }
 ````
 
-Foe example check out the following sample:
+For example, check out the following sample:
 
 ````ASP.NET
             <telerik:RadEditor ID="RadEditor1" runat="server" Enabled="false">
@@ -102,6 +102,6 @@ Foe example check out the following sample:
 
 ## See Also
 * [Custom Modules]({%slug editor/functionality/modules/custom-modules %})
-* [Cannot read properties of undefined reading Modules error]({ %slug editor-cannot-read-properties-of-undefined-reading-modules %})
+* [Cannot read properties of undefined reading Modules error]({%slug editor-cannot-read-properties-of-undefined-reading-modules %})
  
   
