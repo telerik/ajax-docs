@@ -1,6 +1,6 @@
 ---
 title: Uncaught ReferenceError: Telerik is not defined error
-description: Have you ever received the Uncaught ReferenceError Telerik is not defined JavaScript client error on the page or in the browser console? See how to solve it with Telerik UI for ASP.NET AJAX - Telerik Web UI
+description: Have you ever received the Uncaught ReferenceError Telerik is not defined JavaScript client error on the page or in the browser console? See how to solve it with Telerik UI for ASP.NET AJAX
 type: troubleshooting
 page_title: Uncaught ReferenceError Telerik is not defined error
 slug: common-telerik-is-not-defined-error

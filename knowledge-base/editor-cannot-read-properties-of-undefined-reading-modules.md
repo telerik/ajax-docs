@@ -1,6 +1,6 @@
 ---
 title: Uncaught TypeError Cannot read properties of undefined reading Modules error
-description: Have you received "Uncaught TypeError: Cannot read properties of undefined (reading 'Modules')" JavaScript client error on the page or in the browser console? See how to solve it with Telerik UI for ASP.NET AJAX - Telerik Web UI
+description: Have you received Uncaught TypeError Cannot read properties of undefined reading Modules JavaScript client error on the page or in the browser console? See how to solve it with Telerik UI for ASP.NET AJAX
 type: troubleshooting
 page_title: Uncaught TypeError Cannot read properties of undefined reading Modules error
 slug: editor-cannot-read-properties-of-undefined-reading-modules
