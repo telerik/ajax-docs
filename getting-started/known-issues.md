@@ -50,9 +50,9 @@ For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX wit
 
 * [`This configuration section cannot be used at this path.`]({% slug common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path %})
 
-* [The Telerik Control Stylesheet Is Not Registered after an AJAX Request](#telerik-control-stylesheet-is-not-registered-after-an-ajax-request-inside-ms-updatepanel-when-the-control-is-not-initially-visible-on-the-page)
+* [The Telerik Control Stylesheet Is Not Registered after an AJAX Request]({% slug control-stylesheet-not-registered-after-ajax-request %})
 
-* [Error When Using the Telerik Controls with the ScriptManager on the Login Page]({% slug control-stylesheet-not-registered-after-ajax-request %})
+* [Error When Using the Telerik Controls with the ScriptManager on the Login Page]({% slug using-controls-with-scriptmanager-login-page-error %})
 
 * [Error during Design-Time on a Page Using Telerik Controls]({% slug design-time-errors-on-page-with-telerik-controls %})
 
