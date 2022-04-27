@@ -316,24 +316,24 @@ Due to the fact that the `RadCompression` module takes advantage of the ASP.NET 
 * `ControlState`&mdash;By default, the `SessionPageStatePersister` doesn't add the `ControlState` to the `Session` so you may need to add it manually. The following example demonstrates how to set the control state in `Session`.
 
 
-		````XML
-		<system.web>
-		  <browserCaps>
-		    <case>
-		      RequiresControlStateInSession=true
-		    </case>
-		  </browserCaps>
-		</system.web>
-		````
+  ````XML
+<system.web>
+  <browserCaps>
+    <case>
+      RequiresControlStateInSession=true
+    </case>
+  </browserCaps>
+</system.web>
+````
 
 * `Page history`&mdash;In applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the `Session`. The default value of the history size is `9`. The following example demonstrates how to configure the amount of pages that are persisted in `Session`.
 
 
-		````XML
-		<system.web>
-		  <sessionPageState historySize="15" />
-		</system.web>
-		````
+  ````XML
+<system.web>
+  <sessionPageState historySize="15" />
+</system.web>
+````
 
 
 ### CloudUpload
