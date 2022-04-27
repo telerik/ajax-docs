@@ -49,18 +49,18 @@ Depending on the possible cause of this issue, use either of the following appro
 
 * (Unauthorized handler) Add a `<location>` section to the application configuration file thus allowing access to `Telerik.Web.UI.WebResource.axd` to all users, for example:
 
-		````XML
-		<configuration>
-		...
-		<location path="Telerik.Web.UI.WebResource.axd">
-		   <system.web>
-		     <authorization>
-		       <allow users="*"/>
-		     </authorization>
-		   </system.web>
-		 </location>
-		...
-		</configuration>
-		````
+	````XML
+<configuration>
+...
+	<location path="Telerik.Web.UI.WebResource.axd">
+		<system.web>
+			<authorization>
+			<allow users="*"/>
+			</authorization>
+		</system.web>
+	</location>
+...
+</configuration>
+````
 
 * (Previous version) Remove `runtimeVersionv2.0` from the handler declaration.
