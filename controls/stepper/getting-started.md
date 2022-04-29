@@ -21,7 +21,7 @@ The following tutorial demonstrates how you can add the RadStepper control and c
     * `ShowLabel` - Indicates whether the Steps in the Stepper will render their label element (the text placed below the Step indicator circle). Refer to [Appearance]({%slug stepper/functionality/appearance%}) article.
     * `ShowIndicator` - Indicates whether the Steps in the Stepper will render their indicator element (the icon or number placed in a circle above the Step label). Refer to [Operation Modes]({%slug stepper/functionality/operation-modes%})
     * `Linear` - Determines whether the Stepper will force the user to follow the Steps sequence or not. Refer to [Operation Modes]({%slug stepper/functionality/operation-modes%})
-    * `SelectOnFocus` - Applicable for scenarios when keyboard is used for navigation. Indicates whether the selection will change upon focus change or it will require additional action (Enter or Space bar key press) in order to select the focused step. Check out [Keyboard Navigation]({%slug stepper/accessibility/keyboard-navigation%})
+    * `SelectOnFocus` - Applicable for scenarios when keyboard is used for navigation. Indicates whether the selection will change upon focus change or it will require additional action (Enter or Space bar key press) in order to select the focused step. Check out [Keyboard Navigation]({%slug stepper/accessibility-and-internationalization/keyboard-support%})
 
 1. Define the desired **StepperStep** instances in the &lt;Steps&gt; tag and set their properties:
 

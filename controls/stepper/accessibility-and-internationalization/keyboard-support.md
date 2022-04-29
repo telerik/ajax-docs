@@ -36,6 +36,17 @@ With the `AccessKey` property of the Control you can set the desired key for qui
 
 As result Alt + W focuses the Stepper.
 
+>caption SelectOnFocus
+
+RadStepper exposes the `SelectOnFocus` property, applicable for scenarios when keyboard is used for navigation. 
+
+The boolean value set to the property indicates whether the selection will change upon focus change or it will require additional action (Enter or Space bar key press) in order to select the focused step. By default SelectOnFocus is set to false.
+
+````ASPX
+<telerik:RadStepper runat="server" SelectOnFocus="true">
+````
+
+
 Test the keyboard support of RadStepper in our [live demos](https://demos.telerik.com/aspnet-ajax/stepper/overview/defaultcs.aspx)
 
 
