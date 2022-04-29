@@ -10,7 +10,7 @@ position: 2
 
 # Appearance 
 
-The Stepper is rendered horizontally with an indictor element and a label for each Step. The Stepper provides the possibility to customize all of these configurations.
+The Stepper is rendered horizontally with an indicator element and a label for each Step. The Stepper provides the possibility to customize all of these configurations.
 
 ## Orientation
 

@@ -70,18 +70,18 @@ Sample declaration:
 
 The fields which can be used in the template are:
 
-`label` *String* - the label set on the step
-`icon` *String* - the icon specified for this step (if any)
-`successIcon` *String* - the successIcon specified for this step (if any)
-`enabled` *Boolean* - indicates whether the step is enabled (true) or disabled (false)
-`error` *Boolean* - indicates whether the step has error (true) or not (false)
-`selected` *Boolean* - indicates whether the step is selected
-`previous` *Boolean* - indicates whether the step is before the currently selected or not
-`index` *Number* - a zero-based index of the current step
-`isFirstStep` *Boolean* - indicates whether the step is the initial one in the Stepper
-`isLastStep` *Boolean* - indicates whether the step is the last one in the Stepper
-`indicatorVisible` *Boolean* - indicates whether the indicator, which holds the icon should be displayed or not
-`labelVisible` *Boolean* - indicates whether the label section of the step should be displayed or not
+ - `label` *String* - the label set on the step
+ - `icon` *String* - the icon specified for this step (if any)
+ - `successIcon` *String* - the successIcon specified for this step (if any)
+ - `enabled` *Boolean* - indicates whether the step is enabled (true) or disabled (false)
+ - `error` *Boolean* - indicates whether the step has error (true) or not (false)
+ - `selected` *Boolean* - indicates whether the step is selected
+ - `previous` *Boolean* - indicates whether the step is before the currently selected or not
+ - `index` *Number* - a zero-based index of the current step
+ - `isFirstStep` *Boolean* - indicates whether the step is the initial one in the Stepper
+ - `isLastStep` *Boolean* - indicates whether the step is the last one in the Stepper
+ - `indicatorVisible` *Boolean* - indicates whether the indicator, which holds the icon should be displayed or not
+ - `labelVisible` *Boolean* - indicates whether the label section of the step should be displayed or not
 
 >caption Example
 
@@ -127,7 +127,7 @@ With the declaration above, the Indicator element of the Step should be the same
 
 >caption Custom Attributes
 
-The StepperStep object exposes Attributes property that can be used for processing additional information inside the ClientIconTemplate.
+The StepperStep object exposes `Attributes` property that can be used for processing additional information inside the `ClientIconTemplate`.
 Check out the example below to see how to use Step's custom attribute in the Template:
 
 ![Custom Attribute in Template](../images/stepper-functionality-icons-template-attributes.png)
