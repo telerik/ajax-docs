@@ -10,6 +10,8 @@ position: 0
 
 # Global Resource Files
 
+>note **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work. You can also find the available custom localizations for the control in the Telerik Code Library -> UI for ASP.NET AJAX Code Library -> [Localization](https://www.telerik.com/support/code-library/aspnet-ajax/localization) section** 
+
 With RadEditor you can create a new language pack or alter labels of an existing language pack.
 
 Localization strings are contained in resource (.resx) files. The resource files can be found in the installation directory under "\App_GlobalResources". There are three built-in localizations (English, French and German) which can be set through the **Language** property. For example to localize the editor in German set Language="de-DE".
@@ -55,5 +57,5 @@ RadEditor1.Language = "it-IT"
 
 
 
->note **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work.** 
+   
 
