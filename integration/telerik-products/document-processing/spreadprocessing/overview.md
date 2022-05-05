@@ -29,6 +29,8 @@ This library enables you to work with spreadsheet documents – create ones from
 
 * [**Hyperlinks**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/hyperlink): The API enables you to add, remove, edit and search for hyperlinks in the worksheets of the document.
 
+* [**Conditional Formatting**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/conditional-formatting): Make it easy to analyze data, find critical issues, patterns and trends by representing the data inside in a user-friendly manner.
+
 * [**Workbook Protection**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/protection/workbook): Prevents the users from modifying the workbook by adding, removing, renaming or reordering sheets.	
 
 * [**Worksheet protection**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/protection/worksheet): Restricts the user from modifying the content and structure of the worksheet. Additionally, the model offers protection options that let you choose a set of commands that will be available to the user when protection is enabled.
@@ -68,6 +70,10 @@ This library enables you to work with spreadsheet documents – create ones from
 * [**Page Setup**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/worksheetpagesetup): Set and get header and footer settings and apply various page setup options like paper size, orientation, scaling, margins, breaks, etc. Apply print settings.		
 
 * [**History**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/history): The document model provides the possibility to maintain a history stack that tracks all changes to the content of the workbook. Each worksheet has its own history stack.
+
+* [**Comments**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/comments): You can leave comments and replies on cells, which allows for easier team communication.
+
+* [**Notes**](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/notes): Note important information in your worksheet.
 
 ## Supported formats: 
 
