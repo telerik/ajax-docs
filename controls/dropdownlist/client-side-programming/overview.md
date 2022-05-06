@@ -51,6 +51,32 @@ function onClientDropDownClosing(sender, eventArgs) {
 	
 ````
 
+## Validating a selection
+
+You can validate the selection of a DropDownList by using the `get_selectedItem()` method:
+
+````JavaScript
+
+function ValidateDropDownList(sender, args) {
+    var isSelected = false;
+    var dropDown = $find("<%= RadDropDownList1.ClientID %>");
+    
+    var selectedItem = dropDown.get_selectedItem();
+
+    if (selectedItem) {
+        var selectedText = selectedItem.get_text();
+        alert("The selected item's text is " + selectedText);
+        isSelected = true;
+    }
+    else {
+        alert("Select an item!");
+    }
+
+    return isSelected;
+}	
+
+````
+
 
 
 ## Calling a client-side method
