@@ -3,8 +3,8 @@ title: Video Onboarding
 page_title: Video Onboarding
 description: "Get started with Telerik Web UI for ASP.NET AJAX and learn about the Online Technical Training free on-demand training program exclusive to active license holders."
 slug: virtualclass_ajax
-previous_url: virtual-calssroom
-position: 40
+previous_url: virtual-calssroom, virtual-classroom
+position: 4
 ---
 
 # Video Onboarding
