@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: Client-side Events - RadStepper
-description: Check our the client-side events of RadStepper - OnInitialize, OnLoad, OnSelect, OnActivate
+description: Check our the client-side events of RadStepper - OnInitialize, OnLoad, OnStepSelected, OnStepSelecting
 slug: stepper/client-side-programming/events
 tags: events
 published: True
@@ -29,9 +29,9 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 * **OnLoad** — Fired when RadStepper is initialized and loaded on the page.
   
-* [OnSelect](https://docs.telerik.com/kendo-ui/api/javascript/ui/stepper/events/select) — Fires when the user clicks on a Step to select it. (Cancelable event) 
+* [OnStepSelected](https://docs.telerik.com/kendo-ui/api/javascript/ui/stepper/events/select) — Fires when the user clicks on a Step to select it. (Cancelable event) 
   
-* [OnActivate](https://docs.telerik.com/kendo-ui/api/javascript/ui/stepper/events/activate) — Fires when a new Step has been selected upon user interaction.
+* [OnStepSelecting](https://docs.telerik.com/kendo-ui/api/javascript/ui/stepper/events/activate) — Fires when a new Step has been selected upon user interaction.
 
 
 ## Examples
@@ -55,7 +55,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 ````ASP.NET
 <script>
-    function onActivate(sender, args) {
+    function onStepSelecting(sender, args) {
         //kendo object of the activated step 
         var step = args.get_step()
         //client side object of the step properties
@@ -70,7 +70,7 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
     }
 </script>
 <telerik:RadStepper runat="server" ID="RadStepper1">
-    <ClientEvents OnActivate="onActivate" />
+    <ClientEvents OnStepSelecting="onStepSelecting" />
     <Steps>
         <telerik:StepperStep Label ="Step 1"/>
         <telerik:StepperStep Label ="Step 2"/>
