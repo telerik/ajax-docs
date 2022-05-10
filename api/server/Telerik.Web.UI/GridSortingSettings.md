@@ -22,6 +22,11 @@ Holds miscellaneous properties related to sorting like the localization
 Defines whether a predefined CssClass will be applied to the sorted column's cells
             Default value is True
 
+###  ShowNoSortIcons `Boolean`
+
+Defines whether a NoSortIcons will be visible when a Sortable column is not sorted
+            Default value is False
+
 ###  SortedAscToolTip `String`
 
 Gets or sets the tooltip that will be displayed when you hover the sorting button

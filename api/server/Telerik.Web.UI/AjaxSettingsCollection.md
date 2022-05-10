@@ -139,6 +139,42 @@ Determines the height of the update panel.
 
 `System.Void` 
 
+###  AddAjaxSetting
+
+This method adds a new AjaxSetting to the collection by building one from its
+            parameters.
+
+#### Parameters
+
+#### ajaxifiedControl `System.Web.UI.Control`
+
+The web control to be ajaxified (the initiator of the AJAX request).
+
+#### updatedControl `System.Web.UI.Control`
+
+The web control that has to be updated.
+
+#### loadingPanel `Telerik.Web.UI.RadAjaxLoadingPanel`
+
+The loading panel.
+
+#### renderMode `System.Web.UI.UpdatePanelRenderMode`
+
+The render mode which determines if the rendered content will be 
+            inside of <div> or <span> HTML element.
+
+#### updatePanelHeight `System.Web.UI.WebControls.Unit`
+
+Determines the height of the update panel.
+
+#### updatePanelCssClass `System.String`
+
+Determines the CssClass of the update panel.
+
+#### Returns
+
+`System.Void` 
+
 ###  Contains
 
 Checks wether the item is present in the collection.

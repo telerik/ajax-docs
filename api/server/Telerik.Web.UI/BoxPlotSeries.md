@@ -69,6 +69,14 @@ The field which specifies the mean value of the box plot item when the chart is 
 
 The field which specifies the median value of the box plot item when the chart is databound.
 
+###  DataNoteTextField `String`
+
+DataNoteTextField property is not supported for Radar, Polar, Pie, Funnel and BoxPlot series types.
+
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  DataOutliersField `String`
 
 The field which specifies the outliers value of the box plot item when the chart is databound.
@@ -103,6 +111,14 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 ###  Name `String`
 
 Get/Set the name of the series
+
+###  NotesAppearance `NotesAppearance`
+
+Series Notes are not supported for Radar, Polar, Pie, Funnel and BoxPlot series types.
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 

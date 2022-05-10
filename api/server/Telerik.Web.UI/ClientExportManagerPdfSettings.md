@@ -6,7 +6,7 @@ description: Telerik.Web.UI.ClientExportManagerPdfSettings
 
 # Telerik.Web.UI.ClientExportManagerPdfSettings
 
-Represents the PDF settings needed to export SVG files with RadClientExportManager
+Represents the PDF settings needed to export PDF files with RadClientExportManager
 
 ## Inheritance Hierarchy
 
@@ -18,6 +18,10 @@ Represents the PDF settings needed to export SVG files with RadClientExportManag
 ###  Author `String`
 
 Gets or sets the author of the document
+
+###  AvoidLinks `Boolean`
+
+Gets or sets whether the hyperlinks are clickable in the generated PDF document.
 
 ###  Creator `String`
 
@@ -73,6 +77,10 @@ Gets or sets the paper size of the PDF document. The default "auto" means paper 
 ###  ProxyURL `String`
 
 Gets or sets the proxy URL use to export files under Internet Explorer 9
+
+###  Scale `Single`
+
+Gets or sets the scale of the exported PDF document
 
 ###  Subject `String`
 

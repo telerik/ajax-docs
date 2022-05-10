@@ -6,7 +6,7 @@ description: Telerik.Web.UI.ClientExportManagerImageSettings
 
 # Telerik.Web.UI.ClientExportManagerImageSettings
 
-Represents the Image settings needed to export SVG files with RadClientExportManager
+Represents the Image settings needed to export Image files with RadClientExportManager
 
 ## Inheritance Hierarchy
 

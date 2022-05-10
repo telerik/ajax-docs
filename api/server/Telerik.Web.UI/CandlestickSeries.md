@@ -77,6 +77,10 @@ he field which is used for the high value when the series is data bound.
 
 The field which is used for the low value when the series is data bound.
 
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  DataOpenField `String`
 
 The field which is used for the open value when the series is data bound.
@@ -99,6 +103,10 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 ###  Name `String`
 
 Get/Set the name of the series
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 
