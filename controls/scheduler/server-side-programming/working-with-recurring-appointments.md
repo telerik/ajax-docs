@@ -128,5 +128,6 @@ The **RecurrenceRule** class supports the **ToString** and **TryParse** methods 
 # See Also
 
  * [Working with RadScheduler recurring appointments on SQL server blog post](https://www.telerik.com/blogs/working-with-radscheduler-recurring-appointments-on-sql-server)
+ * [SQL Reporting: Display All Recurring Appointments](https://www.telerik.com/forums/sql-reporting-display-all-recurring-appointments) forum thread
 
 

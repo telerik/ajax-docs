@@ -55,6 +55,10 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  HighlightAppearance `SeriesAppearance`
 
 Defines the highlight appearance settings of the series
@@ -89,6 +93,10 @@ Get/Set missing values behavior
 ###  Name `String`
 
 Get/Set the name of the series
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 

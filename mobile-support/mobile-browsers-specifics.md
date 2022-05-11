@@ -1,41 +1,47 @@
 ---
-title: Mobile Browsers Specifics
-page_title: Mobile Browsers Specifics
-description: Check our Web Forms article about Mobile Browsers Specifics.
+title: Mobile Browser Specifics
+page_title: Mobile Browser Specifics
+description: "Learn about the mobile browser support that comes with Telerik UI for ASP.NET AJAX."
+previous_url: mobile-support/using-the-telerik-controls-in-mobile-browsers
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/mobile-browsers-specifics
-tags: mobile,browsers,specifics
+tags: telerik, aspnet, ajax, mobile, support, browser, specifics
 published: True
-position: 4
+position: 5
 ---
 
-# Mobile Browsers Specifics
+# Mobile Browser Specifics
 
-Most smartphone mobile browsers currently on the market are fairly advanced and Telerik® UI for ASP.NET AJAX work on them with little or no modifications.
+Telerik UI for ASP.NET AJAX supports most current mobile browsers with some modifications. 
 
+## Considerations 
 
-However there are certain specifics in these browsers that one needs to know in order to have Telerik controls working to their full extent:
+The following list shows the specifics you need to consider when working with Telerik UI for ASP.NET AJAX controls:
 
-* **Hover events are fired on touch/click** since there is no actual hover in touch screen devices. This also means that elements shown on hover will be shown on click. For instance to see the submenus in RadMenu, **don’t set NavigateUrls on expandable items;**
+* Because no actual hover exists on touch screen devices, hover events are fired on touch or click. This also means that elements shown on hover will be shown on click. For example, to see the submenus in the Menu, don’t set `NavigateUrls` on expandable items.
 
-* **Double click is usually reserved for zoom** and is not fired as event;
+* Double-click is usually reserved for zoom and is not fired as an event.
 
-* Some browsers **show a context menu on touch & hold** but a **contextmenu event is either not fired and/or the browser menu can’t be cancelled**. Touch & hold event can be implemented manually, but more on this later;
+* Some browsers show a context menu on touch-and-hold but a `contextmenu` event is either not fired or the browser menu can’t be cancelled. You can manually implement the touch-and-hold event.
 
-* **Scrolling** in mobile browsers is usually **handled with drag gestures**, which means that **"normal" drag&drop is not working;**
+* Scrolling in mobile browsers is usually handled with drag gestures  and, therefore, the regular dragging and dropping is not working.
 
-* Clicking on editable input elements will bring up the virtual keyboard whenever necessary, so the visible space is shrunk;
+* Clicking on editable `input` elements shows the virtual keyboard and the visible space is shrunk.
 
-* **Scrolling containers** in Mobile Safari are rendered with overflow: hidden and **can only be scrolled with two finger drag gesture**. We developed a special TouchScrollExtender client control to handle this, check the appropriate topic in this section;
+* Scrolling containers in Safari are rendered with `overflow: hidden` and can only be scrolled with a two-finger drag gesture. For handling such cases, Telerik UI for ASP.NET AJAX provides the `TouchScrollExtender` client control.
 
-* **ContentEditable is not supported in Mobile Safari up to iOS 4.0**, which means that RadEditor will be rendered as a simple textarea.
+* `ContentEditable` is not supported in Mobile Safari iOS v. 4.0 and earlier, which means that the Editor will be rendered as a simple text area.
 
-* **Mobile Safari versions before iOS 6 do not support input elements with type="file"**, so it will be rendered as **disabled** (hence RadAsyncUpload/RadUpload won’t work).
+* Mobile Safari v. iOS 6 and earlier do not support `input` elements with `type="file"` so it will be rendered as disabled and the AsyncUpload and Upload won’t work.
 
-Some browsers implemented special touch events for mobile devices - namely **touchstart, touchmove** and **touchend** in Mobile Safari and **MozTouchDown, MozTouchMove** and **MozTouchUp** in Mozilla Mobile Firefox (Fennec) which can be used to overcome some of the listed problems. Unfortunately **IE7+ in Microsoft Windows Phone 7 and both mobile Opera browsers do not have touch events support of either kind**, so they are automatically falling out of scope for this article and should be handled as normal desktop browsers if possible.
+Some browsers provide special touch events for mobile devices, for example, Mobile Safari delivers `touchstart`, `touchmove`, and `touchend`, and Mozilla Mobile Firefox (Fennec) delivers `MozTouchDown`, `MozTouchMove`, and `MozTouchUp` which can be used to overcome some of the considerations above.
 
-### Implementing Touch & Hold event
+IE7+ in Microsoft Windows Phone 7 and both mobile Opera browsers do not provide touch events support of either kind and will be treated as regular desktop browsers if possible.
 
-Since most mobile browsers do not support context menu event properly, we will need to handle it ourselves. This can be done using a click event and a timeout and to raise the context menu event we will need the original event coordinates. For instance let’s get a RadScheduler (it has two context menu events):
+## Touch-and-Hold Event
+
+Most mobile browsers do not support the `contextmenu` event properly and you have to handle it by using a `click` event and a timeout. To raise the `contextmenu` event, you will need the original event coordinates. 
+
+The following example demonstrates how to get a Scheduler which has two `contextmenu` events:
 
 ````ASP.NET
 <telerik:RadScheduler runat="server" ID="RadScheduler1" SelectedDate="2009-02-02"
@@ -50,7 +56,7 @@ Since most mobile browsers do not support context menu event properly, we will n
 
 
 
-And add this JavaScript to fire the context menu events when touch and hold for a second in Mobile Safari:
+Then, you need to add the following JavaScript to fire the `contextmenu` events when the user touches and holds on Mobile Safari:
 
 ````JavaScript
 var lastArgs = null;

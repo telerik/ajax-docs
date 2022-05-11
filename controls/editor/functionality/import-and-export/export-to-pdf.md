@@ -358,6 +358,7 @@ Although we are striving to constantly improve our products, there are some limi
 * Nested DIV elements with absolute position;
 * Nested DIV elements with specified width or height;
 * `<ins>` and `<del>` elements;
+* `<pre>` elements and inline `style="white-space:pre;"` styles
 * Automatic text clipping;
 * Client-side binding;
 * Medium trust;
@@ -398,10 +399,10 @@ You can export the editor contents to PDF on the client by using [RadClientExpor
 <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
 	<PdfSettings FileName="someFileName.pdf" />
 </telerik:RadClientExportManager>
-<asp:Button ID="Button1" Text="export editor on client" OnClientClick="exprotPdfOnClient(); return false;" runat="server" />
+<asp:Button ID="Button1" Text="export editor on client" OnClientClick="exportPdfOnClient(); return false;" runat="server" />
 <div id="dummyContentWrapper"></div>
 <script>
-	function exprotPdfOnClient() {
+	function exportPdfOnClient() {
 		var editorHtml = $find("<%=RadEditor1.ClientID%>").get_html(true);
 		var dummyContainer = $telerik.$("#dummyContentWrapper");
 		dummyContainer.html(editorHtml);

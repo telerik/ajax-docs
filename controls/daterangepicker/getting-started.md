@@ -85,7 +85,7 @@ As a next step, you can check out the [Functionality]({%slug daterangepicker/fun
 
 # See Also
  * [Server-side Programming]({%slug daterangepicker/server-side-programming/overview%})
- * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%})
+ * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
  * [RadDateRangePicker online demos](https://demos.telerik.com/aspnet-ajax/daterangepicker/examples/overview/defaultcs.aspx)
 
 

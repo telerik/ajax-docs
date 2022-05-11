@@ -57,6 +57,10 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  DataTargetField `BulletTargetAppearance`
 
 For a data-binding scenario define the field for the target value.
@@ -75,6 +79,10 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 ###  Name `String`
 
 Get/Set the name of the series
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 

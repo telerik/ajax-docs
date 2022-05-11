@@ -69,6 +69,6 @@ Go ahead with the [Getting Started]({%slug breadcrumb/getting-started%}) article
 
  * [Getting Started]({%slug breadcrumb/getting-started%})
  * [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug getting-started/first-steps%}) 
+ * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
 
 

@@ -5,12 +5,10 @@ description: Check our Web Forms article about Grid Hierarchy Export.
 slug: grid/functionality/exporting/grid-hierarchy-export
 tags: grid,hierarchy,export
 published: True
-position: 2
+position: 6
 ---
 
 # Grid Hierarchy Export
-
-
 
 This article covers the export feature of hierarchical **RadGrid** for the different export types. Not all formats support exporting hierarchical structures but there are possible workarounds:
 * [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word](https://www.telerik.com/support/code-library/grid-with-hierachy-and-grouping-export-to-excel) 

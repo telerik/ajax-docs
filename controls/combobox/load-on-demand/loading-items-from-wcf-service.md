@@ -156,12 +156,12 @@ RadComboBox declaration:
 
 Result:
 
-
-
 ![ComboBox Wsf Result](images/combobox_wcf_result.PNG)
 
 # See Also
 
- * [Online Demo - ComboBox / WCF Web Service.](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
+- [RadComboBox items are not accessible on the server-side with Load On Demand]({%slug combobox-items-not-accessible-on-server-side-with-load-on-demand%})
+- [Online Demo - ComboBox / WCF Web Service.](https://demos.telerik.com/aspnet-ajax/combobox/examples/loadondemand/wcf/defaultcs.aspx)
+- [Blog post with working project.](https://blogs.telerik.com/veselinvasilev/posts/09-04-08/how-to-use-wcf-services-with-asp-net-ajax-databound-controls.aspx)
 
- * [Blog post with working project.](https://blogs.telerik.com/veselinvasilev/posts/09-04-08/how-to-use-wcf-services-with-asp-net-ajax-databound-controls.aspx)
+ 

@@ -68,4 +68,4 @@ function confirmCallbackFunction(args) {
 
 
 
-A demo project can be found here: [(ID#983) Using RadPrompt and RadConfirm with Telerik navigational controls](https://www.telerik.com/support/kb/article/b454K-hmd-b454T-cag-b454c-cag.aspx)
+A demo project can be found here: [Using RadPrompt and RadConfirm with Telerik navigational controls]({%slug window-using-radprompt-and-radconfirm-with-telerik-navigational-controls%})

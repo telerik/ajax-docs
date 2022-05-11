@@ -352,6 +352,11 @@ Gets or sets a value indicating the selection mode of the RadRating control in e
 
 Gets or sets if the filter icon in the  will be visible.
 
+###  ShowNoSortIcon `Boolean`
+
+Get or Sets a value indicating whether a no sort icon should appear next to the
+            header button, when a column is not sorted but can be sorted.
+
 ###  ShowSortIcon `Boolean`
 
 Get or Sets a value indicating whether a sort icon should appear next to the

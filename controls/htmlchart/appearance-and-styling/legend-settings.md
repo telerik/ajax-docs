@@ -69,31 +69,152 @@ End Sub
 
 The color of the markers is automatically detected from the series colors.
 
->tip To change the type, size and color of the legend markers you can:
-* Use [visual templates]({%slug htmlchart/functionality/visual-template%}).
-* Use the workaround from the following feedback item [ADD more legend markers options in RadHtmlChart](https://feedback.telerik.com/Project/108/Feedback/Details/123802).
+
+### Legend Marker Shapes
+
+To customize the Legend items' marker size and type, you have a few options:
+
+1. Use [visual templates]({%slug htmlchart/functionality/visual-template%}) as demonstrated in the **Example 2**
+2. Use the overwrite shared in the [Automatic Legend marker shape customization]({%slug htmlchart-custom-legend-marker-shape%}) KB article. 
+
+
+>caption **Figure 2**: Legend shape customized via `VisualTemplate`.
+![legend marker shape](images/legend-custom-shapes.png)
+
+>caption **Example 2**: The code that creates **Figure 2**.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Font-Size="14px" Width="600px" Height="400px">
+    <PlotArea>
+        <Series>
+            <telerik:LineSeries Name="Product 1">
+                <MarkersAppearance MarkersType="Triangle" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="150" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 2">
+                <MarkersAppearance MarkersType="Circle" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="210" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 3">
+                <MarkersAppearance MarkersType="Cross" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="50" />
+                </SeriesItems>
+            </telerik:LineSeries>
+            <telerik:LineSeries Name="Product 4">
+                <MarkersAppearance MarkersType="Square" />
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="250" />
+                </SeriesItems>
+            </telerik:LineSeries>
+        </Series>
+        <XAxis>
+            <Items>
+                <telerik:AxisItem LabelText="1" />
+            </Items>
+        </XAxis>
+    </PlotArea>
+    <Legend>
+        <Appearance Visible="True"></Appearance>
+        <Item Visual="legendItemVisual" />
+    </Legend>
+</telerik:RadHtmlChart>
+<script>
+    var drawing = kendo.drawing,
+        geometry = kendo.geometry,
+        columnWidth;
+
+    function legendItemVisual(e) {
+        var column;
+        var color = e.options.markers.background;
+        var labelColor = e.options.labels.color ? e.options.labels.color : "#000";
+        var rect = new kendo.geometry.Rect([0, 0], [100, 50]);
+        var layout = new drawing.Layout(rect, {
+            spacing: 5,
+            alignItems: "center"
+        });
+
+        var markersType = e.series.markers.type;
+        var marker;
+        console.log(markersType);
+        if (markersType == "triangle") {
+            marker = new kendo.drawing.Path({
+                fill: {
+                    color: color
+                },
+                stroke: { color: color, width: 0 }
+            }).moveTo(10, 0).lineTo(15, 10).lineTo(5, 10).close();
+        }
+        else if (markersType == "cross") {
+            var svgPath = "M32.78,0.50 L42.22,0.50 L42.22,32.78 L74.50,32.78 L74.50,42.22 L42.22,42.22 L42.22,74.50 L32.78,74.50 L32.78,42.22 L0.50,42.22 L0.50,32.78 L32.78,32.78 z";
+            marker = drawing.Path.parse(svgPath, {
+                fill: {
+                    color: color,
+                },
+                stroke: {
+                    color: color,
+                    width: 1
+                }
+            });
+            marker.transform(geometry.transform().scale(0.18, 0.18).rotate(45, 0)); //resize and rotate the path
+        }
+        else if (markersType == "square") {
+            var rectGeom = new geometry.Rect([5, 5], [10, 10]);
+            marker = new drawing.Rect(rectGeom, {
+                fill: {
+                    color: color
+                },
+                stroke: { color: color, width: 0 }
+            });
+
+        }
+        else { //cicle
+            var CircGeometry = new kendo.geometry.Circle([10, 5], 5);
+            marker = new kendo.drawing.Circle(CircGeometry, {
+                stroke: { color: color, width: 0 },
+                fill: { color: color }
+            });
+        }
+
+        var label = new kendo.drawing.Text(e.series.name, [0, 0], {
+            fill: {
+                color: labelColor
+            }
+        });
+
+        layout.append(marker, label);
+        layout.reflow();
+        return layout;
+    };
+</script>
+````
+
 
 ## Position and Alignment
 
 You can control the position and the alignment of the legend with the following properties exposed by the `Legend.Appearance` tag:
 
-* `Position` - The position of the chart, relative to the plot area (**Example 2**). The supported values are:
+* `Position` - The position of the chart, relative to the plot area (**Example 3**). The supported values are:
  * `Top` - The legend is positioned on the top of the chart area.
  * `Bottom` - The legend is positioned on the bottom of the chart area.
  * `Left` - The legend is positioned on the left of the chart area.
  * `Right` - The legend is positioned on the right of the chart area.
  * `Custom` - The legend can be positioned on a custom position through the `OffsetX` and `OffsetY` properties.
-* `Align` - The alignment of the legend, relative to the position (**Example 2**). When the legend is `Top` or `Bottom` positioned it can be horizontally aligned. When the legend is `Left` or `Right` positioned in can be vertically aligned. The supported values are:
+* `Align` - The alignment of the legend, relative to the position (**Example 3**). When the legend is `Top` or `Bottom` positioned it can be horizontally aligned. When the legend is `Left` or `Right` positioned in can be vertically aligned. The supported values are:
  * `Start` - The legend is left or top aligned according to its position.
  * `End` - The legend is right or bottom aligned according to its position.
  * `Center` - The legend is centered according to its position.
 * `OffsetX` - The x offset of the legend. The x value is relative to the current position of the legend. A positive and negative value can be set.
 * `OffsetY` - The y offset of the legend. The y value is relative to the current position of the legend. A positive and negative value can be set.
 
->caption **Figure 2**: Legend with `Position`=`Bottom` and `Align`=`End`.
+>caption **Figure 3**: Legend with `Position`=`Bottom` and `Align`=`End`.
 ![legend position align](images/legend-position-align.png)
 
->caption **Example 2**: The code that creates **Figure 2**.
+>caption **Example 3**: The code that creates **Figure 3**.
 
 ````ASP.NET
 <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="350" Height="150">
@@ -140,12 +261,12 @@ The `Legend.Appearance.Orientation` property lets you distribute the legend item
 * `Width` - The legend width when the legend orientation is set to `Horizontal`.
 * `Height` - The legend height when the legend orientation is set to `Vertical`.
 
-You can see the difference of both orientations with different legend dimensions in **Figure 3** and **Figure 4**.
+You can see the difference of both orientations with different legend dimensions in **Figure 4** and **Figure 4**.
 
->caption **Figure 3**: Compare the legend of two charts with horizontal orientation and different width.
+>caption **Figure 4**: Compare the legend of two charts with horizontal orientation and different width.
 ![legend orientation horizontal](images/legend-orientation-horizontal.png)
 
->caption **Example 3**: The code that creates **Figure 3**.
+>caption **Example 4**: The code that creates **Figure 4**.
 
 ````ASP.NET
 <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="350" Height="150">
@@ -192,10 +313,10 @@ Protected Sub Page_Init(sender As Object, e As EventArgs)
 End Sub
 ````
 
->caption **Figure 4**: Compare the legend of two charts with vertical orientation and different height.
+>caption **Figure 5**: Compare the legend of two charts with vertical orientation and different height.
 ![legend orientation vertical](images/legend-orientation-vertical.png)
 
->caption **Example 4**: The code that creates **Figure 4**.
+>caption **Example 5**: The code that creates **Figure 5**.
 
 ````ASP.NET
 <telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="350" Height="150">
@@ -250,10 +371,10 @@ The functionality is available through the `ClientTemplate` inner property expos
 
 >tip You can also execute JavaScript in the `ClientTemplate`. More information is available in the [Execute JavaScript with a ClientTemplate]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%}) article.
 
->caption **Figure 5**: You can define client templates for the legend labels.
+>caption **Figure 6**: You can define client templates for the legend labels.
 ![legend client template](images/legend-client-template.png)
 
->caption **Example 5**: Configure a sample client template for the legend.
+>caption **Example 6**: Configure a sample client template for the legend.
 
 ````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="PieChart1" Width="400px" Height="400px">

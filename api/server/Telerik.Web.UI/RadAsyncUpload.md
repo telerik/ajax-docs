@@ -371,6 +371,7 @@ When set to string.Empty, the files must be saved manually to the desired locati
 Sets how long temporary files should be kept before automatically deleting them.
             The property accepts TimeSpan values. The default value is 4 hours. More information regarding the TimeSpan structure can 
             be found here - http://www.dotnetperls.com/timespan
+            RadAsyncUpload1.TemporaryFileExpiration = New TimeSpan(2, 0, 0, 0, 0);
 
 #### Remarks
 Note that when a postback occurs temporary files are either saved as permanent or removed.

@@ -1,14 +1,14 @@
 ---
-title: Accessibility
-page_title: Accessibility
-description: Check our Web Forms article about Accessibility.
+title: Overview
+page_title: Accessibility Overview - RadComboBox
+description: Enable accessibility for the ComboBox to make it usable by as many people as possible.
 slug: combobox/accessibility-and-internationalization/accessibility
 tags: accessibility
 published: True
 position: 0
 ---
 
-# Accessibility
+# Accessibility Overview
 
 As of 2008 Q3 release, RadComboBox introduces a new property - **AccessibilityMode.** When set to *True*, **`<noscript>`** tag containing **select** HTML element is rendered. This **select** will be displayed instead of RadComboBox if the JavaScript is **disabled**. Default value of the property is *False.*
 

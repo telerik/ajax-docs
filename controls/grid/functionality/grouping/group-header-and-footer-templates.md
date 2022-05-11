@@ -36,8 +36,9 @@ The template can be specified inside the **GridFooterTemplate** tag of each Grid
 
 Same as when accessing header totals, when grouping by a **GridCalculatedColumn**'s values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should use Eval("TotalPriceResult") in order to get the total.
 
-Below follows and example of group header and footer templates usage.
+## Example
 
+Below follows and example of group header and footer templates usage.
 
 
 ````C#

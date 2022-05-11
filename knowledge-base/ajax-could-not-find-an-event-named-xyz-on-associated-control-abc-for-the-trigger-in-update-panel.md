@@ -19,7 +19,7 @@ But when we try to open the page in browser we are getting the error saying “*
 
 ````ASP.NET
 <asp:Button ID="btnUpdateTitle" runat="server" CssClass="tab" OnClick="UpdateTitleButton_Click" Text="Update Title" />
- 
+
 <telerik:RadAjaxManager ID="RadAjaxManager1" EnableAJAX="true" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="btnUpdateTitle" EventName="UpdateTitleButton_Click">
@@ -29,12 +29,12 @@ But when we try to open the page in browser we are getting the error saying “*
     </AjaxSettings>
 </telerik:RadAjaxManager>
 ````
-  
-    
+
+   
 ## SOLUTION
 [The **EventName **property](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxmanager/how-to/eventname-property#eventname-property) accepts the exact server event name, but not the server event handler name.   
  In order to solve the error replace the event handler name with the server event name:  
-  
+
 
 ````ASP.NET
 <asp:Button ID="btnUpdateTitle" runat="server" CssClass="tab" OnClick="UpdateTitleButton_Click" Text="Update Title" />
@@ -47,8 +47,8 @@ But when we try to open the page in browser we are getting the error saying “*
     </AjaxSettings>
 </telerik:RadAjaxManager>
 ````
-  
-  
+
+
  You may experience the same error with the asp:UpdatePanel control. In this case, you can apply again the same solution for it. The following table lists the default event names for some common ASP.NET components:  
     
 
@@ -61,7 +61,5 @@ But when we try to open the page in browser we are getting the error saying “*
 | TextBox | *TextChanged* |
 
 
-  
-**Note:** The *EventName* is an optional property and if it is not specified, all events of the control are AJAX-enabled.
 
- 
+**Note:** The *EventName* is an optional property and if it is not specified, all events of the control are AJAX-enabled.

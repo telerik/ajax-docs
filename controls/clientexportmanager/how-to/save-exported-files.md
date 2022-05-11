@@ -168,7 +168,7 @@ function success() {
 
 function exportElement() {
    var exportMngr = $find("<%= RadClientExportManager1.ClientID %>");
-	exp.exportPDF($telerik.$("#foo"));
+	exportMngr.exportPDF($telerik.$("#foo"));
 }
 	
 	

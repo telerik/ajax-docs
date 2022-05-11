@@ -416,6 +416,11 @@ Gets or sets a value indicating whether the RadComboBox editor
             displays a More Results box. Setting this property to true requires
             AllowAutomaticLoadOnDemand to be set to true.
 
+###  ShowNoSortIcon `Boolean`
+
+Get or Sets a value indicating whether a no sort icon should appear next to the
+            header button, when a column is not sorted but can be sorted.
+
 ###  ShowSortIcon `Boolean`
 
 Get or Sets a value indicating whether a sort icon should appear next to the

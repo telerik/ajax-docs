@@ -5,7 +5,7 @@ description: Render table headers on each page when you export content in PDF wi
 slug: clientexportmanager/functionality/repeat-headers
 tags: repeat,table,headers,export
 published: True
-position: 4
+position: 5
 ---
 
 # Repeated Table Headers

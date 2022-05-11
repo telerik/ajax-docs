@@ -7,154 +7,148 @@ exclude_navigation: ["sharepoint/2007/*" ,"knowledge-base/*"]
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
 
+all_pages_domain: "https://docs.telerik.com/devtools"
 
 navigation:
 
 ## List common directory names and order here, like this:
-    "getting-started":
-        title: "Getting Started"
-        position: 1
-    "licensing":
-        title: "Licensing"
-        position: 2
-    "installation":
-        title: "Installation"
-        position: 3
-    "installation/upgrading-instructions":
-        title: "Upgrading Instructions"
-        position: 6
-    "general-information":
-        title: "General Information"
-        position: 4
-    "general-information/integration-with-visual-studio":
-        title: "Integration with Visual Studio"
-        position: 10
-    "general-information/integration-with-visual-studio/typescript-definitions":
-        title: "TypeScript Definitions"
-        position: 2
-    "general-information/integration-with-visual-studio/visual-studio-extensions":
-        title: "Visual Studio Extensions"
-        position: 3
-    "general-information/controlling-visual-appearance":
-        title: "Controlling Visual Appearance"
-        position: 11
-    "general-information/using-jquery":
-        title: "Using jQuery"
-        position: 12
-    "general-information/performance":
-        title: "Performance"
-        position: 13
-    "general-information/troubleshooting":
-        title: "Troubleshooting"
-        position: 14
-    "mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "deployment":
-        title: "Deployment"
-        position: 6
-    "controls":
-        title: "Controls"
-        position: 12
-    "shared-utilities":
-        title: "Shared Utilities"
-        position: 13
-    "theme-builder":
-        title: "Theme Builder"
-        position: 16
-    "visual-stylebuilder":
-        title: "Visual StyleBuilder"
-        position: 17
-    "integration-with-other-telerik-products":
-        title: "Integration with Other Telerik Products"
-        position: 18
-    "mvc":
-        title: "Integration with ASPNET MVC"
-        position: 19
-    "integration-with-other-telerik-products/testing-with-test-studio":
-        title: "Automated Testing with Test Studio"
-        position: 1
-    "integration-with-other-telerik-products/document-processing":
-        title: "Document Processing Libraries"
-        position: 2
-    "integration-with-other-telerik-products/document-processing/pdfprocessing":
-        title: "PdfProcessing"
-        position: 1
-    "integration-with-other-telerik-products/document-processing/spreadprocessing":
-        title: "SpreadProcessing"
-        position: 2
-    "integration-with-other-telerik-products/document-processing/spreadstreamprocessing":
-        title: "SpreadStreamProcessing"
-        position: 3
-    "integration-with-other-telerik-products/document-processing/wordsprocessing":
-        title: "WordsProcessing"
-        position: 4
-    "integration-with-other-telerik-products/document-processing/ziplibrary":
-        title: "ZipLibrary"
-        position: 5            
-    "sharepoint":
-        title: "Integration with SharePoint"
-        position: 20
-    "sharepoint/2010":
-        title: "SharePoint 2010"
-        position: 1
-    "sharepoint/troubleshooting":
-        title: "Troubleshooting"
-        position: 5
-    "sharepoint/2010/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "sharepoint/2010/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "sharepoint/2010/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
-    "sharepoint/2010/radeditor-web-part/migration-and-upgrade":
-        title: "Migration and upgrade"
-        position: 3
-    "sharepoint/2010/radeditor-web-part/configuration":
-        title: "Configuration"
-        position: 4
-    "sharepoint/2010/radeditor-web-part/dropdowns":
-        title: "DropDowns"
-        position: 5
-    "sharepoint/2010/radeditor-web-part/dialogs":
-        title: "Dialogs"
-        position: 6
-    "sharepoint/2010/radeditor-web-part/customization":
-        title: "Customization"
-        position: 7
-    "sharepoint/2010/radgrid-web-part":
-        title: "RadGrid Web Part"
-        position: 2
-    "sharepoint/2010/radlistview-web-part":
-        title: "RadListView Web Part"
-        position: 3
-    "sharepoint/2010/radscheduler-web-part":
-        title: "RadScheduler Web Part"
-        position: 4
-    "sharepoint/2013":
-        title: "SharePoint 2013"
-        position: 2
-    "sharepoint/2013/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "sharepoint/2013/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "sharepoint/2013/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
-    "sharepoint/2016":
-        title: "SharePoint 2016"
-        position: 3
-    "sharepoint/online":
-        title: "SharePoint Online (Office 365)"
-        position: 4
     "api":
         title: "API Reference"
+        position: 0
+    "getting-started":
+        title: "Getting Started"
+        position: 2
+    "controls":
+        title: "Controls"
+        position: 3
+    "styling":
+        title: "Styles & Appearance"
+        position: 4
+    "deployment":
+        title: "Deployment"
+        position: 5
+    "shared-utilities":
+        title: "Shared Utilities"
+        position: 6
+    "integration":
+        title: "Integration"
+        position: 7
+    "mobile-support":
+        title: "Mobile Support"
+        position: 8
+    "accessibility":
+        title: "Accessibility"
+        position: 9
+    "upgrade-compatibility":
+        title: "Upgrade & Compatibility"
+        position: 10        
+    "knowledge-base":
+        title: "Knowledge Base"
+        position: 30                
+    "getting-started/installation":
+        title: "Download & Installation"
+        position: 10
+    "getting-started/work-with-controls":
+        title: "Working with the Controls"
+        position: 20
+    "getting-started/performance":
+        title: "Performance"
         position: 30
+    "styling/controlling-visual-appearance":
+        title: "Controlling the Appearance"
+        position: 10
+    "styling/visual-stylebuilder":
+        title: "Visual Stylebuilder"
+        position: 20
+    "styling/theme-builder":
+        title: "Theme Builder"
+        position: 30
+    "integration/jquery":
+        title: "jQuery"
+    "integration/sharepoint":
+        title: "Sharepoint"
+    "integration/sharepoint/2010":
+        title: "SharePoint 2010"
+        position: 3
+    "integration/sharepoint/troubleshooting":
+        title: "Troubleshooting"
+        position: 5
+    "integration/sharepoint/2010/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "integration/sharepoint/2010/radeditor-web-part":
+        title: "Editor Web Part"
+        position: 1
+    "integration/sharepoint/2010/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
+    "integration/sharepoint/2010/radeditor-web-part/migration-and-upgrade":
+        title: "Migration and Upgrade"
+        position: 3
+    "integration/sharepoint/2010/radeditor-web-part/configuration":
+        title: "Configuration"
+        position: 4
+    "integration/sharepoint/2010/radeditor-web-part/dropdowns":
+        title: "DropDowns"
+        position: 5
+    "integration/sharepoint/2010/radeditor-web-part/dialogs":
+        title: "Dialogs"
+        position: 6
+    "integration/sharepoint/2010/radeditor-web-part/customization":
+        title: "Customization"
+        position: 7
+    "integration/sharepoint/2010/radgrid-web-part":
+        title: "Grid Web Part"
+        position: 2
+    "integration/sharepoint/2010/radlistview-web-part":
+        title: "ListView Web Part"
+        position: 3
+    "integration/sharepoint/2010/radscheduler-web-part":
+        title: "Scheduler Web Part"
+        position: 4
+    "integration/sharepoint/2013":
+        title: "SharePoint 2013"
+        position: 2
+    "integration/sharepoint/2013/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "integration/sharepoint/2013/radeditor-web-part":
+        title: "Editor Web Part"
+        position: 1
+    "integration/sharepoint/2013/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
+    "integration/sharepoint/2016":
+        title: "SharePoint 2016"
+        position: 1
+    "integration/sharepoint/online":
+        title: "SharePoint Online (Office 365)"
+        position: 4
+    "integration/telerik-products":
+        title: "Telerik Products"
+    "integration/telerik-products/testing-with-test-studio":
+        title: "Automated Testing with Test Studio"
+    "integration/telerik-products/document-processing":
+        title: "Document Processing Libraries"
+    "integration/telerik-products/document-processing/pdfprocessing":
+        title: "PdfProcessing"
+    "integration/telerik-products/document-processing/spreadprocessing":
+        title: "SpreadProcessing"
+    "integration/telerik-products/document-processing/spreadstreamprocessing":
+        title: "SpreadStreamProcessing"
+    "integration/telerik-products/document-processing/wordsprocessing":
+        title: "WordsProcessing"
+    "integration/telerik-products/document-processing/ziplibrary":
+        title: "ZipLibrary"
+    "integration/visual-studio":
+        title: "Visual Studio"
+    "integration/visual-studio/typescript-definitions":
+        title: "TypeScript Definitions"
+    "integration/visual-studio/visual-studio-extensions":
+        title: "Visual Studio Extensions"
+    "upgrade-compatibility/upgrading-instructions":
+        title: "Upgrading"
+        position: 10
     "api/client":
         title: "Client-side"
         position: 1
@@ -165,9 +159,6 @@ navigation:
     "api/server":
         title: "Server-side"
         position: 2
-    "knowledge-base":
-        title: "Knowledge Base"
-        position: 40
 
 ## List control directory names and order here, like this:
     "controls/ajaxpanel":
@@ -251,6 +242,21 @@ navigation:
     "controls/dock":
         title: "Dock"
         position: 1
+    "controls/dragdropmanager":
+        title: "DragDropManager"
+        position: 1
+    "controls/dragdropmanager/client-side-programming/draggable":
+        title: "Draggabe"
+        position: 1
+    "controls/dragdropmanager/client-side-programming/droptarget":
+        title: "DropTarget"
+        position: 2
+    "controls/dragdropmanager/client-side-programming/droptargetarea":
+        title: "DropTargetArea"
+        position: 3
+    "controls/dragdropmanager/client-side-programming/dragdropmanager":
+        title: "DragDropManager"
+        position: 4
     "controls/drawer":
         title: "Drawer"
         position: 1
@@ -334,7 +340,7 @@ navigation:
         position: 1
     "controls/multiselect":
         title: "MultiSelect"
-        position: 1   
+        position: 1
     "controls/navigation":
         title: "Navigation"
         position: 1
@@ -410,11 +416,17 @@ navigation:
     "controls/spell":
         title: "Spell"
         position: 1
+    "controls/splitbutton":
+        title: "SplitButton"
+        position: 1
     "controls/splitter":
         title: "Splitter"
         position: 1
     "controls/spreadsheet":
         title: "Spreadsheet"
+        position: 1
+    "controls/stepper":
+        title: "Stepper"
         position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
@@ -955,14 +967,11 @@ navigation:
     "*grid/functionality/printing":
         title: "Printing"
         position: 7
-    "*grid/functionality/exporting/export-formats":
-        title: "Export Formats"
-        position: 1
-    "*grid/functionality/exporting/export-formats/excelml-export":
-        title: "ExcelML Export"
-        position: 2
-    "*grid/functionality/exporting/export-formats/word-and-excel-export":
-        title: "Word and Excel Export"
+    "*grid/functionality/exporting/excel-export":
+        title: "Excel Export"
+        position: 3
+    "*grid/functionality/exporting/word-export":
+        title: "Word Export"
         position: 4
     "*grid/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
@@ -1512,7 +1521,7 @@ navigation:
         position: 6
     "*spreadsheet/functionality/multilinecellediting":
         title: "Multiline Cell Editing"
-        position: 7   
+        position: 7
     "*spreadsheet/client-side-programming/objects":
         title: "Objects"
         position: 0
@@ -1861,7 +1870,7 @@ edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
 product: "Telerik UI for ASP.NET AJAX"
 product_url: https://www.telerik.com/aspnet-ajax
 platform: aspnet-ajax
-download: https://www.telerik.com/products/aspnet-ajax/download.aspx 
+download: https://www.telerik.com/products/aspnet-ajax/download.aspx
 nav:
   "Demos": https://demos.telerik.com/aspnet-ajax
   "Release History": https://www.telerik.com/support/whats-new/aspnet-ajax/release-history
@@ -1878,7 +1887,7 @@ footer:
     "Sample Applications": https://www.telerik.com/aspnet-ajax/sample-applications
 -
   title: "Support Resources"
-  links: 
+  links:
     "Code Library": https://www.telerik.com/support/code-library/aspnet-ajax
     "Knowledge Base": https://www.telerik.com/support/kb/aspnet-ajax
     "Training": https://www.telerik.com/aspnet-ajax/trainings
@@ -1889,19 +1898,19 @@ footer:
     "Blogs": https://www.telerik.com/blogs/.net
     "Feedback Portal": https://feedback.telerik.com/Project/108
     "Document Processing Feedback Portal": https://feedback.telerik.com/Project/184
-  
-footer_social: 
+
+footer_social:
     facebook: https://www.facebook.com/Telerik/
     youtube: https://www.youtube.com/user/TelerikInc
-    linkedin: https://www.linkedin.com/showcase/telerik/ 
-    twitter: https://twitter.com/Telerik/ 
+    linkedin: https://www.linkedin.com/showcase/telerik/
+    twitter: https://twitter.com/Telerik/
 
 
 intro_columns:
 -
   categories:
   -
-    title: "Data Management"  
+    title: "Data Management"
     items:
       "ClientDataSource": "clientdatasource/overview"
       "Data Form": "dataform/overview"
@@ -1928,6 +1937,7 @@ intro_columns:
   -
     title: "Interactivity & UX"
     items:
+      "DragDropManager": "dragdropmanager/overview"
       "Progress Area": "progressarea/overview"
       "ProgressBar": "progressbar/overview"
       "Persistence Framework": "persistenceframework/overview"
@@ -2022,6 +2032,8 @@ intro_columns:
       "RibbonBar": "ribbonbar/overview"
       "SearchBox": "searchbox/overview"
       "SiteMap": "sitemap/overview"
+      "SplitButton": "splitbutton/overview"
+      "Stepper": "stepper/overview"
       "Switch": "switch/overview"
       "Tab Strip": "tabstrip/overview"
       "Timeline": "timeline/overview"
@@ -2032,13 +2044,13 @@ intro_columns:
   categories:
   -
     title: "File Upload & Management"
-    items:      
+    items:
       "File Explorer": "fileexplorer/overview"
       "Upload (Async)": "asyncupload/overview"
       "Upload (Cloud)": "cloudupload/overview"
   -
     title: "Document Processing"
-    items:      
+    items:
       "PdfProcessing": "radpdfprocessing-overview"
       "SpreadProcessing": "radspreadprocessing-overview"
       "SpreadStreamProcessing": "spreadstreamprocessing-overview"
@@ -2066,7 +2078,7 @@ intro_columns:
     items:
       "Compression": "controls/radcompression"
       "Script Manager": "scriptmanager/overview"
-      
+
 # Assets pipeline configuration
 assets:
     cachebust: soft

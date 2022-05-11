@@ -18,70 +18,73 @@ Fortunately, there is a workaround for this:
 
 1. Create a custom CustomPrint button:
 
-	**ASP.NET**
-
-		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
-			<Tools>
-				<telerik:EditorToolGroup>
-					<telerik:EditorTool Name="CustomPrint" />
-				</telerik:EditorToolGroup>
-			</Tools>
-		</telerik:RadEditor>
 
 
+````ASP.NET
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
+    <Tools>
+        <telerik:EditorToolGroup>
+            <telerik:EditorTool Name="CustomPrint" />
+            <telerik:EditorTool Name="Bold" />
+        </telerik:EditorToolGroup>
+    </Tools>
+</telerik:RadEditor>
+````
 
 
 1. Add the following custom **Print** command under the editor declaration, i.e.
 
-	**JavaScript**
 
-		<script type="text/javascript">
-			Telerik.Web.UI.Editor.CommandList["CustomPrint"] = function (commandName, editor, args)
-			{
-				var printIframe = document.createElement("IFRAME");
-				document.body.appendChild(printIframe);
-				var printDocument = printIframe.contentWindow.document;
-				printDocument.designMode = "on";
-				printDocument.open();
-				var currentLocation = document.location.href;
-				currentLocation = currentLocation.substring(0, currentLocation.lastIndexOf("/") + 1);
-				printDocument.write("<html><head></head><body>" + editor.get_html() + "</body></html>");
-				printDocument.close();
-				try
-				{
-					if (document.all)
-					{
-						var oLink = printDocument.createElement("link");
-						oLink.setAttribute("href", currentLocation + "PrintWithStyles.css", 0);
-						oLink.setAttribute("type", "text/css");
-						oLink.setAttribute("rel", "stylesheet", 0);
-						printDocument.getElementsByTagName("head")[0].appendChild(oLink);
-						printDocument.execCommand("Print");
-					}
-					else
-					{
-						printDocument.body.innerHTML = "<link rel='stylesheet' type='text/css' href='" + currentLocation + "PrintWithStyles.css'></link>" + printDocument.body.innerHTML;
-						printIframe.contentWindow.print();
-					}
-				}
-				catch (ex)
-				{
-				}
-				document.body.removeChild(printIframe);
-			};
-		</script> 
-
+````JavaScript
+<script type="text/javascript">
+    Telerik.Web.UI.Editor.CommandList["CustomPrint"] = function (commandName, editor, args) {
+        var printIframe = document.createElement("IFRAME");
+        document.body.appendChild(printIframe);
+        var printDocument = printIframe.contentWindow.document;
+        printDocument.designMode = "on";
+        printDocument.open();
+        var currentLocation = document.location.href;
+        currentLocation = currentLocation.substring(0, currentLocation.lastIndexOf("/") + 1);
+        printDocument.write("<html><head></head><body>" + editor.get_html() + "</body></html>");
+        printDocument.close();
+        try {
+            if (document.all) {
+                var oLink = printDocument.createElement("link");
+                oLink.setAttribute("href", currentLocation + "PrintWithStyles.css", 0);
+                oLink.setAttribute("type", "text/css");
+                oLink.setAttribute("rel", "stylesheet", 0);
+                printDocument.getElementsByTagName("head")[0].appendChild(oLink);
+                printDocument.execCommand("Print");
+            }
+            else {
+                printDocument.body.innerHTML = "<link rel='stylesheet' type='text/css' href='" + currentLocation + "PrintWithStyles.css'></link>" + printDocument.body.innerHTML;
+                printIframe.contentWindow.print();
+                setTimeout(function () {
+                    document.body.removeChild(printIframe);
+                }, 1000);
+                return false;
+            }
+        }
+        catch (ex) {
+        }
+    };
+</script>
+````
 
 
 1. To add an icon to the CustomPrint button add the following style in your page:
 
-	**CSS**
-
-		.rade_toolbar.Default .CustomPrint
-		{
-			background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif);
-		}
-
+````CSS
+        <style>
+            .reCustomPrint {
+                background-image: url(https://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/Custom.gif) !important;
+                background-repeat: no-repeat;
+            }
+            .reCustomPrint.reToolIcon:before {
+                content: none;
+            }
+        </style>
+````
 
 >note The provided solution works properly under Firefox and Internet Explorer.
 
@@ -90,11 +93,7 @@ Fortunately, there is a workaround for this:
 You can find a good resource on how to print CSS styles on the Internet. You can see the following articles which we have chosen for you:
 
 * [Introduction to media types](https://www.w3.org/TR/REC-CSS2/media.html)
-
 * [Print Different](http://www.meyerweb.com/eric/articles/webrev/200001.html)
-
-* [CSS For Printing](http://www.webdesignschoolreview.com/css-printing.html)
-
-**EXAMPLE FILES**
-
-[PrintWithStyles](https://www.telerik.com/ArticleFileDownload.aspx?I=jDO&G=Ctb)
+* [Print Content when using Div ContentAreaMode]({%slug editor/how-to/print-content-div-contentareamode %})
+   
+   

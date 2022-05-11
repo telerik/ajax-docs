@@ -20,20 +20,25 @@ Usually, when a file is being downloaded, the server clears the response and res
 
 To workaround this, we can add a cookie to the response on the server and look for it in the client-side. To achieve that, before sending the request to the server, we can start checking for this cookie on a given interval of time until the cookie is present. Once the cookie is present, we will know that the server responded with the file and we can do our custom logic and clear the cookie.
 
+>caption RadButton Markup
 
-```ASP.NET
+````ASP.NET
 <telerik:RadButton runat="server" ID="RadButton1" OnClientClicking="OnClientClicking" OnClick="RadButton1_Click" Text="Download File" AutoPostBack="true" />
-```
+````
 
-```JavaScript
+>caption OnClientClicking client-side event
+
+````JavaScript
 function OnClientClicking(sender, args) {
     pollingAPI.startPolling(function (cookieMessage) {
         alert(cookieMessage)
     }, 200);
 }
-```
+````
 
-```JavaScript
+>caption Cookie API
+
+````JavaScript
 var cookieAPI = (function (undefined) {
     function clearCookie(cookieName) {
         setCookie(cookieName, "", new Date());
@@ -70,9 +75,11 @@ var cookieAPI = (function (undefined) {
         clearCookie: clearCookie
     }
 })();
-```
+````
 
-```JavaScript
+>caption The Polling (JavaScript function)
+
+````JavaScript
 var pollingAPI = (function (cookieAPI) {
     function startPolling(callbackFunction, pollingInterval) {
         var cookieName = "file-download";
@@ -99,9 +106,11 @@ var pollingAPI = (function (cookieAPI) {
     }
 
 })(cookieAPI);
-```
+````
 
-```C#
+>caption Button's Click event
+
+````C#
 protected void RadButton1_Click(object sender, EventArgs e)
 {
     Response.Clear();
@@ -124,8 +133,8 @@ protected void RadButton1_Click(object sender, EventArgs e)
 
     Response.End();
 }
-```
-```VB
+````
+````VB
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Response.Clear()
     
@@ -145,10 +154,8 @@ Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     myCookie.Value = "The file started downloading!"
     HttpContext.Current.Response.Cookies.Add(myCookie)
     
-    Response.[End]()
+    Response.End()
 End Sub
-```
-
-
-
+````
+  
 

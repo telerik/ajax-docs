@@ -20,7 +20,7 @@ There are three sorting modes in **RadGrid**:
 * **Descending**: When the user clicks on the sort button of a column that has a sort mode of "Ascending", the sort mode changes to "Descending". The sorting indicator changes to
 ![SortDesc.gif](images/grd_SortDesc.gif) to indicate that column is sorted descending.
 
-* **NoSort**: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header.
+* **NoSort**: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header by default. To show a sorting indicator in "NoSort" more check the [NoSort Mode Sorting Indicator](#nosort-mode-sorting-indicator).
 
 ![](images/grd_SortMode.png)
 
@@ -133,4 +133,21 @@ Protected Sub RadGrid1_SortCommand(ByVal source As Object, ByVal e As GridSortCo
     End If
 End Sub
 ````
+
+## NoSort Mode Sorting Indicator
+
+The R1 2022 SP1 release introduces the option to show an icon in NoSort mode for the Lightweight render mode. It allows the user to easily see which columns can be sorted. 
+
+To show the indicator in NoSort mode, you can set the `Grid.SortingSettings.ShowNoSortIcons` property to `true` (default value is `false`). If you want to hide the icon for a specific column, you can set the `GridColumn.ShowNoSortIcon` property of the column to `false`.
+
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server" RenderMode="Lightweight" ...>
+    <SortingSettings ShowNoSortIcons="true" />
+    <MasterTableView ...>
+       ...
+    </MasterTableView>
+</telerik:RadGrid>
+````
+
+You can check this functionality in action in the [Grid - Basic Sorting](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/sorting/basic-sorting/defaultcs.aspx) online demo.
 

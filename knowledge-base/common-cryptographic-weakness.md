@@ -132,7 +132,7 @@ Also check the FAQ section at the end of the [Security]({%slug asyncupload-secur
     <li>
     <a href="http://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#manual-upgrade">Replace the Telerik.Web.UI assembly in your application</a> with the one of the same version that you just downloaded.
     </li>
-    <li>Generate <strong>new unique keys</strong>&nbsp;for&nbsp;<strong>Telerik.Web.UI.DialogParametersEncryptionKey&nbsp;</strong>and&nbsp;<strong>MachineKey&nbsp;</strong>in your&nbsp;<strong>web.config</strong>. You can <a href="http://docs.telerik.com/devtools/aspnet-ajax/general-information/images/generate-keys-iis.png" title="" class="" target="">use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)</a>.</li>
+    <li>Generate <strong>new unique keys</strong>&nbsp;for&nbsp;<strong>Telerik.Web.UI.DialogParametersEncryptionKey&nbsp;</strong>and&nbsp;<strong>MachineKey&nbsp;</strong>in your&nbsp;<strong>web.config</strong>. You can <a href="http://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/images/generate-keys-iis.png" title="" class="" target="">use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)</a>.</li>
 </ol>
 <p>The patched version shows "Telerik.Web.UI.Patch" in the File Description under Properties in Windows Explorer:</p>
 <p>How to spot a patched version of Telerik.Web.UI.dll:</p>
@@ -161,7 +161,7 @@ Also check the FAQ section at the end of the [Security]({%slug asyncupload-secur
     </a> to <strong>R2 2017 SP1</strong> (2017.2.621) or later.
     </li>
     <li>
-    <strong>Generate new keys</strong> for&nbsp;<strong>Telerik.Web.UI.DialogParametersEncryptionKey </strong>and <strong>MachineKey </strong>in your <strong><a href="http://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig">web.config</a></strong>. You can <a href="http://docs.telerik.com/devtools/aspnet-ajax/general-information/images/generate-keys-iis.png" title="" class="" target="">use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)</a>.</li>
+    <strong>Generate new keys</strong> for&nbsp;<strong>Telerik.Web.UI.DialogParametersEncryptionKey </strong>and <strong>MachineKey </strong>in your <strong><a href="http://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig">web.config</a></strong>. You can <a href="http://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/images/generate-keys-iis.png" title="" class="" target="">use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)</a>.</li>
 </ol>
 <hr >
 <a id="prevent-access"></a>
@@ -248,5 +248,3 @@ We would like to thank Erlend Leiknes, security consultant in Mnemonic AS, and T
 * [Unrestricted File Upload](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/unrestricted-file-upload)
 * [Insecure Direct Object Reference](https://www.telerik.com/support/kb/aspnet-ajax/upload-(async)/details/insecure-direct-object-reference)
 * [Blue Mockingbird Vulnerability Picks up Steam—Telerik Guidance blog post (CVE-2019-18935)](https://www.telerik.com/blogs/blue-mockingbird-vulnerability-telerik-guidance)
- 
-

@@ -57,6 +57,10 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  DataSummaryField `String`
 
 The data field with the values of the SummaryType value.
@@ -84,6 +88,10 @@ Defines the appearance settings of the series labels
 ###  Name `String`
 
 Get/Set the name of the series
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 

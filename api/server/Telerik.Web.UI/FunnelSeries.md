@@ -57,6 +57,14 @@ The data field with the values of the series along the Y axis
 
 Specifies the name of the series items in a databound scenario. This name will appear in the legend.
 
+###  DataNoteTextField `String`
+
+DataNoteTextField property is not supported for Radar, Polar, Pie, Funnel and BoxPlot series types.
+
+###  DataNoteTextField `String`
+
+The data field with the notes of the series
+
 ###  DataVisibleInLegendField `String`
 
 Specifies the visibility of the series items in the legend for a data-bound scenario.
@@ -91,6 +99,14 @@ Get/Set the name of the series
 ###  NeckRatio `Nullable`1`
 
 Get/Set the neck ratio of the funnel's segments
+
+###  NotesAppearance `NotesAppearance`
+
+Series Notes are not supported for Radar, Polar, Pie, Funnel and BoxPlot series types.
+
+###  NotesAppearance `SeriesAppearance`
+
+Defines the appearance settings of the notes
 
 ###  Opacity `Decimal`
 

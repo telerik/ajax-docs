@@ -408,6 +408,11 @@ If the corresponding  is in edit mode
                     render an Enabled=true button control, when the corresponding item is edit
                     mode.
 
+###  ShowNoSortIcon `Boolean`
+
+Get or Sets a value indicating whether a no sort icon should appear next to the
+            header button, when a column is not sorted but can be sorted.
+
 ###  ShowSortIcon `Boolean`
 
 Get or Sets a value indicating whether a sort icon should appear next to the

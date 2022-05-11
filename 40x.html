@@ -1,0 +1,104 @@
+---
+title: Error 404
+position: 1
+heading: Page Not Found
+include_in_navigation: false
+is_search_page: true
+sitemap: false
+---
+
+<div class="container-fluid mt-30 mb-80">
+  <div class="content">
+    <img class="ninja" src="/devtools/aspnet-ajax/images/ninja-icon.png" />
+    <h1>
+      Oh, no! <br />
+      It seems we've lost this page
+    </h1>
+    <h2>
+      Things you can try:
+    </h2>
+    <ul>
+      <li>
+        <p>Use our Google-powered search bar below to search in our documentation
+        </p>
+        <div class="local-search mt-20">
+          {% include search.html %}
+        </div>
+      </li>
+      <li><a href="#" onclick="history.go(-1); return false;">Go back</a> and try another way</li>
+      <li>Head to the <a href="/aspnet-ajax">Documentation Homepage</a></li>
+      <li>Cheer up and <a href="https://www.telerik.com/download">try our products</a>. Some of them are free!</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+</div>
+<script>showSearchPopup = false;</script>
+<script src="{{site.baseurl}}/assets/jquery.js?{{randomNumber}}" defer></script>
+<script src="{{site.baseurl}}/assets/bootstrap.min.js?{{randomNumber}}" defer></script>
+<script src="{{site.baseurl}}/assets/main.js?{{randomNumber}}" defer></script>
+<script src="{{site.baseurl}}/assets/search-results.js?{{randomNumber}}" defer></script>
+
+
+
+<style>
+  html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+  }
+
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  .content > h1{
+    padding-left: 200px;
+    margin: 20px auto;
+  }
+  .content > .ninja{
+    margin: 20px;
+  }
+
+  .content > h2{
+    margin-top: 80px
+  }
+
+  .ninja {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  h1 {
+    margin: 0 0 40px;
+    font: 600 60px/.9 Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -.03em;
+  }
+
+  h2 {
+    margin: 0 0 20px;
+    font: 400 28px/1 Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -.035em;
+  }
+
+  ul {
+    padding: 0 0 0 1.3em;
+    margin: 0;
+  }
+
+  a,
+  a:visited {
+    color: #0487c4;
+    text-decoration: none;
+    transition: color .2s ease, opacity .2s ease;
+  }
+
+  a:hover,
+  a:focus {
+    color: #036c9c;
+    text-decoration: underline;
+  }
+</style>
