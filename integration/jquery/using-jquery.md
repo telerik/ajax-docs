@@ -275,13 +275,13 @@ The jQuery library introduces a breaking change in version 3.0 and uses `strict 
 
 This incompatibility does not allow the Telerik UI for ASP.NET AJAX controls to use jQuery 3.x as an embedded version. You can load the latest jQuery on the page and use it for custom logic. Both versions can be loaded simultaneously on the page as explained in [Including external jQuery](#including-external-jquery). You should not disable the embedded jQuery and replace it with a 3.x version either, because this will break the MS AJAX framework.
 
-As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate known vulnerability issues for 1.12.4 version. Here is a list of security fixes introduced to the custom jQuery script embedded in the Telerik.Web.UI assembly.
+As of R1 2019, Telerik UI for ASP.NET AJAX ships a custom jQuery 1.12.4, with backport fixes incorporated to eliminate known vulnerability issues for 1.12.4 version. Here is a list of security fixes introduced to the custom jQuery script embedded in the Telerik.Web.UI assembly and their related CVE reports:
 
-* [Cross-site scripting (XSS) vulnerability in jQuery.htmlPrefilter fixed in jQuery 3.5](https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/) - from version **R2 2020**
+* `CVE-2020-11022`, `CVE-2020-11023` [Cross-site scripting (XSS) vulnerability in jQuery.htmlPrefilter fixed in jQuery 3.5](https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/) - from version **R2 2020**
 
-* [jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed](https://www.cvedetails.com/cve/CVE-2015-9251/) - from version **R1 2019**
+* `CVE-2015-9251` [jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed](https://www.cvedetails.com/cve/CVE-2015-9251/) - from version **R1 2019**
 
-* [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable `__proto__` property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/) - from version **R1 2019**
+* `CVE-2019-11358` [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable `__proto__` property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/) - from version **R1 2019**
 
 You can find more information in the following KB article on the matter: [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax).
 
