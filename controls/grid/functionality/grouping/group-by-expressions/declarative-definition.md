@@ -57,7 +57,7 @@ The following example shows the declaration of a grid with the **GroupByExpressi
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
   AllowPaging="True" PageSize="5" Skin="Outlook">
-  <MasterTableView DataSourceID="gridSource">
+  <MasterTableView DataSourceID="SqlDataSource1">
     <GroupByExpressions>
       <telerik:GridGroupByExpression>
         <SelectFields>
