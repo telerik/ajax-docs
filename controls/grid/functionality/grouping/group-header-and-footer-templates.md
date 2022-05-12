@@ -115,6 +115,8 @@ Below follows and example of group header and footer templates usage.
     <ClientSettings AllowDragToGroup="true" />
     <GroupingSettings ShowUnGroupButton="true" />
 </telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT * FROM Products" runat="server"></asp:SqlDataSource>
 ````
 ````VB
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
