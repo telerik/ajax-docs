@@ -16,7 +16,7 @@ position: 1
 
 ## Overview
 
-The party that best understands the internals of a component is the party that built it. Telerik Test Studio Translators are extensions that expose internal elements and properties of Telerik controls for automation and verification by Test Studio. First, the translator displays the different elements of the control using Test Studio Hover-Over Highlighting. Selecting one of these elements allows automating against that element from the [Elements Menu](https://docs.telerik.com/teststudio/features/recorder/overview) and [Elements Explorer](https://docs.telerik.com/teststudio/features/elements-explorer/overview). These tools will expose special properties and actions of these elements of the control, so that tests can take full advantage of the power of Telerik controls.
+The party that best understands the internals of a component is the party that built it. [Telerik Test Studio Translators](https://docs.telerik.com/devtools/teststudiodev/features/recorder/translators) are extensions that expose internal elements and properties of Telerik controls for automation and verification by Test Studio. First, the translator displays the different elements of the control using [Test Studio Hover-Over Highlighting](https://docs.telerik.com/devtools/teststudiodev/features/recorder/highlighting-elements). Selecting one of these elements allows automating against that element from the context menu. These tools will expose special properties and actions of these elements of the control, so that tests can take full advantage of the power of Telerik controls.
 
 * Test Studio includes translators for the full set of Telerik controls, including RadGrid, RadCombobox, and RadInput controls
 
@@ -26,13 +26,11 @@ The party that best understands the internals of a component is the party that b
 
 ## Using Telerik controls Translators
 
-As your mouse hovers over the Telerik controls in the Test Studio recording browser, a blue nub will fan out with one or more flippers to indicate progressively more specific translators.
+As your mouse hovers over the Telerik controls in the Test Studio recording browser, a context menu will appear with one or more components to indicate progressively more specific translators.
 
 ![Blue nub](images/introduction-teststudio-translators-blue-nub.png)
 
-As you mouse over these flippers, colored borders appear around a translated element, indicating how elements are contained within one another. The translators for a RadGrid cell are shown in this example. The nubs, from left to right, represent:
-
-* Base Element
+As you hover over those components, colored borders appear around a translated element, indicating how elements are contained within one another. The translators for a RadGrid cell are shown in this example. The list of components are:
 
 * GridDataCell
 
@@ -42,7 +40,7 @@ As you mouse over these flippers, colored borders appear around a translated ele
 
 * RadGrid
 
-As the mouse passes over translated elements, tooltip text appears with the identity of a specific element.The light green highlighting shows the shape of that element’s container.
+As the mouse passes over translated elements, the context menu expands with actions or verifications for the specific element. The colored highlighting shows the shape of that element's container.
 
 Clicking one of these flippers opens the Elements Menu for the translated element. Clicking the [Quick Tasks](https://docs.telerik.com/teststudio/features/recorder/verifications/quick-verification) option displays common tasks for the specific element. The screenshot below shows verification and wait tasks for a particular grid cell. This allows a level of transparency and detail custom-fit to this control.
 
