@@ -22,13 +22,13 @@ You will also learn about other important Telerik UI for ASP.NET AJAX built-in f
 
 The next video shares a glimpse of the format and structure of the whole training and provides a brief overview of what will be accomplished through the steps. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ktH6dSYN0GI" title="Telerik UI for ASP.NET AJAX - Overview of the Onboarding Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ktH6dSYN0GI" title="Telerik UI for ASP.NET AJAX - Overview of the Onboarding Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Project Overview
 
 This video explains the details around the project you will be modifying&mdash;what it is, what needs to be added, and what the accomplished state will look like.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=fiJmneLlf4w" title="Telerik UI for ASP.NET AJAX - Project Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiJmneLlf4w" title="Telerik UI for ASP.NET AJAX - Project Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Onboarding Modules
 
