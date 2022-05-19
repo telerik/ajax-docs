@@ -228,6 +228,7 @@ For any issues you might come across while working with Telerik UI for ASP.NET A
 
 ## Learning Resources
 
+* [Video Onboarding Course]({% slug virtualclass_ajax %})
 * [Telerik UI for ASP.NET AJAX Virtual Classroom (Training Courses for Registered Users)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
 * [Online Demos for Telerik UI for ASP.NET AJAX ](https://demos.telerik.com/aspnet-ajax)
 * [Telerik Blog on Telerik UI for ASP.NET AJAX](https://www.telerik.com/blogs/tag/asp-net-ajax)
