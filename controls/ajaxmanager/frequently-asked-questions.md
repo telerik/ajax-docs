@@ -60,72 +60,72 @@ Use the client-side `OnRequestStartA` event of the AjaxPanel or AjaxManager, and
 
 ## How-to Tutorials
 
-* [Cancel AJAX Request]({% slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request %})
+* [Cancel AJAX Requests with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request %})
 
-* [Client Confirmation and AJAX]({% slug ajaxmanager/client-side-programming/how-to/client-confirmation-and-ajax %})
+* [Show a User Confirmation Dialog and Initiate an AJAX Request]({% slug ajaxmanager/client-side-programming/how-to/client-confirmation-and-ajax %})
 
-* [Pass More than one Argument]({% slug ajaxmanager/client-side-programming/how-to/pass-more-than-one-argument %})
+* [Pass Two or More Arguments in `ajaxRequest` and `ajaxRequestWithTarget` with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/pass-more-than-one-argument %})
 
-* [Forcing a Postback]({% slug ajaxmanager/client-side-programming/how-to/forcing-a-postback %})
+* [Force a Postback with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/forcing-a-postback %})
 
-* [Assign Different Client Events for Different Controls]({% slug ajaxmanager/client-side-programming/how-to/assign-different-client-events-for-different-controls %})
+* [Assign Different Client Events for Different Controls with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/assign-different-client-events-for-different-controls %})
 
-* [Change Mouse Cursor on AJAX Update]({% slug ajaxmanager/client-side-programming/how-to/change-mouse-cursor-on-ajax-update %})
+* [Change the Mouse Cursor on Ajax Updates with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/change-mouse-cursor-on-ajax-update %})
   
-* [Add AjaxSettings Programmatically]({% slug ajaxmanager/how-to/add-ajaxsettings-programmatically %})
+* [Add AjaxSettings to the AajaxManager Programmatically]({% slug ajaxmanager/how-to/add-ajaxsettings-programmatically %})
 
-* [RadAjax and WebUserControls]({% slug ajaxmanager/how-to/radajax-and-webusercontrols %})
+* [Use Telerik AJAX and WebUserControls]({% slug ajaxmanager/how-to/radajax-and-webusercontrols %})
 
-* [Redirecting to Another Page]({% slug ajaxmanager/how-to/redirecting-to-another-page %})
+* [Redirect to Another Page from the Server]({% slug ajaxmanager/how-to/redirecting-to-another-page %})
 
 * [Load User Controls]({% slug ajaxmanager/how-to/load-user-controls %})
 
-* [RadAjax and MasterPage]({% slug ajaxmanager/how-to/radajax-and-masterpage %})
+* [Use Telerik AJAX and MasterPage]({% slug ajaxmanager/how-to/radajax-and-masterpage %})
 
-* [Ajaxify and Update Controls in Master and Content Page]({% slug ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page %})
+* [Ajaxify and Update Controls in Master and Content Page with the AjaxManager]({% slug ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page %})
 
 * [Manually Add an AJAX Request]({% slug ajaxmanager/how-to/manually-add-an-ajax-request %})
 
 * [Exclude Controls from Ajaxifying]({% slug ajaxmanager/how-to/exclude-controls-from-ajaxifying %})
 
-* [Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another]({% slug ajaxmanager/how-to/initiating-requests-from-contentplaceholder %})
+* [Initiate Requests from One ContentPlaceHolder and Load or Update Controls in Another]({% slug ajaxmanager/how-to/initiating-requests-from-contentplaceholder %})
 
-* [Ajaxify Particular Templated GridView Buttons]({% slug ajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons %})
+* [Ajaxify Particular Templated GridView Buttons with AjaxManager]({% slug ajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons %})
 
-* [Executing Custom Javascript Code after AJAX Update]({% slug ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update %})
+* [Execute Custom Javascript Code after an AJAX Update]({% slug ajaxmanager/how-to/executing-custom-javascript-code-after-ajax-update %})
   
-* [Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax]({% slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax %})
+* [Check for Incompatible Controls and Update Third-Party Controls with Telerik AJAX]({% slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax %})
 
 * [Update in Composite Control]({% slug ajaxmanager/how-to/update-in-composite-control %})
 
-* [Add RadAjaxManager Programmatically]({% slug ajaxmanager/how-to/add-radajaxmanager-programmatically %})
+* [Add the AjaxManager Programmatically]({% slug ajaxmanager/how-to/add-radajaxmanager-programmatically %})
 
-* [Disable AJAX when Client Browser Does Not Support it]({% slug ajaxmanager/how-to/disable-ajax-when-client-browser-does-not-support-it %})
+* [Disable AJAX with the AjaxManager When the Client Browser Does Not Support it]({% slug ajaxmanager/how-to/disable-ajax-when-client-browser-does-not-support-it %})
 
-* [Disable Controls During AJAX]({% slug ajaxmanager/how-to/disable-controls-during-ajax %})
+* [Disable Controls during AJAX Requests with the AjaxManager]({% slug ajaxmanager/how-to/disable-controls-during-ajax %})
 
-* [Update Initiator's UpdatePanels only]({% slug ajaxmanager/how-to/update-initiator's-updatepanels-only %})
+* [Update the UpdatePanels of the Initiator Only]({% slug ajaxmanager/how-to/update-initiator's-updatepanels-only %})
   
-* [How to Use CSS Conditional Comments with Ajax]({% slug ajaxmanager/how-to/how-to-use-css-conditional-comments-with-ajax %})
+* [Use Conditional CSS Comments with Ajax]({% slug ajaxmanager/how-to/how-to-use-css-conditional-comments-with-ajax %})
 
-* [Download Files with Ajaxified Control]({% slug ajaxmanager/how-to/download-files-with-ajaxified-control %})
+* [Download Files with an Ajaxified Control When Using the AjaxManager]({% slug ajaxmanager/how-to/download-files-with-ajaxified-control %})
 
-* [Ajax Requests Queueing]({% slug ajaxmanager/how-to/ajax-requests-queueing %})
+* [Ajax Requests Are Queueing When Using the AjaxManager]({% slug ajaxmanager/how-to/ajax-requests-queueing %})
 
-* [Using RadAjax in Medium Trust]({% slug ajaxmanager/how-to/using-radajax-in-medium-trust %})
+* [Use Telerik AJAX in Medium Trust]({% slug ajaxmanager/how-to/using-radajax-in-medium-trust %})
 
-* [EventName Property]({% slug ajaxmanager/how-to/eventname-property %})
+* [Set the `EventName` Property in the AjaxManager and UpdatePanel Controls]({% slug ajaxmanager/how-to/eventname-property %})
   
 
 ## Troubleshooting Tutorials
 
-* [Controls Wrapped in AjaxPanel and Added to AjaxManager Settings]({% slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings %})
+* [AjaxManager Settings Are Not Working When Controls Are Wrapped in an AjaxPanel and Added to the Settings]({% slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings %})
 
-* [Known Reasons for Error Messages]({% slug syntax-browser-errors-occur %})
+* [`SyntaxError` Occurs in the Browser]({% slug syntax-browser-errors-occur %})
 
-* [Ajaxified Control Still Makes Postbacks]({% slug ajaxmanager/troubleshooting/ajaxified-control-still-makes-postbacks %})
+* [An Ajaxified Control Still Makes Postbacks]({% slug ajaxmanager/troubleshooting/ajaxified-control-still-makes-postbacks %})
 
-* [RadAjaxManager Designer Does Not Locate All Controls]({% slug ajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls %})
+* [The AjaxManager Designer Does Not Locate All Controls]({% slug ajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls %})
 
 * [Updated Controls Appear on a New Line]({% slug ajaxmanager/troubleshooting/updated-controls-appear-on-a-new-line %})
 

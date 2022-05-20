@@ -35,22 +35,29 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
 1. Add a ScriptManager control on a Web Form.
 
+
 2. Add an AjaxManager to the Page:
+
 
     ````ASP.NET
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server"></telerik:RadAjaxManager>
     ````
 
+
 3. Add an AjaxLoadingPanel to the Page and associate the AjaxManager with it:
+
 
     ````ASP.NET
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
     </telerik:RadAjaxManager>
-    
+
     <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default"></telerik:RadAjaxLoadingPanel>
     ````
 
+
 4. Add the controls that will be updated. in this sample, we will add two panels, two buttons and two labels:
+
+
     ````ASP.NET
     <telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX" OnClick="RadButton1_Click">
     </telerik:RadButton>
@@ -67,6 +74,7 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
 5. Add `RadButton1` to the AjaxManager's AJAX iniators and register `Panel1` to the controls updated by the button:
 
+
     ````ASP.NET
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
         <AjaxSettings>
@@ -79,7 +87,9 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
     </telerik:RadAjaxManager>
     ````
 
+
 6. Add some server-side logic to the buttons' `OnClick` event handlers in order to update the labels on the page:
+
 
     ````C#
     protected void RadButton1_Click(object sender, EventArgs e)
@@ -91,16 +101,16 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
     }
     protected void RadButton2_Click(object sender, EventArgs e)
     {
-       //the whole page will be updated
-       RadLabel1.Text = "Success on Postback";
-       RadLabel2.Text = "Success on Postback";
+        //the whole page will be updated
+        RadLabel1.Text = "Success on Postback";
+        RadLabel2.Text = "Success on Postback";
     }
     ````
     ````VB
     Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
-       System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
-       RadLabel1.Text = "Success"
-       RadLabel2.Text = "Success" 'this label will not be updated
+        System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
+        RadLabel1.Text = "Success"
+        RadLabel2.Text = "Success" 'this label will not be updated
     End Sub
 
     Protected Sub RadButton2_Click(ByVal sender As Object, ByVal e As EventArgs)
