@@ -23,7 +23,7 @@ Most of the slowdown happens when updating multiple controls in a table element.
 
 Consider the HTML in the following example which shows a simple table with labels. Having two `AjaxSettings` for both labels will cause two DOM element to update: the spans rendered by `lblStatus` and `lblMessage`, respectively. This will make the browser re-calculate the table size twice. 
 
-You can optimize the process by updating the `TABLE` or the outer `DIV` element. Updating the `Header` control will update both labels and will trigger one DOM update only.
+You can optimize the process by updating the `table` or the outer `div` element. Updating the `Header` control will update both labels and will trigger one DOM update only.
 
 ````ASP.NET
  <div id="Header" style="width: 100%;" runat="server">
@@ -43,12 +43,9 @@ You can optimize the process by updating the `TABLE` or the outer `DIV` element.
  </div>
 ````
 
-
-
 Prohibitively bad performance is usually the result of updating controls that are placed deeply inside nested tables. In addition, most browsers are slow when rendering elements with percentage dimensions (typically width or height of 100%), so another way to optimize this is to switch to sizes in pixels. 
 
 You can also use a fixed table layout by setting the `table-layout` CSS style property of the HTML table to `fixed`. Note that you will need to define the width and the `<colgroup>` and `<col>` elements for your table when using the fixed table layout.
-
 
 ````CSS
 <style type="text/css">
@@ -58,8 +55,6 @@ You can also use a fixed table layout by setting the `table-layout` CSS style pr
 	}
 </style>
 ````
-
-
 
 ## Other Performance Boosters
 
@@ -71,8 +66,6 @@ Most browsers render documents a lot slower when operating in quirks mode. Try s
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ````
-
-
 
 ## See Also
 

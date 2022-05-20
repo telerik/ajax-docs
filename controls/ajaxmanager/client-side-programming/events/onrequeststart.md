@@ -41,8 +41,6 @@ The example below displays the control that initiated the request.
 	    alert('Request start initiated by: ' + eventArgs.get_eventTarget());
 	}
 </script>
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-</telerik:RadScriptManager>
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	<ClientEvents OnRequestStart="requestStart" />
 </telerik:RadAjaxManager>

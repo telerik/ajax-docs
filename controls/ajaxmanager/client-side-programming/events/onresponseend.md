@@ -33,14 +33,10 @@ The following example displays the control that initiated the request.
 	    alert('Response end initiated by: ' + eventArgs.get_eventTarget());
 	}
 </script>
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-</telerik:RadScriptManager>
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	<ClientEvents OnResponseEnd="responseEnd" />
 </telerik:RadAjaxManager>
 ````
-
-
 
 ## See Also
 

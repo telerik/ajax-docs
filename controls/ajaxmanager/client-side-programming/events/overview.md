@@ -25,21 +25,21 @@ The following example shows how to display a message when a request starts and e
 ````ASP.NET
 <script type="text/javascript">
 	function requestStart(sender, eventArgs) {
-	    alert('Request start');
+		alert('Request start');
 	}
 	function responseEnd(sender, eventArgs) {
-	    alert('Response complete');
+		alert('Response complete');
 	}
 </script>
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <ClientEvents OnRequestStart="requestStart" OnResponseEnd="responseEnd" />
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="TextBox1"></telerik:AjaxUpdatedControl>
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
+	<ClientEvents OnRequestStart="requestStart" OnResponseEnd="responseEnd" />
+	<AjaxSettings>
+		<telerik:AjaxSetting AjaxControlID="Button1">
+			<UpdatedControls>
+				<telerik:AjaxUpdatedControl ControlID="TextBox1"></telerik:AjaxUpdatedControl>
+			</UpdatedControls>
+		</telerik:AjaxSetting>
+	</AjaxSettings>
 </telerik:RadAjaxManager>
 ````
 

@@ -31,24 +31,26 @@ The following table lists the `RadAjaxManager` properties and methods.
 The following example demonstrates how to use the `get_ajaxSettings` configuration. 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        var ajaxManager = $find("<%= RadAjaxManager1.ClientID %>");
-	        var settings = ajaxManager.get_ajaxSettings();
-	        var settingsList = '';
-	        for (setting in settings) {
-	            var initiatingControl = settings[setting].InitControlID;
-	            var controls = settings[setting].UpdatedControls;
-	            var controlList = '';
-	            for (control in controls) {
-	                controlList += ' ' + controls[control].ControlID;
-	            }
-	            settingsList += '\nInitiated by: ' + initiatingControl + '\nUpdated Controls: ' + controlList;
-	        }
-	        alert(settingsList); 
-	    </script>
+<script type="text/javascript">
+	function myFunction() {
+		var ajaxManager = $find("<%= RadAjaxManager1.ClientID %>");
+		var settings = ajaxManager.get_ajaxSettings();
+		var settingsList = '';
+
+		for (setting in settings) {
+			var initiatingControl = settings[setting].InitControlID;
+			var controls = settings[setting].UpdatedControls;
+			var controlList = '';
+
+			for (control in controls) {
+				controlList += ' ' + controls[control].ControlID;
+			}
+			settingsList += '\nInitiated by: ' + initiatingControl + '\nUpdated Controls: ' + controlList;
+		}
+		alert(settingsList);
+	}
+</script>
 ````
-
-
 
 # See Also
 

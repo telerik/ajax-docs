@@ -19,48 +19,6 @@ The following example shows an AjaxManager in action with applied Grid paging an
 
 ![RadAjaxManager in Action](images/AJAXinAction.gif)
 
-You can also copy-paste the following code to try out the AjaxManager. 
-
-```ASP.NET
-<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-    <AjaxSettings>
-        <telerik:AjaxSetting AjaxControlID="RadButton1">
-            <UpdatedControls>
-                <telerik:AjaxUpdatedControl ControlID="RadLabel1" />
-            </UpdatedControls>
-        </telerik:AjaxSetting>
-    </AjaxSettings>
-</telerik:RadAjaxManager>
-<telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX"
-    OnClick="RadButton1_Click">
-</telerik:RadButton>
-<telerik:RadLabel ID="RadLabel1" runat="server">Output 1</telerik:RadLabel>
-<br />
-<telerik:RadButton ID="RadButton2" runat="server" Text="Without AJAX"
-    OnClick="RadButton2_Click">
-</telerik:RadButton>
-<br />
-<telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
-```
-```C#
-protected void RadButton1_Click(object sender, EventArgs e)
-{
-    RadLabel1.Text = "Success";
-}
-protected void RadButton2_Click(object sender, EventArgs e)
-{
-    RadLabel2.Text = "Success";
-}
-```
-```VB
-Protected Sub RadButton1_Click(ByVasender As Object, ByVal e As EventArgs)
-    RadLabel1.Text = "Success"
-End Sub
-Protected Sub RadButton2_Click(ByVasender As Object, ByVal e As EventArgs)
-    RadLabel2.Text = "Success"
-End Sub
-```
-
 
 ## Logic and Capabilities
 

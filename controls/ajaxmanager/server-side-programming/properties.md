@@ -47,6 +47,7 @@ The following list shows some of the most frequently used ones. For the full lis
     {
     	RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString());
     }
+
     protected void Button2_Click(object sender, EventArgs e)
     {
     	RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString());
@@ -56,6 +57,7 @@ The following list shows some of the most frequently used ones. For the full lis
     Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
         RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString())
     End Sub
+
     Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
         RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString())
     End Sub
@@ -82,18 +84,17 @@ The following list shows some of the most frequently used ones. For the full lis
     End Sub				
     ````
 
+    The following example contains some sample code showing the usage of the `ResponseScripts` property.
 
-The following example contains some sample code showing the usage of the `ResponseScripts` property.
-
-````JavaScript
-<script type="text/javascript">
-	setTimeout(function () { alert('this fires after the response'); }, 0); 
-	Sys.Application.initialize();	
-	Sys.Application.add_init(function () {
-	$create(Telerik.Web.UI.RadAjaxManager, { "ajaxSettings": [{ InitControlID: "Button1", UpdatedControls: [{ ControlID: "Label1", PanelID: ""}]}], "clientEvents": { OnRequestStart: "", OnResponseEnd: "" }, "defaultLoadingPanelID": "", "enableAJAX": true, "enableHistory": false, "links": [], "styles": [], "uniqueID": "RadAjaxManager1" }, null, null, $get("RadAjaxManager1"));
-});
-</script>
-````
+    ````JavaScript
+    <script type="text/javascript">
+        setTimeout(function () { alert('this fires after the response'); }, 0); 
+        Sys.Application.initialize();	
+        Sys.Application.add_init(function () {
+        $create(Telerik.Web.UI.RadAjaxManager, { "ajaxSettings": [{ InitControlID: "Button1", UpdatedControls: [{ ControlID: "Label1", PanelID: ""}]}], "clientEvents": { OnRequestStart: "", OnResponseEnd: "" }, "defaultLoadingPanelID": "", "enableAJAX": true, "enableHistory": false, "links": [], "styles": [], "uniqueID": "RadAjaxManager1" }, null, null, $get("RadAjaxManager1"));
+    });
+    </script>
+    ````
 
 
 

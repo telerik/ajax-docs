@@ -70,8 +70,7 @@ protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCrea
 	{
 	    if (e.Updated.ID == "Label1")
 	    e.UpdatePanel.RenderMode = UpdatePanelRenderMode.Block;
-	}  
-				
+	}  				
 ````
 ````VB.NET
 Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)

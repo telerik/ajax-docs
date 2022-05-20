@@ -69,12 +69,25 @@ The Telerik AJAX framework eliminates the AJAX development challenges. The produ
 
 ## About Telerik AJAX
 
-Telerik UI for ASP.NET AJAX delivers the AjaxManager and AjaxPanel controls which handle the Ajaxification of the controls located on the pages of your project.
+Telerik UI for ASP.NET AJAX delivers the AjaxManager, AjaxPanel and AjaxLoadingPanel which handle the Ajaxification of the controls located on the pages of your project.
 
-!!! .... more info what the controls do.  
+### Using RadAjaxPanel
+
+The RadAjaxPanel is a wrapper for the UpdatePanel and provides a quick way to enable AJAX for all controls on the page, or for as many as wrapped into it. RadAjaxPanel is designed to enable AJAX for all Controls that are placed inside it and does not provide the option to specify Triggers for Controls that reside outside.
+
+### Using RadAjaxManager
+
+RadAjaxManager may seem a little complicated at first, but it's simple and easy to understand once you know the background of it.
+
+Since PostBack Triggers of the standard Update Panel are playing an important role, Telerik has designed the RadAjaxManager that allows you to specify which Control to trigger the partial PostBack and update the other. When using the AjaxManager you can update any control on the page even regardless of their location on the page. 
+
+### Using RadAjaxManagerProxy
+
+Normally, you can only have one RadAjaxManager on a Page and the above examples demonstrate how to configure it in different ways. However, In case of using a combination of MasterPage, Content Page and UserControls we recommend utilizing the RadAjaxManagerProxy. In this way you can have different AJAX settings on each content page, specific to the controls placed in this specific page.
 
 ## Learning Resources 
 
+* [Understanding AJAX Controls]({% slug understanding-ajax-controls %})
 * [AJAX Programming (Wikipedia)](https://en.wikipedia.org/wiki/Ajax_(programming))
 * [Telerik UI for ASP.NET AJAX Virtual Classroom (Training Courses for Registered Users)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
 * [Online Demos for Telerik UI for ASP.NET AJAX ](https://demos.telerik.com/aspnet-ajax)

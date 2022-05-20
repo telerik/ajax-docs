@@ -39,26 +39,22 @@ The example below demonstrates an `AjaxRequest` triggered from both the client a
 </form>
 ````
 
-
-
-
-
 ````C#
-	
 protected void btnServer_Click(object sender, EventArgs e)
 {
 	RadAjaxManager1.RaisePostBackEvent("server");
 }
+
 protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
 {
 	RadAjaxManager1.Alert("AjaxRequest raised from the " + e.Argument);
 }
-	
 ````
 ````VB
 Protected Sub btnServer_Click(ByVal sender As Object, ByVal e As EventArgs)
 	RadAjaxManager1.RaisePostBackEvent("server")
 End Sub
+
 Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
 	 RadAjaxManager1.Alert("AjaxRequest raised from the " + e.Argument)
 End Sub

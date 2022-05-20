@@ -19,9 +19,9 @@ This guide will walk you through the steps required to AJAX-enable an applicatio
 
 After the completion of this guide and as demonstrated in the following image, you will have an AJAX-enabled application at runtime in which the normal postback will be replaced by a callback and the loading panel will be displayed in the currently updating control.
 
-![](images/HowTheAjaxApplicationWorks.png)
+![](images/ajaxmanager-gettingstarted-sample.gif)
 
-## Step 1: Set Up Your ASP.NET Project
+## Set Up Your ASP.NET Project
 
 Before you add the AjaxManager to your application, ensure that you have a running ASP.NET project. The prerequisites to accomplish the installation of Telerik UI for ASP.NET are always the same, regardless of the Telerik AJAX control you want to use, and are fully described in the respective sections of the Getting Started guides: 
 
@@ -29,47 +29,148 @@ Before you add the AjaxManager to your application, ensure that you have a runni
 * [First Steps with Telerik AJAX by Installing with a ZIP File]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %}#prerequisites)
 * [First Steps with Telerik AJAX by Installing from a NuGet Package]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %}#prerequisites)
 
-## Step 2: Add the AjaxManager
+## Create an AJAX-Enabled Scenario
 
-To add the AjaxManager to a web page that you are modifying in the design view in Visual Studio, drag it from the Telerik toolbox to the design surface as shown in the following image.
+The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingPanel to a page, configuring two buttons to update a common container.
 
->caption Drag the AjaxManager from the Telerik toolbox to the design surface
+1. Add a ScriptManager control on a Web Form.
 
-![AjaxManager Toolbox](images/RadAjaxManagerToolBox.png)
+1. Add an AjaxManager to the Page:
 
-## Step 3: Add the AjaxLoadingPanel
+    ````ASP.NET
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+    </telerik:RadAjaxManager>
+    ````
 
-To add the AjaxLoadingPanel to the project, drag and drop the control from the Telerik toolbox to the design surface as shown in the following image. 
+1. Add an AjaxLoadingPanel to the Page and associate the AjaxManager with it:
+    ````ASP.NET
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+    </telerik:RadAjaxManager>
 
->caption Drag the AjaxLoadingPanel from the Telerik toolbox to the design surface
+    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default"></telerik:RadAjaxLoadingPanel>
+    ````
 
-![](images/RadAjaxLoadingPanelToolBox.png)
+1. Add the controls that will be updated. in this sample, we will add two panels, two buttons and two labels:
+     ````ASP.NET
+    <telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX"
+        OnClick="RadButton1_Click">
+    </telerik:RadButton>
+    <asp:Panel ID="Panel1" runat="server" Height="200px" Width="400px">
+        <telerik:RadLabel ID="RadLabel1" runat="server">Output 1</telerik:RadLabel>
+    </asp:Panel>
 
-## Step 4: AJAX-Enable the Controls
+    <telerik:RadButton ID="RadButton2" runat="server" Text="Without AJAX"
+        OnClick="RadButton2_Click">
+    </telerik:RadButton>
+    <asp:Panel ID="Panel2" runat="server" Height="200px" Width="400px">
+        <telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
+    </asp:Panel>
+     ````
 
-Now, let's AJAX-enable the individual controls on the page. To achieve this, you are only required to codelessly configure the necessary relations between the AjaxManager and the other control in the design-time: 
+1. Add `RadButton1` to the AjaxManager's AJAX iniators and register `Panel1` to the controls updated by the button:
 
-1. Click the box in the top right corner to open the **Smart Tag**.
+    ````ASP.NET
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="RadButton1">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+        </AjaxSettings>
+    </telerik:RadAjaxManager>
+    ````
 
-1. Configure the AjaxManager through the **Open Ajax Settings Configuration Wizard** link of the **Smart Tag**. 
+1. Add some server-side logic to the buttons' `OnClick` event handlers in order to update the labels on the page:
+   
+    ````C#
+    protected void RadButton1_Click(object sender, EventArgs e)
+    {
+        System.Threading.Thread.Sleep(2000); //added to simulate a longer AJAX request
+        RadLabel1.Text = "Success";
+        
+        RadLabel2.Text = "Success"; //this label will not be updated
+    }
+    protected void RadButton2_Click(object sender, EventArgs e)
+    {
+        //the whole page will be updated
+        RadLabel1.Text = "Success on Postback";
+        RadLabel2.Text = "Success on Postback";
+    }
+    ````
+    ````VB
+    Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+        System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
+        RadLabel1.Text = "Success"
+        RadLabel2.Text = "Success" 'this label will not be updated
+    End Sub
 
->caption Configure the relations between the controls 
+    Protected Sub RadButton2_Click(ByVal sender As Object, ByVal e As EventArgs)
+        'the whole page will be updated
+        RadLabel1.Text = "Success on Postback"
+        RadLabel2.Text = "Success on Postback"
+    End Sub
+    ````
 
-![AjaxManager Tasks](images/AjaxManagerTasks.jpg)
+The final setup has to look like follows:
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+    <AjaxSettings>
+        <telerik:AjaxSetting AjaxControlID="RadButton1">
+            <UpdatedControls>
+                <telerik:AjaxUpdatedControl ControlID="Panel1" />
+            </UpdatedControls>
+        </telerik:AjaxSetting>
+    </AjaxSettings>
+</telerik:RadAjaxManager>
 
-1. On the left-hand side, the AjaxManager Configuration Wizard displays the controls that will initiate AJAX requests. In the center, the Configuration Wizard shows the controls that will be updated with AJAX. You can include and exclude items from these lists by selecting or deselecting the checkboxes to the left of each control.
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default"></telerik:RadAjaxLoadingPanel>
 
->caption Select the controls that will initiate or will be updated by an AJAX request
+<telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX"
+    OnClick="RadButton1_Click">
+</telerik:RadButton>
+<asp:Panel ID="Panel1" runat="server" Height="200px" Width="400px">
+    <telerik:RadLabel ID="RadLabel1" runat="server">Output 1</telerik:RadLabel>
+</asp:Panel>
 
-![LoadingPanel Setting](images/SetTheLoadingPanelID.png)
+<telerik:RadButton ID="RadButton2" runat="server" Text="Without AJAX"
+    OnClick="RadButton2_Click">
+</telerik:RadButton>
+<asp:Panel ID="Panel2" runat="server" Height="200px" Width="400px">
+    <telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
+</asp:Panel>
+````
 
-## Step 5: Display a Loading Panel
+````C#
+protected void RadButton1_Click(object sender, EventArgs e)
+{
+    System.Threading.Thread.Sleep(2000); //added to simulate a longer AJAX request
+    RadLabel1.Text = "Success";
+    
+    RadLabel2.Text = "Success"; //this label will not be updated
+}
+protected void RadButton2_Click(object sender, EventArgs e)
+{
+    //the whole page will be updated
+    RadLabel1.Text = "Success on Postback";
+    RadLabel2.Text = "Success on Postback";
+}
+````
+````VB
+Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+    System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
+    RadLabel1.Text = "Success"
+    RadLabel2.Text = "Success" 'this label will not be updated
+End Sub
 
-You can now display a loading panel for each control that will be updated through the AjaxManager. Just set the `LoadingPanelID` property to the `ID` of an existing AjaxLoadingPanel control.
+Protected Sub RadButton2_Click(ByVal sender As Object, ByVal e As EventArgs)
+    'the whole page will be updated
+    RadLabel1.Text = "Success on Postback"
+    RadLabel2.Text = "Success on Postback"
+End Sub
+````
 
->caption Set the LoadingPanelID to the ID of the AjaxLoadingPanel 
 
-![LoadingPanel Setting](images/SetTheLoadingPanelID.png)
 
 
 ## See Also

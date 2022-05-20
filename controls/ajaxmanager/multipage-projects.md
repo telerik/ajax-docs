@@ -74,30 +74,30 @@ If you need to handle the master manager events in the user control or content p
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadAjaxManager manager = RadAjaxManager.GetCurrent(Page);
-	        manager.ClientEvents.OnRequestStart = "onRequestStart";
-	        manager.ClientEvents.OnResponseEnd = "onResponseEnd";
-	        manager.AjaxRequest += new RadAjaxControl.AjaxRequestDelegate(manager_AjaxRequest);
-	    }
+{
+	RadAjaxManager manager = RadAjaxManager.GetCurrent(Page);
+	manager.ClientEvents.OnRequestStart = "onRequestStart";
+	manager.ClientEvents.OnResponseEnd = "onResponseEnd";
+	manager.AjaxRequest += new RadAjaxControl.AjaxRequestDelegate(manager_AjaxRequest);
+}
+
 protected void manager_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
-	    {
-	        //handle the manager AjaxRequest event here
-	    }	
+{
+	//handle the manager AjaxRequest event here
+}	
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
-	        manager.ClientEvents.OnRequestStart = "onRequestStart"
-	        manager.ClientEvents.OnResponseEnd = "onResponseEnd"
-	        AddHandler manager.AjaxRequest, AddressOf manager_AjaxRequest
+	Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
+	manager.ClientEvents.OnRequestStart = "onRequestStart"
+	manager.ClientEvents.OnResponseEnd = "onResponseEnd"
+	AddHandler manager.AjaxRequest, AddressOf manager_AjaxRequest
 End Sub
+
 Protected Sub manager_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
-	        'handle the manager AjaxRequest event here
+	'handle the manager AjaxRequest event here
 End Sub
 ````
-
-
 
 ## See Also
 
