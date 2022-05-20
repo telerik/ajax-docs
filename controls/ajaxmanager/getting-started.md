@@ -41,7 +41,7 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
     **ASP.NET**
 
-    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server"></telerik:RadAjaxManager>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server"></telerik:RadAjaxManager>
 
 
 3. Add an AjaxLoadingPanel to the Page and associate the AjaxManager with it:
@@ -49,10 +49,10 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
     **ASP.NET**
 
-    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
-    </telerik:RadAjaxManager>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+        </telerik:RadAjaxManager>
 
-    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default"></telerik:RadAjaxLoadingPanel>
+        <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default"></telerik:RadAjaxLoadingPanel>
 
 
 4. Add the controls that will be updated. in this sample, we will add two panels, two buttons and two labels:
@@ -60,17 +60,17 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
     **ASP.NET**
 
-    <telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX" OnClick="RadButton1_Click">
-    </telerik:RadButton>
-    <asp:Panel ID="Panel1" runat="server" Height="200px" Width="400px">
-        <telerik:RadLabel ID="RadLabel1" runat="server">Output 1</telerik:RadLabel>
-    </asp:Panel>
+        <telerik:RadButton ID="RadButton1" runat="server" Text="With AJAX" OnClick="RadButton1_Click">
+        </telerik:RadButton>
+        <asp:Panel ID="Panel1" runat="server" Height="200px" Width="400px">
+            <telerik:RadLabel ID="RadLabel1" runat="server">Output 1</telerik:RadLabel>
+        </asp:Panel>
 
-    <telerik:RadButton ID="RadButton2" runat="server" Text="Without AJAX" OnClick="RadButton2_Click">
-    </telerik:RadButton>
-    <asp:Panel ID="Panel2" runat="server" Height="200px" Width="400px">
-        <telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
-    </asp:Panel>
+        <telerik:RadButton ID="RadButton2" runat="server" Text="Without AJAX" OnClick="RadButton2_Click">
+        </telerik:RadButton>
+        <asp:Panel ID="Panel2" runat="server" Height="200px" Width="400px">
+            <telerik:RadLabel ID="RadLabel2" runat="server">Output 2</telerik:RadLabel>
+        </asp:Panel>
 
 
 5. Add `RadButton1` to the AjaxManager's AJAX iniators and register `Panel1` to the controls updated by the button:
@@ -78,15 +78,15 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
     **ASP.NET**
 
-    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
-        <AjaxSettings>
-            <telerik:AjaxSetting AjaxControlID="RadButton1">
-                <UpdatedControls>
-                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
-                </UpdatedControls>
-            </telerik:AjaxSetting>
-        </AjaxSettings>
-    </telerik:RadAjaxManager>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+            <AjaxSettings>
+                <telerik:AjaxSetting AjaxControlID="RadButton1">
+                    <UpdatedControls>
+                        <telerik:AjaxUpdatedControl ControlID="Panel1" />
+                    </UpdatedControls>
+                </telerik:AjaxSetting>
+            </AjaxSettings>
+        </telerik:RadAjaxManager>
 
 
 6. Add some server-side logic to the buttons' `OnClick` event handlers in order to update the labels on the page:
@@ -94,35 +94,35 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
 
     **C#**
 
-    protected void RadButton1_Click(object sender, EventArgs e)
-    {
-        System.Threading.Thread.Sleep(2000); //added to simulate a longer AJAX request
-        RadLabel1.Text = "Success";
+        protected void RadButton1_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.Sleep(2000); //added to simulate a longer AJAX request
+            RadLabel1.Text = "Success";
 
-        RadLabel2.Text = "Success"; //this label will not be updated
-    }
+            RadLabel2.Text = "Success"; //this label will not be updated
+        }
 
-    protected void RadButton2_Click(object sender, EventArgs e)
-    {
-        //the whole page will be updated
-        RadLabel1.Text = "Success on Postback";
-        RadLabel2.Text = "Success on Postback";
-    }
+        protected void RadButton2_Click(object sender, EventArgs e)
+        {
+            //the whole page will be updated
+            RadLabel1.Text = "Success on Postback";
+            RadLabel2.Text = "Success on Postback";
+        }
 
 
     **VB**
 
-    Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
-        System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
-        RadLabel1.Text = "Success"
-        RadLabel2.Text = "Success" 'this label will not be updated
-    End Sub
+        Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+            System.Threading.Thread.Sleep(2000) 'added to simulate a longer AJAX request
+            RadLabel1.Text = "Success"
+            RadLabel2.Text = "Success" 'this label will not be updated
+        End Sub
 
-    Protected Sub RadButton2_Click(ByVal sender As Object, ByVal e As EventArgs)
-        'the whole page will be updated
-        RadLabel1.Text = "Success on Postback"
-        RadLabel2.Text = "Success on Postback"
-    End Sub
+        Protected Sub RadButton2_Click(ByVal sender As Object, ByVal e As EventArgs)
+            'the whole page will be updated
+            RadLabel1.Text = "Success on Postback"
+            RadLabel2.Text = "Success on Postback"
+        End Sub
 
 
 
@@ -191,3 +191,4 @@ End Sub
 ## See Also
 
 * [On AJAX and Telerik AJAX]({%slug ajaxmanager/getting-started/what-is-ajax%})
+
