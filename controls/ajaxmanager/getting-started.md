@@ -43,6 +43,7 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
     ````
 
 1. Add an AjaxLoadingPanel to the Page and associate the AjaxManager with it:
+
     ````ASP.NET
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
     </telerik:RadAjaxManager>
@@ -111,6 +112,7 @@ The following tutorial demonstrates how you can add AjaxManager and AjaxLoadingP
         RadLabel2.Text = "Success on Postback"
     End Sub
     ````
+
 
 The final setup has to look like follows:
 ````ASP.NET
