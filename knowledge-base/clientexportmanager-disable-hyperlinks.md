@@ -48,7 +48,7 @@ In the underlying Kendo Drawing API there is a configuration setting called [avo
             avoidLinks: true,
             margin: { top: 25, left: 15, bottom: 10, right: 5 },
             paperSize: "A4",
-            landscape: "Portrait",
+            landscape: false,
             title: "PDF",
             author: "UserName",
             subject: "Export to PDF",
