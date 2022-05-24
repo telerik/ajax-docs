@@ -12,7 +12,7 @@ position: 5
 
 As of Q3 2013, the size of **RadEditor** dialogs is calculated via the [Autosize feature](https://demos.telerik.com/aspnet-ajax/window/examples/autosize/defaultcs.aspx) of the **RadWindow** controls.
 
-Since the Q3 2013 release, you can no longer set a custom size for the built-in dialogs using the **DialogDefinitions**	class.For more information, see the "How to set a custom size for a dialog"	section below.
+Since the Q3 2013 release, you can no longer set a custom size for the built-in dialogs using the **DialogDefinitions**	class. For more information, see the "How to set a custom size for a dialog" section below.
 
 ## Why Is This Change Necessary?
 
@@ -25,9 +25,9 @@ Telerik is changing how **RadEditor** dialogs resize for several reasons:
 
 ## How to Set a Custom Size for a Built-in Dialog
 
-You can set a custom size for a built-in dialog using additional CSS rulesin their UserControl files. You should have already used the **ExternalDialogsPath** property to customize a built-in dialog. If you are not familiar with this approach, please examine the	"[ExternalDialogsPath property](https://www.telerik.com/help/aspnet-ajax/editor-externaldialogspath-property.html)" article and the	"[Editor - Customize Built-in Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)" demo.
+You can set a custom size for a built-in dialog using additional CSS rules in their UserControl files. You should have already used the **ExternalDialogsPath** property to customize a built-in dialog. If you are not familiar with this approach, please examine the	"[ExternalDialogsPath property](https://www.telerik.com/help/aspnet-ajax/editor-externaldialogspath-property.html)" article and the "[Editor - Customize Built-in Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)" demo.
 
-After following the steps provided in the **Customize Built-in Dialogs** demo you should implement the CSS rule. First add a `<style>` tag in the UC file.	This rule should affect the body element of the document. Use a selector with higher CSS specificity than the default one and set the desired width and height attributes. For example, to resize the Document Manager you could use the following rule:
+After following the steps provided in the **Customize Built-in Dialogs** demo you should implement the CSS rule. First add a `<style>` tag in the UC file. This rule should affect the body element of the document. Use a selector with higher CSS specificity than the default one and set the desired width and height attributes. For example, to resize the Document Manager you could use the following rule:
 
 ````HTML
 html.redDocumentManager body 
