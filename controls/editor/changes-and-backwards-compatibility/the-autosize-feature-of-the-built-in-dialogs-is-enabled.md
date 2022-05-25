@@ -25,6 +25,43 @@ Telerik is changing how **RadEditor** dialogs resize for several reasons:
 
 ## How to Set a Custom Size for a Built-in Dialog
 
+### Programmatical approach
+
+The example below shows how to resize the RadEditor's ImageProperties, SetLinkProperties and LinkManager dialogs:
+
+````ASP.NET
+<script> 
+    function OnClientCommandExecuting(editor, args) {
+        if (editor.get_dialogOpener()) {
+            var commandName = args.get_commandName();
+            console.log(commandName)
+            if (editor.get_dialogOpener()._getDialogContainer) {
+                dialogReference = editor.get_dialogOpener()._getDialogContainer(commandName);
+                setTimeout(function () {
+                    if (commandName == "SetImageProperties") {
+                        editor.get_dialogOpener()._getDialogContainer("ImageProperties").set_height("600px");
+                        editor.get_dialogOpener()._getDialogContainer("ImageProperties").set_width("550px");
+                    }
+                    else if (commandName == "SetLinkProperties" || commandName == "LinkManager") {
+                        editor.get_dialogOpener()._getDialogContainer("LinkManager").set_height("600px");
+                        editor.get_dialogOpener()._getDialogContainer("LinkManager").set_width("550px");
+                    }
+                }, 2000);
+
+            }
+        }
+    }
+</script>
+<telerik:RadEditor ID="RadEditor1" runat="server" ExternalDialogsPath="~/EditorDialogs" OnClientCommandExecuting="OnClientCommandExecuting">
+    <Content>
+        <a href="https://google.com">Google</a>
+        <img src="Images/woolly-mc.png" />
+        <br />
+    </Content>
+</telerik:RadEditor>
+````
+
+### Alternative approach
 You can set a custom size for a built-in dialog using additional CSS rules in their UserControl files. You should have already used the **ExternalDialogsPath** property to customize a built-in dialog. If you are not familiar with this approach, please examine the	"[ExternalDialogsPath property](https://www.telerik.com/help/aspnet-ajax/editor-externaldialogspath-property.html)" article and the "[Editor - Customize Built-in Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)" demo.
 
 After following the steps provided in the **Customize Built-in Dialogs** demo you should implement the CSS rule. First add a `<style>` tag in the UC file. This rule should affect the body element of the document. Use a selector with higher CSS specificity than the default one and set the desired width and height attributes. For example, to resize the Document Manager you could use the following rule:
