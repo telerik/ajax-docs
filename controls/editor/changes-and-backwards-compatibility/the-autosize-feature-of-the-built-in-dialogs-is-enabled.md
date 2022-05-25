@@ -91,6 +91,8 @@ You can also define the CSS rules in a separate file and point the **DialogsCssF
 
 ## See Also
 
+ * [KB Set Custom Size for built-in dialogs of RadEditor]({slug editor-set-custom-size-for-built-in-dialog})
+
  * [ExternalDialogsPath Property]({%slug editor/functionality/dialogs/externaldialogspath-property%})
 
  * [Resize Dialogs]({%slug editor/functionality/dialogs/examples/resize-dialogs%})
