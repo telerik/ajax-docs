@@ -25,7 +25,7 @@ Telerik is changing how **RadEditor** dialogs resize for several reasons:
 
 ## How to Set a Custom Size for a Built-in Dialog
 
-### Programmatical approach
+### Programmatic approach
 
 The example below shows how to resize the RadEditor's ImageProperties, SetLinkProperties and LinkManager dialogs:
 
@@ -91,7 +91,7 @@ You can also define the CSS rules in a separate file and point the **DialogsCssF
 
 ## See Also
 
- * [KB Set Custom Size for built-in dialogs of RadEditor]({slug editor-set-custom-size-for-built-in-dialog})
+ * [KB Set Custom Size for built-in dialogs of RadEditor]({%slug editor-set-custom-size-for-built-in-dialog})
 
  * [ExternalDialogsPath Property]({%slug editor/functionality/dialogs/externaldialogspath-property%})
 
