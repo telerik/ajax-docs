@@ -51,7 +51,6 @@ The following example demonstrates how to perform an AJAX request on the client 
 	</script>
 </telerik:RadCodeBlock>
 ````
-
 ````C#
 private void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
 {
@@ -113,7 +112,6 @@ The following example shows how to use the `AjaxRequestWithTarget` function&mdas
 	</AjaxSettings>
 </telerik:RadAjaxManager>
 ````
-
 ````JavaScript
 <telerik:RadCodeBlock ID="cb1" runat="server">
 	<script type="text/javascript">

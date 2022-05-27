@@ -48,12 +48,12 @@ This article lists the known limitations you may encounter when working with the
 * **Ajaxified control postbacks when controls are not updated**&mdash;The AjaxManager setting from the following example will not ajaxify the button.
 
     ````ASP.NET
-    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-    	<AjaxSettings>
-    	    <telerik:AjaxSetting AjaxControlID="Button1">                
-    	    </telerik:AjaxSetting>
-    	 </AjaxSettings>
-    </telerik:RadAjaxManager>
+      <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+      	<AjaxSettings>
+      	    <telerik:AjaxSetting AjaxControlID="Button1">                
+      	    </telerik:AjaxSetting>
+      	 </AjaxSettings>
+      </telerik:RadAjaxManager>
     ````
 
 
@@ -61,9 +61,9 @@ This article lists the known limitations you may encounter when working with the
     To work around this limitation, add a control that will be updated. For example, add the same control (the initiator) as the `UpdatedControl`:
 
     ````ASP.NET
-    <UpdatedControls>
-    	<telerik:AjaxUpdatedControl ControlID="Button1" />
-    </UpdatedControls>
+      <UpdatedControls>
+      	<telerik:AjaxUpdatedControl ControlID="Button1" />
+      </UpdatedControls>
     ````
 
 
@@ -83,7 +83,5 @@ This article lists the known limitations you may encounter when working with the
 ## See Also
 
 * [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
-
 * [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
-
 * [Checking for Incompatible Controls and Updating Third-Party Controls]({%slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%})
