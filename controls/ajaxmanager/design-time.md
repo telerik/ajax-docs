@@ -26,7 +26,7 @@ The **Smart Tags** for the [AjaxPanel]({%slug ajaxpanel/overview%}) and [AjaxMan
 
 * **Enable AJAX History**&mdash;When checked, the browser history is enabled even when using AJAX. The **Forward** and **Back** buttons of the browser work as expected in a standard postback website.
 
-* **Enable update of Page `<head>` element**&mdash;If this option is checked, the Page `<Head>` element can be modified during AJAX updates.
+* **Enable update of Page `<head>` element**&mdash;When checked, the `<Head>` element of the Page can be modified during AJAX updates.
 
 * **Choose DefaultLoadingPanelID**&mdash;Select a [`LoadingPanel`]({%slug ajaxpanel/overview%}) instance from the drop-down list to display during AJAX updates.
 
@@ -46,11 +46,11 @@ The **Smart Tags** for the [AjaxPanel]({%slug ajaxpanel/overview%}) and [AjaxMan
 
 * You can navigate directly to the [Telerik Support Center](https://www.telerik.com/support/home.aspx).
 
-## RadAjaxManagerProxy
+## AjaxManagerProxy
 
 The **Configure Ajax Manager** option displays the AjaxManager Property Builder.
 
->caption The RadAjaxManagerProxy tasks
+>caption The AjaxManagerProxy tasks
 
 ![RadAjaxManagerProxy Tasks](images/RadAjaxmanagerProxyTasks.png)
 

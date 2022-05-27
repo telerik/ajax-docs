@@ -1,6 +1,6 @@
 ---
-title: On AJAX and Telerik AJAX
-page_title: On AJAX and Telerik AJAX
+title: About AJAX and Telerik AJAX
+page_title: About AJAX and Telerik AJAX
 description: "Get the basic concepts behind the AJAX programming technology and learn more about the logic of Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/getting-started/what-is-ajax
 previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax
@@ -9,7 +9,7 @@ published: True
 position: 0
 ---
 
-# On AJAX and Telerik AJAX 
+# About AJAX and Telerik AJAX 
 
 AJAX is one of the main techniques for web programming. The AJAX communication technique allows you to add a nice finishing touch to your application by drastically improving the performance of the operations and by seamlessly implementing a client-side type of responsiveness for server-side operations. 
 
@@ -71,19 +71,19 @@ The Telerik AJAX framework eliminates the AJAX development challenges. The produ
 
 Telerik UI for ASP.NET AJAX delivers the AjaxManager, AjaxPanel and AjaxLoadingPanel which handle the Ajaxification of the controls located on the pages of your project.
 
-### Using RadAjaxPanel
+### Using the AjaxPanel
 
-The RadAjaxPanel is a wrapper for the UpdatePanel and provides a quick way to enable AJAX for all controls on the page, or for as many as wrapped into it. RadAjaxPanel is designed to enable AJAX for all Controls that are placed inside it and does not provide the option to specify Triggers for Controls that reside outside.
+The AjaxPanel is a wrapper for the UpdatePanel and provides a quick way to enable AJAX for all controls on the page, or for as many are wrapped into it. The AjaxPanel is designed to enable AJAX for all Controls that are placed inside it and does not provide the option to specify Triggers for Controls that reside outside.
 
-### Using RadAjaxManager
+### Using the AjaxManager
 
-RadAjaxManager may seem a little complicated at first, but it's simple and easy to understand once you know the background of it.
+The AjaxManager may seem a little complicated at first, but it is simple and easy to understand once you know more about its background.
 
-Since PostBack Triggers of the standard Update Panel are playing an important role, Telerik has designed the RadAjaxManager that allows you to specify which Control to trigger the partial PostBack and update the other. When using the AjaxManager you can update any control on the page even regardless of their location on the page. 
+PostBack Triggers of the standard UpdatePanel are playing an important role. Therefore, Telerik has designed the AjaxManager to allow you to specify which Control to trigger the partial PostBack and update the other. When using the AjaxManager, you can update any control on the page, regardless of its location there. 
 
-### Using RadAjaxManagerProxy
+### Using the AjaxManagerProxy
 
-Normally, you can only have one RadAjaxManager on a Page and the above examples demonstrate how to configure it in different ways. However, In case of using a combination of MasterPage, Content Page and UserControls we recommend utilizing the RadAjaxManagerProxy. In this way you can have different AJAX settings on each content page, specific to the controls placed in this specific page.
+Normally, you can only have one AjaxManager on a page. However, if you are using a combination of a MasterPage, a ContentPage, and UserControls, it is recommended that you utilize the AjaxManagerProxy. In this way, you can have different AJAX settings on each content page that are specific to the controls which are placed there.
 
 ## Learning Resources 
 
