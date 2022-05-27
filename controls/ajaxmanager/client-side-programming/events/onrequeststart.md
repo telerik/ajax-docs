@@ -35,7 +35,7 @@ Two parameters are passed to the event handler with the following methods:
 
 The example below displays the control that initiated the request.
 
-```ASP.NET
+````ASP.NET
 <script type="text/javascript">
 	function requestStart(sender, eventArgs) {
 	    alert('Request start initiated by: ' + eventArgs.get_eventTarget());

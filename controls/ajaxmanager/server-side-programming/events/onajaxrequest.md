@@ -38,7 +38,6 @@ The example below demonstrates an `AjaxRequest` triggered from both the client a
 </div>
 </form>
 ````
-
 ````C#
 protected void btnServer_Click(object sender, EventArgs e)
 {

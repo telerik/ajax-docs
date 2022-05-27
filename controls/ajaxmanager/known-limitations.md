@@ -54,7 +54,7 @@ This article lists the known limitations you may encounter when working with the
       	    </telerik:AjaxSetting>
       	 </AjaxSettings>
       </telerik:RadAjaxManager>
-    ````
+````
 
 
 
@@ -64,7 +64,7 @@ This article lists the known limitations you may encounter when working with the
       <UpdatedControls>
       	<telerik:AjaxUpdatedControl ControlID="Button1" />
       </UpdatedControls>
-    ````
+````
 
 
 

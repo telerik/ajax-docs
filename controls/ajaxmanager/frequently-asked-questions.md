@@ -11,13 +11,17 @@ position: 100
 
 # Frequently Asked Questions about the AjaxManager
 
-This article provides answers for some of the most frequently asked questions (FAQ) when working with the Telerik UI for ASP.NET AjaxManager. 
-
-At the end of the article you will also find a list containing links to specific Knowledge Base articles covering the most common how-to and troubleshooting scenarios. 
+This article provides answers to some of the most frequently asked questions (FAQ) and a list of links to the most common how-to and troubleshooting Knowledge Base scenarios you may have when working with the Telerik UI for ASP.NET AjaxManager. 
 
 For faster navigation, the links are grouped into the following sets:
+
+ - [FAQs](#faqs)
  - [How-to Tutorials](#how-to-tutorials)
  - [Troubleshooting Tutorials](#troubleshooting-tutorials)
+
+## FAQs
+
+This sections contains the list with the frequently asked questions about the AjaxManager and related to the Ajaxufying of projects.   
 
 #### How can I use Ajax to make a button update a Telerik AJAX control?
 
@@ -58,7 +62,7 @@ It depends on the way the controls are placed on the page. If the controls are n
 Use the client-side `OnRequestStartA` event of the AjaxPanel or AjaxManager, and write custom JavaScript code to achieve your goal. Then, re-enable the controls by using the `OnResponseEnd` client-side event. For details, refer to the article on [disabling controls during Ajax]({%slug ajaxpanel/how-to/disable-controls-during-ajax%}) for details.
 
 
-#### How-to Tutorials
+## How-to Tutorials
 
 * [Cancel AJAX Requests with the AjaxManager or AjaxPanel]({% slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request %})
 
@@ -117,7 +121,7 @@ Use the client-side `OnRequestStartA` event of the AjaxPanel or AjaxManager, and
 * [Set the `EventName` Property in the AjaxManager and UpdatePanel Controls]({% slug ajaxmanager/how-to/eventname-property %})
   
 
-#### Troubleshooting Tutorials
+## Troubleshooting Tutorials
 
 * [AjaxManager Settings Are Not Working When Controls Are Wrapped in an AjaxPanel and Added to the Settings]({% slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings %})
 

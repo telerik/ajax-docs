@@ -41,8 +41,6 @@ The following example demonstrates how to set the `AjaxUpdatedControl` propertie
 <asp:Panel ID="Panel1" runat="server">
 </asp:Panel>
 ````
-
-
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {

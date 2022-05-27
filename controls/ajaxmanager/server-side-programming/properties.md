@@ -40,7 +40,7 @@ The following list shows some of the most frequently used ones. For the full lis
       <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
       <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
       <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />    
-    ````
+````
 
 
     ````C#
@@ -53,7 +53,7 @@ The following list shows some of the most frequently used ones. For the full lis
       {
       	RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString());
       }				
-    ````
+````
     
     
     ````VB
@@ -64,7 +64,7 @@ The following list shows some of the most frequently used ones. For the full lis
       Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
           RadAjaxManager1.Alert(RadAjaxManager1.IsAjaxRequest.ToString())
       End Sub
-    ````
+````
 
 
 * `DefaultLoadingPanelID`&mdash;Allows you to specify a default `LoadingPanel` that will be shown when updating AJAX-enabled controls.
@@ -80,14 +80,14 @@ The following list shows some of the most frequently used ones. For the full lis
       {
       	RadAjaxManager1.ResponseScripts.Add("alert('this fires after the response');");
       }  			
-    ````
+````
     
     
     ````VB	     
       Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
       	RadAjaxManager1.ResponseScripts.Add("alert('this fires after the response');")
       End Sub				
-    ````
+````
 
 
     The following example contains some sample code showing the usage of the `ResponseScripts` property.
@@ -100,7 +100,7 @@ The following list shows some of the most frequently used ones. For the full lis
           $create(Telerik.Web.UI.RadAjaxManager, { "ajaxSettings": [{ InitControlID: "Button1", UpdatedControls: [{ ControlID: "Label1", PanelID: ""}]}], "clientEvents": { OnRequestStart: "", OnResponseEnd: "" }, "defaultLoadingPanelID": "", "enableAJAX": true, "enableHistory": false, "links": [], "styles": [], "uniqueID": "RadAjaxManager1" }, null, null, $get("RadAjaxManager1"));
       });
       </script>
-    ````
+  ````
 
 
 
