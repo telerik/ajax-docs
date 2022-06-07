@@ -30,7 +30,7 @@ If you are looking for detailed server-side API reference, examine the following
 
 ![htmlchart-tags-structure](images/htmlchart-tags-structure.png)
 
-## Programatic Chart Creation
+## Programmatic Chart Creation
 
 In the sample below you will see how to create and configure a chart entirely on the server-side:
 
