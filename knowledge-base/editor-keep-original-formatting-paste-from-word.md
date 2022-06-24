@@ -1,5 +1,5 @@
 ---
-title: How to keep the original format when doing Paste from Word in RadEditor
+title: How to keep the original content formatting when doing Paste from Word in RadEditor
 description: Check the troubleshooting tips in the Solution section below if you experience formatting-related issues when pasting from MS Word in RadEditor.
 type: troubleshooting
 page_title: How to keep the original format when doing Paste from Word in RadEditor
@@ -43,11 +43,12 @@ What we can do to verify if this is a browser behavior or RadEditor StripFormatt
 **Test 2** (with disable Word stripping when pasting content with Ctrl+V in the content area of RadEditor):
 
 1. Set the StripFormattingOptions="NoneSupressCleanMessage" to ensure that RadEditor will not strip anything on paste and does not show the prompt about MS Word content being pasted - this way the clipboard content will be pasted in it without modifications:
-	````ASPX
-	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" 
-		StripFormattingOptions="NoneSupressCleanMessage">
-	</telerik:RadEditor>
-	````
+
+````ASPX
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" 
+	StripFormattingOptions="NoneSupressCleanMessage">
+</telerik:RadEditor>
+````
 2. Paste the Word content with Ctrl+V (Paste button) and see if the table looks as expected when it is pasted with the Word formatting.
 
 ## See Also
