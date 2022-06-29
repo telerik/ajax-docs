@@ -130,7 +130,7 @@ protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDat
 ````
 ````VB
 Public Function GenerateSupplierData() As IEnumerable(Of Supplier)
-    Return Enumerable.Range(1, 5).[Select](Function(i) New Supplier With {
+    Return Enumerable.Range(1, 5).Select(Function(i) New Supplier With {
         .SupplierId = i,
         .SupplierName = $"Supplier {i}"
     })
@@ -269,8 +269,8 @@ public class OrderDetail
 ````
 ````VB
 Protected Sub RadGrid1_DetailTableDataBind(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridDetailTableDataBindEventArgs)
-    Dim nestedViewItem = TryCast(e.DetailTableView.NamingContainer, GridNestedViewItem)
-    Dim parentRow = TryCast(nestedViewItem.ParentItem, GridDataItem)
+    Dim nestedViewItem = CType(e.DetailTableView.NamingContainer, GridNestedViewItem)
+    Dim parentRow = CType(nestedViewItem.ParentItem, GridDataItem)
 
     If e.DetailTableView.Name = "Orders" Then
         Dim CustomerID = CInt(parentRow.GetDataKeyValue("CustomerID"))
@@ -282,12 +282,12 @@ Protected Sub RadGrid1_DetailTableDataBind(ByVal sender As Object, ByVal e As Te
 End Sub
 
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
-    If Not e.IsFromDetailTable Then (TryCast(sender, RadGrid)).DataSource = CustomersTable()
+    If Not e.IsFromDetailTable Then CType(sender, RadGrid).DataSource = CustomersTable()
 End Sub
 
 Private Function CustomersTable() As IEnumerable(Of Customer)
-    Return Enumerable.Range(1, 2).[Select](Function(x) New Customer() With {
-        Key .CustomerID = x,
+    Return Enumerable.Range(1, 2).Select(Function(x) New Customer() With {
+            .CustomerID = x,
             .ContactName = "Name " & x,
             .ContactTitle = "Title " & x,
             .Address = "Address " & x,
@@ -298,7 +298,7 @@ End Function
 Private Function OrdersTable() As List(Of Order)
     Dim orders = New List(Of Order)()
     orders.Add(New Order() With {
-        Key .OrderID = 1,
+            .OrderID = 1,
             .CustomerID = 1,
             .Freight = 1.2,
             .OrderDate = DateTime.Now.Date,
@@ -306,7 +306,7 @@ Private Function OrdersTable() As List(Of Order)
             .ShipName = "Name 1"
     })
     orders.Add(New Order() With {
-        Key .OrderID = 2,
+            .OrderID = 2,
             .CustomerID = 1,
             .Freight = 2.2,
             .OrderDate = DateTime.Now.Date,
@@ -314,7 +314,7 @@ Private Function OrdersTable() As List(Of Order)
             .ShipName = "Name 2"
     })
     orders.Add(New Order() With {
-        Key .OrderID = 3,
+            .OrderID = 3,
             .CustomerID = 2,
             .Freight = 3.2,
             .OrderDate = DateTime.Now.Date,
@@ -322,7 +322,7 @@ Private Function OrdersTable() As List(Of Order)
             .ShipName = "Name 3"
     })
     orders.Add(New Order() With {
-        Key .OrderID = 4,
+            .OrderID = 4,
             .CustomerID = 2,
             .Freight = 4.2,
             .OrderDate = DateTime.Now.Date,
@@ -335,56 +335,56 @@ End Function
 Private Function OrderDetailsTable() As List(Of OrderDetail)
     Dim detail = New List(Of OrderDetail)()
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 1,
+            .ProductID = 1,
             .OrderID = 1,
             .UnitPrice = 1.1,
             .Quantity = 1,
             .Discount = 1
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 2,
+            .ProductID = 2,
             .OrderID = 1,
             .UnitPrice = 2.1,
             .Quantity = 2,
             .Discount = 2
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 3,
+            .ProductID = 3,
             .OrderID = 2,
             .UnitPrice = 3.1,
             .Quantity = 3,
             .Discount = 3
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 4,
+            .ProductID = 4,
             .OrderID = 2,
             .UnitPrice = 4.1,
             .Quantity = 4,
             .Discount = 4
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 5,
+            .ProductID = 5,
             .OrderID = 3,
             .UnitPrice = 5.1,
             .Quantity = 1,
             .Discount = 1
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 6,
+            .ProductID = 6,
             .OrderID = 3,
             .UnitPrice = 6.1,
             .Quantity = 2,
             .Discount = 2
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 7,
+            .ProductID = 7,
             .OrderID = 4,
             .UnitPrice = 7.1,
             .Quantity = 3,
             .Discount = 3
     })
     detail.Add(New OrderDetail() With {
-        Key .ProductID = 8,
+            .ProductID = 8,
             .OrderID = 4,
             .UnitPrice = 8.1,
             .Quantity = 4,
@@ -453,7 +453,7 @@ End Class
 ````C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
-    RadGrid1.DataSource = OrdersTable(); 
+    (sender as RadGrid).DataSource = OrdersTable(); 
 }
 
 private DataTable OrdersTable()
@@ -475,8 +475,8 @@ private DataTable OrdersTable()
         DataRow row = dt.NewRow();
 
         row["OrderID"] = index;
-        row["OrderDate"] = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0).AddHours(index);
-        row["Freight"] = index * 0.1 + index * 0.01;
+        row["OrderDate"] = DateTime.Now.Date.AddDays(index);
+        row["Freight"] = index * 0.1;
         row["ShipName"] = "Name " + index;
         row["ShipCountry"] = "Country " + index;
 
@@ -488,7 +488,7 @@ private DataTable OrdersTable()
 ````
 ````VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceEventArgs)
-    RadGrid1.DataSource = OrdersTable()
+    CType(sender, RadGrid).DataSource = OrdersTable()
 End Sub
 
 Private Function OrdersTable() As DataTable
@@ -509,8 +509,8 @@ Private Function OrdersTable() As DataTable
         Dim row As DataRow = dt.NewRow()
 
         row("OrderID") = index
-        row("OrderDate") = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0).AddHours(index)
-        row("Freight") = index * 0.1 + index * 0.01
+        row("OrderDate") = DateTime.Now.Date.AddDays(index)
+        row("Freight") = index * 0.1
         row("ShipName") = "Name " & index
         row("ShipCountry") = "Country " & index
 
