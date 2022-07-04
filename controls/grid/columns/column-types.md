@@ -578,6 +578,7 @@ When you have attachments saved in your data source as a blob of binary data, **
 <telerik:GridAttachmentColumn DataSourceID="SqlDataSource2" MaxFileSize="1048576"
   EditFormHeaderTextFormat="Upload File:" HeaderText="Download" AttachmentDataField="BinaryData"
   AttachmentKeyFields="ID" FileNameTextField="FileName" DataTextField="FileName"
+  AllowedFileExtensions=".jpeg,.jpg,.png,.doc,.docx,.xls,.xlsx"
   UniqueName="AttachmentColumn">
 </telerik:GridAttachmentColumn>
 ````
@@ -602,7 +603,7 @@ In normal mode, **GridAttachmentColumn** displays a download button in its cells
 
 In edit mode, a **RadUpload** control is provided for uploading files to the column's data source. **GridAttachmentColumn** provides the following properties related to the **RadUpload** properties:
 
-* **AllowedFileExtensions** - Specifies the allowed file extensions.
+* **AllowedFileExtensions** - Specifies the allowed file extensions, e.g. AllowedFileExtensions=".jpeg,.jpg,.png,.doc,.docx,.xls,.xlsx".
 
 * **MaxFileSize** - Specifies the maximum allowed file size in bytes.
 
