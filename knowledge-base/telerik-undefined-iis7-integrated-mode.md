@@ -31,6 +31,8 @@ I get an error message that Telerik is undefined when running my website in the 
 
 ## Cause
 
+>tip For more scenarios concerning the Telerik is undefined error please check out the new dedicated KB article on the matter: [Telerik is undefined]({%slug common-error-telerik-is-undefined%}).
+
 When in its Integrated mode, IIS7 does not read the application configuration from the `<system.web>` section group of the application configuration file but from the `<system.webServer>` section group. Since Visual Studio 2005 does not provide native support for IIS7, the ScriptManager registration cannot be automatically added to the `system.webServer`.
 
 ## Solution
