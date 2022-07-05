@@ -55,7 +55,7 @@ The solution is to override the setUrl method of RadWindow to check for base64 i
     }
 </script>
 <telerik:RadEditor runat="server" ID="RadEditor1"></telerik:RadEditor>
-```
+````
 
 ## See Also
 * [Insert images with a base64 string in the src via the Image Manager]({%slug editor-insert-images-with-a-base64-string-in-the-src-via-the-image-manager%})
