@@ -38,6 +38,8 @@ For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX wit
 
 ## General
 
+* [Telerik is not defined]({%slug common-error-telerik-is-undefined%})
+
 * [`'Telerik' is undefined` When Running a Website in the Integrated Mode on IIS 7 and Later]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting %})
 
 * [`The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'`]({% slug systemwebuiiscriptcontrol-in-assembly-not-referenced-error %})
