@@ -327,6 +327,123 @@ private void DownloadXlsxFile(byte[] output, string fileName, bool shouldOpenInN
 }
 #endregion
 ````
+````VB
+Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridCommandEventArgs)
+    Dim grid As RadGrid = CType(sender, RadGrid)
+
+    If e.CommandName = RadGrid.ExportToExcelCommandName AndAlso grid.ExportSettings.Excel.Format = GridExcelExportFormat.Xlsx Then
+        'Cancel the original event
+        e.Canceled = True
+
+        'Disable Paging, so all Group across all pages will be available
+        grid.AllowPaging = False
+
+        'Refresh the changes
+        grid.Rebind()
+
+        'Create a Workbook object
+        Dim myWorkbook As xlsx.Workbook = New xlsx.Workbook()
+
+        '
+        Dim groupHeaderItems As GridItem() = grid.MasterTableView.GetItems(GridItemType.GroupHeader)
+
+        'Get all the Column unoqueNames
+        Dim columnUniqueNames As List(Of String) = grid.MasterTableView.RenderColumns.OfType(Of IGridDataColumn)().[Select](Function(col) (TryCast(col, GridColumn)).UniqueName).ToList()
+
+        For Each groupHeaderItem As GridGroupHeaderItem In groupHeaderItems
+            'Create Worksheet object for the Workbook
+            Dim myWorksheet As xlsx.Worksheet = myWorkbook.Worksheets.Add()
+
+            'Parse the Group Header Text to fetch the Group Value
+            Dim groupValue As String = groupHeaderItem.DataCell.Text.Split(":"c)(1).Trim()
+
+            'Name the Worksheet by the Group value
+            'Name must Not exceed 33 characters & must Not contain special characters
+            myWorksheet.Name = groupValue
+
+            'Get the List of Group Items
+            Dim groupItems As List(Of GridDataItem) = groupHeaderItem.GetChildItems().[Select](Function(item) CType(item, GridDataItem)).ToList()
+
+            'Create the Column Headers for the Current Sheet
+            'Loop through the Column Unique Names
+            For colIndex As Integer = 0 To columnUniqueNames.Count - 1
+                'Mark the cell for the Column Header
+                Dim headerCell As xlsx.CellSelection = myWorksheet.Cells(0, colIndex)
+                'Set the Cell value
+                headerCell.SetValue(columnUniqueNames(colIndex))
+            Next
+
+            'Loop through the Group Items
+            For rowIndex As Integer = 0 To groupItems.Count - 1
+                'Loop through the Column Unique Names
+                For colIndex As Integer = 0 To columnUniqueNames.Count - 1
+                    'Get reference to the GridDataItem
+                    Dim groupItem As GridDataItem = groupItems(rowIndex)
+
+                    'Get the Column name
+                    Dim columnUniqueName As String = columnUniqueNames(colIndex)
+
+                    'Fetch the text from the GridDataItem cell by Column UniqueName
+                    Dim cellText As String = groupItem(columnUniqueName).Text
+
+                    'Create a CellSelection
+                    Dim dataCell As xlsx.CellSelection = myWorksheet.Cells(rowIndex + 1, colIndex)
+
+                    'Set the Cell Value
+                    dataCell.SetValue(cellText)
+                Next
+            Next
+        Next
+
+        'Once the Workbook object is ready, export it manually.
+        DownloadXlsxFile(WorkbookToByteArray(myWorkbook), grid.ExportSettings.FileName)
+
+        'Note: None of changes made above will affect the Grid because the Headers are cleared upon exporting and so the Response will not update the Grid at the end of the PostBack. There is no need to turn paging back or re-set any of the properties.
+    End If
+End Sub
+
+Private Function WorkbookToByteArray(ByVal workbook As xlsx.Workbook) As Byte()
+    Dim output As Byte() = Nothing
+    Dim thread = New System.Threading.Thread(Sub()
+                                                    Dim formatProvider As IWorkbookFormatProvider = New XlsxFormatProvider()
+
+                                                    Using ms As MemoryStream = New MemoryStream()
+                                                        formatProvider.Export(workbook, ms)
+                                                        output = ms.ToArray()
+                                                    End Using
+                                                End Sub)
+    thread.SetApartmentState(System.Threading.ApartmentState.STA)
+    thread.Start()
+    thread.Join()
+    Return output
+End Function
+
+Private Sub DownloadXlsxFile(ByVal output As Byte(), ByVal fileName As String, ByVal Optional shouldOpenInNewWindow As Boolean = True)
+    Dim contentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    Dim fileExtension = ".xlsx"
+    Response.Clear()
+    Response.Buffer = True
+    Response.ContentType = contentType
+    Response.ContentEncoding = System.Text.Encoding.UTF8
+    Response.Charset = ""
+
+    If Request.Browser.Browser.IndexOf("IE") > -1 OrElse Request.Browser.Browser.IndexOf("InternetExplorer") > -1 Then
+        fileName = System.Web.HttpUtility.UrlEncode(fileName, System.Text.Encoding.UTF8)
+    End If
+
+    Dim responseFileName = fileName & (If(fileName.EndsWith(fileExtension), String.Empty, fileExtension))
+    responseFileName = responseFileName.Replace(vbLf, " ").Replace(vbCr, " ")
+
+    If shouldOpenInNewWindow Then
+        Response.AddHeader("Content-Disposition", "attachment;filename=""" & responseFileName & """")
+    Else
+        Response.AddHeader("Content-Disposition", "inline;filename=""" & responseFileName & """")
+    End If
+
+    Response.BinaryWrite(output)
+    Response.End()
+End Sub
+````
  
 For more details, check out the following Help articles:
 
