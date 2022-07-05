@@ -35,4 +35,12 @@ The possible cause for this issue is that you have added a Telerik UI for ASP.NE
 
 ## Solution
 
-To solve this issue, follow the steps described in the [Adding ASP.NET AJAX Configuration Elements to an Existing Web Site](https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) article.
+To solve this issue, follow the steps described in the [Common reasons for the Sys is undefined error in ASP.NET Ajax applications]([https://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](https://www.telerik.com/blogs/common-reasons-for-the-lsquo-sys-is-undefined-rsquo-error-in-asp-net-ajax-applications)) blog post.
+
+You can find more information at:
+* [Sys is undefined](https://stackoverflow.com/questions/75322/sys-is-undefined)
+* ['Sys' is undefined.](https://social.msdn.microsoft.com/Forums/en-US/e74c84a9-b2a7-40cd-bf2b-365e3b92e6f3/sys-is-undefined?forum=aspdotnetajax)
+* [Sys is undefined](https://www.telerik.com/forums/sys-is-undefined-026d9a4c6c1e#3801667)
+
+   
+    
