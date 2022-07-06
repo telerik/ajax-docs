@@ -140,8 +140,13 @@ public class Book
     public string Author { get; set; }
     public string Cover { get; set; }
     public string Url { get; set; }
+    //add a protected internal constructor to remove the returned __type attribute in the JSON response
+    protected internal Book() { }
 }
 ````
+
+>important In some cases the ASMX WebService returns a property named `__type` with the response, which we recommend removing by adding a `protected internal ClassName() {}` constructor to the Model Class as demonstrated in the example above. 
+>Leaving the `__type` property could result the `Value` property being always `null`.
 
 ## JavaScript Object at Runtime
 
