@@ -43,22 +43,28 @@ The additional fields you would like to access on the client-side should be pass
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
-    for (int i = 0; i < 5; i++)
+    if (!Page.IsPostBack)
     {
-        MultiSelectItem newItem = new MultiSelectItem() { Text = "Item " + i, Value = i.ToString() });
-        RadMultiSelect1.Items.Add(newItem);
+        for (int i = 0; i < 5; i++)
+        {
+            MultiSelectItem newItem = new MultiSelectItem() { Text = "Item " + i, Value = i.ToString() };
+
+            RadMultiSelect1.Items.Add(newItem);
+        }
     }
 }
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-    For i As Integer = 0 To 5 - 1
-        Dim newItem As MultiSelectItem = New MultiSelectItem() With {
-            .Text = "Item " & i,
-            .Value = i.ToString()
-        }
-        RadMultiSelect1.Items.Add(newItem)
-    Next
+    If Not Page.IsPostBack Then
+        For i As Integer = 0 To 5 - 1
+            Dim newItem As MultiSelectItem = New MultiSelectItem() With {
+                .Text = "Item " & i,
+                .Value = i.ToString()
+            }
+            RadMultiSelect1.Items.Add(newItem)
+        Next
+    End If
 End Sub
 ````
 
