@@ -50,4 +50,6 @@ There are two ways to configure the rendering mode of the controls:
  * [Mobile Support Overview]({%slug checkbox/mobile-support/overview%})
 
  * [Elastic Design]({%slug checkbox/mobile-support/elastic-design%})
+ 
+ * [Distorted Appearance]({%slug checkbox/troubleshooting/distorted-appearance%})
 
