@@ -6,7 +6,7 @@
 #do-not-mix-modes-buttons
 @[template](/_templates/common/render-mode.md#do-not-mix-modes "control: @{control}")
 >
->RadButton, RadCheckBox, RadImageButton, RadLinkButton, RadPushButton and RadToggleButton share the same rendering and stylesheets, so all their instances on the same page must have `RenderMode=Lightweight` because this is the only mode supported by all of these controls.
+>RadButton, RadCheckBox, RadImageButton, RadLinkButton, RadPushButton and RadToggleButton share the same rendering and stylesheets, so all their instances on the same page must have `RenderMode=Lightweight` because this is the only mode supported by all of these controls. If you experience problems with distorted appearance see the [Distorted Appearance]({%slug checkbox/troubleshooting/distorted-appearance%}) article.
 #end
 
 
