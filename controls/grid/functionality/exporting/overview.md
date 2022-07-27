@@ -452,10 +452,11 @@ You can do this in the [ItemCommand event]({%slug grid/server-side-programming/e
 ````C#
 protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
 {
-	if (e.CommandName.Contains("Export"))
+	if (e.CommandName == RadGrid.ExportToExcelCommandName)
 	{
+		e.Canceled = true;
 		//disable paging on the main grid for the export operation
-		RadGrid1.ExportSettings.IgnorePaging = false;
+		RadGrid1.AllowPaging = false;
 		//expand detail tables
 		RadGrid1.MasterTableView.HierarchyDefaultExpanded = true;
 		RadGrid1.MasterTableView.DetailTables[0].HierarchyDefaultExpanded = true;
@@ -465,14 +466,16 @@ protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
 			//disable paging for the detail grids for the export operation
 			tbl.AllowPaging = false;
 		}
+		RadGrid1.Rebind();
 	}
 }
 ````
 ````VB
 Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	If e.CommandName.Contains("Export") Then
+	If e.CommandName = RadGrid.ExportToExcelCommandName Then
+		e.Canceled = True
 		'disable paging on the main grid for the export operation
-		RadGrid1.ExportSettings.IgnorePaging = False
+		RadGrid1.AllowPaging = False
 		'expand detail tables
 		RadGrid1.MasterTableView.HierarchyDefaultExpanded = True
 		RadGrid1.MasterTableView.DetailTables(0).HierarchyDefaultExpanded = True
@@ -481,6 +484,8 @@ Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs) 
 			'disable paging for the detail grids for the export operation
 			tbl.AllowPaging = False
 		Next
+		
+		RadGrid1.Rebind()
 	End If
 End Sub
 ````
