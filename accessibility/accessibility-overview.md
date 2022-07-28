@@ -2,7 +2,7 @@
 title: Overview
 page_title: Accessibility Overview
 description: "General accessibility standards and keyboard navigation requirements for web applications and their support by Telerik UI for ASP.NET AJAX"
-slug: overview-overview
+slug: accessibility-overview
 position: 0
 ---
 
