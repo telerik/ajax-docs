@@ -13,7 +13,7 @@ position: 18
 
 
 
-[This online demo](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridwithtreeviewcomboboxeditors/defaultcs.aspx?product=grid) illustrates how to implement treeview/combobox hybrid editor and dependent load-on-demand combobox editors in RadGrid for ASP.NET AJAX.
+The solution below illustrates how to implement treeview/combobox hybrid editor and dependent load-on-demand combobox editors in RadGrid for ASP.NET AJAX. The demo files can be downloaded from [here](files/grid-with-treeview-combobox-editors.zip).
 
 The first type editor is useful when you would like to visualize hierarchical treeview structure for easier navigation among the combobox options when editing cell values (if applicable).
 
