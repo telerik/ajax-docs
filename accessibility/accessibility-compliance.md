@@ -408,7 +408,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
 ## Suggested Links
 
 * [Accessibility Overview]({% slug accessibility-overview %})
-* [WAI-ARIA Support and Screen Readers]({%slug controls/accessibility-wai-aria-support-and-screen-readers%})
+* [WAI-ARIA Support and Screen Readers]({%slug controls/wai-aria-support-and-screen-readers%})
 * [GSA Government-Wide Section 508 Accessibility Program](https://www.access-board.gov/law/ra.html#section-508-federal-electronic-and-information-technology)
 * [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
 

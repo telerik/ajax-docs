@@ -10,7 +10,7 @@ position: 0
 
 Websites and applications are accessible when they provide full control over their features by enabling users with disabilities to access their content by using assistive technologies or keyboard navigation.
 
-For the full list of components which support accessibility and keyboard navigation, refer to the article on [accessibility support by Telerik UI for ASP.NET AJAX]({% slug compliance_accessibility %}).
+For the full list of components which support accessibility and keyboard navigation, refer to the article on [accessibility support by Telerik UI for ASP.NET AJAX]({% slug accessibility-compliance %}).
 
 ## Standards and Requirements
 
@@ -43,7 +43,7 @@ By default, users can only navigate to links, buttons, and form controls with a 
 ## Suggested Links
 
 * [Accessibility Compliance]({% slug accessibility-compliance %})
-* [WAI-ARIA Support and Screen Readers]({%slug controls/accessibility-wai-aria-support-and-screen-readers%})
+* [WAI-ARIA Support and Screen Readers]({%slug controls/wai-aria-support-and-screen-readers%})
 * [GSA Government-Wide Section 508 Accessibility Program](https://www.access-board.gov/law/ra.html#section-508-federal-electronic-and-information-technology)
 * [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
 
