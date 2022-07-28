@@ -1,6 +1,6 @@
 ---
-title: Accessibility Overview
-page_title: Accessibility Overview
+title: Accessibility Compliance
+page_title: Accessibility Compliance
 description: "General accessibility standards and keyboard navigation requirements for web applications and their support by Telerik UI for ASP.NET AJAX."
 slug: accessibility-compliance
 position: 1
@@ -58,7 +58,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>Button</td>
             <td>Yes</td>
-            <td>AAA*</td>
+            <td>AAA</td>
             <td><a href="http://demos.telerik.com/aspnet-ajax/button/examples/accessibility/defaultcs.aspx">Browse</a></td>
         </tr>
         <tr>
@@ -70,7 +70,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>Captcha</td>
             <td>Yes</td>
-            <td>AAA**</td>
+            <td>AAA</td>
             <td><a href="http://demos.telerik.com/aspnet-ajax/captcha/examples/accessibility/defaultcs.aspx">Browse</a></td>
         </tr>
         <tr>
