@@ -23,7 +23,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>Ajax</td>
             <td>Yes</td>
             <td>AA</td>
-            <td>[Browse]({%slug ajaxmanager/accessibility-and-internationalization/wai-aria-support%})</td>
+            <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxpanel/accessibility-and-internationalization/wai-aria-support" target="_blank">Browse</a></td>
         </tr>
         <tr>
             <td>AsyncUpload</td>
@@ -41,7 +41,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>Barcode</td>
             <td>Yes</td>
             <td>AAA</td>
-            <td>[Browse]({%slug barcode/wai-aria-support%})</td>
+            <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/barcode/wai-aria-support" target="_blank">Browse</a></td>
         </tr>
         <tr>
             <td>BinaryImage</td>
