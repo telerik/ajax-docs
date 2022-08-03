@@ -35,6 +35,7 @@ To fix it you can try the following:
 - Enable the CDN scripts as explained in the following help articles: [Script CDN Overview]({%slug scriptmanager/cdn-support/overview%})
  and [StyleSheet CDN]({%slug stylesheetmanager/cdn-support/overview%}).
 - If the issue is with file uploads only, you can [create a custom file upload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) that will not get broken by the proxy.
+- More tips for load balancing and HTTPS scenario are available in the following forum thread: [Asp.net Ajax Control with reverse proxy (ARR) on IIS](https://www.telerik.com/forums/asp-net-ajax-control-with-reverse-proxy-arr-on-iis).
 
-
+ 
 
