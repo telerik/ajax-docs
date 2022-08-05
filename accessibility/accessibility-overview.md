@@ -40,6 +40,11 @@ WAI-ARIA is a World Wide Web Consortium accessibility specification. It specifie
 
 By default, users can only navigate to links, buttons, and form controls with a keyboard. The navigation order in which interactive items receive keyboard focus has to be logical and intuitive. Generally, it needs to follow the visual horizontal and vertical flow of the page. For example, left to right and top to bottom, header first followed by the main and then page navigation.
 
+### Voluntary Product Accessibility Template (VPAT)
+
+The Voluntary Product Accessibility Template ([VPAT](https://www.section508.gov/sell/vpat/)) is an industry guideline and document format for software providers to self-audit and report on compliance to Section 508 standards. This has been completed for Telerik UI for ASP.NET AJAX and the report is available [here](https://d585tldpucybw.cloudfront.net/docs/default-source/blogs-docs/vpat2.4revint(march2022)-telerik.ui.for.aspnet.ajax-.docx?sfvrsn=71cd5e86_3).
+
+
 ## Suggested Links
 
 * [Accessibility Compliance]({% slug accessibility-compliance %})
