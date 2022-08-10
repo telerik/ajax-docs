@@ -25,7 +25,7 @@ Below are listed the properties, methods, collections and events you should be a
 | ------ | ------ |
 | **AllowLoadOnDemand** |Gets or sets the value indicating whether the load on demand feature is enabled.|
 | **AllowMultiItemEdit** |Gets or sets the value indicating whether editing of multiple records at the same time is enabled.|
-| **AllowNaturalSort** |Gets or sets the value indicating whether the **None** mode will beincluded when toggling the sort modes of the control.|
+| **AllowNaturalSort** |Gets or sets the value indicating whether the **None** mode will be included when toggling the sort modes of the control.|
 | **AllowPaging** |Gets or sets the value indicating whether the paging feature is enabled.|
 | **AllowRecursiveDelete** |Gets or sets the value indicating whether the recursive delete feature is enabled.|
 | **AllowSorting** |Gets or sets the value indicating whether the sorting feature is enabled.|
@@ -47,7 +47,7 @@ Below are listed the properties, methods, collections and events you should be a
 | **EnableEmbeddedScripts** |Gets or sets value indicating whether to render the embedded scripts of the control or not.|
 | **EnableEmbeddedSkins** |Gets or sets value, indicating whether to render the embedded skin css file of the control or not.|
 | **EnableViewState** |Gets or sets value indicating whether the RadTreeList ViewState is enabled or not. The default value is true.|
-| **GridLines** |Gets or sets value indicating whether borders will be displayed when the RadTreeList is rendered. Can be set to "Both" (the default value), "None", "Horizintal" and "Vertical".|
+| **GridLines** |Gets or sets value indicating whether borders will be displayed when the RadTreeList is rendered. Can be set to "Both" (the default value), "None", "Horizontal" and "Vertical".|
 | **HideExpandCollapseButtonIfNoChildren** |Specifies whether the expand collapse button should be hidden when there are no children for a certain item (not compatible with the load-on-demand functionality of the control).|
 | **IsItemInserted** |Indicates whether a root item is currently being inserted.|
 | **LocalizationPath** |Gets or sets a value indicating where the control will look for its .resx localization files.By default these files should be in the App_GlobalResources folder.|
@@ -57,7 +57,7 @@ Below are listed the properties, methods, collections and events you should be a
 | **PageCount** |Gets the number of pages required to display the records of the data source in a RadTreeList control.|
 | **PagerTemplate** |Sets a template which will be used for generating the TreeListPagerItem.|
 | **ParentDataKeyNames** |Gets or sets an array of data-field names that will be used to populate the ParentDataKeyValues collection when the RadTreeList control is bound.|
-| **ShowOuterBorders** |Gets or sets value indicating whether the control will show outer borders. The default alue is true.|
+| **ShowOuterBorders** |Gets or sets value indicating whether the control will show outer borders. The default value is true.|
 | **ShowTreeLines** |Gets or sets value indicating whether the control will show outer tree lines. The default value is true.|
 | **Skin** |Gets or set the RadTreeList skin|
 | **SortingSettings.SortedAscToolTip** |Gets or sets the tooltip that will be displayed when you hover over the sorting button and the column is sorted ascending.|
@@ -65,7 +65,7 @@ Below are listed the properties, methods, collections and events you should be a
 
 ## ClientSettings
 
-The RadTreeList ClientSettings class contains the following properties used to customize the client-sidebehavior of the control:
+The RadTreeList ClientSettings class contains the following properties used to customize the client-side behavior of the control:
 
 
 >caption  
@@ -74,7 +74,7 @@ The RadTreeList ClientSettings class contains the following properties used to c
 | ------ | ------ |
 | **AllowPostBackOnItemClick** |Gets or sets a value indicating whether RadTreeList should postback on row click.|
 | **Scrolling.AllowScroll** |Gets or sets the value indicating whether the scrolling feature is enabled.|
-| **Scrolling.SaveScrollPosition** |Gets or sets the value indicating whether the scroll position of the control should bepreserved on postback.|
+| **Scrolling.SaveScrollPosition** |Gets or sets the value indicating whether the scroll position of the control should be preserved on postback.|
 | **Scrolling.ScrollHeight** |Gets or sets the value indicating the height of the items container when scrolling.|
 | **Scrolling.ScrollLeft** |Gets or sets the value indicating the treelist's horizontal scroll position.|
 | **Scrolling.ScrollTop** |Gets or sets the value indicating the treelist's vertical scroll position.|
@@ -85,7 +85,7 @@ The RadTreeList ClientSettings class contains the following properties used to c
 
 ## EditFormSettings
 
-The RadTreeList EditFormSettings class is used to set up the look, edit form modes and behavior of the RadTreeListcontrol when in edit mode, it exposes the following properties:
+The RadTreeList EditFormSettings class is used to set up the look, edit form modes and behavior of the RadTreeList control when in edit mode, it exposes the following properties:
 
 
 >caption  
@@ -96,7 +96,7 @@ The RadTreeList EditFormSettings class is used to set up the look, edit form mod
 | **CaptionFormatString** |Specifies the format string used for building the caption of the edit form.|
 | **ColumnsCount** |Specifies the number of columns in the \<table\> rendered in the auto-generated edit form.|
 | **EditColumn** |Provides access for modifying the property values of the EditCommandColumn.|
-| **EditFormType** |Sets the type of the edit form when an item in RadTreeList is edited or inserted. The threeoptions are *AutoGenerated* , *Template* and *WebUserControl* .|
+| **EditFormType** |Sets the type of the edit form when an item in RadTreeList is edited or inserted. The three options are *AutoGenerated* , *Template* and *WebUserControl* .|
 | **FormCaptionStyle / FormMainTableStyle / FormStyle / FormTableAlternatingItemStyle /	FormTableButtonRowStyle / FormTableItemStyle / FormTableStyle** |Properties used to style the respective parts of the auto-generated edit form.|
 | **FormTemplate** |Sets a template which will be used to generate the RadTreeList edit/insert form.|
 | **InsertCaption** |Specifies a string which will be displayed as a caption in the insert form of the treelist.|
@@ -119,9 +119,9 @@ The RadTreeList ExportSettings class is used to control the RadTreeList export m
 | ------ | ------ |
 | **ExportMode** |A property which controls which part of the treelist content will be exported.|
 | **FileName** |A property which specifies the name of the exported file.|
-| **IgnorePaging** |A boolean property controlling whether the whole data from the control's resolved datasourcewill be exported.|
-| **OpenInNewWindow** |A boolean property controlling whether the newly exported file will be opened in new browserwindow/tab.|
-| **Pdf** |A group of properties used to control the PDF export of RadTreeList. You can find descriptionof them in [this help article]({%slug treelist/functionality/exporting/pdf/overview%}).|
+| **IgnorePaging** |A boolean property controlling whether the whole data from the control's resolved datasource will be exported.|
+| **OpenInNewWindow** |A boolean property controlling whether the newly exported file will be opened in new browser window/tab.|
+| **Pdf** |A group of properties used to control the PDF export of RadTreeList. You can find description of them in [this help article]({%slug treelist/functionality/exporting/pdf/overview%}).|
 
 ## ValidationSettings
 
@@ -133,7 +133,7 @@ The RadTreeList ValidationSettings class is used to configure the RadTreeList va
 | Property | Description |
 | ------ | ------ |
 | **CommandsToValidate** |An array of strings used to list the names of the commands which will trigger validation in RadTreeList.|
-| **EnableValidation** |A boolean value idicating whether the treelist values should be validated.|
+| **EnableValidation** |A boolean value indicating whether the treelist values should be validated.|
 | **ValidationGroup** |A property used to set a ValidationGroup for the treelist control, so that it is validated only along a certain group of controls, having the same ValidationGroup name.|
 
 ## Server-side Collections
@@ -146,16 +146,16 @@ The RadTreeList ValidationSettings class is used to configure the RadTreeList va
 | Collection | Return type | Description |
 | ------ | ------ | ------ |
 | **AutoGeneratedColumns** |TreeListColumn[]|A collection of all the auto-generated columns inside RadTreeList.|
-| **ClientDataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as ClientDataKeyNames in the RadTreeListdeclaration.|
+| **ClientDataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as ClientDataKeyNames in the RadTreeList declaration.|
 | **Columns** |TreeListColumnsCollection|A collection of all the TreeListColumns manually added to the control instance.|
-| **DataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as DataKeyNames in the RadTreeListdeclaration.|
+| **DataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as DataKeyNames in the RadTreeList declaration.|
 | **EditIndexes** |TreeListEditIndexesCollection|A collection containing the indexes of all items which are currently in edit mode.|
 | **EditItems** |TreeListEditItemCollection|A collection of all currently edited items.|
 | **ExpandedIndexes** |TreeListExpandedIndexesCollection|A collection containing the indexes of all rendered items which are currently expanded.|
 | **InsertIndexes** |TreeListEditIndexesCollection|Returns an array containing the indexes of all items which are currently inserted.|
 | **InsertItems** |TreeListEditItemCollection|Returns a collection of all currently inserted items.|
 | **Items** |TreeListDataItemCollection|A collection of all currently rendered TreeListDataItem objects.|
-| **ParentDataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as ParentDataKeyNames in the RadTreeListdeclaration.|
+| **ParentDataKeyValues** |TreeListDataKeyArray|A collection containing the values of the fields specified as ParentDataKeyNames in the RadTreeList declaration.|
 | **SelectedIndexes** |TreeListDataItemCollection (read-only)|A collection containing the indexes of all the selected items in the RadTreeList.|
 | **SelectedItems** |TreeListDataItemCollection (read-only)|A collection containing all TreeListDataItems currently selected.|
 | **SortExpressions** |TreeListSortExpressionCollection|A collection of the sort expressions generated for the RadTreeList.|
@@ -213,7 +213,7 @@ The RadTreeList ValidationSettings class is used to configure the RadTreeList va
 | **NeedDataSource** |Fires when the RadTreeList is about to be bound and the data source must be assigned.|
 | **PageIndexChanged** |Fires when a paging action is performed.|
 | **PageSizeChanged** |Fires when page size is changed.|
-| **SelectedIndexChanged** |Fired for both client and server-side item selection on the first post-back following the selection/deselection ofthe item/items. For example, if you have client-side item selection and you select one or more tree list item,the event will be fired the next time you make a post-back to the server.In the case of server-side item selection, the event will be fired immediately after the selection/deselection of a certain item since that operation automatically triggers a post-back to the server.|
-| **PdfExporting** |Fires when the HTML output of the RadTreeList control is generated and before it is parsedinto binary. It allows you to manipulate the treelist output when exporting, as in the Export eventthe pdf is already generated and cannot be modified.|
+| **SelectedIndexChanged** |Fired for both client and server-side item selection on the first post-back following the selection/deselection of the item/items. For example, if you have client-side item selection and you select one or more tree list item,the event will be fired the next time you make a post-back to the server.In the case of server-side item selection, the event will be fired immediately after the selection/deselection of a certain item since that operation automatically triggers a post-back to the server.|
+| **PdfExporting** |Fires when the HTML output of the RadTreeList control is generated and before it is parsed into binary. It allows you to manipulate the treelist output when exporting, as in the Export event the pdf is already generated and cannot be modified.|
 | **Sorting** |Fires when a sort operation is requested and before the RadTreeList control handles the sort operation.|
 | **UpdateCommand** |Fires when an Update command is triggered.|

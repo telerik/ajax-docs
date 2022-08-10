@@ -18,7 +18,7 @@ The validation for the RadTreeList control follows the general logic for validat
 
 * **EnableValidation** – a Boolean field, which is enabled by default and specifies whether the validation will be enabled for the control.
 
-* **CommandsToValidate**- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be overriden.
+* **CommandsToValidate**- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be overridden.
 
 * **ValidationGroup** – the name of the validation group to which the TreeList control belongs.
 

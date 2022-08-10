@@ -12,7 +12,7 @@ position: 5
 
 
 
-This help article describes the specifics of exporting a **RadTreeList** control to **XLSX** and **DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}). In order to use **xlsx** export formats, you have to set the **ExportSettings-Excel-Format** property to **Xlsx**, while **docx** format does notrequire applying a property.
+This help article describes the specifics of exporting a **RadTreeList** control to **XLSX** and **DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}). In order to use **xlsx** export formats, you have to set the **ExportSettings-Excel-Format** property to **Xlsx**, while **docx** format does not require applying a property.
 
 ````ASPNET
 <ExportSettings>
@@ -124,7 +124,7 @@ cell2.Style.ForeColor = Color.Tomato
 
 ## Image Support
 
-Both **xlsx** and **docx** support exporting of images. The images are included automatically in theexported document and you do not have to set any specific property. Keep in mind images with an absolute or relative path are supported, but binary images are not.
+Both **xlsx** and **docx** support exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an absolute or relative path are supported, but binary images are not.
 
 ## Limitations
 

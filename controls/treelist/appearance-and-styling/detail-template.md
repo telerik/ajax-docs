@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-Through its **DetailTemplate** RadTreeList gives you the freedom to createand design one extra row for each treelist item. This additional detail row allows data-binding thecontrols within it to the data fields of its parent. Thus, based on your custom preferences you canmodel the look and feel of the detail item in a non-table-dependant format while at the same timefilling it with content related to the parent row.
+Through its **DetailTemplate** RadTreeList gives you the freedom to create and design one extra row for each treelist item. This additional detail row allows data-binding the controls within it to the data fields of its parent. Thus, based on your custom preferences you can model the look and feel of the detail item in a non-table-dependant format while at the same time filling it with content related to the parent row.
 
-In order to take the advantage of this feature, you need to place your custom controls and HTMLinto the RadTreeList **DetailTemplate** definition. There you can use bindingexpressions, like Eval and Bind, for the parent fields that will be visualized in the table row rendered.
+In order to take the advantage of this feature, you need to place your custom controls and HTMLinto the RadTreeList **DetailTemplate** definition. There you can use binding expressions, like Eval and Bind, for the parent fields that will be visualized in the table row rendered.
 
-As the detail item is part of each treelist item, it is visible when its parent item is alsovisible, and cannot be expanded/collapsed separately. Additionally, if paging is enabled for theRadTreeList control, on the current page will be displayed as many treelist items as the page size isplus their detail items.
+As the detail item is part of each treelist item, it is visible when its parent item is also visible, and cannot be expanded/collapsed separately. Additionally, if paging is enabled for theRadTreeList control, on the current page will be displayed as many treelist items as the page size is plus their detail items.
 
 The following sample illustrates one possible usage of the detail item feature of RadTreeList:
 

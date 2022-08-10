@@ -30,15 +30,15 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 * *RemoveAll* - removes all non-text controls.
 
-**IgnorePaging** - when you enable it, the RadTreeList will rebind before export in order tofetch all the data from your datasource.
+**IgnorePaging** - when you enable it, the RadTreeList will rebind before export in order to fetch all the data from your data source.
 
-**OpenInNewWindow** - by default, the exported file will be handled by the program associated with theappropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, youcan enable this property.
+**OpenInNewWindow** - by default, the exported file will be handled by the program associated with the appropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, you can enable this property.
 
 >note Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
-**FileName** - This is helpful when you want to give a predefined name for your file. Please note that the file namecannot be longer than 256 symbols. **Unicode** names are not supported out-of-the-box for *Internet Explorer 6* and *7*. Of course you can manually encode the file name and it will be shown properly in the "*Save*" dialog (*OpenInNewWindow="true"*):
+**FileName** - This is helpful when you want to give a predefined name for your file. Please note that the file name cannot be longer than 256 symbols. **Unicode** names are not supported out-of-the-box for *Internet Explorer 6* and *7*. Of course you can manually encode the file name and it will be shown properly in the "*Save*" dialog (*OpenInNewWindow="true"*):
 
 *HttpUtility.UrlEncode("unicode string", System.Text.Encoding.UTF8);*
 
@@ -71,7 +71,7 @@ We strongly recommend not to export large amounts of data since there is a chanc
 
 ## Export in SharePoint webpart
 
-There is a special flag (**_spFormOnSubmitCalled**) in *SharePoint* that prevents the form to be submitted twice. The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality, this flag won't be cleared because the response is redirected and therefore all furtherpostbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
+There is a special flag (**_spFormOnSubmitCalled**) in *SharePoint* that prevents the form to be submitted twice. The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality, this flag won't be cleared because the response is redirected and therefore all further postbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
 
 ## Export in web farm
 

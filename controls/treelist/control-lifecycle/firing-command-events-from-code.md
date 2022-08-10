@@ -12,7 +12,7 @@ position: 4
 
 
 
-In some specific cases you may want to raise command events (like Select/Sort/Page/etc.)in code rather than clicking buttons which are placed inside RadTreeList. For such type of situations TelerikRadTreeList exposes the **FireCommandEvent(eventName, eventArgs)** method which can becalled from the items related to the respective operation.
+In some specific cases you may want to raise command events (like Select/Sort/Page/etc.)in code rather than clicking buttons which are placed inside RadTreeList. For such type of situations TelerikRadTreeList exposes the **FireCommandEvent(eventName, eventArgs)** method which can be called from the items related to the respective operation.
 
 ## 
 

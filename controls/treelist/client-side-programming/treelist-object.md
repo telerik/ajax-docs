@@ -28,7 +28,7 @@ position: 1
 | **set_selectedIndexes()** |Property which sets the selected indexes for RadTreeList.|
 | **get_selectedItems()** |Property which returns the collection of all selected items of RadTreeList.|
 | **get_clientSettings()** |Property which returns client-side objects which represent the RadTreeList client settings.|
-| **get_clientDataKeyNames()** |Property which gets a collection of the client datakey names.|
+| **get_clientDataKeyNames()** |Property which gets a collection of the client data key names.|
 | **get_currentPageIndex()** |Property which returns the current page index of the treelist.|
 | **set_currentPageIndex()** |Property which sets the current page index by firing a Page command.|
 

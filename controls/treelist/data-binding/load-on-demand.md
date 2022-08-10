@@ -37,7 +37,7 @@ End Sub
 ````
 
 
-1. Handle the **RadTreeList.ChildItemsDataBind** event and select the subset of items related to theexpanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
+1. Handle the **RadTreeList.ChildItemsDataBind** event and select the subset of items related to the expanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
 
 
 
@@ -56,7 +56,7 @@ End Sub
 ````
 
 
-In addition, the RadTreeList control always shows the ExpandCollapse button in front of each item. When the item is expanded and there are no nested items, nothing will be displayed below the expanded item, even though there was a button to exapnd it.
+In addition, the RadTreeList control always shows the ExpandCollapse button in front of each item. When the item is expanded and there are no nested items, nothing will be displayed below the expanded item, even though there was a button to expand it.
 
 
 ## Limitations

@@ -32,9 +32,9 @@ RadTreeList provides two properties for controlling its height declaratively or 
 
 Depending on whether Height or ScrollHeight is set, RadTreeList behaves differently:
 
-* If **Height** is set, it is applied to the whole treelist and the control calculates the height of itsscrollable container on the client. The height of the scrollable container will depend on the height of the header, footer and pager which will be subtracted from the total RadTreeList height.
+* If **Height** is set, it is applied to the whole treelist and the control calculates the height of its scrollable container on the client. The height of the scrollable container will depend on the height of the header, footer and pager which will be subtracted from the total RadTreeList height.
 
-* If **ScrollHeight** is set, it is applied to the scrollable container directly and the RadTreeList controloccupies as much vertical space as it needs to accommodate the elements, which are outside the scrollable container. In other words,the total RadTreeList height will be larger than the ScrollHeight value.
+* If **ScrollHeight** is set, it is applied to the scrollable container directly and the RadTreeList control occupies as much vertical space as it needs to accommodate the elements, which are outside the scrollable container. In other words,the total RadTreeList height will be larger than the ScrollHeight value.
 
 >caution  **ScrollHeight** should not be set in percent.
 >
@@ -42,6 +42,6 @@ Depending on whether Height or ScrollHeight is set, RadTreeList behaves differen
 
 
 
->note Using **ScrollHeight** instead of **Height** will improve the RadTreeList client-side performance and prevent vertical flickering, which is inevitable in the case when the controlneeds to calculate and adjust its vertical layout on the client.
+>note Using **ScrollHeight** instead of **Height** will improve the RadTreeList client-side performance and prevent vertical flickering, which is inevitable in the case when the control needs to calculate and adjust its vertical layout on the client.
 >
 

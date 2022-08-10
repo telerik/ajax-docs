@@ -108,7 +108,7 @@ End Sub
 
 ## Implementing Custom Editors
 
-To create a custom column editor, a developer needs to implement the ITreeListColumnEditor in a class.By convention, a column editor in RadTreeList does not have a default parameter-less constructor and accepts the TreeListEditableColumn instance in its constructor. Even though this is not a strict requirement for a custom column editor, this provides direct access to the editable column that the column editor will work for. The editor can then read settings from the column and apply them to edit controls initialized in the cells of the edited items.The example bellow demonstrates implementig of Custom Editor for the "TitleOfCourtesy" TreeList column:
+To create a custom column editor, a developer needs to implement the ITreeListColumnEditor in a class.By convention, a column editor in RadTreeList does not have a default parameter-less constructor and accepts the TreeListEditableColumn instance in its constructor. Even though this is not a strict requirement for a custom column editor, this provides direct access to the editable column that the column editor will work for. The editor can then read settings from the column and apply them to edit controls initialized in the cells of the edited items.The example bellow demonstrates implementing of Custom Editor for the "TitleOfCourtesy" TreeList column:
 
 
 

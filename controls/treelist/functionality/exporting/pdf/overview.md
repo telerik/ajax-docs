@@ -128,15 +128,15 @@ The default pager's *RadComboBox* uses special *CSS* approach that is unsupporte
 
 * **Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow,fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption,fo:table-cell or fo:wrapper not fo:table-header**
 
-This exception is probably result of a **hard pagebreak**, inserted in a wrong place - for example directlyafter the starting tag of a table
+This exception is probably result of a **hard pagebreak**, inserted in a wrong place - for example directly after the starting tag of a table
 
 * **System.IndexOutOfRangeException: Index was outside the bounds of the array. at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)**
 
-You are either using *RTL* fonts or mixing *Korean* characters with another language in thesame element (rare scenario)
+You are either using *RTL* fonts or mixing *Korean* characters with another language in the same element (rare scenario)
 
 * **Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'**
 
-Most probably you have *DIV* element with specified dimensions or absolute positioning. Remove the relevantwidth/height/position attributes to avoid this exception.
+Most probably you have *DIV* element with specified dimensions or absolute positioning. Remove the relevant width/height/position attributes to avoid this exception.
 
 * **System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission**
 

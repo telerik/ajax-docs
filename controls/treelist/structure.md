@@ -28,9 +28,9 @@ After you have set the above mentioned properties and bound the RadTreeList to y
 
 1. If the key fields are complex objects, a recursive check on their properties is performed until the above rule is met.
 
-Another important thing to know is what is the HierarchialIndex of each TreeListDataItem and how it is formed. This index is object of type **TreeListHierarchyIndex** which has two properties: **NestedLevel** and **LevelIndex**. The NestedLevel indicates in which level of the treelist hierarcy is the item in question, while LevelIndex returns the index of the item in this level.
+Another important thing to know is what is the HierarchialIndex of each TreeListDataItem and how it is formed. This index is object of type **TreeListHierarchyIndex** which has two properties: **NestedLevel** and **LevelIndex**. The NestedLevel indicates in which level of the treelist hierarchy is the item in question, while LevelIndex returns the index of the item in this level.
 
-The below table illustrates a sample structure with the corresponding indexes. Next to it, you can see a screenshot of a RadTreeList controlhaving this structure. In it you can observe how the key values and parent key values are reflected in the rendered table. The code used to build this treelist is shown below the images.
+The below table illustrates a sample structure with the corresponding indexes. Next to it, you can see a screenshot of a RadTreeList control having this structure. In it you can observe how the key values and parent key values are reflected in the rendered table. The code used to build this treelist is shown below the images.
 
 
 >caption  

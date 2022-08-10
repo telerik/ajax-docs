@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadTreeList** supports paging functionality which allows the users to view thedata, separated in chunks. This is helpful in cases where the control is bound to a large collection ofdata which would be impractical or even impossible to display on a single page. Depending on thedevelopers' preferences, the appearance of the pager may vary from a simple page-number buttons to amore sophisticated slider control.
+**RadTreeList** supports paging functionality which allows the users to view the data, separated in chunks. This is helpful in cases where the control is bound to a large collection of data which would be impractical or even impossible to display on a single page. Depending on the developers' preferences, the appearance of the pager may vary from a simple page-number buttons to a more sophisticated slider control.
 
 To enable this functionality in **RadTreeList**, you should set the **AllowPaging** property to true.
 
@@ -34,7 +34,7 @@ As it name implies, the property specifies what type of page size drop down cont
 
 ## Pager API
 
-The following methods and properties are exposed in the **RadTreeList**'sserver-side Pager API:
+The following methods and properties are exposed in the **RadTreeList**'s server-side Pager API:
 
 
 | Property | Description |

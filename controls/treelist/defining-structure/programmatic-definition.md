@@ -16,7 +16,7 @@ There are many cases when you need to create the **RadTreeList** control dynamic
 
 * **Create the RadTreeList entirely in code-behind** - here you should place all the code in the **Page_Init** event handler. Note that the columns have to be added to the Columns collection after their properties are set.This approach for creating the TreeList should be used when *creating TreeListTemplateColumns dynamically* (as well as any other templates).
 
-* **Add the RadTreeList declaration statically in the page mark-up and configure itserver-side** - configuration is to be done in the **Page_Load** event handler and only on initial load (with Not IsPostBack condition) to avoid adding the same structure twice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
+* **Add the RadTreeList declaration statically in the page mark-up and configure it server-side** - configuration is to be done in the **Page_Load** event handler and only on initial load (with Not IsPostBack condition) to avoid adding the same structure twice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
 
 The samples bellow illustrate both approaches:
 
@@ -187,7 +187,7 @@ End Sub
 		</telerik:AjaxSetting>
 	</AjaxSettings>
 </telerik:RadAjaxManager>
-<h3>RadTreeList decalared statically with structure defined on Page_Load</h3>
+<h3>RadTreeList declared statically with structure defined on Page_Load</h3>
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server">
 </telerik:RadTreeList>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"

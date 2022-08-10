@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-You can use a wide variety of data-sources for RadTreeList structure generation. A requirement isthat these custom objects implement the **ITypedList**/**IEnumarable** /**ICustomTypeDescriptor** interfaces and representing self-hierarchical data. Rememberto set the **DataKeyNames** and **ParentDataKeyNames** propertiesof the RadTreeList controls. Also note that the type of the fields used for DataKeyNames and ParentDatakeyNamesshould be the same.
+You can use a wide variety of data-sources for RadTreeList structure generation. A requirement isthat these custom objects implement the **ITypedList**/**IEnumarable** /**ICustomTypeDescriptor** interfaces and representing self-hierarchical data. Remember to set the **DataKeyNames** and **ParentDataKeyNames** propertiesof the RadTreeList controls. Also note that the type of the fields used for DataKeyNames and ParentDataKeyNames should be the same.
 
 The code in the next paragraph demonstrates how to:
 

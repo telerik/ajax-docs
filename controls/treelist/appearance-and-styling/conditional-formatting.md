@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-**RadTreeList** provides the option to conditionally modify the appearance ofa given elements. For example, it might be convenient to change the background of the cells that containnegative values.
+**RadTreeList** provides the option to conditionally modify the appearance ofa given elements. For example, it might be convenient to change the background of the cells that contain negative values.
 
-The following example shows how to handle the **ItemDataBound** event inorder to apply a custom color/decoration to RadTreeList cell/row.
+The following example shows how to handle the **ItemDataBound** event in order to apply a custom color/decoration to RadTreeList cell/row.
 
 
 
@@ -49,7 +49,7 @@ End Sub
 ````
 
 
-![RadTreeList Conditional Formating](images/treelist_conditional_formatting.jpg)
+![RadTreeList Conditional Formatting](images/treelist_conditional_formatting.jpg)
 
 You can examine our online demo below:
 

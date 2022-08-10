@@ -14,11 +14,11 @@ position: 0
 
 ## Advanced binding with NeedDataSource event handling
 
-There are several approaches you can use to bind RadTreeList control. However in all of them youshould make sure that the **DataKeyNames** and **ParentDataKeyNames** properties for the TreeList control are set.
+There are several approaches you can use to bind RadTreeList control. However in all of them you should make sure that the **DataKeyNames** and **ParentDataKeyNames** properties for the TreeList control are set.
 
-The key to the advanced data binding of Telerik RadTreeList is handling correctly the **NeedDataSource** event. That's why we choose this exact name. 'Need' in this caseactually means that if at an exact moment the data-source property does not point to a valid data-source object,the treelist will not behave correctly. This event fires in the following cases:
+The key to the advanced data binding of Telerik RadTreeList is handling correctly the **NeedDataSource** event. That's why we choose this exact name. 'Need' in this case actually means that if at an exact moment the data-source property does not point to a valid data-source object,the treelist will not behave correctly. This event fires in the following cases:
 
-* Right after **OnLoad**, Telerik RadTreeList checks the ViewState for storedTreeList-related information. If such information is missing (when the page loads for the first time), the **NeedDataSource** event is fired. This also means that if the **EnableViewState** property of the controlhas been set to **false**,the treelist will bind **each time the page** loads (not only the first time)
+* Right after **OnLoad**, Telerik RadTreeList checks the ViewState for storedTreeList-related information. If such information is missing (when the page loads for the first time), the **NeedDataSource** event is fired. This also means that if the **EnableViewState** property of the control has been set to **false**,the treelist will bind **each time the page** loads (not only the first time)
 
 * After expand/collapse
 
@@ -26,7 +26,7 @@ The key to the advanced data binding of Telerik RadTreeList is handling correctl
 
 * When **other operations requiring Rebind** occurs
 
-The advantages of using this event are that the developer does not need to write any code handling thelogic about when and how the data-binding should be processed. It is still the developer's responsibility toconstruct properly a data source object and assign it to the RadTreeList's DataSource property. In the code ofthe **NeedDataSource** handler you should prepare the data source (list of objects) forthe RadTreeList and assign it to the treelist's **DataSource** property. Also you shouldset the **DataKeyNames** and **ParentDataKeyNames** properties forthe treelist control.
+The advantages of using this event are that the developer does not need to write any code handling the logic about when and how the data-binding should be processed. It is still the developer's responsibility to construct properly a data source object and assign it to the RadTreeList's DataSource property. In the code of the **NeedDataSource** handler you should prepare the data source (list of objects) for the RadTreeList and assign it to the treelist's **DataSource** property. Also you should set the **DataKeyNames** and **ParentDataKeyNames** properties for the treelist control.
 
 >note  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simpledata-binding mode with advanced data-binding.** 
 >
@@ -36,7 +36,7 @@ Alternatively, you can use **AccessDataSource/SqlDataSource/ObjectDataSource/Xml
 
 ## Simple binding
 
-Simple data-binding with the **DataBind()** method can be used in simple scenarioswhich does not require complex operations. The correct approach when using simple data-binding is to call the **DataBind()** method on the first page load when **!Page.IsPostBack** and after handling some event (sortevent for example). Keep in mind that if you choose simple data-binding, you will need to assign datasourceand rebind the treelist after each operation (expanding/collapsing, paging, sorting, etc.)
+Simple data-binding with the **DataBind()** method can be used in simple scenarios which does not require complex operations. The correct approach when using simple data-binding is to call the **DataBind()** method on the first page load when **!Page.IsPostBack** and after handling some event (sort event for example). Keep in mind that if you choose simple data-binding, you will need to assign datasource and rebind the treelist after each operation (expanding/collapsing, paging, sorting, etc.)
 
 ## Example
 

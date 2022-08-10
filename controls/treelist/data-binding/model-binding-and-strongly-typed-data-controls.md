@@ -16,7 +16,7 @@ position: 5
 
 ## Strongly Typed Data Controls Support
 
-When template fields are used into the Telerik’s data bound controls for customizing templatesand bound the field value the late-bound expressions are typically used. For example, below we are usingthe Eval() helper method to data-bind the "CategoryName" property from an objects which is bound to theRadGrid:
+When template fields are used into the Telerik’s data bound controls for customizing templates and bound the field value the late-bound expressions are typically used. For example, below we are using the Eval() helper method to data-bind the "CategoryName" property from an objects which is bound to theRadGrid:
 
 ````ASPNET
 	   <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
@@ -44,7 +44,7 @@ When we perform two-way data-binding the Bind() method is used:
 
 
 
-On the other side the .NET 4.5 provides ability to enable strongly-typed data templates.To enable them the ItemType property needs to be set on the data bound control. After setting it two newtypes will be generated in the scope of the control’s template: Item and BindItem. For example the code snippet above could be rewritten as:
+On the other side the .NET 4.5 provides ability to enable strongly-typed data templates.To enable them the ItemType property needs to be set on the data bound control. After setting it two new types will be generated in the scope of the control’s template: Item and BindItem. For example the code snippet above could be rewritten as:
 
 ````ASPNET
 	    <telerik:GridTemplateColumn HeaderText="Category"  UniqueName="CategoryID" 
@@ -65,7 +65,7 @@ The developers could use these variables in data-binding expressions and to get 
 
 ## Model Binding Selecting Data, Paging and Sorting
 
-To bind databound controls via ModelBinding you need to set only the SelectMethod property to the name of the public methodplaced into the page's code-behind file:
+To bind databound controls via ModelBinding you need to set only the SelectMethod property to the name of the public method placed into the page's code-behind file:
 
 ````ASPNET
 	    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
@@ -103,10 +103,10 @@ In the second signature the developer have to build query which sort and page th
 
 When we run the page, the data bound controls will call the above method and automatically retrieve the data and render it. The method has to return IEnumerable or IQueryable. Thus users could easily page and sort through the data within our bound controls. The benefits are that our controls will automatically add the appropriate sort and page operators onto an IQueryable query before executing it.
 
-For example if SelectMethod returns data from Linq DataContext and if the paging of the bound control is turned on, the executed database query will return only items for the current page. If the bound control is sorted by a column the sorting also will be executed on the database and the sorted result will be returned. That is because the Linq will optimize the query to performthe sort and page operation as part of the database query.
+For example if SelectMethod returns data from Linq DataContext and if the paging of the bound control is turned on, the executed database query will return only items for the current page. If the bound control is sorted by a column the sorting also will be executed on the database and the sorted result will be returned. That is because the Linq will optimize the query to perform the sort and page operation as part of the database query.
 
->note When paging and sorting are applied the entire data source is returned from the database, because the RadTreeList control is a hierarchical control and the data source’s items are not shownin the order that they are ordered into the data source.
->When the Selectmethod are parameterized the startRowIndex and maximumRows have to be Nullablez,because the RadTreeList always get entire data source and does not pass startRowIndex and maximumRows:
+>note When paging and sorting are applied the entire data source is returned from the database, because the RadTreeList control is a hierarchical control and the data source’s items are not shown in the order that they are ordered into the data source.
+>When the Select method are parameterized the startRowIndex and maximumRows have to be Nullables,because the RadTreeList always get entire data source and does not pass startRowIndex and maximumRows:
 >
 
 
@@ -132,7 +132,7 @@ In order to filter the data source of the data bound control and pass the filter
 
 
 
-The code snippet above will get the name parameter from the QueryString and integer value of the selected item of the RadComboBoxwith ID equlas to “RadComboBoxCategories”.
+The code snippet above will get the name parameter from the QueryString and integer value of the selected item of the RadComboBox with ID equals to “RadComboBoxCategories”.
 
 >note When the control is used to pass the filter parameter the control needs to perform post back and the Rebind() method of our data bound control need to be called in order to call the SelectMethod. Otherwise the SelectMethod will not be called and the new data source will not be passed to the data bound control.
 >Need to add System.Web.ModelBinding namespace on the page
@@ -143,7 +143,7 @@ The code snippet above will get the name parameter from the QueryString and inte
 
 **Editing**
 
-In order to have editing enabled into the data bound controls you need to set the UpdateMethodof the corresponding control to the web form page’s method. The UpdateMethod can have following signature:
+In order to have editing enabled into the data bound controls you need to set the UpdateMethod of the corresponding control to the web form page’s method. The UpdateMethod can have following signature:
 
 ````C#
 	        public void UpdateProduct(int ProductID) 
@@ -180,11 +180,11 @@ Or you could use following signature:
 
 **Inserting**
 
-In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethodcan have following signatures:
+In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethod can have following signatures:
 
 **Deleting**
 
-In order to have deleting enabled into the data bound controls you need to set the DeleteMethod property of the corresponding control to thename of the web form page’s delete method. The DeleteMethod can have following signature:
+In order to have deleting enabled into the data bound controls you need to set the DeleteMethod property of the corresponding control to the name of the web form page’s delete method. The DeleteMethod can have following signature:
 
 ````C#
 	        public void DeleteProduct(int ProductID)

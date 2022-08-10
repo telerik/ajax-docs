@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-If you have an initially selected item (row) in a scrollable treelist, you may want to bring the focus to this itemwhen the page first loads. The following steps describe how to accomplish this:
+If you have an initially selected item (row) in a scrollable treelist, you may want to bring the focus to this item when the page first loads. The following steps describe how to accomplish this:
 
 1. Set one of the items in the control as selected.
 
@@ -24,7 +24,7 @@ If you have an initially selected item (row) in a scrollable treelist, you may w
 
 	1. Use the treelist's dataDiv to access the DOM element for the scrollable region of the treelist.
 
-	1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the treelist so that the selected rowis showing.
+	1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the treelist so that the selected row is showing.
 
 The following example demonstrates this technique:
 

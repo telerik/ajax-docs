@@ -151,7 +151,7 @@ The following steps walk you through the entire process of creating an Excel doc
 		Next
 
 
-3. After the worksheet is populated with data an instance of the **XlsxFormatProvider** is created and by callingits **Export** method a file is generated on the server.
+3. After the worksheet is populated with data an instance of the **XlsxFormatProvider** is created and by calling its **Export** method a file is generated on the server.
 
 
 

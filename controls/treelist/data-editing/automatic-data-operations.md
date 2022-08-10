@@ -16,7 +16,7 @@ position: 2
 
 ## Controlling the automatic data source operations
 
-Once it is bound to a DataSource control that supports Insert, Update, and Delete operations, RadTreeList can take an advantage of the data source capabilities to perform the requiredoperations.The only requirement is binding the treelist to a declarative data source using the **DataSourceID** property of the control. Other than this, the functionality is automatically handled, without the need to write any custom code.
+Once it is bound to a DataSource control that supports Insert, Update, and Delete operations, RadTreeList can take an advantage of the data source capabilities to perform the required operations.The only requirement is binding the treelist to a declarative data source using the **DataSourceID** property of the control. Other than this, the functionality is automatically handled, without the need to write any custom code.
 
 You also need to set the **DataKeyNames** and **ParentDataKeyNames** properties of the RadTreeList control so that the insert, update, and delete operations perform as expected.
 

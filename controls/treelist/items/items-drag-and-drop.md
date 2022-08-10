@@ -12,7 +12,7 @@ position: 3
 
 
 
-The rich drag and drop API facilitate the developers when implementing copy/moveoperations between different RadTreeList and other controls. Among the standard server and	client methods and properties you will also find some useful options like:
+The rich drag and drop API facilitate the developers when implementing copy/move operations between different RadTreeList and other controls. Among the standard server and	client methods and properties you will also find some useful options like:
 
 * automatic items reorder when using SqlDataSource control.
 

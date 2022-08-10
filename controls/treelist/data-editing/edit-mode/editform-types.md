@@ -39,7 +39,7 @@ You can use the auto-generated edit form will all edit modes: **InPlace**, **Edi
 
 ## Template edit form
 
-There are many cases where you would choose to define your own edit form. One option is to set the **EditFormType** property to **Template**. Then you should place the definition of the form in the **FormTemplate** of the RadTreeLlist control.
+There are many cases where you would choose to define your own edit form. One option is to set the **EditFormType** property to **Template**. Then you should place the definition of the form in the **FormTemplate** of the RadTreeList control.
 
 ````ASPNET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server"

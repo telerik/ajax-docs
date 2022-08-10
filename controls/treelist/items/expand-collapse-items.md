@@ -12,7 +12,7 @@ position: 4
 
 
 
-The **RadTreeList** control supports different modes for expanding and collapsing items. There are three available modes - on the server, on the client, or a mix of the first two. The feature is supported with all databinding modes of **RadTreeList**.
+The **RadTreeList** control supports different modes for expanding and collapsing items. There are three available modes - on the server, on the client, or a mix of the first two. The feature is supported with all data binding modes of **RadTreeList**.
 
 
 

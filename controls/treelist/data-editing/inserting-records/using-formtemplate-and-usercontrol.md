@@ -282,7 +282,7 @@ public partial class WebUserControl : System.Web.UI.UserControl, IBindableContro
 {
 	public void ExtractValues(IOrderedDictionary dictionary)
    {
-	   //retrives all RadInputs and add thier values to the dictionary
+	   //retrieves all RadInputs and add their values to the dictionary
 	   foreach (var input in Controls.OfType<RadInputControl>().Select(control => new {FieldName = control.ID, FieldValue = control.Text}))
 	   {
 		   dictionary.Add(input.FieldName, input.FieldValue);

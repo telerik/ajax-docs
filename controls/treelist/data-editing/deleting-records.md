@@ -22,16 +22,16 @@ In both cases, the most straightforward way to trigger the delete is to use a **
 
 ## Deleting records using automatic operations
 
-You can take advantage of the automatic datasource operations of RadTreeList by setting up a
-datasource control to allow deletes and binding the treelist to it. Additionally, if you allow cascade deletes for your database, you can set the **AllowRecursiveDelete** property to **"true"** which will take care of deleting all child items (if any) of the currently deleted item.
+You can take advantage of the automatic data source operations of RadTreeList by setting up a
+data source control to allow deletes and binding the treelist to it. Additionally, if you allow cascade deletes for your database, you can set the **AllowRecursiveDelete** property to **"true"** which will take care of deleting all child items (if any) of the currently deleted item.
 
 ## Deleting records manually
 
 The manual delete operations in RadTreeList consist of two main parts:
 
-1. Accessing the datakey value of the item to be deleted.
+1. Accessing the data key value of the item to be deleted.
 
-1. Using it to find the record inside the treelistcdatasource and deleting it.
+1. Using it to find the record inside the treelist's data source and deleting it.
 
 Once the user clicks the delete button inside the treelist, you can handle the **DeleteCommand** event and perform these steps there. The code snippet below demonstrated a possible approach:
 
@@ -61,7 +61,7 @@ protected void RadTreeList1_DeleteCommand(object sender, TreeListCommandEventArg
 {
 	//accessing the datakey value through the server API of the TreeListDataItem
 	string dataKeyValue = (e.Item as TreeListDataItem).GetDataKeyValue("ID").ToString();
-	//the actual deletion logic depends on the kind of datasource that you use, your only task is to remove the item from the datasource. The RadTreeList control will implicitly rebind itself afterwards.
+	//the actual deletion logic depends on the kind of data source that you use, your only task is to remove the item from the data source. The RadTreeList control will implicitly rebind itself afterwards.
 	String ConnString = ConfigurationManager.ConnectionStrings["TelerikConnectionString"].ConnectionString;
 	SqlConnection conn = new SqlConnection(ConnString);
 	SqlCommand deleteCommand = new SqlCommand("DELETE FROM SelfReferencing WHERE ID='" + dataKeyValue + "'", conn);
@@ -102,9 +102,9 @@ Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As Tre
 End Sub
 
 Protected Sub RadTreeList1_DeleteCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs)
-	'accessing the datakey value through the server API of the TreeListDataItem
+	'accessing the data key value through the server API of the TreeListDataItem
 	Dim dataKeyValue As String = TryCast(e.Item, TreeListDataItem).GetDataKeyValue("ID").ToString()
-	'the actual deletion logic depends on the kind of datasource that you use, your only task is to remove the item from the datasource. The RadTreeList control will implicitly rebind itself afterwards.
+	'the actual deletion logic depends on the kind of data source that you use, your only task is to remove the item from the data source. The RadTreeList control will implicitly rebind itself afterwards.
 	Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("TelerikConnectionString").ConnectionString
 	Dim conn As New SqlConnection(ConnString)
 	Dim deleteCommand As New SqlCommand("DELETE FROM SelfReferencing WHERE ID='" + dataKeyValue + "'", conn)
@@ -134,6 +134,6 @@ End Function
 ````
 
 
->note Please note that with this approach you might need to take care of deleting the child itemsof the deleted item as well.
+>note Please note that with this approach you might need to take care of deleting the child items of the deleted item as well.
 >
 

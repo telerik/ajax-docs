@@ -12,7 +12,7 @@ position: 0
 
 
 
-When you want to do manual updates of the treelist datasource, in order to do so, you need to get hold of the edited values in the edit form before performing your custom updating logic. This article will elaborate on the two ways to access these values.
+When you want to do manual updates of the treelist data source, in order to do so, you need to get hold of the edited values in the edit form before performing your custom updating logic. This article will elaborate on the two ways to access these values.
 
 ## Accessing the edited values using ExtractValuesFromItem() method
 
@@ -48,7 +48,7 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 ````C#
 protected void RadTreeList1_UpdateCommand(object sender, TreeListCommandEventArgs e)
 {
-	//Canceling out the automatic datasource operation (needed if you use a datasource control)
+	//Canceling out the automatic data source operation (needed if you use a data source control)
 	e.Canceled = true;
 
 
@@ -75,7 +75,7 @@ protected void RadTreeList1_UpdateCommand(object sender, TreeListCommandEventArg
 ````VB.NET
 Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
 
-	'Canceling out the automatic datasource operation (needed if you use a datasource control)
+	'Canceling out the automatic data source operation (needed if you use a data source control)
 	e.Canceled = True
 
 
@@ -105,7 +105,7 @@ End Sub
 
 This can be achieved by getting hold of the current editable item and then accessing each column editor by column UniqueName. Then you just get the value from the control that the editor holds by using the control's own API.
 
->note If you need to access the datakeyvalue of the currently edited item, you should keep in mind that the **TreeListEditableItem** should becast to **TreeListDataItem** if you are using **InPlace** edit mode, and to **TreeListEditFormItem** if you are using **EditForms** . Then you can use the GetDataKeyValue("DataKeyNames") method.
+>note If you need to access the DataKeyValue of the currently edited item, you should keep in mind that the **TreeListEditableItem** should be cast to **TreeListDataItem** if you are using **InPlace** edit mode, and to **TreeListEditFormItem** if you are using **EditForms** . Then you can use the GetDataKeyValue("DataKeyNames") method.
 >
 
 
@@ -131,10 +131,10 @@ This can be achieved by getting hold of the current editable item and then acces
 ````C#
 protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 {
-	//Canceling out the automatic datasource operation (needed if you use a datasource control)
+	//Canceling out the automatic data source operation (needed if you use a data source control)
 	e.Canceled = true;
 
-	//Accessing the DataKeyValue of the edited item, which is used to recognize the edited row in the datasource
+	//Accessing the DataKeyValue of the edited item, which is used to recognize the edited row in the data source
 	TreeListEditFormItem editedItem = (e.Item as TreeListEditFormItem);
 	string dataKeyValue = editedItem.ParentItem.GetDataKeyValue("EmployeeID").ToString();
 
@@ -163,10 +163,10 @@ protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeList
 ````
 ````VB.NET
 Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
-	'Canceling out the automatic datasource operation (needed if you use a datasource control)
+	'Canceling out the automatic data source operation (needed if you use a data source control)
 	e.Canceled = True
 
-	'Accessing the DataKeyValue of the edited item, which is used to recognize the edited row in the datasource
+	'Accessing the DataKeyValue of the edited item, which is used to recognize the edited row in the data source
 	Dim editedItem As TreeListEditFormItem = CType(e.Item, TreeListEditFormItem)
 	Dim dataKeyValue As String = editedItem.ParentItem.GetDataKeyValue("EmployeeID").ToString()
 

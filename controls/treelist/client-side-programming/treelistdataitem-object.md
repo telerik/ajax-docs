@@ -20,7 +20,7 @@ The **TreeListDataItem** client object exposes the following properties and meth
 
 | Property | Description |
 | ------ | ------ |
-| **get_dataKeyValue(keyName)** |A property which gets value of the client datakey name for this itemby the given keyname.|
+| **get_dataKeyValue(keyName)** |A property which gets value of the client data key name for this item by the given key name.|
 | **get_expanded()** |A property which returns whether the current item is expanded.|
 | **get_isRoot()** |A property which returns whether the current item is root item for the treelist.|
 | **get_previousSibling()** |A property which gets the previous sibling of the current item.|

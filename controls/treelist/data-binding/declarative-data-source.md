@@ -24,9 +24,9 @@ RadTreeList can be bound to the following ASP 2.x DataSource control types:
 
 * AccessDataSource
 
-All you need to do is set the DataSourceID property of the TreeList to the ID of the Data Sourcecontrol. Then you can use ASP.NET binding expressions (Eval or Bind) for the fields that will bevisualized in the control.
+All you need to do is set the DataSourceID property of the TreeList to the ID of the Data Source control. Then you can use ASP.NET binding expressions (Eval or Bind) for the fields that will be visualized in the control.
 
-From Q2 2013 RadTreeList could be bound to the SiteMapDataSource. When binding to SiteMapDataSource controlyou can avoid setting the DataKeyNames and the ParentDataKeyNames because they are resolved internally dueto the nature of this datasource type.
+From Q2 2013 RadTreeList could be bound to the SiteMapDataSource. When binding to SiteMapDataSource control you can avoid setting the DataKeyNames and the ParentDataKeyNames because they are resolved internally due to the nature of this datasource type.
 
 Refer to the code snippet in the next paragraph:
 

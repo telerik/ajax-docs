@@ -73,7 +73,7 @@ Dim itemValue As String = cell.Text
 ````
 
 
-For values in **TreeListTemplateColumns** you will need to find thecontrol in the treelist cell (either using the **FindControl()** method or the	**Controls** collection of the cell) and extract its value.
+For values in **TreeListTemplateColumns** you will need to find the control in the treelist cell (either using the **FindControl()** method or the	**Controls** collection of the cell) and extract its value.
 
 
 
@@ -170,7 +170,7 @@ End If
 
 ## Accessing the TreeListDetailTemplateItem
 
-The **ItemCreated** and **ItemDataBound** events are the place where youcan access the TreeListDetailTemplateItem as well.
+The **ItemCreated** and **ItemDataBound** events are the place where you can access the TreeListDetailTemplateItem as well.
 
 
 
@@ -202,7 +202,7 @@ Dim lbl As Label = CType(detailItem.FindControl("Label1"), Label)
 
 ## Accessing the TreeListNoRecordsItem
 
-You can access the item rendered when the treelist is bound to an empty datasource again the same way:
+You can access the item rendered when the treelist is bound to an empty data source again the same way:
 
 
 

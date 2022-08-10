@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-Sometimes your application may reduce the records that **RadTreeList** displays by some method such as adynamically changing the page size. When this occurs, the treelist automatically resizes its contentarea for the smaller amount of data, except when scrolling is enabled.
+Sometimes your application may reduce the records that **RadTreeList** displays by some method such as a dynamically changing the page size. When this occurs, the treelist automatically resizes its content area for the smaller amount of data, except when scrolling is enabled.
 
-To reduce the size of the treelist when the data does not fill the content area when scrolling is enabled, use the client-side **TreeListCreated** event. In the **TreeListCreated** event handler, check whether theinner table height is less than the value of the **ClientSettings.Scrolling.ScrollHeight** property, and if so,explicitly modify the scroll area height to match the height of the data items.
+To reduce the size of the treelist when the data does not fill the content area when scrolling is enabled, use the client-side **TreeListCreated** event. In the **TreeListCreated** event handler, check whether the inner table height is less than the value of the **ClientSettings.Scrolling.ScrollHeight** property, and if so,explicitly modify the scroll area height to match the height of the data items.
 
 The following example illustrates this technique:
 

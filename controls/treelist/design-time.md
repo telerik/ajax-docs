@@ -14,17 +14,17 @@ position: 3
 
 ## Smart Tag
 
-The **RadTreeList** Smart Tag provides convenient access to themost common settings of the control. You can display the Smart Tag by right clicking on theRadTreeList in the design window, and choosing the "Show Smart Tag" option from its context menu.
+The **RadTreeList** Smart Tag provides convenient access to the most common settings of the control. You can display the Smart Tag by right clicking on theRadTreeList in the design window, and choosing the "Show Smart Tag" option from its context menu.
 ![Smart tag](images/treelist_designtime1.png)
 
 ## Configure Data Source
 
-You can easily configure declarative data source by choosing Configure Data Source linkfrom the Smart Tag of the RadTreeList control:
+You can easily configure declarative data source by choosing Configure Data Source link from the Smart Tag of the RadTreeList control:
 ![Configure Data Source](images/treelist_designtime1.1.png)
 
 ## Open Configuration Wizard
 
-Open Configuration Wizard link displays RadTreeList wizard with General settingswhich lets you customize/configure the RadTreeList control.
+Open Configuration Wizard link displays RadTreeList wizard with General settings which lets you customize/configure the RadTreeList control.
 ![Open editor](images/treelist_designtime1.2.png)
 
 
@@ -58,17 +58,17 @@ The **Export Settings** section provides an easy way to configure **RadTreeList*
 The Edit Columns option allows you to set the way columns are generated and visualized.
 ![Choose columns](images/treelist_designtime6.png)
 
-**RadTreeListColumn Collection Editor** will let you display onlyspecific data fields from a given database. Moreover, you can define custom properties forthe columns that present these fields. You can use the Add button to create different columnsin the treelist. The columns will appear in the "Selected Columns" list. You can use the Upand Down buttons to re-order the columns and the Remove button to remove a column from thislist. From the "Members" list choose the columns which you want to bind (display).
+**RadTreeListColumn Collection Editor** will let you display only specific data fields from a given database. Moreover, you can define custom properties for the columns that present these fields. You can use the Add button to create different columns in the treelist. The columns will appear in the "Selected Columns" list. You can use the Up and Down buttons to re-order the columns and the Remove button to remove a column from this list. From the "Members" list choose the columns which you want to bind (display).
 ![RadTreeListColumn Collection Editor](images/treelist_designtime7.png)
 
 ## Ajax Resources
 
-* Add RadAjaxManager...- adds a RadAjaxManager component to your Web page anddisplays the RadAjaxManager Property Builder where you can configure it.
+* Add RadAjaxManager...- adds a RadAjaxManager component to your Web page and displays the RadAjaxManager Property Builder where you can configure it.
 
-* Replace ScriptManager with RadScriptManager - replaces the default ScriptManagercomponent that is added for AJAX-enabled Web sites with RadScriptManager.
+* Replace ScriptManager with RadScriptManager - replaces the default ScriptManager component that is added for AJAX-enabled Web sites with RadScriptManager.
 
 * Add RadStyleSheetManager - adds a RadStyleSheetManager to your Web page.
 
 ## Learning Center
 
-Links navigate you directly to RadTreeList examples, help, or code libraries. You canalso search the Telerik web site for a given string.
+Links navigate you directly to RadTreeList examples, help, or code libraries. You can also search the Telerik web site for a given string.

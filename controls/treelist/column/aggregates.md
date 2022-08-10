@@ -33,9 +33,9 @@ Below you can find a list of the available aggregate functions:
 
 * Sum
 
-You can set the **Aggregate** property of a **bound column** to the function that youwant to be used in calculating the aggregated value. Then just set **ShowFooter="true"** in the **RadTreeList** declaration tostart showing aggregates. A footer will appear at the bottom of each level in the treelist showing the totals from theitems in this level.
+You can set the **Aggregate** property of a **bound column** to the function that you want to be used in calculating the aggregated value. Then just set **ShowFooter="true"** in the **RadTreeList** declaration to start showing aggregates. A footer will appear at the bottom of each level in the treelist showing the totals from the items in this level.
 
-You can also specify the **FooterAggregateFormatString** property of the treelist column in orderto format the text describing the total displayed in the footer.
+You can also specify the **FooterAggregateFormatString** property of the treelist column in order to format the text describing the total displayed in the footer.
 
 Here follows example treelist declaration using the above mentioned properties:
 

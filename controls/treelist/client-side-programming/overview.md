@@ -66,7 +66,7 @@ To get reference of the RadTreeList client-side object, you can use one of the f
 | **set_selectedIndexes()** |Property which sets the selected indexes for RadTreeList.|
 | **get_selectedItems()** |Property which returns the collection of all selected items of RadTreeList.|
 | **get_clientSettings()** |Property which returns client-side objects which represent the RadTreeList client settings.|
-| **get_clientDataKeyNames()** |Property which gets a collection of the client datakey names.|
+| **get_clientDataKeyNames()** |Property which gets a collection of the client data key names.|
 | **get_currentPageIndex()** |Property which returns the current page index of the treelist.|
 | **set_currentPageIndex()** |Property which sets the current page index by firing a Page command.|
 
@@ -111,7 +111,7 @@ To get reference of the RadTreeList client-side object, you can use one of the f
 | **OnItemDropped** |This event is fired when a TreeListDataItem has been dropped after dragging.|
 | **OnItemSelecting** |This event is fired when a TreeListDataItem is about to be selected on the client. This event can be canceled.|
 | **OnItemSelected** |This event is fired when a TreeListDataItem is selected on the client.|
-| **OnKeyPress** |This event is fired (only when Keyboard Navigation is enabled) when any key is pressed inside the RadTreeList andthe treelist control is about to process this key.|
+| **OnKeyPress** |This event is fired (only when Keyboard Navigation is enabled) when any key is pressed inside the RadTreeList and the treelist control is about to process this key.|
 | **OnScroll** |This event is fired when the treelist is scrolled.|
 | **OnTreeListCreating** |This event is fired when the RadTreeList client component is initializing.|
 | **OnTreeListCreated** |This event is fired when the RadTreeList client component is initialized.|
@@ -148,7 +148,7 @@ The **TreeListDataItem** client object exposes the following properties and meth
 
 | Property | Description |
 | ------ | ------ |
-| **get_dataKeyValue(keyName)** |A property which gets value of the client datakey name for this itemby the given keyname.|
+| **get_dataKeyValue(keyName)** |A property which gets value of the client data key name for this item by the given key name.|
 | **get_expanded()** |A property which returns whether the current item is expanded.|
 | **get_isRoot()** |A property which returns whether the current item is root item for the treelist.|
 | **get_previousSibling()** |A property which gets the previous sibling of the current item.|
@@ -166,4 +166,4 @@ The **TreeListDataItem** client object exposes the following properties and meth
 
 | Method | Description |
 | ------ | ------ |
-| **fireCommand(commandName, commandArgument)** |Method which triggers specific command for the TreeListDataItem when executed.The method is called for the TreeListDataItem client instance. The method arguments are thecommand which will be processed and its corresponding arguments.|
+| **fireCommand(commandName, commandArgument)** |Method which triggers specific command for the TreeListDataItem when executed.The method is called for the TreeListDataItem client instance. The method arguments are the command which will be processed and its corresponding arguments.|
