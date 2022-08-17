@@ -71,10 +71,19 @@ To fix the above errors try the following tips:
 ````
 
 * Enable or Disable the Telerik ScriptManager CDN
-
 	```XML
   <add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />
 ```
+
+* Proxy server, Firewall, WebSense or another security/authentication program could redirect and/or wipe out the contents of the Telerik script files, and therefore to cause the Telerik is not defined error. In such scenarios where the Script Response is empty in the Network tab of DevTools or you get a status code of 307, make sure that the Telerik CDN is disabled or set the following URLs to the allowed proxy list of URLS so that these resources pass through the proxy unmodified:
+
+	```ASPX
+http://aspnet-scripts.telerikstatic.com - for the scripts;
+http://aspnet-skins.telerikstatic.com - for the skins (CSS and images);
+https://d2i2wahzwrm1n5.cloudfront.net - for the scripts;
+https://d35islomi5rx1v.cloudfront.net - for the skins (CSS and images);
+````
+	
 
 ## See Also
 * [Use Telerik Controls with ScriptManager on Login Page Throws an Error]({%slug using-controls-with-scriptmanager-login-page-error %})
