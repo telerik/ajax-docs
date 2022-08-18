@@ -9,7 +9,7 @@ position: 4
 
 # Video Onboarding
 
-All users with an active trial or commercial license have access to a [Telerik UI for ASP.NET AJAX getting started video course](https://learn.telerik.com/learn/course/internal/view/elearning/27/telerik-ui-for-blazor) available in [Telerik's Virtual Classroom](https://learn.telerik.com/learn).
+All users with an active trial or commercial license have access to a [Telerik UI for ASP.NET AJAX getting started video course](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax) available in [Telerik's Virtual Classroom](https://learn.telerik.com/learn).
 
 The training course is developed to help you get started with the Telerik UI for ASP.NET AJAX components and features. It aims to put you in the shoes of an engineer who adds new features to an existing application.
 
