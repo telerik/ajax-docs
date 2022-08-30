@@ -25,7 +25,7 @@ res_type: kb
 The article shows how to change the text of the Ok and Cancel buttons of the RadButton Confirm dialog to Yes and No.
 
 ## Solution
-The localization (OK and Cancel text change) can be achieved, by using [RadConfirm dialog]({%slug button/functionality/button-confirm-dialog#using-radconfirm%}) instead of the browser confirm one, since the browser's one cannot be modified (customized). 
+The localization (OK and Cancel text change) can be achieved, by using [RadConfirm dialog]({%slug button/functionality/button-confirm-dialog%}#using-radconfirm) instead of the browser confirm one, since the browser's one cannot be modified (customized). 
 
 You need to register RadWindowManager and override [its ConfirmTemplate]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) as shown below:
 
