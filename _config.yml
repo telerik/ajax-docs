@@ -281,6 +281,9 @@ navigation:
     "controls/filter":
         title: "Filter"
         position: 1
+    "controls/floatingactionbutton":
+        title: "FloatingActionButton"
+        position: 1
     "controls/formdecorator":
         title: "Form Decorator"
         position: 1
