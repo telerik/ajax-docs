@@ -17,11 +17,11 @@ The following article demonstrates how you can add the RadFloatingActionButton c
 
 ## Add a RadFloatingActionButton Control
 
-To add a RadSplitButton similar to the one shown in image above, follow the steps:
+To add a RadFloatingActionButton similar to the one shown in image above, follow the steps:
 
  - Add a `ScriptManager` control on a Web Form.
 
- - Use the `<telerik:RadFloatingActionButton>` tag to declare the SplitButton.
+ - Use the `<telerik:RadFloatingActionButton>` tag to declare the FloatingActionButton.
 
  - Use the exposed control properties and the available inner tags to set the desired control structure fine-tune its appearance:
 
@@ -33,7 +33,7 @@ You can set the desired button text via the `Text` property and specify a built-
 </telerik:RadFloatingActionButton>
 ````
 
-As a next step, you can check out the [Functionality]({%slug floatingactionbutton/functionality/alignment%}) of the RadSplitButton.
+As a next step, you can check out the [Functionality]({%slug floatingactionbutton/functionality/alignment%}) of the FloatingActionButton.
 
 ## See Also
 

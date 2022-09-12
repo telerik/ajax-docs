@@ -34,7 +34,7 @@ The RadFloatingActionButton control can be styled by setting a desired built-in 
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
-Go ahead with the [Getting Started]({%slug floatingactionbutton/getting-started%}) article to learn more about Breadcrumb Control. Also, you can check out the [RadFloatingActionButton online demos](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/examples/overview/defaultcs.aspx) to see it in action.
+Go ahead with the [Getting Started]({%slug floatingactionbutton/getting-started%}) article to learn more about RadFloatingActionButton Control. Also, you can check out the [RadFloatingActionButton online demos](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/examples/overview/defaultcs.aspx) to see it in action.
 
 
 # See Also

@@ -74,7 +74,6 @@ Test the complete example in our live demo on customizing the [FloatingActionBut
 
 # See Also
 
- * [FloatingActionButton Templates](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/templates/defaultcs.aspx)
+ * [FloatingActionButton Templates demo](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/templates/defaultcs.aspx)
  * [Kendo UI templates](https://docs.telerik.com/kendo-ui/framework/templates/overview)
 
- 

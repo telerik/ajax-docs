@@ -51,10 +51,6 @@ The following values are available for the themeColor option:
  - Success
  - Warning
  - Error
- - Dark
- - Light
- - Inverse
- - None
 
 The following example demonstrates sample configuration of the `Shape`, `Size`,  and `ThemeColor` properties:
 
