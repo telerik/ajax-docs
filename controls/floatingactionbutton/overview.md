@@ -18,7 +18,7 @@ RadFloatingActionButton is available as of R3 2022 and it is a server-side WebFo
 
 ## Key Features
 
-* [Built-in accessibility, WAI-ARIA and RTL support]({%slug floatingactionbutton/accessibility-and-internationalization/overview%})
+* [Built-in accessibility, WAI-ARIA and RTL support]({%slug floatingactionbutton/accessibility-and-internationalization/right-to-left-support%})
 * [Flexible positioning and alignment]({%slug floatingactionbutton/functionality/alignment%})
 * [Items]({%slug floatingactionbutton/functionality/items%})
 * [Support for ClientItemTemplate]({%slug floatingactionbutton/functionality/items%}#clienttemplate)

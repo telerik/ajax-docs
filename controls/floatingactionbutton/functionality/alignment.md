@@ -11,7 +11,7 @@ position: 1
 
 The RadFloatingActionButton exposes the `Align` and `PositionMode` properties and the `AlignOffsetSettings` inner tag as configuration options. These three options work together and allow you to position the FloatingActionButton component precisely as per the application requirements.
 
-[Alignment Demo for the RadFloatingActionButton](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/alignment/defaultcs.aspx)
+Test the different positioning options in the **[Alignment Demo for the RadFloatingActionButton](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/alignment/defaultcs.aspx)**
 
 ## Align
 

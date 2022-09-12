@@ -19,6 +19,7 @@ For a list with the server-side properties and methods of the control, see the [
 ## Create a RadFloatingActionButton in the Code-behind:
 
 ````ASPX
+<asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
 
 ````C#

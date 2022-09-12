@@ -15,7 +15,7 @@ The RadFloatingActionButton exposes the `Shape`, `Size`,  and `ThemeColor` prope
  - `Shape`— configures the shape of the component.
  - `ThemeColor`— configures what color will be applied to the component.
 
-[Appearance Demo for the RadFloatingActionButton](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/appearance/defaultcs.aspx)
+Test the various settings in the **[Appearance Demo for the RadFloatingActionButton](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/appearance/defaultcs.aspx)**
 
 ## Size
 
