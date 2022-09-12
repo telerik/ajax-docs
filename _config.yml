@@ -2025,6 +2025,7 @@ intro_columns:
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
       "Drawer": "drawer/overview"
+      "FloatingActionButton": "floatingactionbutton/overview"
       "ImageButton": "imagebutton/overview"
       "LinkButton": "linkbutton/overview"
       "Menu": "menu/overview"
