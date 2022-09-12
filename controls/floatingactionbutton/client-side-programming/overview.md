@@ -8,7 +8,6 @@ published: True
 position: 0
 ---
 
-# Client Side Programming Overview
 
 # RadFloatingActionButton object
 
