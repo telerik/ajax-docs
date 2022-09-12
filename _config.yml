@@ -281,6 +281,9 @@ navigation:
     "controls/filter":
         title: "Filter"
         position: 1
+    "controls/floatingactionbutton":
+        title: "FloatingActionButton"
+        position: 1
     "controls/formdecorator":
         title: "Form Decorator"
         position: 1
@@ -2022,6 +2025,7 @@ intro_columns:
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
       "Drawer": "drawer/overview"
+      "FloatingActionButton": "floatingactionbutton/overview"
       "ImageButton": "imagebutton/overview"
       "LinkButton": "linkbutton/overview"
       "Menu": "menu/overview"
