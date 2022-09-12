@@ -56,11 +56,33 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 >caption Example 2: Get the data associated with the clicked item
 
-````ASP.NET
+````ASPX
 <script>
-function dialItemClicked(eventArguments) {
-    alert('"' + eventArguments.item.label +'" item Clicked.');
-}
+    function floatingButtonExpanded(sender, args) {
+        alert("Floating button Expanded!")
+    }
+    function floatingButtonCollapsed(sender, args) {
+        alert("Floating button Collapsed!")
+    }
+</script>
+<telerik:RadFloatingActionButton runat="server" Size="Large" ID="RadFloatingActionButton1" Icon="share" PositionMode="Absolute" Align="BottomCenter">
+    <ClientEvents OnExpand="floatingButtonExpanded" OnCollapse="floatingButtonCollapsed" />
+    <AlignOffsetSettings X="0" Y="100" />
+    <Items>
+        <telerik:FloatingActionButtonItem Label="Download" Icon="download"></telerik:FloatingActionButtonItem>
+        <telerik:FloatingActionButtonItem Label="Print" Icon="print"></telerik:FloatingActionButtonItem>
+        <telerik:FloatingActionButtonItem Label="Email" Icon="email"></telerik:FloatingActionButtonItem>
+    </Items>
+</telerik:RadFloatingActionButton>
+````
+
+>caption Example 3: Get the data associated with the clicked item
+
+````ASPX
+<script>
+    function dialItemClicked(eventArguments) {
+        alert('"' + eventArguments.item.label +'" item Clicked.');
+    }
 </script>
 <telerik:RadFloatingActionButton runat="server" Size="Large" ID="RadFloatingActionButton1" Icon="share" PositionMode="Absolute" Align="BottomCenter">
     <AlignOffsetSettings X="0" Y="100" />
