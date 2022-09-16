@@ -44,6 +44,7 @@ In addition to using the Kendo methods directly, you can also use their wrappers
 | next         |            |             | Selects the step which is immediately after the currently selected step.  |
 | previous     |            |             | Selects the step which is immediately before the currently selected step. |
 | get_selected |            | object      | Gets the currently selected Step                                          |
+| set_selected | number     |             | Sets the currently selected Step by its index                             |
 | get_steps    |            | array       | Gets array of all Steps                                                   |
 
 
