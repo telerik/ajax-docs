@@ -9,15 +9,19 @@ res_type: kb
 
 ## Description
 
+Editing records using RadComboBox with [CheckBox Support]({%slug combobox/functionality/checkbox-support%})
+
+![](images/grid-edit-columns-with-combobox-checkboxes-overview.png)
+
 Normally, editing the RadGrid using a ComboBox is a straightforward process. You can see an example in the [Combo in Grid](https://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/comboingrid/defaultcs.aspx) online demo.
 
 However, when the [CheckBoxes]({%slug combobox/functionality/checkbox-support%}) are enabled for the ComboBox, the SelectedItem or SelectedValue will no longer be relevant as the CheckBox Functionality relies on the Combo's CheckedItems collection to track the changes.
 
 ## Solution
 
-In order to have a Grid cell with multiple values, the database field should contain a single string with the all the values separated by a coma ( **,** ), similar to the approach in the [Edit Grid columns with MultiSelect]({%slug grid-edit-columns-with-multiselect%}) article. 
+In order to have a Grid cell with multiple values, the database field should contain a single string with all the values separated by a coma " **,** ", similar to the approach in the [Edit Grid columns with MultiSelect]({%slug grid-edit-columns-with-multiselect%}) article. 
 
->note Using coma ( **,** ) to separate items is just a personal preference. You may use any other character that suits you. If you change that, be sure to adjust the code that will split the items respectively.
+>note Using coma " **,** " to separate items is just a personal preference. You may use any other character that suits you. If you change that, be sure to adjust the code that will split the items respectively.
 
 
 >caption RadGrid Markup Code
