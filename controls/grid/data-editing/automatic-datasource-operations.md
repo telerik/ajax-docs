@@ -218,6 +218,5 @@ Automatic operations through the **DataSource** control are not supported when y
 
 3. Implement the data-editing manually. In the code of the **WebUserControl**, write code to extract the values from all controls (such as text boxes and other input controls). You can use **DataAdapters** to save the changes to your database. You can also execute the **DataSourceView.Update** method as described in the ASP.NET documentation:
 
-	* [https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx)
-
-	* [https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.update.aspx)
+	- [ObjectDataSourceView Class](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.objectdatasourceview)
+	- [ObjectDataSourceView.Update(IDictionary, IDictionary, IDictionary) Method]([asdasdsasadasd](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.objectdatasourceview.update))
