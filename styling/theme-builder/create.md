@@ -1,52 +1,41 @@
 ---
-title: Create
-page_title: Create
-description: Check our Web Forms article about Create.
+title: Create a Theme
+page_title: Create a Theme
+description: Learn how to use Progress ThemeBuilder for ASP.NET AJAX to create unique and stylish skins for the UI components.
 slug: theme-builder/create
 tags: create
 published: True
 position: 1
 ---
 
-# Create a Theme
+# Creating a Theme
 
-The **Sass Theme Builder** for Telerik® UI for ASP.NET AJAX is a convenient customization tool providing the ability and power to create your own custom **Lightweight** skins quickly and efficiently. This can be easily achieved without the necessity of understanding the underlying HTML and CSS structure of the controls.
+[Progress ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/aspnet-ajax) is a convenient customization tool that allows you to create your own custom [lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) skins quickly and efficiently. You can achieve impressive results without the necessity of understanding the underlying HTML and CSS structure of the controls.
 
-## Get familiar with the Interface
+>caption The following image shows the main ThemeBuilder interface.
 
->caption The following figure describes the usage of the Theme Builder's interface.
-
-![Interface](images/theme-builder-create-interface.png)
-
-1. **Swatches** column contains various predefined pallettes applied on all selected controls.
-2. **Theme Colors** column provides the applicable color customization options.
-3. **Controls** provides you with the ability to show/hide controls from the Theme Preview.
-4. **Download** button is used after customization is finalized. It downloads the archive holding the generated stylesheet files. Once the button is clicked, you will be prompted with a dialog where you can name your skin.
+![The main ThemeBuilder screen](images/themebuilder-new-theme-screen.png)
 
 ## Creating a New Theme
 
-To get started, open the Theme Builder at [https://themebuilder.telerik.com/aspnet-ajax](https://themebuilder.telerik.com/aspnet-ajax) and click on **Start Theming**.
-
-1. Select one of the existing Skins to use as a base
-2. Select the controls which you intend to style
-3. Click **Create**.
+1. Open [ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax).
+1. Select one of the five base themes.
+1. Select **Start Theming**.
+1. To reduce the number of the rendered components, open the **SELECT COMPONENTS** screen and check only the UI components that you need.
 
 >caption The following animated gif is an example showing how to get started
 
-![Start Theming](images/theme-builder-create-start-theming.gif)
+![Start Theming](images/themebuilder-create-theme.gif)
 
-## Customize the Colors
+## Styling Your Theme
 
->caption Customize Colors: Applying the desired colors is pretty straightforward. The **Theme Builder** provides Color pickers for customizing the appearance of the controls and the changes can be observed on the fly.
+To customize a theme, use any of the following ThemeBuilder features:
 
-![Changing Colors](images/theme-builder-create-changing-colors.gif)
+* Built-in color swatches&mdash;The color swatches are color variations of the base themes. The swatches use the same variables as their base theme but with different color values. To open the color swatches menu, use the dropdown button with the fill drip icon ![The fill drip icon in ThemeBuilder](images/themebuilder-fill-drip.png).
 
+* Color pickers&mdash;All color variables provide color pickers that you can use to set the desired values.
 
-## Color Swatches
-
->caption Color Swatches are a set of pre-defined color combinations that can be used right away or even customized if needed.
-
-![Color Swatches](images/theme-builder-create-color-swatches.gif)
+* Manual updates of the component elements&mdash;You can directly enter the desired values into the input field of the selected variable.
 
 ## Next Steps
 Once you have chosen the desired colors for your theme, you need to [Download and use it in your project]({%slug theme-builder/download-and-apply%})

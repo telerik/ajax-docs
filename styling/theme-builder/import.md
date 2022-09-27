@@ -1,7 +1,7 @@
 ---
-title: Import
-page_title: Import
-description: Check our Web Forms article about Import.
+title: Importing a Theme
+page_title: Importing a Theme
+description: Learn how to import a custom theme in ThemeBuilder and update the styles of your Web Forms components.
 slug: theme-builder/import
 tags: import,theme
 published: True
@@ -10,23 +10,20 @@ position: 3
 
 # Importing a Theme
 
-The **Sass Theme Builder** tool provides you with the ability to upload and import a theme that you previously created,so you can modify it further. To get started, open the [Sass ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax) click on *Import Theme* option, then click on *Select Files*.
+[Progress ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/aspnet-ajax) allows you to upload and import a theme that you previously created so you can modify it further. 
 
->note You must upload the **variables.scss** file.
->
-> If you had used the previous version of the Theme Builder, you must upload both **ScssPrimitives.json** and **UsedControls.json** files
+1. Open [ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax).
 
->caption Click on Import Theme
+1. Select **Import Theme**.
 
-![Themebuilder import existing theme](images/theme-builder-overview.png)
+   <img src="images/themebuilder-import-theme.png" alt="Import Theme button in ThemeBuilder" width="145"/>
 
->caption Click on Select files
+1. Provide the `theme-name.json` file that is included in the downloaded ZIP package with the theme.
 
-![Themebuilder import existing theme](images/theme-builder-import-theme.png)
-
-Once you have uploaded the theme you can customize it as described in the [Create]({%slug theme-builder/create%}) article.
+Once you have uploaded the theme, you can customize it as described in the [Creating a Theme]({%slug theme-builder/create%}) article.
 
 ## See Also
+
   * [Read about Sass ThemeBuilder]({%slug theme-builder/overview%})
   * [Open the Sass ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax)
   * [Create a new skin]({%slug theme-builder/create%})
