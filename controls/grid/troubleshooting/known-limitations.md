@@ -18,7 +18,41 @@ Some functionalities are not supported when the **EnableViewState** property of 
 
 ## Grouping
 
+### Aggregates only show results for the items on the current Page
+
 When paging is enabled and the last group continues on the next pages, the group aggregates will calculate only the content of the visible items on the current page, and not of the total group records.
+
+### Edit Form is not shown when GroupsDefaultExpanded is set to False
+  
+A possible workaround is to set the `GroupsDefaultExpanded` property to `True` (_default_: `True`) and Collapse all the Groups programmatically at the Initial Load.
+
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+	if (!Page.IsPostBack)
+	{
+		RadGrid grid = (RadGrid)sender;
+		List<GridGroupHeaderItem> groupHeaderItems = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast<GridGroupHeaderItem>().ToList();
+
+		foreach (GridGroupHeaderItem groupHeaderItem in groupHeaderItems)
+		{
+			groupHeaderItem.Expanded = false;
+		}
+	}
+}
+````
+````VB	     
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+	If Not Page.IsPostBack Then
+		Dim grid As RadGrid = CType(sender, RadGrid)
+		Dim grpupHeaderItems As List(Of GridGroupHeaderItem) = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast(Of GridGroupHeaderItem)().ToList()
+
+		For Each groupHeaderItem As GridGroupHeaderItem In grpupHeaderItems
+			groupHeaderItem.Expanded = False
+		Next
+	End If
+End Sub
+````
 
 ## Paging
 
@@ -139,38 +173,6 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
 Protected Sub RadGrid1_ColumnCreated(sender As Object, e As GridColumnCreatedEventArgs)
     If TypeOf e.Column Is GridBoundColumn Then
         e.Column.HeaderText = CType(e.Column, GridBoundColumn).DataField
-    End If
-End Sub
-````
-
-### Edit Form is not shown when GroupsDefaultExpanded is set to False
-
-A possible workaround is to set the `GroupsDefaultExpanded` property to `True` (_default_: `True`) and Collapse all the Groups programmatically at the Initial Load.
-
-````C#
-protected void RadGrid1_PreRender(object sender, EventArgs e)
-{
-    if (!Page.IsPostBack)
-    {
-        RadGrid grid = (RadGrid)sender;
-        List<GridGroupHeaderItem> groupHeaderItems = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast<GridGroupHeaderItem>().ToList();
-
-        foreach (GridGroupHeaderItem groupHeaderItem in groupHeaderItems)
-        {
-            groupHeaderItem.Expanded = false;
-        }
-    }
-}
-````
-````VB	     
-Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
-    If Not Page.IsPostBack Then
-        Dim grid As RadGrid = CType(sender, RadGrid)
-        Dim grpupHeaderItems As List(Of GridGroupHeaderItem) = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast(Of GridGroupHeaderItem)().ToList()
-
-        For Each groupHeaderItem As GridGroupHeaderItem In grpupHeaderItems
-            groupHeaderItem.Expanded = False
-        Next
     End If
 End Sub
 ````
