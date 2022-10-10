@@ -30,14 +30,13 @@ Currently, using **Popup Edit Form** when both grouping and scrolling are enable
 
 ## Filtering
 
-* **GridDropDownColumn** - RadGrid does not include any support for filtering by **ListTextField**. This limitation is because the filtering mechanism relies on the **DataField** of the filtered column and for **GridDropDownColumn** this property specifies the mapping field in the drop-down source.
+- **GridDropDownColumn** - RadGrid does not include any support for filtering by **ListTextField**. This limitation is because the filtering mechanism relies on the **DataField** of the filtered column and for **GridDropDownColumn** this property specifies the mapping field in the drop-down source.
 
-* **MultiColumn Headers**
+## MultiColumn Headers
 
-	The features below are not supported with multicolumn headers:
-	
-	* Frozen Columns
-	* Show/Hide on the client
+The features below are not supported with multicolumn headers:	
+- Frozen Columns
+- Show/Hide on the client
 
 ## Dragging on Mobile
 
@@ -48,18 +47,12 @@ One way to distinguish between scrolling and row drag-drop on mobile devices is 
 ## Client Side Data-binding
 
 A grid bound using client side data-binding improves the performance of RadGrid. However, there are certain limitations, due to this client side model. These are listed below:
-
-* **Data editing and grid editors** - since the control is bound on the client, and no subsequent trips are made to the server, the default editors cannot be rendered, and shown, which is the standard behavior, when the grid is bound on the server.
-
-* **Hierarchical structures** - with the client side data binding approach for the grid, there is no out-of-the-box support for hierarchical structures.
-
-* **Grouping** with client-side binding is not supported. Server binding only should be used in order to achieve grouping.
-
-* **Sorting/Filter expressions** - with the standard server side data-binding of the grid control, one could declare/set filter and sorting expressions, which would then be applied to the control - for example declaratively in the aspx markup, or dynamically, in the code-behind section. When using client side data-binding, the same logic can be executed, but in a slightly different manner. The filter/sorting expression can be passed to the relevant page method, which would in turn use it to return the proper data.
-
-* **Exporting** - a grid must be bound on the server for exporting to work. With client-side binding you will get an empty file.
-
-* **Templates** - the *NestedViewTemplate* and *DetailItemTemplate* are server templates and are not supported with client-side binding. 
+  - **Data editing and grid editors** - since the control is bound on the client, and no subsequent trips are made to the server, the default editors cannot be rendered, and shown, which is the standard behavior, when the grid is bound on the server.
+  - **Hierarchical structures** - with the client side data binding approach for the grid, there is no out-of-the-box support for hierarchical structures.
+  - **Grouping** with client-side binding is not supported. Server binding only should be used in order to achieve grouping.
+  - **Sorting/Filter expressions** - with the standard server side data-binding of the grid control, one could declare/set filter and sorting expressions, which would then be applied to the control - for example declaratively in the aspx markup, or dynamically, in the code-behind section. When using client side data-binding, the same logic can be executed, but in a slightly different manner. The filter/sorting expression can be passed to the relevant page method, which would in turn use it to return the proper data.
+  - **Exporting** - a grid must be bound on the server for exporting to work. With client-side binding you will get an empty file.
+  - **Templates** - the *NestedViewTemplate* and *DetailItemTemplate* are server templates and are not supported with client-side binding. 
 
 
 ## Model Binding
@@ -71,17 +64,12 @@ Model binding is not supported when the **ViewState** of the page is disabled. I
 There are several limitations that you should have in mind. They are caused by the complexity and specifics of the frozen columns feature, which is implemented by means of hiding and showing columns, instead of actually scrolling them.
 
 
-* **Resizing** with frozen column is not supported.
-
-* **Having hidden columns** (with **Display** property set to **false**) or hiding/showing columns and frozen columns are not supported at the same time. Hidden columns reappear after scrolling.
-
-* **Merged headers** with frozen columns are not supported.
-
-* When frozen columns are used, **tabbing between the textboxes** in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific `<div>` with JavaScript. This `<div>` has a client ID of `<%=RadGridInstance.ClientID%>**_Frozen**`. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
-
-* **OnScroll** client-side event does not fire when horizontal scroll is used for scrolling.
-
-* Frozen columns are not supported for **detail tables** of hierarchy grid.
+- **Resizing** with frozen column is not supported.
+- **Having hidden columns** (with **Display** property set to **false**) or hiding/showing columns and frozen columns are not supported at the same time. Hidden columns reappear after scrolling.
+- **Merged headers** with frozen columns are not supported.
+- When frozen columns are used, **tabbing between the textboxes** in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific `<div>` with JavaScript. This `<div>` has a client ID of `<%=RadGridInstance.ClientID%>**_Frozen**`. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
+- **OnScroll** client-side event does not fire when horizontal scroll is used for scrolling.
+- Frozen columns are not supported for **detail tables** of hierarchy grid.
 
 ## Exporting
 
@@ -89,59 +77,44 @@ There are some limitations in the implementation of the export engine. The secti
 
 ### PDF
 
-* **OnGridExporting** - this event is usable in many scenarios when you want to modify the output file - for example you may want to add some custom information above RadGrid or when you want to remove/add/replace parts of the content. The only limitation applies to the PDF export because by the time the **OnGridExporting** event is raised, the PDF is already generated. For more information, please visit the dedicated [PDF format]({%slug grid/functionality/exporting/pdf-export%}) topic which introduces the **OnPdfExporting** event that is designed specifically for this format.
-
-* Image transparency
-
-* Right-to-left fonts
-
-* Nested DIV elements with absolute position
-
-* Nested DIV elements with specified width or height
-
-* Automatic text clipping
-
-* Client-side binding
-
-* Medium trust
+- **OnGridExporting** - this event is usable in many scenarios when you want to modify the output file - for example you may want to add some custom information above RadGrid or when you want to remove/add/replace parts of the content. The only limitation applies to the PDF export because by the time the **OnGridExporting** event is raised, the PDF is already generated. For more information, please visit the dedicated [PDF format]({%slug grid/functionality/exporting/pdf-export%}) topic which introduces the **OnPdfExporting** event that is designed specifically for this format.
+- Image transparency
+- Right-to-left fonts
+- Nested DIV elements with absolute position
+- Nested DIV elements with specified width or height
+- Automatic text clipping
+- Client-side binding
+- Medium trust
 
 ### ExcelML
 
-* When exporting RadGrid with grouping, all groups will be expanded regardless of their actual state.
+- When exporting RadGrid with grouping, all groups will be expanded regardless of their actual state.
 
 ### Biff
 
-* Hierarchy
-
-* Grouping
-
-* Automatic column/row resizing
-
-* Active links
+- Hierarchy
+- Grouping
+- Automatic column/row resizing
+- Active links
 
 ### HTML-Based
 
-* Embedded images are not supported
-
-* Exporting invisible RadGrid - to avoid problems with missing content, you should temporarily show RadGrid before export
-
-* **OpenOffice**, **AbiWord**, etc. don't support this standard so they won't show the files properly
-
-* In theory all **Microsoft Office** versions from **2000** up might work, although we don't guarantee that any version, prior to **2003** will display the **Office HTML** formats as expected
+- Embedded images are not supported
+- Exporting invisible RadGrid - to avoid problems with missing content, you should temporarily show RadGrid before export
+- **OpenOffice**, **AbiWord**, etc. don't support this standard so they won't show the files properly
+- In theory all **Microsoft Office** versions from **2000** up might work, although we don't guarantee that any version, prior to **2003** will display the **Office HTML** formats as expected
 
 ### Excel Format (HTML-Based)
 
 It is expected to receive the following warning when opening the generated **xls** file in **Microsoft Office 2007**:
 
-* The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now? *
+- The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now? *
 
 ### CSV
 
-* Hierarchical structure
-
-* Grouping
-
-* Exporting invisible RadGrid
+- Hierarchical structure
+- Grouping
+- Exporting invisible RadGrid
 
 ## Other
 
@@ -156,48 +129,53 @@ When changing the **HeaderText** for automatically generated columns you should 
 ````C#
 protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
 {
-	if (e.Column is GridBoundColumn) {
-		e.Column.HeaderText = ((GridBoundColumn)e.Column).DataField;
-	}
+    if (e.Column is GridBoundColumn)
+    {
+        e.Column.HeaderText = ((GridBoundColumn)e.Column).DataField;
+    }
 }
 ````
 ````VB
-Protected Sub RadGrid1_ColumnCreated(sender As Object, e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
+Protected Sub RadGrid1_ColumnCreated(sender As Object, e As GridColumnCreatedEventArgs)
     If TypeOf e.Column Is GridBoundColumn Then
-        e.Column.HeaderText = DirectCast(e.Column, GridBoundColumn).DataField
+        e.Column.HeaderText = CType(e.Column, GridBoundColumn).DataField
     End If
 End Sub
 ````
 
-### Edit Form Is Not Shown WHen GroupsDefaultExpanded Is false
+### Edit Form is not shown when GroupsDefaultExpanded is set to False
 
-A possible workaround is presented below:
+A possible workaround is to set the `GroupsDefaultExpanded` property to `True` (_default_: `True`) and Collapse all the Groups programmatically at the Initial Load.
 
 ````C#
-void RadGrid1_PreRender(object sender, EventArgs e)
+protected void RadGrid1_PreRender(object sender, EventArgs e)
 {
     if (!Page.IsPostBack)
+    {
+        RadGrid grid = (RadGrid)sender;
+        List<GridGroupHeaderItem> groupHeaderItems = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast<GridGroupHeaderItem>().ToList();
+
+        foreach (GridGroupHeaderItem groupHeaderItem in groupHeaderItems)
         {
-            List<GridGroupHeaderItem> items = RadGrid1.MasterTableView.GetItems(GridItemType.GroupHeader).Cast<GridGroupHeaderItem>().ToList();
-            foreach (var item in items)
-            {
-                item.Expanded = false;
-            }
+            groupHeaderItem.Expanded = false;
         }
+    }
 }
 ````
 ````VB	     
-Private Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
-	If Not Page.IsPostBack Then
-		Dim items As List(Of GridGroupHeaderItem) = RadGrid1.MasterTableView.GetItems(GridItemType.GroupHeader).Cast(Of GridGroupHeaderItem)().ToList()
-		For Each item As var In items
-			item.Expanded = False
-		Next
-	End If
-End Sub		
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+    If Not Page.IsPostBack Then
+        Dim grid As RadGrid = CType(sender, RadGrid)
+        Dim grpupHeaderItems As List(Of GridGroupHeaderItem) = grid.MasterTableView.GetItems(GridItemType.GroupHeader).Cast(Of GridGroupHeaderItem)().ToList()
+
+        For Each groupHeaderItem As GridGroupHeaderItem In grpupHeaderItems
+            groupHeaderItem.Expanded = False
+        Next
+    End If
+End Sub
 ````
 
 ## See Also
 
- * [Known Reasons for Error Messages]({% slug grid/troubleshooting/known-reasons-for-error-messages%})
-
+- [Known Reasons for Error Messages]({% slug grid/troubleshooting/known-reasons-for-error-messages%})
+ 
