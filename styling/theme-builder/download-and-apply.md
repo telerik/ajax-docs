@@ -14,9 +14,9 @@ Once you [create a custom skin]({%slug theme-builder/create%}), you need to down
 
 ## Downloading
 
-When you complete your modifications and the theme is ready, select **Export**&mdash; type in the desired theme name in the popup and click OK. This will download a ZIP archive with the theme.
+When you complete your modifications and the theme is ready, select **Export**, enter a name for your theme in the popup, and click **OK**. This will download a ZIP archive with the theme.
 
->tip To further customize the theme in the future, export the theme in its current state. You can [import]({%slug theme-builder/import%}) the theme and continue where you left off.
+>tip To further customize the theme in the future, export the theme in its current state. You can [import]({%slug theme-builder/import%}) the theme anytime and continue where you left off.
 
 ![Export custom theme](images/themebuilder-export-theme.gif)
 
