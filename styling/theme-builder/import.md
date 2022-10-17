@@ -32,7 +32,7 @@ If you don't have a JSON file and your custom theme targets specific components,
 1. Paste the variables from your SCSS file.
 1. Download the theme. 
 
-As a result, the JSON file is generated. The structure of the JSON file is defined in the [kendo-swatch JSON schema](https://github.com/telerik/kendo-theme-tasks/blob/develop/lib/schemas/kendo-swatch.json) part of the [kendo-theme-tasks package](https://github.com/telerik/kendo-theme-tasks).
+As a result, the JSON file is generated.
 
 When you edit the JSON file, consider the following specifics:
 
@@ -42,7 +42,7 @@ When you edit the JSON file, consider the following specifics:
 * `groups`&mdash;The list of variables that will be customized in the Theme Builder, organized in groups.
 * `key` and `value` variables&mdash;The `key` of the variable outputs its name. The `value` of the variable outputs its value. 
 
-For example:
+>caption Sample comparison of a ThemeBuilder variable in the `.json` and `.scss` file
 
 ````json
 "text-color": {
@@ -52,12 +52,10 @@ For example:
 	"type": "color"
 }
 ````
-
-outputs:
-
 ````scss
 $text-color: #5f5f5f;
 ````
+
 
 The following example demonstrates the JSON file for the **Default**, **Bootstrap**, **Silk**, and **Glow** base themes.
 ````json
