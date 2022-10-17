@@ -1,6 +1,6 @@
 ---
 title: How to know if the user checked the "Overwrite if file exists? checkbox", in RadFileExplorer's ItemCommand event?
-description: How to know if the user checked the "Overwrite if file exists? checkbox", in RadFileExplorer's ItemCommand event?. Check it now!
+description: Identify when the user checked the 'Overwrite if file exists? checkbox' in RadFileExplorer.
 type: how-to
 page_title: How to know if the user checked the "Overwrite if file exists? checkbox", in RadFileExplorer's ItemCommand event?
 slug: fileexplorer-how-to-know-in-itemcommand-if-the-user-checked-the-overwrite-if-file-exists-checkbox

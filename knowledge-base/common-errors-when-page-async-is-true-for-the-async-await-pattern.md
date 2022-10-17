@@ -1,6 +1,6 @@
 ---
 title: Errors when Page Async="true" for the async-await pattern
-description: Errors when Page Async="true" for the async-await pattern. Check it now!
+description: Common errors when Page Async='true'. See how to use the async-await pattern with Telerik ASP.NET AJAX controls.
 type: how-to
 page_title: Errors when Page Async="true" for the async-await pattern
 slug: common-errors-when-page-async-is-true-for-the-async-await-pattern

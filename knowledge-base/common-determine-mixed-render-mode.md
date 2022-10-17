@@ -1,6 +1,6 @@
 ---
 title: Determine the render mode of all Telerik controls and catch mixed render mode issues
-description: Inspect the page for "mixed render mode" issue. This would improve your debugging experience and let you easily identify the controls with the unexpected RenderMode.
+description: Inspect the page for 'mixed render mode' issue and identify the controls with unexpected RenderMode.
 type: troubleshooting
 page_title: Determine the render mode of all Telerik controls and catch mixed render mode issues
 slug: common-determine-mixed-render-mode

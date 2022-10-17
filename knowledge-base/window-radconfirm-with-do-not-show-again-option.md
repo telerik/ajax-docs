@@ -1,6 +1,6 @@
 ---
 title: RadConfirm with "Do not show again" option
-description: RadWindow RadConfirm with "Do not show again" option. Check it now!
+description: How to implement 'Do not show again' option in RadConfirm?
 type: how-to
 page_title: RadWindow RadConfirm with "Do not show again" option
 slug: window-radconfirm-with-do-not-show-again-option
