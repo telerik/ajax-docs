@@ -58,7 +58,7 @@ navigation:
         title: "Visual Stylebuilder"
         position: 20
     "styling/theme-builder":
-        title: "Theme Builder"
+        title: "ThemeBuilder"
         position: 30
     "integration/jquery":
         title: "jQuery"
