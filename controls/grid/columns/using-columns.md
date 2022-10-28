@@ -57,9 +57,9 @@ When using a bound column populated with values of type **System.Double**, the c
 
 The following MSDN articals provide additional information about formatting, format strings, and DateTime formatting:
 
-* [Formatting Overview](https://msdn2.microsoft.com/en-us/library/26etazsy(vs.71).aspx)
+* [Formatting Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)
 
-* [Date and Time Format Strings](https://msdn2.microsoft.com/en-us/library/97x6twsz(vs.71).aspx)
+* [Date and Time Format Strings](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)
 
 ## Footer
 
