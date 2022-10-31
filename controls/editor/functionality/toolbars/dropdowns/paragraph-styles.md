@@ -1,5 +1,5 @@
 ---
-title: Paragraph Styles
+title: Paragraph (FormatBlock) Styles
 page_title: Paragraph Styles - RadEditor
 description: Check our Web Forms article about Paragraph Styles.
 slug: editor/functionality/toolbars/dropdowns/paragraph-styles
@@ -8,22 +8,27 @@ published: True
 position: 3
 ---
 
-# Paragraph Styles
+# Paragraph Styles (FormatBlock) dropdown
 
 The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the **Paragraphs** collection. You can add to the **Paragraphs** collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns004.png)
+![](images/editor-dropdowns004.png "FormatBlock tool")
 
 ## Using the Paragraphs Collection Declaratively
 
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" ID="Radeditor1" runat="server" Skin="WebBlue">
-   <Paragraphs>
+	<Tools>
+	<telerik:EditorToolGroup>
+	    <telerik:EditorDropDown Name="FormatBlock" />
+	</telerik:EditorToolGroup>
+	</Tools>
+	<Paragraphs>
 	   <telerik:EditorParagraph Title="Normal" Tag="<p>" />
 	   <telerik:EditorParagraph Title="Heading 1" Tag="<H1>" />
 	   <telerik:EditorParagraph Title="Heading 2" Tag="<H2>" />
 	   <telerik:EditorParagraph Title="Heading 3" Tag="<H3>" />
-   </Paragraphs>
+	</Paragraphs>
 </telerik:RadEditor> 
 ````
 
