@@ -9,7 +9,7 @@ published: True
 position: 0
 ---
 
-# AjaxManager Overview
+# WebForms AjaxManager Overview
 
 The Telerik UI for ASP.NET AjaxManager enables you to rapidly configure practical and complex AJAX solutions in your project by enabling you to AJAX-enable all controls that normally work with postbacks. The control boosts the performance of Ajaxified applications and allows server-side operations to acquire similar responsiveness to client-side functions. You can add the AjaxManager to virtually any web application that requires the replacement of ordinary postbacks with AJAX requests. 
 
@@ -17,14 +17,14 @@ The AjaxManager allows you to visually and, in Visual Studio design-time, codele
 
 The following example shows an AjaxManager in action with applied Grid paging and a Telerik AjaxLoadingPanel for visual indication.
 
-![RadAjaxManager in Action](images/AJAXinAction.gif)
+![WebForms AjaxManager general usage](images/AJAXinAction.gif)
 
 
 ## Logic and Capabilities
 
 The visual designer of the AjaxManager, which is accessible in Visual Studio, enables you to handle some complex update scenarios. The following image shows an example with AJAX-enabled controls. 
 
-![Update schema](images/ControlsUpdate.png)
+![WebForms AjaxManager Update schema](images/ControlsUpdate.png)
 
 * A single control updates one or more controls with an AJAX request. In the image, Control 1 updates Control 2 and Control 3.
 
@@ -63,3 +63,6 @@ The visual designer of the AjaxManager, which is accessible in Visual Studio, en
 * [Advantages of the AjaxManager]({% slug ajaxmanager/getting-started/radajax-advantages %})
 * [Known Limitations of the AjaxManager]({% slug ajaxmanager/how-to/frequently-asked-questions %})
 * [Frequently Asked Questions about the AjaxManager]({% slug ajaxmanager/troubleshooting/known-limitations %})
+* [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+
+ 

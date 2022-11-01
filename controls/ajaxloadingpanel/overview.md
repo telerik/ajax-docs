@@ -9,7 +9,7 @@ published: True
 position: 0
 ---
 
-# RadAjaxLoadingPanel Overview
+# WebForms AjaxLoadingPanel Overview
 
 
 
@@ -98,3 +98,6 @@ function pageLoad(app, args) {
  * [Demo: AJAX Loading Panel](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/LoadingImages/DefaultCS.aspx)
 
  * [Demo: Loading Panel Templates and Transparency](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/LoadingPanel/Transparency/DefaultCS.aspx)
+
+ * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+
