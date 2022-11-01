@@ -192,7 +192,6 @@ Move the lines out of this comment if ready. Every article is linked twice in th
 - [ListView - Manual CRUD with StoredProcedure]({%slug listview-manual-crud-operations-using-storedprocedure%}) 
 - [TreeList - Automatic CRUD with StoredProcedure]({%slug treelist-automatic-crud-operations-using-storedprocedure%}) 
 - [TreeList - Manual CRUD with StoredProcedure]({%slug treelist-manual-crud-operations-using-storedprocedure%}) 
-
 {% endcomment %}
 
 
