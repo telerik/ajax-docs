@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# CheckBox Overview
+# WebForms CheckBox Overview
 
 **RadCheckBox** is available as of **Q1 2016** and it enriches the features, that ASP.NET CheckBox control has. Additionally, it provides events, supports Commands and numerous [themes/skins]({%slug checkbox/appearance-and-styling/skins%}). 
 
@@ -24,7 +24,7 @@ Developers can easily migrate their applications from using the standard ASP.NET
 
 >caption Result
 
-![RadButton](images/checkbox-overview.png)
+![WebForms RadCheckBox sample](images/checkbox-overview.png)
 
 >note The default value of the `AutoPostBack` property is `true`, which means RadCheckBox will POST the page to the server when checked/unchecked.
 
@@ -35,3 +35,6 @@ Developers can easily migrate their applications from using the standard ASP.NET
  * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
  * [RadCheckBox Checked State]({%slug checkbox/functionality/checked-state%})
  * [RadCheckBox Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
+ * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+
+  
