@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Chat
 
 The following tutorial demonstrates how you can add a simple **RadChat** control. The end result will be similar to **Figure 1**:
 
