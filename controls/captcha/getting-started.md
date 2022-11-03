@@ -8,13 +8,13 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Captcha
 
 The following tutorial demonstrates using **RadCaptcha** to validate page submission. The walk-through will also show how to display the Error Message in a ValidationSummary.
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadCaptcha** control, a Button control that causes post back on a click and a ValidationSummary control.
 
-	![Rad Captcha](images/RadCaptcha.PNG)
+	![Telerik WebForms Captcha sample](images/RadCaptcha.PNG)
 
 1. Open the **RadCaptcha** Smart Tag and select the Enable **RadCaptcha** httpHandler link. Click OK to close the confirmation dialog for the RadCaptcha handler.
 
