@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms CheckBoxList
 
 The following help article demonstrates how to set up a page with a **RadCheckBoxList** control and use its **OnSelectedIndexChanged** server event:
 

@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadCheckBoxList Overview
+# WebForms CheckBoxList Overview
 
 The **RadCheckBoxList** control (**Figure 1**) enriches the features of the ASP.NET CheckBoxList control. Additionally, it provides events, supports Commands and numerous [themes]({%slug checkboxlist/appearance-and-styling/skins%}). **RadCheckBoxList** is available as of **R3 2016**.
 
@@ -18,7 +18,7 @@ You can easily style the control by changing the `Skin` property. This will elim
 
 >caption Figure 1: RadCheckBoxList configuration.
 
-![](images/checkboxlist-overview.png)
+![WebForms CheckBoxList overview](images/checkboxlist-overview.png)
 
 >caption Example 1: A basic example of a RadCheckBoxList setup.
 
@@ -42,3 +42,6 @@ You can easily style the control by changing the `Skin` property. This will elim
  
  * [RadCheckBoxList Properties and Events]({%slug checkboxlist/server-side-programming/properties-and-events%})
  
+ * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+
+  
