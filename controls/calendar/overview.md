@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadCalendar Overview
+# WebForms Calendar Overview
 
 
 The Telerik **RadCalendar** is highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
