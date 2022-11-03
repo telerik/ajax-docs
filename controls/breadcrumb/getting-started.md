@@ -8,13 +8,13 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms Breadcrumb
 
 The following tutorial demonstrates how you can add the RadBreadcrumb control and customize it by setting some of its properties.
 
 >caption Figure 1:
 
-![Breadcrumb overview](images/breadcrumb-gettingstarted-sampleuse.png)
+![Telerik WebForms Breadcrumb overview](images/breadcrumb-gettingstarted-sampleuse.png)
 
 1. Add a **ScriptManager** control on a Web Form.
 
