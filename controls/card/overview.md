@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Card Overview
+# WebForms Card Overview
 
 RadCard is a UI component that incorporates a [set of classes](https://docs.telerik.com/kendo-ui/styles-and-layout/cards) from the [Kendo UI](https://www.telerik.com/kendo-ui) suite to create flexible containers.
 
@@ -66,30 +66,30 @@ To create a Card, add a RadCard tag on the page and fill it with content.
 - [Media]({%slug card/components%}#media)
 - [Separators]({%slug card/components%}#separators)
 
-![Card - Components](card-components.png)
+![WebForms Card - Components](card-components.png)
 
 
 ## Layout
 
 - [Read more]({%slug card/layout %})
 
-![Card - Layout](layoutanimation.gif)
+![WebForms Card - Layout](layoutanimation.gif)
 
 ## Orientation
 
 - [Read more]({%slug card/orientation %})
 
-![Card - Orientation](card-orientation.png)
+![WebForms Card - Orientation](card-orientation.png)
 
 ## Styles
 
 - [Read more]({%slug card/styles %})
 
-![Card Styles](card-styles.png)
+![WebForms Card Styles](card-styles.png)
 
 ## Skins
 
 - [Read more]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work %})
 
- ![Card Skins](card-skins.gif)
+ ![WebForms Card Skins](card-skins.gif)
    
