@@ -18,7 +18,7 @@ You can easily style the control by changing the `Skin` property. This will elim
 
 >caption Figure 1: RadCheckBoxList configuration.
 
-![WebForms CheckBoxList overview](images/checkboxlist-overview.png)
+![WebForms CheckBoxList overview](images/checkboxlist-overview.png "WebForms CheckBoxList overview")
 
 >caption Example 1: A basic example of a RadCheckBoxList setup.
 

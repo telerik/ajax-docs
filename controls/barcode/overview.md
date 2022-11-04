@@ -15,7 +15,7 @@ position: 0
 The **RadBarcode** control can be used for automatic Barcode generation directly from a numeric or character data. It supports several standards that can be used when creating the image.
 
 >caption List with **standard barcode types** is shown in the screenshot below:
-![WebForms barcode overview](images/barcode_overview.png)
+![WebForms barcode overview](images/barcode_overview.png "WebForms barcode overview")
 
 ## Properties
 

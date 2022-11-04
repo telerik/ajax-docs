@@ -17,7 +17,7 @@ Developers can easily migrate their applications from using the standard ASP.NET
 
 >caption Figure 1: RadButton control provides a versatile set of button types.
 
-![WebForms different types of the RadButton](images/radbuttons.png)
+![WebForms different types of the RadButton](images/radbuttons.png "WebForms different types of the RadButton")
 
 ## See Also
 

@@ -31,7 +31,7 @@ This help article describes the main features of the RadAjaxPanel, how to use it
 
 In Visual Studio at design time, if you want to Ajax-enable web controls on a page just add a **RadAjaxPanel** to your page and then drag the controls you want to make callbacks into the **RadAjaxPanel**. Those controls will start performing callbacks instead of postbacks. **Figure 1** shows a typical usage scenario. A standard ASP.NET Calendar control is placed in a **RadAjaxPanel**. On the web form there is also a [loading panel]({%slug ajaxloadingpanel/overview%}) control that will be shown in place of the **RadAjaxPanel** during the AJAX request.
 
-![WebForms AjaxPanel Design-time](images/ajaxpanel.PNG)
+![WebForms AjaxPanel Design-time](images/ajaxpanel.PNG "WebForms AjaxPanel Design-time")
 
 >caution The whole **RadAjaxPanel** (with **ALL** controls inside) is updated when one of the controls makes an AJAX request. Thus, if you put the whole page into a **RadAjaxPanel** , this may cause -reduced- performance, as -all- controls within the panel will be updated, -not- just the AJAX initiator.Placing the whole page into a **RadAjaxPanel** is usable when you have a relatively small number of controls on the page.
 >

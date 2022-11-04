@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadColorPicker Overview
+# WebForms ColorPicker Overview
 
 Telerik RadColorPicker for ASP.NET AJAX is a lightweight UI component that allows users to select colors from the RGB or HEX color spaces using a configurable palette view. 
 
@@ -19,19 +19,19 @@ The control is completely customizable in terms of appearance and offers numerou
 1. [25 Preset Color Palettes]({%slug colorpicker/functionality/color-presets%}) To speed up your work RadColorPicker is shipped with 25 ready-to-use color palettes like Grayscale, Web216, ReallyWebSafe, Office, etc.
 
 
-	![](images/colorpicker-overview002.png)
+	![WebForms ColorPicker ReallyWebSafe](images/colorpicker-overview002.png "WebForms ColorPicker ReallyWebSafe")
 
 1. [Custom Color Palettes]({%slug colorpicker/functionality/defining-color-palettes%}) - you can easily define your custom color palette, as well as combine custom with preset palettes when necessary.
 
 1. [Automatic Picker Button]({%slug colorpicker/functionality/show-as-icon%}) - RadColorPicker can render a picker button, which will open the color palette. The picker button will also display the currently selected color. Alternatively, the palette can be always visible or can be evoked using the client-side API.
 
-	![](images/radcolorpicker016.png)
+	![WebForms ColorPicker Office](images/radcolorpicker016.png "WebForms ColorPicker Office")
 
 1. "[No Color" and Color Preview Elements]({%slug colorpicker/functionality/hiding-and-displaying-color-picker-elements%}) - depending on the particular settings, RadColorPicker can display a "No Color" button in the color palette. A color preview area displays the actual color and its hex code.
 
 1. [Configurable Palette Layout]({%slug colorpicker/functionality/columns%}) - you can define the number of color columns to be displayed in the color palette or leave them to be configured automatically.
 
-	![](images/colorpicker-overview003.png)
+	![WebForms ColorPicker Apex](images/colorpicker-overview003.png "WebForms ColorPicker Apex")
 
 1. [Automatic color box sizing]({%slug colorpicker/functionality/width%}) - the size of the color boxes in the palette is automatically calculated according to the Columns property to fit the given Width property. The boxes are of equal width and height. By default the size of each color box is 15px/15px
 

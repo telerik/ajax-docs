@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# ComboBox Overview
+# WebForms ComboBox Overview
 
 **Telerik RadComboBox for ASP.NET AJAX** is a flexible drop-down control for ASP.NET applications. 
 
@@ -68,4 +68,4 @@ position: 0
 
 * Support for all major browsers, including Internet Explorer 5.0 and above, Netscape 6.0 and above (PC and Mac), Mozilla 0.6 and above (PC and Mac),Firefox 0.9 and above (PC and Mac), Opera 7 and above, and Safari 1.2 and above.
 
-![ComboBox](images/combobox_overview.png)
+![WebForms ComboBox Overview](images/combobox_overview.png "WebForms ComboBox Overview")

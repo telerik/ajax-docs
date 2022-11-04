@@ -70,4 +70,4 @@ The following tutorial demonstrates using **RadCaptcha** to validate page submis
 1. Press F5 to run the Application. **RadCaptcha** validates the input on a post back.
 >caption 
 
-![Rad Captcha In Browser](images/RadCaptchaInBrowser.PNG)
+![Rad Captcha In Browser](images/RadCaptchaInBrowser.PNG "Rad Captcha In Browser")

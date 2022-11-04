@@ -24,7 +24,7 @@ Developers can easily migrate their applications from using the standard ASP.NET
 
 >caption Result
 
-![WebForms RadCheckBox sample](images/checkbox-overview.png)
+![WebForms RadCheckBox sample](images/checkbox-overview.png "WebForms RadCheckBox sample")
 
 >note The default value of the `AutoPostBack` property is `true`, which means RadCheckBox will POST the page to the server when checked/unchecked.
 

@@ -19,7 +19,7 @@ position: 0
 **RadClientExportManager** is built on top of the [ Kendo UI Drawing API ](https://docs.telerik.com/kendo-ui/api/javascript/drawing/arc) and supports compression via the [ JavaScript pako library ](https://github.com/nodeca/pako) . Compression can make a big difference in the output file size when you're using custom TTF fonts or images with alpha channel (i.e. PNGs with transparency).
 >caption Figure 1: Export to PDF with RadClientExportManager
 
-![WebForms clientexportmanager-overview](images/clientexportmanager-overview.png)
+![WebForms clientexportmanager-overview](images/clientexportmanager-overview.png "WebForms clientexportmanager-overview")
 
 # See Also
 

@@ -16,7 +16,7 @@ RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrappe
 
 >caption Figure 1:
 
-![WebForms Breadcrumb overview](images/breadcrumb-overview-basicusage.png)
+![WebForms Breadcrumb overview](images/breadcrumb-overview-basicusage.png "WebForms Breadcrumb overview")
 
 ## Key Features
 
@@ -58,7 +58,7 @@ The RadBreadcrumb control can be styled by setting a desired built-in skin:
 
 >caption Figure 2:
 
-![WebForms Breadcrumb skins](images/breadcrumb-overview-skins.gif)
+![WebForms Breadcrumb skins](images/breadcrumb-overview-skins.gif "WebForms Breadcrumb skins")
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 

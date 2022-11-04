@@ -17,14 +17,14 @@ The AjaxManager allows you to visually and, in Visual Studio design-time, codele
 
 The following example shows an AjaxManager in action with applied Grid paging and a Telerik AjaxLoadingPanel for visual indication.
 
-![WebForms AjaxManager general usage](images/AJAXinAction.gif)
+![WebForms AjaxManager general usage](images/AJAXinAction.gif "WebForms AjaxManager general usage")
 
 
 ## Logic and Capabilities
 
 The visual designer of the AjaxManager, which is accessible in Visual Studio, enables you to handle some complex update scenarios. The following image shows an example with AJAX-enabled controls. 
 
-![WebForms AjaxManager Update schema](images/ControlsUpdate.png)
+![WebForms AjaxManager Update schema](images/ControlsUpdate.png "WebForms AjaxManager Update schema")
 
 * A single control updates one or more controls with an AJAX request. In the image, Control 1 updates Control 2 and Control 3.
 

@@ -14,7 +14,7 @@ This article gives a quick overview of the **RadAsyncUpload** control and shows 
 
 **RadAsyncUpload** looks like the regular **RadUpload** control but offers an *asynchronous upload* capability. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. The uploaded files are stored in a temporary location *until a postback* occurs. The temporary files are deleted after a set amount of time defined by the [TemporaryFileExpiration](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAsyncUpload#temporaryfileexpiration) property. The default value is 4 hours.
 
-![WebForms ajaxPanel Overview](images/asyncupload-overview.png)
+![WebForms ajaxPanel Overview](images/asyncupload-overview.png "WebForms ajaxPanel Overview")
 
 ## Get started with the RadAsyncUpload
 

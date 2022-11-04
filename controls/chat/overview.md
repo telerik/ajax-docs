@@ -21,7 +21,7 @@ CTAControlName: Chat
 
 >caption **Figure 1**: A simple RadChat message flow.
 
-![WebForms chat overview](images/chat-overview.png)
+![WebForms chat overview](images/chat-overview.png "WebForms chat overview")
 
 
 #### Key Features

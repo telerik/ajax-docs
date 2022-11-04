@@ -66,30 +66,30 @@ To create a Card, add a RadCard tag on the page and fill it with content.
 - [Media]({%slug card/components%}#media)
 - [Separators]({%slug card/components%}#separators)
 
-![WebForms Card - Components](card-components.png)
+![WebForms Card - Components](card-components.png "WebForms Card - Components")
 
 
 ## Layout
 
 - [Read more]({%slug card/layout %})
 
-![WebForms Card - Layout](layoutanimation.gif)
+![WebForms Card - Layout](layoutanimation.gif "WebForms Card - Layout")
 
 ## Orientation
 
 - [Read more]({%slug card/orientation %})
 
-![WebForms Card - Orientation](card-orientation.png)
+![WebForms Card - Orientation](card-orientation.png "WebForms Card - Orientation")
 
 ## Styles
 
 - [Read more]({%slug card/styles %})
 
-![WebForms Card Styles](card-styles.png)
+![WebForms Card Styles](card-styles.png "WebForms Card Styles")
 
 ## Skins
 
 - [Read more]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work %})
 
- ![WebForms Card Skins](card-skins.gif)
+ ![WebForms Card Skins](card-skins.gif "WebForms Card Skins")
    

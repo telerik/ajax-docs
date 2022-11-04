@@ -19,7 +19,7 @@ This guide will walk you through the steps required to AJAX-enable an applicatio
 
 After the completion of this guide and as demonstrated in the following image, you will have an AJAX-enabled application at runtime in which the normal postback will be replaced by a callback, and the loading panel will be displayed in the currently updating control.
 
-![WebForms AjaxManager gettingstarted sample](images/ajaxmanager-gettingstarted-sample.gif)
+![WebForms AjaxManager gettingstarted sample](images/ajaxmanager-gettingstarted-sample.gif "WebForms AjaxManager gettingstarted sample")
 
 ## Set Up Your ASP.NET Project
 
