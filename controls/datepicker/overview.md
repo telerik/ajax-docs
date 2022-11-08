@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadDatePicker Overview
+# WebForms DatePicker Overview
 
 
 The **RadDatePicker** control is composed of **RadDateInput** control with an integrated **RadCalendar**. The users can enter the date value directly into the input area or select it from a calendar popup. The values of the two controls are synchronized to enable further change of the chosen date.
@@ -39,5 +39,9 @@ The **RadDatePicker** control is composed of **RadDateInput** control with an in
 
 * WAI-ARIA Support.
 
+## See Also 
 
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/datepicker/overview/defaultvb.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
  
