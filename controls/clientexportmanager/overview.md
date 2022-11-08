@@ -23,6 +23,8 @@ position: 0
 
 # See Also
 
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/client-export-manager/overview/defaultvb.aspx)
+
+ * [ASP.NET AJAX Client Export Manager](https://www.telerik.com/products/aspnet-ajax/client-export-manager.aspx)
 
   
