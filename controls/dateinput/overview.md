@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadDateInput Overview
+# WebForms DateInput Overview
 
 
 
@@ -57,3 +57,7 @@ Use the **MaxDate** and **MinDate** properties to specify a range for the date i
 # See Also
 
  * [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%})
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/dateinput/overview/defaultvb.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
