@@ -14,7 +14,7 @@ The following tutorial demonstrates how you can add the RadBreadcrumb control an
 
 >caption Figure 1:
 
-![Telerik WebForms Breadcrumb overview](images/breadcrumb-gettingstarted-sampleuse.png)
+![Telerik WebForms Breadcrumb overview](images/breadcrumb-gettingstarted-sampleuse.png "Telerik WebForms Breadcrumb Overview")
 
 1. Add a **ScriptManager** control on a Web Form.
 
