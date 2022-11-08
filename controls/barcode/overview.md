@@ -40,3 +40,10 @@ After a barcode is added on the page, it is necessary to adjust the basic proper
 >note If the value in the **Text** property is invalid for the selected type, the Barcode will not be visible.
 >
 
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/barcode/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Barcode](https://www.telerik.com/products/aspnet-ajax/barcode.aspx)
+
