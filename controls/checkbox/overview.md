@@ -35,6 +35,6 @@ Developers can easily migrate their applications from using the standard ASP.NET
  * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
  * [RadCheckBox Checked State]({%slug checkbox/functionality/checked-state%})
  * [RadCheckBox Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
   
