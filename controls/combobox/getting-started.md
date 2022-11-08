@@ -30,7 +30,7 @@ This tutorial will walk you through creating a **RadComboBox** and shows how to:
 
 * Click the **Add item** icon in the upper left corner. A new **RadComboBoxItem** appears in the item builder.
 
-![combobox additem](images/combobox_additem.png "combobox additem")
+![combobox additem](images/combobox_additem.png "ComboBox additem")
 
 * Set the **Text** property to "First Item".
 
@@ -40,7 +40,7 @@ This tutorial will walk you through creating a **RadComboBox** and shows how to:
 
 * Back in the Smart Tag, choose a **[Skin]({%slug combobox/appearance-and-styling/skins%})** from the drop-down control.
 
-![combobox smarttag](images/combobox_smarttag.png "combobox smarttag")
+![combobox smarttag](images/combobox_smarttag.png "ComboBox smarttag")
 
 * Right-click the **RadComboBox** instance and select **Properties**.
 
