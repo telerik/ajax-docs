@@ -29,6 +29,6 @@ Developers can easily migrate their applications from using the standard ASP.NET
  
  * [FormDecorator Overview]({%slug formdecorator/overview%})
 
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [ASP.NET AJAX Button](https://www.telerik.com/products/aspnet-ajax/button.aspx)
 
   
