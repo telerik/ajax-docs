@@ -74,7 +74,7 @@ One of the benefits of RadAsyncUpload is that it allows you to upload files bigg
 
  * [Online Demos](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx)
  
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [ASP.NET AJAX Upload (Async)](https://www.telerik.com/products/aspnet-ajax/asyncupload.aspx)
 
 
  
