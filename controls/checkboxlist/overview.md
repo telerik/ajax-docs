@@ -42,6 +42,6 @@ You can easily style the control by changing the `Skin` property. This will elim
  
  * [RadCheckBoxList Properties and Events]({%slug checkboxlist/server-side-programming/properties-and-events%})
  
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
   
