@@ -37,6 +37,6 @@ position: 0
 
  * [Client-side Basics]({%slug clientdatasource/client-side-programming/overview%})
 
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [ASP.NET AJAX ClientDataSource](https://www.telerik.com/products/aspnet-ajax/client-data-source.aspx)
 
-  
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/clientdatasource/overview/defaultcs.aspx) 
