@@ -50,6 +50,6 @@ To get familiar with the UI elements of the RadChat you can also check the [RadC
  
  * [RadChat Structure]({%slug chat/structure%})  
 
- * [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
  
