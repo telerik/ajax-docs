@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms DateRangePicker
 
 The following article shows the structure and demonstrates how you can add the RadDateRangePicker control and customize it by setting some of its properties.
 
@@ -16,7 +16,7 @@ The following article shows the structure and demonstrates how you can add the R
 
 The structure of the **RadDateRangePicker** control is as follows:
 
-![Structure](images/structure.png)
+![Structure](images/structure.png "Structure")
 
 The rich functionality of the built-in RadCalendar and DatePicker(s) determine the flexibility of the RadDateRangePicker itself. You can use the corresponding inner tags to set the properties of the Calendar and pickers in any desired manner as shown below:
 

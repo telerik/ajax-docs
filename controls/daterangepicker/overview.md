@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# RadDateRangePicker Overview
+# WebForms DateRangePicker Overview
 
 The DateRangePicker control enables you to effortlessly select a range of dates, which makes the component perfect for any booking scenarios such as travel and medicine sites.
 
 The RadDateRangePicker is a composite control combining two RadDatePicker controls and a shared MultiView RadCalendar
 
-![DateRangePicker overview](images/overview-basic.gif)
+![DateRangePicker overview](images/overview-basic.gif "DateRangePicker overview")
 
 ## Key Features
 
@@ -50,4 +50,4 @@ For more information on how you can customize the appearance, please refer to th
  * [Getting Started]({%slug daterangepicker/getting-started%})
  * [DateRangePicker online demos](https://demos.telerik.com/aspnet-ajax/daterangepicker/examples/overview/defaultcs.aspx)
  * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
-
+ * [ASP.NET AJAX DateRangePicker](https://www.telerik.com/products/aspnet-ajax/daterangepicker.aspx)
