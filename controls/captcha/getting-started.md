@@ -14,11 +14,11 @@ The following tutorial demonstrates using **RadCaptcha** to validate page submis
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadCaptcha** control, a Button control that causes post back on a click and a ValidationSummary control.
 
-	![Telerik WebForms Captcha sample](images/RadCaptcha.PNG)
+	![Telerik WebForms Captcha sample](images/RadCaptcha.PNG "Telerik WebForms Captcha sample")
 
 1. Open the **RadCaptcha** Smart Tag and select the Enable **RadCaptcha** httpHandler link. Click OK to close the confirmation dialog for the RadCaptcha handler.
 
-	![radcaptcha-smart-tag](images/radcaptcha-smart-tag.png)
+	![radcaptcha-smart-tag](images/radcaptcha-smart-tag.png "radcaptcha-smart-tag")
 	
 	The httpHandler can be also enabled by placing the following lines in the web.config file:
 
