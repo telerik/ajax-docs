@@ -56,3 +56,7 @@ The control is completely customizable in terms of appearance and offers numerou
  * [Skins]({%slug colorpicker/appearance-and-styling/skins%})
 
  * [Controlling Appearance]({%slug colorpicker/appearance-and-styling/controlling-appearance%})
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/colorpicker/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX ColorPicker](https://www.telerik.com/products/aspnet-ajax/colorpicker.aspx)
