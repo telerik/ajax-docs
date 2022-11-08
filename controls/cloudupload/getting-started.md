@@ -26,12 +26,12 @@ This tutorial will walk you through creating a Web page that uses **RadCloudUplo
 3. Adding the **RadAScriptManager** will automatically register the **Telerik.Web.UI.WebResource.axd** handler in the web.config file. This handler is used by both **RadScriptManager** and **RadCloudUpload** as demonstrated in the Figure 2. below:
 	>caption Figure 2. Registering Telerik.Web.UI.WebResource.axd handler
 
-	![cloud-upload-getting-started 2](images/cloud-upload-getting-started2.png "cloud-upload-getting-started 2")
+	![cloud-upload-getting-started 2](images/cloud-upload-getting-started2.png "cloud-upload-getting-started")
 
 4. Select and configure the **ProviderType** as in Figure 3:
 	>caption Figure 3. Provider Type
 
-	![cloud-upload-getting-started 3](images/cloud-upload-getting-started3.png "cloud-upload-getting-started 3")
+	![cloud-upload-getting-started 3](images/cloud-upload-getting-started3.png "cloud-upload-getting-started")
 
 	>caution All Cloud Storage Providers are depending on third party assemblies. To learn how to reference and configure them look at the [Telerik Backend Services (formerly Everlive)]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%}), [AmazonS3]({%slug cloudupload/cloud-storage-providers/amazon-s3%}) or [Azure]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%}) Cloud Storages Sections.
 	>

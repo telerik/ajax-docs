@@ -51,6 +51,6 @@ See Also
 
 * [Overview demo of Telerik’s ASP.NET Cloud Upload](https://demos.telerik.com/aspnet-aj*ax/cloud-upload/examples/overview/defaultcs.aspx)
 
-* [ASP.NET AJAX AJAX Manager](https://www.telerik.com/products/aspnet-ajax/ajax.aspx)
+* [ASP.NET AJAX Upload (Cloud)](https://www.telerik.com/products/aspnet-ajax/cloud-upload.aspx)
 
  
