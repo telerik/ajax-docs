@@ -41,6 +41,17 @@ The following example demonstrates the mandatory `web.config` additions needed b
 
 ````web.config
 <configuration>
+  <!-- 
+    Required by RadCloudUpload to configure Cloud storage Providers (Amazon S3, Azure Blob Storage, Telerik Backend Services)
+    It is mandatory to place the <configSection> as the first child of <configuration> element:
+    Read more at: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/configsections-element-for-configuration
+  -->
+  <configSections>
+      <sectionGroup name="telerik.web.ui">
+          <section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
+      </sectionGroup>
+  </configSections>
+
 	<appSettings>
 		<!-- Read more at: https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
