@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Image Editor Overview
+# WebForms Image Editor Overview
 
 
 
@@ -38,3 +38,8 @@ position: 0
 
 In current browsers, the image editor control defaults to using [canvas mode](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/canvassupport/defaultcs.aspx). **If** you are explicitly using it in image mode (**`CanvasMode="No"`**), **as of R1 2019**, you must set the `Telerik.AsyncUpload.ConfigurationEncryptionKey` and `Telerik.Upload.ConfigurationHashKey` keys in the `appSettings` section of your `web.config` file. You can read more about them in the [Mandatory Additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig) and [AsyncUpload Security]({%slug asyncupload-security%}) articles. These existing keys are reused to improve backwards compatibility of your applications and to reduce the number of properties you have to set.
 
+## See Also
+
+* [Online Demos](https://demos.telerik.com/aspnet-ajax/imageeditor/examples/overview/defaultcs.aspx)
+ 
+* [ASP.NET AJAX Image Editor](https://www.telerik.com/products/aspnet-ajax/imageeditor.aspx)
