@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# ImageButton Overview
+# WebForms ImageButton Overview
 
 The **RadImageButton** control (**Figure 1**) can be used as alternative to ASP.NET ImageButton control. Its functionality is enriched with client-side and server-side API which you can use to achieve plenty of application requirments. **RadImageButton** provides additional events, the ability to use a [content template]({%slug imagebutton/functionality/contenttemplate%}), a [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). **RadImageButton** is available as of **Q1 2016**.
 
@@ -20,7 +20,7 @@ The control can be easily styled by changing the **Skin** property, and alternat
 
 >caption Figure 1: Examples of RadImageButton
 
-![RadButton](images/button-imagebuttons01.png)
+![WebForms ImageButton Overview ](images/button-imagebuttons01.png "WebForms ImageButton Overview")
 
 <!--
 Code that creates Figure 1:
@@ -40,6 +40,8 @@ Code that creates Figure 1:
 ## See Also
 
  * [RadImageButton Online Demos](https://demos.telerik.com/aspnet-ajax/imagebutton/examples/overview/defaultcs.aspx)
+
+ * [ASP.NET AJAX Button](https://www.telerik.com/products/aspnet-ajax/button.aspx)
  
  * [RadImageButton Getting Started]({%slug imagebutton/getting-started%})
  
