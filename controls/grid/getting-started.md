@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started with RadGrid
+# Getting Started with the Telerik WebForms RadGrid
 
 In this article, you will find links that will help you get started to work with RadGrid.
 

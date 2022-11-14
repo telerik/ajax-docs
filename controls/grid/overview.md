@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Grid Overview
+# WebForms Grid Overview
 
 This article provides a quick introduction so you can get your AJAX data grid up and running in a few seconds. You can find 
 how to enable key features like paging, sorting, filtering, editing, grouping, exporting and accessibility support, as well as how to bind data.
@@ -90,7 +90,7 @@ End Class
 ````
 
 The result from the code snippet above
-![Basic RadGrid Example](images/grid-overview-basic-create.png)
+![Basic RadGrid Example](images/grid-overview-basic-create.png "Basic Grid Example")
 
 
 
@@ -99,13 +99,13 @@ Check out the most commonly used key features below, or head directly to the [Ge
 
 ## Basic Grid
 
-![](images/grid-overview-basic.png)
+![WebForms Basic Grid](images/grid-overview-basic.png "Basic Grid")
 
 
 
 ## Advanced Grid
 
-![](images/grid-overview-advanced.png)
+![WebForms Advance Grid](images/grid-overview-advanced.png "Advance Grid")
 
 List of key functionalites you can find below:
 
@@ -129,37 +129,37 @@ List of key functionalites you can find below:
 
 See [Skins]({%slug grid/appearance-and-styling/skins%}) documentation.
 
-![](images/grid-overview-skins.gif)
+![WebForms Grid Overview Skins](images/grid-overview-skins.gif "Grid built-in Skins")
 
 ## Paging
 
 See [Paging]({%slug grid/functionality/paging/overview%}) documentation.
 
-![](images/grid-overview-paging.png)
+![WebForms Grid Overview Paging](images/grid-overview-paging.png "Grid Paging")
 
 ## Filtering
 
 See [Filtering]({%slug grid/functionality/filtering/overview%}) documentation.
 
-![](images/grid-overview-filtering.png)
+![WebForms Grid Overview Filtering](images/grid-overview-filtering.png "Grid Filtering")
 
 ## Sorting
 
 See [Sorting]({%slug grid/functionality/sorting/overview%}) documentation.
 
-![](images/grid-overview-sorting.png)
+![WebForms Grid Overview Sorting](images/grid-overview-sorting.png "Grid Sorting")
 
 ## Grouping
 
 See [Grouping]({%slug grid/functionality/grouping/overview%}) documentation.
 
-![](images/grid-overview-grouping.png)
+![WebForms Grid Overview Grouping](images/grid-overview-grouping.png "Grid Grouping")
 
 ## Hierarchy
 
 See [Hierarchical Grid Types]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%}) documentation.
 
-![](images/grid-overview-hierarchy.png)
+![WebForms Hierarchy Grid Overview ](images/grid-overview-hierarchy.png "Hierarchy Grid")
 
 ## Create/Read/Update/Delete (CRUD) operations
 
@@ -170,19 +170,19 @@ See [Hierarchical Grid Types]({%slug grid/hierarchical-grid-types-and-load-modes
 
 See [Edit Forms]({%slug grid/data-editing/edit-mode/edit-forms%}) documentation.
 
-![](images/grid-overview-editforms.png)
+![Grid Edit Form](images/grid-overview-editforms.png "Grid Edit Form")
 
 **PopUp**
 
 See [PopUp Edit Forms]({%slug grid/data-editing/edit-mode/popup-edit-form%}) documentation.
 
-![](images/grid-overview-popup.png)
+![Grid PopUp Edit Form](images/grid-overview-popup.png "Grid PopUp Edit Form")
 
 **InPlace (Inline)**
 
 See [InPlace]({%slug grid/data-editing/edit-mode/in-place%}) documentation.
 
-![](images/grid-overview-inplace.png)
+![Grid InPlace Edit Form](images/grid-overview-inplace.png "Grid InPlace Edit Form")
 
 ### Client-Side Editing
 
@@ -190,7 +190,7 @@ See [InPlace]({%slug grid/data-editing/edit-mode/in-place%}) documentation.
 
 See [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) documentation.
 
-![](images/grid-overview-batchedit.png)
+![Grid Batch Edit Form](images/grid-overview-batchedit.png "Grid Batch Edit Form")
 
 
 ## Properties & Methods - API Reference
@@ -206,4 +206,9 @@ See [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
 ## See Also
 
 - [Getting Started]({%slug grid/getting-started%})
+
+* [Online Demos](https://demos.telerik.com/aspnet-ajax/grid/examples/overview/defaultcs.aspx)
+ 
+* [ASP.NET AJAX Grid](https://www.telerik.com/products/aspnet-ajax/grid.aspx)
+
 
