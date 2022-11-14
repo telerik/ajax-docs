@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms FileExplorer
 
 The following tutorial demonstrates how to create a simple **RadFileExplorer** control in three possible ways (the end result will be similar to **Figure 1**):
 
