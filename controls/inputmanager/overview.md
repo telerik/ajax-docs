@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadInputManager Overview
+# WebForms InputManager Overview
 
 
 
@@ -220,3 +220,10 @@ Below is a list of tables covering the most important properties of the elements
 | **DisplayMask** |Changes the mask that is used to format the value when the masked text box does not have focus.|
 | **DisplayPromptChar** |Changes the prompt character for unentered values when the masked text box does not have focus.|
 | **HideOnBlur** |Hides the prompts when the value has not been set and the masked text box does not have focus.|
+
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/inputmanager/overview/defaultcs.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
