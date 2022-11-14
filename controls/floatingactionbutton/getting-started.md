@@ -8,11 +8,11 @@ published: True
 position: 1
 ---
 
-# Getting Started with the FloatingActionButton
+# Getting Started with the Telerik FloatingActionButton
 
 The following article demonstrates how you can add the RadFloatingActionButton control and customize it by setting some of its properties.
 
-![FloatingActionButton basic usage](images/floatingbutton-gettingstarted.png)
+![FloatingActionButton basic usage](images/floatingbutton-gettingstarted.png "FloatingActionButton basic usage")
 
 
 ## Add a RadFloatingActionButton Control
