@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Filter
 
 This help topic describes the main features of the RadFilter control and how it can be used.
 
