@@ -9,15 +9,11 @@ position: 0
 CTAControlName: DropDownTree
 ---
 
-# DropDownTree Overview
-
-
-
-
+# WebForms DropDownTree Overview
 
 The **RadDropDownTree** control is a combination of a lightweight dropdown and a tree control. In the RadDropDownTree we use the approach with entries. Basically, a new entry is created as a result of node's selection from the tree.
 
-![Overview](images/dopdowntree_overview.png)
+![Webforms DropDownTree Overview](images/dopdowntree_overview.png "Webforms DropDownTree Overview")
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-overview.html %}
@@ -37,6 +33,8 @@ Some of the main features of the RadDropDownTree control include:
 
 * **DropDownSettings** for fine tuning of the control (like *OpenDropDownOnLoad*, which expands the dropdown after it is loaded on the page).
 
-# See Also
+## See Also
 
- * [RadDropDownTree Overview](https://demos.telerik.com/aspnet-ajax/dropdowntree/examples/overview/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/dropdowntree/examples/overview/defaultcs.aspx)
+
+ * [ASP.NET AJAX DropDownTree](https://www.telerik.com/products/aspnet-ajax/dropdowntree.aspx)

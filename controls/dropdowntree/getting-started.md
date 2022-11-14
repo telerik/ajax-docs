@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms DropDownTree
 
 
 This article will helo you get started using the **RadDropDownTree** control. It contains the following sections:
@@ -28,26 +28,26 @@ This article will helo you get started using the **RadDropDownTree** control. It
 
 1. Open the Smart Tag and set the **Skin** to **Metro** from the drop-down list. Then select the **Open Configuration Wizard** link. *This step will display the RadDropDownTree Configuration Wizard window.*
 >caption 
-![RadDropDownTree Getting Started Chose Skin](images/ddt-getting-started-choose-skin.png)
+![RadDropDownTree Getting Started Chose Skin](images/ddt-getting-started-choose-skin.png "RadDropDownTree Getting Started Chose Skin")
 
 
 ## Configure the RadDropDownTree Using the Configuration Wizard
 
 1. On the Configuration Wizard General tab, check the **ExpandOnSingleClick** checkbox. From the **CheckBoxes** drop-down list, choose **SingleCheck**:
 >caption 
-![RadDropDownTree Getting Started Wizard General](images/ddt-getting-started-configuration-wizard-general.png)
+![RadDropDownTree Getting Started Wizard General](images/ddt-getting-started-configuration-wizard-general.png "RadDropDownTree Getting Started Wizard General")
 
 1. On the DropDownSettings tab, check the **OpenDropDownOnLoad** checkbox:
 >caption 
-![RadDropDownTree Getting Started Wizard DropDown](images/ddt-getting-started-configuration-wizard-dropdown.png)
+![RadDropDownTree Getting Started Wizard DropDown](images/ddt-getting-started-configuration-wizard-dropdown.png "RadDropDownTree Getting Started Wizard DropDown")
 
 1. On the Filtering Settings tab, check the **EnableFiltering** checkbox. Type in the **EmptyMessage** TextBox **Search for a tree node...**:
 >caption 
-![RadDropDownTree Getting Started Wizard Filtering](images/ddt-getting-started-configuration-wizard-filtering.png)
+![RadDropDownTree Getting Started Wizard Filtering](images/ddt-getting-started-configuration-wizard-filtering.png "RadDropDownTree Getting Started Wizard Filtering")
 
 1. On the Button Settings tab, check the **ShowCheckAll** checkbox:
 >caption 
-![RadDropDownTree Getting Started Wizard Button](images/ddt-getting-started-configuration-wizard-buttons.png)
+![RadDropDownTree Getting Started Wizard Button](images/ddt-getting-started-configuration-wizard-buttons.png "RadDropDownTree Getting Started Wizard Button")
 
 1. Click Apply and then OK.
 
@@ -161,11 +161,11 @@ End Function
 
 On the initial load of the page you will see the **RadDropDownTree**:
 
-![RadDropDownTree Getting Started Initial load](images/ddt-getting-started-initial-load.png)
+![RadDropDownTree Getting Started Initial load](images/ddt-getting-started-initial-load.png "RadDropDownTree Getting Started Initial load")
 
 After expanding all collapsed nodes, your **RadDropDownTree** should look like:
 
-![RadDropDownTree Getting Started Expanded](images/ddt-getting-started-tree-expanded.png)
+![RadDropDownTree Getting Started Expanded](images/ddt-getting-started-tree-expanded.png "RadDropDownTree Getting Started Expanded")
 
 
 
