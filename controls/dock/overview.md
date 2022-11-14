@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadDock Overview
+# WebForms Dock Overview
 
 
 
@@ -49,8 +49,12 @@ Using these controls, you get
 
 * Support for many major browsers, including Internet Explorer 5.5 and above, Netscape 7.1 and above (all operating systems), Mozilla 1.0 and above (all operating systems),and Firefox 1.0 and above (all operating systems.
 
-	![](images/dock-placeholderblackdefault.png)
+	![WebForms Dock Overview](images/dock-placeholderblackdefault.png "WebForms Dock Overview")
 
-# See Also
+## See Also
 
  * [Structure]({%slug dock/structure/overview%})
+ * [ASP.NET AJAX Dock](https://www.telerik.com/products/aspnet-ajax/dock.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx)
+
+
