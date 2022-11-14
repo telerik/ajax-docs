@@ -9,7 +9,7 @@ position: 0
 CTAControlName: FormDecorator
 ---
 
-# FormDecorator Overview
+# WebForms FormDecorator Overview
 
 **RadFormDecorator** is part of Telerik® UI for ASP.NET AJAX Suite that enables CSS skinning of:
 
@@ -55,7 +55,7 @@ Here are the main features of the control:
 
 * Right to left support
 
-![formdecorator skins thumb](images/formdecorator-skins.png)
+![formdecorator skins thumb](images/formdecorator-skins.png "formdecorator skins thumb")
 
 To decorate the form elements on a webpage:
 
@@ -104,5 +104,10 @@ The **Default** value enables the decoration of the following elements: Buttons,
 
 The **ControlsToSkip** property allows you to exclude certain controls from decoration set with the **DecoratedControls** property. For example: **DecoratedControls="All" ControlsToSkip="H4H5H6"**.
 
-![formdecorator contrls to skip](images/formdecorator-contrls-to-skip.gif)
+![formdecorator contrls to skip](images/formdecorator-contrls-to-skip.gif "formdecorator contrls to skip")
 
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/formdecorator/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Form Decorator](https://www.telerik.com/products/aspnet-ajax/formdecorator.aspx)
