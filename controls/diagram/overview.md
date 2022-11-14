@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadDiagram Overview
+# WebForms Diagram Overview
 
 **RadDiagram** for ASP.NET AJAX helps developers build rich and interactive diagrams with ease. Powered by HTML5, this	ASP.NET AJAX Diagramming component offers excellent Client-Side responsiveness. The Diagram comes with multitude of predefined layouts and	rich built-in functionality, including drag and drop support, connection editing, shape rotation and resizing and more.
 
@@ -37,3 +37,7 @@ position: 0
 # See Also
 
  * [ASP.NET Diagram online demos](https://demos.telerik.com/aspnet-ajax/diagram/examples/overview/defaultcs.aspx)
+
+ * [ASP.NET AJAX Diagram](https://www.telerik.com/products/aspnet-ajax/diagram.aspx)
+
+ 
