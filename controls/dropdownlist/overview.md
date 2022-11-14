@@ -9,7 +9,7 @@ position: 0
 CTAControlName: DropDownList
 ---
 
-# DropDownList Overview
+# WebForms DropDownList Overview
 
 Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control for simple selection:
 
@@ -24,7 +24,7 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 </telerik:RadDropDownList>
 ````
 
-![dropdownlist-overview](images/dropdownlist-overview.png)
+![WebForms DropDownList Overview](images/dropdownlist-overview.png "WebForms DropDownList Overview")
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-overview.html %}
@@ -65,3 +65,8 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 * [**Client-side API**]({%slug dropdownlist/client-side-programming/overview%})
 
 * [**Server-side API**]({%slug dropdownlist/server-side-programming/overview%})
+
+## See Also
+ * [ASP.NET AJAX DropDownList](https://www.telerik.com/products/aspnet-ajax/dropdownlist.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/dropdownlist/examples/overview/defaultcs.aspx)
+
