@@ -30,6 +30,9 @@ The `ShowPlannedTasks` property controls whether planned dates will be shown ini
 
 The `PlannedStart` and `PlannedEnd` properties are not required to populate the Gantt tasks and they allow null values. The type of the planned dates properties is a [Nullable](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0) DateTime - `DateTime?`. The fields in an SQL database can be of type `datetime`, nullable.
 
+>important For the proper work of the **Planned vs Actual** feature both the **PlannedStart** and **PlannedEnd** fields should be present and set to valid dates for all the Tasks rendered in the control.
+>
+
 ## See Also
 
 * [Gantt Data Binding]({%slug gantt/data-binding/database-structure %})
