@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms PivotGrid
 
 
 
@@ -17,19 +17,19 @@ RadPivotGrid is a data summarization control where users can break down raw data
 ## Creating and Binding the RadPivotGrid
 
 * Locate the database file which will be used for binding the **PivotGrid** in the **AppData** folder of your application.
-![Pivot Grid-Getting Started-Binding 1](images/PivotGrid-GettingStarted-Binding1.jpg)
+![Pivot Grid-Getting Started-Binding 1](images/PivotGrid-GettingStarted-Binding1.jpg "Pivot Grid-Getting Started-Binding 1")
 
 * Use the PivotGrid SmartTag to select the needed DataSource:
-![Pivot Grid-Getting Started-Binding-Smart Tag](images/PivotGrid-GettingStarted-Binding-SmartTag.jpg)
+![Pivot Grid-Getting Started-Binding-Smart Tag](images/PivotGrid-GettingStarted-Binding-SmartTag.jpg "Pivot Grid-Getting Started-Binding-Smart Tag")
 
 * Set up your DataSource with the required fields:
-![Pivot Grid-Getting Started-Binding-SQL 1](images/PivotGrid-GettingStarted-Binding-SQL1.jpg)
+![Pivot Grid-Getting Started-Binding-SQL 1](images/PivotGrid-GettingStarted-Binding-SQL1.jpg "Pivot Grid-Getting Started-Binding-SQL 1")
 
 and test the generated query:
-![Pivot Grid-Getting Started-Binding-SQL 2](images/PivotGrid-GettingStarted-Binding-SQL2.jpg)
+![Pivot Grid-Getting Started-Binding-SQL 2](images/PivotGrid-GettingStarted-Binding-SQL2.jpg "Pivot Grid-Getting Started-Binding-SQL 2")
 
 * After having the data set you could use the **PivotGrid Collection Editor** to set the **Pivot Fields**. Note that you should add a **DataField** property for them:
-![Pivot Grid-Getting Started-Binding-Editor](images/PivotGrid-GettingStarted-Binding-Editor.jpg)
+![Pivot Grid-Getting Started-Binding-Editor](images/PivotGrid-GettingStarted-Binding-Editor.jpg "Pivot Grid-Getting Started-Binding-Editor")
 
 * The PivotGrid will summarize the data like this:
-![Pivot Grid-Getting Started-Binding-Rendering](images/PivotGrid-GettingStarted-Binding-Rendering.jpg)
+![Pivot Grid-Getting Started-Binding-Rendering](images/PivotGrid-GettingStarted-Binding-Rendering.jpg "Pivot Grid-Getting Started-Binding-Rendering")
