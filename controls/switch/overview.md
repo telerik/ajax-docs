@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# Switch Overview
+# WebForms Switch Overview
 
 The **RadSwitch** control (**Figure 1**) enriches the features, that ASP.NET Switch control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug switch/appearance-and-styling/skins%}). **RadSwitch** is available as of **R2 2021**.
 
 >caption Figure 1: RadSwitch configuration.
 
-![RadButton](images/switch-overview.png)
+![WebForms Switch Overview](images/switch-overview.png "WebForms Switch Overview")
 
 >caption Example 1: A basic example of a RadSwitch setup.
 
@@ -37,6 +37,8 @@ The **RadSwitch** control (**Figure 1**) enriches the features, that ASP.NET Swi
 ## See Also
 
  * [RadSwitch Online Demos](https://demos.telerik.com/aspnet-ajax/switch/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Switch](https://www.telerik.com/products/aspnet-ajax/switch.aspx)
 
  * [RadSwitch Getting Started]({%slug switch/getting-started%})
 
