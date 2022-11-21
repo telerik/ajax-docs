@@ -9,13 +9,13 @@ position: 0
 CTAControlName: Slider
 ---
 
-# Slider Overview
+# WebForms Slider Overview
 
 ## Slider Elements
 
 **RadSlider** was designed to be as simple as possible and consists of the following elements:
 
-![](images/slider-overview001.png)
+![WebForms Slider Overview](images/slider-overview001.png "WebForms Slider Overview")
 
 * **Increase handle:** Increases the value of the slider by a single step.
 
@@ -60,6 +60,11 @@ The state of the RadSlider is automatically persisted across partial and full po
 The two drag handles of RadSlider can be moved simultaneously when the control is used in a mobile touch device by pressing both of them and dragging.
 
 ## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/slider/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Slider](https://www.telerik.com/products/aspnet-ajax/slider.aspx)
+
 
  * [Behavior]({%slug slider/getting-started/behavior%})
 
