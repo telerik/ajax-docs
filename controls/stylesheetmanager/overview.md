@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# StylesheetManager Overview
+# WebForms StylesheetManager Overview
 
 
 
@@ -209,3 +209,8 @@ You can download a [sample project](https://www.telerik.com/support/code-library
 ## Serving external StyleSheets through RadStyleSheetManager
 
 Since **Q2 2011 SP RadStyleSheetManager** provides the ability to combine external style sheets as well. [This](https://www.telerik.com/help/aspnet-ajax/radstylesheetmanager-serving-external-style-sheets.html) help topic describes the feature and how it is configured in more detail.
+
+
+## See Also
+ 
+ * [ASP.NET AJAX StyleSheet Manager](https://www.telerik.com/products/aspnet-ajax/stylesheetmanager.aspx)
