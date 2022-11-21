@@ -8,14 +8,14 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Wizard
 
 
 
 The following tutorial demonstrates how you can add a **RadWizard** control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadWizard with three steps.
 
-![wizard-getting-started](images/wizard-getting-started.png)
+![Getting Started with the Telerik WebForms Wizard](images/wizard-getting-started.png "Getting Started with the Telerik WebForms Wizard")
 
 ## 
 
