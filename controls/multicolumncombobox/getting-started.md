@@ -8,14 +8,14 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms MultiColumnComboBox
 
 
 The following tutorial demonstrates how you can add **RadMultiColumnComboBox** bound to SqlDataSource control. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: RadMultiColumnComboBox bound to SqlDataSource control
 
-![multicolumncombobox-getting-started](images/multicolumncombobox-getting-started.png)
+![multicolumncombobox-getting-started](images/multicolumncombobox-getting-started.png "webforms-multicolumncombobox-overview")
 
 1. Add a **ScriptManager** control on a Web Form.
 

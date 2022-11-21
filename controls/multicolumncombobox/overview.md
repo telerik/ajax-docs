@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# MultiColumnComboBox Overview
+# WebForms MultiColumnComboBox Overview
 
 RadMultiColumnComboBox is similar to a regular dropdown, and offers a highly simplified approach for creating columns in the dropdown.
 
@@ -18,7 +18,7 @@ RadMultiColumnComboBox is available as of R1 2019 and it is a server-side WebFor
 
 >caption Figure 1: RadMultiColumnComboBox allows you to create such a complex layout with [under 20 lines of markup](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx).
 
-![multicolumncombobox-overview](images/multicolumncombobox-overview.png)
+![webforms-multicolumncombobox-overview](images/multicolumncombobox-overview.png "WebForms MultiColumnCombobox Overview")
 
 ## Key Features
 
@@ -44,3 +44,6 @@ RadMultiColumnComboBox is available as of R1 2019 and it is a server-side WebFor
 # See Also
 
  * [Overview demo](https://demos.telerik.com/aspnet-ajax/multicolumncombobox/overview/defaultcs.aspx)
+
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax/ajax-multicolumncombobox.aspx)
+
