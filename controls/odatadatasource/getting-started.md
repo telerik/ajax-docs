@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms ODataDataSource
 
 In this topic, we will show how to recreate the First Look demo of RadODataDataSource entirely from the Design Time Wizards of the controls involved.
 
