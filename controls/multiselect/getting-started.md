@@ -8,14 +8,14 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms MultiSelect
 
 
 The following tutorial demonstrates how you can add a **RadMultiSelect** control populated with static items. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: Basic RadMultiSelect configuration with static items
 
-![multiselect-getting-started](images/multiselect-getting-started.png)
+![multiselect-getting-started](images/multiselect-getting-started.png "multiselect-getting-started")
 
 1. Add a **ScriptManager** control on a Web Form.
 

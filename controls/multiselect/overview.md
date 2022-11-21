@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# MultiSelect Overview
+# WebForms MultiSelect Overview
 
 **RadMultiSelect** is available as of R1 2020 and it is a server-side WebForms wrapper over the [MultiSelect for Kendo UI](https://docs.telerik.com/kendo-ui/controls/editors/multiselect/overview) for jQuery widget.
 
@@ -16,7 +16,7 @@ It operates on the client, displays a list of options and allows multiple select
 
 >caption Figure 1: RadMultiSelect allows the multiple selection of a predefined list of items
 
-![multiselect-overview](images/multiselect-overview.gif)
+![webforms-multiselect-overview](images/multiselect-overview.gif "webforms-multiselect-overview")
 
 ## Key Features
 
@@ -44,3 +44,5 @@ It operates on the client, displays a list of options and allows multiple select
 # See Also
 
  * [Overview demo](https://demos.telerik.com/aspnet-ajax/multiselect/overview/defaultcs.aspx)
+
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax/multiselect.aspx)
