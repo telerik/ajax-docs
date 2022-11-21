@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadTextBox Overview
+# WebForms TextBox Overview
 
 
 
@@ -19,13 +19,13 @@ position: 0
 **RadTextBox** can be used in three different modes:
 
 * **Single-line mode:** To use **RadTextBox** in single-line mode, set the **TextMode** property to "SingleLine". When **TextMode** is "SingleLine", the **MaxLength** property defines the number of characters the user can enter into the text box.
-![Single-line TextBox](images/SingleLineTextBox.png)
+![Single-line TextBox](images/SingleLineTextBox.png "Single-line TextBox")
 
 * **Multi-line mode:** To use **RadTextBox** in multi-line mode, set the **TextMode** property to "MultiLine". When **TextMode** is "MultiLine", the **Rows** property specifies the number of rows the text box displays, and the **Columns** property specifies the number of characters in each row. The **Wrap** property determines whether the text value wraps when its width exceeds the value of the **Columns** property. The **Resize** property controls the resize mode. Possible options are "None", "Both", "Vertical", "Horizontal".
-![MultiLine text box](images/MultiLineTextBox.png)
+![MultiLine text box](images/MultiLineTextBox.png "MultiLine text box")
 
 * **Password mode:** To use **RadTextBox** in password mode, set the **TextMode** property to "Password". When **TextMode** is "Password", the text box behaves like single-line mode, except that all characters in the text box's value are masked out.
-![Password mode](images/PasswordMode.png)
+![Password mode](images/PasswordMode.png "Password mode")
 
 ## HTML5 input types
 
@@ -100,5 +100,9 @@ You can use **RadTextBox** with other controls to enhance its functionality.
 * You can [use RadTextBox with the RadSpell control]({%slug radtextbox/features/spell-checking-radtextbox%}) to let users check the spelling of the text that they enter into the text box.
 
 # See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/textbox/overview/defaultvb.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
  * [RadTextBox Client Object]({%slug radtextbox/client-side-programming/radtextbox-client-object%})
