@@ -8,11 +8,11 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms Stepper
 
 The following tutorial demonstrates how you can add the RadStepper control and customize it by setting some of its properties.
 
-![Stepper overview](images/stepper-getting-started.png)
+![Stepper overview](images/stepper-getting-started.png "Stepper overview")
 
 1. Add a **ScriptManager** control on a Web Form.
 
