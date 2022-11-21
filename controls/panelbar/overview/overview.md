@@ -9,7 +9,7 @@ position: 0
 CTAControlName: PanelBar
 ---
 
-# RadPanelBar Overview
+# WebForms PanelBar Overview
 
 
 
@@ -67,4 +67,10 @@ CTAControlName: PanelBar
 
 * Support for all major browsers, including Internet Explorer 5.0 and above, Netscape 6.0 and above, Mozilla 1.0 and above,Firefox 0.8 and above, Opera 7.5 and above, and Safari 2.0.4 and above.
 
-![PanelBar Calendar Template](images/panelbar_gettingstartedcalendar.png)
+![WebForms PanelBar Calendar Template](images/panelbar_gettingstartedcalendar.png "WebForms PanelBar Calendar Template")
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/panelbar/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX PanelBar](https://www.telerik.com/products/aspnet-ajax/panelbar.aspx)
