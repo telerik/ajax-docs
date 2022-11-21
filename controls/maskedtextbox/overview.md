@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadMaskedTextBox Overview
+# WebForms MaskedTextBox Overview
 
 
 
@@ -89,7 +89,7 @@ A number of properties control the way the mask is applied:
 Prompt Characters
 
 When a **RadMaskedTextBox** control is displayed at run time, it represents the mask as a series of prompt characters for the text the user should enter and literal characters for literal strings that are part of the mask. Each mask position is shown with a single prompt character. You can specify the prompt character that the masked text box uses by setting the **PromptChar** property. For example, if all of the characters to input are numbers, you could use the '#' character as a prompt:
-![Prompt character](images/PromptCharacter.png)
+![Prompt character](images/PromptCharacter.png "Prompt character")
 
 ## Focus
 
@@ -108,7 +108,7 @@ You can give the masked text box a different appearance when it does not have fo
 ## Multi-line mode
 
 You can allow the **RadMaskedTextBox** to display its content in multiple lines by setting the **TextMode** property to "MultiLine".
-![Multi-line RadMaskedTextBox](images/MultiLineMaskedTextBox.png)
+![Multi-line RadMaskedTextBox](images/MultiLineMaskedTextBox.png "Multi-line RadMaskedTextBox")
 
 ## Masked text box value
 
@@ -168,3 +168,7 @@ End Sub
 # See Also
 
  * [RadMaskedTextBox Client Object]({%slug radmaskedtextbox/client-side-programming/radmaskedtextbox-client-object%})
+ 
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/maskedtextbox/overview/defaultcs.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax/input.aspx)

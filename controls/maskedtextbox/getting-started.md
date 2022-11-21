@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started With RadMaskedTextBox
+# Getting Started with the Telerik WebForms MaskedTextBox
 
 
 
@@ -39,10 +39,10 @@ This tutorial will walk you through creating a Web page that uses the **RadMaske
 1. In the **Behavior** section of the properties pane, locate the **SelectionOnFocus** property and change it to "SelectAll". This causes the entire text in the text box to become selected when focus moves to the text box so that it is replaced when the user starts typing. Other options move the caret to the beginning or end of the text box.
 
 1. In the **RadMaskedTextBox** Smart Tag, click the link labelled **SetMask**:
-![Mask](images/RadMaskedTextBoxSetMask.png)
+![Mask](images/RadMaskedTextBoxSetMask.png "Mask")
 
 1. The [Input Mask dialog]({%slug radmaskedtextbox/design-time/input-mask-dialog%}) appears. In the dialog, choose the mask for **Phone number** hand click **OK**.
-![Mask Dialog](images/InputMaskDialog.png)
+![Mask Dialog](images/InputMaskDialog.png "Mask Dialog")
 
 1. Choose the "Office2007" Skin in the Smart Tag so that the masked text box matches the other text box on your page.
 
