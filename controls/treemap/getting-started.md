@@ -8,13 +8,13 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms TreeMap
 
 
 The following article demonstrates how you can add a **RadTreeMap** control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadTreeMap data visualization with three easy steps.
 
-![treemap-gettingstarted](images/treemap-gettingstarted.png)
+![Getting Started with the Telerik WebForms TreeMap](images/treemap-gettingstarted.png "Getting Started with the Telerik WebForms TreeMap")
 
 >note The control visualizes its data in **Squarified AlgorithmType** as this is the default algorithm type.
 >
