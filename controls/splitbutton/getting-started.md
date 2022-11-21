@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms SplitButton
 
 The following article shows the structure and demonstrates how you can add the RadSplitButton control and customize it by setting some of its properties.
 
@@ -16,7 +16,7 @@ The following article shows the structure and demonstrates how you can add the R
 
 The **RadSplitButton** is essentially inheriting the same base as a [RadPushButton]({%slug pushbutton/overview%}), functionally expanded with a [RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%}) holding the set of alternative button options.
 
-![SplitButton Structure](images/splitbutton_structure.png)
+![SplitButton Structure](images/splitbutton_structure.png "SplitButton Structure")
 
 
 ## Add a RadSplitButton Control
