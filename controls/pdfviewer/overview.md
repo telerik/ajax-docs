@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# PDFViewer Overview
+# WebForms PDFViewer Overview
 
 **RadPdfViewer** is available as of R1 2020 SP1 and it is a server-side WebForms wrapper over the [PDFViewer for Kendo UI](https://docs.telerik.com/kendo-ui/controls/PDF/PDFViewer/overview) for jQuery widget.
 
@@ -16,7 +16,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
 >caption Figure 1: RadPdfViewer allows to open, navigate through and download a PDF file
 
-![multiselect-overview](images/pdfviewer-overview.gif)
+![multiselect-overview](images/pdfviewer-overview.gif "multiselect-overview") 
 
 ## Key Features
 
@@ -47,6 +47,7 @@ It operates on the client, displays PDF files in the browser and consists of a t
 
  * [Overview demo](https://demos.telerik.com/aspnet-ajax/pdfviewer/overview/defaultcs.aspx)
 
+ * [ASP.NET AJAX PDF Viewer](https://www.telerik.com/products/aspnet-ajax/pdf-viewer.aspx)
 
 
 
