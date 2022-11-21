@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Spreadsheet
 
 
 This article will get you started in using the **RadSpreadsheet** control. It contains the following sections:
@@ -49,11 +49,11 @@ To create a new instance of RadSpreadsheet on your page using the designer, you 
 
 * The Smart Tag should appear automatically. Within the Smart Tag menu, from the Skin drop-down chose the desired Skin for this control:
 
-![spreadsheet-overview](images/spreadsheet-smart-tag.png)
+![spreadsheet-overview](images/spreadsheet-smart-tag.png "spreadsheet-overview")
 
 * Run the application. You should see the newly created empty RadSpreadsheet on your page:
 
-![spreadsheet-overview](images/new-empty-spreadsheet.png)
+![spreadsheet-overview](images/new-empty-spreadsheet.png "spreadsheet-overview")
 
 
 
@@ -83,7 +83,7 @@ End Sub
 
 You have now bound your RadSpreadsheet using the Provider property at runtime:
 
-![spreadsheet-overview](images/spreadsheet-gettig-started-done.png)
+![spreadsheet-overview](images/spreadsheet-gettig-started-done.png "spreadsheet-overview")
 
 
 
