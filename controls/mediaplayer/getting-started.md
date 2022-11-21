@@ -8,12 +8,12 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms MediaPlayer
 
 
 
 **RadMediaPlayer** is a new addition to the Telerik's control kit for ASP.NET AJAX. And as a part of the UI bundle, it possesses the main feature of every rad control - provides the developer a useful and convenient tool designed for achieving fascinating results in a sharp time frame.
-![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
+![Media-Player-Overview-Image](images/mediaplayer-overview-image.png "Media-Player-Overview-Image")
 
 **RadMediaPlayer** can be used for presenting video and audio files from static sources or streaming online YouTube clips to enrich your web site with dynamic content in a user-friendly interface.
 
@@ -22,7 +22,7 @@ position: 1
 Configuring **RadMediaPlayer** is a quite straightforward and not time-consuming task once we know the proper steps to follow. The player uses the video and audio functionality provided by the browsers in accordance with the HTML5 standard, which means that the same format type requirements apply.
 
 1. Drag a RadMediaPlayer control from the toolbox onto your Web page. Its [Smart Tag]({%slug mediaplayer/design-time%}) should appear automatically:
-![Media-Player-Design-Time1](images/mediaplayer-designtime1.png)
+![Media-Player-Design-Time1](images/mediaplayer-designtime1.png "Media-Player-Design-Time1")
 
 2. First, we need some sources. To be consistent with all of the major browsers supporting HTML5, you may provide different formats of the videos. The browsers are capable to choose their "favorite" video format out of our source collection. Here is a short definition of the three supported formats and their compliance with the major browsers:
 
@@ -61,21 +61,21 @@ FLV support - For older browsers which don't support HTML5 natively, Internet Ex
 
 
 4. Next, we can add the main source files for the media player:
-![Media-Player-Getting-Started-1](images/mediaplayer-getting-started-1.png)
+![Media-Player-Getting-Started-1](images/mediaplayer-getting-started-1.png "Media-Player-Getting-Started-1")
 
 5. Making avail of the **MediaPlayerSource Collection Editor** we can add the rest of the videos and their HD versions respectively:
-![Media-Player-Getting-Started-2](images/mediaplayer-getting-started-2.png)
+![Media-Player-Getting-Started-2](images/mediaplayer-getting-started-2.png "Media-Player-Getting-Started-2")
 
 6. The settings we applied above can also be defined using the Properties window of the control, which can be displayed by right-clicking the RadMediaPlayer and choosing Properties from its context menu:
-![Media-Player-Getting-Started-3](images/mediaplayer-getting-started-3.png)
+![Media-Player-Getting-Started-3](images/mediaplayer-getting-started-3.png "Media-Player-Getting-Started-3")
 
 7. To conclude, we set the size of the player and we are ready to go:
-![Media-Player-Getting-Started-4](images/mediaplayer-getting-started-4.png)
+![Media-Player-Getting-Started-4](images/mediaplayer-getting-started-4.png "Media-Player-Getting-Started-4")
 
 ## Playing Audio File
 
 **RadMediaPlayer** also provides an effortless way of embedding audio files to your web sites:
-![Media-Player-Getting-Started-5](images/mediaplayer-getting-started-5.png)
+![Media-Player-Getting-Started-5](images/mediaplayer-getting-started-5.png "Media-Player-Getting-Started-5")
 
 Since the player is tightly dependent on the audio functionality provided by the browsers which support HTML5 standard, you should have in mind the different formats when working on cross-browser environment:
 
