@@ -19,7 +19,7 @@ Cross Site Scripting (XSS) attacks are a type of injection in which malicious sc
 These type of attacks are popular, therefore, this matter is a commonly discussed topic in various public articles. You can learn more about how to protect your applications against XSS attacks by following these materials:
 
 - MSDN: [How To: Prevent Cross-Site Scripting in ASP.NET](https://msdn.microsoft.com/en-us/library/ff649310.aspx)
-- OWASP: [Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29)
+- OWASP: [Cross-site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
 - MDN: [Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
 
 
