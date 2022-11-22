@@ -8,13 +8,13 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms PDFViewer
 
 The following tutorial demonstrates how you can add a **RadPdfViewer** control populated with static items. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: Basic RadPdfViewer configuration with static items
 
-![PdfViewer-getting-started](images/pdfiewer-getting-started.png)
+![PdfViewer-getting-started](images/pdfiewer-getting-started.png "PdfViewer-getting-started")
 
 1. Add a **ScriptManager** control on a Web Form.
 

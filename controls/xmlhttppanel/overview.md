@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# XmlHttpPanel Overview
+# WebForms XmlHttpPanel Overview
 
 
 
@@ -33,3 +33,8 @@ In addition, when using **RadXmlHttpPanel** a partial page update request can be
 > * [Differences Between RadXmlHttpPanel and RadAjaxPanel]({%slug xmlhttppanel/getting-started/differences-between-radxmlhttppanel-and-radajaxpanel %}) 
 > * [Troubleshooting]({%slug xmlhttppanel/troubleshooting%})
 
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/xmlhttppanel/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX XmlHttpPanel](https://www.telerik.com/products/aspnet-ajax/xmlhttppanel.aspx)

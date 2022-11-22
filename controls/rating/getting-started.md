@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Rating
 
 Below are the basic steps needed to install and configure the **RadRating** control in Visual Studio:
 

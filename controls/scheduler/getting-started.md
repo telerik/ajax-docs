@@ -8,7 +8,7 @@ published: True
 position: 3
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Scheduler
 
 
 
@@ -112,7 +112,7 @@ To further customize your scheduler - you can use custom attributes and/or resou
 
 Custom attributes are text values that are associated with the appointment. The user can enter any string as the value of a custom attribute. To define custom attributes - you need to set thethe **CustomAttributeNames**property. For example if we want to add Materials custom attribute - you'll need to set the property: **CustomAttributeNames**= "Materials". For more than one custom attributes you'll need to separate the values with comma e.g: **CustomAttributeNames**= "Materials, Stocks". Custom attributes create TextBoxes in the Advanced Form where you can put their values. To be able to see and edit custom attribute values -**EnableCustomAttributeEditing** property must be set to true:
 
-![RadScheduler Edit Appointment](images/scheduler_editappointmentgettingst.png)
+![RadScheduler Edit Appointment](images/scheduler_editappointmentgettingst.png "RadScheduler Edit Appointment")
 
 When RadScheduler is bound to XmlProvider, attributes as well as the appointment are kept in the .xml file. Here's a sample structure:
 
@@ -156,7 +156,7 @@ Custom resources let you associate additional information with your appointments
 
 Custom resources are represented by a combobox in the Advanced Form. You can change the control that wraps resources by customizing the Advanced Form described in: [this help topic.]({%slug scheduler/how-to/customize-the-advanced-form-template%})
 
-![Rad Scheduler Edit Appointment](images/scheduler_editappointmentgettingst1.png)
+![Scheduler Edit Appointment](images/scheduler_editappointmentgettingst1.png "Scheduler Edit Appointment")
 
 Based on the resources you can customize the appearance of appointments or perform custom actions. To group appointments by a custom resource, set the **GroupBy** property to the name of the custom resource.
 

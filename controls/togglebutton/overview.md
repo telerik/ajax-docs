@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# ToggleButton Overview
+# WebForms ToggleButton Overview
 
 **RadToggleButton** (**Figure 1**) lets you define several [states]({%slug togglebutton/functionality/select-state%}) the button will go through as the user clicks it. Additionally, it provides events, supports Commands, lets you [define icons]({%slug togglebutton/functionality/icons/embedded-icons%}) or [images]({%slug togglebutton/functionality/image%}) in those states, and has a [mechanism to prevent multiple postbacks]({%slug togglebutton/functionality/single-click%}). **RadToggleButton** is available as of **Q1 2016**.
 
@@ -18,7 +18,7 @@ The control can be easily styled by changing the **[Skin]({%slug togglebutton/ap
 
 >caption Figure 1: RadToggleButton with two states.
 
-![RadButton](images/toggle-button-overview.png)
+![WebForms ToggleButton Overview](images/toggle-button-overview.png "WebForms ToggleButton Overview")
 
 >caption Example 1: A basic example of different states in a RadToggleButton
 
@@ -40,7 +40,9 @@ The control can be easily styled by changing the **[Skin]({%slug togglebutton/ap
 ## See Also
 
  * [RadToggleButton Online Demos](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
- 
+  
+ * [ASP.NET AJAX Button](https://www.telerik.com/products/aspnet-ajax/button.aspx)
+
  * [RadToggleButton Getting Started]({%slug togglebutton/getting-started%})
  
  * [RadToggleButton Select State]({%slug togglebutton/functionality/select-state%})

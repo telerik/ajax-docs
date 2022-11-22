@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the WebForms AsyncUpload
 
 This tutorial will walk you through creating a Web page that uses **RadAsyncUpload** control. It shows how to
 
@@ -18,9 +18,9 @@ This tutorial will walk you through creating a Web page that uses **RadAsyncUplo
 
 1. Create a new page and add a **RadAsyncUpload** control to it.
 
-1. Click the Smart Tag of the **RadAsyncUpload** control to add **Telerik.Web.UI.WebResource.axd** handler in the web.config file:![Getting Started](images/asyncupload_rau_getting_started_1.png)
+1. Click the Smart Tag of the **RadAsyncUpload** control to add **Telerik.Web.UI.WebResource.axd** handler in the web.config file:![Getting Started](images/asyncupload_rau_getting_started_1.png "Getting Started")
 
-1. Adding the **RadScriptManager** to the page will also automatically register the **Telerik.Web.UI.WebResource.axd** handler in the web.config file. This handler is used by both **RadScriptManager** and **RadAsyncUpload**:![Getting Started part two](images/asyncupload_rau_getting_started_2.png)
+1. Adding the **RadScriptManager** to the page will also automatically register the **Telerik.Web.UI.WebResource.axd** handler in the web.config file. This handler is used by both **RadScriptManager** and **RadAsyncUpload**:![Getting Started part two](images/asyncupload_rau_getting_started_2.png "Getting Started")
 
 1. Set the **TargetFolder** property to the folder where you want the files to be automatically uploaded after the PostBack (ex. **App_Data/UploadedFiles**).
 

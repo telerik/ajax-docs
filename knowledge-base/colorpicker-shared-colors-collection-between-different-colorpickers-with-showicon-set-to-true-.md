@@ -1,6 +1,6 @@
 ---
 title: Shared colors collection between different ColorPickers with ShowIcon set to "true"
-description: Shared colors collection between different ColorPickers with ShowIcon set to "true" - RadColorPicker. Check it now!
+description: Shared colors collection between different RadColorPicker controls with ShowIcon set to 'true'.
 type: how-to
 page_title: Shared colors collection between different ColorPickers with ShowIcon set to "true"
 slug: colorpicker-shared-colors-collection-between-different-colorpickers-with-showicon-set-to-true-

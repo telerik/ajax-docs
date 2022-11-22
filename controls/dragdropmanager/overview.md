@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Drag and Drop Overview
+# WebForms Drag and Drop Overview
 
 With the R1 2022 release, **Telerik UI for ASP.NET AJAX** introduces the **RadDraggable**, **RadDropTarget** and **RadDropTargetArea** controls as tools to help you implement drag-and-drop scenarios with just a few lines of code. 
 
@@ -35,7 +35,7 @@ Apart from the regular dragging and dropping, the Drag and Drop controls bring s
 
 For a step by step tutorial explaining the example below, check out the [Getting Started]({%slug dragdropmanager/getting-started %}) article.
 
-![](images/dragdropmanager-drag-drop-scenario.gif)
+![drag and drop overview](images/dragdropmanager-drag-drop-scenario.gif "drag and drop overview")
 
 >caption Sample Code
 
@@ -97,4 +97,9 @@ For a step by step tutorial explaining the example below, check out the [Getting
     }
 </style>
 ````
+
+## See Also
+ * [ASP.NET AJAX Drag and Drop Manager](https://www.telerik.com/products/aspnet-ajax/drag-and-drop-manager.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/dragdropmanager/overview/defaultvb.aspx)
+
 

@@ -9,7 +9,7 @@ position: 0
 CTAControlName: Chat
 ---
 
-# RadChat Overview
+# WebForms Chat Overview
 
 **RadChat** for ASP.NET AJAX is a control is a server-side wrapper of the Kendo UI Chat widget. The control allows for integration with any Bot framework, due to its simplicity, flexible API and customizable templates. 
 
@@ -21,7 +21,7 @@ CTAControlName: Chat
 
 >caption **Figure 1**: A simple RadChat message flow.
 
-![chat overview](images/chat-overview.png)
+![WebForms chat overview](images/chat-overview.png "WebForms chat overview")
 
 
 #### Key Features
@@ -50,4 +50,6 @@ To get familiar with the UI elements of the RadChat you can also check the [RadC
  
  * [RadChat Structure]({%slug chat/structure%})  
 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
+ 

@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# RadStepper Overview
+# WebForms Stepper Overview
 
 RadStepper is an intuitive UI component that visualizes progress by displaying a sequence of logical steps. The RadStepper could also be used for navigational purposes.
 
 RadStepper is available as of R2 2022 and it is a server-side WebForms wrapper over the [Kendo UI Stepper for jQuery](https://docs.telerik.com/kendo-ui/controls/navigation/stepper/overview) widget.
 
-![Stepper overview](images/stepper-overview-basicusage.png)
+![WebForms Stepper overview](images/stepper-overview-basicusage.png "WebForms Stepper overview")
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-overview.html %}
@@ -61,15 +61,15 @@ The RadStepper control can be styled by setting a desired built-in skin:
 
 >caption Figure 2:
 
-![Stepper skins](images/stepper-skins.gif)
+![Stepper skins](images/stepper-skins.gif "Stepper skins")
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
 Go ahead with the [Getting Started]({%slug stepper/getting-started%}) article to learn more about Stepper Control. Also, you can check out the [RadStepper online demos](https://demos.telerik.com/aspnet-ajax/stepper/overview/defaultcs.aspx) to see it in action.
 
 
-# See Also
-
+# See Also 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
  * [Getting Started]({%slug stepper/getting-started%})
  * [RadStepper online demos](https://demos.telerik.com/aspnet-ajax/stepper/overview/defaultcs.aspx)
  * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 

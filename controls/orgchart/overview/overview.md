@@ -9,7 +9,7 @@ position: 0
 CTAControlName: OrgChart
 ---
 
-# RadOrgChart Overview
+# WebForms OrgChart Overview
 
 
 
@@ -37,8 +37,10 @@ It's specifically designed in order to help the final user creates diagrams for 
 
 Very important is to note that there is also a default image rendering. This means that if an image is not present or not set, the rendering algorithm will search for a default image set through the property RadOrgChart.DefaultImageUrl. If, however, this property is also not set, a default (for RadOrgChart) image will be rendered. Default images can be stopped from the RadOrgChart.DisableDefaultImages property.
 
-![Overview](images/radorgchart-overview.png)
+![WebForms OrgChart Overview](images/radorgchart-overview.png "WebForms OrgChart Overview")
 
 # See Also
 
  * [Online Demo](https://demos.telerik.com/aspnet-ajax/orgchart/examples/overview/defaultcs.aspx)
+
+ * [ASP.NET AJAX Org Chart](https://www.telerik.com/products/aspnet-ajax/orgchart.aspx)

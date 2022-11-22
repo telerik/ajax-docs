@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms Navigation
 
 
 ## 
@@ -16,7 +16,7 @@ position: 1
 The following tutorial demonstrates how you can add **RadNavigation** bound to SqlDataSource control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadNavigation bound to SqlDataSourcecontrol
 
-![navigation-gettingstarted](images/navigation-gettingstarted.png)
+![navigation-gettingstarted](images/navigation-gettingstarted.png "navigation-gettingstarted")
 
 1. Add a **ScriptManager** control on a Web Form.
 

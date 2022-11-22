@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadDrawer Overview
+# WebForms Drawer Overview
 
 RadDrawer operates on the client and provides a dismissible or always visible panel. It can act as a sidebar for navigation in your responsive web applications. It can also be used for updating a content of a section of the page.
 
@@ -18,7 +18,7 @@ RadDrawer is available as of R3 2019 and it is a server-side WebForms wrapper ov
 
 >caption Figure 1: RadDrawer allows you to create easily a mobile-like dismissible panel used for navigation in responsive web applications or for changing a content of a section in the page.
 
-![drawer-overview](images/drawer-overview.gif)
+![drawer-overview](images/drawer-overview.gif "drawer-overview")
 
 ## Key Features
 
@@ -32,7 +32,9 @@ RadDrawer is available as of R3 2019 and it is a server-side WebForms wrapper ov
 
 * Mini mode
   
-# See Also
+## See Also
 
  * [Overview demo](https://demos.telerik.com/aspnet-ajax/drawer/overview/defaultcs.aspx?skin=material)
+ * [ASP.NET AJAX Drawer](https://www.telerik.com/products/aspnet-ajax/drawer.aspx)
+
   

@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# SocialShare Overview
+# WebForms SocialShare Overview
 
 
 
 **RadSocialShare** is a control that allows you to easily connect your site with the **popular social networks** or let the user send an **e-mail** with the link. It creates a centralized bar in which you can choose in which networks your users will be able to share the content. You are also allowed to make only a handful of the buttons visible initially and place the rest in a popup with a search box.
 
-![socialshare-overview](images/socialshare-overview.png)
+![webforms socialshare overview](images/socialshare-overview.png "webforms socialshare overview")
 
 Key features:
 
@@ -51,6 +51,10 @@ Key features:
 * The popular [Telerik skinning mechanism]({%slug socialshare/appearance-and-styling/skins%}) to match the rest of the site
 
 # See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/socialshare/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX SocialShare](https://www.telerik.com/products/aspnet-ajax/socialshare.aspx)
 
  * [Controlling the content the user shares]({%slug socialshare/functionality/controlling-posts%})
 

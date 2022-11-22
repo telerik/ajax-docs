@@ -9,14 +9,13 @@ position: 1
 ---
 
 
-# Getting Started 
-
+# Getting Started with the Telerik WebForms Timeline
 
 The following tutorial demonstrates how you can add a **RadTimeline** control populated with declarative items. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: Basic RadTimeline configuration with static items
 
-![timeline-getting-started](images/timeline-getting-started.png)
+![Getting Started with the Telerik WebForms Timeline](images/timeline-getting-started.png "Getting Started with the Telerik WebForms Timeline")
 
 1. Add a **ScriptManager** control on a Web Form.
 

@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started With RadTextBox
+# Getting Started with the Telerik WebForms TextBox
 
 
 
@@ -31,21 +31,21 @@ This tutorial will walk you through creating a Web page that uses the **RadTextB
 * Specify maximum and minimum values.
 
 1. Drag a **RadTextBox** control from the toolbox onto your Web page. It's [Smart Tag]({%slug radtextbox/design-time%}) should appear automatically.
-![Smart Tag](images/RadTextBoxSmartTag.png)
+![Smart Tag](images/RadTextBoxSmartTag.png "Smart Tag)
 
 1. In the **RadTextBox** Smart Tag,
 	* Set the **Empty Message** to "-Enter a name-". This message will appear in the text box when the user has not entered any text.
 	* Open the **Skin** drop-down. It lets you preview the available skins and choose a skin to give the text box its general look-and-feel. Choose "Office2007".
 
-	![Empty Message and Skin](images/RadTextBoxEmptyMessageAndSkin.png)
+	![Empty Message and Skin](images/RadTextBoxEmptyMessageAndSkin.png "Empty Message and Skin")
 1. In the designer, right-click the **RadTextBox** control and choose **Properties** from its context menu:
-![RadDateInput Properties](images/RadDateInputProperties.png)
+![RadDateInput Properties](images/RadDateInputProperties.png "RadDateInput Properties")
 
 1. In the properties pane for the **RadTextBox** control, set the **Label** property to "Name:". Note that a label automatically appears in the **RadTextbox** control.
-![RadTextBox Label](images/RadTextBoxLabel.png)
+![RadTextBox Label](images/RadTextBoxLabel.png "RadTextBox Label"
 
 1. In the **Behavior** section of the properties pane, locate the **SelectionOnFocus** property and change it to "SelectAll". This causes the entire text in the text box to become selected when focus moves to the text box so that it is replaced when the user starts typing. Other options move the caret to the beginning or end of the text box.
-![Selection on Focus](images/RadTextBoxSelectionOnFocus.png)
+![Selection on Focus](images/RadTextBoxSelectionOnFocus.png "Selection on Focus")
 
 
 1. Choose the "Office2007" Skin in the Smart Tag so that the masked text box matches the other text box on your page.

@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# RadCaptcha Overview
+# WebForms Captcha Overview
 
 It is so easy to prevent your online forms from automated spam by simply adding RadCaptcha to your ASP.NET application. A flexible website security component, RadCaptcha will protect your registration, comment, poll, content submission, and so on. It generates distorted images of letters and numbers that are easily decipherable to humans, but not to spam bots. In essence, it allows you to focus on your code or content, instead of on deleting spam.
 

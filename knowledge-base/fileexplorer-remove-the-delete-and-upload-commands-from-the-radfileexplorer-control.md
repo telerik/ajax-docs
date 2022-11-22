@@ -1,8 +1,8 @@
 ---
-title: Remove the "Delete" and "Upload" commands from the RadFileExplorer control
-description: Remove the "Delete" and "Upload" commands from the RadFileExplorer control. Check it now!
+title: Remove the "Delete" and "Upload" commands from the RadFileExplorer
+description: How to remove the 'Delete' and 'Upload' commands from the RadFileExplorer?
 type: how-to
-page_title: Remove the "Delete" and "Upload" commands from the RadFileExplorer control
+page_title: Remove the "Delete" and "Upload" commands from the RadFileExplorer
 slug: fileexplorer-remove-the-delete-and-upload-commands-from-the-radfileexplorer-control
 res_type: kb
 ---

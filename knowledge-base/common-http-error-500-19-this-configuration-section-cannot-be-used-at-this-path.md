@@ -1,8 +1,8 @@
 ---
 title: HTTP Error 500.19 Config error&#58; This configuration section cannot be used at this path
-description: Config Error&#58; This configuration section cannot be used at this path. This happens when the section is locked at a parent level. Locking is either by default (overrideModeDefault="Deny"), or set explicitly by a location tag with overrideMode="Deny" or the legacy allowOverride="false".
+description: Config Error This configuration section cannot be used at this path. Check out how to fix it.
 type: troubleshooting
-page_title: HTTP Error 500.19 Config error&#58; This configuration section cannot be used at this path
+page_title: HTTP Error 500.19 Config error This configuration section cannot be used at this path
 slug: common-http-error-500-19-this-configuration-section-cannot-be-used-at-this-path
 position: 
 tags: 

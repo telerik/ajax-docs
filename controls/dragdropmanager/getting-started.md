@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms DragDropManager
 
 For a basic scenario, you will have to:
 
@@ -150,6 +150,6 @@ The "fill" CSS
 
 >caption Result
 
-![](images/dragdropmanager-drag-drop-scenario.gif)
+![Drag Drop Scenario](images/dragdropmanager-drag-drop-scenario.gif "Drag Drop Scenario")
 
  

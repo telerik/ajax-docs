@@ -8,14 +8,14 @@ published: True
 position: 0
 ---
 
-# RadBarcode - Overview
+# WebForms Barcode Overview
 
 
 
 The **RadBarcode** control can be used for automatic Barcode generation directly from a numeric or character data. It supports several standards that can be used when creating the image.
 
 >caption List with **standard barcode types** is shown in the screenshot below:
-![barcode overview](images/barcode_overview.png)
+![WebForms barcode overview](images/barcode_overview.png "WebForms barcode overview")
 
 ## Properties
 
@@ -39,4 +39,11 @@ After a barcode is added on the page, it is necessary to adjust the basic proper
 
 >note If the value in the **Text** property is invalid for the selected type, the Barcode will not be visible.
 >
+
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/barcode/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Barcode](https://www.telerik.com/products/aspnet-ajax/barcode.aspx)
 

@@ -8,13 +8,13 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Chat
 
 The following tutorial demonstrates how you can add a simple **RadChat** control. The end result will be similar to **Figure 1**:
 
 >caption **Figure 1**: A RadChat configuration with declared client-side event handlers
 
-![chat-getting-started](images/chat-getting-started.png)
+![chat-getting-started](images/chat-getting-started.png "WebForms Chat Getting Started")
 
 1. Add a **ScriptManager** control on a Web Form.
 

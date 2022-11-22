@@ -8,14 +8,14 @@ published: True
 position: 1
 ---
 
-# Getting Started 
+# Getting Started with the Telerik WebForms Drawer
 
 
 The following tutorial demonstrates how you can add the **RadDrawer** control. The end result will be similar to **Figure 1**:
 
 >caption Figure 1: RadDrawer 
 
-![drawer-getting-started](images/drawer-getting-started.gif)
+![webforms-drawer-getting-started](images/drawer-getting-started.gif "drawer-getting-started")
 
 1. Add a **ScriptManager** control on a Web Form.
 

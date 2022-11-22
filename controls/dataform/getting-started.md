@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms DataForm
 
 
 
@@ -249,6 +249,6 @@ The provided steps will lead to a markup similar to this:
 
 
 On running the application, you will see the following:
-![getting-started-bin-to-SQL](images/getting-started-bin-to-SQL.png)
+![getting-started-bin-to-SQL](images/getting-started-bin-to-SQL.png "getting-started-bin-to-SQL")
 
 # See Also

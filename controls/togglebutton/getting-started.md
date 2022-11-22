@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms ToggleButton
 
 The following tutorial demonstrates how to set up a page with a **RadToggleButton** control and use its **OnToggleStateChanged** server event:
 

@@ -8,11 +8,11 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Spell
 
 The following tutorial demonstrates using RadSpell to spell check a standard ASP.NET TextBox control using either an English or French dictionary. The walk-through will also show how to change the skin of the spell check dialog.
 
-![](images/spell-gettingstarted003b.png)
+![Getting Started with the Telerik WebForms Spell](images/spell-gettingstarted003b.png "Getting Started with the Telerik WebForms Spell")
 
 1. In the default page of a new **ASP.NET AJAX-enabled Web Application** add a TextBox control and a RadSpell control.
 

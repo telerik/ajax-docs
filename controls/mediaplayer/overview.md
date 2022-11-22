@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# MediaPlayer Overview
+# WebForms MediaPlayer Overview
 
 
 
@@ -22,7 +22,7 @@ RadMediaPlayer uses the build-in HTML5 `<video>` and `<audio>` element functiona
 
 Due to a recent change in the script of the player, from last year onward it will render as an <object> for FLV videos even on modern browsers supporting HTML5. That way, the customer is now able to provide single FLV video and let the player handle the rest.
 
-![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
+![WebForms Media-Player-Overview-Image](images/mediaplayer-overview-image.png "WebForms Media-Player-Overview-Image")
 
 
 #### Key Features
@@ -46,3 +46,9 @@ Due to a recent change in the script of the player, from last year onward it wil
 * **Volume control and Full Screen button**
 
 RadMediaPlayer will be further improved with advanced new features, such as buffering overlay animation, in-built playlist, etc.
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultvb.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax/media-video-player.aspx)

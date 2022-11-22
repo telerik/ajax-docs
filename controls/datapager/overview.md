@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# DataPager Overview
+# WebForms DataPager Overview
 
 
 
@@ -16,7 +16,7 @@ position: 0
 
 ##
 The RadDataPager control lets users view large sets of data in small chunks for faster loading and easier navigation. It also provides a set of events, helper methods and properties for custom intervention.
-![RadDataPager](images/DataPager_Overview.png)
+![WebForms RadDataPager Overview](images/DataPager_Overview.png "WebForms RadDataPager Overview")
 
 You can easily add the RadDataPager control to a Web Form within Visual Studio. The paging interface appears wherever you place the RadDataPager control on the page. You may place it before or after the RadListView control, as well as within its LayoutTemplate element.
 
@@ -76,3 +76,10 @@ Telerik RadDataPager control contains the following sever-side events and method
 | **\<NumericValue\>** |\<NumericValue\> should be replaced with number that points to the page to which the control should navigate to.|
 
 * **PageSizeChangeCommandName** represents the PageSizeChange command name which fires **RadDataPager.PageSizeChanged** event. It can be raised by buttons residing in the RadDataPager body. Their **CommandName** should be set to **PageSizeChange** and **CommandArgument** must be the actual number representing the new page size that will be set.
+
+
+## See Also 
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/datapager/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Data Pager](https://www.telerik.com/products/aspnet-ajax/datapager.aspx)

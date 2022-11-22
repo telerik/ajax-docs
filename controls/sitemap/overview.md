@@ -9,13 +9,13 @@ position: 0
 CTAControlName: Sitemap
 ---
 
-# Sitemap Overview
+# WebForms Sitemap Overview
 
 
 
 ## 
 
-![RadSiteMap Templates](images/sitemap_templates.png)
+![WebForms RadSiteMap Templates](images/sitemap_templates.png "WebForms RadSiteMap Templates")
 
 Improve you web page load time with the flexible, lightweight **RadSiteMap** control for ASP.NET AJAX. This UI component with its efficient semantic rendering gives you a lightning fast solution and highly optimized HTML output. With the ease of Telerik’s SiteMap for ASP.NET AJAX you can organize and list the pages on your web site, customize the layout, choose from a variety of appearance options and templates. Add value to your web site by optimizing it for crawler and search engines with no extra development effort.
 
@@ -35,7 +35,7 @@ You can configure the layout of RadSiteMap in a variety of modes. The nodes can 
 
 The ASP.NET SiteMap by Telerik allows you to define a collection of dynamic templates that customize the presentation of the hierarchy and the individual nodes. You can apply per-level, per-node and global templates and add extra information, such as images, links to additional sources, etc.
 
-![RadSiteMap Overview](images/sitemap_overview.png)
+![WebForms RadSiteMap Overview](images/sitemap_overview.png "WebFormsRadSiteMap Overview")
 
 **Appearance**
 
@@ -53,4 +53,11 @@ RadSiteMap completely follows the principles of Search Engine Optimization. The 
 
 Now you can record, execute and debug functional tests for RadSiteMap without leaving the familiar Visual Studio environment. Telerik WebUI Test Studio is an advanced click and play web application testing tool specialized for automating ASP.NET AJAX applications. The Studio ships with special translators for Telerik RadControls for ASP.NET AJAX.
 
-![RadSiteMap List](images/sitemap_list.jpg)
+![RadSiteMap List](images/sitemap_list.jpg "RadSiteMap List")
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/sitemap/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX SiteMap](https://www.telerik.com/products/aspnet-ajax/sitemap.aspx)
+

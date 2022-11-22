@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# TabStrip Overview
+# WebForms TabStrip Overview
 
 ## 
 
@@ -64,4 +64,9 @@ Using **RadTabStrip**, you get:
 
 
 
-![Multipage](images/tabstrip_tab_multipage.gif)
+![Multipage](images/tabstrip_tab_multipage.gif "Multipage")
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/tabstrip/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX TabStrip](https://www.telerik.com/products/aspnet-ajax/tabstrip.aspx)

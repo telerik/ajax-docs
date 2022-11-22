@@ -1,6 +1,6 @@
 ---
 title: ReadEditor Word Count is not shown when EditModes is set to Design
-description: See how to show the Symbol Counter module of RadEditor when EditModes="Design".
+description: How to show the Symbol Counter module of RadEditor when EditModes='Design'?
 type: troubleshooting
 page_title: ReadEditor Word Count is not displayed when EditModes is set to Design
 slug: editor-show-symbol-counter

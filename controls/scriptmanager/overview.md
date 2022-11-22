@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# ScriptManager Overview
+# WebForms ScriptManager Overview
 
 
 By default, each of the RadControls for ASP.NET AJAX serves a set of files (JS code) needed for its proper client-side operation.
@@ -129,3 +129,11 @@ There are two cases:
 * **RadScriptManager** does not support the automatic switch to debug-mode. For example, having an assembly including ScriptReferences in both Debug and Release ScriptMode, where the application is in a debug mode, RadScriptManager will output only the "Release" ones. If debugging is needed, the **EnableScriptCombine** property can be set to **False**.
 
 * **RadScriptManager** currently does not display IntelliSense information for the <Scripts> property and the ScriptReferences.
+
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/?_ga=2.169916642.391808064.1659423834-859616464.1659423834)
+ 
+ * [ASP.NET AJAX Script Manager](https://www.telerik.com/products/aspnet-ajax/scriptmanager.aspx)
+
+ 

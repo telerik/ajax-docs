@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# AsyncUpload Overview
+# WebForms AsyncUpload Overview
 
 This article gives a quick overview of the **RadAsyncUpload** control and shows the steps to declare it. We also describe some of the major features of **RadAsyncUpload** that was introduced in Q1 2010 with [UI for ASP.NET AJAX 2010.1.309](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2010-1309).
 
 **RadAsyncUpload** looks like the regular **RadUpload** control but offers an *asynchronous upload* capability. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. The uploaded files are stored in a temporary location *until a postback* occurs. The temporary files are deleted after a set amount of time defined by the [TemporaryFileExpiration](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadAsyncUpload#temporaryfileexpiration) property. The default value is 4 hours.
 
-![Overview](images/asyncupload-overview.png)
+![WebForms ajaxPanel Overview](images/asyncupload-overview.png "WebForms ajaxPanel Overview")
 
 ## Get started with the RadAsyncUpload
 
@@ -73,4 +73,8 @@ One of the benefits of RadAsyncUpload is that it allows you to upload files bigg
  * [Uploading Large Files]({%slug asyncupload/functionality/uploading-large-files%})
 
  * [Online Demos](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Upload (Async)](https://www.telerik.com/products/aspnet-ajax/asyncupload.aspx)
+
+
  

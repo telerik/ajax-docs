@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms ImageButton
 
 The following tutorial demonstrates how to set up a page with a **RadImageButton** control and attach its **OnClick** server event:
 

@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms ClientDataSource
 
 
 
@@ -57,7 +57,7 @@ With the steps below, we will show how to entirely bind a **RadGrid** control to
 
 1. Click on the smart tag of **RadGrid** controland specify the **ClientdataSourceID**
 
-    ![client-data-source-id](images/client-data-source-id.png)
+    ![client-data-source-id](images/client-data-source-id.png "client-data-source-id")
 
 1. Specify the RadGrid columns, their **DataFields** and the other required settings like **paging**, **filtering** ect.
 
@@ -99,6 +99,6 @@ With the steps below, we will show how to entirely bind a **RadGrid** control to
 
 1. We are ready to view the page in the browser
 
-    ![client-data-source-grid](images/client-data-source-grid.png)
+    ![client-data-source-grid](images/client-data-source-grid.png "client-data-source-grid")
 
 

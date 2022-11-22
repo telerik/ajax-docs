@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# FloatingActionButton Overview
+# WebForms FloatingActionButton Overview
 
 The Telerik RadFloatingActionButton is a component tied to the primary action of a screen. It floats in the application above other items and has some main action that is contextual to the content on the page.
 
 RadFloatingActionButton is available as of R3 2022 and it is a server-side WebForms wrapper over the [Kendo UI FloatingActionButton for jQuery](https://docs.telerik.com/kendo-ui/controls/navigation/floatingactionbutton/overview) widget.
 
-![RadFloatingActionButton overview](images/floatingbutton-overview.png)
+![RadFloatingActionButton overview](images/floatingbutton-overview.png "WebForms FloatingActionButton Overview")
 
 ## Key Features
 
@@ -30,7 +30,7 @@ RadFloatingActionButton is available as of R3 2022 and it is a server-side WebFo
 
 The RadFloatingActionButton control can be styled by setting a desired built-in skin:
 
-![RadFloatingActionButton skins](images/floatingbutton-skins.gif)
+![RadFloatingActionButton skins](images/floatingbutton-skins.gif "FloatingActionButton skins")
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
@@ -40,6 +40,7 @@ Go ahead with the [Getting Started]({%slug floatingactionbutton/getting-started%
 # See Also
 
  * [Getting Started]({%slug floatingactionbutton/getting-started%})
- * [RadFloatingActionButton online demos](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/examples/overview/defaultcs.aspx)
+ * [RadFloatingActionButton online demos](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/examples/overview/defaultcs.aspx) 
+ * [ASP.NET AJAX Floating Action Button](https://www.telerik.com/products/aspnet-ajax/floating-action-button.aspx)
  * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
 
