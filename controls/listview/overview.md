@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# ListView Overview
+# WebForms ListView Overview
 
 
 Telerik RadListView is designed to give your the freedom to specify predefined or customized type of layout for the items displayed in the control and in the same time gives you integrated sorting, paging, grouping, editing, selecting, etc. capabilities. You can embed various controls of your choice in RadListView's templates and model their appearance in a custom manner. Thanks to its innovative architecture Telerik RadListView is extremely fast and generates very little output. Added to this is true cross browser support  — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support).
@@ -102,7 +102,7 @@ public class SampleData
 
 The result from the code above:
 
-![ListView basic sample](images/listview_basic.png)
+![ListView basic sample](images/listview_basic.png "ListView sample")
 
 
 Enable paging:
@@ -169,7 +169,7 @@ End Sub
 
 Result from code snippets above:
 
-![ListView Paging with AJAX](images/listview_basicPaging.gif)
+![ListView Paging with AJAX](images/listview_basicPaging.gif "ListView Paging with AJAX")
 
 Main benefits of using RadListView:
 
@@ -230,7 +230,7 @@ Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-![Listview basic sorting](images/listview_basicSorting.gif)
+![Listview basic sorting](images/listview_basicSorting.gif "Listview basic sorting")
 
 * Enable selection
 
@@ -264,7 +264,7 @@ End Sub
 }
 ````
 
-![RadListView Selecting](images/listview_selecting.gif)
+![ListView Selecting](images/listview_selecting.gif "ListView Selecting")
 
 * Enable filtering
 
@@ -290,7 +290,7 @@ Sample grouping with RadFilter, see [RadFilter - Telerik ASP.NET Filter](https:/
 </telerik:RadListView>
 ````
 
-![RadListView Filtering](images/listview_filtering.gif)
+![ListView Filtering](images/listview_filtering.gif "ListView Filtering")
 
 * Create/Read/Update/Delete (CRUD) operations and validation
 
@@ -384,11 +384,13 @@ Sample Automatic CRUD operations with ListView bound to SqlDataSource component:
 }
 ````
 
-![RadListView CRUD and validation](images/listview_crud.gif)
+![ListView CRUD and validation](images/listview_crud.gif "ListView CRUD and validation")
 
 ## See Also
 
 - [Getting Started]({%slug listview/getting-started%})
+
 - [Live Demos](https://demos.telerik.com/aspnet-ajax/listview/examples/overview/defaultcs.aspx)
 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax/listview.aspx)
 

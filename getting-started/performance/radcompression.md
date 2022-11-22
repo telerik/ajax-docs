@@ -10,7 +10,7 @@ published: True
 position: 2
 ---
 
-# Compression
+# WebForms Compression Overview
 
 >The Telerik UI for ASP.NET AJAX Compression module is now deprecated. It is recommended that you use the IIS 7 or later dynamic content compression feature. If you are still concerned about the response size, consider storing the ViewState on the server instead of using the default hidden field.
 

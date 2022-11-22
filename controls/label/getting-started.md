@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms Label
 
 
 This article describes a sample scenario where **RadLabel** is used with a **RadDatePicker** control.

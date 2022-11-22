@@ -8,7 +8,7 @@ published: Truecontrols
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik LightBox
 
 
 

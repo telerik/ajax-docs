@@ -10,7 +10,7 @@ position: 0
 CTAControlName: Zip Library
 ---
 
-# Overview
+# WebForms ZipLibrary Overview
 
 
 >note **RadZipLibrary** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview).
@@ -18,7 +18,7 @@ CTAControlName: Zip Library
 
 Have you ever wondered how to increase the responsiveness of your applications by compressing the data that you send over the internet? With the new __Zip Library__ you can compress data like images, docx or pdf files and send them over the wire. Thus, you will achieve fast and secure transactions. 
 
-![Zip Library Overview image](images/ZipLibrary_Overview_01.png)
+![WebForms Zip Library Overview image](images/ZipLibrary_Overview_01.png "WebForms Zip Library Overview image")
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-overview.html %}
@@ -38,4 +38,9 @@ This is a list with short descriptions of the top-of-the-line features of Teleri
 * **Support for [encryption](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/features/protect-ziparchive)**: You can protect your ZIP file with password for more security.
             
 
+## See Also
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/ziplibrary/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Zip Library](https://www.telerik.com/products/aspnet-ajax/zip-library.aspx)
             

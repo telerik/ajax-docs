@@ -9,7 +9,7 @@ position: 4
 CTAControlName: SkinManager
 ---
 
-# RadSkinManager
+# WebForms RadSkinManager Overview
 
 This article provides the following information:
 
@@ -38,9 +38,9 @@ There are various methods to specify the skins for Telerik controls - declarativ
 
 This is where the RadSkinManager control comes into place. Its intuitive design-time options allow you to define global skin for the Telerik controls on the page as well as granular settings for particular controls through the TargetControls collection. Below are a couple of screen shots which visualize that.
 
-![RadSkinManager - Design time](images/radskinmanager_designtime.PNG)
+![RadSkinManager - Design time](images/radskinmanager_designtime.PNG "RadSkinManager - Design time")
 
-![RadSkinManager - TargetControls collection](images/radskinmanager_targetcontrolscollection.PNG)
+![RadSkinManager - TargetControls collection](images/radskinmanager_targetcontrolscollection.PNG "RadSkinManager - TargetControls collection")
 
 ## How to use RadSkinManager?
 
@@ -338,3 +338,7 @@ You could alternatively add this reference in the web.config:
 ````
 
 * Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **true**.
+
+## See Also
+ 
+ * [ASP.NET AJAX Skin Manager](https://www.telerik.com/products/aspnet-ajax/skinmanager.aspx)

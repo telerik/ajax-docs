@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Label Overview
+# WebForms Label Overview
 
 
 **Radlabel** for ASP.NET AJAX is a flexible server-side control intended to substitute the standard ASP.NET Label control. It supports seamless integration with all Telerik controls and provides consistent look and feel with the built in Telerik skins, allowing many options for easier customizations according to user needs.
@@ -27,5 +27,8 @@ The Label control provides server-side API that allows customization of its beha
 
 # See Also
 
- * [RadLabel Server-side Object]({%slug label/server-side-programming/radlabel-object%})
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/label/overview/defaultcs.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
 
+ * [RadLabel Server-side Object]({%slug label/server-side-programming/radlabel-object%})

@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Getting Started
+# Getting Started with the Telerik LinkButton
 
 The following tutorial demonstrates how to set up a page with a **RadLinkButton** control and configure its **NavigateUrl** and **Target** properties.
 

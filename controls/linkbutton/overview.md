@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# LinkButton Overview
+# WebForms LinkButton Overview
 
 The **RadLinkButton** control (**Figure 1**) enriches the features, that ASP.NET HyperLink control has. It provides additional events, ability to [define icons]({%slug linkbutton/functionality/icons/embedded-icons%}) and [content template]({%slug linkbutton/functionality/contenttemplate%}) and numerous [themes]({%slug linkbutton/appearance-and-styling/skins%}). **RadLinkButton** is available as of **Q1 2016**.
 
@@ -18,7 +18,7 @@ The control can be easily styled by changing the **Skin** property, and alternat
 
 >caption Figure 1: RadLinkButton control provides a rich API and UI.
 
-![RadLinkButton](images/buttons.png)
+![WebForms LinkButton Overview](images/buttons.png "WebForms LinkButton Overview")
 
 >note **RadLinkButton** does not support a Classic [render mode]({%slug linkbutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
@@ -37,7 +37,9 @@ Code that creates Figure 1:
 
 ## See Also
 
- * [RadLinkButton Online Demos](https://demos.telerik.com/aspnet-ajax/linkbutton/examples/overview/defaultcs.aspx)
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/linkbutton/overview/defaultcs.aspx)
+ 
+ * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
  
  * [RadLinkButton Getting Started]({%slug linkbutton/getting-started%})
  

@@ -8,7 +8,7 @@ published: True
 position: 4
 ---
 
-# Getting Started
+# Getting Started with the Telerik WebForms ListBox
 
 ## 
 
@@ -20,13 +20,13 @@ This tutorial will show you how to:
 
 1. In a new AJAX Enabled Web Site, drop a RadListBox to the default form.
 
-![Adding RadListBox from the ToolBox](images/listbox_toolbox.png)
+![Adding RadListBox from the ToolBox](images/listbox_toolbox.png "Adding RadListBox from the ToolBox")
 
 2. From the [Smart Tag]({%slug listbox/design-time/smart-tag%}) click on the Add RadScriptManager link. It will automatically register the handler in the web.config file.
 
-![Add Script Manager](images/listbox_add_radscriptmanager.png)
+![Add Script Manager](images/listbox_add_radscriptmanager.png "Add Script Manager]")
 
-![Handler Added](images/listbox_handler_added.png)
+![Handler Added](images/listbox_handler_added.png "Handler Added")
 
 3. Click on the Build RadListBox link to open the [Item Builder]({%slug listbox/design-time/item-builder%}). Now use it to add several items:
 
@@ -42,7 +42,7 @@ This tutorial will show you how to:
 
 8. Run the project - now you can move the items up and down, left and right with the buttons. You can also drag and drop the items. In addition, you can move all items from right to left or vice versa with a single button click.
 
-![Getting Started](images/listbox_getting_started.png)
+![Getting Started](images/listbox_getting_started.png "Getting Started")
 
 9. To get the destination items iterate the **Items** collection of the second listbox using the foreach statement:
 

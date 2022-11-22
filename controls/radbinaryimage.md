@@ -9,7 +9,7 @@ position: 6
 CTAControlName: RadBinaryImage
 ---
 
-# RadBinaryImage
+# WebForms RadBinaryImage Overview
 
 
 
@@ -54,7 +54,7 @@ The RadBinaryImage Smart Tag provides convenient access to the most common used 
 
 Here is an [online demo](https://demos.telerik.com/aspnet-ajax/binaryimage/examples/overview/defaultcs.aspx) which demonstrates how to integrate **RadBinaryImage** as part of **ASP.NET** **Repeater** template. The screen shot from the result is available below:
 
-![radbinaryimage thumb](images/radbinaryimage_thumb.PNG)
+![webforms radbinaryimage thumb](images/radbinaryimage_thumb.PNG "webforms radbinaryimage thumb")
 
 ````ASPNET
 <html xmlns="https://www.w3.org/1999/xhtml">
@@ -211,3 +211,7 @@ To avoid this behavior, you should store the binary image in the Session and con
 # See Also
 
  * [Integrating RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](https://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)
+
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/binaryimage/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX BinaryImage](https://www.telerik.com/products/aspnet-ajax/binaryimage.aspx)

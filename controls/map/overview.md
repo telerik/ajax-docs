@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Map Overview
+# WebForms Map Overview
 
 **RadMap** for ASP.NET AJAX is a control powered by the	[Kendo UI DataViz Map](https://demos.telerik.com/kendo-ui/map/index) widget.	This control simplifies the setup of Map Tile Services with	[OpenStreetMap](https://www.openstreetmap.org/#map=8/42.745/25.494) and	[Bing](https://www.bingmapsportal.com/).	You can use different Shape layers and GeoJSON data to create helpful map modules in ASP.NET web applications.	The rich built-in functionality of the Map allows you to add and control predefined layouts, markers, tooltips, zoom levels, UI elements and many more.
 
@@ -41,11 +41,13 @@ Here is an example of what you can achieve with the control:
 
 >caption **Figure 1**: Demonstrates a RadMap in an ASP.NET page
 
-![Map Overview Image](images/Map_Overview_Image.png)
+![WebForms Map Overview Image](images/Map_Overview_Image.png "WebForms Map Overview Image")
 
 # See Also
 
- * [RadMap Online Examples](https://demos.telerik.com/aspnet-ajax/map)
+ * [Online Demos](https://demos.telerik.com/aspnet-ajax/map/examples/overview/defaultcs.aspx)
+ 
+ * [ASP.NET AJAX Map](https://www.telerik.com/products/aspnet-ajax/map.aspx)
 
  * [Overview]({%slug map/getting-started/overview%})
 
