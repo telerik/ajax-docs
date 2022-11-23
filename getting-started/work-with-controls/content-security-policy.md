@@ -6,7 +6,7 @@ slug: general-information/content-security-policy
 previous_url: general-information/troubleshooting/content-security-policy
 tags: telerik, asp, net, ajax, content, security, policy, csp, unsafe-eval, eval, microsoft
 published: True
-position: 5
+position: 15
 ---
 
 # Content Security Policy Mode
