@@ -49,7 +49,7 @@ Also, go through the [FAQ section]({%slug asyncupload-security%}#frequently-aske
 
 * [How to encrypt the Telerik appSettings keys]({%slug common-how-to-encrypt-the-telerik-appsettings-keys%}) - In some cases you may want to avoid storing information in plain text to improve security. The article will guide you how to do encrypt the appSetting section of the web.config using the aspnet_regiis tool.
 
-* **Ecrypt ViewState** - ViewState gets encrypted by default after ASP.NET 4.5 and MAC-ed after ASP.NET 4.5.2. For the earlier versions you have the options to enable the ViewState encryption by setting the *ViewStateEncryptionMode* and *EnableViewStateMAC* attributes in web.config or page directive as suggested in [Security Briefs - View State Security](https://learn.microsoft.com/en-us/archive/msdn-magazine/2010/july/security-briefs-view-state-security):
+* **Encrypt ViewState** - ViewState gets encrypted by default after ASP.NET 4.5 and MAC-ed after ASP.NET 4.5.2. For the earlier versions you have the options to enable the ViewState encryption by setting the *ViewStateEncryptionMode* and *EnableViewStateMAC* attributes in web.config or page directive as suggested in [Security Briefs - View State Security](https://learn.microsoft.com/en-us/archive/msdn-magazine/2010/july/security-briefs-view-state-security):
 
  ````XML
 <configuration>
@@ -62,5 +62,7 @@ The official recommendation by Microsoft is to upgrade to at least .NET 4.8 as n
 * [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) - The Telerik.ScriptManager.EnableHandlerEncryption setting allows you enable the Telerik WebResource request querystring encryption amd hide the product version.
 
 * [Embedded jQuery Security]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#embedded-jquery-security) - find out how the Telerik team has modified and secured the jQuery version distributed by the suite. 
+
+* Last but not least perform regular upgrades to the latest Telerik UI for ASP.NET AJAX version since this will ensure security, stability and support for the latest modern browsers. You can find upgrade instructions [here]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}).
 
   
