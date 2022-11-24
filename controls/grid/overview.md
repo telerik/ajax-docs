@@ -105,7 +105,7 @@ Check out the most commonly used key features below, or head directly to the [Ge
 
 ## Advanced Grid
 
-![WebForms Advance Grid](images/grid-overview-advanced.png "Advance Grid")
+![WebForms Advanced Grid](images/grid-overview-advanced.png "Advanced Grid")
 
 List of key functionalites you can find below:
 
@@ -190,7 +190,7 @@ See [InPlace]({%slug grid/data-editing/edit-mode/in-place%}) documentation.
 
 See [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) documentation.
 
-![Grid Batch Edit Form](images/grid-overview-batchedit.png "Grid Batch Edit Form")
+![Grid Batch Edit Form](images/grid-overview-batchedit.png "Batch Editing")
 
 
 ## Properties & Methods - API Reference
