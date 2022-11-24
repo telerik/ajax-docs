@@ -14,31 +14,31 @@ In this article you will find out useful tips and resources on how to tighten th
 
 
 
-## RadAsyncUpload security
+## AsyncUpload security
 
 * [Security]({%slug asyncupload-security%}) - This article explains how to ensure information about the RadAsyncUpload configuration is secure and non-readable. Its transmission between the client and the server must be encrypted and impossible to decode, so the data cannot be used by a malicious entity in an attack against the server.
 
 Also, go through the [FAQ section]({%slug asyncupload-security%}#frequently-asked-questions) where you can find useful information and tips for the AsyncUpload security.
 
-## RadClouUpload security
+## ClouUpload security
 
 * [Security]({%slug cloudupload-security%}) - See how to ensure information about the RadCloudUpload configuration is secure and non-readable.
 
-## RadEditor security
+## Editor security
 
 * [Security]({%slug editor/security%}) - learn how to ensure information about the RadEditor configuration is secure and non-readable. Its transmission between the client and the server must be encrypted and impossible to decode, so the data cannot be used by a malicious entity in an attack against the server.
 * [Prevent Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) - see how to enable the anti-XSS mechanism of RadEditor.
 
-## RadGrid security
+## Grid security
 
 * [Security]({%slug grid/security%}) - this article addresses Security issues concerning the Telerik RadGrid.
 
 
-## RadFileExplorer security
+## FileExplorer security
 
 * [Security]({%slug fileexplorer/security%}) - learn how to  secure the user actions invoked through RadFileExplorer.
 
-## RadSpell security
+## Spell security
 
 * [Security]({%slug spell/security%}) - the article shows how to ensure information about the RadSpell configuration is secure and non-readable
 
@@ -64,6 +64,8 @@ The official recommendation by Microsoft is to upgrade to at least .NET 4.8 as n
 * [Embedded jQuery Security]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#embedded-jquery-security) - find out how the Telerik team has modified and secured the jQuery version distributed by the suite. 
 
 * Perform regular upgrades to the latest Telerik UI for ASP.NET AJAX version since this will ensure security, stability and support for the latest modern browsers. You can find upgrade instructions [here]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}). 
+
+* [Content Security Policy Mode]({%slug general-information/content-security-policy%}) - see how to configure the Telerik ASP.NET AJAX controls under CSP mode.
 
 * You can find more tips in the following blog post [First 5 Tips for Building Secure (Web) Apps](https://www.telerik.com/blogs/first-5-tips-for-building-secure-web-apps).
 
