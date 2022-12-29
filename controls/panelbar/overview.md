@@ -56,7 +56,7 @@ CTAControlName: PanelBar
 
 * Lightweight markup (no tables).
 
-* [Compliance to multiple standards]({%slug panelbar/standards-compliance%}).
+* [Compliance to multiple standards]({%slug panelbar/accessibility-and-internationalization/standards-compliance%}).
 
 * [Cross-page postbacks]({%slug panelbar/web-pages/cross-page-postback%}), which let you direct postbacks from the panel bar to a different Web page.
 
