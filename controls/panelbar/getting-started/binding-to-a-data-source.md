@@ -5,7 +5,7 @@ description: Check our Web Forms article about Binding to a Data Source.
 slug: panelbar/getting-started/binding-to-a-data-source
 tags: binding,to,a,data,source
 published: True
-position: 1
+position: 3
 ---
 
 # Binding to a Data Source

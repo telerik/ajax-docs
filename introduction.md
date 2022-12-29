@@ -136,7 +136,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [Page Layout]({%slug pagelayout/overview%})
 
-* [PanelBar]({%slug panelbar/overview/overview%})
+* [PanelBar]({%slug panelbar/overview%})
 
 * [PdfProcessing]({%slug radpdfprocessing-overview%})
 

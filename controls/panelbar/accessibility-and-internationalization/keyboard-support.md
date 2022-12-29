@@ -5,7 +5,7 @@ description: Check our Web Forms article about Keyboard Support.
 slug: panelbar/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
-position: 0
+position: 1
 ---
 
 # Keyboard Support

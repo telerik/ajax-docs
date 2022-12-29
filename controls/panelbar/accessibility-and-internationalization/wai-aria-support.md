@@ -5,7 +5,7 @@ description: Check our Web Forms article about WAI-ARIA Support.
 slug: panelbar/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True
-position: 1
+position: 2
 ---
 
 # WAI-ARIA Support

@@ -66,4 +66,4 @@ There are numerous ways to populate a panel bar with items. These include
 
  * [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%})
 
- * [Structure]({%slug panelbar/overview/structure%})
+ * [Structure]({%slug panelbar/structure%})

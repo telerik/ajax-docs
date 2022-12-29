@@ -2030,7 +2030,7 @@ intro_columns:
       "LinkButton": "linkbutton/overview"
       "Menu": "menu/overview"
       "Navigation": "navigation/overview"
-      "PanelBar": "panelbar/overview/overview"
+      "PanelBar": "panelbar/overview"
       "PushButton": "pushbutton/overview"
       "RadioButtonList": "radiobuttonlist/overview"
       "RibbonBar": "ribbonbar/overview"
