@@ -106,6 +106,11 @@ Here is a process of how to define a font that contains the desired symbols for 
 
     ![Special Characters Exported](images/clientexportmanager-special-characters-exported.png)
 
+
+>important Some of the popular fonts (Segoe UI, Arial Unicode MS, Noto Serif) by default do not support the bold font. In the browser you see it working since there are many fonts the browser can fall back to, however, the exported content is not able to fall back to any font.
+To be able to export the bold text, you will need to add the bold font to the collection. Bold font for Segoe and bold font for Arial Unicode, etc.
+>
+
 ## Tips on defining fonts
 
 Defining a `@font-face` element in the CSS of the page is equivalent to populating the `Fonts` collection. For example:
