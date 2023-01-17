@@ -19,7 +19,7 @@ To use the API, you must first [get a reference to the control's client-side obj
 var signature = $find("<%=RadSignature1.ClientID %>");
 ````
 
-RadSignature is a server-side wrapper over the Kendo UI Signature Widget. Thus, it exposes [the API of the underlying Kendo widget](https://docs.telerik.com/kendo-ui/api/javascript/ui/signature). To get a reference to the Kendo widget instance, you can do either of the following:
+Signature UI component for ASP.NET AJAX is a server-side wrapper over the Kendo UI Signature Widget. Thus, it exposes [the API of the underlying Kendo widget](https://docs.telerik.com/kendo-ui/api/javascript/ui/signature). To get a reference to the Kendo widget instance, you can do either of the following:
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
@@ -56,18 +56,18 @@ In addition to using the Kendo methods directly, you can also use their wrappers
 | **set_fillMode** |string|none|Sets the FillMode of the Signature. |
 | **get_hideLine** |none|Boolean|Indicates whether the dotted line in the Signature Pad is hidden. |
 | **set_hideLine** |Boolean|none|Sets whether the dotted line in the Signature Pad to be hidden. |
-| **get_maximizable** |none|Boolean|Indicates whether the Signature can be maximized. |
-| **set_maximizable** |Boolean|none|Sets whether the Signature can be maximized. |
+| **get_maximizable** |none|Boolean|Indicates whether the control can be maximized. |
+| **set_maximizable** |Boolean|none|Sets whether the control can be maximized. |
 | **get_popupScale** |none|Number|Gets the current scale of the Signature PopUp. |
 | **set_popupScale** |Number|none|Sets the current scale of the Signature PopUp. |
-| **get_size** |none|string|Gets the current size of Signature control. |
-| **set_size** |string|none|Sets the current size of Signature control. |
+| **get_size** |none|string|Gets the current size of Signature UI control. |
+| **set_size** |string|none|Sets the current size of Signature UI control. |
 | **get_rounded** |none|string|Gets the current value of the Rounded property of Signature control. |
 | **set_rounded** |string|none|Sets the current value of the Rounded property of Signature control. |
 | **get_strokeWidth** |none|Number|Gets the current width of the stroke line of Signature control. |
 | **set_strokeWidth** |Number|none|Sets the current width of the stroke line of Signature control. |
-| **get_value** |none|string|Gets the current base64 string value of the Signature. |
-| **set_value** |string|none|Sets the current base64 string value of the Signature. |
+| **get_value** |none|string|Gets the current base64 string value of the component. |
+| **set_value** |string|none|Sets the current base64 string value of the component. |
 
 # See Also
 

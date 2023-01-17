@@ -2,7 +2,7 @@
 title: Validation
 page_title: Validation - RadSignature
 description: Check our Web Forms article about how to validate a RadSignature.
-slug: signature/functionality/items
+slug: signature/functionality/validation
 published: True
 position: 3
 ---

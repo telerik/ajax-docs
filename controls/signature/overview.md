@@ -12,15 +12,15 @@ position: 0
 
 The Telerik RadSignature is a component designed to allow the users to create handwritten signatures.
 
-RadSignature is available as of R1 2023 and it is a server-side WebForms wrapper over the [Kendo UI Signature for jQuery](https://docs.telerik.com/kendo-ui/controls/editors/signature/overview) widget.
+The Signature UI Control for ASP.NET AJAX is available as of R1 2023 and it is a server-side WebForms wrapper over the [Kendo UI Signature for jQuery](https://docs.telerik.com/kendo-ui/controls/editors/signature/overview) widget.
 
 ![RadSignature overview](images/signature-overview.png)
 
 ## Key Features
 
- * [Appearance]() — The RadSignature control provides a number of options for modifying its background, and stroke colors and width.
- * [Validation and Form Integration]() — You can also use the Signature inside a submission form and validate its content.
- * [Image export]() — The Signature enables you to export it to a PNG file.
+ * [Appearance]({%slug signature/functionality/appearance%}) — The RadSignature control provides a number of options for modifying its background, and stroke colors and width.
+ * [Validation and Form Integration]({%slug signature/functionality/validation%}) — You can also use the Signature inside a submission form and validate its content.
+ * [Image export]({%slug signature/functionality/image-export%}) — The Signature enables you to export it to a PNG file.
 
 
 # See Also

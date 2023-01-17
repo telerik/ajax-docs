@@ -10,7 +10,7 @@ position: 0
 
 # Server Side Programming Overview
 
-You can configure the settings of RadSignature and create its items in the code-behind via the Server-Side API of the control.
+You can configure the settings of Signature UI Control and create its items in the code-behind via the Server-Side API of the control.
 
 ## RadSignature Public Properties
 

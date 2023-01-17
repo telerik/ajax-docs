@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Getting Started with the Telerik Signature
+# Getting Started with the Telerik Signature for ASP.NET AJAX
 
 The following article demonstrates how you can add the RadSignature control and customize it by setting some of its properties.
 

@@ -22,7 +22,7 @@ The RadSignature exposes the  `StrokeWidth`, `BackColor`, and `ForeColor` proper
  - `FillMode`— controls the way the color is applied to the rendered Signature. Available options are: *Solid*, *Flat*, *Outline*, *None*.
  
 
-Test the various settings in the **[Appearance Demo for the RadSignature](https://demos.telerik.com/aspnet-ajax/signature/appearance/defaultcs.aspx)**
+Test the various settings in the **[Appearance Demo for the RadSignature](https://demos.telerik.com/aspnet-ajax/signature/appearance/defaultcs.aspx)**.
 
 # See Also
 
