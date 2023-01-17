@@ -93,6 +93,10 @@ The CssClass property will now be used instead of the former Skin
 
 Gets or sets a message when there is no selected item in the DropDownList.
 
+###  DropDownAutoWidth `RadDropDownListDropDownAutoWidth`
+
+Gets or sets whether to enable/disable the RadDropDownList drop down auto width.
+
 ###  DropDownHeight `Unit`
 
 Gets or sets the height of the dropdown in pixels.
