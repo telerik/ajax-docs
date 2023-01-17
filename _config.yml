@@ -413,6 +413,9 @@ navigation:
     "controls/searchbox":
         title: "SearchBox"
         position: 1
+    "controls/signature":
+        title: "Signature"
+        position: 1
     "controls/sitemap":
         title: "Sitemap"
         position: 1
@@ -1990,6 +1993,7 @@ intro_columns:
       "DropDownList": "dropdownlist/overview"
       "DropDownTree": "dropdowntree/overview"
       "Editor": "editor/overview"
+      "Signature": "signature/overview"
       "Image Editor": "imageeditor/overview"
       "InputManager": "radinputmanager/overview"
       "Label": "label/overview"
