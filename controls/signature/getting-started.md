@@ -32,11 +32,11 @@ You can set the desired button text via the `Text` property and specify a built-
 </telerik:RadSignature>
 ````
 
-As a next step, you can check out the [Functionality]({%slug signature/functionality/alignment%}) of the Signature component.
+As a next step, you can check out the [Functionality]({%slug signature/functionality/appearance%}) of the Signature component.
 
 ## See Also
 
- * [Functionality]({%slug signature/functionality/alignment%})
+ * [Functionality]({%slug signature/functionality/appearance%})
  * [RadSignature online demos](https://demos.telerik.com/aspnet-ajax/signature/examples/overview/defaultcs.aspx)
 
 
