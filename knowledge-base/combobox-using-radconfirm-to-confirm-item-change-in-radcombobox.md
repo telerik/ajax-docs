@@ -7,16 +7,25 @@ slug: combobox-using-radconfirm-to-confirm-item-change-in-radcombobox
 res_type: kb
 ---
 
+## Environment
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>RadComboBox for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
   
- ## HOW-TO
+## HOW-TO
  Use RadConfirm to confirm item change in RadComboBox. The example will fire the server side "SelectedIndexChanged" event also.  
    
    
- ## SOLUTION
+## SOLUTION
  Hook on the OnClientSelectedIndexChanging event of the ComboBox and invoke the radconfirm. Since radconfirm is a non-blocking control we cancel the OnClientSelectedIndexChanging event. Then in the callback function of the radconfirm we select the item if the user has clicked on the OK button.  
 
    
- ````ASP.NET
+````ASP.NET
 <telerik:RadComboBox ID="RadComboBox1"  
 runat="server"  
 OnClientSelectedIndexChanging="onClientSelectedIndexChanging" 
@@ -30,8 +39,10 @@ OnSelectedIndexChanged="RadComboBox1_SelectedIndexChanged">
 </telerik:RadComboBox> 
 <telerik:RadWindowManager ID="RadWindowManager1" runat="server"> 
 </telerik:RadWindowManager> 
+````
 
-<script type="text/javascript"> 
+````JavaScript
+<script> 
 var showConfirm = 1; 
  
 function onClientSelectedIndexChanging(combo, eventArgs) 
@@ -64,8 +75,8 @@ function onClientSelectedIndexChanging(combo, eventArgs)
     eventArgs.set_cancel(true); 
 }         
 </script> 
- ````
+````
    
-
+   
 
  
