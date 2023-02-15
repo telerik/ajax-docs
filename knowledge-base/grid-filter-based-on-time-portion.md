@@ -12,15 +12,15 @@ res_type: kb
 
 ## Description
 
-You have a grid containing a GridDateTimeColumn that displays values with DataFormatString set to {0:HH:mm}. You would like to filter using "EqualTo" on time only and for the filter to ignore date.
+You have a **RadGrid** containing a **GridDateTimeColumn** that displays values with **DataFormatString** set to {0:HH:mm} or similar. You would like to filter using "EqualTo" on time only and for the filter ignore date (year,month, and date).
 
 ## Solution
 
-The RadGrid itself has no direct control over the entries in its DataSource. As the filtering is applied on the DataSource of the RadGrid, you can consider adding a separate field in the data source that holds only the time portion so it can be used as filtering criteria.
+**RadGrid** itself has no direct control over the entries in its data source. As the filtering is applied on the data source of the Grid, you can consider adding a separate field in the data source that holds only the time portion so it can be used as filtering criteria.
 
-How you can modify the select statement and set up the GridDateTimeColumn in order to effectively sort and filter based on hours and minutes?
+How you can modify the SELECT statement and set up the **GridDateTimeColumn** in order to effectively sort and filter based on hours and minutes?
 
-You can generate new DateTime objects holding equal date (today) but with the time portion taken from the existing database field. These new DateTime objects can be bound seamlessly to a separate GridDateTimeColumn and can be further sorted and filtered. The tricky part here is that all the DateTime objects bound to that column should have the same date, month, and year.
+You can generate new `DateTime` objects holding equal date (today) but with the time portion taken from the existing database field. These new `DateTime` objects can be bound seamlessly to a separate **GridDateTimeColumn** and can be further sorted and filtered. The tricky part here is that all the `DateTime` objects bound to that column should have the same date, month, and year.
 
 Here is a sample column declaration and a SQL select statement that should do the job:
 
@@ -35,7 +35,7 @@ Here is a sample column declaration and a SQL select statement that should do th
 SELECT CAST(CONCAT(CAST(GETDATE() AS Date),' ', CAST(someDateTime AS time(0))) AS datetime) AS someTime FROM [someTable]
 ````
 
-Test that approach with a RadGrid bound to a SqlDataSource component. The same selection should also work when the database is queried from the NeedDataSource event.
+Test that approach with a **RadGrid** bound to a **SqlDataSource** component. The same selection should also work when the database is queried from the **NeedDataSource** event.
 
 Here is a complete sample code leveraging the Northwind database:
 

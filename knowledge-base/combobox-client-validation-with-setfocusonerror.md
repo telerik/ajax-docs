@@ -12,15 +12,13 @@ res_type: kb
 
 ## Description
 
-Trying to use SetFocusOnError in RequiredFieldValidator and EnableClientScript="false", but it seems like RadComoboBox doesn't work with this.
-
-RadTextBox, on the other hand works fine.
+Trying to use **SetFocusOnError** in **RequiredFieldValidator** and ***EnableClientScript="false"***, but it seems like **RadComboBox** doesn't work with this. RadTextBox, on the other hand works fine.
 
 Is there some workaround for this issue?
 
 ## Solution
 
-The **SetFocusOnError** works as expected with **RadComboBox** on my side when the Validator is used for server-side validation only - EnableClientScript="false".
+The **SetFocusOnError** works as expected with **RadComboBox** when the **RequiredFieldValidator** is used for server-side validation only - ***EnableClientScript="false"***.
 
 In case client-side validation is needed you can set the focus back to the Combo manually by using a **CustomValidator** and some JavaScript code:
 
@@ -55,9 +53,9 @@ In case client-side validation is needed you can set the focus back to the Combo
 
 >caption What if the **CustomValidator** is not an option, and **RequiredFiledValidator** have to be used?
 
-The reason for the non working **SetFocusOnError** when validating a Combo with RequiredFieldValidator is that validator tries to set the focus on the wrapper div element representing the ComboBox.
+The reason for the non working **SetFocusOnError** when validating a Combo with **RequiredFieldValidator** is that validator tries to set the focus on the wrapper div element representing the ComboBox.
 
-Instead, to effectively focus the control, the focus should be set to the input element inside the RadComboBox DOM structure but not to the wrapper itself.
+Instead, to effectively focus the control, the focus should be set to the input element inside the **RadComboBox** DOM structure but not to the wrapper itself.
 
 As the current behavior is achieved with client-side code, changing it can only be done with some additional JavaScript code on the page.
 
