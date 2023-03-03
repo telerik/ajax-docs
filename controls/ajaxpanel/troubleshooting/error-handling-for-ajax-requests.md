@@ -22,6 +22,8 @@ Telerik did not implement custom error handling for **RadAjax** , because the Mi
 
 * Set the [AsyncPostBackErrorMessage](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.asyncpostbackerrormessage.aspx) property, which is the error message that is sent to the browser.
 
+* Take advantage of the [PageRequestManager class](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398976(v=vs.100)) which enables you to handle events in the client page life cycle and to provide custom event handlers that are specific to partial-page updates.
+
 ## See Also
 
  * [ScriptManager.AllowCustomErrorsRedirect Property](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.allowcustomerrorsredirect.aspx)
@@ -29,3 +31,6 @@ Telerik did not implement custom error handling for **RadAjax** , because the Mi
  * [ScriptManager.AsyncPostBackError Event](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.asyncpostbackerror.aspx)
 
  * [ScriptManager.AsyncPostBackErrorMessage Property](https://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.asyncpostbackerrormessage.aspx)
+
+ * [Working with PageRequestManager Events](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398976(v=vs.100))
+ 
