@@ -39,55 +39,56 @@ Here is an example of the ASPX code for a Donut chart with rounded ends:
 
 ````ASPX
 <script>
-    function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
-        var angleInRadians = (angleInDegrees) * Math.PI / 180.0;
+function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
+    var angleInRadians = (angleInDegrees) * Math.PI / 180.0;
 
-        return {
-            x: centerX + (radius * Math.cos(angleInRadians)),
-            y: centerY + (radius * Math.sin(angleInRadians))
-        };
-    }
+    return {
+        x: centerX + (radius * Math.cos(angleInRadians)),
+        y: centerY + (radius * Math.sin(angleInRadians))
+    };
+}
 
-    var lastColour = "none";
+var lastColour = "none";
 
-    Pie_CurvedEnds = function (e) {
-        var seg = e.createVisual(); //get original segment geometry
+Pie_CurvedEnds = function (e) {
+    var seg = e.createVisual(); //get original segment geometry
 
-        var circRad = (e.radius - e.innerRadius) / 2; //end cap radius
-        var dist = e.innerRadius + circRad;
-        var spoint = polarToCartesian(e.center.x, e.center.y, dist, e.startAngle);
-        var epoint = polarToCartesian(e.center.x, e.center.y, dist, e.endAngle);
+    var circRad = (e.radius - e.innerRadius) / 2; //end cap radius
+    var dist = e.innerRadius + circRad;
+    var spoint = polarToCartesian(e.center.x, e.center.y, dist, e.startAngle);
+    var epoint = polarToCartesian(e.center.x, e.center.y, dist, e.endAngle);
 
+    var group = new kendo.drawing.Group();
+    group.append(seg);
 
-        //draw circle at start of segment
-        var startArcGeometry = new kendo.geometry.Arc([epoint.x, epoint.y], {
+    if (lastColour != "none") {
+
+        var endArcGeometry = new kendo.geometry.Arc([spoint.x, spoint.y], {
             startAngle: 0, endAngle: 360, radiusX: circRad, radiusY: circRad
         });
-        var startArc = new kendo.drawing.Arc(startArcGeometry, {
-            fill: { color: e.options.color },
+
+        var endArc = new kendo.drawing.Arc(endArcGeometry, {
+            fill: { color: lastColour },
             stroke: { color: "none" }
         });
 
-        var group = new kendo.drawing.Group();
-        group.append(seg, startArc);
 
-        if (lastColour != "none") {
+        group.append(endArc);
+    }
 
-            var endArcGeometry = new kendo.geometry.Arc([spoint.x, spoint.y], {
-                startAngle: 0, endAngle: 360, radiusX: circRad, radiusY: circRad
-            });
+    //draw semi-circle at end of segment to allow for overlap at the top of the pie
+    var startArcGeometry = new kendo.geometry.Arc([epoint.x, epoint.y], {
+        startAngle: 270, endAngle: 90, radiusX: circRad, radiusY: circRad
+    });
+    var startArc = new kendo.drawing.Arc(startArcGeometry, {
+        fill: { color: e.options.color },
+        stroke: { color: "none" }
+    });
+    group.append(startArc);
 
-            var endArc = new kendo.drawing.Arc(endArcGeometry, {
-                fill: { color: lastColour },
-                stroke: { color: "none" }
-            });
-
-
-            group.append(endArc);
-        }
-        lastColour = e.options.color;
-        return group;
-    };
+    lastColour = e.options.color;
+    return group;
+};
 </script>
 <telerik:RadHtmlChart runat="server" ID="RadHtmlChartPriority" Width="520" Height="500" Transitions="true" Skin="Silk">
     <ChartTitle Text="Donut Chart with Rounded edges">
@@ -106,10 +107,10 @@ Here is an example of the ASPX code for a Donut chart with rounded ends:
                 <TooltipsAppearance Color="White" DataFormatString="{0}%"></TooltipsAppearance>
                 <SeriesItems>
                     <telerik:PieSeriesItem BackgroundColor="red" Exploded="false" Name="High" Y="45"></telerik:PieSeriesItem>
-                    <telerik:PieSeriesItem  BackgroundColor="blue" Exploded="false" Name="Medium" Y="35"></telerik:PieSeriesItem>
-                    <telerik:PieSeriesItem  BackgroundColor="green" Exploded="false" Name="Low" Y="15"></telerik:PieSeriesItem>
-                    <telerik:PieSeriesItem  BackgroundColor="yellow" Exploded="false" Name="Zero" Y="5"></telerik:PieSeriesItem>
-                               
+                    <telerik:PieSeriesItem BackgroundColor="blue" Exploded="false" Name="Medium" Y="35"></telerik:PieSeriesItem>
+                    <telerik:PieSeriesItem BackgroundColor="green" Exploded="false" Name="Low" Y="15"></telerik:PieSeriesItem>
+                    <telerik:PieSeriesItem BackgroundColor="yellow" Exploded="false" Name="Zero" Y="5"></telerik:PieSeriesItem>
+
                 </SeriesItems>
             </telerik:DonutSeries>
         </Series>
