@@ -27,13 +27,15 @@ This process allows you to enable Grammarly on specific RadEditors. This is espe
 ## Solution
 
 Here is a summary of the steps:
+
 1. Create an App on Grammarly
-2. Take note of your API key: {myapikey}
-3. Add your website address to the allow list
+1. Take note of your API key: {myapikey}
+1. Add your website address to the allow list
 
 and a video demonstrating the solution:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOldmQgt934" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 > Note that in the beginning of the video, Grammerly is not available on the client machine as an add-on.
 
