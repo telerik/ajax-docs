@@ -22,6 +22,8 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * only **solid** border-style
 
+* the 'object-fit' and 'object-position' CSS settings are not supported 
+
 * using browser zoom other than 100% is not supported.
 
 * the content of the following elements is not rendered: `<iframe>`, `<svg>`. A `<canvas>` will be rendered as an image, but only if it's "non-tainted" (does not display images from another domain). 
