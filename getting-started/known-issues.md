@@ -23,6 +23,7 @@ For faster navigation, the links are grouped into the following sets:
 - [Visual Studio ToolBox](#visual-studio-toolbox)
 - [Skins](#skins)
 - [jQuery Integration](#jquery-integration)
+- [NuGet](#nuget)
 
 For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX with the strict Content Security Policy mode, refer to the [Content Security Policy Mode]({% slug general-information/content-security-policy %}) article.
 
@@ -174,3 +175,12 @@ Most of the issues related to the jQuery integration are related to the Unobtrus
 * [Unobtrusive Validation in .NET 4.5 Telerik WebSite or Application with jQuery Registered in the ScriptManager]({% slug unobtrusive-validation-net45-telerik-site-app-with-jquery-in-scriptmanager %})
 
 * [`0x800a139e - JavaScript runtime error: SyntaxError`]({% slug 0x800a139e-js-runtime-syntax-error %})
+
+
+#NuGet
+
+* [Unable to load the service index for source https://nuget.telerik.com/v3/index.json]({%slug troubleshooting-nuget-installation-issues%}#unable-to-load-the-service-index-for-source) - Make sure that the Telerik NuGet Feed is live at https://status.telerik.com/.
+
+* [Incorrect Credentials and How to Re-Enter Them]({%slug troubleshooting-nuget-installation-issues%}#incorrect-credentials-and-how-to-re-enter-them).
+
+  
