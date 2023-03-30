@@ -44,4 +44,4 @@ The article will provide answers to some of the most popular questions we got so
 
 * How to solve the license file-related errors? - follow the guidance provided in this very detailed troubleshooting article [How To Fix License File Related Errors]({%slug common-how-to-fix-license-file-related-errors%}).
 
-* What are the differences between the trial and paid assemblies? - both versions (the paid developer build and the trial one) are fully functional and do not expose limitations. The sole difference in the trial version is that it throws sporadic errors and asks you to consider purchasing the commercial version to hide it as well as to get access to all product updates and fabulous Telerik support.
+* What are the differences between the trial and paid assemblies? - both versions (the paid developer build and the trial one) are fully functional and do not expose limitations. The sole difference in the trial version is that it throws sporadic errors and asks you to consider purchasing the commercial version to hide the trial error as well as to get access to all product updates and fabulous Telerik support.
