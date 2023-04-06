@@ -23,37 +23,51 @@ This article lists the resources with the system requirements, and technical and
 * [Localization and Right-to-Left support](https://www.telerik.com/aspnet-ajax/tech-sheets/localization-and-right-to-left-support)
 
 
-# .NET Framework Support 
+# .NET Framework Support
 
-# What is .NET Framework?
+## What is .NET Framework?
 
-.NET Framework is a software framework developed by Microsoft that provides a platform for building and running applications on Windows operating systems. It includes a large library of pre-built code and a runtime environment that manages the execution of applications.
+[.NET Framework](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework) is a software framework developed by Microsoft that provides a platform for building and running applications on Windows operating systems. It includes a large library of pre-built code and a runtime environment that manages the execution of applications.
 
-For ASP.NET Web Forms projects, .NET Framework provides the underlying technology that allows developers to create dynamic and interactive web applications. It provides a rich set of APIs, tools, and services that enable developers to build complex web applications with minimal coding effort.
+For [ASP.NET Web Forms](https://learn.microsoft.com/en-us/aspnet/web-forms/) projects, .NET Framework provides the underlying technology that allows developers to create dynamic and interactive web applications. It provides a rich set of APIs, tools, and services that enable developers to build complex web applications with minimal coding effort.
 
-# Microsoft .NET Framework lifecycle
+## Microsoft .NET Framework lifecycle
 
 You can find the start and end dates of support for the different .NET versions on this page: [Support dates](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework).
 
-# End of .NET Framework 3.5 and 4.0 Support for Telerik UI for ASP.NET AJAX
+
+## Telerik UI for ASP.NET AJAX versions compatibility with Microsoft .NET Framework
+
+You can find the releases that introduce  builds created against the various .NET versions at this page [.NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support)
+
+## End of .NET Framework 3.5 and 4.0 Support for Telerik UI for ASP.NET AJAX
 
 As of R2 2023, Telerik UI for ASP.NET AJAX ships only assemblies compatible with .NET 4.5.x and later versions of the .NET Framework.
 
 R1 2023 SP1 on March 15, 2023 is the last release to provide official support and assemblies for .NET Framework 3.5 and 4.0.
 
+The upgrade to the .NET 4.5 and later gives you the following advantages over the previous versions of the framework:
+
+* Improved performance
+* Security enhancements
+* Support for new features and API
+* Better debugging and diagnostics
+* Support for new platforms and technologies
+* Support for the [Telerik Document Processing Library]({%slug integration-with-other-telerik-products/document-processing/overview%}).
+
+## Is .NET Framework 4.5 and later backward compatible with the earlier versions?
+As per the [Microsoft Backward compatibility article](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/version-compatibility#backward-compatibility), the .NET Framework 4.5+ versions are backward-compatible with apps that were built with earlier versions of the .NET Framework. This is also true for the Telerik UI for ASP.NET AJAX assemblies build for .NET 3.5 and 4.0 - they will continue to work without modifications in projects targeting newer .NET versions like 4.5-4.81.
+
+> Applications and components built with previous versions will work without modification on the .NET Framework 4.5 and later versions.
+
 ## How the discontinuation of .NET 3.5-4.0 affects my ASP.NET Web Forms project(s)?
 
-If your project(s) already run(s) on a .NET 4.5 or later version, you should not perform anything.
+If your project(s) already run(s) on a .NET 4.5+ version, you should not perform anything.
 
 If your project(s) run(s) on .NET 3.5 or .NET 4.0, then you have two approaches:
 
-* [Recommended] Upgrade the .NET version of the project to 4.5 or later by following the [Microsoft Migrate to .NET Framework 4.8, 4.7, and 4.6.2 guide](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/) and keep the Telerik UI for ASP.NET AJAX assemblies up to date to get support for the latest browser versions, security and stability improvements as well as many new features and UI components.
-* or keep the project running on .NET 3-4.0 version - you will, however, lose the opportunity to upgrade Telerik UI for ASP.NET AJAX after R1 2023 SP1 since no new builds will be provided for .NET 3.5 or 4.0 anymore.
-
-## Is .NET Framework 4.0 and later backward compatible with the earlier versions?
-As per the [Microsoft Backward compatibility article](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/version-compatibility#backward-compatibility), the .NET Framework 4.5 and later versions are backward-compatible with apps that were built with earlier versions of the .NET Framework. This is also true for the Telerik UI for ASP.NET AJAX assemblies build for .NET 3.5 and 4.0 - they will continue to work without modifications in projects targeting newer .NET versions like 4.5-4.81.
-
->Note: Applications and components built with previous versions will work without modification on the .NET Framework 4.5 and later versions.
+* [Recommended] Upgrade the .NET version of the project to 4.5+ by following the [Microsoft Migrate to .NET Framework 4.8, 4.7, and 4.6.2 guide](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/) and keep the Telerik UI for ASP.NET AJAX assemblies up to date to get support for the latest browser versions, security and stability improvements as well as many new features and UI components.
+* [Not Recommended] or keep the project running on .NET 3-4.0 version - you will, however, lose the opportunity to upgrade Telerik UI for ASP.NET AJAX after R1 2023 SP1 since no new builds will be produced for .NET 3.5 or 4.0 anymore.
 
 ## What to do in case of troubles when updating to .NET 4.5 or later?
 If your app or component doesn't work as expected on .NET Framework 4.5 or a later version, check the following troubleshooting resources:
