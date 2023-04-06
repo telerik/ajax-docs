@@ -476,15 +476,30 @@ The following example demonstrates how to set the Gauge.
 The following example demonstrates how to set the Grid. Note that if you use features like filtering, context menus, and so on that utilize other Telerik controls like ContextMenu, DatePicker, ComboBoxes, Input, and so on, you need to register their client scripts explicitly as well.
 
 ````ASP.NET
-<scripts>
+<asp:ScriptManager id="ScriptManager1" runat="server" EnableCdn="true">
+    <Scripts>
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
-    <asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
-	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
-	<asp:ScriptReference Path="~/Scripts/Grid/RadGridScripts.js" />
-    <asp:ScriptReference Path="~/Scripts/Grid/GridCellSelection.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/OData/OData.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/AnimationFramework/AnimationFramework.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Navigation/OverlayScript.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/TouchScrollExtender.js" />
+	<asp:ScriptReference Path="~/Scripts/ComboBox/RadComboBoxScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/ComboBox/Views/LiteView.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/Scrolling/ScrollingScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/RadMenuScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/ContextMenu/RadContextMenuScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/MenuItem/RadMenuItem.js" />
+	<asp:ScriptReference Path="~/Scripts/Menu/Views/LiteView.js" />
+	<asp:ScriptReference Path="~/Scripts/Grid/RadGridScripts.js" />
+    </Scripts>
+</asp:ScriptManager>
 
-</scripts>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px" OnNeedDataSource="RadGrid1_NeedDataSource" EnableEmbeddedScripts="false" EnableHeaderContextMenu="true">
+...
+</telerik:RadGrid>
 ````
 
 The following example demonstrates how to set the HtmlChart.
