@@ -357,9 +357,11 @@ Although we are striving to constantly improve our products, there are some limi
 * Right-to-left fonts;
 * Nested DIV elements with absolute position;
 * Nested DIV elements with specified width or height;
+* Bulleted lists do not align well if there are `<p>` tag inside their `<li>` elements
 * `<ins>` and `<del>` elements;
+* `<sub>` and `<sup>` elements
 * `<pre>` elements and inline `style="white-space:pre;"` styles
-* Automatic text clipping;
+* Large fonts overlap and automatic text clipping;
 * Client-side binding;
 * Medium trust;
 * Img tags that point to non-existing image files break the PDF file generation;
