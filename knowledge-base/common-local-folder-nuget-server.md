@@ -26,14 +26,18 @@ The tutorial shows how to download the Telerik.UI.for.AspNet.Ajax.Net NuGet pack
 
 ## Solution
 Steps to install the Telerik.UI.for.AspNet.Ajax.Net45.202x.x.xxxx.nupkg package from a local NuGet storage:
-* Log into https://www.telerik.com/account/product-download?product=RCAJAX and download the NuGet Package(s), e.g. Telerik.UI.for.AspNet.Ajax.Net40.2023.1.323.nupkg.
-* Copy the downloaded nuget package file(s) to the Microsoft Visual Studio Offline Packages folder located at C:\Program Files (x86)\Microsoft SDKs\NuGetPackages folder.
-* Go to Visual Studio -> Tools -> Nuget Package Manager -> Manage NuGet Packages for Solution.
-* In the NuGet Packages for Solution window choose from the Package source dropdown either All or Microsoft Visual Studio Offline Packages option. This should make the visible for installation as shown in the following screenshot:
+* Log into https://www.telerik.com/account/product-download?product=RCAJAX and download the NuGet Package(s), e.g. Telerik.UI.for.AspNet.Ajax.Net45.2023.1.323.nupkg.
+* Create a new storage folder on your machine, for example named LocalNuGet and copy the downloaded nuget package in it.
+* Go to Visual Studio -> Tools -> Nuget Package Manager -> Manage NuGet Packages for Solution and click on the Setting (gear wheel icon) button to load the Options dialog.
+* In the Options popup, click on the Plus "+" button, rename the Package Source textbox to the desired local storage name (e.g. LocalNuGet package source) and specify the path to the LocalNuGet folder inside the source textbox. Press OK to save the new local repo option.
+* In the NuGet Packages for Solution window choose from the Package source dropdown either All or the LocalNuget Package source option. This will allow you to locate the nuget file in the local repo by searching for it "Telerik.UI.for.AspNet.Ajax.Net45" inside the Browse tab:
+
+![local nuget server](images/common_local_nuget_repo_2.png)
+
+
+Another approach which works, but it is not recommended since it may get messy with the Microsoft files, is to copy the nuget file to the Microsoft Visual Studio Offline Packages storage located at C:\Program Files (x86)\Microsoft SDKs\NuGetPackages folder:
 
 ![local nuget server](images/common_local_nuget_repo.png)
-
->Tip: If you want to use a folder different from Microsoft Visual Studio Offline Packages one, you can specify another installation folder on your machine by pressing the plus + button in the Options dialog.
 
 ## See More
 * [First Steps with NuGet]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%})
