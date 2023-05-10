@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-You can enable keyboard navigation in the **RadGrid** control by setting the **ClientSettings.AllowKeyboardNavigation** property to **True** (its default value is **False**). Currently the following features are supported:
+You can enable keyboard navigation in the **RadGrid** control by setting the **ClientSettings.AllowKeyboardNavigation** property to **True** (its default value is **False**) as well as test it in the [Keyboard Support demo](https://demos.telerik.com/aspnet-ajax/grid/examples/accessibility-and-internationalization/keyboard-support/defaultcs.aspx) demo. Currently the following features are supported:
 
 * **Access Keys**: An access key is a key combination (e.g. Alt+F) that lets the user move focus to the grid and subsequently use the Up and Down arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, setting the **AccessKey** property to "F" enables users to move focus to the grid by typing Alt+F.
 
@@ -46,3 +46,5 @@ You can enable keyboard navigation in the **RadGrid** control by setting the **C
 ## See Also
 
  * [Cancel Enter and Arrow Key Press ]({%slug grid/accessibility-and-internationalization/how-to/cancel-enter-and-arrow-key-press-%})
+ * [Keyboard Support demo](https://demos.telerik.com/aspnet-ajax/grid/examples/accessibility-and-internationalization/keyboard-support/defaultcs.aspx)
+ 
