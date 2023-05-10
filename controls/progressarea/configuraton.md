@@ -14,6 +14,10 @@ position: 3
 
 ## 
 
+The **RadProgressArea** dialog has the following structure:
+
+![upload radprogressarea structure](images/radprogressarea_structure.png)
+
 The indicators in the **RadProgressArea** dialog can all be optionally included or excluded using the **ProgressIndicators** property:
 
 * The **Total Progress Bar** appears when **ProgressIndicators** includes "TotalProgressBar".
