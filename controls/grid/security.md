@@ -35,7 +35,7 @@ For Example assuming the following content
 
 ![](images/grid-security-display-html.png)
 
-In order to prevent displaying HTML code or executing scripts, the built-in columns expose a property called **HtmlEncode** (`default true`) that you can use to Enable/Disable encoding. By setting its value to **True** all HTML tags will be encoded to HTML entities.
+In order to prevent displaying HTML code or executing scripts, the built-in columns expose a property called **HtmlEncode** (`default false`) that you can use to Enable/Disable encoding. By setting its value to **True** all HTML tags will be encoded to HTML entities.
 
 >caption Example Column definition
 
