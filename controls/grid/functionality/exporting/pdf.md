@@ -13,26 +13,26 @@ position: 2
 
 This help article discusses different techniques which allow you to modify customize the **PDF** export behavior and output. 
 
-> - *RadGrid* will render as an *XHTML* table which will be converted to a *PDF* document. Be sure to have a valid *XHTML*, otherwise you will receive an exception that the export cannot be completed.
+> - RadGrid will render as an *XHTML* table which will be converted to a *PDF* document. Ensure you have a valid *XHTML*, otherwise you will receive an exception that the export cannot be completed.
 > - The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **&lt;** , **&gt;** , **&amp;** respectively. 
-> - Another frequent problem are unclosed tags.
+> - Another frequent problem are not closed tags.
 
 ## Usage
 
-To export the Grid to PDF, you can either use the built-in Buttons or call the the dedicated Grid methods. For more details, please visit the [Enable the Export Buttons]({%slug grid/functionality/exporting/overview%}#enable-the-export-buttons) and [Export using the Grid's APIs]({%slug grid/functionality/exporting/overview%}#export-using-the-grids-apis) articles. 
+To export the Grid to PDF, you can either use the built-in Buttons or call the dedicated Grid methods. For more details, please visit the [Enable the Export Buttons]({%slug grid/functionality/exporting/overview%}#enable-the-export-buttons) and [Export using the Grid's APIs]({%slug grid/functionality/exporting/overview%}#export-using-the-grids-apis) articles. 
 
 ## Export Events
 
 - **OnPdfExporting**: This event is triggered before the PDF output is generated. It can be used to modify the output, see [OnGridExporting]({%slug grid/server-side-programming/events/ongridexporting%}).
   
-- **OnGridExporting**: This event is triggered when as soon as the PDF output is generated. This could be useful to save the output to the Disk or other tasks, see [OnPdfExporting]({%slug grid/server-side-programming/events/onpdfexporting%})
+- **OnGridExporting**: This event is triggered when as soon as the PDF output is generated. This can be useful to save the output to the Disk or other tasks, see [OnPdfExporting]({%slug grid/server-side-programming/events/onpdfexporting%})
 
 
 Although you can't modify the contents in the **OnGridExporting** event, you can use this to achieve some other tasks. 
 
 For example:
 - to save the file on the server/send it via mail if needed.
-- to show the *PDF* file in *RadWindow* - there is a [blog post](https://www.telerik.com/blogs/how-to-export-grid-to-pdf-file-and-show-the-result-using-the-window) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
+- to show the *PDF* file in *RadWindow* - as explained in the [Export grid to PDF file and show the result using the window blog post](https://www.telerik.com/blogs/how-to-export-grid-to-pdf-file-and-show-the-result-using-the-window) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
 
 
 ## Customizing the Export Output
@@ -74,7 +74,7 @@ For example:
 </ExportSettings>
 ````
 
->note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
+>note The default page orientation for the *PDF* file is *Portrait.* You can switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 
 >caption A4 Portrait
 
@@ -94,7 +94,7 @@ For example:
 
 ### Appearance
 
-*RadGrid* does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
+*RadGrid* does not export any external styles. That means that your skins will not appear in the generated file. The inline styles are preserved and must be used instead. Different approaches can be used depending on whether *RadGrid* will rebind before export (if *IgnorePaging* is *true* or when you rebind manually).
 
 >note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
 >
@@ -148,7 +148,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 End Sub	
 ````
 
->note To center the text in the **GridHeaderItem**, you should set the appropriate style to each cell (*TH* element) instead of the whole row.
+>note To center the text in the **GridHeaderItem**, you need to set the proper style to each cell (*TH* element) instead of the whole row.
 >
 
 ### Hiding Columns
@@ -174,7 +174,7 @@ End Sub
 
 ### Hiding items
 
-There are two common ways to hide an item.
+Two common ways to hide an item are:
 
 - **Directly** - in the button handler when exporting from a button or on **ItemCommand** when exporting from the built-in buttons
 
@@ -208,7 +208,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handle
 End Sub
 ````
 
-- **On ItemCreated / ItemDataBound** - this approach should be used when **IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
+- **On ItemCreated / ItemDataBound** - this approach is used when **IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
 
 ````C#
 bool isPdfExport = false;
@@ -243,9 +243,9 @@ End Sub
 
 ### Border support
 
-By setting **BorderType, BorderStyle and BorderColor** properties you could customize the look of the grid's border into the exported file. They could be set to ExportSettings-Pdf.
+By setting **BorderType, BorderStyle and BorderColor** properties you can customize the look of the grid's border into the exported file. They could be set to ExportSettings-Pdf.
 
-**BorderType** determines the border type that will be applied to the exported PDF file. The supported values are: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for both flat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes and also because of the fact that this functionality has a minor performance impact. When the **BorderType** is set to *Separate*, the **BorderColor**, and the **BorderStyle** properties will have no effect.
+**BorderType** determines the border type that will be applied to the exported PDF file. The supported values are: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for both flat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes and also because this functionality has a minor performance impact. When the **BorderType** is set to *Separate*, the **BorderColor**, and the **BorderStyle** properties will have no effect.
 
 **BorderStyle** determines the style of the borders that will be applied to the exported PDF file.The supported values: *Medium, Thick, Thin*. Its default value is *Medium*.
 
@@ -323,9 +323,11 @@ Our *PDF* engine can export all images nevertheless whether they use an **absolu
 
 You can use the following approach if you need to set a background image to your *GridTableViews*:
 
+````ASPX
 <MasterTableView style="background-image: url(yourimage)" />
+````
 
->note In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
+>note To export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. The [PDF export](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx) demo uses the depicted approach.
 >
 
 ### Resizing columns
@@ -363,7 +365,7 @@ Text alignment could be set either to the row element or to the cell. The only e
 
 ### Page break
 
-In *RadControls for ASP.NET AJAX Q3 2009 Beta* we introduced the possibility to use *page-breaks*. They can be added in many ways - declaratively, in code-behind or directly in the raw html.
+In *RadControls for ASP.NET AJAX Q3 2009 Beta* we introduced the capability to use *page-breaks*. They can be added in many ways - declaratively, in code-behind or directly in the raw HTML.
 
 The page-breaking tag is **<?hard-pagebreak?>**
 
@@ -422,7 +424,7 @@ From SP1 2013 Q2 we introduce a new property named **ContentFilter** which gives
 
 ### Content Encryption
 
-The PDF file generated by RadGrid has the content encryption enabled by default. This functionality is normally used for obfuscating the content especially when there is a UserPassword specified in the PDF settings. When the encryption is disabled, the password will not have an effect. It is important to note that if FIPS validation is enforced the encryption is automatically disabled and can't be used. By default the content encryption is disabled.
+The PDF file generated by RadGrid has the content encryption enabled by default. This functionality is normally used for obfuscating the content especially when there is a UserPassword specified in the PDF settings. When the encryption is disabled, the password will not have an effect. Note that if FIPS validation is enforced the encryption is automatically disabled and can't be used. By default the content encryption is disabled.
 
 ````ASP.NET
 <ExportSettings>
@@ -432,7 +434,7 @@ The PDF file generated by RadGrid has the content encryption enabled by default.
 
 ### Forced Text Wrapping
 
-Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping even when there are no white spaces or separator characters. It is important to note that the forced mode will make the file size larger.
+Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping even when there are no white spaces or separator characters. Note that the forced mode will make the file size larger.
 
 ````ASP.NET
 <ExportSettings>
@@ -477,7 +479,7 @@ A: Although this is not supported out-of-the-box (since the *RadChart* image is 
 
 ## Limitations
 
-Although we are striving to constantly improve our products, there are some limitations in the current implementation of our *PDF* engine
+Although we are striving to constantly improve our products, you may experience some limitations with the current implementation of our *PDF* engine
 
 - Image transparency
 - Right-to-left fonts
@@ -493,7 +495,7 @@ The following exceptions may occur when exporting the Grid to PDF.
 
 - `At least one of minimum, optimum, or maximum IPD must be specified on table`
 
-    Reason: Nested tables should have width in pixels
+    Reason: Nested tables must have width in pixels
 
 - `The '*' character, hexadecimal value 0x2A, cannot be included in a name`
 
@@ -501,7 +503,7 @@ The following exceptions may occur when exporting the Grid to PDF.
 
 - `Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow, fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption, fo:table-cell or fo:wrapper not fo:table-header`
 
-    This exception is probably result of a **hard-pagebreak**, inserted in a wrong place - for example directly after the starting tag of a table
+    This exception can be a result of a **hard-pagebreak**, inserted in a wrong place - for example directly after the starting tag of a table
 
 - `System.IndexOutOfRangeException: Index was outside the bounds of the array.at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)`
 
@@ -509,7 +511,7 @@ The following exceptions may occur when exporting the Grid to PDF.
 
 - `Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'`
 
-    Most probably you have *DIV* element with specified dimensions or absolute positioning. Remove the relevant width/height/position attributes to avoid this exception.
+    Most likely you have a *DIV* element with specified dimensions or absolute positioning. Remove the relevant width/height/position attributes to avoid this exception.
 
 - `System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission`
 
@@ -521,7 +523,7 @@ The following exceptions may occur when exporting the Grid to PDF.
 
 - `System.IndexOutOfRangeException: Index was outside the bounds of the array.	at Telerik.Web.Apoc.Fo.Flow.TableRow.CellArray.GetNextFreeCell(Int32 colNum)`
 
-    The reason for this exception is that the number of col elements is the colgroup is not equal to the maximum number of cells per row. Put simply, if you have a table with two columns, you should put two col elements.
+    The reason for this exception is that the number of col elements is the colgroup is not equal to the maximum number of cells per row. If you have a table with two columns, you should put two col elements.
 
     ````ASP.NET
     <a href="#">text</a>
