@@ -14,7 +14,7 @@ position: 15
 
 ##
 
-[This example](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandradasyncupload/defaultcs.aspx?product=grid) illustrates the usage of RadAsyncUpload and BinaryImage and how to display and edit images. RadAsyncUpload offers asynchronous upload capability while maintaining the look of the regular RadUpload control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location until a Postback occurs. The temporary location is cleaned-up automatically.
+[The Binary Images and RadAsyncUpload in Grid example](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandradasyncupload/defaultcs.aspx?product=grid) illustrates the usage of RadAsyncUpload and RadBinaryImage and how to display and edit images. RadAsyncUpload offers asynchronous upload ability while maintaining the look of the regular RadUpload control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location until a Postback occurs. The temporary location is cleaned-up automatically.
 
 Some of the key advantages that RadAsyncUpload offers against RadUpload are
 
@@ -25,13 +25,14 @@ Some of the key advantages that RadAsyncUpload offers against RadUpload are
 * Client side events for upload completed and upload failed
 
 * Simpler validation
-![](images/grd_BinaryImagesRadAsyncUploadInGrid_thumb.png)
 
-There are a few important things to consider when using RadAsyncUpload
+![Binary Image with RadAsyncUpload in RadGrid](../images/grd_BinaryImagesRadAsyncUploadInGrid_thumb.png)
+
+Consider the following important requirements when using RadAsyncUpload:
 
 * RadAsyncUpload requires the Telerik.Web.UI.WebResource handler to be registered in the web.config.
 
-* You need to ensure that any submit buttons on the page are disabled while upload is in progress. Otherwise, there is no guarantee that the files will be uploaded successfully
+* You need to ensure that any submit buttons on the page are disabled while upload is in progress. Otherwise, you cannot  guarantee that the files will be uploaded successfully.
 
 You can also perform validation over the file input as shown in the demo code:
 
