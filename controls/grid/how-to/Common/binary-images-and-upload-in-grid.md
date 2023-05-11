@@ -38,13 +38,13 @@ You need to register the http handler of the RadBinaryImage control (which is pa
 ````
 
 
->caution If you would like to set the GridBinaryImageColumn's image filename which will appear inside SaveAs browser dialog when image is saved, set the *SavedImageName* property of the column
+>caution If you want to set the GridBinaryImageColumn's image filename which will appear inside SaveAs browser dialog when image is saved, set the *SavedImageName* property of the column
 >
 
 
-Since RadUpload cannot upload files using AJAX calls (this is a limitation of the XmlHttpRequest component, used in all AJAX frameworks for asynchronous calls to the application), in order to upload a file you should perform a full page postback.
+Since RadUpload cannot upload files using AJAX calls (this is a limitation of the XmlHttpRequest component, used in all AJAX frameworks for asynchronous calls to the application), to upload a file perform a full page postback.
 
-![](images/grd_BinaryImageGridUploadAjaxEdit_thumb.PNG)
+![BinaryImage and Upload in RadGrid](../images/grd_BinaryImageGridUploadAjaxEdit_thumb.PNG)
 
 You can also perform validation over the file input as shown in the demo code:
 
