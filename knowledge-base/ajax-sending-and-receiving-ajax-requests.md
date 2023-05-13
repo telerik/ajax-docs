@@ -3,37 +3,35 @@ title: Sending and receiving AJAX requests with Telerik AjaxManager
 page_title: Sending and receiving AJAX requests with Telerik AjaxManager
 description: Learn how to send and receive AJAX requests with the Telerik WebForms AjaxManager component.
 slug: ajax-sending-and-receiving-ajax-requests
-tags: telerik ajaxmanager, telerik webforms ajaxmanager, webforms ajaxmanager, send ajax request, receive ajax request
+tags: telerik, asp.net, webforms, web forms, ajaxmanager, send, receive, ajax, json
 type: how-to
 res_type: kb
 ---
 
 ## Description
 
-Learn how to send and receive AJAX requests with the [Telerik WebForms AjaxManager]({%slug ajaxmanager/overview%}) component. Unlike [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/) the MS AJAX embedded in the ASP.NET Framework works slightly differently. 
+Learn how to send and receive AJAX requests with the [Telerik WebForms AjaxManager]({%slug ajaxmanager/overview%}) component by combining its Client-side and Server-side APIs.
 
-To cut a long story short, [Telerik WebForms AjaxManager]({%slug ajaxmanager/overview%}) provides the necessary Client and Server APIs to send/receive AJAX requests in ASP.NET Web Forms and this article will teach out how.
+Unlike [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/) the [Microsoft ASP.NET AJAX](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398874(v=vs.100)) embedded in the ASP.NET Framework works slightly differently, thus it can maintain the ViewState information. Instead of a pure AJAX request, it submits the entire Form, yet only updates a specific container and this is called Partial PostBack. To cut a long story short, [Telerik WebForms AjaxManager]({%slug ajaxmanager/overview%}) provides the necessary Client and Server APIs to send/receive AJAX requests in ASP.NET Web Forms and this article will teach out how.
 
 >caption DEMO
 
 !["Sending and receiving JSON string - demo"](images/ajax-sending-and-receiving-ajax-requests-demo.gif "Sending and receiving JSON string - demo")
 
-
 ## Solution
 
-To send AJAX requests to server, AjaxManager provides with two Client-Side functions, those are `ajaxRequest()` and `ajaxRequestWithTarget()` but in this article, we will be focusing on `ajaxRequest()`.
+Telerik WebForms AjaxManager exposes the `ajaxRequest()` client-side method which can be used to send AJAX requests to the server.
 
-The following examples require a `RadAjaxManager` on the page.
+To begin, you will need create a `telerik:RadAjaxManager` component on the page and subscribe it to its [AjaxRequest]({%slug ajaxmanager/server-side-programming/events/onajaxrequest%}) Server-side event.
 
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
 </telerik:RadAjaxManager>
 ````
 
-
 ### Send AJAX request to Server
 
-To send an AJAX request to server, simply call the ajaxRequest() function of the AjaxManager Client-Object instance. As this function takes one parameter as string, you can pass your data to it to be sent to server.
+To send an AJAX request to server, call the `ajaxRequest()` method of the `Telerik.Web.UI.RadAjaxManager` Client-side Object instance. As this function takes one parameter as a `string`, you can pass along some data to be sent to server.
 
 >caption Example
 
@@ -45,7 +43,7 @@ function OnClientClicked(sender, args) {
 }
 ````
 
-Upon the AJAX request, the AjaxManager triggers the [AjaxRequest Server-Side event]({%slug ajaxmanager/server-side-programming/events/onajaxrequest%}), where the `e.Argument` will contain the information that was passed into the JavaScript function.
+Upon the AJAX request, the `AjaxManager` triggers a server-side event called [AjaxRequest]({%slug ajaxmanager/server-side-programming/events/onajaxrequest%}), where the `e.Argument` will contain the information that was passed to `ajaxRequest()` method.
 
 >caption Example
 
@@ -57,12 +55,17 @@ protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxReq
     string myArgument = e.Argument; // Hello World!
 }
 ````
-
->important The AjaxRequest Server-Side Event is triggered on every Ajax request. Whether the request was made by calling the `requestAjax()` function or by making PostBacks with Controls that have been added to the AjaxSettings. Be sure to verify the Arguments before executing any logic.
+````VB
+Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
+    Dim ajaxManager As RadAjaxManager = CType(sender, RadAjaxManager)
+    
+    Dim myArgument As String = e.Argument 'Hello World!
+End Sub
+````
 
 ### Return the response to Client
 
-To send a response back to the Client, you can make the AjaxManager call a JavaScript function and pass along some parameters containing the data you would like to send back. To do that, you will need to register the JavaScript function name by adding it to the `ResponseScripts` collection of the `RadAjaxManager` instance (e.g `RadAjaxManager1.ResponseScripts.Add("functionName();")`)
+To send a response back to the Client, you can tell AjaxManager to call a JavaScript function and pass along some parameters containing the data you would like to send back. Register the JavaScript function name by adding it to the `ResponseScripts` collection of the `RadAjaxManager` instance (e.g `RadAjaxManager1.ResponseScripts.Add("functionName();")`)
 
 First, create a JavaScript function called `helloWorld()`
 
@@ -74,7 +77,6 @@ function helloWorld() {
 
 Next, add this JavaScript function to the `ResponseScripts` collection.
 
-
 ````C#
 protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
 {
@@ -84,12 +86,20 @@ protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxReq
     ajaxManager.ResponseScripts.Add("helloWorld();");
 }
 ````
+````VB
+Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
+    Dim ajaxManager As RadAjaxManager = CType(sender, RadAjaxManager)
+    Dim myArgument As String = e.Argument
+    
+    ajaxManager.ResponseScripts.Add("helloWorld();")
+End Sub
+````
 
-Upon an AJAX request, the AjaxManager will respond by calling the `helloWorld()` function which then shows an `alert()` with the text `Hello World!`.
+The `AjaxManager` will respond by calling the `helloWorld()` function which then shows an `alert()` with the text `Hello World!`.
 
-You can also send back data through the function as a parameter.
+You can also return data by passing it to the registered function as parameters.
 
-First, create a JavaScript function called `displayAlert()` which takes one parameter and displays an alert for it. This parameter will be a string coming from the Server
+First, create a JavaScript function called `displayAlert(myParameter)` that takes one parameter and displays an alert for it. This parameter will contain a `string` data coming from the server.
 
 ````JavaScript
 function displayAlert(myParameter) {
@@ -111,12 +121,23 @@ protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxReq
     ajaxManager.ResponseScripts.Add(formattedScript);
 }
 ````
+````VB
+Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
+    Dim ajaxManager As RadAjaxManager = CType(sender, RadAjaxManager)
+    
+    Dim myArgument As String = e.Argument
+    
+    Dim formattedScript As String = String.Format("displayAlert('{0}');", myArgument)
+    
+    ajaxManager.ResponseScripts.Add(formattedScript)
+End Sub
+````
 
-If you now send a request using the approach from the [Send AJAX request to server](#send-ajax-request-to-server) section, you will see an alert with the text `Hello World!`.
+If you sent a request using the example from the [Send AJAX request to server](#send-ajax-request-to-server) section, you will see an alert with the text `Hello World!`.
 
 ### Sending and Receiving JSON string
 
-The following is a complete example of sending and receiving JSON string via AJAX requests to display a list of of Orders in a a `<table>`.
+The following example demonstrates sending and receiving JSON string via AJAX requests to display a `List<Order>` / `List(Of Order)` in an HTML `<table>`.
 
 >caption DEMO
 
