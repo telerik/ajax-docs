@@ -538,6 +538,9 @@ navigation:
     "controls/*/client-side-programming":
          title: "Client-side Programming"
          position: 50
+    "controls/*/client-side-programming/properties":
+         title: "Properties"
+         position: 19
     "controls/*/client-side-programming/methods":
          title: "Methods"
          position: 20
