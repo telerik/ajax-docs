@@ -100,7 +100,7 @@ End Sub
 
 ## Disabling AJAX with the OnRequestStart Event
 
-To determine the AJAX initiator and disable AJAX for the current request, use the `OnRequestStart` [client-side event]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) handler. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when [exporting from an AJAX-enabled Grid](https://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled).
+To determine the AJAX initiator and disable AJAX for the current request, use the `OnRequestStart` [client-side event]({%slug ajaxmanager/client-side-programming/events/requeststart%}) handler. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when [exporting from an AJAX-enabled Grid](https://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled).
 
 >note All controls that are added in the `UpdatedControls` collection of the AjaxManager AJAX settings will perform a callback instead of a postback. To exclude them from ajaxifying, use the previous approach.
 

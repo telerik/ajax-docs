@@ -16,7 +16,7 @@ position: 8
 
 This help article describes how to disable a single control during an AJAX update or how to set a global flag to disable a control, and shows examples of each.
 
-You may want to disable control during an AJAX update, so the users won't be able to use it before response end. You can easily disable a control during an AJAX update using the [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) and[OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%}) client-side events and changing the **disabled** value.
+You may want to disable control during an AJAX update, so the users won't be able to use it before response end. You can easily disable a control during an AJAX update using the [RequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%}) and[ResponseEnd]({%slug ajaxmanager/client-side-programming/events/responseend%}) client-side events and changing the **disabled** value.
 
 **Example 1** shows this approach.
 
