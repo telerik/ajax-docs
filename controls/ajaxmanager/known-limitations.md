@@ -70,7 +70,7 @@ This article lists the known limitations you may encounter when working with the
 
 * **Using the AjaxManager and AjaxPanel in the same application**&mdash;In some complex scenarios, such as when using a master page or WebUserControls, having both the AjaxManager and the AjaxPanel may lead to issues. To handle such problems, use a single AjaxManager and no panels in the master or main page of the project.
 
-* **The `OnRequestSent` and `OnResponseReceived` clisent-side events are missing**&mdash;The AjaxManager does not provide these events and you cannot simulate them due to the way ASP.NET AJAX works. To work around this issue, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%}) for your needs.
+* **The `OnRequestSent` and `OnResponseReceived` clisent-side events are missing**&mdash;The AjaxManager does not provide these events and you cannot simulate them due to the way ASP.NET AJAX works. To work around this issue, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/requeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/responseend%}) for your needs.
 
 * **Various controls are not supported by the Microsoft AJAX framework**&mdash;For the full list of controls that are not compatible with the AjaxManager, refer to the article on [checking for incompatible controls and updating third-party controls]({%slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
 
@@ -82,6 +82,6 @@ This article lists the known limitations you may encounter when working with the
 
 ## See Also
 
-* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
-* [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
+* [RequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%})
+* [ResponseEnd]({%slug ajaxmanager/client-side-programming/events/responseend%})
 * [Checking for Incompatible Controls and Updating Third-Party Controls]({%slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%})

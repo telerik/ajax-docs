@@ -43,9 +43,7 @@ The following example shows how to use the `RadAjaxManagerProxy` to Ajax-enable 
 
 Using the `RadAjaxManagerProxy` makes the design-time configuration easier: 
 
-* `RadAjaxManagerProxy` does not provide client-side functionality as the AjaxManager does.
-
-* `RadAjaxManagerProxy` does not have a [client-side object]({%slug ajaxmanager/client-side-programming/radajaxmanager-object%}) or functions like [`ajaxRequest` and `ajaxRequestWithTarget`]({%slug ajaxmanager/client-side-programming/overview%}), nor it provides [client-side events]({%slug ajaxmanager/client-side-programming/events/overview%}).
+* `RadAjaxManagerProxy` is an extension of the AjaxManager. To work work with it on client, use the [AjaxManager Client-side APIs]({%slug ajaxmanager/client-side-programming/overview%})
 
 * You can get the `RadAjaxManager` instance through the `GetCurrent` static method similar to the `asp:ScriptManager` control and call the master `RadAjaxManager` client-side methods if necessary.
 

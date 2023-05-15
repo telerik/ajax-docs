@@ -73,4 +73,4 @@ RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 
 * [Cancelling AJAX Requests]({%slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request%})
 
-* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%})

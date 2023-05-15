@@ -28,7 +28,7 @@ How can I disable a single control during an AJAX update so that users are not a
 
 ## Solution 
 
-To disable a control during an AJAX update, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%}) client-side events. Then, change the `disabled` value.
+To disable a control during an AJAX update, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/requeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/responseend%}) client-side events. Then, change the `disabled` value.
 
 The following example demonstrates how to prevent the interaction with a control during an AJAX request. Implementing the code will disable any control that has already started a request until its response ends.
 
@@ -86,6 +86,6 @@ var AjaxIsActive = false;
 
 ## See Also
 
-* [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/requeststart%})
 
-* [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
+* [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/responseend%})

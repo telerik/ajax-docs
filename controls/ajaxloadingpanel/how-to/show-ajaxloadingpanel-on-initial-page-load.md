@@ -21,7 +21,7 @@ Although Telerik designed **RadAjaxLoadingPanel** so that you can display a prog
 
 This functionality is not natively supported, however, the implementation is straightforward.
 
-Overall, this example shows how to use the [Sys.Application.load Event](https://learn.microsoft.com/en-us/previous-versions/bb383829(v=vs.100)?redirectedfrom=MSDN) to trigger an **AJAX request** from the client by calling the [ajaxRequest(arguments)]({%slug ajaxmanager/client-side-programming/overview%}#ajaxrequestarguments) method of [RadAjaxManager]({%slug ajaxmanager/overview%}).
+Overall, this example shows how to use the [Sys.Application.load Event](https://learn.microsoft.com/en-us/previous-versions/bb383829(v=vs.100)?redirectedfrom=MSDN) to trigger an **AJAX request** from the client by calling the [ajaxRequest(arguments)]({%slug ajaxmanager/client-side-programming/methods/ajaxrequest%}) method of [RadAjaxManager]({%slug ajaxmanager/overview%}).
 
 
 Key points:
@@ -33,7 +33,7 @@ Key points:
   - add the main panel (ID="Panel1") to the AjaxSettings and set the AjaxManager (ID="RadAjaxManager1") as the AjaxControl
   - add the main panel (ID="Panel1") to the AjaxSettings and set (ID="Panel1") as the AjaxControl
 - Add a couple of CSS rules to apply height, width to the Panel as well a background-color to the AjaxLoadingPanel
-- Add a ScriptBlock or CodeBlock containing the Script the will access the the [AjaxManager and will send an AjaxRequest]({%slug ajaxmanager/client-side-programming/overview%}#ajaxrequestarguments) in the [Sys.Application.load Event](https://learn.microsoft.com/en-us/previous-versions/bb383829(v=vs.100)?redirectedfrom=MSDN).
+- Add a ScriptBlock or CodeBlock containing the Script the will access the the [AjaxManager and will send an AjaxRequest]({%slug ajaxmanager/client-side-programming/methods/ajaxrequest%}) in the [Sys.Application.load Event](https://learn.microsoft.com/en-us/previous-versions/bb383829(v=vs.100)?redirectedfrom=MSDN).
 
 >caption Example
 

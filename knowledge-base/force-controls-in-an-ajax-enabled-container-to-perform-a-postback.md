@@ -143,4 +143,4 @@ However, once the container control is added to the `UpdatedControls` collection
 
 * [Cancel AJAX Requests]({%slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request%})
 
-* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%})

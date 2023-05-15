@@ -86,6 +86,6 @@ The following example demonstrates how to achieve the desired scenario by determ
 
 * [Client-Side Programming with the AjaxManager Overview]({%slug ajaxmanager/client-side-programming/overview%})
 
-* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%})
 
-* [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/onresponseend%})
+* [OnResponseEnd]({%slug ajaxmanager/client-side-programming/events/responseend%})
