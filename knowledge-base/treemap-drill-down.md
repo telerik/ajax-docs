@@ -215,7 +215,5 @@ In this article we are demonstrating a possible way to achieve drill-down functi
 ````
 
 ## See Also
-* [RadTreeMap - Server-side Binding](https://docs.telerik.com/devtools/aspnet-ajax/controls/treemap/data-binding/server-side-binding)
-* [RadAjaxManager - Manually Add an AJAX Request](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxmanager/how-to/manually-add-an-ajax-request)
-
-
+* [Server-side Binding - RadTreeMap]({%slug treemap/data-binding/server-side-binding%})
+* [Sending and receiving AJAX requests with Telerik AjaxManager]({%slug ajax-sending-and-receiving-ajax-requests%})
