@@ -3,7 +3,7 @@ title: Overview
 page_title: AjaxManager Client-Side APIs Overview
 description: Overview of the Client-side APIs exposed by the Telerik Web Forms AjaxManager component.
 slug: ajaxmanager/client-side-programming/overview
-previous_url: controls/ajax/client-side-programming/overview, controls/ajax/client-side-programming/radajaxmanager-object, controls/ajaxmanager/client-side-programming/radajaxmanager-object, controls/ajaxmanager/client-side-programming/events/overview
+previous_url: controls/ajax/client-side-programming/overview, controls/ajax/client-side-programming/radajaxmanager-object, controls/ajaxmanager/client-side-programming/radajaxmanager-object, controls/ajaxmanager/client-side-programming/events/overview, controls/ajaxmanager/client-side-programming/properties
 tags: telerik, asp, net, webforms, web forms, ajaxmanager, client-side, api, overview
 published: True
 position: 0
