@@ -208,4 +208,4 @@ End Class
 
 ## See Also
 
-* [Manually Add an AJAX Request]({%slug ajaxmanager/how-to/manually-add-an-ajax-request%})
+* [Sending and receiving AJAX requests with Telerik AjaxManager]({%slug ajax-sending-and-receiving-ajax-requests%})

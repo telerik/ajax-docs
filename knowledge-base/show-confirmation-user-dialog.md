@@ -70,6 +70,6 @@ Alternatively, use the `OnRequestStart` client-side event to implement more comp
 
 * [Cancelling AJAX Request]({%slug ajaxmanager/client-side-programming/how-to/cancel-ajax--request%})
 
-* [OnRequestStart]({%slug ajaxmanager/client-side-programming/events/onrequeststart%})
+* [RequestStart]({%slug ajaxmanager/client-side-programming/events/requeststart%})
 
 * [Demo: AjaxPanel Client-Side Events](https://demos.telerik.com/aspnet-ajax/ajax/examples/panel/clientevents/defaultcs.aspx)

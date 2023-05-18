@@ -1,17 +1,17 @@
 ---
-title: OnRequestStart
-page_title: Ajax Manager OnRequestStart
-description: "Learn how to use the OnRequestStart client-side event when working with Telerik UI for ASP.NET AJAX."
-slug: ajaxmanager/client-side-programming/events/onrequeststart
-previous_url: ajax/client-side-programming/events/onrequeststart
-tags: telerik, aspnet, ajax, ajaxmanager, onrequeststart, event, clientside, programming, api
+title: RequestStart
+page_title: Ajax Manager RequestStart
+description: "Learn how to use the RequestStart client-side event when working with Telerik UI for ASP.NET AJAX."
+slug: ajaxmanager/client-side-programming/events/requeststart
+previous_url: controls/ajax/client-side-programming/events/onrequeststart, controls/ajaxmanager/client-side-programming/events/onrequeststart
+tags: telerik, aspnet, ajax, ajaxmanager, requeststart, event, clientside, programming, api
 published: True
 position: 1
 ---
 
-# OnRequestStart
+# RequestStart event
 
-The `OnRequestStart` client-side event handler is called when a request to the server is started. 
+The `RequestStart` client-side event handler is called when a request to the server is started. 
 
 The event can be initially triggered by an initiating control configured in the AjaxManager settings, a control within an AjaxPanel, or by a client-side `ajaxRequest()` call. The event can be cancelled.
 

@@ -1,17 +1,17 @@
 ---
-title: OnResponseEnd
-page_title: AjaxManager OnResponseEnd
-description: "Learn how to use the OnResponseEnd client-side event when working with Telerik UI for ASP.NET AJAX."
-slug: ajaxmanager/client-side-programming/events/onresponseend
-previous_url: ajax/client-side-programming/events/onresponseend
-tags: telerik, aspnet, ajax, ajaxmanager, onresponseend, event, clientside, programming, api
+title: ResponseEnd
+page_title: AjaxManager ResponseEnd
+description: "Learn how to use the ResponseEnd client-side event when working with Telerik UI for ASP.NET AJAX."
+slug: ajaxmanager/client-side-programming/events/responseend
+previous_url: controls/ajax/client-side-programming/events/onresponseend, controls/ajaxmanager/client-side-programming/events/onresponseend
+tags: telerik, aspnet, ajax, ajaxmanager, responseend, event, clientside, programming, api
 published: True
 position: 2
 ---
 
-# OnResponseEnd
+# ResponseEnd event
 
-The `OnResponseEnd` client-side event handler is called when a request is received from the server. The event can not be cancelled.
+The `ResponseEnd` client-side event handler is called when a request is received from the server. The event can not be cancelled.
 
 Two parameters are passed to the event handler with the following methods:
 

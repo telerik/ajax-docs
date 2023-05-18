@@ -88,7 +88,7 @@ Use the client-side `OnRequestStartA` event of the AjaxPanel or AjaxManager, and
 
 * [Ajaxify and Update Controls in Master and Content Page with the AjaxManager]({% slug ajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page %})
 
-* [Manually Add an AJAX Request]({% slug ajaxmanager/how-to/manually-add-an-ajax-request %})
+* [Sending and receiving AJAX requests with Telerik AjaxManager]({%slug ajax-sending-and-receiving-ajax-requests%})
 
 * [Exclude Controls from Ajaxifying]({% slug ajaxmanager/how-to/exclude-controls-from-ajaxifying %})
 
