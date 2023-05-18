@@ -3,6 +3,7 @@ title: Sending and receiving AJAX requests with Telerik AjaxManager
 page_title: Sending and receiving AJAX requests with Telerik AjaxManager
 description: Learn how to send and receive AJAX requests with the Telerik WebForms AjaxManager component.
 slug: ajax-sending-and-receiving-ajax-requests
+previous_url: knowledge-base/manually-add-an-ajax-request
 tags: telerik, asp.net, webforms, web forms, ajaxmanager, send, receive, ajax, json
 type: how-to
 res_type: kb
