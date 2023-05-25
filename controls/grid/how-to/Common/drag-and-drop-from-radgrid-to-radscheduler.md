@@ -20,7 +20,7 @@ Clicking the **Unschedule** button (implemented via AppointmentTemplate) removes
 
 The appointments can be modified in the grid on row double-click, or new ones can be added using the **Add new task** button.
 
-![Drag and drop from grid to scheduler](images/grid_drag-drop-to-scheduler.png)
+![Drag and drop from grid to scheduler](../images/grid_drag-drop-to-scheduler.png)
 
 ##
 
