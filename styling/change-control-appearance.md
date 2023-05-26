@@ -17,7 +17,7 @@ The easiest way to [set a skin]({%slug introduction/radcontrols-for-asp.net-ajax
 
 >caption Figure 1: Setting a skin from the design-time dropdown
 
-![Setting a skin at design-time](images/set-skin-design-time.png "Setting a skin at design-time")
+![Setting a skin at design-time](../getting-started/images/set-skin-design-time.png "Setting a skin at design-time")
 
 ## Customizing the Appearance
 

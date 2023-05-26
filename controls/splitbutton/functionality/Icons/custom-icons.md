@@ -44,16 +44,18 @@ You can use custom font icons in **RadSplitButton** as well. To do that, follow 
 
 1. Load the stylesheet with the desired font icons on the page.
 
-	**CSS**
+	````ASPX
 		<link rel="stylesheet" href="myCustomFontStyleSheet.css" />
+    ````
 
 1. Override the font-family of the button's icon element with the target one.
 
-	**CSS**
+	````CSS
 		.RadSplitButton .rbIcon.rbPrimaryIcon:before,
 		.RadMenu_Context .rmItem .rmLeftImage:before{
 			font-family: myCustomFont;
 		}
+    ````
 
 1. Set the custom font icon class to the **Icon.CssClass** property.
 

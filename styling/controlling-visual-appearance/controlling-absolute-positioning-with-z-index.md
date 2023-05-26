@@ -13,7 +13,7 @@ position: 8
 
 
 
-A number of Telerik controls render with absolute positioning and have their default z-indexes as shown below:
+Many Telerik controls render with absolute positioning and have their default z-indexes as shown below:
 
 
 
@@ -73,7 +73,7 @@ A number of Telerik controls render with absolute positioning and have their def
 
 
 
-In different scenarios, you may need to change these values in order to ensure that one specific control will be shown above the other—for example **RadWindow** over **RadMenu**. To do this, you can simply set the value of the z-index property of every control by using the common style property, e.g.:
+In different scenarios, you may need to change these values to ensure that one specific control will be shown above the other—for example **RadWindow** over **RadMenu**. To do this, you can set the value of the z-index property of every control by using the common style property, e.g.:
 
 ````ASP.NET
 <telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Style="z-index: 12345">
@@ -86,11 +86,11 @@ In different scenarios, you may need to change these values in order to ensure t
 
 **Default appearance**
 
-![Menu default z-index](images/combo_default.png)
+![Menu default z-index](../../controls/images/combo_default.png)
 
 **Desired appearance**
 
-![ComboBox Slide overriden z-index](images/combo_overriden.png)
+![ComboBox Slide overridden z-index](../../controls/images/combo_overriden.png)
 
 To achieve the appearance above, apply the following CSS style to override the default z-index of the RadComboBox Slide
 
@@ -111,11 +111,11 @@ Another approach is to set the z-index inline in the RadComboBox declaration
 
 **Default appearance**
 
-![ContextMenu default z-index](images/context_default.png)
+![ContextMenu default z-index](../../controls/images/context_default.png)
 
 **Desired appearance**
 
-![ContextMenu overriden z-index](images/context_overriden.png)
+![ContextMenu overriden z-index](../../controls/images/context_overriden.png)
 
 The applied CSS style to override the default z-index of the RadContextMenu:
 
@@ -129,11 +129,11 @@ The applied CSS style to override the default z-index of the RadContextMenu:
 
 **Default appearance**
 
-![RadWindow default z-index](images/window_default.png)
+![RadWindow default z-index](../../controls/images/window_default.png)
 
 **Desired appearance**
 
-![RadWindow overriden z-index](images/window_overriden.png)
+![RadWindow overriden z-index](../../controls/images/window_overriden.png)
 
 Override the default z-index of the modal RadWindow with the following style:
 

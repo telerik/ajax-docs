@@ -20,13 +20,13 @@ The **RadInput** controls support ASP.NET validators (both client and server sid
 >
 
 
-To use ASP.NET validators with **RadInput** controls, simply set the ID of the **RadInput** control as the value of the **ControlToValidate** property of the validator.
+To use ASP.NET validators with **RadInput** controls set the ID of the **RadInput** control as the value of the **ControlToValidate** property of the validator.
 
 Since Q2 2012 there are some modifications for RadInput validation.The main idea is to render only the input element all the time, and remove the span element and the excessive inputs. To be achieved this the validation value is stored in [“expando”](https://msdn.microsoft.com/en-us/library/89t1khd2%28v=vs.94%29.aspx) property and we submit real value through the client state. Also, the [ValidatorGetValue](https://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) function of the [asp:Validators](https://msdn.microsoft.com/en-us/library/debza5t0.aspx) was overriden to look our expando property called “RadInputValidationValue”.
 
 ## Example
 
-![Validators](images/Validators.png)
+![Validators](../images/Validators.png)
 
 The following declaration shows the use of a required field validator from the form above:
 
@@ -63,7 +63,7 @@ The validator controls have a **ValidationGroup** property. The **RadInput** con
 
 ## Display ErrorMessage inside RadInput
 
-The following example demonstrates how you could display your ErrorMessage inside the input itself following an unsuccessful validation.
+The following example demonstrates how you can display your ErrorMessage inside the input itself following an unsuccessful validation.
 
 ````JavaScript
 <script type="text/javascript">

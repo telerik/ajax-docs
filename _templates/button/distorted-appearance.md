@@ -1,7 +1,7 @@
 #intro
 This help article describes what to do when you have an appearance issue with **@{control}** and provides a resolution.
 
-The appearance of **@{control}** may be distorted (**Figure 1**) when the control is declarted on the same page that contains a **RadButton** with a `Classic` `RenderMode` (*i.e., the default `RenderMode`*).
+The appearance of **@{control}** may be distorted (**Figure 1**) when the control is declared on the same page that contains a **RadButton** with a `Classic` `RenderMode` (*i.e., the default `RenderMode`*).
 
 >caption Figure 1: Distorted appearance of **@{control}** when placed on the same page with **RadButton** `RenderMode`="`Classic`".
 

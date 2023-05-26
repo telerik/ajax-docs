@@ -139,9 +139,9 @@ function OnClientClicking(sender, args) {
 
 Visual Studio 2017 uses a new Intellisense mode for JavaScript based on TypeScript. You can revert to the old behavior by going to **Tools** > **Options** > **Text Editor** > **JavaScript/TypeScript** > **Language Service** and **uncheck** the checkbox from **Enable the new JavaScript Language service**. Make sure to restart Visual Studio for the changes to take effect.
 
-![revert to old JS service](../images/revert-to-old-language-service.png)
+![revert to old JS service](images/revert-to-old-language-service.png)
 
-With this, you can use the old JavaScript documenttion provided in the `vsdoc` files.
+With this, you can use the old JavaScript documentation provided in the `vsdoc` files.
 
 ````ASP.NET
 <!-- This can enable the old JS intellisense for the current page -->

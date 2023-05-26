@@ -12,13 +12,13 @@ position: 4
 
 
 
-This is a pretty common scenario when working with WebForms. There are many ways to achieve the desired result, but they have one thing in common – you should make sure that the controls are fully loaded in the page before trying to get a reference to them and use them in your JavaScript code.
+This is a common scenario when working with WebForms. There are many ways to achieve the desired result, but they have one thing in common – you should make sure that the controls are fully loaded in the page before trying to get a reference to them and use them in your JavaScript code.
 
 >note You can check the [Executing JavaScript Code from Server-side in Web Forms and ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/executing-javascript-code-from-server-side-in-web-forms-and-asp.net-ajax) KB article for more abstract code snippets.
 > Before you dive and test the different solutions make sure that:
 > * The code is actually inserted on the page – the easiest way is to put a simple alert() and check if it is fired.
 > * The controls are rendered on the page before referencing them in your JavaScript function
-> * If you are manually inserting the '<script>' tags – that you have set either the type (type='text/javascript') or the language (language='javascript') attributes
+> * If you are manually inserting the `<script>` tags – that you have set either the type (`type='text/javascript'`) or the language (`language='javascript'`) attributes
 
 ## The simplest way
 
@@ -208,4 +208,4 @@ Calling a JavaScript function from the server is a relatively easy task. Just ma
 
 1. The controls are rendered on the page before referencing them in your JavaScript function
 
-1. If you are manually inserting the <script> tags – that you have set either the type (type='text/javascript') or the language (language='javascript') attributes.
+1. If you are manually inserting the `<script>` tags – that you have set either the type (type='text/javascript') or the language (language='javascript') attributes.
