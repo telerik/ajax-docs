@@ -14,14 +14,15 @@ position: 12
 
 ##
 
-The [Combo in Grid](https://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/comboingrid/defaultcs.aspx?product=grid) online example demonstrates how to load the ComboBox Items on demand in the RadGrid edit form. There are two options to pre-select a value in a RadComboBox when it is nested in a RadGrid EditTemplate:
+The [Combo in Grid](https://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/comboingrid/defaultcs.aspx?product=grid) online example demonstrates how to load the ComboBox Items on demand in the RadGrid edit form. Two options are available to preselect a value in a RadComboBox when nested in a RadGrid EditTemplate:
 
-* If you populate RadComboBox with data using ASP.NET 2.0 or 3.5 DataSource types, you can simply set the SelectedValue :SelectedValue='<%#Bind("CompanyName") %>'
+* If you populate RadComboBox with data using ASP.NET 2.0 or 3.5 DataSource types, you can set the SelectedValue like SelectedValue='<%#Bind("CompanyName") %>'
 
 * When you use Load On Demand or Automatic Load On Demand - you can add the previously selected Item by in the RadGrid OnItemDataBound event when in Edit Mode.
 
 When you delete the text initially displayed in the RadComboBox - Load-On-Demand will fire and will populate the control with Items.
-![](images/grdComboInGrid_thumb.png)
+
+![](../images/grdComboInGrid_thumb.png)
 
 Below are the code snippets from the demo referred above:
 

@@ -18,7 +18,7 @@ position: 10
 
 In addition, the three controls on the page are ajaxified by RadAjaxManager to refresh their state with asynchronous request instead of standard postback.
 
-![Grid and Aggregate Chart](images/grdGridWithAggregateChart.PNG)
+![Grid and Aggregate Chart](../images/grdGridWithAggregateChart.PNG)
 
 Below are the relevant code excerpts:
 

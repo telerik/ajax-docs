@@ -18,7 +18,7 @@ position: 6
 
 Additionally, to make the grid stretch inside the corresponding pane on horizontal resize, simply set the Width property of RadGrid to 100%.
 
-![Resize grid in splitter](images/grdResizeGridInSplitter.PNG)
+![Resize grid in splitter](../images/grdResizeGridInSplitter.PNG)
 
 Below is the code logic used in the example:
 

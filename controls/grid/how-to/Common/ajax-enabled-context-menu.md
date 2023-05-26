@@ -14,13 +14,13 @@ position: 4
 
 ##
 
-In numerous cases you may want to display a context menu when right-clicking an arbitrary row in RadGrid. Through a command from that context menu you may want to change the state for the grid row (for example edit/delete/add record). Furthermore, you may prefer the operation with asynchronous request instead of postback.
+Often you may want to display a context menu when right-clicking an arbitrary row in RadGrid. Through a command from that context menu you may want to change the state for the grid row (for example edit/delete/add record). Furthermore, you may prefer the operation with asynchronous request instead of postback.
 
-The seamless integration between **RadContextMenu**, **RadAjax** and **RadGrid** makes this task very easy to be accomplished. Our grid control exposes **OnRowContextMenu** client event which can be handled to select the right-clicked record in the grid to mark it as active for the current action. In order to determine the index of the clicked row on the server, use a hidden field on the page to store its value client side and then operate with it on form submit (in the **ItemClick** event handler of RadMenu). Inside the handler perform the corresponding task chosen by the user to modify the item state.
+The seamless integration between **RadContextMenu**, **RadAjax** and **RadGrid** makes this task very easy to be accomplished. Our grid control exposes **OnRowContextMenu** client event which can be handled to select the right-clicked record in the grid to mark it as active for the current action. To determine the index of the clicked row on the server, use a hidden field on the page to store its value client side and then work with it on form submit (in the **ItemClick** event handler of RadMenu). Inside the handler perform the corresponding task chosen by the user to modify the item state.
 
 To associate the context menu with the grid instance, attach the **OnRowContextMenu** client event of RadGrid, get reference to the context menu object client-side and invoke its **show** method (passing the browser's event argument as parameter).
 
-Finally, configure the ajax manager settings in order to refresh the grid and the menu in a codeless manner.
+Finally, configure the ajax manager settings to refresh the grid and the menu in a codeless manner.
 
 
 ````ASP.NET

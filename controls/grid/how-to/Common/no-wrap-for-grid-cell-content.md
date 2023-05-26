@@ -11,7 +11,7 @@ position: 1
 
 # No Wrap for Grid Cell Content
 
-This appearance customization is not supported out-of-the-box in the current version of **RadGrid**. However, you can use a CSS rule which apply **white-space: nowrap** style attribute to all cells of the grid. Thus the column(s) in your grid instance should stretch to fit the width of the longest text inside the column(s) cells.
+This appearance customization is not supported out-of-the-box in the current version of **RadGrid**. However, you can use a CSS rule which apply **white-space: nowrap** style attribute to all cells of the grid. Thus the column(s) in your grid instance have to stretch to fit the width of the longest text inside the column(s) cells.
 
 For declarative columns the code be as below:
 

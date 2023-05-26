@@ -25,7 +25,7 @@ The key moments are:
 
 * Call the startSpellCheck() client method of RadSpell to check the specified input controls.
 
-* Raise a flag when the check is finished to update/insert the data.![](images/grdSpellCheckEditors_thumb.png)
+* Raise a flag when the check is finished to update/insert the data.![](../images/grdSpellCheckEditors_thumb.png)
 
 Additionally, the grid and spell components are ajaxified using RadAjaxManager instance to perform the data editing operations with asynchronous requests. Here are the relevant code snippets from the online demo:
 

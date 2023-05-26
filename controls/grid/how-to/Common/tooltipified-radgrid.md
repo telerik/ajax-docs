@@ -18,7 +18,7 @@ There are situations when the RadToolTipManager's TargetControls collection shou
 
 Move the mouse over a product name to see more details about it:
 
-![Tooltipified RadGrid](images/grd_TooltipifiedRadGrid.png)
+![Tooltipified RadGrid](../images/grd_TooltipifiedRadGrid.png)
 
 >note When the page index is changed, or a sorting has been done, the RadToolTipManager's TargetControls collection is cleared because the records on the new grid's page have the same ClientIDs as the old ones.
 >
