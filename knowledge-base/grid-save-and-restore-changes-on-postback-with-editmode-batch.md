@@ -272,7 +272,7 @@ Markup
 </telerik:RadScriptBlock>
 ````
 
-`C#`/`VB` for data binding
+Backend code for data binding
 
 ````C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
