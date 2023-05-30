@@ -28,7 +28,6 @@ How can I force controls in an AJAX-enabled container to perform a postback?
 
 ## Solution
 
-
 If you use the AjaxManager to AJAX-enable a container control but you need to conditionally do a full postback with some of its inner controls, you need to apply the following settings. 
 
 
@@ -49,51 +48,42 @@ If you use the AjaxManager to AJAX-enable a container control but you need to co
 </asp:Panel>
 ````
 
-
-
 However, once the container control is added to the `UpdatedControls` collection, all postback controls in it will start performing callbacks instead of regular postbacks. To force these controls to perform postbacks, use either of the following approaches:
 
 * Disable AJAX in the `OnRequestStart` client-side event handler of the AjaxManager control for the particular postback. Note that you need to add an AJAX setting where the container control updates itself.
 
-
-
-		````JavaScript
-		<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-			<script type="text/javascript">
-			    function RequestStart(sender, eventArgs) {
-			         var eventTarget = eventArgs.get_eventTarget();
-			        if (eventTarget.indexOf("Button2") != -1) {
-			            eventArgs.set_enableAjax(false);
-			        }
-			    }
-			</script>
-		</telerik:RadCodeBlock>
-		````
-
-
-
-		````ASP.NET
-		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-			<ClientEvents OnRequestStart="RequestStart" />
-			<AjaxSettings>
-			    <telerik:AjaxSetting AjaxControlID="Button1">
-			        <UpdatedControls>
-			            <telerik:AjaxUpdatedControl ControlID="Panel1" />
-			        </UpdatedControls>
-			    </telerik:AjaxSetting>
-			    <telerik:AjaxSetting AjaxControlID="Panel1">
-			        <UpdatedControls>
-			            <telerik:AjaxUpdatedControl ControlID="Panel1" />
-			        </UpdatedControls>
-			    </telerik:AjaxSetting>
-			</AjaxSettings>
-		</telerik:RadAjaxManager>
-		<asp:Button ID="Button1" runat="server" Text="Button" />
-		<asp:Panel ID="Panel1" runat="server">
-			<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-			<asp:Button ID="Button2" runat="server" Text="Button" />
-		</asp:Panel>
-		````
+````ASPX
+    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+        <script type="text/javascript">
+	    function RequestStart(sender, eventArgs) {
+		 var eventTarget = eventArgs.get_eventTarget();
+		if (eventTarget.indexOf("Button2") != -1) {
+		    eventArgs.set_enableAjax(false);
+		}
+	    }
+	</script>
+    </telerik:RadCodeBlock>
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        <ClientEvents OnRequestStart="RequestStart" />
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="Button1">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="Panel1">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+        </AjaxSettings>
+    </telerik:RadAjaxManager>
+    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Button ID="Button2" runat="server" Text="Button" />
+    </asp:Panel>
+````
 
 
 
@@ -101,42 +91,38 @@ However, once the container control is added to the `UpdatedControls` collection
 
 
 
-		````ASP.NET
-		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxSettingCreated="RadAjaxManager1_AjaxSettingCreated">
-			<AjaxSettings>
-			    <telerik:AjaxSetting AjaxControlID="Button1">
-			        <UpdatedControls>
-			            <telerik:AjaxUpdatedControl ControlID="Panel1" />
-			        </UpdatedControls>
-			    </telerik:AjaxSetting>
-			</AjaxSettings>
-		</telerik:RadAjaxManager>
-		<asp:Button ID="Button1" runat="server" Text="Button" />
-		<asp:Panel ID="Panel1" runat="server">
-			<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-			<asp:Button ID="Button2" runat="server" Text="Button" />
-		</asp:Panel>
-		````
-		````C#
-			     
-		protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCreatedEventArgs e)
-		{   
-			        if (e.Updated.ClientID == Panel1.ClientID)   
-			        {       
-			            e.UpdatePanel.ChildrenAsTriggers = false;   
-			        }
-		}
-						
-		````
-		````VB
-		Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)
-			        If e.Updated.ClientID = Panel1.ClientID Then
-			            e.UpdatePanel.ChildrenAsTriggers = False
-			        End If
-		End Sub
-			
-			
-		````
+````ASPX
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxSettingCreated="RadAjaxManager1_AjaxSettingCreated">
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="Button1">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+        </AjaxSettings>
+    </telerik:RadAjaxManager>
+    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Button ID="Button2" runat="server" Text="Button" />
+    </asp:Panel>
+````
+````C#
+    protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCreatedEventArgs e)
+    {
+        if (e.Updated.ClientID == Panel1.ClientID)
+        {
+            e.UpdatePanel.ChildrenAsTriggers = false;
+        }
+    }
+````
+````VB
+    Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)
+		If e.Updated.ClientID = Panel1.ClientID Then
+		    e.UpdatePanel.ChildrenAsTriggers = False
+		End If
+   End Sub
+````
 
 
 ## See Also
