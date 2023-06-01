@@ -16,8 +16,8 @@ This article explains what assemblies are included in the Telerik UI for ASP.NET
 
 The assemblies come sorted in several folders so that you can use the ones you need. Depending on the .NET framework version your project targets, you will find the assemblies in the following corresponding directories:
 
-* If you target `.NET 3.5`, use the assemblies from the `Bin35` folder.
-* If you target `.NET 4.0`, use the assemblies from the `Bin40` folder.
+* If you target `.NET 3.5`, use the assemblies from the `Bin35` folder ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
+* If you target `.NET 4.0`, use the assemblies from the `Bin40` folder ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 * If you target `.NET 4.5`, `.NET 4.6`, `.NET 4.7`, or `.NET 4.8`, use the assemblies from the `Bin45` folder.
 
 The binaries from the `Additional Assemblies` folder may have different versions from the main assemblies. You have to use the assemblies from the same release as the main assemblies.

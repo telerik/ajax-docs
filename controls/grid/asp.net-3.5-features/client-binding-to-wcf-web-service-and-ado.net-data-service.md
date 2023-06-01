@@ -12,7 +12,7 @@ position: 0
 
 
 
-The ASP.NET 3.5 framework introduces two new ways to supply data to your ASP.NET server controls - binding to Windows Communication Foundation (WCF) Web Service and binding to ADO.NET Data Services. They allow the developer to use asynchronous calls using these types of services in order to retrieve data, return it back to the client and update the state of controls based on the result which is send back from the service. Below are a couple of tutorials which include step by step directions how to configure WCF service and ADO.NET Data Services with VS 2008:
+As of ASP.NET 3.5, the .NET framework introduces two new ways to supply data to your ASP.NET server controls - binding to Windows Communication Foundation (WCF) Web Service and binding to ADO.NET Data Services. They allow the developer to use asynchronous calls using these types of services to retrieve data, return it back to the client and update the state of controls based on the result which is send back from the service. Below are a couple of tutorials which include step by step directions how to configure WCF service and ADO.NET Data Services with Visual Studio:
 
 [WCF services getting started tutorial](https://msdn.microsoft.com/en-us/library/ms734712.aspx)
 

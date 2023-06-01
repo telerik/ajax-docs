@@ -24,9 +24,9 @@ For the step-by-step guides on getting up and running with the suite, refer to t
 
 Before adding a control to your project, verify that the server, development machine, and the web application or website meet the following requirements:
 
-1. Install ASP.NET AJAX, which comes with <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET 3.5+ installations</a>.
+1. Install ASP.NET AJAX, which comes with <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET 4.5+ installations</a>.
 
-1. If your web application is not using ASP.NET AJAX, configure it to do so. For detailed instructions, refer to the <a href="https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application" target="_blank">Adding ASP.NET AJAX Features to an Existing Web Application</a> article.
+1. If your web application is not using ASP.NET AJAX, configure it to do so. For detailed instructions, refer to the <a href="https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application" target="_blank">Adding ASP.NET AJAX Features to an Existing Web Application</a> and <a href="https://visualstudiomagazine.com/articles/2022/05/16/vs2022-web-forms-tip.aspx">How to Do Web Forms in VS 2022 (Even Though Microsoft Recommends Blazor/.NET 6)</a> articles.
 
 1. Add the needed HTTP handlers in the `web.config` file as described in the [web.config settings overview]({%slug general-information/web-config-settings-overview%}) article.
 

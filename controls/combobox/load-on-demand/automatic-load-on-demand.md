@@ -77,14 +77,14 @@ RadComboBox supports automatic load-on-demand. This means that you can quickly e
 
 
 
-You can use this feature with any kind of declarative data source, including .NET 3.5’s Linq and EntityDataSource. (When working with the last mentioned data source, RadComboBox uses simple optimization techniques to improve the performance.)
+You can use this feature with any kind of declarative data source, including Linq and EntityDataSource. (When working with the last mentioned data source, RadComboBox uses simple optimization techniques to improve the performance.)
 
 In fact you can use all types of enumerable data sources with the **DataSource** property. In this case, it is important to note that you set the property on **each postback**. RadComboBox will automatically bind to the data source whenever a request for items is made.
 
-Finally it is important to note that the [ItemsRequested]({%slug combobox/server-side-programming/itemsrequested%}) event still fires with automatic load-on-demand. In the respective event handler you can still:
+Note that the [ItemsRequested]({%slug combobox/server-side-programming/itemsrequested%}) event still fires with automatic load-on-demand. In the respective event handler you can still:
 
 * Add / Remove Items.
 
 * Access / Change the ‘Show More Results’ message via the event arguments.
 
-* Get / Set the EndOfItems event argument to explicitly stop subsequent ‘show more results/virtual scrolling’ requests.
+* Get / Set the EndOfItems event argument to explicitly stop subsequent "show more results/virtual scrolling" requests.

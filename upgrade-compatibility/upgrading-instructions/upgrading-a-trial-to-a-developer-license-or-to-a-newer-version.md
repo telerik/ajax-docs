@@ -55,9 +55,9 @@ The following steps ensure a safe upgrade:
 
    * The `Bin45` folder contains the assemblies for .NET 4.5 and above.
 
-   * The `Bin40` folder contains the assemblies for .NET 4.0.
+   * The `Bin40` folder contains the assemblies for .NET 4.0 ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 
-   * The `Bin35` folder contains the assemblies for .NET 3.5.
+   * The `Bin35` folder contains the assemblies for .NET 3.5 ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 
    * If you install a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
 

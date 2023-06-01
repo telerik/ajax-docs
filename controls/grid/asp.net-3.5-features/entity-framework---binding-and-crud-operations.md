@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The ASP.NET 3.5 framework introduces the ADO.NET Entity Framework which exposes a brand new way to supply data and structure a data access layer (DAL) to your ASP.NET web sites/web application projects.
+Since ASP.NET 3.5, the framework introduces the ADO.NET Entity Framework which exposes a way to supply data and structure a data access layer (DAL) to your ASP.NET web sites/web application projects.
 
 The ADO.NET Entity Framework is designed to support data-centric applications and services, and provides a platform for programming against data that raises the level of abstraction from the logical relational level to the conceptual level. By enabling developers to work with data at a greater level of abstraction, the Entity Framework supports code that is independent of any particular data storage engine or relational schema. For more information, see [Introducing the Entity Framework](https://msdn.microsoft.com/en-us/library/bb399567.aspx).
 

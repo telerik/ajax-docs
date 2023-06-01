@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-RadFilter can be used to build complex filtering criteria by means of intuitive visual UI and depending on the data type of the underlying source fields.Supported data source controls are such controls that support filtering, i.e *LinqDataSource/EntityDataSource/OpenAccessDataSource*. To filter .Net 3.5/4.0 DataSource controls with RadFilter, you need to specify the **DataSourceControlID** property of the filter control.
+RadFilter can be used to build complex filtering criteria by means of intuitive visual UI and depending on the data type of the underlying source fields.Supported data source controls are such controls that support filtering, i.e *LinqDataSource/EntityDataSource/OpenAccessDataSource*. To filter .Net DataSource controls with RadFilter, you need to specify the **DataSourceControlID** property of the filter control.
 
 Here is a simple example which demonstrates how you can filter RadListBox bound to EntityDataSource using RadFilter:
 

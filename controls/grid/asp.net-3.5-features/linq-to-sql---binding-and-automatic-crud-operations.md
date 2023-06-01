@@ -28,7 +28,7 @@ RadGrid for ASP.NET AJAX exposes declarative way to binding itself to LinqDataSo
 
 To enable automatic editing at data source level, set the *AllowAutomaticUpdates/AllowAutomaticInserts/AllowAutomaticDeletes* properties of the grid instance and the corresponding *EnableUpdate/EnableInsert/EnableDelete* properties of the LinqDataSource to true.
 
-Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to implement the *IBindableControl *interface, available in ASP.NET 3.5, in order to support automatic editing operations with WebUserControl custom edit form):
+Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to implement the *IBindableControl *interface to support automatic editing operations with WebUserControl custom edit form):
 
 ````ASP.NET
 <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" DefaultLoadingPanelID="RadAjaxLoadingPanel1">

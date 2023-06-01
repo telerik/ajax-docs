@@ -246,7 +246,7 @@ Refer to the [respective online demo](https://demos.telerik.com/aspnet-ajax/list
 
 ## Additional resources
 
-The following MSDN articles describe how to configure ASP.NET 3.5 **DataSource** controls:
+The following MSDN articles describe how to configure ASP.NET **DataSource** controls:
 
 * **LinqDataSource:**[https://msdn2.microsoft.com/en-us/library/bb547113.aspx](https://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 

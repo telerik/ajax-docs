@@ -38,7 +38,7 @@ If you are installing Telerik UI for ASP.NET AJAX from a [ZIP distribution]({%sl
 
 	* If the ZIP was used to install the Telerik controls, the **Bin45** folder is located in the folder where the installation files have been unzipped.
 
-	>note If you want to add Telerik controls for .NET 3.5 or .NET 4.0 web project you should select the Telerik.Web.UI.dll from the **C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Bin35** or **~/Bin40** folder.
+	>note If you want to add Telerik controls for .NET 3.5 or .NET 4.0 web project you should select the Telerik.Web.UI.dll from the **C:\Program Files (x86)\Progress\UI for ASP.NET AJAX RX YYYY\Bin35** or **~/Bin40** folder. Note that both Bin35 and Bin40 folders are [distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314).
 
 ## Troubleshooting
 

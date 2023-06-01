@@ -1,7 +1,7 @@
 ---
-title: Automatic CRUD Operations under .NET 3.5
-page_title: Automatic CRUD Operations under .NET 3.5 - RadListView
-description: Check our Web Forms article about Automatic CRUD Operations under .NET 3.5.
+title: Automatic CRUD Operations under .NET
+page_title: Automatic CRUD Operations under .NET - RadListView
+description: Check our Web Forms article about Automatic CRUD Operations under .NET.
 slug: listview/data-editing/automatic-crud-operations-under-.net-3.5
 tags: automatic,crud,operations,under,.net,3.5
 published: True
@@ -16,7 +16,7 @@ position: 1
 
 **Controlling the automatic data source operations under .NET35**
 
-RadListView can be bound to all ASP.NET 3.5 DataSource control types:
+RadListView can be bound to all ASP.NET DataSource control types:
 
 * LinqDataSource
 
