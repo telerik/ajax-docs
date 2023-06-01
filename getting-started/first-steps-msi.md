@@ -49,6 +49,10 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 >Tip: You can also install the msi silently as explained in [Silent MSI install]({% slug silent-msi-installation %}).
 
+>note The Telerik UI for ASP.NET AJAX MSI package automatically adds the products to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
+>
+> The MSI also installs the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) to help developers when creating, developing and/or upgrading webforms projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
+
 ## Step 2: Download the Demos
 
 1. From the **Resources** section of same page, download the MSI installation for the Telerik UI for ASP.NET AJAX examples. Once you install them on your machine, you can launch the live demos in either of the following ways:
@@ -57,8 +61,6 @@ The following prerequisites are required for accomplishing the scenario in this 
   * For Windows Explorer, navigate to the Telerik control installation folder, typically `C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Live Demos` and double-click the `StartExamples.exe` file.
 
 1. Load the **Live Examples** solution to your Visual Studio and start the project by clicking `F5`. The fastest way to load the examples is by using the **Start Menu** by selecting **Telerik** > **UI for ASP.NET AJAX RX YYYY -> Open Sample Web Site in Visual Studio**. Visual Studio will locally start the **Live Demos** by using the integrated ASP.NET Development Server.
-
->note The Telerik UI for ASP.NET AJAX package automatically adds the products to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
 
 ## Step 3: Create the ASP.NET AJAX Project
 
