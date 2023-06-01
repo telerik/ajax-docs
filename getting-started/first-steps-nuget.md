@@ -81,6 +81,11 @@ Now that you have successfully added the Telerik NuGet feed as a package source,
 	>caption Add the Telerik UI for ASP.NET AJAX package to the solution
 
 	![Adding the Telerik® UI for ASP.NET AJAX package to the solution](images/add-telerik-package.png)
+	
+	
+>note Unlike the Telerik UI for ASP.NET AJAX MSI package installation, the NuGet package does not automatically add the UI components to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
+>
+> Additionally, the NuGet does not install the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which are valuable tools for WebForms developers working with the Telerik ASP.NET Web Forms components. However, these extensions can be downloaded and installed as a separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
 
 ## Step 3: Add the Editor to Your Project
 
