@@ -46,6 +46,10 @@ After successfully providing the prerequisites, you will install the suite from 
 
 1. Download the **Manual installation** (`Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip`) file and extract its content to a convenient location.
 
+>note Unlike the Telerik UI for ASP.NET AJAX MSI package installation, the Zip package does not automatically add the UI components to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
+>
+> Additionally, the zip does not install the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which are valuable tools for WebForms developers working with the Telerik ASP.NET Web Forms components. However, these extensions can be downloaded and installed as a separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
+
 ## Step 2: Upgrade an Existing Telerik UI for ASP.NET AJAX Project
 
 The files from the ZIP installation are usually used for manual upgrading of an already existing Telerik UI for ASP.NET AJAX Project. The following steps ensure a safe upgrade:
