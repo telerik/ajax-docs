@@ -18,7 +18,6 @@ previous_url: controls/grid/getting-started/visual-studio-support
 Telerik RadGrid provides support for:
 
 * Visual Studio 2008, 2010, 2012, 2013, 2015, 2017, 2019 and 2022
-(for Telerik.Web.UI.dll build against .NET 3.5, .NET 4.x and 4.5+)
 
 VSX extentions like toolbars and design-time features are supported for VS version 2015+:
 https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions 

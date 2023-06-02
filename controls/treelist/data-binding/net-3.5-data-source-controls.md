@@ -1,7 +1,7 @@
 ---
-title: .NET 3.5 Data Source Controls
-page_title: .NET 3.5 Data Source Controls - RadTreeList
-description: Check our Web Forms article about .NET 3.5 Data Source Controls.
+title: LinqDataSource and EntityDataSource Data Source Controls
+page_title: LinqDataSource and EntityDataSource Data Source Controls - RadTreeList
+description: Check our Web Forms article about LinqDataSource and EntityDataSource Data Source Controls.
 slug: treelist/data-binding/net-3.5-data-source-controls
 tags: .net,3.5,data,source,controls
 published: True
@@ -9,7 +9,7 @@ position: 2
 previous_url: controls/treelist/data-binding/.net-3.5-data-source-controls
 ---
 
-# .NET 3.5 Data Source Controls
+# LinqDataSource and EntityDataSource Data Source Controls
 
 
 
