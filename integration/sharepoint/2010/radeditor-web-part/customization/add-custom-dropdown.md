@@ -10,6 +10,8 @@ position: 3
 
 # Add Custom DropDown
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 Bellow are the exact steps that demonstrate how to add a custom dropdown when using RadEditor for SP2010:
 
 1. Open the respective ToolsFile situated in the */Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources* folder and add the custom dropdown's declaration e.g. `<tool name="CustomDropdown" type="dropdown"> <item name="Item 1" Value="1"/> <item name="Item 2" Value="2"/> <item name="Item 3" Value="3"/></tool>`

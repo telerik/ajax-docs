@@ -10,6 +10,8 @@ position: 1
 
 # Using Client-Side Events
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 Telerik RadEditor's provides a very rich Client-Side API which is very useful when implementing some more complicated scenarios. Bellow are the editor's Client-Side events:
 
 * [OnClientLoad]({%slug editor/client-side-programming/events/onclientload%})

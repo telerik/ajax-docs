@@ -10,7 +10,7 @@ position: 9
 
 # Disable Automatic Approval and Publishing of Uploaded Files
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 In SharePoint 2010, if a library is set to support content approval or to create a version each time you edit a file, all the files uploaded through the RadEditor for SP2010's dialogs (provided by Telerik), are Approved respectively Published.
 

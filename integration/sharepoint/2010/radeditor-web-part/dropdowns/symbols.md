@@ -10,6 +10,8 @@ position: 7
 
 # Symbols
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 ![](images/DropDowns013.png)
 
 The RadEditor Symbols dropdown by default displays a predefined set of symbols. They are kept in the Symbols Collection. You can easily predefine the Symbols collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:

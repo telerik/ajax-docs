@@ -10,7 +10,7 @@ position: 1
 
 # Deploying Telerik® UI for ASP.NET AJAX
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 
 To leverage Telerik® UI for ASP.NET AJAX on a SharePoint Server 2010, their assemblies need to be deployed on that server. Once the required files are deployed, our ASP.NET AJAX controls can be added to the site by editing the site’s page or web part, in which the controls will be added.

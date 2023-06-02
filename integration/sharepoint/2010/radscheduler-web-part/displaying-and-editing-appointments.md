@@ -10,7 +10,7 @@ position: 1
 
 # Displaying and Editing SPRadScheduler Appointments
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 User can populate the SPRadScheduler with data via two types of data sources: SharePoint List or Exchange Calendar.
 

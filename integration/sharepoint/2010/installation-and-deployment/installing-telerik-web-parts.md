@@ -10,7 +10,7 @@ position: 0
 
 # Installing Telerik Web Parts for SharePoint
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 ## Automatic Installation, Upgrade and Removal
 

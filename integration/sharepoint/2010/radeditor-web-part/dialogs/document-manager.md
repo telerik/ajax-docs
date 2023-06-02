@@ -10,6 +10,8 @@ position: 3
 
 # Document Manager
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 Functionality:
 
 Using the Document Manager dialog the users of RadEditor can:

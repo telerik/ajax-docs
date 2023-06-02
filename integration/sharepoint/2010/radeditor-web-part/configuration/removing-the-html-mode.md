@@ -10,7 +10,7 @@ position: 3
 
 # Removing the HTML Mode
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 
 In certain cases you might want to remove user's ability for editing the HTML source directly.

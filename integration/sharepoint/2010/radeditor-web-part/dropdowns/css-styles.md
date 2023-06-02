@@ -10,6 +10,8 @@ position: 5
 
 # CSS Styles
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 ![](images/DropDowns010.png)
 
 The CSS class dropdown of RadEditor displays all classes defined in the page or from external CSS files. The dropdown is populated from the **CssClasses**Collection. By default RadEditor for SP2010 uses the same CSS files as the default rich-text editor. Those files are **HtmlEditorTableFormats.css** and **HtmlEditorCustomStyles.css,** which are located in the following folder:

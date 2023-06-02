@@ -10,7 +10,7 @@ position: 0
 
 # Migrating Default Rich-text Editor Web Parts
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
  
 
 In existing SharePoint 2010 applications you need to manually migrate the content of the default rich-text editor Web Part to Telerik RadEditor Web Part. Unfortunately, there is no supported way of doing that automatically.

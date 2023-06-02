@@ -10,7 +10,7 @@ position: 0
 
 # Designer and Data Binding
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 ## SPRadGrid Designer
 

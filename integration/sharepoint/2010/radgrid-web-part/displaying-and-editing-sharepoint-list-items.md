@@ -10,7 +10,7 @@ position: 2
 
 # Displaying and Editing SharePoint List Items
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 
 The Web Part SPRadGrid control features a seamless integration with the native SharePoint list display/edit/insert dialogs. If the SharePoint view of the list which the grid is bound to has a link-title column,the data in the column will be rendered as a hyper link that upon clicking will show the display-list-item dialog. Apart from displaying information about the current selected row the dialog will further give you the opportunity to edit/delete the item, manage permissions for it, download any associated attachments, etc.

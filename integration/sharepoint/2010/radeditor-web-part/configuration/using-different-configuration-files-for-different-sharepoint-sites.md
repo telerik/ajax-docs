@@ -10,7 +10,7 @@ position: 2
 
 # Using Different Configuration Files for Different SharePoint Sites
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
  
 
 It is possible to have unique configuration files (one for lists and one for web parts and publishing fields) for each SharePoint web on your server. Simply create a new configuration file and append the unique ID of the web to the file name. For example:

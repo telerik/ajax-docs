@@ -10,6 +10,8 @@ position: 0
 
 # Defining Custom CSS Styles
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 This help article illustrates different ways to customize the content area of RadEditor for SharePoint 2010.
 
 * [Modify Existing Styles](#modify-existing-styles)

@@ -10,7 +10,7 @@ position: 4
 
 # Add and Remove Tools from the Toolbar
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 
 You can add/remove certain tools from the RadEditor toolbar by modifying the respective ToolsFile.

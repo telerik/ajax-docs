@@ -10,6 +10,8 @@ position: 8
 
 # Code Snippets
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 ![](images/DropDowns015.png)
 
 The Code snippets dropdown is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the **Snippets** collection. You can add to the Snippets collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:

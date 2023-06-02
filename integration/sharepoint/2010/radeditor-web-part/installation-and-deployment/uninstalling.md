@@ -10,6 +10,8 @@ position: 3
 
 # Uninstalling RadEditor
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 In general, there are 2 approaches for uninstalling Telerik controls for SharePoint 2010. You could do that either by
 
 1. Using the MS Windows’ Control Panel / Add Remove Programs (Programs and Features in Windows7)

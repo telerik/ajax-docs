@@ -10,6 +10,8 @@ position: 6
 
 # Custom Links
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 ![](images/DropDowns011.png)
 
 The RadEditor Custom Links dropdown is a convenient tool for inserting pre-defined hyperlinks. These usually be one of two link types:

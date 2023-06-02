@@ -10,7 +10,7 @@ position: 6
 
 # Set Properties via Config File
 
-
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
 
 
 

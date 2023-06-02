@@ -10,6 +10,8 @@ position: 0
 
 # Overview
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 The Telerik RadEditor SharePoint Web Part provides several file management dialogs. This article lists them and their tool names.
 
 Some of these dialogs use the built-in SharePoint libraries and lists through a custom content provider that is in the Telerik Web Part code. Others rely on the built-in SharePoint dialogs:

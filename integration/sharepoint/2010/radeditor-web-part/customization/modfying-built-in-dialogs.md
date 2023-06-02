@@ -10,6 +10,8 @@ position: 5
 
 # Modfying Built-in Dialogs
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 By default, all RadEditor dialogs are embedded as resource files in the Telerik.Web.UI.dll file, which makes their customization harder. In order to provide an easy way to modify the editor's dialogs, the Telerik® UI for ASP.NET AJAX installation now comes with an extra folder named **EditorDialogs** which contains the dialogs' ascx files. You can configure RadEditor to use the external dialog files by copying the **EditorDialogs** within you web application's root and set the editor's **ExternalDialogsPath** property to point to it in the respective ConfigFile.
 
 **Example:** The example below demonstrates how to hide the "Create New Folder" button in the Image Manager dialog. Here are the steps:

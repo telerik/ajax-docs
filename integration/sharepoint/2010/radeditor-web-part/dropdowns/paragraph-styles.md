@@ -10,6 +10,8 @@ position: 3
 
 # Paragraph Styles
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 ![](images/DropDowns004.png)
 
 The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the **Paragraphs** collection. You can predefine the paragraphs in the **Paragraphs** collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:

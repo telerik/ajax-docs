@@ -10,6 +10,8 @@ position: 1
 
 # Inserting Flash and Media Files
 
+>caution Telerik Web Parts for SharePoint 2010 last build was R1 2023 SP2 and is discontinued since then.
+
 **Web Part and WCM scenario**
 
 You need to modify the **ToolsFile.xml** which is located in the following folder:
