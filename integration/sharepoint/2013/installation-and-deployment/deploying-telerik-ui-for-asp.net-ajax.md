@@ -10,7 +10,7 @@ position: 2
 
 # Deploying Telerik® UI for ASP.NET AJAX
 
-
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
 
 
 To leverage Telerik® UI for ASP.NET AJAX on a SharePoint Server 2013, their assemblies need to be deployed on that server.Once the required files are deployed, our ASP.NET AJAX controls can be added to the site by editing the site’s page or web part, in which the controls will be added.

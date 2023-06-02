@@ -10,7 +10,7 @@ position: 0
 
 # Supported SharePoint App Models
 
-
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
 
 ## 
 

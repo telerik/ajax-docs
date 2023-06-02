@@ -10,6 +10,8 @@ position: 1
 
 # Installing Telerik Web Parts for SharePoint
 
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
+
 Telerik Web Parts for SharePoint 2013 come in a common Windows SharePoint (WSP) solution that contain all the necessary files and deployment information for the Web Parts to be successfully installed on your SharePoint application.
 
 Once downloaded, the package contains the WSP Solution file (.wsp) as well as an MSI Installer. 

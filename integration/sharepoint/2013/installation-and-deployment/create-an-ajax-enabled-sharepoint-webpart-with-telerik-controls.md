@@ -10,7 +10,7 @@ position: 4
 
 # Create an AJAX-enabled SharePoint WebPart with Telerik Controls
 
-
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
 
 
 This article shows how to create an AJAX-enabled SharePoint WebPart that uses Telerik® UI for ASP.NET AJAX.It is assumed that you already have SharePoint WebParts for ASP.NET AJAX installed and configured on the target SharePoint installation or the Telerik® UI for ASP.NET AJAX are [deployed on the machine]({%slug sharepoint/2013/installation-and-deployment/deploying-telerik-ui-for-asp.net-ajax%}) (this is done automatically when the SharePoint WebParts for ASP.NET AJAX are installed).

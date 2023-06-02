@@ -10,7 +10,7 @@ position: 1
 
 # Web Content Management Scenario
 
-
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
 
 Telerik RadEditor for SharePoint 2013 can be easily used as a cross-browser rich-text editor for Web Content Management in SharePoint 2013.In order to replace the default editor in a page template, you need to perform a one-time modification using SharePoint Designer 2013.All content which has been authored through the default editor will be preserved and accessible through the Telerik RadEditor for SharePoint 2013.
 

@@ -10,7 +10,7 @@ position: 2
 
 # Uninstalling
 
-
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
 
 
 In general, there are 2 approaches for uninstalling Telerik controls for SharePoint 2013. You could do that either by

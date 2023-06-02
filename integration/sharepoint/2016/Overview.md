@@ -11,6 +11,8 @@ position: 1
 
 # Telerik Web Parts for SharePoint 2016
 
+>caution Telerik Web Parts for SharePoint 2013 are retired with R2 2023 being their final release. Technical support will be available until June 2024 for eligible licenses.
+
 This article explains how to use the Telerik web parts for SharePoint 2016.
 
 SharePoint 2016 offers similar app model and server infrastructure to SharePoint 2013 in terms of web part registration and usage. This means that you can **[install manually]({%slug sharepoint/2013/installation-and-deployment/installing-telerik-web-parts%}#manual-installation-upgrade-and-removal) and use the SharePoint 2013 Telerik web parts under SharePoint 2016** until an official `msi` installation package is provided by Telerik.
