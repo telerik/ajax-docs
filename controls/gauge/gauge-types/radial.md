@@ -5,7 +5,7 @@ description: Check our Web Forms article about Radial.
 slug: gauge/gauge-types/radial
 tags: radial
 published: True
-position: 1
+position: 3
 ---
 
 # Radial

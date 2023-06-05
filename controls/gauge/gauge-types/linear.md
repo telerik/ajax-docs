@@ -5,7 +5,7 @@ description: Check our Web Forms article about Linear.
 slug: gauge/gauge-types/linear
 tags: linear
 published: True
-position: 0
+position: 2
 ---
 
 # Linear

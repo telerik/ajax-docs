@@ -20,13 +20,17 @@ It was added to the suite in **Q3 2012** and its main features are:
 
 * **Different gauge types**
 
+* [Arc]({%slug gauge/gauge-types/arc%})
+
+* [Circular]({%slug gauge/gauge-types/circular%})
+
 * [Linear]({%slug gauge/gauge-types/linear%})
 
 * [Radial]({%slug gauge/gauge-types/radial%})
 
 * **Animation** - when the control is being rendered it will animate until the value is shown.
 
-* **Intuitive markup structure** - Inner tags provide hierarchical configuration of each element and the gauge types are added as separate controls (**RadLinearGauge** and **RadRadialGauge**) to make clear which is the one you need.
+* **Intuitive markup structure** - Inner tags provide hierarchical configuration of each element and the gauge types are added as separate controls (`RadArcGauge`, `RadCircularGauge`, `RadLinearGauge`, and `RadRadialGauge`) to make clear which is the one you need.
 
 ## See Also
 
