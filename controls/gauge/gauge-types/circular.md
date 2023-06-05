@@ -33,7 +33,7 @@ To get an idea which element corresponds to which tag check the [RadGauge Struct
 
 The control offers more customization options than the ones shown above:
 
-* **Center Template** - You can customize the content inside the center of the CircularGauge by using the center template.  RadCircularGauge uses [Kendo UI Templates]("https://docs.telerik.com/kendo-ui/framework/templates/overview") to provide full control over the rendering of center element. To evaluate the current value of the Gauge in its center element use `#:value#`.
+* **Center Template** - You can customize the content inside the center of the CircularGauge by using the center template.  RadCircularGauge uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the rendering of center element. To evaluate the current value of the Gauge in its center element use `#:value#`.
 
 * **Basic Scale configuration** - the `Scale` is the main wrapper of the control and details are configurable through inner properties. The main `Scale` tag, however, offers the basic functionality - the `Min` and `Max` values of the gauge, the `MajorUnit` and `MinorUnit` properties that control the ticks and label distance,and the `Reverse` property which shows the higher values first when set to true. The specific properties here is `StartAngle` which controls the angle from which the gauge's dial starts.
 

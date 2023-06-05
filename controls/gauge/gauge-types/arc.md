@@ -33,7 +33,7 @@ To get an idea which element corresponds to which tag check the [RadGauge Struct
 
 The control offers more customization options than the ones shown above:
 
-* **Center Template** - You can customize the content inside the center of the ArcGauge by using the center template.  RadArcGauge uses [Kendo UI Templates]("https://docs.telerik.com/kendo-ui/framework/templates/overview") to provide full control over the rendering of center element. To evaluate the current value of the Gauge in its center element use `#:value#`.
+* **Center Template** - You can customize the content inside the center of the ArcGauge by using the center template.  RadArcGauge uses [Kendo UI Templates](https://docs.telerik.com/kendo-ui/framework/templates/overview) to provide full control over the rendering of center element. To evaluate the current value of the Gauge in its center element use `#:value#`.
 
 * **Basic Scale configuration** - the `Scale` is the main wrapper of the control and details are configurable through inner properties. The main `Scale` tag, however, offers the basic functionality - the `Min` and `Max` values of the gauge, the `MajorUnit` and `MinorUnit` properties that control the ticks and label distance,and the `Reverse` property which shows the higher values first when set to true. The specific properties here are `StartAngle` and `EndAngle` which control the angle from which the gauge's dial starts and at which it ends. The difference between them must be less than 360 degrees and they can also take negative values so that the gauge rotates from the default vertical centering.
 
