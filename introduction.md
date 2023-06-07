@@ -38,7 +38,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [Button]({%slug button/telerik's-asp.net-button-overview%})
 
-* [BinaryImage]({%slug controls/radbinaryimage%})
+* [BinaryImage]({%slug binaryimage/overview%})
 
 * [Calendar]({%slug calendar/overview%})
 
@@ -166,7 +166,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [SiteMap]({%slug sitemap/overview%})
 
-* [Skin Manager]({%slug controls/radskinmanager%})
+* [Skin Manager]({%slug skinmanager/overview%})
 
 * [Slider]({%slug slider/overview%})
 

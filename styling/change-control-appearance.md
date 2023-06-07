@@ -43,5 +43,5 @@ If you experience issues with the appearance of the controls, start by examining
 * [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})
 * [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%})
 * [Creating a Custom Skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
-* [RadSkinManager]({%slug controls/radskinmanager%})
+* [RadSkinManager]({%slug skinmanager/overview%})
 * [Progress Virtual Classroom](https://learn.telerik.com/)

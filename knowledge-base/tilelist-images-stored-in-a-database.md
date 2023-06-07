@@ -45,7 +45,7 @@ There are three possible approaches you can take:
 </ContentTemplateTileBinding>
  ````
  
-- Add a [RadBinaryImage]({%slug controls/radbinaryimage%})in a [RadContentTemplateTile]({%slug tilelist/tiles/contenttemplate-tile%}). You can **provide** it with a **byte array of image data in the [TileDataBound event]({%slug tilelist/server-side-programming/server-side-events/ontiledatabound%})**. This will have worse performance than the options above because all queries will have to run synchronously.  
+- Add a [RadBinaryImage]({%slug binaryimage/overview%})in a [RadContentTemplateTile]({%slug tilelist/tiles/contenttemplate-tile%}). You can **provide** it with a **byte array of image data in the [TileDataBound event]({%slug tilelist/server-side-programming/server-side-events/ontiledatabound%})**. This will have worse performance than the options above because all queries will have to run synchronously.  
 
  ````ASPX
  <telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="634px" OnTileDataBound="RadTileList1_TileDataBound">

@@ -185,6 +185,9 @@ navigation:
     "controls/barcode":
         title: "Barcode"
         position: 1
+    "controls/binaryimage":
+        title: "BinaryImage"
+        position: 1
     "controls/button":
         title: "Button"
         position: 1
@@ -418,6 +421,9 @@ navigation:
         position: 1
     "controls/sitemap":
         title: "Sitemap"
+        position: 1
+    "controls/skinmanager":
+        title: "SkinManager"
         position: 1
     "controls/slider":
         title: "Slider"
@@ -1954,7 +1960,7 @@ intro_columns:
     title: "Theming"
     items:
       "Form Decorator": "formdecorator/overview"
-      "Skin Manager": "controls/radskinmanager"
+      "Skin Manager": "skinmanager/overview"
       "StyleSheet Manager": "stylesheetmanager/overview"
   -
     title: "AJAX"
@@ -2019,7 +2025,7 @@ intro_columns:
     title: "Data Visualization"
     items:
       "Barcode": "barcode/overview"
-      "Binary Image": "controls/radbinaryimage"
+      "Binary Image": "binaryimage/overview"
       "Chart (HTML5)": "htmlchart/overview"
       "Gauge": "gauge/overview"
       "Rotator": "rotator/overview"

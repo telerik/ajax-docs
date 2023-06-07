@@ -1,15 +1,15 @@
 ---
-title: SkinManager
+title: Overview
 page_title: RadSkinManager
 description: Check our Web Forms article about RadSkinManager.
-slug: controls/radskinmanager
+slug: skinmanager/overview
+previous_url: controls/radskinmanager
 tags: radskinmanager
 published: True
 position: 4
-CTAControlName: SkinManager
 ---
 
-# WebForms RadSkinManager Overview
+# WebForms SkinManager Overview
 
 This article provides the following information:
 

@@ -47,7 +47,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>BinaryImage</td>
             <td>Yes</td>
             <td>AAA</td>
-            <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/radbinaryimage#wai-aria-support" target="_blank">Browse</a></td>
+            <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/binaryimage/overview#wai-aria-support" target="_blank">Browse</a></td>
         </tr>
         <tr>
             <td>Breadcrumb</td>

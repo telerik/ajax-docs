@@ -107,6 +107,6 @@ public class ImageItem
 
 * [RadBinaryImage online demo](https://demos.telerik.com/aspnet-ajax/binaryimage/examples/overview/defaultcs.aspx)
   
-* [RadBinaryImage documentation]({%slug controls/radbinaryimage %})
+* [RadBinaryImage documentation]({%slug binaryimage/overview %})
 
 * [Preview uploaded image with RadAsyncUpload KB article]({%slug asyncupload-preview-uploaded-image %})
