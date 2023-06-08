@@ -19,6 +19,25 @@ If you want the grid to have its height automatically adjusted to its records, y
 <Scrolling ScrollHeight="" />
 ````
 
+You can also set this property programmaticaly to `Unit.Empty`:
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadGrid1.ClientSettings.Scrolling.ScrollHeight = Unit.Empty;
+    }
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+    If Not IsPostBack Then
+        RadGrid1.ClientSettings.Scrolling.ScrollHeight = Unit.Empty
+    End If
+End Sub
+````
+
 Alternatively, if you want to set a percentage height to the grid, you can follow the steps provided here:  
 [http://www.telerik.com/support/code-library/setting-radgrid's-height-in-percents](https://www.telerik.com/support/code-library/setting-radgrid's-height-in-percents)
 
