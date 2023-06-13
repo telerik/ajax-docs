@@ -64,13 +64,13 @@ Create a RadClientDataSource Control that will call use the WebService.asmx for 
 
             <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" SortExpression="Country" UniqueName="Country">
                 <ItemTemplate>
-                    <%# Eval("Country")%>
+                    <%# Eval("ShipCountry")%>
                 </ItemTemplate>
                 <EditItemTemplate>
                     <telerik:RadMultiColumnComboBox runat="server" ID="MCCBCountry" ClientDataSourceID="RadClientDataSource1"
                         DataValueField="CountryID"
                         DataTextField="CountryName">
-                        <ClientEvents OnOpen="CountryOpen" />
+                        <ClientEvents OnOpen="CountryDropDownOpening" />
                         <ColumnsCollection>
                             <telerik:MultiColumnComboBoxColumn Field="CountryID" Title="ID" Width="50px" />
                             <telerik:MultiColumnComboBoxColumn Field="CountryName" Title="Country Name" Width="200px" />
@@ -298,7 +298,7 @@ protected void RadGrid1_PreRender(object sender, EventArgs e)
 {
     var grid = (RadGrid)sender;
 
-    var continentCombo = (grid.MasterTableView.GetBatchEditorContainer("cbCICColumn").FindControl("cbCIC") as RadMultiColumnComboBox);
+    var continentCombo = (grid.MasterTableView.GetBatchEditorContainer("Continent").FindControl("MCCBContinent") as RadMultiColumnComboBox);
     continentCombo.DataSource = GetContinents();
     continentCombo.DataBind();
 }
