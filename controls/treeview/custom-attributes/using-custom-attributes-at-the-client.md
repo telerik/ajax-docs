@@ -16,7 +16,8 @@ position: 3
 
 Access custom attributes on the client side by using first the **get_attributes()** method. Then extract the specific attribute with the **getAttribute()** method, passing the attribute name.
 
->caution The custom attribute's name should not be an **HTML reserved word**. Please see the [Troubleshooting Custom Attributes]({%slug treeview/troubleshooting/custom-attributes%}) article for more information.
+>caution All custom attributes are persisted on the client-side in the node object attributes collection and they are not rendered to the HTML element.
+> The custom attribute's name should not be an **HTML reserved word**. Please see the [Troubleshooting Custom Attributes]({%slug treeview/troubleshooting/custom-attributes%}) article for more information.
 >
 
 
