@@ -157,7 +157,7 @@ If you have two buttons, you can place the buttons in a **HTML table** embedded 
             <td width="40%">
             </td>
             <td width="30%">
-                <asp:LinkButton ID="LinkButton9" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
+                <asp:LinkButton ID="LinkButton9" Text="Refresh data" CommandName="RebindGrid" runat="server"></asp:LinkButton>
             </td>
         </tr>
     </table>
@@ -247,7 +247,7 @@ There are cases in which you may want to display different controls inside the t
                     <td width="40%">
                     </td>
                     <td width="30%">
-                        <asp:LinkButton ID="btnRefresh" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
+                        <asp:LinkButton ID="btnRefresh" Text="Refresh data" CommandName="RebindGrid" runat="server"></asp:LinkButton>
                         <asp:LinkButton ID="btnUpdate" Text="Update edited" CommandName="UpdateEdited" runat="server"></asp:LinkButton>
                     </td>
                 </tr>
@@ -330,7 +330,7 @@ private class MyCommandItemTemplate : ITemplate
         refreshButton = new LinkButton();
         refreshButton.ID = "refreshButton";
         refreshButton.Text = "Refresh grid";
-        refreshButton.CommandName = "Rebind";
+        refreshButton.CommandName = "RebindGrid";
 
         container.Controls.Add(addButton);
         container.Controls.Add( new LiteralControl("      "));
@@ -381,7 +381,7 @@ Private Class MyCommandItemTemplate
         refreshButton = New LinkButton
         refreshButton.ID = "refreshButton"
         refreshButton.Text = "Refresh grid"
-        refreshButton.CommandName = "Rebind"
+        refreshButton.CommandName = "RebindGrid"
 
         container.Controls.Add(addButton)
         container.Controls.Add(New LiteralControl("      "))
