@@ -19,7 +19,7 @@ Multiple ways to implement confirmation for deleting an item in RadGrid are desc
 
 When it comes to using the auto-generated delete column of RadGrid the most convenient approach is to handle and conditionally cancel the client-side [OnCommand]({%slug grid/client-side-programming/events/oncommand%}) event of the Grid.
 
-Here is a sample approach how to confirm the deletion with window.confirm() or [RadWindowManager's RadConfirm Dialog]({%slug indow/alert,-confirm,-prompt-dialogs/radconfirm-dialog%}) functionality:
+Here is a sample approach how to confirm the deletion with window.confirm() or [RadWindowManager's RadConfirm Dialog]({%slug window/alert,-confirm,-prompt-dialogs/radconfirm-dialog%}) functionality:
 
 ````ASPX
 <script>
