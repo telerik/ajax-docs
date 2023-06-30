@@ -228,5 +228,7 @@ RadArcGauge
 RadCircularGauge
 RadRadialGauge
 RadLinearGauge
+RadWindowManager
+RadWindowManager's
 
 // Other terms
