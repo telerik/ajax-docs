@@ -4,7 +4,7 @@ page_title: Getting Started
 description: Check our Web Forms article about Getting Started.
 slug: lightbox/getting-started
 tags: getting,started
-published: Truecontrols
+published: True
 position: 2
 ---
 

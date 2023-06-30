@@ -1,4 +1,4 @@
-﻿#intro-base
+#intro-base
 This article demonstrates how to enable and use the WAI-ARIA support of the
 #end
 

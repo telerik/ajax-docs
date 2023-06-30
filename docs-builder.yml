@@ -1,13 +1,7 @@
-# The public documentation URL, used for sitemap.xml
-url: "https://docs.telerik.com/devtools/aspnet-ajax"
-site_name: AJAX
-# Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb, RakeFile, helper_tools/*]
-exclude_navigation: ["sharepoint/2007/*" ,"knowledge-base/*"]
-## The application virtual path
-baseurl: "/devtools/aspnet-ajax"
+top-navigation-product: asp-net-ajax
+path-prefix: /devtools/aspnet-ajax
 
-all_pages_domain: "https://docs.telerik.com/devtools"
+navigationExcluded: ["sharepoint/2007/*" ,"knowledge-base/*"]
 
 navigation:
 
@@ -48,9 +42,6 @@ navigation:
     "getting-started/work-with-controls":
         title: "Working with the Controls"
         position: 20
-    "getting-started/prerequisites":
-        title: "Prerequisites"
-        position: 9
     "getting-started/performance":
         title: "Performance"
         position: 30
@@ -130,6 +121,16 @@ navigation:
         title: "Automated Testing with Test Studio"
     "integration/telerik-products/document-processing":
         title: "Document Processing Libraries"
+    "integration/telerik-products/document-processing/pdfprocessing":
+        title: "PdfProcessing"
+    "integration/telerik-products/document-processing/spreadprocessing":
+        title: "SpreadProcessing"
+    "integration/telerik-products/document-processing/spreadstreamprocessing":
+        title: "SpreadStreamProcessing"
+    "integration/telerik-products/document-processing/wordsprocessing":
+        title: "WordsProcessing"
+    "integration/telerik-products/document-processing/ziplibrary":
+        title: "ZipLibrary"
     "integration/visual-studio":
         title: "Visual Studio"
     "integration/visual-studio/typescript-definitions":
@@ -175,9 +176,6 @@ navigation:
     "controls/autocompletebox":
         title: "AutoCompleteBox"
         position: 1
-    "controls/avatar":
-        title: "Avatar"
-        position: 1
     "controls/barcode":
         title: "Barcode"
         position: 1
@@ -204,12 +202,6 @@ navigation:
         position: 1
     "controls/chat":
         title: "Chat"
-        position: 1
-    "controls/chip":
-        title: "Chip"
-        position: 1
-    "controls/chiplist":
-        title: "ChipList"
         position: 1
     "controls/checkbox":
         title: "CheckBox"
@@ -1818,293 +1810,3 @@ navigation:
     "*ziplibrary/features":
         title: Features
         position: 4
-
-## Assign layout and category per different paths
-defaults:
--
-    scope:
-        path: ""
-    values:
-        layout: "documentation"
-        category: "default"
-        title_prefix: "Telerik Web Forms"
-        title_prefix_separator: " "
-        description_suffix: "Read more in Telerik UI for ASP.NET AJAX Documentation."
--
-    scope:
-        path: "introduction.md"
-    values:
-        title_prefix: ""
-        title_prefix_separator: ""
-        description_suffix: ""
--
-    scope:
-        path: "knowledge-base"
-    values:
-        res_type: "kb"
-        title_prefix: "Telerik RadControls"
-        title_prefix_separator: " "
-        description_suffix: "Find other useful information in the Knowledgebase section of the ASP.NET AJAX documentation."
--
-    scope:
-        path: "api"
-    values:
-        kind: "api"
-        res_type: "api"
-        description_suffix: "- Save development time with the complete Telerik UI for AJAX API reference listing publicly available classes, methods, and properties."
--
-    scope:
-        path: "api/client"
-    values:
-        title_prefix: "Client-side API Reference"
-        title_prefix_separator: " - "
--
-    scope:
-        path: "api/server"
-    values:
-        title_prefix: "Server-side API Reference"
-        title_prefix_separator: " - "
-
-
-# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
-# "foo": "Bar"
-
-
-#Feedback Form Google Sheet ID
-ff-sheet-id: 151ze-U5jubCYVfw9f8ZMJJv9hr1a_bSJCV8-Fmi2nQU
-
-# The google services configuration
-google_analytics: UA-1119090:eblhnfskwrk'
-google_tag_manager: GTM-6X92
-gcs_engine: '001595215763381649090:hu79u-xean0'
-gcs_api_key: 'AIzaSyDjPEJ7amQPG71P3RIB6et8uieUkqGx1js'
-
-feedback_ab: true
-
-has_kb_portal: true
-has_cta_panels: true
-edit_repo_url: https://github.com/telerik/ajax-docs/edit/master
-product: "Telerik UI for ASP.NET AJAX"
-product_url: https://www.telerik.com/aspnet-ajax
-platform: aspnet-ajax
-download: https://www.telerik.com/products/aspnet-ajax/download.aspx
-nav:
-  "Demos": https://demos.telerik.com/aspnet-ajax
-  "Release History": https://www.telerik.com/support/whats-new/aspnet-ajax/release-history
-  "About": https://www.telerik.com/products/aspnet-ajax
-  "Pricing": https://www.telerik.com/purchase/individual/aspnet-ajax
-
-footer:
--
-  title: "Getting Started"
-  links:
-    "Install Now": https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.net-ajax
-    "Demos": https://demos.telerik.com/aspnet-ajax/
-    "Responsive Demos": https://demos.telerik.com/responsive-web-design-aspnet/samples.aspx
-    "Sample Applications": https://www.telerik.com/aspnet-ajax/sample-applications
--
-  title: "Support Resources"
-  links:
-    "Code Library": https://www.telerik.com/support/code-library/aspnet-ajax
-    "Knowledge Base": https://www.telerik.com/support/kb/aspnet-ajax
-    "Training": https://www.telerik.com/aspnet-ajax/trainings
--
-  title: "Community"
-  links:
-    "Forums": https://www.telerik.com/forums/aspnet-ajax
-    "Blogs": https://www.telerik.com/blogs/.net
-    "Feedback Portal": https://feedback.telerik.com/Project/108
-    "Document Processing Feedback Portal": https://feedback.telerik.com/Project/184
-
-footer_social:
-    facebook: https://www.facebook.com/Telerik/
-    youtube: https://www.youtube.com/user/TelerikInc
-    linkedin: https://www.linkedin.com/showcase/telerik/
-    twitter: https://twitter.com/Telerik/
-
-
-intro_columns:
--
-  categories:
-  -
-    title: "Data Management"
-    items:
-      "ClientDataSource": "clientdatasource/overview"
-      "Data Form": "dataform/overview"
-      "Data Pager": "datapager/overview"
-      "Filter": "filter/overview"
-      "Grid": "grid/overview"
-      "ListBox": "listbox/overview"
-      "ListView": "listview/overview"
-      "OData DataSource": "odatadatasource/overview"
-      "PivotGrid": "pivotgrid/overview"
-      "Spreadsheet": "spreadsheet/overview"
-      "TreeList": "treelist/overview"
-  -
-    title: "Scheduling"
-    items:
-      "Calendar": "calendar/overview"
-      "DatePicker": "datepicker/overview"
-      "DateRangePicker": "daterangepicker/overview"
-      "DateTimePicker": "datetimepicker/overview"
-      "Gantt": "gantt/overview"
-      "MonthYearPicker": "monthyearpicker/overview"
-      "Scheduler": "scheduler/overview"
-      "TimePicker": "timepicker/overview"
-  -
-    title: "Interactivity & UX"
-    items:
-      "DragDropManager": "dragdropmanager/overview"
-      "Progress Area": "progressarea/overview"
-      "ProgressBar": "progressbar/overview"
-      "Persistence Framework": "persistenceframework/overview"
-  -
-    title: "Theming"
-    items:
-      "Form Decorator": "formdecorator/overview"
-      "Skin Manager": "skinmanager/overview"
-      "StyleSheet Manager": "stylesheetmanager/overview"
-  -
-    title: "AJAX"
-    items:
-      "AjaxLoadingPanel": "ajaxloadingpanel/overview"
-      "AjaxManager": "ajaxmanager/overview"
-      "AjaxPanel": "ajaxpanel/overview"
-      "XmlHttpPanel": "xmlhttppanel/overview"
--
-  categories:
-  -
-    title: "Conversational UI"
-    items:
-      "Chat": "chat/overview"
-  -
-    title: "PDF"
-    items:
-      "Client Export Manager": "clientexportmanager/overview"
-      "PdfViewer": "pdfviewer/overview"
-  -
-    title: "Layout"
-    items:
-      "Card": "card/overview"
-      "Dock": "dock/overview"
-      "Notification": "notification/overview"
-      "Page Layout": "pagelayout/overview"
-      "Splitter": "splitter/overview"
-      "ToolTip": "tooltip/overview"
-      "TileList": "tilelist/overview"
-      "Window": "window/overview"
-      "Wizard": "wizard/overview"
-  -
-    title: "Editors"
-    items:
-      "AutoCompleteBox": "autocompletebox/overview"
-      "Color Picker": "colorpicker/overview"
-      "ComboBox": "combobox/overview"
-      "DateInput": "raddateinput/overview"
-      "DropDownList": "dropdownlist/overview"
-      "DropDownTree": "dropdowntree/overview"
-      "Editor": "editor/overview"
-      "Signature": "signature/overview"
-      "Image Editor": "imageeditor/overview"
-      "InputManager": "radinputmanager/overview"
-      "Label": "label/overview"
-      "MaskedTextBox": "radmaskedtextbox/overview"
-      "MultiColumnComboBox": "multicolumncombobox/overview"
-      "MultiSelect": "multiselect/overview"
-      "NumericTextBox": "numerictextbox/overview"
-      "Slider": "slider/overview"
-      "TextBox": "radtextbox/overview"
--
-  categories:
-  -
-    title: "Diagrams & Maps"
-    items:
-      "Diagram": "diagram/overview"
-      "Org Chart": "orgchart/overview/overview"
-      "Map": "map/overview"
-      "TreeMap": "treemap/overview"
-  -
-    title: "Data Visualization"
-    items:
-      "Barcode": "barcode/overview"
-      "Binary Image": "binaryimage/overview"
-      "Chart (HTML5)": "htmlchart/overview"
-      "Gauge": "gauge/overview"
-      "Rotator": "rotator/overview"
-      "Ticker": "rotator/data-binding/binding-radticker"
-  -
-    title: "Navigation"
-    items:
-      "Button": "button/teleriks-asp.net-button-overview"
-      "Breadcrumb": "breadcrumb/overview"
-      "CheckBox": "checkbox/overview"
-      "CheckBoxList": "checkboxlist/overview"
-      "Chip": "chip/overview"
-      "ChipList": "chiplist/overview"
-      "Drawer": "drawer/overview"
-      "FloatingActionButton": "floatingactionbutton/overview"
-      "ImageButton": "imagebutton/overview"
-      "LinkButton": "linkbutton/overview"
-      "Menu": "menu/overview"
-      "Navigation": "navigation/overview"
-      "PanelBar": "panelbar/overview"
-      "PushButton": "pushbutton/overview"
-      "RadioButtonList": "radiobuttonlist/overview"
-      "RibbonBar": "ribbonbar/overview"
-      "SearchBox": "searchbox/overview"
-      "SiteMap": "sitemap/overview"
-      "SplitButton": "splitbutton/overview"
-      "Stepper": "stepper/overview"
-      "Switch": "switch/overview"
-      "Tab Strip": "tabstrip/overview"
-      "Timeline": "timeline/overview"
-      "ToggleButton": "togglebutton/overview"
-      "ToolBar": "toolbar/overview"
-      "TreeView": "treeview/overview"
--
-  categories:
-  -
-    title: "File Upload & Management"
-    items:
-      "File Explorer": "fileexplorer/overview"
-      "Upload (Async)": "asyncupload/overview"
-      "Upload (Cloud)": "cloudupload/overview"
-  -
-    title: "Document Processing"
-    items:
-      "Document Processing": "integration-with-other-telerik-products/document-processing"
-  -
-    title: "Media"
-    items:
-      "Image Gallery": "imagegallery/overview"
-      "LightBox": "lightbox/overview"
-      "Media Player": "mediaplayer/overview"
-  -
-    title: "Social"
-    items:
-      "Captcha": "captcha/overview"
-      "Rating": "rating/overview"
-      "SocialShare": "socialshare/overview"
-      "TagCloud": "tagcloud/overview"
-  -
-    title: "Spell Checking"
-    items:
-      "Spell": "spell/overview"
-  -
-    title: "Common"
-    items:
-      "Compression": "controls/radcompression"
-      "Script Manager": "scriptmanager/overview"
-
-# Assets pipeline configuration
-assets:
-    cachebust: soft
-    js_compressor: uglifier
-
-## Do not edit below this line
-safe: false
-markdown: MarkdownProcessor
-kramdown:
-    toc_levels: 2..3
-    smart_quotes: ["quot", "quot", "quot", "quot"]
-    input: GFM

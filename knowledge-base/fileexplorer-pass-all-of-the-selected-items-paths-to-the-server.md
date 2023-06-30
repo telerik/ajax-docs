@@ -36,7 +36,7 @@ function sendItemsPathsToServer(clickedButton)
 } 
 </script>
 ````
-4. The *combinePathsInAString* function accepts an array of type [Telerik.Web.UI.FileExplorerItem]({%slug fileexplorer/client-side-programming/overview}) - the selected items, and returns a string that contains all of the items paths:  
+4. The *combinePathsInAString* function accepts an array of type [Telerik.Web.UI.FileExplorerItem]({%slug fileexplorer/client-side-programming/overview %}) - the selected items, and returns a string that contains all of the items paths:  
  
  ````ASP.NET
         <telerik:radfileexplorer id="RadFileExplorer1" runat="server" height="300px" width="804px">

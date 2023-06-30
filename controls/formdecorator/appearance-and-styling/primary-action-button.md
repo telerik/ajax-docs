@@ -24,9 +24,6 @@ To switch to a primary action button, add the `rfdPrimaryButton` class to the de
 <asp:Button ID="Button2" Text="Default Button" runat="server" />
 ````
 
-@[template](/_templates/common/primary-action-button.md#intro-test "val1: A button decorated by **RadFormDecorator**, val2: decorated button")
-
-
 ## See Also
 
  * [Create a Custom Skin]({%slug formdecorator/appearance-and-styling/tutorial-creating-custom-lightweight-skin%})

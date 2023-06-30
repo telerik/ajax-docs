@@ -3,7 +3,6 @@ title: Licensing
 page_title: Licensing
 description: "Learn more about the trial and commercial licenses, the .NET licensing mechanism, and the license limitations by Telerik UI for ASP.NET AJAX."
 slug: introduction/licensing/license-agreement
-previous_url: licensing/licensing
 tags: license, agreement
 previous_url: licensing/license-agreement, licensing/trial-license-limitations, licensing/license-file
 published: True
@@ -38,7 +37,7 @@ The `license.licx` file is maintained by Visual Studio and contains information 
 
 * If you are working under source control, once the file is created, it will be detected as a change by your source control system. It is recommended that you check in this file initially. When the files is checked out again during your work,	it is up to you to decide whether to check it in or discard the changes.
 
-* If you are getting random copyright errors in the browser when using the trial version of Telerik UI for ASP.NET AJAX, refer to the article on [getting the copyright message]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}}#i-still-get-the-copyright-message). In this case, you need to upgrade the `Telerik.Web.UI.dll` trial version with the registered developer one as explained in the article on [upgrading a trial to a developer license]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
+* If you are getting random copyright errors in the browser when using the trial version of Telerik UI for ASP.NET AJAX, refer to the article on [getting the copyright message]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#i-still-get-the-copyright-message). In this case, you need to upgrade the `Telerik.Web.UI.dll` trial version with the registered developer one as explained in the article on [upgrading a trial to a developer license]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %}#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax).
 
 ## Licensing FAQ
 
