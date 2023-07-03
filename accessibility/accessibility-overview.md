@@ -43,7 +43,9 @@ By default, users can only navigate to links, buttons, and form controls with a 
 
 ### Voluntary Product Accessibility Template
 
-The Voluntary Product Accessibility Template ([VPAT](https://www.section508.gov/sell/vpat/)) is an industry guideline and document format for software providers to self-audit and report on compliance to Section 508 standards. This has been completed for Telerik UI for ASP.NET AJAX and the report is available [here](https://d585tldpucybw.cloudfront.net/docs/default-source/blogs-docs/vpat2.4revint(march2022)-telerik.ui.for.aspnet.ajax-.docx?sfvrsn=71cd5e86_3).
+A [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
+
+> You can review and download the latest version of the Telerik UI for ASP.NET AJAX VPAT document [here](https://d585tldpucybw.cloudfront.net/docs/default-source/blogs-docs/vpat2.4revint(march2022)-telerik.ui.for.aspnet.ajax-.docx?sfvrsn=71cd5e86_3).
 
 
 ## Suggested Links
