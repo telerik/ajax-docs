@@ -182,6 +182,9 @@ navigation:
     "controls/autocompletebox":
         title: "AutoCompleteBox"
         position: 1
+    "controls/avatar":
+        title: "Avatar"
+        position: 1
     "controls/barcode":
         title: "Barcode"
         position: 1
