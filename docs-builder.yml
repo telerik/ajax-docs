@@ -1,5 +1,8 @@
 top-navigation-product: asp-net-ajax
 path-prefix: /devtools/aspnet-ajax
+product-id: 561
+contribute-url: https://github.com/telerik/ajax-docs/edit/master
+
 
 navigationExcluded: ["sharepoint/2007/*" ,"knowledge-base/*"]
 
