@@ -1,6 +1,8 @@
 top-navigation-product: asp-net-ajax
 path-prefix: /devtools/aspnet-ajax
 product-id: 561
+product-name: Telerik UI for ASP.NET AJAX
+product-url: https://www.telerik.com/aspnet-ajax
 contribute-url: https://github.com/telerik/ajax-docs/edit/master
 
 
@@ -1813,3 +1815,41 @@ navigation:
     "*ziplibrary/features":
         title: Features
         position: 4
+
+meta:
+-
+    scope:
+        path: ""
+    values:
+        res_type: "documentation"
+        title_prefix: "Telerik Web Forms "
+        description_suffix: " Read more in Telerik UI for ASP.NET AJAX Documentation."
+-
+    scope:
+        path: "/introduction"
+    values:
+        title_prefix: ""
+        description_suffix: ""
+-
+    scope:
+        path: "/knowledge-base"
+    values:
+        res_type: "kb"
+        title_prefix: "Telerik RadControls "
+        description_suffix: " Find other useful information in the Knowledgebase section of the ASP.NET AJAX documentation."
+-
+    scope:
+        path: "/api"
+    values:
+        res_type: "api"
+        description_suffix: " - Save development time with the complete Telerik UI for AJAX API reference listing publicly available classes, methods, and properties."
+-
+    scope:
+        path: "/api/client"
+    values:
+        title_prefix: "Client-side API Reference - "
+-
+    scope:
+        path: "/api/server"
+    values:
+        title_prefix: "Server-side API Reference - "
