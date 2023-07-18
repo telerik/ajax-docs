@@ -11,7 +11,7 @@ res_type: kb
 
 Create a RadSliderItem for each record in a DataTable.  
    
-# DESCRIPTION  
+## DESCRIPTION  
 
 The RadSlider control does not support DataBinding out of the box. However, there are a couple of scenarios when you would want to display the data from a DataTable using a RadSlider with items.  
    

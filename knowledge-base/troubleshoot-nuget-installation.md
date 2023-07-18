@@ -7,8 +7,6 @@ slug: troubleshooting-nuget-installation-issues
 res_type: kb
 ---
 
-# Troubleshooting NuGet Installation Issues
-
 This article demonstrates how to handle issues which may occur when you install Telerik UI for ASP.NET AJAX with NuGet.  
 
 ## Incorrect Credentials and How to Re-Enter Them
