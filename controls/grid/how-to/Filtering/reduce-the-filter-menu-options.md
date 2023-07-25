@@ -120,6 +120,32 @@ Below is a sample code implementation (based on the approach explained above) th
 </telerik:RadCodeBlock>
 ````
 
+When the FilterType is set to Combined, the HTML structure of the controls change, therefore, the JavaScript method must also be adjusted to target the right menu items. In case of "Classic" filter type, the filter Options are located as child items of the menu, while with Combined filter type, the filter options are the child item of another item:
+
+````JavaScript
+<script type="text/javascript">
+    var column;
+ 
+    function filterMenuShowing(sender, args) {
+        column = args.get_column();
+    }
+
+    function MenuShowing(menu, args) {
+ 
+        if (column == null) return;
+ 
+        // get reference to the first item of the menu
+        var firstMenuItem = menu.get_items().getItem(0);
+ 
+        // If the first item has the class "RadFilterMenu_Combined" use its items to Reduce filter options
+        // otherwise use the Menu's items directly
+        var items = firstMenuItem.get_cssClass() === "RadFilterMenu_Combined" ? firstMenuItem.get_items() : menu.get_items();
+ 
+        // rest of the code...
+    }
+</script>
+````
+
 
 The following steps describe how to accomplish the same functionality server-side:
 
