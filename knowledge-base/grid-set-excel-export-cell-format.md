@@ -73,7 +73,7 @@ Sample markup for this example
 
 ````XML
 <telerik:RadGrid runat="server" ID="RadGrid1" OnInfrastructureExporting="RadGrid1_InfrastructureExporting" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
-    <ExportSettings Excel-Format="Xlsx" IgnorePaging="true" ExportOnlyData="true" OpenInNewWindow="true">
+    <ExportSettings Excel-Format="ExcelML" IgnorePaging="true" ExportOnlyData="true" OpenInNewWindow="true">
     </ExportSettings>
     <MasterTableView CommandItemDisplay="Top">
         <CommandItemSettings ShowExportToExcelButton="true" />
