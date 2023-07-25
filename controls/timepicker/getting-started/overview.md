@@ -37,6 +37,7 @@ This tutorial will walk you through creating a Web page that uses **RadTimePicke
     * Set the **DateFormat** property to "h:mm tt". This is the format string for when embedded **RadDateInput** control has focus (when the user can enter its value).
     * Set the **DisplayDateFormat** property to "HH:mm". This causes the embedded **RadDateInput** control to format its value using a 24-hour clock when it does not have focus.
     * Set the **EmptyMessage** property to " Enter a Time ", providing a prompt when the value of the **RadTimePicker** control has not been set.
+    * Set the TimeView-Interval property to "00:15:00", to specify 15-minute time intervals in the time picker popup.
     
     ![Setting empty message](images/GettingStarted_AddingRadTimePicker_DateInputProperties.png)
 
