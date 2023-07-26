@@ -7,6 +7,8 @@ product-trial-url: https://www.telerik.com/download-trial-file/v2-b/ui-for-asp.n
 contribute-url: https://github.com/telerik/ajax-docs/edit/master
 search-engine-id: 001595215763381649090:hu79u-xean0
 
+cta-overview: The @Control is part of @ProductLink, a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial.
+cta-intro: "@ProductLink is a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial."
 
 navigationExcluded: ["sharepoint/2007/*" ,"knowledge-base/*"]
 
