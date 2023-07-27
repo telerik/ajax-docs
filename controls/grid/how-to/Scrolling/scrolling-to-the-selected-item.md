@@ -21,30 +21,31 @@ If you have an initially selected item (row) in a scrollable grid, you may want 
 2. Provide a handler for the client-side **GridCreated** event.
 	1. In the event handler, locate the selected row using the **GridTableView** object's **get_selectedItems()** method.
 	2. Use the **RadGrid** object's **GridDataDiv** property to access the DOM element for the scrollable region of the grid.
-	3. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the grid so that the selected row is showing.
+	3. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the grid so that the selected row is showing. You may also need to execute the code with a small timeout.
 
 The following example demonstrates this technique:
 
 ````JavaScript
 <script type="text/javascript">
     function GridCreated(sender, eventArgs) {
-        //gets the main table scrollArea HTLM element  
-        var scrollArea = document.getElementById(sender.get_element().id + "_GridData");
-        var row = sender.get_masterTableView().get_selectedItems()[0];
-
-        //if the position of the selected row is below the viewable grid area  
-        if (row) {
-            if ((row.get_element().offsetTop - scrollArea.scrollTop) + row.get_element().offsetHeight + 20 > scrollArea.offsetHeight) {
-                //scroll down to selected row  
-                scrollArea.scrollTop = scrollArea.scrollTop + ((row.get_element().offsetTop - scrollArea.scrollTop) +
-                row.get_element().offsetHeight - scrollArea.offsetHeight) + row.get_element().offsetHeight;
-            }
-            //if the position of the the selected row is above the viewable grid area  
-            else if ((row.get_element().offsetTop - scrollArea.scrollTop) < 0) {
-                //scroll the selected row to the top  
-                scrollArea.scrollTop = row.get_element().offsetTop;
-            }
-        }
+	//gets the main table scrollArea HTLM element  
+	var scrollArea = document.getElementById(sender.get_element().id + "_GridData");
+	var row = sender.get_masterTableView().get_selectedItems()[0];
+	//if the position of the selected row is below the viewable grid area  
+	if (row) {
+	    if ((row.get_element().offsetTop - scrollArea.scrollTop) + row.get_element().offsetHeight + 20 > scrollArea.offsetHeight) {
+		//scroll down to selected row
+		setTimeout(function () {
+		    scrollArea.scrollTop = scrollArea.scrollTop + ((row.get_element().offsetTop - scrollArea.scrollTop) +
+			row.get_element().offsetHeight - scrollArea.offsetHeight) + row.get_element().offsetHeight;
+		}, 1000);
+	    }
+	    //if the position of the the selected row is above the viewable grid area  
+	    else if ((row.get_element().offsetTop - scrollArea.scrollTop) < 0) {
+		//scroll the selected row to the top  
+		scrollArea.scrollTop = row.get_element().offsetTop;
+	    }
+	}
     }
 </script>
 ````
@@ -52,7 +53,7 @@ The following example demonstrates this technique:
 
 
 ````ASP.NET
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ClientSettings-Scrolling-SaveScrollPosition="true" OnPreRender="RadGrid1_PreRender" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
     PageSize="25" Skin="Web20" Width="95%">
     <mastertableview width="100%" />
     <clientsettings>
@@ -66,5 +67,16 @@ The following example demonstrates this technique:
     SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM [Customers]">
 </asp:SqlDataSource>
 ````
+````C#
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+     RadGrid1.MasterTableView.Items[7].Selected = true;
+}
+````
+````VB
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
+    RadGrid1.MasterTableView.Items(7).Selected = True
+End Sub
+````
 
-
+  
