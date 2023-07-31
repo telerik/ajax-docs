@@ -209,3 +209,7 @@ End Sub
 * [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
 * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
 * [Access Telerik Controls on Client-Side](https://www.telerik.com/support/kb/aspnet-ajax/details/access-telerik-controls-on-client-side)
+* [Sys.Application.add_load() vs. $(document).ready() vs. pageLoad()](https://stackoverflow.com/questions/3630341/sys-application-add-load-vs-document-ready-vs-pageload)
+
+
+     
