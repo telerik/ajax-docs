@@ -28,7 +28,7 @@ RadBreadcrumb is available as of R1 2021 and it is a server-side WebForms wrappe
 * [Built-in navigation support]({%slug breadcrumb/functionality/navigation%})
 * [Support for ClientItemTemplate](https://docs.telerik.com/devtools/aspnet-ajax/controls/breadcrumb/functionality/items#clientitemtemplate)
 * [Flexible client-side API]({%slug breadcrumb/client-side-programming/overview%})
-* [Visual Appeal - shiped with a rich set of skins for easy and consistent styling](#skins)
+* [Visual Appeal - shipped with a rich set of skins for easy and consistent styling](#skins)
 
 ## Add a RadBreadcrumb Control
 
@@ -62,7 +62,7 @@ The RadBreadcrumb control can be styled by setting a desired built-in skin:
 
 Find more information about using skins in the [Controlling Visual Appearance]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) section.
 
-Go ahead with the [Getting Started]({%slug breadcrumb/getting-started%}) article to learn more about Breadcrumb Control. Also, you can check out the [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx) to see it in action.
+Go ahead with the [Getting Started]({%slug breadcrumb/getting-started%}) article to learn more about Breadcrumb Control. Also, you can check out the [RadBreadCrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/overview/defaultcs.aspx) to see it in action.
 
 
 # See Also
