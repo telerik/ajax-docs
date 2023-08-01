@@ -1857,3 +1857,120 @@ meta:
         path: "/api/server"
     values:
         title_prefix: "Server-side API Reference - "
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/introduction"
+    type: Permanent
+-
+    from: "^/copyright.*$"
+    to: "https://www.progress.com/legal/documentation-copyright"
+    type: Permanent
+-
+    from: "^/gdpr.*$"
+    to: "https://www.progress.com/legal/privacy-policy"
+    type: Permanent
+-
+    from: "^/installation/(.*)$"
+    to: "/getting-started/installation/$1"
+    type: Permanent
+-
+    from: ^/general-information/using-jquery/(.*)$"
+    to: "/integration/jquery/$1"
+    type: Permanent
+-
+    from: "^/mvc/(.*)$"
+    to: "/integration/mvc/$1"
+    type: Permanent
+-
+    from: "^/sharepoint/(.*)$"
+    to: "/integration/sharepoint/$1" 
+    type: Permanent
+-
+    from: "^/integration-with-other-telerik-products/(.*)$"
+    to: "/integration/telerik-products/$1"
+    type: Permanent
+-
+    from: "^/general-information/integration-with-visual-studio/(.*)$"
+    to: "/integration/visual-studio/$1"
+    type: Permanent
+-
+    from: "^/general-information/performance/(.*)$"
+    to: "/getting-started/performance/$1"
+    type: Permanent
+-
+    from: "^/visual-stylebuilder/(.*)$"
+    to: "/styling/visual-stylebuilder/$1"
+    type: Permanent
+-
+    from: "^/theme-builder/(.*)$"
+    to: "/styling/theme-builder/$1"
+    type: Permanent
+-
+    from: "^/general-information/controlling-visual-appearance/(.*)$"
+    to: "/styling/controlling-visual-appearance/$1"
+    type: Permanent
+-
+    from: "^/installation/upgrading-instructions/(.*)$"
+    to: "/upgrade-compatibility/upgrading-instructions/$1"
+    type: Permanent
+-
+    from: "^/controls/ajax/radajaxloadingpanel/(.*)$"
+    to: "/controls/ajaxloadingpanel/$1"
+    type: Permanent
+-
+    from: "^/controls/ajax/radajaxpanel/(.*)$"
+    to: "/controls/ajaxpanel/$1"
+    type: Permanent
+
+-
+    from: "^/controls/ajax/radajaxmanager/(.*)$"
+    to: "/controls/ajaxmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/ajax/(.*)$"
+    to: "/controls/ajaxmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/radinputmanager/(.*)$"
+    to: "/controls/inputmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/radtextbox/(.*)$"
+    to: "/controls/textbox/features/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/(.*)$"
+    to: "/controls/textbox/$1"
+    type: Permanent
+
+-
+    from: "^/controls/maksedtextbox/(.*)$"
+    to: "/controls/maskedtextbox/$1"
+    type: Permanent
+
+-
+    from: "pdfprocessing/(?!overview(\\.html)?)(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "wordsprocessing/(?!overview(\\.html)?)(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "spreadprocessing/(?!overview(\\.html)?)(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "spreadstreamprocessing/(?!overview(\\.html)?)(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "ziplibrary/(?!overview(\\.html)?)(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
