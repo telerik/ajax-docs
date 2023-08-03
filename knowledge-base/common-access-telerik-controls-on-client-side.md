@@ -22,8 +22,7 @@ var textBox = $telerik.findControl(document.documentElement, "txtTrackingNumber"
 ```
 
 The first argument here is the container element and the second one is the original ID of the control. The findControl and findElement methods are used for Telerik and regular HTML elements respectively.  
-  
-1. Use the client-side event handlers of the Telerik controls to get a reference to their objects:  
+2. Use the client-side event handlers of the Telerik controls to get a reference to their objects:  
 
 ```ASPX
 <telerik:RadButton ... OnClientLoad="buttonLoad">
@@ -36,8 +35,7 @@ function buttonLoad(sender, args) {
     button = sender;
 }
 ```
- 
-1. Access the control directly using the `$find()` method.
+3. Access the control directly using the `$find()` method.
 
 This method requires the exact `ClientID` generated for the control. You can acquire it by getting the matching HTML element using jQuery or some other way and then use its id attribute to pass it as the argument.  
   
@@ -47,3 +45,4 @@ This method requires the exact `ClientID` generated for the control. You can acq
 * [Get Client-side Reference to a Control Object](https://docs.telerik.com/devtools/aspnet-ajax/general-information/get-client-side-reference).
 
 
+ 
