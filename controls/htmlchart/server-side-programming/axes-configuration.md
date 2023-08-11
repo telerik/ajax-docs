@@ -128,6 +128,8 @@ You can find samples implementing the below described properties in the followin
 | **DashType** |Sets the dash type of the grid lines. An enumeration (Telerik.Web.UI.HtmlChart.Enums.DashType) with the following values: **Dash** , **DashDot** , **Dot** , **LongDash**, **LongDashDot**, **LongDashDotDot**, **Solid** .|
 | **Visible** |Sets whether to render the grid lines. **True** or **False** |
 | **Width** |The width of the grid line in pixels.|
+| **Step** |Defines every n-th axis grid line will be rendered.|
+| **Skip** |Defines the first n axis grid lines that will not be displayed.|
 
 ## Attribute Properties in [Axis] > PlotBands > PlotBand
 You can find samples implementing the below described properties in the following resources:
