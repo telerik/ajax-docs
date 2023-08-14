@@ -1,5 +1,6 @@
 top-navigation-product: asp-net-ajax
 path-prefix: /devtools/aspnet-ajax
+
 product-id: 561
 product-name: Telerik UI for ASP.NET AJAX
 product-url: https://www.telerik.com/aspnet-ajax
@@ -9,6 +10,8 @@ search-engine-id: 001595215763381649090:hu79u-xean0
 
 cta-overview: The @Control is part of @ProductLink, a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial.
 cta-intro: "@ProductLink is a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial."
+
+ff-sheet-id: 151ze-U5jubCYVfw9f8ZMJJv9hr1a_bSJCV8-Fmi2nQU
 
 navigationExcluded: ["sharepoint/2007/*" ,"knowledge-base/*"]
 
@@ -2051,7 +2054,7 @@ redirects:
     to: "/getting-started/installation/$1"
     type: Permanent
 -
-    from: ^/general-information/using-jquery/(.*)$"
+    from: "^/general-information/using-jquery/(.*)$"
     to: "/integration/jquery/$1"
     type: Permanent
 -
