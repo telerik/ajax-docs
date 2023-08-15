@@ -2050,6 +2050,10 @@ redirects:
     to: "https://www.progress.com/legal/privacy-policy"
     type: Permanent
 -
+    from: "^/installation/upgrading-instructions/(.*)$"
+    to: "/upgrade-compatibility/upgrading-instructions/$1"
+    type: Permanent
+-
     from: "^/installation/(.*)$"
     to: "/getting-started/installation/$1"
     type: Permanent
@@ -2058,8 +2062,8 @@ redirects:
     to: "/integration/jquery/$1"
     type: Permanent
 -
-    from: "^/mvc/(.*)$"
-    to: "/integration/mvc/$1"
+    from: "^/mvc(/overview)?(/.*)?$"
+    to: "/integration/mvc$2"
     type: Permanent
 -
     from: "^/sharepoint/(.*)$"
@@ -2088,10 +2092,6 @@ redirects:
 -
     from: "^/general-information/controlling-visual-appearance/(.*)$"
     to: "/styling/controlling-visual-appearance/$1"
-    type: Permanent
--
-    from: "^/installation/upgrading-instructions/(.*)$"
-    to: "/upgrade-compatibility/upgrading-instructions/$1"
     type: Permanent
 -
     from: "^/controls/ajax/radajaxloadingpanel/(.*)$"
