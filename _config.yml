@@ -2035,7 +2035,7 @@ intro_columns:
   -
     title: "Navigation"
     items:
-      "Button": "button/teleriks-asp.net-button-overview"
+      "Button": "button/telerik's-asp.net-button-overview"
       "Breadcrumb": "breadcrumb/overview"
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
