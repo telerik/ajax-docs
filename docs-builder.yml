@@ -2118,6 +2118,11 @@ redirects:
     type: Permanent
 
 -
+    from: "^/controls/input/radtextbox/overview$"
+    to: "/controls/textbox/overview"
+    type: Permanent
+
+-
     from: "^/controls/input/radtextbox/(.*)$"
     to: "/controls/textbox/features/$1"
     type: Permanent
