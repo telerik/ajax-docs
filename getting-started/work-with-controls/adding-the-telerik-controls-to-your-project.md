@@ -37,7 +37,7 @@ Before adding a control to your project, verify that the server, development mac
 
 		<asp:ScriptManager ID="ScriptManager1" runat="server" />				
 
-		If the page is a content page or a user control, you can add the ScriptManager to the master or main page. For more information, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft dedicated article</a>.
+	If the page is a content page or a user control, you can add the ScriptManager to the master or main page. For more information, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanagerview=netframework-4.8" target="_blank">Microsoft dedicated article</a>.
 
     Alternatively, you can use the [ScriptManager]({% slug scriptmanager/overview %}), which extends the standard ScriptManager control and adds more features.
 
