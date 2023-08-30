@@ -11,11 +11,11 @@ res_type: kb
 
 Add Document Header and Footer to Exported Excel XLSX File
 
-![](images/grid-add-document-header-and-footer-to-exported-excel-file.png)
+![Document Header and Footer of Exported Excel XLSX File](images/grid-add-document-header-and-footer-to-exported-excel-file.png)
 
 ## SOLUTION
 
- This KB demonstrates how to add document header and/or footer to exported file when exporting RadGrid into excel format XLSX by using the telerik [Document Processing Library](https://docs.telerik.com/devtools/document-processing/introduction#introduction), precisely [RadSpreadProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview#overview).  
+This KB demonstrates how to add a document header and/or footer to exported file when exporting RadGrid into Excel format XLSX by using the Telerik [Document Processing Library](https://docs.telerik.com/devtools/document-processing/introduction#introduction), precisely [RadSpreadProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview#overview).  
   
 
 **Requirements**
@@ -23,7 +23,7 @@ Add Document Header and Footer to Exported Excel XLSX File
 The RadSpreadProcessing library requires the following [Assembly References](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started#assembly-references).  
   
 
-Consider the following RadGid wired up with **OnGridExporting **server-event to be used to format the Excel document before it is finally saved.  
+Consider the following RadGid wired up with the `OnGridExporting` server event to be used to format the Excel document before it is finally saved.  
 
 ````XML
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" OnNeedDataSource="RadGrid1_NeedDataSource" OnGridExporting="RadGrid1_GridExporting">
@@ -78,8 +78,41 @@ protected void RadGrid1_GridExporting(object sender, GridExportingArgs e)
     settings.Header.CenterSection.Text = header;
     settings.Footer.CenterSection.Text = footer;
     GridExportedFile = provider.Export(workbook);
-    Response.BinaryWrite(GridExportedFile);
+    var fileName = (sender as RadGrid).ExportSettings.FileName;
+    WriteFileToResponse(GridExportedFile,fileName);
 }
+
+private void WriteFileToResponse(byte[] content, string fileName)
+{
+    Response.ContentType = ContentType;
+    Response.Headers.Remove("Content-Disposition");
+    Response.AppendHeader("Content-Disposition", string.Format("attachment; filename={0}.xlsx", fileName));
+    Response.BinaryWrite(content);
+    Response.End();
+}
+````
+````VB
+    Protected Sub RadGrid1_GridExporting(ByVal sender As Object, ByVal e As GridExportingArgs)
+        Dim GridExportedFile As Byte() = System.Text.Encoding.[Default].GetBytes(e.ExportOutput)
+        Dim provider As XlsxFormatProvider = New XlsxFormatProvider()
+        Dim workbook = provider.Import(GridExportedFile)
+        Dim settings As HeaderFooterSettings = workbook.Worksheets.First().WorksheetPageSetup.HeaderFooterSettings
+        Dim header As String = "Custom Header"
+        Dim footer As String = "Custom Footer"
+        settings.Header.CenterSection.Text = header
+        settings.Footer.CenterSection.Text = footer
+        GridExportedFile = provider.Export(workbook)
+        Dim fileName = (TryCast(sender, RadGrid)).ExportSettings.FileName
+        WriteFileToResponse(GridExportedFile, fileName)
+    End Sub
+
+    Private Sub WriteFileToResponse(ByVal content As Byte(), ByVal fileName As String)
+        Response.ContentType = ContentType
+        Response.Headers.Remove("Content-Disposition")
+        Response.AppendHeader("Content-Disposition", String.Format("attachment; filename={0}.xlsx", fileName))
+        Response.BinaryWrite(content)
+        Response.[End]()
+    End Sub
 ````
 
 Visit the following link to find out more information on formatting the [Headers and Footers](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/features/headers-and-footers).
