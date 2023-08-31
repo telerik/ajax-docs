@@ -46,7 +46,7 @@ var node = treeView.get_nodes().getNode(0);
 var datePicker = node.findControl("RadDatePicker1");
 ````
 
-or
+    or
 
 ````JavaScript
 var datePicker = $find('<%= RadTreeView1.Nodes[0].FindControl("RadDatePicker1").ClientID %>');
