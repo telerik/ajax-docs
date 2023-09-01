@@ -1,8 +1,8 @@
 ---
-title: Error&#x3a; Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
-description: Error&#x3a; Web.config registration missing! The Telerik RadEditor dialogs require a HttpHandler registration in the web.config file. Check it now!
+title: "Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file."
+description: "Error: Web.config registration missing! The Telerik RadEditor dialogs require a HttpHandler registration in the web.config file. Check it now!"
 type: how-to
-page_title: Error&#x3a; Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
+page_title: "Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file."
 slug: editor-error-web-config-registration-missing-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file
 res_type: kb
 ---

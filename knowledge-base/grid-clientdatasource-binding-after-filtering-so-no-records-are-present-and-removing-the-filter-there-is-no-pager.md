@@ -1,8 +1,8 @@
 ---
-title: RadGrid ClientDataSource binding&#x3a; after filtering so no records are present and removing the filter there is no pager
-description: ClientDataSource binding&#x3a; after filtering so no records are present and removing the filter there is no pager. Check it now!
+title: "RadGrid ClientDataSource binding: after filtering so no records are present and removing the filter there is no pager"
+description: "ClientDataSource binding: after filtering so no records are present and removing the filter there is no pager. Check it now!"
 type: how-to
-page_title: RadGrid ClientDataSource binding&#x3a; after filtering so no records are present and removing the filter there is no pager
+page_title: "RadGrid ClientDataSource binding: after filtering so no records are present and removing the filter there is no pager"
 slug: grid-clientdatasource-binding-after-filtering-so-no-records-are-present-and-removing-the-filter-there-is-no-pager
 res_type: kb
 ---
