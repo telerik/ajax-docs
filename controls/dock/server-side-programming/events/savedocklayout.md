@@ -13,7 +13,7 @@ position: 3
 
 
 
-The **SaveDockLayout** event occurs when it is appropriate for the application to save the state of all its **RadDock** controls to a storage medium such as the Session, a cookie, or a database. This event should be used to store the state of **RadDock** controls in any of the following situations:
+The **SaveDockLayout** event occurs when the application needs to save the state of all the RadDock controls to storage options like the Session, a cookie, or a database. Utilize this event in the following scenarios:
 
 * The **StoreLayoutInViewState** property of the **RadDockLayout** control is **False**.
 
