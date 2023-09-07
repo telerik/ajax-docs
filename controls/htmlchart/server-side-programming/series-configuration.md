@@ -128,6 +128,7 @@ More information on the series properties is available below.
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **Color** |The text color of the labels for the items from this series. Can take a common color name or a hex value. If it is not set explicitly the control will pick one according to the Skin it has set.|
+| **BackgroundColor** |The background color of the labels for the items from this series. Can take a common color name or a hex value.|
 | **ClientTemplate** |A string for the client template that will be applied to the labels when they render. It can use any column from the data source given to the chart through the following syntax: **#=dataItem.ColumnName#** where the string delimited inside #=.....# is the expression to be evaluated. See [here]({%slug htmlchart/functionality/clienttemplate/overview%}) for more information.|
 | **DataField** |The field of the data source that will be used for the value of the labels for the items. Defaults to the numerical value for the Y value. Consider using a [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) to get formatting and ordering as desired, especially for non-numerical fields.|
 | **DataFormatString** |The format string that will form the label text. Supported for numerical DataFields only. You can use a [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) to get formatting and ordering as desired. <br /> For **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item; for **ScatterSeries** and **ScatterLineSeries** use the **{0}** and **{1}** placeholders that denote the **X** and **Y** values of the item; for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** use the **{0}** and **{1}** placeholders that denote accordingly the **Angle** and **Radius** values of the item; for **BubbleSeries** use the **{0}** , **{1}** , **{2}** and **{3}** placeholders that denote accordingly the **X** , **Y** , **Size** and **Tooltip** values of the item. *The Series labels in __BoxPlotSeries__ and __CandlestickSeries__ are not supported.*|
@@ -172,6 +173,14 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Italic** |Specifies whether the font of the labels' text is italic. Values are **True** or **False** .|
 | **Margin** |Specifies the margin of the labels' text. Takes the margin value in pixels. The **Position** property in **[SeriesType] > Appearance > LabelsAppearance** should not be set to **Center** in order for this setting to take effect.|
 | **Padding** |Specifies the padding of the labels' text. Takes the padding value in pixels. The **Position** property in **[SeriesType] > Appearance > LabelsAppearance** should not be set to **Center** in order for this setting to take effect.|
+
+## Attribute Properties in [SeriesType] > LabelsAppearance > Border
+
+|  **Name**  |  **Description**  |
+| ------ | ------ |
+| **Color** |The color of the label borders for the series' items. Can take a common color name or a hex value.|
+| **DashType** |Sets the dash type of the label's border. An enumeration (Telerik.Web.UI.HtmlChart.Enums.DashType) with the following values: **Dash** , **DashDot** , **Dot** , **LongDash**, **LongDashDot**, **LongDashDotDot**, **Solid** .|
+| **Width** |The width of the border for the series' labels. Takes the width in pixels.|
 
 ## Attribute Properties in [SeriesType] > TooltipsAppearance
 
