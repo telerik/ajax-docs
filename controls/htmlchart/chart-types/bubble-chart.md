@@ -42,9 +42,11 @@ You can customize a Bubble chart in several ways:
 
 * The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
+* Starting from R3 2023, the `BubbleSeries` now offers `MaxSize` and `MinSize` properties, empowering you with control over the scaling of the bubble chart items. You can test these properties via the Demo configurator of the [Bubble Chart live demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/bubblechart/defaultcs.aspx).
+
 **Example 1** shows how to create the Bubble chart shown in **Figure 1**.
 
->tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the values ifyou do not declare explicit values, steps and tick properties.
+>tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the values if you do not declare explicit values, steps and tick properties.
 
 >caption Example 1: Setting properties to configure the Bubble chart shown in **Figure 1**.
 
