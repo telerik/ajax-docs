@@ -16,7 +16,17 @@ A Line chart shows data as continuous lines that pass through points defined by 
 
 ![htmlchart-linechart-simple-example](images/htmlchart-linechart-simple-example.png)
 
-You can customize the Line chart:
+## Vertical Line Chart
+
+Starting from R3 2023, the Line Chart can be displayed vertically. To enable this orientation, use the `VerticalLineSeries` in your chart configuration instead of the standard `LineSeries`. This change will render the chart with a vertical x-axis, providing you with more versatile charting options.
+
+![htmlchart-vertical-line-chart](images/htmlchart-vertical-line-chart.png)
+
+Test it out in our [Vertical Line Chart live demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/verticallinechart/defaultcs.aspx).
+
+## Customizing Line Chart
+
+The following list shows the most common areas and elements of the Line chart that you can modify. To explore the full list of options start from the [Visual Structure of the RadHtmlChart Control’s Tag Hierarchy]({%slug htmlchart/server-side-programming/overview%}) help article.
 
 * The color of each series is controlled via the **BackgroundColor** property of the **LineSeries > Appearance > FillStyle** inner tag.
 
