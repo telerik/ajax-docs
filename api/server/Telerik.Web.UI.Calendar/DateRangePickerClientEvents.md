@@ -66,6 +66,7 @@ Set the args.CancelSynchronize = true; to override the default
 DatePicker behavior of synchronizing the date in the DateInput and Calendar
 controls. This is useful for focusing the Calendar control on a date different from
 the DateInput one.
+
 ````ASPX
 <script type="text/javascript">
     function Opening(sender, args){    
@@ -77,3 +78,4 @@ the DateInput one.
     <ClientEvents OnPopupOpening="Opening"/>
 </radCln:RadDatePicker>
 ````
+

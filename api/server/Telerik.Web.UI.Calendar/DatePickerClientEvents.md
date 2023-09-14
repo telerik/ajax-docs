@@ -31,7 +31,8 @@ Gets or sets the name of the client-side event handler that is executed prior to
 There can be some conditions you do want not to close the calendar popup on
                 click over it. Then you should cancel the event either by return false; or
                 set its argument args.CancelClose = true;
-````ASPX
+
+````ASP.NET
 <script type="text/javascript">
     function Closing(sender, args){    
         args.CancelClose = true; //or    return false;
@@ -51,7 +52,9 @@ Gets or sets the name of the client-side event handler that is executed prior to
 There can be some conditions you do want not to open the calendar popup on
 click of the popup button. Then you should cancel the event either by return
 false; or set its argument args.CancelOpen = true;
-````ASPX
+
+
+````ASP.NET
 <script type="text/javascript">
     function Opening(sender, args) {    
         args.CancelOpen = true;    //or    return false;
@@ -60,12 +63,13 @@ false; or set its argument args.CancelOpen = true;
 <radCln:RadDatePicker ID="RadDatePicker1" runat="server">    
 <ClientEvents OnPopupOpening="Opening"/></radCln:RadDatePicker>
 ````
+
 Set the args.CancelSynchronize = true; to override the default
 DatePicker behavior of synchronizing the date in the DateInput and Calendar
 controls. This is useful for focusing the Calendar control on a date different from
 the DateInput one.
 
-````ASPX
+````ASP.NET
 <script type="text/javascript">
     function Opening(sender, args){    
         args.CancelCalendarSynchronize = true;    
@@ -76,3 +80,4 @@ the DateInput one.
     <ClientEvents OnPopupOpening="Opening"/>
 </radCln:RadDatePicker>
 ````
+

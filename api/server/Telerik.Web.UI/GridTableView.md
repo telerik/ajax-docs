@@ -281,6 +281,8 @@ given data table view object:
     }
 </script>
 ````
+
+
 The logic is placed in the OnHierarchyExpanded client side event handler,
 which is triggered when the user expands a node
 in a hierarchical grid, but can be used in any other event, given that a proper
@@ -1912,4 +1914,5 @@ The dictionary which contains all column groups
 #### Returns
 
 `System.Void` 
+
 
