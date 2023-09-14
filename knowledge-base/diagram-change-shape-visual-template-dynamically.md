@@ -13,7 +13,7 @@ res_type: kb
 In this sample you can see how to change the shape’s Visual Template dynamically (e.g. on a shape click).   
   
  You can test the result of the implementation shown below applied to the Kendo Diagram widget here: [http://dojo.telerik.com/UJizAfOr/3](http://dojo.telerik.com/UJizAfOr/3)
-![digram-visual-change]([images/digram-visual-change.gif")  
+![digram-visual-change](images/digram-visual-change.gif)  
 
 ## SOLUTION
 

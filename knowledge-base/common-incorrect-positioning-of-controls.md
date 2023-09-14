@@ -54,7 +54,7 @@ All problems demonstrated above are due to special positioning of the body, form
     - OR, move the special positioning from the &lt;form|body|parent element&gt; to another element that is not a parent of the AJAX control.   
     For example put all the content/layout in a &lt;div&gt; inside the form:
 
-    ````ASPX
+````ASPX
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -82,7 +82,7 @@ All problems demonstrated above are due to special positioning of the body, form
     </form>
 </body>
 </html>
-    ````
+````
 
 **Tip**: You can use the browser dev toolbar to inspect the rendered HTML in order to see where the Telerik control renders, what its parents are and what CSS is applied to them.  
 

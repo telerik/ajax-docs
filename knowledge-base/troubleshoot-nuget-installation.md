@@ -25,19 +25,19 @@ For additional troubleshooting options, see the [NuGet can't connect to Telerik 
 
 ## Other Errors
 
-### Unable to load the service index for source https://nuget.telerik.com/v3/index.json
+* Unable to load the service index for source https://nuget.telerik.com/v3/index.json
 
-Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](https://status.telerik.com/).
+  Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](https://status.telerik.com/).
 
-### The schema version of '<namespace>' is incompatible with version 2.0.30625.9003 of NuGet. Please upgrade NuGet to the latest version.
+* The schema version of `<namespace>` is incompatible with version 2.0.30625.9003 of NuGet. Please upgrade NuGet to the latest version.
 
-In R1 2018, the `nuget.exe` version the suite uses was updated from `2.8` to `4.3`. This is the executable file used to generate and read the `.nupkg` files.
+  In R1 2018, the `nuget.exe` version the suite uses was updated from `2.8` to `4.3`. This is the executable file used to generate and read the `.nupkg` files.
+  
+  Due to this update, you may get the error in question when using Visual Studio 2012 that uses the NuGet Package Manager version 2.0. To solve the problem, upgrade the NuGet Package Manager to version 2.8.
 
-Due to this update, you may get the error in question when using Visual Studio 2012 that uses the NuGet Package Manager version 2.0. To solve the problem, upgrade the NuGet Package Manager to version 2.8.
+* [Telerik NuGet] The V2 feed at 'https://nuget.telerik.com/nuget/Search()?$filter=IsLatestVersion&searchTerm='telerik'&targetFramework='net45'&includePrerelease=false&$skip=0&$top=26&semVerLevel=2.0.0' returned an unexpected status code '401 Logon failed.'.
 
-### [Telerik NuGet] The V2 feed at 'https://nuget.telerik.com/nuget/Search()?$filter=IsLatestVersion&searchTerm='telerik'&targetFramework='net45'&includePrerelease=false&$skip=0&$top=26&semVerLevel=2.0.0' returned an unexpected status code '401 Logon failed.'.
-
-To solve this issue, refer to the [nuget can't connect to Telerik NuGet Server](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget) forum thread.
+  To solve this issue, refer to the [nuget can't connect to Telerik NuGet Server](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget) forum thread.
 
 ## Additional Resources
 

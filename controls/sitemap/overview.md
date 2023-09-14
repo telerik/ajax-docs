@@ -47,7 +47,7 @@ Following our long tradition of industry best cross-browser support, Telerik ASP
 
 **Search Engine Friendly**
 
-RadSiteMap completely follows the principles of Search Engine Optimization. The control's innovative rendering generates semantic lists and standard <a> tags, which are properly recognized and highly valued by search engines. As a result, all content accessible through this control will be automatically indexed and ranked with no extra effort required from the developer.
+RadSiteMap completely follows the principles of Search Engine Optimization. The control's innovative rendering generates semantic lists and standard `<a>` tags, which are properly recognized and highly valued by search engines. As a result, all content accessible through this control will be automatically indexed and ranked with no extra effort required from the developer.
 
 **Codeless Test Automation for RadSiteMap**
 

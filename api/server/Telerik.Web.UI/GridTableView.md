@@ -199,7 +199,7 @@ Use the AlternatingItemStyle property to control the
                     GridTableView control in the form
                     Property-Subproperty, where Subproperty is a
                     property of the GridTableItemStyle object (for example,
-                    AlternatingItemStyle-ForeColor).Nest an <AlternatingItemStyle> element between the opening and
+                    AlternatingItemStyle-ForeColor).Nest an `<AlternatingItemStyle>` element between the opening and
                     closing tags of the GridTableView control.The properties can also be set programmatically in the form
                 Property.Subproperty (for example,
                 AlternatingItemStyle.ForeColor). Common settings usually include a custom
@@ -263,25 +263,28 @@ Gets all items among the hierarchy of
 ###  ClientDataKeyNames `String[]`
 
 This property is used to specify the field from the underlying datasource,
-                which will populate the ClientDataKeyNames collection.
-                This collection can later be accessed on the client, to get the key
-                value(s).The following example demonstrates the extraction of the data key value for a
-                given data table view object:
-                <ClientSettings>
-                <ClientEvents OnHierarchyExpanded="HierarchyExpanded" />
-                </ClientSettings><script type="text/javascript">
-                function HierarchyExpanded(sender, args)
-                {
-                var firstClientDataKeyName =
-                args.get_tableView().get_clientDataKeyNames()[0];
-                alert("Item with " + firstClientDataKeyName + ":'" +
-                args.getDataKeyValue(firstClientDataKeyName)
-                + "' expanded.");
-                }
-                </script>The logic is placed in the OnHierarchyExpanded client side event handler,
-                which is triggered when the user expands a node
-                in a hierarchical grid, but can be used in any other event, given that a proper
-                reference to the client table view object is obtained.
+which will populate the ClientDataKeyNames collection.
+This collection can later be accessed on the client, to get the key
+value(s).The following example demonstrates the extraction of the data key value for a
+given data table view object:
+
+````ASPX
+<ClientSettings>
+    <ClientEvents OnHierarchyExpanded="HierarchyExpanded" />
+</ClientSettings>
+<script type="text/javascript">
+    function HierarchyExpanded(sender, args)
+    {
+        var firstClientDataKeyName =
+        args.get_tableView().get_clientDataKeyNames()[0];
+        alert("Item with " + firstClientDataKeyName + ":'" +  args.getDataKeyValue(firstClientDataKeyName) + "' expanded.");
+    }
+</script>
+````
+The logic is placed in the OnHierarchyExpanded client side event handler,
+which is triggered when the user expands a node
+in a hierarchical grid, but can be used in any other event, given that a proper
+reference to the client table view object is obtained.
 
 ###  ClientID `String`
 
@@ -492,7 +495,7 @@ Use the EditItemStyle property to control the appearance of
                     GridTableView control in the form
                     Property-Subproperty, where Subproperty is a
                     property of the GridTableItemStyle object (for example,
-                    EditItemStyle-ForeColor).Nest an <EditItemStyle> element between the
+                    EditItemStyle-ForeColor).Nest an `<EditItemStyle>` element between the
                     opening and closing tags of the GridTableView control.The properties can also be set programmatically in the form
                 Property.Subproperty (for example,
                 EditItemStyle.ForeColor). Common settings usually include a custom
@@ -513,11 +516,11 @@ There are two possible values defined by the GridEditMode
                 enumeration:InPlaceEditFormsTo display the grid column editors inline when switching grid item in edit
                 mode (see the screenshot below), you simply need to change the
                 EditMode property to InPlace.
-            <radg:RadGrid id="RadGrid1" runat="server"><MasterTableView AutoGenerateColumns="True" EditMode="InPlace" /></radg:RadGrid>To display the grid column editors in auto-generated form when switching grid
+            `<radg:RadGrid id="RadGrid1" runat="server"><MasterTableView AutoGenerateColumns="True" EditMode="InPlace" /></radg:RadGrid>`To display the grid column editors in auto-generated form when switching grid
                 item in edit mode (see the screenshot below), you simply need to change the
                 MasterTableView EditMode property to
                 EditForms.
-            <radg:RadGrid id="RadGrid1" runat="server"><MasterTableView AutoGenerateColumns="True" EditMode="EditForms" /></radg:RadGrid>
+            `<radg:RadGrid id="RadGrid1" runat="server"><MasterTableView AutoGenerateColumns="True" EditMode="EditForms" /></radg:RadGrid>` 
 
 ###  EnableColumnsViewState `Boolean`
 
@@ -641,7 +644,7 @@ Note that the correctness of the expressions in the collection is
 
 Gets or sets the group footer ItemTemplate.
 
-###  GroupHeaderFooterIndexMap `Dictionary`2`
+###  GroupHeaderFooterIndexMap ```Dictionary`2```
 
 Returns a Dictionary of group header index and the corresponsding group footer item
 
@@ -661,12 +664,12 @@ Specifies where the grouping will be handled. There are two options:Server-side 
 #### Remarks
 GridTableView.GroupLoadMode.ServerThis is the default behavior. Groups are expanded after postback to the server
             for example:
-            <MasterTableView GroupLoadMode="Server">GridTableView.GroupLoadMode.ClientGroups will be
+            `<MasterTableView GroupLoadMode="Server">`GridTableView.GroupLoadMode.ClientGroups will be
             expanded client-side and no postback will be performed.
-            <MasterTableView GroupLoadMode="Client">
+           `<MasterTableView GroupLoadMode="Client">`
             and set the client setting AllowGroupExpandCollapse to
             true:
-            <ClientSettings AllowGroupExpandCollapse="True">
+            `<ClientSettings AllowGroupExpandCollapse="True">`
 
 ###  GroupsDefaultExpanded `Boolean`
 
@@ -699,7 +702,7 @@ Use the HeaderStyle property to control the appearance of
                     GridTableView control in the form
                     Property-Subproperty, where Subproperty is a
                     property of the GridTableItemStyle object (for example,
-                    HeaderStyle-ForeColor).Nest a <HeaderStyle> element between the opening
+                    HeaderStyle-ForeColor).Nest a `<HeaderStyle>` element between the opening
                     and closing tags of the GridTableView control.The properties can also be set programmatically in the form
                 Property.Subproperty (for example,
                 HeaderStyle.ForeColor). Common settings usually include a custom
@@ -959,7 +962,7 @@ Use the PagerStyle property to control the appearance of the
                     GridTableView control in the form
                     Property-Subproperty, where Subproperty is a
                     property of the GridPagerStyle object (for example,
-                    PagerStyle-ForeColor).Nest a <PagerStyle> element between the opening
+                    PagerStyle-ForeColor).Nest a `<PagerStyle>` element between the opening
                     and closing tags of the GridTableView control.The properties can also be set programmatically in the form
                 Property.Subproperty (for example,
                 PagerStyle.ForeColor). Common settings usually include a custom
@@ -1158,7 +1161,7 @@ Use the SelectedItemStyle property to control the appearance
                     GridTableView control in the form
                     Property-Subproperty, where Subproperty is a
                     property of the Style object (for example,
-                    SelectedItemStyle-ForeColor).Nest a <SelectedRowStyle> element between the
+                    SelectedItemStyle-ForeColor).Nest a `<SelectedRowStyle>` element between the
                     opening and closing tags of the GridTableView control.The properties can also be set programmatically in the form
                 Property.Subproperty (for example,
                 SelectedItemStyle.ForeColor). Common settings usually include a
@@ -1232,7 +1235,7 @@ Gets or sets the tab index of the Web server control.
 ###  TableLayout `GridTableLayout`
 
 Gets or sets a string that indicates whether the table layout is fixed.
-
+ 
 #### Remarks
 The value of the TableLayout property is a string that
                     specifies or receives one of the following GridTableLayout

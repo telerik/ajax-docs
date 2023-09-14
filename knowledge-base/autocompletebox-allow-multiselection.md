@@ -12,7 +12,7 @@ res_type: kb
 
 Configure the AutoCompleteBox imitate the behavior of the [Kendo UI MultiSelect](https://demos.telerik.com/kendo-ui/multiselect/index) widget by allowing the selection of multiple items without closing the dropdown on item click.  
   
-![AutoCompleteBox-MultiSelection](images\autocompletebox-multiselection.gif)
+![AutoCompleteBox-MultiSelection](images/autocompletebox-multiselection.gif)
 
 ### SOLUTION
 
