@@ -102,3 +102,18 @@ Use the Value server-side property
 </telerik:RadDateTimePicker>
 ````
 
+#### RadRadioButtonList
+
+Use the Value server-side property 
+
+````ASP.NET
+<telerik:RadRadioButtonList ID="rblTimeTypeInsert" runat="server" SelectedValue='<%# Bind("Size") %>' >
+    <Items>
+        <telerik:ButtonListItem Text="Small" Value="Small" />
+        <telerik:ButtonListItem Text="Medium" Value="Medium" />
+        <telerik:ButtonListItem Text="Large" Value="Large" />
+    </Items>
+</telerik:RadRadioButtonList>
+````
+
+
