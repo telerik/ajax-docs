@@ -174,7 +174,7 @@ Gets the hierarchical index inside the parent RadRibbonBar
 
 ### get_labelElement
 
-Returns the <a> DOM element containing the Tab's text element.
+Returns the &lt;a&gt; DOM element containing the Tab's text element.
 
 #### Parameters
 

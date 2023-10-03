@@ -2138,22 +2138,22 @@ redirects:
     type: Permanent
 
 -
-    from: "pdfprocessing/(?!overview(\\.html)?)(.*)"
+    from: "(?<=/)pdfprocessing/(?!overview(\\.html)?)(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
 -
-    from: "wordsprocessing/(?!overview(\\.html)?)(.*)"
+    from: "(?<=/)wordsprocessing/(?!overview(\\.html)?)(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
 -
-    from: "spreadprocessing/(?!overview(\\.html)?)(.*)"
+    from: "(?<=/)spreadprocessing/(?!overview(\\.html)?)(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
 -
-    from: "spreadstreamprocessing/(?!overview(\\.html)?)(.*)"
+    from: "(?<=/)spreadstreamprocessing/(?!overview(\\.html)?)(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
 -
-    from: "ziplibrary/(?!overview(\\.html)?)(.*)"
+    from: "(?<=/)ziplibrary/(?!overview(\\.html)?)(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent

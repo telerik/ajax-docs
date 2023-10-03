@@ -175,9 +175,9 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 | Changed Return Type for Method | Description |
 | ------ | ------ |
 |||
-|GetAllNodes|Returns IList<RadTreeNode> instead of ArrayList|
-|CheckedNodes|Returns IList<RadTreeNode> instead of ArrayList|
-|SelectedNodes|Returns IList<RadTreeNode> instead of ArrayList|
+|GetAllNodes|Returns IList&lt;RadTreeNode&gt; instead of ArrayList|
+|CheckedNodes|Returns IList&lt;RadTreeNode&gt; instead of ArrayList|
+|SelectedNodes|Returns IList&lt;RadTreeNode&gt; instead of ArrayList|
 
 
 

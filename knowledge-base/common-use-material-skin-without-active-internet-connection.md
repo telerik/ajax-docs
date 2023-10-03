@@ -69,7 +69,7 @@ The second approach is to create a local CDN where you will make the changes to 
 
   
   
-### Prevent the references to https://fonts.gstatic.com
+### Prevent the references to fonts.gstatic.com
 
 If the [Content Security Policy is enabled in IIS](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/content-security-policy), you may experience calls to https://fonts.gstatic.com. The presence of the *font-src 'self'* section causes Chrome to evaluate all fonts on the page and this will also trigger requests to the Google cloud for the Roboto font, even if it is not used by the page (i.e., the Material skin is not used).   
 
