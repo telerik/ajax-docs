@@ -36,7 +36,7 @@ position: 4
 |HideContextMenu|N/A (other API will be provided for Context Menu handling)|
 |||
 | **Properties** ||
-|Nodes|get_nodes()The return value is no longer an Array. The return value is now a Telerik.Web.UI.RadTreeNodeCollection object.Enumerating Nodes:<script type=”text/javascript”>for (var i=0; i<tree.get_nodes().get_count();i++){var node = tree.get_nodes().getNode(i);alert(node.get_text());}</script>|
+|Nodes|get_nodes()The return value is no longer an Array. The return value is now a Telerik.Web.UI.RadTreeNodeCollection object.Enumerating Nodes:`<script type=”text/javascript”>for (var i=0; i<tree.get_nodes().get_count();i++){var node = tree.get_nodes().getNode(i);alert(node.get_text());}</script>`|
 |AllNodes|get_allNodes()The return value is Array.|
 |ID|get_id()|
 |SelectedNode|get_selectedNode()|
@@ -70,7 +70,7 @@ position: 4
 |ScrollIntoView|scrollIntoView()|
 |ImageElement|get_imageElement()|
 |TextElement|get_textElement()|
-||get_contentElement()Returns an HTML DOM element (a <LI> tag) that represents a Tree Node.|
+||get_contentElement()Returns an HTML DOM element (a &lt;LI&gt; tag) that represents a Tree Node.|
 | **Properties** ||
 |Text|get_text()|
 |Value|get_value()|
