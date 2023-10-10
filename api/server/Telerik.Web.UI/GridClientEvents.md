@@ -351,7 +351,7 @@ Gets or sets the client-side event which will be fired before a row have been cr
 ###  OnRowDataBound `String`
 
 Gets or sets the client-side event which will be fired when a
-            row is data bound. Note that the event could only be used in 
+            row is data bound. Note that the event could only be used in
             client-side data binding scenario.
 
 ###  OnRowDblClick `String`
@@ -360,12 +360,12 @@ Gets or sets the client-side event which will be fired when a row have been doub
 
 ###  OnRowDeleted `String`
 
-Gets or sets the client-side event which will be fired after a 
+Gets or sets the client-side event which will be fired after a
             row have been deleted with GridClientDeleteColumn or deleteItem method.
 
 ###  OnRowDeleting `String`
 
-Gets or sets the client-side event which will be fired before 
+Gets or sets the client-side event which will be fired before
             row have been deleted with GridClientDeleteColumn or deleteItem method.
 
 ###  OnRowDeselected `String`

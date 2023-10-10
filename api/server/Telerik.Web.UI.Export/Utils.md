@@ -101,34 +101,6 @@ BIFF: Convert from VerticalAlign to VerticalAlignment enumerations
 
 `Telerik.Web.UI.ExcelBiff.VerticalAlignment` 
 
-###  ConvertXlsxBorderStyle
-
-Converts the ASP.NET BorderStyle enumeration values to Excel BorderStyle enumeration values
-
-#### Parameters
-
-#### borderStyle `System.Web.UI.WebControls.BorderStyle`
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.CellBorderStyle` 
-
-###  ConvertXlsxHorizontalAlign
-
-XLSX: Convert from HorizontalAlign to HorizontalAlignment enumerations
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.RadHorizontalAlignment` 
-
-###  ConvertXlsxVerticalAlign
-
-XLSX: Convert from VerticalAlign to VerticalAlignment enumerations
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.RadVerticalAlignment` 
-
 ###  FontSizeToPoints
 
 Converts strongly typed relative FontSize unit to points (double)
@@ -233,9 +205,9 @@ String to be reversed
 
 ###  SanitizeCellText
 
-Remove the recurring whitespaces; Remove the CR/LF chars, if any; Replace the HTML newline characters with CR/LFs; 
-            To put it simply, CR/LF has no meaning in HTML context so only line break characters should be taken into consideration. 
-            On the other hand, the HTML line break char is meaningless in the context of the BIFF file. This is to maintain the 
+Remove the recurring whitespaces; Remove the CR/LF chars, if any; Replace the HTML newline characters with CR/LFs;
+            To put it simply, CR/LF has no meaning in HTML context so only line break characters should be taken into consideration.
+            On the other hand, the HTML line break char is meaningless in the context of the BIFF file. This is to maintain the
             compatiblity and pertain the expected behavaior.
 
 #### Parameters

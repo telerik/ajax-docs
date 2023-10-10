@@ -38,7 +38,7 @@ Get the first value from the values of the current .
 
 ###  GetFirstValueFromEnumerable
 
-Returns the first value from an object implementing IEnumerable, passed as argument. 
+Returns the first value from an object implementing IEnumerable, passed as argument.
             If the collection is empty, returns null.
 
 #### Parameters

@@ -70,7 +70,7 @@ This property describes the different types of font embedding: Link,
                 Embed and Subset.
 
 #### Remarks
-Possible values: 
+Possible values:
                 Link
                             The font program is referenced by name in the rendered PDF. Anyone who
                             views a rendered PDF with a linked font program must have that font
@@ -101,7 +101,7 @@ Possible values:
 
 ###  ForceTextWrap `Boolean`
 
-Determines what will happen when a given text is larger than the cell width (and there are no whitespaces inside). 
+Determines what will happen when a given text is larger than the cell width (and there are no whitespaces inside).
             If set to true, the overflowing text will be carried over to the next line; otherwise (false) the text will break the cell boundaries
 
 ###  Keywords `String[]`

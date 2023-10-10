@@ -6,7 +6,7 @@ description: Telerik.Web.UI.CaptchaImageHandler
 
 # Telerik.Web.UI.CaptchaImageHandler
 
-Captcha image stream HttpModule. Retrieves RadCaptcha objects from cache (or session), 
+Captcha image stream HttpModule. Retrieves RadCaptcha objects from cache (or session),
             renders them to memory, and streams them to the browser.
 
 ## Inheritance Hierarchy

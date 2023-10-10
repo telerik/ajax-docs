@@ -39,9 +39,9 @@ Clears all images currently saved by the provider.
 
 ###  ClearImages
 
-Clears the images in the provider up to the image key passed. 
+Clears the images in the provider up to the image key passed.
             
-            The clearing is done from the first image that was placed by the provider, up to the one corresponding to the key. 
+            The clearing is done from the first image that was placed by the provider, up to the one corresponding to the key.
             The image that corresponds to the key is not cleared.
 
 #### Parameters

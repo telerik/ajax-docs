@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadDataFormIndexesCollection
 
 # Telerik.Web.UI.RadDataFormIndexesCollection
 
-Collection containing integer values representing the 
+Collection containing integer values representing the
             Telerik.Web.UI.RadDataForm Telerik.Web.UI.RadDataFormItem ItemIndex property.
 
 ## Inheritance Hierarchy

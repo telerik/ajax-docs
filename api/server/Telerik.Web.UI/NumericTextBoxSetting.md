@@ -108,12 +108,12 @@ Gets or sets the time, in milliseconds, the InvalidStyle should be displayd. Mus
 
 ###  IsValid `Boolean`
 
-Gets if the TargetControls in the InputSettings 
+Gets if the TargetControls in the InputSettings
             are successfully validated.
 
 ###  KeepTrailingZerosOnFocus `Boolean`
 
-Gets or sets whether the control will keep its trailing zeros 
+Gets or sets whether the control will keep its trailing zeros
             (according to the DecimalDigits setting) when focused.
 
 ###  MaxValue `Double`

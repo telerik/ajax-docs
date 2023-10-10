@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadTreeNode RadTreeNodeobjects in a
 #### Remarks
 The RadTreeNodeCollectionclass represents a collection of
                 RadTreeNodeobjects.
-            	bullet Use the P:Telerik.Web.UI.RadTreeNodeCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadTreeNodeCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadTreeNode from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of menu items in the collection.
@@ -31,22 +31,22 @@ The RadTreeNodeCollectionclass represents a collection of
 
 ###  Item `RadTreeNode`
 
-Gets the object at the specified index in 
-            	the current .
+Gets the object at the specified index in
+                   the current .
 
 ## Methods
 
 ###  Add
 
-Appends the specified  object to the end of the current 
-            	.
+Appends the specified  object to the end of the current
+                   .
 
 #### Parameters
 
 #### node `Telerik.Web.UI.RadTreeNode`
 
-The  to append to the end of the current 
-            	.
+The  to append to the end of the current
+                   .
 
 #### Returns
 
@@ -54,15 +54,15 @@ The  to append to the end of the current
 
 ###  AddRange
 
-Appends the specified array of  objects to the end of the 
+Appends the specified array of  objects to the end of the
             current .
 
 #### Parameters
 
 #### nodes `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadTreeNode}`
 
-The array of  to append to the end of the current 
-            	.
+The array of  to append to the end of the current
+                   .
 
 #### Returns
 
@@ -70,8 +70,8 @@ The array of  to append to the end of the current
 
 ###  Contains
 
-Determines whether the specified  object is in the current 
-            	.
+Determines whether the specified  object is in the current
+                   .
 
 #### Parameters
 
@@ -81,14 +81,14 @@ The  object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified  object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified  object;
+                   otherwise, false.
 
 ###  CopyTo
 
 Copies the  instances stored in the current
-            	 object to an System.Array object, beginning at the specified 
-            	index location in the System.Array.
+                    object to an System.Array object, beginning at the specified
+                   index location in the System.Array.
 
 #### Parameters
 
@@ -106,7 +106,7 @@ The zero-based relative index in array where copying begins.
 
 ###  FindNode
 
-Returns  the first RadTreeNode 
+Returns  the first RadTreeNode
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -233,13 +233,13 @@ The  to locate.
 
 #### Returns
 
-`System.Int32` The zero-based index of tab within the current , 
-            	if found; otherwise, -1.
+`System.Int32` The zero-based index of tab within the current ,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified  object in the current 
-            	 at the specified index location.
+Inserts the specified  object in the current
+                    at the specified index location.
 
 #### Parameters
 
@@ -258,7 +258,7 @@ The  to insert.
 ###  Remove
 
 Removes the specified  object from the current
-            	.
+                   .
 
 #### Parameters
 
@@ -272,7 +272,7 @@ The  object to remove.
 
 ###  RemoveAt
 
-Removes the  object at the specified index 
+Removes the  object at the specified index
             from the current .
 
 #### Parameters

@@ -81,7 +81,7 @@ Gets or sets a value indicating the control should be required on client or not.
 
 ###  IsValid `Boolean`
 
-Gets if the TargetControls in the InputSettings 
+Gets if the TargetControls in the InputSettings
             are successfully validated.
 
 ###  ReadOnlyCssClass `String`

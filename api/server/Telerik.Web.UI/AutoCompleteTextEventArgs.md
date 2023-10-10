@@ -7,7 +7,7 @@ description: Telerik.Web.UI.AutoCompleteTextEventArgs
 # Telerik.Web.UI.AutoCompleteTextEventArgs
 
 Provides data for the AutoCompleteText
-            	event of the RadAutoCompleteBoxcontrol.
+                   event of the RadAutoCompleteBoxcontrol.
 
 ## Inheritance Hierarchy
 

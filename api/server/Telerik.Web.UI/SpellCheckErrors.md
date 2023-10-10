@@ -24,7 +24,7 @@ Represents the entry at the specified index of the .
 
 ###  Add
 
-Adds a  with the specified value to the 
+Adds a  with the specified value to the
                 .
 
 #### Parameters
@@ -67,7 +67,7 @@ A  containing the objects to add to the collection.
 
 ###  Contains
 
-Gets a value indicating whether the 
+Gets a value indicating whether the
                 contains the specified .
 
 #### Parameters
@@ -78,12 +78,12 @@ The  to locate.
 
 #### Returns
 
-`System.Boolean` if the  is contained in the collection; 
+`System.Boolean` if the  is contained in the collection;
               otherwise, .
 
 ###  CopyTo
 
-Copies the  values to a one-dimensional  instance at the 
+Copies the  values to a one-dimensional  instance at the
                specified index.
 
 #### Parameters
@@ -102,7 +102,7 @@ The index in  where copying begins.
 
 ###  GetEnumerator
 
-Returns an enumerator that can iterate through 
+Returns an enumerator that can iterate through
                   the  .
 
 #### Returns
@@ -111,7 +111,7 @@ Returns an enumerator that can iterate through
 
 ###  IndexOf
 
-Returns the index of a  in 
+Returns the index of a  in
                   the  .
 
 #### Parameters
@@ -122,7 +122,7 @@ The  to locate.
 
 #### Returns
 
-`System.Int32` The index of the  of  in the 
+`System.Int32` The index of the  of  in the
             , if found; otherwise, -1.
 
 ###  Insert
@@ -145,7 +145,7 @@ The  to insert.
 
 ###  Remove
 
-Removes a specific  from the 
+Removes a specific  from the
                 .
 
 #### Parameters

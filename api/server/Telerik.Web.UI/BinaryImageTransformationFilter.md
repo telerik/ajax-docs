@@ -19,7 +19,7 @@ Transformation filter which transform the image.
 
 ###  CropPosition `BinaryImageCropPosition`
 
-Gets or sets the crop position that  
+Gets or sets the crop position that 
             can apply when cropping the binary image.
 
 ###  Height `Int32`

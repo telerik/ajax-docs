@@ -39,7 +39,7 @@ Gets or sets a value that indicates whether the resource editing in the advanced
 
 ###  EnableTimeZonesEditing `Boolean`
 
-Gets or sets a value that controls whether one can chose custom time zone for appointment, i.e. 
+Gets or sets a value that controls whether one can chose custom time zone for appointment, i.e.
             different from the one RadScheduler is operating in."
 
 ###  MaximumHeight `Unit`

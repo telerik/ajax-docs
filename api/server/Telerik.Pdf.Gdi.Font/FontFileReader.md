@@ -17,7 +17,7 @@ Class designed to parse a TrueType font file.
 
 ###  IndexMappings `IndexMappings`
 
-Gets or sets a dictionary containing glyph index to subset 
+Gets or sets a dictionary containing glyph index to subset
                 index mappings.
 
 ###  Stream `FontFileStream`
@@ -32,7 +32,7 @@ Gets the number tables.
 
 ###  ContainsTable
 
-Gets a value indicating whether or not this font contains the 
+Gets a value indicating whether or not this font contains the
                 supplied table.
 
 #### Parameters
@@ -57,7 +57,7 @@ A 4-character code identifying a table.
 
 #### Returns
 
-`Telerik.Pdf.Gdi.Font.DirectoryEntry` A  object or null if the table cannot 
+`Telerik.Pdf.Gdi.Font.DirectoryEntry` A  object or null if the table cannot
                 be located.
 
 ###  GetTable
@@ -65,12 +65,12 @@ A 4-character code identifying a table.
 Gets a reference to the table structure identified by tableName
 
 #### Remarks
-Only the following tables are supported: 
+Only the following tables are supported:
                  - Font header,
                  - Horizontal header,
                  - Horizontal metrics,
                  - Maximum profile,
-                 - Index to location, 
+                 - Index to location,
                  - Glyf data,
                  - Control value,
                  - Control value program,
@@ -89,8 +89,8 @@ A 4-character code identifying a table.
 ###  OffsetStream
 
 Sets the stream position to the offset in the supplied directory
-                entry. Also ensures that the FontFileStream has enough bytes 
-                available to read a font table.  Throws an exception if this 
+                entry. Also ensures that the FontFileStream has enough bytes
+                available to read a font table.  Throws an exception if this
                 condition is not met.
 
 #### Parameters
@@ -111,8 +111,8 @@ Caches the following tables: 'head', 'hhea', 'maxp', 'loca'
 
 ###  ReadTableHeaders
 
-Reads the Offset and Directory tables.  If the FontFileStream represents 
-                a TrueType collection, this method will look for the aforementioned 
+Reads the Offset and Directory tables.  If the FontFileStream represents
+                a TrueType collection, this method will look for the aforementioned
                 tables belonging to fontName.
 
 #### Remarks

@@ -26,7 +26,7 @@ Gets or sets a value indicating whether the control is currently being bound.
 
 ###  IsTopItem `Boolean`
 
-Gets a boolean value indicating whether the pager item is placed on top or bottom of the 
+Gets a boolean value indicating whether the pager item is placed on top or bottom of the
             rendered treelist control.
 
 ###  ItemType `TreeListItemType`
@@ -51,14 +51,14 @@ Gets a reference to the TreeListPagingManager object for the current RadTreeList
 
 ###  TableSection `TableRowSection`
 
-Returns a value of type TableRowSection indicating where the pager item row is placed in the 
+Returns a value of type TableRowSection indicating where the pager item row is placed in the
             Table control rendered by RadTreeList.
 
 ## Methods
 
 ###  FireCommandEvent
 
-Use this method to simulate item command event that bubbles to 
+Use this method to simulate item command event that bubbles to
              and can be handled automatically or in a
             custom manner, handling .ItemCommand event.
 
@@ -84,7 +84,7 @@ Creates copy of button used for the pager in RadTreeList control.
 
 #### commandArgument `System.String`
 
-must be on of the following: 
+must be on of the following:
                 FirstPageCommandArgument,
                 NextPageCommandArgument,
                 PrevPageCommandArgument,

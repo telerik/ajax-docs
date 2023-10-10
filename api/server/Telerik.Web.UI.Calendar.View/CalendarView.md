@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.View.CalendarView
 # Telerik.Web.UI.Calendar.View.CalendarView
 
 Summary description for CalendarView.
-            Related to https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefunctionality.
+            Related to http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefunctionality.
 
 ## Inheritance Hierarchy
 
@@ -18,7 +18,7 @@ Summary description for CalendarView.
 
 ###  ChildViews `CalendarViewCollection`
 
-Gets the current  child 
+Gets the current  child
             views as a .
 
 ###  ColumnHeaderImage `String`
@@ -31,7 +31,7 @@ Gets or sets the column header text.
 
 ###  ConditionsErrorMessage `String`
 
-Gets or sets the conditions error message which will 
+Gets or sets the conditions error message which will
             be displayed if there any errors in the settings.
 
 ###  CurrentViewBeginDate `DateTime`
@@ -69,7 +69,7 @@ Gets or sets the header .
 ###  ID `String`
 
 Gets or sets the ID of the .
-            Returns the parent  ClientID if 
+            Returns the parent  ClientID if
             the view is TopView.
 
 ###  IsHidden `Boolean`

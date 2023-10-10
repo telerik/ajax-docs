@@ -7,7 +7,7 @@ description: Telerik.Web.UI.TreeListClientEvents
 # Telerik.Web.UI.TreeListClientEvents
 
 Represents the client events of Telerik.Web.UI.RadTreeList .
-            Allows setting the names of client-side functions which will be called 
+            Allows setting the names of client-side functions which will be called
             when the given events are raised on the client.
 
 ## Inheritance Hierarchy
@@ -103,7 +103,7 @@ This client-side event is fired when a  item
 
 ###  OnItemDropping `String`
 
-This client-side event is fired when a  item 
+This client-side event is fired when a  item
             is about to be dropped after dragging. This event can be canceled.
 
 ###  OnItemSelected `String`
@@ -118,7 +118,7 @@ Gets or sets the name of a client-side function that will be fired
 
 ###  OnKeyPress `String`
 
-This client-side event is fired (only when keyboard navigation is enabled) when any key is pressed 
+This client-side event is fired (only when keyboard navigation is enabled) when any key is pressed
             inside the  and the control is about to process this key.
 
 ###  OnScroll `String`

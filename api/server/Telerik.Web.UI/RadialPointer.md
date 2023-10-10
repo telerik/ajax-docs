@@ -25,6 +25,12 @@ Defines the settings of the cap of the RadialGauge's pointer.
 
 Gets or sets the color of the pointer.
 
+###  Length `Double`
+
+Pointer length based on the distance to the scale.
+            The default length of 1 makes the pointer exactly reache the scale.
+            Accepts values between 0.1 and 1.5.
+
 ###  Value `Nullable`1`
 
 Gets or sets the value at which the pointer is pointing.

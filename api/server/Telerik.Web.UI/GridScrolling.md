@@ -42,9 +42,9 @@ This property is particularly useful when working with huge datasets. Using
 
 ###  FrozenColumnsCount `Int32`
 
-To enable static columns, set the ClientSettings.Scrolling.FrozenColumnsCount property to a value greater than 0. 
+To enable static columns, set the ClientSettings.Scrolling.FrozenColumnsCount property to a value greater than 0.
             The value of FrozenColumnsCount specifies the number of columns (starting with the leftmost column) that do not
-            scroll when the of the user scrolls the grid horizontally, using the horizontal scroll bar. This feature is 
+            scroll when the of the user scrolls the grid horizontally, using the horizontal scroll bar. This feature is
             functional even when in hierarchical grids and grids that support grouping.
 
 ###  SaveScrollPosition `Boolean`

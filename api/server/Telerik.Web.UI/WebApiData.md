@@ -6,7 +6,7 @@ description: Telerik.Web.UI.WebApiData
 
 # Telerik.Web.UI.WebApiData
 
-Public class representing input parameter passed to the methods of a class 
+Public class representing input parameter passed to the methods of a class
             inheriting ApiController used for binding RadScheduler bound to WebApi REST service.
 
 ## Inheritance Hierarchy

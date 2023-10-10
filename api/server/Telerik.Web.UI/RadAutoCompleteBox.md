@@ -6,9 +6,9 @@ description: Telerik.Web.UI.RadAutoCompleteBox
 
 # Telerik.Web.UI.RadAutoCompleteBox
 
-Telerik RadAutoCompleteBox for ASP.NET AJAX is a powerful 
-            drop-down list control which gives the ability to 
-            select multiple entries, displaying them as a sequence of strings 
+Telerik RadAutoCompleteBox for ASP.NET AJAX is a powerful
+            drop-down list control which gives the ability to
+            select multiple entries, displaying them as a sequence of strings
             separated by a delimiter, or fancy styled tokens depending on your preferences.
 
 ## Inheritance Hierarchy
@@ -25,7 +25,7 @@ Telerik RadAutoCompleteBox for ASP.NET AJAX is a powerful
 
 ###  AllowCustomEntry `Boolean`
 
-Gets or sets a value indicating whether the user will be able to add a custom text not present 
+Gets or sets a value indicating whether the user will be able to add a custom text not present
             within the raw data in order to create a custom entry.
 
 ###  AriaSettings `WaiAriaSettings`
@@ -71,7 +71,7 @@ The client-side id of the inner input element used for intergation with RadLabel
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -164,7 +164,7 @@ Determines whether the Screen Boundaries Detection is enabled or not.
 
 ###  Entries `AutoCompleteBoxEntryCollection`
 
-Gets the RadAutoCompleteBox 
+Gets the RadAutoCompleteBox
                 entries collection.
 
 ###  ExpandAnimation `AnimationSettings`
@@ -290,7 +290,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRequested client-side event
                 handler is called when the RadAutoCompleteBox items were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
 
 ###  OnClientRequestFailed `String`
 
@@ -300,8 +300,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRequestFailed client-side event
                 handler is called when the operation for populating the RadAutoCompleteBox has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientRequesting `String`
 
@@ -311,8 +311,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnItemsRequesting client-side event
                 handler is called when the RadAutoCompleteBox is about to be populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
-            			get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
+                           get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientTextChanged `String`
 
@@ -357,13 +357,9 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 Gets or sets a value indicating whether a loading icon should be shown while a request it pending.
 
-###  Skin `String`
+###  SingleLineEntries `AutoCompleteBoxEntryCollection`
 
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+Gets or sets the Single Line Entries mode of RadAutoCompleteBox.
 
 ###  Skin `String`
 
@@ -372,6 +368,14 @@ Gets or sets the skin name for the control user interface.
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Text `String`
 
@@ -396,28 +400,28 @@ Gets the settings for the web service used to populate items.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both
-                    Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public DropDownDataItemData[] WebServiceMethodName(object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both
+                     Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public DropDownDataItemData[] WebServiceMethodName(object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ###  ZIndex `Int32`
 

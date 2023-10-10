@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadCalendarDay
 # Telerik.Web.UI.RadCalendarDay
 
 RadCalendarDay represents a object that maps date value to corresponding visual settings.
-            Also the object implements Boolean properties that represent the nature of the selected date - 
+            Also the object implements Boolean properties that represent the nature of the selected date -
             whether it is a weekend, disabled or selected in the context of the calendar. Mostly the values
             of those properties are set at runtime when a RadCalendarDay instance is constructed and passed
             to the DayRender event.
@@ -61,7 +61,7 @@ The RecurringEvents enumeration determines which part of the date is handled (da
 
 ###  TemplateID `String`
 
-Persists the ID of the template used by this instance of RichUITemplateControl if 
+Persists the ID of the template used by this instance of RichUITemplateControl if
             any. The TemplateID could be used to index the Templates collection and instantiate
             the required template.
 

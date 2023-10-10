@@ -87,7 +87,7 @@ The wizard step.
 
 ###  RemoveAt
 
-Removes the  object at the specified index 
+Removes the  object at the specified index
             from the current .
 
 #### Parameters

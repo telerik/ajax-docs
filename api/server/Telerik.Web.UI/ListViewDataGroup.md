@@ -23,7 +23,7 @@ Gets or sets the ID for the data group placeholder in a
 
 ###  DataGroupTemplate `ITemplate`
 
-Gets or sets the custom content for the data group container in a 
+Gets or sets the custom content for the data group container in a
              setting.
 
 ###  GroupAggregates `List`1`
@@ -32,7 +32,7 @@ Gets or sets a collection of all the aggregates in the data group.
 
 ###  GroupField `String`
 
-Gets or sets the group field name from the specified group in 
+Gets or sets the group field name from the specified group in
              control.
 
 ###  SortOrder `RadListViewSortOrder`

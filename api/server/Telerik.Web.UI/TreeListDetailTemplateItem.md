@@ -48,7 +48,7 @@ Gets a reference to the TableCell which holds the template item content.
 
 ###  FireCommandEvent
 
-Use this method to simulate item command event that bubbles to 
+Use this method to simulate item command event that bubbles to
              and can be handled automatically or in a
             custom manner, handling .ItemCommand event.
 

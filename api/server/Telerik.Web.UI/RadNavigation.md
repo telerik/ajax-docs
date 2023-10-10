@@ -53,7 +53,7 @@ Use the CollapseAnimation property to customize the expand
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataFieldID `String`
@@ -125,8 +125,8 @@ Returns true if ripple effect should be added
 Gets or sets a value indicating whether the screen boundary detection will be applied when menu items are expanded.
 
 #### Remarks
-By default RadNavigation will check if there is enough space to open a menu item. If there isn't the expand direction of the 
-            	item will be inverted - Left to Right, Bottom to Top and vice versa.
+By default RadNavigation will check if there is enough space to open a menu item. If there isn't the expand direction of the
+                   item will be inverted - Left to Right, Bottom to Top and vice versa.
 
 ###  ExpandAnimation `AnimationSettings`
 
@@ -255,7 +255,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ## Methods
 

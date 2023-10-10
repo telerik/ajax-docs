@@ -35,7 +35,7 @@ The template used to render the items in the breadcrumb.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DelimiterIcon `String`

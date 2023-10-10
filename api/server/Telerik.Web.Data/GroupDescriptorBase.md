@@ -25,9 +25,9 @@ Gets or sets the sort direction for this descriptor. If the value is null
 
 ###  CreateGroupKeyExpression
 
-Creates a group expression by delegating its creation to 
-            , if 
-             is , 
+Creates a group expression by delegating its creation to
+            , if
+             is ,
             otherwise throws
 
 #### Parameters
@@ -42,7 +42,7 @@ The instance expression, which will be used for grouping.
 
 ###  CreateGroupKeyExpression
 
-Creates a group expression that returns 
+Creates a group expression that returns
             the grouping key for each item in a collection.
 
 #### Parameters
@@ -57,7 +57,7 @@ The parameter expression, which will be used for grouping.
 
 ###  CreateGroupSortExpression
 
-Creates sorting key expression that sorts the groups 
+Creates sorting key expression that sorts the groups
             created from this descriptor using the group's key.
 
 #### Parameters

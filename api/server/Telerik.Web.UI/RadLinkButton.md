@@ -46,7 +46,7 @@ Gets or sets the CSS class rendered by the Button control on the client.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DisabledCssClass `String`
@@ -133,7 +133,7 @@ Gets or sets the name of the JavaScript function that will be called when the mo
 
 The Enabled property is reset in AddAttributesToRender in order
             to avoid setting disabled attribute in the control tag (this is
-            the default behavior). This property has the real value of the 
+            the default behavior). This property has the real value of the
             Enabled property in that moment.
 
 ###  PressedCssClass `String`

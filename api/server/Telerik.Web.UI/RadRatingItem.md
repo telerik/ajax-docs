@@ -35,7 +35,7 @@ Gets or sets the path to an image to display for the selected item when it is ho
 
 #### Remarks
 Use the HoveredSelectedImageUrl property to specify the image for the selected item when it is hovered. If
-            the HoveredSelectedImageUrl property is set to empty string, the item will display the SelectedImageUrl 
+            the HoveredSelectedImageUrl property is set to empty string, the item will display the SelectedImageUrl
             image. Use "~" (tilde) when referring to images within the current ASP.NET application.
 
 ###  ImageUrl `String`
@@ -57,7 +57,7 @@ Gets or sets the path to an image to display for the item when it is selected.
 
 #### Remarks
 Use the SelectedImageUrl property to specify the image for the item when it is selected. If
-            the SelectedImageUrl property is set to empty string, the item will display the ImageUrl 
+            the SelectedImageUrl property is set to empty string, the item will display the ImageUrl
             image. Use "~" (tilde) when referring to images within the current ASP.NET application.
 
 ###  ToolTip `String`

@@ -18,12 +18,12 @@ Represents the client events of Telerik.Web.UI.RadFilter .
 
 ###  OnFilterCreated `String`
 
-This client-side event is fired after the 
+This client-side event is fired after the
              is created.
 
 ###  OnFilterCreating `String`
 
-This client-side event is fired before the 
+This client-side event is fired before the
              is created.
 
 ###  OnFilterDestroying `String`

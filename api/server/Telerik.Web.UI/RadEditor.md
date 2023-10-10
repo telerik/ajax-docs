@@ -50,18 +50,18 @@ The contents of this collection will override the default colors available in
 ###  Content `String`
 
 Gets or sets the text content of the RadEditor control inlcuding the HTML
-            	markup.
+                   markup.
 
 #### Remarks
 The text returned by this property contains HTML markup. If only the text is
                     needed use the Text property.
                 You can also set the text content of the RadEditor inline between the
-            		<Content></Content> tags. In this case setting this property
-            		in the code behind will override the inline content.
+                       <Content></Content> tags. In this case setting this property
+                       in the code behind will override the inline content.
 
 ###  ContentAreaCssFile `String`
 
-Gets or sets a string, containing the location of the content area CSS styles. 
+Gets or sets a string, containing the location of the content area CSS styles.
             You need to set this property only if you are using a custom skin.
 
 ###  ContentAreaMode `String`
@@ -75,7 +75,7 @@ Gets or sets a value indicating which content filters will be active when the ed
 
 #### Remarks
 EditorFilters enum members
-            		MemberDescriptionRemoveScriptsThis filter removes script tags from the editor content. Disable the filter if you want to insert script tags in the content.MakeUrlsAbsoluteThis filter makes all URLs in the editor content absolute (e.g. "http://server/page.html" instead of "page.html"). This filter is DISABLED by default.FixUlBoldItalicThis filter changes the deprecated u tag to a span with CSS style.IECleanAnchorsInternet Explorer only - This filter removes the current page url from all anchor(#) links to the same page.FixEnclosingPThis filter removes a parent paragraph tag if the whole content is inside it.MozEmStrongThis filter changes b to strong and i to em in Mozilla browsers.ConvertFontToSpanThis filter changes deprecated font tags to compliant span tags.ConvertToXhtmlThis filter converts the HTML from the editor content area to XHTML.IndentHTMLContentThis filter indents the HTML content so it is more readable when you view the code.OptimizeSpansThis filter tries to decrease the number of nested spans in the editor content.ConvertCharactersToEntitiesThis filter converts reserved characters to their html entity names.ConvertInlineStylesToAttributesThis filter converts XHTML compliant inline style attributes to Email compliant element attributes.DefaultFiltersThe default editor behavior. All content filters except MakeUrlsAbsolute are activated.
+                       MemberDescriptionRemoveScriptsThis filter removes script tags from the editor content. Disable the filter if you want to insert script tags in the content.MakeUrlsAbsoluteThis filter makes all URLs in the editor content absolute (e.g. "http://server/page.html" instead of "page.html"). This filter is DISABLED by default.FixUlBoldItalicThis filter changes the deprecated u tag to a span with CSS style.IECleanAnchorsInternet Explorer only - This filter removes the current page url from all anchor(#) links to the same page.FixEnclosingPThis filter removes a parent paragraph tag if the whole content is inside it.MozEmStrongThis filter changes b to strong and i to em in Mozilla browsers.ConvertFontToSpanThis filter changes deprecated font tags to compliant span tags.ConvertToXhtmlThis filter converts the HTML from the editor content area to XHTML.IndentHTMLContentThis filter indents the HTML content so it is more readable when you view the code.OptimizeSpansThis filter tries to decrease the number of nested spans in the editor content.ConvertCharactersToEntitiesThis filter converts reserved characters to their html entity names.ConvertInlineStylesToAttributesThis filter converts XHTML compliant inline style attributes to Email compliant element attributes.DefaultFiltersThe default editor behavior. All content filters except MakeUrlsAbsolute are activated.
 
 ###  CssClasses `EditorCssClassCollection`
 
@@ -87,7 +87,7 @@ The contents of this collection will override the default CSS classes
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CssFiles `EditorCssFileCollection`
@@ -119,14 +119,14 @@ A read-only property that returns the DialogOpener instance used in the editor c
 
 ###  DialogsCssFile `String`
 
-Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include
             more than one file, use the CSS @import url(); rule to add the other files from the first.
             This property is needed if you are using a custom skin. It allows you to include your custom skin
             CSS in the dialogs, which are separate from the main page.
 
 ###  DialogsScriptFile `String`
 
-Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include
             more than one file, you will need to combine the scripts into one first.
             This property is needed if want to override some of the default functionality without loading the dialog
             from an external ascx file.
@@ -244,7 +244,7 @@ Gets a reference to the  object that
                     allows you to set the export file properties
 
 #### Remarks
-Use the ExportSettings property to control the export file settings 
+Use the ExportSettings property to control the export file settings
                 This property is read-only;
                 however, you can set the properties of the EditorExportSettings object it returns.
                 The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadEditor
@@ -260,7 +260,7 @@ Gets or sets a value indicating where the editor will look for its dialogs.
 
 #### Remarks
 If specified, the ExternalDialogsPath
-            		property will allow you to customize and load the editor dialogs from normal ASCX files.
+                    property will allow you to customize and load the editor dialogs from normal ASCX files.
 
 ###  FindReplaceOverlay `FindReplaceMobile`
 
@@ -312,8 +312,8 @@ Gets or sets the height of the Web server control. The default height is 400 pix
 ###  Html `String`
 
 Gets or sets the text content of the RadEditor control inlcuding the HTML
-            	markup. The Html property is deprecated in RadEditor.
-            	Use Content instead.
+                   markup. The Html property is deprecated in RadEditor.
+                   Use Content instead.
 
 ###  ImageManager `ImageManagerDialogConfiguration`
 
@@ -325,7 +325,7 @@ Gets a reference to the  object that
                     allows you to set the import Rtf/Docx properties
 
 #### Remarks
-Use the ImportSettings property to control the import settings 
+Use the ImportSettings property to control the import settings
                 This property is read-only;
                 however, you can set the properties of the EditorImportSettings object it returns.
                 The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadEditor
@@ -380,12 +380,12 @@ The Localization property specifies the strings that appear in the runtime user 
 
 Gets or sets a value indicating where the editor will look for its .resx localization files.
             By default these files should be in the App_GlobalResources folder. However, if you cannot put
-            the resource files in the default location or .resx files compilation is disabled for some reason 
+            the resource files in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource files.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the editor localization files from any location in the 
+            property will allow you to load the editor localization files from any location in the
             web application.
 
 ###  MaxHtmlLength `Int32`
@@ -410,7 +410,7 @@ This property is obsolete. Please, use the NewLineMode property instead.
 
 #### Remarks
 Note: this property is intended for use only in Internet Explorer.
-            	The gecko-based browsers always insert <BR> tags.
+                The gecko-based browsers always insert <BR> tags.
 
 ###  NewLineMode `EditorNewLineModes`
 
@@ -418,11 +418,11 @@ Gets or sets the value indicating what element will be inserted when the [Enter]
 
 ###  OnClientCommandExecuted `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             after an editor command was executed.
 
 #### Remarks
-If specified, the OnClientCommandExecutedclient-side event handler that is called 
+If specified, the OnClientCommandExecutedclient-side event handler that is called
             when after an editor command was executed. Two parameters are passed to the handler:sender, the RadEditor object.args.
 
 ###  OnClientCommandExecuting `String`
@@ -662,7 +662,7 @@ Gets or sets a string containing the ID (will search for both server or client I
 #### Remarks
 This property helps significantly reduce the HTML markup and JSON sent from server to the
                 client when multiple RadEditor objects with the same tools are used on the same page.
-            	The ToolProviderID can be set to the ID of another RadEditor, or to a custom
+                   The ToolProviderID can be set to the ID of another RadEditor, or to a custom
                 control that implements two clientside methods get_toolHTML and get_toolJSON.
 
 ###  Tools `EditorToolGroupCollection`
@@ -674,13 +674,13 @@ Gets the collection containing RadEditor tools.
 Gets or sets a string containing the path to the XML toolbar configuration file.
 
 #### Remarks
-This property is provided for backwards compatibility. Please, use either 
-            	inline toolbar declaration or code-behind to configure the toolbars. To configure 
-            	multiple RadEditor controls with the same settings you could use either Theme, 
-            	UserControl with inline declaration, or CustomControl.
-            	Use "~" (tilde) as a substitution of the web-application's root
-            	directory.You can also provide this property with an absolute URL which returns a valid XML
-            	toolbar configuration file, e.g. http://MyServer/MyApplication/Tools/MyToolsFile.aspx
+This property is provided for backwards compatibility. Please, use either
+                inline toolbar declaration or code-behind to configure the toolbars. To configure
+                multiple RadEditor controls with the same settings you could use either Theme,
+                UserControl with inline declaration, or CustomControl.
+                Use "~" (tilde) as a substitution of the web-application's root
+                directory.You can also provide this property with an absolute URL which returns a valid XML
+                toolbar configuration file, e.g. http://MyServer/MyApplication/Tools/MyToolsFile.aspx
 
 ###  ToolsWidth `EditorToolGroupCollection`
 

@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadTimeView
 
 # Telerik.Web.UI.RadTimeView
 
-The RadTimeView control works only as a popup embedded in a Telerik.Web.UI.RadTimePicker or Telerik.Web.UI.RadDateTimePicker control. 
+The RadTimeView control works only as a popup embedded in a Telerik.Web.UI.RadTimePicker or Telerik.Web.UI.RadDateTimePicker control.
             The main reason to add a RadTimeView control from the toolbox to the Web page is when using it as a shared popup control.
 
 ## Inheritance Hierarchy
@@ -26,24 +26,24 @@ Gets or sets the access key.
 ###  AlternatingTimeStyle `TableItemStyle`
 
 Gets the style properties for alternating time sells in the
-            RadTimeView control.
+             RadTimeView control.
 
 #### Remarks
 Use the AlternatingTimeStyle property to provide a custom
-                style for the alternating time cells in the RadTimeView control.
-                Common style attributes that can be adjusted include foreground color, background
-                color, font, and content alignment within the cell. Providing a different style
-                enhances the appearance of the RadTimeView control.If you specify a red font for the TimeStyle property, all
-                other item style properties in the RadTimeView control will also
-                have a red font. This allows you to provide a common appearance for the control by
-                setting a single item style property. You can override the inherited style settings
-                for an item style property that is higher in the hierarchy by setting its style
-                properties. For example, you can specify a blue font for the
-                AlternatingTimeStyle property, overriding the red font specified
-                in the TimeStyle property.To specify a custom style for the alternating items, place the
-                <AlternatingTimeStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <AlternatingTimeStyle> tag.
+                 style for the alternating time cells in the RadTimeView control.
+                 Common style attributes that can be adjusted include foreground color, background
+                 color, font, and content alignment within the cell. Providing a different style
+                 enhances the appearance of the RadTimeView control.If you specify a red font for the TimeStyle property, all
+                 other item style properties in the RadTimeView control will also
+                 have a red font. This allows you to provide a common appearance for the control by
+                 setting a single item style property. You can override the inherited style settings
+                 for an item style property that is higher in the hierarchy by setting its style
+                 properties. For example, you can specify a blue font for the
+                 AlternatingTimeStyle property, overriding the red font specified
+                 in the TimeStyle property.To specify a custom style for the alternating items, place the
+                 <AlternatingTimeStyle> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the style attributes within
+                 the opening <AlternatingTimeStyle> tag.
 
 ###  AlternatingTimeTemplate `ITemplate`
 
@@ -51,13 +51,13 @@ Gets or sets the template for alternating time cells in the RadTimeView.
 
 #### Remarks
 Use the AlternatingTimeTemplate property to control the
-                contents of alternating items in the RadTimeView control. The
-                appearance of alternating time cells is controlled by the
-                AlternatingTimeStyle property.To specify a template for the alternating time cells, place the
-                <AlternatingTimeTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <AlternatingTimeTemplate>
-                tags.
+                 contents of alternating items in the RadTimeView control. The
+                 appearance of alternating time cells is controlled by the
+                 AlternatingTimeStyle property.To specify a template for the alternating time cells, place the
+                 <AlternatingTimeTemplate> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the contents of the
+                 template between the opening and closing <AlternatingTimeTemplate>
+                 tags.
 
 ###  BackColor `Color`
 
@@ -150,12 +150,12 @@ This property is overridden in order to support controls which implement INaming
 ###  Columns `Int32`
 
 Gets or sets the number of columns to display in the RadTimeView
-            control.
+             control.
 
 #### Remarks
 Use this property to specify the number of columns that display items in the
-            RadTimeView control. For example, if you set this property to 5, the
-            RadTimeView control displays its items in five columns.
+             RadTimeView control. For example, if you set this property to 5, the
+             RadTimeView control displays its items in five columns.
 
 ###  CssClass `String`
 
@@ -172,7 +172,7 @@ Use the CssClass property to specify the CSS class to render on the client
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -272,38 +272,38 @@ Use the Font property to specify the font properties of the
 ###  FooterStyle `TableItemStyle`
 
 Gets the style properties for the footer section of the
-            RadTimeView control.
+             RadTimeView control.
 
 #### Remarks
 Use this property to provide a custom style for the footer section of the
-                radTimeView control. Common style attributes that can be adjusted
-                include foreground color, background color, font, and content alignment within the
-                cell. Providing a different style enhances the appearance of the
-                RadTimeView control.The FooterStyle property of the RadTimeView
-                control inherits the style settings of the ControlStyle property. For example, if
-                you specify a red font for the ControlStyle property, the
-                FooterStyle property will also have a red font. This allows you to
-                provide a common appearance for the control by setting a single style property. You
-                can override the inherited style settings by setting the
-                FooterStyle property. For example, you can specify a blue font for
-                the FooterStyle property, overriding the red font specified in the
-                ControlStyle property.To specify a custom style for the footer section, place the
-                <FooterStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <FooterStyle> tag.Note: The ShowFooter property must be set
-                to true for this property to be visible.
+                 radTimeView control. Common style attributes that can be adjusted
+                 include foreground color, background color, font, and content alignment within the
+                 cell. Providing a different style enhances the appearance of the
+                 RadTimeView control.The FooterStyle property of the RadTimeView
+                 control inherits the style settings of the ControlStyle property. For example, if
+                 you specify a red font for the ControlStyle property, the
+                 FooterStyle property will also have a red font. This allows you to
+                 provide a common appearance for the control by setting a single style property. You
+                 can override the inherited style settings by setting the
+                 FooterStyle property. For example, you can specify a blue font for
+                 the FooterStyle property, overriding the red font specified in the
+                 ControlStyle property.To specify a custom style for the footer section, place the
+                 <FooterStyle> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the style attributes within
+                 the opening <FooterStyle> tag.Note: The ShowFooter property must be set
+                 to true for this property to be visible.
 
 ###  FooterTemplate `ITemplate`
 
 Gets or sets the template for the footer section of the
-            RadTimeView control.
+             RadTimeView control.
 
 #### Remarks
 To specify a template for the footer section, place the
-                <FooterTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <FooterTemplate> tags.The ShowFooter property must be set to true for this property to be
-                visible.
+                 <FooterTemplate> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the contents of the
+                 template between the opening and closing <FooterTemplate> tags.The ShowFooter property must be set to true for this property to be
+                 visible.
 
 ###  ForeColor `Color`
 
@@ -325,32 +325,32 @@ Gets or sets a value that specifies whether the border between the cells of the
 ###  HeaderStyle `TableItemStyle`
 
 Gets the style properties for the heading section of the
-            RadTimeView control.
+             RadTimeView control.
 
 #### Remarks
 Use this property to provide a custom style for the heading of the
-                RadTimeView control. Common style attributes that can be adjusted
-                include foreground color, background color, font, and content alignment within the
-                cell. Providing a different style enhances the appearance of the
-                RadTimeView control.To specify a custom style for the heading section, place the
-                <HeaderStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <HeaderStyle> tag.Note: The ShowHeader property must be set
-                to true for this property to be visible.
+                 RadTimeView control. Common style attributes that can be adjusted
+                 include foreground color, background color, font, and content alignment within the
+                 cell. Providing a different style enhances the appearance of the
+                 RadTimeView control.To specify a custom style for the heading section, place the
+                 <HeaderStyle> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the style attributes within
+                 the opening <HeaderStyle> tag.Note: The ShowHeader property must be set
+                 to true for this property to be visible.
 
 ###  HeaderTemplate `ITemplate`
 
 Gets or sets the template for the heading section of the RadTimeView
-            control.
+             control.
 
 #### Remarks
 Use the HeaderTemplate property to control the contents of
-                the heading section. The appearance of the header section is controlled by the
-                HeaderStyle property.To specify a template for the heading section, place the
-                <HeadingTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
-                visible.
+                 the heading section. The appearance of the header section is controlled by the
+                 HeaderStyle property.To specify a template for the heading section, place the
+                 <HeadingTemplate> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the contents of the
+                 template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
+                 visible.
 
 ###  HeaderText `String`
 
@@ -391,7 +391,7 @@ For internal use.
 ###  OnClientTimeSelected `String`
 
 Occurs on the client when an time sell in the RadTimeView
-            control is selected.
+             control is selected.
 
 ###  OnClientTimeSelecting `String`
 
@@ -429,24 +429,24 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 ###  ShowFooter `Boolean`
 
 Gets or sets a value indicating whether the footer section is displayed in
-                the RadTimeView control.
+                 the RadTimeView control.
 
 #### Remarks
 Use the ShowFooter property to specify whether the footer
-                section is displayed in the RadTimeView control.You can control the appearance of the footer section by setting the
-                FooterStyle property. The contents of the footer section are
-                controlled by the FooterTemplate property.
+                 section is displayed in the RadTimeView control.You can control the appearance of the footer section by setting the
+                 FooterStyle property. The contents of the footer section are
+                 controlled by the FooterTemplate property.
 
 ###  ShowHeader `Boolean`
 
 Gets or sets a value indicating whether the header section is displayed in the
-            RadTimeView control.
+             RadTimeView control.
 
 #### Remarks
 Use the ShowHeader property to specify whether the header
-                section is displayed in the RadTimeView control.You can control appearance of the header section by setting the
-                HeaderStyle property. The contents of the header section are
-                controlled by the HeaderTemplate property.
+                 section is displayed in the RadTimeView control.You can control appearance of the header section by setting the
+                 HeaderStyle property. The contents of the header section are
+                 controlled by the HeaderTemplate property.
 
 ###  Skin `String`
 
@@ -528,40 +528,40 @@ Gets the style applied to items
 ###  TimeStyle `TableItemStyle`
 
 Gets the style properties for the time cells in the RadTimeView
-            control.
+             control.
 
 #### Remarks
 Use this property to provide a custom style for the items of the
-                RadTimeView control. Common style attributes that can be adjusted
-                include foreground color, background color, font, and content alignment within the
-                cell. Providing a different style enhances the appearance of the
-                RadTimeView control.If you specify a red font for the TimeStyle property, all
-                other item style properties in the RadTimeView control will also
-                have a red font. This allows you to provide a common appearance for the control by
-                setting a single item style property. You can override the inherited style settings
-                for an item style property that is higher in the hierarchy by setting its style
-                properties. For example, you can specify a blue font for the
-                AlternatingTimeStyle property, overriding the red font specified
-                in the TimeStyle property.To specify a custom style for the items of the RadTimeView
-                control, place the <TimeStyle> tags between the opening and closing tags of
-                the RadTimeView control. You can then list the style attributes
-                within the opening <TimeStyle> tag.You can also use the AlternatingTimeStyle property to provide a different
-                appearance for the alternating items in the RadTimeView
-                control.
+                 RadTimeView control. Common style attributes that can be adjusted
+                 include foreground color, background color, font, and content alignment within the
+                 cell. Providing a different style enhances the appearance of the
+                 RadTimeView control.If you specify a red font for the TimeStyle property, all
+                 other item style properties in the RadTimeView control will also
+                 have a red font. This allows you to provide a common appearance for the control by
+                 setting a single item style property. You can override the inherited style settings
+                 for an item style property that is higher in the hierarchy by setting its style
+                 properties. For example, you can specify a blue font for the
+                 AlternatingTimeStyle property, overriding the red font specified
+                 in the TimeStyle property.To specify a custom style for the items of the RadTimeView
+                 control, place the <TimeStyle> tags between the opening and closing tags of
+                 the RadTimeView control. You can then list the style attributes
+                 within the opening <TimeStyle> tag.You can also use the AlternatingTimeStyle property to provide a different
+                 appearance for the alternating items in the RadTimeView
+                 control.
 
 ###  TimeTemplate `ITemplate`
 
 Gets or sets the template for the heading section of the RadTimeView
-            control.
+             control.
 
 #### Remarks
 Use the HeaderTemplate property to control the contents of
-                the heading section. The appearance of the header section is controlled by the
-                HeaderStyle property.To specify a template for the heading section, place the
-                <HeadingTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
-                visible.
+                 the heading section. The appearance of the header section is controlled by the
+                 HeaderStyle property.To specify a template for the heading section, place the
+                 <HeadingTemplate> tags between the opening and closing tags of the
+                 RadTimeView control. You can then list the contents of the
+                 template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
+                 visible.
 
 ###  ToolTip `String`
 

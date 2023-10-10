@@ -6,9 +6,9 @@ description: Telerik.Web.UI.RadTimePicker
 
 # Telerik.Web.UI.RadTimePicker
 
-A Telerik.Web.UI.RadDateInput control in time only mode with an integrated 
-            Telerik.Web.UI.RadTimeView control to let users enter a time directly in the 
-            input area or select it from the popup time view control. The values of the 
+A Telerik.Web.UI.RadDateInput control in time only mode with an integrated
+            Telerik.Web.UI.RadTimeView control to let users enter a time directly in the
+            input area or select it from the popup time view control. The values of the
             two controls are synchronized to allow further change of the chosen time.
 
 ## Inheritance Hierarchy
@@ -28,7 +28,7 @@ A Telerik.Web.UI.RadDateInput control in time only mode with an integrated
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make RadTimePicker postback to the server 
+Setting this property to true will make RadTimePicker postback to the server
             on time selection through the TimeView or the DateInput components.
 
 ###  AutoPostBack `Boolean`
@@ -46,7 +46,7 @@ Setting this property to true will make RadDateTimePicker postback to the server
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make RadDatePicker postback to the server 
+Setting this property to true will make RadDatePicker postback to the server
             on date selection through the Calendar or the DateInput components.
 
 ###  AutoPostBackControl `Boolean`
@@ -85,7 +85,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -103,7 +103,7 @@ Gets the RadDateInput instance of the datepicker control.
 
 ###  DatePopupButton `CalendarPopupButton`
 
-Gets the DatePopupButton instance of the datepicker control.  
+Gets the DatePopupButton instance of the datepicker control.
             You can use the object to customize the popup button's appearance and behavior.
 
 ###  DbSelectedDate `Object`
@@ -111,7 +111,7 @@ Gets the DatePopupButton instance of the datepicker control.
 Gets or sets the date content of RadTimePicker in a database friendly way.
 
 #### Remarks
-This property behaves similar to SelectedDate property or to SelectedTime property, 
+This property behaves similar to SelectedDate property or to SelectedTime property,
             depending on UseTimeSpanForBinding is se to true or false.
             Setting a null value will internally revert the SelectedDate to the null value, i.e. the input value will be empty.
 
@@ -272,12 +272,12 @@ For internal use.
 
 Gets or sets a value indicating where RadDatePicker will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MaxDate `DateTime`

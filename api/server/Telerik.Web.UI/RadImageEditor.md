@@ -42,7 +42,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CurrentImageKey `String`
@@ -103,7 +103,7 @@ Gets or sets a value indicating where the image editor will look for its dialogs
 
 #### Remarks
 If specified, the ExternalDialogsPath
-            		property will allow you to customize and load the image editor dialogs from normal ASCX files.
+                    property will allow you to customize and load the image editor dialogs from normal ASCX files.
 
 ###  Height `Unit`
 
@@ -115,16 +115,16 @@ Specifies the URL of the HTTPHandler that serves the cached image.
 
 #### Remarks
 The HTTPHandler should either be registered in the application configuration
-            		file, or a file with the specified name should exist at the location, which
-            		HttpHandlerUrl points to.
-            	
-            		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
+                       file, or a file with the specified name should exist at the location, which
+                       HttpHandlerUrl points to.
+                   
+                       If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
 
 ###  ImageCacheStorageLocation `ImageStorage`
 
 Specifies where the cached imaged from the operation will be stored
-            When the image is stored in the session the HttpHandler 
-            definition (in the web.config file) must be changed from type="Telerik.Web.UI.WebResource" to 
+            When the image is stored in the session the HttpHandler
+            definition (in the web.config file) must be changed from type="Telerik.Web.UI.WebResource" to
             type="Telerik.Web.UI.WebResourceSession" so that the image can be retrieved from the Session.
 
 ###  ImageManager `ImageManagerConfiguration`
@@ -159,12 +159,12 @@ The Localization property specifies the strings that appear in the runtime user 
 
 Gets or sets a value indicating where the image editor will look for its .resx localization files.
             By default these files should be in the App_GlobalResources folder. However, if you cannot put
-            the resource files in the default location or .resx files compilation is disabled for some reason 
+            the resource files in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource files.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the image editor localization files from any location in the 
+            property will allow you to load the image editor localization files from any location in the
             web application.
 
 ###  LowerZoomBound `Int32`
@@ -179,7 +179,7 @@ The name of the javascript function called when a command is fired on the RadIma
 
 ###  OnClientCommandExecuting `String`
 
-The name of the javascript function called when a command is firing on the RadImageEditor. 
+The name of the javascript function called when a command is firing on the RadImageEditor.
             This event is triggered when the ImageEditor's ToolBar buttons are clicked or the RadImageEditor.fire(commandName) method is invoked.
             The event can be canceled.
 
@@ -193,7 +193,7 @@ The name of the javascript function called after a change is applied on the imag
 
 ###  OnClientImageChanging `String`
 
-The name of the javascript function called before a change is applied on the image edited. 
+The name of the javascript function called before a change is applied on the image edited.
             The event can be canceled.
 
 ###  OnClientImageLoad `String`
@@ -299,8 +299,8 @@ Gets or sets a string containing the path to the XML toolbar configuration file.
 
 #### Remarks
 Use "~" (tilde) as a substitution of the web-application's root
-            	directory.You can also provide this property with an absolute URL which returns a valid XML
-            	toolbar configuration file, e.g. http://MyServer/MyApplication/Tools/MyToolsFile.aspx
+                directory.You can also provide this property with an absolute URL which returns a valid XML
+                toolbar configuration file, e.g. http://MyServer/MyApplication/Tools/MyToolsFile.aspx
 
 ###  ToolsLoadPanelType `ImageEditorToolGroupCollection`
 

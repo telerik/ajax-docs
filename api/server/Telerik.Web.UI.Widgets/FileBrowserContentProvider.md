@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Widgets.FileBrowserContentProvider
 
 # Telerik.Web.UI.Widgets.FileBrowserContentProvider
 
-Provides storage independent mechanism for uploading files and 
+Provides storage independent mechanism for uploading files and
             populating the content of the FileBrowser dialog controls.
 
 ## Inheritance Hierarchy
@@ -18,7 +18,7 @@ Provides storage independent mechanism for uploading files and
 
 ###  CanCreateDirectory `Boolean`
 
-Gets a value indicating whether the ContentProvider can create directory items or not. The visibility of the 
+Gets a value indicating whether the ContentProvider can create directory items or not. The visibility of the
             Create New Directory icon is controlled by the value of this property.
 
 ###  Context `HttpContext`
@@ -27,8 +27,8 @@ The HttpContext object, set in the constructor of the class.
 
 ###  DeletePaths `String[]`
 
-The paths which will allow deleting in the dialog. This is passed by RadEditor and is 
-            one of the values of DeleteImagesPaths, DeleteDocumentsPaths, DeleteMediaPaths, DeleteFlashPaths, 
+The paths which will allow deleting in the dialog. This is passed by RadEditor and is
+            one of the values of DeleteImagesPaths, DeleteDocumentsPaths, DeleteMediaPaths, DeleteFlashPaths,
             DeleteTemplatesPaths properties. You can disregard this value if you have custom mechanism for determining the rights
             for deleting.
 
@@ -54,16 +54,16 @@ Gets or sets the url of the selected item. The file browser will navigate to the
 
 ###  UploadPaths `String[]`
 
-Gets the paths which will allow uploading in the dialog. This is passed by RadEditor and is 
-            one of the values of UploadImagesPaths, UploadDocumentsPaths, UploadMediaPaths, UploadFlashPaths, 
+Gets the paths which will allow uploading in the dialog. This is passed by RadEditor and is
+            one of the values of UploadImagesPaths, UploadDocumentsPaths, UploadMediaPaths, UploadFlashPaths,
             UploadTemplatesPaths properties. You can disregard this value if you have custom mechanism for determining the rights
             for uploading.
 
 ###  ViewPaths `String[]`
 
-Gets the paths which will be displayed in the dialog. This is passed by RadEditor and is 
-            one of the values of ImagesPaths, DocumentsPaths, MediaPaths, FlashPaths, TemplatesPaths properties. 
-            You can disregard this value if you have custom mechanism for determining the rights for 
+Gets the paths which will be displayed in the dialog. This is passed by RadEditor and is
+            one of the values of ImagesPaths, DocumentsPaths, MediaPaths, FlashPaths, TemplatesPaths properties.
+            You can disregard this value if you have custom mechanism for determining the rights for
             directory / file displaying.
 
 ## Methods

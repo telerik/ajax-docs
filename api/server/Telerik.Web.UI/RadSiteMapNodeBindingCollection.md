@@ -6,8 +6,8 @@ description: Telerik.Web.UI.RadSiteMapNodeBindingCollection
 
 # Telerik.Web.UI.RadSiteMapNodeBindingCollection
 
-Defines the relationship between a data item and the RadSiteMap node it is binding to in a 
-            	Telerik.Web.UI.RadSiteMap RadSiteMapcontrol.
+Defines the relationship between a data item and the RadSiteMap node it is binding to in a
+                   Telerik.Web.UI.RadSiteMap RadSiteMapcontrol.
 
 ## Inheritance Hierarchy
 
@@ -21,8 +21,8 @@ Defines the relationship between a data item and the RadSiteMap node it is bindi
 
 ###  Item `RadSiteMapNodeBinding`
 
-Gets the  object at the specified index in 
-            	the current .
+Gets the  object at the specified index in
+                   the current .
 
 ###  Item `ItemType`
 

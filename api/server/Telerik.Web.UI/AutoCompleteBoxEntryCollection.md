@@ -23,8 +23,8 @@ Gets the IsReadOnly.
 
 ###  Item `TItem`
 
-Gets the CollectionItem at the specified index in 
-            	the current collection.
+Gets the CollectionItem at the specified index in
+                   the current collection.
 
 ## Methods
 

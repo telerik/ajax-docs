@@ -48,7 +48,7 @@ Gets the type of the command determining if the current operation
 
 ###  Execute
 
-Executes the command and depending on the  
+Executes the command and depending on the 
             and  properties it performs different operations.
 
 #### Returns

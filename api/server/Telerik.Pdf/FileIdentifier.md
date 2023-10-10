@@ -7,13 +7,13 @@ description: Telerik.Pdf.FileIdentifier
 # Telerik.Pdf.FileIdentifier
 
 A File Identifier is described in section 8.3 of the PDF specification.
-                The first string is a permanent identifier based on the contents of the file 
-                at the time it was originally created, and does not change as the file is 
-                incrementally updated.  The second string is a changing identifier based 
+                The first string is a permanent identifier based on the contents of the file
+                at the time it was originally created, and does not change as the file is
+                incrementally updated.  The second string is a changing identifier based
                 on the file's contents the last time it was updated.
 
 #### Remarks
-If this class were being use to update a PDF's file identifier, we'd need 
+If this class were being use to update a PDF's file identifier, we'd need
                 to add a method to parse an existing file identifier.
 
 ## Inheritance Hierarchy

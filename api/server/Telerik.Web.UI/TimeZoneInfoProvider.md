@@ -6,7 +6,7 @@ description: Telerik.Web.UI.TimeZoneInfoProvider
 
 # Telerik.Web.UI.TimeZoneInfoProvider
 
-This Class defines the TimeZoneInfoProvider that 
+This Class defines the TimeZoneInfoProvider that
             implements the TimeZoneProviderBase and IDisposable.
 
 ## Inheritance Hierarchy

@@ -36,7 +36,7 @@ A string specifying the name (without the extension) of the file that will be
 
 ###  HideNonDataBoundColumns `Boolean`
 
-Determines whether the Action columns 
+Determines whether the Action columns
             (Select, Edit, Delete, Button) will be exported.
 
 ###  HideStructureColumns `Boolean`

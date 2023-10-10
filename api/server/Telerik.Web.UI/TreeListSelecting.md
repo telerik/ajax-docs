@@ -33,6 +33,6 @@ Gets or sets a value indicating whether clicking an item in RadTreeList will
 
 ###  UseSelectColumnOnly `Boolean`
 
-Gets or sets a boolean value indicating whether selection will be 
+Gets or sets a boolean value indicating whether selection will be
             performed only using the .
 

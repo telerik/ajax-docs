@@ -72,7 +72,7 @@ Gets a  object that represents
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -175,7 +175,7 @@ Determines whether the Screen Boundaries Detection is enabled or not.
 
 ###  Entries `DropDownTreeEntryCollection`
 
-Gets the RadDropDownTree 
+Gets the RadDropDownTree
                 entries collection.
 
 ###  EntriesDelimiter `DropDownTreeEntryCollection`
@@ -207,7 +207,7 @@ Used to customize filtering of the RadDropDownTree.
 
 ###  Footer `WebControl`
 
-Get a footer of 
+Get a footer of
             RadDropDownTree.
 
 ###  FooterTemplate `ITemplate`
@@ -220,7 +220,7 @@ Gets or sets a value indicating the delimiter in FullPath text mode.
 
 ###  Header `WebControl`
 
-Get a header of 
+Get a header of
             RadDropDownTree.
 
 ###  HeaderTemplate `ITemplate`
@@ -267,31 +267,31 @@ The event handler receives two parameter: the instance of the DropDownTree
 ###  OnClientDropDownClosing `String`
 
 The client-side event that is fired before the dropdown of the DropDownTree is
-            closed.
+             closed.
 
 #### Remarks
 The event handler receives two parameter: the instance of the DropDownTree
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the DropDownTree dropdown will not be closed.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the DropDownTree dropdown will not be closed.
 
 ###  OnClientDropDownOpened `String`
 
 The client-side event that is fired after the dropdown of the DropDownTree is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the DropDownTree
-            client-side object and event args. The event cannot  be cancelled.
+             client-side object and event args. The event cannot  be cancelled.
 
 ###  OnClientDropDownOpening `String`
 
 The client-side event that is fired before the dropdown of the DropDownTree is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the DropDownTree
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the DropDownTree dropdown will not be opened.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the DropDownTree dropdown will not be opened.
 
 ###  OnClientEntryAdded `String`
 
@@ -359,7 +359,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SupportsDisabledAttribute `Boolean`
 

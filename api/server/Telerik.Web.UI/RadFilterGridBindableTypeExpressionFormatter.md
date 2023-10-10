@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterGridBindableTypeExpressionFormatter
 
 # Telerik.Web.UI.RadFilterGridBindableTypeExpressionFormatter
 
-Represents a formatter that creates a string representation of a filter expression 
+Represents a formatter that creates a string representation of a filter expression
             using the passed field name and data type. The expression is useful when Telerik.Web.UI.RadGrid is pointed as a filter container.
 
 ## Inheritance Hierarchy
@@ -18,7 +18,7 @@ Represents a formatter that creates a string representation of a filter expressi
 
 ###  FormatFieldName
 
-Creates a formatted string using the respective syntax that is populated with the 
+Creates a formatted string using the respective syntax that is populated with the
             provided field name and data type parameters.
 
 #### Parameters

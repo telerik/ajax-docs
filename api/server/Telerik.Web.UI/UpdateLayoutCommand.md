@@ -28,7 +28,7 @@ Gets the owner pivot grid.
 ###  Type `UpdateLayoutCommandType`
 
 Gets the type of the command which determines
-            what operation will be made on 
+            what operation will be made on
             .
 
 ## Methods

@@ -39,7 +39,7 @@ Gets or sets the original data source object that the current treelist item is b
 
 ###  DataItemIndex `TableCell`
 
-Gets an integer value indicating the index of the current 
+Gets an integer value indicating the index of the current
             item's corresponding record inside the treelist datasource.
 
 ###  DetailItem `TableCell`
@@ -48,7 +48,7 @@ Gets a reference to the TreeListDetailTemplate item corresponding to the current
 
 ###  DisplayIndex `Int32`
 
-Gets an integer value indicating the index of the current 
+Gets an integer value indicating the index of the current
             item in the treelist, regardless of the items hierarchy.
 
 ###  Edit `Boolean`
@@ -62,7 +62,7 @@ Gets or sets a value indicating whether the current item should be edited.
 ###  EditFormItem `Boolean`
 
 Gets the  instance that is used to edit values from the
-            current  when the current item is in edit mode 
+            current  when the current item is in edit mode
             and  is set to .
 
 ###  Expanded `Boolean`
@@ -71,12 +71,12 @@ Gets a boolean value indicating whether the item is expanded.
 
 ###  HierarchyIndex `TreeListHierarchyIndex`
 
-Gets an object of type  
+Gets an object of type 
             representing the nested level and level index of the item.
 
 ###  InsertItem `TreeListEditableItem`
 
-Gets the  instance that is used to insert 
+Gets the  instance that is used to insert
             a new data item as a child of the current .
 
 ###  IsChildInserted `Boolean`
@@ -141,7 +141,7 @@ This dictionary to fill, this parameter should not be null
 
 ###  FireCommandEvent
 
-Use this method to simulate item command event that bubbles to 
+Use this method to simulate item command event that bubbles to
              and can be handled automatically or in a
             custom manner, handling .ItemCommand event.
 

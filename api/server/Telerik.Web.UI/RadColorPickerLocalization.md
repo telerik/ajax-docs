@@ -74,7 +74,7 @@ Gets or sets the text for the Recent Colors label.
 
 ###  RGBSlidersDecreaseText `String`
 
-Gets or sets the text for the decrease handle of the RGB Slider. 
+Gets or sets the text for the decrease handle of the RGB Slider.
             (This property is added for complete localization of the slider control. By default it is not used.)
 
 ###  RGBSlidersDragText `String`
@@ -83,7 +83,7 @@ Gets or sets the text for the drag handle of the RGB Slider.
 
 ###  RGBSlidersIncreaseText `String`
 
-Gets or sets the text for the increase handle of the RGB Slider. 
+Gets or sets the text for the increase handle of the RGB Slider.
             (This property is added for complete localization of the slider control. By default it is not used.)
 
 ###  RGBSlidersTabText `String`

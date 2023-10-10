@@ -23,7 +23,7 @@ Calculates the results of given aggregates functions on a sequence of elements.
 
 #### source `System.Linq.IQueryable`
 
-An  whose elements will 
+An  whose elements will
             be used for aggregate calculation.
 
 #### aggregateFunctions `System.Collections.Generic.IEnumerable{Telerik.Web.Data.AggregateFunction}`
@@ -42,7 +42,7 @@ Calculates the results of a given aggregate function on a sequence of elements.
 
 #### source `System.Linq.IQueryable`
 
-An  whose elements will 
+An  whose elements will
             be used for aggregate calculation.
 
 #### aggregateFunction `Telerik.Web.Data.AggregateFunction`
@@ -101,7 +101,7 @@ A function to extract the key for each element.
 
 #### Returns
 
-`System.Linq.IQueryable` An  with  items, 
+`System.Linq.IQueryable` An  with  items,
             whose elements contains a sequence of objects and a key.
 
 ###  GroupBy
@@ -120,7 +120,7 @@ The group descriptors used for grouping.
 
 #### Returns
 
-`System.Linq.IQueryable` An  with  items, 
+`System.Linq.IQueryable` An  with  items,
             whose elements contains a sequence of objects and a key.
 
 ###  OrderBy
@@ -143,7 +143,7 @@ A function to extract a key from an element.
 
 ###  OrderBy
 
-Calls  
+Calls 
             or  depending on the .
 
 #### Parameters
@@ -198,12 +198,12 @@ A projection function to apply to each element.
 
 #### Returns
 
-`System.Linq.IQueryable` An  whose elements are the result of invoking a 
+`System.Linq.IQueryable` An  whose elements are the result of invoking a
             projection selector on each element of .
 
 ###  Skip
 
-Bypasses a specified number of elements in a sequence 
+Bypasses a specified number of elements in a sequence
             and then returns the remaining elements.
 
 #### Parameters
@@ -218,7 +218,7 @@ The number of elements to skip before returning the remaining elements.
 
 #### Returns
 
-`System.Linq.IQueryable` An  that contains elements that occur 
+`System.Linq.IQueryable` An  that contains elements that occur
             after the specified index in the input sequence.
 
 ###  Sort
@@ -255,7 +255,7 @@ The number of elements to return.
 
 #### Returns
 
-`System.Linq.IQueryable` An  that contains the specified number 
+`System.Linq.IQueryable` An  that contains the specified number
             of elements from the start of .
 
 ###  ToIList
@@ -288,7 +288,7 @@ A function to test each element for a condition.
 
 #### Returns
 
-`System.Linq.IQueryable` An  that contains elements from the input sequence 
+`System.Linq.IQueryable` An  that contains elements from the input sequence
             that satisfy the condition specified by .
 
 ###  Where
@@ -307,6 +307,6 @@ The filter descriptors.
 
 #### Returns
 
-`System.Linq.IQueryable` An  that contains elements from the input sequence 
+`System.Linq.IQueryable` An  that contains elements from the input sequence
             that satisfy the conditions specified by each filter descriptor in .
 

@@ -30,7 +30,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DockedPaneId `String`
@@ -84,11 +84,11 @@ For internal use.
 ###  Items `SplitterItemsCollection`
 
 Gets the collection of child items in the RadSplitter
-            control.
+             control.
 
 #### Remarks
 Use this property to retrieve the child items of the RadSplitter
-            control. You can also use it to programmatically add or remove items.
+             control. You can also use it to programmatically add or remove items.
 
 ###  OnClientLoad `String`
 

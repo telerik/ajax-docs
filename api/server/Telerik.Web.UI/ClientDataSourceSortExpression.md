@@ -6,7 +6,7 @@ description: Telerik.Web.UI.ClientDataSourceSortExpression
 
 # Telerik.Web.UI.ClientDataSourceSortExpression
 
-This class is responsible for getting the sort 
+This class is responsible for getting the sort
             expression entries from the SortEntryCollection.
 
 ## Inheritance Hierarchy

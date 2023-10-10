@@ -25,8 +25,8 @@ Telerik RadWindowManager
 This property allows to specify the HTML for the RadAlert popup
 
 #### Remarks
-Fore more information see this KB article: 
-            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+Fore more information see this KB article:
+            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  Animation `WindowAnimation`
 
@@ -55,7 +55,7 @@ This property is obsolete. Please use Behaviors instead.
 ###  Behaviors `WindowBehaviors`
 
 Gets or sets a value indicating the allowed behaviors of this RadWindow/RadWindowManager - if resizing, maximizing, minimizing, etc. is available.
-            Each behavior is added to a comma separated list in the markup and with a logical OR statement in the code-behind.
+             Each behavior is added to a comma separated list in the markup and with a logical OR statement in the code-behind.
 
 ###  CenterIfModal `Boolean`
 
@@ -66,7 +66,7 @@ Gets or sets a value indicating whether a modal RadWindow, should be centered au
 Gets or sets the client callback function that will be called when a window
             dialog is being closed.
             This property is obsolete. Please use OnclientClose instead. For more information
-            visit https://www.telerik.com/help/aspnet-ajax/window-programming-using-radwindow-as-dialog.html
+            visit http://www.telerik.com/help/aspnet-ajax/window-programming-using-radwindow-as-dialog.html
 
 ###  ClientIDMode `ClientIDMode`
 
@@ -78,12 +78,12 @@ This property is overridden in order to support controls which implement INaming
 This property allows to specify the HTML for the RadConfirm popup
 
 #### Remarks
-Fore more information see this KB article: 
-            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+Fore more information see this KB article:
+            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DestroyOnClose `Boolean`
@@ -153,7 +153,7 @@ Gets or sets a value indicating the initial behavior of the RadWindow - most use
 
 #### Remarks
 For more information see this help article:
-            https://www.telerik.com/help/aspnet-ajax/window-behavior-initial-window-state.html
+            http://www.telerik.com/help/aspnet-ajax/window-behavior-initial-window-state.html
 
 ###  IsSkinSet `String`
 
@@ -223,11 +223,11 @@ Gets or sets the name of the client-side JavaScript function that executes when 
 
 ###  OnClientBeforeClose `String`
 
-Gets or sets the name of the client-side JavaScript function that is called 
+Gets or sets the name of the client-side JavaScript function that is called
             just before the RadWindow is closed. The event can be canceled.
 
 #### Remarks
-If specified, the OnClientClosingclient-side event handler that is called 
+If specified, the OnClientClosingclient-side event handler that is called
             just before the window is hidden. Two parameters are passed to the handler:sender, the RadWindow object.args.This event can be canceled.
 
 ###  OnClientBeforeShow `String`
@@ -236,7 +236,7 @@ Gets or sets the name of the client-side JavaScript function that is called
             just before the RadWindow is shown. The event can be canceled.
 
 #### Remarks
-If specified, the OnClientBeforeShowclient-side event handler that is called 
+If specified, the OnClientBeforeShowclient-side event handler that is called
             just before the window is shown. Two parameters are passed to the handler:sender, the RadWindow object.args, an event arguments object.This event can be canceled.
 
 ###  OnClientClose `String`
@@ -244,7 +244,7 @@ If specified, the OnClientBeforeShowclient-side event handler that is called
 Gets or sets the name of the client-side JavaScript function that is called when the RadWindow is closed.
 
 #### Remarks
-If specified, the OnClientCloseclient-side event handler that is called 
+If specified, the OnClientCloseclient-side event handler that is called
             after the window is hidden. Two parameters are passed to the handler:sender, the RadWindow object.args.This event cannot be canceled.
 
 ###  OnClientCommand `String`
@@ -261,11 +261,11 @@ Gets or sets the name of the client-side JavaScript function that executes when 
 
 ###  OnClientPageLoad `String`
 
-Gets or sets the name of the client-side JavaScript function that is called 
+Gets or sets the name of the client-side JavaScript function that is called
             when the page inside the RadWindow object completes loading.
 
 #### Remarks
-If specified, the OnClientPageLoadclient-side event handler that is called 
+If specified, the OnClientPageLoadclient-side event handler that is called
             when the page inside the RadWindow object completes loading. Two parameters are passed to the handler:sender, the RadWindow object.args, an event arguments object.
 
 ###  OnClientResize `String`
@@ -306,8 +306,8 @@ Gets or sets a value indicating whether the RadWindow objects' state (size, loca
 This property allows to specify the HTML for the RadPrompt popup
 
 #### Remarks
-Fore more information see this KB article: 
-            https://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
+Fore more information see this KB article:
+            http://www.telerik.com/support/kb/aspnet-ajax/window/change-the-templates-of-the-predefined-dialogs-radalert-radconfirm-and-radprompt.aspx.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -318,7 +318,7 @@ If RegisterWithScriptManager is set to false the control can be rendered on the 
 
 ###  ReloadOnShow `Boolean`
 
-Gets or sets a value indicating whether the page that is loaded in the RadWindow should be loaded every time from the server or 
+Gets or sets a value indicating whether the page that is loaded in the RadWindow should be loaded every time from the server or
             will leave the browser default behavior.
 
 ###  RenderMode `RenderMode`
@@ -390,7 +390,7 @@ Gets or sets a value indicating whether the RadWindow will open automatically wh
 
 #### Remarks
 Also applies for AJAX requests. For showing a RadWindow once from the server examine this help article:
-            https://www.telerik.com/help/aspnet-ajax/radwindow-troubleshooting-opening-from-server.html
+            http://www.telerik.com/help/aspnet-ajax/radwindow-troubleshooting-opening-from-server.html
 
 ###  VisibleStatusbar `Boolean`
 
@@ -533,7 +533,7 @@ The URL to the new image that will appear on the left side of the dialog.
 Shows a RadConfirm dialog when the page is loaded on the client.
 
 #### Remarks
-For more information see the following help article: https://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
+For more information see the following help article: http://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
 
 #### Parameters
 
@@ -571,7 +571,7 @@ The title of the dialog.
 Shows a RadConfirm dialog when the page is loaded on the client.
 
 #### Remarks
-For more information see the following help article: https://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
+For more information see the following help article: http://www.telerik.com/help/aspnet-ajax/window-dialogs-confirm.html.
 
 #### Parameters
 

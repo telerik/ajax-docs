@@ -17,7 +17,7 @@ A class used to provide information about reordered columns.
 
 ###  OldOrderIndex `Int32`
 
-Gets an integer value corresponding to the old OrderIndex property 
+Gets an integer value corresponding to the old OrderIndex property
             value of the reordered column.
 
 ###  TreeListColumn `TreeListColumn`

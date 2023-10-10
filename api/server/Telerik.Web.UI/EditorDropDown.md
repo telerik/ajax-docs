@@ -58,7 +58,7 @@ Gets or sets a value indicating whether the tool text should be displayed.
 
 ###  Text `String`
 
-Gets or sets the title of the . The default ToolAdapter will 
+Gets or sets the title of the . The default ToolAdapter will
             render the value of this property as a tooltip or static text near the
             tool icon.
 

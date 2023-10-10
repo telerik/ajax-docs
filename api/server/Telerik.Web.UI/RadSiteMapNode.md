@@ -10,19 +10,19 @@ Represents a node in the Telerik.Web.UI.RadSiteMap RadSiteMapcontrol.
 
 #### Remarks
 The Telerik.Web.UI.RadSiteMap RadSiteMapcontrol is made up of nodes. Nodes which are immediate children
-            		of the control are root nodes. Nodes which are children of other nodes are child nodes.
-            	A node usually stores data in two properties, the P:Telerik.Web.UI.RadSiteMapNode.Text Textproperty and 
-            		the P:Telerik.Web.UI.RadSiteMapNode.NavigateUrl NavigateUrlproperty.
-            	To create nodes, use one of the following methods:bullet Data bind the RadSiteMapcontrol to a data source,
-            			for example System.Web.UI.WebControls.SiteMapDataSource SiteMapDataSource.
-            		Use declarative syntax to define nodes inline in your page or user control.
-            		Use one of the constructors to dynamically create new instances of the
-            			Telerik.Web.UI.RadSiteMap RadSiteMapclass. These nodes can then be added to the
-            			Nodescollection of another node or site map.
-            		When the user clicks a node, the RadSiteMapcontrol navigates
+                       of the control are root nodes. Nodes which are children of other nodes are child nodes.
+                   A node usually stores data in two properties, the P:Telerik.Web.UI.RadSiteMapNode.Text Textproperty and
+                       the P:Telerik.Web.UI.RadSiteMapNode.NavigateUrl NavigateUrlproperty.
+                   To create nodes, use one of the following methods:bullet Data bind the RadSiteMapcontrol to a data source,
+                           for example System.Web.UI.WebControls.SiteMapDataSource SiteMapDataSource.
+                       Use declarative syntax to define nodes inline in your page or user control.
+                       Use one of the constructors to dynamically create new instances of the
+                           Telerik.Web.UI.RadSiteMap RadSiteMapclass. These nodes can then be added to the
+                           Nodescollection of another node or site map.
+                       When the user clicks a node, the RadSiteMapcontrol navigates
                     to the linked Web page. By default, a linked page
-                    is displayed in the same window or frame. To display the linked content in a different 
-            		window or frame, use the P:Telerik.Web.UI.RadSiteMapNode.Target Targetproperty.
+                    is displayed in the same window or frame. To display the linked content in a different
+                       window or frame, use the P:Telerik.Web.UI.RadSiteMapNode.Target Targetproperty.
 
 ## Inheritance Hierarchy
 
@@ -71,7 +71,7 @@ By default the visual appearance of disabled nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is disabled.
 
 #### Remarks
-If the DisabledImageUrl property is not set the ImageUrl property will be 
+If the DisabledImageUrl property is not set the ImageUrl property will be
             used when the node is disabled.
 
 ###  Enabled `Boolean`
@@ -95,7 +95,7 @@ By default the visual appearance of hovered nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is hovered with the mouse.
 
 #### Remarks
-If the HoveredImageUrl property is not set the ImageUrl property will be 
+If the HoveredImageUrl property is not set the ImageUrl property will be
             used when the node is hovered.
 
 ###  ID `String`
@@ -110,7 +110,7 @@ Gets or sets the URL to an image which is displayed next to the text of a node.
 
 #### Remarks
 Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current node.
+                   displayed before the text of the current node.
 
 ###  Index `Int32`
 
@@ -130,7 +130,7 @@ Gets a  object that contains the child nodes of the current RadSiteMapNode.
 
 #### Remarks
 Use the Nodes property to access the child nodes of the RadSiteMapNode. You can also use the Nodes property to
-            	manage the child nodes - you can add, remove or modify nodes.
+                   manage the child nodes - you can add, remove or modify nodes.
 
 ###  NodeTemplate `ITemplate`
 
@@ -166,7 +166,7 @@ By default the visual appearance of selected nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is selected.
 
 #### Remarks
-If the SelectedImageUrl property is not set the ImageUrl property will be 
+If the SelectedImageUrl property is not set the ImageUrl property will be
             used when the node is selected.
 
 ###  SeparatorTemplate `ITemplate`
@@ -182,15 +182,15 @@ Gets the  which this node belongs to.
 Gets or sets the target window or frame in which to display the Web page content associated with the current node.
 
 #### Remarks
-Use the Target property to target window or frame in which to display the 
-            		Web page content associated with the current node. The Web page is specified by
+Use the Target property to target window or frame in which to display the
+                       Web page content associated with the current node. The Web page is specified by
                     the NavigateUrl property.
                 
-            		If this property is not set, the Web page specified by the
-            		NavigateUrl property is loaded in the current window.
-            	
-            		The Target property is taken into consideration only when the NavigateUrl 
-            		property is set.
+                       If this property is not set, the Web page specified by the
+                       NavigateUrl property is loaded in the current window.
+                   
+                       The Target property is taken into consideration only when the NavigateUrl
+                       property is set.
 
 ###  Text `String`
 
@@ -198,7 +198,7 @@ Gets or sets the text displayed for the current node.
 
 #### Remarks
 Use the Text property to specify or determine the text that is displayed for the node
-            	in the RadSiteMap control.
+                   in the RadSiteMap control.
 
 ###  ToolTip `String`
 

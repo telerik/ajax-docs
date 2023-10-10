@@ -11,7 +11,7 @@ A collection of Telerik.Web.UI.RadMenuItem RadMenuItemobjects in a
 
 #### Remarks
 The RadMenuItemCollectionclass represents a collection of
-                RadMenuItemobjects. The RadMenuItemobjects in turn represent 
+                RadMenuItemobjects. The RadMenuItemobjects in turn represent
                 menu items within a RadMenucontrol.bullet Use the P:Telerik.Web.UI.RadMenuItemCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadMenuItem from the collection, using array notation.
                     Use the Countproperty to determine the total
@@ -31,8 +31,8 @@ The RadMenuItemCollectionclass represents a collection of
 
 ###  Item `RadMenuItem`
 
-Gets the  object at the specified index in 
-            	the current .
+Gets the  object at the specified index in
+                   the current .
 
 ## Methods
 
@@ -52,7 +52,7 @@ The  to append to the end of the current .
 
 ###  AddRange
 
-Appends the specified array of  objects to the end of the 
+Appends the specified array of  objects to the end of the
             current .
 
 #### Parameters
@@ -67,8 +67,8 @@ The array of  to append to the end of the current .
 
 ###  Contains
 
-Determines whether the specified  object is in the current 
-            	.
+Determines whether the specified  object is in the current
+                   .
 
 #### Parameters
 
@@ -78,12 +78,12 @@ The  object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified  object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified  object;
+                   otherwise, false.
 
 ###  CopyTo
 
-Copies the contents of the current  into the 
+Copies the contents of the current  into the
             specified array of  objects.
 
 #### Parameters
@@ -102,7 +102,7 @@ The index to start copying from.
 
 ###  FindItem
 
-Returns  the first RadMenuItem 
+Returns  the first RadMenuItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -246,11 +246,11 @@ The  to locate.
 #### Returns
 
 `System.Int32` The zero-based index of item within the current ,
-            	if found; otherwise, -1.
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified  object in the current 
+Inserts the specified  object in the current
              at the specified index location.
 
 #### Parameters
@@ -270,7 +270,7 @@ The  to insert.
 ###  Remove
 
 Removes the specified  object from the current
-            	.
+                   .
 
 #### Parameters
 
@@ -284,7 +284,7 @@ The RadMenuItem object to remove.
 
 ###  RemoveAt
 
-Removes the  object at the specified index 
+Removes the  object at the specified index
             from the current .
 
 #### Parameters

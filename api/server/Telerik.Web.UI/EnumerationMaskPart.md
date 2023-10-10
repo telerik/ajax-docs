@@ -7,7 +7,7 @@ description: Telerik.Web.UI.EnumerationMaskPart
 # Telerik.Web.UI.EnumerationMaskPart
 
 Represents a MaskPart object which accepts only a predefined set of
-            options.
+             options.
 
 ## Inheritance Hierarchy
 

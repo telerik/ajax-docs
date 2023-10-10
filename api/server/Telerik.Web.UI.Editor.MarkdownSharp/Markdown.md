@@ -6,8 +6,8 @@ description: Telerik.Web.UI.Editor.MarkdownSharp.Markdown
 
 # Telerik.Web.UI.Editor.MarkdownSharp.Markdown
 
-Markdown is a text-to-HTML conversion tool for web writers. 
-            Markdown allows you to write using an easy-to-read, easy-to-write plain text format, 
+Markdown is a text-to-HTML conversion tool for web writers.
+            Markdown allows you to write using an easy-to-read, easy-to-write plain text format,
             then convert it to structurally valid XHTML (or HTML).
 
 ## Inheritance Hierarchy
@@ -19,12 +19,12 @@ Markdown is a text-to-HTML conversion tool for web writers.
 
 ###  AutoHyperlink `Boolean`
 
-when true, (most) bare plain URLs are auto-hyperlinked  
+when true, (most) bare plain URLs are auto-hyperlinked
             WARNING: this is a significant deviation from the markdown spec
 
 ###  AutoNewLines `Boolean`
 
-when true, RETURN becomes a literal newline  
+when true, RETURN becomes a literal newline
             WARNING: this is a significant deviation from the markdown spec
 
 ###  EmptyElementSuffix `String`
@@ -33,22 +33,22 @@ use ">" for HTML output, or " />" for XHTML output
 
 ###  EncodeProblemUrlCharacters `Boolean`
 
-when true, problematic URL characters like [, ], (, and so forth will be encoded 
+when true, problematic URL characters like [, ], (, and so forth will be encoded
             WARNING: this is a significant deviation from the markdown spec
 
 ###  LinkEmails `Boolean`
 
-when false, email addresses will never be auto-linked  
+when false, email addresses will never be auto-linked
             WARNING: this is a significant deviation from the markdown spec
 
 ###  StrictBoldItalic `Boolean`
 
-when true, bold and italic require non-word characters on either side  
+when true, bold and italic require non-word characters on either side
             WARNING: this is a significant deviation from the markdown spec
 
 ###  Version `String`
 
-current version of MarkdownSharp;  
+current version of MarkdownSharp;
             see http://code.google.com/p/markdownsharp/ for the latest code or to contribute
 
 ## Methods
@@ -58,8 +58,8 @@ current version of MarkdownSharp;
 Turn Markdown link shortcuts into HTML anchor tags
 
 #### Remarks
-[link text](url "title") 
-            [link text][id] 
+[link text](url "title")
+            [link text][id]
             [id]
 
 #### Returns
@@ -114,17 +114,17 @@ Turn markdown line breaks (two space at end of line) into HTML break tags
 Turn Markdown headers into HTML header tags
 
 #### Remarks
-Header 1  
-            ========  
+Header 1
+             ========
             
-            Header 2  
-            --------  
+             Header 2
+             --------
             
-            # Header 1  
-            ## Header 2  
-            ## Header 2 with closing hashes ##  
-            ...  
-            ###### Header 6
+             # Header 1
+             ## Header 2
+             ## Header 2 with closing hashes ##
+             ...
+             ###### Header 6
 
 #### Returns
 
@@ -135,8 +135,8 @@ Header 1
 Turn Markdown horizontal rules into HTML hr tags
 
 #### Remarks
-***  
-            * * *  
+***
+            * * *
             ---
             - - -
 
@@ -190,8 +190,8 @@ Encode/escape certain Markdown characters inside code blocks and spans where the
 
 ###  EncodeEmailAddress
 
-encodes email address randomly  
-            roughly 10% raw, 45% hex, 45% dec 
+encodes email address randomly
+            roughly 10% raw, 45% hex, 45% dec
             note that @ is always encoded and : never is
 
 #### Returns
@@ -224,10 +224,10 @@ escapes Bold [ * ] and Italic [ _ ] characters
 
 ###  EscapeSpecialCharsWithinTagAttributes
 
-Within tags -- meaning between < and > -- encode [\ ` * _] so they 
-            don't conflict with their use in Markdown for code, italics and strong. 
-            We're replacing each such character with its corresponding hash 
-            value; this is likely overkill, but it should prevent us from colliding 
+Within tags -- meaning between < and > -- encode [\ ` * _] so they
+            don't conflict with their use in Markdown for code, italics and strong.
+            We're replacing each such character with its corresponding hash
+            value; this is likely overkill, but it should prevent us from colliding
             with the escape values by accident.
 
 #### Returns
@@ -236,7 +236,7 @@ Within tags -- meaning between < and > -- encode [\ ` * _] so they
 
 ###  FormParagraphs
 
-splits on two or more newlines, to form "paragraphs";    
+splits on two or more newlines, to form "paragraphs";
             each paragraph is then unhashed (if it is a hash) or wrapped in HTML p tag
 
 #### Returns
@@ -253,7 +253,7 @@ derived pretty much verbatim from PHP Markdown
 
 ###  GetNestedBracketsPattern
 
-Reusable pattern to match balanced [brackets]. See Friedl's 
+Reusable pattern to match balanced [brackets]. See Friedl's
             "Mastering Regular Expressions", 2nd Ed., pp. 328-331.
 
 #### Returns
@@ -262,7 +262,7 @@ Reusable pattern to match balanced [brackets]. See Friedl's
 
 ###  GetNestedParensPattern
 
-Reusable pattern to match balanced (parens). See Friedl's 
+Reusable pattern to match balanced (parens). See Friedl's
             "Mastering Regular Expressions", 2nd Ed., pp. 328-331.
 
 #### Returns
@@ -279,9 +279,9 @@ replaces any block-level HTML blocks with hash entries
 
 ###  Normalize
 
-convert all tabs to _tabWidth spaces; 
-            standardizes line endings from DOS (CR LF) or Mac (CR) to UNIX (LF); 
-            makes sure text ends with a couple of newlines; 
+convert all tabs to _tabWidth spaces;
+            standardizes line endings from DOS (CR LF) or Mac (CR) to UNIX (LF);
+            makes sure text ends with a couple of newlines;
             removes any blank lines (only spaces) in the text
 
 #### Returns
@@ -342,10 +342,10 @@ Strips link definitions from text, stores the URLs and titles in hash references
 
 ###  TokenizeHTML
 
-returns an array of HTML tokens comprising the input string. Each token is 
-            either a tag (possibly with nested, tags contained therein, such 
-            as `<a href="<MTFoo>">`, or a run of text between tags. Each element of the 
-            array is a two-element array; the first is either 'tag' or 'text'; the second is 
+returns an array of HTML tokens comprising the input string. Each token is
+            either a tag (possibly with nested, tags contained therein, such
+            as `<a href="<MTFoo>">`, or a run of text between tags. Each element of the
+            array is a two-element array; the first is either 'tag' or 'text'; the second is
             the actual value.
 
 #### Returns
@@ -354,8 +354,8 @@ returns an array of HTML tokens comprising the input string. Each token is
 
 ###  Transform
 
-Transforms the provided Markdown-formatted text to HTML;  
-            see https://en.wikipedia.org/wiki/Markdown
+Transforms the provided Markdown-formatted text to HTML;
+            see http://en.wikipedia.org/wiki/Markdown
 
 #### Remarks
 The order in which other subs are called here is

@@ -154,7 +154,7 @@ The URL of the requested combination of web resources.
 
 #### Returns
 
-`System.String` The combined output of the requested web resources from the cache. 
+`System.String` The combined output of the requested web resources from the cache.
             Returns null if there is no entry for the requested URL in the cache.
 
 ###  Initialize
@@ -205,7 +205,7 @@ The app data relative path.
 
 If the provider is created with code, put the initialization logic of the provider in this method.
             Optionally you can set the IsInitialized property to true after the initialization finishes.
-            The  calls this method when the Provider property is set 
+            The  calls this method when the Provider property is set
             if the IsInitialized property of the provider returns false.
 
 #### Returns

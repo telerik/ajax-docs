@@ -71,7 +71,7 @@ Gets the zone type of the field which
 
 ###  Show
 
-Sets the IsHidden property to false and sets the 
+Sets the IsHidden property to false and sets the
             ZoneIndex so the field will be placed as last in the zone
 
 #### Returns

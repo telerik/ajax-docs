@@ -6,7 +6,7 @@ description: Telerik.Web.UI.NullEnumerableException
 
 # Telerik.Web.UI.NullEnumerableException
 
-Telerik.Web.UI.RadGrid exception specifying certain operation could not be 
+Telerik.Web.UI.RadGrid exception specifying certain operation could not be
             performed when P:Telerik.Web.UI.RadGrid.DataSource is not assigned.
 
 ## Inheritance Hierarchy

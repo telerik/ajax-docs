@@ -30,7 +30,7 @@ Gets or sets a value indicating whether the control is currently being bound.
 
 ###  IsTopItem `Boolean`
 
-Gets a boolean value indicating whether the command item is placed on top or bottom of the 
+Gets a boolean value indicating whether the command item is placed on top or bottom of the
             rendered treelist control.
 
 ###  ItemType `TreeListItemType`
@@ -43,14 +43,14 @@ Gets a reference to the owner RadTreeList object.
 
 ###  TableSection `TableRowSection`
 
-Returns a value of type TableRowSection indicating where the command item row is placed in the 
+Returns a value of type TableRowSection indicating where the command item row is placed in the
             Table control rendered by RadTreeList.
 
 ## Methods
 
 ###  FireCommandEvent
 
-Use this method to simulate item command event that bubbles to 
+Use this method to simulate item command event that bubbles to
              and can be handled automatically or in a
             custom manner, handling .ItemCommand event.
 

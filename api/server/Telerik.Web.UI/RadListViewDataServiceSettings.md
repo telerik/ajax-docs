@@ -24,7 +24,7 @@ Gets or sets the count method name that gets appended to the base location
 
 ###  CountPropertyName `String`
 
-Gets or sets the name of the property in the result object returned by the data service 
+Gets or sets the name of the property in the result object returned by the data service
             that contains the total item count in the data source.
 
 ###  DataPath `String`
@@ -34,7 +34,7 @@ Gets or sets the table, method or entity path that gets appended to the base loc
 
 ###  DataPropertyName `String`
 
-Gets or sets the name of the property in the result object returned by the data service 
+Gets or sets the name of the property in the result object returned by the data service
             that contains the data objects  will bind to.
 
 ###  EnableCaching `Boolean`
@@ -51,7 +51,7 @@ Gets or sets the format in which the filter expressions will be sent to the web 
 
 ###  HttpMethod `RadListViewDataServiceHttpMethod`
 
-Gets or sets the HTTP method that  will use 
+Gets or sets the HTTP method that  will use
             to access the data service URL. Default is POST.
 
 ###  Location `String`

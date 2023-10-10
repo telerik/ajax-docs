@@ -93,7 +93,7 @@ Gets or stes the css style for invalid state of TextBox control.
 
 ###  IsValid `Boolean`
 
-Gets if the TargetControls in the InputSettings 
+Gets if the TargetControls in the InputSettings
             are successfully validated.
 
 ###  MaxDate `DateTime`

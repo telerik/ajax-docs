@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridBinaryImageColumn
 
 # Telerik.Web.UI.GridBinaryImageColumn
 
-Each cell in a GridBinaryImageColumn contains an image streamed from a binary image source field 
+Each cell in a GridBinaryImageColumn contains an image streamed from a binary image source field
             (specified through the DataField property of the column). When used this column will show a RadBinaryImage
             control in view mode and RadUpload in edit mode to upload an image.
             The image will be sized automatically to ImageHeight and ImageWidth pixel values if the ResizeMode property
@@ -14,9 +14,9 @@ Each cell in a GridBinaryImageColumn contains an image streamed from a binary im
             - Crop (the image will be trimmed)
             - Fit (the image will be sized to fit the given dimensions)
             - None (default)
-            Additionally, you can set the DataAlternateTextField property to specify by which field in the grid source 
+            Additionally, you can set the DataAlternateTextField property to specify by which field in the grid source
             the column will be sorted/filtered. For the filtering you must also set explicitly the DataType property of
-            the column to the type of the field specified through the DataAlternateTextField property 
+            the column to the type of the field specified through the DataAlternateTextField property
             (System.String in the common case). You can also apply format using the DataAlternateTextFormatString property.
 
 ## Inheritance Hierarchy
@@ -123,7 +123,7 @@ Gets the string representation of the DataType property of the
 
 ###  DefaultImageUrl `String`
 
-Gets or sets a url, specifying the location of a default image 
+Gets or sets a url, specifying the location of a default image
             which to be loaded if there is no data for the binary image
 
 ###  DefaultInsertValue `String`
@@ -185,7 +185,7 @@ Use this property to set width to the filtering control (depending on the column
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -318,17 +318,17 @@ Access the valus passed from the ListBox used for CheckList in the filter.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -489,8 +489,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

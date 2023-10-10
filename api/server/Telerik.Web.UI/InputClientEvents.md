@@ -64,7 +64,7 @@ Gets or sets the client side event which will be fired when the user mouse enter
 
 ###  OnMoveDown `String`
 
-Fired whenever the user decreases the value of any enumeration or numeric range mask part of RadMaskedTextBox 
+Fired whenever the user decreases the value of any enumeration or numeric range mask part of RadMaskedTextBox
             (with either keyboard arrow keys or mouse wheel).
 
 #### Remarks
@@ -72,7 +72,7 @@ Note this event is effective only for the RadMaskedTextBox control.
 
 ###  OnMoveUp `String`
 
-Fired whenever the user increases the value of any enumeration or numeric range mask part of RadMaskedTextBox 
+Fired whenever the user increases the value of any enumeration or numeric range mask part of RadMaskedTextBox
             (with either keyboard arrow keys or mouse wheel).
 
 #### Remarks

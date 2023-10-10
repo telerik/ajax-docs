@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.Collections.CalendarDayTemplateCollection
 # Telerik.Web.UI.Calendar.Collections.CalendarDayTemplateCollection
 
 Summary description for DayTemplatess.
-            See https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/templates/radcalendar-day-templates Day Templatesfor more information.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/templates/radcalendar-day-templates Day Templatesfor more information.
 
 ## Inheritance Hierarchy
 

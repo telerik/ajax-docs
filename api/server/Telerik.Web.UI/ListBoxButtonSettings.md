@@ -21,7 +21,7 @@ Represents the settings of the buttons in a Telerik.Web.UI.RadListBox controls.
 Gets or sets the height of the button area.
 
 #### Remarks
-The AreaWidth property is taken into consideration only if the  property is set to  or 
+The AreaWidth property is taken into consideration only if the  property is set to  or
             . If not the button area is as tall as the listbox control.
 
 ###  AreaWidth `Unit`
@@ -29,7 +29,7 @@ The AreaWidth property is taken into consideration only if the  property is set 
 Gets or sets the width of the button area.
 
 #### Remarks
-The AreaWidth property is taken into consideration only if the  property is set to  or 
+The AreaWidth property is taken into consideration only if the  property is set to  or
             . If not the button area is as wide as the listbox control.
 
 ###  HorizontalAlign `ListBoxHorizontalAlign`
@@ -37,7 +37,7 @@ The AreaWidth property is taken into consideration only if the  property is set 
 Gets or sets the horizontal align of the buttons within the button area.
 
 #### Remarks
-The HorizontalAlign property is taken into consideration only if the  property is set to  or 
+The HorizontalAlign property is taken into consideration only if the  property is set to  or
             .
 
 ###  Position `ListBoxButtonPosition`
@@ -62,7 +62,7 @@ Gets or sets a value indicating whether to display the "delete" button.
 
 #### Remarks
 RadListBox displays the "delete" button when the  and 
-            	properties are both set to true.
+                   properties are both set to true.
 
 ###  ShowReorder `Boolean`
 
@@ -70,7 +70,7 @@ Gets or sets a value indicating whether to display the "reorder" buttons.
 
 #### Remarks
 RadListBox displays the "reorder" buttons when the  and 
-            	properties are both set to true.
+                   properties are both set to true.
 
 ###  ShowTransfer `Boolean`
 
@@ -78,7 +78,7 @@ Gets or sets a value indicating whether to display the "transfer" buttons.
 
 #### Remarks
 RadListBox displays the "transfer" buttons when the  and 
-            	properties are both set to true.
+                   properties are both set to true.
 
 ###  ShowTransferAll `Boolean`
 
@@ -86,7 +86,7 @@ Gets or sets a value indicating whether to display the "transfer all" buttons.
 
 #### Remarks
 RadListBox displays the "transfer all" buttons when the  and 
-            	properties are both set to true.
+                   properties are both set to true.
 
 ###  TransferButtons `ListBoxTransferButtons`
 
@@ -101,6 +101,6 @@ A value that specifies which transfer buttons should be rendered. Members might 
 Gets or sets the vertical align of the buttons in the within the button area.
 
 #### Remarks
-The VerticalAlign property is taken into consideration only if the  property is set to  or 
+The VerticalAlign property is taken into consideration only if the  property is set to  or
             .
 

@@ -7,7 +7,7 @@ description: Telerik.Web.UI.AsyncUploadConfiguration
 # Telerik.Web.UI.AsyncUploadConfiguration
 
 Default implementation of Telerik.Web.UI.IAsyncUploadConfiguration IAsyncUploadConfiguration.
-            Base class that can be used to pass custom information from the page to the handler. Inherit this class and 
+            Base class that can be used to pass custom information from the page to the handler. Inherit this class and
             add a relevant data.
 
 ## Inheritance Hierarchy

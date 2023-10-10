@@ -126,7 +126,7 @@ Gets a  object that represents
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -208,7 +208,7 @@ Returns true if ripple effect should be added
 
 ###  Footer `WebControl`
 
-Get a footer of 
+Get a footer of
             RadListBox.
 
 ###  FooterTemplate `ITemplate`
@@ -217,7 +217,7 @@ Gets or sets the  that defines the  footer template.
 
 ###  Header `WebControl`
 
-Get a header of 
+Get a header of
             RadListBox.
 
 ###  HeaderTemplate `ITemplate`
@@ -355,7 +355,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequested client-side event
                 handler is called when the RadListBox items were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
 
 ###  OnClientItemsRequestFailed `RadListBoxItemCollection`
 
@@ -365,8 +365,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequestFailed client-side event
                 handler is called when the operation for populating the RadListBox has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientItemsRequesting `RadListBoxItemCollection`
 
@@ -376,8 +376,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequesting client-side event
                 handler is called when the RadListBox is about to be populated.
-            	Two parameters are passed to the handler:sender, the listBox   client object;eventArgs with three properties:
-            			get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the listBox   client object;eventArgs with three properties:
+                           get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientLoad `String`
 
@@ -515,7 +515,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Sort `RadListBoxSort`
 
@@ -541,7 +541,7 @@ If the TransferMode property is set to  the items would be deleted from the sour
 
 ###  TransferToID `String`
 
-Gets or sets the ID of the  which the current listbox should transfer to. 
+Gets or sets the ID of the  which the current listbox should transfer to.
             Set the TransferToID property only of one of the two listboxes which will transfer items between each other.
 
 ###  TransferToListBox `RadListBox`
@@ -568,28 +568,28 @@ Gets the settings for the web service used to populate items.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both
-                    Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public RadListBoxItemData[] WebServiceMethodName(object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both
+                     Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public RadListBoxItemData[] WebServiceMethodName(object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ## Methods
 
@@ -794,11 +794,11 @@ Gets an array containing the indices of the currently selected items in the RadL
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -868,7 +868,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

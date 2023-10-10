@@ -21,11 +21,11 @@ Represents settings for RadScheduler's Month view.
 ###  AdaptiveRowHeight `Boolean`
 
 Gets or sets a value indicating whether the height of each row
-            	should be adjusted to match the height of its content.
+                   should be adjusted to match the height of its content.
 
 #### Remarks
 By default, all rows are rendered with the same height.
-            	This property allows you to change this behaviour.
+                   This property allows you to change this behaviour.
 
 ###  ColumnHeaderDateFormat `String`
 
@@ -73,7 +73,7 @@ Gets or sets a value indicating the minimum row height in month view.
 
 #### Remarks
 This property is ignored when AdaptiveRowHeight
-            	is set to true.
+                   is set to true.
 
 ###  ReadOnly `Boolean`
 
@@ -100,5 +100,5 @@ Gets or sets a value indicating the number of visible appointments per day in mo
 
 #### Remarks
 A link button navigating to the specific date will be rendered when
-            	the number of appointments exceeds this value.
+                   the number of appointments exceeds this value.
 

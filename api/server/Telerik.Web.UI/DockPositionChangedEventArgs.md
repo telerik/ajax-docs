@@ -18,8 +18,8 @@ Provides data for the DockPositionChanged event.
 
 ###  DockZoneID `String`
 
-Contains the ClientID of the dock zone the dock has been dropped to. 
-            If the dock was not dropped in a zone (undocked) the value will be 
+Contains the ClientID of the dock zone the dock has been dropped to.
+            If the dock was not dropped in a zone (undocked) the value will be
             string.Empty.
 
 ###  Index `Int32`

@@ -27,7 +27,7 @@ Gets or sets the css class of the dropdown.
 
 ###  Footer `WebControl`
 
-Get a footer of 
+Get a footer of
             RadSearchBox.
 
 ###  FooterTemplate `ITemplate`
@@ -36,7 +36,7 @@ Gets or sets the  that defines the  footer template.
 
 ###  Header `WebControl`
 
-Get a header of 
+Get a header of
             RadSearchBox.
 
 ###  HeaderTemplate `ITemplate`

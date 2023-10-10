@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadDataPagerPageSizeField
 
 # Telerik.Web.UI.RadDataPagerPageSizeField
 
-Telerik.Web.UI.RadDataPager Telerik.Web.UI.RadDataPagerField which contains Telerik.Web.UI.RadComboBox control in order to 
+Telerik.Web.UI.RadDataPager Telerik.Web.UI.RadDataPagerField which contains Telerik.Web.UI.RadComboBox control in order to
             change the PageSize property of Telerik.Web.UI.RadDataPager Telerik.Web.UI.RadComboBox
 
 ## Inheritance Hierarchy
@@ -64,7 +64,7 @@ Horizontal Position attribute - Extra Small
 
 ###  Owner `RadDataPager`
 
-Returns RadDataPager control that owns current pager field. 
+Returns RadDataPager control that owns current pager field.
             This property is set by DataPagerFieldCollection and is read only.
 
 ###  PagerType `String`
@@ -126,7 +126,7 @@ Argument that the link must be build for.
 
 ###  ToString
 
-Returns a  that represents the 
+Returns a  that represents the
             current .
 
 #### Returns

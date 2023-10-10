@@ -18,7 +18,7 @@ Header/footer cell
 
 ###  Text `String`
 
-Determines the content of the header/footer cell. 
+Determines the content of the header/footer cell.
             Put <?page-number?> in the place where the page index should be inserted.
 
 ###  TextAlign `String`

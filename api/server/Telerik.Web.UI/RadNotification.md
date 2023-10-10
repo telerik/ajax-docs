@@ -32,10 +32,10 @@ Specifies the URL of the HTTPHandler that serves the notification sound
 
 #### Remarks
 The HTTPHandler should either be registered in the application configuration
-            		file, or a file with the specified name should exist at the location, which
-            		AudioHandlerUrl points to.
-            	
-            		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
+                       file, or a file with the specified name should exist at the location, which
+                       AudioHandlerUrl points to.
+                   
+                       If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
 
 ###  AutoCloseDelay `Int32`
 
@@ -67,7 +67,7 @@ Gets or sets the content icon (built-in or URL for a custom one).
 
 #### Remarks
 The size of this icon is 32x32 pixels. The list of built-in icons is as follows:
-            infodeletedenyeditokwarningnoneThe built-in icons are not available when a custom skin is used for the control, because they are parts of the built-in skins. Also, if the 
+            infodeletedenyeditokwarningnoneThe built-in icons are not available when a custom skin is used for the control, because they are parts of the built-in skins. Also, if the
             ContentTemplate is used this icon will not be shown.
 
 ###  ContentScrolling `NotificationScrolling`
@@ -76,7 +76,7 @@ Get/Set overflow of the notification's content area
 
 ###  ContentTemplate `ITemplate`
 
-Gets or sets the System.Web.UI.ITemplate that contains the controls which will be 
+Gets or sets the System.Web.UI.ITemplate that contains the controls which will be
             placed in the control content area.
 
 #### Remarks
@@ -85,7 +85,7 @@ You cannot set this property twice, or when you added controls to the ContentCon
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -194,7 +194,7 @@ If specified, the OnClientHiding client-side event handler is
                 called before the notification is hidden on the client. Two parameters are passed to the
                 handler:sender, the notification client object;eventArgsThe OnClientHiding event can be cancelled. To do so,
                 set the cancel property to false from the event handler (e.g.
-                eventArgs.set_cancel(true);).
+                   eventArgs.set_cancel(true);).
 
 ###  OnClientShowing `String`
 
@@ -207,7 +207,7 @@ If specified, the OnClientShowingclient-side event handler is called before the 
 
 ###  OnClientShown `String`
 
-Gets or sets a value indicating the name of the client-side event handler that is called 
+Gets or sets a value indicating the name of the client-side event handler that is called
             just after the RadNotification is shown.
 
 #### Remarks
@@ -235,14 +235,14 @@ The server error is received as a browser alert() box. It can be avoided by call
 ###  OnClientUpdating `String`
 
 Gets or sets a value indicating the name of the client-side event handler that is called when
-            the content of RadNotification  is to be updated.
+             the content of RadNotification  is to be updated.
 
 #### Remarks
 If specified, the OnClientUpdating client-side event handler is
-                called before the content of the notification is updated. Two parameters are passed to the
-                handler:sender, the notification client object;eventArgsThe OnClientUpdating event can be cancelled. To do so,
-                set the cancel property to false from the event handler (e.g.
-                eventArgs.set_cancel(true);).Cancelling it will prevent the new content from being populated in the notification, but will not prevent the request for the new data.
+                 called before the content of the notification is updated. Two parameters are passed to the
+                 handler:sender, the notification client object;eventArgsThe OnClientUpdating event can be cancelled. To do so,
+                 set the cancel property to false from the event handler (e.g.
+                    eventArgs.set_cancel(true);).Cancelling it will prevent the new content from being populated in the notification, but will not prevent the request for the new data.
 
 ###  Opacity `Int32`
 

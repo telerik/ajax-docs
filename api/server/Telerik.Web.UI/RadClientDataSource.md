@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadClientDataSource
 
 # Telerik.Web.UI.RadClientDataSource
 
-This partial class defines RadClientDataSource control - a flexible and extensible server-side component 
+This partial class defines RadClientDataSource control - a flexible and extensible server-side component
             for retrieving and providing data on the client under various forms
             and from different source such web and rest service, page method, other datasource controls and other means
 

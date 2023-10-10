@@ -70,7 +70,7 @@ As a convenience feature, adding at an index greater than zero will set the
 
 ###  AddSortExpression
 
-If  is true adds the sortExpression in the collection. 
+If  is true adds the sortExpression in the collection.
             Else any other expression previously stored in the collection wioll be removed
 
 #### Parameters
@@ -83,7 +83,7 @@ If  is true adds the sortExpression in the collection.
 
 ###  AddSortExpression
 
-If  is true adds the sortExpression in the collection. 
+If  is true adds the sortExpression in the collection.
             Else any other expression previously stored in the collection wioll be removed
 
 #### Parameters

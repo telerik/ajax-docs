@@ -24,12 +24,12 @@ RadMonthYearPicker class
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make RadMonthYearPicker postback to the server 
+Setting this property to true will make RadMonthYearPicker postback to the server
             on date selection through the MonthYearView or the DateInput components.
 
 ###  ClientEvents `MonthYearPickerClientEvents`
 
-Gets a set of properties that get or set the names of the JavaScript 
+Gets a set of properties that get or set the names of the JavaScript
             functions that are invoked upon specific client-side events.
 
 ###  ClientIDMode `ClientIDMode`
@@ -43,7 +43,7 @@ The client-side id of the inner input element used for intergation with RadLabel
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -56,7 +56,7 @@ Gets the RadDateInput instance of the RadMonthYearPicker control.
 
 ###  DatePopupButton `MonthYearPopupButton`
 
-Gets the DatePopupButton instance of the RadMonthYearPicker control.  
+Gets the DatePopupButton instance of the RadMonthYearPicker control.
             You can use the object to customize the popup button's appearance and behavior.
 
 ###  DbSelectedDate `Nullable`1`
@@ -181,12 +181,12 @@ For internal use.
 
 Gets or sets a value indicating where RadMonthYearPicker will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MaxDate `DateTime`
@@ -229,13 +229,13 @@ Gets or sets the direction in which the popup MonthYearView is displayed,
 ###  RangeMaxDate `DateTime`
 
 Gets or sets the maximum date valid for selection by
-            Telerik RadMonthYearPicker. Must be interpreted as the Higher bound of the valid
-            dates range available for selection. Telerik RadMonthYearPicker will not allow
-            navigation or selection past this date.
+             Telerik RadMonthYearPicker. Must be interpreted as the Higher bound of the valid
+             dates range available for selection. Telerik RadMonthYearPicker will not allow
+             navigation or selection past this date.
 
 #### Remarks
 This property has a default value of 12/30/2099
-            (Gregorian calendar date).
+             (Gregorian calendar date).
 
 ###  RegisterWithScriptManager `Boolean`
 

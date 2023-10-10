@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadButton
 
 # Telerik.Web.UI.RadButton
 
-RadButton control provides the features, that ASP.NET: Button, ImageButton, LinkButton, RadioButton and CheckBox controls have. 
+RadButton control provides the features, that ASP.NET: Button, ImageButton, LinkButton, RadioButton and CheckBox controls have.
             You can find information on the server API of RadButton at the Server-Side Programming Overview article here: https://docs.telerik.com/devtools/aspnet-ajax/controls/button/server-side-programming/properties-and-events .
 
 ## Inheritance Hierarchy
@@ -66,7 +66,7 @@ Gets or sets the CSS class rendered by the RadButton control on the client.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DisabledButtonCssClass `String`
@@ -375,7 +375,7 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 ###  GetPostbackEventReference
 
-Creates a PostBackOptions object that represents the RadButton control's postback behavior, and returns the client script 
+Creates a PostBackOptions object that represents the RadButton control's postback behavior, and returns the client script
             generated as a result of the PostBackOptions.
 
 #### Returns

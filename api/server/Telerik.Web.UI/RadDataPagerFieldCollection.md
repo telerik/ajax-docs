@@ -64,7 +64,7 @@ The  item.
 
 ###  CopyTo
 
-Copies a range of elements from the  to 
+Copies a range of elements from the  to
             a compatible one-dimensional array, starting at the specified index of the target array.
 
 #### Parameters
@@ -92,7 +92,7 @@ Returns an enumerator that iterates through the collection.
 
 ###  IndexOf
 
-Searches for the specified object and returns 
+Searches for the specified object and returns
             the zero-based index of the first occurrence within the entire
 
 #### Parameters

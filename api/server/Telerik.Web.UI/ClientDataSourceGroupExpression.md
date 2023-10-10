@@ -6,7 +6,7 @@ description: Telerik.Web.UI.ClientDataSourceGroupExpression
 
 # Telerik.Web.UI.ClientDataSourceGroupExpression
 
-This class is responsible for getting the group 
+This class is responsible for getting the group
             expression entries from the GroupEntryCollection.
 
 ## Inheritance Hierarchy

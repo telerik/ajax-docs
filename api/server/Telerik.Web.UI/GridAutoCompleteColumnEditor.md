@@ -19,7 +19,7 @@ The editor for the Telerik.Web.UI.GridAutoCompleteColumn column.
 
 ###  AllowCustomEntry `Boolean`
 
-Gets or sets a value indicating whether the user will be able to add a custom text not present 
+Gets or sets a value indicating whether the user will be able to add a custom text not present
             within the raw data in order to create a custom entry.
 
 ###  AllowTokenEditing `Boolean`

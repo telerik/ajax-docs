@@ -6,7 +6,7 @@ description: Telerik.Web.UI.SortExpression
 
 # Telerik.Web.UI.SortExpression
 
-This Class is responsible for getting the sort 
+This Class is responsible for getting the sort
             expression entries from the SortEntryCollection.
 
 ## Inheritance Hierarchy

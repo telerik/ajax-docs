@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridLinqDataSource
 
 # Telerik.Web.UI.GridLinqDataSource
 
-A Telerik.Web.UI.RadGrid specific extension of System.Web.UI.WebControls.LinqDataSource base 
+A Telerik.Web.UI.RadGrid specific extension of System.Web.UI.WebControls.LinqDataSource base
             functionality. Introduces a new method called GetData which is used in
             GetBindingData method to retrieve a System.Web.UI.WebControls.LinqDataSource data.
 

@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridHeaderItem
 
 # Telerik.Web.UI.GridHeaderItem
 
-GridHeaderItem class. See https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information.
+GridHeaderItem class. See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/data-items#static-rows Static Rowsfor more information.
 
 ## Inheritance Hierarchy
 
@@ -98,11 +98,11 @@ Gets the respective GridItemType of the grid item.
 ###  OwnerGridID `String`
 
 Gets the ClientID of the RadGrid instance that
-            owns the item.
+             owns the item.
 
 #### Remarks
 This would be useful if several controls use the same eventhandler and you need
-            to diferentiate the Grid instances in the handler.
+             to diferentiate the Grid instances in the handler.
 
 ###  OwnerID `String`
 
@@ -175,7 +175,7 @@ command argument, for example 'Next'
 
 ###  SetTempIndexHierarchical
 
-Used after postback before ViewState becomes available - 
+Used after postback before ViewState becomes available -
             for example in ItemCreated and ItemDataBound events
 
 #### Parameters

@@ -18,7 +18,7 @@ Provides data for the PivotGridPrepareDescriptionForFieldEventArgs event.
 
 ###  Description `IDescriptionBase`
 
-Gets or sets the description that will be passed to . 
+Gets or sets the description that will be passed to .
             This property is initialized with the default description for the specified field info.
 
 ###  DescriptionType `DataProviderDescriptionType`

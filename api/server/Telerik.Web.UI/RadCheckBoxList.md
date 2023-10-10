@@ -56,7 +56,7 @@ Gets or sets the number of columns to display in the control when the layout is 
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `ButtonListDataBinding`
@@ -99,7 +99,7 @@ If EnableEmbeddedScripts is set to false you will have to register the needed Sc
 
 ###  EnableEmbeddedSkins `Boolean`
 
-Gets or sets the value, indicating whether to render links to the embedded skins or not. 
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
             This control features no skins, so this property must be set to false.
 
 ###  EnableEmbeddedSkins `String`
@@ -197,7 +197,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  ValidationGroup `String`
 

@@ -125,8 +125,8 @@ Use the Value property to specify the value
 
 ###  CompareTo
 
-Compares two instance for equality. 
-            returns 0 if equal, a positive number if the first is greater than the 
+Compares two instance for equality.
+            returns 0 if equal, a positive number if the first is greater than the
             second, and a negative number otherwise.
 
 #### Parameters

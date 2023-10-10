@@ -29,7 +29,7 @@ Specifies whether the Rotator items created on the client-side should be cleared
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make Telerik RadRotator postback to the server 
+Setting this property to true will make Telerik RadRotator postback to the server
             on item click.
 
 ###  BannersPath `String`
@@ -52,7 +52,7 @@ Gets or sets the HTML template that will be used when the Rotator is databound t
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -234,7 +234,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  WebServiceSettings `WebServiceSettings`
 
@@ -242,31 +242,31 @@ Gets the settings for the web service used to populate items
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public RadRotatorItemData[] WebServiceMethodName(int itemIndex, int itemCount)
-            			{
-            				List<RadRotatorItemData> result = new List<RadRotatorItemData>();
-            				RadRotatorItemData item; 
-            				for (int i = 0; i < itemCount; i++)
-            				{
-            					item = new RadRotatorItemData();
-            					item.Html = "test "+(itemIndex+i);
-            					result.Add(item);
-            				}
-            				return result.ToArray();
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public RadRotatorItemData[] WebServiceMethodName(int itemIndex, int itemCount)
+                            {
+                                List<RadRotatorItemData> result = new List<RadRotatorItemData>();
+                                RadRotatorItemData item;
+                                for (int i = 0; i < itemCount; i++)
+                                {
+                                    item = new RadRotatorItemData();
+                                    item.Html = "test "+(itemIndex+i);
+                                    result.Add(item);
+                                }
+                                return result.ToArray();
+                            }
+                        }
 
 ###  Width `Unit`
 

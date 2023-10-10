@@ -23,7 +23,7 @@ Gets or sets the method name to be called to create recurrence exceptions.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  DeleteAppointmentMethod `String`
 
@@ -31,7 +31,7 @@ Gets or sets the method name to be called to delete appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  GetAppointmentsMethod `String`
 
@@ -39,7 +39,7 @@ Gets or sets the method name to be called to populate the appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  GetResourcesMethod `String`
 
@@ -47,7 +47,7 @@ Gets or sets the method name to be called to get the resources list.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  InsertAppointmentMethod `String`
 
@@ -55,7 +55,7 @@ Gets or sets the method name to be called to insert appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  Method `String`
 
@@ -69,11 +69,11 @@ The method must be part of the web service specified through the
 ###  Method `String`
 
 Gets or sets the method name to be called to populate items with
-            	ExpandMode set to WebService.
+                   ExpandMode set to WebService.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  ODataSettings `SchedulerODataSettings`
 
@@ -82,7 +82,7 @@ Used to customize the OData binding settings.
 ###  Path `String`
 
 Gets or sets the name of the web service to be used to populate items with
-            	ExpandMode set to WebService.
+                   ExpandMode set to WebService.
 
 ###  RemoveRecurrenceExceptionsMethod `String`
 
@@ -90,24 +90,24 @@ Gets or sets the method name to be called to remove the recurrence exceptions of
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  ResourcePopulationMode `SchedulerResourcePopulationMode`
 
 Gets or sets the resource population mode
-            	to be used from RadScheduler.
+                   to be used from RadScheduler.
 
 #### Remarks
 Resources need to be populated from the server when using resource grouping.
-            	Doing so also reduces the client-side initialization time.
+                   Doing so also reduces the client-side initialization time.
             
-            	This operation requires the WebPermission to be granted
-            	for the Web Service URL. This permission is not granted by default in Medium Trust.
+                   This operation requires the WebPermission to be granted
+                   for the Web Service URL. This permission is not granted by default in Medium Trust.
             
-            	You can disable the population of the resources from the server and still use
-            	client-side rendering for grouped views. To do so you need to set the
-            	value to Manual and
-            	populate the resources from the OnInit method of the page.
+                   You can disable the population of the resources from the server and still use
+                   client-side rendering for grouped views. To do so you need to set the
+                   value to Manual and
+                   populate the resources from the OnInit method of the page.
 
 ###  UpdateAppointmentMethod `String`
 
@@ -115,7 +115,7 @@ Gets or sets the method name to be called to update appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
-            	Path property.
+                   Path property.
 
 ###  UpdateMode `AppointmentUpdateMode`
 

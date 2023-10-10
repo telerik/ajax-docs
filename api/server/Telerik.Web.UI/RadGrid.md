@@ -9,18 +9,18 @@ description: Telerik.Web.UI.RadGrid
 RadGrid control class.
 
 #### Remarks
-Set properties of RadGrid as default for the corresponding properties of grid's 
+Set properties of RadGrid as default for the corresponding properties of grid's
             table views Telerik.Web.UI.GridTableView .
-            The best approach to bind RadGrid is to handle its E:Telerik.Web.UI.RadGrid.NeedDataSource event and set the DataSource property 
+            The best approach to bind RadGrid is to handle its E:Telerik.Web.UI.RadGrid.NeedDataSource event and set the DataSource property
             there. This way RadGrid will handle automatically operations like paging, sorting, grouping, etc.
             The main table-view can be accessed through P:Telerik.Web.UI.RadGrid.MasterTableView property.
-            The group panel and its items can be accessed using GroupPanel property. Note that the group items can be modified only 
+            The group panel and its items can be accessed using GroupPanel property. Note that the group items can be modified only
             through the P:Telerik.Web.UI.GridTableView.GroupByExpressions properties of each GridTableView.
-            Hierarchical grid structure can be implemented adding GridTableView objects to P:Telerik.Web.UI.GridTableView.DetailTables and handling 
+            Hierarchical grid structure can be implemented adding GridTableView objects to P:Telerik.Web.UI.GridTableView.DetailTables and handling
             E:Telerik.Web.UI.RadGrid.DetailTableDataBind event, where you should set the DataSource of each bound detail table filtered
             according to the P:Telerik.Web.UI.GridTableView.ParentItem property key values.
-            The P:Telerik.Web.UI.RadGrid.Columns of RadGrid property is a reference to the columns of the MasterTableView and is present in RadGrid for 
-            compatibility with the DataGrid server control. 
+            The P:Telerik.Web.UI.RadGrid.Columns of RadGrid property is a reference to the columns of the MasterTableView and is present in RadGrid for
+            compatibility with the DataGrid server control.
             You can find more information on the server properties and events of RadGrid at the Server-Side Programming Overview article here: https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/server-side-programming/overview .
 
 ## Inheritance Hierarchy
@@ -138,29 +138,29 @@ Note: You will not be able to select the Header, Footer or Pager
 ###  AllowPaging `Boolean`
 
 Gets or sets a value indicating whether the automatic paging feature is
-            enabled.
+             enabled.
 
 #### Remarks
 Instead of displaying all the records in the data source at the same time,
-                the Telerik RadGrid control can automatically break the records up into
-                pages. If the data source supports the paging capability, the
-                Telerik RadGrid control can take advantage of that and provide built-in
-                paging functionality. The paging feature can be used with any data source object
-                that supports the System.Collections.ICollection interface or a data source that
-                supports paging capability.To enable the paging feature, set the AllowPaging property
-                to true. By default, the Telerik RadGrid control
-                displays 10 records on a page at a time. You can change the number of records
-                displayed on a page by setting the PageSize property. To determine the total number
-                of pages required to display the data source contents, use the PageCount property.
-                You can determine the index of the currently displayed page by using the
-                CurrentPageIndex property.When paging is enabled, an additional item called the pager item is
-                automatically displayed in the Telerik RadGrid control. The pager item contains controls
-                that allow the user to navigate to the other pages. You can control the settings of
-                the pager item by using the PagerItemStyle property. The pager
-                item can be displayed at the top, bottom, or both the top and bottom of the control
-                by setting the Position property. You can also select from one of four built-in
-                pager display modes by setting the Mode property.The Telerik RadGrid control also allows you to define a custom
-                template for the pager item.
+                 the Telerik RadGrid control can automatically break the records up into
+                 pages. If the data source supports the paging capability, the
+                 Telerik RadGrid control can take advantage of that and provide built-in
+                 paging functionality. The paging feature can be used with any data source object
+                 that supports the System.Collections.ICollection interface or a data source that
+                 supports paging capability.To enable the paging feature, set the AllowPaging property
+                 to true. By default, the Telerik RadGrid control
+                 displays 10 records on a page at a time. You can change the number of records
+                 displayed on a page by setting the PageSize property. To determine the total number
+                 of pages required to display the data source contents, use the PageCount property.
+                 You can determine the index of the currently displayed page by using the
+                 CurrentPageIndex property.When paging is enabled, an additional item called the pager item is
+                 automatically displayed in the Telerik RadGrid control. The pager item contains controls
+                 that allow the user to navigate to the other pages. You can control the settings of
+                 the pager item by using the PagerItemStyle property. The pager
+                 item can be displayed at the top, bottom, or both the top and bottom of the control
+                 by setting the Position property. You can also select from one of four built-in
+                 pager display modes by setting the Mode property.The Telerik RadGrid control also allows you to define a custom
+                 template for the pager item.
 
 ###  AllowSorting `Boolean`
 
@@ -168,63 +168,63 @@ Gets or sets a value indicating whether the sorting feature is enabled.
 
 #### Remarks
 When a data source control that supports sorting is bound to the
-                Telerik RadGrid control, the Telerik RadGrid control can
-                take advantage of the data source control's capabilities and provide automatic
-                sorting functionality.To enable sorting, set the AllowSorting property to
-                true. When sorting is enabled, the heading text for each column
-                field with its SortExpression property set is displayed as a link button.Clicking the link button for a column causes the items in the
-                Telerik RadGrid control to be sorted based on the sort expression.
-                Typically, the sort expression is simply the name of the field displayed in the
-                column, which causes the Telerik RadGrid control to sort with respect
-                to that column. To sort by multiple fields, use a sort expression that contains a
-                comma-separated list of field names. You can determine the sort expression that the
-                Telerik RadGrid control is applying by using the SortExpression
-                property. Clicking a column's link button repeatedly toggles the sort direction
-                between ascending and descending order.
+                 Telerik RadGrid control, the Telerik RadGrid control can
+                 take advantage of the data source control's capabilities and provide automatic
+                 sorting functionality.To enable sorting, set the AllowSorting property to
+                 true. When sorting is enabled, the heading text for each column
+                 field with its SortExpression property set is displayed as a link button.Clicking the link button for a column causes the items in the
+                 Telerik RadGrid control to be sorted based on the sort expression.
+                 Typically, the sort expression is simply the name of the field displayed in the
+                 column, which causes the Telerik RadGrid control to sort with respect
+                 to that column. To sort by multiple fields, use a sort expression that contains a
+                 comma-separated list of field names. You can determine the sort expression that the
+                 Telerik RadGrid control is applying by using the SortExpression
+                 property. Clicking a column's link button repeatedly toggles the sort direction
+                 between ascending and descending order.
 
 ###  AlternatingItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of alternating data items in a Telerik RadGrid control.
+             appearance of alternating data items in a Telerik RadGrid control.
 
 #### Remarks
 Use the AlternatingItemStyle property to control the appearance of
-                alternating data items in a Telerik RadGrid control. When this property
-                is set, the data items are displayed alternating between the ItemStyle settings and
-                the AlternatingItemStyle settings. This property is read-only; however, you can set
-                the properties of the GridTableItemStyle object it returns. The properties can be
-                set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example,
-                    AlternatingItemStyle-ForeColor).Nest an <AlternatingItemStyle> element between the opening and
-                    closing tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, AlternatingItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 alternating data items in a Telerik RadGrid control. When this property
+                 is set, the data items are displayed alternating between the ItemStyle settings and
+                 the AlternatingItemStyle settings. This property is read-only; however, you can set
+                 the properties of the GridTableItemStyle object it returns. The properties can be
+                 set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example,
+                     AlternatingItemStyle-ForeColor).Nest an <AlternatingItemStyle> element between the opening and
+                     closing tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, AlternatingItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  AutoGenerateColumns `Boolean`
 
 Gets or sets a value indicating whether bound fields are automatically created
-            for each field in the data source.
+             for each field in the data source.
 
 #### Remarks
 When the AutoGenerateColumns property is set to true, an
-                GridBoundColumn object is automatically created for each field in
-                the data source. Each field is then displayed as a column in the
-                Telerik RadGrid control in the order that the fields appear in the data
-                source. This option provides a convenient way to display every field in the data
-                source; however, you have limited control of how an automatically generated column
-                field is displayed or behaves.This set of columns can be accessed using the
-                AutoGeneratedColumns
-                collection.Runtime auto-generated columns will always appear after
-                            the user-specified columns, unless the columns are ordered
-                            programmatically.Instead of letting the Telerik RadGrid control automatically
-                generate the column fields, you can manually define the column fields by setting
-                the AutoGenerateColumns property to false and
-                then creating a custom Columns collection. In addition to bound column fields, you
-                can also display a button column, a check box column, a button column, a hyperlink
-                column, an image column, or a column based on your own custom-defined template
-                etc.
+                 GridBoundColumn object is automatically created for each field in
+                 the data source. Each field is then displayed as a column in the
+                 Telerik RadGrid control in the order that the fields appear in the data
+                 source. This option provides a convenient way to display every field in the data
+                 source; however, you have limited control of how an automatically generated column
+                 field is displayed or behaves.This set of columns can be accessed using the
+                 AutoGeneratedColumns
+                 collection.Runtime auto-generated columns will always appear after
+                             the user-specified columns, unless the columns are ordered
+                             programmatically.Instead of letting the Telerik RadGrid control automatically
+                 generate the column fields, you can manually define the column fields by setting
+                 the AutoGenerateColumns property to false and
+                 then creating a custom Columns collection. In addition to bound column fields, you
+                 can also display a button column, a check box column, a button column, a hyperlink
+                 column, an image column, or a column based on your own custom-defined template
+                 etc.
 
 ###  AutoGenerateDeleteColumn `Boolean`
 
@@ -295,29 +295,29 @@ Gets a reference to the  object that
 ###  Columns `GridColumnCollection`
 
 Gets a collection () of all columns in
-                Telerik RadGrid.
+                 Telerik RadGrid.
 
 #### Remarks
 This is one of the three columns collections in Telerik RadGrid. The
-            other two are AutoGeneratedColumns and
-            RenderColumns.
+             other two are AutoGeneratedColumns and
+             RenderColumns.
 
 ###  CommandItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the command item in a Telerik RadGrid control.
+             appearance of the command item in a Telerik RadGrid control.
 
 #### Remarks
 Use the CommandItemStyle property to control the appearance of the command
-                item in a Telerik RadGrid control. This property is read-only; however,
-                you can set the properties of the GridTableItemStyle object it returns. The
-                properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example, CommandItemStyle-ForeColor).Nest a <CommandItemStyle> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, CommandItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 item in a Telerik RadGrid control. This property is read-only; however,
+                 you can set the properties of the GridTableItemStyle object it returns. The
+                 properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example, CommandItemStyle-ForeColor).Nest a <CommandItemStyle> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, CommandItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  CssClass `String`
 
@@ -326,7 +326,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -389,11 +389,11 @@ Gets or sets the object from which the data-bound control retrieves
 ###  DataSourceID `Object`
 
 Gets or sets the ID of the control from which the Telerik RadGrid
-                control retrieves its list of data items.
+                 control retrieves its list of data items.
 
 #### Remarks
 If the Telerik RadGrid control has already been initialized when
-                you set the DataSourceID property.This property cannot be set by themes or style sheet themes.
+                 you set the DataSourceID property.This property cannot be set by themes or style sheet themes.
 
 ###  DataSourceID `Object`
 
@@ -426,20 +426,20 @@ The EditItems collection contains InPlace
 ###  EditItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the item selected for editing in a Telerik RadGrid
-            control.
+             appearance of the item selected for editing in a Telerik RadGrid
+             control.
 
 #### Remarks
 Use the EditItemStyle property to control the appearance of the item being
-                edited in a Telerik RadGrid control. This property is read-only;
-                however, you can set the properties of the GridTableItemStyle object it returns.
-                The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example, EditItemStyle-ForeColor).Nest a <EditItemStyle> element between the opening and closing tags
-                    of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, EditItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 edited in a Telerik RadGrid control. This property is read-only;
+                 however, you can set the properties of the GridTableItemStyle object it returns.
+                 The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example, EditItemStyle-ForeColor).Nest a <EditItemStyle> element between the opening and closing tags
+                     of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, EditItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -483,17 +483,17 @@ Gets or sets a value indicating whether the groups expand/collapse all header bu
 
 ###  EnableHeaderContextAggregatesMenu `Boolean`
 
-Gets or sets a value indicating whether the option to set columns aggregates should appear in 
-             	header context menu.
+Gets or sets a value indicating whether the option to set columns aggregates should appear in
+                 header context menu.
 
 ###  EnableHeaderContextFilterMenu `GridFilterMenu`
 
-Gets or sets a value indicating whether the header context filter menu should be 
+Gets or sets a value indicating whether the header context filter menu should be
                  enabled.
 
 ###  EnableHeaderContextMenu `GridHeaderContextMenu`
 
-Gets or sets a value indicating whether the header context menu should be 
+Gets or sets a value indicating whether the header context menu should be
                  enabled.
 
 ###  EnableHierarchyExpandAll `Boolean`
@@ -545,19 +545,19 @@ Use the ExportSettings property to control the settings of the grouping
 ###  FilterItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the filter item in a Telerik RadGrid control.
+             appearance of the filter item in a Telerik RadGrid control.
 
 #### Remarks
 Use the FilterItemStyle property to control the appearance of the filter item
-                in a Telerik RadGrid control. This property is read-only; however, you
-                can set the properties of the GridTableItemStyle object it returns. The properties
-                can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example, FilterItemStyle-ForeColor).Nest a <FilterItemStyle> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, FilterItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 in a Telerik RadGrid control. This property is read-only; however, you
+                 can set the properties of the GridTableItemStyle object it returns. The properties
+                 can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example, FilterItemStyle-ForeColor).Nest a <FilterItemStyle> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, FilterItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  FilterMenu `GridFilterMenu`
 
@@ -579,19 +579,19 @@ Gets the font properties associated with the Web server control.
 ###  FooterStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the footer item in a Telerik RadGrid control.
+             appearance of the footer item in a Telerik RadGrid control.
 
 #### Remarks
 Use the FooterItemStyle property to control the appearance of the footer item
-                in a Telerik RadGrid control. This property is read-only; however, you
-                can set the properties of the GridTableItemStyle object it returns. The properties
-                can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example, FooterItemStyle-ForeColor).Nest a <FooterItemStyle> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, FooterItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 in a Telerik RadGrid control. This property is read-only; however, you
+                 can set the properties of the GridTableItemStyle object it returns. The properties
+                 can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example, FooterItemStyle-ForeColor).Nest a <FooterItemStyle> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, FooterItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  ForeColor `Color`
 
@@ -606,21 +606,21 @@ Gets or sets a value that specifies whether the border between the cells of a
 ###  GroupHeaderItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the group-header item in a Telerik RadGrid control.
+             appearance of the group-header item in a Telerik RadGrid control.
 
 #### Remarks
 Use the GroupHeaderItemStyle property to control the appearance of the
-                group-header item in a Telerik RadGrid control. This property is
-                read-only; however, you can set the properties of the GridTableItemStyle object it
-                returns. The properties can be set declaratively using one of the following
-                methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example,
-                    GroupHeaderItemStyle-ForeColor).Nest a <GroupHeaderItemStyle> element between the opening and
-                    closing tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, GroupHeaderItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 group-header item in a Telerik RadGrid control. This property is
+                 read-only; however, you can set the properties of the GridTableItemStyle object it
+                 returns. The properties can be set declaratively using one of the following
+                 methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example,
+                     GroupHeaderItemStyle-ForeColor).Nest a <GroupHeaderItemStyle> element between the opening and
+                     closing tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, GroupHeaderItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  GroupingEnabled `Boolean`
 
@@ -635,21 +635,21 @@ Most often this property is used in conjunction with
 ###  GroupingSettings `GridGroupingSettings`
 
 Gets a reference to the  object that
-                    allows you to set the properties of the grouping operation in a
-                    Telerik RadGrid control.
+                     allows you to set the properties of the grouping operation in a
+                     Telerik RadGrid control.
 
 #### Remarks
 Use the GroupingSettings property to control the settings of
-                the grouping operations in a Telerik RadGrid control. This property is
-                read-only; however, you can set the properties of the
-                GridGroupingSettings object it returns. The properties can be set
-                declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridGroupingSettings object (for example,
-                    GroupingSettings-ExpandTooltip).Nest a <GroupingSettings> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, GroupingSettings.ExpandTooltip). Common settings
-                usually include the tool tips for the sorting controls.
+                 the grouping operations in a Telerik RadGrid control. This property is
+                 read-only; however, you can set the properties of the
+                 GridGroupingSettings object it returns. The properties can be set
+                 declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridGroupingSettings object (for example,
+                     GroupingSettings-ExpandTooltip).Nest a <GroupingSettings> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, GroupingSettings.ExpandTooltip). Common settings
+                 usually include the tool tips for the sorting controls.
 
 ###  GroupPanel `GridGroupPanel`
 
@@ -679,15 +679,15 @@ Gets the style properties of the heading section in the RadGrid control.
 
 #### Remarks
 Use the HeaderItemStyle property to control the appearance of the header item
-                in a Telerik RadGrid control. This property is read-only; however, you
-                can set the properties of the GridTableItemStyle object it returns. The properties
-                can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example, HeaderItemStyle-ForeColor).Nest a <HeaderItemStyle> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, HeaderItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 in a Telerik RadGrid control. This property is read-only; however, you
+                 can set the properties of the GridTableItemStyle object it returns. The properties
+                 can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example, HeaderItemStyle-ForeColor).Nest a <HeaderItemStyle> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, HeaderItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  Height `Unit`
 
@@ -749,25 +749,25 @@ The RadGrid control automatically populates the Items collection by creating
 ###  ItemStyle `GridTableItemStyle`
 
 Gets a reference to the GridTableItemStyle object that allows you to set the
-            appearance of the data items in a RadGrid control.
+             appearance of the data items in a RadGrid control.
 
 #### Remarks
 Use the ItemStyle property to control the appearance of the data items in a
-            Telerik RadGrid control. When the AlternatingItemStyle property is also set, the data
-            items are displayed alternating between the ItemStyle settings and the
-            AlternatingItemStyle settings. This property is read-only; however, you can set the
-            properties of the GridTableItemStyle object it returns.
+             Telerik RadGrid control. When the AlternatingItemStyle property is also set, the data
+             items are displayed alternating between the ItemStyle settings and the
+             AlternatingItemStyle settings. This property is read-only; however, you can set the
+             properties of the GridTableItemStyle object it returns.
 
 ###  LocalizationPath `GridStrings`
 
 Gets or sets a value indicating where RadGrid will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MasterTableView `GridTableView`
@@ -801,29 +801,29 @@ Gets or sets the ODataDataSource used for data binding.
 ###  PageCount `Int32`
 
 Gets the number of pages required to display the records of the data source
-                in a Telerik RadGrid control.
+                 in a Telerik RadGrid control.
 
 #### Remarks
 When the paging feature is enabled (by setting the AllowPaging property to true),
-            use the PageCount property to determine the total number of pages required to display
-            the records in the data source. This value is calculated by dividing the total number
-            of records in the data source by the number of records displayed in a page (as
-            specified by the PageSize property) and rounding up.
+             use the PageCount property to determine the total number of pages required to display
+             the records in the data source. This value is calculated by dividing the total number
+             of records in the data source by the number of records displayed in a page (as
+             specified by the PageSize property) and rounding up.
 
 ###  PagerStyle `GridPagerStyle`
 
 Gets a reference to the GridPagerStyle object that allows you to
-            set the appearance of the page item in a Telerik RadGrid control.
+             set the appearance of the page item in a Telerik RadGrid control.
 
 #### Remarks
 Use this property to provide a custom style for the paging section of the
-                RadGrid control. Common style attributes that can be adjusted
-                include forecolor, backcolor, font, and content alignment within the cell.
-                Providing a different style enhances the appearance of the RadGrid
-                control.To specify a custom style for the paging section, place the
-                <PagerStyle> tags between the opening and closing tags of
-                the RadGrid control. You can then list the style attributes within
-                the opening <PagerStyle> tag.
+                 RadGrid control. Common style attributes that can be adjusted
+                 include forecolor, backcolor, font, and content alignment within the cell.
+                 Providing a different style enhances the appearance of the RadGrid
+                 control.To specify a custom style for the paging section, place the
+                 <PagerStyle> tags between the opening and closing tags of
+                 the RadGrid control. You can then list the style attributes within
+                 the opening <PagerStyle> tag.
 
 ###  PageSize `Int32`
 
@@ -883,21 +883,21 @@ Gets a collection of the currently selected GridDataItems
 ###  SelectedItemStyle `GridTableItemStyle`
 
 Gets a reference to the  object that allows
-                you to set the appearance of the selected item in a Telerik RadGrid
-                control.
+                 you to set the appearance of the selected item in a Telerik RadGrid
+                 control.
 
 #### Remarks
 Use the SelectedItemStyle property to control the appearance of the selected
-                item in a Telerik RadGrid control. This property is read-only; however,
-                you can set the properties of the GridTableItemStyle object it returns. The
-                properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridTableItemStyle object (for example,
-                    SelectedItemStyle-ForeColor).Nest a <SelectedItemStyle> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, SelectedItemStyle.ForeColor). Common settings
-                usually include a custom background color, foreground color, and font
-                properties.
+                 item in a Telerik RadGrid control. This property is read-only; however,
+                 you can set the properties of the GridTableItemStyle object it returns. The
+                 properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridTableItemStyle object (for example,
+                     SelectedItemStyle-ForeColor).Nest a <SelectedItemStyle> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, SelectedItemStyle.ForeColor). Common settings
+                 usually include a custom background color, foreground color, and font
+                 properties.
 
 ###  SelectedValue `Object`
 
@@ -958,7 +958,7 @@ Gets or sets the name of the Skin that Telerik RadGrid will use.
 
 #### Remarks
 There are three possible scenarios for using this property:Leave this property unset or set it to "Default" - the default skin,
-                    common for the Telerik® UI for ASP.NET Ajax suite will be usedSet the name of the embedded grid skin - the skin will be appliedSet the name of the custom grid skin along with the EnableEmbeddedSkins="false" 
+                    common for the Telerik® UI for ASP.NET Ajax suite will be usedSet the name of the embedded grid skin - the skin will be appliedSet the name of the custom grid skin along with the EnableEmbeddedSkins="false"
             (see 'Creating a custom skin' Fundamentals article)Set this property to "" - no skin will be applied.
                     Only the default grid images (for Expand/Collapse, Sort, Edit, etc) will be
                     used. Use this option if you have own appearance customizations for prevous
@@ -970,7 +970,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SkinID `String`
 
@@ -978,26 +978,26 @@ Gets or sets the skin to apply to the control.
 
 ###  SortHeaderContextMenuColumns `GridHeaderContextMenu`
 
-Gets or sets a value indicating whether the Columns in the  
+Gets or sets a value indicating whether the Columns in the 
                  will be sorted by default.
 
 ###  SortingSettings `GridSortingSettings`
 
 Gets a reference to the  object that
-                    allows you to set the properties of the sorting operation in a
-                    Telerik RadGrid control.
+                     allows you to set the properties of the sorting operation in a
+                     Telerik RadGrid control.
 
 #### Remarks
 Use the SortingSettings property to control the settings of the sorting
-                operations in a Telerik RadGrid control. This property is read-only;
-                however, you can set the properties of the GridSortingSettings object it returns.
-                The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridSortingSettings object (for example,
-                    SortingSettings-SortedAscToolTip).Nest a <SortingSettings> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, SortingSettings.SortedAscToolTip). Common
-                settings usually include the tool tips for the sorting controls.
+                 operations in a Telerik RadGrid control. This property is read-only;
+                 however, you can set the properties of the GridSortingSettings object it returns.
+                 The properties can be set declaratively using one of the following methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridSortingSettings object (for example,
+                     SortingSettings-SortedAscToolTip).Nest a <SortingSettings> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, SortingSettings.SortedAscToolTip). Common
+                 settings usually include the tool tips for the sorting controls.
 
 ###  StatusBarSettings `GridStatusBarItemSettings`
 
@@ -1024,22 +1024,22 @@ Gets or sets the name of the method to call in order to update data
 ###  ValidationSettings `GridValidationSettings`
 
 Gets a reference to the  object that
-                    allows you to set the properties of the validate operation in a
-                    Telerik RadGrid control.
+                     allows you to set the properties of the validate operation in a
+                     Telerik RadGrid control.
 
 #### Remarks
 Use the ValidationSettings property to control the settings of the validate
-                operations in a Telerik RadGrid control. This property is read-only;
-                however, you can set the properties of the GridValidationSettings object it
-                returns. The properties can be set declaratively using one of the following
-                methods:Place an attribute in the opening tag of the Telerik RadGrid
-                    control in the form Property-Subproperty, where Subproperty is a property of
-                    the GridValidationSettings object (for example,
-                    ValidationSettings-EnableValidation).Nest a <ValidationSettings> element between the opening and closing
-                    tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
-                Property.Subproperty (for example, ValidationSettings.EnableValidation). Common
-                settings usually include the propeties for the validation logic in
-                Telerik RadGrid control.
+                 operations in a Telerik RadGrid control. This property is read-only;
+                 however, you can set the properties of the GridValidationSettings object it
+                 returns. The properties can be set declaratively using one of the following
+                 methods:Place an attribute in the opening tag of the Telerik RadGrid
+                     control in the form Property-Subproperty, where Subproperty is a property of
+                     the GridValidationSettings object (for example,
+                     ValidationSettings-EnableValidation).Nest a <ValidationSettings> element between the opening and closing
+                     tags of the Telerik RadGrid control.The properties can also be set programmatically in the form
+                 Property.Subproperty (for example, ValidationSettings.EnableValidation). Common
+                 settings usually include the propeties for the validation logic in
+                 Telerik RadGrid control.
 
 ###  VirtualItemCount `Int32`
 
@@ -1083,7 +1083,7 @@ Use this from RenderContents of the inheritor
 
 When there is a hierarchy and when AllowMultiRowEdit is false this method should close all edit items (put them out of edit mode)
             except the last one. We need to do this later in the page lifecycle to prevent viewstate-related issues when the edit mode is inplace
-            and when there are databound controls in the editors. Original problem affected GridDropDownColumn (in both Combo and DropDown mode) 
+            and when there are databound controls in the editors. Original problem affected GridDropDownColumn (in both Combo and DropDown mode)
             and GridAutoComplete columns.
 
 #### Returns

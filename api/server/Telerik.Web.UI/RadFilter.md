@@ -49,7 +49,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  ClientSettings `RadFilterClientSettings`
 
-Gets a reference to the 
+Gets a reference to the
              object that allows
             you to set the properties of the client-side behavior and
             appearance in a Telerik  control.
@@ -64,7 +64,7 @@ Gets the  used for all menus in the  control.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -133,7 +133,7 @@ Get/Set provider used for building the expression in preview item. Default provi
 
 ###  FieldEditors `RadFilterDataFieldEditorCollection`
 
-A collection of type RadFilterDataFieldEditorCollection containing all RadFilterDataFieldEditor instances 
+A collection of type RadFilterDataFieldEditorCollection containing all RadFilterDataFieldEditor instances
             contained in the RadFilter
 
 ###  FilterContainer `IRadFilterableContainer`
@@ -160,12 +160,12 @@ Gets a value of type FilterStrings representing the localization strings which w
 
 Gets or sets a value indicating where RadFilter will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the filter localization file from any location in the 
+            property will allow you to load the filter localization file from any location in the
             web application.
 
 ###  OperationMode `RadFilterOperationMode`
@@ -202,7 +202,7 @@ Returns resolved RenderMode should the original value was Auto
 
 ###  RootGroup `RadFilterGroupExpression`
 
-Root group for all expressions in RadFilter control. 
+Root group for all expressions in RadFilter control.
             This group cannot be removed.
 
 ###  RootGroupItem `RadFilterGroupExpression`
@@ -216,12 +216,12 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 ###  SettingsFormatter `RadFilterSettingsFormatter`
 
-Gets or sets a value from the RadFilterSettingsFormatter enumeration representing the type of 
+Gets or sets a value from the RadFilterSettingsFormatter enumeration representing the type of
             formatter used to serialize the filter settings
 
 ###  SharedCalendar `RadCalendar`
 
-Gets the  instance that will be used for all 
+Gets the  instance that will be used for all
             pickers in the current  instance.
 
 ###  SharedCalendarMaxDate `RadCalendar`
@@ -496,14 +496,14 @@ Loops through all expression items in the  expression items tree
 ###  GetSingleExpressionItems
 
 Loops through all expression items in the  expression items tree
-            by performing recursion and returns them in a collection containing only the 
+            by performing recursion and returns them in a collection containing only the
              objects which are created from the 
             with the specified FieldName.
 
 #### Returns
 
 `System.Collections.Generic.List`1` Loops through all expression items in the  expression items tree
-            by performing recursion and returns them in a collection containing only the 
+            by performing recursion and returns them in a collection containing only the
              objects which are created from the 
             with the specified FieldName.
 
@@ -669,7 +669,7 @@ Indicates whether to recrete the control
 
 ###  RemoveGroupFilterExpression
 
-Removes group filter expression from its parent. 
+Removes group filter expression from its parent.
             If it is root group item removes all its child items.
 
 #### Parameters

@@ -18,11 +18,11 @@ Class which holds properties for setting the Telerik.Web.UI.RadDataPager client-
 
 ###  OnRequestStart `String`
 
-Gets or sets the event which is fired when a request 
+Gets or sets the event which is fired when a request
             to the server is started.
 
 ###  OnResponseEnd `String`
 
-Gets or sets the event which is fired when a response 
+Gets or sets the event which is fired when a response
             from the server is processed.
 

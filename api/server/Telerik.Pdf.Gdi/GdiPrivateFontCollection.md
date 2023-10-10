@@ -6,7 +6,7 @@ description: Telerik.Pdf.Gdi.GdiPrivateFontCollection
 
 # Telerik.Pdf.Gdi.GdiPrivateFontCollection
 
-Installs a collection of private fonts on the system and uninstalls 
+Installs a collection of private fonts on the system and uninstalls
                 them when disposed.
 
 ## Inheritance Hierarchy

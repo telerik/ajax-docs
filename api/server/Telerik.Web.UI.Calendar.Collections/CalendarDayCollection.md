@@ -7,7 +7,7 @@ description: Telerik.Web.UI.Calendar.Collections.CalendarDayCollection
 # Telerik.Web.UI.Calendar.Collections.CalendarDayCollection
 
 Summary description for CalendarDayCollection.
-            See https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/templates/radcalendar-day-templates Special Daysfor more information.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/templates/radcalendar-day-templates Special Daysfor more information.
 
 ## Inheritance Hierarchy
 
@@ -97,15 +97,15 @@ The RadCalendarDay object to search.
 
 ###  CopyTo
 
-Copies all  elements of the  Array to the specified 
-            one-dimensional  starting at the specified destination index. The 
+Copies all  elements of the  Array to the specified
+            one-dimensional  starting at the specified destination index. The
             index is specified as a 32-bit integer.
 
 #### Parameters
 
 #### inputArray `Telerik.Web.UI.RadCalendarDay`
 
-The one-dimensional  that is the destination 
+The one-dimensional  that is the destination
             of the elements copied from the current .
 
 #### startCopyIndex `System.Int32`
@@ -118,14 +118,14 @@ A 32-bit integer that represents the index in array at which copying begins.
 
 ###  CopyTo
 
-Copies all  elements of the  Array to the specified 
+Copies all  elements of the  Array to the specified
             one-dimensional .
 
 #### Parameters
 
 #### inputArray `Telerik.Web.UI.RadCalendarDay`
 
-The one-dimensional  that is the destination 
+The one-dimensional  that is the destination
             of the elements copied from the current .
 
 #### Returns
@@ -245,7 +245,7 @@ Please refer to  for details.
 
 #### itemComparer `System.Collections.IComparer`
 
-The  implementation to use when comparing elements.-or-A null reference to use the  implementation 
+The  implementation to use when comparing elements.-or-A null reference to use the  implementation
             of each element.
 
 #### Returns
@@ -254,7 +254,7 @@ The  implementation to use when comparing elements.-or-A null reference to use t
 
 ###  Sort
 
-Sorts the elements in the specified range 
+Sorts the elements in the specified range
             using the specified  interface.
 
 #### Remarks
@@ -273,7 +273,7 @@ The number of elements to sort.
 
 #### itemComparer `System.Collections.IComparer`
 
-The  implementation to use when comparing elements.-or-A null reference to use the  implementation 
+The  implementation to use when comparing elements.-or-A null reference to use the  implementation
             of each element.
 
 #### Returns

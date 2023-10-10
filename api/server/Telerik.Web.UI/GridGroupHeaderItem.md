@@ -125,11 +125,11 @@ Gets the respective GridItemType of the grid item.
 ###  OwnerGridID `String`
 
 Gets the ClientID of the RadGrid instance that
-            owns the item.
+             owns the item.
 
 #### Remarks
 This would be useful if several controls use the same eventhandler and you need
-            to diferentiate the Grid instances in the handler.
+             to diferentiate the Grid instances in the handler.
 
 ###  OwnerID `String`
 
@@ -230,7 +230,7 @@ Inherited from Control, for internal usage only
 
 ###  SetTempIndexHierarchical
 
-Used after postback before ViewState becomes available - 
+Used after postback before ViewState becomes available -
             for example in ItemCreated and ItemDataBound events
 
 #### Parameters

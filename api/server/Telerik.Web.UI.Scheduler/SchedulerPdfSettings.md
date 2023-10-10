@@ -54,7 +54,7 @@ This property describes the different types of font embedding: Link,
                 Embed and Subset.
 
 #### Remarks
-Possible values: 
+Possible values:
                 Link
                             The font program is referenced by name in the rendered PDF. Anyone who
                             views a rendered PDF with a linked font program must have that font

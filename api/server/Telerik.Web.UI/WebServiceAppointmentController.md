@@ -32,11 +32,11 @@ A factory for appointment instances.
 
 #### Remarks
 The default factory returns instances of the
-            	Appointment class.
+                   Appointment class.
             
-            	WebServiceAppointmentController needs to create appointment instances
-            	before passing them to the provider. You can use custom appointment
-            	classes by implementing an IAppointmentFactory and setting this property.
+                   WebServiceAppointmentController needs to create appointment instances
+                   before passing them to the provider. You can use custom appointment
+                   classes by implementing an IAppointmentFactory and setting this property.
 
 ## Methods
 

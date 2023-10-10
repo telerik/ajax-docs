@@ -29,7 +29,7 @@ Compact buttons collection.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DialogHeight `Unit`
@@ -134,12 +134,12 @@ Get/set the name of the JavaScript function that is called when the LinkedIn sta
 
 ###  OnSocialButtonClicked `String`
 
-Get/set the name of the JavaScript function that is called after one of the 
+Get/set the name of the JavaScript function that is called after one of the
             Styled buttons is clicked. The event is raised after the  event and it cannot be cancelled.
 
 ###  OnSocialButtonClicking `String`
 
-Get/set the name of the JavaScript function that is called when one of the 
+Get/set the name of the JavaScript function that is called when one of the
             Styled buttons is clicked. The event is raised before the  event and it can be cancelled.
 
 ###  OnTweet `String`

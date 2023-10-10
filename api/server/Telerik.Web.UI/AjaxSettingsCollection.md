@@ -6,8 +6,8 @@ description: Telerik.Web.UI.AjaxSettingsCollection
 
 # Telerik.Web.UI.AjaxSettingsCollection
 
-AjaxSettings collection. 
-            See https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically AjaxSettingsfor more information.
+AjaxSettings collection.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically AjaxSettingsfor more information.
 
 ## Inheritance Hierarchy
 
@@ -100,7 +100,7 @@ The loading panel which will be shown during the ajax request.
 
 #### renderMode `System.Web.UI.UpdatePanelRenderMode`
 
-The render mode which determines if the rendered content will be 
+The render mode which determines if the rendered content will be
             inside of <div> or <span> HTML element.
 
 #### Returns
@@ -128,7 +128,7 @@ The loading panel.
 
 #### renderMode `System.Web.UI.UpdatePanelRenderMode`
 
-The render mode which determines if the rendered content will be 
+The render mode which determines if the rendered content will be
             inside of <div> or <span> HTML element.
 
 #### updatePanelHeight `System.Web.UI.WebControls.Unit`
@@ -160,7 +160,7 @@ The loading panel.
 
 #### renderMode `System.Web.UI.UpdatePanelRenderMode`
 
-The render mode which determines if the rendered content will be 
+The render mode which determines if the rendered content will be
             inside of <div> or <span> HTML element.
 
 #### updatePanelHeight `System.Web.UI.WebControls.Unit`

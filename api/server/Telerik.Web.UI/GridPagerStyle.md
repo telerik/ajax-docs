@@ -212,7 +212,7 @@ Gets or sets a value indicating whether the pager text or only the pager buttons
 
 ###  UseRouting `Boolean`
 
-Gets or sets a value indicating whether URL Routing is enabled for the 
+Gets or sets a value indicating whether URL Routing is enabled for the
             current web application
 
 ###  Visible `Boolean`

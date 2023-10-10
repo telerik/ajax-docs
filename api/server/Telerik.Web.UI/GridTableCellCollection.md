@@ -52,7 +52,7 @@ Adds a collection of  objects at the end of the colleciton.
 
 #### extraCells `Telerik.Web.UI.GridTableCellCollection`
 
-The collection of  object to 
+The collection of  object to
             be added at the end of the collection.
 
 #### Returns
@@ -67,7 +67,7 @@ Adds an Array of  objects at the end of the colleciton.
 
 #### extraCells `Telerik.Web.UI.GridTableCell`
 
-The Array of  object to 
+The Array of  object to
             be added at the end of the Array.
 
 #### Returns

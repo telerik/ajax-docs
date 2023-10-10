@@ -6,7 +6,7 @@ description: Telerik.Web.UI.TargetInput
 
 # Telerik.Web.UI.TargetInput
 
-The class holding a reference to a target System.Web.UI.WebControls.TextBox control 
+The class holding a reference to a target System.Web.UI.WebControls.TextBox control
             in order for Telerik.Web.UI.RadInputManager to track all targeted inputs.
 
 ## Inheritance Hierarchy

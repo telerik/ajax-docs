@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ControlItemData
 # Telerik.Web.UI.ControlItemData
 
 Data class used for transferring control items (menu items, tree nodes, etc.)
-            	from and to web services.
+                   from and to web services.
 
 ## Inheritance Hierarchy
 

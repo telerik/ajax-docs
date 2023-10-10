@@ -6,11 +6,11 @@ description: Telerik.Web.UI.RadDataPager
 
 # Telerik.Web.UI.RadDataPager
 
-RadDataPager can be used to display paging navigation controls for other 
-            data-bound controls that implement the IPageableItemContainer or 
-            IRadPageableItemContainer interface (like the RadListView and MS ListView). 
-            The RadDataPager control lets users view large sets of data in small chunks 
-            for faster loading and easier navigation. It also provides a set of events, 
+RadDataPager can be used to display paging navigation controls for other
+            data-bound controls that implement the IPageableItemContainer or
+            IRadPageableItemContainer interface (like the RadListView and MS ListView).
+            The RadDataPager control lets users view large sets of data in small chunks
+            for faster loading and easier navigation. It also provides a set of events,
             helper methods and properties for custom intervention.
 
 ## Inheritance Hierarchy
@@ -54,7 +54,7 @@ Gets a  object that represents
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -113,12 +113,12 @@ For internal use.
 
 Gets or sets a value indicating where RadDataPager will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MaximumRows `Int32`
@@ -132,7 +132,7 @@ It is used for storing page size set declaratively
 
 ###  PageableItemContainer `IRadPageableItemContainer`
 
-Read only property. Holds reference to control that implements 
+Read only property. Holds reference to control that implements
             IRadPageableItemContainer or IPageableItemContainer.
 
 ###  PageCount `Int32`
@@ -186,7 +186,7 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 ###  SEOPagingQueryPageKey `String`
 
-Get or set query string key for SEO paging. This property may be used in conjunction with 
+Get or set query string key for SEO paging. This property may be used in conjunction with
             AllowSEOPaging
 
 ###  Skin `String`

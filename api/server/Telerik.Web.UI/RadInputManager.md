@@ -6,10 +6,10 @@ description: Telerik.Web.UI.RadInputManager
 
 # Telerik.Web.UI.RadInputManager
 
-The RadInputManager offers an easy and intuitive way to extend a standard ASP.NET System.Web.UI.WebControls.TextBox , 
-            and without any extra custom code, introduce much functionality, normally related to a Telerik RadInput 
-            control. For example, a standard text box control offers no default functionality for text parsing and 
-            validation – this has to be done via custom code, either client or server side. This input validation is 
+The RadInputManager offers an easy and intuitive way to extend a standard ASP.NET System.Web.UI.WebControls.TextBox ,
+            and without any extra custom code, introduce much functionality, normally related to a Telerik RadInput
+            control. For example, a standard text box control offers no default functionality for text parsing and
+            validation – this has to be done via custom code, either client or server side. This input validation is
             normally associated with Telerik RadInput controls.
 
 ## Inheritance Hierarchy
@@ -24,7 +24,7 @@ The RadInputManager offers an easy and intuitive way to extend a standard ASP.NE
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`

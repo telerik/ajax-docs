@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadSliderItem RadSliderItemobjects in a
 #### Remarks
 The RadSliderItemCollectionclass represents a collection of
                 RadSliderItemobjects.
-            	bullet Use the P:Telerik.Web.UI.RadSliderItemCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadSliderItemCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadSliderItem from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of slider items in the collection.
@@ -31,8 +31,8 @@ The RadSliderItemCollectionclass represents a collection of
 
 ###  Item `RadSliderItem`
 
-Gets the RadSliderItem object at the specified index in 
-            	the current RadSliderItemCollection.
+Gets the RadSliderItem object at the specified index in
+                   the current RadSliderItemCollection.
 
 ## Methods
 
@@ -52,14 +52,14 @@ The RadSliderItem to append to the end of the current RadSliderItemCollection.
 
 ###  AddRange
 
-Appends the specified array of RadSliderItem objects to the end of the 
+Appends the specified array of RadSliderItem objects to the end of the
             current RadSliderItemCollection.
 
 #### Parameters
 
 #### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadSliderItem}`
 
-The array of RadSliderItem to append to the end of the current 
+The array of RadSliderItem to append to the end of the current
             RadSliderItemCollection.
 
 #### Returns
@@ -68,8 +68,8 @@ The array of RadSliderItem to append to the end of the current
 
 ###  Contains
 
-Determines whether the specified RadSliderItem object is in the current 
-            	RadSliderItemCollection.
+Determines whether the specified RadSliderItem object is in the current
+                   RadSliderItemCollection.
 
 #### Parameters
 
@@ -79,8 +79,8 @@ The RadSliderItem object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified RadSliderItem object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified RadSliderItem object;
+                   otherwise, false.
 
 ###  FindItemByAttribute
 
@@ -144,12 +144,12 @@ The RadSliderItem to locate.
 
 #### Returns
 
-`System.Int32` The zero-based index of item within the current RadSliderItemCollection, 
-            	if found; otherwise, -1.
+`System.Int32` The zero-based index of item within the current RadSliderItemCollection,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified RadSliderItem object in the current 
+Inserts the specified RadSliderItem object in the current
             RadSliderItemCollection at the specified index location.
 
 #### Parameters
@@ -169,7 +169,7 @@ The RadSliderItem to insert.
 ###  Remove
 
 Removes the specified RadSliderItem object from the current
-            	RadSliderItemCollection.
+                   RadSliderItemCollection.
 
 #### Parameters
 
@@ -184,7 +184,7 @@ The RadSliderItem object to remove.
 ###  Remove
 
 Removes the specified RadSliderItem object from the current
-            	RadSliderItemCollection.
+                   RadSliderItemCollection.
 
 #### Parameters
 

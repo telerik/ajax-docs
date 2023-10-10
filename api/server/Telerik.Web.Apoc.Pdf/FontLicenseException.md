@@ -7,7 +7,7 @@ description: Telerik.Web.Apoc.Pdf.FontLicenseException
 # Telerik.Web.Apoc.Pdf.FontLicenseException
 
 Thrown during creation of PDF font object if the font's license
-                is violated, e.g. attempting to subset a font that does not permit 
+                is violated, e.g. attempting to subset a font that does not permit
                 subsetting.
 
 ## Inheritance Hierarchy

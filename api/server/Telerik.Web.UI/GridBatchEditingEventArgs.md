@@ -32,7 +32,7 @@ The  which initialized the event.
 
 ###  ExecuteCommand
 
-Fires the default command execution. The execution could be canceled by canceling it in the 
+Fires the default command execution. The execution could be canceled by canceling it in the
              event.
 
 #### Parameters

@@ -31,7 +31,7 @@ The DataType property supports the following base .NET Framework data
 
 ###  DateFormat `String`
 
-Gets or sets the DateFormat and DisplayDateFormat that will be applied to the 
+Gets or sets the DateFormat and DisplayDateFormat that will be applied to the
              control.
 
 ###  DefaultFilterFunction `RadFilterFunction`
@@ -57,7 +57,7 @@ Keeps reference to the owner RadFilter control.
 
 ###  PickerType `RadFilterDateFieldEditorPickerType`
 
-Gets or sets what type of date control will be created. 
+Gets or sets what type of date control will be created.
             The default value is DateTimePicker.
 
 ###  PreviewDataFormat `String`

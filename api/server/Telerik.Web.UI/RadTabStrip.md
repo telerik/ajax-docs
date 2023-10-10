@@ -19,12 +19,12 @@ The RadTabStripcontrol is used to display a list of tabs in a Web Forms
                     called root tabs. A tab that has a parent tab is called a child tab. All root
                     tabs are stored in the P:Telerik.Web.UI.RadTabStrip.Tabs Tabscollection. Child tabs are
                     stored in a parent tab's P:Telerik.Web.UI.RadTab.Tabs Tabscollection.
-                Each tab has a P:Telerik.Web.UI.RadTab.Text Textand a P:Telerik.Web.UI.RadTab.Value Valueproperty. 
-            		The value of the P:Telerik.Web.UI.RadTab.Text Textproperty is displayed in the RadTabStripcontrol, 
-            		while the P:Telerik.Web.UI.RadTab.Value Valueproperty is used to store any additional data about the tab, 
-            		such as data passed to the postback event associated with the tab. When clicked, a tab can
+                Each tab has a P:Telerik.Web.UI.RadTab.Text Textand a P:Telerik.Web.UI.RadTab.Value Valueproperty.
+                       The value of the P:Telerik.Web.UI.RadTab.Text Textproperty is displayed in the RadTabStripcontrol,
+                       while the P:Telerik.Web.UI.RadTab.Value Valueproperty is used to store any additional data about the tab,
+                       such as data passed to the postback event associated with the tab. When clicked, a tab can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadTab.NavigateUrl NavigateUrlproperty.
-                You can find information on the server API of RadTabStrip at https://docs.telerik.com/devtools/aspnet-ajax/controls/tabstrip/server-side-programming/events Events.
+                You can find information on the Server-side API of RadTabStrip at https://docs.telerik.com/devtools/aspnet-ajax/controls/tabstrip/server-side-programming/events .
 
 ## Inheritance Hierarchy
 
@@ -65,10 +65,10 @@ Gets or sets a value indicating whether tabs should postback when clicked.
 
 #### Remarks
 RadTabStrip will postback provided one of the following conditions is met:
-            	
-            			The AutoPostBack property is set to true.
-            		
-            			The user has subscribed to the TabClick event.
+                   
+                           The AutoPostBack property is set to true.
+                       
+                           The user has subscribed to the TabClick event.
 
 ###  CausesValidation `Boolean`
 
@@ -108,9 +108,9 @@ Gets a list of all client-side changes (adding a tab, removing a tab, changing a
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new tabremoving existing tabclearing the children of a tab or the control itselfchanging a property of the tab
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new tabremoving existing tabclearing the children of a tab or the control itselfchanging a property of the tab
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -123,81 +123,81 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `RadTabBindingCollection`
 
-Gets a collection of  objects that define the relationship 
-            	between a data item and the tab it is binding to.
+Gets a collection of  objects that define the relationship
+                   between a data item and the tab it is binding to.
 
 ###  DataFieldID `String`
 
 Gets or sets the field from the data source which is the "child" column in the
-            	"parent-child" relationship used to databind the RadTabStrip
-            	control.
+                    "parent-child" relationship used to databind the RadTabStrip
+                    control.
 
 #### Remarks
 RadTabStrip requires both DataFieldID and
-            	DataFieldParentID properties to be set in order to be hierarchically databound.
+                    DataFieldParentID properties to be set in order to be hierarchically databound.
 
 ###  DataFieldParentID `String`
 
 Gets or sets the field from the data source which is the "parent" column in the
-            	"parent-child" relationship used to databind the RadTabStrip
-            	control.
+                    "parent-child" relationship used to databind the RadTabStrip
+                    control.
 
 #### Remarks
 RadTabStrip requires both DataFieldID and
-            		DataFieldParentID properties to be set in order to be hierarchically databound.
-            	
-            		The value of the column specified by DataFieldParentID must be null (Nothing) for root tabs. This is a requirement 
-            		for databinding RadTabStrip.
+                        DataFieldParentID properties to be set in order to be hierarchically databound.
+                    
+                        The value of the column specified by DataFieldParentID must be null (Nothing) for root tabs. This is a requirement
+                        for databinding RadTabStrip.
 
 ###  DataNavigateUrlField `String`
 
 Gets or sets the field of the data source that provides the URL to which tabs navigate.
 
 #### Remarks
-Use the DataNavigateUrlField property to specify the field of the data source (in most cases the name of the database column) 
-            	which provides the values for the NavigateUrl property of databound tabs. 
-            	The DataNavigateUrlField property is taken into account only during data binding. If the DataNavigateUrlField property 
-            	is not set the NavigateUrl property of databound tabs will have its default value - empty string.
+Use the DataNavigateUrlField property to specify the field of the data source (in most cases the name of the database column)
+                    which provides the values for the NavigateUrl property of databound tabs.
+                    The DataNavigateUrlField property is taken into account only during data binding. If the DataNavigateUrlField property
+                    is not set the NavigateUrl property of databound tabs will have its default value - empty string.
 
 ###  DataTextField `String`
 
 Gets or sets the field of the data source that provides the text content of the tabs.
 
 #### Remarks
-Use the DataTextField property to specify the field of the data source (in most cases the name of the database column) 
-            	which provides values for the Text property of databound tabs. The DataTextField property is 
-            	taken into account only during data binding.
+Use the DataTextField property to specify the field of the data source (in most cases the name of the database column)
+                    which provides values for the Text property of databound tabs. The DataTextField property is
+                    taken into account only during data binding.
 
 ###  DataTextFormatString `String`
 
 Gets or sets the formatting string used to control how text to the tabstrip
-            	control is displayed.
+                   control is displayed.
 
 #### Remarks
 Use the DataTextFormatString property to provide a custom display format for text of the tabs.
-            		The data format string consists of two parts, separated by a colon, in the form { A: Bxx }. 
-            		For example, the formatting string {0:F2} would display a fixed point number with two decimal places.
-            	
-            		The entire string must be enclosed in braces to indicate that it is a format string and not a literal string. 
-            		Any text outside the braces is displayed as literal text.
-            	
-            		The value before the colon (A in the general example) specifies the parameter index in a zero-based list of parameters.
-            		This value can only be set to 0.
+                       The data format string consists of two parts, separated by a colon, in the form { A: Bxx }.
+                       For example, the formatting string {0:F2} would display a fixed point number with two decimal places.
+                   
+                       The entire string must be enclosed in braces to indicate that it is a format string and not a literal string.
+                       Any text outside the braces is displayed as literal text.
+                   
+                       The value before the colon (A in the general example) specifies the parameter index in a zero-based list of parameters.
+                       This value can only be set to 0.
 
 ###  DataValueField `String`
 
 Gets or sets the field of the data source that provides the value of the tabs.
 
 #### Remarks
-Use the DataValueField property to specify the field of the data source (in most cases the name of the database column) 
-            	which provides the values for the Value property of databound tabs. The DataValueField property is 
-            	taken into account only during data binding. If the DataValueField property is not set the Value 
-            	property of databound tabs will have its default value - empty string.
+Use the DataValueField property to specify the field of the data source (in most cases the name of the database column)
+                    which provides the values for the Value property of databound tabs. The DataValueField property is
+                    taken into account only during data binding. If the DataValueField property is not set the Value
+                    property of databound tabs will have its default value - empty string.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -264,9 +264,9 @@ Used to customize the keyboard navigation functionality.
 Gets or sets the maximum number of levels to bind to the RadTabStrip control.
 
 #### Remarks
-When binding the RadTabStrip control to a data source, use the MaxDataBindDepth 
-            	property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only 
-            	the root tabs and their immediate children. All remaining records in the data source are ignored.
+When binding the RadTabStrip control to a data source, use the MaxDataBindDepth
+                   property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only
+                   the root tabs and their immediate children. All remaining records in the data source are ignored.
 
 ###  MultiPage `RadMultiPage`
 
@@ -280,13 +280,13 @@ Gets or sets the ID of the RadMultiPage control that
 
 #### Remarks
 You should use different value depending on the following conditions:
-            	
-            			Use the ID property of the RadMuitiPage control if the RadMultiPage control is in 
-            			the same INamingContainer (user control, page, content page, master page) as the current RadTabStrip control.
-            		
-            			Use the UniqueID property of the RadMuitiPage control if the RadMultiPage 
-            			control is in a different INamingContainer (user control, page, content page, master page) than 
-            			the current RadTabStrip control.
+                   
+                           Use the ID property of the RadMuitiPage control if the RadMultiPage control is in
+                           the same INamingContainer (user control, page, content page, master page) as the current RadTabStrip control.
+                       
+                           Use the UniqueID property of the RadMuitiPage control if the RadMultiPage
+                           control is in a different INamingContainer (user control, page, content page, master page) than
+                           the current RadTabStrip control.
 
 ###  ODataDataSourceID `String`
 
@@ -301,7 +301,7 @@ Gets or sets a value indicating the client-side event handler that is called
 Use the OnClientContextMenu property to specify a JavaScript
                 function that will be executed before the context menu shows after right clicking a
                 tab.Two parameters are passed to the handlersender (the client-side RadTabStrip object)
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         tab - the instance of the selected tabdomEvent - the browser DOM event
 
 ###  OnClientDoubleClick `String`
@@ -313,7 +313,7 @@ Gets or sets a value indicating the client-side event handler that is called
 Use the OnClientDoubleClick property to specify a JavaScript
                 function that will be executed when the user double-clicks a tab.
             Two parameters are passed to the handlersender (the client-side RadTabStrip object)
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         tab - the instance of the selected tabdomEvent - the browser DOM event
 
 ###  OnClientLoad `String`
@@ -349,7 +349,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 Use the OnClientMouseOver property to specify a JavaScript
                 function that is called when the user hovers a tab with the mouse.Two parameters are passed to the handler:sender (the client-side RadTabStrip object);
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         tab - the instance of the tab that is being hovereddomEvent - the instance of the browser event.
 
 ###  OnClientReordered `String`
@@ -367,7 +367,7 @@ Gets or sets a value indicating the client-side event handler that is called
 Use the OnClientTabSelected property to specify a JavaScript
                 function that will be executed after a tab is selected - either by left-clicking it
                 with a mouse or hitting enter after tabbing to that tab.Two parameters are passed to the handlersender (the client-side RadTabStrip object)
-                        eventArgs with one property 
+                        eventArgs with one property
                         tab - the instance of the selected tab
 
 ###  OnClientTabSelecting `String`
@@ -380,8 +380,8 @@ Use the OnClientTabSelecting property to specify a
                 JavaScript function that will be executed prior to tab selecting - either by
                 left-clicking it with a mouse or hitting enter after tabbing to that tab. You can
                 cancel that event (prevent tab selecting) by seting the cancel property of the event argument to true.
-            	Two parameters are passed to the handlersender (the client-side RadTabStrip object)
-                        eventArgs with one property 
+                Two parameters are passed to the handlersender (the client-side RadTabStrip object)
+                        eventArgs with one property
                         tab - the instance of the selected tabcancel - whether to cancel the event
 
 ###  OnClientTabUnSelected `String`
@@ -400,12 +400,12 @@ Use the OnClientTabUnSelected property to specify a
 ###  Orientation `TabStripOrientation`
 
 Gets or sets a value indicating the orientation of child tabs within the
-            	RadTabStrip control.
+                   RadTabStrip control.
 
 ###  PerTabScrolling `Boolean`
 
 Gets or sets a value indicating whether the tabstrip should scroll directly to
-            	the next tab.
+                   the next tab.
 
 #### Remarks
 By default tabs are scrolled smoothly. If you want the tabstrip to scroll directly
@@ -443,11 +443,11 @@ Lightweight rendering mode might change the outlook of the component in some old
 ###  ReorderTabsOnSelect `RadTabCollection`
 
 Gets or sets a value indicating whether the row of the selected tab should move
-            	to the bottom.
+                   to the bottom.
 
 #### Remarks
 Use the ReorderTabsOnSelect property to mimic the behavior of the
-            	Windows tabstrip control.
+                   Windows tabstrip control.
 
 ###  ResolvedRenderMode `RenderMode`
 
@@ -470,12 +470,12 @@ This property is applicable when the
 ###  ScrollChildren `Boolean`
 
 Gets or sets a value indicating whether the immediate children of the RadTabStrip control will be
-            	scrollable.
+                   scrollable.
 
 ###  ScrollPosition `Int32`
 
 Gets or sets the position of the scrollable band of tabs relative to the
-            	beginning of the scrolling area.
+                   beginning of the scrolling area.
 
 #### Remarks
 This property is applicable when the ScrollChildren property is set to
@@ -487,8 +487,8 @@ Gets or sets the index of the selected child tab.
 
 #### Remarks
 Use the SelectedIndex property to programmatically specify the selected
-            	child tab in a IRadTabContainer (RadTabStrip or RadTab). 
-            	To clear the selection set the SelectedIndex property to -1.
+                    child tab in a IRadTabContainer (RadTabStrip or RadTab).
+                    To clear the selection set the SelectedIndex property to -1.
 
 ###  SelectedTab `RadTab`
 
@@ -504,7 +504,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Tabs `RadTabCollection`
 
@@ -512,7 +512,7 @@ Gets a RadTabCollection object that contains the root tabs of the current RadTab
 
 #### Remarks
 Use the Tabs property to access the child tabs of RadTabStrip. You can also use the Tabs property to
-            	manage the root tabs. You can add, remove or modify tabs from the Tabs collection.
+                   manage the root tabs. You can add, remove or modify tabs from the Tabs collection.
 
 ###  TabTemplate `ITemplate`
 
@@ -521,16 +521,16 @@ Gets or sets the template for displaying all tabs in the  control.
 ###  UnSelectChildren `Boolean`
 
 Gets or sets a value determining whether child tabs are unselected when a parent
-            	tab is unselected.
+                   tab is unselected.
 
 ###  ValidationGroup `String`
 
 Gets or sets the name of the validation group to which this validation
-                control belongs.
+                 control belongs.
 
 #### Remarks
 This property works only when CausesValidation
-                is set to true.
+                 is set to true.
 
 ###  ValidationGroup `String`
 
@@ -595,7 +595,7 @@ Should be  used by inheritors
 
 ###  FindTab
 
-Returns  the first RadTab 
+Returns  the first RadTab
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -661,8 +661,8 @@ The URL to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RadTab` A RadTab whose NavigateUrl property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RadTab` A RadTab whose NavigateUrl property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindTabByValue
 
@@ -678,8 +678,8 @@ The value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindTabByValue
 
@@ -699,8 +699,8 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 #### Returns
 
-`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  GetAllTabs
 
@@ -708,8 +708,8 @@ Gets a linear list of all tabs in the RadTabStrip control.
 
 #### Returns
 
-`System.Collections.Generic.IList`1` An IList object containing 
-            	all tabs in the current RadTabStrip control.
+`System.Collections.Generic.IList`1` An IList object containing
+                   all tabs in the current RadTabStrip control.
 
 ###  GetEmbeddedSkinNames
 
@@ -722,11 +722,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -781,7 +781,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

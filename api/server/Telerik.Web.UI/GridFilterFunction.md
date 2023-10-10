@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridFilterFunction
 
 # Telerik.Web.UI.GridFilterFunction
 
-Used when column-based filtering feature of RadGrid is enabled. Defines properties and methods for formatting the 
+Used when column-based filtering feature of RadGrid is enabled. Defines properties and methods for formatting the
             predefined filter expressions
 
 ## Inheritance Hierarchy

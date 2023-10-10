@@ -18,10 +18,10 @@ The settings determining the Telerik.Web.UI.RadInputControl password strenght.
 
 ###  CalculationWeightings `String`
 
-List of semi-colon separated numeric values used to determine the weighting of a strength characteristic. 
-            There must be 4 values specified which must total 100. 
-            The default weighting values are defined as 50;15;15;20. 
-            This corresponds to password length is 50% of the strength calculation, Numeric criteria is 15% of strength calculation, casing criteria is 15% of calculation, and symbol criteria is 20% of calculation. 
+List of semi-colon separated numeric values used to determine the weighting of a strength characteristic.
+            There must be 4 values specified which must total 100.
+            The default weighting values are defined as 50;15;15;20.
+            This corresponds to password length is 50% of the strength calculation, Numeric criteria is 15% of strength calculation, casing criteria is 15% of calculation, and symbol criteria is 20% of calculation.
             So the format is 'A;B;C;D' where A = length weighting, B = numeric weighting, C = casing weighting, D = symbol weighting.
 
 ###  IndicatorElementBaseStyle `String`
@@ -38,7 +38,7 @@ Set Width of the indicator
 
 ###  MinimumLowerCaseCharacters `Int32`
 
-Only in effect if RequiresUpperAndLowerCaseCharacters property is true. 
+Only in effect if RequiresUpperAndLowerCaseCharacters property is true.
             Specifies the minimum number of lowercase characters required when requiring mixed case characters as part of your password strength considerations.
             By default MinimumLowerCaseCharacters is 2
 
@@ -54,7 +54,7 @@ Minimum number of symbol characters.
 
 ###  MinimumUpperCaseCharacters `Int32`
 
-Only in effect if RequiresUpperAndLowerCaseCharacters property is true. 
+Only in effect if RequiresUpperAndLowerCaseCharacters property is true.
             Specifies the minimum number of uppercase characters required when requiring mixed case characters as part of your password strength considerations.
             By default MinimumUpperCaseCharacters is 2
 

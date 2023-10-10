@@ -39,15 +39,15 @@ The node to add to the collection.
 
 ###  AddRange
 
-Appends the specified array of  objects to the end of the 
+Appends the specified array of  objects to the end of the
             current .
 
 #### Parameters
 
 #### nodes `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadSiteMapNode}`
 
-The array of  to append to the end of the current 
-            	.
+The array of  to append to the end of the current
+                   .
 
 #### Returns
 
@@ -55,7 +55,7 @@ The array of  to append to the end of the current
 
 ###  FindNode
 
-Returns  the first RadSiteMapNode 
+Returns  the first RadSiteMapNode
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 

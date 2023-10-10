@@ -10,7 +10,7 @@ Data class used for transferring menu items from and to web services.
 
 #### Remarks
 For information about the role of each property see the
-            	Telerik.Web.UI.RadMenuItem RadMenuItem class.
+                   Telerik.Web.UI.RadMenuItem RadMenuItem class.
 
 ## Inheritance Hierarchy
 

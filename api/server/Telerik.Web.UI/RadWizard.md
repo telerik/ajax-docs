@@ -35,7 +35,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -153,8 +153,8 @@ Gets or sets a value indicating whether tabs should postback when clicked.
 
 #### Remarks
 RadWizard will postback provided one of the following conditions is met:
-            	
-            			The RenderedSteps property is set to true.
+                   
+                           The RenderedSteps property is set to true.
 
 ###  RenderMode `RenderMode`
 

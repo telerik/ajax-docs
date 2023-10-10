@@ -25,7 +25,7 @@ ItemType collection indexer.
 
 ###  Add
 
-Adds the specified item to the collection. If the collection already contains an item 
+Adds the specified item to the collection. If the collection already contains an item
             with the same TagName, it will be replaced with the new item.
 
 #### Returns

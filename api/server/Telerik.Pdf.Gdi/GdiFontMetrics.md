@@ -17,12 +17,12 @@ Class that obtains OutlineTextMetrics for a TrueType font
 
 ###  AnsiKerningPairs `GdiKerningPairs`
 
-Gets a collection of kerning pairs for characters defined in 
+Gets a collection of kerning pairs for characters defined in
                 the WinAnsiEncoding scheme only.
 
 ###  Ascent `Int32`
 
-Specifies the maximum distance characters in this font extend 
+Specifies the maximum distance characters in this font extend
                 above the base line. This is the typographic ascent for the font.
 
 ###  AverageWidth `Int32`
@@ -34,32 +34,32 @@ Gets the average width of glyphs in a font.
 Gets the font's bounding box.
 
 #### Remarks
-This is the smallest rectangle enclosing the shape that would 
-                result if all the glyphs of the font were placed with their 
+This is the smallest rectangle enclosing the shape that would
+                result if all the glyphs of the font were placed with their
                 origins cooincident and then filled.
 
 ###  CapHeight `Int32`
 
-Gets the distance between the baseline and the approximate 
+Gets the distance between the baseline and the approximate
                 height of uppercase letters.
 
 ###  Descent `Int32`
 
-Specifies the maximum distance characters in this font extend 
+Specifies the maximum distance characters in this font extend
                 below the base line. This is the typographic descent for the font.
 
 ###  EmSquare `Int32`
 
-Specifies the number of logical units defining the x- or y-dimension 
+Specifies the number of logical units defining the x- or y-dimension
                 of the em square for this font.  The common value for EmSquare is 2048.
 
 #### Remarks
-The number of units in the x- and y-directions are always the same 
+The number of units in the x- and y-directions are always the same
                 for an em square.)
 
 ###  FaceName `String`
 
-Retrieves the typeface name of the font that is selected into the 
+Retrieves the typeface name of the font that is selected into the
                 device context supplied to the GdiFontMetrics constructor.
 
 ###  FirstChar `Int32`
@@ -68,12 +68,12 @@ Gets the value of the first character defined in the font
 
 ###  Flags `Int32`
 
-Gets a collection of flags defining various characteristics of 
+Gets a collection of flags defining various characteristics of
                 a font (e.g. serif or sans-serif, symbolic, etc).
 
 ###  IsEmbeddable `Boolean`
 
-Gets a value indicating whether the font can be legally embedded 
+Gets a value indicating whether the font can be legally embedded
                 within a document.
 
 ###  IsSubsettable `Boolean`
@@ -82,11 +82,11 @@ Gets a value indicating whether the font can be legally subsetted.
 
 ###  ItalicAngle `Int32`
 
-Gets the main italic angle of the font expressed in tenths of 
+Gets the main italic angle of the font expressed in tenths of
                 a degree counterclockwise from the vertical.
 
 #### Remarks
-Regular (roman) fonts have a value of zero. Italic fonts typically 
+Regular (roman) fonts have a value of zero. Italic fonts typically
                 have a negative italic angle (that is, they lean to the right).
 
 ###  KerningPairs `GdiKerningPairs`
@@ -103,19 +103,19 @@ Gets the maximum width of glyphs in a font.
 
 ###  StemV `Int32`
 
-TODO: The thickness, measured horizontally, of the dominant vertical 
+TODO: The thickness, measured horizontally, of the dominant vertical
                 stems of the glyphs in the font.
 
 ###  XHeight `Int32`
 
-Gets the distance between the baseline and the approximate 
+Gets the distance between the baseline and the approximate
                 height of non-ascending lowercase letters.
 
 ## Methods
 
 ###  GetAnsiWidths
 
-Returns the width, in PDF units, of consecutive glyphs for the 
+Returns the width, in PDF units, of consecutive glyphs for the
                 WinAnsiEncoding only.
 
 #### Returns
@@ -136,15 +136,15 @@ Retrieves the widths, in PDF units, of consecutive glyphs.
 
 #### Returns
 
-`System.Int32[]` An array of integers whose size is equal to the number of glyphs 
+`System.Int32[]` An array of integers whose size is equal to the number of glyphs
                 specified in the 'maxp' table.
-                The width at location 0 is the width of glyph with index 0, 
-                The width at location 1 is the width of glyph with index 1, 
+                The width at location 0 is the width of glyph with index 0,
+                The width at location 1 is the width of glyph with index 1,
                 etc...
 
 ###  MapCharacter
 
-Translates the supplied character to a glyph index using the 
+Translates the supplied character to a glyph index using the
                 currently selected font.
 
 #### Parameters

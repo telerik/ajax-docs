@@ -39,7 +39,7 @@ Gets or sets the image URL of the ApplicationMenuItem.
 
 #### Remarks
 Use the ImageUrl property to specify a custom
-            	image to be displayed for the ApplicationMenuItem.
+                   image to be displayed for the ApplicationMenuItem.
 
 ###  Text `String`
 

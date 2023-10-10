@@ -7,16 +7,16 @@ description: Telerik.Web.UI.RecurrencePattern
 # Telerik.Web.UI.RecurrencePattern
 
 Specifies the pattern that Telerik.Web.UI.RecurrenceRule uses to evaluate the
-                recurrence dates set.
+                 recurrence dates set.
 
 #### Remarks
 The properties of the Telerik.Web.UI.RecurrencePattern class work together
-                    to define a complete pattern definition to be used by the
-                    Telerik.Web.UI.RecurrenceRule engine.
-                You should not need to work with it directly as specialized
-                    Telerik.Web.UI.RecurrenceRule classes are provided for the supported modes
-                    of recurrence. They take care of constructing appropriate
-                    Telerik.Web.UI.RecurrencePattern objects.
+                     to define a complete pattern definition to be used by the
+                     Telerik.Web.UI.RecurrenceRule engine.
+                 You should not need to work with it directly as specialized
+                     Telerik.Web.UI.RecurrenceRule classes are provided for the supported modes
+                     of recurrence. They take care of constructing appropriate
+                     Telerik.Web.UI.RecurrencePattern objects.
 
 ## Inheritance Hierarchy
 

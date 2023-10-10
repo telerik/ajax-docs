@@ -29,7 +29,7 @@ Gets an IList object of the Items collection of the TagCloud.
 
 ###  Add
 
-Adds an item to the TagCloud Items collection. 
+Adds an item to the TagCloud Items collection.
             If the Weight of the item is smaller than the MinimalWeightAllowed,
             the item will not be added to the collection.
 
@@ -77,8 +77,8 @@ The zero-based index of the array, at which the copying begins.
 
 ###  Filter
 
-Filters the current collection (the collection itself is not modified) of items based on the values of 
-            MinimalWeightAllowed, MaxNumberOfItems and TakeTopWeightedItems properties, 
+Filters the current collection (the collection itself is not modified) of items based on the values of
+            MinimalWeightAllowed, MaxNumberOfItems and TakeTopWeightedItems properties,
             and returns the filtered collection of TagCloud items.
 
 #### Returns

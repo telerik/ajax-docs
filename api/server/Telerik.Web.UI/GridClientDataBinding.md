@@ -56,7 +56,7 @@ Gets or sets maximum rows parameter name for the SelectMethod in the WebService 
 
 ###  ResponseType `GridClientDataResponseType`
 
-Gets or sets the type of the data requested from a data service. A value of 
+Gets or sets the type of the data requested from a data service. A value of
             GridClientDataResponseType.JSONP allows for cross-domain JSONP requests.
             Default value is GridClientDataResponseType.JSON.
 

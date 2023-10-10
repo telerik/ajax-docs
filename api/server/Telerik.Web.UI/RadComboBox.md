@@ -11,10 +11,10 @@ The RadComboBoxcontrol supports the following features:
                 bullet Databinding that allows the control to be populated from various
                     datasourcesProgrammatic access to the RadComboBoxobject model
                     which allows to dynamic creation of comboboxes, populate items, set
-                    properties.Customizable appearance through built-in or user-defined skins.ItemsEach item has a P:Telerik.Web.UI.RadComboBoxItem.Text Textand a P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty. 
-            		The value of the P:Telerik.Web.UI.RadComboBoxItem.Text Textproperty is displayed in the RadComboBoxcontrol, 
-            		while the P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty is used to store any additional data about the item, 
-            		such as data passed to the postback event associated with the item. 
+                    properties.Customizable appearance through built-in or user-defined skins.ItemsEach item has a P:Telerik.Web.UI.RadComboBoxItem.Text Textand a P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty.
+                       The value of the P:Telerik.Web.UI.RadComboBoxItem.Text Textproperty is displayed in the RadComboBoxcontrol,
+                       while the P:Telerik.Web.UI.RadComboBoxItem.Value Valueproperty is used to store any additional data about the item,
+                       such as data passed to the postback event associated with the item.
                 You can find information on the server API of RadComboBox at https://docs.telerik.com/devtools/aspnet-ajax/controls/combobox/server-side-programming/events .
 
 ## Inheritance Hierarchy
@@ -99,9 +99,9 @@ Gets a list of all client-side changes (adding an item, removing an item, changi
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -158,7 +158,7 @@ Gets a  object that represents
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -247,15 +247,15 @@ Gets or sets a value indicating whether the combobox should cache items loaded o
 ###  EnableLoadOnDemand `Boolean`
 
 Gets or sets a value indicating whether the combobox should issue a callback to
-            the server whenever end-users change the text of the combo (keypress, paste,
-            etc).
+             the server whenever end-users change the text of the combo (keypress, paste,
+             etc).
 
 #### Remarks
 In Load On Demand mode, the combobox starts a callback after a specified amount of
-                time (see ItemRequestTimeout) and calls the
-                server-side ItemsRequested event. Depending on the
-                value of the event arguments, you can add new items to the combobox object and the
-                items will be propagated to the browser after the request.
+                 time (see ItemRequestTimeout) and calls the
+                 server-side ItemsRequested event. Depending on the
+                 value of the event arguments, you can add new items to the combobox object and the
+                 items will be propagated to the browser after the request.
 
 ###  EnableOverlay `Boolean`
 
@@ -275,7 +275,7 @@ Gets or sets a value indicating whether the text of combobox should be selected
 
 ###  EnableVirtualScrolling `Boolean`
 
-Gets or sets a value indicating whether the combobox should load items on demand (via callback) 
+Gets or sets a value indicating whether the combobox should load items on demand (via callback)
             during scrolling-down the drop-down area.
 
 ###  ErrorMessage `String`
@@ -320,7 +320,7 @@ Gets or sets a value indicating whether the combobox should automatically
 
 ###  Footer `WebControl`
 
-Get a footer of 
+Get a footer of
             RadcomboBox.
 
 ###  FooterTemplate `ITemplate`
@@ -330,7 +330,7 @@ Gets or sets the template for displaying footer in
 
 ###  Header `WebControl`
 
-Get a header of 
+Get a header of
             RadcomboBox.
 
 ###  HeaderTemplate `ITemplate`
@@ -389,7 +389,7 @@ Use the Items property to access the child items of RadComboBox
 Gets or sets the number of Items the RadComboBox will load per Item request.
 
 #### Remarks
-Set this property to -1 to load all Items when EnableAutomaticLoadOnDemand is set to true 
+Set this property to -1 to load all Items when EnableAutomaticLoadOnDemand is set to true
             and disable Virtual Scrolling/Show More Results. The default is -1.
 
 ###  ItemTemplate `ITemplate`
@@ -479,7 +479,7 @@ The client-side event that is fired when when the combo loses focus
 
 #### Remarks
 The event handler receives two parameter: the instance of the combobox
-            client-side object and event args.
+             client-side object and event args.
 
 ###  OnClientCheckAllChecked `String`
 
@@ -507,31 +507,31 @@ The event handler receives two parameter: the instance of the combobox
 ###  OnClientDropDownClosing `String`
 
 The client-side event that is fired before the dropdown of the combobox is
-            closed.
+             closed.
 
 #### Remarks
 The event handler receives two parameter: the instance of the combobox
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the combobox dropdown will not be closed.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the combobox dropdown will not be closed.
 
 ###  OnClientDropDownOpened `String`
 
 The client-side event that is fired after the dropdown of the combobox is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the combobox
-            client-side object and event args. The event cannot  be cancelled.
+             client-side object and event args. The event cannot  be cancelled.
 
 ###  OnClientDropDownOpening `String`
 
 The client-side event that is fired before the dropdown of the combobox is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the combobox
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the combobox dropdown will not be opened.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the combobox dropdown will not be opened.
 
 ###  OnClientFocus `String`
 
@@ -539,29 +539,29 @@ The client-side event that is fired when when the combo gains focus
 
 #### Remarks
 The event handler receives two parameter: the instance of the combobox
-            client-side object and event args.
+             client-side object and event args.
 
 ###  OnClientItemChecked `String`
 
-The client-side event that is fired after a RadComboBox item has  
-            been checked.
+The client-side event that is fired after a RadComboBox item has
+             been checked.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the combobox
-            client-side object and event argument with the newly checked item.
+             client-side object and event argument with the newly checked item.
 
 ###  OnClientItemChecking `String`
 
 The client-side event that is fired when a
-            	RadComboBox item is about to be checked.
+                    RadComboBox item is about to be checked.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the RadComboBox
-            		client-side object and event argument of the newly checked item.
-            	
-            		The event can be cancelled - simply call
-            		 args.set_cancel(true); 
-            		from the event handler and the item will not be changed.
+                        client-side object and event argument of the newly checked item.
+                    
+                        The event can be cancelled - simply call
+                         args.set_cancel(true); 
+                        from the event handler and the item will not be changed.
 
 ###  OnClientItemDataBound `String`
 
@@ -575,7 +575,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequested client-side event
                 handler is called when the RadComboBox items were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
 
 ###  OnClientItemsRequestFailed `RadComboBoxItemCollection`
 
@@ -585,8 +585,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequestFailed client-side event
                 handler is called when the operation for populating the RadComboBox has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientItemsRequesting `RadComboBoxItemCollection`
 
@@ -596,18 +596,18 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequesting client-side event
                 handler is called when the RadComboBox is about to be populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
-            			get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
+                           get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientKeyPressing `String`
 
 The client-side event that is fired when the user presses a key inside the
-            combobox.
+             combobox.
 
 #### Remarks
 The event handler receives two parameters:the instance of the combobox client-side object;browser event arguments.You can use the browser event arguments (and the keyCode
-                property in particular) to detect which key was pressed and to write your own
-                custom logic.
+                 property in particular) to detect which key was pressed and to write your own
+                 custom logic.
 
 ###  OnClientLoad `String`
 
@@ -622,24 +622,24 @@ If specified, the OnClienLoad client-side event handler is
 ###  OnClientSelectedIndexChanged `Int32`
 
 The client-side event that is fired after the selected index of the RadComboBox has
-            been changed.
+             been changed.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the combobox
-            client-side object and event argument with the newly selected item.
+             client-side object and event argument with the newly selected item.
 
 ###  OnClientSelectedIndexChanging `Int32`
 
 The client-side event that is fired when the selected index of the
-            	RadComboBox is about to be changed.
+                    RadComboBox is about to be changed.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the RadComboBox
-            		client-side object and event argument of the newly selected item.
-            	
-            		The event can be cancelled - simply call
-            		 args.set_cancel(true); 
-            		from the event handler and the item will not be changed.
+                        client-side object and event argument of the newly selected item.
+                    
+                        The event can be cancelled - simply call
+                         args.set_cancel(true); 
+                        from the event handler and the item will not be changed.
 
 ###  OnClientTemplateDataBound `String`
 
@@ -708,8 +708,8 @@ Gets the currently selected item in the combobox.
 
 #### Remarks
 SelectedItem can be null in load-on-demand or
-                AllowCustomText modes. End-users can type any
-                text.
+                 AllowCustomText modes. End-users can type any
+                 text.
 
 ###  SelectedValue `String`
 
@@ -745,7 +745,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Sort `RadComboBoxSort`
 
@@ -789,28 +789,28 @@ Gets the settings for the web service used to populate items.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both
-                    Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public RadComboBoxItemData[] WebServiceMethodName(object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both
+                     Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public RadComboBoxItemData[] WebServiceMethodName(object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ###  ZIndex `Int32`
 
@@ -914,7 +914,7 @@ Should be  used by inheritors
 
 ###  FindItem
 
-Returns  the first RadComboBoxItem 
+Returns  the first RadComboBoxItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -1087,11 +1087,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -1154,7 +1154,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

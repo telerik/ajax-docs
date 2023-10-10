@@ -29,7 +29,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -75,7 +75,7 @@ For internal use.
 ###  PageViews `RadPageViewCollection`
 
 Gets a RadPageViewCollection that represents the RadMultiPage
-            	controls int the current RadMultiPage instance.
+                   controls int the current RadMultiPage instance.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -99,8 +99,8 @@ Gets or sets a value indicating whether to render only the currently selected Ra
 
 #### Remarks
 Use the RenderSelectedPageOnly to make the RadMultiPage control render only the selected RadMultiPage.
-            	This can save output size because by default all pageviews are rendered. If RenderSelectedPageOnly is set to true 
-            	RadMultiPage will make a request to the server in order to change the selected pageview.
+                   This can save output size because by default all pageviews are rendered. If RenderSelectedPageOnly is set to true
+                   RadMultiPage will make a request to the server in order to change the selected pageview.
 
 ###  ResolvedRenderMode `RenderMode`
 
@@ -165,7 +165,7 @@ The ID of the RadPageView
 #### Returns
 
 `Telerik.Web.UI.RadPageView` A RadPageView with the specified ID. Null (Nothing) is returned if there is no
-            	RadPageView with the specified ID.
+                   RadPageView with the specified ID.
 
 ###  GetEmbeddedSkinNames
 

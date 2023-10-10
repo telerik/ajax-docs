@@ -8,26 +8,26 @@ description: Telerik.Web.UI.RadDockLayout
 
 Workflow:
             1). OnInit - ensure that the framework will call TrackViewState, LoadViewState and SaveViewState.
-            	We expect that all child docks will be created here.
-            2). TrackViewState - raise LoadDockLayout event in order to let the developer to supply 
-            	the initial parents of the registered docks, because the docks could be created with 
-            	different parents than needed.
+                   We expect that all child docks will be created here.
+            2). TrackViewState - raise LoadDockLayout event in order to let the developer to supply
+                   the initial parents of the registered docks, because the docks could be created with
+                   different parents than needed.
             2a). LoadViewState - loads and applies the dock parents from the ViewState in order to persist
-            	the dock positions between the page postbacks.
+                   the dock positions between the page postbacks.
             3). LoadPostData - returns true to ensure that RaisePostDataChangedEvent()
             3a). Dock_DockZoneChanged - this event is raised by each dock in its LoadPostData method.
-            	We handle this event and store the pair UniqueName/NewDockZoneID in the _clientPositions
-            	Dictionary. This Dictionary will be used in #4.
+                   We handle this event and store the pair UniqueName/NewDockZoneID in the _clientPositions
+                   Dictionary. This Dictionary will be used in #4.
             4). RaisePostDataChangedEvent - sets the parents of the registered docks according their
-            	positions, set on the client. These positions are stored in the _clientPositions Dictionary.
+                   positions, set on the client. These positions are stored in the _clientPositions Dictionary.
             5). OnLoad, other events, such as Click, Command, etc. If you create a dock here it will be
-            	rendered on the page, but if it is not recreated in the next OnInit, it will not persist
-            	its position, set on the client!
+                   rendered on the page, but if it is not recreated in the next OnInit, it will not persist
+                   its position, set on the client!
             6). SaveViewState - stores the dock parents in the ViewState in order to persist their positions
-            	between the page postbacks. 
+                   between the page postbacks.
             7). Page_SaveStateComplete - raises the SaveDockLayout event to let the developer to save
-            	the state in a database or other storage medium.
-            Note: The dock parents will be stored in the ViewState if StoreLayoutInViewState is set 
+                   the state in a database or other storage medium.
+            Note: The dock parents will be stored in the ViewState if StoreLayoutInViewState is set
             to true (default). Otherwise the developer should take care of the dock positions when the page
             is posted back.
 
@@ -126,7 +126,7 @@ This is the container where we will store the dock positions set on the client.
 
 By default RadDockLayout will store the positions of its inner docks in
             the ViewState. If you want to store the positions in other storage medium
-            such as a database, or the Session, set this property to false. Setting this 
+            such as a database, or the Session, set this property to false. Setting this
             property to false will also minimize the ViewState usage.
 
 ## Methods
@@ -142,8 +142,8 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetRegisteredDocksState
 
 Cycles through all registered docks and retrieves their state, depending
-            on the omitClosedDocks parameter and the value of the Closed property of 
-            each RadDock control. The List returned by this method could be used to 
+            on the omitClosedDocks parameter and the value of the Closed property of
+            each RadDock control. The List returned by this method could be used to
             recreate the docks when the user visits the page again.
 
 #### Parameters
@@ -228,7 +228,7 @@ A Dictionary, containing UniqueName/Index pairs.
 ###  Telerik.Web.UI.IDockLayout.RegisterDock
 
 Each dock will use this method in its OnInit event to register
-            with the RadDockLayout. This is needed in order for the layout to 
+            with the RadDockLayout. This is needed in order for the layout to
             be able to manage the dock position set on the client.
 
 #### Parameters
@@ -244,7 +244,7 @@ The RadDock object that will be registered.
 ###  Telerik.Web.UI.IDockLayout.RegisterDockZone
 
 Each zone will use this method in its OnInit event to register
-            with the RadDockLayout. This is needed in order the layout to 
+            with the RadDockLayout. This is needed in order the layout to
             be able to manage the dock positions, set on the client.
 
 #### Parameters
@@ -278,7 +278,7 @@ The ClientID of the new parent.
 ###  Telerik.Web.UI.IDockLayout.UnRegisterDock
 
 Each dock will use this method in its OnUnload event to unregister
-            with the IDockLayout. This is needed in order the layout to 
+            with the IDockLayout. This is needed in order the layout to
             be able to manage the dock state properly.
 
 #### Parameters

@@ -22,7 +22,7 @@ Gets or sets the color of the ticks.
 
 ###  Size `Nullable`1`
 
-Gets or sets the size of the ticks. 
+Gets or sets the size of the ticks.
             This is the length of the line in pixels that is drawn to indicate the tick on the scale.
 
 ###  Visible `Boolean`

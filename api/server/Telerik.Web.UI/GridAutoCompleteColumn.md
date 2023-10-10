@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridAutoCompleteColumn
 
 # Telerik.Web.UI.GridAutoCompleteColumn
 
-When in browser mode, RadAutoCompleteColumn looks like GridBoundColumn, rendering the text directly to the cell. 
+When in browser mode, RadAutoCompleteColumn looks like GridBoundColumn, rendering the text directly to the cell.
             When in edit mode, it displays a RadAutoCompleteBoxcontrol. It shows list of suggested values,
             that to appears when the user starts to type inside it. You can bind list using the DataSourceID or DataSource.
             In Edit mode the initial Text of the AutoCompleteBox will be populated based on DataSource of the GridTableView and the
@@ -23,7 +23,7 @@ When in browser mode, RadAutoCompleteColumn looks like GridBoundColumn, renderin
 
 ###  AllowCustomEntry `Boolean`
 
-Gets or sets a value indicating whether the user will be able to add a custom text not present 
+Gets or sets a value indicating whether the user will be able to add a custom text not present
             within the raw data in order to create a custom entry.
 
 ###  AllowFiltering `Boolean`
@@ -189,7 +189,7 @@ Use this property to set width to the filtering control (depending on the column
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -312,17 +312,17 @@ Access the valus passed from the ListBox used for CheckList in the filter.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -462,8 +462,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

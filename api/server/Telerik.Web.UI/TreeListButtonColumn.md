@@ -6,8 +6,8 @@ description: Telerik.Web.UI.TreeListButtonColumn
 
 # Telerik.Web.UI.TreeListButtonColumn
 
-A column type for the RadTreeList control that displays a button 
-            in each corresponding cell inside all rendered 
+A column type for the RadTreeList control that displays a button
+            in each corresponding cell inside all rendered
             Telerik.Web.UI.TreeListDataItem instances.
 
 ## Inheritance Hierarchy
@@ -25,7 +25,7 @@ Gets or sets the CssClass of the button
 
 ###  ButtonType `TreeListButtonColumnType`
 
-Gets or sets a value indicating the type of the button that will be rendered. 
+Gets or sets a value indicating the type of the button that will be rendered.
             The type should be one of the specified by the  enumeration.
 
 ###  ColumnType `String`
@@ -75,7 +75,7 @@ Gets or sets the title that will be shown on the RadWindow confirmation dialog w
 
 ###  DataTextField `String`
 
-Gets or sets a value representing a field from the specified data source. 
+Gets or sets a value representing a field from the specified data source.
             The Text property of the rendered button will then be bound to this field.
 
 ###  DataTextFormatString `String`
@@ -184,7 +184,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

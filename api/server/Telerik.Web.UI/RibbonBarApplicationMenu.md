@@ -31,7 +31,7 @@ Gets a RibbonBarApplicationMenuItemCollection object that contains the items of 
 
 #### Remarks
 Use the Items property to access the items of the ApplicationMenu. You can also use the Items property to
-            	manage the items. You can add, remove or modify items from the Items collection.
+                   manage the items. You can add, remove or modify items from the Items collection.
 
 ###  RenderMode `RenderMode`
 

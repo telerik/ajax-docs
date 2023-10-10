@@ -11,7 +11,7 @@ A collection of Telerik.Web.UI.ColorPickerItem ColorPickerItemobjects in a
 
 #### Remarks
 The ColorPickerItemCollectionclass represents a collection of
-                ColorPickerItemobjects. The ColorPickerItemobjects in turn represent 
+                ColorPickerItemobjects. The ColorPickerItemobjects in turn represent
                 Colors items within a RadColorPickercontrol.bullet Use the Telerik.Web.UI.ColorPickerItemCollection indexerto programmatically retrieve a
                         single ColorPickerItem from the collection, using array notation.
                     Use the Countproperty to determine the total

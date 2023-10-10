@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadSearchBox
 
 # Telerik.Web.UI.RadSearchBox
 
-Telerik RadSearchBox for ASP.NET AJAX provides the user 
+Telerik RadSearchBox for ASP.NET AJAX provides the user
             the ability to write text in an input field with an optional autocomplete functionality.
 
 ## Inheritance Hierarchy
@@ -23,7 +23,7 @@ Telerik RadSearchBox for ASP.NET AJAX provides the user
 
 ###  Buttons `SearchBoxButtonCollection`
 
-Gets the RadSearchBox 
+Gets the RadSearchBox
                 SearchBoxButtons collection.
 
 ###  ClientDataSourceID `String`
@@ -60,7 +60,7 @@ The client-side id of the inner input element used for intergation with RadLabel
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -282,7 +282,7 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 ###  SearchContext `SearchContext`
 
-Gets the RadSearchBox 
+Gets the RadSearchBox
             SearchContext.
 
 ###  ShowLoadingIcon `Boolean`
@@ -299,7 +299,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Text `String`
 
@@ -316,25 +316,25 @@ Gets the settings for the web service used to provide search results.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            			service used to provide search results.
-            			You must specify both
+                        service used to provide search results.
+                        You must specify both
                      Path and
                      Method
-            			to fully describe the service.
+                        to fully describe the service.
                  
-            			In order to use the integrated support, the web service should have the following signature:
-            			
-            			
-            			[ScriptService]
-            			public class WebServiceName : WebService
-            			{
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
                          [WebMethod]
                          public SearchBoxItemData[] GetResult(SearchBoxContext context)
                          {
             
                          }
-            			}
-            			
+                        }
+                        
                      <System.Web.Script.Services.ScriptService()> _
                         Public Class WebService
                             Inherits System.Web.Services.WebService

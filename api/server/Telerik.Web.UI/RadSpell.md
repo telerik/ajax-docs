@@ -75,7 +75,7 @@ The ID can be both a server-side ID, or a client-side ID. RadSpell will find the
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CustomDictionarySourceTypeName `String`
@@ -100,14 +100,14 @@ The filenames are formed with the following scheme: Language + CustomDictionaryS
 
 ###  DialogsCssFile `String`
 
-Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include
             more than one file, use the CSS @import url(); rule to add the other files from the first.
             This property is needed if you are using a custom skin. It allows you to include your custom skin
             CSS in the dialogs, which are separate from the main page.
 
 ###  DialogsScriptFile `String`
 
-Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include
             more than one file, you will need to combine the scripts into one first.
             This property is needed if want to override some of the default functionality without loading the dialog
             from an external ascx file.
@@ -239,7 +239,7 @@ Gets or sets the localization language for the user interface.
 
 Gets or sets a value indicating where the soell will look for its .resx localization files.
             By default these files should be in the App_GlobalResources folder. However, if you cannot put
-            the resource files in the default location or .resx files compilation is disabled for some reason 
+            the resource files in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource files.
 
 #### Remarks
@@ -374,7 +374,7 @@ Gets the  value that corresponds to this Web server control. This property is us
 
 ###  WordIgnoreOptions `WordIgnoreOptions`
 
-Gets or sets the value used to configure the spellchecker engine to ignore words containing: UPPERCASE, some 
+Gets or sets the value used to configure the spellchecker engine to ignore words containing: UPPERCASE, some
             CaPitaL letters, numbers; or to ignore repeated words (very very)
 
 ## Methods

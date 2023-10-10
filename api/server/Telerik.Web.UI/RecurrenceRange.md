@@ -7,15 +7,15 @@ description: Telerik.Web.UI.RecurrenceRange
 # Telerik.Web.UI.RecurrenceRange
 
 Specifies the time frame for which given Telerik.Web.UI.RecurrenceRule is
-                    active. It consists of the start time of the event, it's duration and optional
-                    limits.
+                     active. It consists of the start time of the event, it's duration and optional
+                     limits.
 
 #### Remarks
 Limits for both occurrence count and end date can be specified via the
-                    P:Telerik.Web.UI.RecurrenceRange.MaxOccurrences and P:Telerik.Web.UI.RecurrenceRange.RecursUntil properties.
-                Start and EventDuration properties refer to the recurring event's start and
-                    duration. In the context of Telerik.Web.UI.RadScheduler they are usually
-                    derived from P:Telerik.Web.UI.Appointment.Start and P:Telerik.Web.UI.Appointment.End .
+                     P:Telerik.Web.UI.RecurrenceRange.MaxOccurrences and P:Telerik.Web.UI.RecurrenceRange.RecursUntil properties.
+                 Start and EventDuration properties refer to the recurring event's start and
+                     duration. In the context of Telerik.Web.UI.RadScheduler they are usually
+                     derived from P:Telerik.Web.UI.Appointment.Start and P:Telerik.Web.UI.Appointment.End .
 
 ## Inheritance Hierarchy
 

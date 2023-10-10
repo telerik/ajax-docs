@@ -71,7 +71,7 @@ Enables or disables use of image maps.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CustomFigures `CustomFiguresCollection`
@@ -139,12 +139,12 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 ###  EnableHandlerDetection `Boolean`
 
-Gets or sets a value indicating whether RadChart should automatically check for the 
+Gets or sets a value indicating whether RadChart should automatically check for the
                 ChartHttpHandler existence in the system.web section of the application configuration file.
 
 #### Remarks
-Set this property to false if you are running your application under IIS7 Integrated Mode 
-                and have set the validateIntegratedModeConfiguration flag that does not allow legacy 
+Set this property to false if you are running your application under IIS7 Integrated Mode
+                and have set the validateIntegratedModeConfiguration flag that does not allow legacy
                 HttpHandler registration under the system.web configuration section.
 
 ###  EnableRippleEffect `Boolean`
@@ -157,12 +157,12 @@ Chart height
 
 ###  HttpHandlerUrl `String`
 
-Gets or sets a value indicating the URL to the ChartHttpHandler that is necessary for the correct operation 
+Gets or sets a value indicating the URL to the ChartHttpHandler that is necessary for the correct operation
             of the RadChart control.
 
 #### Remarks
-Generally the default relative value should work as expected and you do not need to modify it manually here; 
-            however in some scenarios where url rewriting is involved, the default value might not work out-of-the-box 
+Generally the default relative value should work as expected and you do not need to modify it manually here;
+            however in some scenarios where url rewriting is involved, the default value might not work out-of-the-box
             and you can customize it via this property to suit the requirements of your application.
 
 ###  IntelligentLabelsEnabled `Boolean`
@@ -233,7 +233,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SkinsOverrideStyles `String`
 

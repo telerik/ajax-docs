@@ -69,7 +69,7 @@ Get or set the format of the label text. Default value is "Page {0} of {1}"
 
 ###  Owner `RadDataPager`
 
-Returns RadDataPager control that owns current pager field. 
+Returns RadDataPager control that owns current pager field.
             This property is set by DataPagerFieldCollection and is read only.
 
 ###  PagerType `String`
@@ -137,7 +137,7 @@ Argument that the link must be build for.
 
 ###  ToString
 
-Returns a  that represents the 
+Returns a  that represents the
             current .
 
 #### Returns

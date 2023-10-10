@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadAjaxPage
 
 # Telerik.Web.UI.RadAjaxPage
 
-This class is required as a base class for any page that hosts a 
+This class is required as a base class for any page that hosts a
             RadAjaxManager control and runs under Medium trust privileges.
 
 #### Remarks

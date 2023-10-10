@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadPageView RadPageViewobjects in a
 #### Remarks
 The RadPageViewCollectionclass represents a collection of
                 RadPageViewobjects.
-            	bullet Use the P:Telerik.Web.UI.RadPageViewCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadPageViewCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadPageView from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of RadPageView controls in the collection.
@@ -66,11 +66,11 @@ A RadPageView to search for in the collection.
 #### Returns
 
 `System.Int32` The zero-based index position of the specified RadPageView in the
-            	collection. If the specified RadPageView is not found in the collection -1 is returned.
+                   collection. If the specified RadPageView is not found in the collection -1 is returned.
 
 ###  Insert
 
-Inserts the specified RadPageView object in the current 
+Inserts the specified RadPageView object in the current
             RadPageViewCollection at the specified index location.
 
 #### Parameters

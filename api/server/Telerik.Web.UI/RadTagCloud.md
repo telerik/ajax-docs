@@ -37,7 +37,7 @@ Gets or sets a bool value that indicates whether tagCloud items are cleared befo
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make Telerik RadTagCloud postback to the server 
+Setting this property to true will make Telerik RadTagCloud postback to the server
             on item click.
 
 ###  BaseSiteUrl `String`
@@ -55,7 +55,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataNavigateUrlField `String`
@@ -93,7 +93,7 @@ Gets or sets the field of the data source that provides the weight of the TagClo
 ###  Distribution `TagCloudDistribution`
 
 Gets or sets a value indicating how the font-size will be distributed among the different words.
-            There is Linear and Logarithmic Distribution. 
+            There is Linear and Logarithmic Distribution.
             (Use Telerik.Web.UI.TagCloudDistribution.Linear or Telerik.Web.UI.TagCloudDistribution.Logarithmic)
 
 ###  EnableAjaxSkinRendering `String`
@@ -138,7 +138,7 @@ Gets the collection of all TagCloud items currently present in the TagCloud.
 
 ###  ListOfSortedItems `SortedList`2`
 
-Gets or sets a SortedList of items, which is used to more efficently sort the items by weight. 
+Gets or sets a SortedList of items, which is used to more efficently sort the items by weight.
             The list is then used to calculate the MaxNumberOfItems, when TakeTopWeightedItems is specified to true.
 
 ###  MaxColor `Color`
@@ -176,7 +176,7 @@ Holds the minimal Weight of all the TagCloud items.
 
 ###  MinimalWeightAllowed `Double`
 
-Gets or sets the minimal weight a TagCloud item could have. 
+Gets or sets the minimal weight a TagCloud item could have.
             If the weight of the item is less than this value, the keyword will not appear in the cloud.
 
 #### Remarks
@@ -273,7 +273,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  Sorting `TagCloudSorting`
 
@@ -283,7 +283,7 @@ Gets or sets a value indicating how the TagCloud items will be sorted.
 ###  TakeTopWeightedItems `RadTagCloudItemCollection`
 
 Must be used with MaxNumberOfItems property.
-            Gets or sets a bool value indicating whether the [MaxNumberOfItems] visible items will be the ones with the biggest weight, 
+            Gets or sets a bool value indicating whether the [MaxNumberOfItems] visible items will be the ones with the biggest weight,
             or the ones that occur first in the DataSource. The default value is false.
 
 ###  Target `String`
@@ -308,37 +308,37 @@ Gets the settings for the web service used to populate items
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public TagCloudDataItem[] WebServiceMethodName(int itemIndex, int itemCount)
-            			{
-            				List<TagCloudDataItem> result = new List<TagCloudDataItem>();
-            				TagCloudDataItem item; 
-            				for (int i = 0; i < itemCount; i++)
-            				{
-            					item = new RadTagCloudItemData();
-            					item.accessKey = "";
-            					item.navigateUrl = "";
-            					item.tabIndex = "";
-            					item.text = "";
-            					item.toolTip = "";
-            					item.value = "";
-            					item.weight = 0;
-            					result.Add(item);
-            				}
-            				return result.ToArray();
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public TagCloudDataItem[] WebServiceMethodName(int itemIndex, int itemCount)
+                            {
+                                List<TagCloudDataItem> result = new List<TagCloudDataItem>();
+                                TagCloudDataItem item;
+                                for (int i = 0; i < itemCount; i++)
+                                {
+                                    item = new RadTagCloudItemData();
+                                    item.accessKey = "";
+                                    item.navigateUrl = "";
+                                    item.tabIndex = "";
+                                    item.text = "";
+                                    item.toolTip = "";
+                                    item.value = "";
+                                    item.weight = 0;
+                                    result.Add(item);
+                                }
+                                return result.ToArray();
+                            }
+                        }
 
 ###  WordsToExclude `String[]`
 
@@ -385,7 +385,7 @@ The Logarithmic or Linear coefficient used for the calculations.
 
 ###  CalculateFontSize
 
-Calculates the font size of a TagCloud item using Logarithmic or Linear distribution. 
+Calculates the font size of a TagCloud item using Logarithmic or Linear distribution.
             The font-size is calculated based on the weight of the item.
 
 #### Parameters
@@ -521,7 +521,7 @@ The TagCloud item for which the coefficient is calculated.
 
 ###  IsCharSurroundedByAlphaNumeric
 
-Checks whether a given punctuation mark (i.e. an invalid character) is surronded by alpha numeric characters. 
+Checks whether a given punctuation mark (i.e. an invalid character) is surronded by alpha numeric characters.
             If yes the character is considered a valid one and added to the word.
 
 #### Parameters
@@ -554,7 +554,7 @@ The character to check.
 
 #### invalidChars `System.String`
 
-String of punctuation marks. 
+String of punctuation marks.
             If empty string is provided Char.IsPunctuation method is used to check for punctuation.
 
 #### Returns
@@ -573,7 +573,7 @@ The character to check.
 
 #### invalidChars `System.String`
 
-String of invalid characters. 
+String of invalid characters.
             If empty string is provided the Char.IsPunctuation is used to check for validity.
 
 #### charPosition `System.Int32`
@@ -590,7 +590,7 @@ The string of the valid punctuation characters.
 
 #### Returns
 
-`System.Boolean` The bool value indicating whether a character is a valid one. 
+`System.Boolean` The bool value indicating whether a character is a valid one.
             Usually, letters and numbers are valid word characters.
 
 ###  LoadClientState
@@ -667,7 +667,7 @@ The physical path to the file.
 
 ###  ReadTextFromURL
 
-Reads an HTML document from the provided URL and returns the text as a string. 
+Reads an HTML document from the provided URL and returns the text as a string.
             If the URL does not exist, or the HTML document is not valid, a string.Empty is returned.
 
 #### Parameters
@@ -769,7 +769,7 @@ The length of the text.
 
 #### Returns
 
-`System.Int32` The 0-based index position of the closing <script> tag. 
+`System.Int32` The 0-based index position of the closing <script> tag.
             The current position is returned if the character is outside a script element.
 
 ###  StripHtml
@@ -786,12 +786,12 @@ The text containing the HTML to strip.
 
 #### isFullHtmlDocument `System.Boolean`
 
-The bool value that indicates whether the string passed is full Html document. 
+The bool value that indicates whether the string passed is full Html document.
             When passing InnerHtml of an element set this value to false.
             The text within the <body> element is taken into consideration when this parameter is true.
 
 #### Returns
 
-`System.String` String containing the "clean" text. 
+`System.String` String containing the "clean" text.
             An empty string is returned if the text does not contain a <body> element.
 

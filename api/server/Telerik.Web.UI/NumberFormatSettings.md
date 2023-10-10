@@ -6,7 +6,7 @@ description: Telerik.Web.UI.NumberFormatSettings
 
 # Telerik.Web.UI.NumberFormatSettings
 
-Class holding settings for number formating which are applied on 
+Class holding settings for number formating which are applied on
             Telerik.Web.UI.RadNumericTextBox value.
 
 ## Inheritance Hierarchy
@@ -48,7 +48,7 @@ Gets or sets the value that indicates whether the control will keep his not roun
 
 ###  KeepTrailingZerosOnFocus `Boolean`
 
-Gets or sets whether the control will keep its trailing zeros 
+Gets or sets whether the control will keep its trailing zeros
             (according to the DecimalDigits setting) when focused.
 
 ###  NegativePattern `String`

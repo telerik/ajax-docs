@@ -10,21 +10,21 @@ Represents an item in the Telerik.Web.UI.RadMenu control.
 
 #### Remarks
 The Telerik.Web.UI.RadMenu control is made up of items. Items which are immediate children
-            		of the menu are root items. Items which are children of root items are child items.
-            	An item usually stores data in two properties, the P:Telerik.Web.UI.RadMenuItem.Text property and 
-            		the P:Telerik.Web.UI.RadMenuItem.Value property. The value of the P:Telerik.Web.UI.RadMenuItem.Text property is displayed 
-            		in the Telerik.Web.UI.RadMenu control, and the P:Telerik.Web.UI.RadMenuItem.Value property is used to store additional data.
-            	To create items, use one of the following methods:bullet Use declarative syntax to define items inline in your page or user control.
-            		Use one of the constructors to dynamically create new instances of the
-            			Telerik.Web.UI.RadMenuItem class. These items can then be added to the
-            			Itemscollection of another item or menu.
-            		Data bind the Telerik.Web.UI.RadMenu control to a data source.
-            		When the user clicks an item, the Telerik.Web.UI.RadMenu control can navigate
+                       of the menu are root items. Items which are children of root items are child items.
+                   An item usually stores data in two properties, the P:Telerik.Web.UI.RadMenuItem.Text property and
+                       the P:Telerik.Web.UI.RadMenuItem.Value property. The value of the P:Telerik.Web.UI.RadMenuItem.Text property is displayed
+                       in the Telerik.Web.UI.RadMenu control, and the P:Telerik.Web.UI.RadMenuItem.Value property is used to store additional data.
+                   To create items, use one of the following methods:bullet Use declarative syntax to define items inline in your page or user control.
+                       Use one of the constructors to dynamically create new instances of the
+                           Telerik.Web.UI.RadMenuItem class. These items can then be added to the
+                           Itemscollection of another item or menu.
+                       Data bind the Telerik.Web.UI.RadMenu control to a data source.
+                       When the user clicks an item, the Telerik.Web.UI.RadMenu control can navigate
                     to a linked Web page, post back to the server or select that item. If the
                     P:Telerik.Web.UI.RadMenuItem.NavigateUrl property of an item is set, the
                     RadMenucontrol navigates to the linked page. By default, a linked page
-                    is displayed in the same window or frame. To display the linked content in a different 
-            		window or frame, use the P:Telerik.Web.UI.RadMenuItem.Target property.
+                    is displayed in the same window or frame. To display the linked content in a different
+                       window or frame, use the P:Telerik.Web.UI.RadMenuItem.Target property.
 
 ## Inheritance Hierarchy
 
@@ -72,9 +72,9 @@ Gets or sets the data item represented by the item.
 
 #### Remarks
 This property is applicable only during data binding. Use it along with the
-                MenuItemDataBound event to perform
-                additional mapping of fields from the data item to
-                RadMenuItem properties.
+                 MenuItemDataBound event to perform
+                 additional mapping of fields from the data item to
+                 RadMenuItem properties.
 
 ###  DisabledCssClass `String`
 
@@ -126,7 +126,7 @@ Use the ExpandedImageUrl property to specify the image that will
 
 Gets or sets the expand behavior of the menu item.
             
-            When set to ExpandMode.WebService the RadMenuItem will populate its children from the web service specified by the RadMenu.WebService and RadMenu.WebServiceMethod properties.
+             When set to ExpandMode.WebService the RadMenuItem will populate its children from the web service specified by the RadMenu.WebService and RadMenu.WebServiceMethod properties.
 
 ###  FocusedCssClass `String`
 
@@ -191,7 +191,7 @@ Gets a  object that contains the child items of the current RadMenuItem.
 
 #### Remarks
 Use the Items property to access the child items of the RadMenuItem. You can also use the Items property to
-            	manage the child items - you can add, remove or modify items.
+                   manage the child items - you can add, remove or modify items.
 
 ###  ItemTemplate `ITemplate`
 
@@ -226,7 +226,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost item e
 
 #### Remarks
 You can use the OuterCssClass property to specify unique
-            	appearance for the item.
+                   appearance for the item.
 
 ###  Owner `IRadMenuItemContainer`
 
@@ -316,7 +316,7 @@ Use the Value property to specify or determine the value associated
 
 ###  ApplyContentTemplate
 
-Instantiates the ContentTemplate inside the Content. 
+Instantiates the ContentTemplate inside the Content.
             Clears all existing controls in the Content before that.
 
 #### Returns

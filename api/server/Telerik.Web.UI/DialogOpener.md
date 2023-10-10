@@ -34,7 +34,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DialogDefinitions `DialogDefinitionDictionary`
@@ -46,14 +46,14 @@ TODO
 
 ###  DialogsCssFile `String`
 
-Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include
             more than one file, use the CSS @import url(); rule to add the other files from the first.
             This property is needed if you are using a custom skin. It allows you to include your custom skin
             CSS in the dialogs, which are separate from the main page.
 
 ###  DialogsScriptFile `String`
 
-Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include 
+Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include
             more than one file, you will need to combine the scripts into one first.
             This property is needed if want to override some of the default functionality without loading the dialog
             from an external ascx file.
@@ -291,7 +291,7 @@ Saves the client state data
 
 ###  SerializeManagerParameters
 
-If the EnableTelerikManagers property is set to true, this function should be called to copy the settings 
+If the EnableTelerikManagers property is set to true, this function should be called to copy the settings
             (CDN, handler URL, etc.) to the script/stylesheet manager control in the dialogs.
 
 #### Returns

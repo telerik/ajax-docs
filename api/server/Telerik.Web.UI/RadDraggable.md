@@ -42,7 +42,7 @@ The values of the property should be a valid jQuery selectors. E.g. class name o
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CursorOffset `Object`

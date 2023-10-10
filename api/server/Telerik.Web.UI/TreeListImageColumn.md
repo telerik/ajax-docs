@@ -6,7 +6,7 @@ description: Telerik.Web.UI.TreeListImageColumn
 
 # Telerik.Web.UI.TreeListImageColumn
 
-Represents a Telerik.Web.UI.TreeListColumn extended to display an Image 
+Represents a Telerik.Web.UI.TreeListColumn extended to display an Image
             in each of its data cells.
 
 ## Inheritance Hierarchy
@@ -90,7 +90,7 @@ Gets or sets the tooltip of the header cell.
 
 ###  ImageAlign `ImageAlign`
 
-Gets or sets a value from the ImageAlign enumeration representing the alignment of 
+Gets or sets a value from the ImageAlign enumeration representing the alignment of
             the rendered image in relation to the text.
 
 ###  ImageHeight `Unit`
@@ -179,7 +179,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

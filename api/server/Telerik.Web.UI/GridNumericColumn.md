@@ -6,11 +6,11 @@ description: Telerik.Web.UI.GridNumericColumn
 
 # Telerik.Web.UI.GridNumericColumn
 
-When in browser mode, GridNumericColumn looks and behaves like a standard GridBoundColumn. 
-            When in edit mode, however, it displays a RadNumericTextBox control. 
-            This column type is for numeric values. Its DataField property must identify a field with 
+When in browser mode, GridNumericColumn looks and behaves like a standard GridBoundColumn.
+            When in edit mode, however, it displays a RadNumericTextBox control.
+            This column type is for numeric values. Its DataField property must identify a field with
             a valid data type (Number or Decimal).
-            This column type is editable (implements the IGridEditableColumn interface) and by default 
+            This column type is editable (implements the IGridEditableColumn interface) and by default
             provides GridNumericColumnEditor as its column editor.
 
 ## Inheritance Hierarchy
@@ -212,7 +212,7 @@ Use this property to set width to the filtering control (depending on the column
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -365,17 +365,17 @@ Gets or sets the NumericType property of the  control.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -534,8 +534,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

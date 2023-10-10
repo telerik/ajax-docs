@@ -114,7 +114,7 @@ Sets or gets whether cell content must be encoded. Default value is
 
 ###  IsEditable `Boolean`
 
-Gets a value indicating whether this column is currently editable. Use the column's 
+Gets a value indicating whether this column is currently editable. Use the column's
             ReadOnly property if you want to change its editing capabilities.
 
 ###  ItemStyle `TableItemStyle`
@@ -247,7 +247,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters
@@ -278,8 +278,8 @@ Prepares the cell of the given item when the treelist is rendered.
 
 ###  ShouldExtractValues
 
-Gets or sets a value specifying whether RadTreeList should extract values from the specified 
-             instance based on the item's editable state, 
+Gets or sets a value specifying whether RadTreeList should extract values from the specified
+             instance based on the item's editable state,
             the current column's ReadOnly state and the value of ForceExtractValue property.
 
 #### Returns

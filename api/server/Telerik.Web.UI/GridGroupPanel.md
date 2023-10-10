@@ -7,13 +7,13 @@ description: Telerik.Web.UI.GridGroupPanel
 # Telerik.Web.UI.GridGroupPanel
 
 GridGroupPanelappears on the top of Telerik RadGrid
-                when P:Telerik.Web.UI.RadGrid.ShowGroupPanel ShowGroupPanelof RadGrid is set to
-                trueand if P:Telerik.Web.UI.GridClientSettings.AllowDragToGroup is set to true, you can drag column to the panel to group data by
-                that column.
+                 when P:Telerik.Web.UI.RadGrid.ShowGroupPanel ShowGroupPanelof RadGrid is set to
+                 trueand if P:Telerik.Web.UI.GridClientSettings.AllowDragToGroup is set to true, you can drag column to the panel to group data by
+                 that column.
 
 #### Remarks
 Group by fields (displayed in the GroupPanel) are defined through the
-                P:Telerik.Web.UI.GridTableView.GroupByExpressions GridGroupByExpressions.
+                 P:Telerik.Web.UI.GridTableView.GroupByExpressions GridGroupByExpressions.
 
 ## Inheritance Hierarchy
 
@@ -27,8 +27,8 @@ Group by fields (displayed in the GroupPanel) are defined through the
 ###  GroupPanelItems `List`1`
 
 Gets a collection of items displayed in the group panel. These items represent
-            the GroupByFields used for Telerik RadGrid
-            grouping.
+             the GroupByFields used for Telerik RadGrid
+             grouping.
 
 ###  PanelItemsStyle `GridPanelItemsStyle`
 

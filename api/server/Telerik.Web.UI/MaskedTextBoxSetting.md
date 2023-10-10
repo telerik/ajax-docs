@@ -99,7 +99,7 @@ Gets or sets the time, in milliseconds, the InvalidStyle should be displayd. Mus
 
 ###  IsValid `Boolean`
 
-Gets if the TargetControls in the InputSettings 
+Gets if the TargetControls in the InputSettings
             are successfully validated.
 
 ###  Mask `String`

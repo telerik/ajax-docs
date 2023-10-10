@@ -6,7 +6,7 @@ description: Telerik.Web.Data.FilterDescriptorBase
 
 # Telerik.Web.Data.FilterDescriptorBase
 
-Base class for all Telerik.Web.Data.IFilterDescriptor used for 
+Base class for all Telerik.Web.Data.IFilterDescriptor used for
             handling the logic for property changed notifications.
 
 ## Inheritance Hierarchy
@@ -19,8 +19,8 @@ Base class for all Telerik.Web.Data.IFilterDescriptor used for
 
 ###  CreateFilterExpression
 
-Creates a filter expression by delegating its creation to 
-            , if 
+Creates a filter expression by delegating its creation to
+            , if
              is , otherwise throws
 
 #### Parameters

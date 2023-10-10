@@ -23,7 +23,7 @@ Gets or sets a value indicating whether the current RadWizardStep is active.
 
 #### Remarks
 Use the Active property to activate a RadWizardStep object. There can be only one selected
-            	RadWizardStep at a time within a RadWizard control.
+                   RadWizardStep at a time within a RadWizard control.
 
 ###  ActiveImageUrl `Boolean`
 
@@ -31,11 +31,11 @@ Gets or sets the URL to an image which is displayed when the step is active.
 
 #### Remarks
 Use the ActiveImageUrl property to specify a custom image that will be
-            		displayed when the current step is active. Setting the SelectedImageUrl
-            		property required the ImageUrl property to be set beforehand. 
-            	
-            		If the ActiveImageUrl property is not set the value of the ImageUrl 
-            		will be used instead.
+                       displayed when the current step is active. Setting the SelectedImageUrl
+                       property required the ImageUrl property to be set beforehand.
+                   
+                       If the ActiveImageUrl property is not set the value of the ImageUrl
+                       will be used instead.
 
 ###  AllowReturn `Boolean`
 
@@ -45,16 +45,16 @@ Gets or sets the allow return.
 
 ###  DisabledImageUrl `String`
 
-Gets or sets the URL to an image which is displayed when the step is disabled 
-            	(its Enabled property is set to false).
+Gets or sets the URL to an image which is displayed when the step is disabled
+                   (its Enabled property is set to false).
 
 #### Remarks
 Use the DisabledImageUrl property to specify a custom image that will be
-            		displayed when the current step is disabled. Setting the DisabledImageUrl
-            		property required the ImageUrl property to be set beforehand. 
-            	
-            		If the DisabledImageUrl property is not set the value of the ImageUrl 
-            		will be used instead.
+                       displayed when the current step is disabled. Setting the DisabledImageUrl
+                       property required the ImageUrl property to be set beforehand.
+                   
+                       If the DisabledImageUrl property is not set the value of the ImageUrl
+                       will be used instead.
 
 ###  DisplayCancelButton `Boolean`
 
@@ -66,16 +66,16 @@ Gets or sets the height of the Web server control.
 
 ###  HoveredImageUrl `String`
 
-Gets or sets the URL to an image which is displayed when the 
-            	user hovers the current step with the mouse.
+Gets or sets the URL to an image which is displayed when the
+                   user hovers the current step with the mouse.
 
 #### Remarks
 Use the HoveredImageUrl property to specify a custom image that will be
-            		displayed when the user hovers the step with the mouse. Setting the HoveredImageUrl
-            		property required the ImageUrl property to be set beforehand. 
-            	
-            		If the HoveredImageUrl property is not set the value of the ImageUrl 
-            		will be used instead.
+                       displayed when the user hovers the step with the mouse. Setting the HoveredImageUrl
+                       property required the ImageUrl property to be set beforehand.
+                   
+                       If the HoveredImageUrl property is not set the value of the ImageUrl
+                       will be used instead.
 
 ###  ImageUrl `String`
 
@@ -83,7 +83,7 @@ Gets or sets the URL to an image which is displayed next to the text of a step.
 
 #### Remarks
 Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current step.
+                   displayed before the text of the current step.
 
 ###  Index `Int32`
 

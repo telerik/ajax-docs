@@ -86,7 +86,7 @@ Processes the passed RadFilterGroupExpression object to build a filter expressio
 
 #### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
 
-A RadFilterGroupExpression object that will be used to extract the 
+A RadFilterGroupExpression object that will be used to extract the
             filter expression.
 
 #### Returns

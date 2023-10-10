@@ -10,10 +10,10 @@ This partial class specifies the rendering of RadToolBarButton.
 
 #### Remarks
 When the user clicks a toolbar button, the Telerik.Web.UI.RadToolBar RadToolBarcontrol can
-            		either navigate to a linked Web page or simply post back to the server. If the
+                       either navigate to a linked Web page or simply post back to the server. If the
                     P:Telerik.Web.UI.RadToolBarButton.NavigateUrl NavigateUrlproperty of a toolbar button is set, the
                     Telerik.Web.UI.RadToolBar RadToolBarcontrol navigates to the linked page. By default,
-            		a linked page is displayed in the same window or frame as the Telerik.Web.UI.RadToolBar RadToolBarcontrol. To display the linked content in a different window or frame, use the
+                       a linked page is displayed in the same window or frame as the Telerik.Web.UI.RadToolBar RadToolBarcontrol. To display the linked content in a different window or frame, use the
                     P:Telerik.Web.UI.RadToolBarButton.Target Targetproperty.
 
 ## Inheritance Hierarchy
@@ -45,7 +45,7 @@ By default, page validation is performed when the button is clicked. Page
                 validation determines whether the input controls associated with a validation
                 control on the page all pass the validation rules specified by the validation
                 control. You can specify or determine whether validation is performed when the button is clicked
-            	on both the client and the server by using the CausesValidation
+                   on both the client and the server by using the CausesValidation
                 property. To prevent validation from being performed, set the
                 CausesValidation property to false.
 
@@ -55,12 +55,12 @@ Gets or sets if the button is checked.
 
 #### Remarks
 The Checked property of the button depends on the
-            	CheckOnClick property. If the
-            	CheckOnClick property is set to
-            	false, the Checked property will be ignored.
-            	When a button's Checked state is set to true, all the buttons that belong
-            	to the same group in the RadToolBar get their Checked
-            	state set to false.
+                   CheckOnClick property. If the
+                   CheckOnClick property is set to
+                   false, the Checked property will be ignored.
+                   When a button's Checked state is set to true, all the buttons that belong
+                   to the same group in the RadToolBar get their Checked
+                   state set to false.
 
 ###  CheckedCssClass `Boolean`
 
@@ -101,13 +101,13 @@ Use the ClickedImageUrl property to specify the image that will be
 ###  CommandArgument `String`
 
 Gets or sets an optional parameter passed to the Command event of the
-            	RadToolBar instance along with the associated
-            	CommandName
+                   RadToolBar instance along with the associated
+                   CommandName
 
 ###  CommandName `String`
 
 Gets or sets the command name associated with the toolbar button that is passed to the
-            	ItemCommand event of the RadToolBar instance.
+                   ItemCommand event of the RadToolBar instance.
 
 ###  DataItem `Object`
 
@@ -171,11 +171,11 @@ Gets or sets the group to which the button belongs.
 
 #### Remarks
 The Group property of the button depends on the
-            	CheckOnClick property. When several buttons
-            	in the RadToolBar are assigned to the same group, checking one
-            	of them will uncheck the one that is currently checked. If the
-            	CheckOnClick property is set to
-            	false, the Group property will be ignored.
+                   CheckOnClick property. When several buttons
+                   in the RadToolBar are assigned to the same group, checking one
+                   of them will uncheck the one that is currently checked. If the
+                   CheckOnClick property is set to
+                   false, the Group property will be ignored.
 
 ###  HoveredCssClass `String`
 
@@ -251,7 +251,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 
 #### Remarks
 You can use the OuterCssClass property to specify unique
-            	appearance for the item, or to insert elements that are before/after the link element.
+                   appearance for the item, or to insert elements that are before/after the link element.
 
 ###  OverFlow `ToolBarOverflow`
 
@@ -312,7 +312,7 @@ Gets or sets the text displayed for the current item.
 
 #### Remarks
 Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
+                   in the RadToolBar control.
 
 ###  ToolBar `RadToolBar`
 
@@ -325,11 +325,11 @@ Use this property to obtain an instance to the
 ###  ValidationGroup `String`
 
 Gets or sets the name of the validation group to which the
-            	RadToolBarButton belongs.
+                    RadToolBarButton belongs.
 
 #### Remarks
 This property works only when CausesValidation
-                is set to true.
+                 is set to true.
 
 ###  Value `String`
 

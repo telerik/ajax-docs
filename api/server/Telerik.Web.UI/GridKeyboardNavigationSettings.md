@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridKeyboardNavigationSettings
 
 # Telerik.Web.UI.GridKeyboardNavigationSettings
 
-Class holding settings associated with the Telerik.Web.UI.RadGrid keyboard 
+Class holding settings associated with the Telerik.Web.UI.RadGrid keyboard
             navigation functionality.
 
 ## Inheritance Hierarchy
@@ -19,12 +19,12 @@ Class holding settings associated with the Telerik.Web.UI.RadGrid keyboard
 
 ###  AllowActiveRowCycle `Boolean`
 
-This property set whether active row should be set to first/last item when current item is last/first 
+This property set whether active row should be set to first/last item when current item is last/first
             and down/up key is pressed (default is false)
 
 ###  AllowSubmitOnEnter `Boolean`
 
-This property set whether the edit form will be submited when the ENTER key is pressed 
+This property set whether the edit form will be submited when the ENTER key is pressed
             (default is false)
 
 ###  CancelChangesKey `GridFocusKeys`

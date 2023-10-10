@@ -71,7 +71,7 @@ A RadFilterFunction instance representing the current filter function.
 
 #### Returns
 
-`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` A RadFilterOqlEvaluator inherited object representing a specific evaluator, based on the 
+`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` A RadFilterOqlEvaluator inherited object representing a specific evaluator, based on the
             provided function.
 
 ###  GetEvaluator

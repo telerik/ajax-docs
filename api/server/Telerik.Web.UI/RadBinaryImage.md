@@ -75,7 +75,7 @@ This should be an instance of same type as
 
 ###  ImageUrl `String`
 
-Gets or sets the location of an image to display in the 
+Gets or sets the location of an image to display in the
              control.
 
 #### Remarks
@@ -83,7 +83,7 @@ Applicable only when  property is not set.
 
 ###  PersistDataIfNotVisible `Boolean`
 
-Gets or sets a value indicating whether the image data will 
+Gets or sets a value indicating whether the image data will
             be persisted if control is invisible
 
 ###  ResizeMode `BinaryImageResizeMode`
@@ -111,7 +111,7 @@ Set whenever to render <img> tag when the image src is empty string.
 
 ###  AddAttributesToRender
 
-Adds HTML attributes and styles that need to be rendered to the specified 
+Adds HTML attributes and styles that need to be rendered to the specified
             . This method is used primarily
             by control developers.
 
@@ -137,7 +137,7 @@ Binds a data source to the invoked server control and all its child
 
 ###  SaveViewState
 
-Saves any state that was modified after the 
+Saves any state that was modified after the
              method was
             invoked.
 

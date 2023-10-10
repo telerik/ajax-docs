@@ -32,7 +32,7 @@ Specifies the Tab to which the corresponding tool group belongs
 ###  Tag `String`
 
 Gets or sets a string which will be used by the ToolAdapter to associate
-            the group with the adapter's virtual structure. In the default adapter this 
+            the group with the adapter's virtual structure. In the default adapter this
             is the name of the docking zone where the toolbar should be placed.
 
 ###  Tools `EditorToolBaseCollection`

@@ -73,7 +73,7 @@ The method expects local paths. E.g. "C:\SomeFolder\RadControls\Spell\TDF".  Tra
             VB.NET
             
             Dim checker As SpellChecker
-            checker = New SpellChecker(Server.MapPath("~/RadControls/Spell/TDF"))
+               checker = New SpellChecker(Server.MapPath("~/RadControls/Spell/TDF"))
 
 ###  EditDistance `Int32`
 
@@ -100,25 +100,25 @@ Specifies the type name for the custom spell check provider
 Sets the text to be spellchecked.  It can be plain text or HTML.
 
 #### Remarks
-This property can be used to pass the text to the spellchecker engine programmatically.  The engine can deal with plaintext or any HTML-like format.  
+This property can be used to pass the text to the spellchecker engine programmatically.  The engine can deal with plaintext or any HTML-like format.
              It ignores text inside angle brackets (<>) and transforms HTML entities to their character values.  E.g. &amp; becomes &
              C#:
              
             using (SpellChecker checker = new SpellChecker(Server.MapPath("~/RadControls/Spell/TDF")))
             {
-            	checker.Text = text;
-            	return checker.Errors;
+                checker.Text = text;
+                return checker.Errors;
             }
              
              VB.NET
              
             Dim checker As SpellChecker
             Try
-            	checker = New SpellChecker(Server.MapPath("~/RadControls/Spell/TDF"))
-            	checker.Text = text
-            	Return checker.Errors
+                checker = New SpellChecker(Server.MapPath("~/RadControls/Spell/TDF"))
+                checker.Text = text
+                Return checker.Errors
             Finally
-            	checker.Dispose()
+                checker.Dispose()
             End Try
 
 ###  TextWords `String`

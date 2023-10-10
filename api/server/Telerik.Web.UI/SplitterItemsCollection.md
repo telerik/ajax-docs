@@ -11,7 +11,7 @@ A collection of Telerik.Web.UI.SplitterItem SplitterItemobjects in a
 
 #### Remarks
 The SplitterItemsCollectionclass represents a collection of
-                SplitterItemobjects. The SplitterItemobjects in turn represent 
+                SplitterItemobjects. The SplitterItemobjects in turn represent
                 panes items within a RadSplittercontrol.bullet Use the P:Telerik.Web.UI.SplitterItemsCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single SplitterItem from the collection, using array notation.
                     Use the Countproperty to determine the total

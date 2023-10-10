@@ -6,7 +6,7 @@ description: Telerik.Web.Data.DescriptorBase
 
 # Telerik.Web.Data.DescriptorBase
 
-Base class for all descriptors used for 
+Base class for all descriptors used for
             handling the logic for property changed notifications.
 
 ## Inheritance Hierarchy

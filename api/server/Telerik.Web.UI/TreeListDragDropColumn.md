@@ -7,8 +7,8 @@ description: Telerik.Web.UI.TreeListDragDropColumn
 # Telerik.Web.UI.TreeListDragDropColumn
 
 TreeListDragDropColumn is used for utilizing items drag and drop operation in RadTreeList.
-            It renders a drag handle which can be used to get hold of the item and drag it around. 
-            When this column is used, an item can be dragged only if the drag handle is clicked. 
+            It renders a drag handle which can be used to get hold of the item and drag it around.
+            When this column is used, an item can be dragged only if the drag handle is clicked.
             Note that item selection still needs to be enabled in order for the handle to be active.
 
 ## Inheritance Hierarchy
@@ -39,7 +39,7 @@ Gets or sets the ToolTip of the Drag image for the TreeListDragDropColumn
 
 ###  DragImageUrl `String`
 
-Gets or sets the URL of the drag image that will be displayed 
+Gets or sets the URL of the drag image that will be displayed
             instead of the default Drag image for the TreeListDragDropColumn
 
 ###  FooterText `String`
@@ -129,7 +129,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

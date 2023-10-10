@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterGridQueryProvider
 
 # Telerik.Web.UI.RadFilterGridQueryProvider
 
-Represents a query provider used to filter Telerik.Web.UI.RadGrid when it is assigned as a filter 
+Represents a query provider used to filter Telerik.Web.UI.RadGrid when it is assigned as a filter
             container for Telerik.Web.UI.RadFilter .
 
 ## Inheritance Hierarchy

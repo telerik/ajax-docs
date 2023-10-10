@@ -58,7 +58,7 @@ The property that has a new value.
 ###  VerifyPropertyName
 
 Warns the developer if this object does not have
-            a public property with the specified name. This 
+            a public property with the specified name. This
             method does not exist in a Release build.
 
 #### Returns

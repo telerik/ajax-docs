@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadPanelItem RadPanelItemobjects in a
 #### Remarks
 The RadPanelItemCollectionclass represents a collection of
                 RadPanelItemobjects.
-            	bullet Use the P:Telerik.Web.UI.RadPanelItemCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadPanelItemCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadPanelItem from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of panel items in the collection.
@@ -31,8 +31,8 @@ The RadPanelItemCollectionclass represents a collection of
 
 ###  Item `RadPanelItem`
 
-Gets the RadPanelItem object at the specified index in 
-            	the current RadPanelItemCollection.
+Gets the RadPanelItem object at the specified index in
+                   the current RadPanelItemCollection.
 
 ## Methods
 
@@ -52,14 +52,14 @@ The RadPanelItem to append to the end of the current RadPanelItemCollection.
 
 ###  AddRange
 
-Appends the specified array of RadPanelItem objects to the end of the 
+Appends the specified array of RadPanelItem objects to the end of the
             current RadPanelItemCollection.
 
 #### Parameters
 
 #### items `Telerik.Web.UI.RadPanelItem`
 
-The array of RadPanelItem o append to the end of the current 
+The array of RadPanelItem o append to the end of the current
             RadPanelItemCollection.
 
 #### Returns
@@ -68,8 +68,8 @@ The array of RadPanelItem o append to the end of the current
 
 ###  Contains
 
-Determines whether the specified RadPanelItem object is in the current 
-            	RadPanelItemCollection.
+Determines whether the specified RadPanelItem object is in the current
+                   RadPanelItemCollection.
 
 #### Parameters
 
@@ -79,12 +79,12 @@ The RadPanelItem object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified RadPanelItem object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified RadPanelItem object;
+                   otherwise, false.
 
 ###  FindItem
 
-Returns  the first RadPanelItem 
+Returns  the first RadPanelItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -219,12 +219,12 @@ The RadPanelItem to locate.
 
 #### Returns
 
-`System.Int32` The zero-based index of item within the current RadPanelItemCollection, 
-            	if found; otherwise, -1.
+`System.Int32` The zero-based index of item within the current RadPanelItemCollection,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified RadPanelItem object in the current 
+Inserts the specified RadPanelItem object in the current
             RadPanelItemCollection at the specified index location.
 
 #### Parameters
@@ -244,7 +244,7 @@ The RadPanelItem to insert.
 ###  Remove
 
 Removes the specified RadPanelItem object from the current
-            	RadPanelItemCollection.
+                   RadPanelItemCollection.
 
 #### Parameters
 
@@ -258,7 +258,7 @@ The RadPanelItem object to remove.
 
 ###  RemoveAt
 
-Removes the RadPanelItem object at the specified index 
+Removes the RadPanelItem object at the specified index
             from the current RadPanelItemCollection.
 
 #### Parameters

@@ -6,8 +6,8 @@ description: Telerik.Web.UI.RadDateTimePicker
 
 # Telerik.Web.UI.RadDateTimePicker
 
-A Telerik.Web.UI.RadDateInput control with an integrated Telerik.Web.UI.RadCalendar control and an integrated Telerik.Web.UI.RadTimeView control. This combines the 
-            features of Telerik.Web.UI.RadDatePicker and Telerik.Web.UI.RadTimePicker in a 
+A Telerik.Web.UI.RadDateInput control with an integrated Telerik.Web.UI.RadCalendar control and an integrated Telerik.Web.UI.RadTimeView control. This combines the
+            features of Telerik.Web.UI.RadDatePicker and Telerik.Web.UI.RadTimePicker in a
             single control for selecting both a date and a time value.
                 You can find information on the server API of RadDateTimePicker at https://docs.telerik.com/devtools/aspnet-ajax/controls/datetimepicker/server-side-programming/raddatetimepicker-object .
 
@@ -37,7 +37,7 @@ Setting this property to true will make RadDateTimePicker postback to the server
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
 
 #### Remarks
-Setting this property to true will make RadDatePicker postback to the server 
+Setting this property to true will make RadDatePicker postback to the server
             on date selection through the Calendar or the DateInput components.
 
 ###  AutoPostBackControl `Boolean`
@@ -67,7 +67,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -85,7 +85,7 @@ Gets the RadDateInput instance of the datepicker control.
 
 ###  DatePopupButton `CalendarPopupButton`
 
-Gets the DatePopupButton instance of the datepicker control.  
+Gets the DatePopupButton instance of the datepicker control.
             You can use the object to customize the popup button's appearance and behavior.
 
 ###  DbSelectedDate `Nullable`1`
@@ -241,12 +241,12 @@ For internal use.
 
 Gets or sets a value indicating where RadDatePicker will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  MaxDate `DateTime`

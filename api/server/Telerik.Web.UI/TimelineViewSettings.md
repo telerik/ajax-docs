@@ -64,15 +64,15 @@ Gets or sets a value indicating whether to render date headers for the current v
 ###  ShowInsertArea `Boolean`
 
 Gets or sets a boolean value that specifies whether to
-            	show an empty area at the end of each time slot that can
-            	be used to insert appointments.
+                   show an empty area at the end of each time slot that can
+                   be used to insert appointments.
 
 #### Remarks
 The insert area is not visible if the scheduler is in read-only mode or
-            	AllowInsert is false.
-            	
-            	If all time slots are full and this property is set to false,
-            	the user will not be able to insert appointments.
+                   AllowInsert is false.
+                   
+                   If all time slots are full and this property is set to false,
+                   the user will not be able to insert appointments.
 
 ###  ShowResourceHeaders `Boolean`
 

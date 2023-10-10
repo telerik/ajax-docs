@@ -42,14 +42,14 @@ The Appointment to locate in the AppointmentCollection.
 ###  CopyTo
 
 Copies the entire AppointmentCollection to a compatible one-dimensional Array,
-            	starting at the specified index of the target array.
+                   starting at the specified index of the target array.
 
 #### Parameters
 
 #### array `Telerik.Web.UI.Appointment`
 
 The one-dimensional Array that is the destination of the Appointments copied from AppointmentCollection.
-            	The Array must have zero-based indexing.
+                   The Array must have zero-based indexing.
 
 #### index `System.Int32`
 
@@ -79,13 +79,13 @@ The AppointmentID to search for.
 ###  FindByRecurrenceParentID
 
 Searches for all Appointments with the specified RecurrenceParentID
-            	and returns a generic IList containing them.
+                    and returns a generic IList containing them.
 
 #### Remarks
 This method determines equality by calling Object.Equals.
             
-            	Appointments with recurrence state Exception
-            	are linked to their parents using the RecurrenceParentID property.
+                    Appointments with recurrence state Exception
+                    are linked to their parents using the RecurrenceParentID property.
 
 #### Parameters
 
@@ -100,8 +100,8 @@ The RecurrenceParentID to search for.
 ###  FindByRecurrenceParentID
 
 Searches for all Appointments with the specified
-            	RecurrenceParentID and
-            	RecurrenceState.
+                   RecurrenceParentID and
+                   RecurrenceState.
 
 #### Remarks
 This method determines equality by calling Object.Equals.
@@ -119,13 +119,13 @@ The RecurrenceState to search for.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	with the specified RecurrenceParentID and
-            	RecurrenceState, if found.
+                   with the specified RecurrenceParentID and
+                   RecurrenceState, if found.
 
 ###  GetAppointmentsEnclosingRange
 
 Searches for all Appointments that
-            	are fully contained within the specified time range.
+                   are fully contained within the specified time range.
 
 #### Parameters
 
@@ -140,12 +140,12 @@ The end of the time range.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	that are fully contained within the specified time range.
+                   that are fully contained within the specified time range.
 
 ###  GetAppointmentsInRange
 
 Searches for all Appointments that
-            	overlap with the specified time range and returns a generic IList containing them.
+                   overlap with the specified time range and returns a generic IList containing them.
 
 #### Parameters
 
@@ -160,12 +160,12 @@ The end of the time range.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	that overlap with the specified time range.
+                   that overlap with the specified time range.
 
 ###  GetAppointmentsStartingInRange
 
 Searches for all Appointments that
-            	start in the specified time range and returns a generic IList containing them.
+                   start in the specified time range and returns a generic IList containing them.
 
 #### Parameters
 
@@ -180,7 +180,7 @@ The end of the time range.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	that start in the specified time range.
+                   that start in the specified time range.
 
 ###  GetEnumerator
 
@@ -193,7 +193,7 @@ Returns an enumerator for the entire AppointmentCollection.
 ###  IndexOf
 
 Searches for the specified Appointment and returns the zero-based index of the
-            	first occurrence within the entire AppointmentCollection.
+                   first occurrence within the entire AppointmentCollection.
 
 #### Parameters
 
@@ -208,10 +208,10 @@ The Appointment to locate in the AppointmentCollection.
 ###  ToArray
 
 Copies the elements of the AppointmentCollection
-            	to a new Appointment array.
+                   to a new Appointment array.
 
 #### Returns
 
 `Telerik.Web.UI.Appointment[]` An Appointment array containing copies of the elements of the
-            	AppointmentCollection.
+                   AppointmentCollection.
 
