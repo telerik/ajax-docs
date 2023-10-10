@@ -34,12 +34,12 @@ Sets/gets whether the pane is collapsed
 The URL of the page to load inside the pane.
 
 #### Remarks
-Use the ContentUrl property if you want to load external page 
+Use the ContentUrl property if you want to load external page
             into the pane content area.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -156,7 +156,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 Two parameters are passed to the handler:sender, the pane object that raised the eventargs with the following methods:
-             			get_oldWidth - the width of the pane before the resizeget_oldHeight - the height of the pane before the resizeThis event cannot be cancelled.
+                         get_oldWidth - the width of the pane before the resizeget_oldHeight - the height of the pane before the resizeThis event cannot be cancelled.
 
 ###  OnClientResizing `String`
 
@@ -165,7 +165,7 @@ Gets or sets a value indicating the client-side event handler that is called bef
 
 #### Remarks
 Two parameters are passed to the handler:sender, the event objectargs with the following methods:
-             			get_delta - the delta with which the pane will be resizedget_resizeDirection - the direction in which the pane will be resized. You can use the Telerik.Web.UI.SplitterDirection hash to check the direction. The 2 possible values are : Forward and BackwardThis event can be cancelled.
+                         get_delta - the delta with which the pane will be resizedget_resizeDirection - the direction in which the pane will be resized. You can use the Telerik.Web.UI.SplitterDirection hash to check the direction. The 2 possible values are : Forward and BackwardThis event can be cancelled.
 
 ###  PersistScrollPosition `Boolean`
 
@@ -249,7 +249,7 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 ###  GetExpandedSize
 
-Get the expanded Size of the pane, when the pane is collapsed. 
+Get the expanded Size of the pane, when the pane is collapsed.
             In case the Orientation of the splitter is Vertical, returns the expanded Height, otherwise, the expanded Width.
 
 #### Returns
@@ -316,7 +316,7 @@ Saves the client state data
 
 ###  SetExpandedSize
 
-Set the expanded Size of the pane, when the pane is collapsed. 
+Set the expanded Size of the pane, when the pane is collapsed.
             In case the Orientation of the splitter is Vertical, sets the expanded Height, otherwise, the expanded Width.
 
 #### Returns

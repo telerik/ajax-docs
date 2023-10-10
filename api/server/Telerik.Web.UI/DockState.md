@@ -6,7 +6,7 @@ description: Telerik.Web.UI.DockState
 
 # Telerik.Web.UI.DockState
 
-Represents a object that unifies the most important properties of the Telerik.Web.UI.RadDock class, for easier saving and restoring the state of a RadDock. 
+Represents a object that unifies the most important properties of the Telerik.Web.UI.RadDock class, for easier saving and restoring the state of a RadDock.
             Each property of this class corresponds to a property in the Telerik.Web.UI.RadDock class.
 
 ## Inheritance Hierarchy

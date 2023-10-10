@@ -6,7 +6,7 @@ description: Telerik.Web.UI.FileUploadedEventArgs
 
 # Telerik.Web.UI.FileUploadedEventArgs
 
-This Class implements the fields and 
+This Class implements the fields and
             the properties in the FileUploaded server EventArgs.
 
 ## Inheritance Hierarchy

@@ -47,7 +47,7 @@ Gets or sets the interval between the minor divisions.
 
 ###  Mirror `Boolean`
 
-Gets or sets a bool value that indicates whether the scale labels and ticks will be mirrored. 
+Gets or sets a bool value that indicates whether the scale labels and ticks will be mirrored.
             If the labels are normally on the left side of the scale, mirroring the scale will render them to the right.
 
 ###  Ranges `GaugeRangeCollection`
@@ -59,7 +59,7 @@ Defines a collection of gauge ranges.
 Gets or sets a bool value indicating whether the direction of the scale values will be reversed.
             
             RadialGauge: Values increase counter-clockwise.
-            LinearGauge: Values increase from right to left (if the LinearGauge is horizontal), 
+            LinearGauge: Values increase from right to left (if the LinearGauge is horizontal),
             and from top to bottom (if the LinearGauge is vertical).
 
 ###  Vertical `Boolean`

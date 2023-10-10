@@ -40,7 +40,7 @@ Gets or sets the fully qualified type name of the FileBrowserContentProvider use
             including the assembly name, version, culture, public key token.
 
 #### Remarks
-When the value of this property is string.Empty (default), the dialog will use the integrated 
+When the value of this property is string.Empty (default), the dialog will use the integrated
             FileSystemContentProvider.
 
 ###  DeletePaths `String[]`
@@ -59,7 +59,7 @@ Enables or disables asynchronous (no postback) upload in the file browser dialog
 
 #### Remarks
 Used in the RadEditor dialogs like Image Manager, Document Manager. If the value is set to true,
-            uploading new files in these dialogs will happen faster - without a doing a full postback. 
+            uploading new files in these dialogs will happen faster - without a doing a full postback.
             Selecting a file will start the upload process immediately. After the file(s) are successfuly uploaded,
             and its status icon is green, the user should click the "Upload" button to go back to the refreshed file explorer view.
 

@@ -63,12 +63,12 @@ Horizontal Position attribute - Extra Small
 
 ###  Owner `RadDataPager`
 
-Returns RadDataPager control that owns current pager field. 
+Returns RadDataPager control that owns current pager field.
             This property is set by DataPagerFieldCollection and is read only.
 
 ###  PagerTemplate `ITemplate`
 
-This property contains template for RadDataPagerTemplateField. 
+This property contains template for RadDataPagerTemplateField.
             Container control is RadDataPagerFieldItem.
 
 ###  PagerType `String`
@@ -114,7 +114,7 @@ Argument that the link must be build for.
 
 ###  ToString
 
-Returns a  that represents the 
+Returns a  that represents the
             current .
 
 #### Returns

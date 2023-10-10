@@ -6,10 +6,10 @@ description: Telerik.Web.UI.PivotGridConfigurationPanel
 
 # Telerik.Web.UI.PivotGridConfigurationPanel
 
-The idea behind the ConfigurationPanel is taken from the Excel 
-            PivotTable Field List which enables Fields manipulations like 
-            sorting, reordering, hiding outside of the table which represents 
-            the data. Enabling such functionality gives the user ability to 
+The idea behind the ConfigurationPanel is taken from the Excel
+            PivotTable Field List which enables Fields manipulations like
+            sorting, reordering, hiding outside of the table which represents
+            the data. Enabling such functionality gives the user ability to
             separate the logic for manipulating fields and displaying data.
 
 ## Inheritance Hierarchy
@@ -35,7 +35,7 @@ Gets the  control
 
 ###  LayoutType `PivotGridConfigurationPanelLayoutType`
 
-Gets the panel layout which could be altered on the client and its 
+Gets the panel layout which could be altered on the client and its
             default type could be changed by setting on of the four available values.
 
 ###  OwnerPivotGrid `RadPivotGrid`

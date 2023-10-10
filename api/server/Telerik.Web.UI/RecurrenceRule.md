@@ -26,8 +26,8 @@ Gets or sets a list of the exception dates associated with this recurrence rule.
 
 #### Remarks
 Any date placed in the list will be considered a recurrence exception, i.e. an
-            occurrence will not be generated for that date. The dates must be in universal
-            time.
+             occurrence will not be generated for that date. The dates must be in universal
+             time.
 
 ###  HasExceptions `IList`1`
 
@@ -181,7 +181,7 @@ Specifies the effective range for evaluating occurrences.
 
 #### Remarks
 The range is inclusive. To clear the effective range call
-                .
+                 .
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Converts the recurrence rule to it's equivalent string representation.
 
 #### Remarks
 The string representation is based on the iCalendar data format (RFC
-            2445).
+             2445).
 
 #### Returns
 
@@ -222,9 +222,9 @@ The string representation to parse.
 #### rrule `Telerik.Web.UI.RecurrenceRule@`
 
 When this method returns, contains the recurrence rule instance, if the
-            conversion succeeded, or null if the conversion failed. The conversion fails if the
-            value parameter is a null reference (Nothing in Visual Basic)
-            or represents invalid recurrence rule.
+             conversion succeeded, or null if the conversion failed. The conversion fails if the
+             value parameter is a null reference (Nothing in Visual Basic)
+             or represents invalid recurrence rule.
 
 #### Returns
 

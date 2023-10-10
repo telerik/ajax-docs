@@ -8,7 +8,7 @@ description: Telerik.Web.UI.RadPanelBar
 
 #### Remarks
 The RadPanelBarcontrol is used to display a list of items in a Web Forms
-                    page and is often used control for building  collapsible side-menu 
+                    page and is often used control for building  collapsible side-menu
                     interfaces. The RadPanelBarcontrol supports the following features:
                 bullet Databinding that allows the control to be populated from various
                     datasourcesProgrammatic access to the RadPanelBarobject model
@@ -18,10 +18,10 @@ The RadPanelBarcontrol is used to display a list of items in a Web Forms
                     called root items. A items that has a parent item is called a child item. All root
                     items are stored in the P:Telerik.Web.UI.RadPanelBar.Items Itemscollection. Child items are
                     stored in a parent item's P:Telerik.Web.UI.RadPanelItem.Items Itemscollection.
-                Each item has a P:Telerik.Web.UI.RadPanelItem.Text Textand a P:Telerik.Web.UI.RadPanelItem.Value Valueproperty. 
-            		The value of the P:Telerik.Web.UI.RadPanelItem.Text Textproperty is displayed in the RadPanelBarcontrol, 
-            		while the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty is used to store any additional data about the item, 
-            		such as data passed to the postback event associated with the item. When clicked, a item can
+                Each item has a P:Telerik.Web.UI.RadPanelItem.Text Textand a P:Telerik.Web.UI.RadPanelItem.Value Valueproperty.
+                       The value of the P:Telerik.Web.UI.RadPanelItem.Text Textproperty is displayed in the RadPanelBarcontrol,
+                       while the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty is used to store any additional data about the item,
+                       such as data passed to the postback event associated with the item. When clicked, a item can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadPanelItem.NavigateUrl NavigateUrlproperty.
 
 ## Inheritance Hierarchy
@@ -67,9 +67,9 @@ Gets a list of all client-side changes (adding an item, removing an item, changi
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -113,7 +113,7 @@ If this property is not set the ClientID property will be used as the name of th
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `RadPanelItemBindingCollection`
@@ -209,7 +209,7 @@ Gets a RadPanelItemCollection object that contains the root items of the current
 
 #### Remarks
 Use the Items property to access the child items of RadPanelBar. You can also use the Items property to
-            	manage the root items. You can add, remove or modify items from the Items collection.
+                   manage the root items. You can add, remove or modify items from the Items collection.
 
 ###  ItemTemplate `ITemplate`
 
@@ -225,9 +225,9 @@ Used to customize the keyboard navigation functionality.
 Gets or sets the maximum number of levels to bind to the RadPanelBar control.
 
 #### Remarks
-When binding the RadPanelBar control to a data source, use the MaxDataBindDepth 
-            	property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only 
-            	the root panel items and their immediate children. All remaining records in the data source are ignored.
+When binding the RadPanelBar control to a data source, use the MaxDataBindDepth
+                   property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only
+                   the root panel items and their immediate children. All remaining records in the data source are ignored.
 
 ###  ODataDataSourceID `String`
 
@@ -242,7 +242,7 @@ Gets or sets a value indicating the client-side event handler that is called
 Use the OnClientContextMenu property to specify a JavaScript
                 function that will be executed before the context menu shows after right clicking an
                 item.Two parameters are passed to the handlersender (the client-side RadPanelbar object)
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         Item - the instance of the selected itemEventObject - the browser DOM event
 
 ###  OnClientItemAnimationEnd `String`
@@ -406,7 +406,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  ValidationGroup `String`
 
@@ -487,7 +487,7 @@ Should be  used by inheritors
 
 ###  FindItem
 
-Returns  the first RadPanelItem 
+Returns  the first RadPanelItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -644,11 +644,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -703,7 +703,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

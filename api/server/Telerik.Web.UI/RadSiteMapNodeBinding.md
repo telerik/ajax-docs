@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadSiteMapNodeBinding
 # Telerik.Web.UI.RadSiteMapNodeBinding
 
 Represents the simple binding between the property value of an object and the property value of a
-            	Telerik.Web.UI.RadSiteMapNode RadSiteMapNode.
+                   Telerik.Web.UI.RadSiteMapNode RadSiteMapNode.
 
 ## Inheritance Hierarchy
 
@@ -21,35 +21,35 @@ Represents the simple binding between the property value of an object and the pr
 ###  DisabledCssClass `String`
 
 Specifies the exact value of the DisabledCssClass property of the
-            	RadSiteMapNode that will be created during the data binding.
+                   RadSiteMapNode that will be created during the data binding.
 
 ###  DisabledCssClassField `String`
 
-Specifies the field, containing the DisabledCssClass property 
-            	value of the RadSiteMapNode that will be created during
-            	the data binding.
+Specifies the field, containing the DisabledCssClass property
+                   value of the RadSiteMapNode that will be created during
+                   the data binding.
 
 ###  DisabledImageUrl `String`
 
 Specifies the exact value of the DisabledImageUrl property of the
-            	RadSiteMapNode that will be created during the data binding.
+                   RadSiteMapNode that will be created during the data binding.
 
 ###  DisabledImageUrlField `String`
 
-Specifies the field, containing the DisabledImageUrl property 
-            	value of the RadSiteMapNode that will be created during
-            	the data binding.
+Specifies the field, containing the DisabledImageUrl property
+                   value of the RadSiteMapNode that will be created during
+                   the data binding.
 
 ###  HoveredCssClass `String`
 
 Specifies the exact value of the HoveredCssClass property of the
-            	RadSiteMapNode that will be created during the data binding.
+                   RadSiteMapNode that will be created during the data binding.
 
 ###  HoveredCssClassField `String`
 
-Specifies the field, containing the HoveredCssClass property 
-            	value of the RadSiteMapNode that will be created during
-            	the data binding.
+Specifies the field, containing the HoveredCssClass property
+                   value of the RadSiteMapNode that will be created during
+                   the data binding.
 
 ###  ModelID `String`
 

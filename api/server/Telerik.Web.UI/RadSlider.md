@@ -59,7 +59,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DbValue `Decimal`
@@ -161,7 +161,7 @@ Used to customize the keyboard navigation functionality.
 
 ###  LargeChange `Decimal`
 
-Get/Set the delta with which the value will change 
+Get/Set the delta with which the value will change
             when user click on the track
 
 ###  Length `Int32`
@@ -232,29 +232,29 @@ Two parameters are passed to the handler:sender, the RadSlider object.args.This 
 
 ###  OnClientSlide `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             while the handle is being slided.
 
 #### Remarks
-If specified, the OnClientSlideclient-side event handler that is called 
+If specified, the OnClientSlideclient-side event handler that is called
             while the handle is being slided. Two parameters are passed to the handler:sender, the RadSlider object.args.This event cannot be cancelled.
 
 ###  OnClientSlideEnd `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             when slide has ended.
 
 #### Remarks
-If specified, the OnClientSlideEndclient-side event handler that is called 
+If specified, the OnClientSlideEndclient-side event handler that is called
             when slide has ended. Two parameters are passed to the handler:sender, the RadSlider object.args.This event cannot be cancelled.
 
 ###  OnClientSlideRange `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             while the user is sliding the selected region, thus changing the both SelectionStart and SelectionEnd values.
 
 #### Remarks
-If specified, the OnClientSlideRangeclient-side event handler that is called 
+If specified, the OnClientSlideRangeclient-side event handler that is called
             while the selected region is being slided. Two parameters are passed to the handler:sender, the RadSlider object.args.This event cannot be cancelled.
 
 ###  OnClientSlideRangeEnd `String`
@@ -263,7 +263,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
             user releases the selected region of RadSlider, after dragging it, thus changing both SelectionStart and SelectionEnd values.
 
 #### Remarks
-If specified, the OnClientSlideRangeEndclient-side event handler that is called 
+If specified, the OnClientSlideRangeEndclient-side event handler that is called
             when slide has ended. Two parameters are passed to the handler:sender, the RadSlider object.args.This event cannot be cancelled.
 
 ###  OnClientSlideRangeStart `String`
@@ -286,7 +286,7 @@ If specified, the OnClientSlideStartclient-side event handler is called before
 
 ###  OnClientValueChanged `Decimal`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             when the value of the slider has been changed.
 
 #### Remarks
@@ -294,7 +294,7 @@ Two parameters are passed to the handler:sender, the RadSlider object.args.This 
 
 ###  OnClientValueChanging `Decimal`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             just before the value of the slider changes.
 
 #### Remarks
@@ -337,12 +337,12 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 ###  SelectedIndex `Int32`
 
-Gets the Value of the selected item in case 
+Gets the Value of the selected item in case
             ItemType of the RadSlider control equals SliderItemType.Item.
 
 ###  SelectedItem `RadSliderItem`
 
-Gets a RadSliderItem object that represents the selected item in the RadSlider control in case 
+Gets a RadSliderItem object that represents the selected item in the RadSlider control in case
             ItemType of the control equals SliderItemType.Item.
 
 ###  SelectedItems `RadSliderItemCollection`
@@ -356,7 +356,7 @@ Get/Set the position value of the slider, from where the selection region will b
 
 ###  SelectedValue `Decimal`
 
-Gets the Value of the selected item in case 
+Gets the Value of the selected item in case
             ItemType of the RadSlider control equals SliderItemType.Item.
 
 ###  SelectionEnd `Decimal`
@@ -385,7 +385,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SmallChange `Decimal`
 
@@ -519,11 +519,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -561,7 +561,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 
@@ -589,11 +589,11 @@ Event arguments instance containing a reference to the currently bound item
 
 ###  OnValueChanged
 
-Gets or sets a value indicating the server-side event handler that is called 
+Gets or sets a value indicating the server-side event handler that is called
             when the value of the slider has been changed.
 
 #### Remarks
-If specified, the OnValueChangedevent handler that is called 
+If specified, the OnValueChangedevent handler that is called
             when the value of the slider has been changed. Two parameters are passed to the handler:sender, the RadSlider object.args.This event cannot be cancelled.
 
 #### Returns

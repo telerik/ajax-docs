@@ -144,7 +144,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

@@ -20,10 +20,10 @@ Provides data for the E:Telerik.Web.UI.RadToolBar.ButtonDataBound ButtonDataBoun
 ###  Button `RadToolBarButton`
 
 Gets the referenced button in the RadToolBar control when the
-            	ButtonDataBound event is raised.
+                   ButtonDataBound event is raised.
 
 #### Remarks
 Use this property to programmatically access the button referenced in the
-            	RadToolBar control when the
-            	ButtonDataBound event is raised.
+                   RadToolBar control when the
+                   ButtonDataBound event is raised.
 

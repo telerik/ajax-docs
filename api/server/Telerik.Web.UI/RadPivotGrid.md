@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadPivotGrid
 
 # Telerik.Web.UI.RadPivotGrid
 
-RadPivotGrid control. See the https://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/overview Overview topicfor more information about this control.
+RadPivotGrid control. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/pivotgrid/overview Overview topicfor more information about this control.
 
 ## Inheritance Hierarchy
 
@@ -23,9 +23,9 @@ RadPivotGrid control. See the https://docs.telerik.com/devtools/aspnet-ajax/cont
 
 ###  AccessibilitySettings `PivotGridAccessibilitySettings`
 
-Gets a reference to the 
+Gets a reference to the
              object that allows
-            you to set the properties of the  control's 
+            you to set the properties of the  control's
             child controls for purpose and structure for user
             agents rendering to non-visual media such as speech and Braille
 
@@ -86,7 +86,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  ClientSettings `PivotGridClientSettings`
 
-Gets a reference to the 
+Gets a reference to the
              object that allows
             you to set the properties of the client-side behavior and
             appearance in a Telerik  control.
@@ -131,7 +131,7 @@ Style of the column totals' cells in the the pivotgrid.
 ###  ConfigurationPanel `PivotGridConfigurationPanel`
 
 Represents the PivotGridConfigurationPanel control which is used
-             	to manipulate fields and AggregatesPosition and AggregatesLevel values
+                 to manipulate fields and AggregatesPosition and AggregatesLevel values
 
 ###  ConfigurationPanelSettings `PivotGridConfigurationPanelSettings`
 
@@ -149,7 +149,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -272,7 +272,7 @@ Gets or sets a value indicating whether the server control persists
 
 ###  EnableZoneContextMenu `Boolean`
 
-Gets or sets a value indicating whether the zone context menu should be 
+Gets or sets a value indicating whether the zone context menu should be
                  enabled.
 
 ###  ErrorValue `String`
@@ -307,7 +307,7 @@ Gets a reference to  which holds all properties associated
 ###  FieldsWindow `PivotGridFieldsCollection`
 
 Represents the FieldsWindow RadWindow control which
-             	holds all hidden fields
+                 holds all hidden fields
 
 ###  FilterDialog `PivotGridFilterDialog`
 
@@ -358,12 +358,12 @@ Gets a collection of RadPivotGridDataItem objects that represent the data items 
 
 Gets or sets a value indicating where RadPivotGrid will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  NoRecordsTemplate `ITemplate`
@@ -376,7 +376,7 @@ Gets or sets the text that will appear in the PivotGridNoRecordsItem when the de
 
 ###  OlapSettings `PivotGridOLAPSettings`
 
-Gets a reference to the 
+Gets a reference to the
              object that allows
             you to set the configuration parameters for OLAP binding
             in a Telerik  control.
@@ -504,7 +504,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SkinID `String`
 
@@ -525,12 +525,12 @@ Gets or sets the text displayed when the mouse pointer hovers over the
 
 ###  ToolTipManager `PivotGridToolTipManager`
 
-Represents the control that manages the settings of 
-             	the automatically generated tooltips in the PivotGrid
+Represents the control that manages the settings of
+                 the automatically generated tooltips in the PivotGrid
 
 ###  TotalsSettings `PivotGridTotalsSettings`
 
-Returns a reference to the  object. This group contains 
+Returns a reference to the  object. This group contains
             all the settings that are related to the PivotGrid totals.
 
 ###  UseQueryableDataProvider `Boolean`

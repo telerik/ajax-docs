@@ -39,15 +39,15 @@ The RadTreeViewContextMenu to add to the collection
 
 ###  AddRange
 
-Appends the specified array of  objects to the end of the 
+Appends the specified array of  objects to the end of the
             current .
 
 #### Parameters
 
 #### contextMenus `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadTreeViewContextMenu}`
 
-The array of  to append to the end of the current 
-            	.
+The array of  to append to the end of the current
+                   .
 
 #### Returns
 
@@ -56,7 +56,7 @@ The array of  to append to the end of the current
 ###  Contains
 
 Determines whether the specified RadTreeViewContextMenu is in the parent
-            	RadTreeView's RadTreeViewContextMenuCollection object.
+                   RadTreeView's RadTreeViewContextMenuCollection object.
 
 #### Parameters
 
@@ -67,13 +67,13 @@ The RadTreeViewContextMenu to search for in the collection
 #### Returns
 
 `System.Boolean` true if the specified RadTreeViewContextMenu exists in
-            	the collection; otherwise, false.
+                   the collection; otherwise, false.
 
 ###  CopyTo
 
 Copies the RadTreeViewContextMenu instances stored in the
-            	RadTreeViewContextMenuCollection
-            	object to an System.Array object, beginning at the specified index location in the System.Array.
+                   RadTreeViewContextMenuCollection
+                   object to an System.Array object, beginning at the specified index location in the System.Array.
 
 #### Parameters
 
@@ -98,18 +98,18 @@ Retrieves the index of a specified RadTreeViewContextMenu object in the collecti
 #### target `Telerik.Web.UI.RadTreeViewContextMenu`
 
 The RadTreeViewContextMenu
-            	for which the index is returned.
+                   for which the index is returned.
 
 #### Returns
 
 `System.Int32` The index of the specified RadTreeViewContextMenu
-            	instance. If the RadTreeViewContextMenu is not
-            	currently a member of the collection, it returns -1.
+                   instance. If the RadTreeViewContextMenu is not
+                   currently a member of the collection, it returns -1.
 
 ###  Insert
 
 Inserts the specified RadTreeViewContextMenu object
-            	to the collection at the specified index location.
+                   to the collection at the specified index location.
 
 #### Parameters
 
@@ -128,8 +128,8 @@ The RadTreeViewContextMenu to add to the collection
 ###  Remove
 
 Removes the specified RadTreeViewContextMenu
-            	from the parent RadTreeView's RadTreeViewContextMenuCollection
-            	object.
+                   from the parent RadTreeView's RadTreeViewContextMenuCollection
+                   object.
 
 #### Remarks
 To remove a control from an index location, use the RemoveAt method.
@@ -147,15 +147,15 @@ The RadTreeViewContextMenu to be removed
 ###  RemoveAt
 
 Removes a child RadTreeViewContextMenu, at the
-            	specified index location, from the RadTreeViewContextMenuCollection
-            	object.
+                   specified index location, from the RadTreeViewContextMenuCollection
+                   object.
 
 #### Parameters
 
 #### index `System.Int32`
 
 The ordinal index of the RadTreeViewContextMenu
-            	to be removed from the collection.
+                   to be removed from the collection.
 
 #### Returns
 

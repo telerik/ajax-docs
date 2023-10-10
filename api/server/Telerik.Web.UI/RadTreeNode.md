@@ -10,21 +10,21 @@ This Class defiens the RadTreeNode object.
 
 #### Remarks
 The Telerik.Web.UI.RadTreeView RadTreeViewcontrol is made up of nodes. Nodes which are immediate children
-            		of the treeview are root nodes. Nodes which are children of root nodes are child nodes.
-            	A node usually stores data in two properties, the P:Telerik.Web.UI.RadTreeNode.Text Textproperty and 
-            		the P:Telerik.Web.UI.RadTreeNode.Value Valueproperty. The value of the P:Telerik.Web.UI.RadTreeNode.Text Textproperty is displayed 
-            		in the RadTreeViewcontrol, and the P:Telerik.Web.UI.RadTreeNode.Value Valueproperty is used to store additional data.
-            	To create tree nodes, use one of the following methods:bullet Use declarative syntax to define nodes inline in your page or user control.
-            		Use one of the constructors to dynamically create new instances of the
-            			Telerik.Web.UI.RadTreeNode RadTreeNodeclass. These nodes can then be added to the
-            			Nodescollection of another node or treeview.
-            		Data bind the RadTreeViewcontrol to a data source.
-            		When the user clicks a tree node, the RadTreeViewcontrol can navigate
+                       of the treeview are root nodes. Nodes which are children of root nodes are child nodes.
+                   A node usually stores data in two properties, the P:Telerik.Web.UI.RadTreeNode.Text Textproperty and
+                       the P:Telerik.Web.UI.RadTreeNode.Value Valueproperty. The value of the P:Telerik.Web.UI.RadTreeNode.Text Textproperty is displayed
+                       in the RadTreeViewcontrol, and the P:Telerik.Web.UI.RadTreeNode.Value Valueproperty is used to store additional data.
+                   To create tree nodes, use one of the following methods:bullet Use declarative syntax to define nodes inline in your page or user control.
+                       Use one of the constructors to dynamically create new instances of the
+                           Telerik.Web.UI.RadTreeNode RadTreeNodeclass. These nodes can then be added to the
+                           Nodescollection of another node or treeview.
+                       Data bind the RadTreeViewcontrol to a data source.
+                       When the user clicks a tree node, the RadTreeViewcontrol can navigate
                     to a linked Web page, post back to the server or select that node. If the
                     P:Telerik.Web.UI.RadTreeNode.NavigateUrl NavigateUrlproperty of a node is set, the
                     RadTreeViewcontrol navigates to the linked page. By default, a linked page
-                    is displayed in the same window or frame. To display the linked content in a different 
-            		window or frame, use the P:Telerik.Web.UI.RadTreeNode.Target Targetproperty.
+                    is displayed in the same window or frame. To display the linked content in a different
+                       window or frame, use the P:Telerik.Web.UI.RadTreeNode.Target Targetproperty.
 
 ## Inheritance Hierarchy
 
@@ -68,7 +68,7 @@ Gets or sets a value indicating whether the node is checkable. A checkbox contro
             for checkable nodes.
 
 #### Remarks
-If the CheckBoxes property set to true, RadTreeView automatically displays a checkbox next to each node. 
+If the CheckBoxes property set to true, RadTreeView automatically displays a checkbox next to each node.
             You can set the Checkable property to false for nodes that do not need to display a checkbox.
 
 ###  Checked `Boolean`
@@ -86,7 +86,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied to the content
 
 #### Remarks
 You can use the ContentCssClass property to specify unique
-            appearance for a node content area and its children. Useful when using 
+            appearance for a node content area and its children. Useful when using
             CSS sprites.
 
 ###  ContextMenuID `String`
@@ -95,7 +95,7 @@ Gets or sets a value indicating the ID of the  displayed for the current node.
 
 #### Remarks
 If the ContextMenuID property is not set the first context menu from the  collection
-            	will be used.
+                   will be used.
 
 ###  CssClass `String`
 
@@ -129,7 +129,7 @@ By default the visual appearance of disabled nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is disabled.
 
 #### Remarks
-If the DisabledImageUrl property is not set the ImageUrl property will be 
+If the DisabledImageUrl property is not set the ImageUrl property will be
             used when the node is disabled.
 
 ###  EnableContextMenu `Boolean`
@@ -155,14 +155,14 @@ Gets or sets a value indicating whether the node is expanded.
 Gets or sets a value specifying the URL of the image rendered when the node is expanded.
 
 #### Remarks
-If the ExpandedImageUrl property is not set the ImageUrl property will be 
+If the ExpandedImageUrl property is not set the ImageUrl property will be
             used when the node is expanded.
 
 ###  ExpandMode `TreeNodeExpandMode`
 
 Gets or sets the expand behavior of the tree node.
             
-            When set to ExpandMode.ServerSide the RadTreeView will fire a server event (NodeExpand) so you can populate the node on demand.
+             When set to ExpandMode.ServerSide the RadTreeView will fire a server event (NodeExpand) so you can populate the node on demand.
 
 ###  FullPath `String`
 
@@ -182,7 +182,7 @@ By default the visual appearance of hovered nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is hovered with the mouse.
 
 #### Remarks
-If the HoveredImageUrl property is not set the ImageUrl property will be 
+If the HoveredImageUrl property is not set the ImageUrl property will be
             used when the node is hovered.
 
 ###  ID `String`
@@ -197,7 +197,7 @@ Gets or sets the URL to an image which is displayed next to the text of a node.
 
 #### Remarks
 Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current node.
+                   displayed before the text of the current node.
 
 ###  Index `Int32`
 
@@ -216,8 +216,8 @@ A Section 508 element
 Gets or sets the URL to navigate to when the current node is clicked.
 
 #### Remarks
-Setting the NavigateUrl property will disable node selection and as a result the 
-            		NodeClick event won't be raised for the current node.
+Setting the NavigateUrl property will disable node selection and as a result the
+                       NodeClick event won't be raised for the current node.
 
 ###  Next `RadTreeNode`
 
@@ -229,7 +229,7 @@ Gets a  object that contains the child nodes of the current RadTreeNode.
 
 #### Remarks
 Use the Nodes property to access the child nodes of the RadTreeNode. You can also use the Nodes property to
-            	manage the child nodes - you can add, remove or modify nodes.
+                   manage the child nodes - you can add, remove or modify nodes.
 
 ###  NodeTemplate `ITemplate`
 
@@ -264,7 +264,7 @@ Gets or sets a value indicating whether the node is selected.
 
 #### Remarks
 By default, only one node can be selected. You can enable multiple node selection by setting the
-            MultipleSelect property of the 
+            MultipleSelect property of the
             parent RadTreeView to true
 
 ###  SelectedCssClass `String`
@@ -282,7 +282,7 @@ By default the visual appearance of selected nodes is defined in the skin CSS
 Gets or sets a value specifying the URL of the image rendered when the node is selected.
 
 #### Remarks
-If the SelectedImageUrl property is not set the ImageUrl property will be 
+If the SelectedImageUrl property is not set the ImageUrl property will be
             used when the node is selected.
 
 ###  Target `String`
@@ -290,15 +290,15 @@ If the SelectedImageUrl property is not set the ImageUrl property will be
 Gets or sets the target window or frame in which to display the Web page content associated with the current node.
 
 #### Remarks
-Use the Target property to target window or frame in which to display the 
-            		Web page content associated with the current node. The Web page is specified by
+Use the Target property to target window or frame in which to display the
+                       Web page content associated with the current node. The Web page is specified by
                     the NavigateUrl property.
                 
-            		If this property is not set, the Web page specified by the
-            		NavigateUrl property is loaded in the current window.
-            	
-            		The Target property is taken into consideration only when the NavigateUrl 
-            		property is set.
+                       If this property is not set, the Web page specified by the
+                       NavigateUrl property is loaded in the current window.
+                   
+                       The Target property is taken into consideration only when the NavigateUrl
+                       property is set.
 
 ###  Text `String`
 
@@ -306,7 +306,7 @@ Gets or sets the text displayed for the current node.
 
 #### Remarks
 Use the Text property to specify or determine the text that is displayed for the node
-            	in the RadTreeView control.
+                   in the RadTreeView control.
 
 ###  ToolTip `String`
 
@@ -342,8 +342,8 @@ Creates a copy of the current  object.
 
 #### Remarks
 Use the Clone method to create a copy of the current node. All
-            	properties of the clone are set to the same values as the current ones. Child nodes are
-            	copied as well.
+                   properties of the clone are set to the same values as the current ones. Child nodes are
+                   copied as well.
 
 #### Returns
 

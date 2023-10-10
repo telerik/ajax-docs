@@ -13,13 +13,3 @@ EI DPL Xlsx Renderer
 * System.Object
 * Telerik.Web.UI.ExportInfrastructure.XlsxRenderer : IDisposable
 
-## Methods
-
-###  Render
-
-Renders the ExportStructure object to binary Xlsx (byte array)
-
-#### Returns
-
-`System.Byte[]` Xlsx output byte array
-

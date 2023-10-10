@@ -59,7 +59,7 @@ This client-side event is fired when a  item
 
 ###  OnItemDropping `String`
 
-This client-side event is fired when a  item 
+This client-side event is fired when a  item
             is about to be dropped after dragging. This event can be canceled.
 
 ###  OnItemSelected `String`
@@ -72,12 +72,12 @@ This client-side event is fired when a  item is about to be selected.
 
 ###  OnListViewCreated `String`
 
-This client-side event is fired after the 
+This client-side event is fired after the
              is created.
 
 ###  OnListViewCreating `String`
 
-This client-side event is fired before the 
+This client-side event is fired before the
              is created.
 
 ###  OnListViewDestroying `String`

@@ -25,7 +25,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`

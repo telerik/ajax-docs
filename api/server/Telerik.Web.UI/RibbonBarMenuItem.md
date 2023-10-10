@@ -35,7 +35,7 @@ Gets or sets the image's URL of the item, used when it's disabled.
 
 #### Remarks
 Use the DisabledImageUrl property to specify a custom image that will be
-            	used when the item is disabled.
+                   used when the item is disabled.
 
 ###  ImageAltText `String`
 
@@ -50,7 +50,7 @@ Gets or sets the image's URL of the item, used when it's enabled.
 
 #### Remarks
 Use the ImageUrl property to specify a custom image that will be
-            	used when the item is enabled.
+                   used when the item is enabled.
 
 ###  Items `RibbonBarMenuItemCollection`
 
@@ -58,7 +58,7 @@ Gets a RibbonBarMenuItemCollection object that contains the sub-items of the Men
 
 #### Remarks
 Use the Items property to access the sub-items of the MenuItem. You can also use the Items property to
-            	manage the items. You can add, remove or modify items from the Items collection.
+                   manage the items. You can add, remove or modify items from the Items collection.
 
 ###  NavigateUrl `String`
 
@@ -66,7 +66,7 @@ Gets or sets navigation URL for the item. Usually pointing to a page.
 
 #### Remarks
 Use the NavigateUrl property to specify a custom a url to a page
-            	which should be loaded on click on the item.
+                   which should be loaded on click on the item.
 
 ###  ParentItem `RibbonBarMenuItem`
 
@@ -95,8 +95,8 @@ Use the property to set the displayed text for an item.
 Gets or sets the tooltip of a certain item.
 
 #### Remarks
-When the ToolTip value is empty, the default ASP ToolTip is displayed 
-                with the Text of the item as a value. When ToolTip is set, the enhanced RibbonBar tooltip 
+When the ToolTip value is empty, the default ASP ToolTip is displayed
+                with the Text of the item as a value. When ToolTip is set, the enhanced RibbonBar tooltip
                 is shown instead of the default one.
 
 ###  Value `String`
@@ -122,8 +122,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarMenuItem` A sub-item of the current MenuItem whose Value property is equal to the specifed 
-            	value. If a button is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarMenuItem` A sub-item of the current MenuItem whose Value property is equal to the specifed
+                   value. If a button is not found, null (Nothing in Visual Basic) is returned.
 
 ###  GetVisibleItems
 

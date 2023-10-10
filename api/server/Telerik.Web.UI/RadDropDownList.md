@@ -86,7 +86,7 @@ Use the CollapseAnimation property to customize the expand
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DefaultMessage `String`
@@ -155,7 +155,7 @@ Gets or sets a value indicating whether the functionality to render and load ite
 
 #### Remarks
 When set to true upon scroll a request will be made either to the server or to a web service
-            	in order to render and initialize a new set of items
+                in order to render and initialize a new set of items
 
 ###  ExpandAnimation `AnimationSettings`
 
@@ -191,7 +191,7 @@ Gets or sets the number of Items the RadDropDownList will load when the VirtualS
             functionality is enabled.
 
 #### Remarks
-When this property is not set the number Items which will be loaded will be calculated based on the height of the DropDrown 
+When this property is not set the number Items which will be loaded will be calculated based on the height of the DropDrown
             of the RadDropDownList and the height of a single item.
 
 ###  Items `DropDownListItemCollection`
@@ -229,31 +229,31 @@ The event handler receives two parameter: the instance of the dropdownlist
 ###  OnClientDropDownClosing `String`
 
 The client-side event that is fired before the dropdown of the dropdownlist is
-            closed.
+             closed.
 
 #### Remarks
 The event handler receives two parameter: the instance of the dropdownlist
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the dropdownlist dropdown will not be closed.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the dropdownlist dropdown will not be closed.
 
 ###  OnClientDropDownOpened `String`
 
 The client-side event that is fired after the dropdown of the dropdownlist is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the dropdownlist
-            client-side object and event args. The event cannot  be cancelled.
+             client-side object and event args. The event cannot  be cancelled.
 
 ###  OnClientDropDownOpening `String`
 
 The client-side event that is fired before the dropdown of the DropDownList is
-            opened.
+             opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the dropdownlist
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the dropdownlist dropdown will not be opened.
+             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+             from the event handler and the dropdownlist dropdown will not be opened.
 
 ###  OnClientItemDataBound `String`
 
@@ -261,7 +261,7 @@ Gets or sets the name of the JavaScript function called when an Item is created 
 
 #### Remarks
 The event handler receives two parameters: the instance of of the dropdownlist
-            client-side object and event argument with get_dateItem() and get_item() methods.
+             client-side object and event argument with get_dateItem() and get_item() methods.
 
 ###  OnClientItemSelected `String`
 
@@ -269,7 +269,7 @@ The client-side event that is fired when a dropDownListItem is selected.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the dropdownlist
-            client-side object and event argument with the item which is selected.
+             client-side object and event argument with the item which is selected.
 
 ###  OnClientItemSelecting `String`
 
@@ -277,7 +277,7 @@ The client-side event that is fired when a dropDownListItem is about to be selec
 
 #### Remarks
 The event handler receives two parameters: the instance of of the dropdownlist
-            client-side object and event argument with the item which is about to be selected and set_cancel method.The event can be cancelled.
+             client-side object and event argument with the item which is about to be selected and set_cancel method.The event can be cancelled.
 
 ###  OnClientItemsRequested `DropDownListItemCollection`
 
@@ -287,7 +287,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequested client-side event
                 handler is called when the RadDropDownList items were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs, null for this event.This event cannot be cancelled.
 
 ###  OnClientItemsRequestFailed `DropDownListItemCollection`
 
@@ -297,8 +297,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequestFailed client-side event
                 handler is called when the operation for populating the RadDropDownList has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientItemsRequesting `DropDownListItemCollection`
 
@@ -308,8 +308,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemsRequesting client-side event
                 handler is called when the RadDropDownList is about to send a request for items.
-            	Two parameters are passed to the handler:sender, the dropdownlist client object;eventArgs with two properties:
-            			get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the dropdownlist client object;eventArgs with two properties:
+                           get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientLoad `String`
 
@@ -324,11 +324,11 @@ If specified, the OnClienLoad client-side event handler is
 ###  OnClientSelectedIndexChanged `Int32`
 
 The client-side event that is fired after the selected index of the RadDropDownList has
-            been changed.
+             been changed.
 
 #### Remarks
 The event handler receives two parameters: the instance of of the dropdownlist
-            client-side object and event argument with the new selected index.
+             client-side object and event argument with the new selected index.
 
 ###  OnClientTemplateDataBound `String`
 
@@ -336,7 +336,7 @@ Gets or sets the name of the JavaScript function called when the client template
 
 #### Remarks
 The event handler receives two parameters: the instance of of the dropdownlist
-            client-side object and event argument with get_dateItem(), get_html(), set_html() and get_template() methods.
+             client-side object and event argument with get_dateItem(), get_html(), set_html() and get_template() methods.
 
 ###  PostBackUrl `String`
 
@@ -397,7 +397,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SupportsDisabledAttribute `Boolean`
 
@@ -423,19 +423,19 @@ Gets the settings for the web service used to populate items.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            			service used to populate items on demand.
-            			You must specify both
+                        service used to populate items on demand.
+                        You must specify both
                      Path and
                      Method
-            			to fully describe the service.
+                        to fully describe the service.
                  
-            			In order to use the integrated support, the web service should have the following signature:
-            			
-            			
-            			[ScriptService]
-            			public class WebServiceName : WebService
-            			{
-            			    private static int totalCount = 100;
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            private static int totalCount = 100;
                          private static List<DropDownListItemData> itemsList = new List<DropDownListItemData>();
             
                          static DropDownService()
@@ -454,13 +454,13 @@ Use the WebServiceSettings property to configure the web
                          public DropDownListData GetItems(DropDownListContext context)
                          {
                              DropDownListData data = new DropDownListData();
-                             data.Items = itemsList.GetRange(context.StartIndex, context.ItemsCount).ToArray();        
+                             data.Items = itemsList.GetRange(context.StartIndex, context.ItemsCount).ToArray();
                              data.TotalCount = totalCount;
             
                              return data;
                          }
-            			}
-            			
+                        }
+                        
                      <System.Web.Script.Services.ScriptService()> _
                         Public Class WebService
                             Inherits System.Web.Services.WebService
@@ -651,11 +651,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -725,7 +725,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

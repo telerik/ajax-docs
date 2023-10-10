@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadRatingItem RadRatingItemobjects in a
 #### Remarks
 The RadRatingItemCollectionclass represents a collection of
                 RadRatingItemobjects.
-            	bullet Use the indexer to programmatically retrieve a
+                bullet Use the indexer to programmatically retrieve a
                         single RadRatingItem from the collection, using array notation.
                     Use the P:System.Web.UI.StateManagedCollection.Count Countproperty to determine the total
                         number of rating items in the collection.

@@ -6,8 +6,8 @@ description: Telerik.Web.UI.GridColumnGroup
 
 # Telerik.Web.UI.GridColumnGroup
 
-The main class representing MultiColumn Headers in Telerik.Web.UI.RadGrid . 
-            A Grid column group can contain grid columns as well as other Column 
+The main class representing MultiColumn Headers in Telerik.Web.UI.RadGrid .
+            A Grid column group can contain grid columns as well as other Column
             groups which form the hierarchical structure of the MultiColumn Headers.
 
 ## Inheritance Hierarchy

@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadTab RadTabobjects in a
 #### Remarks
 The RadTabCollectionclass represents a collection of
                 RadTabobjects.
-            	bullet Use the P:Telerik.Web.UI.RadTabCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadTabCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadTab from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of menu items in the collection.
@@ -31,8 +31,8 @@ The RadTabCollectionclass represents a collection of
 
 ###  Item `RadTab`
 
-Gets the RadTab object at the specified index in 
-            	the current RadTabCollection.
+Gets the RadTab object at the specified index in
+                   the current RadTabCollection.
 
 ## Methods
 
@@ -52,14 +52,14 @@ The RadTab to append to the end of the current RadTabCollection.
 
 ###  AddRange
 
-Appends the specified array of RadTab objects to the end of the 
+Appends the specified array of RadTab objects to the end of the
             current RadTabCollection.
 
 #### Parameters
 
 #### tabs `Telerik.Web.UI.RadTab`
 
-The array of RadTab o append to the end of the current 
+The array of RadTab o append to the end of the current
             RadTabCollection.
 
 #### Returns
@@ -68,8 +68,8 @@ The array of RadTab o append to the end of the current
 
 ###  Contains
 
-Determines whether the specified RadTab object is in the current 
-            	RadTabCollection.
+Determines whether the specified RadTab object is in the current
+                   RadTabCollection.
 
 #### Parameters
 
@@ -79,12 +79,12 @@ The RadTab object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified RadTab object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified RadTab object;
+                   otherwise, false.
 
 ###  FindTab
 
-Returns  the first RadTab 
+Returns  the first RadTab
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -150,8 +150,8 @@ The value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindTabByValue
 
@@ -171,8 +171,8 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 #### Returns
 
-`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RadTab` A RadTab whose Value property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  IndexOf
 
@@ -186,12 +186,12 @@ The RadTab to locate.
 
 #### Returns
 
-`System.Int32` The zero-based index of tab within the current RadTabCollection, 
-            	if found; otherwise, -1.
+`System.Int32` The zero-based index of tab within the current RadTabCollection,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified RadTab object in the current 
+Inserts the specified RadTab object in the current
             RadTabCollection at the specified index location.
 
 #### Parameters
@@ -211,7 +211,7 @@ The RadTab to insert.
 ###  Remove
 
 Removes the specified RadTab object from the current
-            	RadTabCollection.
+                   RadTabCollection.
 
 #### Parameters
 
@@ -225,7 +225,7 @@ The RadTab object to remove.
 
 ###  RemoveAt
 
-Removes the RadTab object at the specified index 
+Removes the RadTab object at the specified index
             from the current RadTabCollection.
 
 #### Parameters

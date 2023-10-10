@@ -26,12 +26,12 @@ Gets or sets the access key that allows you to quickly navigate to the Web serve
 ###  Buttons `RadToolBarButtonCollection`
 
 Gets a RadToolBarButtonCollection object that
-            	contains the child buttons of the dropdown.
+                   contains the child buttons of the dropdown.
 
 #### Remarks
 Use the Buttons property to access the child buttons of the dropdown. You can also use
-            	the Buttons property to manage the children of the dropdown. You can add,
-            	remove or modify buttons from the Buttons collection.
+                   the Buttons property to manage the children of the dropdown. You can add,
+                   remove or modify buttons from the Buttons collection.
 
 ###  ClickedCssClass `String`
 
@@ -164,7 +164,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 
 #### Remarks
 You can use the OuterCssClass property to specify unique
-            	appearance for the item, or to insert elements that are before/after the link element.
+                   appearance for the item, or to insert elements that are before/after the link element.
 
 ###  OverFlow `ToolBarOverflow`
 
@@ -194,7 +194,7 @@ Gets or sets the text displayed for the current item.
 
 #### Remarks
 Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
+                   in the RadToolBar control.
 
 ###  ToolBar `RadToolBar`
 

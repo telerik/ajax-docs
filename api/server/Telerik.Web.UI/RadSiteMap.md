@@ -45,13 +45,13 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `RadSiteMapNodeBindingCollection`
 
-Gets a collection of  objects that define the relationship 
-            	between a data item and the tree node it is binding to.
+Gets a collection of  objects that define the relationship
+                   between a data item and the tree node it is binding to.
 
 ###  DefaultLevelSettings `DefaultSiteMapLevelSetting`
 
@@ -120,7 +120,7 @@ Gets a  object that contains the root nodes of the current RadSiteMap control.
 
 #### Remarks
 Use the nodes property to access the root nodes of the RadSiteMap control. You can also use the nodes property to
-            	manage the root nodes - you can add, remove or modify nodes.
+                   manage the root nodes - you can add, remove or modify nodes.
 
 ###  ODataDataSourceID `String`
 
@@ -175,7 +175,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  ValidationGroup `String`
 
@@ -265,11 +265,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -307,7 +307,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

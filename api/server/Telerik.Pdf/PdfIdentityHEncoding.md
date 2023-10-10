@@ -9,7 +9,7 @@ description: Telerik.Pdf.PdfIdentityHEncoding
 Represents a Identity-H character encoding
 
 #### Remarks
-Maps 2-byte character codes ranging from 0 to 65,535 to 
+Maps 2-byte character codes ranging from 0 to 65,535 to
                 the same 2-byte CID value, interpreted high-order byte first
 
 ## Inheritance Hierarchy

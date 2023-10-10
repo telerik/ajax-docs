@@ -10,7 +10,7 @@ Data class used for transferring tree nodes from and to web services.
 
 #### Remarks
 For information about the role of each property see the
-            	Telerik.Web.UI.RadTreeNode class.
+                   Telerik.Web.UI.RadTreeNode class.
 
 ## Inheritance Hierarchy
 

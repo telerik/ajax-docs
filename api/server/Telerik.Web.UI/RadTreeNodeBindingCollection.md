@@ -6,8 +6,8 @@ description: Telerik.Web.UI.RadTreeNodeBindingCollection
 
 # Telerik.Web.UI.RadTreeNodeBindingCollection
 
-Defines the relationship between a data item and the menu item it is binding to in a 
-            	Telerik.Web.UI.RadMenu control.
+Defines the relationship between a data item and the menu item it is binding to in a
+                   Telerik.Web.UI.RadMenu control.
 
 ## Inheritance Hierarchy
 
@@ -21,8 +21,8 @@ Defines the relationship between a data item and the menu item it is binding to 
 
 ###  Item `RadTreeNodeBinding`
 
-Gets the  object at the specified index in 
-            	the current .
+Gets the  object at the specified index in
+                   the current .
 
 ###  Item `ItemType`
 

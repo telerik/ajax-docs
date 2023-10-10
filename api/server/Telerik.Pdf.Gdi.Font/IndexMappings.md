@@ -6,7 +6,7 @@ description: Telerik.Pdf.Gdi.Font.IndexMappings
 
 # Telerik.Pdf.Gdi.Font.IndexMappings
 
-Utility class that stores a list of glyph indices and their 
+Utility class that stores a list of glyph indices and their
                 asociated subset indices.
 
 ## Inheritance Hierarchy
@@ -32,7 +32,7 @@ Gets a list of subset indices sorted in ascending order.
 
 ###  Add
 
-Adds the list of supplied glyph indices to the index mappings using 
+Adds the list of supplied glyph indices to the index mappings using
                 the next available subset index for each glyph index.
 
 #### Parameters
@@ -81,7 +81,7 @@ Determines whether a mapping exists for the supplied glyph index.
 
 ###  Map
 
-Returns the subset index for glyphIndex.  If a subset 
+Returns the subset index for glyphIndex.  If a subset
                 index does not exist for glyphIndex one is generated.
 
 #### Parameters

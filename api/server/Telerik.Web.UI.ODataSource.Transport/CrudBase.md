@@ -6,7 +6,7 @@ description: Telerik.Web.UI.ODataSource.Transport.CrudBase
 
 # Telerik.Web.UI.ODataSource.Transport.CrudBase
 
-This Class Gets or sets the data service url for CRUD operation and 
+This Class Gets or sets the data service url for CRUD operation and
             the type of the response. It could be JSON or
             JSONP if the request is cross domain.
 

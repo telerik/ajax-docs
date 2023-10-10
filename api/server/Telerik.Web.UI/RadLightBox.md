@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadLightBox
 
 # Telerik.Web.UI.RadLightBox
 
-RadLightBox control. See the https://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/overview Overviewtopic for more information.
+RadLightBox control. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/overview Overviewtopic for more information.
 
 ## Inheritance Hierarchy
 
@@ -39,7 +39,7 @@ RadLightBox Client Settings
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -150,12 +150,12 @@ The container that holds the title
 
 Gets or sets a value indicating where RadLightBox will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  LoopItems `RadLightBoxItemCollection`
@@ -172,7 +172,7 @@ Gets or sets the ODataDataSource used for data binding.
 
 ###  PreserveCurrentItemTemplates `RadLightBoxItem`
 
-If set to true, this will prevent disposing of the current item's templates which will avoid 
+If set to true, this will prevent disposing of the current item's templates which will avoid
             the postback when only one template item is available in the items collection and the lightbox is closed and then re-opened.
             Disabled by default.
 
@@ -235,7 +235,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  TabIndex `Int16`
 

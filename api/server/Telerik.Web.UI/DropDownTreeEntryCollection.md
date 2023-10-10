@@ -22,7 +22,7 @@ Gets the IsReadOnly.
 
 ###  Item `DropDownTreeEntry`
 
-Gets the DropDownTreeEntry at the specified index in 
+Gets the DropDownTreeEntry at the specified index in
                 the current DropDownTreeEntryCollection.
 
 ## Methods

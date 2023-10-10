@@ -25,7 +25,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -37,7 +37,7 @@ If EnableAjaxSkinRendering is set to false you will have to register the needed 
 
 ###  EnableClientScriptEvaluation `Boolean`
 
-Gets or sets a boolean value indicating whether or not the client scripts loaded by the RadControls 
+Gets or sets a boolean value indicating whether or not the client scripts loaded by the RadControls
             hosted inside the RadXmlHttpPanel should be executed.
 
 ###  EnableEmbeddedBaseStylesheet `Boolean`

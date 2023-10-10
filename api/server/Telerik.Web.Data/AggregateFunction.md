@@ -31,7 +31,7 @@ Gets or sets a string that is used to format the result value.
 
 ###  CreateAggregateExpression
 
-Creates the aggregate expression that is used for constructing expression 
+Creates the aggregate expression that is used for constructing expression
             tree that will calculate the aggregate result.
 
 #### Parameters
@@ -50,6 +50,6 @@ Generates default name for this function using this type's name.
 
 #### Returns
 
-`System.String` Function name generated with the following pattern: 
+`System.String` Function name generated with the following pattern:
             {.}_{}
 

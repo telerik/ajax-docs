@@ -8,7 +8,7 @@ description: Telerik.Web.UI.AutoCompleteBoxEntry
 
 This class defines the AutoCompleteBoxEntry object. It inherits both WebControl and
             IMarkableStateManager. AutoCompleteBoxEntries are
-             displayed as a sequence of strings separated by a 
+             displayed as a sequence of strings separated by a
              delimiter in RadAutoCompleteBox.
 
 ## Inheritance Hierarchy

@@ -6,9 +6,9 @@ description: Telerik.Web.UI.GridCommandItem
 
 # Telerik.Web.UI.GridCommandItem
 
-Item that is displayed on top or at the bottom of the each GridTableView base on the settings of 
+Item that is displayed on top or at the bottom of the each GridTableView base on the settings of
             P:Telerik.Web.UI.GridTableView.CommandItemDisplay property. Generally this item displays by default "Add new record" and "Refresh" button,
-            but it can be customized using the P:Telerik.Web.UI.GridTableView.CommandItemTemplate . The commands bubbled through this item will be fired by 
+            but it can be customized using the P:Telerik.Web.UI.GridTableView.CommandItemTemplate . The commands bubbled through this item will be fired by
             RadGrid.ItemCommand event.
 
 ## Inheritance Hierarchy
@@ -108,11 +108,11 @@ Gets the respective GridItemType of the grid item.
 ###  OwnerGridID `String`
 
 Gets the ClientID of the RadGrid instance that
-            owns the item.
+             owns the item.
 
 #### Remarks
 This would be useful if several controls use the same eventhandler and you need
-            to diferentiate the Grid instances in the handler.
+             to diferentiate the Grid instances in the handler.
 
 ###  OwnerID `String`
 
@@ -192,7 +192,7 @@ command argument, for example 'Next'
 
 ###  SetTempIndexHierarchical
 
-Used after postback before ViewState becomes available - 
+Used after postback before ViewState becomes available -
             for example in ItemCreated and ItemDataBound events
 
 #### Parameters

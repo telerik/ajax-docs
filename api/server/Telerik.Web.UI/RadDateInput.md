@@ -7,12 +7,12 @@ description: Telerik.Web.UI.RadDateInput
 # Telerik.Web.UI.RadDateInput
 
 A control which ensures the date entered by the user is verified and
-            accurate.
+             accurate.
 
 #### Remarks
 You need to set the P:Telerik.Web.UI.RadDateInput.DateFormat DateFormat Propertyto specify the
-                relevant format for the date. You can also specify the culture information by
-                setting the P:Telerik.Web.UI.RadDateInput.Culture Culture Property.
+                 relevant format for the date. You can also specify the culture information by
+                 setting the P:Telerik.Web.UI.RadDateInput.Culture Culture Property.
 
 ## Inheritance Hierarchy
 
@@ -126,7 +126,7 @@ Use the CausesValidation property to determine whether validation is
 
 ###  ClientEvents `InputClientEvents`
 
-Gets or sets an instance of the Telerik.WebControls.InputClientEvents class which defines 
+Gets or sets an instance of the Telerik.WebControls.InputClientEvents class which defines
             the JavaScript functions (client-side event handlers) that are invoked when specific client-side events are raised.
 
 ###  ClientIDMode `ClientIDMode`
@@ -141,7 +141,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -205,8 +205,8 @@ Gets or sets the display text which allows you to set the display value from the
 
 ###  DisplayText `String`
 
-Gets or sets the display text which allows you to set the display value from the Server to a 
-            different value the actual value. Similar to the empty message, but shown even if the input is not empty. 
+Gets or sets the display text which allows you to set the display value from the Server to a
+            different value the actual value. Similar to the empty message, but shown even if the input is not empty.
             This text will be cleared once the user changes the input value.
 
 ###  EmptyMessage `String`
@@ -325,7 +325,7 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 ###  EnableOldBoxModel `Boolean`
 
-Gets or sets whether the textbox width should include the textbox paddings and borders. 
+Gets or sets whether the textbox width should include the textbox paddings and borders.
             The default value is FALSE, i.e. the textbox will actually be wider than expected.
 
 ###  EnableRippleEffect `Boolean`
@@ -334,8 +334,8 @@ Returns true if ripple effect should be added
 
 ###  EnableSingleInputRendering `Boolean`
 
-Gets or sets the single input rendering mode which renderes only two main HTML elements 
-            on the page, instead of two or three (depending on the specific RadInput) which are 
+Gets or sets the single input rendering mode which renderes only two main HTML elements
+            on the page, instead of two or three (depending on the specific RadInput) which are
             rendered in the non-single mode of the  controls.
 
 ###  EnableSmartParsing `Boolean`
@@ -445,11 +445,11 @@ For internal use.
 ###  Label `String`
 
 Gets or sets the text of the tag rendered along with RadInput
-            control.
+             control.
 
 #### Remarks
 If the value of this property has not been set, a tag will not be rendered. Keep
-            in mind that accessibility standards require labels for all input controls.
+             in mind that accessibility standards require labels for all input controls.
 
 ###  LabelCssClass `String`
 
@@ -474,9 +474,9 @@ Gets or sets the maximum number of characters allowed in the text box.
 
 #### Remarks
 Use the MaxLength property to limit the number of characters that can be entered
-            in the RadInput control. This property cannot be set by themes or style sheet
-            themes. For more information, see ThemeableAttribute and Introduction to ASP.NET
-            Themes.
+             in the RadInput control. This property cannot be set by themes or style sheet
+             themes. For more information, see ThemeableAttribute and Introduction to ASP.NET
+             Themes.
 
 ###  MinDate `DateTime`
 
@@ -489,10 +489,10 @@ Gets or sets the JavaScript event handler fired whenever the date of
             RadDateInput changes.
 
 #### Remarks
-The event handler function is called with 2 parameters: 
+The event handler function is called with 2 parameters:
                 A reference to the RadDateInput object, which triggered
                     the event;
-                        An event arguments object that contains the following properties: 
+                        An event arguments object that contains the following properties:
                         OldDate - The old date of the
                             RadDateInputNewDate - The new date of the
                             RadDateInput
@@ -564,37 +564,37 @@ Use this property to provide selection on focus of RadInput control. You
 
 ###  ShortYearCenturyEnd `Int32`
 
-Gets or sets a value that indicates the end of the century that is used to interpret 
+Gets or sets a value that indicates the end of the century that is used to interpret
             the year value when a short year (single-digit or two-digit year) is entered in the input.
 
 #### Remarks
-Having a value of 2029 indicates that a short year will be interpreted as a year between 1930 and 2029. 
+Having a value of 2029 indicates that a short year will be interpreted as a year between 1930 and 2029.
             For example 55 will be interpreted as 1955 but 12 -- as 2012
 
 ###  ShortYearCenturyStart `Int32`
 
-Gets a value that indicates the start of the century that is used to interpret 
+Gets a value that indicates the start of the century that is used to interpret
             the year value when a short year (single-digit or two-digit year) is entered in the input.
 
 #### Remarks
-Having a value of 2029 indicates that a short year will be interpreted as a year between 1930 and 2029. 
+Having a value of 2029 indicates that a short year will be interpreted as a year between 1930 and 2029.
             For example 55 will be interpreted as 1955 but 12 -- as 2012
 
 ###  ShouldResetWidthInPixels `Unit`
 
-Gets or sets whether the textbox width should be recalculated and reset in pixels on the client. 
-            This prevents textbox expansion in Internet Explorer if the textbox content is too long, but can 
+Gets or sets whether the textbox width should be recalculated and reset in pixels on the client.
+            This prevents textbox expansion in Internet Explorer if the textbox content is too long, but can
             cause unexpected side effects, depending on the particular scenario. The default value is TRUE.
 
 ###  ShowButton `Boolean`
 
 Gets or sets a value indicating whether the button is displayed in the
-            RadInput control.
+             RadInput control.
 
 #### Remarks
 Use the ShowButton property to specify whether the button is displayed in the
-                RadInput control.The contents of the button are controlled by the ButtonTemplate
-                property.
+                 RadInput control.The contents of the button are controlled by the ButtonTemplate
+                 property.
 
 ###  Skin `String`
 

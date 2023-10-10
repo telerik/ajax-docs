@@ -170,7 +170,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web server
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CssFile `String`

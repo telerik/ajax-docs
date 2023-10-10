@@ -29,7 +29,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -169,8 +169,8 @@ Use this from RenderContents of the inheritor
 Adds RadUrid=[GUID] parameter to the supplied URL.
 
 #### Remarks
-Use this method to generate proper URL for cross page postbacks 
-            	which will enable RadMemoryOptimization and RadProgressArea.
+Use this method to generate proper URL for cross page postbacks
+                   which will enable RadMemoryOptimization and RadProgressArea.
 
 #### Returns
 

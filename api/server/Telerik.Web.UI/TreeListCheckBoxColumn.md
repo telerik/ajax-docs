@@ -6,8 +6,8 @@ description: Telerik.Web.UI.TreeListCheckBoxColumn
 
 # Telerik.Web.UI.TreeListCheckBoxColumn
 
-A column type for the RadTreeList control that displays a CheckBox 
-            in each corresponding cell inside all rendered 
+A column type for the RadTreeList control that displays a CheckBox
+            in each corresponding cell inside all rendered
             Telerik.Web.UI.TreeListDataItem instances.
 
 ## Inheritance Hierarchy
@@ -88,7 +88,7 @@ Gets or sets the tooltip of the header cell.
 
 ###  IsEditable `Boolean`
 
-Gets a value indicating whether this column is currently editable. Use the column's 
+Gets a value indicating whether this column is currently editable. Use the column's
             ReadOnly property if you want to change its editing capabilities.
 
 ###  ItemStyle `TableItemStyle`
@@ -225,7 +225,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters
@@ -256,8 +256,8 @@ Prepares the cell of the given item when the treelist is rendered.
 
 ###  ShouldExtractValues
 
-Gets or sets a value specifying whether RadTreeList should extract values from the specified 
-             instance based on the item's editable state, 
+Gets or sets a value specifying whether RadTreeList should extract values from the specified
+             instance based on the item's editable state,
             the current column's ReadOnly state and the value of ForceExtractValue property.
 
 #### Returns

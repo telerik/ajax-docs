@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterExpressionItem
 
 # Telerik.Web.UI.RadFilterExpressionItem
 
-Represents the UI component rendered by Telerik.Web.UI.RadFilter to represent 
+Represents the UI component rendered by Telerik.Web.UI.RadFilter to represent
             a filter expression.
 
 ## Inheritance Hierarchy

@@ -29,7 +29,7 @@ Gets or sets the logical operator used for composing of .
 
 ###  CreateFilterExpression
 
-Creates a predicate filter expression combining  
+Creates a predicate filter expression combining 
             expressions with .
 
 #### Parameters
@@ -44,8 +44,8 @@ The parameter expression, which will be used for filtering.
 
 ###  CreateFilterExpression
 
-Creates a filter expression by delegating its creation to 
-            , if 
+Creates a filter expression by delegating its creation to
+            , if
              is , otherwise throws
 
 #### Parameters

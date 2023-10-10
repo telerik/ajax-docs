@@ -46,8 +46,8 @@ Gets the client-side ID attribute of the HTML element that is the drop target.
 
 ###  UpdatedParentKeyValues `IDictionary`
 
-Gets the collection of parent data key values that will be assigned to the dragged items 
+Gets the collection of parent data key values that will be assigned to the dragged items
             when automatic item reordering is enabled. To change the parent-child relations between
-            the dragged items and the destination item, each item in the DraggedItems collection 
+            the dragged items and the destination item, each item in the DraggedItems collection
             will have its parent data key values updated with values in this collection.
 

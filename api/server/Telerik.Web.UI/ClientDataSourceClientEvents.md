@@ -7,7 +7,7 @@ description: Telerik.Web.UI.ClientDataSourceClientEvents
 # Telerik.Web.UI.ClientDataSourceClientEvents
 
 Represents the client events of Telerik.Web.UI.RadClientDataSource .
-            Allows setting the names of client-side functions which will be called 
+            Allows setting the names of client-side functions which will be called
             when the given events are raised on the client.
 
 ## Inheritance Hierarchy

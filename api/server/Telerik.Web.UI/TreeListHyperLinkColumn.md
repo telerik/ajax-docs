@@ -6,7 +6,7 @@ description: Telerik.Web.UI.TreeListHyperLinkColumn
 
 # Telerik.Web.UI.TreeListHyperLinkColumn
 
-Represents a Telerik.Web.UI.TreeListColumn extended to display a HyperLink 
+Represents a Telerik.Web.UI.TreeListColumn extended to display a HyperLink
             in each of its data cells.
 
 ## Inheritance Hierarchy
@@ -158,7 +158,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

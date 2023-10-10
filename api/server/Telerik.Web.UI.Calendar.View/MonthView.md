@@ -18,7 +18,7 @@ MonthView object that represents the current View, corresponding to the specifie
 
 ###  ChildViews `CalendarViewCollection`
 
-Gets the current  child 
+Gets the current  child
             views as a .
 
 ###  ColumnHeaderImage `String`
@@ -31,7 +31,7 @@ Gets or sets the column header text.
 
 ###  ConditionsErrorMessage `String`
 
-Gets or sets the conditions error message which will 
+Gets or sets the conditions error message which will
             be displayed if there any errors in the settings.
 
 ###  CurrentViewBeginDate `DateTime`
@@ -69,7 +69,7 @@ Gets or sets the header .
 ###  ID `String`
 
 Gets or sets the ID of the .
-            Returns the parent  ClientID if 
+            Returns the parent  ClientID if
             the view is TopView.
 
 ###  IsHidden `Boolean`

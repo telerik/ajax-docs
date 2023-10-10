@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadImageGallery
 
 # Telerik.Web.UI.RadImageGallery
 
-RadImageGallery control. See https://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/overview RadImageGallery Overviewtopic for more information.
+RadImageGallery control. See http://docs.telerik.com/devtools/aspnet-ajax/controls/imagegallery/overview RadImageGallery Overviewtopic for more information.
 
 ## Inheritance Hierarchy
 
@@ -71,7 +71,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -87,7 +87,7 @@ Gets or sets a value indicating the index of the current page the RadImageGaller
 Gets or sets an integer value representing the current page index.
 
 #### Remarks
-Note that the  should be 
+Note that the  should be
             set to 'true' in order for the property to take effect.
 
 ###  DataDescriptionField `String`
@@ -107,7 +107,7 @@ Gets or sets a string value determining the field in the
 ###  DataKeyNames `String[]`
 
 Gets or sets an array of data-field names that will be used to
-            populate the DataKeyValues collection, when the 
+            populate the DataKeyValues collection, when the
             control is databinding.
 
 ###  DataMember `String`
@@ -253,7 +253,7 @@ For internal use.
 
 ###  Items `ImageGalleryItemCollection`
 
-Gets the items collection which holds the data associated with the items 
+Gets the items collection which holds the data associated with the items
             that will be populated in the ThumbnailArea and the items that will be
             shown in the current content view mode.
 
@@ -271,12 +271,12 @@ Gets the  control that will be displayed
 
 Gets or sets a value indicating where RadImageGallery will look for its .resx localization file.
             By default this file should be in the App_GlobalResources folder. However, if you cannot put
-            the resource file in the default location or .resx files compilation is disabled for some reason 
+            the resource file in the default location or .resx files compilation is disabled for some reason
             (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
 
 #### Remarks
 If specified, the LocalizationPath
-            property will allow you to load the grid localization file from any location in the 
+            property will allow you to load the grid localization file from any location in the
             web application.
 
 ###  LoopItems `ImageGalleryItemCollection`
@@ -295,7 +295,7 @@ Gets or sets an integer value indicating the number of items that will be popula
             in the  ThumbnailArea.
 
 #### Remarks
-Note that the  should be 
+Note that the  should be
             set to 'true' in order for the property to take effect.
 
 ###  RadToolTip `RadToolTip`
@@ -343,7 +343,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SkinID `String`
 
@@ -355,7 +355,7 @@ Gets or sets the tab index of the Web server control.
 
 ###  ThumbnailListView `RadListView`
 
-Gets a reference to the  control that 
+Gets a reference to the  control that
             is used inside the  ThumbnailArea.
             The  holds the thumbnails items created from the
              collection.

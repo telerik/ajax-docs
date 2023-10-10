@@ -60,7 +60,7 @@ Gets or sets if the custom paging feature is enabled.
 There are cases in which you may want to fetch only a fixed number of records and
                 perform operations over this specified set of data. Telerik RadGrid allows such
                 data manipulation through the custom paging mechanism integrated in the control.
-                The main steps you need to undertake are: 
+                The main steps you need to undertake are:
                 Set AllowPaging = true and AllowCustomPaging = true for
                     your grid instanceImplement code logic which to extract merely a fixed number of records
                     from the grid source and present them in the grid structureThe total number of records in the grid source should be defined through
@@ -448,7 +448,7 @@ Gets or sets the name of the method to call in order to delete data
 
 ###  DetailItemTemplate `ITemplate`
 
-DetailwItemTemplate is a template that will be instantiated as a part of each data item. 
+DetailwItemTemplate is a template that will be instantiated as a part of each data item.
             Supports one-way databinding.
 
 ###  DetailTables `GridTableViewCollection`
@@ -458,7 +458,7 @@ Gets or sets the collection of detail table views for this
 
 #### Remarks
 Adding or removing objects to the DetailTables collection changes
-                the hierarchical structure. 
+                the hierarchical structure.
                 
                     Use  after modifying the collection
                     programmatically.
@@ -530,17 +530,17 @@ Gets or sets a value indicating whether the groups expand/collapse all header bu
 
 ###  EnableHeaderContextAggregatesMenu `Boolean`
 
-Gets or sets a value indicating whether the option to set columns aggregates should appear in 
-             	header context menu.
+Gets or sets a value indicating whether the option to set columns aggregates should appear in
+                 header context menu.
 
 ###  EnableHeaderContextFilterMenu `Boolean`
 
-Gets or sets a value indicating whether the header context filter menu should be 
+Gets or sets a value indicating whether the header context filter menu should be
                  enabled.
 
 ###  EnableHeaderContextMenu `Boolean`
 
-Gets or sets a value indicating whether the header context menu should be 
+Gets or sets a value indicating whether the header context menu should be
                  enabled.
 
 ###  EnableHierarchyExpandAll `Boolean`
@@ -579,11 +579,11 @@ Gets or sets the filtering options for grid columns.
 
 #### Remarks
 In the most common case, Telerik RadGrid checks all filtering options
-            for each column, then prepares a filter expression and sets this property internally. 
-            Note: You should be careful when setting this property as it may
-            break the whole filtering functionality for your grid.More info on the way, the expressions are created you can find
-            
-            here (external link to MSDN library).
+             for each column, then prepares a filter expression and sets this property internally.
+             Note: You should be careful when setting this property as it may
+             break the whole filtering functionality for your grid.More info on the way, the expressions are created you can find
+             
+             here (external link to MSDN library).
 
 ###  FilterItemStyle `GridTableItemStyle`
 
@@ -896,17 +896,17 @@ The empty data row is displayed in a GridTableView control when
 ###  NoRecordsTemplate `ITemplate`
 
 Gets or sets the template that will be displayed if a
-                GridTableView
-                control is bound to a data source that does not contain any records.
+                 GridTableView
+                 control is bound to a data source that does not contain any records.
 
 #### Remarks
 You can set the text that will appear in the NoRecordsTemplate through
-                    NoMasterRecordsText and
-                    NoDetailRecordsText properties.
-                By default if Items.Count equals 0,
-                GridTableView will render no records message.If NoRecordsTemplate and
-                NoMasterRecordsText/NoDetailRecordsText are set,
-                the NoRecordsTemplate property has priority.
+                     NoMasterRecordsText and
+                     NoDetailRecordsText properties.
+                 By default if Items.Count equals 0,
+                 GridTableView will render no records message.If NoRecordsTemplate and
+                 NoMasterRecordsText/NoDetailRecordsText are set,
+                 the NoRecordsTemplate property has priority.
 
 ###  OverrideDataSourceControlSorting `Object`
 
@@ -1029,7 +1029,7 @@ If you have specified the relations RadGrid will automatically
 Gets or sets a value indicating whether white-space characters inside the filter expression will be trimmed.
 
 #### Remarks
-When the value is true, it will not be trimmed and any white-space 
+When the value is true, it will not be trimmed and any white-space
                     characters in it will be included in the filter expression.
 
 ###  RenderActiveItemStyle `GridTableItemStyle`
@@ -1213,7 +1213,7 @@ Modifying the SortExpressions collection will result in change
 
 ###  SortHeaderContextMenuColumns `Boolean`
 
-Gets or sets a value indicating whether the Columns in the  
+Gets or sets a value indicating whether the Columns in the 
                  will be sorted by default.
 
 ###  Summary `String`
@@ -1236,7 +1236,7 @@ Gets or sets a string that indicates whether the table layout is fixed.
 #### Remarks
 The value of the TableLayout property is a string that
                     specifies or receives one of the following GridTableLayout
-                    enumeration values: 
+                    enumeration values:
                     AutoDefault (except in some scenarios, e.g. when using static headers with grouping or hierarchy). Column width is set by the widest unbreakable content in
                             the column cells.Fixed
                                 Table and column widths are set either by the sum of the
@@ -1250,7 +1250,7 @@ Gets or sets the current time zone GridTableView is operating in
 
 ###  TimeZoneProvider `TimeZoneInfoProvider`
 
-Gets a reference to the TimeZoneInfoProvider which exposes methods for 
+Gets a reference to the TimeZoneInfoProvider which exposes methods for
                 converting DateTime values according to certain time zone.
 
 ###  UpdateMethod `String`
@@ -1339,7 +1339,7 @@ Recreates all GridItems and chld controls, using the DataSource or the ViewState
 
 #### useDataSource `System.Boolean`
 
-'True' means that DataBind() is executing. 'False' means that Viewtate 
+'True' means that DataBind() is executing. 'False' means that Viewtate
             has been just loaded after postback.
 
 #### Returns
@@ -1647,7 +1647,7 @@ Gets the currently  selected items.
 
 #### Returns
 
-`Telerik.Web.UI.GridDataItem[]` Returns an Array of  
+`Telerik.Web.UI.GridDataItem[]` Returns an Array of 
             objects representing the currently selected items.
 
 ###  InsertItem

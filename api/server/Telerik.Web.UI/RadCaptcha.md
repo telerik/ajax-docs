@@ -59,7 +59,7 @@ Gets or sets the text of the LinkButton that generates new CaptchaImage.
 
 ###  CaptchaMaxTimeout `Int32`
 
-Gets or sets the maximum number of minutes RadCaptcha will be cached and valid. 
+Gets or sets the maximum number of minutes RadCaptcha will be cached and valid.
             If you're too slow, you may be a RadCaptcha hack attempt. Set to zero to disable.
 
 ###  CaptchaTextBoxCssClass `String`
@@ -85,7 +85,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Display `ValidatorDisplay`
@@ -132,7 +132,7 @@ If EnableEmbeddedScripts is set to false you will have to register the needed Sc
 
 ###  EnableEmbeddedSkins `Boolean`
 
-Gets or sets the value, indicating whether to render links to the embedded skins or not. 
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
             This control features no skins, so this property must be set to false.
 
 ###  EnableEmbeddedSkins `String`
@@ -148,7 +148,7 @@ Defines whether notification panel for missing audio plug-in should be displayed
 
 ###  EnableRefreshImage `Boolean`
 
-Gets or sets a bool value indicating whether or not the RadCaptchaImage can be refreshed. 
+Gets or sets a bool value indicating whether or not the RadCaptchaImage can be refreshed.
             The "rcRefreshImage" CSS class should be used for changing the skinning of the LinkButton,
             that generates the new image.
 
@@ -170,14 +170,14 @@ Specifies the URL of the HTTPHandler that serves the captcha image.
 
 #### Remarks
 The HTTPHandler should either be registered in the application configuration
-            		file, or a file with the specified name should exist at the location, which
-            		HttpHandlerUrl points to.
-            	
-            		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
+                       file, or a file with the specified name should exist at the location, which
+                       HttpHandlerUrl points to.
+                   
+                       If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
 
 ###  IgnoreCase `Boolean`
 
-Gets or sets a bool value indicating whether the RadCaptcha should ignore  
+Gets or sets a bool value indicating whether the RadCaptcha should ignore
             the case of the letters or not.
 
 ###  ImageStorageLocation `CaptchaImageStorage`
@@ -185,8 +185,8 @@ Gets or sets a bool value indicating whether the RadCaptcha should ignore
 Gets or sets the storage medium for the CaptchaImage.
 
 #### Remarks
-When the image is stored in the session the RadCaptcha HttpHandler 
-            definition (in the web.config file) must be changed from type="Telerik.Web.UI.WebResource" to 
+When the image is stored in the session the RadCaptcha HttpHandler
+            definition (in the web.config file) must be changed from type="Telerik.Web.UI.WebResource" to
             type="Telerik.Web.UI.WebResourceSession" so that the image can be retrieved from the Session.
 
 ###  InvisibleTextBoxLabel `String`
@@ -203,7 +203,7 @@ Gets or sets a value indicating whether the user-entered content in the RadCaptc
 
 ###  MinTimeout `Int32`
 
-Gets or sets the minimum number of seconds the form must be displayed 
+Gets or sets the minimum number of seconds the form must be displayed
             before it is valid. If you're too fast, you must be a robot.
 
 ###  MissingPluginText `String`
@@ -274,7 +274,7 @@ Gets the TextBox that is being validated by the RadCaptcha.
 
 ###  ValidatedTextBoxID `String`
 
-Gets or sets the ID of the textbox to be validated, 
+Gets or sets the ID of the textbox to be validated,
             when only the RadCaptcha image is rendered on the page.
 
 ###  ValidatedTextControl `ITextControl`

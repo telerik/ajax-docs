@@ -13,8 +13,8 @@ A column type for the RadGrid control that is bound to a field in a data
 The default data binding (when AutoGenerateColumnsproperty
                 is set to true) generates GridDateTimeColumntype of column for source field which is of type DateTime. It
                 displays each item from the DataSource field as text in regular mode. This column is
-                https://www.telerik.com/help/aspnet-ajax/grdeditforms.html editable(implements the
-                https://www.telerik.com/help/aspnet-ajax/telerik.web.ui-telerik.web.ui.grideditablecolumn.html IGridEditableColumninterface) and provides by default GridDateTimeColumnEditor, used for
+                http://www.telerik.com/help/aspnet-ajax/grdeditforms.html editable(implements the
+                http://www.telerik.com/help/aspnet-ajax/telerik.web.ui-telerik.web.ui.grideditablecolumn.html IGridEditableColumninterface) and provides by default GridDateTimeColumnEditor, used for
                 editing the date in each item.GridDateTimeColumnhas three similar and yet different
                 properties controlling its visibility and rendering in a browser in regular and in
                 edit mode:bullet Display- concerns only the appearance of the column in
@@ -157,7 +157,7 @@ Gets or sets a value indicating whether the cells corresponding to a column woul
 
 ###  EditDataFormatString `String`
 
-Gets or sets the data format that will be applied to the edit field 
+Gets or sets the data format that will be applied to the edit field
             when a GridDataItem is edited in RadGrid
 
 ###  EditFormColumnIndex `Int32`
@@ -228,7 +228,7 @@ Gets or sets the date format that will be applied to the filter date input
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -369,17 +369,17 @@ Gets or sets the MinDate property of the  controls.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -564,8 +564,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

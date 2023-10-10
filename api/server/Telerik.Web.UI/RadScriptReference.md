@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadScriptReference
 
 # Telerik.Web.UI.RadScriptReference
 
-This type of script reference allows the user to exclude a script reference from 
+This type of script reference allows the user to exclude a script reference from
             combining by RadScriptManager (when RadScriptManager.EnableScriptCombine is set to true).
             The property Combine (true by default) controls this behavior.
 
@@ -26,10 +26,10 @@ Set this property to tell RadScriptManager whether to combine the script referen
 
 ###  OutputPosition `ScriptReferenceOutputPosition`
 
-Set this property to one of the available values -  
-                ScriptReferenceOutputPosition.Beggining, 
+Set this property to one of the available values -
+                ScriptReferenceOutputPosition.Beggining,
                 ScriptReferenceOutputPosition.Same,
-                ScriptReferenceOutputPosition.End - 
-            to move the current script to the beginning of the whole script block, remain on its place in the order of registration or 
+                ScriptReferenceOutputPosition.End -
+            to move the current script to the beginning of the whole script block, remain on its place in the order of registration or
             move at the end of the script block. ScriptReferenceOutputPosition.Same by default.
 

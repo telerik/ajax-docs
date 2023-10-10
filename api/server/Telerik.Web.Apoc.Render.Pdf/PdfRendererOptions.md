@@ -11,9 +11,9 @@ This class can be used to control various properties of PDF files
 
 #### Remarks
 Can be used to control certain values in the generated PDF's information
-                dictionary.  These values are typically displayed in a document summary 
+                dictionary.  These values are typically displayed in a document summary
                 dialog of PDF viewer applications.
-                This class also allows security settings to be specified that will 
+                This class also allows security settings to be specified that will
                 cause generated PDF files to be encrypted and optionally password protected.
 
 ## Inheritance Hierarchy
@@ -53,7 +53,7 @@ Enables or disables copying of text and graphics.
 
 ###  EnableModify `Boolean`
 
-Enables or disables modifying document contents (other than text annotations and 
+Enables or disables modifying document contents (other than text annotations and
                 interactive form fields).
 
 ###  EnablePrinting `Boolean`
@@ -90,7 +90,7 @@ Returns a list of keywords as a comma-separated string
 Specifies the owner password that will protect full access to any generated PDF documents.
 
 #### Remarks
-If either the owner or the user password is specified, 
+If either the owner or the user password is specified,
                 then the document will be encrypted.
 
 ###  Permissions `Int32`
@@ -120,7 +120,7 @@ This value will be embedded in the PDF information dictionary.
 Specifies the user password that will protect access to any generated PDF documents.
 
 #### Remarks
-If either the owner or the user password is specified, 
+If either the owner or the user password is specified,
                 then the document will be encrypted.
 
 ## Methods

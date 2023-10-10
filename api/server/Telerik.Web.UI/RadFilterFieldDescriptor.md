@@ -41,7 +41,7 @@ A RadFilterFieldDescriptor to compare the current one to.
 
 #### Returns
 
-`System.Boolean` true if the specified RadFilterFieldDescriptor is equal to the current RadFilterFieldDescriptor; 
+`System.Boolean` true if the specified RadFilterFieldDescriptor is equal to the current RadFilterFieldDescriptor;
             otherwise, false.
 
 ###  Equals
@@ -56,7 +56,7 @@ An Object to compare the current RadFilterFieldDescriptor to.
 
 #### Returns
 
-`System.Boolean` true if the specified Object is equal to the current RadFilterFieldDescriptor; 
+`System.Boolean` true if the specified Object is equal to the current RadFilterFieldDescriptor;
             otherwise, false.
 
 ###  GetHashCode

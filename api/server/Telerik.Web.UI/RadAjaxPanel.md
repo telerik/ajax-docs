@@ -6,12 +6,12 @@ description: Telerik.Web.UI.RadAjaxPanel
 
 # Telerik.Web.UI.RadAjaxPanel
 
-Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadAjax suite. 
-            The other one is Telerik.Web.UI.RadAjaxManager . 
-            The Telerik.Web.UI.RadAjaxPanel control provides the easiest 
-            way to AJAX-enable ASP.NET web control(s). To do this you simply need to place 
-            the controls that you want ajaxified into Telerik.Web.UI.RadAjaxPanel and Telerik RadAjax takes 
-            care of the rest. Best of all this happens transparently to the framework and the 
+Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadAjax suite.
+            The other one is Telerik.Web.UI.RadAjaxManager .
+            The Telerik.Web.UI.RadAjaxPanel control provides the easiest
+            way to AJAX-enable ASP.NET web control(s). To do this you simply need to place
+            the controls that you want ajaxified into Telerik.Web.UI.RadAjaxPanel and Telerik RadAjax takes
+            care of the rest. Best of all this happens transparently to the framework and the
             controls that are being ajaxified.
             You can find information on the server API of RadAjaxPanel at the Server-Side Programming article here: https://docs.telerik.com/devtools/aspnet-ajax/controls/ajaxpanel/server-side-programming/properties .
 
@@ -68,7 +68,7 @@ Enables browser back/forward buttons state (browser history).
 
 ###  EnablePageHeadUpdate `Boolean`
 
-Gets or sets if the page html head tag will be 
+Gets or sets if the page html head tag will be
             updated during the ajax request.
 
 ###  HorizontalAlign `HorizontalAlign`
@@ -82,7 +82,7 @@ Gets if the requst is ajax or full postback.
 
 ###  LoadingPanelID `String`
 
-Gets or sets the ID of the RadAjaxLoadingPanel control that 
+Gets or sets the ID of the RadAjaxLoadingPanel control that
             will be displayed over the control during AJAX requests.
 
 ###  PostBackControls `String[]`
@@ -95,8 +95,8 @@ Gets or sets the render mode of the the RadAjaxPanel. The default value is Block
 
 ###  RequestQueueSize `Int32`
 
-By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request. 
-            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax 
+By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request.
+            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax
             that will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
 
 #### Remarks
@@ -109,12 +109,12 @@ Gets the response scripts which represent JavaScript code
 
 ###  RestoreOriginalRenderDelegate `Boolean`
 
-RadAjax for ASP.NET has some limitations when running in medium trust. 
-            To make it work you should change the base type of your pages that use radjax 
-            from  to . However DNN module 
-            controls Inherit from Entities.Modules.PortalModuleBase and thus you cannot 
-            simply change the page's base class. For such cases you should use the new 
-            property RestoreOriginalRenderDelegate. By default it is true, if you work in 
+RadAjax for ASP.NET has some limitations when running in medium trust.
+            To make it work you should change the base type of your pages that use radjax
+            from  to . However DNN module
+            controls Inherit from Entities.Modules.PortalModuleBase and thus you cannot
+            simply change the page's base class. For such cases you should use the new
+            property RestoreOriginalRenderDelegate. By default it is true, if you work in
             DNN or medium trust, you should set that to false.
 
 ###  ShowLoadingPanelForPostBackControls `String[]`

@@ -32,7 +32,7 @@ Gets or sets a value indicating whether the item is checkable. A checkbox contro
             for checkable nodes.
 
 #### Remarks
-If the CheckBoxes property set to true, RadTreeView automatically displays a checkbox next to each node. 
+If the CheckBoxes property set to true, RadTreeView automatically displays a checkbox next to each node.
             You can set the Checkable property to false for nodes that do not need to display a checkbox.
 
 ###  Checked `Boolean`

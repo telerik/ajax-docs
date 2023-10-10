@@ -35,7 +35,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -348,7 +348,7 @@ Use the OnClientSelectedTabChanged property to specify a
                     object);
                         eventArgs with 3 properties:get_tab() - the instance of the tab which is
                             the new selected tab;get_previouslySelectedTab() - the instance of the tab
-            				which was previously selected;get_domEvent().
+                            which was previously selected;get_domEvent().
 
 ###  OnClientSelectedTabChanging `String`
 
@@ -363,7 +363,7 @@ Use the OnClientSelectedTabChanging property to specify a
                     object);
                         eventArgs with 3 properties:get_tab() - the instance of the tab which is
                             just clicked;get_previouslySelectedTab() - the instance of the tab
-            				which still is the selected tab (it's cancelable event);get_domEvent().
+                            which still is the selected tab (it's cancelable event);get_domEvent().
 
 ###  OnClientSplitButtonClicked `String`
 
@@ -450,7 +450,7 @@ Gets or sets the index of the selected tab.
 
 #### Remarks
 Use the SelectedTabIndex property to programmatically specify the selected
-            		tab in RadRibbonBar.
+                    tab in RadRibbonBar.
 
 ###  Skin `String`
 
@@ -466,7 +466,7 @@ Gets a RibbonBarTabCollection object that contains the tabs of the RibbonBar.
 
 #### Remarks
 Use the Tabs property to access the tabs of RadRibbonBar. You can also use the Tabs property to
-            	manage the tabs. You can add, remove or modify tabs from the Tabs collection.
+                   manage the tabs. You can add, remove or modify tabs from the Tabs collection.
 
 ## Methods
 
@@ -500,8 +500,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarButton` A RibbonBarButton whose Value property is equal to the specifed 
-            	value. If a button is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarButton` A RibbonBarButton whose Value property is equal to the specifed
+                   value. If a button is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindGroupByValue
 
@@ -517,8 +517,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarGroup` A RibbonBarGroup whose Value property is equal to the specifed 
-            	value. If a group is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarGroup` A RibbonBarGroup whose Value property is equal to the specifed
+                   value. If a group is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindMenuItemByValue
 
@@ -534,8 +534,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarMenuItem` A RibbonBarMenuItem whose Value property is equal to the specifed 
-            	value. If a menu item is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarMenuItem` A RibbonBarMenuItem whose Value property is equal to the specifed
+                   value. If a menu item is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindTabByValue
 
@@ -551,8 +551,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarTab` A RibbonBarTab whose Value property is equal to the specifed 
-            	value. If a tab is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarTab` A RibbonBarTab whose Value property is equal to the specifed
+                   value. If a tab is not found, null (Nothing in Visual Basic) is returned.
 
 ###  FindToggleButtonByValue
 
@@ -568,8 +568,8 @@ The Value to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RibbonBarToggleButton` A RibbonBarToggleButton whose Value property is equal to the specified 
-            	value. If a button is not found, null (Nothing in Visual Basic) is returned.
+`Telerik.Web.UI.RibbonBarToggleButton` A RibbonBarToggleButton whose Value property is equal to the specified
+                   value. If a button is not found, null (Nothing in Visual Basic) is returned.
 
 ###  GetContextualTabGroupsToRender
 
@@ -604,11 +604,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -678,7 +678,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

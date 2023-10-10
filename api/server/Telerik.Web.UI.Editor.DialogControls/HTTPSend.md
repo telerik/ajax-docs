@@ -6,9 +6,9 @@ description: Telerik.Web.UI.Editor.DialogControls.HTTPSend
 
 # Telerik.Web.UI.Editor.DialogControls.HTTPSend
 
-Allow the transfer of data files using the W3C's 
-            specification for HTTP multipart form data. 
-            Microsoft's version has a bug where it does not 
+Allow the transfer of data files using the W3C's
+            specification for HTTP multipart form data.
+            Microsoft's version has a bug where it does not
             format the ending boundary correctly.
 
 ## Inheritance Hierarchy
@@ -20,112 +20,112 @@ Allow the transfer of data files using the W3C's
 
 ###  BeginBoundary `String`
 
-The string that defines the begining boundary 
-            of our multipart transfer as defined in the 
+The string that defines the begining boundary
+            of our multipart transfer as defined in the
             w3c specs.
-            This method also sets the Content and Ending 
+            This method also sets the Content and Ending
             boundaries as defined by the w3c specs.
 
 ###  BufferSize `Int32`
 
-Allows us to determine the size of the buffer 
-            used to send a piece of the file at a time 
-            out the IO stream. 
+Allows us to determine the size of the buffer
+            used to send a piece of the file at a time
+            out the IO stream.
             Defaults to 1024 * 10.
 
 ###  Certificate `X509Certificate`
 
-Allows us to specifiy the certificate to use 
+Allows us to specifiy the certificate to use
             for secure communications.
 
 ###  Chunked `Boolean`
 
-Gets or sets a value indicating whether the 
+Gets or sets a value indicating whether the
             file can be sent in smaller packets.
 
 ###  ContentBoundary `String`
 
-The string that defines the content boundary 
-            of our multipart transfer as defined in the 
+The string that defines the content boundary
+            of our multipart transfer as defined in the
             w3c specs.
 
 ###  Credentials `ICredentials`
 
-Allows us to specified the credentials used 
+Allows us to specified the credentials used
             for the transfer.
 
 ###  EndingBoundary `String`
 
-The string that defines the ending boundary 
-            of our multipart transfer as defined in the 
+The string that defines the ending boundary
+            of our multipart transfer as defined in the
             w3c specs.
 
 ###  Expect100 `Boolean`
 
-Gets or sets a value indicating whether the 
+Gets or sets a value indicating whether the
             Expect100-Continue header should be sent.
 
 ###  FileContentType `String`
 
-Used to change the content type of the file 
+Used to change the content type of the file
             being sent.
-            Currently defaults to: text/xml. Other options 
+            Currently defaults to: text/xml. Other options
             are text/plain or binary.
 
 ###  KeepAlive `Boolean`
 
-Gets or sets a value indicating whether to 
-            make a persistent connection to the 
+Gets or sets a value indicating whether to
+            make a persistent connection to the
             Internet resource.
 
 ###  Pipelined `Boolean`
 
-Gets or sets a value indicating whether to 
+Gets or sets a value indicating whether to
             pipeline the request to the Internet resource.
 
 ###  ResponseText `StringBuilder`
 
-The data returned to us after the transfer 
+The data returned to us after the transfer
             is completed.
 
 ###  TransferHttpVersion `Version`
 
-Allows you to specify the specific version 
+Allows you to specify the specific version
             of HTTP to use for uploads.
-            The dot NET stuff currently does not allow 
+            The dot NET stuff currently does not allow
             you to remove the continue-100 header
-            from 1.1 and 1.0 currently has a bug in it 
-            where it adds the continue-100. 
-            MS has sent a patch to remove the 
+            from 1.1 and 1.0 currently has a bug in it
+            where it adds the continue-100.
+            MS has sent a patch to remove the
             continue-100 in HTTP 1.0.
 
 ###  URL `String`
 
-The web address of the recipient of the 
+The web address of the recipient of the
             transfer.
 
 ## Methods
 
 ###  GetFileHeader
 
-Returns the proper content information for 
+Returns the proper content information for
             the file we are sending.
 
 #### Parameters
 
 #### filename `System.String`
 
-The local path to 
+The local path to
             the file that should be sent.
 
 #### Returns
 
-`System.String` All file headers, properly formatted 
+`System.String` All file headers, properly formatted
             in a string.
 
 ###  GetFileTrailer
 
-Creates the proper ending boundary for the 
+Creates the proper ending boundary for the
             multipart upload.
 
 #### Returns
@@ -134,18 +134,18 @@ Creates the proper ending boundary for the
 
 ###  GetFormFields
 
-Builds the proper format of the multipart 
-            data that contains the form fields and 
+Builds the proper format of the multipart
+            data that contains the form fields and
             their respective values.
 
 #### Returns
 
-`System.String` All form fields, properly formatted 
+`System.String` All form fields, properly formatted
             in a string.
 
 ###  GetResponse
 
-Make the request to the web server and 
+Make the request to the web server and
             retrieve it's response into a text buffer.
 
 #### Returns
@@ -154,20 +154,20 @@ Make the request to the web server and
 
 ###  GetStream
 
-Determines if we have a file stream set, and 
-            returns either the HttpWebRequest stream or 
+Determines if we have a file stream set, and
+            returns either the HttpWebRequest stream or
             the file.
 
 #### Returns
 
-`System.IO.Stream` Either the HttpWebRequest stream or 
+`System.IO.Stream` Either the HttpWebRequest stream or
             the local output file.
 
 ###  SendTextAsFile
 
-Transmits a file to the web server stated 
-            in the URL property. 
-            You may call this several times and it will 
+Transmits a file to the web server stated
+            in the URL property.
+            You may call this several times and it will
             use the values previously set for fields and URL.
 
 #### Parameters
@@ -178,7 +178,7 @@ the text to send
 
 #### filename `System.String`
 
-The local path of 
+The local path of
             the file to send.
 
 #### Returns
@@ -187,21 +187,21 @@ The local path of
 
 ###  SetField
 
-Allows you to add some additional field data 
-            to be sent along with the transfer. 
-            This is usually used for things like userid 
+Allows you to add some additional field data
+            to be sent along with the transfer.
+            This is usually used for things like userid
             and password to validate the transfer.
 
 #### Parameters
 
 #### name `System.String`
 
-The name of the 
+The name of the
             custom field.
 
 #### value `System.String`
 
-The value of the 
+The value of the
             custom field.
 
 #### Returns
@@ -210,14 +210,14 @@ The value of the
 
 ###  SetFilename
 
-Used to signal we want the output to go to a 
+Used to signal we want the output to go to a
             text file verses being transfered to a URL.
 
 #### Parameters
 
 #### path `System.String`
 
-The local path to the 
+The local path to the
             output file.
 
 #### Returns
@@ -226,7 +226,7 @@ The local path to the
 
 ###  SetHeader
 
-Allows you to add some additional header data 
+Allows you to add some additional header data
             to be sent along with the transfer.
 
 #### Parameters
@@ -245,7 +245,7 @@ The value of the custom header.
 
 ###  WriteFile
 
-Reads in the file a chunck at a time then 
+Reads in the file a chunck at a time then
             sends it to the output stream.
 
 #### Parameters
@@ -264,7 +264,7 @@ The local path of the file to send.
 
 ###  WriteString
 
-Mainly used to turn the string into a byte 
+Mainly used to turn the string into a byte
             buffer and then write it to our IO stream.
 
 #### Parameters

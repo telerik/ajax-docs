@@ -26,12 +26,12 @@ Gets or sets the access key that allows you to quickly navigate to the Web serve
 ###  Buttons `RadToolBarButtonCollection`
 
 Gets a RadToolBarButtonCollection object that
-            	contains the child buttons of the split button.
+                    contains the child buttons of the split button.
 
 #### Remarks
 Use the Buttons property to access the child buttons of the split button.
-            	You can also use the Buttons property to manage the children of the
-            	current tab. You can add, remove or modify buttons from the Buttons collection.
+                    You can also use the Buttons property to manage the children of the
+                    current tab. You can add, remove or modify buttons from the Buttons collection.
 
 ###  CausesValidation `Boolean`
 
@@ -43,7 +43,7 @@ By default, page validation is performed when the button is clicked. Page
                 validation determines whether the input controls associated with a validation
                 control on the page all pass the validation rules specified by the validation
                 control. You can specify or determine whether validation is performed when the button is clicked
-            	on both the client and the server by using the CausesValidation
+                   on both the client and the server by using the CausesValidation
                 property. To prevent validation from being performed, set the
                 CausesValidation property to false.
 
@@ -66,18 +66,18 @@ Use the ClickedImageUrl property to specify the image that will be
 ###  CommandArgument `String`
 
 Gets or sets an optional parameter passed to the Command event of the
-            	RadToolBar instance along with the associated
-            	CommandName
+                   RadToolBar instance along with the associated
+                   CommandName
 
 ###  CommandName `String`
 
 Gets or sets the command name associated with the toolbar button that is passed to the
-            	ItemCommand event of the RadToolBar instance.
+                   ItemCommand event of the RadToolBar instance.
 
 ###  DefaultButtonIndex `Int32`
 
 Gets or sets the index of the button which properties will be used by default when the
-            	EnableDefaultButton property set to true.
+                   EnableDefaultButton property set to true.
 
 #### Remarks
 Use the DefaultButtonIndex property to specify the button
@@ -116,17 +116,17 @@ Gets or sets the width of the dropdown in pixels.
 ###  EnableDefaultButton `Boolean`
 
 Gets or sets a value, indicating if the RadToolBarSplitButton will
-            	use the DefaultButton behavior.
+                   use the DefaultButton behavior.
 
 #### Remarks
 Use the EnableDefaultButton property to set if
-            	RadToolBarSplitButton will use the DefaultButton
-            	behavior or not. When the DefaultButton behavior is used, the
-            	RadToolBarSplitButton properties are ignored and the
-            	properties of the last selected button are used instead. Use the EnableDefaultButton
-            	property in conjunction with the DefaultButtonIndex property to
-            	specify which of the RadToolBarSplitButton child buttons will
-            	be used when the RadToolBar is initially displayed.
+                   RadToolBarSplitButton will use the DefaultButton
+                   behavior or not. When the DefaultButton behavior is used, the
+                   RadToolBarSplitButton properties are ignored and the
+                   properties of the last selected button are used instead. Use the EnableDefaultButton
+                   property in conjunction with the DefaultButtonIndex property to
+                   specify which of the RadToolBarSplitButton child buttons will
+                   be used when the RadToolBar is initially displayed.
 
 ###  EnableImageSprite `Boolean`
 
@@ -228,7 +228,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 
 #### Remarks
 You can use the OuterCssClass property to specify unique
-            	appearance for the item, or to insert elements that are before/after the link element.
+                   appearance for the item, or to insert elements that are before/after the link element.
 
 ###  OverFlow `ToolBarOverflow`
 
@@ -285,7 +285,7 @@ Gets or sets the text displayed for the current item.
 
 #### Remarks
 Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
+                   in the RadToolBar control.
 
 ###  ToolBar `RadToolBar`
 
@@ -298,11 +298,11 @@ Use this property to obtain an instance to the
 ###  ValidationGroup `String`
 
 Gets or sets the name of the validation group to which the
-            	RadToolBarSplitButton belongs.
+                    RadToolBarSplitButton belongs.
 
 #### Remarks
 This property works only when CausesValidation
-                is set to true.
+                 is set to true.
 
 ###  Value `String`
 

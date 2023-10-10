@@ -18,7 +18,7 @@ Provides the event data for the RadCaptcha's CaptchaValidate event.
 
 ###  CancelDefaultValidation `Boolean`
 
-Gets or sets a bool value indicating whether the Captcha default validation 
+Gets or sets a bool value indicating whether the Captcha default validation
             should proceed after the event is fired.
 
 ###  IsValid `Boolean`

@@ -35,7 +35,7 @@ Specify the height of the rendered barcode
 
 ###  OutputType `BarcodeType`
 
-Change the output type of RadBacrode. 
+Change the output type of RadBacrode.
             Use SVG_VML to render SVG (or VML for older browsers) element inside the HTML.
             Use EmbeddedPNG to render img tag with Data URI for src.
 
@@ -84,8 +84,8 @@ Specify the barcode standard that should be used
 
 ###  VerticalTextPositionPercentage `String`
 
-Get or set the Y position of the barcode text in percents. By default is 100%. 
-            If bottom of the text is cut off by the border of the barcode, 
+Get or set the Y position of the barcode text in percents. By default is 100%.
+            If bottom of the text is cut off by the border of the barcode,
             than set this property to lower value like 90, or 80, depending on the font size.
 
 ###  Width `Unit`

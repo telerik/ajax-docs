@@ -37,6 +37,6 @@ Gets a reference to the edited item.
 
 ###  KeepInInsertMode `Boolean`
 
-Gets or sets a value indicating whether the inserted item 
+Gets or sets a value indicating whether the inserted item
             will remain in insert mode.
 

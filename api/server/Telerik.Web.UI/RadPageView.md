@@ -44,5 +44,5 @@ Gets or sets a value indicating whether the current RadPageView is selected.
 
 #### Remarks
 Use the Selected property to select a RadPageView object. There can be only one selected
-            	RadPageView at a time within a RadMultiPage control.
+                   RadPageView at a time within a RadMultiPage control.
 

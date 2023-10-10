@@ -30,7 +30,7 @@ Gets or sets the allowed MIME types for uploading.
 
 #### Remarks
 Set this property to string.Empty in order to prevent the
-                mime type checking.
+                 mime type checking.
 
 ###  AriaSettings `WaiAriaSettings`
 
@@ -58,7 +58,7 @@ Gets or sets the control objects visibility.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -208,7 +208,7 @@ Gets or sets the maximum file input fields that can be added to the control.
 
 #### Remarks
 Using this property you can limit the maximum number of file inputs which can be
-            added to a RadAsyncUpload instance. MaxFileInputs count is only applicable when 
+            added to a RadAsyncUpload instance. MaxFileInputs count is only applicable when
             MultipleFileSelection is set to Disabled
 
 ###  MaxFileSize `Int32`
@@ -229,12 +229,12 @@ Setting the MultipleFileSelection property to Automatic means that RadAsyncUploa
 
 ###  OnClientAdded `String`
 
-Gets or sets the name of the client-side function which will be executed after 
+Gets or sets the name of the client-side function which will be executed after
             a new file input is added to a RadAsyncUpload instance. The event cannot be cancelled
 
 ###  OnClientAdding `String`
 
-Gets or sets the name of the client-side function which will be executed before 
+Gets or sets the name of the client-side function which will be executed before
             a new file input is added to a RadAsyncUpload instance. This event can be cancelled.
 
 ###  OnClientFileDropped `String`
@@ -252,7 +252,7 @@ Gets or sets the name of the client-side function which will be executed after f
 
 ###  OnClientFilesUploaded `String`
 
-Gets or sets the name of the client-side function which will be executed after all 
+Gets or sets the name of the client-side function which will be executed after all
             selected files have been uploaded
 
 ###  OnClientFileUploaded `String`
@@ -263,7 +263,7 @@ Gets or sets the name of the client-side function which will be executed when a 
 If specified, the OnClientFileUploaded client-side event
                 is called when file is uploaded successfully.
                 sender, the async upload client object;eventArgs with one property:
-            			get_fileName(), the name of the file that was uploaded.This event cannot be cancelled.
+                           get_fileName(), the name of the file that was uploaded.This event cannot be cancelled.
 
 ###  OnClientFileUploadFailed `String`
 
@@ -272,9 +272,9 @@ Gets or sets the name of the client-side function which will be executed when a 
 #### Remarks
 If specified, the OnClientFileUploadFailed client-side event
                 is called when a file fails to upload. One can set the set_handled property to false which
-                will force the async upload to throw an exception the error message to the JavaScript console. 
+                will force the async upload to throw an exception the error message to the JavaScript console.
                 sender, the async upload client object;eventArgs with three properties:
-            			get_message(), the error message containing the reason for the failed uploadget_handled(), gets a value indicating whether the developer will handle the errorset_handled(), sets a value indicating whether the developer will handle the errorThis event cannot be cancelled.
+                           get_message(), the error message containing the reason for the failed uploadget_handled(), gets a value indicating whether the developer will handle the errorset_handled(), sets a value indicating whether the developer will handle the errorThis event cannot be cancelled.
 
 ###  OnClientFileUploading `String`
 
@@ -284,7 +284,7 @@ Gets or sets the name of the client-side function which will be executed when a 
 If specified, the OnClientFileUploading client-side event
                 is called whenever a file upload commences.
                 sender, the async upload client object;eventArgs with one property:
-            			get_fileName(), the name of the file being uploaded.This event cannot be cancelled.
+                           get_fileName(), the name of the file being uploaded.This event cannot be cancelled.
 
 ###  OnClientFileUploadRemoved `String`
 
@@ -312,7 +312,7 @@ Gets or sets the name of the client-side function which will be executed if the 
 If specified, the onClientValidationFailed client-side event
                 is called when a file has invalid extension or its size exceeds the maximum allowed size
                 sender, the async upload client object;eventArgs with two properties:
-            			get_fileName(), the name of the file that failed to upload.get_fileInputField(), the file input field DOM element.This event cannot be cancelled.
+                           get_fileName(), the name of the file that failed to upload.get_fileInputField(), the file input field DOM element.This event cannot be cancelled.
 
 ###  PersistConfiguration `Boolean`
 
@@ -369,7 +369,7 @@ When set to string.Empty, the files must be saved manually to the desired locati
 ###  TemporaryFileExpiration `TimeSpan`
 
 Sets how long temporary files should be kept before automatically deleting them.
-            The property accepts TimeSpan values. The default value is 4 hours. More information regarding the TimeSpan structure can 
+            The property accepts TimeSpan values. The default value is 4 hours. More information regarding the TimeSpan structure can
             be found here - http://www.dotnetperls.com/timespan
             RadAsyncUpload1.TemporaryFileExpiration = New TimeSpan(2, 0, 0, 0, 0);
 
@@ -388,7 +388,7 @@ The ASP.NET process needs to have Write permissions for the specified folder. Al
 
 ###  UploadConfiguration `IAsyncUploadConfiguration`
 
-Sets upload configuration that has additional information. The generic object can be obtained using the CreateUploadConfiguration <T> method, 
+Sets upload configuration that has additional information. The generic object can be obtained using the CreateUploadConfiguration <T> method,
             where T is custom class that implements IAsyncUploadConfiguration. The custom class can contain any sort of custom data.
 
 ###  UploadedFiles `UploadedFileCollection`
@@ -401,7 +401,7 @@ Provides access to the valid files uploaded by the RadAsyncUpload
 Specify where the uploaded files should be positioned, below or above the current file input.
 
 #### Remarks
-Setting the UploadedFilesRendering property to BelowFileInput means that RadAsyncUpload will render the uploaded files below the 
+Setting the UploadedFilesRendering property to BelowFileInput means that RadAsyncUpload will render the uploaded files below the
             current file input. Otherwise the uploaded files will be rendered above the file input.
 
 ###  UploadRequestIdentifier `String`
@@ -409,7 +409,7 @@ Setting the UploadedFilesRendering property to BelowFileInput means that RadAsyn
 Gets or sets the upload request identifier.
 
 #### Remarks
-If the value is IsNullOrEmpty,  
+If the value is IsNullOrEmpty,
             a NewGuid value is assigned.
 
 ###  UseApplicationPoolImpersonation `Boolean`

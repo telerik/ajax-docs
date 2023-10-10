@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridDragDropColumn
 
 # Telerik.Web.UI.GridDragDropColumn
 
-When Items Drag-and-Drop is enabled in RadGrid, defining a GridDragDropColumn 
+When Items Drag-and-Drop is enabled in RadGrid, defining a GridDragDropColumn
             in the Columns collection of the respective GridTableView will make the data
             items inside draggable only when grabbed by the drag handle inside the column cells.
 
@@ -72,7 +72,7 @@ Gets or sets the ToolTip of the Drag image for the GridDragDropColumn
 
 ###  DragImageUrl `String`
 
-Gets or sets the URL of the drag image that will be displayed 
+Gets or sets the URL of the drag image that will be displayed
             instead of the default Drag image for the GridDragDropColumn
 
 ###  EditFormColumnIndex `Int32`
@@ -125,7 +125,7 @@ Use this property to set width to the filtering control (depending on the column
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -227,17 +227,17 @@ Access the valus passed from the ListBox used for CheckList in the filter.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -376,8 +376,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

@@ -43,7 +43,7 @@ Get/Set overflow of the tooltip's content area.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -149,7 +149,7 @@ Get/Set the tooltip's vertical offset from the target control in pixels. Works i
 Gets or sets the name of client-side JavaScript function that is called just before the RadToolTip hides.
 
 #### Remarks
-If specified, the OnClientBeforeHideclient-side event handler that is called 
+If specified, the OnClientBeforeHideclient-side event handler that is called
             before the tooltip is hidden. Two parameters are passed to the handler:sender, the RadToolTip object.args.This event can be cancelled.
 
 ###  OnClientBeforeShow `String`
@@ -165,7 +165,7 @@ If specified, the OnClientBeforeShowclient-side event handler is called before t
 Gets or sets the name of client-side JavaScript function that is called just after the RadToolTip is hidden.
 
 #### Remarks
-If specified, the OnClientHideclient-side event handler that is called 
+If specified, the OnClientHideclient-side event handler that is called
             after the tooltip is hidden. Two parameters are passed to the handler:sender, the RadToolTip object.args.This event cannot be cancelled.
 
 ###  OnClientShow `String`
@@ -266,7 +266,7 @@ Get/Set a title for the tooltip.
 
 #### Remarks
 This title is not affected by the rest of the content and is always displayed, regardless of the content source.
-            For more details see this help article: https://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
+            For more details see this help article: http://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
 
 ###  VisibleOnPageLoad `Boolean`
 

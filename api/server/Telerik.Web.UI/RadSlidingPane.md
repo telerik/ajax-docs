@@ -31,7 +31,7 @@ Gets or sets the text for collapse image
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DockOnOpen `Boolean`
@@ -184,7 +184,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 Two parameters are passed to the handler:sender, the pane object that raised the eventargs with the following methods:
-             			get_oldWidth - the width of the pane before the resizeget_oldHeight - the height of the pane before the resizeThis event cannot be cancelled.
+                         get_oldWidth - the width of the pane before the resizeget_oldHeight - the height of the pane before the resizeThis event cannot be cancelled.
 
 ###  OnClientResizing `String`
 
@@ -193,7 +193,7 @@ Gets or sets a value indicating the client-side event handler that is called bef
 
 #### Remarks
 Two parameters are passed to the handler:sender, the event objectargs with the following methods:
-             			get_delta - the delta with which the pane will be resizedget_resizeDirection - the direction in which the pane will be resized. You can use the Telerik.Web.UI.SplitterDirection hash to check the direction. The 2 possible values are : Forward and BackwardThis event can be cancelled.
+                         get_delta - the delta with which the pane will be resizedget_resizeDirection - the direction in which the pane will be resized. You can use the Telerik.Web.UI.SplitterDirection hash to check the direction. The 2 possible values are : Forward and BackwardThis event can be cancelled.
 
 ###  OnClientUndocked `String`
 

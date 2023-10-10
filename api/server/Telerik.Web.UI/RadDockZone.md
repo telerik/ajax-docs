@@ -30,7 +30,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Docks `DockCollection`
@@ -173,7 +173,7 @@ Returns the unique name for the dock, based on the UniqueName and
 
 #### Returns
 
-`System.String` A string, containing the UniqueName property of the dock, or its 
+`System.String` A string, containing the UniqueName property of the dock, or its
             ID, if the UniqueName property is not set.
 
 ###  LoadClientState

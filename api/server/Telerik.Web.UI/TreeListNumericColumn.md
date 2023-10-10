@@ -6,7 +6,7 @@ description: Telerik.Web.UI.TreeListNumericColumn
 
 # Telerik.Web.UI.TreeListNumericColumn
 
-Represents a Telerik.Web.UI.TreeListBoundColumn extended to display a RadNumericTextBox control 
+Represents a Telerik.Web.UI.TreeListBoundColumn extended to display a RadNumericTextBox control
             when in edit mode.
 
 ## Inheritance Hierarchy
@@ -28,7 +28,7 @@ Gets or sets the field name from the specified data source to bind to the
 
 ###  AllowRounding `Boolean`
 
-Gets or sets a boolean value indicating whether the RadNumericTextBox rendered in 
+Gets or sets a boolean value indicating whether the RadNumericTextBox rendered in
             edit mode will automatically round values when they are longer than allowed.
 
 ###  AllowSorting `Boolean`
@@ -126,7 +126,7 @@ Sets or gets whether cell content must be encoded. Default value is
 
 ###  IsEditable `Boolean`
 
-Gets a value indicating whether this column is currently editable. Use the column's 
+Gets a value indicating whether this column is currently editable. Use the column's
             ReadOnly property if you want to change its editing capabilities.
 
 ###  ItemStyle `TableItemStyle`
@@ -135,7 +135,7 @@ Style of the cell in the item of the RadTreeList, corresponding to the column.
 
 ###  KeepNotRoundedValue `Boolean`
 
-Gets or sets a boolean value indicating whether the RadNumericTextBox rendered in edit mode 
+Gets or sets a boolean value indicating whether the RadNumericTextBox rendered in edit mode
             will keep its not rounded value and show it when it is focused.
 
 ###  MaxWidth `Unit`
@@ -277,7 +277,7 @@ By default returns the SortExpression of the column. If the SortExpression is no
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters
@@ -308,8 +308,8 @@ Prepares the cell of the given item when the treelist is rendered.
 
 ###  ShouldExtractValues
 
-Gets or sets a value specifying whether RadTreeList should extract values from the specified 
-             instance based on the item's editable state, 
+Gets or sets a value specifying whether RadTreeList should extract values from the specified
+             instance based on the item's editable state,
             the current column's ReadOnly state and the value of ForceExtractValue property.
 
 #### Returns

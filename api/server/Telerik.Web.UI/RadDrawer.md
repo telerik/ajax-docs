@@ -35,7 +35,7 @@ You can use this property to programmatically add controls to the content area.
 
 ###  ContentTemplate `ITemplate`
 
-Gets or sets the System.Web.UI.ITemplate that contains the controls which will be 
+Gets or sets the System.Web.UI.ITemplate that contains the controls which will be
             placed in the control content area.
 
 #### Remarks
@@ -44,7 +44,7 @@ You cannot set this property twice, or when you added controls to the ContentCon
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DrawerWidth `Double`

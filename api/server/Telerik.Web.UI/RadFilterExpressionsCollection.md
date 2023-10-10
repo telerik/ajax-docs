@@ -33,7 +33,7 @@ Adds an object to the end of the collection.
 
 #### item `Telerik.Web.UI.RadFilterExpression`
 
-The RadFilterExpression to be added to the end of the collection. 
+The RadFilterExpression to be added to the end of the collection.
             The value can be a null reference (Nothing in Visual Basic) for reference types.
 
 #### Returns
@@ -56,7 +56,7 @@ Determines whether an element is in the collection.
 
 #### item `Telerik.Web.UI.RadFilterExpression`
 
-The RadFilterExpression to locate in the collection. 
+The RadFilterExpression to locate in the collection.
             The value can be a null reference (Nothing in Visual Basic) for reference types.
 
 #### Returns
@@ -65,14 +65,14 @@ The RadFilterExpression to locate in the collection.
 
 ###  CopyTo
 
-Copies the entire collection to a compatible one-dimensional Array, 
+Copies the entire collection to a compatible one-dimensional Array,
             starting at the specified index of the target array.
 
 #### Parameters
 
 #### array `Telerik.Web.UI.RadFilterExpression`
 
-The one-dimensional Array that is the destination of the elements copied from 
+The one-dimensional Array that is the destination of the elements copied from
             collection. The Array must have zero-based indexing.
 
 #### arrayIndex `System.Int32`
@@ -131,12 +131,12 @@ Removes the first occurrence of a specific object from the collection.
 
 #### item `Telerik.Web.UI.RadFilterExpression`
 
-The RadFilterExpression to remove from the collection. 
+The RadFilterExpression to remove from the collection.
             The value can be a null reference (Nothing in Visual Basic) for reference types.
 
 #### Returns
 
-`System.Boolean` true if the expression is successfully removed; otherwise, false. 
+`System.Boolean` true if the expression is successfully removed; otherwise, false.
             This method also returns false if expression was not found in the original collection.
 
 ###  RemoveAt

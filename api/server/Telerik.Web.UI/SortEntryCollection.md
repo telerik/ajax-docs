@@ -6,7 +6,7 @@ description: Telerik.Web.UI.SortEntryCollection
 
 # Telerik.Web.UI.SortEntryCollection
 
-This Class defines SortEntryCollection that inherits 
+This Class defines SortEntryCollection that inherits
             EntryCollectionBase of SortEntries.
 
 ## Inheritance Hierarchy

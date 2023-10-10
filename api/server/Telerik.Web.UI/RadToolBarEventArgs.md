@@ -19,9 +19,9 @@ Provides data for the events of the Telerik.Web.UI.RadToolBar RadToolBarcontrol.
 ###  Item `RadToolBarItem`
 
 Gets the referenced item in the RadToolBar control when the
-            	event is raised.
+                   event is raised.
 
 #### Remarks
 Use this property to programmatically access the item referenced in the
-            	RadToolBar control when the event is raised.
+                   RadToolBar control when the event is raised.
 

@@ -61,7 +61,7 @@ Contains information about the uploaded file
 
 ###  IsFileSizeValid
 
-Indicates whether the currently processed file has valid size. The size is checked against the maximum size specified in the 
+Indicates whether the currently processed file has valid size. The size is checked against the maximum size specified in the
             async upload configuration.
 
 #### Parameters
@@ -103,7 +103,7 @@ The temporary name of the uploaded file.
 
 #### Returns
 
-`Telerik.Web.UI.IAsyncUploadResult` Object that implements theIAsyncUploadResultinterface. 
+`Telerik.Web.UI.IAsyncUploadResult` Object that implements theIAsyncUploadResultinterface.
             It can be a custom defined object and may contain additional information which can then be accessed on the server.
 
 ###  ProcessRequest

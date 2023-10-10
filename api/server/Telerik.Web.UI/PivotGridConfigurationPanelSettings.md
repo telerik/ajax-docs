@@ -34,7 +34,7 @@ Gets or sets if a context menu will be displayed when
 
 ###  EnableOlapTreeViewLoadOnDemand `Boolean`
 
-Gets or sets a value indicating if the  will use a 
+Gets or sets a value indicating if the  will use a
             Load-on-demand to load its nodes.
 
 ###  FlattenOlapUncategoriezedFields `Boolean`

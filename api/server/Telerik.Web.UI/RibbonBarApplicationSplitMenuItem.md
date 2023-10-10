@@ -37,7 +37,7 @@ Gets or sets the header of the ApplicationSplitMenuItem.
 
 #### Remarks
 Use the property to set the header that appears at the top of the
-            	popup menu of the ApplicationSplitMenuItem text.
+                   popup menu of the ApplicationSplitMenuItem text.
 
 ###  ImageUrl `String`
 
@@ -45,7 +45,7 @@ Gets or sets the image URL of the ApplicationMenuItem.
 
 #### Remarks
 Use the ImageUrl property to specify a custom
-            	image to be displayed for the ApplicationMenuItem.
+                   image to be displayed for the ApplicationMenuItem.
 
 ###  Items `RibbonBarApplicationMenuItemBaseCollection`
 
@@ -53,7 +53,7 @@ Gets a RibbonBarApplicationMenuItemCollection object that contains the items of 
 
 #### Remarks
 Use the Items property to access the items of the ApplicationSplitMenuItem. You can also use the Items property to
-            	manage the items. You can add, remove or modify items from the Items collection.
+                   manage the items. You can add, remove or modify items from the Items collection.
 
 ###  Text `String`
 

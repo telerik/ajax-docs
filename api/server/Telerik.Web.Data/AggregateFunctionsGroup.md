@@ -18,7 +18,7 @@ Represents group with aggregate functions.
 
 ###  AggregateFunctionsProjection `Object`
 
-Gets or sets the aggregate functions projection for this group. 
+Gets or sets the aggregate functions projection for this group.
             This projection is used to generate aggregate functions results for this group.
 
 ###  HasSubgroups `Boolean`

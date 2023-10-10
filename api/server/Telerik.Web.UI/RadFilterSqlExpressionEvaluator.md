@@ -70,6 +70,6 @@ A RadFilterFunction instance representing the current filter function.
 
 #### Returns
 
-`Telerik.Web.UI.RadFilterSqlExpressionEvaluator` A RadFilterSqlEvaluator inherited object representing a specific evaluator, based on the 
+`Telerik.Web.UI.RadFilterSqlExpressionEvaluator` A RadFilterSqlEvaluator inherited object representing a specific evaluator, based on the
             provided function.
 

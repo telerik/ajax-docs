@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterListViewExpressionEvaluator
 
 # Telerik.Web.UI.RadFilterListViewExpressionEvaluator
 
-Represents a base for the RadFilterListViewExpression evaluator classes in 
+Represents a base for the RadFilterListViewExpression evaluator classes in
             Telerik.Web.UI.RadFilter
 
 ## Inheritance Hierarchy
@@ -42,6 +42,6 @@ A RadFilterFunction instance representing the current filter function.
 
 #### Returns
 
-`Telerik.Web.UI.RadFilterListViewExpressionEvaluator` A RadFilterListViewExpressionEvaluator inherited object representing a specific evaluator, 
+`Telerik.Web.UI.RadFilterListViewExpressionEvaluator` A RadFilterListViewExpressionEvaluator inherited object representing a specific evaluator,
             based on the provided function.
 

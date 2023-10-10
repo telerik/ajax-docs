@@ -6,7 +6,7 @@ description: Telerik.Pdf.PdfCMap
 
 # Telerik.Pdf.PdfCMap
 
-Class that defines a mapping between character codes (CIDs) 
+Class that defines a mapping between character codes (CIDs)
                 to a character selector (Identity-H encoding)
 
 ## Inheritance Hierarchy
@@ -62,7 +62,7 @@ Overriden to create CMap content stream.
 
 ###  Write
 
-TODO: This method is temporary.  I'm assuming that all string should 
+TODO: This method is temporary.  I'm assuming that all string should
                 be represented as a PdfString object?
 
 #### Parameters

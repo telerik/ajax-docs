@@ -28,7 +28,7 @@ Gets or sets a value indicating where the image editor will look for its dialogs
 
 #### Remarks
 If specified, the ExternalDialogsPath
-            		property will allow you to customize and load the image editor dialogs from normal ASCX files.
+                    property will allow you to customize and load the image editor dialogs from normal ASCX files.
 
 ###  ParentImageEditor `RadImageEditor`
 
@@ -132,7 +132,7 @@ The writer that will write out the text.
 
 ###  SetChildrensProperties
 
-Sets child controls properties. 
+Sets child controls properties.
             Override this method if you want to configure the child controls, such as setting the localized strings.
 
 #### Returns

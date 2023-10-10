@@ -18,7 +18,7 @@ Represents a file item in the FileBrowser control.
 
 ###  Attributes `NameValueCollection`
 
-Gets or sets a string array containing custom values which can be used on the client when 
+Gets or sets a string array containing custom values which can be used on the client when
             customizing the FileBrowser control.
 
 ###  Extension `String`
@@ -72,7 +72,7 @@ Utility method used when serializing. Removes the last javascript array separato
 
 ###  Serialize
 
-Serializes the file item into a javascript array. This method should be overridden only when developing 
+Serializes the file item into a javascript array. This method should be overridden only when developing
             a custom FileBrowser control.
 
 #### Parameters
@@ -87,7 +87,7 @@ a StringWriter used as a target for the serialization.
 
 ###  Serialize
 
-Serializes the item into a javascript array. This method should be overridden only when developing 
+Serializes the item into a javascript array. This method should be overridden only when developing
             a custom FileBrowser control.
 
 #### Parameters

@@ -6,7 +6,7 @@ description: Telerik.Web.TelerikToolboxCategoryAttribute
 
 # Telerik.Web.TelerikToolboxCategoryAttribute
 
-This attribute should be used on classes which will be present in the Visual Studio toolbox - 
+This attribute should be used on classes which will be present in the Visual Studio toolbox -
             i.e. the ones that should also have a System.Drawing.ToolboxBitmapAttribute attribute.
 
 ## Inheritance Hierarchy

@@ -6,8 +6,8 @@ description: Telerik.Web.UI.GridCalculatedColumn
 
 # Telerik.Web.UI.GridCalculatedColumn
 
-GridCalculatedColumn displays a value that is calculated based on one or more fields and an 
-            expression that indicates how to calculate the display value. Use the DataFields property to 
+GridCalculatedColumn displays a value that is calculated based on one or more fields and an
+            expression that indicates how to calculate the display value. Use the DataFields property to
             list all the fields that are used to calculate the column value. The Expression property then
             specifies how the field values are to be combined, using parameters based on the order of the
             fields listed in the DataFields property.
@@ -167,7 +167,7 @@ Use this property to set width to the filtering control (depending on the column
 
 ###  FilterDelay `Nullable`1`
 
-Gets or sets the filter delay which determines after how many milliseconds a 
+Gets or sets the filter delay which determines after how many milliseconds a
             filtering will occur after a filter value have changed.
 
 ###  FilterImageToolTip `String`
@@ -273,17 +273,17 @@ Access the valus passed from the ListBox used for CheckList in the filter.
 ###  OrderIndex `Int32`
 
 Gets or sets the order index of column in the collection of
-                . Use
-                 method for reordering the columns.
+                 . Use
+                  method for reordering the columns.
 
 #### Remarks
 We recommend using this property only for getting the order index for a
-                    specific column instead of setting it. Use
-                     method for reordering columns.
-                Note that changing the column order index will change the order of the cells
-                in the grid items, after the grid is rebound.
-                    The value of the property would not affect the order of the column in the
-                     collection.
+                     specific column instead of setting it. Use
+                      method for reordering columns.
+                 Note that changing the column order index will change the order of the cells
+                 in the grid items, after the grid is rebound.
+                     The value of the property would not affect the order of the column in the
+                      collection.
 
 ###  Owner `GridTableView`
 
@@ -414,8 +414,8 @@ Gets a string representing a filter expression, based on the settings of all
 
 ###  EvaluateFilterExpression
 
-Evaluates the column filter expression based on the , , 
-            ,  propeties. It could be used to handle custom 
+Evaluates the column filter expression based on the , ,
+            ,  propeties. It could be used to handle custom
             filtering and is internally used for determining  FilterExpression value.
 
 #### Returns

@@ -31,7 +31,7 @@ Creates a predicate filter expression that calls .
 
 #### parameterExpression `System.Linq.Expressions.ParameterExpression`
 
-The parameter expression, which parameter 
+The parameter expression, which parameter
             will be passed to  method.
 
 #### Returns
@@ -40,8 +40,8 @@ The parameter expression, which parameter
 
 ###  CreateFilterExpression
 
-Creates a filter expression by delegating its creation to 
-            , if 
+Creates a filter expression by delegating its creation to
+            , if
              is , otherwise throws
 
 #### Parameters

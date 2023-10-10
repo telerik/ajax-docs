@@ -17,7 +17,7 @@ A thin wrapper around a handle to a font
 
 ###  CreateDesignFont
 
-Creates a font whose height is equal to the negative value 
+Creates a font whose height is equal to the negative value
                 of the EM Square
 
 #### Returns
@@ -36,7 +36,7 @@ The typeface name of a font.
 
 #### height `System.Int32`
 
-The height, in logical units, of the font's character 
+The height, in logical units, of the font's character
                 cell or character.
 
 #### bold `System.Boolean`

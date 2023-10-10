@@ -34,7 +34,7 @@ Initializes the RadCompression module and prepares it to handle requests.
 
 #### application `System.Web.HttpApplication`
 
-A  that provides access to the methods, properties, 
+A  that provides access to the methods, properties,
             and events common to all application objects within an ASP.NET application
 
 #### Returns

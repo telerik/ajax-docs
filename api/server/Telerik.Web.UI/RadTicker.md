@@ -22,11 +22,11 @@ RadTicker control
 
 ###  AutoAdvance `Boolean`
 
-Specifies whether  will begin ticking the next tickerline 
+Specifies whether  will begin ticking the next tickerline
             (if any) after it has finished ticking the current one.
 
 #### Remarks
-If you set the AutoAdvance property to false, then you will have to use 
+If you set the AutoAdvance property to false, then you will have to use
             a client API Call ticker_id.tickNextLine()
 
 ###  AutoPostBack `Boolean`
@@ -56,7 +56,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataTextField `String`
@@ -64,10 +64,10 @@ The CssClass property will now be used instead of the former Skin
 Gets or sets the field of the data source that provides the value of the ticker lines.
 
 #### Remarks
-Use the DataTextField property to specify the field of the data source (in most cases the name of the database column) 
-            	which provides the values for the Text property of databound ticker items. The DataTextField property is 
-            	taken into account only during data binding. If the DataTextField property is not set and your datasource is not a list of strings,
-            	the RadTicker control will throw an exception.
+Use the DataTextField property to specify the field of the data source (in most cases the name of the database column)
+                    which provides the values for the Text property of databound ticker items. The DataTextField property is
+                    taken into account only during data binding. If the DataTextField property is not set and your datasource is not a list of strings,
+                    the RadTicker control will throw an exception.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -161,7 +161,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  TickSpeed `Int32`
 

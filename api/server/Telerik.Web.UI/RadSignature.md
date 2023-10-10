@@ -34,10 +34,6 @@ This property is overridden in order to support controls which implement INaming
 The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
-###  Enable `Boolean`
-
-If set to false, the widget will be disabled and will not allow user input. The widget is enabled by default and allows user input.
-
 ###  EnableAjaxSkinRendering `String`
 
 Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests

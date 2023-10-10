@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadDock
 
 # Telerik.Web.UI.RadDock
 
-RadDock is a control, which enables the developers to move, dock, 
+RadDock is a control, which enables the developers to move, dock,
             expand/collapse any DHTML/ASP.NET content
 
 ## Inheritance Hierarchy
@@ -39,12 +39,12 @@ This property is overridden in order to support controls which implement INaming
 Gets or sets a value, indicating whether the control is closed (style="display:none;").
 
 #### Remarks
-When the value of this property is true, the control will be hidden, but its HTML will 
+When the value of this property is true, the control will be hidden, but its HTML will
             be rendered on the page. The default value is false.
 
 ###  CloseText `String`
 
-Gets or sets the tooltip of the CloseCommand when the corresponding 
+Gets or sets the tooltip of the CloseCommand when the corresponding
             property was not explicitly set on the command object.
 
 ###  Collapsed `Boolean`
@@ -52,13 +52,13 @@ Gets or sets the tooltip of the CloseCommand when the corresponding
 Gets or sets a value, indicating whether the control is collapsed.
 
 #### Remarks
-When the value of this property is true, the content area of the control 
+When the value of this property is true, the content area of the control
             will not be visible. The default value is false.
 
 ###  CollapseText `String`
 
 Gets or sets the tooltip of the ExpandCollapseCommand when the dock
-            is not collapsed and the corresponding property was not explicitly set 
+            is not collapsed and the corresponding property was not explicitly set
             on the command object.
 
 ###  Commands `DockCommandCollection`
@@ -83,7 +83,7 @@ You can use this property to programmatically add controls to the content area. 
 
 ###  ContentTemplate `ITemplate`
 
-Gets or sets the System.Web.UI.ITemplate that contains the controls which will be 
+Gets or sets the System.Web.UI.ITemplate that contains the controls which will be
             placed in the control content area.
 
 #### Remarks
@@ -92,7 +92,7 @@ You cannot set this property twice, or when you added controls to the ContentCon
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DefaultCommands `DockCommandCollection`
@@ -111,7 +111,7 @@ Gets or sets a value, indicating whether the control could be left undocked.
 
 ###  DockZoneID `String`
 
-Gets the ClientID of the RadDockZone, in which the control is docked. When the control is undocked, 
+Gets the ClientID of the RadDockZone, in which the control is docked. When the control is undocked,
             this property returns string.Empty.
 
 ###  EnableAjaxSkinRendering `String`
@@ -176,7 +176,7 @@ Gets or sets the expanded height of the RadDock control.
 ###  ExpandText `String`
 
 Gets or sets the tooltip of the ExpandCollapseCommand when the dock
-            is collapsed and the corresponding property was not explicitly set 
+            is collapsed and the corresponding property was not explicitly set
             on the command object.
 
 ###  ForbiddenZones `String[]`
@@ -198,7 +198,7 @@ For internal use.
 
 ###  Left `Unit`
 
-Gets or sets the horizontal position of the RadDock control in pixels. This 
+Gets or sets the horizontal position of the RadDock control in pixels. This
             property is ignored when the RadDock control is docked into a RadDockZone. The default value is "0px".
 
 ###  OnClientCommand `String`
@@ -253,7 +253,7 @@ When the value of this property is true, the control will retain its position
 ###  PinText `String`
 
 Gets or sets the tooltip of the PinUnpinCommand when the dock
-            is not pinned and the corresponding property was not explicitly set 
+            is not pinned and the corresponding property was not explicitly set
             on the command object.
 
 ###  RegisterWithScriptManager `Boolean`
@@ -321,7 +321,7 @@ You can use this property to programmatically add controls to the titlebar. If y
 
 ###  TitlebarTemplate `String`
 
-Gets or sets the System.Web.UI.ITemplate that contains the controls which will be 
+Gets or sets the System.Web.UI.ITemplate that contains the controls which will be
             placed in the control titlebar.
 
 #### Remarks
@@ -330,7 +330,7 @@ You cannot set this property twice, or when you added controls to the TitlebarCo
 
 ###  Top `Unit`
 
-Gets or sets the vertical position of the RadDock control in pixels. This 
+Gets or sets the vertical position of the RadDock control in pixels. This
             property is ignored when the RadDock control is docked into a RadDockZone.
             The default value is "0px".
 
@@ -344,7 +344,7 @@ Gets or sets the unique name of the control, which allows the parent RadDockLayo
 ###  UnpinText `String`
 
 Gets or sets the tooltip of the PinUnpinCommand when the dock
-            is pinned and the corresponding property was not explicitly set 
+            is pinned and the corresponding property was not explicitly set
             on the command object.
 
 ###  Width `Unit`
@@ -389,8 +389,8 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 Docks the RadDock control in the zone with ClientID equal to dockZoneID.
 
 #### Remarks
-The RadDock control should be placed into a RadDockLayout in order this 
-            method to work. It is not necessary for the layout to be a direct parent of the 
+The RadDock control should be placed into a RadDockLayout in order this
+            method to work. It is not necessary for the layout to be a direct parent of the
             RadDock control.
 
 #### Parameters
@@ -444,7 +444,7 @@ Returns the unique name for the dock, based on the UniqueName and
 
 #### Returns
 
-`System.String` A string, containing the UniqueName property of the dock, or its 
+`System.String` A string, containing the UniqueName property of the dock, or its
             ID, if the UniqueName property is not set.
 
 ###  LoadClientState

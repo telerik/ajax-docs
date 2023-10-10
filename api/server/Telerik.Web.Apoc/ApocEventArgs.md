@@ -6,7 +6,7 @@ description: Telerik.Web.Apoc.ApocEventArgs
 
 # Telerik.Web.Apoc.ApocEventArgs
 
-A class containing event data for the Error, Warning and Info 
+A class containing event data for the Error, Warning and Info
                 events defined in Telerik.Web.Apoc.ApocDriver .
 
 ## Inheritance Hierarchy
@@ -31,6 +31,6 @@ Converts this ApocEventArgs to a string.
 
 #### Returns
 
-`System.String` A string representation of this class which is identical 
+`System.String` A string representation of this class which is identical
                 to .
 

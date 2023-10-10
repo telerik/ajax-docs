@@ -7,7 +7,7 @@ description: Telerik.Web.UI.InputSettingCreatingEventArgs
 # Telerik.Web.UI.InputSettingCreatingEventArgs
 
 The event arguments passed when Telerik.Web.UI.RadInputManager fires
-            InputSettingsCreating event. The event is fired before creating the 
+            InputSettingsCreating event. The event is fired before creating the
             settings and could be canceled.
 
 ## Inheritance Hierarchy

@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadListViewIndexesCollection
 
 # Telerik.Web.UI.RadListViewIndexesCollection
 
-Collection containing integer values representing the 
+Collection containing integer values representing the
             Telerik.Web.UI.RadListView Telerik.Web.UI.RadListViewItem ItemIndex property.
 
 ## Inheritance Hierarchy

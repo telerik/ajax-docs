@@ -6,8 +6,8 @@ description: Telerik.Web.UI.Calendar.Collections.CalendarViewCollection
 
 # Telerik.Web.UI.Calendar.Collections.CalendarViewCollection
 
-CalendarView collection. See https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefor general information aboout this mode.
-            You can also find code example in the and https://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/title-settings#title-customization Title Settingstopic.
+CalendarView collection. See http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/multi-view-mode Multi-View Modefor general information aboout this mode.
+            You can also find code example in the and http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/title-settings#title-customization Title Settingstopic.
 
 ## Inheritance Hierarchy
 
@@ -50,7 +50,7 @@ Adds the elements of the specified collection to the end of the .
 
 #### inputItems `Telerik.Web.UI.Calendar.View.CalendarView`
 
-The collection whose  elements should be added 
+The collection whose  elements should be added
             to the end of the .
 
 #### Returns
@@ -97,15 +97,15 @@ The CalendarView object to search.
 
 ###  CopyTo
 
-Copies all  elements of the  Array to the specified 
-            one-dimensional  starting at the specified destination index. The 
+Copies all  elements of the  Array to the specified
+            one-dimensional  starting at the specified destination index. The
             index is specified as a 32-bit integer.
 
 #### Parameters
 
 #### inputArray `Telerik.Web.UI.Calendar.View.CalendarView`
 
-The one-dimensional  that is the destination 
+The one-dimensional  that is the destination
             of the elements copied from the current .
 
 #### startCopyIndex `System.Int32`
@@ -118,14 +118,14 @@ A 32-bit integer that represents the index in array at which copying begins.
 
 ###  CopyTo
 
-Copies all  elements of the  Array to the specified 
+Copies all  elements of the  Array to the specified
             one-dimensional .
 
 #### Parameters
 
 #### inputArray `Telerik.Web.UI.Calendar.View.CalendarView`
 
-The one-dimensional  that is the destination 
+The one-dimensional  that is the destination
             of the elements copied from the current .
 
 #### Returns
@@ -245,7 +245,7 @@ Please refer to  for details.
 
 #### itemComparer `System.Collections.IComparer`
 
-The  implementation to use when comparing elements.-or-A null reference to use the  implementation 
+The  implementation to use when comparing elements.-or-A null reference to use the  implementation
             of each element.
 
 #### Returns
@@ -254,7 +254,7 @@ The  implementation to use when comparing elements.-or-A null reference to use t
 
 ###  Sort
 
-Sorts the elements in the specified range 
+Sorts the elements in the specified range
             using the specified  interface.
 
 #### Remarks
@@ -273,7 +273,7 @@ The number of elements to sort.
 
 #### itemComparer `System.Collections.IComparer`
 
-The  implementation to use when comparing elements.-or-A null reference to use the  implementation 
+The  implementation to use when comparing elements.-or-A null reference to use the  implementation
             of each element.
 
 #### Returns

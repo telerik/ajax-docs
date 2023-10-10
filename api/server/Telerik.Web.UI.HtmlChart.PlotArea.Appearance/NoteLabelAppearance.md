@@ -21,7 +21,7 @@ Defines the visual appearance settings of the labels in series' notes
 
 Specifies background color of the note icons
 
-###  Border `NoteLabelBorderAppearance`
+###  Border `LabelBorderAppearance`
 
 Specifies the border settings of the outliers.
 
@@ -53,4 +53,6 @@ Defines the text style settings
 ###  Visible `Nullable`1`
 
 Get/Set whether the object should be visible
+
+le
 

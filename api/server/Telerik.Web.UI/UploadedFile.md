@@ -62,11 +62,11 @@ Creates a UploadedFile instance from HttpPostedFile instance.
 #### inputFieldName `System.String`
 
 The value of the name attribute of the file input field
-            	(equals the UniqueID of the FileUpload control)
+                   (equals the UniqueID of the FileUpload control)
 
 #### file `System.Web.HttpPostedFile`
 
-The HttpPostedFile instance. Usually, you could get this from a 
+The HttpPostedFile instance. Usually, you could get this from a
             ASP:FileUpload control's PostedFile property
 
 #### Returns
@@ -81,7 +81,7 @@ Creates a UploadedFile instance from HttpPostedFile instance.
 
 #### file `System.Web.HttpPostedFile`
 
-The HttpPostedFile instance. Usually, you could get this from a 
+The HttpPostedFile instance. Usually, you could get this from a
             ASP:FileUpload control's PostedFile property
 
 #### Returns
@@ -93,9 +93,9 @@ The HttpPostedFile instance. Usually, you could get this from a
 Returns the extension of the file on the client's computer.
 
 #### Remarks
-The extension of the file name is obtained by searching it for a period (.), starting with the last character 
-            and continuing toward the start. If a period is found before a DirectorySeparatorChar or AltDirectorySeparatorChar 
-            character, the returned string contains the period and the characters after it; otherwise, string.Empty is returned.
+The extension of the file name is obtained by searching it for a period (.), starting with the last character
+               and continuing toward the start. If a period is found before a DirectorySeparatorChar or AltDirectorySeparatorChar
+               character, the returned string contains the period and the characters after it; otherwise, string.Empty is returned.
 
 #### Returns
 
@@ -134,7 +134,7 @@ The name of the field which checked state will be retrieved
 Returns the name and extension of the file on the client's computer.
 
 #### Remarks
-The separator characters used to determine the start of the 
+The separator characters used to determine the start of the
             file name are DirectorySeparatorChar and AltDirectorySeparatorChar.
 
 #### Returns
@@ -158,9 +158,9 @@ Saves the contents of an uploaded file.
 
 #### Remarks
 The maximum allowed uploaded file size is 4MB by default. Maximum file size
-                can be specified in the machine.config or Web.config configuration files in the
-                maxRequestLength attribute of the <httpRuntime> element.The ASP.NET process must have proper rights for writing on the folder where
-                the files are saved.
+                 can be specified in the machine.config or Web.config configuration files in the
+                 maxRequestLength attribute of the <httpRuntime> element.The ASP.NET process must have proper rights for writing on the folder where
+                 the files are saved.
 
 #### Returns
 
@@ -172,9 +172,9 @@ Saves the contents of an uploaded file.
 
 #### Remarks
 The maximum allowed uploaded file size is 4MB by default. Maximum file size
-                can be specified in the machine.config or Web.config configuration files in the
-                maxRequestLength attribute of the <httpRuntime> element.The ASP.NET process must have proper rights for writing on the folder where
-                the files are saved.
+                 can be specified in the machine.config or Web.config configuration files in the
+                 maxRequestLength attribute of the <httpRuntime> element.The ASP.NET process must have proper rights for writing on the folder where
+                 the files are saved.
 
 #### Parameters
 

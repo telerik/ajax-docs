@@ -34,8 +34,8 @@ Gets a collection of all  dragged items.
 
 ###  DropPosition `GridItemDropPosition`
 
-Gets the position at which the user has dragged and dropped the source item(s) with regards to the 
-            	destination item.
+Gets the position at which the user has dragged and dropped the source item(s) with regards to the
+                   destination item.
 
 ###  HtmlElement `String`
 

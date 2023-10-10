@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterOqlExpressionFormatter
 
 # Telerik.Web.UI.RadFilterOqlExpressionFormatter
 
-Represents a formatter that creates a string representation of a filter expression 
+Represents a formatter that creates a string representation of a filter expression
             using the passed field name and data type. The expression uses OQL syntax.
 
 ## Inheritance Hierarchy
@@ -32,7 +32,7 @@ The DateTime value to create a formatted string from.
 
 ###  FormatFieldName
 
-Creates a formatted string using the respective syntax that is populated with the 
+Creates a formatted string using the respective syntax that is populated with the
             provided field name and data type parameters.
 
 #### Parameters

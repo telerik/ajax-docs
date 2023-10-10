@@ -33,7 +33,7 @@ Gets or sets the allowed MIME types for uploading.
 
 #### Remarks
 Set this property to string.Empty in order to prevent the
-                mime type checking.
+                 mime type checking.
 
 ###  ClientIDMode `ClientIDMode`
 
@@ -45,7 +45,7 @@ This property is overridden in order to support controls which implement INaming
 Gets or sets the value indicating which control objects will be displayed.
 
 #### Remarks
-ControlObjectVisibility enum members 
+ControlObjectVisibility enum members
                 MemberDescriptionNoneOnly the file inputs will be visible.CheckBoxesDisplay checkboxes for selecting a file input.RemoveButtonsDisplay buttons for removing a file input.ClearButtonsDisplay buttons for clearing a file input.AddButtonDisplay button for adding a file input.DeleteSelectedButtonDisplay button for removing the file inputs with checked
                         checkboxes.DefaultCheckBoxes | RemoveButtons | AddButton |
                         DeleteSelectedButtonAllCheckBoxes | RemoveButtons | ClearButtons | AddButton |
@@ -53,7 +53,7 @@ ControlObjectVisibility enum members
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -155,12 +155,12 @@ Set this property to 0 in order to prevent the file size checking.
 
 ###  OnClientAdded `String`
 
-Gets or sets the name of the client-side function which will be executed after 
+Gets or sets the name of the client-side function which will be executed after
             a new file input is added to a RadUpload instance.
 
 ###  OnClientAdding `String`
 
-Gets or sets the name of the client-side function which will be executed before 
+Gets or sets the name of the client-side function which will be executed before
             a new file input is added to a RadUpload instance.
 
 ###  OnClientClearing `String`
@@ -183,7 +183,7 @@ Gets or sets the name of the client-side function which will be executed before 
 
 #### Remarks
 You can cancel the removing of the file input items by returning
-            false in the javascript function.
+             false in the javascript function.
 
 ###  OnClientFileSelected `String`
 
@@ -245,16 +245,16 @@ If this property is not set, the control will render using the skin named "Defau
 Gets or sets the virtual path of the folder, where RadUpload will automatically save the valid files after the upload completes.
 
 #### Remarks
-When set to string.Empty, the files must be saved manually to the desired location.If both TargetPhysicalFolder property and this property are set, the 
-            	TargetPhysicalFolder will override the virtual path provided by TargetFolder.
+When set to string.Empty, the files must be saved manually to the desired location.If both TargetPhysicalFolder property and this property are set, the
+                TargetPhysicalFolder will override the virtual path provided by TargetFolder.
 
 ###  TargetPhysicalFolder `String`
 
 Gets or sets the physical path of the folder, where RadUpload will automatically save the valid files after the upload completes.
 
 #### Remarks
-When set to string.Empty, the files must be saved manually to the desired location.If both TargetFolder property and this property are set, the 
-            	TargetPhysicalFolder will override the virtual path provided by TargetFolder.
+When set to string.Empty, the files must be saved manually to the desired location.If both TargetFolder property and this property are set, the
+                TargetPhysicalFolder will override the virtual path provided by TargetFolder.
 
 ###  UploadedFiles `UploadedFileCollection`
 

@@ -6,11 +6,11 @@ description: Telerik.Web.UI.RadDataForm
 
 # Telerik.Web.UI.RadDataForm
 
-Telerik.Web.UI.RadDataForm is designed to give your the freedom to specify 
-            predefined or customized type of layout for the items displayed in 
-            the control and in the same time gives you integrated paging and editing. You can embed various 
-            controls of your choice in RadDataForm's templates and model their 
-            appearance in a custom manner. Thanks to its innovative architecture 
+Telerik.Web.UI.RadDataForm is designed to give your the freedom to specify
+            predefined or customized type of layout for the items displayed in
+            the control and in the same time gives you integrated paging and editing. You can embed various
+            controls of your choice in RadDataForm's templates and model their
+            appearance in a custom manner. Thanks to its innovative architecture
             Telerik.Web.UI.RadDataForm is extremely fast and generates very little output.
 
 ## Inheritance Hierarchy
@@ -67,7 +67,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  ClientSettings `RadDataFormClientSettings`
 
-Gets a reference to the 
+Gets a reference to the
              object that allows
             you to set the properties of the client-side behavior and
             appearance in a Telerik  control.
@@ -85,7 +85,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CurrentPageIndex `Int32`
@@ -98,7 +98,7 @@ Gets or sets a value indicating the index of the currently active page in case
 
 Gets or sets an array of data-field names that will be used to
             populate the
-             collection, when the 
+             collection, when the
             control is databinding.
 
 ###  DataKeyValues `RadDataFormDataKeyArray`
@@ -205,7 +205,7 @@ Gets the insert item of a  control.
 ###  InsertItemPosition `RadDataFormInsertItemPosition`
 
 Gets or sets the location of the 
-            template when it is rendered as part of the 
+            template when it is rendered as part of the
              control.
 
 ###  InsertItemTemplate `ITemplate`
@@ -248,7 +248,7 @@ Gets or sets the custom content for the data item in a
 
 ###  LayoutTemplate `ITemplate`
 
-Gets or sets the custom content for the root container in a 
+Gets or sets the custom content for the root container in a
              control.
 
 ###  PageCount `Int32`
@@ -299,7 +299,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SkinID `String`
 
@@ -372,20 +372,20 @@ When overridden in an abstract class, creates the control hierarchy
 
 #### dataSource `System.Collections.IEnumerable`
 
-An 
+An
               that contains the
              values to bind to the control.
 
 #### dataBinding `System.Boolean`
 
 true to indicate
-                             that the 
+                             that the
                              
                              is called during data binding; otherwise, false.
 
 #### Returns
 
-`System.Int32` The number of items created by the 
+`System.Int32` The number of items created by the
              
              .
 
@@ -397,14 +397,14 @@ true to indicate
 
 ###  CreateDataSourceSelectArguments
 
-Creates a default 
+Creates a default
              object used
             by the data-bound control if no arguments are specified.
 
 #### Returns
 
 `System.Web.UI.DataSourceSelectArguments` A 
-            initialized to 
+            initialized to
             .
 
 ###  CreateInsertItem
@@ -471,7 +471,7 @@ Loads the client state data
 ###  LoadControlState
 
 Restores control-state information from a previous page request that
-            was saved by the 
+            was saved by the
              method.
 
 #### Parameters
@@ -652,7 +652,7 @@ Perform asynchronous delete operation
 ###  PerformDelete
 
 Perform delete operation, using the 
-            API. Please make sure you have specified the correct 
+            API. Please make sure you have specified the correct
              for the .
 
 #### Returns
@@ -694,7 +694,7 @@ Perform asynchronous update operation, using the  control API and the
 ###  PerformUpdate
 
 Perform asynchronous update operation, using the 
-                control API. Please make sure you have specified the correct 
+                control API. Please make sure you have specified the correct
                 DataKeyNames for the
                 . When the asynchronous operation calls
                 back,  will fire
@@ -752,7 +752,7 @@ Renders the  to the specified HTML writer.
 
 #### writer `System.Web.UI.HtmlTextWriter`
 
-The 
+The
              object that receives
             the control content.
 

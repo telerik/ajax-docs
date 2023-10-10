@@ -6,10 +6,10 @@ description: Telerik.Pdf.Gdi.GdiUnicodeRanges
 
 # Telerik.Pdf.Gdi.GdiUnicodeRanges
 
-Custom collection that maintains a list of Unicode ranges 
+Custom collection that maintains a list of Unicode ranges
                 a font supports and the glyph indices of each character.
                 The list of ranges is obtained by invoking GetFontUnicodeRanges,
-                however the associated glyph indices are lazily instantiated as 
+                however the associated glyph indices are lazily instantiated as
                 required to save memory.
 
 ## Inheritance Hierarchy
@@ -35,7 +35,7 @@ Locates the  for the supplied character.
 
 #### Returns
 
-`Telerik.Pdf.Gdi.UnicodeRange` The  object housing c or null 
+`Telerik.Pdf.Gdi.UnicodeRange` The  object housing c or null
                 if a range does not exist for c.
 
 ###  LoadRanges
@@ -58,6 +58,6 @@ Any unicode character.
 
 #### Returns
 
-`System.Int32` A glyph index for c or 0 the supplied character does 
+`System.Int32` A glyph index for c or 0 the supplied character does
                 not exist in the font selected into the device context.
 

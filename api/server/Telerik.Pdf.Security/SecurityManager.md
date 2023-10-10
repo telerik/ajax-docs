@@ -6,8 +6,8 @@ description: Telerik.Pdf.Security.SecurityManager
 
 # Telerik.Pdf.Security.SecurityManager
 
-Implements Adobe's standard security handler.  A security handler is 
-                a software module that implements various aspects of the encryption 
+Implements Adobe's standard security handler.  A security handler is
+                a software module that implements various aspects of the encryption
                 process.
 
 ## Inheritance Hierarchy
@@ -72,7 +72,7 @@ Compares two byte arrays and returns true if they are equal.
 
 ###  ComputeEncryptionKey31
 
-Computes an encryption key that is used to encrypt string and stream data 
+Computes an encryption key that is used to encrypt string and stream data
                 in the PDF document.
 
 #### Remarks
@@ -84,7 +84,7 @@ Corresponds to algorithm 3.1 in section 3.5 of the PDF specficiation.
 
 ###  ComputeEncryptionKey32
 
-Computes an encryption key that is used to encrypt string and stream data 
+Computes an encryption key that is used to encrypt string and stream data
                 in the PDF document.
 
 #### Remarks
@@ -96,7 +96,7 @@ Corresponds to algorithm 3.2 in section 3.5 of the PDF specficiation.
 
 ###  CreateMasterKey
 
-Computes the master key that is used to encrypt string and stream data 
+Computes the master key that is used to encrypt string and stream data
                 in the PDF document.
 
 #### Parameters

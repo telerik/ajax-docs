@@ -52,7 +52,7 @@ Enables browser back/forward buttons state (browser history).
 
 ###  EnablePageHeadUpdate `Boolean`
 
-Gets or sets if the page html head tag will be 
+Gets or sets if the page html head tag will be
             updated during the ajax request.
 
 ###  IsAjaxRequest `Boolean`
@@ -65,8 +65,8 @@ String array with filter strings. Ajax trigger control whose ID matches one of t
 
 ###  RequestQueueSize `Int32`
 
-By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request. 
-            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax 
+By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request.
+            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax
             that will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
 
 #### Remarks
@@ -79,12 +79,12 @@ Gets the response scripts which represent JavaScript code
 
 ###  RestoreOriginalRenderDelegate `Boolean`
 
-RadAjax for ASP.NET has some limitations when running in medium trust. 
-            To make it work you should change the base type of your pages that use radjax 
-            from  to . However DNN module 
-            controls Inherit from Entities.Modules.PortalModuleBase and thus you cannot 
-            simply change the page's base class. For such cases you should use the new 
-            property RestoreOriginalRenderDelegate. By default it is true, if you work in 
+RadAjax for ASP.NET has some limitations when running in medium trust.
+            To make it work you should change the base type of your pages that use radjax
+            from  to . However DNN module
+            controls Inherit from Entities.Modules.PortalModuleBase and thus you cannot
+            simply change the page's base class. For such cases you should use the new
+            property RestoreOriginalRenderDelegate. By default it is true, if you work in
             DNN or medium trust, you should set that to false.
 
 ###  ShowLoadingPanelForPostBackControls `String[]`

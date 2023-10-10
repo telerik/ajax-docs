@@ -6,8 +6,8 @@ description: Telerik.Web.UI.PivotGridToolTipManager
 
 # Telerik.Web.UI.PivotGridToolTipManager
 
-Represents the control that manages the settings of 
-             	the automatically generated tooltips in the PivotGrid
+Represents the control that manages the settings of
+                 the automatically generated tooltips in the PivotGrid
 
 ## Inheritance Hierarchy
 
@@ -48,7 +48,7 @@ Get/Set overflow of the tooltip's content area.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -158,7 +158,7 @@ Get/Set the tooltip's vertical offset from the target control in pixels. Works i
 Gets or sets the name of client-side JavaScript function that is called just before the RadToolTip hides.
 
 #### Remarks
-If specified, the OnClientBeforeHideclient-side event handler that is called 
+If specified, the OnClientBeforeHideclient-side event handler that is called
             before the tooltip is hidden. Two parameters are passed to the handler:sender, the RadToolTip object.args.This event can be cancelled.
 
 ###  OnClientBeforeShow `String`
@@ -174,7 +174,7 @@ If specified, the OnClientBeforeShowclient-side event handler is called before t
 Gets or sets the name of client-side JavaScript function that is called just after the RadToolTip is hidden.
 
 #### Remarks
-If specified, the OnClientHideclient-side event handler that is called 
+If specified, the OnClientHideclient-side event handler that is called
             after the tooltip is hidden. Two parameters are passed to the handler:sender, the RadToolTip object.args.This event cannot be cancelled.
 
 ###  OnClientRequestStart `String`
@@ -300,7 +300,7 @@ Get/Set a title for the tooltip.
 
 #### Remarks
 This title is not affected by the rest of the content and is always displayed, regardless of the content source.
-            For more details see this help article: https://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
+            For more details see this help article: http://www.telerik.com/help/aspnet-ajax/tooltip-content.html.
 
 ###  ToolTipZoneID `String`
 
@@ -320,28 +320,28 @@ Gets the settings for the web service used to populate items.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both
-                    Path and
-                    Method
-            		to fully describe the service.
-                
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public string WebServiceMethodName(object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both
+                     Path and
+                     Method
+                        to fully describe the service.
+                 
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public string WebServiceMethodName(object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ###  Width `Unit`
 

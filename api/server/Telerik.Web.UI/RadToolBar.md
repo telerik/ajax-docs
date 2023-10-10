@@ -25,10 +25,10 @@ Gets or sets a value indicating whether button items should postback when clicke
 
 #### Remarks
 RadToolBar will postback provided one of the following conditions is met:
-            	
-            			The AutoPostBack property is set to true.
-            		
-            			The user has subscribed to the ButtonClick event.
+                   
+                           The AutoPostBack property is set to true.
+                       
+                           The user has subscribed to the ButtonClick event.
 
 ###  CausesValidation `Boolean`
 
@@ -64,9 +64,9 @@ Gets a list of all client-side changes (adding an item, removing an item, changi
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -84,8 +84,8 @@ Gets the settings for the animation played when a dropdown closes.
 #### Remarks
 Use the CollapseAnimation property to customize the collapse
                     animation of the RadToolBar dropdown items -
-            		RadToolBarDropDown and
-            		RadToolBarSplitButton. You can specify the
+                       RadToolBarDropDown and
+                       RadToolBarSplitButton. You can specify the
                     Type and
                     the Duration of the collapse animation.
                     To disable collapse animation effects you should set the
@@ -101,7 +101,7 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -155,8 +155,8 @@ Gets the settings for the animation played when a dropdown opens.
 #### Remarks
 Use the ExpandAnimation property to customize the expand
                     animation of the RadToolBar dropdown items -
-            		RadToolBarDropDown and
-            		RadToolBarSplitButton. You can specify the
+                       RadToolBarDropDown and
+                       RadToolBarSplitButton. You can specify the
                     Type and
                     the Duration of the expand animation.
                     To disable expand animation effects you should set the
@@ -208,24 +208,24 @@ Use the OnClientButtonClicking property to specify a
                 JavaScript function that will be executed prior to button item clicking - either by
                 left-clicking it with the mouse or hitting enter after tabbing to that button. You can
                 cancel that event (prevent button clicking) by seting the cancel property of the event argument to true.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with three properties
                         item - the instance of the button item being clickedcancel - whether to cancel the eventdomEvent - the reference to the browser DOM event
 
 ###  OnClientCheckedStateChanged `String`
 
 Gets or sets a value indicating the client-side event handler that is called after a
-            RadToolBarButton is checked.
+               RadToolBarButton is checked.
 
 #### Remarks
 Use the OnClientCheckedStateChanged property to specify a
                 JavaScript function that will be executed  after a toolbar dropdown button
-            	is checked - either by left-clicking a checkable button or pressing the ENTER
-            	key after tabbing to that button.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                   is checked - either by left-clicking a checkable button or pressing the ENTER
+                   key after tabbing to that button.
+                   Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with two properties
                         item - the instance of the button which is checkeddomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as button.toggle())
+                       calling a client-side method such as button.toggle())
 
 ###  OnClientCheckedStateChanging `String`
 
@@ -237,11 +237,11 @@ Use the OnClientCheckedStateChanging property to specify a
                 JavaScript function that will be executed prior to button checked state changing - either by
                 left-clicking a checkable button or pressing the ENTER key after tabbing to that button. You can
                 cancel that event (prevent button checked state changing) by seting the cancel property of the
-            	event argument to true.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                   event argument to true.
+                Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with three properties
                         item - the instance of the button which checked state is being changedcancel - whether to cancel the eventdomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as button.toggle())
+                       calling a client-side method such as button.toggle())
 
 ###  OnClientContextMenu `String`
 
@@ -252,24 +252,24 @@ Gets or sets a value indicating the client-side event handler that is called
 Use the OnClientContextMenu property to specify a JavaScript
                 function that will be executed before the context menu shows after right clicking an
                 item.Two parameters are passed to the handlersender (the client-side RadToolBar object)
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         item - the instance of the selected toolbar itemdomEvent - the reference to the browser DOM event
 
 ###  OnClientDropDownClosed `String`
 
 Gets or sets a value indicating the client-side event handler that is called after a
-            toolbar dropdown item (RadToolBarDropDown or RadToolBarSplitButton) is closed.
+               toolbar dropdown item (RadToolBarDropDown or RadToolBarSplitButton) is closed.
 
 #### Remarks
 Use the OnClientDropDownClosed property to specify a
                 JavaScript function that will be executed  after a toolbar dropdown item
-            	is closed - either by left-clicking an open dropdown with the mouse, hitting
-            	the ESC key when the dropdown or a button in it is focused, or clicking a
-            	non-checkable button in the dropdown.
+                   is closed - either by left-clicking an open dropdown with the mouse, hitting
+                   the ESC key when the dropdown or a button in it is focused, or clicking a
+                   non-checkable button in the dropdown.
             Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with two properties
                         item - the instance of the dropdown item which is closeddomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as dropDownItem.hideDropDown())
+                       calling a client-side method such as dropDownItem.hideDropDown())
 
 ###  OnClientDropDownClosing `String`
 
@@ -280,27 +280,27 @@ Gets or sets a value indicating the client-side event handler that is called jus
 Use the OnClientDropDownClosing property to specify a
                 JavaScript function that will be executed prior to dropdown item closing - either by
                 left-clicking an open dropdown with the mouse, hitting the ESC key when the dropdown or
-            	a button in it is focused, or clicking a non-checkable button in the dropdown. You can
+                   a button in it is focused, or clicking a non-checkable button in the dropdown. You can
                 cancel that event (prevent dropdown closing) by seting the cancel property of the event argument to true.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with three properties
                         item - the instance of the dropdown item being closedcancel - whether to cancel the eventdomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as dropDownItem.hideDropDown())
+                       calling a client-side method such as dropDownItem.hideDropDown())
 
 ###  OnClientDropDownOpened `String`
 
 Gets or sets a value indicating the client-side event handler that is called after a
-            toolbar dropdown item (RadToolBarDropDown or RadToolBarSplitButton) is opened.
+               toolbar dropdown item (RadToolBarDropDown or RadToolBarSplitButton) is opened.
 
 #### Remarks
 Use the OnClientDropDownOpened property to specify a
                 JavaScript function that will be executed  after a toolbar dropdown item
-            	is opened - either by left-clicking it with the mouse or hitting the down arrow
-            	after tabbing to that item.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                   is opened - either by left-clicking it with the mouse or hitting the down arrow
+                   after tabbing to that item.
+                Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with two properties
                         item - the instance of the dropdown item which is openeddomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as dropDownItem.showDropDown())
+                       calling a client-side method such as dropDownItem.showDropDown())
 
 ###  OnClientDropDownOpening `String`
 
@@ -312,10 +312,10 @@ Use the OnClientDropDownOpening property to specify a
                 JavaScript function that will be executed prior to dropdown item opening - either by
                 left-clicking it with the mouse or hitting the down arrow after tabbing to that item. You can
                 cancel that event (prevent dropdown opening) by seting the cancel property of the event argument to true.
-            	Two parameters are passed to the handlersender (the client-side RadToolBar object)
+                Two parameters are passed to the handlersender (the client-side RadToolBar object)
                         eventArgs with three properties
                         item - the instance of the dropdown item being openedcancel - whether to cancel the eventdomEvent - the reference to the browser DOM event (null if the event was initiated by
-            		calling a client-side method such as dropDownItem.showDropDown();)
+                       calling a client-side method such as dropDownItem.showDropDown();)
 
 ###  OnClientLoad `String`
 
@@ -338,7 +338,7 @@ Use the OnClientMouseOut property to specify a JavaScript
                 function that is executed whenever the user moves the mouse
                 away from a particular item in the RadToolBar control.Two parameters are passed to the handler:sender (the client-side RadToolBar object);
                         eventArgs with two properties:
-            			item - the instance of the item which the mouse is moving
+                        item - the instance of the item which the mouse is moving
                             away from;domEvent - the reference to the browser DOM event
 
 ###  OnClientMouseOver `String`
@@ -349,7 +349,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 Use the OnClientMouseOver property to specify a JavaScript
                 function that is called when the user hovers an item with the mouse.Two parameters are passed to the handler:sender (the client-side RadToolBar object);
-                        eventArgs with two properties 
+                        eventArgs with two properties
                         item - the instance of the toolbar item that is being hovereddomEvent - the reference to the browser DOM event
 
 ###  Orientation `Orientation`
@@ -359,7 +359,7 @@ Gets or sets the direction in which to render the RadToolBar control.
 #### Remarks
 Use the Orientation property to specify the direction in which to render the RadToolBar
             control. The following table lists the available directions.
-            	OrientationDescriptionOrientation.HorizontalThe RadToolBar control is rendered horizontally.Orientation.VerticalThe RadToolBar control is rendered vertically.
+                OrientationDescriptionOrientation.HorizontalThe RadToolBar control is rendered horizontally.Orientation.VerticalThe RadToolBar control is rendered vertically.
 
 ###  PostBackUrl `Boolean`
 
@@ -407,16 +407,16 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  ValidationGroup `String`
 
 Gets or sets the name of the validation group to which this validation
-                control belongs.
+                 control belongs.
 
 #### Remarks
 This property works only when CausesValidation
-                is set to true.
+                 is set to true.
 
 ###  ValidationGroup `String`
 
@@ -483,7 +483,7 @@ Should be  used by inheritors
 
 Searches the RadToolBar control for the first
                 IRadToolBarButtonCommandName
-            	property is equal to the specified value.
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -494,9 +494,9 @@ The commandName to search for.
 #### Returns
 
 `Telerik.Web.UI.IRadToolBarButton` A IRadToolBarButton which
-            	CommandName
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   CommandName
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindChildByValue
 
@@ -534,8 +534,8 @@ The ignore case.
 
 Searches the RadToolBar control for the first
                 RadToolBarDropDown which
-            	Value
-            	property is equal to the specified value.
+                   Value
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -546,16 +546,16 @@ The value to search for.
 #### Returns
 
 `Telerik.Web.UI.RadToolBarDropDown` A RadToolBarDropDown which
-            	Value
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   Value
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindDropDownByValue
 
 Searches the RadToolBar control for the first
                 RadToolBarDropDown which
-            	Value
-            	property is equal to the specified value.
+                   Value
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -570,13 +570,13 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 #### Returns
 
 `Telerik.Web.UI.RadToolBarDropDown` A RadToolBarButton which
-            	Value
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   Value
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindItem
 
-Returns  the first RadToolBarItem 
+Returns  the first RadToolBarItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -594,7 +594,7 @@ The Predicate <> that defines the conditions of the element to search for.
 
 Searches the RadToolBar control for the first
                 RadToolBarItem whose Text
-            	property is equal to the specified value.
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -605,14 +605,14 @@ The value to search for.
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` A RadToolBarItem whose Text
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindItemByText
 
 Searches the RadToolBar control for the first
                 RadToolBarItem whose Text
-            	property is equal to the specified value.
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -627,16 +627,16 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` A RadToolBarItem whose Text
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindItemByUrl
 
 Searches the RadToolBar control for the first
                 RadToolBarButton or
-            	RadToolBarSplitButton which
-            	NavigateUrl
-            	property is equal to the specified value.
+                   RadToolBarSplitButton which
+                   NavigateUrl
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -647,18 +647,18 @@ The url to search for.
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` A RadToolBarButton or
-            	RadToolBarSplitButton which
-            	NavigateUrl
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   RadToolBarSplitButton which
+                   NavigateUrl
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindItemByValue
 
 Searches the RadToolBar control for the first
                 RadToolBarButton or
-            	RadToolBarSplitButton which
-            	Value
-            	property is equal to the specified value.
+                   RadToolBarSplitButton which
+                   Value
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -669,18 +669,18 @@ The value to search for.
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` A RadToolBarButton or
-            	RadToolBarSplitButton which
-            	Value
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   RadToolBarSplitButton which
+                   Value
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  FindItemByValue
 
 Searches the RadToolBar control for the first
                 RadToolBarButton or
-            	RadToolBarSplitButton which
-            	Value
-            	property is equal to the specified value.
+                   RadToolBarSplitButton which
+                   Value
+                   property is equal to the specified value.
 
 #### Parameters
 
@@ -695,10 +695,10 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` A RadToolBarButton or
-            	RadToolBarSplitButton which
-            	Value
-            	property is equal to the specified value. If an item is not found, null
-            	(Nothing in Visual Basic) is returned.
+                   RadToolBarSplitButton which
+                   Value
+                   property is equal to the specified value. If an item is not found, null
+                   (Nothing in Visual Basic) is returned.
 
 ###  GetAllItems
 
@@ -706,13 +706,13 @@ Gets a linear list of all toolbar items in the RadToolBar control.
 
 #### Returns
 
-`System.Collections.Generic.IList`1` An IList object containing 
-            	all items in the current RadToolBar control.
+`System.Collections.Generic.IList`1` An IList object containing
+                   all items in the current RadToolBar control.
 
 ###  GetCheckedGroupButton
 
 Gets the checked button which belongs to the specified group in the
-            	RadToolBar control
+                   RadToolBar control
 
 #### Parameters
 
@@ -723,7 +723,7 @@ The name of the group to search for.
 #### Returns
 
 `Telerik.Web.UI.RadToolBarButton` A RadToolBarButton object which
-            	CheckOnClick and Checked properties are set to true.
+                   CheckOnClick and Checked properties are set to true.
 
 ###  GetEmbeddedSkinNames
 
@@ -736,7 +736,7 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetGroupButtons
 
 Gets a linear list of all toolbar buttons in the RadToolBar control,
-            	which belong to the specified group
+                   which belong to the specified group
 
 #### Parameters
 
@@ -746,17 +746,17 @@ The name of the group to search for.
 
 #### Returns
 
-`System.Collections.Generic.IList`1` An IList object containing 
-            	all the buttons in the current RadToolBar control, which belong to the specified group.
+`System.Collections.Generic.IList`1` An IList object containing
+                   all the buttons in the current RadToolBar control, which belong to the specified group.
 
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -811,7 +811,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

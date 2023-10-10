@@ -29,7 +29,7 @@ Get/Set the ControlsToSkip enum of RadFormDecorator - a shortcut for faster fine
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DecoratedControls `FormDecoratorDecoratedControls`
@@ -137,7 +137,7 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 ###  DecorateAspNetControls
 
-Finds all instances of FormView, GridView, DetailsView controls in the current page and adds a CSS class 
+Finds all instances of FormView, GridView, DetailsView controls in the current page and adds a CSS class
             so they can be decorated on the client
 
 #### Returns

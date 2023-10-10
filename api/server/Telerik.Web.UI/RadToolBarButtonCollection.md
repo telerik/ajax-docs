@@ -8,13 +8,13 @@ description: Telerik.Web.UI.RadToolBarButtonCollection
 
 A collection of Telerik.Web.UI.RadToolBarButton RadToolBarButtonobjects in
                 Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDownand
-            	Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton.
+                   Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton.
 
 #### Remarks
 The RadToolBarButtonCollectionclass represents a collection of
                 RadToolBarButtonobjects. The RadToolBarButtonobjects
-            	in turn represent buttons within a Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDownor
-            	a Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton.bullet Use the P:Telerik.Web.UI.RadToolBarButtonCollection.Item(System.Int32) indexerto programmatically retrieve a
+                   in turn represent buttons within a Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDownor
+                   a Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton.bullet Use the P:Telerik.Web.UI.RadToolBarButtonCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadToolBarButton from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of buttons in the collection.
@@ -34,27 +34,27 @@ The RadToolBarButtonCollectionclass represents a collection of
 
 ###  Item `RadToolBarButton`
 
-Gets the RadToolBarButton object at the specified index in 
-            	the current RadToolBarButtonCollection.
+Gets the RadToolBarButton object at the specified index in
+                   the current RadToolBarButtonCollection.
 
 ###  Item `RadToolBarItem`
 
-Gets the RadToolBarItem object at the specified index in 
-            	the current RadToolBarItemCollection.
+Gets the RadToolBarItem object at the specified index in
+                   the current RadToolBarItemCollection.
 
 ## Methods
 
 ###  Add
 
 Appends the specified RadToolBarButton object to the end of the
-            current RadToolBarButtonCollection.
+             current RadToolBarButtonCollection.
 
 #### Parameters
 
 #### item `Telerik.Web.UI.RadToolBarButton`
 
 The RadToolBarButton to append to the end of the current
-            RadToolBarButtonCollection.
+             RadToolBarButtonCollection.
 
 #### Returns
 
@@ -79,14 +79,14 @@ The RadToolBarItem to append to the end of the current
 ###  AddRange
 
 Appends the specified array of RadToolBarButton objects
-            to the end of the current RadToolBarButtonCollection.
+                to the end of the current RadToolBarButtonCollection.
 
 #### Parameters
 
 #### buttons `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadToolBarButton}`
 
 The array of RadToolBarButton objects to append to
-            	the end of the current RadToolBarButtonCollection.
+                    the end of the current RadToolBarButtonCollection.
 
 #### Returns
 
@@ -95,14 +95,14 @@ The array of RadToolBarButton objects to append to
 ###  AddRange
 
 Appends the specified array of RadToolBarItem objects
-            to the end of the current RadToolBarItemCollection.
+               to the end of the current RadToolBarItemCollection.
 
 #### Parameters
 
 #### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadToolBarItem}`
 
-The array of RadToolBarItem objects to append to the end of the current 
-            	RadToolBarItemCollection.
+The array of RadToolBarItem objects to append to the end of the current
+                   RadToolBarItemCollection.
 
 #### Returns
 
@@ -111,7 +111,7 @@ The array of RadToolBarItem objects to append to the end of the current
 ###  Contains
 
 Determines whether the specified RadToolBarButton object
-            	is in the current RadToolBarButtonCollection.
+                   is in the current RadToolBarButtonCollection.
 
 #### Parameters
 
@@ -122,12 +122,12 @@ The RadToolBarButton object to find.
 #### Returns
 
 `System.Boolean` true if the current collection contains the specified
-            	RadToolBarButton object; otherwise, false.
+                   RadToolBarButton object; otherwise, false.
 
 ###  Contains
 
-Determines whether the specified RadToolBarItem object is in the current 
-            	RadToolBarItemCollection.
+Determines whether the specified RadToolBarItem object is in the current
+                   RadToolBarItemCollection.
 
 #### Parameters
 
@@ -138,7 +138,7 @@ The RadToolBarItem object to find.
 #### Returns
 
 `System.Boolean` true if the current collection contains the specified
-            	RadToolBarItem object; otherwise, false.
+                   RadToolBarItem object; otherwise, false.
 
 ###  FindButtonByAttribute
 
@@ -161,7 +161,7 @@ The value of the target attribute
 #### Returns
 
 `Telerik.Web.UI.RadToolBarButton` The RadToolBarButton that matches the specified arguments.
-            	Null (Nothing) is returned if no node is found.
+                   Null (Nothing) is returned if no node is found.
 
 ###  FindButtonByText
 
@@ -209,7 +209,7 @@ The value to search for.
 
 ###  FindItem
 
-Returns  the first RadToolBarItem 
+Returns  the first RadToolBarItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -296,8 +296,8 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 Searches the ToolBarItemCollection for the first button item
                 (RadToolBarButton or
-            	RadToolBarSplitButton) with a
-            	Value property equal
+                   RadToolBarSplitButton) with a
+                   Value property equal
                 to the specified value.
 
 #### Remarks
@@ -320,8 +320,8 @@ The value to search for.
 
 Searches the ToolBarItemCollection for the first button item
                 (RadToolBarButton or
-            	RadToolBarSplitButton) with a
-            	Value property equal
+                   RadToolBarSplitButton) with a
+                   Value property equal
                 to the specified value.
 
 #### Remarks
@@ -347,7 +347,7 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 ###  IndexOf
 
 Determines the index of the specified RadToolBarButton object in
-            	the collection.
+                   the collection.
 
 #### Parameters
 
@@ -358,13 +358,13 @@ The RadToolBarButton to locate.
 #### Returns
 
 `System.Int32` The zero-based index of a toolbar button within the current
-            	RadToolBarButtonCollection, 
-            	if found; otherwise, -1.
+                   RadToolBarButtonCollection,
+                   if found; otherwise, -1.
 
 ###  IndexOf
 
 Determines the index of the specified RadToolBarItem object in
-            	the collection.
+                   the collection.
 
 #### Parameters
 
@@ -375,12 +375,12 @@ The RadToolBarItem to locate.
 #### Returns
 
 `System.Int32` The zero-based index of a toolbar item within the current
-            	RadToolBarItemCollection, 
-            	if found; otherwise, -1.
+                   RadToolBarItemCollection,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified RadToolBarButton object in the current 
+Inserts the specified RadToolBarButton object in the current
             RadToolBarButtonCollection at the specified index location.
 
 #### Parameters
@@ -388,7 +388,7 @@ Inserts the specified RadToolBarButton object in the current
 #### index `System.Int32`
 
 The zero-based index location at which to insert the
-            	RadToolBarButton.
+                   RadToolBarButton.
 
 #### button `Telerik.Web.UI.RadToolBarButton`
 
@@ -400,7 +400,7 @@ The RadToolBarButton to insert.
 
 ###  Insert
 
-Inserts the specified RadToolBarItem object in the current 
+Inserts the specified RadToolBarItem object in the current
             RadToolBarItemCollection at the specified index location.
 
 #### Parameters
@@ -408,7 +408,7 @@ Inserts the specified RadToolBarItem object in the current
 #### index `System.Int32`
 
 The zero-based index location at which to insert the
-            	RadToolBarItem.
+                   RadToolBarItem.
 
 #### item `Telerik.Web.UI.RadToolBarItem`
 
@@ -421,7 +421,7 @@ The RadToolBarItem to insert.
 ###  Remove
 
 Removes the specified RadToolBarButton object from the current
-            	RadToolBarButtonCollection.
+                   RadToolBarButtonCollection.
 
 #### Parameters
 
@@ -436,7 +436,7 @@ The RadToolBarButton object to remove.
 ###  Remove
 
 Removes the specified RadToolBarItem object from the current
-            	RadToolBarItemCollection.
+                   RadToolBarItemCollection.
 
 #### Parameters
 
@@ -450,7 +450,7 @@ The RadToolBarItem object to remove.
 
 ###  RemoveAt
 
-Removes the RadToolBarButton object at the specified index 
+Removes the RadToolBarButton object at the specified index
             from the current RadToolBarButtonCollection.
 
 #### Parameters
@@ -465,7 +465,7 @@ The zero-based index of the button to remove.
 
 ###  RemoveAt
 
-Removes the RadToolBarItem object at the specified index 
+Removes the RadToolBarItem object at the specified index
             from the current RadToolBarItemCollection.
 
 #### Parameters

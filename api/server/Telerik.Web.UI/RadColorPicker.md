@@ -33,7 +33,7 @@ Get/Set the number of the columns in the palette.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  CurrentColorText `String`
@@ -98,20 +98,20 @@ Gets or sets the text for the no color box.
 
 ###  OnClientColorChange `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             while the value of the color picker has been changed.
 
 #### Remarks
-If specified, the OnClientColorChangeclient-side event handler that is called 
+If specified, the OnClientColorChangeclient-side event handler that is called
             when the value of the color picker has been changed. Two parameters are passed to the handler:sender, the RadColorPicker object.args.This event cannot be cancelled.
 
 ###  OnClientColorChanging `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             just before the value of the color picker is changed.
 
 #### Remarks
-If specified, the OnClientColorChangingclient-side event handler that is called 
+If specified, the OnClientColorChangingclient-side event handler that is called
             just before the value of the color picker is changed. Two parameters are passed to the handler:sender, the RadColorPicker object.args.This event can be cancelled.
 
 ###  OnClientColorPreview `String`
@@ -131,7 +131,7 @@ Two parameters are passed to the handler:sender, the RadColorPicker object.args.
 
 ###  OnClientPopUpShow `String`
 
-Gets or sets a value indicating the client-side event handler that is called 
+Gets or sets a value indicating the client-side event handler that is called
             when the popup element of the RadColorPicker (in case ShowIcon=true) shows.
 
 #### Remarks

@@ -11,22 +11,22 @@ This partial class defines the rendering RadToolBarItem.
 #### Remarks
 The Telerik.Web.UI.RadToolBar RadToolBarcontrol is made up of a list of toolbar items
                     represented by RadToolBarItemobjects (Telerik.Web.UI.RadToolBarButton RadToolBarButton,
-            		Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDown,
-            		Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton). All toolbar  items are stored
-            		in the P:Telerik.Web.UI.RadToolBar.Items Itemscollection of the toolbar.
-            		You can access the toolbar to which the item belongs
+                       Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDown,
+                       Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton). All toolbar  items are stored
+                       in the P:Telerik.Web.UI.RadToolBar.Items Itemscollection of the toolbar.
+                       You can access the toolbar to which the item belongs
                     by using the P:Telerik.Web.UI.RadToolBarItem.ToolBar ToolBarproperty.
                 To create the toolbar items for a RadToolBarcontrol, use one of the
                 following methods:bullet Use declarative syntax to create static toolbar items.Use a constructor to dynamically create new instances of either toolbar item classes
-            			(Telerik.Web.UI.RadToolBarButton RadToolBarButton,
-            			Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDown,
-            			Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton). These RadToolBarItemobjects can then be added to the P:Telerik.Web.UI.RadToolBar.Items Itemscollection of the
-            			Telerik.Web.UI.RadToolBar RadToolBar.Bind the Telerik.Web.UI.RadToolBar RadToolBarcontrol to a data source.Each toolbar item has a P:Telerik.Web.UI.RadToolBarItem.Text Textproperty. The Button items
-            		(Telerik.Web.UI.RadToolBarButton RadToolBarButtonand
-            		Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton) have a
+                           (Telerik.Web.UI.RadToolBarButton RadToolBarButton,
+                           Telerik.Web.UI.RadToolBarDropDown RadToolBarDropDown,
+                           Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton). These RadToolBarItemobjects can then be added to the P:Telerik.Web.UI.RadToolBar.Items Itemscollection of the
+                           Telerik.Web.UI.RadToolBar RadToolBar.Bind the Telerik.Web.UI.RadToolBar RadToolBarcontrol to a data source.Each toolbar item has a P:Telerik.Web.UI.RadToolBarItem.Text Textproperty. The Button items
+                       (Telerik.Web.UI.RadToolBarButton RadToolBarButtonand
+                       Telerik.Web.UI.RadToolBarSplitButton RadToolBarSplitButton) have a
                     P:Telerik.Web.UI.RadToolBarButton.Value Valueproperty. The value of the
-            		P:Telerik.Web.UI.RadToolBarItem.Text Textproperty is displayed in the Telerik.Web.UI.RadToolBar RadToolBarcontrol, while the P:Telerik.Web.UI.RadToolBarButton.Value Valueproperty is used to store any
-            		additional data about the toolbar item.
+                       P:Telerik.Web.UI.RadToolBarItem.Text Textproperty is displayed in the Telerik.Web.UI.RadToolBar RadToolBarcontrol, while the P:Telerik.Web.UI.RadToolBarButton.Value Valueproperty is used to store any
+                       additional data about the toolbar item.
 
 ## Inheritance Hierarchy
 
@@ -161,7 +161,7 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 
 #### Remarks
 You can use the OuterCssClass property to specify unique
-            	appearance for the item, or to insert elements that are before/after the link element.
+                   appearance for the item, or to insert elements that are before/after the link element.
 
 ###  OverFlow `ToolBarOverflow`
 
@@ -191,7 +191,7 @@ Gets or sets the text displayed for the current item.
 
 #### Remarks
 Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
+                   in the RadToolBar control.
 
 ###  ToolBar `RadToolBar`
 

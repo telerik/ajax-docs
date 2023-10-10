@@ -96,7 +96,7 @@ This property specifies Next button text.
 
 ###  Owner `RadDataPager`
 
-Returns RadDataPager control that owns current pager field. 
+Returns RadDataPager control that owns current pager field.
             This property is set by DataPagerFieldCollection and is read only.
 
 ###  PageButtonCount `Int32`
@@ -146,7 +146,7 @@ Gets or sets value that indicates whether RadDataPagerField is rendered.
 ###  CreateButtonField
 
 Creates button control from one of the following type: LinkButton, PushButton, ImageButton
-            or HyperLink if AllowSEOPaging is set to "true". Button Enabled state will be validated 
+            or HyperLink if AllowSEOPaging is set to "true". Button Enabled state will be validated
             depending on current page index.
 
 #### Parameters
@@ -372,7 +372,7 @@ Argument that the link must be build for.
 
 ###  ToString
 
-Returns a  that represents the 
+Returns a  that represents the
             current .
 
 #### Returns

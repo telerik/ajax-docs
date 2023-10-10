@@ -37,7 +37,7 @@ The item to be added.
 
 ###  BuildExpression
 
-Returns a expression builder object, the root of the 
+Returns a expression builder object, the root of the
             fluent api helpers
 
 #### Remarks
@@ -189,7 +189,7 @@ The zero-based index of the item to remove.
 
 ###  ToDynamicLinq
 
-Returns a string representation of the filter expressions 
+Returns a string representation of the filter expressions
             in format suitable for LinqDataSource usage.
 
 #### Remarks
@@ -201,7 +201,7 @@ Not intended  for external usage
 
 ###  ToEntitySQL
 
-Returns a string representation of the filter expressions 
+Returns a string representation of the filter expressions
             in format suitable for EntityDataSource usage.
 
 #### Remarks
@@ -213,7 +213,7 @@ Not intended  for external usage
 
 ###  ToOql
 
-Returns a string representation of the filter expressions 
+Returns a string representation of the filter expressions
             in format suitable for Oql usage.
 
 #### Remarks

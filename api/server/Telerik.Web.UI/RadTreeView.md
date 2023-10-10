@@ -10,20 +10,20 @@ description: Telerik.Web.UI.RadTreeView
 The RadTreeViewcontrol is used to display a list of nodes in a Web Forms
                     page. The RadTreeViewcontrol supports the following features:
                 bullet Danodeinding that allows the control to be populated from various
-            			datasources.
-            		Programmatic access to the RadTreeViewobject model
-            			which allows dynamic creation of treeviews, populating with nodes and customizing the behavior 
-            			by various properties.
-            		Customizable appearance through built-in or user-defined skins.
-            		nodesThe RadTreeViewcontrol is made up of tree of nodes represented
+                           datasources.
+                       Programmatic access to the RadTreeViewobject model
+                           which allows dynamic creation of treeviews, populating with nodes and customizing the behavior
+                           by various properties.
+                       Customizable appearance through built-in or user-defined skins.
+                       nodesThe RadTreeViewcontrol is made up of tree of nodes represented
                     by Telerik.Web.UI.RadTreeNode objects. Nodes at the top level (level 0) are
                     called root nodes. An node that has a parent node is called a child node. All root
                     nodes are stored in the P:Telerik.Web.UI.RadTreeView.Nodes property of the RadTreeView control. Child nodes are
                     stored in the P:Telerik.Web.UI.RadTreeNode.Nodes property of their parent Telerik.Web.UI.RadTreeNode .
-                Each node has a P:Telerik.Web.UI.RadTreeNode.Text and a P:Telerik.Web.UI.RadTreeNode.Value property. 
-            		The value of the P:Telerik.Web.UI.RadTreeNode.Text property is displayed in the RadTreeViewcontrol, 
-            		while the P:Telerik.Web.UI.RadTreeNode.Value property is used to store any additional data about the node, 
-            		such as data passed to the postback event associated with the node. When clicked, a node can
+                Each node has a P:Telerik.Web.UI.RadTreeNode.Text and a P:Telerik.Web.UI.RadTreeNode.Value property.
+                       The value of the P:Telerik.Web.UI.RadTreeNode.Text property is displayed in the RadTreeViewcontrol,
+                       while the P:Telerik.Web.UI.RadTreeNode.Value property is used to store any additional data about the node,
+                       such as data passed to the postback event associated with the node. When clicked, a node can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadTreeNode.NavigateUrl property.
 
 ## Inheritance Hierarchy
@@ -43,20 +43,20 @@ The RadTreeViewcontrol is used to display a list of nodes in a Web Forms
 ###  AllowNodeEditing `Boolean`
 
 Gets a value indicating whether the text of the tree nodes are edinodele in the
-            browser.
+             browser.
 
 #### Remarks
 End-users can edit the text of tree-nodes by pressing F2 when the node is
-                selected or by clicking on a node that is already selected (slow double
-                click).
-                    You can disable / enable node editing for specific tree nodes by setting the
-                    AllowEdit property of the specific
-                    RadTreeNode.
-                
-                    After node editing, RadTreeView fires the NodeEdit
-                    event and you can change the text of the node - the RadTreeNode instance is
-                    contained in the NodeEdited property of the event arguments and the new text is
-                    in the NewText property of the event arguments.
+                 selected or by clicking on a node that is already selected (slow double
+                 click).
+                     You can disable / enable node editing for specific tree nodes by setting the
+                     AllowEdit property of the specific
+                     RadTreeNode.
+                 
+                     After node editing, RadTreeView fires the NodeEdit
+                     event and you can change the text of the node - the RadTreeNode instance is
+                     contained in the NodeEdited property of the event arguments and the new text is
+                     in the NewText property of the event arguments.
 
 ###  CausesValidation `Boolean`
 
@@ -102,9 +102,9 @@ Gets a list of all client-side changes (adding a node, removing a node, changing
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -129,7 +129,7 @@ Use the CollapseAnimation property to customize the expand
                     animation of RadTreeView. You can specify the
                     Type and
                     Duration.
-            		
+                       
                     To disable expand animation effects you should set the
                     Type to
                     AnimationType.None. To customize the expand animation you can
@@ -138,24 +138,24 @@ Use the CollapseAnimation property to customize the expand
 ###  ContextMenus `RadTreeViewContextMenuCollection`
 
 Gets a collection of RadTreeViewContextMenu objects
-            	that represent the context menus of a RadTreeView control.
+                    that represent the context menus of a RadTreeView control.
 
 #### Remarks
 By default, if the ContextMenus collection contains RadTreeViewContextMenus,
-            	the first one is displayed on the right-click of each RadTreeNode. To disable a context menu for a
-            	RadTreeNode, set its EnableContextMenu
-            	property to false. To specify a different context menu for a RadTreeNode, use its
-            	ContextMenuID property.
+                    the first one is displayed on the right-click of each RadTreeNode. To disable a context menu for a
+                    RadTreeNode, set its EnableContextMenu
+                    property to false. To specify a different context menu for a RadTreeNode, use its
+                    ContextMenuID property.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `RadTreeNodeBindingCollection`
 
-Gets a collection of  objects that define the relationship 
-            	between a data item and the tree node it is binding to.
+Gets a collection of  objects that define the relationship
+                   between a data item and the tree node it is binding to.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -255,9 +255,9 @@ Gets or sets the loading status template.
 Gets or sets the maximum number of levels to bind to the RadTreeView control.
 
 #### Remarks
-When binding the RadTreeView control to a data source, use the MaxDanodeindDepth 
-            	property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only 
-            	the root nodes and their immediate children. All remaining records in the data source are ignored.
+When binding the RadTreeView control to a data source, use the MaxDanodeindDepth
+                   property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only
+                   the root nodes and their immediate children. All remaining records in the data source are ignored.
 
 ###  MultipleSelect `Boolean`
 
@@ -269,7 +269,7 @@ Gets a  object that contains the root nodes of the current RadTreeView control.
 
 #### Remarks
 Use the nodes property to access the root nodes of the RadTreeView control. You can also use the nodes property to
-            	manage the root nodes - you can add, remove or modify nodes.
+                   manage the root nodes - you can add, remove or modify nodes.
 
 ###  NodeTemplate `ITemplate`
 
@@ -338,7 +338,7 @@ The name of the JavaScript function that will be called upon click on a treenode
             For example if you define OnClientClick="ProcessClientClick", you must define a javascript function defined in the following way (example):
             function ProcessClientClick(node)
             {
-            	alert("You clicked on: " + node.Text);
+                   alert("You clicked on: " + node.Text);
             }
 
 ###  OnClientNodeCollapsed `String`
@@ -397,8 +397,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientNodePopulated client-side event
                 handler is called when the children of a tree node were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			get_node(), the instance of the tree node.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           get_node(), the instance of the tree node.This event cannot be cancelled.
 
 ###  OnClientNodePopulating `String`
 
@@ -408,8 +408,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientNodePopulating client-side event
                 handler is called when the children of a tree node are about to be populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
-            			get_node(), the instance of the node.get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
+                           get_node(), the instance of the node.get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientNodePopulationFailed `String`
 
@@ -419,8 +419,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientNodePopulationFailed client-side event
                 handler is called when the operation to populate the children of a tree node has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
-            			get_node(), the instance of the tree node.set_cancel(), set to true to suppress the default action (alert message).This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
+                           get_node(), the instance of the tree node.set_cancel(), set to true to suppress the default action (alert message).This event cannot be cancelled.
 
 ###  OnClientTemplateDataBound `String`
 
@@ -476,21 +476,21 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 ###  SelectedNode `RadTreeNode`
 
 Gets a RadTreeNode object that represents the selected node in the RadTreeView
-            control.
+             control.
 
 #### Remarks
 When a node is in selection mode, the user can select a node by clicking on
-                the text in the node. Use the SelectedNode property to determine which node is
-                selected in the TreeView control.
-                A node cannot be selected when the TreeView control displays hyperlinks. When
-                hyperlinks are displayed, the SelectedNode property always returns a null reference
-                (Nothing in Visual Basic).
-                    When the user selects a different node in the RadTreeView control by clicking
-                    the text in the new node, the NodeClick event is
-                    raised, by default. If you set the
-                    MultipleSelect property of the treeview to
-                    true, end-users can select multiple nodes by holding the Ctrl / Shift keys
-                    while selecting.
+                 the text in the node. Use the SelectedNode property to determine which node is
+                 selected in the TreeView control.
+                 A node cannot be selected when the TreeView control displays hyperlinks. When
+                 hyperlinks are displayed, the SelectedNode property always returns a null reference
+                 (Nothing in Visual Basic).
+                     When the user selects a different node in the RadTreeView control by clicking
+                     the text in the new node, the NodeClick event is
+                     raised, by default. If you set the
+                     MultipleSelect property of the treeview to
+                     true, end-users can select multiple nodes by holding the Ctrl / Shift keys
+                     while selecting.
 
 ###  SelectedNodes `IList`1`
 
@@ -528,7 +528,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  SupportsDisabledAttribute `Boolean`
 
@@ -558,36 +558,36 @@ This property works only when CausesValidation
 ###  WebServiceSettings `NavigationControlWebServiceSettings`
 
 Gets the settings for the web service used to populate nodes when
-            	ExpandMode set to
-            	TreeNodeExpandMode.WebService.
+                    ExpandMode set to
+                    TreeNodeExpandMode.WebService.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate nodes on demand.
-            		You must specify both
-                    Path and
-                    Method
-            		to fully describe the service.
-                
-            		You can use the LoadingStatusTemplate
-            		property to create a loading template.
-            	
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public RadTreeNodeData[] WebServiceMethodName(RadTreeNodeData item, object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate nodes on demand.
+                        You must specify both
+                     Path and
+                     Method
+                        to fully describe the service.
+                 
+                        You can use the LoadingStatusTemplate
+                        property to create a loading template.
+                    
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public RadTreeNodeData[] WebServiceMethodName(RadTreeNodeData item, object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ## Methods
 
@@ -667,7 +667,7 @@ Expands all nodes in the tree.
 
 ###  FindNode
 
-Returns  the first RadTreeNode 
+Returns  the first RadTreeNode
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -804,11 +804,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -860,7 +860,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

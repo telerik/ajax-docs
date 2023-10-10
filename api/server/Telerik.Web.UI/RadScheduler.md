@@ -6,10 +6,10 @@ description: Telerik.Web.UI.RadScheduler
 
 # Telerik.Web.UI.RadScheduler
 
-Using the Telerik RadScheduler control, you can build powerful ASP.NET 
+Using the Telerik RadScheduler control, you can build powerful ASP.NET
             applications to allow users to create and manage tasks. RadScheduler displays
             and edits scheduled appointments that are stored in a separate data source. A variety
-            of data binding options allows you to work with data sources that 
+            of data binding options allows you to work with data sources that
             are as simple or as powerful as you want.
 
 ## Inheritance Hierarchy
@@ -58,13 +58,13 @@ Gets or sets the comparer instance used to determine the appointment ordering wi
 ###  AppointmentContextMenus `RadSchedulerContextMenuCollection`
 
 Gets a collection of RadSchedulerContextMenu objects
-            	that represent the Appointment context menus of the RadScheduler control.
+                    that represent the Appointment context menus of the RadScheduler control.
 
 #### Remarks
 By default, if the AppointmentContextMenus collection contains RadSchedulerContextMenus,
-            	the first one is displayed on the right-click of each Appointment. 
-                To specify a different context menu for a Appointment, use its
-            	ContextMenuID property.
+                    the first one is displayed on the right-click of each Appointment.
+                 To specify a different context menu for a Appointment, use its
+                    ContextMenuID property.
 
 ###  AppointmentContextMenuSettings `ContextMenuSettings`
 
@@ -76,12 +76,12 @@ A factory for appointment instances.
 
 #### Remarks
 The default factory returns instances of the
-            	Appointment class.
+                   Appointment class.
             
-            	RadScheduler needs to create appointment instances in various
-            	stages of the control life cycle. You can use custom appointment
-            	classes by either implementing an IAppointmentFactory or by overriding
-            	the CreateAppointment method.
+                   RadScheduler needs to create appointment instances in various
+                   stages of the control life cycle. You can use custom appointment
+                   classes by either implementing an IAppointmentFactory or by overriding
+                   the CreateAppointment method.
 
 ###  Appointments `AppointmentCollection`
 
@@ -111,7 +111,7 @@ Gets or sets the width of each content column.
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  Culture `CultureInfo`
@@ -132,8 +132,8 @@ Gets or sets the description field for appointments in the data source specified
 
 #### Remarks
 This property is optional. If it's not specified the description field will not be
-            	visible in the insert/edit forms.Setting this property to a non-empty string will enable the Description field
-            	regardless of the value of EnableDescriptionField.
+                   visible in the insert/edit forms.Setting this property to a non-empty string will enable the Description field
+                   regardless of the value of EnableDescriptionField.
 
 ###  DataEndField `String`
 
@@ -162,8 +162,8 @@ Gets or sets the reminder field for appointments in the data source specified by
 
 #### Remarks
 This property is optional. If it's not specified the reminder drop-down will not be
-            	visible in the insert/edit forms.Setting this property to a non-empty string will enable the reminder drop-down
-            	regardless of the value of Reminders-Enabled.
+                   visible in the insert/edit forms.Setting this property to a non-empty string will enable the reminder drop-down
+                   regardless of the value of Reminders-Enabled.
 
 ###  DataSourceID `String`
 
@@ -414,8 +414,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentContextMenu client-side event
                 handler is called when an appointment has been right-clicked.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the instance of the appointment.get_domEvent(), the original DOM event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the instance of the appointment.get_domEvent(), the original DOM event.This event cannot be cancelled.
 
 ###  OnClientAppointmentContextMenuItemClicked `String`
 
@@ -424,9 +424,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientAppointmentContextMenuItemClicking
-            	client-side event handler is called when an apointment context menu item is clicked,
-            	after RadScheduler has processed the event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the instance of the appointment.get_item(), the clicked menu item.This event cannot be cancelled.
+                client-side event handler is called when an apointment context menu item is clicked,
+                after RadScheduler has processed the event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the instance of the appointment.get_item(), the clicked menu item.This event cannot be cancelled.
 
 ###  OnClientAppointmentContextMenuItemClicking `String`
 
@@ -435,9 +435,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientAppointmentContextMenuItemClicking
-            	client-side event handler is called when an apointment context menu item is clicked,
-            	before RadScheduler processes the click event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.get_item(), the clicked menu item.set_cancel(), used to cancel the event.This event can be cancelled. Cancelling it will prevent any further processing of the command.
+                client-side event handler is called when an apointment context menu item is clicked,
+                before RadScheduler processes the click event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.get_item(), the clicked menu item.set_cancel(), used to cancel the event.This event can be cancelled. Cancelling it will prevent any further processing of the command.
 
 ###  OnClientAppointmentCreated `String`
 
@@ -447,9 +447,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentCreated client-side event
                 handler is called when an appointment is received and has been rendered.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised after
-            	the appointments are retrieved from the data service.
-            	The event will be raised for each appointment that has been retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with one property:
-            			get_appointment(), the appointment that has been rendered.This event cannot be cancelled.
+                   the appointments are retrieved from the data service.
+                   The event will be raised for each appointment that has been retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with one property:
+                           get_appointment(), the appointment that has been rendered.This event cannot be cancelled.
 
 ###  OnClientAppointmentDataBound `String`
 
@@ -459,9 +459,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentDataBound client-side event
                 handler is called when an appointment is received and is about to be rendered.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised after
-            	the appointments are retrieved from the data service.
-            	The event will be raised for each appointment that has been retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the instance of the appointment;get_data(), the original data object retrieved from the web service.This event cannot be cancelled.
+                   the appointments are retrieved from the data service.
+                   The event will be raised for each appointment that has been retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the instance of the appointment;get_data(), the original data object retrieved from the web service.This event cannot be cancelled.
 
 ###  OnClientAppointmentDeleting `String`
 
@@ -486,16 +486,16 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientAppointmentMoveEnd client-side event
-            		handler is called when an appointment has been moved.
-            	
-            		The event will also be fired when the move operation has been aborted by the
-            		user. In this case the get_isAbortedByUser() property of the event arguments will
-            		be set to "true".
-            	
-            		The event will also fire if the appointment is dropped in its original location,
-            		but no postback will occur as the appointment is not altered.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with six properties:
-            			get_appointment(), the instance of the appointment.get_newStartTime(), the new start time of the appointment.get_editingRecurringSeries(), a boolean value indicating whether the user has selected to edit the whole series.get_targetSlot(), the target slot that the appointment has been moved to.get_isAbortedByUser(), indicates whether the move operation has been aborted as a result of user action.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
+                       handler is called when an appointment has been moved.
+                   
+                       The event will also be fired when the move operation has been aborted by the
+                       user. In this case the get_isAbortedByUser() property of the event arguments will
+                       be set to "true".
+                   
+                       The event will also fire if the appointment is dropped in its original location,
+                       but no postback will occur as the appointment is not altered.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with six properties:
+                           get_appointment(), the instance of the appointment.get_newStartTime(), the new start time of the appointment.get_editingRecurringSeries(), a boolean value indicating whether the user has selected to edit the whole series.get_targetSlot(), the target slot that the appointment has been moved to.get_isAbortedByUser(), indicates whether the move operation has been aborted as a result of user action.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
 
 ###  OnClientAppointmentMoveStart `String`
 
@@ -505,8 +505,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentMoveStart client-side event
                 handler is called when an appointment is about to be moved.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
-            			get_appointment(), the instance of the appointment.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
+                           get_appointment(), the instance of the appointment.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
 
 ###  OnClientAppointmentMoving `String`
 
@@ -516,8 +516,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentMoving client-side event
                 handler is called when an appointment is being moved.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
-            			get_appointment(), the instance of the appointment.get_targetSlot(), the slot that the appointment currently occupies.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
+                           get_appointment(), the instance of the appointment.get_targetSlot(), the slot that the appointment currently occupies.set_cancel(), set to true to cancel the move operation.This event can be cancelled.
 
 ###  OnClientAppointmentResizeEnd `String`
 
@@ -540,8 +540,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 If specified, the OnClientAppointmentSerialized client-side event
                 handler is called when an appointment has been serialized to a data object and
                 is about to be sent to the Web Service.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised before
-            	the appointment is sent to the data service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the instance of the appointment;get_data(), the constructed data object that will be sent to the web service.This event cannot be cancelled.
+                   the appointment is sent to the data service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the instance of the appointment;get_data(), the constructed data object that will be sent to the web service.This event cannot be cancelled.
 
 ###  OnClientAppointmentsPopulated `AppointmentCollection`
 
@@ -551,8 +551,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentsPopulated client-side event
                 handler is called when the scheduler has received appointments.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised after
-            	the appointments are retrieved from the data service.
-            	The event will be raised again each time new data has been retrieved from the web service.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
+                   the appointments are retrieved from the data service.
+                   The event will be raised again each time new data has been retrieved from the web service.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
 
 ###  OnClientAppointmentsPopulating `AppointmentCollection`
 
@@ -562,9 +562,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentsPopulating client-side event
                 handler is called when the scheduler is about to request appointments.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised before
-            	the appointments are retrieved from the data service.
-            	The event will be raised again each time new data is about to be retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.set_cancel(), used to cancel the event.This event can be cancelled.
+                   the appointments are retrieved from the data service.
+                   The event will be raised again each time new data is about to be retrieved from the web service.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientAppointmentWebServiceDeleting `String`
 
@@ -574,7 +574,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentWebServiceDeleting client-side event
                 handler is called when an appointment is about to be deleted via Web Service call.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the appointment that is about to be deleted.get_editingRecurringSeries(), indicates whether the recurring series are being deleted.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
+                           get_appointment(), the appointment that is about to be deleted.get_editingRecurringSeries(), indicates whether the recurring series are being deleted.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
 
 ###  OnClientAppointmentWebServiceInserting `String`
 
@@ -584,7 +584,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentWebServiceInserting client-side event
                 handler is called when an appointment is about to be stored via Web Service call.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the appointment that is about to be inserted.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
+                           get_appointment(), the appointment that is about to be inserted.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
 
 ###  OnClientAppointmentWebServiceUpdating `String`
 
@@ -594,7 +594,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentWebServiceUpdating client-side event
                 handler is called when an appointment is about to be updated via Web Service call.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the appointment that is about to be updated.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
+                           get_appointment(), the appointment that is about to be updated.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
 
 ###  OnClientDataBound `String`
 
@@ -604,9 +604,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientDataBound client-side event
                 handler is called when the scheduler has been populated with data.In the case of server-side binding, the event will be raised
-            	immediately after the control is initialized.When client-side binding is used, the event will be raised when
-            	both the appointments and the resources	are retrieved from the data service.
-            	The event will be raised again each time new data is retrieved from the web service.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
+                   immediately after the control is initialized.When client-side binding is used, the event will be raised when
+                   both the appointments and the resources    are retrieved from the data service.
+                   The event will be raised again each time new data is retrieved from the web service.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
 
 ###  OnClientFormCreated `String`
 
@@ -616,10 +616,10 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientFormCreated client-side event
                 handler is called when an edit/insert form has been created.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the instance of the appointment.get_formElement(), the DOM element of the form.get_mode(), enumerable of type Telerik.Web.UI.SchedulerFormMode.
-            				See SchedulerFormMode for the list of possible values.get_editingRecurringSeries(), a boolean indicating if the user
-            				has chosen to edit the recurring series (true) or a single occurrence (false).This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the instance of the appointment.get_formElement(), the DOM element of the form.get_mode(), enumerable of type Telerik.Web.UI.SchedulerFormMode.
+                               See SchedulerFormMode for the list of possible values.get_editingRecurringSeries(), a boolean indicating if the user
+                               has chosen to edit the recurring series (true) or a single occurrence (false).This event cannot be cancelled.
 
 ###  OnClientNavigationCommand `String`
 
@@ -629,7 +629,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientNavigationCommand client-side event
                 handler is called when the scheduler is about to execute a navigation command.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_command(), the navigation command that is being processed.set_cancel(), used to cancel the event.This event can be cancelled.
+                           get_command(), the navigation command that is being processed.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientNavigationComplete `String`
 
@@ -639,7 +639,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnNavigationComplete client-side event
                 handler is called when a navigation command has been completed.The event will be raised only when client-side binding is used.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with one properties:
-            			get_command(), the navigation command that is being processed.This event cannot be cancelled.
+                           get_command(), the navigation command that is being processed.This event cannot be cancelled.
 
 ###  OnClientRecurrenceActionDialogClosed `String`
 
@@ -649,8 +649,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRecurrenceActionDialogClosed client-side event
                 handler is called when the recurrence action confirmation dialog has been closed.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.get_editSeries(), the selected option from the dialog.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.get_editSeries(), the selected option from the dialog.This event cannot be cancelled.
 
 ###  OnClientRecurrenceActionDialogShowing `String`
 
@@ -660,8 +660,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRecurrenceActionDialogShowing client-side event
                 handler is called when the recurrence action confirmation dialog is about to be shown.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.set_cancel(), set to true to suppress the confirmation dialog.set_editSeries(), set to true or false to override the result from the dialog (only if it has been cancelled by calling eventArgs.set_cancel(true)).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.set_cancel(), set to true to suppress the confirmation dialog.set_editSeries(), set to true or false to override the result from the dialog (only if it has been cancelled by calling eventArgs.set_cancel(true)).This event can be cancelled.
 
 ###  OnClientRecurrenceExceptionCreating `String`
 
@@ -671,7 +671,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRecurrenceExceptionCreating client-side event
                 handler is called when a recurrence exception is about to be created via Web Service call.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the appointment that represents the recurrence exception that is about to be stored.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
+                           get_appointment(), the appointment that represents the recurrence exception that is about to be stored.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
 
 ###  OnClientRecurrenceExceptionsRemoving `String`
 
@@ -681,9 +681,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRecurrenceExceptionsRemoving client-side event
                 handler is called when recurrence exceptions are about to be removed via Web Service call.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised when the user
-            	chooses to remove the recurrence exceptions of a given series through the advanced form.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_appointment(), the master appointment that represents the recurrence series.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
+                   chooses to remove the recurrence exceptions of a given series through the advanced form.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_appointment(), the master appointment that represents the recurrence series.set_cancel(), set to true cancel the operation.get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.This event can be cancelled.
 
 ###  OnClientReminderDismissing `String`
 
@@ -692,9 +692,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientReminderDismissing
-            	client-side event handler is called when an appointment reminder has been dismissed by the user,
-            	before the command is sent to the server.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.get_reminder(), the reminder.set_cancel(), used to cancel the event.This event can be cancelled.
+                client-side event handler is called when an appointment reminder has been dismissed by the user,
+                before the command is sent to the server.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.get_reminder(), the reminder.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientReminderSnoozing `String`
 
@@ -703,9 +703,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientReminderSnoozing
-            	client-side event handler is called when an appointment reminder has been snoozed by the user,
-            	before the command is sent to the server.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.get_reminder(), the snoozed reminder.set_cancel(), used to cancel the event.This event can be cancelled.
+                client-side event handler is called when an appointment reminder has been snoozed by the user,
+                before the command is sent to the server.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.get_reminder(), the snoozed reminder.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientReminderTriggering `String`
 
@@ -714,9 +714,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientReminderTriggering
-            	client-side event handler is called when an appointment reminder is about to be triggered,
-            	before the pop-up dialog is shown.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_appointment(), the instance of the appointment.get_reminder(), the reminder.set_cancel(), used to cancel the event.This event can be cancelled. Doing so effectively ignores the reminder.
+                client-side event handler is called when an appointment reminder is about to be triggered,
+                before the pop-up dialog is shown.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_appointment(), the instance of the appointment.get_reminder(), the reminder.set_cancel(), used to cancel the event.This event can be cancelled. Doing so effectively ignores the reminder.
 
 ###  OnClientRequestFailed `String`
 
@@ -726,7 +726,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRequestFailed client-side event
                 handler is called when a request to the Web Service has failed.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_errorMessage(), the error message sent from the server.set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                           get_errorMessage(), the error message sent from the server.set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientRequestSuccess `String`
 
@@ -736,7 +736,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientRequestSuccess client-side event
                 handler is called when a request to the Web Service has succeeded.In the case of server-side binding, the event will not be raised.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with one property:
-            			get_result(), the object received from the server as.This event can be cancelled.
+                           get_result(), the object received from the server as.This event can be cancelled.
 
 ###  OnClientResourcesPopulated `ResourceCollection`
 
@@ -746,8 +746,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientResourcesPopulated client-side event
                 handler is called when the scheduler has received resources.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised after
-            	the resources have been retrieved from the data service.
-            	The event will be raised only once, at the time of the initial load.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
+                   the resources have been retrieved from the data service.
+                   The event will be raised only once, at the time of the initial load.One parameter is passed to the handler:sender, the scheduler client object;This event cannot be cancelled.
 
 ###  OnClientResourcesPopulating `ResourceCollection`
 
@@ -757,9 +757,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientResourcesPopulating client-side event
                 handler is called when the scheduler is about to request resources.In the case of server-side binding, the event will not be raised.When client-side binding is used, the event will be raised before
-            	the resources are retrieved from the data service.
-            	The event will be raised only once, at the time of the initial load.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.set_cancel(), used to cancel the event.This event can be cancelled.
+                   the resources are retrieved from the data service.
+                   The event will be raised only once, at the time of the initial load.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_schedulerInfo(), the schedulerInfo object that will be passed to the web service method.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientTimeSlotClick `String`
 
@@ -773,8 +773,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientAppointmentContextMenu client-side event
                 handler is called when an empty time slot has been right-clicked.
-            	Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
-            			get_targetSlot(), the target slot.get_time(), the time that corresponds to the slot.get_isAllDay(), a boolean indicating if this is an all-day slot (the time should be discarded in this case).get_domEvent(), the original DOM event.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with four properties:
+                           get_targetSlot(), the target slot.get_time(), the time that corresponds to the slot.get_isAllDay(), a boolean indicating if this is an all-day slot (the time should be discarded in this case).get_domEvent(), the original DOM event.This event cannot be cancelled.
 
 ###  OnClientTimeSlotContextMenuItemClicked `String`
 
@@ -783,9 +783,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientTimeSlotContextMenuItemClicking
-            	client-side event handler is called when a time slot context menu item is clicked,
-            	after RadScheduler has processed the event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
-            			get_slot(), the instance of the time slot.get_item(), the clicked menu item.This event cannot be cancelled.
+                client-side event handler is called when a time slot context menu item is clicked,
+                after RadScheduler has processed the event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with two properties:
+                           get_slot(), the instance of the time slot.get_item(), the clicked menu item.This event cannot be cancelled.
 
 ###  OnClientTimeSlotContextMenuItemClicking `String`
 
@@ -794,9 +794,9 @@ Gets or sets a value indicating the client-side event handler that is called whe
 
 #### Remarks
 If specified, the OnClientTimeSlotContextMenuItemClicking
-            	client-side event handler is called when a time slot context menu item is clicked,
-            	before RadScheduler processes the click event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
-            			get_slot(), the instance of the time slot.get_item(), the clicked menu item.set_cancel(), used to cancel the event.This event can be cancelled. Cancelling it will prevent any further processing of the command.
+                client-side event handler is called when a time slot context menu item is clicked,
+                before RadScheduler processes the click event.Two parameters are passed to the handler:sender, the scheduler client object;eventArgs with three properties:
+                           get_slot(), the instance of the time slot.get_item(), the clicked menu item.set_cancel(), used to cancel the event.This event can be cancelled. Cancelling it will prevent any further processing of the command.
 
 ###  OverflowBehavior `OverflowBehavior`
 
@@ -805,9 +805,9 @@ Gets or sets a value specifying the way RadScheduler should behave when its cont
 
 #### Remarks
 By default RadScheduler will render a scrollbar should its content exceed the specified dimensions
-            	(set via the Width and Height properties). If
-            	OverflowBehavior.Expand is set RadScheduler
-            	will expand vertically. The Height property must not be set in that case.
+                   (set via the Width and Height properties). If
+                   OverflowBehavior.Expand is set RadScheduler
+                   will expand vertically. The Height property must not be set in that case.
 
 ###  Provider `SchedulerProviderBase`
 
@@ -818,8 +818,8 @@ Gets or sets the provider instance to be used by RadScheduler. Use this property
 ###  ProviderContext `SchedulerProviderBase`
 
 Gets the current provider context. The context object contains
-            	additional information about the currently performed operation,
-            	that can be used to improve and optimize provider implementations.
+                   additional information about the currently performed operation,
+                   that can be used to improve and optimize provider implementations.
 
 ###  ProviderName `SchedulerProviderBase`
 
@@ -836,7 +836,7 @@ By default the user is able to insert, edit and delete appointments. Use the Rea
 ###  RecurrenceSupport `Boolean`
 
 Gets a boolean value that indicates if recurrence support has been configured for this
-            instance of RadScheduler.
+             instance of RadScheduler.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -852,7 +852,7 @@ Gets the reminders.
 ###  RemindersSupport `Boolean`
 
 Gets a boolean value that indicates if reminders support has been configured for this
-            instance of RadScheduler.
+             instance of RadScheduler.
 
 ###  RenderMode `RenderMode`
 
@@ -905,12 +905,12 @@ Gets the real skin name for the control user interface. If Skin is not set, retu
 
 ###  SelectedDate `DateTime`
 
-The meaning of this property is different depending on the current 
+The meaning of this property is different depending on the current
                 view type.
                 In day view mode SelectedDate
                 gets or sets the currently displayed date.
                 In week and
-                month view modes SelectedDate 
+                month view modes SelectedDate
                 gets or sets the highlighted date in the current week or month.
 
 ###  SelectedView `SchedulerViewType`
@@ -959,7 +959,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  StartEditingInAdvancedForm `Boolean`
 
@@ -980,7 +980,7 @@ Gets the timeline view.
 ###  TimeSlotContextMenus `RadSchedulerContextMenuCollection`
 
 Gets a collection of RadSchedulerContextMenu objects
-            	that represent the time slot context menus of the RadScheduler control.
+                   that represent the time slot context menus of the RadScheduler control.
 
 ###  TimeSlotContextMenuSettings `ContextMenuSettings`
 
@@ -1048,7 +1048,7 @@ Gets or sets the time zone offset to use when determining todays date.
 
 #### Remarks
 The default value is the system's time zone offset.
-            	This value is ignored when TimeZoneOffset is set.
+                   This value is ignored when TimeZoneOffset is set.
 
 ###  WebServiceSettings `SchedulerWebServiceSettings`
 
@@ -1102,10 +1102,10 @@ Creates a new appointment instance.
 #### Remarks
 Normally this is an instance of the Appointment class.
             
-            	This method can be overriden by inheritors to create instances of custom classes.
+                   This method can be overriden by inheritors to create instances of custom classes.
             
-            	An alternative method for working with custom appointments is to use the
-            	AppointmentFactory property.
+                   An alternative method for working with custom appointments is to use the
+                   AppointmentFactory property.
 
 #### Returns
 
@@ -1165,7 +1165,7 @@ Converts a date time object from client date format to UTC using the TimeZoneOff
 
 #### Remarks
 RadScheduler always stores dates in UTC format to allow support for multiple time zones. The DisplayToUtc method must be used when
-            	a date is supplied to RadScheduler to be persisted in some way. For example updating the Appointment.Start property from a textbox.
+                   a date is supplied to RadScheduler to be persisted in some way. For example updating the Appointment.Start property from a textbox.
 
 #### Parameters
 
@@ -1384,8 +1384,8 @@ Prepares the specified appointment for editing.
 
 #### Remarks
 If the specified appointment is not recurring, the method does nothing and returns the same appointment.
-            If the appointment is recurring and editSeries is set to true the method returns the recurrence parent.
-            Otherwise, the method clones the appointment and updates it state to recurrence exception.
+             If the appointment is recurring and editSeries is set to true the method returns the recurrence parent.
+             Otherwise, the method clones the appointment and updates it state to recurrence exception.
 
 #### Parameters
 
@@ -1596,7 +1596,7 @@ Updates the specified appointment and persists the changes through the provider.
 
 #### Remarks
 This method can be used, along with PrepareToEdit
-            to create and persist a recurrence exceptions.
+             to create and persist a recurrence exceptions.
 
 #### Parameters
 
@@ -1612,12 +1612,12 @@ The appointment to update.
 
 Updates the specified appointment and persists the changes through the provider.
             
-            Use this overload when the underlying data source requires both original and modified
-            data to perform an update operation. One such example is LinqDataSource.
+             Use this overload when the underlying data source requires both original and modified
+             data to perform an update operation. One such example is LinqDataSource.
 
 #### Remarks
 This method can be used, along with PrepareToEdit
-            to create and persist a recurrence exceptions.
+             to create and persist a recurrence exceptions.
 
 #### Parameters
 
@@ -1628,7 +1628,7 @@ The appointment to update.
 #### originalAppointment `Telerik.Web.UI.Appointment`
 
 The original appointment. Use Appointment.Clone
-            	to obtain a copy of the appointment before updating its properties.
+                    to obtain a copy of the appointment before updating its properties.
 
 #### Returns
 
@@ -1653,10 +1653,10 @@ Client's date and time in UTC.
 Converts a date time object from UTC to client date format using the TimeZoneOffset property.
 
 #### Remarks
-RadScheduler always stores dates in UTC format to allow support for multiple time zones. 
-            	The UtcToDisplay method must be used when
-            	a date (e.g. Appointment.Start) 
-            	should be presented to the client in some way - e.g. displayed in a label.
+RadScheduler always stores dates in UTC format to allow support for multiple time zones.
+                   The UtcToDisplay method must be used when
+                   a date (e.g. Appointment.Start)
+                   should be presented to the client in some way - e.g. displayed in a label.
 
 #### Parameters
 

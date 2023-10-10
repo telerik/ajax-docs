@@ -18,6 +18,6 @@ The event arguments passed when Telerik.Web.UI.RadListView fires NeedDataSource 
 
 ###  RebindReason `RadListViewRebindReason`
 
-Gets or sets the rebind reason enumeration determining 
+Gets or sets the rebind reason enumeration determining
             the reason for the  call to Rebind.
 

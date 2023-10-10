@@ -10,20 +10,20 @@ description: Telerik.Web.UI.RadMenu
 The RadMenucontrol is used to display a list of menu items in a Web Forms
                     page. The RadMenucontrol supports the following features:
                 bullet Databinding that allows the control to be populated from various
-            			datasources.
-            		Programmatic access to the RadMenuobject model
-            			which allows dynamic creation of menus, populating with items and customizing the behavior 
-            			by various properties.
-            		Customizable appearance through built-in or user-defined skins.
-            		ItemsThe RadMenucontrol is made up of tree of items represented
+                           datasources.
+                       Programmatic access to the RadMenuobject model
+                           which allows dynamic creation of menus, populating with items and customizing the behavior
+                           by various properties.
+                       Customizable appearance through built-in or user-defined skins.
+                       ItemsThe RadMenucontrol is made up of tree of items represented
                     by Telerik.Web.UI.RadMenuItem objects. Items at the top level (level 0) are
                     called root items. An item that has a parent item is called a child item. All root
                     items are stored in the P:Telerik.Web.UI.RadMenu.Items property of the RadMenu control. Child items are
                     stored in the P:Telerik.Web.UI.RadMenuItem.Items Itemsproperty of their parent Telerik.Web.UI.RadMenuItem .
-                Each menu item has a P:Telerik.Web.UI.RadMenuItem.Text Textand a P:Telerik.Web.UI.RadMenuItem.Value Valueproperty. 
-            		The value of the P:Telerik.Web.UI.RadMenuItem.Text Textproperty is displayed in the RadMenucontrol, 
-            		while the P:Telerik.Web.UI.RadMenuItem.Value Valueproperty is used to store any additional data about the item, 
-            		such as data passed to the postback event associated with the item. When clicked, an item can
+                Each menu item has a P:Telerik.Web.UI.RadMenuItem.Text Textand a P:Telerik.Web.UI.RadMenuItem.Value Valueproperty.
+                       The value of the P:Telerik.Web.UI.RadMenuItem.Text Textproperty is displayed in the RadMenucontrol,
+                       while the P:Telerik.Web.UI.RadMenuItem.Value Valueproperty is used to store any additional data about the item,
+                       such as data passed to the postback event associated with the item. When clicked, an item can
                     navigate to another Web page indicated by the P:Telerik.Web.UI.RadMenuItem.NavigateUrl NavigateUrlproperty.
                 You can find information on the Server-side API of RadMenu at https://docs.telerik.com/devtools/aspnet-ajax/controls/menu/server-side-programming/events .
 
@@ -62,10 +62,10 @@ The minimum available width that is needed to enable the auto-scroll.
 
 #### Remarks
 Enabling the auto-scroll when there is very little available space can
-            		lead to a situation where only the scroll arrows are visible.
-            	
-            		If the available space is lower than the specified value, the menu will
-            		attempt to screen boundary detection first (if enabled).
+                       lead to a situation where only the scroll arrows are visible.
+                   
+                       If the available space is lower than the specified value, the menu will
+                       attempt to screen boundary detection first (if enabled).
 
 ###  CausesValidation `Boolean`
 
@@ -101,9 +101,9 @@ Gets a list of all client-side changes (adding an item, removing an item, changi
 
 #### Remarks
 You can use the ClientChanges property to respond to client-side modifications such as
-            		adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
-            		The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
-            		have taken place. After this moment the property will return empty list.
+                    adding a new itemremoving existing itemclearing the children of an item or the control itselfchanging a property of the item
+                    The ClientChanges property is available in the first postback (ajax) request after the client-side modifications
+                    have taken place. After this moment the property will return empty list.
 
 ###  ClientDataSourceID `String`
 
@@ -147,13 +147,13 @@ Use the CollapseDelay property to delay item closing. To
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DataBindings `RadMenuItemBindingCollection`
 
-Gets a collection of  objects that define the relationship 
-            	between a data item and the menu item it is binding to.
+Gets a collection of  objects that define the relationship
+                   between a data item and the menu item it is binding to.
 
 ###  DefaultGroupSettings `RadMenuItemGroupSettings`
 
@@ -222,7 +222,7 @@ Returns true if ripple effect should be added
 ###  EnableRootItemScroll `Boolean`
 
 Gets or sets a value indicating if scroll is enabled for the root items.
-            	Width must be set for horizontal root group, Height for vertical one.
+                   Width must be set for horizontal root group, Height for vertical one.
 
 ###  EnableRoundedCorners `Boolean`
 
@@ -233,8 +233,8 @@ Gets or sets a value indicating whether child items should have rounded corners.
 Gets or sets a value indicating whether the screen boundary detection will be applied when menu items are expanded.
 
 #### Remarks
-By default RadMenu will check if there is enough space to open a menu item. If there isn't the expand direction of the 
-            	item will be inverted - Left to Right, Bottom to Top and vice versa.
+By default RadMenu will check if there is enough space to open a menu item. If there isn't the expand direction of the
+                   item will be inverted - Left to Right, Bottom to Top and vice versa.
 
 ###  EnableSelection `Boolean`
 
@@ -295,7 +295,7 @@ Gets a  object that contains the root items of the current RadMenu control.
 
 #### Remarks
 Use the Items property to access the root items of the RadMenu control. You can also use the Items property to
-            	manage the root items - you can add, remove or modify items.
+                   manage the root items - you can add, remove or modify items.
 
 ###  ItemTemplate `ITemplate`
 
@@ -315,9 +315,9 @@ Gets or sets the template displayed when child items are being loaded.
 Gets or sets the maximum number of levels to bind to the RadMenu control.
 
 #### Remarks
-When binding the RadMenu control to a data source, use the MaxDataBindDepth 
-            	property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only 
-            	the root menu items and their immediate children. All remaining records in the data source are ignored.
+When binding the RadMenu control to a data source, use the MaxDataBindDepth
+                   property to limit the number of levels to bind to the control. For example, setting this property to 2 binds only
+                   the root menu items and their immediate children. All remaining records in the data source are ignored.
 
 ###  ODataDataSourceID `String`
 
@@ -357,7 +357,7 @@ This event is similar to OnClientItemFocus but fires only on
                 handler is called before a menu item is clicked upon. Two parameters are passed to
                 the handler:sender, the menu client object;eventArgs with three properties, get_item() (the
                     instance of the menu item), get_cancel()/set_cancel() - indicating
-            		if the event should be cancelled and get_domEvent (a reference to the browser event).The OnClientItemClicking event can be cancelled. To do so,
+                       if the event should be cancelled and get_domEvent (a reference to the browser event).The OnClientItemClicking event can be cancelled. To do so,
                 return False from the event handler.
 
 ###  OnClientItemClosed `String`
@@ -381,7 +381,7 @@ If specified, the OnClientItemClosing client-side event
                 handler is called when a group of child items closes. Two parameters are passed to
                 the handler:sender, the menu client object;eventArgs with three properties, get_item() (the
                     instance of the menu item), get_cancel()/set_cancel() - indicating
-            		if the event should be cancelled and get_domEvent (a reference to the browser event).This event can be cancelled.
+                       if the event should be cancelled and get_domEvent (a reference to the browser event).This event can be cancelled.
 
 ###  OnClientItemFocus `String`
 
@@ -412,8 +412,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemPopulated client-side event
                 handler is called when a menu item children were just populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
-            			get_item(), the instance of the menu item.This event cannot be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with one property:
+                           get_item(), the instance of the menu item.This event cannot be cancelled.
 
 ###  OnClientItemPopulating `String`
 
@@ -423,8 +423,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemPopulating client-side event
                 handler is called when a menu item children are about to be populated.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
-            			get_item(), the instance of the menu item.get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with three properties:
+                           get_item(), the instance of the menu item.get_context(), an user object that will be passed to the web service.set_cancel(), used to cancel the event.This event can be cancelled.
 
 ###  OnClientItemPopulationFailed `String`
 
@@ -434,8 +434,8 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientItemPopulationFailed client-side event
                 handler is called when the operation to populate the children of a menu item has failed.
-            	Two parameters are passed to the handler:sender, the menu client object;eventArgs with two properties:
-            			get_item(), the instance of the menu item.set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
+                   Two parameters are passed to the handler:sender, the menu client object;eventArgs with two properties:
+                           get_item(), the instance of the menu item.set_cancel(), set to true to suppress the default action (alert message).This event can be cancelled.
 
 ###  OnClientLoad `String`
 
@@ -526,7 +526,7 @@ Gets a RadMenuItem object that represents the selected item in the RadMenu
 
 #### Remarks
 The user can select a item by clicking on it.
-            	Use the SelectedItem property to determine which node is
+                   Use the SelectedItem property to determine which node is
                 selected in the RadMenu control.
                 An item cannot be selected when it's configured to navigate to a given location.
 
@@ -547,7 +547,7 @@ Gets or sets the skin name for the control user interface.
 
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  ValidationGroup `String`
 
@@ -561,35 +561,35 @@ This property works only when CausesValidation
 ###  WebServiceSettings `NavigationControlWebServiceSettings`
 
 Gets the settings for the web service used to populate items
-            	ExpandMode set to
-            	MenuItemExpandMode.WebService.
+                    ExpandMode set to
+                    MenuItemExpandMode.WebService.
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-            		service used to populate items on demand.
-            		You must specify both Path and
-                    Method
-            		to fully describe the service.
-                
-            		You can use the LoadingStatusTemplate
-            		property to create a loading template.
-            	
-            		In order to use the integrated support, the web service should have the following signature:
-            		
-            		
-            		[ScriptService]
-            		public class WebServiceName : WebService
-            		{
-            			[WebMethod]
-            			public RadMenuItemData[] WebServiceMethodName(RadMenuItemData item, object context)
-            			{
-            				// We cannot use a dictionary as a parameter, because it is only supported by script services.
-            				// The context object should be cast to a dictionary at runtime.
-            				IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-            				
-            				//...
-            			}
-            		}
+                        service used to populate items on demand.
+                        You must specify both Path and
+                     Method
+                        to fully describe the service.
+                 
+                        You can use the LoadingStatusTemplate
+                        property to create a loading template.
+                    
+                        In order to use the integrated support, the web service should have the following signature:
+            
+                        
+                        [ScriptService]
+                        public class WebServiceName : WebService
+                        {
+                            [WebMethod]
+                            public RadMenuItemData[] WebServiceMethodName(RadMenuItemData item, object context)
+                            {
+                                // We cannot use a dictionary as a parameter, because it is only supported by script services.
+                                // The context object should be cast to a dictionary at runtime.
+                                IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+            
+                                //...
+                            }
+                        }
 
 ## Methods
 
@@ -654,7 +654,7 @@ Should be  used by inheritors
 
 ###  FindItem
 
-Returns  the first RadMenuItem 
+Returns  the first RadMenuItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -811,11 +811,11 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
-            	string.
+                   string.
 
 #### Remarks
 Use the GetXml method to get the XML state of the control. You can cache it and then restore it using
-            	the LoadXml method.
+                   the LoadXml method.
 
 #### Returns
 
@@ -870,7 +870,7 @@ Loads the control from an XML string.
 
 #### Remarks
 Use the LoadXml method to populate the control from an XML string. You can use it along the GetXml
-            	method to implement caching.
+                   method to implement caching.
 
 #### Parameters
 

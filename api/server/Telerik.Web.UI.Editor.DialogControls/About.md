@@ -26,7 +26,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  DialogName `String`
@@ -71,7 +71,7 @@ Gets or sets a value indicating where the editor will look for its dialogs.
 
 #### Remarks
 If specified, the ExternalDialogsPath
-            		property will allow you to customize and load the editor dialogs from normal ASCX files.
+                    property will allow you to customize and load the editor dialogs from normal ASCX files.
 
 ###  IsSkinSet `String`
 

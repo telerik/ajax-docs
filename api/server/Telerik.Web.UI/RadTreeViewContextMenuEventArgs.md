@@ -10,11 +10,11 @@ Provides data for the E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextM
 
 #### Remarks
 The E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextMenuItemClickevent is raised
-            		when an item in the Telerik.Web.UI.RadTreeViewContextMenu RadTreeViewContextMenuof the
-            		Telerik.Web.UI.RadTreeView RadTreeViewcontrol is clicked.
-            		A click on a Telerik.Web.UI.RadTreeViewContextMenu RadTreeViewContextMenuitem of the
-            		Telerik.Web.UI.RadTreeView RadTreeViewmakes a postback only if an event handler is attached
-            		to the E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextMenuItemClickevent.
+                    when an item in the Telerik.Web.UI.RadTreeViewContextMenu RadTreeViewContextMenuof the
+                    Telerik.Web.UI.RadTreeView RadTreeViewcontrol is clicked.
+                    A click on a Telerik.Web.UI.RadTreeViewContextMenu RadTreeViewContextMenuitem of the
+                    Telerik.Web.UI.RadTreeView RadTreeViewmakes a postback only if an event handler is attached
+                    to the E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextMenuItemClickevent.
 
 ## Inheritance Hierarchy
 
@@ -28,7 +28,7 @@ The E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextMenuItemClickevent 
 
 Gets the referenced RadMenuItem in the
                 RadTreeViewContextMenu control
-            	when the event is raised.
+                   when the event is raised.
 
 #### Remarks
 Use this property to programmatically access the item referenced in the

@@ -22,7 +22,7 @@ Gets or sets the URL to an image which is displayed next to all the nodes of a g
 
 #### Remarks
 Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current node.
+                   displayed before the text of the current node.
 
 ###  Layout `SiteMapLayout`
 
@@ -50,7 +50,7 @@ Gets or sets the separator template for nodes on the specified level.
 
 ###  SeparatorText `String`
 
-Gets or sets the separator text that is going to be used to separate 
+Gets or sets the separator text that is going to be used to separate
             nodes in Flow layout mode.
 
 ###  Width `Unit`

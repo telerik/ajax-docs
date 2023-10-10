@@ -39,15 +39,15 @@ The RadSchedulerContextMenu to add to the collection
 
 ###  AddRange
 
-Appends the specified array of  objects to the end of the 
+Appends the specified array of  objects to the end of the
             current .
 
 #### Parameters
 
 #### contextMenus `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadSchedulerContextMenu}`
 
-The array of  to append to the end of the current 
-            	.
+The array of  to append to the end of the current
+                   .
 
 #### Returns
 
@@ -56,7 +56,7 @@ The array of  to append to the end of the current
 ###  Contains
 
 Determines whether the specified RadSchedulerContextMenu is in the parent
-            	RadScheduler's RadSchedulerContextMenuCollection object.
+                   RadScheduler's RadSchedulerContextMenuCollection object.
 
 #### Parameters
 
@@ -67,13 +67,13 @@ The RadSchedulerContextMenu to search for in the collection
 #### Returns
 
 `System.Boolean` true if the specified RadSchedulerContextMenu exists in
-            	the collection; otherwise, false.
+                   the collection; otherwise, false.
 
 ###  CopyTo
 
 Copies the RadSchedulerContextMenu instances stored in the
-            	RadSchedulerContextMenuCollection
-            	object to an System.Array object, beginning at the specified index location in the System.Array.
+                   RadSchedulerContextMenuCollection
+                   object to an System.Array object, beginning at the specified index location in the System.Array.
 
 #### Parameters
 
@@ -98,18 +98,18 @@ Retrieves the index of a specified RadSchedulerContextMenu object in the collect
 #### target `Telerik.Web.UI.RadSchedulerContextMenu`
 
 The RadSchedulerContextMenu
-            	for which the index is returned.
+                   for which the index is returned.
 
 #### Returns
 
 `System.Int32` The index of the specified RadSchedulerContextMenu
-            	instance. If the RadSchedulerContextMenu is not
-            	currently a member of the collection, it returns -1.
+                   instance. If the RadSchedulerContextMenu is not
+                   currently a member of the collection, it returns -1.
 
 ###  Insert
 
 Inserts the specified RadSchedulerContextMenu object
-            	to the collection at the specified index location.
+                   to the collection at the specified index location.
 
 #### Parameters
 
@@ -128,8 +128,8 @@ The RadSchedulerContextMenu to add to the collection
 ###  Remove
 
 Removes the specified RadSchedulerContextMenu
-            	from the parent RadScheduler's RadSchedulerContextMenuCollection
-            	object.
+                   from the parent RadScheduler's RadSchedulerContextMenuCollection
+                   object.
 
 #### Remarks
 To remove a control from an index location, use the RemoveAt method.
@@ -147,15 +147,15 @@ The RadSchedulerContextMenu to be removed
 ###  RemoveAt
 
 Removes a child RadSchedulerContextMenu, at the
-            	specified index location, from the RadSchedulerContextMenuCollection
-            	object.
+                   specified index location, from the RadSchedulerContextMenuCollection
+                   object.
 
 #### Parameters
 
 #### index `System.Int32`
 
 The ordinal index of the RadSchedulerContextMenu
-            	to be removed from the collection.
+                   to be removed from the collection.
 
 #### Returns
 

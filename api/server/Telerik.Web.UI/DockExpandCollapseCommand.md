@@ -39,12 +39,12 @@ Specifies the text, which will be displayed as tooltip when the user
 
 ###  AutoPostBack `Boolean`
 
-Gets or sets a value indicating whether a postback to the server 
+Gets or sets a value indicating whether a postback to the server
             automatically occurs when the user drags the RadDock control.
 
 ###  ClientTypeName `String`
 
-Specifies the name of the type of the client object, which 
+Specifies the name of the type of the client object, which
             will be instantiated when the command is initialized for the first time.
 
 ###  CssClass `String`
@@ -59,12 +59,12 @@ Gets or sets the Cascading Style Sheet (CSS) class rendered by the Command item
 
 ###  Name `String`
 
-Specifies the name of the command. The value of this property is used 
+Specifies the name of the command. The value of this property is used
             to determine on the server which command was clicked on the client.
 
 ###  Name `String`
 
-Specifies the name of the command. The value of this property is used 
+Specifies the name of the command. The value of this property is used
             to determine on the server which command was clicked on the client.
 
 ###  OnClientCommand `String`

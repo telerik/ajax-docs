@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterGridBindableTypeExpressionEvaluator
 
 # Telerik.Web.UI.RadFilterGridBindableTypeExpressionEvaluator
 
-Represents an expression evaluator used for building filter expressions for 
+Represents an expression evaluator used for building filter expressions for
             Telerik.Web.UI.RadGrid .
 
 ## Inheritance Hierarchy

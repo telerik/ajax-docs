@@ -43,7 +43,7 @@ The RadFilterGroupExpression the current item will be part of
 
 #### inContext `Telerik.Web.UI.RadFilterGroupExpressionItem`
 
-The RadFilterGroupExpressionItem to which the current item will be 
+The RadFilterGroupExpressionItem to which the current item will be
             added.
 
 #### Returns

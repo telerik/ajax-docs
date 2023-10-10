@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadAjaxLoadingPanel
 
 # Telerik.Web.UI.RadAjaxLoadingPanel
 
-Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadAjax suite. 
+Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadAjax suite.
             The other one is Telerik.Web.UI.RadAjaxManager . The Telerik.Web.UI.RadAjaxPanel control provides the easiest
             way to AJAX-enable ASP.NET web control(s). To do this you simply need to place
             the controls that you want ajaxified into Telerik.Web.UI.RadAjaxPanel and Telerik RadAjax takes

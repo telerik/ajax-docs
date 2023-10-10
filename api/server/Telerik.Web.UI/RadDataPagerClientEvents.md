@@ -18,12 +18,12 @@ Class which holds properties for setting the Telerik.Web.UI.RadDataPager client-
 
 ###  OnDataPagerCreated `String`
 
-This client-side event is fired after the 
+This client-side event is fired after the
              is created.
 
 ###  OnDataPagerCreating `String`
 
-This client-side event is fired before the 
+This client-side event is fired before the
              is created.
 
 ###  OnDataPagerDestroying `String`
@@ -33,11 +33,11 @@ This client-side event is fired when  object is
 
 ###  OnPageIndexChanging `String`
 
-This client-side event is fired when current page index is set on 
+This client-side event is fired when current page index is set on
              object.
 
 ###  OnPageSizeChanging `String`
 
-This client-side event is fired when current page size is set on 
+This client-side event is fired when current page size is set on
              object.
 

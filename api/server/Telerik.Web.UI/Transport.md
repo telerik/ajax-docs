@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Transport
 
 # Telerik.Web.UI.Transport
 
-This Class gets or sets the settings for the Read data service i.e. the one responsible 
+This Class gets or sets the settings for the Read data service i.e. the one responsible
             for obtaining the data from the server.
 
 ## Inheritance Hierarchy
@@ -18,6 +18,6 @@ This Class gets or sets the settings for the Read data service i.e. the one resp
 
 ###  Read `Read`
 
-Gets or sets the settings for the Read data service i.e. the one responsible 
+Gets or sets the settings for the Read data service i.e. the one responsible
             for obtaining the data from the server.
 

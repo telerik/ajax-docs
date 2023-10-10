@@ -6,7 +6,7 @@ description: Telerik.Web.UI.GridNoRecordsItem
 
 # Telerik.Web.UI.GridNoRecordsItem
 
-GridNoRecordsItem is used to display no records template, in the corresponding table view has 
+GridNoRecordsItem is used to display no records template, in the corresponding table view has
             P:Telerik.Web.UI.GridTableView.ShowHeadersWhenNoRecords is set to true (the default).
 
 ## Inheritance Hierarchy
@@ -99,11 +99,11 @@ Gets the respective GridItemType of the grid item.
 ###  OwnerGridID `String`
 
 Gets the ClientID of the RadGrid instance that
-            owns the item.
+             owns the item.
 
 #### Remarks
 This would be useful if several controls use the same eventhandler and you need
-            to diferentiate the Grid instances in the handler.
+             to diferentiate the Grid instances in the handler.
 
 ###  OwnerID `String`
 
@@ -181,7 +181,7 @@ command argument, for example 'Next'
 
 ###  SetTempIndexHierarchical
 
-Used after postback before ViewState becomes available - 
+Used after postback before ViewState becomes available -
             for example in ItemCreated and ItemDataBound events
 
 #### Parameters

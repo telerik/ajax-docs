@@ -43,12 +43,12 @@ Once your validation routine finishes, use the IsValid
 ###  SkipInternalValidation `Boolean`
 
 Gets or sets whether the internal validation should continue validating the file
-            specified by the UploadedFile property.
+             specified by the UploadedFile property.
 
 #### Remarks
 Once your validation routine finishes, use the SkipInternalValidation
-            property to skip the internal validation provided by the RadUpload
-            control.
+             property to skip the internal validation provided by the RadUpload
+             control.
 
 ###  UploadedFile `UploadedFile`
 

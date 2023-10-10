@@ -6,7 +6,7 @@ description: Telerik.Charting.DataManager
 
 # Telerik.Charting.DataManager
 
-Acquires and manipulates data from databases or other sources. 
+Acquires and manipulates data from databases or other sources.
             Populates the SeriesCollection of the chart control.
 
 ## Inheritance Hierarchy
@@ -92,7 +92,7 @@ The data source column used as series items X coordinate
 The data source columns array used as series items Y coordinate source
 
 #### Remarks
-This array could be used to set the Gantt chart data source columns. 
+This array could be used to set the Gantt chart data source columns.
             The columns should be added in the following order: X, Y, X2, Y2
 
 ## Methods
@@ -384,7 +384,7 @@ Should automatic column search be used or not
 
 #### Returns
 
-`System.Int32` Column with numeric values. It can be used as X, Y, X2, Y2, Y3, Y4 values source. 
+`System.Int32` Column with numeric values. It can be used as X, Y, X2, Y2, Y3, Y4 values source.
             If impossible to find a column or data helper is NULL it returns -1
 
 ###  GetValuesYColumns

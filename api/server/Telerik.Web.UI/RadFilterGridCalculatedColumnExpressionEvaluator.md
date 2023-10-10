@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadFilterGridCalculatedColumnExpressionEvaluator
 
 # Telerik.Web.UI.RadFilterGridCalculatedColumnExpressionEvaluator
 
-Represents an expression evaluator used for building filter expressions for 
+Represents an expression evaluator used for building filter expressions for
             Telerik.Web.UI.RadGrid in scenarios where a calculated column is present.
 
 ## Inheritance Hierarchy

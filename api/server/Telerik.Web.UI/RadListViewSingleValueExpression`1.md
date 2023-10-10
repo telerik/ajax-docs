@@ -7,7 +7,7 @@ description: Telerik.Web.UI.RadListViewSingleValueExpression`1
 # Telerik.Web.UI.RadListViewSingleValueExpression`1
 
 Abstract class representing basic single value filter expressions.
-            Examples for single value expressions are: "EqualTo", "EndsWith", 
+            Examples for single value expressions are: "EqualTo", "EndsWith",
             "Contains", "GreaterThan", "IsEmpty", "IsNotNull", "IsNull", "LessThan",
             "StartsWith", etc.
 

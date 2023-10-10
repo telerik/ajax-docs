@@ -29,7 +29,7 @@ Gets or sets the extensions.
 
 ###  GetFilter
 
-Accepts string arraying containing the allowed extensions and produces 
+Accepts string arraying containing the allowed extensions and produces
             a filter mask in the form "*.extension;*.extension..."
 
 #### Parameters

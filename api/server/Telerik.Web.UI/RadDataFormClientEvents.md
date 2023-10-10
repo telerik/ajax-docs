@@ -22,12 +22,12 @@ This client-side event is fired when a RadDataForm command occurs.
 
 ###  OnDataFormCreated `String`
 
-This client-side event is fired after the 
+This client-side event is fired after the
              is created.
 
 ###  OnDataFormCreating `String`
 
-This client-side event is fired before the 
+This client-side event is fired before the
              is created.
 
 ###  OnDataFormDestroying `String`

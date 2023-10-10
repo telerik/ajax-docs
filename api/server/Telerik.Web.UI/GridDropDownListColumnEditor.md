@@ -20,7 +20,7 @@ The editor for the Telerik.Web.UI.GridDropDownColumn column.
 
 ###  ComboBoxControl `RadComboBox`
 
-Gets the  control places in the cell if the  
+Gets the  control places in the cell if the 
             DropDownControlType property is set to RadComboBox.
 
 ###  ContainerControl `Control`
@@ -49,7 +49,7 @@ Gets or sets the DataValueField property of the drop down list control.
 
 ###  DropDownListControl `DropDownList`
 
-Gets the  control places in the cell if the  
+Gets the  control places in the cell if the 
             DropDownControlType property is set to DropDownList.
 
 ###  DropDownStyle `Style`

@@ -30,7 +30,7 @@ This property is overridden in order to support controls which implement INaming
 
 ###  CssClassFormatString `String`
 
-The CssClass property will now be used instead of the former Skin 
+The CssClass property will now be used instead of the former Skin
             and will be modified in AddAttributesToRender()
 
 ###  EnableAjaxSkinRendering `String`
@@ -84,11 +84,11 @@ For internal use.
 ###  Items `SplitterItemsCollection`
 
 Gets the collection of child items in the RadSplitter
-            control.
+             control.
 
 #### Remarks
 Use this property to retrieve the child items of the RadSplitter
-            control. You can also use it to programmatically add or remove items.
+             control. You can also use it to programmatically add or remove items.
 
 ###  LiveResize `Boolean`
 
@@ -110,7 +110,7 @@ Gets or sets a value indicating the client-side event handler that is called whe
 #### Remarks
 If specified, the OnClientResizedclient-side event handler is called when the RadSplitter
                 is resized. Two parameters are passed to the handler:sender, the event objecteventArgs with the following methods:
-             			get_oldWidth - the width of the splitter before the resizeget_oldHeight - the height of the splitter before the resizeThis event cannot be cancelled.
+                         get_oldWidth - the width of the splitter before the resizeget_oldHeight - the height of the splitter before the resizeThis event cannot be cancelled.
 
 ###  OnClientResizing `String`
 
@@ -118,7 +118,7 @@ Gets or sets a value indicating the client-side event handler that is called bef
 
 #### Remarks
 Two parameters are passed to the handler:sender, the RadSplitter that fired the eventargs with the following methods:
-             			get_newWidth - the new width that will be applied to the RadSplitter objectget_newHeight - the new height that will be applied to the RadSplitter objectThis event can be cancelled.
+                         get_newWidth - the new width that will be applied to the RadSplitter objectget_newHeight - the new height that will be applied to the RadSplitter objectThis event can be cancelled.
 
 ###  Orientation `Orientation`
 

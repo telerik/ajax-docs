@@ -19,7 +19,7 @@ Represents a column of buttons firing data-editing commands (Edit, InitInsert, P
 
 ###  AddRecordImageUrl `String`
 
-Gets or sets the URL of the image for the Add Record button when 
+Gets or sets the URL of the image for the Add Record button when
              is set to ImageButton.
 
 ###  AddRecordText `String`
@@ -28,12 +28,12 @@ Gets or sets the text of the Add New Record button in data items.
 
 ###  ButtonType `TreeListButtonColumnType`
 
-Gets or sets a value indicating the type of the button that will be rendered. 
+Gets or sets a value indicating the type of the button that will be rendered.
             The type should be one of the specified by the  enumeration.
 
 ###  CancelImageUrl `String`
 
-Gets or sets the URL of the image for the Cancel button when 
+Gets or sets the URL of the image for the Cancel button when
              is set to ImageButton.
 
 ###  CancelText `String`
@@ -55,7 +55,7 @@ Gets or sets a value indicating whether the cells corresponding to a column woul
 
 ###  EditImageUrl `String`
 
-Gets or sets the URL of the image for the Edit button when 
+Gets or sets the URL of the image for the Edit button when
              is set to ImageButton.
 
 ###  EditText `String`
@@ -81,7 +81,7 @@ Gets or sets the tooltip of the header cell.
 
 ###  InsertImageUrl `String`
 
-Gets or sets the URL of the image for the Insert button when 
+Gets or sets the URL of the image for the Insert button when
              is set to ImageButton.
 
 ###  InsertText `String`
@@ -152,7 +152,7 @@ Each column in Telerik RadTreeList has an UniqueName
 
 ###  UpdateImageUrl `String`
 
-Gets or sets the URL of the image for the Update button when 
+Gets or sets the URL of the image for the Update button when
              is set to ImageButton.
 
 ###  UpdateText `String`
@@ -198,7 +198,7 @@ A TreeListItem which will hold the current column cell.
 
 ###  InitializeCell
 
-Initializes one by one the cells which belong to the column. 
+Initializes one by one the cells which belong to the column.
             These could be data, header and footer cells.
 
 #### Parameters

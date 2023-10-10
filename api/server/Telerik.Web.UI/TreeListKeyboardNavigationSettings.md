@@ -18,12 +18,12 @@ Represents the settings used when keyboard navigation is enabled in Telerik.Web.
 
 ###  AllowActiveRowCycle `Boolean`
 
-This property set whether active row should be set to first/last item when current item is last/first 
+This property set whether active row should be set to first/last item when current item is last/first
             and down/up key is pressed (default is false)
 
 ###  AllowSubmitOnEnter `Boolean`
 
-This property set whether the edit form will be submited when the ENTER key is pressed 
+This property set whether the edit form will be submited when the ENTER key is pressed
             (default is false)
 
 ###  CollapseChildItemsKey `TreeListFocusKeys`

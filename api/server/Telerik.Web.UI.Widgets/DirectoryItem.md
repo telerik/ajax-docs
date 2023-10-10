@@ -18,7 +18,7 @@ Represents a directory item in the FileBrowser control.
 
 ###  Attributes `NameValueCollection`
 
-Gets or sets a string array containing custom values which can be used on the client when 
+Gets or sets a string array containing custom values which can be used on the client when
             customizing the FileBrowser control.
 
 ###  Directories `DirectoryItem[]`
@@ -36,7 +36,7 @@ Gets the full virtual path to the directory item.
 ###  Location `String`
 
 Gets the virtual location of the directory item. When the item is not root, the value
-            of this property should be string.Empty. The FileBrowser control recursively combines the names 
+            of this property should be string.Empty. The FileBrowser control recursively combines the names
             of all parent directory items in order to get the full virtual path of the item.
 
 ###  Name `String`
@@ -80,7 +80,7 @@ Utility method used when serializing. Removes the last javascript array separato
 
 ###  Serialize
 
-Serializes the directory item into a javascript array. This method should be overridden only when developing 
+Serializes the directory item into a javascript array. This method should be overridden only when developing
             a custom FileBrowser control.
 
 #### Parameters
@@ -95,7 +95,7 @@ a StringWriter used as a target for the serialization.
 
 ###  Serialize
 
-Serializes the item into a javascript array. This method should be overridden only when developing 
+Serializes the item into a javascript array. This method should be overridden only when developing
             a custom FileBrowser control.
 
 #### Parameters
@@ -122,7 +122,7 @@ Serializes the Attributes array.
 
 ###  SerializeContent
 
-Serializes the children of the directory item as a javascript array. 
+Serializes the children of the directory item as a javascript array.
             Recursively calls the Serialize methods of all child objects.
 
 #### Parameters

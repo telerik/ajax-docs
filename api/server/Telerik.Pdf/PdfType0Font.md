@@ -37,6 +37,6 @@ Returns the internal name used for this font.
 
 ###  ToUnicode `PdfCMap`
 
-Sets the stream containing a CMap that maps character codes to 
+Sets the stream containing a CMap that maps character codes to
                 unicode values.
 

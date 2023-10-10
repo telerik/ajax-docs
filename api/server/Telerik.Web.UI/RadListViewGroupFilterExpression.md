@@ -110,7 +110,7 @@ Not intended for external usage
 
 ###  ToEntitySQL
 
-Returns a string representation of the filter expressions 
+Returns a string representation of the filter expressions
             in format suitable for EntityDataSource usage.
 
 #### Remarks

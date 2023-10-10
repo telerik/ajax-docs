@@ -37,6 +37,6 @@ Gets a reference to the edited item.
 
 ###  KeepInEditMode `Boolean`
 
-Gets or sets a boolean value indicating whether the edited item 
+Gets or sets a boolean value indicating whether the edited item
             will remain in edit mode.
 

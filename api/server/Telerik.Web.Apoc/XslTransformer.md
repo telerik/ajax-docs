@@ -6,7 +6,7 @@ description: Telerik.Web.Apoc.XslTransformer
 
 # Telerik.Web.Apoc.XslTransformer
 
-Provides a static method that applies an 
+Provides a static method that applies an
                 XSL stylesheet to an XML document
 
 ## Inheritance Hierarchy
@@ -18,12 +18,12 @@ Provides a static method that applies an
 
 ###  Transform
 
-Applies the style sheet xslFile to the XML document 
+Applies the style sheet xslFile to the XML document
                 identified by xmlFile.
 
 #### Remarks
-This method will create a temporary filename in the system's 
-                temporary directory, which is automatically deleted when the 
+This method will create a temporary filename in the system's
+                temporary directory, which is automatically deleted when the
                 returned stream is closed.
 
 #### Parameters

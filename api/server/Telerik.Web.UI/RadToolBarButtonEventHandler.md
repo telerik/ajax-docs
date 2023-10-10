@@ -10,7 +10,7 @@ Represents the method that handles the E:Telerik.Web.UI.RadToolBar.ButtonDataBou
 
 #### Remarks
 When you create a RadToolBarButtonEventHandlerdelegate, you identify the method that will
-            handle the event. To associate the event with your event handler, add an instance of the delegate to the
+               handle the event. To associate the event with your event handler, add an instance of the delegate to the
             event. The event handler is called whenever the event occurs, unless you remove the delegate.
 
 ## Inheritance Hierarchy

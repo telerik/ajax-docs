@@ -81,7 +81,7 @@ This is dictionary to fill, this parameter
 
 ###  FireCommandEvent
 
-Use this method to simulate item command event that bubbles to 
+Use this method to simulate item command event that bubbles to
              and can be handled automatically or in a
             custom manner, handling .ItemCommand event.
 
@@ -116,7 +116,7 @@ data key name
 
 ###  UpdateValues
 
-Updates properties of the passed object instance from current 
+Updates properties of the passed object instance from current
             's extracted values
 
 #### Parameters

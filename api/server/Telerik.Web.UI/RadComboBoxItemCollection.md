@@ -12,7 +12,7 @@ A collection of Telerik.Web.UI.RadComboBoxItem RadComboBoxItemobjects in a
 #### Remarks
 The RadComboBoxItemCollectionclass represents a collection of
                 RadComboBoxItemobjects.
-            	bullet Use the P:Telerik.Web.UI.RadComboBoxItemCollection.Item(System.Int32) indexerto programmatically retrieve a
+                bullet Use the P:Telerik.Web.UI.RadComboBoxItemCollection.Item(System.Int32) indexerto programmatically retrieve a
                         single RadComboBoxItem from the collection, using array notation.
                     Use the Countproperty to determine the total
                         number of combo items in the collection.
@@ -31,8 +31,8 @@ The RadComboBoxItemCollectionclass represents a collection of
 
 ###  Item `RadComboBoxItem`
 
-Gets the RadComboBoxItem object at the specified index in 
-            	the current RadComboBoxItemCollection.
+Gets the RadComboBoxItem object at the specified index in
+                   the current RadComboBoxItemCollection.
 
 ## Methods
 
@@ -66,14 +66,14 @@ The text of the new item.
 
 ###  AddRange
 
-Appends the specified array of RadComboBoxItem objects to the end of the 
+Appends the specified array of RadComboBoxItem objects to the end of the
             current RadComboBoxItemCollection.
 
 #### Parameters
 
 #### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadComboBoxItem}`
 
-The array of RadComboBoxItem o append to the end of the current 
+The array of RadComboBoxItem o append to the end of the current
             RadComboBoxItemCollection.
 
 #### Returns
@@ -82,8 +82,8 @@ The array of RadComboBoxItem o append to the end of the current
 
 ###  Contains
 
-Determines whether the specified RadComboBoxItem object is in the current 
-            	RadComboBoxItemCollection.
+Determines whether the specified RadComboBoxItem object is in the current
+                   RadComboBoxItemCollection.
 
 #### Parameters
 
@@ -93,12 +93,12 @@ The RadComboBoxItem object to find.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified RadComboBoxItem object; 
-            	otherwise, false.
+`System.Boolean` true if the current collection contains the specified RadComboBoxItem object;
+                   otherwise, false.
 
 ###  FindItem
 
-Returns  the first RadComboBoxItem 
+Returns  the first RadComboBoxItem
             that matches the conditions defined by the specified predicate.
             The predicate should returns a boolean value.
 
@@ -291,12 +291,12 @@ The RadComboBoxItem to locate.
 
 #### Returns
 
-`System.Int32` The zero-based index of item within the current RadComboBoxItemCollection, 
-            	if found; otherwise, -1.
+`System.Int32` The zero-based index of item within the current RadComboBoxItemCollection,
+                   if found; otherwise, -1.
 
 ###  Insert
 
-Inserts the specified RadComboBoxItem object in the current 
+Inserts the specified RadComboBoxItem object in the current
             RadComboBoxItemCollection at the specified index location.
 
 #### Parameters
@@ -334,7 +334,7 @@ The text of the new item.
 ###  Remove
 
 Removes the specified RadComboBoxItem object from the current
-            	RadComboBoxItemCollection.
+                   RadComboBoxItemCollection.
 
 #### Parameters
 
@@ -349,7 +349,7 @@ The RadComboBoxItem object to remove.
 ###  Remove
 
 Removes the specified RadComboBoxItem object from the current
-            	RadComboBoxItemCollection.
+                   RadComboBoxItemCollection.
 
 #### Parameters
 

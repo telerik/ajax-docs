@@ -11,21 +11,21 @@ This partial Class defines RadPanelItem object that inherits NavigationItem, IRa
 
 #### Remarks
 The Telerik.Web.UI.RadPanelBar RadPanelBarcontrol is made up of items. Items which are immediate children
-            		of the panelbar are root items. Items which are children of root items are child items.
-            	A item usually stores data in two properties, the P:Telerik.Web.UI.RadPanelItem.Text Textproperty and 
-            		the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty. The value of the P:Telerik.Web.UI.RadPanelItem.Text Textproperty is displayed 
-            		in the RadPanelBarcontrol, and the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty is used to store additional data.
-            	To create panel items, use one of the following methods:bullet Use declarative syntax to define items inline in your page or user control.
-            		Use one of the constructors to dynamically create new instances of the
-            			Telerik.Web.UI.RadPanelItem RadPanelItemclass. These items can then be added to the
-            			Itemscollection of another item or panelbar.
-            		Data bind the RadPanelBarcontrol to a data source.
-            		When the user clicks a panel item, the RadPanelBarcontrol can navigate
+                       of the panelbar are root items. Items which are children of root items are child items.
+                   A item usually stores data in two properties, the P:Telerik.Web.UI.RadPanelItem.Text Textproperty and
+                       the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty. The value of the P:Telerik.Web.UI.RadPanelItem.Text Textproperty is displayed
+                       in the RadPanelBarcontrol, and the P:Telerik.Web.UI.RadPanelItem.Value Valueproperty is used to store additional data.
+                   To create panel items, use one of the following methods:bullet Use declarative syntax to define items inline in your page or user control.
+                       Use one of the constructors to dynamically create new instances of the
+                           Telerik.Web.UI.RadPanelItem RadPanelItemclass. These items can then be added to the
+                           Itemscollection of another item or panelbar.
+                       Data bind the RadPanelBarcontrol to a data source.
+                       When the user clicks a panel item, the RadPanelBarcontrol can navigate
                     to a linked Web page, post back to the server or select that item. If the
                     P:Telerik.Web.UI.RadPanelItem.NavigateUrl NavigateUrlproperty of a item is set, the
                     RadPanelBarcontrol navigates to the linked page. By default, a linked page
-                    is displayed in the same window or frame. To display the linked content in a different 
-            		window or frame, use the P:Telerik.Web.UI.RadPanelItem.Target Targetproperty.
+                    is displayed in the same window or frame. To display the linked content in a different
+                       window or frame, use the P:Telerik.Web.UI.RadPanelItem.Target Targetproperty.
 
 ## Inheritance Hierarchy
 
@@ -69,9 +69,9 @@ Gets or sets the data item represented by the item.
 
 #### Remarks
 This property is applicable only during data binding. Use it along with the
-                ItemDataBound event to perform
-                additional mapping of fields from the data item to
-                RadPanelItem properties.
+                 ItemDataBound event to perform
+                 additional mapping of fields from the data item to
+                 RadPanelItem properties.
 
 ###  DisabledCssClass `String`
 
@@ -141,7 +141,7 @@ Gets or sets the template for displaying footer in
 Gets or sets a value specifying the URL of the image rendered when the node is hovered with the mouse.
 
 #### Remarks
-If the HoveredImageUrl property is not set the ImageUrl property will be 
+If the HoveredImageUrl property is not set the ImageUrl property will be
             used when the node is hovered.
 
 ###  ID `String`
@@ -293,7 +293,7 @@ Use the Value property to specify or determine the value associated
 
 ###  ApplyHeaderTemplate
 
-Instantiates the HeaderTemplate inside the Header. 
+Instantiates the HeaderTemplate inside the Header.
             Clears all existing controls in the Header before that.
 
 #### Returns

@@ -36,7 +36,7 @@ Gets an object that can be used to synchronize access to the collection.
 
 ###  CopyTo
 
-Copies all the elements of the current collection to the specified one-dimensional Array starting at 
+Copies all the elements of the current collection to the specified one-dimensional Array starting at
             the specified destination index. The index is specified as a 32-bit integer.
 
 #### Parameters

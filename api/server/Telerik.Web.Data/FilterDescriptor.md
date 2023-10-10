@@ -30,7 +30,7 @@ Gets or sets the member name which will be used for filtering.
 Gets or sets the type of the member that is used for filtering.
             Set this property if the member type cannot be resolved automatically.
             Such cases are: items with ICustomTypeDescriptor, XmlNode or DataRow.
-            Changing this property does not raise 
+            Changing this property does not raise
              event.
 
 ###  Operator `FilterOperator`
@@ -59,8 +59,8 @@ The parameter expression, which will be used for filtering.
 
 ###  CreateFilterExpression
 
-Creates a filter expression by delegating its creation to 
-            , if 
+Creates a filter expression by delegating its creation to
+            , if
              is , otherwise throws
 
 #### Parameters
@@ -89,7 +89,7 @@ The parameter expression, which will be used for filtering.
 
 ###  Equals
 
-Determines whether the specified  descriptor 
+Determines whether the specified  descriptor
             is equal to the current one.
 
 #### Parameters
@@ -100,7 +100,7 @@ The other filter descriptor.
 
 #### Returns
 
-`System.Boolean` True if all members of the current descriptor are 
+`System.Boolean` True if all members of the current descriptor are
             equal to the ones of , otherwise false.
 
 ###  Equals
@@ -110,7 +110,7 @@ Determines whether the specified
 
 #### Returns
 
-`System.Boolean` Calls  
+`System.Boolean` Calls 
             if  is , otherwise
             returns false.
 
