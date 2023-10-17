@@ -25,9 +25,8 @@ The assemblies that must be referenced in order to export RadGrid to Excel are:
 
 - Telerik.Windows.Documents.Core.dll
 - Telerik.Windows.Documents.Spreadsheet.dll
-- Telerik.Windows.Zip.dll
 - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
-
+- Telerik.Windows.Zip.dll
 
 More information about the assemblies and how to reference them in your project can be found in the [Included assemblies]({%slug introduction/installation/included-assemblies%}) help article.
 
