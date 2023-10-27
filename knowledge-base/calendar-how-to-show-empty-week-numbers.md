@@ -12,29 +12,31 @@ res_type: kb
 
 How can I set empty text values in the RadCalendar's week column?
 
+!["Calendar with no weeknumbers text"](images/calendar-no-weeknumber.png "Calendar with no weeknumbers text")
+
 ## Solution
 
 You can use either one of the below given approaches, one that is purely CSS and on that is purely JS.
 
 Sample RadCalendar declaration:
 
-```ASPX
+````ASPX
 <telerik:RadCalendar runat="server" ID="RadCalendar1" />
-```
+````
 
 Removing the text via CSS:
 
-```CSS
+````CSS
 <style>
     .rcRow th:nth-child(1) {
         text-indent: -100000px;
     }
 </style>
-```
+````
 
 Removing the text via JS:
 
-```JS
+````JS
 <script>
     function pageLoadHandler() {
         var row = $(".rcRow") // Get the row elements of the calendar
@@ -47,8 +49,5 @@ Removing the text via JS:
     }
     Sys.Application.add_load(pageLoadHandler);
 </script>
-```
-
-## End result
-
-![calendar_today](images/calendar-no-weeknumber.png)
+````
+ 
