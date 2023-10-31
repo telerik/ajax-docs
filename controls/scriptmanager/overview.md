@@ -50,7 +50,7 @@ When put on the page, the **RadScriptManager** combines all requests (to the "Ja
 
 If the script combination is not needed for some reason (e.g. debugging) it can be disabled by giving the [EnableScriptCombine](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadScriptManager#properties-EnableScriptCombine) property the value of **False**.
 
-You can change Handler by using the [HttpHandlerUrl](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radscriptmanager_httphandlerurl.html) property of the control.
+You can change Handler by using the HttpHandlerUrl property of the control.
 
 ## RadScriptManager needs the HttpHandler to be registered in the application's configuration file:
 
