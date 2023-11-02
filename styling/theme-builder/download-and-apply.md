@@ -202,6 +202,6 @@ You can also add external style sheets to the RadStyleSheetManager from the code
 
 ## See Also
   * [Read about Sass ThemeBuilder]({%slug theme-builder/overview%})
-  * [Open the Sass ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax)
+  * [Open the Sass ThemeBuilder](https://demos.telerik.com/aspnet-ajax/themebuilder/)
   * [Create a new skin]({%slug theme-builder/create%})
   * [Import and modify an existing skin]({%slug theme-builder/import%})
