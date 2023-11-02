@@ -10,7 +10,7 @@ position: 1
 
 # Creating a Theme
 
-[Progress ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/aspnet-ajax) is a convenient customization tool that allows you to create your own custom [lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) skins quickly and efficiently. You can achieve impressive results without the necessity of understanding the underlying HTML and CSS structure of the controls.
+[Progress ThemeBuilder for ASP.NET AJAX](https://demos.telerik.com/aspnet-ajax/themebuilder/) is a convenient customization tool that allows you to create your own custom [lightweight](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) skins quickly and efficiently. You can achieve impressive results without the necessity of understanding the underlying HTML and CSS structure of the controls.
 
 >caption The following image shows the main ThemeBuilder interface.
 
@@ -18,7 +18,7 @@ position: 1
 
 ## Creating a New Theme
 
-1. Open [ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax).
+1. Open [ThemeBuilder](https://demos.telerik.com/aspnet-ajax/themebuilder/).
 1. Select one of the five base themes.
 1. Select **Start Theming**.
 1. To reduce the number of the rendered components, open the **SELECT COMPONENTS** screen and check only the UI components that you need.

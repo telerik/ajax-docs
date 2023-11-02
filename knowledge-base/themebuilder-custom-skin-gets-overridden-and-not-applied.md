@@ -125,4 +125,4 @@ protected void Button1_Click(object sender, EventArgs e)
 ## See Also
 
 * [Telerik ThemeBuilder]({%slug theme-builder/overview%}) documentation
-* [Telerik ThemeBuilder](https://themebuilder.telerik.com/aspnet-ajax) online 
+* [Telerik ThemeBuilder](https://demos.telerik.com/aspnet-ajax/themebuilder/) online 

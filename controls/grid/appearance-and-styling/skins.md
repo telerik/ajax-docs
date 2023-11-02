@@ -41,7 +41,7 @@ A developer can create custom skins for use in **RadGrid**. They are not embedde
 
 > Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false.
 
-For more information about how to create a custom skin with the help of the [Telerik Theme Builder](https://themebuilder.telerik.com/aspnet-ajax), see [this video](https://www.youtube.com/watch?v=0kiuagrNvac) or the [Sass Theme Builder Overview]({%slug theme-builder/overview%}) article.
+For more information about how to create a custom skin with the help of the [Telerik Theme Builder](https://demos.telerik.com/aspnet-ajax/themebuilder/), see [this video](https://www.youtube.com/watch?v=0kiuagrNvac) or the [Sass Theme Builder Overview]({%slug theme-builder/overview%}) article.
 
 The steps to apply the new custom skin are described in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article.
 
@@ -51,7 +51,7 @@ The [Custom Skin demo](https://demos.telerik.com/aspnet-ajax/grid/examples/style
 
 You can modify the built-in skins for RadGrid. The required steps are described in the [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%}) article.
 
-The skins created in the [Telerik Theme Builder](https://themebuilder.telerik.com/aspnet-ajax) can be imported via its interface and modified as many times as you wish - see [Importing a Theme]({%slug theme-builder/import%}) for the full procedure.
+The skins created in the [Telerik Theme Builder](https://demos.telerik.com/aspnet-ajax/themebuilder/) can be imported via its interface and modified as many times as you wish - see [Importing a Theme]({%slug theme-builder/import%}) for the full procedure.
 
 ## Properties (Applicable When Not Using an Embedded or External Skin)
 
