@@ -10,6 +10,9 @@ position: 3
 
 # Importing a Theme
 
+>note **Status:** Temporarily Unavailable <br> **Action Needed:** We value your feedback! If you need this feature, please cast [your vote here](https://feedback.telerik.com/aspnet-ajax/1629639-importing-a-theme) to help us prioritize its importance. Your input will help us determine the priority of this feature in our development backlog. 
+
+<div style="display: none">
 [Progress ThemeBuilder for ASP.NET AJAX](https://demos.telerik.com/aspnet-ajax/themebuilder/) allows you to upload and import a theme that you previously created so you can modify it further. 
 
 1. Open [ThemeBuilder](https://demos.telerik.com/aspnet-ajax/themebuilder/).
@@ -377,7 +380,7 @@ The following example demonstrates the JSON file for the **Material** base theme
 ````
 
 Once you have uploaded the theme, you can customize it as described in the [Creating a Theme]({%slug theme-builder/create%}) article.
-
+</div>
 ## See Also
 
   * [Read about Sass ThemeBuilder]({%slug theme-builder/overview%})
