@@ -28,10 +28,6 @@ res_type: kb
 
 This example demonstrates how to exclude a row from a column with custom aggregation. The below code snippet uses rows of numeric and DateTime values and has its `Aggregate` property set to 'custom': 
 
-## End result 
-
-!["Grid column with custom aggregation"](images/custom-aggregation.png "Grid column with custom aggregation")
-
 ## Solution
 
 ````ASPX
@@ -53,6 +49,7 @@ This example demonstrates how to exclude a row from a column with custom aggrega
     </MasterTableView>
 </telerik:RadGrid>
 ````
+
 ````C#
 	private DataTable OrdersTable() // Creating a collumn with rows of numeric and DateTime values
     {
