@@ -32,12 +32,39 @@ The **Timeline View** allows you to display a variable number of slots and defin
 
 **Timeline View** will provide full support for Resource and Date grouping, namely:
 
-* No groping (Basic look)![scheduer-views-timelineview-nogrouping](images/scheduer-views-timelineview-nogrouping.png)
+* No groping (Basic look) 
 
-* Grouped by Resource (**Horizontal**)![scheduler-views-timelineview-horizontalgroupingbyresource](images/scheduler-views-timelineview-horizontalgroupingbyresource.png)
+    ![scheduer-views-timelineview-nogrouping](images/scheduer-views-timelineview-nogrouping.png)
 
-* Grouped by Resource (**Vertical**)![scheduler-views-timelineview-verticalgroupingbyresource](images/scheduler-views-timelineview-verticalgroupingbyresource.png)
+* Grouped by Resource (**Horizontal**)
 
-* Grouped by Date, Resource (**Horizontal**)![scheduler-views-timelineview-horizontalgroupingbyresourceanddate](images/scheduler-views-timelineview-horizontalgroupingbyresourceanddate.png)
+    ![scheduler-views-timelineview-horizontalgroupingbyresource](images/scheduler-views-timelineview-horizontalgroupingbyresource.png)
 
-* Grouped by Date, Resource (**Vertical**)![scheduler-views-timelineview-horizontalgroupingbyresourceanddate](images/scheduler-views-timelineview-horizontalgroupingbyresourceanddate.png)
+* Grouped by Resource (**Vertical**)
+
+    ![scheduler-views-timelineview-verticalgroupingbyresource](images/scheduler-views-timelineview-verticalgroupingbyresource.png)
+
+* Grouped by Date, Resource (**Horizontal**)
+
+    ![scheduler-views-timelineview-horizontalgroupingbyresourceanddate](images/scheduler-views-timelineview-horizontalgroupingbyresourceanddate.png)
+
+* Grouped by Date, Resource (**Vertical**)
+
+    ![scheduler-views-timelineview-horizontalgroupingbyresourceanddate](images/scheduler-views-timelineview-horizontalgroupingbyresourceanddate.png)
+
+
+### ColumnDateFormat 
+
+
+The **Timeline View** allows you to format the date dispalyed in the column headers by adjusting its **ColumnHeaderDateFormat** property. 
+This property requires a valid [Standard date and time format string]("https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings").
+
+````ASPX
+<telerik:RadScheduler runat="server" ID="RadScheduler1">
+    <TimelineView ColumnHeaderDateFormat="t" SlotDuration="06:00:00" NumberOfSlots="3" />
+</telerik:RadScheduler>
+````
+
+![scheduler-views-timelineview-columnheaderdateformat](images/scheduler-views-timelineview-columnheaderdateformat.png "Scheduler in TimeLine view with ColumnHeaderDateFormat set to 't'")
+
+ 
