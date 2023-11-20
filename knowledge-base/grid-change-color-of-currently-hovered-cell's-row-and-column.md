@@ -17,10 +17,7 @@ Sometimes one might want to highlight the row and column of the currently hovere
 
 ## Solution
 
-1. Create the custom `hovered` CSS class.
-1. Add the class to the currently hovered cell's row and column with the `mouseover` event.
-
-Example
+Create the custom `hovered` CSS class.
 
 ````CSS
 <style>
@@ -30,6 +27,8 @@ Example
     }
 </style>
 ````
+
+Add the class to the currently hovered cell's row and column with the `mouseover` event.
 
 ````JS
 <script>
