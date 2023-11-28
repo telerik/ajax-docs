@@ -1,8 +1,8 @@
 ---
-title: Change zoom-in and zoom-out level of RadImageEditor
-description: Learn how to change zoom-in and zoom-out level of RadImageEditor
+title: Change the zoom level in ImageEditor
+description: How to change the zoom level of Telerik WebForms ImageEditor from the default 50% to another level
 type: how-to
-page_title: Change zoom-in and zoom-out level of RadImageEditor
+page_title: Change zoom-in and zoom-out level of ImageEditor
 slug: imageeditor-change-zoom-level
 ticketid: 1631855
 res_type: kb
@@ -10,11 +10,14 @@ res_type: kb
 
 ## Description
 
-Learn how to change zoom-in and zoom-out level of RadImageEditor
+How to change the zoom level of Telerik WebForms ImageEditor from the default 50% to another level.
 
 ## Solution
 
-Add the [`OnClientCommandExecuting`](https://docs.telerik.com/devtools/aspnet-ajax/controls/imageeditor/client-side-programming/events/onclientcommandexecuting#onclientcommandexecuting) event in the markup of the Image editor:
+Add the specific buttons with the respective `CommandName` attributes and attach the [`OnClientCommandExecuting`]({%slug imageeditor/client-side-programming/events/onclientcommandexecuting%}) event to the ImageEditor. 
+
+Example
+
 ````ASPX
 <telerik:RadImageEditor
     ID="RadImageEditor1"
@@ -31,7 +34,11 @@ Add the [`OnClientCommandExecuting`](https://docs.telerik.com/devtools/aspnet-aj
 </telerik:RadImageEditor>
 ````
 
-In the event handler, add the following logic to set the zoom level to 10% for both the zoom-in and zoom-out commands
+In the event handler, adjust the `zoomLevel` property based on your preference.
+To set the `zoomLevel` property to a specific value, we first need to get the zoom level of the image with the [`get_zoomLevel()`]({%slug imageeditor/client-side-programming/overview%}) and then we set it to 10% ().
+
+Example
+
 ````JavaScript
 function onClientCommandExecuting(sender, args) {
     var imageEditor = sender
