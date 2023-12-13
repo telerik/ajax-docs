@@ -1,20 +1,17 @@
 ---
-title: How to filter file selection in the upload dialog
-description: How to filter file selection in the upload dialog. Check it now!
+title: Filter file selection in the upload dialog
+description: Filter the files shown to the user in the upload dialog when uploading with RadAsyncUpload How to filter file selection in the upload dialog.
 type: how-to
-page_title: How to filter file selection in the upload dialog
+page_title: Filter file selection in the upload dialog
 slug: asyncupload-how-to-filter-file-selection-in-the-upload-dialog
 res_type: kb
 ---
 
-
-## HOW TO
+## DESCRIPTION
 
 Filter the files shown to the user when selecting a file to upload through RadAsyncUpload.
 
 This allows the user to only see the files they can upload and you, as the developer, can limit that choice.
-
-## DESCRIPTION
 
 With current browsers (IE9 and above, Chrome, Firefox), RadAsyncUpload uses the HTML5 `FileAPI` to upload files.
 
