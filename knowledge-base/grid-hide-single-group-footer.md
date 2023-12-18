@@ -1,11 +1,11 @@
 ---
-title: Remove footer of groups with one item
-description: Follow along to learn how to remove single group footer from RadGrid.
+title: Hide footer of groups with one item
+description: Follow along to learn how to hide footer of groups with one item RadGrid.
 type: how-to
-page_title: Remove footer of groups with one item
-slug: grid-remove-single-group-footer
+page_title: Hide footer of groups with one item
+slug: grid-hide-single-group-footer
 position: 
-tags: radgrid, custom, gooter, group, group footer
+tags: radgrid, custom, footer, group, hide group footer, remove group footer
 ticketid: 1633759
 res_type: kb
 ---
@@ -13,16 +13,15 @@ res_type: kb
 
 ## Description
 
-Sometimes one might want to remove a group footer when the associated group has only one item.
+Sometimes one might want to hide a group footer when the associated group has only one item.
 
 !["Example figure with removed single group footer"](images/grid-exclude-single-footer.png "Example figure with removed single group footer")
 
 ## Solution
 
-1. On the **ItemDataBound** event handler, check for how many child items are there in a certain group.
-1. If there is only one child item, add the **hidden** CSS class.
+In the **ItemDataBound** event handler, check for how many child items are there in a certain group. If there is only one child item, add the **hidden** CSS class.
 
-Example
+Example:
 
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
