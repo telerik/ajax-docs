@@ -21,7 +21,7 @@ Sometimes one might want to hide the group footer when the associated group has 
 
 In the **ItemDataBound** event handler, check for how many child items are there in a certain group. If there is only one child item, add the **hidden** CSS class.
 
-Example:
+Example
 
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
