@@ -21,9 +21,10 @@ To install and configure Telerik UI for ASP.NET AJAX in ASP.NET Web Forms (.NET 
 3. Run the `Telerik_UI_for_ASP.NET_AJAX_202x_x_xxxx_Dev.msi` installation file.
 4. Create a new ASP.NET AJAX Project and specify .NET Framework version 4.8.
 
-## See Also
-- [Getting Started with RadAjax for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/getting-started)
-- [Prerequisites for RadAjax for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/prerequisites)
-- [Video Onboarding for RadAjax for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/video-onboarding)
-- [Telerik Visual Studio Extensions Overview - Create Project](https://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/vs-extensions/create-project)
+You can find more details in the following resources:
+- [Getting Started](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps-msi)
+- [Prerequisites](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/installation/technical-information)
+- [Video Onboarding](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/virtual-classroom)
+- [Telerik Visual Studio Extensions Overview - Create Project](https://docs.telerik.com/devtools/aspnet-ajax/integration/visual-studio/visual-studio-extensions/overview)
  
+  
