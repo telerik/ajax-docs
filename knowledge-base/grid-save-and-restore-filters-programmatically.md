@@ -12,7 +12,7 @@ res_type: kb
 
 ## Description
 
-Applying filters for the Grid is done by Setting the FilterExpressions as described in the [Operate with the FilterExpression Manually]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%}) and [Setting the initial filter in the code-behind]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}#setting-the-initial-filter-in-the-code-behind) articles. That approach, however, will only apply filters without setting/restoring the filter functions and values.
+Applying filters for the Grid is done by Setting the FilterExpressions as described in the [Operate with the FilterExpression Manually]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%}) and [Setting the initial filter in the code-behind]({%slug grid-programmatic-filtering-on-server-side%}#apply-default-filter-on-initial-load) articles. That approach, however, will only apply filters without setting/restoring the filter functions and values.
 
 Furthermore, parsing the FilterExpressions to get the information required, or to restore the filter values/functions can be more complex and can be easily mistaken.
 
