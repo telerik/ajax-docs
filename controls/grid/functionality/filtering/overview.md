@@ -27,7 +27,7 @@ All filters in a single table are applied using the AND operator so that only it
 
 ## Setting Default Filter
 
-You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties of the **GridColumn** object to specify the default filter function and default filter value that appear in the filter text box. When you set these properties, **RadGrid** displays this value as an initial filter but does NOT apply the filtering. For information on applying an initial filter, see [Applying default filter on initial load]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}).
+You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties of the **GridColumn** object to specify the default filter function and default filter value that appear in the filter text box. When you set these properties, **RadGrid** displays this value as an initial filter but does NOT apply the filtering. For information on applying an initial filter, see [Applying default filter on initial load]({%slug grid-programmatic-filtering-on-server-side%}).
 
 Additionally, you can disable the filtering option for some of the grid columns by setting their **AllowFiltering** property to **False**.
 
