@@ -30,7 +30,7 @@ There are two general ways to do this:
 
 You can use an approach similar to the [Filter Templates demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/filter-templates/defaultcs.aspx) and [fire a custom command]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand %}) instead of using a button. This lets you invoke the same functionality in the ItemCommand handler by checking for your custom command name.
 
-If you want to pre-filter the grid for your end user, you can either filter the data source, or use the approach from the [Apply Default Filter on Initial Load]({%slug grid/how-to/filtering/apply-default-filter-on-initial-load%}) help article.
+If you want to pre-filter the grid for your end user, you can either filter the data source, or use the approach from the [Apply Default Filter on Initial Load]({%slug grid-programmatic-filtering-on-server-side%}) Knowledge-Base article.
 
 Using an OR operator for filtering several values in one column is supported out of the box in the [Excel-like filtering](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx) where you can check several values that you want present in the filtered data for that column.
 
