@@ -23,13 +23,15 @@ How can I assign a different data source to the Telerik WebForms SearchBox based
 
 I want the users to be able to select a `SearchContext`. For instance, they could select between **Landlords**, **Tenants**, or **Owners** and make the SearchBox search from the tables/data sources relative to the selected `SearchContext`.
 
+![](images/searchbox-conditional-data-binding-based-on-selected-searchcontext.gif)
+
 ## Solution
 
 The [Telerik WebForms SearchBox]({%slug searchbox/overview%}) implements the [ICallbackEventHandler Interface](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.icallbackeventhandler) and will make a CallBack sending the **ID** and **Parameters** in the `Request.Form`. For more information on the CallBacks, you can check out the [Script Callbacks in ASP.NET](https://learn.microsoft.com/en-us/archive/msdn-magazine/2004/august/cutting-edge-script-callbacks-in-asp-net) article.
 
-CallBack Information available in the `Request.Form`:
+The following information is sent with the CallBack:
 - `Request.Form["__CALLBACKID"]` - contains the **ID** of the Control that makes the CallBack.
-- `Request.Form["__CALLBACKPARAM"]` - contains the **parameters** related sent by the Control.
+- `Request.Form["__CALLBACKPARAM"]` - contains the CallBack **parameters**.
 
 
 First, create two `Classes` that will be used to parse the CallBack parameters.
