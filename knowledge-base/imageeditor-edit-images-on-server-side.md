@@ -1,9 +1,9 @@
 ---
-title: ImageEditor edit image on the server
+title: ImageEditor edit images on the server
 description: ImageEditor how to edit images on the server.
 type: how-to
-page_title: ImageEditor edit image on the server | ImageEditor
-slug: imageeditor-edit-image-on-server-side
+page_title: ImageEditor edit images on the server | ImageEditor
+slug: imageeditor-edit-images-on-server-side
 ticketid: 1632631
 res_type: kb
 ---
@@ -19,7 +19,7 @@ res_type: kb
 
 ## Description
 
-How to edit image in the **ImageEditor** on the server.
+How to edit images in the **ImageEditor** on the server.
 
 ## Solution
 
