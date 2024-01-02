@@ -19,7 +19,7 @@ res_type: kb
 
 ## Description
 
-How to edit images in the **ImageEditor** on the server.
+How to edit image in the **ImageEditor** on the server.
 
 ## Solution
 
