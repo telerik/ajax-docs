@@ -475,7 +475,7 @@ You have now bound your scheduler using the **DataSource** property. Run the app
 
 # See Also
 
-* [Scheduler bound to a List using the DataSource property](https://www.telerik.com/support/code-library/scheduler-bound-to-a-list-using-the-datasource-property) Code Library project
+* [Scheduler bound to a List using the DataSource property - Code Library project](https://www.telerik.com/support/code-library/scheduler-bound-to-a-list-using-the-datasource-property) 
 
 * [Declarative Data Binding]({%slug scheduler/data-binding/declarative-data-binding%})
 
