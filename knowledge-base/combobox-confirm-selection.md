@@ -18,47 +18,63 @@ Confirmation of RadComboBox selection change can be done in the ClientSelectedIn
 
 
 ````JavaScript
-function ClientSelectedIndexChanging(sender, args) {
-    args.set_cancel(true);
+        <telerik:RadComboBox
+            ID="RadComboBox1"
+            runat="server"
+            AutoPostBack="true"
+            Width="325px"
+            OnClientSelectedIndexChanging="ClientSelectedIndexChanging"
+            OnSelectedIndexChanged="RadComboBox1_SelectedIndexChanged">
+            <Items>
+                <telerik:RadComboBoxItem Text="Item1" />
+                <telerik:RadComboBoxItem Text="Item2" />
+                <telerik:RadComboBoxItem Text="Item3" />
+            </Items>
+        </telerik:RadComboBox>
 
-    var domEvent = args.get_domEvent();
-    var item = args.get_item();
+        <script>
+            function ClientSelectedIndexChanging(sender, args) {
+                args.set_cancel(true);
 
-    radconfirm("Are you sure you want to postback?", function (arg) {
-        theCallback(arg, item, domEvent)
-    }, 330, 180, null, "Confirm");
+                var domEvent = args.get_domEvent();
+                var item = args.get_item();
 
-}
+                radconfirm("Are you sure you want to postback?", function (arg) {
+                    theCallback(arg, item, domEvent)
+                }, 330, 180, null, "Confirm");
 
-function theCallback(selection, item, domEvent) {
-    if (selection) {
-        var combo = item.get_parent();
+            }
 
-        var text = combo.get_text();
-        var lastSeparatorIndex = combo._getLastSeparatorIndex(text);
+            function theCallback(selection, item, domEvent) {
+                if (selection) {
+                    var combo = item.get_parent();
 
-        var textToSet = text.substring(0, lastSeparatorIndex + 1) + item.get_text();
+                    var text = combo.get_text();
+                    var lastSeparatorIndex = combo._getLastSeparatorIndex(text);
 
-        combo.set_text(textToSet);
-        combo.set_originalText(textToSet);
-        combo.set_value(item.get_value());
+                    var textToSet = text.substring(0, lastSeparatorIndex + 1) + item.get_text();
 
-        combo.set_selectedItem(item);
-        combo.set_selectedIndex(item.get_index());
+                    combo.set_text(textToSet);
+                    combo.set_originalText(textToSet);
+                    combo.set_value(item.get_value());
 
-        item.set_selected(true);
-        item.highlight();
+                    combo.set_selectedItem(item);
+                    combo.set_selectedIndex(item.get_index());
 
-        combo.raise_selectedIndexChanged(null, domEvent);
+                    item.set_selected(true);
+                    item.highlight();
 
-        var command = {
-            Command: "Select",
-            Index: item.get_index()
-        };
+                    combo.raise_selectedIndexChanged(null, domEvent);
 
-        combo.postback(command);
-    }
-}
+                    var command = {
+                        Command: "Select",
+                        Index: item.get_index()
+                    };
+
+                    combo.postback(command);
+                }
+            }
+        </script>
 ````
 
   
