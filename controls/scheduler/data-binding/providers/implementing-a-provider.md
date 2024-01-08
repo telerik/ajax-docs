@@ -851,3 +851,5 @@ In addition you can find a full sample project for **"Web Services with Custom P
  * [Using a Data Provider]({%slug scheduler/data-binding/providers/using-a-data-provider%})
 
  * [Implementing a Provider That Supports Multi-Valued Resources]({%slug scheduler/data-binding/providers/implementing-a-provider-that-supports-multi-valued-resources%})
+ 
+  
