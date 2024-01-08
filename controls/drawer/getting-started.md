@@ -26,7 +26,7 @@ The following tutorial demonstrates how you can add the **RadDrawer** control. T
     * `SwipeToOpen` - enables/disables the swipe gestures for toggling the RadDrawer.
     * `DrawerWidth` - sets the width of the RadDrawer items container.
     * `ContentTemplate` - sets the content of the RadDrawer.
-    * `Template` - gets a hierarchical HTML structure that would represent the RadDrawer items.
+    * `ItemsTemplate` - gets a hierarchical HTML structure that would represent the RadDrawer items.
 
 
 The end result should be similar to the following:
@@ -42,7 +42,7 @@ The end result should be similar to the following:
             Swipe/Drag the mouse to the right to open the RadDrawer
         </p>
     </ContentTemplate>
-    <Template>
+    <ItemsTemplate>
         <ul> 
             <li data-role='drawer-item' class='k-state-selected'>
                 <span class='k-item-text'>First Item</span>
@@ -58,7 +58,7 @@ The end result should be similar to the following:
                 <span class='k-item-text'>Fourth Item</span>
             </li> 
         </ul>
-    </Template>
+    </ItemsTemplate>
 </telerik:RadDrawer>
 
 ````
