@@ -10,8 +10,6 @@ position: 3
 
 # Provider Interface Changes in Q3 2010
 
-
-
 ## Motivation
 
 It is often necessary to send additional data to the underlying data provider. This can be any form of meta-data that is not part of the appointments themselves. The interface defined by the original **SchedulerProviderBase** abstract base class did not provide any means of doing so. Side-channels, such as the Session, had to be used to transfer such meta-data.
@@ -28,12 +26,7 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 
 1. The legacy methods are no longer abstract. A runtime exception will be throw if you don't implement either the new or the old version of each method.
 
-
-
-
-
 ````C#
-	
 public abstract class SchedulerProviderBase : ProviderBase
 {
 	// New methods
@@ -44,8 +37,10 @@ public abstract class SchedulerProviderBase : ProviderBase
 
 	// Replaces both GetResourceTypes and GetResourcesByType
 	public virtual IDictionary<ResourceType, IEnumerable<Resource>> GetResources(ISchedulerInfo schedulerInfo);
+
 	// No change - returns a thread-safe wrapper of this provider instance
 	public virtual SchedulerProviderBase Synchronized();
+
 	// Legacy methods - used to be abstract
 	public virtual IEnumerable<Appointment> GetAppointments(RadScheduler owner);
 	public virtual IEnumerable<ResourceType> GetResourceTypes(RadScheduler owner);
@@ -54,44 +49,42 @@ public abstract class SchedulerProviderBase : ProviderBase
 	public virtual void Update(RadScheduler owner, Appointment appointmentToUpdate);
 	public virtual void Delete(RadScheduler owner, Appointment appointmentToDelete);
 } 
-	
 ````
-````VB.NET
-	     
-Public MustInherit Class SchedulerProviderBase
- Inherits ProviderBase
- ' New methods
-	 Public Overridable Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
-	 End Function
-	 Public Overridable Sub Insert(schedulerInfo As ISchedulerInfo, appointmentToInsert As Appointment)
-	 End Sub
-	 Public Overridable Sub Update(schedulerInfo As ISchedulerInfo, appointmentToUpdate As Appointment)
-	 End Sub
-	 Public Overridable Sub Delete(schedulerInfo As ISchedulerInfo, appointmentToDelete As Appointment)
-	 End Sub
-	 ' Replaces both GetResourceTypes and GetResourcesByType
-	 Public Overridable Function GetResources(schedulerInfo As ISchedulerInfo) As IDictionary(Of ResourceType, IEnumerable(Of Resource))
-	 End Function
-	 ' No change - returns a thread-safe wrapper of this provider instance
-	 Public Overridable Function Synchronized() As SchedulerProviderBase
-	 End Function
-	 ' Legacy methods - used to be abstract
-	 Public Overridable Function GetAppointments(owner As RadScheduler) As IEnumerable(Of Appointment)
-	 End Function
-	 Public Overridable Function GetResourceTypes(owner As RadScheduler) As IEnumerable(Of ResourceType)
-	 End Function
-	 Public Overridable Function GetResourcesByType(owner As RadScheduler, resourceType As String) As IEnumerable(Of Resource)
-	 End Function
-	 Public Overridable Sub Insert(owner As RadScheduler, appointmentToInsert As Appointment)
-	 End Sub
-	 Public Overridable Sub Update(owner As RadScheduler, appointmentToUpdate As Appointment)
-	 End Sub
-	 Public Overridable Sub Delete(owner As RadScheduler, appointmentToDelete As Appointment)
-	 End Sub
-End Class 
-	
-````
+````VB
+Public MustInherit Class SchedulerProviderBase Inherits ProviderBase
+	' New methods
+	Public Overridable Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
+	End Function
+	Public Overridable Sub Insert(schedulerInfo As ISchedulerInfo, appointmentToInsert As Appointment)
+	End Sub
+	Public Overridable Sub Update(schedulerInfo As ISchedulerInfo, appointmentToUpdate As Appointment)
+	End Sub
+	Public Overridable Sub Delete(schedulerInfo As ISchedulerInfo, appointmentToDelete As Appointment)
+	End Sub
 
+	' Replaces both GetResourceTypes and GetResourcesByType
+	Public Overridable Function GetResources(schedulerInfo As ISchedulerInfo) As IDictionary(Of ResourceType, IEnumerable(Of Resource))
+	End Function
+
+	' No change - returns a thread-safe wrapper of this provider instance
+	Public Overridable Function Synchronized() As SchedulerProviderBase
+	End Function
+
+	' Legacy methods - used to be abstract
+	Public Overridable Function GetAppointments(owner As RadScheduler) As IEnumerable(Of Appointment)
+	End Function
+	Public Overridable Function GetResourceTypes(owner As RadScheduler) As IEnumerable(Of ResourceType)
+	End Function
+	Public Overridable Function GetResourcesByType(owner As RadScheduler, resourceType As String) As IEnumerable(Of Resource)
+	End Function
+	Public Overridable Sub Insert(owner As RadScheduler, appointmentToInsert As Appointment)
+	End Sub
+	Public Overridable Sub Update(owner As RadScheduler, appointmentToUpdate As Appointment)
+	End Sub
+	Public Overridable Sub Delete(owner As RadScheduler, appointmentToDelete As Appointment)
+	End Sub
+End Class 
+````
 
 ## Upgrading existing providers
 
@@ -106,3 +99,5 @@ Your existing provider implementations will continue to work without change. The
  * [Sending Additional Information to the Provider]({%slug scheduler/data-binding/providers/sending-additional-information-to-the-provider%})
 
  * [Sending Additional Information to the Web Service]({%slug scheduler/web-service-binding/sending-additional-information-to-the-web-service%})
+ 
+ 
