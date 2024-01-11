@@ -11,7 +11,7 @@ position: 3
 
 This article describes how to get a reference to the client-side object of a **GridDataItem** and how to access  its cell values from the client-side code.
 
-To [access the cell values](#step-2-access-the-cell-values), first get a reference to the grid data item object by using one of the methods listed below.
+To [access the cell values](#step-2-access-the-cell-values), first, get a reference to the grid data item object by using one of the methods listed below.
 
 ## Step 1: Getting a Reference to the Grid Data Item Object
 
@@ -73,6 +73,7 @@ To get a reference, you can either traverse the DOM, or access the data item by 
 		</MasterTableView>
 	</telerik:RadGrid>
 	````
+ 
 	````C#
 	protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
 	{
