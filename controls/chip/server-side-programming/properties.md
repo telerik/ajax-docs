@@ -1,7 +1,7 @@
 ---
 title: Properties
 page_title: Chip Server-side Properties
-description: "The Server-side properties of the WebForms Chip component."
+description: "Server-side properties of the WebForms Chip component."
 slug: chip/server-side-programming/properties
 tags: chip,server-side,properties
 published: True
@@ -10,7 +10,7 @@ position: 1
 
 # Properties
 
-Avatar specific properties to customize its border radius, size, color, etc.
+Chip specific properties to change its border radius, size, theme color, and more.
 
 | Name          | Return type                                                                               | Description                                                                               |
 | ---           | ---                                                                                       | ---                                                                                       |

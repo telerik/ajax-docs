@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: RadAvatar JavaScript Properties
-description: Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
+page_title: Chip JavaScript Properties
+description: "JavaScript properties of the Telerik WebForms Chip component."
 slug: chip/client-side-programming/properties
 tags: properties
 published: True
@@ -10,7 +10,7 @@ position: 1
 
 # Properties
 
-Avatar specific properties to customize its border radius, size, color, etc.
+Chip specific properties to change its border radius, size, theme color, and more.
 
 ## Getters
 
