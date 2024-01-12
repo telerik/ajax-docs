@@ -212,6 +212,12 @@ navigation:
     "controls/chat":
         title: "Chat"
         position: 1
+    "controls/chip":
+        title: "Chip"
+        position: 1
+    "controls/chiplist":
+        title: "ChipList"
+        position: 1
     "controls/checkbox":
         title: "CheckBox"
         position: 1
