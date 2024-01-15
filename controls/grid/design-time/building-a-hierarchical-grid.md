@@ -122,52 +122,50 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 
 	1. Assigns the data table as the **DataSource** of the detail table view we are binding:
 
-	**C#**
-	
-		protected void RadGrid1_DetailTableDataBind(object sender, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
-		{
-			if (e.DetailTableView.DataSourceID == "")
-			{
-				GridDataItem dataItem = (GridDataItem)e.DetailTableView.ParentItem;
-				string OrderID = dataItem.GetDataKeyValue("OrderID").ToString();
-				e.DetailTableView.DataSource = GetDataTable("Select * from [Order Details] where OrderID = '" + OrderID + "'");
-			}
+````C#
+protected void RadGrid1_DetailTableDataBind(object sender, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
+{
+	if (e.DetailTableView.DataSourceID == "")
+	{
+		GridDataItem dataItem = (GridDataItem)e.DetailTableView.ParentItem;
+		string OrderID = dataItem.GetDataKeyValue("OrderID").ToString();
+		e.DetailTableView.DataSource = GetDataTable("Select * from [Order Details] where OrderID = '" + OrderID + "'");
+	}
+}
 
-		}
+public DataTable GetDataTable(string query)
+{
+	String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
+	SqlDataAdapter adapter = new SqlDataAdapter();
+	DataTable myDataTable = new DataTable();
+	using (SqlConnection conn = new SqlConnection(ConnString))
+	{
+		adapter.SelectCommand = new SqlCommand(query, conn);
+		adapter.Fill(myDataTable);
+	}
+	return myDataTable;
+}
+````
+````VB
+Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
+	If e.DetailTableView.DataSourceID = "" Then
+		Dim dataItem As GridDataItem = DirectCast(e.DetailTableView.ParentItem, GridDataItem)
+		Dim OrderID As String = dataItem.GetDataKeyValue("OrderID").ToString()
+		e.DetailTableView.DataSource = GetDataTable("Select * from [Order Details] where OrderID = '" + OrderID + "'")
+	End If
+End Sub
 
-		public DataTable GetDataTable(string query)
-		{
-			String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
-			SqlDataAdapter adapter = new SqlDataAdapter();
-			DataTable myDataTable = new DataTable();
-			using (SqlConnection conn = new SqlConnection(ConnString))
-			{
-				adapter.SelectCommand = new SqlCommand(query, conn);
-				adapter.Fill(myDataTable);
-			}
-			return myDataTable;
-		}
-		
-	**VB**
-	
-		Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
-			If e.DetailTableView.DataSourceID = "" Then
-				Dim dataItem As GridDataItem = DirectCast(e.DetailTableView.ParentItem, GridDataItem)
-				Dim OrderID As String = dataItem.GetDataKeyValue("OrderID").ToString()
-				e.DetailTableView.DataSource = GetDataTable("Select * from [Order Details] where OrderID = '" + OrderID + "'")
-			End If
-		End Sub
+Public Function GetDataTable(query As String) As DataTable
+	Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
+	Dim adapter As New SqlDataAdapter()
+	Dim myDataTable As New DataTable()
+	Using conn As New SqlConnection(ConnString)
+		adapter.SelectCommand = New SqlCommand(query, conn)
+		adapter.Fill(myDataTable)
+	End Using
+	Return myDataTable
+End Function
+````
 
-		Public Function GetDataTable(query As String) As DataTable
-			Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
-			Dim adapter As New SqlDataAdapter()
-			Dim myDataTable As New DataTable()
-			Using conn As New SqlConnection(ConnString)
-				adapter.SelectCommand = New SqlCommand(query, conn)
-				adapter.Fill(myDataTable)
-			End Using
-			Return myDataTable
-		End Function
-
-1. Run the application. Note that you can now see the dynamically bound Detail Table:
+Run the application. Note that you can now see the dynamically bound Detail Table:
 ![RadGrid With Three Levels](../images/grid_hierarchy21.png)
