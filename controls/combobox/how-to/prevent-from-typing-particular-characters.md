@@ -16,46 +16,65 @@ position: 5
 
 One of the limitations of the [OnClientKeyPressing]({%slug combobox/client-side-programming/events/onclientkeypressing%}) event is that it cannot be cancelled. This means that the user can type any letter in the input area of the RadComboBox (when **AllowCustomText** is set to *True*).
 
-This example will show you how to disallow the user to type any of the following letters in the input area of the combo: !@#$%^&*()
+These examples will show you how to disallow the user to type any of the following letters in the input area of the combo: !@#$%^&*()][{}
 
-````ASPNET
+Solution 1 leveraging the browser's addEventListener method to handle the keyDown event:
+
+````ASPX
+<telerik:RadComboBox
+    ID="RadComboBox1"
+    runat="server"
+    AllowCustomText="true"
+    OnClientLoad="OnClientLoad"
+    >
+</telerik:RadComboBox>
+<script>
+    function OnClientLoad(combo, args) {
+        var input = combo.get_inputDomElement();
+        input.addEventListener('keydown', onKeyDownHandler);
+    }
+
+    function onKeyDownHandler(e) {
+        var code = e.keyCode || e.which;
+
+        // Check for number keys with Shift (for symbols like !@#$%^&*())
+        if (e.shiftKey && code >= 48 && code <= 57) {
+            e.preventDefault();
+        }
+        // Check for [{}] keys
+        if (code === 219 || code === 221) {
+            e.preventDefault();
+        }
+    }
+</script>
+````
+
+Solution 2 based on the OnClientKeyPressing client-event of RadCombobox:
+
+````ASPX
 <telerik:radcombobox 
-	id="RadComboBox1"
-	runat="server" 
-	allowcustomtext="true">
+    id="RadComboBox1" 
+    runat="server" 
+    onclientkeypressing="HandleKeyPress"
+    AllowCustomText="true">
 </telerik:radcombobox>
+
+<script language="javascript" type="text/javascript">
+    function HandleKeyPress(sender, eventArgs) {
+        var domEvent = eventArgs.get_domEvent();
+        var code = domEvent.keyCode || domEvent.which;
+
+        // Check for number keys with Shift (for symbols like !@#$%^&*())
+        if (domEvent.shiftKey && code >= 48 && code <= 57) {
+            domEvent.preventDefault();
+        }
+        // Check for [{}] keys
+        if (code === 219 || code === 221) {
+            domEvent.preventDefault();
+        }
+    }
+</script>
 ````
-
-
-
-Add the following javascript code which will handle any keydown event on the input area and will cancel it by returning false (Internet Explorer) or preventing the default action (Firefox):
-
-````JavaScript
-	     	
-function pageLoad()
-{    
-	var combo = $find("<%= RadComboBox1.ClientID %>");    
-	var input = combo.get_inputDomElement();    
-	input.onkeydown = onKeyDownHandler;
-}
-
-function onKeyDownHandler(e)
-{    
-	if (!e) {      
-		e = window.event;           
-		var code = e.keyCode || e.which;
-		//do not allow any of these chars to be entered: !@#$%^&*()    
-		if (e.shiftKey && code >= 48 && code <= 57) {
-			 e.returnValue = false;
-			 if (e.preventDefault) {
-				 e.preventDefault();
-			 }
-		}        
-	}
-}
-				
-````
-
 
 
 # See Also
