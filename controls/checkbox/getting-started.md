@@ -12,66 +12,61 @@ position: 2
 
 The following tutorial demonstrates how to set up a page with a **RadCheckBox** control and use its **OnCheckedChanged** server event:
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadCheckBox** control:
+1) In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadCheckBox** control:
 
-	**ASP.NET**	
-	
-		<telerik:RadCheckBox ID="RadCheckBox1" runat="server">
-		</telerik:RadCheckBox>
+````ASPX	
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" />
+````
 
-1. Set the `Text`, `Value` and `CommandArgument` properties:
+2) Set the `Text`, `Value` and `CommandArgument` properties:
 
-	**ASP.NET**
+````ASPX
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="Some Text" Value="0" CommandArgument="arg1" />
+````
 
-		<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="Some Text" Value="0" CommandArgument="arg1" >
-		</telerik:RadCheckBox>
+3) To hook to the **OnCheckedChanged** server-side event of **RadCheckBox** add an attribute to the main control tag and add the method signature:
 
-1. To hook to the **OnCheckedChanged** server-side event of **RadCheckBox** add an attribute to the main control tag and add the method signature:
+````ASPX
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnCheckedChanged="RadCheckBox1_CheckedChanged" Text="Some Text" Value="0" CommandArgument="arg1" />
+````
 
-	**ASP.NET**
+````C#
+protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
+{
 
-		<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="Some Text" Value="0" CommandArgument="arg1" 
-			OnCheckedChanged="RadCheckBox1_CheckedChanged">
-		</telerik:RadCheckBox>
+}
+````
+````VB
+Protected Sub RadCheckBox1_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs)
+End Sub
+````
 
-	**C#**
-	
-		protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
-		{
-	
-		}
+5) Add a Label control to write the information to:
 
-	**VB**
-	
-		Protected Sub RadCheckBox1_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs)
-		End Sub
+````ASPX
+<asp:Label ID="Label1" Text="" runat="server" />
+````
 
-1. Add a Label control to write the information to:
+6) Use the **CheckedChanged** event handler to write information about the checkbox properties:
 
-	**ASP.NET**
+````C#
+protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
+{
+	RadCheckBox checkbox = sender as RadCheckBox;
 
-		<asp:Label ID="Label1" Text="" runat="server" />
+	string data = string.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}",
+								checkbox.Text, checkbox.Value, checkbox.CommandArgument, checkbox.Checked);
+	Label1.Text = data;
+}
+````
+````VB
+Protected Sub RadCheckBox1_CheckedChanged(sender As Object, e As EventArgs)
+	Dim checkbox = TryCast(sender, RadCheckBox)
 
-1. Use the **CheckedChanged** event handler to write information about the checkbox properties:
-
-	**C#**
-	
-		protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
-		{
-			var checkbox = sender as RadCheckBox;
-			string data = string.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}",
-										checkbox.Text, checkbox.Value, checkbox.CommandArgument, checkbox.Checked);
-			Label1.Text = data;
-		}
-
-	**VB**
-	
-		Protected Sub RadCheckBox1_CheckedChanged(sender As Object, e As EventArgs)
-			Dim checkbox = TryCast(sender, RadCheckBox)
-			Dim data As String = String.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}", checkbox.Text, checkbox.Value, checkbox.CommandArgument, checkbox.Checked)
-			Label1.Text = data
-		End Sub
-
+	Dim data As String = String.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}", checkbox.Text, checkbox.Value, checkbox.mmandArgument, checkbox.Checked)
+	Label1.Text = data
+End Sub
+````
 
 ## See Also
 
