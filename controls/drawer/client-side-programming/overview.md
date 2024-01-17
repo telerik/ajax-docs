@@ -22,16 +22,16 @@ RadDrawer is a server-side wrapper over the Kendo UI Drawer Widget. Thus, it exp
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
-    **JavaScript**
-    
-        var drawerObject  = $find("<%=RadDrawer1.ClientID %>"); //the standard script control object
-        var kendoDrawer = drawerObject.get_kendoWidget(); //the Kendo widget
+````JavaScript
+var drawerObject  = $find("<%=RadDrawer1.ClientID %>"); // The standard script control object
+var kendoDrawer = drawerObject.get_kendoWidget(); // The Kendo widget
+````
 
 * Get the Kendo Widget in its usual way. Make sure to use the `$telerik.$` jQuery reference:
 
-    **JavaScript**
-    
-        var kendoDrawer = $telerik.$("#<%=RadDrawer1.ClientID %>").data("kendoDrawer"); 
+````JavaScript
+var kendoDrawer = $telerik.$("#<%=RadDrawer1.ClientID %>").data("kendoDrawer"); 
+````
 
 In addition to using the Kendo method directly, you can also use their wrappers that follow the MS AJAX convention through the RadDrawer client object.
 
