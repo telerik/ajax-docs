@@ -33,7 +33,7 @@ Here is a basic runnable example which you can directly copy-paste to your proje
 </telerik:RadGrid>
 ````
 
-```C#
+````C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
     (sender as RadGrid).DataSource = Enumerable.Range(1, 6).Select(x => new
@@ -43,7 +43,7 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
     });
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
     (TryCast(sender, RadGrid)).DataSource = Enumerable.Range(1, 6).[Select](Function(x) New With {Key
         .ID = x, Key
