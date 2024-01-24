@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Data Binding Overview - RadGrid
-description: Check our Web Forms article about Data Binding Overview.
+description: "Overview of the Telerik WebForms Grid Data Binding."
 slug: grid/data-binding/overview
 tags: telerik,radgrid,data,binding,overview
 published: True
