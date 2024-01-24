@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadAvatar Server-side Programming
+page_title: Avatar Server-side Programming
 description: Overview of the Server-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
 slug: avatar/server-side-programming/overview
 tags: overview

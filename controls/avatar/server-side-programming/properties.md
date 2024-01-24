@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: RadAvatar Server-side Properties
-description: aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+page_title: Avatar Server-side Properties
+description: "The Server-side properties of the WebForms Avatar component."
 slug: avatar/server-side-programming/properties
 tags: properties
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Enums
-page_title: RadAvatar JavaScript Enums
-description: Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
+page_title: Avatar JavaScript Enums
+description: "Client-side Enums of the Telerik WebForms Avatar component"
 slug: avatar/client-side-programming/enums
 tags: enums
 published: True

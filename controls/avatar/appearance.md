@@ -1,7 +1,7 @@
 ---
 title: Appearance
-page_title: RadAvatar Appearance
-description: ....
+page_title: Avatar Appearance
+description: "Learn how to set the options to change the appearance such as, sizes, border radiuses, fill modes and theme colors."
 slug: avatar/appearance
 tags: overview
 published: True

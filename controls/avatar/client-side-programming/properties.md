@@ -1,7 +1,7 @@
 ---
 title: Properties
-page_title: RadAvatar JavaScript Properties
-description: Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
+page_title: Avatar JavaScript Properties
+description: "Client-side Properties of the Telerik WebForms Avatar Control."
 slug: avatar/client-side-programming/properties
 tags: properties
 published: True

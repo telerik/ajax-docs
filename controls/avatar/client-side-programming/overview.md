@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadAvatar Client-side Programming
+page_title: Avatar Client-side Programming
 description: Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
 slug: avatar/client-side-programming/overview
 tags: overview
