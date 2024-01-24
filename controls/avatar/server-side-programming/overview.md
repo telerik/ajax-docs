@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Avatar Server-side Programming
-description: Overview of the Server-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
+description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms Avatar Control."
 slug: avatar/server-side-programming/overview
 tags: overview
 published: True

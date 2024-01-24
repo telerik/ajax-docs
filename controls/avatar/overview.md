@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Avatar Overview
-description: The Telerik WebForms Avatar is typically used to display images, icons or initials representing people or other entities. It also gives you the flexibility to customize its border radius, size, color, etc. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI Avatar widget.
+description: "The Telerik WebForms Avatar is typically used to display images, icons or initials representing people or other entities. It also gives you the flexibility to customize its border radius, size, color, etc. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI Avatar widget."
 slug: avatar/overview
 tags: overview
 published: True

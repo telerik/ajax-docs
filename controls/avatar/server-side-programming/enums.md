@@ -1,7 +1,7 @@
 ---
 title: Enums
 page_title: Avatar Server-side Enums
-description: Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control.
+description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Avatar Control."
 slug: avatar/server-side-programming/enums
 tags: enums
 published: True
