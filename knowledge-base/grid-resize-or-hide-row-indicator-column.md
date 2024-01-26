@@ -20,7 +20,7 @@ ticketid: 1638098
 
 ## DESCRIPTION
 
-When the **AllowRowResize** property of the Grid is set to ***true***, RadGrid automatically generates a column of type **GridRowIndicatorColumn**, to make it easier for users to resize rows. 
+When the **AllowRowResize** property of the Grid is set to ***true***, RadGrid automatically a column of type **GridRowIndicatorColumn**, to make it easier for users to resize rows. 
 Depending on certain conditions, one might want to reduce its width or hide it.
 
 ## SOLUTION
