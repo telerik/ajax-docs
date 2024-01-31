@@ -2046,6 +2046,8 @@ intro_columns:
       "Breadcrumb": "breadcrumb/overview"
       "CheckBox": "checkbox/overview"
       "CheckBoxList": "checkboxlist/overview"
+      "Chip": "chip/overview"
+      "ChipList": "chiplist/overview"
       "Drawer": "drawer/overview"
       "FloatingActionButton": "floatingactionbutton/overview"
       "ImageButton": "imagebutton/overview"

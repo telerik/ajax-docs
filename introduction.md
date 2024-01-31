@@ -52,6 +52,10 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [CheckBoxList]({%slug checkboxlist/overview%})
 
+* [Chip]({%slug chip/overview%})
+
+* [ChipList]({%slug chiplist/overview%})
+
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
 * [Client Export Manager]({%slug clientexportmanager/overview%})
