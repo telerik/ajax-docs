@@ -30,35 +30,24 @@ There are two ways to configure the rendering mode of the controls:
 
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
-	__ASP.NET__
+````ASP.NET
+<telerik:RadNotification ID="RadNotification" runat="server" RenderMode="Lightweight" />
+````
 
-		<telerik:RadNotification ID="RadNotification" runat="server" RenderMode="Lightweight">
-		</telerik:RadNotification>
-
-
-
-	__C#__
-
-		RadNotification1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
-
-
-
-	
-	__VB__
-
-		RadNotification1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-
+````C#
+RadNotification1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+````
+````VB
+RadNotification1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+````
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
 
-	__XML__
-
-		<appSettings>
-			<add key="Telerik.Web.UI.Notification.RenderMode" value="lightweight" />
-		</appSettings>
-
-
-
+````XML
+<appSettings>
+	<add key="Telerik.Web.UI.Notification.RenderMode" value="lightweight" />
+</appSettings>
+````
 
 ## See Also
 
