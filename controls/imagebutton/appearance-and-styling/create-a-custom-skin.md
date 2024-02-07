@@ -16,43 +16,43 @@ The second file represents the actual skin of the control, and its name consists
 
 ## Create RadImageButton Skin from an Existing One
 
-1. In your project, create a new directory named **Skins**;
+1) In your project, create a new directory named **Skins**;
 
-1. In the **Skins** folder if you already have some custom skin, most probably you already have a folder named: **MyCustomSkin** – if you don’t – create one;
+2) In the **Skins** folder if you already have some custom skin, most probably you already have a folder named: **MyCustomSkin** – if you don’t – create one;
 
-1. In the **Skins** folder, create a new folder named: **MyCustomSkinLite** - this is the place where your Light-Weight custom skins CSS will be placed;
+3) In the **Skins** folder, create a new folder named: **MyCustomSkinLite** - this is the place where your Light-Weight custom skins CSS will be placed;
 
-1. Go to **[ControlsInstallationFolder]\Skins\DefaultLite** and copy **Button.Default.css** in your **MyCustomSkinLite** folder;
+4) Go to **[ControlsInstallationFolder]\Skins\DefaultLite** and copy **Button.Default.css** in your **MyCustomSkinLite** folder;
 
-1. Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy **Common** folder in your **MyCustomSkin** folder;
+5) Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy **Common** folder in your **MyCustomSkin** folder;
 
-1. Rename **Button.Default.css** to **Button.MyCustomSkin.css**;
+6) Rename **Button.Default.css** to **Button.MyCustomSkin.css**;
 
-1. When you are finished you should have the following folder structure in your project:
+7) When you are finished you should have the following folder structure in your project:
 
-	1. **Skins/MyCustomSkin/Common/** - containing several sprites;
+**Skins/MyCustomSkin/Common/** - containing several sprites;
 
-	1. **Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
+**Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
 
-1. In order to support multiple skins of **RadImageButton** on a single page, the wrapping skin-specific class is created by the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
+8) In order to support multiple skins of **RadImageButton** on a single page, the wrapping skin-specific class is created by the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
 
-	![Rename Button Light](images/RenameButtonLight.png)
+![Rename Button Light](images/RenameButtonLight.png)
 
-1. Add a new server declaration of **RadImageButton** on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
+9) Add a new server declaration of **RadImageButton** on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
-	**ASP.NET**
+````ASP.NET
+<telerik:RadImageButton ID="RadImageButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+````
 
-		<telerik:RadImageButton ID="RadImageButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+10) Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
+````ASP.NET
+<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+````
 
-	**ASP.NET**
+11) Make sure the path to the files is correct; otherwise the skin will not apply;
 
-		<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
-
-1. Make sure the path to the files is correct; otherwise the skin will not apply;
-
-1. Reload the page, and if the steps 1-11 have been followed correctly, you will see **RadImageButton** running a custom Default skin set as an external resource.
+12) Reload the page, and if the steps 1-11 have been followed correctly, you will see **RadImageButton** running a custom Default skin set as an external resource.
 
 ## Custom Skin Example
 

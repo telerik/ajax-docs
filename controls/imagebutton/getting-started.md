@@ -10,32 +10,33 @@ position: 2
 
 # Getting Started with the Telerik WebForms ImageButton
 
-The following tutorial demonstrates how to set up a page with a **RadImageButton** control and attach its **OnClick** server event:
+The following tutorial demonstrates how to set up a page with a **RadImageButton** control and attach its **OnClick** server event.
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadImageButton** control:
+In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadImageButton** control:
 
-	**ASP.NET**	
-	
-		<telerik:RadImageButton id="RadImageButton1" runat="server" Width="100px" Height="100px" Text="Image Button">
-            <Image Url="image.png" />
-		</telerik:RadImageButton>	
+````ASP.NET	
+telerik:RadImageButton id="RadImageButton1" runat="server" Width="100px" Height="100px" Text="Image Button">
+    <Image Url="image.png" />
+/telerik:RadImageButton>	
+````
 
-	The **Image-Url** property specifies the image that is going to be rendered in the **RadImageButton**. The **Text** property renders the specified text over the image.
+The **Image-Url** property specifies the image that is going to be rendered in the **RadImageButton**. The **Text** property renders the specified text over the image.
 
-1. To hook to the **OnClick** server-side event of **RadImageButton**, switch to [Design view]({%slug imagebutton/design-time%}) of Visual Studio and double-click on the **RadImageButton**. This will insert the following function in the code-behind file:
+To hook to the **OnClick** server-side event of **RadImageButton**, switch to [Design view]({%slug imagebutton/design-time%}) of Visual Studio and double-click on the **RadImageButton**. This will insert the following function in the code-behind file:
 
-	**C#**
-	
-		protected void RadImageButton1_Click(object sender, EventArgs e)
-		{
-		}
+````C#
+protected void RadImageButton1_Click(object sender, EventArgs e)
+{
 
-	**VB**
-	
-		Protected Sub RadImageButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
-		End Sub
+}
+````
+````VB
+Protected Sub RadImageButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 
-	This will also add `OnClick="RadImageButton1_Click"` to the **RadImageButton**'s declaration. In the Click event handler, add the code that you want to be executed when the **RadImageButton** control is clicked.
+End Sub
+````
+
+This will also add `OnClick="RadImageButton1_Click"` to the **RadImageButton**'s declaration. In the Click event handler, add the code that you want to be executed when the **RadImageButton** control is clicked.
 
 ## See Also
 
