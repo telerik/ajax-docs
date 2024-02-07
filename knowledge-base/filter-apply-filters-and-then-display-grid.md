@@ -23,13 +23,15 @@ res_type: kb
 
 ## Description
 
-Sometimes, one might want to apply filters first, and then display the Grid based on those filters.
+Sometimes, one might want to apply filters first, and then display the Grid based on said filters.
 
 ![filtearing then displaying the Grid](images/display-grid-after-filtering.gif "filtearing then displaying the Grid")
 
 ## Solution
 
-To achieve the desired result, you could utilize an approach that initially has the Grid loaded on the page, but not visible, and after the user clicks the "Apply" filter button, the Grid becomes visible with the selected filters. 
+To achieve the desired result, you could utilize an approach that initially has the Grid loaded on the page, while not being visible. After the user clicks the "Apply" filter button, the Grid becomes visible with the selected filters.
+
+Here's one way of achieving the desired result.
 
 - Add the `NotVisible` CSS class to the Grid.
 
@@ -37,16 +39,11 @@ To achieve the desired result, you could utilize an approach that initially has 
 <telerik:RadGrid CssClass="NotVisible" RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="true" DataSourceID="SqlDataSource1">
     <MasterTableView>
         <Columns>
-            <telerik:GridBoundColumn DataField="OrderID" HeaderText="OrderID" DataType="System.Int32">
-            </telerik:GridBoundColumn>
-            <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="OrderDate">
-            </telerik:GridDateTimeColumn>
-            <telerik:GridBoundColumn DataField="ShipCity" HeaderText="ShipCity">
-            </telerik:GridBoundColumn>
-            <telerik:GridBoundColumn DataField="ShipCountry" HeaderText="ShipCountry">
-            </telerik:GridBoundColumn>
-            <telerik:GridBoundColumn DataField="ShipName" HeaderText="ShipName">
-            </telerik:GridBoundColumn>
+            <telerik:GridBoundColumn DataField="OrderID" HeaderText="OrderID" DataType="System.Int32" />
+            <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="OrderDate" />
+            <telerik:GridBoundColumn DataField="ShipCity" HeaderText="ShipCity" />
+            <telerik:GridBoundColumn DataField="ShipCountry" HeaderText="ShipCountry" />
+            <telerik:GridBoundColumn DataField="ShipName" HeaderText="ShipName" />
         </Columns>
     </MasterTableView>
 </telerik:RadGrid>
