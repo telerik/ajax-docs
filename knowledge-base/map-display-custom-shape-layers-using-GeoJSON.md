@@ -1,11 +1,11 @@
 ---
-title: Display map shape layers using GeoJSON
-description: Display map shape layers using GeoJSON. Check it now!
+title: Display custom shape layers using GeoJSON
+description: Display custom shape layers using GeoJSON. Check it now!
 type: how-to
-page_title: Display map shape layers using GeoJSON. | RadMap
-slug: map-display-shape-layers-using-GeoJSON
+page_title: Display custom map shape layers using GeoJSON. | RadMap
+slug: map-display-custom-shape-layers-using-GeoJSON
 position: 
-tags: 
+tags: map, radmap, ajax, telerik, custom, shape, pollygon
 ticketid: 1638945
 res_type: kb
 ---
@@ -28,6 +28,8 @@ In this article you will see how to display custom shape layers using GeoJSON in
 ![Polygon shape using GeoJSON](images/map-geojson-polygoin%20.png "Polygon shape using GeoJSON")
 
 ## Solution
+
+- Add a `HiddenField` which will be used for storing the GeoJSON coordinates. Additioanlly, attach the [OnInitialize]({%slug map/client-side-programming %}) client-side event to the Map and employ an event handler to it.
 
 ````ASPX
 <asp:HiddenField runat="server" ID="HiddenGeoJSON" />
@@ -52,15 +54,23 @@ In this article you will see how to display custom shape layers using GeoJSON in
     </LayersCollection>
 </telerik:RadMap>
 ````
+
+- In the event handler, set the data source of the layer to the value of the hidden field. 
+
 ````JS
 function OnInitialize(sender, args) {
     var originalOptions = args.get_options();
     var geoJSON = document.getElementById("<%=HiddenGeoJSON.ClientID%>").value;
 
-    originalOptions.layers[0].dataSource = { data: JSON.parse(geoJSON) };
+    originalOptions.layers[0].dataSource = { 
+        data: JSON.parse(geoJSON) 
+    };
+
     args.set_options(originalOptions);
 }
 ````
+
+- In the code-behind, add the lattitude/longtitude coordinates for the points.
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
