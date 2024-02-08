@@ -16,29 +16,27 @@ The following tutorial demonstrates how you can add a simple **RadProgressBar** 
 
 ![progress-bar-getting-started-1](images/progress-bar-getting-started-1.png)
 
-1. Add a **ScriptManager** control on a Web Form.
+Add a **ScriptManager** control on a Web Form.
 
-1. Add a **RadProgressBar** control on this AJAX-enabled Web Form:
+Add a **RadProgressBar** control on this AJAX-enabled Web Form:
 
-	>caption Example 1: Declaration of a **RadProgressBar** control.
+>caption Example 1: Declaration of a **RadProgressBar** control.
 
-	**ASP.NET**
-			
-		<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1">
-		</telerik:RadProgressBar>
+````ASP.NET
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1">
+</telerik:RadProgressBar>
+````
 
+Set some of the properties of the ProgressBar like **BarType**, **Value**, **MaxValue** and **Orientation**	to configure the progress bar in the desired way.
 
-1. Set some of the [properties of the ProgressBar](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radprogressbar.html) like **BarType**, **Value**, **MaxValue** and **Orientation**	to configure the progress bar in the desired way.
+>caption Example 2: The progress bar now is horizontally oriented, configured with the desired value in percent.
 
-	>caption Example 2: The progress bar now is horizontally oriented, configured with the desired value in percent.
-
-	**ASP.NET**	
-	
-		<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" 
-			BarType="Percent" MaxValue="100" Value="33" Width="250" 
-			Orientation="Horizontal" ShowLabel="true" Skin="Silk">
-		</telerik:RadProgressBar>
-
+````ASP.NET	
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" 
+	BarType="Percent" MaxValue="100" Value="33" Width="250" 
+	Orientation="Horizontal" ShowLabel="true" Skin="Silk">
+</telerik:RadProgressBar>
+````
 
 ## See Also
 

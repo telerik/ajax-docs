@@ -18,7 +18,7 @@ Error: `Error: Sys.InvalidOperationException: Two components with the same id 'R
 
 Workaround: Use `<telerik:RadScriptManager>` instead of `<asp:ScriptManager>`
 
-```ASP.NET
+````ASP.NET
 <%--<asp:ScriptManager ID="Scriptmanager1" runat="server" />--%> <-- issue
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1"></telerik:RadScriptManager> <-- workaround
 <asp:UpdatePanel ID="Updatepanel1" runat="server">

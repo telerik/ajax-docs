@@ -29,29 +29,35 @@ For a list with the server-side properties and methods of the control, see the [
 ````C#
 protected void Page_Init(object sender, EventArgs e)
 {
-	Telerik.Web.UI.RadProgressBar progressBar = new Telerik.Web.UI.RadProgressBar();
+	RadProgressBar progressBar = new RadProgressBar();
+
 	progressBar.ID = "RadProgressBar1";
 	progressBar.Width = 250;
 	progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent;
 	progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal;
+
 	progressBar.MaxValue = 100;
 	progressBar.Value = 33;
 	progressBar.ShowLabel = true;
 	progressBar.Skin = "Silk";
+
 	Page.Controls.Add(progressBar);
 }
 ````
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Load
-	Dim progressBar As New Telerik.Web.UI.RadProgressBar()
+	Dim progressBar As New RadProgressBar()
+
 	progressBar.ID = "RadProgressBar1"
 	progressBar.Width = 250
 	progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent
 	progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal
+
 	progressBar.MaxValue = 100
 	progressBar.Value = 33
 	progressBar.ShowLabel = True
 	progressBar.Skin = "Silk"
+	
 	Page.Controls.Add(progressBar)
 End Sub
 ````
