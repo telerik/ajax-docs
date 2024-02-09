@@ -23,18 +23,16 @@ Signature UI component for ASP.NET AJAX is a server-side wrapper over the Kendo 
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
-    **JavaScript**
-
-        var signature  = $find("<%=RadSignature1.ClientID %>"); //the standard script control object
-        var kendoSignature = signature.get_kendoWidget(); //the Kendo widget
-
+````JavaScript
+var signature  = $find("<%=RadSignature1.ClientID %>"); //the standard script control object
+var kendoSignature = signature.get_kendoWidget(); //the Kendo widget
+````
 
 * Get the Kendo Widget in its usual way. Make sure to use the `$telerik.$` jQuery reference:
 
-    **JavaScript**
-    
-        var kendoSignature = $telerik.$("#<%=RadSignature1.ClientID %>").data("kendoSignature"); 
-
+````JavaScript
+var kendoSignature = $telerik.$("#<%=RadSignature1.ClientID %>").data("kendoSignature"); 
+````
 
 In addition to using the Kendo methods directly, you can also use their wrappers that follow the MS AJAX convention through the RadSignature client object.
 
