@@ -19,22 +19,42 @@ The following example allows the same OnClientLoad event handler to be used by b
 
 ````ASP.NET
 <form id="form1" runat="server" autocomplete="off">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+        </Scripts>
+    </telerik:RadScriptManager>
+
+    <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server">
+        <ClientEvents OnLoad="onClientLoad" />
+    </telerik:RadTextBox>
+
+    <telerik:RadComboBox ID="RadComboBox1" runat="server" RenderMode="Lightweight" OnClientLoad="onClientLoad">
+        <Items>
+            <telerik:RadComboBoxItem Text="Item 1" />
+            <telerik:RadComboBoxItem Text="Item 2" />
+        </Items>
+    </telerik:RadComboBox>
+</form>
 ````
 
 ````JavaScript
 function OnClientLoad(sender, args) {
     disableAutoFill(sender);
 }
- 
+
 function disableAutoFill(control) {
     function focusHandler(ev) {
         this.originalName = this.name;
         this.name = new Date().toString();
     }
+
     function blurHandler(ev) {
         this.name = this.originalName;
     }
- 
+
     if (Telerik.Web.UI.RadComboBox && control instanceof Telerik.Web.UI.RadComboBox) {
         $telerik.$(control.get_inputDomElement()).on({
             focus: focusHandler,
