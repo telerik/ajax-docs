@@ -44,14 +44,14 @@ The following example uses the **OnKeyPress** event to limit input to the letter
 
 
 ````JavaScript
-<script type="text/javascript">
-	function AlphabetOnly(sender, eventArgs)
-	{
-		var c = eventArgs.get_keyCode();
-		if ((c < 65) || (c > 90 && c < 97) || (c > 122))
-			eventArgs.set_cancel(true);
-	}
-</script>
+function AlphabetOnly(sender, eventArgs) {
+	var currentVal = sender.get_value(); // Get the current value of the input
+	var keyChar = eventArgs.get_keyCharacter(); // Get the character for the key that was pressed
+	
+	// Assuming the character is allowed and will be added to the input:
+	var newVal = currentVal + keyChar; // Manually append the character to the current value
+	alert(newVal)
+}
 ````
 
 
