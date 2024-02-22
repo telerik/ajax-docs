@@ -135,72 +135,70 @@ As to the AJAX settings, if the markup settings within the user control do not s
 
 The following example demonstrates how to add `AjaxSettings` to the AjaxManager.
 
-* On the main form:
+On the main form:
 
-		````ASP.NET
-		<form id="Form1" method="post" runat="server">
-		    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-		    </telerik:RadScriptManager>
-		    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-		    </telerik:RadAjaxManager>
-		    <uc1:webusercontrol1 id="WebUserControl1" runat="server"></uc1:webusercontrol1>
-		</form>
-		````
+````ASP.NET
+<form id="Form1" method="post" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    </telerik:RadScriptManager>
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+    </telerik:RadAjaxManager>
+    <uc1:webusercontrol1 id="WebUserControl1" runat="server"></uc1:webusercontrol1>
+</form>
+````
 
-* On the user control markup:
+On the user control markup:
 
-		````ASP.NET
-		<asp:Button ID="Button1" Text="Button" runat="server"></asp:Button>
-		<asp:Label ID="Label1" runat="server">Label</asp:Label>
-		````
+````ASP.NET
+	<asp:Button ID="Button1" Text="Button" runat="server"></asp:Button>
+	<asp:Label ID="Label1" runat="server">Label</asp:Label>
+````
 
-* In the page code-behind:
+In the page code-behind:
 
-		````C#
-		protected void Page_Load(object sender, EventArgs e)
-		{
-		    //Get the WebUserControl
-		    UserControl MyControl = (UserControl)Page.FindControl("WebUserControl1");
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    //Get the WebUserControl
+    UserControl MyControl = (UserControl)Page.FindControl("WebUserControl1");
 
-		    //Get user control's button and label
-		    Button MyButton = (Button)MyControl.FindControl("Button1");
-		    Label MyLabel = (Label)MyControl.FindControl("Label1");
+    //Get user control's button and label
+    Button MyButton = (Button)MyControl.FindControl("Button1");
+    Label MyLabel = (Label)MyControl.FindControl("Label1");
 
-		    //Add the necessary AJAX setting programmatically
-		    RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel);
-		}
-						
-		````
-		````VB
-		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-		    'Get the WebUserControl
-		    Dim MyControl As UserControl = CType(Page.FindControl("WebUserControl1"), UserControl)
+    //Add the necessary AJAX setting programmatically
+    RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel);
+}
+````
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    'Get the WebUserControl
+    Dim MyControl As UserControl = CType(Page.FindControl("WebUserControl1"), UserControl)
 
-		    'Get user control's button and label
-		    Dim MyButton As Button = CType(MyControl.FindControl("Button1"), Button)
-		    Dim MyLabel As Label = CType(MyControl.FindControl("Label1"), Label)
+    'Get user control's button and label
+    Dim MyButton As Button = CType(MyControl.FindControl("Button1"), Button)
+    Dim MyLabel As Label = CType(MyControl.FindControl("Label1"), Label)
 
-		    'Add the necessary AJAX setting programmatically
-		    RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel)
-		End Sub 
-		````
+    'Add the necessary AJAX setting programmatically
+    RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel)
+End Sub 
+````
 
 You can use the `RadAjaxManager.GetCurrent(Page)` method to reference the AjaxManager in the `Page_Load` of the user control and add the `AjaxSettings` there as well.
 
 The following example demonstrates how to achieve this on the user control code-behind.
 
-		````C#
-		protected void Button1_Click(object sender, System.EventArgs e)
-		{
-		    Label1.Text = DateTime.Now.ToLongTimeString();
-		}
-		````
-		````VB
-		Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-		    Label1.Text = DateTime.Now
-		End Sub
-		````
-
+````C#
+protected void Button1_Click(object sender, System.EventArgs e)
+{
+    Label1.Text = DateTime.Now.ToLongTimeString();
+}
+````
+````VB
+Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Label1.Text = DateTime.Now
+End Sub
+````
 
 
 
@@ -212,3 +210,5 @@ The following example demonstrates how to achieve this on the user control code-
 * [Add AjaxSettings Programmatically]({%slug ajaxmanager/how-to/add-ajaxsettings-programmatically%})
 
 * [User Controls](https://demos.telerik.com/aspnet-ajax/Ajax/Examples/Manager/UserControl/DefaultCS.aspx)
+
+ 
