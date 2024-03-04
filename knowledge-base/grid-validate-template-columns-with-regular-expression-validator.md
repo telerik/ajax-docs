@@ -9,6 +9,15 @@ ticket-id: 1642123
 tags: grid, validate, template columns, regex, telerik, asp net
 ---
 
+## Environment
+
+<table>
+    <tr>
+        <td>Product</td>
+        <td>Telerik WebForms Grid for ASP.NET AJAX</td>
+    </tr>
+</table>
+
 ## Description
 
 ![Invalid Email](images/invalid-email.png "Invalid Email")
