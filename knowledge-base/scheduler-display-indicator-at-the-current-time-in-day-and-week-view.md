@@ -41,4 +41,11 @@ protected void RadScheduler1_TimeSlotCreated(object sender, TimeSlotCreatedEvent
     }
 }
 ````
+````VB
+Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As TimeSlotCreatedEventArgs)
+    If (e.TimeSlot.[End] < DateTime.Now.AddMinutes(30)) AndAlso (e.TimeSlot.[End] > DateTime.Now) Then
+        e.TimeSlot.CssClass = "nowCss"
+    End If
+End Sub
+````
   
