@@ -21,10 +21,8 @@ res_type: kb
 
 ## Description
 
-![Changing the mask of the GridMaskedColumn while editing](images/GridMaskedColumn.gif "Changing the mask of the GridMaskedColumn while editing")
-
-In certain scenarios, you may wish to incorporate a method to toggle between different masks of a masked textbox. Such a scenario couild be if you're working with national and international phone numbers.
-When the Grid is not in edit mode, the **GridMaskedColumn** will look and behave as a **GridBoundColumn**, meaning the data will appear as it is in the database.
+In certain scenarios, you may wish to incorporate a method to toggle between different masks of a masked textbox. Such a scenariocouild be if you're working with national and international phone numbers.
+When the Grid is not in edit mode, the **_GridMaskedColumn_** will look and behave as a **_GridBoundColumn_**, meaning the data will appear as it is in the database.
 
 Usually, you can use the `DataFormatString` of the column to format a number, but this would not work on strings.
 
@@ -58,7 +56,7 @@ protected void rgPhoneNumber_ItemDataBound(object sender, GridItemEventArgs e)
 {
     if (e.Item is GridDataItem && !e.Item.IsInEditMode)
     {
-        GridDataItem dataItem = (GridDataItem) e.Item; // When displaying the item
+        GridDataItem dataItem = (GridDataItem) e.Item;         // When displaying the item
         CheckBox checkBox = dataItem["InternationalNumber"].Controls[0] as CheckBox;
 
         bool isInternational = checkBox.Checked;
@@ -107,7 +105,7 @@ private void CheckBox_CheckedChanged(object sender, EventArgs e)
 
     if (checkBox.Checked)
     {
-        phoneFormat = "+### ### #### ####"; // Change the mask when the checkbox checked changes
+        phoneFormat = "+### ### #### ####"; // change the mask when the checkbox checked changes
     }
 
     mask.Mask = phoneFormat;
