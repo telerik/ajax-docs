@@ -48,4 +48,8 @@ Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As T
     End If
 End Sub
 ````
-  
+
+### See Also
+
+* [Display indicator at the current time in TimeLine view](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/scheduler-display-indicator-at-the-current-time)
+* [RadScheduler horizontal time line](https://www.telerik.com/forums/408602-radscheduler-horizontal-time-line)
