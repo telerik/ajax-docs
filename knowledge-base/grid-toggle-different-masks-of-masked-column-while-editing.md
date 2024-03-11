@@ -21,14 +21,16 @@ res_type: kb
 
 ## Description
 
-In certain scenarios, you may wish to incorporate a method to toggle between different masks of a masked textbox. Such a scenariocouild be if you're working with national and international phone numbers.
+![Switching between different masks](images/GridMaskedColumn.gif "Switching between different masks")
+
+In certain scenarios, you may wish to incorporate a method to toggle between different masks of a masked textbox. Such a scenario could be if you're working with national and international phone numbers.
 When the Grid is not in edit mode, the **_GridMaskedColumn_** will look and behave as a **_GridBoundColumn_**, meaning the data will appear as it is in the database.
 
 Usually, you can use the `DataFormatString` of the column to format a number, but this would not work on strings.
 
 ## Solution
 
-Having this said, you will need to consider, using numbers only (even if they are stored as strings). Otherwise, you will have to strip the special characters from the string that you already have to make it parsable by a numeric type and that involves a lot of manual work/sanitization.
+Having this said, you will need to consider using numbers only (even if they are stored as strings). Otherwise, you will have to strip the special characters from the string that you already have to make it parsable by a numeric type and that involves a lot of manual work/sanitization.
 
 Here is one example that uses only digits which can be parsed by numeric types and formatted later. The following example will apply the formatting both when displaying the data and when editing.
 
@@ -56,7 +58,7 @@ protected void rgPhoneNumber_ItemDataBound(object sender, GridItemEventArgs e)
 {
     if (e.Item is GridDataItem && !e.Item.IsInEditMode)
     {
-        GridDataItem dataItem = (GridDataItem) e.Item;         // When displaying the item
+        GridDataItem dataItem = (GridDataItem) e.Item; // When displaying the item
         CheckBox checkBox = dataItem["InternationalNumber"].Controls[0] as CheckBox;
 
         bool isInternational = checkBox.Checked;
