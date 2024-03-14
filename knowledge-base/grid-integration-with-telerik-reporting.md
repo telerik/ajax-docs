@@ -17,9 +17,10 @@ res_type: kb
     </tr>
 </table>
 
-![Integration with Telerik Reporting](images/grid-reporting-integration.gif "Integration with Telerik Reporting")
 
 ## Description
+
+![Integration with Telerik Reporting](images/grid-reporting-integration.gif "Integration with Telerik Reporting")
 
 This article demonstrates how to integrate the Grid with the [***Telerik Reporting***](https://www.telerik.com/products/reporting.aspx) product to embed reporting functionality in your ASP.NET app.  
 The integration itself depends on external assemblies, such as:
@@ -227,9 +228,9 @@ public class OrderDetails
 }
 ````
 
-User controls
+**GridUC_CS** User control
 
-````GridUC_CS.ascx
+````ASP.NET
 <%@ Control Language="C#" ClassName="GridUC_CS" %>
 
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" ShowStatusBar="true" Width="1000px"
@@ -322,7 +323,10 @@ User controls
     </SelectParameters>
 </asp:SqlDataSource>
 ````
-````ReportViewerUC_CS.ascx
+
+**ReportViewerUC_CS** User Control
+
+````ASP.NET
 <%@ Control Language="C#" ClassName="ReportViewerUC_CS" %>
 <%@ Register Assembly="Telerik.ReportViewer.Html5.WebForms" Namespace="Telerik.ReportViewer.Html5.WebForms" TagPrefix="telerikRep" %>
 
