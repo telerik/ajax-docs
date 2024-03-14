@@ -18,11 +18,36 @@ The event handler receives the following parameter:
 
 1. The instance of the listbox firing the event.
 
+You can use this event to get the number of items inside the ListBox.
+
 ````JavaScript
 <script type="text/javascript">
-	function OnClientItemsRequested(sender, eventArgs) {
-		alert("There are " + sender.get_items().get_count() + " items.");
-	}
+    function OnClientItemsRequested(sender, eventArgs) { 
+        var listBox = sender;
+        var listBoxElement = listBox.get_element();
+
+        var items = listBox.get_items();
+        var count = items.get_count();
+
+        alert(`There are ${count} items in the ListBox`);
+    }
+</script>
+````
+
+Or you could preselect the first item when the control loads initially.
+
+````JavaScript
+<script type="text/javascript">
+    function OnClientLoad(sender, args) {
+        sender.__preSelectFirst = sender.get_selectedItems().length === 0;
+    }
+
+    function OnClientItemsRequested(sender, eventArgs) {
+        if (sender.__preSelectFirst) {
+            sender.__preSelectFirst = false;
+            sender.getItem(0).select();
+        }
+    }
 </script>
 ````
 
