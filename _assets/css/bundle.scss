@@ -1,0 +1,7 @@
+// https://github.com/rails/sass-rails/issues/363
+@import "_bundle-main.scss";
+
+// product specific
+@import "./products/prettify-default";
+@import "products/main-variables.scss";
+@import "products/product-specific";

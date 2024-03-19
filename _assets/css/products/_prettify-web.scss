@@ -1,0 +1,46 @@
+/* START PrettyPrint code-block examples */
+.prettyprint {
+  font-size: 12px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 2px dashed #ebecee;
+  margin: 5px 0;
+}
+
+pre .nocode {
+  background-color: transparent;
+  color: #000;
+}
+
+pre .str,
+pre .atv {
+  color: #2db245;
+} /* attribute value */
+pre .kwd {
+  color: #ff3399;
+} /* keyword */
+pre .com {
+  color: #9933cc;
+} /* comment */
+pre .typ {
+  color: #000;
+} /* type */
+pre .lit {
+  color: #0099ff;
+} /* literal */
+pre .pun {
+  color: #333;
+} /* punctuation */
+pre .pln {
+  color: #3e526b;
+} /* plaintext */
+pre .tag {
+  color: #3e526b;
+} /* html/xml tag */
+pre .atn {
+  color: #3e526b;
+} /* attribute name */
+pre .dec {
+  color: #3e526b;
+} /* decimal */
+/* END PrettyPrint code-block examples */

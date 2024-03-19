@@ -1,0 +1,11 @@
+// https://github.com/rails/sass-rails/issues/363
+@import "products/kendo-variables.scss";
+
+@import "_bundle-main.scss";
+@import "codemirror/codemirror.scss";
+@import "codemirror/theme.scss";
+
+// product specific
+@import "products/prettify-web.scss";
+@import "products/product-specific";
+

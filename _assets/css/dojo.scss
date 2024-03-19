@@ -1,0 +1,7 @@
+@import './dojo-layout';
+
+@import './thememode/variables-dark';
+
+[data-is-dark='true'] {
+    @import './thememode/dojo-themes';
+}

@@ -1,0 +1,30 @@
+/* Supported Platforms Styles */
+
+.platforms {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.platforms:after {
+    border-bottom: 2px solid #ebecee;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.platforms span:first-child {
+    margin-left: 10px;
+}
+
+.separator {
+    margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .platforms {
+      display: none;
+  }
+}

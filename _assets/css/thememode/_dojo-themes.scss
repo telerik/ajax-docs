@@ -1,0 +1,34 @@
+@import "variables-template";
+
+.action-buttons {
+    border-color: $border-color;
+    background-color: $bg-tertiary;
+
+    .btn,
+    .btn-dojo {
+        color: $text-headline;
+        border-color: $border-color;
+
+        &:hover {
+            color: $text-headline;
+            background-color: $menu-hover-bg;
+        }
+    }
+
+    .active-button {
+        background-color: $menu-hover-bg;
+    }
+
+}
+
+.CodeMirror {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: $border-color;
+    background-color: $bg-secondary;
+
+    &,
+    .CodeMirror {
+        color: $text-secondary;
+    }
+}

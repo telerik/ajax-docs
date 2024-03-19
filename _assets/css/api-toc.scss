@@ -1,0 +1,96 @@
+#markdown-toc {
+  border-bottom: 1px solid #ebecee;
+  position: fixed;
+  background-color: #fff;
+  top: 100px;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  height: 47px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 0 0 22.5%;
+
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  > ul > li {
+      display: inline-block;
+      position: relative;
+  }
+
+  li > ul {
+      position: absolute;
+      max-height: 400px;
+      width: 500px;
+      overflow: auto;
+      background: #fff;
+      box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2);
+      padding: 1em 0;
+  }
+
+  a {
+      padding: 0 14px;
+      text-decoration: none;
+      line-height: 1.8em;
+
+      &:hover {
+          text-decoration: underline;
+      }
+  }
+
+  code,
+  em {
+      display: none;
+  }
+
+  .section > a {
+      line-height: 47px;
+      font-size: 15px;
+      font-weight: bold;
+      display: inline-block;
+      padding-right: 35px;
+      background: transparent url(image_path("arrow.png")) 90% 50% no-repeat !important;
+      // color: #27A306;
+
+      &:hover {
+          background-color: #f5f7f8;
+          text-decoration: none;
+      }
+  }
+
+  ~ article.api-reference {
+      /* adjust for ToC fixed positioning */
+      padding-top: 40px;
+
+      &:target:before {
+          content: "";
+          display: block;
+          height: 175px;
+          margin: -175px 0 0;
+      }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #markdown-toc {
+      padding-left: 33.3%;
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  #markdown-toc {
+      padding-left: 15px;
+  }
+}

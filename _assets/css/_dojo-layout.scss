@@ -1,0 +1,72 @@
+.action-buttons {
+    margin-top: 12px;
+    border: 1px solid #e8ebef;
+    border-bottom: 0;
+    background-color: #fefefe;
+
+    .btn {
+        margin: 0;
+        padding: .72em 1.5em;
+        border: 0;
+        border-radius: 0;
+        line-height: 1.2em;
+        outline: none;
+        background-color: transparent;
+        color: #333;
+        border-width: 0;
+        border-right: 1px solid #e8ebef;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: none;
+            background-color: #e8ebef;
+            color: #000;
+        }
+    }
+
+    + pre {
+        margin-top: 0;
+    }
+
+    .active-button,
+    .active-button:hover {
+        background-color: #e8ebef;
+        color: #333;
+    }
+
+    .btn-dojo {
+      float: right;
+      border-right: 0;
+      border-left: 1px solid #e8ebef;
+
+      svg {
+          margin-right: 10px;
+      }
+
+      path {
+          fill: currentColor;
+      }
+  }
+}
+
+.CodeMirror {
+    clear: both;
+    border: 1px solid #ebecee;
+    height: auto !important;
+    font-family: "Metric Mono", "Ubuntu Mono", "Consolas", "Monaco", monospace;
+
+    pre {
+      font-family: "Metric Mono", "Ubuntu Mono", "Consolas", "Monaco", monospace !important;
+  }
+}
+
+.CodeMirror-code {
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.snippet-runner {
+    width: 100%;
+    min-height: 450px;
+    box-sizing: border-box;
+}

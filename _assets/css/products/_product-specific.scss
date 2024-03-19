@@ -1,0 +1,179 @@
+#navbar {
+
+    a:hover::after,
+    a:focus::after,
+    a:active::after,
+    .active a::after {
+        background-color: $accent;
+    }
+
+    .search-icon {
+        &:hover path,
+        &:active path,
+        &:focus path {
+            fill: $accent;
+        }
+    }
+
+    .nav-button a {
+        background-color: $accent-solid;
+
+        &:hover,
+        &:active {
+            background-color: darken($accent-solid, 10%);
+        }
+    }
+}
+
+.brand-getting-started {
+    .call-to-action {
+        background-color: $accent;
+
+        &:hover,
+        &:active {
+            background-color: darken($accent, 10%);
+        }
+    }
+}
+
+#version:hover {
+    color: $accent;
+}
+
+
+.side-nav {
+    .k-state-selected {
+        color: $side-nav-link-color;
+
+        a {
+            font-weight: $side-nav-selected-fw;
+            color: $side-nav-link-color;
+
+            &:active {
+                color: $side-nav-link-color;
+            }
+        }
+    }
+}
+
+.additional-content-column {
+    .btn-action {
+        color: $btn-action-foreground;
+        border-color: $accent;
+        background-color: $btn-action-background;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $btn-action-active-color;
+            background-color: $btn-action-active;
+        }
+    }
+}
+
+.article-toc,
+.related-articles,
+.feedback-ab {
+
+    ul a {
+        &:hover,
+        &:active,
+        &:focus {
+            color: $accent;
+        }
+    }
+    
+    a {
+        &:hover {
+            color: $accent;
+        }
+    }
+
+    .active a {
+        border-color: $accent;
+    }
+}
+
+
+#refine-search-popup {
+
+    li .k-icon {
+        color: $accent-solid;
+    }
+}
+
+
+.feedback-more-info {
+    .feedback-ab-submit-button {
+        background-color: $accent;
+    }
+}
+
+.components-tabstrip {
+
+    li::after {
+        background-color: $accent;
+    }
+}
+
+.component-icon {
+    > svg {
+        > path {
+            fill: $accent;
+        }
+    }
+}
+
+.api-reference {
+
+    h3,
+    h4,
+    h4 ~ p {
+        code,
+        .code {
+            background-color: $code-background-color;
+        }
+    }
+
+    h5 {
+
+        code,
+        .code {
+            background-color: $code-background-color;
+        }
+    }
+}
+
+.card-list {
+    li:hover {
+        a {
+            color: $accent;
+        }
+    }
+}
+
+code {
+
+    a & {
+        color: $accent;
+    }
+
+    blockquote {
+        a & {
+            color: $accent;
+        }
+    }
+}
+
+
+article #allcontrols-table {
+    .control-category {
+        color: $accent;
+    }
+}
+
+div#footer {
+    .environment-develop & {
+        background-color: $env-develop-bg;
+    }
+}

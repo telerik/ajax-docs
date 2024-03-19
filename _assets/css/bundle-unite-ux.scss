@@ -1,0 +1,12 @@
+// https://github.com/rails/sass-rails/issues/363
+@import "_bundle-main.scss";
+
+// product specific
+@import "./products/prettify-default.scss";
+@import "products/unite-ux-variables.scss";
+@import "products/product-specific.scss";
+
+[data-is-dark='true'] {
+    @import "products/unite-ux-variables-dark.scss";
+    @import "products/product-specific.scss";
+}

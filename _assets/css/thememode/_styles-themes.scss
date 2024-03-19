@@ -1,0 +1,482 @@
+@import "variables-template";
+@import 'mixins';
+
+body {
+    color: $text-secondary;
+    background-color: $bg-tertiary;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3, 
+h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    color: $text-headline;
+}
+
+pre {
+    border-color: $border-color;
+    background-color: $bg-primary;
+}
+
+.content-wrapper {
+    a {
+        color: $hyperlink-text;
+    
+        &:hover {
+            color: $hyperlink-hover-text;
+        }
+    }
+    
+    h1,
+    h2,
+    h3 {
+        a {
+            color: inherit;
+        }
+    }
+}
+
+
+#navbar {
+    background-color: $bg-secondary;
+    backdrop-filter: $header-filter;
+    box-shadow: $header-shadow;
+    
+
+    .switch-btn {
+        border-color: $border-color;
+        background-color: $bg-primary;
+        box-shadow: $button-switch-shadow;
+
+        .switch-icon {
+            background-image: $icon-switcher-url;
+        }
+    }    
+
+    .all-components {    
+        color: $hyperlink-text
+    }
+}
+
+.search-input-container {
+
+    svg path {
+        fill: $hyperlink-text;
+    }
+    
+    input { 
+        color: $text-headline;
+        border-color: $bg-secondary;
+        background-color: $bg-secondary;
+    
+        &::placeholder {
+            color: $text-disabled;
+        }
+    
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: $border-color;
+            background-color: $bg-primary;
+    
+            &::placeholder {
+                color: $text-headline;
+            }
+        }
+    
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 50px $bg-primary inset;
+            -webkit-text-fill-color: $text-headline;
+        }
+    }
+    
+}
+
+a.kd-button-primary {
+    color: $text-primary;
+}
+
+#refine-search-button {
+    color: inherit;
+}
+
+#refine-search-popup {
+
+    ul {
+        border-color: $border-color;
+        color: $text-headline;
+        background-color: $bg-secondary;
+    }
+
+    li:hover {
+        background-color: $menu-hover-bg;
+    }
+
+    .k-icon {
+        color: inherit;
+    }
+}
+
+.side-nav {
+    @include opacity("border-color", $text-headline, .2);
+    color: $text-headings;
+    background-color: $bg-tertiary;
+
+    a {
+        color: inherit;
+    }
+
+    .k-treeview > .k-group > .k-item > div,
+    #page-tree-api > .k-group > .k-item > div {
+        @include opacity("border-color", $text-headings, .2);
+    }
+
+    .k-treeview,
+    #page-tree-api {
+
+        > .k-group > .k-item {
+            > div {
+                @include opacity("border-color", $text-headings, .2);
+            }
+
+            div {
+                > .k-icon {
+                    &.k-i-expand,
+                    &.k-i-collapse {
+                        background-image: $icon-treeview-e-url;
+                    }
+                    &.k-i-collapse {
+                        transform: rotate(90deg);
+                    }
+
+                    &.k-i-expand {
+                        -webkit-transform: none;
+                        transform: none;
+                    }
+                }
+            }
+
+        } 
+    }
+
+    .k-state-selected {
+
+        &,
+        a:hover {
+            background-color: transparent;
+        }
+    }
+
+    .k-state-hover,
+    .k-item > div:hover,
+    .k-state-selected:hover {
+        background-color: $menu-hover-bg;
+    }
+
+    &::-webkit-scrollbar {
+        background: $bg-primary;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        @include opacity("background", $hyperlink-text, .8);
+
+        &:hover {
+            background: $hyperlink-text;
+        }
+    }
+
+    &::-webkit-scrollbar-button {
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:vertical:start {
+            background-image: $icon-scrollbar-arrow-n-url;
+        }
+
+        &:vertical:end {
+            background-image: $icon-scrollbar-arrow-s-url;
+        }
+    }
+}
+
+.article-toc,
+.related-articles,
+.feedback-ab {
+    border-color: $border-color;
+
+}
+
+.article-toc a,
+.side-title,
+.related-articles a,
+.additional-info-content {
+    color: inherit;
+}
+
+.side-nav-secondary {
+    color: $text-headline;
+
+    .btn-edit-article {
+        color: $hyperlink-text;
+
+        &:hover {
+            color: $hyperlink-hover-text;
+        }
+    }
+}
+
+a.btn-contact-support {
+    color: $border-color;
+    border-color: $border-color;
+
+    &:hover {
+        color: $bg-tertiary;
+        background-color: $border-color;
+    }
+}
+
+.kd-cta {
+    border-color: $border-color;
+}
+
+.kd-cta-sm .kd-text {
+    color: $text-headings;
+}
+
+article {
+
+    h1, h2, h3, h4, h5, h6 {
+        a{
+            color: $text-headings;
+        }
+    }
+
+    table {
+        border-color: $border-color;
+
+        tr {
+            background-color: $bg-primary;
+        }
+
+        th {
+            color: $text-headings;
+            background-color: $bg-primary;
+            border-bottom-color:  $text-headline;
+        }
+
+        tr:nth-child(odd),
+        tr:nth-child(2n+1) td {
+            background-color: $bg-secondary;
+        }
+    }
+
+}
+
+.k-tabstrip {
+    border-color: $border-color;
+    background-color: $bg-secondary;
+
+    .k-tabstrip-items {
+        color: $text-headings;
+        border-color: $border-color;
+        background-color: $bg-tertiary;
+
+        .k-state-active {
+            color: $text-headings;
+            background-color: $menu-hover-bg;
+        }
+    }
+
+    .copy-code-btn {
+        polygon,
+        path {
+           fill: $text-headings;
+       }
+
+    }
+}
+
+div.caption {
+    color: $text-headline;
+}
+
+#api-filter {
+
+    path {
+        fill: $hyperlink-text;
+    }
+
+    input {
+        border-color: $border-color;
+        background-color: $bg-tertiary;
+
+        &:hover,
+        &:focus {
+            background-color: $bg-primary;
+        }
+
+        &::placeholder {
+            color: $text-disabled;
+        }
+    }
+}
+
+.snippet-runner {
+    border-style: dashed;
+    border-color: $border-color;
+    background-color: $bg-secondary;
+    box-shadow: none;
+}
+
+code {
+    color: $text-headline;
+    background-color: $bg-primary;
+}
+
+a code {
+    color: inherit;
+}
+
+.prettyprint {
+    border-color: $border-color;
+
+    &,
+    code {
+        color: $text-secondary;
+        background-color: $bg-secondary;
+    }
+
+    .copy-code-btn {
+        fill: $text-headline;
+    }
+
+    .dec,
+    .tag {
+        color: inherit;
+    }
+
+    .pun {
+        color: $hyperlink-text;
+    }
+
+    .pln,
+    .typ,
+    .atn {
+        color: $text-headline;
+    }
+
+    .com {
+        color: #cc66ff;
+    }
+
+    .lit {
+        color: #0099FF;
+    }
+
+    .kwd {
+        color: #FF3399;
+    }
+
+    .str {
+        color: #2DB245;
+    }
+
+}
+
+blockquote {
+    border-color: #FFC000;
+    color: $text-headline;
+    background-color: $bg-secondary;
+
+
+    &:not(.alert-note) a,
+    &:not(.alert-note) a:link {
+        color: $hyperlink-text;
+
+        &:hover {
+            color: $hyperlink-hover-text;
+        }
+    }
+}
+
+#results {
+    border-top-color: $border-color;
+
+    p {
+        color: inherit;
+    }
+}
+
+.go-back path {
+    fill: currentColor;
+}
+
+.site-pager {
+    .k-pager-numbers li a,
+    .k-pager-numbers li span,
+    a.k-pager-nav {
+        color: $hyperlink-text;
+    }
+
+    .k-pager-numbers li {
+        a:hover,
+        a:focus {
+            background-color: $bg-primary;
+        }
+
+        .k-state-selected {
+            border-color: $border-color;
+            background-color: $bg-primary;
+        }
+    }
+    
+    a.k-pager-nav {
+        &:hover,
+        &:focus {
+            background-color: $bg-primary;
+        }
+    }
+}
+
+div#footer {
+    color: $text-secondary;
+    border-color: $border-color;
+    background-color: $bg-primary;
+
+    h6 {
+        color: inherit;
+    }
+
+    a {
+        color: $text-headings;
+
+        &:hover {
+            color: $hyperlink-hover-text;
+        }
+    }
+
+    p {
+        color: inherit;
+    }
+
+    .progress-logo {
+        path:nth-child(2) {
+            fill: $text-headings;
+        }
+    }
+
+    .social-icon path {
+        fill: $text-headings;
+    }
+}
+
+
+

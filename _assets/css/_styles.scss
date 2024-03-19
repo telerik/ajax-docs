@@ -1,0 +1,6 @@
+@import './styles-layout';
+
+@import './thememode/variables-dark';
+[data-is-dark='true'] {
+    @import './thememode/styles-themes';
+}

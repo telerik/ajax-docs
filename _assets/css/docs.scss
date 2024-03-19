@@ -1,0 +1,274 @@
+/* Content styles */
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #3f4d5c;
+    background-color: #f7f7f8;
+}
+
+a {
+    color: #ff6757;
+}
+
+a:hover {
+    color: #3f4d5c;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.file-list,
+pre {
+  margin: 4px 0;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+}
+
+code {
+  display: inline-block;
+  padding: 0 5px 1px;
+  color: #000;
+  background-color: #fcfcfc;
+  font-size: 90%;
+  line-height: 1.4em;
+  font-family: 'RobotoMono', Consolas, Menlo, Courier, monospace;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+}
+
+pre code {
+  border: 0;
+}
+
+a code {
+  color: #ec407a;
+}
+
+.snippet-runner {
+  border: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+}
+
+/* Docs TabStrip */
+
+.docs-tabstrip { /* ul */
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.docs-tabstrip li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 0;
+  background: none;
+  padding: 0;
+}
+
+.docs-tabstrip li.active {
+  border-bottom: 2px solid $accent;
+}
+
+.docs-tabstrip li.active a {
+  color: $accent;
+}
+
+.docs-tabstrip a {
+  display: block;
+  padding: 4px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Metric", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+}
+
+[data-height] .file-list {
+  height: calc(100% - 64px);
+}
+
+.file-list {
+  margin-bottom: 16px;
+  padding: 16px 32px;
+}
+
+.file-list li.active {
+  border-bottom: 0;
+}
+
+.file-list .docs-tabstrip {
+  margin-bottom: 8px;
+}
+
+.file-list .docs-tabstrip a {
+  text-transform: none;
+  letter-spacing: normal;
+  color: #4f5d6c;
+}
+
+.file-list .docs-tabstrip a:hover {
+  color: #337ab7;
+}
+
+.file-list .docs-tabstrip li.active a:hover {
+  color: $accent;
+}
+
+.file-list pre {
+  border: 0;
+  padding-left: 0;
+  margin: 16px 0;
+}
+
+.file-list pre::after {
+  display: none;
+}
+
+.file-list .tab-content {
+  margin: 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+/* Dialog styles */
+
+.dialog {
+  -webkit-transform: none;
+  transform: none;
+  -webkit-transition: -webkit-transform 0.2s ease-out, opacity 0.2s ease-out;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  opacity: 1;
+}
+
+.dialog-enter {
+  -webkit-transform: scale(0.9, 0.9);
+  transform: scale(0.9, 0.9);
+  opacity: 0.1;
+}
+
+.dialog-overlay {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+/* Editor Styles */
+
+
+.editor {
+  min-height: 300px;
+  height: calc(100% - 160px );
+  position: relative;
+  margin: 80px;
+  background-color: #f7f7f8;
+  padding: 16px 20px;
+  -webkit-box-shadow: 0 2px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 25px rgba(0,0,0,0.2);
+}
+
+.jsfiddle:after,
+.plunkr:after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  vertical-align: text-top;
+  background-size: 16px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.jsfiddle:after {
+  background-image: url("https://jsfiddle.net/img/embeddable/logo-dark.png");
+}
+
+.plunkr:after {
+  background-image: url("https://plnkr.co/img/plunker.png");
+}
+
+.editor .editor-container {
+  float: none;
+  position: absolute;
+  left: 122px;
+  top: 18px;
+  font-size: 15px;
+  background-size: 20px;
+  background-position: right 3px;
+  padding-right: 28px;
+}
+
+.edit-area {
+  position: absolute;
+  margin: 0;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fefefe;
+  border-top: 1px solid #e4e4e4;
+}
+
+.edit-area > div {
+  padding: 0;
+  height: 100%;
+}
+
+.editor .pane {
+  position: relative;
+  border-bottom: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  height: 10%;
+}
+
+.editor .pane + .pane {
+  height: 90%;
+}
+
+.editor .pane:only-child {
+    height: 100%;
+}
+
+.editor .pane-preview {
+  height: 100%;
+  border-left: 1px solid #e4e4e4;
+  position: relative;
+  padding: 30px 10px 10px;
+}
+
+.editor h3 {
+  margin: 0;
+}
+
+.editor h5 {
+  text-align: right;
+}
+
+.editor .CodeMirror {
+  height: 100%;
+  background-color: transparent;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.editor iframe {
+  height: 100% !important; /* suppress iframe resizing */
+}
+

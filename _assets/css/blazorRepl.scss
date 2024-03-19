@@ -1,0 +1,46 @@
+@import "dojo.scss";
+
+article {
+    .action-buttons {
+        background-color: #EFEFEF;
+
+        .btn.btn-repl {
+            float: right;
+            border-right: 0;
+            border-left: 1px solid #e8ebef;
+            padding-left: 2.7em;
+            background: transparent url(image_path("external.png")) no-repeat 1.4em 50%;
+
+            &:hover{
+                background-color: #e8ebef;
+            }
+        }
+        button.btn, a.btn {
+            position: relative;
+            padding: 14px 20px;
+
+            text-align: center;
+            font: 500 14px/20px Metric, Arial, sans-serif;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: uppercase;
+
+            &:active,&:focus, &:active:focus{
+                outline: none;
+            }
+
+            &.active-button:before{
+                content: "";
+                height: 3px;
+                background: #3D57D8;
+                display: block;
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}
+

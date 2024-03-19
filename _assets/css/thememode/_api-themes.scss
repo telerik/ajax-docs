@@ -1,0 +1,31 @@
+@import "variables-template";
+@import 'mixins';
+
+
+.api-breadcrumbs-container {
+    background-color: $bg-tertiary;
+    @include opacity("border-color", $text-headline, .2);
+}
+
+.links-container {
+
+    & > a {        
+        &:after {
+            background-image: $breadcrumb-arrow-url;
+        }
+    }
+    
+    ul {
+        background-color: $bg-tertiary;
+        border-color: $border-color;
+
+        a {
+    
+            &:hover {
+                background-color: $menu-hover-bg;
+            }
+        }
+    }
+    
+
+}

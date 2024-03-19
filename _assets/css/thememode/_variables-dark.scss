@@ -1,0 +1,43 @@
+$is-dark: true;
+
+$hyperlink-text: #8db8ff;
+$hyperlink-hover-text: #bbd4ff;
+$dark-hyperlink-color:#8dB8ff;
+
+$bg-primary: #20256c;
+$bg-secondary: #11184b; // searchbox input
+$bg-tertiary: #06163e; // main bg
+
+$text-primary: #ffffff;
+$text-secondary: #b5c2e3;
+$text-headings: $text-primary;
+$text-headline: #F5F6F7;
+$text-disabled: #bababa;
+
+$border-color: #1285de;
+
+$menu-hover-bg: #282f89;
+
+$header-filter: none;
+$header-shadow: 0 1px rgba($border-color, 0.5);
+
+$button-primary: #f46147;
+$button-switch-shadow: null;
+
+$info-text: #03a9f4;
+
+$angular: #FF6358;
+$telerik: #27A306;
+$react: #53D2FA;
+$blazor: #B695F3;
+$jquery: #FF884D;
+$test-studio: #EE8400;
+
+$product-color: $jquery;
+
+$icon-switcher-url: url(image_path("switcher-dark.png"));
+$icon-treeview-e-url: url(image_path("expand-arrow-e.svg"));
+$icon-treeview-s-url: url(image_path("expand-arrow-s.svg"));
+$icon-scrollbar-arrow-n-url: url(image_path("arrow-scrollbar-n.svg"));
+$icon-scrollbar-arrow-s-url: url(image_path("arrow-scrollbar-s.svg"));
+$breadcrumb-arrow-url: url(image_path("breadcrumb-shadow-dark.png"));
