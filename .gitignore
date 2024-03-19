@@ -6,8 +6,8 @@
 .jekyll-metadata
 .ruby-version
 .vs
-/_assets/
 /_build/
+/_assets/
 /_buildApi/
 /_common/root/
 /_data/
