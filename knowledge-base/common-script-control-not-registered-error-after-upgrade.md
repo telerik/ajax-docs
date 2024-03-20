@@ -15,7 +15,7 @@ The core of these problems lies in the incompatibility or specific challenges of
 
 # Solution
 
-1. Remove or disable async operations in the page directive and the code-behind. Specifically, set Async="false" in the page directive (if present) and convert asynchronous task methods back to synchronous methods where Telerik controls are involved. This change addresses the immediate issue by avoiding the async-await pattern that Telerik UI for ASP.NET AJAX controls struggle with.
+1. Remove or disable async operations in the page directive and the code-behind. Specifically, set Async="false" in the page directive (if present) and convert asynchronous task methods back to synchronous methods where Telerik controls are involved. This change addresses the immediate issue by avoiding the async-await pattern that Telerik UI for ASP.NET AJAX controls struggle with. You can find more information [here](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-errors-when-page-async-is-true-for-the-async-await-pattern).
 
 2. Ensure that the AJAX manager is not placed in a UserControl. You can find more information in this [forum thread](https://www.telerik.com/forums/script-control-radajaxmanager1-is-not-a-registered-script-control#3HI7KXuExEmuqFulcpNFsw).
 
