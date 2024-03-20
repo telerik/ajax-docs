@@ -23,18 +23,7 @@ The core of these problems lies in the incompatibility or specific challenges of
 
 4. Temporarily disable AJAX and check for any hidden script errors using the instructions provided in this [documentation](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-get-more-descriptive-errors-by-disabling-ajax).
 
-5. If you are using the `asp:ScriptManager`, replace it with a Telerik `RadScriptManager`. Here is an example:
-
-
-```html
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-    <Scripts>
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
-    </Scripts>
-</telerik:RadScriptManager>
-```
+5. If you are using the `asp:ScriptManager`, replace it with a Telerik `RadScriptManager`.
 
 6. Disable the `RegisterWithScriptManager` property. Refer to this [Stack Overflow post](https://stackoverflow.com/a/13262496/6509119) for more information.
 
