@@ -2,7 +2,7 @@
 title: Fix Object reference not set to an instance of an object  at Telerik.Web.SkinRegistrar.GetAppSetting error
 description: See how to fix the Object reference not set to an instance of an object at Telerik.Web.SkinRegistrar.GetAppSetting error
 type: troubleshooting
-page_title: Fix Object reference not set to an instance of an object  at Telerik.Web.SkinRegistrar.GetAppSetting error
+page_title: Fix Object reference not set to an instance of an object at Telerik.Web.SkinRegistrar.GetAppSetting error
 slug: common-fix-object-reference-skinregistrar-error
 position: 
 tags: 
@@ -22,7 +22,7 @@ res_type: kb
 
 
 ## Description
-The System.NullReferenceException error could be encountered by developers when dealing with the Telerik.Web.UI library. 
+The System.NullReferenceException error can be encountered by developers when dealing with the Telerik.Web.UI library. 
 
 The detailed error message is:
 
@@ -42,10 +42,11 @@ This error indicates that there's a null object that the code is attempting to a
 To address the System.NullReferenceException error in Telerik.Web.UI, follow the steps below:
 - Make sure that the Telerik.Web.UI.Skins.dll is referenced in the project and that it has the same version as the Telerik.Web.UI.dll. You can see how to check the DLL assembly version in this article: [How to find out which is the used version of Telerik.Web.UI in the web application](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-assembly-version).
 - Check for and if not available add the SkinsAssembly setting to the web.config
-````xml
-<add key="Telerik.Web.SkinsAssembly" value="Telerik.Web.UI.Skins" />
-````
+    
+    ````
+        <add key="Telerik.Web.SkinsAssembly" value="Telerik.Web.UI.Skins" />
+    ````
 - Set the EnableScriptsCombine property of the ScriptManager/RadScriptManager to false and see if the issue can still be observed.
-- Alternatively, you can try to enable the Just My Code option in Visual Studio, see [Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-telerik-web-ui-pdb-not-loaded-error).
+- Alternatively, you can try to enable the *Just My Code* option in Visual Studio, see [Telerik.Web.Ui.pdb not loaded error when debugging in Visual Studio](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-telerik-web-ui-pdb-not-loaded-error).
 
   
