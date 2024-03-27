@@ -29,7 +29,7 @@ res_type: kb
 Check the Solution section to see how to fix the Could not transform licenses file into a binary resource error related to the licenses.licx file.
 
 ## Solution
-Usually, when the licx files are created, there is a license file as well as a binary file for the licenses. If you have just one of them missing, this would cause an error. 
+Usually, when the [licx files](https://docs.telerik.com/devtools/aspnet-ajax/licensing#net-licensing-mechanism) are created, there is a license file as well as a binary file for the licenses. If you have just one of them missing, this would cause an error. 
 
 Try to remove both files and check how that would work for you.
 * In a Web Site project type, one file (App_Licenses.dll) would be in the root, and the other (licenses.licx) in the bin folder:
