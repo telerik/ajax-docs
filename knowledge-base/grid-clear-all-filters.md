@@ -31,18 +31,33 @@ protected void RadButton_ClearAllFilters_Click(object sender, EventArgs e)
 {
     foreach (GridColumn column in RadGrid1.MasterTableView.Columns)
     {
- 
         column.ListOfFilterValues = null; // CheckList values set to null will uncheck all the checkboxes
- 
-        column.CurrentFilterFunction = GridKnownFunction.NoFilter;
-        column.CurrentFilterValue = string.Empty;
 
-           column.AndCurrentFilterFunction = GridKnownFunction.NoFilter;
-           column.AndCurrentFilterValue = string.Empty;
+        column.CurrentFilterFunction = GridKnownFunction.NoFilter;
+        column.AndCurrentFilterFunction = GridKnownFunction.NoFilter;
+
+        column.CurrentFilterValue = string.Empty;
+        column.AndCurrentFilterValue = string.Empty;
     }
     RadGrid1.MasterTableView.FilterExpression = string.Empty;
     RadGrid1.MasterTableView.Rebind();
 }
+````
+````VB
+Protected Sub RadButton_ClearAllFilters_Click(ByVal sender As Object, ByVal e As EventArgs)
+    For Each column As GridColumn In RadGrid1.MasterTableView.Columns
+        column.ListOfFilterValues = Nothing
+
+        column.CurrentFilterFunction = GridKnownFunction.NoFilter
+        column.AndCurrentFilterFunction = GridKnownFunction.NoFilter
+
+        column.CurrentFilterValue = String.Empty
+        column.AndCurrentFilterValue = String.Empty
+    Next
+
+    RadGrid1.MasterTableView.FilterExpression = String.Empty
+    RadGrid1.MasterTableView.Rebind()
+End Sub
 ````
 
 ## Code snippets for a complete sample - OPTIONAL
@@ -56,6 +71,11 @@ The above function will work with all Filter types
     AllowFilteringByColumn="true"
     FilterType="Classic"  
     OnNeedDataSource="RadGrid1_NeedDataSource">
+    <MasterTableView CommandItemDisplay="Top">
+    <CommandItemTemplate>
+        <telerik:RadButton runat="server" ID="RadButton_ClearAllFilters" Text="Clear all filters" OnClick="RadButton_ClearAllFilters_Click" />
+    </CommandItemTemplate>
+</MasterTableView>
 </telerik:RadGrid>
 ````
 
@@ -68,6 +88,11 @@ The above function will work with all Filter types
     OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnColumnCreated="RadGrid1_ColumnCreated">
+    <MasterTableView CommandItemDisplay="Top">
+    <CommandItemTemplate>
+        <telerik:RadButton runat="server" ID="RadButton_ClearAllFilters" Text="Clear all filters" OnClick="RadButton_ClearAllFilters_Click" />
+    </CommandItemTemplate>
+</MasterTableView>
 </telerik:RadGrid>
 ````
 
@@ -81,6 +106,11 @@ The above function will work with all Filter types
     OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnColumnCreated="RadGrid1_ColumnCreated">
+    <MasterTableView CommandItemDisplay="Top">
+    <CommandItemTemplate>
+        <telerik:RadButton runat="server" ID="RadButton_ClearAllFilters" Text="Clear all filters" OnClick="RadButton_ClearAllFilters_Click" />
+    </CommandItemTemplate>
+</MasterTableView>
 </telerik:RadGrid>
 ````
 
@@ -95,10 +125,15 @@ The above function will work with all Filter types
     OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnColumnCreated="RadGrid1_ColumnCreated">
+    <MasterTableView CommandItemDisplay="Top">
+    <CommandItemTemplate>
+        <telerik:RadButton runat="server" ID="RadButton_ClearAllFilters" Text="Clear all filters" OnClick="RadButton_ClearAllFilters_Click" />
+    </CommandItemTemplate>
+</MasterTableView>
 </telerik:RadGrid>
 ````
 
-### C# Code for binding data to the any of the Grid above
+### Code for binding data to the any of the Grid above
 
 ````C#
 protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -158,6 +193,49 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
         e.Column.FilterCheckListEnableLoadOnDemand = true;
     }
 }
+````
+````VB
+Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
+    RadGrid1.DataSource = OrdersTable()
+End Sub
+
+Private Function OrdersTable() As DataTable
+    Dim dt As DataTable = New DataTable()
+    dt.Columns.Add(New DataColumn("OrderID", GetType(Integer)))
+    dt.Columns.Add(New DataColumn("OrderDate", GetType(DateTime)))
+    dt.Columns.Add(New DataColumn("Freight", GetType(Decimal)))
+    dt.Columns.Add(New DataColumn("ShipName", GetType(String)))
+    dt.Columns.Add(New DataColumn("ShipCountry", GetType(String)))
+    dt.PrimaryKey = New DataColumn() {dt.Columns("OrderID")}
+
+    For i As Integer = 0 To 70 - 1
+        Dim index As Integer = i + 1
+        Dim row As DataRow = dt.NewRow()
+        row("OrderID") = index
+        row("OrderDate") = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0).AddHours(index)
+        row("Freight") = index * 0.1 + index * 0.01
+        row("ShipName") = "Name " & index
+        row("ShipCountry") = "Country " & index
+        dt.Rows.Add(row)
+    Next
+
+    Return dt
+End Function
+
+Protected Sub RadGrid1_FilterCheckListItemsRequested(ByVal sender As Object, ByVal e As GridFilterCheckListItemsRequestedEventArgs)
+    Dim DataField As String = (TryCast(e.Column, IGridDataColumn)).GetActiveDataField()
+    e.ListBox.DataSource = OrdersTable().DefaultView.ToTable(True, DataField)
+    e.ListBox.DataKeyField = DataField
+    e.ListBox.DataTextField = DataField
+    e.ListBox.DataValueField = DataField
+    e.ListBox.DataBind()
+End Sub
+
+Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
+    If e.Column.SupportsFiltering() Then
+        e.Column.FilterCheckListEnableLoadOnDemand = True
+    End If
+End Sub
 ````
 
 ## See Also
