@@ -4,7 +4,6 @@ description: Display country data using GeoJSON. Check it now!
 type: how-to
 page_title: Display data for countries using GeoJSON. | RadMap
 slug: map-display-country-data-using-geojson
-position: 
 tags: map, radmap, ajax, telerik, custom, geojson
 ticketid: 1646646
 res_type: kb
@@ -16,7 +15,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product</td>
-			<td>RadMap for ASP.NET AJAX</td>
+			<td>Telerik WebForms Map for ASP.NET AJAX</td>
 		</tr>
 	</tbody>
 </table>
