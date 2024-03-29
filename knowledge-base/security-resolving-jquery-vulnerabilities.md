@@ -41,7 +41,7 @@ We have applied the fix available in jQuery 3.5 and 3.7.1. Here is the fix in 3.
 
 Parameter Pollution (CVE-2019-11358) is discussed in https://www.cvedetails.com/cve/CVE-2019-11358/ and https://www.privacy-wise.com/mitigating-cve-2019-11358-in-old-versions-of-jquery/. Here is a comparison between our version and the official one of 1.12.4:
 
-Picture 3
+![CVE-2019-11358 Fix](images/jQuery-CVE-2019-11358.png)
 
 This custom version of jQuery 1.12.4 was necessary due to limitations in the Microsoft AJAX framework used in ASP.NET WebForms. However, if you want to use a newer version of jQuery, you can configure the Telerik Ajax controls to use an external jQuery. You can disable the embedded jQuery library and include an external one as a replacement. This lets you use your version for the $telerik.$ variable, which exposes the embedded jQuery library. That way you can have complete control over the used version of jQuery. You can find instructions on how to use external jQuery in the [Including external jQuery](https://docs.telerik.com/devtools/aspnet-ajax/integration/jquery/using-jquery#including-external-jquery) section. You will need just to test extensively your application for:
 
