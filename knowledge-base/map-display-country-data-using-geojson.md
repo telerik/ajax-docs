@@ -91,5 +91,32 @@ function onShapeMouseLeave(e) {
 }
 ````
 
+If you wish to display the text on the state itself, you can do that by creating a label with the name of the state. To do that, you can utilize a si  milar approach as the one shown in the [Add Titles to Map ShapesAdd Titles to Map Shapes](https://docs.telerik.com/kendo-ui/knowledge-base/add-shape-title) article.
+
+````JavaScript
+function onShapeCreated(e) {
+    var bbox = e.shape.bbox(); // Get the "box" of each of the states
+    var center = bbox.center(); // We need the center, in order to later display the label exactly on it.
+
+    var labelText = e.shape.dataItem.properties.name; // The JSON file with the states has their corresponding name, so the label text will be the name of each state
+    var label = new kendo.drawing.Text(labelText);
+    label.options.fill.color = "#FFFFFF"; // Set the color to white
+    var labelCenter = label.bbox().center(); 
+
+    label.position([ // Position the label
+        center.x - labelCenter.x,
+        center.y - labelCenter.y
+    ]);
+
+    e.layer.surface.draw(label); // Render the label on the layer surface
+    
+    // Ommited for clearance
+}
+````
+
+Result
+
+![Names of each state](images/map-add-values-to-state-names.png "Names of each state")
+
      
       
