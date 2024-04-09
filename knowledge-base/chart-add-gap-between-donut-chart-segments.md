@@ -8,6 +8,17 @@ res_type: kb
 tags: chart, telerik, radchart, asp net ajax chart
 ---
 
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Telerik WebForms HtmlChart for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
+
 ## DESCRIPTION
 
 The Donut/Pie charts do not support the Gap property that is available for "bar", "column", "candlestick", "ohlc", "radarColumn" and "waterfall" series.

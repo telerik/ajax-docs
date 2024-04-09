@@ -7,6 +7,17 @@ slug: grid-set-height-in-percentages
 res_type: kb
 ---
 
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Telerik WebForms Grid for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
+
 ## Description
 
 The artcile consists of 5 different scenarios, each delving into a possible solution to setting the Grid's height in percententage.
