@@ -7,13 +7,24 @@ slug: grid-retain-expanded-selected-state-in-hierarchy-on-rebind
 res_type: kb
 ---
 
-## DESCRIPTION
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Telerik WebForms Grid for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
+
+## Description
 
 By default when you rebind a parent table in hierarchical grid the settings/expanded state for the nested tables will be lost. This is because the refresh action resets all previous settings applied for the nested controls to avoid viewstate inconsistencies/unexpected behavior.
 
 The approach shown in the artcile represents how to retain the expanded/selected state for Grid items in hierarchy upon a rebind command (hitting the [Refresh] button in an arbitrary command item or the [Rebind grid] button below the grid). Note that the data refresh will be performed through an ajax request when you hit a [Refresh] button and with standard postback from the button outside of the grid body. Nonetheless, the expanded/selected items will retain their state in each level of the hierarchy.
 
-## SOLUTION
+## Solution
 
 The items configuration is maintained in a custom manner in two variables stored in the Session state. Essentially, you need to update these variables on ItemCommand when the command name is:
 - `RadGrid.ExpandCollapseCommandName`
