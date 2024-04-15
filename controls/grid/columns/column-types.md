@@ -215,6 +215,9 @@ To specify the text of the link, you can do one of the following:
 
 * Set the **DataTextField** property to a field that supplies the text for the link. When you use this method, you can format the text that comes from the database by setting the **DataTextFormatString** property.
 
+>note When Filtering is enabled, the `DataTextField` property will be taken into account. 
+>
+
 To specify the target of the hyperlink, set the **DataNavigateUrlFields** property. You can specify multiple fields if the target of the hyperlink is determined by more than one field in the database. You can then combine the navigate URL fields by specifying a format string as the value of the **DataNavigateUrlFormatString** property. Additionally, you can set the **ImageUrl** property to override the text property of the hyperlink column and render an image.
 
 The following example shows the declaration of a **GridHyperLinkColumn**:
