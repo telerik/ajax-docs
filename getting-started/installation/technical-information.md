@@ -38,15 +38,17 @@ You can find the start and end dates of support for the different .NET versions 
 
 ## Telerik UI for ASP.NET AJAX versions compatibility with Microsoft .NET Framework
 
-You can find the releases that introduce  builds created against the various .NET versions at this page [.NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support)
+You can find the releases that introduce  builds created against the various .NET versions on this page [.NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support).
 
-## End of .NET Framework 3.5 and 4.0 Support for Telerik UI for ASP.NET AJAX
+## End of .NET Framework 3.5 and 4.0-4.6.1 Support for Telerik UI for ASP.NET AJAX
 
-As of R2 2023, Telerik UI for ASP.NET AJAX ships only assemblies compatible with .NET 4.5.x and later versions of the .NET Framework.
+As of **R2 2023**, Telerik UI for ASP.NET AJAX ships only assemblies compatible with .NET 4.5.x and later versions of the .NET Framework.
 
-R1 2023 SP1 on March 15, 2023 is the last release to provide official support and assemblies for .NET Framework 3.5 and 4.0.
+**R1 2023 SP1** on March 15, 2023, is the last release to provide official support and assemblies for .NET Framework 3.5 and 4.0.
 
-The upgrade to the .NET 4.5 and later gives you the following advantages over the previous versions of the framework:
+**2024 Q2** on May 15, 2024, is the last release to support .NET 4.5-4.6.1. As of this release, the controls officially support only .NET 4.6.2 or later.
+
+The upgrade to the .NET 4.6.2 and later gives you the following advantages over the previous versions of the framework:
 
 * Improved performance
 * Security enhancements
