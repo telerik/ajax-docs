@@ -16,60 +16,55 @@ position: 0
 
 By default **RadPersistenceManager** store the save state of the controls in an XML file to physical directory within the web application. You may need an alternative mechanism in some scenarios (e.g. saving the state of the control in a Cookie, Database etc.). To create a custom storage provider you need to create a decedent of **IStateStorageProvider** and implement its methods.
 
-The steps to implement a custom storage provider are:
+To implement a custom storage provider, you need to:
 
-1. Create a class that implements **IStateStorageProvider**
+- Create a class that implements **IStateStorageProvider**
 
-2. Implement **SaveStateToStorage** and **LoadStateFromStorage** methods.
+- Implement **SaveStateToStorage** and **LoadStateFromStorage** methods.
 
-	**C#**
-	
-        using Telerik.Web.UI.PersistenceFramework;
+````C#
+using Telerik.Web.UI.PersistenceFramework;
 
-		public class CustomStorageProvider : IStateStorageProvider
-		{
-			public void SaveStateToStorage(string key, string serializedState)
-			{
-				// Save the serialized state somewhere
-			}
+public class CustomStorageProvider : IStateStorageProvider
+{
+	public void SaveStateToStorage(string key, string serializedState)
+	{
+		// Save the serialized state somewhere
+	}
+	public string LoadStateFromStorage(string key)
+	{
+		return "The saved state";
+	}
+}
+````
+````VB
+Imports Telerik.Web.UI.PersistenceFramework
 
-			public string LoadStateFromStorage(string key)
-			{
-				return "The saved state";
-			}
-		}
-	
-	**VB**
-	
-        Imports Telerik.Web.UI.PersistenceFramework
+Public Class CustomStorageProvider
+	Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
+	Public Sub SaveStateToStorage(key As String, serializedState As String) Implements IStateStorageProvider.SaveStateToStorage
+		' Save the serialized state somewhere
+	End Sub
+	Public Function LoadStateFromStorage(key As String) As String Implements IStateStorageProvider.LoadStateFromStorage
+		Return "The saved state"
+	End Function
+End Class
+````
 
-		Public Class CustomStorageProvider
-			Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
-			Public Sub SaveStateToStorage(key As String, serializedState As String) Implements IStateStorageProvider.SaveStateToStorage
-				' Save the serialized state somewhere
-			End Sub
+- Set the storage provider used by **RadPersistenceManager** for storing the serialized control state.
 
-			Public Function LoadStateFromStorage(key As String) As String Implements IStateStorageProvider.LoadStateFromStorage
-				Return "The saved state"
-			End Function
-		End Class
+````C#
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadPersisterManager1.StorageProvider = new CustomStorageProvider();
+}
+````
+````VB
+Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
+	RadPersisterManager1.StorageProvider = New CustomStorageProvider()
+End Sub
+````
 
-3. Set the storage provider used by **RadPersistenceManager** for storing the serialized control state.
-
-	**C#**
-	
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			RadPersisterManager1.StorageProvider = new CustomStorageProvider();
-		}
-		
-	**VB**
-		
-		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
-			RadPersisterManager1.StorageProvider = New CustomStorageProvider()
-		End Sub
-
-		
 The example below demonstrates how to store the state of the **RadGrid** directly to the database.
 
 
