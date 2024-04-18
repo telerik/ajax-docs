@@ -21,7 +21,7 @@ res_type: kb
 
 ## Description
 
-Clicking on "Check All" checkbox will check only displayed items when [CheckList Filtering]() is enabled.
+Clicking on "Check All" checkbox will check only displayed items when [CheckList Filtering]({%slug grid/functionality/filtering/checklist-filtering%}) is enabled.
 
 ![Include only displayed list options](images/grid-make-check-all-to-include-only-displayed-list-options-in-excel-like-filtering.gif "include only displayed list options")
 
