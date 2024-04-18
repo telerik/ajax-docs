@@ -71,6 +71,10 @@ This module displays a pane with the HTML code of the content. The HTML is updat
 
 ![](images/editor-modules004.png)
 
+## Track Changes and Comments modules
+
+The [Track Changes module](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/track-changes-and-comments/track-changes) in RadEditor allows users to monitor modifications made during content editing by setting the EnableTrackChanges property to true and including built-in tools for managing these changes, such as enabling/disabling tracking, and accepting or rejecting modifications. Additionally, the [Comments collaboration module](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/track-changes-and-comments/comments) facilitates the insertion, modification, and deletion of comments directly within the content area, enhancing collaboration and content sharing in HTML format.
+
 # See Also
 
  * [Built-in Modules](https://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
