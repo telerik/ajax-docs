@@ -40,7 +40,24 @@ You can find the start and end dates of support for the different .NET versions 
 
 You can find the releases that introduce  builds created against the various .NET versions on this page [.NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support).
 
-## End of .NET Framework 3.5 and 4.0-4.6.1 Support for Telerik UI for ASP.NET AJAX
+## End of Support for .NET Framework in Telerik UI for ASP.NET AJAX
+
+### Discontinued .NET versions:
+
+- .NET Framework 3.5
+- .NET Framework 4.0
+- .NET Framework 4.5
+- .NET Framework 4.6
+- .NET Framework 4.6.1
+
+### Supported .NET versions
+
+- .NET Framework 4.6.2
+- .NET Framework 4.7
+- .NET Framework 4.7.1
+- .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
 
 ### Timeline of Support Changes:
 - **R1 2023 SP2 (March 23, 2023):** This is the final release that includes support and assemblies for .NET Framework 3.5 and 4.0. If your projects depend on these versions, consider upgrading to continue receiving support and new features.
@@ -59,7 +76,7 @@ Upgrading to .NET 4.6.2 or newer versions offers significant advantages:
 - **Support for Telerik Document Processing Library:** Utilize powerful document processing features within your projects.
 
 ## Is .NET Framework 4.5 and later backward compatible with the earlier versions?
-According to the [Microsoft Backward compatibility article](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/version-compatibility#backward-compatibility), the .NET Framework 4.5 and later versions are backward-compatible with apps that were built with earlier versions of the .NET Framework. This is also true for the Telerik UI for ASP.NET AJAX assemblies build for .NET 3.5 and 4.0 - they will continue to work without modifications in projects targeting newer .NET versions, up to 4.8.1.
+According to the [Microsoft Backward compatibility article](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/version-compatibility#backward-compatibility), the .NET Framework 4.5 and later versions are backward-compatible with apps that were built with earlier versions of the .NET Framework. This is also true for the Telerik UI for ASP.NET AJAX assemblies built for .NET 3.5 and 4.0 - they will continue to work without modifications in projects targeting newer .NET versions, up to 4.8.1.
 
 > Applications and components built with previous versions will work without modification on the .NET Framework 4.5 and later versions.
 
