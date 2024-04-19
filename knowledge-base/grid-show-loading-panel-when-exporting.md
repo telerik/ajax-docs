@@ -13,7 +13,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product</td>
-			<td>telerik WebForms Grid for ASP.NET AJAX</td>
+			<td>Telerik WebForms Grid for ASP.NET AJAX</td>
 		</tr>
 	</tbody>
 </table>
