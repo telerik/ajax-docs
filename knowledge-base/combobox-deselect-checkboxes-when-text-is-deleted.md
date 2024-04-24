@@ -6,7 +6,7 @@ page_title: Deselect checkboxes when text is deleted
 slug: combobox-deselect-checkboxes-when-text-is-deleted
 tags: radcombobox, checkbox, text, deselect, delete
 res_type: kb
-ticket-id:1649559
+ticket-id: 1649559
 ---
 
 ## Environment
