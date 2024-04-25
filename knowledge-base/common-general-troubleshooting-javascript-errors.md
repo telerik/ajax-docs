@@ -4,6 +4,7 @@ description: General troubleshooting of JavaScript errors.
 type: how-to
 page_title: General troubleshooting of JavaScript errors - Common
 slug: common-general-troubleshooting-javascript-errors
+previous_url: knowledge-base/common-capture-issues-with-fiddler-jam
 res_type: kb
 ---
 
@@ -150,7 +151,4 @@ HAR files might contain sensitive data like cookies so you should be careful who
 >
 
 More about the best practices and tips for using Chrome DevTools for easier troubleshooting you can find in the [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools) blog post and its continuation [Improve Your Debugging Skills with Chrome DevTools (Part 2)](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools-(part-2))
-
-One more option, you should consider, for sharing your network logs securely fast and convenient is by using the [Fiddler Jam](https://www.telerik.com/fiddler-jam) Tool by Telerik. 
-
 
