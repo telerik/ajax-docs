@@ -41,3 +41,45 @@ Due to the self-referencing nature of the control, the sorting takes effect "per
 | **AllowNaturalSort** |Enables or disables the "natural" sort mode where the items are ordered in the way they came from the data source.|
 | **AllowSorting** |Enables the sorting functionality in RadTreeList.|
 | **SortExpressions** |SortExpressions collection. Contains the expressions that are applied to the control.|
+
+
+Example 1: Declarative Approach of setting the SortExpressions
+
+````ASPX
+<telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True" ...>
+    <SortExpressions>
+        <telerik:TreeListSortExpression FieldName="EmployeeName" SortOrder="Ascending" />
+    </SortExpressions>
+</telerik:RadTreeList>
+````
+
+Example 2: Programmatic Approach of setting the SortExpressions
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        TreeListSortExpression sortExpr = new TreeListSortExpression();
+        sortExpr.FieldName = "EmployeeName";
+        sortExpr.SortOrder = TreeListSortOrder.Ascending;
+        RadTreeList1.SortExpressions.AddSortExpression(sortExpr);
+        
+        RadTreeList1.Rebind();
+    }
+}
+````
+````VB.NET
+Protected Sub Page_Load(sender As Object, e As EventArgs)
+    If Not IsPostBack Then
+        Dim sortExpr As New TreeListSortExpression()
+        sortExpr.FieldName = "EmployeeName"
+        sortExpr.SortOrder = TreeListSortOrder.Ascending
+        RadTreeList1.SortExpressions.AddSortExpression(sortExpr)
+        
+        RadTreeList1.Rebind()
+    End If
+End Sub
+````
+   
+ 
