@@ -97,7 +97,7 @@ To identify the error that occurs, use either of the following approaches:
 
 * Using web development tools to request the WebResource handler.
 
-  Use an HTTP traffic sniffer tool like [Google DevTools](https://developers.google.com/web/tools/chrome-devtools/resources), [Fiddler](https://www.telerik.com/fiddler), or [Firefox FireBug](http://www.getfirebug.com/) to find out if the request to a web resource file has failed and what the exact error is.
+  Use an HTTP traffic sniffer tool like [Google DevTools](https://developers.google.com/web/tools/chrome-devtools/resources) or [Firefox FireBug](http://www.getfirebug.com/) to find out if the request to a web resource file has failed and what the exact error is.
 
 The following list links to the most common issues related to web resources when working with Telerik UI for ASP.NET AJAX:
 
