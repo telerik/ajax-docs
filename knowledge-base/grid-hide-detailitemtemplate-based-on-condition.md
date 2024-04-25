@@ -6,13 +6,19 @@ page_title: Hide DetailItemTemplate based on condition. | RadGrid
 slug: grid-hide-detailitemtemplate-based-on-condition
 tags: radgrid, detailitemtemplate, hide, condition, server-side, css
 res_type: kb
+ticket-id: 1649484
 ---
 
 ## Environment
 
-| Property | Value |
-|----------|-------|
-| Product  | Telerik WebForms Grid for ASP.NET AJAX |
+<table>
+	<tbody>
+		<tr>
+			<td>Product</td>
+			<td>Telerik WebForms Grid for ASP.NET AJAX</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Description
 
