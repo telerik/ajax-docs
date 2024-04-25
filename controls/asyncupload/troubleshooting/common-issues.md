@@ -71,7 +71,9 @@ When running a project using Visual Studio in Administrator mode, the Drag and D
 ![Failing Upload](../images/asyncupload-overview_troubleshooting.png)
 
 The file upload will fail if the **TemporaryUpload** folder is not given with enough permissions, even if the permissions of the **TargetFolder** are set properly.The default temporary upload folder is placed inside the App_data folder, so you have to give full read and write permissions to it as well:
-`~/App_Data/RadUploadTemp `
+`~/App_Data/RadUploadTemp `.
+
+Find more troubleshooting tips in the dedicated [Red Dot Shown and File Not Uploaded](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-red-dot-shown-file-not-uploaded-troubleshooting) knowledge base article.
 
 ## Cannot Upload Files From Google Drive on Android
 
