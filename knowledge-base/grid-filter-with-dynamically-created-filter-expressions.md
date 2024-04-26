@@ -23,7 +23,7 @@ res_type: kb
 
 I want to implement buttons to filter rows in a step-by-step process. The process involves listing and filtering rows in a Grid based on specific intervals. 
 
-# Solution
+## Solution
 
 To achieve the desired behavior, you can follow these steps:
 
@@ -101,6 +101,6 @@ Remember to adjust the column and filter expressions based on your specific requ
 
 ## See Also
 
-- [Working with Expressions](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/filtering/working-with-expressions)
+- [Working with Expressions]({%slug filter/filter-expressions/working-with-expressions%})
 
  
