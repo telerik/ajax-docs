@@ -18,7 +18,7 @@ res_type: kb
 
 When pasting content from Microsoft Word into RadEditor, you may encounter an issue where lists (ol and ul) are not properly displayed. Specifically, when you click enter after pasting the list, a line is deleted. This issue occurs because the pasted content sometimes has HTML structure anomalies, particularly with the list elements.
 
-For example, if you paste content into a [standard editable div/iframe element](https://dojo.telerik.com/UlaCozIk) (like the content area of RadEditor) and inspect it, you might notice an issue where a nested <ul> tag is not properly enclosed within <li> tags. According to XHTML and HTML5 standards, a <ul> must be nested inside an <li> when it is a child of another <ul>. However, the pasted content does not always adhere to this requirement, which leads to the malformed structure shown below:
+For example, if you paste content into a [standard editable div/iframe element](https://dojo.telerik.com/UlaCozIk) (like the content area of RadEditor) and inspect it, you might notice an issue where a nested `<ul>` tag is not properly enclosed within `<li>` tags. According to XHTML and HTML5 standards, a `<ul>` must be nested inside a `<li>` when it is a child of another `<ul>`. However, the pasted content does not always adhere to this requirement, which leads to the malformed structure shown below:
 
 ````HTML
 <ul>
