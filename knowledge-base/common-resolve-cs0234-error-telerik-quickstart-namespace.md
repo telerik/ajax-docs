@@ -1,6 +1,6 @@
 ---
 title: How to Resolve CS0234 Error in Telerik.QuickStart Namespace
-description: This article provides steps to resolve the "CS0234: The type or namespace name 'QuickStart' does not exist in the namespace 'Telerik'" error when using the Telerik.QuickStart namespace.
+description: This article provides steps to resolve the CS0234 error - The type or namespace name 'QuickStart' does not exist in the namespace 'Telerik' error when using the Telerik.QuickStart namespace.
 type: troubleshooting
 page_title: Resolving CS0234 Error in Telerik.QuickStart Namespace
 slug: common-resolve-cs0234-error-telerik-quickstart-namespace
