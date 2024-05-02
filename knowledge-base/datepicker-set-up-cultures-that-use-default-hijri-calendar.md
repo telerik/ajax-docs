@@ -1,8 +1,8 @@
 ---
-title: Set up DatePicker with cultures that use default Hijri Calendar
+title: Set up cultures that use default Hijri Calendar
 description: Learn how to set up DatePicker with cultures that use default Hijri Calendar
 type: how-to
-page_title: Set up DatePicker with cultures that use default Hijri Calendar. | RadDatePicker 
+page_title: Set up cultures that use default Hijri Calendar. | RadDatePicker 
 slug: datepicker-set-up-cultures-that-use-default-hijri-calendar
 tags: datepicker, calendar, dispose, detail window, grid
 res_type: kb
