@@ -120,7 +120,7 @@ To install an assembly called SomeAssembly in the GAC, use the command
 
 Here is an example that adds the R3 2017 Telerik.Web.UI.dll assembly to the GAC:
 
-`gacutil /i "C:\Program Files\Progress\UI for ASP.NET AJAX R3 2017\Bin45\Telerik.Web.UI.dll"`
+`gacutil /i "C:\Program Files\Progress\UI for ASP.NET AJAX R3 2017\Bin46\Telerik.Web.UI.dll"`
 
 There are other ways to add an assembly to the GAC (Windows offers a shell integration for .NET 3.5 so you can just drag-and-drop it; and the Windows Installer) but since the gacutil tool is available for standalone download without Visual Studio, it is the more general way that works on all .NET versions. Note that Microsoft do not recommend using gacutil in production environment.
 

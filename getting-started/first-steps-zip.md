@@ -60,7 +60,7 @@ The files from the ZIP installation are usually used for manual upgrading of an 
 
 1. Open the **Bin** folder of your project in Windows Explorer and delete the old `Telerik.Web.UI.*` assemblies.
 
-1. Copy the new assemblies from the `Bin45` folder in the UI for ASP.NET AJAX installation path and paste them to the `Bin` folder of your project.
+1. Copy the new assemblies from the `Bin46` folder in the UI for ASP.NET AJAX installation path and paste them to the `Bin` folder of your project.
 
   You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (`~/App_GlobalResources`), dialogs (ImageEditor, Editor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), and so on.
 
