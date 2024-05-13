@@ -14,11 +14,11 @@
 /_includes/
 /_layouts/
 /_plugins/
-/_templates/
 /docs-watcher/
 /favicon.ico
 /fonts/
 /styles/
+_templates
 CODEOWNERS
 Dockerfile
 Gemfile
@@ -27,6 +27,7 @@ SlugLog.log
 _excludefile.yml
 _site
 _tempconfig.yml
+_tools
 bs-config.js
 build-docs.sh
 copy_content.sh

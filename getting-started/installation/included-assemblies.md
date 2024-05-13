@@ -19,7 +19,7 @@ The assemblies come sorted in several folders so that you can use the ones you n
 * If you target `.NET 3.5`, use the assemblies from the `Bin35` folder ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 * If you target `.NET 4.0`, use the assemblies from the `Bin40` folder ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 * If you target `.NET 4.5`, `.NET 4.6`, or `.NET 4.6.1` use the assemblies from the `Bin45` folder ([distributed until 2024 Q1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131))).
-* If you target `.NET 4.6.2`, `.NET 4.7`, `.NET 4.7.1`, `.NET 4.7.2`, `.NET 4.8`,  or `.NET 4.8.1`, use the assemblies from the `Bin46` folder. This folder will be available starting with the 2024 Q2 release on May 15, 2024.
+* If you target `.NET 4.6.2`, `.NET 4.7`, `.NET 4.7.1`, `.NET 4.7.2`, `.NET 4.8`,  or `.NET 4.8.1`, use the assemblies from the `Bin462` folder. This folder will be available starting with the 2024 Q2 release on May 15, 2024.
 
 The binaries from the `Additional Assemblies` folder may have different versions from the main assemblies. You have to use the assemblies from the same release as the main assemblies.
 

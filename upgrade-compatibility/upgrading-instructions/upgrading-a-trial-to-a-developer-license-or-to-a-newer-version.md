@@ -53,7 +53,9 @@ The following steps ensure a safe upgrade:
 
 1. Copy the new assemblies from the corresponding `Bin*` folder in the UI for ASP.NET AJAX installation path:
 
-   * The `Bin45` folder contains the assemblies for .NET 4.5 and above.
+   * **Bin462**: Contains the assemblies for .NET 4.6.2 and above.
+
+   * **Bin45**: Contains the assemblies for .NET 4.5 ([distributed until 2024 Q1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131))).
 
    * The `Bin40` folder contains the assemblies for .NET 4.0 ([distributed until R1 2023 SP1](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314))).
 
