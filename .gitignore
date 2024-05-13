@@ -18,6 +18,7 @@
 /favicon.ico
 /fonts/
 /styles/
+_templates
 CODEOWNERS
 Dockerfile
 Gemfile
