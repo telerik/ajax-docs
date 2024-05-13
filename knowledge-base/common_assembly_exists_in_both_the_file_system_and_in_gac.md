@@ -32,7 +32,7 @@ Upon using the Telerik Extension to Upgrade the Assemblies, the Assemblies at bo
 
 ## Error Messages
 * "The assembly C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX RX 20XX\BinXX\..\AdditionalLibraries\BinXX\Telerik.Documents.SpreadsheetStreaming.dll exists in both the file system and in GAC. WebSites always use the version in GAC when a duplicate entry found. You could remove the assembly from GAC and reconfigure the WebSite if you need a bin-deployed assembly."
-* "The assembly C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2022\Bin46\..\AdditionalLibraries\Bin46\Telerik.Windows.Documents.Spreadsheet.dll exists in both the file system and in GAC. WebSites always use the version in GAC when a duplicate entry found. You could remove the assembly from GAC and reconfigure the WebSite if you need a bin-deployed assembly"
+* "The assembly C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX 2024 Q2\Bin462\..\AdditionalLibraries\Bin462\Telerik.Windows.Documents.Spreadsheet.dll exists in both the file system and in GAC. WebSites always use the version in GAC when a duplicate entry found. You could remove the assembly from GAC and reconfigure the WebSite if you need a bin-deployed assembly"
 * "The assembly Path_To_Telerik_Assembly_Installation_Folder]\BinXX\..\AdditionalLibraries\BinXX\Telerik.[AssemblyName].dll exists in both the file system and in GAC. WebSites always use the version in GAC when a duplicate entry found. You could remove the assembly from GAC and reconfigure the WebSite if you need a bin-deployed assembly."
 
 ## Solution
