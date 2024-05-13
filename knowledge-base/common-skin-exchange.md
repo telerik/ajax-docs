@@ -22,7 +22,7 @@ res_type: kb
 
 ## Description
 
-This article includes some of the obsole skins for the AJAX controls.
+This article includes some of the obsolete skins for the AJAX controls.
 
 ## Solution
 
