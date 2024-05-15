@@ -9,141 +9,34 @@ position: 0
 
 # Overview
 
-Telerik Document Processing provides the RadPdfProcessing, RadSpreadStreamProcessing, RadWordsProcessing, and RadZipLibrary UI-independent and cross-platform libraries which enable you to process content between different formats and work with archive files.
+[Telerik Document Processing Libraries](https://docs.telerik.com/devtools/document-processing/introduction) is a bundle of UI-independent cross-platform libraries that enable you to process the most commonly used flow, fixed and spreadsheet document formats for web and desktop. The Document Processing library allows you to create, import, modify and export documents in the [supported formats](https://docs.telerik.com/devtools/document-processing/introduction#supported-formats) without relying on external dependencies like Adobe Acrobat or Microsoft Office:
+
+![Telerik Document Processing Libraries](../images/Telerik_Document_Processing_Libraries.png "Telerik Document Processing Libraries") 
+
+|Library|Description|
+|----|----|
+| [RadPdfProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview)|A processing library that allows you to create, import, and export PDF documents from your code. You can use it in any web or desktop .NET application without relying on third-party software like Adobe Acrobat.|
+|[RadSpreadProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview)|A powerful library that enables you to create applications with native support for spreadsheet documents. With RadSpreadProcessing, you can create spreadsheets from scratch, modify existing documents or convert between the most common spreadsheet formats. You can save the generated workbook to a local file, stream, or stream it to the client browser.|
+|[RadSpreadStreamProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview)|Spread streaming is a document processing paradigm that allows you to create or read big spreadsheet documents with great performance and minimal memory footprint. The key for the memory efficiency is that the spread streaming library writes the spreadsheet content directly to a stream without creating and preserving the spreadsheet document model in memory.|
+|[RadWordsProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview)|A processing library that allows you to create, modify and export documents to a variety of formats. Through the API, you can access each element in the document and modify, remove it or add a new one. The generated content you can save as a stream, as a file, or sent it to the client browser.|
+|[RadZipLibrary](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview)| It allows you to compress and combine files in ZIP archives, browse and extract files from existing ZIP archives and compress streams for easy file shipping and reduced storage space.|
+
+## Available Versions
+
+Telerik Document Processing  Libraries are available in **.NET Framework** and **.NET Standard (.NET Core)** compatible versions. Both versions are [available as NuGet packages](https://docs.telerik.com/devtools/document-processing/getting-started/installation/nuget-packages). Read more in the *[Getting Started with Telerik Document Processing Libraries](https://docs.telerik.com/devtools/document-processing/getting-started/getting-started)* article.
+
+## Configuration Wizard
+
+Telerik Document Processing Libraries' [Configuration Wizard](https://docs.telerik.com/devtools/document-processing/integration/integration-with-visual-studio) comes with the Visual Studio Extensions of several Telerik bundles. 
 
 
-## Available Libraries
+## See Also
 
- * [PdfProcessing]({%slug radpdfprocessing-overview%}) library enables you to create, import, and export PDF documents.
+* [Getting Started with Telerik Document Processing Libraries](https://docs.telerik.com/devtools/document-processing/getting-started/getting-started#getting-started-with-telerik-document-processing)
+* [Installing on Your Computer](https://docs.telerik.com/devtools/document-processing/getting-started/installation/installing-on-your-computer)
+* [Trial Version and Commercial License](https://docs.telerik.com/devtools/document-processing/introduction#trial-version-and-commercial-license)
+* [System Requirements](https://docs.telerik.com/devtools/document-processing/getting-started/installation/system-requirements)
 
- * [SpreadProcessing]({%slug radspreadprocessing-overview%}) library enables you to work with spreadsheet documents.
-
- * [SpreadStreamProcessing]({%slug spreadstreamprocessing-overview%}) library enables you to export large XLSX and CSV spreadsheet documents with low memory footprint and great performance.
-
- * [WordsProcessing]({%slug radwordsprocessing-overview%}) library enables you to create, import, and export DOCX, DOC & DOT (import only), HTML, RTF, and TXT documents, and export them to PDF.
-
- * [ZipLibrary]({%slug radziplibrary-overview%}) enables you to compress and decompress ZIP files.
-
-
-## Supported File Formats
-
-The Telerik Document Processing libraries for .NET Core support the following file formats:
 
  
- * `CSV`
- 
- * `DOC & DOT` (import only)
- 
- * `DOCX`
- 
- * `HTML`
- 
- * `PDF`
- 
- * `RTF`
- 
- * `TXT`
- 
- * `XLSX`
- 
- * `XLS`
- 
- * `ZIP`
-
-## Assemblies
-
-The Telerik document processing libraries are a set of assemblies that let you import and export content between different formats.
-
-You can find the needed assemblies in the AdditionalLibraries folder in the Telerik® UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive. Find more about referencing the Document Processing Libraries in the [Included Assemblies]({%slug introduction/installation/included-assemblies%}#telerik-document-processing-libraries) article.
-
-## Licensing
-
-Telerik Document Processing is available as part of the following suites:
-
- * DevCraft
- 
- * Telerik UI for ASP.NET AJAX
- 
- * Telerik UI for ASP.NET MVC
- 
- * Telerik UI for ASP.NET Core
- 
- * Telerik UI for Blazor
- 
- * Telerik UI for WPF
- 
- * Telerik UI for WinForms
- 
- * Telerik UI for Silverlight
- 
- * Telerik UI for Xamarin
-
-## Learning Resources
-
-You can find more information on working with the Telerik document processing libraries in the following articles:
-
- * Basics
- 
-  - [First Steps](https://docs.telerik.com/devtools/document-processing/getting-started/first-steps)
-
- * Words (text) processing
-
-  - [DOC format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/word-file-formats/doc/docformatprovider)
-
-  - [DOCX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/word-file-formats/docx/docxformatprovider)
-
-  - [HTML format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider)
-
-  - [RTF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/rtf/rtfformatprovider)
-
-  - [TXT format provider](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/plain-text/txt-txtformatprovider)
-
- * Spreadsheet processing
-
-  - [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview)
-
-  - [XLSX format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
-
-  - [XLS format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xls/xlsformatprovider)
-
-  - [CSV format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
-
-  - [PDF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/pdf/pdfformatprovider)
-
-  - [TXT format provider](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/txt/txtformatprovider)
-
- * PDF processing
-
-  - [PDF format provider](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/pdf/pdfformatprovider/pdfformatprovider)
-
-  - [Text format provider](http://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/plain-text/textformatprovider)
-
- * Fast spreadsheet generation
-
-  - [Getting Started](https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview)
-
- * Telerik ASP.NET Documentation Resources
-
-  - [RadEditor - Export to DOCX and RTF]({%slug editor/functionality/import-and-export/export-to-docx-and-rtf%})
-
-  - [RadEditor - Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})
-
-  - [RadEditor - Import and Export to Word]({%slug editor/functionality/import-and-export/import-and-export-to-word%})
-
-  - [RadGrid - Integration with Telerik Document Processing Library]({%slug grid/functionality/exporting/integration-with-telerik-document-processing-library%})
-
-  - [RadGrid - XLSX and DOCX Export]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
-
-  - [RadPivotGrid - XLSX and DOCX formats]({%slug pivotgrid/functionality/export/xlsx-and-docx-formats%})
-
-  - [RadTreeList - Integration with Telerik Document Processing Library]({%slug treelist/functionality/exporting/integration-with-telerik-document-processing-library%})
-
-  - [RadTreeList - XLSX and DOCX Format]({%slug treelist/functionality/exporting/xlsx-and-docx-format%})
-
-  - [RadTreeList - Integration with Telerik Document Processing Library]({%slug treelist/functionality/exporting/integration-with-telerik-document-processing-library%})
-
-  - [RadTreeList - Integration with Telerik Document Processing Library]({%slug treelist/functionality/exporting/integration-with-telerik-document-processing-library%})
-
-  - [RadTreeList - Integration with Telerik Document Processing Library]({%slug treelist/functionality/exporting/integration-with-telerik-document-processing-library%})
-
-
+  

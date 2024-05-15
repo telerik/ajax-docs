@@ -127,16 +127,6 @@ navigation:
         title: "Automated Testing with Test Studio"
     "integration/telerik-products/document-processing":
         title: "Document Processing Libraries"
-    "integration/telerik-products/document-processing/pdfprocessing":
-        title: "PdfProcessing"
-    "integration/telerik-products/document-processing/spreadprocessing":
-        title: "SpreadProcessing"
-    "integration/telerik-products/document-processing/spreadstreamprocessing":
-        title: "SpreadStreamProcessing"
-    "integration/telerik-products/document-processing/wordsprocessing":
-        title: "WordsProcessing"
-    "integration/telerik-products/document-processing/ziplibrary":
-        title: "ZipLibrary"
     "integration/visual-studio":
         title: "Visual Studio"
     "integration/visual-studio/typescript-definitions":
