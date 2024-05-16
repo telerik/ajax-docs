@@ -142,8 +142,6 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [PanelBar]({%slug panelbar/overview%})
 
-* [PdfProcessing]({%slug radpdfprocessing-overview%})
-
 * [Persistence Framework]({%slug persistenceframework/overview%})
 
 * [Pivot Grid]({%slug pivotgrid/overview%})
@@ -180,11 +178,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [Splitter]({%slug splitter/overview%})
 
-* [SpreadProcessing]({%slug radspreadprocessing-overview%})
-
 * [Spreadsheet]({%slug spreadsheet/overview%})
-
-* [SpreadStreamProcessing]({%slug spreadstreamprocessing-overview%})
 
 * [StyleSheet Manager]({%slug stylesheetmanager/overview%})
 
@@ -212,11 +206,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 * [Wizard]({%slug wizard/overview%})
 
-* [WordsProcessing]({%slug radwordsprocessing-overview%})
-
-* [XmlHttpPanel]({%slug xmlhttppanel/overview%})
-
-* [Zip Library]({%slug radziplibrary-overview%}) -->
+* [XmlHttpPanel]({%slug xmlhttppanel/overview%}) -->
 
 ## Support Options
 

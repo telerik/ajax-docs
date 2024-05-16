@@ -2069,11 +2069,7 @@ intro_columns:
   -
     title: "Document Processing"
     items:
-      "PdfProcessing": "radpdfprocessing-overview"
-      "SpreadProcessing": "radspreadprocessing-overview"
-      "SpreadStreamProcessing": "spreadstreamprocessing-overview"
-      "WordsProcessing": "radwordsprocessing-overview"
-      "Zip Library": "radziplibrary-overview"
+      "Document Processing": "integration-with-other-telerik-products/document-processing/overview"
   -
     title: "Media"
     items:

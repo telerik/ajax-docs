@@ -12,7 +12,7 @@ position: 1
 
 This article provides the basics to get you started with the **Telerik Editor** import and export from/to Word document functionality.
 
-As of **Q3 2014**, the **RadEditor** control offers built-in integration with the [Telerik Document Processing Libraries]({%slug radwordsprocessing-overview%}) that provides the import and export of the [Supported Formats]({%slug radwordsprocessing-overview%}#supported-formats).
+As of **Q3 2014**, the **RadEditor** control offers built-in integration with the [Telerik Document Processing Libraries](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview) that provides the import and export of the [Supported Formats](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview#supported-formats).
 
 Since **Q2 2014**, the installation of the **Telerik® UI for ASP.NET AJAX** suite provides you with the **Telerik.Windows.Document** assemblies, which can be used for conversion from HTML to DOCX or RTF and vise-versa. Information about the provided libraries, their purpose and how to get them is available in the [Included Assemblies]({% slug introduction/installation/included-assemblies %}) article.
 
@@ -48,4 +48,4 @@ If you are looking for a way to extend the built-in export/import functionality 
  
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
  
- * [Telerik document processing libraries]({%slug radwordsprocessing-overview%})
+ * [Telerik document processing libraries](https://docs.telerik.com/devtools/document-processing/introduction)
