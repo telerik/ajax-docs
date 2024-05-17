@@ -2069,7 +2069,7 @@ intro_columns:
   -
     title: "Document Processing"
     items:
-      "Document Processing": "integration-with-other-telerik-products/document-processing/overview"
+      "Document Processing": "integration-with-other-telerik-products/document-processing"
   -
     title: "Media"
     items:
