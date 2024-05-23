@@ -10,7 +10,7 @@ position: 1
 
 # Known Limitations
 
-This article lists some of the known limitations of using the **RadHtmlChart** and presents some workarounds.
+This article lists some of the known limitations of using the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) and presents some workarounds.
 
 ## OnDataBound Server-side Event Is Not Available
 

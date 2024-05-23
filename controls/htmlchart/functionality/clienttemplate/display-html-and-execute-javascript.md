@@ -12,7 +12,7 @@ position: 2
 
 ## Overview
 
-You can display HTML in tooltips and/or execute JavaScript (i.e., declare variables,if statements, for loops, etc.) in ClientTemplate and SharedTemplate elements. You can find more information on these features in the sections below - *Execute JavaScript with a ClientTemplate* and *Display HTML with a ClientTemplate*.
+You can display HTML in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), by using tooltips and/or execute JavaScript (i.e., declare variables,if statements, for loops, etc.) in **ClientTemplate** and SharedTemplate elements. You can find more information on these features in the sections below - *Execute JavaScript with a ClientTemplate* and *Display HTML with a ClientTemplate*.
 
 ## Execute JavaScript with a ClientTemplate
 

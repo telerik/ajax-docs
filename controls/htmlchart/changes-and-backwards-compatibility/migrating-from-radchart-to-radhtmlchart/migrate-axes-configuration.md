@@ -10,7 +10,7 @@ position: 1
 
 # Migrate Axes Configuration
 
-This article illustrates how to migrate the configuration of Y and X axes from **RadChart** to	**RadHtmlChart**. The examples illustrate how to migrate the axes declaratively. However, the same classes and properties of the axes can be used for the programmatic creation as well.
+This article illustrates how to migrate the configuration of Y and X axes from **RadChart** to the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). The examples illustrate how to migrate the axes declaratively. However, the same classes and properties of the axes can be used for the programmatic creation as well.
 
 ## Configuring Y-axis
 

@@ -10,7 +10,7 @@ position: 6
 
 # Legend Settings
 
-This help article discusses how to configure the chart legend.
+This help article discusses how to configure the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) legend.
 
 * [Appearance](#appearance)
 * [Position and Alignment](#position-and-alignment)

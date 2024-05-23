@@ -10,7 +10,7 @@ position: 0
 
 # Implementing Drill-Down Functionality
 
-In this article you’ll see the basic of how to use the drill-down functionality of a **RadHtmlChart** and working through the online demo, apply examples to make a drill-down Column chart.
+In this article you’ll see the basic of how to use the drill-down functionality of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) and working through the online demo, apply examples to make a drill-down Column chart.
 
 You can implement drill-down functionality for the **RadHtmlChart** control by incorporating its Client-side API and updating the chart via AJAX.	This will allow you to display more detailed data on the chart control by clicking on a specific series item.
 

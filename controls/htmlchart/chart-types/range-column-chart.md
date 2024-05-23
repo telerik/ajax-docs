@@ -10,7 +10,7 @@ position: 16
 
 # Range Column Chart
 
-A **Range Column** chart type (**Figure 1**) shows data as vertical bars where each bar represents a value range that spans between its minimum (i.e., **From** property) and maximum (i.e., **To** property) levels. A **Range Column** chart type has floating columns unlike the standard [Column]({%slug htmlchart/chart-types/column-chart%}) chart type that has anchored bars to its x-axis. It is very similar to [Range Bar]({%slug htmlchart/chart-types/range-bar-chart%}) chart, but the orientation of the bars is vertical instead of horizontal.
+A **Range Column** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as vertical bars where each bar represents a value range that spans between its minimum (i.e., **From** property) and maximum (i.e., **To** property) levels. A **Range Column** chart type has floating columns unlike the standard [Column]({%slug htmlchart/chart-types/column-chart%}) chart type that has anchored bars to its x-axis. It is very similar to [Range Bar]({%slug htmlchart/chart-types/range-bar-chart%}) chart, but the orientation of the bars is vertical instead of horizontal.
 
 A **Range Column** chart type is useful for comparing the low and high levels of value ranges (e.g., employees' working time, blood glucose levels per day, average minimum and maximum temperatures and rainfalls over time, etc.). This chart type looks like a vertical oriented simple [Gantt]({%slug gantt/overview%}) chart where the lowest and highest values of each bar represent the portion of task completion over time. A **Range Column** chart differs from the [Candlestick]({%slug htmlchart/chart-types/candlestick-chart%}) chart in the lack of weeks.
 

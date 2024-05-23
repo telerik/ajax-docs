@@ -10,7 +10,7 @@ position: 2
 
 # Programmatic Creation Of SeriesItems With DateTime
 
-This help article illustrates how to create programmatically numeric series items (i.e., **ScatterSeriesItem** and **BubbleSeriesItem**) with DateTime for their **X** values.
+This help article illustrates how to create programmatically numeric series items in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) (i.e., **ScatterSeriesItem** and **BubbleSeriesItem**) with DateTime for their **X** values.
 
 *Problem*:
 

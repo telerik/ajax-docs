@@ -10,7 +10,7 @@ position: 4
 
 # Migrate Series Configuration
 
-This article illustrates how to migrate the configuration of series and series items from **RadChart** to **RadHtmlChart**. The migration of the series configuration in the provided examples below is	illustrated declaratively. However, the same classes and properties of the series and series items can be used for	the programmatic creation as well.
+This article illustrates how to migrate the configuration of series and series items from **RadChart** to the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). The migration of the series configuration in the provided examples below is	illustrated declaratively. However, the same classes and properties of the series and series items can be used for	the programmatic creation as well.
 
 ## Configuring Series
 

@@ -10,7 +10,7 @@ position: 7
 
 # Column Chart
 
-The Column chart shows data as vertical bars whose heights vary according to their value. It can be useful for showing a comparison between several sets of data (e.g., snapshots of data across different points in time). Column charts are very similar to [Bar charts]({%slug htmlchart/chart-types/bar-chart%}), but the orientation of the bars is vertical instead of horizontal. This help article describes how to set some properties in a Column chart and **Example 1** (near the end of this article) shows the code used to create **Figure 1**.
+The **Column** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as vertical bars whose heights vary according to their value. It can be useful for showing a comparison between several sets of data (e.g., snapshots of data across different points in time). Column charts are very similar to [Bar charts]({%slug htmlchart/chart-types/bar-chart%}), but the orientation of the bars is vertical instead of horizontal. This help article describes how to set some properties in a Column chart and **Example 1** (near the end of this article) shows the code used to create **Figure 1**.
 
 >caption Figure 1: A basic Column chart showing product sales numbers by quarters.
 

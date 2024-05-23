@@ -10,7 +10,7 @@ position: 8
 
 # Donut Chart
 
-The Donut chart (**Figure 1**) displays data as sectors from a circle and is therefore useful for displaying data as parts of a whole. A Donut chart is a Pie chart variation with the ability to display single series of data in a two-dimensional circle. This help article will describe how to customize a Donut chart and provides code in **Example 1** that shows how to create **Figure 1**.
+The **Donut** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), displays data as sectors from a circle and is therefore useful for displaying data as parts of a whole. A Donut chart is a Pie chart variation with the ability to display single series of data in a two-dimensional circle. This help article will describe how to customize a Donut chart and provides code in **Example 1** that shows how to create **Figure 1**.
 
 >caption Figure 1: A simple example of a Donut chart.
 

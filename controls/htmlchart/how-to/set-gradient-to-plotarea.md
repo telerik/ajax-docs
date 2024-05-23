@@ -10,7 +10,7 @@ position: 9
 
 # Set Gradient Color to PlotArea
 
-This help article shows how to set a gradient color to the PlotArea of the **RadHtmlChart**.
+This help article shows how to set a gradient color to the PlotArea of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx).
 
 Generally, the PlotArea of the **RadHtmlChart** doesn't provide gradient colors. You can, however, use the [Kendo Drawing API](https://docs.telerik.com/kendo-ui/api/javascript/drawing) in order to draw gradient colors over the PlotArea once the chart is rendered. You can see the code that creates **Figure 1** in **Example 1**.
 

@@ -10,7 +10,7 @@ position: 0
 
 # Order Series via ZIndex Property
 
-As of **Q1 2015** the **RadHtmlChart** series items expose the **ZIndex** property with which you can define a specific ordering defined by the numeric value assigned.
+As of **Q1 2015** the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) series items expose the **ZIndex** property with which you can define a specific ordering defined by the numeric value assigned.
 
 >caption Figure 1: Examines the difference between the default and the predefined (via ZIndex) ordering.
 

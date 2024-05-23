@@ -10,7 +10,7 @@ position: 7
 
 # Export to PDF or Image with RadClientExportManager
 
-With the use of [RadClientExportManager]({%slug clientexportmanager/overview%}) you can easily export the **RadHtmlChart** to **PDF** or **image**. 
+With the use of [RadClientExportManager]({%slug clientexportmanager/overview%}) you can easily export the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to **PDF** or **image**. 
 
 The following steps will enable you to easily implement the export functionality (**Example 1** showcases a fully runnable example):
 

@@ -10,7 +10,7 @@ position: 1
 
 # RadHtmlChart Structure
 
-The **RadHtmlChart** consists of a series of elements that have a strict hierarchy. The elements correspond to the structure of the controlin the markup or code behind. **Figure 1** illustrates the basic structure and shows the names of each element. **Example 1** shows the markup used to create **Figure 1**.
+The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) consists of a series of elements that have a strict hierarchy. The elements correspond to the structure of the controlin the markup or code behind. **Figure 1** illustrates the basic structure and shows the names of each element. **Example 1** shows the markup used to create **Figure 1**.
 
 * [Describing the Basic Elements of RadHtmlChart](#describing-the-basic-elements-of-radhtmlchart)
 * [Describing the Series Elements of RadHtmlChart](#describing-the-series-elements-of-radhtmlchart)

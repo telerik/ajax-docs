@@ -10,7 +10,7 @@ position: 9
 
 # Series Notes
 
-The **Series Notes** functionality of **RadHtmlChart** can be used as of R2 2022.
+The **Series Notes** functionality of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be used as of R2 2022.
 
 The **Series Notes** enables you to display the metadata of series points.
 

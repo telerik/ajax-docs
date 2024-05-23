@@ -10,7 +10,7 @@ position: 1
 
 # Using Client Templates in Legend and Axes Labels
 
-This article discusses the client templates for **Legend** items and **Axes** labels exposed in **RadHtmlChart**.
+This article discusses the client templates for **Legend** items and **Axes** labels exposed in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx).
 
 The features listed here are available as of **R2 2016**.
 

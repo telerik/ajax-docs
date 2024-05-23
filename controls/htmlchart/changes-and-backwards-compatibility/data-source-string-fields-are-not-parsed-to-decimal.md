@@ -10,7 +10,7 @@ position: 3
 
 # Data Source String Fields Are Not Parsed to Decimal
 
-As of **Q2 2015 SP1**, **RadHtmlChart** doesn't try to automatically parse string fields from the data source to a decimal format. This change may lead to the cases described below.
+As of **Q2 2015 SP1**, the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) doesn't try to automatically parse string fields from the data source to a decimal format. This change may lead to the cases described below.
 
 * [XAxis and Legend Labels Are Not 'TryParsed' to Decimal](#xaxis-and-legend-labels-are-not-tryparsed-to-decimal)
 
