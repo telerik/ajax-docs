@@ -28,6 +28,9 @@ In the Markup
 
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" OnSelectedIndexChanged="RadGrid1_SelectedIndexChanged">
+   <ClientSettings>
+       <Selecting AllowRowSelect="true" />
+   </ClientSettings>
 </telerik:RadGrid>
 ````
 
@@ -50,12 +53,12 @@ The event handler
 ````C#
 protected void RadGrid1_SelectedIndexChanged(object sender, EventArgs e)
 {
-    //execute some logic
+    GridItem item = RadGrid1.SelectedItems[0];
 }
 ````
 ````VB
 Protected Sub RadGrid1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
-    'execute some logic
+    Dim item As GridItem = RadGrid1.SelectedItems(0)
 End Sub
 ````
 
