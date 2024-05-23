@@ -15,6 +15,39 @@ When using server-side selection there will be no problems with disabled **ViewS
 
 To avoid such problems when the grid saves its settings in the control state *(EnableViewState = false)* and client-side selection we suggest you following workaround:
 
+````ASP.NET
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px" 
+    OnSelectedIndexChanged="RadGrid1_SelectedIndexChanged" OnNeedDataSource="RadGrid1_NeedDataSource">
+    <MasterTableView AutoGenerateColumns="False" DataKeyNames="OrderID">
+        <Columns>
+            <telerik:GridBoundColumn DataField="OrderID" DataType="System.Int32"
+                FilterControlAltText="Filter OrderID column" HeaderText="OrderID"
+                ReadOnly="True" SortExpression="OrderID" UniqueName="OrderID">
+            </telerik:GridBoundColumn>
+            <telerik:GridDateTimeColumn DataField="OrderDate" DataType="System.DateTime"
+                FilterControlAltText="Filter OrderDate column" HeaderText="OrderDate"
+                SortExpression="OrderDate" UniqueName="OrderDate">
+            </telerik:GridDateTimeColumn>
+            <telerik:GridNumericColumn DataField="Freight" DataType="System.Decimal"
+                FilterControlAltText="Filter Freight column" HeaderText="Freight"
+                SortExpression="Freight" UniqueName="Freight">
+            </telerik:GridNumericColumn>
+            <telerik:GridBoundColumn DataField="ShipName"
+                FilterControlAltText="Filter ShipName column" HeaderText="ShipName"
+                SortExpression="ShipName" UniqueName="ShipName">
+            </telerik:GridBoundColumn>
+            <telerik:GridBoundColumn DataField="ShipCountry"
+                FilterControlAltText="Filter ShipCountry column" HeaderText="ShipCountry"
+                SortExpression="ShipCountry" UniqueName="ShipCountry">
+            </telerik:GridBoundColumn>
+        </Columns>
+    </MasterTableView>
+    <ClientSettings>
+        <Selecting AllowRowSelect="true" />
+    </ClientSettings>
+</telerik:RadGrid>
+````
+
 ````C#
 Telerik.Web.UI.GridItem item = null;
 
