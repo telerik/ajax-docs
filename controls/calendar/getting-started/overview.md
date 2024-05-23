@@ -12,7 +12,7 @@ position: 0
 
 
 
-This tutorial will walk you through creating a Web page that uses **RadCalendar** controls. It shows how to:
+This tutorial will walk you through creating a Web page that uses the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) controls. It shows how to:
 
 * Use the  RadCalendar control.
 

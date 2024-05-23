@@ -12,7 +12,7 @@ position: 2
 
 
 
-The **RadCalendar** control provides the
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides the
 **HeaderCellRender** server event, which is raised after all the
 row and column headers and the view selector have been generated and just
 before one of these header cells is rendered to the client. It is the last

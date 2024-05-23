@@ -12,7 +12,7 @@ position: 1
 
 
 
-The diagram below shows the element structure of **RadCalendar**. The control elements are described below.
+The diagram below shows the element structure of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx). The control elements are described below.
 ![RadCalendar structure](images/RadcalendarStructure.png)
 
 * **Title Bar** - displays the selected date range (month and year) as well as the navigation buttons. The appearance of both the [title]({%slug calendar/functionality/title-settings%}) and [navigation buttons]({%slug calendar/functionality/navigation-controls-settings%}) can be customized.

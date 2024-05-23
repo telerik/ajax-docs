@@ -12,7 +12,7 @@ position: 1
 
 
 
-The following table lists the most important properties and methods of the **RadCalendar** client-side object.
+The following table lists the most important properties and methods of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) client-side object.
 
 >note 
 The **RadCalendar** client object represents dates as 3-element arrays, where the elements represent the year, month, and day, in that order.

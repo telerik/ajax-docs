@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadCalendar** controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
 
 
 | Event | Description |

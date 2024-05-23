@@ -12,7 +12,7 @@ position: 3
 
 
 
-The **RadCalendarDay Collection Editor** lets you define "special days" that the calendar control treats in a different way than the other days in its display. Special days can correspond to public holidays, vacation days, birthdays, and so on.
+The **RadCalendarDay Collection Editor** of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) lets you define "special days" that the calendar control treats in a different way than the other days in its display. Special days can correspond to public holidays, vacation days, birthdays, and so on.
 
 To display the **RadCalendarDay Collection Editor**, locate the **SpecialDays** property in the properties pane for the **RadCalendar** control and click the ellipsis button.
 ![RadCalendarDay Collection editor](images/calendar_day_collection_editor.png)

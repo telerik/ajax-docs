@@ -12,7 +12,7 @@ position: 1
 
 
 
-**RadCalendar** control comes with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the [Skin]({%slug calendar/appearance-and-styling/skins%}) property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control comes with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the [Skin]({%slug calendar/appearance-and-styling/skins%}) property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
 
 Setting these properties will copy any non-blank elements of the specified style to the specific element of the rendered control, overwriting any existing style elements defined by the used skin.
 

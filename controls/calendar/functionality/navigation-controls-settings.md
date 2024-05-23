@@ -12,7 +12,7 @@ position: 1
 
 
 
-**RadCalendar** provides a number of properties to let you customize the appearance of the [navigation controls]({%slug calendar/accessibility-and-internationalization/radcalendar-month-navigation%}) that appear in the calendar title bar.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) provides a number of properties to let you customize the appearance of the [navigation controls]({%slug calendar/accessibility-and-internationalization/radcalendar-month-navigation%}) that appear in the calendar title bar.
 
 ## Navigation buttons
 

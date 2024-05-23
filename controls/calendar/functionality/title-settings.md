@@ -12,7 +12,7 @@ position: 0
 
 
 
-You can customize the **RadCalendar** Title to define how and what information should be shown.
+You can customize the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) Title to define how and what information should be shown.
 
 ## Title text
 

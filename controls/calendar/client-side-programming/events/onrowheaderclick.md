@@ -12,7 +12,7 @@ position: 10
 
 
 
-The **OnRowHeaderClick** client-side event handler is called when the user is about to select a row of dates by clicking on a row header. The event occurs only if the **ShowRowHeaders** and **UseRowHeadersAsSelectors** properties are set to **true**.
+The **OnRowHeaderClick** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the user is about to select a row of dates by clicking on a row header. The event occurs only if the **ShowRowHeaders** and **UseRowHeadersAsSelectors** properties are set to **true**.
 
 The event handler receives two arguments:
 

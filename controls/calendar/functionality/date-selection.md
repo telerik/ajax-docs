@@ -12,7 +12,7 @@ position: 7
 
 
 
-You can specify whether users can use the **RadCalendar** control to select only a single date, whether it permits the selection of multiple dates, or whether it is used for display purposes only and does not permit the user to select any dates.
+You can specify whether users can use the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control to select only a single date, whether it permits the selection of multiple dates, or whether it is used for display purposes only and does not permit the user to select any dates.
 
 * The **PresentationType** property specifies whether users can use the calendar to select dates at all. When **PresentationType** is **Preview**, the calendar is read-only, and users cannot select any values. When **PresentationType** is **Interactive**, the calendar acts as a date selection control.
 

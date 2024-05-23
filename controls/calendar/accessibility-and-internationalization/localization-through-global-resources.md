@@ -11,7 +11,7 @@ position: 2
 # Localization Through Global Resources
 
 
-**RadCalendar** and all picker controls support built-in localization through global resources. Similar to other **RadControls**, you can use **.resx** files to localize the control with minimal efforts. For that purpose, you can include the localization files in the **App_GlobalResources** folder in your application and change the **Culture** property of the control.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) and all picker controls support built-in localization through global resources. Similar to other **RadControls**, you can use **.resx** files to localize the control with minimal efforts. For that purpose, you can include the localization files in the **App_GlobalResources** folder in your application and change the **Culture** property of the control.
 
 ## Using Localization Files
 

@@ -11,7 +11,7 @@ position: 5
 # Keyboard Support
 
 
-The **RadCalendar** control provides keyboard navigation using the tab and arrow keys:
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides keyboard navigation using the tab and arrow keys:
 
 
 You can use the `TAB` key to focus the control. Once focus is on the **RadCalendar** control, you can use the following commands:

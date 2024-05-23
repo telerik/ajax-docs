@@ -14,7 +14,7 @@ position: 0
 
 ## Overview
 
-**RadCalendar** exposes the **RenderMode** property, which accepts three values - **Classic**, **Lightweight** and **Native**.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) exposes the **RenderMode** property, which accepts three values - **Classic**, **Lightweight** and **Native**.
 
 >caution 
 The same mode should be selected for all RadCalendar controls on the entire page. Otherwise, RadCalendar layout will be damaged due to confusion over the multiple CSS classes on the page.

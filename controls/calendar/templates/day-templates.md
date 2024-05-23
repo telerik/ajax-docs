@@ -13,7 +13,7 @@ previous_url: controls/calendar/templates/radcalendar-day-templates
 
 
 
-**RadCalendar** allows you to define a collection of dynamic templates that customize the presentation of calendar days on a "per day" basis. The templates can contain regular HTML and are particularly useful if you want to implement a scheduler-like interface with extra information, such as images illustrating events, links to additional sources, etc.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) allows you to define a collection of dynamic templates that customize the presentation of calendar days on a "per day" basis. The templates can contain regular HTML and are particularly useful if you want to implement a scheduler-like interface with extra information, such as images illustrating events, links to additional sources, etc.
 ![Templated RadCalendar](images/calendar_SpecialDayTemplates.png)
 
 The following steps describe how to implement Day Templates:

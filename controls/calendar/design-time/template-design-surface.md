@@ -12,7 +12,7 @@ position: 4
 
 
 
-The **Template Design Surface** lets you design templates for portions of the calendar and time view controls.
+The **Template Design Surface** of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) lets you design templates for portions of the calendar and time view controls.
 
 There are two basic ways to display the Template Design Surface:
 

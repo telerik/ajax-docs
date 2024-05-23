@@ -12,7 +12,7 @@ position: 2
 
 
 
-The column and row headers label the rows and columns of the main calendar area. In between the column and row headers, a view selector can optionally appear as well:
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) comes with column and row headers label of the rows and columns of the main calendar area. In between the column and row headers, a view selector can optionally appear as well:
 
 ![Row and column headers](images/RowAndColumnHeaders.png)
 

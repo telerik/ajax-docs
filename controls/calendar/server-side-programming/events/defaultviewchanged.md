@@ -12,7 +12,7 @@ position: 4
 
 
 
-The **RadCalendar** control provides the **DefaultViewChanged** server event, which is raised when the **AutoPostBack** property is set to **true**, and the user changes the currently visible view using the navigation controls in the title bar.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides the **DefaultViewChanged** server event, which is raised when the **AutoPostBack** property is set to **true**, and the user changes the currently visible view using the navigation controls in the title bar.
 
 The **DefaultViewChanged** event handler receives two arguments:
 

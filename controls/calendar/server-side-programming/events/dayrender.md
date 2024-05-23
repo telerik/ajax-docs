@@ -12,7 +12,7 @@ position: 1
 
 
 
-The **RadCalendar** control provides the **DayRender** server event, which is raised after all the cells of the day matrix have been generated and just before a cell is rendered to the client. It is the last place where changes to the already constructed calendar cells can be made.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides the **DayRender** server event, which is raised after all the cells of the day matrix have been generated and just before a cell is rendered to the client. It is the last place where changes to the already constructed calendar cells can be made.
 
 The **DayRender** event handler receives two arguments:
 

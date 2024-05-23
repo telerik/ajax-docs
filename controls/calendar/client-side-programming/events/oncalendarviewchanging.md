@@ -12,7 +12,7 @@ position: 7
 
 
 
-The **OnCalendarViewChanging** client-side event handler is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
+The **OnCalendarViewChanging** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
 
 
 The event handler receives two arguments:

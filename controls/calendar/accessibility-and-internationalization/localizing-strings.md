@@ -11,7 +11,7 @@ position: 3
 # Localizing Strings
 
 
-The **CultureInfo** property of the **RadCalendar** control determines the strings that will be used as month and day names. However, the **CultureInfo** property does not translate the other strings that appear in these controls.
+The **CultureInfo** property of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control determines the strings that will be used as month and day names. However, the **CultureInfo** property does not translate the other strings that appear in these controls.
 
 On **RadCalendar** you may need to localize the strings that appear in the [month/year navigation]({%slug calendar/functionality/navigation-controls-settings%}). You can translate these strings using the **FastNavigationSettings** property:
 

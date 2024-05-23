@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadCalendar** control raises server-side events, which you can use to customize the parts of the control as they are created, or to respond in the code-behind when the user makes a change.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control raises server-side events, which you can use to customize the parts of the control as they are created, or to respond in the code-behind when the user makes a change.
 
 **RadCalendar** exposes the following server-side events:
 

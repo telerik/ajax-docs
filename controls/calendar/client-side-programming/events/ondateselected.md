@@ -12,7 +12,7 @@ position: 5
 
 
 
-The **OnDateSelected** client-side event handler is called immediately after the value of the control's selection has changed.
+The **OnDateSelected** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called immediately after the value of the control's selection has changed.
 
 
 The event handler receives two arguments:

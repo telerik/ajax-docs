@@ -13,7 +13,7 @@ position: 0
 
 
 
-The **RadCalendar** controls provide a rich API with classes that expose several properties, enumerations, methods and events. You can use the API to easily customize the controls programmatically in the code-behind.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) controls provide a rich API with classes that expose several properties, enumerations, methods and events. You can use the API to easily customize the controls programmatically in the code-behind.
 
 ## RadCalendar
 

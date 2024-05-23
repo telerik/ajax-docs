@@ -12,7 +12,7 @@ position: 8
 
 
 
-The **RadCalendar** control provides an option to select a range of dates in addition to selecting one or multiple different dates. To enable the date range selection feature you need to set the **RangeSelectionMode** property to one of the following values:
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides an option to select a range of dates in addition to selecting one or multiple different dates. To enable the date range selection feature you need to set the **RangeSelectionMode** property to one of the following values:
 
 * **OnKeyHold** - Allow range selection by pressing **[Shift]** key and clicking on the date.
 

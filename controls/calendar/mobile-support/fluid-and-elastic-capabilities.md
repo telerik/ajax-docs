@@ -12,7 +12,7 @@ position: 1
 
 
 
-The RadCalendar including the picker controls provide elastic and fluid capabilities which allow keeping the control’s component proportion on different mobile devices.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) including the picker controls provide elastic and fluid capabilities which allow keeping the control’s component proportion on different mobile devices.
 
 @[template](/_templates/common/font-size-notes.md#note-and-example "control: RadCalendar")
 

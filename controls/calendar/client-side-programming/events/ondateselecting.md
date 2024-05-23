@@ -12,7 +12,7 @@ position: 4
 
 
 
-The **OnDateSelecting** client-side event handler is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
+The **OnDateSelecting** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
 
 
 The event handler receives two arguments:

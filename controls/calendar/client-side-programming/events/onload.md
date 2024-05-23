@@ -13,7 +13,7 @@ position: 2
 
 
 
-The **OnLoad** client-side event handler is called when the calendar is loaded on the client.
+The **OnLoad** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the calendar is loaded on the client.
 
 The event handler receives one argument:
 

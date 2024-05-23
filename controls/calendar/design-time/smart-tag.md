@@ -12,7 +12,7 @@ position: 1
 
 
 
-The **Smart Tag** allows easy access to frequently needed tasks. You can display it by right clicking on a control in the design window, and choosing **Show Smart Tag** from its context menu.
+The **Smart Tag** of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) allows easy access to frequently needed tasks. You can display it by right clicking on a control in the design window, and choosing **Show Smart Tag** from its context menu.
 
 ## RadCalendar Smart Tag
 
