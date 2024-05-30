@@ -10,7 +10,7 @@ position: 0
 
 # Common Issues
 
-This help article lists the most common issues one can face when using the **RadHtmlChart** control and offers possible solutions for them.
+This help article lists the most common issues one can face when using the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) control and offers possible solutions for them.
 
 1. [ Tooltips are hidden behind RadWindow or RadNotification. ](#tooltips-are-hidden-behind-radwindow-or-radnotification)
 1. [ Legend is not visible. ](#legend-is-not-visible)

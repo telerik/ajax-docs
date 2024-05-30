@@ -11,7 +11,7 @@ position: 2
 # Highlight Today Date
 
 
-There are situations when you may want the today's date in the **RadCalendar** highlighted. You can easily achieve this with couple of lines in the markup.
+There are situations when you may want the today's date in the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) highlighted. You can easily achieve this with couple of lines in the markup.
 
 
 ````ASP.NET

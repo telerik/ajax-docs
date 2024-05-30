@@ -12,7 +12,7 @@ position: 6
 
 
 
-The **OnDateClick** client-side event handler is called when the user clicks on a date in the day matrix or presses the ENTER key while a date has focus. If the day is selectable, this event occurs before the **OnDateSelecting** event. If the day is not selectable (but in the valid range), this event occurs, but not the **OnDateSelecting** event.
+The **OnDateClick** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the user clicks on a date in the day matrix or presses the ENTER key while a date has focus. If the day is selectable, this event occurs before the **OnDateSelecting** event. If the day is not selectable (but in the valid range), this event occurs, but not the **OnDateSelecting** event.
 
 
 The event handler receives two arguments:

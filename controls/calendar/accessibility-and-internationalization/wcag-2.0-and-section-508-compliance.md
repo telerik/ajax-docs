@@ -13,7 +13,7 @@ position: 7
 
 ## XHTML 1.1
 
-**RadCalendar** is fully compliant with XHTML 1.1.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is fully compliant with XHTML 1.1.
 
 >note 
 If the **FrameTemplate** content of **RadCalendar** is not XHTML compliant, then the output of the calendar will also not be XHTML 1.1 content compliant.

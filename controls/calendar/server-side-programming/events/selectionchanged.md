@@ -12,7 +12,7 @@ position: 3
 
 
 
-The **RadCalendar** control provides the **SelectionChanged** server event, which is raised when the **AutoPostBack** property is set to **true**, and the user changes the current selection by selecting or unselecting a date in the calendar.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides the **SelectionChanged** server event, which is raised when the **AutoPostBack** property is set to **true**, and the user changes the current selection by selecting or unselecting a date in the calendar.
 
 The **SelectionChanged** event handler receives two arguments:
 

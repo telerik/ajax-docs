@@ -11,7 +11,7 @@ position: 0
 # WebForms Calendar Overview
 
 
-The Telerik **RadCalendar** is highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is a highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
 
 #### Features
 

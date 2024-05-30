@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadCalendar** control provides a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug calendar/client-side-programming/events/overview%}), the client-side object model lets you achieve various tasks while avoiding unnecessary post-backs.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control provides a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug calendar/client-side-programming/events/overview%}), the client-side object model lets you achieve various tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 

@@ -10,7 +10,7 @@ position: 6
 
 # 100% Stacked Series
 
-The 100% stacked series display the values from multiple series as stacks or group of stacks over the x-axis categories, where the values proportions from each stack totals 100%. This series type is useful for cases where the contribution of values within stacks is more meaningful than the amounts themselves.
+The 100% stacked series display the values from multiple series of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) as stacks or group of stacks over the x-axis categories, where the values proportions from each stack totals 100%. This series type is useful for cases where the contribution of values within stacks is more meaningful than the amounts themselves.
 
 The functionality is available for category series - bar, column, line, area and radar (area, line and column).
 

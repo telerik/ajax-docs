@@ -12,7 +12,7 @@ position: 5
 
 
 
-The following table lists significant CSS selectors and descriptions that apply to the **RadCalendar** controls in **RadCalendar** style sheets.
+The following table lists significant CSS selectors and descriptions that apply to the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) controls in **RadCalendar** style sheets.
 
 >note 
 The "[skin]" that appears in class names is a placeholder for the name of the skin.

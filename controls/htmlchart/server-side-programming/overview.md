@@ -10,7 +10,7 @@ position: 0
 
 # Server-side Programming Overview
 
-The **RadHtmlChart** offers many properties to allow detailed customizations.To keep the control and its numerous properties organized, they have a deep hierarchy that you can access via inner properties and inner tags in the markup. The sections in the diagram below (**Figure 1**) show the main control hierarchy visually. You can find more information on the control’s rendering and appearance in [this article about RadHtmlChart element structure]({%slug htmlchart/radhtmlchart-structure%}).
+The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers many properties to allow detailed customizations.To keep the control and its numerous properties organized, they have a deep hierarchy that you can access via inner properties and inner tags in the markup. The sections in the diagram below (**Figure 1**) show the main control hierarchy visually. You can find more information on the control’s rendering and appearance in [this article about RadHtmlChart element structure]({%slug htmlchart/radhtmlchart-structure%}).
 
 If you are looking for detailed server-side API reference, examine the following articles, depending on the chart elements you wish to customize:
 

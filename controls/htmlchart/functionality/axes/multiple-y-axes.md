@@ -10,7 +10,7 @@ position: 2
 
 # Multiple Y-Axes
 
-**RadHtmlChart** supports multiple Y-axes to provide an additional scale against which to plot information as of the Q2 2012 release.
+The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) supports multiple Y-axes to provide an additional scale against which to plot information as of the Q2 2012 release.
 
 >tip You can set the `Value` of the `AxisCrossingPoint` to a very high value (like `99999`) that is higher than the number of items on the x-axis to ensure it is always on the right-hand side.
 

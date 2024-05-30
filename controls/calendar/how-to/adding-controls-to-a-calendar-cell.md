@@ -12,7 +12,7 @@ position: 0
 
 
 
-There are two possible approaches for adding controls to a **RadCalendar** cell:
+There are two possible approaches for adding controls to a [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) cell:
 
 * You can add controls to a Day template and assign the template to one or more special days in the calendar. This approach is useful when you want to add controls on a "per day" basis. For details on how to create and use day templates, see [Day Templates]({%slug calendar/functionality/templates/day-templates%}).
 

@@ -11,7 +11,7 @@ position: 1
 # Date Format Patterns
 
 
-The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current [CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%}) settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
+The table below shows a list of the standard format characters of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) dates. For each standard pattern, it shows the pattern from the current [CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%}) settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
 
 
 | Format Character | Description |

@@ -10,7 +10,7 @@ position: 4
 
 # Plot Bands
 
-**Plot Bands** are colored ranges in **RadHtmlChart**, the purpose of which is to highlight areas of the chart by changing its background in a predefined axis range. Telerik introduced the plot bands in the Q1 2014 release.
+**Plot Bands** are colored ranges in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), the purpose of which is to highlight areas of the chart by changing its background in a predefined axis range. Telerik introduced the plot bands in the Q1 2014 release.
 
 The plot bands appear on the chart as colored areas that fill the entire space between two grid lines on the x-axis or on the y-axis.
 

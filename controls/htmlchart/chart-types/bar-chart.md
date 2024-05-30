@@ -10,7 +10,7 @@ position: 2
 
 # Bar Chart
 
-A Bar chart displays data as horizontal bars whose lengths vary according to their value. You can use a Bar chart to show a comparison between several sets of data (for example, summaries of sales data for different time periods). Each series is automatically colored differently for easier reading. This article describes some of the ways you can customize a Bar chart and **Example 1** (at the end of this article) shows how to set properties for **Figure 1**.
+A **Bar** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), displays data as horizontal bars whose lengths vary according to their value. You can use a Bar chart to show a comparison between several sets of data (for example, summaries of sales data for different time periods). Each series is automatically colored differently for easier reading. This article describes some of the ways you can customize a Bar chart and **Example 1** (at the end of this article) shows how to set properties for **Figure 1**.
 
 >caption Figure 1: A basic Bar chart showing values by date.
 

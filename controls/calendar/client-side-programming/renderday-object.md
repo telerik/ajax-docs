@@ -14,7 +14,7 @@ position: 7
 
 The **RenderDay** client object represents a day in the calendar. It is available through the eventArgs of the [OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%}), [OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%}), [OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%}), and [OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%}) client-side events.
 
-The following tables lists the most important properties and methods of the **RenderDay** object:
+The following tables lists the most important properties and methods of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) object:
 
 
 | Name | Parameters | Return Type | Description |

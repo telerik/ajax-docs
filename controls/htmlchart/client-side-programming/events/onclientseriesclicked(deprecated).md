@@ -12,7 +12,7 @@ position: 1
 
 >caution  **OnClientSeriesClicked** client-side event has been deprecated since Q3 2014. Please, use [OnSeriesClick]({%slug htmlchart/client-side-programming/events/overview%}) instead.
 
-The **OnClientSeriesClicked** event occurs when the series in the RadHtmlChart are clicked. This article discusses the objects of the **RadHtmlChart OnClientSeriesClicked** event and their properties and methods and then shows an example of how toretrieve properties when the event occurs (**Example 1**).
+The **OnClientSeriesClicked** event occurs when the series in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) are clicked. This article discusses the objects of the **RadHtmlChart OnClientSeriesClicked** event and their properties and methods and then shows an example of how toretrieve properties when the event occurs (**Example 1**).
 
 The **OnClientSeriesClicked** event handler receives the following parameters:
 

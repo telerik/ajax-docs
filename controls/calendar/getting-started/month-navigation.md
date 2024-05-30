@@ -11,7 +11,7 @@ position: 2
 # Month Navigation
 
 
-The title bar of **RadCalendar** includes the controls for navigating to other views. By default, each view represents a single month. However, if the calendar is using[Multi-View mode]({%slug calendar/functionality/multi-view-mode%}), the view can include any number of months.
+The title bar of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) includes the controls for navigating to other views. By default, each view represents a single month. However, if the calendar is using [Multi-View mode]({%slug calendar/functionality/multi-view-mode%}), the view can include any number of months.
 ![Navigating RadCalendar](images/calendar_usability_navigating.png)
 
 The title bar includes three types of controls for switching views:

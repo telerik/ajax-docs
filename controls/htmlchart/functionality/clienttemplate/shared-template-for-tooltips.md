@@ -12,7 +12,7 @@ position: 3
 
 ## Shared Templates for ToolTips
 
-You can hover over a single series item and display a common tooltip with information about all the series items from the particular category. As of Q3 2013, the templates for tooltips in **RadHtmlChart** can be shared among all the series items within their group. You can share these templatesby setting the following properties in the **CommonTooltipsAppearance** element, exposed by the **PlotArea** of the chart:
+You can hover over a single series item and display a common tooltip with information about all the series items from the particular category. As of Q3 2013, the templates for tooltips in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be shared among all the series items within their group. You can share these templatesby setting the following properties in the **CommonTooltipsAppearance** element, exposed by the **PlotArea** of the chart:
 
 * **Shared** - You must explicitly set this property to **true** for standard charts. For Sparkline layout, the default value is **true**.
 

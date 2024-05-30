@@ -14,7 +14,7 @@ position: 1
 
 When browsing through a page with the Tab key, sometimes you want to skip the calendar from the controls gaining focus. Unfortunately setting its TabIndex=-1 will not accomplish this, as the tab index is not inherited by the child controls, which are html links (<*a href*> tags).
 
-You can remove the calendar child controls from the tab sequence by writing a JavaScript function such as the following. Note that the function to set the tab index of child controls must be called both when the window loads, and by the client-side **OnCalendarViewChanged** event handler.
+You can remove the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) child controls from the tab sequence by writing a JavaScript function such as the following. Note that the function to set the tab index of child controls must be called both when the window loads, and by the client-side **OnCalendarViewChanged** event handler.
 
 ````JavaScript
 <script type="text/javascript">

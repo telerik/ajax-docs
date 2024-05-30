@@ -12,7 +12,7 @@ position: 2
 
 
 
-The **RadDate Collection Editor** lets you specify the initially selected values in a calendar that allows multiple dates to be selected.
+The **RadDate Collection Editor** of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) lets you specify the initially selected values in a calendar that allows multiple dates to be selected.
 
 To display the **RadDate Collection Editor**, click the ellipsis button next to the **SelectedDates** property in the properties pane for the **RadCalendar** control.
 ![Pre-selecting dates](images/GettingStarted_AddingRadCalendar006_RadDateCollectionEditor.png)

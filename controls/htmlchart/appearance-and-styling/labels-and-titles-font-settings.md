@@ -10,7 +10,7 @@ position: 3
 
 # Labels and Titles Font Settings
 
-This Help article describes how to set a number of properties that let you change the fonts, colors, size, margin, etc., of labels, titles, and legends in a **RadHtmlChart**. **Example 1** shows how to set four different fonts plus different colors and size, eventually creating	**Figure 1**.
+This Help article describes how to set a number of properties that let you change the fonts, colors, size, margin, etc., of labels, titles, and legends in  the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). **Example 1** shows how to set four different fonts plus different colors and size, eventually creating	**Figure 1**.
 
 ## Setting Text Styles for Titles and Labels
 

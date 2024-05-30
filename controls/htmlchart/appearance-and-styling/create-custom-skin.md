@@ -10,7 +10,7 @@ position: 7
 
 # Create Custom Skin
 
-This help article illustrates how to create a custom skin for RadHtmlChart.
+This help article illustrates how to create a custom skin for the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx).
 
 * [Modify an Existing Skin](#modify-an-existing-skin)
 * [Create a New Skin](#create-a-new-skin)

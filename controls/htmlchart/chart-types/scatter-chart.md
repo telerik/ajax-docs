@@ -10,7 +10,7 @@ position: 17
 
 # Scatter Chart
 
-A Scatter chart shows data as points defined by their items' values. Its x-axis is also numerical and does not require items. Scatter charts are useful for showing the relation between different sets of data, for example scientific (experimental) results.This Help article shows which properties to use to customize a Scatter chart (**Figure 1**) and shows sample code (**Example 1**) to create one.
+A **Scatter** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as points defined by their items' values. Its x-axis is also numerical and does not require items. Scatter charts are useful for showing the relation between different sets of data, for example scientific (experimental) results.This Help article shows which properties to use to customize a Scatter chart (**Figure 1**) and shows sample code (**Example 1**) to create one.
 
 >caption Figure 1: A simple Scatter chart.
 

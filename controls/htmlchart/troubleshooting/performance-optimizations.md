@@ -10,7 +10,7 @@ position: 2
 
 # Performance Optimizations
 
-This help article describes the reason for a possible increase in the **RadHtmlChart**'s load time and offers measures to improve the performance of the control.
+This help article describes the reason for a possible increase in the [ASP NET AJAX Chart's](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) load time and offers measures to improve the performance of the control.
 
 The **RadHtmlChart** renders SVG in modern browsers and VML in older browsers that do not support SVG (i.e., IE8 and below), that are essentially forms of an XML document. This means that the chart's image will be created by numerous elements (i.e., XML nodes) and rendering them may take some time for the browser. In scenarios where the chart has many components like series items, x/y axes labels, major and/or minor grid lines (i.e., path and text elements for the rendering) and the animation is enabled (it is enabled by default), the overall rendering time may be increased because the browser will have to draw too many elements and animate them.
 

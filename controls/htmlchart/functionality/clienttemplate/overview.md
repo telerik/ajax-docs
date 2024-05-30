@@ -10,7 +10,7 @@ position: 0
 
 # ClientTemplate Overview
 
-As of **Q3 2012**, **RadHtmlChart** offers client-side templates for the labels and tooltips used in the series. This Help article will discuss using client-side templates, connecting them to a data source and review the most used properties.
+As of **Q3 2012**, the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers client-side templates for the labels and tooltips used in the series. This Help article will discuss using client-side templates, connecting them to a data source and review the most used properties.
 
 As of **Q2 2016**, client templates are also available for **Legend** items and **Axes** labels. In order to learn more details abouy how to configure them read the [Using Client Templates in Legend and Axes Labels]({%slug htmlchart/functionality/clienttemplate/using-client-templates-legend-axes%}) article. 
 

@@ -11,7 +11,7 @@ position: 0
 # Controlling Appearance
 
 
-A number of properties let you control the look and feel of the **RadCalendar** control:
+A number of properties let you control the look and feel of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control:
 
 * The **Skin** property lets you specify a [Skin]({%slug calendar/appearance-and-styling/skins%}) to set the overall look and feel of any of the controls. You can even assign separate skins to the embedded **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** controls.
 

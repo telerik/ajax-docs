@@ -10,7 +10,7 @@ position: 1
 
 # Logarithmic Axis
 
-This help article explains how to use a logarithmic axis in the **RadHtmlChart** control. The feature is available since Q3 2014.
+This help article explains how to use a logarithmic axis in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) control. The feature is available since Q3 2014.
 
 A logarithmic axis is a special numeric axis that transforms the actual values by using a logarithmic function with a particular base. The purpose of the logarithmic axis is to display values that cover different orders of magnitude in a more convenient way because it lets large values display together with small values in a more condensed scale than the default linear axis.
 

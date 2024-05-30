@@ -12,7 +12,7 @@ position: 3
 
 
 
-By default, **RadCalendar** lays out its day matrix like an ordinary calendar, with 7 columns (one for each day of the week) and 6 rows (the maximum number of weeks needed in a month). You can change this default layout using two properties: **Orientation** and **MonthLayout**.
+By default, the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) lays out its day matrix like an ordinary calendar, with 7 columns (one for each day of the week) and 6 rows (the maximum number of weeks needed in a month). You can change this default layout using two properties: **Orientation** and **MonthLayout**.
 
 ## Horizontal orientation
 

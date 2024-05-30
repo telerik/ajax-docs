@@ -10,7 +10,7 @@ position: 5
 
 # Axes Configuration
 
-This help article will tell you which properties to set for the axes of the different **RadHtmlChart** series. The axes are child elements of the **PlotArea** element of the **RadHtmlChart**. Both the **X** and **Y** axes have a common set of properties and inner tags. The major difference is that in most cases, the x-axis requires a set of items while the y-axis requires a numerical value. The exceptions are **PieSeries**, **DonutSeries** and **FunnelSeries** where there are no axes, and **ScatterSeries**, **ScatterLineSeries** and **BubbleSeries** where the x-axis is also numerical.
+This help article will tell you which properties to set for the axes of the different [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) series. The axes are child elements of the **PlotArea** element of the **RadHtmlChart**. Both the **X** and **Y** axes have a common set of properties and inner tags. The major difference is that in most cases, the x-axis requires a set of items while the y-axis requires a numerical value. The exceptions are **PieSeries**, **DonutSeries** and **FunnelSeries** where there are no axes, and **ScatterSeries**, **ScatterLineSeries** and **BubbleSeries** where the x-axis is also numerical.
 
 As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYAxes** tag inside **PlotArea**. These additional axes have the same configuration options as the main **YAxis**. Each series offers the **AxisName** property which corresponds to the **Name** property of the additional axis used by the series.
 

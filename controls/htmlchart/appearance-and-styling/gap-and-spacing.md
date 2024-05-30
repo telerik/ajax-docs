@@ -10,7 +10,7 @@ position: 2
 
 # Gap and Spacing
 
-The **Gap** and **Spacing** properties for **BarSeries**, **ColumnSeries** and **RadarColumnSeries** let you configure the gaps between the series categories and the spacing between the chart series items. These properties are available as of **Q1 2014**. They can take negative values to provide series overlap as of **R1 2019**.
+The **Gap** and **Spacing** properties for **BarSeries**, **ColumnSeries** and **RadarColumnSeries** let you configure the gaps between the series categories and the spacing between the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) series items. These properties are available as of **Q1 2014**. They can take negative values to provide series overlap as of **R1 2019**.
 
 The **Gap** and **Spacing** properties of the chart series control the distance between the series items,visualized in the PlotArea of the chart (**Figure 1**):
 

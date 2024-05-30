@@ -12,7 +12,7 @@ position: 11
 
 
 
-The **OnViewSelectorClick** client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector** property is set to **true**.
+The **OnViewSelectorClick** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector** property is set to **true**.
 
 The event handler receives two arguments:
 

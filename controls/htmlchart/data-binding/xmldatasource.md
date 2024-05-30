@@ -10,7 +10,7 @@ position: 4
 
 # XmlDataSource
 
-This Help article describes which properties to use to bind a **RadHtmlChart** to an **XmlDataSource** and presents a code example.You can bind the **RadHtmlChart** to an **XmlDataSource** using the following properties:
+This Help article describes which properties to use to bind the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to an **XmlDataSource** and presents a code example.You can bind the **RadHtmlChart** to an **XmlDataSource** using the following properties:
 
 * **DataSourceID** in the main tag sets the declarative data-source for the entire chart.You can use the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 

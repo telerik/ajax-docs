@@ -10,7 +10,7 @@ position: 1
 
 # Important Changes Regarding Series Declaration
 
-The programmatic creation of series items in the **RadHtmlChart** control should be done via the **SeriesItems** collection. Telerik made the **Items** collection obsolete with the **Q2 2013** release.
+The programmatic creation of series items in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) control should be done via the **SeriesItems** collection. Telerik made the **Items** collection obsolete with the **Q2 2013** release.
 
 Along with these changes, the respective series item object for each series type must be used. The corresponding series items for each series type are listed in **Table 1**.
 

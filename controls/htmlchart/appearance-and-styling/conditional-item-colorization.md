@@ -10,7 +10,7 @@ position: 1
 
 # Conditional Item Colorization
 
-All series types expose a **ColorField** property that you can use to specify a column in the data source from which the color for each item in the series will be taken. You can find a good demo of how this works in the [Conditional Item Colorization Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/custombarcolor/defaultcs.aspx).
+All series types of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) expose a **ColorField** property that you can use to specify a column in the data source from which the color for each item in the series will be taken. You can find a good demo of how this works in the [Conditional Item Colorization Demo](https://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/custombarcolor/defaultcs.aspx).
 
 The color must be passed as a **string** in the data source and its format can be either a color name (e.g. "red", "green", "blue"), or a hex value (e.g. "#cccccc", "#ff00ee", "#123456"). This functionality became available in Q1 2013. The exception are **PieSeries** and **DonutSeries** which expose the property since the release of the control.
 

@@ -12,7 +12,7 @@ position: 3
 
 
 
-The **OnDayRender** client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
+The **OnDayRender** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
 
 
 The event handler receives two arguments:

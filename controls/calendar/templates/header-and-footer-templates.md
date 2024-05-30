@@ -12,7 +12,7 @@ position: 1
 
 
 
-The header and footer areas of a **RadCalendar** control can be customized using templates. The header is the area between the title and the main calendar area, while the footer is the area below the main calendar area.
+The header and footer areas of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control can be customized using templates. The header is the area between the title and the main calendar area, while the footer is the area below the main calendar area.
 
 As with all **RadCalendar** templates, the header and footer templates can contain regular HTML, including text, images, hyperlinks, and so on.
 ![Customized RadCalendar](images/calendar_overviewstructure_003.png)

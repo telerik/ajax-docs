@@ -10,7 +10,7 @@ position: 21
 
 # Step Line Chart
 
-A Step line chart is a form of line/area chart where each data point from the series is connected with vertical and horizontal lines to form a step-like progression. This type of line/area visualization is useful in displaying the intermittent changes of a quantity that remains a constant during stages. The **AreaSeries** and **LineSeries** support Step line rendering. Telerik introduced the Step line chart in **Q1 2014**.
+A **Step** line chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a form of line/area chart where each data point from the series is connected with vertical and horizontal lines to form a step-like progression. This type of line/area visualization is useful in displaying the intermittent changes of a quantity that remains a constant during stages. The **AreaSeries** and **LineSeries** support Step line rendering. Telerik introduced the Step line chart in **Q1 2014**.
 
 You can display horizontal and vertical lines through the data points from the series by setting the **LineAppearance.LineStyle** property of the series to "**Step**". For example:
 

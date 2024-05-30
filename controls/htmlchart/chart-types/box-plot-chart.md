@@ -10,7 +10,7 @@ position: 3
 
 # Box Plot Chart
 
-A Box Plot chart depicts graphically numerical data by displaying a data distribution summary with six indicators (i.e., lower value, first quartile, median, mean, third quartile, upper value) and outliers for each set of data.
+A **Box Plot** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), depicts graphically numerical data by displaying a data distribution summary with six indicators (i.e., lower value, first quartile, median, mean, third quartile, upper value) and outliers for each set of data.
 
 A single Box Plot **SeriesItem** (**Figure 1**) consists of **Box**, **Whiskers** and **Outliers** elements. You can find a brief description of each element below.
 

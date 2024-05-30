@@ -11,7 +11,7 @@ position: 6
 # WAI-ARIA Support
 
 
-The **RadCalendar** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
 All ARIA attributes are **lower case**. They are shown in the table below.
 

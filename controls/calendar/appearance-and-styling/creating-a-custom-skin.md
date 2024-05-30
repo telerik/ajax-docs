@@ -11,7 +11,7 @@ position: 3
 # Creating a Custom Skin
 
 
-The following tutorial demonstrates how you can create custom **RadCalendar** skin, using the **Office2007** skin as base. The tutorial only changes skin CSS classes that affect the **RadCalendar** control.
+The following tutorial demonstrates how you can create custom skin for the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx), using the **Office2007** skin as base. The tutorial only changes skin CSS classes that affect the **RadCalendar** control.
 
 
 This tutorial creates a new skin that takes the appearance of the calendar control from this look:

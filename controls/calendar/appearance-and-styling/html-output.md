@@ -26,7 +26,7 @@ table.RadCalendar_Default
 
 
 
-See [CSS Skin Selectors]({%slug calendar/appearance-and-styling/css-skin-selectors%}) for detailed information on the specific CSS selectors used for **RadCalendar** skins.
+See [CSS Skin Selectors]({%slug calendar/appearance-and-styling/css-skin-selectors%}) for detailed information on the specific CSS selectors used for the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) skins.
 
 ## HTML Output of RadCalendar
 

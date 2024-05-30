@@ -12,7 +12,7 @@ position: 0
 
 
 
-This help article lists the **RadHtmlChart**'s public client-side methods that let you access and modify the control's height, width, data source, transitions, etc.; shows how to reference and use the **RadHtmlChart** client-side object (**Examples 1-2**); and provides an example about modifying the data source of **RadHtmlChart** on the client (**Example 3**).
+This help article lists the [ASP NET AJAX Chart's](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) public client-side methods that let you access and modify the control's height, width, data source, transitions, etc.; shows how to reference and use the **RadHtmlChart** client-side object (**Examples 1-2**); and provides an example about modifying the data source of **RadHtmlChart** on the client (**Example 3**).
 
 **RadHtmlChart** for ASP.NET AJAX is based on the [Kendo UI Data Visualization Chart Widget](https://demos.telerik.com/kendo-ui/area-charts/index). Thus, it exposes the [client-side API and methods offered by the widget](https://docs.telerik.com/kendo-ui/api/dataviz/chart) and mainly provides a wrapper and API for working with the chart on the server (programmatic creation, data binding, declaring in the markup).
 

@@ -10,7 +10,7 @@ position: 2
 
 # Migrate Data Binding Configuration
 
-This article illustrates how to migrate the configuration of data binding with discrete and continuous data from **RadChart** to **RadHtmlChart**. The examples illustrate how to migrate the data binding declaratively. However, you can use the same classes and properties of the series and axis to programmatically migrate the configuration of the data binding.
+This article illustrates how to migrate the configuration of data binding with discrete and continuous data from **RadChart** to the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). The examples illustrate how to migrate the data binding declaratively. However, you can use the same classes and properties of the series and axis to programmatically migrate the configuration of the data binding.
 
 ## Data Binding Discrete Data
 

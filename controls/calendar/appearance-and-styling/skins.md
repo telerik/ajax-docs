@@ -12,7 +12,7 @@ position: 2
 
 
 
-The **RadCalendar** controls use **skins** to control their overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (date cells, buttons, etc.) and defines their look and feel.To apply a skin to a **RadCalendar**, **RadDatePicker**, **RadTimePicker**, or **RadDateTimePicker** control, set its **Skin** property, either using the properties pane or the control's [Smart Tag]({%slug calendar/design-time/smart-tag%}).
+The [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) controls use **skins** to control their overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (date cells, buttons, etc.) and defines their look and feel.To apply a skin to a **RadCalendar**, **RadDatePicker**, **RadTimePicker**, or **RadDateTimePicker** control, set its **Skin** property, either using the properties pane or the control's [Smart Tag]({%slug calendar/design-time/smart-tag%}).
 
 The **RadCalendar** controls are installed with a number of preset skins. These are shown below:
 ![RadCalendar Skins](images/calendar-skins.png) 

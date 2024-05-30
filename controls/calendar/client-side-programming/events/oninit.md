@@ -12,7 +12,7 @@ position: 1
 
 
 
-The **OnInit** client-side event handler is called when the calendar is first constructed.
+The **OnInit** client-side event handler of the [ASP NET AJAX Calendar](https://www.telerik.com/products/aspnet-ajax/calendar.aspx) is called when the calendar is first constructed.
 
 
 The event handler receives one argument:
