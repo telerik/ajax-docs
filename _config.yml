@@ -48,6 +48,9 @@ navigation:
     "getting-started/work-with-controls":
         title: "Working with the Controls"
         position: 20
+    "getting-started/prerequisites":
+        title: "Prerequisites"
+        position: 9
     "getting-started/performance":
         title: "Performance"
         position: 30
