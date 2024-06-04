@@ -33,7 +33,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-First, add the *RadMultiColumnComboBox* as a **FilterTemplate** to a *Grid* column. Configure its data source, display fields, and columns as needed.
+First, add the **RadMultiColumnComboBox** as a ***FilterTemplate*** to a **Grid** column. Configure its data source, display fields, and columns as needed.
 
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" DataSourceID="SqlDataSource1" Width="800px" AllowFilteringByColumn="True">
@@ -72,9 +72,9 @@ After that, implement the [`onChange`](https://docs.telerik.com/kendo-ui/api/jav
 function onChange(sender, args) {
     var grid = $find("<%=RadGrid1.ClientID %>");
     var tableView = grid.get_masterTableView();
-    var filterText = sender.get_dataItem().ContactName;
+    var filterText = sender.get_dataItem().ContactName;  // You can also specify the other fields, depending on the returned data
 
-    tableView.filter("ContactName", filterText, "EqualTo");  // You can also specify the other fields, depending on the returned data
+    tableView.filter("ContactName", filterText, "EqualTo"); 
 }
 ````
 
