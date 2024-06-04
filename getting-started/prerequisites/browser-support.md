@@ -16,41 +16,33 @@ Telerik is a pioneer in offering cross-browser compatible components for ASP.NET
 
 The following tables list the browsers the UI for ASP.NET AJAX suite supports:
 
-<table class="Table k-table">
+<table>
   <thead>
     <tr>
-      <th>Desktop Browsers</th>
-      <th>Windows </th>
-      <th>Mac OS </th>
-      <th>Linux </th>
+      <th align="left">BROWSER</th>
+      <th align="left">SUPPORTED VERSIONS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Chrome <br>
-      </td>
-      <td colspan="3" style="text-align:center;">Current and previous</td>
+      <td align="left">Edge</td>
+      <td align="left">The two latest versions at the time of the release.</td>
     </tr>
     <tr>
-      <td valign="top">Microsoft Edge </td>
-      <td valign="top">Current <br>
-      </td>
-      <td valign="top" style="text-align:center;" colspan="2">N/A </td>
+      <td align="left">Chrome</td>
+      <td align="left">The two latest versions at the time of the release.</td>
     </tr>
     <tr>
-      <td>Firefox</td>
-      <td style="text-align:center;" colspan="3">Current, previous and <a target="_blank" href="https://www.mozilla.org/en-US/firefox/organizations/faq/" data-sf-ec-immutable="">ESR</a>
-      </td>
+      <td align="left">Firefox</td>
+      <td align="left">The two latest versions at the time of the release. This includes <a href="https://en.wikipedia.org/wiki/History_of_Firefox#Release_history">Firefox ESR releases</a> ( <a href="https://www.mozilla.org/en-US/firefox/organizations/faq/">What is ESR?</a>). </td>
     </tr>
     <tr>
-      <td>Opera</td>
-      <td style="text-align:center;" colspan="3">Current and previous</td>
+      <td align="left">Opera</td>
+      <td align="left">The two latest versions at the time of the release.</td>
     </tr>
     <tr>
-      <td>Safari</td>
-      <td>N/A</td>
-      <td>9.1+</td>
-      <td>N/A </td>
+      <td align="left">Safari (OS X)</td>
+      <td align="left">The two latest versions at the time of the release.</td>
     </tr>
   </tbody>
 </table>
