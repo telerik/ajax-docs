@@ -74,7 +74,7 @@ For detailed information on .NET Frameworks Support refer to the Product Support
 
 ## Supported Client-Side Frameworks
 
-See [Browser Support]({% slug/getting-started/prerequisites/browser-support%}) for more information.
+See [Browser Support]({%slug getting-started/prerequisites/browser-support%}) for more information.
 
 Seamless interoperability with [jQuery](https://jquery.com/).
 

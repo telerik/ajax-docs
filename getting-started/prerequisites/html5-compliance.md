@@ -16,4 +16,4 @@ HTML 5 is the newest HTML standard used for structuring and presenting content f
 
 HTML5 is intended to replace not only HTML4, but also XHTML1 and DOM Level 2 HTML. Today all major browsers (Chrome, Safari, Firefox, Opera, IE) and many of the mobile ones offer HTML5 support. This is why we improved most of our ASP.NET AJAX controls not only to be compatible with HTML DOCTYPE, but to pass HTML5 validation as well. The controls continue to have a fallback to support earlier technologies and legacy browsers.
 
-You can refer to the table inside [this help article]({% slug/introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) to see which controls offer modern rendering and pass HTML5 validation.
+You can refer to the table inside [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) to see which controls offer modern rendering and pass HTML5 validation.
