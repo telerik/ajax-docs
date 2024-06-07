@@ -1,3 +1,4 @@
+---
 title: Sanitizing HTML Content in RadEditor During Paste Operations
 description: Learn how to sanitize HTML content inserted or pasted into RadEditor using the OnClientPasteHtml event and the Paste HTML dialog - Telerik UI for ASP.NET AJAX
 type: how-to
@@ -7,8 +8,10 @@ position:
 tags:
 ticketid: 1619141
 res_type: kb
+---
 
 ## Environment
+
 <table>
     <tbody>
         <tr>
@@ -19,10 +22,13 @@ res_type: kb
 </table>
 
 ## Description
+
 In RadEditor for ASP.NET AJAX, users can paste HTML content via the "Paste HTML" dialog or manually with `Ctrl+V`. While the [RadEditor RemoveScripts, StripDomEventAttributes, StripCssExpressions content filters prevent XSS attacks by sanitizing the content](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/managing-content/prevent-cross-site-scripting-(xss)#radeditor-and-xss) upon submission and on the server side, some users may wish to sanitize the content at the time of pasting. This article explains how to sanitize HTML content during paste operations in the OnClientPasteHtml event as well as in the Paste HTML dialog.
 
 ## Solution
+
 ### Sanitizing HTML Content During OnClientPasteHtml Event
+
 To sanitize the HTML content during the `OnClientPasteHtml event`, you can use the following JavaScript code in your RadEditor configuration:
 
 ````ASPX
@@ -84,9 +90,11 @@ To sanitize the HTML content during the `OnClientPasteHtml event`, you can use t
 ````
 
 ### Sanitizing HTML Content in the Paste HTML Dialog
+
 The solution above also applies to the content inserted (pasted) by the `Paste HTML` since its content goes through the OnClientPasteHtml event. 
 
 ## Summary
+
 By implementing these modifications, you ensure that HTML content pasted into RadEditor is sanitized immediately, providing an additional layer of security against potential XSS attacks. Although the built-in content filters are effective, this approach offers real-time protection during paste operations, enhancing the overall security of your application.
  
   
