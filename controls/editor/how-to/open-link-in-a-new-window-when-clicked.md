@@ -15,30 +15,26 @@ The code below demonstrates how to iterate RadEditor document links when the edi
 ![](images/editor-handlingcontent002.png)
 
 ````JavaScript
-<script type="text/javascript">
-	function OnClientLoad(editor)
-	{
-		var links = editor.get_document().getElementsByTagName("A");
-		for (var i = 0; i < links.length; i++)
-		{
-			var link = links[i];
-			link.setAttribute("target", "#");
-		}
-	}
-</script>
+function OnClientLoad(sender, args) {
+    var editorDocument = sender.get_document();
+    var allLinks = editorDocument.getElementsByTagName("A");
+
+    for (var i = 0; i < allLinks.length; i++) {
+        var link = allLinks[i];
+
+        link.setAttribute("target", "#");
+        link.setAttribute("onclick", "");
+    }
+}
 ````
 
 ````ASP.NET
-<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Default" OnClientLoad="OnClientLoad"
-	EditModes="Preview">
-	<Content>       
-		Sample Content        
-		<a href="httpwww.telerik.com&quot;>www.telerik.com</a>
-		test
-		<a href="https://www.yahoo.com">www.yahoo.com</a>
-		test
-		<a href="http://www.test.com/some.pdf">some.pdf</a>
-	</Content>
+<telerik:RadEditor ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad" EditModes="Preview">
+    <Content>       
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a>
+        <br />
+        <a href="https://www.telerik.com/">Telerik</a>
+    </Content>
 </telerik:RadEditor>
 ````
 
