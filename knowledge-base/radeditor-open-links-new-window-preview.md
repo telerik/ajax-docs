@@ -13,7 +13,7 @@ ticketid: 195491
 
 | Product | RadEditor for ASP.NET AJAX |
 | --- | --- |
-| Version | алл |
+| Version | all |
 
 ## Description
 
