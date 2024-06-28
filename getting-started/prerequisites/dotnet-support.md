@@ -18,12 +18,99 @@ For [ASP.NET Web Forms](https://learn.microsoft.com/en-us/aspnet/web-forms/) pro
 
 ## Microsoft .NET Framework lifecycle
 
-You can find the start and end dates of support for the different .NET versions on this page: [Support dates](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework).
+You can find the start and end dates of support for the different .NET versions below: [Support dates](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework).
 
 
 ## Telerik UI for ASP.NET AJAX versions compatibility with Microsoft .NET Framework
 
-You can find the releases that introduce  builds created against the various .NET versions on this page [.NET Support](https://www.telerik.com/aspnet-ajax/tech-sheets/net-support).
+You can find the releases that introduce  builds created against the various .NET versions below:
+
+<table class="Table Table--comparison k-table">
+  <tbody>
+    <tr>
+      <td>
+        <strong>.NET version</strong>&nbsp;
+      </td>
+      <td>
+        <strong>The First Build was introduced in</strong>
+      </td>
+      <td>
+        <strong>The Last Build was provided in</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>Q4 2005</td>
+      <td>
+        <a href="http://www.telerik.com/blogs/telerik-ajax-controls-net-2-0-support-discontinued-as-of-q1-2011" target="_blank">Q3 2010 SP2 (version 2010.3.1317)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Q2 2007 (2007.02.1107)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314)" target="_blank">R1 2023 SP1 (version&nbsp;2023.1.314)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>3.5 SP1</td>
+      <td>Q1 2008 (2008.1.619)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314)" target="_blank">R1 2023 SP1 (version&nbsp;2023.1.314)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.0</td>
+      <td>Q1 2010 (2010.1.309)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-r1-2023-sp1-(version-2023-1-314)" target="_blank">R1 2023 SP1 (version 2023.1.314)</a>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Q2 2012 SP1 (2012.2.724)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131)" target="_blank">2024 Q1 (version 2024.1.131)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.5.1</td>
+      <td>Q3 2013 SP2 (2013.3.1324)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131)" target="_blank">2024 Q1 (version 2024.1.131)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.5.2</td>
+      <td>Q3 2013 SP2 (2014.2.618)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131)" target="_blank">2024 Q1 (version 2024.1.131)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.6</td>
+      <td>Q2 2015 SP2 (2015.2.826) </td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131)" target="_blank">2024 Q1 (version 2024.1.131)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.6.1</td>
+      <td>Q1 2016 (2016.1.113)</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/ui-for-asp-net-ajax-2024-q1-(version-2024-1-131)" target="_blank">2024 Q1 (version 2024.1.131)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>4.6.2 - 4.8.1</td>
+      <td>
+        <a href="https://www.telerik.com/support/whats-new/aspnet-ajax/release-history/telerik-ui-for-asp-net-ajax-2024-2-513-(2024-q2)" target="_blank">2024 Q2 (2024.2.513)</a>
+      </td>
+      <td>Supported </td>
+    </tr>
+  </tbody>
+</table>
 
 ## End of Support for .NET Framework in Telerik UI for ASP.NET AJAX
 
