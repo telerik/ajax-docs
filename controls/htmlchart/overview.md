@@ -47,6 +47,8 @@ This article provides a brief overview of the main features of the **RadHtmlChar
 
 	* [Radar Chart]({%slug htmlchart/chart-types/radar-chart%})
 
+	* [Pyramid Chart]({%slug htmlchart/chart-types/pyramid-chart%})
+
 	* [Range Bar Chart]({%slug htmlchart/chart-types/range-bar-chart%})
 
 	* [Range Column Chart]({%slug htmlchart/chart-types/range-column-chart%})
