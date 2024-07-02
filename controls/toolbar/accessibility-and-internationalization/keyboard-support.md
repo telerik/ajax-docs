@@ -54,5 +54,24 @@ Drop-down lists are contracted using the [ESC] key. They can also be contracted 
 
 ## Executing buttons
 
-When focus is on a button in the **RadToolBar**, pressing the [ENTER] key causes the button to execute (triggers the client- and server-side click events):
+When focus is on a button in the **RadToolBar**, pressing the [ENTER] key, while using the below code snippet, causes the button to execute (triggers the client- and server-side click events):
+
+````JavaScript
+function pageLoadHandler() {
+    var buttonList = document.querySelectorAll('.RadToolBar .rtbUL .rtbItem');
+
+    if (buttonList) {
+        buttonList.forEach((button) => {
+            button.addEventListener("keydown", (e) => {
+                if (e.code === "Enter") {
+                    button.click();
+                }
+            })
+        })
+    }
+}
+
+Sys.Application.add_load(pageLoadHandler);  
+````
+
 ![Enter](images/enter.png)
