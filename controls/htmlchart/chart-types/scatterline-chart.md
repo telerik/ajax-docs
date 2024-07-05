@@ -5,7 +5,7 @@ description: Check our Web Forms article about ScatterLine Chart.
 slug: htmlchart/chart-types/scatterline-chart
 tags: scatterline,chart
 published: True
-position: 18
+position: 19
 ---
 
 # ScatterLine Chart

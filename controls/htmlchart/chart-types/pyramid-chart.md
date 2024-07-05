@@ -5,6 +5,7 @@ description: Check our Web Forms article about Pyramid Chart.
 slug: htmlchart/chart-types/pyramid-chart
 tags: pyramid,chart
 published: True
+position: 14
 ---
 
 # Pyramid Chart
@@ -47,8 +48,8 @@ The code in **Example 1** will show you how to build a **PyramidSeries** that ha
     </Legend>
 </telerik:RadHtmlChart>
 ````
-![htmlchart-Pyramid-simple-example 1](images/htmlchart-pyramid-chart-simple-example1.png)
 
+![Pyramid example 1](images/htmlchart-pyramid-chart-simple-example1.png)
 
 >caption Example 2: Creating a **PyramidSeries** that has its **SegmentSpacing** property not set  while **DynamicHeightEnabled** is enabled.
 
@@ -78,7 +79,7 @@ The code in **Example 1** will show you how to build a **PyramidSeries** that ha
 </telerik:RadHtmlChart>
 ````
 
-![htmlchart-Pyramid-simple-example 2](images/htmlchart-pyramid-chart-simple-example2.png)
+![Pyramid example 2](images/htmlchart-pyramid-chart-simple-example2.png)
 
 ## See Also
 

@@ -5,7 +5,7 @@ description: Check our Web Forms article about Radar Chart.
 slug: htmlchart/chart-types/radar-chart
 tags: radar,chart
 published: True
-position: 14
+position: 15
 ---
 
 # Radar Chart

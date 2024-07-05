@@ -5,7 +5,7 @@ description: Check our Web Forms article about Scatter Chart.
 slug: htmlchart/chart-types/scatter-chart
 tags: scatter,chart
 published: True
-position: 17
+position: 18
 ---
 
 # Scatter Chart

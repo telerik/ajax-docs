@@ -5,7 +5,7 @@ description: Check our Web Forms article about Spline Chart.
 slug: htmlchart/chart-types/spline-chart
 tags: spline,chart
 published: True
-position: 20
+position: 21
 ---
 
 # Spline Chart

@@ -5,7 +5,7 @@ description: Check our Web Forms article about Vertical Bullet Chart.
 slug: htmlchart/chart-types/vertical-bullet-chart
 tags: vertical,bullet,chart
 published: True
-position: 22
+position: 23
 ---
 
 # Vertical Bullet Chart

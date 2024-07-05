@@ -5,7 +5,7 @@ description: Check our Web Forms article about Sparkline Chart.
 slug: htmlchart/chart-types/sparkline-chart
 tags: sparkline,chart
 published: True
-position: 19
+position: 20
 ---
 
 # Sparkline Chart

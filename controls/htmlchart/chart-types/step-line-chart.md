@@ -5,7 +5,7 @@ description: Check our Web Forms article about Step Line Chart.
 slug: htmlchart/chart-types/step-line-chart
 tags: step,line,chart
 published: True
-position: 21
+position: 22
 ---
 
 # Step Line Chart
