@@ -58,6 +58,7 @@ The code in **Example 1** will show you how to build a **PyramidSeries** that ha
     </Legend>
 </telerik:RadHtmlChart>
 ````
+
 >caption Figure 2: Display a Pyramid chart with no SegmentSpacing. The code in Example 2 shows this setup.
 
 ![Pyramid example 2](images/htmlchart-pyramid-chart-simple-example2.png)
