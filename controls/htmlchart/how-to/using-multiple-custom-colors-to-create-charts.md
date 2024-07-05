@@ -10,7 +10,7 @@ position: 4
 
 # Using Multiple Custom Colors to Create Charts
 
-This help article addresses the challenge that the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers a limited number of ten predefined colors for its skins and suggests a solution for increasing them.
+This help article addresses the challenge that the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers a limited number of ten predefined colors for its skins and suggests a solution for increasing them.
 
 If you create more series (or more items for a **PieSeries**) these colors will start repeating themselves. Developers at Telerik decided that they cannot increase the internal number of colors indefinitely because the number may always be insufficient for a certain scenario.
 

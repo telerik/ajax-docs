@@ -10,7 +10,7 @@ position: 0
 
 # Data Binding Overview
 
-This help article describes the required data structure for the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). It explains how to use fields (columns) and rows.
+This help article describes the required data structure for the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). It explains how to use fields (columns) and rows.
 
 A data bound series in RadHtmlChart expects a field (column) name and will take the data from all records (rows) in the provided data source. **Table 1** shows a supported data source structure and **Table 2** shows an unsuitable data source structure. You can see a sample implementation of a good data source in **Example 1**.
 

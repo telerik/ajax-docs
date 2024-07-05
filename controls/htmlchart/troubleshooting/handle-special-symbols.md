@@ -10,7 +10,7 @@ position: 1
 
 # Handle Special Symbols
 
-The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) uses JavaScript to render. This means that all properties and data have to pass not only through the code-behind,	but also through JavaScript. It is, therefore, necessary to make sure that the properties and data do not break the code-behind or JavaScript. This article will	help you understand better the concept of escaping special symbols.
+The [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) uses JavaScript to render. This means that all properties and data have to pass not only through the code-behind,	but also through JavaScript. It is, therefore, necessary to make sure that the properties and data do not break the code-behind or JavaScript. This article will	help you understand better the concept of escaping special symbols.
 
 ## Escaping for JavaScript
 

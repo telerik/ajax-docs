@@ -12,7 +12,7 @@ position: 2
 
 >caution  **OnClientSeriesHovered** client-side event has been deprecated since Q3 2014. Please, use [OnSeriesHover]({%slug htmlchart/client-side-programming/events/overview%}) instead.
 
-The **OnClientSeriesHovered** event occurs when the series in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) are hovered.This article discusses the objects of the **RadHtmlChart OnClientSeriesHovered** event and their properties and methods and then shows an example of how to	retrieve properties when the event occurs (**Example 1**).
+The **OnClientSeriesHovered** event occurs when the series in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) are hovered.This article discusses the objects of the **RadHtmlChart OnClientSeriesHovered** event and their properties and methods and then shows an example of how to	retrieve properties when the event occurs (**Example 1**).
 
 The **OnClientSeriesHovered** event handler receives the following parameters:
 

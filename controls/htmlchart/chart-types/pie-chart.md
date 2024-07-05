@@ -10,7 +10,7 @@ position: 12
 
 # Pie Chart
 
-The **Pie** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), displays the data as sectors from a circle and is therefore useful for displaying data as parts of a whole.The Pie chart displays a single series of data in a two-dimensional circle. This help article shows which properties to use to customize a Pie chart (**Figure 1**) and shows sample code (**Example 1**) to create one.
+The **Pie** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), displays the data as sectors from a circle and is therefore useful for displaying data as parts of a whole.The Pie chart displays a single series of data in a two-dimensional circle. This help article shows which properties to use to customize a Pie chart (**Figure 1**) and shows sample code (**Example 1**) to create one.
 
 >caption Figure 1: A Pie chart with one item exploded.
 

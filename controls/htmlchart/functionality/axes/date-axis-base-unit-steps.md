@@ -10,7 +10,7 @@ position: 0
 
 # Date Axis Base Unit Steps
 
-This help article illustrates how to configure the step of categories for a date axis in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). 
+This help article illustrates how to configure the step of categories for a date axis in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). 
 
 You can control the step through which the categories will be plotted for all or particular base units through the **BaseUnitStep**/**EnableBaseUnitStepAuto** properties and the **AutoBaseUnitSteps** tag.
 

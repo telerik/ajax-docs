@@ -10,7 +10,7 @@ position: 3
 
 # Series Configuration
 
-This help article lists all the inner tags and properties of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) Series collections and illustrates how to configure them.
+This help article lists all the inner tags and properties of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) Series collections and illustrates how to configure them.
 
 **RadHtmlChart** provides a rich set of properties which can help you configure the look and behavior of the defined RadHtmlChart Series. In this article you will find a list with the available Series inner tags and public properties.
 

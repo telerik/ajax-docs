@@ -10,7 +10,7 @@ position: 5
 
 # Generic List of Custom Objects
 
-This help article describes which properties to use to bind the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to a simple list of doubles or to a list of custom objects and presents code examples.
+This help article describes which properties to use to bind the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to a simple list of doubles or to a list of custom objects and presents code examples.
 
 ## Binding to a Generic List of Simple Types
 

@@ -10,7 +10,7 @@ position: 8
 
 # Plot Threshold Lines
 
-This help article provides different approaches for plotting threshold lines in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx).
+This help article provides different approaches for plotting threshold lines in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx).
 
 * [Plot Threshold Lines via Visual Templates and Kendo UI Drawing API](#plot-threshold-lines-via-visual-templates-and-kendo-ui-drawing-api)
  * [Plot Threshold Lines After Chart Rendering](#plot-threshold-lines-after-chart-rendering)

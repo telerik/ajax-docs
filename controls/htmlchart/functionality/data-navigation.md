@@ -10,7 +10,7 @@ position: 3
 
 # Data Navigation
 
-This help article describes the **Data Navigation** functionality (added in the Q1 2014 release), that lets you zoom and scroll data over time in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) and provides an example on how to configure it in **Example 1**.
+This help article describes the **Data Navigation** functionality (added in the Q1 2014 release), that lets you zoom and scroll data over time in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) and provides an example on how to configure it in **Example 1**.
 
 ## Overview of RadHtmlChart Data Navigation Feature
 

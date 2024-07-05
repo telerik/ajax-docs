@@ -10,7 +10,7 @@ position: 20
 
 # Sparkline Chart
 
-A **Sparkline** is a very small chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), drawn without axes, coordinates, legend, title and other chart-specific elements. **Sparklines** behave like *inline elements* (rendered inside spans) as opposed to *standard HtmlCharts*, which behave like block elements(rendered inside divs) so that they can be easily embedded in text. In this Help article, you’ll learn which type series can be rendered as a Sparkline chart,what common properties you might set to use a Sparkline, and see example code (**Example 1**) to see how to create the Sparkline shown in **Figure 1**.
+A **Sparkline** is a very small chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), drawn without axes, coordinates, legend, title and other chart-specific elements. **Sparklines** behave like *inline elements* (rendered inside spans) as opposed to *standard HtmlCharts*, which behave like block elements(rendered inside divs) so that they can be easily embedded in text. In this Help article, you’ll learn which type series can be rendered as a Sparkline chart,what common properties you might set to use a Sparkline, and see example code (**Example 1**) to see how to create the Sparkline shown in **Figure 1**.
 
 >caption Several examples of Sparklines.
 

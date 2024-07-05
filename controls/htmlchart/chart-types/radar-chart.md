@@ -10,7 +10,7 @@ position: 15
 
 # Radar Chart
 
-A **Radar** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a two-dimensional chart that has at least three quantitative factors, illustrated on axes that share the same starting point. This chart type is useful in making comparisons between units that depend on such quantitative factors/variables. The closer the point/column of the particular variable is to the center of the chart, the lower its value is. The nearest the point/column of the particular variable is to the edge of the chart, the higher its value is.
+A **Radar** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a two-dimensional chart that has at least three quantitative factors, illustrated on axes that share the same starting point. This chart type is useful in making comparisons between units that depend on such quantitative factors/variables. The closer the point/column of the particular variable is to the center of the chart, the lower its value is. The nearest the point/column of the particular variable is to the edge of the chart, the higher its value is.
 
 **RadHtmlChart** supports three types of Radar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, column and polygon, respectively.
 

@@ -10,7 +10,7 @@ position: 1
 
 # Basic Configuration
 
-The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) provides a rich set of properties and events which can help you configure the look and behaviour of the control. In this article you	will find a list with the available public methods and properties of the control, and the arguments they accept.
+The [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) provides a rich set of properties and events which can help you configure the look and behaviour of the control. In this article you	will find a list with the available public methods and properties of the control, and the arguments they accept.
 
 ## Attribute Properties of the Main Tag
 

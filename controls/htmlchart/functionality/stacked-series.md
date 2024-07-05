@@ -10,7 +10,7 @@ position: 5
 
 # Stacked Series
 
-**Stacked Column** and **Bar** series in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be **clustered** in **groups** since the Q3 2013 release.
+**Stacked Column** and **Bar** series in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be **clustered** in **groups** since the Q3 2013 release.
 
 Series that will be stacked in a separate group must have the same group name set in their **GroupName** property. If you leave the **GroupName** property blank, all series will be placed in one default stack. Setting the **GroupName** property of any series automatically sets the **Stacked** property of the first series to **true**, so it is not required to be explicitly set.
 

@@ -10,7 +10,7 @@ position: 6
 
 # Candlestick Chart
 
-The **CandlestickChart**, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), describes the price movements of a financial instrument (e.g security or currency) over time. It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and [LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the **Open, High, Low** and **Close** prices for a single day. A Candlestick consists of:
+The **CandlestickChart**, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), describes the price movements of a financial instrument (e.g security or currency) over time. It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and [LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the **Open, High, Low** and **Close** prices for a single day. A Candlestick consists of:
 
 * **Body** - the wide part of the CandlestickSeriesItem that shows the Open and Close prices.
 

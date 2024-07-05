@@ -10,7 +10,7 @@ position: 7
 
 # Pan and Zoom
 
-**Pan** and **Zoom** help end-user to navigate through and zoom in/out the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). You can find here more details how to configure and adjust these features.
+**Pan** and **Zoom** help end-user to navigate through and zoom in/out the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). You can find here more details how to configure and adjust these features.
 
 **Pan** and **Zoom** are supported in **RadHtmlChart** as of **Q1 2016**. They are also available only for series that use cartesian coordinate system (i.e., category and numeric series).
 

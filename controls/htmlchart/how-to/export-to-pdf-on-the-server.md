@@ -10,7 +10,7 @@ position: 6
 
 # Embed RadHtmlChart in PDF on the Server Side
 
-The most straightforward way to export the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) is [to do it client-side](https://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-radhtmlchart/defaultcs.aspx) as the control renders entirely in the browser. Exporting **RadHtmlChart** to PDF on the server side, though, requires that first the SVG rendering of the chart is transferred to the server. In this article, you will find different options to export **RadHtmlChart** to PDF on the server so you can choose the one that fits your scenario the best:
+The most straightforward way to export the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) is [to do it client-side](https://demos.telerik.com/aspnet-ajax/client-export-manager/applicationscenarios/export-radhtmlchart/defaultcs.aspx) as the control renders entirely in the browser. Exporting **RadHtmlChart** to PDF on the server side, though, requires that first the SVG rendering of the chart is transferred to the server. In this article, you will find different options to export **RadHtmlChart** to PDF on the server so you can choose the one that fits your scenario the best:
 
 * [Export RadHtmlChart via RadPDFProcessing](#export-radhtmlchart-via-radpdfprocessing)
 

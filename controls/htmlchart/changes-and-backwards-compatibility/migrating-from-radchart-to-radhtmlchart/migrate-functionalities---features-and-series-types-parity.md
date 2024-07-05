@@ -10,7 +10,7 @@ position: 0
 
 # Migrate Functionalities - Features and Series Types Parity
 
-This article describes the known limitations of the features and series types in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) when migrating from **RadChart** and provides solutions to them, when possible. Since **RadHtmlChart** is a rather new control, released in Q2 2012, compared to the **RadChart**, **RadHtmlChart** control still lacks some features and series types.Nevertheless, the features in **RadHtmlChart** are constantly improving and even though the control takes advantage of some fields like polar, radar, donut, etc., series; client-side rendering;client-side data binding; hover effects and animations, etc.
+This article describes the known limitations of the features and series types in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) when migrating from **RadChart** and provides solutions to them, when possible. Since **RadHtmlChart** is a rather new control, released in Q2 2012, compared to the **RadChart**, **RadHtmlChart** control still lacks some features and series types.Nevertheless, the features in **RadHtmlChart** are constantly improving and even though the control takes advantage of some fields like polar, radar, donut, etc., series; client-side rendering;client-side data binding; hover effects and animations, etc.
 
 ## Missing Series, Features and Known Limitations in RadHtmlChat Compared to RadChart
 

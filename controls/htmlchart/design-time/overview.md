@@ -10,7 +10,7 @@ position: 0
 
 # Design Time Overview
 
-The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers design-time support as of **Q2 2012 SP2**. The	advanced features are accessed through the **Smart Tag** of the control	by clicking on the [Open Configuration Wizard]({%slug htmlchart/design-time/configuration-wizard%}) link shown in **Figure 1** between the **Layout** and **Ajax Resources** sections.
+The [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) offers design-time support as of **Q2 2012 SP2**. The	advanced features are accessed through the **Smart Tag** of the control	by clicking on the [Open Configuration Wizard]({%slug htmlchart/design-time/configuration-wizard%}) link shown in **Figure 1** between the **Layout** and **Ajax Resources** sections.
 
 As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
 

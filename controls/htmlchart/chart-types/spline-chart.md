@@ -10,7 +10,7 @@ position: 21
 
 # Spline Chart
 
-A **Spline** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a form of line/area chart where each data point from the series is connected with a fitted curve that represents a rough approximation of the missing data points. You could plot the following series with a spline interpolation: **AreaSeries**, **LineSeries**, **ScatterLineSeries**, **RadarLineSeries**, **RadarAreaSeries**, **PolarLineSeries** and **PolarAreaSeries**. Telerik added the spline chart in **Q1 2014**.
+A **Spline** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a form of line/area chart where each data point from the series is connected with a fitted curve that represents a rough approximation of the missing data points. You could plot the following series with a spline interpolation: **AreaSeries**, **LineSeries**, **ScatterLineSeries**, **RadarLineSeries**, **RadarAreaSeries**, **PolarLineSeries** and **PolarAreaSeries**. Telerik added the spline chart in **Q1 2014**.
 
 You can display a fitted curve through the data points from the series by setting the **LineAppearance.LineStyle** property of the series to "**Smooth**". For example:
 

@@ -12,7 +12,7 @@ position: 4
 
 
 
-This help article lists all the properties of the **SeriesItems** collection for the corresponding [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) types and illustrates how to configure these properties in the code-behind.
+This help article lists all the properties of the **SeriesItems** collection for the corresponding [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) types and illustrates how to configure these properties in the code-behind.
 
 ## Attribute Properties in [SeriesType] > SeriesItems > [SeriesItemClass]
 

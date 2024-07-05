@@ -10,7 +10,7 @@ position: 1
 
 # Print the Chart
 
-The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) renders an **SVG** or **VML** element that cannot be saved directly for printing as an image. In **Example 1** you will see how to force the browser to print only the chart and not the entire page.
+The [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) renders an **SVG** or **VML** element that cannot be saved directly for printing as an image. In **Example 1** you will see how to force the browser to print only the chart and not the entire page.
 
 ## Print the HtmlChart's Content
 

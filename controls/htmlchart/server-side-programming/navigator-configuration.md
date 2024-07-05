@@ -10,7 +10,7 @@ position: 2
 
 # Navigator Configuration
 
-**Data Navigator** is part of the [Stock chart layout]({%slug htmlchart/functionality/data-navigation%}) of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), used to	**zoom** and **scroll**	particular time intervals of **DateTime** data. The feature is available since **Q3 2013**. Please find below all the corresponding properties:
+**Data Navigator** is part of the [Stock chart layout]({%slug htmlchart/functionality/data-navigation%}) of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), used to	**zoom** and **scroll**	particular time intervals of **DateTime** data. The feature is available since **Q3 2013**. Please find below all the corresponding properties:
 
 ## Attribute properties in the Navigator tag
 

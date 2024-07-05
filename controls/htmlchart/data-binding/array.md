@@ -10,7 +10,7 @@ position: 7
 
 # Array
 
-This help article describes which properties to use to bind the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to an **Array** and presents a code example. To bind a **RadHtmlChart** to an **Array** object, you assign the **RadHtmlChart DataSource** property to the array and then call the **RadHtmlChart DataBind**() method. The y-axis automatically adjusts to accommodate the values and its appearance can be controlled more precisely via its properties. **Example 1** demonstrates data binding to an array of doubles.
+This help article describes which properties to use to bind the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to an **Array** and presents a code example. To bind a **RadHtmlChart** to an **Array** object, you assign the **RadHtmlChart DataSource** property to the array and then call the **RadHtmlChart DataBind**() method. The y-axis automatically adjusts to accommodate the values and its appearance can be controlled more precisely via its properties. **Example 1** demonstrates data binding to an array of doubles.
 
 >caption Example 1: The **RadHtmlChart** markup that is bound to an array of doubles in **Example 2**.
 

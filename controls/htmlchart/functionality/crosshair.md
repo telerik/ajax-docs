@@ -10,7 +10,7 @@ position: 8
 
 # Crosshairs
 
-The **Crosshair** functionality of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be used as of Q3 2020.
+The **Crosshair** functionality of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be used as of Q3 2020.
 
 The **RadHtmlChart** crosshairs are lines, which are perpendicular to the axes and enable the user to see the exact value at the current cursor position.
 

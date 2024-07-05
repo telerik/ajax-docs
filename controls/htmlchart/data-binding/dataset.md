@@ -10,7 +10,7 @@ position: 6
 
 # DataSet
 
-This help article describes which properties to use to bind the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to a **DataSet** and presents a code example. You can bind a **RadHtmlChart** to a **DataSet** using the following properties:
+This help article describes which properties to use to bind the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) to a **DataSet** and presents a code example. You can bind a **RadHtmlChart** to a **DataSet** using the following properties:
 
 * **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use	the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 

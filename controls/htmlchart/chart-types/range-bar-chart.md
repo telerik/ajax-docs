@@ -10,7 +10,7 @@ position: 16
 
 # Range Bar Chart
 
-A **Range Bar** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as bars where each bar represents a value range that spans between its minimum (i.e., **From** property) and maximum (i.e., **To** property) levels. A **Range Bar** chart type has floating bars unlike the standard [Bar]({%slug htmlchart/chart-types/bar-chart%}) chart type that has anchored bars to its x-axis.
+A **Range Bar** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as bars where each bar represents a value range that spans between its minimum (i.e., **From** property) and maximum (i.e., **To** property) levels. A **Range Bar** chart type has floating bars unlike the standard [Bar]({%slug htmlchart/chart-types/bar-chart%}) chart type that has anchored bars to its x-axis.
 
 A **Range Bar** chart type is useful for comparing the low and high levels of value ranges (e.g., employees' working time, blood glucose levels per day, average minimum and maximum temperatures and rainfalls over time,etc.). This chart type can also be used as a simple [Gantt]({%slug gantt/overview%}) chart where the lowest and highest values of each bar represents the portion of task completion over time. A **Range Bar** chart differs from the [Candlestick]({%slug htmlchart/chart-types/candlestick-chart%}) chart in its horizontal bars orientation and in the lack of weeks.
 

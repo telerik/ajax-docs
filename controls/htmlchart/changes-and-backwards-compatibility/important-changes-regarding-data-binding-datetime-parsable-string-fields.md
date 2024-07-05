@@ -10,7 +10,7 @@ position: 2
 
 # Important Changes Regarding Data Binding DateTime Parsable String Fields
 
-As of the **Q1 2014** release, the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) takes into account the type of the columns from the data source that are bound to the chart. This means if the chart's category x-axis refers to a string type column from the data source that can be parsed to a DateTime format, it will be handled as a string and the labeled displayed will not be parsed.
+As of the **Q1 2014** release, the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) takes into account the type of the columns from the data source that are bound to the chart. This means if the chart's category x-axis refers to a string type column from the data source that can be parsed to a DateTime format, it will be handled as a string and the labeled displayed will not be parsed.
 
 The old and the new behavior of the control is illustrated with the code from **Example 1** and is shown in **Figure 1**.
 

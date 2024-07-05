@@ -10,7 +10,7 @@ position: 4
 
 # Format Dates
 
-The way the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) dates are shown on the axis labels, series labels and series tooltips are controlled via the **DataFormatString** property that must be set in the corresponding chart element as follows:
+The way the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) dates are shown on the axis labels, series labels and series tooltips are controlled via the **DataFormatString** property that must be set in the corresponding chart element as follows:
 
 * **Series Labels** and **Series Tooltips** - {0} and/or {1} placeholders are used to denote the corresponding SeriesItem's **X** and/or **Y** value in the **DateFormatString** followed by ":" and the desired date specifier(e.g., `DataFormatString="{1} units are ordered on {0:d}"`).
 

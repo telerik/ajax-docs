@@ -10,7 +10,7 @@ position: 11
 
 # Line Chart
 
-A **Line** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as continuous lines that pass through points defined by their items' values. It can be useful for showing a trend over time and comparing several sets of similar data. Since Q1 2014 **LineSeries** can be visualized with [spline curves]({%slug htmlchart/chart-types/spline-chart%}) and [step-like progression]({%slug htmlchart/chart-types/step-line-chart%}). This Help article will show how you can customize a Line chart, and the code in **Example 1** will show how to build the simple Line chart in **Figure 1**.
+A **Line** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), shows data as continuous lines that pass through points defined by their items' values. It can be useful for showing a trend over time and comparing several sets of similar data. Since Q1 2014 **LineSeries** can be visualized with [spline curves]({%slug htmlchart/chart-types/spline-chart%}) and [step-like progression]({%slug htmlchart/chart-types/step-line-chart%}). This Help article will show how you can customize a Line chart, and the code in **Example 1** will show how to build the simple Line chart in **Figure 1**.
 
 >caption Figure 1: A simple Line chart comparing two sets of data over time. The code in Example 1 shows how to customize the chart using the MissingValues property to account for a gap in data.
 

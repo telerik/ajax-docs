@@ -10,7 +10,7 @@ position: 3
 
 # Migrate Date Axis Configuration
 
-The term date axis refers to an axis from a chart that can display discrete or continuous data in a DateTime type. This article illustrates how to migrate the configuration of date axis with discrete and continuous data from **RadChart** to the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). The examples illustrate how to migrate the date axes declaratively; however, the	same classes and properties of the axis can be used for the programmatic creation as well.
+The term date axis refers to an axis from a chart that can display discrete or continuous data in a DateTime type. This article illustrates how to migrate the configuration of date axis with discrete and continuous data from **RadChart** to the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). The examples illustrate how to migrate the date axes declaratively; however, the	same classes and properties of the axis can be used for the programmatic creation as well.
 
 ## Configuring Date Axis with Discrete Data
 

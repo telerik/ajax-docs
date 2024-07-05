@@ -10,7 +10,7 @@ position: 0
 
 # Events Overview
 
-The [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) exposes several client-side events for handling different user interactions:
+The [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) exposes several client-side events for handling different user interactions:
 
 * **OnKendoWidgetInitializing**—raised just before the Kendo Widget is initialized. Receives the chart and the chart widget's options as arguments.
 

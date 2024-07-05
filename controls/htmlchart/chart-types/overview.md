@@ -10,7 +10,7 @@ position: 0
 
 # RadHtmlChart Types Overview
 
-In this article you will find a detailed list of the chart types available in the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), information about their purpose and the most common scenarios in which they can be used.
+In this article you will find a detailed list of the chart types available in the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), information about their purpose and the most common scenarios in which they can be used.
 
 
 

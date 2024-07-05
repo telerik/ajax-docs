@@ -5,7 +5,7 @@ type: how-to
 page_title: Add gap between donut chart segments. | RadHtmlChart
 slug: chart-add-gap-between-donut-chart-segments
 res_type: kb
-tags: chart, telerik, radchart, asp net ajax chart
+tags: chart, telerik, radchart, ASP.NET AJAX Chart
 ---
 
 ## Environment

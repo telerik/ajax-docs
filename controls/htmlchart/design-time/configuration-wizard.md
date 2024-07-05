@@ -10,7 +10,7 @@ position: 1
 
 # Configuration Wizard
 
-The Visual Designer lets you select a chart layout and chart type, configure series, set properties for	axes, set properties for a chart’s title and legend or configure a Navigator pane.	To use the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) Visual Designer, open Visual Studio 2012, add a	ScriptManager, and then put a **RadHtmlChart** on the page. Then choose the Design tab	and click Smart Tag to open the **RadHtmlChart** Tasks window. Click the **Open Configuration Wizard** link (**Figure 1**)	to open a dialog box (**Figure 2**), that provides a Visual Designer.
+The Visual Designer lets you select a chart layout and chart type, configure series, set properties for	axes, set properties for a chart’s title and legend or configure a Navigator pane.	To use the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) Visual Designer, open Visual Studio 2012, add a	ScriptManager, and then put a **RadHtmlChart** on the page. Then choose the Design tab	and click Smart Tag to open the **RadHtmlChart** Tasks window. Click the **Open Configuration Wizard** link (**Figure 1**)	to open a dialog box (**Figure 2**), that provides a Visual Designer.
 
 >caption Figure 1: Select Open Configuration Wizard from the Smart Tag of a RadHtmlChart.
 

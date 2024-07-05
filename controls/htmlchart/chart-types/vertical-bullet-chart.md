@@ -11,7 +11,7 @@ position: 23
 # Vertical Bullet Chart
 
 
-The **Bullet** chart, as part of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a variation of the [Column Chart]({%slug htmlchart/chart-types/column-chart%}) and can be used as a replacement for dashboard gauges and meters. This help article describes how to set some properties in a  Vertical Bullet chart and **Example 1** (near the end of this article) shows the code used to create **Figure 1**.
+The **Bullet** chart, as part of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx), is a variation of the [Column Chart]({%slug htmlchart/chart-types/column-chart%}) and can be used as a replacement for dashboard gauges and meters. This help article describes how to set some properties in a  Vertical Bullet chart and **Example 1** (near the end of this article) shows the code used to create **Figure 1**.
 
 The vertical bullet graph compares a given quantitative measure (such as temperature) against qualitative ranges (e.g. warm, hot, mild, cool, chilly, cold, freezing, icy, frosty) and a symbol marker that encodes the comparative measure (for example the max temperature a year ago).
 

@@ -10,7 +10,7 @@ position: 8
 
 # Setting Explicit Items
 
-This Help article describes how the items of the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be created or modified using different approaches (**Declarative**,	**DataBinding**, **Programmatic** etc.).
+This Help article describes how the items of the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx) can be created or modified using different approaches (**Declarative**,	**DataBinding**, **Programmatic** etc.).
 
 The data that will be displayed in the **RadHtmlChart** can be declared in several ways:
 

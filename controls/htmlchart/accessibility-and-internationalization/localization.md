@@ -10,7 +10,7 @@ position: 0
 
 # Localization
 
-Telerik makes it easy to localize the [ASP NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). Some chart elements have custom strings that you localize before you pass them to the control and some text can be localized by using the KendoUI framework. This Help article will show you how to use the KendoUI framework (**Example 1**) to create the localized **PieSeries** shown in **Figure 1**.	**RadHtmlChart** can use KendoUI framework localizations and in order to set a certain culture,you should follow the steps that are listed [here](http://docs.kendoui.com/getting-started/framework/globalization/overview). Here is a summary of the steps:
+Telerik makes it easy to localize the [ASP.NET AJAX Chart](https://www.telerik.com/products/aspnet-ajax/html-chart.aspx). Some chart elements have custom strings that you localize before you pass them to the control and some text can be localized by using the KendoUI framework. This Help article will show you how to use the KendoUI framework (**Example 1**) to create the localized **PieSeries** shown in **Figure 1**.	**RadHtmlChart** can use KendoUI framework localizations and in order to set a certain culture,you should follow the steps that are listed [here](http://docs.kendoui.com/getting-started/framework/globalization/overview). Here is a summary of the steps:
 
 1. Add a reference in your page to the desired culture file. You can find the KendoUI Culture files in the "**js/cultures**" folder located in the root of the archive. You can download KendoUI from the [Download page of Your Telerik.com Account](https://www.telerik.com/account/product-download?product=KENDOUICOMPLETE).
 
