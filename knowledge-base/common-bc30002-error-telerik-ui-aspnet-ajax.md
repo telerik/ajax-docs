@@ -1,5 +1,5 @@
 ---
-title: A guide on fixing the BC30002: The type Global.Telerik.Web.UI.RadGrid is not defined error 
+title: A guide on fixing the BC30002 The type Global.Telerik.Web.UI.RadGrid is not defined error 
 type: troubleshooting
 page_title: Fix 'Type RadGrid Not Defined' Error in ASP.NET Web Forms Projects
 slug: common-bc30002-error-telerik-ui-aspnet-ajax
