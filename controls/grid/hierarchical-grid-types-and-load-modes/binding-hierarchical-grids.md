@@ -187,7 +187,7 @@ DetailTable0 (copy 0)
 
 
 
-Each copy of the detail tables should be bound in order to have its item populated. **RadGrid** delegates the full control of how this should be done to the developer, i.e. you should only filter or select the records that correspond to each detail table. The only restriction is when this should happen. This is the **DetailTableDataBind** event. **RadGrid** fires this event for each **DetailTable** that is about to be bound. Firing of this event also depends on the [[!] HierarchyLoadMode](hierarchy-load-modes.html) of the corresponding **GridTableView** as stated when it is declared in Step 1.
+Each copy of the detail tables should be bound in order to have its item populated. **RadGrid** delegates the full control of how this should be done to the developer, i.e. you should only filter or select the records that correspond to each detail table. The only restriction is when this should happen. This is the **DetailTableDataBind** event. **RadGrid** fires this event for each **DetailTable** that is about to be bound. Firing of this event also depends on the [[!] HierarchyLoadMode](slug://grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes) of the corresponding **GridTableView** as stated when it is declared in Step 1.
 
 * If the **HierarchyLoadMode** is set to **ServerBind**, then the **DetailTableDataBind** event will be fired immediately after the corresponding parent item is bound.
 
