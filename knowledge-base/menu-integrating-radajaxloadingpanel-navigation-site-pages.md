@@ -7,15 +7,15 @@ slug: menu-integrating-radajaxloadingpanel-navigation-site-pages
 tags: radajax, radmenu, radajaxloadingpanel, site pages
 res_type: kb
 ---
-# Environment
+## Environment
 | Product | Version |
 |---------|---------|
 | RadAjax for ASP.NET AJAX | all |
 
-# Description
+## Description
 A common scenario involves a web application using a Site Master Page with Telerik's RadMenu (mnuMain). The challenge faced is how to show the RadAjaxLoadingPanel while the page is navigating to the selected item's URL. Traditional methods using the NavigateUrl property or the onbeforeunload event have limitations and inconsistencies.
 
-# Solution
+## Solution
 The solution involves a client-side JavaScript approach, enhancing the user interaction by displaying the loading panel before navigating to a new page. The key steps are:
 
 1. Remove the NavigateUrl Property: On the server side, remove the NavigateUrl attribute from the RadMenu items. This prevents the standard navigation process, allowing for custom handling.

@@ -29,7 +29,7 @@ Performing complex grid operations such as Inserting, Deleting, Updating, Hierar
 
 In some scenarios it may be necessary the grid to be refreshed explicitly upon some external action - in such cases please choose to use just the **Rebind()** method, which will refresh the grid content.
 
-# See Also
+## See Also
 
  * [Declarative DataSource]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
 

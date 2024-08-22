@@ -7,15 +7,15 @@ slug: raising-selectedindexchanged-server-side-radcombobox-multicolumncombobox
 tags: radcombobox, multicolumncombobox, selectedindexchanged, server-side, how-to
 res_type: kb
 ---
-# Environment
+## Environment
 | Product | Version |
 | --- | --- |
 | RadComboBox for ASP.NET AJAX | all |
 
-# Description
+## Description
 I want to raise the SelectedIndexChanged event server-side for RadComboBox and MultiColumnComboBox controls in my ASP.NET AJAX application. How can I achieve this?
 
-# Solution
+## Solution
 The SelectedIndexChanged event and similar events in web controls like RadComboBox and MultiColumnComboBox are designed to respond to user interactions in the browser. They are triggered when a user selects a new item from the drop-down list. However, programmatically changing the selection in server-side code does not automatically trigger the SelectedIndexChanged event.
 
 To programmatically set the selected value of a RadComboBox or MultiColumnComboBox and ensure that the SelectedIndexChanged event is fired server-side, you can use one of the following approaches:
@@ -85,7 +85,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 Remember, these workarounds mimic the behavior of the SelectedIndexChanged event and do not constitute an actual event firing as it would from a client-side action. Make sure to test thoroughly to ensure that your application behaves as expected.
 
-# See Also
+## See Also
 - [RadComboBox Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/combobox/overview)
 - [MultiColumnComboBox Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/multicolumncombobox/overview)
  

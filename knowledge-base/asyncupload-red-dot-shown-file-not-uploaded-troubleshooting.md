@@ -7,16 +7,16 @@ slug: asyncupload-red-dot-shown-file-not-uploaded-troubleshooting
 tags: red dot, file not uploaded, troubleshooting, RadAsyncUpload, ASP.NET AJAX
 res_type: kb
 ---
-# Environment
+## Environment
 | Property | Value |
 | --- | --- |
 | Product | RadAsyncUpload for ASP.NET AJAX |
 | Version | all |
 
-# Description
+## Description
 I am experiencing an issue where a red dot is shown next to every file I attempt to upload, and the files are not being uploaded successfully.
 
-# Solution
+## Solution
 To resolve this issue, follow these steps:
 - Check if you have write permission to your temporary folder. If you are hosting your application in IIS, make sure you have assigned additional permissions to the temporary folder. By default, the temporary upload folder is located at `~/App_Data/RadUploadTemp`. Ensure that the folder has full read and write permissions.
 - Verify that the `Telerik.Web.UI.WebResource.axd` handler is registered in the `web.config` file. Open the `web.config` file and add the following code snippet within the `<system.web>` section:

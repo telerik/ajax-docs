@@ -7,15 +7,15 @@ slug: how-to-apply-different-skins-to-radchat-control
 tags: radchat, skins, customization
 res_type: kb
 ---
-# Environment
+## Environment
 | Product         | RadChat for ASP.NET AJAX |
 |-----------------|--------------------------|
 | Version         | all              |
 
-# Description
+## Description
 I want to apply a different skin to the RadChat control in RadChat for ASP.NET AJAX. However, when I set the `Skin` attribute to "Bootstrap", I encounter the following error message in the console: "Failed to load resource: the server responded with a status of 404 (not found)". How can I apply different skins to the RadChat control successfully?
 
-# Solution
+## Solution
 Currently, the RadChat control only supports the "Default" skin. Therefore, setting the `Skin` attribute to a different skin, such as "Bootstrap", will result in an error. The RadChat control has been designed with a specific look and feel that aligns with its functionality and user experience, and it currently does not include other embedded skins.
 
 If you want to customize the appearance of the RadChat control beyond what is provided by the "Default" skin, you can use custom CSS to achieve your desired look. This approach allows you to override the default styles and create a custom appearance that matches your application's theme.
