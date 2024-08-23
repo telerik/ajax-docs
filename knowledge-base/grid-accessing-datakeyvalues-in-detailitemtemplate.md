@@ -91,7 +91,6 @@ private DataTable OrdersTable()
     return dt;
 }
 ````
-
 ````VB
 Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridCommandEventArgs)
     If e.CommandName = "CustomCommand" Then
