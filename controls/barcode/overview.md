@@ -14,6 +14,22 @@ position: 0
 
 The **RadBarcode** control can be used for automatic Barcode generation directly from a numeric or character data. It supports several standards that can be used when creating the image.
 
+````ASPX
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+ <telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
+ <telerik:RadBarcode runat="server" ID="RadBarcode1" Type="EAN13" Height="120px" Text="9780615159591">
+ </telerik:RadBarcode>
+ <telerik:RadBarcode runat="server" ID="RadBarcode3" Type="QRCode" Height="140px"
+     Width="140px" Text="http://www.telerik.com/products/aspnet-ajax/barcode.aspx"
+     Style="margin-left: 30px" OutputType="EmbeddedPNG">
+     <QRCodeSettings Version="5" DotSize="3" Mode="Byte" />
+ </telerik:RadBarcode>
+ <telerik:RadBarcode runat="server" ID="RadBarcode2" Type="Code128" Height="120px"
+     Text="RadBarcode" Font-Size="16px" Style="margin-left: 30px" ShowChecksum="false">
+ </telerik:RadBarcode>
+````
+
+
 >caption List with **standard barcode types** is shown in the screenshot below:
 ![WebForms barcode overview](images/barcode_overview.png "WebForms barcode overview")
 
