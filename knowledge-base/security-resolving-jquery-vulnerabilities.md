@@ -23,7 +23,7 @@ As per the [Telerik documentation](https://docs.telerik.com/devtools/aspnet-ajax
 To address the reported vulnerabilities, we have introduced several security enhancements to the custom jQuery script within the Telerik.Web.UI assembly. These enhancements address the following CVE reports:
 
 - CVE-2020-11022 & CVE-2020-11023: [Cross-site scripting (XSS) vulnerability in jQuery.htmlPrefilter fixed in jQuery 3.5](https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/) - from version R2 2020
-- CVE-2015-9251 (included in your report): [jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed](https://www.cvedetails.com/cve/CVE-2015-9251/) - from version R1 2019
+- CVE-2015-9251: [jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed](https://www.cvedetails.com/cve/CVE-2015-9251/) - from version R1 2019
 - CVE-2019-11358: [Query before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype](https://www.cvedetails.com/cve/CVE-2019-11358/) - from version R1 2019
 - [CVE-2020-23064](https://nvd.nist.gov/vuln/detail/CVE-2020-23064) (sometimes this CVE gets flagged too) - it occurs in jQuery 2.2.0 through 3.x before 3.5.0 and thus does not exist in jQuery version 1.12.4 embedded within the Telerik.Web.UI.dll.
 
