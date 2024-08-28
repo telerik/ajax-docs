@@ -39,7 +39,9 @@ When you present large number of records at once you will see delays in the grid
 
 7. You could use [RadAjaxManager]({%slug ajaxmanager/overview%}) controls to Ajax-ify the Grid instance and thus to receive partial updates from the service only for the Grid instance, not the whole page.
 
-8. Finally could use [RadCompression ]({%slug controls/radcompression%}) to compress the responce from the server in case of Ajax and service responses.
+8. It is important to test the performance only when debugging is disabled. Set `<compilation debug="false" />` in the web.config. When it is true, the MS AJAXdebugging code causes a severe performance hit on the client-side. The fact that most of the editor functionalities implemented in JavaScript, thus resulting in 10 times slower performance compared to native compiled code.
+
+9. Finally could use [RadCompression ]({%slug controls/radcompression%}) to compress the responce from the server in case of Ajax and service responses.
 
 ## Steps to optimize the server performance:
 

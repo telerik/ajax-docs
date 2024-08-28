@@ -48,6 +48,8 @@ The ScriptManager and the StyleSheetManager controls also enable you to download
 
 Downloading from the CDN, however, will result in a request for each individual file (script, stylesheet, font, and so on). You can improve the CDN performance even further by instructing the controls to fetch a combined resource of all scripts and base stylesheets for all the controls in a single request by toggling the `Telerik.ScriptManager.TelerikCdn.CombinedResource` and `Telerik.StyleSheetManager.TelerikCdn.CombinedResource` [`appSettings` keys]({% slug general-information/web-config-settings-overview %}) to `enabled`. This configuration is exposed for an individual instance through the `CdnSettings-CombinedResource` property.
 
+It is important to test the performance only when debugging is disabled. Set `<compilation debug="false" />` in the web.config. When it is true, the MS AJAXdebugging code causes a severe performance hit on the client-side. The fact that most of the editor functionalities implemented in JavaScript, thus resulting in 10 times slower performance compared to native compiled code.
+
 The following table lists Telerik UI for ASP.NET AJAX controls and the resources for their performance optimization.
 
 |Controls|Solutions for Performance Optimization

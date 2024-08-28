@@ -16,6 +16,8 @@ position: 1
 
 The best approach to optimize the performance speed of Telerik RadComboBox when using huge amount of items is using the **load-on-demand** feature. The **load-on-demand** mechanism loads the items only when the user types or clicks in the field or the drop-arrow image. You can also load the items only upon clicking on the drop arrow. To do this you should set the **ShowDropDownOnTextboxClick** property to false. For even faster load of the page, you can leave the combobox empty when it is first rendered on the page. Items will be added as soon as the user clicks in the input field, the drop-arrow image or types some text into the input field. In other words, you can add the items only in the **ItemsRequested** event handler or via **WebService**.
 
+It is important to test the performance only when debugging is disabled. Set `<compilation debug="false" />` in the web.config. When it is true, the MS AJAXdebugging code causes a severe performance hit on the client-side. The fact that most of the editor functionalities implemented in JavaScript, thus resulting in 10 times slower performance compared to native compiled code.
+
 When using the load-on-demand mechanism with **ItemsRequested** event you should:
 
 1. Set the **EnableLoadOnDemand** property to true.
