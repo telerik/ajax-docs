@@ -1,5 +1,5 @@
 top-navigation-product: asp-net-ajax
-path-prefix: /devtools/aspnet-ajax
+path-prefix: /products/aspnet-ajax/documentation
 default-title-prefix: Telerik Web Forms
 
 primary-color: "#27A306"
