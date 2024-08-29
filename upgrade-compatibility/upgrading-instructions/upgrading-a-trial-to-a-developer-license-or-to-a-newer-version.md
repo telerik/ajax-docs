@@ -47,7 +47,7 @@ The following steps ensure a safe upgrade:
 
 1. Backup your project. A simple copy to another folder is usually enough, and using a source control makes this unnecessary.
 
-1. Delete the old Telerik.Web.UI.* references from the project and close it. Delete also the [Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}).
+1. Delete the old Telerik.Web.UI.* references from the project and close it. Delete also the [Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}). You can find more information on how to update the assembly reference in an ASP.NET Web Forms application [here](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/common-update-assembly-reference).
 
 1. Open the `Bin` folder of your project in Windows Explorer and delete the old Telerik.Web.UI.* assemblies.
 
