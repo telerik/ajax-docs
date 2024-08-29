@@ -58,6 +58,9 @@ meta:
     "getting-started/work-with-controls":
         title: "Working with the Controls"
         position: 20
+    "getting-started/prerequisites":
+        title: "Prerequisites"
+        position: 9
     "getting-started/performance":
         title: "Performance"
         position: 30
@@ -137,16 +140,6 @@ meta:
         title: "Automated Testing with Test Studio"
     "integration/telerik-products/document-processing":
         title: "Document Processing Libraries"
-    "integration/telerik-products/document-processing/pdfprocessing":
-        title: "PdfProcessing"
-    "integration/telerik-products/document-processing/spreadprocessing":
-        title: "SpreadProcessing"
-    "integration/telerik-products/document-processing/spreadstreamprocessing":
-        title: "SpreadStreamProcessing"
-    "integration/telerik-products/document-processing/wordsprocessing":
-        title: "WordsProcessing"
-    "integration/telerik-products/document-processing/ziplibrary":
-        title: "ZipLibrary"
     "integration/visual-studio":
         title: "Visual Studio"
     "integration/visual-studio/typescript-definitions":
@@ -192,6 +185,9 @@ meta:
     "controls/autocompletebox":
         title: "AutoCompleteBox"
         position: 1
+    "controls/avatar":
+        title: "Avatar"
+        position: 1
     "controls/barcode":
         title: "Barcode"
         position: 1
@@ -218,6 +214,12 @@ meta:
         position: 1
     "controls/chat":
         title: "Chat"
+        position: 1
+    "controls/chip":
+        title: "Chip"
+        position: 1
+    "controls/chiplist":
+        title: "ChipList"
         position: 1
     "controls/checkbox":
         title: "CheckBox"
