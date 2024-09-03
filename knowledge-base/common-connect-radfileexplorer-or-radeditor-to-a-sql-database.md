@@ -1,9 +1,9 @@
 ---
-title: Connect RadFileExplorer or RadEditor to a SQL databse
-description: See how to connect RadFileExplorer or RadEditor to a SQL databse
+title: Connect RadFileExplorer or RadEditor to a SQL database
+description: See how to connect RadFileExplorer or RadEditor to a SQL database
 type: how-to
-page_title: Connect RadFileExplorer or RadEditor to a SQL databse
-slug: commonn-connect-radfileexplorer-or-radeditor-to-a-sql-databse
+page_title: Connect RadFileExplorer or RadEditor to a SQL database
+slug: common-connect-radfileexplorer-or-radeditor-to-a-sql-database
 tags: telerik, telerik ajax editor, editor, file manager
 res_type: kb
 ---
@@ -22,7 +22,7 @@ res_type: kb
 
 ## Description
 
-This article aims to show how to connect RadFileExplorer or RadEditor to a SQL databse.
+This article aims to show how to connect RadFileExplorer or RadEditor to a SQL database.
 
 ## Solution
 
