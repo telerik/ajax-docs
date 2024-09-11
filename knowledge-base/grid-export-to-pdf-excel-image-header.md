@@ -11,14 +11,9 @@ tags: grid, grid excel, grid pdf, excel export, pdf export
 
 ## Environment
 
-<table>
-	<tbody>
-		<tr>
-			<td>Product</td>
-			<td>Telerik WebForms Grid for ASP.NET AJAX</td>
-		</tr>
-	</tbody>
-</table>
+| Product | Telerik WebForms Grid for ASP.NET AJAX |
+| --- | --- |
+| Version | all |
 
 ## Description
 
@@ -53,7 +48,7 @@ Markup - CommandItemTemplate containing an Image
 
 Of course, the **CommandItem** does not have to be visible at all times, you can use the following approach to only show it during the export event.
 
-````ASSP.NET
+````ASP.NET
 <MasterTableView ... CommandItemDisplay='<%# (RadGrid1.IsExporting) ? GridCommandItemDisplay.Top : GridCommandItemDisplay.None %>'>
 ````
 
