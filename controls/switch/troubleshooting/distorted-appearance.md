@@ -13,10 +13,10 @@ position: 1
 @[template](/_templates/button/distorted-appearance.md#intro "control: RadSwitch")
 
 ````ASP.NET
-<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton" />
+<telerik:RadButton RenderMode="Classic" ID="RadButton1" runat="server" Text="RadButton" ButtonType="ToggleButton" ToggleType="CheckBox" />
 <br />
 <telerik:RadLabel ID="Label1" runat="server" AssociatedControlID="RadSwitch1" Text="RadSwitch"></telerik:RadLabel>        
-<telerik:RadSwitch ID="RadSwitch1" runat="server" Checked="true"></telerik:RadSwitch>
+<telerik:RadSwitch RenderMode="Lightweight" ID="RadSwitch1" runat="server" Checked="true"></telerik:RadSwitch>
 ```` 
 
 @[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadSwitch")
