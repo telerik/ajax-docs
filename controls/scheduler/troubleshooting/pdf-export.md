@@ -20,7 +20,7 @@ This article shows some of the known RadScheduler PDF Export issues and their so
 
 * ['div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.](#div-start-tag-on-line-96-position-15-does-not-match-the-end-tag-of-li-line-102-position-13)
 
-* [System.SystemException: Error while creating area : Encountered web exception while fetching image from](#systemsystemexception-error-while-creating-area--encountered-web-exception-while-fetching-image-from)
+* [System.SystemException: Error while creating area: Encountered web exception while fetching image from](#systemsystemexception-error-while-creating-area--encountered-web-exception-while-fetching-image-from)
 
 * [System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream)](#systemargumentexception-parameter-is-not-valid-at-systemdrawingbitmapctorstream-stream)
 
@@ -45,12 +45,12 @@ Please [validate](http://validator.w3.org/) the page output.
 
 
 
-## System.SystemException: Error while creating area : Encountered web exception while fetching image from	
-````ExceptionMessage
-	System.SystemException: Error while creating area : 
-	Encountered web exception while fetching image from 
-	http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi
-	The remote server returned an error: (500) Internal Server Error.
+## System.SystemException: Error while creating area: Encountered web exception while fetching image from	
+````
+System.SystemException: Error while creating area : 
+Encountered web exception while fetching image from 
+http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi
+The remote server returned an error: (500) Internal Server Error.
 ````
 	
 To troubleshoot the issue, please open the url, specified in the error details. In the above example it is:
@@ -60,7 +60,7 @@ The most probable cause of this issue is incorrect web resource handler registra
 
 ## System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream) 
 
-````StackTrace
+````
 System.ArgumentException: Parameter is not valid. 
 at System.Drawing.Bitmap..ctor(Stream stream) 
 at Telerik.Web.Apoc.Image.ApocImage..ctor(String href, Byte[] imageData) 
@@ -77,7 +77,7 @@ at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)
 
 This problem appears on export when the Telerik.Web.UI.dll is referenced trough the GAC and the assembly version is different from the WebResource.axd version registered in the web.config file. Please check you web.config for proper handler registration in the following section:
 
-````web.config
+````xml
 <system.webServer>
 	<handlers>
 		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
@@ -92,32 +92,32 @@ If you are using Forms authentication please add the following section to your w
 - In case you are using **RadScriptManager**:
 		
 	**web.config**
-
-		<location path="Telerik.Web.UI.WebResource.axd">
-			<system.web>
-				<authorization>
-					<allow users="?"/>
-				</authorization>
-			</system.web>
-		</location>
-		
+	```XML
+	<location path="Telerik.Web.UI.WebResource.axd">
+		<system.web>
+			<authorization>
+				<allow users="?"/>
+			</authorization>
+		</system.web>
+	</location>
+	```		
 		
 - In case you are using **asp:ScriptManager**:
 		
 	**web.config**
-
-		<location path="WebResource.axd">
-			<system.web>
-				<authorization>
-					<allow users="?"/>
-				</authorization>
-			</system.web>
-		</location>
-		
+	```xml
+	<location path="WebResource.axd">
+		<system.web>
+			<authorization>
+				<allow users="?"/>
+			</authorization>
+		</system.web>
+	</location>
+	```		
 		
 ## An error occurred while parsing EntityName. Line 1246, position 58 or '' is an unexpected token. 
 
-````ExceptionMessage
+````
 An error occurred while parsing EntityName. 
 Line 1246, position 58 or '' is an unexpected token. 
 The expected token is ';'. Line 131, position 10.
@@ -129,7 +129,7 @@ You can use this article for reference - [Special Characters in HTML](http://www
 
 
 ## System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
-<span></span>
+
 ### Description 
 
 Such problems are usually caused by an incorrectly configured server and some generic connection issues.
@@ -143,82 +143,83 @@ Below you can find some exception messages that you might encounter:
 * [SocketException (0x2746): An existing connection was forcibly closed by the remote host]
 
 	**ExceptionMessage**
-
-		[SocketException (0x2746): An existing connection was forcibly closed by the remote host]
-		System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) +249
-
-		[IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.]
-		System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) +8442161
-		System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count) +57
-		System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest) +243
-		System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest) +470
-		System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest) +8572686
-		System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult) +230
-		System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx) +645
-		System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx) +9
-		System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state) +87
-		System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result) +1467
-		System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size) +84
-		System.Net.ConnectStream.WriteHeaders(Boolean async) +816
-
-		[WebException: The underlying connection was closed: An unexpected error occurred on a send.]
-		System.Net.HttpWebRequest.GetResponse() +8442708
-		Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheet(String url) +120
-		Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheetFor(String controlName, Type controlType, Page page, String pathFormatString, String defaultPathFormatString) +318
-		Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheets(Page page) +99
-		Telerik.Web.UI.Scheduler.SchedulerExporter.RenderControl(Page page) +695
-		Telerik.Web.UI.Scheduler.SchedulerExporter.PdfExportRenderForm(HtmlTextWriter nullWriter, Control form) +154
-		System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
-		System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer) +151
-		System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer) +49
-		System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
-		System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
-		System.Web.UI.Page.Render(HtmlTextWriter writer) +40
-		System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
-		Telerik.Web.UI.RadAjaxControl.RenderPageInAjaxMode(HtmlTextWriter writer, Control page) +1040
-		System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
-		System.Web.UI.Page.Render(HtmlTextWriter writer) +40
-		System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
-		System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +5363
-
-
-* System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
-
-	**ExceptionMessage**
+	```
+	[SocketException (0x2746): An existing connection was forcibly closed by the remote host]
+	System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) +249
 	
-		System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
-		System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host 
-		at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags) 
-		at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
-		at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
-		at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count) 
-		at System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
-		at System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
-		at System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
-		at System.Net.TlsStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
-		at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
-		at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead) 
-
+	[IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.]
+	System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) +8442161
+	System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count) +57
+	System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest) +243
+	System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest) +470
+	System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest) +8572686
+	System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult) +230
+	System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx) +645
+	System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx) +9
+	System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state) +87
+	System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result) +1467
+	System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size) +84
+	System.Net.ConnectStream.WriteHeaders(Boolean async) +816
+	
+	[WebException: The underlying connection was closed: An unexpected error occurred on a send.]
+	System.Net.HttpWebRequest.GetResponse() +8442708
+	Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheet(String url) +120
+	Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheetFor(String controlName, Type controlType, Page page, String pathFormatString, String defaultPathFormatString) +318
+	Telerik.Web.UI.Scheduler.SchedulerExporter.GetStyleSheets(Page page) +99
+	Telerik.Web.UI.Scheduler.SchedulerExporter.RenderControl(Page page) +695
+	Telerik.Web.UI.Scheduler.SchedulerExporter.PdfExportRenderForm(HtmlTextWriter nullWriter, Control form) +154
+	System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
+	System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer) +151
+	System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer) +49
+	System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
+	System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
+	System.Web.UI.Page.Render(HtmlTextWriter writer) +40
+	System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
+	Telerik.Web.UI.RadAjaxControl.RenderPageInAjaxMode(HtmlTextWriter writer, Control page) +1040
+	System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +131
+	System.Web.UI.Page.Render(HtmlTextWriter writer) +40
+	System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +150
+	System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +5363
+	```
+	
+	* System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+	
+	**ExceptionMessage**
+	```	
+	System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+	System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host 
+	at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags) 
+	at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
+	at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
+	at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count) 
+	at System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
+	at System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
+	at System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest) 
+	at System.Net.TlsStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
+	at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size) 
+	at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead) 
+	```
 
 * A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
 
 	**ExceptionMessage**
 
-		A connection attempt failed because the connected party did not properly respond after a period of time, 
-		or established connection failed because connected host has failed to respond 216.146.38.125:89 
-
-		Description: 
-		An unhandled exception occurred during the execution of the current web request. 
-		Please review the stack trace for more information about the error and where it originated in the code. 
-
-		Exception Details: 
-		System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, 
-		or established connection failed because connected host has failed to respond 216.146.38.125:89
-
-		Source Error: 
-		An unhandled exception was generated during the execution of the current web request. 
-		Information regarding the origin and location of the exception can be identified using the exception stack trace below. 
-
+	```
+	A connection attempt failed because the connected party did not properly respond after a period of time, 
+	or established connection failed because connected host has failed to respond 216.146.38.125:89 
+	
+	Description: 
+	An unhandled exception occurred during the execution of the current web request. 
+	Please review the stack trace for more information about the error and where it originated in the code. 
+	
+	Exception Details: 
+	System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, 
+	or established connection failed because connected host has failed to respond 216.146.38.125:89
+	
+	Source Error: 
+	An unhandled exception was generated during the execution of the current web request. 
+	Information regarding the origin and location of the exception can be identified using the exception stack trace below. 
+	```
 
 ### Solutions:
 		
