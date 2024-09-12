@@ -47,14 +47,14 @@ This article lists the known limitations you may encounter when working with the
 
 * **Ajaxified control postbacks when controls are not updated**&mdash;The AjaxManager setting from the following example will not ajaxify the button.
 
-    ````ASP.NET
+  ````ASP.NET
       <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
       	<AjaxSettings>
       	    <telerik:AjaxSetting AjaxControlID="Button1">                
       	    </telerik:AjaxSetting>
       	 </AjaxSettings>
       </telerik:RadAjaxManager>
-````
+  ````
 
 
 
@@ -64,13 +64,13 @@ This article lists the known limitations you may encounter when working with the
       <UpdatedControls>
       	<telerik:AjaxUpdatedControl ControlID="Button1" />
       </UpdatedControls>
-````
+    ````
 
 
 
 * **Using the AjaxManager and AjaxPanel in the same application**&mdash;In some complex scenarios, such as when using a master page or WebUserControls, having both the AjaxManager and the AjaxPanel may lead to issues. To handle such problems, use a single AjaxManager and no panels in the master or main page of the project.
 
-* **The `OnRequestSent` and `OnResponseReceived` clisent-side events are missing**&mdash;The AjaxManager does not provide these events and you cannot simulate them due to the way ASP.NET AJAX works. To work around this issue, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/requeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/responseend%}) for your needs.
+* **The `OnRequestSent` and `OnResponseReceived` client-side events are missing**&mdash;The AjaxManager does not provide these events and you cannot simulate them due to the way ASP.NET AJAX works. To work around this issue, use the [`OnRequestStart`]({%slug ajaxmanager/client-side-programming/events/requeststart%}) and [`OnResponseEnd`]({%slug ajaxmanager/client-side-programming/events/responseend%}) for your needs.
 
 * **Various controls are not supported by the Microsoft AJAX framework**&mdash;For the full list of controls that are not compatible with the AjaxManager, refer to the article on [checking for incompatible controls and updating third-party controls]({%slug ajaxmanager/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
 
@@ -78,7 +78,7 @@ This article lists the known limitations you may encounter when working with the
 
 * **When using Medium Trust, client-side validation does not execute and validators are added dynamically during an Ajax call**&mdash;When the Medium Trust level is used, you cannot use reflection to set private properties. However, when you use validators in a template that is placed in an AjaxPanel, you need to set the `_parent` private property of the validators to the updated panel with reflection. This approach is required so that all validators are rendered as expected. Therefore, in such scenarios, to make validators work as expected, use `asp:UpdatePanel` instead of the AjaxPanel or AjaxManager.
 
-* **Parent-child control configuration**&mdash;Child elements cannot be the `AjaxSetting` initiator or update their parent container element. To add and update a container or a parent control, allow the container or the control, or an external component to be the initiator. It is similar to placing a `telerik:RadAjaxPanel` or `asp:UpdatePanel` on the page: it will affect only the content inside this panel. The AjaxManager is similar; only it achieves what is going on under the hood.
+* **Parent-child control configuration**&mdash;Child elements cannot be the `AjaxSetting` initiator or update their parent container element. To add and update a container or a parent control, allow the container or the control, or an external component to be the initiator. It is similar to placing a `telerik:RadAjaxPanel` or `asp:UpdatePanel` on the page: it will affect only the content inside this panel. The AjaxManager is similar; only it achieves what is happening under the hood.
 
 ## See Also
 
