@@ -37,7 +37,7 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 1. Open Input.Green.css and replace all instances of _Default with _Green. Then save the file:
 ![Find and replace](images/FindAndReplace.png)
 
-1. Drag the "Input.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:
+1. Drag the "Input.Green.css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:
 ![Drag CSS file](images/dragcssfile.png)
 
 1. Change the **Skin** property of your four **RadInput** controls to "Green".
@@ -51,76 +51,75 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 
 1. The classes that control the background for spin buttons are **.riUp** and **.riDown**. Locate the mentioned selectors. The class definitions are qualified by the **.RadInput_Green** class, which is the class definition for the entire control. Add a property to the selectors, setting the background color for the spin buttons:
 
-	````CSS
-	.RadInput_Green a.riUp
-	{
-		background-position: 4px -98px;
-		vertical-align: top;
-		background-color: #ddffe0;
-	}
+````CSS
+.RadInput_Green a.riUp
+{
+	background-position: 4px -98px;
+	vertical-align: top;
+	background-color: #ddffe0;
+}
 ````
 
-	````CSS
-	.RadInput_Green a.riDown
-	{
-		background-position: 4px -199px;
-		vertical-align: top;
-		background-color: #ddffe0;
-	}
+````CSS
+.RadInput_Green a.riDown
+{
+	background-position: 4px -199px;
+	vertical-align: top;
+	background-color: #ddffe0;
+}
 ````
 
 1. The class that controls the background of the button is **.riButton**. There is currently no definition for this class in the skin file. Add one, setting a background for the button:
 
-	````CSS
-	.RadInput_Green a.riButton
-	{
-		background-color: #ddffe0;
-	}
+````CSS
+.RadInput_Green a.riButton
+{
+	background-color: #ddffe0;
+}
 ````
 
 
 
 1. The text area when the control is enabled has the **.riEnabled** class applied. Locate this selector. Change the border color to Green and add a background color:
 
-	````CSS
-	.RadInput_Green .riEnabled
-	{ 
-		color: #333; 
-		border: solid 1px Green; 
-		background:#eeffee;
-	}
+````CSS
+.RadInput_Green .riEnabled
+{ 
+	color: #333; 
+	border: solid 1px Green; 
+	background:#eeffee;
+}
 ````
 
 
 
 1. The class that controls the text area when the mouse hovers over the control is **.riHover**. Locate this selector, and change the border color from "#000" to "Green".
 
-	````CSS
-	.RadInput_Green .riHover
-	{ 
-		color: #333; 
-		border: solid 1px Green;
-	}
+````CSS
+.RadInput_Green .riHover
+{ 
+	color: #333; 
+	border: solid 1px Green;
+}
 ````
 
 
 
 1. The class that controls the text area when it is displaying the empty message is **.riEmpty**. Locate this selector and change the color and border colors to "Green". Add in a background color as well:
 
-	````CSS
-	.RadInput_Green .riEmpty
-	{ 
-		color: Green; 
-		border: solid 1px Green; 
-		background:#ddeedd;
-	}
+````CSS
+.RadInput_Green .riEmpty
+{ 
+	color: Green; 
+	border: solid 1px Green; 
+	background:#ddeedd;
+}
 ````
-
 
 
 1. The class that controls the text area when it has focus is **.riFocused**. Change the border color to "Green":
 
-	````CSS
+````CSS
 	.RadInput_Green .riFocused
 	{ 
 		border: solid 1px Green; 
@@ -131,9 +130,9 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 
 
 
-1. The class that controls the text area when it's value is invalid is **.riError**. Add a **background-color** of "#ddd", and change the color and border-color attributes to "#ffcc55":
+1. The class that controls the text area when its value is invalid is **.riError**. Add a **background-color** of "#ddd", and change the color and border-color attributes to "#ffcc55":
 
-	````CSS
+````CSS
 	.RadInput_Green .riError
 	{ 
 		background-image: url('Input/errorSign.gif'); 
@@ -148,7 +147,7 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 
 1. The class that controls the Label is **.riLabel**. Change the font color to "Green":
 
-	````CSS
+````CSS
 	.RadInput_Green .riLabel
 	{ 
 		color: Green; 
@@ -156,7 +155,6 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 		white-space:nowrap;
 	}
 ````
-
 
 
 1. Run the application.
