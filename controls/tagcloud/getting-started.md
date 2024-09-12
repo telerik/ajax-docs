@@ -16,15 +16,15 @@ position: 2
 
 **Synopsis:** The following tutorial demonstrates how to set up a page with **RadTagCloud** and manually populate the control with keywords. The walk-through will also show how to sort the items alphabetically in ascending order.
 
-1. Add a RadTagCloud control in the default page of a new ASP.NET AJAX-enabled Web Application.
+Add a RadTagCloud control in the default page of a new ASP.NET AJAX-enabled Web Application.
 
 	![Getting Started with the Telerik WebForms TagCloud](images/tagcloud_getting_started01.png "Getting Started with the Telerik WebForms TagCloud")
 
-1. In the Source view of the .aspx page, find the definition of the TagCloud, and add the `<Items></Items>` inner property.
+In the Source view of the .aspx page, find the definition of the TagCloud, and add the `<Items></Items>` inner property.
 
-1. Add the following list of items between the opening and the closing tag of the `<Items>` property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
+Add the following list of items between the opening and the closing tag of the `<Items>` property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
 
-	````ASPNET
+````ASPNET
 	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" Width="400px" MaxFontSize="50px">
 		<Items>
 			<telerik:RadTagCloudItem Text="Russia" Weight="141.9" NavigateUrl="https://en.wikipedia.org/wiki/Russia" />
@@ -41,8 +41,8 @@ position: 2
 	</telerik:RadTagCloud>
 ````
 
-1. Set the following properties in the Properties Window of RadTagCloud **Width="400px"MaxFontSize="50px"Sorting="AlphabeticAsc"**
+Set the following properties in the Properties Window of RadTagCloud **Width="400px"MaxFontSize="50px"Sorting="AlphabeticAsc"**
 
-1. Press F5 to run the application. When a tag is clicked the browser navigates to the respective Wikipedia article.
+Press F5 to run the application. When a tag is clicked the browser navigates to the respective Wikipedia article.
 
 	![RadTagCloud](images/tagcloud_getting_started02.png)
