@@ -33,37 +33,37 @@ The AjaxManager and AjaxPanel both descend from the `RadAjaxControl`, which intr
 
     ````C#	
       RadAjaxManager1.Alert("Please save your changes.");
-````
+    ````
     
     
     ````VB
       RadAjaxManager1.Alert("Please save your changes.")	
-````
+    ````
 
 
 * `FocusControl`&mdash;Places the focus on a specified control. `FocusControl()` takes a single parameter that can be the `ID` of the control to focus on or an object reference to the control to focus on.
 
     ````C#
       RadAjaxManager1.FocusControl(Button1);	
-````
+    ````
     
     
     ````VB	
       RadAjaxManager1.FocusControl(Button1)	
-````
+    ````
 
 * `GetAjaxEventReference`&mdash;Produces client-side code that invokes the [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}) method.
 
     ````C#
       RadAjaxManager1.GetAjaxEventReference(Button1.ClientID);
       //... returns "$find("RadAjaxManager1").ajaxRequest("Button1");"
-````
+    ````
     
     
     ````VB
       RadAjaxManager1.GetAjaxEventReference(Button1.ClientID)
       '... returns "$find("RadAjaxManager1").ajaxRequest("Button1");"
-````
+    ````
 
 * `RaisePostBackEvent`&mdash;Triggers a server-side [`AjaxRequest`]({%slug ajaxmanager/server-side-programming/events/onajaxrequest%}) event and allows you to pass a single string parameter to the event. `AjaxRequest` can also be triggered by the client-side [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}) function.
 
@@ -76,7 +76,7 @@ The AjaxManager and AjaxPanel both descend from the `RadAjaxControl`, which intr
       {    
       	Label1.Text = e.Argument;
       }				
-````
+    ````
     
     
     ````VB	
@@ -86,19 +86,19 @@ The AjaxManager and AjaxPanel both descend from the `RadAjaxControl`, which intr
       Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
           Label1.Text = e.Argument
       End Sub
-````
+    ````
 
 
 * `Redirect`&mdash;Navigates the browser to another web page. The method passes a single string parameter, which is the URL to navigate to.
 
     ````C#	
       RadAjaxManager1.Redirect("https://www.telerik.com");
-````
+    ````
     
     
     ````VB.NET	
       RadAjaxManager1.Redirect("https://www.telerik.com")	
-````
+    ````
 
 
 ## See Also
