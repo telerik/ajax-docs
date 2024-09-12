@@ -49,112 +49,88 @@ See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling
 
 ## Editing the CSS classes
 
-1. The classes that control the background for spin buttons are **.riUp** and **.riDown**. Locate the mentioned selectors. The class definitions are qualified by the **.RadInput_Green** class, which is the class definition for the entire control. Add a property to the selectors, setting the background color for the spin buttons:
+The classes that control the background for spin buttons are **.riUp** and **.riDown**. Locate the mentioned selectors. The class definitions are qualified by the **.RadInput_Green** class, which is the class definition for the entire control. Add a property to the selectors, setting the background color for the spin buttons:
 
 ````CSS
-.RadInput_Green a.riUp
-{
+.RadInput_Green a.riUp {
 	background-position: 4px -98px;
 	vertical-align: top;
 	background-color: #ddffe0;
 }
-````
 
-````CSS
-.RadInput_Green a.riDown
-{
+.RadInput_Green a.riDown {
 	background-position: 4px -199px;
 	vertical-align: top;
 	background-color: #ddffe0;
 }
 ````
 
-1. The class that controls the background of the button is **.riButton**. There is currently no definition for this class in the skin file. Add one, setting a background for the button:
+The class that controls the background of the button is **.riButton**. There is currently no definition for this class in the skin file. Add one, setting a background for the button:
 
-````CSS
-.RadInput_Green a.riButton
-{
+````CSS 
+.RadInput_Green a.riButton {
 	background-color: #ddffe0;
 }
 ````
 
-
-
-1. The text area when the control is enabled has the **.riEnabled** class applied. Locate this selector. Change the border color to Green and add a background color:
+The text area when the control is enabled has the **.riEnabled** class applied. Locate this selector. Change the border color to Green and add a background color:
 
 ````CSS
-.RadInput_Green .riEnabled
-{ 
+.RadInput_Green .riEnabled { 
 	color: #333; 
 	border: solid 1px Green; 
 	background:#eeffee;
 }
 ````
 
-
-
-1. The class that controls the text area when the mouse hovers over the control is **.riHover**. Locate this selector, and change the border color from "#000" to "Green".
+The class that controls the text area when the mouse hovers over the control is **.riHover**. Locate this selector, and change the border color from "#000" to "Green".
 
 ````CSS
-.RadInput_Green .riHover
-{ 
+.RadInput_Green .riHover { 
 	color: #333; 
 	border: solid 1px Green;
 }
 ````
 
+The class that controls the text area when it is displaying the empty message is **.riEmpty**. Locate this selector and change the color and border colors to "Green". Add in a background color as well:
 
-
-1. The class that controls the text area when it is displaying the empty message is **.riEmpty**. Locate this selector and change the color and border colors to "Green". Add in a background color as well:
-
-````CSS
-.RadInput_Green .riEmpty
-{ 
+````CSS 
+.RadInput_Green .riEmpty { 
 	color: Green; 
 	border: solid 1px Green; 
 	background:#ddeedd;
 }
 ````
 
-
-1. The class that controls the text area when it has focus is **.riFocused**. Change the border color to "Green":
-
-````CSS
-	.RadInput_Green .riFocused
-	{ 
-		border: solid 1px Green; 
-		color: #000; 
-	}
-````
-
-
-
-
-1. The class that controls the text area when its value is invalid is **.riError**. Add a **background-color** of "#ddd", and change the color and border-color attributes to "#ffcc55":
+The class that controls the text area when it has focus is **.riFocused**. Change the border color to "Green":
 
 ````CSS
-	.RadInput_Green .riError
-	{ 
-		background-image: url('Input/errorSign.gif'); 
-		background-position: center right; 
-		background-repeat: no-repeat; 
-		background-color:#ddd; 
-		border: solid 1px #ffcc55; color: #ffcc55;
-	}
+.RadInput_Green .riFocused { 
+	border: solid 1px Green; 
+	color: #000; 
+}
 ````
 
-
-
-1. The class that controls the Label is **.riLabel**. Change the font color to "Green":
+The class that controls the text area when its value is invalid is **.riError**. Add a **background-color** of "#ddd", and change the color and border-color attributes to "#ffcc55":
 
 ````CSS
-	.RadInput_Green .riLabel
-	{ 
-		color: Green; 
-		font-size: small; 
-		white-space:nowrap;
-	}
+.RadInput_Green .riError { 
+	background-image: url('Input/errorSign.gif'); 
+	background-position: center right; 
+	background-repeat: no-repeat; 
+	background-color:#ddd; 
+	border: solid 1px #ffcc55; color: #ffcc55;
+}
 ````
 
+The class that controls the Label is **.riLabel**. Change the font color to "Green":
 
-1. Run the application.
+````CSS
+.RadInput_Green .riLabel { 
+	color: Green; 
+	font-size: small; 
+	white-space:nowrap;
+}
+````
+
+Run the application.
