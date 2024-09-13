@@ -35,26 +35,24 @@ public class RadTreeNodeData : ControlItemData
 } 
 ````
 
-
-
 So, these are the only properties you can set to the child nodes added from Web Service.
 
 Imagine that you need to set a property that is not available in the **RadTreeNodeData** class - e.g. ToolTip. There are two approaches to do this:
 
 ## First Approach - using a custom class
 
-1. Create a class that inherits the **RadTreeNodeData** class and add the **ToolTop** property to it:
-    ````C#	
+- Create a class that inherits the **RadTreeNodeData** class and add the **ToolTop** property to it:
+
+````C#	
 public class CustomRadTreeNodeData : RadTreeNodeData 
 { 
 	public string ToolTip;
 }	
 ````
 
+- Define the **WebMethod** as follows:
 
-
-2. Define the **WebMethod** as follows:
-    ````C#
+````C#
 [WebMethod]
 public CustomRadTreeNodeData[] GetNodesWithToolTips()
 {
@@ -72,9 +70,7 @@ public CustomRadTreeNodeData[] GetNodesWithToolTips()
 } 
 ````
 
-
-
-3. Set the tooltip of the node in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event:
+- Set the tooltip of the node in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event:
 
 ````JavaScript	
 function OnClientNodeDataBoundHandler(sender, e) {
@@ -83,23 +79,37 @@ function OnClientNodeDataBoundHandler(sender, e) {
 }	
 ````
 
-
-
 Here is the JSON output for the first child node:
 
 ````JavaScript
-{"**type":"CustomRadTreeNodeData","ToolTip":"Tooltip for node 1","ExpandMode":0,"NavigateUrl":"","PostBack"
-:true,"CssClass":"","DisabledCssClass":"","SelectedCssClass":"","ContentCssClass":null,"HoveredCssClass"
-:"","ImageUrl":"","HoveredImageUrl":null,"DisabledImageUrl":"","ExpandedImageUrl":"","ContextMenuID"
-:null,"Text":"node 1","Value":"","Enabled":true,"Attributes":{}}
+{
+    "**type": "CustomRadTreeNodeData",
+    "ToolTip": "Tooltip for node 1",
+    "ExpandMode": 0,
+    "NavigateUrl": "",
+    "PostBack": true,
+    "CssClass": "",
+    "DisabledCssClass": "",
+    "SelectedCssClass": "",
+    "ContentCssClass": null,
+    "HoveredCssClass": "",
+    "ImageUrl": "",
+    "HoveredImageUrl": null,
+    "DisabledImageUrl": "",
+    "ExpandedImageUrl": "",
+    "ContextMenuID": null,
+    "Text": "node 1",
+    "Value": "",
+    "Enabled": true,
+    "Attributes": {}
+}
 ````
-
-
 
 ## Second approach - using the Attributes collection
 
-1. Add the ToolTip custom attribute:
-    ````C#
+- Add the ToolTip custom attribute:
+
+````C#
 [WebMethod]
 public RadTreeNodeData[] GetNodesWithToolTips()
 {
@@ -117,9 +127,7 @@ public RadTreeNodeData[] GetNodesWithToolTips()
 } 
 ````
 
-
-
-2. Set the tooltip of the node in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event:
+- Set the tooltip of the node in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event:
 
 ````JavaScript
 function OnClientNodeDataBoundHandler(sender, e) {
@@ -128,18 +136,32 @@ function OnClientNodeDataBoundHandler(sender, e) {
 }
 ````
 
-
-
 Here is the JSON output for the first child node:
 
 ````JavaScript
-{"**type":"Telerik.Web.UI.RadTreeNodeData","ExpandMode":0,"NavigateUrl":"","PostBack":true,"CssClass"
-:"","DisabledCssClass":"","SelectedCssClass":"","ContentCssClass":null,"HoveredCssClass":"","ImageUrl"
-:"","HoveredImageUrl":null,"DisabledImageUrl":"","ExpandedImageUrl":"","ContextMenuID":null,"Text":"node
-1","Value":"","Enabled":true,"Attributes":{"ToolTip":"new tooltip for node 1"}}
+{
+    "**type": "Telerik.Web.UI.RadTreeNodeData",
+    "ExpandMode": 0,
+    "NavigateUrl": "",
+    "PostBack": true,
+    "CssClass": "",
+    "DisabledCssClass": "",
+    "SelectedCssClass": "",
+    "ContentCssClass": null,
+    "HoveredCssClass": "",
+    "ImageUrl": "",
+    "HoveredImageUrl": null,
+    "DisabledImageUrl": "",
+    "ExpandedImageUrl": "",
+    "ContextMenuID": null,
+    "Text": "node 1",
+    "Value": "",
+    "Enabled": true,
+    "Attributes": {
+        "ToolTip": "new tooltip for node 1"
+    }
+}
 ````
-
-
 
 # See Also
 

@@ -11,6 +11,7 @@ res_type: kb
 ---
 
 ## Environment
+
 <table>
 	<tbody>
 		<tr>
@@ -20,11 +21,11 @@ res_type: kb
 	</tbody>
 </table>
 
-
 ## Description
 Found out the different reasons to get Telerik is not defined JavaScript error in your browser console
 
 ## Error Message
+
 * Telerik is undefined
 * Uncaught ReferenceError: Telerik is not defined
 * Microsoft JScript runtime error: 'Telerik' is undefined
@@ -37,28 +38,27 @@ To fix the above errors try the following tips:
 * Set CombineScripts="false" in the ASP.NET script manager
 * Disable the debugging in the web.config
 
-	````XML
+````XML
 <compilation debug="false" targetFramework="4.8">
 ````
 
 * Disable the UnobtrusiveValidationMode in the web.config file
 
-	````XML
+````XML
 <appSettings>
 	<add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
-	...
 ````
 
 * Remove the targetFramework attribute from the httpRuntime section of the web.config
-	````XML
+
+````XML
 <httpRuntime requestLengthDiskThreshold="512" useFullyQualifiedRedirectUrl="true" executionTimeout="110" requestValidationMode="2.0"  maxRequestLength="102400" />
 ````
 
 * The error could be due to the login/authentication mechanisms that block resources and you need to add a <location> element to allow access to the Telerik handlers explicitly. You can find an example here: [Use Telerik Controls with ScriptManager on Login Page Throws an Error]({%slug using-controls-with-scriptmanager-login-page-error %}):
 
-	````XML
+````XML
 <configuration>
-...
 	<location path="Telerik.Web.UI.WebResource.axd">
 		<system.web>
 			<authorization>
@@ -66,26 +66,25 @@ To fix the above errors try the following tips:
 			</authorization>
 		</system.web>
 	</location>
-...
 </configuration>
 ````
 
 * Enable or Disable the Telerik ScriptManager CDN
-	```XML
-  <add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />
-```
+
+````XML
+<add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />
+````
 
 * Proxy server, Firewall, WebSense or another security/authentication program could redirect and/or wipe out the contents of the Telerik script files, and therefore to cause the Telerik is not defined error. In such scenarios where the Script Response is empty in the Network tab of DevTools or you get a status code of 307, make sure that the Telerik CDN is disabled or set the following URLs to the allowed proxy list of URLS so that these resources pass through the proxy unmodified:
 
-	```ASPX
-http://aspnet-scripts.telerikstatic.com - for the scripts;
-http://aspnet-skins.telerikstatic.com - for the skins (CSS and images);
-https://d2i2wahzwrm1n5.cloudfront.net - for the scripts;
-https://d35islomi5rx1v.cloudfront.net - for the skins (CSS and images);
-````
-	
+- https://aspnet-scripts.telerikstatic.com - for the scripts;
+- https://aspnet-skins.telerikstatic.com - for the skins (CSS and images);
+- https://d2i2wahzwrm1n5.cloudfront.net - for the scripts;
+- https://d35islomi5rx1v.cloudfront.net - for the skins (CSS and images);
+
 
 ## See Also
+
 * [Use Telerik Controls with ScriptManager on Login Page Throws an Error]({%slug using-controls-with-scriptmanager-login-page-error %})
 * [`'Telerik' is undefined` When Running a Website in the Integrated Mode on IIS 7 and Later]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting %})
 * [`'Sys' is undefined` Microsoft JavaScript Runtime Error]({% slug sys-is-undefined-ms-js-runtime-error %})
@@ -94,5 +93,3 @@ https://d35islomi5rx1v.cloudfront.net - for the skins (CSS and images);
 * [Uncaught ReferenceError: $telerik is not defined](https://www.telerik.com/forums/uncaught-referenceerror-$telerik-is-not-defined)
 * [Telerik is not defined error on page load](https://community.progress.com/s/article/telerik-is-not-defined-error-on-page-load)
 * [Known Issues]({%slug links-troubleshooting-kb-resources%})
-
-     

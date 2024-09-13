@@ -39,9 +39,9 @@ As the website denies access to all pages to unauthorized users, access to the `
 
 Alternatively, if a website was migrated from a previous ASP.NET version to the latest, a `preCondition` attribute might have been added to the `Telerik.Web.UI.WebResource.axd` handler declaration stating that the runtime version is 2.0:
 
-```
- preCondition="integratedMode,runtimeVersionv2.0"
-```
+````XML
+preCondition="integratedMode,runtimeVersionv2.0"
+````
 
 ## Solution
 
@@ -49,9 +49,8 @@ Depending on the possible cause of this issue, use either of the following appro
 
 * (Unauthorized handler) Add a `<location>` section to the application configuration file thus allowing access to `Telerik.Web.UI.WebResource.axd` to all users, for example:
 
-	````XML
+````XML
 <configuration>
-...
 	<location path="Telerik.Web.UI.WebResource.axd">
 		<system.web>
 			<authorization>
@@ -59,7 +58,6 @@ Depending on the possible cause of this issue, use either of the following appro
 			</authorization>
 		</system.web>
 	</location>
-...
 </configuration>
 ````
 

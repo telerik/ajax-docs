@@ -36,28 +36,24 @@ Due to timing issues in case **ExpandMode** for the clicked Node is:
 
 Ensure that the **NodeClick** event fires after the Node finishes loading its Nodes:
 
-1. Expand the Node in the **OnClientNodeClicking** event handler. If the Node's **ExpandMode** is **ServerSideCallBack** or **WebService** and the Node does not have children, cancel the event. Below is an example:
-	````JavaScript
-function onClientNodeClicking(sender, eventArgs){
+Expand the Node in the **OnClientNodeClicking** event handler. If the Node's **ExpandMode** is **ServerSideCallBack** or **WebService** and the Node does not have children, cancel the event. Below is an example:
 
+````JavaScript
+function onClientNodeClicking(sender, eventArgs){
     var node = eventArgs.get_node();
 
-    if ((node.get_expandMode() > 1) &&
-     (node.get_nodes().get_count() == 0))
-    {
-     eventArgs.set_cancel(true);
+    if ((node.get_expandMode() > 1) && (node.get_nodes().get_count() == 0)) {
+        eventArgs.set_cancel(true);
     }
 
     node.expand();
 }
 ````
 
+Handle the **OnClientNodePopulated** event and select the expanded Node in the event handler, like this:
 
-
-1. Handle the **OnClientNodePopulated** event and select the expanded Node in the event handler, like this:
-	````JavaScript
+````JavaScript
 function onClientNodePopulated(sender, eventArgs){ 
-
     eventArgs.get_node().select();
 }
 ````

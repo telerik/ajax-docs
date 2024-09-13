@@ -22,24 +22,20 @@ If you see this error in **SharePoint 2013** make sure that the settings in your
 ![](images/sharepoint-troubleshooting-1-anonymous-authentication.png)
 
 * Disable **ClaimsBasedAuthentication** as shown in the code snippet below in PowerShell. 
-    ````PowerShell
+
+````PowerShell
 $webApp = Get-SPWebApplication "http://webapplicationurl"
 $webApp.UseClaimsAuthentication = 0;
 $webApp.Update()
 ````
 
+After the code executes then **Authentication Type** should be set to **Windows**. You can verify this by opening **Central Administration** -> **Application Management** -> **Manage web applications** select the **Sharepoint-80** main application and click on **Authentication Providers**. It should say **Default - Windows** as shown below: 
 
-    After the code executes then **Authentication Type** should be set to **Windows**. You can verify this by opening **Central Administration** -> **Application Management** -> **Manage web applications** select the **Sharepoint-80** main application and click on **Authentication Providers**. It should say **Default - Windows** as shown below: 
-    
-    
 ![](images/sharepoint-troubleshooting-3-claimsbasedauthentication.png)
-
-
 
 * Ensure that the **Negotiate (Kerberos)** option is selected for **Integrated Windows Authentication**.
 
-    ![](images/sharepoint-troubleshooting-3-claimsbasedauthentication2.png)
-
+![](images/sharepoint-troubleshooting-3-claimsbasedauthentication2.png)
 
 * Check the **web.config** file in (C:\inetpub\wwwroot\wss\VirtualDirectories\80) and make sure it has the following settings there. Note that **authentication** mode is set to **Windows**.  
 ````XML
@@ -48,20 +44,16 @@ $webApp.Update()
     <customErrors mode="Off" />
     <httpRuntime maxRequestLength="51200" requestValidationMode="2.0" />
     <authentication mode="Windows">
-      <forms loginUrl="/_login/default.aspx" />
+        <forms loginUrl="/_login/default.aspx" />
     </authentication>
     <identity impersonate="true" />
     <authorization>
-      <allow users="*" />
+        <allow users="*" />
     </authorization>
     <httpModules>
     </httpModules>
-	
-	. . .
-	
 </system.web>
 ````
-
 
 * Ensure that the correct version of Telerik assemblies is referenced in the **web.config** 
 
@@ -70,7 +62,6 @@ $webApp.Update()
 ![](images/sharepoint-troubleshooting-5-iis-worker-access.png)
 
 * Restart IIS and browser and try loading the designer again
-
 
 ## Other issues
 
@@ -89,6 +80,7 @@ Below you can see suggestions that can help resolve other common issues with the
 * Open the *C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Telerik.Ajax.SharePoint* folder and ensure that the correct version of the controls is referenced in the **gridbindingservice.svc** file
 
 * Check the **vti_bin** folder in the Sharepoint IIS web site and confirm that it has anonymous authentication enabled  
+
 ![](images/sharepoint-troubleshooting-1-anonymous-authentication.png)
 
 * After the designer is opened check the browser console and the Sharepoint logs for any errors
@@ -104,6 +96,7 @@ Below you can see suggestions that can help resolve other common issues with the
 * Disable Forms Authentication in the IIS settings of the current Sharepoint site
 
 * If you are seeing the following error make sure that **Telerik.Web.UI.dll** is present only in one of the folders (either GAC or the Bin folder)
+
 ![](images/sharepoint-troubleshooting-2-duplicate-assembly-exception.png)
 
 

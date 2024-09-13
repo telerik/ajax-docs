@@ -41,24 +41,24 @@ The following example demonstrates the mandatory `web.config` additions needed b
 
 ````web.config
 <configuration>
-  <!-- 
-    Required by RadCloudUpload to configure Cloud storage Providers (Amazon S3, Azure Blob Storage, Telerik Backend Services)
-    It is mandatory to place the <configSection> as the first child of <configuration> element:
-    Read more at: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/configsections-element-for-configuration
-  -->
-  <configSections>
-      <sectionGroup name="telerik.web.ui">
-          <section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
-      </sectionGroup>
-  </configSections>
+    <!-- 
+        Required by RadCloudUpload to configure Cloud storage Providers (Amazon S3, Azure Blob Storage, Telerik Backend Services)
+        It is mandatory to place the <configSection> as the first child of <configuration> element:
+        Read more at: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/configsections-element-for-configuration
+    -->
+    <configSections>
+        <sectionGroup name="telerik.web.ui">
+            <section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
 
 	<appSettings>
 		<!-- Read more at: https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security -->
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
+        <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
 		<!-- Read more at:   https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security -->
-		 <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
+		<add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 	</appSettings>
     <system.web>
         <!-- for IIS versions below 7 and Classic Pipeline mode -->
@@ -123,9 +123,8 @@ If your project references the Telerik assemblies from the **GAC**, you will nee
 The following example demonstrates how to register an HTTP handler that uses a fully qualified assembly name.
 
 ````XML
-<add name="Telerik_Web_UI_WebResource_axd" path="Telerik.Web.UI.WebResource.axd"
-   type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, Version=2014.3.1209.45, PublicKeyToken=121fae78165ba3d4"
-   verb="*" preCondition="integratedMode" />
+<add name="Telerik_Web_UI_WebResource_axd" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Culture=neutral, Version=2014.3.1209.45, PublicKeyToken=121fae78165ba3d4" 
+verb="*" preCondition="integratedMode" />
 ````
 
 In the example above, you will need to change the `Version` property to the specific version you are using and the same assembly is to be used with all handlers.
@@ -152,9 +151,9 @@ You can globally register the `controls` assembly and the `tagPrefix` in the `we
 
 ````XML
 <pages>
- <controls>
-   <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" />
- </controls>
+    <controls>
+        <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" />
+    </controls>
 </pages>
 ````
 
@@ -221,7 +220,7 @@ The following example demonstrates how to set all of the available `appSettings`
         <add key="KeepOriginalOrderOfScriptDescriptorsDuringAjax" value="true" />
 		<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 		<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
-    <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
+        <add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration" />
         <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/tempUploads" />
         <add key="Telerik.EnableEmbeddedBaseStylesheet" value="true" />
         <add key="Telerik.EnableEmbeddedScripts" value="true" />
@@ -263,12 +262,9 @@ The following example demonstrates how to configure a custom section.
 
 ````XML
 <configSections>
-  <sectionGroup name="telerik.web.ui">
-    <section name="radScheduler"
-             type="Telerik.Web.UI.RadSchedulerConfigurationSection,
-                 Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
-             allowDefinition="MachineToApplication" />
-  </sectionGroup>
+    <sectionGroup name="telerik.web.ui">
+        <section name="radScheduler" type="Telerik.Web.UI.RadSchedulerConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" />
+    </sectionGroup>
 </configSections>
 ````
 
@@ -277,14 +273,14 @@ The following example demonstrates how to declare the provider.
 
 ````XML
 <telerik.web.ui>
-  <radScheduler defaultAppointmentProvider="Integrated">
-    <appointmentProviders>
-      <add name="XmlSchedulerProvider1"
-           type="Telerik.Web.UI.XmlSchedulerProvider"
-           fileName="~/App_Data/Appointments.xml"
-           persistChanges="true"/>
-    </appointmentProviders>
-  </radScheduler>
+    <radScheduler defaultAppointmentProvider="Integrated">
+        <appointmentProviders>
+        <add name="XmlSchedulerProvider1"
+            type="Telerik.Web.UI.XmlSchedulerProvider"
+            fileName="~/App_Data/Appointments.xml"
+            persistChanges="true"/>
+        </appointmentProviders>
+    </radScheduler>
 </telerik.web.ui>
 ````
 
@@ -294,11 +290,11 @@ The following example demonstrates how to add the MediaPlayer MIME settings to t
 
 ````XML
 <system.webServer>
-  <staticContent>
-    <mimeMap fileExtension=".mp3" mimeType="audio/mpeg" />
-    <mimeMap fileExtension=".ogg" mimeType="audio/ogg" />
-    <mimeMap fileExtension=".wav" mimeType="audio/wav" />
-  </staticContent>
+    <staticContent>
+        <mimeMap fileExtension=".mp3" mimeType="audio/mpeg" />
+        <mimeMap fileExtension=".ogg" mimeType="audio/ogg" />
+        <mimeMap fileExtension=".wav" mimeType="audio/wav" />
+    </staticContent>
 </system.webServer>
 ````
 
@@ -311,14 +307,12 @@ The following example demonstrates how to enable the Compression for regular pos
 
 ````XML
 <configSections>
-
-  <sectionGroup name="telerik.web.ui">
-    <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
-  </sectionGroup>
-
+    <sectionGroup name="telerik.web.ui">
+        <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
+    </sectionGroup>
 </configSections>
 <telerik.web.ui>
-  <radCompression enablePostbackCompression="true"/>
+    <radCompression enablePostbackCompression="true"/>
 </telerik.web.ui>
 ````
 
@@ -326,23 +320,21 @@ Due to the fact that the `RadCompression` module takes advantage of the ASP.NET 
 
 * `ControlState`&mdash;By default, the `SessionPageStatePersister` doesn't add the `ControlState` to the `Session` so you may need to add it manually. The following example demonstrates how to set the control state in `Session`.
 
-
-  ````XML
+````XML
 <system.web>
-  <browserCaps>
-    <case>
-      RequiresControlStateInSession=true
-    </case>
-  </browserCaps>
+    <browserCaps>
+        <case>
+        RequiresControlStateInSession=true
+        </case>
+    </browserCaps>
 </system.web>
 ````
 
 * `Page history`&mdash;In applications where you have a lot of popup windows, it is important to increase the amount of the pages that are persisted in the `Session`. The default value of the history size is `9`. The following example demonstrates how to configure the amount of pages that are persisted in `Session`.
 
-
-  ````XML
+````XML
 <system.web>
-  <sessionPageState historySize="15" />
+    <sessionPageState historySize="15" />
 </system.web>
 ````
 
@@ -353,16 +345,16 @@ The following example demonstrates how to configure the CloudUpload provider set
 
 ````XML
 <telerik.web.ui>
-  <radCloudUpload>
-    <storageProviders>
-      <!-- Amazon S3 provider -->
-      <add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
-      <!-- Azure Blob provider -->
-      <add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
-      <!-- Telerik Backend services provider -->
-      <add name="Everlive" type="Telerik.Web.UI.EverliveProvider" AppKey="" uncommitedFilesExpirationPeriod="2"/>
-    </storageProviders>
-  </radCloudUpload>
+    <radCloudUpload>
+        <storageProviders>
+        <!-- Amazon S3 provider -->
+        <add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
+        <!-- Azure Blob provider -->
+        <add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
+        <!-- Telerik Backend services provider -->
+        <add name="Everlive" type="Telerik.Web.UI.EverliveProvider" AppKey="" uncommitedFilesExpirationPeriod="2"/>
+        </storageProviders>
+    </radCloudUpload>
 </telerik.web.ui>
 ````
 
@@ -374,9 +366,9 @@ The following example demonstrates how to allow uploads of files up to 100MB and
 
 ````XML
 <configuration>  
-  <system.web>
-    <httpRuntime maxRequestLength="102400" executionTimeout="3600" />   
-  </system.web>
+    <system.web>
+        <httpRuntime maxRequestLength="102400" executionTimeout="3600" />   
+    </system.web>
 </configuration>
 ````
 
@@ -384,11 +376,11 @@ The following example demonstrates the settings for IIS7:
 
 ````XML
 <system.webServer>
-  <security>
-    <requestFiltering>
-      <requestLimits maxAllowedContentLength="1024000000" />
-    </requestFiltering>
-  </security>
+    <security>
+        <requestFiltering>
+        <requestLimits maxAllowedContentLength="1024000000" />
+        </requestFiltering>
+    </security>
 </system.webServer>
 ````
 

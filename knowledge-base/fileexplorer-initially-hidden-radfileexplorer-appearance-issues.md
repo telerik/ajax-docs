@@ -14,13 +14,12 @@ When RadFileExplorer is used in LightWeight render mode, it cannot recalculate a
 ## Solution
 
 You can:
- - either switch to Classic render mode of the control,
- 
- - or invoke a full postback to add it to the page (do not use AJAX),
- 
- - or recalculate the size of the  nested controls of RadFileExplorer in a similar way:
 
-  ````ASPX
+- either switch to Classic render mode of the control,
+- or invoke a full postback to add it to the page (do not use AJAX),
+- or recalculate the size of the  nested controls of RadFileExplorer in a similar way:
+
+````ASP.NET
 <telerik:RadTabStrip runat="server" ID="rts1" MultiPageID="rmp1" Skin="Bootstrap" RenderMode="Lightweight" OnClientTabSelected="OnClientTabSelected">
     <Tabs>
         <telerik:RadTab Text="one"></telerik:RadTab>
@@ -67,4 +66,3 @@ function OnClientTabSelected(sender, args) {
 }
 ````
 
- 
