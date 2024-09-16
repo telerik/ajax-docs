@@ -13,6 +13,7 @@ search-engine-id: 001595215763381649090:hu79u-xean0
 avatar-path: ./images/avatar-ninja.svg
 no-results-image-path: ./images/ninja-no-results.svg
 enable-tabbed-code-blocks: true
+pdf-cover-png-path: ./images/pdf-cover.png
 
 cta-overview: The @Subject is part of @ProductLink, a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial.
 cta-intro: "@ProductLink is a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial."
