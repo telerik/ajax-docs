@@ -36,7 +36,7 @@ Download the tool from one of the following links:
 - **Intel Mac**: https://api.getfiddler.com/reporter/mac/latest-mac
 - **ARM Mac**: https://api.getfiddler.com/reporter/mac-arm64/latest-mac
 
-The Reporter tool has a 3-step usage flow, **Start Capture**, **Stop Capture** and **Save Capture**.
+The Reporter tool has a 3-step usage flow: **Start Capture**, **Stop Capture** and **Save Capture**.
 
 To reset the flow at any point, use the [Start Over](#start-over) button which will delete all captured requests and enable a new capture process.
 
@@ -84,7 +84,7 @@ There are 4 ways for capturing traffic that can be triggered from the button or 
 
 The Capture Browser option allows capturing of traffic from a `sandboxed` browser instance. As a result, Fiddler Everywhere Reporter starts a pre-configured independent browser instance to respect the Fiddler proxy and to trust its Root Certificate Authority (CA). The `HTTPS` traffic generated will appear in Fiddler Everywhere Reporter. Currently, the tool supports independent browser capturing only for **Chrome** and **Edge** browsers. If both exist on the machine, Chrome will be opened by default. Currently, there is no way to configure the launching of Edge if both exist on the machine. If the user does not have neither Chrome nor Edge installed, the tool will display an error message that the browser option can't be started.
 
->important users on Mac need to manually quit the browser instance from the dock even after the Fiddler Everywhere reporter tool is closed.
+>important Users on Mac need to manually quit the browser instance from the dock even after the Fiddler Everywhere reporter tool is closed.
 
 This option is available (enabled) if:
 - There aren't active capturing processes.
@@ -153,7 +153,7 @@ Details toggle button shows a grid with currently captured requests. In the grid
 
 ## Notes
 
-- In the Tools menu find additional options to manually Trust Root Certificate, Export Root Certificate and Remove Root Certificate
+- In the Tools menu find additional options to manually Trust Root Certificate, Export Root Certificate and Remove Root Certificate.
 - When there is no capturing happening, the UI will display a "Not Capturing" indication.
 - While capturing is taking place, the label will change to "Capturing."
 - To see the list with all captured requests, the end-user can switch on the "Details" toggle.
