@@ -28,14 +28,6 @@ The captured logs can be analyzed to learn about error messages, malformed reque
 
 The Fiddler Everywhere Reporter is a free, portable tool requiring NO login or licenses and no installation. 
 
-### Download
-
-Download the tool from one of the following links:
-
-- **Windows**: https://api.getfiddler.com/reporter/win/latest
-- **Intel Mac**: https://api.getfiddler.com/reporter/mac/latest-mac
-- **ARM Mac**: https://api.getfiddler.com/reporter/mac-arm64/latest-mac
-
 The Reporter tool has a 3-step usage flow: **Start Capture**, **Stop Capture** and **Save Capture**.
 
 To reset the flow at any point, use the [Start Over](#start-over) button which will delete all captured requests and enable a new capture process.
@@ -44,21 +36,19 @@ To reset the flow at any point, use the [Start Over](#start-over) button which w
 
 You can follow the short instructions in this section below, or visit the [Start Capture](#start-capture), [Stop Capture](#stop-capture) and [Save Capture](#save-capture) dedicated sections for more details.
 
-**1.** Download the Tool from the [Download](#download) section and run it. Does not require installation, login or license.
-
-**2.** Start the capture using the default option. This will open a Google Chrome or Microsoft Edge (Chromium) instance.
+**1.** Start the capture using the default option. This will open a Google Chrome or Microsoft Edge (Chromium) instance.
 
 !["Start Capture"](images/common-fiddler-everywhere-reporter-start-capture.png "Start Capture")
 
-**3.** Within this browser instance, navigate to the web page in question and interact with the page to replicate the issue.
+**2.** Within this browser instance, navigate to the web page in question and interact with the page to replicate the issue.
 
 !["Browser Instance"](images/common-fiddler-everywhere-reporter-browser-instance.png "Browser Instance")
 
-**4.** When done, click on Stop Capture.
+**3.** When done, click on Stop Capture.
 
 !["Stop Capture"](images/common-fiddler-everywhere-reporter-stop-capture.png "Stop Capture")
 
-**5.** Finally, click on Save Capture then share this with us. At this point you can password protect the captured logs if you wish and share the password along with the logs.
+**4.** Finally, click on Save Capture then share this with us. At this point you can password protect the captured logs if you wish and share the password along with the logs.
 
 !["Save Capture"](images/common-fiddler-everywhere-reporter-save-capture.png "Save Capture")
 
