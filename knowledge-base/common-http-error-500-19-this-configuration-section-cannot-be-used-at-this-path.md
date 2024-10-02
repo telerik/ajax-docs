@@ -1,5 +1,5 @@
 ---
-title: HTTP Error 500.19 Config error&#58; This configuration section cannot be used at this path
+title: "HTTP Error 500.19 Config error: This configuration section cannot be used at this path"
 description: Config Error This configuration section cannot be used at this path. Check out how to fix it.
 type: troubleshooting
 page_title: HTTP Error 500.19 Config error This configuration section cannot be used at this path

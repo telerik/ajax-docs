@@ -7,18 +7,18 @@ slug: editor-fixing-underline-text-error-http-403
 tags: radeditor, error, underline, content
 res_type: kb
 ---
-# Description
+## Description
 When using RadEditor to enter notes, an error occurs when underlining content. The error log indicates a server-side error with HTTP status 403 Forbidden. 
 
-# Steps to Reproduce
+## Steps to Reproduce
 1. Use RadEditor to enter text.
 2. Apply the underline format to the text.
 3. Save or submit the content.
 
-# Cause
+## Cause
 The error is caused by aggressive AWS firewall rules, specifically the CrossSiteScripting_BODY rule, which blocks the request made by RadEditor when underlining content.
 
-# Solution
+## Solution
 To resolve this error and restore full functionality to RadEditor, follow the steps outlined below:
 
 1. Identify the Firewall Settings: Understand the firewall settings in your environment. In cases reported, AWS firewall rules were found to be the cause.

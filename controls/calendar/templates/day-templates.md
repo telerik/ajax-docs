@@ -36,7 +36,7 @@ The following steps describe how to implement Day Templates:
                     </telerik:DayTemplate>
                </CalendarDayTemplates>
         </telerik:RadCalendar>
-````
+        ````
 
 
 
@@ -73,7 +73,7 @@ The following steps describe how to implement Day Templates:
                      </telerik:DayTemplate>
                 </CalendarDayTemplates>
         </telerik:RadCalendar>
-````
+        ````
     
     
     
@@ -118,7 +118,7 @@ The following steps describe how to implement Day Templates:
                     </telerik:DayTemplate>
                </CalendarDayTemplates>
         </telerik:RadCalendar>
-````
+        ````
 
     2. You can also add special days dynamically at runtime:
 

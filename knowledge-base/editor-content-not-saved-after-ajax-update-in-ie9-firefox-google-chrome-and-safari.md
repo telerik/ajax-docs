@@ -9,7 +9,7 @@ res_type: kb
 
 ## Description
 
-In scenarios in which RadEditor and an **<asp:ImageButton** or an **<asp:Button** are placed inside a **<telerik:RadAjaxPanel** or an **<asp:UpdatePanel** and the editor's content is updated by pressing the <asp:ImageButton or an <asp:Button the editor's content is not populated:
+In scenarios in which RadEditor and an **<asp:ImageButton** or an **<asp:Button** are placed inside a **<telerik:RadAjaxPanel** or an **<asp:UpdatePanel** and the editor's content is updated by pressing the **<asp:ImageButton** or an **<asp:Button** the editor's content is not populated:
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager2" runat="server" /> 
@@ -46,17 +46,17 @@ protected void btnSave_Click(object sender, EventArgs e)
 Telerik UI for ASP.NET AJAX, such as RadEditor and RadAjax are built on top of MS AJAX and rely on its mechanism to be informed about partial page updates.
 Unfortunately in the case of ImageButtons and server buttons, by the time the MS AJAX framework "informs" the editor that a partial update is about to occur, the POST data has already been collected and recorded. The editor does not get a chance to set the updated content properly. The problem exists in Firefox, Chrome, Safari and Internet Explorer 9+.
 
-### Solution for <asp:Button> controls:
+### Solution for &lt;asp:Button&gt; controls:
 In order to fix the problem you will have to set the "submit" button's property **UseSubmitBehavior="false"**, e.g.
 
 ````ASP.NET
 <asp:Button UseSubmitBehavior="false" ID="Button1" runat="server" OnClick="btnSave_Click" Text="Save" />
 ````
 
-OR use <telerik:RadAjaxPanel> instead of <asp:UpdatePanel>. RadAjaxPanel will add the **UseSubmitBehavior="false"** behavior automatically to all push buttons.
+OR use `<telerik:RadAjaxPanel>` instead of `<asp:UpdatePanel>`. RadAjaxPanel will add the **UseSubmitBehavior="false"** behavior automatically to all push buttons.
 
 
-### Solution for <asp:ImageButton> controls:
+### Solution for &lt;asp:ImageButton&gt; controls:
 Since the <asp:ImageButton does not offer such an UseSubmitBehavior property, we develop a workaround that tricks the MS AJAX framework, here it is:
 
 ````ASP.NET

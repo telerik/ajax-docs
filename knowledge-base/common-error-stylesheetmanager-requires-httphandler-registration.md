@@ -1,8 +1,8 @@
 ---
-title: Error&#58; '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config.
-description: Error&#58; '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config.
+title: "Error: '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config."
+description: "Error: '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config."
 type: troubleshooting
-page_title: Error&#58; '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config.
+page_title: "Error: '~/Telerik.Web.UI.WebResource.axd' is missing in web.config. RadStyleSheetManager requires a HttpHandler registration in web.config."
 slug: common-error-stylesheetmanager-requires-httphandler-registration
 position: 
 tags: 

@@ -95,7 +95,7 @@ Inside the LI element for an item in the toolbar is the A element for the button
 </a>
 ````
 
-The A element has the **.rtbWrap** class applied. If you assign a value to the CssClass or style properties of a button, these are applied at this level as well. Inside the <A> element are three nested SPAN elements, which the skin can use to achieve intricate effects on the shape of buttons. These have the **.rtbOut**, **.rtbMid**, and **.rtbIn** classes applied, as shown above.
+The A element has the **.rtbWrap** class applied. If you assign a value to the CssClass or style properties of a button, these are applied at this level as well. Inside the A element are three nested SPAN elements, which the skin can use to achieve intricate effects on the shape of buttons. These have the **.rtbOut**, **.rtbMid**, and **.rtbIn** classes applied, as shown above.
 
 ## RadToolBarButton
 

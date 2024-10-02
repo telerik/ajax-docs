@@ -22,7 +22,7 @@ Users can interact with the **RadInput** controls using the mouse wheel. The fol
 | RadInput Control | Result of using the Mouse Wheel |
 | ------ | ------ |
 | **RadTextBox** |If **TextMode** is **MultiLine** and the **Text** is longer than can be displayed by the number of rows that the **Rows** property dictates, scrolling the mouse wheel causes the text in the control to scroll.|
-|
+
 # See Also
 
  * [Keyboard Support]({%slug radtextbox/accessibility-and-internationalization/keyboard-support%})

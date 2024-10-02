@@ -288,8 +288,8 @@ Two simple sites are attached to the thread (one in C# and one in VB) that show 
 
 A static class is used for the actual creation of the PNG/PDF file and for sending it to the client (HtmlChartExporter). Comments in the code itself provide more detailed explanations over each action.
 
-[Download C# project](files/htmlchart-exporting-to-png-and-pdfC#.zip) <br />
-[Download VB project](files/htmlchart-exporting-to-png-and-pdfVB.zip.zip)
+[Download C# project](files/htmlchart-exporting-to-png-and-pdfC%23.zip) <br />
+[Download VB project](files/htmlchart-exporting-to-png-and-pdfVB.zip)
 
  
   

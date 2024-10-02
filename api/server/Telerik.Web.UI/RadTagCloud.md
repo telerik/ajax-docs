@@ -308,37 +308,38 @@ Gets the settings for the web service used to populate items
 
 #### Remarks
 Use the WebServiceSettings property to configure the web
-                        service used to populate items on demand.
-                        You must specify both Path and
-                     Method
-                        to fully describe the service.
-                 
-                        In order to use the integrated support, the web service should have the following signature:
-            
-                        
-                        [ScriptService]
-                        public class WebServiceName : WebService
-                        {
-                            [WebMethod]
-                            public TagCloudDataItem[] WebServiceMethodName(int itemIndex, int itemCount)
-                            {
-                                List<TagCloudDataItem> result = new List<TagCloudDataItem>();
-                                TagCloudDataItem item;
-                                for (int i = 0; i < itemCount; i++)
-                                {
-                                    item = new RadTagCloudItemData();
-                                    item.accessKey = "";
-                                    item.navigateUrl = "";
-                                    item.tabIndex = "";
-                                    item.text = "";
-                                    item.toolTip = "";
-                                    item.value = "";
-                                    item.weight = 0;
-                                    result.Add(item);
-                                }
-                                return result.ToArray();
-                            }
-                        }
+service used to populate items on demand.
+You must specify both Path and
+Method
+to fully describe the service.
+
+In order to use the integrated support, the web service should have the following signature:
+
+````C#
+[ScriptService]
+public class WebServiceName : WebService
+{
+	[WebMethod]
+	public TagCloudDataItem[] WebServiceMethodName(int itemIndex, int itemCount)
+	{
+		List<TagCloudDataItem> result = new List<TagCloudDataItem>();
+		TagCloudDataItem item; 
+		for (int i = 0; i < itemCount; i++)
+		{
+			item = new RadTagCloudItemData();
+			item.accessKey = "";
+			item.navigateUrl = "";
+			item.tabIndex = "";
+			item.text = "";
+			item.toolTip = "";
+			item.value = "";
+			item.weight = 0;
+			result.Add(item);
+		}
+		return result.ToArray();
+	}
+}
+````
 
 ###  WordsToExclude `String[]`
 
@@ -743,7 +744,7 @@ The 0-based index position of the current character.
 
 ###  SkipScriptTag
 
-Skips script tags and returns the 0-based index position of the closing <script> tag.
+Skips script tags and returns the 0-based index position of the closing `<script>` tag.
 
 #### Parameters
 
@@ -761,7 +762,7 @@ The 0-based index position of the current character of the text.
 
 #### isScript `System.Boolean`
 
-Bool value indicating whether the current character is within a <script> element.
+Bool value indicating whether the current character is within a `<script>` element.
 
 #### textLength `System.Int32`
 
@@ -769,14 +770,14 @@ The length of the text.
 
 #### Returns
 
-`System.Int32` The 0-based index position of the closing <script> tag.
+`System.Int32` The 0-based index position of the closing `<script>` tag. 
             The current position is returned if the character is outside a script element.
 
 ###  StripHtml
 
 Strips the HTML from a given text (containing an XHTML markup) and returns the inner text of the HTML elements.
-            The text should be a vaild HTML. The method does not strip the CSS between opening and closing <style> tags,
-            because it assumes that all the CSS occurs in the <head> tag, which is not searched for text by the TagCloud.
+            The text should be a vaild HTML. The method does not strip the CSS between opening and closing `<style>` tags,
+            because it assumes that all the CSS occurs in the `<head>` tag, which is not searched for text by the TagCloud.
 
 #### Parameters
 
@@ -788,10 +789,10 @@ The text containing the HTML to strip.
 
 The bool value that indicates whether the string passed is full Html document.
             When passing InnerHtml of an element set this value to false.
-            The text within the <body> element is taken into consideration when this parameter is true.
+            The text within the `<body>` element is taken into consideration when this parameter is true.
 
 #### Returns
 
-`System.String` String containing the "clean" text.
-            An empty string is returned if the text does not contain a <body> element.
+`System.String` String containing the "clean" text. 
+            An empty string is returned if the text does not contain a `<body>` element.
 

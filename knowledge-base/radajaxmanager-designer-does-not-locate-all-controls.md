@@ -34,50 +34,49 @@ To fix this issue and depending on your scenario, use any of the following appro
 
 	The following example demonstrates how to set the `ID` for table cells of an `asp:Table` and set `runat='server'`.
 
-		````ASP.NET
-		<asp:Table ID="Table1" runat="server">
-			        <asp:TableRow runat="server" ID="rol_1">
-			            <asp:TableCell runat="server" ID="cell_11">
-			                <asp:Panel ID="Panel1" runat="server">
-			                    <asp:Button ID="Button1" runat="server" Text="Button" />
-			                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-			                </asp:Panel>
-			            </asp:TableCell>
-			            <asp:TableCell runat="server" ID="cell_12"></asp:TableCell>
-			            <asp:TableCell runat="server" ID="cell_13"></asp:TableCell>
-			        </asp:TableRow>
-			        <asp:TableRow runat="server" ID="row_2">
-			            <asp:TableCell runat="server" ID="cell_21">
-			                <div runat="server" id="div1">
-			                    <asp:CheckBox ID="CheckBox1" runat="server" />
-			                </div>
-			            </asp:TableCell>
-			            <asp:TableCell runat="server" ID="cell_22"></asp:TableCell>
-			            <asp:TableCell runat="server" ID="cell_23"></asp:TableCell>
-			        </asp:TableRow>
-		</asp:Table>
-		````
-
-		After you have set the `ID` of the table cells and the `runat="server"` configuration, the designer can locate the button, check-box, and text box, and you can AJAXify the controls in the `asp:Table` cells as demonstrated by the following example.
-
-		````ASP.NET
-		<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-		</telerik:RadScriptManager>
-		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-			        <AjaxSettings>
-			            <telerik:AjaxSetting AjaxControlID="Button1">
-			                <UpdatedControls>
-			                    <telerik:AjaxUpdatedControl ControlID="TextBox1" />
-			                </UpdatedControls>
-			            </telerik:AjaxSetting>
-			            <telerik:AjaxSetting AjaxControlID="CheckBox1">
-			                <UpdatedControls>
-			                    <telerik:AjaxUpdatedControl ControlID="TextBox1" />
-			                </UpdatedControls>
-			            </telerik:AjaxSetting>
-			        </AjaxSettings>
-		</telerik:RadAjaxManager>
-		````
+	````ASP.NET
+	<asp:Table ID="Table1" runat="server">
+		        <asp:TableRow runat="server" ID="rol_1">
+		            <asp:TableCell runat="server" ID="cell_11">
+		                <asp:Panel ID="Panel1" runat="server">
+		                    <asp:Button ID="Button1" runat="server" Text="Button" />
+		                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+		                </asp:Panel>
+		            </asp:TableCell>
+		            <asp:TableCell runat="server" ID="cell_12"></asp:TableCell>
+		            <asp:TableCell runat="server" ID="cell_13"></asp:TableCell>
+		        </asp:TableRow>
+		        <asp:TableRow runat="server" ID="row_2">
+		            <asp:TableCell runat="server" ID="cell_21">
+		                <div runat="server" id="div1">
+		                    <asp:CheckBox ID="CheckBox1" runat="server" />
+		                </div>
+		            </asp:TableCell>
+		            <asp:TableCell runat="server" ID="cell_22"></asp:TableCell>
+		            <asp:TableCell runat="server" ID="cell_23"></asp:TableCell>
+		        </asp:TableRow>
+	</asp:Table>
+	````
+	After you have set the `ID` of the table cells and the `runat="server"` configuration, the designer can locate the button, check-box, and text box, and you can AJAXify the controls in the `asp:Table` cells as demonstrated bythe following example.
+	
+	````ASP.NET
+	<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+	</telerik:RadScriptManager>
+	<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+		        <AjaxSettings>
+		            <telerik:AjaxSetting AjaxControlID="Button1">
+		                <UpdatedControls>
+		                    <telerik:AjaxUpdatedControl ControlID="TextBox1" />
+		                </UpdatedControls>
+		            </telerik:AjaxSetting>
+		            <telerik:AjaxSetting AjaxControlID="CheckBox1">
+		                <UpdatedControls>
+		                    <telerik:AjaxUpdatedControl ControlID="TextBox1" />
+		                </UpdatedControls>
+		            </telerik:AjaxSetting>
+		        </AjaxSettings>
+	</telerik:RadAjaxManager>
+	````
 
 
 

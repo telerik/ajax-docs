@@ -1,8 +1,8 @@
 ---
-title: Error&#x3a; Could not load file or assembly Telerik.Web.UI or one of its dependencies
-description: Error&#x3a; Could not load file or assembly Telerik.Web.UI or one of its dependencies in RadEditor dialog. Check it now!
+title: "Error: Could not load file or assembly Telerik.Web.UI or one of its dependencies"
+description: "Error: Could not load file or assembly Telerik.Web.UI or one of its dependencies in RadEditor dialog. Check it now!"
 type: how-to
-page_title: Error&#x3a; Could not load file or assembly Telerik.Web.UI or one of its dependencies
+page_title: "Error: Could not load file or assembly Telerik.Web.UI or one of its dependencies"
 slug: editor-error-could-not-load-file-or-assembly-telerik-web-ui
 res_type: kb
 ---

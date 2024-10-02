@@ -159,4 +159,4 @@ Here is one example that shows how you can use these flags. The script is after 
 
 * [Telerik.Web.Platform]({%slug Telerik.Web.Platform%})
 
-* [Telerik.Web.Browser]({%slug Telerik.Web.Browser%}.html)
+* [Telerik.Web.Browser]({%slug Telerik.Web.Browser%})

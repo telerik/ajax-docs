@@ -7,16 +7,16 @@ slug: editor-deleting-all-comments
 tags: radeditor, comments, tracked changes, delete comments, accept changes, asp.net ajax, webforms
 res_type: kb
 ---
-# Environment
+## Environment
 | Property | Value |
 |----------|-------|
 | Product  | RadEditor for ASP.NET AJAX |
 | Version  | all |
 
-# Description
+## Description
 To delete all comments and accept all changes programmatically in RadEditor for ASP.NET AJAX, you can use either of the following approaches:
 
-# Solution
+## Solution
 
 ## Approach 1: Using Regular Expressions
 This approach involves manually parsing and manipulating the HTML content using regular expressions. Here's how you can adapt your existing `CleanContent` function:
@@ -102,13 +102,13 @@ End Sub
 
 These approaches will allow you to programmatically delete all comments and accept all changes in RadEditor for ASP.NET AJAX.
 
-# Notes
+## Notes
 - Make sure to replace `RadEditor1` with the actual ID of your RadEditor instance.
 - Approach 1 provides more control over the process and can be used if your version of RadEditor doesn't support the needed functionality through its API.
 - Approach 2 is more straightforward and stable as it relies on the RadEditor's built-in functionality.
 - Test the code thoroughly to ensure it meets your requirements.
 
-# See Also
+## See Also
 - [RadEditor for ASP.NET AJAX Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview)
 - [RadEditor AcceptTrackChanges Method Documentation](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadEditor#methods-AcceptTrackChanges)
 - [RadEditor GetHtml Method Documentation](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadEditor#methods-GetHtml)

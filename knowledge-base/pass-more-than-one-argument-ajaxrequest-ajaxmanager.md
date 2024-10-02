@@ -35,29 +35,26 @@ To achieve the desired scenario and pass two or more arguments in the functions:
 
 1. Join the arguments on the client.
 
-		````JavaScript
-		var arg3 = arg1 + "," + arg2;
-		ajaxManager.ajaxRequest(arg3);
-		````
-
+	````JavaScript
+	var arg3 = arg1 + "," + arg2;
+	ajaxManager.ajaxRequest(arg3);
+	````
 
 1. Split the arguments on the server in the `AjaxManager_AjaxRequest`.
 
-		````C#
-		private void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
-		{
-			string argument = (e.Argument);
-			String[] stringArray = argument.Split(",".ToCharArray());
-		}			
-		````
-		````VB.NET
-		Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
-			Dim argument As String = e.Argument
-			Dim stringArray As [String]() = argument.Split(",".ToCharArray())
-		End Sub
-			
-			
-		````
+	````C#
+	private void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+	{
+		string argument = (e.Argument);
+		String[] stringArray = argument.Split(",".ToCharArray());
+	}			
+	````
+	````VB.NET
+	Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
+		Dim argument As String = e.Argument
+		Dim stringArray As [String]() = argument.Split(",".ToCharArray())
+	End Sub
+	````
 
 
 ## See Also

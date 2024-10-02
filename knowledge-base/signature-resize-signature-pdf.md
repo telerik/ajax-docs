@@ -7,15 +7,15 @@ slug: signature-resize-signature-pdf
 tags: pdf, signature, resize, RadSignature, ASP.NET AJAX
 res_type: kb
 ---
-# Environment
+## Environment
 | Product   | RadSignature for ASP.NET AJAX |
 |-----------|------------------------------|
 | Version   | all                 |
 
-# Description
+## Description
 I want to resize a signature in a PDF document using RadSignature for ASP.NET AJAX. I have code that places the signature in the PDF, but I'm not able to resize it to a smaller size to fit it in the form.
 
-# Solution
+## Solution
 The solution is based on the [Signing Pdf Documents demo](https://demos.telerik.com/aspnet-ajax/signature/applicationscenarios/signingpdfdocuments/defaultcs.aspx). To resize the signature in the PDF document, you can modify the code as follows:
 
 Before translating the position of the `foregroundContentOwner`, apply a scaling transformation to resize it. Choose the scaling factors (width and height) based on your requirements.
@@ -144,12 +144,12 @@ namespace Telerik.Web.Examples.Signature.SigningPdfDocuments
 }
 ````
 
-# Notes
+## Notes
 - Ensure that you have the latest version of RadSignature for ASP.NET AJAX.
 - Adjust the scaling factors (`scaleX` and `scaleY`) according to your requirements to resize the signature.
 - Modify the translation values (`xCenteringTranslation` and `yCenteringTranslation`) to adjust the position of the signature after scaling.
 - This solution is based on the Signing PDF Documents demo and may require additional modifications to fit your implementation.
 
-# See Also
+## See Also
 - [RadSignature for ASP.NET AJAX Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/signature/overview)
 - [Signing PDF Documents Demo](https://demos.telerik.com/aspnet-ajax/signature/examples/signingpdfdocuments/defaultcs.aspx)

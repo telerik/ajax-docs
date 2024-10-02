@@ -7,16 +7,16 @@ slug: security-resolving-jquery-vulnerabilities
 tags: jquery, vulnerabilities, Telerik Web UI, ASP.NET AJAX
 res_type: kb
 ---
-# Environment
+## Environment
 | Property | Value |
 | --- | --- |
 | Product | Telerik Web UI for ASP.NET AJAX |
 | Version | all |
 
-# Description
+## Description
 I would like to address the reported vulnerabilities in jQuery within Telerik Web UI for ASP.NET AJAX. Our client (scanner tool) detected a jQuery script with a vulnerable version (1.12.4) that is not present in our JS library. Our application is currently using the latest version of Telerik Web UI, and an updated jQuery version v3.7. We need guidance on how to resolve this issue as soon as possible.
 
-# Solution
+## Solution
 As per the [Telerik documentation](https://docs.telerik.com/devtools/aspnet-ajax/integration/jquery/using-jquery#embedded-jquery-security), Telerik Web UI versions after R1 2019 include a custom version of jQuery (1.12.4) with backport fixes for known vulnerabilities in jQuery 1.12.4. This custom version was necessary due to limitations in the Microsoft AJAX framework used in ASP.NET WebForms.
 
 ## CVE reports:

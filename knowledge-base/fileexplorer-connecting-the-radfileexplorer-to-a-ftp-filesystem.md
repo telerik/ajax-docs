@@ -66,8 +66,8 @@ This is an example configuration file:
    
 ## See Also 
  
-- [Use RadFileExplorer with physical paths and different content types](/support/kb/aspnet-ajax/fileexplorer/physical-paths-and-different-content-types.aspx)
-- [Amazon S3 FileBrowserContentProvider](/community/code-library/aspnet-ajax/file-explorer/amazon-s3-filebrowsercontentprovider.aspx)
+- [Use RadFileExplorer with physical paths and different content types](https://www.telerik.com/support/kb/aspnet-ajax/fileexplorer/physical-paths-and-different-content-types.aspx)
+- [Amazon S3 FileBrowserContentProvider](https://www.telerik.com/community/code-library/aspnet-ajax/file-explorer/amazon-s3-filebrowsercontentprovider.aspx)
 
 ## Downloads
 

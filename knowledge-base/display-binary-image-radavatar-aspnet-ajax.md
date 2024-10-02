@@ -8,15 +8,15 @@ tags: binary-image, RadAvatar, ASP.NET AJAX
 res_type: kb
 ---
 
-# Environment
+## Environment
 | Property | Value |
 |----------|-------|
 | Product | RadBinaryImage for ASP.NET AJAX |
 
-# Description
+## Description
 I want to display a binary image from a SQL datasource in the RadAvatar control for ASP.NET AJAX instead of providing a URL for the image.
 
-# Solution
+## Solution
 To display a binary image from a SQL datasource in the RadAvatar control, you need to serve the binary image data through a handler or a similar endpoint that can convert the binary data into a stream that the browser can interpret as an image. Here are the steps to achieve this:
 
 1. Implement a generic handler (ImageHandler.ashx) in your project:

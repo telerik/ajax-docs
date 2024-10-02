@@ -2,9 +2,8 @@
 title: Single Expand in hierarchical grid
 page_title: Single expand in hierarchical grid - RadGrid
 description: Check our Web Forms article about Single expand in hierarchical grid.
-slug: grid/how-to/hierarchy/single-expand-in-hierarchical-grid
+slug: grid/how-to/hierarchy/single-expand-in-hierarchical-grid, grid/hierarchical-grid-types-and-load-modes/how-to/
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/single-expand-in-hierarchical-grid
-slug: grid/hierarchical-grid-types-and-load-modes/how-to/
 tags: single,expand,in,hierarchical,grid
 published: True
 position: 2

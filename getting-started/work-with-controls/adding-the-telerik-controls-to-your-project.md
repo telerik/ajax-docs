@@ -3,9 +3,8 @@ title: Adding the Controls to Your Project
 page_title: Adding the Controls to Your Project
 description: "Add Telerik UI for ASP.NET AJAX controls to an existing Web Forms project."
 slug: getting-started/adding-the-telerik-controls-to-your-project
-previous_url: getting-started/adding-the-telerik-controls-to-your-project
+previous_url: getting-started/adding-the-telerik-controls-to-your-project, general-information/adding-the-telerik-controls-to-your-project
 tags: adding, the, telerik, controls, to, your, web, forms, project
-previous_url: general-information/adding-the-telerik-controls-to-your-project
 published: True
 position: 1
 ---
@@ -38,7 +37,7 @@ Before adding a control to your project, verify that the server, development mac
 
 		<asp:ScriptManager ID="ScriptManager1" runat="server" />				
 
-		If the page is a content page or a user control, you can add the ScriptManager to the master or main page. For more information, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft dedicated article</a>.
+	If the page is a content page or a user control, you can add the ScriptManager to the master or main page. For more information, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager?view=netframework-4.8" target="_blank">Microsoft dedicated article</a>.
 
     Alternatively, you can use the [ScriptManager]({% slug scriptmanager/overview %}), which extends the standard ScriptManager control and adds more features.
 

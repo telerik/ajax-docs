@@ -3,7 +3,7 @@ title: Using AjaxManager and AjaxPanel Causes Reversed Execution Order for the c
 page_title: Using AjaxManager and AjaxPanel Causes Reversed Execution Order for the create Control Function
 description: "Learn what to do when using the Telerik UI for ASP.NET AjaxManager and AjaxPanel leads to a reversed execution order of the create control function."
 slug: ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
-previous_url: ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls, controls/ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls, controls/ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
+previous_url: ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls, controls/ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
 tags: telerik, asp, net, ajax, manager, panel, causes, reversed, execution, order, of, create, control, function
 published: True
 type: troubleshooting

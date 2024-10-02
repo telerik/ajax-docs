@@ -35,6 +35,6 @@ The alternative approach for Batch editing is different since this mode is diffe
 
 Therefore, with Batch editing you can use the following event handler to achieve this requirement by accessing the generated controls on client-side using jQuery:
 
-[OnBatchEditOpened]({%slug grid/client-side-programming/events/onbatcheditopened%}})  
+[OnBatchEditOpened]({%slug grid/client-side-programming/events/onbatcheditopened%})  
 
 

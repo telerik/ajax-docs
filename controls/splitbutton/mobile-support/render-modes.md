@@ -23,25 +23,25 @@ There are two ways to configure the rendering mode of the controls:
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
  
   ````ASPX
- <telerik:RadSplitButton ID="RadSplitButton1" runat="server" RenderMode="Lightweight">
- </telerik:RadSplitButton>
- ````
+  <telerik:RadSplitButton ID="RadSplitButton1" runat="server" RenderMode="Lightweight">
+  </telerik:RadSplitButton>
+  ````
  
   ````C#
- RadSplitButton.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
- ````
-````VB
- RadSplitButton.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
- ````
+  RadSplitButton.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+  ````
+  ````VB
+  RadSplitButton.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+  ````
 
  	
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
 
- ````web.config
-<appSettings>
-    <add key="Telerik.Web.UI.SplitButton.RenderMode" value="Lightweight" />
-</appSettings>
-````
+  ````web.config
+  <appSettings>
+      <add key="Telerik.Web.UI.SplitButton.RenderMode" value="Lightweight" />
+  </appSettings>
+  ````
 
 
 ## See Also

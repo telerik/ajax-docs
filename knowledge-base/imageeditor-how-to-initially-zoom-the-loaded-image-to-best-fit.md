@@ -27,7 +27,7 @@ In order to zoom to best fit the loaded image, you can attach a handler to the I
 
 ## See Also
 
- - [RadImageEditor's OnClientImageLoad Event]({%slug imageeditor/client-side-programming/events/onclientimageload%}})
+ - [RadImageEditor's OnClientImageLoad Event]({%slug imageeditor/client-side-programming/events/onclientimageload%})
 
  - [RadImageEditor's Client-side Programming Overview]({%slug imageeditor/client-side-programming/overview%})
 

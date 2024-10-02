@@ -7,13 +7,13 @@ slug: pdfviewer-loading-blurry-pdf
 tags: radpdfviewer, ajax, blurry, load, initial, ASP.NET
 res_type: kb
 ---
-# Description
+## Description
 When initially loading a PDF into the RadPdfViewer for ASP.NET AJAX, parts of the PDF appear blurred and the line thickness is incorrect. 
 
-# Cause
+## Cause
 The initial loading issue with the blurred PDF may be caused by a combination of factors, including the version of the RadPdfViewer control and pdf.js library as well as to the scaling settings applied to the PDF.
 
-# Solution
+## Solution
 To resolve the issue of the blurry initial load of the PDF in RadPdfViewer for ASP.NET AJAX, follow these steps:
 
 1. Upgrade to the latest version of RadPdfViewer

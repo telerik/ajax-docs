@@ -4,9 +4,8 @@ page_title: FIPS Compatibility
 description: Check our Web Forms article about FIPS Compatibility.
 slug: controls/fips-compatibility
 tags: fips, compatibility
-previous_url: general-information/fips-compatibility
+previous_url: general-information/fips-compatibility, controls/fips-compatibility
 published: True
-previous_url: controls/fips-compatibility
 position: 10
 ---
 

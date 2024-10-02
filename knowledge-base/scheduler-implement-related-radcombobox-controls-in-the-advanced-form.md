@@ -21,7 +21,7 @@ res_type: kb
    
 ## SOLUTION  
    
- 1. Download a demo project from [here](/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) and use the **SqlDataSource **sample.   
+ 1. Download a demo project from [here](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) and use the **SqlDataSource **sample.   
    
  2. Create two new fields of type string for the DbProvider\_Classes - **Continent** and **Country**. The **TelerikVSX.mdf** file is in the App\_Data folder of the sample.  
    

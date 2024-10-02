@@ -7,7 +7,7 @@ slug: calendar-making-non-special-days-unselectable
 tags: radcalendar, asp.net ajax, unselectable days, special days
 res_type: kb
 ---
-# Environment
+## Environment
 | Product | Version |
 |---------|---------|
 | RadCalendar for ASP.NET AJAX | all |

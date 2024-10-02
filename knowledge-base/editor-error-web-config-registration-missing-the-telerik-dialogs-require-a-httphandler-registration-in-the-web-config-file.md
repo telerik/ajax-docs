@@ -1,8 +1,8 @@
 ---
-title: Error&#x3a; Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
-description: Error&#x3a; Web.config registration missing! The Telerik RadEditor dialogs require a HttpHandler registration in the web.config file. Check it now!
+title: "Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file."
+description: "Error: Web.config registration missing! The Telerik RadEditor dialogs require a HttpHandler registration in the web.config file. Check it now!"
 type: how-to
-page_title: Error&#x3a; Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file.
+page_title: "Error: Web.config registration missing! The Telerik dialogs require a HttpHandler registration in the web.config file."
 slug: editor-error-web-config-registration-missing-the-telerik-dialogs-require-a-httphandler-registration-in-the-web-config-file
 res_type: kb
 ---
@@ -207,7 +207,7 @@ In this section, you will find solutions for other problems that you may experie
 * [Blank Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/blank-dialogs-problem) and [Long Url Length Problems](https://www.telerik.com/forums/radeditor-dialog-window-errors)
 * [500 server error with Microsoft OWIN and Telerik controls during a callback](https://www.telerik.com/support/kb/aspnet-ajax/window/details/500-server-error-with-microsoft-owin-and-radwindowmanager-during-a-callback)
 
-# See Also
+## See Also
 
 * [Problems with Registering the HttpHandlers in a Web Site that Uses Authentication](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/problems-with-registering-the-httphandlers-in-a-web-site-that-uses-authentication)
 * [Broken File Browser Dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/troubleshooting/broken-file-browser-dialogs)

@@ -127,7 +127,7 @@ The typical HTML output of a **RadCalendar** control is the following (some HTML
 
 * **td.rcTitle** - the table cell, which contains the control's title - the current month and year in the specified **TitleFormat**.
 
-* **td.rcMain** - the table cell, which wraps all elements in the date matrix. It contains another <table> and every cell of this table contains either a day number, or a weekday name, or a week number
+* **td.rcMain** - the table cell, which wraps all elements in the date matrix. It contains another <*table*> and every cell of this table contains either a day number, or a weekday name, or a week number
 
 * **table.rcMainTable** - the table populated with the date matrix, mentioned in the previous list item. It has a <*thead*> child, which contains the column headers (usually the weekday names) and a <*tbody*> child, which contains the row headers (usually the week numbers) and the date cells
 

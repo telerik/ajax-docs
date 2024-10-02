@@ -195,7 +195,7 @@ The HTML rendering and CSS skins of RadGrid for ASP.NET AJAX (code name "Prometh
 - **PagerLeft\_Skin, PagerRight\_Skin, PagerCenter\_Skin** - applied to the different components of the pager
 - **sliderPagerLabel\_Skin** - applied when using RadSlider as a pager
 - **GridGroupFooter\_Vista** - applied to a group footer row
-- RadGrid is now capable of using CSS sprites for all its image buttons and skin images. Please refer to the [RadGrid CSS sprites](ms-its:C:\Users\jekov\Desktop\Telerik_UI_For_ASPNET_AJAX.chm::/html/5EB51F09-6EE7-4EAB-BA7A-F837453CD44E.htm) help topic for further information. If you are migrating a "classic" RadGrid skin to "Prometheus", you are not required to create a CSS sprite, but you need to set the **ImagesPath** property instead, in order to specify the location of all RadGrid skin images and image buttons.
+- RadGrid is now capable of using CSS sprites for all its image buttons and skin images. Please refer to the RadGrid CSS sprites help topic for further information. If you are migrating a "classic" RadGrid skin to "Prometheus", you are not required to create a CSS sprite, but you need to set the **ImagesPath** property instead, in order to specify the location of all RadGrid skin images and image buttons.
 
 **Removed CSS classes from RadGrid for ASP.NET AJAX**
 

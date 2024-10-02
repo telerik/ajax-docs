@@ -11,8 +11,8 @@ position: 0
 # Change Tabs on Mouseover
 
 
-
-## Change tabs on mouseover (www.windows.com-like navigation)
+ 
+## Change tabs on mouseover (windows.com-like navigation)
 
 ````ASPNET
 <form id="form1" runat="server">

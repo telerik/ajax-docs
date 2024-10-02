@@ -96,11 +96,11 @@ catch (ex)
  You may find useful [this KB article]({%slug window-adding-a-custom-button-to-radwindow-titlebar %}) on adding a custom button to the titlebar where you can attach the printing functionality. When working with external pages you would also need to call a function from the external page if you use a toolbar button, as its event is fired in the parent page. How to do this is explained in [this help article]({%slug window/how-to/calling-functions-in-windows %}).  
    
  There is also a set of simple pages attached that shows this functionality in action:
-* [custom-button-radwindow-after-q1-2016](files/custom-button-radwindow-after-q1-2016.zip.zip)
+* [custom-button-radwindow-after-q1-2016](files/custom-button-radwindow-after-q1-2016.zip)
   
-* [custom-button-radwindow-after-q1-2016-xhtml-10-transitional](files/window-custom-button-radwindow-after-q1-2016-xhtml-10-transitional.zip.zip)
+* [custom-button-radwindow-after-q1-2016-xhtml-10-transitional](files/window-custom-button-radwindow-after-q1-2016-xhtml-10-transitional.zip)
   
-* [custom-button-radwindow](files/custom-button-radwindow.zip.zip)
+* [custom-button-radwindow](files/custom-button-radwindow.zip)
 
 
 

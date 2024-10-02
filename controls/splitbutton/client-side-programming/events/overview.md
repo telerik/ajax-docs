@@ -24,7 +24,7 @@ The RadSplitButton exposes several client-side events which allow easy and flexi
 
 * **[OnClientContextMenuItemClicked (contextMenuItemClicked)]({%slug splitbutton/client-side-programming/events/onclientcontextmenuitemclicked%})** - raised when an Item from the drop down is clicked.
 
-The ContextMenu embedded in RadSplitButton is fully functional control with its own events that can also be used along with the ones of the SplitButton - [Client-side events]({%slug menu/context-menus/radcontextmenu-object%}}#client-side-events)
+The ContextMenu embedded in RadSplitButton is fully functional control with its own events that can also be used along with the ones of the SplitButton - [Client-side events]({%slug menu/context-menus/radcontextmenu-object%}#client-side-events)
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
 

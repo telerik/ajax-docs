@@ -1,8 +1,8 @@
 ---
-title: RadGrid ClientDataSource binding and batch editing&#x3a; page is reset to 1 after deleting a record
-description: RadGrid ClientDataSource binding and batch editing&#x3a; page is reset to 1 after deleting a record. Check it now!
+title: "RadGrid ClientDataSource binding and batch editing: page is reset to 1 after deleting a record"
+description: "RadGrid ClientDataSource binding and batch editing: page is reset to 1 after deleting a record. Check it now!"
 type: how-to
-page_title: RadGrid ClientDataSource binding and batch editing&#x3a; page is reset to 1 after deleting a record
+page_title: "RadGrid ClientDataSource binding and batch editing: page is reset to 1 after deleting a record"
 slug: grid-clientdatasource-binding-and-batch-editing-page-is-reset-to-1-after-deleting-a-record
 res_type: kb
 ---

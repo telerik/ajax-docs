@@ -26,7 +26,7 @@ res_type: kb
 
 
 ## Description
-By default, the tools in the Lightweight RenderMode are rendered as <a> tags with no text but with font-icons or images. 
+By default, the tools in the Lightweight RenderMode are rendered as `<a>` tags with no text but with font-icons or images. 
 
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" EnableAriaSupport="true"

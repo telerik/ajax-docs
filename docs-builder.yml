@@ -1,0 +1,1949 @@
+top-navigation-product: asp-net-ajax
+path-prefix: /products/aspnet-ajax/documentation
+default-title-prefix: Telerik Web Forms
+
+primary-color: "#27A306"
+product-id: 561
+product-code: RCAJAX
+product-name: Telerik UI for ASP.NET AJAX
+product-url: https://www.telerik.com/products/aspnet-ajax.aspx
+product-trial-url: https://www.telerik.com/try/ui-for-asp.net-ajax
+contribute-url: https://github.com/telerik/ajax-docs/edit/master
+search-engine-id: 85d0502fb709b472f
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+enable-tabbed-code-blocks: true
+pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+cta-overview: The @Subject is part of @ProductLink, a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial.
+cta-intro: "@ProductLink is a professional grade UI library with 120+ components for building modern and feature-rich applications. To try it out sign up for a free 30-day trial."
+
+meta:
+  "*ziplibrary/features":
+    title: Features
+    position: 4
+  "*wordsprocessing/concepts/fields":
+    title: Fields
+    position: 0
+  "*wordsprocessing/formats-and-conversion/plain-text":
+    title: Plain text
+    position: 5
+  "*wordsprocessing/formats-and-conversion/pdf":
+    title: Pdf
+    position: 4
+  "*wordsprocessing/formats-and-conversion/html":
+    title: Html
+    position: 3
+  "*wordsprocessing/formats-and-conversion/rtf":
+    title: Rtf
+    position: 2
+  "*wordsprocessing/formats-and-conversion/docx":
+    title: Docx
+    position: 1
+  "*wordsprocessing/concepts":
+    title: Concepts
+    position: 7
+  "*wordsprocessing/editing":
+    title: Editing
+    position: 6
+  "*wordsprocessing/formats-and-conversion":
+    title: Formats and Conversion
+    position: 5
+  "*wordsprocessing/model":
+    title: Model
+    position: 4
+  "*wizard/structure":
+    title: Structure
+    position: 3
+  "*window/alert,-confirm,-prompt-dialogs":
+    title: Alert, Confirm, Prompt Dialogs
+    position: 5
+  "*upload/localization":
+    title: Localization
+    position: 10
+  "*upload/validation":
+    title: Validation
+    position: 8
+  "*upload/uploading-files":
+    title: Uploading Files
+    position: 7
+  "*treeview/!not-referenced-topics!":
+    title: "!Not Referenced topics!"
+    position: 22
+  "*treeview/application-scenarios/general":
+    title: General
+    position: 5
+  "*treeview/application-scenarios/client-side-programming":
+    title: Client-side Programming
+    position: 4
+  "*treeview/application-scenarios/server-side-programming":
+    title: Server-side Programming
+    position: 3
+  "*treeview/application-scenarios/checkboxes":
+    title: CheckBoxes
+    position: 2
+  "*treeview/application-scenarios/context-menus":
+    title: Context Menus
+    position: 1
+  "*treeview/application-scenarios/data-binding":
+    title: Data Binding
+    position: 0
+  "*treeview/application-scenarios":
+    title: Application Scenarios
+    position: 20
+  "*treeview/client-side-programming/objects":
+    title: Objects
+    position: 2
+  "*treeview/web-pages":
+    title: Web Pages
+    position: 15
+  "*treeview/drag-and-drop":
+    title: Drag and Drop
+    position: 14
+  "*treeview/context-menus":
+    title: Context Menus
+    position: 13
+  "*treeview/checkboxes/tri-state":
+    title: Tri-State
+    position: 3
+  "*treeview/checkboxes":
+    title: CheckBoxes
+    position: 12
+  "*treeview/custom-attributes":
+    title: Custom Attributes
+    position: 11
+  "*treeview/radtreeview-nodes":
+    title: RadTreeView Nodes
+    position: 10
+  "*treeview/load-on-demand":
+    title: Load On Demand
+    position: 9
+  "*treeview/data-binding":
+    title: Data Binding
+    position: 8
+  "*treeview/templates":
+    title: Templates
+    position: 7
+  "*treemap/data-binding":
+    title: Data Binding
+    position: 4
+  "*treemap/templates":
+    title: Templates
+    position: 3
+  "*treelist/control-lifecycle":
+    title: Control Lifecycle
+    position: 10
+  "*treelist/defining-structure":
+    title: Defining Structure
+    position: 9
+  "*treelist/data-editing/updating-records":
+    title: Updating Records
+    position: 5
+  "*treelist/data-editing/inserting-records":
+    title: Inserting Records
+    position: 4
+  "*treelist/data-editing/column-editors":
+    title: Column Editors
+    position: 1
+  "*treelist/data-editing/edit-mode":
+    title: Edit Mode
+    position: 0
+  "*treelist/data-editing":
+    title: Data Editing
+    position: 8
+  "*treelist/functionality/exporting/excel":
+    title: Excel
+    position: 3
+  "*treelist/functionality/exporting/pdf":
+    title: PDF
+    position: 2
+  "*treelist/functionality/exporting":
+    title: Exporting
+    position: 4
+  "*treelist/functionality/selecting":
+    title: Selecting
+    position: 3
+  "*treelist/functionality/scrolling/how-to":
+    title: How To
+    position: 2
+  "*treelist/functionality/scrolling":
+    title: Scrolling
+    position: 2
+  "*treelist/data-binding":
+    title: Data Binding
+    position: 6
+  "*treelist/items":
+    title: Items
+    position: 5
+  "*treelist/column":
+    title: Column
+    position: 4
+  "*tooltip/client-side-programming/events/tooltipmanager-specific":
+    title: ToolTipManager Specific
+    position: 7
+  "*tooltip/performance":
+    title: Performance
+    position: 6
+  "*tooltip/radtooltipmanager":
+    title: RadToolTipManager
+    position: 5
+  "*tooltip/radtooltip":
+    title: RadToolTip
+    position: 4
+  "*toolbar/client-side-programming/objects":
+    title: Objects
+    position: 4
+  "*toolbar/web-pages":
+    title: Web Pages
+    position: 11
+  "*toolbar/templates":
+    title: Templates
+    position: 10
+  "*toolbar/data-binding":
+    title: Data Binding
+    position: 8
+  "*toolbar/radtoolbar-items":
+    title: RadToolBar Items
+    position: 7
+  "*timepicker/performance":
+    title: Performance
+    position: 14
+  "*timepicker/templates":
+    title: Templates
+    position: 8
+  "*timeline/data-binding/server-side":
+    title: Server-side
+    position: 2
+  "*timeline/data-binding":
+    title: Data Binding
+    position: 3
+  "*tilelist/data-binding":
+    title: Data Binding
+    position: 4
+  "*tilelist/tiles/client-side-programming/events/livetile-specific":
+    title: LiveTile Specific
+    position: 5
+  "*tilelist/tiles/client-side-programming/events":
+    title: Events
+    position: 8
+  "*tilelist/tiles/client-side-programming":
+    title: Client-side Programming
+    position: 12
+  "*tilelist/tiles/server-side-programming/events":
+    title: Events
+    position: 1
+  "*tilelist/tiles/server-side-programming":
+    title: Server-side Programming
+    position: 11
+  "*tilelist/tiles/appearance-and-styling":
+    title: Appearance and Styling
+    position: 10
+  "*tilelist/tiles/live-tile":
+    title: Live Tile
+    position: 6
+  "*tilelist/tiles":
+    title: Tiles
+    position: 3
+  "*textbox/how-to":
+    title: How to
+    position: 11
+  "*textbox/client-side-programming":
+    title: Client-Side Programming
+    position: 10
+  "*textbox/server-side-programming":
+    title: Server-Side Programming
+    position: 9
+  "*textbox/accessibility-and-internationalization":
+    title: Accessibility and Internationalization
+    position: 8
+  "*textbox/appearance-and-styling ":
+    title: Appearance and Styling
+    position: 7
+  "*textbox/mobile-support/":
+    title: Mobile Support
+    position: 6
+  "*textbox/features":
+    title: Features
+    position: 5
+  "*textbox/design-time":
+    title: Design Time
+    position: 4
+  "*tagcloud/data-binding":
+    title: Data Binding
+    position: 4
+  "*tabstrip/client-side-programming/objects":
+    title: Objects
+    position: 1
+  "*tabstrip/performance":
+    title: Performance
+    position: 12
+  "*tabstrip/web-pages":
+    title: Web Pages
+    position: 11
+  "*tabstrip/radmultipage":
+    title: RadMultiPage
+    position: 10
+  "*tabstrip/tabs":
+    title: Tabs
+    position: 9
+  "*tabstrip/data-binding":
+    title: Data Binding
+    position: 8
+  "*tabstrip/templates":
+    title: Templates
+    position: 7
+  "*stylesheetmanager/cdn-support":
+    title: CDN Support
+    position: 1
+  "*spreadsheet/client-side-programming/objects":
+    title: Objects
+    position: 0
+  "*spreadsheet/functionality/multilinecellediting":
+    title: Multiline Cell Editing
+    position: 7
+  "*spreadsheet/functionality/formulas-and-functions":
+    title: Formulas and Functions
+    position: 6
+  "*spreadsheet/functionality/validation":
+    title: Validation
+    position: 5
+  "*spreadsheet/functionality/cellhyperlink":
+    title: Cell Hyperlink
+    position: 4
+  "*spreadsheet/functionality/cellformat":
+    title: Cell Format
+    position: 3
+  "*spreadsheet/functionality/filtermenu":
+    title: Filter Menu
+    position: 2
+  "*spreadsheet/functionality/contextmenu":
+    title: Context Menu
+    position: 1
+  "*spreadsheet/data-binding/providers":
+    title: Providers
+    position: 1
+  "*spreadsheet/data-binding":
+    title: Data Binding
+    position: 3
+  "*spreadsheet/structure":
+    title: Structure
+    position: 2
+  "*spreadprocessing/features/styling":
+    title: Styling
+    position: 3
+  "*spreadprocessing/features/protection":
+    title: Protection
+    position: 2
+  "*spreadprocessing/features/formulas":
+    title: Formulas
+    position: 1
+  "*spreadprocessing/features/fill-data-automatically":
+    title: Fill Data Automatically
+    position: 0
+  "*spreadprocessing/formats-and-conversion/txt":
+    title: Txt
+    position: 5
+  "*spreadprocessing/formats-and-conversion/csv":
+    title: Csv
+    position: 4
+  "*spreadprocessing/formats-and-conversion/pdf":
+    title: Pdf
+    position: 3
+  "*spreadprocessing/formats-and-conversion/xlsx":
+    title: Xlsx
+    position: 2
+  "*spreadprocessing/features":
+    title: Features
+    position: 8
+  "*spreadprocessing/formats-and-conversion":
+    title: Formats and Conversion
+    position: 7
+  "*spreadprocessing/working-with-cells":
+    title: Working with Cells
+    position: 6
+  "*spreadprocessing/working-with-rows-and-columns":
+    title: Working with Rows and Columns
+    position: 5
+  "*spreadprocessing/working-with-worksheets":
+    title: Working with Worksheets
+    position: 4
+  "*spreadprocessing/working-with-workbooks":
+    title: Working with Workbooks
+    position: 3
+  "*splitter/sliding-zones":
+    title: Sliding Zones
+    position: 6
+  "*splitter/panes":
+    title: Panes
+    position: 5
+  "*splitter/layout":
+    title: Layout
+    position: 4
+  "*spell/dictionaries":
+    title: Dictionaries
+    position: 7
+  "*spell/configuration":
+    title: Configuration
+    position: 4
+  "*socialshare/configuring-buttons":
+    title: Configuring Buttons
+    position: 5
+  "*slider/client-side-programming/events/data-binding":
+    title: Data Binding
+    position: 11
+  "*slider/data-binding":
+    title: Data Binding
+    position: 4
+  "*sitemap/radsitemap-nodes":
+    title: RadSiteMap Nodes
+    position: 6
+  "*sitemap/data-binding":
+    title: Data Binding
+    position: 5
+  "*sitemap/templates":
+    title: Templates
+    position: 4
+  "*sitemap/design-time/radsitemapdatasource":
+    title: RadSiteMapDataSource
+    position: 1
+  "*sitemap/design-time/radsitemap":
+    title: RadSiteMap
+    position: 0
+  "*searchbox/search-context/events":
+    title: Events
+    position: 3
+  "*searchbox/search-context/data-binding":
+    title: Data Binding
+    position: 1
+  "*searchbox/search-context":
+    title: Search Context
+    position: 6
+  "*searchbox/data-binding":
+    title: Data Binding
+    position: 4
+  "*searchbox/templates":
+    title: Templates
+    position: 3
+  "*scriptmanager/cdn-support":
+    title: CDN Support
+    position: 8
+  "*scheduler/performance":
+    title: Performance
+    position: 19
+  "*scheduler/customizing-the-advanced-form":
+    title: Customizing the Advanced Form
+    position: 18
+  "*scheduler/client-side-programming/properties-and-methods":
+    title: Properties and Methods
+    position: 0
+  "*scheduler/web-service-binding":
+    title: Web Service Binding
+    position: 12
+  "*scheduler/export/pdf":
+    title: PDF
+    position: 0
+  "*scheduler/export":
+    title: Export
+    position: 11
+  "*scheduler/data-binding/providers":
+    title: Providers
+    position: 7
+  "*scheduler/data-binding":
+    title: Data Binding
+    position: 10
+  "*scheduler/recurrence-editor/client-side-programming":
+    title: Client-side Programming
+    position: 3
+  "*scheduler/recurrence-editor/server-side-programming":
+    title: Server-side Programming
+    position: 2
+  "*scheduler/recurrence-editor/localization":
+    title: Localization
+    position: 1
+  "*scheduler/recurrence-editor":
+    title: Recurrence Editor
+    position: 9
+  "*scheduler/reminders":
+    title: Reminders
+    position: 8
+  "*scheduler/context-menus":
+    title: Context Menus
+    position: 7
+  "*scheduler/views":
+    title: Views
+    position: 6
+  "*scheduler/usability":
+    title: Usability
+    position: 5
+  "*checkboxlist/data-binding":
+    title: Data Binding
+    position: 14
+  "*radiobuttonlist/data-binding":
+    title: Data Binding
+    position: 14
+  "*rotator/data-binding":
+    title: Data Binding
+    position: 4
+  "*ribbonbar/radribbonbar-items/ribbonbargallery":
+    title: RibbonBarGallery
+    position: 0
+  "*ribbonbar/radribbonbar-items":
+    title: RadRibbonBar Items
+    position: 4
+  "*ribbonbar/templates":
+    title: Templates
+    position: 3
+  "*progressarea/localization":
+    title: Localization
+    position: 9
+  "*pivotgrid/layouts":
+    title: Layouts
+    position: 8
+  "*pivotgrid/totals":
+    title: Totals
+    position: 6
+  "*pivotgrid/functionality/export":
+    title: Export
+    position: 5
+  "*pivotgrid/functionality/paging":
+    title: Paging
+    position: 0
+  "*pivotgrid/functionality":
+    title: Functionality
+    position: 5
+  "*pivotgrid/fields":
+    title: Fields
+    position: 4
+  "*pivotgrid/data-binding":
+    title: Data Binding
+    position: 3
+  "*pdfviewer/processing":
+    title: Processing
+    position: 14
+  "*pdfprocessing/howto":
+    title: How To
+    position: 100
+  "*pdfprocessing/concepts":
+    title: Concepts
+    position: 7
+  "*pdfprocessing/editing":
+    title: Editing
+    position: 6
+  "*pdfprocessing/formats-and-conversion/pdf":
+    title: Pdf
+    position: 0
+  "*pdfprocessing/formats-and-conversion":
+    title: Formats and Conversion
+    position: 5
+  "*pdfprocessing/model":
+    title: Model
+    position: 4
+  "*panelbar/web-pages":
+    title: Web Pages
+    position: 9
+  "*panelbar/radpanelbar-items":
+    title: RadPanelBar Items
+    position: 8
+  "*panelbar/data-binding":
+    title: Data Binding
+    position: 7
+  "*panelbar/templates":
+    title: Templates
+    position: 6
+  "*pagelayout/creating-responsive-design":
+    title: Creating Responsive Design
+    position: 3
+  "*pagelayout/structure":
+    title: Structure
+    position: 4
+  "*orgchart/data-binding":
+    title: Data Binding
+    position: 4
+  "*orgchart/templates":
+    title: Templates
+    position: 2
+  "*odatadatasource/client-side-programming/objects":
+    title: Objects
+    position: 0
+  "*numerictextbox/how-to":
+    title: How to
+    position: 11
+  "*numerictextbox/client-side-programming":
+    title: Client-Side Programming
+    position: 10
+  "*numerictextbox/server-side-programming":
+    title: Server-Side Programming
+    position: 9
+  "*numerictextbox/accessibility-and-internationalization":
+    title: Accessibility and Internationalization
+    position: 8
+  "*numerictextbox/appearance-and-styling ":
+    title: Appearance and Styling
+    position: 7
+  "*numerictextbox/mobile-support/":
+    title: Mobile Support
+    position: 6
+  "*numerictextbox/features":
+    title: Features
+    position: 5
+  "*numerictextbox/design-time":
+    title: Design Time
+    position: 4
+  "*notification/setting-content":
+    title: Setting Content
+    position: 4
+  "*navigation/client-side-programming/objects":
+    title: Objects
+    position: 1
+  "*navigation/data-binding":
+    title: Data Binding
+    position: 6
+  "*navigation/templates":
+    title: Templates
+    position: 5
+  "*multiselect/data-binding":
+    title: Data Binding
+    position: 3
+  "*menu/client-side-programming/objects":
+    title: Objects
+    position: 2
+  "*menu/performance":
+    title: Performance
+    position: 14
+  "*menu/context-menus":
+    title: Context Menus
+    position: 11
+  "*menu/radmenu-items":
+    title: RadMenu Items
+    position: 10
+  "*menu/templates":
+    title: Templates
+    position: 9
+  "*menu/data-binding":
+    title: Data Binding
+    position: 7
+  "*map/data-binding":
+    title: Data Binding
+    position: 4
+  "*maskedtextbox/how-to":
+    title: How to
+    position: 10
+  "*maskedtextbox/client-side-programming":
+    title: Client-Side Programming
+    position: 10
+  "*maskedtextbox/server-side-programming":
+    title: Server-Side Programming
+    position: 9
+  "*maskedtextbox/accessibility-and-internationalization":
+    title: Accessibility and Internationalization
+    position: 8
+  "*maskedtextbox/appearance-and-styling ":
+    title: Appearance and Styling
+    position: 7
+  "*maskedtextbox/mobile-support/":
+    title: Mobile Support
+    position: 6
+  "*maskedtextbox/features":
+    title: Features
+    position: 5
+  "*maskedtextbox/design-time":
+    title: Design Time
+    position: 4
+  "*listview/client-side-programming/radlistview/methods":
+    title: Methods
+    position: 2
+  "*listview/client-side-programming/radlistview/properties":
+    title: Properties
+    position: 1
+  "*listview/client-side-programming/radlistview":
+    title: RadListView
+    position: 2
+  "*listview/control-lifecycle":
+    title: Control Lifecycle
+    position: 11
+  "*listview/defining-structure":
+    title: Defining Structure
+    position: 10
+  "*listview/items":
+    title: Items
+    position: 9
+  "*listview/templates":
+    title: Templates
+    position: 8
+  "*listview/layouts":
+    title: Layouts
+    position: 7
+  "*listview/data-editing/how-to":
+    title: How To
+    position: 4
+  "*listview/data-editing":
+    title: Data Editing
+    position: 6
+  "*listview/fuctionality/filtering":
+    title: Filtering
+    position: 4
+  "*listview/fuctionality/grouping":
+    title: Grouping
+    position: 3
+  "*listview/fuctionality/selecting":
+    title: Selecting
+    position: 2
+  "*listview/fuctionality/sorting":
+    title: Sorting
+    position: 1
+  "*listview/fuctionality/paging":
+    title: Paging
+    position: 0
+  "*listview/fuctionality":
+    title: Fuctionality
+    position: 5
+  "*listview/data-binding/client-side":
+    title: Client-side
+    position: 1
+  "*listview/data-binding/server-side":
+    title: Server-side
+    position: 0
+  "*listview/data-binding":
+    title: Data Binding
+    position: 4
+  "*listbox/client-side-programming/objects":
+    title: Objects
+    position: 1
+  "*listbox/templates":
+    title: Templates
+    position: 9
+  "*listbox/radlistbox-items":
+    title: RadListBox Items
+    position: 8
+  "*listbox/data-binding":
+    title: Data Binding
+    position: 6
+  "*inputmanager/client-side-events":
+    title: Client-Side Events
+    position: 8
+  "*inputmanager/server-side-events":
+    title: Server-Side Events
+    position: 7
+  "*imagegallery/data-binding/server-side":
+    title: Server-side
+    position: 0
+  "*imagegallery/data-binding":
+    title: Data Binding
+    position: 3
+  "*imageeditor/troubleshooting/known-issues":
+    title: Known Issues
+    position: 0
+  "*htmlchart/troubleshooting/known-issues":
+    title: Known Issues
+    position: 3
+  "*htmlchart/functionality/axes":
+    title: Axes
+    position: 1
+  "*htmlchart/functionality/clienttemplate":
+    title: ClientTemplate
+    position: 0
+  "*htmlchart/data-binding":
+    title: Data Binding
+    position: 5
+  "*htmlchart/chart-types":
+    title: Chart Types
+    position: 4
+  "*htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart":
+    title: Migrating from RadChart to RadHtmlChart
+    position: 0
+  "*grid/how-to/persisting-settings":
+    title: Persisting Settings
+    position: 8
+  "*grid/how-to/hierarchy":
+    title: Hierarchy
+    position: 7
+  "*grid/how-to/data-editing":
+    title: Data-Editing
+    position: 3
+  "*grid/how-to/ajaxified-grid":
+    title: Ajaxified Grid
+    position: 2
+  "*grid/how-to":
+    title: How To
+    position: 21
+  "*grid/client-side-programming/events/events":
+    title: Events
+    position: 1
+  "*grid/client-side-programming/events":
+    title: Events
+    position: 7
+  "*grid/client-side-programming/gridcolumn-object/methods":
+    title: Methods
+    position: 2
+  "*grid/client-side-programming/gridcolumn-object/properties":
+    title: Properties
+    position: 1
+  "*grid/client-side-programming/gridcolumn-object":
+    title: GridColumn Object
+    position: 6
+  "*grid/client-side-programming/griddataitem-object/methods":
+    title: Methods
+    position: 2
+  "*grid/client-side-programming/griddataitem-object/properties":
+    title: Properties
+    position: 1
+  "*grid/client-side-programming/griddataitem-object":
+    title: GridDataItem Object
+    position: 5
+  "*grid/client-side-programming/gridtableview-object/collections":
+    title: Collections
+    position: 3
+  "*grid/client-side-programming/gridtableview-object/methods":
+    title: Methods
+    position: 2
+  "*grid/client-side-programming/gridtableview-object/properties":
+    title: Properties
+    position: 1
+  "*grid/client-side-programming/gridtableview-object":
+    title: GridTableView Object
+    position: 4
+  "*grid/client-side-programming/radgrid-object/methods":
+    title: Methods
+    position: 2
+  "*grid/client-side-programming/radgrid-object/properties":
+    title: Properties
+    position: 1
+  "*grid/client-side-programming/radgrid-object":
+    title: RadGrid Object
+    position: 3
+  "*grid/client-side-programming":
+    title: Client-Side Programming
+    position: 20
+  "*grid/server-side-programming":
+    title: Server-Side Programming
+    position: 19
+  "*grid/control-lifecycle":
+    title: Control Lifecycle
+    position: 18
+  "*grid/inheritance":
+    title: Inheritance
+    position: 17
+  "*grid/ajaxified-radgrid/what-you-should-have-in-mind":
+    title: What You Should Have in Mind
+    position: 1
+  "*grid/ajaxified-radgrid":
+    title: Ajaxified RadGrid
+    position: 16
+  "*grid/visible-and-enabled-conventions":
+    title: Visible and Enabled Conventions
+    position: 15
+  "*grid/asp.net-3.5-features":
+    title: ASP.NET 3.5 Features
+    position: 14
+  "*grid/hierarchical-grid-types-and-load-modes/how-to":
+    title: How-to
+    position: 11
+  "*grid/hierarchical-grid-types-and-load-modes":
+    title: Hierarchical Grid Types and Load Modes
+    position: 13
+  "*grid/performance":
+    title: Performance
+    position: 12
+  "*grid/mobile-support/mobile-rendering":
+    title: Mobile Rendering
+    position: 1
+  "*grid/functionality/exporting/word-export":
+    title: Word Export
+    position: 4
+  "*grid/functionality/exporting/excel-export":
+    title: Excel Export
+    position: 3
+  "*grid/functionality/printing":
+    title: Printing
+    position: 7
+  "*grid/functionality/exporting":
+    title: Exporting
+    position: 6
+  "*grid/functionality/selecting/selecting-cells":
+    title: Selecting Cells
+    position: 2
+  "*grid/functionality/selecting/selecting-rows":
+    title: Selecting Rows
+    position: 1
+  "*grid/functionality/selecting":
+    title: Selecting
+    position: 5
+  "*grid/functionality/filtering":
+    title: Filtering
+    position: 4
+  "*grid/functionality/grouping/group-by-expressions":
+    title: Group-by Expressions
+    position: 1
+  "*grid/functionality/grouping":
+    title: Grouping
+    position: 3
+  "*grid/functionality/scrolling":
+    title: Scrolling
+    position: 2
+  "*grid/functionality/sorting":
+    title: Sorting
+    position: 1
+  "*grid/functionality/paging/changing-the-default-pager":
+    title: Changing the Default Pager
+    position: 4
+  "*grid/functionality/paging":
+    title: Paging
+    position: 0
+  "*grid/functionality":
+    title: Functionality
+    position: 11
+  "*grid/accessing-values-and-controls/server-side":
+    title: Server Side
+    position: 2
+  "*grid/accessing-values-and-controls/client-side":
+    title: Client Side
+    position: 1
+  "*grid/accessing-values-and-controls":
+    title: Accessing Values and Controls
+    position: 10
+  "*grid/rows":
+    title: Rows
+    position: 9
+  "*grid/columns":
+    title: Columns
+    position: 8
+  "*grid/data-editing/how-to":
+    title: How-to
+    position: 16
+  "*grid/data-editing/commanditem":
+    title: CommandItem
+    position: 15
+  "*grid/data-editing/delete-records":
+    title: Delete Records
+    position: 11
+  "*grid/data-editing/validation":
+    title: Validation
+    position: 10
+  "*grid/data-editing/insert-records":
+    title: Insert Records
+    position: 6
+  "*grid/data-editing/update-records":
+    title: Update Records
+    position: 5
+  "*grid/data-editing/grid-editors":
+    title: Grid Editors
+    position: 1
+  "*grid/data-editing/edit-mode/batch-editing":
+    title: Batch Editing
+    position: 0
+  "*grid/data-editing/edit-mode":
+    title: Edit Mode
+    position: 0
+  "*grid/data-editing":
+    title: Data Editing
+    position: 7
+  "*grid/data-binding/webservice-binding":
+    title: WebService Binding
+    position: 3
+  "*grid/data-binding/server-side-binding/various-data-sources":
+    title: Various Data Sources
+    position: 3
+  "*grid/data-binding/server-side-binding":
+    title: Server-side binding
+    position: 2
+  "*grid/data-binding/client-side-binding":
+    title: Client-side Binding
+    position: 1
+  "*grid/data-binding":
+    title: Data Binding
+    position: 6
+  "*grid/designer":
+    title: Designer
+    position: 5
+  "*grid/create-radgrid":
+    title: Create RadGrid
+    position: 4
+  "*grid/structure":
+    title: Structure
+    position: 3
+  "*gauge/gauge-types":
+    title: Gauge Types
+    position: 3
+  "*gantt/server-side-programming/objects":
+    title: Objects
+    position: 1
+  "*gantt/views":
+    title: Views
+    position: 15
+  "*gantt/import":
+    title: Import
+    position: 8
+  "*gantt/resources/data-binding":
+    title: Data Binding
+    position: 1
+  "*gantt/resources":
+    title: Resources
+    position: 7
+  "*gantt/functionality/import":
+    title: Import
+    position: 4
+  "*gantt/data-binding/providers":
+    title: Providers
+    position: 3
+  "*gantt/data-binding/client-side-binding":
+    title: Client-side Binding
+    position: 2
+  "*gantt/data-binding/server-side-binding/programmatic-binding-":
+    title: "Programmatic Binding "
+    position: 1
+  "*gantt/data-binding/server-side-binding":
+    title: Server-side Binding
+    position: 1
+  "*gantt/data-binding":
+    title: Data Binding
+    position: 4
+  "*gantt/structure":
+    title: Structure
+    position: 3
+  "*filter/field-editors":
+    title: Field Editors
+    position: 4
+  "*filter/filter-expressions":
+    title: Filter Expressions
+    position: 3
+  "*editor/mobile-support/phone-layout/troubleshooting":
+    title: Troubleshooting
+    position: 10
+  "*editor/mobile-support/phone-layout":
+    title: Phone Layout
+    position: 10
+  "*editor/performance":
+    title: Performance
+    position: 12
+  "*editor/client-side-programming/methods/selection":
+    title: Selection
+    position: 20
+  "*editor/client-side-programming/methods":
+    title: Methods
+    position: 14
+  "*editor/accessibility-and-internationalization/localization":
+    title: Localization
+    position: 3
+  "*editor/accessibility-and-internationalization/keyboard-support":
+    title: Keyboard Support
+    position: 2
+  "*editor/accessibility-and-internationalization/creating-accessible-content":
+    title: Creating Accessible Content
+    position: 1
+  "*editor/accessibility-and-internationalization/standards-compliance":
+    title: Standards Compliance
+    position: 0
+  "*editor/managing-content/pasting-content":
+    title: Pasting Content
+    position: 2
+  "*editor/managing-content/content-area-appearance":
+    title: Content Area Appearance
+    position: 1
+  "*editor/managing-content/getting-and-setting-content":
+    title: Getting and Setting Content
+    position: 0
+  "*editor/managing-content":
+    title: Managing Content
+    position: 5
+  "*editor/functionality/import-and-export":
+    title: Import and Export
+    position: 7
+  "*editor/functionality/track-changes-and-comments":
+    title: Track Changes and Comments
+    position: 6
+  "*editor/functionality/editor-views-and-modes":
+    title: Editor Views and Modes
+    position: 5
+  "*editor/functionality/context-menus":
+    title: Context Menus
+    position: 4
+  "*editor/functionality/modules":
+    title: Modules
+    position: 3
+  "*editor/functionality/spellchecker":
+    title: Spellchecker
+    position: 2
+  "*editor/functionality/dialogs/examples":
+    title: Examples
+    position: 9
+  "*editor/functionality/dialogs/file-browser-dialogs":
+    title: File Browser Dialogs
+    position: 1
+  "*editor/functionality/dialogs":
+    title: Dialogs
+    position: 1
+  "*editor/functionality/toolbars/dropdowns/examples":
+    title: Examples
+    position: 16
+  "*editor/functionality/toolbars/dropdowns":
+    title: DropDowns
+    position: 5
+  "*editor/functionality/toolbars/buttons/examples":
+    title: Examples
+    position: 4
+  "*editor/functionality/toolbars/buttons":
+    title: Buttons
+    position: 4
+  "*editor/functionality/toolbars":
+    title: Toolbars
+    position: 0
+  "*dropdowntree/templates":
+    title: Templates
+    position: 6
+  "*dropdowntree/data-binding":
+    title: Data Binding
+    position: 5
+  "*dropdownlist/client-side-programming/objects":
+    title: Objects
+    position: 3
+  "*dropdownlist/templates":
+    title: Templates
+    position: 9
+  "*dropdownlist/databinding/client-side-binding":
+    title: Client-Side Binding
+    position: 2
+  "*dropdownlist/databinding/server-side-binding-":
+    title: "Server-side Binding "
+    position: 1
+  "*dropdownlist/databinding":
+    title: DataBinding
+    position: 6
+  "*dock/commands":
+    title: Commands
+    position: 5
+  "*dock/structure/dock-layout":
+    title: Dock Layout
+    position: 3
+  "*dock/structure/dock-zones":
+    title: Dock Zones
+    position: 2
+  "*dock/structure/dock":
+    title: Dock
+    position: 1
+  "*dock/structure":
+    title: Structure
+    position: 4
+  "*diagram/import-and-export":
+    title: Import and Export
+    position: 6
+  "*diagram/data-binding/server-side":
+    title: Server-side
+    position: 0
+  "*diagram/data-binding":
+    title: Data Binding
+    position: 4
+  "*diagram/structure/layout":
+    title: Layout
+    position: 4
+  "*diagram/structure":
+    title: Structure
+    position: 3
+  "*datetimepicker/performance":
+    title: Performance
+    position: 14
+  "*datetimepicker/templates":
+    title: Templates
+    position: 8
+  "*datepicker/performance":
+    title: Performance
+    position: 14
+  "*dateinput/how-to":
+    title: How to
+    position: 10
+  "*dateinput/client-side-programming":
+    title: Client-Side Programming
+    position: 10
+  "*dateinput/server-side-programming":
+    title: Server-Side Programming
+    position: 9
+  "*dateinput/accessibility-and-internationalization":
+    title: Accessibility and Internationalization
+    position: 8
+  "*dateinput/appearance-and-styling ":
+    title: Appearance and Styling
+    position: 7
+  "*dateinput/mobile-support/":
+    title: Mobile Support
+    position: 6
+  "*dateinput/features":
+    title: Features
+    position: 5
+  "*dateinput/design-time":
+    title: Design Time
+    position: 4
+  "*datapager/defining-structure":
+    title: Defining Structure
+    position: 4
+  "*datapager/mobile-support/mobile-rendering":
+    title: Mobile Rendering
+    position: 1
+  "*datapager/seo-paging":
+    title: SEO paging
+    position: 3
+  "*datapager/elements-and-templates":
+    title: Elements and Templates
+    position: 2
+  "*dataform/data-editing":
+    title: Data Editing
+    position: 6
+  "*dataform/data-binding":
+    title: Data Binding
+    position: 3
+  "*combobox/client-side-programming/objects":
+    title: Objects
+    position: 4
+  "*combobox/load-on-demand":
+    title: Load On Demand
+    position: 12
+  "*combobox/radcombobox-items":
+    title: RadComboBox Items
+    position: 11
+  "*combobox/data-binding":
+    title: Data Binding
+    position: 10
+  "*combobox/templates":
+    title: Templates
+    position: 9
+  "*cloudupload/custom-cloud-storage-providers":
+    title: Custom Cloud Storage Providers
+    position: 4
+  "*cloudupload/cloud-storage-providers":
+    title: Cloud Storage Providers
+    position: 3
+  "*clientdatasource/client-side-programming/client-side-api/methods":
+    title: Methods
+    position: 1
+  "*clientdatasource/client-side-programming/client-side-api/properties":
+    title: Properties
+    position: 0
+  "*clientdatasource/client-side-programming/client-side-api":
+    title: Client-side API
+    position: 3
+  "*chat/client-side-programming/objects":
+    title: Objects
+    position: 26
+  "*chart/client-side":
+    title: Client-Side
+    position: 13
+  "*chart/standards-compliance":
+    title: Standards Compliance
+    position: 12
+  "*chart/advanced-topics":
+    title: Advanced Topics
+    position: 10
+  "*chart/styling-radcharts":
+    title: Styling RadCharts
+    position: 9
+  "*chart/building-radcharts":
+    title: Building RadCharts
+    position: 8
+  "*chart/understanding-radchart-ui":
+    title: Understanding RadChart UI
+    position: 7
+  "*chart/understanding-radchart-elements":
+    title: Understanding RadChart Elements
+    position: 6
+  "*chart/understanding-radchart-types":
+    title: Understanding RadChart Types
+    position: 5
+  "*chart/features":
+    title: Features
+    position: 4
+  "*calendar/templates":
+    title: Templates
+    position: 8
+  "*button/button-types/icons":
+    title: Icons
+    position: 5
+  "*button/button-types":
+    title: Button Types
+    position: 4
+  "*autocompletebox/working-with-entries":
+    title: Working with Entries
+    position: 6
+  "*autocompletebox/data-binding":
+    title: Data Binding
+    position: 5
+  "*autocompletebox/templates":
+    title: Templates
+    position: 4
+  "*autocompletebox/client-side-programming/objects":
+    title: Objects
+    position: 4
+  controls/*/troubleshooting:
+    title: Troubleshooting
+    position: 60
+  controls/*/application-scenarios:
+    title: Application Scenarios
+    position: 56
+  controls/*/how-to:
+    title: How To
+    position: 55
+  controls/*/client-side-programming/events:
+    title: Events
+    position: 25
+  controls/*/client-side-programming/methods:
+    title: Methods
+    position: 20
+  controls/*/client-side-programming/properties:
+    title: Properties
+    position: 19
+  controls/*/client-side-programming:
+    title: Client-side Programming
+    position: 50
+  controls/*/server-side-programming/events:
+    title: Events
+    position: 25
+  controls/*/server-side-programming/methods:
+    title: Methods
+    position: 20
+  controls/*/server-side-programming:
+    title: Server-side Programming
+    position: 45
+  controls/*/accessibility-and-internationalization:
+    title: Accessibility and Internationalization
+    position: 40
+  controls/*/appearance-and-styling:
+    title: Appearance and Styling
+    position: 35
+  controls/*/mobile-support:
+    title: Mobile Support
+    position: 30
+  controls/*/functionality:
+    title: Functionality
+    position: 12
+  controls/*/design-time:
+    title: Design Time
+    position: 4
+  controls/*/getting-started:
+    title: Getting Started
+    position: 3
+  controls/*/changes-and-backward-compatibility:
+    title: Changes and Backwards Compatibility
+    position: 2
+  controls/*/changes-and-backwards-compatibility:
+    title: Changes and Backwards Compatibility
+    position: 2
+  controls/*/introduction:
+    title: introduction
+    position: 1
+  controls/*/overview:
+    title: Overview
+    position: 1
+  controls/xmlhttppanel:
+    title: XmlHttpPanel
+    position: 1
+  controls/wizard:
+    title: Wizard
+    position: 1
+  controls/window:
+    title: Window
+    position: 1
+  controls/upload:
+    title: Upload (Obsolete)
+    position: 1
+  controls/treeview:
+    title: TreeView
+    position: 1
+  controls/treemap:
+    title: TreeMap
+    position: 1
+  controls/treelist:
+    title: TreeList
+    position: 1
+  controls/tooltip:
+    title: ToolTip
+    position: 1
+  controls/toolbar:
+    title: ToolBar
+    position: 1
+  controls/togglebutton:
+    title: ToggleButton
+    position: 1
+  controls/timepicker:
+    title: TimePicker
+    position: 1
+  controls/tilelist:
+    title: TileList
+    position: 1
+  controls/timeline:
+    title: Timeline
+    position: 1
+  controls/textbox:
+    title: Textbox
+    position: 1
+  controls/tagcloud:
+    title: Tag Cloud
+    position: 1
+  controls/tabstrip:
+    title: Tab Strip
+    position: 1
+  controls/switch:
+    title: Switch
+    position: 1
+  controls/stylesheetmanager:
+    title: StyleSheet Manager
+    position: 1
+  controls/stepper:
+    title: Stepper
+    position: 1
+  controls/spreadsheet:
+    title: Spreadsheet
+    position: 1
+  controls/splitter:
+    title: Splitter
+    position: 1
+  controls/splitbutton:
+    title: SplitButton
+    position: 1
+  controls/spell:
+    title: Spell
+    position: 1
+  controls/socialshare:
+    title: Social Share
+    position: 1
+  controls/slider:
+    title: Slider
+    position: 1
+  controls/skinmanager:
+    title: SkinManager
+    position: 1
+  controls/sitemap:
+    title: Sitemap
+    position: 1
+  controls/signature:
+    title: Signature
+    position: 1
+  controls/searchbox:
+    title: SearchBox
+    position: 1
+  controls/scriptmanager:
+    title: Script Manager
+    position: 1
+  controls/scheduler:
+    title: Scheduler
+    position: 1
+  controls/checkboxlist:
+    title: CheckBoxList
+    position: 1
+  controls/radiobuttonlist:
+    title: RadioButtonList
+    position: 1
+  controls/rotator:
+    title: Rotator
+    position: 1
+  controls/ribbonbar:
+    title: RibbonBar
+    position: 1
+  controls/rating:
+    title: Rating
+    position: 1
+  controls/pushbutton:
+    title: PushButton
+    position: 1
+  controls/progressbar:
+    title: Progress Bar
+    position: 1
+  controls/progressarea:
+    title: Progress Area
+    position: 1
+  controls/pivotgrid:
+    title: Pivot Grid
+    position: 1
+  controls/persistenceframework:
+    title: Persistence Framework
+    position: 1
+  controls/pdfviewer:
+    title: PdfViewer
+    position: 1
+  controls/panelbar:
+    title: PanelBar
+    position: 1
+  controls/pagelayout:
+    title: Page Layout
+    position: 1
+  controls/orgchart:
+    title: Org Chart
+    position: 1
+  controls/odatadatasource:
+    title: OData DataSource
+    position: 1
+  controls/numerictextbox:
+    title: Numeric Textbox
+    position: 1
+  controls/notification:
+    title: Notification
+    position: 1
+  controls/navigation:
+    title: Navigation
+    position: 1
+  controls/multiselect:
+    title: MultiSelect
+    position: 1
+  controls/multicolumncombobox:
+    title: MultiColumn ComboBox
+    position: 1
+  controls/monthyearpicker:
+    title: MonthYearPicker
+    position: 1
+  controls/menu:
+    title: Menu
+    position: 1
+  controls/mediaplayer:
+    title: Media Player
+    position: 1
+  controls/maskedtextbox:
+    title: Masked Textbox
+    position: 1
+  controls/map:
+    title: Map
+    position: 1
+  controls/listview:
+    title: ListView
+    position: 1
+  controls/listbox:
+    title: ListBox
+    position: 1
+  controls/linkbutton:
+    title: LinkButton
+    position: 1
+  controls/lightbox:
+    title: LightBox
+    position: 1
+  controls/label:
+    title: Label
+    position: 1
+  controls/input:
+    title: Input
+    position: 1
+  controls/imagegallery:
+    title: Image Gallery
+    position: 1
+  controls/imagebutton:
+    title: ImageButton
+    position: 1
+  controls/imageeditor:
+    title: Image Editor
+    position: 1
+  controls/inputmanager:
+    title: Input Manager
+    position: 1
+  controls/htmlchart:
+    title: Chart (HTML5)
+    position: 1
+  controls/grid:
+    title: Grid
+    position: 1
+  controls/gauge:
+    title: Gauge
+    position: 1
+  controls/gantt:
+    title: Gantt
+    position: 1
+  controls/formdecorator:
+    title: Form Decorator
+    position: 1
+  controls/floatingactionbutton:
+    title: FloatingActionButton
+    position: 1
+  controls/filter:
+    title: Filter
+    position: 1
+  controls/fileexplorer:
+    title: File Explorer
+    position: 1
+  controls/editor:
+    title: Editor
+    position: 1
+  controls/dropdowntree:
+    title: DropDownTree
+    position: 1
+  controls/dropdownlist:
+    title: DropDownList
+    position: 1
+  controls/drawer:
+    title: Drawer
+    position: 1
+  controls/dragdropmanager/client-side-programming/dragdropmanager:
+    title: DragDropManager
+    position: 4
+  controls/dragdropmanager/client-side-programming/droptargetarea:
+    title: DropTargetArea
+    position: 3
+  controls/dragdropmanager/client-side-programming/droptarget:
+    title: DropTarget
+    position: 2
+  controls/dragdropmanager/client-side-programming/draggable:
+    title: Draggabe
+    position: 1
+  controls/dragdropmanager:
+    title: DragDropManager
+    position: 1
+  controls/dock:
+    title: Dock
+    position: 1
+  controls/diagram:
+    title: Diagram
+    position: 1
+  controls/datetimepicker:
+    title: DateTimePicker
+    position: 1
+  controls/daterangepicker:
+    title: DateRangePicker
+    position: 1
+  controls/datepicker:
+    title: Date Picker
+    position: 1
+  controls/dateinput:
+    title: Date Input
+    position: 1
+  controls/datapager:
+    title: Data Pager
+    position: 1
+  controls/dataform:
+    title: Data Form
+    position: 1
+  controls/combobox:
+    title: ComboBox
+    position: 1
+  controls/colorpicker:
+    title: Color Picker
+    position: 1
+  controls/cloudupload:
+    title: Cloud Upload
+    position: 1
+  controls/clientexportmanager:
+    title: Client Export Manager
+    position: 1
+  controls/clientdatasource:
+    title: ClientDataSource
+    position: 1
+  controls/checkbox:
+    title: CheckBox
+    position: 1
+  controls/chiplist:
+    title: ChipList
+    position: 1
+  controls/chip:
+    title: Chip
+    position: 1
+  controls/chat:
+    title: Chat
+    position: 1
+  controls/chart:
+    title: Chart (Obsolete)
+    position: 1
+  controls/card:
+    title: Card
+    position: 1
+  controls/captcha:
+    title: Captcha
+    position: 1
+  controls/calendar:
+    title: Calendar
+    position: 1
+  controls/breadcrumb:
+    title: Breadcrumb
+    position: 1
+  controls/button:
+    title: Button
+    position: 1
+  controls/binaryimage:
+    title: BinaryImage
+    position: 1
+  controls/barcode:
+    title: Barcode
+    position: 1
+  controls/avatar:
+    title: Avatar
+    position: 1
+  controls/autocompletebox:
+    title: AutoCompleteBox
+    position: 1
+  controls/asyncupload:
+    title: Async Upload
+    position: 1
+  controls/ajaxloadingpanel:
+    title: AjaxLoadingPanel
+    position: 1
+  controls/ajaxmanager/server-side-programming:
+    title: Server-Side API
+    position: 80
+  controls/ajaxmanager/client-side-programming:
+    title: Client-Side API
+    position: 70
+  controls/ajaxmanager:
+    title: AjaxManager
+    position: 1
+  controls/ajaxpanel:
+    title: AjaxPanel
+    position: 1
+  api/server:
+    title: Server-side
+    position: 2
+  api/client/enums:
+    title: Enums
+  api/client/args:
+    title: Event Arguments
+  api/client:
+    title: Client-side
+    position: 1
+  api:
+    title: API Reference
+    position: 30
+  upgrade-compatibility/upgrading-instructions:
+    title: Upgrading
+    position: 10
+  integration/visual-studio/visual-studio-extensions:
+    title: Visual Studio Extensions
+  integration/visual-studio/typescript-definitions:
+    title: TypeScript Definitions
+  integration/visual-studio:
+    title: Visual Studio
+  integration/telerik-products/document-processing:
+    title: Document Processing Libraries
+  integration/telerik-products/testing-with-test-studio:
+    title: Automated Testing with Test Studio
+  integration/telerik-products:
+    title: Telerik Products
+  integration/sharepoint/online:
+    title: SharePoint Online (Office 365)
+    position: 4
+  integration/sharepoint/2016:
+    title: SharePoint 2016
+    position: 1
+  integration/sharepoint/2013/radeditor-web-part/installation-and-deployment:
+    title: Installation and Deployment
+    position: 2
+  integration/sharepoint/2013/radeditor-web-part:
+    title: Editor Web Part
+    position: 1
+  integration/sharepoint/2013/installation-and-deployment:
+    title: Installation and Deployment
+    position: 0
+  integration/sharepoint/2013:
+    title: SharePoint 2013
+    position: 2
+  integration/sharepoint/2010/radscheduler-web-part:
+    title: Scheduler Web Part
+    position: 4
+  integration/sharepoint/2010/radlistview-web-part:
+    title: ListView Web Part
+    position: 3
+  integration/sharepoint/2010/radgrid-web-part:
+    title: Grid Web Part
+    position: 2
+  integration/sharepoint/2010/radeditor-web-part/customization:
+    title: Customization
+    position: 7
+  integration/sharepoint/2010/radeditor-web-part/dialogs:
+    title: Dialogs
+    position: 6
+  integration/sharepoint/2010/radeditor-web-part/dropdowns:
+    title: DropDowns
+    position: 5
+  integration/sharepoint/2010/radeditor-web-part/configuration:
+    title: Configuration
+    position: 4
+  integration/sharepoint/2010/radeditor-web-part/migration-and-upgrade:
+    title: Migration and Upgrade
+    position: 3
+  integration/sharepoint/2010/radeditor-web-part/installation-and-deployment:
+    title: Installation and Deployment
+    position: 2
+  integration/sharepoint/2010/radeditor-web-part:
+    title: Editor Web Part
+    position: 1
+  integration/sharepoint/2010/installation-and-deployment:
+    title: Installation and Deployment
+    position: 0
+  integration/sharepoint/troubleshooting:
+    title: Troubleshooting
+    position: 5
+  integration/sharepoint/2010:
+    title: SharePoint 2010
+    position: 3
+  integration/sharepoint:
+    title: Sharepoint
+  integration/jquery:
+    title: jQuery
+  styling/theme-builder:
+    title: ThemeBuilder
+    position: 30
+  styling/visual-stylebuilder:
+    title: Visual Stylebuilder
+    position: 20
+  styling/controlling-visual-appearance:
+    title: Controlling the Appearance
+    position: 10
+  getting-started/performance:
+    title: Performance
+    position: 30
+  getting-started/prerequisites:
+    title: Prerequisites
+    position: 9
+  getting-started/work-with-controls:
+    title: Working with the Controls
+    position: 20
+  getting-started/installation:
+    title: Download & Installation
+    position: 10
+  knowledge-base:
+    title: Knowledge Base
+    position: 30
+    res_type: kb
+    relativeUrl: /knowledge-base
+    hideChildren: true
+  upgrade-compatibility:
+    title: Upgrade & Compatibility
+    position: 10
+  accessibility:
+    title: Accessibility
+    position: 9
+  mobile-support:
+    title: Mobile Support
+    position: 8
+  integration:
+    title: Integration
+    position: 7
+  shared-utilities:
+    title: Shared Utilities
+    position: 6
+  deployment:
+    title: Deployment
+    position: 5
+  styling:
+    title: Styles & Appearance
+    position: 4
+  controls:
+    title: Controls
+    position: 3
+  getting-started:
+    title: Getting Started
+    position: 2
+  api/*:
+    res_type: api
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/introduction"
+    type: Permanent
+-
+    from: "^/copyright.*$"
+    to: "https://www.progress.com/legal/documentation-copyright"
+    type: Permanent
+-
+    from: "^/gdpr.*$"
+    to: "https://www.progress.com/legal/privacy-policy"
+    type: Permanent
+-
+    from: "^/installation/upgrading-instructions/(.*)$"
+    to: "/upgrade-compatibility/upgrading-instructions/$1"
+    type: Permanent
+-
+    from: "^/installation/(.*)$"
+    to: "/getting-started/installation/$1"
+    type: Permanent
+-
+    from: "^/general-information/using-jquery/(.*)$"
+    to: "/integration/jquery/$1"
+    type: Permanent
+-
+    from: "^/mvc(/overview)?(/.*)?$"
+    to: "/integration/mvc$2"
+    type: Permanent
+-
+    from: "^/sharepoint/(.*)$"
+    to: "/integration/sharepoint/$1" 
+    type: Permanent
+-
+    from: "^/integration-with-other-telerik-products/(.*)$"
+    to: "/integration/telerik-products/$1"
+    type: Permanent
+-
+    from: "^/general-information/integration-with-visual-studio/(.*)$"
+    to: "/integration/visual-studio/$1"
+    type: Permanent
+-
+    from: "^/general-information/performance/(.*)$"
+    to: "/getting-started/performance/$1"
+    type: Permanent
+-
+    from: "^/visual-stylebuilder/(.*)$"
+    to: "/styling/visual-stylebuilder/$1"
+    type: Permanent
+-
+    from: "^/theme-builder/(.*)$"
+    to: "/styling/theme-builder/$1"
+    type: Permanent
+-
+    from: "^/general-information/controlling-visual-appearance/(.*)$"
+    to: "/styling/controlling-visual-appearance/$1"
+    type: Permanent
+-
+    from: "^/controls/ajax/radajaxloadingpanel/(.*)$"
+    to: "/controls/ajaxloadingpanel/$1"
+    type: Permanent
+-
+    from: "^/controls/ajax/radajaxpanel/(.*)$"
+    to: "/controls/ajaxpanel/$1"
+    type: Permanent
+
+-
+    from: "^/controls/ajax/radajaxmanager/(.*)$"
+    to: "/controls/ajaxmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/ajax/(.*)$"
+    to: "/controls/ajaxmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/radinputmanager/(.*)$"
+    to: "/controls/inputmanager/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/radtextbox/overview$"
+    to: "/controls/textbox/overview"
+    type: Permanent
+
+-
+    from: "^/controls/input/radtextbox/(.*)$"
+    to: "/controls/textbox/features/$1"
+    type: Permanent
+
+-
+    from: "^/controls/input/(.*)$"
+    to: "/controls/textbox/$1"
+    type: Permanent
+
+-
+    from: "^/controls/maksedtextbox/(.*)$"
+    to: "/controls/maskedtextbox/$1"
+    type: Permanent
+
+-
+    from: "(?<=/)pdfprocessing/(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "(?<=/)wordsprocessing/(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "(?<=/)spreadprocessing/(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "(?<=/)spreadstreamprocessing/(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent
+-
+    from: "(?<=/)ziplibrary/(.*)"
+    to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
+    type: Permanent

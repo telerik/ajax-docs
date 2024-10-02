@@ -25,7 +25,7 @@ res_type: kb
    
  ## SOLUTION  
    
- Download a working sample from [here](/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx?) (SchedulerCustomAdvancedFormQ3\_SP1\_2009.zip). Then edit **AdvancedForm.ascx** to comment the description RadTextBox and add a RadEditor control and a description label like this:   
+ Download a working sample from [here](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx?) (SchedulerCustomAdvancedFormQ3\_SP1\_2009.zip). Then edit **AdvancedForm.ascx** to comment the description RadTextBox and add a RadEditor control and a description label like this:   
    
  ````ASP.NET
 <%-- <telerik:RadTextBox runat="server" ID="DescriptionText" TextMode="MultiLine" Columns="50"
