@@ -10,7 +10,7 @@ position: 0
 
 # Adding the Telerik Controls to the Visual Studio Toolbox
 
-Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-telerik-controls-from-msi-file). 
+Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](slug://introduction/installation/installing-the-telerik-controls-from-msi-file). 
 
 If you'd like to add the controls to your project (aspx, ascx, masterpage, etc.) see [Add the Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%}) as well as the [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) articles.
 

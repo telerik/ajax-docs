@@ -7,7 +7,6 @@ description: Telerik.Web.UI.RadDateRangePicker
 # Telerik.Web.UI.RadDateRangePicker
 
 RadDateRangePicker class
-            You can find information on the server API of RadDateRangePicker at https://docs.telerik.com/devtools/aspnet-ajax/controls/datepicker/server-side-programming/RadDateRangePicker-object .
 
 ## Inheritance Hierarchy
 
