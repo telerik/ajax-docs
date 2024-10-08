@@ -48,32 +48,9 @@ This article will help you to inspect the page for "mixed render mode" issue. Th
 
 Attached you can find a script that uses custom script to determine the render modes of all controls and the page and the Toastr.js library in order to visualize the data in a dismissable popup. 
 
-* <a href="files/render-mode-script.js"  target="_blank">	render-mode-script.js</a>
+* [render-mode-script.js](files/render-mode-script.js)
 
 For a quick check, you can open the Browser's DevTools(F12) and in the Console tab to execute the following script
-
-````JavaScript
-$telerik.$(document.body).append('<script src="https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/files/render-mode-script.js"></script>');
-````
-
-This will load the script and execute the function automatiocally. 
-
-In case you have nested iframes, then the Context of the DevTools is important and might need to be changed to work properly
-* [Execution Contexts in Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools-(part-2)#execution-contexts-in-chrome-devtools)
-
-
-Another approach is to load the scripts on the page where the issues appear and use a button click or the Console again to run the check.
-
-To run it, you would need to load the Toastr.js library, then the attached script and run the ShowControlsRenderMode() function.
-````ASP.NET
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="render-mode-script.js"></script>
-<asp:Button Text="Show All render modes on the page" OnClientClick="ShowControlsRenderMode(); return false;" runat="server" />
-````
- 
-
-Here is also the content of the render-mode-script.js file:
 
 ````JavaScript
 (function () {
@@ -160,6 +137,22 @@ Here is also the content of the render-mode-script.js file:
         return openTable + closeTable;
     }
 })(window);
+````
+
+This will load the script and execute the function automatiocally. 
+
+In case you have nested iframes, then the Context of the DevTools is important and might need to be changed to work properly
+* [Execution Contexts in Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools-(part-2)#execution-contexts-in-chrome-devtools)
+
+
+Another approach is to load the scripts on the page where the issues appear and use a button click or the Console again to run the check.
+
+To run it, you would need to load the Toastr.js library, then the attached script and run the ShowControlsRenderMode() function.
+````ASP.NET
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="render-mode-script.js"></script>
+<asp:Button Text="Show All render modes on the page" OnClientClick="ShowControlsRenderMode(); return false;" runat="server" />
 ````
 
 ## See Also

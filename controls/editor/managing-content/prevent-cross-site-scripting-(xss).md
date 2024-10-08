@@ -4,6 +4,7 @@ page_title: Prevent Cross-site Scripting (XSS) - RadEditor
 description: Check our Web Forms article about Prevent Cross-site Scripting (XSS).
 slug: editor/managing-content/prevent-cross-site-scripting-(xss)
 tags: prevent,cross-site,scripting,(xss)
+previous_url: controls/editor/managing-content/prevent-cross-site-scripting-(xss)
 published: True
 position: 4
 ---
