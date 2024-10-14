@@ -1,9 +1,9 @@
 ---
 title: Add Page Breaks Between Groups in RadGrid PDF Export
-description: Learn how to insert a page breaks in RadGrid to ensure each group starts on a new page.
+description: Learn how to insert page breaks in RadGrid to ensure each group starts on a new page when exported to PDF.
 type: how-to
 page_title: Add Page Breaks Between Groups in RadGrid PDF Export
-slug: grid-pdf-export-page-break-on-group
+slug: grid-add-page-breaks-between-groups-in-pdf-export
 tags: radgrid, export, pdf, group, page-break, asp.net ajax
 res_type: kb
 ticketid: 1667087
