@@ -40,7 +40,6 @@ For more information, visit:
 - [Bugcrowd Vulnerability Disclosure Program](https://bugcrowd.com/engagements/whatsupgold-vdp)
 - [Vulnerability Reporting Policy](https://www.progress.com/trust-center/vulnerability-reporting-policy)
 
----
 
 ## What We Do to Mitigate Risk
 
@@ -61,9 +60,8 @@ Our primary goal is to prevent security issues before product delivery. We use t
 
 We leverage leading commercial tools to automatically monitor and update third-party dependencies in our Telerik and Kendo GitHub projects, ensuring they remain secure and up-to-date. Alerts are enabled for all GitHub-hosted products, and the identified vulnerable dependencies are addressed by the repository code owners and security champions.
 
-**Note**: Our definition of "done" includes successful builds that are scanned using top security scanning tools, and the resolution of any security alerts.
+>Note: Our definition of "Done" includes successful builds that are scanned using top security scanning tools, and the resolution of any security alerts.
 
----
 
 ## Content Security Compliance
 
@@ -74,13 +72,9 @@ For more detailed information on CSP compliance for Telerik UI for ASP.NET AJAX,
 
 This resource provides guidelines on how to configure your ASP.NET Web Forms application to comply with CSP requirements when using Telerik ASP.NET AJAX components.
 
----
-
 ## OWASP Top 10 Alignment
 
 We closely monitor the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list of security risks and align our security practices with these industry-leading standards. Regular updates ensure that our products address evolving security threats and vulnerabilities.
-
----
 
 ## Telerik AJAX Control-Specific Security Guidelines
 
@@ -98,5 +92,5 @@ Telerik UI for ASP.NET AJAX provides a variety of security-related articles for 
 
 These resources provide specific guidelines for configuring controls securely and mitigating the risks associated with their usage.
 
-For more detailed answers to common security-related questions, please refer to our [Security FAQ page]({%slug: security/security-faq%}).      
+For more detailed answers to common security-related questions, please refer to our [Security FAQ page]({%slug security/security-faq%}).      
  
