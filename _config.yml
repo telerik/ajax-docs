@@ -36,9 +36,12 @@ navigation:
     "accessibility":
         title: "Accessibility"
         position: 9
+    "security":
+        title: "Security Information"
+        position: 10
     "upgrade-compatibility":
         title: "Upgrade & Compatibility"
-        position: 10        
+        position: 11        
     "knowledge-base":
         title: "Knowledge Base"
         position: 30                
