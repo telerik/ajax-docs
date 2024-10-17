@@ -1798,6 +1798,9 @@ meta:
     hideChildren: true
   upgrade-compatibility:
     title: Upgrade & Compatibility
+    position: 11
+  security:
+    title: Security Information
     position: 10
   accessibility:
     title: Accessibility
