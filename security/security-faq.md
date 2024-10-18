@@ -1,11 +1,11 @@
 ---
-title: Security FAQ
-page_title: Security FAQ
+title: FAQ
+page_title: FAQ
 description: "Find answers to common questions about securing Telerik UI for ASP.NET AJAX controls, including how to report vulnerabilities, handle third-party dependencies, and receive security fixes."
 slug: security/security-faq
 tags: telerik, asp.net, ajax, security, web forms
 published: True
-position: 2
+position: 3
 ---
 
 # Frequently Asked Questions (FAQ)

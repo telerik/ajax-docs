@@ -1,6 +1,6 @@
 ---
-title: Security Information
-page_title: Security Information
+title: Overview
+page_title: Overview
 description: "Learn how to secure Telerik UI for ASP.NET AJAX controls and your Web Forms app with best practices, vulnerability reporting, and control-specific security guidelines."
 slug: security/security-information
 tags: telerik, asp, net, ajax, asp.net, security, web forms, xss, owasp, csp
@@ -54,7 +54,6 @@ Our primary goal is to prevent security issues before product delivery. We use t
 - **Internal Logging**: Every potential security issue is logged, researched, tested, and verified. Issues deemed valid are assessed using a CVSS score, with critical issues prioritized.
 - **Third-Party Static Analysis Testing**: We utilize some of the leading security scanning tools in the market to scan for vulnerabilities in our software code. Regular scans are conducted, and results are reviewed to address vulnerabilities and mitigate false positives.
 
----
 
 ## Third-Party Dependencies Handling
 
@@ -80,8 +79,7 @@ We closely monitor the [OWASP Top 10](https://owasp.org/www-project-top-ten/) li
 
 Telerik UI for ASP.NET AJAX provides a variety of security-related articles for individual controls. These resources outline best practices and recommendations for securing each control and mitigating potential risks. Below is a list of available security articles for specific controls:
 
-- [General Security Best Practices for ASP.NET AJAX Controls](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/work-with-controls/security)
-- [Useful Security Tips For Telerik ASP.NET Web Forms apps](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/work-with-controls/security#useful-tips)
+- [General Security Best Practices and Useful Tips for ASP.NET AJAX Controls](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/work-with-controls/security) - Comprehensive guidance on securing Telerik ASP.NET AJAX controls and your ASP.NET Web Forms applications, with practical tips focusing on file upload, editing, and management features.
 - [AsyncUpload Control - Security Guidelines](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security)
 - [CloudUpload Control - Security Guidelines](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/security)
 - [Editor Control - Dialogs Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security)
