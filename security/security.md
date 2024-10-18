@@ -2,7 +2,7 @@
 title: Useful Tips
 page_title: Useful Tips
 description: "Learn more about how to secure the Telerik UI for ASP.NET AJAX controls and your ASP.NET Web Forms app."
-slug: security/security
+slug: general-information/security
 previous_url: getting-started/work-with-controls/security
 tags: telerik, asp, net, ajax, security, microsoft
 published: True
@@ -31,7 +31,7 @@ These tips apply across many Telerik controls and help secure your application h
          <pages viewStateEncryptionMode="Always" enableViewStateMac="true">
    ````
 
-   The official recommendation by Microsoft is to upgrade to at least .NET 4.8 as noted at [.NET Release history](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework). You can find more useful information at [Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://devblogs.microsoft.com/dotnet/cryptographic-improvements-in-asp-net-4-5-pt-2/) and .
+   The official recommendation by Microsoft is to upgrade to at least .NET 4.8 as noted at [.NET Release history](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework). You can find more useful information at [Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://devblogs.microsoft.com/dotnet/cryptographic-improvements-in-asp-net-4-5-pt-2/).
 
 * **Encrypt Telerik WebResource Querystring**: For extra security, encrypt the Telerik WebResource querystring by enabling the `Telerik.ScriptManager.EnableHandlerEncryption` setting. This hides product version information in the page markup. Follow the steps here: [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}).
 
