@@ -48,11 +48,7 @@ Yes, for example, our CI builds are integrated with some of the leading security
 
 ## How does Progress prioritize security reports?
 
-We categorize vulnerabilities based on severity:
-
-- **Critical**: 30 days
-- **High**: 60 days
-- **Medium & Low**: 90 days
+We prioritize security vulnerability reports with the highest urgency. When we receive an inquiry or vulnerability report, we begin by analyzing the issue to determine whether it's a false positive or a valid concern. If the report is confirmed as valid, we assess its severity using the CVSS (Common Vulnerability Scoring System) and promptly release a patch based on the severity level.
 
 ---
 
