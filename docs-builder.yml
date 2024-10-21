@@ -1950,3 +1950,17 @@ redirects:
     from: "(?<=/)ziplibrary/(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
+-
+    from: "(?<=/)products/aspnet-ajax/documentation/community/code-library/aspnet-ajax/file-explorer/amazon-s3-filebrowsercontentprovider.aspx"
+    to: "https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/fileexplorer-connect-to-amazon-s3-storage"
+    type: Permanent
+-
+    from: "(?<=/)products/aspnet-ajax/documentation/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx"
+    to: "https://www.telerik.com/products/aspnet-ajax/documentation/introduction"
+    type: Permanent
+-
+    from: "(?<=/)products/aspnet-ajax/documentation/support/code-library/radgrid-scrolling-with-predefined-step"
+    to: "https://www.telerik.com/products/aspnet-ajax/documentation/introduction"
+    type: Permanent
+
+
