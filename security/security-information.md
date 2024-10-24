@@ -28,7 +28,7 @@ At Progress, we work diligently to identify and fix security vulnerabilities in 
 
 ### For Security Researchers
 
-We value the contributions of security researchers and ethical hackers. If a researcher identifies a potential vulnerability, they can submit it via our [Bugcrowd](#) platform. We aim to meet the following response times:
+We value the contributions of security researchers and ethical hackers. If a researcher identifies a potential vulnerability, they can submit it via our [Bugcrowd](https://bugcrowd.com/engagements/devtools-vdp) platform. We aim to meet the following response times:
 
 | Type of Response | SLO (in business days) |
 |------------------|------------------------|
@@ -37,7 +37,7 @@ We value the contributions of security researchers and ethical hackers. If a res
 | Time to Resolution| Depends on severity    |
 
 For more information, visit:
-- [Bugcrowd Vulnerability Disclosure Program](https://bugcrowd.com/engagements/whatsupgold-vdp)
+- [Bugcrowd Vulnerability Disclosure Program]([https://bugcrowd.com/engagements/whatsupgold-vdp](https://bugcrowd.com/engagements/devtools-vdp))
 - [Vulnerability Reporting Policy](https://www.progress.com/trust-center/vulnerability-reporting-policy)
 
 
