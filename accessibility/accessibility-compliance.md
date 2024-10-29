@@ -83,7 +83,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>Chart (HTML5)</td>
             <td>Yes</td>
             <td>AAA</td>
-            <td><a href="https://docs.telerik.com/kendo-ui/accessibility/five-tips-for-accessible-charts-with-dataviz">Browse</a></td>
+            <td><a href="https://docs.telerik.com/kendo-ui/controls/charts/five-tips-for-accessible-charts-with-dataviz">Browse</a></td>
         </tr>
         <tr>
             <td>ColorPicker</td>
