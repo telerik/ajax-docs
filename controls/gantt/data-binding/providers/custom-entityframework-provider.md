@@ -136,10 +136,6 @@ End Sub
 
 ````
 
-
-[Here](https://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you can find a code library with a runnable sample project, created based on the above instructions.
-
-
 # See Also
 
  * [Use CustomFields in Gantt with a simple CustomProvider](https://www.telerik.com/support/kb/aspnet-ajax/gantt/details/use-customfields-in-gantt-with-a-simple-customprovider)
