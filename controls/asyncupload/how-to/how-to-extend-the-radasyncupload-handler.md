@@ -23,42 +23,37 @@ This article contains the following sections:
 
 To create a custom handler, you must inherit the built-in `AsyncUploadHandler` class and then implement the desired functionality (for example, saving images directly to a database, without using temporary folder).
 
-1. Create a generic handler in your Web Application (for example, `myHandler.ashx`)
-
-1. Make sure the class extends the `Telerik.Web.UI.AsyncUploadHandler` class
-
-	**C#**
-
-		public class myHandler : Telerik.Web.UI.AsyncUploadHandler
+1. Create the Custom Handler
+   
+	1. Create a generic handler in your Web Application (for example, `myHandler.ashx`)
+ 
+	1. Make sure the class extends the `Telerik.Web.UI.AsyncUploadHandler` class
+ 
+	1. Override the `Process` method
+ 
+		````C#
+		public class CustomUploadHandler : AsyncUploadHandler
 		{
+		    protected override IAsyncUploadResult Process(UploadedFile file, HttpContext context, IAsyncUploadConfiguration configuration, string tempFileName)
+		    {
+			// do something here
 		
+			return base.Process(file, context, configuration, tempFileName);
+		    }
 		}
-
-	**VB**
-
-		Public Class myHandler
-			Inherits Telerik.Web.UI.AsyncUploadHandler
+		````
+		````VB
+		Public Class CustomUploadHandler
+		    Inherits AsyncUploadHandler
 		
+		    Protected Overrides Function Process(ByVal file As UploadedFile, ByVal context As HttpContext, ByVal configuration As IAsyncUploadConfiguration, ByVal tempFileName As String) As IAsyncUploadResult
+			'do something here
+		
+			Return MyBase.Process(file, context, configuration, tempFileName)
+		    End Function
 		End Class
-
-1. Override the `Process` method
-
-	**C#**
-
-		protected override IAsyncUploadResult Process(UploadedFile file, 
-			HttpContext context, 
-			IAsyncUploadConfiguration configuration, 
-			string tempFileName)			
-
-	**VB**
-
-		Protected Overrides Function Process(ByVal file As UploadedFile, 
-											 ByVal context As HttpContext, 
-											 ByVal configuration As IAsyncUploadConfiguration, 
-											 ByVal tempFileName As String) As IAsyncUploadResult
-			
-		End Function	
-
+		````
+  
 1. Set the path to the custom handler in the RadAsyncUpload through its `HttpHandlerUrl` property:
 
 	**ASPX**
