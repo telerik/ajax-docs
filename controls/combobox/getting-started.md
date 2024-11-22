@@ -54,7 +54,7 @@ This tutorial will walk you through creating a **RadComboBox** and shows how to:
 
 ## Binding to an AccessDataSource
 
-* In order to [bind the RadComboBox to an AccessDataSource]({%slug combobox/data-binding/binding-to-asp-datasource-components%}), you must first have a DataSource component on your page. Drag an **AccessDataSource** component from the Toolbox onto the same page where your RadComboBox is.
+* In order to [bind the RadComboBox to an AccessDataSource]({%slug combobox/data-binding/server-side/binding-to-asp-datasource-components%}), you must first have a DataSource component on your page. Drag an **AccessDataSource** component from the Toolbox onto the same page where your RadComboBox is.
 
 ![ComboBox Access Data Source](images/combobox_accessdatasource.png "ComboBox Access Data Source")
 

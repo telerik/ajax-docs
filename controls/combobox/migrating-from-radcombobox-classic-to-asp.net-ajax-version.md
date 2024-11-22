@@ -135,7 +135,7 @@ protected void RadComboBox1_ItemsRequested(object sender, RadComboBoxItemsReques
 | ------ | ------ |
 | **_Properties_** ||
 |ContentFile|Removed: The **LoadContentFile** method should be used instead.|
-|ExternalCallbackPage|Removed: An external streamer page is no longer needed. The items' population of the RadComboBox should be done via [WebService]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) instead.|
+|ExternalCallbackPage|Removed: An external streamer page is no longer needed. The items' population of the RadComboBox should be done via [WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}) instead.|
 |IsCallBack|Removed: The **Page.IsCallBack** property should be used instead.|
 |Value|Removed: With the new **RadComboBox for ASP.NET AJAX** , the **SelectedValue** property is persisted on the server even when the items are loaded on demand. Therefore, the Value property is no longer needed.|
 |RadComboBoxItemsRequestedEventArgs.ClientDataString|Removed: The **RadComboBoxItemsRequestedEventArgs.Context** property should be used instead. It returns an object of type **IDictionary** .|

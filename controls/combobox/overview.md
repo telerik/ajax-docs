@@ -22,11 +22,11 @@ position: 0
 
 	* [declarative binding]({%slug combobox/radcombobox-items/declaring-the-items-in-line%})
 
-	* [binding to different types of data source components]({%slug combobox/data-binding/binding-to-asp-datasource-components%})
+	* [binding to different types of data source components]({%slug combobox/data-binding/server-side/binding-to-asp-datasource-components%})
 
-	* [populating from XML]({%slug combobox/radcombobox-items/loading-items-from-xml%})
+	* [populating from XML]({%slug combobox/data-binding/server-side/loading-items-from-xml%})
 
-	* [populating items through a WebService]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}).
+	* [populating items through a WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}).
 
 * [Load-on-demand]({%slug combobox/load-on-demand/overview%}) support for faster performance when the combobox has many items.
 
