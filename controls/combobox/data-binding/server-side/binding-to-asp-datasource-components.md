@@ -21,6 +21,19 @@ RadComboBox supports binding to all ASP.NET DataSource components, including:
 - [Binding to SqlDataSource](#binding-to-sqldatasource)
 - [Binding to XmlDataSource](#binding-to-xmldatasource)
 
+
+## Databinding Properties
+
+The following properties are used when binding RadComboBox to a data source
+
+| Property          | Description   |
+| ---               | ---           |
+| `DataSourceID`    | Set to the ID of your data source. This is mandatory when binding RadComboBox declaratively. |
+| `DataSource`      | Set to an instance of your data source. This is mandatory when binding RadComboBox at runtime. |
+| `DataMember`      | Set the name of a specific Table in the data source. E.g. When binding the Combo to a `DataSet` object, this property will point to the respective `DataTable` object by the name.
+| `DataTextField`   | Set the name of the data source field to map it to Item's `Text` property. |
+| `DataValueField`  | Set the name of the data source field to map it to Item's `Value` property. |
+
 ## Binding to AccessDataSource
 
 >caption Markup
