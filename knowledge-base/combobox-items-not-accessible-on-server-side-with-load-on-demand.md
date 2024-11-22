@@ -10,7 +10,7 @@ res_type: kb
 
 ## DESCRIPTION
 
-RadComboBox items loaded on demand using the [ItemsRequested event]({%slug combobox/server-side-programming/itemsrequested%}), [ASMX WebService]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) or [WCF WebService]({%slug combobox/load-on-demand/loading-items-from-wcf-service%}) do not exist on the server, therefore they cannot be accessed.
+RadComboBox items loaded on demand using the [ItemsRequested event]({%slug combobox/server-side-programming/itemsrequested%}), [ASMX WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}) or [WCF WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}) do not exist on the server, therefore they cannot be accessed.
 
 >important The following properties and methods will not yield results:
 >- **FindItemByText** - returns `null` / `Nothing`
@@ -157,7 +157,7 @@ End Sub
 
 - [Load On Demand]({%slug combobox/load-on-demand/overview%})
 - [ItemsRequested event]({%slug combobox/server-side-programming/itemsrequested%})
-- [Loading Items using ASMX WebService]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
-- [Loading Items using WCF WebService]({%slug combobox/load-on-demand/loading-items-from-wcf-service%})
+- [Loading Items using ASMX WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%})
+- [Loading Items using WCF WebService]({%slug combobox/data-binding/client-side/loading-items-from-webservice%})
 
  

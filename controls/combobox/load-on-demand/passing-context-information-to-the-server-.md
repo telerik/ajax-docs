@@ -12,7 +12,7 @@ position: 6
 
 
 
-On the client side, you can use the client-side **OnClientItemsRequesting** event to set attributes of the context object that is passed to the server along with the request for items. The context object is an object of type **IDictionary**. After the **OnClientItemsRequesting** event, it is made available to the ItemsRequested event handler or to the [Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) that supplies items to the combobox.
+On the client side, you can use the client-side **OnClientItemsRequesting** event to set attributes of the context object that is passed to the server along with the request for items. The context object is an object of type **IDictionary**. After the **OnClientItemsRequesting** event, it is made available to the ItemsRequested event handler or to the [Web Service]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}) that supplies items to the combobox.
 
 ## Using context information with a WebService
 

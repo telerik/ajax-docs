@@ -66,4 +66,4 @@ A sample project can be seen here: [Load On Demand](https://demos.telerik.com/as
 
  * [Load-on-Demand Overview]({%slug combobox/load-on-demand/overview%})
 
- * [Loading Items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
+ * [Loading Items from a Web Service]({%slug combobox/data-binding/client-side/loading-items-from-webservice%})

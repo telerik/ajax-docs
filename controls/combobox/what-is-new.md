@@ -92,7 +92,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Animations are using the jQuery library now
 
-* Added new property **UseHttpGet** to the [WebServiceSettings]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) properties. By default its value is *False*.
+* Added new property **UseHttpGet** to the [WebServiceSettings]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}) properties. By default its value is *False*.
 
 ## What's New in RadComboBox for ASP.NET AJAX Q3 2008 SP2 (Version Number 2008.3.1314)
 

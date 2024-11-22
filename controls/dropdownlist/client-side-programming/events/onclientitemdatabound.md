@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The **OnClientItemDataBound** client-side event occurs for each item that is created during [WebService(including if ODataSource is used)]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}).
+The **OnClientItemDataBound** client-side event occurs for each item that is created during [WebService(including if ODataSource is used)]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}).
 
 The event handler receives two parameters:
 

@@ -44,7 +44,7 @@ There are a number of ways you can control the items that **RadComboBox** holds.
 
 * [Specify the items in-line]({%slug combobox/radcombobox-items/declaring-the-items-in-line%}) at design time.
 
-* Load the items from an [XML file]({%slug combobox/radcombobox-items/loading-items-from-xml%}).
+* Load the items from an [XML file]({%slug combobox/data-binding/server-side/loading-items-from-xml%}).
 
 * [Bind RadComboBox]({%slug combobox/data-binding/overview%}) to a data source.
 

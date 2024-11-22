@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The **OnClientItemDataBound** client-side event occurs for each item that is created during [WebService Load on Demand]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}). This event is added in 2008 Q3 SP2 release (Telerik.Web.UI.dll v.2008.3.1314).
+The **OnClientItemDataBound** client-side event occurs for each item that is created during [WebService Load on Demand]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}). This event is added in 2008 Q3 SP2 release (Telerik.Web.UI.dll v.2008.3.1314).
 
 The event handler receives two parameters:
 
@@ -50,6 +50,6 @@ function onItemDataBound(sender, eventArgs)
 
 # See Also
 
- * [Loading Items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
+ * [Loading Items from a Web Service]({%slug combobox/data-binding/client-side/loading-items-from-webservice%})
 
  * [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand](https://www.telerik.com/blogs/radcombobox-and-asp-net-ajax-4-0-preview-ndash-using-client-side-templates-and-webservice-load-on-demand)

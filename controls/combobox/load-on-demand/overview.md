@@ -26,7 +26,7 @@ To use the Load-On-Demand mechanism, you need to:
 >
 
 
-* Use the **WebServiceSettings** property so that RadComboBox [loads the items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}).
+* Use the **WebServiceSettings** property so that RadComboBox [loads the items from a Web Service]({%slug combobox/data-binding/client-side/loading-items-from-webservice%}).
 
 When the user types in the input area or clicks on the drop-down toggle image when there are no items in the RadComboBox, the **[OnClientItemsRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})** event fires on the client, followed by an **[ItemsRequested]({%slug combobox/server-side-programming/itemsrequested%})** event on the server. Once the new items have been added to RadComboBox, an **[OnClientItemsRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})** event fires on the client.
 
