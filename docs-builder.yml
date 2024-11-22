@@ -1203,6 +1203,12 @@ meta:
   "*combobox/data-binding":
     title: Data Binding
     position: 10
+  "*combobox/data-binding/client-side":
+    title: Client-side
+    position: 1
+  "*combobox/data-binding/server-side":
+    title: Server-side
+    position: 2
   "*combobox/templates":
     title: Templates
     position: 9
