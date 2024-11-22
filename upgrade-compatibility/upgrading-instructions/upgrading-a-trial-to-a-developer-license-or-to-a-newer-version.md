@@ -39,6 +39,8 @@ The automatic upgrade is possible if you use the UI for ASP.NET AJAX Visual Stud
 
 1. Use the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) to upgrade the control in your project.
 
+>tip The Upgrade Wizard does not modify the `<bindingRedirect>` sections in the web.config file or the entries in the `licenses.licx` file. If you encounter errors such as "Could not load file or assembly 'Telerik.Web.UI'" after an upgrade, check that the web.config includes binding redirects for old assembly versions. Additionally, ensure the `licenses.licx` file does not contain outdated entries; deleting the file contents, saving it and rebuilding the solution can regenerate it with the correct references.
+
 ### Manual Upgrade
 
 The manual upgrade gives you the freedom to control each step of the process. In short, you just need to replace the assembly references with the new ones.
@@ -69,9 +71,9 @@ The following steps ensure a safe upgrade:
 
 1. Make sure you have all [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
 
->tip As with any ASP.NET project, it is often helpful to clear the ASP Temporary files and the browser cache.
+>tip As with any ASP.NET project, it is often helpful to clear the ASP Temporary files and the browser cache. Additionally, ensure that the <bindingRedirect> sections in the web.config file are updated to match the new assembly versions to avoid errors such as "Could not load file or assembly 'Telerik.Web.UI'". Also, check the licenses.licx file for outdated entries; deleting this file contents and rebuilding the solution will regenerate it with the correct references.
 >
-> * You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc.
+> You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc.
 
 ## Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET AJAX
 
