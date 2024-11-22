@@ -190,4 +190,4 @@ function ChangeEnabledState(shouldEnable) {
 
  * [RadComboBoxItem Object]({%slug combobox/client-side-programming/objects/radcomboboxitem-object%})
 
- * [Client-side Binding with RadClientDataSource]({%slug combobox/data-binding/client-side/binding-to-clientdatasource%})
+ * [Client-side Binding with RadClientDataSource]({%slug combobox/data-binding/client-side/binding-to-radclientdatasource%})
