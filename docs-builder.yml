@@ -1937,6 +1937,11 @@ redirects:
     type: Permanent
 
 -
+    from: "^/controls/combobox/data-binding/(binding-to-datatable,-dataset,-or-dataview|binding-to-array-or-arraylist)$"
+    to: "/controls/combobox/data-binding/server-side/binding-to-collections"
+    type: Permanent
+
+-
     from: "(?<=/)pdfprocessing/(.*)"
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
