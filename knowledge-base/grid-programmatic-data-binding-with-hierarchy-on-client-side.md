@@ -114,12 +114,27 @@ Steps to implement this solution:
         let masterTable = sender.get_masterTableView();
         masterTable.PageSize = 10;
 
-        let dataSource = getDataSource(masterTable);
+        bindTableView(masterTable);
 
-        masterTable.set_dataSource(dataSource);
-        masterTable.dataBind();
+        $(sender.get_element()).removeClass('hidden');
+    }
 
-        let dataItems = masterTable.get_dataItems();
+    /** Data Binding on User action (e.g. Sorting, Filtering, Paging) */
+    function RadGrid1_OnCommand(sender, args) {
+        args.set_cancel(true);
+
+        let tableView = args.get_tableView();
+        bindTableView(tableView);
+    }
+
+    /** Helper Functions */
+    function bindTableView(tableView) {
+        let dataSource = getDataSource(tableView);
+
+        tableView.set_dataSource(dataSource);
+        tableView.dataBind();
+
+        let dataItems = tableView.get_dataItems();
 
         dataItems.forEach(function (dataItem) {
             let detailTables = dataItem.get_nestedViews();
@@ -132,22 +147,8 @@ Steps to implement this solution:
                 tableView.dataBind();
             });
         });
-
-        $(sender.get_element()).removeClass('hidden');
     }
 
-    /** Data Binding on User action (e.g. Sorting, Filtering, Paging) */
-    function RadGrid1_OnCommand(sender, args) {
-        args.set_cancel(true);
-
-        let tableView = args.get_tableView();
-        let dataSource = getDataSource(tableView);
-
-        tableView.set_dataSource(dataSource);
-        tableView.dataBind();
-    }
-
-    /** Helper Functions */
     function getDataSource(tableView) {
         if (tableView) {
             let name = tableView.get_name();
