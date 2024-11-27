@@ -10,7 +10,7 @@ position: 3
 
 # Getting Started with the Telerik WebForms Scheduler
 
-
+>As of Telerik version **2024 Q4 (2024.1114)** RadScheduler uses `Newtonsoft.Json` (>= 13.0.3). This assembly should be referenced in the project.
 
 This tutorial will walk you through creating a **RadScheduler** and shows how to:
 
