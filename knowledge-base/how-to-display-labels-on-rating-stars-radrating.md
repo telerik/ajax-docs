@@ -55,11 +55,11 @@ To display a label for each star in the RadRating control, utilize the title att
 ```aspx
 <telerik:RadRating RenderMode="Lightweight" ID="RadRating2" runat="server" ItemCount="5" Value="3">
     <Items>
-        <telerik:RadRatingItem Value="1" Title="1"></telerik:RadRatingItem>
-        <telerik:RadRatingItem Value="2" Title="2"></telerik:RadRatingItem>
-        <telerik:RadRatingItem Value="3" Title="3"></telerik:RadRatingItem>
-        <telerik:RadRatingItem Value="4" Title="4"></telerik:RadRatingItem>
-        <telerik:RadRatingItem Value="5" Title="5"></telerik:RadRatingItem>
+        <telerik:RadRatingItem Value="1"></telerik:RadRatingItem>
+        <telerik:RadRatingItem Value="2"></telerik:RadRatingItem>
+        <telerik:RadRatingItem Value="3"></telerik:RadRatingItem>
+        <telerik:RadRatingItem Value="4"></telerik:RadRatingItem>
+        <telerik:RadRatingItem Value="5"></telerik:RadRatingItem>
     </Items>
 </telerik:RadRating>
 ```
