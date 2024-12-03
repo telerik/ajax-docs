@@ -35,6 +35,5 @@ position: 10
 
 | Cloud Storage Provider | File API Module | IFrame Module |
 | ------ | ------ | ------ |
-| **Telerik Backend Services (formerly Everlive)** |Chunks are disabled. File is submitted with a form.|Chunks are disabled. File is submitted with a form.|
 | **Azure Blob Storage** |File is uploaded on chunks. Chunk size is 2MB.|Chunks are disabled. File is submitted with a form.|
 | **Amazon S3** |File is uploaded on chunks. Chunk size is 5MB.|Chunks are disabled. File is submitted with a form.|

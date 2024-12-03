@@ -16,6 +16,4 @@ slug: Telerik.Web.UI.CloudUploadProviderType
 
 ### Amazon `0`
 
-### Everlive `1`
-
 ### Azure `2`

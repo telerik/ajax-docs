@@ -42,7 +42,7 @@ The following example demonstrates the mandatory `web.config` additions needed b
 ````web.config
 <configuration>
     <!-- 
-        Required by RadCloudUpload to configure Cloud storage Providers (Amazon S3, Azure Blob Storage, Telerik Backend Services)
+        Required by RadCloudUpload to configure Cloud storage Providers (Amazon S3, Azure Blob Storage)
         It is mandatory to place the <configSection> as the first child of <configuration> element:
         Read more at: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/configsections-element-for-configuration
     -->
@@ -349,12 +349,10 @@ The following example demonstrates how to configure the CloudUpload provider set
 <telerik.web.ui>
     <radCloudUpload>
         <storageProviders>
-        <!-- Amazon S3 provider -->
-        <add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
-        <!-- Azure Blob provider -->
-        <add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
-        <!-- Telerik Backend services provider -->
-        <add name="Everlive" type="Telerik.Web.UI.EverliveProvider" AppKey="" uncommitedFilesExpirationPeriod="2"/>
+            <!-- Amazon S3 provider -->
+            <add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
+            <!-- Azure Blob provider -->
+            <add name="Azure" type="Telerik.Web.UI.AzureProvider" accountKey="" accountName="" blobContainer="" subFolderStructure="" ensureContainer="true" uncommitedFilesExpirationPeriod="2" defaultEndpointsProtocol="https" />
         </storageProviders>
     </radCloudUpload>
 </telerik.web.ui>
