@@ -66,6 +66,4 @@ End Class
 
  * [Amazon]({%slug cloudupload/cloud-storage-providers/amazon-s3%})
 
- * [Telerik Backend Services]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})
-
  * [Troubleshooting]({%slug cloudupload/troubleshooting%})

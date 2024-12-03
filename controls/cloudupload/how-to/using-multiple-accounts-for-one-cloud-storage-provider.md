@@ -12,7 +12,7 @@ position: 1
 
 
 
-In some scenarios it is needed to upload files in multiple accounts or containers (buckets) for one storage provider. This would require a special configuration. With the default **RadCloudUpload** configuration it is possible to have only one Cloud Storage Provider per type in the configuration file. For example you could have only one Amazon, Azure or Telerik Backend Services (formerly Everlive) configurations in the web.config file. The steps below show how to upload in multiple containers for one provider.
+In some scenarios it is needed to upload files in multiple accounts or containers (buckets) for one storage provider. This would require a special configuration. With the default **RadCloudUpload** configuration it is possible to have only one Cloud Storage Provider per type in the configuration file. For example you could have only one Amazon  or Azure configurations in the web.config file. The steps below show how to upload in multiple containers for one provider.
 
 >important All providers configuration is stored in the configuration files. It is not allowed to define provider's configuration in the markup of the control or through the code behind. This is because the configuration contains sensitive data (access key, secret key and etc.). By using it in that way it will not be passed from server to the client. At the sametime it will be accessible from the cloud upload's handler, where the actual uploading happens.
 >
@@ -103,8 +103,6 @@ In some scenarios it is needed to upload files in multiple accounts or container
 
 # See Also
 
- * [Configuring Telerik Backend Services Provider]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})
-
- * [Configuring Azure Blob Storage Provider]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})
+  * [Configuring Azure Blob Storage Provider]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})
 
  * [Configuring Amazon S3 Provider]({%slug cloudupload/cloud-storage-providers/amazon-s3%})

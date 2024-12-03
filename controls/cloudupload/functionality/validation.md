@@ -10,34 +10,46 @@ position: 2
 
 # Validation
 
+**RadCloudUpload** offers a built-in option to validate the file **size** and **extension** on **Client-side**. 
 
+>For **Server-side** validation, you will need to implement a [Custom Provider]({%slug cloudupload/custom-cloud-storage-providers/overview%}) and validate the files manually.
 
-## Basic Client Side Validation
+## Usage
 
-**RadCloudUpload** offers an easy way to validate the size and the file type of the uploaded file. To enable it just set **MaxFileSize** and **AllowedFileExtensions**. If selected file doesn't pass any of them then **OnClientValidationFailed** will be fired.#_ASPX_
+To validate the file size and extension, set the following properties:
 
-````ASP.NET		
-<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Everlive" OnClientValidationFailed="OnClientValidationFailed" AllowedFileExtensions=".png,.jpg" MaxFileSize="500 kB">
+- `MaxFileSize` - the maximum allowed size
+- `AllowedFileExtensions` - one or more allowed extensions separated by comma
+
+>caption Example
+
+````ASP.NET
+<telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" 
+  MaxFileSize="500 kB" 
+  AllowedFileExtensions=".png,.jpg" >
 </telerik:RadCloudUpload>
-````                
+````
 
-````JavaScript	
-function OnClientValidationFailed(sender, args) {
-  var errorMessage = args.get_message();
-  var fileName = args.get_filename();
-  alert(fileName + ' failed to upload. ' + errorMessage);
-}
-````                
+>note When the validation fails, CloudUpload triggers the [OnClientValidationFailed]({%slug cloudupload/client-side-programming/events/onclientvalidationfailed%}) Client-side event. To send a feedback to the user (alert, etc.), you can do so inside this event.
 
+## Custom Validation
 
+In addition to the built-in validation, you can add custom validations by utilizing some of the [Client-side events]({%slug cloudupload/client-side-programming/events%}) of RadCloudUpload.
 
-## Validate the Maximum Number of Uploaded Files
+### Allowed number of uploaded files
+
+You can limit the maximum number of files that can be uploaded, by counting them in the [OnClientFileUploading]({%slug cloudupload/client-side-programming/events/onclientfileuploading%}) event handler, and canceling the event to prevent uploading more than the number of files allowed.
+
+>caption Markup
 
 ````ASP.NET	
-<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Everlive"
-MultipleFileSelection="Automatic" OnClientFileUploading="OnClientFileUploading">
+<telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" 
+  MultipleFileSelection="Automatic" 
+  OnClientFileUploading="OnClientFileUploading">
 </telerik:RadCloudUpload>
 ````                
+
+>caption JavaScript
 
 ````JavaScript	
 function OnClientFileUploading(sender, args) {
@@ -50,6 +62,3 @@ function OnClientFileUploading(sender, args) {
   }
 }
 ````
-                
-
-

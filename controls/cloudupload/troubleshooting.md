@@ -63,12 +63,11 @@ Content
 * **Missing reference to Azure SDK** -  T*elerik.Web.UI.RadCloudUpload with ID='RadCloudUpload1' was unable to find a reference to Microsoft.WindowsAzure.StorageClient.dll. Please, make sure that you have added a reference to the this assembly in your project*. 
 
 
-* **Missing reference to Telerik Backend Services (formerly Everlive) SDK** -  *Telerik.Web.UI.RadCloudUpload with ID='RadCloudUpload1' was unable to find a reference to Telerik.Everlive.Sdk.dll. Please, make sure that you have added a reference to the this assembly in your project*. 
 
 
 * **Missing reference to Newtonsoft assembly** -  *Telerik.Web.UI.RadCloudUpload with ID='RadCloudUpload1' was unable to find a reference to Newtonsoft.Json.dll. Please, make sure that you have added a reference to the this assembly in your project*.
 
->note **RadCloudUpload** has a **EnableAssembliesDetection** property. By default it is enabled. This property indicates if **RadCloudUpload** should check whether the Amazon, Azure, Telerik Backend Services (and Newtonsoft) assemblies are referenced to the project.
+>note **RadCloudUpload** has a **EnableAssembliesDetection** property. By default it is enabled. This property indicates if **RadCloudUpload** should check whether the Amazon, and Azure assemblies are referenced to the project.
 
 ## Missing Handler Registration
 

@@ -24,7 +24,6 @@ There are a few simple requirements that allow file uploads (including [chunk fi
 >
 > * [Amazon S3 Buckets](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/cloud-storage-providers/amazon-s3)
 > * [Azure Blob Storage](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/cloud-storage-providers/azure-blob-storage)
-> * [Telerik Backend Services](https://docs.telerik.com/devtools/aspnet-ajax/controls/cloudupload/telerik-backend-services)
 
 ## Troubleshooting
 
@@ -42,4 +41,3 @@ Large files must be allowed by the server. For more details, see the [Uploading 
 * [Custom Upload Handler for RadAsyncUpload]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 * [Amazon S3 Buckets in RadCloudUpload]({%slug cloudupload/cloud-storage-providers/amazon-s3%})
 * [Azure Blob Storage in RadCloudUpload]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})
-* [Telerik Backend Services in RadCloudUpload]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})

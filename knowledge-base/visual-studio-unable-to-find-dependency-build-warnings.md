@@ -1,6 +1,6 @@
 ---
-title: Unable to Find Dependency (MICROSOFT.WINDOWSAZURE.STORAGE, TELERIK.EVERLIVE.SDK.NET35, AWSSDK.CORE, AWSSDK.S3) build warnings on Telerik.Web.UI.dll in Visual Studio
-description: You may experience build warnings when compiling a solution with Telerik.Web.UI.dll in Visual Studio. They might be due to that RadCloudUpload relies on external references to Amazon, Azure and Everlive storage providers.
+title: Unable to Find Dependency Microsoft.WindowsAzure.Storage, AWSSDK.CORE, AWSSDK.S3
+description: You may experience build warnings when compiling a solution with Telerik.Web.UI.dll in Visual Studio. They might be due to that RadCloudUpload relies on external references to Amazon and Azure storage providers.
 type: troubleshooting
 page_title: Visual Studio Build warnings on Telerik.Web.UI.dll
 slug: visual-studio-unable-to-find-dependency-build-warnings
@@ -26,8 +26,6 @@ You may get the following warnings when building a solution with Telerik.Web.UI.
 
 WARNING: Unable to find dependency 'MICROSOFT.WINDOWSAZURE.STORAGE' (Signature='31BF3856AD364E35' Version='3.0.2.0') of assembly 'Telerik.Web.UI.dll'
 
-WARNING: Unable to find dependency 'TELERIK.EVERLIVE.SDK.NET35' (Signature='B28C218413BDF563' Version='1.0.0.0') of assembly 'Telerik.Web.UI.dll'
-
 WARNING: Unable to find dependency 'AWSSDK.CORE' (Signature='885C28607F98E604' Version='3.3.0.0') of assembly 'Telerik.Web.UI.dll'
 
 WARNING: Unable to find dependency 'AWSSDK.S3' (Signature='885C28607F98E604' Version='3.3.0.0') of assembly 'Telerik.Web.UI.dll'
@@ -36,7 +34,7 @@ WARNING: Unable to find dependency 'AWSSDK.S3' (Signature='885C28607F98E604' Ver
 While those warnings do not influence the proper work of the solution, they might be annoying and the purpose of this blog post is to help you solve them out.
 
 ## Solution
-The references of the Telerik.Web.UI.dll assembly to MICROSOFT.WINDOWSAZURE.STORAGE, TELERIK.EVERLIVE.SDK.NET35, AWSSDK.CORE, AWSSDK.S3 are for the RadCloudUpload built-in support for the Amazon, Azure and Everlive cloud storages.
+The references of the Telerik.Web.UI.dll assembly to MICROSOFT.WINDOWSAZURE.STORAGE, AWSSDK.CORE, AWSSDK.S3 are for the RadCloudUpload built-in support for the Amazon and Azure cloud storages.
 
 What you can do in case your Visual Studio is warning you about those missing dependencies:
 
