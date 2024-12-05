@@ -2,10 +2,11 @@
 title: Master Detail Grids
 page_title: Master Detail Grids - RadGrid
 description: Check our Web Forms article about Master Detail Grids.
-slug: grid/data-binding/master-detail-grids
+slug: grid/hierarchical-grid-types-and-load-modes/master-detail-grids
 tags: master,detail,grids
 published: True
 position: 4
+previous_url: controls/grid/data-binding/master-detail-grids
 ---
 
 # Master Detail Grids
