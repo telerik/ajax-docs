@@ -2,11 +2,11 @@
 title: Tips When Binding to Custom Collections
 page_title: Tips When Binding to Custom Collections - RadGrid
 description: Check our Web Forms article about Tips When Binding to Custom Collections.
-slug: grid/data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
-previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
+slug: grid/data-binding/server-side/various-data-sources/tips-when-binding-to-custom-collections
 tags: tips,when,binding,to,custom,collections
 published: True
 position: 6
+previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections, controls/grid/data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
 ---
 
 # Tips When Binding to Custom Collections
