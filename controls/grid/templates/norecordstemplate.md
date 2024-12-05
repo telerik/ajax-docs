@@ -1,11 +1,12 @@
 ---
-title: Using NoRecordsTemplate
-page_title: Using NoRecordsTemplate - RadGrid
+title: NoRecordsTemplate
+page_title: NoRecordsTemplate - RadGrid
 description: Check our Web Forms article about Using NoRecordsTemplate.
-slug: grid/data-binding/using-norecordstemplate
-tags: using,norecordstemplate
+slug: grid/templates/norecordstemplate
+tags: norecordstemplate
 published: True
-position: 5
+position: 1
+previous_url: controls/grid/data-binding/using-norecordstemplate
 ---
 
 # Using NoRecordsTemplate

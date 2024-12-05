@@ -80,6 +80,6 @@ Links navigate you directly to **RadGrid** examples, help, or code library. You 
 
 ## Edit Templates
 
-The **Edit Templates** link lets you launch the template design surface for a particular template that the grid uses. You can select from a drop-down list of all possible templates, including templates for [template columns]({%slug grid/design-time/add-controls-to-column-templates%}), the [no records template]({%slug grid/data-binding/using-norecordstemplate%}), [pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%}), [command item template]({%slug grid/data-editing/commanditem/command-item-template%}), [edit form template]({%slug grid/data-editing/edit-mode/custom-edit-forms%}), global item template, or nested view template.
+The **Edit Templates** link lets you launch the template design surface for a particular template that the grid uses. You can select from a drop-down list of all possible templates, including templates for [template columns]({%slug grid/design-time/add-controls-to-column-templates%}), the [no records template]({%slug grid/templates/norecordstemplate%}), [pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%}), [command item template]({%slug grid/data-editing/commanditem/command-item-template%}), [edit form template]({%slug grid/data-editing/edit-mode/custom-edit-forms%}), global item template, or nested view template.
 
 ![RadGrid Smart Tag](images/grid_smart_tag.png)

@@ -28,7 +28,7 @@ The main steps when binding a hierarchical grid using the **DetailTableDataBind*
 
 1. Create the grid, either [statically]({%slug grid/create-radgrid/declarative-definition%}) or [dynamically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%}). Set the properties of the grid to provide the appearance and functionality you want. You must create and add **GridTableView** objects to the **DetailTables** collection of the **MasterTableView** and any detail tables that have their own nested details.
 
-1. Bind the master table view of the grid either [declaratively]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) or by assigning a [NeedDataSource event handler]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) to the grid. Optionally, you can assign data sources to the detail tables, which can subsequently be configured in the **DetailTableDataBind** event handler.
+1. Bind the master table view of the grid either [declaratively]({%slug grid/data-binding/server-side-binding/declarative-datasource%}) or by assigning a [NeedDataSource event handler]({%slug grid/data-binding/server-side/programmatic-databinding%}) to the grid. Optionally, you can assign data sources to the detail tables, which can subsequently be configured in the **DetailTableDataBind** event handler.
 
 1. Assign the **DetailTableDataBind** event handler to the grid.
 
@@ -40,7 +40,7 @@ The main steps when binding a hierarchical grid using the **DetailTableDataBind*
 
 For a live example that demonstrates binding a hierarchical grid using the **DetailTableDataBind** event, see [Hierarchy with DetailTableDataBind event](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DetailTableDataBind/DefaultCS.aspx).
 
->note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
+>note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/templates/norecordstemplate%})).
 >
 
 
