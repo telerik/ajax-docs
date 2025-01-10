@@ -47,12 +47,18 @@ Below are the common troubleshooting steps to solve this error:
 ````
 
 - Check for any nested web.config files
+- IIS Application Pool Settings - In some cases, issues arise due to IIS application pool settings. Specifically, the enableConfigurationOverride property, if set to false, prevents the application from reading or overriding settings in the web.config file. This can block the registration of HTTP handlers like Telerik.Web.UI.WebResource.axd.
+    Steps to Resolve:
+    - Verify the enableConfigurationOverride setting in the IIS configuration file (applicationHost.config).
+    - Ensure it is set to true.
+    
+    Location of applicationHost.config:
+    - %WINDIR%\System32\inetsrv\Config
+    - %WINDIR%\SysWOW64\inetsrv\Config
+ >Tip: Consult with your server administrator before modifying the applicationHost.config file to avoid unintended consequences.
 
-- Examine other support cases on the topic:
-
-- https://aspnetfaq.com/resolving-the-error-telerik-web-ui-webresource-axd-is-missing-in-web-config/
-
-- https://www.telerik.com/forums/telerik-web-ui-webresource-axd-is-missing-in-web-config 
+- Examine this forum discussion on the topic:
+        - https://www.telerik.com/forums/telerik-web-ui-webresource-axd-is-missing-in-web-config 
 
 ## See Also
 
