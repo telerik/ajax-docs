@@ -39,6 +39,7 @@ The use of an HttpHandler could lead to one of the following errors:
 * [Another HTTP handler is intercepting the dialogs request](#another-HTTP-handler-is-intercepting-the-dialogs-request)
 * [IIS 7 Integrated Mode](#IIS-7-Integrated-Mode)
 * [Nested web config files](#nested-web-config-files)
+* [IIS Application Pool Settings](#iis-application-pool-settings)
 * [The last resort solution](#the-last-resort-solution)
 
 
@@ -169,6 +170,24 @@ All you need to do is to manually register the HttpHandler for the IIS7 Integrat
 ### Nested web config files
 
 In case there are more than one web.config files in the web app/site/project make sure that the required dialog handler registrations are available in the web.config file placed in the root of the app. For more information see this KB article: [Register Telerik HTTP handlers in nested web.config](https://www.telerik.com/support/kb/aspnet-ajax/details/register-telerik-http-handlers-in-nested-web-config).
+
+### IIS Application Pool Settings
+
+The `enableConfigurationOverride` setting in IIS, when set to false, blocks the application from reading the web.config file, preventing the required handler registrations for Telerik dialogs.
+
+### Steps to Resolve:
+1. Locate the `applicationHost.config` file in:
+   - `%WINDIR%\System32\inetsrv\Config`
+   - `%WINDIR%\SysWOW64\inetsrv\Config`
+
+2. Ensure `enableConfigurationOverride` is set to `true` in the `<applicationPools>` section:
+   ````xml
+   <applicationPools>
+       <add name="YourAppPoolName" enableConfigurationOverride="true" />
+   </applicationPools>
+   ````
+
+3. Restart IIS to apply the changes.
  
 ### The last resort solution
 
