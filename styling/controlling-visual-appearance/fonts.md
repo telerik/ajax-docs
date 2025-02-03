@@ -91,8 +91,8 @@ WebComponentsIcons is the font used for rendering iconography in the Telerik UI 
 
 <style>
 @font-face {
-    font-family: "WebComponentsIcons";
-    src: url("https://d35islomi5rx1v.cloudfront.net/ajaxz/2024.4.1114/Common/WebComponentsIcons.woff") format("truetype");
+    font-family: WebComponentsIcons;
+    src: url(https://d35islomi5rx1v.cloudfront.net/ajaxz/2024.4.1114/Common/WebComponentsIcons.woff) format(truetype);
     font-display: swap;
 }
 
@@ -103,7 +103,7 @@ WebComponentsIcons is the font used for rendering iconography in the Telerik UI 
 }
 
 #fontcodes span.icon {
-    font-family: "WebComponentsIcons", monospace;
+    font-family: WebComponentsIcons, monospace;
     font-size: 42px;
     color: black;
 }
@@ -739,7 +739,7 @@ The following example demonstrates how to use the `@font-face` rule to load the 
 ```CSS
 <style>
     @font-face {
-        font-family: "WebComponentsIcons";
+        font-family: WebComponentsIcons;
         src: url("https://d35islomi5rx1v.cloudfront.net/ajaxz/2024.4.1114/Common/WebComponentsIcons.woff") format("truetype");
         font-display: swap;
     }
