@@ -1796,6 +1796,9 @@ meta:
   getting-started/installation:
     title: Download & Installation
     position: 10
+  getting-started/activating-your-license:
+    title: Activating Your License
+    position: 11
   knowledge-base:
     title: Knowledge Base
     position: 30
