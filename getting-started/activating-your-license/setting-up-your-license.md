@@ -32,7 +32,7 @@ An [invalid or missing license key results in app build warnings]({%slug getting
 
 ## Manual Installation
 
-To activate Telerik UI for ASP.NET AJAX, get the License Script Key from your Telerik profiles at <a href="https://www.telerik.com/account/your-licenses/license-keys" target="_blank">License Keys</a>.
+To activate Telerik UI for ASP.NET AJAX, get the License Script Key from your Telerik profile at <a href="https://www.telerik.com/account/your-licenses/license-keys" target="_blank">License Keys</a>.
 
 1. Search for `AJAX`.
 2. Click on `View key` next to the Progress® Telerik® UI for ASP.NET AJAX.
