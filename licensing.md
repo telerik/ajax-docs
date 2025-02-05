@@ -27,7 +27,13 @@ The free trial licenses of all Telerik products are fully functional and will wo
 
 For a Bill of Materials (BOM) and a list of the third party software (including open-source software), go to your Telerik controls installation folder `\LicenseAgreements\ThirdParty\NOTICE.txt`. For example, the default location for the R2 2018 SP1 release is `C:\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2018\LicenseAgreements\ThirdParty\NOTICE.txt`. For versions prior to R2 2018 SP1, the file is called `licenses.txt`.
 
-## .NET Licensing Mechanism
+## Current Licensing Mechanism
+
+Starting with the 2025 Q1 release, Telerik UI for ASP.NET AJAX requires activation through a license key (trial or commercial). To download your personal activation key and activate the Telerik UI for ASP.NET AJAX components, follow [License Key Installation]({%slug getting-started/activating-your-license/setting-up-your-license%}) steps.
+
+An invalid license results in [errors and warnings]({%slug getting-started/activating-your-license/license-key-errors%}) during build and run-time indicators such as watermarks and banners.
+
+## Old Licensing Mechanism
 
 As of Q1 2015, Telerik UI for ASP.NET AJAX uses the [standard .NET licensing mechanism](https://docs.microsoft.com/bg-bg/dotnet/framework/tools/lc-exe-license-compiler), which means that using the controls in design-time causes Visual Studio to add a `license.licx` to the solution.	This file is used only in design-mode and is not needed for deployment explicitly. The .NET framework (`lc.exe`) will	embed it in the assembly when your web application is built for deployment.
 
