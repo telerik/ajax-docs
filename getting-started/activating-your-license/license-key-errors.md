@@ -65,4 +65,3 @@ You are using a product version released outside the validity period of your per
 
 * [Download and Install License Key]({%slug getting-started/activating-your-license/setting-up-your-license%})
 * [Licensing FAQ]({%slug getting-started/activating-your-license/licensing-faq%})
-* [Use License Keys in CI/CD]({%slug deployment_license_key_aspnetcore%})
