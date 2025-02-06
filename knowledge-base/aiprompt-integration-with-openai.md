@@ -8,23 +8,19 @@ published: True
 res_type: kb
 ---
 
-# OpenAI Integration
+## Description
 
 The WebForms AIPrompt allows you to easily integrate it with a Chat API service such as ChatGPT. This is thanks to the [OnPromptRequest]({%slug aiprompt/client-side-programming/events#prompt-request%}) event that returns the input text (prompt), and sets the output.
-
-### Using with an OpenAI key
 
 If you have an OpenAI subscription, you can directly use it with the AIPrompt component.
 
 >note IMPORTANT: Never share your API key with anyone or push it to GitHub/GitLab! The key will automatically be disabled by OpenAI and you will need to create a new one.
 
-### Installing Required Dependencies
-
 Since we got the API key, now we need to install the **OpenAI** Nuget package, in order to use their services. Go to the Nuget Package Manager, search for OpenAI and install the package. For more information on the library itself, you can check [The official .NET library for the OpenAI API](https://github.com/openai/openai-dotnet).
 
 ![Installing OpenAI](images/aiprompt-openai-integration/nuget.png "Installing OpenAI")
 
-### Integration
+### Solution
 
 Now let's start the actual integration. For it, we will use the [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tehnique, to make code scalable for the future.
 
