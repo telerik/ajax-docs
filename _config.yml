@@ -157,6 +157,9 @@ navigation:
         position: 2
 
 ## List control directory names and order here, like this:
+    "controls/aiprompt":
+        title: "AIPrompt"
+        position: 1
     "controls/ajaxpanel":
         title: "AjaxPanel"
         position: 1
@@ -1979,6 +1982,7 @@ intro_columns:
   -
     title: "Conversational UI"
     items:
+      "AIPrompt": "aiprompt/overview"
       "Chat": "chat/overview"
   -
     title: "PDF"
