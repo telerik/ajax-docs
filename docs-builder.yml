@@ -1278,6 +1278,9 @@ meta:
   "*autocompletebox/client-side-programming/objects":
     title: Objects
     position: 4
+  "*aiprompt/templates":
+    title: Templates
+    position: 6
   controls/*/troubleshooting:
     title: Troubleshooting
     position: 60
@@ -1685,6 +1688,9 @@ meta:
     position: 1
   controls/ajaxpanel:
     title: AjaxPanel
+    position: 1
+  controls/aiprompt:
+    title: AIPrompt
     position: 1
   api/server:
     title: Server-side

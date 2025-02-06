@@ -24,6 +24,8 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
 
 {% include intro-page-table.html %}
 <!--
+* [AIPrompt]({%slug aiprompt/overview%})
+
 * [AjaxLoadingPanel]({%slug ajaxloadingpanel/overview%})
 
 * [AjaxManager]({%slug ajaxmanager/overview%})
@@ -254,6 +256,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
    <IntroTableColumn>
       <IntroTableSection title="Conversational UI">
          <IntroTableAnchor title="Chat" href="slug:chat/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="AIPrompt" href="slug:aiprompt/overview"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="PDF">
          <IntroTableAnchor title="Client Export Manager" href="slug:clientexportmanager/overview"></IntroTableAnchor>
