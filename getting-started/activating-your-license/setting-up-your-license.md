@@ -22,7 +22,7 @@ To install a license key, you must have a developer or trial license for:
 
 If you are new to Telerik UI for ASP.NET AJAX, <a href="https://www.telerik.com/aspnet-ajax" target="_blank">sign up for a free trial</a>.
 
-The `Telerik.UI.for.AspNet.Ajax.Net462` NuGet package [depends on the `Telerik.Licensing` NuGet package]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}#step-1-add-the-telerik-nuget-feed-to-visual-studio). During project build, the `Telerik.Licensing` package automatically verifies the license key and activates Telerik UI for ASP.NET AJAX in that project.
+The `Telerik.UI.for.AspNet.Ajax.Net462` NuGet package requires the [`Telerik.Licensing` NuGet package]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}#step-1-add-the-telerik-nuget-feed-to-visual-studio), which is available on [NuGet.org](https://www.nuget.org/packages/Telerik.Licensing). During project build, the `Telerik.Licensing` package automatically verifies the license key and activates Telerik UI for ASP.NET AJAX in that project.
 
 Follow the steps below for [manual](#manual-installation) license key installation in your local development environment. 
 
