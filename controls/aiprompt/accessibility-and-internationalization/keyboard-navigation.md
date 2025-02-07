@@ -2,7 +2,7 @@
 title: Keyboard Navigation
 page_title: AIPrompt Keyboard Navigation
 description: "Learn about the Keyboard Navigation of the WebForms AIPrompt"
-slug: templates/keyobard-navigation
+slug: aiprompt/accessibility/keyobard-navigation
 position: 3
 ---
 

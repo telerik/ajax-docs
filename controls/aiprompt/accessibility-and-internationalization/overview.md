@@ -8,7 +8,7 @@ position: 1
 
 # AIPrompt Accessibility
 
-The AIPrompt is accessible by screen readers and provides WAI-ARIA, Section 508, WCAG 2.2, and keyboard support. For more information, refer to [Keyboard navigation]({% slug accessibility/keyboard-navigation%}).
+The AIPrompt is accessible by screen readers and provides WAI-ARIA, Section 508, WCAG 2.2, and keyboard support. For more information, refer to [Keyboard navigation]({% slug aiprompt/accessibility/keyobard-navigation%}).
 
 ## WAI-ARIA
 
