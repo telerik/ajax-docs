@@ -44,7 +44,7 @@ The automatic upgrade is possible if you use the UI for ASP.NET AJAX Visual Stud
 
 >tip The Upgrade Wizard does not modify the `<bindingRedirect>` sections in the web.config file or the entries in the `licenses.licx` file. If you encounter errors such as "Could not load file or assembly 'Telerik.Web.UI'" after an upgrade, check that the web.config includes binding redirects for old assembly versions. Additionally, ensure the `licenses.licx` file does not contain outdated entries; deleting the file contents, saving it and rebuilding the solution can regenerate it with the correct references.
 
->warning As of Q1 2025 the `licenses.licx` file is removed and replaced with the new licensing mechanism. 
+>warning As of 2025 Q1 the `licenses.licx` file is removed and replaced with the new licensing mechanism. 
 
 ### Manual Upgrade
 
