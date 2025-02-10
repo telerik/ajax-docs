@@ -13,6 +13,9 @@ position: 0
 
 This article explains how to upgrade the version of the Telerik® UI for ASP.NET AJAX controls and how to switch from a Trial to a Developer license.
 
+>warning Starting with the 2025 Q1 release, the trial Telerik AJAX components require activation with a license key to function without interruption. For more information regarding the licensing review the 
+> [Setting Up Your License Key File]({%slug getting-started/activating-your-license/setting-up-your-license%}) and [FAQ]({%slug getting-started/activating-your-license/licensing-faq%}).
+
 ## Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX
 
 To upgrade the Telerik controls in your project:
@@ -40,6 +43,8 @@ The automatic upgrade is possible if you use the UI for ASP.NET AJAX Visual Stud
 1. Use the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) to upgrade the control in your project.
 
 >tip The Upgrade Wizard does not modify the `<bindingRedirect>` sections in the web.config file or the entries in the `licenses.licx` file. If you encounter errors such as "Could not load file or assembly 'Telerik.Web.UI'" after an upgrade, check that the web.config includes binding redirects for old assembly versions. Additionally, ensure the `licenses.licx` file does not contain outdated entries; deleting the file contents, saving it and rebuilding the solution can regenerate it with the correct references.
+
+>warning As of 2025 Q1 the `licenses.licx` file is removed and replaced with the new licensing mechanism. 
 
 ### Manual Upgrade
 
