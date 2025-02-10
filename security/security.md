@@ -35,7 +35,7 @@ These tips apply across many Telerik controls and help secure your application h
 
 * **Encrypt Telerik WebResource Querystring**: For extra security, encrypt the Telerik WebResource querystring by enabling the `Telerik.ScriptManager.EnableHandlerEncryption` setting. This hides product version information in the page markup. Follow the steps here: [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}).
 
-* **Regular Expression Timeout Settings** : To mitigate potential performance issues or vulnerabilities in regular expressions, a default timeout of 3 seconds is applied. You can customize this timeout by adding the `Telerik.RegexMatchTimeout` setting in your web.config file. Specify the timeout duration (in seconds) to suit your application needs:
+* **Regular Expression Timeout Settings**: To mitigate potential performance issues or vulnerabilities in regular expressions, a default timeout of 3 seconds is applied. You can customize this timeout by adding the `Telerik.RegexMatchTimeout` setting in your web.config file. Specify the timeout duration (in seconds) to suit your application needs:
 
    ```XML
    <appSettings>
@@ -45,6 +45,13 @@ These tips apply across many Telerik controls and help secure your application h
 
    This ensures that long-running regular expressions do not hang indefinitely, helping to protect your application from potential ReDoS (Regular Expression Denial of Service) attacks.
 
+* **Document Format Provider Timeout Settings**: Starting with the 2025 Q1 release, a default timeout of 10 seconds is applied to ensure consistent performance during import and export operations. You can customize this timeout by adding the `Telerik.DplFormatProviderTimeout` setting in your web.config file. Specify the timeout duration (in seconds) to suit your application needs:
+
+  ```XML
+   <appSettings>
+      <add key="Telerik.DplFormatProviderTimeout" value="15"/>
+   </appSettings>
+  ```
 
 * **Embedded jQuery Security**: Telerik ASP.NET AJAX components embed a custom, secure version of jQuery. Learn about the security enhancements and modifications made to ensure safe usage of jQuery within Telerik controls: [Embedded jQuery Security]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#embedded-jquery-security). 
 
