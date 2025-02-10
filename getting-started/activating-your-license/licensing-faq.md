@@ -15,7 +15,7 @@ This article lists the answers to the most frequently asked questions (FAQs) abo
 Yes, the license key expires at the end of your subscription:
 
 * For trial users, this is at the end of your 30-day trial period.
-* For commercial license holders, this is when your subscription term expires.
+* For commercial license holders (as of Q2 2025), this is when your subscription term expires. 
 
 You need to download and install a new license key after:
 

@@ -9,7 +9,7 @@ position: 0
 
 # Setting Up Your License Key File
 
-Telerik UI for ASP.NET AJAX requires activation through a license key for both trial and commercial licenses. This article describes how to download your personal license key and use it to activate the UI for ASP.NET AJAX components.
+Telerik UI for ASP.NET AJAX requires activation through a license key for trial licenses. This article describes how to download your personal license key and use it to activate the UI for ASP.NET AJAX components.
 
 >note Starting with Telerik UI for ASP.NET AJAX 2025 Q1 release, you must activate the UI components by providing a license key file. Previous versions do not require a license key.
 
