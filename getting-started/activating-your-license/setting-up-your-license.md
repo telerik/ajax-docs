@@ -28,6 +28,10 @@ Follow the steps below for [manual](#manual-installation) license key installati
 
 An [invalid or missing license key results in app build warnings]({%slug getting-started/activating-your-license/license-key-errors%}) and watermarks in the application UI.
 
+A missing license file causes a banner and a watermark to appear:
+
+![Grid with watermarks](../images/watermark.png "Grid with watermarks")
+
 >warning The license key file is personal and confidential. Do not commit this file to source control and do not save it to a publicly accessible location!
 
 ## Manual Installation
