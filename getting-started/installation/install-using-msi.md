@@ -1,15 +1,15 @@
 ---
-title: First Steps with MSI
+title: Install using MSI
 page_title: First Steps with MSI Installation
 description: "Get started with Telerik UI for ASP.NET AJAX and learn how to install the controls from an MSI file, and then build and run a sample application."
-slug: introduction/installation/installing-the-telerik-controls-from-msi-file
-previous_url: installation/installing-the-telerik-controls-from-msi-file, getting-started/first-steps
+slug: getting-started/installation/install-using-msi
+previous_url: installation/installing-the-telerik-controls-from-msi-file, getting-started/first-steps, getting-started/first-steps-msi
 tags: installing, telerik, controls, msi, file
 published: True
 position: 1
 ---
 
-# First Steps by Installing with an MSI File
+# Installing Telerik UI for ASP.NET AJAX using an MSI Installer File
 
 The Telerik UI for ASP.NET AJAX library provides an option for installing its controls by downloading and executing the MSI file, which contains the suite.  
 

@@ -1,23 +1,24 @@
 ---
-title: First Steps with ZIP
-page_title: First Steps with ZIP Installation
-description: "Get started with Telerik UI for ASP.NET AJAX and learn how to install the controls from a ZIP file, and then build and run a sample application."
-slug: introduction/installation/installing-the-telerik-controls-from-zip-file
-previous_url: installation/installing-the-telerik-controls-from-zip-file
-tags: installing, telerik, controls, from, zip, file
+title: Install from NuGet
+page_title: First Steps with NuGet Installation
+description: "Get started with Telerik UI for ASP.NET AJAX and learn how to install the controls from a NuGet package, and then build and run a sample application."
+slug: getting-started/installation/install-from-nuget
+previous_url: installation/installing-the-telerik-controls-from-nuget-package,getting-started/first-steps-nuget
+tags: installing, telerik, controls, nuget, package
 published: True
 position: 2
 ---
 
-# First Steps by Installing with a ZIP File
+# Installing Telerik UI for ASP.NET AJAX from NuGet Feed
 
-The Telerik UI for ASP.NET AJAX library provides an option for installing its controls by downloading and executing the ZIP file, which contains the suite.  
 
-The ZIP file is used to manually install, upgrade, or update the suite in your web application or website. To proceed with the ZIP installation, you need to be familiar with ASP.NET, IIS, setting permissions, and creating virtual folders. Commonly, the ZIP is installed directly in `inetpub/wwwroot`.
+[NuGet](https://www.nuget.org/) is a popular .NET package manager. Progress maintains the Telerik NuGet Feed for registered users and you can include the Telerik UI for ASP.NET AJAX suite in your project as well as update to the latest available version from there. Installing the Telerik UI for ASP.NET AJAX library with NuGet works both for Windows and MacOS machines.
 
-This tutorial describes how to get up and running with Telerik UI for ASP.NET AJAX by downloading and installing the controls from the ZIP file.
+>The [legacy Telerik NuGet server](https://nuget.telerik.com/nuget) is now deprecated. Make sure to switch to the [new Telerik NuGet server](https://nuget.telerik.com/v3/index.json), which is faster, lighter, and reduces the number of requests from your NuGet client.
 
-* First, you will install the Telerik UI for ASP.NET AJAX library from a ZIP file and run the demos.
+This tutorial describes how to get up and running with the Telerik UI for ASP.NET AJAX library by downloading and installing the controls with NuGet.
+
+* First, you will add the Telerik NuGet feed to Visual Studio and install the Telerik UI for ASP.NET AJAX library.
 * Next, you'll create your ASP.NET AJAX application and add the Editor control to it.
 * Then, you will dive deeper by defining the HtmlChart control and binding it to sample data.
 * Finally, you will add some styling to the controls.
@@ -32,41 +33,60 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. [Install .NET Framework 4.5 or later](https://dotnet.microsoft.com/en-us/download).
 
-1. [Install ASP.NET AJAX](https://docs.microsoft.com/en-us/aspnet/web-forms/videos/aspnet-ajax/how-do-i-get-started-with-aspnet-ajax) on your development or production machine. ASP.NET AJAX is available in the .NET 4.x+ installations.
+1. [Install the ASP.NET Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/) on your development or production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8 installations.
 
 1. If a new user, [create a Telerik account](https://www.telerik.com/account/).
 
-## Step 1: Install Telerik UI for ASP.NET AJAX
+## Step 1: Add the Telerik NuGet Feed to Visual Studio
 
-After successfully providing the prerequisites, you will install the suite from the ZIP file without IIS running:
+Adding the Telerik NuGet feed to Visual Studio allows you to quickly install the required Telerik packages to your project.
 
-1. Log into your [Telerik account](https://www.telerik.com/account/) and click **Downloads** from the top menu.
+The following video demonstrates the steps for adding the Telerik NuGet feed to Visual Studio. If you prefer, however, you can follow the steps that are listed in writing after the video.
 
-1. On the loaded [page](https://www.telerik.com/account/product-download?product=RCAJAX) choose from your purchased products or trial downloads Telerik® UI for ASP.NET AJAX, and click on it.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Download the **Manual installation** (`Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev.zip`) file and extract its content to a convenient location.
+To configure the Telerik NuGet Feed in Visual Studio:
 
->note Unlike the Telerik UI for ASP.NET AJAX MSI package installation, the Zip package does not automatically add the UI components to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
+1. Open Visual Studio and go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
+
+1. Select **Package Sources** and then click the **+** button to add a new package source.
+
+1. Enter a **Name** for the new package source, for example, **Telerik NuGet**.
+
+1. Add the `https://nuget.telerik.com/v3/index.json` URL as a **Source**. Click **OK**.
+
+	>caption The Visual Studio NuGet package manager and the Telerik NuGet feed
+
+	![Visual Studio NuGet Package Manager and Telerik NuGet Feed](images/telerik-nuget-feed-in-npm.png)
+
+## Step 2: Install Telerik UI for ASP.NET AJAX
+
+Now that you have successfully added the Telerik NuGet feed as a package source, you need to authenticate your local NuGet instance, display the available packages, and install Telerik UI for ASP.NET AJAX:
+
+1. Create a new WebForms project or open an existing one.
+
+1. Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
+
+1. Select the Telerik NuGet **Package source** from the drop-down list on the left.
+
+1. Select the **Browse** tab to see the available packages. In older Visual Studio versions, this tab is called **Online**.
+
+1. Enter your Telerik credentials in the Windows Authentication dialog.
+
+	>caption Enter your Telerik credentials to access the Telerik NuGet feed
+
+	![Enter your Telerik.com credentials](images/telerik-nuget-credentials.png)
+
+1. Select the desired Telerik UI for ASP.NET AJAX package and click **Install**. To select the correct package version for your project, the .NET version of your project must correspond to the `.Net<version>` portion of the package name. For example, the correct package for `.NET Framework 4` projects is `Telerik.UI.for.AspNet.Ajax.Net40`.
+
+	>caption Add the Telerik UI for ASP.NET AJAX package to the solution
+
+	![Adding the Telerik® UI for ASP.NET AJAX package to the solution](images/add-telerik-package.png)
+	
+	
+>note Unlike the Telerik UI for ASP.NET AJAX MSI package installation, the NuGet package does not automatically add the UI components to the Visual Studio toolbox. To add them manually, refer to the article on [adding the Telerik controls to the Visual Studio toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}).
 >
-> Additionally, the zip does not install the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which are valuable tools for WebForms developers working with the Telerik ASP.NET Web Forms components. However, these extensions can be downloaded and installed as a separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
-
-## Step 2: Upgrade an Existing Telerik UI for ASP.NET AJAX Project
-
-The files from the ZIP installation are usually used for manual upgrading of an already existing Telerik UI for ASP.NET AJAX Project. The following steps ensure a safe upgrade:
-
-1. Back up your project.
-
-1. Delete the old `Telerik.Web.UI.*` references from the project and close it. As with any ASP.NET project, it is helpful to clear the ASP.NET Temporary files and the browser cache.
-
-1. Open the **Bin** folder of your project in Windows Explorer and delete the old `Telerik.Web.UI.*` assemblies.
-
-1. Copy the new assemblies from the `Bin462` folder in the UI for ASP.NET AJAX installation path and paste them to the `Bin` folder of your project.
-
-  You can use the copy-and-replace method to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}), localization files (`~/App_GlobalResources`), dialogs (ImageEditor, Editor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), and so on.
-
-1. Open the project in Visual Studio and add references to the Telerik assemblies.
-
-1. Make sure you have all [necessary `web.config` registrations]({%slug general-information/web-config-settings-overview%}).
+> Additionally, the NuGet does not install the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which are valuable tools for WebForms developers working with the Telerik ASP.NET Web Forms components. However, these extensions can be downloaded and installed as a separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
 
 ## Step 3: Add the Editor to Your Project
 
@@ -254,7 +274,7 @@ Telerik UI for ASP.NET AJAX provides more than [20 predefined skins]({% slug int
 ```
 
 >caption Apply the Glow skin to the Editor
-![Apply Glow Skin to Editor](images/getting-started-editor-skin.png)
+![Apply the Glow Skin to Editor](images/getting-started-editor-skin.png)
 
 That was it! Now you are ready to dive more deeply into Telerik UI for ASP.NET AJAX and take full advantage of its slick functionalities!
 
