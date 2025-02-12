@@ -2,8 +2,8 @@
 title: Frequently Asked Questions
 page_title: Licensing Frequently Asked Questions
 description: "Learn the answers to frequently asked questions about the Telerik UI for ASP.NET AJAX licensing."
-slug: getting-started/activating-your-license/licensing-faq
-position: 2
+slug: licensing/licensing-faq
+position: 3
 ---
 
 # Frequently Asked Questions
@@ -38,14 +38,14 @@ Scenarios that do not match the above three descriptions result in the following
 
 * A popup banner appears on application startup.
 * A watermark appears on Telerik UI for ASP.NET AJAX components.
-* [A warning message appears in the application's build log]({%slug getting-started/activating-your-license/license-key-errors%}).
+* [A warning message appears in the application's build log]({%slug licensing/license-errors-warnings%}).
 
 ## I updated the Telerik UI for ASP.NET AJAX version in my project and license errors appeared. Why?
 
 The most likely cause is that the new Telerik UI for ASP.NET AJAX version was released after the expiration date of your current license or license key. To fix this issue:
 
 1. Renew your Telerik UI for ASP.NET AJAX license if necessary.
-1. [Update your license key]({%slug getting-started/activating-your-license/setting-up-your-license%}#license-key-updates)
+2. Download a new [license key file]({%slug licensing/license-key%}#downloading-the-license-key) and use it to activate the components.
 
 ## Can I use the same license key in multiple builds?
 
@@ -57,25 +57,33 @@ No, the license validation and activation occur offline.
 
 ## Do I have to add the license key to source control?
 
-No, do not add the License key file (`TelerikLicense.cs` if you used the name from the [Manual Installation]({%slug getting-started/activating-your-license/setting-up-your-license%}#manual-installation) steps) or its contents to source control.
+No, you do not have to add the `telerik-license.txt` license key file or its contents to source control.
 
-Do not store the license key in plain text in GitHub Actions Workflow definitions.
+Do not store the license key in plain text, for example, in a GitHub Actions Workflow definition. Build servers must use the `TELERIK_LICENSE` environment variable described in [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%}).
+
+## What happens if both the environment variable and the license key file are present?
+
+If both the `TELERIK_LICENSE` environment variable and the `telerik-license.txt` file are present, then the environment variable will be used.
+
+To use the license key file, unset the environment variable.
+
+## What happens if several license key files exist?
+
+If both a global and a project-specific `telerik-license.txt` files exist, then the project-specific license key will be used.
 
 ## My team has more than one license holder. Which key do we have to use?
 
-To activate Telerik UI for ASP.NET AJAX:
-
 * [Every developer must be assigned their own license or seat](https://www.telerik.com/purchase/faq/licensing-purchasing).
 * Every developer must use a license key that is associated with their personal Telerik account.
+* In a CI/CD environment, use any of the license keys in your team.
 
 ## Are earlier Telerik UI for ASP.NET AJAX versions affected?
 
 No, versions up to **2024.4.1112** released prior to February 2025 do not require a license key.
 
-## Next Steps
-
-* [Set Up the Telerik NuGet Feed]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%}#step-1-add-the-telerik-nuget-feed-to-visual-studio)
-
 ## See Also
 
-* [Troubleshoot License Key Errors]({%slug getting-started/activating-your-license/license-key-errors%})
+* [Setting Up Your License Key]({%slug licensing/license-key%})
+* [License Activation Errors and Warnings]({%slug licensing/license-errors-warnings%})
+* [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
+ 
