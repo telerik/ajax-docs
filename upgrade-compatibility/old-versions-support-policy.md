@@ -48,10 +48,10 @@ Suggestions on how to implement a certain scenario or feature in your project to
 
 ## See Also
 
- * [License Agreement]({%slug introduction/licensing/license-agreement%})
+ * [License Agreement]({%licensing/overview%})
 
- * [Trial License Limitations]({% slug introduction/licensing/license-agreement %})
+ * [Trial License Limitations]({% licensing/overview %})
 
- * [License File]({% slug introduction/licensing/license-agreement %})
+ * [License File]({% licensing/overview %})
 
  * [Upgrade Your Project]({% slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version %})

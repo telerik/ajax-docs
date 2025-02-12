@@ -393,4 +393,4 @@ For any issues you might come across while working with Telerik UI for ASP.NET A
 * [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
 * [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
 * [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
-* [Trial and Commercial Telerik UI for ASP.NET AJAX License and License Agreement]({% slug introduction/licensing/license-agreement %})
+* [Trial and Commercial Telerik UI for ASP.NET AJAX License and License Agreement]({% licensing/overview %})

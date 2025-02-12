@@ -74,7 +74,7 @@ In addition to the steps for getting up and running with Telerik UI for ASP.NET 
 
 You can locally download `.nupkg` files and [build a private feed](https://www.telerik.com/blogs/power-your-projects-with-telerik---now-with-the-convenience-of-nuget) for your company.
 
-Such a feed must be private, that is, not available to the general Internet. Also, the developers working with the controls must have active licenses, that is, the standard developer-seat [licensing model]({%slug introduction/licensing/license-agreement%}) applies to that feed.
+Such a feed must be private, that is, not available to the general Internet. Also, the developers working with the controls must have active licenses, that is, the standard developer-seat [licensing model]({%licensing/overview%}) applies to that feed.
 
 To download `.nupkg` files locally:
 
