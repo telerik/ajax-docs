@@ -32,7 +32,18 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. If a new user, [create a Telerik account](https://www.telerik.com/account/).
 
-## Step 1: Install Telerik UI for ASP.NET AJAX
+## Install Telerik UI for ASP.NET AJAX
+
+- [Step 1: Download and Install the MSI installer](#step-1-download-and-install-the-msi-installer)
+- [Step 2: Download the Demos](#step-2-download-the-demos)
+- [Step 3: Create the ASP.NET AJAX Project](#step-3-create-the-asp-net-ajax-project)
+- [Step 4: Setup Your License Key](#step-4-setup-your-license-key)
+- [Step 5: Add the Editor to Your Project](#step-5-add-the-editor-to-your-project)
+- [Step 6: Add the HtmlChart to Your Project](#step-6-add-the-htmlchart-to-your-project)
+- [Step 7: Style the Controls](#step-7-style-the-controls)
+
+
+### Step 1: Download and Install the MSI installer
 
 1. Log into your [Telerik account](https://www.telerik.com/account/product-download?product=RCAJAX).
 
@@ -53,7 +64,7 @@ The following prerequisites are required for accomplishing the scenario in this 
 >
 > The MSI also installs the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) to help developers when creating, developing and/or upgrading webforms projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
 
-## Step 2: Download the Demos
+### Step 2: Download the Demos
 
 1. From the **Resources** section of same page, download the MSI installation for the Telerik UI for ASP.NET AJAX examples. Once you install them on your machine, you can launch the live demos in either of the following ways:
 
@@ -62,7 +73,7 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. Load the **Live Examples** solution to your Visual Studio and start the project by clicking `F5`. The fastest way to load the examples is by using the **Start Menu** by selecting **Telerik** > **UI for ASP.NET AJAX RX YYYY -> Open Sample Web Site in Visual Studio**. Visual Studio will locally start the **Live Demos** by using the integrated ASP.NET Development Server.
 
-## Step 3: Create the ASP.NET AJAX Project
+### Step 3: Create the ASP.NET AJAX Project
 
 Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}). The Telerik templates allow you to effortlessly create a pre-configured Telerik UI project that contains all required resources which enable you to use the Telerik controls.
 
@@ -83,7 +94,35 @@ Telerik UI for ASP.NET AJAX integrates into Visual Studio through the Telerik [V
 >caption Create the new ASP.NET project
 ![Create a new project](images/getting-started-project-wizard.gif)
 
-## Step 4: Add the Editor to Your Project
+>note Starting with Telerik UI for ASP.NET AJAX 2025 Q1 release, you must activate the UI components by providing a license key file. Previous versions do not require a license key.
+
+To download and install your Telerik license key:
+
+1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
+1. Click the **Download License Key** button.
+1. Save the `telerik-license.txt` file to: 
+   * `%AppData%\Telerik\telerik-license.txt`, for example (`C:\Users\...\AppData\Roaming\Telerik\telerik-license.txt`)
+
+This will make the license key available to all Telerik .NET apps that you develop on your local machine.
+
+The [Telerik License Key]({%slug licensing/license-key%}) article provides additional details on installing and updating your Telerik license key in different scenarios. Automatic license key maintenance is more effective and recommended in the long run.
+
+### Step 4: Setup Your License Key
+
+>note Starting with Telerik UI for ASP.NET AJAX 2025 Q1 release, you must activate the UI components by providing a license key file. Previous versions do not require a license key.
+
+To download and install your Telerik license key:
+
+1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
+2. Click the **Download License Key** button.
+3. Save the `telerik-license.txt` file to: 
+   * `%AppData%\Telerik\telerik-license.txt`, for example (`C:\Users\...\AppData\Roaming\Telerik\telerik-license.txt`)
+
+This will make the license key available to all Telerik .NET apps that you develop on your local machine.
+
+The [Telerik License Key]({%slug licensing/license-key%}) article provides additional details on installing and updating your Telerik license key in different scenarios. Automatic license key maintenance is more effective and recommended in the long run.
+
+### Step 5: Add the Editor to Your Project
 
 The Web Forms Site created through the Telerik project templates includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) to the page in a simple way as demonstrated in this step.
 
@@ -113,7 +152,7 @@ Run your page by pressing `F5`.
 >caption Add the Editor to the page
 ![Add RadEditor to a page](images/getting-started-editor.png)
 
-## Step 5: Add the HtmlChart to Your Project
+### Step 6: Add the HtmlChart to Your Project
 
 Let’s dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. By following the steps below, you will create a data-bound [HtmlChart]({%slug htmlchart/overview%}). You will also add a handy tooltip that shows the values from a custom data field.
 
@@ -256,7 +295,7 @@ Run the page by pressing `F5`. You are expected to see something similar to the 
 >caption Bound HtmlChart with a custom Tooltip template
 ![Bound HtmlChart with a custom Tooltip template](images/getting-started-htmlchart.png)
 
-## Step 6: Style the Controls
+### Step 7: Style the Controls
 
 Telerik UI for ASP.NET AJAX provides more than [20 predefined skins]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies %}) that allow you to change the look and feel of each component. To use the desired skin, set the skin name as the `Skin` property value of the control:
 
