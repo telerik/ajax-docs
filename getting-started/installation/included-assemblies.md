@@ -5,7 +5,7 @@ description: "Learn more about the available assemblies you can use when working
 slug: introduction/installation/included-assemblies
 tags: included, assemblies
 published: True
-position: 3
+position: 4
 ---
 
 # Included Assemblies
@@ -25,7 +25,7 @@ The binaries from the `Additional Assemblies` folder may have different versions
 
 ## Main Assemblies
 
-The main Telerik UI for ASP.NET AJAX assemblies are located in the root of the installation ([automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and in the [ZIP archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the [internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
+The main Telerik UI for ASP.NET AJAX assemblies are located in the root of the installation ([automated]({%slug getting-started/installation/install-using-msi%}) and in the [ZIP archive]({%slug getting-started/installation/install-from-zip%})) and in the [internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
 
 Telerik UI for ASP.NET AJAX provides the following main assemblies:
 
@@ -33,6 +33,7 @@ Telerik UI for ASP.NET AJAX provides the following main assemblies:
 |:--|:--
 |`Telerik.Web.UI.dll`|(Required) The core assembly from the suite where the actual controls are located. It also contains the Default skin.
 |`Telerik.Web.UI.Skins.dll`|(Optional) This assembly has all the skins the suite offers except for the Default one. To use the Default skin or custom skins only, you do not need this assembly.
+|`Telerik.Licensing.Runtime.dll` | Required by the new [licensing mechanism]({%slug licensing/license-key%}) introduced by `Telerik UI for ASP.NET AJAX 2025 Q1`
 |`Telerik.Web.Design.dll`|(Optional) This assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the Smart Tags of the controls are also here. The assembly is only needed if you use the controls in the Design mode in VS and is not needed in the deployed application. The automated installation adds this assembly to the GAC for versions prior to R1 2018.
 |`Telerik.Web.Device.Detection.dll`|(Optional) The [Telerik Device Detection framework]({%slug controls/raddevicedetectionframework%}) that can help you determine, with a few lines of code, the screen resolution of the device that requested the page while processing the request on the server. The assembly is used by the Telerik controls to determine the [render mode]({%slug controls/render-modes%}) when it is set to `Auto`. If you use only the Classic, Lightweight, or Mobile render mode, you do not need this assembly.
 
@@ -76,7 +77,7 @@ Telerik UI for ASP.NET AJAX provides the following Telerik NuGet feed packages a
 | `Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg` | `Telerik.Windows.Documents.Core.dll` |
 | `Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg` | `Telerik.Documents.SpreadsheetStreaming.dll` |
 
-Apart from the packages listed above, Telerik provides a number of additional libraries that are available when you install Telerik UI for ASP.NET AJAX [from an MSI]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) or [from a ZIP file]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}). For example, `Newtonsoft.Json.dll` and `Telerik.Web.Spreadsheet.dll`. These libraries are available in the `AdditionalLibraries` folder within the UI for ASP.NET AJAX installation directory.
+Apart from the packages listed above, Telerik provides a number of additional libraries that are available when you install Telerik UI for ASP.NET AJAX [from an MSI]({%slug getting-started/installation/install-using-msi%}) or [from a ZIP file]({%slug getting-started/installation/install-from-zip%}). For example, `Newtonsoft.Json.dll` and `Telerik.Web.Spreadsheet.dll`. These libraries are available in the `AdditionalLibraries` folder within the UI for ASP.NET AJAX installation directory.
 
 ## Spreadsheet Library
 
