@@ -25,9 +25,9 @@ The following are required to install Telerik UI for ASP.NET AJAX components:
 
 To download the Telerik UI for ASP.NET AJAX binaries with the components, you can use either of the approaches listed below:
 
-* [Install using MSI]({% slug getting-started/installation/install-using-msi%})
-* [Install from NuGet]({% slug getting-started/installation/install-from-nuget %})
-* [Install from ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX from NuGet]({% slug getting-started/installation/install-from-nuget %})
+* [Install Telerik UI for ASP.NET AJAX from ZIP]({% slug getting-started/installation/install-from-zip %})
 
 ## Setting Up Your License Key
 
@@ -46,7 +46,4 @@ The [Telerik License Key]({%slug licensing/license-key%}) article provides addit
 
 ## See Also
 
-* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
-* [Install Telerik UI for ASP.NET AJAX from ZIP]({% slug getting-started/installation/install-from-zip %})
-* [Install Telerik UI for ASP.NET AJAX from NuGet]({% slug getting-started/installation/install-from-nuget %})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
