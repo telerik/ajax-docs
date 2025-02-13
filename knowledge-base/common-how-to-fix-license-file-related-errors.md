@@ -7,6 +7,10 @@ slug: common-how-to-fix-license-file-related-errors
 res_type: kb
 ---
 
+>note For `Telerik UI for ASP.NET AJAX 2025 Q1` or later, check out the [Licence Key Errors]({%slug licensing/license-errors-warnings%}), for prevous versions, please follow the instructions below.
+ 
+## DESCRIPTION
+
 Sometimes when upgrading a Web Site or Web App project to a newer version of Telerik.Web.UI.dll assembly, you may experience license file (licenses.licx) errors like the ones below, which may prevent the compiler to build the solution:
 
  * [LC : error LC0000: 'Could not load file or assembly 'Telerik.Web.UI, Version=20xx.xxxx.xx, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)' or Could not load file or assembly 'Telerik.Web.UI, Version=20xx.xxxx.xx, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. Invalid pointer (Exception from HRESULT: 0x80004003 (E_POINTER))'](#could-not-load-file-or-assembly)
@@ -20,8 +24,7 @@ Sometimes when upgrading a Web Site or Web App project to a newer version of Tel
  * [Could not transform licenses file into a binary resource](#could-not-transform-licenses-file-into-a-binary-resource)
  * [Source controls issues](#source-control-issues)
  * ["Thank you for using the Trial Version of Telerik UI for ASP.NET Ajax to build more powerful applications faster" error message in the browser](#getting-a-trial-error-message-when-refreshing-the-page)
- 
-## DESCRIPTION
+
 As of Q1 2015, the Telerik ASP.NET AJAX uses the standard .NET licensing mechanism, which when adding the Telerik controls in design-time causes Visual Studio to add a license.licx file to the solution. Its purpose is to:
  * combat copyright infringement.
  * provide license holders in the company with statistics on the use of the available licenses.
@@ -109,7 +112,7 @@ The solution for the above issues is to:
 ### Getting a trial error message when refreshing the page
 
 The "Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. Purchase the Commercial Version now to get access to all product updates and the Telerik expert support." error is not directly related to the Licenses.licx file functionality, but to that the Telerik.Web.UI.dll is a trial build for demonstration and trial purposes only. You can check the articles below to see how to remove the trial error:
- * [Trial License Limitations](https://docs.telerik.com/devtools/aspnet-ajax/licensing/trial-license-limitations)
+ * [Licensing Overview](https://docs.telerik.com/devtools/aspnet-ajax/licensing/trial-license-limitations)
  * [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application)
 
 
