@@ -180,9 +180,7 @@ If you experience any troubles with the upgrade process, do not hesitate to ask 
 
 ## See Also
 
- * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
-
- * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
+  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
  
  * [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application)
 

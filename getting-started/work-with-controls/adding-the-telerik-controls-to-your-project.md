@@ -55,7 +55,7 @@ If the Telerik controls aren't in the toolbox, refer to the [Adding the Telerik 
 
 You can manually add any control to the page by using the following instructions:
 
-1. Copy the `Telerik.Web.UI.dll` assembly from the `binXX` folder of the [Telerik UI for ASP.NET AJAX installation]({%slug installation/which-file-do-i-need-to-install%}) to the `bin` folder of your web application (where `XX` specifies the version of the .NET framework supported by the assembly), and reference it. For more information about the assemblies in the installation packages, refer to the [Included Assemblies]({%slug introduction/installation/included-assemblies%}) article.
+1. Copy the `Telerik.Web.UI.dll` assembly from the `binXX` folder of the [Telerik UI for ASP.NET AJAX installation]({%slug introduction/installation/included-assemblies%}) to the `bin` folder of your web application (where `XX` specifies the version of the .NET framework supported by the assembly), and reference it. For more information about the assemblies in the installation packages, refer to the [Included Assemblies]({%slug introduction/installation/included-assemblies%}) article.
 
 1. Open your `aspx` or `ascx` file and add the Telerik UI for ASP.NET AJAX `Register` directive at the top so that Visual Studio recognizes the Telerik control tags:
 

@@ -111,5 +111,4 @@ If you just start using the Telerik NuGet server in your CI or inter-department 
 ## See Also
 
 * [Included Assemblies]({% slug introduction/installation/included-assemblies %})
-* [Available Product Files]({% slug installation/which-file-do-i-need-to-install %})
 * [Setting the web.config File]({% slug general-information/web-config-settings-overview %})

@@ -20,8 +20,6 @@ This article explains how to upgrade the version of the Telerik® UI for ASP.NET
 
 To upgrade the Telerik controls in your project:
 
-1. Install the new version by using your preferred [installation package]({%slug installation/which-file-do-i-need-to-install%}).
-
 1. Replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) with their newer versions and update their references in the project.
 
 >tip Before upgrading your project, review the following resources:
@@ -99,9 +97,7 @@ or "*Telerik.Web.UI 201X.X.XXX.XX trial version. Copyright Telerik © 2002-201X.
 
  * [Troubleshoot Upgrade Issues]({%slug troubleshoot-upgrade-issues%})
 
- * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
-
- * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
+  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
  
  * [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application)
 
