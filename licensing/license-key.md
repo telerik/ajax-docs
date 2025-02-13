@@ -26,7 +26,7 @@ To download a license key for Telerik UI for ASP.NET AJAX, you must have either 
    !["Download License Key"](images/download-license-key.png "Download License Key")
 3. Next, [Activate your Telerik UI for ASP.NET AJAX components](#activating-the-telerik-ui-for-asp-net-ajax-components).
 
-The [Progress Control Panel](https://docs.telerik.com/controlpanel/introduction), [automated installers]({%slug getting-started/installation/installing-the-telerik-controls-from-msi-file%}), and the [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) will automatically download and store your license key in your home directory. This makes it available for all projects that you develop on your local machine.
+The [Progress Control Panel](https://docs.telerik.com/controlpanel/introduction), [automated installers]({%slug getting-started/installation/install-using-msi%}), and the [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) will automatically download and store your license key in your home directory. This makes it available for all projects that you develop on your local machine.
 
 ## Activating the Telerik UI for ASP.NET AJAX Components
 
