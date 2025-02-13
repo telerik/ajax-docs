@@ -39,7 +39,7 @@ There are also several important points to note:
 
 ## See Also
 
-* [Details on Installation Approaches]({%slug details-installation-approaches %})
+* [Installation Options]({%slug getting-started/installation/installation-options%})
 * [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug getting-started/installation/install-using-msi%})
 * [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug getting-started/installation/install-from-zip%})
 * [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
