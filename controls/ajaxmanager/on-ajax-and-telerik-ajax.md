@@ -3,7 +3,7 @@ title: About AJAX and Telerik AJAX
 page_title: About AJAX and Telerik AJAX
 description: "Get the basic concepts behind the AJAX programming technology and learn more about the logic of Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/getting-started/what-is-ajax
-previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax
+previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax,getting-started/on-ajax-and-telerik-ajax
 tags: telerik, asp, net, ajax, about, what, is, ajax
 published: True
 position: 0
@@ -91,6 +91,6 @@ Normally, you can only have one AjaxManager on a page. However, if you are using
 * [AJAX Programming (Wikipedia)](https://en.wikipedia.org/wiki/Ajax_(programming))
 * [Telerik UI for ASP.NET AJAX Virtual Classroom (Training Courses for Registered Users)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)
 * [Online Demos for Telerik UI for ASP.NET AJAX ](https://demos.telerik.com/aspnet-ajax)
-* [First Steps with Telerik AJAX (MSI)]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with Telerik AJAX (ZIP)]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with Telerik AJAX (NuGet)]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Installing Telerik UI for ASP.NET AJAX with MSI installer]({% slug getting-started/installation/install-using-msi%})
+* [Installing Telerik UI for ASP.NET AJAX from ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Installing Telerik UI for ASP.NET AJAX from NuGet feed]({% slug getting-started/installation/install-from-nuget %})
