@@ -47,6 +47,16 @@ The most likely cause is that the new Telerik UI for ASP.NET AJAX version was re
 1. Renew your Telerik UI for ASP.NET AJAX license if necessary.
 2. Download a new [license key file]({%slug licensing/license-key%}#downloading-the-license-key) and use it to activate the components.
 
+## Why do I keep seing errors about licenses.licx file after upgrading to Telerik UI for ASP.NET AJAX 2025 Q1?
+
+Prior to `2025 Q1`, Telerik Components were using the old [Licensing Mechanism]({%slug licensing/overview%}#old-licensing-mechanism) which has automatically generated a `licenses.licx` file containing information about the Telerik products. 
+
+To fix the issue, you can follow one of the two approaches below:
+
+ - If you are using other `.NET` libraries that utilize the `.NET Licensing Mechanism`, open the `licenses.licx` file with a Text editor and remove the Telerik related records from it.
+ - If nothing else uses the `.NET Licensing Mechanism`, you can safely delete the `licenses.licx` file from the project. If this file was commited to the source control, make sure you remove it from there as well.
+
+
 ## Can I use the same license key in multiple builds?
 
 You can use your personal license key in multiple pipelines, builds, and environments. However, each individual developer must use their own unique personal license key.
