@@ -2,8 +2,9 @@
 title: Localization and Right-to-Left support
 page_title: Localization and Right-to-Left support
 description: Learn about the Localization and Right-to-Left support
-slug: getting-started/prerequisites/localization-and-rtl-support
-tags: system, requirements, html, html5, html5 compliance
+slug: accessibility/localization-and-rtl-support
+previous_url: getting-started/prerequisites/localization-and-rtl-support
+tags: accessibility, localization, rtl, html, html5, html5 compliance
 published: True
 position: 5
 ---
