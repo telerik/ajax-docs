@@ -10,14 +10,14 @@ position: 0
 
 # Adding the Telerik Controls to the Visual Studio Toolbox
 
-Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](slug://introduction/installation/installing-the-telerik-controls-from-msi-file). 
+Telerik UI for ASP.NET controls are added automatically to the Visual Studio Toolbox during [MSI installation](slug://getting-started/installation/install-using-msi). 
 
-If you'd like to add the controls to your project (aspx, ascx, masterpage, etc.) see [Add the Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%}) as well as the [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) articles.
+If you'd like to add the controls to your project (aspx, ascx, masterpage, etc.) see [Add the Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%}) as well as the [Install Telerik UI for ASP.NET AJAX using MSI installer]({%slug getting-started/installation/install-using-msi%}) articles.
 
 The easiest way to setup the Telerik controls in your toolbox is to use the [Telerik Toolbox Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration%}), part of the [Progress Telerik UI for ASP.NET AJAX VS Extension
 ](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
 
-If you are installing Telerik UI for ASP.NET AJAX from a [ZIP distribution]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%}), however, you can do this manually by following the steps below:
+If you are installing Telerik UI for ASP.NET AJAX from a [ZIP distribution]({%slug getting-started/installation/install-from-zip%}), however, you can do this manually by following the steps below:
 
 1. Log into [your account](https://www.telerik.com/account/product-download?product=RCAJAX) and download the Telerik_UI_for_ASP.NET_AJAX_20xx_x_xxx_Dev_hotfix.zip hotfix zip installation
 

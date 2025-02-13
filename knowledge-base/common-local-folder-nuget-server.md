@@ -40,7 +40,7 @@ Another approach which works, but it is not recommended since it may get messy w
 ![local nuget server](images/common_local_nuget_repo.png)
 
 ## See More
-* [First Steps with NuGet]({%slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package%})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({%slug getting-started/installation/install-from-nuget%})
 * [Restoring NuGet Packages in Your CI Workflow]({%slug deployment/nuget-keys%})
 * [Troubleshooting NuGet Installation Issues]({%slug troubleshooting-nuget-installation-issues%})
    

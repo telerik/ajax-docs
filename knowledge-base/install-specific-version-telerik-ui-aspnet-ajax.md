@@ -59,8 +59,8 @@ Refer to the following resources for more details on installation:
 - [Which File Do I Need to Install](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/which-file-do-i-need-to-install)
 - [Included Assemblies](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/included-assemblies)
 - [Using Hotfix](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/using-hotfix)
-- [First Steps with MSI](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/first-steps-msi)
-- [First Steps with ZIP](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/first-steps-zip)
+- [Install Telerik UI for ASP.NET AJAX using MSI]({%slug getting-started/installation/install-using-msi%})
+- [Install Telerik UI for ASP.NET AJAX using ZIP]({%slug getting-started/installation/install-from-zip%})
 
 ## See Also
 - [Telerik UI for ASP.NET AJAX Documentation](https://docs.telerik.com/aspnet-ajax/introduction)

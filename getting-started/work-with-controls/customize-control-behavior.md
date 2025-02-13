@@ -11,7 +11,7 @@ position: 4
 
 # Customizing the Behavior of the Controls
 
-Once you have the controls [working in your project]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs.
+Once you have the controls [working in your project]({%slug getting-started/installation/install-using-msi%}) and [are acquainted with their features]({%slug getting-started/explore-control-features%}), you can tailor their behavior to your specific project needs.
 
 This article provides tips on customizing the behavior of the Telerik UI for ASP.NET AJAX controls.
 
@@ -65,7 +65,7 @@ To handle a client-side event of a control, you must provide only the string nam
 
 ## See Also
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

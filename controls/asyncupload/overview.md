@@ -30,7 +30,7 @@ This article gives a quick overview of the **RadAsyncUpload** control and shows 
 <telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" TargetFolder="Uploads" AllowedFileExtensions=".jpeg,.jpg,.png,.doc,.docx,.xls,.xlsx" runat="server"></telerik:RadAsyncUpload>
 ````
 
-For more information on setting up the environment see the [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) article.
+For more information on setting up the environment see the [Install Telerik UI for ASP.NET AJAX using MSI installer]({%slug getting-started/installation/install-using-msi%}) article.
 
 ## Temporary Files
 
@@ -60,7 +60,7 @@ One of the benefits of RadAsyncUpload is that it allows you to upload files bigg
 
 # See Also
 
- * [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+ * [Install Telerik UI for ASP.NET AJAX using MSI installer]({%slug getting-started/installation/install-using-msi%})
  
  * [Getting Started]({%slug asyncupload/getting-started%})
 

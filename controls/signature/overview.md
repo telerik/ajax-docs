@@ -28,5 +28,5 @@ The Signature UI Control for ASP.NET AJAX is available as of R1 2023 and it is a
  * [Getting Started]({%slug signature/getting-started%})
  * [RadSignature online demos](https://demos.telerik.com/aspnet-ajax/signature/overview/defaultcs.aspx) 
  * [ASP.NET AJAX Signature](https://www.telerik.com/products/aspnet-ajax/signature.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%}) 
 

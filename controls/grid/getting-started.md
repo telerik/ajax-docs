@@ -14,7 +14,7 @@ In this article, you will find links that will help you get started to work with
 
 ## Setting up the environment
 
-If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off by installing it following the [First Steps]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) article.
+If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off by installing it following the [Install Telerik UI for ASP.NET AJAX using MSI installer]({%slug getting-started/installation/install-using-msi%}) article.
 
 ## Creating a RadGrid
 
@@ -76,7 +76,7 @@ Accessing objects inside the Grid will require a specific approach for both Clie
 
 # See Also
 
-* [Install Telerik Web UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+* [Install Telerik Web UI for ASP.NET AJAX]({%slug getting-started/installation/install-using-msi%})
 * [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%})
 * [Key Features]({%slug grid/key-features%})
 

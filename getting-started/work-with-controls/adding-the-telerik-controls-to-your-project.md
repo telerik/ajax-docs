@@ -15,9 +15,9 @@ This article provides details and lists additional information on adding the Tel
 
 For the step-by-step guides on getting up and running with the suite, refer to the following articles:
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
 
 ## Prerequisites
 
@@ -99,9 +99,9 @@ For more information about the properties and features of each individual contro
 
 ## See Also
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
 * [Setting the web.config File]({%slug general-information/web-config-settings-overview%})
 * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 * [Adding the Telerik Controls to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%})

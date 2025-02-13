@@ -34,14 +34,14 @@ There are also several important points to note:
 
 > You can download the MSI installation from https://www.telerik.com/account/product-download?product=RCAJAX. 
 > 
-> For more information on the MSI installer check out this article [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}).
+> For more information on the MSI installer check out this article [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug getting-started/installation/install-using-msi%}).
 
 
 ## See Also
 
 * [Details on Installation Approaches]({%slug details-installation-approaches %})
-* [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
+* [Installing Telerik UI for ASP.NET AJAX Controls from MSI File]({%slug getting-started/installation/install-using-msi%})
+* [Installing Telerik UI for ASP.NET AJAX Controls from ZIP File]({%slug getting-started/installation/install-from-zip%})
 * [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
 * [Major and Minor Releases Installation]({%slug introduction/installation/upgrading-instructions/major-and-minor-releases-installation%})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

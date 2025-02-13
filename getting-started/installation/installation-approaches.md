@@ -5,18 +5,18 @@ description: "Learn more about installing Telerik UI for ASP.NET AJAX with MSI o
 slug: details-installation-approaches
 tags: installation, approaches, nuget, details
 published: True
-position: 1
+position: 0
 ---
 
 # Details on Installation Approaches
 
-Telerik UI for ASP.NET AJAX enables you to install the suite components by using the [MSI file]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file %}), the [ZIP library]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %}), or the [Telerik NuGet feed]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %}).
+Telerik UI for ASP.NET AJAX enables you to install the suite components by using the [MSI file]({% slug getting-started/installation/install-using-msi %}), the [ZIP library]({% slug getting-started/installation/install-from-zip %}), or the [Telerik NuGet feed]({% slug getting-started/installation/install-from-nuget %}).
 
 This article provides additional information about each installation approach. For the step-by-step guides on getting up and running with the suite, refer to the following articles:
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
 
 ## MSI Installation
 
@@ -74,7 +74,7 @@ In addition to the steps for getting up and running with Telerik UI for ASP.NET 
 
 You can locally download `.nupkg` files and [build a private feed](https://www.telerik.com/blogs/power-your-projects-with-telerik---now-with-the-convenience-of-nuget) for your company.
 
-Such a feed must be private, that is, not available to the general Internet. Also, the developers working with the controls must have active licenses, that is, the standard developer-seat [licensing model]({%licensing/overview%}) applies to that feed.
+Such a feed must be private, that is, not available to the general Internet. Also, the developers working with the controls must have active licenses, that is, the standard developer-seat [licensing model]({%slug licensing/overview%}) applies to that feed.
 
 To download `.nupkg` files locally:
 
@@ -100,7 +100,7 @@ You need to protect your credentials and ensure they are used only by you and no
 
 ## See Also
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

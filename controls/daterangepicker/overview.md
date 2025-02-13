@@ -49,5 +49,5 @@ For more information on how you can customize the appearance, please refer to th
 
  * [Getting Started]({%slug daterangepicker/getting-started%})
  * [DateRangePicker online demos](https://demos.telerik.com/aspnet-ajax/daterangepicker/examples/overview/defaultcs.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%}) 
  * [ASP.NET AJAX DateRangePicker](https://www.telerik.com/products/aspnet-ajax/daterangepicker.aspx)

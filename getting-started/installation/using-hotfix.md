@@ -13,7 +13,7 @@ position: 4
 
 The `HOTFIX` archive is a bare-bones upgrade option for the Telerik UI for ASP.NET AJAX controls. It contains only the files you need to replace in your project to upgrade to the latest version of the Telerik controls. If you are already using Telerik products and want to update only, download the latest `HOTFIX` and apply it.
 
-Note that if you are installing the Telerik products for the first time, it is recommended that you download the complete package ([MSI](slug://introduction/installation/installing-the-telerik-controls-from-msi-file) or [ZIP](slug://introduction/installation/installing-the-telerik-controls-from-zip-file) file).
+Note that if you are installing the Telerik products for the first time, it is recommended that you download the complete package ([MSI]({%slug getting-started/installation/install-using-msi%}) or [ZIP]({%slug getting-started/installation/install-from-zip%}) file).
 
 ## List of HOTFIX Files
 
@@ -80,5 +80,5 @@ If you get a copyright message, this means that either you are using the trial v
 
 * [Adding the Telerik Controls to Your Project]({%slug getting-started/adding-the-telerik-controls-to-your-project%})
 * [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%})
-* [Trial License Limitations]({%licensing/overview%})
+* [Licensing Overview]({%slug licensing/overview%})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

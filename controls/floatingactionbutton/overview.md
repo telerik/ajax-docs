@@ -42,5 +42,5 @@ Go ahead with the [Getting Started]({%slug floatingactionbutton/getting-started%
  * [Getting Started]({%slug floatingactionbutton/getting-started%})
  * [RadFloatingActionButton online demos](https://demos.telerik.com/aspnet-ajax/floatingactionbutton/examples/overview/defaultcs.aspx) 
  * [ASP.NET AJAX Floating Action Button](https://www.telerik.com/products/aspnet-ajax/floating-action-button.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%}) 
 

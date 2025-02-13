@@ -66,7 +66,7 @@ Most tasks and configuration options are available in the **Smart Tag** of the c
 
 ## See Also
 
-* [First Steps with MSI]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
-* [First Steps with ZIP]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %})
-* [First Steps with NuGet]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %})
+* [Install Telerik UI for ASP.NET AJAX using MSI]({% slug getting-started/installation/install-using-msi%})
+* [Install Telerik UI for ASP.NET AJAX using ZIP]({% slug getting-started/installation/install-from-zip %})
+* [Install Telerik UI for ASP.NET AJAX using NuGet]({% slug getting-started/installation/install-from-nuget %})
 * [Getting Started with Telerik UI for ASP.NET AJAX (Video Tutorials)](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax)

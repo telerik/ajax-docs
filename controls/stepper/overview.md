@@ -72,6 +72,6 @@ Go ahead with the [Getting Started]({%slug stepper/getting-started%}) article to
  * [Telerik UI for ASP.NET AJAX Components](https://www.telerik.com/products/aspnet-ajax.aspx)
  * [Getting Started]({%slug stepper/getting-started%})
  * [RadStepper online demos](https://demos.telerik.com/aspnet-ajax/stepper/overview/defaultcs.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%}) 
 
 

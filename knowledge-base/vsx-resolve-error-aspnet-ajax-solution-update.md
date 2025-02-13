@@ -36,6 +36,6 @@ The Upgrade Wizard is designed to work with assembly references and cannot proce
   3. Use the [Telerik UI for ASP.NET AJAX Convert Wizard](https://docs.telerik.com/devtools/aspnet-ajax/integration/visual-studio/visual-studio-extensions/convert-project) to add the necessary assemblies with the updated version back into the project.
 
 ## See Also
-- [First Steps with Telerik UI for ASP.NET AJAX and NuGet](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps-nuget)
+- [Install Telerik UI for ASP.NET AJAX using Telerik UI for ASP.NET AJAX and NuGet](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps-nuget)
 - [Converting Projects with Telerik UI for ASP.NET AJAX Convert Wizard](https://docs.telerik.com/devtools/aspnet-ajax/integration/visual-studio/visual-studio-extensions/convert-project)
  

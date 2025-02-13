@@ -53,7 +53,7 @@ Here is the ASPX declaration to achieve the Stepper shown above:
 
 # See Also
  * [Server-side Programming]({%slug stepper/server-side-programming/overview%})
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%})
  * [RadStepper online demos](https://demos.telerik.com/aspnet-ajax/stepper/overview/defaultcs.aspx)
 
 

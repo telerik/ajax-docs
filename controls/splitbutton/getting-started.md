@@ -49,6 +49,6 @@ As a next step, you can check out the [Functionality]({%slug splitbutton/functio
 ## See Also
 
  * [Server-side Programming]({%slug splitbutton/server-side-programming/overview%})
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%})
  * [RadSplitButton online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/overview/defaultcs.aspx)
 

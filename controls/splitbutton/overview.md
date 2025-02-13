@@ -45,5 +45,5 @@ Take the first steps with **RadSplitButton** by checking out the [Getting Starte
 
  * [Getting Started]({%slug splitbutton/getting-started%})
  * [RadSplitButton online demos](https://demos.telerik.com/aspnet-ajax/splitbutton/overview/defaultcs.aspx)
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) 
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%}) 
 

@@ -65,7 +65,7 @@ Here is the ASPX declaration to achieve the Breadcrumb shown in Figure 1:
 
 # See Also
  * [Server-side Programming]({%slug breadcrumb/server-side-programming/overview%})
- * [First Steps with UI for ASP.NET AJAX]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%})
+ * [Install Telerik UI for ASP.NET AJAX with MSI installer]({%slug getting-started/installation/install-using-msi%})
  * [RadBreadrumb online demos](https://demos.telerik.com/aspnet-ajax/breadcrumb/examples/overview/defaultcs.aspx)
 
 

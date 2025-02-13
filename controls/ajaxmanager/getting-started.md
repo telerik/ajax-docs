@@ -25,9 +25,9 @@ After the completion of this guide and as demonstrated in the following image, y
 
 Before you add the AjaxManager to your application, ensure that you have a running ASP.NET project. The prerequisites to accomplish the installation of Telerik UI for ASP.NET are always the same, regardless of the Telerik AJAX control you want to use, and are fully described in the respective sections of the Getting Started guides: 
 
-* [First Steps with Telerik AJAX by Installing with an MSI File]({% slug introduction/installation/installing-the-telerik-controls-from-msi-file %})
-* [First Steps with Telerik AJAX by Installing with a ZIP File]({% slug introduction/installation/installing-the-telerik-controls-from-zip-file %}#prerequisites)
-* [First Steps with Telerik AJAX by Installing from a NuGet Package]({% slug introduction/installation/installing-the-telerik-controls-from-a-nuget-package %}#prerequisites)
+* [Installing Telerik UI for ASP.NET AJAX using MSI installer]({% slug getting-started/installation/install-using-msi %})
+* [Installing Telerik UI for ASP.NET AJAX from ZIP File]({% slug getting-started/installation/install-from-zip %}#prerequisites)
+* [Installing Telerik UI for ASP.NET AJAX from NuGet feed]({% slug getting-started/installation/install-from-nuget %}#prerequisites)
 
 ## Create an AJAX-Enabled Scenario
 
