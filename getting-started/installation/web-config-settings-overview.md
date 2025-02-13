@@ -6,7 +6,7 @@ slug: general-information/web-config-settings-overview
 tags: web.config, settings, overview, handlers, required
 previous_url: general-information/web-config-settings-overview
 published: True
-position: 5
+position: 7
 ---
 
 # Setting the web.config File

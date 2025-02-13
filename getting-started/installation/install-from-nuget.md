@@ -6,7 +6,7 @@ slug: getting-started/installation/install-from-nuget
 previous_url: installation/installing-the-telerik-controls-from-nuget-package,getting-started/first-steps-nuget
 tags: installing, telerik, controls, nuget, package
 published: True
-position: 2
+position: 3
 ---
 
 # Installing Telerik UI for ASP.NET AJAX from NuGet Feed

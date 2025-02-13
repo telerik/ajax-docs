@@ -6,7 +6,7 @@ slug: getting-started/installation/install-from-zip
 previous_url: installation/installing-the-telerik-controls-from-zip-file,getting-started/first-steps-zip
 tags: installing, telerik, controls, from, zip, file
 published: True
-position: 3
+position: 4
 ---
 
 # Installing Telerik UI for ASP.NET AJAX from the ZIP Contents

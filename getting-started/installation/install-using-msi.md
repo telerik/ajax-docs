@@ -6,7 +6,7 @@ slug: getting-started/installation/install-using-msi
 previous_url: installation/installing-the-telerik-controls-from-msi-file, getting-started/first-steps, getting-started/first-steps-msi
 tags: installing, telerik, controls, msi, file
 published: True
-position: 1
+position: 2
 ---
 
 # Installing Telerik UI for ASP.NET AJAX using an MSI Installer File

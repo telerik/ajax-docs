@@ -6,7 +6,7 @@ slug: introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)
 tags: hotfix, use, files
 previous_url: installation/Using-the-HOTFIX
 published: True
-position: 4
+position: 6
 ---
 
 # Using the HOTFIX Archive
