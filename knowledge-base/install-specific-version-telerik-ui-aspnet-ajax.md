@@ -56,7 +56,6 @@ For more information, see [How to find out which is the used version of Telerik.
 
 Refer to the following resources for more details on installation:
 - [Installation Approaches](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/installation-approaches)
-- [Which File Do I Need to Install](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/which-file-do-i-need-to-install)
 - [Included Assemblies](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/included-assemblies)
 - [Using Hotfix](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/installation/using-hotfix)
 - [Install Telerik UI for ASP.NET AJAX using MSI]({%slug getting-started/installation/install-using-msi%})

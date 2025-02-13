@@ -3,6 +3,7 @@ title: Included Assemblies
 page_title: Included Assemblies
 description: "Learn more about the available assemblies you can use when working with Telerik UI for ASP.NET AJAX. "
 slug: introduction/installation/included-assemblies
+previous_url: getting-started/installation/which-file-do-i-need-to-install
 tags: included, assemblies
 published: True
 position: 5
