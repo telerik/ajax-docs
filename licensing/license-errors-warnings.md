@@ -43,3 +43,4 @@ When using Telerik UI for ASP.NET AJAX in a project with an expired or missing l
 * [Setting Up Your License Key]({%slug licensing/license-key%})
 * [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
 * [Frequently Asked Questions about Your Telerik UI for ASP.NET AJAX License Key]({%slug licensing/licensing-faq%})
+* [Resolving TelerikLicense.vb Build Error]({%slug common-resolve-teleriklicense-vb-build-error%})
