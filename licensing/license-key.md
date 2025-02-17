@@ -36,7 +36,6 @@ To activate the Telerik UI for ASP.NET AJAX controls:
 
 - Copy the downloaded `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
   - For Windows: `%AppData%\Telerik\telerik-license.txt`
-  - For Mac/Linux: `~/.telerik/telerik-license.txt`
   - Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
 
 When you build the project, the `Telerik.Licensing` NuGet package automatically locates the license file and uses it to activate the WebForms controls.
