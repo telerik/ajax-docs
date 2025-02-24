@@ -1992,6 +1992,8 @@ intro_columns:
   -
     title: "Layout"
     items:
+      "Avatar": "avatar/overview"
+      "Badge": "badge/overview"
       "Card": "card/overview"
       "Dock": "dock/overview"
       "Notification": "notification/overview"
