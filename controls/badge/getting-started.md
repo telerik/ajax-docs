@@ -61,6 +61,5 @@ The `PlaceHolder1`
 ## Next Steps
 
 - [Change the Appearance]({%slug badge/appearance%})
-- [Customize the Badge]({%slug badge/customization%})
 - [Client-side Programming]({%slug badge/client-side-programming/overview%})
 - [Server-side Programming]({%slug badge/server-side-programming/overview%})

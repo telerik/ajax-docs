@@ -87,10 +87,3 @@ The enum type: `Telerik.Web.UI.BadgeThemeColor`
 | `Telerik.Web.UI.BadgeThemeColor.Success`  | `4`   |
 | `Telerik.Web.UI.BadgeThemeColor.Warning`  | `5`   |
 | `Telerik.Web.UI.BadgeThemeColor.Error`    | `6`   |
-
-
-## See Also
-
-- [Server-side Programming Overview]({%slug badge/server-side-programming/overview%})
-- [Properties]({%slug badge/server-side-programming/properties%})
-
