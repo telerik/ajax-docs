@@ -30,8 +30,3 @@ Badge specific properties to change its border radius, size, theme color, and mo
 ## Next Steps
 
 - [Enums]({%slug chip/server-side-programming/enums%})
-
-## See Also
-
-- [Server-side Programming Overview]({%slug chip/server-side-programming/overview%})
-- [Enums]({%slug chip/server-side-programming/enums%})
