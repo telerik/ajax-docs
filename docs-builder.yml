@@ -1692,6 +1692,9 @@ meta:
   controls/aiprompt:
     title: AIPrompt
     position: 1
+  controls/badge:
+    title: Badge
+    position: 1
   api/server:
     title: Server-side
     position: 2

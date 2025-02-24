@@ -263,6 +263,8 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="PdfViewer" href="slug:pdfviewer/overview"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="Layout">
+         <IntroTableAnchor title="Avatar" href="slug:avatar/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Badge" href="slug:badge/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Card" href="slug:card/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Dock" href="slug:dock/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Notification" href="slug:notification/overview"></IntroTableAnchor>
