@@ -185,7 +185,7 @@ The **[RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})** clie
 
 ## RadContextMenu static objects and methods
 
-* The **Telerik.Web.UI.RadContextMenu.contextMenus** holds a static collection with references to all **[RadContextMenu]** ({%slug menu/context-menus/radcontextmenu-object%})s on the page.
+* The **Telerik.Web.UI.RadContextMenu.contextMenus** holds a static collection with references to all [RadContextMenus]({%slug menu/context-menus/radcontextmenu-object%}) on the page.
 
 ````JavaScript
 function iterateThroughAllContextMenus() 
