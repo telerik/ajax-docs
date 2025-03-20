@@ -9,7 +9,7 @@ slug: Telerik.Web.UI.RadSpreadsheet
 ## Inheritance Hierarchy
 
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
-* *Telerik.Web.UI.RadSpreadsheet]({%slug Telerik.Web.UI.RadSpreadsheet%})*
+* Telerik.Web.UI.RadSpreadsheet
 
 
 ## Methods

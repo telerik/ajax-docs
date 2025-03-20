@@ -21,7 +21,6 @@ Using "title" as a key for the Attributes collection of the appointment is not a
 For the other attributes, you can use the following JavaScript executed in the [Sys.Application.Load](https://msdn.microsoft.com/en-us/library/bb383829.aspx) event.
 
 ````ASP.NET
-<%-- https://docs.telerik.com{%slug common-executing-javascript-code-from-server-side-in-web-forms-and-aspnet-ajax%} --%>
 <telerik:RadCodeBlock runat="server">
     <script>
         function pageLoadHandler() {

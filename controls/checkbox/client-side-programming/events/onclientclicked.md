@@ -54,7 +54,7 @@ This event can be used in scenarios where you need custom client-side code to be
  
  * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
 
- * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%} 
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  
