@@ -45,8 +45,8 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 		fileName: "PDF-Export",
 		proxyURL: "http://www.proxy.com",
 		margin: { top: 25, left: 15, bottom: 10, right: 5 },
-		paperSize: "A4",
-		landscape: "Portrait",
+		paperSize: "A4", // Try "A4", "Letter", or custom like [800, 600]
+		landscape: true, // true = landscape, false = portrait 
 		title: "PDF",
 		author: "UserName",
 		subject: "Export to PDF",
@@ -60,7 +60,7 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 		fileName: "Image-Export",
 		proxyURL: "http://www.proxy.com",
 		width: 200,
-		heigh: 400,
+		height: 400,
 	};
 
 	var svgSettings = {
