@@ -15,33 +15,33 @@ Starting with the 2025 Q1 release, using Telerik UI for ASP.NET AJAX without a l
 
 An invalid license can be caused by any of the following:
 
-* Using an expired subscription license—subscription licenses expire at the end of the subscription term.
-* Using a perpetual license for product versions released outside the validity period of your license.
-* Using an expired trial license.
-* A missing license for Telerik UI for ASP.NET AJAX.
-* Not installing a license key in your application.
-* Not updating the license key after renewing your Telerik UI for ASP.NET AJAX license.
+- Using an expired subscription license—subscription licenses expire at the end of the subscription term.
+- Using a perpetual license for product versions released outside the validity period of your license.
+- Using an expired trial license.
+- A missing license for Telerik UI for ASP.NET AJAX.
+- Not installing a license key in your application.
+- Not updating the license key after renewing your Telerik UI for ASP.NET AJAX license.
 
 ## License Warnings and Errors
 
 When using Telerik UI for ASP.NET AJAX in a project with an expired or missing license, the `Telerik.Licensing` build task will indicate the following errors:
 
-
-| Error or Condition                                       |Message Code       | Solution                                                                                                                                                      |
-| -------------------------------------------------------- |------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `No license key is detected`                             |`TKL002`           | [Set up a license key]({%slug licensing/license-key%}) to activate the UI controls and remove the error message.                                              |
-| `Invalid license key`                                    |`TKL003`           | [Download a new license key]({%slug licensing/license-key%}#downloading-the-license-key) and use it to activate the UI controls and remove the error message. |
-| `Your subscription license has expired.`                 |`TKL103`, `TKL104` | Renew your subscription and [download a new license key]({%slug licensing/license-key%}#downloading-the-license-key).                                         |
-| `Your perpetual license is invalid.`                     |`TKL102`           | You are using a product version released outside the validity period of your perpetual license. To remove the error message, do either of the following:      |
-|                                                          |                   | - Renew your license, then download a new license key and use it to activate the controls.                                                                    |
-|                                                          |                   | - Downgrade to a product version included in your perpetual license as indicated in the message.                                                              |
-| `Your trial license has expired.`                        |`TKL105`           | Purchase a commercial license to continue using the product.                                                                                                  |
-| `Your license is not valid for the detected product(s).` |`TKL101`           | Review the purchase options for the listed products. Alternatively, remove the references to the listed packages from `package.json`.                         |
-
+| Error or Condition                                                 | Message Code       | Solution                                                                                                                                                      |
+| ------------------------------------------------------------------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `No license key is detected`                                       | `TKL002`           | [Set up a license key]({%slug licensing/license-key%}) to activate the UI controls and remove the error message.                                              |
+| `Invalid license key`                                              | `TKL003`           | [Download a new license key]({%slug licensing/license-key%}#downloading-the-license-key) and use it to activate the UI controls and remove the error message. |
+| `Your perpetual license is invalid.`                               | `TKL102`           | You are using a product version released outside the validity period of your perpetual license. To remove the error message, do either of the following:      |
+|                                                                    |                    | - Renew your license, then download a new license key and use it to activate the controls.                                                                    |
+|                                                                    |                    | - Downgrade to a product version included in your perpetual license as indicated in the message.                                                              |
+| `Your subscription license has expired.`                           | `TKL103`, `TKL104` | Renew your subscription and [download a new license key]({%slug licensing/license-key%}#downloading-the-license-key).                                         |
+| `Your trial license has expired.`                                  | `TKL105`           | Purchase a commercial license to continue using the product.                                                                                                  |
+| `Your license is not valid for the detected product(s).`           | `TKL101`           | Review the purchase options for the listed products. Alternatively, remove the references to the listed packages from `package.json`.                         |
+| `No Telerik or Kendo UI product references detected in project.v.` | `TKL001`           | - If you use Telerik products and see this message, update the Telerik.Licensing package to version 1.4.9 or later.                                             |
+|                                                                    |                    | - If you do not use Telerik products, remove the Telerik.Licensing NuGet reference from your project.                                                           |
 
 ## See Also
 
-* [Setting Up Your License Key]({%slug licensing/license-key%})
-* [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
-* [Frequently Asked Questions about Your Telerik UI for ASP.NET AJAX License Key]({%slug licensing/licensing-faq%})
-* [Resolving TelerikLicense.vb Build Error]({%slug common-resolve-teleriklicense-vb-build-error%})
+- [Setting Up Your License Key]({%slug licensing/license-key%})
+- [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
+- [Frequently Asked Questions about Your Telerik UI for ASP.NET AJAX License Key]({%slug licensing/licensing-faq%})
+- [Resolving TelerikLicense.vb Build Error]({%slug common-resolve-teleriklicense-vb-build-error%})
