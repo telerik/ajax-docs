@@ -57,13 +57,13 @@ position: 2
       <td>Windows 7 <br>
         <span>32, 64-bit editions</span>
       </td>
-      <td>.Net Framework 4.6.2 - 4.8; IIS 7.x</td>
+      <td>.Net Framework 4.6.2 - 4.8; IIS 7.5+</td>
     </tr>
     <tr>
       <td>Windows Server 2008 <br>
         <span>32, 64-bit editions R1/R2</span>
       </td>
-      <td>.Net Framework 4.6.2 - 4.8; IIS 7.x</td>
+      <td>.Net Framework 4.6.2 - 4.8; IIS 7.5+</td>
     </tr>
   </tbody>
 </table>
