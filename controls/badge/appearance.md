@@ -85,8 +85,6 @@ Example
 
 ````ASP.NET
 <telerik:RadBadge runat="server" ID="RadBadge1" Text="Primary" ThemeColor="Primary" />
-<telerik:RadBadge runat="server" ID="RadBadge2" Text="Secondary" ThemeColor="Secondary" />
-<telerik:RadBadge runat="server" ID="RadBadge3" Text="Tertiary" ThemeColor="Tertiary" />
 <telerik:RadBadge runat="server" ID="RadBadge4" Text="Info" ThemeColor="Info" />
 <telerik:RadBadge runat="server" ID="RadBadge5" Text="Success" ThemeColor="Success" />
 <telerik:RadBadge runat="server" ID="RadBadge6" Text="Warning" ThemeColor="Warning" />

@@ -16,70 +16,60 @@ Telerik WebForms Badge specific Server-side Enums.
 
 The enum type: `Telerik.Web.UI.BadgeAlign`
 
-| Enum Name                             | Value |
-| ---                                   | ---   |
-| `Telerik.Web.UI.BadgeAlign.TopStart`   | `0`   |
-| `Telerik.Web.UI.BadgeAlign.TopEnd`     | `1`   |
-| `Telerik.Web.UI.BadgeAlign.BottomStart`| `2`   |
-| `Telerik.Web.UI.BadgeAlign.BottomEnd`  | `3`   |
-
----
+| Enum Name                               | Value |
+| --------------------------------------- | ----- |
+| `Telerik.Web.UI.BadgeAlign.TopStart`    | `0`   |
+| `Telerik.Web.UI.BadgeAlign.TopEnd`      | `1`   |
+| `Telerik.Web.UI.BadgeAlign.BottomStart` | `2`   |
+| `Telerik.Web.UI.BadgeAlign.BottomEnd`   | `3`   |
 
 ## BadgeFillMode
 
 The enum type: `Telerik.Web.UI.BadgeFillMode`
 
-| Enum Name                               | Value |
-| ---                                     | ---   |
-| `Telerik.Web.UI.BadgeFillMode.Solid`    | `0`   |
-| `Telerik.Web.UI.BadgeFillMode.Outline`  | `1`   |
-
----
+| Enum Name                              | Value |
+| -------------------------------------- | ----- |
+| `Telerik.Web.UI.BadgeFillMode.Solid`   | `0`   |
+| `Telerik.Web.UI.BadgeFillMode.Outline` | `1`   |
 
 ## BadgePosition
 
 The enum type: `Telerik.Web.UI.BadgePosition`
 
-| Enum Name                                 | Value |
-| ---                                       | ---   |
-| `Telerik.Web.UI.BadgePosition.Inline`     | `0`   |
-| `Telerik.Web.UI.BadgePosition.Edge`       | `1`   |
-| `Telerik.Web.UI.BadgePosition.Inside`     | `2`   |
-| `Telerik.Web.UI.BadgePosition.Outside`    | `3`   |
-
----
+| Enum Name                              | Value |
+| -------------------------------------- | ----- |
+| `Telerik.Web.UI.BadgePosition.Inline`  | `0`   |
+| `Telerik.Web.UI.BadgePosition.Edge`    | `1`   |
+| `Telerik.Web.UI.BadgePosition.Inside`  | `2`   |
+| `Telerik.Web.UI.BadgePosition.Outside` | `3`   |
 
 ## BadgeRounded
 
 The enum type: `Telerik.Web.UI.BadgeRounded`
 
-| Enum Name                                 | Value |
-| ---                                       | ---   |
-| `Telerik.Web.UI.BadgeRounded.Small`       | `0`   |
-| `Telerik.Web.UI.BadgeRounded.Medium`      | `1`   |
-| `Telerik.Web.UI.BadgeRounded.Large`       | `2`   |
-| `Telerik.Web.UI.BadgeRounded.Full`        | `3`   |
-
----
+| Enum Name                            | Value |
+| ------------------------------------ | ----- |
+| `Telerik.Web.UI.BadgeRounded.Small`  | `0`   |
+| `Telerik.Web.UI.BadgeRounded.Medium` | `1`   |
+| `Telerik.Web.UI.BadgeRounded.Large`  | `2`   |
+| `Telerik.Web.UI.BadgeRounded.Full`   | `3`   |
 
 ## BadgeSize
 
 The enum type: `Telerik.Web.UI.BadgeSize`
 
-| Enum Name                               | Value |
-| ---                                     | ---   |
-| `Telerik.Web.UI.BadgeSize.Small`        | `0`   |
-| `Telerik.Web.UI.BadgeSize.Medium`       | `1`   |
-| `Telerik.Web.UI.BadgeSize.Large`        | `2`   |
-
----
+| Enum Name                         | Value |
+| --------------------------------- | ----- |
+| `Telerik.Web.UI.BadgeSize.Small`  | `0`   |
+| `Telerik.Web.UI.BadgeSize.Medium` | `1`   |
+| `Telerik.Web.UI.BadgeSize.Large`  | `2`   |
 
 ## BadgeThemeColor
 
 The enum type: `Telerik.Web.UI.BadgeThemeColor`
 
 | Enum Name                                 | Value |
-| ---                                       | ---   |
+| ----------------------------------------- | ----- |
 | `Telerik.Web.UI.BadgeThemeColor.Primary`  | `0`   |
 | `Telerik.Web.UI.BadgeThemeColor.Secondary`| `1`   |
 | `Telerik.Web.UI.BadgeThemeColor.Tertiary` | `2`   |
