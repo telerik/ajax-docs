@@ -14,7 +14,7 @@ Load the Telerik appSettings flags from an external file.
 
 ### DESCRIPTION
 
-The UI for ASP.NET AJAX controls provide [a lot of switches and settings you can set from the appSettings section in the web.config]({%slug general-information/web-config-settings-overview %}#control-properties-you-can-set-from-the-webconfig. In some cases you may want to declutter the web.config file and read these settings from a separate file. This can even facilitate deployment and testing, especially if you also use your own flags in the appSettings section.
+The UI for ASP.NET AJAX controls provide [a lot of switches and settings you can set from the appSettings section in the web.config]({%slug general-information/web-config-settings-overview %}#control-properties-you-can-set-from-the-webconfig). In some cases you may want to declutter the web.config file and read these settings from a separate file. This can even facilitate deployment and testing, especially if you also use your own flags in the appSettings section.
 
 ### SOLUTION
 

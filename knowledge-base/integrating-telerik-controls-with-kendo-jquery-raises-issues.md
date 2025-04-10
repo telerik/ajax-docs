@@ -21,6 +21,9 @@ published: True
 	</tbody>
 </table>
 
+## Important Information
+> **It is generally not recommended to use both Telerik UI for ASP.NET AJAX and Kendo UI for jQuery on the same page.** These suites use different versions of Kendo UI scripts, which may cause compatibility issues.
+
 ## Description
 
 When trying to integrate Telerik UI for ASP.NET AJAX controls with Kendo UI for jQuery widgets, issues occur.
@@ -35,14 +38,21 @@ To solve this issue, refer to the article on [integrating the HtmlChart with Ken
 
 Also, the following list specifies the controls that are ASP.NET WebForms server-side wrappers of Kendo UI widgets:
 
+* AIPrompt
+* Badge
 * Chat
+* Chip
+* ChipList
 * ClientDataSource
 * ClientExportManager
 * Diagram
+* Drawer
+* FloatingActionButton
 * Gantt
 * Gauge
 * HtmlChart
 * Map
 * MultiColumnComboBox
 * Spreadsheet
+* Timeline
 * TreeMap

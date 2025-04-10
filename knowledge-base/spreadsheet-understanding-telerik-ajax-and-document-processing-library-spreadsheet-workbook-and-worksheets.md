@@ -31,14 +31,12 @@ The Workbook and worksheets from the AJAX and DPL are not interchangeable. Never
 - An instance method .ToDocument() that all allows any AJAX Workbook instance to be converted to a DPL Workbook;
 - A static method Workbook.FromDocument() that allows any DPL Workbook to be converted to an AJAX Workbook;
 
-````
+````C#
 using System;
+using System.Collections.Generic;
 using DPL = Telerik.Windows.Documents.Spreadsheet.Model;
 using AJAX = Telerik.Web.Spreadsheet;
-using System.Collections.Generic;
-````
 
-````
 // AJAX to Document Processing Library
 AJAX.Workbook ajaxWorkbook = new AJAX.Workbook();
 AJAX.Worksheet ajaxWorksheet = ajaxWorkbook.AddSheet();
@@ -54,13 +52,11 @@ DPL.Worksheet dplWorksheet =  dplWorkbook.Worksheets[0];
 // Document Processing Library to AJAX
 AJAX.Workbook convertedAjaxWorkbook = AJAX.Workbook.FromDocument(dplWorkbook);
 AJAX.Worksheet convertedAjaxWorksheet = convertedAjaxWorkbook.Sheets[0];
- 
+
 // value is "Test cell"
 string value = convertedAjaxWorksheet
     .Rows.Find(r=> r.Index == 2)
     .Cells.Find(c=> c.Index == 2)
     .Value.ToString();
 ````
-
-
  

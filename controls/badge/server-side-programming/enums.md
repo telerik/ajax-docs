@@ -68,12 +68,12 @@ The enum type: `Telerik.Web.UI.BadgeSize`
 
 The enum type: `Telerik.Web.UI.BadgeThemeColor`
 
-| Enum Name                                  | Value |
-| ------------------------------------------ | ----- |
-| `Telerik.Web.UI.BadgeThemeColor.Primary`   | `0`   |
-| `Telerik.Web.UI.BadgeThemeColor.Secondary` | `1`   |
-| `Telerik.Web.UI.BadgeThemeColor.Tertiary`  | `2`   |
-| `Telerik.Web.UI.BadgeThemeColor.Info`      | `3`   |
-| `Telerik.Web.UI.BadgeThemeColor.Success`   | `4`   |
-| `Telerik.Web.UI.BadgeThemeColor.Warning`   | `5`   |
-| `Telerik.Web.UI.BadgeThemeColor.Error`     | `6`   |
+| Enum Name                                 | Value |
+| ----------------------------------------- | ----- |
+| `Telerik.Web.UI.BadgeThemeColor.Primary`  | `0`   |
+| `Telerik.Web.UI.BadgeThemeColor.Secondary`| `1`   |
+| `Telerik.Web.UI.BadgeThemeColor.Tertiary` | `2`   |
+| `Telerik.Web.UI.BadgeThemeColor.Info`     | `3`   |
+| `Telerik.Web.UI.BadgeThemeColor.Success`  | `4`   |
+| `Telerik.Web.UI.BadgeThemeColor.Warning`  | `5`   |
+| `Telerik.Web.UI.BadgeThemeColor.Error`    | `6`   |
