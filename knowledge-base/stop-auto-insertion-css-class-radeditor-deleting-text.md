@@ -57,7 +57,7 @@ This code attaches an onkeyup event handler to the RadEditor. When the backspace
 
 ## See Also
 
-- [Style is inserted in text when deleting paragraph tag](https://www.telerik.com/forums/style-is-inserted-in-text-when-deleting-paragraph-tag)
+- [Style is inserted in text when deleting paragraph tag](slug://editor-style-is-inserted-in-text-when-deleting-paragraph-tag)
 - [Radeditor add extra elements when use backspace key](https://www.telerik.com/forums/radeditor-add-extra-elements-when-use-backspace-key)
 
    

@@ -58,7 +58,7 @@ Also check the FAQ section at the end of the [Security]({%slug asyncupload-secur
 >
 >**Download a patched version** from your Telerik.com account **after the 26th of June 2017**:
 >
->1. Go to your [telerik.com account](/account/product-download?product=RCAJAX).
+>1. Go to your [telerik.com account](https://www.telerik.com/account/downloads/product-download?product=RCAJAX).
 
 >2. From the Version dropdown, select your release:
 

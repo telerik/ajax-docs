@@ -28,6 +28,6 @@ This issue indicates that probably the following property is defined and upon re
 ## SEE ALSO  
   
  You can also check the following article addressing a related subject:  
-* [Set Default Time to RadDateTimePicker](/support/kb/aspnet-ajax/datetimepicker/details/set-default-time-to-raddatetimepicker)
+* [Set Default Time to RadDateTimePicker](slug://datetimepicker-set-default-time)
 
  

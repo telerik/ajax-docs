@@ -58,7 +58,7 @@ Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version
 
 ## SOLUTION
 
-The solution is to remove the RadUpload related registration in the web.config as suggested in [Mandatory Additions to the web.config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig). The support of the RadUpload is discontinued as of Q2 2012 - [https://www.telerik.com/forums/important-support-for-radupload-is-discontinued](/forums/important-support-for-radupload-is-discontinued). That is why we strongly recommend replacing the Obsolete RadUpload control with the new RadAsyncUpload one.
+The solution is to remove the RadUpload related registration in the web.config as suggested in [Mandatory Additions to the web.config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig). The support of the RadUpload is discontinued as of Q2 2012 - [https://www.telerik.com/forums/important-support-for-radupload-is-discontinued](https://www.telerik.com/forums/important-support-for-radupload-is-discontinued). That is why we strongly recommend replacing the Obsolete RadUpload control with the new RadAsyncUpload one.
 
 ````XML
 <configuration>
