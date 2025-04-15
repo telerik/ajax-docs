@@ -86,7 +86,7 @@ public DataTable GetData()
 }
 ````
 
-Related forum thread: [http://www.telerik.com/community/forums/need-a-'drop-up'-tree](/community/forums/need-a-'drop-up'-tree)
+Related forum thread: [https://www.telerik.com/forums/need-a-'drop-up'-tree](https://www.telerik.com/forums/need-a-'drop-up'-tree)
 
 
  

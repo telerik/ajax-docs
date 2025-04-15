@@ -35,7 +35,7 @@ RadNotification1.EnableAriaSupport = True
 
 >note The implementation of the WAI-ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 
->tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens. In case the **ContentTemplate** of the control is used and it contains inputs, their focus should be handled by the developer. The [OnClientShown event](../client-side-programming/events/onclientshown) and the [control's Client-side API](../client-side-programming/radnotification-object) can be used for this.
+>tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens. In case the **ContentTemplate** of the control is used and it contains inputs, their focus should be handled by the developer. The [OnClientShown event](slug://notification/client-side-programming/events/onclientshown) and the [control's Client-side API](slug://notification/client-side-programming/radnotification-object) can be used for this.
 
 
 

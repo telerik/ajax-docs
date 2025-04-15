@@ -41,7 +41,7 @@ You can try various approaches to troubleshoot and fix this issue:
  ````
 
  - **Option 2.** Older versions of IE and Compatibility mode are not supported:   
-[Browser Support](/aspnet-ajax/tech-sheets/browser-support)  
+[Browser Support](slug://getting-started/prerequisites/browser-support)  
 
  You can check your F12 inspector in IE and ensure that an older emulation option is not selected for the version of the browser:  
 

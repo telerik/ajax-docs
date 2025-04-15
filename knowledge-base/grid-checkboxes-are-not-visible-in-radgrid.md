@@ -35,6 +35,6 @@ input {
 
  1. Check for **script errors**:
  
-  [https://www.telerik.com/support/kb/aspnet-ajax/ajaxmanager/details/get-more-descriptive-errors-by-disabling-ajax](/support/kb/aspnet-ajax/ajaxmanager/details/get-more-descriptive-errors-by-disabling-ajax)
+  [https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/common-get-more-descriptive-errors-by-disabling-ajax](slug://common-get-more-descriptive-errors-by-disabling-ajax)
 
 
