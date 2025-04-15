@@ -50,7 +50,7 @@ Here are some links related to the request headers and JSONP:
 ## See Also
 
  - [Using ClientDataSource With Web API](https://docs.telerik.com/devtools/aspnet-ajax/controls/clientdatasource/how-to/using-clientdatasource-with-web-api)
- - [How to set Authorization header for transport read?](/forums/how-to-set-authorization-header-for-transport-read#Ds6e3JkOXEKOB24yFTggcg)
+ - [How to set Authorization header for transport read?](https://www.telerik.com/forums/how-to-set-authorization-header-for-transport-read#Ds6e3JkOXEKOB24yFTggcg)
 
 
 

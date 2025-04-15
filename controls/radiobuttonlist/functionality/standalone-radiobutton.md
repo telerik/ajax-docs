@@ -221,4 +221,4 @@ There are several options to achieve that. For example:
 
  * [Client-side API]({%slug Telerik.Web.UI.ButtonBase.CheckableButton%})
 
- * [Server-Side API](api/server/Telerik.Web.UI.ButtonBase/CheckableButton)
+ * [Server-Side API](/api/server/Telerik.Web.UI.ButtonBase/CheckableButton)
