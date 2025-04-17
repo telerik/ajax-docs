@@ -1,7 +1,7 @@
 ---
 title: Frozen Columns
 page_title: Frozen Columns - RadGrid
-description: Check our Web Forms article about Frozen Columns.
+description: Learn how to enable and configure frozen columns in the Grid control for better data navigation.
 slug: grid/functionality/scrolling/frozen-columns
 tags: frozen,columns
 published: True

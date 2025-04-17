@@ -1,7 +1,7 @@
 ---
 title: RadCalendar object
 page_title: RadCalendar object - RadCalendar
-description: Check our Web Forms article about RadCalendar object.
+description: Learn about the RadCalendar object and its client-side API for managing calendar functionality.
 slug: calendar/client-side-programming/radcalendar-object
 tags: radcalendar,object
 published: True

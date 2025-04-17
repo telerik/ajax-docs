@@ -1,7 +1,7 @@
 ---
 title: ItemCommand
 page_title: ItemCommand Event - RadGrid
-description: Check our Web Forms article about ItemCommand Event.
+description: Learn how to handle the ItemCommand event in the Grid control for executing custom server-side logic.
 slug: grid/server-side-programming/events/itemcommand
 published: True
 position: 50

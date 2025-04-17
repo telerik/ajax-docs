@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadStepper Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Stepper control and its features for creating step-by-step navigation in your application.
 slug: stepper/overview
 tags: overview
 published: True

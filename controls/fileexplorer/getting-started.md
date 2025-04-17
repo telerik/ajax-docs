@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started - RadFileExplorer
-description: Check our Web Forms article about Getting Started.
+description: Discover how to set up and configure the FileExplorer control for managing file systems in web apps.
 slug: fileexplorer/getting-started
 tags: getting,started
 published: True

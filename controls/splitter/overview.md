@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadSplitter Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the Splitter control and its features for dividing content into resizable and collapsible panes.
 slug: splitter/overview
 tags: overview
 published: True

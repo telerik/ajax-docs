@@ -1,7 +1,7 @@
 ---
 title: RadComboBoxItemCollection Object
 page_title: RadComboBoxItemCollection Object - RadComboBox
-description: Check our Web Forms article about RadComboBoxItemCollection Object.
+description: Explore the RadComboBoxItemCollection object and its API for managing collections of ComboBox items.
 slug: combobox/client-side-programming/objects/radcomboboxitemcollection-object
 tags: radcomboboxitemcollection,object
 published: True

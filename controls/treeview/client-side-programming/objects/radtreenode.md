@@ -1,7 +1,7 @@
 ---
 title: RadTreeNode
 page_title: RadTreeNode - RadTreeView
-description: Check our Web Forms article about RadTreeNode.
+description: Learn about the RadTreeNode object and its client-side API for managing individual nodes in a TreeView.
 slug: treeview/client-side-programming/objects/radtreenode
 tags: radtreenode
 published: True

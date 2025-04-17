@@ -1,7 +1,7 @@
 ---
 title: OnClientSelectedIndexChanged
 page_title: OnClientSelectedIndexChanged - RadComboBox
-description: Check our Web Forms article about OnClientSelectedIndexChanged.
+description: Discover how to handle the OnClientSelectedIndexChanged event in the ComboBox control for dynamic updates.
 slug: combobox/client-side-programming/events/onclientselectedindexchanged
 tags: onclientselectedindexchanged
 published: True

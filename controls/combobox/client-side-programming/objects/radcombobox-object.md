@@ -1,7 +1,7 @@
 ---
 title: RadComboBox Object
 page_title: RadComboBox Object - RadComboBox
-description: Check our Web Forms article about RadComboBox Object.
+description: Learn about the RadComboBox object and its client-side API for dynamic interactions and customization.
 slug: combobox/client-side-programming/objects/radcombobox-object
 tags: radcombobox,object
 published: True

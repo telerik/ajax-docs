@@ -1,7 +1,7 @@
 ---
 title: Format Numbers
 page_title: Format Numbers - RadHtmlChart
-description: Check our Web Forms article about Format Numbers.
+description: Discover how to format numeric values in the HTMLChart control for better data visualization.
 slug: htmlchart/appearance-and-styling/format-numbers
 tags: format,numbers
 published: True

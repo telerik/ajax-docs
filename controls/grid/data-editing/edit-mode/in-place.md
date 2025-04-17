@@ -1,7 +1,7 @@
 ---
 title: In Place
 page_title: In Place - RadGrid
-description: Check our Web Forms article about In Place.
+description: Learn how to enable in-place editing in the Grid control for seamless and efficient data modifications.
 slug: grid/data-editing/edit-mode/in-place
 tags: in,place
 published: True

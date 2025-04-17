@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadTooltip Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Tooltip control and its features for displaying contextual information on hover or focus.
 slug: tooltip/overview
 tags: overview
 published: True

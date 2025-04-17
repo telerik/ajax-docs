@@ -1,6 +1,6 @@
 ---
 title: Insecure Direct Object Reference in RadAsyncUpload
-description: Insecure Direct Object Reference in RadAsyncUpload. Check it now!
+description: Understand and mitigate insecure direct object reference risks in the AsyncUpload control.
 type: how-to
 page_title: Insecure Direct Object Reference in RadAsyncUpload
 slug: asyncupload-insecure-direct-object-reference

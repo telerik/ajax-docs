@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadToolBar Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Toolbar control and its features for creating customizable toolbars in your applications.
 slug: toolbar/overview
 tags: overview
 published: True

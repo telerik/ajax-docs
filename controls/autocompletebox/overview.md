@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadAutoCompleteBox Overview
-description: Check our Web Forms article about Telerik's ASP.NET AutoCompleteBox Overview.
+description: Discover the AutoCompleteBox control and its features for providing suggestions as users type input.
 slug: autocompletebox/overview
 tags: overview
 published: True

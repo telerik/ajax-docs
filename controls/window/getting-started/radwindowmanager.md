@@ -1,7 +1,7 @@
 ---
 title: RadWindowManager
 page_title: RadWindowManager - RadWindow
-description: Check our Web Forms article about RadWindowManager.
+description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: window/getting-started/radwindowmanager
 tags: radwindowmanager
 published: True

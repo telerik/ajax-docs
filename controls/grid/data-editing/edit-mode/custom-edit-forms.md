@@ -1,7 +1,7 @@
 ---
 title: Custom Edit Forms
 page_title: Custom Edit Forms - RadGrid
-description: Check our Web Forms article about Custom Edit Forms.
+description: Learn how to create and use custom edit forms in the Grid control for tailored data editing experiences.
 slug: grid/data-editing/edit-mode/custom-edit-forms
 tags: custom,edit,forms
 published: True

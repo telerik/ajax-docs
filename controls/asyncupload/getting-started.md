@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started - RadAsyncUpload
-description: Check our Web Forms article about Getting Started.
+description: Discover how to set up and configure the AsyncUpload control for seamless file upload functionality.
 slug: asyncupload/getting-started
 tags: getting,started
 published: True

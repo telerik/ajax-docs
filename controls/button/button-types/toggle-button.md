@@ -1,7 +1,7 @@
 ---
 title: Toggle button
 page_title: Toggle button - RadButton
-description: Check our Web Forms article about Toggle button.
+description: Learn how to use the Toggle Button type in the Button control for toggling states in your application.
 slug: button/button-types/toggle-button
 tags: toggle,button
 published: True

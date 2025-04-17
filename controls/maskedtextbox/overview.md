@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadMaskedTextBox
-description: Check our Web Forms article about Overview.
+description: Explore the MaskedTextBox control and its features for capturing formatted user input with validation.
 slug: radmaskedtextbox/overview
 tags: overview
 published: True

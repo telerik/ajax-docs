@@ -1,7 +1,7 @@
 ---
 title: Event sequence
 page_title: Event sequence - RadGrid
-description: Check our Web Forms article about Event sequence.
+description: Discover the sequence of events in the Grid control lifecycle for better understanding and customization.
 slug: grid/control-lifecycle/event-sequence
 tags: event,sequence
 published: True

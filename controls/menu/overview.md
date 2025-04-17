@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadMenu
-description: Check our Web Forms article about Overview.
+description: Learn about the Menu control and its features for creating hierarchical navigation menus.
 slug: menu/overview
 tags: overview
 published: True

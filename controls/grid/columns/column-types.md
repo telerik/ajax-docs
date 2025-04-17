@@ -1,7 +1,7 @@
 ---
 title: Column Types
 page_title: Column Types - RadGrid
-description: Check our Web Forms article about Column Types.
+description: Understand the different column types available in the Grid control and how to configure them effectively.
 slug: grid/columns/column-types
 tags: column,types
 published: True

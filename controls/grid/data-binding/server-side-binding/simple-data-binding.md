@@ -1,7 +1,7 @@
 ---
 title: Simple Data-binding
 page_title: Simple Data-binding - RadGrid
-description: Check our Web Forms article about Simple Data-binding.
+description: Discover how to use simple data binding in the Grid control for connecting to server-side data sources.
 slug: grid/data-binding/server-side-binding/simple-data-binding
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding
 tags: simple,data-binding

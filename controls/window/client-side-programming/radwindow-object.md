@@ -1,7 +1,7 @@
 ---
 title: RadWindow Object
 page_title: RadWindow Object - RadWindow
-description: Check our Web Forms article about RadWindow Object.
+description: Discover the RadWindow object and its client-side programming capabilities for enhanced user interaction.
 slug: window/client-side-programming/radwindow-object
 tags: radwindow,object
 published: True

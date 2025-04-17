@@ -1,6 +1,6 @@
 ---
 title: How to find out which is the used version of Telerik.Web.UI in the web application
-description: See how to check the version of a .NET assembly in two different ways
+description: Understand the concept of common assembly versioning and its importance in managing Telerik controls.
 type: how-to
 page_title: How to check which is the version of the Telerik assembly
 slug: common-assembly-version

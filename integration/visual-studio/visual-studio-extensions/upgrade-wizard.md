@@ -1,7 +1,7 @@
 ---
 title: Upgrade Project
 page_title: Upgrade Project
-description: Check our Web Forms article about Upgrade Project.
+description: Learn how to use the Visual Studio Upgrade Wizard to update Telerik AJAX controls in your projects.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard
 tags: upgrade,wizard
 published: True

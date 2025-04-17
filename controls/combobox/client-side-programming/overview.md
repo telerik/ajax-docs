@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Client-side Overview - RadComboBox
-description: Check our Web Forms article about Overview.
+description: Explore the client-side programming features of the ComboBox control for dynamic user interactions.
 slug: combobox/client-side-programming/overview
 tags: overview
 published: True

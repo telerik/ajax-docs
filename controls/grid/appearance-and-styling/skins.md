@@ -1,7 +1,7 @@
 ---
 title: Skins
 page_title: Skins - RadGrid
-description: Check our Web Forms article about Skins.
+description: scover how to apply and customize skins to style the Grid control for a consistent and appealing UI.
 slug: grid/appearance-and-styling/skins
 tags: skins
 published: True

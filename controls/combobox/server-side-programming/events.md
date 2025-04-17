@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: Events - RadComboBox
-description: Check our Web Forms article about Events.
+description: Learn about the server-side events of the ComboBox control for handling user interactions effectively.
 slug: combobox/server-side-programming/events
 tags: events
 published: True

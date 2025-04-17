@@ -1,7 +1,7 @@
 ---
 title: Changing Control Appearance
 page_title: Change Control Appearance
-description: Check our Web Forms article about Change Control Appearance.
+description: Learn how to change the appearance of Telerik controls using built-in styles and custom CSS.
 slug: getting-started/change-control-appearance
 tags: change, appearance, of, controls
 previous_url: getting-started/change-control-appearance

@@ -1,7 +1,7 @@
 ---
 title: Multicolumn Headers
 page_title: Multicolumn Headers - RadGrid
-description: Check our Web Forms article about Multicolumn Headers.
+description: Discover how to configure multi-column headers in the Grid control for better data organization.
 slug: grid/columns/multicolumn-headers
 tags: multicolumn,headers
 published: True

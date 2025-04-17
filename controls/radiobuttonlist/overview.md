@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadRadioButtonList
-description: Check our Web Forms article about Overview.
+description: Learn about the RadioButtonList control and its features for presenting a list of selectable radio buttons.
 slug: radiobuttonlist/overview
 tags: overview
 published: True

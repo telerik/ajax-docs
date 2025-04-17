@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadTreeView Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the TreeView control and its features for displaying hierarchical data structures.
 slug: treeview/overview
 tags: overview
 published: True

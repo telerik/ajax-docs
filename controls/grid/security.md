@@ -1,7 +1,7 @@
 ---
 title: Security
 page_title: Security - RadGrid
-description: RadGrid Security
+description: Discover best practices for securing the Grid control and protecting data in your web applications.
 slug: grid/security
 tags: security,xss,cross site scripting, sql injection
 published: True

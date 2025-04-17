@@ -1,7 +1,7 @@
 ---
 title: Filter Template
 page_title: Filter Template - RadGrid
-description: Check our Web Forms article about Filter Template.
+description: Explore how to use filter templates in the Grid control for creating custom filtering interfaces.
 slug: grid/functionality/filtering/filter-template
 tags: filter,template
 published: True

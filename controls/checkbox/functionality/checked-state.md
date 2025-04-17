@@ -1,7 +1,7 @@
 ---
 title: Checked State
 page_title: Checked State - RadCheckBox
-description: Check our Web Forms article about Checked State.
+description: Learn how to manage the checked state of the CheckBox control for capturing binary user input.
 slug: checkbox/functionality/checked-state
 tags: checked,state
 published: True

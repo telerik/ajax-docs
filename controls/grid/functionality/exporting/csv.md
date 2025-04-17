@@ -1,7 +1,7 @@
 ---
 title: CSV Export
 page_title: CSV Export - RadGrid
-description: CSV Export
+description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: grid/functionality/exporting/csv-export
 previous_url: controls/grid/functionality/exporting/export-formats/csv-export
 tags: csv,export

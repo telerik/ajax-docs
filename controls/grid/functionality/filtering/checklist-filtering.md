@@ -1,7 +1,7 @@
 ---
 title: CheckList Filtering
 page_title: CheckList Filtering - RadGrid
-description: Check our Web Forms article about CheckList Filtering.
+description: Explore how to use checklist filtering in the Grid control for advanced and user-friendly data filtering.
 slug: grid/functionality/filtering/checklist-filtering
 tags: checklist,filtering
 published: True

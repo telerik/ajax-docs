@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadImageGallery Overview
-description: Check our Web Forms article about Overview.
+description: Discover the ImageGallery control and its features for displaying and navigating image collections.
 slug: imagegallery/overview
 tags: overview
 published: True

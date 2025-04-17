@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadProgressBar Overview
-description: Check our Web Forms article about ProgressBar Overview.
+description: Explore the ProgressBar control and its features for displaying progress indicators in your application.
 slug: progressbar/overview
 tags: overview
 published: True

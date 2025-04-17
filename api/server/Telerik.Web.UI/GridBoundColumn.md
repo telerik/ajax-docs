@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridBoundColumn
 page_title: Telerik.Web.UI.GridBoundColumn
-description: Telerik.Web.UI.GridBoundColumn
+description: Discover the server-side API for the GridBoundColumn and how to configure it for data display.
 ---
 
 # Telerik.Web.UI.GridBoundColumn
