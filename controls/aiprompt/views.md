@@ -10,7 +10,7 @@ position: 2
 
 # Views
 
-The AIPrompt allows you to show pre-defined and custom views. The [`Views`](/api/javascript/ui/aiprompt/configuration/views) configuration exposes a number of options that you can set for a view, such as text, name, or icon. Each view can be craeted in the markup or in the backend.
+The AIPrompt allows you to show pre-defined and custom views. The `Views` configuration exposes a number of options that you can set for a view, such as text, name, or icon. Each view can be craeted in the markup or in the backend.
 
 Below you will find a list of the supported view types: 
 

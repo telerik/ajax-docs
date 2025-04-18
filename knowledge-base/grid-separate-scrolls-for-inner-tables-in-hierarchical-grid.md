@@ -175,5 +175,4 @@ This approach effectively wraps the content of the nested view table in a scroll
 ## See Also
 
 - [RadGrid Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/overview)
-- [Customizing Nested View Rendering in RadGrid](https://www.telerik.com/support/code-library/separate-scrolls-for-inner-tables-in-hierarchical-grid)
 - [Creating a Scrollable HTML Table](https://stackoverflow.com/questions/8232713/how-to-display-scroll-bar-onto-a-html-table)
