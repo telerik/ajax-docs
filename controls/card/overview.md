@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadCard Overview
-description: Check our Web Forms article about Overview.
+description: Discover the Card control and its features for displaying content in a visually appealing card layout.
 slug: card/overview
 tags: overview
 published: True

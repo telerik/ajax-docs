@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadNotification Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Notification control and its features for displaying alerts and messages to users.
 slug: notification/overview
 tags: overview
 published: True

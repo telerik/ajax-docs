@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadAsyncUpload Overview
-description: Check our Web Forms article about Overview.
+description: Learn how the AsyncUpload control enables seamless file uploads with support for large files and progress tracking.
 slug: asyncupload/overview
 tags: overview
 published: True

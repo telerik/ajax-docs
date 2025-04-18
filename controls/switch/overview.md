@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadSwitch
-description: Check our Web Forms article about Overview.
+description: Explore the Switch control and its features for toggling between two states in your application.
 slug: switch/overview
 tags: overview
 published: True

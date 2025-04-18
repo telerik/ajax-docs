@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadLinkButton
-description: Check our Web Forms article about Overview.
+description: Discover the LinkButton control and its features for creating hyperlinks with server-side functionality.
 slug: linkbutton/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadEditor Object
 page_title: RadEditor Object - RadEditor
-description: Check our Web Forms article about RadEditor Object.
+description: Discover the RadEditor object and its client-side API for managing rich text editing dynamically.
 slug: editor/client-side-programming/radeditor-object
 tags: radeditor,object
 published: True

@@ -1,7 +1,7 @@
 ---
 title: RadTreeView
 page_title: RadTreeView - RadTreeView
-description: Check our Web Forms article about RadTreeView.
+description: Discover the RadTreeView object and its client-side API for managing hierarchical data structures.
 slug: treeview/client-side-programming/objects/radtreeview
 tags: radtreeview
 published: True

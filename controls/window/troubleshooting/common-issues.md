@@ -1,7 +1,7 @@
 ---
 title: Common Issues
 page_title: Common Issues - RadWindow
-description: Check our Web Forms article about Common Issues.
+description: Discover common issues with the RadWindow control and learn how to troubleshoot and resolve them.
 slug: window/troubleshooting/common-issues
 tags: common,issues
 published: True

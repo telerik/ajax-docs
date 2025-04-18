@@ -1,7 +1,7 @@
 ---
 title: Call Functions in Windows
 page_title: How to Call Functions in Windows - RadWindow
-description: Check our Web Forms article about How to Call Functions in Windows.
+description: Learn how to call JavaScript functions from RadWindow instances for dynamic and interactive behavior.
 slug: window/how-to/calling-functions-in-windows
 tags: calling,call,functions,in,windows
 published: True

@@ -1,7 +1,7 @@
 ---
 title: How Skins Work
 page_title: How Skins Work
-description: Check our Web Forms article about How Skins Work.
+description: Learn how skins control the visual appearance of Telerik controls and how to apply them effectively.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work
 tags: how,skins,work
 published: True

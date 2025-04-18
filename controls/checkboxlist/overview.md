@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadCheckBoxList
-description: Check our Web Forms article about Overview.
+description: Explore the CheckBoxList control and its features for presenting a list of selectable checkboxes.
 slug: checkboxlist/overview
 tags: overview
 published: True

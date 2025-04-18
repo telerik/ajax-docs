@@ -1,7 +1,7 @@
 ---
 title: Select Item
 page_title: Select Item - RadRadioButtonList
-description: Check our Web Forms article about Select Item.
+description: Learn how to programmatically select items in the RadioButtonList control for enhanced user interaction.
 slug: radiobuttonlist/functionality/select-item
 tags: select,item
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Validation
 page_title: Validation - RadDatePicker
-description: Check our Web Forms article about Validation.
+description: Discover how to implement validation in the DatePicker control to ensure accurate date input.
 slug: datepicker/functionality/validation
 tags: web,pages,validation
 published: True

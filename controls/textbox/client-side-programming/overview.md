@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Client-side Programming Overview - RadTextBox
-description: Check our Web Forms article about Overview.
+description: Learn about the client-side programming features of the TextBox control for dynamic user interactions.
 slug: radtextbox/client-side-programming/overview
 tags: overview
 published: True

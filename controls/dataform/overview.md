@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadDataForm Overview
-description: Check our Web Forms article about Overview.
+description: Explore the DataForm control and its features for creating forms to display and edit data efficiently.
 slug: dataform/overview
 tags: overview
 published: True

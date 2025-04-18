@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadTreeList Overview - RadTreeList
-description: Check our Web Forms article about Overview.
+description: Discover the TreeList control and its features for displaying hierarchical data in a tabular format.
 slug: treelist/overview
 tags: overview
 published: True

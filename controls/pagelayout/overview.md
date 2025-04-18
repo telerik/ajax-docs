@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadPageLayout Overview
-description: Check our Web Forms article about Overview.
+description: Discover the PageLayout control and its features for creating responsive and structured page layouts.
 slug: pagelayout/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Reordering
 page_title: Reordering - RadGrid
-description: Check our Web Forms article about Reordering.
+description: Discover how to enable and manage column reordering in the Grid control for better data organization.
 slug: grid/columns/reordering
 tags: reordering
 published: True

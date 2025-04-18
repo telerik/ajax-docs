@@ -1,7 +1,7 @@
 ---
 title: ASP.NET MVC
 page_title: ASP.NET MVC
-description: Check our Web Forms article about Overview.
+description: Explore how to integrate Telerik AJAX controls into ASP.NET MVC applications for enhanced functionality.
 slug: mvc/overview
 previous_url: mvc/overview
 tags: overview

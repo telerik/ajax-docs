@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadSearchBox Overview
-description: Check our Web Forms article about Overview.
+description: Explore the SearchBox control and its features for implementing search functionality in your app.
 slug: searchbox/overview
 tags: overview
 published: True

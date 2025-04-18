@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadButton Overview - RadButton
-description: Check our Web Forms article about Overview.
+description: Explore the Button control's features, including styling, events, and advanced customization options.
 slug: button/telerik's-asp.net-button-overview
 tags: telerik's,asp.net,button,overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Pager Item
 page_title: Pager Item - RadGrid
-description: Check our Web Forms article about Pager Item.
+description: Learn how to customize the pager item in the Grid control for better navigation through data pages.
 slug: grid/functionality/paging/pager-item
 tags: pager,item
 published: True

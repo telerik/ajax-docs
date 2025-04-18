@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started - RadButton
-description: Check our Web Forms article about Getting Started.
+description: Discover how to set up and configure the Button control for interactive user actions in your application.
 slug: button/getting-started
 tags: getting,started
 published: True

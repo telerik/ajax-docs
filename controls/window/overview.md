@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadWindow
-description: Check our Web Forms article about Overview.
+description: Discover the RadWindow control and its features for creating modal and non-modal dialog windows.
 slug: window/overview
 tags: overview
 published: True

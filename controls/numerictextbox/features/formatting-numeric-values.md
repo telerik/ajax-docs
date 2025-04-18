@@ -1,7 +1,7 @@
 ---
 title: Formatting Numeric Values
 page_title: Formatting Numeric Values
-description: Check our Web Forms article about Formatting Numeric Values.
+description: Learn how to format numeric values in the NumericTextBox control for better data presentation.
 slug: numerictextbox/features/formatting-numeric-values
 tags: formatting,numeric,values
 published: True

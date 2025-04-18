@@ -1,6 +1,6 @@
 ---
 title: Set Grid height in percentages
-description: Set Grid height in percentages. Check it now!
+description: Learn how to configure the Grid control to set its height in percentages for responsive layouts.
 type: how-to
 page_title: Set Grid height in percentages. | RadGrid
 slug: grid-set-height-in-percentages

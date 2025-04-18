@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadAjaxLoadingPanel Overview
-description: Check our Web Forms article about Overview.
+description: Learn how the AjaxLoadingPanel provides visual feedback during asynchronous operations in your app.
 slug: ajaxloadingpanel/overview
 previous_url: ajax/radajaxloadingpanel/overview
 tags: overview

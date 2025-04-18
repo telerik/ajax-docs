@@ -1,7 +1,7 @@
 ---
 title: Sort Expressions
 page_title: Sort Expressions - RadGrid
-description: Check our Web Forms article about Sort Expressions.
+description: Learn how to use sort expressions in the Grid control for advanced data sorting functionality.
 slug: grid/functionality/sorting/sort-expressions
 tags: sort,expressions
 published: True

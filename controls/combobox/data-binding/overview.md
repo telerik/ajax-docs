@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Data Binding Overview - RadComboBox
-description: Check our Web Forms article about Overview.
+description: Discover how to bind data to the ComboBox control for dynamic and efficient dropdown list management.
 slug: combobox/data-binding/overview
 tags: overview
 published: True

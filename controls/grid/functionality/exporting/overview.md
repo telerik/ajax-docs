@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Exporting Overview - RadGrid
-description: Exporting Overview
+description: Learn about the exporting functionality in the Grid control for sharing data in various formats.
 slug: grid/functionality/exporting/overview
 tags: overview,exporting
 published: True

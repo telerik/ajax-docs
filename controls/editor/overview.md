@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: Check our Web Forms article about Overview.
+description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: editor/overview
 tags: overview
 published: True

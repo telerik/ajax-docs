@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadUpload Overview
-description: Check our Web Forms article about Overview.
+description: Discover the Upload control and its features for managing file uploads with progress tracking.
 slug: upload/overview
 tags: overview
 published: True

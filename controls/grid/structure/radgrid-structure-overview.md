@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadGrid Structure Overview - RadGrid
-description: Check our Web Forms article about RadGrid Structure Overview.
+description: Discover the structure of the RadGrid control and its components for building robust data grids.
 slug: grid/structure/radgrid-structure-overview
 previous_url: controls/grid/getting-started/radgrid-structure-overview
 tags: radgrid,structure,overview

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Grouping Overview - RadGrid
-description: Check our Web Forms article about Overview.
+description: Explore the grouping functionality in the Grid control for organizing data into hierarchical structures.
 slug: grid/functionality/grouping/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Default Item
 page_title: Default Item - RadComboBox
-description: Check our Web Forms article about Default Item.
+description: Learn how to configure a default item in the RadComboBox control for improved user experience.
 slug: combobox/radcombobox-items/default-item
 tags: default,item
 published: True

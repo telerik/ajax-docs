@@ -1,7 +1,7 @@
 ---
 title: Validation
 page_title: Validation - RadTextBox
-description: Check our Web Forms article about Validation.
+description: Discover how to implement validation in the TextBox control to ensure accurate and secure user input.
 slug: radtextbox/features/validation
 tags: validation
 published: True

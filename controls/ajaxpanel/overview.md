@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadAjaxPanel Overview
-description: Check our Web Forms article about Overview.
+description: Learn how the AjaxPanel control enables partial page updates for improving application performance.
 slug: ajaxpanel/overview
 previous_url: ajax/radajaxpanel/overview
 tags: overview

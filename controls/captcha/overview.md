@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadCaptcha Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Captcha control and its features for preventing automated submissions in web forms.
 slug: captcha/overview
 tags: overview
 published: True

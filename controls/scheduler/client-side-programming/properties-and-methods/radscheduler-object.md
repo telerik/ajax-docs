@@ -1,7 +1,7 @@
 ---
 title: RadScheduler Object
 page_title: RadScheduler Object - RadScheduler
-description: Check our Web Forms article about RadScheduler Object.
+description: Discover the RadScheduler object and its client-side API for managing scheduling functionality.
 slug: scheduler/client-side-programming/properties-and-methods/radscheduler-object
 tags: radscheduler,object
 published: True

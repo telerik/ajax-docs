@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Toolbars Overview - RadEditor
-description: Check our Web Forms article about Overview.
+description: Learn about the toolbars in the Editor control and how to customize them for specific editing needs.
 slug: editor/functionality/toolbars/overview
 tags: overview
 published: True

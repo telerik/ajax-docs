@@ -1,7 +1,7 @@
 ---
 title: Bar Chart
 page_title: Bar Chart - RadHtmlChart
-description: Check our Web Forms article about Bar Chart.
+description: Learn about the Bar Chart type in the HTMLChart control for visualizing data in a bar format.
 slug: htmlchart/chart-types/bar-chart
 tags: bar,chart
 published: True

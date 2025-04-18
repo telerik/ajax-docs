@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadGrid Overview
-description: Check our Web Forms article about Overview.
+description: Explore the Grid control's features, including data binding, filtering, and customization options.
 slug: grid/overview
 tags: overview
 published: True

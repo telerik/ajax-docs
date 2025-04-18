@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadDatePicker Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the DatePicker control and its features for selecting and formatting date values.
 slug: datepicker/overview
 tags: overview
 published: True

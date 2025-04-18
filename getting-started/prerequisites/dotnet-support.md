@@ -1,7 +1,7 @@
 ---
 title: .NET support
 page_title: .NET support
-description: Learn about the supported .NET versions
+description: Understand the .NET framework prerequisites required for using Telerik AJAX controls in your applications.
 slug: getting-started/prerequisites/dotnet-support
 tags: system, requirements, dotnet, dotnet support
 published: True

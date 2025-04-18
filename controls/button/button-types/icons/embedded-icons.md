@@ -1,7 +1,7 @@
 ---
 title: Embedded Icons
 page_title: Embedded Icons - RadButton
-description: Check our Web Forms article about Embedded Icons.
+description: Learn how to use embedded icons in Button controls to enhance visual appeal and improve user experience.
 slug: button/button-types/icons/embedded-icons
 tags: embedded,icons
 published: True

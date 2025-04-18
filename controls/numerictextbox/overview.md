@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadNumericTextBox Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the NumericTextBox control and its features for handling numeric input with validation.
 slug: numerictextbox/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: ClientTemplate Overview - RadHtmlChart
-description: Check our Web Forms article about ClientTemplate Overview.
+description: Discover how to use client templates in the HTMLChart control for dynamic and customizable charts.
 slug: htmlchart/functionality/clienttemplate/overview
 tags: overview
 published: True

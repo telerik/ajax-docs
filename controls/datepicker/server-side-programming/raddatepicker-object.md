@@ -1,7 +1,7 @@
 ---
 title: RadDatePicker Object
 page_title: RadDatePicker Server-side Object - RadDatePicker
-description: Check our Web Forms article about RadDatePicker Server-Side Object.
+description: Discover the server-side API of the RadDatePicker control for managing date selection programmatically.
 slug: calendar/server-side-programming/server-side-objects
 tags: server-side,objects
 published: True

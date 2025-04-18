@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadSpreadsheet Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the Spreadsheet control and its features for creating and managing Excel-like spreadsheets.
 slug: spreadsheet/overview
 tags: overview
 published: True

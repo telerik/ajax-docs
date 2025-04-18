@@ -1,7 +1,7 @@
 ---
 title: Column Chart
 page_title: Column Chart - RadHtmlChart
-description: Check our Web Forms article about Column Chart.
+description: Discover the Column Chart type in the HTMLChart control for visualizing data in a column format.
 slug: htmlchart/chart-types/column-chart
 tags: column,chart
 published: True

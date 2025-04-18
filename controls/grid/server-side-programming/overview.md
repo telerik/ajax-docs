@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Server-Side Programming Overview - RadGrid
-description: Check our Web Forms article about Overview.
+description: Discover the server-side programming features of the Grid control for advanced data manipulation.
 slug: grid/server-side-programming/overview
 tags: overview
 published: True

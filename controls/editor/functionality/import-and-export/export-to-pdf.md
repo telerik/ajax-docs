@@ -1,7 +1,7 @@
 ---
 title: Export to PDF
 page_title: Export to PDF - RadEditor
-description: Check our Web Forms article about Export to PDF.
+description: Learn how to export content from the Editor control to PDF format for creating shareable documents.
 slug: editor/functionality/import-and-export/export-to-pdf
 tags: export,to,pdf
 published: True

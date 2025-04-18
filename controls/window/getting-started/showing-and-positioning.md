@@ -1,7 +1,7 @@
 ---
 title: Showing and Positioning
 page_title: Showing and Positioning - RadWindow
-description: Check our Web Forms article about Showing and Positioning.
+description: Learn how to show and position RadWindow instances dynamically for enhanced user interface interactions.
 slug: window/getting-started/showing-and-positioning
 tags: showing,and,positioning
 published: True

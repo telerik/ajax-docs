@@ -1,7 +1,7 @@
 ---
 title: Pie Chart
 page_title: Pie Chart - RadHtmlChart
-description: Check our Web Forms article about Pie Chart.
+description: Learn about the Pie Chart type in the HTMLChart control for visualizing data as proportional slices.
 slug: htmlchart/chart-types/pie-chart
 tags: pie,chart
 published: True

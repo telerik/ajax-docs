@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadButton
-description: Check our Web Forms article about Overview.
+description: Discover how to use icons in the Button control to enhance visual appeal and improve user experience.
 slug: button/button-types/icons/overview
 tags: overview
 published: True

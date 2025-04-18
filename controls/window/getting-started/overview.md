@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Getting Started Overview - RadWindow
-description: Check our Web Forms article about Overview.
+description: Discover how to set up and configure the RadWindow control for creating modal and non-modal dialogs.
 slug: window/getting-started/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadHtmlChart Overview
-description: Check our Web Forms article about Overview.
+description: Explore the HTMLChart control for creating interactive and visually appealing data visualizations.
 slug: htmlchart/overview
 tags: overview
 published: True

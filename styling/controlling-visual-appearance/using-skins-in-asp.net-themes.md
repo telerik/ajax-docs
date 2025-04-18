@@ -1,7 +1,7 @@
 ---
 title: Using Skins in ASP.NET Themes
 page_title: Using Skins in ASP.NET Themes
-description: Check our Web Forms article about Using Skins in ASP.NET Themes.
+description: Learn how to apply Telerik skins in ASP.NET themes for consistent and customizable control styling.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/using-skins-in-asp.net-themes
 tags: using,skins,in,asp.net,themes
 published: True

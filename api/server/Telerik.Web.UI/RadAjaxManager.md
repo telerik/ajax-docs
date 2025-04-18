@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadAjaxManager
 page_title: Telerik.Web.UI.RadAjaxManager
-description: Telerik.Web.UI.RadAjaxManager
+description: Explore the server-side API of the RadAjaxManager control for managing AJAX requests and responses.
 ---
 
 # Telerik.Web.UI.RadAjaxManager

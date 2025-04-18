@@ -1,7 +1,7 @@
 ---
 title: PDF Export
 page_title: PDF Export - RadGrid
-description: Check our Web Forms article about PDF Export.
+description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: grid/functionality/exporting/pdf-export
 previous_url: controls/grid/functionality/exporting/export-formats/pdf-export
 tags: pdf,export

@@ -1,7 +1,7 @@
 ---
 title: CSS Styles
 page_title: CSS Styles - RadEditor
-description: Check our Web Forms article about CSS Styles.
+description: Learn how to configure CSS styles in the Editor control's toolbar dropdowns for content formatting.
 slug: editor/functionality/toolbars/dropdowns/css-styles
 tags: css,styles
 published: True
