@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadDropDownList Overview
-description: Check our Web Forms article about Telerik's ASP.NET RadDropDownList Overview.
+description: Explore the DropDownList control and its features for creating dropdown menus with advanced functionality.
 slug: dropdownlist/overview
 tags: overview
 published: True

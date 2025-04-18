@@ -1,7 +1,7 @@
 ---
 title: Group Header and Footer Templates
 page_title: Group Header and Footer Templates - RadGrid
-description: Check our Web Forms article about Group Header and Footer Templates.
+description: Discover how to use group header and footer templates in the Grid control for customized grouping.
 slug: grid/functionality/grouping/group-header-and-footer-templates
 tags: group,header,and,footer,templates
 published: True

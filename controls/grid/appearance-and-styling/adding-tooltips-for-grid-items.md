@@ -1,7 +1,7 @@
 ---
 title: Adding Tooltips for Grid Items
 page_title: Adding Tooltips for Grid Items - RadGrid
-description: Check our Web Forms article about Adding Tooltips for Grid Items.
+cription: Learn how to add tooltips to Grid items for providing additional information to users interactively.
 slug: grid/appearance-and-styling/adding-tooltips-for-grid-items
 tags: adding,tooltips,for,grid,items
 published: True

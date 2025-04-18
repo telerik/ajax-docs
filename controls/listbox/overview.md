@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadListBox Overview
-description: Check our Web Forms article about Overview.
+description: Discover the ListBox control and its features for displaying and managing a list of selectable items.
 slug: listbox/overview
 tags: overview
 published: True

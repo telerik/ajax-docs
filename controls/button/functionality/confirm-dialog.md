@@ -1,7 +1,7 @@
 ---
 title: Button Confirm Dialog
 page_title: Button Confirm Dialog - RadButton
-description: Check our Web Forms article about Button Confirm Dialog.
+description: Explore how to implement a confirm dialog with the Button control for user confirmation scenarios.
 slug: button/functionality/button-confirm-dialog
 tags: confirm,dialog,button
 published: True

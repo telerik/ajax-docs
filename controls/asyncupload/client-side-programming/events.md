@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: Events - RadAsyncUpload
-description: Check our Web Forms article about Events.
+description: Learn about the client-side events of the AsyncUpload control for managing file uploads dynamically.
 slug: asyncupload/client-side-programming/events
 tags: events
 published: True

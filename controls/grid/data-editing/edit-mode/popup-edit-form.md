@@ -1,7 +1,7 @@
 ---
 title: Popup Edit Form
 page_title: Popup Edit Form - RadGrid
-description: Check our Web Forms article about Popup Edit Form.
+description: Learn how to use the popup edit form in the Grid control for editing data in a modal dialog.
 slug: grid/data-editing/edit-mode/popup-edit-form
 tags: popup,edit,form
 published: True

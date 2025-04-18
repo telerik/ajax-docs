@@ -1,7 +1,7 @@
 ---
 title: Render Modes
 page_title: Render Modes
-description: Check our Web Forms article about Render Modes.
+description: Learn about the render modes available for Telerik controls and how to configure them effectively.
 slug: controls/render-modes
 tags: render,modes
 published: True

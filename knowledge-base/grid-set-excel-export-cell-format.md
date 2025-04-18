@@ -1,6 +1,6 @@
 ---
 title: Set Excel export cell format
-description: Set Excel export cell format
+description: Learn how to set cell formats when exporting Grid data to Excel for better data presentation.
 type: how-to
 page_title: Set Excel export cell format - RadGrid
 slug: grid-set-excel-export-cell-format

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Filtering Overview - RadGrid
-description: Check our Web Forms article about Overview.
+description: Explore the filtering functionality in the Grid control for narrowing down data based on user criteria.
 slug: grid/functionality/filtering/overview
 tags: overview
 published: True

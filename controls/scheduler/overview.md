@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadScheduler Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the Scheduler control and its features for managing and displaying events in a calendar view.
 slug: scheduler/overview
 tags: overview
 published: True

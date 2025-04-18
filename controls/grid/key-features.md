@@ -1,7 +1,7 @@
 ---
 title: Key Features
 page_title: Key Features - RadGrid
-description: Check our Web Forms article about Key Features.
+description: Explore the key features of the Grid control, including data binding, sorting, filtering, and more.
 slug: grid/key-features
 previous_url: controls/grid/getting-started/key-features
 tags: key,features

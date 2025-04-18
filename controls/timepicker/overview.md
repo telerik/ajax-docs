@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadTimePicker Overview
-description: Check our Web Forms article about Overview.
+description: Discover the TimePicker control and its features for selecting and formatting time values efficiently.
 slug: timepicker/overview
 tags: overview
 published: True

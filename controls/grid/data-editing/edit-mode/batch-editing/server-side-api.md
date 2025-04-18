@@ -1,7 +1,7 @@
 ---
 title: Server-side API
 page_title: Batch Editing Server-side API - RadGrid
-description: Check our Web Forms article about Batch Editing Server-side API.
+description: Learn about the server-side API for batch editing in the Grid control for efficient data management.
 slug: grid/data-editing/edit-mode/batch-editing/server-side-api
 tags: batch,editing,server-side,api
 published: True

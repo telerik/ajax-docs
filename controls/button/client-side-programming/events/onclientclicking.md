@@ -1,7 +1,7 @@
 ---
 title: OnClientClicking
 page_title: OnClientClicking - RadButton
-description: Check our Web Forms article about OnClientClicking.
+description: Learn how to handle the OnClientClicking event in the Button control for custom client-side logic.
 slug: button/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True

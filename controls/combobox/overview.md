@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadComboBox Overview
-description: Check our Web Forms article about Telerik's ASP.NET ComboBox Overview.
+description: Learn about the ComboBox control, its features, and how to implement it for efficient data selection.
 slug: combobox/overview
 tags: overview, combobox
 published: True

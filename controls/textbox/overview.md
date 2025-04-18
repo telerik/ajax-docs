@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview - RadTextBox
-description: Check our Web Forms article about Overview.
+description: Learn about the TextBox control and its features for capturing and validating user input effectively.
 slug: radtextbox/overview
 tags: overview
 published: True

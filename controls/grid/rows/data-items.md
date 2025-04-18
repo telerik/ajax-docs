@@ -1,7 +1,7 @@
 ---
 title: Data Items
 page_title: Data Items - RadGrid
-description: Check our Web Forms article about Data Items.
+description: Learn how to access and manipulate data items in Grid rows for advanced data customization.
 slug: grid/rows/data-items
 tags: data,items
 published: True

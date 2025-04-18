@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Controlling Visual Appearance Overview
-description: Check our Web Forms article about Overview.
+description: Learn how to control the visual appearance of Telerik controls using skins, themes, and custom CSS.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview
 tags: overview
 published: True

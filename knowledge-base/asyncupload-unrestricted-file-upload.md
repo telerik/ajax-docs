@@ -1,6 +1,6 @@
 ---
 title: Unrestricted File Upload in RadAsyncUpload
-description: Unrestricted File Upload in RadAsyncUpload. Check it now!
+description: Understand how to secure the AsyncUpload control to prevent unrestricted file uploads in your application.
 type: how-to
 page_title: Unrestricted File Upload in RadAsyncUpload
 slug: asyncupload-unrestricted-file-upload

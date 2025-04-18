@@ -1,7 +1,7 @@
 ---
 title: Operating System Support
 page_title: Operating System Support
-description: Learn about the supported operating system
+description: Discover the operating system requirements for using Telerik AJAX controls in your applications.
 slug: getting-started/prerequisites/operating-system-support
 tags: system, requirements, operating systemns, systems, operating systems support
 published: True

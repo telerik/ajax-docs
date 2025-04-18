@@ -1,7 +1,7 @@
 ---
 title: NeedDataSource
 page_title: NeedDataSource Event - RadGrid
-description: Check our Web Forms article about NeedDataSource Event.
+description: Discover how to handle the NeedDataSource event in the Grid control for binding data dynamically.
 slug: grid/server-side-programming/events/needdatasource
 published: True
 position: 50

@@ -1,7 +1,7 @@
 ---
 title: CheckBox Support
 page_title: CheckBox Support - RadComboBox
-description: Check our Web Forms article about CheckBox Support.
+description: Learn how to enable and use checkbox support in the ComboBox control for multi-selection functionality.
 slug: combobox/functionality/checkbox-support
 tags: checkbox,support
 published: True

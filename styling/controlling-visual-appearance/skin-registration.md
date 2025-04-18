@@ -1,7 +1,7 @@
 ---
 title: Skin Registration
 page_title: Skin Registration
-description: Check our Web Forms article about Skin Registration.
+description: Learn how to register and apply skins to Telerik controls for consistent styling across your application.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration
 tags: skin,registration
 published: True

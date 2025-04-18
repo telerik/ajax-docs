@@ -1,7 +1,7 @@
 ---
 title: OnKeyPress
 page_title: OnKeyPress - RadTextBox
-description: Check our Web Forms article about OnKeyPress.
+description: Discover how to handle the OnKeyPress event in the TextBox control for custom client-side logic.
 slug: radtextbox/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True

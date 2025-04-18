@@ -1,7 +1,7 @@
 ---
 title: Browser support
 page_title: Browser support
-description: Learn about the supported browser
+description: Discover the browser compatibility requirements for using Telerik AJAX controls in your applications.
 slug: getting-started/prerequisites/browser-support
 tags: system, requirements, and, browser, support
 published: True

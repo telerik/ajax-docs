@@ -1,7 +1,7 @@
 ---
 title: Custom Option for Filtering
 page_title: Custom Option for Filtering - RadGrid
-description: Check our Web Forms article about Custom Option for Filtering.
+description: Learn how to implement custom filtering options in the Grid control for advanced data filtering needs.
 slug: grid/how-to/filtering/custom-option-for-filtering
 previous_url: controls/grid/functionality/filtering/how-to/custom-option-for-filtering
 tags: custom,option,for,filtering

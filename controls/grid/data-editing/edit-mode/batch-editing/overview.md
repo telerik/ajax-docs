@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Batch Editing Overview - RadGrid
-description: Check our Web Forms article about Batch Editing Overview.
+description: Discover how to enable batch editing in the Grid control for efficient data entry and updates.
 slug: grid/data-editing/edit-mode/batch-editing/overview
 previous_url: controls/grid/data-editing/edit-mode/batch-editing
 tags: batch,editing,overview

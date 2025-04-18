@@ -1,7 +1,7 @@
 ---
 title: Filtering
 page_title: Filtering - RadComboBox
-description: Check our Web Forms article about Filtering.
+description: Discover how to enable and customize filtering in the ComboBox control for efficient data selection.
 slug: combobox/functionality/filtering
 tags: filtering
 published: True

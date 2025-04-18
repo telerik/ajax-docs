@@ -1,7 +1,7 @@
 ---
 title: Using ToolsFile.xml
 page_title: Using ToolsFile.xml - RadEditor
-description: Check our Web Forms article about Using ToolsFile.xml.
+description: Learn how to configure the Editor control's toolbar using the ToolsFile.xml configuration file.
 slug: editor/functionality/toolbars/using-toolsfile.xml
 tags: using,toolsfile.xml
 published: True

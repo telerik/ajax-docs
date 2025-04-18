@@ -1,7 +1,7 @@
 ---
 title: Single Click Button
 page_title: Single Click Button - RadButton
-description: Check our Web Forms article about Single Click Button.
+description: Learn how to configure a single-click button in the Button control to prevent duplicate submissions.
 slug: button/functionality/single-click-button
 tags: single,click,button
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadDock Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the Dock control and its features for creating movable and customizable content containers.
 slug: dock/overview
 tags: overview
 published: True

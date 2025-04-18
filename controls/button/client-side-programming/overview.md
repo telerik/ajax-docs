@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Client-side Programming Overview - RadButton
-description: Check our Web Forms article about Overview.
+description: Learn about the client-side programming features of the Button control for dynamic user interactions.
 slug: button/client-side-programming/overview
 tags: overview
 published: True

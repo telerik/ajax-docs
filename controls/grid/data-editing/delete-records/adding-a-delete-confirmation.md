@@ -1,7 +1,7 @@
 ---
 title: Adding a Delete Confirmation
 page_title: Adding a Delete Confirmation - RadGrid
-description: Check our Web Forms article about Adding a Delete Confirmation.
+description: Explore how to add a delete confirmation dialog in the Grid control for safer record deletions.
 slug: grid/data-editing/delete-records/adding-a-delete-confirmation
 tags: adding,a,delete,confirmation
 published: True

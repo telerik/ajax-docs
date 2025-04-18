@@ -1,7 +1,7 @@
 ---
 title: Accessing Items
 page_title: Accessing rows Server-Side - RadGrid
-description: Check our Web Forms article about Accessing Grid Rows on server.
+description: Discover how to access and manipulate Grid items on the server side for advanced data customization.
 slug: grid/accessing-values-and-controls/server-side/accessing-items
 published: True
 position: 2

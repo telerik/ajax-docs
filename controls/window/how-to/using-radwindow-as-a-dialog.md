@@ -1,7 +1,7 @@
 ---
 title: Using RadWindow as a Dialog
 page_title: Using RadWindow as a Dialog - RadWindow
-description: Check our Web Forms article about Using RadWindow as a Dialog.
+description: Learn how to use the RadWindow control as a dialog for displaying modal and non-modal content.
 slug: window/how-to/using-radwindow-as-a-dialog
 tags: using,radwindow,as,a,dialog
 published: True

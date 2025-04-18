@@ -1,7 +1,7 @@
 ---
 title: Using jQuery
 page_title: Using jQuery
-description: Check our Web Forms article about Using jQuery.
+description: Explore how to integrate jQuery with Telerik AJAX controls to enhance client-side functionality and performance.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery
 tags: using,jquery
 published: True

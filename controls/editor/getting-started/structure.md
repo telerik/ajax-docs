@@ -1,7 +1,7 @@
 ---
 title: Structure
 page_title: RadEditor Structure - RadEditor
-description: Check our Web Forms article about RadEditor Structure.
+description: Explore the structure of the Editor control and learn how to configure its components effectively.
 slug: editor/getting-started/radeditor-structure
 tags: radeditor,structure
 published: True

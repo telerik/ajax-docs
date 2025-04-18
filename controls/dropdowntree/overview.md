@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadDropDownTree Overview
-description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Overview.
+description: Explore the DropDownTree control and its features for displaying hierarchical data in a dropdown format.
 slug: dropdowntree/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadChat Overview
-description: Check our Web Forms article about RadChat Overview.
+description: Learn about the Chat control and its features for creating conversational user interfaces in web apps.
 slug: chat/overview
 tags: overview
 published: True

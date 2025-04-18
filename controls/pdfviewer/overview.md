@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadPdfViewer Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the PDFViewer control and its features for displaying and interacting with PDF documents.
 slug: pdfviewer/overview
 tags: overview
 published: True

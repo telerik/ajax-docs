@@ -1,7 +1,7 @@
 ---
 title: Client-side Binding
 page_title: Client-side Binding - RadGrid
-description: Check our Web Forms article about Client-side Binding.
+description: Explore how to bind data to the Grid control on the client side for dynamic and responsive applications.
 slug: grid/data-binding/client-side-binding/client-side-binding
 previous_url: controls/grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding
 tags: client-side,binding

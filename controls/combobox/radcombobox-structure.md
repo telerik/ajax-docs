@@ -1,7 +1,7 @@
 ---
 title: RadComboBox Structure
 page_title: RadComboBox Structure - RadComboBox
-description: Check our Web Forms article about RadComboBox Structure.
+description: Explore the structure of the RadComboBox control and its components for efficient dropdown management.
 slug: combobox/radcombobox-structure
 tags: radcombobox,structure
 published: True

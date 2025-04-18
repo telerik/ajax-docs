@@ -1,7 +1,7 @@
 ---
 title: Header Context Menu
 page_title: Header Context Menu - RadGrid
-description: Check our Web Forms article about Header Context Menu.
+description: Learn how to enable and customize the header context menu in the Grid control for column management.
 slug: grid/columns/header-context-menu
 tags: header,context,menu
 published: True

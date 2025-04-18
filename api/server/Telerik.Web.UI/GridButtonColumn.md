@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridButtonColumn
 page_title: Telerik.Web.UI.GridButtonColumn
-description: Telerik.Web.UI.GridButtonColumn
+description: Learn about the server-side API for the GridButtonColumn and how to configure it for custom actions.
 ---
 
 # Telerik.Web.UI.GridButtonColumn

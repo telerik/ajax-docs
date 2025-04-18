@@ -1,6 +1,6 @@
 ---
 title: Clear all filters in RadGrid
-description: Clear all filters in RadGrid
+description: Learn how to clear all filters in the Grid control programmatically for resetting data views.
 type: how-to
 page_title: Clear all filters - RadGrid
 slug: grid-clear-all-filters

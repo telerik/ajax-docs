@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadTabStrip Overview
-description: Check our Web Forms article about Overview.
+description: Learn about the TabStrip control and its features for organizing content into tabs for better navigation.
 slug: tabstrip/overview
 tags: overview
 published: True

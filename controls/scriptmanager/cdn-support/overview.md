@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: CDN Support Overview - RadScriptManager
-description: Check our Web Forms article about Overview.
+description: Learn about the CDN support in the ScriptManager control for optimizing script loading in web apps.
 slug: scriptmanager/cdn-support/overview
 tags: overview
 published: True

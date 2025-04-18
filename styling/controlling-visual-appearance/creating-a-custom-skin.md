@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Skin
 page_title: Creating a Custom Skin
-description: Check our Web Forms article about Creating a Custom Skin.
+description: Learn how to create and apply custom skins to Telerik controls for a unique and consistent appearance.
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin
 tags: creating,a,custom,skin
 published: True

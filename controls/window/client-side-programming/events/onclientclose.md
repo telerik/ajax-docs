@@ -1,7 +1,7 @@
 ---
 title: OnClientClose
 page_title: OnClientClose - RadWindow
-description: Check our Web Forms article about OnClientClose.
+description: Explore how to handle the OnClientClose event in the RadWindow control for custom client-side logic.
 slug: window/client-side-programming/events/onclientclose
 tags: onclientclose
 published: True

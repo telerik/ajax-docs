@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadListView Overview
-description: Check our Web Forms article about Overview.
+description: Explore the ListView control and its features for displaying data in a customizable layout.
 slug: listview/overview
 tags: overview
 published: True

@@ -1,7 +1,7 @@
 ---
 title: SelectedIndexChanged
 page_title: SelectedIndexChanged - RadDropDownList
-description: Check our Web Forms article about SelectedIndexChanged.
+description: Explore how to handle the SelectedIndexChanged event in the DropDownList control for server-side logic.
 slug: dropdownlist/server-side-programming/events/selectedindexchanged
 tags: selectedindexchanged
 published: True

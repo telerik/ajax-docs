@@ -1,7 +1,7 @@
 ---
 title: Properties
 page_title: Properties - RadWindow
-description: Check our Web Forms article about Properties.
+description: Learn about the server-side properties of the RadWindow control for configuring its behavior and appearance.
 slug: window/server-side-programming/properties
 tags: properties
 published: True

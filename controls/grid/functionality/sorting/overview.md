@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Sorting Overview - RadGrid
-description: Check our Web Forms article about Overview.
+description: Discover the sorting functionality in the Grid control for organizing data in ascending or descending order.
 slug: grid/functionality/sorting/overview
 tags: overview
 published: True

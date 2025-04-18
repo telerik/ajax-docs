@@ -1,7 +1,7 @@
 ---
 title: ItemDataBound
 page_title: ItemDataBound Event - RadGrid
-description: Check our Web Forms article about ItemDataBound Event.
+description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: grid/server-side-programming/events/itemdatabound
 published: True
 position: 50

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadMultiPage Overview - RadTabStrip
-description: Check our Web Forms article about Overview.
+description: Learn about the RadMultiPage control and its integration with the TabStrip for managing page views.
 slug: tabstrip/radmultipage/overview
 tags: overview
 published: True

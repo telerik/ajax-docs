@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadPanelBar Overview
-description: Check our Web Forms article about Overview.
+description: Discover the PanelBar control and its features for creating collapsible and hierarchical navigation menus.
 slug: panelbar/overview
 previous_url: controls/panelbar/overview/overview
 tags: overview

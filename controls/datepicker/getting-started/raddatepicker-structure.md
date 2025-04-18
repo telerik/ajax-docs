@@ -1,7 +1,7 @@
 ---
 title: RadDatePicker Structure
 page_title: RadDatePicker Structure - RadDatePicker
-description: Check our Web Forms article about RadDatePicker Structure.
+description: Discover the structure of the RadDatePicker control and its components for managing date selection.
 slug: datepicker/getting-started/raddatepicker-structure
 tags: raddatepicker,structure
 published: True

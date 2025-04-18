@@ -1,7 +1,7 @@
 ---
 title: RadTextBox Client Object
 page_title: RadTextBox Client Object - RadTextBox
-description: Check our Web Forms article about RadTextBox Client Object.
+description: Learn about the RadTextBox client-side object and its API for managing text input dynamically.
 slug: radtextbox/client-side-programming/radtextbox-client-object
 tags: radtextbox,client,object
 published: True

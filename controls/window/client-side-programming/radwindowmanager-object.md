@@ -1,7 +1,7 @@
 ---
 title: RadWindowManager Object
 page_title: RadWindowManager Object - RadWindow
-description: Check our Web Forms article about RadWindowManager Object.
+description: Discover the RadWindowManager object and its client-side API for managing multiple RadWindow instances.
 slug: window/client-side-programming/radwindowmanager-object
 tags: radwindowmanager,object
 published: True
