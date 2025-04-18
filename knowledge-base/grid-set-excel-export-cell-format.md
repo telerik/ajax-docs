@@ -16,7 +16,7 @@ This can be necessary when you have large numbers (e.g., serial numbers) that Ex
 
 ## SOLUTION
 
-To do this, you need to use the **InfrastructureExporting event** of the grid and the underlying [ExportInfrastructure](to%20modify%20the%20underlying%20ExportInfrastructure), then find the column that you wish to change (for example, via its header text), then loop through its **cells** and set their Excel format via their **Format property**. 
+To do this, you need to use the **InfrastructureExporting event** of the grid and the underlying [ExportInfrastructure]({%slug controls/export-infrastructure%}), then find the column that you wish to change (for example, via its header text), then loop through its **cells** and set their Excel format via their **Format property**. 
 
 Here is an example:
 

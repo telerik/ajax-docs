@@ -27,7 +27,6 @@ When **[UseStaticHeaders](https://docs.telerik.com/devtools/aspnet-ajax/controls
 There are two options to improve this aspect of the scrolling behavior:
 
 - Disable the static headers (set **ClientSettings.UseStaticHeaders.UseStaticHeaders** to **false**). You may also want to reduce the **PageSize **of the grid (e.g. to 10) so that vertical scrollbar is not present for most cases. You may also increase the height of the grid.
-- Use the code from the following example that modifies the scrolling behavior to skip a few columns at a time: [RadGrid scrolling with predefined step](/support/code-library/radgrid-scrolling-with-predefined-step).
 - [Use the Prev and Next buttons that the grid can generate for scrolling through frozen columns](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/frozen-columns/defaultcs.aspx). If you do not want to have actual frozen columns, you can either add a dummy column at the beginning of the collection and set its Display property to false, or use the [OnGridCreated client-side event](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/client-side-programming/events/ongridcreated) to set the frozen columns count to 0. You can find attached samples of this [here](files/grid-prev-next-buttons-workaround.zip).
 - Try adding the following code that removes an extra scroll handler from the header div. Workaround is provided by Grant Elliot of [Trimble](https://www.trimble.com/).
     
