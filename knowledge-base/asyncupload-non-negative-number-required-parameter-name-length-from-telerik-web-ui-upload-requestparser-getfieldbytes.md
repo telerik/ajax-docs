@@ -80,8 +80,6 @@ The solution is to remove the RadUpload related registration in the web.config a
             <add path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false" />
             <!-- Only needed if RadAsyncUpload, RadProgressArea/RadProgressManager or the obsolete RadUpload are used -->
             <add path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" verb="*" validate="false" />
-            <!-- Only needed if the obsolete RadChart is used -->
-            <add path="ChartImage.axd" type="Telerik.Web.UI.ChartHttpHandler" verb="*" validate="false" />
         </httpHandlers>
         <httpModules>
             <!-- Only needed if the obsolete RadUpload is used in the site -->
@@ -116,8 +114,6 @@ The solution is to remove the RadUpload related registration in the web.config a
             <add name="Telerik_Web_UI_DialogHandler_aspx" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" preCondition="integratedMode" />
             <!-- Only needed if RadAsyncUpload, RadProgressArea/RadProgressManager or the obsolete RadUpload are used -->
             <add name="Telerik_RadUploadProgressHandler_ashx" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" verb="*" preCondition="integratedMode" />
-            <!-- Only needed if the obsolete RadChart control is used -->
-            <add name="ChartImage_axd" path="ChartImage.axd" type="Telerik.Web.UI.ChartHttpHandler" verb="*" preCondition="integratedMode" />
         </handlers>
     </system.webServer>
 </configuration>
