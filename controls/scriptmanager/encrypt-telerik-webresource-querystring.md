@@ -33,8 +33,6 @@ Here is the whole web.config file:
       </controls>
     </pages>
     <httpHandlers>
-
-      <add path="ChartImage.axd" type="Telerik.Web.UI.ChartHttpHandler" verb="*" validate="false" />
       <add path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false" />
       <add path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false" />
       <add path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" verb="*" validate="false" />
@@ -50,9 +48,6 @@ Here is the whole web.config file:
     </security>
     <validation validateIntegratedModeConfiguration="false" />
     <handlers>
-
-      <remove name="ChartImage_axd" />
-      <add name="ChartImage_axd" path="ChartImage.axd" type="Telerik.Web.UI.ChartHttpHandler" verb="*" preCondition="integratedMode" />
       <remove name="Telerik_Web_UI_SpellCheckHandler_axd" />
       <add name="Telerik_Web_UI_SpellCheckHandler_axd" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" verb="*" preCondition="integratedMode" />
       <remove name="Telerik_Web_UI_DialogHandler_aspx" />
