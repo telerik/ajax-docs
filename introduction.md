@@ -16,7 +16,7 @@ The Telerik UI for ASP.NET AJAX suite includes more than 120 versatile and perfo
 
 From the leading AJAX data grid to the full-featured HTML Editor used by Microsoft on sites like MSDN, Telerik UI for ASP.NET AJAX provides all the building blocks to maximize productivity and build richer, slicker and better-performing applications with ease.
 
-Telerik UI for ASP.NET AJAX works on .NET framework versions 4.5, 4.6, 4.7, and 4.8. The same assemblies work both for 32-bit and 64-bit machines.
+Telerik UI for ASP.NET AJAX works on .NET framework versions from 4.6.2 to 4.8.1. The same assemblies work both for 32-bit and 64-bit machines.
 
 ## List of Components
 

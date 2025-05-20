@@ -26,21 +26,25 @@ Once a day, upon loading a project containing Telerik UI for ASP.NET AJAX contro
 
 >tip If you've disabled the notifications, you can use the [Options Dialog]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) to activate them again.
 
-When you select **UPDATE NOW**:
+When you select **UPDATE NOW**, the following window will appear:
 
-1. Enter your Telerik credentials in the **Version Update** window.
+![Upgrade Wizard-first-screen](images/UpgradeWizard-first-screen.png)
 
-    ![Latest Version Acquirer: Login](images/introduction-vsx_latestversionacquirer_login.png)
+Select the version you wish to update to:
 
-1. Select the type of Telerik controls:
+![introduction-vsx upgradewizard chooseprojects](images/introduction-vsx_upgradewizard_chooseprojects.png)
 
-   * Select **PURCHASE** if you have a subscription for the Telerik UI for ASP.NET AJAX controls.
+Configure the Web Settings:
 
-   * Select **DOWNLOAD TRIAL** if you use the free trial.
+![introduction-vsx upgradewizard updateresources](images/introduction-vsx_upgradewizard_updateresources.png)
 
-    ![Latest Version Acquirer: Trial available](images/introduction-vsx_latestversionacquirer_trial.png)
+At the end of the setup, you will be asked to validate your license (if not downlaoded already):
 
-    ![Latest Version Acquirer: Download successful](images/introduction-vsx_latestversionacquirer_success.png)
+![introduction-vsx upgradewizard updateresources](images/vsx-update-project-final-screen.png)
+
+After you log in and downlaod the license key, you will see the following popup: 
+
+![introduction-vsx upgradewizard updateresources](images/license-key-downlaod.png)
 
 Once the download succeeds, the latest version of Telerik® UI for ASP.NET AJAX will be available for use in the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}).
 
