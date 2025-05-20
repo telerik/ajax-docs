@@ -13,6 +13,20 @@ position: 0
 
 This article explains how to upgrade the version of the Telerik® UI for ASP.NET AJAX controls and how to switch from a Trial to a Developer license.
 
+## Unified Distribution Starting with 2025 Q2
+
+Starting with the 2025 Q2 release, Telerik introduced a unified distribution for both trial and commercial packages of its UI libraries, including Telerik UI for ASP.NET AJAX. This change simplifies the upgrade and installation process:
+
+* A single package is now used for both trial and licensed users.
+* Access is controlled via a license key file.
+* There is no need to download separate trial or commercial versions.
+
+This unified model provides a streamlined and consistent experience for all users.
+For setup instructions and more details, refer to:
+
+* [Setting Up Your License Key File]({%slug licensing/license-key%})
+* [Licensing FAQ]({%slug licensing/licensing-faq%})
+
 >warning Starting with the 2025 Q1 release, the trial Telerik AJAX components require activation with a license key to function without interruption. For more information regarding the licensing review the 
 > [Setting Up Your License Key File]({%slug licensing/license-key%}) and [FAQ]({%slug licensing/licensing-faq%}).
 
@@ -80,17 +94,27 @@ The following steps ensure a safe upgrade:
 
 ## Upgrade From Trial to Licensed Version of Telerik® UI for ASP.NET AJAX
 
-The trial version and the licensed version of UI for ASP.NET AJAX have different assemblies, this why you don't need a license key or an activation to upgrade. Instead, you must replace the trial assemblies with the licensed assemblies.
-
-To upgrade to a licensed version:
-
+Starting with the **2025 Q2 release**, Telerik UI for ASP.NET AJAX uses a **unified package** for both trial and licensed users. This means the assemblies are now the same, and your access is determined by the **license key file** you provide.
+ 
+To upgrade from a trial to a licensed version (2025 Q2 or later):
+ 
+1. Ensure you have the **2025 Q2 or later** version installed.
+2. Add or update your **license key file** to activate the licensed features. Follow the steps in [Setting Up Your License Key File]({%slug licensing/license-key%}).
+ 
+There is **no longer a need to download or replace different assemblies** when moving from trial to licensed versions.
+ 
+>tip If you're still seeing trial messages after adding the license key, double-check that the key is correctly embedded and loaded at runtime. See [Licensing FAQ]({%slug licensing/licensing-faq%}) for troubleshooting help.
+ 
+### For versions **prior to 2025 Q2**
+ 
+The trial and licensed versions use **different assemblies**, so the upgrade process is different:
+ 
 1. Download the licensed version of UI for ASP.NET AJAX.
-
-1. Follow the steps in the [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) section to delete the trial assemblies and replace them with the developer versions.
-
+2. Follow the steps in the [Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) section to delete the trial assemblies and replace them with the licensed ones.
+ 
 >tip You should delete (or uninstall) the Trial version from your machine before upgrading to the licensed version. Doing so eliminates the chance of trial assemblies still making it into the project references or even production.
-
->tip If you are getting trial errors similar to "*Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. Purchase the Commercial Version now to get access to all product updates and the Telerik expert support*" 
+ 
+>tip If you are getting trial errors similar to "*Thank you for using the Trial Version of Telerik® UI for ASP.NET Ajax to build more powerful applications faster. Purchase the Commercial Version now to get access to all product updates and the Telerik expert support*"  
 or "*Telerik.Web.UI 201X.X.XXX.XX trial version. Copyright Telerik © 2002-201X. To remove this message, please purchase a developer version.*" check out the dedicated [Getting tired of seeing trial messages in your ASP.NET AJAX application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application) blog post.
 
 ## See Also
