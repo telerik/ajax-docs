@@ -20,7 +20,7 @@ This functionality is handled by three wizards - the Project Convert Wizard, [Pr
 
 Telerik Convert Project wizard could be accessed through the Telerik > Telerik® UI for ASP.NET AJAX menu:
 
-![introduction-vsx convertwizard menu](images/introduction-vsx_telerikmenu_convertwizard.png)
+![introduction-vsx convertwizard menu](images/introduction-vsx_overview_menuconvert.png)
 
 The Convert Project Wizard’s first page lets you define settings related to Telerik controls:
 
