@@ -12,7 +12,7 @@ position: 0
 
 
 
-[Visual Studio Extensions for Telerik® UI for ASP.NET AJAX](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions) aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
+[Visual Studio Extensions for Telerik® UI for ASP.NET AJAX](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikASPNETAJAXVSExtensions) aim to help developers when creating web projects (web site and web application) with the Telerik® UI for ASP.NET AJAX.
 
 The extensions handle the following major points in the development with Telerik® UI for ASP.NET AJAX:
 
@@ -24,7 +24,7 @@ The extensions handle the following major points in the development with Telerik
 
 * [Toolbox configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration%}) - select what version of Telerik UI to be populated in the Toolbox.
 
-Visual Studio Extensions for Telerik® UI for ASP.NET AJAX are distributed with the Telerik® UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions) only for Visual Studio 2012 and later. The extensions support Visual Studio 2015, 2017, 2019 and 2022 handling .NET 4.5-4.8.1 projects.
+Visual Studio Extensions for Telerik® UI for ASP.NET AJAX are distributed with the Telerik® UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikASPNETAJAXVSExtensions) only for Visual Studio 2012 and later. The extensions support Visual Studio 2019 and 2022 handling .NET 4.6.2 - 4.8.1 projects.
 
 The Visual Studio Extensions can be accessed through the Telerik | Telerik® UI for ASP.NET AJAX menu which has different menu items depending on the selected project in Visual Studio. The extensions can be accessed through the context menu of a web project as well.
 
