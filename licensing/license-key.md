@@ -15,42 +15,35 @@ This article describes how to download your personal license key and use it to a
 
 A missing or invalid license results in [errors and warnings]({%slug licensing/license-errors-warnings%}) during build and run-time indicators such as watermarks and banners.
 
-## Downloading the License Key
+## Setup your License Key
 
->warning The license key file is personal and confidential. Do not commit this file to source control and do not save it to a publicly accessible location!
+Due to the differences between `Web Application Project` and `Web Site Project`, the steps to activate the license will differ. One of the easiest ways to distinguish them is by checking if the project has a project file (`.csproj`/`.vbproj`) or not.
 
-To download a license key for Telerik UI for ASP.NET AJAX, you must have either a developer license or a trial license. If you are new to Telerik UI for ASP.NET AJAX, [sign up for a free trial](https://www.telerik.com/aspnet-ajax) first, and then follow the steps below:
+- `Web Application Projects` > have a Project file.
+- `Web Site Projects` > do not have a Project file.
 
-1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys?_gl=1*cgbz4c*_gcl_au*MTIyNTMyNzI1My4xNzMyMDI2NzU3*_ga*MjAyMTI5MTQ4MS4xNzMyMDI2NzU1*_ga_9JSNBCSF54*MTczOTM0ODI2NS4xNi4xLjE3MzkzNTkxMTcuNTMuMC4w) page in your Telerik account.
+For more details about the differences you can check out the following Microsoft documentation article: [Web Application Projects versus Web Site Projects in Visual Studio](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd547590(v=vs.110)?redirectedfrom=MSDN). 
+
+### Web Application
+
+To download and install your Telerik license key file:
+
+1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
 2. Click the **Download License Key** button.
-   !["Download License Key"](images/download-license-key.png "Download License Key")
-3. Next, [Activate your Telerik UI for ASP.NET AJAX components](#activating-the-telerik-ui-for-asp-net-ajax-components).
+3. Save the `telerik-license.txt` file to your user profile directory `%AppData%\Telerik\telerik-license.txt`, for example, `C:\Users\...\AppData\Roaming\Telerik\telerik-license.txt`
 
-The [Progress Control Panel](https://docs.telerik.com/controlpanel/introduction), [automated installers]({%slug getting-started/installation/install-using-msi%}), and the [Visual Studio Extensions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) will automatically download and store your license key in your home directory. This makes it available for all projects that you develop on your local machine.
+This will make the license key available to all Telerik applications that you develop on your local machine. If you need to activate Telerik UI for ASP.NET AJAX only in a specific application, save the `telerik-license.txt` to the root folder of this project or solution.
 
-## Activating the Telerik UI for ASP.NET AJAX Components
+### Web Site
 
->important If your project doesn’t use NuGet packages, or you have a Web Site project, follow the instructions from the [Installing a License Key in Projects without NuGet References](#installing-a-license-key-in-projects-without-nuget-references) section.
+The license for Web Sites projects can be activated by adding a license Script key:
 
-To activate the Telerik UI for ASP.NET AJAX controls:
+1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
+1. On the Telerik UI for ASP.NET AJAX row, click the `View key` link.
+1. Select the language (`C# KEY` or `VB KEY`) and click the `Copy and close` button to copy the Script Key to your clipboard.
+1. Add a C#/VB Class file to the `App_Code` directory of your project, e.g. `App_Code\TelerikLicense.cs` and paste the Script Key from your clipboard.
 
-- Copy the downloaded `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
-  - For Windows: `%AppData%\Telerik\telerik-license.txt`
-  - Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
-
-When you build the project, the `Telerik.Licensing` NuGet package automatically locates the license file and uses it to activate the WebForms controls.
-
-## Installing a License Key in Projects without NuGet References
-
-Telerik strongly recommends the use of NuGet packages whenever possible. Only include the license key as a code snippet when NuGet packages are not an option.
-
-1. If you cannot use NuGet packages in your project, add the license as a code snippet:
-2. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
-3. On the Telerik UI for ASP.NET AJAX row, click the **View key** link in the **SCRIPT KEY** column.
-   !["Alt Text"](images/view-script-key.png "Alt Text")
-4. Copy the C# code snippet into a new file, for example, `TelerikLicense.cs`.
-5. Add the `TelerikLicense.cs` file to your project.
-   - In case of Web Site project, add the file to the `App_Code` folder.
+To activate the license in other Web Site projects, repeat these steps.
 
 ## See Also
 
