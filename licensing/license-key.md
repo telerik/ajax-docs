@@ -41,7 +41,7 @@ Web Applications projects that do not use NuGet and Web Site projects require an
 1. On the Telerik UI for ASP.NET AJAX row, click the `View key` link.
 1. Select the language (`C# KEY` or `VB KEY`) and click the `Copy and close` button to copy the Script Key to your clipboard.
 1. Adding the License Key script:
-    - **Web Application**: Paste the copied key to the `Properties > AssemblyInfo`
+    - **Web Application**: Paste the copied key to the `Properties > AssemblyInfo` (C# Apps) or `My Project > AssemblyInfo` (VB Apps)
     - **Web Site**: Add a C#/VB Class file to the `App_Code` directory of your project, e.g. `App_Code\TelerikLicense.cs` and paste the Script Key from your clipboard.    
 
 >To activate the license in other projects, repeat these steps.
