@@ -45,7 +45,7 @@ In the event handler, you can check if the request is an AJAX PostBack (IsInAsyn
 protected void ReportViewer1_PreRender(object sender, EventArgs e)
 {
     // Access the Application's ScriptManager
-    ScriptManager sm = RadScriptManager.GetCurrent(Page);
+    ScriptManager sm = ScriptManager.GetCurrent(Page);
 
     // Check if the request is an AJAX Post Back
     if (sm.IsInAsyncPostBack)
@@ -58,10 +58,10 @@ protected void ReportViewer1_PreRender(object sender, EventArgs e)
 protected void InitializeReportViewer(ReportViewer reportViewer)
 {
     // Search pattern for regex
-    string pattern = string.Format(@"syncReportViewerState\([^)]*\);|jQuery\('#{0}'\)\.telerik_ReportViewer\([^)]*\);", reportViewer.ID);
+    string pattern = string.Format(@"(syncReportViewerState\('{0}'.*?\);|jQuery\('#{0}'\)\.telerik_ReportViewer\(.*?\);)", reportViewer1.ID);
 
-    // find the two functions containing all the params from the generated HTML string of reportViewer.ToString()
-    MatchCollection matches = Regex.Matches(reportViewer.ToString(), pattern);
+    // Find the two functions containing all the params from the generated HTML string of reportViewer.ToString()
+    MatchCollection matches = Regex.Matches(reportViewer.ToString(), pattern, RegexOptions.Singleline);
 
     // Concatenate both scripts
     string reportingScripts = string.Empty;
@@ -86,7 +86,7 @@ protected void InitializeReportViewer(ReportViewer reportViewer)
 ````
 ````VB
 Protected Sub ReportViewer1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
-    Dim sm As ScriptManager = RadScriptManager.GetCurrent(Page)
+    Dim sm As ScriptManager = ScriptManager.GetCurrent(Page)
 
     If sm.IsInAsyncPostBack Then
         InitializeReportViewer(CType(sender, ReportViewer))
@@ -94,10 +94,14 @@ Protected Sub ReportViewer1_PreRender(ByVal sender As Object, ByVal e As EventAr
 End Sub
 
 Protected Sub InitializeReportViewer(ByVal reportViewer As ReportViewer)
-    Dim pattern As String = String.Format("syncReportViewerState\([^)]*\);|jQuery\('#{0}'\)\.telerik_ReportViewer\([^)]*\);", reportViewer.ID)
-    Dim matches As MatchCollection = Regex.Matches(reportViewer.ToString(), pattern)
-    Dim reportingScripts As String = String.Empty
+    'Search pattern for regex
+    Dim pattern As String = String.Format(@"(syncReportViewerState\('{0}'.*?\);|jQuery\('#{0}'\)\.telerik_ReportViewer\(.*?\);)", reportViewer1.ID)
 
+    'Find the two functions containing all the params from the generated HTML string of reportViewer.ToString()
+    Dim matches As MatchCollection = Regex.Matches(reportViewer.ToString(), pattern, RegexOptions.Singleline)
+
+    'Concatenate both scripts
+    Dim reportingScripts As String = String.Empty
     For Each match As Match In matches
         reportingScripts += match.Value
     Next
@@ -109,7 +113,9 @@ Protected Sub InitializeReportViewer(ByVal reportViewer As ReportViewer)
             Sys.Application.remove_load(pageLoadHandler); 
         }} 
         Sys.Application.add_load(pageLoadHandler);", reportingScripts)
-        ScriptManager.RegisterStartupScript(Page, Page.[GetType](), Guid.NewGuid().ToString(), startupScript, True)
+
+        'Register a Startup Script that will be executed after the AJAX Post Back
+        ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), startupScript, True)
     End If
 End Sub
 ````
