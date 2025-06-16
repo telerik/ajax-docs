@@ -24,7 +24,7 @@ For Saving and Restoring the Filters, this Grid is using the Functions mentioned
 - **To Save the Filters** Automatically, create a Global flag that will be set in the [ItemCommand event]({%slug grid/server-side-programming/events/itemcommand%}). In the [PreRender event]({%slug grid/server-side-programming/events/prerender%}), use the Global Flag as a condition and call the `SaveFilters()` function respectively.
 - **To Restore the Filters**, inside the [PreRender event]({%slug grid/server-side-programming/events/prerender%}) use the `!Page.IsPostBack` as a condition and call the `RestoreFilter()` function.
 
-Example
+### Example
 
 ````C#
 // Create a Global Flag with its value set to False
@@ -95,9 +95,9 @@ Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-## Test this Solution
+### Test this Solution
 
->caption RadGrid Markup Code
+#### Markup Code
 
 ````ASP.NET
 First <a href="https://www.google.com/">Navigate to Google</a> and then Navigate back to this page.
@@ -134,7 +134,7 @@ First <a href="https://www.google.com/">Navigate to Google</a> and then Navigate
 </telerik:RadGrid>
 ````
 
->caption CodeBehind
+#### CodeBehind Logic
 
 ````C#
 // Data Binding
