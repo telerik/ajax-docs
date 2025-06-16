@@ -255,9 +255,11 @@ Protected Sub btnRestoreFilters_Click(ByVal sender As Object, ByVal e As EventAr
 End Sub
 ````
 
-### TEST this Solution
+### Test this Solution
 
 Create an ASPX Page and add the following Grid definitions to it
+
+#### Markup Code
 
 ````ASP.NET
 
@@ -301,7 +303,7 @@ Create an ASPX Page and add the following Grid definitions to it
 
 In the CodeBehind, add the following code
 
-### Code Behind Logic
+#### Code Behind Logic
 
 ````C#
 private DataTable OrdersTable()
