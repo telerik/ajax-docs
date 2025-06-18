@@ -1476,6 +1476,9 @@ meta:
   controls/orgchart:
     title: Org Chart
     position: 1
+  controls/otpinput:
+    title: OTPInput
+    position: 1
   controls/odatadatasource:
     title: OData DataSource
     position: 1

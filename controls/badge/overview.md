@@ -9,7 +9,7 @@ position: 0
 CTAControlName: WebForms Badge
 ---
 
-# Badge Overview
+# WebForms Badge Overview
 
 The Badge is an absolutely positioned element that is used to decorate avatars, navigation menus, or other components in the application when the visual notification is needed.
 It also provides customizing its content through templates, setting different shapes and layouts.
