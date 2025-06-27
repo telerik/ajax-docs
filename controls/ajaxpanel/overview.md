@@ -41,7 +41,7 @@ In Visual Studio at design time, if you want to Ajax-enable web controls on a pa
 
 There are cases when you may want to update the controls inside a **RadAjaxPanel** by triggering a callback externally from other control on the page. The following approach is not recommended as **RadAjaxManager** can handle any complex scenarios. You can use asp:Panel controls and link them via **RadAjaxManager**'s settings. The same Panel may be set as both AJAX initiator and updated control, which will cause functionality similar to **RadAjaxPanel** .
 
-You need to call the**$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (passing the necessary information as parameters to it) and then override the **RaisePostBackEvent** method or handle theRadAjaxPanel **AjaxRequest** server-side event to apply the changes. **Example 1** shows a sample implementation, which changes the background color of the panel.
+You need to call the **$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (passing the necessary information as parameters to it) and then override the **RaisePostBackEvent** method or handle theRadAjaxPanel **AjaxRequest** server-side event to apply the changes. **Example 1** shows a sample implementation, which changes the background color of the panel.
 
 **Example 1**: Use external control to update **RadAjaxPanel**
 
