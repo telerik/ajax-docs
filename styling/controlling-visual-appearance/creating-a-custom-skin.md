@@ -14,7 +14,7 @@ Developers who want to create a custom skin for one or more Telerik control, hav
 
 * Use the [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) application (for Lightweight RenderMode skins)
 
-* Use the [Visual Style Builder](http://stylebuilder.telerik.com/) tool (discontinued since 2016). 
+* [Use the Visual Style Builder tool](#visual-style-builder) (discontinued since 2016). 
 
 * Take an embedded skin and make changes to it until you have the desired look
 
@@ -41,14 +41,9 @@ This is an easy to use application that enables you to customize the default loo
 
 ## Visual Style Builder
 
-If you would like to modify a skin that will be used in **Classic RenderMode** you can use the StyleBuilder tool.
+The **Visual Style Builder** tool, previously available at [http://stylebuilder.telerik.com](http://stylebuilder.telerik.com), was designed to produce skins for the **Classic RenderMode** only. It entered maintenance in May 2016 and has been **discontinued as of 2025 Q2**. The **Classic** render mode itself has been in [maintenance mode since Q3 2015](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes).
 
-[launch the online tool](http://stylebuilder.telerik.com/)
-
-[read the tool overview on the Telerik website](https://www.telerik.com/aspnet-ajax/visual-style-builder)
-
->note The **Classic** render mode is in [maintenance mode since Q3 2015](https://docs.telerik.com/devtools/aspnet-ajax/controls/render-modes) and the Visual Style Builder tool, which produces skins for the Classic rendering only, is in maintenance since May 2016. We recommend using the **Lightweight** render mode and the provided [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) tool.
-
+We recommend using the **Lightweight** render mode and the provided [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) tool. You can learn how to use the tool in the [ThemeBuilder Overview](https://www.telerik.com/products/aspnet-ajax/documentation/styling/theme-builder/overview) article.
 
 ## Create a Custom Skin From an Existing Embedded Skin
 
