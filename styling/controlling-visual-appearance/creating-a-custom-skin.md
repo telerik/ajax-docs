@@ -14,7 +14,7 @@ Developers who want to create a custom skin for one or more Telerik control, hav
 
 * Use the [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) application (for Lightweight RenderMode skins)
 
-* [Use the Visual Style Builder tool](#visual-style-builder) tool (discontinued since 2016). 
+* [Use the Visual Style Builder tool](#visual-style-builder) (discontinued since 2016). 
 
 * Take an embedded skin and make changes to it until you have the desired look
 
