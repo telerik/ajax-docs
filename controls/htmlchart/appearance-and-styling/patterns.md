@@ -40,8 +40,6 @@ Several pattern types can be used to enhance the visual presentation of the Char
 
 The following examples showcases how to add Patterns to a Bar chart where each series uses a different pattern, allowing users to easily differentiate between them.
 
-> note In order to use the patterns, you will need to set the `RenderAs` property of the Chart to **Canvas**.
-
 ### In the Markup
 
 ````ASP.NET
