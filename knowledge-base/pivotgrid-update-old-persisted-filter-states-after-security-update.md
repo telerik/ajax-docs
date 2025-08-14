@@ -64,6 +64,9 @@ private string ConvertState(string oldState)
 }
 
 // Legacy code for deserializing the state
+// WARNING: This method uses BinaryFormatter.Deserialize(), which is deprecated and insecure.
+// Only use this on trusted data during migration. Do NOT use in production or with untrusted data.
+// See: https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-security-guide
 public static object DeserializeObject(string objectToDeserialize)
 {
     byte[] unencodedArray = Convert.FromBase64String(objectToDeserialize);
