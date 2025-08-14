@@ -150,7 +150,7 @@ private string GetConvertedState(string oldState)
 private string GetFileContents(string filePath)
 {
     string contents;
-    using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+    using (var stream = new FileStream(Server.MapPath(filePath), FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
     using (var reader = new StreamReader(stream))
     {
         contents = reader.ReadToEnd();
@@ -182,7 +182,7 @@ End Function
 
 Private Function GetFileContents(filePath As String) As String
     Dim contents As String
-    Using stream As New FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)
+    Using stream As New FileStream(Server.MapPath(filePath), FileMode.Open, FileAccess.Read, FileShare.ReadWrite)
         Using reader As New StreamReader(stream)
             contents = reader.ReadToEnd()
         End Using
