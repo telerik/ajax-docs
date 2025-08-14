@@ -73,7 +73,7 @@ public static object DeserializeObject(string objectToDeserialize)
     BinaryFormatter bf = new BinaryFormatter();
     using (MemoryStream ms = new MemoryStream(unencodedArray))
     {
-        return new BinaryFormatter().Deserialize(ms);
+        return bf.Deserialize(ms);
     }
 }
 
