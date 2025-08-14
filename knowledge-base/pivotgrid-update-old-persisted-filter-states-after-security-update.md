@@ -14,7 +14,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | ---     | ---     | ----   | 
-| 2024.4.1114 | PivotGrid for Telerik UI for ASP.NET AJAX | [Attila Antal](https://github.com/attilaantal)| 
+| 2024.4.1114 and later | PivotGrid for Telerik UI for ASP.NET AJAX | [Attila Antal](https://github.com/attilaantal)| 
 
 ## Description
 
@@ -31,7 +31,7 @@ This knowledge base article also answers the following questions:
 
 To convert legacy filter states in RadPivotGrid to the new JSON-based format, use the following approach. This code handles scenarios where filter states are stored as strings or files.
 
-The following example shows how to convert the persisted state:
+The following example shows how to convert the persisted state from the old (ViewState) format to new (JSON) format:
 
 ````C#
 // The actual logic for converting the state
