@@ -38,7 +38,7 @@ To download and install your Telerik license key file:
 Web Applications projects that do not use NuGet and Web Site projects require an assembly attribute, containing the License Key. Follow the steps below:
 
 1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
-1. On the Telerik UI for ASP.NET AJAX row, click the `View key` link.
+1. On the Telerik UI for ASP.NET AJAX row, click the `Script key` link.
 1. Select the language (`C# KEY` or `VB KEY`) and click the `Copy and close` button to copy the Script Key to your clipboard.
 1. Adding the License Key script:
     - **Web Application**: Paste the copied key to the `Properties > AssemblyInfo`
