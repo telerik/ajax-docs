@@ -51,3 +51,7 @@ Web Applications projects that do not use NuGet and Web Site projects require an
 * [License Activation Errors and Warnings]({%slug licensing/license-errors-warnings%})
 * [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
 * [Frequently Asked Questions about Your Telerik UI for ASP.NET AJAX License Key]({%slug licensing/licensing-faq%})
+* [ASP.NET Web Forms Web Site vs Web Application in Visual Studio - Key Differences Explained](https://www.youtube.com/watch?v=9gI6t57cDAc&t=5s)
+* [Fix Telerik UI for ASP.NET AJAX License Error Banner & Watermarks (the NuGet approach)](https://www.youtube.com/watch?v=6qvHlqdgEg0)
+* [Fix Telerik UI License Error in ASP.NET Web Forms site via EvidenceAttribute (App_Code & Precompile)](https://www.youtube.com/watch?v=UFPV-gFozPE)
+* [Removing the Telerik AJAX license error and watermark in ASP.NET Web Forms application](https://www.youtube.com/watch?v=rKvQ3dpPEIw)
