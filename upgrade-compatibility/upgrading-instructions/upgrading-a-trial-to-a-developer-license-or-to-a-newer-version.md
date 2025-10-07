@@ -32,10 +32,6 @@ For setup instructions and more details, refer to:
 
 ## Upgrade to a Newer Version of Telerik® UI for ASP.NET AJAX
 
-To upgrade the Telerik controls in your project:
-
-1. Replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) with their newer versions and update their references in the project.
-
 >tip Before upgrading your project, review the following resources:
 >
 > * The [Known Issues and Important Changes](https://www.telerik.com/forums/known-issues-and-important-changes) thread lists changes and known regression issues that may affect your code.
