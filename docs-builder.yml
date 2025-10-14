@@ -1849,6 +1849,9 @@ meta:
     position: 2
   api/*:
     res_type: api
+  ai:
+    title: AI Coding Assistant
+    position: 5
 
 redirects: 
 -
