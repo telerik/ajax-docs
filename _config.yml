@@ -42,6 +42,9 @@ navigation:
     "upgrade-compatibility":
         title: "Upgrade & Compatibility"
         position: 11        
+    "ai":
+        title: "AI Coding Assistant"
+        position: 4       
     "knowledge-base":
         title: "Knowledge Base"
         position: 30                
