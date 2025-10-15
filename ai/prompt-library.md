@@ -14,11 +14,11 @@ This article provides a list of sample prompts for use with the [Telerik AJAX MC
 
 ## How to Use the Prompts
 
-All prompts in this library target the [Telerik AJAX MCP Server]({%slug ai/mcp-server%}). The [`#telerik_ajax_assistant` handle](slug:ai-mcp-server#usage) assumes that this is the server name you have [entered in the `mcp.json` file during installation](slug:ai-mcp-server#installation).
+All prompts in this library target the [Telerik AJAX MCP Server]({%slug ai/mcp-server%}). The [`#telerik_ajax_assistant` handle]({%slug ai/mcp-server#usage%}) assumes that this is the server name you have [entered in the `mcp.json` file during installation]({%slug ai/overview#installation%}).
 
 1. Browse the prompt library to find a prompt that suits your needs.
 2. Copy the prompt text including the `#telerik_ajax_assistant` handle.
-3. (optional) Customize the prompt as needed for your specific use case. Make sure the changes comply with the [intended use](slug:ai-overview#intended-use) and the [recommendations](slug:ai-overview#recommendations) for the AI Coding Assistant.
+3. (optional) Customize the prompt as needed for your specific use case. Make sure the changes comply with the [intended use]({%slug ai/overview#intended-use%}) and the [recommendations]({%slug ai/overview#recommendations%}) for the AI Coding Assistant.
 4. Run the prompt against the MCP server.
 
 >warning Always double-check the code and solutions proposed by any AI-powered tool before applying them to your project.
