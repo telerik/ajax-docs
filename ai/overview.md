@@ -3,7 +3,7 @@ title: Overview
 page_title: Telerik AJAX AI Tooling Overview
 description: Learn about the AI-powered developer tools that integrate with your IDE or code editor for greater productivity and enhanced developer experience.
 slug: ai/overview
-tags: webforms, ai, assistant
+tags: telerik, ajax, assistant, webforms, ai, assistant
 published: True
 position: 1
 ---
@@ -57,7 +57,7 @@ The Telerik AJAX AI Conding Assistant allows the following maximum number of req
 * Subscription licenses: virtually unlimited number of requests with a fair use threshold of 300 requests per day
 * Trial licenses: 300 requests per trial per year. Activating the same trial for a new release does not grant additional 300 requests.
 
-> All Telerik AI tools share a single request limit for your Telerik account. For example, the [Telerik MCP server](slug:ai-mcp-server) takes up from the same usage quota.
+> All Telerik AI tools share a single request limit for your Telerik account. For example, the [Telerik MCP server]({%slug ai/mcp-server%}) takes up from the same usage quota.
 > When using the Telerik MCP server, one prompt may trigger several requests, depending on the prompt complexity.
 
 ## Privacy

@@ -3,7 +3,7 @@ title: Prompt Library
 page_title: Telerik AJAX Prompt Library
 description: Get familiar with some example prompts that show how to use the Telerik AI Coding Assistant for better developer productivity.
 slug: ai/prompt-library
-tags: webforms, ai, prompt library
+tags: telerik, ajax, assistant, webforms, ai, prompt library
 published: True
 position: 3
 ---
