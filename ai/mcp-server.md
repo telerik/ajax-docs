@@ -3,7 +3,7 @@ title: MCP Server
 page_title: Telerik AJAX MCP Server
 description: Learn how to add and use the Telerik AJAX MCP Server as an AJAX coding assistant and code generator for better developer productivity. The Telerik AJAX MCP server provides proprietary context about Telerik UI for ASP.NET AJAX to AI-powered software.
 slug: ai/mcp-server
-tags: webforms, ai, mcp server
+tags: telerik, ajax, assistant, webforms, ai, mcp server
 published: True
 position: 2
 ---
@@ -27,12 +27,7 @@ Check [AI Coding Assistant Overview]({%slug ai/overview%}) for more recommendati
 
 ## Installation
 
-There are two ways to install the Telerik Telerik AJAX MCP server:
-
-* Use a manual approach, which is described below.
-* Use an automated process provided by the Telerik extensions for [Visual Studio](slug:getting-started-vs-integration-ai-configuration).
-
-To install the Telerik MCP server manually, use the documentation of your AI-powered MCP client. You can enable the MCP server for specific workspaces or globally. The sections below provide installation tips and examples for some popular MCP clients like [Visual Studio](#visual-studio), [VS Code](#vs-code), and [Cursor](#cursor). The generic settings of the Telerik Telerik AJAX MCP server are:
+To install the Telerik MCP server, use the documentation of your AI-powered MCP client. You can enable the MCP server for specific workspaces or globally. The sections below provide installation tips and examples for some popular MCP clients like [Visual Studio](#visual-studio), [VS Code](#vs-code), and [Cursor](#cursor). The generic settings of the Telerik Telerik AJAX MCP server are:
 
 * npm package name: `@progress/telerik-ajax-mcp`
 * Type: `stdio` (standard input/output transport)
