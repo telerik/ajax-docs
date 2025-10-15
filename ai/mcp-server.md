@@ -153,7 +153,7 @@ To use the Telerik MCP Server:
 
 ### Sample Prompts
 
-The following list describes how your prompts may look like. Check the [Prompt Library](slug:ai-prompt-library) for more examples.
+The following list describes how your prompts may look like. Check the [Prompt Library]({%slug ai/prompt-library%}) for more examples.
 
 * &quot;Telerik Generate an AJAX Grid with sorting and paging enabled. Bind the Grid to a Person model and provide dummy data.&quot;
 * &quot;Telerik Generate a ComboBox for AJAX that shows a list of products. Create a Product class and generate sample data.&quot;
