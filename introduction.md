@@ -152,6 +152,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="ToggleButton" href="slug:togglebutton/overview"></IntroTableAnchor>
          <IntroTableAnchor title="ToolBar" href="slug:toolbar/overview"></IntroTableAnchor>
          <IntroTableAnchor title="TreeView" href="slug:treeview/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton/overview"></IntroTableAnchor>
       </IntroTableSection>
    </IntroTableColumn>
    <IntroTableColumn>
