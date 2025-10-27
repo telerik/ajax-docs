@@ -1698,6 +1698,9 @@ meta:
   controls/badge:
     title: Badge
     position: 1
+  controls/speechtotextbutton:
+    title: SpeechToTextButton
+    position: 1
   api/server:
     title: Server-side
     position: 2
