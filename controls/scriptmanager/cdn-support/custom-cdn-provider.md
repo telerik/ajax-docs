@@ -63,10 +63,10 @@ If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET 
 Now the HTML output of the scripts tag will be like this:
 
 ````HTML
-<script src="http://my.favorite.cdn/ajaxz/2025.2.609/Common/Core.js" type="text/javascript"></script>
-<script src="http://my.favorite.cdn/ajaxz/2025.2.609/Common/jQuery.js" type="text/javascript"></script>
-<script src="http://my.favorite.cdn/ajaxz/2025.2.609/Common/jQueryPlugins.js" type="text/javascript"></script>
-<script src="http://my.favorite.cdn/ajaxz/2025.2.609/Common/Scrolling/ScrollingScripts.js" type="text/javascript"></script>
+<script src="https://my.favorite.cdn/ajaxz/2025.2.609/Common/Core.js" type="text/javascript"></script>
+<script src="https://my.favorite.cdn/ajaxz/2025.2.609/Common/jQuery.js" type="text/javascript"></script>
+<script src="https://my.favorite.cdn/ajaxz/2025.2.609/Common/jQueryPlugins.js" type="text/javascript"></script>
+<script src="https://my.favorite.cdn/ajaxz/2025.2.609/Common/Scrolling/ScrollingScripts.js" type="text/javascript"></script>
 ...
 ````
 
@@ -79,10 +79,8 @@ For more detailed instructions, check out the Configure Local CDN for Telerik UI
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iPcvj7Vl5TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-> If you are using a non-IIS CDN hosting service configuration might be different.
+> If you are using a non-IIS CDN hosting service configuration can be different.
 
 # See Also
 
  * [CDN Support Overview]({%slug scriptmanager/cdn-support/overview%})
-
- * [Code Library example: CDN Fallback](https://www.telerik.com/support/code-library/cdn-fallback)
