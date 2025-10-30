@@ -10,15 +10,11 @@ position: 0
 
 # CDN Support Overview
 
-
-
-Starting with the **Q3 2009 Service Pack 1** release you will be able to load the controls scripts and skins from the Telerik CDN. Telerik CDN is hosted on the Amazon CloudFront service. This is a **global content delivery service** with edge locations in the US, Europe and Asia.
+Telerik UI for ASP.NET AJAX supports loading control scripts and skins from the Telerik CDN. This functionality has been available since Q3 2009 SP1 and is included in all supported versions. Telerik CDN is hosted on the Amazon CloudFront service. This is a **global content delivery service** with edge locations in the US, Europe and Asia.
 
 Using the Content Delivery Network has a number of advantages:
 
 * **Reduced latency** – requests will be automatically redirected to the nearest server
-
-* **Compressed output** - the javascript files are already compressed so they are in minimum size
 
 * **Better use of caching** – each resource only needs to be downloaded once
 
@@ -28,15 +24,13 @@ Using the Content Delivery Network has a number of advantages:
 >
 
 
-
-
-**Caching** is what a CDN is all about. Say you have a number of applications that all utilize RadGrid. A customer will load the RadGrid scripts just once and then use the cached version until he clears his browser’s cache. Proxies will also aggressively cache these resources.
+**Caching** is what a CDN is all about. Say you have a number of applications that all utilize RadGrid. A customer will load the RadGrid scripts just once and then use the cached version until they clear the browser cache. Proxies will also aggressively cache these resources.
 
 ## When NOT to use CDN?
 
-* Intranet applications in particular are a bad candidate for it. Your Intranet is likely to be a lot faster than any type of CDN. You’ll also lose the ability to run your application without an Internet connection.
+* Intranet scenarios often do not benefit from external CDNs, as internal networks can provide lower latency and do not depend on external connectivity. 
 
-* When you are using a latest internal build (not an official one).
+* When you are using an internal build (not an official one).
 
 ## How to enable Telerik CDN
 
@@ -46,7 +40,6 @@ The **RadStyleSheetManager** has the same configuration for enabling the Telerik
 >
 * Official Major Releases
 * Official Service Packs
-* BETA releases>
 
 
 1. Make sure you are using Telerik.Web.UI version 2009.3.1207 (**Q3 2009 SP1**) or later.
@@ -60,12 +53,13 @@ The **RadStyleSheetManager** has the same configuration for enabling the Telerik
 	CdnSettings-TelerikCdn="Enabled">
 </telerik:RadScriptManager>
 
-<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager1"
+<telerik:RadStyleSheetManager 
+	ID="RadStyleSheetManager1"
+	runat="server" 
     CdnSettings-TelerikCdn="Enabled">
 </telerik:RadStyleSheetManager>
 				
 ````
-
 
 
 Another way to set that property is to use the composite **<CdnSettings>** property of RadScriptManager:
@@ -77,7 +71,9 @@ Another way to set that property is to use the composite **<CdnSettings>** prope
 	<CdnSettings TelerikCdn="Enabled" />
 </telerik:RadScriptManager>
 
-<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager1">
+<telerik:RadStyleSheetManager 
+	ID="RadStyleSheetManager1"
+	runat="server">
     <CdnSettings TelerikCdn="Enabled" />
 </telerik:RadStyleSheetManager>
 ````
@@ -94,83 +90,37 @@ Moreover, you can enable the CDN support **globally** by adding the following ke
 ````
 
 
-
 Note, that the second line will enable the [CDN support for the CSS and image files]({%slug stylesheetmanager/cdn-support/overview%}) for the skins.
 
 ## How are my users affected?
 
-The Telerik CDN uses the following host names for loading the control resources. 
+When CDN support is enabled (`EnableCdn="true"` or `<CdnSettings TelerikCdn="Enabled" />`), the RadScriptManager and RadStyleSheetManager render CDN URLs that match the page protocol (HTTP or HTTPS). The CDN does not switch protocols on its own; the framework renders URLs based on the page request scheme, and modern browsers may upgrade requests to HTTPS (HSTS, corporate policies, etc.). Telerik provides distinct host names for each protocol.
 
-* **http://aspnet-scripts.telerikstatic.com** - for the scripts;
+Active CDN host names:
 
-* **http://aspnet-skins.telerikstatic.com** - for the skins (css and images);
+CloudFront (HTTPS pages):
+* **https://d2i2wahzwrm1n5.cloudfront.net** – scripts
+* **https://d35islomi5rx1v.cloudfront.net** – skins (CSS and images)
 
-Your users need to have access to the above URLs.
-
->note Check the [CDN Troubleshooting - Links to web resources are non-secure although the page is requested through SSL]({%slug scriptmanager/troubleshooting/cdn%}) for issues with pages loaded over HTTPS that still request the HTTP CDN scripts.
-
-
-## What about SSL?
-
-When a SSL connection is used RadScriptManager and RadStyleSheetManager will use the native Amazon CloudFront distribution hosts:
-
-* **https://d2i2wahzwrm1n5.cloudfront.net** - for the scripts;
-
-* **https://d35islomi5rx1v.cloudfront.net** - for the skins (css and images);
+TelerikStatic (supports both HTTP and HTTPS):
+* **http://aspnet-scripts.telerikstatic.com** / **https://aspnet-scripts.telerikstatic.com** – scripts
+* **http://aspnet-skins.telerikstatic.com** / **https://aspnet-skins.telerikstatic.com** – skins (CSS and images)
 
 
+These CDN endpoints are certificate-enabled and served over secure HTTPS. The actual domain used is selected automatically by the framework based on protocol and browser behavior. Do not hard-code CDN URLs; always rely on the built-in CDN support.
 
-## Detailed information with an example
-
-Let's add some RadControls on the page (RadMenu, RadTabStrip, RadListBox) and RadScriptManager with enabled CDN support. When you run the page you will observe the following:
-
-1. RadScriptManager combined the **MicrosoftAjax.js** and **MicrosoftAjaxWebForms.js** into a single compressed axd resource.
-
-2. The Core.js, jQuery.js and all the scripts needed for the RadControls are loaded from the CDN network. If the browser supports compression (the request has **Accept-Encoding** HTTP header set to *gzip,deflate*) then the files are served **compressed**. The compression is done before uploading of the files to the CDN network, so there are no CPU cycles on the server to compress at run-time. If the browser is **IE6** then the files are served **uncompressed** (from another URL) that is because earlier versions of the browser has problems with decompressing the output.
-
-Here is how the html output looks like:
-
-````HTML
- <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a0d787d5c-3903-4814-ad72-296cea810318%3aea597d4b%3ab25378d2" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Core.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQuery.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/jQueryPlugins.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Scrolling/ScrollingScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Common/Navigation/NavigationScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/Menu/RadMenuScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/TabStrip/RadTabStripScripts.js" type="text/javascript"></script><script src="https://aspnet-scripts.telerikstatic.com/ajaxz/2009.3.1203/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
-````
-
-
-
-Note that scripts from the CDN are placed in the **/ajaxz/** folder - this means that the compressed file is downloaded. If your browser does not support content encoding (or it is IE6) then you will notice that the scripts are loaded from the **/ajax/** folder.
-
-
+> Note: If your environment uses firewalls, proxies, or strict corporate security policies, ensure the Telerik CDN domains are allowed. Otherwise, disable CDN support to serve resources locally.
 
 ## More Optimizations
 
-To further optimize the load of the scripts you can download the **MicrosoftAjax.js** file from the Microsoft CDN (valid for **.NET 3.5** only):
-
-````ASPNET
-<telerik:RadScriptManager 
-	ID="RadScriptManager1" 
-	runat="server">    
-	<CdnSettings TelerikCdn="Enabled" />    
-	<Scripts>        
-	<asp:ScriptReference 
-		Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" 
-		Name="MicrosoftAjax.js"
-		Path="http://ajax.microsoft.com/ajax/3.5/MicrosoftAjax.js" />                           
-	</Scripts>
-</telerik:RadScriptManager>
-````
-
-
-
-
-
-## Recommended setup
-
-## ASP.NET 4.0 and above
+To further optimize the load of the scripts you can download the Microsoft ASP.NET AJAX scripts from the Microsoft CDN by setting EnableCdn="true":
 
 ````ASPNET
 <telerik:RadScriptManager 
 	runat="server" 
 	ID="RadScriptManager1" 
 	EnableCdn="true"> 
+	<CdnSettings TelerikCdn="Enabled" />
 </telerik:RadScriptManager>
 <telerik:RadStyleSheetManager 
 	runat="server" 
@@ -178,54 +128,11 @@ To further optimize the load of the scripts you can download the **MicrosoftAjax
 	<CdnSettings TelerikCdn="Enabled" />
 </telerik:RadStyleSheetManager>
 ````
-
-
-
-All ASP.NET scripts and Telerik resources are served from the respective CDNs.
-
-
-
-## ASP.NET 3.5
-
-````ASPNET
-<telerik:RadScriptManager 
-	runat="server" 
-	ID="RadScriptManager1">    
-	<CdnSettings TelerikCdn="Enabled" />    
-	<Scripts>        
-		<asp:ScriptReference Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"                             
-		Name="MicrosoftAjax.js"                             
-		Path="http://ajax.microsoft.com/ajax/3.5/MicrosoftAjax.js" />    
-	</Scripts>
-</telerik:RadScriptManager>
-````
-
-
 
 Both MS AJAX scripts and Telerik resources will be served from the respective CDNs.
 
-## ASP.NET 2.0
-
-````ASPNET
-<telerik:RadScriptManager 
-	runat="server" 
-	ID="RadScriptManager1">    
-	<CdnSettings TelerikCdn="Enabled" />
-</telerik:RadScriptManager> 
-
-<telerik:RadStyleSheetManager 
-	runat="server" 
-	ID="RadStyleSheetManager1">    
-	<CdnSettings TelerikCdn="Enabled" />
-</telerik:RadStyleSheetManager>
-````
-
-
-
-The Telerik resources will be loaded from the CDN, MS AJAX will be served by RadScriptManager.
 
 
 ## Additional Resources
 
-* [CDN Fallback to Local Resources](https://www.telerik.com/support/code-library/cdn-fallback)
 * [Configure Local CDN](https://www.youtube.com/watch?v=iPcvj7Vl5TM)
