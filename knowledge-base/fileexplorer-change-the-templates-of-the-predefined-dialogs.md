@@ -64,62 +64,47 @@ End Class
 
     AlertTemplate.ascx's content for the alert template:  
  
- 
-`<div id=``"RadWindowManager1_alerttemplate"``>`
- 
-`    ``<div class=``"windowpopup radalert"``>`
- 
-`        ``<div class=``"dialogtext"``>`
- 
-`            ``<div style=``"color:Red;"``>CUSTOM RADALERT TEMPLATE :</div> {1}`
- 
-`        ``</div>`
- 
-`        ``<div>`
- 
-`            ``<a onclick=``"$find('{0}').close();"` `class=``"radwindowbutton"` `href=``"javascript:void(0);"``>`
- 
-`                ``<span class=``"outerspan"``><span class=``"innerspan"``>##LOC[OK]##</span> </span></a>`
- 
-`        ``</div>`
- 
-`    ``</div>`
- 
-`</div>`
+````html 
+<div id="RadWindowManager1_alerttemplate">
+     <div class="windowpopup radalert">
+        <div class="dialogtext">
+            <div style="color:Red;">CUSTOM RADALERT TEMPLATE :</div> {1} 
+        </div> 
+        <div> 
+            <a onclick="$find('{0}').close();" class="radwindowbutton" href="javascript:void(0);"> 
+                <span class="outerspan"><span class="innerspan">##LOC[OK]##</span> </span></a> 
+        </div> 
+    </div> 
+</div>
+````
+
 3. The same should be done for the rest of the templates. Then the new templates should be assigned to the corresponding RadWindowManager's properties:  
-   
+    
+ 
+````C#
+protected void Page_Load(Object sender, EventArgs e) 
+{ 
+       RadFileExplorer1.WindowManager.AlertTemplate = New AlertTemplate(this.Page); 
+ 
+       RadFileExplorer1.WindowManager.ConfirmTemplate = New ConfirmTemplate(this.Page); 
+ 
+       RadFileExplorer1.WindowManager.PromptTemplate = New PromptTemplate(this.Page); 
+} 
+```` 
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-    C#:  
- 
- 
-`protected` `void` `Page_Load(``object` `sender, EventArgs e)`
- 
-`{`
- 
-`    ``RadFileExplorer1.WindowManager.AlertTemplate = ``new` `AlertTemplate(``this``.Page);`
- 
-`    ``RadFileExplorer1.WindowManager.ConfirmTemplate = ``new` `ConfirmTemplate(``this``.Page);`
- 
-`    ``RadFileExplorer1.WindowManager.PromptTemplate = ``new` `PromptTemplate(``this``.Page);`
- 
-`}`
- 
-   
+    RadFileExplorer1.WindowManager.AlertTemplate = New AlertTemplate(Me.Page)
 
-    VB.NET:  
- 
- 
-`Protected` `Sub` `Page_Load(``ByVal` `sender ``As` `Object``, ``ByVal` `e ``As` `System.EventArgs) ``Handles` `Me``.Load`
- 
-`    ``RadFileExplorer1.WindowManager.AlertTemplate = ``New` `AlertTemplate(``Me``.Page)`
- 
-`    ``RadFileExplorer1.WindowManager.ConfirmTemplate = ``New` `ConfirmTemplate(``Me``.Page)`
- 
-`    ``RadFileExplorer1.WindowManager.PromptTemplate = ``New` `PromptTemplate(``Me``.Page)`
- 
-`End` `Sub`
+    RadFileExplorer1.WindowManager.ConfirmTemplate = New ConfirmTemplate(Me.Page)
+
+    RadFileExplorer1.WindowManager.PromptTemplate = New PromptTemplate(Me.Page)
+
+End Sub
+````
 
    
  
+
 
 
