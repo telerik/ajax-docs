@@ -41,6 +41,15 @@ When using Telerik UI for ASP.NET AJAX in a project with an expired or missing l
 | `No Telerik or Kendo UI product references detected in project.v.`       | `TKL001`           | - If you use Telerik products and see this message, update the `Telerik.Licensing` package to version 1.4.9 or later.                                                 |
 |                                                                          |                    | - If you do not use Telerik products, remove the `Telerik.Licensing` NuGet reference from your project.                                                               |
 
+## Runtime Errors
+
+These errors appear when the application runs in the browser. Follow the linked articles to resolve them.
+
+| Error                                                                    |  Solution                                                                                                                                                               |
+| ------------------------------------------------------------------------ |  -------------------------------------------------------------------------------------------------------------------------------------------------------------------    |
+| `No Telerik and Kendo UI License file found`                             |  [Resolving "No license found for Telerik UI for ASP.NET AJAX"]({%slug fix-telerik-ui-aspnet-ajax-no-license-error%})                                                   |
+| `We couldn't verify your license key for Telerik UI for ASP.NET AJAX`    |  [Resolving "No license found for Telerik UI for ASP.NET AJAX"]({%slug fix-telerik-ui-aspnet-ajax-no-license-error%})                                                   |
+
 ## See Also
 
 - [Setting Up Your License Key]({%slug licensing/license-key%})
