@@ -83,7 +83,7 @@ Page.Header.Controls.Add(link)
 
 ## Skin registration with RadStyleSheetManager
 
-The [RadStyleSheetManager](https://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html) control is able to register CSS files, which are embedded in an assembly. This can be beneficial in several ways, or in some cases may be even required:
+The [RadStyleSheetManager](https://www.telerik.com/products/aspnet-ajax/documentation/controls/stylesheetmanager/overview) control is able to register CSS files, which are embedded in an assembly. This can be beneficial in several ways, or in some cases may be even required:
 
 * RadStyleSheetManager can improve the page performance by combining the CSS files into one on the fly and thus, reducing the number of HTTP requests;
 

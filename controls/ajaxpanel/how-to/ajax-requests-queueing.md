@@ -41,8 +41,8 @@ End Sub
 
 ## See Also
 
- * [RadAjaxManager](https://www.telerik.com/help/aspnet-ajax/ajax-ajaxmanager.html)
+ * [RadAjaxManager](https://www.telerik.com/products/aspnet-ajax/documentation/controls/ajaxmanager/overview)
 
- * [RadAjaxPanel](https://www.telerik.com/help/aspnet-ajax/ajax-ajaxpanel.html)
+ * [RadAjaxPanel](https://www.telerik.com/products/aspnet-ajax/documentation/controls/ajaxpanel/overview)
 
- * [AJAX Request](https://www.telerik.com/help/aspnet-ajax/ajax-client-side-api.html)
+ * [AJAX Request](https://www.telerik.com/products/aspnet-ajax/documentation/controls/ajaxmanager/client-side-programming/overview)

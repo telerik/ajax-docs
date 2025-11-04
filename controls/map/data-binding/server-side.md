@@ -28,7 +28,7 @@ Similar to setting a data source for an ASP.NET control, you should either use t
 
 The data source should have columns for each of the map fields that you want to specify. For example, if you want to pull the title of the markers from the data source, this will require a separate column that contains the titles of each marker.
 
-The columns of the data source are attached to their corresponding data fields in the markers via the properties with the structure **Data[*field name*]Name** in **RadMap > DataBindings > MarkerBinding**. For example: **DataShapeField**, **DataTitleField**, etc. You can find the full set of the MapMarker object's properties in the [Server-Side API of RadMap](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
+The columns of the data source are attached to their corresponding data fields in the markers via the properties with the structure **Data[*field name*]Name** in **RadMap > DataBindings > MarkerBinding**. For example: **DataShapeField**, **DataTitleField**, etc. You can find the full set of the MapMarker object's properties in the [Server-Side API of RadMap](https://www.telerik.com/products/aspnet-ajax/documentation/controls/map/server-side-programming).
 
 Binding the **Marker**'s **Shape** value can enable you to create an optional, custom look of the bound markers. You can examine the [Customizing Markers in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%}) article.
 
@@ -36,7 +36,7 @@ Binding the **Marker**'s **Shape** value can enable you to create an optional, c
 
 Following the same logic, when binding layers you should use either the **LayersDataSourceID** property when data binding layers declaratively or **LayersDataSource** when the data source of the control is set on the server (you can refer **Example 1** for a sample configuration).
 
-The columns of the data source here are also attached to their corresponding data fields in the layers via the properties with the structure **Data[*field name*]Name** in **RadMap > DataBindings > LayerBinding**. For example: **DataTypeField**, **DataUrlTemplateField**, etc. You can find the full set of the MapLayer object's properties in the [Server-Side API of RadMap](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
+The columns of the data source here are also attached to their corresponding data fields in the layers via the properties with the structure **Data[*field name*]Name** in **RadMap > DataBindings > LayerBinding**. For example: **DataTypeField**, **DataUrlTemplateField**, etc. You can find the full set of the MapLayer object's properties in the [Server-Side API of RadMap](https://www.telerik.com/products/aspnet-ajax/documentation/controls/map/server-side-programming).
 
 ## Examples
 
@@ -133,4 +133,4 @@ End Function
 
 # See Also
 
- * [RadMap Server-Side API](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html)
+ * [RadMap Server-Side API](https://www.telerik.com/products/aspnet-ajax/documentation/controls/map/data-binding/server-side)

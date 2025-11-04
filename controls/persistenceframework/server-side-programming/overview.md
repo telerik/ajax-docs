@@ -61,13 +61,4 @@ This setting is used by the event arguments of the **SaveCustomSettings** / **Lo
 | **Name** (property)|The name of the custom control setting.|
 | **Value** (property)|Persist a control by its ID.|
 | **ControlType** (property)|The value of the setting.|
-
-## See Also
-
- * [ControlSetting Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_controlsetting.html)
-
- * [PersistenceSetting Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_persistencesetting.html)
-
- * [RadPersistenceManager Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanager.html)
-
- * [RadPersistenceManagerProxy Members](https://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_radpersistencemanagerproxy.html)
+ 
