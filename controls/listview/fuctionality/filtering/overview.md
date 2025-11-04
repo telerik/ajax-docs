@@ -74,4 +74,4 @@ The above functionalities can also be achieved without manually building the fil
 
 For more custom scenarios (like applying expressions on custom actions, building expressions through the filter APIs, etc.) the **FireApplyCommand()** method along with the **OnApplyExpressions** event are used. RadFilter has a query provider written to produce filter queries specifically for the RadListView control - **RadFilterListViewQueryProvider**. You can use it to extract the built custom expression and assign it to RadListView. You can see a code sample on using the provider in the following help article:
 
-[RadListView Filtering with RadFilter](https://www.telerik.com/help/aspnet-ajax/filter-listview-filtering.html)
+[RadListView Filtering with RadFilter](https://www.telerik.com/products/aspnet-ajax/documentation/controls/filter/how-to/radlistview-filtering-with-radfilter)

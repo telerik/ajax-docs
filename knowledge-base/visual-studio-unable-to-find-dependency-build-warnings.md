@@ -38,7 +38,7 @@ The references of the Telerik.Web.UI.dll assembly to MICROSOFT.WINDOWSAZURE.STOR
 
 What you can do in case your Visual Studio is warning you about those missing dependencies:
 
-* You can add the missing assemblies and reference them, especially if your web app is using [RadCloudUpload](https://www.telerik.com/help/aspnet-ajax/cloud-upload-amazon-s3.html).
+* You can add the missing assemblies and reference them, especially if your web app is using [RadCloudUpload](https://www.telerik.com/products/aspnet-ajax/documentation/controls/cloudupload/cloud-storage-providers/amazon-s3).
 * Or restart the computer and [clean the solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio?view=vs-2019#to-build-rebuild-or-clean-an-entire-solution).
 * You may experience the warnings if the **Visual Studio MSBuild project build output verbosity** is set to **Detailed**. You can find this VS setting under Tools – Options – Projects and Solutions – Build and Run, there’s the MSBuild project build output verbosity combo box. It controls how much info you want to see in the Output window
 * The warning might be due to the license.licx file. To fix it delete its contents or delete the whole file as suggested in [this KB](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-fix-license-file-related-errors)

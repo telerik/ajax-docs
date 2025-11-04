@@ -20,7 +20,7 @@ to the following:
 
 ![Final](images/panelbar_cssfinal.png)
 
->note See [Understanding the Skin CSS File](https://www.telerik.com/help/aspnet-ajax/panelbar-appearance-css-file.html) for more information on specific CSS file properties.
+>note See [Understanding the Skin CSS File](https://www.telerik.com/products/aspnet-ajax/documentation/controls/panelbar/appearance-and-styling/understanding-the-skin-css-file) for more information on specific CSS file properties.
 >
 
 ## Prepare the Project
