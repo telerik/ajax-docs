@@ -34,7 +34,6 @@ Below you can find attached examples that showcase how you can traverse the cell
 
 ## SEE ALSO
 
-- [Code Library sample: Styling and formatting Word and Excel document](https://www.telerik.com/support/code-library/styling-and-formatting-word-and-excel-document)
 - [Documentation article: Export Infrastructure](https://docs.telerik.com/devtools/aspnet-ajax/controls/export-infrastructure)
 
  

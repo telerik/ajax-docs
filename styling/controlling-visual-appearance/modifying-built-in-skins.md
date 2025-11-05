@@ -60,4 +60,4 @@ Here is a blog post, which extends the information above with an example about o
 
 Also you can refer the PSD files for the obsolete controls' skins and some specific custom skins using the portal below:
 
-[Skins Code Library portal](https://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)
+[Skins Code Library portal](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/common-skin-exchange)

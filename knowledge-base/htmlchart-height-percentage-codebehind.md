@@ -167,6 +167,5 @@ End Class
 ````
     
     
-For more information see also this article: [RadHtmlChart in a Responsive Web Page](https://www.telerik.com/support/code-library/radhtmlchart-in-a-responsive-web-page).
 
      

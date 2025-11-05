@@ -93,7 +93,4 @@ function attachHandlers(explorer, args)
 <telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" runat="server" OnClientLoad="attachHandlers">
 </telerik:RadFileExplorer>
 ````
-
-## See Also
-
- * [Add a custom button to the toolbar](https://www.telerik.com/community/code-library/aspnet-ajax/file-explorer/how-to-add-a-custom-button-to-the-toolbar-and-hide-an-existing-one-s.aspx)
+ 

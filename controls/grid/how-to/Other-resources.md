@@ -14,7 +14,7 @@ This page contains links to examples that you may find useful when implementing 
 
 ## Appearance
 
-* [100% Height for RadGrid](https://www.telerik.com/support/code-library/setting-radgrid's-height-in-percents) - this code library page explains how to set the grid height in percent values. The key requirement is that all of its parent html elements also have height set in percents, up to a parent with a fixed height (including the html, body, form elements and all Update panels. See also the [Scrolling]({%slug grid/functionality/scrolling/overview%}), [Height vs ScrollHeight]({%slug grid/functionality/scrolling/height-vs.-scrollheight%}) and [Scroll With Static Headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%}) articles.
+* [100% Height for RadGrid](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/grid-set-height-in-percentages) - this code library page explains how to set the grid height in percent values. The key requirement is that all of its parent html elements also have height set in percents, up to a parent with a fixed height (including the html, body, form elements and all Update panels. See also the [Scrolling]({%slug grid/functionality/scrolling/overview%}), [Height vs ScrollHeight]({%slug grid/functionality/scrolling/height-vs.-scrollheight%}) and [Scroll With Static Headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%}) articles.
 
 ## DataEditing:
 

@@ -39,5 +39,5 @@ End Sub
 ````
 
 Alternatively, if you want to set a percentage height to the grid, you can follow the steps provided here:  
-[http://www.telerik.com/support/code-library/setting-radgrid's-height-in-percents](https://www.telerik.com/support/code-library/setting-radgrid's-height-in-percents)
+[https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/grid-set-height-in-percentages](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/grid-set-height-in-percentages)
 

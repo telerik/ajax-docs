@@ -15,7 +15,6 @@ Show a loading panel / sign during the time it takes a RadMultiPage to load an 
 
 Follow these steps:
  1. Add a [RadAjaxLoadingPanel]({%slug ajaxloadingpanel/overview%}) to the page.
-    - Optionally, configure it as desired (the example below makes it[show up over the entire page](https://www.telerik.com/support/code-library/how-to-make-a-radajaxloadingpanel-span-over-the-whole-page) so the user cannot change the tab while the page is loading).
  
  2. Hook to the [OnClientTabSelecting event]({%slug tabstrip/client-side-programming/onclienttabselecting%}) of the RadTabStrip to [show the loading panel]({%slug ajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly%}) explicitly when the user changes tabs.
     - Check if the iframe inside the pageview already has a src attribute (i.e., it has already been loaded).

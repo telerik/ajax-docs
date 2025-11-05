@@ -110,10 +110,6 @@ End Sub
 
 ## Limitations
 
-The **RadScheduler**'s export functionality will not work if the page is deployed as an Azure Website. In such scenarios we recommend using the **RadClientExportManager** control to export the **RadScheduler**'s content. Here is a CodeLibrary project that demonstrates the [Scheduler client PDF export with ClientExportManager](https://www.telerik.com/support/code-library/scheduler-client-pdf-export-with-clientexportmanager).
+The **RadScheduler**'s export functionality will not work if the page is deployed as an Azure Website. In such scenarios we recommend using the **RadClientExportManager** control to export the **RadScheduler**'s content.
 
-## See Also
-
- * [Scheduler client PDF export with ClientExportManager](https://www.telerik.com/support/code-library/scheduler-client-pdf-export-with-clientexportmanager) code-library project
-
-
+ 

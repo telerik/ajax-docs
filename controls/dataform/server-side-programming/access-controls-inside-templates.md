@@ -12,8 +12,6 @@ position: 3
 
 It may be necessary to access control inside the templates of a **RadDataForm** to get and set values or properties. This article shows how to access the inner controls for several different templates types.
 
-You can find a detailed, fully runnable example that shows all scenarios in the [Accessing Controls in DataForm](https://www.telerik.com/support/code-library/accessing-controls-in-dataform) Code Library. It shows how to access controls on the server in the ItemTemplate, editable items, insert items, layout elements, and also how to do this on the client-side as well.
-
 The examples below will use the following **RadDataForm**:
 
 ````ASP.NET
@@ -102,4 +100,4 @@ End Sub
 # See Also
 
  * [DataForm Object API](https://docs.telerik.com/devtools/aspnet-ajax/controls/dataform/server-side-programming/dataform-object)
- * [Accessing Controls in DataForm Code Library](https://www.telerik.com/support/code-library/accessing-controls-in-dataform)
+

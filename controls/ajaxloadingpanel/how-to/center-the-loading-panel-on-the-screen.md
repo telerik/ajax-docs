@@ -78,10 +78,4 @@ IsSticky="true" Style="position: absolute; top: 0; left: 0; height: 100%; width:
 </telerik:RadAjaxLoadingPanel>
 ````
 
-
-
-For additional approaches and samples on centering RadAjaxLoadingPanel, you can review the listed code libraries:
-
-* [How to Make a RadAjaxLoadingPanel Span Over the Whole Page](https://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-make-a-radajaxloadingpanel-span-over-the-whole-page.aspx)
-
-* [How to Center Image in a RadAjaxLoadingPanel](https://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-center-image-in-a-radajaxloadingpanel.aspx)
+  
