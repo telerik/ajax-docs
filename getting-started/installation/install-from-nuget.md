@@ -31,29 +31,36 @@ The following prerequisites are required for accomplishing the scenario in this 
 
 1. [Install Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/).
 
-1. [Install .NET Framework 4.5 or later](https://dotnet.microsoft.com/en-us/download).
+1. [Install .NET Framework 4.6.2 or later](https://dotnet.microsoft.com/en-us/download).
 
-1. [Install the ASP.NET Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/) on your development or production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8 installations.
+1. [Install the ASP.NET Web Forms application](https://docs.microsoft.com/en-us/aspnet/web-forms/) on your development or production machine. ASP.NET Web Forms is available in the .NET 4.0-4.8.1 installations.
 
 1. If a new user, [create a Telerik account](https://www.telerik.com/account/).
 
 ## Install Telerik UI for ASP.NET AJAX
 
-- [Step 1: Add the Telerik NuGet Feed to Visual Studio](#step-1-add-the-telerik-nuget-feed-to-visual-studio)
-- [Step 2: Install Telerik UI for ASP.NET AJAX](#step-2-install-telerik-ui-for-asp-net-ajax)
-- [Step 3: Setup Your License Key](#step-3-setup-your-license-key)
-- [Step 4: Add the Editor to Your Project](#step-4-add-the-editor-to-your-project)
-- [Step 5: Add the HtmlChart to Your Project](#step-5-add-the-htmlchart-to-your-project)
-- [Step 6: Style the Controls](#step-6-style-the-controls)
+- [Step 1: Generate NuGet API Key](#step-1-generate-nuget-api-key)
+- [Step 2: Add the Telerik NuGet Feed to Visual Studio](#step-2-add-the-telerik-nuget-feed-to-visual-studio)
+- [Step 3: Install Telerik UI for ASP.NET AJAX](#step-3-install-telerik-ui-for-asp-net-ajax)
+- [Step 4: Setup Your License Key](#step-4-setup-your-license-key)
+- [Step 5: Add the Editor to Your Project](#step-5-add-the-editor-to-your-project)
+- [Step 6: Add the HtmlChart to Your Project](#step-6-add-the-htmlchart-to-your-project)
+- [Step 7: Style the Controls](#step-7-style-the-controls)
 
-### Step 1: Add the Telerik NuGet Feed to Visual Studio
+### Step 1: Generate NuGet API Key
+
+As the Telerik NuGet server requires authentication, the first step is to obtain an API key that you will use instead of a password. Using an API key instead of a password is a more secure approach.
+
+1. Go to the [API Keys](https://www.telerik.com/account/downloads/api-keys) page in your Telerik account.
+1. Click **Generate New Key +**.
+1. In the **Key Note** field, add a note that describes the API key.
+1. Click **Generate Key**.
+1. Select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **API Keys** page displays only a portion of the key.
+1. Store the generated NuGet API key as you will need it in the next steps. Whenever you need to authenticate your system with the Telerik NuGet server, use `api-key` as the username and your generated API key as the password.
+
+### Step 2: Add the Telerik NuGet Feed to Visual Studio
 
 Adding the Telerik NuGet feed to Visual Studio allows you to quickly install the required Telerik packages to your project.
-
-The following video demonstrates the steps for adding the Telerik NuGet feed to Visual Studio. If you prefer, however, you can follow the steps that are listed in writing after the video.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 To configure the Telerik NuGet Feed in Visual Studio:
 
 1. Open Visual Studio and go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
@@ -62,31 +69,33 @@ To configure the Telerik NuGet Feed in Visual Studio:
 
 1. Enter a **Name** for the new package source, for example, **Telerik NuGet**.
 
-1. Add the `https://nuget.telerik.com/v3/index.json` URL as a **Source**. Click **OK**.
+1. Add the `https://nuget.telerik.com/v3/index.json` URL as a **Source**. 
+
+1. Click **Update** and then **OK**. 
 
 	>caption The Visual Studio NuGet package manager and the Telerik NuGet feed
 
 	![Visual Studio NuGet Package Manager and Telerik NuGet Feed](images/telerik-nuget-feed-in-npm.png)
 
-### Step 2: Install Telerik UI for ASP.NET AJAX
+### Step 3: Install Telerik UI for ASP.NET AJAX
 
 Now that you have successfully added the Telerik NuGet feed as a package source, you need to authenticate your local NuGet instance, display the available packages, and install Telerik UI for ASP.NET AJAX:
 
-1. Create a new WebForms project or open an existing one.
+1. Create a new ASP.NET WebForms project or open an existing one.
 
 1. Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
 
 1. Select the Telerik NuGet **Package source** from the drop-down list on the left.
 
-1. Select the **Browse** tab to see the available packages. In older Visual Studio versions, this tab is called **Online**.
+1. Select the **Browse** tab to see the available packages.
 
-1. Enter your Telerik credentials in the Windows Authentication dialog.
+1. Enter your NuGet API key authentication in the Windows Authentication dialog. Use `api-key` as the username and your generated API key as the password.
 
-	>caption Enter your Telerik credentials to access the Telerik NuGet feed
+	>caption Enter your API key authentication to access the Telerik NuGet feed
 
-	![Enter your Telerik.com credentials](images/telerik-nuget-credentials.png)
+	![Enter your Telerik.com credentials](images/vs-nuget-auth-window.webp)
 
-1. Select the desired Telerik UI for ASP.NET AJAX package and click **Install**. To select the correct package version for your project, the .NET version of your project must correspond to the `.Net<version>` portion of the package name. For example, the correct package for `.NET Framework 4` projects is `Telerik.UI.for.AspNet.Ajax.Net40`.
+1. Select the desired Telerik UI for ASP.NET AJAX package and click **Install**. To select the correct package version for your project, the .NET version of your project must correspond to the `.Net<version>` portion of the package name. For example, the correct package for `.NET Framework 4.6.2 up to 4.8.1` projects is `Telerik.UI.for.AspNet.Ajax.Net462`.
 
 	>caption Add the Telerik UI for ASP.NET AJAX package to the solution
 
@@ -97,22 +106,13 @@ Now that you have successfully added the Telerik NuGet feed as a package source,
 >
 > Additionally, the NuGet does not install the [Visual Studio Extensions for Telerik® UI for ASP.NET AJAX]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}), which are valuable tools for WebForms developers working with the Telerik ASP.NET Web Forms components. However, these extensions can be downloaded and installed as a separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.TelerikASPNETAJAXVSExtensions).
 
-### Step 3: Setup Your License Key
+### Step 4: Setup Your License Key
 
->note Starting with Telerik UI for ASP.NET AJAX 2025 Q1 release, you must activate the UI components by providing a license key file. Previous versions do not require a license key.
+>note Starting with **2025 Q1**, Telerik UI for ASP.NET AJAX requires activation through a License Key. The `Telerik.Web.UI.dll` assembly now depends on `Telerik.Licensing.Runtime.dll`, available via NuGet ([https://www.nuget.org/packages/Telerik.Licensing](https://www.nuget.org/packages/Telerik.Licensing)) or the Telerik UI for ASP.NET AJAX installations. Previous versions do not require a license key.
 
-To download and install your Telerik license key:
+The [Telerik License Key]({%slug licensing/license-key%}) article provides detailed instructions and tips on installing and updating your Telerik license key in different scenarios.
 
-1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
-2. Click the **Download License Key** button.
-3. Save the `telerik-license.txt` file to: 
-   * `%AppData%\Telerik\telerik-license.txt`, for example (`C:\Users\...\AppData\Roaming\Telerik\telerik-license.txt`)
-
-This will make the license key available to all Telerik .NET apps that you develop on your local machine.
-
-The [Telerik License Key]({%slug licensing/license-key%}) article provides additional details on installing and updating your Telerik license key in different scenarios. Automatic license key maintenance is more effective and recommended in the long run.
-
-### Step 4: Add the Editor to Your Project
+### Step 5: Add the Editor to Your Project
 
 The Web Forms Site created through the Telerik project templates includes all basic references and registrations required by the Telerik UI for ASP.NET AJAX controls, including a [ScriptManager control]({%slug scriptmanager/overview%}), which is required by all AJAX controls. That's why you can add the [Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx) to the page in a simple way as demonstrated in this step.
 
@@ -142,9 +142,9 @@ The Web Forms Site created through the Telerik project templates includes all ba
 >caption Add the Editor to the page
 ![Add the Editor to the page](images/getting-started-editor.png)
 
-### Step 5: Add the HtmlChart to Your Project
+### Step 6: Add the HtmlChart to Your Project
 
-Let’s dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. By following the steps below, you will create a data-bound [HtmlChart]({%slug htmlchart/overview%}). You will also add a handy tooltip that shows the values from a custom data field.
+Let's dive a little bit deeper in the configuration of the controls from the UI for ASP.NET AJAX suite. By following the steps below, you will create a data-bound [HtmlChart]({%slug htmlchart/overview%}). You will also add a handy tooltip that shows the values from a custom data field.
 
 The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred data source type]({% slug htmlchart/data-binding/overview %}). The page already contains a [ScriptManager control](#add-radeditor-to-the-application), so you are ready to declare the HtmlChart right after the Editor control that you added in the previous step:
 
@@ -285,7 +285,7 @@ The sample uses a `DataTable`, but you can bind the HtmlChart to a [preferred da
 >caption Bound HtmlChart with a custom Tooltip template
 ![Bound HtmlChart with a custom Tooltip template](images/getting-started-htmlchart.png)
 
-### Step 6: Style the Controls
+### Step 7: Style the Controls
 
 Telerik UI for ASP.NET AJAX provides more than [20 predefined skins]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies %}) that allow you to change the look and feel of each component. To use the desired skin, set the skin name as the `Skin` property value of the control:
 
