@@ -186,4 +186,4 @@ End Sub
 ````
 
 
-For additional information you can review [ this code library ](https://www.telerik.com/community/code-library/aspnet-ajax/combobox/load-on-demand-radcombobox-inside-an-edititemtemplate-of-radgrid.aspx).
+For additional information you can review [ this code library ](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/grid-load-on-demand-radcombobox-inside-an-edititemtemplate).

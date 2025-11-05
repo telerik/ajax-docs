@@ -65,7 +65,7 @@ Moreover, you can enable the CDN support **globally** by adding the following ke
 
 
 
-Note, that the first line will enable the CDN support for the [JavasSript files]({%slug scriptmanager/cdn-support/overview%}).
+Note, that the first line will enable the CDN support for the [JavaSript files]({%slug scriptmanager/cdn-support/overview%}).
 
 ## How are my users affected?
 
@@ -85,9 +85,4 @@ TelerikStatic (supports both HTTP and HTTPS):
 These CDN endpoints are certificate-enabled and served over secure HTTPS. The actual domain used is selected automatically by the framework based on protocol and browser behavior. Do not hard-code CDN URLs; always rely on the built-in CDN support.
 
 > Note: If your environment uses firewalls, proxies, or strict corporate security policies, ensure the Telerik CDN domains are allowed. Otherwise, disable CDN support to serve resources locally.
-
-
-## Additional Resources
-
-* [CDN Fallback to Local Resources](https://www.telerik.com/support/code-library/cdn-fallback)
 

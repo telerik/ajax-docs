@@ -137,8 +137,6 @@ public override void SaveWorkbook(Workbook workbook)
 
 ## See Also
 
-- [Show loading panel when saving Spreadsheet](https://www.telerik.com/support/code-library/show-loading-panel-when-saving-spreadsheet)
-
 - [Spreadsheet CustomProvider]({%slug spreadsheet/data-binding/providers/custom-database-provider%})
 
 - [Use cookies to help execute custom JavaScript after a file starts to download](https://www.telerik.com/support/kb/aspnet-ajax/details/use-cookies-to-help-execute-custom-javascript-after-a-file-starts-to-download)

@@ -24,10 +24,10 @@ The **RadUpload** control uses and extends the existing API of the browsers and 
 
 * **RadUpload** cannot check the **size** and the **mime-type** of its selected files before an upload starts. This is because of a security restriction of the JavaScript engine of popular browsers. You cannot access the client file system with JavaScript, hence the inability to get the file **size**, **mime type** or content. You can, however, [check the file size when the upload first starts]({%slug upload/how-to/checking-file-size-on-the-client%}). Client-side validation is possible with **RadAsyncUpload** - check the demo [here](https://demos.telerik.com/aspnet-ajax/upload/examples/async/validation/defaultcs.aspx).
 
-* **RadUpload** cannot select multiple files in one file select box. This is a limitation of the standard **`<input type=file>`** elements that **RadUpload** uses for file selection. Currently, there are no plans for changing this restriction. You can check this code-library: [How to upload multiple files using RadUpload (uploading .zip file and extract it on the server)](https://www.telerik.com/community/code-library/submission/b311D-beedct.aspx). In addition, this is possible in **RadAsyncUpload** - check the demo [here](https://demos.telerik.com/aspnet-ajax/upload/examples/async/multiplefileselection/defaultcs.aspx).
+* **RadUpload** cannot select multiple files in one file select box. This is a limitation of the standard **`<input type=file>`** elements that **RadUpload** uses for file selection. Currently, there are no plans for changing this restriction. In addition, this is possible in **RadAsyncUpload** - check the demo [here](https://demos.telerik.com/aspnet-ajax/upload/examples/async/multiplefileselection/defaultcs.aspx).
 
 * **RadUpload** does not support initially selected files or allow file selections to persist across postbacks. This is a security limitation of the standard **`<input type=file>`** elements which it uses internally for file selection.
 
-* The file will not upload if you try to open the 'browse for file' window with javascript. Only the user can click on the Select button and select a file.
+* The file will not upload if you try to open the 'browse for file' window with JavaScript. Only the user can click on the Select button and select a file.
 
 

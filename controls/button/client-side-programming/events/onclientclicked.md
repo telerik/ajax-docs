@@ -81,7 +81,7 @@ Here is another code sample of how to get the get_commandArgument() method from 
 </telerik:RadButton>
 <telerik:RadWindowManager ID="RadWindowManager1" runat="server"></telerik:RadWindowManager>
 ````
-You can find more information in the following Code Library [Passing user-defined parameters to client-side event handlers](https://www.telerik.com/support/code-library/passing-user-defined-parameters-to-client-side-event-handlers)
+
 
 ````ASP.NET
 	<script type="text/javascript">

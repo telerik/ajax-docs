@@ -101,7 +101,7 @@ Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**"
 | **.rgNoRecords** |A class to customize the visual appearance of the NoRecords template/text|
 | **.GridDraggedRows_[SkinName]** |A class applied to the <div> element, which wraps the dragged rows. The same <div> element also has the "RadGrid" and "RadGrid_SkiName" classes.|
 
->note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](https://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)and follow the steps concerning how to register an external skin from[this](https://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](https://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
+>note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/common-skin-exchange)and follow the steps concerning how to register an external skin from[this](https://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](https://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
 >
 
 

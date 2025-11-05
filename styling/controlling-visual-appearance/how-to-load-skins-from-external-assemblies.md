@@ -10,8 +10,6 @@ position: 7
 
 # How to Load Skins from External Assemblies
 
->tip A sample project demonstrating this approach is available in the following Code Library: [How to load skins from external assemblies](https://www.telerik.com/community/code-library/aspnet-ajax/general/how-to-load-skins-from-external-assemblies)
-
 ## Create custom Skins Assembly
 
 As of Q1 2011 release, developers are be able to load skins from an external assembly. In this article, we will describe the steps for creating a custom Skins Assembly.
@@ -152,5 +150,4 @@ As of Q1 2011 release, developers are be able to load skins from an external ass
 A final note – it is possible to have one of the default skins in a custom assembly – for example you customize the Hay skin and put it in a custom class project by following the steps above. Once you set the *Telerik.Web.SkinsAssembly* setting in the *web.config*, the Hay skin will no longer be loaded from Telerik.Web.UI even if it is present there as well.
 
 ## See also
-* [Code Library sample](https://www.telerik.com/community/code-library/aspnet-ajax/general/how-to-load-skins-from-external-assemblies)
 * [Load skins using RadSkinManager]({%slug skinmanager/overview%}#loading-skins-by-specifying-a-path)

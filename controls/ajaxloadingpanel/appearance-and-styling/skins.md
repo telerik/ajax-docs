@@ -49,9 +49,6 @@ You can avoid setting the **Skin** property per each **RadAjaxLoadingPanel** ins
   <add key="Telerik.Ajax.Skin" value="Metro"  />
 ````
 
-**Custom Skins**
-
-Apart from using the embedded skins, you can easily create a custom skin for a **RadAjaxLoadingPanel** . A [code library example](https://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-create-and-use-custom-skins-for-radajaxloadingpanel.aspx), demonstrates how to do that and provides some useful tips.
 
 ## See Also
 
