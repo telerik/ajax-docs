@@ -51,9 +51,9 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
       </IntroTableSection>
       <IntroTableSection title="Interactivity & UX">
          <IntroTableAnchor title="DragDropManager" href="slug:dragdropmanager/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Persistence Framework" href="slug:persistenceframework/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Progress Area" href="slug:progressarea/overview"></IntroTableAnchor>
          <IntroTableAnchor title="ProgressBar" href="slug:progressbar/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="Persistence Framework" href="slug:persistenceframework/overview"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="Theming">
          <IntroTableAnchor title="Form Decorator" href="slug:formdecorator/overview"></IntroTableAnchor>
@@ -69,8 +69,8 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
    </IntroTableColumn>
    <IntroTableColumn>
       <IntroTableSection title="Conversational UI">
-         <IntroTableAnchor title="Chat" href="slug:chat/overview"></IntroTableAnchor>
          <IntroTableAnchor title="AIPrompt" href="slug:aiprompt/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Chat" href="slug:chat/overview"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="PDF">
          <IntroTableAnchor title="Client Export Manager" href="slug:clientexportmanager/overview"></IntroTableAnchor>
@@ -84,8 +84,8 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="Notification" href="slug:notification/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Page Layout" href="slug:pagelayout/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Splitter" href="slug:splitter/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="ToolTip" href="slug:tooltip/overview"></IntroTableAnchor>
          <IntroTableAnchor title="TileList" href="slug:tilelist/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="ToolTip" href="slug:tooltip/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Window" href="slug:window/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Wizard" href="slug:wizard/overview"></IntroTableAnchor>
       </IntroTableSection>
@@ -97,7 +97,6 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="DropDownList" href="slug:dropdownlist/overview"></IntroTableAnchor>
          <IntroTableAnchor title="DropDownTree" href="slug:dropdowntree/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Editor" href="slug:editor/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="Signature" href="slug:signature/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Image Editor" href="slug:imageeditor/overview"></IntroTableAnchor>
          <IntroTableAnchor title="InputManager" href="slug:radinputmanager/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Label" href="slug:label/overview"></IntroTableAnchor>
@@ -105,16 +104,17 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="MultiColumnComboBox" href="slug:multicolumncombobox/overview"></IntroTableAnchor>
          <IntroTableAnchor title="MultiSelect" href="slug:multiselect/overview"></IntroTableAnchor>
          <IntroTableAnchor title="NumericTextBox" href="slug:numerictextbox/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="OTPInput" href="slug:otpinput/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Signature" href="slug:signature/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Slider" href="slug:slider/overview"></IntroTableAnchor>
          <IntroTableAnchor title="TextBox" href="slug:radtextbox/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="OTPInput" href="slug:otpinput/overview"></IntroTableAnchor>
       </IntroTableSection>
    </IntroTableColumn>
    <IntroTableColumn>
       <IntroTableSection title="Diagrams & Maps">
          <IntroTableAnchor title="Diagram" href="slug:diagram/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="Org Chart" href="slug:orgchart/overview/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Map" href="slug:map/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Org Chart" href="slug:orgchart/overview/overview"></IntroTableAnchor>
          <IntroTableAnchor title="TreeMap" href="slug:treemap/overview"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="Data Visualization">
@@ -126,8 +126,9 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="Ticker" href="slug:rotator/data-binding/binding-radticker"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="Navigation">
-         <IntroTableAnchor title="Button" href="slug:button/teleriks-asp.net-button-overview"></IntroTableAnchor>
+         <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Breadcrumb" href="slug:breadcrumb/overview"></IntroTableAnchor>
+         <IntroTableAnchor title="Button" href="slug:button/teleriks-asp.net-button-overview"></IntroTableAnchor>
          <IntroTableAnchor title="CheckBox" href="slug:checkbox/overview"></IntroTableAnchor>
          <IntroTableAnchor title="CheckBoxList" href="slug:checkboxlist/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Chip" href="slug:chip/overview"></IntroTableAnchor>
@@ -152,7 +153,6 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="ToggleButton" href="slug:togglebutton/overview"></IntroTableAnchor>
          <IntroTableAnchor title="ToolBar" href="slug:toolbar/overview"></IntroTableAnchor>
          <IntroTableAnchor title="TreeView" href="slug:treeview/overview"></IntroTableAnchor>
-         <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton/overview"></IntroTableAnchor>
       </IntroTableSection>
    </IntroTableColumn>
    <IntroTableColumn>
