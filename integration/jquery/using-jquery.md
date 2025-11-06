@@ -66,27 +66,31 @@ You can disable the jQuery scripts our controls bring by default via the followi
 
 1. Load the custom version of jQuery you want to use. At this point you have the jQuery embedded in the Telerik controls and the custom one that is loaded via the following code. Proceed to the next step if you want to replace the embedded version with the custom one.
 
-	**ASP.NET**
-
+	````ASPX
 		<head>
-		    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		    ...
+			<script 
+				src="https://code.jquery.com/jquery-3.7.1.min.js"
+				integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+				crossorigin="anonymous"></script>
 		</head>
-
+	````
 
 1. Disable the embedded jQuery library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
 
 1. Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
 
-	**ASP.NET**
-
-		<telerik:RadScriptManager runat="server" ID="RadScriptManager2" EnableEmbeddedjQuery="false">
+	````ASPX
+		<telerik:RadScriptManager runat="server" ID="RadScriptManager1" EnableEmbeddedjQuery="false">
 		    <Scripts>
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
 		    </Scripts>
 		</telerik:RadScriptManager>
+	````
+
+You can find a demonstration in the following video: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krq1zMFIezA?si=p9xGj92efVweL2TW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 >important The Telerik controls depend on the specific version of jQuery they are tested against (above you can check the version that is used in each release of UI for ASP.NET AJAX). It is possible that using an older version of jQuery or a version, greater than the latestone from the [jQuery Version History in Telerik UI Controls](#jquery-version-history-in-telerik-ui-controls) section, will break the controls.
@@ -104,16 +108,17 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 
 *  Using a global variable
 
-	**JavaScript**
+	````JavaScript
 
 		<script type="text/javascript">
 		    window.$ = $telerik.$;
 		</script>
+	````
 
 
 * Using a self-calling anonymous function (**Example 1**):
 
-	**JavaScript**
+	````JavaScript
 
 		<script type="text/javascript">
 			(function ($) {
@@ -123,22 +128,23 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 		   );
 			})($telerik.$);
 		</script>
+    ````
 
 
 * Using the **$telerik.$** alias:
 
-	**JavaScript**
+	````JavaScript
 
 		<script type="text/javascript">
 			$telerik.$(document).ready(function () {
 				alert("Document is ready");
 			});
 		</script>
-
+	````
 
 * Include a script reference to the **Telerik.Web.UI.Common.jQueryInclude.js**:
 
-	**ASP.NET**
+	````ASPX
 
 		<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 		   <Scripts>
@@ -146,7 +152,7 @@ Fortunately there are easy ways to enable back the **$ alias.** Choose one of th
 		          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
 		   </Scripts>
 		</telerik:RadScriptManager>
-
+	````
 
 
 
