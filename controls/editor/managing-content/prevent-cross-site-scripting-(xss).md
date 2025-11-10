@@ -77,7 +77,7 @@ And in HTML will be decoded, so that user can continue working on it.
 
 This filter is intended only to encode and decode scripts, so JavaScript code will not be executed while edited in the **RadEditor**. Also, the submitted content will be decoded on the server (i.e., the server-side **RadEditor.Content** property will return content with fully functional script logic).
 
->note Both the **RemoveScripts** and **EncodeScripts** filters are enabled by default. If the **RemoveScripts** filter is enabled, the **EncodeScripts** filter will have no effect since scripts are already removed. If you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter using the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method. The **EncodeScripts** filter will then handle the script encoding.
+>note Both the **RemoveScripts** and **EncodeScripts** filters are enabled by default. If the **RemoveScripts** filter is enabled, the **EncodeScripts** filter will have no effect since scripts are already removed. If you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter using the server-side `RadEditor1.DisableFilter(EditorFilters.RemoveScripts);` method. The **EncodeScripts** filter will then handle the script encoding.
 
 >tip You may want to sanitize the content users upload through the [Template Manager dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%}).
 
@@ -139,7 +139,7 @@ Will be changed to this one:
 
 Dangerous JavaScript-based URI schemes can be exploited for XSS attacks by injecting malicious code through HTML attributes that accept URLs (e.g., href, src, action). Common attack vectors include `javascript:`, `data:`, and `vbscript:` URI schemes.
 
-The **StripJavaScriptUris** filter is a security-focused content filter designed to prevent such attacks by removing these dangerous URI schemes from HTML attributes. For example, this content:
+Since the **2025 Q4** release, the **StripJavaScriptUris** filter is a security-focused content filter designed to prevent such attacks by removing these dangerous URI schemes from HTML attributes. For example, this content:
 
 ````HTML
 <a href="javascript:alert('XSS')">Click me</a>
