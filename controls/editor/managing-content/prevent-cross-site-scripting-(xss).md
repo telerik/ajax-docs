@@ -30,9 +30,10 @@ The built-in **RadEditor** features to prevent harmful content are:
 * [RemoveScripts and EncodeScripts filters](#removescripts-and-encodescripts)—**RadEditor** strips and/or encodes the script elements in order to prevent script loading/execution;
 * [CSS expression stripping](#css-expressions)—**RadEditor** sanitizes the content from possible script injections via CSS;
 * [Removing attribute DOM events](#attribute-dom-events)—**RadEditor** removes the DOM attributes that expose an option to add inline JavaScript code (e.g., onclick, onmouseover);
+* [Removing JavaScript URIs](#javascript-uris)—**RadEditor** removes dangerous JavaScript-based URI schemes from HTML attributes (e.g., javascript:, data:, vbscript:);
 * [Custom content filters](#custom-content-filters)—**RadEditor** lets you implement your own logic to strip or encode specific tags or expressions.
 
->caution The **StripDomEventAttributes** filter and the **EncodeScripts** filter are **not** enabled by default. See below for details.
+>note All security-focused filters (**RemoveScripts**, **EncodeScripts**, **StripCssExpressions**, **StripDomEventAttributes**, and **StripJavaScriptUris**) are enabled by default to provide comprehensive XSS protection. The **StripDomEventAttributes** filter was enabled by default starting with the **2025 Q4** release.
 
 ## RemoveScripts and EncodeScripts
 
@@ -76,7 +77,7 @@ And in HTML will be decoded, so that user can continue working on it.
 
 This filter is intended only to encode and decode scripts, so JavaScript code will not be executed while edited in the **RadEditor**. Also, the submitted content will be decoded on the server (i.e., the server-side **RadEditor.Content** property will return content with fully functional script logic).
 
->note If the **RemoveScripts** filter is enabled (its default state), the **EncodeScripts** one will be of no value, so it is **not** enabled by default. Therefore, if you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter. For that you can use the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
+>note Both the **RemoveScripts** and **EncodeScripts** filters are enabled by default. If the **RemoveScripts** filter is enabled, the **EncodeScripts** filter will have no effect since scripts are already removed. If you need to let users edit JavaScript in the **RadEditor**, you should disable the **RemoveScripts** filter using the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method. The **EncodeScripts** filter will then handle the script encoding.
 
 >tip You may want to sanitize the content users upload through the [Template Manager dialog]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%}).
 
@@ -132,7 +133,31 @@ Will be changed to this one:
 
 **StripDomEventAttributes**, just like the **StripCssExpressions** and **RemoveScripts** filters, runs both on the client and on the server side to protect from possible execution of an already injected malicious code. Disabling it will prevent all such attributes from being removed.
 
->caution The **StripDomEventAttributes** filter is **not** enabled by default. This is so, because it removes content and, in doing so, may break templates or other logic required by the application.
+>note The **StripDomEventAttributes** filter is enabled by default starting with the **2025 Q4** release to provide enhanced XSS protection. If you need to preserve DOM event attributes for specific use cases (e.g., templates or custom logic), you can disable this filter using the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
+
+## JavaScript URIs
+
+Dangerous JavaScript-based URI schemes can be exploited for XSS attacks by injecting malicious code through HTML attributes that accept URLs (e.g., href, src, action). Common attack vectors include `javascript:`, `data:`, and `vbscript:` URI schemes.
+
+The **StripJavaScriptUris** filter is a security-focused content filter designed to prevent such attacks by removing these dangerous URI schemes from HTML attributes. For example, this content:
+
+````HTML
+<a href="javascript:alert('XSS')">Click me</a>
+<img src="data:text/html,<script>alert('XSS')</script>">
+<a href="vbscript:msgbox('XSS')">VBScript link</a>
+````
+
+Will be sanitized to:
+
+````HTML
+<a>Click me</a>
+<img alt="" />
+<a>VBScript link</a>
+````
+
+The **StripJavaScriptUris** filter, like other security filters, runs both on the client and on the server side to protect from possible execution of already injected malicious code. This filter is enabled by default to provide comprehensive XSS protection.
+
+>warning Disabling the **StripJavaScriptUris** filter can expose your application to XSS attacks. Only disable this filter if you fully trust the content source and have implemented alternative security measures.
 
 ## Custom Content Filters
 
