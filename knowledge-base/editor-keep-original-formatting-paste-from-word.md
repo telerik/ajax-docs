@@ -33,7 +33,7 @@ What we can do to verify if this is a browser behavior or RadEditor StripFormatt
 
 **Test 1** (with a simple editable iframe/div element - which are similar to the content area of RadEditor):
 
-1. Go to http://dojo.telerik.com/@nlazarov/IFIPAR demo page and press the Run button
+1. Go to https://dojo.telerik.com/UlaCozIk demo page and press the Run button
 2. This will load an editable iframe and an editable div element in the right part of the page
 3. Paste the copied Word content (table) in the editable iframe and/or div and see whether the table looks identical as in Word
    * If the table looks identical then this mean that the browser clipboard provided the whole table information as tags, styles and they are OK. this means that it is probably a RadEditor fault or configuration issue.
