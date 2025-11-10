@@ -12,36 +12,49 @@ position: 3
 
 This articles provides information about the built-in content filters of **RadEditor** and shows how you can implement a custom filter.
 
-Filters in Telerik Editor for ASP.NET AJAX are small code snippets, which are called in a sequence to process the editor content when the modes(**HTML**, **Design** and **Preview**) are switched or when the page is submitted.
+Filters in **RadEditor** are small code snippets, which are called in a sequence to process the editor content, when the mode (**HTML**, **Design** and **Preview**) is switched or when the page is submitted. This example demonstrates the editor's built-in content filters for comprehensive content processing while maintaining security.
 
-The built-in filters are exposed by the **EditorFilters** enumeration. They are listed in the following table, along with their description:
+## Built-in Content Filters
 
->caption Built-in Content Filters
+The built-in filters are exposed by the **EditorFilters** enumeration and are categorized by their functionality and default state:
 
-| Member | Description |
-| ------ | ------ |
-|None|No filters|
-|RemoveScripts|This filter deletes the script tags to reduce the possibility of cross-site scripting and other script-related problems. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article.|
-|EncodeScripts|This filter encodes all script tags from the content. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article.|
-|StripCssExpressions|This filter strips CSS expressions to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article.|
-|StripDomEventAttributes|This filter removes attribute DOM events from the HTML elements to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article.|
-|MakeUrlsAbsolute|This filter makes all src and href attributes in the editor content have absolute URLs.|
-|FixUlBoldItalic|This filter remove deprecated U tags and replace them with CSS - XHTML.|
-|FixEnclosingP|This filter removes a paragraph if the whole content is inside it.|
-|IECleanAnchors|This filter removes the current page href from all anchor (#) links|
-|MozEmStrong|This filter changes b,strong and i,em in Mozilla browsers|
-|ConvertTags|This filter changes `<b>`, `<i>` and `<strike>` tags successively to `<strong>`, `<em>` and `<del>`.|
-|ConvertFontToSpan|This filter changes deprecated font tags to compliant span tags|
-|OptimizeSpans|This filter changes/removes unneeded span elements|
-|ConvertToXhtml|This filter converts the HTML from the editor content area to valid XHTML|
-|IndentHTMLContent|This filter indents the HTML content so it is more readable when you view the code|
-|ConvertCharactersToEntities|This filter converts reserved characters to their html entity names.|
-|ConvertInlineStylesToAttributes|This filter converts XHTML compliant inline style attributes to Email compliant element attributes.|
-|PdfExportFilter|This filter fixes some pdf export issues.|
-|RemoveExtraBreaks|This filter strips all extra brakes inside some tags like p, h1, etc.|
-|DefaultFilters|This filter enables all default filters (**RemoveScripts**, **FixUlBoldItalic**, **IECleanAnchors**, **MozEmStrong**, **ConvertFontToSpan**, **ConvertToXhtml**, **IndentHTMLContent**, **EncodeScripts**, **OptimizeSpans**, **ConvertCharactersToEntities**, **ConvertTags**, **StripCssExpressions**, **RemoveExtraBreaks**).|
+>caption Complete List of Content Filters with Categories and Default States
 
-**ContentFilters**
+| Filter Name | Description | Default State | Category |
+| ------ | ------ | ------ | ------ |
+| None | No filters | N/A | Configuration |
+| RemoveScripts | Removes script tags from the editor content to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article. | Enabled | Security |
+| EncodeScripts | Encodes all script tags from the content. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article. | Enabled | Security |
+| StripCssExpressions | Strips CSS expressions to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article. | Enabled | Security |
+| StripDomEventAttributes | Removes DOM event attributes from the HTML elements to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article. | Enabled | Security |
+| StripJavaScriptUris | Removes dangerous JavaScript-based URI schemes from HTML attributes to reduce the possibility of cross-site scripting. You can examine more details about this filter in the [Preventing Cross-site Scripting (XSS)]({%slug editor/managing-content/prevent-cross-site-scripting-(xss)%}) article. | Enabled | Security |
+| MakeUrlsAbsolute | Makes all URLs absolute (e.g., "https://server/page.html") | Disabled | URL Processing |
+| FixUlBoldItalic | Changes deprecated `<u>` tag to span with CSS style | Enabled | HTML Cleanup |
+| IECleanAnchors | IE only - removes current page URL from anchor links | Enabled | Browser-Specific |
+| FixEnclosingP | Removes parent `<p>` tag if all content is inside it | Disabled | Browser-Specific |
+| MozEmStrong | Changes `<b>` to `<strong>` and `<i>` to `<em>` in Mozilla - Obsolete since 2013 Q3 | Enabled | Browser-Specific |
+| ConvertTags | Changes `<b>`, `<i>`, `<strike>` to `<strong>`, `<em>`, `<del>` | Enabled | HTML Formatting |
+| ConvertFontToSpan | Changes deprecated `<font>` tags to compliant `<span>` tags | Enabled | HTML Formatting |
+| OptimizeSpans | Removes unneeded span elements | Enabled | HTML Cleanup |
+| ConvertToXhtml | Converts HTML to XHTML | Enabled | HTML Formatting |
+| IndentHTMLContent | Indents HTML content for readability | Enabled | HTML Formatting |
+| ConvertCharactersToEntities | Converts reserved characters to HTML entity names | Enabled | HTML Formatting |
+| PdfExportFilter | Fixes some PDF export issues | Disabled | Export |
+| ConvertInlineStylesToAttributes | Converts XHTML inline styles to email-compliant attributes | Disabled | Email |
+| RemoveExtraBreaks | Strips all extra breaks inside tags like `<p>`, `<h1>`, etc. | Enabled | HTML Cleanup |
+| DefaultFilters | Preset combination of 15 recommended filters | Preset | Configuration |
+
+>note All security-focused filters (**RemoveScripts**, **EncodeScripts**, **StripCssExpressions**, **StripDomEventAttributes**, and **StripJavaScriptUris**) are enabled by default to provide comprehensive XSS protection. The **StripDomEventAttributes** and **StripJavaScriptUris** filters were enabled by default starting with the **2025 Q4** release.
+
+>warning Disabling security filters (RemoveScripts, EncodeScripts, StripDomEventAttributes, StripJavaScriptUris, StripCssExpressions) can expose your application to XSS attacks. Only disable these filters if you fully trust the content source.
+
+**Filters included in DefaultFilters:**
+RemoveScripts, EncodeScripts, StripCssExpressions, StripDomEventAttributes, StripJavaScriptUris, FixUlBoldItalic, IECleanAnchors, MozEmStrong, ConvertTags, ConvertFontToSpan, OptimizeSpans, ConvertToXhtml, IndentHTMLContent, ConvertCharactersToEntities, RemoveExtraBreaks
+
+**Filters NOT included in DefaultFilters:**
+MakeUrlsAbsolute, FixEnclosingP, PdfExportFilter, ConvertInlineStylesToAttributes
+
+## How to enable or disable the ContentFilters
 
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ContentFilters="MakeUrlsAbsolute,FixEnclosingP" runat="server" />
@@ -55,8 +68,6 @@ RadEditor1.ContentFilters = Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute Or Tel
 ````
 
 You can enable and disable filters individually using server-side code:
-
-
 
 ````C#
 RadEditor1.EnableFilter(Telerik.Web.UI.EditorFilters.FixEnclosingP); RadEditor1.DisableFilter(Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute);
