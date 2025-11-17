@@ -18,11 +18,13 @@ The extensions handle the following major points in the development with Telerik
 
 * [Project creation, conversion and configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) - aid with the project configuration which handles reference management, web.config modifications and management of additional resources (scripts, skins …).
 
-* [Project upgrade]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) - upgrading Telerik® UI for ASP.NET AJAX to a new version.
+* [Project upgrade]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) - upgrading Telerik® UI for ASP.NET AJAX to a new version with license validation.
 
 * [Common scenario page creation]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard%}) - aid creating pages with the most common scenarios in the usage of Telerik® UI for ASP.NET AJAX.
 
 * [Toolbox configuration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration%}) - select what version of Telerik UI to be populated in the Toolbox.
+
+>note Starting with **2025 Q1**, Telerik UI for ASP.NET AJAX requires license activation. The Visual Studio Extensions validate your license during project upgrade and creation. For more information, see [Setting Up Your License Key]({%slug licensing/license-key%}).
 
 Visual Studio Extensions for Telerik® UI for ASP.NET AJAX are distributed with the Telerik® UI for ASP.NET AJAX installer. They can be downloaded and installed as separate product from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikASPNETAJAXVSExtensions) only for Visual Studio 2012 and later. The extensions support Visual Studio 2019 and 2022 handling .NET 4.6.2 - 4.8.1 projects.
 

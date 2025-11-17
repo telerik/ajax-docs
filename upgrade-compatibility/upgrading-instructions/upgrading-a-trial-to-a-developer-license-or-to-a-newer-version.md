@@ -50,6 +50,8 @@ The automatic upgrade is possible if you use the UI for ASP.NET AJAX Visual Stud
 
 1. Use the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) to upgrade the control in your project.
 
+>tip Starting with **2025 Q1**, the Upgrade Wizard includes built-in license validation. If your license key file is not found, the wizard will display an indicator and provide options to download and install it automatically. For Web Site projects, the wizard can also automatically add the required Script Key to your `App_Code` folder. See the [Upgrade Wizard documentation]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}#license-validation) for more details.
+
 >tip The Upgrade Wizard does not modify the `<bindingRedirect>` sections in the web.config file or the entries in the `licenses.licx` file. If you encounter errors such as "Could not load file or assembly 'Telerik.Web.UI'" after an upgrade, check that the web.config includes binding redirects for old assembly versions. Additionally, ensure the `licenses.licx` file does not contain outdated entries; deleting the file contents, saving it and rebuilding the solution can regenerate it with the correct references.
 
 >warning As of 2025 Q1 the `licenses.licx` file is removed and replaced with the new licensing mechanism. 
