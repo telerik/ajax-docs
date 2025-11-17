@@ -81,12 +81,39 @@ Web Applications projects that do not use NuGet and Web Site projects require an
 > - Web Applications without NuGet embed the license via an assembly attribute (e.g., in `AssemblyInfo.cs` or `TelerikLicense.cs`).
 > - Web Site projects cannot embed attributes into a compiled assembly, so the license file must remain in `App_Code` on the server.
 
+## Using the Visual Studio Extensions Upgrade Wizard
+
+The [Telerik Visual Studio Extensions Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) provides automated assistance for license activation when upgrading your projects to the latest version of Telerik UI for ASP.NET AJAX.
+
+### License Key File Assistance (All Project Types)
+
+When you run the Upgrade Wizard, it automatically checks for the `telerik-license.txt` file. If the file is not found:
+
+* An indicator appears in the top-right corner of the wizard
+* You can click **Download License Key File** to download it directly from your Telerik account
+* You can click **Open License Key Location** to navigate to the folder where the file should be placed
+
+The wizard checks for the license file in:
+* Your user profile directory: `%AppData%\Roaming\Telerik\telerik-license.txt`
+* The project or solution root folder
+
+### Script Key Assistance (Web Site Projects Only)
+
+For **Web Site projects**, the Upgrade Wizard also validates the Script Key in the `App_Code` folder:
+
+* If the Script Key is missing, the wizard displays a **Script Key Required** warning
+* Click the **Add Script Key** button to automatically download your Script Key
+* The wizard will create a `TelerikLicense.cs` (or `.vb`) file in your `App_Code` directory on the final step before completing the upgrade
+
+This automated approach simplifies the licensing process and ensures your project is properly licensed after the upgrade.
+
 
 ## See Also
 
 * [License Activation Errors and Warnings]({%slug licensing/license-errors-warnings%})
 * [Adding the License Key to CI Services]({%slug licensing/add-license-to-ci-cd%})
 * [Frequently Asked Questions about Your Telerik UI for ASP.NET AJAX License Key]({%slug licensing/licensing-faq%})
+* [Telerik VSX Extensions Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%})
 * [ASP.NET Web Forms Web Site vs Web Application in Visual Studio - Key Differences Explained](https://www.youtube.com/watch?v=9gI6t57cDAc)
 * [Fix Telerik UI for ASP.NET AJAX License Error Banner & Watermarks (the NuGet approach)](https://www.youtube.com/watch?v=6qvHlqdgEg0)
 * [Fix Telerik UI License Error in ASP.NET Web Forms site via EvidenceAttribute (App_Code & Precompile)](https://www.youtube.com/watch?v=UFPV-gFozPE)
