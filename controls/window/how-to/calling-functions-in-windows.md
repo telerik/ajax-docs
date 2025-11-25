@@ -68,21 +68,15 @@ function CallFnOnParent() {
 
 **Example 3**: Call a function in a RadWindow from another RadWindow
 
-````
-// CallFn illustrates how to call a function in one RadWindow
-// from another.
+````JavaScript
+// CallFn illustrates how to call a function in one RadWindow from another.
 function CallFn() {
-	// Get a reference to the RadWindow (see Example 2 for the GetRadWindow function)
-	var oWnd = GetRadWindow();
-	// get a reference to the second RadWindow       
-	var dialogB = oWnd.get_windowManager().getWindowByName("RadWindow1");
-	// by using get_contentFrame, call the predefined function
-	dialogB.get_contentFrame().contentWindow.CalledFn();
+    let oWnd = GetRadWindow(); // Get a reference to the RadWindow (see Example 2 for the GetRadWindow function)
+    let dialogB = oWnd.get_windowManager().getWindowByName("RadWindow1"); // get a reference to the second RadWindow    
+
+    dialogB.get_contentFrame().contentWindow.CalledFn(); // by using get_contentFrame, call the predefined function
 }             
 ````
 
 The approach from the first code snippet can be used in a similar way to pass data to the functions you call. Getting a reference to the sibling RadWindow may vary with the scenario (e.g. $find() can be used, a reference can be previously stored in a global variable, etc.).
 
-## See Also
-
- * [Creating Parent-child Relationships Between RadWindows](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)

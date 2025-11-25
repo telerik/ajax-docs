@@ -291,8 +291,4 @@ End Sub
 ````
 
 
-You can also review the forthcoming code library thread for different scenarios:
-
-[Manual Update/Insert/Delete with FormTemplate and SQL backend](https://www.telerik.com/support/code-library/manual-insert-update-delete-using-formtemplate-and-sql-backend)
-
 

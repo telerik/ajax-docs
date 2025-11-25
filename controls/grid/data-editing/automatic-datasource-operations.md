@@ -118,7 +118,7 @@ You may also examine the resources below:
 
 [Automatic operations with SqlDataSource control in hierarchical grid](https://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/insert-update-delete-hierarchy/defaultcs.aspx)
 
-[Insert/Update/Delete with stored procedures and SqlDataSource control](https://www.telerik.com/community/code-library/submission/b311D-tgcgc.aspx)
+[Insert/Update/Delete with stored procedures and SqlDataSource control]({%slug grid-update-insert-delete-with-stored-procedures-and-sqldatasources%})
 
 >note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
 >

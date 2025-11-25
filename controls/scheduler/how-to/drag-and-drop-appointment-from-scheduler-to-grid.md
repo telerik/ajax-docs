@@ -10,11 +10,4 @@ position: 12
 
 # Drag and Drop Appointment from Scheduler to Grid
 
-
-
-## 
-
-The following code library example demonstrates how you can drag **RadScheduler** Appointments and drop them onto **RadGrid** creating new records:
-
-[Drag and Drop Appointment from Scheduler to Grid](https://www.telerik.com/support/code-library/drag-and-drop-appointment-from-scheduler-to-grid)
-
+The following code library example demonstrates how you can drag **RadScheduler** Appointments and drop them onto **RadGrid** creating new records. 

@@ -173,9 +173,6 @@ function SetEditorValue(sender, args)
 }
 ````
 
->tip You can find a more complex example in the following code library project: [Show one value but edit another](https://www.telerik.com/support/code-library/show-short-date-edit-full-date-with-batch-editing).
-
-
 ## See Also
 
 * [Custom CommandItemTemplate for Batch Edit Mode]({%slug grid/data-editing/commanditem/command-item-template%}#custom-commanditemtemplate-for-batch-edit-mode)

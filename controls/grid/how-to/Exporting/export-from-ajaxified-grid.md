@@ -84,7 +84,7 @@ protected void Button1_Click(object sender, System.EventArgs e)
         }      
 ````
 
-Another approach to bypass this limitation is to wire the *OnRequestStart* event of the ajax panel or ajax manager, determine whether the target control is ajaxified and explicitly disable its ajax mode to export with regular postback. The demo from [this code library project](https://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled) presents how to export the grid content to *Excel*/*Word* when:
+Another approach to bypass this limitation is to wire the *OnRequestStart* event of the ajax panel or ajax manager, determine whether the target control is ajaxified and explicitly disable its ajax mode to export with regular postback.
 
 * *RadGrid* resides inside *RadAjaxPanel*
 

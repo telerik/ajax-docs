@@ -38,18 +38,6 @@ The above user controls can be found in the folder of your local installation of
 
 For an online demo, please see the [Advanced Templates](https://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx) example.
 
-You can also download a [code library sample](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) of customizing the advanced form with RadScheduler popultated with various data sources:
-
-* CustomDbProvider
-
-* ObjectDataSource
-
-* SqlDataSource
-
-* WebServiceBinding
-
-* XmlSchedulerProvider
-
 ## How to use the advanced user controls in Server Side binding mode
 
 
@@ -439,8 +427,6 @@ In addition you can find a full sample project for "Default Advanced Form Templa
 1. Press **Ctrl+F5** and run the application.
 
 # See Also
-
- * [Code library project of the Customizing the Advanced Template with RadScheduler populated with various data sources.](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx)
 
  * [Sample project of the Customizing the Advanced Template example](https://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx)
 

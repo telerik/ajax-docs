@@ -15,11 +15,6 @@ There are various scenarios where it is required to access the Template controls
 ## Solution
 
 RadListView and RadDataForm are very similar controls. While the DataForm is a control suitable for visualizing one record at a time, the ListView can display and access multiple items simultaneously.  
-  
-
-You can check the following Web Site sample for various ways of accessing template controls in both controls:  
-[Accessing Controls in DataForm](https://www.telerik.com/support/code-library/accessing-controls-in-dataform)  
-  
 
 Just instead of *RadDataFormDataItem* type, you can use the corresponding *RadListViewDataItem* class.  
 

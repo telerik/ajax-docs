@@ -273,8 +273,6 @@ Protected Sub CustomValidatorShipName_ServerValidate(source As Object, args As S
 End Sub
 ````
 
-You can find a runnable web site sample in the [Add Custom Validator Explicitly for RadGrid Editing ](https://www.telerik.com/support/code-library/add-custom-validator-explicitly-for-radgrid-editing) Code-Library.
-
 ## Adding a validator to EditItemTemplate of GridTemplateColumn
 
 The approach is the same as with the standard MS DataGrid control. You can place the respective validator in the **EditItemTemplate** of your **GridTemplateColumn** and relate its **ControlToValidate** property with the ID of the control you would like to validate. In the forthcoming sample the **RequiredFieldValidator** control will validate the **TextBox** control inside the **EditItemTemplate**:
