@@ -116,8 +116,7 @@ That way you can introduce the Font Awesome icons using predefined class names, 
 
 *Note: This approach is not applicable for buttons out of the column*
 
-1. Declare a RadButton with the respective command name ("Delete", "Edit") inside a Template column.
-2. Follow the instructions for using FontAwesome with RadButton from the [Using Font Awesome Icons with RadButton](https://www.telerik.com/support/code-library/using-font-awesome-icons-with-radbutton) Code-library sample.
+For that, declare a RadButton with the respective command name ("Delete", "Edit") inside a Template column.
 
 **Sample declaration**
 

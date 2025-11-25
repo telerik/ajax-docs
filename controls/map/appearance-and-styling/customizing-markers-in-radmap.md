@@ -258,7 +258,5 @@ After changing the height of the span element rendered by the **Marker**, in ord
 
  * [Visualize the FIFA World Cup Finalists and Winners in a RadMap Control](https://blogs.telerik.com/aspnet-ajax/posts/14-08-28/visualize-the-fifa-world-cup-finalists-and-winners-in-a-radmap-control)
 
- * [Custom Markers with Server-side Data Binding](https://www.telerik.com/support/code-library/custom-markers-with-server-side-data-binding) code-library project
- 
  * [Customizing Markers and Tooltips in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%})
 

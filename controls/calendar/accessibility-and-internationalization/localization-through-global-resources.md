@@ -24,13 +24,13 @@ The resource files should be placed within the **App_GlobalResources** folder in
 
 To change the current language/resource you should set the Culture property accordingly.
 
->caution  
+>caution
 **RadCalendar's** default Culture is taken from the page's **CurrentUICulture** .
 >
 
 
-````ASPNET
-<telerik:RadCalendar RenderMode="Lightweight"  ID="RadCalendar1" runat="server" Culture="en-US" ... </telerik:RadCalendar>
+````ASP.NET
+<telerik:RadCalendar RenderMode="Lightweight"  ID="RadCalendar1" runat="server" Culture="en-US" />
 ````
 
 
@@ -68,7 +68,7 @@ Please **do not** modify/remove the **ReservedResource** key.
 >
 
 >note 
-We encourage you to submit your localized resource files to the[Localization code library section](https://www.telerik.com/community/code-library/aspnet-ajax/localization.aspx)
+We encourage you to submit your localized resource files to the [Localization knowledge base article.]({%slug localization%})
 >
 
 

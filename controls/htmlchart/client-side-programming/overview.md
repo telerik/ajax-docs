@@ -21,7 +21,7 @@ This help article lists the [ASP.NET AJAX Chart's](https://www.telerik.com/produ
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **getSVGString** |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios](https://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx).|
+| **getSVGString** |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios]({%slug htmlchart-exporting-to-png-and-pdf%}).|
 | **loadData** |Invokes a light callback to the server to obtain the **RadHtmlChart** data. This is used when the server-side **InvokeLoadData** property is set to **FromCode** . In this case, the data is not sent to the client at all until this method is called.|
 | **repaint** |Redraws the chart. Useful when the chart is in an invisible container that is shown on a certain condition, when a client-side databinding is performed or to replay the initial animation.|
 | **get_dataSourceJSON** |Gets a stringified JSON object with the data source of a databound **RadHtmlChart** . **Tip:** You can parse this to a JSON object through a jQuery parseJSON method in order to manipulate it as an array.|

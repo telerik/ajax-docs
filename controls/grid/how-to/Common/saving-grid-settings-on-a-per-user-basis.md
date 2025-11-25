@@ -964,4 +964,4 @@ End Class
 ````
 
 
-You can extend the logic and store the user preferences via **Profile** object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](https://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).
+You can extend the logic and store the user preferences via **Profile** object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well.

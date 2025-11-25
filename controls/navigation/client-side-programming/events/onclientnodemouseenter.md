@@ -72,5 +72,4 @@ The client-side **OnClientNodeMouseEnter** event handler receives two arguments:
 
 * [Demo: Navigation - Expand On Hover](https://demos.telerik.com/aspnet-ajax/navigation/functionality/expand-on-hover/defaultcs.aspx)
 
-* [Expand and collapse delay on hover in RadNavigation](https://www.telerik.com/support/code-library/expand-and-collapse-delay-on-hover-in-radnavigation) Code Library project
 

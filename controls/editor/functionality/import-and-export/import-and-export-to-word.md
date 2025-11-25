@@ -36,7 +36,6 @@ If you are looking for a way to extend the built-in export/import functionality 
 * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})—explains how to use the **OnExportContent** event to dynamically add header and footer elements (**Example 2**).
 * [Event: OnImportContent]({%slug editor/server-side-programming/events/onimportcontent%})—explains how to use the **OnImportContent** event to add additional content programmatically to the **RadFlowDocument** (**Example 2**).
 * [How to Enhance the RTF Export of RadEditor for ASP.NET AJAX](https://www.telerik.com/blogs/how-to-enhance-the-rtf-export-of-radeditor-for-asp.net-ajax)—blog post that explains how to use an external, third-party library to extend the built-in export to RTF functionality. The same approach can be used to modify the DOCX exporting functionality.
-* [Import and Export to DOCX by using the Telerik document processing libraries](https://www.telerik.com/community/code-library/import-and-export-to-docx-by-using-the-telerik-document-processing-library)—a Code Library entry that shows how to build a new export template class and integrate it with the **RadEditor** control. You can use this approach to integrate older versions of the **Telerik® UI for ASP.NET AJAX** with the Telerik document processing libraries.
 
 ## See Also
 

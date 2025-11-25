@@ -149,7 +149,6 @@ Once you know how to get a reference to the control, you can utilize its full po
 * [Pass data to the dialog page code-behind]({%slug window/how-to/use-querystring-to-provide-arguments-to-radwindow%})
 * [Call functions between the main page and the content page to pass data and invoke some logic]({%slug window/how-to/calling-functions-in-windows%})
 * [Open one RadWindow from another RadWindow]({%slug window/how-to/opening-a-radwindow-from-within-a-radwindow%})
-* [Create parent-child relationships between several RadWindows](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)
 
 You may also find useful the [Common Issues]({%slug window/troubleshooting/common-issues%}) help article.
 

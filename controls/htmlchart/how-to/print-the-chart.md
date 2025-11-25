@@ -111,4 +111,4 @@ Printing anything from a web page ultimately relies on the browser printing engi
 
  * [KB Printing RadHtmlChart Article with a Downloadable Sample](https://www.telerik.com/support/kb/aspnet-ajax/html-chart/printing-radhtmlchart.aspx)
 
- * [Exporting RadHtmlChart to PNG and PDF](https://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx)
+ * [Exporting RadHtmlChart to PNG and PDF]({%slug htmlchart-exporting-to-png-and-pdf%})

@@ -125,4 +125,3 @@ position: 1
 
  * [Scheduler - iCalendar Export demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/export/defaultcs.aspx)
 
- * [Code Library Project: Import ICalendar Data](https://www.telerik.com/support/code-library/import-icalendar-data)

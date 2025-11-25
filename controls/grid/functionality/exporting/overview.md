@@ -433,13 +433,12 @@ More details on manually canceling the Asynchronous PostBack can be found in fol
 
 - [Export from ajaxified grid]({%slug grid/how-to/exporting/what-you-should-have-in-mind/export-from-ajaxified-grid%})
 - [Exclude controls from ajaxifying]({%slug ajaxmanager/how-to/exclude-controls-from-ajaxifying%})
-- [Export RadGrid content to Excel/Word/CSV/PDF with Ajax enabled](https://www.telerik.com/community/code-library/aspnet-ajax/general/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled.aspx)
 
 ### Exporting Multiple RadGrids into a single Document
 
 As this functionality is not included out of the box, additional implementation is required.
 
-The following code-library project demonstrates how to export multiple RadGrids into a single **PDF**/**HTML-Based (xls) Excel** document: [Export multiple RadGrids in single PDF/Excel file](https://www.telerik.com/support/code-library/export-multiple-radgrids-in-single-pdf-excel-file)
+The [Export multiple Grids in single PDF/Excel file]({%slug grid-export-multiple-grids-in-single-pdf-excel-file%}) article demonstrates how to export multiple RadGrids into a single **PDF**/**HTML-Based (xls) Excel** document.
 
 ### IgnorePaging for DetailTables
 

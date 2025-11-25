@@ -27,5 +27,5 @@ To deselect all items, you can call the **ClearSelectedItems()** method of theRa
 >note Note that, if you want to traverse the RadTreeList items in a foreach loop and change their selected state in the loop while recursive selection is enabled, you need to rebind the RadTreeList first.
 >
 
->note When recursive selection is enabled (`AllowRecursiveSelection="true"`), [client selection]({%slug treelist/functionality/selecting/client-side-selection%}) is disabled and selection is done on the server with a .Rebind(). This can result in loss of user input because of the rebind operation, so you may want to implement the recursive selection on the client as shown in the following code library sample [Recursive selection on the client when paging is disabled](https://www.telerik.com/support/code-library/recursive-selection-on-the-client-when-paging-is-disabled).
+>note When recursive selection is enabled (`AllowRecursiveSelection="true"`), [client selection]({%slug treelist/functionality/selecting/client-side-selection%}) is disabled and selection is done on the server with a .Rebind(). This can result in loss of user input because of the rebind operation, so you may want to implement the recursive selection on the client.
 

@@ -463,7 +463,7 @@ A: Depending on your scenario, you can choose one or more suggestions from the f
 
 Q: I want to export multiple *RadGrids* / I want to export nested *RadGrids*
 
-A: Have a look at the following code-library project: [Export multiple RadGrids]( https://www.telerik.com/community/code-library/aspnet-ajax/grid/export-multiple-radgrids-in-single-pdf-excel-file.aspx )
+A: Have a look at the [Export multiple Grids in single PDF/Excel file]({%slug grid-export-multiple-grids-in-single-pdf-excel-file%}) article.
 
 Q: The *PDF* file appears blank on my *Mac*
 

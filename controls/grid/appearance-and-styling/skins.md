@@ -79,7 +79,7 @@ You can customize the appearance of the **RadGrid** control by setting the style
  * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
  * [Custom Skin demo](https://demos.telerik.com/aspnet-ajax/grid/examples/styles/custom-skin/defaultcs.aspx)
  * [How to Load Skins from External Assemblies article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%})
- * [How to load skins from external assemblies code library](https://www.telerik.com/support/code-library/how-to-load-skins-from-external-assemblies)
+ * [How to load skins from external assemblies code library]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%})
  * [HTML Output]({%slug grid/appearance-and-styling/html-output%})
  * [Modifying Existing Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
 
