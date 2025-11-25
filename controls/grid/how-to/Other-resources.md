@@ -20,7 +20,7 @@ This page contains links to examples that you may find useful when implementing 
 
 * [Batch Editing Extensions - Related RadComboBoxes and Batch Validation]({%slug grid-batch-editing-extensions-related-radcomboboxes-and-validation%}) - Provides an extension for the RadGrid Batch Editing functionality, which allows you to implement related RadComboBoxes functionality between column and to set Batch Validation.
 * [Manual Insert/Update/Delete operations using Auto-generated editform with sql statements from the code-behind]({%slug grid-manual-insert-update-delete-operations-using-auto-generated-editform-with-sql-statements-from-the-code-behind%}) -  Demonstrates manual Insert/Update/Delete operations using Auto-generated editform with sql statements from the code-behind
-* [Copy-Paste Cell/Row data through RadContextMenu with Batch Editing]({%slug grid-copy-paste-cell-row-data-through-radcontextmenu-with-batch-editing%%}) - Demonstrates how to implement Copy-Paste functionality for cells and rows for RadGrid in Batch Edit Mode with RadContextMenu.
+* [Copy-Paste Cell/Row data through RadContextMenu with Batch Editing]({%slug grid-copy-paste-cell-row-data-through-radcontextmenu-with-batch-editing%}) - Demonstrates how to implement Copy-Paste functionality for cells and rows for RadGrid in Batch Edit Mode with RadContextMenu.
 
 ## Data Binding:
 

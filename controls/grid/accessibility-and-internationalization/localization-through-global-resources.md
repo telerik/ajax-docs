@@ -11,7 +11,7 @@ position: 4
 # Localization through Global Resources
 
 
-From **UI for ASP.NET AJAX Q2 2010** onwards,*RadGrid* supports built-in localization through Global resources. Similar to **RadEditor** and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
+From **UI for ASP.NET AJAX Q2 2010** onwards, **RadGrid** supports built-in localization through Global resources. Similar to **RadEditor** and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
 
 ## Using the resource file
 
@@ -19,14 +19,16 @@ The resource files should be placed within the **App_GlobalResources** folder in
 
 ![](images/GlobalResources_Folder.jpg)
 
-To change the current language/resource you should set the **Culture** property accordingly.
+>note **RadGrid.Main.resx** must be in the **App_GlobalResources** folder in your application in order to change the culture/language.
+
+To change the current language/resource you should set the **Culture** property accordingly. 
 
 >note RadGrid's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
 ````ASP.NET
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1"    runat="server"    Culture="en-US" ... </telerik:RadGrid>			
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Culture="en-US"></telerik:RadGrid>			
 ````
 
 
