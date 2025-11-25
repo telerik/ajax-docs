@@ -16,7 +16,6 @@ position: 11
 The RadScheduler **client side API** offers the possibility to implement a custom drag and drop scenario between two instances of the control. In order to achieve the desired behavior, the **OnClientAppointmentMoveStart**, the **OnClientAppointmentMoving** and the **OnClientAppointmentMoveEnd** event handlers of the source RadScheduler should be implemented:
 
 ````JavaScript
-
 var globalFlag = false;
 var flag = false;
 
@@ -76,10 +75,7 @@ function OnClientAppointmentMoving(sender, args) {
 function OnClientAppointmentMoveEnd(sender, args) {
     args.set_cancel(globalFlag);
 }
-
 ````
-
-Fully working example of the above implementation could be found in the following [**Code library**](https://www.telerik.com/support/code-library/drag-and-drop-appointment-from-radscheduler-to-radscheduler).
 
 # See Also
 

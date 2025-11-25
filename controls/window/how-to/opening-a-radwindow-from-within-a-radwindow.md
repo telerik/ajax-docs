@@ -24,9 +24,15 @@ For either method, your first step is to [get a reference to the current RadWind
 
 ````JavaScript	
 function GetRadWindow() {
-	var oWindow = null; if (window.radWindow)
-		oWindow = window.radWindow; else if (window.frameElement.radWindow)
-		oWindow = window.frameElement.radWindow; return oWindow;
+let oWindow = null; 
+
+if (window.radWindow) {
+    oWindow = window.radWindow; 
+} else if (window.frameElement.radWindow) {
+    oWindow = window.frameElement.radWindow;
+}
+
+return oWindow;
 }
 ````
 
@@ -52,6 +58,3 @@ setTimeout(function () {
 >tip The timeout is needed to allow the browser to properly set the active **RadWindow**. It causes the opening logic to execute after all code in the content page has ran. Otherwise, the click will focus the first dialog once it bubbles to the body element, after opening the second one.
 
 
-## See Also
-
- * [Creating Parent-child Relationships Between RadWindows](https://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)

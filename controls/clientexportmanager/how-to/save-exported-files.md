@@ -19,7 +19,7 @@ There are different ways to initiate such a request and to handle its server end
 * [Use Page Method](#use-page-method)
 * [Use Forced Proxy](#use-forced-proxy)
 * [Use WebAPI](#use-webapi)
-	* [Code Library: runnable example](https://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
+	* [Export and save file with Web API: runnable example]({%slug clientexportmanager-export-and-save-file-with-web-api%})
 
 ## Use Page Method
 
@@ -31,29 +31,31 @@ You can send the base64-encoded string from the client-side to the server direct
 </telerik:RadClientExportManager>
 <asp:Button ID="Button1" Text="store on server" OnClientClick="storeOnServer(); return false;" runat="server" />
 <div class="forExport">I will be exported</div>
-<script>
-	function OnClientPdfExporting(sender, args) {
-		args.set_cancel(true);
-		var data = args.get_dataURI().split(',')[1];
-		callMyPageMethod(data);
-	}
-	function storeOnServer() {
-		var exportMngr = $find("<%= RadClientExportManager1.ClientID %>");
-			exportMngr.exportPDF($telerik.$(".forExport"));
-		}
+````
 
-		function callMyPageMethod(arg) {
-			PageMethods.storeFile(arg, OnSucceeded, OnFailed);
-		}
+````JavaScript
+function OnClientPdfExporting(sender, args) {
+  args.set_cancel(true);
+  var data = args.get_dataURI().split(",")[1];
+  callMyPageMethod(data);
+}
 
-		function OnSucceeded(data) {
-			alert(data);
-		}
+function storeOnServer() {
+  var exportMngr = $find("<%= RadClientExportManager1.ClientID %>");
+  exportMngr.exportPDF($telerik.$(".forExport"));
+}
 
-		function OnFailed(error) {
-			alert(error.get_message());
-		}
-</script>
+function callMyPageMethod(arg) {
+  PageMethods.storeFile(arg, OnSucceeded, OnFailed);
+}
+
+function OnSucceeded(data) {
+  alert(data);
+}
+
+function OnFailed(error) {
+  alert(error.get_message());
+}
 ````
 
 Sample implementation of a page method that only takes the file data.
@@ -140,38 +142,35 @@ In this example we will use Web API to send the file data to the server and perf
 **Example 2:** Here we send the raw data to the server using Ajax call and cancel the export execution.
 
 ````JavaScript
-		
 var $ = $telerik.$;
 
 function OnClientPdfExporting(sender, args) {
-	var dataRaw = args.get_dataURI().split(',');
+  var dataRaw = args.get_dataURI().split(",");
 
-	var data = {
-		contentType: dataRaw[0].split(';')[0].split(':')[1],
-		fileName: "test 1.pdf",
-		base64: dataRaw[1]
-	};
+  var data = {
+    contentType: dataRaw[0].split(";")[0].split(":")[1],
+    fileName: "test 1.pdf",
+    base64: dataRaw[1],
+  };
 
-	$.ajax({
-		type: "POST",
-		data: data,
-		url: "api/export/file",
-		success: success
-	});
+  $.ajax({
+    type: "POST",
+    data: data,
+    url: "api/export/file",
+    success: success,
+  });
 
-	args.set_cancel(true);
+  args.set_cancel(true);
 }
 
 function success() {
-	$find("<%= FileExplorer1.ClientID %>").refresh();
+  $find("<%= FileExplorer1.ClientID %>").refresh();
 }
 
 function exportElement() {
-   var exportMngr = $find("<%= RadClientExportManager1.ClientID %>");
-	exportMngr.exportPDF($telerik.$("#foo"));
+  var exportMngr = $find("<%= RadClientExportManager1.ClientID %>");
+  exportMngr.exportPDF($telerik.$("#foo"));
 }
-	
-	
 ````
 
 
@@ -181,7 +180,6 @@ This is the API controller class definition:
 
 
 ````C#
-
 public class ExportController : ApiController
 {
 	[HttpPost]
@@ -193,7 +191,6 @@ public class ExportController : ApiController
 
 		var fileContents = Convert.FromBase64String(base64);
 
-
 		System.IO.File.WriteAllBytes(System.Web.Hosting.HostingEnvironment.MapPath("~/files") + "\\" + Guid.NewGuid() + "_" + fileName, Convert.FromBase64String(base64));
 
 		var response = new HttpResponseMessage();
@@ -202,10 +199,8 @@ public class ExportController : ApiController
 		return response;
 	}
 }
-
 ````
 ````VB.NET
-
 Public Class ExportController
 	Inherits ApiController
 	<HttpPost> _
@@ -216,19 +211,14 @@ Public Class ExportController
 
 		Dim fileContents = Convert.FromBase64String(base64)
 
-
 		System.IO.File.WriteAllBytes(System.Web.Hosting.HostingEnvironment.MapPath("~/files") + "\" + Guid.NewGuid().ToString() + "_" + fileName, Convert.FromBase64String(base64))
-
-
 
 		Dim response = New HttpResponseMessage()
 		response.StatusCode = HttpStatusCode.OK
 
-
 		Return response
 	End Function
 End Class
-
 ````
 
 
@@ -237,8 +227,6 @@ End Class
 ![clientexportmanager-save-exported-files](images/clientexportmanager-save-exported-files.png)
 
 # See Also
-
- * [Export and save file with Web API](https://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
 
  * [RadClientExportManager Client-Side API]({%slug clientexportmanager/client-side-programming/overview%})
 

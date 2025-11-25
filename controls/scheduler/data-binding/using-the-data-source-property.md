@@ -14,7 +14,7 @@ position: 5
 
 RadScheduler has a **DataSource** property that lets you bind it to any object that implements the IListSource or IEnumerable interface. Thus, you can bind the scheduler directly to a DataTable or DataView (IListSource), or to various List objects (IEnumerable).
 
-When using the **DataSource** property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the **RadScheduler** server-side events. A sample implementation can be found in the [Scheduler bound to a List using the DataSource property](https://www.telerik.com/support/code-library/scheduler-bound-to-a-list-using-the-datasource-property) Code Library project.
+When using the **DataSource** property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the **RadScheduler** server-side events.
 
 If you are using custom fields/attributes, you must write them directly to the data source in these events, so you can later access them in the **AppointmentDataBound** event and either use them for your logic, or add them to the Attributes collection of the appointment.
 
@@ -474,8 +474,6 @@ End Sub
 You have now bound your scheduler using the **DataSource** property. Run the application andnote the custom resource is available in the edit form.
 
 # See Also
-
-* [Scheduler bound to a List using the DataSource property - Code Library project](https://www.telerik.com/support/code-library/scheduler-bound-to-a-list-using-the-datasource-property) 
 
 * [Declarative Data Binding]({%slug scheduler/data-binding/declarative-data-binding%})
 

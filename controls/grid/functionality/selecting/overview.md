@@ -100,7 +100,6 @@ Check out the [MultiColumn]({%slug grid/functionality/selecting/selecting-cells/
 ![](selecting-cells/images/select-cells-in-hierarchy.gif)
 
 >warning **Cell Selection in Hierarchical** Structures is **not included in the built-in functionality**, therefore, an **additional implementation is required**. 
->In the [Select cells in RadGrid with Hierarchy](https://www.telerik.com/support/code-library/select-cells-in-radgrid-with-hierarchy) Code Library article we show one example that will give you an idea how this would work. 
 >As this is a custom (non-supported) scenario, further tweaking will be up to the developer working on it.
 
 

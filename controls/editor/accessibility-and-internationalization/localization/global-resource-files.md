@@ -10,7 +10,7 @@ position: 0
 
 # Global Resource Files
 
->note **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work. You can also find the available custom localizations for the control in the Telerik Code Library -> UI for ASP.NET AJAX Code Library -> [Localization](https://www.telerik.com/support/code-library/aspnet-ajax/localization) section** 
+>note **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work. You can also find the available custom localizations for the control in the [Localization knowledge base article.]({%slug localization%})** 
 
 With RadEditor you can create a new language pack or alter labels of an existing language pack.
 

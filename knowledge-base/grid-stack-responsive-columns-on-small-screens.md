@@ -16,7 +16,7 @@ Make the Grid more responsive by stacking the columns on small screens.
 
 ### DESCRIPTION
 
-This example is using CSS based on the [Responsive Grid code-library](https://www.telerik.com/support/code-library/responsive-radgrid-d82dc6333682) and further improved with hints from the [Joshua Hibbert](https://codepen.io/joshnh/)'s Code Pen [Getting Responsive Tables to Behave](https://codepen.io/joshnh/pen/vOxxQX).
+This example is using CSS and further improved with hints from the [Joshua Hibbert](https://codepen.io/joshnh/)'s Code Pen [Getting Responsive Tables to Behave](https://codepen.io/joshnh/pen/vOxxQX).
 
 ### SOLUTION
 
@@ -213,5 +213,3 @@ More information on CSS specificity you can find here:
 ## See also
 
 - [RadGrid Mobile Rendering Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/mobile-support/mobile-rendering/overview)
-- [Responsive RadGrid Code Library](https://www.telerik.com/support/code-library/responsive-radgrid-d82dc6333682)
- 

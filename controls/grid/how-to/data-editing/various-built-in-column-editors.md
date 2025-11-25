@@ -153,8 +153,6 @@ Additional resources about how to integrate custom editors in Telerik RadGrid yo
 
 [ Using Telerik RadComboBox with AutoComplete as a custom editor in Telerik RadGrid ](https://www.telerik.com/support/kb/article/b454K-gca-b454T-cbb.aspx)
 
-[ Building a RadDatePicker custom column editor for Telerik RadGrid ](https://www.telerik.com/community/code-library/submission/b311D-dgkaa.aspx)
-
 ## See Also
 
  * [Online example](https://demos.telerik.com/aspnet/Controls/Examples/Integration/GridEditorAndCombo/DefaultCS.aspx)

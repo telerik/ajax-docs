@@ -11,7 +11,7 @@ position: 6
 # Grid Hierarchy Export
 
 This article covers the export feature of hierarchical **RadGrid** for the different export types. Not all formats support exporting hierarchical structures but there are possible workarounds:
-* [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word](https://www.telerik.com/support/code-library/grid-with-hierachy-and-grouping-export-to-excel) 
+* [XLSX: Export RadGrid with hierarchy and grouping to Excel and Word]({%slug grid-export-hierarchical-grid-with-grouping%}) 
 * [Biff: Export Grouped Data](https://github.com/telerik/aspnet-sdk/tree/master/Grid/GridExportGroupedData) 
 
 
@@ -19,7 +19,7 @@ By default when you set IgnorePaging to true and then export a parent table in h
 
 Until Q3 2013, you had to retain the expanded state manually when the control rebinds. Since Q3 2013 version, we introduced a new property named **RetainExpandStateOnRebind**. When you set enable it, the expanded items’ state will persist automatically.
 
->note The following [code-library](https://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx) example demonstrates how to persist the expanded state manually.
+>note The [Export Hierarchical Grid]({%slug grid-export-hierarchical-grid%}) article demonstrates how to persist the expanded state manually.
 >
 
 

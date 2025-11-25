@@ -10,11 +10,5 @@ position: 1
 
 # Custom Task Edit Window
 
-
-
-## 
-
-The following code library example shows how to implement a Custom Task Edit Window:
-
-[Example](https://www.telerik.com/support/code-library/custom-task-edit-window)
+The following article demonstrates how to implement a Custom Task Edit Window: [Custom Task Edit Window]({%slug gantt-custom-task-edit-window%})
 

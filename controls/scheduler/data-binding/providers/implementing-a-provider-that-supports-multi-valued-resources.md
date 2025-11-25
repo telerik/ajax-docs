@@ -15,7 +15,7 @@ Although they are more difficult to implement, custom providers are more powerfu
 >caution The provider is instantiated once per application domain and is shared across threads. **RadScheduler** ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods. However, you should take care of synchronizing access to instance field members where appropriate.
 >
 
-This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources. The complete source code of the sample provider can be found in the [Implementing a Custom Scheduler Provider That Supports Multi-Valued Resources](https://www.telerik.com/support/code-library/implementing-a-custom-scheduler-provider-that-supports-multi-valued-resources) Code Library project. 
+This example walks through the steps required to build a custom database-driven provider that supports multi-valued resources.
 
 ## Database Schema
 
@@ -784,8 +784,6 @@ End Sub
 ````
 
 # See Also
-
- * [Implementing a Custom Scheduler Provider That Supports Multi-Valued Resources - Code Library project](https://www.telerik.com/support/code-library/implementing-a-custom-scheduler-provider-that-supports-multi-valued-resources) 
 
  * [Using a Data Provider]({%slug scheduler/data-binding/providers/using-a-data-provider%})
 

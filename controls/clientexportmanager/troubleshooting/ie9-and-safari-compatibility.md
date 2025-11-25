@@ -73,10 +73,8 @@ End Class
 #End Region
 ````
 
-The [Export and save file with Web API](https://www.telerik.com/support/code-library/export-and-save-file-with-web-api) code library demonstrates export and saving the exported file to a folder with Web API using an ExportController. 
+The  [Export and save file with Web API]({%slug clientexportmanager-export-and-save-file-with-web-api%}) article demonstrates export and saving the exported file to a folder with Web API using an ExportController. 
 
 # See Also
-
-* [Export in IE9 and Safari using a WCF service and ProxyURL](https://www.telerik.com/support/code-library/ie9-and-safari-compatibility)
 
 * [Save exported files on the server]({%slug clientexportmanager/how-to/save-exported-files%})

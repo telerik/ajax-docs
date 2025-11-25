@@ -21,11 +21,9 @@ res_type: kb
    
 ## SOLUTION  
    
- 1. Download a demo project from [here](https://www.telerik.com/community/code-library/aspnet-ajax/scheduler/customize-the-advanced-form-with-the-advanced-template-user-controls.aspx) and use the **SqlDataSource **sample.   
+ 1. Create two new fields of type string for the DbProvider\_Classes - **Continent** and **Country**. The **TelerikVSX.mdf** file is in the App\_Data folder of the sample.  
    
- 2. Create two new fields of type string for the DbProvider\_Classes - **Continent** and **Country**. The **TelerikVSX.mdf** file is in the App\_Data folder of the sample.  
-   
- 3. Add the following code in the 'Resource controls' section of the **AdvancedForm.ascx**:  
+ 2. Add the following code in the 'Resource controls' section of the **AdvancedForm.ascx**:  
    
 ````ASP.NET
 <!-- Optionally add more ResourceControl instances here -->
@@ -51,7 +49,7 @@ res_type: kb
 </li>
 ````
  
- 4. In code behind of the AdvancedForm user control add the following code:  
+ 3. In code behind of the AdvancedForm user control add the following code:  
    
  ````C#
 #region Attributes and resources
@@ -134,7 +132,7 @@ Protected Sub ComboBoxContinent_SelectedIndexChanged(sender As Object, e As RadC
 End Sub
  ````
 
-5. In Default.aspx add and bind the Type and Resource custom attributes:
+4. In Default.aspx add and bind the Type and Resource custom attributes:
 
 ````ASP.NET
 <telerik:RadScheduler runat="server" ID="RadScheduler1" Width="750px" AppointmentStyleMode="Default"

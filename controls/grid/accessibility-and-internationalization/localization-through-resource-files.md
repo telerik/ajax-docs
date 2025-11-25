@@ -16,11 +16,9 @@ position: 5
 
 When localizing different elements of Telerik RadGrid, it may be necessary to use language sources, located in resource files. This process involves two steps:
 
-1. First, you need to include the necessary settings in a resource file. The sample below shows a simple resource file, containing two value strings:
+1. First, you need to include the necessary settings in a resource file (.RESX). The sample below shows a simple resource file, containing two value strings:
 
 ````ASP.NET
-
-  .RESX
 <resheader name="resmimetype">
    <value>text/microsoft-resx</value>
  </resheader>
@@ -90,10 +88,7 @@ DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
 
 
 
-Additional information on resource files, as well as explicit and implicit resource localization is available on this page:
+Additional information on resource files, as well as explicit and implicit resource localization is available on the [Official ASP.NET Web Page Resources Overview](https://msdn2.microsoft.com/en-us/library/ms227427.aspx) by Microsoft.
 
-[https://msdn2.microsoft.com/en-us/library/ms227427.aspx](https://msdn2.microsoft.com/en-us/library/ms227427.aspx)
-
-and in [this code library project](https://www.telerik.com/community/code-library/aspnet-ajax/localization/local-resources-for-radgrid-radcalendar-and-radinput.aspx).
 
 

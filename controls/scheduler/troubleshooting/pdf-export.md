@@ -223,7 +223,7 @@ Below you can find some exception messages that you might encounter:
 
 ### Solutions:
 		
-* One possible solution would be using the ClientExportManager to export the Scheduler to PDF as demonstrated in the [Scheduler client PDF export with ClientExportManager](https://www.telerik.com/support/code-library/scheduler-client-pdf-export-with-clientexportmanager) Code Library project.
+* One possible solution would be using the ClientExportManager to export the Scheduler to PDF.
 
 * To troubleshoot the GetStyleSheet method itself you can use the extracted logic outside the code of the Scheduler in a TestGetStyleSheet method. 
 
