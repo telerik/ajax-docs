@@ -12,22 +12,19 @@ position: 7
 
 You can easily load the tabs of a tab strip from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <TabStrip>. This node can include attributes for the **RadTabStrip** properties:
+1. The top level consists of a single node, called `TabStrip`. This node can include attributes for the RadTabStrip properties:
 
-````XML	  
-<?xml version="1.0" encoding="utf-16"?>
+````ASP.NET
 <TabStrip
  SelectedIndex="0"
  MultiPageID="RadMultiPage1"
  Skin="Vista" >
-
- ...
 </TabStrip> 	  
 ````
 
-1. Immediately below the <TabStrip> node is a set of <Tab> nodes, where each node represents a root-level tab. The attributes of the <Tab> node correspond to the properties and custom attributes of the tab. Any child tabs are nested within the <Tab> node:
+2. Immediately below the `TabStrip` node is a set of `Tab` nodes, where each node represents a root-level tab. The attributes of the `Tab` node correspond to the properties and custom attributes of the tab. Any child tabs are nested within the `Tab` node:
 
-````XML	 
+````ASP.NET	 
 <Tab Selected="True" ScrollChildren="True" Text="Tab 1">
 	<Tab PageViewID="RadPageView1" Text="Child 1" />
 	<Tab IsBreak="True" PageViewID="RadPageView2" Text="Child 2" />
