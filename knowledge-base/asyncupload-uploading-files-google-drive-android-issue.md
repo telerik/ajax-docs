@@ -26,7 +26,7 @@ To resolve this known Chrome issue on Android, you need to use the fallback ifra
 ```
 <script>
     if (Telerik.Web.Platform.android && Telerik.Web.Browser.chrome && Telerik.Web.UI.RadAsyncUpload) {
-        // force iframe mode due to https://bugs.chromium.org/p/chromium/issues/detail?id=1063576&q=ERR_UPLOAD_FILE_CHANGED&can=2
+        // force iframe mode due to https://issues.chromium.org/issues/40123366
         Telerik.Web.UI.RadAsyncUpload.Modules.FileApi.isAvailable = function () { return false; };
         Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; };
         Telerik.Web.UI.RadAsyncUpload.Modules.Silverlight.isAvailable = function () { return false; };
@@ -38,6 +38,5 @@ By adding this script, the RadAsyncUpload component will use the iframe module o
 
 ## See Also
 
-- [RadAsyncUpload Modules Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/modules)
-- [Cannot Upload Files From Google Drive on Android](https://www.example.com/article-link) (external article)
+- [RadAsyncUpload Modules Documentation](https://www.telerik.com/products/aspnet-ajax/documentation/controls/asyncupload/upload-modules)
  

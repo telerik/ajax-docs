@@ -76,7 +76,7 @@ You can use custom font icons in **RadLinkButton** as well. To do that, follow t
 			<Icon CssClass="myCustomFontIconClass" />
 		</telerik:RadLinkButton>
 
-You can find below an example with [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/).
+You can find below an example with [Font Awesome Icons](https://github.com/FortAwesome/Font-Awesome).
 
 >caption Figure 3: RadLinkButton with Font Awesome icon.
 
@@ -107,7 +107,7 @@ Find out more information on how to use Font Awesome icons along with Telerik co
 
  * [PushButton - Custom Icons Demo](https://demos.telerik.com/aspnet-ajax/linkbutton/functionality/custom-icons/defaultcs.aspx)
 
- * [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/)
+ * [Font Awesome Icons](https://github.com/FortAwesome/Font-Awesome)
  
  * [PushButton - Embedded Icons Demo](https://demos.telerik.com/aspnet-ajax/linkbutton/functionality/embedded-icons/defaultcs.aspx)
  

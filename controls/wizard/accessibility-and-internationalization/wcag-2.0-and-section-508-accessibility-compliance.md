@@ -42,4 +42,4 @@ In our attempt to make our products content compliant, each web-control we devel
 
 # See Also
 
- * [WCAG 2.0 and Section 508 Accessibility Compliance](https://demos.telerik.com/aspnet-ajax-beta/wizard/accessibility-and-internationalization/accessibility-compliance/defaultcs.aspx)
+ * [WCAG 2.0 and Section 508 Accessibility Compliance](https://demos.telerik.com/aspnet-ajax/wizard/accessibility-and-internationalization/accessibility-compliance/defaultvb.aspx)

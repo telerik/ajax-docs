@@ -29,11 +29,11 @@ Below are some important points that you need to have in mind when utilizing the
 
 More information about how to use web services and expose them to page methods/client scripts in ASP.NET AJAX can be gathered from the following MSDN resources: [https://www.asp.net/ajax/documentation/live/tutorials/ExposingWebServicesToAJAXTutorial.aspx](https://www.asp.net/ajax/documentation/live/tutorials/ExposingWebServicesToAJAXTutorial.aspx)
 
-[https://www.w3schools.com/webservices/default.asp](https://www.w3schools.com/webservices/default.asp)
+[https://www.w3schools.com/xml/xml_services.asp](https://www.w3schools.com/xml/xml_services.asp)
 
 ## Declarative client-side binding
 
-This [first example](https://demos.telerik.com/aspnet-ajax-beta/Grid/Examples/Client/DeclarativeDataBinding/DefaultCS.aspx) demonstrates how to use declarative client-side data-binding.
+This [first example](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/declarative/defaultcs.aspx) demonstrates how to use declarative client-side data-binding.
 
 RadGrid declarative client-side data-binding is very similar to **ObjectDataSource** data-binding. You need to specify **SelectMethod** and **SelectCountMethod** (if needed) along with **Location** property and the grid will automatically invoke the specified method as **PageMethod** or **WebService method**:
 

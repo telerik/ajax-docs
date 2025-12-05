@@ -57,9 +57,7 @@ For some reason when the Linkbutton is disabled (Enabled="false"), I am still ab
 ## Solution
 The discussed behavior is ASP.NET specific and will happen eveb with a standard window.confirm().
 
-You can find out how to completely disable the link button in these resources:
-
-* [Disabling LinkButton, HyperLink and ImageButton completely](https://weblogs.asp.net/akjoshi/disabling-linkbutton-hyperlink-and-imagebutton-completely)
+You can find out how to completely disable the link button in this resource:
 
 * [How to completely disable the link button?](https://stackoverflow.com/questions/9682833/how-to-completely-disable-the-link-button)
 

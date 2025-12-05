@@ -16,13 +16,12 @@ position: 3
 
 LINQ to SQL is an ORM (object relational mapping) implementation that ships in the ASP.NET Framework 3.5 release, and which allows you to model a relational database using .NET classes.You can then query the database using LINQ, as well as update/insert/delete data from it. LINQ to SQL provides a runtime infrastructure for managing relational data as objects without losing the ability to query. It does this by translating language-integrated queries into SQL for execution by the database, and then translating the tabular results back into objects you define. Your application is then free to manipulate the objects while LINQ to SQL stays in the background tracking your changes automatically.
 
-LINQ to SQL fully supports transactions, views, and stored procedures.It also provides an easy way to integrate data validation and business logic rules into your data model.
+LINQ to SQL supports transactions, views, and stored procedures.It also provides an easy way to integrate data validation and business logic rules into your data model.
 
-For more information concerning LINQ to SQL review ScottGu's series of blog posts on this subject or the MSDN tutorial linked below:
+For more information about LINQ to SQL review the following resources:
 
-Using LINQ to SQL (from [part 1](http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx) to [part 5](http://weblogs.asp.net/scottgu/archive/2007/07/16/linq-to-sql-part-5-binding-ui-using-the-asp-linqdatasource-control.aspx))
-
-[LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx)
+- [Using LINQ to SQL](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/)
+- [LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx).
 
 RadGrid for ASP.NET AJAX exposes programmatic way to binding itself to IEnumerable data returned from LINQ queries which is presented in the [ following online demo ](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/programaticlinqupdates/defaultcs.aspx) of the product. Additionally, the grid from the example supports manual data editing operations as well as paging and sorting. The main points are to intercept the *NeedDataSource * event to pass a data source to the control and the *UpdateCommand*, *InsertCommand *and *DeleteCommand *events to edit the data in it.
 

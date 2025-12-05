@@ -87,7 +87,7 @@ Note that the viewTemplates, uploadTemplates and deleteTemplates variables are s
 
 ## See Also
 
- * [File Managers](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
+ * [File Managers](https://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/defaultcs.aspx)
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 

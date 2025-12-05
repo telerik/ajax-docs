@@ -44,5 +44,5 @@ For more details on this issue, see the bug report: [AJAX Visual Studio extensio
 
 - [Telerik UI for ASP.NET AJAX Documentation](https://docs.telerik.com/devtools/aspnet-ajax/introduction)
 - [How to Manually Add Telerik Controls to the Visual Studio Toolbox](https://docs.telerik.com/devtools/aspnet-ajax/general-information/adding-the-telerik-controls-to-the-visual-studio-toolbox)
-- [Troubleshooting Telerik UI for ASP.NET AJAX Installation](https://docs.telerik.com/devtools/aspnet-ajax/installation/installing-the-controls/troubleshooting-installation)
+- [Troubleshooting Telerik UI for ASP.NET AJAX Installation](https://www.telerik.com/products/aspnet-ajax/documentation/getting-started/known-issues#installation)
 

@@ -55,9 +55,7 @@ This is a list with the enumerators different properties of the **RadSocialShare
 	* ShareOnPinterest - a Styled button for [www.pinterest.com](http://www.pinterest.com/)
 	
 	* ShareOnGooglePlus - a Styled button for [plus.google.com](https://plus.google.com/)
-	
-	* GoogleBookmarks - a Styled button for [www.google.com/bookmarks](http://www.google.com/bookmarks)
-	
+		
 	* Below are the values that create Standard buttons that have their own button type (an entire class).It is highly recommended that this special button is used instead of setting this property, as doing so will also allow you to configure themwith the properties they expose:
 	
 		* GooglePlusOne - a Standard Button for [plus.google.com](https://plus.google.com/)

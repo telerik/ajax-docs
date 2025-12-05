@@ -16,9 +16,6 @@ position: 0
 
 A big part of the appeal of jQuery is that it allows you to elegantly (and efficiently) find and manipulate HTML elements with minimum lines of code. jQuery supports this via a nice "selector" API that allows developers to query for HTML elements, and then apply "commands" to them. One of the characteristics of jQuery commands is that they can be "chained" together - so that the result of one command can feed into another. jQuery also includes a built-in set of animation APIs that can be used as commands.
 
-[Microsoft will be shipping jQuery with Visual Studio going forward.](http://weblogs.asp.net/scottgu/archive/2008/09/28/jquery-and-microsoft.aspx)
-
-
 You can find more information on the official web site ([http://jquery.com](http://jquery.com)).
 
 # Other Resources

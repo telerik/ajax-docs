@@ -38,8 +38,6 @@ The **SocialNetType** property is the only property that is *required*. Its valu
 
 * **ShareOnGooglePlus** - for [plus.google.com](https://plus.google.com/)
 
-* **GoogleBookmarks** - for [www.google.com/bookmarks](http://www.google.com/bookmarks)
-
 * **ShareOnYammer** - for [www.yammer.com](http://www.yammer.com/)
 
 * **ShareOnPinterest** - for [www.pinterest.com](http://www.pinterest.com/)

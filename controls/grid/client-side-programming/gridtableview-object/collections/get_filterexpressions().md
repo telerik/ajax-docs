@@ -16,7 +16,7 @@ position: 0
 
 A collection of **Telerik.Web.UI.GridFilterExpression** objects. Represents the filter expressions applied for the grid instance.
 
-The toString() javascript method executed over this collection will return SQL string representation of all filter expressions concatenated by 'AND' reserved words. While filter expressions toString() method will create SQL syntax representing current grid filtering, you can also take advantage of the **toDynamicLinq()** javascript method which will create LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
+The toString() javascript method executed over this collection will return SQL string representation of all filter expressions concatenated by 'AND' reserved words. While filter expressions toString() method will create SQL syntax representing current grid filtering, you can also take advantage of the **toDynamicLinq()** JavaScript method which will create LINQ expression that can be used directly with Dynamic LINQ library.
 
 Furthermore, you can also utilize the **toList()** javascript method in order to pass an array of items (representing the filter expression elements) to the server and operate with them using GridFilterExpression server object.
 
@@ -48,7 +48,7 @@ Telerik.Web.UI.GridFilterFunctionsSqlFormat = function()
 
 
 
-The **toDynamicLinq()** javascript method can be executed over a single **Telerik.Web.UI.GridFilterExpression** object, which will generate LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
+The **toDynamicLinq()** JavasSript method can be executed over a single **Telerik.Web.UI.GridFilterExpression** object, which will generate LINQ expression that can be used directly with Dynamic LINQ library.
 
 Additionally, there is another method - **toDataService()**, which again can be executed over a single **Telerik.Web.UI.GridFilterExpression** object and will generate an expression that can be recognized by ADO.NET Data Services.
 
@@ -66,10 +66,6 @@ There is one more method - **toOql()** for filter expressions which can be used 
             args.get_methodArguments()[filterParameterName] = tableView.get_filterExpressions().toOql();
 }			
 ````
-
-
-
-
 
 ````C#
 	

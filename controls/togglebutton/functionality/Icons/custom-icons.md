@@ -97,7 +97,7 @@ You can use custom font icons in **RadToggleButton** as well. To do that, follow
 			</ToggleStates>
 		</telerik:RadToggleButton>
 
-Below you can find an example with [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/).
+Below you can find an example with [Font Awesome Icons](https://github.com/FortAwesome/Font-Awesome).
 
 >caption Figure 3: RadToggleButton with Font Awesome icons.
 
@@ -135,7 +135,7 @@ Find out more information on how to use Font Awesome icons along with Telerik co
 
  * [RadToggleButton Overview Demo](https://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
  
- * [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/)
+ * [Font Awesome Icons](https://github.com/FortAwesome/Font-Awesome)
  
  * [Icons Overview]({%slug togglebutton/functionality/icons/embedded-icons%})
  
