@@ -32,14 +32,27 @@ This video explains the details around the project you will be modifying&mdash;w
 
 ## Onboarding Modules
 
-The Telerik UI for ASP.NET AJAX technical online training has an approximate duration of two hours and is split into seven modules with the following learning path:
+This ultimate guide will teach you how to harness the power of Telerik UI for ASP.NET AJAX to build responsive, high-performance web applications. Covering AJAX rendering, Grid integration, postback techniques, and advanced customization options, this course will provide you with the tools needed to master AJAX in your projects. From exporting data to integrating OData and chatbots, you'll gain the skills necessary to take full advantage of Telerik's AJAX features for ASP.NET.
 
-* **Chapter 1: Introduction** (Course Overview)
-* **Chapter 2: ASP.NET Web Forms Fundamentals** (Server-side vs. Client-side rendering, Architecture, Page Lifecycle, Platform features, Structure and syntax)
-* **Chapter 3: Get Started** (Installation of Telerik UI for ASP.NET AJAX, Project setup, RadScriptManager, RadStylesheetManager, Rendering modes, Device detection framework, Exporting to documents)
-* **Chapter 4: Server-side APIs** (Data binding, RadGrid, Postback vs. AJAX, Enabling AJAX with Telerik AJAX controls)
-* **Chapter 5: Client-side APIs** (RadAlert, RadGrid Client API, Styling and Theme Builder, Binding OData)
-* **Chapter 6: Important Additions** (Deploying projects, RadChat, Chatbots and Conversational UI, HTML and Accessibility compliance, TestStudio integration)
-* **Chapter 7: Conclusion** (Learning and Support Resources)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MIEBaj5hOzY" title="Telerik UI for ASP.NET AJAX - Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you wish to learn more and continue with the video onboarding [enroll in the training](https://learn.telerik.com/learn/course/external/view/elearning/5/telerik-ui-for-aspnet-ajax) from the [Virtual Classroom](https://learn.telerik.com/learn). 
+The full course is available on YouTube with the following chapters:
+
+* **00:00** Introduction to Telerik UI for ASP.NET AJAX
+* **02:00** Rendering Dynamic Content with AJAX
+* **05:00** Mastering Stylesheet Management in AJAX
+* **08:00** Device Detection: Optimizing for Different Platforms
+* **11:00** Data Exporting via AJAX for Improved Performance
+* **14:30** AJAX Data Binding Best Practices
+* **18:00** RadGrid Integration: Advanced Features with AJAX
+* **21:30** Using Telerik RAD Controls with AJAX for Rich UIs
+* **25:00** Implementing Postback AJAX for Smooth User Experience
+* **28:30** Enabling Alerts and Dialogs in AJAX-Powered Apps
+* **32:00** Accessing Data with OData and AJAX
+* **35:30** Deploying Telerik UI AJAX Web Applications
+* **39:00** Adding Real-Time Interactivity with Chatbots
+* **42:30** Ensuring Legal Compliance in AJAX-Based Applications
+* **45:00** Testing and Debugging AJAX with Telerik Test Studio
+* **48:00** Conclusion and Key Takeaways
+
+If you wish to learn more, you can also explore additional video courses in the [Virtual Classroom](https://www.telerik.com/support/video-courses). 
