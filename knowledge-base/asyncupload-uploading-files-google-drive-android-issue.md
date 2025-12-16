@@ -23,16 +23,14 @@ I am experiencing an issue where I cannot upload files from Google Drive on Andr
 
 To resolve this known Chrome issue on Android, you need to use the fallback iframe upload module when the browser is Chrome and the platform is Android. You can do that by adding the following script under the ScriptManager in your application:
 
-```
-<script>
-    if (Telerik.Web.Platform.android && Telerik.Web.Browser.chrome && Telerik.Web.UI.RadAsyncUpload) {
-        // force iframe mode due to https://issues.chromium.org/issues/40123366
-        Telerik.Web.UI.RadAsyncUpload.Modules.FileApi.isAvailable = function () { return false; };
-        Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; };
-        Telerik.Web.UI.RadAsyncUpload.Modules.Silverlight.isAvailable = function () { return false; };
-    }
-</script>
-```
+````JavaScript
+if (Telerik.Web.Platform.android && Telerik.Web.Browser.chrome && Telerik.Web.UI.RadAsyncUpload) {
+    // force iframe mode due to https://issues.chromium.org/issues/40123366
+    Telerik.Web.UI.RadAsyncUpload.Modules.FileApi.isAvailable = function () { return false; };
+    Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; };
+    Telerik.Web.UI.RadAsyncUpload.Modules.Silverlight.isAvailable = function () { return false; };
+}
+````
 
 By adding this script, the RadAsyncUpload component will use the iframe module over the FileAPI, which resolves the issue with uploading files from Google Drive on Android devices using Chrome.
 

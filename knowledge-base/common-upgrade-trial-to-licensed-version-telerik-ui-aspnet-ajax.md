@@ -49,6 +49,5 @@ In older versions, the trial and licensed assemblies are separate. To upgrade:
 ## See Also
  
 - [Getting Tired of Seeing Trial Messages in Your ASP.NET AJAX Application?](https://www.telerik.com/blogs/getting-tired-of-seeing-trial-messages-in-your-asp-net-ajax-application) - A blog post providing additional insights on transitioning from trial to licensed versions.
-- [Installation - Installing the Controls](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/installation-installing-the-controls) - Official documentation on how to install Telerik UI for ASP.NET AJAX.
 - [Setting Up Your License Key File](https://docs.telerik.com/devtools/aspnet-ajax/licensing/license-key)
 - [Licensing FAQ](https://docs.telerik.com/devtools/aspnet-ajax/licensing/licensing-faq)

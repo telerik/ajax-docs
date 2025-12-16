@@ -97,7 +97,7 @@ All controls from the Telerik® UI for ASP.NET AJAX suite are fully backwards co
 
 **Breaking change**:
 
-Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [https://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx](https://www.telerik.com/support/kb/aspnet-ajax/scheduler.aspx)
+Customized advanced templates will not be styled correctly due to rendering changes. Please, see this [article]({%slug scheduler/how-to/customize-the-advanced-form-template%}).
 
 **Potentially breaking changes**:
 
@@ -121,15 +121,15 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## Common for all controls
 
-* Face lift for all skins and consistency in CSS naming conventions which result in breaking changes for certain scenarios. Please, test before upgrading to the new version. For more details refer to [this blog post](https://blogs.telerik.com/aspnet-ajax/posts/09-02-23/radcontrols-for-asp-net-ajax-receive-a-major-face-lift.aspx)
+* Face lift for all skins and consistency in CSS naming conventions which result in breaking changes for certain scenarios. Please, test before upgrading to the new version.
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
->note To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](https://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
+>note To apply the old embedded skins of Telerik® UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](https://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) topic.
 >
 
 
-* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to this [blogpost](https://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) as well as the bottom paragraph of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%}).
+* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to the bottom paragraph of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%}).
 
 ## Telerik RadAjax for ASP.NET AJAX Q1 2009#
 ````ASPNET
@@ -351,7 +351,7 @@ with this one:
 **Telerik RadEditor for ASP.NET AJAX Q3 2008**
 
 
-Removed dependency on SessionState. If your custom dialogs depend on the Session object, see the following KB - [Using Session State in Custom Editor Dialogs](https://www.telerik.com/support/kb/details/using-session-state-in-custom-editor-dialogs)
+Removed dependency on SessionState.
 
 
 

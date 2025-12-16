@@ -49,4 +49,4 @@ End Sub
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Toolbar Modes](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/ToolbarMode/DefaultCS.aspx)
+ * [Toolbar Modes](https://demos.telerik.com/aspnet-ajax/editor/examples/editortoolbars/defaultcs.aspx)

@@ -67,4 +67,4 @@ In our attempt to make our products content compliant, each web-control we devel
 
 # See Also
 
- * [Accessibility Compliance](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)
+ * [Accessibility Compliance](https://demos.telerik.com/aspnet-ajax/editor/examples/accessibilitysupport/defaultcs.aspx)

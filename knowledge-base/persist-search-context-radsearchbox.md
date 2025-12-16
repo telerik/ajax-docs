@@ -101,5 +101,5 @@ This solution ensures that the search context the user selects is preserved acro
 
 ## See Also
 
-- [RadSearchBox Client-Side Programming](https://docs.telerik.com/devtools/aspnet-ajax/controls/searchbox/client-side-programming/overview)
+- [RadSearchBox Client-Side Programming]({%slug searchbox/client-side-programming/radsearchbox-object%})
 - [Local Storage Web API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)

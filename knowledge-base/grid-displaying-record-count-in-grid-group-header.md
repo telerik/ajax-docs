@@ -74,7 +74,3 @@ End Sub
 - This solution works with both  'Auto generate' or 'Declared column' in RadGrid for ASP.NET AJAX.
 - Customize the code based on your specific requirements and data structure.
 
-## See Also
-
-- [RadGrid Grouping Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/grouping/overview)
-- [ItemDataBound Event](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/server-side-programming/events/itemdatabound)
