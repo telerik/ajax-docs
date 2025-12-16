@@ -31,7 +31,7 @@ position: 2
 
 1. [Codeless data-binding]({%slug grid/data-editing/automatic-datasource-operations%}) - using the DataSourceControls introduced in ASP.NET 2.x/3x.
 
-1. [Client-side binding]({%slug controls/grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}) - RadGrid allows you to bind it to data on the client and perform sorting/paging/filtering operations purely client-side. [Various data sources](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/declarative/defaultcs.aspx) are supportred, as long as they implement **IList**, **IEnumerable** or **ICustomTypeDescriptor** interfaces.
+1. [Client-side binding]({%slug grid/data-binding/client-side-binding/client-side-binding%}) - RadGrid allows you to bind it to data on the client and perform sorting/paging/filtering operations purely client-side. [Various data sources](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/declarative/defaultcs.aspx) are supportred, as long as they implement **IList**, **IEnumerable** or **ICustomTypeDescriptor** interfaces.
 
 1. [Filtering]({%slug grid/functionality/filtering/overview%}) - allows you to filter the data in the control by applying filter pattern on a per column basis.
 

@@ -1,4 +1,4 @@
- ---
+---
 title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadTreeView
 description: Check our Web Forms article about OnClientTemplateDataBound.
