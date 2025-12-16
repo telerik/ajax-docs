@@ -18,9 +18,7 @@ This help article describes seven common mistakes that customers make using RadG
 
 In order for **RadGrid** to work properly, it is very important to build the grid structure correctly. When you create the structure using the designer (in Visual Studio) there is less of a chance that mistakes will be made. The more difficult and error-prone task is creating the structure programmatically. Since **RadGrid** saves all of its structure properties (**DetailTables**, **Columns**, etc.) into the ViewState, building a **RadGrid**dynamically is a task very similar to creating and adding controls dynamically to a web page.
 
-See [http://weblogs.asp.net/infinitiesloop/archive/2006/08/25/TRULY-Understanding-Dynamic-Controls-_2800_Part-1_2900_.aspx](http://weblogs.asp.net/infinitiesloop/archive/2006/08/25/TRULY-Understanding-Dynamic-Controls-_2800_Part-1_2900_.aspx)
-
-The following two scenarios offer possible approaches to dynamically create a **RadGrid** that ensure that**RadGrid** will behave normally.
+The following two scenarios offer possible approaches to dynamically create a **RadGrid** that ensure that **RadGrid** will behave normally.
 
 ## 1st Scenario:
 
@@ -198,8 +196,6 @@ This is unlike the **RadTreeView** control which supports different number of su
 * Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) of the help as well.
 
 ## See Also
-
- * [Understanding Dynamic Controls](http://weblogs.asp.net/infinitiesloop/archive/2006/08/25/TRULY-Understanding-Dynamic-Controls-_2800_Part-1_2900_.aspx)
 
  * [Simple Vs Advanced Data Binding](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
 

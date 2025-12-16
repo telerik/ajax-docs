@@ -251,13 +251,13 @@ The Telerik ASP.NET AJAX controls are built according to the latest technology s
     <tr>
       <td>Input</td>
       <td>
-        <a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/textbox/radnumerictextbox/formatting-numeric-values">Help Article</a>
+        <a href="https://www.telerik.com/products/aspnet-ajax/documentation/controls/numerictextbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance">Help Article</a>
         <br>
         <a shape="rect" href="https://demos.telerik.com/aspnet-ajax/numerictextbox/overview/defaultcs.aspx">Online Demo</a>
         <br>
       </td>
       <td>
-        <a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/textbox/getting-started/adding-buttons">Help Article</a>
+        <a href="https://www.telerik.com/products/aspnet-ajax/documentation/controls/numerictextbox/accessibility-and-internationalization/mouse-wheel-support">Help Article</a>
         <br>
         <a shape="rect" href="https://demos.telerik.com/aspnet-ajax/textbox/overview/defaultcs.aspx">Online Demo</a>
       </td>
@@ -539,14 +539,9 @@ The Telerik ASP.NET AJAX controls are built according to the latest technology s
       <td>Upload</td>
       <td>
         <a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/upload/localization/localizing-radupload">Help Article</a>
-        <br>
-        <a shape="rect" href="http://demos.telerik.com/aspnet-ajax/upload/examples/localization/defaultcs.aspx">Online Demo</a>
-        <br>
       </td>
       <td>
         <a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/upload/localization/radupload-rtl-support">Help Article</a>
-        <br>
-        <a shape="rect" href="http://demos.telerik.com/aspnet-ajax/upload/examples/rtl/defaultcs.aspx">Online Demo</a>
       </td>
     </tr>
     <tr>

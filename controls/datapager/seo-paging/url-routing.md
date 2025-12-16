@@ -67,4 +67,3 @@ For more details about ASP.NET Routing, please check the following links:
 
 [https://msdn.microsoft.com/en-us/library/cc668201.aspx](https://msdn.microsoft.com/en-us/library/cc668201.aspx)
 
-[http://weblogs.asp.net/scottgu/archive/2009/10/13/scottgu.aspx](http://weblogs.asp.net/scottgu/archive/2009/10/13/url-routing-with-asp-net-4-web-forms-vs-2010-and-net-4-0-series.aspx)

@@ -83,4 +83,4 @@ You can use the user control edit form with the following edit modes: **EditForm
 
  * [NET 3.5 Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net35automaticdataediting/defaultcs.aspx)
 
- * [Form Template/User Control edit form](https://demos.telerik.com/aspnet-ajax-beta/treeList/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)
+ * [Form Template/User Control edit form](https://demos.telerik.com/aspnet-ajax/treelist/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)

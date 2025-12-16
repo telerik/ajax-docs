@@ -36,4 +36,4 @@ End Sub
 
 ## See Also
 
- * [Localization](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/Localization/DefaultCS.aspx)
+ * [Localization]({%slug localization%})

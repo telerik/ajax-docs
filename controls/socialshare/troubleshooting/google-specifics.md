@@ -18,7 +18,7 @@ In order to work with Google Analytics you need to have an account with Google a
 
 ## Google PlusOne Button API and Limitations
 
-The Google PlusOne button has some limitations and peculiarities. More information on troubleshooting it is available in its [official developer reference page](https://developers.google.com/+/plugins/+1button/) and [their support forums](http://www.google.com/support/forum/p/Webmasters/label?lid=1f91cc0e87a8ed93).
+The Google PlusOne button has some limitations and peculiarities. More information on troubleshooting it is available in its [official developer reference page](https://developers.google.com/+/plugins/+1button/).
 
 ## Google browser support
 

@@ -50,4 +50,4 @@ Here is an example demonstrating this feature:
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Edit Modes](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/EditModes/DefaultCS.aspx)
+ * [Edit Modes]({%slug editor/functionality/editor-views-and-modes/edit-modes%})

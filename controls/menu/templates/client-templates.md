@@ -153,4 +153,4 @@ A new client-side [OnClientTemplateDataBound]({%slug menu/client-side-programmin
 
  * [Accessing Controls Inside Templates]({%slug menu/templates/accessing-controls-inside-templates%})
 
- * [Online Demo](https://demos.telerik.com/aspnet-ajax-beta/menu/examples/functionality/clienttemplates/defaultcs.aspx)
+ * [Online Demo](https://demos.telerik.com/aspnet-ajax/menu/examples/functionality/clienttemplates/defaultvb.aspx)

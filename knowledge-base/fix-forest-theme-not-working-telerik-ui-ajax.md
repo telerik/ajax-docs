@@ -21,9 +21,9 @@ The Forest skin in Telerik UI for ASP.NET AJAX is discontinued and is no longer 
 To resolve this issue, there are two approaches:
 
 Option 1: Create a Custom Theme
-1. Use the [ThemeBuilder app](https://themebuilder.telerik.com/aspnet-ajax) to create your own custom theme.
-2. Follow the instructions [here](https://docs.telerik.com/devtools/aspnet-ajax/controls/themebuilder/how-to/create-custom-theme) to create a custom theme with the ThemeBuilder.
-3. Download the custom theme and apply it to your page with the Telerik controls. Instructions can be found [here](https://docs.telerik.com/devtools/aspnet-ajax/controls/themebuilder/how-to/download-apply-theme). Note that the ThemeBuilder produces skins for the Lightweight rendering, so make sure to set the RenderMode properties of the Telerik controls to Lightweight.
+1. Use the [ThemeBuilder app](https://www.telerik.com/themebuilder) to create your own custom theme.
+2. Follow the instructions [here]({%slug theme-builder/create%}) to create a custom theme with the ThemeBuilder.
+3. Download the custom theme and apply it to your page with the Telerik controls. Instructions can be found [here]({%slug theme-builder/download-and-apply%}). Note that the ThemeBuilder produces skins for the Lightweight rendering, so make sure to set the RenderMode properties of the Telerik controls to Lightweight.
 
 Option 2: Choose an Available Theme
 1. Choose one of the available 21 themes instead of the Forest theme.

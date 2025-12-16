@@ -40,7 +40,7 @@ and a video demonstrating the solution:
 > Note that in the beginning of the video, Grammerly is not available on the client machine as an add-on.
 
 Let proceed to the implementation:
-First step is to go to [Grammarly's website](https://developer.grammarly.com/apps) and get a API key. This is achieved by creating what Grammarly call an “App”. An App essentially allows you to track usage, etc., against a specific client ID.
+First step is to go to [Grammarly's website](https://developer.grammarly.com/) and get a API key. This is achieved by creating what Grammarly call an “App”. An App essentially allows you to track usage, etc., against a specific client ID.
 
 Once you create an App through the provided + sign or **New App** button, the Grammarly website will show you your Client ID, in the format of "client_xxxxxxxxx"
 

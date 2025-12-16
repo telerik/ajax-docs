@@ -56,4 +56,4 @@ By following these steps, you can successfully access custom attributes of the R
 ## See Also
 
 - [RadSignature Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/signature/overview)
-- [Client-Side Programming Overview in RadControls for ASP.NET AJAX](https://docs.telerik.com/devtools/aspnet-ajax/general-information/understanding-client-side-api)
+- [RadSignature Client-Side Programming]({%slug signature/client-side-programming/overview%})

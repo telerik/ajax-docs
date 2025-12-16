@@ -75,7 +75,7 @@ The Web Service load on demand mode undisputedly delivers the best performance. 
 
 **Templates**
 
-The Web Service load on demand mode completely disregards the template set for **RadTreeView**, or otherwise put templates do not work in this case. The reason is simple. Since only JSON is sent back and forth the actual template contents (controls and HTML that is) are lost. **RadTreeView** utilizes its client-side rendering abilities to convert the JSON returned from the web service into HTML representation of tree nodes. A possible workaround is to use ASP.NET AJAX 4.0 templates (check [here](https://blogs.telerik.com/AtanasKorchev/Posts/08-07-23/RadControls_and_ASP_NET_Ajax_4_0_Preview.aspx?ReturnURL=/AtanasKorchev/Posts.aspx) for more information, a sample project and running demo).
+The Web Service load on demand mode completely disregards the template set for **RadTreeView**, or otherwise put templates do not work in this case. The reason is simple. Since only JSON is sent back and forth the actual template contents (controls and HTML that is) are lost. **RadTreeView** utilizes its client-side rendering abilities to convert the JSON returned from the web service into HTML representation of tree nodes. A possible workaround is to use ASP.NET AJAX 4.0 templates.
 
 **Implementation**
 

@@ -49,7 +49,7 @@ See Also
 
 * [Full list of features of Telerik’s ASP.NET Cloud Upload](https://www.telerik.com/products/aspnet-ajax/cloud-upload.aspx)
 
-* [Overview demo of Telerik’s ASP.NET Cloud Upload](https://demos.telerik.com/aspnet-aj*ax/cloud-upload/examples/overview/defaultcs.aspx)
+* [Overview demo of Telerik’s ASP.NET Cloud Upload](https://demos.telerik.com/aspnet-ajax/cloud-upload/examples/overview/defaultcs.aspx)
 
 * [ASP.NET AJAX Upload (Cloud)](https://www.telerik.com/products/aspnet-ajax/cloud-upload.aspx)
 

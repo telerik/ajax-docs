@@ -69,7 +69,7 @@ Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**"
 | **.rgMasterTable td,.rgMasterTable th** |References to any table `<td>` and table header `<th>` belonging to that master table|
 | **.rgDataDiv** |For skinning the grid in scrolling mode.|
 | **th.rgHeader,th.rgResizeCol** |Header class `<th>` for customizing the Telerik RadGrid header.|
-| **.rgHeaderOver.rgHeaderDiv a.rgHeaderDiv** |For skinning the hovered header item.<a> element belonging to the header classFor skinning the header row when scrolling the grid.|
+| **.rgHeaderOver.rgHeaderDiv a.rgHeaderDiv** |For skinning the hovered header item, the `<a>` element belonging to the header classFor skinning the header row when scrolling the grid.|
 | **.rgRow,.rgRow td**  **.rgHoveredRow** |For skinning the normal grid row.For skinning the hovered grid row.|
 | **.rgAltRow,.rgAltRow td** |For skinning the alternate grid row (zebra style tables).|
 | **.rgSelectedRow,**  **.rgSelectedRow**  **td** |Skinning the currently selected row.|
@@ -101,19 +101,20 @@ Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**"
 | **.rgNoRecords** |A class to customize the visual appearance of the NoRecords template/text|
 | **.GridDraggedRows_[SkinName]** |A class applied to the <div> element, which wraps the dragged rows. The same <div> element also has the "RadGrid" and "RadGrid_SkiName" classes.|
 
->note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/common-skin-exchange)and follow the steps concerning how to register an external skin from[this](https://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](https://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
+>note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from [Skin exchange](https://www.telerik.com/products/aspnet-ajax/documentation/knowledge-base/common-skin-exchange) article and follow the steps concerning how to register an external skin from the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) topic.
 >
 
 
 Since RadGrid for ASP.NET AJAX uses internally **RadContextMenu** as a filtering menu, the styling of the filtering menu can be attained by accessing the **RadContextMenu** instance and utilizing its appearance mechanism.
 
-To summarize, in order to modify an existing RadGrid skin, either take advantage of the css selectors "weight" as depicted in the [following blog post](https://blogs.telerik.com/aspnet-ajax/posts/08-06-17/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin.aspx) or:
+To summarize, in order to modify an existing RadGrid skin, either take advantage of the css selectors "weight" as depicted in the [How To Override Styles in a RadControl for ASP.NET AJAX' Embedded Skin
+](https://www.telerik.com/blogs/how-to-override-styles-in-a-radcontrol-for-asp-net-ajax-embedded-skin) blog post or:
 
-1.Set the Skin property of the RadGrid to an existing skin name
+1. Set the Skin property of the RadGrid to an existing skin name
 
-2.Set the RadGrid property *EnableEmbeddedSkins="False"*
+1. Set the RadGrid property *EnableEmbeddedSkins="False"*
 
-3.Manually create a link to the CSS on the page (or MasterPage) for both the RadGrid and RadMenu, for example:
+1. Manually create a link to the CSS on the page (or MasterPage) for both the RadGrid and RadMenu, for example:
 
 ````ASP.NET
 <link href="~/Skins/Telerik/Grid.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
@@ -128,10 +129,6 @@ Additionally, for skins which have different styling for normal/alternating rows
 
 The following table shows how the grid generates its HTML structure:
 
-
->caption  
-
-| 
 
 ````ASP.NET
   <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -156,9 +153,7 @@ The following table shows how the grid generates its HTML structure:
 </pre>
 ````
 
- | Telerik RadGrid and MasterTableView definition. |
-| ------ | ------ |
-|
+RadGrid and MasterTableView definition.
 
 ````ASP.NET
   <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -189,8 +184,9 @@ The following table shows how the grid generates its HTML structure:
 </pre>
 ````
 
-|![](images/grd_skin_header.png)|
-|
+![](images/grd_skin_header.png)
+
+Grid Footer and Pager.
 
 ````ASP.NET
   <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">       
@@ -204,8 +200,7 @@ The following table shows how the grid generates its HTML structure:
 </pre>
 ````
 
-|![Pager](images/grd_skin_Pager.png)|
-|
+![Pager](images/grd_skin_Pager.png)
 
 ````ASP.NET
   <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -252,7 +247,7 @@ The following table shows how the grid generates its HTML structure:
 </pre>
 ````
 
-|![](images/grd_skin_NormalItem.png)![](images/grd_skin_AlternatingItem.png)![](images/grd_skin_SelectedItem.png)|
+![](images/grd_skin_NormalItem.png)![](images/grd_skin_AlternatingItem.png)![](images/grd_skin_SelectedItem.png)
 
 ## Creating a custom skin (basic steps)
 
@@ -268,13 +263,10 @@ The easiest way to create your own skin for RadGrid (as discussed previously in 
 
 * Set Skin="<MyCustomSkinName>" and EnableEmbeddedSkins="false" for RadGrid.
 
->note  **Important:** RadGrid may create other UI controls as part of its elements (slider pager, filtering menu, date pickers in GridDateTimeColumns, etc.) and you will need to perform the same steps for these controls as well!
+>note  RadGrid may create other UI controls as part of its elements (slider pager, filtering menu, date pickers in GridDateTimeColumns, etc.) and you will need to perform the same steps for these controls as well!
 >
 
-
-Review the [following online demo](https://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/Styles/CustomSkin/DefaultCS.aspx)
-
-of the product (the ASPX and CSS definitions mainly) for more details on the aforementioned approach to create a custom skin for RadGrid. You may also consider utilizing the [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) tool to modify existing skins/create new custom skins.
+For more details on the aforementioned approach to create a custom skin for RadGrid, you may also consider utilizing the [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/) tool to modify existing skins/create new custom skins.
 
 ## See Also
 

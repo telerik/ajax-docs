@@ -63,4 +63,4 @@ This parent element can be the **BODY**, the **HTML** element, or just a simple 
 
 # See Also
 
- * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax-beta/wizard/accessibility-and-internationalization/right-to-left/defaultcs.aspx)
+ * [See this live in an online demo](https://demos.telerik.com/aspnet-ajax/wizard/accessibility-and-internationalization/right-to-left/defaultcs.aspx)

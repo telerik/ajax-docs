@@ -62,4 +62,4 @@ XHTML stands for E(**X**)tensible (**H**)yper(**T**)ext (**M**)arkup (**L**)angu
 
 ## See Also
 
- * [Accessibility Compliance](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/AccessibilitySupport/DefaultCS.aspx)
+ * [Accessibility Compliance](https://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx)

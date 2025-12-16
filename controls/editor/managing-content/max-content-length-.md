@@ -26,8 +26,8 @@ RadEditor offers the ability to specify the max characters length that will be s
 
 **MaxTextLength** property restricts only the text length of the content without checking the HTML markup, while the **MaxHtmlLength** property restricts the content along with the HTML markup.
 
-Note: In order to not decrease typing, editing and pasting performance both properties check the characters length only when submitting the content.
+Note: To not decrease typing, editing and pasting performance both properties check the characters length only when submitting the content.
 
 ## See Also
 
- * [Max Content Length](https://demos.telerik.com/aspnet-ajax-beta/Editor/Examples/maxcontentlength/defaultcs.aspx)
+ * [Max Content Length](https://demos.telerik.com/aspnet-ajax/editor/examples/maxcontentlength/defaultcs.aspx)

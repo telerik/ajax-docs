@@ -170,4 +170,4 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 
 ## See Also
 
- * [Add Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Add Custom Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/defaultcs.aspx)

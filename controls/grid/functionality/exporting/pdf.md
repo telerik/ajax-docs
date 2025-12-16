@@ -32,7 +32,7 @@ Although you can't modify the contents in the **OnGridExporting** event, you can
 
 For example:
 - to save the file on the server/send it via mail if needed.
-- to show the *PDF* file in *RadWindow* - as explained in the [Export grid to PDF file and show the result using the window blog post](https://www.telerik.com/blogs/how-to-export-grid-to-pdf-file-and-show-the-result-using-the-window) that contains a [runnable project](https://demos.telerik.com/RadGridToPDFFile/RadGridToPDFFile.zip) that demonstrate this scenario
+- to show the *PDF* file in *RadWindow* - as explained in the [Export grid to PDF file and show the result using the window blog post](https://www.telerik.com/blogs/how-to-export-grid-to-pdf-file-and-show-the-result-using-the-window) that demonstrate this scenario
 
 
 ## Customizing the Export Output
@@ -319,7 +319,7 @@ There are a few rules that should be followed when exporting *HTML* tables to *P
 
 ### Exporting images / using third-party image-processing tools
 
-Our *PDF* engine can export all images nevertheless whether they use an **absolute** or **relative** path. The image can be stored on the local server or remotely. When using third-party image-processing tools like [ImageResizer.dll](http://nathanaeljones.com/products/asp-net-image-resizer/) or similar modules that use *HttpHandlers* and accept parameters via query strings, you should provide an **absolute** path to the resized image, otherwise *RadGrid* will not find the image and will throw an error. Transparency is not supported.
+Our *PDF* engine can export all images nevertheless whether they use an **absolute** or **relative** path. The image can be stored on the local server or remotely. When using third-party image-processing tools or modules that use *HttpHandlers* and accept parameters via query strings, you should provide an **absolute** path to the resized image, otherwise *RadGrid* will not find the image and will throw an error. Transparency is not supported.
 
 You can use the following approach if you need to set a background image to your *GridTableViews*:
 

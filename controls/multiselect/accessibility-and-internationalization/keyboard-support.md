@@ -49,7 +49,7 @@ The keyboard navigation of the MultiSelect is always available, you can use the 
 
 ## See Also
 
- * [Live Demo: RadMultiSelect Keyboard Support](https://demos.telerik.com/aspnet-ajax/multiselect/keyboard-navigation)
+ * [Live Demo: RadMultiSelect Keyboard Support](https://demos.telerik.com/aspnet-ajax/multiselect/keyboardsupport/defaultcs.aspx)
 
  * [Right-to-Left Support]({%slug multiselect/accessibility-and-internationalization/right-to-left-support%})
 

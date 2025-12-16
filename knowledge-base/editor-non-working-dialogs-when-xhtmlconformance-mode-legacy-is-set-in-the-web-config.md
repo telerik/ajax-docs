@@ -29,7 +29,7 @@ The following symptons or errrors could be caused by the xhtmlConformance mode="
 
 This setting is incompatible with ASP.NET AJAX controls (like RadEditor) and it should be removed. This setting could be added when upgrading an old project with Visual Studio.  
    
- You can find more information about the <xhtmlConformance mode="Legacy"/> setting in the following blog post: [Don't use xhtmlConformance mode="Legacy"/&gt; with ASP.NET AJAX](http://weblogs.asp.net/scottgu/archive/2006/12/10/gotcha-don-t-use-xhtmlconformance-mode-legacy-with-asp-net-ajax.aspx).
+
 
 
  

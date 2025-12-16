@@ -51,7 +51,7 @@ Also check the FAQ section at the end of the [Security article](https://docs.tel
 >
 >The R2 2017 SP2 release brings a fix and the ability to disable uploads for the first time. This fix was ported in the patches.
 >
->Download a patched version from your Telerik.com account **after the 15th of August 2017**. If you downloaded it earlier, download it again, because the file was updated since its [original creation](https://www.telerik.com/>support/kb/aspnet-ajax/details/cryptographic-weakness).
+>Download a patched version from your Telerik.com account **after the 15th of August 2017**. If you downloaded it earlier, download it again, because the file was updated since its [original creation](https://www.telerik.com/support/kb/aspnet-ajax/details/cryptographic-weakness).
 >
 >Steps to get the patch:
 >1. Go to your [Telerik.com account](https://www.telerik.com/account/product-download?product=RCAJAX).

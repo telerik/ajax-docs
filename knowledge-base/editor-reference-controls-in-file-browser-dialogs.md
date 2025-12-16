@@ -76,7 +76,7 @@ See how to get a reference to the FileExplorer, the Grid, and AsyncUpload inside
 ## See Also
 *  [Displaying single upload control in the FileBrowser Upload manager]({%slug editor-displaying-single-upload-control-in-the-filebrowser-upload-manager%})
 *  [Register the external dialog files of RadEditor](http://demos.telerik.com/aspnet-ajax/editor/examples/externaldialogspath/defaultcs.aspx)
-*  [Add custom columns](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/customgridcolumns/defaultcs.aspxs)
+*  [Add custom columns](https://demos.telerik.com/aspnet-ajax/fileexplorer/examples/applicationscenarios/customgridcolumns/defaultcs.aspx)
    
 
      

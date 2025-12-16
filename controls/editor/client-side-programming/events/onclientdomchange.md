@@ -65,6 +65,3 @@ Tools supporting the OnClientDomChange event:
 
 
 
-## See Also
-
- * [OnClientDomChange Live Example](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/OnClientDomChange/DefaultCS.aspx)

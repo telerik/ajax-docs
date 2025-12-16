@@ -22,7 +22,7 @@ The **Timeline View** allows you to display a variable number of slots and defin
 
 * **Number Of Slots**- Sets how many time slots are rendered in the calendar area.
 
-* **EnableExactTimeRendering**- When it is enabled the appointment does not occupy the entire time slot if its start/end time does not match the time slot start/end time. The default value is **false** so the advanced edit form is the only way to determine what is exact appointment start/end time.
+* **EnableExactTimeRendering**- When enabled the appointment does not occupy the entire time slot if its start/end time does not match the time slot start/end time. The default value is **false** so the advanced edit form is the only way to determine what is exact appointment start/end time.
 
 * **ShowInsertArea**- When enabled it keeps an extra space in each row where user to double click and have the ability to add an appointment.
 
@@ -56,8 +56,8 @@ The **Timeline View** allows you to display a variable number of slots and defin
 ### ColumnDateFormat 
 
 
-The **Timeline View** allows you to format the date dispalyed in the column headers by adjusting its **ColumnHeaderDateFormat** property. 
-This property requires a valid [Standard date and time format string]("https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings").
+The **Timeline View** allows you to format the date shown in the column headers by adjusting its **ColumnHeaderDateFormat** property. 
+This property requires a valid [Standard date and time format string](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
 ````ASPX
 <telerik:RadScheduler runat="server" ID="RadScheduler1">

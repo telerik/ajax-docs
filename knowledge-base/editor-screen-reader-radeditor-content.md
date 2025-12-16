@@ -49,6 +49,6 @@ Add this script to your webpage where the RadEditor is initialized. This modific
 
 ## See Also
 
-- [RadEditor Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/overview)
+- [RadEditor Overview]({%slug editor/overview%})
 - [Enabling ARIA Support](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/accessibility-and-internationalization/wai-aria-support)
  

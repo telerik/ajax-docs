@@ -69,9 +69,3 @@ To insert a page break on each group change when exporting RadGrid to PDF, follo
     ````
 
 This setup ensures that each group in the RadGrid starts on a new page in the exported PDF by utilizing a hard page break at the end of each group.
-
-## See Also
-
-- [RadGrid Export to PDF Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-formats/export-to-pdf)
-- [RadGrid Grouping Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/grouping/grouping)
-- [Customizing RadGrid PDF Export](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/exporting/export-to-pdf/pdf-export-customization)

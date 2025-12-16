@@ -383,5 +383,5 @@ By editing the editor's ToolsFile.xml file you easily customize the editor's too
 
 ## See Also
 
- * [Default Configuration](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/Default/DefaultCS.aspx)
+ * [Default Configuration](https://demos.telerik.com/aspnet-ajax/editor/examples/editortoolbars/defaultcs.aspx)
  * [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%})
