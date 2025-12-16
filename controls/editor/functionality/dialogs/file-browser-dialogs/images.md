@@ -112,7 +112,7 @@ The **Image manager** offers a new feature named **Image Editor**, which provide
 
  * [File Managers](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/FileManagers/DefaultCS.aspx)
 
- * [Adding Custom Dialogs](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/CustomDialogs/DefaultCS.aspx)
+ * [Adding Custom Dialogs](https://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/defaultcs.aspx)
 
  * [Upload Large Files (maxRequestLength)]({%slug editor/functionality/dialogs/examples/upload-large-files-(maxrequestlength)%})
 

@@ -37,7 +37,7 @@ For the of sample in the article, a Kit code is placed in the \<body> tag.
 
 ## Use Font Awesome icon as ItemIcon or RootIcon
 
-Set the desired Font Awesome class to the `ItemClass` property of the desired **BreadcrumbItem** and ensure the `ShowIcon` property is set to *'true'* (for RootItem, `ShowIcon` is true by default). Check out how to use the Font Awesome classes in the [Font Awesome - Basic Use]("https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use") article.
+Set the desired Font Awesome class to the `ItemClass` property of the desired **BreadcrumbItem** and ensure the `ShowIcon` property is set to *'true'* (for RootItem, `ShowIcon` is true by default). Check out how to use the Font Awesome classes in the [Font Awesome - Basic Use](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) article.
 
 ````ASP.NET
 <telerik:BreadcrumbItem Type="RootItem" IconClass="fas fa-house-user" />

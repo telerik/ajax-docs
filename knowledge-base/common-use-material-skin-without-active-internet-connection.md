@@ -65,13 +65,13 @@ The second approach is to create a local CDN where you will make the changes to 
 4. Ensure that this change will be persisted when you upgrade our controls and the relevant CDN files.
 
 
-**Note**: With this approach you will need to ensure the correct font variation is available. You can use the following site as a starting point: [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto). When you click the `Select This Font` in the top right-hand side you will get a popup with links that contain the appropriate code and URLs for your browser, depending on the fonts it supports (e.g., woff, ttf, eot). This is where you will need to tweak your setup.
+**Note**: With this approach you will need to ensure the correct font variation is available. You can use the following site as a starting point: [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto). When you click the `Select This Font` in the top right-hand side you will get a popup with links that contain the appropriate code and URLs for your browser, depending on the fonts it supports (for example .woff, .ttf, .eot). This is where you will need to tweak your setup.
 
   
   
 ### Prevent the references to fonts.gstatic.com
 
-If the [Content Security Policy is enabled in IIS](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/content-security-policy), you may experience calls to https://fonts.gstatic.com. The presence of the *font-src 'self'* section causes Chrome to evaluate all fonts on the page and this will also trigger requests to the Google cloud for the Roboto font, even if it is not used by the page (i.e., the Material skin is not used).   
+If the [Content Security Policy is enabled in IIS](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/content-security-policy), you may experience calls to `https://fonts.gstatic.com`. The presence of the *font-src 'self'* section causes Chrome to evaluate all fonts on the page and this will also trigger requests to the Google cloud for the Roboto font, even if it is not used by the page (i.e., the Material skin is not used).   
 
 You can find more details on the topic in the documentation: [UI for ASP.NET AJAX and CSP](https://docs.telerik.com/devtools/aspnet-ajax/general-information/troubleshooting/content-security-policy#ui-for-aspnet-ajax-and-csp).
 

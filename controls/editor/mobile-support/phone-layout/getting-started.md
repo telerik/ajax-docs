@@ -41,7 +41,7 @@ You can utilize the **Phone Layout** by following these steps:
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	(*You can read more about why this is needed in MDN's [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) article*)
+	(*You can read more about why this is needed in MDN's [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport) article*)
 
 1. Run the created page under your phone's browser.
 

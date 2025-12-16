@@ -18,7 +18,7 @@ To overcome those issues, **RadGrid** provides SEO (Search-Engine Optimized) pag
 
 When a result is found by the search engine and the user clicks on the provided link, the browser navigates directly to the particular grid page. This intelligent mechanism is possible because when in SEO mode **RadGrid** passes the page in the URL as shown below:
 
-**http://www.mySite.com/Default.aspx?RadGrid1ChangePage=6&RadGrid2ChangePage=8**
+**[mysite.com]/Default.aspx?RadGrid1ChangePage=6&RadGrid2ChangePage=8**
 
 This mechanism works even if the Web page contains multiple grids. For example, the above URL will open RadGrid1 on page 6 and RadGrid2 on page 8.
 

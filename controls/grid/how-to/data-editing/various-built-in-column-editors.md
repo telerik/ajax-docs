@@ -15,7 +15,7 @@ position: 5
 
 ##
 
-[This example](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) and [this one](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) demonstrate how to configure various built-in column editors for updating/inserting records in RadGrid.
+The [Column Types](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) and [Binary Images and RadAsyncUpload in Grid](https://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) examples demonstrate how to configure various built-in column editors for updating/inserting records in RadGrid.
 
 Telerik RadGrid supports all widely used column types as well built-in columns with other controls as editors (RadDatePickers, RadDateInput, RadNumericTextBox, RadMaskedTextBox, RadComboBox, RadEditor and RadUpload). Thus you can define that the new data entries input by the end user will have an automatic filter criteria set and at the same time expose richer user experience. In addition, two-way data-binding is supported out-of-the-box and you do not need to write a single line of code to update/insert/delete records in the grid having any column editor type (see the source code under the tabs below).
 
@@ -145,14 +145,6 @@ A demo project which mirrors the presented functionality can be found [here](htt
 
 Additional resources about how to integrate custom editors in Telerik RadGrid you can find below:
 
-[Using RadComboBox as editor in template column of RadGrid](https://www.telerik.com/support/kb/article/b454K-gmk-b454T-cbb.aspx)
-
-[Using RadDatePicker/RadDateTimePicker as editors in template columns of RadGrid](https://www.telerik.com/support/kb/article/b454K-gmg-b454T-cbb.aspx)
-
-[Using RadEditor as editor in template column of RadGrid](https://www.telerik.com/support/kb/article/b454K-tae-b454T-cbb.aspx)
-
-[ Using Telerik RadComboBox with AutoComplete as a custom editor in Telerik RadGrid ](https://www.telerik.com/support/kb/article/b454K-gca-b454T-cbb.aspx)
-
 ## See Also
 
- * [Online example](https://demos.telerik.com/aspnet/Controls/Examples/Integration/GridEditorAndCombo/DefaultCS.aspx)
+ * [Online example](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/column-types/defaultcs.aspx)

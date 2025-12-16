@@ -119,5 +119,4 @@ Table styling in read-only mode requires inline styles or CSS due to RadEditor r
 
 ## See Also
 
-- [RadEditor Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/content-area/appearance-styling)
 - [Styling Tables with CSS](https://www.w3schools.com/css/css_table.asp)

@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-The **RadDiagram** control is built on top of the [Kendo UI DataViz Diagram](https://demos.telerik.com/kendo-ui/dataviz/diagram/index.html). This means that you can interact with the diagram entirely on the client-side.
+The **RadDiagram** control is built on top of the [Kendo UI DataViz Diagram](https://demos.telerik.com/kendo-ui/diagram/index). This means that you can interact with the diagram entirely on the client-side.
 
 ## Getting the RadDiagram Client-side Object
 

@@ -75,5 +75,5 @@ By following these steps, the RadSearchBox will remember the user's last search 
 ## See Also
 
 - [RadSearchBox Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/searchbox/overview)
-- [RadSearchBox Client-Side Programming](https://docs.telerik.com/devtools/aspnet-ajax/controls/searchbox/client-side-programming/overview)
+- [RadSearchBox Client-Side Programming]({%slug searchbox/client-side-programming/radsearchbox-object%})
 - [Using LocalStorage in Web Applications](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)

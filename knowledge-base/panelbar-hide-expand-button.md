@@ -26,13 +26,11 @@ I want to hide the expand/collapse button in the [RadPanelBar](https://docs.tele
 
 Hide the expand/collapse button in the RadPanelBar control by applying the following CSS class:
 
-```css
-<style type="text/css">
-    .rpExpandHandle {
-        visibility: hidden;
-    }
-</style>
-```
+````css
+.rpExpandHandle {
+    visibility: hidden;
+}
+````
 
 Implement this CSS class in your page where the RadPanelBar is defined. Here is an example of how to use the RadPanelBar with the CSS class applied:
 
@@ -58,4 +56,4 @@ By adding this CSS, the expand/collapse handle of the RadPanelBar items will not
 
 - [RadPanelBar Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/panelbar/overview)
 - [RadPanelBar Client-Side Programming](https://docs.telerik.com/devtools/aspnet-ajax/controls/panelbar/client-side-programming/overview)
-- [RadPanelBar Server-Side Programming](https://docs.telerik.com/devtools/aspnet-ajax/controls/panelbar/server-side-programming/overview)
+- [RadPanelBar Server-Side Programming](https://www.telerik.com/products/aspnet-ajax/documentation/controls/panelbar/server-side-programming/events)

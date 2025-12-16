@@ -170,4 +170,4 @@ The commands above will be rendered as buttons on the toolbar. To improve their 
  * [Adding Custom Tools](https://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)
  * [Set Button State]({%slug editor/functionality/toolbars/buttons/set-button-state%})
  * [RadEditor Render Modes]({%slug editor/mobile-support/render-modes%})
- * [Server-Side API](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/ServersideAPI/DefaultCS.aspx)
+ * [Server-Side API](https://demos.telerik.com/aspnet-ajax/editor/examples/serversideapi/defaultcs.aspx)

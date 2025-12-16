@@ -13,7 +13,7 @@ position: 0
 
 
 
-RadGrid for ASP.NET AJAX supports client-side binding to web services or page methods as demonstrated in [this](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/DeclarativeDataBinding/DefaultCS.aspx) and [this](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/DataBinding/DefaultCS.aspx) online demo of the product. In order to assign data source for the grid and refresh its state on the client, utilize the [ set_dataSource(dataSource) ]({%slug grid/client-side-programming/gridtableview-object/methods/set_datasource%}) and [dataBind()]({%slug grid/client-side-programming/gridtableview-object/methods/databind%}) methods from its client-side API. Keep in mind that the data source passed as an argument to the set_dataSource method should have JSON signature which can be serialized by a web service or a page method.
+RadGrid for ASP.NET AJAX supports client-side binding to web services or page methods as demonstrated in the [Declarative Binding](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/DeclarativeDataBinding/DefaultCS.aspx) and [Programmatic Binding](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/DataBinding/DefaultCS.aspx) online demos of the product. In order to assign data source for the grid and refresh its state on the client, utilize the [ set_dataSource(dataSource) ]({%slug grid/client-side-programming/gridtableview-object/methods/set_datasource%}) and [dataBind()]({%slug grid/client-side-programming/gridtableview-object/methods/databind%}) methods from its client-side API. Keep in mind that the data source passed as an argument to the set_dataSource method should have JSON signature which can be serialized by a web service or a page method.
 
 All grid commands will raise the OnCommand client grid event which can be intercepted in order to cancel the default operation and perform a custom action client-side.
 
@@ -27,30 +27,30 @@ Below are some important points that you need to have in mind when utilizing the
 >
 
 
-More information about how to use web services and expose them to page methods/client scripts in ASP.NET AJAX can be gathered from the following MSDN resources: [https://www.asp.net/ajax/documentation/live/tutorials/ExposingWebServicesToAJAXTutorial.aspx](https://www.asp.net/ajax/documentation/live/tutorials/ExposingWebServicesToAJAXTutorial.aspx)
-
-[https://www.w3schools.com/webservices/default.asp](https://www.w3schools.com/webservices/default.asp)
-
 ## Declarative client-side binding
 
-This [first example](https://demos.telerik.com/aspnet-ajax-beta/Grid/Examples/Client/DeclarativeDataBinding/DefaultCS.aspx) demonstrates how to use declarative client-side data-binding.
+This [Declarative Binding](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/declarative/defaultcs.aspx) example demonstrates how to use declarative client-side data-binding.
 
 RadGrid declarative client-side data-binding is very similar to **ObjectDataSource** data-binding. You need to specify **SelectMethod** and **SelectCountMethod** (if needed) along with **Location** property and the grid will automatically invoke the specified method as **PageMethod** or **WebService method**:
 
 ````ASP.NET
-...
 <ClientSettings> 
-  <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetData" SelectCountMethod="GetCount" /> 
+    <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetData" SelectCountMethod="GetCount" /> 
 </ClientSettings>
-...
 ````
 
 
 
->caution  **Important: These methods should be marked with 
-[WebMethod attribute](https://msdn.microsoft.com/en-us/library/byxd99hx(VS.71).aspx)** . Example:
->[WebMethod(EnableSession=true)]public List<MyBusinessObject> GetData(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression){...}
->
+>caution  These methods should be marked with 
+[WebMethod attribute](https://learn.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-web-services).
+
+````C#
+[WebMethod(EnableSession=true)]
+public List<MyBusinessObject> GetData(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression) 
+{
+    ...
+}
+````
 
 
 In the *ClientSettings.DataBinding* section you can also specify the following properties:
@@ -75,9 +75,7 @@ In the *ClientSettings.DataBinding* section you can also specify the following p
 To change values on the fly of any of the grid declarative client-side data-binding properties you can use the **OnDataBinding** client-side event:
 
 ````ASP.NET
-...
 <ClientEvents OnDataBinding="RadGrid1_DataBinding" />
-...
 ````
 
 
@@ -111,16 +109,12 @@ The grid will check automatically for "data" and "count" and will not execute a 
 
 ## Client-side caching
 
-[This example](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Caching/DefaultCS.aspx) demonstrates how to enable/disable the grid client-side caching.
-
 RadGrid can cache data on the client based on the current grid state. To enable/disable this feature you can use the **ClientSettings.DataBinding.EnableCaching** property (its default value is false):
 
 ````ASP.NET
-...
 <ClientSettings> 
-  <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetDataAndCount" EnableCaching="true" /> 
+    <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetDataAndCount" EnableCaching="true" /> 
 </ClientSettings>
-...
 ````
 
 
@@ -129,7 +123,7 @@ With client-side caching enabled RadGrid will store the start row index, maximum
 
 ## Non-declarative client-side binding
 
-[The second client-side binding demo](https://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/Client/DataBinding/DefaultCS.aspx) illustrates how to:
+[The Client-Side Programmatic Binding](https://demos.telerik.com/aspnet-ajax/grid/examples/data-binding/client-side/programmatic/defaultcs.aspx) illustrates how to:
 
 * extract information about the current page index/virtual item count or set them on the client.
 

@@ -23,7 +23,7 @@ To install and configure Telerik UI for ASP.NET AJAX in ASP.NET Web Forms (.NET 
 
 You can find more details in the following resources:
 - [Getting Started](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/first-steps-msi)
-- [Prerequisites](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/installation/technical-information)
+- [Prerequisites]({%slug getting-started/prerequisites/browser-support%})
 - [Video Onboarding](https://docs.telerik.com/devtools/aspnet-ajax/getting-started/virtual-classroom)
 - [Telerik Visual Studio Extensions Overview - Create Project](https://docs.telerik.com/devtools/aspnet-ajax/integration/visual-studio/visual-studio-extensions/overview)
  

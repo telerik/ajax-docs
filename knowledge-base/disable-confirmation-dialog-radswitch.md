@@ -64,4 +64,4 @@ By implementing the above steps, the confirmation dialog will no longer appear w
 ## See Also
 
 - [RadSwitch Overview](https://docs.telerik.com/devtools/aspnet-ajax/controls/switch/overview)
-- [Client-Side Events of RadSwitch](https://docs.telerik.com/devtools/aspnet-ajax/controls/switch/client-side-programming/events)
+- [Client-Side Events of RadSwitch]({%slug switch/client-side-programming/overview%})

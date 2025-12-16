@@ -115,6 +115,3 @@ ID="RadEditor1">
 >note Safari and Chrome do not offer **onpaste** event and for that reason the **OnClientPasteHtml** event of RadEditor is not fired in these browsers when the paste command (Ctrl+V) is executed.
 
 
-## See Also
-
- * [OnClientPasteHtml Live Example](https://demos.telerik.com/aspnet/prometheus/Editor/Examples/OnClientPasteHtml/DefaultCS.aspx)

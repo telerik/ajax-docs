@@ -178,8 +178,8 @@ End Sub
 
  * [EditForm Types]({%slug treelist/data-editing/edit-mode/editform-types%})
 
- * [NET 2.0 Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net2automaticdataediting/defaultcs.aspx)
+ * [Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net2automaticdataediting/defaultcs.aspx)
 
- * [NET 3.5 Automatic CRUD operations demo](https://demos.telerik.com/aspnet-ajax/treeList/examples/dataediting/net35automaticdataediting/defaultcs.aspx)
+ * [CRUD Operations with EntityDataSource demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/dataediting/net35automaticdataediting/defaultcs.aspx)
 
- * [Form Template/User Control edit form](https://demos.telerik.com/aspnet-ajax-beta/treeList/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)
+ * [Form Template/User Control edit form demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/dataediting/formtemplateusercontrol/defaultcs.aspx)

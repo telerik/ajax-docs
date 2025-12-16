@@ -46,12 +46,6 @@ Facebook seem to track the origin of the requests, so it often blocks when testi
 
 When using the external buttons we do not render the HTML or scripts for them, but we leave this task to the other company's scripts. This means thatthe HTML is rendered in an iframe with its src chosen by the scripts. Therefore their events cannot be cancelled, as JavaScript does not allow accessing pages from other domains (the so called cross-domain scripting security limitation).
 
-# See Also
 
- * [Veronika Rieglerova's blog](http://rieglerova.net/)
 
- * [Google developer reference page for the PlusOne button](https://developers.google.com/+/plugins/+1button/)
-
- * [Google browser support](http://googleenterprise.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html)
-
- * [Google PlusOne button forums](http://www.google.com/support/forum/p/Webmasters/label?lid=1f91cc0e87a8ed93)
+ 
