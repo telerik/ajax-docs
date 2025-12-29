@@ -54,16 +54,17 @@ This article will show you how to export a Database to a \*.sql script and the 
   
  1. In the \*.sql script, the first two rows should be something similar to
 
- ````
+````SQL
 USE [DatabaseName]
 GO
- ````
+````
  
  Here in the brackets, you can *use the name of the database* you would like to populate.
- ````
+
+````SQL
 USE [YourDatabaseName]
 GO
- ````
+````
  
  1. Click the "**! Execute**" button, or use the** F5** shortcut for it.
  
