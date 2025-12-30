@@ -42,7 +42,7 @@ This tutorial will walk you through creating a Web page that uses the **RadTextB
 ![RadDateInput Properties](images/RadDateInputProperties.png "RadDateInput Properties")
 
 1. In the properties pane for the **RadTextBox** control, set the **Label** property to "Name:". Note that a label automatically appears in the **RadTextbox** control.
-![RadTextBox Label](images/RadTextBoxLabel.png "RadTextBox Label"
+![RadTextBox Label](images/RadTextBoxLabel.png "RadTextBox Label")
 
 1. In the **Behavior** section of the properties pane, locate the **SelectionOnFocus** property and change it to "SelectAll". This causes the entire text in the text box to become selected when focus moves to the text box so that it is replaced when the user starts typing. Other options move the caret to the beginning or end of the text box.
 ![Selection on Focus](images/RadTextBoxSelectionOnFocus.png "Selection on Focus")

@@ -18,7 +18,7 @@ position: 2
 
 Add a RadTagCloud control in the default page of a new ASP.NET AJAX-enabled Web Application.
 
-	![Getting Started with the Telerik WebForms TagCloud](images/tagcloud_getting_started01.png "Getting Started with the Telerik WebForms TagCloud")
+![Getting Started with the Telerik WebForms TagCloud](images/tagcloud_getting_started01.png "Getting Started with the Telerik WebForms TagCloud")
 
 In the Source view of the .aspx page, find the definition of the TagCloud, and add the `<Items></Items>` inner property.
 
@@ -45,4 +45,4 @@ Set the following properties in the Properties Window of RadTagCloud **Width="40
 
 Press F5 to run the application. When a tag is clicked the browser navigates to the respective Wikipedia article.
 
-	![RadTagCloud](images/tagcloud_getting_started02.png)
+![RadTagCloud](images/tagcloud_getting_started02.png)
