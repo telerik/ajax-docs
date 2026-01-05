@@ -28,24 +28,25 @@ You can control the chart plot area dimensions via the provided `Margin` setting
 
 * Code behind: 
 
-```C#
+````C#
 RadHtmlChart1.PlotArea.Appearance.TextStyle.Margin = String.Format(``"{0} {1} {2} {3}"``, marginTop.Value, marginRight.Value, marginBottom.Value, marginLeft.Value);
-```
-```VB
+````
+````VB
 RadHtmlChart1.PlotArea.Appearance.TextStyle.Margin = String.Format("{0} {1} {2} {3}", marginTop.Value, marginRight.Value, marginBottom.Value, marginLeft.Value)
-```
+````
 
 
 * or inline:
 
-```ASP.NET
+````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="RadarAreaChart" Width="400" Height="400" Transitions="true" Skin="Silk">
     <PlotArea>
         <Appearance>
             <TextStyle Margin="-170 -150 -150 -100" />
         </Appearance>
-        ...
-```
+    </PlotArea>
+</telerik:RadHtmlChart>
+````
 
 
 

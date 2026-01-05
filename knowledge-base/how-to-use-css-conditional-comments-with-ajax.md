@@ -46,11 +46,11 @@ The AjaxManager looks for link or style tags and adds them to the page on AJAX r
 
 * Move the conditional comments out of the `Head` tag. As a result, they will not be updated by the AjaxManager but will still be applied depending on the used browser. This workaround is also valid for XHTML 1.1 as the HTML comments are skipped by the HTML validator:
 
-    ````ASP.NET
+````ASP.NET
 <body>
 	<!--[if lte IE 6]>     <link rel="stylesheet" type="text/css" href="ie6.css" />    <![endif]-->
 <form id="form1" runat="server">
-    ````
+````
 
 
 

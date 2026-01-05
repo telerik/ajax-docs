@@ -57,13 +57,17 @@ Follow these steps to create a global resource file to localize the RadWizard:
 >note The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >
 
-	For example, add the **RadWizard.fr-FR.resx** file to the App_GlobalResources folder (both localization files should be present there):
-	![wizard-localization-resource-file](images/wizard-localization-resource-file.png)
+For example, add the **RadWizard.fr-FR.resx** file to the App_GlobalResources folder (both localization files should be present there):
+
+![wizard-localization-resource-file](images/wizard-localization-resource-file.png)
+
 4. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the Localization property.
-	![wizard-localization-resource-file-edit](images/wizard-localization-resource-file-edit.png)
+
+![wizard-localization-resource-file-edit](images/wizard-localization-resource-file-edit.png)
+
 >caution Make sure that the **ReservedResource** entry is preserved. It is used for identification purposes and is never displayed.
 >
 
-	You can now switch the resource file RadWizard uses with the new one:
-	
-	![wizard-localization-property-culture](images/wizard-localization-property-culture.png)
+You can now switch the resource file RadWizard uses with the new one:
+
+![wizard-localization-property-culture](images/wizard-localization-property-culture.png)

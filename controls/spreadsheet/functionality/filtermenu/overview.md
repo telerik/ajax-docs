@@ -57,13 +57,13 @@ function enableFilterMenu() {
   * **Filter by condition**  - If this option is selected from the dialog, you will have the ability to select another option from a dropdown. This dropdown contains predefined filter conditions. Selecting one of the options, you will filter the cells in the specified column, hence, only the cells, which content matched the selected criteria will be visible.(see **Figure 2**)
   
 	**Figure 2**: 
-	![Filter By Condition](images/spreadsheet-filtermenu-bycondition.png)
+![Filter By Condition](images/spreadsheet-filtermenu-bycondition.png)
 
  
   * **Filter by value** - This functionality enables you to manage the visibility of the cells that matches a specific value filled in the textbox area  Once a given value is filled in the textbox, you will be able to observe the cells' content that matches this value in the area below(see **Figure 3**).
   
  >caption **Figure 3** demonstrates an examplary content of a Column's cells and how the Filter by value can be applied
-	![Data in Column cells](images/spreadsheet-columndata.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Filter column data by value](images/spreadsheet-filterbyvalue.png)        
+![Data in Column cells](images/spreadsheet-columndata.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Filter column data by value](images/spreadsheet-filterbyvalue.png)        
  
  ## See Also
 [RadSpreadsheet FilterSort Demo](https://demos.telerik.com/aspnet-ajax/spreadsheet/examples/filterandsort/defaultcs.aspx)

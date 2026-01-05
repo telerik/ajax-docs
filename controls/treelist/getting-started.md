@@ -19,7 +19,7 @@ This tutorial will walk you through creating a Web page that contains a RadTreeL
 1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed UI for ASP.NET AJAX controls. In this folder, find the "Northwind.mdf" file and copy it into the App_Data folder of your Web application. The Solution Explorer for your application may look something like the following:
 ![App_Data](images/treelist_gettingstarted1.png "App_Data")
 
-2. Using the RadTreeList Smart tag expand the drop-down list labelled **Choose Data Source** and select ```<New data source...>``:
+2. Using the RadTreeList Smart tag expand the drop-down list labelled **Choose Data Source** and select `<New data source...>`:
 ![Smart tag](images/treelist_designtime1.png "Smart tag]")
 
 3. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select "SQL Database" and click OK:

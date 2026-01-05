@@ -32,43 +32,36 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 
 1. Provide an appropriate container for the control, for example, `asp:Panel`.
 
-1. Instantiate your user control in the `Page_Init` or `Page_Load` event and always re-create the last loaded user control.
+2. Instantiate your user control in the `Page_Init` or `Page_Load` event and always re-create the last loaded user control.
 
-
-
-    ````C#
+````C#
 UserControl MyControl = (UserControl)LoadControl(controlName);
 LoadMyUserControl(CurrentControl, Panel1);
-    ````
-    ````VB
+````
+````VB
 Dim MyControl As UserControl = Me.LoadControl(controlName)
 Me.LoadMyUserControl(Me.CurrentControl, Panel1)
-    ````
+````
 
+3. Assign a unique ID to the dynamically loaded user control.
 
-1. Assign a unique ID to the dynamically loaded user control.
-
-
-
-    ````C#
+````C#
 string userControlID = controlName.Split('.')[0];
 MyControl.ID = userControlID.Replace("/", "").Replace("~", "");
-    ````
-    ````VB
+````
+````VB
 Dim userControlID As String = controlName.Split(".")(0)
 MyControl.ID = userControlID.Replace("/", "").Replace("~", "")
-	
-    ````
+````
 
+4. Place the instance inside the controls collection of the container:
 
-1. Place the instance inside the controls collection of the container:
-
-    ````VB
+````C#
 Parent.Controls.Add(MyControl)
-	
-    ````
-
-
+````
+````VB
+Parent.Controls.Add(MyControl)
+````
 
 The following example demonstrates how to implement the previous steps in a simple scenario.
 
@@ -106,30 +99,32 @@ protected void Page_Load(object sender, EventArgs e)
 {
 	if (this.CurrentControl != string.Empty)
 	{
-	    LoadMyUserControl(CurrentControl, Panel1);
+            LoadMyUserControl(CurrentControl, Panel1);
 	}
 }
+
 protected void Button1_Click(object sender, EventArgs e)
 {
-	this.LoadMyUserControl("~/WebUserControl1.ascx", Panel1);
+	LoadMyUserControl("~/WebUserControl1.ascx", Panel1);
 }
+
 protected void Button2_Click(object sender, EventArgs e)
 {
-	this.LoadMyUserControl("~/WebUserControl2.ascx", Panel1);
+	LoadMyUserControl("~/WebUserControl2.ascx", Panel1);
 }
-	
+
 private string CurrentControl
 {
 	get
 	{
-	    return this.ViewState["CurrentControl"] == null ? string.Empty : (string)this.ViewState["CurrentControl"];
+        return this.ViewState["CurrentControl"] == null ? string.Empty : (string)this.ViewState["CurrentControl"];
 	}
 	set
 	{
-	    this.ViewState["CurrentControl"] = value;
+        this.ViewState["CurrentControl"] = value;
 	}
 }
-	
+
 private void LoadMyUserControl(string controlName, Control parent)
 {
 	parent.Controls.Clear();
@@ -139,7 +134,6 @@ private void LoadMyUserControl(string controlName, Control parent)
 	parent.Controls.Add(MyControl);
 	this.CurrentControl = controlName;
 }
-	
 ````
 ````VB
 	

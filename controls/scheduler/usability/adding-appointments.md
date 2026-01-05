@@ -18,9 +18,9 @@ To create an appointment using **RadScheduler**:
 
 1. <br/>
 	* If the **StartInsertingInAdvancedForm** property is **False** (the default), the in-line editor appears:
-		![Inline Insert](images/scheduler_inlineinsert.png)
+![Inline Insert](images/scheduler_inlineinsert.png)
 	* If the **StartInsertingInAdvancedForm** property is **True**, the advanced insert form appears instead: 
-		![Edit Form Insert](images/scheduler_editforminsert.png)
+![Edit Form Insert](images/scheduler_editforminsert.png)
 1. Enter the subject of the appointment in the in-line editor or insert form that appears.
 
 1. If you are done, click “**Save**” button to insert the appointment.
