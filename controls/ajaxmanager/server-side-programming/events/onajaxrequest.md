@@ -11,7 +11,7 @@ position: 0
 
 # OnAjaxRequest
 
-The `AjaxRequest` event occurs when triggered by the client-side [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}) function or the server-side [`RaisePostBackEvent()``]({%slug ajaxmanager/server-side-programming/methods%}) method. 
+The `AjaxRequest` event occurs when triggered by the client-side [`ajaxRequest()`]({%slug ajaxmanager/client-side-programming/overview%}) function or the server-side [`RaisePostBackEvent()`]({%slug ajaxmanager/server-side-programming/methods%}) method. 
 
 The event cannot be cancelled. The `AjaxRequest` event handler receives a single string argument.
 

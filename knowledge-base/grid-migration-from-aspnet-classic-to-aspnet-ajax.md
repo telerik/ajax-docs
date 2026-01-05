@@ -24,27 +24,27 @@ To migrate a Web application from **RadGrid** "Classic" to **RadGrid** for ASP.N
 
 - Replace the classic **RadGrid** directive
 
-    ````XML
-    <%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadGrid.Net2" %>
-    ````
+````XML
+<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadGrid.Net2" %>
+````
 
 with the new one of RadGrid for ASP.NET AJAX:
 
-    ````XML
-    <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
-    ````
+````XML
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+````
 
 - Replace the classic **RadGrid** controls declarations:
 
-    ````XML
-    <rad:RadGrid ID="RadGrid1" runat="server" ...
-    ````
+````XML
+<rad:RadGrid ID="RadGrid1" runat="server" ...
+````
 
 with the new RadGrid declarations:
 
-    ````XML
-    <telerik:RadGrid ID="RadGrid1" runat="server" ...
-    ````
+````XML
+<telerik:RadGrid ID="RadGrid1" runat="server" ...
+````
 
 - In the code behind, update the **using** (C#) or **Imports** (VB) statements. Replace "Telerik.WebControls" with the new "Telerik.Web.UI" namespace.
 
