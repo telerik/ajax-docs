@@ -1716,6 +1716,7 @@ meta:
   api:
     title: API Reference
     position: 30
+    pdfHidden: true
   upgrade-compatibility/upgrading-instructions:
     title: Upgrading
     position: 10
