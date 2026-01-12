@@ -12,6 +12,14 @@ position: 4
 
 Learn about the latest changes, improvements and bug fixes in the Telerik AJAX AI Coding Assistant. The updates are structured in a chronological order with the newest ones appearing first.
 
+## January, 2026 Changelog
+
+### Highlights
+
+- The MCP server automatically recognizes your Telerik license and grants access to the appropriate tools based on your license type.
+- **NuGet distribution**&mdash;The MCP server is now distributed via NuGet instead of npm.
+- **Simplified Installation**&mdash;Unified installation process for both AI tools through a single MCP server configuration. See the [Installation Guide]({%slug ai/mcp-server#installation%}) for details.
+
 ## October, 2025 Changelog
 
 ### Highlights
