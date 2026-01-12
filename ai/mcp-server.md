@@ -15,37 +15,36 @@ The Telerik AJAX [MCP Server](https://modelcontextprotocol.io/docs/getting-start
 
 ## Prerequisites
 
-To use the Telerik Telerik AJAX MCP server, you need:
+To use the Telerik AJAX MCP server, you need:
 
-* [Node.js](https://nodejs.org/en) 18 or a newer version.
+* A [Telerik UI for ASP.NET AJAX](https://www.telerik.com/purchase.aspx?filter=dotnet#individual-products) subscription license or a DevCraft subscription license to access the AI Coding Assistant. Alternatively, you can start a [30-day AI Tools trial](https://www.telerik.com/mcp-servers-blazor/thank-you).
 * A [compatible MCP client (IDE, code editor or app)](https://modelcontextprotocol.io/clients) that supports *MCP tools*. Using the latest version of the MCP client is highly recommended.
 * A [Telerik user account](https://www.telerik.com/account/).
 * An active [DevCraft or Telerik UI for ASP.NET AJAX license](https://www.telerik.com/purchase/individual/aspnet-ajax.aspx) or a [Telerik UI for ASP.NET AJAX trial](https://www.telerik.com/products/aspnet-ajax.aspx).
 * A [WebForms application that includes Telerik UI for ASP.NET AJAX]({%slug getting-started/adding-the-telerik-controls-to-your-project%}).
-
-Check [AI Coding Assistant Overview]({%slug ai/overview%}) for more recommendations and usage information.
+* [.NET 10](https://dotnet.microsoft.com/en-us/download)
 
 ## Installation
 
-To install the Telerik MCP server, use the documentation of your AI-powered MCP client. You can enable the MCP server for specific workspaces or globally. The sections below provide installation tips and examples for some popular MCP clients like [Visual Studio](#visual-studio), [VS Code](#vs-code), and [Cursor](#cursor). The generic settings of the Telerik Telerik AJAX MCP server are:
+Use the documentation of your AI-powered MCP client to add the Telerik MCP server to a specific workspace or globally. You can see installation tips and examples for some popular MCP clients below.
 
-* npm package name: `@progress/telerik-ajax-mcp`
+The generic settings of the Telerik ASP.NET AJAX MCP server are:
+
+* Server name: `telerik-ajax-assistant`  (depends on your preferences)
 * Type: `stdio` (standard input/output transport)
-* Command: `npx`
-* Arguments: `-y`
-* Server name: `telerik_ajax_assistant`. This name depends on your preferences. The suggestion here matches the MCP tool name in the npm package. See the notes below.
-* Your [Telerik license key](#license-key) as an `env` parameter
+* Command: `dnx` (the MCP server works through an nuget package)
+* Supported arguments: `--yes`
+* nuget package name: `Telerik.Ajax.MCP`
+* You also need to add your [Telerik licence key](https://www.telerik.com/account/your-licenses/license-keys). Place the file at `%AppData%/Telerik/telerik-license.txt`; 
+
+    OR alternatively:
+
+    * Use a `TELERIK_LICENSE_PATH` argument and point to your Telerik license file location.
+    * Use a `TELERIK_LICENSE` argument and paste your Telerik license key. Make sure to [update the license key](https://www.telerik.com/account/your-licenses/license-keys) when necessary.
 
 > * Some MCP clients expect the MCP servers to be listed under a `servers` JSON key, while others expect `mcpServers`.
-> * Some MCP clients expect an `mcp.json` file, while others like Visual Studio 2022 expect an `.mcp.json` file.
+> * Some MCP clients expect an `mcp.json` file, while others like Visual Studio expect an `.mcp.json` file.
 > * Some MCP clients, including older Visual Studio versions, may not accept a server name that uses hyphens (`-`) or underscores (`_`). In such cases, update the MCP client version or use a different server name.
-
-### License Key
-
-To use the Telerik MCP Server, your configuration must provide your [Telerik licence key]({%slug licensing/license-key %}) as an `env` parameter in the MCP `.json` file. There are two options:
-
-* Use a `TELERIK_LICENSE_PATH` argument and point to your Telerik license file location. This approach is recommended, unless you are sharing your VS Code settings across different computers with different operating systems or user names.
-* Use a `TELERIK_LICENSE` argument and paste your Telerik license key. Make sure to update the license key when necessary.
 
 ### Visual Studio
 
@@ -62,11 +61,12 @@ To enable the Telerik MCP Server in a specific WebForms app, add a `.mcp.json` f
   "servers": {
     "telerik-ajax-assistant": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-ajax-mcp@latest" ],
-      "env": {
-        "TELERIK_LICENSE_PATH": "C:\\Users\\___\\AppData\\Roaming\\Telerik\\telerik-license.txt"
-      }
+      "command": "dnx",
+      "args": [
+        "Telerik.Ajax.MCP",
+        "--source",
+        "--yes"
+      ]
     }
   }
 }
@@ -93,11 +93,12 @@ To enable the Telerik MCP Server in a specific [workspace](https://code.visualst
   "servers": {
     "telerik-ajax-assistant": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-ajax-mcp@latest" ],
-      "env": {
-        "TELERIK_LICENSE_PATH": "C:\\Users\\___\\AppData\\Roaming\\Telerik\\telerik-license.txt"
-      }
+      "command": "dnx",
+      "args": [
+        "Telerik.Ajax.MCP",
+        "--source",
+        "--yes"
+      ]
     }
   }
 }
@@ -127,13 +128,39 @@ To [enable the Telerik MCP Server in a specific workspace, WebForms app, or glob
   "servers": {
     "telerik-ajax-assistant": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-ajax-mcp@latest" ],
-      "env": {
-        "TELERIK_LICENSE_PATH": "C:\\Users\\___\\AppData\\Roaming\\Telerik\\telerik-license.txt"
-      }
+      "command": "dnx",
+      "args": [
+        "Telerik.Ajax.MCP",
+        "--source",
+        "--yes"
+      ]
     }
   }
+}
+````
+
+### .NET 8 & 9 Local Tool Installation
+
+For .NET 8 and 9 projects, you can install the MCP server as a local tool without global installation:
+
+```bash
+dotnet tool install Telerik.Ajax.MCP
+```
+
+#### MCP Configuration for .NET 8 & 9 Local Tools
+
+For VS Code `.vscode/mcp.json` using local tools:
+
+````JSON
+{
+  "servers": {
+    "telerik-ajax-assistant": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["tool", "run", "telerik-ajax-assistant"]
+    }
+  },
+  "inputs": []
 }
 ````
 
