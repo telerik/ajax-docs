@@ -23,7 +23,7 @@ To use the Telerik AJAX AI Coding Assistant, you need:
 * A [WebForms application that includes Telerik UI for ASP.NET AJAX]({%slug getting-started/adding-the-telerik-controls-to-your-project%}).
 * A [Telerik Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik Telerik AJAX AI Coding Assistant without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year](#usage-limits).
 
-## Intended Use
+## Use Cases
 
 You can use the Telerik AI Coding Assistant for:
 
@@ -34,8 +34,6 @@ You can use the Telerik AI Coding Assistant for:
 * Preliminary troubleshooting: Resolve obvious and easy-to-solve issues affecting your code. For more complex issues, search the product documentation or look for assistance from the community.
 
 >warning Always double-check the suggested code and solutions of any AI-powered tool before applying them to your app.
-
-> The Telerik AI Coding Assistant is not intended for styling and theme customization. If you are looking for AI-powered styling and theming, check out [Telerik ThemeBuilder](https://www.telerik.com/themebuilder).
 
 ## Recommendations
 
