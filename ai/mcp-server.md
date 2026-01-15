@@ -11,7 +11,7 @@ position: 2
 
 # Telerik AJAX MCP Server
 
-The Telerik AJAX [MCP Server](https://modelcontextprotocol.io/docs/getting-started/intro) lets you interact with AI and reach new levels of developer productivity. The MCP server provides proprietary context to AI-powered IDEs, apps and tools. You can use the Telerik AJAX MCP server for AJAX AI code generation and ask about [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx), features, or general usage. You can successfully prompt more complex questions and tasks, and generate tailored code that includes Telerik UI for ASP.NET AJAX components and API.
+The Telerik AJAX [MCP Server](https://modelcontextprotocol.io/docs/getting-started/intro) lets you interact with AI and reach new levels of developer productivity. The MCP server provides proprietary context to AI-powered IDEs, apps and tools. You can use the [Telerik AJAX MCP server](https://www.nuget.org/packages/Telerik.Ajax.MCP) for AJAX AI code generation and ask about [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx), features, or general usage. You can successfully prompt more complex questions and tasks, and generate tailored code that includes Telerik UI for ASP.NET AJAX components and API.
 
 ## Prerequisites
 

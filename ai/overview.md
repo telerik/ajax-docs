@@ -10,7 +10,7 @@ position: 1
 
 # Telerik AJAX AI Coding Assistant Overview
 
-The Telerik AJAX AI Coding Assistant improves your developer experience and increases your productivity when implementing WebForms apps that include Telerik UI for ASP.NET AJAX. The coding assistant is an AI code generator that provides proprietary context to AI models in order to produce higher quality code samples with the [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx) and API.
+The [Telerik AJAX AI Coding Assistant](https://www.nuget.org/packages/Telerik.Ajax.MCP) improves your developer experience and increases your productivity when implementing WebForms apps that include Telerik UI for ASP.NET AJAX. The coding assistant is an AI code generator that provides proprietary context to AI models in order to produce higher quality code samples with the [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx) and API.
 
 The Telerik AI Coding Assistant is integrated in the [WebForms MCP Server]({%slug ai/mcp-server%}). The MCP server can handle more complex prompts that require several requests to the AI model. An MCP-enabled client like Cursor or GitHub Copilot in **Agent** mode can directly suggest changes to your app and even rebuild it to verify the new AI generated code.
 
