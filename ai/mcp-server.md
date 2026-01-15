@@ -32,7 +32,7 @@ The generic settings of the Telerik ASP.NET AJAX MCP server are:
 
 * Server name: `telerik-ajax-assistant`  (depends on your preferences)
 * Type: `stdio` (standard input/output transport)
-* Command: `dnx` (the MCP server works through an nuget package)
+* Command: `dnx` (the MCP server works through a nuget package https://www.nuget.org/packages/Telerik.AspNetMvc.MCP)
 * Supported arguments: `--yes`
 * nuget package name: `Telerik.Ajax.MCP`
 * You also need to add your [Telerik licence key](https://www.telerik.com/account/your-licenses/license-keys). Place the file at `%AppData%/Telerik/telerik-license.txt`; 
