@@ -46,7 +46,8 @@ The generic settings of the Telerik ASP.NET AJAX MCP server are:
 > * Some MCP clients expect an `mcp.json` file, while others like Visual Studio expect an `.mcp.json` file.
 > * Some MCP clients, including older Visual Studio versions, may not accept a server name that uses hyphens (`-`) or underscores (`_`). In such cases, update the MCP client version or use a different server name.
 
-### Visual Studio
+<TabStrip>
+<TabStripTab title="Visual Studio">
 
 For detailed instructions, refer to [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers).
 
@@ -54,29 +55,26 @@ For detailed instructions, refer to [Use MCP servers in Visual Studio](https://l
 
 To enable the Telerik MCP Server in a specific WebForms app, add a `.mcp.json` file to the solution folder.
 
->caption .mcp.json
-
 ````JSON
 {
   "servers": {
-    "telerik-ajax-assistant": {
-      "type": "stdio",
-      "command": "dnx",
-      "args": [
-        "Telerik.Ajax.MCP",
-        "--source",
-        "--yes"
-      ]
+      "telerik-ajax-assistant": {
+        "type": "stdio",
+        "command": "dnx",
+        "args": [
+          "Telerik.Ajax.MCP",
+          "--yes"
+        ]
     }
   }
-}
+} 
 ````
 
 To enable global automatic discovery of the Telerik MCP Server in Visual Studio, add the above `.mcp.json` file to your user directory (`%USERPROFILE%`), for example, `C:\Users\____\.mcp.json`.
 
 > Once the Telerik MCP server is added, make sure that the `telerik_ajax_assistant` tool is [enabled (checked) in the Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server). This dropdown opens when clicking on a wrench icon 🔧 at the bottom of the Copilot Window. The Telerik MCP server may get disabled when starting a new chat, changing threads, or relaunching Visual Studio. This is a known issue with MCP servers in general.
-
-### VS Code
+</TabStripTab>
+<TabStripTab title="Visual Studio Code">
 
 For detailed instructions, refer to [Use MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
 
@@ -91,14 +89,13 @@ To enable the Telerik MCP Server in a specific [workspace](https://code.visualst
 ````JSON
 {
   "servers": {
-    "telerik-ajax-assistant": {
-      "type": "stdio",
-      "command": "dnx",
-      "args": [
-        "Telerik.Ajax.MCP",
-        "--source",
-        "--yes"
-      ]
+      "telerik-ajax-assistant": {
+        "type": "stdio",
+        "command": "dnx",
+        "args": [
+          "Telerik.Ajax.MCP",
+          "--yes"
+        ]
     }
   }
 }
@@ -114,8 +111,8 @@ To use the Telerik MCP server in all workspaces and apps, make sure that [`chat.
   "chat.mcp.discovery.enabled": true,
 }
 ````
-
-### Cursor
+</TabStripTab>
+<TabStripTab title="Cursor">
 
 For detailed instructions, refer to [Model Context Protocol](https://docs.cursor.com/context/mcp).
 
@@ -126,18 +123,19 @@ To [enable the Telerik MCP Server in a specific workspace, WebForms app, or glob
 ````JSON
 {
   "servers": {
-    "telerik-ajax-assistant": {
-      "type": "stdio",
-      "command": "dnx",
-      "args": [
-        "Telerik.Ajax.MCP",
-        "--source",
-        "--yes"
-      ]
+      "telerik-ajax-assistant": {
+        "type": "stdio",
+        "command": "dnx",
+        "args": [
+          "Telerik.Ajax.MCP",
+          "--yes"
+        ]
     }
   }
 }
 ````
+</TabStripTab>
+</TabStrip>
 
 ### .NET 8 & 9 Local Tool Installation
 
