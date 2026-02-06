@@ -14,23 +14,7 @@ The [Telerik AJAX AI Coding Assistant](https://www.nuget.org/packages/Telerik.Aj
 
 The Telerik AI Coding Assistant is integrated in the [WebForms MCP Server]({%slug ai/mcp-server%}). The MCP server can handle more complex prompts that require several requests to the AI model. An MCP-enabled client like Cursor or GitHub Copilot in **Agent** mode can directly suggest changes to your app and even rebuild it to verify the new AI generated code.
 
->warning **Кnown Issue: Hanging tool calls in Visual Studio**
->
-> When using Telerik AI tools in Visual Studio, GitHub Copilot may:
->
-> * **hang** during tool invocation;
-> * show UI for a successful tool response, but actually **fail silently**;
-> * continue generation without waiting for **parallel tool calls**.
->
->
-> In these cases, the response may be generated but not provided to the Copilot Agent UI.
->
-> This is a known issue in Visual Studio Copilot, not related to Telerik MCP servers or AI tools, and does not reproduce in VS Code.
->
-> For more details, see the related Visual Studio Developer Community issue:  
-https://developercommunity.visualstudio.com/t/Copilot-stopped-working-after-latest-upd/10936456
->
-> Microsoft has acknowledged the issue and marked it as **Fixed - Pending Release**. A future Visual Studio update is expected to resolve it.
+>warning **Кnown Issue: Hanging tool calls in Visual Studio** (see [Troubleshooting]({%slug ai/troubleshooting%})).
 
 ## Getting Started
 
