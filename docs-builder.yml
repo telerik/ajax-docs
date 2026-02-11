@@ -1703,6 +1703,9 @@ meta:
   controls/speechtotextbutton:
     title: SpeechToTextButton
     position: 1
+  controls/smartpastebutton:
+    title: SmartPasteButton
+    position: 1
   api/server:
     title: Server-side
     position: 2

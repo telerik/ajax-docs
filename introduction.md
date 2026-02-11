@@ -126,6 +126,7 @@ The following table lists all available Telerik UI for ASP.NET AJAX components.
          <IntroTableAnchor title="Ticker" href="slug:rotator/data-binding/binding-radticker"></IntroTableAnchor>
       </IntroTableSection>
       <IntroTableSection title="Navigation">
+         <IntroTableAnchor title="SmartPasteButton" href="slug:smartpastebutton/overview"></IntroTableAnchor>
          <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Breadcrumb" href="slug:breadcrumb/overview"></IntroTableAnchor>
          <IntroTableAnchor title="Button" href="slug:button/teleriks-asp.net-button-overview"></IntroTableAnchor>
