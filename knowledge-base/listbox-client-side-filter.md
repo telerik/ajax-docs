@@ -68,6 +68,7 @@ Notes:
 <telerik:RadListBox ID="rlbAvailable" runat="server"
     Height="250px"
     Width="250px"
+    Skin="Bootstrap"
     AllowTransfer="true"
     AllowTransferOnDoubleClick="true"
     TransferToID="rlbChosen"
@@ -91,21 +92,18 @@ Notes:
 ````
 
 ````JavaScript
-// Function to filter the items in the list box
 function filterList() {
-    var listbox = $find("<%= rlbAvailable.ClientID %>");
-    var textbox = $find('<%= tbAvailableFilter.ClientID %>');
+    let listbox = $find("<%= rlbAvailable.ClientID %>");
+    let textbox = $find('<%= tbAvailableFilter.ClientID %>');
 
-    // Clear any previous emphasis and create a list with matching items
-    clearListEmphasis(listbox);
-    createMatchingList(listbox, textbox.get_textBoxValue());
+    clearListEmphasis(listbox); // Clear any previous emphasis
+    createMatchingList(listbox, textbox.get_textBoxValue()); // Create a list with matching items
 }
 
-// Function to remove emphasis from matching text in ListBox items
-function clearListEmphasis(listbox) {
-    var re = new RegExp("</{0,1}em>", "gi");
-    var items = listbox.get_items();
-    var itemText;
+function clearListEmphasis(listbox) { // Remove emphasis from matching text in ListBox items
+    let re = new RegExp("</{0,1}em>", "gi");
+    let items = listbox.get_items();
+    let itemText;
 
     items.forEach(function (item) {
         itemText = item.get_text();
@@ -113,62 +111,57 @@ function clearListEmphasis(listbox) {
     });
 }
 
-// Function to emphasize matching text in ListBox items and hide non-matching items
-function createMatchingList(listbox, filterText) {
-    if (filterText != "") {
+function createMatchingList(listbox, filterText) { // Emphasize matching text in ListBox items and hide non-matching items
+    if (filterText !== "") {
         filterText = escapeRegExCharacters(filterText);
 
-        var items = listbox.get_items();
-        var re = new RegExp(filterText, "i");
+        let items = listbox.get_items();
+        let re = new RegExp(filterText, "i");
 
         items.forEach(function (item) {
-            var itemText = item.get_text();
+            let itemText = item.get_text();
 
             if (itemText.match(re)) {
-                item.set_text(itemText.replace(re, "<em>$&</em>"));
+                let highlightedText = itemText.replace(re, "<em>$&</em>");
+                let element = item.get_element();
+                let textElement = element.querySelector('.rlbText');
+
+                if (textElement) {
+                    textElement.innerHTML = highlightedText;
+                }
+
                 item.set_visible(true);
             } else {
                 item.set_visible(false);
             }
         });
     } else {
-        // If no filter text provided, show all items
-        var items = listbox.get_items();
+        let items = listbox.get_items(); // If no filter text provided, show all items
         items.forEach(function (item) {
             item.set_visible(true);
         });
     }
 }
 
-// Function called when items are being transferred from the list box
 function rlbAvailable_OnClientTransferring(sender, eventArgs) {
-    // Clear emphasis from transferred items
-    clearListEmphasis(sender);
-    // Clear the filter text
-    clearFilterText();
-    // Refresh the list to show all items
-    createMatchingList(sender, "");
+    clearListEmphasis(sender); // Clear emphasis from transferred items
+    clearFilterText(); // Clear the filter text
+    createMatchingList(sender, ""); // Refresh the list to show all items
 }
 
-// Function called when the clear button is clicked
 function rbtnClear_OnClientClicking(sender, eventArgs) {
-    // Clear the filter text
-    clearFilterText();
-    // Get the list box control
-    var listbox = $find("<%= rlbAvailable.ClientID %>");
-    // Clear any emphasis and show all items
-    clearListEmphasis(listbox);
+    clearFilterText(); // Clear the filter text
+    let listbox = $find("<%= rlbAvailable.ClientID %>"); // Get the list box control
+    clearListEmphasis(listbox); // Clear any emphasis and show all items
     createMatchingList(listbox, "");
 }
 
-// Function to clear the filter text
 function clearFilterText() {
-    var textbox = $find('<%= tbAvailableFilter.ClientID %>');
+    let textbox = $find('<%= tbAvailableFilter.ClientID %>');
     textbox.clear();
 }
 
-// Function to escape special characters for use in regular expressions
-function escapeRegExCharacters(text) {
+function escapeRegExCharacters(text) { // Escape special characters for use in regular expressions
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 }
 ````
