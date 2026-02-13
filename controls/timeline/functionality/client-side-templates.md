@@ -25,7 +25,7 @@ You can also define custom properties, which will be later accessible through th
     <EventTemplate>
                 <div class="k-card-header">
                     <h5 class="k-card-title">#= data.title #</h5>
-                    <h6 class="k-card-subtitle"><strong>#= kendo.toString(data.date, "MMM d, yyyy")#</strong></h6>
+                    <h6 class="k-card-subtitle"><strong>#= 	$telerik._kendo.toString(data.date, "MMM d, yyyy")#</strong></h6>
                 </div>
                 <div class="k-card-body">
                     <div class="k-card-description">

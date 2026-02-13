@@ -57,8 +57,8 @@ The following example demonstrates how to implement a simple [Kendo UI Template]
 ````JavaScript
 function renderCustomTemplate(sender) {
     // register template
-    var QUOTE_CARD_TEMPLATE = kendo.template($('#quote-template').html());
-    kendo.chat.registerTemplate("quote", QUOTE_CARD_TEMPLATE);
+    var QUOTE_CARD_TEMPLATE = $telerik._kendo.template($('#quote-template').html());
+    $telerik._kendo.chat.registerTemplate("quote", QUOTE_CARD_TEMPLATE);
 
     var chat = sender;
     chat.renderAttachments({

@@ -41,12 +41,12 @@ You can do the following steps, in order to assign programmatically DateTime val
 			<telerik:ScatterLineSeries Name="Stock A">
 				<LabelsAppearance>
 					<ClientTemplate>
-						#= kendo.format(\'{0:d/MM/yyyy}\', new Date(value.x)) #,  #=kendo.format(\'{0:C0}\',value.y)#
+						#= $telerik._kendo.format(\'{0:d/MM/yyyy}\', new Date(value.x)) #,  #=$telerik._kendo.format(\'{0:C0}\',value.y)#
 					</ClientTemplate>
 				</LabelsAppearance>
 				<TooltipsAppearance Color="White">
 					<ClientTemplate>
-						#= kendo.format(\'{0:d/MM/yyyy}\', new Date(value.x)) #,  #=kendo.format(\'{0:C0}\',value.y)#
+						#= $telerik._kendo.format(\'{0:d/MM/yyyy}\', new Date(value.x)) #,  #=$telerik._kendo.format(\'{0:C0}\',value.y)#
 					</ClientTemplate>
 				</TooltipsAppearance>
 			</telerik:ScatterLineSeries>

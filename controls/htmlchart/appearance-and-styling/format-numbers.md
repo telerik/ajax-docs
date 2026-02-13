@@ -41,12 +41,12 @@ KendoUI number and date formats can be used inside the Client Templates. In orde
 
 * format:
 	* Formats the corresponding values from the indicated column to the specified format.
-	(e.g. `ClientTemplate="#= kendo.format(\'{0:C2}\', dataItem.myColumn)#"`).
+	(e.g. `ClientTemplate="#= $telerik._kendo.format(\'{0:C2}\', dataItem.myColumn)#"`).
 	
 	* The numeric format strings listed above are applicable parameters for the `format()` function.
 
-* parseFloat—parses a string to a floating point number (e.g. `ClientTemplate="#= kendo.parseFloat(dataItem.FloatColumn)#")`;
-* parseInt—parses a string to an integer (e.g. `ClientTemplate="#= kendo.parseInt(dataItem.IntColumn)#")`;
+* parseFloat—parses a string to a floating point number (e.g. `ClientTemplate="#= $telerik._kendo.parseFloat(dataItem.FloatColumn)#")`;
+* parseInt—parses a string to an integer (e.g. `ClientTemplate="#= $telerik._kendo.parseInt(dataItem.IntColumn)#")`;
 
 >note 
 >* These formats are essentially JavaScript functions and are evaluated during runtime. This means that the strings that are passed to the ClientTemplate property must be properly escaped to allow JavaScript to work with them.
