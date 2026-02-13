@@ -195,6 +195,8 @@ You can create a new skin out of an existing one by following the steps below. Y
 
 1. Make a deep copy of an existing kendo dataviz theme and apply the created JSON to it.
 ````JavaScript
+var kendo = $telerik._kendo;
+
 var themes = kendo.dataviz.ui.themes;
 var MyTheme = kendo.deepExtend({}, themes.Black, {
 	"chart": { "chartArea": { "background": "#2c232b" }, "seriesColors": ["#a7008f", "#ffb800"] }
@@ -211,6 +213,8 @@ $find("<%=RadHtmlChart1.ClientID%>").get_kendoWidget().setOptions({ theme: "MyTh
 
 ````JavaScript
 function chartLoad(chart) {
+	var kendo = $telerik._kendo; // For complience for versions prioar to 2026 Q1, use `window.kendo` instead of `$telerik._kendo`.
+	
 	var themes = kendo.dataviz.ui.themes;
 	var MyTheme = kendo.deepExtend(
 		// Deep copy

@@ -84,7 +84,7 @@ The Schema can also be configured via the `<Schema>` tag. That would allow easy 
     <EventTemplate>
         <div class="k-card-header">
             <h5 class="k-card-title">#= data.Title #</h5><h6 class="k-card-subtitle">by <strong>#= data.Author #</strong></h6>
-            <h6 class="k-card-subtitle">Released on <strong>#= 	$telerik._kendo.toString(data.ReleaseDate, "MMM d, yyyy")#</strong></h6>
+            <h6 class="k-card-subtitle">Released on <strong>#=$telerik._kendo.toString(data.ReleaseDate, "MMM d, yyyy")#</strong></h6>
         </div>
         <div class="k-card-body">
             <div class="k-card-description">
@@ -119,7 +119,7 @@ The Schema can also be configured via the `<Schema>` tag. That would allow easy 
     <EventTemplate>
         <div class="k-card-header">
             <h5 class="k-card-title">#= data.Title #</h5><h6 class="k-card-subtitle">by <strong>#= data.Author #</strong></h6>
-            <h6 class="k-card-subtitle">Released on <strong>#= 	$telerik._kendo.toString(data.ReleaseDate, "MMM d, yyyy")#</strong></h6>
+            <h6 class="k-card-subtitle">Released on <strong>#=$telerik._kendo.toString(data.ReleaseDate, "MMM d, yyyy")#</strong></h6>
         </div>
         <div class="k-card-body">
             <div class="k-card-description">
