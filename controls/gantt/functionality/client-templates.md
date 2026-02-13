@@ -77,20 +77,20 @@ For instance:
 
 ````
 <DayView>
-    <TimeHeaderTemplate>#=kendo.toString(start, 't')#</TimeHeaderTemplate>
-    <DayHeaderTemplate>#=kendo.toString(start, 'ddd M/dd')#</DayHeaderTemplate>
+    <TimeHeaderTemplate>#=$telerik._kendo.toString(start, 't')#</TimeHeaderTemplate>
+    <DayHeaderTemplate>#=$telerik._kendo.toString(start, 'ddd M/dd')#</DayHeaderTemplate>
 </DayView>
 <WeekView>
-    <DayHeaderTemplate>#=kendo.toString(start, 'ddd M/dd')#</DayHeaderTemplate>
-    <WeekHeaderTemplate>#=kendo.toString(start, 'ddd M/dd')# - #=kendo.toString(kendo.date.addDays(end, -1), 'ddd M/dd')#</WeekHeaderTemplate>
+    <DayHeaderTemplate>#=$telerik._kendo.toString(start, 'ddd M/dd')#</DayHeaderTemplate>
+    <WeekHeaderTemplate>#=$telerik._kendo.toString(start, 'ddd M/dd')# - #=$telerik._kendo.toString($telerik._kendo.date.addDays(end, -1), 'ddd M/dd')#</WeekHeaderTemplate>
 </WeekView>
 <MonthView>
-    <WeekHeaderTemplate>#=kendo.toString(start, 'ddd M/dd')# - #=kendo.toString(kendo.date.addDays(end, -1), 'ddd M/dd')#</WeekHeaderTemplate>
-    <MonthHeaderTemplate>#=kendo.toString(start, 'MMMM, yyyy')#</MonthHeaderTemplate>
+    <WeekHeaderTemplate>#=$telerik._kendo.toString(start, 'ddd M/dd')# - #=$telerik._kendo.toString($telerik._kendo.date.addDays(end, -1), 'ddd M/dd')#</WeekHeaderTemplate>
+    <MonthHeaderTemplate>#=$telerik._kendo.toString(start, 'MMMM, yyyy')#</MonthHeaderTemplate>
 </MonthView>
 <YearView UserSelectable="true">
-    <MonthHeaderTemplate>#=kendo.toString(start, 'MMM')#</MonthHeaderTemplate>
-    <YearHeaderTemplate>#=kendo.toString(start, 'yyyy')#</YearHeaderTemplate>
+    <MonthHeaderTemplate>#=$telerik._kendo.toString(start, 'MMM')#</MonthHeaderTemplate>
+    <YearHeaderTemplate>#=$telerik._kendo.toString(start, 'yyyy')#</YearHeaderTemplate>
 </YearView>
 ````
 
@@ -138,11 +138,11 @@ With R2 2021 a Task Tooltip Template is also available in the RadGantt component
             <strong>#=kendo.htmlEncode(task.title)#</strong>
                         
             <div class="#=styles.taskDetailsPercent#">
-                Progress: #=kendo.toString(task.percentComplete, "p0")#
+                Progress: #=$telerik._kendo.toString(task.percentComplete, "p0")#
             </div>
             <ul class="#=styles.reset#">
-                <li>#=messages.start#: #=kendo.toString(task.start, "h:mm tt ddd, MMM d")#</li>
-                <li>#=messages.end#: #=kendo.toString(task.end, "h:mm tt ddd, MMM d")#</li>
+                <li>#=messages.start#: #=$telerik._kendo.toString(task.start, "h:mm tt ddd, MMM d")#</li>
+                <li>#=messages.end#: #=$telerik._kendo.toString(task.end, "h:mm tt ddd, MMM d")#</li>
             </ul>
             <span class="manager"> #= task.manager # </span>
         </div>

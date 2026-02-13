@@ -35,7 +35,7 @@ function OnClientTaskSelectionChanged(sender, eventArgs) {
 
     if (selection){
         task = kendoGantt.dataItem(selection);
-        console.log(kendo.format("{0} is selected", task.title));
+        console.log($telerik._kendo.format("{0} is selected", task.title));
     }
 }
 ````

@@ -383,7 +383,7 @@ The functionality is available through the `ClientTemplate` inner property expos
 			<ClientTemplate>
 				#if(value > 20){# 
 						Value: #=value# \n
-						Percentage: #=kendo.format(\'{0:P1}\',percentage)#
+						Percentage: #=$telerik._kendo.format(\'{0:P1}\',percentage)#
 					#} else {# Less than 20% #}
 				#
 			</ClientTemplate>
