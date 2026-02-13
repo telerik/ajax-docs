@@ -85,7 +85,7 @@ var CalendarComponent = kendo.chat.Component.extend({
             // when the user selects a date
             change: function (e) {
                 var chat = $telerik.$(this.element).closest(".RadChat")[0].control;
-                chat.postMessage('You have selected ' + kendo.toString(e.sender.value(), 'D') + '!');
+                chat.postMessage('You have selected ' + telerik._kendo.toString(e.sender.value(), 'D') + '!');
 
                 var element = e.sender.element.closest('.t-card-container');
 

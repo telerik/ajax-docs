@@ -18,6 +18,8 @@ This help articles shows how to include and use embedded and external jQuery wit
 
 1. [Including external jQuery](#including-external-jquery)
 
+1. [Embedded Kendo UI and Script Isolation (2026 Q1 and Later)](#embedded-kendo-ui-and-script-isolation-2026-q1-and-later)
+
 1. [Using the jQuery Brought by Telerik](#using-the-jquery-brought-by-telerik)
 
 1. [jQuery Version History in Telerik UI Controls](#jquery-version-history-in-telerik-ui-controls)
@@ -48,10 +50,10 @@ Here is how your RadScriptManager (or ScriptManager) should look like in the end
 
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1" >
-   <Scripts>
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-   </Scripts>
+    <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+    </Scripts>
 </telerik:RadScriptManager>
 ````
 
@@ -62,32 +64,41 @@ You can disable the embedded jQuery library and include an external one. This le
 >note Embedding a custom jQuery is optional and you can do it if you want to utilize only one version throughout your site instead of having the version that comes with the Telerik controls and an additional one. You should be safe if you reference more versions, because the jQuery in our controls is accessed via a separate alias (**$telerik.$**), the purpose of which is to avoid conflicts.
 >
 
-You can disable the jQuery scripts our controls bring by default via the following steps:
+You can disable the jQuery scripts our controls bring by default by loading the custom version of jQuery you want to use. At this point you have the jQuery embedded in the Telerik controls and the custom one that is loaded via the following code. Proceed to the next step if you want to replace the embedded version with the custom one.
 
-1. Load the custom version of jQuery you want to use. At this point you have the jQuery embedded in the Telerik controls and the custom one that is loaded via the following code. Proceed to the next step if you want to replace the embedded version with the custom one.
+From 2026 Q1 onwards: 
 
-	````ASPX
-		<head>
-			<script 
-				src="https://code.jquery.com/jquery-3.7.1.min.js"
-				integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-				crossorigin="anonymous"></script>
-		</head>
-	````
+- Set the **RadScriptManager**'s `ExternaljQueryUrl` property to the URL of the jQuery version you want to use.
+- Disable the embedded jQuery (`EnableEmbeddedjQuery="false"`) library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
 
-1. Disable the embedded jQuery library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false" ExternaljQueryUrl="url-to-jquery-version" />
+````
 
-1. Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
+For versions prior to 2026 Q1:
 
-	````ASPX
-		<telerik:RadScriptManager runat="server" ID="RadScriptManager1" EnableEmbeddedjQuery="false">
-		    <Scripts>
-		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
-		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
-		    </Scripts>
-		</telerik:RadScriptManager>
-	````
+- Load the jQuery library in the head section of your page
+- Disable the embedded jQuery (`EnableEmbeddedjQuery="false"`) library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
+- Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
+
+````ASP.NET
+<head>
+	<script 
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous"></script>
+</head>
+
+...
+
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false" >
+    <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+    </Scripts>
+</telerik:RadScriptManager>
+````
 
 You can find a demonstration in the following video: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/krq1zMFIezA?si=p9xGj92efVweL2TW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -95,6 +106,63 @@ You can find a demonstration in the following video:
 
 >important The Telerik controls depend on the specific version of jQuery they are tested against (above you can check the version that is used in each release of UI for ASP.NET AJAX). It is possible that using an older version of jQuery or a version, greater than the latestone from the [jQuery Version History in Telerik UI Controls](#jquery-version-history-in-telerik-ui-controls) section, will break the controls.
 >
+
+## Embedded Kendo UI and Script Isolation (2026 Q1 and Later)
+
+Starting with Telerik UI for ASP.NET AJAX **2026 Q1 (version 2026.1.211)**, we have introduced major improvements to the embedded scripting infrastructure.
+
+>warning **Important Change:** If your application contains custom code or Kendo Client Templates that directly reference `window.kendo`, you will need to update those references to use the scoped versions described below. Existing Telerik UI for ASP.NET AJAX components will continue to function without changes.
+>
+
+| Old Reference | New Reference |
+| ------ | ------ |
+| `kendo.toString()` | `$telerik._kendo.toString()` |
+| `kendo.format()` | `$telerik._kendo.format()` |
+| `kendo.template()` | `$telerik._kendo.template()` |
+
+Example before and after the update:
+
+Before (2025 Q4 and earlier):
+
+````C#
+PieSeries.TooltipsAppearance.ClientTemplate = "#=kendo.toString(dataItem.UnitName)#: #=kendo.toString(dataItem.DayId,\"MMM dd\")#: #=kendo.toString(dataItem." + chartName + ",\"n0\")#";
+````
+
+After (2026 Q1 and later):
+
+````C#
+PieSeries.TooltipsAppearance.ClientTemplate = "#=$telerik._kendo.toString(dataItem.UnitName)#: #=$telerik._kendo.toString(dataItem.DayId,\"MMM dd\")#: #=$telerik._kendo.toString(dataItem." + chartName + ",\"n0\")#";
+````
+
+### What's New
+
+* **Integrated the latest Kendo UI scripts (2026.1.208)** - This establishes the foundation for upcoming capabilities including Smart Components.
+
+* **Previous embedded Kendo version (2021.1.119) remains available** - All existing components continue to work without modifications.
+
+* **Kendo and jQuery are now fully encapsulated** - This prevents conflicts with external libraries.
+
+* **Scoped Kendo access** - To enable this transition safely, the Kendo scripts are now scoped under the Telerik namespace:
+
+  * **Latest Kendo (2026.1.208)**: `window.$telerik.kendo`
+  * **Previous embedded Kendo (2021.1.119)**: `window.$telerik._kendo`
+
+  This scoped approach allows both versions to coexist without interfering with each other.
+
+### When Action Is Required
+
+For most applications, **no action is required**. All existing components continue to function as before.
+
+You will need to update your code only if your application contains custom JavaScript that directly references:
+
+* `window.kendo`
+
+Update those references to use either:
+
+* `window.$telerik._kendo` - for existing embedded Telerik widgets
+* `window.$telerik.kendo` - for the latest Kendo APIs
+
+This update is only required for custom integrations that accessed the global Kendo object directly.
 
 
 ## Using the jQuery Brought by Telerik
@@ -300,3 +368,5 @@ You can find more information in the following KB article on the matter: [Vulner
  * [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%})
 
  * [Vulnerabilities of jQuery versions embedded and fixed in UI for ASP.NET AJAX](https://www.telerik.com/support/kb/aspnet-ajax/details/vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax)
+
+ * [Known Issues and Important Changes - 2026 Q1 Kendo Upgrade](https://www.telerik.com/forums/known-issues-and-important-changes#6054750)

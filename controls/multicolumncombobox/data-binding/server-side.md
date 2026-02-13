@@ -205,7 +205,7 @@ End Sub
         <telerik:MultiColumnComboBoxColumn Field="OrderID" Title="OrderID" />
         <telerik:MultiColumnComboBoxColumn Field="OrderDate" Title="OrderDate">
             <Template>
-#= kendo.toString(data.OrderDate, "dd/MM/yyyy") #
+#=$telerik._kendo.toString(data.OrderDate, "dd/MM/yyyy") #
             </Template>
         </telerik:MultiColumnComboBoxColumn>
         <telerik:MultiColumnComboBoxColumn Field="Freight" Title="Freight" />

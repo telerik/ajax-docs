@@ -18,7 +18,7 @@ Telerik makes it easy to localize the [ASP.NET AJAX Chart](https://www.telerik.c
 
 1. Set the desired culture through the kendo object.
 
-1. Apply the desired numeric format either in the **DataFormatString** property or in the **kendo.format()** method when using templates. You can see an example on this regard in the [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) help article.
+1. Apply the desired numeric format either in the **DataFormatString** property or in the **$telerik._kendo.format()** method when using templates. You can see an example on this regard in the [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) help article.
 
 >important 
 *  **ChartTitle** , **XAxis.Title** / **YAxis.Title** , **Series.Names** and text in categorical **Axes' Items** are custom strings that developers pass to the chart and are not localized by the control.
