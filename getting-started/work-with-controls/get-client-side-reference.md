@@ -96,7 +96,7 @@ It is recommended that you use server-side scripting tags and get the dynamicall
 
 Often controls are added through user controls, content templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not possible). In such scenarios, IDs are generated dynamically and getting the client-side reference from the master or parent pages cannot be done by accessing the `ClientID` property of the server-side control instance.
 
-With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use the [`attributeEndsWith` selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance even by using the server-side ID only.
+With the help of the [included jQuery]({%slug integration/jquery%}#using-the-jquery-brought-by-telerik), you can use the [`attributeEndsWith` selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance even by using the server-side ID only.
 
 >important If the same server-side ID is used with multiple controls, jQuery will return all elements that match the same ending value. You need to handle similar scenarios according to the exact requirements.
 
@@ -207,7 +207,7 @@ End Sub
 * [jQuery attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
 * [jQuery $(document).ready event](https://api.jquery.com/ready/)
 * [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
-* [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
+* [Using jQuery]({%slug integration/jquery%})
 * [Access Telerik Controls on Client-Side](https://www.telerik.com/support/kb/aspnet-ajax/details/access-telerik-controls-on-client-side)
 * [Sys.Application.add_load() vs. $(document).ready() vs. pageLoad()](https://stackoverflow.com/questions/3630341/sys-application-add-load-vs-document-ready-vs-pageload)
 

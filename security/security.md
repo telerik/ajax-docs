@@ -53,7 +53,7 @@ These tips apply across many Telerik controls and help secure your application h
    </appSettings>
   ```
 
-* **Embedded jQuery Security**: Telerik ASP.NET AJAX components embed a custom, secure version of jQuery. Learn about the security enhancements and modifications made to ensure safe usage of jQuery within Telerik controls: [Embedded jQuery Security]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#embedded-jquery-security). 
+* **Embedded jQuery Security**: Telerik ASP.NET AJAX components embed a custom, secure version of jQuery. Learn about the security enhancements and modifications made to ensure safe usage of jQuery within Telerik controls: [Embedded jQuery Security]({%slug integration/jquery%}#embedded-jquery-security). 
 
 
 ## Control-Specific Security Guidelines

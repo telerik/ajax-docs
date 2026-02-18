@@ -37,6 +37,6 @@ To solve this issue, ensure that only one version of jQuery is used in the websi
 
 1. Open **TOOLS** > **Library Package Manager** > **Package Manager Console**. Uninstall and unregister the jQuery version that is provided with the Visual Studio template by running the `PM> Uninstall-Package AspNet.ScriptManager.jQuery -Version x.x.x` command. Note that `x.x.x` is the jQuery version that comes installed with the website.
 
-1. Install and register [the jQuery version that is specific for your current Telerik controls version]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) by running the `PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x` command in the Package Manager Console. Note that `x.x.x` is the jQuery version that comes with the Telerik controls.
+1. Install and register [the jQuery version that is specific for your current Telerik controls version]({%slug integration/jquery%}) by running the `PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x` command in the Package Manager Console. Note that `x.x.x` is the jQuery version that comes with the Telerik controls.
 
 	You can still install a different version from the one included in the Telerik controls. However, this approach is not tested by the team and full compatibility cannot be guaranteed.
