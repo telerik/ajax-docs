@@ -12,7 +12,6 @@ position: 1
 
 >note This article explains how to enable JavaScript intellisense for a given Telerik control's client-side properties and methods.
 >This intellisense is different than the default JavaScript intellisense Visual Studio offers and does not affect it.
->The jQuery and Telerik Static client library intellisense are also a separate feature and are described in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}).
 
 The **Telerik® UI for ASP.NET AJAX** offer intellisense information for the **code-behind** out of the box as Visual Studio automatically loads the needed information from our assembly. It can display it without any further configuration, because the type of the variables is known.
 

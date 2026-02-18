@@ -25,7 +25,7 @@ res_type: kb
 Learn how to fix the `$telerik.$` is not a function error when using the Telerik UI for ASP.NET AJAX controls on the page
 
 ## Solution
-To use the `$telerik.$` jQuery alias in your script code, you have to have one of the controls listed in the [Telerik UI Controls Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#telerik-ui-controls-using-jquery) article on the page or import the built-in in the suite jQuery using these inner RadScriptManager tags:
+To use the `$telerik.$` jQuery alias in your script code, you have to have one of the controls listed in the [Telerik UI Controls Using jQuery]({%slug integration/jquery%}#telerik-ui-controls-using-jquery) article on the page or import the built-in in the suite jQuery using these inner RadScriptManager tags:
 
 ````ASPX
         <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -37,6 +37,6 @@ To use the `$telerik.$` jQuery alias in your script code, you have to have one o
         </telerik:RadScriptManager>
 ````
 
-You can find more information in the [Using the jQuery Brought by Telerik]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik) article.
+You can find more information in the [Using the jQuery Brought by Telerik]({%slug integration/jquery%}#using-the-jquery-brought-by-telerik) article.
  
 

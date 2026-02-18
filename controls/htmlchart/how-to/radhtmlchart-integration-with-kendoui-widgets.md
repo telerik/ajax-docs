@@ -34,7 +34,7 @@ You can easily handle that situation by configuring RadScriptManager to use the 
 	</head>
 	````
 
-2. Configure the RadScriptManager as per the **Including external jQuery** section from the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) article.
+2. Configure the RadScriptManager as per the **Including external jQuery** section from the [Using jQuery]({%slug integration/jquery%}) article.
 
 	````ASP.NET
 		<telerik:RadScriptManager EnableCdn="true" ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false">
@@ -237,6 +237,6 @@ This can be done by loading a single jQuery and considering the following script
 
  * [Kendo UI Components](https://docs.telerik.com/kendo-ui/introduction)
  
- * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
+ * [Using jQuery]({%slug integration/jquery%})
  
  * [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})

@@ -71,7 +71,7 @@ For more information on using Telerik UI for ASP.NET AJAX and Microsoft AJAX wit
 
 * [Integrating Telerik Controls with Kendo UI Widgets]({% slug integrating-telerik-controls-with-kendo-jquery-raises-issues %})
 
-* [Unobtrusive Validation Basics]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery %}#unobtrusive-validation-basics)
+* [Unobtrusive Validation Basics]({% slug integration/jquery %}#unobtrusive-validation-basics)
 
 ## Web Resources
 
