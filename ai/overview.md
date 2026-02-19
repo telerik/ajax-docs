@@ -14,8 +14,6 @@ The [Telerik AJAX AI Coding Assistant](https://www.nuget.org/packages/Telerik.Aj
 
 The Telerik AI Coding Assistant is integrated in the [WebForms MCP Server]({%slug ai/mcp-server%}). The MCP server can handle more complex prompts that require several requests to the AI model. An MCP-enabled client like Cursor or GitHub Copilot in **Agent** mode can directly suggest changes to your app and even rebuild it to verify the new AI generated code.
 
->warning **Кnown Issue: Hanging tool calls in Visual Studio** (see [Troubleshooting]({%slug ai/troubleshooting%})).
-
 ## Getting Started
 
 To use the Telerik AJAX AI Coding Assistant, you need:
