@@ -134,8 +134,8 @@ With R2 2021 a Task Tooltip Template is also available in the RadGantt component
 ````
 <TasksTooltipSettings>
     <ClientTemplate>
-        <div class="#=kendo.htmlEncode(styles.taskDetails)#" >
-            <strong>#=kendo.htmlEncode(task.title)#</strong>
+<div class="#=$telerik._kendo.htmlEncode(styles.taskDetails)#" >
+                <strong>#=$telerik._kendo.htmlEncode(task.title)#</strong>
                         
             <div class="#=styles.taskDetailsPercent#">
                 Progress: #=$telerik._kendo.toString(task.percentComplete, "p0")#

@@ -62,7 +62,7 @@ function pageLoadHandler(sender, args) {
     let newSize = Telerik.Web.UI.RadOTPInputSize.Large;
     let newFillMode = Telerik.Web.UI.RadOTPInputFillMode.Outline;
     let newRounded = Telerik.Web.UI.RadOTPInputRounded.Full;
-    let newSeparator = () => kendo.ui.icon({ icon: "code", type: "svg" });
+    let newSeparator = () => $telerik._kendo.ui.icon({ icon: "code", type: "svg" });
 
     otpInput.set_space(false);
     otpInput.set_size(newSize);

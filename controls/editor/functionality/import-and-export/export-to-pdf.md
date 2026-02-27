@@ -440,6 +440,7 @@ This approach provides the following benefits:
 <div id="dummyContentWrapper"></div>
 <script>
 	function exprotPdfOnClient() {
+	var kendo = $telerik._kendo;
 	var editorHtml = $find("<%=RadEditor1.ClientID%>").get_html(true);
 	var dummyContainer = $telerik.$("#dummyContentWrapper");
 	dummyContainer.html(editorHtml);

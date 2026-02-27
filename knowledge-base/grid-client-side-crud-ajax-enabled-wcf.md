@@ -19,7 +19,7 @@ RadGrid with Client-Side CRUD (Create, Read, Update, Delete) operations using Ra
 <script type="text/javascript">
     function ParameterMap(sender, args) {
         if (args.get_type() != "read" && args.get_data()) {
-            args.set_parameterFormat({ customersJSON: kendo.stringify(args.get_data().models) });
+            args.set_parameterFormat({ customersJSON: $telerik._kendo.stringify(args.get_data().models) });
         }
     }
 

@@ -79,6 +79,7 @@ You can see the implementation of the above steps below, as well to directly tes
 
 ```JavaScript
 function legendVisual(e) {
+    var kendo = $telerik._kendo;
     var title = e.series.index == 0 ? "Legend Title Here" : " "; //there has to be whitespace so it gets rendered
 
     // Define the target dimensions for the legend item

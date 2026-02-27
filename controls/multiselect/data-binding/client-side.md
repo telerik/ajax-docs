@@ -189,6 +189,7 @@ You can also create a new Kendo Data Source object with the desired settings and
 
 <script>
     function bindToNewData() {
+        var kendo = $telerik._kendo;
         var multiSelectWidget = $find("<%=RadMultiSelect1.ClientID%>").get_kendoWidget();
         //create a Kendo Data Source and set its settings
         //this example calls a service, but you can also use static data

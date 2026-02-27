@@ -59,6 +59,7 @@ If you need to show different markers depending on the series item value/categor
         </telerik:RadHtmlChart>
         <script>
             function markersVisual(e) {
+                var kendo = $telerik._kendo;
                 var geom = kendo.geometry;
                 var draw = kendo.drawing;
                 var origin = e.rect.origin;

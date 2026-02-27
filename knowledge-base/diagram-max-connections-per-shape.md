@@ -37,7 +37,7 @@ If project requires to specify the maximum number of allowed connections per sha
             var allowedConnections = 1;
             function onMouseEnter(e) {
                 var shape = e.item;
-                if (shape instanceof kendo.dataviz.diagram.Shape) {
+                if (shape instanceof $telerik._kendo.dataviz.diagram.Shape) {
                     currShape = shape;
                 }
             }

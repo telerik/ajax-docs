@@ -19,7 +19,7 @@ Occasionally, it is desirable to only paste the raw data into the **RadSpreadshe
 ![spreadsheet-pasted-dataonly](images/spreadsheet-pasted-dataonly.png)
 
 ````JavaScript
-kendo.spreadsheet.Clipboard.prototype.paste = function () {
+$telerik._kendo.spreadsheet.Clipboard.prototype.paste = function () {
     var sheet = this.workbook.activeSheet();
     var pasteRef = this.pasteRef();
     var content = this._content;

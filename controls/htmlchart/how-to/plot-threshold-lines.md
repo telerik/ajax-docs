@@ -57,6 +57,7 @@ function OnLoad(chart) {
 }
 
 function plotThresholdLine(chart, xSlot, ySlot, colorLine) {
+	var kendo = $telerik._kendo;
 	var path = new kendo.drawing.Path({
 		stroke: {
 			color: colorLine,
@@ -112,6 +113,7 @@ function plotThresholdLine(chart, xSlot, ySlot, colorLine) {
 
 ````JavaScript
 function visual(e) {
+	var kendo = $telerik._kendo;
 	var thresholdValue = e.dataItem["threshold" + e.series.index];
 	var thresholdColor = e.dataItem["colorField" + e.series.index];
 

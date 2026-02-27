@@ -27,7 +27,7 @@ You can fully control where and how data is displayed in the **RadDiagram** shap
 ````ASP.NET
 <script type="text/javascript">
 	var visualTemplate = function (options) {
-		var diagram = kendo.dataviz.diagram;
+		var diagram = $telerik._kendo.dataviz.diagram;
 
 		var group = new diagram.Group({
 			autoSize: true
@@ -97,7 +97,7 @@ You can fully control where and how data is displayed in the **RadDiagram** shap
 ````ASP.NET
 <script>
 	function ImageTemplate(options) {
-		var dataviz = kendo.dataviz;
+		var dataviz = $telerik._kendo.dataviz;
 		var group = new dataviz.diagram.Group({ autoSize: true });
 		var content = options.source.substring(options.source.lastIndexOf("/") + 1, options.source.lastIndexOf("."));
 

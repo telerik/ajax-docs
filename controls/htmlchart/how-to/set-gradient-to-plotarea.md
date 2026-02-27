@@ -23,6 +23,7 @@ Generally, the PlotArea of the **RadHtmlChart** doesn't provide gradient colors.
 ````JavaScript
 function chartLoad(chart) {
 	var chart = chart.get_kendoWidget();
+	var kendo = $telerik._kendo;
 	var draw = kendo.drawing;
 	var geom = kendo.geometry;
 

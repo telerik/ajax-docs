@@ -32,6 +32,7 @@ Here is the gist, and a full example with comments and explanations is attached 
 
 ````JavaScript
 function exportMultipleElements() {
+    var kendo = $telerik._kendo;
     var exportSettings = {
         forcePageBreak: ".pageBreak",
         paperSize: "A3",

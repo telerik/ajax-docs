@@ -37,7 +37,7 @@ The next example shows how to add a separator as a function using the [`kendo.ui
 
 ````JavaScript
 function onLoad(sender, args) {
-    let newSeparator = () => kendo.ui.icon({ icon: "minus", type: "svg" });
+    let newSeparator = () => $telerik._kendo.ui.icon({ icon: "minus", type: "svg" });
     sender.set_separator(newSeparator);
 }
 ````

@@ -16,9 +16,13 @@ Telerik makes it easy to localize the [ASP.NET AJAX Chart](https://www.telerik.c
 
 	>caution When using an external script the KendoUI culture script must be declared before setting the culture of the kendo object.
 
+1. Create an alias for the encapsulated Kendo instance before using culture scripts: `var kendo = $telerik._kendo;`
+
 1. Set the desired culture through the kendo object.
 
 1. Apply the desired numeric format either in the **DataFormatString** property or in the **$telerik._kendo.format()** method when using templates. You can see an example on this regard in the [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) help article.
+
+>important As of the **2026 Q1** release, Kendo UI is encapsulated within the Telerik controls and is no longer exposed as a global `window.kendo` object. You must create an alias by referencing `$telerik._kendo` before using any Kendo API (e.g., culture scripts, drawing API, data sources). See the example below.
 
 >important 
 *  **ChartTitle** , **XAxis.Title** / **YAxis.Title** , **Series.Names** and text in categorical **Axes' Items** are custom strings that developers pass to the chart and are not localized by the control.
@@ -33,13 +37,18 @@ You can see in **Example 1** and **Figure 1**, an example of a localized **PieSe
 
 ````ASP.NET
 <form id="form1" runat="server">
+	<asp:ScriptManager runat="server" ID="ScriptManager1">
+	</asp:ScriptManager>
+	<script type="text/javascript">
+		// Create an alias for the encapsulated Kendo instance exposed through $telerik._kendo.
+		// This is required as of the 2026 Q1 release where window.kendo is no longer globally available.
+		var kendo = $telerik._kendo;
+	</script>
 	<script type="text/javascript" src="kendo/js/cultures/kendo.culture.fr-FR.min.js"></script>
 	<script type="text/javascript">
 		kendo.culture("fr-FR");
 	</script>
 	<!--Where "fr-FR" is the desired culture-->
-	<asp:ScriptManager runat="server" ID="ScriptManager1">
-	</asp:ScriptManager>
 	<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Height="400px" Width="400px">
 		<PlotArea>
 			<Series>

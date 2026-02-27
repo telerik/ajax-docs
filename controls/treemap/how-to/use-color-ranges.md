@@ -23,7 +23,7 @@ To set a color for an item so that all its siblings take a different shade of it
 </telerik:RadTreeMap>
 <script>
 	; (function () {
-		var kendo = window.kendo,
+		var kendo = $telerik._kendo,
 			dataviz = kendo.dataviz,
 			deepExtend = kendo.deepExtend;
 

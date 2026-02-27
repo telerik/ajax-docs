@@ -213,7 +213,7 @@ $find("<%=RadHtmlChart1.ClientID%>").get_kendoWidget().setOptions({ theme: "MyTh
 
 ````JavaScript
 function chartLoad(chart) {
-	var kendo = $telerik._kendo; // For complience for versions prioar to 2026 Q1, use `window.kendo` instead of `$telerik._kendo`.
+	var kendo = $telerik._kendo; // For versions prior to 2026 Q1, use `window.kendo` instead of `$telerik._kendo`.
 	
 	var themes = kendo.dataviz.ui.themes;
 	var MyTheme = kendo.deepExtend(

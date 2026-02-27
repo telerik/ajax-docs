@@ -25,8 +25,8 @@ function OnClientExcelExport(sender, args) {
     alert("Export to Excel has been disabled.");
 }
 
-var original_triggerDialog = kendo.spreadsheet.TabStrip.prototype._triggerDialog;
-kendo.spreadsheet.TabStrip.prototype._triggerDialog = function (args) {
+var original_triggerDialog = $telerik._kendo.spreadsheet.TabStrip.prototype._triggerDialog;
+$telerik._kendo.spreadsheet.TabStrip.prototype._triggerDialog = function (args) {
     original_triggerDialog.call(this, args);
     if (args.name == "exportAs") {
         var exportDialog = this.element.closest(".RadSpreadsheet").getKendoSpreadsheet()._view._dialogs[0];

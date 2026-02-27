@@ -73,7 +73,7 @@ The **saveAsPDF** method is a shortcut for [exportPDF](https://docs.telerik.com/
 	function onLoad(diagram) {
 		var diagramWidget = diagram.get_kendoWidget();
 		diagramWidget.exportPDF().done(function (data) {
-			kendo.saveAs({
+			$telerik._kendo.saveAs({
 				dataURI: data,
 				fileName: "diagram.pdf"
 			});

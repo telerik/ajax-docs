@@ -527,6 +527,7 @@ The following example demonstrates how to set the HtmlChart.
     <!--Only needed for a stock layout -->
     <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/stock.js" />
     <!--Only needed for a localized chart. Where kendo/js/cultures/ is the folder that stores the KendoUI JS culture files and the "fr-FR" string is the name of the desired culture -->
+    <!--As of 2026 Q1, you must create an alias `var kendo = $telerik._kendo;` before the culture script loads. See the Localization article for details.-->
     <asp:ScriptReference Path="kendo/js/cultures/kendo.culture.fr-FR.min.js" />
     <asp:ScriptReference Path="~/Scripts/HtmlChart/RadHtmlChart.js" />
 </Scripts>

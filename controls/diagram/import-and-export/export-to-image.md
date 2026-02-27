@@ -41,7 +41,7 @@ You can export **RadDiagram** as an image on the client. This is done in two sim
 	function onLoad(diagram) {
 		var diagramWidget = diagram.get_kendoWidget();
 		diagramWidget.exportImage().done(function (data) {
-			kendo.saveAs({
+			$telerik._kendo.saveAs({
 				dataURI: data,
 				fileName: "diagram.png"
 			});

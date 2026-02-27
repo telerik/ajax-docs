@@ -185,6 +185,7 @@ The JavaScript code logic written based on the instructions from the [Working wi
                 }
 
                 // Change the DataSource of the Country MultiColumnComboBox
+                var kendo = $telerik._kendo;
                 var dataSource = sender.get_kendoWidget().dataSource;
                 var clientDataSource = $telerik.findControl(document, "RadClientDataSource1")
                 var query = new kendo.data.Query(clientDataSource.get_kendoWidget().data());

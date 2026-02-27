@@ -99,7 +99,7 @@ function onShapeCreated(e) {
     var center = bbox.center(); // We need the center, in order to later display the label exactly on it.
 
     var labelText = e.shape.dataItem.properties.name; // The JSON file with the states has their corresponding name, so the label text will be the name of each state
-    var label = new kendo.drawing.Text(labelText);
+    var label = new $telerik._kendo.drawing.Text(labelText);
     label.options.fill.color = "#FFFFFF"; // Set the color to white
     var labelCenter = label.bbox().center(); 
 

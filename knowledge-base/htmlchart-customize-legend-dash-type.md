@@ -73,6 +73,7 @@ Here's a code snippet demonstrating this solution:
 
 ````JavaScript
 legendItemVisual = function (e) {
+    var kendo = $telerik._kendo;
     var color = e.options.markers.background;
     var labelColor = e.options.labels.color ? e.options.labels.color : "#000";
     var rect = new kendo.geometry.Rect([0, 0], [200, 50]);

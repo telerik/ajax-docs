@@ -60,7 +60,7 @@ chat.renderMessage({
     type: "text",
     text: "Hello Kendo Chat"
 }, {
-    id: kendo.guid(),
+    id: $telerik._kendo.guid(),
     name: "Sample User",
     iconUrl: "https://demos.telerik.com/kendo-ui/content/web/chat/avatar.png"
 });

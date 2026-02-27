@@ -72,6 +72,7 @@ position: 1
 </telerik:RadMultiColumnComboBox>
 <script>
 	function OnLoad(sender, args) {
+		var kendo = $telerik._kendo;
 		var dataSource = new kendo.data.DataSource({
 			data: [
 				{ id: 1, name: "Apples", isAvailable: true, fruitType: "regular" },

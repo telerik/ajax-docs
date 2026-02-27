@@ -43,6 +43,7 @@ Web service binding creates a Kendo DataSource and applies the grouping settings
 ````ASP.NET
 <script>
 	function OnLoad(sender, args) {
+		var kendo = $telerik._kendo;
 		var data = [
 			{ id: 1, name: "one", color: "red" },
 			{ id: 2, name: "two", color: "green" },

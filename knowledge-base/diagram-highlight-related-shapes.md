@@ -75,7 +75,7 @@ In this article you will see how to highlight all shapes connected to the curren
             function onClick(e) {
                 ClearHighlights();
 
-                if (e.item instanceof kendo.dataviz.diagram.Shape) {
+                if (e.item instanceof $telerik._kendo.dataviz.diagram.Shape) {
                     var shape = e.item;
                     var conns = shape.connections();
                     for (var i = 0; i < conns.length; i++) {

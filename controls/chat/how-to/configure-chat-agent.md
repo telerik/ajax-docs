@@ -56,7 +56,7 @@ function onPost(sender, args) {
 ````JavaScript
 
 // configure the Chat Agent
-var DirectLineAgent = kendo.Class.extend({
+var DirectLineAgent = $telerik._kendo.Class.extend({
     init: function (chat, secret) {
         this.chat = chat;
         this.iconUrl = "https://demos.telerik.com/kendo-ui/content/chat/avatar.png";

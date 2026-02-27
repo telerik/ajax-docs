@@ -51,6 +51,7 @@ function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
 var lastColour = "none";
 
 Pie_CurvedEnds = function (e) {
+    var kendo = $telerik._kendo;
     var seg = e.createVisual(); //get original segment geometry
 
     var circRad = (e.radius - e.innerRadius) / 2; //end cap radius
