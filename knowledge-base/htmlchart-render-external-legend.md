@@ -86,6 +86,7 @@ In some scenarios, you might need to render the legend outside of RadHtmlChart (
 
         <script>
             function onChartLoad(chartObj, args) {
+                var kendo = $telerik._kendo;
                 var chart = $find("RadHtmlChart1").get_kendoWidget();
 
                 var viewModel = kendo.observable({
@@ -251,6 +252,7 @@ Creating an external legend for a pie chart is a bit more specific, as the chart
 
             function onChartLoad(chartObj, args) {
 
+                var kendo = $telerik._kendo;
                 chart = $find("<%=RadHtmlChart1.ClientID%>").get_kendoWidget();
                 var seriesData = chart.dataSource.options.data;
                 

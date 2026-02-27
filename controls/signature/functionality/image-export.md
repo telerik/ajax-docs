@@ -28,7 +28,7 @@ To achieve this functionality, retrieve the base64 value of the Signature by usi
         }
 
         function exportAsPngClicked(sender, args) {
-            kendo.saveAs({
+            $telerik._kendo.saveAs({
                 dataURI: signature.get_value(),
                 fileName: "signature.png"
             })

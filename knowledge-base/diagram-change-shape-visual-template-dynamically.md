@@ -24,7 +24,7 @@ For this purpose, you will need to:
 ````JavaScript
 <script>
 function my_circle(options) {
-    var ns = kendo.dataviz.diagram;
+    var ns = $telerik._kendo.dataviz.diagram;
     var group = new ns.Group({ autoSize: true });
  
     var circle = new ns.Circle({ radius: options.width / 2, fill: { color: options.fill.color } });
@@ -32,7 +32,7 @@ function my_circle(options) {
     return group;
 }
 function my_rect(options) {
-    var ns = kendo.dataviz.diagram;
+    var ns = $telerik._kendo.dataviz.diagram;
     var group = new ns.Group({ autoSize: true });
  
     var rect = new ns.Rectangle({ height: options.height, width: options.width, fill: options.fill });
@@ -55,7 +55,7 @@ function my_rect(options) {
 function OnShapeClick(args) {
     var shape = args.item;
  
-    if (shape instanceof kendo.dataviz.diagram.Shape) {
+    if (shape instanceof $telerik._kendo.dataviz.diagram.Shape) {
         shape.redraw({ visual: my_circle });
         shape.redrawVisual();
     }

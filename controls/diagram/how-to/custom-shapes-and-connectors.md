@@ -57,12 +57,12 @@ When you need to create a custom shape, which bounds does not match with the pos
 <script type="text/javascript">
 	function getRightPosition(shape) {
 		var p = shape.bounds().right();
-		return new kendo.dataviz.diagram.Point(p.x, p.y + 25);
+		return new $telerik._kendo.dataviz.diagram.Point(p.x, p.y + 25);
 	}
 
 	function getLeftPosition(shape) {
 		var p = shape.bounds().left();
-		return new kendo.dataviz.diagram.Point(p.x, p.y + 25);
+		return new $telerik._kendo.dataviz.diagram.Point(p.x, p.y + 25);
 	}
 </script>
 <telerik:RadDiagram ID="RadDiagram2" runat="server">

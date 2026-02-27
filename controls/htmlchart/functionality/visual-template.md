@@ -82,7 +82,8 @@ The function that will create the custom visual receives arguments that provide 
 
 	**JavaScript**
 		
-		var drawing = kendo.drawing,
+var kendo = $telerik._kendo;
+	var drawing = kendo.drawing,
 			geometry = kendo.geometry,
 			columnWidth;
 

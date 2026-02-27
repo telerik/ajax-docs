@@ -37,7 +37,7 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
 	function OnLoad(sender, args) {
 		var $ = $telerik.$;
 		var kendoMap = sender.get_kendoWidget();
-		var Extent = kendo.dataviz.map.Extent;
+		var Extent = $telerik._kendo.dataviz.map.Extent;
 		
 		// Get the Markers collection
 		var markers = kendoMap.markers.items;
@@ -146,7 +146,7 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
 
     function startScaling(map, markers) {
         var $ = $telerik.$;
-        var Extent = kendo.dataviz.map.Extent;
+        var Extent = $telerik._kendo.dataviz.map.Extent;
 
         var markerLocations = [];
         

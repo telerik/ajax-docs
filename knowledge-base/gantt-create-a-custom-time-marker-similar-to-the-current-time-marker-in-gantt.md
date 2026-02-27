@@ -46,7 +46,7 @@ In the following example, we use the CSS class .k-status-line for the new line e
         var currentTime = date;
         var timeOffset = ganttView._offset(currentTime);
         var element = $('<div class=\'k-status-time\'></div>');
-        var viewStyles = kendo.ui.GanttView.styles;
+        var viewStyles = $telerik._kendo.ui.GanttView.styles;
         var tablesWrap = $("." + viewStyles.tasksWrapper);
         var tasksTable = $("." + viewStyles.tasksTable);
         var slot;

@@ -54,7 +54,7 @@ Passing an object containing the new connectors of the shape to its [redraw()](h
         function OnShapeClick(args) {
             var shape = args.item;
   
-            if (shape instanceof kendo.dataviz.diagram.Shape) {
+            if (shape instanceof $telerik._kendo.dataviz.diagram.Shape) {
                 var newOptons = {
                     visual: my_triangle,
                     connectors: [
@@ -68,7 +68,7 @@ Passing an object containing the new connectors of the shape to its [redraw()](h
         }
   
         function my_triangle(options) {
-            var ns = kendo.dataviz.diagram;
+            var ns = $telerik._kendo.dataviz.diagram;
             var group = new ns.Group({ autoSize: true });
   
             var path = new ns.Path({
@@ -78,7 +78,7 @@ Passing an object containing the new connectors of the shape to its [redraw()](h
             return group;
         }
         function my_rect(options) {
-            var ns = kendo.dataviz.diagram;
+            var ns = $telerik._kendo.dataviz.diagram;
             var group = new ns.Group({ autoSize: true });
   
             var rect = new ns.Rectangle({ height: options.height, width: options.width, fill: options.fill });

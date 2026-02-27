@@ -228,6 +228,7 @@ You can also create a new Kendo Data Source object with the desired settings and
 ````ASP.NET
 <script>
 	function bindToNewData() {
+		var kendo = $telerik._kendo;
 		var mccb = $find("<%=RadMultiColumnComboBox2.ClientID%>");
 
 		//create a Kendo Data Source and set its settings

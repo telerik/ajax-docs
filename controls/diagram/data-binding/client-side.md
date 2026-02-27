@@ -216,7 +216,7 @@ function OnChange(args) {
 ````JavaScript
 var visualTemplate = function (options) {
 	var dataItem = options.dataItem;
-	var diagram = kendo.dataviz.diagram;
+	var diagram = $telerik._kendo.dataviz.diagram;
 	var group = new diagram.Group();
 	var shapeType;
 	if (options.type == "circle") {

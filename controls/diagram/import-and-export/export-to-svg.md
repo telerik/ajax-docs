@@ -41,7 +41,7 @@ You can export **RadDiagram** as an SVG document on the client. This is done in 
 	function onLoad(diagram) {
 		var diagramWidget = diagram.get_kendoWidget();
 		diagramWidget.exportSVG().done(function (data) {
-			kendo.saveAs({
+			$telerik._kendo.saveAs({
 				dataURI: data,
 				fileName: "diagram.svg"
 			});

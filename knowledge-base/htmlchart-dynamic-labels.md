@@ -50,6 +50,7 @@ Dynamic labels position calculated for BarSeries items.
 </telerik:RadHtmlChart>
 <script>
     function dynamicLabelsVisual(e) {
+        var kendo = $telerik._kendo;
         var original = e.createVisual();
         var textBox = original.children[1];
         var seriesItemWidth = e.rect.width();
@@ -138,6 +139,7 @@ Dynamic labels position calculated for ColumnSeries items.
 </telerik:RadHtmlChart>
 <script>
     function dynamicLabelsVisual(e) {
+        var kendo = $telerik._kendo;
         var original = e.createVisual();
         var textBox = original.children[1];
         var seriesItemHeight = e.rect.height();

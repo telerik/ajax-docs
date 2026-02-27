@@ -52,7 +52,7 @@ If you need to create a marker on a different event (e.g., from the [browser geo
 ````JavaScript
 var myLat = 1;
 var myLng = 2;
-var clickedLocation = new kendo.dataviz.map.Location(myLat, myLng);
+var clickedLocation = new $telerik._kendo.dataviz.map.Location(myLat, myLng);
 if (map.markers.items.length == 0) {
     map.markers.add({ location: clickedLocation })
 } else {
@@ -83,7 +83,7 @@ Here is an example that puts the current location on the map:
             //so you may want to move the logic to a different event
             navigator.geolocation.getCurrentPosition(function (position) {
                 map = map.get_kendoWidget();
-                var currLocation = new kendo.dataviz.map.Location(position.coords.latitude, position.coords.longitude);
+                var currLocation = new $telerik._kendo.dataviz.map.Location(position.coords.latitude, position.coords.longitude);
                 if (map.markers.items.length == 0) {
                     map.markers.add({ location: currLocation })
                 } else {

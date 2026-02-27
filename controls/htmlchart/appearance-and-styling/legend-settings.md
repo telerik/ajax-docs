@@ -124,6 +124,7 @@ To customize the Legend items' marker size and type, you have a few options:
     </Legend>
 </telerik:RadHtmlChart>
 <script>
+    var kendo = $telerik._kendo;
     var drawing = kendo.drawing,
         geometry = kendo.geometry,
         columnWidth;

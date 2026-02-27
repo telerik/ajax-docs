@@ -31,7 +31,7 @@ The example below follows the scenario from the [Shapes Template]({%slug diagram
 
 <script type="text/javascript">
     var visualTemplate = function (options) {
-        var diagram = kendo.dataviz.diagram;
+        var diagram = $telerik._kendo.dataviz.diagram;
 
         var group = new diagram.Group({
             autoSize: true

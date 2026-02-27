@@ -114,7 +114,7 @@ function addFilter() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
     var activeSheet = spreadsheet.get_activeSheet();
     var range = activeSheet.get_range("A1:B3");
-    var filter = new kendo.spreadsheet.DynamicFilter({ type: "today" });
+    var filter = new $telerik._kendo.spreadsheet.DynamicFilter({ type: "today" });
     range.set_filter([{ column: 0, filter: filter }]);
 }
 ````
@@ -135,7 +135,7 @@ function addFilter() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
     var activeSheet = spreadsheet.get_activeSheet();
     var range = activeSheet.get_range("A1:B3");
-    var filter = new kendo.spreadsheet.DynamicFilter({ type: "today" });
+    var filter = new $telerik._kendo.spreadsheet.DynamicFilter({ type: "today" });
     range.set_filter([{ column: 0, filter: filter }]);
 }
 ````

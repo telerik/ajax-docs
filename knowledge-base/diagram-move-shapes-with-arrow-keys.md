@@ -35,7 +35,7 @@ If project requires to move the shapes of the Diagram by pressing the arrow keys
 function attachHandlers(args) {
     var shape = args.item;
 
-    if (shape instanceof kendo.dataviz.diagram.Shape) {
+    if (shape instanceof $telerik._kendo.dataviz.diagram.Shape) {
         if (!shape.from) {
             $(window).keydown(moveShape)
         }

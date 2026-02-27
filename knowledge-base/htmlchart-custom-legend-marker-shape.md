@@ -68,6 +68,7 @@ The JavaScript code shared below will extend the internal function and take into
 <script>
     // Place somewhere after the ScriptManager
     // Ideally, near the closing tag of the FORM or BODY element
+    var kendo = $telerik._kendo;
     if (kendo && kendo.dataviz && kendo.dataviz.LegendItem) {
         var __markerOptions = kendo.dataviz.LegendItem.fn.markerOptions;
         kendo.dataviz.LegendItem.fn.markerOptions = function () {

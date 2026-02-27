@@ -57,6 +57,7 @@ The labels [Visual template](https://docs.telerik.com/devtools/aspnet-ajax/contr
 </telerik:RadHtmlChart>
 <script>
     function labelsVisual(e) {
+        var kendo = $telerik._kendo;
         var geom = kendo.geometry;
         var draw = kendo.drawing;
         var center = e.rect.center();

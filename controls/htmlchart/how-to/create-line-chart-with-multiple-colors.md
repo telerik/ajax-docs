@@ -61,7 +61,7 @@ var telerikDemo = global.telerikDemo = {
 		}
 		var myColor = e.dataItem["colorField" + (serisIndex + 1)];
 
-		var drawing = kendo.drawing;
+		var drawing = $telerik._kendo.drawing;
 
 		var path = new drawing.Path({
 			stroke: {

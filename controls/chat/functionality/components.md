@@ -13,7 +13,7 @@ position: 3
 
 The **RadChat** control supports the implementation of custom components which allows you to use JavaScript to render any content in the chat flow. For example, you can use the [Kendo UI Calendar](https://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview) widget to facilitate the user to choose a date.
 
-To use the custom components you should first register them via the `kendo.chat.registerComponent(componentName, component);` method and then set the component name as a value to the `contentType` property of the attachment. Below you can find a sample implementaction of a CalendarComponent and how to use it.
+To use the custom components you should first register them via the `$telerik._kendo.chat.registerComponent(componentName, component);` method and then set the component name as a value to the `contentType` property of the attachment. Below you can find a sample implementaction of a CalendarComponent and how to use it.
 
 >caption **Figure 1**: A Chat renders a Kendo UI Calendar to facilitate date choosing.
 
@@ -71,9 +71,9 @@ function OnLoad(sender) {
 
 ````JavaScript
 // register the CalendarComponent containing the Kendo UI Calendar widget
-var CalendarComponent = kendo.chat.Component.extend({
+var CalendarComponent = $telerik._kendo.chat.Component.extend({
     init: function (options, view) {
-        kendo.chat.Component.fn.init.call(this, options, view);
+        $telerik._kendo.chat.Component.fn.init.call(this, options, view);
 
         // Create a <div> from which the Calendar will be initialized
         var calendarElement = $('<div>');
@@ -85,7 +85,7 @@ var CalendarComponent = kendo.chat.Component.extend({
             // when the user selects a date
             change: function (e) {
                 var chat = $telerik.$(this.element).closest(".RadChat")[0].control;
-                chat.postMessage('You have selected ' + telerik._kendo.toString(e.sender.value(), 'D') + '!');
+                chat.postMessage('You have selected ' + $telerik._kendo.toString(e.sender.value(), 'D') + '!');
 
                 var element = e.sender.element.closest('.t-card-container');
 
@@ -102,7 +102,7 @@ var CalendarComponent = kendo.chat.Component.extend({
     }
 });
 
-kendo.chat.registerComponent("CalendarComponent", CalendarComponent);
+$telerik._kendo.chat.registerComponent("CalendarComponent", CalendarComponent);
 ````
 
 
