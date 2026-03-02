@@ -25,7 +25,7 @@ For example, when a custom handler is used and the **Process** method is overrid
 >note When setting the **DisableChunkUpload="true"** property the **Silverlight** and **Flash modules** are automatically disabled. This will turn off the multiple file selection in the appropriate browsers.
 >
 
->note The **DisableChunkUpload** property of **RadAsyncUpload** influences the way files are being saved in the temporary folder on server. In case the property is not set or it is set to "false", temporary files are named under the convention **timestamp + actual file name + actual file extension**. In case the property is set to "true", files receive **random strings** for both their name and extension.
+>note The **DisableChunkUpload** property of **RadAsyncUpload** influences the way files are being saved in the temporary folder on server. In case the property is not set or it is set to 'false', temporary files are named under the convention **cryptographically random GUID + actual file name + actual file extension + .tmp extension** (e.g., xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_hello.txt.tmp).
 >
 
 
@@ -36,3 +36,4 @@ For example, when a custom handler is used and the **Process** method is overrid
 [Disable Plugins]({%slug asyncupload/functionality/disable-plugins%})
 
 [Drag and Drop Upload]({%slug asyncupload/functionality/drag-and-drop-upload%})
+
