@@ -32,13 +32,8 @@ In this article you will see how to assign a dynamically created tooltip to the 
 </head>
 <body>
     <form id="form1" runat="server">
-        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false">
-            <Scripts>
-                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
-                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
-            </Scripts>
-        </telerik:RadScriptManager>
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false" ExternaljQueryUrl="https://code.jquery.com/jquery-1.12.3.min.js"></telerik:RadScriptManager>
+
 
         <script type="text/javascript">
             var $ = $ || $telerik.$;
@@ -69,7 +64,9 @@ In this article you will see how to assign a dynamically created tooltip to the 
                 originalOptions.layers[1].dataSource = { data: markerData };
                 args.set_options(originalOptions);
 
-                popup = $("<div>Foo</div>")
+                // Use $telerik._kendo.jQuery for Kendo widget plugin methods
+                var $k = $telerik._kendo.jQuery;
+                popup = $k("<div>Foo</div>")
                     .appendTo(document.body)
                     .kendoPopup()
                     .data("kendoPopup");
@@ -85,7 +82,8 @@ In this article you will see how to assign a dynamically created tooltip to the 
             }
 
             function shapeMouseLeave(e) {
-                if (!$(e.originalEvent.relatedTarget).is(".k-popup, .k-animation-container")) {
+                var $k = $telerik._kendo.jQuery;
+                if (!$k(e.originalEvent.relatedTarget).is(".k-popup, .k-animation-container")) {
                     popup.close();
 
                     // Necessary to stop the animations,

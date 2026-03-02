@@ -140,7 +140,7 @@ Markup:
  
             $("#chartHolder").css("display", "block")
                 .find(".RadHtmlChart").each(function (index, elem) {
-                    $telerik.$(elem).data("kendoChart").redraw();
+                    $telerik._kendo.jQuery(elem).data("kendoChart").redraw();
                 });
  
         });

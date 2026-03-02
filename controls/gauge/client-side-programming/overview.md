@@ -53,11 +53,13 @@ var kendoLinearGauge = radLinearGaugeObject.get_kendoWidget(); //the Kendo widge
 
 ````JavaScript
 //Reference Kendo Radial Gauge widget:
-var kendoRadialGauge = $telerik.$("#<%=RadRadialGauge1.ClientID %>").data("kendoRadialGauge");//the jQuery selector must get the Gauge wrapping div element
+var kendoRadialGauge = $telerik._kendo.jQuery("#<%=RadRadialGauge1.ClientID %>").data("kendoRadialGauge");//the jQuery selector must get the Gauge wrapping div element
 
 //Reference Kendo Linear Gauge widget:
-var kendoLinearGauge = $telerik.$("#<%=RadLinearGauge1.ClientID %>").data("kendoLinearGauge");//the jQuery selector must get the Gauge wrapping div element
+var kendoLinearGauge = $telerik._kendo.jQuery("#<%=RadLinearGauge1.ClientID %>").data("kendoLinearGauge");//the jQuery selector must get the Gauge wrapping div element
 ````
+
+>important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above.
 
 >note  **RadGauge** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Gauge) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the gauge widgets is **Sys.Application.Load**.
 

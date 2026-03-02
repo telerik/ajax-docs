@@ -75,8 +75,11 @@ var CalendarComponent = $telerik._kendo.chat.Component.extend({
     init: function (options, view) {
         $telerik._kendo.chat.Component.fn.init.call(this, options, view);
 
+        // Use $telerik._kendo.jQuery — the jQuery instance that has Kendo widget plugins
+        var $k = $telerik._kendo.jQuery;
+
         // Create a <div> from which the Calendar will be initialized
-        var calendarElement = $('<div>');
+        var calendarElement = $k('<div>');
 
         // Initialize the Calendar widget passing the provided value
         calendarElement.kendoCalendar({
@@ -84,7 +87,7 @@ var CalendarComponent = $telerik._kendo.chat.Component.extend({
             // Implement the logic to be executed
             // when the user selects a date
             change: function (e) {
-                var chat = $telerik.$(this.element).closest(".RadChat")[0].control;
+                var chat = $k(this.element).closest(".RadChat")[0].control;
                 chat.postMessage('You have selected ' + $telerik._kendo.toString(e.sender.value(), 'D') + '!');
 
                 var element = e.sender.element.closest('.t-card-container');
@@ -97,7 +100,7 @@ var CalendarComponent = $telerik._kendo.chat.Component.extend({
         });
 
         // Place the calendar within the Chat Card
-        var bodyElement = $('<div>').addClass("t-card-body").append(calendarElement);
+        var bodyElement = $k('<div>').addClass("t-card-body").append(calendarElement);
         this.element.addClass("t-card").append(bodyElement);
     }
 });
