@@ -29,11 +29,13 @@ RadFloatingActionButton is a server-side wrapper over the Kendo UI FloatingActio
         var kendoFloatingActionButton = floatingActionButtonObject.get_kendoWidget(); //the Kendo widget
 
 
-* Get the Kendo Widget in its usual way. Make sure to use the `$telerik.$` jQuery reference:
+* Get the Kendo Widget in its usual way. Make sure to use the `$telerik._kendo.jQuery` reference that has the Kendo widget data:
 
     **JavaScript**
     
-        var kendoFloatingActionButton = $telerik.$("#<%=RadFloatingActionButton1.ClientID %>").data("kendoFloatingActionButton"); 
+        var kendoFloatingActionButton = $telerik._kendo.jQuery("#<%=RadFloatingActionButton1.ClientID %>").data("kendoFloatingActionButton");
+
+>important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above. 
 
 
 In addition to using the Kendo methods directly, you can also use their wrappers that follow the MS AJAX convention through the RadFloatingActionButton client object.
