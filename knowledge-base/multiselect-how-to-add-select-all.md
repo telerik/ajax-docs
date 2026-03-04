@@ -33,59 +33,38 @@ This knowledge base article also answers the following questions:
 
 To add a Select All / Unselect All functionality to RadMultiSelect, utilize an external element (for example, a button) along with the client-side API of the MultiSelect. Follow the steps below to implement this behavior:
 
-1. **Add RadMultiSelect and RadButton to Your ASP.NET Page**
+First, define RadMultiSelect using the desired options and items. Additionally, add a RadButton that will serve as the trigger for selecting or deselecting all items.
 
-   Define RadMultiSelect using the desired options and items. Additionally, add a RadButton that will serve as the trigger for selecting or deselecting all items.
+````ASP.NET
+<telerik:RadMultiSelect runat="server" ID="RadMultiSelect2" DataTextField="text" DataValueField="value" Width="500px">
+    <Items>
+        <telerik:MultiSelectItem Value="Person1" Text="Steven White"></telerik:MultiSelectItem>
+        <telerik:MultiSelectItem Value="Person2" Text="Nancy King"></telerik:MultiSelectItem>
+        <telerik:MultiSelectItem Value="Person3" Text="Nancy Davolio"></telerik:MultiSelectItem>
+        <telerik:MultiSelectItem Value="Person4" Text="Robert Davolio"></telerik:MultiSelectItem>
+        <telerik:MultiSelectItem Value="Person5" Text="Michael Leverling"></telerik:MultiSelectItem>
+    </Items>
+</telerik:RadMultiSelect>
 
-    ```ASPX
-        <telerik:RadMultiSelect runat="server" DataValueField="text" Filter="Contains" EnforceMinLength="false" Placeholder="Select attendees..."
-            DataTextField="text" Width="500px" ID="RadMultiSelect1">
-            <Items>
-                <telerik:MultiSelectItem Text="Steven White"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Nancy King"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Nancy Davolio"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Robert Davolio"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Michael Leverling"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Andrew Callahan"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Michael Suyama"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Anne King"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Laura Peacock"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Robert Fuller"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Janet White"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Nancy Leverling"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Robert Buchanan"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Margaret Buchanan"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Andrew Fuller"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Anne Davolio"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Andrew Suyama"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Nige Buchanan"></telerik:MultiSelectItem>
-                <telerik:MultiSelectItem Text="Laura Fuller"></telerik:MultiSelectItem>
-            </Items>
-        </telerik:RadMultiSelect>
-    ```
+<telerik:RadButton runat="server" ID="RadButton1" Text="Select All/Unselect All" AutoPostBack="false" OnClientClicked="onClientClicked" />
+````
 
-2. **Implement the Client-side Logic**
+After that, write a JavaScript function that toggles the selection of all items in RadMultiSelect. This function is triggered by the client-side `OnClientClicked` event of the RadButton.
 
-   Write a JavaScript function that toggles the selection of all items in RadMultiSelect. This function is triggered by the client-side `OnClientClicked` event of the RadButton.
+````JavaScript
+function onClientClicked(sender, args) {
+    let multiSelect = $find("<%= RadMultiSelect2.ClientID %>");
+    let length = multiSelect.get_value().length;
 
-    ```JavaScript
-    <script>
-        function OnClientClicked(sender, args) {
-            var multiSelect = $find("<%= RadMultiSelect1.ClientID %>");
-            var values;
-            var $ = $telerik.$;
-            if (multiSelect.get_value().length == 0) {
-                values = $.map(multiSelect.get_itemsData(), function (dataItem) {
-                    return dataItem.text;
-                });
-            }
-            else {
-                values = [];
-            }
-            multiSelect.set_value(values);
-        }
-    </script>
-    ```
+    if (length === 0) {
+        let values = multiSelect.get_itemsData().map(dataItem => dataItem.value);
+        multiSelect.set_value(values);
+    }
+    else {
+        multiSelect.set_value([]);
+    }
+}
+````
 
 This script checks if any items are currently selected in the RadMultiSelect. If none are selected, it selects all items. If any item is selected, it clears the selection, effectively acting as a toggle between select all and deselect all states.
 
