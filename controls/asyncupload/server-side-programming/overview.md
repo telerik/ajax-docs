@@ -22,7 +22,7 @@ For the full list visit the [RadAsyncUpload class article](https://docs.telerik.
 | **AllowedFileExtensions** |string|Gets or sets the allowed file extensions for uploading.|
 | **ChunkSize** |int|Gets or sets the size of the uploading chunks in bytes.|
 | **DisableChunkUpload** |bool|Gets or sets whether the upload will be in chunks (2MB each) or the file will be uploaded with one request.|
-| **DisablePlugins** |bool|Specify whether RadAsyncUpload will use 3rd party plugins like Flash/Silverlight or will stick to the native modules only (IFrame, File API).|
+| ~~**DisablePlugins**~~ |bool| **Removed in 2026 Q1 SP2.** As of 2026 Q1 SP2, the legacy IFrame, Silverlight and Flash modules have been removed from the source code. The `DisablePlugins` property no longer exists.|
 | **DropZones** |string|Gets or sets the drop zones for upload.|
 | **Enabled** |bool|Enable or disable the **RadAsyncUpload** control.|
 | **EnableEmbeddedBaseStylesheet** |bool|Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.|
@@ -55,7 +55,7 @@ For the full list visit the [RadAsyncUpload class article](https://docs.telerik.
 | **OnClientValidationFailed** |string|Gets or sets the name of the client-side function which will be executed if the selected file has invalid extension.|
 | **PersistConfiguration** |bool|Gets or sets whether the upload configuration should be persisted into ControlState (if the upload configuration is different than null).|
 | **PostbackTriggers** |string|Gets or sets whether the client state should be persisted (if the postback is triggered by particular control).|
-| **ProgressHandlerUrl** |string|Gets or sets the URL which for the progress handler that takes care of the progress monitoring when the IFrame module is used.|
+| **ProgressHandlerUrl** |string|Gets or sets the URL for the progress handler that takes care of the progress monitoring.|
 | **RegisterWithScriptManager** |bool|Whether to register with the ScriptManager control on the page.|
 | **RenderMode** |RenderMode|Specifies the rendering mode of the control.|
 | **Skin** |string|Specifies the skin that will be used by the control.|

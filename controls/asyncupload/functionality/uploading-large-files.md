@@ -80,9 +80,9 @@ Modify the configuration file to allow uploads of files up to 100MB and upload p
 
 ## Modules Information
 
-As of Q2 2013, you can use **File API** [module]({%slug asyncupload/upload-modules%}) of **RadAsyncUpload** to upload files that are larger than **2GB** when the upload is preformed with chunks. Before that it was only possible in **Silverlight** and **Flash** modules.
+You can use **File API** [module]({%slug asyncupload/upload-modules%}) of **RadAsyncUpload** to upload files that are larger than **2GB** when the upload is performed with chunks.
 
-When you use the **IFrame** upload module, you can upload files with a combined size of up to 2GB, but it requires some modifications in your application configuration files connected with specifying the limit for the input stream buffering threshold.
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control.
 
 # See Also
 
