@@ -22,9 +22,11 @@ Detailed information on how to register the handler can be found here: [Web Reso
 
 You can quickly check if the handler is registered by accessing it directly: `http://<site root>/Telerik.Web.UI.WebResource.axd` This request should succeed and return a blank page.
 
-## RadAsyncUpload's Flash module and Windows or Forms Authentication
+## RadAsyncUpload Handler and Windows or Forms Authentication
 
-If Flash module is used (out of the four supported RadAsyncUpload upload modules) the RadAsyncUpload handler must be excluded from Windows Authentication (NTLM) and Forms Authentication, since the Flash module will not authenticate in either mode.	
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security.
+
+The RadAsyncUpload handler must have proper authentication configuration.
 
 
 ````XML
@@ -35,15 +37,6 @@ If Flash module is used (out of the four supported RadAsyncUpload upload modules
         </authorization>   
     </system.web>
 </location> 
-````
-
-Anonymous Authentication must be enabled in IIS. If AA is disabled, the RadAsyncUpload Flash module should not be used. It can be disabled by inserting this script right before the control definition on the page:
-
-
-````ASP.NET
-<script type="text/javascript">
-    Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; }
-</script> 
 ````
 
 ## Uploading Files Over Secure Connections (HTTPS)
@@ -88,23 +81,4 @@ When the user on a mobile Android devices tries to upload a file from Google Dri
 * [https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-bugs/err_upload_file_changed%7Csort:date/chromium-bugs/9LU9A878N7g/6NNxA7R8p78J](https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-bugs/err_upload_file_changed%7Csort:date/chromium-bugs/9LU9A878N7g/6NNxA7R8p78J)
 
 
-### Solution
-
-The solution is to use the fallback iframe upload module when the browser is Chrome and the platform is Android. More info about the upload modules of the AsyncUpload can be found in [RadAsyncUpload Modules]({%slug asyncupload/upload-modules%}) article.
-
-Placing the following script under the ScriptManager will force the AsyncUpload to use the iframe module over the FileAPI:
-
-````ASP.NET
-<script>
-    if (Telerik.Web.Platform.android && Telerik.Web.Browser.chrome && Telerik.Web.UI.RadAsyncUpload) {
-        // force iframe mode due to https://bugs.chromium.org/p/chromium/issues/detail?id=1063576&q=ERR_UPLOAD_FILE_CHANGED&can=2
-        Telerik.Web.UI.RadAsyncUpload.Modules.FileApi.isAvailable = function () { return false; };
-        Telerik.Web.UI.RadAsyncUpload.Modules.Flash.isAvailable = function () { return false; };
-        Telerik.Web.UI.RadAsyncUpload.Modules.Silverlight.isAvailable = function () { return false; };
-    }
-</script>
-````
-
-
-
-## See Also
+### Solution\n\nThis is a known bug with the Google API that prevents the proper upload from Google Drive on Android devices. Since as of **2026 Q1 SP2** the legacy IFrame, Silverlight and Flash modules have been removed, the workaround of falling back to the IFrame module is no longer available. Monitor the Chromium bug tracker for updates on this issue.\n\n\n## See Also

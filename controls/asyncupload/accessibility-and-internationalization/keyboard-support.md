@@ -39,8 +39,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 >note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself.
 >
 
->note To enable keyboard support for Internet Explorer 9 or earlier, you will have to set the **DisablePlugins** property to **true** .
->
+
 
 
 ## Action keys

@@ -54,7 +54,7 @@ Protected Overrides Function Process(file As UploadedFile, context As HttpContex
 End Function	
 ````
 
->note This functionality can be achieved only in IFrame and FileApi Upload Modules so if you want to use it in IE7,8,9 you should set the DisablePlugins property to true.
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security. The `DisablePlugins` property has been removed.
 >
 
 # See Also

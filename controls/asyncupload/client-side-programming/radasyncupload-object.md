@@ -30,7 +30,6 @@ The following table lists the important **RadAsyncUpload** client-side methods:
 | **get_initialFileInputsCount** |none|integer|Returns the initial number of rows when the **RadAsyncUpload** control is first loaded.|
 | **get_allowedFileExtensions** |none|array|Returns an array containing the allowed file extensions.|
 | **get_element** |none|HTML element|Returns the DOM element for the **RadAsyncUpload** control.|
-| **get_loadedModuleName** |none|string|Returns string representation of the loaded upload module name. It could be one of the following: Silverlight/Flash/IFrame|
 
 >caption Example 1: Add a new row to the **RadAsyncUpload**. 
 ````ASPNET

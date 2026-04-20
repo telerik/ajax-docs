@@ -21,7 +21,7 @@ This help article describes the differences between **RadAsyncUpload** and **Rad
 |Uploads the file(s) automatically and asynchronously to a temporary folder.The files will be copied to the TargetFolder on postback.|Uploads the files during postback.|
 |Can be updated with **UpdatePanel** / **RadAjaxPanel** / **RadAjaxManager** |Cannot be updated with **UpdatePanel** / **RadAjaxPanel** / **RadAjaxManager** . Files cannot be uploaded during AJAX updates.|
 |Requires registration of an HTTP handler - **Telerik.Web.UI.WebResource.axd** The same handler is registered by **RadScriptManager** / **RadStyleSheetManager** |Does not require handler registration to upload files.|
-|Progress monitoring is done in real time when the Flash module is in use. Otherwise progress polling is used (through **RadProgressManager** ).|Progress monitoring through **RadProgressManager** only.|
+|Progress monitoring is done in real time using the File API module.|Progress monitoring through **RadProgressManager** only.|
 |Integrated visual clue of the current operations - uploading, upload successfully completed, upload failed.|Current operation can be monitored only through **RadProgressArea** |
 |Client side events for upload completed and upload failed|No client events for upload completed or failed|
 |Extension and size validation are done on the client|You need a page postback to validate the file|

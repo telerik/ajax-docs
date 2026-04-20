@@ -14,7 +14,7 @@ position: 5
 
 ## Multiple File Selection
 
-With **RadAsyncUpload** it is possible to select multiple files. You can set the **MultipleFileSelection** property to "Automatic". Multiple file selection is possible only when you are using the FileApi, Silverlight or Flash [upload module]({%slug asyncupload/upload-modules%}).
+With **RadAsyncUpload** it is possible to select multiple files. You can set the **MultipleFileSelection** property to "Automatic".
 
 When you set the **Multiple file selection**, the user can select more than one file from the File Upload dialog box by holding the Ctrl key or they can click on a file, then hold Shift down, and click on another file so all the files between them are selected(Apple computers support this using the Command key). The image below shows using the Ctrl key to choose several files.![asyncupload multiple File Selection 1](images/asyncupload_multipleFileSelection1.png)
 
