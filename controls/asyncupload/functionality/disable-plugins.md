@@ -10,22 +10,13 @@ position: 0
 
 # Disable Plugins
 
-## 
-
-When setting **DisablePlugins** property to **true RadAsyncUpload** does not use either Silverlight or Flash modules to upload files. With **DisablePlugins** property set to **true** the **RadAsyncUpload** uses **File API** (if the browser supports it) or the IFrame module. You can set the **DisablePlugins** property through mark up or in the code-behind.
-
->note The **DisablePlugins** property is available As of Q3 2011.
->
-
-Here is how you can set the property in the markup of your page:
-
-````ASP.NET
-<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" DisablePlugins="true"></telerik:RadAsyncUpload>
-````
+>important As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control. The `DisablePlugins` property no longer exists and any references to it should be removed from your code.
 
 ## See Also
 
 [Getting Started]({%slug asyncupload/getting-started%})
+
+[RadAsyncUpload Upload Modules]({%slug asyncupload/upload-modules%})
 
 [RTL Support]({%slug asyncupload/accessibility-and-internationalization/rtl-support%})
 

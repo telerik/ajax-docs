@@ -44,11 +44,13 @@ Finally, all processed temporary files are deleted. Temporary files are also del
 
 ## Validation
 
-Validation for **RadAsyncUpload** differs from validation in **RadUpload** as now it is possible to validate the file size on the client, as long as the **File API** upload module is used or there is Silverlight or Flash installed on the client's browser. If the validation fails, **RadAsyncUpload** will fire **OnClientValidationFailed**.
+Validation for **RadAsyncUpload** differs from validation in **RadUpload** as now it is possible to validate the file size on the client using the **File API** upload module. If the validation fails, **RadAsyncUpload** will fire **OnClientValidationFailed**.
 
-## Different Built-In Upload Modules
+## Upload Module
 
-Internally, **RadAsyncUpload** can choose between four modules for uploading - File API, IFrame, Flash and Silverlight. The module with the highest priority and most features supported is File API. The Silverlight and Flash modules are a fallback if File API is not supported. The final fallback is an upload using the IFrame module supported in all browsers.
+**RadAsyncUpload** uses the **File API** upload module, which is natively supported by all modern browsers.
+
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control.
 
 ## Web Farms
 

@@ -28,8 +28,6 @@ The event handler receives two parameters:
 
 * **get_message** returns the original error message
 
-* **get_loadedModuleName** returns the name of the currently loaded module. Can be Silverlight/Flash/IFrame
-
 * **get_row** returns the upload row for which the event was fired.
 
 One useful case for using this event is to check the error message and suppress it if needed:
