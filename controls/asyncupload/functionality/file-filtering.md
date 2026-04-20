@@ -11,7 +11,7 @@ position: 3
 
 # RadAsyncUpload File Filtering
 
-As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security. As a result, the `FileFilters` property is no longer functional and should not be used.
+As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control. As a result, the `FileFilters` property is no longer functional and should not be used.
 
 To set file filtering on modern browsers, use the **accept** attribute of the **input type="file"** element. For example, this will allow most images:
 

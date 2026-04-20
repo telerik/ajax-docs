@@ -24,7 +24,7 @@ You can quickly check if the handler is registered by accessing it directly: `ht
 
 ## RadAsyncUpload Handler and Windows or Forms Authentication
 
->note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security.
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control.
 
 The RadAsyncUpload handler must have proper authentication configuration.
 

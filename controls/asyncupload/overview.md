@@ -50,7 +50,7 @@ Validation for **RadAsyncUpload** differs from validation in **RadUpload** as no
 
 **RadAsyncUpload** uses the **File API** upload module, which is natively supported by all modern browsers.
 
->note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security.
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control.
 
 ## Web Farms
 

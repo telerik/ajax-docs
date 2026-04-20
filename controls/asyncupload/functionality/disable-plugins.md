@@ -10,7 +10,7 @@ position: 0
 
 # Disable Plugins
 
->important As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security. The `DisablePlugins` property no longer exists and any references to it should be removed from your code.
+>important As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control. The `DisablePlugins` property no longer exists and any references to it should be removed from your code.
 
 ## See Also
 

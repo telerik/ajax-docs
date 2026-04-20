@@ -14,7 +14,7 @@ position: 13
 
 RadAsyncUpload uses the **File API** upload module for file uploading. The File API is natively supported by all modern browsers.
 
->important As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security. The `DisablePlugins` property has also been removed. These modules were originally designed as fallbacks for Internet Explorer, which is no longer supported since [R1 2023](https://www.telerik.com/blogs/end-internet-explorer-support-telerik-kendo-ui-web-components). For more details on currently supported browsers, see the [Browser Support]({%slug getting-started/prerequisites/browser-support%}) article.
+>important As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control. The `DisablePlugins` property has also been removed. These modules were originally designed as fallbacks for Internet Explorer, which is no longer supported since [R1 2023](https://www.telerik.com/blogs/end-internet-explorer-support-telerik-kendo-ui-web-components). For more details on currently supported browsers, see the [Browser Support]({%slug getting-started/prerequisites/browser-support%}) article.
 
 ### File API Features
 

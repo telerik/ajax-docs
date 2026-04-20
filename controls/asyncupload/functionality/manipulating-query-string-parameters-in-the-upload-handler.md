@@ -54,7 +54,7 @@ Protected Overrides Function Process(file As UploadedFile, context As HttpContex
 End Function	
 ````
 
->note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This hardens the compatibility of the RadAsyncUpload with the modern browsers and provides better security. The `DisablePlugins` property has been removed.
+>note As of **2026 Q1 SP2**, the legacy **IFrame**, **Silverlight** and **Flash** modules have been removed from the source code. This change improves the compatibility with modern browsers and hardens the security of the RadAsyncUpload control. The `DisablePlugins` property has been removed.
 >
 
 # See Also
