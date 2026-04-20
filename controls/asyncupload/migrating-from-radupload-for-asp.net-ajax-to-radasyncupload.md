@@ -5,7 +5,7 @@ description: Check our Web Forms article about Migrating from RadUpload for ASP.
 slug: asyncupload/migrating-from-radupload-for-asp.net-ajax-to-radasyncupload
 tags: migrating,from,radupload,for,asp.net,ajax,to,radasyncupload
 published: True
-position: 3
+position: 20
 ---
 
 # Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
