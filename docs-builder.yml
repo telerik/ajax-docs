@@ -1679,6 +1679,9 @@ meta:
   controls/asyncupload:
     title: Async Upload
     position: 1
+  controls/asyncupload/security:
+    title: Security
+    position: 7
   controls/ajaxloadingpanel:
     title: AjaxLoadingPanel
     position: 1
