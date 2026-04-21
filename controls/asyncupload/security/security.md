@@ -82,7 +82,7 @@ To provide secure encryption of the control configuration, we strongly advise th
 
 The `Telerik.AsyncUpload.ConfigurationEncryptionKey` is available as of Q3 2012 SP1 (version 2012.3.1205).
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../images/generate-keys-iis.png).
 
 
 ### ConfigurationHashKey
@@ -97,7 +97,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 </appSettings>
 ````
 
->tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+>tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../images/generate-keys-iis.png).
 
 ### AllowedCustomMetaDataTypes
 
