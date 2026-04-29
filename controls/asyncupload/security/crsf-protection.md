@@ -12,7 +12,7 @@ position: 15
 
 ## Overview
 
-As of **Q1 2026**, RadAsyncUpload includes built-in Cross-Site Request Forgery (CSRF) protection to enhance security. This feature validates upload requests using session-based tokens, preventing malicious sites from submitting unauthorized file uploads on behalf of authenticated users.
+As of **2026 Q1 SP2 (version 2026.1.421)**, RadAsyncUpload includes built-in Cross-Site Request Forgery (CSRF) protection to enhance security. This feature validates upload requests using session-based tokens, preventing malicious sites from submitting unauthorized file uploads on behalf of authenticated users.
 
 **CSRF protection is enabled by default** and requires session state to be enabled in your application.
 
@@ -99,7 +99,7 @@ Or disable CSRF validation if session state cannot be enabled (not recommended).
 
 ## Migration from Previous Versions
 
-If you're upgrading from a version prior to Q1 2026:
+If you're upgrading from a version prior to 2026 Q1 SP2 (2026.1.421):
 
 1. **Ensure Session State is Enabled**: Verify that session state is configured in your `web.config`
 2. **Test Upload Functionality**: Test file uploads in your application to ensure they work correctly
