@@ -39,8 +39,6 @@ Starting with the **2024 Q1** release, the `ZipArchive` constructors have been *
 
 Additionally, the `ZipArchiveEntry` must be wrapped in a `using` statement to ensure the entry is properly finalized. The `BinaryWriter` should **not** be wrapped in its own `using` block — instead, call `writer.Flush()` before the entry is disposed. Failing to follow this pattern results in a corrupt archive where all file entries show 0 bytes.
 
-For full details, see [Backward Compatibility - RadZipLibrary](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/backward-compatibility).
-
 ## Solution
 
 Suppose you have several files in a folder, each of different type (.png, .gif, .pdf, etc.). 
