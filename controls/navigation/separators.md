@@ -10,7 +10,7 @@ position: 3
 
 # Separators
 
-As of 2025 Q2, the navigation layout can be customized through separators. Use separators for grouping nodes into two or more categories. You can also use them to achieve cosmetic effects such as visual dividers between navigation sections.
+As of 2026 Q2, the navigation layout can be customized through separators. Use separators for grouping nodes into two or more categories. You can also use them to achieve cosmetic effects such as visual dividers between navigation sections.
 
 To set a given navigation node as a separator, set its **IsSeparator** property to **True**. Separator nodes render as empty elements with a visible line - vertical between horizontal root nodes and horizontal between vertical child nodes. Separator nodes do not respond to user clicks, cannot be selected or focused, and are skipped during keyboard navigation.
 

@@ -10,7 +10,7 @@ position: 8
 
 # Image Lazy Loading
 
-The following article demonstrates how to use the **Image Lazy Loading** feature of **RadListBox** to improve performance when items contain images.
+As of 2026 Q2, the **RadListBox** control supports the **Image Lazy Loading** feature. The following article demonstrates how to use this feature to improve performance when items contain images.
 
 ## Overview
 
