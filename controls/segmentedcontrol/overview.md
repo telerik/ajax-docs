@@ -21,12 +21,12 @@ The Telerik WebForms SegmentedControl renders a group of buttons that allow the 
 
 * [Layout Modes]({%slug segmentedcontrol/layout-modes%})&mdash;Choose between `Compact` mode, where each segment sizes to its content, and `Stretch` mode, where all segments share the container width equally.
 * [Icons]({%slug segmentedcontrol/icons%})&mdash;Enhance segment buttons with icons from the Kendo UI theme, custom CSS classes, or a combination of icons and text labels.
-* [Accessibility]({%slug segmentedcontrol/accessibility%})&mdash;The SegmentedControl is accessible for screen readers, supports WAI-ARIA attributes, and delivers keyboard shortcuts for faster navigation.
+* [Accessibility]({%slug segmentedcontrol/accessibility/overview%})&mdash;The SegmentedControl is accessible for screen readers, supports WAI-ARIA attributes, and delivers keyboard shortcuts for faster navigation.
 
 ## Next Steps
 
 - [Getting Started with the Telerik WebForms SegmentedControl]({%slug segmentedcontrol/getting-started%})
 - [Layout Modes]({%slug segmentedcontrol/layout-modes%})
 - [Icons]({%slug segmentedcontrol/icons%})
-- [Accessibility]({%slug segmentedcontrol/accessibility%})
+- [Accessibility]({%slug segmentedcontrol/accessibility/overview%})
 - [Keyboard Navigation]({%slug segmentedcontrol/accessibility/keyboard-navigation%})

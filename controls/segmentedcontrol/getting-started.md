@@ -71,7 +71,7 @@ End Sub
 
 - [Layout Modes]({%slug segmentedcontrol/layout-modes%})
 - [Icons]({%slug segmentedcontrol/icons%})
-- [Accessibility]({%slug segmentedcontrol/accessibility%})
+- [Accessibility]({%slug segmentedcontrol/accessibility/overview%})
 - [Keyboard Navigation]({%slug segmentedcontrol/accessibility/keyboard-navigation%})
 - [Client-side Programming]({%slug segmentedcontrol/client-side-programming/overview%})
 - [Server-side Programming]({%slug segmentedcontrol/server-side-programming/overview%})
