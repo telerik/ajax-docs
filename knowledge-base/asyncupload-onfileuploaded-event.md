@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Ensuring OnFileUploaded Event Fires Automatically in RadAsyncUpload
 description: Learn how to ensure the OnFileUploaded event in RadAsyncUpload triggers automatically after file upload without requiring additional postbacks.
