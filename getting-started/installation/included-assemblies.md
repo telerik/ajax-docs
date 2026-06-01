@@ -64,19 +64,36 @@ Telerik UI for ASP.NET AJAX provides the following Telerik NuGet feed packages a
 
 | NuGet Packages | Included Assemblies |
 |---------------|------------|
-| `Telerik.UI.for.AspNet.Ajax.Netxx.xxxx.x.xxx.nupkg` | `Telerik.Web.Design.dll`, `Telerik.Web.Device.Detection.dll`, `Telerik.Web.UI.dll`, `Telerik.Web.UI.Skins.dll` |
+| `Telerik.Documents.AI.AgentTools.Conversion.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.AgentTools.Conversion.dll` |
+| `Telerik.Documents.AI.AgentTools.Fixed.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.AgentTools.Fixed.dll` |
+| `Telerik.Documents.AI.AgentTools.Spreadsheet.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.AgentTools.Spreadsheet.dll` |
+| `Telerik.Documents.AI.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Core.dll` |
+| `Telerik.Documents.AI.RAG.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.RAG.dll` |
+| `Telerik.Documents.AI.Tools.Conversion.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Tools.Conversion.Core.dll` |
+| `Telerik.Documents.AI.Tools.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Tools.Core.dll` |
+| `Telerik.Documents.AI.Tools.Fixed.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Tools.Fixed.Core.dll` |
+| `Telerik.Documents.AI.Tools.Flow.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Tools.Flow.Core.dll` |
+| `Telerik.Documents.AI.Tools.Spreadsheet.Core.xxxx.x.xxx.nupkg` | `Telerik.Documents.AI.Tools.Spreadsheet.Core.dll` |
+| `Telerik.UI.for.AspNet.Ajax.Net462.xxxx.x.xxx.nupkg` | `Telerik.Licensing.Runtime.dll`, `Telerik.Web.Design.dll`, `Telerik.Web.Device.Detection.dll`, `Telerik.Web.UI.dll`, `Telerik.Web.UI.Skins.dll` |
+| `Telerik.Web.Spreadsheet.xxxx.x.xxx.nupkg` | `Telerik.Web.Spreadsheet.dll` |
+| `Telerik.Windows.Documents.AIConnector.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.AIConnector.dll` |
+| `Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.CMapUtils.dll` |
+| `Telerik.Windows.Documents.Core.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Core.dll` |
+| `Telerik.Windows.Documents.DrawingML.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.DrawingML.dll` |
+| `Telerik.Windows.Documents.Fixed.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Fixed.dll` |
+| `Telerik.Windows.Documents.Fixed.FormatProviders.Ocr.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Fixed.FormatProviders.Ocr.dll` |
+| `Telerik.Windows.Documents.Flow.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.dll` |
+| `Telerik.Windows.Documents.Flow.FormatProviders.Doc.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll` |
 | `Telerik.Windows.Zip.xxxx.x.xxx.nupkg` | `Telerik.Windows.Zip.dll` |
 | `Telerik.Windows.Zip.Extensions.xxxx.x.xxx.nupkg` | `Telerik.Windows.Zip.Extensions.dll` |
+| `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll` |
+| `Telerik.Windows.Documents.Spreadsheet.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.dll` |
+| `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Json.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Json.dll` |
 | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll` |
 | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll` |
-| `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.nupkg` | Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll` |
-| `Telerik.Windows.Documents.Spreadsheet.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.dll` |
-| `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll` |
-| `Telerik.Windows.Documents.Flow.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Flow.dll` |
-| `Telerik.Windows.Documents.Fixed.xxxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Fixed.dll` |
-| `Telerik.Windows.Documents.CMapUtils.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.CMapUtils.dll` |
-| `Telerik.Windows.Documents.Core.xxxxx.x.xxx4.nupkg` | `Telerik.Windows.Documents.Core.dll` |
-| `Telerik.Windows.Documents.SpreadsheetStreaming.xxxxx.x.xxx.nupkg` | `Telerik.Documents.SpreadsheetStreaming.dll` |
+| `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll` |
+| `Telerik.Windows.Documents.SpreadsheetStreaming.xxxx.x.xxx.nupkg` | `Telerik.Documents.SpreadsheetStreaming.dll` |
+| `Telerik.Windows.Documents.TesseractOcr.xxxx.x.xxx.nupkg` | `Telerik.Windows.Documents.TesseractOcr.dll` |
 
 Apart from the packages listed above, Telerik provides a number of additional libraries that are available when you install Telerik UI for ASP.NET AJAX [from an MSI]({%slug getting-started/installation/install-using-msi%}) or [from a ZIP file]({%slug getting-started/installation/install-from-zip%}). For example, `Newtonsoft.Json.dll` and `Telerik.Web.Spreadsheet.dll`. These libraries are available in the `AdditionalLibraries` folder within the UI for ASP.NET AJAX installation directory.
 
