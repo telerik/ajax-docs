@@ -99,7 +99,7 @@ Apart from the packages listed above, Telerik provides a number of additional li
 
 ## Spreadsheet Library
 
-The `Telerik.Web.Spreadsheet.dll` library is an assembly that lets you use the [Spreadsheet]({%slug spreadsheet/overview%}) control in your project. You will also need the `Newtsoft.Json.dll` assembly.
+The `Telerik.Web.Spreadsheet.dll` library is an assembly that lets you use the [Spreadsheet]({%slug spreadsheet/overview%}) control in your project. You will also need the `Newtonsoft.Json.dll` assembly.
 
 @[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the needed assemblies, support: They support, isplural: assemblies")
 
@@ -118,6 +118,7 @@ Telerik UI for ASP.NET AJAX provides the following document processing assemblie
 |Document Processing Assemblies|Specifics
 |:--|:--
 |`Telerik.Windows.Documents.Core.dll`|The main assembly from the Telerik document processing libraries. You always need it when you intend to use the library.
+|`Telerik.Windows.Documents.DrawingML.dll`|Provides shared DrawingML functionality used by the document processing libraries.
 |`Telerik.Windows.Documents.Flow.dll`|Part of the words (text) processing library. It is needed for processing `HTML`, `DOCX`, `RTF`, and `TXT` documents.
 |`Telerik.Windows.Zip.dll`|Needed for working with zipped formats (`DOCX`, `XLSX`) and PDF.
 |`Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll`|Allows you to export flow documents (`DOCX`, `RTF`) to PDF.
@@ -125,10 +126,13 @@ Telerik UI for ASP.NET AJAX provides the following document processing assemblie
 |`Telerik.Documents.SpreadsheetStreaming.dll`|The main assembly for generating huge spreadsheet files using minimum resources.
 |`Telerik.Windows.Documents.Spreadsheet.dll`|The main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 |`Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll`|Allows you to import or export the spreadsheet document model from or to XLSX.
-|`Telerik.Windows.Documents.Fixed.dll`|Needed for processing PDF documents.
+|`Telerik.Windows.Documents.Fixed.dll`|Needed for processing PDF documents. The PDF format provider for fixed documents is included in this assembly (there is no separate `Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.dll`).
+|`Telerik.Windows.Documents.Fixed.FormatProviders.Ocr.dll`|Adds OCR support for fixed documents.
 |`Telerik.Windows.Documents.CMapUtils.dll`|(Optional) Provides a default implementation for getting the data of a predefined CMap table by a given name. Include a reference to it only if you need to process documents with [CMap tables](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/concepts/cmaps).
+|`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Json.dll`|Allows you to import and export spreadsheet documents in JSON format.
 |`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll`|Allows you to export spreadsheets (`XLSX`, `CSV`) to PDF.
-|`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll.nupkg`|Allows you to work with `XLS` spreadsheet documents.
+|`Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll`|Allows you to work with `XLS` spreadsheet documents.
+|`Telerik.Windows.Documents.TesseractOcr.dll`|Provides integration with Tesseract OCR for document processing scenarios.
 
 For more information on working with the Telerik document processing libraries, refer to the following articles:
 
@@ -141,7 +145,7 @@ For more information on working with the Telerik document processing libraries, 
 
 ## Newtonsoft.Json.dll
 
-The `Newtsoft.Json.dll` assembly is located in the `AdditionalAssemblies` folder and you need to deploy it when you use the [CloudUpload control]({%slug cloudupload/troubleshooting%}#missing-assembly-reference), the [Scheduler WebAPI binding]({%slug scheduler/web-service-binding/web-api-binding%}), or the [SpreadSheet control]({%slug spreadsheet/overview%}).
+The `Newtonsoft.Json.dll` assembly is located in the `AdditionalAssemblies` folder and you need to deploy it when you use the [CloudUpload control]({%slug cloudupload/troubleshooting%}#missing-assembly-reference), the [Scheduler WebAPI binding]({%slug scheduler/web-service-binding/web-api-binding%}), or the [SpreadSheet control]({%slug spreadsheet/overview%}).
 
 If your project references a different version of this assembly, review the [Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework]({%slug troubleshoot-upgrade-issues%}#newtonsoftjson-is-built-by-a-higher-version-than-the-currently-targeted-framework) section.
 
