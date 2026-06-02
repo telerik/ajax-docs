@@ -58,8 +58,8 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>Avatar</td>
             <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
+            <td>AA</td>
+            <td><a href="https://www.telerik.com/kendo-jquery-ui/documentation/controls/avatar/accessibility/overview" target="_blank">Browse</a></td>
         </tr>
         <tr>
             <td>Badge</td>
@@ -136,32 +136,20 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>Chip</td>
             <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
+            <td>AA</td>
+            <td><a href="https://www.telerik.com/kendo-jquery-ui/documentation/controls/chip/accessibility/overview">Browse</a></td>
         </tr>
         <tr>
             <td>ChipList</td>
             <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>ClientDataSource</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>ClientExportManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
+            <td>AA</td>
+            <td><a href="https://www.telerik.com/kendo-jquery-ui/documentation/controls/chiplist/accessibility/overview">Browse</a></td>
         </tr>
         <tr>
             <td>CloudUpload</td>
             <td>Yes</td>
             <td>N/A</td>
-            <td>N/A</td>
+            <td><a href="https://www.telerik.com/products/aspnet-ajax/documentation/controls/cloudupload/accessibility-and-internationalization/localizing-radcloudupload">Browse</a></td>
         </tr>
         <tr>
             <td>ColorPicker</td>
@@ -174,18 +162,6 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>Yes</td>
             <td>AA</td>
             <td><a href="http://demos.telerik.com/aspnet-ajax/combobox/examples/accessibility/defaultcs.aspx">Browse</a></td>
-        </tr>
-        <tr>
-            <td>Compression</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>DataForm</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
         </tr>
         <tr>
             <td>DataPager</td>
@@ -202,7 +178,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>DatePicker</td>
             <td>Yes</td>
-            <td>N/A</td>
+            <td>AA</td>
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/datepicker/accessibility-and-internationalization/wai-aria-support">Browse</a></td>
         </tr>
         <tr>
@@ -214,7 +190,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>DateTimePicker</td>
             <td>Yes</td>
-            <td>N/A</td>
+            <td>AA</td>
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/datetimepicker/accessibility-and-internationalization/keyboard-support">Browse</a></td>
         </tr>
         <tr>
@@ -246,12 +222,6 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td>Yes</td>
             <td>A</td>
             <td><a href="http://demos.telerik.com/aspnet-ajax/dock/examples/accessibility/defaultcs.aspx">Browse</a></td>
-        </tr>
-        <tr>
-            <td>DragDropManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
         </tr>
         <tr>
             <td>Editor</td>
@@ -326,12 +296,6 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td><a href="https://demos.telerik.com/aspnet-ajax/textbox/common/accessibility/defaultcs.aspx">Browse</a></td>
         </tr>
         <tr>
-            <td>InputManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>Label</td>
             <td>Yes</td>
             <td>N/A</td>
@@ -400,7 +364,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>MonthYearPicker</td>
             <td>Yes</td>
-            <td>N/A</td>
+            <td>AA</td>
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/monthyearpicker/accessibility-and-internationalization/wai-aria-support">Browse</a></td>
         </tr>
         <tr>
@@ -416,16 +380,10 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/numerictextbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance">Browse</a></td>
         </tr>
         <tr>
-            <td>ODataDataSource</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>OrgChart</td>
             <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
+            <td>AA</td>
+            <td><a href="https://www.telerik.com/kendo-jquery-ui/documentation/controls/orgchart/accessibility/overview">Browse</a></td>
         </tr>
         <tr>
             <td>OTPInput</td>
@@ -446,22 +404,10 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td><a href="http://demos.telerik.com/aspnet-ajax/panelbar/examples/accessibility/defaultcs.aspx">Browse</a></td>
         </tr>
         <tr>
-            <td>PageLayout</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>PdfViewer</td>
             <td>Yes</td>
             <td>AA</td>
             <td><a href="https://demos.telerik.com/aspnet-ajax/pdfviewer/keyboardsupport/defaultcs.aspx">Browse</a></td>
-        </tr>
-        <tr>
-            <td>PersistenceFramework</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
         </tr>
         <tr>
             <td>PivotGrid</td>
@@ -518,12 +464,6 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td><a href="https://demos.telerik.com/aspnet-ajax/scheduler/examples/accessibility/defaultcs.aspx">Browse</a></td>
         </tr>
         <tr>
-            <td>ScriptManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>SegmentedControl</td>
             <td>Yes</td>
             <td>AA</td>
@@ -544,14 +484,8 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>Signature</td>
             <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>SkinManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
+            <td>AA</td>
+            <td><a href="https://www.telerik.com/kendo-jquery-ui/documentation/controls/signature/accessibility/overview">Browse</a></td>
         </tr>
         <tr>
             <td>Slider</td>
@@ -562,7 +496,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>SmartPasteButton</td>
             <td>Yes</td>
-            <td>N/A</td>
+            <td>AA</td>
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/smartpastebutton/accessibility-and-internationalization/keyboard-navigation">Browse</a></td>
         </tr>
         <tr>
@@ -608,12 +542,6 @@ The table below lists the accessibility level and support for Telerik UI for ASP
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/stepper/accessibility-and-internationalization/wcag-2.1-and-section-508-accessibility-compliance">Browse</a></td>
         </tr>
         <tr>
-            <td>StyleSheetManager</td>
-            <td>Yes</td>
-            <td>N/A</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>Switch</td>
             <td>Yes</td>
             <td>AA</td>
@@ -652,7 +580,7 @@ The table below lists the accessibility level and support for Telerik UI for ASP
         <tr>
             <td>TimePicker</td>
             <td>Yes</td>
-            <td>N/A</td>
+            <td>AA</td>
             <td><a href="https://docs.telerik.com/devtools/aspnet-ajax/controls/timepicker/accessibility-and-internationalization/wai-aria-support">Browse</a></td>
         </tr>
         <tr>
