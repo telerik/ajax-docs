@@ -186,7 +186,7 @@ The following list describes how your prompts may look like. Check the [Prompt L
 
 ## Usage Limits
 
-A Telerik [Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik Blazor AI Coding Assistant without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year]({%slug ai/overview#usage-limits%}).
+A Telerik [Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik AJAX AI Coding Assistant without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year]({%slug ai/overview#usage-limits%}).
 
 ## Connect to Local AI Model
 

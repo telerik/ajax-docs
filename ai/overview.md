@@ -49,11 +49,25 @@ You can also use the AI Coding Assistant for [Telerik Document Processing](https
 
 ## Usage Limits
 
-The Telerik AJAX AI Conding Assistant allows the following maximum number of requests, depending on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
+Access to the Telerik AJAX AI Coding Assistant depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
 
-* Perpetual licenses: include 50 requests per year to let you explore and try out the AI Coding Assistant. If you'd like ongoing, higher-volume access, switch to a Subscription license.
-* Subscription licenses: virtually unlimited number of requests with a fair use threshold of 300 requests per day
-* Trial licenses: 300 requests per trial per year. Activating the same trial for a new release does not grant additional 300 requests.
+* Subscription License
+
+    * A Subscription is the primary license that grants full access to the AI Coding Assistant.
+    * Includes a virtually unlimited number of requests, with a fair use threshold.
+    * Best for ongoing and high-volume usage.
+
+* Perpetual License (Limited Access)
+
+    * Perpetual license holders have no access to the AI Coding Assistant by default.
+    * You can start a 30-day AI Tools trial to access the AI Coding Assistant.
+    * After the trial expires, access is no longer available unless the [Perpetual license is converted to a Subscription license](https://www.telerik.com/account/support-center/contact-us/account-support).
+
+* Trial License
+
+    * Reactivating the same trial for a new release does not grant additional requests.
+    * Designed for evaluating the feature before purchasing.
+    * New users will start a trial automatically.
 
 > All Telerik AI tools share a single request limit for your Telerik account. For example, the [Telerik MCP server]({%slug ai/mcp-server%}) takes up from the same usage quota.
 > When using the Telerik MCP server, one prompt may trigger several requests, depending on the prompt complexity.
