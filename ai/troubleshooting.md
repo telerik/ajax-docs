@@ -4,7 +4,7 @@ meta_title: Telerik WebForms AI Tools Troubleshooting
 description: Common issues and their solutions when using the Telerik WebForms MCP Server for AI-powered development tools.
 slug: ai/troubleshooting
 tags: AI, troubleshooting, issue
-position: 5
+position: 6
 ---
 
 # Troubleshooting
