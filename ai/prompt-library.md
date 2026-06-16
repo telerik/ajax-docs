@@ -5,7 +5,7 @@ description: Get familiar with some example prompts that show how to use the Tel
 slug: ai/prompt-library
 tags: telerik, ajax, assistant, webforms, ai, prompt library
 published: True
-position: 3
+position: 4
 ---
 
 # Telerik AJAX Prompt Library
