@@ -5,7 +5,7 @@ description: Find out about the latest changes and improvements in the Telerik A
 slug: ai/changelog
 tags: telerik, ajax, assistant, webforms, ai, changelog
 published: True
-position: 4
+position: 5
 ---
 
 # Telerik AJAX AI Coding Assistant Changelog
