@@ -1,7 +1,7 @@
 top-navigation-product: asp-net-ajax
 path-prefix: /products/aspnet-ajax/documentation
 default-title-prefix: Telerik Web Forms
-
+apiRefServerSection: server
 primary-color: "#27A306"
 product-id: 561
 product-code: RCAJAX
