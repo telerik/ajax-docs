@@ -157,6 +157,8 @@ Will be sanitized to:
 
 The **StripJavaScriptUris** filter, like other security filters, runs both on the client and on the server side to protect from possible execution of already injected malicious code. This filter is enabled by default to provide comprehensive XSS protection.
 
+In addition to URI schemes, this filter also removes HTML attributes that can embed executable content directly (such as inline HTML documents rendered by the browser), even when their values are not traditional URIs. This provides defense-in-depth against vectors that bypass URI-based checks.
+
 >warning Disabling the **StripJavaScriptUris** filter can expose your application to XSS attacks. Only disable this filter if you fully trust the content source and have implemented alternative security measures.
 
 ## Custom Content Filters
@@ -277,6 +279,22 @@ Partial Public Class DefaultVB
 End Class
 ````
 
+
+## Important Considerations
+
+**RadEditor** is an HTML editing component. By design, users can enter arbitrary HTML markup, including elements and attributes that may contain executable content. The built-in content filters provide a strong default layer of protection, but they do not replace proper application-level security.
+
+When integrating RadEditor in your application, keep the following in mind:
+
+* **Always sanitize on the server.** The built-in filters run on both the client and the server (via the `RadEditor.Content` property setter), but you should also validate and sanitize content when saving to your database and when rendering it back to end users.
+
+* **Never render untrusted RadEditor content as raw HTML** without server-side sanitization. If your application stores content from one user and displays it to another, ensure the output is properly sanitized before rendering. The built-in filters protect the RadEditor editing surface, but they cannot protect every possible rendering path in your application.
+
+* **The default filters are designed to be comprehensive**, but they cannot cover every possible attack vector in every application context. If your security requirements go beyond the built-in filters, implement [custom content filters](#custom-content-filters) or use a dedicated server-side HTML sanitization library.
+
+* **Disabling security filters shifts the responsibility to the implementer.** If you disable filters like `RemoveScripts`, `StripDomEventAttributes`, or `StripJavaScriptUris`, you must implement equivalent protection in your application code.
+
+>tip For a layered defense, combine the built-in RadEditor content filters with server-side output encoding (e.g., `HttpUtility.HtmlEncode`) when displaying stored content outside of a RadEditor instance.
 
 ## See Also
 
