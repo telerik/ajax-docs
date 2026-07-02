@@ -27,7 +27,7 @@ res_type: kb
 
 ## Description
 
-In R1 2020, the custom metadata classes(upload configurations) whitelisting is enabled by default - [Whitelist custom metadata types](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes). If your application uses such configurations, you will need to add them to the `Telerik.Upload.AllowedCustomMetaDataTypes` key in the web.config. 
+In R1 2020, the custom metadata classes(upload configurations) whitelisting is enabled by default - [Whitelist custom metadata types]({%slug asyncupload-security%}#allowedcustommetadatatypes). If your application uses such configurations, you will need to add them to the `Telerik.Upload.AllowedCustomMetaDataTypes` key in the web.config. 
 
 You need to add the fully qualified name of the class, otherwise you will get a `The cryptographic operation has failed!` error when attempting an upload.
 
@@ -41,9 +41,9 @@ You need to add the fully qualified name of the class, otherwise you will get a 
 
 If adding the `AllowedCustomMetaDataTypes` key or not using custom configuration files do not fix the error, please ensure you have set the necessary encryption keys:
 
-* [ConfigurationEncryptionKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#configurationencryptionkey)
-* [ConfigurationHashKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#configurationhashkey)
-* [Telerik.Web.UI.DialogParametersEncryptionKey](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security#dialogparametersencryptionkey), if using RadEditor dialogs
+* [ConfigurationEncryptionKey]({%slug asyncupload-security%}#configurationencryptionkey)
+* [ConfigurationHashKey]({%slug asyncupload-security%}#configurationhashkey)
+* [Telerik.Web.UI.DialogParametersEncryptionKey]({%slug editor/security%}#dialogparametersencryptionkey), if using RadEditor dialogs
 
 ## Solution
 
@@ -69,8 +69,8 @@ In the project you will find two pages with two different custom handlers. As yo
 
 ## See Also
 
-* [AsyncUpload Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security) article
+* [AsyncUpload Security]({%slug asyncupload-security%}) article
 * [AsyncUpload - Custom Http Handler](https://demos.telerik.com/aspnet-ajax/asyncupload/examples/imageuploader/defaultcs.aspx) online demo
-* [How to Create a Custom Handler for RadAsyncUpload](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/how-to/how-to-extend-the-radasyncupload-handler) article
-* [RadEditor Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/security) article
+* [How to Create a Custom Handler for RadAsyncUpload]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%}) article
+* [RadEditor Security]({%slug editor/security%}) article
 
