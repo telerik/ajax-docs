@@ -8,7 +8,7 @@ res_type: kb
 ## Description
 
 **[Critical Security Bulletin] – [July 2026]** – [CVE-2026-13181](https://www.cve.org/CVERecord?id=CVE-2026-13181), [CVE-2026-13182](https://www.cve.org/CVERecord?id=CVE-2026-13182), [CVE-2026-13183](https://www.cve.org/CVERecord?id=CVE-2026-13183), [CVE-2026-13184](https://www.cve.org/CVERecord?id=CVE-2026-13184), [CVE-2026-13185](https://www.cve.org/CVERecord?id=CVE-2026-13185), [CVE-2026-13186](https://www.cve.org/CVERecord?id=CVE-2026-13186), [CVE-2026-13190](https://www.cve.org/CVERecord?id=CVE-2026-13190)
-ддд
+
 - Progress® Telerik® UI for AJAX 2026 Q2 (2026.2.519) or earlier.
 
 Multiple high security vulnerabilities have been confirmed in Telerik UI for ASP.NET AJAX affecting the RadAsyncUpload, RadPersistenceManager, and RadDockLayout components. When chained together, these vulnerabilities can allow an unauthenticated remote attacker to achieve Remote Code Execution (RCE) on the server hosting the application. This article describes the combined attack chain, its impact, and the actions required to remediate or mitigate the risk.
