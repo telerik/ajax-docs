@@ -21,6 +21,8 @@ There is an `appSettings` key you should add to your `web.config` to ensure info
 >important If you do not set a custom key, a default (hardcoded) value is used to encrypt/decrypt the information.
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+>
+>As of **2026.2.708** (R2 2026 SP1), the custom key settings have been improved, since the control now encrypts the values with AES-GCM, which provides stronger protection than the machine key fallback. It is strongly recommended to upgrade to this version or newer.
 
 As an added security measure, as of **R2 2017 SP2**, you can **disable file uploads for your application** via the [Telerik.Web.DisableCloudUploadHandler key](#disableclouduploadhandler) web.config switch.
 

@@ -26,6 +26,8 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 >important If you do not set custom keys, default (hardcoded) values are used to encrypt/decrypt the information.
 >
 >As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig). You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+>
+>As of **2026.2.708** (R2 2026 SP1), the custom key settings have been improved, since the control now encrypts the values with AES-GCM.
 
 >tip To add a layer of security on the user actions from the file browser dialogs (such as Image Manager), follow the [RadFileExplorer Security](https://docs.telerik.com/devtools/aspnet-ajax/controls/fileexplorer/security) article. To attach to the `ItemCommand` event, you must use the `FileBrowser` and `MobileImageManager` dialogs as [external dialogs](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/dialogs/externaldialogspath-property) and add the file with the event handler and business logic to them. You can find an example in the [item-command-in-external-dialogs.zip](item-command-in-external-dialogs.zip) archive.
 
@@ -74,3 +76,5 @@ Please check out the dedicated [Prevent Cross-site Scripting (XSS)](https://docs
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
 * [Prevent Cross-site Scripting (XSS)](https://docs.telerik.com/devtools/aspnet-ajax/controls/editor/managing-content/prevent-cross-site-scripting-(xss))
+
+* [RadAsyncUpload Client-State Decrypt-vs-Parse Oracle Vulnerability (CVE-2026-13182)]({%slug kb-security-rau-padding-oracle-cve-2026-13182%})
