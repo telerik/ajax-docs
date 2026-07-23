@@ -29,6 +29,8 @@ This article contains the following sections:
 
 ## Recommended Settings
 
+>caution As of **2026.2.708** (R2 2026 SP1), the custom key settings have been improved, since the control now encrypts the values with AES-GCM, which provides stronger protection than the machine key fallback. It is strongly recommended to upgrade to this version or newer.
+
 There are three `appSettings` keys you should add to your `web.config` to ensure information security with file uploads:
 
 1. Set a custom `Telerik.AsyncUpload.ConfigurationEncryptionKey`.
@@ -38,8 +40,6 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 3. Set the `Telerik.Upload.AllowedCustomMetaDataTypes` key. Check the [Metadata Type Whitelisting](#allowedcustommetadatatypes) section to avoid any breaking changes.
 
 >tip You can use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion): ![Generate a strong key](../images/generate-keys-iis.png) You can see the steps of how to generate the security keys in this [YouTube video](https://www.youtube.com/watch?v=J18zDKtiBFE). Do not forget to select the *HMACSHA256* validation method that is the recommended one to generate the keys.
-
->caution As of **2026.2.708** (R2 2026 SP1), the custom key settings have been improved, since the control now encrypts the values with AES-GCM, which provides stronger protection than the machine key fallback. It is strongly recommended to upgrade to this version or newer.
 
 ````web.config
 <appSettings>
@@ -57,13 +57,8 @@ There are three `appSettings` keys you should add to your `web.config` to ensure
 
 The information below provides more details on the available keys and their usage.
 
->important If you do not set custom encryption and hashing keys, default (hardcoded) values are used to encrypt/decrypt the information for versions prior to R2 2017 SP1. If you are using such an old version, we recommend [upgrading]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}) to the latest.
->
->As of **R2 2017 SP1**, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys](#recommended-settings).
->
->As of **2026.2.708** (R2 2026 SP1), the control uses AES-GCM when a custom `Telerik.AsyncUpload.ConfigurationEncryptionKey`, `Telerik.Upload.ConfigurationHashKey`, or `Telerik.Web.UI.DialogParametersEncryptionKey` is provided, which is stronger than the machine key fallback. See [CVE-2026-13182]({%slug kb-security-rau-padding-oracle-cve-2026-13182%}) for the full background and mitigation guidance if you cannot upgrade immediately.
->
->Other cryptographic operations in the UI for ASP.NET AJAX suite may also use these keys. Telerik avoids adding more keys in order to improve backwards compatibility of your applications and to reduce the number of properties you have to set.
+>important Setting the keys explicitly on v2026.2.708+ is recommended because AES-GCM provides stronger protection. If you choose not to set the keys, ensure you have a strong, explicitly configured `<machineKey>` in web.config.
+
 
 Available keys:
 
@@ -74,7 +69,7 @@ Available keys:
 
 ### ConfigurationEncryptionKey
 
-To provide secure encryption of the control configuration, we strongly advise that you set a custom encryption key for `Telerik.AsyncUpload.ConfigurationEncryptionKey`:
+To provide secure encryption of the control configuration, we strongly recommend that you set a custom encryption key for `Telerik.AsyncUpload.ConfigurationEncryptionKey`:
 
 ````web.config
 <appSettings>
@@ -82,14 +77,10 @@ To provide secure encryption of the control configuration, we strongly advise th
 </appSettings>
 ````
 
-The `Telerik.AsyncUpload.ConfigurationEncryptionKey` is available as of Q3 2012 SP1 (version 2012.3.1205).
-
 >tip You can [use the IIS MachineKey Validation Key generator to get the encryption keys (make sure to avoid the ,IsolateApps portion)](../images/generate-keys-iis.png).
 
 
 ### ConfigurationHashKey
-
-As of **R1 2017**, the **Encrypt-then-MAC** approach is implemented, in order to improve the integrity of the encrypted temporary and target folders.
 
 The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the encrypted text. The value returned from the client is checked in the upload handler for integrity. If the hashing attempt is incorrect, a `new CryptographicException("The hash is not valid!");` exception will be thrown.
 
@@ -105,7 +96,7 @@ The additional `Telerik.Upload.ConfigurationHashKey` key is used to hash the enc
 
 As of **R3 2019 SP1**, the metadata classes (upload configurations) can be whitelisted. That allows the application to use only the metadata classes from a whitelisted collection of configurations.
 
->important As of **R1 2020** this feature is enabled by default to improve the application security, and allows the built-in Telerik type only. In **R3 2019 SP1** the feature is opt-in. If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw a *[The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)* error when uploading.
+>important If you add any types, you must add all types that you use, otherwise those that are not whitelisted will throw a *[The cryptographic operation has failed!](https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-the-cryptographic-operation-has-failed-error-after-upgrade)* error when uploading.
 
 There are several situations when you may be using a custom metadata class, you can read more on the most common cases in the following resources. This can help you determine whether you have such code in your application for any purpose. If you do, read the information after this list to see how to apply whitelisting for them.
 

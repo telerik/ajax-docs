@@ -32,10 +32,11 @@ To add the HTTP handlers, use any of the following approaches:
 When manually adding the HTTP handlers, note the following considerations:  
 
 * For security purposes, you also have to add the `<appSettings>` keys listed in the example with strong, unique, randomized values of your own. You can [use the IIS MachineKey Validation Key generator to get them but make sure to avoid the `,IsolateApps` portion](images/generate-keys-iis.png). You can also [Encrypt the `appSettings` section](https://www.telerik.com/support/kb/aspnet-ajax/details/how-to-encrypt-the-telerik-appsettings-keys).
-* As of R2 2017 SP1, the standard .NET methods are used for encryption. Nevertheless, you still have to set your own custom keys.
 * As of R1 2020, the [`Telerik.Upload.AllowedCustomMetaDataTypes`](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/security#allowedcustommetadatatypes) feature is enabled by default to improve the application security.
 
->important As of R1 2020, the MachineKey is automatically used for the `ConfigurationEncryptionKey`, `ConfigurationHashKey`, and `DialogParametersEncryptionKey` keys if they are not set explicitly. You will still need to set your own custom keys if you are using previous versions of the controls.
+>important As of **2026.2.708** (R2 2026 SP1), the custom `ConfigurationEncryptionKey`, `ConfigurationHashKey`, and `DialogParametersEncryptionKey` key settings have been improved, since the control now encrypts the values with AES-GCM, which provides stronger protection than the machine key fallback. It is strongly recommended to upgrade to this version or newer. For more information, refer to the [Critical Security Bulletin - July 2026]({%slug kb-security-critical-rce-chain-bulletin-july-2026%}) article.
+>
+>If these keys are not set, the controls fall back to the .NET `MachineKey` for encryption and integrity. While this is functional, setting the keys explicitly on v2026.2.708+ is recommended because AES-GCM provides stronger protection. If you choose not to set the keys, ensure you have a strong, explicitly configured `<machineKey>` in web.config.
 
 The following example demonstrates the mandatory `web.config` additions needed by the Telerik UI for ASP.NET AJAX suite.
 
