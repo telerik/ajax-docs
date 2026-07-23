@@ -18,9 +18,9 @@ There is one `appSettings` key you should add to your `web.config` to ensure inf
 
 * set a custom `Telerik.Web.UI.DialogParametersEncryptionKey`.
 
->important If you do not set custom keys, default (hardcoded) values are used to encrypt/decrypt the information.
+>important As of **2026.2.708** (R2 2026 SP1), the custom key settings have been improved, since the control now encrypts the values with AES-GCM, which provides stronger protection than the machine key fallback. It is strongly recommended to upgrade to this version or newer. For more information, refer to the [Critical Security Bulletin - July 2026]({%slug kb-security-critical-rce-chain-bulletin-july-2026%}) article.
 >
->As of R2 2017 SP1, hardcoded keys are not used anymore. Instead, standard .NET methods are used for encryption. Nevertheless, you should still set your own [unique custom keys]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
+> If these keys are not set, the controls fall back to the .NET `MachineKey` for encryption and integrity. While this is functional, setting the keys explicitly on v2026.2.708+ is recommended because AES-GCM provides stronger protection. If you choose not to set the keys, ensure you have a strong, explicitly configured `<machineKey>` in web.config. You can [use the IIS MachineKey Validation Key generator to get them (make sure to avoid the ,IsolateApps portion)](images/generate-keys-iis.png).
 
 ## DialogParametersEncryptionKey
 
