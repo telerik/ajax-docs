@@ -26,8 +26,30 @@ This article will get you started in using the **RadSpreadsheet** control. It co
 
 In order to use the **RadSpreadsheet** control in your project you need to add references to the following assemblies:
 
-* **Telerik.Web.Spreadsheet.dll**
+* **Telerik.Spreadsheet.Web.dll**
 * **Newtonsoft.Json.dll**
+
+### NuGet installation
+
+The recommended way to add the spreadsheet dependency is to install the
+following NuGet package:
+
+```shell
+dotnet add package Telerik.Spreadsheet.Web
+```
+
+The package provides the `Telerik.Spreadsheet.Web.dll` assembly. If your project references the former `Telerik.Web.Spreadsheet.dll` assembly, remove that reference and replace it with `Telerik.Spreadsheet.Web.dll`.
+
+For more information, see the [Telerik.Spreadsheet.Web NuGet package](https://www.nuget.org/packages/Telerik.Spreadsheet.Web).
+
+### Manual installation
+
+You can also access the required assemblies from the `AdditionalLibraries/Bin462` folder in the Telerik UI for ASP.NET AJAX installation. When using the manual installation, reference:
+
+- `Telerik.Spreadsheet.Web.dll`
+- `Newtonsoft.Json.dll`
+
+### SpreadsheetDocumentProvider dependencies
 
 @[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the needed assemblies, support: They support, isplural: assemblies")
 
