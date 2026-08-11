@@ -26,6 +26,22 @@ You may also want to:
 
 These steps will reduce the number of legitimate actions that the end user can turn malicious (like deleting files from your system, seeing files they should not be seeing and so on).
 
+## Restrict the Accessible Paths on the Server (FileBrowserAllowedPaths)
+
+Enforce server-side path containment for `RadFileExplorer` and the `RadEditor` file browser dialogs (Image Manager, Document Manager, and so on) by setting the `Telerik.Web.UI.FileBrowserAllowedPaths` key in the `appSettings` section of `web.config`.
+
+Its value is a semicolon-separated list of virtual path roots. Before any file system access (view, upload, or delete), the server verifies that the resolved path falls within one of these roots. Paths that do not match are discarded before the file system is accessed.
+
+This restriction is independent of the `Configuration.ViewPaths`, `Configuration.UploadPaths`, and `Configuration.DeletePaths` submitted with the request. Those properties define the default locations for browsing and uploading. `FileBrowserAllowedPaths` is a separate, server-enforced allowlist that applies regardless of what those properties specify.
+
+>note This setting is optional (opt-in). When it is not set, all controls behave exactly as before - there is no change for existing applications.
+
+````web.config
+<appSettings>
+	<add key="Telerik.Web.UI.FileBrowserAllowedPaths" value="~/Upload/;~/Images/" />
+</appSettings>
+````
+
 >caption Example 1: Validate user actions to secure file types tampering.
 
 ````C#
