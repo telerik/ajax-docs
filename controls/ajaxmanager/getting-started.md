@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the AjaxManager
 description: "Get up and running with the Telerik UI for ASP.NET AJAX AjaxManager control, AJAX-enable your application, define the AjaxLoadingPanel, and add some styles to the project."
 slug: ajaxmanager/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
+components: ["ajaxmanager"]
 previous_url: ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel, controls/ajaxmanager/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 tags: telerik, aspnet, ajax, ajaxmanager, getting, started, enable, ajaxloadingpanel
 published: True

@@ -3,6 +3,7 @@ title: AjaxUpdatedControl Properties
 page_title: AjaxUpdatedControl Server-Side Properties
 description: "Learn how to set the AjaxUpdatedControl server-side properties when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/ajaxupdatedcontrol-properties
+components: ["ajaxmanager"]
 previous_url: ajax/server-side-programming/ajaxupdatedcontrol-properties
 tags: telerik, aspnet, ajax, ajaxmanager, ajaxupdatedcontrol, properties
 published: True

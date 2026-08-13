@@ -3,6 +3,7 @@ title: CSRF Protection
 page_title: CSRF Protection - RadAsyncUpload
 description: Check our Web Forms article about CSRF protection in RadAsyncUpload and how to enforce information encryption to prevent attacks.
 slug: asyncupload-csrf-protection
+components: ["asyncupload"]
 tags: security
 published: True
 position: 15

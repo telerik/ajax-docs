@@ -3,6 +3,7 @@ title: Properties
 page_title: Properties
 description: Check our Web Forms article about Properties.
 slug: ajaxpanel/server-side-programming/properties
+components: ["ajaxpanel"]
 tags: properties
 published: True
 position: 0

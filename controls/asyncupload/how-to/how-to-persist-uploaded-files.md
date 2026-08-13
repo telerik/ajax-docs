@@ -3,6 +3,7 @@ title: How to Persist Uploaded Files
 page_title: How to Persist Uploaded Files - RadAsyncUpload
 description: Explore how to persist uploaded files using the AsyncUpload control for reliable file management.
 slug: asyncupload/how-to/how-to-persist-uploaded-files
+components: ["asyncupload"]
 tags: how,to,persist,uploaded,files
 published: True
 position: 3

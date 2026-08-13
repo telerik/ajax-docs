@@ -3,6 +3,7 @@ title: Overview
 page_title: RadAjaxLoadingPanel Overview
 description: Learn how the AjaxLoadingPanel provides visual feedback during asynchronous operations in your app.
 slug: ajaxloadingpanel/overview
+components: ["ajaxloadingpanel"]
 previous_url: ajax/radajaxloadingpanel/overview
 tags: overview
 published: True

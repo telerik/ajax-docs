@@ -3,6 +3,7 @@ title: Prevent Page Submitting While Uploading File
 page_title: Prevent Page Submitting While Uploading File - RadAsyncUpload
 description: Check our Web Forms article about Prevent Page Submitting While Uploading File.
 slug: asyncupload/how-to/prevent-page-submitting-while-uploading-file
+components: ["asyncupload"]
 tags: prevent,page,submitting,while,uploading,file
 published: True
 position: 4

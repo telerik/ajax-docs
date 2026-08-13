@@ -3,6 +3,7 @@ title: AJAX And File Upload
 page_title: AJAX And File Upload
 description: Check our Web Forms article about AJAX And File Upload.
 slug: ajaxpanel/troubleshooting/ajax-and-file-upload
+components: ["ajaxpanel"]
 tags: ajax,and,file,upload
 published: True
 position: 2

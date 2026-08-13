@@ -3,6 +3,7 @@ title: OnClientFileUploadRemoved
 page_title: OnClientFileUploadRemoved - RadAsyncUpload
 description: Check our Web Forms article about OnClientFileUploadRemoved.
 slug: asyncupload/client-side-programming/onclientfileuploadremoved
+components: ["asyncupload"]
 tags: onclientfileuploadremoved
 published: True
 position: 13

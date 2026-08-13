@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadAsyncUpload
 description: Check our Web Forms article about Common Issues.
 slug: asyncupload/troubleshooting/common-issues
+components: ["asyncupload"]
 tags: common,issues
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: How to Extend the RadAsyncUpload handler
 page_title: How to Extend the RadAsyncUpload handler - RadAsyncUpload
 description: Check our Web Forms article about How to Extend the RadAsyncUpload handler.
 slug: asyncupload/how-to/how-to-extend-the-radasyncupload-handler
+components: ["asyncupload"]
 tags: how,to,extend,the,radasyncupload,handler
 published: True
 position: 0

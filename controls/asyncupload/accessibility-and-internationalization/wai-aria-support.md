@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadAsyncUpload
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: asyncupload/accessibility-and-internationalization/wai-aria-support
+components: ["asyncupload"]
 tags: wai-aria,support
 published: True
 position: 3

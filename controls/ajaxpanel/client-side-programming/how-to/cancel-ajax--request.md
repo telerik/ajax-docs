@@ -3,6 +3,7 @@ title: Cancel AJAX  Request
 page_title: Cancel AJAX Request
 description: Check our Web Forms article about Cancel AJAX  Request.
 slug: ajaxpanel/client-side-programming/how-to/cancel-ajax--request
+components: ["ajaxpanel"]
 tags: cancel,ajax,,request
 published: True
 position: 0

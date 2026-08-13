@@ -3,6 +3,7 @@ title: OnRequestStart
 page_title: OnRequestStart
 description: Check our Web Forms article about OnRequestStart.
 slug: ajaxpanel/client-side-programming/events/onrequeststart
+components: ["ajaxpanel"]
 tags: onrequeststart
 published: True
 position: 1

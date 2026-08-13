@@ -3,6 +3,7 @@ title: ResponseEnd
 page_title: AjaxManager ResponseEnd
 description: "Learn how to use the ResponseEnd client-side event when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/client-side-programming/events/responseend
+components: ["ajaxmanager"]
 previous_url: controls/ajax/client-side-programming/events/onresponseend, controls/ajaxmanager/client-side-programming/events/onresponseend
 tags: telerik, aspnet, ajax, ajaxmanager, responseend, event, clientside, programming, api
 published: True

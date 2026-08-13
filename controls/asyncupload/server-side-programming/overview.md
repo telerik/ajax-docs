@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-Side Programming Overview - RadAsyncUpload
 description: Learn about the server-side API of the AsyncUpload control for managing file uploads programmatically.
 slug: asyncupload/server-side-programming/overview
+components: ["asyncupload"]
 tags: overview
 published: True
 position: 0

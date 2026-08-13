@@ -3,6 +3,7 @@ title: Pass More than one Argument
 page_title: Pass More than one Argument
 description: Check our Web Forms article about Pass More than one Argument.
 slug: ajaxpanel/client-side-programming/how-to/pass-more-than-one-argument
+components: ["ajaxpanel"]
 tags: pass,more,than,one,argument
 published: True
 position: 2

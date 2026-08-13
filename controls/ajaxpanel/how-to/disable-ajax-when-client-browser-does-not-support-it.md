@@ -3,6 +3,7 @@ title: Disable AJAX when Client Browser Does Not Support it
 page_title: Disable AJAX when Client Browser Does Not Support it
 description: Check our Web Forms article about Disable AJAX when Client Browser Does Not Support it.
 slug: ajaxpanel/how-to/disable-ajax-when-client-browser-does-not-support-it
+components: ["ajaxpanel"]
 tags: disable,ajax,when,client,browser,does,not,support,it
 published: True
 position: 7

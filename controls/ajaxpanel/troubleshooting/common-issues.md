@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues
 description: Check our Web Forms article about Common Issues.
 slug: ajaxpanel/troubleshooting/common-issues
+components: ["ajaxpanel"]
 previous_url: controls/ajax/troubleshooting/common-issues
 tags: common,issues
 published: True

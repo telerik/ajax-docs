@@ -3,6 +3,7 @@ title: OnAjaxRequest
 page_title: OnAjaxRequest
 description: Check our Web Forms article about OnAjaxRequest.
 slug: ajaxpanel/server-side-programming/events/onajaxrequest
+components: ["ajaxpanel"]
 tags: onajaxrequest
 published: True
 position: 0

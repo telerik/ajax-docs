@@ -3,6 +3,7 @@ title: What is AJAX
 page_title: What is AJAX
 description: Check our Web Forms article about What is AJAX.
 slug: ajaxpanel/getting-started/what-is-ajax
+components: ["ajaxpanel"]
 tags: radajax, ajax
 published: True
 position: 0

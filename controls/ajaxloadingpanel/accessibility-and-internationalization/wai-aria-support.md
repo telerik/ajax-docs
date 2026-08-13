@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadAjaxLoadingPanel
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: ajaxloadingpanel/accessibility-and-internationalization/wai-aria-support
+components: ["ajaxloadingpanel"]
 previous_url: ajax/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True

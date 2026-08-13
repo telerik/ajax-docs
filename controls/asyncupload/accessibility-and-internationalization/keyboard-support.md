@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadAsyncUpload
 description: Check our Web Forms article about Keyboard Support.
 slug: asyncupload/accessibility-and-internationalization/keyboard-support
+components: ["asyncupload"]
 tags: keyboard,support
 published: True
 position: 0

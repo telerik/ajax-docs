@@ -3,6 +3,7 @@ title: Change Mouse Cursor on AJAX Update
 page_title: Change Mouse Cursor on AJAX Update
 description: Check our Web Forms article about Change Mouse Cursor on AJAX Update.
 slug: ajaxpanel/client-side-programming/how-to/change-mouse-cursor-on-ajax-update
+components: ["ajaxpanel"]
 tags: change,mouse,cursor,on,ajax,update
 published: True
 position: 5

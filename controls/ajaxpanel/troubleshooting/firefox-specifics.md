@@ -3,6 +3,7 @@ title: Firefox Specifics
 page_title: Firefox Specifics
 description: Check our Web Forms article about Firefox Specifics.
 slug: ajaxpanel/troubleshooting/firefox-specifics
+components: ["ajaxpanel"]
 tags: firefox,specifics
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Performance Optimization
 page_title: AjaxManager Performance Optimization 
 description: "learn tips and tricks to optimize the performance when using the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/performance/optimizing-performance-using-radajaxmanager
+components: ["ajaxmanager"]
 previous_url: ajax/performance/optimizing-performance-using-radajaxmanager, controls/ajaxmanager/performance/optimizing-performance-using-radajaxmanager
 tags: telerik, aspnet, ajax, ajaxmanager, optimizing, the, performance
 published: True

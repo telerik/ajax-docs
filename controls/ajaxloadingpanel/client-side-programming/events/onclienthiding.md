@@ -3,6 +3,7 @@ title: OnClientHiding
 page_title: OnClientHiding - RadAjaxLoadingPanel
 description: Check our Web Forms article about OnClientHiding.
 slug: ajaxloadingpanel/client-side-programming/events/onclienthiding
+components: ["ajaxloadingpanel"]
 previous_url: ajax/client-side-programming/events/onclienthiding
 tags: onclienthiding
 published: True

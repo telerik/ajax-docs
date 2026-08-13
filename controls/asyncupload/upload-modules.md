@@ -3,6 +3,7 @@ title: Upload Modules
 page_title: Upload Modules - RadAsyncUpload
 description: Check our Web Forms article about Upload Modules.
 slug: asyncupload/upload-modules
+components: ["asyncupload"]
 tags: upload,modules
 published: True
 position: 13

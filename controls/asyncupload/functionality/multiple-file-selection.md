@@ -3,6 +3,7 @@ title: Multiple File Selection
 page_title: Multiple File Selection - RadAsyncUpload
 description: Learn how to enable multiple file selection in the AsyncUpload control for efficient file uploads.
 slug: asyncupload/functionality/multiple-file-selection
+components: ["asyncupload"]
 tags: multiple,file,selection
 published: True
 position: 5

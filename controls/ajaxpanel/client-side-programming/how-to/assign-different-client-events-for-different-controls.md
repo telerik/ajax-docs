@@ -3,6 +3,7 @@ title: Assign Different Client Events for Different Controls
 page_title: Assign Different Client Events for Different Controls
 description: Check our Web Forms article about Assign Different Client Events for Different Controls.
 slug: ajaxpanel/client-side-programming/how-to/assign-different-client-events-for-different-controls
+components: ["ajaxpanel"]
 tags: assign,different,client,events,for,different,controls
 published: True
 position: 4

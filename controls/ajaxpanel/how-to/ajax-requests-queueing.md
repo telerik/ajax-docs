@@ -3,6 +3,7 @@ title: Ajax Requests Queueing
 page_title: Ajax Requests Queueing
 description: Check our Web Forms article about Ajax Requests Queueing.
 slug: ajaxpanel/how-to/ajax-requests-queueing
+components: ["ajaxpanel"]
 tags: ajax,requests,queueing
 published: True
 position: 11

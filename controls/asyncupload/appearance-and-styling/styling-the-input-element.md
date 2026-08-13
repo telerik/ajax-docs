@@ -3,6 +3,7 @@ title: Styling the Input Element
 page_title: Styling the Input Element - RadAsyncUpload
 description: Check our Web Forms article about Styling the Input Element.
 slug: asyncupload/appearance-and-styling/styling-the-input-element
+components: ["asyncupload"]
 tags: styling,the,input,element
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Disable Plugins
 page_title: Disable Plugins - RadAsyncUpload
 description: Check our Web Forms article about Disable Plugins.
 slug: asyncupload/functionality/disable-plugins
+components: ["asyncupload"]
 tags: disable,plugins
 published: True
 position: 0

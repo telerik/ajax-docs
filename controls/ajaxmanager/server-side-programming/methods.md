@@ -3,6 +3,7 @@ title: Methods
 page_title: AjaxManager Server-Side Methods
 description: "Learn how to set the AjaxManager server-side methods when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/methods
+components: ["ajaxmanager"]
 previous_url: ajax/server-side-programming/methods
 tags: telerik, aspnet, ajax, ajaxmanager, methods, serverside, programming
 published: True

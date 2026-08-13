@@ -3,6 +3,7 @@ title: Executing Custom Javascript Code after AJAX Update
 page_title: Executing Custom Javascript Code after AJAX Update
 description: Check our Web Forms article about Executing Custom Javascript Code after AJAX Update.
 slug: ajaxpanel/how-to/executing-custom-javascript-code-after-ajax-update
+components: ["ajaxpanel"]
 tags: executing,custom,javascript,code,after,ajax,update
 published: True
 position: 5

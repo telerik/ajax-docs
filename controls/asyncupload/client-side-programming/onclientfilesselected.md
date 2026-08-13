@@ -3,6 +3,7 @@ title: OnClientFilesSelected
 page_title: OnClientFilesSelected - RadAsyncUpload
 description: Check our Web Forms article about OnClientFilesSelected.
 slug: asyncupload/client-side-programming/onclientfilesselected
+components: ["asyncupload"]
 tags: onclientfilesselected
 published: True
 position: 6

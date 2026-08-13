@@ -3,6 +3,7 @@ title: Tutorial Creating a Custom Skin
 page_title: Tutorial Creating a Custom Skin - RadAsyncUpload
 description: Check our Web Forms article about Tutorial Creating a Custom Skin.
 slug: asyncupload/appearance-and-styling/tutorial-creating-a-custom-skin
+components: ["asyncupload"]
 tags: tutorial,creating,a,custom,skin
 published: True
 position: 1

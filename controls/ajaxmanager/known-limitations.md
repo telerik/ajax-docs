@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: AjaxManager Known Limitations
 description: "Learn more about the known limitations when using the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/troubleshooting/known-limitations
+components: ["ajaxmanager"]
 previous_url: ajax/troubleshooting/known-limitations, controls/ajaxmanager/troubleshooting/known-limitations 
 tags: telerik, asp, net, ajax, manager, known, limitations, issues
 published: True

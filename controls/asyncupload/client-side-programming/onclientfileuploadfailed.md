@@ -3,6 +3,7 @@ title: OnClientFileUploadFailed
 page_title: OnClientFileUploadFailed - RadAsyncUpload
 description: Check our Web Forms article about OnClientFileUploadFailed.
 slug: asyncupload/client-side-programming/onclientfileuploadfailed
+components: ["asyncupload"]
 tags: onclientfileuploadfailed
 published: True
 position: 11

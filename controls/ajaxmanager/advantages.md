@@ -3,6 +3,7 @@ title: Advantages
 page_title: AjaxManager Advantages
 description: "Learn more about the advantages of using the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/getting-started/radajax-advantages
+components: ["ajaxmanager"]
 previous_url: ajax/getting-started/radajax-advantages
 tags: telerik, aspnet, ajax, ajaxmanager, advantages
 published: True

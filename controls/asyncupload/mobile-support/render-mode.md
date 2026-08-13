@@ -3,6 +3,7 @@ title: Render Mode
 page_title: Render Mode - RadAsyncUpload
 description: Check our Web Forms article about Render Mode.
 slug: asyncupload/mobile-support/render-mode
+components: ["asyncupload"]
 tags: render,mode
 published: True
 position: 0

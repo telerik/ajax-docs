@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview
 description: Check our Web Forms article about Overview.
 slug: ajaxpanel/client-side-programming/events/overview
+components: ["ajaxpanel"]
 tags: overview
 published: True
 position: 0

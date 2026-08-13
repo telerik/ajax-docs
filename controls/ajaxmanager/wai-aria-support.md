@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: AjaxManager WAI-ARIA Support
 description: "Learn about the accessibility support provided by the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/accessibility-and-internationalization/wai-aria-support
+components: ["ajaxmanager"]
 previous_url: controls/ajaxmanager/accessibility-and-internationalization/wai-aria-support
 tags: telerik, aspnet, ajax, ajaxmanager, waiaria, support, accessibility
 published: True

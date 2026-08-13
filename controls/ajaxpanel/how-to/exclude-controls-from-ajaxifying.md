@@ -3,6 +3,7 @@ title: Exclude Controls from Ajaxifying
 page_title: Exclude Controls from Ajaxifying
 description: Check our Web Forms article about Exclude Controls from Ajaxifying.
 slug: ajaxpanel/how-to/exclude-controls-from-ajaxifying
+components: ["ajaxpanel"]
 tags: exclude,controls,from,ajaxifying
 published: True
 position: 4

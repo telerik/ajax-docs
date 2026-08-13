@@ -3,6 +3,7 @@ title: Overview
 page_title: RadAjaxPanel Overview
 description: Learn how the AjaxPanel control enables partial page updates for improving application performance.
 slug: ajaxpanel/overview
+components: ["ajaxpanel"]
 previous_url: ajax/radajaxpanel/overview
 tags: overview
 published: True

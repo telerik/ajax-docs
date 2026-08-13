@@ -3,6 +3,7 @@ title: Using RadAjax in Medium Trust
 page_title: Using RadAjax in Medium Trust
 description: Check our Web Forms article about Using RadAjax in Medium Trust.
 slug: ajaxpanel/how-to/using-radajax-in-medium-trust
+components: ["ajaxpanel"]
 tags: using,radajax,in,medium,trust
 published: True
 position: 12

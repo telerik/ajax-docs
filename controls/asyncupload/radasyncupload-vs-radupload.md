@@ -3,6 +3,7 @@ title: RadAsyncUpload vs RadUpload
 page_title: RadAsyncUpload vs RadUpload - RadAsyncUpload
 description: Compare the features of RadAsyncUpload and RadUpload controls to choose the best option for file uploads.
 slug: asyncupload/radasyncupload-vs-radupload
+components: ["asyncupload"]
 tags: radasyncupload,vs,radupload
 published: True
 position: 1

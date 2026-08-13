@@ -3,6 +3,7 @@ title: Animation
 page_title: RadAjaxLoadingPanel Animation
 description: Check our Web Forms article about Animation.
 slug: ajaxloadingpanel/animation
+components: ["ajaxloadingpanel"]
 previous_url: ajax/radajaxloadingpanel/animation
 tags: animation
 published: True

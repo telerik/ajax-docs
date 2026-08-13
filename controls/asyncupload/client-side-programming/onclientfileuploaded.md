@@ -3,6 +3,7 @@ title: OnClientFileUploaded
 page_title: OnClientFileUploaded - RadAsyncUpload
 description: Check our Web Forms article about OnClientFileUploaded.
 slug: asyncupload/client-side-programming/onclientfileuploaded
+components: ["asyncupload"]
 tags: onclientfileuploaded
 published: True
 position: 8

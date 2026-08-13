@@ -3,6 +3,7 @@ title: Forcing a Postback
 page_title: Forcing a Postback
 description: Check our Web Forms article about Forcing a Postback.
 slug: ajaxpanel/client-side-programming/how-to/forcing-a-postback
+components: ["ajaxpanel"]
 tags: forcing,a,postback
 published: True
 position: 3
